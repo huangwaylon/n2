@@ -162,6 +162,158 @@ N2F({
         },
       ],
     },
+    {
+      no: 129,
+      pattern: "〜を{込|こ}めて",
+      phrase: "気持ち**を{込|こ}めて**",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「〜を{込|こ}めて…」は、「{愛情|あいじょう}、思いなどの気持ちを入れて（…する）」という意味で使う。",
+        en: "Use \"〜を{込|こ}めて…\" to mean \"do … with a lot of love, thought or the like.\"",
+      },
+      forms: ["[N] + を{込|こ}めて"],
+      formNotes: [
+        { ja: "「心・{愛|あい}・{親|した}しみ・{祈|いの}り・{恨|うら}み・{怒|いか}り」などの言葉と一緒に使われる。", en: "It is used with words such as 心, 愛, 親しみ, 祈り, 恨み and 怒り." },
+      ],
+      examples: [
+        { ja: "{当店|とうてん}では１つ１つのお{菓子|かし}を、心を{込|こ}めて{手作|てづく}りしております。", en: "At our shop, we make each and every sweet by hand, with all our heart." },
+        { ja: "クラスメートはお{互|たが}いに{親|した}しみを{込|こ}めてニックネームで呼び合っている。", en: "The classmates affectionately call each other by nicknames." },
+        { ja: "あなたの大切な方に、{愛|あい}を{込|こ}めてダイヤモンドをプレゼントしてはいかがでしょうか。", en: "Why not give a diamond, with love, to someone special to you?" },
+        { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで{千羽鶴|せんばづる}を{折|お}った。", en: "Hoping our friend in the hospital would get well soon, we all folded a thousand paper cranes for him." },
+      ],
+      deepDive: "**Nを込めて** (込める *to load, to put into*) describes the feeling that is poured into an action: 心を込めて作る *make with care*, 愛を込めて贈る *give with love*. It's the adverbial form; the noun-modifying form is **Nを込めた + N**: 感謝を込めた手紙, 願いを込めた歌.\n\nWhat can be 込めた: 心, 愛（情）, 気持ち, 思い, 感謝, 願い, 祈り, 親しみ, 皮肉 (irony), 恨み, 怒り. So it's not only positive — 恨みを込めてにらむ *glare with hatred*. Physical force too: **力を込めて押す** *push with all one's strength*.\n\n- **心を込めて** is almost a set phrase: 心を込めてお作りしました (restaurant/shop language), 心を込めて歌います.\n- Often preceded by **〜への**: 平和への願いを込めて, 故郷への思いを込めて.\n\nGrammar distractors seen with it on the test:\n- **〜にこたえて** (#118): *in response to (a request, expectation)*: ファンの声援にこたえて.\n- **〜に先立って** (#116): *prior to*.\n- **〜につれて** (#65): *as ~ changes*.\n- **〜にそって** (#108): *in line with (a plan, policy)*.\n\nQuick test: if the noun is a **feeling** and the action is done *with* that feeling, choose を込めて. If the noun is a request/expectation, it's にこたえて; if it's a plan/manual, it's にそって.\n\nNote the kanji: 込める (こめる) — the same 込 as 込む (こむ, *be crowded*). In many texts it's written in hiragana: 心をこめて.",
+      see: [65, 108, 116, 118],
+      index: ["Nを込めて", "Nを込めた", "心を込めて"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "母の{誕生日|たんじょうび}に心（　）セーターを{編|あ}んだ。", options: ["を{込|こ}めて", "にこたえて"], answer: 0, en: "I knitted a sweater with all my heart for my mother's birthday." },
+            { q: "両親を{殺|ころ}された男は{恨|うら}み（　）{犯人|はんにん}をにらみつけた。", options: ["を{込|こ}めて", "に{先立|さきだ}って"], answer: 0, en: "The man whose parents had been murdered glared at the culprit with hatred." },
+            { q: "彼女は{故郷|こきょう}への思い（　）その{曲|きょく}を作ったそうだ。", options: ["を{込|こ}めて", "につれて"], answer: 0, en: "I hear she wrote that song with her feelings for her hometown poured into it." },
+            { q: "学生たちは{計画|けいかく}（　）{発表会|はっぴょうかい}の{準備|じゅんび}を進めた。", options: ["を{込|こ}めて", "にそって"], answer: 1, en: "The students went ahead with preparations for the presentation in line with the plan." },
+          ],
+        },
+      ],
+    },
+    {
+      no: 130,
+      pattern: "〜も〜ば〜も",
+      phrase: "荷物運び**も**すれ**ば**{切符|きっぷ}**も**売る",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "プラスイメージの言葉を{重|かさ}ねて「よい点が多くある」と言うときと、マイナスイメージの言葉を{重|かさ}ねて、「悪い点が多くある」と言うときに使われる。「家で食べる日もあれば外で食べる日もある」のように、「いろいろある」という意味を表すこともある。",
+        en: "This is used with positive words to say there are many good points about something, or with negative words to say there are many bad points about something. It can also express variety as in \"家で食べる日もあれば外で食べる日もある\".",
+      },
+      forms: ["[N] + も + [V-ば] + [N] + も", "[N] + も + [いA~~い~~] ければ + [N] + も", "[N] + も + [なA] なら + [N] + も"],
+      examples: [
+        { ja: "今度できたスーパーは{品数|しなかず}も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection and low prices too, so it's hugely popular." },
+        { ja: "私は料理も下手なら{掃除|そうじ}も{苦手|にがて}で、{家事|かじ}で{得意|とくい}なものは何もないんです。", en: "I'm bad at cooking and bad at cleaning too — there's no housework I'm good at." },
+        { ja: "このバスツアーは4,980円で、昼食の食べ{放題|ほうだい}もあればお{土産|みやげ}もついていますから、たいへんお{得|とく}です。", en: "This bus tour costs 4,980 yen, and it includes an all-you-can-eat lunch and souvenirs too, so it's a great deal." },
+        { ja: "長い人生、いいときもあれば悪いときもあるよ。", en: "Life is long — there are good times and there are bad times." },
+        { ja: "５月は{気温|きおん}が25度以上になる日もあれば、20度以下で{肌寒|はださむ}い日もある。", en: "In May, there are days when the temperature rises above 25 degrees, and also chilly days when it's below 20." },
+      ],
+      deepDive: "**A も 〜ば B も 〜** lists two facts in the same direction to emphasize *not only this but also that*. The conditional ば here has nothing to do with *if*; it just links the two clauses.\n\nRules of thumb:\n- **Same direction**: both good (駅も近ければ家賃も安い) or both bad (態度も悪ければ料理もまずい). Mixing sounds wrong: ✗駅も近ければ家賃も高い (use けど / が for contrast).\n- **Forms**: V-ば (話せれば, あれば, すれば), いA-ければ (近ければ, よければ), なA-なら / N-なら (得意なら, 上手なら, 学生なら).\n- **Negatives** fit too: 新聞も読まなければテレビも見ない *reads no newspapers and watches no TV*.\n\nThe **variety** use: **〜もあれば〜もある / 〜もいれば〜もいる** *some ~, others ~*: 賛成する人もいれば反対する人もいる, 5月は暑い日もあれば寒い日もある. Here the two parts can be opposites — that's the point (there's a mix).\n\nCompare other listing patterns:\n- **〜し、〜し** (N4): casual, often giving reasons: 安いし、近いし.\n- **〜やら〜やら** (#98): lists a chaotic mix of things, usually with a feeling of hassle.\n- **〜にしても〜にしても** (#106): *whether A or B*.\n\nCommon mistake: using たら instead of ば (✗駅も近かったら家賃も安い) — only ば (or なら) makes this listing pattern.\n\nJLPT tip: this pattern is a favorite in 問題2 (sentence ordering). Look for two も-pieces and one ば-piece: the order is always **N1も → 〜ば → N2も → predicate**. Then check which predicate matches which ば-form.",
+      see: [98, 106],
+      index: ["NもVばNも", "〜も〜ば〜も", "〜もあれば〜もある", "〜もいれば〜もいる"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option for each blank." },
+          items: [
+            {
+              q: "ABC{商事|しょうじ}は{給料|きゅうりょう}も（ 1 ）ば、{福利厚生|ふくりこうせい}も（ 2 ）ので{就職|しゅうしょく}を{希望|きぼう}する学生が多い。",
+              parts: [
+                { tag: "1", options: ["高けれ", "低けれ"], answer: 0 },
+                { tag: "2", options: ["よい", "悪い"], answer: 0 },
+              ],
+              en: "ABC Trading pays well and has good benefits too, so many students want to work there.",
+            },
+            {
+              q: "この{辺|へん}は{海水浴|かいすいよく}も（ 1 ）{山登|やまのぼ}りも（ 2 ）から、最近人気が出てきているんですよ。",
+              parts: [
+                { tag: "1", options: ["できれば", "できなければ"], answer: 0 },
+                { tag: "2", options: ["楽しめる", "楽しめない"], answer: 0 },
+              ],
+              en: "Around here you can swim in the sea and enjoy mountain climbing too, so it's been getting popular lately.",
+            },
+            {
+              q: "最近はインターネットで何でもできるので、新聞も（ 1 ）ばテレビも（ 2 ）人が増えているそうだ。",
+              parts: [
+                { tag: "1", options: ["読め", "読まなけれ"], answer: 1 },
+                { tag: "2", options: ["見る", "見ない"], answer: 1 },
+              ],
+              en: "These days you can do anything on the internet, so I hear more and more people neither read newspapers nor watch TV.",
+            },
+            { q: "どの国にもいい人もいれば悪い人も（　）。", options: ["いる", "いない"], answer: 0, en: "Every country has good people and bad people." },
+          ],
+        },
+      ],
+    },
+    {
+      no: 131,
+      pattern: "〜ぬく",
+      phrase: "やり**ぬく**ぞ",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「〜ぬく」は、「{苦|くる}しくても最後までがんばって〜をする」という意味で使われる。また、「{非常|ひじょう}に〜する」という意味を表すこともある。",
+        en: "\"〜ぬく\" is used to mean \"I'll do my best to do 〜 to the end, even if it's difficult.\" It can also express \"do 〜 an extreme amount.\"",
+      },
+      forms: ["[V-~~ます~~] + ぬく"],
+      formNotes: [
+        { ja: "「やる・生きる・がんばる」「考える・{悩|なや}む・困る・{苦|くる}しむ」などの言葉と一緒に使われる。", en: "It is used with words such as やる, 生きる and がんばる, or 考える, 悩む, 困る and 苦しむ." },
+      ],
+      examples: [
+        { ja: "一度やると決めたからには、どんな{困難|こんなん}があっても最後までやりぬく{覚悟|かくご}です。", en: "Now that I've decided to do it, I'm prepared to see it through to the end, whatever difficulties arise." },
+        { ja: "けがで思うように練習ができないまま{出場|しゅつじょう}し、それでも最後まで{戦|たたか}いぬいた{山川選手|やまかわせんしゅ}はよくがんばったと思う。", en: "I think Yamakawa did really well: he competed without being able to train as he'd have liked because of his injury, and still fought all the way to the end." },
+        { ja: "父が{祖父|そふ}から{受|う}け{継|つ}ぎ、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I intend to grow this shop — which my father inherited from my grandfather and kept going through everything — into something bigger." },
+        { ja: "{北国|きたぐに}の長い冬を{耐|た}えぬいた{植物|しょくぶつ}が{芽|め}を出すと、春の{訪|おとず}れを感じる。", en: "When plants that have endured the long northern winter send out buds, I feel that spring has come." },
+      ],
+      deepDive: "**V-stem + ぬく** (抜く *to pull through, to go all the way*) has two related meanings:\n\n- **Doing something to the end despite hardship**: やりぬく, がんばりぬく, 走りぬく, 戦いぬく, 生きぬく, 守りぬく, 耐えぬく. It carries determination and endurance — perfect for declarations: 最後までやりぬくぞ！ 必ず守りぬく.\n- **Doing something thoroughly / to the extreme**, with verbs of thinking or suffering: 考えぬく, 悩みぬく, 困りぬく, 苦しみぬく, 選びぬく (選びぬかれた素材 *carefully selected ingredients*). 悩みぬいた末 (#124) is a very natural combination.\n\nGrammar: ぬく conjugates as a normal godan verb: ぬいた, ぬいて, ぬける (potential: やりぬける *can see it through*), ぬこう.\n\nCompare:\n- **〜きる** (N3): *completely* — focuses on finishing a quantity or reaching a limit: 使いきる, 食べきる, 疲れきる. ぬく focuses on perseverance through difficulty. 走りきる and 走りぬく are both possible, but ぬく emphasizes the struggle.\n- **〜通す**: *keep doing without change*: 貫き通す, 黙り通す.\n\nDistractors on the test: **〜がち** (#111, *tend to*), **〜つつ** (#30, *while*), **〜がたい** (#126, *hard to*). Remember: 生きがちには ✗, but 生きぬくには ✓.\n\nCommon mistake: attaching ぬく to verbs with no sense of effort (✗寝ぬく, ✗見ぬく in the sense of ‘watch to the end’ — 見抜く actually means *to see through (a lie)*, a separate word).",
+      see: [30, 111, 124, 126],
+      index: ["Vぬく", "やりぬく", "考えぬく"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "{不景気|ふけいき}で{就職難|しゅうしょくなん}のこの{時代|じだい}を生き（　）には{精神力|せいしんりょく}が{必要|ひつよう}だ。", options: ["ぬく", "がち"], answer: 0, en: "To survive this era of recession and scarce jobs, you need mental strength." },
+            { q: "アルバイトをし（　）、専門学校で{公認会計士|こうにんかいけいし}になる勉強をした。", options: ["ぬき", "つつ"], answer: 1, en: "While working part-time, I studied at a vocational school to become a certified public accountant." },
+            { q: "家族とも{相談|そうだん}し、いろいろ考え（　）{末|すえ}の{転職|てんしょく}だったんです。", options: ["ぬいた", "に{比|くら}べた"], answer: 0, en: "I changed jobs after talking it over with my family and thinking it through thoroughly." },
+            { q: "みんなで{協力|きょうりょく}すれば、どんな{事態|じたい}が起こってもこのプロジェクトをやり（　）と{確信|かくしん}しています。", options: ["ぬける", "がたい"], answer: 0, en: "I'm convinced that if we all work together, we can see this project through no matter what happens." },
+          ],
+        },
+      ],
+    },
   ],
-  check: [],
+  check: [
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
+      bank: ["を{込|こ}めて", "もかまわず", "ぬく", "あまり", "がたい"],
+      items: [
+        { q: "彼は冷たい風が{吹|ふ}きつけるの＿＿じっと海を見つめていた。", answer: "もかまわず", en: "Not minding the cold wind blowing against him, he gazed steadily at the sea." },
+        { q: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", answer: "を{込|こ}めて", en: "I wholeheartedly entertained the old friend who had come all that way to visit me." },
+        { q: "{優勝|ゆうしょう}した{瞬間|しゅんかん}、{応援|おうえん}していたファンは、{喜|よろこ}びの＿＿{抱|だ}き{合|あ}って{泣|な}き{出|だ}した。", answer: "あまり", en: "The moment the team won the championship, the fans who had been cheering them on were so overjoyed that they hugged each other and burst into tears." },
+        { q: "{苦|くる}しい{訓練|くんれん}に{耐|た}え＿＿ことができたのはすばらしい{仲間|なかま}がいたからだ。", answer: "ぬく", en: "I was able to endure the hard training to the end because I had wonderful teammates." },
+        { q: "こんな{事件|じけん}が起きたとは信じ＿＿が、{事実|じじつ}なのだ。", answer: "がたい", en: "It's hard to believe that such an incident happened, but it's the truth." },
+      ],
+    },
+    {
+      type: "choice",
+      labels: "ab",
+      prompt: { ja: "", en: "Choose the correct option." },
+      items: [
+        { q: "彼女は{手芸|しゅげい}が{得意|とくい}で、セーターも（　）ワンピースも作る。", options: ["{編|あ}めば", "{編|あ}んでも"], answer: 0, en: "She's good at handicrafts — she knits sweaters and makes dresses too." },
+        { q: "たとえ会社をクビに（　）、{不正|ふせい}を{告発|こくはつ}しなければならないと思った。", options: ["なれば", "なっても"], answer: 1, en: "I felt I had to blow the whistle on the wrongdoing, even if it meant getting fired." },
+      ],
+    },
+  ],
 });

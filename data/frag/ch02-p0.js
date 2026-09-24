@@ -35,7 +35,7 @@ N2F({
       examples: [
         { ja: "母が入院して{以来|いらい}、{家事|かじ}はすべて私がしています。", en: "Ever since my mother went into hospital, I have been doing all the housework." },
         { ja: "3年前の夏休みに帰国して{以来|いらい}、長い間家族に会っていません。", en: "Since I went home during the summer vacation three years ago, I haven't seen my family for a long time." },
-        { ja: "こちらに{引|ひ}っ越して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine." },
+        { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine." },
         { ja: "{山野|やまの}君とは卒業{以来|いらい}、まったく{連絡|れんらく}が取れない。", en: "I haven't been able to get in touch with Yamano at all since graduation." },
         { ja: "彼は2000年4月{以来|いらい}、1日も休まず{遺伝子|いでんし}の研究を続けている。", en: "Since April 2000 he has continued his genetic research without taking a single day off." },
       ],

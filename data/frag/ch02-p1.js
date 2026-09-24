@@ -30,12 +30,12 @@ N2F({
       },
       forms: ["[N₁] + を + [N₂] + とした + [N]", "[N₁] + を + [N₂] + とする", "[N₁] + を + [N₂] + として／に"],
       formNotes: [
-        { ja: "「{目的|もくてき}・{中心|ちゅうしん}・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。", en: "Used together with words such as 目的 (purpose), 中心 (center), 対象 (target), 手本 (model) and 前提 (premise)." },
+        { ja: "「{目的|もくてき}・中心・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。", en: "Used together with words such as 目的 (purpose), 中心 (center), 対象 (target), 手本 (model) and 前提 (premise)." },
       ],
       examples: [
         { ja: "「みどりの{会|かい}」は{環境|かんきょう}{保護|ほご}{活動|かつどう}を{目的|もくてき}とする市民の{組織|そしき}です。", en: "The Midori Society is a citizens' organization whose aim is environmental protection." },
         { ja: "今回のシンポジウムは日本の{伝統|でんとう}{芸能|げいのう}をテーマとして{行|おこな}われます。", en: "This symposium will be held on the theme of Japan's traditional performing arts." },
-        { ja: "今回の話し合いの{結果|けっか}を私たちの{総意|そうい}として社長に{伝|つた}えることにしましょう。", en: "Let's convey the outcome of this discussion to the president as our collective opinion." },
+        { ja: "今回の話し合いの{結果|けっか}を私たちの{総意|そうい}として社長に伝えることにしましょう。", en: "Let's convey the outcome of this discussion to the president as our collective opinion." },
         { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を{手本|てほん}として{成長|せいちょう}していくのであろう。", en: "There is a saying, “A child is the mirror of its parents”; children probably grow up taking their parents as their model." },
         { ja: "わが社ではエンジニアを中心に、安全な車づくりの研究が{行|おこな}われている。", en: "At our company, research into building safe cars is being carried out, led by our engineers." },
         { ja: "{結婚|けっこん}を{前提|ぜんてい}に彼女に{交際|こうさい}を申し込んだ。", en: "I asked her to go out with me with a view to marriage." },
@@ -88,7 +88,7 @@ N2F({
         { ja: "日本のドラマをきっかけとして、日本文化に{関心|かんしん}を持つようになった。", en: "Japanese TV dramas got me interested in Japanese culture." },
         { ja: "小学生の{投書|とうしょ}がきっかけで、駅前の公園をきれいにしようという{活動|かつどう}が始まった。", en: "A letter to the editor from an elementary school student sparked a campaign to clean up the park in front of the station." },
         { ja: "彼と{友人|ゆうじん}になったのは、入学式で{隣|となり}に座ったことがきっかけだった。", en: "He and I became friends because we sat next to each other at the entrance ceremony." },
-        { ja: "私が{昆虫|こんちゅう}{学者|がくしゃ}を{目指|めざ}したきっかけは、子どものときに{夢中|むちゅう}で読んだ「ファーブル{昆虫記|こんちゅうき}」です。", en: "What made me aim to become an entomologist was Fabre's Book of Insects, which I read avidly as a child." },
+        { ja: "私が{昆虫|こんちゅう}{学者|がくしゃ}を{目指|めざ}したきっかけは、子どものときに{夢中|むちゅう}で読んだ『ファーブル{昆虫記|こんちゅうき}』です。", en: "What made me aim to become an entomologist was Fabre's Book of Insects, which I read avidly as a child." },
       ],
       plus: [
         {

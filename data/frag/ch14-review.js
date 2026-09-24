@@ -1,0 +1,97 @@
+N2F({ ch: 14, review: [
+  {
+    title: { ja: "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉", en: "Question 1: Grammar form" },
+    ex: {
+      type: "choice", labels: "123",
+      prompt: { ja: "次の文の（　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。", en: "Choose the best option from 1, 2, 3 and 4 to fill the (　) in each sentence." },
+      items: [
+        { q: "新しい生活を始める（　）、大学の近くに部屋を探すことにした。",
+          options: ["において", "にしたがって", "に{基|もと}づいて", "にあたって"], answer: 3,
+          en: "On starting a new life, I decided to look for a room near the university.",
+          why: { en: "にあたって = \"on the occasion of / when about to\" start something important." } },
+        { q: "学生{時代|じだい}はよくこの公園の{芝生|しばふ}で{昼寝|ひるね}をした（　）。{懐|なつ}かしいなあ。",
+          options: ["ことだ", "ものだ", "だけだ", "わけだ"], answer: 1,
+          en: "When I was a student, I often used to nap on the lawn in this park. That brings back memories.",
+          why: { en: "V-たものだ expresses nostalgic recollection of a past habit." } },
+        { q: "この{製品|せいひん}の使用法（　）は、ホームページをご{覧|らん}ください。",
+          options: ["について", "にあたって", "をめぐって", "に{基|もと}づいて"], answer: 0,
+          en: "For how to use this product, please see our website.",
+          why: { en: "について = \"about / regarding\" a topic (here, usage instructions)." } },
+        { q: "人は自分の{経験|けいけん}（　）{判断|はんだん}することが多いので、正しい{判断|はんだん}をするにはたくさんの{経験|けいけん}が{必要|ひつよう}だと言われる。",
+          options: ["にしては", "に{基|もと}づいて", "に{加|くわ}えて", "にあたり"], answer: 1,
+          en: "People often make judgments based on their own experience, so it is said that you need a lot of experience to make correct judgments.",
+          why: { en: "に基づいて = \"based on\" something as the foundation." } },
+        { q: "{原子力発電所|げんしりょくはつでんしょ}の安全性（　）、世界{各地|かくち}で{議論|ぎろん}が{行|おこな}われている。",
+          options: ["を{込|こ}めて", "を{問|と}わず", "をめぐって", "をもとに"], answer: 2,
+          en: "Debates are being held all over the world over the safety of nuclear power plants.",
+          why: { en: "をめぐって = \"surrounding / over\" a contested issue that causes debate." } },
+      ],
+    },
+  },
+  {
+    title: { ja: "問題2 〈{文|ぶん}の{組|く}み{立|た}て〉", en: "Question 2: Sentence composition" },
+    ex: {
+      type: "order",
+      prompt: { ja: "次の文の＿★＿に入る最もよいものを1・2・3・4から一つ選びなさい。", en: "Choose the best option from 1, 2, 3 and 4 for the ★ slot." },
+      items: [
+        { before: "{地域|ちいき}住民が新しいホテルの", after: "起こしたそうだ。",
+          pieces: ["運動を", "{建設|けんせつ}", "{反対|はんたい}", "をめぐって"],
+          order: [1, 3, 2, 0], star: 2,
+          en: "I hear local residents started an opposition campaign over the construction of the new hotel." },
+        { before: "{結婚|けっこん}しない{若者|わかもの}の{増加|ぞうか}も問題だが、", after: "人が増えているのも問題だろう。",
+          pieces: ["子どもを{産|う}もう", "{結婚|けっこん}した", "としない", "としても"],
+          order: [1, 3, 0, 2], star: 2,
+          en: "The increase in young people who don't marry is a problem, but the growing number of people who, even if they marry, don't try to have children is probably a problem too." },
+        { before: "この{温泉|おんせん}は、", after: "{効果|こうか}もあります。",
+          pieces: ["{回復|かいふく}", "{疲労|ひろう}", "{美肌|びはだ}の", "に{加|くわ}えて"],
+          order: [1, 0, 3, 2], star: 2,
+          en: "In addition to relieving fatigue, this hot spring also has a skin-beautifying effect." },
+      ],
+    },
+  },
+  {
+    title: { ja: "問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉", en: "Question 3: Grammar in a passage" },
+    ex: {
+      type: "passage",
+      prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
+      title: "",
+      text: [
+        "{交差点|こうさてん}で{車同士|くるまどうし}が{衝突|しょうとつ}する{事故|じこ}が起きた。{事故原因|じこげんいん}の{調査|ちょうさ}では、運転手に{重大|じゅうだい}な{過失|かしつ}は{認|みと}められなかった。{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は{判決|はんけつ}[2]、200万円を{支払|しはら}うこととなった。道路{管理|かんり}に問題があったと{認|みと}められた[3]。今回の{事故|じこ}[4]、{大山|おおやま}市は市内のすべての道路の安全{調査|ちょうさ}を{実施|じっし}するとのことだ。",
+      ],
+      en: [
+        "A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city was ordered to pay 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city.",
+      ],
+      blanks: [
+        { options: ["を{通|つう}じて", "をめぐって", "を{問|と}わず", "をはじめ"], answer: 1,
+          why: { en: "をめぐって: the court case was over (concerning) this accident." } },
+        { options: ["に{限|かぎ}って", "にわたって", "に{基|もと}づいて", "にさえ"], answer: 2,
+          why: { en: "判決に基づいて = \"based on the ruling\", the city pays." } },
+        { options: ["ものがある", "きりだ", "にすぎない", "わけだ"], answer: 3,
+          why: { en: "わけだ draws the logical conclusion: \"that means it was recognized that ...\"." } },
+        { options: ["を{契機|けいき}に", "もかまわず", "に{加|くわ}えて", "に{先立|さきだ}って"], answer: 0,
+          why: { en: "を契機に = \"taking ~ as an opportunity / trigger\" for a new action." } },
+      ],
+    },
+  },
+  {
+    title: { ja: "問題4 〈{読解|どっかい}〉", en: "Question 4: Reading comprehension" },
+    ex: {
+      type: "reading", labels: "123",
+      prompt: { ja: "次の文章を読んで問題に答えなさい。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and answer the question. Choose the best answer from 1, 2, 3 and 4." },
+      title: "",
+      text: [
+        "{新|あら}たな高速道路{建設|けんせつ}をめぐって、{現在様々|げんざいさまざま}な{議論|ぎろん}が{行|おこな}われている。新しい高速道路ができれば、{地域経済|ちいきけいざい}が{活発|かっぱつ}になると{期待|きたい}する人も多い。しかし、国民の{幸福|こうふく}という{基本理念|きほんりねん}に{基|もと}づいて{建設計画|けんせつけいかく}が作られたとしても、まずその{費用|ひよう}をどうするのかが問題だ。{資金|しきん}問題に{加|くわ}えて、{周辺地域|しゅうへんちいき}への{騒音|そうおん}や{大気汚染|たいきおせん}をどうするかも{検討|けんとう}しなければなるまい。{建設|けんせつ}にあたって、クリアしなければならない問題はまだ{数多|かずおお}く、{決定|けってい}には時間がかかるものと思われる。",
+      ],
+      en: [
+        "Various debates are currently taking place over the construction of a new expressway. Many people expect that if a new expressway is built, the regional economy will become more active. However, even if the construction plan is drawn up based on the fundamental principle of the people's happiness, the first problem is what to do about its cost. In addition to the funding problem, we must also consider what to do about noise and air pollution in the surrounding areas. There are still many problems that must be cleared in carrying out the construction, and it seems a decision will take time.",
+      ],
+      items: [
+        { q: "{筆者|ひっしゃ}が一番言いたいことは何ですか。",
+          options: ["高速道路を新しく作る{必要|ひつよう}があること", "高速道路ができれば、{地域経済|ちいきけいざい}が{活発|かっぱつ}になること", "高速道路ができれば、国民が{幸福|こうふく}になること", "高速道路の{建設|けんせつ}にはいろいろな問題があること"],
+          answer: 3,
+          en: "What does the writer most want to say?",
+          why: { en: "The passage lists cost, noise and air pollution as issues and concludes many problems remain, so a decision will take time." } },
+      ],
+    },
+  },
+] });
