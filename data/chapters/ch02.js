@@ -68,7 +68,7 @@ N2.register({
               "en": "Since I went home during the summer vacation three years ago, I haven't seen my family for a long time."
             },
             {
-              "ja": "こちらに{引|ひ}っ越して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。",
+              "ja": "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。",
               "en": "Ever since I moved here, I've made a walk part of my daily routine."
             },
             {
@@ -594,7 +594,7 @@ N2.register({
               "en": "Young as he is, he is a fine project leader."
             },
             {
-              "ja": "{練習試合|れんしゅうじあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。",
+              "ja": "練習{試合|じあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。",
               "en": "Although it was only a practice match, beating last year's champions gives us a lot of confidence."
             },
             {
@@ -792,7 +792,7 @@ N2.register({
           ],
           "formNotes": [
             {
-              "ja": "「{目的|もくてき}・{中心|ちゅうしん}・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。",
+              "ja": "「{目的|もくてき}・中心・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。",
               "en": "Used together with words such as 目的 (purpose), 中心 (center), 対象 (target), 手本 (model) and 前提 (premise)."
             }
           ],
@@ -806,7 +806,7 @@ N2.register({
               "en": "This symposium will be held on the theme of Japan's traditional performing arts."
             },
             {
-              "ja": "今回の話し合いの{結果|けっか}を私たちの{総意|そうい}として社長に{伝|つた}えることにしましょう。",
+              "ja": "今回の話し合いの{結果|けっか}を私たちの{総意|そうい}として社長に伝えることにしましょう。",
               "en": "Let's convey the outcome of this discussion to the president as our collective opinion."
             },
             {
@@ -896,7 +896,7 @@ N2.register({
         {
           "no": 17,
           "pattern": "〜をきっかけに",
-          "phrase": "この{転勤|てんきん}**をきっかけに**",
+          "phrase": "この{転勤|てんきん}を**きっかけ**に",
           "stars": 1,
           "marks": [],
           "usage": {
@@ -918,7 +918,7 @@ N2.register({
               "en": "He and I became friends because we sat next to each other at the entrance ceremony."
             },
             {
-              "ja": "私が{昆虫|こんちゅう}{学者|がくしゃ}を{目指|めざ}したきっかけは、子どものときに{夢中|むちゅう}で読んだ「ファーブル{昆虫記|こんちゅうき}」です。",
+              "ja": "私が{昆虫|こんちゅう}{学者|がくしゃ}を{目指|めざ}したきっかけは、子どものときに{夢中|むちゅう}で読んだ『ファーブル{昆虫記|こんちゅうき}』です。",
               "en": "What made me aim to become an entomologist was Fabre's Book of Insects, which I read avidly as a child."
             }
           ],
@@ -1147,7 +1147,7 @@ N2.register({
           "stars": 3,
           "marks": [],
           "usage": {
-            "ja": "「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100％そうだと言いたくないときにも使う。",
+            "ja": "「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100%そうだと言いたくないときにも使う。",
             "en": "Use \"〜わけではない\" when you make a denial as in \"that's not the situation; it doesn't feel like that; not for that reason.\" Use it when you refute another person's idea or a typical judgment as in \"病気が治ったわけではない\". You can also use it when you do not want to say that something is 100% for sure, as in \"嫌いなわけではない\"."
           },
           "forms": [
@@ -1265,7 +1265,7 @@ N2.register({
               "en": "He carried the heavy luggage away without a single word of complaint."
             },
             {
-              "ja": "その後、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。",
+              "ja": "その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。",
               "en": "After that, she ended her eighty-year life without ever once visiting her hometown again."
             },
             {
@@ -1352,7 +1352,7 @@ N2.register({
             "en": "\"〜にもかかわらず\" means \"although / despite 〜\". Use it to mean that something is actually different from what one would expect from the situation."
           },
           "forms": [
-            "[V-て]いる + にもかかわらず",
+            "[V-て] いる + にもかかわらず",
             "[V-た] + にもかかわらず",
             "[N] + にもかかわらず"
           ],

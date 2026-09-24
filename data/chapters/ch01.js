@@ -39,7 +39,7 @@ N2.register({
             "en": "Qualifications: regardless of age, experience or nationality, motivated people are very welcome!"
           },
           {
-            "ja": "＊{商品|しょうひん}の{案内|あんない}や{接客|せっきゃく}{応対|おうたい}があるため、外国人の方は、日本語能力試験N2レベル以上の方**に{限|かぎ}り**、{応募|おうぼ}{可|か}。",
+            "ja": "＊{商品|しょうひん}の案内や{接客|せっきゃく}{応対|おうたい}があるため、外国人の方は、日本語能力試験N2レベル以上の方**に{限|かぎ}り**、{応募|おうぼ}{可|か}。",
             "en": "* Because the job involves explaining products and dealing with customers, foreign applicants may apply only if they are at JLPT N2 level or above."
           },
           {
@@ -146,7 +146,7 @@ N2.register({
               ],
               "right": [
                 "{階段|かいだん}をご{利用|りよう}ください。",
-                "お{早|はや}めにお{召|め}し{上|あ}がりください。",
+                "お早めにお{召|め}し{上|あ}がりください。",
                 "{入会金|にゅうかいきん}{無料|むりょう}。",
                 "{臨時|りんじ}{休業|きゅうぎょう}させていただきます。"
               ],
@@ -236,7 +236,7 @@ N2.register({
               },
               "items": [
                 {
-                  "q": "来週の{国際|こくさい}{交流|こうりゅう}会は、{国籍|こくせき}、{職業|しょくぎょう}（　）どなたでも{参加|さんか}できます。",
+                  "q": "来週の{国際|こくさい}{交流|こうりゅう}{会|かい}は、{国籍|こくせき}、{職業|しょくぎょう}（　）どなたでも{参加|さんか}できます。",
                   "options": [
                     "ばかりでなく",
                     "に対して",
@@ -390,7 +390,7 @@ N2.register({
                   "en": "You can try a lesson for free, limited to one time per person."
                 },
                 {
-                  "q": "お申し込みの{時期|じき}（　）、お届け日が変わりますのでご注意ください。",
+                  "q": "お申し込みの{時期|じき}（　）、お届け{日|び}が変わりますのでご注意ください。",
                   "options": [
                     "に{限|かぎ}り",
                     "によって"
@@ -728,11 +728,11 @@ N2.register({
                   "en": "When submitting the various documents, please strictly observe the deadline."
                 },
                 {
-                  "ja": "{振|ふ}り込みに{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。",
+                  "ja": "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。",
                   "en": "When making a bank transfer, the handling fee is to be paid by the customer."
                 },
                 {
-                  "ja": "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部商品の{発送|はっそう}が遅れましたことを深くおわびいたします。",
+                  "ja": "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。",
                   "en": "We sincerely apologize that, in shipping the products, the shipment of some items was delayed."
                 }
               ]
@@ -794,7 +794,7 @@ N2.register({
             "formal"
           ],
           "usage": {
-            "ja": "{規則|きそく}や{注意|ちゅうい}{事項|じこう}を説明するときに使う。",
+            "ja": "{規則|きそく}や注意{事項|じこう}を説明するときに使う。",
             "en": "This is often used to explain a rule or warning."
           },
           "forms": [
@@ -925,7 +925,7 @@ N2.register({
               "en": "When getting off, please do not stand up from your seat until the bus has stopped."
             },
             {
-              "q": "入学後、{引|ひ}っ{越|こ}しした場合は学生課に{住所|じゅうしょ}{変更|へんこう}{届|とどけ}を{提出|ていしゅつ}する＿＿。",
+              "q": "入学後、{引|ひ}っ{越|こ}しした場合は学生課に住所{変更|へんこう}{届|とどけ}を{提出|ていしゅつ}する＿＿。",
               "answer": "こと",
               "en": "If you move after enrolling, submit a change-of-address form to the Student Affairs Office."
             },

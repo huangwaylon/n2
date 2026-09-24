@@ -2,11 +2,11 @@ N2F({
   ch: 3,
   part: 0,
   head: {
-    genre: { ja: "{説明|せつめい}を{聞|き}く", en: "Listening to an Explanation" },
-    title: { ja: "ホテルの{仕事|しごと}", en: "A Hotel Job" },
+    genre: { ja: "説明を聞く", en: "Listening to an Explanation" },
+    title: { ja: "ホテルの仕事", en: "A Hotel Job" },
     canDo: [
-      { ja: "{仕事|しごと}などの{社会|しゃかい}{生活|せいかつ}の{場面|ばめん}での{心構|こころがま}えを{聞|き}いて、{理解|りかい}できる。", en: "Listen to and understand an explanation about the attitude required for a job or other adult setting." },
-      { ja: "クレーム{対応|たいおう}のし{方|かた}などについての{説明|せつめい}を{聞|き}いて、{理解|りかい}できる。", en: "Listen to and understand an explanation about how to handle complaints and the like." },
+      { ja: "仕事などの社会生活の場面での{心構|こころがま}えを聞いて、{理解|りかい}できる。", en: "Listen to and understand an explanation about the attitude required for a job or other adult setting." },
+      { ja: "クレーム{対応|たいおう}のし{方|かた}などについての説明を聞いて、{理解|りかい}できる。", en: "Listen to and understand an explanation about how to handle complaints and the like." },
     ],
   },
   label: "",
@@ -97,12 +97,13 @@ N2F({
           ja: "「見た・聞いた・調べた・知っている」などの動詞とともに使い、その{範囲|はんい}でわかっていることを言うときにも使う。",
           en: "Use this with verbs such as “見た・聞いた・調べた・知っている” when you want to say that you know something within that scope.",
           examples: [
-            { ja: "私が知っている{限|かぎ}りでは、{電気|でんき}{製品|せいひん}はこの店がいちばん安いです。", en: "As far as I know, this shop is the cheapest for electrical appliances." },
+            { ja: "私が知っている{限|かぎ}りでは、電気{製品|せいひん}はこの店がいちばん安いです。", en: "As far as I know, this shop is the cheapest for electrical appliances." },
             { ja: "調べた{限|かぎ}りでは、日本語を勉強するにはこの学校がいちばんいい。", en: "As far as I've been able to find out, this school is the best for studying Japanese." },
             { ja: "{同僚|どうりょう}から聞いた{限|かぎ}りでは、今度の部長は仕事に{厳|きび}しいらしいよ。", en: "From what I've heard from a colleague, the new department manager is apparently strict about work." },
           ],
         },
       ],
+      xref: "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
       deepDive:
         "**V限り** comes from 限り *limit*: the first clause sets the *limit within which* the second clause holds. 仕事を続ける限り、クレームに対応せざるを得ない = *within the limit of continuing this job* → *as long as you keep doing this job*.\n\n" +
         "Three connections to know:\n" +
@@ -113,7 +114,7 @@ N2F({
         "The clip note: **見た／聞いた／調べた／知っている限り（では）** limits the scope of the speaker's knowledge: *as far as I know*. It hedges the statement — the speaker admits there may be more.\n\n" +
         "Keep the 限る family apart (see the list on p.223):\n" +
         "- **Nに限り** (#3): *only* — 本日に限り.\n" +
-        "- **Nに限らず** (#71): *not only ~*.\n" +
+        "- **Nに限らず** (#72): *not only ~*.\n" +
         "- **Nに限って** (#86): *of all times/people* (bad luck).\n" +
         "- **〜に限る** (#104): *~ is the best*.\n" +
         "The easy check: 限り after a **verb** → *as long as / unless*; after **Nに** → *only*.\n\n" +
@@ -154,6 +155,7 @@ N2F({
         { ja: "日本は{食料|しょくりょう}を{輸入|ゆにゅう}に{頼|たよ}らざるを{得|え}ない{状態|じょうたい}だ。", en: "Japan is in a situation where it has no choice but to rely on imports for its food." },
         { ja: "{首相|しゅしょう}の{発言|はつげん}は{国民|こくみん}{感情|かんじょう}を{無視|むし}したものと言わざるを{得|え}ない。", en: "I have to say that the prime minister's remarks ignored the feelings of the public." },
       ],
+      xref: "☞ p.220　〜{得|う}る／{得|え}る",
       deepDive:
         "**〜ざるを得ない** is built from classical grammar: **ざる** is the attributive form of the old negative ず, and **を得ない** means *cannot obtain*. So 行かざるを得ない ≈ *cannot get (a choice of) not going* → *can't avoid going / have no choice but to go*. It's a double negative that expresses reluctant necessity.\n\n" +
         "Connection: take the ない-form and replace ない with ざる: 従わない → 従わざる, 受けない → 受けざる. Irregulars: **する → せざる** (中止せざるを得ない, 対応せざるを得ない), **来る → 来（こ）ざる**. Writing ✗しざるを得ない is a classic error.\n\n" +
@@ -214,6 +216,7 @@ N2F({
         { ja: "{泥棒|どろぼう}の{被害|ひがい}は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "Burglary can't necessarily be prevented just by locking your door." },
         { ja: "日本での{就職|しゅうしょく}には日本語能力試験N1{合格|ごうかく}が{必要|ひつよう}だと思われているが、なければだめだというものでもない。", en: "People think you need to pass JLPT N1 to get a job in Japan, but it's not as if you're hopeless without it." },
       ],
+      xref: "☞ p.224　〜もの／もん",
       deepDive:
         "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\n" +
         "Typical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n" +
@@ -234,7 +237,7 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "{山奥|やまおく}の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間暮らしてみて、{必|かなら}ずしも{都会|とかい}の便利で{快適|かいてき}な生活がいい（　）ことを知った。", options: ["に決まっている", "というものではない"], answer: 1, en: "After living for a week at a friend's house deep in the mountains, surrounded by nature, I learned that a convenient, comfortable city life isn't necessarily better." },
+            { q: "{山奥|やまおく}の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間{暮|く}らしてみて、{必|かなら}ずしも{都会|とかい}の便利で{快適|かいてき}な生活がいい（　）ことを知った。", options: ["に決まっている", "というものではない"], answer: 1, en: "After living for a week at a friend's house deep in the mountains, surrounded by nature, I learned that a convenient, comfortable city life isn't necessarily better." },
             { q: "{昨今|さっこん}の{就職難|しゅうしょくなん}を見ると、{資格|しかく}を取れば、仕事に{就|つ}ける（　）という{気|き}がする。", options: ["というものではない", "はずだ"], answer: 0, en: "Looking at how hard it is to find a job these days, I feel it's not simply the case that getting a qualification will land you a job." },
             { q: "安くすれば客は来る（　）と思うかもしれませんが、{商品|しょうひん}に{魅力|みりょく}がなければ安くても売れないんです。", options: ["にちがいない", "というものではない"], answer: 0, en: "You may think customers are sure to come if you lower prices, but if the products aren't appealing, they won't sell even if they're cheap." },
             { q: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、{限界|げんかい}を感じる。", options: ["わけだ", "というものではない"], answer: 1, en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits." },

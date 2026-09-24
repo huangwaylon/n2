@@ -2,20 +2,20 @@
 N2.register({
   "id": 3,
   "genre": {
-    "ja": "{説明|せつめい}を{聞|き}く",
+    "ja": "説明を聞く",
     "en": "Listening to an Explanation"
   },
   "title": {
-    "ja": "ホテルの{仕事|しごと}",
+    "ja": "ホテルの仕事",
     "en": "A Hotel Job"
   },
   "canDo": [
     {
-      "ja": "{仕事|しごと}などの{社会|しゃかい}{生活|せいかつ}の{場面|ばめん}での{心構|こころがま}えを{聞|き}いて、{理解|りかい}できる。",
+      "ja": "仕事などの社会生活の場面での{心構|こころがま}えを聞いて、{理解|りかい}できる。",
       "en": "Listen to and understand an explanation about the attitude required for a job or other adult setting."
     },
     {
-      "ja": "クレーム{対応|たいおう}のし{方|かた}などについての{説明|せつめい}を{聞|き}いて、{理解|りかい}できる。",
+      "ja": "クレーム{対応|たいおう}のし{方|かた}などについての説明を聞いて、{理解|りかい}できる。",
       "en": "Listen to and understand an explanation about how to handle complaints and the like."
     }
   ],
@@ -203,7 +203,7 @@ N2.register({
               "en": "Use this with verbs such as “見た・聞いた・調べた・知っている” when you want to say that you know something within that scope.",
               "examples": [
                 {
-                  "ja": "私が知っている{限|かぎ}りでは、{電気|でんき}{製品|せいひん}はこの店がいちばん安いです。",
+                  "ja": "私が知っている{限|かぎ}りでは、電気{製品|せいひん}はこの店がいちばん安いです。",
                   "en": "As far as I know, this shop is the cheapest for electrical appliances."
                 },
                 {
@@ -217,7 +217,8 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**V限り** comes from 限り *limit*: the first clause sets the *limit within which* the second clause holds. 仕事を続ける限り、クレームに対応せざるを得ない = *within the limit of continuing this job* → *as long as you keep doing this job*.\n\nThree connections to know:\n- **V-る限り**: *as long as ~* (a continuing condition): 働ける限り, 体が丈夫な限り. Also fixed: **できる限り** *as much as possible*.\n- **V-ている限り**: stresses an ongoing state: 仕事をしている限り / この町に住んでいる限り.\n- **V-ない限り**: *unless ~*: やり方を変えない限り、優勝は無理だ. The main clause is very often negative or a strong prediction (〜ない / 無理だ / だろう), making a “unless X, not Y” frame.\n\nThe second clause states a situation or judgment that *stays the same* while the condition holds. It is not used for one-off results: ✗駅に着いた限り、電話します → use たら.\n\nThe clip note: **見た／聞いた／調べた／知っている限り（では）** limits the scope of the speaker's knowledge: *as far as I know*. It hedges the statement — the speaker admits there may be more.\n\nKeep the 限る family apart (see the list on p.223):\n- **Nに限り** (#3): *only* — 本日に限り.\n- **Nに限らず** (#71): *not only ~*.\n- **Nに限って** (#86): *of all times/people* (bad luck).\n- **〜に限る** (#104): *~ is the best*.\nThe easy check: 限り after a **verb** → *as long as / unless*; after **Nに** → *only*.\n\nJLPT tip: the classic trap is choosing between V-る限り and V-ない限り (exactly what the practice drills). Ask whether the first clause is the condition for the situation to *continue* (る) or the thing that must happen to *stop* it (ない).",
+          "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
+          "deepDive": "**V限り** comes from 限り *limit*: the first clause sets the *limit within which* the second clause holds. 仕事を続ける限り、クレームに対応せざるを得ない = *within the limit of continuing this job* → *as long as you keep doing this job*.\n\nThree connections to know:\n- **V-る限り**: *as long as ~* (a continuing condition): 働ける限り, 体が丈夫な限り. Also fixed: **できる限り** *as much as possible*.\n- **V-ている限り**: stresses an ongoing state: 仕事をしている限り / この町に住んでいる限り.\n- **V-ない限り**: *unless ~*: やり方を変えない限り、優勝は無理だ. The main clause is very often negative or a strong prediction (〜ない / 無理だ / だろう), making a “unless X, not Y” frame.\n\nThe second clause states a situation or judgment that *stays the same* while the condition holds. It is not used for one-off results: ✗駅に着いた限り、電話します → use たら.\n\nThe clip note: **見た／聞いた／調べた／知っている限り（では）** limits the scope of the speaker's knowledge: *as far as I know*. It hedges the statement — the speaker admits there may be more.\n\nKeep the 限る family apart (see the list on p.223):\n- **Nに限り** (#3): *only* — 本日に限り.\n- **Nに限らず** (#72): *not only ~*.\n- **Nに限って** (#86): *of all times/people* (bad luck).\n- **〜に限る** (#104): *~ is the best*.\nThe easy check: 限り after a **verb** → *as long as / unless*; after **Nに** → *only*.\n\nJLPT tip: the classic trap is choosing between V-る限り and V-ない限り (exactly what the practice drills). Ask whether the first clause is the condition for the situation to *continue* (る) or the thing that must happen to *stop* it (ない).",
           "see": [
             3,
             72,
@@ -321,6 +322,7 @@ N2.register({
               "en": "I have to say that the prime minister's remarks ignored the feelings of the public."
             }
           ],
+          "xref": "☞ p.220　〜{得|う}る／{得|え}る",
           "deepDive": "**〜ざるを得ない** is built from classical grammar: **ざる** is the attributive form of the old negative ず, and **を得ない** means *cannot obtain*. So 行かざるを得ない ≈ *cannot get (a choice of) not going* → *can't avoid going / have no choice but to go*. It's a double negative that expresses reluctant necessity.\n\nConnection: take the ない-form and replace ない with ざる: 従わない → 従わざる, 受けない → 受けざる. Irregulars: **する → せざる** (中止せざるを得ない, 対応せざるを得ない), **来る → 来（こ）ざる**. Writing ✗しざるを得ない is a classic error.\n\nNuance and register:\n- It carries **regret or reluctance** — the speaker doesn't want to, but circumstances force it. You wouldn't use it for something you're happy to do.\n- It's **formal / written-style**. Among friends, しかない or しなきゃいけない sound more natural: 中止するしかないね.\n- With verbs of judgment (言う, 認める, 考える), it means *I'm forced to conclude*: 国民感情を無視したものと言わざるを得ない — a polite but firm criticism, common in editorials.\n\nRelated patterns:\n- **V得る** (#66): *can / possible* (起こり得る) — same 得る, opposite feel. See the list on p.220.\n- **〜わけにはいかない** (#57): *can't (because of social/moral reasons)*. Its negative 〜ないわけにはいかない ≈ ざるを得ない.\n- **〜てはいられない** (#29): *can't keep on ~ing* — about stopping a state, not about being forced to act.\n\nJLPT tip: the test loves the conjugation (せざる). Also watch the tense: past results use ざるを得なかった / ざるを得なくなった.",
           "see": [
             66,
@@ -403,6 +405,7 @@ N2.register({
               "en": "People think you need to pass JLPT N1 to get a job in Japan, but it's not as if you're hopeless without it."
             }
           ],
+          "xref": "☞ p.224　〜もの／もん",
           "deepDive": "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\nTypical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n- **というものでもない** (with も) is softer: *nor is it simply that ~*, often used when adding one more point.\n- Colloquial: **というもんじゃない / ってもんじゃない**.\n\nCompare with similar endings:\n- **〜わけではない** (#19): *it doesn't mean that ~* — corrects an inference from a specific fact (嫌いなわけではない). というものではない rejects a general belief or formula.\n- **〜とは限らない** (N3): *not always ~* — close in meaning, more neutral.\n- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n(See the 〜もの／もん list on p.224 for the whole family.)\n\nJLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, items 2) and 3) show speakers who *do* believe the formula (はずだ, にちがいない).",
           "see": [
             13,
@@ -432,7 +435,7 @@ N2.register({
               },
               "items": [
                 {
-                  "q": "{山奥|やまおく}の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間暮らしてみて、{必|かなら}ずしも{都会|とかい}の便利で{快適|かいてき}な生活がいい（　）ことを知った。",
+                  "q": "{山奥|やまおく}の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間{暮|く}らしてみて、{必|かなら}ずしも{都会|とかい}の便利で{快適|かいてき}な生活がいい（　）ことを知った。",
                   "options": [
                     "に決まっている",
                     "というものではない"

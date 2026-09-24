@@ -76,7 +76,7 @@ N2F({
     {
       no: 17,
       pattern: "〜をきっかけに",
-      phrase: "この{転勤|てんきん}**をきっかけに**",
+      phrase: "この{転勤|てんきん}を**きっかけ**に",
       stars: 1,
       marks: [],
       usage: {
@@ -214,7 +214,7 @@ N2F({
       stars: 3,
       marks: [],
       usage: {
-        ja: "「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100％そうだと言いたくないときにも使う。",
+        ja: "「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100%そうだと言いたくないときにも使う。",
         en: "Use \"〜わけではない\" when you make a denial as in \"that's not the situation; it doesn't feel like that; not for that reason.\" Use it when you refute another person's idea or a typical judgment as in \"病気が治ったわけではない\". You can also use it when you do not want to say that something is 100% for sure, as in \"嫌いなわけではない\".",
       },
       forms: ["[Pl] + わけではない", "[Pl] + わけじゃない", "［[なA~~だ~~]な　[N~~だ~~]の］"],
@@ -274,7 +274,7 @@ N2F({
       examples: [
         { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}することなく、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "We were able to win this time, but we won't be satisfied with that; we'll keep working even harder. Please continue to support us." },
         { ja: "彼は{一言|ひとこと}も{文句|もんく}を言うことなく、重い荷物を運んでいった。", en: "He carried the heavy luggage away without a single word of complaint." },
-        { ja: "その後、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。", en: "After that, she ended her eighty-year life without ever once visiting her hometown again." },
+        { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。", en: "After that, she ended her eighty-year life without ever once visiting her hometown again." },
         { ja: "私たちが乗った{新幹線|しんかんせん}は遅れることなく{京都|きょうと}についた。", en: "The shinkansen we took arrived in Kyoto without any delay." },
       ],
       deepDive:
@@ -317,7 +317,7 @@ N2F({
         ja: "「〜にもかかわらず」は、「〜なのに」という意味で、その{状態|じょうたい}から{予想|よそう}することと{実際|じっさい}が{違|ちが}うという意味で使う。",
         en: "\"〜にもかかわらず\" means \"although / despite 〜\". Use it to mean that something is actually different from what one would expect from the situation.",
       },
-      forms: ["[V-て]いる + にもかかわらず", "[V-た] + にもかかわらず", "[N] + にもかかわらず"],
+      forms: ["[V-て] いる + にもかかわらず", "[V-た] + にもかかわらず", "[N] + にもかかわらず"],
       formNotes: [
         { ja: "「[なA]／[N] である + にもかかわらず」「[いA] + にもかかわらず」の形もある。", en: "The forms なA / N + であるにもかかわらず and いA + にもかかわらず are also used." },
       ],

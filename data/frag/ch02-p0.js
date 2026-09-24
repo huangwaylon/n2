@@ -328,7 +328,7 @@ N2F({
         { ja: "彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。", en: "Although he and I lived in the same dormitory, we had hardly ever talked." },
         { ja: "留学生たちは、難しい言葉はわからないながら、日本人のボランティアと楽しそうにおしゃべりしている。", en: "Though they don't understand difficult words, the international students are chatting happily with the Japanese volunteers." },
         { ja: "彼は若いながらも、{立派|りっぱ}なプロジェクトリーダーだ。", en: "Young as he is, he is a fine project leader." },
-        { ja: "{練習試合|れんしゅうじあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。", en: "Although it was only a practice match, beating last year's champions gives us a lot of confidence." },
+        { ja: "練習{試合|じあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。", en: "Although it was only a practice match, beating last year's champions gives us a lot of confidence." },
         { ja: "このICレコーダーは{小型|こがた}でありながら、{連続|れんぞく}24時間の{録音|ろくおん}が{可能|かのう}だ。", en: "Although this IC recorder is compact, it can record for 24 hours continuously." },
       ],
       deepDive:
