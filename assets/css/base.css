@@ -22,12 +22,29 @@
   --sbw: 290px;
   --jp: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, sans-serif;
   --serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  /* book design tokens (docs/LAYOUT.md §0.2) */
+  --goth: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  --mincho: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --band: #e6e4e1;        /* grammar-point header band, table header tint */
+  --band-edge: #6d7075;   /* thick left bar of the header band, chapter banner */
+  --banner: #7f8388;      /* chapter opener band (white text on it) */
+  --pill: #55585d;        /* できること / どう使う？ / やってみよう！ / 問題N pills */
+  --pill-ink: #ffffff;
+  --pill-shadow: #c3c3c3; /* offset shadow under pills */
+  --rule: #9a9a9a;        /* 見本文 frame, passage dashed frame, table rules */
+  --note-bg: #ececec;     /* 📎 clip note fill */
+  --badge-bg: #d2d2d2; --badge-ink: #2b2b2b;   /* N / V / いA / Pl badges */
+  --review-bg: #dcdcdc;   /* まとめの問題 page tint */
+  --en-book: #6b6f75;     /* English printed in the book (--en stays for our translations) */
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #15171a; --panel: #1d2024; --ink: #e6e6e6; --ink-2: #aab1ba; --ink-3: #7d858f; --line: #30343a;
     --accent: #f06595; --accent-soft: #3a1f2a; --teal: #3bc9db; --teal-soft: #15313a;
     --ok: #3fb950; --ok-soft: #12301c; --ng: #ff7b72; --ng-soft: #3a1618; --en: #8ab4f8; --en-soft: #1b2636;
+    --band:#2a2d31; --band-edge:#8b9097; --banner:#3a3e44; --pill:#c9ccd1; --pill-ink:#15171a;
+    --pill-shadow:#000; --rule:#5a5f66; --note-bg:#24272b; --badge-bg:#4a4f56; --badge-ink:#f0f0f0;
+    --review-bg:#101214; --en-book:#9aa0a8;
   }
 }
 * { box-sizing: border-box; }
@@ -52,6 +69,10 @@ body.show-en span.en, .en-open span.en { display: block; }
 .en-btn { float: right; margin-left: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink-3); border-radius: 6px; font-size: 10px; font-weight: 700; padding: 1px 5px; cursor: pointer; line-height: 1.5; font-family: system-ui, sans-serif; }
 .en-btn:hover { color: var(--en); border-color: var(--en); }
 .en-open > .en-btn { background: var(--en-soft); color: var(--en); border-color: var(--en); }
+/* container-scoped English: [data-en-scope].en-all shows every .en inside (toggled by data-act="en-scope") */
+.en-all .en { display: block; }
+.en-all .en-btn--scope { background: var(--en-soft); color: var(--en); border-color: var(--en); }
+.en--book { color: var(--en-book); font-family: var(--goth); font-size: 13.5px; line-height: 1.5; }
 body.show-en .en-btn { display: none; }
 .feedback .en, .script .en { display: none; }
 .q.graded .feedback .en { display: block; }
@@ -68,7 +89,27 @@ body.show-en .en-btn { display: none; }
 .speak:hover { opacity: 1; }
 
 /* ---------- POS badges (shared) ---------- */
-.badge { display: inline-block; border-radius: 6px; padding: 0 6px; font-size: 0.82em; font-weight: 700; color: #fff; margin: 0 1px; line-height: 1.6; font-family: system-ui, sans-serif; vertical-align: 1px; }
-.badge s { opacity: 0.75; }
-.b-n { background: #5c7cfa; } .b-v { background: #20a39e; } .b-i { background: #f08c00; } .b-na { background: #e8590c; } .b-pl { background: #868e96; }
+/* book look (C10): grey fill, dark text. Shapes from fmt(): b-round = bare N/V/A, b-pill = "V-る" etc., b-sq = Pl/Po.
+   Colour hooks b-n b-v b-i b-na b-pl are kept on the element but unstyled. */
+.badge { display: inline-flex; align-items: center; justify-content: center; height: 1.55em; margin: 0 1px; background: var(--badge-bg); color: var(--badge-ink); font: 700 .82em/1 var(--goth); vertical-align: .05em; white-space: nowrap; }
+.b-round { min-width: 1.55em; border-radius: 999px; padding: 0 .3em; }
+.b-pill { border-radius: 999px; padding: 0 .6em; }
+.b-sq { border-radius: 2px; padding: 0 .35em; }
+.badge s { text-decoration: line-through; text-decoration-thickness: .12em; }
+s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 56%, transparent 56%); }
+
+/* ---------- shared primitives (docs/LAYOUT.md §0.4) ---------- */
+.ja-book { font-family: var(--mincho); line-height: 2.0; }
+.pill { display: inline-block; background: linear-gradient(#66696e, var(--pill)); color: var(--pill-ink); font: 700 15px/1.3 var(--goth); padding: .28em 1em .22em; border-radius: 999px; box-shadow: -2px 3px 0 var(--pill-shadow); letter-spacing: .04em; }
+.pill .en-inline { color: inherit; opacity: .8; }
+/* question numbers; .qn itself lives in exercises.css, so the modifiers use .qn.qn--x to win regardless of file order */
+.qn.qn--box { min-width: 2.6em; height: 1.5em; border: 1px solid var(--ink-2); border-radius: 0; display: inline-grid; place-items: center; font: 15px var(--mincho); color: var(--ink); background: none; }
+.qn.qn--paren { min-width: 2.2em; height: auto; border: 0; border-radius: 0; display: inline-block; font: 15px var(--goth); color: var(--ink); background: none; }
+.tcy { text-combine-upright: all; }
+.cd-badge { position: relative; flex: none; width: 44px; height: 44px; border-radius: 50%; border: 2px solid var(--ink); background: var(--panel); color: var(--ink); display: inline-grid; place-content: center; justify-items: center; gap: 0; padding: 0; cursor: pointer; line-height: 1; font-family: var(--goth); }
+.cd-badge::before, .cd-badge::after { content: ""; position: absolute; top: 50%; width: 6px; height: 14px; margin-top: -7px; border-radius: 3px; background: var(--ink); }
+.cd-badge::before { left: -5px; } .cd-badge::after { right: -5px; }
+.cd-badge__cd { font-size: 10px; font-weight: 700; letter-spacing: .04em; }
+.cd-badge__play { font-size: 13px; }
+.cd-badge.speaking { background: var(--ink); color: var(--panel); }
 .err { color: var(--ng); }

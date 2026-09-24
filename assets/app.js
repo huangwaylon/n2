@@ -24,7 +24,8 @@
     },
     set(k, v) { try { localStorage.setItem("n2." + k, JSON.stringify(v)); } catch (e) {} },
   };
-  const settings = Object.assign({ furigana: true, english: false, rate: 0.9 }, LS.get("settings", {}));
+  // settings.vertical: "auto" | "v" | "h" — 縦書き for sample.vertical texts; auto = 縦 at ≥901 px, 横 below
+  const settings = Object.assign({ furigana: true, english: false, rate: 0.9, vertical: "auto" }, LS.get("settings", {}));
   const progress = Object.assign({ studied: {}, scores: {} }, LS.get("progress", {}));
   const saveSettings = () => LS.set("settings", settings);
   const saveProgress = () => LS.set("progress", progress);
@@ -36,22 +37,33 @@
   const LETTERS = "abcdefghijklmnop";
   const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 
-  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po)(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
+  // POS badge: [N] [V] [いA] [なA] [A] [Pl] [Po], optional subscript/digit ([N₁] [いA₂]), optional "-form" ([V-る] [V-Pl] [V-~~ます~~])
+  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
+  const TCY_RE = /(?<![\d,.])\d{1,2}(?![\d,.])/g;
 
-  // inline markup → HTML
-  function fmt(s) {
+  // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
+  // badge classes: colour hook b-n | b-i | b-na | b-pl | b-v, plus shape b-round (bare N/V/A) | b-pill (has "-") | b-sq (Pl/Po)
+  function fmt(s, opts = {}) {
     if (s == null) return "";
     let t = esc(s);
     t = t.replace(BADGE_RE, (m, inner) => {
       const html = inner.replace(/~~(.+?)~~/g, "<s>$1</s>");
       const cls = /^N/.test(inner) ? "b-n" : /^いA/.test(inner) ? "b-i" : /^なA/.test(inner) ? "b-na" : /^P/.test(inner) ? "b-pl" : "b-v";
-      return `<span class="badge ${cls}">${html}</span>`;
+      const shape = /^P/.test(inner) ? "b-sq" : inner.includes("-") ? "b-pill" : "b-round";
+      return `<span class="badge ${cls} ${shape}">${html}</span>`;
     });
     t = t.replace(/\{([^{}|]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>");
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     t = t.replace(/~~(.+?)~~/g, "<s>$1</s>");
     t = t.replace(/＿＿/g, '<span class="blank">　　　</span>');
     t = t.replace(/\n/g, "<br>");
+    if (opts.vertical) {
+      let inRuby = 0;
+      t = t.split(/(<[^>]*>)/).map((seg) => {
+        if (seg[0] === "<") { if (/^<ruby\b/.test(seg)) inRuby++; else if (seg === "</ruby>") inRuby--; return seg; }
+        return inRuby ? seg : seg.replace(TCY_RE, '<span class="tcy">$&</span>');
+      }).join("");
+    }
     return t;
   }
   // plain text for TTS
@@ -78,11 +90,23 @@
   }
   const en = (s, tag = "div", cls = "") => (s ? `<${tag} class="en ${cls}">${fmt(s)}</${tag}>` : "");
   const enToggle = () => `<button class="en-btn" data-act="en" title="Show / hide English">EN</button>`;
-  const bi = (o, tag = "p", cls = "") => {
+  // bilingual line. o: string (Japanese only) or {ja, en}. opts.book: the English is printed in the book (.en--book, grey
+  // Gothic) rather than our translation; opts.vertical is passed to fmt() for the Japanese.
+  const bi = (o, tag = "p", cls = "", opts = {}) => {
     if (!o) return "";
-    if (typeof o === "string") return `<${tag} class="${cls}">${fmt(o)}</${tag}>`;
-    return `<div class="bi ${cls}">${o.en ? enToggle() : ""}<${tag} class="ja">${fmt(o.ja)}</${tag}>${en(o.en)}</div>`;
+    if (typeof o === "string") return `<${tag} class="${cls}">${fmt(o, opts)}</${tag}>`;
+    return `<div class="bi ${cls}">${o.en ? enToggle() : ""}<${tag} class="ja">${fmt(o.ja, opts)}</${tag}>${en(o.en, "div", opts.book ? "en--book" : "")}</div>`;
   };
+  // one EN button for a whole container: put data-en-scope on the container, this button in its header row
+  const enScopeBtn = () => `<button class="en-btn en-btn--scope" data-act="en-scope" title="Show / hide English">EN</button>`;
+  // dark rounded label (できること / どう使う？ / やってみよう！ / 問題N). html is inserted as-is (pass fmt() output if needed)
+  const pill = (html, cls = "") => `<span class="pill ${cls}">${html}</span>`;
+  // headphone "CD ▶" play button for a TTS queue [{text, v}] (v: "m" | "f"); same data-act="listen" as the ▶ buttons
+  const cdBadge = (queue, label = "音声を聞く") =>
+    `<button class="cd-badge" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="${esc(label)}"><span class="cd-badge__cd">CD</span><span class="cd-badge__play">▶</span></button>`;
+  // 縦書き: effective mode for sample.vertical texts, and a setter that persists it (B's ACT.vmode calls setVertical)
+  const verticalOn = () => settings.vertical === "v" || (settings.vertical !== "h" && matchMedia("(min-width: 901px)").matches);
+  const setVertical = (mode) => { settings.vertical = mode; saveSettings(); };
   const speakBtn = (text, extra = "") => `<button class="speak" data-act="speak" data-text="${esc(plain(text))}" ${extra} title="Listen">🔊</button>`;
   function allPoints() {
     const out = [];
@@ -747,6 +771,7 @@
   ACT.listen = (t) => TTS.play(JSON.parse(t.dataset.q), t);
   ACT.redrill = (t, e) => { e.preventDefault(); route(); };
   ACT.sb = () => document.body.classList.toggle("sb-open");
+  ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) box.classList.toggle("en-all"); };
 
   document.addEventListener("click", (e) => {
     const t = e.target.closest("[data-act]");
