@@ -1,0 +1,75 @@
+/* content.css — [B] chapter content: head, can-do, mini-toc, 見本文, grammar point card. Owned by implementer B. */
+/* ---------- chapter ---------- */
+.ch-head { display: flex; gap: 20px; align-items: center; margin-bottom: 16px; }
+.ch-num { font-family: var(--serif); font-size: 72px; font-weight: 700; color: var(--accent); line-height: 1; }
+.ch-head h1 { margin: 0; font-family: var(--serif); font-size: 30px; }
+.ch-genre { color: var(--ink-2); font-size: 14px; }
+.ch-en { color: var(--ink-2); }
+.cando { background: var(--teal-soft); border-radius: var(--radius); padding: 12px 18px; margin: 14px 0; }
+.cando-label { font-weight: 700; color: var(--teal); font-size: 14px; }
+.cando ul { margin: 4px 0 0; padding-left: 20px; }
+.mini-toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 28px; }
+.mt-gp { font-size: 13px; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 2px 12px; color: var(--ink-2); }
+.mt-gp rt { display: none; }
+.mt-gp:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+.mt-part { font-size: 12px; font-weight: 700; color: var(--ink-3); align-self: center; margin-left: 6px; }
+.mt-review { border-color: var(--teal); color: var(--teal); }
+.part-title { font-family: var(--serif); border-bottom: 2px solid var(--line); padding-bottom: 4px; margin-top: 48px; }
+
+.sample { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; margin: 16px 0 34px; box-shadow: 0 1px 0 var(--line); background-image: radial-gradient(circle at 14px 12px, var(--line) 4px, transparent 5px); background-size: 34px 100%; background-repeat: repeat-x; padding-top: 30px; }
+.sample-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.sample-label { font-weight: 700; color: var(--ink-2); font-size: 14px; }
+.sample-heading { text-align: center; font-family: var(--serif); margin: 4px 0 12px; font-size: 22px; }
+.sample-body { font-size: 1.04em; }
+.sample-body .sline { margin: 0 0 6px; }
+.sample-body:not(.dialogue) .sline .ja { text-indent: 1em; }
+.kind-notice .sample-body:not(.dialogue) .sline .ja { text-indent: 0; }
+.sample-body.dialogue .sline { display: flex; gap: 10px; }
+.sample-body .sp { flex: none; font-weight: 700; color: var(--teal); min-width: 3.5em; }
+.sl-body { flex: 1; }
+.sample .en { margin: 2px 0 8px; text-indent: 0; }
+
+/* grammar point card */
+.gp { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 0 22px 16px; margin: 0 0 28px; overflow: hidden; }
+.gp-head { display: flex; align-items: center; gap: 14px; margin: 0 -22px 12px; padding: 12px 22px; background: linear-gradient(90deg, var(--accent-soft), transparent 70%); border-bottom: 1px solid var(--line); }
+.gp-no { font-family: var(--serif); font-size: 28px; font-weight: 700; color: var(--accent); min-width: 44px; }
+.gp-titles { flex: 1; }
+.gp-head h3 { margin: 0; font-size: 22px; }
+.gp-phrase { font-size: 13px; color: var(--ink-2); }
+.gp-phrase strong { color: var(--ink-2); }
+.gp-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.stars { color: var(--gold); letter-spacing: 1px; font-size: 15px; }
+.stars .dim { color: var(--line); }
+.mark { font-size: 12px; background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 0 8px; white-space: nowrap; color: var(--ink-2); }
+.sec-label { display: inline-block; background: var(--ink-2); color: var(--panel); border-radius: 999px; padding: 1px 12px; font-size: 13px; font-weight: 700; margin: 4px 0; }
+.sec-label .en-inline { color: var(--line); }
+.usage .ja, p.usage { margin: 6px 0; }
+.bi > p.ja { margin: 6px 0 2px; }
+.forms { border-left: 4px solid var(--teal); background: var(--bg); border-radius: 0 10px 10px 0; padding: 8px 14px; margin: 12px 0; }
+.forms-label { font-size: 12px; font-weight: 700; color: var(--teal); }
+.form { font-size: 1.05em; font-weight: 500; }
+.form-note { font-size: 0.9em; color: var(--ink-2); margin-top: 4px; }
+.examples { list-style: none; padding: 0; margin: 10px 0; }
+.examples li { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px dashed var(--line); }
+.examples li:last-child { border-bottom: 0; }
+.examples li > div { flex: 1; }
+.exn { color: var(--ink-3); flex: none; }
+.examples .en-btn { order: 3; align-self: flex-start; margin-top: 6px; }
+.idiom { font-size: 11px; color: var(--teal); border: 1px solid var(--teal); border-radius: 4px; padding: 0 4px; }
+.deep { margin: 14px 0; border: 1px solid var(--en); border-radius: 10px; background: var(--en-soft); }
+.deep summary { cursor: pointer; padding: 8px 14px; color: var(--en); font-weight: 600; font-family: system-ui, sans-serif; font-size: 14px; }
+.deep-body { padding: 0 16px 8px; font-family: system-ui, -apple-system, sans-serif; font-size: 15px; line-height: 1.65; }
+.deep-body strong { color: var(--en); }
+.note { display: flex; gap: 10px; background: var(--bg); border-radius: 10px; padding: 10px 14px; margin: 14px 0; border: 1px solid var(--line); }
+.note-icon { font-size: 20px; }
+.note-body { flex: 1; min-width: 0; }
+.plus { border: 2px solid var(--line); border-radius: 12px; padding: 4px 16px 10px; margin: 18px 0; }
+.plus-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.plus-head h4 { margin: 6px 0; font-size: 18px; flex: 1; }
+.plus-tag { background: var(--ink); color: var(--panel); font-weight: 700; font-size: 12px; border-radius: 6px; padding: 1px 8px; }
+.gp-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; border-top: 1px solid var(--line); margin-top: 14px; padding-top: 10px; font-size: 14px; flex-wrap: wrap; }
+.gp-link { display: inline-block; font-size: 13px; background: var(--bg); border-radius: 6px; padding: 0 8px; margin: 2px; }
+.gp-link rt { display: none; }
+.studied { display: flex; align-items: center; gap: 6px; cursor: pointer; color: var(--ink-2); }
+.studied input { width: 18px; height: 18px; accent-color: var(--ok); }
+

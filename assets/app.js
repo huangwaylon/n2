@@ -2,7 +2,11 @@
 (function () {
   "use strict";
 
-  // ---------- registry ----------
+  // ============================================================================
+  // ===== [A] core: registry, storage, helpers, TTS, action registry — owned by implementer A =====
+  // ============================================================================
+
+  // ---------- data registry (chapter/compare/front files call these) ----------
   const N2 = (window.N2 = window.N2 || {});
   N2.chapters = [];
   N2.compare = N2.compare || null;
@@ -80,16 +84,6 @@
     return `<div class="bi ${cls}">${o.en ? enToggle() : ""}<${tag} class="ja">${fmt(o.ja)}</${tag}>${en(o.en)}</div>`;
   };
   const speakBtn = (text, extra = "") => `<button class="speak" data-act="speak" data-text="${esc(plain(text))}" ${extra} title="Listen">🔊</button>`;
-  const stars = (n) => !n ? "" : `<span class="stars" title="Importance ${n}/3">${"★".repeat(n || 0)}<span class="dim">${"★".repeat(3 - (n || 0))}</span></span>`;
-  const MARKS = {
-    casual: ["💬", "Casual — used with friends & family", "くだけた会話"],
-    formal: ["📄", "Formal / written — not used chatting with friends", "かたい表現"],
-    polite: ["🙇", "Polite — to superiors, strangers, customers", "目上・初対面・客に"],
-    regret: ["😣", "Regret, disappointment, or criticism", "後悔・残念・批判"],
-    praise: ["🌟", "High evaluation / praise", "高い評価"],
-  };
-  const marks = (arr) => (arr || []).map((m) => (MARKS[m] ? `<span class="mark" title="${esc(MARKS[m][1])}">${MARKS[m][0]} <span class="mark-l">${MARKS[m][2]}</span></span>` : "")).join("");
-
   function allPoints() {
     const out = [];
     N2.chapters.forEach((ch) => ch.parts.forEach((p, pi) => p.points.forEach((g) => out.push({ g, ch, pi }))));
@@ -140,7 +134,133 @@
     },
   };
 
-  // ---------- exercises ----------
+  // ---------- action registry ----------
+  // Click handlers for [data-act] elements, keyed by the data-act value. Each owner registers its own
+  // actions in its own region:  ACT.name = (el, event) => { ... };  where el is the closest [data-act]
+  // element. The shared click listener (A, at the bottom) dispatches here; no need to edit it.
+  const ACT = Object.create(null);
+  N2.ACT = ACT;
+
+  // ============================================================================
+  // ===== [B] chapter content — owned by implementer B =====
+  // ============================================================================
+
+  const stars = (n) => !n ? "" : `<span class="stars" title="Importance ${n}/3">${"★".repeat(n || 0)}<span class="dim">${"★".repeat(3 - (n || 0))}</span></span>`;
+  const MARKS = {
+    casual: ["💬", "Casual — used with friends & family", "くだけた会話"],
+    formal: ["📄", "Formal / written — not used chatting with friends", "かたい表現"],
+    polite: ["🙇", "Polite — to superiors, strangers, customers", "目上・初対面・客に"],
+    regret: ["😣", "Regret, disappointment, or criticism", "後悔・残念・批判"],
+    praise: ["🌟", "High evaluation / praise", "高い評価"],
+  };
+  const marks = (arr) => (arr || []).map((m) => (MARKS[m] ? `<span class="mark" title="${esc(MARKS[m][1])}">${MARKS[m][0]} <span class="mark-l">${MARKS[m][2]}</span></span>` : "")).join("");
+
+  function gpCard(g, ch) {
+    const gid = `gp${g.no}`;
+    const studied = progress.studied[g.no];
+    const plusHtml = (g.plus || []).map((p, k) => `<div class="plus">
+        <div class="plus-head"><span class="plus-tag">＋Plus</span><h4>${fmt(p.pattern)}</h4>${stars(p.stars)}${marks(p.marks)}</div>
+        ${bi(p.usage)}
+        ${formsHtml(p.forms, p.formNotes)}
+        ${examplesHtml(p.examples)}
+        ${notesHtml(p.notes, `${gid}-plus${k}`)}
+        ${(p.practice || []).map((ex, j) => renderExercise(ex, `${gid}-plus${k}-p${j}`, "やってみよう！")).join("")}
+      </div>`).join("");
+    return `<article class="gp" id="gp-${g.no}">
+      <header class="gp-head">
+        <span class="gp-no">${g.no}</span>
+        <div class="gp-titles"><h3>${fmt(g.pattern)}</h3>${g.phrase ? `<div class="gp-phrase">${fmt(g.phrase)}</div>` : ""}</div>
+        <div class="gp-meta">${stars(g.stars)}${marks(g.marks)}</div>
+      </header>
+      <div class="sec-label">どう使う？ <span class="en-inline">How to use</span></div>
+      ${bi(g.usage, "p", "usage")}
+      ${formsHtml(g.forms, g.formNotes)}
+      ${examplesHtml(g.examples)}
+      ${g.deepDive ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span></summary><div class="deep-body">${prose(g.deepDive)}</div></details>` : ""}
+      ${(g.practice || []).map((ex, j) => renderExercise(ex, `${gid}-p${j}`, "やってみよう！ <span class='en-inline'>Try it out</span>")).join("")}
+      ${notesHtml(g.notes, gid)}
+      ${plusHtml}
+      <footer class="gp-foot">
+        ${g.see && g.see.length ? `<div class="see">☞ ${g.see.map(gpLink).join(" ")}</div>` : "<div></div>"}
+        <label class="studied"><input type="checkbox" data-act="studied" data-no="${g.no}" ${studied ? "checked" : ""}> 学習済み <span class="en-inline">Studied</span></label>
+      </footer>
+    </article>`;
+  }
+  function formsHtml(forms, notes) {
+    if (!forms || !forms.length) return "";
+    return `<div class="forms"><div class="forms-label">接続 <span class="en-inline">Connection</span></div>${forms.map((f) => `<div class="form">${fmt(f)}</div>`).join("")}
+      ${(notes || []).map((n) => `<div class="form-note bi">${n.en ? enToggle() : ""}<span class="ja">＊${fmt(n.ja)}</span>${en(n.en)}</div>`).join("")}</div>`;
+  }
+  function examplesHtml(exs) {
+    if (!exs || !exs.length) return "";
+    return `<ol class="examples">${exs
+      .map((e, i) => `<li class="bi">${e.en ? enToggle() : ""}<span class="exn">${CIRCLED[i] || i + 1}</span><div><span class="ja">${fmt(e.ja)}${e.idiom ? ' <span class="idiom" title="Idiomatic expression">慣用</span>' : ""}</span>${speakBtn(e.ja, "data-small")}${en(e.en)}</div></li>`)
+      .join("")}</ol>`;
+  }
+  function notesHtml(notes, base) {
+    return (notes || [])
+      .map((n, k) => `<aside class="note"><div class="note-icon">📎</div><div class="note-body">
+        ${bi({ ja: n.ja, en: n.en })}
+        ${examplesHtml(n.examples)}
+        ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
+      </div></aside>`)
+      .join("");
+  }
+  function sampleHtml(s, chId, pi) {
+    if (!s) return "";
+    const queue = s.lines.map((l) => ({ text: plain(l.ja), v: l.v || (s.kind === "dialogue" ? "f" : "f") }));
+    const lines = s.lines
+      .map((l) => `<div class="sline bi">${l.en ? enToggle() : ""}${l.sp ? `<span class="sp">${fmt(l.sp)}</span>` : ""}<div class="sl-body"><div class="ja">${fmt(l.ja)}</div>${en(l.en)}</div></div>`)
+      .join("");
+    return `<section class="sample kind-${esc(s.kind)}">
+      <div class="sample-head"><span class="sample-label">見本文 <span class="en-inline">Sample text</span></span>
+        <button class="btn play" data-act="listen" data-q='${esc(JSON.stringify(queue))}'>▶ 聞く <span class="en-inline">Listen</span></button></div>
+      ${s.heading ? `<h3 class="sample-heading">${fmt(s.heading)}</h3>` : ""}
+      <div class="sample-body ${s.kind === "dialogue" ? "dialogue" : ""}">${lines}</div>
+    </section>`;
+  }
+
+  function chapterView(id) {
+    const ch = N2.chapters.find((c) => c.id === id);
+    if (!ch) return notFound();
+    const idx = N2.chapters.indexOf(ch);
+    const prev = N2.chapters[idx - 1], next = N2.chapters[idx + 1];
+    const miniToc = ch.parts
+      .map((p, pi) => `${p.label ? `<span class="mt-part">${esc(p.label)}</span>` : ""}${p.points.map((g) => `<a href="#/gp/${g.no}" class="mt-gp">${g.no} ${fmt(g.pattern)}</a>`).join("")}`)
+      .join("") + (ch.review && ch.review.length ? `<a href="#/ch/${id}/review" class="mt-gp mt-review">まとめの問題</a>` : "");
+    const parts = ch.parts
+      .map((p, pi) => `<section class="part" id="ch${id}-part${pi}">
+        ${p.label ? `<h2 class="part-title">${fmt(ch.title.ja)} ${esc(p.label)}</h2>` : ""}
+        ${p.canDo && p.canDo.length ? canDoHtml(p.canDo) : ""}
+        ${sampleHtml(p.sample, id, pi)}
+        ${p.points.map((g) => gpCard(g, ch)).join("")}
+        ${p.check ? `<div class="check-wrap">${[].concat(p.check).map((c, k) => renderExercise(c, `ch${id}-part${pi}-check${k ? "-" + k : ""}`, "📖 Check" + (Array.isArray(p.check) && p.check.length > 1 ? " " + (k + 1) : ""))).join("")}</div>` : ""}
+      </section>`)
+      .join("");
+    const review = ch.review && ch.review.length
+      ? `<section class="review" id="review-${id}"><h2 class="review-title">まとめの問題 <span class="en-inline">Review questions</span></h2>
+        ${ch.review.map((r, k) => renderExercise(r.ex, `ch${id}-review-${k}`, `${fmt(r.title.ja)} ${r.title.en ? `<span class="en-inline">${esc(r.title.en)}</span>` : ""}`)).join("")}</section>`
+      : "";
+    return `<div class="chapter">
+      <header class="ch-head">
+        <div class="ch-num">${id}</div>
+        <div><div class="ch-genre">${fmt(ch.genre.ja)} <span class="en-inline">${esc(ch.genre.en)}</span></div>
+        <h1>${fmt(ch.title.ja)}</h1><div class="ch-en">${esc(ch.title.en)}</div></div>
+      </header>
+      ${ch.canDo && ch.canDo.length ? canDoHtml(ch.canDo) : ""}
+      <nav class="mini-toc">${miniToc}</nav>
+      ${parts}
+      ${review}
+      <nav class="pager">${prev ? `<a href="#/ch/${prev.id}">← ${prev.id}. ${fmt(prev.title.ja)}</a>` : "<span></span>"}${next ? `<a href="#/ch/${next.id}">${next.id}. ${fmt(next.title.ja)} →</a>` : "<span></span>"}</nav>
+    </div>`;
+  }
+  const canDoHtml = (list) => `<div class="cando"><div class="cando-label">できること <span class="en-inline">Can do</span></div><ul>${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${en(c.en)}</li>`).join("")}</ul></div>`;
+
+  // ===== end [B] chapter content =====
+
+  // ============================================================================
+  // ===== [C] exercises & review — owned by implementer C =====
+  // ============================================================================
   const EX = {};
   let exSeq = 0;
 
@@ -353,108 +473,39 @@
     $$(".piece", q).forEach((p) => (p.disabled = false));
   }
 
-  // ---------- views ----------
-  function gpCard(g, ch) {
-    const gid = `gp${g.no}`;
-    const studied = progress.studied[g.no];
-    const plusHtml = (g.plus || []).map((p, k) => `<div class="plus">
-        <div class="plus-head"><span class="plus-tag">＋Plus</span><h4>${fmt(p.pattern)}</h4>${stars(p.stars)}${marks(p.marks)}</div>
-        ${bi(p.usage)}
-        ${formsHtml(p.forms, p.formNotes)}
-        ${examplesHtml(p.examples)}
-        ${notesHtml(p.notes, `${gid}-plus${k}`)}
-        ${(p.practice || []).map((ex, j) => renderExercise(ex, `${gid}-plus${k}-p${j}`, "やってみよう！")).join("")}
-      </div>`).join("");
-    return `<article class="gp" id="gp-${g.no}">
-      <header class="gp-head">
-        <span class="gp-no">${g.no}</span>
-        <div class="gp-titles"><h3>${fmt(g.pattern)}</h3>${g.phrase ? `<div class="gp-phrase">${fmt(g.phrase)}</div>` : ""}</div>
-        <div class="gp-meta">${stars(g.stars)}${marks(g.marks)}</div>
-      </header>
-      <div class="sec-label">どう使う？ <span class="en-inline">How to use</span></div>
-      ${bi(g.usage, "p", "usage")}
-      ${formsHtml(g.forms, g.formNotes)}
-      ${examplesHtml(g.examples)}
-      ${g.deepDive ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span></summary><div class="deep-body">${prose(g.deepDive)}</div></details>` : ""}
-      ${(g.practice || []).map((ex, j) => renderExercise(ex, `${gid}-p${j}`, "やってみよう！ <span class='en-inline'>Try it out</span>")).join("")}
-      ${notesHtml(g.notes, gid)}
-      ${plusHtml}
-      <footer class="gp-foot">
-        ${g.see && g.see.length ? `<div class="see">☞ ${g.see.map(gpLink).join(" ")}</div>` : "<div></div>"}
-        <label class="studied"><input type="checkbox" data-act="studied" data-no="${g.no}" ${studied ? "checked" : ""}> 学習済み <span class="en-inline">Studied</span></label>
-      </footer>
-    </article>`;
-  }
-  function formsHtml(forms, notes) {
-    if (!forms || !forms.length) return "";
-    return `<div class="forms"><div class="forms-label">接続 <span class="en-inline">Connection</span></div>${forms.map((f) => `<div class="form">${fmt(f)}</div>`).join("")}
-      ${(notes || []).map((n) => `<div class="form-note bi">${n.en ? enToggle() : ""}<span class="ja">＊${fmt(n.ja)}</span>${en(n.en)}</div>`).join("")}</div>`;
-  }
-  function examplesHtml(exs) {
-    if (!exs || !exs.length) return "";
-    return `<ol class="examples">${exs
-      .map((e, i) => `<li class="bi">${e.en ? enToggle() : ""}<span class="exn">${CIRCLED[i] || i + 1}</span><div><span class="ja">${fmt(e.ja)}${e.idiom ? ' <span class="idiom" title="Idiomatic expression">慣用</span>' : ""}</span>${speakBtn(e.ja, "data-small")}${en(e.en)}</div></li>`)
-      .join("")}</ol>`;
-  }
-  function notesHtml(notes, base) {
-    return (notes || [])
-      .map((n, k) => `<aside class="note"><div class="note-icon">📎</div><div class="note-body">
-        ${bi({ ja: n.ja, en: n.en })}
-        ${examplesHtml(n.examples)}
-        ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
-      </div></aside>`)
-      .join("");
-  }
-  function sampleHtml(s, chId, pi) {
-    if (!s) return "";
-    const queue = s.lines.map((l) => ({ text: plain(l.ja), v: l.v || (s.kind === "dialogue" ? "f" : "f") }));
-    const lines = s.lines
-      .map((l) => `<div class="sline bi">${l.en ? enToggle() : ""}${l.sp ? `<span class="sp">${fmt(l.sp)}</span>` : ""}<div class="sl-body"><div class="ja">${fmt(l.ja)}</div>${en(l.en)}</div></div>`)
-      .join("");
-    return `<section class="sample kind-${esc(s.kind)}">
-      <div class="sample-head"><span class="sample-label">見本文 <span class="en-inline">Sample text</span></span>
-        <button class="btn play" data-act="listen" data-q='${esc(JSON.stringify(queue))}'>▶ 聞く <span class="en-inline">Listen</span></button></div>
-      ${s.heading ? `<h3 class="sample-heading">${fmt(s.heading)}</h3>` : ""}
-      <div class="sample-body ${s.kind === "dialogue" ? "dialogue" : ""}">${lines}</div>
-    </section>`;
-  }
+  ACT.pick = (t) => {
+    const q = t.closest(".q");
+    if (q.classList.contains("graded")) return;
+    $$(".opt", t.closest(".opts")).forEach((o) => o.classList.toggle("picked", o === t));
+  };
+  ACT.piece = (t) => {
+    const q = t.closest(".q");
+    if (q.classList.contains("graded")) return;
+    const slot = $$(".slot", q).find((s) => s.dataset.j == null);
+    if (!slot) return;
+    slot.dataset.j = t.dataset.j;
+    slot.innerHTML = t.innerHTML;
+    slot.classList.add("filled");
+    t.disabled = true;
+  };
+  ACT.unslot = (t) => {
+    const q = t.closest(".q");
+    if (q.classList.contains("graded") || t.dataset.j == null) return;
+    $(`.piece[data-j="${t.dataset.j}"]`, q).disabled = false;
+    delete t.dataset.j;
+    t.innerHTML = t.classList.contains("star") ? "★" : "";
+    t.classList.remove("filled");
+  };
+  ACT.grade = (t) => grade(t.closest(".exercise"));
+  ACT.reset = (t) => resetEx(t.closest(".exercise"));
 
-  function chapterView(id) {
-    const ch = N2.chapters.find((c) => c.id === id);
-    if (!ch) return notFound();
-    const idx = N2.chapters.indexOf(ch);
-    const prev = N2.chapters[idx - 1], next = N2.chapters[idx + 1];
-    const miniToc = ch.parts
-      .map((p, pi) => `${p.label ? `<span class="mt-part">${esc(p.label)}</span>` : ""}${p.points.map((g) => `<a href="#/gp/${g.no}" class="mt-gp">${g.no} ${fmt(g.pattern)}</a>`).join("")}`)
-      .join("") + (ch.review && ch.review.length ? `<a href="#/ch/${id}/review" class="mt-gp mt-review">まとめの問題</a>` : "");
-    const parts = ch.parts
-      .map((p, pi) => `<section class="part" id="ch${id}-part${pi}">
-        ${p.label ? `<h2 class="part-title">${fmt(ch.title.ja)} ${esc(p.label)}</h2>` : ""}
-        ${p.canDo && p.canDo.length ? canDoHtml(p.canDo) : ""}
-        ${sampleHtml(p.sample, id, pi)}
-        ${p.points.map((g) => gpCard(g, ch)).join("")}
-        ${p.check ? `<div class="check-wrap">${[].concat(p.check).map((c, k) => renderExercise(c, `ch${id}-part${pi}-check${k ? "-" + k : ""}`, "📖 Check" + (Array.isArray(p.check) && p.check.length > 1 ? " " + (k + 1) : ""))).join("")}</div>` : ""}
-      </section>`)
-      .join("");
-    const review = ch.review && ch.review.length
-      ? `<section class="review" id="review-${id}"><h2 class="review-title">まとめの問題 <span class="en-inline">Review questions</span></h2>
-        ${ch.review.map((r, k) => renderExercise(r.ex, `ch${id}-review-${k}`, `${fmt(r.title.ja)} ${r.title.en ? `<span class="en-inline">${esc(r.title.en)}</span>` : ""}`)).join("")}</section>`
-      : "";
-    return `<div class="chapter">
-      <header class="ch-head">
-        <div class="ch-num">${id}</div>
-        <div><div class="ch-genre">${fmt(ch.genre.ja)} <span class="en-inline">${esc(ch.genre.en)}</span></div>
-        <h1>${fmt(ch.title.ja)}</h1><div class="ch-en">${esc(ch.title.en)}</div></div>
-      </header>
-      ${ch.canDo && ch.canDo.length ? canDoHtml(ch.canDo) : ""}
-      <nav class="mini-toc">${miniToc}</nav>
-      ${parts}
-      ${review}
-      <nav class="pager">${prev ? `<a href="#/ch/${prev.id}">← ${prev.id}. ${fmt(prev.title.ja)}</a>` : "<span></span>"}${next ? `<a href="#/ch/${next.id}">${next.id}. ${fmt(next.title.ja)} →</a>` : "<span></span>"}</nav>
-    </div>`;
-  }
-  const canDoHtml = (list) => `<div class="cando"><div class="cando-label">できること <span class="en-inline">Can do</span></div><ul>${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${en(c.en)}</li>`).join("")}</ul></div>`;
+  // ===== end [C] exercises & review =====
 
+  // ============================================================================
+  // ===== [A] shell: pages, sidebar, router, events, init — owned by implementer A =====
+  // ============================================================================
+
+  // ---------- pages ----------
   function homeView() {
     const total = allPoints().length;
     const done = Object.keys(progress.studied).filter((k) => progress.studied[k]).length;
@@ -691,37 +742,17 @@
     $("#rate-v").textContent = settings.rate.toFixed(1) + "×";
   }
 
+  ACT.en = (t) => t.closest(".bi").classList.toggle("en-open");
+  ACT.speak = (t) => TTS.play([{ text: t.dataset.text }], t);
+  ACT.listen = (t) => TTS.play(JSON.parse(t.dataset.q), t);
+  ACT.redrill = (t, e) => { e.preventDefault(); route(); };
+  ACT.sb = () => document.body.classList.toggle("sb-open");
+
   document.addEventListener("click", (e) => {
     const t = e.target.closest("[data-act]");
     if (!t) return;
-    const act = t.dataset.act;
-    if (act === "en") { t.closest(".bi").classList.toggle("en-open"); }
-    else if (act === "speak") { TTS.play([{ text: t.dataset.text }], t); }
-    else if (act === "listen") { TTS.play(JSON.parse(t.dataset.q), t); }
-    else if (act === "pick") {
-      const q = t.closest(".q");
-      if (q.classList.contains("graded")) return;
-      $$(".opt", t.closest(".opts")).forEach((o) => o.classList.toggle("picked", o === t));
-    } else if (act === "piece") {
-      const q = t.closest(".q");
-      if (q.classList.contains("graded")) return;
-      const slot = $$(".slot", q).find((s) => s.dataset.j == null);
-      if (!slot) return;
-      slot.dataset.j = t.dataset.j;
-      slot.innerHTML = t.innerHTML;
-      slot.classList.add("filled");
-      t.disabled = true;
-    } else if (act === "unslot") {
-      const q = t.closest(".q");
-      if (q.classList.contains("graded") || t.dataset.j == null) return;
-      $(`.piece[data-j="${t.dataset.j}"]`, q).disabled = false;
-      delete t.dataset.j;
-      t.innerHTML = t.classList.contains("star") ? "★" : "";
-      t.classList.remove("filled");
-    } else if (act === "grade") grade(t.closest(".exercise"));
-    else if (act === "reset") resetEx(t.closest(".exercise"));
-    else if (act === "redrill") { e.preventDefault(); route(); }
-    else if (act === "sb") document.body.classList.toggle("sb-open");
+    const f = ACT[t.dataset.act];
+    if (f) return f(t, e);
   });
   document.addEventListener("change", (e) => {
     const t = e.target;
