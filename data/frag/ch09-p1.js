@@ -182,5 +182,120 @@ N2F({
         },
       ],
     },
+    {
+      no: 90,
+      pattern: "〜くらいなら",
+      phrase: "{罰金|ばっきん}{払|はら}う**くらいなら**",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「1時間待つくらいならほかの店に行こう」のように、「AくらいならB」の形で、「Aする（1時間待つ）のは{嫌|いや}だから、Bも一番いいとは言えないがB（ほかの店に行く）を選ぶ」と言いたいときに使う。「ほかの店に行ったほうがよかった」のように{後悔|こうかい}するときにも使う。",
+        en: "As in \"1時間待つくらいならほかの店に行こう\", use the \"AくらいならB\" form when you want to say \"I don't like to do A (wait an hour), so I choose B (to go to another store) although I can't say B is the best.\" You can also use this to express regret as in \"ほかの店に行ったほうがよかった\".",
+      },
+      forms: ["[V-る] + くらいなら"],
+      examples: [
+        { ja: "A：カメラが{壊|こわ}れちゃって、{修理代|しゅうりだい}が15,000円もするんだ。\nB：15,000円も{払|はら}うくらいなら、新しいのを買ったほうがいいね。", en: "A: My camera broke, and the repair costs a whole 15,000 yen.\nB: Rather than pay 15,000 yen, you'd be better off buying a new one." },
+        { ja: "お金を{払|はら}って電車に乗るくらいなら、時間がかかっても自転車で行ったほうがいい。", en: "Rather than pay to ride the train, it's better to go by bike, even if it takes longer." },
+        { ja: "A：レポート、{締|し}め{切|き}りに間に合わないよ。どうしよう。\nB：そんなにあせるくらいなら、もっと早く書き始めればよかったのに。", en: "A: I'm not going to make the deadline for my report. What should I do?\nB: If you were going to panic like this, you should have started writing it earlier." },
+        { ja: "A：先生。父ったら、好きなお酒が飲めないくらいなら、{治療|ちりょう}なんかしなくたっていいって言うんです。\nB：それは困りましたね。", en: "A: Doctor, my father says that if he can't drink the alcohol he loves, he'd rather not get treatment at all.\nB: That's a problem, isn't it." },
+      ],
+      deepDive:
+        "**AくらいならB** means *rather than A, B* — with a strong dislike of A. The speaker isn't saying B is great; they're saying A is so unacceptable that even B is preferable. くらい here belittles A (*something like A*).\n\n" +
+        "Typical B endings: **〜たほうがいい／〜たほうがましだ** (#91), **〜よう**, **〜なさい**, **〜たら？**, **〜ばよかった**. The combination **〜くらいなら〜たほうがましだ** is extremely common and appears in this chapter's sample: 罰金払うくらいなら、がんばったほうがずっとましだ.\n\n" +
+        "The regret use: when A already happened (or is happening) and the speaker looks back — そんなにあせるくらいなら、もっと早く書き始めればよかったのに *if you were going to panic like this, you should have started earlier*.\n\n" +
+        "Contrast (see the ～くらい list, p.221):\n- **〜くらい** (N3) = degree: 座っていられないくらい揺れた *shook so much I couldn't stay seated*.\n- **〜より（も）〜ほうがいい** is a neutral comparison; くらいなら carries emotional rejection of A.\n- **〜ぐらいなら** is the same thing; くらい／ぐらい are interchangeable.\n\n" +
+        "Mistakes:\n- Using it when A is desirable: ✗おいしいものを食べるくらいなら… makes no sense unless you really hate A.\n- Forgetting that B is the speaker's choice/advice, so B can't be a simple fact: ✗雨が降るくらいなら、晴れる.\n\n" +
+        "JLPT tip: a blank followed by 〜ほうがましだ／〜ばよかった after an unpleasant action → くらいなら.",
+      see: [91],
+      index: ["Vくらいなら", "Vぐらいなら"],
+      practice: [
+        {
+          type: "match",
+          labels: "abc",
+          prompt: { ja: "", en: "Match each beginning (1–4) with the correct ending (a–d)." },
+          xref: "☞ p.221　〜くらい",
+          left: [
+            "{材料費|ざいりょうひ}を1,000円も出すくらいなら、",
+            "疲れて学校休むくらいなら、",
+            "{上司|じょうし}と飲みに行くくらいなら、",
+            "すぐに別れるくらいなら、",
+          ],
+          right: [
+            "{残業|ざんぎょう}のほうがいいよ。",
+            "{手作|てづく}りするより、買ったほうがいいんじゃない？",
+            "最初から付き合わなければよかったのに…。",
+            "アルバイトなんてやめなさい。",
+          ],
+          answer: [1, 3, 0, 2],
+          en: [
+            "If it costs as much as 1,000 yen for materials, wouldn't it be better to buy one than make it yourself?",
+            "If you're going to be so tired you miss school, quit that part-time job.",
+            "Rather than go drinking with my boss, I'd prefer overtime.",
+            "If you were going to break up so soon, you shouldn't have started going out in the first place…",
+          ],
+        },
+      ],
+    },
+    {
+      no: 91,
+      pattern: "〜ほうがましだ",
+      phrase: "がんばったほうがずっと**まし**だ",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「まし」は、「ほかのものと{比|くら}べてみて、いいとは言えないが、一番悪いわけではない」と言いたいときに使う。「〜ほうが・〜より・〜だけ・まだ・ずっと」などと一緒に使われることが多い。",
+        en: "Use \"まし\" when you want to say \"I can't say it's good when compared to something else, but it's not the worst.\" It is often used together with \"〜ほうが・〜より・〜だけ・まだ・ずっと\", etc.",
+      },
+      forms: [],
+      examples: [
+        { ja: "A：もうすぐ冬だね。私、寒いの{苦手|にがて}なんだ。\nB：暑いより、寒いほうがましだよ。寒いときには服を着ればいいんだから。", en: "A: It'll be winter soon. I can't stand the cold.\nB: Cold is better than hot. When it's cold, you can just put on more clothes." },
+        { ja: "A：彼、何を作っても何も言わずに食べるだけなの。\nB：ちゃんと食べてくれるならいいじゃない。「まずい」って言われるよりましでしょ。", en: "A: Whatever I make, he just eats it without saying anything.\nB: Well, if he eats it properly, isn't that fine? It's better than being told it tastes bad." },
+        { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm sick of it.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job." },
+        { ja: "あいつは入社5年目なのにミスばかりで、{新���|しんじん}の{加藤|かとう}のほうがまだましだ。", en: "He's in his fifth year at the company but makes nothing but mistakes — even Kato, the new guy, is better." },
+      ],
+      deepDive:
+        "**まし（だ）** is a な-adjective meaning *less bad, preferable (by comparison)*. The key nuance: **neither option is good**; one is just less bad. If you say 暑いより寒いほうがましだ, you're not praising the cold — you just dislike the heat more.\n\n" +
+        "The book gives no single connection formula; instead, まし appears in fixed combinations:\n- **〜たほうがましだ** — *I'd rather ~ / it would be better to ~*: 文句を言って気まずくなるくらいなら、何も言わないほうがましだ.\n- **〜よりましだ** — *better than ~*: ないよりましだ *better than nothing*.\n- **〜だけましだ** — *at least ~*: 命が助かっただけましだ. The だけ clause names the one small positive point.\n- **まだましだ／ずっとましだ** — degree: *still better / far better*.\n- As a noun modifier: **ましな + N**: もう少しましな服はないの？ *Don't you have any decent clothes?*\n\n" +
+        "Contrast:\n- **〜ほうがいい** gives positive advice; ほうがましだ grudgingly picks the lesser evil.\n- **〜くらいなら** (#90) often pairs with it: A くらいなら B ほうがましだ.\n\n" +
+        "Common mistakes:\n- Using まし for something genuinely good: ✗このレストランは最高にましだ.\n- Mixing up what goes before だけ／より: in 〜だけまし the clause is the *good* fact (出るだけまし); in 〜よりまし the clause is the *worse* alternative (出ないよりまし). This is exactly what the practice below tests.",
+      see: [90],
+      index: ["〜ほうがましだ", "〜よりましだ", "〜だけましだ", "ましな + N"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "A：バレンタインのチョコ、1つしかもらえなかったんだー。それも姉から…。\nB：でも（　）よりましだよ。うちは兄弟、男ばかりだからさ。", options: ["ある", "ない"], answer: 1, en: "A: I only got one Valentine's chocolate. And it was from my big sister…\nB: Still, it's better than none. In my family it's all brothers, you know." },
+            { q: "A：今のアルバイト、交通{費|ひ}が500円までしか出ないんだ。\nB：いいじゃない。500円でも（　）よりましだよ。", options: ["出る", "出ない"], answer: 1, en: "A: At my current part-time job, they only pay up to 500 yen for transportation.\nB: That's fine, isn't it? Even 500 yen is better than nothing." },
+            { q: "{文句|もんく}を言って気まずくなるくらいなら、（　）ほうがましだと思う人が多い。", options: ["何も言わない", "何でも言った"], answer: 0, en: "Many people think that rather than complain and make things awkward, it's better to say nothing." },
+            { q: "{火事|かじ}でうちが{燃|も}えてしまったが、（　）だけましだと思うことにした。", options: ["うちが{燃|も}えた", "{命|いのち}が助かった"], answer: 1, en: "Our house burned down in a fire, but I decided to think that at least we escaped with our lives." },
+          ],
+        },
+      ],
+    },
+  ],
+  check: [
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
+      bank: ["ことだ", "ところだった", "ましだ"],
+      items: [
+        { q: "あの{通販|つうはん}サイト、にせブランド品を売っていたんだって。だまされる＿＿わ。", answer: "ところだった", en: "I heard that online shopping site was selling fake brand goods. I nearly got cheated." },
+        { q: "あんな{危|あぶ}ない運転をする人の車に乗るより、遠くても、歩いたほうが＿＿と思う。", answer: "ましだ", en: "Rather than ride in the car of someone who drives that dangerously, I think it's better to walk, even if it's far." },
+        { q: "{楽器|がっき}は何でも{上達|じょうたつ}しようと思ったら練習が一番。毎日練習する＿＿よ。", answer: "ことだ", en: "With any instrument, if you want to improve, practice is the best thing. You should practice every day." },
+      ],
+    },
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
+      bank: ["くらいなら", "ぶって", "に{限|かぎ}って", "という"],
+      items: [
+        { q: "A：え？　ノンアルコールビール？　そんなのを飲む＿＿ぼくは水飲むよ。\nB：そう？　これ、けっこうおいしいんだよ。", answer: "くらいなら", en: "A: What? Non-alcoholic beer? Rather than drink that stuff, I'd drink water.\nB: Really? This is actually pretty good, you know." },
+        { q: "{相談|そうだん}したいことがある日＿＿、{夫|おっと}の帰りが遅い。", answer: "に{限|かぎ}って", en: "It's always on days when I have something I want to talk over that my husband comes home late." },
+        { q: "クリスマスシーズンのこの町は、家＿＿家が{電球|でんきゅう}で{飾|かざ}られて{華|はな}やかだ。", answer: "という", en: "In the Christmas season, every single house in this town is decorated with lights, and it looks gorgeous." },
+        { q: "あの子、大人＿＿難しい言葉を使っているけれど、意味がわかっているのかな。", answer: "ぶって", en: "That kid is using difficult words, acting all grown-up, but I wonder if he actually understands what they mean." },
+      ],
+    },
   ],
 });
