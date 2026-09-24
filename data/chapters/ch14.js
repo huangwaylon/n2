@@ -27,11 +27,11 @@ N2.register({
             "en": "When it came to hosting the Olympics, in the past the whole nation used to rejoice."
           },
           {
-            "ja": "しかし{今日|こんにち}ではどこの国でも、オリンピック{開催|かいさい}**をめぐって**意見が{対立|たいりつ}する。",
+            "ja": "しかし{今日|こんにち}ではどこの国でも、オリンピック{開催|かいさい}**をめぐって**意見が{対|たい}{立|りつ}する。",
             "en": "Today, however, in every country opinions clash over hosting the Olympics."
           },
           {
-            "ja": "{開催国|かいさいこく}はオリンピックを{契機|けいき}として、国の{発展|はってん}を願う。",
+            "ja": "{開催国|かいさいこく}はオリンピックを{契機|けいき}として、国の{発|はっ}{展|てん}を願う。",
             "en": "The host country hopes to use the Olympics as an opportunity for national development."
           },
           {
@@ -43,11 +43,11 @@ N2.register({
             "en": "That is why voices of protest against the government are raised."
           },
           {
-            "ja": "また、オリンピック{開催|かいさい}**にあたって**は、{資金|しきん}**に{加|くわ}えて**、{競技場|きょうぎじょう}などの{建設用地|けんせつようち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。",
+            "ja": "また、オリンピック{開催|かいさい}**にあたって**は、{資金|しきん}**に{加|くわ}えて**、{競技場|きょうぎじょう}などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。",
             "en": "Also, when hosting the Olympics, in addition to funding, securing land for building stadiums and other facilities becomes an important issue."
           },
           {
-            "ja": "そのために住民の{移転|いてん}問題も{出|で}てくる。",
+            "ja": "そのために住民の{移|い}{転|てん}問題も{出|で}てくる。",
             "en": "Because of that, the problem of relocating residents also arises."
           },
           {
@@ -55,7 +55,7 @@ N2.register({
             "en": "Leaving the land where one has long lived is probably not something one can easily accept, even if compensation or replacement housing is provided."
           },
           {
-            "ja": "オリンピック{憲章|けんしょう}の中に、「スポーツを通じて{平和|へいわ}な社会を{構築|こうちく}する」とある。",
+            "ja": "オリンピック{憲章|けんしょう}の中に、「スポーツを通じて{平|へい}{和|わ}な社会を{構築|こうちく}する」とある。",
             "en": "The Olympic Charter states, \"to build a peaceful society through sport.\""
           },
           {
@@ -67,7 +67,7 @@ N2.register({
             "en": "However, the Olympics must never be held at the sacrifice of the people's feelings and livelihoods."
           },
           {
-            "ja": "多くの人が{賛同|さんどう}し**てこそ**、オリンピックを{開|ひら}く{意義|いぎ}がある。",
+            "ja": "多くの人が{賛|さん}{同|どう}し**てこそ**、オリンピックを{開|ひら}く{意義|いぎ}がある。",
             "en": "Only when many people support it is there any point in holding the Olympics."
           },
           {

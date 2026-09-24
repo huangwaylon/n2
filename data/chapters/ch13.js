@@ -38,7 +38,7 @@ N2.register({
             "en": "\"Huh? That place is supposed to be empty, I'm sure.\" As I approached, feeling suspicious, I suddenly heard a young woman scream, \"Aaah!\" Then the sound of a man and a woman fighting. \"Stop it!\" \"Shut up! Be quiet!\""
           },
           {
-            "ja": "もしかして、{事件|じけん}か。こんなときに{限|かぎ}って、{携帯|けいたい}をうちに{置|お}いてきてしまった。行**こうか**行く**まいか**{迷|まよ}った**末**、{俺|おれ}はその家に近づいていった。そしてその家のドアの前まで来たとき、「あのかばんはどこだ！　言え！」という低い男の声。そして「助けてー！」という女性の声――。",
+            "ja": "もしかして、{事件|じけん}か。こんなときに{限|かぎ}って、{携帯|けいたい}をうちに{置|お}いてきてしまった。行**こうか**行く**まいか**{迷|まよ}った**{末|すえ}**、{俺|おれ}はその家に近づいていった。そしてその家のドアの前まで来たとき、「あのかばんはどこだ！　言え！」という低い男の声。そして「助けてー！」という女性の声――。",
             "en": "Could it be a crime? Of all times, I'd left my cell phone at home. After agonizing over whether to go or not, I approached the house. And when I got to the front door, I heard a man's low voice: \"Where's that bag? Tell me!\" And then a woman's voice: \"Help!\""
           }
         ]
@@ -643,7 +643,7 @@ N2.register({
             "en": "\"Cut!\""
           },
           {
-            "ja": "{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は⁉」と低い声の男が{俺|おれ}に{問|と}いかけた。その横でカメラを持った男が{驚|おどろ}いた顔で{俺|おれ}を見ていた。「あれ？　これって、映画？」{恥|は}ずかしさの**あまり**、{逃|に}げ{出|だ}したくなった{俺|おれ}に、低い声の男が聞いた。「今の、もう１回できるか？」",
+            "ja": "{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。その横でカメラを持った男が{驚|おどろ}いた顔で{俺|おれ}を見ていた。「あれ？　これって、映画？」{恥|は}ずかしさの**あまり**、{逃|に}げ{出|だ}したくなった{俺|おれ}に、低い声の男が聞いた。「今の、もう１回できるか？」",
             "en": "In the dazzling light, a man with a low voice demanded, \"Who are you!?\" Beside him, a man holding a camera was staring at me in surprise. \"Huh? Is this… a movie?\" I was so embarrassed I wanted to run away, but the man with the low voice asked me, \"Can you do that one more time?\""
           },
           {
@@ -1714,7 +1714,11 @@ N2.register({
               "I see.",
               "In the first half, I'd like viewers to watch while sympathizing with the main character, and from the second half on, I think they'll enjoy a fast-paced story with both mystery and action scenes.",
               "I see. We're looking forward to the release. Thank you very much.",
-              "What does the director say is the message he wants to convey to the audience?"
+              "What does the director say is the message he wants to convey to the audience?",
+              "Not giving up on life",
+              "That the main character leads a hard life",
+              "Enjoying the search for the culprit in the mystery",
+              "That the action has a sense of speed"
             ],
             "options": [
               "人生をあきらめないこと",
