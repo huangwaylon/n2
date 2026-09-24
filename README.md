@@ -1,5 +1,7 @@
 # N2 文法 — Interactive JLPT N2 Grammar Textbook
 
+Live: https://huangwaylon.github.io/n2/ (GitHub Pages, deployed from `main` /root)
+
 Run locally: `python3 -m http.server` then open http://localhost:8000/
 
 ## Features
