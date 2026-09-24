@@ -277,7 +277,9 @@
           .map((l, k) => `<div class="sline">${l.sp ? `<span class="sp">${fmt(l.sp)}：</span>` : ""}<span>${fmt(l.ja)}${it.en && it.en[k] ? `<span class="en">${fmt(it.en[k])}</span>` : ""}</span></div>`)
           .join("");
         const qForScript = summary && it.question ? `<div class="sline"><span class="sp">質問：</span><span>${fmt(it.question)}</span></div>` : "";
-        const optsForScript = ex.mode === "response" ? `<div class="sline resp">${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}</div>`).join("")}</div>` : "";
+        // en entries beyond the script lines translate the spoken reply choices
+        const optEn = (it.en || []).slice(it.script.length);
+        const optsForScript = ex.mode === "response" ? `<div class="sline resp">${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}${optEn[j] ? `<span class="en">${fmt(optEn[j])}</span>` : ""}</div>`).join("")}</div>` : "";
         const displayOpts = ex.mode === "response" ? it.options.map((_, j) => String(j + 1)) : it.options;
         const opts = displayOpts.map((o, j) => `<button class="opt" data-act="pick" data-i="${i}" data-j="${j}"><span class="opt-n">${j + 1}</span>${ex.mode === "response" ? "" : fmt(o)}</button>`).join("");
         return `<div class="q choice-q listen-q" data-i="${i}">

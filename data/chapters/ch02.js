@@ -1508,5 +1508,394 @@ N2.register({
       }
     }
   ],
-  "review": []
+  "review": [
+    {
+      "title": {
+        "ja": "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉",
+        "en": "Question 1: Grammar form"
+      },
+      "ex": {
+        "type": "choice",
+        "labels": "123",
+        "prompt": {
+          "ja": "次の文の（　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 to fill the (　) in each sentence."
+        },
+        "items": [
+          {
+            "q": "うちのチームは、何度もシュートを（　）、{得点|とくてん}することができなかった。",
+            "options": [
+              "{試|こころ}みながらも",
+              "{試|こころ}みて以来",
+              "{試|こころ}みたからといって",
+              "{試|こころ}みることなく"
+            ],
+            "answer": 0,
+            "en": "Although our team tried many shots, we couldn't score."
+          },
+          {
+            "q": "私は今の仕事が{不満|ふまん}な（　）けど、もっとおもしろい仕事がしたいと思う。",
+            "options": [
+              "つもりだ",
+              "ようだ",
+              "はずがない",
+              "わけじゃない"
+            ],
+            "answer": 3,
+            "en": "It's not that I'm dissatisfied with my current job, but I'd like to do more interesting work."
+          },
+          {
+            "q": "ABKハウジングは{東京|とうきょう}（　）、{関東|かんとう}地方6県の{不動産|ふどうさん}を{取|と}り{扱|あつか}っております。",
+            "options": [
+              "くらい",
+              "を{目的|もくてき}に",
+              "をはじめ",
+              "のもとで"
+            ],
+            "answer": 2,
+            "en": "ABK Housing handles real estate in the six prefectures of the Kanto region, starting with Tokyo."
+          },
+          {
+            "q": "「{独立|どくりつ}すると言って会社を{辞|や}める（　）、どんなに大変でもがんばれ」と部長に言われた。",
+            "options": [
+              "ことなく",
+              "からには",
+              "ように",
+              "おかげで"
+            ],
+            "answer": 1,
+            "en": "My manager told me, \"Since you're quitting the company saying you'll go independent, hang in there no matter how hard it gets.\""
+          },
+          {
+            "q": "{高橋|たかはし}さんは子どもが生まれたの（　）、たばこをやめる{決心|けっしん}をしたんだそうです。",
+            "options": [
+              "はもとより",
+              "をきっかけに",
+              "をはじめとして",
+              "を中心として"
+            ],
+            "answer": 1,
+            "en": "I heard that Mr. Takahashi decided to quit smoking when his child was born."
+          },
+          {
+            "q": "この町は大学（　）、{若者向|わかものむ}けの{商店|しょうてん}やアパートが集まっている。",
+            "options": [
+              "を{問|と}わず",
+              "を{通|つう}じて",
+              "を中心として",
+              "をもととして"
+            ],
+            "answer": 2,
+            "en": "In this town, shops and apartments for young people are clustered around the university."
+          },
+          {
+            "q": "あきらめる（　）、{努力|どりょく}を続ければ、{必|かなら}ず{成果|せいか}は表れると信じている。",
+            "options": [
+              "ことなく",
+              "からには",
+              "ものだから",
+              "とおり"
+            ],
+            "answer": 0,
+            "en": "I believe that if you keep making an effort without giving up, results will surely appear."
+          },
+          {
+            "q": "{警備|けいび}を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が{適切|てきせつ}だったか問題になっている。",
+            "options": [
+              "ほうが",
+              "からには",
+              "ことなく",
+              "にもかかわらず"
+            ],
+            "answer": 3,
+            "en": "Despite the tightened security, a 300-million-yen diamond was stolen, and whether the security was adequate has become an issue."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題2 〈{文|ぶん}の{組|く}み{立|た}て〉",
+        "en": "Question 2: Sentence composition"
+      },
+      "ex": {
+        "type": "order",
+        "prompt": {
+          "ja": "次の文の＿★＿に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 for the ★ slot."
+        },
+        "items": [
+          {
+            "before": "インターンシップには、{参加|さんか}したほうが{就職|しゅうしょく}に{有利|ゆうり}だと言われるが、",
+            "after": "わけではない。",
+            "pieces": [
+              "{内定|ないてい}が",
+              "もらえる",
+              "という",
+              "{参加|さんか}すれば"
+            ],
+            "order": [
+              3,
+              0,
+              1,
+              2
+            ],
+            "star": 2,
+            "en": "It is said that taking part in an internship is advantageous for job hunting, but it doesn't mean that you'll get a job offer just by taking part."
+          },
+          {
+            "before": "{数年前|すうねんまえ}に{命|いのち}にかかわるような",
+            "after": "注意するようになった。",
+            "pieces": [
+              "以来",
+              "{大病|たいびょう}を",
+              "{健康|けんこう}に",
+              "して"
+            ],
+            "order": [
+              1,
+              3,
+              0,
+              2
+            ],
+            "star": 2,
+            "en": "Ever since I had a life-threatening illness a few years ago, I've started paying attention to my health."
+          },
+          {
+            "before": "{新製品|しんせいひん}の",
+            "after": "アンケート{結果|けっか}は{重要|じゅうよう}な{資料|しりょう}になるだろう。",
+            "pieces": [
+              "上で",
+              "この",
+              "考える",
+              "{宣伝|せんでん}方法を"
+            ],
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "star": 2,
+            "en": "These survey results will probably be important material when thinking about how to advertise the new product."
+          },
+          {
+            "before": "{宇宙飛行士|うちゅうひこうし}を",
+            "after": "、{判断力|はんだんりょく}や問題{解決能力|かいけつのうりょく}もきたえておかなければならない。",
+            "pieces": [
+              "{体力|たいりょく}",
+              "はもとより",
+              "からには",
+              "{目|め}{指|ざ}す"
+            ],
+            "order": [
+              3,
+              2,
+              0,
+              1
+            ],
+            "star": 2,
+            "en": "If you aim to become an astronaut, you must train not only your physical strength but also your judgment and problem-solving ability."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題3 〈{読解|どっかい}〉",
+        "en": "Question 3: Reading comprehension"
+      },
+      "ex": {
+        "type": "reading",
+        "labels": "123",
+        "prompt": {
+          "ja": "次の文章を読んで問題に答えなさい。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
+          "en": "Read the passage and answer the questions. Choose the best answer to each question from 1, 2, 3 and 4."
+        },
+        "title": "",
+        "text": [
+          "皆様、本日は私たちABK大学{駅伝部|えきでんぶ}のためにお集まりいただき、ありがとうございます。",
+          "わが{駅伝部|えきでんぶ}は{箱根駅伝|はこねえきでん}※{出場|しゅつじょう}を{目|め}{指|ざ}して、1日も休むことなく練習に{励|はげ}んできました。{他|た}大学の選手と{比|くら}べて、{努力|どりょく}が足りなかったわけではないと思いますが、{残念|ざんねん}ながらこれまでわが校が{箱根駅伝|はこねえきでん}の{出場権|しゅつじょうけん}を{得|え}ることはありませんでした。でも、今年、私にとっては大学生活最後の年に、ついに{夢|ゆめ}を{実現|じつげん}することができました。今回の{出場|しゅつじょう}をきっかけとして、{駅伝部|えきでんぶ}は大きく{成長|せいちょう}できると{期待|きたい}しています。",
+          "コーチをはじめ、これまで{応援|おうえん}してくださった方のためにも、選手{一同|いちどう}、{精一杯|せいいっぱい}がんばるつもりです。皆様、{応援|おうえん}どうぞよろしくお願いいたします。",
+          "※{箱根駅伝|はこねえきでん}：{東京|とうきょう}{箱根|はこね}{間|かん}{往復|おうふく}{大学|だいがく}{駅伝|えきでん}{競走|きょうそう}\n{東京|とうきょう}から{箱根|はこね}までの{往復|おうふく}を10名の選手が{交替|こうたい}しながら走る、大学{対抗|たいこう}の{伝統的|でんとうてき}な{競技|きょうぎ}。毎年1月2日と3日に{行|おこな}われる。\n{箱根駅伝|はこねえきでん}：Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd."
+        ],
+        "en": [
+          "Everyone, thank you very much for gathering here today for us, the ABK University ekiden team.",
+          "Our ekiden team has trained hard without taking a single day off, aiming to take part in the Hakone Ekiden. I don't think we put in less effort than the runners of other universities, but unfortunately, until now our school had never won the right to compete in the Hakone Ekiden. But this year, which for me is my last year of university life, we have finally been able to make our dream come true. I hope that, with this appearance as a springboard, the ekiden team will be able to grow a great deal.",
+          "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to do our very best. Everyone, we ask for your continued support.",
+          "*Hakone Ekiden: Tokyo-Hakone Round-Trip College Ekiden Race — a traditional intercollegiate competition in which ten runners take turns running the round trip from Tokyo to Hakone, held every year on January 2 and 3."
+        ],
+        "items": [
+          {
+            "q": "ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。",
+            "options": [
+              "初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}し、{精一杯|せいいっぱい}がんばった。",
+              "初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}できることになった。",
+              "{駅伝部|えきでんぶ}は{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}して、大きく{成長|せいちょう}した。",
+              "{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}するという{夢|ゆめ}を{実現|じつげん}したいと思っている。"
+            ],
+            "answer": 1,
+            "en": "Which statement about the ABK University ekiden team is correct?",
+            "why": {
+              "en": "The school had never qualified before (出場権を得ることはありませんでした) and this year finally did (ついに夢を実現することができました) — the race itself hasn't been run yet."
+            }
+          },
+          {
+            "q": "この会で、{誰|だれ}が{誰|だれ}に話していますか。",
+            "options": [
+              "選手がコーチに話している。",
+              "コーチが選手に話している。",
+              "コーチが会の{参加者|さんかしゃ}に話している。",
+              "選手が会の{参加者|さんかしゃ}に話している。"
+            ],
+            "answer": 3,
+            "en": "At this gathering, who is speaking to whom?",
+            "why": {
+              "en": "The speaker is a runner in his last year (私にとっては大学生活最後の年; 選手一同) thanking the people who came (お集まりいただき)."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 1",
+        "en": "Question 4: Listening (1) — overall gist"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "response",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4."
+        },
+        "items": [
+          {
+            "script": [
+              {
+                "sp": "",
+                "ja": "女の人が話しています。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "私は{老人|ろうじん}ホームなど{福祉|ふくし}の{現場|げんば}で10年間働いて、ご本人やご家族の方から{様々|さまざま}な{質問|しつもん}を受けてきましたが、その間ずっと、{福祉|ふくし}について分かりやすく説明してあるものがあったらいいなあと思ってきました。それで今回、皆さんが{疑問|ぎもん}に思われることをまとめて、このガイドブックを作りました。この本をきっかけに、皆さんが{福祉|ふくし}について考えてくださることを{期待|きたい}しております。"
+              },
+              {
+                "sp": "質問",
+                "v": "f",
+                "ja": "女の人は何について話していますか。"
+              }
+            ],
+            "en": [
+              "A woman is speaking.",
+              "I worked for ten years in the field of welfare, at places such as nursing homes for the elderly, and received all kinds of questions from the people themselves and their families. All that time, I kept thinking it would be nice if there were something that explained welfare in an easy-to-understand way. So this time I gathered together the things you all wonder about and made this guidebook. I hope this book will be an opportunity for you all to think about welfare.",
+              "What is the woman talking about?"
+            ],
+            "options": [
+              "女の人が{福祉|ふくし}の{現場|げんば}で働いてきたこと",
+              "女の人がご家族の方から{質問|しつもん}されたこと",
+              "女の人が本を書いた理由",
+              "みんなの{福祉|ふくし}に対する{期待|きたい}"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "Her whole talk explains why she made the guidebook (それで今回…このガイドブックを作りました)."
+            }
+          },
+          {
+            "script": [
+              {
+                "sp": "",
+                "ja": "女の人が話しています。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "この会は{主婦|しゅふ}を中心に{結成|けっせい}されたボランティア{団体|だんたい}です。{地域|ちいき}の{環境|かんきょう}を{整|ととの}えて、子どもたちもお{年寄|としよ}りも安心して暮らせる街づくりを{目|め}{指|ざ}しています。できるだけ多くの方に{参加|さんか}していただいて、{協力|きょうりょく}して住みよい{街|まち}づくりに{貢献|こうけん}したいと思います。{主婦|しゅふ}でなくても、この{活動|かつどう}に{興味|きょうみ}を持たれた方はぜひご{参加|さんか}ください。"
+              },
+              {
+                "sp": "質問",
+                "v": "f",
+                "ja": "女の人は何のために話していますか。"
+              }
+            ],
+            "en": [
+              "A woman is speaking.",
+              "This group is a volunteer organization formed mainly by homemakers. We aim to improve the local environment and create a town where both children and the elderly can live with peace of mind. We would like as many people as possible to take part so that, working together, we can contribute to building a pleasant town to live in. Even if you are not a homemaker, if you are interested in this activity, please do join us.",
+              "What is the woman speaking for?"
+            ],
+            "options": [
+              "ボランティア{団体|だんたい}を{結成|けっせい}するため",
+              "{地域|ちいき}の{環境|かんきょう}を{整|ととの}えるため",
+              "新しいメンバーを{募集|ぼしゅう}するため",
+              "ボランティア{活動|かつどう}に{参加|さんか}するため"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "She is inviting people to join (できるだけ多くの方に参加していただいて…ぜひご参加ください) — i.e. recruiting new members."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 2",
+        "en": "Question 4: Listening (2) — quick response"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "response",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3."
+        },
+        "items": [
+          {
+            "script": [
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "よう、元気そうだね。こうやって集まるの、大学卒業以来だね。"
+              }
+            ],
+            "en": [
+              "Hey, you look well. This is the first time we've gathered like this since graduating from university, huh.",
+              "1. It really brings back memories.",
+              "2. Did we graduate from university?",
+              "3. When are you planning to get together?"
+            ],
+            "options": [
+              "ほんとに{懐|なつ}かしいね。",
+              "大学卒業したっけ？",
+              "いつ集まるつもり？"
+            ],
+            "answer": 0
+          },
+          {
+            "script": [
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "何遊んでるのよ。ちょっと手伝ってくれない？"
+              }
+            ],
+            "en": [
+              "What are you goofing off for? Can't you give me a hand?",
+              "1. Then let's play together.",
+              "2. It's not like I'm goofing off.",
+              "3. You won't help me?"
+            ],
+            "options": [
+              "じゃ、一緒に遊ぼうよ。",
+              "別に遊んでるわけじゃないよ。",
+              "手伝ってくれないの？"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    }
+  ]
 });

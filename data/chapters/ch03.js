@@ -892,5 +892,403 @@ N2.register({
       ]
     }
   ],
-  "review": []
+  "review": [
+    {
+      "title": {
+        "ja": "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉",
+        "en": "Question 1: Grammar form"
+      },
+      "ex": {
+        "type": "choice",
+        "labels": "123",
+        "prompt": {
+          "ja": "次の文の（　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 to fill the (　) in each sentence."
+        },
+        "items": [
+          {
+            "q": "{歴史|れきし}ある{建物|たてもの}だが、古くなって{危険|きけん}なので（　）。",
+            "options": [
+              "{壊|こわ}してしょうがない",
+              "{壊|こわ}さないはずだ",
+              "{壊|こわ}しっこない",
+              "{壊|こわ}さざるを{得|え}ない"
+            ],
+            "answer": 3,
+            "en": "It is a historic building, but it has become old and dangerous, so there is no choice but to demolish it."
+          },
+          {
+            "q": "テレビ{番組|ばんぐみ}は内容によっては、{若者|わかもの}に悪い{影響|えいきょう}を（　）。",
+            "options": [
+              "{与|あた}えざるを{得|え}ない",
+              "{与|あた}えかねない",
+              "{与|あた}えないところだ",
+              "{与|あた}えっこない"
+            ],
+            "answer": 1,
+            "en": "Depending on their content, TV programs could have a bad influence on young people."
+          },
+          {
+            "q": "バイオリンは{弾|ひ}く（　）歌うような{感覚|かんかく}が大事です。なぜなら、バイオリンの{音色|ねいろ}は人の声に近いと言われていますから。",
+            "options": [
+              "として",
+              "といえば",
+              "というより",
+              "というと"
+            ],
+            "answer": 2,
+            "en": "With the violin, the feeling of singing rather than playing is what matters. That's because the violin's tone is said to be close to the human voice."
+          },
+          {
+            "q": "この{靴|くつ}はデザイン（　）たいへん歩きやすいので気に入っています。",
+            "options": [
+              "として",
+              "について",
+              "によって",
+              "はともかく"
+            ],
+            "answer": 3,
+            "en": "Design aside, these shoes are very easy to walk in, so I like them."
+          },
+          {
+            "q": "仕事は長い時間働けばいい（　）。時間をかけないで{効率|こうりつ}よく進めることを考える{必要|ひつよう}がある。",
+            "options": [
+              "に{限|かぎ}る",
+              "ということだ",
+              "というものではない",
+              "に決まっている"
+            ],
+            "answer": 2,
+            "en": "It's not the case that working long hours is all that matters in a job. You need to think about getting things done efficiently without taking too much time."
+          },
+          {
+            "q": "どんな仕事でも自分でやってみない（　）その大変さはわからないだろう。",
+            "options": [
+              "として",
+              "{限|かぎ}り",
+              "{際|さい}",
+              "というより"
+            ],
+            "answer": 1,
+            "en": "Whatever the job, unless you try doing it yourself, you probably won't understand how hard it is."
+          },
+          {
+            "q": "本日はグラフィックデザイナー（　）ご{活躍|かつやく}の{渡辺|わたなべ}たかしさんにお話を{伺|うかが}いたいと思います。",
+            "options": [
+              "として",
+              "を{問|と}わず",
+              "をはじめ",
+              "はもとより"
+            ],
+            "answer": 0,
+            "en": "Today we would like to hear from Takashi Watanabe, who is active as a graphic designer."
+          },
+          {
+            "q": "A：部長、パソコンの本、ずいぶん{熱心|ねっしん}に読んでますね。\nB：うん。パソコンが使えなかったら何もできないんだから、できないと（　）からね。",
+            "options": [
+              "言うというものではない",
+              "言いかねない",
+              "言わざるを{得|え}ない",
+              "言ってはいられない"
+            ],
+            "answer": 3,
+            "en": "A: Sir, you're reading that computer book very keenly.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題2 〈{文|ぶん}の{組|く}み{立|た}て〉",
+        "en": "Question 2: Sentence composition"
+      },
+      "ex": {
+        "type": "order",
+        "prompt": {
+          "ja": "次の文の＿★＿に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 for the ★ slot."
+        },
+        "items": [
+          {
+            "before": "A：Bさん、お酒、好きだよね。週に3回は飲みに行っているんじゃない？\nB：そうじゃないのよ。",
+            "after": "好きなのよ。",
+            "pieces": [
+              "{雰囲気|ふんいき}が",
+              "というより",
+              "好き",
+              "お酒が"
+            ],
+            "order": [
+              3,
+              2,
+              1,
+              0
+            ],
+            "star": 2,
+            "en": "A: B, you like drinking, don't you? Aren't you going out drinking three times a week?\nB: It's not that. Rather than liking alcohol, I like the atmosphere."
+          },
+          {
+            "before": "A：新しいアルバイト、ちゃんとやってる？\nB：もちろんだよ。まじめに",
+            "after": "からね。",
+            "pieces": [
+              "クビに",
+              "やらないと",
+              "かねない",
+              "され"
+            ],
+            "order": [
+              1,
+              0,
+              3,
+              2
+            ],
+            "star": 2,
+            "en": "A: Are you doing your new part-time job properly?\nB: Of course. If I don't do it seriously, I could get fired."
+          },
+          {
+            "before": "A：先生、{無理|むり}です。そんなのできません。\nB：",
+            "after": "ことが大切です。がんばってね。",
+            "pieces": [
+              "やってみる",
+              "かどうか",
+              "できる",
+              "はともかく"
+            ],
+            "order": [
+              2,
+              1,
+              3,
+              0
+            ],
+            "star": 2,
+            "en": "A: Teacher, it's impossible. I can't do something like that.\nB: Whether you can do it or not, what matters is trying. Good luck."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉",
+        "en": "Question 3: Grammar in a passage"
+      },
+      "ex": {
+        "type": "passage",
+        "prompt": {
+          "ja": "次の文章を読んで、文章全体の内容を考えて、［1］から［5］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "en": "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 5."
+        },
+        "title": "",
+        "text": [
+          "会社に{勤|つと}めている[1]、前の晩どんなに遅く{帰宅|きたく}しても、{翌朝|よくあさ}はいつも通り9時に[2]のが日本のサラリーマンだ。午前中[3]午後2時を{過|す}ぎると、人間の体のリズムから{自然|しぜん}に{眠|ねむ}くなる。",
+          "そうなったら、{事故|じこ}や仕事のミスを生み[4]。{睡眠不足|すいみんぶそく}は、会社が休みの日にたくさん寝れば、{解消|かいしょう}する[5]。{眠|ねむ}くなる{時間帯|じかんたい}に短い{睡眠|すいみん}を取るほうが、{眠|ねむ}くなるのを{防|ふせ}げると専門家は言う。",
+          "{東京|とうきょう}のビルにある「{仮眠室|かみんしつ}」には、多い日には120人も{訪|おとず}れるそうだ。利用者の話では、{眠気|ねむけ}を{解消|かいしょう}するには、深く{眠|ねむ}らないで15分{程度|ていど}軽く寝るのがいいということだ。"
+        ],
+        "en": [
+          "As long as they work for a company, Japanese salarymen have no choice but to get to the office at 9 the next morning as usual, however late they got home the night before. The morning aside, once it passes 2 p.m., people naturally become sleepy because of the body's rhythm.",
+          "When that happens, it can lead to accidents and mistakes at work. Lack of sleep is not something that gets resolved just by sleeping a lot on your days off. Experts say that taking a short nap during the hours when you get sleepy is better for preventing drowsiness.",
+          "Reportedly, as many as 120 people a day on busy days visit a \"nap room\" in a building in Tokyo. According to its users, the best way to get rid of drowsiness is to sleep lightly for about 15 minutes without falling into a deep sleep."
+        ],
+        "blanks": [
+          {
+            "options": [
+              "というのは",
+              "{限|かぎ}り",
+              "においては",
+              "というと"
+            ],
+            "answer": 1
+          },
+          {
+            "options": [
+              "{出社|しゅっしゃ}するというものでもない",
+              "{出社|しゅっしゃ}しないはずだ",
+              "{出社|しゅっしゃ}せざるを{得|え}ない",
+              "{出社|しゅっしゃ}しないということだ"
+            ],
+            "answer": 2
+          },
+          {
+            "options": [
+              "にかわって",
+              "に{限|かぎ}り",
+              "を{問|と}わず",
+              "はともかく"
+            ],
+            "answer": 3
+          },
+          {
+            "options": [
+              "たがる",
+              "かねる",
+              "かねない",
+              "っこない"
+            ],
+            "answer": 2
+          },
+          {
+            "options": [
+              "ことか",
+              "というものではない",
+              "ことになっている",
+              "ことにする"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 1",
+        "en": "Question 4: Listening (task)"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "task",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "First listen to the question. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet."
+        },
+        "items": [
+          {
+            "question": "男の人は今すぐ何をしますか。",
+            "script": [
+              {
+                "sp": "",
+                "ja": "女の人と男の人が話しています。男の人は今すぐ何をしますか。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "{課長|かちょう}、先ほど{東京商事|とうきょうしょうじ}からお電話があって、{納入|のうにゅう}した{機械|きかい}に問題があったそうなんです。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "えっ!? {担当|たんとう}は{後藤|ごとう}君だよね。今出張中だったっけ。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "ええ、{連絡|れんらく}は取れますが、すぐに{対応|たいおう}できるかどうか…。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "遅れると{取|と}り{引|ひ}きがだめになりかねないし、この{件|けん}は私がなんとかせざるを{得|え}ないかな。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "{関係書類|かんけいしょるい}を持ってきましょうか。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "そうだね。とりあえず私が{先方|せんぽう}に{連絡|れんらく}を取って、場合によっては{東京商事|とうきょうしょうじ}へ行くことにするよ。"
+              }
+            ],
+            "en": [
+              "A woman and a man are talking. What will the man do right now?",
+              "Section chief, Tokyo Shoji called a little while ago. Apparently there was a problem with the machine we delivered.",
+              "What!? Goto is in charge of that, right? Is he away on a business trip now?",
+              "Yes. We can contact him, but I'm not sure whether he can deal with it right away...",
+              "If we're slow, we could lose the deal, so I guess I have no choice but to handle this matter myself.",
+              "Shall I bring the related documents?",
+              "Yes. For now, I'll get in touch with them, and depending on how it goes, I'll go over to Tokyo Shoji."
+            ],
+            "options": [
+              "{東京商事|とうきょうしょうじ}に{機械|きかい}を{納入|のうにゅう}する",
+              "{関係書類|かんけいしょるい}を{持|も}ってくる",
+              "{東京商事|とうきょうしょうじ}に{電話|でんわ}する",
+              "{東京商事|とうきょうしょうじ}へ{行|い}く"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "とりあえず私が先方に連絡を取って — first he will contact Tokyo Shoji; going there is only 場合によっては (depending on the situation), and the woman is the one bringing documents."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 2",
+        "en": "Question 4: Listening (quick response)"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "response",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3."
+        },
+        "items": [
+          {
+            "script": [
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "何なの、この映画。お金払って{損|そん}した。"
+              }
+            ],
+            "en": [
+              "What is this movie? I wasted my money paying for it."
+            ],
+            "options": [
+              "ほんと、見ざるを{得|え}ないよ。",
+              "そうだね、見るんじゃなかった。",
+              "うん。今度見ようよ。"
+            ],
+            "answer": 1,
+            "why": {
+              "en": "〜んじゃなかった expresses regret: \"We shouldn't have watched it.\""
+            }
+          },
+          {
+            "script": [
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "すみません、ちょっとインタビューに答えてもらえませんか。"
+              }
+            ],
+            "en": [
+              "Excuse me, could you answer a few interview questions?"
+            ],
+            "options": [
+              "ちょっと時間がないので。",
+              "答えかねませんよ。",
+              "はい、そうしますよ。"
+            ],
+            "answer": 0,
+            "why": {
+              "en": "A polite refusal: \"I'm a bit short on time.\" 答えかねない (might answer — a bad outcome) makes no sense here."
+            }
+          },
+          {
+            "script": [
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "おい、そんなにスピード出したら、{事故|じこ}を起こしかねないぞ。"
+              }
+            ],
+            "en": [
+              "Hey, if you drive that fast, you could cause an accident."
+            ],
+            "options": [
+              "スピード出して、{事故|じこ}起こしたんだって。",
+              "あそこで、{事故|じこ}があったみたい。",
+              "わかったよ。安全運転でいくよ。"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "〜かねない warns of a possible bad result; the natural reply is to promise to drive safely."
+            }
+          }
+        ]
+      }
+    }
+  ]
 });
