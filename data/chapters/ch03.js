@@ -406,7 +406,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.224　〜もの／もん",
-          "deepDive": "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\nTypical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n- **というものでもない** (with も) is softer: *nor is it simply that ~*, often used when adding one more point.\n- Colloquial: **というもんじゃない / ってもんじゃない**.\n\nCompare with similar endings:\n- **〜わけではない** (#19): *it doesn't mean that ~* — corrects an inference from a specific fact (嫌いなわけではない). というものではない rejects a general belief or formula.\n- **〜とは限らない** (N3): *not always ~* — close in meaning, more neutral.\n- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n(See the 〜もの／もん list on p.224 for the whole family.)\n\nJLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, items 2) and 3) show speakers who *do* believe the formula (はずだ, にちがいない).",
+          "deepDive": "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\nTypical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n- **というものでもない** (with も) is softer: *nor is it simply that ~*, often used when adding one more point.\n- Colloquial: **というもんじゃない / ってもんじゃない**.\n\nCompare with similar endings:\n- **〜わけではない** (#19): *it doesn't mean that ~* — corrects an inference from a specific fact (嫌いなわけではない). というものではない rejects a general belief or formula.\n- **〜とは限らない** (N3): *not always ~* — close in meaning, more neutral.\n- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n(See the 〜もの／もん list on p.224 for the whole family.)\n\nJLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) shows a speaker who *does* believe the formula (にちがいない), while in item 2) the context (昨今の就職難) rejects it, so というものではない is correct.",
           "see": [
             13,
             19,
@@ -532,7 +532,7 @@ N2.register({
               "labels": "ab",
               "prompt": {
                 "ja": "",
-                "en": "Choose the correct option. (Item 4 has an illustration: a man proudly shows a woman a lopsided homemade cake.)"
+                "en": "Choose the correct option. (Item 4 has an illustration: a man nervously shows a woman a misshapen homemade cake.)"
               },
               "items": [
                 {

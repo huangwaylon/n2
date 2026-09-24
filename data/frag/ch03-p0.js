@@ -228,7 +228,7 @@ N2F({
         "- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n" +
         "- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n" +
         "(See the 〜もの／もん list on p.224 for the whole family.)\n\n" +
-        "JLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, items 2) and 3) show speakers who *do* believe the formula (はずだ, にちがいない).",
+        "JLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) shows a speaker who *does* believe the formula (にちがいない), while in item 2) the context (昨今の就職難) rejects it, so というものではない is correct.",
       see: [13, 19, 39, 46, 51, 52, 56, 92, 122, 132],
       index: ["〜というものではない", "〜というものでもない", "〜ばいいというものではない", "〜ってもんじゃない"],
       practice: [
@@ -285,7 +285,7 @@ N2F({
         {
           type: "choice",
           labels: "ab",
-          prompt: { ja: "", en: "Choose the correct option. (Item 4 has an illustration: a man proudly shows a woman a lopsided homemade cake.)" },
+          prompt: { ja: "", en: "Choose the correct option. (Item 4 has an illustration: a man nervously shows a woman a misshapen homemade cake.)" },
           items: [
             { q: "{健康|けんこう}のために、忙しいとき（　）、{普段|ふだん}はできるだけ食事をゆっくりとったほうがいいですよ。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "For your health, busy times aside, you should normally take your time over meals as much as possible." },
             { q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "Even at a cheap hotel, never mind a bath, it's a problem if there isn't a shower." },

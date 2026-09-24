@@ -285,7 +285,7 @@ N2F({
         ja: "「〜に{限|かぎ}らず」は、「〜だけでなく、ほかにも」と言いたいときに使う。",
         en: "Use \"〜に{限|かぎ}らず\" when you want to say \"not just 〜, but also something else.\"",
       },
-      forms: ["[N] + に{限|かぎ}ら���"],
+      forms: ["[N] + に{限|かぎ}らã"],
       examples: [
         { ja: "{環境対策|かんきょうたいさく}のためにも、夏に{限|かぎ}らず、{年間|ねんかん}を通して{節電|せつでん}を心がけるべきだ。", en: "For the sake of environmental measures too, we should try to save electricity throughout the year, not just in summer." },
         { ja: "水の問題は{特定|とくてい}の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably become a global issue, not limited to particular regions." },

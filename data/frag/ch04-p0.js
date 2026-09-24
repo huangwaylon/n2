@@ -185,8 +185,8 @@ N2F({
       stars: 2,
       marks: ["formal"],
       usage: {
-        ja: "「～にともなう」は、「道路工事にともなう{通行止|つうこうど}め」のように、中心になること（道路工事）と同時に、ほかのこと（{通行止|つうこうど}め）も一緒に起きるときに使う。{変化|へんか}を表すときにも使う。",
-        en: "As in “道路工事にともなう{通行止|つうこうど}め”, use “～にともなう” when the focus of the sentence (road construction) simultaneously produces a concurrent result (a closed road). You can also use it to express a change.",
+        ja: "「〜にともなう」は、「道路工事にともなう{通行止|つうこうど}め」のように、中心になること（道路工事）と同時に、ほかのこと（{通行止|つうこうど}め）も一緒に起きるときに使う。{変化|へんか}を表すときにも使う。",
+        en: "As in “道路工事にともなう{通行止|つうこうど}め”, use “〜にともなう” when the focus of the sentence (road construction) simultaneously produces a concurrent result (a closed road). You can also use it to express a change.",
       },
       forms: ["[N] + にともなって", "[N] + にともない", "[N] + にともなう + [N]"],
       examples: [
@@ -227,8 +227,8 @@ N2F({
       stars: 2,
       marks: ["formal"],
       usage: {
-        ja: "「～おそれがある」は、{客観的|きゃっかんてき}なデータなどをもとにして、{危険|きけん}な{状態|じょうたい}になる{可能性|かのうせい}が高いことを伝えるときに使う。ニュースや新聞、{報告書|ほうこくしょ}などに使われることが多い。",
-        en: "Use “～おそれがある” when you say that there is a high likelihood that—based on objective data or the like—the situation will become dangerous or otherwise undesireable. It is often used in news shows, newspapers, reports and the like.",
+        ja: "「〜おそれがある」は、{客観的|きゃっかんてき}なデータなどをもとにして、{危険|きけん}な{状態|じょうたい}になる{可能性|かのうせい}が高いことを伝えるときに使う。ニュースや新聞、{報告書|ほうこくしょ}などに使われることが多い。",
+        en: "Use “〜おそれがある” when you say that there is a high likelihood that—based on objective data or the like—the situation will become dangerous or otherwise undesireable. It is often used in news shows, newspapers, reports and the like.",
       },
       forms: ["[V-る]／[V-ない] + おそれがある", "[N] の + おそれがある"],
       examples: [
@@ -271,8 +271,8 @@ N2F({
       stars: 3,
       marks: ["formal"],
       usage: {
-        ja: "「～とともに…」は、「～と一緒に・～だけでなく」と言うときに使う。「～と一緒に…が生じる・起きる」と言うときや、{変化|へんか}を表すときにも使う。",
-        en: "Use “～とともに…” when you say “together with ～” or “not only ～ but also …”. You can also use it to say that “… happens together with ～”, or to express a change.",
+        ja: "「〜とともに…」は、「〜と一緒に・〜だけでなく」と言うときに使う。「〜と一緒に…が生じる・起きる」と言うときや、{変化|へんか}を表すときにも使う。",
+        en: "Use “〜とともに…” when you say “together with 〜” or “not only 〜 but also …”. You can also use it to say that “… happens together with 〜”, or to express a change.",
       },
       forms: ["[V-る] + とともに", "[N] + とともに"],
       examples: [
@@ -325,8 +325,8 @@ N2F({
       stars: 3,
       marks: [],
       usage: {
-        ja: "「～{次第|しだい}…」は、「（今はまだできないが）～たら、すぐ…する」と言うときに使う。",
-        en: "Use “～{次第|しだい}…” when you say “when something (that I can't do yet) happens, I'll do … right away.”",
+        ja: "「〜{次第|しだい}…」は、「（今はまだできないが）〜たら、すぐ…する」と言うときに使う。",
+        en: "Use “〜{次第|しだい}…” when you say “when something (that I can't do yet) happens, I'll do … right away.”",
       },
       forms: ["[V-~~ます~~] + {次第|しだい}", "[N] + {次第|しだい}"],
       examples: [
