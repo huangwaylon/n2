@@ -1,0 +1,157 @@
+# Chapter data schema
+
+Every chapter lives in `data/chapters/chNN.js` and calls `N2.register({...})`.
+The site renders everything from these objects — there is no build step.
+
+## Inline markup (usable in any Japanese or English string)
+
+| Markup | Renders as | Example |
+|---|---|---|
+| `{漢字\|かんじ}` | ruby / furigana | `{募集\|ぼしゅう}` |
+| `**text**` | highlighted target grammar | `オープン**につき**` |
+| `[N]` `[V-る]` `[V-て]` `[V-た]` `[V-ない]` `[いA]` `[なA]` `[Pl]` `[V-ば]` `[V-よう]` `[V-られる]` `[V-させる]` `[V-できる]` | part-of-speech badge (connection formulas) | `[N] + につき` |
+| `~~x~~` inside a badge | struck-through ending (stem) | `[V-~~ます~~]`, `[いA~~い~~]`, `[なA~~な~~]`, `[N~~だ~~]` |
+| `＿＿` | blank line in a question | `会議は＿＿行われます。` |
+| `（　）` | bracket blank in a question | `体力（　）無理のないように` |
+| `\n` | line break | dialogues inside questions |
+
+Furigana rule: add `{漢字|よみ}` to kanji words at roughly N3 level and above
+(and to anything with an unusual reading). Leave very common N5/N4 kanji bare
+(日本, 人, 行く, 今日, 大きい, 会社 …). Readings must be correct; split
+okurigana out of the ruby: `{届|とど}ける`, not `{届ける|とどける}`.
+
+## Chapter
+
+```js
+N2.register({
+  id: 1,
+  genre: { ja: "お{知|し}らせを{読|よ}む", en: "Reading an Announcement" },
+  title: { ja: "スタッフ{募集|ぼしゅう}のお{知|し}らせ", en: "A Job Ad" },
+  canDo: [ { ja: "…", en: "…" } ],        // chapter-level (shown in header)
+  parts: [ Part, … ],                      // 1 part, or 2 for chapters split (1)/(2)
+  review: [ ReviewSection, … ]             // まとめの問題 (after last part)
+});
+```
+
+### Part
+
+```js
+{
+  label: "(1)",                           // "" when the chapter isn't split
+  canDo: [ {ja,en} ],                     // optional, part-specific can-do
+  sample: {                               // 見本文 — an ORIGINAL text using the part's grammar in **bold**
+    kind: "notice" | "speech" | "dialogue" | "essay" | "article" | "story" | "news" | "explanation" | "editorial",
+    heading: "…",                         // optional headline (notices, articles)
+    lines: [ { sp: "田中", v: "m", ja: "…", en: "…" } ]   // sp/v only for dialogue; v = "m"|"f" (TTS voice)
+  },
+  points: [ GrammarPoint, … ],
+  check: Exercise                         // "Check" — normally type "fill" with a word bank
+}
+```
+
+### GrammarPoint
+
+```js
+{
+  no: 1,                                  // book-wide serial number (1–139)
+  pattern: "〜につき",                     // canonical form shown in headings
+  phrase: "オープン**につき**",            // short phrase lifted from the sample text
+  stars: 2,                               // 1–3 importance
+  marks: ["formal"],                      // any of: casual, formal, polite, regret, praise
+  usage: { ja: "…", en: "…" },            // どう使う？ — when/why it's used
+  forms: [ "[N] + につき" ],               // connection lines (one per alternative)
+  formNotes: [ { ja, en } ],              // ＊ notes on connection
+  examples: [ { ja, en, idiom: false } ], // 3–5 ORIGINAL sentences
+  notes: [ { ja, en, examples: [ {ja,en} ], practice: [Exercise] } ],   // clip notes: extra uses / differences
+  plus:  [ { pattern, stars, marks, usage, forms, formNotes, examples, notes, practice } ],  // ➕Plus related forms
+  deepDive: "…",                          // DETAILED English explanation (hidden by default). Paragraphs separated by \n\n,
+                                          // lines starting "- " become bullets. Cover nuance, register, what it
+                                          // contrasts with, common learner mistakes, JLPT tips.
+  see: [ 3, 104 ],                        // related grammar point numbers
+  index: [ "Nにつき" ],                    // extra searchable forms for the index
+  practice: [ Exercise, … ]               // やってみよう！ — ORIGINAL questions
+}
+```
+
+### Exercise types
+
+All `en` fields are the hidden English supplement. `why` is an optional
+explanation shown after grading.
+
+```js
+// multiple choice — use for "(a. … b. …)" style and 問題1 文法形式の判断
+{ type: "choice", prompt: {ja,en}, items: [
+  { q: "{体力|たいりょく}（　）、{無理|むり}のないように。", options: ["に限って","に応じて","にかわり","において"],
+    answer: 1, en: "Please do it without overdoing it, according to your stamina.", why: { en: "…" } } ] }
+
+// matching halves — "1) … ・ ・ a) …"
+{ type: "match", prompt, left: ["…","…"], right: ["…","…"], answer: [3,0,1,2], en: ["full sentence 1 in English", …] }
+//   answer[i] = index into right[] that completes left[i]
+
+// word bank — "Check" boxes
+{ type: "fill", prompt, bank: ["に限り","を問わず"], items: [ { q: "…＿＿…", answer: "を問わず", en: "…" } ] }
+
+// sentence ordering — 問題2 文の組み立て (★ question)
+{ type: "order", prompt, items: [
+  { before: "今回のサミット", after: "と{首相|しゅしょう}は{語|かた}った。",
+    pieces: ["における","である","エネルギー問題","最重要課題は"],
+    order: [0,2,3,1],     // indices of pieces in correct sequence
+    star: 2,              // which slot (0–3) holds the ★
+    en: "…" } ] }
+
+// passage cloze — 問題3 文章の文法; blanks written as [1] [2] … in text
+{ type: "passage", prompt, title: "…", text: ["para with [1] …", "…"], en: ["para translation", …],
+  blanks: [ { options: ["…","…","…","…"], answer: 2, why } ] }
+
+// reading comprehension — 問題3 読解
+{ type: "reading", prompt, title, text: ["…"], en: ["…"], items: [ choice items ] }
+
+// listening — 問題4 聴解 (played with browser TTS)
+{ type: "listening", mode: "task", prompt, items: [
+  { question: "{女|おんな}の{人|ひと}はこのあと{何|なに}をしますか。",   // asked before & after the script
+    script: [ { sp: "女", v: "f", ja: "…" }, { sp: "男", v: "m", ja: "…" } ],
+    en: ["line translations…"], options: ["…","…","…","…"], answer: 2, why } ] }
+
+{ type: "listening", mode: "response", prompt, items: [      // 即時応答: 1 line, 3 spoken replies
+  { script: [ { sp: "男", v: "m", ja: "…" } ], options: ["reply 1","reply 2","reply 3"], answer: 0, en: [...], why } ] }
+```
+
+`mode: "summary"` (概要理解): the `question` is spoken only after the script and not printed; options are printed.
+
+An item with no `script` reuses the previous item's script (one talk → several questions, as in the book).
+
+### ReviewSection
+
+```js
+{ title: { ja: "問題1 〈文法形式の判断〉", en: "Question 1: Grammar form" }, ex: Exercise }
+```
+
+Review structure used by the book (mirror it per chapter):
+問題1 文法形式の判断 (choice, ~6 items) · 問題2 文の組み立て (order, 3–4 items) ·
+問題3 文章の文法 (passage, 5 blanks) **or** 読解 (reading) · 問題4 聴解 (listening: task and/or response).
+
+## Verbatim transcription rules (book content)
+
+The chapter files are a faithful transcription of the book. Everything printed in the book is copied
+exactly — every character, punctuation mark and furigana — from the scan:
+
+- Japanese: sample texts (見本文), usage explanations, connection lines, ＊ notes, 📎 clip notes, ＋Plus boxes,
+  example sentences (①②…, in order), やってみよう！, Check, まとめの問題 (instructions, questions, options, passages),
+  listening scripts and answer keys (from the supplement 別冊, PDF pp. 233–252: supplement page N = PDF page 232+N).
+- Furigana: exactly the readings the book prints, on exactly the kanji it prints them on — no more, no fewer.
+- English printed in the book (chapter titles, can-do, usage explanations, notes, Plus usage) goes verbatim in the
+  corresponding `en` field. English for sentences the book doesn't translate (examples, exercises, scripts) is our own
+  translation and must be accurate. `deepDive` is our own supplementary explanation.
+- Illustrations are not reproduced; if an exercise depends on a picture, describe it in `prompt.en`.
+- A small chain-link mark after an example = idiomatic expression → `idiom: true` (it is not a 📎 note).
+- Answers come from the supplement's answer key, never from our own judgement.
+
+Extra exercise features for book formats:
+
+```js
+{ type: "choice", labels: "abc" | "123" | "ABC", items: [ … ] }                // option labels as printed
+{ q: "…（ a ）…（ b ）…", parts: [ { tag: "a", options: [...], answer: 0 }, { tag: "b", options: [...], answer: 1 } ] }  // several blanks in one item
+{ type: "fill", items: [ { q: "A：…＿＿…\nB：…＿＿…", answer: ["わけ", "はず"] } ] }  // several ＿＿ in one item
+{ type: "write", items: [ { q: "…＿＿…", answer: ["祖父母"] } ] }              // write-in answers (accepted strings)
+check: [ Exercise, Exercise ]                                                   // a Check with several boxes / word banks
+```
