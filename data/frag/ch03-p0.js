@@ -349,6 +349,122 @@ N2F({
         },
       ],
     },
+    {
+      no: 28,
+      pattern: "〜というより",
+      phrase: "お客様**というより**",
+      stars: 3,
+      marks: [],
+      usage: {
+        ja: "「AというよりB」は、「{涼|すず}しいというより寒い」のように、「Aの言い方（{涼|すず}しい）よりB（寒い）と言ったほうが{適切|てきせつ}だ」と言いたいときに使う。",
+        en: "As in “{涼|すず}しいというより寒い”, use “AというよりB” when you want to say “it's more appropriate to say B (it's cold) than A (it's cool).”",
+      },
+      forms: ["[Pl] + というより\n［[なA~~だ~~]　[N~~だ~~]］"],
+      examples: [
+        { ja: "{姉|あね}はぼくより10歳年上で、小さいときからいろいろ{世話|せわ}をしてくれたので、姉というより母親のような{存在|そんざい}だ。", en: "My sister is ten years older than me and has looked after me in all sorts of ways since I was little, so she's more like a mother than a sister." },
+        { ja: "『{星|ほし}の{王子|おうじ}さま』は子ども{向|む}けというより、大人のための本だ。", en: "The Little Prince is a book for adults rather than one for children." },
+        { ja: "この絵は絵というより、まるで写真のようだ。", en: "This picture is less like a painting and more like a photograph." },
+        { ja: "この町は昔はにぎわっていたが、今は{訪|おとず}れる人も少なく、静かというよりさびしい町になってしまった感じがする。", en: "This town used to be lively, but now few people visit, and it feels like it has become not so much quiet as lonely." },
+      ],
+      deepDive:
+        "**AというよりB** literally means *rather than saying A, (it's) B*. It corrects or refines a description: A is not totally wrong, but B fits better. 涼しいというより寒い — *“cool” undersells it; it's cold*.\n\n" +
+        "Because it compares **ways of describing** one thing, A and B usually describe the same subject: この絵は絵というより写真のようだ. It is often strengthened with **むしろ**: AというよりむしろB.\n\n" +
+        "Connection: plain forms of verbs and い-adjectives; with な-adjectives and nouns, だ drops: 静かというより, 姉というより. B can be a noun, adjective, のようだ, or a full clause.\n\n" +
+        "Don't confuse it with:\n" +
+        "- **AよりB (のほうが)**: compares two *different things*: 犬より猫が好き. というより compares *two labels for the same thing*.\n" +
+        "- **〜というか** (casual): *or rather / how should I put it* — hesitant, conversational: 優しいというか、甘いというか.\n" +
+        "- **〜といえば**: brings up a topic by association: 日本料理で有名なものといえば *speaking of famous Japanese dishes…*.\n" +
+        "- **〜ということだ** (N3): hearsay *I hear that ~*.\n" +
+        "- **〜というものではない** (#25): rejects a general belief.\n" +
+        "The practice drills exactly these look-alikes.\n\n" +
+        "JLPT tip: look for two descriptions of the same subject in a row, where the second is stronger or more accurate (涼しい→寒い, 歌手→女優, 食事→おやつ). That's a というより slot.",
+      see: [25],
+      index: ["AというよりB", "〜というよりむしろ"],
+      practice: [
+        {
+          type: "fill",
+          prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
+          bank: ["というものではない", "というより", "ということだ", "といえば"],
+          items: [
+            { q: "{在庫|ざいこ}がないので、今{注文|ちゅうもん}しても届くのは3か月後だ＿＿。", answer: "ということだ", en: "They say it's out of stock, so even if you order now, it won't arrive for three months." },
+            { q: "日本料理で有名なもの＿＿、てんぷらでしょう。", answer: "といえば", en: "Speaking of famous Japanese dishes, it would have to be tempura." },
+            { q: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として{活躍|かつやく}しています。", answer: "というより", en: "She debuted as a singer, but lately she's been doing more TV dramas and is active as an actress rather than a singer." },
+            { q: "顔がよければ、{俳優|はいゆう}になれる＿＿。", answer: "というものではない", en: "Being good-looking doesn't automatically mean you can become an actor." },
+          ],
+        },
+      ],
+    },
+    {
+      no: 29,
+      pattern: "〜てはいられない",
+      phrase: "安心し**てはいられません**",
+      stars: 3,
+      marks: [],
+      usage: {
+        ja: "「～てはいられない」は、「～の{状態|じょうたい}を続けることができない」と言いたいときや、「～ができる{状態|じょうたい}ではない」と言いたいときに使う。「仕事があるから寝てはいられない」には、寝ている状態から、起きて仕事をしなければならないと思って起き上がる場合と、今忙しい仕事をしていて寝られない{状態|じょうたい}だという場合がある。",
+        en: "Use “～てはいられない” when you want to say “I can't do that so long as ～” or “I'm not in a situation where I can do ～”. You can say “仕事があるから寝てはいられない” if you wake up thinking that you have to get up and work or if you are so busy with work now that you cannot sleep.",
+      },
+      forms: ["[V-て] + はいられない", "[V-~~て~~] + ちゃいられない"],
+      formNotes: [
+        { ja: "て形が「～で」のときは「[V] + じゃいられない」になる。", en: "When the て-form ends in 〜で, it becomes V + じゃいられない." },
+        { ja: "「[N] + ではいられない」の形もある。", en: "There is also the form N + ではいられない." },
+      ],
+      examples: [
+        { ja: "A：ちょっと休んだほうがいいですよ。\nB：この仕事を明日までに{仕上|しあ}げなきゃならないので、のんびり休んではいられないんですよ。", en: "A: You should take a little break.\nB: I have to finish this job by tomorrow, so I can't afford to sit back and rest." },
+        { ja: "新入社員が入って、{君|きみ}たちも{先輩|せんぱい}になるのですから、いつまでも{甘|あま}えてはいられませんよ。", en: "New employees have joined, and you're all going to be their seniors now, so you can't go on relying on others forever." },
+        { ja: "A：朝ご飯、ちゃんと食べてから行きなさい。\nB：{遅刻|ちこく}しちゃうよ。ご飯なんか食べていられないよ。", en: "A: Eat your breakfast properly before you go.\nB: I'll be late! I don't have time to sit around eating breakfast." },
+        { ja: "いつまでも{夢|ゆめ}見る少女じゃいられないよね、私たち。", en: "We can't stay dreamy girls forever, can we?" },
+      ],
+      deepDive:
+        "**〜てはいられない** is V-ている (*be in the state of ~ing*) + the potential negative いられない (*cannot stay*), with は for emphasis. So 待ってはいられない = *I can't stay waiting*. It expresses **urgency or impatience**: circumstances make it impossible to keep doing — or even to start doing — something relaxed or passive.\n\n" +
+        "Two readings (from the usage note):\n" +
+        "- *Can't continue*: the speaker has been doing ~ and now feels compelled to stop and act: いつまでも親に頼ってはいられない.\n" +
+        "- *Not in a position to*: the situation doesn't allow ~ at all: 忙しくて寝てはいられない.\n" +
+        "Typical verbs: 待つ, 休む, 寝る, のんびりする, 黙って見る, 甘える, 頼る, 安心する, 満足する, 笑う. Often with **いつまでも**, **これ以上**, **〜なんか**.\n\n" +
+        "Forms and register: 〜てはいられません (polite), **〜ちゃいられない / 〜じゃいられない** (casual contraction of ては / では). With nouns: **Nではいられない** (少女ではいられない → casual 少女じゃいられない). In casual speech the は can drop entirely: 食べていられない (example ③).\n\n" +
+        "Crucial contrast — don't mix up:\n" +
+        "- **〜ずにはいられない** (*can't help doing*): 笑わずにはいられない = *I can't help laughing*. 笑ってはいられない = *this is no laughing matter / I can't just laugh*. Nearly opposite!\n" +
+        "- **〜ざるを得ない** (#24): *forced to do* an unwanted action. てはいられない focuses on *not being able to remain* in a state.\n" +
+        "- **〜わけにはいかない** (#57): *can't, because it would be wrong / socially unacceptable*. てはいられない is about time pressure or feeling, not social rules.\n\n" +
+        "JLPT tip: a typical trap is 〜わけじゃない vs 〜てはいられない in dialogues. If the speaker is denying an assumption (寝ているわけじゃない、考えているんだ), use わけじゃない; if they're saying the situation won't allow it, use てはいられない.",
+      see: [24, 57],
+      index: ["Vてはいられない", "Vちゃいられない", "Vじゃいられない", "Nではいられない"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "A：アルバイト、2つもやっているの？\nB：いつまでも親に（　）からね。大学院の{学費|がくひ}は自分で出さないと。", options: ["{頼|たよ}ってはいられない", "{頼|たよ}らざるを{得|え}ない"], answer: 0, en: "A: You're doing two part-time jobs?\nB: Well, I can't keep depending on my parents forever. I have to pay my own graduate school fees." },
+            { q: "A：{伊藤|いとう}さん、まだ来ませんね。\nB：これ以上（　）よ。先に行こう。", options: ["待っているというものだ", "待ってはいられない"], answer: 1, en: "A: Ito-san still isn't here, is she?\nB: We can't wait any longer. Let's go on ahead." },
+            { q: "A：店長、仕事中に寝ないでくださいよ。\nB：（　）よ。考えているんだよ。", options: ["寝ているわけじゃない", "寝てはいられない"], answer: 0, en: "A: Manager, please don't sleep on the job.\nB: I'm not sleeping. I'm thinking." },
+          ],
+        },
+      ],
+    },
   ],
-  check: null,
+  check: [
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
+      bank: ["てはいられない", "かねない", "ざるを{得|え}ない", "というものではありません"],
+      items: [
+        { q: "{材料費|ざいりょうひ}が上がっているので、うちのパンやケーキも{値上|ねあ}げせ＿＿んです。", answer: "ざるを{得|え}ない", en: "Ingredient costs are going up, so we have no choice but to raise the prices of our bread and cakes too." },
+        { q: "そんな大変な仕事を{頼|たの}んだら、会社を{辞|や}めると言い＿＿よ。", answer: "かねない", en: "If you ask them to do such a tough job, they might well say they'll quit the company." },
+        { q: "作文はたくさん書けばいい＿＿。考えをまとめて、意味のある内容にすることが大切です。", answer: "というものではありません", en: "Writing compositions isn't simply a matter of writing a lot. What's important is to organize your thoughts and give it meaningful content." },
+        { q: "A：仕事、探しているんだって？\nB：うん、もう30歳だし、いつまでも{夢|ゆめ}を{追|お}いかけ＿＿からね。", answer: "てはいられない", en: "A: I hear you're looking for a job?\nB: Yeah, I'm already 30, so I can't keep chasing my dreams forever." },
+      ],
+    },
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
+      bank: ["として", "というより", "はともかく", "{限|かぎ}り"],
+      items: [
+        { q: "{明後日|あさって}は卒業試験です。特別な{事情|じじょう}がない＿＿、{遅刻|ちこく}、{欠席|けっせき}は{認|みと}めません。", answer: "{限|かぎ}り", en: "The day after tomorrow is the graduation exam. Unless there are special circumstances, lateness or absence will not be permitted." },
+        { q: "この店は、味＿＿、{値段|ねだん}が安いし、{量|りょう}も多いので、大学生に人気がある。", answer: "はともかく", en: "Taste aside, this restaurant is cheap and the portions are big, so it's popular with university students." },
+        { q: "プロ＿＿{恥|は}ずかしくない{成績|せいせき}が{残|のこ}せるよう、がんばります。", answer: "として", en: "I'll do my best to achieve results I won't be ashamed of as a professional." },
+        { q: "{一口|ひとくち}サイズのおにぎりなんて、食事＿＿おやつだよ。", answer: "というより", en: "Bite-sized rice balls are more of a snack than a meal." },
+      ],
+    },
+  ],
 });

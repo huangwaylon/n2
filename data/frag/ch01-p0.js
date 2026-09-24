@@ -97,8 +97,8 @@ N2F({
       forms: ["[N] + を{問|と}わず"],
       formNotes: [
         {
-          ja: "＊「{昼夜|ちゅうや}・国の{内外|ないがい}・{男女|だんじょ}・〜の{有無|うむ}」などの言葉と一緒に使われる。",
-          en: "* It is used together with words such as 昼夜 (day and night), 国の内外 (at home and abroad), 男女 (men and women) and 〜の有無 (whether or not there is ~).",
+          ja: "「{昼夜|ちゅうや}・国の{内外|ないがい}・{男女|だんじょ}・〜の{有無|うむ}」などの言葉と一緒に使われる。",
+          en: "It is used together with words such as 昼夜 (day and night), 国の内外 (at home and abroad), 男女 (men and women) and 〜の有無 (whether or not there is ~).",
         },
       ],
       examples: [
@@ -255,7 +255,7 @@ N2F({
       forms: ["[N] + にかかわらず", "[V-る] + [V-ない] + にかかわらず"],
       formNotes: [
         {
-          ja: "＊「好き嫌い」「いい悪い」「{善悪|ぜんあく}」など、形容詞、名詞の{対立|たいりつ}する2語を合わせて使われることもある。",
+          ja: "「好き嫌い」「いい悪い」「{善悪|ぜんあく}」など、形容詞、名詞の{対立|たいりつ}する2語を合わせて使われることもある。",
           en: "This is also used in combination with pairs or opposite adjectives or nouns such as “好き嫌い”, “いい悪い” and “{善悪|ぜんあく}”.",
         },
       ],
