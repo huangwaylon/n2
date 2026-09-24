@@ -137,10 +137,10 @@ N2F({
     prompt: { ja: "", en: "Choose the word that fills each blank from the box." },
     bank: ["げ", "やら・やら", "かと思ったら", "か・か"],
     items: [
-      { q: "今年の冬はノロウイルス＿＿インフルエンザ＿＿で、{欠席者|けっせきしゃ}が多かった。", answer: ["やら", "やら"], en: "This winter, what with norovirus and influenza, a lot of people were absent." },
+      { q: "今年の冬はノロウイルス＿＿インフルエンザ＿＿で、{欠席者|けっせきしゃ}が多かった。", answer: "やら・やら", en: "This winter, what with norovirus and influenza, a lot of people were absent." },
       { q: "タイ料理が{注目|ちゅうもく}を{浴|あ}びた＿＿、今度はベトナム料理。レストラン{業界|ぎょうかい}も{変化|へんか}が{激|はげ}しいね。", answer: "かと思ったら", en: "Thai food had only just been in the spotlight, and now it's Vietnamese. The restaurant business sure changes fast." },
       { q: "電話の{向|む}こうの彼女の声がなんだかさびし＿＿だ。何かあったのだろうか。", answer: "げ", en: "Her voice on the other end of the phone sounds somehow lonely. I wonder if something happened." },
-      { q: "ホームにいる{乗客|じょうきゃく}が全員乗り終わる＿＿終わらない＿＿のうちに、ドアが閉まり始めた。", answer: ["か", "か"], en: "The doors started to close before all the passengers on the platform had quite finished boarding." },
+      { q: "ホームにいる{乗客|じょうきゃく}が全員乗り終わる＿＿終わらない＿＿のうちに、ドアが閉まり始めた。", answer: "か・か", en: "The doors started to close before all the passengers on the platform had quite finished boarding." },
     ],
   },
 });

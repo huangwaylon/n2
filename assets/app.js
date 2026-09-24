@@ -212,10 +212,13 @@
     const items = ex.items
       .map((it, i) => {
         // answer may be a string (one ＿＿) or an array (several ＿＿ in one item)
+        // answer: string (one ＿＿, or a paired bank entry like "やら・やら" covering several ＿＿) or array (one per ＿＿)
+        const nBlanks = (it.q.match(/＿＿/g) || []).length;
+        const paired = !Array.isArray(it.answer) && nBlanks > 1;
         const answers = Array.isArray(it.answer) ? it.answer : [it.answer];
         let k = 0, full = it.q;
-        const q = fmt(it.q).replace(/<span class="blank">　　　<\/span>/g, () => `<select data-answer="${ex.bank.indexOf(answers[k++])}"><option value="">——</option>${opts}</select>`);
-        answers.forEach((a) => (full = full.replace("＿＿", "**" + a + "**")));
+        const q = fmt(it.q).replace(/<span class="blank">　　　<\/span>/g, () => (paired && k++ > 0) ? '<span class="blank">　　　</span>' : `<select data-answer="${ex.bank.indexOf(answers[paired ? 0 : k++])}"><option value="">——</option>${opts}</select>`);
+        (paired ? it.answer.split("・") : answers).forEach((a) => (full = full.replace("＿＿", "**" + a + "**")));
         return `<div class="q fill-q" data-i="${i}"><div class="q-line"><span class="qn">${i + 1}</span><div class="q-text">${q}</div></div>
           <div class="feedback"><p class="full">${fmt(full)}</p>${it.en ? `<p class="en">${fmt(it.en)}</p>` : ""}${whyHtml(it.why)}</div></div>`;
       })
