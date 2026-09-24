@@ -170,7 +170,7 @@ N2F({ ch: 7, review: [
           options: ["うん、私も{宇宙人|うちゅうじん}はいないと思う。", "え？ {宇宙人|うちゅうじん}がいると思っているの？", "何言ってるの、それは{宇宙人|うちゅうじん}の話よ。"],
           answer: 1,
           why: { en: "あり得ない話じゃない means \"it's not impossible\", i.e. he half-believes it, so she reacts with surprise: you think aliens exist?" } },
-        { script: [{ sp: "F", v: "f", ja: "今朝の新聞には{景気|けいき}が{回復|かいふく}しつつあるって書いてあったけど、どう思う？" }],
+        { script: [{ sp: "F", v: "f", ja: "{今朝|けさ}の新聞には{景気|けいき}が{回復|かいふく}しつつあるって書いてあったけど、どう思う？" }],
           en: ["This morning's paper said the economy is recovering. What do you think?", "I think so too. Orders are increasing at our company as well.", "I think so too. Orders are decreasing at our company as well.", "I think so too. Work isn't increasing at all."],
           options: ["ぼくもそう思うよ。うちの会社も{注文|ちゅうもん}が増えているしね。", "ぼくもそう思うよ。うちの会社も{注文|ちゅうもん}が{減|へ}っているしね。", "ぼくもそう思うよ。仕事が{全然|ぜんぜん}増えないもん。"],
           answer: 0,

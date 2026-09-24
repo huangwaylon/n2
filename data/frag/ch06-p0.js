@@ -129,7 +129,7 @@ N2F({
       },
       forms: ["[N] + に{比|くら}べて"],
       examples: [
-        { ja: "いちごはレモンに{比|くら}べて、ビタミンCが多いんだって。ほんとかな？", en: "I heard strawberries have more vitamin C than lemons. I wonder if that's true." },
+        { ja: "いちごはレモンに{比|くら}べて、ビタミンＣが多いんだって。ほんとかな？", en: "I heard strawberries have more vitamin C than lemons. I wonder if that's true." },
         { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという{印象|いんしょう}がある。", en: "I have the impression that in every country, compared with city people, more country people are kind and like to look after others." },
         { ja: "日本では冬は夏に{比|くら}べ、2時間以上{日照|にっしょう}時間が短い。", en: "In Japan, hours of sunshine are more than two hours shorter in winter than in summer." },
       ],

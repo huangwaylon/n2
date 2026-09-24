@@ -752,7 +752,7 @@ N2.register({
               "en": "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important)."
             },
             {
-              "ja": "「ぶる」は「ぶらない」「ぶって」のように、1グループの{動詞|どうし}と同じ{活用|かつよう}をする。",
+              "ja": "「ぶる」は「ぶらない」「ぶって」のように、Ⅰグループの{動詞|どうし}と同じ{活用|かつよう}をする。",
               "en": "ぶる conjugates like a Group 1 verb: ぶらない, ぶって."
             }
           ],
@@ -904,7 +904,7 @@ N2.register({
           "stars": 1,
           "marks": [],
           "usage": {
-            "ja": "「〜という〜」は、「店中の客という客が立ち上がって{踊|おど}り出した」のように、すべての「〜（客）」を表す。「〜」の部分は同じ言葉をくり返す。",
+            "ja": "「〜という〜」は、「店中の客という客が立ち上がって{踊|おど}り出した」のように、すべての「〜(客)」を表す。「〜」の部分は同じ言葉をくり返す。",
             "en": "As in \"店中の客という客が立ち上がって{踊|おど}り出した\", \"〜という〜\" refers to all \"〜(customers).\" The same word is used both times for \"〜\"."
           },
           "forms": [
@@ -1128,7 +1128,7 @@ N2.register({
             },
             {
               "ja": "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。",
-              "en": "A: There's so much overtime, I'm sick of it.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job."
+              "en": "A: There's so much overtime, I'm getting sick of it, senpai.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job."
             },
             {
               "ja": "あいつは入社5年目なのにミスばかりで、{新人|しんじん}の{加藤|かとう}のほうがまだましだ。",

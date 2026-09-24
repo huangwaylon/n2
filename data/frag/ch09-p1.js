@@ -35,7 +35,7 @@ N2F({
       forms: ["［[N]　[なA]　[いA~~い~~]］ + ぶる"],
       formNotes: [
         { ja: "「{優等生|ゆうとうせい}・{悪者|わるもの}・大人・{上品|じょうひん}・いい子・{偉|えら}い」などの言葉と一緒に使う。", en: "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important)." },
-        { ja: "「ぶる」は「ぶらない」「ぶって」のように、1グループの{動詞|どうし}と同じ{活用|かつよう}をする。", en: "ぶる conjugates like a Group 1 verb: ぶらない, ぶって." },
+        { ja: "「ぶる」は「ぶらない」「ぶって」のように、Ⅰグループの{動詞|どうし}と同じ{活用|かつよう}をする。", en: "ぶる conjugates like a Group 1 verb: ぶらない, ぶって." },
       ],
       examples: [
         { ja: "昔ぼくは好きな女の子の前で悪ぶっていた。本当は、好きだって言う{勇気|ゆうき}がなかっただけなんだ。", en: "Back then I used to act tough in front of girls I liked. Really, I just didn't have the courage to tell them I liked them." },
@@ -122,7 +122,7 @@ N2F({
       stars: 1,
       marks: [],
       usage: {
-        ja: "「〜という〜」は、「店中の客という客が立ち上がって{踊|おど}り出した」のように、すべての「〜（客）」を表す。「〜」の部分は同じ言葉をくり返す。",
+        ja: "「〜という〜」は、「店中の客という客が立ち上がって{踊|おど}り出した」のように、すべての「〜(客)」を表す。「〜」の部分は同じ言葉をくり返す。",
         en: "As in \"店中の客という客が立ち上がって{踊|おど}り出した\", \"〜という〜\" refers to all \"〜(customers).\" The same word is used both times for \"〜\".",
       },
       forms: ["[N] + という + [N]"],
@@ -250,7 +250,7 @@ N2F({
       examples: [
         { ja: "A：もうすぐ冬だね。私、寒いの{苦手|にがて}なんだ。\nB：暑いより、寒いほうがましだよ。寒いときには服を着ればいいんだから。", en: "A: It'll be winter soon. I can't stand the cold.\nB: Cold is better than hot. When it's cold, you can just put on more clothes." },
         { ja: "A：彼、何を作っても何も言わずに食べるだけなの。\nB：ちゃんと食べてくれるならいいじゃない。「まずい」って言われるよりましでしょ。", en: "A: Whatever I make, he just eats it without saying anything.\nB: Well, if he eats it properly, isn't that fine? It's better than being told it tastes bad." },
-        { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm sick of it.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job." },
+        { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm getting sick of it, senpai.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job." },
         { ja: "あいつは入社5年目なのにミスばかりで、{新人|しんじん}の{加藤|かとう}のほうがまだましだ。", en: "He's in his fifth year at the company but makes nothing but mistakes — even Kato, the new guy, is better." },
       ],
       deepDive:

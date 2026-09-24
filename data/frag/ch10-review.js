@@ -58,7 +58,7 @@ N2F({ ch: 10, review: [
         "For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and just when I think she's been looking at the map, sometimes she has fallen asleep before I knew it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive.",
       ],
       blanks: [
-        { options: ["として", "に{対|たい}して", "に{応|おう}じて", "にとって"], answer: 3,
+        { options: ["として", "に対して", "に{応|おう}じて", "にとって"], answer: 3,
           why: { en: "Nにとって: from the standpoint of / for." } },
         { options: ["まい", "ものがある", "かのようだ", "わけにはいかない"], answer: 0,
           why: { en: "〜まい here expresses negative conjecture: (we) probably won't get lost." } },

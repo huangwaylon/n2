@@ -263,7 +263,7 @@ N2.register({
           ],
           "examples": [
             {
-              "ja": "いちごはレモンに{比|くら}べて、ビタミンCが多いんだって。ほんとかな？",
+              "ja": "いちごはレモンに{比|くら}べて、ビタミンＣが多いんだって。ほんとかな？",
               "en": "I heard strawberries have more vitamin C than lemons. I wonder if that's true."
             },
             {
