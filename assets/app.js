@@ -270,7 +270,9 @@
         // "summary" (概要理解): the question is heard only after the talk and isn't printed
         const summary = ex.mode === "summary";
         if (it.question && !summary) queue.push({ text: plain(it.question), v: "f" });
-        it.script.forEach((l) => queue.push({ text: plain(l.ja), v: l.v }));
+        // don't re-speak a script line that just repeats the question (it's spoken before/after already)
+        const qPlain = it.question ? plain(it.question).replace(/\s/g, "") : null;
+        it.script.forEach((l) => { if (!(qPlain && ex.mode !== "response" && plain(l.ja).replace(/\s/g, "") === qPlain)) queue.push({ text: plain(l.ja), v: l.v }); });
         if (ex.mode === "response") it.options.forEach((o, j) => queue.push({ text: `${j + 1}、${plain(o)}`, v: it.script[0] && it.script[0].v === "m" ? "f" : "m" }));
         if (it.question && ex.mode !== "response") queue.push({ text: (summary ? "しつもん。" : "") + plain(it.question), v: "f" });
         const script = it.script

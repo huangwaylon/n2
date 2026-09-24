@@ -1081,5 +1081,371 @@ N2.register({
       }
     }
   ],
-  "review": []
+  "review": [
+    {
+      "title": {
+        "ja": "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉",
+        "en": "Question 1: Grammar form"
+      },
+      "ex": {
+        "type": "choice",
+        "labels": "123",
+        "prompt": {
+          "ja": "次の文の（　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 to fill the (　) in each sentence."
+        },
+        "items": [
+          {
+            "q": "彼は、自分のミスで仕事が遅れたのに、あれこれ{言|い}い{訳|わけ}した（　）、{結局|けっきょく}{一|ひと}{言|こと}も{謝|あやま}らなかった。",
+            "options": [
+              "にしては",
+              "からには",
+              "ことなく",
+              "あげく"
+            ],
+            "answer": 3,
+            "en": "Even though the work was delayed because of his own mistake, after making all sorts of excuses, he ended up not apologizing even once."
+          },
+          {
+            "q": "{面接|めんせつ}のチャンス（　）もらえれば、私の{熱意|ねつい}が伝えられるのに…。",
+            "options": [
+              "ながら",
+              "に{限|かぎ}り",
+              "さえ",
+              "を{問|と}わず"
+            ],
+            "answer": 2,
+            "en": "If only I could get the chance of an interview, I could convey my enthusiasm..."
+          },
+          {
+            "q": "{本場|ほんば}のタイ料理を作ってほしいと{頼|たの}まれたが、{材料|ざいりょう}がないので（　）。",
+            "options": [
+              "作るおそれがある",
+              "作るわけではない",
+              "作りようがない",
+              "作るものだ"
+            ],
+            "answer": 2,
+            "en": "I was asked to make authentic Thai food, but since I don't have the ingredients, there's no way I can make it."
+          },
+          {
+            "q": "明日は試験なのに、おなかが痛くて勉強（　）。",
+            "options": [
+              "するどころではない",
+              "するわけではない",
+              "することはない",
+              "するものではない"
+            ],
+            "answer": 0,
+            "en": "I have an exam tomorrow, but my stomach hurts so much that studying is out of the question."
+          },
+          {
+            "q": "ABK社は{一流企業|いちりゅうきぎょう}（　）{給料|きゅうりょう}が安くてびっくりした。",
+            "options": [
+              "にしては",
+              "はもとより",
+              "を{問|と}わず",
+              "さえ"
+            ],
+            "answer": 0,
+            "en": "I was surprised that ABK's salaries are low for a top-tier company."
+          },
+          {
+            "q": "{郊外|こうがい}に新しくできたスーパーに、一度行ってみたいと思っている（　）、車がないから、行きようがない。",
+            "options": [
+              "あげく",
+              "とともに",
+              "にしては",
+              "ものの"
+            ],
+            "answer": 3,
+            "en": "Although I'd like to try going to the new supermarket that opened in the suburbs, I have no car, so there's no way to get there."
+          },
+          {
+            "q": "この本は子どものころ一度読んだ（　）、ストーリーも忘れてしまいました。",
+            "options": [
+              "ことに",
+              "きりで",
+              "あげく",
+              "{限|かぎ}り"
+            ],
+            "answer": 1,
+            "en": "I read this book only once as a child and never again, so I've even forgotten the story."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題2 〈{文|ぶん}の{組|く}み{立|た}て〉",
+        "en": "Question 2: Sentence composition"
+      },
+      "ex": {
+        "type": "order",
+        "prompt": {
+          "ja": "次の文の＿★＿に入る最もよいものを1・2・3・4から一つ選びなさい。",
+          "en": "Choose the best option from 1, 2, 3 and 4 for the ★ slot."
+        },
+        "items": [
+          {
+            "before": "このあたりは",
+            "after": "いて、住みやすい。",
+            "pieces": [
+              "{自然|しぜん}が",
+              "にしては",
+              "{都心|としん}",
+              "{残|のこ}って"
+            ],
+            "order": [
+              2,
+              1,
+              0,
+              3
+            ],
+            "star": 2,
+            "en": "For the city center, this area still has a lot of nature left, so it's easy to live in."
+          },
+          {
+            "before": "この",
+            "after": "{簡単|かんたん}に作れます。",
+            "pieces": [
+              "{鍋|なべ}さえ",
+              "料理でも",
+              "どんな",
+              "あれば"
+            ],
+            "order": [
+              0,
+              3,
+              2,
+              1
+            ],
+            "star": 2,
+            "en": "As long as you have this pot, you can easily make any dish."
+          },
+          {
+            "before": "自分がされて{嫌|いや}な",
+            "after": "ではない。",
+            "pieces": [
+              "もの",
+              "ことを",
+              "する",
+              "{他人|たにん}に"
+            ],
+            "order": [
+              1,
+              3,
+              2,
+              0
+            ],
+            "star": 2,
+            "en": "You shouldn't do to others what you would hate to have done to you."
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉",
+        "en": "Question 3: Grammar in a passage"
+      },
+      "ex": {
+        "type": "passage",
+        "prompt": {
+          "ja": "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+          "en": "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4."
+        },
+        "title": "",
+        "text": [
+          "{引|ひ}っ{越|こ}しのために荷物を{整理|せいり}することになったが、{祖父母|そふぼ}も両親も物が{捨|す}てられない{性格|せいかく}で、荷物が山のようにある。私たち{姉妹|しまい}の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。",
+          "両親は古い荷物の中から思い出の{品|しな}を手に取ってながめ、{引|ひ}っ{越|こ}し[1]。さんざん{昔話|むかしばなし}をした[2]、父はすべて{捨|す}てないと言い出した。思い出の{品|しな}とはいう[3]、しまっておく場所もないので[4]。{結局|けっきょく}トラック1{杯|ぱい}分の{品|しな}を{捨|す}てた。父はさびしいかもしれないが、また新しい家で新しい思い出を作ってほしいと思う。"
+        ],
+        "en": [
+          "We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from my sisters' and my childhood, but even my parents' and grandparents' schoolbooks from their childhood turned up.",
+          "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to be moving. After reminiscing at length about the old days, my father announced he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."
+        ],
+        "blanks": [
+          {
+            "options": [
+              "どころではない",
+              "さえすればいい",
+              "かねない",
+              "ということだ"
+            ],
+            "answer": 0
+          },
+          {
+            "options": [
+              "ばかりで",
+              "くせに",
+              "あげく",
+              "わけではなく"
+            ],
+            "answer": 2
+          },
+          {
+            "options": [
+              "からには",
+              "ものの",
+              "たびに",
+              "より"
+            ],
+            "answer": 1
+          },
+          {
+            "options": [
+              "{拾|ひろ}いようがない",
+              "しまわざるを{得|え}ない",
+              "{捨|す}てようがない",
+              "{捨|す}てざるを{得|え}ない"
+            ],
+            "answer": 3
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 1",
+        "en": "Question 4: Listening (task)"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "task",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet."
+        },
+        "items": [
+          {
+            "question": "女の人は何が一番問題だと思っていますか。",
+            "script": [
+              {
+                "sp": "",
+                "ja": "女の人と男の人が話しています。女の人は何が一番問題だと思っていますか。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "ねえ、この間、{電子|でんし}マネーの利用{金額|きんがく}をチェックしたら、前より増えててびっくりしちゃった。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "ぼくも…{無駄遣|むだづか}いは気をつけなくちゃと思うものの、コンビニオリジナルの{新商品|しんしょうひん}とかあると、つい…。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "うん、あまり考えないで買っちゃうよね。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "便利だしね。{財布|さいふ}から1円玉とか5円玉とか探さなくてもいいし。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "そうだけど、知らないうちにお金を使っちゃうのってまずいよね。"
+              },
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "うん。{電子|でんし}マネーだと、お金を{直接財布|ちょくせつさいふ}から出さないからなあ。使った金額なんて、チェックしないしね。"
+              },
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "そうそう。お金を使ったという{感覚|かんかく}がないのが一番いけないんだよね。気をつけなきゃね。"
+              },
+              {
+                "sp": "",
+                "ja": "女の人は何が一番問題だと思っていますか。"
+              }
+            ],
+            "en": [
+              "A woman and a man are talking. What does the woman think is the biggest problem?",
+              "Hey, the other day I checked how much I'd spent with electronic money, and I was surprised that it had gone up compared to before.",
+              "Me too... Although I think I need to be careful about wasting money, when there are new original convenience-store products, I just end up...",
+              "Yeah, you buy them without really thinking, right?",
+              "It's convenient, too. You don't have to dig around in your wallet for 1-yen and 5-yen coins.",
+              "True, but spending money without realizing it is bad, isn't it?",
+              "Yeah. With electronic money, you don't take the money directly out of your wallet. And you don't check how much you've spent.",
+              "Exactly. Not having the sense that you've spent money is the worst thing. We have to be careful.",
+              "What does the woman think is the biggest problem?"
+            ],
+            "options": [
+              "コンビニなどで{新商品|しんしょうひん}を{買|か}うこと",
+              "1{円玉|えんだま}や5{円玉|えんだま}を{使|つか}わないこと",
+              "お{金|かね}を{使|つか}ったという{感覚|かんかく}がないこと",
+              "{使|つか}った{金額|きんがく}をチェックしないこと"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "She says お金を使ったという感覚がないのが一番いけない — not feeling that you've spent money is the worst part."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "title": {
+        "ja": "問題4 〈{聴解|ちょうかい}〉 2",
+        "en": "Question 4: Listening (quick response)"
+      },
+      "ex": {
+        "type": "listening",
+        "mode": "response",
+        "prompt": {
+          "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
+          "en": "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3."
+        },
+        "items": [
+          {
+            "script": [
+              {
+                "sp": "F",
+                "v": "f",
+                "ja": "お昼、一緒に食べに行かない？"
+              }
+            ],
+            "en": [
+              "Do you want to go out for lunch together?"
+            ],
+            "options": [
+              "え？ 行くところがないの？",
+              "ごめん、それどころじゃないんだ。",
+              "じゃ、ゆっくり食べてね。"
+            ],
+            "answer": 1,
+            "why": {
+              "en": "〜どころじゃない: \"Sorry, I'm in no position to do that (too busy).\""
+            }
+          },
+          {
+            "script": [
+              {
+                "sp": "M",
+                "v": "m",
+                "ja": "君、こんなレポートじゃ、直しようがないよ。"
+              }
+            ],
+            "en": [
+              "With a report like this, there's no way to even fix it."
+            ],
+            "options": [
+              "ええ、直しようがないでしょう。",
+              "じゃ、部長、直しましょうよ。",
+              "すみません。もう一度書いてきます。"
+            ],
+            "answer": 2,
+            "why": {
+              "en": "直しようがない means the report is beyond fixing, so the natural reply is to apologize and rewrite it."
+            }
+          }
+        ]
+      }
+    }
+  ]
 });
