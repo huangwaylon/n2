@@ -609,7 +609,7 @@
   const PH_RE = /（[ 　]+）/g;
   // c: { labels, num, off, mode } — mode "list" forces one column (reading questions)
   function choiceItem(it, i, c) {
-    const labels = c.labels;
+    const labels = it.labels || c.labels; // an item drawn into the drill carries its own labels
     let qHtml = fmt(it.q || "");
     let groups = "", inline = false;
     const opts0 = it.parts ? it.parts[0].options : it.options;
@@ -1091,9 +1091,10 @@
     const pool = [];
     allPoints().forEach(({ g, ch }) => {
       const exs = (g.practice || []).concat((g.plus || []).flatMap((p) => p.practice || []), (g.notes || []).flatMap((n) => n.practice || []));
-      exs.forEach((ex) => ex.type === "choice" && ex.items.forEach((it) => pool.push({ it, g, ch })));
+      // drawn items carry their source exercise's option labels (e.g. A/B judgement items)
+      exs.forEach((ex) => ex.type === "choice" && ex.items.forEach((it) => pool.push({ it: ex.labels ? Object.assign({ labels: ex.labels }, it) : it, g, ch })));
     });
-    N2.chapters.forEach((ch) => (ch.review || []).forEach((r) => r.ex.type === "choice" && r.ex.items.forEach((it) => pool.push({ it, ch }))));
+    N2.chapters.forEach((ch) => (ch.review || []).forEach((r) => r.ex.type === "choice" && r.ex.items.forEach((it) => pool.push({ it: r.ex.labels ? Object.assign({ labels: r.ex.labels }, it) : it, ch }))));
     for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
     const picked = pool.slice(0, 10);
     const ex = { type: "choice", items: picked.map((p) => Object.assign({}, p.it, { why: Object.assign({}, p.it.why || {}, { ja: ((p.it.why && p.it.why.ja) || "") + (p.g ? ` ☞ [#${p.g.no}]` : ` ☞ 第${p.ch.id}章`) }) })) };
