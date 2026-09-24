@@ -155,7 +155,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option to complete the sentence." },
           items: [
-            { q: "アルバイト店員といっても、（　）。", options: ["店長と同じぐらい働��ています", "{給料|きゅうりょう}が安いです", "一生{懸命|けんめい}働きません"], answer: 0, en: "I may be a part-time shop assistant, but I work about as much as the manager." },
+            { q: "アルバイト店員といっても、（　）。", options: ["店長と同じぐらい働いています", "{給料|きゅうりょう}が安いです", "一生{懸命|けんめい}働きません"], answer: 0, en: "I may be a part-time shop assistant, but I work about as much as the manager." },
             { q: "A：来週、この{地域|ちいき}の{集会|しゅうかい}があるんですが、一緒に行きませんか。{地域|ちいき}の{集会|しゅうかい}といっても、（　）。\nB：そうですか。じゃ、私も{参加|さんか}してみます。", options: ["難しい話ばかりしていますから", "お{菓子|かし}を食べながら話し合う{気楽|きらく}な{会|かい}ですから", "会長をしていますから"], answer: 1, en: "A: There's a neighbourhood meeting next week — would you like to come with me? It may be called a neighbourhood meeting, but it's a relaxed gathering where we chat over snacks.\nB: Really? Well then, I'll try going too." },
             { q: "A：{風邪|かぜ}だって？　大丈夫？\nB：大丈夫だよ。{風邪|かぜ}っていっても（　）。", options: ["病院へ行ってきたから", "学校を休んだから", "{熱|ねつ}はないんだから"], answer: 2, en: "A: I hear you've got a cold? Are you OK?\nB: I'm fine. It's a cold, but I don't have a fever." },
           ],

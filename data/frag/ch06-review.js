@@ -133,7 +133,7 @@ N2F({ ch: 6, review: [
           why: { en: "行けないことはなかった = he could have made it, but didn't go; the listener agrees stopping was wise." } },
         { script: [{ sp: "M", v: "m", ja: "{犯人|はんにん}についての{情報|じょうほう}を集められるだけ集めてくれ。" }],
           en: ["Gather as much information about the culprit as you can.", "1. Yes, just gather it, right?", "2. Yes, I'll give it a try.", "3. Yes, I'll gather only information."],
-          options: ["はい、集めるだけですね。", "はい、やってみます。", "はい、{情報|じょうほう}だけ集��ます。"],
+          options: ["はい、集めるだけですね。", "はい、やってみます。", "はい、{情報|じょうほう}だけ集めます。"],
           answer: 1,
           why: { en: "〜られるだけ〜 = as much as possible; the natural reply is to agree to do one's best." } },
         { script: [{ sp: "F", v: "f", ja: "そんなに笑うことはないでしょう。" }],

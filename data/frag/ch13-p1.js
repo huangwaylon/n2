@@ -78,7 +78,7 @@ N2F({
       },
       forms: ["[V-~~ます~~] + がたい"],
       formNotes: [
-        { ja: "「信じる・{理解|りかい}する・{納得|なっとく}する・{認|みと}める・{得|え}る・{許|ゆる}す・忘れる」などの言葉と一緒に使われる。", en: "It is used with words such as 信じ��, 理解する, 納得する, 認める, 得る, 許す and 忘れる." },
+        { ja: "「信じる・{理解|りかい}する・{納得|なっとく}する・{認|みと}める・{得|え}る・{許|ゆる}す・忘れる」などの言葉と一緒に使われる。", en: "It is used with words such as 信じる, 理解する, 納得する, 認める, 得る, 許す and 忘れる." },
       ],
       examples: [
         { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの{合併|がっぺい}の{申|もう}し{出|で}は受け入れがたい。", en: "Under these conditions, we cannot accept the merger offer from Suzuki Trading." },

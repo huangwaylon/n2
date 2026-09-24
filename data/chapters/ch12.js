@@ -439,7 +439,7 @@ N2.register({
             "regret"
           ],
           "usage": {
-            "ja": "「〜がち」は、「忘れがち・病気がち」のように「〜になることが多い」と言いたいときに使う。{状態|じょうたい}、{様子|ようす}を表す{慣用的|かんようてき}な言い���もある。",
+            "ja": "「〜がち」は、「忘れがち・病気がち」のように「〜になることが多い」と言いたいときに使う。{状態|じょうたい}、{様子|ようす}を表す{慣用的|かんようてき}な言い方もある。",
             "en": "Use \"〜がち\" when you want to say that someone \"often does / is 〜\" as in \"忘れがち・病気がち\". There is also an idiomatic usage to express a state or appearance."
           },
           "forms": [
@@ -1036,7 +1036,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.220　〜{上|うえ}／{上|じょう}",
-          "deepDive": "**V-た上で / Nの上で** means *after doing ~ (and on that basis)*. The important nuance: the first action is a **necessary step** — a check, a discussion, a consideration — and the second action (a decision, a signature, a reply) is done **based on its result**. 十分検討した上で結論を出す = *reach a conclusion after (and based on) careful consideration*.\n\nThat's why it sounds wrong for casual sequences: ✗映画を見た上で食事しよう → 映画を見た後で / 見てから. Use it for decisions, procedures and formal business talk.\n\nForms:\n- V-た + 上で: 相談した上で, 確認した上で.\n- N（する-noun）+ の + 上で: 検討の上で, 相談の上で.\n- ご + N + の上 (without で) in polite requests: ご確認の上, ご記入の上 (example ③).\n- **上（で）の + N**: 十分に話し合った上での決定 *a decision made after thorough discussion*.\n\nThe 上 family (see the list) is a classic trap:\n- **V-る上で** (#14): *in doing ~, for the purpose of ~* — note V-**る**: 就職活��をする上で大���なこと.\n- **V-た上で** (#117): *after doing ~* — note V-**た**.\n- **〜上は** (#18): *now that ~, since ~* (determination/obligation).\n- **〜上（に）** (#102): *on top of ~, in addition*.\n- **N上（じょう）** (#70): *from the standpoint of N*: 歴史上, 構造上.\n\nOther distractors: **〜あげく** (after a lot of trouble, a bad result), **〜きり** (since then, nothing more), **〜限り** (as far as ~: 調べた限り *as far as I've checked*). 調べた上で would be followed by a decision; 調べた限り by a statement of what you found.",
+          "deepDive": "**V-た上で / Nの上で** means *after doing ~ (and on that basis)*. The important nuance: the first action is a **necessary step** — a check, a discussion, a consideration — and the second action (a decision, a signature, a reply) is done **based on its result**. 十分検討した上で結論を出す = *reach a conclusion after (and based on) careful consideration*.\n\nThat's why it sounds wrong for casual sequences: ✗映画を見た上で食事しよう → 映画を見た後で / 見てから. Use it for decisions, procedures and formal business talk.\n\nForms:\n- V-た + 上で: 相談した上で, 確認した上で.\n- N（する-noun）+ の + 上で: 検討の上で, 相談の上で.\n- ご + N + の上 (without で) in polite requests: ご確認の上, ご記入の上 (example ③).\n- **上（で）の + N**: 十分に話し合った上での決定 *a decision made after thorough discussion*.\n\nThe 上 family (see the list) is a classic trap:\n- **V-る上で** (#14): *in doing ~, for the purpose of ~* — note V-**る**: 就職活動をする上で大切なこと.\n- **V-た上で** (#117): *after doing ~* — note V-**た**.\n- **〜上は** (#18): *now that ~, since ~* (determination/obligation).\n- **〜上（に）** (#102): *on top of ~, in addition*.\n- **N上（じょう）** (#70): *from the standpoint of N*: 歴史上, 構造上.\n\nOther distractors: **〜あげく** (after a lot of trouble, a bad result), **〜きり** (since then, nothing more), **〜限り** (as far as ~: 調べた限り *as far as I've checked*). 調べた上で would be followed by a decision; 調べた限り by a statement of what you found.",
           "see": [
             14,
             18,

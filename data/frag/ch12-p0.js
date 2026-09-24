@@ -229,7 +229,7 @@ N2F({
       stars: 2,
       marks: ["regret"],
       usage: {
-        ja: "「〜がち」は、「忘れがち・病気がち」のように「〜になることが多い」と言いたいときに使う。{状態|じょうたい}、{様子|ようす}を表す{慣用的|かんようてき}な言い���もある。",
+        ja: "「〜がち」は、「忘れがち・病気がち」のように「〜になることが多い」と言いたいときに使う。{状態|じょうたい}、{様子|ようす}を表す{慣用的|かんようてき}な言い方もある。",
         en: "Use \"〜がち\" when you want to say that someone \"often does / is 〜\" as in \"忘れがち・病気がち\". There is also an idiomatic usage to express a state or appearance.",
       },
       forms: ["[V-~~ます~~] + がち", "[N] + がち"],

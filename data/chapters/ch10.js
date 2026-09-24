@@ -674,7 +674,7 @@ N2.register({
                   "q": "彼は会社に入ったかと思ったら、（　）。",
                   "options": [
                     "仕事がまったくできない",
-                    "もうやめ��しまった"
+                    "もうやめてしまった"
                   ],
                   "answer": 1,
                   "en": "He had only just joined the company, and he's already quit."

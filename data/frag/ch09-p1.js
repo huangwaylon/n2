@@ -152,7 +152,7 @@ N2F({
       },
       forms: ["[V-る] + ところだった"],
       formNotes: [
-        { ja: "「〜なければならない」「〜ざるを{得|え}ない」などと一���に使うこともある。", en: "It can also be used together with 〜なければならない, 〜ざるを得ない, etc." },
+        { ja: "「〜なければならない」「〜ざるを{得|え}ない」などと一緒に使うこともある。", en: "It can also be used together with 〜なければならない, 〜ざるを得ない, etc." },
       ],
       examples: [
         { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、{危|あや}うく{遅刻|ちこく}するところだったよ。", en: "I overslept by a whole 30 minutes this morning and very nearly ended up late." },
@@ -251,7 +251,7 @@ N2F({
         { ja: "A：もうすぐ冬だね。私、寒いの{苦手|にがて}なんだ。\nB：暑いより、寒いほうがましだよ。寒いときには服を着ればいいんだから。", en: "A: It'll be winter soon. I can't stand the cold.\nB: Cold is better than hot. When it's cold, you can just put on more clothes." },
         { ja: "A：彼、何を作っても何も言わずに食べるだけなの。\nB：ちゃんと食べてくれるならいいじゃない。「まずい」って言われるよりましでしょ。", en: "A: Whatever I make, he just eats it without saying anything.\nB: Well, if he eats it properly, isn't that fine? It's better than being told it tastes bad." },
         { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm sick of it.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job." },
-        { ja: "あいつは入社5年目なのにミスばかりで、{新���|しんじん}の{加藤|かとう}のほうがまだましだ。", en: "He's in his fifth year at the company but makes nothing but mistakes — even Kato, the new guy, is better." },
+        { ja: "あいつは入社5年目なのにミスばかりで、{新人|しんじん}の{加藤|かとう}のほうがまだましだ。", en: "He's in his fifth year at the company but makes nothing but mistakes — even Kato, the new guy, is better." },
       ],
       deepDive:
         "**まし（だ）** is a な-adjective meaning *less bad, preferable (by comparison)*. The key nuance: **neither option is good**; one is just less bad. If you say 暑いより寒いほうがましだ, you're not praising the cold — you just dislike the heat more.\n\n" +

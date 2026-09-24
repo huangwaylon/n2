@@ -226,7 +226,7 @@ N2F({
         "- ご + N + の上 (without で) in polite requests: ご確認の上, ご記入の上 (example ③).\n" +
         "- **上（で）の + N**: 十分に話し合った上での決定 *a decision made after thorough discussion*.\n\n" +
         "The 上 family (see the list) is a classic trap:\n" +
-        "- **V-る上で** (#14): *in doing ~, for the purpose of ~* — note V-**る**: 就職活��をする上で大���なこと.\n" +
+        "- **V-る上で** (#14): *in doing ~, for the purpose of ~* — note V-**る**: 就職活動をする上で大切なこと.\n" +
         "- **V-た上で** (#117): *after doing ~* — note V-**た**.\n" +
         "- **〜上は** (#18): *now that ~, since ~* (determination/obligation).\n" +
         "- **〜上（に）** (#102): *on top of ~, in addition*.\n" +

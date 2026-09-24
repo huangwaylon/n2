@@ -1218,7 +1218,7 @@ N2.register({
             "en": "Use \"〜に{限|かぎ}らず\" when you want to say \"not just 〜, but also something else.\""
           },
           "forms": [
-            "[N] + に{限|かぎ}ら���"
+            "[N] + に{限|かぎ}らず"
           ],
           "examples": [
             {

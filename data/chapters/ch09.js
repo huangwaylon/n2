@@ -949,7 +949,7 @@ N2.register({
           ],
           "formNotes": [
             {
-              "ja": "「〜なければならない」「〜ざるを{得|え}ない」などと一���に使うこともある。",
+              "ja": "「〜なければならない」「〜ざるを{得|え}ない」などと一緒に使うこともある。",
               "en": "It can also be used together with 〜なければならない, 〜ざるを得ない, etc."
             }
           ],
@@ -1131,7 +1131,7 @@ N2.register({
               "en": "A: There's so much overtime, I'm sick of it.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job."
             },
             {
-              "ja": "あいつは入社5年目なのにミスばかりで、{新���|しんじん}の{加藤|かとう}のほうがまだましだ。",
+              "ja": "あいつは入社5年目なのにミスばかりで、{新人|しんじん}の{加藤|かとう}のほうがまだましだ。",
               "en": "He's in his fifth year at the company but makes nothing but mistakes — even Kato, the new guy, is better."
             }
           ],

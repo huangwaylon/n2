@@ -472,7 +472,7 @@ N2.register({
               "en": "Me, criticizing the president? Absolutely not. That's a misunderstanding."
             },
             {
-              "ja": "どんなに大変な仕事でも、人の役に立つと���えばがんばれるというものだ。",
+              "ja": "どんなに大変な仕事でも、人の役に立つと思えばがんばれるというものだ。",
               "en": "No matter how hard the job, if you think it helps people, you can keep going."
             }
           ],
@@ -1536,7 +1536,7 @@ N2.register({
             "options": [
               "はい、集めるだけですね。",
               "はい、やってみます。",
-              "はい、{情報|じょうほう}だけ集��ます。"
+              "はい、{情報|じょうほう}だけ集めます。"
             ],
             "answer": 1,
             "why": {

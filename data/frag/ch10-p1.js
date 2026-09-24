@@ -124,7 +124,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct ending." },
           items: [
             { q: "部長は中国に出張していたかと思ったら、（　）。", options: ["今度はタイへ行くそうだ", "本当に忙しい人だ"], answer: 0, en: "The department head had only just been on a business trip to China, and now I hear he's going to Thailand." },
-            { q: "彼は会社に入ったかと思ったら、（　）。", options: ["仕事がまったくできない", "もうやめ��しまった"], answer: 1, en: "He had only just joined the company, and he's already quit." },
+            { q: "彼は会社に入ったかと思ったら、（　）。", options: ["仕事がまったくできない", "もうやめてしまった"], answer: 1, en: "He had only just joined the company, and he's already quit." },
             { q: "{洋子|ようこ}は「ごちそうさま」と言ったかと思うと、（　）。", options: ["すぐ勉強を始めた", "お{腹|なか}がいっぱいになった"], answer: 0, en: "No sooner had Yoko said \"Thanks for the meal\" than she started studying right away." },
             { q: "楽しみにしていたゲームソフトがやっと{発売|はつばい}されたかと思ったら、（　）。", options: ["あっという間に売り切れてしまった", "おもしろいゲームだといいなあ"], answer: 0, en: "The game I'd been looking forward to was finally released, and it sold out in no time." },
           ],
