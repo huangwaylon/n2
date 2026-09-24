@@ -71,7 +71,7 @@ N2F({
           items: [
             { q: "最近疲れ（　）だから、{休暇|きゅうか}をもらって{温泉|おんせん}へ行きたいなあ。", options: ["げ", "ぎみ"], answer: 1, en: "I've been feeling a bit tired lately, so I'd like to take some time off and go to a hot spring." },
             { q: "{交流会|こうりゅうかい}で学生たちが楽し（　）に子どもたちとおしゃべりしている。", options: ["げ", "ぎみ"], answer: 0, en: "At the exchange event, the students are happily chatting with the children." },
-            { q: "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。", options: ["げ", "ぎみ"], answer: 1, en: "Those who tend to be short of iron should try to take vitamin B from foods such as liver." },
+            { q: "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンＢをとるようにしてください。", options: ["げ", "ぎみ"], answer: 1, en: "Those who tend to be short of iron should try to take vitamin B from foods such as liver." },
             { q: "プロジェクトメンバーから{外|はず}されて、彼女は{不満|ふまん}（　）だった。", options: ["げ", "ぎみ"], answer: 0, en: "Having been taken off the project team, she looked dissatisfied." },
           ],
         },

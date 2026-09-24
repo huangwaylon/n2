@@ -1040,7 +1040,7 @@ N2.register({
         {
           "no": 59,
           "pattern": "〜つもりで",
-          "phrase": "スターになった**つもりで**",
+          "phrase": "スターになった**つもり**で",
           "stars": 2,
           "marks": [],
           "usage": {
