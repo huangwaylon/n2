@@ -438,12 +438,7 @@ N2.register({
               "en": "What was that attitude of yours just now? When someone is talking, you listen properly."
             }
           ],
-          "notes": [
-            {
-              "ja": "☞ p.224　〜もの／もん",
-              "en": "See p.224: 〜もの／もん."
-            }
-          ],
+          "xref": "☞ p.224　〜もの／もん",
           "deepDive": "**〜ものだ** presents something as **the natural way of things** — a general truth about people, society or the world, not a personal opinion about one case. もの here means *the nature of things*: 人は失敗から学ぶものだ *people (by nature) learn from failure*.\n\nTwo main uses:\n- **General truth / tendency**: 人は一人では生きられないものだ. Often used to comfort or reassure: 子どもは親に反抗するものですから….\n- **Social norm → advice or rebuke**: 人が話しているときには、ちゃんと聞くもんだ *you listen properly when someone is talking*. The negative 〜ないものだ tells people what *not* to do: 人の悪口は言わないものだ.\n\nRegister: because it sounds like a rule handed down from above, using it *to* a superior (✗部長、会議には遅れないものですよ) is rude. In casual speech it becomes **もんだ / もんだよ / もんだぞ**; ぞ is strong and masculine.\n\nCompare:\n- **〜べきだ**: *should*, based on the speaker's own sense of duty; more direct and personal.\n- **〜はずだ**: *should be (I expect)*, a logical guess, not a norm.\n- The ものだ family in this book is large: ものだ② (#132) is the nostalgic *used to* (昔はよく遊んだものだ — note V-た); 〜ものではない (#46) *you shouldn't*; 〜というものだ (#52) *that's what ~ is*; 〜というものではない (#25) *it's not necessarily the case*; 〜ものがある (#92); 〜ものの (#39) *although*; 〜ものなら (#122); 〜ものか (#51) *no way*; 〜もん (#56) *because*.\n\nJLPT tip: V-る/V-ない + ものだ = general truth or norm; V-た + ものだ = nostalgic recollection. Look at the verb form first.",
           "see": [
             25,
@@ -495,12 +490,7 @@ N2.register({
               "en": "In running a company, cost-effectiveness is an important issue."
             }
           ],
-          "notes": [
-            {
-              "ja": "☞ p.220　〜{上|うえ}／{上|じょう}",
-              "en": "See p.220: 〜上（うえ）／上（じょう）."
-            }
-          ],
+          "xref": "☞ p.220　〜{上|うえ}／{上|じょう}",
           "deepDive": "**V-る + 上で** means *in (the process of) doing ~ / for the purpose of doing ~*. It sets up an activity and the rest of the sentence says **what matters, what is needed, or what to watch out for** in it. Typical endings: 大切だ・重要だ・必要だ・欠かせない・避けられない・役に立つ・問題になる.\n\n- To modify a noun, use **上での + N**: 就職活動をする上での重要なポイント, 生活する上での悩み.\n- With nouns there is **Nの上で** (仕事の上で), which is close to **N上（じょう）** (#70): 仕事上, 法律上.\n\nIt is not simply *when*. ✗ご飯を食べる上でテレビを見た is wrong — you need an evaluative or necessary element in the second half. Compare 留学生が生活する上で円高は大きな問題だ ✓.\n\nThe 上 family is a classic JLPT trap — look at what precedes it:\n- **V-る上で** (this point): *in doing ~, …is important*.\n- **V-た上で** (#117): *after doing ~ (and then)*: よく考えた上で決めます.\n- **V-る/V-た上は** (Plus of #18): *now that ~*: 引き受けた上は.\n- **〜上（に）** (#102): *in addition to ~*: 安い上においしい.\n- **N上（じょう）** (#70): *from the standpoint of ~*: 歴史上, 健康上.\n\nRegister: fairly formal; common in essays, reports and speeches. In a farewell speech, 仕事をする上で大切なこと is a natural phrase for “the things that matter at work”.",
           "see": [
             18,

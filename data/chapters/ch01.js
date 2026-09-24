@@ -126,6 +126,7 @@ N2.register({
               "en": "We are currently under renovation, so we are doing business at the temporary store shown on the left."
             }
           ],
+          "xref": "☞ p.224　〜につき",
           "deepDive": "**〜につき** is a stiff, written way of saying *because of ~*. It belongs to the world of signs, posters, notices on shop doors and official letters — you would sound odd saying 雨につき、行かない to a friend (just say 雨だから).\n\nStructure: it attaches directly to a noun, very often a Sino-Japanese noun that describes a state or event: 工事中・清掃中・準備中・祝日・雨天・改装・品切れ. The second half is typically a notice, request or apology: …休業します / …ご注意ください / …ご遠慮ください.\n\nDon't confuse it with the N3 **〜につき = “per”** (1人につき500円 “¥500 per person”, 1回につき “per time”). Context makes it clear: a number/unit before につき → *per*; a situation before につき → *because of*.\n\n- Similar reason words: 〜ため（に） (neutral, written), 〜により (formal, cause), 〜ので (neutral, spoken & written).\n- JLPT tip: if the sentence looks like a sign or notice and the blank follows a situation noun (清掃中, 改装工事中), につき is almost always the answer.",
           "see": [],
           "index": [
@@ -341,6 +342,7 @@ N2.register({
               ]
             }
           ],
+          "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
           "deepDive": "**〜に限り / 〜に限る** come from 限る *to limit*. The noun before them is the *only* target: 本日に限り = *today only*; 予約された方に限ります = *only those with a reservation*.\n\n- **に限り** is used mid-sentence (like a conjunction): 本日に限り、半額です.\n- **に限る / に限ります** ends the sentence: 工場の見学は予約された方に限ります.\n- In speech you'd usually say だけ: 今日だけ半額. に限り sounds official, like an advertisement.\n\nBe careful — the 限る family has several N2 uses in this book:\n- **Nに限って〜ない** (note above): *X of all people would never…* (strong denial, based on trust).\n- **Nに限って** (#86): *of all times, just when ~ (something bad happens)*: 急いでいる日に限って電車が遅れる.\n- **Vかぎり** (#23): *as long as ~*.\n- **〜に限る** (#104): *~ is the best*: 夏はビールに限る.\n- **〜に限らず** (#72): *not only ~*.\n\nCommon mistakes: confusing に限り with にとって (*for, from the viewpoint of*) — 子どもにとって大切 = *important for children*; 小学生以下のお子様に限り = *for children of primary-school age or younger only*. And with によって (*depending on*): 時期によって届け日が変わる — the result varies, nothing is being limited.",
           "see": [
             23,
@@ -819,6 +821,7 @@ N2.register({
               "en": "Do not use the dormitory showers after 11 p.m."
             }
           ],
+          "xref": "☞ p.221　〜こと",
           "deepDive": "Ending a sentence with **こと** turns it into a rule or instruction — the kind printed on dorm notices, exam instructions, school rules or job ads (履歴書持参のこと). It's impersonal and firm; it doesn't say who gives the order.\n\n- **V-る + こと** = *must do*: きれいに使用すること.\n- **V-ない + こと** = *must not do*: 使用しないこと, 走らないこと.\n- **Nの + こと**: with action nouns: 持参のこと, 必着のこと, 使用のこと, 厳守のこと (*strictly observe*).\n\nRegister: fine in writing, but saying it to a colleague's face sounds bossy. Teachers and parents do use it orally as a strict instruction (明日までにやってくること！).\n\nDon't confuse this sentence-final **こと** with other こと patterns: 〜ことだ (#87, advice: *you should*), 〜ことか (#42, exclamation), 〜ことに (#40, emotion: *to my surprise*), 〜ことから (#62, reason). See the comparison list under 〜こと.",
           "see": [
             20,

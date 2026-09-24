@@ -50,6 +50,7 @@ N2F({
         { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): Dr. Sato will not see patients as he is attending an academic conference." },
         { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left." },
       ],
+      xref: "☞ p.224　〜につき",
       deepDive:
         "**〜につき** is a stiff, written way of saying *because of ~*. It belongs to the world of signs, posters, notices on shop doors and official letters — you would sound odd saying 雨につき、行かない to a friend (just say 雨だから).\n\n" +
         "Structure: it attaches directly to a noun, very often a Sino-Japanese noun that describes a state or event: 工事中・清掃中・準備中・祝日・雨天・改装・品切れ. The second half is typically a notice, request or apology: …休業します / …ご注意ください / …ご遠慮ください.\n\n" +
@@ -171,6 +172,7 @@ N2F({
           ],
         },
       ],
+      xref: "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
       deepDive:
         "**〜に限り / 〜に限る** come from 限る *to limit*. The noun before them is the *only* target: 本日に限り = *today only*; 予約された方に限ります = *only those with a reservation*.\n\n" +
         "- **に限り** is used mid-sentence (like a conjunction): 本日に限り、半額です.\n" +
@@ -427,6 +429,7 @@ N2F({
         { ja: "試験中は{携帯|けいたい}電話の{電源|でんげん}を切ること。{筆記|ひっき}{用具|ようぐ}以外は{机|つくえ}の上に置かないこと。", en: "During the exam, turn off your mobile phone. Do not put anything other than writing materials on your desk." },
         { ja: "{寮|りょう}のシャワーは夜11時以降、使用しないこと。", en: "Do not use the dormitory showers after 11 p.m." },
       ],
+      xref: "☞ p.221　〜こと",
       deepDive:
         "Ending a sentence with **こと** turns it into a rule or instruction — the kind printed on dorm notices, exam instructions, school rules or job ads (履歴書持参のこと). It's impersonal and firm; it doesn't say who gives the order.\n\n" +
         "- **V-る + こと** = *must do*: きれいに使用すること.\n" +

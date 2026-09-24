@@ -60,6 +60,7 @@ ch1.parts.0.points.0.practice.0.type	match
 ch1.parts.0.points.0.stars	2
 ch1.parts.0.points.0.usage.en	This is used to state a reason in an announcement and the like, as in “{雨天|うてん}につき中止”.
 ch1.parts.0.points.0.usage.ja	お知らせなどで「{雨天|うてん}につき中止」のように理由を言うときに使われる。
+ch1.parts.0.points.0.xref	☞ p.224　〜につき
 ch1.parts.0.points.1.examples.0.ja	このスポーツセンターは、{年齢|ねんれい}を{問|と}わず、どなたでも利用できます。
 ch1.parts.0.points.1.examples.1.ja	このスーパーは{昼夜|ちゅうや}を{問|と}わず、{営業|えいぎょう}しているので、{深夜|しんや}も働く人にとってありがたい。
 ch1.parts.0.points.1.examples.2.ja	{経験|けいけん}の{有無|うむ}を{問|と}わず、やる気のある社員を{募集|ぼしゅう}します。
@@ -141,6 +142,7 @@ ch1.parts.0.points.2.practice.0.type	choice
 ch1.parts.0.points.2.stars	2
 ch1.parts.0.points.2.usage.en	This is often used to mean “only / just” in an announcement and the like.
 ch1.parts.0.points.2.usage.ja	「だけ」という意味で、お知らせなどによく使われる。
+ch1.parts.0.points.2.xref	☞ p.223　〜に{限|かぎ}る／{限|かぎ}り
 ch1.parts.0.points.3.examples.0.ja	{給料|きゅうりょう}は{能力|のうりょく}や{経験|けいけん}に{応|おう}じ、決めさせていただきます。
 ch1.parts.0.points.3.examples.1.ja	{新年会|しんねんかい}はご{予算|よさん}に{応|おう}じていろいろなコースがございます。
 ch1.parts.0.points.3.examples.2.ja	{社会人|しゃかいじん}なら、場所や場合に{応|おう}じた{服装|ふくそう}を{心|こころ}がけるべきだ。
@@ -301,6 +303,7 @@ ch1.parts.0.points.7.practice.0.type	match
 ch1.parts.0.points.7.stars	2
 ch1.parts.0.points.7.usage.en	This is often used to explain a rule or warning.
 ch1.parts.0.points.7.usage.ja	{規則|きそく}や注意{事項|じこう}を説明するときに使う。
+ch1.parts.0.points.7.xref	☞ p.221　〜こと
 ch1.parts.0.sample.heading	サニー　店内スタッフ{募集|ぼしゅう}
 ch1.parts.0.sample.lines	さいわい駅前店オープン**につき**、{人材|じんざい}を{求|もと}めています仕事▶{開店|かいてん}{業務|ぎょうむ}、{販売|はんばい}、{清掃|せいそう}、{商品|しょうひん}{管理|かんり}、{閉店|へいてん}{業務|ぎょうむ}{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}**を{問|と}わず**、やる気のある方、{大歓迎|だいかんげい}！＊{商品|しょうひん}の案内や{接客|せっきゃく}{応対|おうたい}があるため、外国人の方は、日本語能力試験N2レベル以上の方**に{限|かぎ}り**、{応募|おうぼ}{可|か}。{給与|きゅうよ}▶{時給|じきゅう}　7時〜 9時　1,000円〜9時〜22時　900円22時〜24時30分　1,125円〜＊{経験|けいけん}{年数|ねんすう}**に{応|おう}じ**、{時給|じきゅう}は{考慮|こうりょ}します。交通費▶{往復|おうふく}1,000円まで{支給|しきゅう}{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに{記入|きにゅう}し、{下記|かき}のメールアドレスまでお送りください。電話でのお{問|と}い{合|あ}わせは10時〜18時。{書類|しょるい}{審査|しんさ}の{結果|けっか}は{採否|さいひ}**にかかわらず**、{通知|つうち}します。{書類|しょるい}{審査|しんさ}{後|ご}、{当店|とうてん}**において**{面接|めんせつ}。{面接|めんせつ}の**{際|さい}**に、{履歴書|りれきしょ}（写真付き）{持参|じさん}の**こと**。サニーグループ{東京|とうきょう}{本部|ほんぶ}　☎03-1111-2222http://www.sannie.bizE-mail　boshu@sannie.co.jp
 ch1.review.0.ex.items.0.answer	1
@@ -622,13 +625,12 @@ ch2.parts.0.points.4.examples.4.ja	さっきのお前の{態度|たいど}は何
 ch2.parts.0.points.4.forms.0	[V-る]／[V-ない] + ものだ
 ch2.parts.0.points.4.forms.1	[V-る]／[V-ない] + もんだ
 ch2.parts.0.points.4.no	13
-ch2.parts.0.points.4.notes.0.en	See p.224: 〜もの／もん.
-ch2.parts.0.points.4.notes.0.ja	☞ p.224　〜もの／もん
 ch2.parts.0.points.4.pattern	〜ものだ
 ch2.parts.0.points.4.phrase	人は{失敗|しっぱい}から学ぶ**ものだ**
 ch2.parts.0.points.4.stars	1
 ch2.parts.0.points.4.usage.en	This expresses the speaker's judgment that anyone would think so or that the speaker thinks it is absolutely correct. You should not use this when speaking to a higher ranking person as it can sound bossy. "もんだ" is used in conversation with a familiar person.
 ch2.parts.0.points.4.usage.ja	{誰|だれ}でもそう思う、{絶対|ぜったい}正しいと思っている{話者|わしゃ}の{判断|はんだん}を表す。注意や{命令|めいれい}になることもある。{偉|えら}そうな感じがするので、{目上|めうえ}の人には使わないほうがいい。親しい人との会話では、「もんだ」が使われる。
+ch2.parts.0.points.4.xref	☞ p.224　〜もの／もん
 ch2.parts.0.points.5.examples.0.ja	この本は{就職活動|しゅうしょくかつどう}をする{上|うえ}での{重要|じゅうよう}なポイントが書かれています。
 ch2.parts.0.points.5.examples.1.ja	{国際関係|こくさいかんけい}を考える{上|うえ}で、{宗教|しゅうきょう}問題は{避|さ}けられない。
 ch2.parts.0.points.5.examples.2.ja	{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は{欠|か}かせない。
@@ -636,8 +638,6 @@ ch2.parts.0.points.5.examples.3.ja	会社を{経営|けいえい}していく{�
 ch2.parts.0.points.5.forms.0	[V-る] + {上|うえ}で
 ch2.parts.0.points.5.marks.0	formal
 ch2.parts.0.points.5.no	14
-ch2.parts.0.points.5.notes.0.en	See p.220: 〜上（うえ）／上（じょう）.
-ch2.parts.0.points.5.notes.0.ja	☞ p.220　〜{上|うえ}／{上|じょう}
 ch2.parts.0.points.5.pattern	〜{上|うえ}で
 ch2.parts.0.points.5.phrase	仕事をする**{上|うえ}で**
 ch2.parts.0.points.5.practice.0.items.0.answer	0
@@ -661,6 +661,7 @@ ch2.parts.0.points.5.practice.0.type	choice
 ch2.parts.0.points.5.stars	3
 ch2.parts.0.points.5.usage.en	"〜{上|うえ}で…" is used when you want to say that "(something is important or required) when doing something".
 ch2.parts.0.points.5.usage.ja	「〜{上|うえ}で…」は、「〜をするとき（…が{重要|じゅうよう}だ・{必要|ひつよう}だ）」と言いたいときに使われる。
+ch2.parts.0.points.5.xref	☞ p.220　〜{上|うえ}／{上|じょう}
 ch2.parts.0.points.6.examples.0.ja	彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。
 ch2.parts.0.points.6.examples.1.ja	留学生たちは、難しい言葉はわからないながら、日本人のボランティアと楽しそうにおしゃべりしている。
 ch2.parts.0.points.6.examples.2.ja	彼は若いながらも、{立派|りっぱ}なプロジェクトリーダーだ。
@@ -1620,6 +1621,7 @@ ch4.parts.0.points.0.practice.0.type	match
 ch4.parts.0.points.0.stars	2
 ch4.parts.0.points.0.usage.en	
 ch4.parts.0.points.0.usage.ja	「〜つつ」は、「〜ながら」と同じ意味で使う。
+ch4.parts.0.points.0.xref	☞ p.223　〜つつ
 ch4.parts.0.points.1.examples.0.ja	{台風|たいふう}で{電線|でんせん}が切れ、この町は{全域|ぜんいき}にわたって{停電|ていでん}した。
 ch4.parts.0.points.1.examples.1.ja	本日から約2週間にわたって、オリンピックが{行|おこな}われる。
 ch4.parts.0.points.1.examples.2.ja	{長年|ながねん}にわたる研究が{実|みの}り、ついに{新製品|しんせいひん}が{完成|かんせい}した。
@@ -1679,6 +1681,7 @@ ch4.parts.0.points.2.practice.0.type	match
 ch4.parts.0.points.2.stars	3
 ch4.parts.0.points.2.usage.en	Use “AからBにかけて” when you say that something is within a broad period of time or area between A and B as in “今週から来週にかけて雨の日が多い” and “{渋谷|しぶや}から{新宿|しんじゅく}にかけてたくさんの専門学校がある”.
 ch4.parts.0.points.2.usage.ja	「AからBにかけて」は、「今週から来週にかけて雨の日が多い」「{渋谷|しぶや}から{新宿|しんじゅく}にかけてたくさんの専門学校がある」のように、AからBまでの間という意味で、時間や場所のだいたいの{範囲|はんい}を言うときに使う。
+ch4.parts.0.points.2.xref	☞ p.224　〜にかけて
 ch4.parts.0.points.3.examples.0.ja	{本社|ほんしゃ}{移転|いてん}にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。
 ch4.parts.0.points.3.examples.1.ja	{議員|ぎいん}の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。
 ch4.parts.0.points.3.examples.2.ja	一人{暮|ぐ}らしは自由だが、それにともない、{責任|せきにん}も{生|しょう}じる。
@@ -1800,6 +1803,7 @@ ch4.parts.0.points.6.practice.0.type	choice
 ch4.parts.0.points.6.stars	3
 ch4.parts.0.points.6.usage.en	Use “〜{次第|しだい}…” when you say “when something (that I can't do yet) happens, I'll do … right away.”
 ch4.parts.0.points.6.usage.ja	「〜{次第|しだい}…」は、「（今はまだできないが）〜たら、すぐ…する」と言うときに使う。
+ch4.parts.0.points.6.xref	☞ p.222　〜{次第|しだい}
 ch4.parts.0.sample.lines	次は{台風|たいふう}{関係|かんけい}のニュースをお伝えします。{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}{海上|かいじょう}にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。今後{台風|たいふう}は{速度|そくど}を速め**つつ**東に進むと{予想|よそう}されます。{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、{広範囲|こうはんい}**にわたって**強い雨が降っています。また、{九州|きゅうしゅう}{沿岸|えんがん}**から**{四国|しこく}**にかけて**{波|なみ}も高くなってきています。{台風|たいふう}の{接近|せっきん}**にともない**、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}{洪水|こうずい}{注意報|ちゅういほう}が出されています。これから{明日|あす}の{明|あ}け{方|がた}にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降る**おそれがあります**。{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}**とともに**{河川|かせん}の{増水|ぞうすい}にもご注意ください。なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。
 ch4.review.0.ex.items.0.answer	2
 ch4.review.0.ex.items.0.options.0	にともなって

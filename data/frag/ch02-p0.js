@@ -238,9 +238,7 @@ N2F({
         { ja: "{失恋|しつれん}したら、めいっぱいおしゃれをして出かけましょう。おしゃれをすると気分が明るくなるものです。", en: "When you've had your heart broken, dress up as much as you can and go out. Dressing up does lift your mood." },
         { ja: "さっきのお前の{態度|たいど}は何だ。人が話しているときには、ちゃんと聞くもんだぞ。", en: "What was that attitude of yours just now? When someone is talking, you listen properly." },
       ],
-      notes: [
-        { ja: "☞ p.224　〜もの／もん", en: "See p.224: 〜もの／もん." },
-      ],
+      xref: "☞ p.224　〜もの／もん",
       deepDive:
         "**〜ものだ** presents something as **the natural way of things** — a general truth about people, society or the world, not a personal opinion about one case. もの here means *the nature of things*: 人は失敗から学ぶものだ *people (by nature) learn from failure*.\n\n" +
         "Two main uses:\n" +
@@ -273,9 +271,7 @@ N2F({
         { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は{欠|か}かせない。", en: "When opening a new store, marketing research of the surrounding area is indispensable." },
         { ja: "会社を{経営|けいえい}していく{上|うえ}でコストパフォーマンスは{重要|じゅうよう}な{課題|かだい}だ。", en: "In running a company, cost-effectiveness is an important issue." },
       ],
-      notes: [
-        { ja: "☞ p.220　〜{上|うえ}／{上|じょう}", en: "See p.220: 〜上（うえ）／上（じょう）." },
-      ],
+      xref: "☞ p.220　〜{上|うえ}／{上|じょう}",
       deepDive:
         "**V-る + 上で** means *in (the process of) doing ~ / for the purpose of doing ~*. It sets up an activity and the rest of the sentence says **what matters, what is needed, or what to watch out for** in it. Typical endings: 大切だ・重要だ・必要だ・欠かせない・避けられない・役に立つ・問題になる.\n\n" +
         "- To modify a noun, use **上での + N**: 就職活動をする上での重要なポイント, 生活する上での悩み.\n" +

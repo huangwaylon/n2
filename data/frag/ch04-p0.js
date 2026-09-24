@@ -42,6 +42,7 @@ N2F({
         { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department." },
         { ja: "{趣味|しゅみ}の{園芸|えんげい}教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At the gardening class I take as a hobby, I enjoy chatting with my friends while learning how to grow flowers." },
       ],
+      xref: "☞ p.223　〜つつ",
       deepDive:
         "**〜つつ** is the literary twin of **〜ながら**: both link two actions performed at the same time by the same person (or thing). 音楽を聞きながら勉強する ≈ 音楽を聞きつつ勉強する. The difference is register — つつ sounds written, formal or slightly literary, so you meet it in news reports (台風は速度を速めつつ東に進む), speeches, business documents and essays. In a chat with friends, ながら is the natural choice.\n\n" +
         "Connection: the ます-stem, exactly like ながら — 見つつ, 考えつつ, 検討しつつ. There is no noun or adjective form.\n\n" +
@@ -141,6 +142,7 @@ N2F({
         { ja: "12月{中旬|ちゅうじゅん}から{年末|ねんまつ}にかけて、町は買い物客でにぎわう。", en: "From mid-December to the end of the year, the town is bustling with shoppers." },
         { ja: "今年{流行|りゅうこう}のブラウスは{肩|かた}から{腕|うで}にかけてレースがついているのが{特徴|とくちょう}です。", en: "This year's fashionable blouses are characterised by lace running from the shoulders down the arms." },
       ],
+      xref: "☞ p.224　〜にかけて",
       deepDive:
         "**AからBにかけて** marks a **rough span** between two points in time or space. The boundaries are fuzzy: 九州沿岸から四国にかけて波が高い means high waves *in the area between the Kyushu coast and Shikoku, more or less* — not necessarily everywhere, and not necessarily stopping exactly at the edges. This vagueness is exactly why weather reports love it: 夜から明け方にかけて, 東北から北陸にかけて.\n\n" +
         "Compare:\n" +
@@ -335,6 +337,7 @@ N2F({
         { ja: "ご{注文|ちゅうもん}の{品|しな}が{入荷|にゅうか}{次第|しだい}、お届けいたしますので、しばらくお待ちください。", en: "We will deliver the item you ordered as soon as it comes in, so please wait a little while." },
         { ja: "{現在|げんざい}{移動|いどう}中ですが、{現地|げんち}に{到着|とうちゃく}{次第|しだい}、{連絡|れんらく}を入れます。", en: "I'm on my way now, but I'll get in touch as soon as I arrive there." },
       ],
+      xref: "☞ p.222　〜{次第|しだい}",
       deepDive:
         "**〜次第** (V-ます stem / N + 次第) means *as soon as ~, (I/we will) immediately…*. It announces a future action that is waiting for a condition: 情報が入り次第お伝えします — *we don't have the information yet, but the moment we do, we'll tell you*. It is the everyday language of news desks, customer service and business email.\n\n" +
         "Connection:\n" +
