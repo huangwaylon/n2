@@ -1392,6 +1392,7 @@ N2.register({
         "items": [
           {
             "question": "メダカを{飼|か}う場合に、最も大切なことは何ですか。",
+            "questionEn": "What is the most important thing when keeping medaka?",
             "script": [
               {
                 "sp": "",
@@ -1431,6 +1432,7 @@ N2.register({
           },
           {
             "question": "{伊藤|いとう}さんは昨日何をしましたか。",
+            "questionEn": "What did Ito-san do yesterday?",
             "script": [
               {
                 "sp": "",
@@ -1462,12 +1464,12 @@ N2.register({
               }
             ],
             "en": [
-              "A woman and the store manager are talking. What did Ms. Ito do yesterday?",
+              "A woman and the store manager are talking. What did Ito-san do yesterday?",
               "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...",
-              "You still look pale. At the store, Ms. Ito came in to cover for you, so there's no need to worry about it.",
-              "Huh? I thought Ms. Ito had something to do yesterday...",
+              "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.",
+              "Huh? I thought Ito-san had something to do yesterday...",
               "She did say so, but I talked her into it even though it was a big ask. Well, why don't you just cover for her next time?",
-              "What did Ms. Ito do yesterday?"
+              "What did Ito-san do yesterday?"
             ],
             "options": [
               "アルバイトを{休|やす}んだ",

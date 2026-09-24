@@ -89,6 +89,7 @@ N2F({ ch: 11, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "女子学生が一番{心配|しんぱい}なのは何ですか。",
+          questionEn: "What is the female student most worried about?",
           script: [
             { sp: "", ja: "女子学生が大学の入学試験の{面接|めんせつ}について先生に{相談|そうだん}しています。女子学生が一番{心配|しんぱい}なのは何ですか。" },
             { sp: "M", v: "m", ja: "明日の{面接|めんせつ}、大丈夫だよね。" },
@@ -113,6 +114,7 @@ N2F({ ch: 11, review: [
           answer: 3,
           why: { en: "She says もし練習と違う質問をされたら…それが一番心配 — being asked questions different from what she practiced." } },
         { question: "お父さんは{隆|たかし}君の{将来|しょうらい}についてどう思っていますか。",
+          questionEn: "What does the father think about Takashi's future?",
           script: [
             { sp: "", ja: "両親が子どもの{将来|しょうらい}について話しています。お父さんはどう思っていますか。" },
             { sp: "F", v: "f", ja: "{隆|たかし}、プロ{野球選手|やきゅうせんしゅ}になりたいんだって。" },

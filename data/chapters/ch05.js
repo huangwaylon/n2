@@ -1320,6 +1320,7 @@ N2.register({
         "items": [
           {
             "question": "女の人は何が一番問題だと思っていますか。",
+            "questionEn": "What does the woman think is the biggest problem?",
             "script": [
               {
                 "sp": "",

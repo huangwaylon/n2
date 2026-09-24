@@ -1057,6 +1057,7 @@ N2.register({
         "items": [
           {
             "question": "女子学生が一番{心配|しんぱい}なのは何ですか。",
+            "questionEn": "What is the female student most worried about?",
             "script": [
               {
                 "sp": "",
@@ -1120,6 +1121,7 @@ N2.register({
           },
           {
             "question": "お父さんは{隆|たかし}君の{将来|しょうらい}についてどう思っていますか。",
+            "questionEn": "What does the father think about Takashi's future?",
             "script": [
               {
                 "sp": "",

@@ -109,6 +109,7 @@ explanation shown after grading.
 // listening — 問題4 聴解 (played with browser TTS)
 { type: "listening", mode: "task", prompt, items: [
   { question: "{女|おんな}の{人|ひと}はこのあと{何|なに}をしますか。",   // asked before & after the script
+    questionEn: "What will the woman do next?",                          // our translation of the question
     script: [ { sp: "女", v: "f", ja: "…" }, { sp: "男", v: "m", ja: "…" } ],
     en: ["line translations…"], options: ["…","…","…","…"], answer: 2, why } ] }
 
@@ -116,7 +117,12 @@ explanation shown after grading.
   { script: [ { sp: "男", v: "m", ja: "…" } ], options: ["reply 1","reply 2","reply 3"], answer: 0, en: [...], why } ] }
 ```
 
-`mode: "summary"` (概要理解): the `question` is spoken only after the script and not printed; options are printed.
+`mode: "summary"`: the `question` is spoken only after the script and not printed; options are printed
+(the book's "二つの質問を聞いて…問題用紙の1から4の中から" items).
+
+`mode: "gist"` (概要理解, "問題用紙に何も印刷されていません…話の前に質問はありません"): nothing is printed. The `question`
+and then the options are spoken only after the script; the answer buttons are bare numerals as in `response`.
+`en` = script-line translations followed by option translations. Don't put the question in the script as a "質問" line.
 
 An item with no `script` reuses the previous item's script (one talk → several questions, as in the book).
 

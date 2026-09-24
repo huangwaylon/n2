@@ -82,6 +82,7 @@ N2F({ ch: 6, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the talk and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "メダカを{飼|か}う場合に、最も大切なことは何ですか。",
+          questionEn: "What is the most important thing when keeping medaka?",
           script: [
             { sp: "", ja: "{専門家|せんもんか}が話しています。メダカを{飼|か}う場合に、最も大切なことは何ですか。" },
             { sp: "F", v: "f", ja: "皆さんこんにちは。今日はメダカを初めて{飼|か}う場合、どうしたらいいか、{田中|たなか}先生にお話を{伺|うかが}います。{田中|たなか}先生、よろしくお願いします。" },
@@ -98,6 +99,7 @@ N2F({ ch: 6, review: [
           answer: 3,
           why: { en: "それだけは絶対に忘れないでください refers to looking after them every day (毎日きちんと面倒をみないと死んでしまいます)." } },
         { question: "{伊藤|いとう}さんは昨日何をしましたか。",
+          questionEn: "What did Ito-san do yesterday?",
           script: [
             { sp: "", ja: "女の人と店の店長が話しています。{伊藤|いとう}さんは昨日何をしましたか。" },
             { sp: "F", v: "f", ja: "昨日はすみませんでした。アルバイト、休むわけにはいかないと思ったんですけど、{熱|ねつ}が高くて、起きられなくて…。" },
@@ -107,12 +109,12 @@ N2F({ ch: 6, review: [
             { sp: "", ja: "{伊藤|いとう}さんは昨日何をしましたか。" },
           ],
           en: [
-            "A woman and the store manager are talking. What did Ms. Ito do yesterday?",
+            "A woman and the store manager are talking. What did Ito-san do yesterday?",
             "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...",
-            "You still look pale. At the store, Ms. Ito came in to cover for you, so there's no need to worry about it.",
-            "Huh? I thought Ms. Ito had something to do yesterday...",
+            "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.",
+            "Huh? I thought Ito-san had something to do yesterday...",
             "She did say so, but I talked her into it even though it was a big ask. Well, why don't you just cover for her next time?",
-            "What did Ms. Ito do yesterday?",
+            "What did Ito-san do yesterday?",
           ],
           options: ["アルバイトを{休|やす}んだ", "アルバイトをした", "{熱|ねつ}を{出|だ}して{寝|ね}ていた", "{用事|ようじ}があって{帰|かえ}った"],
           answer: 1,

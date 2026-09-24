@@ -92,31 +92,39 @@ N2F({ ch: 2, review: [
   {
     title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — overall gist" },
     ex: {
-      type: "listening", mode: "response",
+      type: "listening", mode: "gist",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4." },
       items: [
-        { script: [
+        { question: "女の人は何について話していますか。",
+          questionEn: "What is the woman talking about?",
+          script: [
             { sp: "", ja: "女の人が話しています。" },
             { sp: "F", v: "f", ja: "私は{老人|ろうじん}ホームなど{福祉|ふくし}の{現場|げんば}で10年間働いて、ご本人やご家族の方から{様々|さまざま}な{質問|しつもん}を受けてきましたが、その間ずっと、{福祉|ふくし}について分かりやすく説明してあるものがあったらいいなあと思ってきました。それで今回、皆さんが{疑問|ぎもん}に思われることをまとめて、このガイドブックを作りました。この本をきっかけに、皆さんが{福祉|ふくし}について考えてくださることを{期待|きたい}しております。" },
-            { sp: "質問", v: "f", ja: "女の人は何について話していますか。" },
           ],
           en: [
             "A woman is speaking.",
             "I worked for ten years in the field of welfare, at places such as nursing homes for the elderly, and received all kinds of questions from the people themselves and their families. All that time, I kept thinking it would be nice if there were something that explained welfare in an easy-to-understand way. So this time I gathered together the things you all wonder about and made this guidebook. I hope this book will be an opportunity for you all to think about welfare.",
-            "What is the woman talking about?",
+            "That she has worked in the field of welfare",
+            "That she has been asked questions by families",
+            "Why she wrote the book",
+            "Everyone's expectations of welfare",
           ],
           options: ["女の人が{福祉|ふくし}の{現場|げんば}で働いてきたこと", "女の人がご家族の方から{質問|しつもん}されたこと", "女の人が本を書いた理由", "みんなの{福祉|ふくし}に対する{期待|きたい}"],
           answer: 2,
           why: { en: "Her whole talk explains why she made the guidebook (それで今回…このガイドブックを作りました)." } },
-        { script: [
+        { question: "女の人は何のために話していますか。",
+          questionEn: "What is the woman's purpose in speaking?",
+          script: [
             { sp: "", ja: "女の人が話しています。" },
             { sp: "F", v: "f", ja: "この会は{主婦|しゅふ}を中心に{結成|けっせい}されたボランティア{団体|だんたい}です。{地域|ちいき}の{環境|かんきょう}を{整|ととの}えて、子どもたちもお{年寄|としよ}りも安心して暮らせる街づくりを{目|め}{指|ざ}しています。できるだけ多くの方に{参加|さんか}していただいて、{協力|きょうりょく}して住みよい{街|まち}づくりに{貢献|こうけん}したいと思います。{主婦|しゅふ}でなくても、この{活動|かつどう}に{興味|きょうみ}を持たれた方はぜひご{参加|さんか}ください。" },
-            { sp: "質問", v: "f", ja: "女の人は何のために話していますか。" },
           ],
           en: [
             "A woman is speaking.",
             "This group is a volunteer organization formed mainly by homemakers. We aim to improve the local environment and create a town where both children and the elderly can live with peace of mind. We would like as many people as possible to take part so that, working together, we can contribute to building a pleasant town to live in. Even if you are not a homemaker, if you are interested in this activity, please do join us.",
-            "What is the woman's purpose in speaking?",
+            "To form a volunteer group",
+            "To improve the local environment",
+            "To recruit new members",
+            "To take part in volunteer activities",
           ],
           options: ["ボランティア{団体|だんたい}を{結成|けっせい}するため", "{地域|ちいき}の{環境|かんきょう}を{整|ととの}えるため", "新しいメンバーを{募集|ぼしゅう}するため", "ボランティア{活動|かつどう}に{参加|さんか}するため"],
           answer: 2,

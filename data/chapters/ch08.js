@@ -402,11 +402,13 @@ N2.register({
       title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening — 1 (Summary comprehension)" },
       ex: {
         type: "listening",
-        mode: "response",
+        mode: "gist",
         prompt: { ja: "この{問題|もんだい}では、{問題|もんだい}{用紙|ようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1–4." },
         items: [
           {
-            script: [
+            question: "男の人が電話で一番したかったことは何ですか。",
+          questionEn: "What did the man most want to do on the phone?",
+          script: [
               { sp: "", v: "f", ja: "男の人と女の人が電話で話しています。" },
               { sp: "M", v: "m", ja: "もしもし、{高橋|たかはし}様のお{宅|たく}でしょうか。" },
               { sp: "F", v: "f", ja: "はい。" },
@@ -415,7 +417,6 @@ N2.register({
               { sp: "M", v: "m", ja: "いえ。せっかくご{招待|しょうたい}いただきましたのに、とんだことをいたしまして、本当に{申|もう}し{訳|わけ}ございませんでした。" },
               { sp: "F", v: "f", ja: "いいえ、どうぞお気になさらず…。" },
               { sp: "M", v: "m", ja: "いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば買い{求|もと}めてお返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。" },
-              { sp: "質問", v: "f", ja: "男の人が電話で一番したかったことは何ですか。" },
             ],
             en: [
               "A man and a woman are talking on the phone.",
@@ -426,7 +427,10 @@ N2.register({
               "Not at all. You were kind enough to invite me, and then I did such a terrible thing. I'm truly sorry.",
               "No, please don't worry about it...",
               "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...",
-              "What did the man most want to do on the phone?",
+              "To thank her for inviting him the other day",
+              "To tell her that he broke the vase",
+              "To return a vase he bought",
+              "To ask which shop the vase was bought at",
             ],
             options: [
               "先日{招待|しょうたい}してもらったお礼を言うこと",

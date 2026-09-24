@@ -975,6 +975,7 @@ N2.register({
         "items": [
           {
             "question": "この鳥が動かないのは何に{関係|かんけい}があると言っていますか。",
+            "questionEn": "What does he say the bird's not moving has to do with?",
             "script": [
               {
                 "sp": "",

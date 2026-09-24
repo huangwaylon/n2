@@ -94,6 +94,7 @@ N2F({ ch: 12, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the talk. Then listen to the two questions and, for each, choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "この先生が一番言いたいことは何ですか。",
+          questionEn: "What is this teacher's main point?",
           script: [
             { sp: "", ja: "大学で先生が学生に話しています。" },
             { sp: "M1", v: "m", ja: "最近では、日本はもとより、ヨーロッパやアメリカなどでも魚はよく食べられるようになりました。しかし、{残念|ざんねん}ながら、それはマグロ、サケなどの決まった魚になりがちです。日本では昔から大きい魚、小さい魚、いろいろな魚を食べてきましたが、海の生き物の{生態系|せいたいけい}を{壊|こわ}さないためには{必要|ひつよう}なことなのです。{様々|さまざま}な{種類|しゅるい}の魚をバランスよく食べるほうが{自然|しぜん}に{優|やさ}しいと言えるのです。ですから、皆さんにそれをお願いしたいと思います。" },
@@ -116,6 +117,7 @@ N2F({ ch: 12, review: [
           answer: 3,
           why: { en: "The teacher's point is 様々な種類の魚をバランスよく食べるほうが自然に優しい…皆さんにそれをお願いしたい — eat many kinds of fish." } },
         { question: "どうして小さい魚も食べたほうがいいのですか。",
+          questionEn: "Why is it better to eat small fish as well?",
           options: ["マグロの{値段|ねだん}が{上|あ}がっているため", "マグロの{数|かず}が{減|へ}っているため", "{海|うみ}の{生|い}き{物|もの}のバランスを{取|と}るため", "{小|ちい}さい{魚|さかな}がえさになるため"],
           answer: 2,
           why: { en: "海の中のバランスを取るためにも小さい魚も食べましょう — to keep the balance of sea life." } },
@@ -125,16 +127,17 @@ N2F({ ch: 12, review: [
   {
     title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (2) — overall gist" },
     ex: {
-      type: "listening", mode: "response",
+      type: "listening", mode: "gist",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4." },
       items: [
-        { script: [
+        { question: "{藤川|ふじかわ}社長が一番言いたいことは何ですか。",
+          questionEn: "What does President Fujikawa most want to say?",
+          script: [
             { sp: "", ja: "社長がインタビューを受けています。" },
             { sp: "F", v: "f", ja: "本日はユニークな{経営方針|けいえいほうしん}で知られる{藤川|ふじかわ}社長にお話を{伺|うかが}います。{藤川|ふじかわ}工業は、{金属加工|きんぞくかこう}の{技術|ぎじゅつ}にかけては世界トップレベルだと{伺|うかが}っておりますが…。" },
             { sp: "M", v: "m", ja: "ありがとうございます。そういう{評価|ひょうか}をいただけるのは社員の{技術|ぎじゅつ}のおかげです。物を作る仕事は{誰|だれ}でも{簡単|かんたん}にできると思われがちですが、その{技術|ぎじゅつ}こそが会社の{財産|ざいさん}なので、わが社では{年齢|ねんれい}、{経験|けいけん}、{国籍|こくせき}を{問|と}わず、高い{技術|ぎじゅつ}を持った社員を高く{評価|ひょうか}してきたんです。" },
             { sp: "F", v: "f", ja: "{具体的|ぐたいてき}には？" },
             { sp: "M", v: "m", ja: "{能力次第|のうりょくしだい}では{役員並|やくいんな}みの{給料|きゅうりょう}がもらえるということです。{実際|じっさい}にそういう社員がいるんですよ。{評価|ひょうか}されることで、皆が自分の{技術|ぎじゅつ}に自信を持つようになり、どこに出しても{恥|は}ずかしくないものが作れるようになったんです。" },
-            { sp: "質問", v: "f", ja: "{藤川|ふじかわ}社長が一番言いたいことは何ですか。" },
           ],
           en: [
             "A company president is being interviewed.",
@@ -142,7 +145,6 @@ N2F({ ch: 12, review: [
             "Thank you. That we receive such praise is thanks to our employees' skills. People tend to think that making things is work anyone can do easily, but those very skills are the company's assets, so at our company we have always valued highly skilled employees regardless of age, experience or nationality.",
             "Specifically?",
             "It means that, depending on their ability, they can receive a salary on par with an executive. We actually have employees like that. By being recognized, everyone has become confident in their own skills, and we've become able to make products we wouldn't be ashamed to show anywhere.",
-            "What does President Fujikawa most want to say?",
             "That the technology is world-class",
             "That making things tends to be thought of as easy",
             "That they hire a variety of employees",

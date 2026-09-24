@@ -90,17 +90,18 @@ N2F({ ch: 13, review: [
   {
     title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — overall gist" },
     ex: {
-      type: "listening", mode: "response",
+      type: "listening", mode: "gist",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4." },
       items: [
-        { script: [
+        { question: "{監督|かんとく}が{観客|かんきゃく}に伝えたいメッセージは何だと言っていますか。",
+          questionEn: "What does the director say is the message they want to convey to the audience?",
+          script: [
             { sp: "", ja: "映画{監督|かんとく}がテレビで話しています。" },
             { sp: "F", v: "f", ja: "{監督|かんとく}、今度の映画は、どんな感じなんですか。" },
             { sp: "M", v: "m", ja: "人生をあきらめないでって言いたいんです。たとえどんなに{辛|つら}いことがあっても、がんばればいいこともあるんだって伝えられればと思うんです。" },
             { sp: "F", v: "f", ja: "そうですか。" },
             { sp: "M", v: "m", ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に{同情|どうじょう}しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある{展開|てんかい}をお楽しみいただけると思います。" },
             { sp: "F", v: "f", ja: "そうですか。{公開|こうかい}が楽しみですね。ありがとうございました。" },
-            { sp: "質問", v: "f", ja: "{監督|かんとく}が{観客|かんきゃく}に伝えたいメッセージは何だと言っていますか。" },
           ],
           en: [
             "A film director is talking on TV.",
@@ -109,7 +110,6 @@ N2F({ ch: 13, review: [
             "I see.",
             "In the first half, I'd like viewers to watch while sympathizing with the main character, and from the second half on, I think they'll enjoy a fast-paced story with both mystery and action scenes.",
             "I see. We're looking forward to the release. Thank you very much.",
-            "What does the director say is the message he wants to convey to the audience?",
             "Not giving up on life",
             "That the main character leads a hard life",
             "Enjoying the search for the culprit in the mystery",

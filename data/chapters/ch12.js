@@ -1529,6 +1529,7 @@ N2.register({
         "items": [
           {
             "question": "この先生が一番言いたいことは何ですか。",
+            "questionEn": "What is this teacher's main point?",
             "script": [
               {
                 "sp": "",
@@ -1587,6 +1588,7 @@ N2.register({
           },
           {
             "question": "どうして小さい魚も食べたほうがいいのですか。",
+            "questionEn": "Why is it better to eat small fish as well?",
             "options": [
               "マグロの{値段|ねだん}が{上|あ}がっているため",
               "マグロの{数|かず}が{減|へ}っているため",
@@ -1608,13 +1610,15 @@ N2.register({
       },
       "ex": {
         "type": "listening",
-        "mode": "response",
+        "mode": "gist",
         "prompt": {
           "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
           "en": "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4."
         },
         "items": [
           {
+            "question": "{藤川|ふじかわ}社長が一番言いたいことは何ですか。",
+            "questionEn": "What does President Fujikawa most want to say?",
             "script": [
               {
                 "sp": "",
@@ -1639,11 +1643,6 @@ N2.register({
                 "sp": "M",
                 "v": "m",
                 "ja": "{能力次第|のうりょくしだい}では{役員並|やくいんな}みの{給料|きゅうりょう}がもらえるということです。{実際|じっさい}にそういう社員がいるんですよ。{評価|ひょうか}されることで、皆が自分の{技術|ぎじゅつ}に自信を持つようになり、どこに出しても{恥|は}ずかしくないものが作れるようになったんです。"
-              },
-              {
-                "sp": "質問",
-                "v": "f",
-                "ja": "{藤川|ふじかわ}社長が一番言いたいことは何ですか。"
               }
             ],
             "en": [
@@ -1652,7 +1651,6 @@ N2.register({
               "Thank you. That we receive such praise is thanks to our employees' skills. People tend to think that making things is work anyone can do easily, but those very skills are the company's assets, so at our company we have always valued highly skilled employees regardless of age, experience or nationality.",
               "Specifically?",
               "It means that, depending on their ability, they can receive a salary on par with an executive. We actually have employees like that. By being recognized, everyone has become confident in their own skills, and we've become able to make products we wouldn't be ashamed to show anywhere.",
-              "What does President Fujikawa most want to say?",
               "That the technology is world-class",
               "That making things tends to be thought of as easy",
               "That they hire a variety of employees",

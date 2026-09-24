@@ -1165,6 +1165,7 @@ N2.register({
         "items": [
           {
             "question": "男の人は今すぐ何をしますか。",
+            "questionEn": "What will the man do right away?",
             "script": [
               {
                 "sp": "",

@@ -976,6 +976,7 @@ N2.register({
         "items": [
           {
             "question": "{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。",
+            "questionEn": "Which information about the Tozai Line is correct?",
             "script": [
               {
                 "sp": "",
@@ -1004,6 +1005,7 @@ N2.register({
           },
           {
             "question": "{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。",
+            "questionEn": "According to the report, what do people on the Sea of Japan side of the Tohoku region need to watch out for?",
             "script": [
               {
                 "sp": "",
@@ -1032,6 +1034,7 @@ N2.register({
           },
           {
             "question": "このお知らせを聞いた人はどうしますか。",
+            "questionEn": "What will people who hear this announcement do?",
             "script": [
               {
                 "sp": "",

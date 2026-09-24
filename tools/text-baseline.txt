@@ -434,6 +434,7 @@ ch1.review.3.ex.items.0.options.1	{留学生|りゅうがくせい}による{料
 ch1.review.3.ex.items.0.options.2	{留学生|りゅうがくせい}との{交流会|こうりゅうかい}
 ch1.review.3.ex.items.0.options.3	{留学生|りゅうがくせい}にお{茶|ちゃ}を{教|おし}える{会|かい}
 ch1.review.3.ex.items.0.question	何のお知らせですか。
+ch1.review.3.ex.items.0.questionEn	What is the announcement about?
 ch1.review.3.ex.items.0.script.0.ja	留学生会館のお知らせを聞いています。
 ch1.review.3.ex.items.0.script.0.sp	
 ch1.review.3.ex.items.0.script.1.ja	{横田国際|よこたこくさい}留学生会館からのお知らせです。来たる3月10日土曜日の午後2時から「留学生と英語で{交流|こうりゅう}しよう」という会を{開催|かいさい}いたします。15名ほどの{各国|かっこく}の留学生と、レベルに{応|おう}じてグループに分かれて交流します。{年齢|ねんれい}、{職業|しょくぎょう}を{問|と}わず、16歳以上の方ならどなたでもご{参加|さんか}いただけます。ただし、{希望者|きぼうしゃ}が多い場合は、住民の方を{優先|ゆうせん}しますので、それ以外の方は{横田|よこた}{国際|こくさい}留学生会館に{直接|ちょくせつ}お問い{合|あ}わせください。{参加費|さんかひ}はお{茶代|ちゃだい}として500円。{当日|とうじつ}、留学生会館にお{越|こ}しの{際|さい}にお{支払|しはら}いください。{定員|ていいん}は40名です。電話番号は…。
@@ -460,6 +461,7 @@ ch1.review.3.ex.items.1.options.1	{女|おんな}の{人|ひと}だけ{申|も�
 ch1.review.3.ex.items.1.options.2	{2人|ふたり}とも{申|もう}し{込|こ}む
 ch1.review.3.ex.items.1.options.3	{2人|ふたり}とも{申|もう}し{込|こ}まない
 ch1.review.3.ex.items.1.question	2人はこのあと、どうしますか。
+ch1.review.3.ex.items.1.questionEn	What will the two of them do after this?
 ch1.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch1.review.3.ex.type	listening
 ch1.review.3.title.en	Question 4: Listening
@@ -1068,23 +1070,23 @@ ch2.review.3.ex.items.0.options.0	女の人が{福祉|ふくし}の{現場|げ�
 ch2.review.3.ex.items.0.options.1	女の人がご家族の方から{質問|しつもん}されたこと
 ch2.review.3.ex.items.0.options.2	女の人が本を書いた理由
 ch2.review.3.ex.items.0.options.3	みんなの{福祉|ふくし}に対する{期待|きたい}
+ch2.review.3.ex.items.0.question	女の人は何について話していますか。
+ch2.review.3.ex.items.0.questionEn	What is the woman talking about?
 ch2.review.3.ex.items.0.script.0.ja	女の人が話しています。
 ch2.review.3.ex.items.0.script.0.sp	
 ch2.review.3.ex.items.0.script.1.ja	私は{老人|ろうじん}ホームなど{福祉|ふくし}の{現場|げんば}で10年間働いて、ご本人やご家族の方から{様々|さまざま}な{質問|しつもん}を受けてきましたが、その間ずっと、{福祉|ふくし}について分かりやすく説明してあるものがあったらいいなあと思ってきました。それで今回、皆さんが{疑問|ぎもん}に思われることをまとめて、このガイドブックを作りました。この本をきっかけに、皆さんが{福祉|ふくし}について考えてくださることを{期待|きたい}しております。
 ch2.review.3.ex.items.0.script.1.sp	F
-ch2.review.3.ex.items.0.script.2.ja	女の人は何について話していますか。
-ch2.review.3.ex.items.0.script.2.sp	質問
 ch2.review.3.ex.items.1.answer	2
 ch2.review.3.ex.items.1.options.0	ボランティア{団体|だんたい}を{結成|けっせい}するため
 ch2.review.3.ex.items.1.options.1	{地域|ちいき}の{環境|かんきょう}を{整|ととの}えるため
 ch2.review.3.ex.items.1.options.2	新しいメンバーを{募集|ぼしゅう}するため
 ch2.review.3.ex.items.1.options.3	ボランティア{活動|かつどう}に{参加|さんか}するため
+ch2.review.3.ex.items.1.question	女の人は何のために話していますか。
+ch2.review.3.ex.items.1.questionEn	What is the woman's purpose in speaking?
 ch2.review.3.ex.items.1.script.0.ja	女の人が話しています。
 ch2.review.3.ex.items.1.script.0.sp	
 ch2.review.3.ex.items.1.script.1.ja	この会は{主婦|しゅふ}を中心に{結成|けっせい}されたボランティア{団体|だんたい}です。{地域|ちいき}の{環境|かんきょう}を{整|ととの}えて、子どもたちもお{年寄|としよ}りも安心して暮らせる街づくりを{目|め}{指|ざ}しています。できるだけ多くの方に{参加|さんか}していただいて、{協力|きょうりょく}して住みよい{街|まち}づくりに{貢献|こうけん}したいと思います。{主婦|しゅふ}でなくても、この{活動|かつどう}に{興味|きょうみ}を持たれた方はぜひご{参加|さんか}ください。
 ch2.review.3.ex.items.1.script.1.sp	F
-ch2.review.3.ex.items.1.script.2.ja	女の人は何のために話していますか。
-ch2.review.3.ex.items.1.script.2.sp	質問
 ch2.review.3.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch2.review.3.ex.type	listening
 ch2.review.3.title.en	Question 4: Listening (1) — overall gist
@@ -1525,6 +1527,7 @@ ch3.review.3.ex.items.0.options.1	{関係書類|かんけいしょるい}を{持
 ch3.review.3.ex.items.0.options.2	{東京商事|とうきょうしょうじ}に{電話|でんわ}する
 ch3.review.3.ex.items.0.options.3	{東京商事|とうきょうしょうじ}へ{行|い}く
 ch3.review.3.ex.items.0.question	男の人は今すぐ何をしますか。
+ch3.review.3.ex.items.0.questionEn	What will the man do right away?
 ch3.review.3.ex.items.0.script.0.ja	女の人と男の人が話しています。男の人は今すぐ何をしますか。
 ch3.review.3.ex.items.0.script.0.sp	
 ch3.review.3.ex.items.0.script.1.ja	{課長|かちょう}、先ほど{東京商事|とうきょうしょうじ}からお電話があって、{納入|のうにゅう}した{機械|きかい}に問題があったそうなんです。
@@ -1920,6 +1923,7 @@ ch4.review.3.ex.items.0.options.1	{今|いま}、{動|うご}いていない
 ch4.review.3.ex.items.0.options.2	{安全|あんぜん}が{確認|かくにん}された
 ch4.review.3.ex.items.0.options.3	{運転|うんてん}を{再開|さいかい}した
 ch4.review.3.ex.items.0.question	{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。
+ch4.review.3.ex.items.0.questionEn	Which information about the Tozai Line is correct?
 ch4.review.3.ex.items.0.script.0.ja	男の人が話しています。{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。
 ch4.review.3.ex.items.0.script.0.sp	
 ch4.review.3.ex.items.0.script.1.ja	皆様、ご{迷惑|めいわく}をおかけいたしまして、{誠|まこと}に{申|もう}し{訳|わけ}ございません。ただ今{東西線|とうざいせん}は{信号故障|しんごうこしょう}のため、{全線|ぜんせん}にわたって運転を{見合|みあ}わせております。安全が{確認|かくにん}され{次第|しだい}、運転を{再開|さいかい}いたしますので、しばらくお待ちください。
@@ -1930,6 +1934,7 @@ ch4.review.3.ex.items.1.options.1	{雪|ゆき}と{雷|かみなり}
 ch4.review.3.ex.items.1.options.2	{雪|ゆき}と{雷|かみなり}と{風|かぜ}
 ch4.review.3.ex.items.1.options.3	{雪|ゆき}と{雷|かみなり}と{風|かぜ}と{波|なみ}
 ch4.review.3.ex.items.1.question	{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。
+ch4.review.3.ex.items.1.questionEn	According to the report, what do people on the Sea of Japan side of the Tohoku region need to watch out for?
 ch4.review.3.ex.items.1.script.0.ja	女の人が話しています。{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。
 ch4.review.3.ex.items.1.script.0.sp	
 ch4.review.3.ex.items.1.script.1.ja	{東北|とうほく}地方の{日本海側|にほんかいがわ}には{大雪警報|おおゆきけいほう}が出ています。今夜から明日にかけて、強い風と{雷|かみなり}をともなって{大雪|おおゆき}になるおそれがありますので、{積雪|せきせつ}とともに、{落雷|らくらい}、{強風|きょうふう}にもご注意ください。
@@ -1940,6 +1945,7 @@ ch4.review.3.ex.items.2.options.1	{東名高速道路|とうめいこうそく�
 ch4.review.3.ex.items.2.options.2	{安全|あんぜん}に{運転|うんてん}する
 ch4.review.3.ex.items.2.options.3	{作業|さぎょう}を{手伝|てつだ}う
 ch4.review.3.ex.items.2.question	このお知らせを聞いた人はどうしますか。
+ch4.review.3.ex.items.2.questionEn	What will people who hear this announcement do?
 ch4.review.3.ex.items.2.script.0.ja	女の人が話しています。このお知らせを聞いた人はどうしますか。
 ch4.review.3.ex.items.2.script.0.sp	
 ch4.review.3.ex.items.2.script.1.ja	{東名高速道路|とうめいこうそくどうろ}は18日日曜日の午前0時から月曜日の午前にかけて、工事のため、{全面通行止|ぜんめんつうこうど}めになります。安全{第一|だいいち}で{作業|さぎょう}を進めますので、皆様のご{理解|りかい}とご{協力|きょうりょく}をお願いいたします。
@@ -2411,6 +2417,7 @@ ch5.review.3.ex.items.0.options.1	1{円玉|えんだま}や5{円玉|えんだま
 ch5.review.3.ex.items.0.options.2	お{金|かね}を{使|つか}ったという{感覚|かんかく}がないこと
 ch5.review.3.ex.items.0.options.3	{使|つか}った{金額|きんがく}をチェックしないこと
 ch5.review.3.ex.items.0.question	女の人は何が一番問題だと思っていますか。
+ch5.review.3.ex.items.0.questionEn	What does the woman think is the biggest problem?
 ch5.review.3.ex.items.0.script.0.ja	女の人と男の人が話しています。女の人は何が一番問題だと思っていますか。
 ch5.review.3.ex.items.0.script.0.sp	
 ch5.review.3.ex.items.0.script.1.ja	ねえ、この間、{電子|でんし}マネーの利用{金額|きんがく}をチェックしたら、前より増えててびっくりしちゃった。
@@ -2936,6 +2943,7 @@ ch6.review.3.ex.items.0.options.1	{水槽|すいそう}に{水草|みずくさ}�
 ch6.review.3.ex.items.0.options.2	メダカのストレスをなくすこと
 ch6.review.3.ex.items.0.options.3	{毎日|まいにち}{世話|せわ}をすること
 ch6.review.3.ex.items.0.question	メダカを{飼|か}う場合に、最も大切なことは何ですか。
+ch6.review.3.ex.items.0.questionEn	What is the most important thing when keeping medaka?
 ch6.review.3.ex.items.0.script.0.ja	{専門家|せんもんか}が話しています。メダカを{飼|か}う場合に、最も大切なことは何ですか。
 ch6.review.3.ex.items.0.script.0.sp	
 ch6.review.3.ex.items.0.script.1.ja	皆さんこんにちは。今日はメダカを初めて{飼|か}う場合、どうしたらいいか、{田中|たなか}先生にお話を{伺|うかが}います。{田中|たなか}先生、よろしくお願いします。
@@ -2950,6 +2958,7 @@ ch6.review.3.ex.items.1.options.1	アルバイトをした
 ch6.review.3.ex.items.1.options.2	{熱|ねつ}を{出|だ}して{寝|ね}ていた
 ch6.review.3.ex.items.1.options.3	{用事|ようじ}があって{帰|かえ}った
 ch6.review.3.ex.items.1.question	{伊藤|いとう}さんは昨日何をしましたか。
+ch6.review.3.ex.items.1.questionEn	What did Ito-san do yesterday?
 ch6.review.3.ex.items.1.script.0.ja	女の人と店の店長が話しています。{伊藤|いとう}さんは昨日何をしましたか。
 ch6.review.3.ex.items.1.script.0.sp	
 ch6.review.3.ex.items.1.script.1.ja	昨日はすみませんでした。アルバイト、休むわけにはいかないと思ったんですけど、{熱|ねつ}が高くて、起きられなくて…。
@@ -3581,6 +3590,8 @@ ch7.review.3.ex.items.0.options.0	{値下|ねさ}げセールについて
 ch7.review.3.ex.items.0.options.1	店の{経営状態|けいえいじょうたい}について
 ch7.review.3.ex.items.0.options.2	新しいサービスについて
 ch7.review.3.ex.items.0.options.3	{修理|しゅうり}サービスについて
+ch7.review.3.ex.items.0.question	これから考えることは何ですか。
+ch7.review.3.ex.items.0.questionEn	What are they going to think about from now on?
 ch7.review.3.ex.items.0.script.0.ja	電器店の社長が社員と話しています。
 ch7.review.3.ex.items.0.script.0.sp	
 ch7.review.3.ex.items.0.script.1.ja	社長、駅向こうのエース電気、また{値下|ねさ}げセールやってますよ。うちも{値下|ねさ}げセールやりましょうよ！
@@ -3593,8 +3604,6 @@ ch7.review.3.ex.items.0.script.4.ja	うちは{年配|ねんぱい}のお客様�
 ch7.review.3.ex.items.0.script.4.sp	M
 ch7.review.3.ex.items.0.script.5.ja	わかりました。みんなで考えてみます。
 ch7.review.3.ex.items.0.script.5.sp	F
-ch7.review.3.ex.items.0.script.6.ja	これから考えることは何ですか。
-ch7.review.3.ex.items.0.script.6.sp	質問
 ch7.review.3.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch7.review.3.ex.type	listening
 ch7.review.3.title.en	Question 4: Listening (1) — overall gist
@@ -3605,6 +3614,7 @@ ch7.review.4.ex.items.0.options.1	{朝|あさ}、{起|お}きてすぐ
 ch7.review.4.ex.items.0.options.2	{夜|よる}、{寝|ね}る{前|まえ}
 ch7.review.4.ex.items.0.options.3	{夜|よる}、{寝|ね}ている{間|あいだ}
 ch7.review.4.ex.items.0.question	この先生はいつ勉強したらよく覚えられると言っていますか。
+ch7.review.4.ex.items.0.questionEn	According to this teacher, when should you study to remember things well?
 ch7.review.4.ex.items.0.script.0.ja	{講演会|こうえんかい}で、先生が勉強する時間について話しています。
 ch7.review.4.ex.items.0.script.0.sp	
 ch7.review.4.ex.items.0.script.1.ja	最近は朝{早起|はやお}きして勉強する人も増えていますが、{実際|じっさい}にはいつ勉強したら{効果的|こうかてき}なのでしょうか。{本日|ほんじつ}は{脳科学|のうかがく}がご{専門|せんもん}の{本田|ほんだ}先生にお話を{伺|うかが}います。
@@ -3627,6 +3637,7 @@ ch7.review.4.ex.items.1.options.1	これからも{夜|よる}、{勉強|べん�
 ch7.review.4.ex.items.1.options.2	{朝|あさ}も{夜|よる}も{勉強|べんきょう}することにした
 ch7.review.4.ex.items.1.options.3	{勉強|べんきょう}しないことにした
 ch7.review.4.ex.items.1.question	女の人はどうすることにしましたか。
+ch7.review.4.ex.items.1.questionEn	What did the woman decide to do?
 ch7.review.4.ex.prompt.ja	この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch7.review.4.ex.type	listening
 ch7.review.4.title.en	Question 4: Listening (2) — integrated comprehension
@@ -3953,6 +3964,8 @@ ch8.review.3.ex.items.0.options.0	先日{招待|しょうたい}してもらっ�
 ch8.review.3.ex.items.0.options.1	{花瓶|かびん}を{割|わ}ったことを伝えること
 ch8.review.3.ex.items.0.options.2	買った{花瓶|かびん}を返すこと
 ch8.review.3.ex.items.0.options.3	{花瓶|かびん}を買った店を聞くこと
+ch8.review.3.ex.items.0.question	男の人が電話で一番したかったことは何ですか。
+ch8.review.3.ex.items.0.questionEn	What did the man most want to do on the phone?
 ch8.review.3.ex.items.0.script.0.ja	男の人と女の人が電話で話しています。
 ch8.review.3.ex.items.0.script.0.sp	
 ch8.review.3.ex.items.0.script.1.ja	もしもし、{高橋|たかはし}様のお{宅|たく}でしょうか。
@@ -3969,8 +3982,6 @@ ch8.review.3.ex.items.0.script.6.ja	いいえ、どうぞお気になさらず�
 ch8.review.3.ex.items.0.script.6.sp	F
 ch8.review.3.ex.items.0.script.7.ja	いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば買い{求|もと}めてお返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。
 ch8.review.3.ex.items.0.script.7.sp	M
-ch8.review.3.ex.items.0.script.8.ja	男の人が電話で一番したかったことは何ですか。
-ch8.review.3.ex.items.0.script.8.sp	質問
 ch8.review.3.ex.prompt.ja	この{問題|もんだい}では、{問題|もんだい}{用紙|ようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch8.review.3.ex.type	listening
 ch8.review.3.title.en	Question 4: Listening — 1 (Summary comprehension)
@@ -4547,6 +4558,7 @@ ch9.review.3.ex.items.0.options.1	{搭乗券|とうじょうけん}をなくし�
 ch9.review.3.ex.items.0.options.2	{搭乗券|とうじょうけん}を{捨|す}ててしまったから
 ch9.review.3.ex.items.0.options.3	{手続|てつづ}きの{期間|きかん}が{終|お}わっていたから
 ch9.review.3.ex.items.0.question	男の人はどうしてポイントがつけられませんでしたか。
+ch9.review.3.ex.items.0.questionEn	Why couldn't the man get his points?
 ch9.review.3.ex.items.0.script.0.ja	男の人と女の人が話しています。男の人はどうしてポイントがつけられませんでしたか。
 ch9.review.3.ex.items.0.script.0.sp	
 ch9.review.3.ex.items.0.script.1.ja	去年旅行に行ったとき、マイレージカード忘れちゃって。けっこうポイントつくはずだったのに…。
@@ -4916,6 +4928,7 @@ ch10.review.3.ex.items.0.options.1	{住|す}んでいるところ
 ch10.review.3.ex.items.0.options.2	えさのとり{方|かた}
 ch10.review.3.ex.items.0.options.3	{性格|せいかく}
 ch10.review.3.ex.items.0.question	この鳥が動かないのは何に{関係|かんけい}があると言っていますか。
+ch10.review.3.ex.items.0.questionEn	What does he say the bird's not moving has to do with?
 ch10.review.3.ex.items.0.script.0.ja	動物園で男の人が話しています。男の人は、この鳥が動かないのは何に{関係|かんけい}があると言っていますか。
 ch10.review.3.ex.items.0.script.0.sp	
 ch10.review.3.ex.items.0.script.1.ja	えー、こちらにいるのは、動かない鳥として有名なハシビロコウです。ご{覧|らん}のように、体のわりに頭が大きく、くちばしが広いのが{特徴|とくちょう}です。この鳥が動かないのは、食事のし方に理由があります。アフリカの{湖|みずうみ}に住むハシビロコウは、草の{陰|かげ}で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。動物園にいるのは{比較的|ひかくてき}動くと言われていますが、今日も先ほどえさの時間に少し動いたきり、30分以上このままです。あっ、そちらのお子さん気をつけてください。子どもをおどろかそうとして、{突然|とつぜん}{近寄|ちかよ}ってくることがありますから…。
@@ -5322,6 +5335,7 @@ ch11.review.3.ex.items.0.options.1	{試験|しけん}のとき、{練習|れん�
 ch11.review.3.ex.items.0.options.2	{練習|れんしゅう}をしなかったこと
 ch11.review.3.ex.items.0.options.3	{練習|れんしゅう}と{違|ちが}う{質問|しつもん}をされること
 ch11.review.3.ex.items.0.question	女子学生が一番{心配|しんぱい}なのは何ですか。
+ch11.review.3.ex.items.0.questionEn	What is the female student most worried about?
 ch11.review.3.ex.items.0.script.0.ja	女子学生が大学の入学試験の{面接|めんせつ}について先生に{相談|そうだん}しています。女子学生が一番{心配|しんぱい}なのは何ですか。
 ch11.review.3.ex.items.0.script.0.sp	
 ch11.review.3.ex.items.0.script.1.ja	明日の{面接|めんせつ}、大丈夫だよね。
@@ -5344,6 +5358,7 @@ ch11.review.3.ex.items.1.options.1	{自分|じぶん}で{決|き}めてほしい
 ch11.review.3.ex.items.1.options.2	{野球部|やきゅうぶ}の{監督|かんとく}になってほしいと思っている
 ch11.review.3.ex.items.1.options.3	プロ{野球|やきゅう}の{選手|せんしゅ}になるのに{反対|はんたい}している
 ch11.review.3.ex.items.1.question	お父さんは{隆|たかし}君の{将来|しょうらい}についてどう思っていますか。
+ch11.review.3.ex.items.1.questionEn	What does the father think about Takashi's future?
 ch11.review.3.ex.items.1.script.0.ja	両親が子どもの{将来|しょうらい}について話しています。お父さんはどう思っていますか。
 ch11.review.3.ex.items.1.script.0.sp	
 ch11.review.3.ex.items.1.script.1.ja	{隆|たかし}、プロ{野球選手|やきゅうせんしゅ}になりたいんだって。
@@ -5899,6 +5914,7 @@ ch12.review.3.ex.items.0.options.1	マグロやサケなどは{人気|にんき}
 ch12.review.3.ex.items.0.options.2	{日本人|にほんじん}が{昔|むかし}から{様々|さまざま}な{魚|さかな}を{食|た}べてきたこと
 ch12.review.3.ex.items.0.options.3	いろいろな{種類|しゅるい}の{魚|さかな}を{食|た}べるべきだということ
 ch12.review.3.ex.items.0.question	この先生が一番言いたいことは何ですか。
+ch12.review.3.ex.items.0.questionEn	What is this teacher's main point?
 ch12.review.3.ex.items.0.script.0.ja	大学で先生が学生に話しています。
 ch12.review.3.ex.items.0.script.0.sp	
 ch12.review.3.ex.items.0.script.1.ja	最近では、日本はもとより、ヨーロッパやアメリカなどでも魚はよく食べられるようになりました。しかし、{残念|ざんねん}ながら、それはマグロ、サケなどの決まった魚になりがちです。日本では昔から大きい魚、小さい魚、いろいろな魚を食べてきましたが、海の生き物の{生態系|せいたいけい}を{壊|こわ}さないためには{必要|ひつよう}なことなのです。{様々|さまざま}な{種類|しゅるい}の魚をバランスよく食べるほうが{自然|しぜん}に{優|やさ}しいと言えるのです。ですから、皆さんにそれをお願いしたいと思います。
@@ -5919,6 +5935,7 @@ ch12.review.3.ex.items.1.options.1	マグロの{数|かず}が{減|へ}ってい
 ch12.review.3.ex.items.1.options.2	{海|うみ}の{生|い}き{物|もの}のバランスを{取|と}るため
 ch12.review.3.ex.items.1.options.3	{小|ちい}さい{魚|さかな}がえさになるため
 ch12.review.3.ex.items.1.question	どうして小さい魚も食べたほうがいいのですか。
+ch12.review.3.ex.items.1.questionEn	Why is it better to eat small fish as well?
 ch12.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch12.review.3.ex.type	listening
 ch12.review.3.title.en	Question 4: Listening (1) — integrated comprehension
@@ -5928,6 +5945,8 @@ ch12.review.4.ex.items.0.options.0	{技術|ぎじゅつ}が世界トップレベ
 ch12.review.4.ex.items.0.options.1	{物作|ものづく}りは{簡単|かんたん}だと思われがちなこと
 ch12.review.4.ex.items.0.options.2	{様々|さまざま}な社員を{採用|さいよう}していること
 ch12.review.4.ex.items.0.options.3	{能力評価|のうりょくひょうか}が{発展|はってん}につながったこと
+ch12.review.4.ex.items.0.question	{藤川|ふじかわ}社長が一番言いたいことは何ですか。
+ch12.review.4.ex.items.0.questionEn	What does President Fujikawa most want to say?
 ch12.review.4.ex.items.0.script.0.ja	社長がインタビューを受けています。
 ch12.review.4.ex.items.0.script.0.sp	
 ch12.review.4.ex.items.0.script.1.ja	本日はユニークな{経営方針|けいえいほうしん}で知られる{藤川|ふじかわ}社長にお話を{伺|うかが}います。{藤川|ふじかわ}工業は、{金属加工|きんぞくかこう}の{技術|ぎじゅつ}にかけては世界トップレベルだと{伺|うかが}っておりますが…。
@@ -5938,8 +5957,6 @@ ch12.review.4.ex.items.0.script.3.ja	{具体的|ぐたいてき}には？
 ch12.review.4.ex.items.0.script.3.sp	F
 ch12.review.4.ex.items.0.script.4.ja	{能力次第|のうりょくしだい}では{役員並|やくいんな}みの{給料|きゅうりょう}がもらえるということです。{実際|じっさい}にそういう社員がいるんですよ。{評価|ひょうか}されることで、皆が自分の{技術|ぎじゅつ}に自信を持つようになり、どこに出しても{恥|は}ずかしくないものが作れるようになったんです。
 ch12.review.4.ex.items.0.script.4.sp	M
-ch12.review.4.ex.items.0.script.5.ja	{藤川|ふじかわ}社長が一番言いたいことは何ですか。
-ch12.review.4.ex.items.0.script.5.sp	質問
 ch12.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch12.review.4.ex.type	listening
 ch12.review.4.title.en	Question 4: Listening (2) — overall gist
@@ -6533,6 +6550,8 @@ ch13.review.3.ex.items.0.options.0	人生をあきらめないこと
 ch13.review.3.ex.items.0.options.1	{主人公|しゅじんこう}がつらい人生を送っていること
 ch13.review.3.ex.items.0.options.2	ミステリーの{犯人|はんにん}さがしを楽しむこと
 ch13.review.3.ex.items.0.options.3	アクションにスピード感があること
+ch13.review.3.ex.items.0.question	{監督|かんとく}が{観客|かんきゃく}に伝えたいメッセージは何だと言っていますか。
+ch13.review.3.ex.items.0.questionEn	What does the director say is the message they want to convey to the audience?
 ch13.review.3.ex.items.0.script.0.ja	映画{監督|かんとく}がテレビで話しています。
 ch13.review.3.ex.items.0.script.0.sp	
 ch13.review.3.ex.items.0.script.1.ja	{監督|かんとく}、今度の映画は、どんな感じなんですか。
@@ -6545,8 +6564,6 @@ ch13.review.3.ex.items.0.script.4.ja	{前半|ぜんはん}は{主人公|しゅ�
 ch13.review.3.ex.items.0.script.4.sp	M
 ch13.review.3.ex.items.0.script.5.ja	そうですか。{公開|こうかい}が楽しみですね。ありがとうございました。
 ch13.review.3.ex.items.0.script.5.sp	F
-ch13.review.3.ex.items.0.script.6.ja	{監督|かんとく}が{観客|かんきゃく}に伝えたいメッセージは何だと言っていますか。
-ch13.review.3.ex.items.0.script.6.sp	質問
 ch13.review.3.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch13.review.3.ex.type	listening
 ch13.review.3.title.en	Question 4: Listening (1) — overall gist

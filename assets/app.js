@@ -729,35 +729,39 @@
   function listeningBody(ex, c) {
     let lastScript = [], lastEn = [];
     const resp = ex.mode === "response";
-    const num = ex.items.length === 1 && resp ? "none" : c.num === "paren" ? "box" : c.num;
+    // "gist" (概要理解): nothing printed; the question and the choices are heard only after the talk
+    const gist = ex.mode === "gist";
+    const spoken = resp || gist;
+    // "summary" (and gist): the question is heard only after the talk
+    const summary = ex.mode === "summary" || gist;
+    const num = ex.items.length === 1 && spoken ? "none" : c.num === "paren" ? "box" : c.num;
     return ex.items
       .map((it0, i) => {
         // an item without its own script reuses the previous one (one talk → several questions)
         const it = Object.assign({}, it0, { script: it0.script || lastScript, en: it0.script ? it0.en : it0.en || lastEn });
         lastScript = it.script; lastEn = it.en || [];
         const queue = [];
-        // "summary" (概要理解): the question is heard only after the talk
-        const summary = ex.mode === "summary";
         if (it.question && !summary) queue.push({ text: plain(it.question), v: "f" });
         // don't re-speak a script line that just repeats the question (it's spoken before/after already)
         const qPlain = it.question ? plain(it.question).replace(/\s/g, "") : null;
         it.script.forEach((l) => { if (!(qPlain && !resp && plain(l.ja).replace(/\s/g, "") === qPlain)) queue.push({ text: plain(l.ja), v: l.v }); });
-        if (resp) it.options.forEach((o, j) => queue.push({ text: `${j + 1}、${plain(o)}`, v: it.script[0] && it.script[0].v === "m" ? "f" : "m" }));
         if (it.question && !resp) queue.push({ text: (summary ? "しつもん。" : "") + plain(it.question), v: "f" });
+        if (spoken) it.options.forEach((o, j) => queue.push({ text: `${j + 1}、${plain(o)}`, v: it.script[0] && it.script[0].v === "m" ? "f" : "m" }));
         const script = it.script
           .map((l, k) => `<div class="sline">${l.sp ? `<span class="sp">${fmt(l.sp)}：</span>` : "<span></span>"}<span>${fmt(l.ja)}${it.en && it.en[k] ? `<span class="en">${fmt(it.en[k])}</span>` : ""}</span></div>`)
           .join("");
-        const qLine = it.question && !resp ? `<div class="sline sline--q"><span class="sp">質問：</span><span>${fmt(it.question)}</span></div>` : "";
-        // en entries beyond the script lines translate the spoken reply choices
+        const qEn = it.questionEn ? `<span class="en">${fmt(it.questionEn)}</span>` : "";
+        const qLine = it.question && !resp ? `<div class="sline sline--q"><span class="sp">質問：</span><span>${fmt(it.question)}${qEn}</span></div>` : "";
+        // en entries beyond the script lines translate the spoken choices
         const optEn = (it.en || []).slice(it.script.length);
-        const optsForScript = resp ? `<div class="sline resp"><span></span><div>${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}${optEn[j] ? `<span class="en">${fmt(optEn[j])}</span>` : ""}</div>`).join("")}</div></div>` : "";
-        const opts = resp
+        const optsForScript = spoken ? `<div class="sline resp"><span></span><div>${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}${optEn[j] ? `<span class="en">${fmt(optEn[j])}</span>` : ""}</div>`).join("")}</div></div>` : "";
+        const opts = spoken
           ? `<div class="opts opts--resp" data-answer="${it.answer}">${it.options.map((_, j) => `<button class="opt opt--resp" data-act="pick" data-i="${i}" data-j="${j}" aria-label="${j + 1}"><span class="opt-n">${j + 1}</span></button>`).join("")}</div>`
           : optGroup(it.options, it.answer, "123", "grid");
-        return `<div class="q choice-q listen-q${resp ? " listen-q--resp" : ""}" data-i="${i}">
+        return `<div class="q choice-q listen-q${spoken ? " listen-q--resp" : ""}" data-i="${i}">
           <div class="lq-row${num === "none" ? " lq-row--nonum" : ""}">${qnHtml(c.off + i + 1, num) || "<span></span>"}${opts}${cdBadge(queue, `問題${c.off + i + 1}を聞く`)}</div>
           <details class="script"><summary>スクリプト <span class="en-inline">Transcript</span></summary><div class="dlg ja-book">${summary ? "" : qLine}${script}${summary ? qLine : ""}${optsForScript}</div></details>
-          <div class="feedback">${it.question && !resp ? `<p class="lq-q">質問：${fmt(it.question)}</p>` : ""}${whyHtml(it.why)}</div>
+          <div class="feedback">${it.question && !resp ? `<p class="lq-q">質問：${fmt(it.question)}${qEn}</p>` : ""}${whyHtml(it.why)}</div>
         </div>`;
       })
       .join("");

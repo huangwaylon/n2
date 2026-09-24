@@ -860,6 +860,7 @@ Practice-level `fill` (4 instances) uses the same markup without `.check`.
 - Task and summary items: boxed number, then options (either a vertical list 1–4 in Mincho, p.29, or a **2×2 grid** with bold numerals, p.102), and a **CD badge at the far right of the item's first row**.
 - The question itself is **not printed** (it is only heard).
 - Response items: boxed number, then just "**1　2　3**" in bold Gothic, with the CD badge at the right.
+- Gist items (概要理解, "問題用紙に何も印刷されていません"): nothing printed; the question and the choices 1–4 are heard after the talk.
 
 **Web (`listeningBody`):**
 ```html
@@ -871,7 +872,7 @@ Practice-level `fill` (4 instances) uses the same markup without `.check`.
   <div class="feedback">…</div>
 </div>
 ```
-- Response mode: `.opts--resp` with three 44px round numeral buttons "1 2 3" inline, gap 1.2em.
+- Response mode: `.opts--resp` with three 44px round numeral buttons "1 2 3" inline, gap 1.2em. Gist mode uses the same bare numeral buttons (1–4); the TTS queue is talk → "しつもん。" + question → choices, and the transcript lists the question after the talk, then the choices.
 - Book-faithful default: **don't print `it.question`** in the row. Show it as the first line of the transcript ("質問：…") and in the feedback after grading. The TTS queue is unchanged.
 - The column rule from C24 applies (the book itself uses 2×2 for short options and a list for long ones).
 

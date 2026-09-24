@@ -77,6 +77,7 @@ N2F({ ch: 4, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the choices on the question sheet; there is time to read them. Then listen to the talk and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。",
+          questionEn: "Which information about the Tozai Line is correct?",
           script: [
             { sp: "", ja: "男の人が話しています。{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。" },
             { sp: "M", v: "m", ja: "皆様、ご{迷惑|めいわく}をおかけいたしまして、{誠|まこと}に{申|もう}し{訳|わけ}ございません。ただ今{東西線|とうざいせん}は{信号故障|しんごうこしょう}のため、{全線|ぜんせん}にわたって運転を{見合|みあ}わせております。安全が{確認|かくにん}され{次第|しだい}、運転を{再開|さいかい}いたしますので、しばらくお待ちください。" },
@@ -89,6 +90,7 @@ N2F({ ch: 4, review: [
           answer: 1,
           why: { en: "Service is suspended (運転を見合わせております) due to a signal failure, not an earthquake; it will resume only once safety is confirmed." } },
         { question: "{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。",
+          questionEn: "According to the report, what do people on the Sea of Japan side of the Tohoku region need to watch out for?",
           script: [
             { sp: "", ja: "女の人が話しています。{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。" },
             { sp: "F", v: "f", ja: "{東北|とうほく}地方の{日本海側|にほんかいがわ}には{大雪警報|おおゆきけいほう}が出ています。今夜から明日にかけて、強い風と{雷|かみなり}をともなって{大雪|おおゆき}になるおそれがありますので、{積雪|せきせつ}とともに、{落雷|らくらい}、{強風|きょうふう}にもご注意ください。" },
@@ -101,6 +103,7 @@ N2F({ ch: 4, review: [
           answer: 2,
           why: { en: "積雪とともに、落雷、強風にも — snow, lightning and strong wind; waves are not mentioned." } },
         { question: "このお知らせを聞いた人はどうしますか。",
+          questionEn: "What will people who hear this announcement do?",
           script: [
             { sp: "", ja: "女の人が話しています。このお知らせを聞いた人はどうしますか。" },
             { sp: "F", v: "f", ja: "{東名高速道路|とうめいこうそくどうろ}は18日日曜日の午前0時から月曜日の午前にかけて、工事のため、{全面通行止|ぜんめんつうこうど}めになります。安全{第一|だいいち}で{作業|さぎょう}を進めますので、皆様のご{理解|りかい}とご{協力|きょうりょく}をお願いいたします。" },

@@ -1540,6 +1540,7 @@ N2.register({
         "items": [
           {
             "question": "男の人はどうしてポイントがつけられませんでしたか。",
+            "questionEn": "Why couldn't the man get his points?",
             "script": [
               {
                 "sp": "",

@@ -89,6 +89,7 @@ N2F({ ch: 9, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the talk and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "男の人はどうしてポイントがつけられませんでしたか。",
+          questionEn: "Why couldn't the man get his points?",
           script: [
             { sp: "", ja: "男の人と女の人が話しています。男の人はどうしてポイントがつけられませんでしたか。" },
             { sp: "M", v: "m", ja: "去年旅行に行ったとき、マイレージカード忘れちゃって。けっこうポイントつくはずだったのに…。" },

@@ -1675,13 +1675,15 @@ N2.register({
       },
       "ex": {
         "type": "listening",
-        "mode": "response",
+        "mode": "gist",
         "prompt": {
           "ja": "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。",
           "en": "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4."
         },
         "items": [
           {
+            "question": "これから考えることは何ですか。",
+            "questionEn": "What are they going to think about from now on?",
             "script": [
               {
                 "sp": "",
@@ -1711,11 +1713,6 @@ N2.register({
                 "sp": "F",
                 "v": "f",
                 "ja": "わかりました。みんなで考えてみます。"
-              },
-              {
-                "sp": "質問",
-                "v": "f",
-                "ja": "これから考えることは何ですか。"
               }
             ],
             "en": [
@@ -1725,7 +1722,10 @@ N2.register({
               "It'd have to be something other stores don't do, wouldn't it?",
               "A lot of our customers are older, right? Can't we come up with something from that angle?",
               "Understood. We'll all think about it.",
-              "What are they going to think about from now on?"
+              "A price-cut sale",
+              "The shop's financial situation",
+              "A new service",
+              "A repair service"
             ],
             "options": [
               "{値下|ねさ}げセールについて",
@@ -1756,6 +1756,7 @@ N2.register({
         "items": [
           {
             "question": "この先生はいつ勉強したらよく覚えられると言っていますか。",
+            "questionEn": "According to this teacher, when should you study to remember things well?",
             "script": [
               {
                 "sp": "",
@@ -1820,6 +1821,7 @@ N2.register({
           },
           {
             "question": "女の人はどうすることにしましたか。",
+            "questionEn": "What did the woman decide to do?",
             "options": [
               "これからは{朝早|あさはや}く{勉強|べんきょう}することにした",
               "これからも{夜|よる}、{勉強|べんきょう}することにした",

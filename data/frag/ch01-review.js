@@ -85,6 +85,7 @@ N2F({ ch: 1, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the talk. Then listen to the two questions and, for each, choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "何のお知らせですか。",
+          questionEn: "What is the announcement about?",
           script: [
             { sp: "", ja: "留学生会館のお知らせを聞いています。" },
             { sp: "F", v: "f", ja: "{横田国際|よこたこくさい}留学生会館からのお知らせです。来たる3月10日土曜日の午後2時から「留学生と英語で{交流|こうりゅう}しよう」という会を{開催|かいさい}いたします。15名ほどの{各国|かっこく}の留学生と、レベルに{応|おう}じてグループに分かれて交流します。{年齢|ねんれい}、{職業|しょくぎょう}を{問|と}わず、16歳以上の方ならどなたでもご{参加|さんか}いただけます。ただし、{希望者|きぼうしゃ}が多い場合は、住民の方を{優先|ゆうせん}しますので、それ以外の方は{横田|よこた}{国際|こくさい}留学生会館に{直接|ちょくせつ}お問い{合|あ}わせください。{参加費|さんかひ}はお{茶代|ちゃだい}として500円。{当日|とうじつ}、留学生会館にお{越|こ}しの{際|さい}にお{支払|しはら}いください。{定員|ていいん}は40名です。電話番号は…。" },
@@ -113,6 +114,7 @@ N2F({ ch: 1, review: [
           answer: 2,
           why: { en: "The event is 「留学生と英語で交流しよう」 — a get-together to interact with international students (in English), not a class." } },
         { question: "2人はこのあと、どうしますか。",
+          questionEn: "What will the two of them do after this?",
           options: ["{男|おとこ}の{人|ひと}だけ{申|もう}し{込|こ}む", "{女|おんな}の{人|ひと}だけ{申|もう}し{込|こ}む", "{2人|ふたり}とも{申|もう}し{込|こ}む", "{2人|ふたり}とも{申|もう}し{込|こ}まない"],
           answer: 0,
           why: { en: "The woman can't make it that day (その日はちょっとね), so the man goes alone (がんばってくるよ)." } },

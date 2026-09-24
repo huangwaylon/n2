@@ -1205,6 +1205,7 @@ N2.register({
         "items": [
           {
             "question": "何のお知らせですか。",
+            "questionEn": "What is the announcement about?",
             "script": [
               {
                 "sp": "",
@@ -1281,6 +1282,7 @@ N2.register({
           },
           {
             "question": "2人はこのあと、どうしますか。",
+            "questionEn": "What will the two of them do after this?",
             "options": [
               "{男|おとこ}の{人|ひと}だけ{申|もう}し{込|こ}む",
               "{女|おんな}の{人|ひと}だけ{申|もう}し{込|こ}む",

@@ -95,17 +95,18 @@ N2F({ ch: 7, review: [
   {
     title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — overall gist" },
     ex: {
-      type: "listening", mode: "response",
+      type: "listening", mode: "gist",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. This question asks about the overall content. There is no question before the talk. First listen to the talk. Then listen to the question and the choices, and choose the best one from 1 to 4." },
       items: [
-        { script: [
+        { question: "これから考えることは何ですか。",
+          questionEn: "What are they going to think about from now on?",
+          script: [
             { sp: "", ja: "電器店の社長が社員と話しています。" },
             { sp: "F", v: "f", ja: "社長、駅向こうのエース電気、また{値下|ねさ}げセールやってますよ。うちも{値下|ねさ}げセールやりましょうよ！" },
             { sp: "M", v: "m", ja: "やりたくても、これ以上安くするのは{経営上|けいえいじょう}{無理|むり}なんだよ。だから、その分、サービスで{勝負|しょうぶ}したいんだ。今は{修理|しゅうり}サービスだけだし…。" },
             { sp: "F", v: "f", ja: "ほかの店がやらないようなのじゃないとだめですよね。" },
             { sp: "M", v: "m", ja: "うちは{年配|ねんぱい}のお客様が多いだろ？ この点から見て、何か考えられないかな。" },
             { sp: "F", v: "f", ja: "わかりました。みんなで考えてみます。" },
-            { sp: "質問", v: "f", ja: "これから考えることは何ですか。" },
           ],
           en: [
             "The president of an electronics store is talking with an employee.",
@@ -114,7 +115,10 @@ N2F({ ch: 7, review: [
             "It'd have to be something other stores don't do, wouldn't it?",
             "A lot of our customers are older, right? Can't we come up with something from that angle?",
             "Understood. We'll all think about it.",
-            "What are they going to think about from now on?",
+            "A price-cut sale",
+            "The shop's financial situation",
+            "A new service",
+            "A repair service",
           ],
           options: ["{値下|ねさ}げセールについて", "店の{経営状態|けいえいじょうたい}について", "新しいサービスについて", "{修理|しゅうり}サービスについて"],
           answer: 2,
@@ -129,6 +133,7 @@ N2F({ ch: 7, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{話|はなし}を{聞|き}いてください。それから{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the talk. Then listen to the two questions and, for each, choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "この先生はいつ勉強したらよく覚えられると言っていますか。",
+          questionEn: "According to this teacher, when should you study to remember things well?",
           script: [
             { sp: "", ja: "{講演会|こうえんかい}で、先生が勉強する時間について話しています。" },
             { sp: "F", v: "f", ja: "最近は朝{早起|はやお}きして勉強する人も増えていますが、{実際|じっさい}にはいつ勉強したら{効果的|こうかてき}なのでしょうか。{本日|ほんじつ}は{脳科学|のうかがく}がご{専門|せんもん}の{本田|ほんだ}先生にお話を{伺|うかが}います。" },
@@ -153,6 +158,7 @@ N2F({ ch: 7, review: [
           answer: 2,
           why: { en: "The professor says memorization study is more effective 夜寝る前 — at night, before going to sleep." } },
         { question: "女の人はどうすることにしましたか。",
+          questionEn: "What did the woman decide to do?",
           options: ["これからは{朝早|あさはや}く{勉強|べんきょう}することにした", "これからも{夜|よる}、{勉強|べんきょう}することにした", "{朝|あさ}も{夜|よる}も{勉強|べんきょう}することにした", "{勉強|べんきょう}しないことにした"],
           answer: 2,
           why: { en: "She will keep her morning routine (朝型生活は続ける) and also review before bed (夜寝る前にもう一度復習しよう) — studying both morning and night." } },

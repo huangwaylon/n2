@@ -79,6 +79,7 @@ N2F({ ch: 5, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "女の人は何が一番問題だと思っていますか。",
+          questionEn: "What does the woman think is the biggest problem?",
           script: [
             { sp: "", ja: "女の人と男の人が話しています。女の人は何が一番問題だと思っていますか。" },
             { sp: "F", v: "f", ja: "ねえ、この間、{電子|でんし}マネーの利用{金額|きんがく}をチェックしたら、前より増えててびっくりしちゃった。" },

@@ -85,6 +85,7 @@ N2F({ ch: 3, review: [
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet." },
       items: [
         { question: "男の人は今すぐ何をしますか。",
+          questionEn: "What will the man do right away?",
           script: [
             { sp: "", ja: "女の人と男の人が話しています。男の人は今すぐ何をしますか。" },
             { sp: "F", v: "f", ja: "{課長|かちょう}、先ほど{東京商事|とうきょうしょうじ}からお電話があって、{納入|のうにゅう}した{機械|きかい}に問題があったそうなんです。" },
