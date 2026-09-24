@@ -21,7 +21,7 @@ N2F({
       { cont: true, ja: "では、どうすればいいのでしょうか。", en: "So what should you do?" },
       { cont: true, ja: "そのときはお客様のお話を聞くことがいちばん大切です。", en: "In that situation, the most important thing is to listen to what the guest has to say." },
       { cont: true, ja: "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them not so much as guests who are only staying for a few days, but as your own family, and listen properly right to the end." },
-      { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Our ABK Hotel has been valued by many guests for the high quality of its service, and has been loved by them." },
+      { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Our ABK Hotel has been highly rated by many guests for the quality of its service, and has long been loved by them." },
       { cont: true, ja: "しかし、今後ホテル{業界|ぎょうかい}はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心し**てはいられません**。", en: "However, competition in the hotel industry is going to get tougher and tougher from now on, so we can't afford to be complacent." },
       { cont: true, ja: "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。", en: "In the times ahead, we need to pursue even better service than before." },
       { cont: true, ja: "ホテルのために、お客様のために、力を合わせて、がんばりましょう。", en: "For the hotel and for our guests, let's work together and do our best." },
@@ -150,7 +150,7 @@ N2F({
         { ja: "「する」→「せざるを{得|え}ない」", en: "する becomes せざるを得ない." },
       ],
       examples: [
-        { ja: "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, the open-air concert had to be cancelled." },
+        { ja: "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, there was no choice but to cancel the open-air concert." },
         { ja: "会社からの{転勤|てんきん}{命令|めいれい}には{従|したが}わざるを{得|え}ないと考える人が多いらしい。", en: "Apparently many people think they have no choice but to obey a transfer order from their company." },
         { ja: "日本は{食料|しょくりょう}を{輸入|ゆにゅう}に{頼|たよ}らざるを{得|え}ない{状態|じょうたい}だ。", en: "Japan is in a situation where it has no choice but to rely on imports for its food." },
         { ja: "{首相|しゅしょう}の{発言|はつげん}は{国民|こくみん}{感情|かんじょう}を{無視|むし}したものと言わざるを{得|え}ない。", en: "I have to say that the prime minister's remarks ignored the feelings of the public." },
@@ -190,7 +190,7 @@ N2F({
           en: [
             "I'm bad at housework, but once I started living on my own, I had no choice but to do it all myself.",
             "Our school used to allow students to commute by motorbike, but because accidents kept happening, we had no choice but to ban it.",
-            "Because he injured his shoulder, he had to give up his dream of becoming a professional baseball player.",
+            "Because he injured his shoulder, he had no choice but to give up his dream of becoming a professional baseball player.",
             "If a client asks us, we have no choice but to accept even an unreasonable order.",
           ],
         },
@@ -228,7 +228,7 @@ N2F({
         "- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n" +
         "- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n" +
         "(See the 〜もの／もん list on p.224 for the whole family.)\n\n" +
-        "JLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) shows a speaker who *does* believe the formula (にちがいない), while in item 2) the context (昨今の就職難) rejects it, so というものではない is correct.",
+        "JLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) states the belief itself, which the listener may hold (安くすれば客は来る**にちがいない**と思うかもしれませんが…), so the affirmative form is needed there; in item 2) the context (昨今の就職難) rejects the formula, so というものではない is correct.",
       see: [13, 19, 39, 46, 51, 52, 56, 92, 122, 132],
       index: ["〜というものではない", "〜というものでもない", "〜ばいいというものではない", "〜ってもんじゃない"],
       practice: [
@@ -285,7 +285,7 @@ N2F({
         {
           type: "choice",
           labels: "ab",
-          prompt: { ja: "", en: "Choose the correct option. (Item 4 has an illustration: a man nervously shows a woman a misshapen homemade cake.)" },
+          prompt: { ja: "", en: "Choose the correct option. (Item 4 has an illustration: a man shows a woman a misshapen homemade cake.)" },
           items: [
             { q: "{健康|けんこう}のために、忙しいとき（　）、{普段|ふだん}はできるだけ食事をゆっくりとったほうがいいですよ。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "For your health, busy times aside, you should normally take your time over meals as much as possible." },
             { q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "Even at a cheap hotel, never mind a bath, it's a problem if there isn't a shower." },
@@ -323,7 +323,7 @@ N2F({
         "- **〜おそれがある** (#34): *there's a risk that* — more formal and written (news, weather warnings): 大雨のおそれがある. かねない is used in speech too and often implies the speaker's worry or criticism about someone's behaviour: 伊藤さんならクラス中の人に話しかねない *she's quite capable of telling the whole class*.\n" +
         "- **〜かもしれない**: pure possibility, positive or negative.\n" +
         "- **V-かねる** (positive form): *can't (bring oneself to) / I'm afraid we can't* — the opposite meaning! お答えしかねます = *I'm unable to answer*.\n\n" +
-        "JLPT tip: if the sentence warns of a bad consequence (事故, 骨折, 倒産, 信頼を失う) and the options include かねない vs かねる, choose かねない; かねる would mean the bad thing *can't* happen.",
+        "JLPT tip: if the sentence warns of a bad consequence (事故, 骨折, 倒産, 信頼を失う) and the options include かねない vs かねる, choose かねない; V-かねる would mean someone is *unable (or unwilling) to do* it, which doesn't fit a warning.",
       see: [34],
       index: ["Vかねない", "Vかねません"],
       practice: [

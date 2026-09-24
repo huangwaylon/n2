@@ -196,7 +196,7 @@ N2.register({
               "en": "A: For the interview, do I have to buy a bag and a coat too?\nB: No need to go out of your way to buy them. You won't use them normally, so why not just use mine for now?"
             }
           ],
-          "deepDive": "**V-る + ことはない** literally says *there is no such thing as doing ~* → *there's no need to ~*. It's typically said **to someone else** to reassure them or advise them not to bother: 心配することはないよ *no need to worry*. With わざわざ (*going out of your way*) and そんなに it becomes especially natural: わざわざ買うことはない.\n\nRegister: the plain form ことはない is fine among friends; in polite speech use ことはありません. The variant **こともない** adds も (*even*) — *there isn't even any need to ~* — and sounds a bit softer.\n\nDon't mix it up with look-alikes in the こと family:\n- **V-たことがない** = *have never done* (experience). 謝ることはない (*no need to apologize*) vs 謝ったことがない (*have never apologized*). Note は vs が and the tense.\n- **〜ないことはない** (#54) = *it's not that ~ not* (a hedged yes). Double negative!\n- **〜ことだ** (#87) = *you should ~* (advice to DO something). ことはない is advice NOT to do something.\n- **〜までもない** = *it goes without saying / no need to go as far as*; close in meaning but more formal.\n\nCommon mistake: using it about yourself as a statement of fact. ことはない is about necessity, so 私は明日行くことはない sounds like *there's no need for me to go* — fine — but not *I won't go*.\n\nJLPT tip: look for a reassuring context (大丈夫だから, 〜んだから) before or after the blank.",
+          "deepDive": "**V-る + ことはない** literally says *there is no such thing as doing ~* → *there's no need to ~*. It's typically said **to someone else** to reassure them or advise them not to bother: 心配することはないよ *no need to worry*. With わざわざ (*going out of your way*) and そんなに it becomes especially natural: わざわざ買うことはない.\n\nRegister: the plain form ことはない is fine among friends; in polite speech use ことはありません. The variant **こともない** adds も (*even*) — *there isn't even any need to ~* — and sounds a bit softer.\n\nDon't mix it up with look-alikes in the こと family:\n- **V-たことがない** = *have never done* (experience). 謝ることはない (*no need to apologize*) vs 謝ったことがない (*have never apologized*). Note は vs が and the tense.\n- **〜ないことはない** (#54) = *it's not that ~ not* (a hedged yes). Double negative!\n- **〜ことだ** (#87) = *you should ~* (advice to DO something). ことはない is advice NOT to do something.\n- **〜までもない** = *it goes without saying / no need to go as far as*; close in meaning but more formal.\n\nCommon mistake: reading it as a plain negative. ことはない is about necessity: 明日行くことはない means *there's no need to go tomorrow*, not *I/you won't go tomorrow* (that would be 行かない).\n\nJLPT tip: look for a reassuring context (大丈夫だから, 〜んだから) before or after the blank.",
           "see": [
             8,
             20,
@@ -243,7 +243,7 @@ N2.register({
                 "There's no need to worry so much about this injury. It's just a sprain; no bones are broken.",
                 "If we hold the meeting over the internet, there'll probably be no need to go on a business trip. That way we can save both time and expenses.",
                 "There's no need to go out of your way to lend him your notes. He skipped class to go have fun, so he should look it up himself.",
-                "Isn't there no need to bring a packed lunch to the amusement park? They sell everything at the stalls."
+                "Surely there's no need to take a packed lunch to the amusement park? They sell everything at the kiosks there."
               ]
             }
           ]
@@ -373,7 +373,7 @@ N2.register({
               "en": "A: Your new part-time job is just putting those into bags? Sounds easy.\nB: Easy? No way. I have to bag thousands of them a day."
             }
           ],
-          "deepDive": "**〜ものか** is a *rhetorical question* used as a strong negative: *would I ever ~? — of course not!* 負けるものか = *am I going to lose? — never!* It is pronounced with a falling intonation, not a rising question intonation.\n\nTwo main uses:\n- **Determination** (often muttered to oneself): 二度と来るものか *I'm never coming back*, 負けるもんか *I won't lose*.\n- **Flat rejection** of what someone just said, often repeating their word: A: 楽でしょう？ B: 楽なもんか *Easy? Not a chance.*\n\nForms and register:\n- **もんか** is the colloquial version, very common among friends.\n- **ものですか / もんですか** are the polite versions; ものですか in particular often sounds feminine.\n- Connection: な-adjectives and nouns take **な**: 静かなものか, 天才なもんか. Don't say ✗天才だもんか.\n\nRelated patterns:\n- **〜もん** (#56) (*because*, an excuse) — no か, completely different meaning.\n- **〜ものではない** (#46) — *one shouldn't ~* (social advice), not personal refusal.\n- **〜わけがない** — *there's no way that ~*; objective reasoning. ものか is emotional and subjective.\n- **V-るまい** (#93) — written, *I will never ~*.\n\nCommon mistake: using ものか to politely decline to a superior. It is emotional and can sound rude; 部長の誘いを断るもんか would mean *as if I'd refuse!*. Use it with care.",
+          "deepDive": "**〜ものか** is a *rhetorical question* used as a strong negative: *would I ever ~? — of course not!* 負けるものか = *am I going to lose? — never!* It is pronounced with a falling intonation, not a rising question intonation.\n\nTwo main uses:\n- **Determination** (often muttered to oneself): 二度と来るものか *I'm never coming back*, 負けるもんか *I won't lose*.\n- **Flat rejection** of what someone just said, often repeating their word: A: 楽でしょう？ B: 楽なもんか *Easy? Not a chance.*\n\nForms and register:\n- **もんか** is the colloquial version, very common among friends.\n- **ものですか / もんですか** are the polite versions; ものですか in particular often sounds feminine.\n- Connection: な-adjectives and nouns take **な**: 静かなものか, 天才なもんか. Don't say ✗天才だもんか.\n\nRelated patterns:\n- **〜もん** (#56) (*because*, an excuse) — no か, completely different meaning.\n- **〜ものではない** (#46) — *one shouldn't ~* (social advice), not personal refusal.\n- **〜わけがない** — *there's no way that ~*; objective reasoning. ものか is emotional and subjective.\n- **V-るまい** (#93) — written, *I will never ~*.\n\nCommon mistake: using ものか when you just want to decline politely. It is emotional and can sound rude or childish — saying 行くもんか to a superior's invitation would be a hostile *as if I'd go!*. Keep it for self-talk, close friends, or deliberately strong rebuttals.",
           "see": [
             13,
             25,
@@ -473,10 +473,10 @@ N2.register({
             },
             {
               "ja": "どんなに大変な仕事でも、人の役に立つと思えばがんばれるというものだ。",
-              "en": "No matter how hard the job, if you think it helps people, you can keep going."
+              "en": "No matter how hard the job, if you think it helps people, you can keep going — that's just how it is."
             }
           ],
-          "deepDive": "**〜というものだ** presents a statement as **common sense or the nature of things**, not just the speaker's view. それが人生というものだ = *that's life (that's how life is)*. The speaker steps back and speaks as if quoting a general truth.\n\nTypical shapes:\n- **それが N というものだ** — after describing something, sum it up: 助け合う。それが家族というものだ.\n- **それは 〜というものだ** — a critical judgment: それはわがままというものだ *that's just selfish*, それは期待しすぎというものだろう *that's expecting too much*. This use often follows なんて (*such a thing as*).\n\nThe softened versions **というものだろう / というものでしょう** are very common, especially when advising someone.\n\nConnection: usually a noun, but plain forms also appear (早すぎるというものだ), and な-adjectives drop だ (無理というもの, 失礼というもの).\n\nDon't confuse it with:\n- **〜というものではない** (#25) — *it's not (necessarily) the case that ~*: 高ければいいというものではない. The negative is a separate pattern with a different meaning.\n- **〜ものだ** (#13) — *by nature ~ / one should ~*: 子どもは親に反抗するものだ. Similar ‘general truth’ flavour, but attaches to verbs/adjectives directly without という.\n- **Nというものは** — *~ as such* (topic): 時間というものは大切だ.\n\nRegister: neutral; among friends women often say 〜というものよ, men 〜というもんだ.",
+          "deepDive": "**〜というものだ** presents a statement as **common sense or the nature of things**, not just the speaker's view. それが人生というものだ = *that's life (that's how life is)*. The speaker steps back and speaks as if quoting a general truth.\n\nTypical shapes:\n- **それが N というものだ** — after describing something, sum it up: 助け合う。それが家族というものだ.\n- **それは 〜というものだ** — a critical judgment: それはわがままというものだ *that's just selfish*, それは期待しすぎというものだろう *that's expecting too much*. The situation being judged may be quoted first with なんて (example ④: 私が社長を批判したなんて…それは誤解というものですよ).\n\nThe softened versions **というものだろう / というものでしょう** are very common, especially when advising someone.\n\nConnection: usually a noun, but plain forms also appear (がんばれるというものだ, example ⑤), and な-adjectives drop だ (無理というもの, 失礼というもの).\n\nDon't confuse it with:\n- **〜というものではない** (#25) — *it's not (necessarily) the case that ~*: 高ければいいというものではない. The negative is a separate pattern with a different meaning.\n- **〜ものだ** (#13) — *by nature ~ / one should ~*: 子どもは親に反抗するものだ. Similar ‘general truth’ flavour, but attaches to verbs/adjectives directly without という.\n- **Nというものは** — *~ as such* (topic): 時間というものは大切だ.\n\nRegister: neutral; among friends women often say 〜というものよ, men 〜というもんだ.",
           "see": [
             13,
             25,
@@ -658,7 +658,7 @@ N2.register({
             },
             {
               "ja": "{注射|ちゅうしゃ}だから痛くないことはないでしょうけど、{看護師|かんごし}さんによって痛さが{全然|ぜんぜん}違うんですよ。",
-              "en": "It's an injection, so I suppose it's bound to hurt a bit, but how much it hurts depends completely on the nurse."
+              "en": "It's an injection, so I suppose it can't be completely painless, but how much it hurts depends completely on the nurse."
             },
             {
               "ja": "A：このメイク、ちょっと{派手|はで}すぎる？\nB：うーん。{派手|はで}じゃないこともないけど、パーティーなんだから、いいんじゃない？",
@@ -933,7 +933,7 @@ N2.register({
               "en": "A: Today's on me.\nB: No, not at all. We can't let you treat us today. It's your celebration, so we'll pay."
             }
           ],
-          "deepDive": "**〜わけにはいかない** means *I can't (very well) ~* — not because it's physically impossible, but because of **social, moral or situational reasons**. 休むわけにはいかない = *I can't take the day off (there's an important meeting / people are counting on me)*. Compare できない, which is about ability.\n\nTwo forms:\n- **V-る + わけにはいかない** = *can't do* (though I might want to): 帰るわけにはいかない.\n- **V-ない + わけにはいかない** = *can't not do* → *have to*, reluctantly, because of circumstances: 出席しないわけにはいかない *I have no choice but to attend*.\n\nVariants: **わけにもいかない** (*can't very well ~ either*) is used when rejecting an option among several; polite **わけにはいきません** is common in business when refusing: 規則ですので、お受けするわけにはいきません.\n\nDon't confuse the わけ family:\n- **〜わけではない** (#19) — *it's not that ~*: 嫌いなわけではない *it's not that I dislike it*. Partial denial, no obligation involved.\n- **〜わけがない** (N3) — *there's no way ~*: 彼が来るわけがない.\n- **〜わけだ** (#82, #134) — *so that's why / it follows that*.\n\nCommon mistake: using わけにはいかない for simple inability. ✗泳げないので、海に入るわけにはいかない sounds odd; say 入れない. Use わけにはいかない when there's a reason rooted in duty, relationships or rules.\n\nJLPT tip: look for a reason clause (〜ので, 〜から, 大事な〜がある) before the blank.",
+          "deepDive": "**〜わけにはいかない** means *I can't (very well) ~* — not because it's physically impossible, but because of **social, moral or situational reasons**. 休むわけにはいかない = *I can't take the day off (there's an important meeting / people are counting on me)*. Compare できない, which is about ability.\n\nTwo forms:\n- **V-る + わけにはいかない** = *can't do* (though I might want to): 帰るわけにはいかない.\n- **V-ない + わけにはいかない** = *can't not do* → *have to*, reluctantly, because of circumstances: 出席しないわけにはいかない *I have no choice but to attend*.\n\nVariants: **わけにもいかない** (*can't very well ~ either*) is used when rejecting an option among several; polite **わけにはいきません** is common in business when refusing: 規則ですので、お受けするわけにはいきません.\n\nDon't confuse the わけ family:\n- **〜わけではない** (#19) — *it's not that ~*: 嫌いなわけではない *it's not that I dislike it*. Partial denial, no obligation involved.\n- **〜わけがない** (N3) — *there's no way ~*: 彼が来るわけがない.\n- **〜わけだ** (#82, #134) — *so that's why / it follows that*.\n\nCommon mistake: using わけにはいかない for simple inability. ✗私は泳げないので、泳ぐわけにはいかない sounds odd; just say 泳げない. Use わけにはいかない when there's a reason rooted in duty, relationships or rules.\n\nJLPT tip: look for a reason clause (〜ので, 〜から, 大事な〜がある) before the blank.",
           "see": [
             19,
             82,
@@ -1062,7 +1062,7 @@ N2.register({
             },
             {
               "ja": "いつまでも若いつもりで{徹夜|てつや}してると体を{壊|こわ}すよ。",
-              "en": "If you keep pulling all-nighters as if you'll be young forever, you'll ruin your health."
+              "en": "If you keep pulling all-nighters thinking you're as young as ever, you'll ruin your health."
             },
             {
               "ja": "ヘルパーさんは、本当の家族のつもりでお{年寄|としよ}りの{世話|せわ}をしていると言っていた。",
@@ -1342,7 +1342,7 @@ N2.register({
           "今、ヨーロッパでは日本の{警備会社|けいびがいしゃ}が人気を集めている。セキュリティーシステムに問題がないか{常|つね}にチェックし、{警報器|けいほうき}が{鳴|な}ったら、すぐ{担当者|たんとうしゃ}が{駆|か}けつけ、{状況|じょうきょう}を{把握|はあく}して客に{連絡|れんらく}する。日本では{当|あ}たり{前|まえ}のこのサービスがヨーロッパで高く{評価|ひょうか}されているという。「セキュリティーがしっかりしていなかったばかりに、大きな{被害|ひがい}に{遭|あ}った」と{後悔|こうかい}するより、料金は少し高くても、{頼|たよ}れる会社に{任|まか}せようというニーズがあったからと言える。日本では{当然|とうぜん}のことだが海外では高く{評価|ひょうか}される、それこそが{国際競争力|こくさいきょうそうりょく}を持つ{商品|しょうひん}というものだ。"
         ],
         "en": [
-          "Japanese products are being put in a difficult position amid international price competition. But we can't just give up, saying we can't compete, nor can we afford to be pessimistic. So where does the path lie for Japanese business to develop globally? The key to business success is simply to pursue consumers' needs.",
+          "Japanese products are being put in a difficult position amid international price competition. But we can't just give up, saying we can't compete, nor can we afford to be pessimistic. So where does the path lie for Japanese business to develop globally? The key to business success lies solely in pursuing consumers' needs.",
           "Right now in Europe, Japanese security companies are gaining popularity. They constantly check whether there are any problems with the security system, and if an alarm goes off, the person in charge rushes over right away, grasps the situation and contacts the customer. This service, which is taken for granted in Japan, is apparently highly valued in Europe. It can be said that this is because there was a need to entrust security to a reliable company, even if the fee is a little higher, rather than regretting that 'we suffered major damage just because our security wasn't solid.' Something that is taken for granted in Japan but highly valued overseas — that is precisely what a product with international competitiveness is."
         ],
         "items": [
@@ -1415,7 +1415,7 @@ N2.register({
             "en": [
               "An expert is speaking. What is the most important thing when keeping medaka (killifish)?",
               "Hello, everyone. Today we'll ask Dr. Tanaka what to do when keeping medaka for the first time. Dr. Tanaka, thank you for joining us.",
-              "Medaka are river fish, so they need an environment close to nature. That said, there's no need to think of it as difficult. If you put in some pebbles and water plants, medaka will be able to live without stress. Medaka are hardy fish, so keeping them isn't difficult either, but if you don't look after them properly every day they will die, so please never forget that, at least.",
+              "Medaka are river fish, so they need an environment close to nature. That said, there's no need to think of it as difficult. If you put in some pebbles and water plants, medaka will be able to live without stress. Medaka are hardy fish, so keeping them isn't difficult either, but if you don't look after them properly every day they will die, so that is the one thing you must never forget.",
               "What is the most important thing when keeping medaka?"
             ],
             "options": [
@@ -1466,7 +1466,7 @@ N2.register({
               "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...",
               "You still look pale. At the store, Ms. Ito came in to cover for you, so there's no need to worry about it.",
               "Huh? I thought Ms. Ito had something to do yesterday...",
-              "She said so, but I pushed her into it. Well, why don't you just cover for her next time?",
+              "She did say so, but I talked her into it even though it was a big ask. Well, why don't you just cover for her next time?",
               "What did Ms. Ito do yesterday?"
             ],
             "options": [

@@ -19,7 +19,7 @@ N2F({ ch: 2, review: [
           en: "My manager told me, \"Since you're quitting the company saying you'll go independent, hang in there no matter how hard it gets.\"" },
         { q: "{高橋|たかはし}さんは子どもが生まれたの（　）、たばこをやめる{決心|けっしん}をしたんだそうです。",
           options: ["はもとより", "をきっかけに", "をはじめとして", "を中心として"], answer: 1,
-          en: "I heard that Mr. Takahashi decided to quit smoking when his child was born." },
+          en: "I heard that the birth of his child prompted Mr. Takahashi to decide to quit smoking." },
         { q: "この町は大学（　）、{若者向|わかものむ}けの{商店|しょうてん}やアパートが集まっている。",
           options: ["を{問|と}わず", "を{通|つう}じて", "を中心として", "をもととして"], answer: 2,
           en: "In this town, shops and apartments for young people are clustered around the university." },
@@ -73,7 +73,7 @@ N2F({ ch: 2, review: [
         "Everyone, thank you very much for gathering here today for us, the ABK University ekiden team.",
         "Our ekiden team has trained hard without taking a single day off, aiming to take part in the Hakone Ekiden. I don't think we put in less effort than the runners of other universities, but unfortunately, until now our school had never won the right to compete in the Hakone Ekiden. But this year, which for me is my last year of university life, we have finally been able to make our dream come true. I hope that, with this appearance as a springboard, the ekiden team will be able to grow a great deal.",
         "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to do our very best. Everyone, we ask for your continued support.",
-        "*Hakone Ekiden: Tokyo-Hakone Round-Trip College Ekiden Race — a traditional intercollegiate competition in which ten runners take turns running the round trip from Tokyo to Hakone, held every year on January 2 and 3.",
+        "*箱根駅伝: Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd.",
       ],
       items: [
         { q: "ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。",
@@ -116,7 +116,7 @@ N2F({ ch: 2, review: [
           en: [
             "A woman is speaking.",
             "This group is a volunteer organization formed mainly by homemakers. We aim to improve the local environment and create a town where both children and the elderly can live with peace of mind. We would like as many people as possible to take part so that, working together, we can contribute to building a pleasant town to live in. Even if you are not a homemaker, if you are interested in this activity, please do join us.",
-            "What is the woman speaking for?",
+            "What is the woman's purpose in speaking?",
           ],
           options: ["ボランティア{団体|だんたい}を{結成|けっせい}するため", "{地域|ちいき}の{環境|かんきょう}を{整|ととの}えるため", "新しいメンバーを{募集|ぼしゅう}するため", "ボランティア{活動|かつどう}に{参加|さんか}するため"],
           answer: 2,

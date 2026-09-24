@@ -5029,7 +5029,7 @@ ch11.parts.0.points.2.examples.0.ja	先週は{熱|ねつ}が40度も出た{上|�
 ch11.parts.0.points.2.examples.1.ja	この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。
 ch11.parts.0.points.2.examples.2.ja	この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。
 ch11.parts.0.points.2.examples.3.ja	工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。
-ch11.parts.0.points.2.formNotes.0.en	
+ch11.parts.0.points.2.formNotes.0.en	The form [なA]／[N] である + 上 is also used.
 ch11.parts.0.points.2.formNotes.0.ja	「[なA]／[N] である + {上|うえ}」の形もある。
 ch11.parts.0.points.2.formNotes.1.en	Words that express a state or appearance are used for a noun.
 ch11.parts.0.points.2.formNotes.1.ja	名詞は{状態|じょうたい}や{様子|ようす}を表す言葉が使われる。
@@ -5069,7 +5069,7 @@ ch11.parts.0.points.3.examples.3.ja	A：来月の{富士山日帰|ふじさん�
 B：はい、まだございますが、あるといいましても、{残|のこ}りわずかですので、お早めにご予約ください。
 ch11.parts.0.points.3.examples.4.ja	A：あの店、CDが安いんだって？
 B：まあね。安いといっても10%だけどね。
-ch11.parts.0.points.3.formNotes.0.en	
+ch11.parts.0.points.3.formNotes.0.en	The form [なA]／[N] + といっても is also used.
 ch11.parts.0.points.3.formNotes.0.ja	「[なA]／[N] + といっても」の形もある。
 ch11.parts.0.points.3.forms.0	[Pl] + といっても
 ch11.parts.0.points.3.forms.1	[Pl] + といいましても
@@ -5115,7 +5115,7 @@ ch11.parts.0.points.5.examples.0.ja	この町は文化{遺産|いさん}に{登�
 ch11.parts.0.points.5.examples.1.ja	このタオル、高いだけあって{肌|はだ}ざわりがすごくいいんだ。
 ch11.parts.0.points.5.examples.2.ja	さすが国が{誇|ほこ}る{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。
 ch11.parts.0.points.5.examples.3.ja	ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの安定感はすばらしい。
-ch11.parts.0.points.5.formNotes.0.en	
+ch11.parts.0.points.5.formNotes.0.en	The form [なA]／[N] である + だけあって is also used.
 ch11.parts.0.points.5.formNotes.0.ja	「[なA]／[N] である + だけあって」の形もある。
 ch11.parts.0.points.5.formNotes.1.en	Add "な" to a noun that expresses a state or appearance.
 ch11.parts.0.points.5.formNotes.1.ja	名詞は、{状態|じょうたい}や{様子|ようす}を表す言葉が使われるときは「な」がつく。
@@ -5167,7 +5167,7 @@ ch11.parts.0.points.6.examples.0.ja	{東京|とうきょう}にしろ{大阪|お
 ch11.parts.0.points.6.examples.1.ja	大学院で研究しようと思ったら、{理系|りけい}にしても{文系|ぶんけい}にしても、{英語力|えいごりょく}は{絶対必要|ぜったいひつよう}だよ。
 ch11.parts.0.points.6.examples.2.ja	{招待状|しょうたいじょう}をもらったら、{出席|しゅっせき}するにせよ、{欠席|けっせき}するにせよ、{必|かなら}ず{期日|きじつ}までに返事を出すのが{礼儀|れいぎ}だ。
 ch11.parts.0.points.6.examples.3.ja	好きにしろ、嫌いにしろ、{健康|けんこう}のために野菜は毎日とらなきゃだめだよ。
-ch11.parts.0.points.6.formNotes.0.en	
+ch11.parts.0.points.6.formNotes.0.en	The form [なA]／[N] である + にしろ is also used.
 ch11.parts.0.points.6.formNotes.0.ja	「[なA]／[N] である + にしろ」の形もある。
 ch11.parts.0.points.6.forms.0	[Pl] + にしろ + [Pl] + にしろ
 ch11.parts.0.points.6.forms.1	[Pl] + にしても + [Pl] + にしても
@@ -6682,7 +6682,7 @@ ch14.parts.0.points.2.examples.0.ja	食生活の{改善|かいぜん}と{適度|
 ch14.parts.0.points.2.examples.1.ja	うちのお店は若い人{向|む}けの服を中心に{扱|あつか}っているので、20～30{代|だい}のお客様が多いわけです。
 ch14.parts.0.points.2.examples.2.ja	{少子高齢化|しょうしこうれいか}が進めば、{労働人口|ろうどうじんこう}が{減|へ}ってしまうわけですから、{経済構造|けいざいこうぞう}にも{当然|とうぜん}{影響|えいきょう}が出てきます。
 ch14.parts.0.points.2.examples.3.ja	前の{店舗|てんぽ}が{再開発|さいかいはつ}によって{取|と}り{壊|こわ}されることになって、ここに{移転|いてん}することになったというわけです。
-ch14.parts.0.points.2.formNotes.0.en	
+ch14.parts.0.points.2.formNotes.0.en	The form 〜というわけだ is also used.
 ch14.parts.0.points.2.formNotes.0.ja	「〜というわけだ」の形も使われる。
 ch14.parts.0.points.2.forms.0	[Pl] + わけだ
 ［[なA~~だ~~]な　[N~~だ~~]の］
@@ -6824,7 +6824,7 @@ ch14.parts.0.points.7.no	139
 ch14.parts.0.points.7.pattern	〜てこそ
 ch14.parts.0.points.7.phrase	多くの人が{賛同|さんどう}し**てこそ**
 ch14.parts.0.points.7.stars	1
-ch14.parts.0.points.7.usage.en	" 〜てこそ… " expresses a feeling that emphasizes that "with 〜 , … can not be; 〜 is an absolutely necessary condition."
+ch14.parts.0.points.7.usage.en	" 〜てこそ… " expresses a feeling that emphasizes that "with 〜, … can not be; 〜 is an absolutely necessary condition."
 ch14.parts.0.points.7.usage.ja	「〜てこそ…」は、「〜がないと…が{成立|せいりつ}しない、〜が{絶対|ぜったい}に{必要|ひつよう}な{条件|じょうけん}である」ということを{強調|きょうちょう}する気持ちを表す。
 ch14.parts.0.points.7.xref	☞ p.221　〜こそ
 ch14.parts.0.sample.heading	{社説|しゃせつ}　{問|と}われる{五輪招致|ごりんしょうち}の{是非|ぜひ}

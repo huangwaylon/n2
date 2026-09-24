@@ -345,7 +345,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence. (Item 2 is illustrated with a hiker walking toward a mountain peak.)" },
           items: [
-            { q: "ぜひ{北海道|ほっかいどう}へ行きたいと思いながら、（　）。", options: ["何度も行った", "まだ行ったことがない"], answer: 1, en: "Although I really want to go to Hokkaido, I still haven't been there." },
+            { q: "ぜひ{北海道|ほっかいどう}へ行きたいと思いながら、（　）。", options: ["何度も行った", "まだ行ったことがない"], answer: 1, en: "Although I've been thinking I'd really love to go to Hokkaido, I still haven't been there." },
             { q: "山の{頂上|ちょうじょう}がすぐ近くに見えていながら、（　）。", options: ["なかなか{頂上|ちょうじょう}につかない", "もうすぐ{頂上|ちょうじょう}につきそうだ"], answer: 0, en: "Although the summit looks very close, we just can't seem to reach it." },
             { q: "この{美術館|びじゅつかん}は小さいながら（　）。", options: ["多くのすばらしい作品を{展示|てんじ}している", "休日でも{入場者|にゅうじょうしゃ}は少ない"], answer: 0, en: "Although this art museum is small, it exhibits many wonderful works." },
             { q: "この{洗濯機|せんたくき}は、{旧型|きゅうがた}ながらとても（　）。", options: ["使いにくい", "使いやすい"], answer: 1, en: "Although this washing machine is an old model, it is very easy to use." },

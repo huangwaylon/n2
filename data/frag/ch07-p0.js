@@ -71,7 +71,7 @@ N2F({
         "The two Plus boxes (the book gives only examples for them, no separate explanation) are near-synonyms, all attaching directly to a noun:\n" +
         "- **からいうと / いえば / いって** (from 言う): *speaking in terms of ~*. Especially natural for criteria or categories: 品質からいえば, 実力からいって. It is not normally used with a single person as the viewpoint (✗私からいうと sounds odd; use 私から見ると / 私としては).\n" +
         "- **からすると / すれば / して**: close to から見ると, used both for a person's standpoint (患者の立場からすれば) and for clues (故障の程度からして). **からして** also has a separate use — *to begin with, even ~*: タイトルからしてつまらない (*even the title is boring*). Don't confuse the two.\n\n" +
-        "Contrast with **〜にしては** (*for / considering ~, unexpectedly*): 60歳にしては若く見える = *looks young for 60*. にしては signals a gap between expectation and reality; から見ると simply names the viewpoint. This is exactly the contrast drilled in the practice.\n\n" +
+        "Contrast with **〜にしては** (#41, *for / considering ~, unexpectedly*): 60歳にしては若く見える = *looks young for 60*. にしては signals a gap between expectation and reality; から見ると simply names the viewpoint. This is exactly the contrast drilled in the practice.\n\n" +
         "Also compare **〜からには** (#18, *now that / since ~ (you must)*), which looks similar but expresses resolve or obligation.\n\n" +
         "JLPT tip: when the blank follows 点・面・立場・観点・データ and the sentence gives an evaluation, choose から見ると/からいうと/からすると.",
       see: [18],
@@ -118,7 +118,7 @@ N2F({
         "- two sides of one thing (merit vs. demerit): 円高は輸入業者には有利である一方、輸出の低迷をもたらす;\n" +
         "- two roles performed by one person: 俳優として活躍する一方、映画監督としても注目されている.\n\n" +
         "**その一方で** is the sentence-initial version (*on the other hand*). It is very common in essays to turn from one point to its contrast — exactly how the sample essay moves from the wolf as a dangerous enemy of livestock to its role in protecting the balance of nature.\n\n" +
-        "Connection (the book lists 一方; 一方で with で is equally common, as in examples ④⑤): plain form; なA takes な (便利な一方), N takes の or である (黒字の一方で / 有利である一方). である is the more formal essay style.\n\n" +
+        "Connection (the book lists 一方; 一方で with で is equally common, as in examples ④⑤): plain form; なA takes な (便利な一方), N takes の (黒字の一方で), and both can also take である (有利である一方, as in example ③). である is the more formal essay style.\n\n" +
         "Don't confuse with **V-る一方だ** (#115), a completely different pattern meaning *keeps on ~ing (in one direction, usually bad)*: 物価は上がる一方だ. Key difference: #115 comes at the **end** of the sentence with だ; #61 links two clauses.\n\n" +
         "Similar contrast patterns: **〜反面** (#69) focuses on two opposite aspects of *one* thing and cannot be used for two different subjects; 一方 is broader. **〜に対して** marks a direct comparison of two subjects (兄は背が高いのに対して、弟は低い).\n\n" +
         "JLPT tip: 一方 frequently appears in 問題1 and in the passage-grammar section as a connector (その一方で). Look for a second clause that describes a contrasting situation, often ending in 〜もある / 〜もいる.",
@@ -178,7 +178,7 @@ N2F({
         "- **Grounds for a judgment or inference**: 台所の窓が割れていることから、犯人はそこから侵入したと思われます. The second half is often 〜と考えられる / 〜とわかる / 〜と思われる.\n" +
         "- **Cause of a later development**: オオカミが絶滅したことから、シカが急増した.\n\n" +
         "Nuance: ことから presents the reason as an observable **fact** from which a conclusion or development follows. So it is unnatural with the speaker's personal requests, invitations or commands: ✗雨が降っていることから、傘を持って行きなさい → 雨が降っているから/ので.\n\n" +
-        "Connection pitfalls: なA keeps な (静かなことから) or uses である; nouns **must** use である (有名な観光地であることから); examples ⑤ 困難であることから shows the である form with a なA. ✗観光地のことから / ✗観光地だことから.\n\n" +
+        "Connection pitfalls: なA keeps な (静かなことから) or uses である; nouns **must** use である (有名な観光地であることから); example ⑤ 困難であることから shows the である form with a なA. ✗観光地のことから / ✗観光地だことから.\n\n" +
         "Compare with the other こと patterns in the book (similar-pattern list, ☞ p.221): 〜こと。 (#8, written rule), 〜ことか (#42, exclamation), 〜ことに (#40, emotion), 〜ことだ (#87, advice), Vたことにする (#119), 〜ことなく (#20), 〜ないことには (#110), 〜ことはない (#49), 〜ないことはない (#54). Only ことから expresses a reason.\n\n" +
         "Also compare **〜ところから** (similar meaning, less common) and the neutral reason markers 〜ので / 〜ため. A sentence ending in と呼ばれている / という名前になった is a strong signal for ことから.",
       see: [8, 20, 40, 42, 49, 54, 87, 110, 119],

@@ -11,7 +11,7 @@ N2F({ ch: 10, review: [
           why: { en: "〜かと思ったら: something happens immediately after, unexpectedly." } },
         { q: "同じ{失敗|しっぱい}はくり{返|かえ}す（　）と思っていても、ついやってしまうのが人間だ。",
           options: ["ことだ", "にすぎない", "まい", "まいか"], answer: 2,
-          en: "Even if you think you won't repeat the same mistake, humans are the kind of creature that ends up doing it anyway.",
+          en: "Even if you resolve never to repeat the same mistake, humans are the kind of creature that ends up doing it anyway.",
           why: { en: "〜まいと思う: to resolve not to do something." } },
         { q: "入学以来{成績|せいせき}がトップだった彼は、今回のテストで2{位|い}になって人生が終わってしまった（　）落ち込んでいる。",
           options: ["かと思うと", "かのように", "{限|かぎ}り", "わりに"], answer: 1,
@@ -55,7 +55,7 @@ N2F({ ch: 10, review: [
         "{新米|しんまい}ドライバーの私[1]、カーナビは{必需品|ひつじゅひん}だ。{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で{目的地|もくてきち}まで道案内をしてくれる。高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。その声は本当に{心配|しんぱい}しているかのようだ。まさに{有能|ゆうのう}な{秘書|ひしょ}だ。地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。だがその彼女もカーナビがあれば道に{迷|まよ}うことはある[2]と思っているらしく、地図を見ていた[3]、いつの間にか寝ていることもある。そうしたら、{秘書|ひしょ}と2人きりのドライブだ。静かでいいと思う{反面|はんめん}、そのドライブにはどこかさびしい[4]。",
       ],
       en: [
-        "For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and just when I think she's been looking at the map, sometimes she has fallen asleep before I knew it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive.",
+        "For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and sometimes, just when I think she's looking at the map, she has dozed off before I know it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive.",
       ],
       blanks: [
         { options: ["として", "に対して", "に{応|おう}じて", "にとって"], answer: 3,
@@ -82,9 +82,9 @@ N2F({ ch: 10, review: [
             { sp: "", ja: "この鳥が動かないのは何に{関係|かんけい}があると言っていますか。" },
           ],
           en: [
-            "A man is talking at a zoo. What does the man say the fact that this bird doesn't move is related to?",
+            "A man is talking at a zoo. What does the man say the bird's not moving has to do with?",
             "Well, this is the shoebill, famous as a bird that doesn't move. As you can see, its head is large for its body, and its beak is wide — those are its characteristics. The reason this bird doesn't move lies in the way it eats. Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak. The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes. Oh, the child over there, please be careful. It sometimes suddenly comes up close, trying to startle children...",
-            "What does he say the fact that this bird doesn't move is related to?",
+            "What does he say the bird's not moving has to do with?",
           ],
           options: ["{体|からだ}の{大|おお}きさ", "{住|す}んでいるところ", "えさのとり{方|かた}", "{性格|せいかく}"],
           answer: 2,

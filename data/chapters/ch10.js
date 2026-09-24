@@ -425,11 +425,11 @@ N2.register({
         "lines": [
           {
             "ja": "次の駅が近づいてきた。前に座っている女子高生が、見ていた教科書をかばんにしまった。よし、今日は座るぞ。彼女が立つ**か**立たない**かのうちに**、次は自分が座るという{態度|たいど}を{周|まわ}りに{示|しめ}す。",
-            "en": "The next station was getting close. The high-school girl sitting in front of me put the textbook she'd been looking at away in her bag. All right, today I'm going to sit. I make it clear to those around me that the moment she stands up — almost before she's even up — I'm the one who'll sit next."
+            "en": "The next station was getting close. The high-school girl sitting in front of me put the textbook she'd been looking at away in her bag. All right, today I'm going to sit. Almost before she has even stood up, I make it clear to everyone around me that I'm the one who'll sit next."
           },
           {
             "ja": "しかしその子は{全然|ぜんぜん}立とうとしない。教科書をしまったのは{文庫本|ぶんこぼん}を取り出すためだった。ああ、降りないのか。{残念|ざんねん}。周りを見ると、座っている人はみんな自由に好きなことをしている。2、3人で{雑誌|ざっし}を見ながら楽し**げ**におしゃべりしている子たちもいる。そんな{様子|ようす}がくやしい**やら**うらやましい**やら**…。",
-            "en": "But the girl shows no sign at all of standing up. She had put her textbook away only to take out a paperback. Oh, so she isn't getting off. Too bad. Looking around, everyone who's sitting is freely doing whatever they like. There are even some kids happily chatting in twos and threes while looking at a magazine. The sight of it makes me feel frustrated, envious…"
+            "en": "But the girl shows no sign at all of standing up. She had put her textbook away only to take out a paperback. Oh, so she isn't getting off. Too bad. Looking around, everyone who's sitting is freely doing whatever they like. There are even some kids happily chatting in twos and threes while looking at a magazine. Seeing them like that, I feel frustrated and envious all at once…"
           },
           {
             "ja": "駅に着いて{乗客|じょうきゃく}が降りた**かと思うと**、それ以上の人が乗り込んでくる。{結局|けっきょく}、立ったまま{背中|せなか}をぐいぐい押され、{耐|た}えているうちにまた次の駅に着く。",
@@ -475,7 +475,7 @@ N2.register({
               "en": "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open."
             }
           ],
-          "deepDive": "**〜か〜ないかのうちに** paints an action as happening so fast that the previous one had not quite finished: *before ~ was even done / the instant ~*. Literally: *within the time when it's unclear whether ~ has happened or not*.\n\nForm rules:\n- The **same verb** appears twice: 着くか着かないか, 言ったか言わないか. ✗着くか降りないかのうちに.\n- The first verb can be dictionary form or た-form with little difference in meaning: 鳴るか鳴らないか / 鳴ったか鳴らないか.\n- The second half is a past or habitual **fact** that the writer observed — usually someone else's quick action. It can't be a request, command or intention: ✗ドアが開くか開かないかのうちに乗ってください.\n\nNeighbors meaning *as soon as*:\n- **〜たとたん（に）** (N3): *the moment ~, (unexpectedly)*; second half is often a surprise, not always someone's deliberate action.\n- **〜かと思うと／かと思ったら** (#99): *no sooner had A happened than B (a sudden change)*.\n- **〜次第** (*as soon as, I will…*) — used for future plans and requests, the opposite of this pattern.\n- **〜や否や / 〜なり** (N1): very literary equivalents.\n\nRelated うちに patterns (see list p.220): Vうちに (*while ~, gradually*) and Vないうちに (*before ~ happens*) are N3; this is the only N2 member of the group.\n\nJLPT tip: in ordering questions, look for pieces like ○○か / ○○ない / かのうちに — the verb must repeat and か appears twice.",
+          "deepDive": "**〜か〜ないかのうちに** paints an action as happening so fast that the previous one had not quite finished: *before ~ was even done / the instant ~*. Literally: *within the time when it's unclear whether ~ has happened or not*.\n\nForm rules:\n- The **same verb** appears twice: 着くか着かないか, 言ったか言わないか. ✗着くか降りないかのうちに.\n- The first verb can be dictionary form or た-form with little difference in meaning: 鳴るか鳴らないか / 鳴ったか鳴らないか.\n- The second half describes what actually happens (past tense, or narrative present as in this chapter's essay) — typically a quick action or event. It can't be a request, command or intention: ✗ドアが開くか開かないかのうちに乗ってください.\n\nNeighbors meaning *as soon as*:\n- **〜たとたん（に）** (N3): *the moment ~, (unexpectedly)*; second half is often a surprise, not always someone's deliberate action.\n- **〜かと思うと／かと思ったら** (#99): *no sooner had A happened than B (a sudden change)*.\n- **〜次第** (*as soon as, I will…*) — used for future plans and requests, the opposite of this pattern.\n- **〜や否や / 〜なり** (N1): very literary equivalents.\n\nRelated うちに patterns (see list p.220): Vうちに (*while ~, gradually*) and Vないうちに (*before ~ happens*) are N3-level; this pattern is the N2 addition.\n\nJLPT tip: in ordering questions, look for pieces like ○○か / ○○ない / かのうちに — the verb must repeat and か appears twice.",
           "see": [
             99
           ],
@@ -606,11 +606,11 @@ N2.register({
             },
             {
               "ja": "{酔|よ}った彼女は、{泣|な}くやら、わめくやら、手がつけられない{状態|じょうたい}だった。",
-              "en": "Drunk, she was crying, shouting and so on — there was no handling her."
+              "en": "Drunk, she was crying, screaming and carrying on — there was no handling her."
             },
             {
               "ja": "{海|うみ}で子どもを助けたことが新聞に{載|の}って、うれしいやら{恥|は}ずかしいやら…。",
-              "en": "The story of how I saved a child at the beach was in the newspaper — I'm happy, embarrassed…"
+              "en": "The story of how I saved a child at the beach was in the newspaper — I'm both happy and embarrassed…"
             }
           ],
           "deepDive": "**AやらBやら** lists two representative items out of a larger, rather messy set: *what with A and B (and all sorts of things)*. The flavor is that there was **a lot going on** — busy, chaotic, overwhelming — or that the speaker is flooded with **mixed emotions**: うれしいやら悲しいやら, 驚くやらあきれるやら.\n\nConnection: V-る, い-adjectives and nouns can all be used (荷造りやら掃除やら, 笑うやら泣くやら, 痛いやらかゆいやら). The two parts are often of the same type. Common continuations:\n- **〜やら〜やらで** (reason): 仕事やら家事やらで忙しい.\n- **〜やら〜やらの + N**: 本やら雑誌やらの山.\n- Stand-alone at the end of a sentence with feelings: 悔しいやら情けないやら…\n\nSecond meaning — uncertainty: やら comes from an old question particle, so **〜のやら〜のやら** means *whether A or B, I can't tell*: 本気なのやら冗談なのやら. The same origin shows in 何やら (*something or other*), どこやら, 誰やら.\n\nCompare:\n- **〜とか〜とか**: neutral, conversational listing.\n- **〜たり〜たり**: neutral listing of actions.\n- **〜やら〜やら**: adds the nuance of confusion, burden or emotional overload. You wouldn't use it for a calm, orderly list (✗趣味は読書やら映画やらです sounds odd).\n\nThe book marks it as a conversational pattern, but it also appears in light essays (like this chapter's). JLPT tip: a pair of contrasting feelings followed by 、or … strongly suggests やら〜やら.",
@@ -785,7 +785,7 @@ N2.register({
               "まいか"
             ],
             "answer": 2,
-            "en": "Even if you think you won't repeat the same mistake, humans are the kind of creature that ends up doing it anyway.",
+            "en": "Even if you resolve never to repeat the same mistake, humans are the kind of creature that ends up doing it anyway.",
             "why": {
               "en": "〜まいと思う: to resolve not to do something."
             }
@@ -906,7 +906,7 @@ N2.register({
           "{新米|しんまい}ドライバーの私[1]、カーナビは{必需品|ひつじゅひん}だ。{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で{目的地|もくてきち}まで道案内をしてくれる。高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。その声は本当に{心配|しんぱい}しているかのようだ。まさに{有能|ゆうのう}な{秘書|ひしょ}だ。地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。だがその彼女もカーナビがあれば道に{迷|まよ}うことはある[2]と思っているらしく、地図を見ていた[3]、いつの間にか寝ていることもある。そうしたら、{秘書|ひしょ}と2人きりのドライブだ。静かでいいと思う{反面|はんめん}、そのドライブにはどこかさびしい[4]。"
         ],
         "en": [
-          "For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and just when I think she's been looking at the map, sometimes she has fallen asleep before I knew it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."
+          "For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and sometimes, just when I think she's looking at the map, she has dozed off before I know it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."
         ],
         "blanks": [
           {
@@ -991,9 +991,9 @@ N2.register({
               }
             ],
             "en": [
-              "A man is talking at a zoo. What does the man say the fact that this bird doesn't move is related to?",
+              "A man is talking at a zoo. What does the man say the bird's not moving has to do with?",
               "Well, this is the shoebill, famous as a bird that doesn't move. As you can see, its head is large for its body, and its beak is wide — those are its characteristics. The reason this bird doesn't move lies in the way it eats. Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak. The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes. Oh, the child over there, please be careful. It sometimes suddenly comes up close, trying to startle children...",
-              "What does he say the fact that this bird doesn't move is related to?"
+              "What does he say the bird's not moving has to do with?"
             ],
             "options": [
               "{体|からだ}の{大|おお}きさ",

@@ -201,7 +201,7 @@ N2F({
         "**〜にともない / にともなって** comes from 伴う *to accompany, to go along with*. X にともなって Y = *Y happens as a consequence of / along with X*. X is the main event or change; Y is the side effect that comes with it.\n\n" +
         "Two typical uses:\n" +
         "- **An event and its consequence**: 道路工事にともなう通行止め, 本社移転にともなって新システムが導入される. Very common in official notices and news.\n" +
-        "- **Change linked to change**: 時代の変化にともなって考え方も変わる, 気温の上昇にともない売り上げが増える. Here it is close to **〜につれて** (#65), but につれて is more everyday and focuses on gradual proportional change, while にともなって is formal and can also mark a one-off event.\n\n" +
+        "- **Change linked to change**: 時代の変化にともなって考え方も変わる, 気温の上昇にともない売り上げが増える. Here it is close to **〜につれて** (a ➕Plus form under #65), but につれて is more everyday and focuses on gradual proportional change, while にともなって is formal and can also mark a one-off event.\n\n" +
         "Forms: にともなって (standard), にともない (written, news — as in 台風の接近にともない), にともなう + N (noun modifier). A common news formula is **それにともない、…** *and accordingly…*. Verbs can also be used with の: 気温が上がるのにともなって, though N + にともない is by far the most frequent.\n\n" +
         "Compare with **〜とともに** (#35): both can express linked change (時代の変化とともに / にともなって). But only とともに can mean *together with a person*: ✓家族とともに暮らす, ✗家族にともなって暮らす. にともなって always implies cause–effect between events.\n\n" +
         "Also don't mix it up with **〜に応じて** (#4, adjusting deliberately to a condition) — 収入に応じて税金が決まる is a rule of matching, not a side effect.\n\n" +
@@ -361,7 +361,7 @@ N2F({
             { q: "{花村|はなむら}さんが（　）、{送別会|そうべつかい}を始めましょう。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 0, en: "Let's start the farewell party as soon as Ms. Hanamura arrives." },
             { q: "{花村|はなむら}さんが（　）、{職場|しょくば}の{雰囲気|ふんいき}が明るくなった。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 1, en: "Ever since Ms. Hanamura came, the atmosphere at work has become brighter." },
             { q: "お客様からのご{入金|にゅうきん}が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。", options: ["でき{次第|しだい}", "できるとともに"], answer: 0, en: "We will ship the goods as soon as we have confirmed the customer's payment." },
-            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologise that, at the time of this aircraft's departure, the departure time was greatly delayed owing to a safety check of the emergency doors." },
+            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologise that, when this aircraft was about to depart, our departure was greatly delayed owing to a safety check of the emergency doors." },
           ],
         },
       ],

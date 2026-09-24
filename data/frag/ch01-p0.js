@@ -21,7 +21,7 @@ N2F({
       { ja: "{給与|きゅうよ}▶{時給|じきゅう}　7時〜 9時　1,000円〜", en: "Pay: hourly wage, 7:00–9:00: from ¥1,000" },
       { ja: "9時〜22時　900円", en: "9:00–22:00: ¥900" },
       { ja: "22時〜24時30分　1,125円〜", en: "22:00–24:30: from ¥1,125" },
-      { ja: "＊{経験|けいけん}{年数|ねんすう}**に{応|おう}じ**、{時給|じきゅう}は{考慮|こうりょ}します。", en: "* The hourly wage will take into account your years of experience." },
+      { ja: "＊{経験|けいけん}{年数|ねんすう}**に{応|おう}じ**、{時給|じきゅう}は{考慮|こうりょ}します。", en: "* The hourly wage will be adjusted according to your years of experience." },
       { ja: "交通費▶{往復|おうふく}1,000円まで{支給|しきゅう}", en: "Transportation: up to ¥1,000 round trip paid" },
       { ja: "{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに{記入|きにゅう}し、{下記|かき}のメールアドレスまでお送りください。電話でのお{問|と}い{合|あ}わせは10時〜18時。", en: "How to apply: fill in our store's designated form and send it to the email address below. Telephone inquiries: 10:00–18:00." },
       { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は{採否|さいひ}**にかかわらず**、{通知|つうち}します。", en: "We will notify you of the result of the document screening whether you are accepted or not." },
@@ -47,14 +47,14 @@ N2F({
       examples: [
         { ja: "{清掃|せいそう}中につき、お{足元|あしもと}にご注意ください。", en: "Cleaning in progress — please watch your step." },
         { ja: "会場内は{禁煙|きんえん}につき、おたばこはご{遠慮|えんりょ}ください。", en: "Smoking is prohibited inside the venue, so please refrain from smoking." },
-        { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): Dr. Sato will not see patients as he is attending an academic conference." },
+        { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations with Dr. Sato, who is attending an academic conference." },
         { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left." },
       ],
       xref: "☞ p.224　〜につき",
       deepDive:
         "**〜につき** is a stiff, written way of saying *because of ~*. It belongs to the world of signs, posters, notices on shop doors and official letters — you would sound odd saying 雨につき、行かない to a friend (just say 雨だから).\n\n" +
         "Structure: it attaches directly to a noun, very often a Sino-Japanese noun that describes a state or event: 工事中・清掃中・準備中・祝日・雨天・改装・品切れ. The second half is typically a notice, request or apology: …休業します / …ご注意ください / …ご遠慮ください.\n\n" +
-        "Don't confuse it with the N3 **〜につき = “per”** (1人につき500円 “¥500 per person”, 1回につき “per time”). Context makes it clear: a number/unit before につき → *per*; a situation before につき → *because of*.\n\n" +
+        "Don't confuse it with the other **〜につき = “per”** (1人につき500円 “¥500 per person”, 1回につき “per time”). Context makes it clear: a number/unit before につき → *per*; a situation before につき → *because of*.\n\n" +
         "- Similar reason words: 〜ため（に） (neutral, written), 〜により (formal, cause), 〜ので (neutral, spoken & written).\n" +
         "- JLPT tip: if the sentence looks like a sign or notice and the blank follows a situation noun (清掃中, 改装工事中), につき is almost always the answer.",
       see: [],
@@ -121,7 +121,7 @@ N2F({
         "**〜を問わず** literally means *without asking about ~* (問う = to question, to make something an issue). So 年齢を問わず = *we don't ask about age* → *regardless of age*.\n\n" +
         "The noun before it must describe something that **varies** — a category with several possible values (年齢, 国籍, 季節, 天候) or a pair of opposites (男女, 昼夜, 内外, 有無, 経験の有無, 老若男女). You can't say ✗田中さんを問わず, because “Tanaka” doesn't have values to choose among. This is why, in the practice, 国の内外 works but 海外 or 外国 alone does not.\n\n" +
         "Compare the close relatives:\n" +
-        "- **〜にかかわらず** (#5): also *regardless of*; can follow opposite pairs of verbs/adjectives too (行く行かないにかかわらず). を問わず only takes nouns.\n" +
+        "- **〜にかかわらず** (#5): also *regardless of*; can follow opposite pairs of verbs/adjectives too (行く行かないにかかわらず). を問わず normally follows nouns.\n" +
         "- **〜に限らず** (#72): *not only ~ (but also others)* — widens the range: 若者に限らず、お年寄りも.\n" +
         "- **〜もかまわず** (#127): *without caring about ~* — describes someone's attitude, often critical.\n" +
         "- **〜はもちろん**: *not to mention ~* — with 昼間 … 夜も you need はもちろん, not を問わず (practice 2).\n\n" +
@@ -221,7 +221,7 @@ N2F({
       ],
       deepDive:
         "**〜に応じて** means *in response to / in proportion to / in accordance with*. The key idea: **when X changes, Y changes to match it**. 利用額に応じてポイントがつく — the more you spend, the more points you get.\n\n" +
-        "- **に応じ** is the written, clause-linking form (like 〜て → 連用形): 能力や経験に応じ、決めさせていただきます.\n" +
+        "- **に応じ** is the written, clause-linking form (the continuative 連用形, a stiffer alternative to に応じて): 能力や経験に応じ、決めさせていただきます.\n" +
         "- **に応じた + N** modifies a noun: 場所や場合に応じた服装 *clothing suited to the place and occasion*.\n\n" +
         "How it differs from its neighbors:\n" +
         "- **〜によって** (*depending on*) simply says results differ: 習慣は国によって違う. に応じて adds the idea of *deliberately adjusting to fit*: 相手に応じて話し方を変える. So 習慣は国に応じて違う sounds wrong — nobody adjusts customs to fit the country.\n" +
@@ -272,7 +272,7 @@ N2F({
         "Its most characteristic shape is **[V-る] + [V-ない] + にかかわらず**: わかるわからないにかかわらず, 発言するしないにかかわらず. The same A-or-not-A idea appears with nouns: 有無, 大小, 多少, 晴雨, 採否, 好き嫌い, 善悪. The phrase **〜のいかんにかかわらず** (*whatever the ~ may be*) is a formal fixed expression.\n\n" +
         "Comparing with **〜を問わず** (#2):\n" +
         "- Both mean *regardless of*, and are often interchangeable with nouns: 年齢を問わず ≈ 年齢にかかわらず.\n" +
-        "- Only にかかわらず takes verb/adjective pairs: ✓出席するしないにかかわらず / ✗出席するしないを問わず.\n\n" +
+        "- With verb/adjective pairs, にかかわらず is the natural choice: ✓出席するしないにかかわらず (を問わず normally follows nouns).\n\n" +
         "The big trap is **にもかかわらず** (#21) — one extra も changes the meaning to *in spite of*. On the test, read the sentence: if the second half contradicts expectations, you need にもかかわらず.",
       see: [2, 21],
       index: ["〜にかかわらず", "VるVないにかかわらず", "〜のいかんにかかわらず"],
@@ -320,7 +320,7 @@ N2F({
         { ja: "今回の{風力|ふうりょく}{発電|はつでん}{施設|しせつ}の{建設|けんせつ}は{自然|しぜん}エネルギー{開発|かいはつ}において大きな意味があると言われている。", en: "The construction of this wind power facility is said to be of great significance for the development of natural energy." },
       ],
       deepDive:
-        "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event) and sometimes of **に** (existence in a domain). **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\n" +
+        "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event). Unlike に, it does not mark where something simply exists: ✗部屋において机がある. **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\n" +
         "Three typical uses:\n" +
         "- **Place of an official event**: 入学式は、3階のホールにおいて行われます. (Very common with 行われる/開催される.)\n" +
         "- **Time/era**: 江戸時代において, 現代において.\n" +
@@ -380,7 +380,7 @@ N2F({
         "- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n" +
         "- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n" +
         "**〜に際して** (Plus) attaches directly to a noun and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\n" +
-        "Common mistake: 地震のとき → 地震の際 ✓, but ✗地震な際. Remember の.",
+        "Common mistake: forgetting の after a noun: 地震のとき → ✓地震の際 (not ✗地震際).",
       see: [135],
       index: ["V際（に）", "Nの際（に）", "Nに際して"],
       practice: [
@@ -475,7 +475,7 @@ N2F({
         { q: "わが社では{経験|けいけん}＿＿、広く{人材|じんざい}を{募集|ぼしゅう}している。", answer: "を{問|と}わず", en: "Our company is widely recruiting people, regardless of experience." },
         { q: "カレーの{辛|から}さはお客様のご{希望|きぼう}＿＿{調整|ちょうせい}いたします。", answer: "に{応|おう}じて", en: "We adjust the spiciness of the curry according to the customer's wishes." },
         { q: "{進学|しんがく}説明会は6月3日に東ホテル＿＿{行|おこな}われます。", answer: "において", en: "The information session on further education will be held on June 3 at the Higashi Hotel." },
-        { q: "毎週日曜日は{先着|せんちゃく}10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。", answer: "に{限|かぎ}り", en: "Every Sunday, the first 10 people only can try the ninja experience for free." },
+        { q: "毎週日曜日は{先着|せんちゃく}10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。", answer: "に{限|かぎ}り", en: "Every Sunday, only the first 10 people can try the ninja experience for free." },
       ],
     },
     {

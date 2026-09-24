@@ -66,7 +66,7 @@ N2.register({
           },
           {
             "ja": "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。",
-            "en": "Our ABK Hotel has been valued by many guests for the high quality of its service, and has been loved by them."
+            "en": "Our ABK Hotel has been highly rated by many guests for the quality of its service, and has long been loved by them."
           },
           {
             "cont": true,
@@ -317,7 +317,7 @@ N2.register({
           "examples": [
             {
               "ja": "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。",
-              "en": "Because a typhoon was approaching, the open-air concert had to be cancelled."
+              "en": "Because a typhoon was approaching, there was no choice but to cancel the open-air concert."
             },
             {
               "ja": "会社からの{転勤|てんきん}{命令|めいれい}には{従|したが}わざるを{得|え}ないと考える人が多いらしい。",
@@ -371,7 +371,7 @@ N2.register({
               "en": [
                 "I'm bad at housework, but once I started living on my own, I had no choice but to do it all myself.",
                 "Our school used to allow students to commute by motorbike, but because accidents kept happening, we had no choice but to ban it.",
-                "Because he injured his shoulder, he had to give up his dream of becoming a professional baseball player.",
+                "Because he injured his shoulder, he had no choice but to give up his dream of becoming a professional baseball player.",
                 "If a client asks us, we have no choice but to accept even an unreasonable order."
               ]
             }
@@ -416,7 +416,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.224　〜もの／もん",
-          "deepDive": "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\nTypical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n- **というものでもない** (with も) is softer: *nor is it simply that ~*, often used when adding one more point.\n- Colloquial: **というもんじゃない / ってもんじゃない**.\n\nCompare with similar endings:\n- **〜わけではない** (#19): *it doesn't mean that ~* — corrects an inference from a specific fact (嫌いなわけではない). というものではない rejects a general belief or formula.\n- **〜とは限らない** (N3): *not always ~* — close in meaning, more neutral.\n- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n(See the 〜もの／もん list on p.224 for the whole family.)\n\nJLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) shows a speaker who *does* believe the formula (にちがいない), while in item 2) the context (昨今の就職難) rejects it, so というものではない is correct.",
+          "deepDive": "**〜というものではない** literally says *it is not a thing of the kind “~”*. It rejects a general assumption or rule of thumb: ただ謝ればいい**というものではありません** — *it's not (true) that simply apologizing is enough*. It's a **partial** denial: not *never*, but *not necessarily / not automatically*.\n\nTypical shape: **〜ば（〜たら）いい／〜ば…する + というものではない**. The conditional before it expresses the “easy formula” that the speaker rejects: 謝ればいい, 愛があればいい, 鍵をかければ防げる. Very often a sentence follows explaining what really matters.\n\n- **というものでもない** (with も) is softer: *nor is it simply that ~*, often used when adding one more point.\n- Colloquial: **というもんじゃない / ってもんじゃない**.\n\nCompare with similar endings:\n- **〜わけではない** (#19): *it doesn't mean that ~* — corrects an inference from a specific fact (嫌いなわけではない). というものではない rejects a general belief or formula.\n- **〜とは限らない** (N3): *not always ~* — close in meaning, more neutral.\n- **〜ものではない** (#46): *one shouldn't ~* (social norm): 人の悪口を言うものではない. Different meaning entirely!\n- **Nというものだ** (#52): *that's what ~ is (by nature)* — the positive assertion form.\n(See the 〜もの／もん list on p.224 for the whole family.)\n\nJLPT tip: when the blank follows 〜ばいい／〜ば〜 and the context says the formula doesn't hold, というものではない is the answer; but read carefully — in the practice, item 3) states the belief itself, which the listener may hold (安くすれば客は来る**にちがいない**と思うかもしれませんが…), so the affirmative form is needed there; in item 2) the context (昨今の就職難) rejects the formula, so というものではない is correct.",
           "see": [
             13,
             19,
@@ -542,7 +542,7 @@ N2.register({
               "labels": "ab",
               "prompt": {
                 "ja": "",
-                "en": "Choose the correct option. (Item 4 has an illustration: a man nervously shows a woman a misshapen homemade cake.)"
+                "en": "Choose the correct option. (Item 4 has an illustration: a man shows a woman a misshapen homemade cake.)"
               },
               "items": [
                 {
@@ -618,7 +618,7 @@ N2.register({
               "en": "If information isn't managed properly, personal data could be misused."
             }
           ],
-          "deepDive": "**〜かねない** comes from the verb **かねる** *to be unable to (bring oneself to)*, as in わかりかねます *I'm afraid I can't tell*. Negating it — かね**ない** — gives *not unable to* → *quite capable of happening* → *there's a real risk that ~*. Think of it as a double negative that points to danger.\n\nKey points:\n- **Only for bad outcomes.** ✗成功しかねない, ✗合格しかねない. For neutral or good possibilities use かもしれない.\n- **Connection: ます-stem**: 倒産しかねない, 起こしかねない, 失いかねない. ✗起こすかねない is a frequent mistake.\n- **Polite form: かねません** — very common in explanations, warnings and business talk (like the sample: 信頼を失いかねません).\n- The judgment is based on the present situation, often in a conditional frame: 〜と／〜たら／〜ば、…かねない.\n\nCompare:\n- **〜おそれがある** (#34): *there's a risk that* — more formal and written (news, weather warnings): 大雨のおそれがある. かねない is used in speech too and often implies the speaker's worry or criticism about someone's behaviour: 伊藤さんならクラス中の人に話しかねない *she's quite capable of telling the whole class*.\n- **〜かもしれない**: pure possibility, positive or negative.\n- **V-かねる** (positive form): *can't (bring oneself to) / I'm afraid we can't* — the opposite meaning! お答えしかねます = *I'm unable to answer*.\n\nJLPT tip: if the sentence warns of a bad consequence (事故, 骨折, 倒産, 信頼を失う) and the options include かねない vs かねる, choose かねない; かねる would mean the bad thing *can't* happen.",
+          "deepDive": "**〜かねない** comes from the verb **かねる** *to be unable to (bring oneself to)*, as in わかりかねます *I'm afraid I can't tell*. Negating it — かね**ない** — gives *not unable to* → *quite capable of happening* → *there's a real risk that ~*. Think of it as a double negative that points to danger.\n\nKey points:\n- **Only for bad outcomes.** ✗成功しかねない, ✗合格しかねない. For neutral or good possibilities use かもしれない.\n- **Connection: ます-stem**: 倒産しかねない, 起こしかねない, 失いかねない. ✗起こすかねない is a frequent mistake.\n- **Polite form: かねません** — very common in explanations, warnings and business talk (like the sample: 信頼を失いかねません).\n- The judgment is based on the present situation, often in a conditional frame: 〜と／〜たら／〜ば、…かねない.\n\nCompare:\n- **〜おそれがある** (#34): *there's a risk that* — more formal and written (news, weather warnings): 大雨のおそれがある. かねない is used in speech too and often implies the speaker's worry or criticism about someone's behaviour: 伊藤さんならクラス中の人に話しかねない *she's quite capable of telling the whole class*.\n- **〜かもしれない**: pure possibility, positive or negative.\n- **V-かねる** (positive form): *can't (bring oneself to) / I'm afraid we can't* — the opposite meaning! お答えしかねます = *I'm unable to answer*.\n\nJLPT tip: if the sentence warns of a bad consequence (事故, 骨折, 倒産, 信頼を失う) and the options include かねない vs かねる, choose かねない; V-かねる would mean someone is *unable (or unwilling) to do* it, which doesn't fit a warning.",
           "see": [
             34
           ],
@@ -1276,7 +1276,7 @@ N2.register({
             ],
             "answer": 0,
             "why": {
-              "en": "A polite refusal: \"I'm a bit short on time.\" 答えかねない (might answer — a bad outcome) makes no sense here."
+              "en": "A polite refusal: \"I'm a bit short on time.\" 答えかねません means \"I might (end up) answering\" — a warning about a bad outcome, which makes no sense here. (The polite refusal would be 答えかねます, *I'm afraid I can't answer*.)"
             }
           },
           {

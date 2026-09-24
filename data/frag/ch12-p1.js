@@ -135,7 +135,7 @@ N2F({
         "**V-る + 一方だ** says that a change **keeps going in one direction** and shows no sign of stopping: 増える一方, 減る一方, 悪くなる一方, 高まる一方. The verb must express change — ✗食べる一方 or ✗ある一方 don't work in this sense.\n\n" +
         "It is usually (not always) used for unwelcome trends — hence the frowning mark: 物価は上がる一方だ, 不安は大きくなる一方だ. Neutral trends are possible (語学力の必要性は高まる一方だ), but you'll rarely see it for clearly happy changes.\n\n" +
         "Grammar: 一方だ at the end, 一方で / 一方なので mid-sentence, 一方の + N is rare.\n\n" +
-        "**Plus: V-る + ばかりだ** means the same (*just keeps ~ing*) and is even more strongly negative: 悪くなるばかりだ. ばかり has many other uses, though (see the list): 〜たばかり (*just did*), Nばかり (*nothing but*), 〜ばかりか (*not only*), 〜ばかりに (#48, *simply because ~, something bad happened*).\n\n" +
+        "**Plus: V-る + ばかりだ** means the same (*just keeps ~ing*) and is likewise mostly used for unwelcome changes: 悪くなるばかりだ. ばかり has many other uses, though (see the list): 〜たばかり (*just did*), Nばかり (*nothing but*), 〜ばかりか (*not only*), 〜ばかりに (#48, *simply because ~, something bad happened*).\n\n" +
         "The big trap is **〜一方（で）** (#61), *while / on the other hand*: 歌手として活躍する一方、映画にも出始めた. How to tell them apart:\n" +
         "- **#115**: change verb + 一方**だ** (sentence end), or + 一方で followed by a *consequence* (物価が上がる一方で、留学生の生活も大変だろう).\n" +
         "- **#61**: 一方（で）links two **contrasting** facts or two parallel activities (広告を流す一方で、店頭でサンプルの手渡しも行っている). The part after it is a different, contrasting fact.\n\n" +
@@ -193,7 +193,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "{国王|こくおう}の{来日|らいにち}（　）{警備体制|けいびたいせい}が{見直|みなお}された。", options: ["に{先立|さきだ}って", "につれて"], answer: 0, en: "Ahead of the king's visit to Japan, security arrangements were reviewed." },
-            { q: "入社試験（　）会社説明会に1,000人が集まった。", options: ["に{先立|さきだ}つ", "にわたる"], answer: 0, en: "1,000 people attended the company information session held before the entrance exam." },
+            { q: "入社試験（　）会社説明会に1,000人が集まった。", options: ["に{先立|さきだ}つ", "にわたる"], answer: 0, en: "1,000 people attended the company information session held ahead of the recruitment exam." },
             { q: "{台風|たいふう}の{接近|せっきん}（　）{風雨|ふうう}が強くなった。", options: ["に{先立|さきだ}って", "にともなって"], answer: 1, en: "As the typhoon approached, the wind and rain grew stronger." },
             { q: "交通{機関|きかん}の{発達|はったつ}（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。", options: ["に{先立|さきだ}って", "とともに"], answer: 1, en: "Along with the development of transportation, the range of people's activities also expanded." },
           ],

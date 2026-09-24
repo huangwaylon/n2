@@ -15,7 +15,7 @@ N2F({
       { sp: "{渡辺|わたなべ}", v: "f", ja: "ねえ、サークルのみんなで旅行に行かない？　私もアメリカに留学しちゃったら、みんなにも{簡単|かんたん}に会えなくなるし…。去年{京都|きょうと}に行った**きり**、今年はどこへも行っていないし…。", en: "Hey, why don't we all go on a trip with the club? Once I go off to study in America, I won't be able to see everyone so easily... We haven't gone anywhere this year since that trip to Kyoto last year..." },
       { sp: "{木山|きやま}", v: "m", ja: "悪いけど、{就職先|しゅうしょくさき}もまだ決まらないのに、旅行**どころじゃない**よ。", en: "Sorry, but I haven't even found a job yet — I'm in no position to go on a trip." },
       { sp: "渡辺", v: "f", ja: "そうか…。ゲーム{会社|がいしゃ}に入りたいんだったよね。どう？", en: "I see... You wanted to get into a game company, right? How's it going?" },
-      { sp: "木山", v: "m", ja: "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。", en: "Hmm. I'm gathering all sorts of information, but it's really tough... The annoying thing is that in this industry, every company's job posting says “a few people.”" },
+      { sp: "木山", v: "m", ja: "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。", en: "Hmm. I'm gathering all sorts of information, but it's really tough... The annoying thing is that in this industry, every company's job ad just says they're hiring “a small number of people.”" },
       { sp: "渡辺", v: "f", ja: "へえ。人気の業界**にしては**、{求人|きゅうじん}少ないんだね。", en: "Huh. For such a popular industry, there aren't many openings, are there?" },
       { sp: "木山", v: "m", ja: "{求人|きゅうじん}があるところは全部{応募|おうぼ}して、{自己|じこ}{ＰＲ|ピーアール}何回書いた**ことか**。", en: "I've applied to every place that's hiring — I can't tell you how many self-promotion statements I've written." },
     ],
@@ -74,7 +74,7 @@ N2F({
         "Quick test: if you can translate with *with ~ on / still ~*, use まま; if you can say *and since then, not…*, use きり.\n" +
         "\n" +
         "The two clip-note uses:\n" +
-        "- **V-ます + (っ)きり** describes a continuous state: 看病につきっきり, 仕事にかかりきり. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n" +
+        "- **V-ます + (っ)きり** describes a continuous state: つきっきりで看病する, 仕事にかかりきりだ. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n" +
         "- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n" +
         "\n" +
         "Don't confuse this with **思いっきり** (*with all your might*) or **はっきり / すっきり**, which are unrelated adverbs.",
@@ -87,7 +87,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "うっかり{眼鏡|めがね}をかけた（　）顔を洗ってしまった。", options: ["まま", "きり"], answer: 0, en: "I carelessly washed my face with my glasses still on." },
-            { q: "忙しくて、朝コーヒーを飲んだ（　）で、夕方まで何も食べられなかった。", options: ["まま", "きり"], answer: 1, en: "I was so busy that after drinking a coffee in the morning I couldn't eat anything until evening." },
+            { q: "忙しくて、朝コーヒーを飲んだ（　）で、夕方まで何も食べられなかった。", options: ["まま", "きり"], answer: 1, en: "I was so busy that all I had was a coffee in the morning, and I couldn't eat anything until evening." },
             { q: "電車の中で立った（　）寝ている人がいるのは日本だけだろうか。", options: ["まま", "きり"], answer: 0, en: "I wonder if Japan is the only place where people sleep standing up on the train." },
             { q: "いつもDVDで見ているから、映画館なんて3年前に行った（　）だ。", options: ["まま", "きり"], answer: 1, en: "I always watch DVDs, so the last time I went to a movie theater was three years ago." },
           ],
@@ -118,14 +118,14 @@ N2F({
         "- 歯が痛くて、食事どころではない.\n" +
         "- The noun is often an activity noun: 旅行・勉強・仕事・花見・休暇.\n" +
         "\n" +
-        "Although the book frames it as describing *your own* situation, it's also used to **scold** someone, telling them their situation doesn't allow something: 試験前なのに、遊んでいるどころじゃないだろう. The past form どころではなかった looks back on a missed experience.\n" +
+        "Although the book frames it as describing *your own* situation, with だろう it can also be used to **scold** someone, telling them their situation doesn't allow something — as in example ③: この忙しいときに、お前、休暇どころじゃないだろう. The past form どころではなかった looks back on a time when circumstances made the activity impossible.\n" +
         "\n" +
         "Don't confuse it with:\n" +
         "- **〜どころか** (#83): *far from ~, actually the opposite*: 涼しいどころか寒かった. That's about contradicting a statement, not about being unable to do something.\n" +
         "- **V-るところだった** (#89): *almost happened*.\n" +
         "- **〜わけにはいかない** (#57): can't do it for social/moral reasons; どころではない is about the situation making it impossible.\n" +
         "\n" +
-        "Common mistake: putting the *problem* before どころ. ✗忙しいどころではない (when you mean you can't travel). The thing before どころ is the activity you **can't** do: 旅行どころではない.\n" +
+        "Common mistake: putting the *problem* before どころ. If you mean you can't travel because you're busy, say 忙しくて旅行どころではない — the thing before どころ is the activity you **can't** do. (忙しいどころではない does exist, but it means something else: *\"busy\" doesn't begin to describe it*.)\n" +
         "\n" +
         "JLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
       see: [83, 89],
@@ -265,11 +265,11 @@ N2F({
         "- プロにしては下手だ — *bad, for a professional*.\n" +
         "\n" +
         "Important restrictions:\n" +
-        "- X is something concrete that sets an expectation (age, price, experience, profession, season). You can't use it for a general category the subject obviously belongs to without a contrast.\n" +
+        "- X is something concrete that sets an expectation (age, price, experience, profession, season), and the second half must go **against** that expectation. If the result simply matches X, use だけあって (#105) instead: プロだけあって上手だ, not ✗プロにしては上手だ.\n" +
         "- **それにしては** = *considering that*; don't confuse it with **それにしても** (*even so / anyway*), which just changes the topic or emphasizes.\n" +
         "\n" +
         "Similar patterns:\n" +
-        "- **〜わりに（は）** (#95): very close, but わりに can follow adjectives/degree words directly (値段のわりに, 高いわりに) and is slightly more casual. にしては tends to take a single specific standard (千円にしては).\n" +
+        "- **〜わりに（は）** (#95): very close, but わりに can follow adjectives and scale nouns directly (値段のわりに, 高いわりに), whereas にしては takes a specific value or status (千円にしては, 小学生にしては; ✗値段にしては).\n" +
         "- **〜として** (*as ~, in the capacity of*): no idea of unexpectedness — 代表として挨拶した.\n" +
         "- **〜に応じて** (#4): *in accordance with* — totally different meaning, but a favorite distractor.\n" +
         "\n" +

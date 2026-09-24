@@ -37,7 +37,7 @@ N2.register({
             "sp": "川口",
             "v": "f",
             "ja": "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}し**がち**ですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。歩きやすい{靴|くつ}がほしいと思い**つつも**、デザインを{優先|ゆうせん}してしまう人が多いと思うんです。",
-            "en": "When it comes to walking shoes, people tend to put comfort ahead of looks, but for women, the deciding factor when buying is design, after all. I think there are a lot of people who, even though they want shoes that are easy to walk in, end up putting design first."
+            "en": "When it comes to walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, the deciding factor when buying is design, after all. I think there are a lot of people who, even though they want shoes that are easy to walk in, end up putting design first."
           },
           {
             "sp": "山下",
@@ -186,7 +186,7 @@ N2.register({
           "examples": [
             {
               "ja": "2人は{夕暮|ゆうぐ}れの道を川にそって歩き続けた。",
-              "en": "The two of them kept walking along the river on the road at dusk."
+              "en": "The two of them kept walking along the river road at dusk."
             },
             {
               "ja": "お客様への{対応|たいおう}はマニュアルにそって{行|おこな}うこと。",
@@ -201,7 +201,7 @@ N2.register({
               "en": "I will strive to live up to the expectations of all of you, the people of this nation."
             }
           ],
-          "deepDive": "**〜にそって** comes from the verb 沿う (*to run alongside, to follow*). The kanji form 〜に沿って is common in writing; the book and most JLPT materials write it in hiragana.\n\nTwo meanings:\n- **Physical — along a line**: 川にそって歩く, 線路にそって走る. The noun is something long (川, 道, 線路, 壁).\n- **Abstract — in line with a standard**: マニュアルにそって行う, 計画にそって進める, テーマにそった作品. The noun is a plan, rule, procedure, theme or someone's wishes; the action *follows* it faithfully.\n\nForms: にそって (adverbial), **にそう + N / にそった + N** (modifying a noun: 方針にそった内容). **〜にそうよう（に）** + 努力します / 努めます is a polite set phrase: ご期待にそうよう、努力いたします *we will strive to meet your expectations*.\n\nNeighbours:\n- **〜にしたがって** — *following, obeying* (instructions, rules); also *as X changes*. Very close in the abstract meaning, but にそって emphasises *keeping along the line* of something laid out.\n- **〜に基づいて** — *based on* (data, facts, laws) — the source, not the path.\n- **〜にこたえて** (#118) — *in response to* a request or expectation.\n\nPitfall: にそって describes doing something *according to* the standard, so the main clause must be an action that follows it. ✗計画にそって住民が反対した makes no sense — opposing isn't something residents do *following* the plan (this is exactly what the practice tests).",
+          "deepDive": "**〜にそって** comes from the verb 沿う (*to run alongside, to follow*). The kanji form 〜に沿って is common in writing; the book writes it in hiragana.\n\nTwo meanings:\n- **Physical — along a line**: 川にそって歩く, 線路にそって走る. The noun is something long (川, 道, 線路, 壁).\n- **Abstract — in line with a standard**: マニュアルにそって行う, 計画にそって進める, テーマにそった作品. The noun is a plan, rule, procedure, theme or someone's wishes; the action *follows* it faithfully.\n\nForms: にそって (adverbial), **にそう + N / にそった + N** (modifying a noun: 方針にそった内容). **〜にそうよう（に）** + 努力します / 努めます is a polite set phrase: ご期待にそうよう、努力いたします *we will strive to meet your expectations*.\n\nNeighbours:\n- **〜にしたがって** — *following, obeying* (instructions, rules); also *as X changes*. Very close in the abstract meaning, but にそって emphasises *keeping along the line* of something laid out.\n- **〜に基づいて** — *based on* (data, facts, laws) — the source, not the path.\n- **〜にこたえて** (#118) — *in response to* a request or expectation.\n\nPitfall: にそって describes doing something *according to* the standard, so the main clause must be an action that follows it. ✗計画にそって住民が反対した makes no sense — opposing isn't something residents do *following* the plan (this is exactly what the practice tests).",
           "see": [
             118
           ],
@@ -866,7 +866,7 @@ N2.register({
               "xref": "☞ p.224　〜ばかり"
             }
           ],
-          "deepDive": "**V-る + 一方だ** says that a change **keeps going in one direction** and shows no sign of stopping: 増える一方, 減る一方, 悪くなる一方, 高まる一方. The verb must express change — ✗食べる一方 or ✗ある一方 don't work in this sense.\n\nIt is usually (not always) used for unwelcome trends — hence the frowning mark: 物価は上がる一方だ, 不安は大きくなる一方だ. Neutral trends are possible (語学力の必要性は高まる一方だ), but you'll rarely see it for clearly happy changes.\n\nGrammar: 一方だ at the end, 一方で / 一方なので mid-sentence, 一方の + N is rare.\n\n**Plus: V-る + ばかりだ** means the same (*just keeps ~ing*) and is even more strongly negative: 悪くなるばかりだ. ばかり has many other uses, though (see the list): 〜たばかり (*just did*), Nばかり (*nothing but*), 〜ばかりか (*not only*), 〜ばかりに (#48, *simply because ~, something bad happened*).\n\nThe big trap is **〜一方（で）** (#61), *while / on the other hand*: 歌手として活躍する一方、映画にも出始めた. How to tell them apart:\n- **#115**: change verb + 一方**だ** (sentence end), or + 一方で followed by a *consequence* (物価が上がる一方で、留学生の生活も大変だろう).\n- **#61**: 一方（で）links two **contrasting** facts or two parallel activities (広告を流す一方で、店頭でサンプルの手渡しも行っている). The part after it is a different, contrasting fact.\n\nJLPT tip: 〜一方だ at the end of the sentence is almost always #115.",
+          "deepDive": "**V-る + 一方だ** says that a change **keeps going in one direction** and shows no sign of stopping: 増える一方, 減る一方, 悪くなる一方, 高まる一方. The verb must express change — ✗食べる一方 or ✗ある一方 don't work in this sense.\n\nIt is usually (not always) used for unwelcome trends — hence the frowning mark: 物価は上がる一方だ, 不安は大きくなる一方だ. Neutral trends are possible (語学力の必要性は高まる一方だ), but you'll rarely see it for clearly happy changes.\n\nGrammar: 一方だ at the end, 一方で / 一方なので mid-sentence, 一方の + N is rare.\n\n**Plus: V-る + ばかりだ** means the same (*just keeps ~ing*) and is likewise mostly used for unwelcome changes: 悪くなるばかりだ. ばかり has many other uses, though (see the list): 〜たばかり (*just did*), Nばかり (*nothing but*), 〜ばかりか (*not only*), 〜ばかりに (#48, *simply because ~, something bad happened*).\n\nThe big trap is **〜一方（で）** (#61), *while / on the other hand*: 歌手として活躍する一方、映画にも出始めた. How to tell them apart:\n- **#115**: change verb + 一方**だ** (sentence end), or + 一方で followed by a *consequence* (物価が上がる一方で、留学生の生活も大変だろう).\n- **#61**: 一方（で）links two **contrasting** facts or two parallel activities (広告を流す一方で、店頭でサンプルの手渡しも行っている). The part after it is a different, contrasting fact.\n\nJLPT tip: 〜一方だ at the end of the sentence is almost always #115.",
           "see": [
             61,
             48
@@ -978,7 +978,7 @@ N2.register({
                     "にわたる"
                   ],
                   "answer": 0,
-                  "en": "1,000 people attended the company information session held before the entrance exam."
+                  "en": "1,000 people attended the company information session held ahead of the recruitment exam."
                 },
                 {
                   "q": "{台風|たいふう}の{接近|せっきん}（　）{風雨|ふうう}が強くなった。",

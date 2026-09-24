@@ -64,7 +64,7 @@ N2.register({
           deepDive:
             "Point 73 is really a **vocabulary list**: special keigo verbs that replace an ordinary verb entirely, instead of being built by rule (お〜になる / お〜する). The whole skill is knowing which *direction* each word points.\n\n" +
             "**Sonkeigo (尊敬語) — raise the other person** (clients, customers, superiors; never yourself, and never your own colleagues when speaking to outsiders):\n" +
-            "- **お見えになる / お越しになる** = 来る. Softer and more polished than いらっしゃる. Short versions お見えです / お越しです are very common; **お越しください / お越しいただく** are the standard way to invite someone (example ①: 1階の受付までお越しください).\n" +
+            "- **お見えになる / お越しになる** = 来る. Polished alternatives to いらっしゃる, very common in business and service settings. Short versions お見えです / お越しです are very common; **お越しください / お越しいただく** are the standard way to invite someone (example ①: 1階の受付までお越しください).\n" +
             "- **おいでになる** = 行く・来る・いる. Because it covers three verbs, read the context: お車でおいでになりましたか (come). Fixed phrases: おいでの際, おいでください.\n" +
             "- **Vておいでになる** = Vている: 何をしておいでになりますか ≈ 何をしていらっしゃいますか.\n\n" +
             "**Kenjōgo (謙譲語) — lower yourself / your side**:\n" +
@@ -208,7 +208,7 @@ N2.register({
               answer: [1, 2, 3, 0],
               en: [
                 "We deeply apologize for the trouble we have caused.",
-                "Regarding your inquiry, we will contact you within today.",
+                "Regarding your inquiry, we will contact you before the end of today.",
                 "We wish you all good health and success.",
                 "We sincerely look forward to your next visit to our store.",
               ],
@@ -360,7 +360,7 @@ N2.register({
           { q: "ご{注文|ちゅうもん}を（　）。ご利用ありがとうございます。", options: ["いたしました", "うけたまわりました", "なさいました", "されました"], answer: 1, en: "We have received your order. Thank you for using our service.", why: { en: "The shop receives the order → humble 承る (うけたまわる)." } },
           { q: "先生から{貴重|きちょう}な{資料|しりょう}を（　）ことは、私の研究の大きな助けになりました。本当にありがとうございました。", options: ["{拝見|はいけん}できました", "{拝借|はいしゃく}できました", "お貸しになりました", "お見えになりました"], answer: 1, en: "Being able to borrow valuable materials from you was a great help to my research. Thank you very much.", why: { en: "先生から〜を借りる → humble 拝借する." } },
           { q: "先生は{新内閣|しんないかく}についてどう（　）か。", options: ["{存|ぞん}じます", "おわかりです", "お考えです", "{存|ぞん}じ{上|あ}げます"], answer: 2, en: "What do you think about the new cabinet, professor?", why: { en: "どう + 思う/考える of a superior → honorific お考えです. 存じる forms are humble." } },
-          { q: "A：{山本|やまもと}先生、今度の日曜日はお{宅|たく}に（　）か。\nB：あいにく日曜日はちょっと…。", options: ["おこしになります", "おいでになります", "お見えになります", "おります"], answer: 1, en: "A: Professor Yamamoto, will you be at home this Sunday?\nB: Unfortunately, Sunday is a bit...", why: { en: "お宅に（いる）→ honorific おいでになる, which also covers いる. お越しになる / お見えになる only mean 来る." } },
+          { q: "A：{山本|やまもと}先生、今度の日曜日はお{宅|たく}に（　）か。\nB：あいにく日曜日はちょっと…。", options: ["おこしになります", "おいでになります", "お見えになります", "おります"], answer: 1, en: "A: Professor Yamamoto, will you be at home this Sunday?\nB: Unfortunately, Sunday is a bit...", why: { en: "お宅に（いる）→ honorific おいでになる, which also covers いる. お越しになる / お見えになる are honorific for coming (来る), not for being somewhere; おります is humble, so it can't be used for the teacher." } },
           { q: "こちらの{商品|しょうひん}はセール{品|ひん}でございますので、{交換|こうかん}はご{遠慮|えんりょ}（　）。", options: ["願います", "{存|ぞん}じます", "いたしません", "うけたまわりません"], answer: 0, en: "This item is a sale item, so we ask you to refrain from requesting an exchange.", why: { en: "ご遠慮願います = please refrain (#74)." } },
           { q: "お忙しいところ{恐縮|きょうしゅく}ですが、{貴社|きしゃ}{主催|しゅさい}のツアーについて、{詳細|しょうさい}を教えて（　）と{存|ぞん}じます。どうぞよろしくお願いします。", options: ["さしあげて", "さしあげれば", "いただけて", "いただければ"], answer: 3, en: "I'm sorry to trouble you when you're busy, but I would be grateful if you could tell me the details of the tour your company is organizing.", why: { en: "〜ばと存じます (#76) with the receiving verb: 教えていただければと存じます." } },
         ],

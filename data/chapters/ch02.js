@@ -626,7 +626,7 @@ N2.register({
                     "まだ行ったことがない"
                   ],
                   "answer": 1,
-                  "en": "Although I really want to go to Hokkaido, I still haven't been there."
+                  "en": "Although I've been thinking I'd really love to go to Hokkaido, I still haven't been there."
                 },
                 {
                   "q": "山の{頂上|ちょうじょう}がすぐ近くに見えていながら、（　）。",
@@ -821,7 +821,7 @@ N2.register({
               "en": "I asked her to go out with me with a view to marriage."
             }
           ],
-          "deepDive": "**A を B とする** literally means *to make A into B / to treat A as B*. The pattern is a formal way of saying **A が B だ**: 利益を目的とする企業 = 目的が利益である企業 *a company whose aim is profit*.\n\nB is almost always one of a small set of nouns, so learn them as chunks:\n- **〜を目的とする** *aimed at ~*\n- **〜を中心とする / 〜を中心に** *centered on ~*\n- **〜を対象とする** *targeted at ~*\n- **〜を手本とする** *modeled on ~*\n- **〜を前提とする / 〜を前提に** *on the premise of ~*\n- also: 〜をテーマとする, 〜を条件とする, 〜を基本とする, 〜を理由とする, 〜を総意とする.\n\nForms by position:\n- Before a noun: **とした / とする + N** (目的とした活動).\n- Linking to the rest of the sentence: **として** or the shorter **に** (中心として ≈ 中心に, 目的として ≈ 目的に). In very formal writing: **とし、**.\n- At the end: **〜とする / 〜としている**.\n\nCommon mistakes:\n- Swapping the particles: ✗目的を研究とする. The *content* takes を, the *role word* takes とする.\n- Using に directly before a noun: ✗高校生を対象にのアンケート. Before a noun you need **とした / とする** (or **にした**): 高校生を対象としたアンケート.\n\nCompare **〜を中心に** with **〜をはじめ** (#10): を中心に describes a core that other things gather around (駅を中心に店が並ぶ); をはじめ names the first item of a list. And **〜をきっかけに** (#17) uses the same を〜に shape, but with a cause.",
+          "deepDive": "**A を B とする** literally means *to make A into B / to treat A as B*. The pattern is a formal way of saying **A が B だ**: 利益を目的とする企業 = 目的が利益である企業 *a company whose aim is profit*.\n\nB is almost always one of a small set of nouns, so learn them as chunks:\n- **〜を目的とする** *aimed at ~*\n- **〜を中心とする / 〜を中心に** *centered on ~*\n- **〜を対象とする** *targeted at ~*\n- **〜を手本とする** *modeled on ~*\n- **〜を前提とする / 〜を前提に** *on the premise of ~*\n- also: 〜をテーマとする, 〜を条件とする, 〜を基本とする, 〜を理由とする.\n\nForms by position:\n- Before a noun: **とした / とする + N** (目的とした活動).\n- Linking to the rest of the sentence: **として** or the shorter **に** (中心として ≈ 中心に, 目的として ≈ 目的に). In very formal writing: **とし、**.\n- At the end: **〜とする / 〜としている**.\n\nCommon mistakes:\n- Swapping the particles: ✗目的を研究とする. The *content* takes を, the *role word* takes とする.\n- Using に directly before a noun: ✗高校生を対象にのアンケート. Before a noun you need **とした / とする** (or **にした**): 高校生を対象としたアンケート.\n\nCompare **〜を中心に** with **〜をはじめ** (#10): を中心に describes a core that other things gather around (駅を中心に店が並ぶ); をはじめ names the first item of a list. And **〜をきっかけに** (#17) uses the same を〜に shape, but with a cause.",
           "see": [
             10,
             17
@@ -988,7 +988,7 @@ N2.register({
           "examples": [
             {
               "ja": "日本での{就職|しゅうしょく}を{希望|きぼう}するからには、しっかり{企業|きぎょう}研究をしておいたほうがいい。",
-              "en": "If you want to find a job in Japan, you had better research companies thoroughly."
+              "en": "Since you want to find a job in Japan, you had better research companies thoroughly."
             },
             {
               "ja": "冬、山に登るからには、{日頃|ひごろ}からトレーニングを続ける{必要|ひつよう}がある。",
@@ -1004,7 +1004,7 @@ N2.register({
             },
             {
               "ja": "{三|み}つ{星|ぼし}レストランというからには、料理もサービスも{期待|きたい}できるはずだと考えるのが{自然|しぜん}だ。",
-              "en": "If it's called a three-star restaurant, it's only natural to think you can expect a lot from both the food and the service."
+              "en": "Given that it's called a three-star restaurant, it's only natural to think you can expect a lot from both the food and the service."
             },
             {
               "ja": "キャプテンであるからにはチーム全体のことを考えるべきだ。",
@@ -1272,7 +1272,7 @@ N2.register({
               "en": "The shinkansen we took arrived in Kyoto without any delay."
             }
           ],
-          "deepDive": "**V-る + ことなく** means *without doing ~*. It is the formal, written equivalent of **〜ないで** / **〜ずに**: 休むことなく = 休まずに = 休まないで.\n\nTypical uses:\n- **Something continues uninterrupted**: 休むことなく働き続ける, やむことなく降り続く, 20年間変わることなく続いている. Often paired with 一度も / 一言も / 少しも for emphasis, and with 〜続ける.\n- **Something is completed without a (feared) event happening**: 遅れることなく京都についた, 一度も訪れることなく生涯を終えた.\n- **Resolutions and requests in speeches**: 満足することなく努力を続けます; これまでと変わることなく、ご指導よろしくお願いいたします.\n\nRegister: it sounds serious and dignified. For everyday small actions it's out of place: ✗歯を磨くことなく寝てしまった sounds oddly literary — say 歯を磨かないで寝てしまった.\n\nConnection: only the dictionary form of the verb (plus passive, e.g. 食べられることなく). Adjectives and nouns don't use ことなく.\n\nCompare with other こと patterns (☞ p.221 〜こと list):\n- **〜ことはない** (#49): *there's no need to ~*.\n- **〜ないことはない** (#54): *it's not that I can't/don't*.\n- **〜ないことには** (#110): *unless ~*.\n- **〜こと。** (#8), **〜ことか** (#42), **〜ことに** (#40), **〜ことから** (#62), **〜ことだ** (#87), **〜たことにする** (#119).",
+          "deepDive": "**V-る + ことなく** means *without doing ~*. It is the formal, written equivalent of **〜ないで** / **〜ずに**: 休むことなく = 休まずに = 休まないで.\n\nTypical uses:\n- **Something continues uninterrupted**: 休むことなく働き続ける, やむことなく降り続く, 20年間変わることなく続いている. Often paired with 一度も / 一言も / 少しも for emphasis, and with 〜続ける.\n- **Something is completed without a (feared) event happening**: 遅れることなく京都についた, 一度も訪れることなく生涯を終えた.\n- **Resolutions and requests in speeches**: 満足することなく努力を続けます; これまでと変わることなく、ご指導よろしくお願いいたします.\n\nRegister: it sounds serious and dignified. For everyday small actions it's out of place: 歯を磨くことなく寝てしまった is grammatical but sounds oddly literary — say 歯を磨かないで寝てしまった.\n\nConnection: only the dictionary form of the verb (plus passive, e.g. 食べられることなく). Adjectives and nouns don't use ことなく.\n\nCompare with other こと patterns (☞ p.221 〜こと list):\n- **〜ことはない** (#49): *there's no need to ~*.\n- **〜ないことはない** (#54): *it's not that I can't/don't*.\n- **〜ないことには** (#110): *unless ~*.\n- **〜こと。** (#8), **〜ことか** (#42), **〜ことに** (#40), **〜ことから** (#62), **〜ことだ** (#87), **〜たことにする** (#119).",
           "see": [
             8,
             40,
@@ -1574,7 +1574,7 @@ N2.register({
               "を中心として"
             ],
             "answer": 1,
-            "en": "I heard that Mr. Takahashi decided to quit smoking when his child was born."
+            "en": "I heard that the birth of his child prompted Mr. Takahashi to decide to quit smoking."
           },
           {
             "q": "この町は大学（　）、{若者向|わかものむ}けの{商店|しょうてん}やアパートが集まっている。",
@@ -1722,7 +1722,7 @@ N2.register({
           "Everyone, thank you very much for gathering here today for us, the ABK University ekiden team.",
           "Our ekiden team has trained hard without taking a single day off, aiming to take part in the Hakone Ekiden. I don't think we put in less effort than the runners of other universities, but unfortunately, until now our school had never won the right to compete in the Hakone Ekiden. But this year, which for me is my last year of university life, we have finally been able to make our dream come true. I hope that, with this appearance as a springboard, the ekiden team will be able to grow a great deal.",
           "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to do our very best. Everyone, we ask for your continued support.",
-          "*Hakone Ekiden: Tokyo-Hakone Round-Trip College Ekiden Race — a traditional intercollegiate competition in which ten runners take turns running the round trip from Tokyo to Hakone, held every year on January 2 and 3."
+          "*箱根駅伝: Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd."
         ],
         "items": [
           {
@@ -1822,7 +1822,7 @@ N2.register({
             "en": [
               "A woman is speaking.",
               "This group is a volunteer organization formed mainly by homemakers. We aim to improve the local environment and create a town where both children and the elderly can live with peace of mind. We would like as many people as possible to take part so that, working together, we can contribute to building a pleasant town to live in. Even if you are not a homemaker, if you are interested in this activity, please do join us.",
-              "What is the woman speaking for?"
+              "What is the woman's purpose in speaking?"
             ],
             "options": [
               "ボランティア{団体|だんたい}を{結成|けっせい}するため",

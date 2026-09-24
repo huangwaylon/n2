@@ -49,7 +49,7 @@ N2F({
         "- **〜を対象とする** *targeted at ~*\n" +
         "- **〜を手本とする** *modeled on ~*\n" +
         "- **〜を前提とする / 〜を前提に** *on the premise of ~*\n" +
-        "- also: 〜をテーマとする, 〜を条件とする, 〜を基本とする, 〜を理由とする, 〜を総意とする.\n\n" +
+        "- also: 〜をテーマとする, 〜を条件とする, 〜を基本とする, 〜を理由とする.\n\n" +
         "Forms by position:\n" +
         "- Before a noun: **とした / とする + N** (目的とした活動).\n" +
         "- Linking to the rest of the sentence: **として** or the shorter **に** (中心として ≈ 中心に, 目的として ≈ 目的に). In very formal writing: **とし、**.\n" +
@@ -138,11 +138,11 @@ N2F({
         { ja: "「〜というからには」「[N] である + からには」の形もある。", en: "The forms 〜というからには and N + であるからには are also used." },
       ],
       examples: [
-        { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}するからには、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "If you want to find a job in Japan, you had better research companies thoroughly." },
+        { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}するからには、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "Since you want to find a job in Japan, you had better research companies thoroughly." },
         { ja: "冬、山に登るからには、{日頃|ひごろ}からトレーニングを続ける{必要|ひつよう}がある。", en: "If you're going to climb mountains in winter, you need to keep training on a regular basis." },
         { ja: "世界パティシエコンテストに{出場|しゅつじょう}するからには、{優勝|ゆうしょう}を{目指|めざ}してがんばります。", en: "Since I'm competing in the World Pâtissier Contest, I'll do my best and aim to win." },
         { ja: "入学おめでとう。この専門学校に入ったからには、しっかり{技術|ぎじゅつ}を{身|み}につけて、いつか自分の店を持てるようになってください。", en: "Congratulations on getting in. Now that you've entered this vocational school, master the skills properly so that one day you can have a shop of your own." },
-        { ja: "{三|み}つ{星|ぼし}レストランというからには、料理もサービスも{期待|きたい}できるはずだと考えるのが{自然|しぜん}だ。", en: "If it's called a three-star restaurant, it's only natural to think you can expect a lot from both the food and the service." },
+        { ja: "{三|み}つ{星|ぼし}レストランというからには、料理もサービスも{期待|きたい}できるはずだと考えるのが{自然|しぜん}だ。", en: "Given that it's called a three-star restaurant, it's only natural to think you can expect a lot from both the food and the service." },
         { ja: "キャプテンであるからにはチーム全体のことを考えるべきだ。", en: "As captain, you should think about the whole team." },
       ],
       plus: [
@@ -284,7 +284,7 @@ N2F({
         "- **Something continues uninterrupted**: 休むことなく働き続ける, やむことなく降り続く, 20年間変わることなく続いている. Often paired with 一度も / 一言も / 少しも for emphasis, and with 〜続ける.\n" +
         "- **Something is completed without a (feared) event happening**: 遅れることなく京都についた, 一度も訪れることなく生涯を終えた.\n" +
         "- **Resolutions and requests in speeches**: 満足することなく努力を続けます; これまでと変わることなく、ご指導よろしくお願いいたします.\n\n" +
-        "Register: it sounds serious and dignified. For everyday small actions it's out of place: ✗歯を磨くことなく寝てしまった sounds oddly literary — say 歯を磨かないで寝てしまった.\n\n" +
+        "Register: it sounds serious and dignified. For everyday small actions it's out of place: 歯を磨くことなく寝てしまった is grammatical but sounds oddly literary — say 歯を磨かないで寝てしまった.\n\n" +
         "Connection: only the dictionary form of the verb (plus passive, e.g. 食べられることなく). Adjectives and nouns don't use ことなく.\n\n" +
         "Compare with other こと patterns (☞ p.221 〜こと list):\n" +
         "- **〜ことはない** (#49): *there's no need to ~*.\n" +

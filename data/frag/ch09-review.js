@@ -16,7 +16,7 @@ N2F({ ch: 9, review: [
           en: "Even though it's September, far from getting cooler, it feels like the heat has become even more severe." },
         { q: "A：え、昼休み30分だけですか？\nB：30分でもあるだけ（　）よ。私なんか食べながら仕事することだってあるんだから。",
           options: ["といった", "ましだ", "というものだ", "らしい"], answer: 1,
-          en: "A: What, the lunch break is only 30 minutes?\nB: Even 30 minutes is better than nothing. Someone like me sometimes even works while eating." },
+          en: "A: What, the lunch break is only 30 minutes?\nB: Even if it's only 30 minutes, at least you get one. I sometimes even have to work while eating." },
         { q: "リムジンバスが{渋滞|じゅうたい}で遅れて、もう少しで{飛行機|ひこうき}に乗り遅れる（　）。",
           options: ["ことはないだろう", "ところだった", "ところではなかった", "ばかりだった"], answer: 1,
           en: "The airport limousine bus was delayed by traffic, and I very nearly missed my plane." },
@@ -71,8 +71,8 @@ N2F({ ch: 9, review: [
       ],
       en: [
         "I'm visiting a friend's villa in Izu right now.",
-        "When I woke up this morning, I was so surprised — everything was a silver world of snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.",
-        "After that, thinking it would be quicker to go shopping ourselves than to wait for a delivery that might come who knows when, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob).",
+        "When I woke up this morning, I was so surprised, you wouldn't believe it — everything was a silver world of snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.",
+        "After that, thinking that rather than wait for a delivery that might come who knows when, it would be quicker to go and buy things ourselves, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob).",
       ],
       blanks: [
         { options: ["のなんのって", "からだ", "けれど", "ところが"], answer: 0 },

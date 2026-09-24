@@ -15,7 +15,7 @@ N2F({
       { sp: "{小林|こばやし}", v: "m", ja: "この食べ{放題|ほうだい}、すごくよかったよ。この前、行ったんだけど、とにかくメニューが多い**のなんのって**、ピザやスパゲティから{肉|にく}じゃが、{焼|や}き{魚|ざかな}、{北京|ぺきん}ダックまで、{和|わ}、{洋|よう}、{中|ちゅう}なんでもあるんだ。それに全部でき**たて**。", en: "This all-you-can-eat place was really great. I went the other day, and the menu was just enormous — from pizza and spaghetti to nikujaga, grilled fish and Peking duck, Japanese, Western, Chinese, they have everything. And it's all freshly made." },
       { sp: "{大田|おおた}", v: "f", ja: "あ、ここ今人気だよね。ステーキもけっこうおいしいし…。", en: "Oh, this place is popular right now, isn't it? The steak's pretty good too..." },
       { sp: "小林", v: "m", ja: "だから、みんなで行こうよ。ぼくは1{食|しょく}{抜|ぬ}いて行くつもりなんだ。", en: "So let's all go together. I'm planning to skip a meal before going." },
-      { sp: "大田", v: "f", ja: "{小林|こばやし}君**ったら**何言ってるの。{胃|い}の大きさは食事の{量|りょう}によって変わる**ようになっている**のよ。", en: "Kobayashi, what are you saying? The size of your stomach is set up to change depending on how much you eat." },
+      { sp: "大田", v: "f", ja: "{小林|こばやし}君**ったら**何言ってるの。{胃|い}の大きさは食事の{量|りょう}によって変わる**ようになっている**のよ。", en: "Oh, Kobayashi, honestly, what are you saying? Your stomach is made so that its size changes depending on how much you eat." },
       { sp: "小林", v: "m", ja: "そうなんだ。この間食べられなかった**わけだ**。{胃|い}が小さくなっちゃってたんだね。", en: "Really? So that's why I couldn't eat much last time. My stomach had shrunk." },
       { sp: "大田", v: "f", ja: "そうよ。{空腹|くうふく}で行ったらたくさん食べる**どころか**、いつもより食べられなくなっちゃうんだから。そんなことも知らない**ようじゃ**、{小林|こばやし}君は、食べ{放題|ほうだい}{初心者|しょしんしゃ}ね。", en: "That's right. If you go on an empty stomach, far from eating a lot, you end up being able to eat less than usual. If you don't even know that, Kobayashi, you're an all-you-can-eat beginner." },
     ],
@@ -46,7 +46,7 @@ N2F({
         "- It does **not** follow nouns (the book marks N だ with an ✗): ✗人気なのなんのって is avoided; say 人気があるのなんのって.\n" +
         "- It usually describes the speaker's own experience or impression, often something negative or overwhelming (痛い, うるさい, 忙しい, 疲れた), but positive things work too (メニューが多いのなんのって).\n\n" +
         "Register: strictly casual. In an essay or business email use とても／非常に or 〜ほど／〜くらい: 言葉にできないほど忙しかった.\n\n" +
-        "Compare **〜といったらない** (*it's indescribably ~*), which is similar but a bit more literary. JLPT tip: if a blank comes right after an adjective and the rest of the sentence gives an exaggerated consequence in casual speech, のなんのって is a strong candidate.",
+        "Compare **〜といったらない** (*it's indescribably ~*), which is similar but can also be used in writing. JLPT tip: if a blank comes right after an adjective and the rest of the sentence gives an exaggerated consequence in casual speech, のなんのって is a strong candidate.",
       see: [],
       index: ["〜のなんのって", "いAのなんのって", "なAなのなんのって"],
     },
@@ -153,10 +153,10 @@ N2F({
       forms: ["[V-る]／[V-ない] + ようになっている"],
       examples: [
         { ja: "ほこりが{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze, and that naturally expels it." },
-        { ja: "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。", en: "Apparently at conveyor-belt sushi restaurants these days, sensors on the plates let the amount you've eaten be calculated automatically." },
+        { ja: "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。", en: "Apparently at conveyor-belt sushi restaurants these days, sensors on the plates are set up so that the cost of what you've eaten is calculated automatically." },
         { ja: "このホテルのドアは閉めると{自動的|じどうてき}にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。", en: "The doors in this hotel lock automatically when closed, so please be sure to take this card key with you when you go out." },
         { ja: "世界{初|はつ}の{自動販売機|じどうはんばいき}はエジプトで2000年以上前に作られ、お金を入れると水が出るようになっていたそうだ。", en: "They say the world's first vending machine was made in Egypt over 2,000 years ago, and it was designed so that water came out when you put in money." },
-        { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff ignition part, so it won't light even if a child plays with it." },
+        { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter's ignition part has been made stiff, so that it won't light even if a child plays with it." },
       ],
       deepDive:
         "**〜ようになっている** describes *how something is built or set up to work*: given condition A, result B happens automatically. You'll hear it in product explanations, hotel and museum guides, science talk and when friends explain how something works (as 大田 does about the stomach in the sample).\n\n" +
@@ -206,7 +206,7 @@ N2F({
       ],
       deepDive:
         "**〜わけだ** (★★★) is one of the most useful N2 sentence-enders. In this chapter's use, it expresses **realization + acceptance**: you already noticed a situation (the door won't open, there are many accidents), then you learn the cause, and the pieces click: *no wonder / that's why / so that explains it*.\n\n" +
-        "It often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech it shortens to わけよ／わけね (おいしいわけよね).\n\n" +
+        "It often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech だ is often dropped before sentence-final particles: わけよ／わけね (おいしいわけよね).\n\n" +
         "Connection: plain form + わけだ. なA takes な (静かなわけだ), N takes の as the book shows (in everyday speech you'll also hear **Nなわけだ**). **〜というわけだ** also serves to sum up: それでまだ迷っているというわけなのね.\n\n" +
         "Contrast (see the ～わけ list, p.226):\n" +
         "- **はずだ** = expectation based on reasoning *before* confirming: 今日就職試験だって言っていたから、もう出かけたはずだ *she should have left already*. わけだ = the result is already known and you've just found the reason.\n" +

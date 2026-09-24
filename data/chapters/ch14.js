@@ -128,7 +128,7 @@ N2.register({
               "en": "Our cat never comes home. What a nuisance."
             }
           ],
-          "deepDive": "**〜たものだ** is the classic *used to ~* of Japanese, but with an emotional coloring: the speaker is looking back fondly (or wistfully) on something that happened **repeatedly** or was a **lasting state** in the past. よく, 毎日, 毎年, 昔は, 子どものころは often appear alongside it.\n\nTwo uses in this entry:\n- **Nostalgic recollection** (V-た/いA-かった/なA-だった + ものだ): 昔はよく川で泳いだものだ. Often followed by が… and a contrast with the present (…が、今は…).\n- **Deep feeling / exclamation** (non-past): 時間がたつのは早いものだ, 困ったものだ, 人生とは不思議なものだ. Here it expresses a heartfelt reaction rather than a rule.\n\nContrast with the other ものだ, **#13 ものだ①**: that one states a general truth or what is natural/expected (子どもは親に反抗するものだ, 人に会ったら挨拶するものだ). #132 is personal and emotional; #13 is a generalization about how things are or should be.\n\nCommon mistakes:\n- Using it for a single event: ✗去年一度京都へ行ったものだ → ✓行ったことがある. たものだ needs repetition or a lasting state.\n- Confusing it with **〜たところだ** (*have just done*) and **〜たことがある** (experience). The practice below drills exactly this three-way choice.\n\nRelatives from the もの family (similar-pattern list): ものではない (#46), というものだ (#52), というものではない (#25), ものがある (#92), ものの (#39), ものなら (#122), ものか (#51), 〜もん (#56). In speech, ものだ often becomes **もんだ** (よく遊んだもんだよ).\n\nJLPT tip: if the sentence contains 昔は/よく/子どものころ and a past verb, and the options are もの・こと・ところ, ものだ is almost always the nostalgic answer.",
+          "deepDive": "**〜たものだ** is the classic *used to ~* of Japanese, but with an emotional coloring: the speaker is looking back fondly (or wistfully) on something that happened **repeatedly** or was a **lasting state** in the past. よく, 毎日, 毎年, 昔は, 子どものころは often appear alongside it.\n\nTwo uses in this entry:\n- **Nostalgic recollection** (V-た/いA-かった/なA-だった + ものだ): 昔はよく川で泳いだものだ. Often followed by が… and a contrast with the present (…が、今は…).\n- **Deep feeling / exclamation**: 時間がたつのは早いものだ, 困ったものだ, 人生とは不思議なものだ; with a past verb, よく〜たものだ expresses amazement or admiration (よくけがをしなかったものだ *it's amazing you weren't hurt*); with 〜たい it expresses a heartfelt wish (こんな映画を作ってみたいものだ). Here it expresses a heartfelt reaction rather than a rule.\n\nContrast with the other ものだ, **#13 ものだ①**: that one states a general truth or what is natural/expected (子どもは親に反抗するものだ, 人に会ったら挨拶するものだ). #132 is personal and emotional; #13 is a generalization about how things are or should be.\n\nCommon mistakes:\n- Using it for a single event: ✗去年一度京都へ行ったものだ → ✓行ったことがある. たものだ needs repetition or a lasting state.\n- Confusing it with **〜たところだ** (*have just done*) and **〜たことがある** (experience). The practice below drills exactly this three-way choice.\n\nRelatives from the もの family (similar-pattern list): ものではない (#46), というものだ (#52), というものではない (#25), ものがある (#92), ものの (#39), ものなら (#122), ものか (#51), 〜もん (#56). In speech, ものだ often becomes **もんだ** (よく遊んだもんだよ).\n\nJLPT tip: if the sentence contains 昔は/よく/子どものころ and a past verb, and the options are もの・こと・ところ, ものだ is almost always the nostalgic answer.",
           "see": [
             13,
             25,
@@ -315,7 +315,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「〜というわけだ」の形も使われる。",
-              "en": ""
+              "en": "The form 〜というわけだ is also used."
             }
           ],
           "examples": [
@@ -409,7 +409,7 @@ N2.register({
           "examples": [
             {
               "ja": "{開会|かいかい}にあたって、{一言|ひとこと}ごあいさつ申し上げます。",
-              "en": "On the opening of this meeting, allow me to say a few words of greeting."
+              "en": "As we open this meeting, allow me to say a few words of greeting."
             },
             {
               "ja": "{診療所|しんりょうじょ}の{開設|かいせつ}にあたっては、まずその{地域|ちいき}の{医療環境|いりょうかんきょう}を調べる{必要|ひつよう}があります。",
@@ -417,7 +417,7 @@ N2.register({
             },
             {
               "ja": "{復興|ふっこう}にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。",
-              "en": "In the reconstruction, we received all kinds of support from people around the world."
+              "en": "For the reconstruction, we received all kinds of support from people around the world."
             },
             {
               "ja": "{研修|けんしゅう}を始めるにあたり、社員としての{心構|こころがま}えについてお話しします。",
@@ -604,7 +604,7 @@ N2.register({
               "en": "At this company, staff are developed according to an employee training plan."
             }
           ],
-          "deepDive": "**〜に基づいて** (基づく = to be based on; 基 = foundation) names a **basis that you follow or stay faithful to**: laws, rules, contracts, principles, data, facts, evidence, plans, ideals. 法律に基づいて処理する = *handle it in accordance with the law*. The nuance is *grounded in*, *not deviating from*.\n\nForms: に基づいて / に基づき (written, clause-linking) / に基づく + N / に基づいた + N (both modify nouns; 基づく is a little more formal).\n\n**〜をもとに（して）** (Plus) is close but different in focus: the noun is **raw material or a starting point** from which something **new is created**: 小説をもとにした映画, 聞き取り調査をもとに報告書をまとめる. You take it and build on it.\n- 法律に基づいて判断する ✓ / 法律をもとに判断する (possible but weaker).\n- 実話をもとにした映画 ✓ and 実話に基づいた映画 ✓ both fine.\n- 手紙をもとに小説を書く ✓ / 手紙に基づいて小説を書く (odd: a novel isn't *governed* by the letter).\n\nOther look-alikes (tested in the practice):\n- **に関して / について**: just marks the topic (資源に関して調べる).\n- **をめぐって** (#133): the disputed issue (親権をめぐって争う).\n- **に応じて** (#4): something varies to match a condition (症状に応じて量が違う).\n- **に沿って**: *along / in line with* (a plan, wishes).\n\nCommon mistake: ✗データを基づいて — the particle is に: データ**に**基づいて. With もと, the particle is を: データ**を**もとに.\n\nJLPT tip: ★★★ for both — they appear constantly. If the noun is a rule/law/data/principle, choose に基づいて; if the sentence is about creating a work or idea out of source material, をもとに fits best.",
+          "deepDive": "**〜に基づいて** (基づく = to be based on; 基 = foundation) names a **basis that you follow or stay faithful to**: laws, rules, contracts, principles, data, facts, evidence, plans, ideals. 法律に基づいて処理する = *handle it in accordance with the law*. The nuance is *grounded in*, *not deviating from*.\n\nForms: に基づいて / に基づき (written, clause-linking) / に基づく + N / に基づいた + N (both modify nouns).\n\n**〜をもとに（して）** (Plus) is close but different in focus: the noun is **raw material or a starting point** from which something **new is created**: 小説をもとにした映画, 聞き取り調査をもとに報告書をまとめる. You take it and build on it.\n- 法律に基づいて判断する ✓ / 法律をもとに判断する (possible but weaker).\n- 実話をもとにした映画 ✓ and 実話に基づいた映画 ✓ both fine.\n- 手紙をもとに小説を書く ✓ / 手紙に基づいて小説を書く (possible, but をもとに is more natural when a new work is created from source material).\n\nOther look-alikes (tested in the practice):\n- **に関して / について**: just marks the topic (資源に関して調べる).\n- **をめぐって** (#133): the disputed issue (親権をめぐって争う).\n- **に応じて** (#4): something varies to match a condition (症状に応じて量が違う).\n- **に沿って**: *along / in line with* (a plan, wishes).\n\nCommon mistake: ✗データを基づいて — the particle is に: データ**に**基づいて. With もと, the particle is を: データ**を**もとに.\n\nJLPT tip: ★★★ for both — they appear constantly. If the noun is a rule/law/data/principle, choose に基づいて; if the sentence is about creating a work or idea out of source material, をもとに fits best.",
           "see": [
             4,
             133
@@ -719,7 +719,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜てこそ…」は、「〜がないと…が{成立|せいりつ}しない、〜が{絶対|ぜったい}に{必要|ひつよう}な{条件|じょうけん}である」ということを{強調|きょうちょう}する気持ちを表す。",
-            "en": "\" 〜てこそ… \" expresses a feeling that emphasizes that \"with 〜 , … can not be; 〜 is an absolutely necessary condition.\""
+            "en": "\" 〜てこそ… \" expresses a feeling that emphasizes that \"with 〜, … can not be; 〜 is an absolutely necessary condition.\""
           },
           "forms": [
             "[V-て] + こそ"
@@ -738,7 +738,7 @@ N2.register({
               "en": "Only when you can explain something clearly to others can you call it true knowledge."
             }
           ],
-          "deepDive": "**〜てこそ** adds the emphatic particle こそ (*precisely, only*) to the て-form: *only by doing ~ / it is only when ~ that…*. The first half is presented as the **indispensable condition**; the second half is something valuable that results: 意味がある, 価値がある, 効果がある, わかる, 〜と言える, 本当の〜だ.\n\nIt is a favorite of editorials and speeches because it makes a strong argument: 住民が賛成してこそ成功と言える = *without the residents' support it can't be called a success*.\n\nCompare the こそ family (similar-pattern list):\n- **〜ばこそ** (#53): *precisely because ~* — gives a **reason**, often a surprising one: 愛すればこそ厳しくする. Formal, a bit literary.\n- **〜からこそ** (N3): *precisely because ~* — also a reason, everyday register.\n- **〜てこそ** (#139): a **necessary condition** (*only if/when*), not a reason. Test: can you paraphrase with 〜なければ…ない? 使ってこそ身につく = 使わなければ身につかない ✓.\n\nCommon mistakes:\n- Using it with a negative or unwanted result: ✗無理をしてこそ病気になる. The result should be positive or desirable.\n- Putting it on nouns or adjectives directly: ✗努力こそで. It's V-て + こそ (N + こそ alone is a different, simpler use: これこそ本物だ).\n\nJLPT tip: the second half is often 〜のだ / 〜ものだ / 〜と言える; if you see a blank after a て-form and a positive evaluation follows, こそ is the likely piece.",
+          "deepDive": "**〜てこそ** adds the emphatic particle こそ (*precisely, only*) to the て-form: *only by doing ~ / it is only when ~ that…*. The first half is presented as the **indispensable condition**; the second half is something valuable that results: 意味がある, 価値がある, 効果がある, わかる, 〜と言える, 本当の〜だ.\n\nIt is a favorite of editorials and speeches because it makes a strong argument: 住民が賛成してこそ成功と言える = *without the residents' support it can't be called a success*.\n\nCompare the こそ family (similar-pattern list):\n- **〜ばこそ** (#53): *precisely because ~* — gives a **reason**, often a surprising one: 愛すればこそ厳しくする. Formal, a bit literary.\n- **〜からこそ** (N3): *precisely because ~* — also a reason, everyday register.\n- **〜てこそ** (#139): a **necessary condition** (*only if/when*), not a reason. Test: can you paraphrase with 〜なければ…ない? 使ってこそ身につく = 使わなければ身につかない ✓.\n\nCommon mistakes:\n- Using it with a negative or unwanted result: ✗無理をしてこそ病気になる. The result should be positive or desirable.\n- Putting it on nouns directly: ✗努力こそ上達する → ✓努力してこそ上達する. It's V-て + こそ (N + こそ alone is a different, simpler use: これこそ本物だ).\n\nJLPT tip: the second half is often 〜のだ / 〜ものだ / 〜と言える; if you see a blank after a て-form and a positive evaluation follows, こそ is the likely piece.",
           "see": [
             53
           ],
@@ -845,7 +845,7 @@ N2.register({
               "にあたって"
             ],
             "answer": 3,
-            "en": "On starting a new life, I decided to look for a room near the university.",
+            "en": "As I was about to start a new life, I decided to look for a room near the university.",
             "why": {
               "en": "にあたって = \"on the occasion of / when about to\" start something important."
             }
@@ -875,7 +875,7 @@ N2.register({
             "answer": 0,
             "en": "For how to use this product, please see our website.",
             "why": {
-              "en": "について = \"about / regarding\" a topic (here, usage instructions)."
+              "en": "について = \"about / regarding\" a topic (here, usage instructions). をめぐって would imply a dispute among several parties, and にあたって / に基づいて don't mean \"about\"."
             }
           },
           {
@@ -994,7 +994,7 @@ N2.register({
           "{交差点|こうさてん}で{車同士|くるまどうし}が{衝突|しょうとつ}する{事故|じこ}が起きた。{事故原因|じこげんいん}の{調査|ちょうさ}では、運転手に{重大|じゅうだい}な{過失|かしつ}は{認|みと}められなかった。{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は{判決|はんけつ}[2]、200万円を{支払|しはら}うこととなった。道路{管理|かんり}に問題があったと{認|みと}められた[3]。今回の{事故|じこ}[4]、{大山|おおやま}市は市内のすべての道路の安全{調査|ちょうさ}を{実施|じっし}するとのことだ。"
         ],
         "en": [
-          "A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city was ordered to pay 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city."
+          "A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city ended up paying 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city."
         ],
         "blanks": [
           {

@@ -40,7 +40,7 @@ N2F({
       deepDive: 
         "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\n" +
         "Getting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\n" +
-        "Differences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜ば〜ほど** / **〜さえも** are unrelated.\n\n" +
+        "Differences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\n" +
         "Common mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\n" +
         "JLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
       see: [],
@@ -194,7 +194,7 @@ N2F({
       deepDive: 
         "**V-るだけV** repeats the same verb around だけ: 言うだけ言ってみる, 行くだけ行ってみる. The feeling is *I'll at least do the ~ part, whatever the outcome*. The speaker expects the result may be negative but thinks trying costs little. It's very common in encouraging a friend: 聞くだけ聞いてみたら？ / 出すだけ出してみなよ.\n\n" +
         "- The second verb is usually in the **〜てみる** form (〜てみよう, 〜てみたら？, 〜てみた), matching the idea of *giving it a try*.\n- Same verb both times: ✗応募するだけ出してみる.\n- A near-synonym is **ダメもとで〜** (*nothing to lose*) or **一応〜てみる** (*just in case*).\n\n" +
-        "Don't confuse it with **V-るだけV-た** (#55) in the sense *as much as possible*: 食べられるだけ食べた (*ate as much as I could*). There the first verb is usually in the **potential** form and the idea is *to the limit*, not *just try*. Compare:\n- 頼むだけ頼んでみる — *I'll ask, at least (it may not work)*.\n- 頼めるだけ頼んだ — *I asked as many people as I could*.\n\n" +
+        "Don't confuse it with **[V-できる] + だけ** (#55) in the sense *as much as possible*: 食べられるだけ食べた (*ate as much as I could*). There the first verb is usually in the **potential** form and the idea is *to the limit*, not *just try*. Compare:\n- 頼むだけ頼んでみる — *I'll ask, at least (it may not work)*.\n- 頼めるだけ頼んだ — *I asked as many people as I could*.\n\n" +
         "Also distinct from **〜だけに** (#105, *precisely because*) and the plain だけ *only*.\n\n" +
         "JLPT tip: in ordering questions, if you see two pieces with the same verb, one of them plus だけ, they go together: 出す＋だけ＋出して.",
       see: [55, 105],
@@ -209,7 +209,7 @@ N2F({
       { q: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", answer: "あげく", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes." },
       { q: "A：{久|ひさ}しぶりの海外旅行だから、何か忘れていないか{心配|しんぱい}。\nB：パスポートとお金＿＿持っていけば、何とかなるよ。", answer: "さえ", en: "A: It's my first trip abroad in ages, so I'm worried I've forgotten something.\nB: As long as you take your passport and money, you'll manage." },
       { q: "A：この{機械|きかい}、直していただけませんか。\nB：{部品|ぶひん}がないので、直し＿＿んですよ。", answer: "ようがない", en: "A: Could you repair this machine for me?\nB: We don't have the parts, so there's no way to repair it." },
-      { q: "しかられるのが{怖|こわ}いからといって、うそをつく＿＿。", answer: "ものではない", en: "Just because you're afraid of being scolded doesn't mean you should lie." },
+      { q: "しかられるのが{怖|こわ}いからといって、うそをつく＿＿。", answer: "ものではない", en: "You shouldn't lie just because you're afraid of being scolded." },
       { q: "この{奨学金|しょうがくきん}をもらうのは難しいけれど、申し込む＿＿申し込もうと思っているんだ。", answer: "だけ", en: "It's hard to get this scholarship, but I'm thinking of at least applying." },
     ],
   },

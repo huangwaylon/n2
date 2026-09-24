@@ -7,7 +7,7 @@ N2F({ ch: 5, review: [
       items: [
         { q: "彼は、自分のミスで仕事が遅れたのに、あれこれ{言|い}い{訳|わけ}した（　）、{結局|けっきょく}{一|ひと}{言|こと}も{謝|あやま}らなかった。",
           options: ["にしては", "からには", "ことなく", "あげく"], answer: 3,
-          en: "Even though the work was delayed because of his own mistake, after making all sorts of excuses, he ended up not apologizing even once." },
+          en: "Even though the work was delayed because of his own mistake, after making excuse after excuse, in the end he didn't offer a single word of apology." },
         { q: "{面接|めんせつ}のチャンス（　）もらえれば、私の{熱意|ねつい}が伝えられるのに…。",
           options: ["ながら", "に{限|かぎ}り", "さえ", "を{問|と}わず"], answer: 2,
           en: "If only I could get the chance of an interview, I could convey my enthusiasm..." },
@@ -38,7 +38,7 @@ N2F({ ch: 5, review: [
         { before: "このあたりは", after: "いて、住みやすい。",
           pieces: ["{自然|しぜん}が", "にしては", "{都心|としん}", "{残|のこ}って"],
           order: [2, 1, 0, 3], star: 2,
-          en: "For the city center, this area still has a lot of nature left, so it's easy to live in." },
+          en: "For somewhere in the city center, this area still has nature left, so it's a pleasant place to live." },
         { before: "この", after: "{簡単|かんたん}に作れます。",
           pieces: ["{鍋|なべ}さえ", "料理でも", "どんな", "あれば"],
           order: [0, 3, 2, 1], star: 2,
@@ -62,7 +62,7 @@ N2F({ ch: 5, review: [
       ],
       en: [
         "We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from my sisters' and my childhood, but even my parents' and grandparents' schoolbooks from their childhood turned up.",
-        "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to be moving. After reminiscing at length about the old days, my father announced he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house.",
+        "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to get on with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house.",
       ],
       blanks: [
         { options: ["どころではない", "さえすればいい", "かねない", "ということだ"], answer: 0 },

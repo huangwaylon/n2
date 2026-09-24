@@ -9,7 +9,7 @@ N2F({
     kind: "dialogue",
     rings: false,
     lines: [
-      { sp: "{小林|こばやし}", v: "m", ja: "え？　食べ{放題|ほうだい}に{初心者|しょしんしゃ}って？", en: "Huh? Beginners at all-you-can-eat?" },
+      { sp: "{小林|こばやし}", v: "m", ja: "え？　食べ{放題|ほうだい}に{初心者|しょしんしゃ}って？", en: "Huh? What do you mean, an all-you-can-eat beginner?" },
       { sp: "{大田|おおた}", v: "f", ja: "食べ{放題|ほうだい}は店との{勝負|しょうぶ}よ。{経験|けいけん}も{技術|ぎじゅつ}も{必要|ひつよう}よ。飲み物は{控|ひか}えめに。{値段|ねだん}の高いものを{狙|ねら}う。あとは、料理は食べきれる{量|りょう}をとって、ゆっくり食べること。", en: "All-you-can-eat is a contest between you and the restaurant. You need both experience and technique. Go easy on the drinks. Aim for the expensive stuff. And then, take only as much food as you can finish, and eat slowly." },
       { sp: "小林", v: "m", ja: "なんでゆっくりなんだよ。食べ{放題|ほうだい}で{上品|じょうひん}**ぶって**もしょうがないだろ？　とにかくどんどん食べなきゃ。", en: "Why slowly? There's no point acting all refined at an all-you-can-eat, right? You've just got to keep eating and eating." },
       { sp: "大田", v: "f", ja: "{初心者|しょしんしゃ}**に{限|かぎ}って**そういうこと言うんだよね。食べ{放題|ほうだい}はマラソンよ。{元|もと}を取ろうと思ったら、とにかく最後までペースを{崩|くず}さずに食べ続ける**ことだ**よ。", en: "It's always beginners who say things like that. All-you-can-eat is a marathon. If you want to get your money's worth, the thing to do is keep eating right to the end without breaking your pace." },
@@ -19,7 +19,7 @@ N2F({
       { sp: "大田", v: "f", ja: "それにね、{残|のこ}したら、{罰金|ばっきん}を{払|はら}わされる店もあるから気をつけないとだめよ。先週も友達と{焼|や}き{肉|にく}の食べ{放題|ほうだい}に行ったんだけど、{危|あや}うく{罰金|ばっきん}を{払|はら}わされる**ところだった**んだから。", en: "And, you know, some places make you pay a fine if you leave food, so you have to be careful. Last week I went to an all-you-can-eat yakiniku place with a friend, and we very nearly got made to pay a fine." },
       { sp: "小林", v: "m", ja: "それで、どうなったの？", en: "So what happened?" },
       { sp: "大田", v: "f", ja: "最後の力をふりしぼって、私が食べたわよ。{罰金|ばっきん}{払|はら}う**くらいなら**、がんばったほうがずっと**まし**だと思って…。", en: "I summoned the last of my strength and ate it myself. I figured that rather than pay a fine, it'd be far better to push through…" },
-      { sp: "小林", v: "m", ja: "{大田|おおた}さんがいれば{心強|こころづよ}いね。メンバー集めるから、{絶対|ぜったい}一緒に行こうね。よろしく！", en: "With you along, Ota, I'll feel confident. I'll get a group together, so let's definitely go together. Count on it!" },
+      { sp: "小林", v: "m", ja: "{大田|おおた}さんがいれば{心強|こころづよ}いね。メンバー集めるから、{絶対|ぜったい}一緒に行こうね。よろしく！", en: "With you along, Ota, I'll feel confident. I'll get a group together, so let's definitely go together. I'm counting on you!" },
     ],
   },
   points: [
@@ -39,7 +39,7 @@ N2F({
         { ja: "「ぶる」は「ぶらない」「ぶって」のように、Ⅰグループの{動詞|どうし}と同じ{活用|かつよう}をする。", en: "ぶる conjugates like a Group 1 verb: ぶらない, ぶって." },
       ],
       examples: [
-        { ja: "昔ぼくは好きな女の子の前で悪ぶっていた。本当は、好きだって言う{勇気|ゆうき}がなかっただけなんだ。", en: "Back then I used to act tough in front of girls I liked. Really, I just didn't have the courage to tell them I liked them." },
+        { ja: "昔ぼくは好きな女の子の前で悪ぶっていた。本当は、好きだって言う{勇気|ゆうき}がなかっただけなんだ。", en: "When I was younger, I used to act like a bad boy in front of girls I liked. Really, I just didn't have the courage to tell them I liked them." },
         { ja: "A：あいつ、先生の前だといい子ぶるけど、{掃除|そうじ}サボるし、宿題も{誰|だれ}かの{写|うつ}してるんだぜ。\nB：まったく、頭に来るよな。", en: "A: That guy acts like a goody-goody in front of the teacher, but he skips cleaning duty and copies someone else's homework, you know.\nB: Seriously, it makes me so mad." },
         { ja: "あの人は{大企業|だいきぎょう}の社長なのに少しも{偉|えら}ぶったところがない。", en: "Even though he's the president of a big company, he doesn't put on airs at all." },
         { ja: "たとえかっこいい人の前でも、お{嬢様|じょうさま}ぶるなんて、私には{無理|むり}だ。", en: "Even in front of a good-looking guy, there's no way I could act like a refined young lady." },
@@ -83,7 +83,7 @@ N2F({
       xref: "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
       deepDive:
         "**Nに限って** narrows the focus to one type of person or one moment and says *precisely that one, of all* — and the thing that happens is annoying or ironic.\n\n" +
-        "Two uses covered in this chapter:\n- **Tendency of a type of person** (main use): 〜人に限って、… *It's always the people who ~ who …*. The speaker criticizes a pattern: 偉そうに言う人に限って何もしない. The noun is usually a person described by a relative clause (そう言う人, 知らない人, 金持ち).\n- **Bad luck at the worst moment** (clip note): 〜ときに限って／〜日に限って／今日に限って. 急いでいるときに限ってバスが来ない *the bus never comes precisely when I'm in a hurry*.\n\n" +
+        "Two uses covered in this chapter:\n- **Tendency of a type of person** (main use): 〜人に限って、… *It's always the people who ~ who …*. The speaker criticizes a pattern: 偉そうに言う人に限って何もしない. The noun is usually a type of person, often described by a relative clause (よく知らないやつ, 高い車に乗っている人) or a simple noun (金持ち, 初心者).\n- **Bad luck at the worst moment** (clip note): 〜ときに限って／〜日に限って／今日に限って. 急いでいるときに限ってバスが来ない *the bus never comes precisely when I'm in a hurry*.\n\n" +
         "Don't confuse with the other 限る forms (see the ～に限る／限り list, p.223–224):\n- **Nに限り** (#3) = *only N* (notices: 本日に限り半額).\n- **Nに限って〜ない** (#3 note) = *N of all people would never ~* (trust-based denial: うちの子に限ってそんなことはしない). This one ends in a negative and defends N; #86 criticizes N.\n- **Vかぎり** (#23) = *as long as ~*.\n- **Nに限らず** (#72) = *not only N*.\n- **〜に限る** (#104) = *~ is the best*.\n\n" +
         "How to tell #86 from the #3 note: look at the ending. If it's a negative *denial* (はずがない, わけがない, ありえない) about someone trusted → #3. If it's a complaint about what *tends to* happen → #86.",
       see: [3, 23, 72, 104],

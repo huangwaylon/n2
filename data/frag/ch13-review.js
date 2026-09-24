@@ -16,7 +16,7 @@ N2F({ ch: 13, review: [
         { q: "これは{苦労|くろう}して探し回った（　）、やっと見つけた本なんです。",
           options: ["あげく", "あまり", "{末|すえ}に", "{限|かぎ}り"], answer: 2,
           en: "This is a book I finally found after going to a lot of trouble searching everywhere.",
-          why: { en: "〜た末に = \"after (a long process of) ~, finally\", leading to a result reached with effort (やっと見つけた). あげく is for bad outcomes." } },
+          why: { en: "〜た末に = \"after (a long process of) ~, finally\", leading to a result reached with effort (やっと見つけた). あげく usually introduces a bad or disappointing outcome, so it doesn't fit this happy find." } },
         { q: "{全力|ぜんりょく}を{尽|つ}くしてがんばれば、たとえ（　）{後悔|こうかい}はしないだろう。",
           options: ["{失敗|しっぱい}しなければ", "{失敗|しっぱい}したくないので", "{失敗|しっぱい}しても", "{失敗|しっぱい}したのに"], answer: 2,
           en: "If you give it your all, you probably won't regret it even if you fail.",
@@ -72,7 +72,7 @@ N2F({ ch: 13, review: [
         "この話が{報道|ほうどう}されると、多くの{視聴者|しちょうしゃ}から「[4]どんなことがあっても2{匹|ひき}を{引|ひ}き{離|はな}さないで」といったコメントがいくつも{寄|よ}せられた。その中には{新|あら}たな{飼|か}い{主|ぬし}として声をあげる人もいる。2{匹|ひき}は、まもなく一生を{過|す}ごせる家を見つけ、{幸福|こうふく}な日を送るようになるだろう。",
       ],
       en: [
-        "Lily went blind after an eye disease when she was a puppy. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. If the two went for walks together, they slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
+        "Lily went blind after an eye disease when she was a puppy. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. The two went on walks together and slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
         "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\" Some of them even came forward as new owners. The two will probably soon find a home where they can spend the rest of their lives and come to live happy days.",
       ],
       blanks: [

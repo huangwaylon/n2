@@ -58,7 +58,7 @@ N2F({ ch: 6, review: [
         "今、ヨーロッパでは日本の{警備会社|けいびがいしゃ}が人気を集めている。セキュリティーシステムに問題がないか{常|つね}にチェックし、{警報器|けいほうき}が{鳴|な}ったら、すぐ{担当者|たんとうしゃ}が{駆|か}けつけ、{状況|じょうきょう}を{把握|はあく}して客に{連絡|れんらく}する。日本では{当|あ}たり{前|まえ}のこのサービスがヨーロッパで高く{評価|ひょうか}されているという。「セキュリティーがしっかりしていなかったばかりに、大きな{被害|ひがい}に{遭|あ}った」と{後悔|こうかい}するより、料金は少し高くても、{頼|たよ}れる会社に{任|まか}せようというニーズがあったからと言える。日本では{当然|とうぜん}のことだが海外では高く{評価|ひょうか}される、それこそが{国際競争力|こくさいきょうそうりょく}を持つ{商品|しょうひん}というものだ。",
       ],
       en: [
-        "Japanese products are being put in a difficult position amid international price competition. But we can't just give up, saying we can't compete, nor can we afford to be pessimistic. So where does the path lie for Japanese business to develop globally? The key to business success is simply to pursue consumers' needs.",
+        "Japanese products are being put in a difficult position amid international price competition. But we can't just give up, saying we can't compete, nor can we afford to be pessimistic. So where does the path lie for Japanese business to develop globally? The key to business success lies solely in pursuing consumers' needs.",
         "Right now in Europe, Japanese security companies are gaining popularity. They constantly check whether there are any problems with the security system, and if an alarm goes off, the person in charge rushes over right away, grasps the situation and contacts the customer. This service, which is taken for granted in Japan, is apparently highly valued in Europe. It can be said that this is because there was a need to entrust security to a reliable company, even if the fee is a little higher, rather than regretting that 'we suffered major damage just because our security wasn't solid.' Something that is taken for granted in Japan but highly valued overseas — that is precisely what a product with international competitiveness is.",
       ],
       items: [
@@ -91,7 +91,7 @@ N2F({ ch: 6, review: [
           en: [
             "An expert is speaking. What is the most important thing when keeping medaka (killifish)?",
             "Hello, everyone. Today we'll ask Dr. Tanaka what to do when keeping medaka for the first time. Dr. Tanaka, thank you for joining us.",
-            "Medaka are river fish, so they need an environment close to nature. That said, there's no need to think of it as difficult. If you put in some pebbles and water plants, medaka will be able to live without stress. Medaka are hardy fish, so keeping them isn't difficult either, but if you don't look after them properly every day they will die, so please never forget that, at least.",
+            "Medaka are river fish, so they need an environment close to nature. That said, there's no need to think of it as difficult. If you put in some pebbles and water plants, medaka will be able to live without stress. Medaka are hardy fish, so keeping them isn't difficult either, but if you don't look after them properly every day they will die, so that is the one thing you must never forget.",
             "What is the most important thing when keeping medaka?",
           ],
           options: ["{自然|しぜん}の{環境|かんきょう}を{作|つく}ること", "{水槽|すいそう}に{水草|みずくさ}を{入|い}れること", "メダカのストレスをなくすこと", "{毎日|まいにち}{世話|せわ}をすること"],
@@ -111,7 +111,7 @@ N2F({ ch: 6, review: [
             "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...",
             "You still look pale. At the store, Ms. Ito came in to cover for you, so there's no need to worry about it.",
             "Huh? I thought Ms. Ito had something to do yesterday...",
-            "She said so, but I pushed her into it. Well, why don't you just cover for her next time?",
+            "She did say so, but I talked her into it even though it was a big ask. Well, why don't you just cover for her next time?",
             "What did Ms. Ito do yesterday?",
           ],
           options: ["アルバイトを{休|やす}んだ", "アルバイトをした", "{熱|ねつ}を{出|だ}して{寝|ね}ていた", "{用事|ようじ}があって{帰|かえ}った"],

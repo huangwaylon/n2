@@ -124,7 +124,7 @@ N2F({ ch: 3, review: [
           en: ["Excuse me, could you answer a few interview questions?"],
           options: ["ちょっと時間がないので。", "答えかねませんよ。", "はい、そうしますよ。"],
           answer: 0,
-          why: { en: "A polite refusal: \"I'm a bit short on time.\" 答えかねない (might answer — a bad outcome) makes no sense here." } },
+          why: { en: "A polite refusal: \"I'm a bit short on time.\" 答えかねません means \"I might (end up) answering\" — a warning about a bad outcome, which makes no sense here. (The polite refusal would be 答えかねます, *I'm afraid I can't answer*.)" } },
         { script: [{ sp: "M", v: "m", ja: "おい、そんなにスピード出したら、{事故|じこ}を起こしかねないぞ。" }],
           en: ["Hey, if you drive that fast, you could cause an accident."],
           options: ["スピード出して、{事故|じこ}起こしたんだって。", "あそこで、{事故|じこ}があったみたい。", "わかったよ。安全運転でいくよ。"],

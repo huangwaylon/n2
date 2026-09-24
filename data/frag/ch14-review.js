@@ -7,7 +7,7 @@ N2F({ ch: 14, review: [
       items: [
         { q: "新しい生活を始める（　）、大学の近くに部屋を探すことにした。",
           options: ["において", "にしたがって", "に{基|もと}づいて", "にあたって"], answer: 3,
-          en: "On starting a new life, I decided to look for a room near the university.",
+          en: "As I was about to start a new life, I decided to look for a room near the university.",
           why: { en: "にあたって = \"on the occasion of / when about to\" start something important." } },
         { q: "学生{時代|じだい}はよくこの公園の{芝生|しばふ}で{昼寝|ひるね}をした（　）。{懐|なつ}かしいなあ。",
           options: ["ことだ", "ものだ", "だけだ", "わけだ"], answer: 1,
@@ -16,7 +16,7 @@ N2F({ ch: 14, review: [
         { q: "この{製品|せいひん}の使用法（　）は、ホームページをご{覧|らん}ください。",
           options: ["について", "にあたって", "をめぐって", "に{基|もと}づいて"], answer: 0,
           en: "For how to use this product, please see our website.",
-          why: { en: "について = \"about / regarding\" a topic (here, usage instructions)." } },
+          why: { en: "について = \"about / regarding\" a topic (here, usage instructions). をめぐって would imply a dispute among several parties, and にあたって / に基づいて don't mean \"about\"." } },
         { q: "人は自分の{経験|けいけん}（　）{判断|はんだん}することが多いので、正しい{判断|はんだん}をするにはたくさんの{経験|けいけん}が{必要|ひつよう}だと言われる。",
           options: ["にしては", "に{基|もと}づいて", "に{加|くわ}えて", "にあたり"], answer: 1,
           en: "People often make judgments based on their own experience, so it is said that you need a lot of experience to make correct judgments.",
@@ -59,7 +59,7 @@ N2F({ ch: 14, review: [
         "{交差点|こうさてん}で{車同士|くるまどうし}が{衝突|しょうとつ}する{事故|じこ}が起きた。{事故原因|じこげんいん}の{調査|ちょうさ}では、運転手に{重大|じゅうだい}な{過失|かしつ}は{認|みと}められなかった。{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は{判決|はんけつ}[2]、200万円を{支払|しはら}うこととなった。道路{管理|かんり}に問題があったと{認|みと}められた[3]。今回の{事故|じこ}[4]、{大山|おおやま}市は市内のすべての道路の安全{調査|ちょうさ}を{実施|じっし}するとのことだ。",
       ],
       en: [
-        "A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city was ordered to pay 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city.",
+        "A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city ended up paying 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city.",
       ],
       blanks: [
         { options: ["を{通|つう}じて", "をめぐって", "を{問|と}わず", "をはじめ"], answer: 1,

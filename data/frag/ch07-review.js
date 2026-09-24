@@ -78,8 +78,8 @@ N2F({ ch: 7, review: [
       ],
       en: [
         "As science and technology have advanced, from the standpoint of knowledge, we have come to understand far more than in the past. Regarding the universe, too, various facts have become clear.",
-        "For example, in the past we didn't even know black holes existed, but from the advance of technologies such as astronomical observation, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.",
-        "However, while various facts become clear, further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?",
+        "For example, in the past we didn't even know black holes existed, but because technologies such as astronomical observation advanced, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.",
+        "However, while various facts are becoming clear, at the same time further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?",
         "Until now, it was expected that by gaining knowledge we would understand everything. But even though scientists continue their research day after day, the mysteries of the universe only keep deepening.",
       ],
       blanks: [

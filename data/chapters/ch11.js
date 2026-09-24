@@ -110,7 +110,7 @@ N2.register({
             },
             {
               "ja": "この国の{人々|ひとびと}が{貧|まず}しくても{笑顔|えがお}で{暮|く}らしているのは、心の{豊|ゆた}かさを大切にしているからにほかならない。",
-              "en": "The reason the people of this country live with smiles on their faces even though they are poor is none other than that they value richness of heart."
+              "en": "The reason the people of this country live with smiles on their faces even though they are poor is, quite simply, that they value richness of heart."
             }
           ],
           "deepDive": "**〜にほかならない** (外ならない) literally means *is not other than ~*, so it is an emphatic *is precisely / is none other than ~*. The speaker rejects every other possible explanation and pins the matter on one thing: 成功の理由は努力にほかならない = *the reason for success is effort — nothing else*.\n\nRegister: it is a written, rather formal pattern — essays, speeches, editorials, articles. In conversation people say まさに〜だ, 〜そのものだ or just 〜なんです. The polite ending is 〜にほかなりません.\n\nConnection:\n- **N + にほかならない**: 愛情の表れにほかならない.\n- **〜から／ため + にほかならない** (＊ note): the typical shape for explaining reasons. The subject is usually 〜のは: 彼が怒ったのは、あなたを心配していたからにほかならない.\n- You cannot attach it directly to a verb: ✗努力するにほかならない → ✓努力することにほかならない.\n\nContrast with **〜にすぎない** (#101): both say *X is (only) Y*, but in opposite directions. にほかならない *raises* Y to the single decisive factor; にすぎない *shrinks* X to something small or unimportant. 努力の結果にほかならない (praise: it's all thanks to effort) vs. 偶然にすぎない (dismissive: it's mere chance).\n\nSimilar emphatic reason patterns: 〜からこそ (*precisely because*), and the written 〜ゆえ. JLPT tip: when a sentence begins with 〜のは and the blank follows から or ため, にほかならない is a strong candidate.",
@@ -233,7 +233,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「[なA]／[N] である + {上|うえ}」の形もある。",
-              "en": ""
+              "en": "The form [なA]／[N] である + 上 is also used."
             },
             {
               "ja": "名詞は{状態|じょうたい}や{様子|ようす}を表す言葉が使われる。",
@@ -258,7 +258,7 @@ N2.register({
               "en": "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands."
             }
           ],
-          "deepDive": "**〜上（に）** (read うえ) adds a second point on top of the first: *not only A, but also B / A, and on top of that B*. It is close to 〜し、〜も or 〜だけでなく, but sounds a bit more written and emphasizes the *accumulation*.\n\nKey rule: A and B must point **in the same direction** — both good (安い上においしい) or both bad (熱がある上に咳も出る). ✗この店は安い上にまずい is odd, because the second point contradicts the first; use 安いけれどまずい. B very often contains **も** (家賃も, 味も).\n\nConnection: plain form, with なA + な and N + の (便利な上に; with nouns, only words describing a state work naturally: 高齢の上に, 初心者の上に — not ✗雨の上に). The formal 〜である上に is also possible. Commands, requests and invitations don't usually follow in the second clause: ✗雨が降っている上に、早く帰りなさい.\n\nDon't mix it up with the other 上 patterns in the book (☞ similar pattern list 〜上／上):\n- **V上で** (#14) *in doing ~ / for the purpose of ~*; **V-た上で** (#117) *after doing ~*.\n- **〜上は** (#18) *now that ~ / since ~* (決めた上は最後までやる).\n- **N上（じょう）** (#70) *from the standpoint of ~*: 計算上, 法律上, 書類上. Written 上は, it looks just like #18, but after a noun it is read じょうは (計算上は *on paper*) — the practice below contrasts it with 上（うえ）に.\n\nJLPT tip: if the second half repeats the same kind of evaluation with も, choose 上に.",
+          "deepDive": "**〜上（に）** (read うえ) adds a second point on top of the first: *not only A, but also B / A, and on top of that B*. It is close to 〜し、〜も or 〜だけでなく, but sounds a bit more written and emphasizes the *accumulation*.\n\nKey rule: A and B must point **in the same direction** — both good (安い上においしい) or both bad (熱がある上に咳も出る). ✗この店は安い上にまずい is odd, because the second point contradicts the first; use 安いけれどまずい. B very often contains **も** (家賃も, 味も).\n\nConnection: plain form, with なA + な and N + の (便利な上に; with nouns, only words describing a state work naturally: 高齢の上に, 初心者の上に — not ✗雨の上に). The formal 〜である上に is also possible. Commands, requests and invitations don't usually follow directly in the second clause: ✗雨が降っている上に、早く帰りなさい. (A request can still come at the very end after a further reason clause, as in example ②: …交通量が多いので、十分注意してください.)\n\nDon't mix it up with the other 上 patterns in the book (☞ similar pattern list 〜上／上):\n- **V上で** (#14) *in doing ~ / for the purpose of ~*; **V-た上で** (#117) *after doing ~*.\n- **〜上は** (＋Plus under #18) *now that ~ / since ~* (決めた上は最後までやる).\n- **N上（じょう）** (#70) *from the standpoint of ~*: 計算上, 法律上, 書類上. Written 上は, it looks just like #18, but after a noun it is read じょうは (計算上は *on paper*) — the practice below contrasts it with 上（うえ）に.\n\nJLPT tip: if the second half repeats the same kind of evaluation with も, choose 上に.",
           "see": [
             14,
             18,
@@ -288,7 +288,7 @@ N2.register({
                     "の{上|うえ}に"
                   ],
                   "answer": 0,
-                  "en": "Looking at GDP, our country is becoming richer on paper, but the people's standard of living can't be called high, and raising it is a challenge for the future."
+                  "en": "Looking at GDP, our country is becoming richer according to the data, but the people's standard of living can't be called high, and raising it is a challenge for the future."
                 },
                 {
                   "q": "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）{保証人|ほしょうにん}にもなってくれた。",
@@ -338,7 +338,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「[なA]／[N] + といっても」の形もある。",
-              "en": ""
+              "en": "The form [なA]／[N] + といっても is also used."
             }
           ],
           "examples": [
@@ -356,14 +356,14 @@ N2.register({
             },
             {
               "ja": "A：来月の{富士山日帰|ふじさんひがえ}りバスツアーは席がまだありますか？\nB：はい、まだございますが、あるといいましても、{残|のこ}りわずかですので、お早めにご予約ください。",
-              "en": "A: Are there still seats on next month's day-trip bus tour to Mt. Fuji?\nB: Yes, there are, but although there are some, only a few remain, so please book early."
+              "en": "A: Are there still seats on next month's day-trip bus tour to Mt. Fuji?\nB: Yes, we do, though I should add that only a few remain, so please book early."
             },
             {
               "ja": "A：あの店、CDが安いんだって？\nB：まあね。安いといっても10%だけどね。",
               "en": "A: I hear CDs are cheap at that shop?\nB: Sort of. They're cheap, but only by 10%."
             }
           ],
-          "deepDive": "**〜といっても** means *although I say ~ / it's true that ~, but…*. The speaker first admits a word or fact, then immediately **corrects the image it creates** — usually downward: the thing is smaller, fewer, less impressive than the listener imagines. 社長といっても社員3人の会社だ: *I'm “president”, but of a three-person company*.\n\nSo the second half typically contains limiting words: だけ, しか〜ない, ぐらい, ほんの, それほど〜ない, 少し. If the second half *confirms* the image (✗海外といっても、ヨーロッパを1か月回った), the sentence breaks.\n\nConnection: plain form, and なA / N directly (得意といっても, 旅行といっても). **といいましても** is the polite version, used by staff with customers or in formal speech. In very casual speech you'll hear **〜って（いって）も**: 風邪っていっても, 熱はないよ.\n\nCompare:\n- **〜からといって** (N3) *just because ~ doesn't mean…* — about wrong conclusions, not about correcting an image.\n- **〜とはいうものの / 〜とはいえ** — *although it's said that ~* — more written, the second half doesn't have to be a downgrade.\n- **〜にしては** — *for ~, (surprisingly)*.\n\nJLPT tip: in 問題1/2, look for the pattern [word the listener might be impressed by] + といっても + [だけ／ぐらい]. In the practice, choose the completion that *reduces* the expectation.",
+          "deepDive": "**〜といっても** means *although I say ~ / it's true that ~, but…*. The speaker first admits a word or fact, then immediately **corrects the image it creates** — usually downward: the thing is smaller, fewer, less impressive than the listener imagines. 社長といっても社員3人の会社だ: *I'm “president”, but of a three-person company*. It can also correct the image in the other direction: アルバイト店員といっても、店長と同じぐらい働いています (*I may be a part-timer, but I work as much as the manager*).\n\nSo the second half typically contains limiting words: だけ, しか〜ない, ぐらい, ほんの, それほど〜ない, 少し. If the second half *confirms* the image (✗海外といっても、ヨーロッパを1か月回った), the sentence breaks.\n\nConnection: plain form, and なA / N directly (得意といっても, 旅行といっても). **といいましても** is the polite version, used by staff with customers or in formal speech. In very casual speech you'll hear **〜って（いって）も**: 風邪っていっても, 熱はないよ.\n\nCompare:\n- **〜からといって** (N3) *just because ~ doesn't mean…* — about wrong conclusions, not about correcting an image.\n- **〜とはいうものの / 〜とはいえ** — *although it's said that ~* — more written, the second half doesn't have to be a downgrade.\n- **〜にしては** (#41) — *for ~, (surprisingly)*.\n\nJLPT tip: in 問題1/2, look for the pattern [word the listener might be impressed by] + といっても + [だけ／ぐらい]. In the practice, choose the completion that goes *against* the image the word creates.",
           "see": [],
           "index": [
             "〜といっても",
@@ -446,7 +446,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
-          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). Adjectives don't attach: ✗安いに限る → ✓安いものに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *of all times, just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
+          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). Adjectives don't attach: ✗安いに限る → ✓安いものに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *it's always ~ who… / just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
           "see": [
             3,
             23,
@@ -480,7 +480,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「[なA]／[N] である + だけあって」の形もある。",
-              "en": ""
+              "en": "The form [なA]／[N] である + だけあって is also used."
             },
             {
               "ja": "名詞は、{状態|じょうたい}や{様子|ようす}を表す言葉が使われるときは「な」がつく。",
@@ -525,7 +525,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**〜だけあって** means *as one would expect from ~ / befitting ~*. The first half states a fact about someone's status, effort, price or background; the second half is a result that **naturally matches** it — and almost always a **positive evaluation** (hence the praise mark). It often pairs with **さすが**: さすがプロだけあって、うまい.\n\nConnection: plain forms of verbs (including V-ている, V-た), いA, なA + な, and nouns directly (プロだけあって, 老舗だけあって). Formal: 〜であるだけあって.\n\n**〜だけに** has two faces:\n- Like だけあって: 名門校だけに、授業のレベルが高い. Here it can also be used for negative-but-expected results (人気店だけに、いつも混んでいる).\n- The note: *all the more because ~* — the first half **amplifies a feeling** in the second: 期待していただけに、がっかりした. This is where だけあって cannot be used, because there is no praise and the result isn't what the reputation “deserves”. Typical second halves: 残念だ, うれしい, ショックだ, いっそう〜感じる.\n\nDon't confuse with plain だけ: **〜だけで** *just by ~* (ボタンを押すだけでいい) and **V-たいだけ** *as much as you want* (食べたいだけ食べる). The practice mixes these deliberately.\n\nAlso compare **〜だけのことはある** (*it's worth / no wonder*), a sentence-final cousin: 高いだけのことはある. Other だけ patterns in the book (☞ similar pattern list 〜だけ): **Vだけ（V）** *do it anyway* (#47) and **Vるだけ** *as much as possible* (#55).",
+          "deepDive": "**〜だけあって** means *as one would expect from ~ / befitting ~*. The first half states a fact about someone's status, effort, price or background; the second half is a result that **naturally matches** it — and almost always a **positive evaluation** (hence the praise mark). It often pairs with **さすが**: さすがプロだけあって、うまい.\n\nConnection: plain forms of verbs (including V-ている, V-た), いA, なA + な, and nouns directly (プロだけあって, 老舗だけあって). Formal: 〜であるだけあって.\n\n**〜だけに** has two faces:\n- Like だけあって: 名門校だけに、授業のレベルが高い. Here it can also be used for negative-but-expected results (人気店だけに、いつも混んでいる).\n- The note: *all the more because ~* — the first half **amplifies a feeling** in the second: 期待していただけに、がっかりした. This is where だけあって cannot be used, because there is no praise and the result isn't what the reputation “deserves”. Typical second halves: 残念だ, うれしい, ショックだ, いっそう〜感じる.\n\nDon't confuse with plain だけ: **〜だけで** *just by ~* (ボタンを押すだけでいい) and **V-たいだけ** *as much as you want* (食べたいだけ食べる). The practice mixes these deliberately.\n\nAlso compare **〜だけのことはある** (*it's worth / no wonder*), a sentence-final cousin: 高いだけのことはある. Other だけ patterns in the book (☞ similar pattern list 〜だけ): **V-るだけV** *at least try ~* (#47) and **[V-できる] + だけ** *as much as possible* (#55).",
           "see": [
             47,
             55
@@ -618,7 +618,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「[なA]／[N] である + にしろ」の形もある。",
-              "en": ""
+              "en": "The form [なA]／[N] である + にしろ is also used."
             }
           ],
           "examples": [
@@ -659,7 +659,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**AにしろBにしろ** means *whether A or B / be it A or B*: the speaker picks two representative items (or two opposites) and says the conclusion holds for **all** of them. 肉にしろ魚にしろ = *meat, fish — any food*. With opposites it becomes *either way*: 行くにしろ行かないにしろ.\n\nVariants and register:\n- **にしろ** — written / fairly formal.\n- **にせよ** — the most formal/literary (せよ is the old imperative of する).\n- **にしても** — the most conversational.\nAll three mean the same here. Connection: plain form; なA and N drop だ (便利にしろ, 雨にしろ); formal である is possible.\n\nThe second half is typically a judgment, obligation, advice or general truth: 〜ことが大切だ, 〜なければならない, 〜てください. It doesn't describe a single past event.\n\n**With a question word** (note), you only need one にしろ: 何をするにしろ, どこに住むにせよ, いずれにしても (*in any case* — an extremely common set phrase).\n\nContrast:\n- **〜やら〜やら** (N3) lists examples to show *there are various things* (犬やら猫やら、いろいろ飼っている) — no *either way* meaning. The practice tests this pair.\n- **〜につけ** (e.g. 〜を見るにつけ) *every time ~, (a feeling arises)* — about repeated emotion, not about “regardless”.\n- **〜にかかわらず** (#5) is close to the opposites use (行く行かないにかかわらず) but is more formal and stated from outside, whereas にしろ often carries advice.\n- Single **〜にしても** after one clause can also mean *even if / granted that ~* (忙しいにしても、電話ぐらいできるだろう).",
+          "deepDive": "**AにしろBにしろ** means *whether A or B / be it A or B*: the speaker picks two representative items (or two opposites) and says the conclusion holds for **all** of them. 肉にしろ魚にしろ = *meat, fish — any food*. With opposites it becomes *either way*: 行くにしろ行かないにしろ.\n\nVariants and register:\n- **にしろ** — written / fairly formal.\n- **にせよ** — the most formal/literary (せよ is the old imperative of する).\n- **にしても** — the most conversational.\nAll three mean the same here. Connection: plain form; なA and N drop だ (便利にしろ, 雨にしろ); formal である is possible.\n\nThe second half is typically a judgment, obligation, advice or general truth: 〜ことが大切だ, 〜なければならない, 〜てください. It doesn't describe a single past event.\n\n**With a question word** (note), you only need one にしろ: 何をするにしろ, どこに住むにせよ, いずれにしても (*in any case* — an extremely common set phrase).\n\nContrast:\n- **〜やら〜やら** (#98) lists examples to show *there are various things* (犬やら猫やら、いろいろ飼っている) — no *either way* meaning. The practice tests this pair.\n- **〜につけ** (#94, e.g. 〜を見るにつけ) *every time ~, (a feeling arises)* — about repeated emotion, not about “regardless”.\n- **〜にかかわらず** (#5) is close to the opposites use (行く行かないにかかわらず) but is more formal and stated from outside, whereas にしろ often carries advice.\n- Single **〜にしても** after one clause can also mean *even if / granted that ~* (忙しいにしても、電話ぐらいできるだろう).",
           "see": [
             5
           ],
@@ -851,7 +851,7 @@ N2.register({
               "ばかりか"
             ],
             "answer": 1,
-            "en": "Any shop that sells food, whatever kind of shop it is, must properly manage hygiene.",
+            "en": "Shops that sell food, whatever kind of shop they are, must manage hygiene properly.",
             "why": {
               "en": "どんな〜にしろ = \"no matter what kind of ~\"."
             }
@@ -879,7 +879,7 @@ N2.register({
               "といっても"
             ],
             "answer": 3,
-            "en": "I did volunteer work in the disaster area, but even so, it was only for one day...",
+            "en": "I may have volunteered in the disaster area, but it was only for one day...",
             "why": {
               "en": "といっても corrects an impression the listener might have: \"I did volunteer, but it was only one day\"."
             }

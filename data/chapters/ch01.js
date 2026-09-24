@@ -56,7 +56,7 @@ N2.register({
           },
           {
             "ja": "＊{経験|けいけん}{年数|ねんすう}**に{応|おう}じ**、{時給|じきゅう}は{考慮|こうりょ}します。",
-            "en": "* The hourly wage will take into account your years of experience."
+            "en": "* The hourly wage will be adjusted according to your years of experience."
           },
           {
             "ja": "交通費▶{往復|おうふく}1,000円まで{支給|しきゅう}",
@@ -119,7 +119,7 @@ N2.register({
             },
             {
               "ja": "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき{休診|きゅうしん}。",
-              "en": "April 15 (Thu.): Dr. Sato will not see patients as he is attending an academic conference."
+              "en": "April 15 (Thu.): no consultations with Dr. Sato, who is attending an academic conference."
             },
             {
               "ja": "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。",
@@ -127,7 +127,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.224　〜につき",
-          "deepDive": "**〜につき** is a stiff, written way of saying *because of ~*. It belongs to the world of signs, posters, notices on shop doors and official letters — you would sound odd saying 雨につき、行かない to a friend (just say 雨だから).\n\nStructure: it attaches directly to a noun, very often a Sino-Japanese noun that describes a state or event: 工事中・清掃中・準備中・祝日・雨天・改装・品切れ. The second half is typically a notice, request or apology: …休業します / …ご注意ください / …ご遠慮ください.\n\nDon't confuse it with the N3 **〜につき = “per”** (1人につき500円 “¥500 per person”, 1回につき “per time”). Context makes it clear: a number/unit before につき → *per*; a situation before につき → *because of*.\n\n- Similar reason words: 〜ため（に） (neutral, written), 〜により (formal, cause), 〜ので (neutral, spoken & written).\n- JLPT tip: if the sentence looks like a sign or notice and the blank follows a situation noun (清掃中, 改装工事中), につき is almost always the answer.",
+          "deepDive": "**〜につき** is a stiff, written way of saying *because of ~*. It belongs to the world of signs, posters, notices on shop doors and official letters — you would sound odd saying 雨につき、行かない to a friend (just say 雨だから).\n\nStructure: it attaches directly to a noun, very often a Sino-Japanese noun that describes a state or event: 工事中・清掃中・準備中・祝日・雨天・改装・品切れ. The second half is typically a notice, request or apology: …休業します / …ご注意ください / …ご遠慮ください.\n\nDon't confuse it with the other **〜につき = “per”** (1人につき500円 “¥500 per person”, 1回につき “per time”). Context makes it clear: a number/unit before につき → *per*; a situation before につき → *because of*.\n\n- Similar reason words: 〜ため（に） (neutral, written), 〜により (formal, cause), 〜ので (neutral, spoken & written).\n- JLPT tip: if the sentence looks like a sign or notice and the blank follows a situation noun (清掃中, 改装工事中), につき is almost always the answer.",
           "see": [],
           "index": [
             "Nにつき"
@@ -217,7 +217,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**〜を問わず** literally means *without asking about ~* (問う = to question, to make something an issue). So 年齢を問わず = *we don't ask about age* → *regardless of age*.\n\nThe noun before it must describe something that **varies** — a category with several possible values (年齢, 国籍, 季節, 天候) or a pair of opposites (男女, 昼夜, 内外, 有無, 経験の有無, 老若男女). You can't say ✗田中さんを問わず, because “Tanaka” doesn't have values to choose among. This is why, in the practice, 国の内外 works but 海外 or 外国 alone does not.\n\nCompare the close relatives:\n- **〜にかかわらず** (#5): also *regardless of*; can follow opposite pairs of verbs/adjectives too (行く行かないにかかわらず). を問わず only takes nouns.\n- **〜に限らず** (#72): *not only ~ (but also others)* — widens the range: 若者に限らず、お年寄りも.\n- **〜もかまわず** (#127): *without caring about ~* — describes someone's attitude, often critical.\n- **〜はもちろん**: *not to mention ~* — with 昼間 … 夜も you need はもちろん, not を問わず (practice 2).\n\nJLPT tip: を問わず appears constantly in 求人 (job ads), 募集 (calls for participants) and shop information — exactly the texts in this chapter.",
+          "deepDive": "**〜を問わず** literally means *without asking about ~* (問う = to question, to make something an issue). So 年齢を問わず = *we don't ask about age* → *regardless of age*.\n\nThe noun before it must describe something that **varies** — a category with several possible values (年齢, 国籍, 季節, 天候) or a pair of opposites (男女, 昼夜, 内外, 有無, 経験の有無, 老若男女). You can't say ✗田中さんを問わず, because “Tanaka” doesn't have values to choose among. This is why, in the practice, 国の内外 works but 海外 or 外国 alone does not.\n\nCompare the close relatives:\n- **〜にかかわらず** (#5): also *regardless of*; can follow opposite pairs of verbs/adjectives too (行く行かないにかかわらず). を問わず normally follows nouns.\n- **〜に限らず** (#72): *not only ~ (but also others)* — widens the range: 若者に限らず、お年寄りも.\n- **〜もかまわず** (#127): *without caring about ~* — describes someone's attitude, often critical.\n- **〜はもちろん**: *not to mention ~* — with 昼間 … 夜も you need はもちろん, not を問わず (practice 2).\n\nJLPT tip: を問わず appears constantly in 求人 (job ads), 募集 (calls for participants) and shop information — exactly the texts in this chapter.",
           "see": [
             5,
             72,
@@ -448,7 +448,7 @@ N2.register({
               "en": "In response to employees' requests, the company added more items to the staff cafeteria menu."
             }
           ],
-          "deepDive": "**〜に応じて** means *in response to / in proportion to / in accordance with*. The key idea: **when X changes, Y changes to match it**. 利用額に応じてポイントがつく — the more you spend, the more points you get.\n\n- **に応じ** is the written, clause-linking form (like 〜て → 連用形): 能力や経験に応じ、決めさせていただきます.\n- **に応じた + N** modifies a noun: 場所や場合に応じた服装 *clothing suited to the place and occasion*.\n\nHow it differs from its neighbors:\n- **〜によって** (*depending on*) simply says results differ: 習慣は国によって違う. に応じて adds the idea of *deliberately adjusting to fit*: 相手に応じて話し方を変える. So 習慣は国に応じて違う sounds wrong — nobody adjusts customs to fit the country.\n- **〜に合わせて** is very close, but more everyday: 相手のペースに合わせる.\n- **〜にこたえて** (#118) = *in response to (a request/expectation)* and implies trying to satisfy it.\n\nThe verb 応じる alone is also N2 vocabulary: 質問に応じる *to answer questions*, 取材に応じる *to agree to an interview*.",
+          "deepDive": "**〜に応じて** means *in response to / in proportion to / in accordance with*. The key idea: **when X changes, Y changes to match it**. 利用額に応じてポイントがつく — the more you spend, the more points you get.\n\n- **に応じ** is the written, clause-linking form (the continuative 連用形, a stiffer alternative to に応じて): 能力や経験に応じ、決めさせていただきます.\n- **に応じた + N** modifies a noun: 場所や場合に応じた服装 *clothing suited to the place and occasion*.\n\nHow it differs from its neighbors:\n- **〜によって** (*depending on*) simply says results differ: 習慣は国によって違う. に応じて adds the idea of *deliberately adjusting to fit*: 相手に応じて話し方を変える. So 習慣は国に応じて違う sounds wrong — nobody adjusts customs to fit the country.\n- **〜に合わせて** is very close, but more everyday: 相手のペースに合わせる.\n- **〜にこたえて** (#118) = *in response to (a request/expectation)* and implies trying to satisfy it.\n\nThe verb 応じる alone is also N2 vocabulary: 質問に応じる *to answer questions*, 取材に応じる *to agree to an interview*.",
           "see": [
             118
           ],
@@ -550,7 +550,7 @@ N2.register({
               "en": "This trip will go ahead rain or shine."
             }
           ],
-          "deepDive": "**〜にかかわらず** (関わらず, from 関わる *to be related to*) literally means *without being related to ~*, so: *regardless of, irrespective of*.\n\nIts most characteristic shape is **[V-る] + [V-ない] + にかかわらず**: わかるわからないにかかわらず, 発言するしないにかかわらず. The same A-or-not-A idea appears with nouns: 有無, 大小, 多少, 晴雨, 採否, 好き嫌い, 善悪. The phrase **〜のいかんにかかわらず** (*whatever the ~ may be*) is a formal fixed expression.\n\nComparing with **〜を問わず** (#2):\n- Both mean *regardless of*, and are often interchangeable with nouns: 年齢を問わず ≈ 年齢にかかわらず.\n- Only にかかわらず takes verb/adjective pairs: ✓出席するしないにかかわらず / ✗出席するしないを問わず.\n\nThe big trap is **にもかかわらず** (#21) — one extra も changes the meaning to *in spite of*. On the test, read the sentence: if the second half contradicts expectations, you need にもかかわらず.",
+          "deepDive": "**〜にかかわらず** (関わらず, from 関わる *to be related to*) literally means *without being related to ~*, so: *regardless of, irrespective of*.\n\nIts most characteristic shape is **[V-る] + [V-ない] + にかかわらず**: わかるわからないにかかわらず, 発言するしないにかかわらず. The same A-or-not-A idea appears with nouns: 有無, 大小, 多少, 晴雨, 採否, 好き嫌い, 善悪. The phrase **〜のいかんにかかわらず** (*whatever the ~ may be*) is a formal fixed expression.\n\nComparing with **〜を問わず** (#2):\n- Both mean *regardless of*, and are often interchangeable with nouns: 年齢を問わず ≈ 年齢にかかわらず.\n- With verb/adjective pairs, にかかわらず is the natural choice: ✓出席するしないにかかわらず (を問わず normally follows nouns).\n\nThe big trap is **にもかかわらず** (#21) — one extra も changes the meaning to *in spite of*. On the test, read the sentence: if the second half contradicts expectations, you need にもかかわらず.",
           "see": [
             2,
             21
@@ -628,7 +628,7 @@ N2.register({
               "en": "The construction of this wind power facility is said to be of great significance for the development of natural energy."
             }
           ],
-          "deepDive": "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event) and sometimes of **に** (existence in a domain). **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\nThree typical uses:\n- **Place of an official event**: 入学式は、3階のホールにおいて行われます. (Very common with 行われる/開催される.)\n- **Time/era**: 江戸時代において, 現代において.\n- **Field/situation**: 生物学における, 自然エネルギー開発において, 人生における.\n\nWith は and も: **においては** contrasts (*as for Japan…*), **においても** adds (*in ~ too*). In practice 3, 世界中で深刻 … 日本においても = *in Japan too*.\n\nPitfall: において sounds pompous for trivial actions. Keep で for “ate lunch in the classroom” (practice 4). On the test, if the sentence is newsy/official and talks about where an event is held, において is right; if it's a casual action, で is right.",
+          "deepDive": "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event). Unlike に, it does not mark where something simply exists: ✗部屋において机がある. **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\nThree typical uses:\n- **Place of an official event**: 入学式は、3階のホールにおいて行われます. (Very common with 行われる/開催される.)\n- **Time/era**: 江戸時代において, 現代において.\n- **Field/situation**: 生物学における, 自然エネルギー開発において, 人生における.\n\nWith は and も: **においては** contrasts (*as for Japan…*), **においても** adds (*in ~ too*). In practice 3, 世界中で深刻 … 日本においても = *in Japan too*.\n\nPitfall: において sounds pompous for trivial actions. Keep で for “ate lunch in the classroom” (practice 4). On the test, if the sentence is newsy/official and talks about where an event is held, において is right; if it's a casual action, で is right.",
           "see": [],
           "index": [
             "Nにおいて",
@@ -740,7 +740,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**〜際（に）** is a formal *when / at the time of*. Think of it as a dressed-up とき. You'll meet it constantly on signs (お降りの際は…), in manuals (ご使用の際は…) and business email (お越しの際は…).\n\n- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n**〜に際して** (Plus) attaches directly to a noun and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\nCommon mistake: 地震のとき → 地震の際 ✓, but ✗地震な際. Remember の.",
+          "deepDive": "**〜際（に）** is a formal *when / at the time of*. Think of it as a dressed-up とき. You'll meet it constantly on signs (お降りの際は…), in manuals (ご使用の際は…) and business email (お越しの際は…).\n\n- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n**〜に際して** (Plus) attaches directly to a noun and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\nCommon mistake: forgetting の after a noun: 地震のとき → ✓地震の際 (not ✗地震際).",
           "see": [
             135
           ],
@@ -905,7 +905,7 @@ N2.register({
             {
               "q": "毎週日曜日は{先着|せんちゃく}10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。",
               "answer": "に{限|かぎ}り",
-              "en": "Every Sunday, the first 10 people only can try the ninja experience for free."
+              "en": "Every Sunday, only the first 10 people can try the ninja experience for free."
             }
           ]
         },
@@ -1137,7 +1137,7 @@ N2.register({
         ],
         "en": [
           "Seeing a film in Japan usually costs about 1,800 yen, but cinemas offer special deals besides the regular price.",
-          "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. Some cinemas also charge only women 1,000 yen on Wednesdays.",
+          "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. Some cinemas also offer tickets for 1,000 yen on Wednesdays, for women only.",
           "Also, when either member of a married couple is 50 or older, the two of them can always get in for 2,000 yen. However, you must show ID when buying the tickets.",
           "In addition, inside the cinema there is also a service that lends out blankets and cushions."
         ],
@@ -1258,7 +1258,7 @@ N2.register({
             ],
             "en": [
               "You are listening to an announcement from an international students' center.",
-              "This is an announcement from the Yokota International Student Center. On Saturday, March 10, from 2 p.m., we will hold an event called \"Let's interact with international students in English.\" You will be divided into groups according to your level and interact with about 15 international students from various countries. Anyone aged 16 or over is welcome to take part, regardless of age or occupation. However, if there are many applicants, local residents will be given priority, so others should contact the Yokota International Student Center directly. The participation fee is 500 yen for tea. Please pay when you come to the center on the day. Capacity is 40 people. The phone number is...",
+              "This is an announcement from the Yokota International Student Center. On Saturday, March 10, from 2 p.m., we will hold an event called \"Let's interact with international students in English.\" You will be divided into groups according to your level and interact with about 15 international students from various countries. Anyone aged 16 or over is welcome to take part, regardless of age or occupation. However, if there are many applicants, local residents will be given priority, so others should contact the Yokota International Student Center directly. The participation fee is 500 yen, to cover tea. Please pay when you come to the center on the day. Capacity is 40 people. The phone number is...",
               "Hey, this event looks interesting.",
               "Huh? Oh, the student center — that's the place that always runs cooking classes. Wow, English, huh.",
               "Yeah. You're always saying you never get a chance to speak English, right?",

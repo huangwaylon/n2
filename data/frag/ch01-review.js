@@ -65,7 +65,7 @@ N2F({ ch: 1, review: [
       ],
       en: [
         "Seeing a film in Japan usually costs about 1,800 yen, but cinemas offer special deals besides the regular price.",
-        "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. Some cinemas also charge only women 1,000 yen on Wednesdays.",
+        "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. Some cinemas also offer tickets for 1,000 yen on Wednesdays, for women only.",
         "Also, when either member of a married couple is 50 or older, the two of them can always get in for 2,000 yen. However, you must show ID when buying the tickets.",
         "In addition, inside the cinema there is also a service that lends out blankets and cushions.",
       ],
@@ -99,7 +99,7 @@ N2F({ ch: 1, review: [
           ],
           en: [
             "You are listening to an announcement from an international students' center.",
-            "This is an announcement from the Yokota International Student Center. On Saturday, March 10, from 2 p.m., we will hold an event called \"Let's interact with international students in English.\" You will be divided into groups according to your level and interact with about 15 international students from various countries. Anyone aged 16 or over is welcome to take part, regardless of age or occupation. However, if there are many applicants, local residents will be given priority, so others should contact the Yokota International Student Center directly. The participation fee is 500 yen for tea. Please pay when you come to the center on the day. Capacity is 40 people. The phone number is...",
+            "This is an announcement from the Yokota International Student Center. On Saturday, March 10, from 2 p.m., we will hold an event called \"Let's interact with international students in English.\" You will be divided into groups according to your level and interact with about 15 international students from various countries. Anyone aged 16 or over is welcome to take part, regardless of age or occupation. However, if there are many applicants, local residents will be given priority, so others should contact the Yokota International Student Center directly. The participation fee is 500 yen, to cover tea. Please pay when you come to the center on the day. Capacity is 40 people. The phone number is...",
             "Hey, this event looks interesting.",
             "Huh? Oh, the student center — that's the place that always runs cooking classes. Wow, English, huh.",
             "Yeah. You're always saying you never get a chance to speak English, right?",

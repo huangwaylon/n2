@@ -43,7 +43,7 @@ N2.register({
             "sp": "大田",
             "v": "f",
             "ja": "{小林|こばやし}君**ったら**何言ってるの。{胃|い}の大きさは食事の{量|りょう}によって変わる**ようになっている**のよ。",
-            "en": "Kobayashi, what are you saying? The size of your stomach is set up to change depending on how much you eat."
+            "en": "Oh, Kobayashi, honestly, what are you saying? Your stomach is made so that its size changes depending on how much you eat."
           },
           {
             "sp": "小林",
@@ -97,7 +97,7 @@ N2.register({
               "en": "A: Yesterday's hike was a lot harder than expected, wasn't it?\nB: Really. Five hours of walking nonstop. I was so exhausted — by the end it felt like I couldn't take another step."
             }
           ],
-          "deepDive": "**〜のなんのって** is a lively, spoken way to say *so ~ you wouldn't believe it*. Literally it is something like *“~, or what, or whatever you want to call it…”* — the speaker gives up on finding the right words, which signals that the degree was extreme.\n\nTypical shape: **[adjective/verb] + のなんのって, [concrete result/episode]**. The second half usually illustrates *how* extreme it was: 疲れたのなんのって、最後はもう一歩も歩けない…. The sentence can also simply stop after のなんのって, leaving the listener to imagine: 痛いのなんのって。／びっくりしたのなんのって。\n\n- It attaches to the plain form of い-adjectives, な-adjectives (with な) and verbs (often V-た: びっくりしたのなんのって, 疲れたのなんのって).\n- It does **not** follow nouns (the book marks N だ with an ✗): ✗人気なのなんのって is avoided; say 人気があるのなんのって.\n- It usually describes the speaker's own experience or impression, often something negative or overwhelming (痛い, うるさい, 忙しい, 疲れた), but positive things work too (メニューが多いのなんのって).\n\nRegister: strictly casual. In an essay or business email use とても／非常に or 〜ほど／〜くらい: 言葉にできないほど忙しかった.\n\nCompare **〜といったらない** (*it's indescribably ~*), which is similar but a bit more literary. JLPT tip: if a blank comes right after an adjective and the rest of the sentence gives an exaggerated consequence in casual speech, のなんのって is a strong candidate.",
+          "deepDive": "**〜のなんのって** is a lively, spoken way to say *so ~ you wouldn't believe it*. Literally it is something like *“~, or what, or whatever you want to call it…”* — the speaker gives up on finding the right words, which signals that the degree was extreme.\n\nTypical shape: **[adjective/verb] + のなんのって, [concrete result/episode]**. The second half usually illustrates *how* extreme it was: 疲れたのなんのって、最後はもう一歩も歩けない…. The sentence can also simply stop after のなんのって, leaving the listener to imagine: 痛いのなんのって。／びっくりしたのなんのって。\n\n- It attaches to the plain form of い-adjectives, な-adjectives (with な) and verbs (often V-た: びっくりしたのなんのって, 疲れたのなんのって).\n- It does **not** follow nouns (the book marks N だ with an ✗): ✗人気なのなんのって is avoided; say 人気があるのなんのって.\n- It usually describes the speaker's own experience or impression, often something negative or overwhelming (痛い, うるさい, 忙しい, 疲れた), but positive things work too (メニューが多いのなんのって).\n\nRegister: strictly casual. In an essay or business email use とても／非常に or 〜ほど／〜くらい: 言葉にできないほど忙しかった.\n\nCompare **〜といったらない** (*it's indescribably ~*), which is similar but can also be used in writing. JLPT tip: if a blank comes right after an adjective and the rest of the sentence gives an exaggerated consequence in casual speech, のなんのって is a strong candidate.",
           "see": [],
           "index": [
             "〜のなんのって",
@@ -279,7 +279,7 @@ N2.register({
             },
             {
               "ja": "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。",
-              "en": "Apparently at conveyor-belt sushi restaurants these days, sensors on the plates let the amount you've eaten be calculated automatically."
+              "en": "Apparently at conveyor-belt sushi restaurants these days, sensors on the plates are set up so that the cost of what you've eaten is calculated automatically."
             },
             {
               "ja": "このホテルのドアは閉めると{自動的|じどうてき}にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。",
@@ -291,7 +291,7 @@ N2.register({
             },
             {
               "ja": "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。",
-              "en": "This lighter has a stiff ignition part, so it won't light even if a child plays with it."
+              "en": "This lighter's ignition part has been made stiff, so that it won't light even if a child plays with it."
             }
           ],
           "deepDive": "**〜ようになっている** describes *how something is built or set up to work*: given condition A, result B happens automatically. You'll hear it in product explanations, hotel and museum guides, science talk and when friends explain how something works (as 大田 does about the stomach in the sample).\n\nTypical frame: **[A]と／[A]たら, [B] ようになっている**. The subject is a machine, system, rule-like mechanism or the body — not a person's decision.\n\nContrast with the ように family (see the ～ように list on p.226):\n- **〜ようにしている** = a person's conscious habit/effort: 健康のために毎日20分歩くようにしている *I make a point of walking 20 minutes a day*. If a human is deliberately doing it, it's ようにしている.\n- **〜ようになる** = a change over time (*come to ~*): 泳げるようになった.\n- **〜ことになっている** = a rule or official arrangement: 社員は8時に出社することになっている. It's about decisions/regulations, whereas ようになっている is about mechanisms.\n\nLearner trap: 毎朝ストレッチをするようになっています ✗ → ようにしています ✓ (it's your effort, not a mechanism). Conversely このストーブは揺れると火が消えるようにしています sounds like *I* am doing it; use ようになっています.\n\nThe negative version **V-ないようになっている** is common for safety features: 子どもがいたずらしても火がつかないようになっている.",
@@ -387,7 +387,7 @@ N2.register({
               "en": "A: My parents are against me changing jobs...\nB: So that's why you're still undecided. You'd said you were going to switch right away, so I was wondering what happened."
             }
           ],
-          "deepDive": "**〜わけだ** (★★★) is one of the most useful N2 sentence-enders. In this chapter's use, it expresses **realization + acceptance**: you already noticed a situation (the door won't open, there are many accidents), then you learn the cause, and the pieces click: *no wonder / that's why / so that explains it*.\n\nIt often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech it shortens to わけよ／わけね (おいしいわけよね).\n\nConnection: plain form + わけだ. なA takes な (静かなわけだ), N takes の as the book shows (in everyday speech you'll also hear **Nなわけだ**). **〜というわけだ** also serves to sum up: それでまだ迷っているというわけなのね.\n\nContrast (see the ～わけ list, p.226):\n- **はずだ** = expectation based on reasoning *before* confirming: 今日就職試験だって言っていたから、もう出かけたはずだ *she should have left already*. わけだ = the result is already known and you've just found the reason.\n- **べきだ** = obligation/advice: *should do*. Unrelated in meaning but a standard distractor.\n- **わけではない** (#19) = *it's not that ~*; **わけにはいかない** (#57) = *can't (for social/moral reasons)*.\n- **わけだ②** (#134) = logical conclusion in explanations (*that's how/why ~*), common in formal writing.\n\nWhen the reason is unknown, the book points to **どういうわけか** *for some reason*: どういうわけか、昨日は全然眠れなかった.\n\nMistake to avoid: using わけだ for your own plans or predictions (✗明日は雨が降るわけだ). Use it when the fact is established and you're connecting it to a reason.",
+          "deepDive": "**〜わけだ** (★★★) is one of the most useful N2 sentence-enders. In this chapter's use, it expresses **realization + acceptance**: you already noticed a situation (the door won't open, there are many accidents), then you learn the cause, and the pieces click: *no wonder / that's why / so that explains it*.\n\nIt often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech だ is often dropped before sentence-final particles: わけよ／わけね (おいしいわけよね).\n\nConnection: plain form + わけだ. なA takes な (静かなわけだ), N takes の as the book shows (in everyday speech you'll also hear **Nなわけだ**). **〜というわけだ** also serves to sum up: それでまだ迷っているというわけなのね.\n\nContrast (see the ～わけ list, p.226):\n- **はずだ** = expectation based on reasoning *before* confirming: 今日就職試験だって言っていたから、もう出かけたはずだ *she should have left already*. わけだ = the result is already known and you've just found the reason.\n- **べきだ** = obligation/advice: *should do*. Unrelated in meaning but a standard distractor.\n- **わけではない** (#19) = *it's not that ~*; **わけにはいかない** (#57) = *can't (for social/moral reasons)*.\n- **わけだ②** (#134) = logical conclusion in explanations (*that's how/why ~*), common in formal writing.\n\nWhen the reason is unknown, the book points to **どういうわけか** *for some reason*: どういうわけか、昨日は全然眠れなかった.\n\nMistake to avoid: using わけだ for your own plans or predictions (✗明日は雨が降るわけだ). Use it when the fact is established and you're connecting it to a reason.",
           "see": [
             19,
             57,
@@ -667,7 +667,7 @@ N2.register({
             "sp": "{小林|こばやし}",
             "v": "m",
             "ja": "え？　食べ{放題|ほうだい}に{初心者|しょしんしゃ}って？",
-            "en": "Huh? Beginners at all-you-can-eat?"
+            "en": "Huh? What do you mean, an all-you-can-eat beginner?"
           },
           {
             "sp": "{大田|おおた}",
@@ -727,7 +727,7 @@ N2.register({
             "sp": "小林",
             "v": "m",
             "ja": "{大田|おおた}さんがいれば{心強|こころづよ}いね。メンバー集めるから、{絶対|ぜったい}一緒に行こうね。よろしく！",
-            "en": "With you along, Ota, I'll feel confident. I'll get a group together, so let's definitely go together. Count on it!"
+            "en": "With you along, Ota, I'll feel confident. I'll get a group together, so let's definitely go together. I'm counting on you!"
           }
         ]
       },
@@ -760,7 +760,7 @@ N2.register({
           "examples": [
             {
               "ja": "昔ぼくは好きな女の子の前で悪ぶっていた。本当は、好きだって言う{勇気|ゆうき}がなかっただけなんだ。",
-              "en": "Back then I used to act tough in front of girls I liked. Really, I just didn't have the courage to tell them I liked them."
+              "en": "When I was younger, I used to act like a bad boy in front of girls I liked. Really, I just didn't have the courage to tell them I liked them."
             },
             {
               "ja": "A：あいつ、先生の前だといい子ぶるけど、{掃除|そうじ}サボるし、宿題も{誰|だれ}かの{写|うつ}してるんだぜ。\nB：まったく、頭に来るよな。",
@@ -835,7 +835,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
-          "deepDive": "**Nに限って** narrows the focus to one type of person or one moment and says *precisely that one, of all* — and the thing that happens is annoying or ironic.\n\nTwo uses covered in this chapter:\n- **Tendency of a type of person** (main use): 〜人に限って、… *It's always the people who ~ who …*. The speaker criticizes a pattern: 偉そうに言う人に限って何もしない. The noun is usually a person described by a relative clause (そう言う人, 知らない人, 金持ち).\n- **Bad luck at the worst moment** (clip note): 〜ときに限って／〜日に限って／今日に限って. 急いでいるときに限ってバスが来ない *the bus never comes precisely when I'm in a hurry*.\n\nDon't confuse with the other 限る forms (see the ～に限る／限り list, p.223–224):\n- **Nに限り** (#3) = *only N* (notices: 本日に限り半額).\n- **Nに限って〜ない** (#3 note) = *N of all people would never ~* (trust-based denial: うちの子に限ってそんなことはしない). This one ends in a negative and defends N; #86 criticizes N.\n- **Vかぎり** (#23) = *as long as ~*.\n- **Nに限らず** (#72) = *not only N*.\n- **〜に限る** (#104) = *~ is the best*.\n\nHow to tell #86 from the #3 note: look at the ending. If it's a negative *denial* (はずがない, わけがない, ありえない) about someone trusted → #3. If it's a complaint about what *tends to* happen → #86.",
+          "deepDive": "**Nに限って** narrows the focus to one type of person or one moment and says *precisely that one, of all* — and the thing that happens is annoying or ironic.\n\nTwo uses covered in this chapter:\n- **Tendency of a type of person** (main use): 〜人に限って、… *It's always the people who ~ who …*. The speaker criticizes a pattern: 偉そうに言う人に限って何もしない. The noun is usually a type of person, often described by a relative clause (よく知らないやつ, 高い車に乗っている人) or a simple noun (金持ち, 初心者).\n- **Bad luck at the worst moment** (clip note): 〜ときに限って／〜日に限って／今日に限って. 急いでいるときに限ってバスが来ない *the bus never comes precisely when I'm in a hurry*.\n\nDon't confuse with the other 限る forms (see the ～に限る／限り list, p.223–224):\n- **Nに限り** (#3) = *only N* (notices: 本日に限り半額).\n- **Nに限って〜ない** (#3 note) = *N of all people would never ~* (trust-based denial: うちの子に限ってそんなことはしない). This one ends in a negative and defends N; #86 criticizes N.\n- **Vかぎり** (#23) = *as long as ~*.\n- **Nに限らず** (#72) = *not only N*.\n- **〜に限る** (#104) = *~ is the best*.\n\nHow to tell #86 from the #3 note: look at the ending. If it's a negative *denial* (はずがない, わけがない, ありえない) about someone trusted → #3. If it's a complaint about what *tends to* happen → #86.",
           "see": [
             3,
             23,
@@ -1320,7 +1320,7 @@ N2.register({
               "らしい"
             ],
             "answer": 1,
-            "en": "A: What, the lunch break is only 30 minutes?\nB: Even 30 minutes is better than nothing. Someone like me sometimes even works while eating."
+            "en": "A: What, the lunch break is only 30 minutes?\nB: Even if it's only 30 minutes, at least you get one. I sometimes even have to work while eating."
           },
           {
             "q": "リムジンバスが{渋滞|じゅうたい}で遅れて、もう少しで{飛行機|ひこうき}に乗り遅れる（　）。",
@@ -1482,8 +1482,8 @@ N2.register({
         ],
         "en": [
           "I'm visiting a friend's villa in Izu right now.",
-          "When I woke up this morning, I was so surprised — everything was a silver world of snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.",
-          "After that, thinking it would be quicker to go shopping ourselves than to wait for a delivery that might come who knows when, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob)."
+          "When I woke up this morning, I was so surprised, you wouldn't believe it — everything was a silver world of snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.",
+          "After that, thinking that rather than wait for a delivery that might come who knows when, it would be quicker to go and buy things ourselves, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob)."
         ],
         "blanks": [
           {

@@ -43,7 +43,7 @@ N2.register({
             "sp": "木山",
             "v": "m",
             "ja": "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。",
-            "en": "Hmm. I'm gathering all sorts of information, but it's really tough... The annoying thing is that in this industry, every company's job posting says “a few people.”"
+            "en": "Hmm. I'm gathering all sorts of information, but it's really tough... The annoying thing is that in this industry, every company's job ad just says they're hiring “a small number of people.”"
           },
           {
             "sp": "渡辺",
@@ -136,7 +136,7 @@ N2.register({
               "xref": "☞ p.221　〜きる／きり"
             }
           ],
-          "deepDive": "**〜きり** comes from 切り, *a cut-off point*. V-たきり marks the last thing that happened — and says that the story **stopped there**. 行ったきり帰らない = *went and never came back*; 一度会ったきり = *met once and that was it*. That's why the rest of the sentence is almost always negative or describes an unchanged state (〜ていない, 〜ない, 〜ままだ).\n\nThe casual variant **っきり** (会ったっきり, 言ったっきり) is very common in conversation. Ending a sentence with **〜きりだ / っきりだよ** is also natural: 去年一回行ったっきりだよ.\n\nContrast with **〜まま**, the classic trap:\n- **V-たまま** = *with ~ still in that state* while you do something else: 眼鏡をかけたまま寝た (slept with my glasses on). The first action and the second happen **at the same time**.\n- **V-たきり** = *since ~, nothing further*: 眼鏡を買ったきり、かけていない (bought glasses and never wore them). There is **no follow-up**.\nQuick test: if you can translate with *with ~ on / still ~*, use まま; if you can say *and since then, not…*, use きり.\n\nThe two clip-note uses:\n- **V-ます + (っ)きり** describes a continuous state: 看病につきっきり, 仕事にかかりきり. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n\nDon't confuse this with **思いっきり** (*with all your might*) or **はっきり / すっきり**, which are unrelated adverbs.",
+          "deepDive": "**〜きり** comes from 切り, *a cut-off point*. V-たきり marks the last thing that happened — and says that the story **stopped there**. 行ったきり帰らない = *went and never came back*; 一度会ったきり = *met once and that was it*. That's why the rest of the sentence is almost always negative or describes an unchanged state (〜ていない, 〜ない, 〜ままだ).\n\nThe casual variant **っきり** (会ったっきり, 言ったっきり) is very common in conversation. Ending a sentence with **〜きりだ / っきりだよ** is also natural: 去年一回行ったっきりだよ.\n\nContrast with **〜まま**, the classic trap:\n- **V-たまま** = *with ~ still in that state* while you do something else: 眼鏡をかけたまま寝た (slept with my glasses on). The first action and the second happen **at the same time**.\n- **V-たきり** = *since ~, nothing further*: 眼鏡を買ったきり、かけていない (bought glasses and never wore them). There is **no follow-up**.\nQuick test: if you can translate with *with ~ on / still ~*, use まま; if you can say *and since then, not…*, use きり.\n\nThe two clip-note uses:\n- **V-ます + (っ)きり** describes a continuous state: つきっきりで看病する, 仕事にかかりきりだ. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n\nDon't confuse this with **思いっきり** (*with all your might*) or **はっきり / すっきり**, which are unrelated adverbs.",
           "see": [],
           "index": [
             "V-たきり",
@@ -172,7 +172,7 @@ N2.register({
                     "きり"
                   ],
                   "answer": 1,
-                  "en": "I was so busy that after drinking a coffee in the morning I couldn't eat anything until evening."
+                  "en": "I was so busy that all I had was a coffee in the morning, and I couldn't eat anything until evening."
                 },
                 {
                   "q": "電車の中で立った（　）寝ている人がいるのは日本だけだろうか。",
@@ -226,7 +226,7 @@ N2.register({
               "en": "A: Sir, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation."
             }
           ],
-          "deepDive": "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the frowning-face mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n\nTypical pattern: [problem] + て/ので, + [pleasant or normal activity] + どころではない.\n- 歯が痛くて、食事どころではない.\n- The noun is often an activity noun: 旅行・勉強・仕事・花見・休暇.\n\nAlthough the book frames it as describing *your own* situation, it's also used to **scold** someone, telling them their situation doesn't allow something: 試験前なのに、遊んでいるどころじゃないだろう. The past form どころではなかった looks back on a missed experience.\n\nDon't confuse it with:\n- **〜どころか** (#83): *far from ~, actually the opposite*: 涼しいどころか寒かった. That's about contradicting a statement, not about being unable to do something.\n- **V-るところだった** (#89): *almost happened*.\n- **〜わけにはいかない** (#57): can't do it for social/moral reasons; どころではない is about the situation making it impossible.\n\nCommon mistake: putting the *problem* before どころ. ✗忙しいどころではない (when you mean you can't travel). The thing before どころ is the activity you **can't** do: 旅行どころではない.\n\nJLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
+          "deepDive": "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the frowning-face mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n\nTypical pattern: [problem] + て/ので, + [pleasant or normal activity] + どころではない.\n- 歯が痛くて、食事どころではない.\n- The noun is often an activity noun: 旅行・勉強・仕事・花見・休暇.\n\nAlthough the book frames it as describing *your own* situation, with だろう it can also be used to **scold** someone, telling them their situation doesn't allow something — as in example ③: この忙しいときに、お前、休暇どころじゃないだろう. The past form どころではなかった looks back on a time when circumstances made the activity impossible.\n\nDon't confuse it with:\n- **〜どころか** (#83): *far from ~, actually the opposite*: 涼しいどころか寒かった. That's about contradicting a statement, not about being unable to do something.\n- **V-るところだった** (#89): *almost happened*.\n- **〜わけにはいかない** (#57): can't do it for social/moral reasons; どころではない is about the situation making it impossible.\n\nCommon mistake: putting the *problem* before どころ. If you mean you can't travel because you're busy, say 忙しくて旅行どころではない — the thing before どころ is the activity you **can't** do. (忙しいどころではない does exist, but it means something else: *\"busy\" doesn't begin to describe it*.)\n\nJLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
           "see": [
             83,
             89
@@ -474,7 +474,7 @@ N2.register({
               "en": "For your first time making sushi, it turned out really well, didn't it?"
             }
           ],
-          "deepDive": "**〜にしては** means *for (a/an) ~ / considering ~*. The speaker takes X as a standard and says the actual situation **doesn't match what X would lead you to expect**. The deviation can be positive (上手, 安い) or negative (下手, 少ない).\n\n- 3歳にしては言葉をよく知っている — *knows a lot of words for a 3-year-old*.\n- プロにしては下手だ — *bad, for a professional*.\n\nImportant restrictions:\n- X is something concrete that sets an expectation (age, price, experience, profession, season). You can't use it for a general category the subject obviously belongs to without a contrast.\n- **それにしては** = *considering that*; don't confuse it with **それにしても** (*even so / anyway*), which just changes the topic or emphasizes.\n\nSimilar patterns:\n- **〜わりに（は）** (#95): very close, but わりに can follow adjectives/degree words directly (値段のわりに, 高いわりに) and is slightly more casual. にしては tends to take a single specific standard (千円にしては).\n- **〜として** (*as ~, in the capacity of*): no idea of unexpectedness — 代表として挨拶した.\n- **〜に応じて** (#4): *in accordance with* — totally different meaning, but a favorite distractor.\n\nJLPT tip: when the sentence says something surprising compared with a fixed yardstick (年齢, 値段, 季節, 初めて), にしては is the answer.",
+          "deepDive": "**〜にしては** means *for (a/an) ~ / considering ~*. The speaker takes X as a standard and says the actual situation **doesn't match what X would lead you to expect**. The deviation can be positive (上手, 安い) or negative (下手, 少ない).\n\n- 3歳にしては言葉をよく知っている — *knows a lot of words for a 3-year-old*.\n- プロにしては下手だ — *bad, for a professional*.\n\nImportant restrictions:\n- X is something concrete that sets an expectation (age, price, experience, profession, season), and the second half must go **against** that expectation. If the result simply matches X, use だけあって (#105) instead: プロだけあって上手だ, not ✗プロにしては上手だ.\n- **それにしては** = *considering that*; don't confuse it with **それにしても** (*even so / anyway*), which just changes the topic or emphasizes.\n\nSimilar patterns:\n- **〜わりに（は）** (#95): very close, but わりに can follow adjectives and scale nouns directly (値段のわりに, 高いわりに), whereas にしては takes a specific value or status (千円にしては, 小学生にしては; ✗値段にしては).\n- **〜として** (*as ~, in the capacity of*): no idea of unexpectedness — 代表として挨拶した.\n- **〜に応じて** (#4): *in accordance with* — totally different meaning, but a favorite distractor.\n\nJLPT tip: when the sentence says something surprising compared with a fixed yardstick (年齢, 値段, 季節, 初めて), にしては is the answer.",
           "see": [
             4
           ],
@@ -728,7 +728,7 @@ N2.register({
               "en": "Life as an exchange student is hard, but I'm going to keep going, believing that as long as I stay healthy I can get through any difficulty."
             }
           ],
-          "deepDive": "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\nGetting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\nDifferences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜ば〜ほど** / **〜さえも** are unrelated.\n\nCommon mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\nJLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
+          "deepDive": "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\nGetting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\nDifferences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\nCommon mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\nJLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
           "see": [],
           "index": [
             "Nさえ〜ば",
@@ -1027,7 +1027,7 @@ N2.register({
               "en": "This dress is lovely, isn't it? It might not suit me, but maybe I'll at least try it on."
             }
           ],
-          "deepDive": "**V-るだけV** repeats the same verb around だけ: 言うだけ言ってみる, 行くだけ行ってみる. The feeling is *I'll at least do the ~ part, whatever the outcome*. The speaker expects the result may be negative but thinks trying costs little. It's very common in encouraging a friend: 聞くだけ聞いてみたら？ / 出すだけ出してみなよ.\n\n- The second verb is usually in the **〜てみる** form (〜てみよう, 〜てみたら？, 〜てみた), matching the idea of *giving it a try*.\n- Same verb both times: ✗応募するだけ出してみる.\n- A near-synonym is **ダメもとで〜** (*nothing to lose*) or **一応〜てみる** (*just in case*).\n\nDon't confuse it with **V-るだけV-た** (#55) in the sense *as much as possible*: 食べられるだけ食べた (*ate as much as I could*). There the first verb is usually in the **potential** form and the idea is *to the limit*, not *just try*. Compare:\n- 頼むだけ頼んでみる — *I'll ask, at least (it may not work)*.\n- 頼めるだけ頼んだ — *I asked as many people as I could*.\n\nAlso distinct from **〜だけに** (#105, *precisely because*) and the plain だけ *only*.\n\nJLPT tip: in ordering questions, if you see two pieces with the same verb, one of them plus だけ, they go together: 出す＋だけ＋出して.",
+          "deepDive": "**V-るだけV** repeats the same verb around だけ: 言うだけ言ってみる, 行くだけ行ってみる. The feeling is *I'll at least do the ~ part, whatever the outcome*. The speaker expects the result may be negative but thinks trying costs little. It's very common in encouraging a friend: 聞くだけ聞いてみたら？ / 出すだけ出してみなよ.\n\n- The second verb is usually in the **〜てみる** form (〜てみよう, 〜てみたら？, 〜てみた), matching the idea of *giving it a try*.\n- Same verb both times: ✗応募するだけ出してみる.\n- A near-synonym is **ダメもとで〜** (*nothing to lose*) or **一応〜てみる** (*just in case*).\n\nDon't confuse it with **[V-できる] + だけ** (#55) in the sense *as much as possible*: 食べられるだけ食べた (*ate as much as I could*). There the first verb is usually in the **potential** form and the idea is *to the limit*, not *just try*. Compare:\n- 頼むだけ頼んでみる — *I'll ask, at least (it may not work)*.\n- 頼めるだけ頼んだ — *I asked as many people as I could*.\n\nAlso distinct from **〜だけに** (#105, *precisely because*) and the plain だけ *only*.\n\nJLPT tip: in ordering questions, if you see two pieces with the same verb, one of them plus だけ, they go together: 出す＋だけ＋出して.",
           "see": [
             55,
             105
@@ -1071,7 +1071,7 @@ N2.register({
           {
             "q": "しかられるのが{怖|こわ}いからといって、うそをつく＿＿。",
             "answer": "ものではない",
-            "en": "Just because you're afraid of being scolded doesn't mean you should lie."
+            "en": "You shouldn't lie just because you're afraid of being scolded."
           },
           {
             "q": "この{奨学金|しょうがくきん}をもらうのは難しいけれど、申し込む＿＿申し込もうと思っているんだ。",
@@ -1105,7 +1105,7 @@ N2.register({
               "あげく"
             ],
             "answer": 3,
-            "en": "Even though the work was delayed because of his own mistake, after making all sorts of excuses, he ended up not apologizing even once."
+            "en": "Even though the work was delayed because of his own mistake, after making excuse after excuse, in the end he didn't offer a single word of apology."
           },
           {
             "q": "{面接|めんせつ}のチャンス（　）もらえれば、私の{熱意|ねつい}が伝えられるのに…。",
@@ -1204,7 +1204,7 @@ N2.register({
               3
             ],
             "star": 2,
-            "en": "For the city center, this area still has a lot of nature left, so it's easy to live in."
+            "en": "For somewhere in the city center, this area still has nature left, so it's a pleasant place to live."
           },
           {
             "before": "この",
@@ -1263,7 +1263,7 @@ N2.register({
         ],
         "en": [
           "We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from my sisters' and my childhood, but even my parents' and grandparents' schoolbooks from their childhood turned up.",
-          "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to be moving. After reminiscing at length about the old days, my father announced he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."
+          "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to get on with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."
         ],
         "blanks": [
           {
