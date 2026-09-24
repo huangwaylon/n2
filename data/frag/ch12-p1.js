@@ -69,8 +69,8 @@ N2F({
       stars: 1,
       marks: [],
       usage: {
-        ja: "「{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから{選|えら}べる」のように、「〜（{予算|よさん}）」によって決まることを表す。",
-        en: "As in \"{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから{選|えら}べる\", this states that something is decided according to \"〜 (the budget).\"",
+        ja: "「{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから選べる」のように、「〜（{予算|よさん}）」によって決まることを表す。",
+        en: "As in \"{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから選べる\", this states that something is decided according to \"〜 (the budget).\"",
       },
       forms: ["[N] + {次第|しだい}"],
       examples: [

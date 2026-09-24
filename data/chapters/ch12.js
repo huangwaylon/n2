@@ -523,7 +523,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜つつも」は、「たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう」のように、「〜だけれども（やめようと思うけれども）、{実際|じっさい}はよくないこと（{吸|す}う）をしてしまう」という気持ちを表す。",
-            "en": "As in \"たばこは体に悪いからやめようと思いつつも、つい吸ってしまう\", \"〜つつも\" expresses the feeling that \"although 〜 (I thought I should quit), something undesired actually happened (I smoked).\""
+            "en": "As in \"たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう\", \"〜つつも\" expresses the feeling that \"although 〜 (I thought I should quit), something undesired actually happened (I smoked).\""
           },
           "forms": [
             "[V-~~ます~~] + つつも"
@@ -767,8 +767,8 @@ N2.register({
           "stars": 1,
           "marks": [],
           "usage": {
-            "ja": "「{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから{選|えら}べる」のように、「〜（{予算|よさん}）」によって決まることを表す。",
-            "en": "As in \"{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから{選|えら}べる\", this states that something is decided according to \"〜 (the budget).\""
+            "ja": "「{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから選べる」のように、「〜（{予算|よさん}）」によって決まることを表す。",
+            "en": "As in \"{忘年会|ぼうねんかい}は{予算次第|よさんしだい}で5つのコースから選べる\", this states that something is decided according to \"〜 (the budget).\""
           },
           "forms": [
             "[N] + {次第|しだい}"

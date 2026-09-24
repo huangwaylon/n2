@@ -289,7 +289,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜つつも」は、「たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう」のように、「〜だけれども（やめようと思うけれども）、{実際|じっさい}はよくないこと（{吸|す}う）をしてしまう」という気持ちを表す。",
-        en: "As in \"たばこは体に悪いからやめようと思いつつも、つい吸ってしまう\", \"〜つつも\" expresses the feeling that \"although 〜 (I thought I should quit), something undesired actually happened (I smoked).\"",
+        en: "As in \"たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう\", \"〜つつも\" expresses the feeling that \"although 〜 (I thought I should quit), something undesired actually happened (I smoked).\"",
       },
       forms: ["[V-~~ます~~] + つつも"],
       formNotes: [
