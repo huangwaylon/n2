@@ -1,9 +1,6 @@
 # N2 文法 — Interactive JLPT N2 Grammar Textbook
 
-An interactive study companion for JLPT N2 grammar, organized around the 14 chapters and
-139 grammar points of *TRY! 日本語能力試験 N2 文法から伸ばす日本語* (ABK / ASK Publishing).
-
-**Private repo — personal use.** Run locally: `python3 -m http.server` then open http://localhost:8000/
+Run locally: `python3 -m http.server` then open http://localhost:8000/
 
 ## Features
 
