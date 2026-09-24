@@ -1113,7 +1113,7 @@
   function sidebar() {
     const nav = N2.chapters
       .map((ch) => `<li class="sb-ch" data-ch="${ch.id}"><a href="#/ch/${ch.id}" class="sb-ch-link"><span class="sb-num">${ch.id}</span><span class="sb-t">${fmt(ch.title.ja)}</span><span class="sb-prog" data-prog="${ch.id}"></span></a>
-        <ul class="sb-gps">${ch.parts.flatMap((p) => p.points).map((g) => `<li><a href="#/gp/${g.no}" data-gp="${g.no}"><span class="sb-gpn">${g.no}</span>${fmt(g.pattern)}</a></li>`).join("")}
+        <ul class="sb-gps">${ch.parts.flatMap((p) => p.points).map((g) => `<li><a href="#/gp/${g.no}" data-gp="${g.no}"><span class="sb-gpn">${g.no}</span><span class="sb-gpt">${esc(plain(g.pattern))}</span></a></li>`).join("")}
         ${ch.review && ch.review.length ? `<li><a href="#/ch/${ch.id}/review" class="sb-review">まとめの問題</a></li>` : ""}</ul></li>`)
       .join("");
     $("#sb-nav").innerHTML = `<ul class="sb-list">${nav}</ul>`;

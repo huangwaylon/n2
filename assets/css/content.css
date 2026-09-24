@@ -16,7 +16,7 @@
 .ch-banner__genre { margin: 0 0 2px; font: 700 15px/1.5 var(--goth); }
 .ch-banner__genre rt, .ch-banner__title rt { color: rgba(255,255,255,.75); }
 .ch-banner__en { display: inline-block; font: 500 13px/1.4 var(--goth); opacity: .92; margin-left: .5em; letter-spacing: .01em; }
-.ch-banner__title { margin: 0; font: 700 32px/1.45 var(--goth); text-wrap: pretty; }
+.ch-banner__title { margin: 0; padding-top: .3em; font: 700 32px/1.45 var(--goth); text-wrap: pretty; }
 .ch-banner__title > .ja { margin-right: .5em; }
 .ch-banner__part { font-weight: 700; }
 .ch-banner__en--title { display: inline-block; margin-left: 0; font-size: 18px; font-weight: 500; }

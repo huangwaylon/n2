@@ -146,3 +146,12 @@ s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 5
 .cd-badge__play { font-size: 13px; }
 .cd-badge.speaking { background: var(--ink); color: var(--panel); }
 .err { color: var(--ng); }
+
+/* Let a reading that is wider than its kanji overhang the neighbouring kana, as the book does,
+   instead of spreading the kanji apart (Chrome widens the base to the rt width). Horizontal text only —
+   vertical text (.vt / .vt-scroll) keeps native ruby layout. */
+ruby:not(:is(.vt, .vt-scroll) ruby) { position: relative; display: inline-block; text-indent: 0; line-height: 1; vertical-align: baseline; }
+ruby:not(:is(.vt, .vt-scroll) ruby) > rt {
+  position: absolute; left: 50%; bottom: 100%; transform: translate(-50%, -0.08em);
+  white-space: nowrap; letter-spacing: 0; text-align: center; pointer-events: none;
+}
