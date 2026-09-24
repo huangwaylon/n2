@@ -155,3 +155,22 @@ Extra exercise features for book formats:
 { type: "write", items: [ { q: "…＿＿…", answer: ["祖父母"] } ] }              // write-in answers (accepted strings)
 check: [ Exercise, Exercise ]                                                   // a Check with several boxes / word banks
 ```
+
+## Sample layout hints
+
+Optional, layout-only fields on `sample` and its `lines` (no book text; ignored by `tools/text-snapshot.js`).
+They only change how the 見本文 is laid out (docs/LAYOUT.md C6).
+
+| Field | Where it is set | Meaning |
+|---|---|---|
+| `sample.vertical: true` | 10.0, 10.1, 13.0, 13.1, 14.0 | The book prints the text in 縦書き. Rendered vertically at ≥901 px (or when the reader picks 縦), horizontally otherwise |
+| `sample.rings: false` | 2.1, 5.1, 6.1, 7.1, 9.1, 12.1, 14.0 (`article` is ring-less by default) | The book's frame has no binder-ring holes |
+| `line.cont: true` | 2.0, 2.1, 3.0, 4.0, 7.0, 7.1, 10.0, 11.0, 14.0 (checked against the scans) | This line continues the previous line's paragraph (the data stores one sentence per line; the book groups them) |
+| `line.style` | (none needed yet) | Overrides the notice/article heuristics: `lead`, `row`, `cont`, `contact`, `center`, `right`, `credit`, `sep` |
+
+Heuristics used when `style` is absent: notice (`kind:"notice"`) — the first line without ▶ is the centred lead;
+`key▶value` lines are form rows; lines starting ＊ or without ▶ after a row continue it; from the first line with
+☎ / http / E-mail the contact block starts. Article — a line `（文：…）` is the right-aligned credit.
+Story — a line of only 〜 is a scene separator.
+
+Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point.

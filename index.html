@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>TRY! N2 文法 Interactive</title>
 <meta name="description" content="An interactive JLPT N2 grammar textbook: all 139 grammar points of TRY! N2, with Japanese explanations, optional English, furigana, audio and JLPT-style practice.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,9 +33,9 @@
 </head>
 <body>
 <header class="topbar">
-  <button class="sb-toggle" data-act="sb" aria-label="Menu">☰</button>
-  <a class="brand" href="#/"><span class="brand-mark">N2</span> 文法 <span class="brand-sub">TRY! companion</span></a>
-  <nav class="topnav">
+  <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
+  <a class="brand" href="#/" aria-label="N2 文法 ホーム Home"><span class="brand-mark">N2</span><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
+  <nav class="topnav" aria-label="ページ Pages">
     <a href="#/about">この本について<span class="en-inline"> About</span></a>
     <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
     <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
@@ -44,18 +44,30 @@
     <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
   </nav>
   <div class="toggles">
-    <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw"></span><span class="sw-l">ふりがな</span></label>
-    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" id="tg-en"><span class="sw"></span><span class="sw-l">EN</span></label>
-    <details class="settings"><summary title="Settings">⚙</summary>
+    <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
+    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
+    <details class="settings"><summary title="設定 Settings" aria-label="設定 Settings"><span aria-hidden="true">⚙</span></summary>
       <div class="settings-pop">
-        <label>音声の速さ <span class="en-inline">Speech rate</span> <span id="rate-v"></span><input type="range" id="rate" min="0.5" max="1.4" step="0.1"></label>
+        <label class="set-row">音声の速さ <span class="en-inline">Speech rate</span> <span id="rate-v"></span><input type="range" id="rate" min="0.5" max="1.4" step="0.1"></label>
+        <label class="set-row">縦書きの文章 <span class="en-inline">Vertical texts</span>
+          <select id="vmode-set"><option value="auto">自動 Auto</option><option value="v">縦 Vertical</option><option value="h">横 Horizontal</option></select></label>
         <button class="btn small" onclick="N2.resetProgress()">進度をリセット <span class="en-inline">Reset progress</span></button>
       </div>
     </details>
   </div>
 </header>
 <div class="layout">
-  <aside class="sidebar"><div id="sb-nav"></div></aside>
+  <aside class="sidebar" id="sidebar" aria-label="目次 Contents">
+    <nav class="sb-pages" aria-label="ページ Pages">
+      <a href="#/about">この本について<span class="en-inline"> About</span></a>
+      <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
+      <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
+      <a href="#/compare">似ている文型<span class="en-inline"> Compare</span></a>
+      <a href="#/cando">できること<span class="en-inline"> Can-do</span></a>
+      <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
+    </nav>
+    <div id="sb-nav"></div>
+  </aside>
   <div class="sb-scrim" data-act="sb"></div>
   <main id="main"></main>
 </div>

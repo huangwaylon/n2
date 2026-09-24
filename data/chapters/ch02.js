@@ -26,18 +26,22 @@ N2.register({
             "en": "Everyone, thank you for holding this gathering for me today."
           },
           {
+            "cont": true,
             "ja": "入社して**{以来|いらい}**、この{営業部|えいぎょうぶ}において、部長**をはじめ**{先輩方|せんぱいがた}のご{指導|しどう}**のもとで**、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。",
             "en": "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors."
           },
           {
+            "cont": true,
             "ja": "仕事の進め方**はもとより**、{取引先|とりひきさき}との付き合い方など本当に{様々|さまざま}なことを{教|おし}えていただき、心から{感謝|かんしゃ}いたしております。",
             "en": "You taught me so many things — how to go about the work, of course, and also how to deal with our clients — and I am grateful from the bottom of my heart."
           },
           {
+            "cont": true,
             "ja": "特に部長の、「人は{失敗|しっぱい}から学ぶ**ものだ**」という言葉は忘れられません。",
             "en": "In particular, I will never forget the manager's words: “People learn from their mistakes.”"
           },
           {
+            "cont": true,
             "ja": "仕事をする**{上|うえ}で**大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を{命|めい}じられ、{残念|ざんねん}**ながら**この{職場|しょくば}を{離|はな}れることになりました。",
             "en": "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace."
           }
@@ -743,16 +747,19 @@ N2.register({
       ],
       "sample": {
         "kind": "speech",
+        "rings": false,
         "lines": [
           {
             "ja": "{大阪|おおさか}{支社|ししゃ}では、アジア{各国|かっこく}への{輸出|ゆしゅつ}{拡大|かくだい}**を**{目的|もくてき}**とした**プロジェクトに{参加|さんか}することになりました。",
             "en": "At the Osaka branch, I will be taking part in a project aimed at expanding exports to countries across Asia."
           },
           {
+            "cont": true,
             "ja": "この{転勤|てんきん}を**きっかけ**に、また{新|あら}たな{挑戦|ちょうせん}ができることを{期待|きたい}しております。",
             "en": "I am hoping that this transfer will give me the chance to take on new challenges."
           },
           {
+            "cont": true,
             "ja": "やる**からには**{全力|ぜんりょく}でがんばります。",
             "en": "Now that I'm doing it, I will give it everything I've got."
           },
@@ -761,6 +768,7 @@ N2.register({
             "en": "I will be leaving this workplace, which I have grown so familiar with since joining the company, but that doesn't mean there will be no more chances to work with you all."
           },
           {
+            "cont": true,
             "ja": "どうぞこれまでと変わる**ことなく**、ご{指導|しどう}よろしくお願いいたします。",
             "en": "I hope you will continue to guide me, just as you always have."
           },
@@ -769,6 +777,7 @@ N2.register({
             "en": "Finally, I am sincerely grateful that so many of you came today despite the rain, and for your warm consideration."
           },
           {
+            "cont": true,
             "ja": "本当にありがとうございました。",
             "en": "Thank you very much."
           }

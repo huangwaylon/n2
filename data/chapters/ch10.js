@@ -20,20 +20,24 @@ N2.register({
       "label": "(1)",
       "sample": {
         "kind": "essay",
+        "vertical": true,
         "lines": [
           {
             "ja": "朝の通勤電車の{混雑|こんざつ}はつらい**ものがある**。",
             "en": "There is something hard about the crush of the morning commuter train."
           },
           {
+            "cont": true,
             "ja": "{満員|まんいん}電車にストレスを感じない人はいる**まい**。",
             "en": "Surely there is no one who doesn't feel stressed on a packed train."
           },
           {
+            "cont": true,
             "ja": "{日々|ひび}{耐|た}えている{乗客|じょうきゃく}を見る**につけ**、みんな何と{我慢強|がまんづよ}いのだろうと思う。",
             "en": "Whenever I see the passengers enduring it day after day, I think how patient they all are."
           },
           {
+            "cont": true,
             "ja": "まるで何かの{訓練|くんれん}をしているかのようだ。",
             "en": "It's as if they were going through some kind of training."
           },
@@ -42,10 +46,12 @@ N2.register({
             "en": "On the platform in the morning, I always stand in the same spot."
           },
           {
+            "cont": true,
             "ja": "この{路線|ろせん}にはいくつか高校があり、{階段|かいだん}の近くに止まるこの{車両|しゃりょう}には高校生がたくさん乗っている。",
             "en": "There are several high schools along this line, and lots of high school students ride in this car, which stops near the stairs."
           },
           {
+            "cont": true,
             "ja": "だからこの{車両|しゃりょう}は{混|こ}んでいる**わりに**は座れるチャンスがあるのだ。",
             "en": "So even though this car is crowded, you have a better chance of getting a seat than you'd expect."
           },
@@ -54,10 +60,12 @@ N2.register({
             "en": "The train pulled into the platform."
           },
           {
+            "cont": true,
             "ja": "ドアが開いた。",
             "en": "The doors opened."
           },
           {
+            "cont": true,
             "ja": "押されながら乗り込み、座っている高校生の前に立つ。",
             "en": "Getting pushed, I squeeze on and stand in front of a seated high school student."
           }
@@ -413,6 +421,7 @@ N2.register({
       ],
       "sample": {
         "kind": "essay",
+        "vertical": true,
         "lines": [
           {
             "ja": "次の駅が近づいてきた。前に座っている女子高生が、見ていた教科書をかばんにしまった。よし、今日は座るぞ。彼女が立つ**か**立たない**かのうちに**、次は自分が座るという{態度|たいど}を{周|まわ}りに{示|しめ}す。",

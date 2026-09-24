@@ -661,6 +661,7 @@ N2.register({
       ],
       "sample": {
         "kind": "dialogue",
+        "rings": false,
         "lines": [
           {
             "sp": "{小林|こばやし}",

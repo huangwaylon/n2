@@ -8,6 +8,7 @@ N2F({
   ],
   sample: {
     kind: "dialogue",
+    rings: false,
     lines: [
       { sp: "{渡辺|わたなべ}", v: "f", ja: "難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。", en: "That's tough. It's probably not the case that they'll hire you just because you're motivated." },
       { sp: "{木山|きやま}", v: "m", ja: "そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Exactly. If there are no openings, there's no way I can even try… Sometimes I think, what if I keep sticking to game companies, go through all that trouble, and in the end can't get a job anywhere…" },

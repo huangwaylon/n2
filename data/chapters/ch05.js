@@ -652,6 +652,7 @@ N2.register({
       ],
       "sample": {
         "kind": "dialogue",
+        "rings": false,
         "lines": [
           {
             "sp": "{渡辺|わたなべ}",

@@ -30,10 +30,12 @@ N2.register({
             "en": "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometres per hour."
           },
           {
+            "cont": true,
             "ja": "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。",
             "en": "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the centre is 35 metres per second."
           },
           {
+            "cont": true,
             "ja": "今後{台風|たいふう}は{速度|そくど}を速め**つつ**東に進むと{予想|よそう}されます。",
             "en": "The typhoon is expected to move east while picking up speed."
           },
@@ -42,6 +44,7 @@ N2.register({
             "en": "At present, the area centred on Okinawa has entered the storm zone, and heavy rain is falling over a wide area."
           },
           {
+            "cont": true,
             "ja": "また、{九州|きゅうしゅう}{沿岸|えんがん}**から**{四国|しこく}**にかけて**{波|なみ}も高くなってきています。",
             "en": "The waves are also getting higher from the Kyushu coast to Shikoku."
           },
@@ -50,10 +53,12 @@ N2.register({
             "en": "With the approach of the typhoon, heavy-rain and flood advisories have been issued in various areas, starting with southern Kyushu."
           },
           {
+            "cont": true,
             "ja": "これから{明日|あす}の{明|あ}け{方|がた}にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降る**おそれがあります**。",
             "en": "From now until dawn tomorrow, heavy rain of 70 mm per hour may fall locally."
           },
           {
+            "cont": true,
             "ja": "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}**とともに**{河川|かせん}の{増水|ぞうすい}にもご注意ください。",
             "en": "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds."
           },

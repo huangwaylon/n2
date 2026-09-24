@@ -27,6 +27,7 @@ N2.register({
             "en": "When you ask foreigners which Japanese food they like, surprisingly many answer not only sushi or tempura but also \"ramen\"."
           },
           {
+            "cont": true,
             "ja": "ラーメンは中国のめん料理を{起源|きげん}にしていると言われますが、外国人にとってラーメンは日本料理**にほかならない**のです。",
             "en": "Ramen is said to have originated from Chinese noodle dishes, but for foreigners ramen is nothing other than Japanese cuisine."
           },
@@ -35,14 +36,17 @@ N2.register({
             "en": "In the past, ramen may have been nothing more than something to fill an empty stomach casually, but now ramen is a fine dish."
           },
           {
+            "cont": true,
             "ja": "ラーメンはめんやスープの作り方に{工夫|くふう}ができる**{上|うえ}**に、めんにのせる{具|ぐ}にもバリエーションがつけやすいのです。",
             "en": "Not only can you be creative with how the noodles and soup are made, it is also easy to vary the toppings you put on the noodles."
           },
           {
+            "cont": true,
             "ja": "そのため、ラーメン**といっても**、最近はイタリア料理のトマトソースを使ったもの、サラダ{感覚|かんかく}で食べられるもの、スープのないものなど、{様々|さまざま}なものがあります。",
             "en": "For that reason, although we say \"ramen\", these days there are all kinds: ones made with Italian-style tomato sauce, ones you can eat like a salad, ones without soup, and so on."
           },
           {
+            "cont": true,
             "ja": "ラーメンはしょうゆ**に{限|かぎ}る**と言う人も、一度食べてみる{価値|かち}があるのではないでしょうか。",
             "en": "Even people who say soy-sauce ramen is the best might find them worth trying once."
           },
@@ -51,14 +55,17 @@ N2.register({
             "en": "The other day I went to a ramen shop that has been the talk of the internet."
           },
           {
+            "cont": true,
             "ja": "{人気店|にんきてん}**だけあって**、すごい{行列|ぎょうれつ}でした。",
             "en": "As you would expect of a popular shop, there was a huge queue."
           },
           {
+            "cont": true,
             "ja": "2時間待たされましたが、さすがにそのラーメンはスープ**にしろ**、{具|ぐ}**にしろ**、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。",
             "en": "I had to wait two hours, but true to its reputation, that ramen — whether the soup or the toppings — had the shop's own original touches, and it was something new, unlike anything before."
           },
           {
+            "cont": true,
             "ja": "日本料理の新ジャンルとしてのラーメンがこれからどんな{進化|しんか}をしていくのか、楽しみです。",
             "en": "I look forward to seeing how ramen, as a new genre of Japanese cuisine, will evolve from here."
           },

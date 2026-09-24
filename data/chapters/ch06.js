@@ -548,6 +548,7 @@ N2.register({
       ],
       "sample": {
         "kind": "dialogue",
+        "rings": false,
         "lines": [
           {
             "sp": "{木山|きやま}",

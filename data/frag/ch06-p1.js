@@ -7,6 +7,7 @@ N2F({
   ],
   sample: {
     kind: "dialogue",
+    rings: false,
     lines: [
       { sp: "{木山|きやま}", v: "m", ja: "部長はぼくのことを思え**ばこそ**、{厳|きび}しく言ってくれたんだよね。部長の気持ちもわから**ないことはなかった**けど、つらかったよ。", en: "It was precisely because the department head was thinking of me that he was so strict with me, right? It's not that I didn't understand how he felt, but it was hard." },
       { sp: "{渡辺|わたなべ}", v: "f", ja: "そうね。つらそうだったね。", en: "Yeah. You looked like you were having a hard time." },

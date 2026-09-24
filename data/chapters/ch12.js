@@ -624,6 +624,7 @@ N2.register({
       ],
       "sample": {
         "kind": "dialogue",
+        "rings": false,
         "lines": [
           {
             "sp": "{川口|かわぐち}",

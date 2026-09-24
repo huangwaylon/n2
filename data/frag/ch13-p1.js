@@ -8,6 +8,7 @@ N2F({
   ],
   sample: {
     kind: "story",
+    vertical: true,
     lines: [
       { ja: "**たとえ**どんな{事情|じじょう}があっ**ても**、男２人で女性に{暴力|ぼうりょく}を{振|ふ}るうなんて{許|ゆる}し**がたい**{奴|やつ}らだ。{絶対|ぜったい}助け出す。{俺|おれ}は{勇気|ゆうき}を出して、２階へ続く{階段|かいだん}を{上|のぼ}った。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable. I'll get her out, no matter what. Summoning my courage, I climbed the stairs to the second floor." },
       { ja: "{突|つ}き{当|あ}たりの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。", en: "Light was leaking from the door of the room at the end of the hall. I flung the door open and burst into the room. And I shouted:" },

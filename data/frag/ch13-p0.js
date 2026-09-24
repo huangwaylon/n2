@@ -12,6 +12,7 @@ N2F({
   label: "(1)",
   sample: {
     kind: "story",
+    vertical: true,
     lines: [
       { ja: "「{課長昇進|かちょうしょうしん}の話はなかっ**たことにする**」と部長に{告|つ}げられたのは3か月前だった。自分では{精一杯|せいいっぱい}がんばった**つもり**だったが、プロジェクトに{失敗|しっぱい}し、大きな{損害|そんがい}を出したのが{原因|げんいん}だ。{出社|しゅっしゃ}しても、毎日がつらく**てならなかった**。できる**ものなら**、違う世界へ行ってしまいたいと思いながら、{日々|ひび}を{過|す}ごしていた。", en: "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world." },
       { ja: "{蒸|む}し暑いある晩、{俺|おれ}は{散歩|さんぽ}していた。{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの{一軒屋|いっけんや}の2階の{窓|まど}に{明|あ}かりが見えた。", en: "One hot, muggy night, I was taking a walk. As I walked along a pitch-dark road with hardly any houses, I saw a light in a second-floor window of a detached house up ahead." },

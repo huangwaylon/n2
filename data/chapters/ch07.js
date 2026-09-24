@@ -26,10 +26,12 @@ N2.register({
             "en": "What kind of image do you have of wolves?"
           },
           {
+            "cont": true,
             "ja": "人間の{立場|たちば}**から見ると**、オオカミは牛などの{家畜|かちく}を{襲|おそ}う{敵|てき}だ。",
             "en": "From the human point of view, the wolf is an enemy that attacks livestock such as cattle."
           },
           {
+            "cont": true,
             "ja": "このイメージから、物語などでもオオカミは悪く書かれることが多かった。",
             "en": "Because of this image, wolves have often been portrayed as bad in stories and elsewhere."
           },
@@ -38,14 +40,17 @@ N2.register({
             "en": "On the other hand, however, wolves have also played the role of preventing herbivores such as deer from becoming too numerous, and so protecting the balance of nature."
           },
           {
+            "cont": true,
             "ja": "アメリカのイエローストーン国立公園では、オオカミが{殺|ころ}され、{絶滅|ぜつめつ}した**ことから**、その{食料|しょくりょう}となっていた{大型|おおがた}のシカが{急増|きゅうぞう}した。",
             "en": "In Yellowstone National Park in America, because the wolves were killed off and died out, the large deer that had been their food increased rapidly."
           },
           {
+            "cont": true,
             "ja": "増えすぎたシカは、{植物|しょくぶつ}に大きな{被害|ひがい}を{与|あた}えた**のみならず**、ネズミやビーバー**といった**{小動物|しょうどうぶつ}の数も{減少|げんしょう}させた。",
             "en": "The overabundant deer not only did great damage to the plants, but also caused the numbers of small animals such as mice and beavers to fall."
           },
           {
+            "cont": true,
             "ja": "シカの数が増える**にしたがって**、食べ物や住む場所が{減|へ}り、生きていけなくなったからだ。",
             "en": "This is because, as the number of deer increased, their food and places to live decreased, and they could no longer survive."
           }
@@ -700,20 +705,24 @@ N2.register({
       ],
       "sample": {
         "kind": "essay",
+        "rings": false,
         "lines": [
           {
             "ja": "そこで、国立公園にオオカミを{戻|もど}そうという取り組みが始まった。",
             "en": "So an effort began to bring wolves back to the national park."
           },
           {
+            "cont": true,
             "ja": "オオカミの{復活|ふっかつ}により{生態系|せいたいけい}を{回復|かいふく}させ**{得|う}る**と考えたのだ。",
             "en": "The idea was that the return of the wolf could restore the ecosystem."
           },
           {
+            "cont": true,
             "ja": "しかし{生物学者|せいぶつがくしゃ}の{期待|きたい}**に{反|はん}して**、この{計画|けいかく}はすぐには{実行|じっこう}されなかった。",
             "en": "Contrary to the biologists' expectations, however, this plan was not carried out right away."
           },
           {
+            "cont": true,
             "ja": "{野生|やせい}のオオカミを連れてくること**に{関|かん}して**は、{成果|せいか}が{期待|きたい}される**{反面|はんめん}**、{家畜|かちく}の{被害|ひがい}のおそれもあるため、{理論|りろん}**{上|じょう}**は{有効|ゆうこう}だとわかっていても、受け入れにくいことだったからだ。",
             "en": "That is because bringing in wild wolves, while expected to produce results, also carried the risk of harm to livestock, so even though people knew it was effective in theory, it was hard to accept."
           },
@@ -722,6 +731,7 @@ N2.register({
             "en": "As a result of more than 20 years of continued discussion, wolves were finally released in 1995."
           },
           {
+            "cont": true,
             "ja": "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}し**つつある**ことが{報告|ほうこく}されている。",
             "en": "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing."
           },
@@ -730,6 +740,7 @@ N2.register({
             "en": "Similar efforts are being considered not only in America but in Europe as well."
           },
           {
+            "cont": true,
             "ja": "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。",
             "en": "People will probably go on balancing nature while carefully continuing to exchange views."
           },

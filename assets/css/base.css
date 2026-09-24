@@ -18,8 +18,10 @@
   --en: #2b5c9e;
   --en-soft: #eef4fc;
   --radius: 12px;
-  --top: 56px;
-  --sbw: 290px;
+  --top: 56px;          /* topbar height (52px at ≤600) */
+  --sbw: 260px;          /* sidebar width (280px at ≥1200) */
+  --main-pad: 28px;      /* main side padding: 28 / 20 (≤900) / 14 (≤600) / 12 (≤390); full-bleed = calc(-1*var(--main-pad)) */
+  --safe-l: env(safe-area-inset-left, 0px); --safe-r: env(safe-area-inset-right, 0px);
   --jp: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, sans-serif;
   --serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
   /* book design tokens (docs/LAYOUT.md §0.2) */
@@ -47,27 +49,55 @@
     --review-bg:#101214; --en-book:#9aa0a8;
   }
 }
+@media (min-width: 1200px) { :root { --sbw: 280px; } }
+@media (max-width: 900px) { :root { --main-pad: 20px; } }
+@media (max-width: 600px) { :root { --top: 52px; --main-pad: 14px; } }
+@media (max-width: 390px) { :root { --main-pad: 12px; } }
+
 * { box-sizing: border-box; }
-html { scroll-padding-top: calc(var(--top) + 12px); }
-body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--jp); line-height: 1.85; font-size: 16.5px; -webkit-text-size-adjust: 100%; }
+/* global guard against sideways scrolling (clip, not hidden, so position:sticky keeps working) — not a substitute for fixing overflow */
+html, body { overflow-x: clip; }
+html { scroll-padding-top: calc(var(--top) + env(safe-area-inset-top, 0px) + 12px); }
+/* Gothic UI text: 16px at every width (15.5 at ≤390); line-height ≥1.9 because most lines carry furigana */
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--jp); line-height: 1.9; font-size: 16px; -webkit-text-size-adjust: 100%; }
+@media (max-width: 390px) { body { font-size: 15.5px; } }
 a { color: var(--teal); text-decoration: none; }
-a:hover { text-decoration: underline; }
+@media (hover: hover) { a:hover { text-decoration: underline; } }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
 h1, h2, h3, h4 { line-height: 1.5; }
-ruby rt { font-size: 0.52em; color: var(--ink-2); font-weight: 400; }
+ruby { ruby-position: over; ruby-align: center; }
+ruby rt { font-size: max(.5em, 9px); line-height: 1; color: var(--ink-2); font-weight: 400; }
+/* iOS Safari zooms on focus if a form control is < 16px */
+@media (max-width: 900px), (pointer: coarse) { body :is(input, select, textarea) { font-size: max(16px, 1em); } }
 body.no-furi rt { display: none; }
 strong { color: var(--accent); font-weight: 700; }
 .dim { color: var(--ink-3); }
 .small { font-size: 0.85em; }
 
 /* ---------- English supplement ---------- */
-.en { display: none; color: var(--en); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 0.93em; line-height: 1.6; }
+.en { display: none; color: var(--en); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14.5px; line-height: 1.55; }
+@media (max-width: 600px) { .en { font-size: 14px; } }
 body.show-en .en, .en-open > .en, .en-open > * > .en, .en-open .sl-body > .en { display: block; }
 span.en { margin-top: 2px; }
 body.show-en span.en, .en-open span.en { display: block; }
 .en-inline { font-family: system-ui, -apple-system, sans-serif; font-size: 0.72em; color: var(--ink-3); font-weight: 400; letter-spacing: 0.01em; }
+/* EN buttons (§0.5). Per-line: in a right gutter of its .bi at ≥601, hidden at ≤600 (containers get one
+   .en-btn--scope instead). Visual 24px (32px on touch) with a 44px hit area on touch screens. */
 .bi { position: relative; }
-.en-btn { float: right; margin-left: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink-3); border-radius: 6px; font-size: 10px; font-weight: 700; padding: 1px 5px; cursor: pointer; line-height: 1.5; font-family: system-ui, sans-serif; }
-.en-btn:hover { color: var(--en); border-color: var(--en); }
+.en-btn { position: relative; display: inline-grid; place-items: center; min-width: 30px; min-height: 22px; border: 1px solid var(--line); background: transparent; color: var(--ink-3); border-radius: 6px; font-size: 10px; font-weight: 700; padding: 0 5px; cursor: pointer; line-height: 1; font-family: system-ui, sans-serif; vertical-align: middle; }
+.bi:has(> .en-btn) { padding-right: 2.4em; }
+.bi > .en-btn { position: absolute; right: 0; top: .35em; }
+@media (hover: hover) { .en-btn:hover { color: var(--en); border-color: var(--en); } }
+@media (pointer: coarse) {
+  .en-btn { min-width: 36px; min-height: 32px; }
+  .en-btn::after { content: ""; position: absolute; left: 50%; top: 50%; width: max(100%, 44px); height: max(100%, 44px); transform: translate(-50%, -50%); }
+  .bi:has(> .en-btn) { padding-right: 2.9em; }
+}
+@media (max-width: 600px) {
+  .en-btn:not(.en-btn--scope) { display: none; }
+  .bi:has(> .en-btn) { padding-right: 0; }
+  .bi:has(> .en-btn--scope) { padding-right: 2.9em; }
+}
 .en-open > .en-btn { background: var(--en-soft); color: var(--en); border-color: var(--en); }
 /* container-scoped English: [data-en-scope].en-all shows every .en inside (toggled by data-act="en-scope") */
 .en-all .en { display: block; }
@@ -80,13 +110,16 @@ body.show-en .en-btn { display: none; }
 
 /* ---------- buttons ---------- */
 .btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 8px; padding: 6px 14px; font: inherit; font-size: 14px; cursor: pointer; }
-.btn:hover { border-color: var(--teal); text-decoration: none; }
+@media (hover: hover) { .btn:hover { border-color: var(--teal); text-decoration: none; } }
 .btn.primary { background: var(--teal); border-color: var(--teal); color: #fff; }
 .btn.primary .en-inline { color: rgba(255,255,255,.8); }
 .btn.small { padding: 4px 10px; font-size: 13px; }
+@media (pointer: coarse) { .btn, .btn.small { min-height: 44px; } }
 .btn.play.speaking, .speak.speaking { background: var(--accent); color: #fff; border-color: var(--accent); }
-.speak { border: 0; background: transparent; cursor: pointer; font-size: 14px; opacity: 0.45; padding: 0 4px; vertical-align: middle; border-radius: 6px; }
-.speak:hover { opacity: 1; }
+/* 🔊: 32px visual, 44px hit (::after); negative block margin keeps it from growing the line box */
+.speak { position: relative; display: inline-grid; place-items: center; width: 32px; height: 32px; margin: -6px 0; border: 0; background: transparent; cursor: pointer; font-size: 14px; opacity: 0.45; padding: 0; vertical-align: middle; border-radius: 6px; }
+.speak::after { content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); }
+@media (hover: hover) { .speak:hover { opacity: 1; } }
 
 /* ---------- POS badges (shared) ---------- */
 /* book look (C10): grey fill, dark text. Shapes from fmt(): b-round = bare N/V/A, b-pill = "V-る" etc., b-sq = Pl/Po.

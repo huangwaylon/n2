@@ -20,6 +20,8 @@ N2.register({
       "label": "",
       "sample": {
         "kind": "editorial",
+        "vertical": true,
+        "rings": false,
         "heading": "{社説|しゃせつ}　{問|と}われる{五輪招致|ごりんしょうち}の{是非|ぜひ}",
         "lines": [
           {
@@ -27,18 +29,22 @@ N2.register({
             "en": "When it came to hosting the Olympics, in the past the whole nation used to rejoice."
           },
           {
+            "cont": true,
             "ja": "しかし{今日|こんにち}ではどこの国でも、オリンピック{開催|かいさい}**をめぐって**意見が{対|たい}{立|りつ}する。",
             "en": "Today, however, in every country opinions clash over hosting the Olympics."
           },
           {
+            "cont": true,
             "ja": "{開催国|かいさいこく}はオリンピックを{契機|けいき}として、国の{発|はっ}{展|てん}を願う。",
             "en": "The host country hopes to use the Olympics as an opportunity for national development."
           },
           {
+            "cont": true,
             "ja": "しかし、オリンピック{開催|かいさい}には多くの{費用|ひよう}がかかる。",
             "en": "But hosting the Olympics costs a great deal of money."
           },
           {
+            "cont": true,
             "ja": "それで{政府|せいふ}に対する{抗議|こうぎ}の声が上がることになる**わけだ**。",
             "en": "That is why voices of protest against the government are raised."
           },
@@ -47,10 +53,12 @@ N2.register({
             "en": "Also, when hosting the Olympics, in addition to funding, securing land for building stadiums and other facilities becomes an important issue."
           },
           {
+            "cont": true,
             "ja": "そのために住民の{移|い}{転|てん}問題も{出|で}てくる。",
             "en": "Because of that, the problem of relocating residents also arises."
           },
           {
+            "cont": true,
             "ja": "住み{慣|な}れた土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意された**としても**、{簡単|かんたん}に{納得|なっとく}できることではないだろう。",
             "en": "Leaving the land where one has long lived is probably not something one can easily accept, even if compensation or replacement housing is provided."
           },
@@ -59,18 +67,22 @@ N2.register({
             "en": "The Olympic Charter states, \"to build a peaceful society through sport.\""
           },
           {
+            "cont": true,
             "ja": "この{理念|りねん}**に{基|もと}づいて**、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。",
             "en": "Aiming for peace in the international community based on this ideal is a wonderful thing."
           },
           {
+            "cont": true,
             "ja": "しかし、国民の{感情|かんじょう}や生活を{犠牲|ぎせい}にしてオリンピックが{開催|かいさい}されることがあってはならない。",
             "en": "However, the Olympics must never be held at the sacrifice of the people's feelings and livelihoods."
           },
           {
+            "cont": true,
             "ja": "多くの人が{賛|さん}{同|どう}し**てこそ**、オリンピックを{開|ひら}く{意義|いぎ}がある。",
             "en": "Only when many people support it is there any point in holding the Olympics."
           },
           {
+            "cont": true,
             "ja": "今、世界{規模|きぼ}でオリンピックのあり方を、{改|あらた}めて考えるときが来ているのではないだろうか。",
             "en": "Hasn't the time come now to rethink, on a global scale, what the Olympics should be?"
           }

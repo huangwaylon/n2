@@ -13,12 +13,12 @@ N2F({
     kind: "essay",
     lines: [
       { ja: "皆さんはオオカミに対してどんなイメージを持っているだろうか。", en: "What kind of image do you have of wolves?" },
-      { ja: "人間の{立場|たちば}**から見ると**、オオカミは牛などの{家畜|かちく}を{襲|おそ}う{敵|てき}だ。", en: "From the human point of view, the wolf is an enemy that attacks livestock such as cattle." },
-      { ja: "このイメージから、物語などでもオオカミは悪く書かれることが多かった。", en: "Because of this image, wolves have often been portrayed as bad in stories and elsewhere." },
+      { cont: true, ja: "人間の{立場|たちば}**から見ると**、オオカミは牛などの{家畜|かちく}を{襲|おそ}う{敵|てき}だ。", en: "From the human point of view, the wolf is an enemy that attacks livestock such as cattle." },
+      { cont: true, ja: "このイメージから、物語などでもオオカミは悪く書かれることが多かった。", en: "Because of this image, wolves have often been portrayed as bad in stories and elsewhere." },
       { ja: "しかし、その**{一方|いっぽう}**で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "On the other hand, however, wolves have also played the role of preventing herbivores such as deer from becoming too numerous, and so protecting the balance of nature." },
-      { ja: "アメリカのイエローストーン国立公園では、オオカミが{殺|ころ}され、{絶滅|ぜつめつ}した**ことから**、その{食料|しょくりょう}となっていた{大型|おおがた}のシカが{急増|きゅうぞう}した。", en: "In Yellowstone National Park in America, because the wolves were killed off and died out, the large deer that had been their food increased rapidly." },
-      { ja: "増えすぎたシカは、{植物|しょくぶつ}に大きな{被害|ひがい}を{与|あた}えた**のみならず**、ネズミやビーバー**といった**{小動物|しょうどうぶつ}の数も{減少|げんしょう}させた。", en: "The overabundant deer not only did great damage to the plants, but also caused the numbers of small animals such as mice and beavers to fall." },
-      { ja: "シカの数が増える**にしたがって**、食べ物や住む場所が{減|へ}り、生きていけなくなったからだ。", en: "This is because, as the number of deer increased, their food and places to live decreased, and they could no longer survive." },
+      { cont: true, ja: "アメリカのイエローストーン国立公園では、オオカミが{殺|ころ}され、{絶滅|ぜつめつ}した**ことから**、その{食料|しょくりょう}となっていた{大型|おおがた}のシカが{急増|きゅうぞう}した。", en: "In Yellowstone National Park in America, because the wolves were killed off and died out, the large deer that had been their food increased rapidly." },
+      { cont: true, ja: "増えすぎたシカは、{植物|しょくぶつ}に大きな{被害|ひがい}を{与|あた}えた**のみならず**、ネズミやビーバー**といった**{小動物|しょうどうぶつ}の数も{減少|げんしょう}させた。", en: "The overabundant deer not only did great damage to the plants, but also caused the numbers of small animals such as mice and beavers to fall." },
+      { cont: true, ja: "シカの数が増える**にしたがって**、食べ物や住む場所が{減|へ}り、生きていけなくなったからだ。", en: "This is because, as the number of deer increased, their food and places to live decreased, and they could no longer survive." },
     ],
   },
   points: [

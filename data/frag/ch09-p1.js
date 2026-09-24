@@ -7,6 +7,7 @@ N2F({
   ],
   sample: {
     kind: "dialogue",
+    rings: false,
     lines: [
       { sp: "{小林|こばやし}", v: "m", ja: "え？　食べ{放題|ほうだい}に{初心者|しょしんしゃ}って？", en: "Huh? Beginners at all-you-can-eat?" },
       { sp: "{大田|おおた}", v: "f", ja: "食べ{放題|ほうだい}は店との{勝負|しょうぶ}よ。{経験|けいけん}も{技術|ぎじゅつ}も{必要|ひつよう}よ。飲み物は{控|ひか}えめに。{値段|ねだん}の高いものを{狙|ねら}う。あとは、料理は食べきれる{量|りょう}をとって、ゆっくり食べること。", en: "All-you-can-eat is a contest between you and the restaurant. You need both experience and technique. Go easy on the drinks. Aim for the expensive stuff. And then, take only as much food as you can finish, and eat slowly." },

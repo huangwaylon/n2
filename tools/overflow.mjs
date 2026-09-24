@@ -9,7 +9,8 @@
 //     clip        -> elements poking out of a component frame (.gp .sample .exercise .check .tbl …),
 //                    counted even when the frame hides the overflow
 //   --en     turn on the global English layer first (English lines are longer)
-//   --touch  also report visible tap targets smaller than 44×44 (box, widened by an absolute ::after)
+//   --touch  emulate a touch screen (pointer:coarse) and report visible tap targets smaller than 44×44
+//            (box, widened by an absolute ::after). Widths < 700 are always emulated as touch phones.
 //   e.g. node tools/overflow.mjs ch/1 375
 //        for w in 320 375 390; do node tools/overflow.mjs ch/2/review $w --en; done
 import { open, sleep } from "./lib/cdp.mjs";
@@ -40,6 +41,8 @@ const PROBE = `(() => {
     document.querySelectorAll("button, a, summary, label, input, select, [data-act]").forEach(el => {
       const r = el.getBoundingClientRect();
       if (!r.width || !r.height || r.right <= 0 || r.left >= vw || getComputedStyle(el).visibility === "hidden") return; // skip closed drawer
+      if (r.width <= 1 && r.height <= 1) return;   // visually hidden control (its <label> is the target)
+      const d = el.closest("details:not([open])"); if (d && !el.closest("summary")) return;   // collapsed <details> content
       let w = r.width, h = r.height;
       const a = getComputedStyle(el, "::after");
       if (a.content !== "none" && a.position === "absolute") { w = Math.max(w, parseFloat(a.width) || 0); h = Math.max(h, parseFloat(a.height) || 0); }
@@ -51,7 +54,7 @@ const PROBE = `(() => {
   return JSON.stringify(out, null, 1);
 })()`;
 
-const pg = await open({ route, width, height: 900, scheme: flags.includes("--dark") ? "dark" : "light" });
+const pg = await open({ route, width, height: 900, scheme: flags.includes("--dark") ? "dark" : "light", touch: flags.includes("--touch") || undefined });
 if (flags.includes("--en")) { await pg.evaluate("document.body.classList.add('show-en')"); await sleep(300); }
 console.log(await pg.evaluate(PROBE));
 pg.logs.forEach(l => console.error(l));

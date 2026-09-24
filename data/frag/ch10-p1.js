@@ -7,6 +7,7 @@ N2F({
   ],
   sample: {
     kind: "essay",
+    vertical: true,
     lines: [
       { ja: "次の駅が近づいてきた。前に座っている女子高生が、見ていた教科書をかばんにしまった。よし、今日は座るぞ。彼女が立つ**か**立たない**かのうちに**、次は自分が座るという{態度|たいど}を{周|まわ}りに{示|しめ}す。", en: "The next station was getting close. The high-school girl sitting in front of me put the textbook she'd been looking at away in her bag. All right, today I'm going to sit. I make it clear to those around me that the moment she stands up — almost before she's even up — I'm the one who'll sit next." },
       { ja: "しかしその子は{全然|ぜんぜん}立とうとしない。教科書をしまったのは{文庫本|ぶんこぼん}を取り出すためだった。ああ、降りないのか。{残念|ざんねん}。周りを見ると、座っている人はみんな自由に好きなことをしている。2、3人で{雑誌|ざっし}を見ながら楽し**げ**におしゃべりしている子たちもいる。そんな{様子|ようす}がくやしい**やら**うらやましい**やら**…。", en: "But the girl shows no sign at all of standing up. She had put her textbook away only to take out a paperback. Oh, so she isn't getting off. Too bad. Looking around, everyone who's sitting is freely doing whatever they like. There are even some kids happily chatting in twos and threes while looking at a magazine. The sight of it makes me feel frustrated, envious…" },

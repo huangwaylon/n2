@@ -30,30 +30,37 @@ N2.register({
             "en": "To all of you who are now becoming members of this hotel, I'm going to talk about the attitude you need as hotel staff."
           },
           {
+            "cont": true,
             "ja": "いちばん難しいのは、{苦情|くじょう}{処理|しょり}です。",
             "en": "The hardest part is handling complaints."
           },
           {
+            "cont": true,
             "ja": "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける**{限|かぎ}り**、お客様からのクレームに{対応|たいおう}せ**ざるを{得|え}ない**場面に{必|かなら}ず{出合|であ}います。",
             "en": "You probably think you'd rather not do it, but as long as you keep working at a hotel, you will certainly run into situations where you have no choice but to deal with complaints from guests."
           },
           {
+            "cont": true,
             "ja": "お客様が{苦情|くじょう}をおっしゃったときは、ただ{謝|あやま}ればいい**というものではありません**。",
             "en": "When a guest makes a complaint, it isn't simply a matter of apologizing."
           },
           {
+            "cont": true,
             "ja": "そのクレームが{正当|せいとう}なものかどうか**はともかく**として、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}い**かねません**。",
             "en": "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust."
           },
           {
+            "cont": true,
             "ja": "では、どうすればいいのでしょうか。",
             "en": "So what should you do?"
           },
           {
+            "cont": true,
             "ja": "そのときはお客様のお話を聞くことがいちばん大切です。",
             "en": "In that situation, the most important thing is to listen to what the guest has to say."
           },
           {
+            "cont": true,
             "ja": "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。",
             "en": "Think of them not so much as guests who are only staying for a few days, but as your own family, and listen properly right to the end."
           },
@@ -62,14 +69,17 @@ N2.register({
             "en": "Our ABK Hotel has been valued by many guests for the high quality of its service, and has been loved by them."
           },
           {
+            "cont": true,
             "ja": "しかし、今後ホテル{業界|ぎょうかい}はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心し**てはいられません**。",
             "en": "However, competition in the hotel industry is going to get tougher and tougher from now on, so we can't afford to be complacent."
           },
           {
+            "cont": true,
             "ja": "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。",
             "en": "In the times ahead, we need to pursue even better service than before."
           },
           {
+            "cont": true,
             "ja": "ホテルのために、お客様のために、力を合わせて、がんばりましょう。",
             "en": "For the hotel and for our guests, let's work together and do our best."
           }

@@ -7,6 +7,7 @@ N2F({
   ],
   sample: {
     kind: "dialogue",
+    rings: false,
     lines: [
       { sp: "{川口|かわぐち}", v: "f", ja: "ええ。だから{新商品|しんしょうひん}を作る**としたら**、ファッション性も{重視|じゅうし}しないと。", en: "Yes. So if we're going to make a new product, we have to put weight on fashion as well." },
       { sp: "{山下|やました}", v: "m", ja: "おしゃれで、疲れない{靴|くつ}ということですよね。", en: "So you mean shoes that are stylish and don't tire you out." },

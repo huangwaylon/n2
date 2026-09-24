@@ -13,10 +13,10 @@ N2F({
     kind: "speech",
     lines: [
       { ja: "皆様、本日は、{私|わたくし}のためにこのような会を開いていただき、ありがとうございます。", en: "Everyone, thank you for holding this gathering for me today." },
-      { ja: "入社して**{以来|いらい}**、この{営業部|えいぎょうぶ}において、部長**をはじめ**{先輩方|せんぱいがた}のご{指導|しどう}**のもとで**、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors." },
-      { ja: "仕事の進め方**はもとより**、{取引先|とりひきさき}との付き合い方など本当に{様々|さまざま}なことを{教|おし}えていただき、心から{感謝|かんしゃ}いたしております。", en: "You taught me so many things — how to go about the work, of course, and also how to deal with our clients — and I am grateful from the bottom of my heart." },
-      { ja: "特に部長の、「人は{失敗|しっぱい}から学ぶ**ものだ**」という言葉は忘れられません。", en: "In particular, I will never forget the manager's words: “People learn from their mistakes.”" },
-      { ja: "仕事をする**{上|うえ}で**大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を{命|めい}じられ、{残念|ざんねん}**ながら**この{職場|しょくば}を{離|はな}れることになりました。", en: "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace." },
+      { cont: true, ja: "入社して**{以来|いらい}**、この{営業部|えいぎょうぶ}において、部長**をはじめ**{先輩方|せんぱいがた}のご{指導|しどう}**のもとで**、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors." },
+      { cont: true, ja: "仕事の進め方**はもとより**、{取引先|とりひきさき}との付き合い方など本当に{様々|さまざま}なことを{教|おし}えていただき、心から{感謝|かんしゃ}いたしております。", en: "You taught me so many things — how to go about the work, of course, and also how to deal with our clients — and I am grateful from the bottom of my heart." },
+      { cont: true, ja: "特に部長の、「人は{失敗|しっぱい}から学ぶ**ものだ**」という言葉は忘れられません。", en: "In particular, I will never forget the manager's words: “People learn from their mistakes.”" },
+      { cont: true, ja: "仕事をする**{上|うえ}で**大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を{命|めい}じられ、{残念|ざんねん}**ながら**この{職場|しょくば}を{離|はな}れることになりました。", en: "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace." },
     ],
   },
   points: [

@@ -7,14 +7,15 @@ N2F({
   ],
   sample: {
     kind: "speech",
+    rings: false,
     lines: [
       { ja: "{大阪|おおさか}{支社|ししゃ}では、アジア{各国|かっこく}への{輸出|ゆしゅつ}{拡大|かくだい}**を**{目的|もくてき}**とした**プロジェクトに{参加|さんか}することになりました。", en: "At the Osaka branch, I will be taking part in a project aimed at expanding exports to countries across Asia." },
-      { ja: "この{転勤|てんきん}を**きっかけ**に、また{新|あら}たな{挑戦|ちょうせん}ができることを{期待|きたい}しております。", en: "I am hoping that this transfer will give me the chance to take on new challenges." },
-      { ja: "やる**からには**{全力|ぜんりょく}でがんばります。", en: "Now that I'm doing it, I will give it everything I've got." },
+      { cont: true, ja: "この{転勤|てんきん}を**きっかけ**に、また{新|あら}たな{挑戦|ちょうせん}ができることを{期待|きたい}しております。", en: "I am hoping that this transfer will give me the chance to take on new challenges." },
+      { cont: true, ja: "やる**からには**{全力|ぜんりょく}でがんばります。", en: "Now that I'm doing it, I will give it everything I've got." },
       { ja: "入社以来{慣|な}れ{親|した}しんだこの{職場|しょくば}を{離|はな}れることになりましたが、皆様と一緒に仕事をする機会がなくなるという**わけではありません**。", en: "I will be leaving this workplace, which I have grown so familiar with since joining the company, but that doesn't mean there will be no more chances to work with you all." },
-      { ja: "どうぞこれまでと変わる**ことなく**、ご{指導|しどう}よろしくお願いいたします。", en: "I hope you will continue to guide me, just as you always have." },
+      { cont: true, ja: "どうぞこれまでと変わる**ことなく**、ご{指導|しどう}よろしくお願いいたします。", en: "I hope you will continue to guide me, just as you always have." },
       { ja: "最後に、本日は雨**にもかかわらず**、このように多くの{方々|かたがた}が来てくださったこと、皆様の温かいお{心遣|こころづか}いに心から{感謝|かんしゃ}しております。", en: "Finally, I am sincerely grateful that so many of you came today despite the rain, and for your warm consideration." },
-      { ja: "本当にありがとうございました。", en: "Thank you very much." },
+      { cont: true, ja: "本当にありがとうございました。", en: "Thank you very much." },
     ],
   },
   points: [
