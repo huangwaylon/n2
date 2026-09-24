@@ -186,8 +186,9 @@
       '<circle cx="12" cy="13.5" r="5.8"/><path d="M9.8 12.6h.01M14.2 12.6h.01M9.6 15.2q2.4 1.8 4.8 0"/><path d="M12 2.5v2.6M4.4 5.6l1.8 1.8M19.6 5.6l-1.8 1.8M2 13h2.2M20 13h2.2"/>'],
   };
   const sceneSvg = (k) => `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${MARKS[k][3]}</svg>`;
-  // icon-only usage-scene marks (C8); the label is in aria-label / title and explained in #/guide
-  const marks = (arr) => (arr || []).map((m) => (MARKS[m] ? `<span class="scene scene--${m}" role="img" aria-label="${esc(MARKS[m][2] + " — " + MARKS[m][1])}" title="${esc(MARKS[m][2] + " — " + MARKS[m][1])}">${sceneSvg(m)}</span>` : "")).join("");
+  // icon-only usage-scene marks (C8); the label is in aria-label / title. The trailing .mark-l label is hidden inside
+  // chapter content (.scenes) and visible elsewhere (guide legend, about page)
+  const marks = (arr) => (arr || []).map((m) => (MARKS[m] ? `<span class="scene scene--${m}" role="img" aria-label="${esc(MARKS[m][2] + " — " + MARKS[m][1])}" title="${esc(MARKS[m][2] + " — " + MARKS[m][1])}">${sceneSvg(m)}</span><span class="mark-l">${esc(MARKS[m][2])}</span>` : "")).join("");
   const scenes = (arr) => (arr && arr.length ? `<span class="scenes">${marks(arr)}</span>` : "");
 
   // ---------- small helpers ----------
@@ -235,7 +236,7 @@
       ${plusHtml}
       ${xrefHtml(g.xref, g.see, g.no)}
       <footer class="gp-foot">
-        <label class="studied"><input type="checkbox" data-act="studied" data-no="${g.no}" ${studied ? "checked" : ""}> 学習済み <span class="en-inline">Studied</span></label>
+        <label class="studied"><input type="checkbox" data-act="studied" data-no="${g.no}" ${studied ? "checked" : ""}><span class="studied__box" aria-hidden="true"></span>学習済み <span class="en-inline">Studied</span></label>
       </footer>
     </article>`;
   }

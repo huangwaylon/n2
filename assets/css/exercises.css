@@ -136,7 +136,7 @@ button.blank.wrong { color: var(--ng); border-bottom-color: var(--ng); backgroun
 span.blank { display: inline-block; min-width: 5em; border-bottom: 1px solid var(--ink); }
 
 /* ---------- C22 write-in ---------- */
-input.write { font: 16px var(--mincho); border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink); width: 7em; min-height: 1.8em; margin: 0 4px; padding: 0 4px; }
+input.write { font: max(16px, 1em) var(--mincho); border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink); width: 7em; min-height: 1.8em; margin: 0 4px; padding: 0 4px; }
 input.write:focus { outline: none; border-bottom-color: var(--teal); background: var(--teal-soft); }
 .q.graded.ok input.write { border-color: var(--ok); } .q.graded.ng input.write { border-color: var(--ng); }
 @media (max-width: 390px) { input.write { width: min(7em, 40vw); } }
