@@ -1,0 +1,183 @@
+N2F({
+  ch: 13,
+  part: 0,
+  head: {
+    genre: { ja: "ストーリーを読む", en: "Reading a Story" },
+    title: { ja: "人生の{転機|てんき}", en: "A Turning Point in One's Life" },
+    canDo: [
+      { ja: "ストーリーの{展開|てんかい}を{追|お}って読める。", en: "Follow the plot and read a story." },
+      { ja: "{登場人物|とうじょうじんぶつ}の{心情|しんじょう}が{理解|りかい}できる。", en: "Understand how the characters feel." },
+    ],
+  },
+  label: "(1)",
+  sample: {
+    kind: "story",
+    lines: [
+      { ja: "「{課長昇進|かちょうしょうしん}の話はなかっ**たことにする**」と部長に{告|つ}げられたのは3か月前だった。自分では{精一杯|せいいっぱい}がんばった**つもり**だったが、プロジェクトに{失敗|しっぱい}し、大きな{損害|そんがい}を出したのが{原因|げんいん}だ。{出社|しゅっしゃ}しても、毎日がつらく**てならなかった**。できる**ものなら**、違う世界へ行ってしまいたいと思いながら、{日々|ひび}を{過|す}ごしていた。", en: "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world." },
+      { ja: "{蒸|む}し暑いある晩、{俺|おれ}は{散歩|さんぽ}していた。{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの{一軒屋|いっけんや}の2階の{窓|まど}に{明|あ}かりが見えた。", en: "One hot, muggy night, I was taking a walk. As I walked along a pitch-dark road with hardly any houses, I saw a light in a second-floor window of a detached house up ahead." },
+      { ja: "「あれ？　{確|たし}かあそこは{空家|あきや}のはずだ」{不審|ふしん}に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の{悲鳴|ひめい}が聞こえた。そして男女の{争|あらそ}う声。「やめて！」「うるさい！　{黙|だま}れ！」", en: "\"Huh? That place is supposed to be empty, I'm sure.\" As I approached, feeling suspicious, I suddenly heard a young woman scream, \"Aaah!\" Then the sound of a man and a woman fighting. \"Stop it!\" \"Shut up! Be quiet!\"" },
+      { ja: "もしかして、{事件|じけん}か。こんなときに{限|かぎ}って、{携帯|けいたい}をうちに{置|お}いてきてしまった。行**こうか**行く**まいか**{迷|まよ}った**末**、{俺|おれ}はその家に近づいていった。そしてその家のドアの前まで来たとき、「あのかばんはどこだ！　言え！」という低い男の声。そして「助けてー！」という女性の声――。", en: "Could it be a crime? Of all times, I'd left my cell phone at home. After agonizing over whether to go or not, I approached the house. And when I got to the front door, I heard a man's low voice: \"Where's that bag? Tell me!\" And then a woman's voice: \"Help!\"" },
+    ],
+  },
+  points: [
+    {
+      no: 119,
+      pattern: "〜たことにする",
+      phrase: "{昇進|しょうしん}の話はなかっ**たことにする**",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「{犯行|はんこう}時間に一緒に飲んでいたことにしてくれ」のように、自分に{都合|つごう}のいいように{事実|じじつ}を変えて言うときに使われる。",
+        en: "This is often used when you alter the facts to suit your situation as in \"{犯行|はんこう}時間にいっしょに飲んでいたことにしてくれ\".",
+      },
+      forms: ["[V-た]／[V-な~~い~~]かった + ことにする"],
+      examples: [
+        { ja: "私が日本にいる間に、家族がドイツへ旅行に行ったなんて、聞かなかったことにしたいなあ。", en: "My family went on a trip to Germany while I was in Japan? I'd rather pretend I never heard that." },
+        { ja: "ごめん！　{財布|さいふ}落としちゃって…。食事をおごる話はなかったことにしてくれる？", en: "Sorry! I dropped my wallet... Could we just forget about me treating you to dinner?" },
+        { ja: "友達にもらった写真を自分で{撮|と}ったことにして、コンテストに{応募|おうぼ}して{入賞|にゅうしょう}しちゃった人がいたらしいよ。", en: "Apparently there was someone who entered a photo a friend gave them in a contest, claiming they'd taken it themselves, and won a prize." },
+        { ja: "A：レポート、明日{締|し}め{切|き}りなんて、忘れちゃってた。どうしよう！　ネットで調べたものをコピペして自分で書いたことにするしかないわ。\nB：そんなことしても、すぐばれるに決まってるよ。", en: "A: I totally forgot the report is due tomorrow. What do I do?! I'll just have to copy and paste stuff I find online and pass it off as my own writing.\nB: Even if you do that, you're sure to get found out right away." },
+      ],
+      deepDive: "**V-た / V-なかった + ことにする** means *to treat something as having happened (or not happened)* — a deliberate fiction. The speaker knows the real facts but decides to present, record or behave as if the facts were different, usually because it's convenient.\n\nThe tense before ことにする is the whole point:\n- **V-る + ことにする** (N4) = *decide to do*: 来月から禁煙することにした.\n- **V-た + ことにする** (#119) = *pretend that ~ happened*: 禁煙したことにする = act as if you'd quit.\n- **V-なかった + ことにする** = *pretend that ~ didn't happen*: 聞かなかったことにする, 見なかったことにする, なかったことにする (*act as if it never existed*, e.g. cancelling an agreement or an offer).\n\nTypical endings: **〜ことにしてください / 〜ことにしてくれ / 〜ことにしておいて** (asking someone to go along with the fiction), **〜ことにしよう** (let's agree to pretend), **〜ことにした** (I pretended). The fixed phrase **その話はなかったことにしてください** is a common, soft way of withdrawing an offer or cancelling a plan in business.\n\nDon't confuse it with **〜ことになる** (it has been decided, by others/circumstances) or **〜ことにしている** (a personal rule). And note that the nuance is often slightly negative (dishonesty, cover-ups), though it can also be kind: 聞かなかったことにするね = *I'll forget I heard that*.\n\nJLPT tip: in multiple choice, check whether the context is a real decision (→ V-る) or a pretence that contradicts the facts (→ V-た / V-なかった). In practice items, ask yourself which version is the *false* one the person wants others to believe.",
+      see: [8, 20, 40, 42, 49, 54, 62, 87, 110],
+      index: ["Vたことにする", "Vなかったことにする", "なかったことにする"],
+      xref: "☞ p.221　〜こと",
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "ぼくは{審判|しんぱん}だから、{反則|はんそく}をしたのを（　）ことにするわけにはいかないよ。", options: ["見た", "見なかった"], answer: 1, en: "I'm the referee, so I can't pretend I didn't see the foul." },
+            { q: "子どものとき、嫌いなおかずをいつも犬にやって自分で（　）ことにしていたのを母は知らなかった。", options: ["食べた", "食べなかった"], answer: 0, en: "My mother never knew that as a child I always gave the side dishes I hated to the dog and pretended I'd eaten them myself." },
+            { q: "宿題は自分でしましょう。ほかの人の宿題を{写|うつ}して、（　）ことにしても、{先生|せんせい}はすぐわかりますよ。", options: ["やった", "やらなかった"], answer: 0, en: "Do your homework yourself. Even if you copy someone else's homework and pretend you did it, the teacher will know right away." },
+            { q: "{橋本|はしもと}君は親には友達のうちで（　）ことにして、朝までカラオケで遊んでいたらしいよ。", options: ["勉強していた", "勉強していなかった"], answer: 0, en: "Apparently Hashimoto told his parents he was studying at a friend's house, and was out at karaoke until morning." },
+          ],
+        },
+      ],
+    },
+    {
+      no: 120,
+      pattern: "〜つもり（だ）",
+      phrase: "がんばった**つもり**だった",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "「〜つもり」は、{周囲|しゅうい}の{評価|ひょうか}や{事実|じじつ}はともかく、「本人は〜と思っている」と言いたいときに使う。",
+        en: "Use \" 〜つもり \" when you want to say \"he or she is thinking 〜 \", not about what others think or the facts.",
+      },
+      forms: ["［[V-る]／[V-た]　[V-て] いる　[N] の］ + つもり"],
+      examples: [
+        { ja: "説明書通りにやっているつもりなのに、どうしてもうまくできない。", en: "I think I'm doing it exactly as the instructions say, but I just can't get it to work." },
+        { ja: "会議中にちょっとささやいたつもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "During the meeting I meant to just whisper, but everyone heard me, and it was so embarrassing." },
+        { ja: "あの人は{小説家|しょうせつか}のつもりらしいけど、書いた{小説|しょうせつ}が{出版|しゅっぱん}されたという話を聞いたことがない。", en: "That person apparently thinks of himself as a novelist, but I've never heard of any novel he wrote being published." },
+      ],
+      deepDive: "This **〜つもり** is not about intention (*I plan to*) but about **self-perception**: what someone believes they did, are doing, or are. The gap between belief and reality is usually the point, so it's typically followed by contrast words: **〜つもりだったが / 〜つもりなのに / 〜つもりでも / 〜つもりらしいが**.\n\nConnections and their meanings:\n- **V-た + つもり**: *I thought I had done ~*: 送ったつもりだった (but it wasn't sent).\n- **V-ている + つもり**: *I believe I'm doing ~*: 努力しているつもりだ.\n- **V-る + つもり**: with this meaning, usually about a state or ability: わかるつもりでいた.\n- **N + の + つもり**: *thinks of oneself as N*: 冗談のつもり *meant as a joke*, 親切のつもり *meant as kindness*, 若いつもり / プロのつもり. (い-adjectives can also be used directly: 若いつもり.)\n\nCompare the three つもり in the book:\n- **N4 つもり** = plan/intention: 来年留学するつもりです.\n- **つもり① (#59)** = *imagine you've done ~ and act on it*: 旅行に行ったつもりで貯金する (*save money as if you'd gone on a trip*). It's a conscious, positive pretence.\n- **つもり② (#120)** = the speaker genuinely believes it, but may be wrong.\n\nAlso compare **〜たことにする** (#119): there you *know* it's false and pretend; with つもり you *think* it's true.\n\nCommon mistake: using つもり for other people's intentions without evidence. For a third person add らしい / ようだ: 彼は冗談のつもりらしい.\n\nJLPT tip: if the sentence goes “I did X (つもり) … but actually Y”, つもり② is the answer; if it goes “imagine X and do Y”, it's #59.",
+      see: [59],
+      index: ["〜つもり②", "Vたつもり", "Vているつもり", "Nのつもり"],
+      xref: "☞ p.223　〜つもり",
+      practice: [
+        {
+          type: "match",
+          prompt: { ja: "", en: "Match each beginning (1–4) with the correct ending (a–d)." },
+          left: [
+            "レポートを出す前にちゃんとチェックしたつもりだったのに、",
+            "{目|め}{覚|ざ}まし{時計|どけい}を7時にセットしたつもりだったが、",
+            "{冗談|じょうだん}のつもりで言った言葉が、",
+            "子どものときからの友達だから、何でも知っているつもりだったが、",
+          ],
+          right: [
+            "{突然|とつぜん}会社をやめて外国へ行くと言われて{驚|おどろ}いた。",
+            "先生から漢字が間違っていると言われた。",
+            "{鳴|な}ったのは8時で、{遅刻|ちこく}してしまった。",
+            "相手を{傷|きず}つけることがあるので注意しましょう。",
+          ],
+          answer: [1, 2, 3, 0],
+          en: [
+            "I thought I had checked my report properly before handing it in, but the teacher told me some kanji were wrong.",
+            "I thought I had set my alarm clock for 7, but it went off at 8 and I was late.",
+            "Words you say meaning them as a joke can sometimes hurt the other person, so be careful.",
+            "We've been friends since we were kids, so I thought I knew everything about him, but I was surprised when he suddenly told me he was quitting his job and going abroad.",
+          ],
+        },
+      ],
+    },
+    {
+      no: 121,
+      pattern: "〜てならない",
+      phrase: "つらく**てならなかった**",
+      stars: 2,
+      marks: ["regret"],
+      usage: {
+        ja: "「〜てならない」は、「{非常|ひじょう}に〜だ」と言いたいときに使われる。",
+        en: "\" 〜てならない \" is used when you want to say something \"is extremely 〜 \".",
+      },
+      forms: ["［[V-て]　[いA~~い~~] くて　[なA] で］ + ならない"],
+      formNotes: [
+        { ja: "「{残念|ざんねん}・{不安|ふあん}・{心配|しんぱい}・つらい・くやしい」など、{感情|かんじょう}を表す言葉と一緒に使う。", en: "Use this together with words that express feelings such as \"{残念|ざんねん}・{不安|ふあん}・{心配|しんぱい}・つらい・くやしい\"." },
+        { ja: "「きれい・下手」など{評価|ひょうか}を表す言葉と一緒には使わない。", en: "Do not use it with words that assess such as \"きれい・下手\"." },
+      ],
+      examples: [
+        { ja: "私のように年をとってくると、ふるさとの{山々|やまやま}が{懐|なつ}かしく思い出されてならないんですよ。", en: "When you get to be my age, you can't help remembering the mountains of your hometown with longing." },
+        { ja: "{柔道|じゅうどう}を始めたのは、子どものころいつもけんかで兄に{負|ま}けるのが、くやしくてならなかったからです。", en: "The reason I started judo was that, as a child, I found it incredibly frustrating to always lose fights with my older brother." },
+        { ja: "昔は{人前|ひとまえ}で話すのが{嫌|いや}でならなかったんですが、最近はあまり{抵抗|ていこう}を感じなくなりました。", en: "I used to absolutely hate speaking in front of people, but lately I don't feel much resistance to it." },
+        { ja: "日本人がどうしてあんなに{謝|あやま}るのか{不思議|ふしぎ}でならないという外国人は多い。", en: "Many foreigners say they find it truly puzzling why Japanese people apologize so much." },
+      ],
+      deepDive: "**〜てならない** expresses a feeling so strong that it seems to arise *by itself* and can't be suppressed. The ならない here is not *must not*; it's closer to *it's unbearable / it can't be helped*.\n\nWhat goes before it:\n- **Emotion words**: 心配で, 不安で, 残念で, 悲しくて, くやしくて, 寂しくて, つらくて, 腹が立って.\n- **Spontaneous verbs** (things that happen in your mind without your will): 気になる, 思える, 思い出される, 感じられる, 悔やまれる. 〜ように思えてならない *I can't help thinking that ~* is extremely common.\n- NOT evaluation words: ✗きれいでならない, ✗上手でならない, ✗高くてならない (for price). It must be an internal feeling, not an assessment of something.\n\nCompare its close relatives:\n- **〜てたまらない** (N3): same meaning, more colloquial and emotional, and also fine for physical sensations: 暑くてたまらない, 足が痛くてたまらない. 〜てならない sounds more written and is less natural with pure bodily sensations.\n- **〜てしかたがない / 〜てしょうがない**: also *extremely*, conversational.\n\nPerson: it describes the speaker's own feelings. For someone else, add らしい / ようだ / と言っている: 彼は将来が不安でならないらしい.\n\nJLPT tip: distractors often include **〜かねない** (#27, *might (do something bad)*) and **〜はずがない** (*can't possibly*). If the blank describes the speaker's strong feeling, pick てならない; if it predicts a bad outcome, pick かねない.",
+      see: [27],
+      index: ["〜てならない", "Vてならない", "Aくてならない", "Aでならない"],
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "あのとき親に{反対|はんたい}されてもバンドを続けていれば、おれもあいつらと一緒に{大成功|だいせいこう}していたかもしれないと（　）。", options: ["思えてならない", "思いかねない"], answer: 0, en: "I can't help thinking that if I had kept playing in the band back then, even though my parents were against it, I might have become a big success together with those guys." },
+            { q: "こんなに{乾燥|かんそう}していると、{山火事|やまかじ}が（　）と{関|かん}{係者|けいしゃ}は{心配|しんぱい}している。", options: ["起きてならない", "起きかねない"], answer: 1, en: "The people concerned are worried that with it this dry, a forest fire could break out." },
+            { q: "A：私より仕事のほうが好きなんでしょ？\nB：そんなこと、（　）だろ。", options: ["思えてならない", "思うはずがない"], answer: 1, en: "A: You like your work more than me, don't you?\nB: There's no way I'd think that." },
+            { q: "{部活|ぶかつ}は楽しいが、朝の練習は（　）。", options: ["{眠|ねむ}くてならない", "{眠|ねむ}いはずがない"], answer: 0, en: "Club activities are fun, but I'm terribly sleepy at morning practice." },
+          ],
+        },
+      ],
+    },
+    {
+      no: 122,
+      pattern: "〜ものなら",
+      phrase: "できる**ものなら**",
+      stars: 2,
+      marks: [],
+      usage: {
+        ja: "{現実|げんじつ}には{無理|むり}だと思っていることを強く{希望|きぼう}するときに使う。会話では「もんなら」になる。",
+        en: "Use this when you very much want something that you actually think is impossible. It becomes \" もんなら \" in casual conversation.",
+      },
+      forms: ["[V-できる] + ものなら", "[V-できる] + もんなら"],
+      formNotes: [
+        { ja: "{可能|かのう}の意味を持つ{動詞|どうし}の{辞書形|じしょけい}も使われる。", en: "Dictionary forms of verbs that indicate possibility are also used." },
+      ],
+      examples: [
+        { ja: "子どものころから{星|ほし}が好きだったので、行けるものなら{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I could go, I'd love to try going on a trip to space." },
+        { ja: "こんなつらい仕事は{辞|や}められるものなら{辞|や}めたいが、生活のことを考えると{辞|や}めるわけにはいかない。", en: "I'd quit this awful job if I could, but when I think about making a living, I can't quit." },
+        { ja: "{下山|げざん}できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "If we could get down the mountain, I'd want to descend as soon as possible, but we have no choice but to wait until the weather improves." },
+        { ja: "A：今帰りですか。お{互|たが}いに、{通勤|つうきん}に1時間半なんて、大変ですよね。\nB：そうですよね。買えるもんなら会社の近くにマンションでも買いたいけど…。", en: "A: On your way home now? A commute of an hour and a half is tough for both of us, isn't it?\nB: It sure is. If I could afford it, I'd like to buy an apartment or something near the office, but..." },
+        { ja: "{不老不死|ふろうふし}の願いがかなうものなら、私はいくらでも金を出す。", en: "If my wish to never age and never die could come true, I'd pay any amount of money." },
+      ],
+      deepDive: "**Potential verb + ものなら** = *if it were at all possible to ~ (though I doubt it)*. The speaker assumes the condition is hard or impossible, and the second clause expresses a longing: **〜たい / 〜たいと思う / 〜てみたい / 〜てやりたい**. Very often the same verb is repeated: 行けるものなら行きたい, 帰れるものなら帰りたい.\n\nTwo structural points:\n- It follows the **potential form** (行ける, 戻れる, やり直せる, 代われる), or a verb that already means *can happen* (治る, かなう, 間に合う).\n- In speech: **〜もんなら** (帰れるもんなら帰りたいよ).\n\nA challenge use also exists: **やれるものならやってみろ** *go ahead, try it if you think you can* — the speaker is sure the other can't.\n\nDon't confuse it with **V-(よ)うものなら** *if you (dare to) do ~, something terrible will happen* (遅刻しようものなら、先生にひどく怒られる). Different connection (volitional form), different meaning — not a wish but a warning.\n\nOther もの / もん patterns you must keep apart: **ものだ** (#13, #132), **ものではない** (#46), **ものか** (#51), **というものだ** (#52), **というものではない** (#25), **もん** (#56), **ものがある** (#92), and especially **ものの** (#39, *although*). ものの looks similar but means *even though X, Y (contrary)*: 練習はしたものの、本番では失敗した.\n\nJLPT tip: if the clause after the blank is a wish (〜たい) and the thing wished for is unrealistic, ものなら is the answer. If the second clause contradicts the first, it's ものの.",
+      see: [13, 25, 39, 46, 51, 52, 56, 92, 132],
+      index: ["Vものなら", "Vもんなら", "Vれるものなら"],
+      xref: "☞ p.224　〜もの／もん",
+      practice: [
+        {
+          type: "choice",
+          labels: "ab",
+          prompt: { ja: "", en: "Choose the correct option." },
+          items: [
+            { q: "{結婚|けっこん}できる（　）彼女と{結婚|けっこん}したいが、こんなに{給料|きゅうりょう}が安くては{無理|むり}だろう。", options: ["ものなら", "ものの"], answer: 0, en: "I'd like to marry her if I could, but with a salary this low, it's probably impossible." },
+            { q: "{技術的|ぎじゅつてき}には{可能|かのう}な（　）コストがかかるから{製品化|せいひんか}は難しいでしょう。", options: ["ものなら", "ものの"], answer: 1, en: "Although it's technically possible, it costs a lot, so turning it into a product will probably be difficult." },
+            { q: "相手の{都合|つごう}を気にする（　）自分の好きなときに{連絡|れんらく}できるので、メールは便利だ。", options: ["ものなら", "ことなく"], answer: 1, en: "Email is convenient because you can contact people whenever you like without worrying about whether it's convenient for them." },
+            { q: "オリンピックでメダルが取れる（　）取りたいが、ライバルが多いから{無理|むり}かもしれない。", options: ["ものなら", "だけあって"], answer: 0, en: "I'd like to win a medal at the Olympics if I could, but there are so many rivals that it may be impossible." },
+          ],
+        },
+      ],
+    },
+  ],
+  check: null,
+});

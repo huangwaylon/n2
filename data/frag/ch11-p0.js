@@ -105,7 +105,7 @@ N2F({
         { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever of as much as 40 degrees, and on top of that my diarrhoea wouldn't stop — it was really awful." },
         { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill so it's easy to pick up speed, and there is also a lot of traffic at night, so please be very careful." },
         { ja: "この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。", en: "This university's cafeteria is cheap and tasty, and on top of that it has a wide menu, so it is loved by local people too." },
-        { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人|ひと}{手不足|でぶそく}になっているらしい。", en: "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands." },
+        { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands." },
       ],
       deepDive: "**〜上（に）** (read うえ) adds a second point on top of the first: *not only A, but also B / A, and on top of that B*. It is close to 〜し、〜も or 〜だけでなく, but sounds a bit more written and emphasizes the *accumulation*.\n\nKey rule: A and B must point **in the same direction** — both good (安い上においしい) or both bad (熱がある上に咳も出る). ✗この店は安い上にまずい is odd, because the second point contradicts the first; use 安いけれどまずい. B very often contains **も** (家賃も, 味も).\n\nConnection: plain form, with なA + な and N + の (便利な上に; with nouns, only words describing a state work naturally: 高齢の上に, 初心者の上に — not ✗雨の上に). The formal 〜である上に is also possible. Commands, requests and invitations don't usually follow in the second clause: ✗雨が降っている上に、早く帰りなさい.\n\nDon't mix it up with the other 上 patterns in the book (☞ similar pattern list 〜上／上):\n- **V上で** (#14) *in doing ~ / for the purpose of ~*; **V-た上で** (#117) *after doing ~*.\n- **〜上は** (#18) *now that ~ / since ~* (決めた上は最後までやる).\n- **N上（じょう）** (#70) *from the standpoint of ~*: 計算上, 法律上, 書類上. Written 上は, it looks just like #18, but after a noun it is read じょうは (計算上は *on paper*) — the practice below contrasts it with 上（うえ）に.\n\nJLPT tip: if the second half repeats the same kind of evaluation with も, choose 上に.",
       see: [14, 18, 70, 117],
@@ -281,6 +281,29 @@ N2F({
             { q: "昔の友達との写真を見る（　）いたずらばかりしていたことを{懐|なつ}かしく思い出す。", options: ["にしろ", "につけ"], answer: 1, en: "Whenever I look at photos with my old friends, I fondly remember how we were always getting up to mischief." },
           ],
         },
+      ],
+    },
+  ],
+  check: [
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
+      bank: ["{上|うえ}に", "といっても", "にしろ", "だけに"],
+      items: [
+        { q: "日本は{物価|ぶっか}が高い＿＿、全部高いわけではなくて、安いものもありますよ。", answer: "といっても", en: "Prices in Japan may be high, but not everything is expensive — there are cheap things too." },
+        { q: "どんな{事情|じじょう}がある＿＿、{犯罪|はんざい}は{許|ゆる}されない。", answer: "にしろ", en: "Whatever the circumstances, crime cannot be forgiven." },
+        { q: "{京都|きょうと}は、昔、{都|みやこ}だった＿＿、古い文化が今も{残|のこ}っている。", answer: "だけに", en: "Kyoto was once the capital, so, as you'd expect, the old culture still remains today." },
+        { q: "彼は英語・中国語など4か国語が使える＿＿、海外{勤務|きんむ}の{経験|けいけん}もあるので、わが社にとって{貴重|きちょう}な{人材|じんざい}だ。", answer: "{上|うえ}に", en: "He can use four languages including English and Chinese, and on top of that he has experience working overseas, so he is a valuable asset to our company." },
+      ],
+    },
+    {
+      type: "fill",
+      prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
+      bank: ["に{限|かぎ}る", "にすぎない", "にほかならない"],
+      items: [
+        { q: "ネットで見つけた{画像|がぞう}を{無断|むだん}で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", answer: "にほかならない", en: "Reposting images found online without permission is nothing other than a criminal act." },
+        { q: "外国旅行は{団体|だんたい}で行く＿＿よ。言葉の{心配|しんぱい}もないし、{短時間|たんじかん}でいろいろなところへ行けるから。", answer: "に{限|かぎ}る", en: "For trips abroad, going with a group is the best. You don't have to worry about the language, and you can visit lots of places in a short time." },
+        { q: "リサイクルはごみを{減|へ}らすための1つの方法＿＿。ごみを{減|へ}らすのではなく、ごみが出ないようにすることも考えるべきだ。", answer: "にすぎない", en: "Recycling is merely one way of reducing rubbish. Rather than reducing rubbish, we should also think about not producing it in the first place." },
       ],
     },
   ],

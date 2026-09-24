@@ -247,7 +247,7 @@ N2.register({
               "en": "This university's cafeteria is cheap and tasty, and on top of that it has a wide menu, so it is loved by local people too."
             },
             {
-              "ja": "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人|ひと}{手不足|でぶそく}になっているらしい。",
+              "ja": "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。",
               "en": "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands."
             }
           ],
@@ -450,6 +450,358 @@ N2.register({
             "Nに限る",
             "Vに限る",
             "Vないに限る"
+          ]
+        },
+        {
+          "no": 105,
+          "pattern": "〜だけあって",
+          "phrase": "{人気店|にんきてん}**だけあって**",
+          "stars": 3,
+          "marks": [
+            "praise"
+          ],
+          "usage": {
+            "ja": "「〜だけあって」は、「〜だから、{当然|とうぜん}そうだ」と言いたいときに使う。",
+            "en": "Use \" 〜だけあって \" when you want to say something \"is a matter of course because of 〜 \"."
+          },
+          "forms": [
+            "[V-る]／[V-た]／[V-て]いる + だけあって／だけに",
+            "[いA] + だけあって／だけに",
+            "[なA] な + だけあって／だけに",
+            "[N] （な） + だけあって／だけに"
+          ],
+          "formNotes": [
+            {
+              "ja": "「[なA]／[N] である + だけあって」の形もある。",
+              "en": ""
+            },
+            {
+              "ja": "名詞は、{状態|じょうたい}や{様子|ようす}を表す言葉が使われるときは「な」がつく。",
+              "en": "Add \"な\" to a noun that expresses a state or appearance."
+            }
+          ],
+          "examples": [
+            {
+              "ja": "この町は文化{遺産|いさん}に{登録|とうろく}されているだけあって、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。",
+              "en": "As befits a town registered as a cultural heritage site, the residents are also highly conscious of environmental protection."
+            },
+            {
+              "ja": "このタオル、高いだけあって{肌|はだ}ざわりがすごくいいんだ。",
+              "en": "This towel feels really nice against the skin — as you'd expect, given how expensive it is."
+            },
+            {
+              "ja": "さすが国が{誇|ほこ}る{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。",
+              "en": "As you'd expect of a museum that is the nation's pride, it has many works by world-famous painters."
+            },
+            {
+              "ja": "ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの安定感はすばらしい。",
+              "en": "Being a German luxury car, its stability on the motorway is superb."
+            }
+          ],
+          "notes": [
+            {
+              "ja": "「〜だけに」は{感覚的|かんかくてき}に「〜だから、さらに…と感じる」と言うときにも使われる。　★★",
+              "en": "\" 〜だけに \" is also used when you say that you sense that something \"feels even more … because of 〜 \".",
+              "examples": [
+                {
+                  "ja": "今年は{猛暑|もうしょ}なだけに、ビールがいっそうおいしく感じられる。",
+                  "en": "Because this year's summer is so scorchingly hot, beer tastes all the better."
+                },
+                {
+                  "ja": "新しいクラスに入って{緊張|きんちょう}していただけに、{隣|となり}の人の親切がうれしかった。",
+                  "en": "I was nervous about joining a new class, so the kindness of the person next to me made me all the happier."
+                },
+                {
+                  "ja": "入社以来、会社に{貢献|こうけん}できていなかっただけに、今回{開発|かいはつ}した{商品|しょうひん}がヒットしたのはうれしかった。",
+                  "en": "Since I hadn't been able to contribute to the company since joining, I was all the more pleased that the product I developed this time became a hit."
+                }
+              ]
+            }
+          ],
+          "deepDive": "**〜だけあって** means *as one would expect from ~ / befitting ~*. The first half states a fact about someone's status, effort, price or background; the second half is a result that **naturally matches** it — and almost always a **positive evaluation** (hence the praise mark). It often pairs with **さすが**: さすがプロだけあって、うまい.\n\nConnection: plain forms of verbs (including V-ている, V-た), いA, なA + な, and nouns directly (プロだけあって, 老舗だけあって). Formal: 〜であるだけあって.\n\n**〜だけに** has two faces:\n- Like だけあって: 名門校だけに、授業のレベルが高い. Here it can also be used for negative-but-expected results (人気店だけに、いつも混んでいる).\n- The note: *all the more because ~* — the first half **amplifies a feeling** in the second: 期待していただけに、がっかりした. This is where だけあって cannot be used, because there is no praise and the result isn't what the reputation “deserves”. Typical second halves: 残念だ, うれしい, ショックだ, いっそう〜感じる.\n\nDon't confuse with plain だけ: **〜だけで** *just by ~* (ボタンを押すだけでいい) and **V-たいだけ** *as much as you want* (食べたいだけ食べる). The practice mixes these deliberately.\n\nAlso compare **〜だけのことはある** (*it's worth / no wonder*), a sentence-final cousin: 高いだけのことはある. Other だけ patterns in the book (☞ similar pattern list 〜だけ): **Vだけ（V）** *do it anyway* (#47) and **Vるだけ** *as much as possible* (#55).",
+          "see": [
+            47,
+            55
+          ],
+          "index": [
+            "〜だけあって",
+            "〜だけに",
+            "さすが〜だけあって"
+          ],
+          "practice": [
+            {
+              "type": "choice",
+              "labels": "abc",
+              "prompt": {
+                "ja": "",
+                "en": "Choose the correct option."
+              },
+              "xref": "☞ p.222　〜だけ",
+              "items": [
+                {
+                  "q": "さすが彼は{一流|いちりゅう}大学を出ている（　）、{知識|ちしき}が{豊富|ほうふ}だ。",
+                  "options": [
+                    "だけあって",
+                    "だけで",
+                    "だけ"
+                  ],
+                  "answer": 0,
+                  "en": "As you'd expect from someone who graduated from a top university, he is very knowledgeable."
+                },
+                {
+                  "q": "食べ{放題|ほうだい}は好きなものを食べたい（　）食べられるので、クラスの友達と集まるときはいつも食べ{放題|ほうだい}の店だ。",
+                  "options": [
+                    "だけあって",
+                    "だけで",
+                    "だけ"
+                  ],
+                  "answer": 2,
+                  "en": "At all-you-can-eat places you can eat as much of what you like as you want, so when I get together with classmates it's always an all-you-can-eat restaurant."
+                },
+                {
+                  "q": "こちらは新しい{化粧品|けしょうひん}で、これ（　）お{肌|はだ}が美しくなります。",
+                  "options": [
+                    "だけあって",
+                    "だけで",
+                    "だけ"
+                  ],
+                  "answer": 1,
+                  "en": "This is a new cosmetic; just this alone will make your skin beautiful."
+                },
+                {
+                  "q": "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が{相当|そうとう}ショックだったようだ。",
+                  "options": [
+                    "だけに",
+                    "だけで",
+                    "だけ"
+                  ],
+                  "answer": 0,
+                  "en": "Because Mr. Sato had been working so earnestly, this failure seems to have been quite a shock to him."
+                },
+                {
+                  "q": "最近はお湯を入れる（　）食べられる便利な{食品|しょくひん}が増えた。",
+                  "options": [
+                    "だけに",
+                    "だけで",
+                    "だけ"
+                  ],
+                  "answer": 1,
+                  "en": "Recently there are more convenient foods that you can eat just by adding hot water."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "no": 106,
+          "pattern": "〜にしろ〜にしろ",
+          "phrase": "スープ**にしろ**{具|ぐ}**にしろ**",
+          "stars": 2,
+          "marks": [],
+          "usage": {
+            "ja": "「〜にしろ」は、ある{範囲内|はんいない}のものから例をあげて、「〜だけでなくどれでも」と言いたいときに使われる。「いい・悪い」「好き・嫌い」「する・しない」「{出席|しゅっせき}する・{欠席|けっせき}する」など{反対|はんたい}の意味の言葉を使って、どちらの場合でもと言いたいときにも使われる。",
+            "en": "\" 〜にしろ \" is used when you want to give examples from a category and say that \"not only 〜 but all of them\" are something. It is also used with pairs of antonyms such as \" いい・悪い \", \" 好き・嫌い \", \" する・しない \" and \" {出席|しゅっせき}する・{欠席|けっせき}する \" when you want to say that something could be applicable in either case."
+          },
+          "forms": [
+            "[Pl] + にしろ + [Pl] + にしろ",
+            "[Pl] + にしても + [Pl] + にしても",
+            "[Pl] + にせよ + [Pl] + にせよ",
+            "［[なA~~だ~~]　[N~~だ~~]］"
+          ],
+          "formNotes": [
+            {
+              "ja": "「[なA]／[N] である + にしろ」の形もある。",
+              "en": ""
+            }
+          ],
+          "examples": [
+            {
+              "ja": "{東京|とうきょう}にしろ{大阪|おおさか}にしろ{大都市|だいとし}には働く場所が多いので人が集まってくる。",
+              "en": "Whether it's Tokyo or Osaka, big cities have many places to work, so people gather there."
+            },
+            {
+              "ja": "大学院で研究しようと思ったら、{理系|りけい}にしても{文系|ぶんけい}にしても、{英語力|えいごりょく}は{絶対必要|ぜったいひつよう}だよ。",
+              "en": "If you want to do research at graduate school, whether in the sciences or the humanities, English ability is absolutely essential."
+            },
+            {
+              "ja": "{招待状|しょうたいじょう}をもらったら、{出席|しゅっせき}するにせよ、{欠席|けっせき}するにせよ、{必|かなら}ず{期日|きじつ}までに返事を出すのが{礼儀|れいぎ}だ。",
+              "en": "When you receive an invitation, whether you attend or not, it is good manners to be sure to reply by the deadline."
+            },
+            {
+              "ja": "好きにしろ、嫌いにしろ、{健康|けんこう}のために野菜は毎日とらなきゃだめだよ。",
+              "en": "Whether you like them or not, you have to eat vegetables every day for your health."
+            }
+          ],
+          "notes": [
+            {
+              "ja": "「〜にしろ」が、{疑問詞|ぎもんし}と一緒に、1つだけで使われることもある。",
+              "en": "\" 〜にしろ \" can also be used only once in a sentence when used together with a question word.",
+              "examples": [
+                {
+                  "ja": "海外旅行中はどこに行くにしろ、パスポートを持って歩かなければならない。",
+                  "en": "When travelling abroad, wherever you go, you must carry your passport with you."
+                },
+                {
+                  "ja": "試験の{結果|けっか}がどうなるにせよ、今は{精一杯|せいいっぱい}の{努力|どりょく}をするだけです。",
+                  "en": "Whatever the result of the exam, all I can do now is make my very best effort."
+                },
+                {
+                  "ja": "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ{行|い}き{先|さき}を早く決めないと間に合わなくなるよ。",
+                  "en": "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, if we don't decide where to go soon we'll be too late."
+                }
+              ]
+            }
+          ],
+          "deepDive": "**AにしろBにしろ** means *whether A or B / be it A or B*: the speaker picks two representative items (or two opposites) and says the conclusion holds for **all** of them. 肉にしろ魚にしろ = *meat, fish — any food*. With opposites it becomes *either way*: 行くにしろ行かないにしろ.\n\nVariants and register:\n- **にしろ** — written / fairly formal.\n- **にせよ** — the most formal/literary (せよ is the old imperative of する).\n- **にしても** — the most conversational.\nAll three mean the same here. Connection: plain form; なA and N drop だ (便利にしろ, 雨にしろ); formal である is possible.\n\nThe second half is typically a judgment, obligation, advice or general truth: 〜ことが大切だ, 〜なければならない, 〜てください. It doesn't describe a single past event.\n\n**With a question word** (note), you only need one にしろ: 何をするにしろ, どこに住むにせよ, いずれにしても (*in any case* — an extremely common set phrase).\n\nContrast:\n- **〜やら〜やら** (N3) lists examples to show *there are various things* (犬やら猫やら、いろいろ飼っている) — no *either way* meaning. The practice tests this pair.\n- **〜につけ** (e.g. 〜を見るにつけ) *every time ~, (a feeling arises)* — about repeated emotion, not about “regardless”.\n- **〜にかかわらず** (#5) is close to the opposites use (行く行かないにかかわらず) but is more formal and stated from outside, whereas にしろ often carries advice.\n- Single **〜にしても** after one clause can also mean *even if / granted that ~* (忙しいにしても、電話ぐらいできるだろう).",
+          "see": [
+            5
+          ],
+          "index": [
+            "〜にしろ〜にしろ",
+            "〜にしても〜にしても",
+            "〜にせよ〜にせよ",
+            "疑問詞＋にしろ",
+            "いずれにしても"
+          ],
+          "practice": [
+            {
+              "type": "choice",
+              "labels": "ab",
+              "prompt": {
+                "ja": "",
+                "en": "Choose the correct option."
+              },
+              "items": [
+                {
+                  "q": "{隣|となり}の家は、犬（ a ）、{猫|ねこ}（ b ）、{様々|さまざま}なペットを{飼|か}っている。",
+                  "parts": [
+                    {
+                      "tag": "a",
+                      "options": [
+                        "やら",
+                        "にしろ"
+                      ],
+                      "answer": 0
+                    },
+                    {
+                      "tag": "b",
+                      "options": [
+                        "やら",
+                        "にしろ"
+                      ],
+                      "answer": 0
+                    }
+                  ],
+                  "en": "The family next door keeps all sorts of pets — dogs, cats and so on."
+                },
+                {
+                  "q": "犬（ a ）、猫（ b ）、このアパートではペットを{飼|か}うことができない。",
+                  "parts": [
+                    {
+                      "tag": "a",
+                      "options": [
+                        "やら",
+                        "にしろ"
+                      ],
+                      "answer": 1
+                    },
+                    {
+                      "tag": "b",
+                      "options": [
+                        "やら",
+                        "にしろ"
+                      ],
+                      "answer": 1
+                    }
+                  ],
+                  "en": "Whether it's a dog or a cat, you can't keep pets in this apartment."
+                },
+                {
+                  "q": "何を買う（　）、本当に{必要|ひつよう}かどうかよく考えてから買いなさい。",
+                  "options": [
+                    "にしろ",
+                    "につけ"
+                  ],
+                  "answer": 0,
+                  "en": "Whatever you buy, think carefully about whether you really need it before buying."
+                },
+                {
+                  "q": "昔の友達との写真を見る（　）いたずらばかりしていたことを{懐|なつ}かしく思い出す。",
+                  "options": [
+                    "にしろ",
+                    "につけ"
+                  ],
+                  "answer": 1,
+                  "en": "Whenever I look at photos with my old friends, I fondly remember how we were always getting up to mischief."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "check": [
+        {
+          "type": "fill",
+          "prompt": {
+            "ja": "",
+            "en": "Choose the expression that fills each blank from the box."
+          },
+          "bank": [
+            "{上|うえ}に",
+            "といっても",
+            "にしろ",
+            "だけに"
+          ],
+          "items": [
+            {
+              "q": "日本は{物価|ぶっか}が高い＿＿、全部高いわけではなくて、安いものもありますよ。",
+              "answer": "といっても",
+              "en": "Prices in Japan may be high, but not everything is expensive — there are cheap things too."
+            },
+            {
+              "q": "どんな{事情|じじょう}がある＿＿、{犯罪|はんざい}は{許|ゆる}されない。",
+              "answer": "にしろ",
+              "en": "Whatever the circumstances, crime cannot be forgiven."
+            },
+            {
+              "q": "{京都|きょうと}は、昔、{都|みやこ}だった＿＿、古い文化が今も{残|のこ}っている。",
+              "answer": "だけに",
+              "en": "Kyoto was once the capital, so, as you'd expect, the old culture still remains today."
+            },
+            {
+              "q": "彼は英語・中国語など4か国語が使える＿＿、海外{勤務|きんむ}の{経験|けいけん}もあるので、わが社にとって{貴重|きちょう}な{人材|じんざい}だ。",
+              "answer": "{上|うえ}に",
+              "en": "He can use four languages including English and Chinese, and on top of that he has experience working overseas, so he is a valuable asset to our company."
+            }
+          ]
+        },
+        {
+          "type": "fill",
+          "prompt": {
+            "ja": "",
+            "en": "Choose the expression that fills each blank from the box."
+          },
+          "bank": [
+            "に{限|かぎ}る",
+            "にすぎない",
+            "にほかならない"
+          ],
+          "items": [
+            {
+              "q": "ネットで見つけた{画像|がぞう}を{無断|むだん}で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。",
+              "answer": "にほかならない",
+              "en": "Reposting images found online without permission is nothing other than a criminal act."
+            },
+            {
+              "q": "外国旅行は{団体|だんたい}で行く＿＿よ。言葉の{心配|しんぱい}もないし、{短時間|たんじかん}でいろいろなところへ行けるから。",
+              "answer": "に{限|かぎ}る",
+              "en": "For trips abroad, going with a group is the best. You don't have to worry about the language, and you can visit lots of places in a short time."
+            },
+            {
+              "q": "リサイクルはごみを{減|へ}らすための1つの方法＿＿。ごみを{減|へ}らすのではなく、ごみが出ないようにすることも考えるべきだ。",
+              "answer": "にすぎない",
+              "en": "Recycling is merely one way of reducing rubbish. Rather than reducing rubbish, we should also think about not producing it in the first place."
+            }
           ]
         }
       ]
