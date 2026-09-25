@@ -22,6 +22,7 @@ before the chapters load. `bookLang` is the language of the translations the boo
 |---|---|---|
 | `{漢字\|かんじ}` | ruby / furigana | `{募集\|ぼしゅう}` |
 | `**text**` | highlighted target grammar | `オープン**につき**` |
+| `__text__` | underlined text (a phrase a reading question refers to) | `__{真実|しんじつ}を{包|つつ}み{隠|かく}さず{伝|つた}える{人物|じんぶつ}__` |
 | `[N]` `[V-る]` `[V-て]` `[V-た]` `[V-ない]` `[いA]` `[なA]` `[Pl]` `[V-ば]` `[V-よう]` `[V-られる]` `[V-させる]` `[V-できる]` `[文]` `[数]` | part-of-speech badge (connection formulas); `[文]` = sentence, `[数]` = number (N1) | `[N] + につき` |
 | `~~x~~` inside a badge | struck-through ending (stem) | `[V-~~ます~~]`, `[いA~~い~~]`, `[なA~~な~~]`, `[N~~だ~~]` |
 | `＿＿` | blank line in a question | `会議は＿＿行われます。` |

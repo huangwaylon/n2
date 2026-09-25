@@ -135,5 +135,482 @@ N2.registerCompare([
         note: "V-ない stem + ずにはすまない: \"can't get away without ~ / ~ is unavoidable\" given social norms or the situation (= ないではすまない). Compare ずにはいられない (inner urge)." }
     ]
   },
-  // @@CONTINUE@@
+  {
+    key: "〜たら",
+    items: [
+      { pattern: "〜たら", level: "N3",
+        ex: { ja: "{屋上|おくじょう}に上がったら、{東京|とうきょう}スカイツリーが見えた。", en: "When I went up to the roof, I could see the Tokyo Skytree." },
+        note: "V-たら + past: \"when I did ~, (I found / discovered)\". A discovery following an action." },
+      { pattern: "〜たら〜たで", level: "N1", no: 55,
+        ex: { ja: "部屋にほこりがたまれば文句を言うし、掃除をしたらしたで、「勝手に入った」と怒るし、全く高校生の息子は{扱|あつか}いにくい。", en: "If dust builds up in his room he complains, and if I clean it, he gets angry that I \"went in without asking\" — my high-school son is really hard to deal with." },
+        note: "〜たら〜たで (also 〜ば〜で, 〜なら〜で): \"if ~, then (that brings its own problem)\". Either way there is a drawback." },
+      { pattern: "Aことといったら", level: "N3",
+        ex: { ja: "花見客の多いことといったら、ゆっくり{桜|さくら}も見られないほどでしたよ。", en: "You can't imagine how many cherry-blossom viewers there were — so many you couldn't even enjoy the blossoms in peace." },
+        note: "Adjective + ことといったら: \"talk about ~! / the ~-ness was incredible\"." },
+      { pattern: "Nったら", level: "N2",
+        ex: { ja: "うちの犬ったら、私が{浴衣|ゆかた}着てたら、よその人と間違えてほえたのよ。", en: "That dog of ours! When I was wearing a yukata, it mistook me for a stranger and barked at me." },
+        note: "N + ったら: casual topic marker with a tone of exasperation, surprise or affectionate criticism (\"that ~ of mine!\")." },
+      { pattern: "〜といったらない", level: "N1", no: 83,
+        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbelievably hot. I want autumn to come soon." },
+        note: "\"Indescribably ~ / ~ beyond words\": an extreme degree (といったらありゃしない is the colloquial, mostly negative version)." }
+    ]
+  },
+  {
+    key: "〜てから",
+    items: [
+      { pattern: "Vてからでなければ", level: "N3",
+        ex: { ja: "この会社では、3{ヵ|か}月の研修を受けてからでなければ正社員になれません。", en: "At this company you can't become a regular employee until you have completed three months of training." },
+        note: "\"Not until after ~\": the first action is a precondition for the second (negative) outcome." },
+      { pattern: "Vてからというもの", level: "N1", no: 91,
+        ex: { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he has been going straight home after work." },
+        note: "V-て + からというもの: \"ever since ~ (things have changed)\". Marks a turning point after which a new state has continued." }
+    ]
+  },
+  {
+    key: "〜といい／といわず",
+    items: [
+      { pattern: "N₁といいN₂といい", level: "N1", no: 44,
+        ex: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "Both the rich soup and the perfect firmness of the noodles — no wonder it's the best ramen in Japan." },
+        note: "\"Both N₁ and N₂ (alike)\": picks out examples to support an evaluation (praise or criticism) of the whole." },
+      { pattern: "N₁といわずN₂といわず", level: "N1", no: 54,
+        ex: { ja: "昼といわず、夜といわず、{大型|おおがた}のダンプカーが通るのでうちが{揺|ゆ}れて困る。", en: "Big dump trucks go by day and night alike, so our house shakes, which is a real nuisance." },
+        note: "\"Whether N₁ or N₂ / everywhere, all the time\": no distinction is made; often for something unpleasant happening everywhere." }
+    ]
+  },
+  {
+    key: "〜といえ",
+    items: [
+      { pattern: "Nといえば", level: "N3",
+        ex: { ja: "外国人に人気のある観光地といえば、やはり{京都|きょうと}でしょうか。", en: "Speaking of tourist spots popular with foreigners, Kyoto would be the one, I suppose." },
+        note: "\"Speaking of N / when it comes to N\": brings up a topic and names the first thing associated with it." },
+      { pattern: "〜といえども", level: "N1", no: 8,
+        ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "Small as our company may be, we pride ourselves on having technology that is a match for big corporations." },
+        note: "\"Even though / even if it is ~\": concedes a fact or status and asserts something contrary to expectation. Formal." },
+      { pattern: "〜とはいえ", level: "N1", no: 61,
+        ex: { ja: "親子とはいえ、触れてはならないプライバシーというものがある。", en: "Even between parent and child, there is such a thing as privacy that must not be intruded upon." },
+        note: "\"Although it is true that ~\": accepts a fact, then states a qualification or opposite reality. Written style." }
+    ]
+  },
+  {
+    key: "〜といった",
+    items: [
+      { pattern: "Nといった", level: "N2",
+        ex: { ja: "くるみやアーモンドといったナッツ類を毎日食べると、{記憶力|きおくりょく}がよくなるそうです。", en: "I hear that eating nuts such as walnuts and almonds every day improves your memory." },
+        note: "N + といった + N: \"such as ~\". Lists examples of a category." },
+      { pattern: "〜といったところだ①", level: "N1", no: 45,
+        ex: { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like pin-up photos of idols." },
+        note: "といったところだ ①: \"is something like ~ / could be likened to ~\". Explains by comparison." },
+      { pattern: "〜といったところだ②", level: "N1", no: 62,
+        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "They say our hourly wage is going up, but don't expect much. It'll be 50 yen at most." },
+        note: "といったところだ ②: \"at most ~ / about ~\". The amount or degree is not large (often with せいぜい)." },
+      { pattern: "Nといったら", level: "N3",
+        ex: { ja: "冬のスポーツといったら、やっぱりスキーだよね。", en: "When it comes to winter sports, it's got to be skiing." },
+        note: "\"Speaking of N / when you say N\": introduces a topic and the typical thing associated with it (= といえば)." },
+      { pattern: "〜といったらない", level: "N1", no: 83,
+        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbelievably hot. I want autumn to come soon." },
+        note: "\"Indescribably ~ / ~ beyond words\": an extreme degree. Unlike Nといったら (topic), this follows an adjective and ends the sentence." }
+    ]
+  },
+  {
+    key: "〜と思う",
+    items: [
+      { pattern: "〜かと思う", level: "N3",
+        ex: { ja: "今週はちょっと難しいですが、来週なら時間が取れるかと思います。", en: "This week is a bit difficult, but I think I can make time next week." },
+        note: "\"I think perhaps ~\": a softened, polite statement of one's opinion or judgement." },
+      { pattern: "〜かと思った", level: "N3",
+        ex: { ja: "A：あの人、新しく来た課長さんよ。\nB：え、本当!?　若そうだから、{新入|しんにゅう}社員かと思ったよ。", en: "A: That's the new section manager.\nB: What, really!? He looks so young, I thought he was a new employee." },
+        note: "\"I thought (mistakenly) that ~\": what one had assumed turned out to be wrong." },
+      { pattern: "Vかと思うと", level: "N2",
+        ex: { ja: "{青空|あおぞら}を飛んでいた鳥は{突然|とつぜん}海に{潜|もぐ}ったかと思うと、魚を口にくわえて出てきた。", en: "The bird flying in the blue sky suddenly dived into the sea, and the next moment it came up with a fish in its beak." },
+        note: "V-た + かと思うと/思ったら: \"no sooner had ~ than ~\". Two events in rapid succession, observed by the speaker (not the speaker's own actions)." },
+      { pattern: "〜かと思いきや", level: "N1", no: 99,
+        ex: { ja: "なかなか連絡が来ないので落ちたかと思いきや、今日になって合格通知が届いた。", en: "I heard nothing for so long that I thought I had failed, but then today the notice that I had passed arrived." },
+        note: "\"Just when one thought ~, (contrary to expectation)\": the result is the opposite of what was expected. Somewhat literary." },
+      { pattern: "Vばと思う", level: "N2",
+        ex: { ja: "こちらの事情をご理解いただければと思います。", en: "We would be grateful if you could understand our situation." },
+        note: "V-ば + と思う: \"I would appreciate it if ~\". A polite, indirect request or wish (〜ていただければと思います)." }
+    ]
+  },
+  {
+    key: "〜ところ",
+    items: [
+      { pattern: "〜ところ", level: "N3",
+        ex: { ja: "あくびしたところを写真に{撮|と}られたって、{佐藤|さとう}さん、怒ってたよ。", en: "Sato was angry that someone took a photo of him just as he was yawning." },
+        note: "V + ところを + verb of seeing/catching: \"at the moment when ~\" (the scene in which someone is caught)." },
+      { pattern: "〜ところだった", level: "N2",
+        ex: { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、遅刻するところだったよ。", en: "I overslept by a whole thirty minutes this morning and was almost late." },
+        note: "V-る + ところだった: \"nearly ~ / came close to ~\" (something bad that didn't actually happen)." },
+      { pattern: "〜ところ(を)", level: "N1", no: 65,
+        ex: { ja: "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。", en: "We apologize for troubling you in this heat, but to save electricity the air conditioning has been set to 28 degrees." },
+        note: "〜ところ(を): \"when (you are ~) / despite ~\". A formal set phrase acknowledging the listener's situation before a request or apology (お忙しいところ, お休みのところ)." },
+      { pattern: "Vたところで", level: "N1", no: 77,
+        ex: { ja: "今から急いだところで、間に合うわけがないよ。", en: "Even if we hurry now, there's no way we'll make it in time." },
+        note: "V-た + ところで: \"even if ~ (it would be useless)\". The action won't bring the desired result; followed by a negative or dismissive judgement." },
+      { pattern: "〜といったところだ①", level: "N1", no: 45,
+        ex: { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like pin-up photos of idols." },
+        note: "\"Is something like ~ / could be likened to ~\"." },
+      { pattern: "〜といったところだ②", level: "N1", no: 62,
+        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "They say our hourly wage is going up, but don't expect much. It'll be 50 yen at most." },
+        note: "\"At most ~ / about ~\": the amount is not large." },
+      { pattern: "〜どころじゃない", level: "N2",
+        ex: { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: Karaoke? No way! I have to write my report. It's due tomorrow." },
+        note: "\"This is no time for ~ / ~ is out of the question\" (because of circumstances)." },
+      { pattern: "〜どころか", level: "N2",
+        ex: { ja: "高校を卒業した{頃|ころ}、海外旅行どころか国内旅行もしたことがなかった。", en: "When I graduated from high school, I had never even travelled within the country, let alone abroad." },
+        note: "\"Far from ~ / let alone ~\": denies the first item and presents a more extreme (or opposite) fact." }
+    ]
+  },
+  {
+    key: "〜ないでは／ないでも",
+    items: [
+      { pattern: "Vないではいられない", level: "N3",
+        ex: { ja: "彼女は毎日ケーキを食べないではいられないらしい。", en: "Apparently she can't go a day without eating cake." },
+        note: "V-ない + ではいられない: \"can't help ~ing\" (= ずにはいられない)." },
+      { pattern: "Vないではおかない", level: "N1", no: 32,
+        ex: { ja: "彼の{過失|かしつ}となれば、会社は損害{賠償|ばいしょう}を{請求|せいきゅう}しないではおかないだろう。", en: "If it turns out to be his fault, the company will surely demand compensation for damages." },
+        note: "\"Will definitely ~ / won't let it go without ~\" (= ずにはおかない)." },
+      { pattern: "Vないではすまない", level: "N1", no: 117,
+        ex: { ja: "{欠陥品|けっかんひん}を売ったのだから消費者に非難されないではすまないでしょう。", en: "Since they sold defective goods, they can hardly avoid being criticized by consumers." },
+        note: "\"Can't get away without ~\" (= ずにはすまない): unavoidable given the situation or social norms." },
+      { pattern: "Vないでもない", level: "N1", no: 19,
+        ex: { ja: "A：ぜひにと言われれば飲まないでもないんですが、最近酒は{控|ひか}えているんです。\nB：じゃあ、まあ、少しだけ……。", en: "A: If you really insist, it's not that I won't drink, but I've been cutting back on alcohol lately.\nB: Well then, just a little……" },
+        note: "V-ない + でもない: \"it's not that I don't / won't ~\". A reluctant, partial affirmative (= なくもない); unlike ないではおかない, it has no sense of determination." }
+    ]
+  },
+  {
+    key: "〜ながら",
+    items: [
+      { pattern: "〜ながら(も)", level: "N2",
+        ex: { ja: "彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。", en: "Although I lived in the same dormitory as him, I had hardly ever spoken to him." },
+        note: "\"Although / even though ~\" (ながら(も)): concession — the second part is contrary to what the first leads one to expect. Often with state verbs (いる, ある, 知る) and adjectives." },
+      { pattern: "〜ながら(に)", level: "N1", no: 92,
+        ex: { ja: "{仏陀|ぶった}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talent from birth." },
+        note: "V-ます stem / N + ながらに(して): \"while still in the state of ~ / as ~ is\" (生まれながら, 涙ながら, 昔ながら). A fixed set of expressions; the state remains unchanged." }
+    ]
+  },
+  {
+    key: "〜なら",
+    items: [
+      { pattern: "〜なら、…", level: "N3",
+        ex: { ja: "{台湾|たいわん}へ旅行に行くなら、11月が一番いいと思いますよ。", en: "If you're going to travel to Taiwan, I think November is the best time." },
+        note: "\"If (you are going to) ~\": takes up what the listener has said or plans and gives advice or an opinion about it." },
+      { pattern: "〜なら〜で", level: "N1", no: 80,
+        ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: Sir, I'd like to leave the company at the end of this month……\nB: If you're going to quit, fine, but finish your current work properly first." },
+        note: "X なら X で (same word repeated): \"if ~, then (at least / in that case) ~\". Accepts the situation and says what should be done, or what problem it brings, given that." },
+      { pattern: "〜ならまだしも", level: "N1", no: 50,
+        ex: { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
+        note: "\"~ would be acceptable (but ~ is not)\": the first case is barely tolerable, the second clearly unacceptable. Followed by criticism." },
+      { pattern: "〜ならいざしらず", level: "N1", no: 58,
+        ex: { ja: "{加藤|かとう}さんのように英語が上手ならいざしらず、{僕|ぼく}に会議の{通訳|つうやく}なんて無理ですよ。", en: "If I were good at English like Kato, it might be different, but there's no way I can interpret at a meeting." },
+        note: "\"~ may be one thing / I don't know about ~, but ~\": sets aside a special case and says the actual case is different (usually more difficult). Formal-sounding." }
+    ]
+  },
+  {
+    key: "〜に{至|いた}る／の{至|いた}り",
+    items: [
+      { pattern: "Nに{至|いた}るまで", level: "N1", no: 5,
+        ex: { ja: "現在、{関東|かんとう}地方から{東北|とうほく}地方に{至|いた}るまで、{大雪|おおゆき}のため交通がマヒしている。", en: "At present, traffic is paralyzed by heavy snow all the way from the Kanto region to the Tohoku region." },
+        note: "N₁ から N₂ に至るまで: \"all the way from N₁ to N₂ / everything, even N₂\". Stresses that the range is wide, reaching an extreme point." },
+      { pattern: "〜に{至|いた}る", level: "N1", no: 5,
+        ex: { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from apes to humans." },
+        note: "\"To reach / lead to ~\": the end point of a range or a process (〜に至るまで, 〜に至った). Written style." },
+      { pattern: "Nに{至|いた}っては", level: "N1", no: 7,
+        ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national survey on time use, 41% of men in their forties read newspapers, 23% in their thirties, and in their twenties a mere 13%." },
+        note: "\"As for N (the most extreme case)\": after listing examples, picks out the one that goes furthest, usually in a negative direction." },
+      { pattern: "Nの{至|いた}り", level: "N1", no: 66,
+        ex: { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "To receive such a prestigious award is truly the greatest honor." },
+        note: "N + の至り: \"the utmost ~\" (光栄の至り, 感激の至り, 若気の至り). A formal set phrase for an extreme feeling or state." }
+    ]
+  },
+  {
+    key: "〜に限る／限り",
+    items: [
+      { pattern: "Nに限り", level: "N2",
+        ex: { ja: "本日に限り、{通常|つうじょう}価格100グラム1,500円の牛肉を半額でご提供いたしております。", en: "Today only, we are offering beef, normally 1,500 yen per 100 grams, at half price." },
+        note: "N + に限り: \"only (for) N\". Limits a special condition to N; common in notices and announcements." },
+      { pattern: "Nに限って〜ない", level: "N2",
+        ex: { ja: "うちの子に限って、{万引|まんび}きなんてするはずがありません。", en: "My child, of all people, would never do something like shoplifting." },
+        note: "N + に限って + negative: \"N, of all people, would never ~\". Expresses trust that N in particular is an exception." },
+      { pattern: "V限り", level: "N2",
+        ex: { ja: "{高齢者|こうれいしゃ}でも、働ける限りは働きたいと思っている人が多い。", en: "Even among the elderly, many people want to keep working for as long as they can." },
+        note: "V + 限り: \"as long as ~ / to the extent that ~\". The situation continues within that limit." },
+      { pattern: "Nに限らず", level: "N2",
+        ex: { ja: "環境{対策|たいさく}のためにも、夏に限らず、年間を通して{節電|せつでん}を心がけるべきだ。", en: "For the sake of environmental protection too, we should try to save electricity all year round, not only in summer." },
+        note: "N + に限らず: \"not only N (but also others)\". The statement applies more widely than N." },
+      { pattern: "Nに限って", level: "N2",
+        ex: { ja: "よく知らないやつに限って、偉そうなことを言う。", en: "It's always the guys who don't really know anything who talk big." },
+        note: "N + に限って: \"it is precisely / always N that ~\". Points out, with dissatisfaction, that N in particular behaves this way (often unexpectedly or at a bad time)." },
+      { pattern: "〜に限る", level: "N2",
+        ex: { ja: "運動の後は、はちみつとレモンのジュースに限る。", en: "After exercise, there's nothing like a honey and lemon drink." },
+        note: "\"~ is the best / there's nothing better than ~\": the speaker's subjective judgement of what is best." },
+      { pattern: "限りだ", level: "N1", no: 71,
+        ex: { ja: "努力の{甲斐|かい}あって、日本の{看護師|かんごし}の国家試験に受かって、うれしい限りです。", en: "My efforts paid off and I passed Japan's national nursing exam. I couldn't be happier." },
+        note: "Emotion adjective + 限りだ: \"extremely ~ / I feel so ~\" (うれしい限り, 心細い限り). Expresses the speaker's own feeling at its peak." },
+      { pattern: "N限りで", level: "N1", no: 106,
+        ex: { ja: "{山田|やまだ}選手、「{今|こん}シーズン限りで引退」と、突然の発表。", en: "Yamada suddenly announces, \"I'm retiring at the end of this season.\"" },
+        note: "N (a period) + 限りで: \"as of the end of N / with N as the last\". Something ends at that point (今月限りで閉店)." },
+      { pattern: "Nを限りに", level: "N1", no: 106,
+        ex: { ja: "「今日を限りにギャンブルはやめる」と、彼は今年だけでも3回は言った。", en: "\"After today, I'm giving up gambling,\" he has said at least three times this year alone." },
+        note: "N (a time) + を限りに: \"from N on, no more ~ / N is the last time\". Marks the point at which something that has continued is ended." }
+    ]
+  },
+  {
+    key: "〜にして／にしろ／にした",
+    items: [
+      { pattern: "〜にして①", level: "N1", no: 23,
+        ex: { ja: "彼は大学の教授にして、有名な作家でもある。", en: "He is a university professor and also a famous writer." },
+        note: "N + にして (①): \"being N and at the same time ~\". Joins two attributes of the same person or thing; written style (= であり、同時に)." },
+      { pattern: "Nにして②", level: "N1", no: 102,
+        ex: { ja: "砂に描いた絵は、{強風|きょうふう}により、{一瞬|いっしゅん}にして消え去った。", en: "The picture drawn in the sand vanished in an instant in the strong wind." },
+        note: "Time word + にして (②): \"in (as little as) N\" (一瞬にして, 一夜にして). Stresses how quickly something happened; also \"only at N\" (40歳にして初めて)." },
+      { pattern: "Nにしては", level: "N2",
+        ex: { ja: "今人気のエリナはモデルにしては背が高いほうではない。", en: "Erina, who is popular now, isn't particularly tall for a model." },
+        note: "N + にしては: \"for (a) N / considering N\". The fact differs from what one would expect of N." },
+      { pattern: "Nにしてみれば", level: "N1", no: 81,
+        ex: { ja: "私のような考え方は若い人にしてみれば、古いと思われるでしょう。", en: "To young people, a way of thinking like mine probably seems old-fashioned." },
+        note: "Person + にしてみれば: \"from N's point of view / as far as N is concerned\". Imagines how the situation looks to that person." },
+      { pattern: "Nにしても", level: "N1", no: 81,
+        ex: { ja: "人員{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts can hardly be said to bring only advantages." },
+        note: "Person/party + にしても: \"even for N / N too, from their standpoint\". Says that N is no exception." },
+      { pattern: "〜にしても〜にしても", level: "N2",
+        ex: { ja: "大学院で研究しようと思ったら、理系にしても文系にしても、英語力は絶対必要だよ。", en: "If you want to do research at graduate school, whether in the sciences or the humanities, English ability is absolutely essential." },
+        note: "X にしても Y にしても: \"whether X or Y / both X and Y\". Gives two examples and says the same holds for either." },
+      { pattern: "〜にしろ〜にしろ", level: "N2",
+        ex: { ja: "{東京|とうきょう}にしろ{大阪|おおさか}にしろ大都市には働く場所が多いので人が集まってくる。", en: "Whether it's Tokyo or Osaka, big cities have lots of places to work, so people gather there." },
+        note: "X にしろ Y にしろ: \"whether X or Y\" (= にしても〜にしても, somewhat more written)." },
+      { pattern: "Nにしたところで", level: "N1", no: 86,
+        ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even someone as mild-mannered as Tanaka would surely get angry if kept waiting a whole hour." },
+        note: "Person + にしたところで: \"even N (would be no exception)\". Casual/spoken counterpart of にしても; usually followed by a negative or unfavourable result." },
+      { pattern: "Nにしたら", level: "N1", no: 81,
+        ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victims' point of view it's probably not something they could accept." },
+        note: "Person + にしたら: \"from N's point of view\" (= にしてみれば)." }
+    ]
+  },
+  {
+    key: "のみ",
+    items: [
+      { pattern: "〜のみ", level: "N2",
+        ex: { ja: "お薬のみご希望の方は、こちらの箱に{診察券|しんさつけん}をお入れください。", en: "If you would like medicine only, please put your consultation card in this box." },
+        note: "\"Only ~\": a formal/written equivalent of だけ." },
+      { pattern: "〜のみならず", level: "N2",
+        ex: { ja: "現在、日本のコンビニは{若者|わかもの}のみならず、あらゆる世代の人々に様々な目的で利用されている。", en: "Today, Japanese convenience stores are used not only by young people but by people of all generations for all sorts of purposes." },
+        note: "\"Not only ~ (but also)\": formal equivalent of だけでなく." },
+      { pattern: "(ただ)〜のみ", level: "N1", no: 112,
+        ex: { ja: "聞こえてくるのは{草原|そうげん}を渡る風の音のみだった。", en: "All that could be heard was the sound of the wind blowing across the grassland." },
+        note: "(ただ) ~ のみ: \"only / nothing but ~\". Written, emphatic limitation (ただ〜のみだ, 〜のみである)." }
+    ]
+  },
+  {
+    key: "〜ばかり",
+    items: [
+      { pattern: "Vたばかり", level: "N3",
+        ex: { ja: "父は昨日退院したばかりなのに、今日から会社に出ている。", en: "My father only got out of hospital yesterday, but he's back at work from today." },
+        note: "V-た + ばかり: \"have just ~\". Little time has passed (subjectively) since the action." },
+      { pattern: "〜ばかり", level: "N3",
+        ex: { ja: "最近雨ばかりで、洗濯物が乾かなくて困っています。", en: "It's been nothing but rain lately, and my laundry won't dry." },
+        note: "N + ばかり: \"nothing but / only ~\". Often with a sense that it is too much." },
+      { pattern: "〜ばかり", level: "N2",
+        ex: { ja: "{円高|えんだか}が進んで、景気が悪くなるばかりだ。", en: "With the yen getting ever stronger, the economy just keeps getting worse." },
+        note: "V (dictionary form) + ばかりだ: \"keeps ~ing / only goes on ~\". A change continuing in one (usually bad) direction." },
+      { pattern: "〜ばかりか", level: "N3",
+        ex: { ja: "今日は電車で足を{踏|ふ}まれたばかりか、かばんに入れておいたサンドイッチもつぶされてしまった。", en: "Today, not only did someone step on my foot on the train, but the sandwich I had in my bag got squashed too." },
+        note: "\"Not only ~ but also\": adds a second, often more extreme, item (= だけでなく)." },
+      { pattern: "〜ばかりでなく…も", level: "N3",
+        ex: { ja: "{落語|らくご}は最近、お年寄りばかりでなく若い女性にも人気が出てきた。", en: "Recently rakugo has become popular not only with elderly people but with young women too." },
+        note: "〜ばかりでなく…も: \"not only ~ but also …\" (= だけでなく…も)." },
+      { pattern: "〜ばかりに", level: "N2",
+        ex: { ja: "本当のことを言ったばかりに、彼を怒らせてしまった。", en: "Just because I told the truth, I ended up making him angry." },
+        note: "V-た / adjective + ばかりに: \"simply because ~\" (with a regrettable result). The speaker regrets that this one thing caused a bad outcome." },
+      { pattern: "〜とばかりに", level: "N1", no: 73,
+        ex: { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "Called by the manager at a scoring chance, Nakata jumped up as if to say, \"I've been waiting for this!\"" },
+        note: "〜とばかりに: \"as if to say ~\". Someone does not actually say it, but their manner clearly shows that feeling." }
+    ]
+  },
+  {
+    key: "〜べき／べく／べからず",
+    items: [
+      { pattern: "Vべき", level: "N3",
+        ex: { ja: "人にお金を借りたらすぐに返すべきだ。", en: "If you borrow money from someone, you should pay it back right away." },
+        note: "V (dictionary form) + べきだ: \"should / ought to ~\". The speaker's view of what is right or proper (する → すべき / するべき)." },
+      { pattern: "Vべく", level: "N1", no: 90,
+        ex: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I am preparing to launch a business of my own." },
+        note: "V (dictionary form) + べく: \"in order to ~\" (する → すべく). Formal, written purpose; the following clause is an intentional action." },
+      { pattern: "VべくしてVた", level: "N1", no: 52,
+        ex: { ja: "この車は{燃費|ねんぴ}も良く、洗練されたデザインで、売れるべくして売れたと言える。", en: "With its good fuel economy and refined design, you could say this car was bound to sell well, and it did." },
+        note: "V (same verb) + べくして + V-た: \"happened just as it was bound to\". The result was inevitable given the circumstances (起こるべくして起こった事故)." },
+      { pattern: "Vべくもない", level: "N1", no: 122,
+        ex: { ja: "アジアが世界経済の{鍵|かぎ}であることは、疑うべくもない。", en: "There is no room to doubt that Asia is the key to the world economy." },
+        note: "V (dictionary form) + べくもない: \"there is no way to ~ / ~ is out of the question\" (望むべくもない, 疑うべくもない). Written style." },
+      { pattern: "Vべからず", level: "N1", no: 111,
+        ex: { ja: "ペンキ塗りたて。座るべからず。", en: "Wet paint. Do not sit." },
+        note: "V (dictionary form) + べからず: \"must not ~\". A classical-style prohibition used on signs and notices, or in maxims." }
+    ]
+  },
+  {
+    key: "〜ほか",
+    items: [
+      { pattern: "〜ほか（は）ない", level: "N3",
+        ex: { ja: "天候不順で、山頂まで行くのはあきらめるほかない。", en: "Because of the unsettled weather, we have no choice but to give up on going to the summit." },
+        note: "V (dictionary form) + ほか(は)ない: \"there is no choice but to ~\" (= しかない, よりほかない)." },
+      { pattern: "Nをおいて他にない", level: "N1", no: 40,
+        ex: { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, there's no better time than now, while the economy is improving." },
+        note: "N + をおいて他にない: \"there is no one / nothing other than N\". Highly evaluates N as the only candidate (彼をおいて他にいない)." }
+    ]
+  },
+  {
+    key: "〜まい",
+    items: [
+      { pattern: "Vまい", level: "N2",
+        ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはあるまい。{我|わ}が{社|しゃ}も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to improve any time soon. Our company, too, must urgently consider countermeasures." },
+        note: "V (dictionary form) + まい: \"probably won't ~\" (negative conjecture, = ないだろう), or \"will not ~\" (negative resolve, = ないつもりだ). Written style." },
+      { pattern: "VかVまいか", level: "N2",
+        ex: { ja: "彼は夏休みに国へ帰ろうか帰るまいかと悩んでいるらしい。", en: "It seems he can't decide whether or not to go back to his country for the summer vacation." },
+        note: "V-(よ)うか + V まいか: \"whether to ~ or not\". Used for hesitating between doing and not doing." },
+      { pattern: "VようがVまいが", level: "N1", no: 79,
+        ex: { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it turns out useful or not, it is human nature to try to get to the bottom of what puzzles us." },
+        note: "V-(よ)うが V まいが: \"whether or not ~\". The following statement holds regardless." },
+      { pattern: "VようとVまいと", level: "N1", no: 79,
+        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether guests are coming or not, always keep your room tidy." },
+        note: "V-(よ)うと V まいと: \"whether or not ~\" (= ようがまいが)." }
+    ]
+  },
+  {
+    key: "〜まで",
+    items: [
+      { pattern: "Vまでのことだ", level: "N1", no: 82,
+        ex: { ja: "地下鉄が止まっていたら、バスで行くまでのことだ。心配はいらないよ。", en: "If the subway is stopped, we'll just go by bus. No need to worry." },
+        note: "V (dictionary form) + までのことだ: \"(if so,) I'll simply ~\". Presents a fallback with composure; also V-た + までのことだ: \"I merely ~ (nothing more)\"." },
+      { pattern: "Vたらそれまでだ", level: "N1", no: 74,
+        ex: { ja: "仕事を{頑張|がんば}るのもいいが、無理して病気になったらそれまでだ。", en: "Working hard is fine, but if you overdo it and get sick, that's the end of it." },
+        note: "V-たら / V-ば + それまでだ: \"if ~, that's the end of it / it's all for nothing\"." },
+      { pattern: "Vまでもなく", level: "N1", no: 41,
+        ex: { ja: "{遠方|えんぽう}に足を運ぶまでもなく、ネットを通じて地方の{特産品|とくさんひん}が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the Internet without having to travel far." },
+        note: "V (dictionary form) + までもなく: \"without needing to ~ / it goes without ~ing\" (言うまでもなく)." },
+      { pattern: "Vないまでも", level: "N1", no: 43,
+        ex: { ja: "{時給|じきゅう}1,000円はもらえないまでも、850円はもらいたい。", en: "Even if I can't get 1,000 yen an hour, I'd like at least 850 yen." },
+        note: "V-ない + までも: \"even if not (as much as) ~, at least …\". The first is a high level, the second a lower one that is still wanted." }
+    ]
+  },
+  {
+    key: "〜もの／もん",
+    items: [
+      { pattern: "〜もので", level: "N3",
+        ex: { ja: "慣れないものですから、ご{迷惑|めいわく}をおかけするかもしれませんが、どうぞよろしくお願いします。", en: "I'm not used to this yet, so I may cause you some trouble, but I look forward to working with you." },
+        note: "〜もので / ものですから: \"because / since ~\". Gives a reason, often as an excuse or apology; conversational (もんで)." },
+      { pattern: "Vものだ①", level: "N2",
+        ex: { ja: "A：うちの息子は最近{口答|くちごた}えばかりして、ちっとも言うことを聞かないんですよ。\nB：子どもは親に{反抗|はんこう}するものですから、それも成長のひとつですよ。", en: "A: My son is always talking back lately and never listens to a word I say.\nB: Children do rebel against their parents; that's part of growing up." },
+        note: "V (dictionary form) + ものだ (①): \"that's the way ~ is / one naturally ~\". States a general truth or social norm (also \"should\": 人の話は最後まで聞くものだ)." },
+      { pattern: "〜ものだ②", level: "N2",
+        ex: { ja: "昔はよく友達と近くの川で泳いだものだ。", en: "In the old days I would often swim in the nearby river with my friends." },
+        note: "V-た + ものだ (②): \"used to ~\". Nostalgic recollection of a past habit." },
+      { pattern: "〜ものではない", level: "N2",
+        ex: { ja: "楽をしてお金をもうけようなんて考えるもんじゃない。", en: "You shouldn't think about making money the easy way." },
+        note: "V (dictionary form) + ものではない (もんじゃない): \"one shouldn't ~\". Advice or admonition based on common sense." },
+      { pattern: "〜というものだ", level: "N2",
+        ex: { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が完成していないんです。\nB：困ったときに助け合うのが友達というものだろ。手伝ってあげなさい。", en: "A: Sir, because of Yamashita, our group is the only one that hasn't finished its work.\nB: Helping each other out when things are hard is what friends are for, isn't it? Go and help him." },
+        note: "〜というものだ: \"that is what ~ is (really about)\". States what the speaker regards as the true nature of something." },
+      { pattern: "〜というものではない", level: "N2",
+        ex: { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "Studying isn't something where, if you do it today, you don't have to do it tomorrow." },
+        note: "〜というものではない (もんじゃない): \"it isn't necessarily the case that ~\". Rejects an over-simple view." },
+      { pattern: "〜ものがある", level: "N2",
+        ex: { ja: "A：タンさんって才能あるよね。\nB：私もそう思う。彼の絵にはすばらしいものがあるよね。", en: "A: Tan is really talented, isn't he?\nB: I think so too. There's something wonderful about his paintings." },
+        note: "Adjective / V + ものがある: \"there is something ~ about it\". The speaker feels a quality strongly." },
+      { pattern: "〜ものの", level: "N2",
+        ex: { ja: "水泳教室に通ってはいるものの、いまだに25メートルしか泳げない。", en: "Although I do go to swimming lessons, I still can only swim 25 meters." },
+        note: "〜ものの: \"although ~\". Admits the first fact, but what follows falls short of what it would lead one to expect." },
+      { pattern: "Vものなら", level: "N2",
+        ex: { ja: "子どものころから星が好きだったので、行けるものなら宇宙旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if it were at all possible I'd love to travel into space." },
+        note: "Potential V + ものなら: \"if (by some chance) one could ~\". A wish for something difficult to realize." },
+      { pattern: "Vないものか", level: "N1", no: 59,
+        ex: { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay fever season is here. Isn't there some way to do something about these itchy eyes and my runny nose that won't stop?" },
+        note: "V-ない + ものか (ものだろうか): \"isn't there some way to ~?\". A strong wish that something could be realized." },
+      { pattern: "Vないものでもない", level: "N1", no: 19,
+        ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're asking that badly, I suppose I might make an exception this time and allow it." },
+        note: "V-ない + ものでもない: \"it's not impossible that ~ / I might ~\". A reluctant, partial affirmative (= ないでもない)." },
+      { pattern: "Vようものなら", level: "N1", no: 57,
+        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days, if you so much as warn them a little, might well say \"Well then, I quit\" on the spot." },
+        note: "V-(よ)う + ものなら: \"if one were to ~ (something terrible would follow)\". Warns of a serious result from a small action." },
+      { pattern: "Vてからというもの", level: "N1", no: 91,
+        ex: { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he's gone straight home as soon as work finishes." },
+        note: "V-て + からというもの: \"ever since ~\". Marks an event after which a lasting change took place." },
+      { pattern: "Nというもの", level: "N1", no: 91,
+        ex: { ja: "この1週間というもの、カップラーメン以外のものを口にしていない。", en: "For this whole past week, I haven't eaten anything but instant cup noodles." },
+        note: "Period + というもの: \"for the whole ~\". Stresses that a state has continued throughout the period." },
+      { pattern: "〜ものを", level: "N1", no: 75,
+        ex: { ja: "早く来れば{空|す}いていたものを、この様子じゃチケットを買うだけで1時間はかかりそうだ。", en: "If we'd come early it would have been empty, but at this rate it looks like it'll take an hour just to buy tickets." },
+        note: "〜ものを: \"if only ~ (but)\". Expresses regret or reproach that something which could have happened did not." },
+      { pattern: "〜ものか", level: "N2",
+        ex: { ja: "こんなサービスの悪い店には二度と来るもんか。", en: "I'll never come back to a shop with service this bad!" },
+        note: "〜ものか (もんか): \"as if I would ~ / definitely not ~\". Emphatic rejection." },
+      { pattern: "〜もん", level: "N2",
+        ex: { ja: "A：そんなにたくさんお{土産|みやげ}買うの？\nB：だって、この人形もこのお菓子も日本じゃなきゃ、買えないんだもん。", en: "A: You're buying that many souvenirs?\nB: Well, you can't buy these dolls or these sweets anywhere but Japan!" },
+        note: "〜もん (もの) at the end of a sentence: \"because ~, you know\". A casual, somewhat childish or self-justifying reason, often with だって." }
+    ]
+  },
+  {
+    key: "〜よう",
+    items: [
+      { pattern: "〜ようだ", level: "N3",
+        ex: { ja: "あのえんぴつのような形をしている建物は、電話会社のビルです。", en: "That pencil-shaped building is the telephone company's building." },
+        note: "N の + ようだ / ような: \"like ~\". Likens something to something else (also conjecture: \"it seems ~\")." },
+      { pattern: "〜ような", level: "N3",
+        ex: { ja: "インフルエンザのようなほかの人にうつる病気になったら、治るまで学校へ来てはいけないことになっています。", en: "If you catch an illness that spreads to others, such as influenza, you are not allowed to come to school until you recover." },
+        note: "N の + ような N: \"such as ~ / like ~\". Gives an example of the kind of thing meant." },
+      { pattern: "Vかのようだ", level: "N3",
+        ex: { ja: "リンさんの部屋はまるで泥棒が入ったかのように散らかっている。", en: "Lin's room is so messy it looks as if a burglar had broken in." },
+        note: "V + かのようだ: \"as if ~\". Compares with something that is not actually the case, often with まるで." },
+      { pattern: "〜ようなら", level: "N3",
+        ex: { ja: "A：すみません。仕事がまだ終わらなくて、ちょっと遅くなりそうなんです。\nB：そうですか。じゃあ、6時過ぎるようなら先に行ってますね。", en: "A: Sorry. I still haven't finished work, so I'm likely to be a bit late.\nB: I see. Well then, if it looks like it'll be past six, I'll go on ahead." },
+        note: "〜ようなら: \"if it looks like ~ / if it turns out that ~\". A condition based on how the situation develops." },
+      { pattern: "Vようでは", level: "N2",
+        ex: { ja: "おしゃれに全然気を使わないようじゃ、社会人としてまずいんじゃない？", en: "If you don't pay any attention at all to how you dress, isn't that a problem for a working adult?" },
+        note: "〜ようでは (ようじゃ): \"if (one is the kind who) ~, then (a bad result)\". Criticizes a present state and predicts a negative outcome." },
+      { pattern: "Vようがない", level: "N2",
+        ex: { ja: "出張の予定だったが、{大雪|おおゆき}で飛行機が{欠航|けっこう}してしまったので行きようがない。", en: "I was supposed to go on a business trip, but the flight was cancelled because of heavy snow, so there's no way for me to go." },
+        note: "V-ます stem + ようがない: \"there is no way to ~\". The means of doing it is lacking." },
+      { pattern: "Vようが", level: "N1", no: 78,
+        ex: { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
+        note: "V-(よ)うが: \"no matter ~ / even if ~\" (often with どんなに, 何を, どこへ). The following statement is unaffected." },
+      { pattern: "Vようと", level: "N1", no: 78,
+        ex: { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, it's no concern of mine. Do what you like!" },
+        note: "V-(よ)うと: \"no matter ~ / even if ~\" (= ようが)." },
+      { pattern: "VようがVまいが", level: "N1", no: 79,
+        ex: { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it turns out useful or not, it is human nature to try to get to the bottom of what puzzles us." },
+        note: "V-(よ)うが V まいが: \"whether or not ~\". The following statement holds regardless." },
+      { pattern: "VようとVまいと", level: "N1", no: 79,
+        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether guests are coming or not, always keep your room tidy." },
+        note: "V-(よ)うと V まいと: \"whether or not ~\" (= ようがまいが)." },
+      { pattern: "Vようものなら", level: "N1", no: 57,
+        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days, if you so much as warn them a little, might well say \"Well then, I quit\" on the spot." },
+        note: "V-(よ)う + ものなら: \"if one were to ~ (something terrible would follow)\". Warns of a serious result from a small action." }
+    ]
+  },
+  {
+    key: "〜ように",
+    items: [
+      { pattern: "Vように言う", level: "N3",
+        ex: { ja: "お母さんからも勉強するように言ってください。", en: "Please tell him to study, too, Mom." },
+        note: "V + ように言う: \"tell someone to ~\". Reports a request or instruction indirectly (also ように頼む / 注意する)." },
+      { pattern: "Vようになっている", level: "N2",
+        ex: { ja: "ほこりが鼻に入るとくしゃみが出て、自然にそれを外へ出すようになっています。", en: "When dust gets into your nose you sneeze, and that is how it is naturally expelled." },
+        note: "V + ようになっている: \"is designed / made so that ~\". Describes how a mechanism or system works." },
+      { pattern: "VようにもVない", level: "N1", no: 84,
+        ex: { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "However much I try to forget my big blunder at the speech contest, I just can't." },
+        note: "V-(よ)う + にも + potential V-ない (same verb): \"even if one tries to ~, one can't\"." },
+      { pattern: "Vようによって（は）", level: "N1", no: 110,
+        ex: { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you handle that idea, couldn't you make an interesting program out of it?" },
+        note: "V-ます stem + ようによって(は): \"depending on how one ~\" (考えようによっては). Different ways of doing it can lead to different results." }
+    ]
+  },
+  {
+    key: "〜をもって",
+    items: [
+      { pattern: "Nをもって①", level: "N1", no: 13,
+        ex: { ja: "{当選者|とうせんしゃ}の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "Winners will not be announced separately; the dispatch of the prizes will serve as notification." },
+        note: "N + をもって (①): \"by means of / with N\". Formal; 〜をもってかえる = \"let N take the place of ~\"." },
+      { pattern: "Nをもって②", level: "N1", no: 67,
+        ex: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。", en: "This shop will close as of today. Thank you very much for your patronage over the years." },
+        note: "Time + をもって (②): \"as of / at N (something ends or begins)\". Formal, used in announcements (本日をもって, 以上をもって)." }
+    ]
+  }
 ]);

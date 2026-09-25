@@ -163,3 +163,4 @@ body.show-zh .zh { display: block; }
 body.show-zh span.zh { display: block; }
 /* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
 .bi--zh-only > .zh { display: block; font-size: 14.5px; color: var(--ink-2); }
+u.ul { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }

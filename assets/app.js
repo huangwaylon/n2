@@ -64,6 +64,7 @@
     });
     t = t.replace(/\{([^{}|]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>");
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    t = t.replace(/__(.+?)__/g, '<u class="ul">$1</u>');
     t = t.replace(/~~(.+?)~~/g, "<s>$1</s>");
     t = t.replace(/＿＿/g, '<span class="blank">　　　</span>');
     t = t.replace(/\n/g, "<br>");
@@ -81,6 +82,7 @@
     return String(s || "")
       .replace(/\{([^{}|]+)\|([^{}]+)\}/g, "$1")
       .replace(/\*\*/g, "")
+      .replace(/__/g, "")
       .replace(/~~.+?~~/g, "")
       .replace(/＿＿|（　）/g, "、なになに、")
       .replace(/\[(\d+)\]/g, "、")

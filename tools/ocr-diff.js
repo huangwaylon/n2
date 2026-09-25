@@ -1,5 +1,5 @@
 // Independent check of a transcription against OCR of the scanned book (macOS Vision, see tools/ocr/).
-// usage: node tools/ocr-diff.js data/<book>/chapters/ch01.js 18-29 [threshold]
+// usage: node tools/ocr-diff.js data/<book>/chapters/ch01.js 18-29[,31,40-42] [threshold]
 //        (works on fragments too: data/<book>/frag/ch01-p0.js)
 // Every Japanese string (and the book's own translations: English in N2, Chinese `zh` in N1) is fuzzy-matched
 // against the OCR text of the given pages plus the answer/script supplement. Strings whose best match
@@ -9,9 +9,12 @@ const { bookOf, root } = require("./books");
 const [file, range, thr = "0.9"] = process.argv.slice(2);
 const book = bookOf(path.resolve(file));
 const threshold = +thr;
-const [a, b] = range.split("-").map(Number);
+// range: "18-29" or several comma-separated ranges/pages, e.g. "55-57,202"
 const pages = [];
-for (let p = a; p <= (b || a); p++) pages.push(p);
+for (const r of String(range).split(",")) {
+  const [a, b] = r.split("-").map(Number);
+  for (let p = a; p <= (b || a); p++) if (!pages.includes(p)) pages.push(p);
+}
 for (let p = book.supplement[0]; p <= book.supplement[1]; p++) if (!pages.includes(p)) pages.push(p);
 
 let data;
@@ -22,7 +25,7 @@ require(path.resolve(file));
 
 // ruby → base, drop markup, badges → their text, unify punctuation/width
 const plain = (s) => String(s || "")
-  .replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\*\*/g, "").replace(/~~/g, "")
+  .replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\*\*/g, "").replace(/~~/g, "").replace(/__/g, "")
   .replace(/\[(N|V|いA|なA|Pl|Po)(-[^\]]*)?\]/g, "").replace(/\[(\d+)\]/g, "");
 const norm = (s) => plain(s).normalize("NFKC")
   .replace(/[\s　「」『』（）()、。・，．,.!！?？:：;；~〜～…‥\-－ー—―/／"“”'’＿_＋+\[\]【】〈〉《》★☆*＊→↔①-⑳]/g, "")

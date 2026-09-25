@@ -3,7 +3,7 @@ N2F({
   part: 0,
   head: {
     genre: { ja: "{昔話|むかしばなし}を{読|よ}む", en: "Reading a Folktale" },
-    title: { ja: "{飯食|めしく}わぬ{女房|にょうぼう}", en: "The Wife Who Didn't Eat" },
+    title: { ja: "{飯|めし}{食|く}わぬ{女房|にょうぼう}", en: "The Wife Who Didn't Eat" },
     canDo: [
       { ja: "{昔話|むかしばなし}の表現を楽しみながら、物語の展開を追って読める。", zh: "在欣赏传说故事的同时，读懂故事情节的发展。", en: "Enjoy the expressions of a folktale while following how the story unfolds." },
     ],
@@ -120,7 +120,7 @@ N2F({
             "Ignoring his subordinates' advice, the president stuck to domestic production and would not allow the factory to be moved overseas.",
             "Paying no heed to his wife's worries, my husband is about to quit his job and open a ramen shop.",
             "Many cyclists try to race along the sidewalk with no regard for the trouble they cause pedestrians.",
-            "Ignoring the cold stares in the train, there was a group of high school students gossiping loudly.",
+            "There was a group of high school students gossiping loudly, oblivious to the cold stares of the other passengers.",
           ],
         },
       ],
@@ -183,7 +183,7 @@ N2F({
       usage: {
         ja: "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり言い切りたくないときに使われる。「ぜひと頼まれれば、引き受けないでもない」のように「条件が合えば〜する（引き受ける）可能性はゼロではない」と言うときにも使われる。",
         zh: "用于不想直截了当地说“是……”时，如“并不是觉得不贵”。也用于表示“如果条件吻合，……的可能性并不为零”，如“如果使劲拜托他，他也不是不能接受”。",
-        en: "As in \"高い気がしないでもない\" (I can't say I don't feel it's expensive), \"〜ないでもない\" is used when you don't want to state flatly that \"it's 〜 (I feel it's expensive).\" As in \"ぜひと頼まれれば、引き受けないでもない\" (if I'm earnestly asked, I might take it on), it is also used to say \"if the conditions are right, the possibility of doing 〜 (taking it on) is not zero.\"",
+        en: "As in \"高い気がしないでもない\" (I do rather feel it's expensive), \"〜ないでもない\" is used when you don't want to state flatly that \"it's 〜 (I feel it's expensive).\" As in \"ぜひと頼まれれば、引き受けないでもない\" (if I'm earnestly asked, I might take it on), it is also used to say \"if the conditions are right, the possibility of doing 〜 (taking it on) is not zero.\"",
       },
       forms: ["[V-~~ない~~] + ないでもない"],
       formNotes: [
@@ -210,10 +210,10 @@ N2F({
         {
           type: "choice",
           labels: "abc",
-          prompt: { ja: "", en: "Choose the meaning closest to the underlined (highlighted) part." },
+          prompt: { ja: "", en: "Choose the meaning closest to the underlined part." },
           items: [
-            { q: "あなたが会の司会が{嫌|いや}だと言うならば、私が**代わってやらないでもない**。", options: ["代わりたいが、代われない", "絶対に代わってやる", "代わってやってもいい"], answer: 2, en: "If you say you don't want to be the MC at the meeting, I wouldn't mind taking your place." },
-            { q: "{願書|がんしょ}は今日の{消印|けしいん}有効だから、今から出せば**受験できないものでもないですよ**。", options: ["受験の{意思|いし}がないので、受験はしない", "受験の{意思|いし}があれば、受験できる", "受験の{意思|いし}はあるが、もう受験できなくなった"], answer: 1, en: "Applications are valid if postmarked today, so if you send yours now, it's not impossible for you to take the exam." },
+            { q: "あなたが会の司会が{嫌|いや}だと言うならば、私が__代わってやらないでもない__。", options: ["代わりたいが、代われない", "絶対に代わってやる", "代わってやってもいい"], answer: 2, en: "If you say you don't want to be the MC at the meeting, I wouldn't mind taking your place." },
+            { q: "{願書|がんしょ}は今日の{消印|けしいん}有効だから、今から出せば__受験できないものでもないですよ__。", options: ["受験の{意思|いし}がないので、受験はしない", "受験の{意思|いし}があれば、受験できる", "受験の{意思|いし}はあるが、もう受験できなくなった"], answer: 1, en: "Applications are valid if postmarked today, so if you send yours now, it's not impossible for you to take the exam." },
           ],
         },
       ],
@@ -352,11 +352,11 @@ N2F({
         "Other uses of にして in N1 (not in this point, but worth knowing so you don't mix them up):\n" +
         "- **Nにして（初めて）** = *only at N / only someone like N*: この年にして初めて, 名人にして初めてできる技.\n" +
         "- **Nにして（も）** = *even N*: ベテランの彼にしてこのミスだ.\n" +
-        "- Time/age: 40歳にして結婚した (*at the age of 40*), 一瞬にして (*in an instant*), 幸いにして (*fortunately*).\n\n" +
+        "- Time/age (#102): 40歳にして結婚した (*at the age of 40*), 一瞬にして (*in an instant*), 幸いにして (*fortunately*).\n\n" +
         "Register: formal/written (the 'no casual talk' icon). In conversation use 〜で、〜 or 〜だし、〜.\n\n" +
         "JLPT tip: in the Check, 漫画家にして医学博士 — two roles of one person. If a sentence introduces a person with two titles or two praiseworthy qualities, にして is the answer.",
-      see: [],
-      index: ["Nにして", "AにしてB"],
+      see: [102],
+      index: ["〜にして②", "Nにして", "AにしてB"],
     },
     {
       no: 24,
