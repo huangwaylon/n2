@@ -916,7 +916,7 @@ All are optional and backward-compatible. Document them in `data/SCHEMA.md` unde
 | `line.cont: true` | sentence-split prose samples: 2.0, 2.1, 3.0, 4.0, 7.0, 7.1, 10.0, 10.1, 11.0, 14.0 (verify each against the scan) | This line continues the previous paragraph |
 | `line.style` | any sample line | One of `lead`, `row`, `cont`, `contact`, `center`, `right`, `credit`, `sep`. Overrides the heuristics in C6a/C6d |
 
-- Edit `data/frag/chNN-pK.js`, then run `node tools/merge.js N` and `node tools/check.js data/chapters/chNN.js`.
+- Edit `data/<book>/frag/chNN-pK.js`, then run `node tools/merge.js <book> N` and `node tools/check.js data/<book>/chapters/chNN.js`.
 - **Caution:** `data/frag/ch12-p1.js` and `ch13-p0.js` currently have uncommitted edits from the verification work. Re-read them before editing and don't overwrite unrelated changes.
 
 ---
@@ -1071,7 +1071,7 @@ See the table in 0.3.
 
 ### 3.2 Implementer B: chapter content components
 
-- **Files:** `assets/css/content.css`, `data/SCHEMA.md` (layout hints section), `data/frag/*.js` (sample `vertical`/`rings`/`cont`/`style` only), then regenerate `data/chapters/*.js` via `tools/merge.js`.
+- **Files:** `assets/css/content.css`, `data/SCHEMA.md` (layout hints section), `data/<book>/frag/*.js` (sample `vertical`/`rings`/`cont`/`style` only), then regenerate `data/<book>/chapters/*.js` via `tools/merge.js`.
 - **app.js functions:** `stars`, `MARKS`, `marks`, `gpCard`, `formsHtml` plus new `formulaHtml` and `kvTableHtml`, `examplesHtml`, `notesHtml`, `sampleHtml` plus new `noticeHtml`, `proseHtml`, `dialogueHtml` and `verticalHtml`, `chapterView` (plus new `bannerHtml`; it calls C's `checkHtml` and `reviewHtml`), `canDoHtml`, and the `ACT.vmode` / `ACT.toc` handlers.
 - **Components:** C1–C17, plus the O5 fix.
 - **Must not edit:** base/shell/exercises CSS, or A/C regions. Needs from A: helpers in Phase 0, the `fmt({vertical})` tcy wrapping, `.en-all`.
@@ -1102,7 +1102,7 @@ See the table in 0.3.
 **Tools:**
 - `node tools/shot.mjs ROUTE WIDTH HEIGHT OUT [light|dark]` for screenshots.
 - `node tools/overflow.mjs ROUTE WIDTH [en]` for overflow. It must print `docW == vw` and empty `vp`/`clip`.
-- `node tools/check.js data/chapters/chNN.js` for every chapter after data edits.
+- `node tools/check.js data/<book>/chapters/chNN.js` for every chapter after data edits.
 
 **Widths:** 1280, 768, 390 (iPhone 14/15), 375 (iPhone SE/mini). **Modes:** light and dark; EN off and on; furigana on and off.
 

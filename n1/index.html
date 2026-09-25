@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TRY! N1 文法 Interactive</title>
+<meta name="description" content="An interactive JLPT N1 grammar textbook: all 123 grammar points of TRY! N1, with Japanese explanations, the book's Chinese translations, optional English, furigana, audio and JLPT-style practice.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/shell.css">
+<link rel="stylesheet" href="../assets/css/content.css">
+<link rel="stylesheet" href="../assets/css/exercises.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>文</text></svg>">
+<script src="../assets/app.js"></script>
+<script src="../data/n1/book.js"></script>
+<script src="../data/n1/chapters/ch01.js"></script>
+<script src="../data/n1/chapters/ch02.js"></script>
+<script src="../data/n1/chapters/ch03.js"></script>
+<script src="../data/n1/chapters/ch04.js"></script>
+<script src="../data/n1/chapters/ch05.js"></script>
+<script src="../data/n1/chapters/ch06.js"></script>
+<script src="../data/n1/chapters/ch07.js"></script>
+<script src="../data/n1/chapters/ch08.js"></script>
+<script src="../data/n1/chapters/ch09.js"></script>
+<script src="../data/n1/chapters/ch10.js"></script>
+<script src="../data/n1/compare.js"></script>
+<script src="../data/n1/front.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
+  <a class="brand" href="#/" aria-label="N1 文法 ホーム Home"><span class="brand-mark">N1</span><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
+  <nav class="topnav" aria-label="ページ Pages">
+    <a href="#/about">この本について<span class="en-inline"> About</span></a>
+    <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
+    <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
+    <a href="#/compare">似ている文型<span class="en-inline"> Compare</span></a>
+    <a href="#/cando">できること<span class="en-inline"> Can-do</span></a>
+    <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
+  </nav>
+  <div class="toggles">
+    <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
+    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
+    <details class="settings"><summary title="設定 Settings" aria-label="設定 Settings"><span aria-hidden="true">⚙</span></summary>
+      <div class="settings-pop">
+        <label class="set-row">音声の速さ <span class="en-inline">Speech rate</span> <span id="rate-v"></span><input type="range" id="rate" min="0.5" max="1.4" step="0.1"></label>
+        <label class="set-row">縦書きの文章 <span class="en-inline">Vertical texts</span>
+          <select id="vmode-set"><option value="auto">自動 Auto</option><option value="v">縦 Vertical</option><option value="h">横 Horizontal</option></select></label>
+        <button class="btn small" onclick="N2.resetProgress()">進度をリセット <span class="en-inline">Reset progress</span></button>
+      </div>
+    </details>
+  </div>
+</header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar" aria-label="目次 Contents">
+    <nav class="sb-pages" aria-label="ページ Pages">
+      <a href="#/about">この本について<span class="en-inline"> About</span></a>
+      <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
+      <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
+      <a href="#/compare">似ている文型<span class="en-inline"> Compare</span></a>
+      <a href="#/cando">できること<span class="en-inline"> Can-do</span></a>
+      <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
+    </nav>
+    <div id="sb-nav"></div>
+  </aside>
+  <div class="sb-scrim" data-act="sb"></div>
+  <main id="main"></main>
+</div>
+<footer class="site-foot">
+  <p></p>
+</footer>
+</body>
+</html>

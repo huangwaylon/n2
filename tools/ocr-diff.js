@@ -1,16 +1,18 @@
 // Independent check of a transcription against OCR of the scanned book (macOS Vision, see tools/ocr/).
-// usage: node tools/ocr-diff.js data/chapters/ch01.js 18-29 [threshold]
-// Every Japanese string (and book-English field) in the chapter is fuzzy-matched against the OCR text
-// of the given pages plus the answer/script supplement (PDF 233–252). Strings whose best match
+// usage: node tools/ocr-diff.js data/<book>/chapters/ch01.js 18-29 [threshold]
+//        (works on fragments too: data/<book>/frag/ch01-p0.js)
+// Every Japanese string (and the book's own translations: English in N2, Chinese `zh` in N1) is fuzzy-matched
+// against the OCR text of the given pages plus the answer/script supplement. Strings whose best match
 // scores below the threshold are listed — each must be re-checked against the scan by eye.
 const fs = require("fs"), path = require("path");
-const OCR_DIR = process.env.OCR_DIR || path.join(__dirname, "ocr/txt");
+const { bookOf, root } = require("./books");
 const [file, range, thr = "0.9"] = process.argv.slice(2);
+const book = bookOf(path.resolve(file));
 const threshold = +thr;
 const [a, b] = range.split("-").map(Number);
 const pages = [];
 for (let p = a; p <= (b || a); p++) pages.push(p);
-for (let p = 233; p <= 252; p++) if (!pages.includes(p)) pages.push(p);
+for (let p = book.supplement[0]; p <= book.supplement[1]; p++) if (!pages.includes(p)) pages.push(p);
 
 let data;
 global.window = global;
@@ -26,15 +28,19 @@ const norm = (s) => plain(s).normalize("NFKC")
   .replace(/[\s　「」『』（）()、。・，．,.!！?？:：;；~〜～…‥\-－ー—―/／"“”'’＿_＋+\[\]【】〈〉《》★☆*＊→↔①-⑳]/g, "")
   .toLowerCase();
 
-const corpus = pages.map((p) => {
-  const f = path.join(OCR_DIR, String(p).padStart(3, "0") + ".txt");
-  return fs.existsSync(f) ? fs.readFileSync(f, "utf8") : "";
-}).join("\n");
-// OCR puts furigana on their own short all-kana lines; drop those so kanji lines join cleanly
-const corpusNorm = norm(corpus.split("\n").filter((l) => !/^[ぁ-ゖー\s]{1,12}$/.test(l.trim())).join(""));
+function loadCorpus(dir) {
+  const corpus = pages.map((p) => {
+    const f = path.join(root, dir, String(p).padStart(3, "0") + ".txt");
+    return fs.existsSync(f) ? fs.readFileSync(f, "utf8") : "";
+  }).join("\n");
+  // OCR puts furigana on their own short all-kana lines; drop those so kanji lines join cleanly
+  return norm(corpus.split("\n").filter((l) => !/^[ぁ-ゖー\s]{1,12}$/.test(l.trim())).join(""));
+}
+const CORPUS = { ja: loadCorpus(process.env.OCR_DIR || book.ocr.ja) };
+if (book.ocr.zh) CORPUS.zh = loadCorpus(book.ocr.zh);
 
 // best similarity of needle against any window of the corpus (edit distance, banded search)
-function bestScore(needle) {
+function bestScore(needle, corpusNorm) {
   if (!needle) return 1;
   if (corpusNorm.includes(needle)) return 1;
   const n = needle.length;
@@ -68,13 +74,15 @@ function editWindow(nd, hay) {
 // collect strings with their location; skip our own English translations and deepDives
 const out = [];
 const SKIP_KEYS = new Set(["deepDive", "why", "v", "kind", "type", "mode", "labels", "note", "see", "index", "no", "stars", "marks", "answer", "order", "star", "id", "intro", "pattern"]);
-// English printed in the book: usage/formNotes/notes/can-do/titles. All other `en` strings are our translations.
+// N2: English printed in the book: usage/formNotes/notes/can-do/titles. All other `en` strings are our translations.
+// N1: the book prints Chinese (`zh`, checked against the Chinese OCR); every `en` is ours.
 const BOOK_EN = /(^|\.)(usage|formNotes\.\d+|notes\.\d+|canDo\.\d+|title|genre)\.en$/;
 (function walk(o, p) {
   if (typeof o === "string") {
-    if (/(^|\.)en(\.\d+)?$/.test(p) && !BOOK_EN.test(p)) return;
+    if (/(^|\.)en(\.\d+)?$/.test(p) && (book.bookLang !== "en" || !BOOK_EN.test(p))) return;
+    if (/(^|\.)questionEn$/.test(p)) return;
     const n = norm(o);
-    if (n.length >= 4) out.push({ p, s: o, n });
+    if (n.length >= 4) out.push({ p, s: o, n, c: /(^|\.)zh(\.\d+)?$/.test(p) && CORPUS.zh ? "zh" : "ja" });
     return;
   }
   if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP_KEYS.has(k)) walk(v, p ? p + "." + k : k);
@@ -82,10 +90,10 @@ const BOOK_EN = /(^|\.)(usage|formNotes\.\d+|notes\.\d+|canDo\.\d+|title|genre)\
 
 let bad = 0;
 out.forEach((x) => {
-  const sc = bestScore(x.n);
+  const sc = bestScore(x.n, CORPUS[x.c]);
   x.score = sc;
   if (sc < threshold) bad++;
 });
 out.filter((x) => x.score < threshold).sort((u, v) => u.score - v.score)
-  .forEach((x) => console.log(`${x.score.toFixed(2)}  ${x.p}\n      ${plain(x.s).slice(0, 110)}`));
+  .forEach((x) => console.log(`${x.score.toFixed(2)}  ${x.p}${x.c === "zh" ? "  [zh]" : ""}\n      ${plain(x.s).slice(0, 110)}`));
 console.log(`\n${out.length} strings checked against OCR of pages ${range} + supplement; ${bad} below ${threshold}.`);

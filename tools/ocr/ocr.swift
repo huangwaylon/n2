@@ -8,7 +8,7 @@ for path in CommandLine.arguments.dropFirst() {
           let cg = img.cgImage(forProposedRect: nil, context: nil, hints: nil) else { print("ERR \(path)"); continue }
     let req = VNRecognizeTextRequest()
     req.recognitionLevel = .accurate
-    req.recognitionLanguages = ["ja-JP", "en-US"]
+    req.recognitionLanguages = (ProcessInfo.processInfo.environment["OCR_LANGS"] ?? "ja-JP,en-US").split(separator: ",").map(String.init)
     req.usesLanguageCorrection = true
     let h = VNImageRequestHandler(cgImage: cg, options: [:])
     try? h.perform([req])

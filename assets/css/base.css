@@ -155,3 +155,11 @@ ruby:not(:is(.vt, .vt-scroll) ruby) > rt {
   position: absolute; left: 50%; bottom: 100%; transform: translate(-50%, -0.08em);
   white-space: nowrap; letter-spacing: 0; text-align: center; pointer-events: none;
 }
+
+/* ---------- the book's Chinese translations (N1, Chinese edition) ---------- */
+/* hidden until the 中文 switch (body.show-zh) is on; styled like the book: small grey Song/Gothic under the Japanese */
+.zh { display: none; color: var(--en-book); font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif; font-size: 13px; line-height: 1.55; margin: 1px 0 .2em; }
+body.show-zh .zh { display: block; }
+body.show-zh span.zh { display: block; }
+/* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
+.bi--zh-only > .zh { display: block; font-size: 14.5px; color: var(--ink-2); }

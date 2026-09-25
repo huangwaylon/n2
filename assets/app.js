@@ -1,4 +1,5 @@
-/* TRY! N2 grammar companion — single-page renderer. No build step. */
+/* TRY! N2 / N1 grammar companion — single-page renderer shared by both books. No build step.
+   Each book page (index.html = N2, n1/index.html = N1) loads data/<book>/book.js first (N2.registerBook), then its chapters. */
 (function () {
   "use strict";
 
@@ -16,6 +17,11 @@
   };
   N2.registerCompare = (groups) => (N2.compare = groups);
   N2.registerFront = (sections) => (N2.front = sections);
+  // book meta (data/<book>/book.js). bookLang: language of the translations the book prints — "en" (N2: `en` on usage,
+  // notes, can-do is the book's) or "zh" (N1, Chinese edition: the book's text is in `zh`, every `en` is ours)
+  N2.book = { id: "n2", level: "N2", bookLang: "en", chapters: 14, points: 139 };
+  N2.registerBook = (b) => (N2.book = Object.assign({}, N2.book, b));
+  const BOOK = () => N2.book;
 
   // ---------- storage ----------
   const LS = {
@@ -25,10 +31,14 @@
     set(k, v) { try { localStorage.setItem("n2." + k, JSON.stringify(v)); } catch (e) {} },
   };
   // settings.vertical: "auto" | "v" | "h" — 縦書き for sample.vertical texts; auto = 縦 at ≥901 px, 横 below
-  const settings = Object.assign({ furigana: true, english: false, rate: 0.9, vertical: "auto" }, LS.get("settings", {}));
-  const progress = Object.assign({ studied: {}, scores: {} }, LS.get("progress", {}));
+  // settings are shared by both books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1";
+  // loaded at DOMContentLoaded, after data/<book>/book.js has registered the book)
+  const settings = Object.assign({ furigana: true, english: false, chinese: false, rate: 0.9, vertical: "auto" }, LS.get("settings", {}));
+  const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
+  let progress = { studied: {}, scores: {} };
+  const loadProgress = () => (progress = Object.assign({ studied: {}, scores: {} }, LS.get(progressKey(), {})));
   const saveSettings = () => LS.set("settings", settings);
-  const saveProgress = () => LS.set("progress", progress);
+  const saveProgress = () => LS.set(progressKey(), progress);
 
   // ---------- helpers ----------
   const $ = (s, r = document) => r.querySelector(s);
@@ -38,7 +48,7 @@
   const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 
   // POS badge: [N] [V] [いA] [なA] [A] [Pl] [Po], optional subscript/digit ([N₁] [いA₂]), optional "-form" ([V-る] [V-Pl] [V-~~ます~~])
-  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
+  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po|文|数)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
   const TCY_RE = /(?<![\d,.])\d{1,2}(?![\d,.])/g;
 
   // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
@@ -48,7 +58,7 @@
     let t = esc(s);
     t = t.replace(BADGE_RE, (m, inner) => {
       const html = inner.replace(/~~(.+?)~~/g, "<s>$1</s>");
-      const cls = /^N/.test(inner) ? "b-n" : /^いA/.test(inner) ? "b-i" : /^なA/.test(inner) ? "b-na" : /^P/.test(inner) ? "b-pl" : "b-v";
+      const cls = /^N/.test(inner) ? "b-n" : /^いA/.test(inner) ? "b-i" : /^なA/.test(inner) ? "b-na" : /^P/.test(inner) ? "b-pl" : /^[文数]/.test(inner) ? "b-s" : "b-v";
       const shape = /^P/.test(inner) ? "b-sq" : inner.includes("-") ? "b-pill" : "b-round";
       return `<span class="badge ${cls} ${shape}">${html}</span>`;
     });
@@ -89,13 +99,20 @@
       .join("");
   }
   const en = (s, tag = "div", cls = "") => (s ? `<${tag} class="en ${cls}">${fmt(s)}</${tag}>` : "");
+  // the book's Chinese translation (N1): small grey text, shown with the 中文 switch
+  const zh = (s, tag = "div") => (s ? `<${tag} class="zh" lang="zh-Hans">${fmt(s)}</${tag}>` : "");
+  // opts.book → the English is the book's own (only in books whose printed translations are English)
+  const enBook = (book) => (book && BOOK().bookLang === "en" ? "en--book" : "");
   const enToggle = () => `<button class="en-btn" data-act="en" title="Show / hide English">EN</button>`;
-  // bilingual line. o: string (Japanese only) or {ja, en}. opts.book: the English is printed in the book (.en--book, grey
-  // Gothic) rather than our translation; opts.vertical is passed to fmt() for the Japanese.
+  // bilingual line. o: string (Japanese only) or {ja, en, zh}. opts.book: in a book whose printed translations are English
+  // (N2) the English is the book's (.en--book, grey Gothic) rather than ours; o.zh is the book's Chinese (N1).
+  // opts.vertical is passed to fmt() for the Japanese.
   const bi = (o, tag = "p", cls = "", opts = {}) => {
     if (!o) return "";
     if (typeof o === "string") return `<${tag} class="${cls}">${fmt(o, opts)}</${tag}>`;
-    return `<div class="bi ${cls}">${o.en ? enToggle() : ""}<${tag} class="ja">${fmt(o.ja, opts)}</${tag}>${en(o.en, "div", opts.book ? "en--book" : "")}</div>`;
+    // a block the book prints only in Chinese (N1 front matter) has no ja: the Chinese then shows without the 中文 switch
+    const ja = o.ja ? `<${tag} class="ja">${fmt(o.ja, opts)}</${tag}>` : "";
+    return `<div class="bi ${cls}${o.ja ? "" : " bi--zh-only"}">${o.en ? enToggle() : ""}${ja}${zh(o.zh)}${en(o.en, "div", enBook(opts.book))}</div>`;
   };
   // one EN button for a whole container: put data-en-scope on the container, this button in its header row
   const enScopeBtn = () => `<button class="en-btn en-btn--scope" data-act="en-scope" title="Show / hide English">EN</button>`;
@@ -281,7 +298,7 @@
       const o = typeof n === "string" ? { ja: n } : n;
       const m = String(o.ja).match(/^＊(\d*)/);
       const mark = m ? "＊" + m[1] : "＊", text = m ? o.ja.slice(m[0].length) : o.ja;
-      return `<p class="fnote bi">${o.en ? enToggle() : ""}<span class="fnote__m">${mark}</span><span class="ja">${fmt(text)}</span>${o.en ? `<span class="en en--book">${fmt(o.en)}</span>` : ""}</p>`;
+      return `<p class="fnote bi">${o.en ? enToggle() : ""}<span class="fnote__m">${mark}</span><span class="ja">${fmt(text)}</span>${zh(o.zh, "span")}${o.en ? `<span class="en ${enBook(true)}">${fmt(o.en)}</span>` : ""}</p>`;
     }).join("");
   }
   function kvTableHtml(forms, notes) {
@@ -313,7 +330,7 @@
     if (!exs || !exs.length) return "";
     return `<ol class="exs ja-book">${exs
       .map((e, i) => `<li class="exs__i bi"><span class="exs__n" aria-hidden="true">${CIRCLED[i] || i + 1}</span>
-        <div class="exs__t"><span class="ja">${exText(e.ja)}${e.idiom ? `<span class="idiom" role="img" aria-label="慣用表現 idiom" title="慣用表現 — idiomatic expression">${IDIOM_SVG}</span>` : ""}</span>${en(e.en)}</div>
+        <div class="exs__t"><span class="ja">${exText(e.ja)}${e.idiom ? `<span class="idiom" role="img" aria-label="慣用表現 idiom" title="慣用表現 — idiomatic expression">${IDIOM_SVG}</span>` : ""}</span>${e.foot ? `<span class="exs__foot">${fmt(e.foot)}</span>` : ""}${en(e.en)}</div>
         <span class="exs__tools">${speakBtn(e.ja, "data-small")}${e.en ? enToggle() : ""}</span></li>`)
       .join("")}</ol>`;
   }
@@ -323,7 +340,7 @@
     return (notes || [])
       .map((n, k) => `<aside class="clip" data-en-scope>${CLIP_SVG}<div class="clip__body">
         <div class="clip__tools">${enScopeBtn()}</div>
-        ${bi({ ja: n.ja, en: n.en }, "p", "clip__text", { book: true })}
+        ${bi({ ja: n.ja, en: n.en, zh: n.zh }, "p", "clip__text", { book: true })}
         ${examplesHtml(n.examples)}
         ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
       </div></aside>${n.xref ? xrefHtml(n.xref) : ""}`)
@@ -351,7 +368,7 @@
       if (p.sep) return `<p class="prose__sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`;
       const e = paraEn(p), ja = p.lines.map((l) => fmt(l.ja)).join("");
       if (p.credit) return `<p class="credit">${ja}</p>`;
-      return `<div class="prose__para bi">${e ? enToggle() : ""}<p class="ja prose__p${quoteStart(p) ? " prose__p--q" : ""}">${ja}</p>${e ? `<div class="en prose__en">${fmt(e)}</div>` : ""}</div>`;
+      return `<div class="prose__para bi">${e ? enToggle() : ""}<p class="ja prose__p${quoteStart(p) ? " prose__p--q" : ""}${p.lines[0].style === "note" ? " prose__p--note" : ""}">${ja}</p>${e ? `<div class="en prose__en">${fmt(e)}</div>` : ""}</div>`;
     }).join("");
     return `<div class="prose ja-book">${body}</div>`;
   }
@@ -359,7 +376,7 @@
     const spw = Math.max(2, ...s.lines.map((l) => plain(l.sp || "").length));
     return `<div class="dlg ja-book${spw > 4 ? " dlg--wide" : ""}" style="--spw:${spw}em">${s.lines.map((l) => l.sp
       ? `<div class="dlg__row bi">${l.en ? enToggle() : ""}<span class="dlg__sp">${fmt(l.sp)}</span><span class="dlg__colon" aria-hidden="true">：</span><div class="dlg__body"><span class="ja">${fmt(l.ja)}</span>${en(l.en)}</div></div>`
-      : `<div class="dlg__row dlg__row--narr bi">${l.en ? enToggle() : ""}<div class="dlg__body"><span class="ja">${fmt(l.ja)}</span>${en(l.en)}</div></div>`).join("")}</div>`;
+      : `<div class="dlg__row dlg__row--narr${l.style === "note" ? " dlg__row--note" : ""} bi">${l.en ? enToggle() : ""}<div class="dlg__body"><span class="ja">${fmt(l.ja)}</span>${en(l.en)}</div></div>`).join("")}</div>`;
   }
   // notice (C6a): lead line, key▶value rows, tabular pay cells, contact block
   function noticeHtml(s) {
@@ -404,10 +421,16 @@
     if (s.kind === "editorial" && title.includes("　")) { const k = title.indexOf("　"); label = title.slice(0, k); title = title.slice(k + 1); }
     const mast = title ? `<header class="vt-mast">${label ? `<span class="vt-label">${fmt(label, { vertical: v })}</span>` : ""}<h3 class="vt-title">${fmt(title, { vertical: v })}</h3></header>` : "";
     const paras = paragraphs(s.lines);
-    if (!v) return `<div class="vt vt--h">${mast}${proseHtml(s)}</div>`;
-    const body = paras.map((p) => p.sep ? `<p class="vt-sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`
-      : `<p class="${quoteStart(p) ? "vt-q" : ""}">${p.lines.map((l) => fmt(l.ja, { vertical: true })).join("")}</p>`).join("");
-    const enPs = paras.filter((p) => !p.sep).map(paraEn).filter(Boolean);
+    const dlg = s.kind === "dialogue";
+    if (!v) return `<div class="vt vt--h">${mast}${dlg ? dialogueHtml(s) : proseHtml(s)}</div>`;
+    // drama script (N1 ch5): the speaker name heads each column, the lines hang under it; lines without sp are
+    // scene headings / stage directions
+    const body = dlg ? s.lines.map((l) => l.sp
+      ? `<p class="vt-dlg"><span class="vt-sp">${fmt(l.sp, { vertical: true })}</span><span class="vt-say">${fmt(l.ja, { vertical: true })}</span></p>`
+      : `<p class="vt-dir${l.style === "note" ? " vt-note" : ""}">${fmt(l.ja, { vertical: true })}</p>`).join("")
+      : paras.map((p) => p.sep ? `<p class="vt-sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`
+      : `<p class="${quoteStart(p) ? "vt-q" : ""}${p.lines[0].style === "note" ? " vt-note" : ""}">${p.lines.map((l) => fmt(l.ja, { vertical: true })).join("")}</p>`).join("");
+    const enPs = dlg ? s.lines.filter((l) => l.en).map((l) => (l.sp ? `${plain(l.sp)}: ` : "") + l.en) : paras.filter((p) => !p.sep).map(paraEn).filter(Boolean);
     return `<div class="vt-scroll" tabindex="0" role="region" aria-label="見本文（縦書き）"><div class="vt ja-book">${mast}${body}</div></div>
       ${enPs.length ? `<div class="vt-en en">${enPs.map((e) => `<p>${fmt(e)}</p>`).join("")}</div>` : ""}`;
   }
@@ -518,7 +541,7 @@
   }
   const canDoHtml = (list) => `<section class="cando" data-en-scope>
     <h2 class="cando__label">${pill("できること")}<span class="cando__tools">${enScopeBtn()}</span></h2>
-    <ul class="cando__list">${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${c.en ? `<span class="en en--book">${fmt(c.en)}</span>` : ""}</li>`).join("")}</ul>
+    <ul class="cando__list">${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${zh(c.zh, "span")}${c.en ? `<span class="en ${enBook(true)}">${fmt(c.en)}</span>` : ""}</li>`).join("")}</ul>
   </section>`;
 
   // ===== end [B] chapter content =====
@@ -974,8 +997,10 @@
       .join("");
     return `<div class="home">
       <section class="hero">
-        <h1>JLPT N2 文法 <span class="hero-sub">Interactive Grammar Textbook</span></h1>
-        <p class="lead">An interactive edition of <em>TRY! 日本語能力試験 N2</em> (ABK / ASK): all 14 chapters and ${total || 139} grammar points with the book’s sample texts, explanations, examples, practice and review questions, plus listening via text-to-speech.</p>
+        <h1>JLPT ${esc(BOOK().level)} 文法 <span class="hero-sub">Interactive Grammar Textbook</span></h1>
+        <p class="lead">An interactive edition of <em>${esc(BOOK().bookTitle || "TRY! 日本語能力試験 " + BOOK().level)}</em>${BOOK().credit ? ` (${esc(BOOK().credit)})` : ""}: all ${N2.chapters.length || BOOK().chapters} chapters and ${total || BOOK().points} grammar points with the book’s sample texts, explanations, examples, practice and review questions, plus listening via text-to-speech.</p>
+        ${BOOK().bookLang === "zh" ? `<div class="bi hero-bi" data-en-scope>${enToggle()}<p class="ja">${fmt("この本の{翻訳|ほんやく}は{中国語|ちゅうごくご}です。本に{印刷|いんさつ}されている中国語訳は「中文」スイッチで表示できます。英語はすべてこのサイトの{補足|ほそく}です。")}</p>
+        <div class="en">This is the Chinese edition of the book: the translations printed in it are in Chinese. Turn on <b>中文</b> in the top bar to see them. All English on this site is our own supplementary translation.</div></div>` : ""}
         <div class="bi hero-bi" data-en-scope>${enToggle()}${enScopeBtn()}<p class="ja">日本語で読むことに慣れるため、説明は日本語が中心です。英語の説明・訳は最初は隠れています。右上の「EN」で表示できます。</p>
         <div class="en">To get you used to reading Japanese, explanations are primarily in Japanese. English translations and detailed English explanations are hidden by default — use the <b>EN</b> switch at the top (or the small EN button next to any line) to reveal them.</div></div>
         <div class="stats"><div><b>${done}</b> / ${total} studied</div><div class="bar big"><span style="width:${total ? (100 * done) / total : 0}%"></span></div></div>
@@ -1169,7 +1194,7 @@
       if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
     } else window.scrollTo(0, 0);
     const ch = N2.chapters.find((c) => c.id === activeCh);
-    document.title = (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + "TRY! N2 文法 Interactive";
+    document.title = (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
   }
   // keep the same chapter DOM when jumping between its grammar points
   function sameChapterJump() {
@@ -1222,8 +1247,10 @@
   function applySettings() {
     document.body.classList.toggle("no-furi", !settings.furigana);
     document.body.classList.toggle("show-en", settings.english);
+    document.body.classList.toggle("show-zh", settings.chinese);
     $("#tg-furi").checked = settings.furigana;
     $("#tg-en").checked = settings.english;
+    ["#tg-zh", "#set-zh"].forEach((q) => { if ($(q)) $(q).checked = settings.chinese; });
     $("#rate").value = settings.rate;
     $("#rate-v").textContent = settings.rate.toFixed(1) + "×";
     $("#vmode-set").value = settings.vertical;
@@ -1250,6 +1277,7 @@
       updateSidebarProgress();
     } else if (t.id === "tg-furi") { settings.furigana = t.checked; saveSettings(); applySettings(); }
     else if (t.id === "tg-en") { settings.english = t.checked; saveSettings(); applySettings(); }
+    else if (t.id === "tg-zh" || t.id === "set-zh") { settings.chinese = t.checked; saveSettings(); applySettings(); }
     else if (t.id === "vmode-set") { setVertical(t.value); rerender(); }
     else if (t.id === "reset-progress") {}
   });
@@ -1282,7 +1310,29 @@
   window.addEventListener("hashchange", () => { if (!sameChapterJump()) route(); else setDrawer(false, false); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   matchMedia("(max-width: 900px)").addEventListener("change", (m) => { if (!m.matches) setDrawer(false, false); });
+  // book-specific parts of the static shell: brand, book switcher, 中文 switch (books with Chinese translations), footer
+  function bookShell() {
+    const b = BOOK();
+    document.body.dataset.book = b.id;
+    const mark = $(".brand-mark"); if (mark) mark.textContent = b.level;
+    const brand = $(".brand"); if (brand) brand.setAttribute("aria-label", `${b.level} 文法 ホーム Home`);
+    if (b.books && brand && !$(".book-switch")) {
+      brand.insertAdjacentHTML("afterend", `<nav class="book-switch" aria-label="本 Book">${b.books.map((o) =>
+        `<a href="${esc(o.href)}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.title || "")}">${esc(o.label)}</a>`).join("")}</nav>`);
+    }
+    const tg = $(".toggles");
+    if (b.bookLang === "zh" && tg && !$("#tg-zh")) {
+      tg.insertAdjacentHTML("afterbegin", `<label class="switch switch--zh" title="本の中国語訳 The book's Chinese translations"><input type="checkbox" id="tg-zh"><span class="sw" aria-hidden="true"></span><span class="sw-l">中文</span></label>`);
+      // phones hide the top-bar switch (no room); the same setting sits in the ⚙ popover
+      const pop = $(".settings-pop");
+      if (pop) pop.insertAdjacentHTML("afterbegin", `<label class="set-row set-row--zh"><span>本の中国語訳 <span class="en-inline">Book's Chinese</span></span><input type="checkbox" id="set-zh"></label>`);
+    }
+    const foot = $(".site-foot p"); if (foot && b.footer) foot.innerHTML = b.footer;
+  }
+
   window.addEventListener("DOMContentLoaded", () => {
+    loadProgress();
+    bookShell();
     TTS.load();
     applySettings();
     sidebar();

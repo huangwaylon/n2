@@ -1,5 +1,6 @@
-// usage: node /tmp/check.js data/chapters/chNN.js  -> validates structure
-const f=process.argv[2]; let ch; global.N2={register:c=>ch=c,registerCompare:g=>ch=g}; global.window=global;
+// usage: node tools/check.js data/<book>/chapters/chNN.js  -> validates structure (N1: also the book's Chinese `zh` fields)
+const f=process.argv[2]; let ch; global.N2={register:c=>ch=c,registerCompare:g=>ch=g,registerBook:()=>{},registerFront:()=>{}}; global.window=global;
+const isN1=/data[\\/]n1[\\/]/.test(require('path').resolve(f));
 require(require('path').resolve(f));
 const errs=[]; const E=(m)=>errs.push(m);
 const chkEx=(ex,w)=>{ if(!ex||!ex.type) return E(w+': missing type');
@@ -16,6 +17,12 @@ const nos=[];
 if(Array.isArray(ch)){ console.log('compare groups',ch.length, ch.reduce((a,g)=>a+g.items.length,0),'items'); process.exit(0);}
 ch.parts.forEach((p,pi)=>{ p.points.forEach(g=>{ nos.push(g.no); ['pattern','usage','forms','examples','deepDive'].forEach(k=>{if(!g[k])E(`gp${g.no}: missing ${k}`)}); (g.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} practice${j}`)); (g.plus||[]).forEach((pl,k)=>(pl.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} plus${k}`))); (g.notes||[]).forEach((n,k)=>(n.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} note${k}`)));}); if(p.check) [].concat(p.check).forEach((c,k)=>chkEx(c,`part${pi} check${k}`)); if(!p.sample) E(`part${pi}: no sample`);});
 (ch.review||[]).forEach((r,k)=>chkEx(r.ex,`review${k}`));
+if(isN1){ // the Chinese edition prints a Chinese line under every usage explanation, clip note and Plus usage
+ ch.parts.forEach(p=>p.points.forEach(g=>{ if(g.usage&&!g.usage.zh) E(`gp${g.no}: usage has no zh`); if(g.usage&&!g.usage.en) E(`gp${g.no}: usage has no en`); (g.plus||[]).forEach((pl,k)=>{ if(pl.usage&&!pl.usage.zh) E(`gp${g.no} plus${k}: usage has no zh`);}); (g.notes||[]).forEach((n,k)=>{ if(!n.en) E(`gp${g.no} note${k}: no en`);}); }));
+ [].concat(ch.canDo||[],...ch.parts.map(p=>p.canDo||[])).forEach((c,k)=>{ if(!c.zh) E(`canDo${k}: no zh`); if(!c.en) E(`canDo${k}: no en`);});
+ const zs=[]; (function walk(o,k){ if(typeof o==='string'){ if(k==='zh') zs.push(o);} else if(o&&typeof o==='object') Object.entries(o).forEach(([kk,v])=>walk(v,Array.isArray(o)?k:kk)); })(ch,'');
+ zs.forEach(z=>{ if(/[ぁ-んァ-ン]/.test(z.replace(/“[^”]*”|「[^」]*」|（[^）]*）/g,''))) E('zh contains kana outside quotes (Japanese in a zh field?): '+z.slice(0,50)); });
+}
 const strs=[]; (function walk(o){ if(typeof o==='string') strs.push(o); else if(o&&typeof o==='object') Object.values(o).forEach(walk); })(ch);
 strs.forEach(s=>{ if(s.includes('\uFFFD')) E('corrupted character U+FFFD: '+s.slice(0,60)); const t=s.replace(/\{[^{}|]+\|[^{}|]+\}/g,''); if(/[{}]/.test(t)) E('bad ruby/braces: '+s.slice(0,80)); if(/\{[^{}|]*[ぁ-ん]+\|/.test(s)&&/\{[ぁ-ん]+\|/.test(s)) E('ruby base is kana: '+s.slice(0,60)); if((s.match(/\*\*/g)||[]).length%2) E('unbalanced **: '+s.slice(0,80)); });
 console.log(`ch${ch.id}: points ${nos.join(',')} | review sections ${(ch.review||[]).length}`);

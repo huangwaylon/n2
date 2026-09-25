@@ -1,16 +1,17 @@
-// Asserts that every form in the book's index (tools/index-manifest.txt) is represented
-// under the right grammar-point number, and that points 1–139 sit in the right chapters.
+// Asserts that every form in the book's index (tools/<book>/index-manifest.txt) is represented
+// under the right grammar-point number, and that all points sit in the right chapters and parts.
+// usage: node tools/verify-index.js [n1|n2]   (default n2)
 const fs = require("fs"), path = require("path");
-const root = path.resolve(__dirname, "..");
+const { bookArg, chapterFile } = require("./books");
+const [book] = bookArg(process.argv.slice(2));
 const chapters = [];
 global.window = global;
 global.N2 = { register: (c) => chapters.push(c), registerCompare: () => {} };
-for (let i = 1; i <= 14; i++) {
-  const f = path.join(root, "data/chapters", `ch${String(i).padStart(2, "0")}.js`);
+for (let i = 1; i <= book.chapters; i++) {
+  const f = chapterFile(book, i);
   if (fs.existsSync(f)) require(f);
 }
-const TOC = { 1: [1, 8], 2: [9, 21], 3: [22, 29], 4: [30, 36], 5: [37, 47], 6: [48, 59], 7: [60, 72], 8: [73, 77], 9: [78, 91], 10: [92, 99], 11: [100, 106], 12: [107, 118], 13: [119, 131], 14: [132, 139] };
-const PARTS = { 2: 16, 5: 43, 6: 53, 7: 66, 9: 85, 10: 96, 12: 113, 13: 125 }; // first point of part (2)
+const { TOC, PARTS } = book; // PARTS[ch] = first point of part (2), (3) …
 const plain = (s) => String(s || "").replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\[[^\]]*\]/g, "").replace(/\*\*/g, "");
 const norm = (s) => plain(s).replace(/（[^）]*）|\([^)]*\)/g, "").replace(/[〜～A-Za-z①②③。…+＋\s・、／/「」]/g, "");
 const errs = [], seen = {};
@@ -19,10 +20,9 @@ chapters.forEach((ch) => {
   const nos = ch.parts.flatMap((p) => p.points.map((g) => g.no));
   const want = Array.from({ length: b - a + 1 }, (_, i) => a + i);
   if (nos.join() !== want.join()) errs.push(`ch${ch.id}: points ${nos.join()} ≠ expected ${want.join()}`);
-  if (PARTS[ch.id]) {
-    if (ch.parts.length !== 2) errs.push(`ch${ch.id}: expected 2 parts`);
-    else if (ch.parts[1].points[0].no !== PARTS[ch.id]) errs.push(`ch${ch.id}: part (2) should start at ${PARTS[ch.id]}`);
-  } else if (ch.parts.length !== 1) errs.push(`ch${ch.id}: expected 1 part`);
+  const starts = PARTS[ch.id] || [];
+  if (ch.parts.length !== starts.length + 1) errs.push(`ch${ch.id}: expected ${starts.length + 1} part(s), got ${ch.parts.length}`);
+  else starts.forEach((no, k) => { if (ch.parts[k + 1].points[0].no !== no) errs.push(`ch${ch.id}: part (${k + 2}) should start at ${no}`); });
   ch.parts.forEach((p) => p.points.forEach((g) => {
     const blob = [g.pattern, g.phrase, ...(g.index || []), ...(g.forms || []),
       ...(g.plus || []).flatMap((x) => [x.pattern, ...(x.forms || [])]),
@@ -31,7 +31,7 @@ chapters.forEach((ch) => {
   }));
 });
 const present = new Set(chapters.map((c) => c.id));
-const lines = fs.readFileSync(path.join(__dirname, "index-manifest.txt"), "utf8").split("\n").filter((l) => l && !l.startsWith("#"));
+const lines = fs.readFileSync(path.join(__dirname, book.id, "index-manifest.txt"), "utf8").split("\n").filter((l) => l && !l.startsWith("#"));
 let checked = 0;
 lines.forEach((l) => {
   const [form, noS] = l.split("\t"); const no = +noS;
