@@ -547,7 +547,7 @@ N2.registerCompare([
         ex: { ja: "A：{健康|けんこう}のために、少し運動したほうがいいですよ。\nB：じゃ、これから毎日1時間くらい歩く**ようにします**。", en: "A: You should get a little exercise for your health.\nB: Then from now on I'll try to walk for about an hour every day." },
         note: "\"Try to / make a habit of\": conscious effort." },
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Please tell him to study too, from you as his mother." },
+        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Please tell him to study, too — he should hear it from his mother as well." },
         note: "\"Tell (someone) to\": reports a request or instruction indirectly (〜ように言う/言われる)." },
       { pattern: "〜ようになる①", level: "N4",
         ex: { ja: "日本へ来たときは、{納豆|なっとう}が食べられませんでしたが、今は食べられる**ようになりました**。", en: "When I came to Japan I couldn't eat natto, but now I can." },

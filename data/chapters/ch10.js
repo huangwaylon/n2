@@ -467,7 +467,7 @@ N2.register({
               "en": "When I was watching the speed-eating championship, the contestants were reaching for the next dish almost before they'd even put the food in their mouths."
             },
             {
-              "ja": "５時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。",
+              "ja": "5時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。",
               "en": "It had barely turned five o'clock when he briskly started getting ready to go home."
             },
             {
@@ -563,7 +563,7 @@ N2.register({
                   "en": "At the exchange event, the students are happily chatting with the children."
                 },
                 {
-                  "q": "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンＢをとるようにしてください。",
+                  "q": "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。",
                   "options": [
                     "げ",
                     "ぎみ"
@@ -799,7 +799,7 @@ N2.register({
               "わりに"
             ],
             "answer": 1,
-            "en": "He has had the top grades ever since he entered school, and now that he came in second on this test, he's as depressed as if his life were over.",
+            "en": "He had been top of his class ever since he started school, and now that he's come second on this test, he's as depressed as if his life were over.",
             "why": {
               "en": "〜かのように: as if (it isn't actually so)."
             }
@@ -1033,9 +1033,9 @@ N2.register({
             ],
             "en": [
               "Oh no, I just broke a plate a moment ago, and now I've gone and done it again.",
-              "1. What did you do this time?",
-              "2. That's good.",
-              "3. Well then, let's get it done."
+              "What did you do this time?",
+              "That's good.",
+              "Well then, let's get it done."
             ],
             "options": [
               "今度は何やったんですか。",
@@ -1057,9 +1057,9 @@ N2.register({
             ],
             "en": [
               "Yesterday you looked so proud, saying you'd answered everything on the test. What happened?",
-              "1. Yeah, I'm not good at it.",
-              "2. Actually, it turned out to be a total failure.",
-              "3. Yeah, it was a good result."
+              "Yeah, I'm not good at it.",
+              "Actually, it turned out to be a total failure.",
+              "Yeah, it was a good result."
             ],
             "options": [
               "うん、{得意|とくい}じゃないんだよ。",
@@ -1081,14 +1081,14 @@ N2.register({
             ],
             "en": [
               "I went to the karaoke place in front of the station yesterday, and I decided I'll never go there again.",
-              "1. What? You're going again?",
-              "2. What? You didn't go a second time?",
-              "3. What? Did something happen?"
+              "What? You're going again?",
+              "What? You didn't go a second time?",
+              "What? Did something happen?"
             ],
             "options": [
-              "え？ また、行くの？",
-              "え？ 二度と行かなかったの？",
-              "え？ 何かあったの？"
+              "え？　また、行くの？",
+              "え？　二度と行かなかったの？",
+              "え？　何かあったの？"
             ],
             "answer": 2,
             "why": {

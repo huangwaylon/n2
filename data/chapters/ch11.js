@@ -151,7 +151,7 @@ N2.register({
               "en": "It is said that people in developed countries, who make up only 20% of the world's population, emit 60% of the CO₂."
             },
             {
-              "ja": "{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての{生物|せいぶつ}を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。",
+              "ja": "{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての生物を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。",
               "en": "Apparently humankind has discovered a mere 2% of the living things on Earth, and it is said to be impossible to identify and classify them all."
             },
             {
@@ -271,6 +271,7 @@ N2.register({
             "なAな上に",
             "Nの上に"
           ],
+          "xref": "☞ p.220　〜{上|うえ}／{上|じょう}",
           "practice": [
             {
               "type": "choice",
@@ -279,7 +280,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.220　〜{上|うえ}／{上|じょう}",
               "items": [
                 {
                   "q": "GDPを見ると、データ（　）{豊|ゆた}かになってきているわが国だが、国民の生活{水準|すいじゅん}は高いとは言えず、その{向上|こうじょう}が今後の{課題|かだい}だ。",
@@ -446,7 +446,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
-          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). Adjectives don't attach: ✗安いに限る → ✓安いものに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *it's always ~ who… / just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
+          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). These are the forms the book gives; with an い-adjective you'll mostly meet it in set phrases like ビールは冷たいに限る, and otherwise people rephrase with a noun: 安いものに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *it's always ~ who… / just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
           "see": [
             3,
             23,
@@ -525,7 +525,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**〜だけあって** means *as one would expect from ~ / befitting ~*. The first half states a fact about someone's status, effort, price or background; the second half is a result that **naturally matches** it — and almost always a **positive evaluation** (hence the praise mark). It often pairs with **さすが**: さすがプロだけあって、うまい.\n\nConnection: plain forms of verbs (including V-ている, V-た), いA, なA + な, and nouns directly (プロだけあって, 老舗だけあって). Formal: 〜であるだけあって.\n\n**〜だけに** has two faces:\n- Like だけあって: 名門校だけに、授業のレベルが高い. Here it can also be used for negative-but-expected results (人気店だけに、いつも混んでいる).\n- The note: *all the more because ~* — the first half **amplifies a feeling** in the second: 期待していただけに、がっかりした. This is where だけあって cannot be used, because there is no praise and the result isn't what the reputation “deserves”. Typical second halves: 残念だ, うれしい, ショックだ, いっそう〜感じる.\n\nDon't confuse with plain だけ: **〜だけで** *just by ~* (ボタンを押すだけでいい) and **V-たいだけ** *as much as you want* (食べたいだけ食べる). The practice mixes these deliberately.\n\nAlso compare **〜だけのことはある** (*it's worth / no wonder*), a sentence-final cousin: 高いだけのことはある. Other だけ patterns in the book (☞ similar pattern list 〜だけ): **V-るだけV** *at least try ~* (#47) and **[V-できる] + だけ** *as much as possible* (#55).",
+          "deepDive": "**〜だけあって** means *as one would expect from ~ / befitting ~*. The first half states a fact about someone's status, effort, price or background; the second half is a result that **naturally matches** it — and almost always a **positive evaluation** (hence the praise mark). It often pairs with **さすが**: さすがプロだけあって、うまい.\n\nConnection: plain forms of verbs (including V-ている, V-た), いA, なA + な, and nouns directly (プロだけあって, 老舗だけあって) — or with な when the noun describes a state (猛暑なだけに, ＊ note). Formal: 〜であるだけあって.\n\n**〜だけに** has two faces:\n- Like だけあって: 名門校だけに、授業のレベルが高い. Here it can also be used for negative-but-expected results (人気店だけに、いつも混んでいる).\n- The note: *all the more because ~* — the first half **amplifies a feeling** in the second: 期待していただけに、がっかりした. This is where だけあって cannot be used, because there is no praise and the result isn't what the reputation “deserves”. Typical second halves: 残念だ, うれしい, ショックだ, いっそう〜感じる.\n\nDon't confuse with plain だけ: **〜だけで** *just by ~* (ボタンを押すだけでいい) and **V-たいだけ** *as much as you want* (食べたいだけ食べる). The practice mixes these deliberately.\n\nAlso compare **〜だけのことはある** (*it's worth / no wonder*), a sentence-final cousin: 高いだけのことはある. Other だけ patterns in the book (☞ similar pattern list 〜だけ): **V-るだけV** *at least try ~* (#47) and **[V-できる] + だけ** *as much as possible* (#55).",
           "see": [
             47,
             55
@@ -535,6 +535,7 @@ N2.register({
             "〜だけに",
             "さすが〜だけあって"
           ],
+          "xref": "☞ p.222　〜だけ",
           "practice": [
             {
               "type": "choice",
@@ -543,7 +544,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.222　〜だけ",
               "items": [
                 {
                   "q": "さすが彼は{一流|いちりゅう}大学を出ている（　）、{知識|ちしき}が{豊富|ほうふ}だ。",
@@ -1175,7 +1175,7 @@ N2.register({
             "en": [
               "Two parents are talking about their child's future. What does the father think?",
               "Takashi says he wants to become a professional baseball player.",
-              "Isn't that fine? Is there some problem?",
+              "Sounds good to me. Is there some problem?",
               "But... you couldn't become a pro baseball player either, could you?",
               "Well, that's because I got injured.",
               "I want him to become a school teacher like you.",

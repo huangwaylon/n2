@@ -44,6 +44,7 @@ N2F({
         "Common mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\n" +
         "JLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
       see: [],
+      xref: "☞ p.222　〜さえ",
       index: ["Nさえ〜ば", "Vますさえすれば", "〜でさえあれば", "〜さえなければ", "〜くさえあれば"],
       practice: [
         {
@@ -96,6 +97,7 @@ N2F({
         "Nuance: ようがない sounds resigned — the frowning-face mark reflects that the speaker regrets or is frustrated that nothing can be done.\n\n" +
         "Common mistake: ✗書けようがない (don't use the potential form) and ✗書くようがない (use the ます-stem).",
       see: [84],
+      xref: "☞ p.225　〜よう",
       index: ["Vますようがない", "Nのしようがない", "どうしようもない", "しようがない"],
       practice: [
         {
@@ -173,6 +175,7 @@ N2F({
         "Compare with close expressions:\n- **〜べきではない**: *should not* — a more logical, personal judgment; ものではない appeals to general norms.\n- **〜てはいけない**: direct prohibition, stronger and more rule-like.\n- **〜というものではない** (#25): *it's not (necessarily) the case that ~*: 高ければいいというものではない. Totally different meaning — a denial of a generalization, not a warning.\n- **〜ものか / もんか** (#51): *no way I'll ~*: 負けるもんか. A refusal, not advice.\n- **〜ものではない** can also appear in the non-admonishing sense *can't easily ~*: この味はなかなか出せるものではない (this flavor is not something you can easily produce). That's closer to *it's not possible*.\n\n" +
         "JLPT tip: if the sentence is scolding someone for bad manners or poor attitude, ものではない is the answer; if it's denying an assumption (〜ばいい), look for というものではない.",
       see: [13, 25, 39, 51, 52, 56, 92, 122, 132],
+      xref: "☞ p.224　〜もの／もん",
       index: ["Vるものではない", "Vるもんじゃない", "ものではありません"],
     },
     {
@@ -198,6 +201,7 @@ N2F({
         "Also distinct from **〜だけに** (#105, *precisely because*) and the plain だけ *only*.\n\n" +
         "JLPT tip: in ordering questions, if you see two pieces with the same verb, one of them plus だけ, they go together: 出す＋だけ＋出して.",
       see: [55, 105],
+      xref: "☞ p.222　〜だけ",
       index: ["VるだけVてみる", "〜だけ〜てみる", "言うだけ言ってみる"],
     },
   ],

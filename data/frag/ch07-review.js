@@ -105,7 +105,7 @@ N2F({ ch: 7, review: [
             { sp: "F", v: "f", ja: "社長、駅向こうのエース電気、また{値下|ねさ}げセールやってますよ。うちも{値下|ねさ}げセールやりましょうよ！" },
             { sp: "M", v: "m", ja: "やりたくても、これ以上安くするのは{経営上|けいえいじょう}{無理|むり}なんだよ。だから、その分、サービスで{勝負|しょうぶ}したいんだ。今は{修理|しゅうり}サービスだけだし…。" },
             { sp: "F", v: "f", ja: "ほかの店がやらないようなのじゃないとだめですよね。" },
-            { sp: "M", v: "m", ja: "うちは{年配|ねんぱい}のお客様が多いだろ？ この点から見て、何か考えられないかな。" },
+            { sp: "M", v: "m", ja: "うちは{年配|ねんぱい}のお客様が多いだろ？　この点から見て、何か考えられないかな。" },
             { sp: "F", v: "f", ja: "わかりました。みんなで考えてみます。" },
           ],
           en: [
@@ -173,7 +173,7 @@ N2F({ ch: 7, review: [
       items: [
         { script: [{ sp: "M", v: "m", ja: "これ、{宇宙人|うちゅうじん}の写真だって。でもあり{得|え}ない話じゃないよね。" }],
           en: ["They say this is a photo of an alien. But it's not impossible, is it?", "Yeah, I don't think aliens exist either.", "What? You think aliens exist?", "What are you talking about? That's a story about aliens."],
-          options: ["うん、私も{宇宙人|うちゅうじん}はいないと思う。", "え？ {宇宙人|うちゅうじん}がいると思っているの？", "何言ってるの、それは{宇宙人|うちゅうじん}の話よ。"],
+          options: ["うん、私も{宇宙人|うちゅうじん}はいないと思う。", "え？　{宇宙人|うちゅうじん}がいると思っているの？", "何言ってるの、それは{宇宙人|うちゅうじん}の話よ。"],
           answer: 1,
           why: { en: "あり得ない話じゃない means \"it's not impossible\", i.e. he half-believes it, so she reacts with surprise: you think aliens exist?" } },
         { script: [{ sp: "F", v: "f", ja: "{今朝|けさ}の新聞には{景気|けいき}が{回復|かいふく}しつつあるって書いてあったけど、どう思う？" }],

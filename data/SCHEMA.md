@@ -179,4 +179,4 @@ Heuristics used when `style` is absent: notice (`kind:"notice"`) — the first l
 ☎ / http / E-mail the contact block starts. Article — a line `（文：…）` is the right-aligned credit.
 Story — a line of only 〜 is a scene separator.
 
-Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point.
+Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point. A ãã£ã¦ã¿ãã exercise may carry its own `xref` when the book prints the â line right after the exercise but before a following ï¼Plus box; it is printed right after that exercise.

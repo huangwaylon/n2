@@ -242,12 +242,12 @@ N2F({
         "Register: stiff and written; in conversation use だけじゃなくて.",
       see: [58, 72],
       index: ["〜のみならず", "ただ〜のみならず", "ひとり〜のみならず", "Nであるのみならず"],
+      xref: "☞ p.224　〜のみ",
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
-          xref: "☞ p.224　〜のみ",
           items: [
             { q: "{信頼|しんらい}される{上司|じょうし}とは、{能力|のうりょく}が高く{経験|けいけん}が{豊富|ほうふ}であるのみならず、（　）。", options: ["{部下|ぶか}の意見に耳を{傾|かたむ}けることもできる人だ", "{部下|ぶか}の意見を聞かないで、自分の考えで仕事をする人だ"], answer: 0, en: "A boss who is trusted is someone who not only is highly capable and very experienced but can also listen to their subordinates' opinions." },
             { q: "{朝日電子|あさひでんし}の{新製品|しんせいひん}はシェアを{独占|どくせん}したのみならず、（　）。", options: ["売り上げを{伸|の}ばさなければならない", "会社のイメージアップにも{貢献|こうけん}した"], answer: 1, en: "Asahi Electronics' new product not only monopolised the market share but also contributed to improving the company's image." },

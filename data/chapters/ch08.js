@@ -232,7 +232,7 @@ N2.register({
           examples: [
             { ja: "こちらの{事情|じじょう}をご{理解|りかい}いただければと思います。", en: "I'd be grateful if you could understand our circumstances." },
             { ja: "この仕事を{山田|やまだ}さんにお願いできればと思っているんですが…。", en: "I was hoping I could ask Mr. Yamada to do this job..." },
-            { ja: "皆さんのご意見をお聞かせくだされればと思います。", en: "I'd be grateful if you would all let me hear your opinions." },
+            { ja: "皆さんのご意見をお聞かせくださればと思います。", en: "I'd be grateful if you would all let me hear your opinions." },
             { ja: "スピーチコンテストで{入賞|にゅうしょう}できればと思って、がんばっています。", en: "I'm working hard, hoping to win a prize in the speech contest." },
             { ja: "A：こちらのお部屋はいかがでしょうか。\nB：そうですね。もう少し広ければと思うんですが…。", en: "A: How about this room?\nB: Well... I was hoping for something a little bigger." },
           ],
@@ -388,7 +388,7 @@ N2.register({
           "お買い上げ{誠|まこと}にありがとうございます。お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には{万全|ばんぜん}を{期|き}して[2]が、{万一|まんいち}{不良品|ふりょうひん}などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。",
         ],
         en: [
-          "Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there by any chance be a defective item, we are sorry for the trouble but ask that you contact our company.",
+          "Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there by any chance be a defective item or the like, we apologize for the inconvenience and ask that you contact our company.",
         ],
         blanks: [
           { options: ["なさいました", "いたしました", "ございました", "まいりました"], answer: 1, why: { en: "The company delivers (届ける) → humble お届けいたしました." } },
@@ -399,7 +399,7 @@ N2.register({
       },
     },
     {
-      title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening — 1 (Summary comprehension)" },
+      title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — overall gist" },
       ex: {
         type: "listening",
         mode: "gist",
@@ -445,7 +445,7 @@ N2.register({
       },
     },
     {
-      title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening — 2 (Quick response)" },
+      title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (2) — quick response" },
       ex: {
         type: "listening",
         mode: "response",

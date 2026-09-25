@@ -130,7 +130,7 @@ N2F({ ch: 11, review: [
           en: [
             "Two parents are talking about their child's future. What does the father think?",
             "Takashi says he wants to become a professional baseball player.",
-            "Isn't that fine? Is there some problem?",
+            "Sounds good to me. Is there some problem?",
             "But... you couldn't become a pro baseball player either, could you?",
             "Well, that's because I got injured.",
             "I want him to become a school teacher like you.",

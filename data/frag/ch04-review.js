@@ -60,7 +60,7 @@ N2F({ ch: 4, review: [
         "皆さん、ご入学おめでとうございます。{時代|じだい}の{変化|へんか}[1]、大学も大きく{変革|へんかく}を{迫|せま}られております。わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を{重|かさ}ねてまいりました。そして、いよいよ今年度より新しい学部がスタートします。その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと{確信|かくしん}しています。皆さん、どうぞ{悔|く}いのない学生生活を送ってください。",
       ],
       en: [
-        "Congratulations on your admission, everyone. Along with the changes of the times, universities too are being pressed to transform greatly. At our school as well, we have held discussions over many years toward opening a new faculty. And at last, a new faculty starts this academic year. I am confident that you, who have entered as its very first class, will grow greatly together with the newly born Faculty of International Studies. Everyone, please live a student life you will not regret.",
+        "Congratulations on your admission, everyone. Along with the changes of the times, universities too are being pressed to transform greatly. At our school as well, we have held discussions over many years toward opening a new faculty. And at last, a new faculty starts this academic year. I am confident that you, who have entered as its very first class, will grow greatly together with the newly born Faculty of International Studies. Everyone, please spend your student days in a way you will not regret.",
       ],
       blanks: [
         { options: ["を{問|と}わず", "にともない", "においては", "のもとで"], answer: 1 },
@@ -71,7 +71,7 @@ N2F({ ch: 4, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉1", en: "Question 4: Listening — 1 (Point comprehension)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉1", en: "Question 4: Listening (1) — point comprehension" },
     ex: {
       type: "listening", mode: "task",
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the choices on the question sheet; there is time to read them. Then listen to the talk and choose the best answer from 1 to 4 on the question sheet." },
@@ -84,7 +84,7 @@ N2F({ ch: 4, review: [
           ],
           en: [
             "A man is speaking. Which information about the Tozai Line is correct?",
-            "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, the Tozai Line has currently suspended service along the entire line. Service will resume as soon as safety has been confirmed, so please wait a while.",
+            "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, service on the Tozai Line is currently suspended along the entire line. Service will resume as soon as safety has been confirmed, so please wait a while.",
           ],
           options: ["{地震|じしん}で{故障|こしょう}した", "{今|いま}、{動|うご}いていない", "{安全|あんぜん}が{確認|かくにん}された", "{運転|うんてん}を{再開|さいかい}した"],
           answer: 1,
@@ -119,7 +119,7 @@ N2F({ ch: 4, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉2", en: "Question 4: Listening — 2 (Quick response)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉2", en: "Question 4: Listening (2) — quick response" },
     ex: {
       type: "listening", mode: "response",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3." },

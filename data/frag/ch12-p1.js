@@ -213,7 +213,7 @@ N2F({
       forms: ["［[V-た]　[N] の］ + {上|うえ}で", "［[V-た]　[N] の］ + {上|うえ}（で）の + [N]"],
       examples: [
         { ja: "駅前の{再開発|さいかいはつ}については、住民の皆さんの意見をまとめた{上|うえ}で、市に{要望書|ようぼうしょ}を{提出|ていしゅつ}したいと思います。", en: "Regarding the redevelopment in front of the station, we'd like to compile the opinions of all the residents and then submit a written request to the city." },
-        { ja: "卒業後の{進路|しんろ}は家族とよく{相談|そうだん}した{上|うえ}で、決めたいと思います。", en: "I'd like to decide on my path after graduation after talking it over carefully with my family." },
+        { ja: "卒業後の{進路|しんろ}は家族とよく{相談|そうだん}した{上|うえ}で、決めたいと思います。", en: "I'd like to decide what to do after graduation once I've talked it over carefully with my family." },
         { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに{署名|しょめい}と{印鑑|いんかん}をお願いいたします。", en: "Please check the contents of the contract, then sign and stamp your seal here." },
         { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で{結論|けつろん}を出したいと思います。", en: "Regarding the acceptance of international students next year, we'd like to reach a conclusion after thorough consideration." },
       ],

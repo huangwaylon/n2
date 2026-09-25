@@ -168,12 +168,12 @@ N2F({
         "Mistake to avoid: ✗今日は遠足に行くところだったのに、雨で中止になった. A cancelled plan is はずだった (or 予定だった). If you're relieved something *didn't* happen, it's ところだった.",
       see: [38, 83],
       index: ["Vるところだった", "危うく〜ところだった", "もう少しで〜ところだった"],
+      xref: "☞ p.223　〜ところ／どころ",
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.223　〜ところ／どころ",
           items: [
             { q: "自転車が急に{飛|と}び{出|だ}してきて、もう少しでぶつかる（　）。", options: ["ところだった", "はずだった"], answer: 0, en: "A bicycle suddenly darted out, and I very nearly crashed into it." },
             { q: "{残業|ざんぎょう}は1時間で終わる（　）のに、3時間かかってしまった。", options: ["ところだった", "はずだった"], answer: 1, en: "The overtime was supposed to be over in an hour, but it ended up taking three hours." },
@@ -209,12 +209,12 @@ N2F({
         "JLPT tip: a blank followed by 〜ほうがましだ／〜ばよかった after an unpleasant action → くらいなら.",
       see: [91],
       index: ["Vくらいなら", "Vぐらいなら"],
+      xref: "☞ p.221　〜くらい",
       practice: [
         {
           type: "match",
           labels: "abc",
           prompt: { ja: "", en: "Match each beginning (1–4) with the correct ending (a–d)." },
-          xref: "☞ p.221　〜くらい",
           left: [
             "{材料費|ざいりょうひ}を1,000円も出すくらいなら、",
             "疲れて学校休むくらいなら、",

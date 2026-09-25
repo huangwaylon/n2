@@ -32,7 +32,7 @@ N2F({
       ],
       examples: [
         { ja: "{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "When I was watching the speed-eating championship, the contestants were reaching for the next dish almost before they'd even put the food in their mouths." },
-        { ja: "５時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。", en: "It had barely turned five o'clock when he briskly started getting ready to go home." },
+        { ja: "5時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。", en: "It had barely turned five o'clock when he briskly started getting ready to go home." },
         { ja: "{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open." },
       ],
       deepDive: "**〜か〜ないかのうちに** paints an action as happening so fast that the previous one had not quite finished: *before ~ was even done / the instant ~*. Literally: *within the time when it's unclear whether ~ has happened or not*.\n\nForm rules:\n- The **same verb** appears twice: 着くか着かないか, 言ったか言わないか. ✗着くか降りないかのうちに.\n- The first verb can be dictionary form or た-form with little difference in meaning: 鳴るか鳴らないか / 鳴ったか鳴らないか.\n- The second half describes what actually happens (past tense, or narrative present as in this chapter's essay) — typically a quick action or event. It can't be a request, command or intention: ✗ドアが開くか開かないかのうちに乗ってください.\n\nNeighbors meaning *as soon as*:\n- **〜たとたん（に）** (N3): *the moment ~, (unexpectedly)*; second half is often a surprise, not always someone's deliberate action.\n- **〜かと思うと／かと思ったら** (#99): *no sooner had A happened than B (a sudden change)*.\n- **〜次第** (*as soon as, I will…*) — used for future plans and requests, the opposite of this pattern.\n- **〜や否や / 〜なり** (N1): very literary equivalents.\n\nRelated うちに patterns (see list p.220): Vうちに (*while ~, gradually*) and Vないうちに (*before ~ happens*) are N3-level; this pattern is the N2 addition.\n\nJLPT tip: in ordering questions, look for pieces like ○○か / ○○ない / かのうちに — the verb must repeat and か appears twice.",
@@ -72,7 +72,7 @@ N2F({
           items: [
             { q: "最近疲れ（　）だから、{休暇|きゅうか}をもらって{温泉|おんせん}へ行きたいなあ。", options: ["げ", "ぎみ"], answer: 1, en: "I've been feeling a bit tired lately, so I'd like to take some time off and go to a hot spring." },
             { q: "{交流会|こうりゅうかい}で学生たちが楽し（　）に子どもたちとおしゃべりしている。", options: ["げ", "ぎみ"], answer: 0, en: "At the exchange event, the students are happily chatting with the children." },
-            { q: "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンＢをとるようにしてください。", options: ["げ", "ぎみ"], answer: 1, en: "Those who tend to be short of iron should try to take vitamin B from foods such as liver." },
+            { q: "{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。", options: ["げ", "ぎみ"], answer: 1, en: "Those who tend to be short of iron should try to take vitamin B from foods such as liver." },
             { q: "プロジェクトメンバーから{外|はず}されて、彼女は{不満|ふまん}（　）だった。", options: ["げ", "ぎみ"], answer: 0, en: "Having been taken off the project team, she looked dissatisfied." },
           ],
         },

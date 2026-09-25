@@ -103,7 +103,7 @@ N2.register({
             }
           ],
           "xref": "☞ p.223　〜つつ",
-          "deepDive": "**〜つつ** is the literary twin of **〜ながら**: both link two actions performed at the same time by the same person (or thing). 音楽を聞きながら勉強する ≈ 音楽を聞きつつ勉強する. The difference is register — つつ sounds written, formal or slightly literary, so you meet it in news reports (台風は速度を速めつつ東に進む), speeches, business documents and essays. In a chat with friends, ながら is the natural choice.\n\nConnection: the ます-stem, exactly like ながら — 見つつ, 考えつつ, 検討しつつ. There is no noun or adjective form.\n\nPoints to watch:\n- **Same subject.** Both actions belong to one subject. ✗母が料理を作りつつ、私はテレビを見た — two different people → use 間（に） or 一方で instead.\n- **The main action is the second one.** 問題点を検討しつつ方針を決定する: the point is *deciding the policy*; examining the problems is the accompanying action.\n- Like ながら, つつ can also be used for a gradual process in news style: 速度を速めつつ進む *moving while speeding up*.\n\nDon't confuse it with its two relatives from the similar-pattern list:\n- **〜つつも** (#112): concession, *although / while (knowing)…* — 体に悪いと知りつつも、やめられない. This corresponds to the concessive ながら(も).\n- **〜つつある** (#71): *is in the process of ~* — a change that is steadily progressing: 景気は回復しつつある.\n\nJLPT tip: when つつ appears in 問題1, the options often include ます-stem forms of the same verb with other patterns (〜次第, 〜かねない). Ask yourself: are two simultaneous actions described? If so, pick つつ.",
+          "deepDive": "**〜つつ** is the literary twin of **〜ながら**: both link two actions performed at the same time by the same person (or thing). 音楽を聞きながら勉強する ≈ 音楽を聞きつつ勉強する. The difference is register — つつ sounds written, formal or slightly literary, so you meet it in news reports (台風は速度を速めつつ東に進む), speeches, business documents and essays. In a chat with friends, ながら is the natural choice.\n\nConnection: the ます-stem, exactly like ながら — 見つつ, 考えつつ, 検討しつつ. There is no noun or adjective form.\n\nPoints to watch:\n- **Same subject.** Both actions belong to one subject. ✗母が料理を作りつつ、私はテレビを見た — two different people → use 間（に） or 一方で instead.\n- **The main action is the second one.** 問題点を検討しつつ方針を決定する: the point is *deciding the policy*; examining the problems is the accompanying action.\n- The subject need not be a person: in news style it often describes a thing doing two things at once: 台風は速度を速めつつ東に進む *the typhoon moves east while picking up speed*.\n\nDon't confuse it with its two relatives from the similar-pattern list:\n- **〜つつも** (#112): concession, *although / while (knowing)…* — 体に悪いと知りつつも、やめられない. This corresponds to the concessive ながら(も).\n- **〜つつある** (#71): *is in the process of ~* — a change that is steadily progressing: 景気は回復しつつある.\n\nJLPT tip: when つつ appears in 問題1, the options often include ます-stem forms of the same verb with other patterns (〜次第, 〜かねない). Ask yourself: are two simultaneous actions described? If so, pick つつ.",
           "see": [
             71,
             112
@@ -182,7 +182,7 @@ N2.register({
               "en": "He is active in many fields, such as politics, economics and diplomacy."
             }
           ],
-          "deepDive": "**〜にわたって** comes from the verb 渡る *to cross over, to extend across*. The image is of something stretching from one end of a span to the other and covering all of it: 1週間にわたって = *for a whole week*; 50キロにわたって = *along a full 50 km*.\n\nWhat goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasises that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\nThe forms:\n- **にわたって** — the standard adverbial form.\n- **にわたり** — the written, clause-linking form (news, reports): 10回にわたり行われる.\n- **にわたる + N** — modifies a noun: 長年にわたる研究.\n- **にわたった + N** — modifies a noun and stresses that the span is over: 10年間にわたった遺跡の調査.\n\nContrast with **AからBにかけて** (#32): にかけて marks a rough range between two points and says something happened *somewhere/sometime in that range*; にわたって says it covered *the whole span*. 午後から夜にかけて雨 = rain at some point in that period; 5時間にわたって雨 = it rained for five hours straight. Note also that にわたって usually takes a single noun of extent (10年間), not an A-to-B pair — although 〜から〜にわたって does occur.\n\nCommon mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, look at what comes right after the blank: a noun → にわたる/にわたった; a verb or clause → にわたって/にわたり.",
+          "deepDive": "**〜にわたって** comes from the verb 渡る *to cross over, to extend across*. The image is of something stretching from one end of a span to the other and covering all of it: 1週間にわたって = *for a whole week*; 50キロにわたって = *along a full 50 km*.\n\nWhat goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasises that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\nThe forms:\n- **にわたって** — the standard adverbial form.\n- **にわたり** — the written, clause-linking form (news, reports): 10回にわたり行われる.\n- **にわたる + N** — modifies a noun: 長年にわたる研究.\n- **にわたった + N** — modifies a noun and stresses that the span is over: 10年間にわたった遺跡の調査.\n\nContrast with **AからBにかけて** (#32): にかけて marks a rough range between two points and says something happened *somewhere/sometime in that range*; にわたって says it covered *the whole span*. 午後から夜にかけて雨 = rain at some point in that period; 5時間にわたって雨 = it rained for five hours straight. Note also that にわたって usually takes a single noun of extent (10年間), not an A-to-B pair — although 〜から〜にわたって does occur.\n\nCommon mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, ask what the phrase modifies: if it modifies the noun right after it (8時間にわたる手術, 10年間にわたった遺跡の調査), use にわたる/にわたった; if it modifies the verb or the whole clause, use にわたって/にわたり — even when a noun happens to follow the blank (数時間にわたり新幹線がストップした, 10回にわたり市民センターで行われる).",
           "see": [
             32
           ],
@@ -353,7 +353,7 @@ N2.register({
               "en": "As the times have changed, people's way of thinking has changed too."
             }
           ],
-          "deepDive": "**〜にともない / にともなって** comes from 伴う *to accompany, to go along with*. X にともなって Y = *Y happens as a consequence of / along with X*. X is the main event or change; Y is the side effect that comes with it.\n\nTwo typical uses:\n- **An event and its consequence**: 道路工事にともなう通行止め, 本社移転にともなって新システムが導入される. Very common in official notices and news.\n- **Change linked to change**: 時代の変化にともなって考え方も変わる, 気温の上昇にともない売り上げが増える. Here it is close to **〜につれて** (a ➕Plus form under #65), but につれて is more everyday and focuses on gradual proportional change, while にともなって is formal and can also mark a one-off event.\n\nForms: にともなって (standard), にともない (written, news — as in 台風の接近にともない), にともなう + N (noun modifier). A common news formula is **それにともない、…** *and accordingly…*. Verbs can also be used with の: 気温が上がるのにともなって, though N + にともない is by far the most frequent.\n\nCompare with **〜とともに** (#35): both can express linked change (時代の変化とともに / にともなって). But only とともに can mean *together with a person*: ✓家族とともに暮らす, ✗家族にともなって暮らす. にともなって always implies cause–effect between events.\n\nAlso don't mix it up with **〜に応じて** (#4, adjusting deliberately to a condition) — 収入に応じて税金が決まる is a rule of matching, not a side effect.\n\nJLPT tip: as with #31, check what follows the blank — a noun (ビザの申請) requires にともなう; a clause or a verb (出る) takes にともなって / にともない.",
+          "deepDive": "**〜にともない / にともなって** comes from 伴う *to accompany, to go along with*. X にともなって Y = *Y happens as a consequence of / along with X*. X is the main event or change; Y is the side effect that comes with it.\n\nTwo typical uses:\n- **An event and its consequence**: 道路工事にともなう通行止め, 本社移転にともなって新システムが導入される. Very common in official notices and news.\n- **Change linked to change**: 時代の変化にともなって考え方も変わる, 気温の上昇にともない売り上げが増える. Here it is close to **〜につれて** (a ➕Plus form under #65), but につれて is more everyday and focuses on gradual proportional change, while にともなって is formal and can also mark a one-off event.\n\nForms: にともなって (standard), にともない (written, news — as in 台風の接近にともない), にともなう + N (noun modifier). A common news formula is **それにともない、…** *and accordingly…*. Verbs can also be used with の: 気温が上がるのにともなって, though N + にともない is by far the most frequent.\n\nCompare with **〜とともに** (#35): both can express linked change (時代の変化とともに / にともなって). But only とともに can mean *together with a person*: ✓家族とともに暮らす, ✗家族にともなって暮らす. にともなって always implies cause–effect between events.\n\nAlso don't mix it up with **〜に応じて** (#4, adjusting deliberately to a condition) — 収入に応じて税金が決まる is a rule of matching, not a side effect.\n\nJLPT tip: as with #31, ask what the phrase modifies — if it modifies the following noun (留学にともなうビザの申請), use にともなう; if it modifies a verb or the clause (事業活動にともなって出る, 科学の進歩にともなって…便利になった), use にともなって / にともない, even when a noun comes right after the blank.",
           "see": [
             35,
             65,
@@ -453,7 +453,7 @@ N2.register({
               "en": "Thunderstorms will develop from the evening, and with them there is a risk of localised heavy rain."
             }
           ],
-          "deepDive": "**おそれ** (恐れ) literally means *fear, dread*. 〜おそれがある = *there is fear that ~* → *there is a risk / danger that ~*. Because of this origin it is used **only for bad outcomes**: 事故を起こすおそれ, 健康を害するおそれ. You cannot say ✗合格するおそれがある or ✗晴れるおそれがある — for neutral or good possibilities use 〜可能性がある or 〜かもしれない.\n\nRegister: it is the language of forecasts, warnings, official reports and product labels (アレルギーを引き起こすおそれがあります). It sounds objective, as if based on data, rather than a personal worry. In conversation people say 〜かもしれない or 〜んじゃないか.\n\nConnection:\n- **V-る**: 大雨が降るおそれ, 川の水が汚れるおそれ.\n- **V-ない**: 電話がつながらないおそれ, 予定通りに出発できないおそれ — the negative form is used when the *failure* of something is the danger.\n- **N + の**: 噴火のおそれ, 津波のおそれ, 感染のおそれ.\n\nVariations: **おそれがあります** (polite), **おそれがございます** (very polite, e.g. airline or station announcements), **おそれはない / おそれはありません** (*there is no risk*), and as a noun modifier: 倒壊のおそれがある建物.\n\nCompare with **〜かねない** (#27): also *could (lead to something bad)*, but it expresses the speaker's own judgment that a bad result is possible, often as a warning about someone's behaviour (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like.\n\nTypical trap in the やってみよう: deciding between the affirmative and negative verb. Read for what the *danger* is — if the danger is an accident happening, use 起こす; if the danger is not being able to leave on time, use できない.",
+          "deepDive": "**おそれ** (恐れ) literally means *fear, dread*. 〜おそれがある = *there is fear that ~* → *there is a risk / danger that ~*. Because of this origin it is used **only for bad outcomes**: 事故を起こすおそれ, 健康を害するおそれ. You cannot say ✗合格するおそれがある or ✗晴れるおそれがある — for neutral or good possibilities use 〜可能性がある or 〜かもしれない.\n\nRegister: it is the language of forecasts, warnings, official reports and product labels (アレルギーを引き起こすおそれがあります). It sounds objective, as if based on data, rather than a personal worry. In conversation people say 〜かもしれない or 〜んじゃないか.\n\nConnection:\n- **V-る**: 大雨が降るおそれ, 川の水が汚れるおそれ.\n- **V-ない**: 電話がつながらないおそれ, 予定通りに出発できないおそれ — the negative form is used when the *failure* of something is the danger.\n- **N + の**: 噴火のおそれ, 津波のおそれ, 感染のおそれ.\n\nVariations: **おそれがあります** (polite), **おそれがございます** (very polite, e.g. airline or station announcements), **おそれはない / おそれはありません** (*there is no risk*), and as a noun modifier: 倒壊のおそれがある建物.\n\nCompare with **〜かねない** (#27): also *could (lead to something bad)*, but it is common in speech as well and is often used as a warning about someone's behaviour or a situation (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like, typical of news, forecasts and official notices.\n\nTypical trap in the やってみよう: deciding between the affirmative and negative verb. Read for what the *danger* is — if the danger is an accident happening, use 起こす; if the danger is not being able to leave on time, use できない.",
           "see": [
             27,
             33
@@ -679,7 +679,7 @@ N2.register({
                     "{出発|しゅっぱつ}の{際|さい}"
                   ],
                   "answer": 1,
-                  "en": "We apologise that, when this aircraft was about to depart, our departure was greatly delayed owing to a safety check of the emergency doors."
+                  "en": "We apologise that, owing to a safety check of the emergency doors at the time of this aircraft's departure, our departure was significantly delayed."
                 }
               ]
             }
@@ -919,7 +919,7 @@ N2.register({
           "皆さん、ご入学おめでとうございます。{時代|じだい}の{変化|へんか}[1]、大学も大きく{変革|へんかく}を{迫|せま}られております。わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を{重|かさ}ねてまいりました。そして、いよいよ今年度より新しい学部がスタートします。その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと{確信|かくしん}しています。皆さん、どうぞ{悔|く}いのない学生生活を送ってください。"
         ],
         "en": [
-          "Congratulations on your admission, everyone. Along with the changes of the times, universities too are being pressed to transform greatly. At our school as well, we have held discussions over many years toward opening a new faculty. And at last, a new faculty starts this academic year. I am confident that you, who have entered as its very first class, will grow greatly together with the newly born Faculty of International Studies. Everyone, please live a student life you will not regret."
+          "Congratulations on your admission, everyone. Along with the changes of the times, universities too are being pressed to transform greatly. At our school as well, we have held discussions over many years toward opening a new faculty. And at last, a new faculty starts this academic year. I am confident that you, who have entered as its very first class, will grow greatly together with the newly born Faculty of International Studies. Everyone, please spend your student days in a way you will not regret."
         ],
         "blanks": [
           {
@@ -964,7 +964,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉1",
-        "en": "Question 4: Listening — 1 (Point comprehension)"
+        "en": "Question 4: Listening (1) — point comprehension"
       },
       "ex": {
         "type": "listening",
@@ -990,7 +990,7 @@ N2.register({
             ],
             "en": [
               "A man is speaking. Which information about the Tozai Line is correct?",
-              "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, the Tozai Line has currently suspended service along the entire line. Service will resume as soon as safety has been confirmed, so please wait a while."
+              "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, service on the Tozai Line is currently suspended along the entire line. Service will resume as soon as safety has been confirmed, so please wait a while."
             ],
             "options": [
               "{地震|じしん}で{故障|こしょう}した",
@@ -1067,7 +1067,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉2",
-        "en": "Question 4: Listening — 2 (Quick response)"
+        "en": "Question 4: Listening (2) — quick response"
       },
       "ex": {
         "type": "listening",

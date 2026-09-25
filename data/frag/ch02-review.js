@@ -139,11 +139,11 @@ N2F({ ch: 2, review: [
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3." },
       items: [
         { script: [ { sp: "M", v: "m", ja: "よう、元気そうだね。こうやって集まるの、大学卒業以来だね。" } ],
-          en: ["Hey, you look well. This is the first time we've gathered like this since graduating from university, huh.", "1. It really brings back memories.", "2. Did we graduate from university?", "3. When are you planning to get together?"],
+          en: ["Hey, you look well. This is the first time we've gathered like this since graduating from university, huh.", "It really brings back memories.", "Did we graduate from university?", "When are you planning to get together?"],
           options: ["ほんとに{懐|なつ}かしいね。", "大学卒業したっけ？", "いつ集まるつもり？"],
           answer: 0 },
         { script: [ { sp: "F", v: "f", ja: "何遊んでるのよ。ちょっと手伝ってくれない？" } ],
-          en: ["What are you goofing off for? Can't you give me a hand?", "1. Then let's play together.", "2. It's not like I'm goofing off.", "3. You won't help me?"],
+          en: ["What are you goofing off for? Can't you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "You won't help me?"],
           options: ["じゃ、一緒に遊ぼうよ。", "別に遊んでるわけじゃないよ。", "手伝ってくれないの？"],
           answer: 1 },
       ],

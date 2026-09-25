@@ -528,7 +528,7 @@ N2.register({
                     "{必要|ひつよう}な{知識|ちしき}を学びます"
                   ],
                   "answer": 1,
-                  "en": "In this course you learn the knowledge needed for doing volunteer work."
+                  "en": "In this course you learn the knowledge you need to do volunteer work."
                 },
                 {
                   "q": "{進学先|しんがくさき}を選ぶ{上|うえ}で（　）。",
@@ -751,7 +751,7 @@ N2.register({
           {
             "cont": true,
             "ja": "やる**からには**{全力|ぜんりょく}でがんばります。",
-            "en": "Now that I'm doing it, I will give it everything I've got."
+            "en": "Since I'm going to do it, I will give it everything I've got."
           },
           {
             "ja": "入社以来{慣|な}れ{親|した}しんだこの{職場|しょくば}を{離|はな}れることになりましたが、皆様と一緒に仕事をする機会がなくなるという**わけではありません**。",
@@ -1060,7 +1060,7 @@ N2.register({
                   "idiom": true
                 }
               ],
-              "xref": "☞ p.221 〜{上|うえ}／{上|じょう}"
+              "xref": "☞ p.221　〜{上|うえ}／{上|じょう}"
             }
           ],
           "deepDive": "**〜からには** = *since / now that ~ (it's a fact or a decision), naturally…*. The first half states something already decided or undeniable; the second half gives the **resulting duty, determination, command or strong conclusion**: 〜べきだ, 〜なければならない, 〜必要がある, 〜つもりだ, 〜ます (a resolution), 〜てください, 〜しろ, 〜はずだ.\n\n- **V-る からには**: about a decision for the future (出場するからには *since I'm going to compete*).\n- **V-た からには**: about something already done (入ったからには, 引き受けたからには).\n- **Nであるからには** / **〜というからには** (form note): キャプテンであるからには; 三つ星レストランというからには *if it calls itself a three-star restaurant*.\n\nThe second half can't be a neutral fact: ✗日本に来たからには、寿司を食べた. It must carry the speaker's will or judgment.\n\nDon't confuse it with other から patterns (☞ p.220 〜から list):\n- **〜からといって** (N3): *just because ~ doesn't mean…* — usually followed by a negative or prohibition: 年齢が若いからといって能力が低いと思ってはいけない.\n- **〜てからでなければ** (N3): *not until after ~*: 治ってからでなければ学校へ来てはいけない.\n- **〜からこそ** (N3): *precisely because ~*.\n\nThe two Plus forms:\n- **〜以上（は）**: same meaning, slightly more logical/objective; very common in writing, rules and public pledges (市長になった以上は…お約束します). It also appears as **Nである以上**.\n- **〜上は**: the stiffest version, found in formal speech and writing.\n- The book writes both connections simply as **V + 以上（は）** / **V + 上は**; in practice V is the dictionary form (行う上は) or, very often, the た-form (引き受けた以上). **かくなる上は** (*now that things have come to this*) is a fixed, somewhat dramatic idiom. Don't mix it up with **V-る上で** (#14) or **V-た上で** (#117) (☞ p.221 〜上／上).",
@@ -1088,7 +1088,7 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.220 〜から",
+              "xref": "☞ p.220　〜から",
               "items": [
                 {
                   "q": "この店で働く（　）{扱|あつか}う{商品|しょうひん}についてよく勉強しなければならない。",
@@ -1185,6 +1185,7 @@ N2.register({
             "〜わけでもない",
             "必ずしも〜わけではない"
           ],
+          "xref": "☞ p.226　〜わけ",
           "practice": [
             {
               "type": "choice",
@@ -1193,7 +1194,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.226 〜わけ",
               "items": [
                 {
                   "q": "ゲームが好きだが、毎日している（　）。",
@@ -1288,6 +1288,7 @@ N2.register({
             "V-ることなく",
             "〜ことなく"
           ],
+          "xref": "☞ p.221　〜こと",
           "practice": [
             {
               "type": "choice",
@@ -1296,7 +1297,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.221 〜こと",
               "items": [
                 {
                   "q": "雨はほとんどやむことなく、（　）。",
@@ -1398,6 +1398,7 @@ N2.register({
             "それにもかかわらず",
             "であるにもかかわらず"
           ],
+          "xref": "☞ p.223　〜にかかわらず",
           "practice": [
             {
               "type": "choice",
@@ -1406,7 +1407,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.223 〜にかかわらず",
               "items": [
                 {
                   "q": "彼は{高熱|こうねつ}（　）休まずに働き続けた。",
@@ -1861,9 +1861,9 @@ N2.register({
             ],
             "en": [
               "Hey, you look well. This is the first time we've gathered like this since graduating from university, huh.",
-              "1. It really brings back memories.",
-              "2. Did we graduate from university?",
-              "3. When are you planning to get together?"
+              "It really brings back memories.",
+              "Did we graduate from university?",
+              "When are you planning to get together?"
             ],
             "options": [
               "ほんとに{懐|なつ}かしいね。",
@@ -1882,9 +1882,9 @@ N2.register({
             ],
             "en": [
               "What are you goofing off for? Can't you give me a hand?",
-              "1. Then let's play together.",
-              "2. It's not like I'm goofing off.",
-              "3. You won't help me?"
+              "Then let's play together.",
+              "It's not like I'm goofing off.",
+              "You won't help me?"
             ],
             "options": [
               "じゃ、一緒に遊ぼうよ。",

@@ -231,7 +231,7 @@
       ${formsHtml(g.forms, g.formNotes)}
       ${examplesHtml(g.examples)}
       ${g.deepDive ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span></summary><div class="deep-body">${prose(g.deepDive)}</div></details>` : ""}
-      ${(g.practice || []).map((ex, j) => renderExercise(ex, `${gid}-p${j}`, "やってみよう！ <span class='en-inline'>Try it out</span>")).join("")}
+      ${(g.practice || []).map((ex, j) => renderExercise(ex, `${gid}-p${j}`, "やってみよう！ <span class='en-inline'>Try it out</span>") + (ex.xref ? xrefHtml(ex.xref) : "")).join("")}
       ${notesHtml(g.notes, gid)}
       ${plusHtml}
       ${xrefHtml(g.xref, g.see, g.no)}

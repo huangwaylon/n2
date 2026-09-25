@@ -1153,7 +1153,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 1",
-        "en": "Question 4: Listening (task)"
+        "en": "Question 4: Listening (1) — task"
       },
       "ex": {
         "type": "listening",
@@ -1228,7 +1228,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 2",
-        "en": "Question 4: Listening (quick response)"
+        "en": "Question 4: Listening (2) — quick response"
       },
       "ex": {
         "type": "listening",
@@ -1247,7 +1247,10 @@ N2.register({
               }
             ],
             "en": [
-              "What is this movie? I wasted my money paying for it."
+              "What is this movie? I wasted my money paying for it.",
+              "Yeah, we have no choice but to watch it.",
+              "Right, we shouldn't have watched it.",
+              "Yeah. Let's watch it next time."
             ],
             "options": [
               "ほんと、見ざるを{得|え}ないよ。",
@@ -1268,7 +1271,10 @@ N2.register({
               }
             ],
             "en": [
-              "Excuse me, could you answer a few interview questions?"
+              "Excuse me, could you answer a few interview questions?",
+              "I'm a bit short on time, so...",
+              "I could well end up answering.",
+              "Yes, I'll do that."
             ],
             "options": [
               "ちょっと時間がないので。",
@@ -1289,7 +1295,10 @@ N2.register({
               }
             ],
             "en": [
-              "Hey, if you drive that fast, you could cause an accident."
+              "Hey, if you drive that fast, you could cause an accident.",
+              "I heard someone was speeding and caused an accident.",
+              "Looks like there was an accident over there.",
+              "OK, OK. I'll drive safely."
             ],
             "options": [
               "スピード出して、{事故|じこ}起こしたんだって。",

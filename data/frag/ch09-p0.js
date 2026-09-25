@@ -214,7 +214,7 @@ N2F({
         "- **わけではない** (#19) = *it's not that ~*; **わけにはいかない** (#57) = *can't (for social/moral reasons)*.\n" +
         "- **わけだ②** (#134) = logical conclusion in explanations (*that's how/why ~*), common in formal writing.\n\n" +
         "When the reason is unknown, the book points to **どういうわけか** *for some reason*: どういうわけか、昨日は全然眠れなかった.\n\n" +
-        "Mistake to avoid: using わけだ for your own plans or predictions (✗明日は雨が降るわけだ). Use it when the fact is established and you're connecting it to a reason.",
+        "Mistake to avoid: in this *no wonder* sense, the fact must already be established (you saw it, heard it, experienced it); わけだ then links it to the reason you've just learned. It isn't used for your own plans or intentions (✗明日は早く起きるわけだ meaning *I'll get up early tomorrow*).",
       see: [19, 57, 134],
       index: ["〜わけだ", "〜というわけだ", "どういうわけか", "どうりで〜わけだ"],
       xref: "☞ p.226　〜わけ",

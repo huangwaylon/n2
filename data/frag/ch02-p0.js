@@ -293,7 +293,7 @@ N2F({
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
           items: [
             { q: "留学生が生活する{上|うえ}で（　）。", options: ["{円高|えんだか}は大きな問題だ", "高いものは買わない"], answer: 0, en: "For international students living here, the strong yen is a big problem." },
-            { q: "この{講座|こうざ}はボランティア{活動|かつどう}をする{上|うえ}で（　）。", options: ["難しいです", "{必要|ひつよう}な{知識|ちしき}を学びます"], answer: 1, en: "In this course you learn the knowledge needed for doing volunteer work." },
+            { q: "この{講座|こうざ}はボランティア{活動|かつどう}をする{上|うえ}で（　）。", options: ["難しいです", "{必要|ひつよう}な{知識|ちしき}を学びます"], answer: 1, en: "In this course you learn the knowledge you need to do volunteer work." },
             { q: "{進学先|しんがくさき}を選ぶ{上|うえ}で（　）。", options: ["{就職率|しゅうしょくりつ}は{重要|じゅうよう}なポイントだ", "この大学は{簡単|かんたん}に入れました"], answer: 0, en: "In choosing where to continue your studies, the employment rate is an important point." },
             { q: "日本の{農業|のうぎょう}を{理解|りかい}する{上|うえ}で（　）。", options: ["{農村|のうそん}に見学に行くつもりだ", "{気候|きこう}や{地形|ちけい}に対する{理解|りかい}も{必要|ひつよう}だ"], answer: 1, en: "To understand Japanese agriculture, an understanding of the climate and terrain is also necessary." },
           ],

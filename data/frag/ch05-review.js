@@ -73,7 +73,7 @@ N2F({ ch: 5, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (task)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — point comprehension" },
     ex: {
       type: "listening", mode: "task",
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then read the options on the question sheet; you will have time to read them. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet." },
@@ -109,14 +109,14 @@ N2F({ ch: 5, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (quick response)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (2) — quick response" },
     ex: {
       type: "listening", mode: "response",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3." },
       items: [
         { script: [{ sp: "F", v: "f", ja: "お昼、一緒に食べに行かない？" }],
           en: ["Do you want to go out for lunch together?"],
-          options: ["え？ 行くところがないの？", "ごめん、それどころじゃないんだ。", "じゃ、ゆっくり食べてね。"],
+          options: ["え？　行くところがないの？", "ごめん、それどころじゃないんだ。", "じゃ、ゆっくり食べてね。"],
           answer: 1,
           why: { en: "〜どころじゃない: \"Sorry, I'm in no position to do that (too busy).\"" } },
         { script: [{ sp: "M", v: "m", ja: "君、こんなレポートじゃ、直しようがないよ。" }],

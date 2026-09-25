@@ -49,7 +49,7 @@ N2F({
         "Points to watch:\n" +
         "- **Same subject.** Both actions belong to one subject. ✗母が料理を作りつつ、私はテレビを見た — two different people → use 間（に） or 一方で instead.\n" +
         "- **The main action is the second one.** 問題点を検討しつつ方針を決定する: the point is *deciding the policy*; examining the problems is the accompanying action.\n" +
-        "- Like ながら, つつ can also be used for a gradual process in news style: 速度を速めつつ進む *moving while speeding up*.\n\n" +
+        "- The subject need not be a person: in news style it often describes a thing doing two things at once: 台風は速度を速めつつ東に進む *the typhoon moves east while picking up speed*.\n\n" +
         "Don't confuse it with its two relatives from the similar-pattern list:\n" +
         "- **〜つつも** (#112): concession, *although / while (knowing)…* — 体に悪いと知りつつも、やめられない. This corresponds to the concessive ながら(も).\n" +
         "- **〜つつある** (#71): *is in the process of ~* — a change that is steadily progressing: 景気は回復しつつある.\n\n" +
@@ -108,7 +108,7 @@ N2F({
         "- **にわたる + N** — modifies a noun: 長年にわたる研究.\n" +
         "- **にわたった + N** — modifies a noun and stresses that the span is over: 10年間にわたった遺跡の調査.\n\n" +
         "Contrast with **AからBにかけて** (#32): にかけて marks a rough range between two points and says something happened *somewhere/sometime in that range*; にわたって says it covered *the whole span*. 午後から夜にかけて雨 = rain at some point in that period; 5時間にわたって雨 = it rained for five hours straight. Note also that にわたって usually takes a single noun of extent (10年間), not an A-to-B pair — although 〜から〜にわたって does occur.\n\n" +
-        "Common mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, look at what comes right after the blank: a noun → にわたる/にわたった; a verb or clause → にわたって/にわたり.",
+        "Common mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, ask what the phrase modifies: if it modifies the noun right after it (8時間にわたる手術, 10年間にわたった遺跡の調査), use にわたる/にわたった; if it modifies the verb or the whole clause, use にわたって/にわたり — even when a noun happens to follow the blank (数時間にわたり新幹線がストップした, 10回にわたり市民センターで行われる).",
       see: [32],
       index: ["Nにわたって", "Nにわたり", "Nにわたる", "Nにわたった"],
       practice: [
@@ -205,7 +205,7 @@ N2F({
         "Forms: にともなって (standard), にともない (written, news — as in 台風の接近にともない), にともなう + N (noun modifier). A common news formula is **それにともない、…** *and accordingly…*. Verbs can also be used with の: 気温が上がるのにともなって, though N + にともない is by far the most frequent.\n\n" +
         "Compare with **〜とともに** (#35): both can express linked change (時代の変化とともに / にともなって). But only とともに can mean *together with a person*: ✓家族とともに暮らす, ✗家族にともなって暮らす. にともなって always implies cause–effect between events.\n\n" +
         "Also don't mix it up with **〜に応じて** (#4, adjusting deliberately to a condition) — 収入に応じて税金が決まる is a rule of matching, not a side effect.\n\n" +
-        "JLPT tip: as with #31, check what follows the blank — a noun (ビザの申請) requires にともなう; a clause or a verb (出る) takes にともなって / にともない.",
+        "JLPT tip: as with #31, ask what the phrase modifies — if it modifies the following noun (留学にともなうビザの申請), use にともなう; if it modifies a verb or the clause (事業活動にともなって出る, 科学の進歩にともなって…便利になった), use にともなって / にともない, even when a noun comes right after the blank.",
       see: [35, 65, 4],
       index: ["Nにともなって", "Nにともない", "Nにともなう", "それにともない", "伴って"],
       practice: [
@@ -248,7 +248,7 @@ N2F({
         "- **V-ない**: 電話がつながらないおそれ, 予定通りに出発できないおそれ — the negative form is used when the *failure* of something is the danger.\n" +
         "- **N + の**: 噴火のおそれ, 津波のおそれ, 感染のおそれ.\n\n" +
         "Variations: **おそれがあります** (polite), **おそれがございます** (very polite, e.g. airline or station announcements), **おそれはない / おそれはありません** (*there is no risk*), and as a noun modifier: 倒壊のおそれがある建物.\n\n" +
-        "Compare with **〜かねない** (#27): also *could (lead to something bad)*, but it expresses the speaker's own judgment that a bad result is possible, often as a warning about someone's behaviour (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like.\n\n" +
+        "Compare with **〜かねない** (#27): also *could (lead to something bad)*, but it is common in speech as well and is often used as a warning about someone's behaviour or a situation (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like, typical of news, forecasts and official notices.\n\n" +
         "Typical trap in the やってみよう: deciding between the affirmative and negative verb. Read for what the *danger* is — if the danger is an accident happening, use 起こす; if the danger is not being able to leave on time, use できない.",
       see: [27, 33],
       index: ["Vおそれがある", "Nのおそれがある", "おそれがあります", "おそれはない", "恐れがある"],
@@ -361,7 +361,7 @@ N2F({
             { q: "{花村|はなむら}さんが（　）、{送別会|そうべつかい}を始めましょう。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 0, en: "Let's start the farewell party as soon as Ms. Hanamura arrives." },
             { q: "{花村|はなむら}さんが（　）、{職場|しょくば}の{雰囲気|ふんいき}が明るくなった。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 1, en: "Ever since Ms. Hanamura came, the atmosphere at work has become brighter." },
             { q: "お客様からのご{入金|にゅうきん}が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。", options: ["でき{次第|しだい}", "できるとともに"], answer: 0, en: "We will ship the goods as soon as we have confirmed the customer's payment." },
-            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologise that, when this aircraft was about to depart, our departure was greatly delayed owing to a safety check of the emergency doors." },
+            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologise that, owing to a safety check of the emergency doors at the time of this aircraft's departure, our departure was significantly delayed." },
           ],
         },
       ],

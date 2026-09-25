@@ -360,7 +360,7 @@ N2.register({
           "examples": [
             {
               "ja": "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみないことには、{詳|くわ}しいことはわからないよ。",
-              "en": "A: It says here they're hiring \"a few people,\" but I wonder about how many they'll actually take on.\nB: Unless you ask them, you won't know the details."
+              "en": "A: It says here they're hiring \"a few people,\" but I wonder roughly how many they'll actually take on.\nB: Unless you ask them, you won't know the details."
             },
             {
               "ja": "もっと広い会場を借りないことには、{観客|かんきゃく}を{収容|しゅうよう}しきれないだろう。",
@@ -1025,7 +1025,7 @@ N2.register({
             },
             {
               "ja": "卒業後の{進路|しんろ}は家族とよく{相談|そうだん}した{上|うえ}で、決めたいと思います。",
-              "en": "I'd like to decide on my path after graduation after talking it over carefully with my family."
+              "en": "I'd like to decide what to do after graduation once I've talked it over carefully with my family."
             },
             {
               "ja": "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに{署名|しょめい}と{印鑑|いんかん}をお願いいたします。",

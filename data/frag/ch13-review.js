@@ -129,7 +129,7 @@ N2F({ ch: 13, review: [
       items: [
         { script: [{ sp: "F", v: "f", ja: "今の話、聞かなかったことにして。" }],
           en: ["Pretend you didn't hear what I just said.", "Yes, I heard it properly.", "OK, then I won't tell anyone.", "What? You didn't know?"],
-          options: ["はい、ちゃんと聞きました。", "じゃ、{誰|だれ}にも言わないよ。", "え？ 知らなかったんですか。"],
+          options: ["はい、ちゃんと聞きました。", "じゃ、{誰|だれ}にも言わないよ。", "え？　知らなかったんですか。"],
           answer: 1,
           why: { en: "〜たことにする = \"act as if ~\"; she asks him to treat it as unheard, so he promises not to tell anyone." } },
         { script: [{ sp: "F", v: "f", ja: "これでちゃんとやったつもりなの？" }],

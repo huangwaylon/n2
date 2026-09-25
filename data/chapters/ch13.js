@@ -633,7 +633,7 @@ N2.register({
             "en": "Whatever their reasons, two men using violence on a woman — they're unforgivable. I'll get her out, no matter what. Summoning my courage, I climbed the stairs to the second floor."
           },
           {
-            "ja": "{突|つ}き{当|あ}たりの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。",
+            "ja": "{突|つ}き{当|あた}りの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。",
             "en": "Light was leaking from the door of the room at the end of the hall. I flung the door open and burst into the room. And I shouted:"
           },
           {
@@ -734,7 +734,7 @@ N2.register({
               "en": [
                 "Even if it has something I dislike in it, I'll eat every bit of what the girlfriend I love made.",
                 "No matter how difficult the exam, you should keep working hard and not give up.",
-                "No matter how much the treatment costs, I don't mind, as long as the life can be saved.",
+                "No matter how much the treatment costs, I don't mind, as long as it saves their life.",
                 "Even when you know it's just flattery, being praised makes you happy."
               ]
             }
@@ -1762,7 +1762,7 @@ N2.register({
             "options": [
               "はい、ちゃんと聞きました。",
               "じゃ、{誰|だれ}にも言わないよ。",
-              "え？ 知らなかったんですか。"
+              "え？　知らなかったんですか。"
             ],
             "answer": 1,
             "why": {

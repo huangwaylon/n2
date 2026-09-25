@@ -178,7 +178,7 @@ N2F({
         { ja: "「[N] + が+ないことには」の形も使われる。", en: "The form N + が + ないことには is also used." },
       ],
       examples: [
-        { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a few people,\" but I wonder about how many they'll actually take on.\nB: Unless you ask them, you won't know the details." },
+        { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a few people,\" but I wonder roughly how many they'll actually take on.\nB: Unless you ask them, you won't know the details." },
         { ja: "もっと広い会場を借りないことには、{観客|かんきゃく}を{収容|しゅうよう}しきれないだろう。", en: "Unless we rent a bigger venue, we probably won't be able to fit all the audience in." },
         { ja: "使っていただかないことには、この{商品|しょうひん}のよさはご{理解|りかい}いただけないので、サンプルをご用意させていただきました。", en: "Since you can't really appreciate how good this product is unless you actually use it, we have prepared samples for you." },
         { ja: "マーケティング{調査|ちょうさ}をしないことには売れる{商品|しょうひん}は{開発|かいはつ}できない。", en: "Unless you do market research, you can't develop products that sell." },

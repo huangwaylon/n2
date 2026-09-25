@@ -11,7 +11,7 @@ N2F({
     lines: [
       { ja: "{大阪|おおさか}{支社|ししゃ}では、アジア{各国|かっこく}への{輸出|ゆしゅつ}{拡大|かくだい}**を**{目的|もくてき}**とした**プロジェクトに{参加|さんか}することになりました。", en: "At the Osaka branch, I will be taking part in a project aimed at expanding exports to countries across Asia." },
       { cont: true, ja: "この{転勤|てんきん}を**きっかけ**に、また{新|あら}たな{挑戦|ちょうせん}ができることを{期待|きたい}しております。", en: "I am hoping that this transfer will give me the chance to take on new challenges." },
-      { cont: true, ja: "やる**からには**{全力|ぜんりょく}でがんばります。", en: "Now that I'm doing it, I will give it everything I've got." },
+      { cont: true, ja: "やる**からには**{全力|ぜんりょく}でがんばります。", en: "Since I'm going to do it, I will give it everything I've got." },
       { ja: "入社以来{慣|な}れ{親|した}しんだこの{職場|しょくば}を{離|はな}れることになりましたが、皆様と一緒に仕事をする機会がなくなるという**わけではありません**。", en: "I will be leaving this workplace, which I have grown so familiar with since joining the company, but that doesn't mean there will be no more chances to work with you all." },
       { cont: true, ja: "どうぞこれまでと変わる**ことなく**、ご{指導|しどう}よろしくお願いいたします。", en: "I hope you will continue to guide me, just as you always have." },
       { ja: "最後に、本日は雨**にもかかわらず**、このように多くの{方々|かたがた}が来てくださったこと、皆様の温かいお{心遣|こころづか}いに心から{感謝|かんしゃ}しております。", en: "Finally, I am sincerely grateful that so many of you came today despite the rain, and for your warm consideration." },
@@ -173,7 +173,7 @@ N2F({
             { ja: "{税金|ぜいきん}を使って研究を{行|おこな}う{上|うえ}は、社会に役立つ研究をしなければならない。", en: "Since we are doing research with taxpayers' money, it must be research that benefits society." },
             { ja: "かくなる{上|うえ}は{裁判|さいばん}で{争|あらそ}う以外に道はない。", en: "Things having come to this, there is no way left but to fight it out in court.", idiom: true },
           ],
-          xref: "☞ p.221 〜{上|うえ}／{上|じょう}",
+          xref: "☞ p.221　〜{上|うえ}／{上|じょう}",
         },
       ],
       deepDive:
@@ -197,7 +197,7 @@ N2F({
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.220 〜から",
+          xref: "☞ p.220　〜から",
           items: [
             { q: "この店で働く（　）{扱|あつか}う{商品|しょうひん}についてよく勉強しなければならない。", options: ["からには", "からといって"], answer: 0, en: "If you're going to work at this shop, you have to study the products it handles thoroughly." },
             { q: "{年齢|ねんれい}が若い（　）{能力|のうりょく}が低いと思ってはいけない。", options: ["からには", "からといって"], answer: 1, en: "You mustn't assume someone lacks ability just because they are young." },
@@ -240,12 +240,12 @@ N2F({
         "In the speech, 機会がなくなるというわけではありません reassures the listeners by denying an assumption they might make (that the transfer ends the chance to work together).",
       see: [57, 82, 134],
       index: ["〜わけではない", "〜わけじゃない", "〜というわけではない", "〜わけでもない", "必ずしも〜わけではない"],
+      xref: "☞ p.226　〜わけ",
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.226 〜わけ",
           items: [
             { q: "ゲームが好きだが、毎日している（　）。", options: ["わけではない", "に違いない"], answer: 0, en: "I like games, but it's not as if I play every day." },
             { q: "こんなにいい天気だから、雨が降る（　）でしょう。", options: ["わけではない", "わけがない"], answer: 1, en: "With weather this nice, there's no way it's going to rain." },
@@ -293,12 +293,12 @@ N2F({
         "- **〜こと。** (#8), **〜ことか** (#42), **〜ことに** (#40), **〜ことから** (#62), **〜ことだ** (#87), **〜たことにする** (#119).",
       see: [8, 40, 42, 49, 54, 62, 87, 110, 119],
       index: ["V-ることなく", "〜ことなく"],
+      xref: "☞ p.221　〜こと",
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.221 〜こと",
           items: [
             { q: "雨はほとんどやむことなく、（　）。", options: ["5日間降り続いた", "川の水があふれた"], answer: 0, en: "The rain kept falling for five days with hardly a break." },
             { q: "{祖母|そぼ}は今年75歳ですが、病気をすることなく（　）。", options: ["大きなけがをした", "元気に{暮|く}らしている"], answer: 1, en: "My grandmother is 75 this year, but she lives in good health without ever falling ill." },
@@ -344,12 +344,12 @@ N2F({
         "Also different from **〜ながら（も）** (#15), which prefers the same subject and states in the first half, and **〜からといって** (*just because*).",
       see: [5, 15],
       index: ["〜にもかかわらず", "Nにもかかわらず", "それにもかかわらず", "であるにもかかわらず"],
+      xref: "☞ p.223　〜にかかわらず",
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.223 〜にかかわらず",
           items: [
             { q: "彼は{高熱|こうねつ}（　）休まずに働き続けた。", options: ["にもかかわらず", "において"], answer: 0, en: "Despite a high fever, he kept working without resting." },
             { q: "このテーマパークは{天候|てんこう}（　）お楽しみいただけます。", options: ["にもかかわらず", "にかかわらず"], answer: 1, en: "You can enjoy this theme park regardless of the weather." },

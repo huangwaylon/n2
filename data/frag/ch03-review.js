@@ -79,7 +79,7 @@ N2F({ ch: 3, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (task)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉 1", en: "Question 4: Listening (1) — task" },
     ex: {
       type: "listening", mode: "task",
       prompt: { ja: "この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "First listen to the question. Then listen to the conversation and choose the best answer from 1 to 4 on the question sheet." },
@@ -111,23 +111,23 @@ N2F({ ch: 3, review: [
     },
   },
   {
-    title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (quick response)" },
+    title: { ja: "問題4 〈{聴解|ちょうかい}〉 2", en: "Question 4: Listening (2) — quick response" },
     ex: {
       type: "listening", mode: "response",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3." },
       items: [
         { script: [{ sp: "F", v: "f", ja: "何なの、この映画。お金払って{損|そん}した。" }],
-          en: ["What is this movie? I wasted my money paying for it."],
+          en: ["What is this movie? I wasted my money paying for it.", "Yeah, we have no choice but to watch it.", "Right, we shouldn't have watched it.", "Yeah. Let's watch it next time."],
           options: ["ほんと、見ざるを{得|え}ないよ。", "そうだね、見るんじゃなかった。", "うん。今度見ようよ。"],
           answer: 1,
           why: { en: "〜んじゃなかった expresses regret: \"We shouldn't have watched it.\"" } },
         { script: [{ sp: "M", v: "m", ja: "すみません、ちょっとインタビューに答えてもらえませんか。" }],
-          en: ["Excuse me, could you answer a few interview questions?"],
+          en: ["Excuse me, could you answer a few interview questions?", "I'm a bit short on time, so...", "I could well end up answering.", "Yes, I'll do that."],
           options: ["ちょっと時間がないので。", "答えかねませんよ。", "はい、そうしますよ。"],
           answer: 0,
           why: { en: "A polite refusal: \"I'm a bit short on time.\" 答えかねません means \"I might (end up) answering\" — a warning about a bad outcome, which makes no sense here. (The polite refusal would be 答えかねます, *I'm afraid I can't answer*.)" } },
         { script: [{ sp: "M", v: "m", ja: "おい、そんなにスピード出したら、{事故|じこ}を起こしかねないぞ。" }],
-          en: ["Hey, if you drive that fast, you could cause an accident."],
+          en: ["Hey, if you drive that fast, you could cause an accident.", "I heard someone was speeding and caused an accident.", "Looks like there was an accident over there.", "OK, OK. I'll drive safely."],
           options: ["スピード出して、{事故|じこ}起こしたんだって。", "あそこで、{事故|じこ}があったみたい。", "わかったよ。安全運転でいくよ。"],
           answer: 2,
           why: { en: "〜かねない warns of a possible bad result; the natural reply is to promise to drive safely." } },

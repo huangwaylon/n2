@@ -41,7 +41,7 @@ N2F({
         { ja: "家には2、3回使ったきりの{健康器具|けんこうきぐ}がいくつもある。", en: "At home I have several pieces of fitness equipment that I used only two or three times." },
         { ja: "あの歌手、何年か前にテレビで見たきりだけど、今どうしているのかなあ。", en: "I haven't seen that singer since I saw them on TV a few years ago — I wonder what they're doing now." },
         { ja: "ステーキなんて、半年前に食べたっきりだよ。", en: "Steak? I haven't had any since half a year ago." },
-        { ja: "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。", en: "Our dog has become very weak and is almost bedridden every day." },
+        { ja: "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。", en: "Our dog has grown very weak and spends almost the whole day lying down." },
       ],
       notes: [
         {
@@ -129,13 +129,13 @@ N2F({
         "\n" +
         "JLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
       see: [83, 89],
+      xref: "☞ p.223　〜ところ／どころ",
       index: ["Nどころではない", "Vるどころではない", "どころじゃない", "どころではなかった"],
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
-          xref: "☞ p.223　〜ところ／どころ",
           items: [
             { q: "今日は会社の{忘年会|ぼうねんかい}だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。", options: ["{忘年会|ぼうねんかい}", "会社"], answer: 0, en: "Today was the company year-end party, but the trains stopped because of heavy snow, so the party was out of the question." },
             { q: "旅行先でお{腹|なか}をこわして（　）どころではなかった。", options: ["薬を飲む", "{観光|かんこう}をする"], answer: 1, en: "I got an upset stomach on my trip, so sightseeing was out of the question." },
@@ -184,13 +184,13 @@ N2F({
         "\n" +
         "Don't mix it up with other もの patterns (#13 ものだ, #46 ものではない, #122 ものなら, #51 ものか).",
       see: [13, 25, 46, 51, 52, 56, 92, 122, 132],
+      xref: "☞ p.224　〜もの／もん",
       index: ["Plものの", "なAなものの", "Nであるものの", "〜てはいるものの", "とはいうものの"],
       practice: [
         {
           type: "choice",
           labels: "ab",
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
-          xref: "☞ p.224　〜もの／もん",
           items: [
             { q: "今年こそ{手|て}{編|あ}みのセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。", options: ["{編|あ}み上げたころには春になっているかもしれない", "春になったらすてきなセーターができそうだ"], answer: 0, en: "I made up my mind that this year I would definitely finish a hand-knitted sweater, but it may be spring by the time I've finished knitting it." },
             { q: "社長に{新製品|しんせいひん}の{開発|かいはつ}を{命|めい}じられたものの、（　）。", options: ["なかなかいいアイデアが{浮|う}かばない", "ヒット{商品|しょうひん}が生まれるかもしれない"], answer: 0, en: "I was ordered by the president to develop a new product, but I just can't come up with a good idea." },

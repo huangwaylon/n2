@@ -387,7 +387,7 @@ N2.register({
               "en": "A: My parents are against me changing jobs...\nB: So that's why you're still undecided. You'd said you were going to switch right away, so I was wondering what happened."
             }
           ],
-          "deepDive": "**〜わけだ** (★★★) is one of the most useful N2 sentence-enders. In this chapter's use, it expresses **realization + acceptance**: you already noticed a situation (the door won't open, there are many accidents), then you learn the cause, and the pieces click: *no wonder / that's why / so that explains it*.\n\nIt often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech だ is often dropped before sentence-final particles: わけよ／わけね (おいしいわけよね).\n\nConnection: plain form + わけだ. なA takes な (静かなわけだ), N takes の as the book shows (in everyday speech you'll also hear **Nなわけだ**). **〜というわけだ** also serves to sum up: それでまだ迷っているというわけなのね.\n\nContrast (see the ～わけ list, p.226):\n- **はずだ** = expectation based on reasoning *before* confirming: 今日就職試験だって言っていたから、もう出かけたはずだ *she should have left already*. わけだ = the result is already known and you've just found the reason.\n- **べきだ** = obligation/advice: *should do*. Unrelated in meaning but a standard distractor.\n- **わけではない** (#19) = *it's not that ~*; **わけにはいかない** (#57) = *can't (for social/moral reasons)*.\n- **わけだ②** (#134) = logical conclusion in explanations (*that's how/why ~*), common in formal writing.\n\nWhen the reason is unknown, the book points to **どういうわけか** *for some reason*: どういうわけか、昨日は全然眠れなかった.\n\nMistake to avoid: using わけだ for your own plans or predictions (✗明日は雨が降るわけだ). Use it when the fact is established and you're connecting it to a reason.",
+          "deepDive": "**〜わけだ** (★★★) is one of the most useful N2 sentence-enders. In this chapter's use, it expresses **realization + acceptance**: you already noticed a situation (the door won't open, there are many accidents), then you learn the cause, and the pieces click: *no wonder / that's why / so that explains it*.\n\nIt often comes with **どうりで** (*no wonder*), **なるほど**, **それで**, **だから**: それで安いわけですね. In casual speech だ is often dropped before sentence-final particles: わけよ／わけね (おいしいわけよね).\n\nConnection: plain form + わけだ. なA takes な (静かなわけだ), N takes の as the book shows (in everyday speech you'll also hear **Nなわけだ**). **〜というわけだ** also serves to sum up: それでまだ迷っているというわけなのね.\n\nContrast (see the ～わけ list, p.226):\n- **はずだ** = expectation based on reasoning *before* confirming: 今日就職試験だって言っていたから、もう出かけたはずだ *she should have left already*. わけだ = the result is already known and you've just found the reason.\n- **べきだ** = obligation/advice: *should do*. Unrelated in meaning but a standard distractor.\n- **わけではない** (#19) = *it's not that ~*; **わけにはいかない** (#57) = *can't (for social/moral reasons)*.\n- **わけだ②** (#134) = logical conclusion in explanations (*that's how/why ~*), common in formal writing.\n\nWhen the reason is unknown, the book points to **どういうわけか** *for some reason*: どういうわけか、昨日は全然眠れなかった.\n\nMistake to avoid: in this *no wonder* sense, the fact must already be established (you saw it, heard it, experienced it); わけだ then links it to the reason you've just learned. It isn't used for your own plans or intentions (✗明日は早く起きるわけだ meaning *I'll get up early tomorrow*).",
           "see": [
             19,
             57,
@@ -982,6 +982,7 @@ N2.register({
             "危うく〜ところだった",
             "もう少しで〜ところだった"
           ],
+          "xref": "☞ p.223　〜ところ／どころ",
           "practice": [
             {
               "type": "choice",
@@ -990,7 +991,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.223　〜ところ／どころ",
               "items": [
                 {
                   "q": "自転車が急に{飛|と}び{出|だ}してきて、もう少しでぶつかる（　）。",
@@ -1071,6 +1071,7 @@ N2.register({
             "Vくらいなら",
             "Vぐらいなら"
           ],
+          "xref": "☞ p.221　〜くらい",
           "practice": [
             {
               "type": "match",
@@ -1079,7 +1080,6 @@ N2.register({
                 "ja": "",
                 "en": "Match each beginning (1–4) with the correct ending (a–d)."
               },
-              "xref": "☞ p.221　〜くらい",
               "left": [
                 "{材料費|ざいりょうひ}を1,000円も出すくらいなら、",
                 "疲れて学校休むくらいなら、",
@@ -1528,7 +1528,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 1",
-        "en": "Question 4: Listening (1) — task-based"
+        "en": "Question 4: Listening (1) — point comprehension"
       },
       "ex": {
         "type": "listening",
@@ -1628,14 +1628,14 @@ N2.register({
             ],
             "en": [
               "I have a freshly baked cake. Won't you have some before you go?",
-              "1. Yes, I won't have any.",
-              "2. What? You're going to bake a cake now?",
-              "3. Oh, really? Are you sure?"
+              "Yes, I won't have any.",
+              "What? You're going to bake a cake now?",
+              "Oh, really? Are you sure?"
             ],
             "options": [
               "ええ、食べていきません。",
-              "え？ 今からケーキ{焼|や}くんですか。",
-              "え？ いいんですか。"
+              "え？　今からケーキ{焼|や}くんですか。",
+              "え？　いいんですか。"
             ],
             "answer": 2,
             "why": {
@@ -1652,14 +1652,14 @@ N2.register({
             ],
             "en": [
               "This morning I almost left my bag on the train.",
-              "1. What? What did you forget?",
-              "2. Oh? Good thing you noticed.",
-              "3. What? Then shall we contact the station?"
+              "What? What did you forget?",
+              "Oh? Good thing you noticed.",
+              "What? Then shall we contact the station?"
             ],
             "options": [
-              "え？ 何を忘れたんですか。",
-              "え？ 気がついてよかったですね。",
-              "え？ じゃ、駅に{連絡|れんらく}しましょうか。"
+              "え？　何を忘れたんですか。",
+              "え？　気がついてよかったですね。",
+              "え？　じゃ、駅に{連絡|れんらく}しましょうか。"
             ],
             "answer": 1,
             "why": {
@@ -1676,9 +1676,9 @@ N2.register({
             ],
             "en": [
               "If you can't even fill out a simple document like this, you won't be able to do the job.",
-              "1. Yes, I'm sorry.",
-              "2. Yes, because it's work.",
-              "3. Yes, it seems I can't write it."
+              "Yes, I'm sorry.",
+              "Yes, because it's work.",
+              "Yes, it seems I can't write it."
             ],
             "options": [
               "はい、すみません。",

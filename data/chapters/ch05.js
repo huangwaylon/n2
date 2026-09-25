@@ -98,7 +98,7 @@ N2.register({
             },
             {
               "ja": "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。",
-              "en": "Our dog has become very weak and is almost bedridden every day."
+              "en": "Our dog has grown very weak and spends almost the whole day lying down."
             }
           ],
           "notes": [
@@ -231,6 +231,7 @@ N2.register({
             83,
             89
           ],
+          "xref": "☞ p.223　〜ところ／どころ",
           "index": [
             "Nどころではない",
             "Vるどころではない",
@@ -245,7 +246,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the correct option."
               },
-              "xref": "☞ p.223　〜ところ／どころ",
               "items": [
                 {
                   "q": "今日は会社の{忘年会|ぼうねんかい}だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。",
@@ -331,6 +331,7 @@ N2.register({
             122,
             132
           ],
+          "xref": "☞ p.224　〜もの／もん",
           "index": [
             "Plものの",
             "なAなものの",
@@ -346,7 +347,6 @@ N2.register({
                 "ja": "",
                 "en": "Choose the option that correctly completes each sentence."
               },
-              "xref": "☞ p.224　〜もの／もん",
               "items": [
                 {
                   "q": "今年こそ{手|て}{編|あ}みのセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。",
@@ -730,6 +730,7 @@ N2.register({
           ],
           "deepDive": "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\nGetting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\nDifferences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\nCommon mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\nJLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
           "see": [],
+          "xref": "☞ p.222　〜さえ",
           "index": [
             "Nさえ〜ば",
             "Vますさえすれば",
@@ -806,6 +807,7 @@ N2.register({
           "see": [
             84
           ],
+          "xref": "☞ p.225　〜よう",
           "index": [
             "Vますようがない",
             "Nのしようがない",
@@ -994,6 +996,7 @@ N2.register({
             122,
             132
           ],
+          "xref": "☞ p.224　〜もの／もん",
           "index": [
             "Vるものではない",
             "Vるもんじゃない",
@@ -1032,6 +1035,7 @@ N2.register({
             55,
             105
           ],
+          "xref": "☞ p.222　〜だけ",
           "index": [
             "VるだけVてみる",
             "〜だけ〜てみる",
@@ -1308,7 +1312,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 1",
-        "en": "Question 4: Listening (task)"
+        "en": "Question 4: Listening (1) — point comprehension"
       },
       "ex": {
         "type": "listening",
@@ -1394,7 +1398,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 2",
-        "en": "Question 4: Listening (quick response)"
+        "en": "Question 4: Listening (2) — quick response"
       },
       "ex": {
         "type": "listening",
@@ -1416,7 +1420,7 @@ N2.register({
               "Do you want to go out for lunch together?"
             ],
             "options": [
-              "え？ 行くところがないの？",
+              "え？　行くところがないの？",
               "ごめん、それどころじゃないんだ。",
               "じゃ、ゆっくり食べてね。"
             ],

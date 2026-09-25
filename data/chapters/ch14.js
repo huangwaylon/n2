@@ -1065,7 +1065,7 @@ N2.register({
           "{新|あら}たな高速道路{建設|けんせつ}をめぐって、{現在様々|げんざいさまざま}な{議論|ぎろん}が{行|おこな}われている。新しい高速道路ができれば、{地域経済|ちいきけいざい}が{活発|かっぱつ}になると{期待|きたい}する人も多い。しかし、国民の{幸福|こうふく}という{基本理念|きほんりねん}に{基|もと}づいて{建設計画|けんせつけいかく}が作られたとしても、まずその{費用|ひよう}をどうするのかが問題だ。{資金|しきん}問題に{加|くわ}えて、{周辺地域|しゅうへんちいき}への{騒音|そうおん}や{大気汚染|たいきおせん}をどうするかも{検討|けんとう}しなければなるまい。{建設|けんせつ}にあたって、クリアしなければならない問題はまだ{数多|かずおお}く、{決定|けってい}には時間がかかるものと思われる。"
         ],
         "en": [
-          "Various debates are currently taking place over the construction of a new expressway. Many people expect that if a new expressway is built, the regional economy will become more active. However, even if the construction plan is drawn up based on the fundamental principle of the people's happiness, the first problem is what to do about its cost. In addition to the funding problem, we must also consider what to do about noise and air pollution in the surrounding areas. There are still many problems that must be cleared in carrying out the construction, and it seems a decision will take time."
+          "Various debates are currently taking place over the construction of a new expressway. Many people expect that if a new expressway is built, the regional economy will become more active. However, even if the construction plan is drawn up based on the fundamental principle of the people's happiness, the first problem is what to do about its cost. In addition to the funding problem, we must also consider what to do about noise and air pollution in the surrounding areas. There are still many problems that must be resolved before construction can go ahead, and it seems a decision will take some time."
         ],
         "items": [
           {

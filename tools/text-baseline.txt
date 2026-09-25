@@ -437,19 +437,19 @@ ch1.review.3.ex.items.0.question	何のお知らせですか。
 ch1.review.3.ex.items.0.questionEn	What is the announcement about?
 ch1.review.3.ex.items.0.script.0.ja	留学生会館のお知らせを聞いています。
 ch1.review.3.ex.items.0.script.0.sp	
-ch1.review.3.ex.items.0.script.1.ja	{横田国際|よこたこくさい}留学生会館からのお知らせです。来たる3月10日土曜日の午後2時から「留学生と英語で{交流|こうりゅう}しよう」という会を{開催|かいさい}いたします。15名ほどの{各国|かっこく}の留学生と、レベルに{応|おう}じてグループに分かれて交流します。{年齢|ねんれい}、{職業|しょくぎょう}を{問|と}わず、16歳以上の方ならどなたでもご{参加|さんか}いただけます。ただし、{希望者|きぼうしゃ}が多い場合は、住民の方を{優先|ゆうせん}しますので、それ以外の方は{横田|よこた}{国際|こくさい}留学生会館に{直接|ちょくせつ}お問い{合|あ}わせください。{参加費|さんかひ}はお{茶代|ちゃだい}として500円。{当日|とうじつ}、留学生会館にお{越|こ}しの{際|さい}にお{支払|しはら}いください。{定員|ていいん}は40名です。電話番号は…。
+ch1.review.3.ex.items.0.script.1.ja	{横田国際|よこたこくさい}留学生会館からのお知らせです。来たる3月10日土曜日の午後2時から「留学生と英語で{交流|こうりゅう}しよう」という会を{開催|かいさい}いたします。15名ほどの{各国|かっこく}の留学生と、レベルに{応|おう}じてグループに分かれて{交流|こうりゅう}します。{年齢|ねんれい}、{職業|しょくぎょう}を{問|と}わず、16歳以上の方ならどなたでもご{参加|さんか}いただけます。ただし、{希望者|きぼうしゃ}が多い場合は、住民の方を{優先|ゆうせん}しますので、それ以外の方は{横田|よこた}{国際|こくさい}留学生会館に{直接|ちょくせつ}お問い{合|あ}わせください。{参加費|さんかひ}はお{茶代|ちゃだい}として500円。{当日|とうじつ}、留学生会館にお{越|こ}しの{際|さい}にお{支払|しはら}いください。{定員|ていいん}は40名です。電話番号は…。
 ch1.review.3.ex.items.0.script.1.sp	F
 ch1.review.3.ex.items.0.script.2.ja	ねえ、このイベント、おもしろそうよ。
 ch1.review.3.ex.items.0.script.2.sp	F
-ch1.review.3.ex.items.0.script.3.ja	え？ ああ、留学生会館、いつも料理教室やっているところだね。へえ、英語かあ。
+ch1.review.3.ex.items.0.script.3.ja	え？　ああ、留学生会館、いつも料理教室やっているところだね。へえ、英語かあ。
 ch1.review.3.ex.items.0.script.3.sp	M
 ch1.review.3.ex.items.0.script.4.ja	うん。いつも、英語で話すチャンスがないって言ってたじゃない。
 ch1.review.3.ex.items.0.script.4.sp	F
-ch1.review.3.ex.items.0.script.5.ja	そうだね。「レベルに{応|おう}じて」だから、ぼくでも大丈夫かな？ じゃ、行ってみようか。
+ch1.review.3.ex.items.0.script.5.ja	そうだね。「レベルに{応|おう}じて」だから、ぼくでも大丈夫かな？　じゃ、行ってみようか。
 ch1.review.3.ex.items.0.script.5.sp	M
 ch1.review.3.ex.items.0.script.6.ja	そうよ。行ってきたら？
 ch1.review.3.ex.items.0.script.6.sp	F
-ch1.review.3.ex.items.0.script.7.ja	え？ 一緒に行かないの？
+ch1.review.3.ex.items.0.script.7.ja	え？　一緒に行かないの？
 ch1.review.3.ex.items.0.script.7.sp	M
 ch1.review.3.ex.items.0.script.8.ja	私、その日はちょっとね。
 ch1.review.3.ex.items.0.script.8.sp	F
@@ -807,7 +807,7 @@ ch2.parts.1.points.2.plus.1.pattern	〜{上|うえ}は
 ch2.parts.1.points.2.plus.1.stars	1
 ch2.parts.1.points.2.plus.1.usage.en	You can also say V + 上は.
 ch2.parts.1.points.2.plus.1.usage.ja	「[V] + {上|うえ}は」という言い方もある。
-ch2.parts.1.points.2.plus.1.xref	☞ p.221 〜{上|うえ}／{上|じょう}
+ch2.parts.1.points.2.plus.1.xref	☞ p.221　〜{上|うえ}／{上|じょう}
 ch2.parts.1.points.2.practice.0.items.0.answer	0
 ch2.parts.1.points.2.practice.0.items.0.options.0	からには
 ch2.parts.1.points.2.practice.0.items.0.options.1	からといって
@@ -830,7 +830,7 @@ ch2.parts.1.points.2.practice.0.items.4.options.1	からといって
 ch2.parts.1.points.2.practice.0.items.4.q	わざわざ休みを取って旅行に来た（　）、思いっきり楽しんで帰ろうよ。
 ch2.parts.1.points.2.practice.0.prompt.ja	
 ch2.parts.1.points.2.practice.0.type	choice
-ch2.parts.1.points.2.practice.0.xref	☞ p.220 〜から
+ch2.parts.1.points.2.practice.0.xref	☞ p.220　〜から
 ch2.parts.1.points.2.stars	2
 ch2.parts.1.points.2.usage.en	Use "〜からには…" when you want to say, with strong emotion, something like "it's natural because 〜 is decided / a fact; something should be done; you intend to do something; when you order someone to do something."
 ch2.parts.1.points.2.usage.ja	「〜からには…」は、「〜は決めたこと・事実なのだから{当然|とうぜん}…するべきだ・するつもりだ・しろ」などの強い気持ちを言いたいときに使う。
@@ -864,10 +864,10 @@ ch2.parts.1.points.3.practice.0.items.2.q	A：彼は{優|やさ}しいから、{
 B：{謝|あやま}ればいつでも許してもらえる（ 2 ）と思うよ。
 ch2.parts.1.points.3.practice.0.prompt.ja	
 ch2.parts.1.points.3.practice.0.type	choice
-ch2.parts.1.points.3.practice.0.xref	☞ p.226 〜わけ
 ch2.parts.1.points.3.stars	3
 ch2.parts.1.points.3.usage.en	Use "〜わけではない" when you make a denial as in "that's not the situation; it doesn't feel like that; not for that reason." Use it when you refute another person's idea or a typical judgment as in "病気が治ったわけではない". You can also use it when you do not want to say that something is 100% for sure, as in "嫌いなわけではない".
 ch2.parts.1.points.3.usage.ja	「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100%そうだと言いたくないときにも使う。
+ch2.parts.1.points.3.xref	☞ p.226　〜わけ
 ch2.parts.1.points.4.examples.0.ja	今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}することなく、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。
 ch2.parts.1.points.4.examples.1.ja	彼は{一言|ひとこと}も{文句|もんく}を言うことなく、重い荷物を運んでいった。
 ch2.parts.1.points.4.examples.2.ja	その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。
@@ -895,10 +895,10 @@ ch2.parts.1.points.4.practice.0.items.3.options.1	続いている
 ch2.parts.1.points.4.practice.0.items.3.q	中学{時代|じだい}に{出会|であ}った{親友|しんゆう}との{友情|ゆうじょう}は、20年間変わることなく、（　）。
 ch2.parts.1.points.4.practice.0.prompt.ja	
 ch2.parts.1.points.4.practice.0.type	choice
-ch2.parts.1.points.4.practice.0.xref	☞ p.221 〜こと
 ch2.parts.1.points.4.stars	2
 ch2.parts.1.points.4.usage.en	Use this when something happens or is completed even though some action has not been done, as in "休むことなく働き続けている".
 ch2.parts.1.points.4.usage.ja	「休むことなく働き続けている」のように、何かをしない{状態|じょうたい}で後ろの{動作|どうさ}が続いたり、{完了|かんりょう}したりするときに使う。
+ch2.parts.1.points.4.xref	☞ p.221　〜こと
 ch2.parts.1.points.5.examples.0.ja	彼の{努力|どりょく}にもかかわらず、{業績|ぎょうせき}はよくならなかった。
 ch2.parts.1.points.5.examples.1.ja	多くの{家庭|かてい}で{収入|しゅうにゅう}が{減少|げんしょう}しているにもかかわらず、{貯金額|ちょきんがく}は{増加|ぞうか}している。
 ch2.parts.1.points.5.examples.2.ja	授業中にもかかわらず、学生はおしゃべりしたり、{携帯|けいたい}電話でメールしたりしている。
@@ -936,10 +936,10 @@ ch2.parts.1.points.5.practice.0.items.4.options.1	はもちろん
 ch2.parts.1.points.5.practice.0.items.4.q	彼は子どものころからサッカー（　）スポーツは何でも{得意|とくい}だった。
 ch2.parts.1.points.5.practice.0.prompt.ja	
 ch2.parts.1.points.5.practice.0.type	choice
-ch2.parts.1.points.5.practice.0.xref	☞ p.223 〜にかかわらず
 ch2.parts.1.points.5.stars	3
 ch2.parts.1.points.5.usage.en	"〜にもかかわらず" means "although / despite 〜". Use it to mean that something is actually different from what one would expect from the situation.
 ch2.parts.1.points.5.usage.ja	「〜にもかかわらず」は、「〜なのに」という意味で、その{状態|じょうたい}から{予想|よそう}することと{実際|じっさい}が{違|ちが}うという意味で使う。
+ch2.parts.1.points.5.xref	☞ p.223　〜にかかわらず
 ch2.parts.1.sample.lines	{大阪|おおさか}{支社|ししゃ}では、アジア{各国|かっこく}への{輸出|ゆしゅつ}{拡大|かくだい}**を**{目的|もくてき}**とした**プロジェクトに{参加|さんか}することになりました。この{転勤|てんきん}を**きっかけ**に、また{新|あら}たな{挑戦|ちょうせん}ができることを{期待|きたい}しております。やる**からには**{全力|ぜんりょく}でがんばります。入社以来{慣|な}れ{親|した}しんだこの{職場|しょくば}を{離|はな}れることになりましたが、皆様と一緒に仕事をする機会がなくなるという**わけではありません**。どうぞこれまでと変わる**ことなく**、ご{指導|しどう}よろしくお願いいたします。最後に、本日は雨**にもかかわらず**、このように多くの{方々|かたがた}が来てくださったこと、皆様の温かいお{心遣|こころづか}いに心から{感謝|かんしゃ}しております。本当にありがとうございました。
 ch2.review.0.ex.items.0.answer	0
 ch2.review.0.ex.items.0.options.0	{試|こころ}みながらも
@@ -1544,7 +1544,7 @@ ch3.review.3.ex.items.0.script.6.ja	そうだね。とりあえず私が{先方|
 ch3.review.3.ex.items.0.script.6.sp	M
 ch3.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch3.review.3.ex.type	listening
-ch3.review.3.title.en	Question 4: Listening (task)
+ch3.review.3.title.en	Question 4: Listening (1) — task
 ch3.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch3.review.4.ex.items.0.answer	1
 ch3.review.4.ex.items.0.options.0	ほんと、見ざるを{得|え}ないよ。
@@ -1566,7 +1566,7 @@ ch3.review.4.ex.items.2.script.0.ja	おい、そんなにスピード出した�
 ch3.review.4.ex.items.2.script.0.sp	M
 ch3.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch3.review.4.ex.type	listening
-ch3.review.4.title.en	Question 4: Listening (quick response)
+ch3.review.4.title.en	Question 4: Listening (2) — quick response
 ch3.review.4.title.ja	問題4 〈{聴解|ちょうかい}〉 2
 ch3.title.en	A Hotel Job
 ch3.title.ja	ホテルの仕事
@@ -1952,7 +1952,7 @@ ch4.review.3.ex.items.2.script.1.ja	{東名高速道路|とうめいこうそく
 ch4.review.3.ex.items.2.script.1.sp	F
 ch4.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch4.review.3.ex.type	listening
-ch4.review.3.title.en	Question 4: Listening — 1 (Point comprehension)
+ch4.review.3.title.en	Question 4: Listening (1) — point comprehension
 ch4.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉1
 ch4.review.4.ex.items.0.answer	1
 ch4.review.4.ex.items.0.options.0	はい、{問|と}い{合|あ}わせをしております。
@@ -1962,7 +1962,7 @@ ch4.review.4.ex.items.0.script.0.ja	先日、{問|と}い{合|あ}わせた{件|
 ch4.review.4.ex.items.0.script.0.sp	F
 ch4.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch4.review.4.ex.type	listening
-ch4.review.4.title.en	Question 4: Listening — 2 (Quick response)
+ch4.review.4.title.en	Question 4: Listening (2) — quick response
 ch4.review.4.title.ja	問題4 〈{聴解|ちょうかい}〉2
 ch4.title.en	Typhoon Information
 ch4.title.ja	{台風|たいふう}{情報|じょうほう}
@@ -2062,10 +2062,10 @@ ch5.parts.0.points.1.practice.0.items.2.options.1	勉強
 ch5.parts.0.points.1.practice.0.items.2.q	大学時代はアルバイトに{追|お}われて（　）どころではなかった。
 ch5.parts.0.points.1.practice.0.prompt.ja	
 ch5.parts.0.points.1.practice.0.type	choice
-ch5.parts.0.points.1.practice.0.xref	☞ p.223　〜ところ／どころ
 ch5.parts.0.points.1.stars	3
 ch5.parts.0.points.1.usage.en	Use "〜どころではない" when you want to explain that your situation now is "not a situation where I can do 〜 (so I can't do it)."
 ch5.parts.0.points.1.usage.ja	「〜どころではない」は、今は「〜ができる{状態|じょうたい}ではない（だからできない）」という自分の{状況|じょうきょう}を説明したいときに使う。
+ch5.parts.0.points.1.xref	☞ p.223　〜ところ／どころ
 ch5.parts.0.points.2.examples.0.ja	水泳教室に通ってはいるものの、いまだに25メートルしか泳げない。
 ch5.parts.0.points.2.examples.1.ja	この{靴|くつ}、デザインが気に入って買ったものの、{履|は}く機会が{全然|ぜんぜん}ないんだ。
 ch5.parts.0.points.2.examples.2.ja	新しい{技術|ぎじゅつ}が{開発|かいはつ}されたとはいうものの、{実用化|じつようか}にはまだ時間がかかるだろう。
@@ -2093,10 +2093,10 @@ ch5.parts.0.points.2.practice.0.items.2.options.1	{実際|じっさい}に20日�
 ch5.parts.0.points.2.practice.0.items.2.q	私の場合、年間20日の{有給休暇|ゆうきゅうきゅうか}が取れることになっているものの、（　）。
 ch5.parts.0.points.2.practice.0.prompt.ja	
 ch5.parts.0.points.2.practice.0.type	choice
-ch5.parts.0.points.2.practice.0.xref	☞ p.224　〜もの／もん
 ch5.parts.0.points.2.stars	2
 ch5.parts.0.points.2.usage.en	Use "〜ものの" when you really want to say you feel that "even though the fact is 〜 (I wanted it and bought it)," as in "ほしくて買ったものの". The particle "は" is often used to emphasize the fact.
 ch5.parts.0.points.2.usage.ja	「〜ものの」は、「ほしくて買ったものの」のように、「〜は{事実|じじつ}だ（ほしくて買った）けれども」という気持ちを強く言いたいときに使う。{事実|じじつ}を{強調|きょうちょう}するために、{助詞|じょし}「は」を使うことが多い。
+ch5.parts.0.points.2.xref	☞ p.224　〜もの／もん
 ch5.parts.0.points.3.examples.0.ja	ホテルの部屋に入ったら、{驚|おどろ}いたことに、バラの{花束|はなたば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。
 ch5.parts.0.points.3.examples.1.ja	うれしいことに、うちの高校が{合唱|がっしょう}コンクールで{優勝|ゆうしょう}したんですよ。
 ch5.parts.0.points.3.examples.2.ja	{五色沼|ごしきぬま}は{不思議|ふしぎ}なことに、5つある{沼|ぬま}の水の色が全部違うそうだ。
@@ -2214,6 +2214,7 @@ ch5.parts.1.points.0.practice.0.type	match
 ch5.parts.1.points.0.stars	3
 ch5.parts.1.points.0.usage.en	Use "〜さえ…ば" when you want to say "〜 is the only necessary condition" as in "{給料|きゅうりょう}さえよければどんな仕事でもいい".
 ch5.parts.1.points.0.usage.ja	「{給料|きゅうりょう}さえよければどんな仕事でもいい」のように、「〜さえ…ば」は、「〜だけが{必要|ひつよう}な{条件|じょうけん}だ」と言いたいときに使う。
+ch5.parts.1.points.0.xref	☞ p.222　〜さえ
 ch5.parts.1.points.1.examples.0.ja	出張の予定だったが、{大雪|おおゆき}で{飛行機|ひこうき}が{欠航|けっこう}してしまったので行きようがない。
 ch5.parts.1.points.1.examples.1.ja	A：どうして1週間も{連絡|れんらく}してくれなかったの。
 B：ごめん。{携帯|けいたい}電話をなくしちゃって、{連絡|れんらく}しようがなかったんだ。
@@ -2246,6 +2247,7 @@ ch5.parts.1.points.1.practice.0.type	choice
 ch5.parts.1.points.1.stars	3
 ch5.parts.1.points.1.usage.en	As in "私も知らないから教えようがない", use "〜ようがない" when you want to say "because of (I don't know either), I can't 〜 (tell you)." When you say it as "どうしようもない", it means that there is nothing you can do.
 ch5.parts.1.points.1.usage.ja	「〜ようがない」は、「私も知らないから教えようがない」のように、「理由（私も知らない）があって〜をする（教える）ことができない」と言いたいときに使う。「どうしようもない」という言い方は、できることが何もないという意味。
+ch5.parts.1.points.1.xref	☞ p.225　〜よう
 ch5.parts.1.points.2.examples.0.ja	A：お父さん、私、{単位|たんい}落としちゃって、もう一度2年生をやることになっちゃったんだ。
 B：何？　遊びまわったあげくに{留年|りゅうねん}するなんて、何を考えているんだ。
 ch5.parts.1.points.2.examples.1.ja	さっきのお客さん、あれこれ{試着|しちゃく}したあげく、何も買わずに帰っちゃって…。
@@ -2289,6 +2291,7 @@ ch5.parts.1.points.3.phrase	そんなこと考える**もんじゃない**
 ch5.parts.1.points.3.stars	1
 ch5.parts.1.points.3.usage.en	Use "〜ものではない" when you warn somebody that "you must not do 〜; you shouldn't do 〜".
 ch5.parts.1.points.3.usage.ja	「〜ものではない」は、「〜してはいけない・〜するべきではない」と注意するときに使う。
+ch5.parts.1.points.3.xref	☞ p.224　〜もの／もん
 ch5.parts.1.points.4.examples.0.ja	今から行っても間に合わないかもしれないけど、行くだけ行ってみようよ。
 ch5.parts.1.points.4.examples.1.ja	A：忙しいから、休みなんてもらえないだろうなあ。
 B：今日、{課長|かちょう}{機嫌|きげん}がいいから、{頼|たの}むだけ{頼|たの}んでみたら？
@@ -2300,6 +2303,7 @@ ch5.parts.1.points.4.phrase	出す**だけ**出してみる
 ch5.parts.1.points.4.stars	1
 ch5.parts.1.points.4.usage.en	Use "〜だけ" when you want to say "it might not work out, but I'll try 〜".
 ch5.parts.1.points.4.usage.ja	「〜だけ」は、「だめかもしれないが、〜してみる」と言いたいときに使う。
+ch5.parts.1.points.4.xref	☞ p.222　〜だけ
 ch5.parts.1.sample.lines	[{渡辺|わたなべ}]難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。[{木山|きやま}]そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。[渡辺]そんなこと考える**もんじゃない**よ。{成功|せいこう}するって信じなきゃ。ゼミの{先輩|せんぱい}も、{絶対|ぜったい}だめだと思ったけど出す**だけ**出してみるって言って、{結局|けっきょく}その会社に入れたんだって。[木山]へえ、そうなんだ。[渡辺]だから、とにかくあきらめないで、最後までがんばろうよ。ね。
 ch5.review.0.ex.items.0.answer	3
 ch5.review.0.ex.items.0.options.0	にしては
@@ -2438,10 +2442,10 @@ ch5.review.3.ex.items.0.script.8.ja	女の人は何が一番問題だと思っ�
 ch5.review.3.ex.items.0.script.8.sp	
 ch5.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch5.review.3.ex.type	listening
-ch5.review.3.title.en	Question 4: Listening (task)
+ch5.review.3.title.en	Question 4: Listening (1) — point comprehension
 ch5.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch5.review.4.ex.items.0.answer	1
-ch5.review.4.ex.items.0.options.0	え？ 行くところがないの？
+ch5.review.4.ex.items.0.options.0	え？　行くところがないの？
 ch5.review.4.ex.items.0.options.1	ごめん、それどころじゃないんだ。
 ch5.review.4.ex.items.0.options.2	じゃ、ゆっくり食べてね。
 ch5.review.4.ex.items.0.script.0.ja	お昼、一緒に食べに行かない？
@@ -2454,7 +2458,7 @@ ch5.review.4.ex.items.1.script.0.ja	君、こんなレポートじゃ、直し�
 ch5.review.4.ex.items.1.script.0.sp	M
 ch5.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch5.review.4.ex.type	listening
-ch5.review.4.title.en	Question 4: Listening (quick response)
+ch5.review.4.title.en	Question 4: Listening (2) — quick response
 ch5.review.4.title.ja	問題4 〈{聴解|ちょうかい}〉 2
 ch5.title.en	Job Hunting
 ch5.title.ja	{就職活動|しゅうしょくかつどう}
@@ -2965,7 +2969,7 @@ ch6.review.3.ex.items.1.script.1.ja	昨日はすみませんでした。アル�
 ch6.review.3.ex.items.1.script.1.sp	F
 ch6.review.3.ex.items.1.script.2.ja	まだ、{顔色|かおいろ}悪いね。店のほうは君の代わりに{伊藤|いとう}さんが来てくれたし、気にすることはないよ。
 ch6.review.3.ex.items.1.script.2.sp	M
-ch6.review.3.ex.items.1.script.3.ja	え？ 昨日は{伊藤|いとう}さん、{用事|ようじ}があったはずなんですけど…。
+ch6.review.3.ex.items.1.script.3.ja	え？　昨日は{伊藤|いとう}さん、{用事|ようじ}があったはずなんですけど…。
 ch6.review.3.ex.items.1.script.3.sp	F
 ch6.review.3.ex.items.1.script.4.ja	そう言ってたけど、{無理|むり}言って{頼|たの}んだんだ。まぁ、今度代わってあげればいいんじゃない？
 ch6.review.3.ex.items.1.script.4.sp	M
@@ -2973,7 +2977,7 @@ ch6.review.3.ex.items.1.script.5.ja	{伊藤|いとう}さんは昨日何をし�
 ch6.review.3.ex.items.1.script.5.sp	
 ch6.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch6.review.3.ex.type	listening
-ch6.review.3.title.en	Question 4: Listening (1) — task
+ch6.review.3.title.en	Question 4: Listening (1) — point comprehension
 ch6.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch6.review.4.ex.items.0.answer	1
 ch6.review.4.ex.items.0.options.0	でも、行きましたね。
@@ -3161,10 +3165,10 @@ ch7.parts.0.points.3.practice.0.items.3.options.1	まだ{危険|きけん}があ
 ch7.parts.0.points.3.practice.0.items.3.q	{被災地|ひさいち}には、国内のみならず（　）。
 ch7.parts.0.points.3.practice.0.prompt.ja	
 ch7.parts.0.points.3.practice.0.type	choice
-ch7.parts.0.points.3.practice.0.xref	☞ p.224　〜のみ
 ch7.parts.0.points.3.stars	2
 ch7.parts.0.points.3.usage.en	
 ch7.parts.0.points.3.usage.ja	「〜のみならず」は、「〜だけでなく」と同じように使う。
+ch7.parts.0.points.3.xref	☞ p.224　〜のみ
 ch7.parts.0.points.4.examples.0.ja	くるみやアーモンドといったナッツ{類|るい}を毎日食べると、{記憶力|きおくりょく}がよくなるそうです。
 ch7.parts.0.points.4.examples.1.ja	{仏教|ぶっきょう}は、中国、日本、{韓国|かんこく}、タイといったアジアの国で広く{信仰|しんこう}されている。
 ch7.parts.0.points.4.examples.2.ja	{夜食|やしょく}は、おかゆやうどんといった{消化|しょうか}のいい食べ物にしたほうがいいでしょう。
@@ -3600,7 +3604,7 @@ ch7.review.3.ex.items.0.script.2.ja	やりたくても、これ以上安くす�
 ch7.review.3.ex.items.0.script.2.sp	M
 ch7.review.3.ex.items.0.script.3.ja	ほかの店がやらないようなのじゃないとだめですよね。
 ch7.review.3.ex.items.0.script.3.sp	F
-ch7.review.3.ex.items.0.script.4.ja	うちは{年配|ねんぱい}のお客様が多いだろ？ この点から見て、何か考えられないかな。
+ch7.review.3.ex.items.0.script.4.ja	うちは{年配|ねんぱい}のお客様が多いだろ？　この点から見て、何か考えられないかな。
 ch7.review.3.ex.items.0.script.4.sp	M
 ch7.review.3.ex.items.0.script.5.ja	わかりました。みんなで考えてみます。
 ch7.review.3.ex.items.0.script.5.sp	F
@@ -3644,7 +3648,7 @@ ch7.review.4.title.en	Question 4: Listening (2) — integrated comprehension
 ch7.review.4.title.ja	問題4 〈{聴解|ちょうかい}〉 2
 ch7.review.5.ex.items.0.answer	1
 ch7.review.5.ex.items.0.options.0	うん、私も{宇宙人|うちゅうじん}はいないと思う。
-ch7.review.5.ex.items.0.options.1	え？ {宇宙人|うちゅうじん}がいると思っているの？
+ch7.review.5.ex.items.0.options.1	え？　{宇宙人|うちゅうじん}がいると思っているの？
 ch7.review.5.ex.items.0.options.2	何言ってるの、それは{宇宙人|うちゅうじん}の話よ。
 ch7.review.5.ex.items.0.script.0.ja	これ、{宇宙人|うちゅうじん}の写真だって。でもあり{得|え}ない話じゃないよね。
 ch7.review.5.ex.items.0.script.0.sp	M
@@ -3803,7 +3807,7 @@ ch8.parts.0.points.2.usage.en	"お／ご〜{申|もう}し{上|あ}げる" means
 ch8.parts.0.points.2.usage.ja	「お／ご〜{申|もう}し{上|あ}げる」は、「言う」ではなく、「する」の意味で、自分が相手のために何かをするときに使う。「お／ご〜する」のもっと{丁寧|ていねい}な言い方。
 ch8.parts.0.points.3.examples.0.ja	こちらの{事情|じじょう}をご{理解|りかい}いただければと思います。
 ch8.parts.0.points.3.examples.1.ja	この仕事を{山田|やまだ}さんにお願いできればと思っているんですが…。
-ch8.parts.0.points.3.examples.2.ja	皆さんのご意見をお聞かせくだされればと思います。
+ch8.parts.0.points.3.examples.2.ja	皆さんのご意見をお聞かせくださればと思います。
 ch8.parts.0.points.3.examples.3.ja	スピーチコンテストで{入賞|にゅうしょう}できればと思って、がんばっています。
 ch8.parts.0.points.3.examples.4.ja	A：こちらのお部屋はいかがでしょうか。
 B：そうですね。もう少し広ければと思うんですが…。
@@ -3984,7 +3988,7 @@ ch8.review.3.ex.items.0.script.7.ja	いえ、あのー、たいへん失礼で�
 ch8.review.3.ex.items.0.script.7.sp	M
 ch8.review.3.ex.prompt.ja	この{問題|もんだい}では、{問題|もんだい}{用紙|ようし}に{何|なに}も{印刷|いんさつ}されていません。この{問題|もんだい}は、{全体|ぜんたい}としてどんな{内容|ないよう}かを{聞|き}く{問題|もんだい}です。{話|はなし}の{前|まえ}に{質問|しつもん}はありません。まず{話|はなし}を{聞|き}いてください。それから、{質問|しつもん}と{選択肢|せんたくし}を{聞|き}いて、1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch8.review.3.ex.type	listening
-ch8.review.3.title.en	Question 4: Listening — 1 (Summary comprehension)
+ch8.review.3.title.en	Question 4: Listening (1) — overall gist
 ch8.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch8.review.4.ex.items.0.answer	0
 ch8.review.4.ex.items.0.options.0	はい、{明日|あす}3時にお{伺|うかが}いいたします。
@@ -4000,7 +4004,7 @@ ch8.review.4.ex.items.1.script.0.ja	部長、トニー{株式会社|かぶしき
 ch8.review.4.ex.items.1.script.0.sp	F
 ch8.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題|もんだい}{用紙|ようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch8.review.4.ex.type	listening
-ch8.review.4.title.en	Question 4: Listening — 2 (Quick response)
+ch8.review.4.title.en	Question 4: Listening (2) — quick response
 ch8.review.4.title.ja	問題4 〈{聴解|ちょうかい}〉 2
 ch8.title.en	At a Client
 ch8.title.ja	{取引先|とりひきさき}で
@@ -4350,10 +4354,10 @@ ch9.parts.1.points.4.practice.0.items.3.options.1	はずだった
 ch9.parts.1.points.4.practice.0.items.3.q	{階段|かいだん}で{押|お}されて、{危|あや}うく転ぶ（　）。
 ch9.parts.1.points.4.practice.0.prompt.ja	
 ch9.parts.1.points.4.practice.0.type	choice
-ch9.parts.1.points.4.practice.0.xref	☞ p.223　〜ところ／どころ
 ch9.parts.1.points.4.stars	3
 ch9.parts.1.points.4.usage.en	Use "〜ところだった" when you want to say "it seemed like it was going to be 〜, but actually it didn't" as in "もう少しでけがをするところだった".
 ch9.parts.1.points.4.usage.ja	「〜ところだった」は、「もう少しでけがをするところだった」のように、「〜の{状況|じょうきょう}になりそうだったが、{実際|じっさい}にはそうならなかった」と言いたいときに使う。
+ch9.parts.1.points.4.xref	☞ p.223　〜ところ／どころ
 ch9.parts.1.points.5.examples.0.ja	A：カメラが{壊|こわ}れちゃって、{修理代|しゅうりだい}が15,000円もするんだ。
 B：15,000円も{払|はら}うくらいなら、新しいのを買ったほうがいいね。
 ch9.parts.1.points.5.examples.1.ja	お金を{払|はら}って電車に乗るくらいなら、時間がかかっても自転車で行ったほうがいい。
@@ -4379,10 +4383,10 @@ ch9.parts.1.points.5.practice.0.right.1	{手作|てづく}りするより、買�
 ch9.parts.1.points.5.practice.0.right.2	最初から付き合わなければよかったのに…。
 ch9.parts.1.points.5.practice.0.right.3	アルバイトなんてやめなさい。
 ch9.parts.1.points.5.practice.0.type	match
-ch9.parts.1.points.5.practice.0.xref	☞ p.221　〜くらい
 ch9.parts.1.points.5.stars	2
 ch9.parts.1.points.5.usage.en	As in "1時間待つくらいならほかの店に行こう", use the "AくらいならB" form when you want to say "I don't like to do A (wait an hour), so I choose B (to go to another store) although I can't say B is the best." You can also use this to express regret as in "ほかの店に行ったほうがよかった".
 ch9.parts.1.points.5.usage.ja	「1時間待つくらいならほかの店に行こう」のように、「AくらいならB」の形で、「Aする（1時間待つ）のは{嫌|いや}だから、Bも一番いいとは言えないがB（ほかの店に行く）を選ぶ」と言いたいときに使う。「ほかの店に行ったほうがよかった」のように{後悔|こうかい}するときにも使う。
+ch9.parts.1.points.5.xref	☞ p.221　〜くらい
 ch9.parts.1.points.6.examples.0.ja	A：もうすぐ冬だね。私、寒いの{苦手|にがて}なんだ。
 B：暑いより、寒いほうがましだよ。寒いときには服を着ればいいんだから。
 ch9.parts.1.points.6.examples.1.ja	A：彼、何を作っても何も言わずに食べるだけなの。
@@ -4577,18 +4581,18 @@ ch9.review.3.ex.items.0.script.7.ja	男の人はどうしてポイントがつ�
 ch9.review.3.ex.items.0.script.7.sp	
 ch9.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch9.review.3.ex.type	listening
-ch9.review.3.title.en	Question 4: Listening (1) — task-based
+ch9.review.3.title.en	Question 4: Listening (1) — point comprehension
 ch9.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch9.review.4.ex.items.0.answer	2
 ch9.review.4.ex.items.0.options.0	ええ、食べていきません。
-ch9.review.4.ex.items.0.options.1	え？ 今からケーキ{焼|や}くんですか。
-ch9.review.4.ex.items.0.options.2	え？ いいんですか。
+ch9.review.4.ex.items.0.options.1	え？　今からケーキ{焼|や}くんですか。
+ch9.review.4.ex.items.0.options.2	え？　いいんですか。
 ch9.review.4.ex.items.0.script.0.ja	{焼|や}きたてのケーキがあるのよ。食べていかない？
 ch9.review.4.ex.items.0.script.0.sp	F
 ch9.review.4.ex.items.1.answer	1
-ch9.review.4.ex.items.1.options.0	え？ 何を忘れたんですか。
-ch9.review.4.ex.items.1.options.1	え？ 気がついてよかったですね。
-ch9.review.4.ex.items.1.options.2	え？ じゃ、駅に{連絡|れんらく}しましょうか。
+ch9.review.4.ex.items.1.options.0	え？　何を忘れたんですか。
+ch9.review.4.ex.items.1.options.1	え？　気がついてよかったですね。
+ch9.review.4.ex.items.1.options.2	え？　じゃ、駅に{連絡|れんらく}しましょうか。
 ch9.review.4.ex.items.1.script.0.ja	{今朝|けさ}、電車に荷物忘れるところだったよ。
 ch9.review.4.ex.items.1.script.0.sp	M
 ch9.review.4.ex.items.2.answer	0
@@ -4744,7 +4748,7 @@ ch10.parts.1.check.prompt.ja
 ch10.parts.1.check.type	fill
 ch10.parts.1.label	(2)
 ch10.parts.1.points.0.examples.0.ja	{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。
-ch10.parts.1.points.0.examples.1.ja	５時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。
+ch10.parts.1.points.0.examples.1.ja	5時になるかならないかのうちに、彼はさっさと帰り{仕度|じたく}を始めた。
 ch10.parts.1.points.0.examples.2.ja	{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内になだれ込んだ。
 ch10.parts.1.points.0.formNotes.0.en	The same verb is used (in both slots).
 ch10.parts.1.points.0.formNotes.0.ja	同じ動詞を使う。
@@ -4779,7 +4783,7 @@ ch10.parts.1.points.1.practice.0.items.1.q	{交流会|こうりゅうかい}で�
 ch10.parts.1.points.1.practice.0.items.2.answer	1
 ch10.parts.1.points.1.practice.0.items.2.options.0	げ
 ch10.parts.1.points.1.practice.0.items.2.options.1	ぎみ
-ch10.parts.1.points.1.practice.0.items.2.q	{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンＢをとるようにしてください。
+ch10.parts.1.points.1.practice.0.items.2.q	{鉄分|てつぶん}が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。
 ch10.parts.1.points.1.practice.0.items.3.answer	0
 ch10.parts.1.points.1.practice.0.items.3.options.0	げ
 ch10.parts.1.points.1.practice.0.items.3.options.1	ぎみ
@@ -4952,9 +4956,9 @@ ch10.review.4.ex.items.1.options.2	うん、いい{結果|けっか}だったよ
 ch10.review.4.ex.items.1.script.0.ja	昨日はテスト全部書けたって{得意|とくい}げな顔してたのに、どうしたの？
 ch10.review.4.ex.items.1.script.0.sp	F
 ch10.review.4.ex.items.2.answer	2
-ch10.review.4.ex.items.2.options.0	え？ また、行くの？
-ch10.review.4.ex.items.2.options.1	え？ 二度と行かなかったの？
-ch10.review.4.ex.items.2.options.2	え？ 何かあったの？
+ch10.review.4.ex.items.2.options.0	え？　また、行くの？
+ch10.review.4.ex.items.2.options.1	え？　二度と行かなかったの？
+ch10.review.4.ex.items.2.options.2	え？　何かあったの？
 ch10.review.4.ex.items.2.script.0.ja	昨日駅前のカラオケに行ったんだけど、あそこにはもう二度と行くまいと思ったよ。
 ch10.review.4.ex.items.2.script.0.sp	M
 ch10.review.4.ex.prompt.ja	この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず、{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
@@ -5010,7 +5014,7 @@ ch11.parts.0.points.0.usage.ja	「〜にほかならない」は、「〜以外�
 ch11.parts.0.points.1.examples.0.ja	この高校は2年前に男女{共学|きょうがく}になったが、男子学生はまだ10人にすぎない。
 ch11.parts.0.points.1.examples.1.ja	{警察|けいさつ}の仕事は{人々|ひとびと}の安全を{守|まも}ることで、{地域|ちいき}のパトロールはその1つにすぎません。
 ch11.parts.0.points.1.examples.2.ja	世界人口の2{割|わり}を{占|し}めるにすぎない{先進国|せんしんこく}の{人々|ひとびと}が、{ＣＯ₂|シーオーツー}の6{割|わり}を{排出|はいしゅつ}していると言われている。
-ch11.parts.0.points.1.examples.3.ja	{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての{生物|せいぶつ}を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。
+ch11.parts.0.points.1.examples.3.ja	{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての生物を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。
 ch11.parts.0.points.1.examples.4.ja	違う国の人と{交流|こうりゅう}するとき、言葉は1つの{手段|しゅだん}にすぎない。言葉がわからなくても気持ちを伝えることはできるはずだ。
 ch11.parts.0.points.1.forms.0	[V-る]／[V-た] + にすぎない
 ch11.parts.0.points.1.forms.1	[N] + にすぎない
@@ -5069,10 +5073,10 @@ ch11.parts.0.points.2.practice.0.items.3.options.1	{上|うえ}に
 ch11.parts.0.points.2.practice.0.items.3.q	{外資系企業|がいしけいきぎょう}は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。
 ch11.parts.0.points.2.practice.0.prompt.ja	
 ch11.parts.0.points.2.practice.0.type	choice
-ch11.parts.0.points.2.practice.0.xref	☞ p.220　〜{上|うえ}／{上|じょう}
 ch11.parts.0.points.2.stars	3
 ch11.parts.0.points.2.usage.en	Use this when you want to say "there are two circumstances or reason, not just one" as in " このアルバイトは交通{費|ひ}が{全額|ぜんがく}出る{上|うえ}に食事もついている ".
 ch11.parts.0.points.2.usage.ja	「このアルバイトは交通{費|ひ}が{全額|ぜんがく}出る{上|うえ}に食事もついている」のように、「{状況|じょうきょう}や理由が1つだけでなく2つ以上ある」と言いたいときに使う。
+ch11.parts.0.points.2.xref	☞ p.220　〜{上|うえ}／{上|じょう}
 ch11.parts.0.points.3.examples.0.ja	1{世帯|せたい}といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。
 ch11.parts.0.points.3.examples.1.ja	A：夏休み、{北海道|ほっかいどう}に行ったんでしょう。うらやましいなあ。
 B：行ったといっても、4日だけですからあまりいろいろなところへは行けなかったんですよ。
@@ -5172,10 +5176,10 @@ ch11.parts.0.points.5.practice.0.items.4.options.2	だけ
 ch11.parts.0.points.5.practice.0.items.4.q	最近はお湯を入れる（　）食べられる便利な{食品|しょくひん}が増えた。
 ch11.parts.0.points.5.practice.0.prompt.ja	
 ch11.parts.0.points.5.practice.0.type	choice
-ch11.parts.0.points.5.practice.0.xref	☞ p.222　〜だけ
 ch11.parts.0.points.5.stars	3
 ch11.parts.0.points.5.usage.en	Use " 〜だけあって " when you want to say something "is a matter of course because of 〜 ".
 ch11.parts.0.points.5.usage.ja	「〜だけあって」は、「〜だから、{当然|とうぜん}そうだ」と言いたいときに使う。
+ch11.parts.0.points.5.xref	☞ p.222　〜だけ
 ch11.parts.0.points.6.examples.0.ja	{東京|とうきょう}にしろ{大阪|おおさか}にしろ{大都市|だいとし}には働く場所が多いので人が集まってくる。
 ch11.parts.0.points.6.examples.1.ja	大学院で研究しようと思ったら、{理系|りけい}にしても{文系|ぶんけい}にしても、{英語力|えいごりょく}は{絶対必要|ぜったいひつよう}だよ。
 ch11.parts.0.points.6.examples.2.ja	{招待状|しょうたいじょう}をもらったら、{出席|しゅっせき}するにせよ、{欠席|けっせき}するにせよ、{必|かなら}ず{期日|きじつ}までに返事を出すのが{礼儀|れいぎ}だ。
@@ -6428,7 +6432,7 @@ ch13.parts.1.points.6.practice.0.type	choice
 ch13.parts.1.points.6.stars	2
 ch13.parts.1.points.6.usage.en	"〜ぬく" is used to mean "I'll do my best to do 〜 to the end, even if it's difficult." It can also express "do 〜 an extreme amount."
 ch13.parts.1.points.6.usage.ja	「〜ぬく」は、「{苦|くる}しくても最後までがんばって〜をする」という意味で使われる。また、「{非常|ひじょう}に〜する」という意味を表すこともある。
-ch13.parts.1.sample.lines	**たとえ**どんな{事情|じじょう}があっ**ても**、男２人で女性に{暴力|ぼうりょく}を{振|ふ}るうなんて{許|ゆる}し**がたい**{奴|やつ}らだ。{絶対|ぜったい}助け出す。{俺|おれ}は{勇気|ゆうき}を出して、２階へ続く{階段|かいだん}を{上|のぼ}った。{突|つ}き{当|あ}たりの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。「やめろ！　やめるんだ！」{俺|おれ}は入口にいた男が止めるの**もかまわず**彼女の横にいた男の{腹|はら}にパンチを入れた。「カット！」{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。その横でカメラを持った男が{驚|おどろ}いた顔で{俺|おれ}を見ていた。「あれ？　これって、映画？」{恥|は}ずかしさの**あまり**、{逃|に}げ{出|だ}したくなった{俺|おれ}に、低い声の男が聞いた。「今の、もう１回できるか？」{俺|おれ}は{戸惑|とまど}いながら、言われた通りになぐった。「違う！　もっと気持ち**を{込|こ}めて**やってみろ！　…そうだ、いいぞ」〜〜〜〜〜〜〜あれから、半年。{俺|おれ}は会社を{辞|や}めて、今は{自主製作|じしゅせいさく}映画の{主役|しゅやく}だ。{主役|しゅやく}といっても荷物運び**も**すれ**ば**{切符|きっぷ}**も**売る。生活は大変だが、{俺|おれ}はこの{出|で}{会|あ}いに心から、ありがとうと言いたい。何があってもあきらめないでやり**ぬく**ぞ。
+ch13.parts.1.sample.lines	**たとえ**どんな{事情|じじょう}があっ**ても**、男２人で女性に{暴力|ぼうりょく}を{振|ふ}るうなんて{許|ゆる}し**がたい**{奴|やつ}らだ。{絶対|ぜったい}助け出す。{俺|おれ}は{勇気|ゆうき}を出して、２階へ続く{階段|かいだん}を{上|のぼ}った。{突|つ}き{当|あた}りの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。「やめろ！　やめるんだ！」{俺|おれ}は入口にいた男が止めるの**もかまわず**彼女の横にいた男の{腹|はら}にパンチを入れた。「カット！」{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。その横でカメラを持った男が{驚|おどろ}いた顔で{俺|おれ}を見ていた。「あれ？　これって、映画？」{恥|は}ずかしさの**あまり**、{逃|に}げ{出|だ}したくなった{俺|おれ}に、低い声の男が聞いた。「今の、もう１回できるか？」{俺|おれ}は{戸惑|とまど}いながら、言われた通りになぐった。「違う！　もっと気持ち**を{込|こ}めて**やってみろ！　…そうだ、いいぞ」〜〜〜〜〜〜〜あれから、半年。{俺|おれ}は会社を{辞|や}めて、今は{自主製作|じしゅせいさく}映画の{主役|しゅやく}だ。{主役|しゅやく}といっても荷物運び**も**すれ**ば**{切符|きっぷ}**も**売る。生活は大変だが、{俺|おれ}はこの{出|で}{会|あ}いに心から、ありがとうと言いたい。何があってもあきらめないでやり**ぬく**ぞ。
 ch13.review.0.ex.items.0.answer	2
 ch13.review.0.ex.items.0.options.0	くやしいようになっている
 ch13.review.0.ex.items.0.options.1	くやしかったつもりだ
@@ -6571,7 +6575,7 @@ ch13.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
 ch13.review.4.ex.items.0.answer	1
 ch13.review.4.ex.items.0.options.0	はい、ちゃんと聞きました。
 ch13.review.4.ex.items.0.options.1	じゃ、{誰|だれ}にも言わないよ。
-ch13.review.4.ex.items.0.options.2	え？ 知らなかったんですか。
+ch13.review.4.ex.items.0.options.2	え？　知らなかったんですか。
 ch13.review.4.ex.items.0.script.0.ja	今の話、聞かなかったことにして。
 ch13.review.4.ex.items.0.script.0.sp	F
 ch13.review.4.ex.items.1.answer	2

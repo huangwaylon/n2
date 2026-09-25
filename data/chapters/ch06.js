@@ -1283,7 +1283,7 @@ N2.register({
               3
             ],
             "star": 2,
-            "en": "Just because I had overlooked the note of caution, my documents were insufficient and weren't accepted."
+            "en": "Just because I had overlooked the instructions, I was missing some documents, and they wouldn't accept my application."
           },
           {
             "before": "野菜や{果物|くだもの}に",
@@ -1380,7 +1380,7 @@ N2.register({
     {
       "title": {
         "ja": "問題4 〈{聴解|ちょうかい}〉 1",
-        "en": "Question 4: Listening (1) — task"
+        "en": "Question 4: Listening (1) — point comprehension"
       },
       "ex": {
         "type": "listening",
@@ -1451,7 +1451,7 @@ N2.register({
               {
                 "sp": "F",
                 "v": "f",
-                "ja": "え？ 昨日は{伊藤|いとう}さん、{用事|ようじ}があったはずなんですけど…。"
+                "ja": "え？　昨日は{伊藤|いとう}さん、{用事|ようじ}があったはずなんですけど…。"
               },
               {
                 "sp": "M",
@@ -1508,9 +1508,9 @@ N2.register({
             ],
             "en": [
               "If I'd pushed myself, it's not that I couldn't have made it to the summit, but...",
-              "1. But you went, didn't you.",
-              "2. It was good that you gave up after all, wasn't it.",
-              "3. That's right. You overdid it, didn't you."
+              "But you went, didn't you.",
+              "It was good that you gave up after all, wasn't it.",
+              "That's right. You overdid it, didn't you."
             ],
             "options": [
               "でも、行きましたね。",
@@ -1532,9 +1532,9 @@ N2.register({
             ],
             "en": [
               "Gather as much information about the culprit as you can.",
-              "1. Yes, just gather it, right?",
-              "2. Yes, I'll give it a try.",
-              "3. Yes, I'll gather only information."
+              "Yes, just gather it, right?",
+              "Yes, I'll give it a try.",
+              "Yes, I'll gather only information."
             ],
             "options": [
               "はい、集めるだけですね。",
@@ -1556,9 +1556,9 @@ N2.register({
             ],
             "en": [
               "There's no need to laugh that much, is there?",
-              "1. But it's sad.",
-              "2. But it's not funny.",
-              "3. But you're dressed so weirdly."
+              "But it's sad.",
+              "But it's not funny.",
+              "But you're dressed so weirdly."
             ],
             "options": [
               "だって、悲しいんだもん。",

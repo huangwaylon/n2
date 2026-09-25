@@ -11,7 +11,7 @@ N2F({
     vertical: true,
     lines: [
       { ja: "**たとえ**どんな{事情|じじょう}があっ**ても**、男２人で女性に{暴力|ぼうりょく}を{振|ふ}るうなんて{許|ゆる}し**がたい**{奴|やつ}らだ。{絶対|ぜったい}助け出す。{俺|おれ}は{勇気|ゆうき}を出して、２階へ続く{階段|かいだん}を{上|のぼ}った。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable. I'll get her out, no matter what. Summoning my courage, I climbed the stairs to the second floor." },
-      { ja: "{突|つ}き{当|あ}たりの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。", en: "Light was leaking from the door of the room at the end of the hall. I flung the door open and burst into the room. And I shouted:" },
+      { ja: "{突|つ}き{当|あた}りの部屋のドアから光が{漏|も}れている。{俺|おれ}はドアを思い切り開けて部屋に{飛|と}び{込|こ}んだ。そして{叫|さけ}んだ。", en: "Light was leaking from the door of the room at the end of the hall. I flung the door open and burst into the room. And I shouted:" },
       { ja: "「やめろ！　やめるんだ！」{俺|おれ}は入口にいた男が止めるの**もかまわず**彼女の横にいた男の{腹|はら}にパンチを入れた。", en: "\"Stop! Stop it!\" Ignoring the man at the entrance who tried to stop me, I landed a punch in the stomach of the man next to her." },
       { ja: "「カット！」", en: "\"Cut!\"" },
       { ja: "{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。その横でカメラを持った男が{驚|おどろ}いた顔で{俺|おれ}を見ていた。「あれ？　これって、映画？」{恥|は}ずかしさの**あまり**、{逃|に}げ{出|だ}したくなった{俺|おれ}に、低い声の男が聞いた。「今の、もう１回できるか？」", en: "In the dazzling light, a man with a low voice demanded, \"Who are you!?\" Beside him, a man holding a camera was staring at me in surprise. \"Huh? Is this… a movie?\" I was so embarrassed I wanted to run away, but the man with the low voice asked me, \"Can you do that one more time?\"" },
@@ -61,7 +61,7 @@ N2F({
           en: [
             "Even if it has something I dislike in it, I'll eat every bit of what the girlfriend I love made.",
             "No matter how difficult the exam, you should keep working hard and not give up.",
-            "No matter how much the treatment costs, I don't mind, as long as the life can be saved.",
+            "No matter how much the treatment costs, I don't mind, as long as it saves their life.",
             "Even when you know it's just flattery, being praised makes you happy.",
           ],
         },
