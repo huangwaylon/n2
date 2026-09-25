@@ -2,7 +2,7 @@
 N2.register({
   "id": 10,
   "genre": {
-    "ja": "論説文を読む",
+    "ja": "{論説文|ろんせつぶん}を読む",
     "en": "Reading an Editorial"
   },
   "title": {

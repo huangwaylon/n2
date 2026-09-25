@@ -2,7 +2,7 @@ N2F({
   ch: 10,
   part: 0,
   head: {
-    genre: { ja: "論説文を読む", en: "Reading an Editorial" },
+    genre: { ja: "{論説文|ろんせつぶん}を読む", en: "Reading an Editorial" },
     title: { ja: "{前衛|ぜんえい}書道", en: "Avant-Garde Calligraphy" },
     canDo: [
       { ja: "{古風|こふう}な表現を使った{論説文|ろんせつぶん}を読んで、その表現に込められた筆者の主張が理解できる。", zh: "阅读一篇使用古典表达方式的议论文，理解字里行间作者的主张。", en: "Read an editorial written with old-fashioned expressions and understand the writer's argument conveyed through those expressions." },

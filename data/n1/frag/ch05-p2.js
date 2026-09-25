@@ -8,11 +8,12 @@ N2F({
   sample: {
     kind: "dialogue",
     vertical: true,
+    rings: false,
     lines: [
       { ja: "{警備会社|けいびがいしゃ}、地下{倉庫|そうこ}。ガードマンと{阿部|あべ}", en: "The security company, the basement storeroom. The guard and Abe" },
       { sp: "ガードマン", v: "m", ja: "「部長、オ疲レサマデス。命令ヲドウゾ。」", en: "\"Manager, thank you for your hard work. Your orders, please.\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「これでお別れだ。ロボット**とはいえ**、お前はいい{相棒|あいぼう}だったよ。」", en: "\"This is goodbye. You may have been a robot, but you were a good partner.\"" },
-      { sp: "ガードマン", v: "m", ja: "「〝オ別レ〟……ソノ命令ハ、{職務範囲|しょくむはんい}ニ、存在シ……。」", en: "\"'Goodbye'… That order does not exist within my scope of duties, does not exi…\"" },
+      { sp: "ガードマン", v: "m", ja: "「〝オ別レ〟……ソノ命令ハ、{職務範囲|しょくむはんい}ニ、存在シ……」", en: "\"'Goodbye'… That order… within my scope of duties… does not exi…\"" },
       { ja: "{阿部|あべ}、ガードマンの{帽子|ぼうし}を{外|はず}し、{額|ひたい}からメモリーチップを抜き出す。", en: "Abe takes off the guard's cap and pulls the memory chip out of his forehead." },
       { sp: "ガードマン", v: "m", ja: "「○×△☆□○×△☆□○×△☆□‼——」", en: "\"○×△☆□○×△☆□○×△☆□!! —\"" },
       { ja: "{警備会社|けいびがいしゃ}、社員食堂。テーブルに若い社員A・B", en: "The security company, the staff cafeteria. Young employees A and B at a table" },

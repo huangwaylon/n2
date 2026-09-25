@@ -2,7 +2,7 @@ N2F({
   ch: 3,
   part: 0,
   head: {
-    genre: { ja: "{昔話|むかしばなし}を{読|よ}む", en: "Reading a Folktale" },
+    genre: { ja: "{昔話|むかしばなし}を読む", en: "Reading a Folktale" },
     title: { ja: "{飯|めし}{食|く}わぬ{女房|にょうぼう}", en: "The Wife Who Didn't Eat" },
     canDo: [
       { ja: "{昔話|むかしばなし}の表現を楽しみながら、物語の展開を追って読める。", zh: "在欣赏传说故事的同时，读懂故事情节的发展。", en: "Enjoy the expressions of a folktale while following how the story unfolds." },

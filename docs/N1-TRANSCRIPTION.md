@@ -69,8 +69,9 @@ only for N1 points of this book (1–123).
 
 ## Conventions (all chapters)
 
-- `genre` / `title` from the chapter banner: `genre: { ja: "ニュースを{読|よ}む", en: "Reading the News" }` (furigana as
-  printed), `title.ja` without the part label; part `label: "(1)"`, `"(2)"`, `"(3)"`, or `""` if unsplit.
+- `genre` / `title` from the chapter banner (the genre line is cropped off most scanned banners — use the table of
+  contents pp.11–15, which prints furigana only on 昔話・実用書・論説文): e.g. `genre: { ja: "{実用書|じつようしょ}を読む", en: "…" }`;
+  `title.ja` without the part label; part `label: "(1)"`, `"(2)"`, `"(3)"`, or `""` if unsplit.
 - Part-specific can-do: split chapters print a できること box at the start of each part → put it on the part (`canDo`
   in the part fragment), and put the chapter-level `head.canDo` only for the first part's box. (Check against N1
   できること list pp.188–191, which lists one per part.)

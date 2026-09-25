@@ -218,7 +218,7 @@ N2F({
       forms: ["[V-る]／[V-た] + が早いか"],
       examples: [
         { ja: "店員がドアを開けるが早いか、待っていた客がなだれ込んできた。", en: "No sooner had the clerk opened the door than the waiting customers came pouring in." },
-        { ja: "{侍|さむらい}が{刀|かたな}に手をかけるが早いか、{敵|てき}は悲鳴を上げる間もなく倒れた。", en: "The instant the samurai put his hand on his sword, his enemy fell without even time to scream." },
+        { ja: "{侍|さむらい}が{刀|かたな}に手をかけるが早いか、{敵|てき}は悲鳴を上げる間もなく倒れた。", en: "The instant the samurai put his hand on his sword, his enemy fell before he even had time to scream." },
         { ja: "{魔法|まほう}使いが{呪文|じゅもん}を{唱|とな}えるが早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "No sooner had the wizard chanted the spell than the prince turned into a frog." },
         { ja: "{田中|たなか}さんは疲れていたのか、電車に乗ったが早いか、いびきをかいて{爆睡|ばくすい}してしまった。", en: "Maybe Tanaka was tired — the moment he got on the train, he was snoring, dead to the world." },
       ],

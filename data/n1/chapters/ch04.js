@@ -2,7 +2,7 @@
 N2.register({
   "id": 4,
   "genre": {
-    "ja": "{実用書|じつようしょ}を{読|よ}む",
+    "ja": "{実用書|じつようしょ}を読む",
     "en": "Reading a Practical Guide"
   },
   "title": {
@@ -34,7 +34,7 @@ N2.register({
           },
           {
             "ja": "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。",
-            "en": "Among the reasons people give for quitting a company, “human relationships” always rank near the top, alongside — and even ahead of — problems with the work itself or with pay and conditions."
+            "en": "Among the reasons people give for quitting a company, problems with the work itself or with pay and conditions are of course cited, but “human relationships” always rank near the top."
           },
           {
             "cont": true,
@@ -61,7 +61,7 @@ N2.register({
           },
           {
             "cont": true,
-            "ja": "それが許されるのは{新人|しんじん}である今**をおいて{他|ほか}にありません**。",
+            "ja": "それが許されるのは{新人|しんじん}である今**をおいて他にありません**。",
             "en": "The only time you can get away with that is now, while you are a newcomer."
           }
         ]
@@ -103,7 +103,7 @@ N2.register({
             },
             {
               "ja": "工場を建てかえるともなると、億単位の金がかかる。",
-              "en": "Rebuilding a factory is something that costs hundreds of millions of yen."
+              "en": "When it comes to rebuilding a factory, it costs hundreds of millions of yen."
             }
           ],
           "deepDive": "**〜ともなると / 〜ともなれば** means *once it comes to ~ / when you reach the level of ~*. It picks out a status, time, occasion or scale that is **a notch above the ordinary**, and the second half states what is naturally expected at that level: 社会人ともなると、嫌いな人とも付き合わなくてはならない.\n\nIt is built from と + も + なる: literally *when it even becomes ~*. The も gives the feeling of *at that level (unlike before)*. That is why the noun is usually something that implies a higher degree: 総理大臣, 一流の選手, 昼休み (the peak hour), 12月 (year-end rush), 10年目 (a veteran), 億単位 (a huge sum).\n\nConnection:\n- **N + ともなると / ともなれば** — the basic pattern.\n- A verb in the dictionary form is also possible (the book's ＊ note): 工場を建てかえるともなると.\n- ともなると and ともなれば are interchangeable; ともなれば sounds slightly more like a hypothetical *if it becomes ~*.\n\nSecond half: a natural, expected consequence — often a change in behaviour or a demanding situation (責任が重くなる, 大勢の客が来る, お金がかかる). It is not used for the speaker's wishes or commands: ✗社会人ともなると、ちゃんと働きなさい sounds off; prefer 社会人になったら / 社会人なのだから.\n\nCompare:\n- **〜となると** (N2): *if it comes to ~ / if that's the case* — broader and more neutral; ともなると adds the sense of *reaching a special level*.\n- **〜ともなく** (#89) looks similar but means *without particularly ~ing* (見るともなく見る) — unrelated.\n- **〜ともあろう** (not in this book's list) *someone of the standing of ~* is used to criticise (教師ともあろう者が…).\n\nJLPT tip: if the blank follows a noun of rank, time of year/day or scale, and the rest of the sentence states the *expected* consequence, ともなると/ともなれば is the answer (see 問題1-8 of this chapter: 勤続20年のベテラン（ともなれば）).",
@@ -153,7 +153,7 @@ N2.register({
                 {
                   "q": "有名なサッカー選手ともなると（　）。",
                   "options": [
-                    "コマーシャルの{出演料|しゅつえんりょう}も{高額|こうがく}だ",
+                    "コマーシャルの{出演|しゅつえん}料も{高額|こうがく}だ",
                     "マスコミは関心がない"
                   ],
                   "answer": 0,
@@ -251,7 +251,7 @@ N2.register({
               "en": "It is said that for a restaurant in a student area, taste matters of course, but the first requirement is big portions."
             }
           ],
-          "deepDive": "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\nTwo readings, as the book explains:\n- *not only A but also B* — A and B are both positive (デザインもさることながら、性能もいい). B often takes も.\n- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\nConnection: **N + もさることながら** (the も is part of the pattern and must not be dropped). Typical nouns are qualities or factors: 味, 値段, デザイン, 才能, 努力, 原因.\n\nRegister: formal and written; you will meet it in essays, reviews and advertising copy.\n\nCompare:\n- **〜はもとより / 〜はもちろん** (N2): *A, of course, and also B* — similar to the first reading, but they don't carry the *B is more important* nuance as naturally.\n- **〜ばかりか / 〜のみならず**: *not only ~ but also* — neutral addition.\n- **〜をおいて他にない** (#40) is about B being the *only* one, not an addition.\n\nPitfall: A should be something positive or obviously important. ✗失敗もさることながら… sounds odd unless the sentence is about two causes.\n\nJLPT tip: in ordering questions the pattern often appears split as 「〜も」＋「さることながら」 (see 問題2-3 of this chapter: 機能面も／さることながら).",
+          "deepDive": "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\nTwo readings, as the book explains:\n- *not only A but also B* — both A and B apply (デザインもさることながら、性能もいい; 晩婚化もさることながら、教育費の負担の大きさにもある). B often takes も.\n- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\nConnection: **N + もさることながら** (the も is part of the pattern and must not be dropped). Typical nouns are qualities or factors: 味, 値段, デザイン, 才能, 努力, 原因.\n\nRegister: formal and written; you will meet it in essays, reviews and advertising copy.\n\nCompare:\n- **〜はもとより / 〜はもちろん** (N2): *A, of course, and also B* — similar to the first reading, but they don't carry the *B is more important* nuance as naturally.\n- **〜ばかりか / 〜のみならず**: *not only ~ but also* — neutral addition.\n- **〜をおいて他にない** (#40) is about B being the *only* one, not an addition.\n\nPitfall: A should be something that is itself significant or worth mentioning (a factor, a quality, a cause); もさることながら is not used just to list trivial items.\n\nJLPT tip: in ordering questions the pattern often appears split as 「〜も」＋「さることながら」 (see 問題2-3 of this chapter: 機能面も／さることながら).",
           "see": [
             40
           ],
@@ -550,7 +550,7 @@ N2.register({
         {
           "no": 40,
           "pattern": "〜をおいて{他|ほか}にない",
-          "phrase": "今**をおいて{他|ほか}にありません**",
+          "phrase": "今**をおいて他にありません**",
           "stars": 2,
           "marks": [
             "praise"

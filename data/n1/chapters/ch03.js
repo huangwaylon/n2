@@ -2,7 +2,7 @@
 N2.register({
   "id": 3,
   "genre": {
-    "ja": "{昔話|むかしばなし}を{読|よ}む",
+    "ja": "{昔話|むかしばなし}を読む",
     "en": "Reading a Folktale"
   },
   "title": {
@@ -1245,7 +1245,7 @@ N2.register({
             },
             {
               "ja": "{侍|さむらい}が{刀|かたな}に手をかけるが早いか、{敵|てき}は悲鳴を上げる間もなく倒れた。",
-              "en": "The instant the samurai put his hand on his sword, his enemy fell without even time to scream."
+              "en": "The instant the samurai put his hand on his sword, his enemy fell before he even had time to scream."
             },
             {
               "ja": "{魔法|まほう}使いが{呪文|じゅもん}を{唱|とな}えるが早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。",

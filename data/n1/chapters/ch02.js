@@ -655,7 +655,7 @@ N2.register({
               "en": "It is desirable for inheritance problems to be resolved through discussion among the parties concerned."
             }
           ],
-          "deepDive": "**Nをもって** (from 持つ, *holding N*) is a formal *by means of N, with N*. It is the stiff written/ceremonial equivalent of **Nで** for a means or method: 多数決をもって選出, 書面をもって届け出る, 3分の2以上の賛成をもって承認.\n\nWhat kind of N?\n- Official procedures and abstract means: 書面, 多数決, 協議, 賛成, 実力, 誠意, 努力, ご指導, ご協力.\n- Not everyday tools: ✗電話をもって話す, ✗はしをもって食べる — use で.\n\nSet expressions:\n- **〜をもってかえさせていただきます**: *we will let ~ serve instead of* — standard in prize notices (発送をもって発表にかえさせていただきます).\n- **毒をもって毒を制す**: *fight poison with poison*.\n- **身をもって知る / 体験する**: *learn firsthand*.\n- **自信をもって** / **誠意をもって** are also common, though here もって is closer to *having*.\n\nA second meaning — a point in time (book's ☞ 67): **本日3月31日をもって閉店いたします** *as of today, March 31, we will close*. There をもって marks a deadline or end point (以上をもって *with that, I conclude*). That is point #67; this point (#13) is the *means* use.\n\nCompare:\n- **〜によって**: *by, because of, depending on* — also covers causes (台風によって被害が出た), which をもって does not.\n- **〜を通じて / 〜を通して**: *through* — via a medium or intermediary.\n\nJLPT tip: in the practice, をもって fits the formal procedures (多数決, 書面), but not a substitute (にかわって) or a cause (によって).",
+          "deepDive": "**Nをもって** (from 持つ, *holding N*) is a formal *by means of N, with N*. It is the stiff written/ceremonial equivalent of **Nで** for a means or method: 多数決をもって選出, 書面をもって届け出る, 3分の2以上の賛成をもって承認.\n\nWhat kind of N?\n- Official procedures and abstract means: 書面, 多数決, 協議, 賛成, 実力, 誠意, 努力, ご指導, ご協力.\n- Not everyday tools: ✗電話をもって話す, ✗はしをもって食べる — use で.\n\nSet expressions:\n- **〜をもってかえさせていただきます**: *we will let ~ serve instead of* — standard in prize notices (発送をもって発表にかえさせていただきます).\n- **毒をもって毒を制す**: *fight poison with poison*.\n- **身をもって知る / 体験する**: *learn firsthand*.\n- **自信をもって** *with confidence* is also common, though there もって is closer to *having*.\n\nA second meaning — a point in time (book's ☞ 67): **本日3月31日をもって閉店いたします** *as of today, March 31, we will close*. There をもって marks a deadline or end point (以上をもって *with that, I conclude*). That is point #67; this point (#13) is the *means* use.\n\nCompare:\n- **〜によって**: *by, because of, depending on* — also covers causes (台風によって被害が出た), which をもって does not.\n- **〜を通じて / 〜を通して**: *through* — via a medium or intermediary.\n\nJLPT tip: in the practice, をもって fits the formal procedures (多数決, 書面), but not a substitute (にかわって) or a cause (によって).",
           "see": [
             67
           ],
@@ -908,7 +908,7 @@ N2.register({
                     "てたまらなかった"
                   ],
                   "answer": 0,
-                  "en": "The physician Schweitzer loved music deeply throughout his life."
+                  "en": "The medical scholar Schweitzer loved music deeply throughout his life."
                 }
               ]
             }
@@ -983,7 +983,7 @@ N2.register({
             {
               "q": "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。",
               "answer": "をもって",
-              "en": "We must seek the forgiveness of the customers we inconvenienced with a heartfelt apology."
+              "en": "With a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced."
             },
             {
               "q": "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。",
@@ -1032,7 +1032,7 @@ N2.register({
               "きらいがある"
             ],
             "answer": 3,
-            "en": "Mr. Tanaka has a tendency to go on and on once he starts talking.",
+            "en": "Tanaka-san has a tendency to go on and on once he starts talking.",
             "why": {
               "en": "きらいがある (#11) points out an undesirable tendency."
             }
@@ -1347,9 +1347,9 @@ N2.register({
               "If you have the attitude of working together as fellow members, rather than as the side that gives support and the side that receives it, I think things will go well. Well, you may also be worried about the language or the food, but in any case, as long as you're healthy, things will work out. I sincerely wish you every success.",
               "I see. I'll be careful. It would be rude to act as if we were superior, wouldn't it? And with photos, too — it's their lives, so I think they'd hate being photographed as if they were objects or scenery.",
               "Yeah, well, it's common sense, I guess. I think it's just a matter of not doing to others what you wouldn't want done to yourself. More importantly, it's your own health.",
-              "I'm not worried about that. It's the same as in Japan.",
+              "I'm not worried about that. It's no different from being in Japan.",
               "Really? Overseas you might not notice you're tired, or you might push yourself thinking “just a little more.” I've experienced that on trips myself.",
-              "It's not like a trip, though — it's more than a month. I don't think I'll overdo it.",
+              "A trip would be one thing, but this is more than a month. I don't think I'll overdo it.",
               "Right. Well, let's both do our best."
             ],
             "options": [

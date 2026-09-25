@@ -370,7 +370,7 @@ N2F({
         "- **〜をもってかえさせていただきます**: *we will let ~ serve instead of* — standard in prize notices (発送をもって発表にかえさせていただきます).\n" +
         "- **毒をもって毒を制す**: *fight poison with poison*.\n" +
         "- **身をもって知る / 体験する**: *learn firsthand*.\n" +
-        "- **自信をもって** / **誠意をもって** are also common, though here もって is closer to *having*.\n\n" +
+        "- **自信をもって** *with confidence* is also common, though there もって is closer to *having*.\n\n" +
         "A second meaning — a point in time (book's ☞ 67): **本日3月31日をもって閉店いたします** *as of today, March 31, we will close*. There をもって marks a deadline or end point (以上をもって *with that, I conclude*). That is point #67; this point (#13) is the *means* use.\n\n" +
         "Compare:\n" +
         "- **〜によって**: *by, because of, depending on* — also covers causes (台風によって被害が出た), which をもって does not.\n" +
@@ -489,7 +489,7 @@ N2F({
             { q: "彼は{誰|だれ}もが{敬愛|けいあい}し（　）優れた指導者だった。", options: ["てやまない", "てならない"], answer: 0, en: "He was an outstanding leader whom everyone deeply loved and respected." },
             { q: "今年の夏は{連日|れんじつ}40度近くて、暑く（　）。", options: ["てやまない", "てたまらない"], answer: 1, en: "This summer it's close to 40 degrees day after day, and it's unbearably hot." },
             { q: "あと少しで優勝できたのに、最後に抜かれて、{悔|くや}しく（　）。", options: ["てやまない", "てならない"], answer: 1, en: "We were so close to winning, but we were overtaken at the end, and I can't help feeling frustrated." },
-            { q: "医学者シュバイツァーは{生涯|しょうがい}、音楽を愛し（　）。", options: ["てやまなかった", "てたまらなかった"], answer: 0, en: "The physician Schweitzer loved music deeply throughout his life." },
+            { q: "医学者シュバイツァーは{生涯|しょうがい}、音楽を愛し（　）。", options: ["てやまなかった", "てたまらなかった"], answer: 0, en: "The medical scholar Schweitzer loved music deeply throughout his life." },
           ],
         },
       ],
@@ -515,7 +515,7 @@ N2F({
       items: [
         { q: "結婚だマイホームだといっても、安定した収入＿＿ことだ。", answer: "あっての", en: "Marriage, a home of your own — all of that is possible only with a stable income." },
         { q: "試合中の目のけががもとで引退＿＿ボクサーは、本当に{気|き}の{毒|どく}だ。", answer: "を{余儀|よぎ}なくされた", en: "I really feel sorry for the boxer who was forced to retire because of an eye injury during a match." },
-        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "We must seek the forgiveness of the customers we inconvenienced with a heartfelt apology." },
+        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "With a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced." },
         { q: "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", answer: "に{至|いた}っては", en: "This drama's first episode had a 31.5% rating, and its peak rating apparently came close to 40%." },
       ],
     },

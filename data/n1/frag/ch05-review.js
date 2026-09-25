@@ -89,7 +89,7 @@ N2F({ ch: 5, review: [
       text: [
         "特に、大きい{組織|そしき}においては、「{事|こと}なかれ主義」が広がるおそれがある。事なかれ主義とは、トラブルがないことを第一に考える消極的な{態度|たいど}である。",
         "新しいことをやって、失敗でもしようものなら、自分や周囲の人が責任を{負|お}わなければならない。それで、リスクを{避|さ}けたい、責任を{逃|のが}れたいといった気持ちが働く。すると、例えば、{前例|ぜんれい}のないことや指示がないことはしないということが起きる。",
-        "{前例|ぜんれい}がないからと言って、部下のアイデアを全然認めないという上司がいれば、トラブルも起きないが、成長も望めない。トラブルはないに{越|こ}したことはないが、それ以前に、リスクを取らないこと{自体|じたい}が{組織|そしき}にとってのリスクなのである。",
+        "{前例|ぜんれい}がないからと言って、__部下のアイデアを全然認めないという上司__がいれば、トラブルも起きないが、成長も望めない。トラブルはないに{越|こ}したことはないが、それ以前に、リスクを取らないこと{自体|じたい}が{組織|そしき}にとってのリスクなのである。",
       ],
       en: [
         "Particularly in large organizations, there is a danger that a “don't-rock-the-boat” mentality will spread. The don't-rock-the-boat mentality is a passive attitude that puts avoiding trouble above everything else.",
@@ -97,7 +97,7 @@ N2F({ ch: 5, review: [
         "If there is a boss who rejects all of his subordinates' ideas on the grounds that there is no precedent, there will be no trouble, but there can be no growth either. It is best to have no trouble, but before that, not taking risks is itself a risk for an organization.",
       ],
       items: [
-        { q: "部下のアイデアを全然認めないという上司は何の例か。",
+        { q: "__部下のアイデアを全然認めないという上司__は何の例か。",
           options: ["失敗を恐れない例", "消極的な{態度|たいど}の例", "責任を{負|お}おうとする例", "{組織|そしき}を成長させる例"],
           answer: 1,
           en: "What is the boss who rejects all of his subordinates' ideas an example of?",

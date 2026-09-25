@@ -2,7 +2,7 @@ N2F({
   ch: 4,
   part: 0,
   head: {
-    genre: { ja: "{実用書|じつようしょ}を{読|よ}む", en: "Reading a Practical Guide" },
+    genre: { ja: "{実用書|じつようしょ}を読む", en: "Reading a Practical Guide" },
     title: { ja: "上司との付き合い方", en: "How to Get Along with Your Boss" },
     canDo: [
       { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", zh: "阅读实用类图书，理解作者的想法。", en: "Read practical guides and the like, and understand the author's observations." },
@@ -15,13 +15,13 @@ N2F({
     lines: [
       { ja: "会社では、さまざまな人が働いていますが、{一人前|いちにんまえ}の社会人**ともなると**、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work in a company, and once you are a fully fledged working adult, you naturally have to get along even with people you dislike." },
       { cont: true, ja: "そのため気楽な学生時代**にひきかえ**、多くのストレスを{抱|かか}えることになるでしょう。", en: "So, in contrast to your carefree student days, you will probably end up carrying a lot of stress." },
-      { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, “human relationships” always rank near the top, alongside — and even ahead of — problems with the work itself or with pay and conditions." },
+      { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, problems with the work itself or with pay and conditions are of course cited, but “human relationships” always rank near the top." },
       { cont: true, ja: "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**、仕事を進めるうえでは人間関係は非常に大切です。", en: "Whether it is your relationship with your boss or with your colleagues and juniors, relationships with people are extremely important in getting your work done." },
       { ja: "特に{新人|しんじん}のみなさんにとって、上司との関係をよくしておくことは重要です。", en: "For those of you who are new to the company in particular, it is important to keep on good terms with your boss." },
       { cont: true, ja: "仕事上、何か問題が起これば、現状**に{即|そく}した**対応が求められます。", en: "When some problem comes up at work, you are expected to respond in a way that fits the actual situation." },
       { cont: true, ja: "そんなとき、上司の指示を{仰|あお}ぐことが必要だからです。", en: "That is because at such times you need to ask your boss for instructions." },
       { ja: "そしてもし、わからなかったら何度でも聞き返しましょう。", en: "And if you don't understand, ask again as many times as you need to." },
-      { cont: true, ja: "それが許されるのは{新人|しんじん}である今**をおいて{他|ほか}にありません**。", en: "The only time you can get away with that is now, while you are a newcomer." },
+      { cont: true, ja: "それが許されるのは{新人|しんじん}である今**をおいて他にありません**。", en: "The only time you can get away with that is now, while you are a newcomer." },
     ],
   },
   points: [
@@ -43,7 +43,7 @@ N2F({
         { ja: "総理大臣ともなると、その{言動|げんどう}の1つ1つが大きな{影響|えいきょう}を与える。", en: "When you're the prime minister, every single thing you say and do has a big impact." },
         { ja: "そこは{一見|いっけん}目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "At first glance it's an inconspicuous shop, but come lunchtime a crowd of customers lines up — it's a famous ramen place." },
         { ja: "普段はスポーツに関心のない人も、オリンピックともなれば夢中でテレビにかじりつく。", en: "Even people who usually have no interest in sports get glued to the TV when it comes to the Olympics." },
-        { ja: "工場を建てかえるともなると、億単位の金がかかる。", en: "Rebuilding a factory is something that costs hundreds of millions of yen." },
+        { ja: "工場を建てかえるともなると、億単位の金がかかる。", en: "When it comes to rebuilding a factory, it costs hundreds of millions of yen." },
       ],
       deepDive:
         "**〜ともなると / 〜ともなれば** means *once it comes to ~ / when you reach the level of ~*. It picks out a status, time, occasion or scale that is **a notch above the ordinary**, and the second half states what is naturally expected at that level: 社会人ともなると、嫌いな人とも付き合わなくてはならない.\n\n" +
@@ -69,7 +69,7 @@ N2F({
             { q: "{宗教|しゅうきょう}に無関心な日本の若者も{正月|しょうがつ}ともなれば（　）行くことが多い。", options: ["寺や神社へ", "海外旅行に"], answer: 0, en: "Even young Japanese people who are indifferent to religion often go to temples and shrines when it comes to New Year." },
             { q: "勉強{嫌|ぎら}いの学生でも、試験前ともなると（　）だろう。", options: ["遊んでいるわけにはいかない", "何もしない"], answer: 0, en: "Even students who hate studying probably can't afford to fool around when it gets to be just before the exams." },
             { q: "キャンプ場は（　）ともなると親子{連|づ}れでにぎわう。", options: ["夏休み", "{平日|へいじつ}"], answer: 0, en: "When the summer holidays come, the campsite is bustling with families." },
-            { q: "有名なサッカー選手ともなると（　）。", options: ["コマーシャルの{出演料|しゅつえんりょう}も{高額|こうがく}だ", "マスコミは関心がない"], answer: 0, en: "When you're a famous soccer player, your fees for appearing in commercials are high too." },
+            { q: "有名なサッカー選手ともなると（　）。", options: ["コマーシャルの{出演|しゅつえん}料も{高額|こうがく}だ", "マスコミは関心がない"], answer: 0, en: "When you're a famous soccer player, your fees for appearing in commercials are high too." },
             { q: "世界1周旅行ともなると（　）。", options: ["荷物は全部準備した", "荷物の準備も大変だ"], answer: 1, en: "When it comes to a trip around the world, even preparing your luggage is a big job." },
           ],
         },
@@ -135,7 +135,7 @@ N2F({
       deepDive:
         "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\n" +
         "Two readings, as the book explains:\n" +
-        "- *not only A but also B* — A and B are both positive (デザインもさることながら、性能もいい). B often takes も.\n" +
+        "- *not only A but also B* — both A and B apply (デザインもさることながら、性能もいい; 晩婚化もさることながら、教育費の負担の大きさにもある). B often takes も.\n" +
         "- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\n" +
         "Connection: **N + もさることながら** (the も is part of the pattern and must not be dropped). Typical nouns are qualities or factors: 味, 値段, デザイン, 才能, 努力, 原因.\n\n" +
         "Register: formal and written; you will meet it in essays, reviews and advertising copy.\n\n" +
@@ -143,7 +143,7 @@ N2F({
         "- **〜はもとより / 〜はもちろん** (N2): *A, of course, and also B* — similar to the first reading, but they don't carry the *B is more important* nuance as naturally.\n" +
         "- **〜ばかりか / 〜のみならず**: *not only ~ but also* — neutral addition.\n" +
         "- **〜をおいて他にない** (#40) is about B being the *only* one, not an addition.\n\n" +
-        "Pitfall: A should be something positive or obviously important. ✗失敗もさることながら… sounds odd unless the sentence is about two causes.\n\n" +
+        "Pitfall: A should be something that is itself significant or worth mentioning (a factor, a quality, a cause); もさることながら is not used just to list trivial items.\n\n" +
         "JLPT tip: in ordering questions the pattern often appears split as 「〜も」＋「さることながら」 (see 問題2-3 of this chapter: 機能面も／さることながら).",
       see: [40],
       index: ["Nもさることながら", "もさることながら"],
@@ -269,7 +269,7 @@ N2F({
     {
       no: 40,
       pattern: "〜をおいて{他|ほか}にない",
-      phrase: "今**をおいて{他|ほか}にありません**",
+      phrase: "今**をおいて他にありません**",
       stars: 2,
       marks: ["praise"],
       usage: {
