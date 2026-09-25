@@ -17,8 +17,8 @@ const nos=[];
 if(Array.isArray(ch)){ console.log('compare groups',ch.length, ch.reduce((a,g)=>a+g.items.length,0),'items'); process.exit(0);}
 ch.parts.forEach((p,pi)=>{ p.points.forEach(g=>{ nos.push(g.no); ['pattern','usage','forms','examples','deepDive'].forEach(k=>{if(!g[k])E(`gp${g.no}: missing ${k}`)}); (g.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} practice${j}`)); (g.plus||[]).forEach((pl,k)=>(pl.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} plus${k}`))); (g.notes||[]).forEach((n,k)=>(n.practice||[]).forEach((ex,j)=>chkEx(ex,`gp${g.no} note${k}`)));}); if(p.check) [].concat(p.check).forEach((c,k)=>chkEx(c,`part${pi} check${k}`)); if(!p.sample) E(`part${pi}: no sample`);});
 (ch.review||[]).forEach((r,k)=>chkEx(r.ex,`review${k}`));
-if(isN1){ // the Chinese edition prints a Chinese line under every usage explanation, clip note and Plus usage
- ch.parts.forEach(p=>p.points.forEach(g=>{ if(g.usage&&!g.usage.zh) E(`gp${g.no}: usage has no zh`); if(g.usage&&!g.usage.en) E(`gp${g.no}: usage has no en`); (g.plus||[]).forEach((pl,k)=>{ if(pl.usage&&!pl.usage.zh) E(`gp${g.no} plus${k}: usage has no zh`);}); (g.notes||[]).forEach((n,k)=>{ if(!n.en) E(`gp${g.no} note${k}: no en`);}); }));
+if(isN1){ // the Chinese edition prints a Chinese line under every usage explanation (＋Plus boxes usually, not always — not checked)
+ ch.parts.forEach(p=>p.points.forEach(g=>{ if(g.usage&&!g.usage.zh) E(`gp${g.no}: usage has no zh`); if(g.usage&&!g.usage.en) E(`gp${g.no}: usage has no en`);  (g.notes||[]).forEach((n,k)=>{ if(!n.en) E(`gp${g.no} note${k}: no en`);}); }));
  [].concat(ch.canDo||[],...ch.parts.map(p=>p.canDo||[])).forEach((c,k)=>{ if(!c.zh) E(`canDo${k}: no zh`); if(!c.en) E(`canDo${k}: no en`);});
  const zs=[]; (function walk(o,k){ if(typeof o==='string'){ if(k==='zh') zs.push(o);} else if(o&&typeof o==='object') Object.entries(o).forEach(([kk,v])=>walk(v,Array.isArray(o)?k:kk)); })(ch,'');
  zs.forEach(z=>{ if(/[ぁ-んァ-ン]/.test(z.replace(/“[^”]*”|「[^」]*」|（[^）]*）/g,''))) E('zh contains kana outside quotes (Japanese in a zh field?): '+z.slice(0,50)); });

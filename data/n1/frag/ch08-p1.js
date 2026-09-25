@@ -317,14 +317,14 @@ N2F({
       examples: [
         { ja: "砂に描いた絵は、{強風|きょうふう}により、{一瞬|いっしゅん}にして消え去った。", en: "The picture drawn in the sand vanished in an instant, blown away by the strong wind." },
         { ja: "{志|こころざし}{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled." },
-        { ja: "40歳を「{不惑|ふわく}」というが、これは{孔子|こうし}の「四十にして{惑|まど}わず」という言葉が{元|もと}になっている。", en: "Age forty is called fuwaku (\"without doubts\"); this comes from Confucius's words \"At forty, I had no more doubts.\"" },
+        { ja: "40歳を「{不惑|ふわく}」というが、これは{孔子|こうし}の「四十にして{惑|まど}わず」という言葉が元になっている。", en: "Age forty is called fuwaku (\"without doubts\"); this comes from Confucius's words \"At forty, I had no more doubts.\"" },
         { ja: "妹は交通事故に{遭|あ}ったが、幸いにして軽いけがだったので入院せずにすんだ。", en: "My younger sister was in a traffic accident, but fortunately her injuries were light, so she didn't have to be hospitalized." },
       ],
       deepDive:
         "**Nにして** (use ①) is a formal, written equivalent of the particle **で** that marks the time, stage or circumstances in which something happens, while putting weight on that noun. 一瞬にして消え去った = 一瞬で消え去った, but more vivid: *in a single instant*.\n\n" +
         "Typical collocations — most uses are set phrases:\n- **Time / speed**: 一瞬にして *in an instant*, 一夜にして *overnight* (一夜にして有名になった), 一日にして成らず (ローマは一日にして成らず *Rome wasn't built in a day*).\n- **Age / stage in life**: 四十にして惑わず (Confucius), 50歳にして初めて… *at the age of 50, for the first time…* — often stressing that it is surprisingly early or late.\n- **Stage of a plan**: 志半ばにして *with one's ambition only half achieved* (usually about dying or falling ill before finishing one's life's work).\n- **Fixed adverbs**: 幸いにして *fortunately*, 不幸にして *unfortunately*, 往々にして *often*, 居ながらにして *without leaving one's seat*.\n\n" +
         "Register: formal and literary (the book marks it with the formal icon). In conversation, で or plain adverbs (すぐに, 幸い) are normal.\n\n" +
-        "Don't confuse it with **〜にして②** (#23), *N₁ にして N₂* = *even (someone as skilled as) N / being both N₁ and N₂*: この名人にして初めてできる技 *a technique only a master like this can achieve*, 彼は医者にして作家だ *he is both a doctor and a writer*. Use ① attaches to time/situation nouns and means *in/at*; use ② attaches to people/roles.\n\n" +
+        "Don't confuse it with **〜にして②** (#23), *AにしてB* = *both A and B* (two attributes of the same subject): 彼は大学の教授にして、有名な作家でもある *he is a university professor and a famous writer as well*; 大胆にして繊細 *bold and at the same time delicate*. A third, related use is **Nにして初めて** *only N (can …)*: 名人にして初めてできる技 *a technique only a master can achieve*. Use ① attaches to time/stage/situation nouns and means *in/at*; use ② links two attributes (nouns or な-adjective stems).\n\n" +
         "JLPT tip: a blank after 一瞬 / 一夜 / 幸い / 志半ば / 〜歳 in a formal sentence usually wants にして.",
       see: [23],
       index: ["Nにして①", "一瞬にして", "幸いにして", "志半ばにして"],
@@ -376,8 +376,8 @@ N2F({
       examples: [
         { ja: "予想だにしなかったコンピューターのシステム{障害|しょうがい}が{発生|はっせい}し、担当者は対応に追われた。", en: "A computer system failure that no one had even imagined occurred, and the staff in charge were kept busy dealing with it." },
         { ja: "私はいい{企画|きかく}だと思ったが、社内では{一顧|いっこ}だにされなかった。", en: "I thought it was a good proposal, but within the company it wasn't given so much as a second glance." },
-        { ja: "エネルギーの消費を{抑|おさ}えるために何時間も{微動|びどう}だにしない動物もいる。", en: "Some animals don't move so much as a muscle for hours on end in order to save energy." },
-        { ja: "彼女に渡された1{輪|りん}の花に人生を大きく{狂|くる}わされるなんて、当時の私は夢にだに思いませんでした。", en: "Back then, I never so much as dreamed that the single flower I handed her would turn my life upside down.", idiom: true },
+        { ja: "エネルギーの消費を{抑|おさ}えるために何時間も{微動|びどう}だにしない動物もいる。", en: "Some animals don't move a muscle for hours on end in order to conserve energy." },
+        { ja: "彼女に渡された1{輪|りん}の花に人生を大きく{狂|くる}わされるなんて、当時の私は夢にだに思いませんでした。", en: "Back then, I never so much as dreamed that the single flower she handed me would turn my life upside down.", idiom: true },
       ],
       deepDive:
         "**Nだにしない** means *not even ~, not ~ in the least*. It is the classical particle だに (= さえ) attached to a noun and followed by a negative: 想像だにしなかった = 想像さえしなかった / 全く想像しなかった *never even imagined*.\n\n" +
@@ -412,19 +412,19 @@ N2F({
         "Where it's used:\n- **Business and customer service refusals** — the classic use: お答えいたしかねます, 分かりかねます, お引き受けいたしかねます, ご要望には応じかねます. It softens a *no* and sounds far more professional than できません / 分かりません.\n- **Polite disagreement or criticism**: 賛成しかねる, 同意しかねる, 理解しかねる, 〜とは言いかねる (*I can hardly say ~*: 値段に相応しい味とは言いかねる = it isn't really worth the price).\n- **Indecision**: 決めかねる, 選びかねる.\n\n" +
         "Idiomatic compounds (the ※ notes, marked with the idiom icon):\n- **待ちかねる** *wait impatiently, can hardly wait*: 春の訪れを待ちかねている; お待ちかねの… *the long-awaited …*.\n- **見かねる / 見るに見かねて** *unable to stand by and watch*: someone else's plight is so bad that you step in.\n\n" +
         "Big trap — **〜かねない** is the opposite in form but not in meaning: 〜かねない = *might well ~ (something bad)*: 事故になりかねない. かねる = *can't*, かねない = *could happen*. Also, かねる is about the speaker's (or subject's) will; it isn't used for plain physical inability (✗重くて持ち上げかねる → 持ち上げられない).\n\n" +
-        "Register: formal (formal icon), but 分かりかねます etc. are everyday in keigo. JLPT tip: かねます in a polite reply = *I'm afraid we can't*; in the やってみよう, every かねる sentence is paraphrased with 〜できない / 〜とは言えない.",
+        "Register: formal (formal icon), but 分かりかねます etc. are everyday in keigo. JLPT tip: かねます in a polite reply = *I'm afraid we can't*; in the やってみよう, the かねる phrases are paraphrased as 〜とは言えない, まだ考えているところだ (still undecided), 答えることができません and 同意できるような意見ではない — i.e. *can't / won't*, never *must* or *might*.",
       see: [],
       index: ["Vかねる", "Vかねます", "待ちかねる", "見かねる", "見るに見かねて"],
       practice: [
         {
           type: "choice",
           labels: "ab",
-          prompt: { ja: "", en: "Choose the option closest in meaning to the underlined part (shown in bold)." },
+          prompt: { ja: "", en: "Choose the option closest in meaning to the underlined part." },
           items: [
-            { q: "この料理は**値段に{相応|ふさわ}しい味とは言いかねる**。", options: ["おいしいとは言えない", "おいしいと言える"], answer: 0, en: "I can hardly say this dish tastes good enough to justify its price." },
-            { q: "両親と自分の希望が違うために、どの大学を受験するか**決めかねている**。", options: ["考えるおそれがある", "まだ考えているところだ"], answer: 1, en: "Because my parents' wishes and my own are different, I can't decide which university to apply to." },
-            { q: "A：{俳優|はいゆう}の{松坂|まつざか}さんとの結婚はどうなっているんですか。\nB：{本日|ほんじつ}は{新作|しんさく}映画の{試写会|ししゃかい}ですので、個人的な質問には**お答えしかねます**。", options: ["答えなければなりません", "答えることができません"], answer: 1, en: "A: What's happening with your marriage to the actor Mr. Matsuzaka?\nB: Today is the preview screening of my new film, so I'm afraid I can't answer personal questions." },
-            { q: "そのような意見には、**とうてい{同意|どうい}しかねます**。", options: ["とても{同意|どうい}できるような意見ではない。", "{大|おお}いに{同意|どうい}すべき意見である。"], answer: 0, en: "I can by no means agree with an opinion like that." },
+            { q: "この料理は__値段に{相応|ふさわ}しい味とは言いかねる__。", options: ["おいしいとは言えない", "おいしいと言える"], answer: 0, en: "I can hardly say this dish tastes good enough to justify its price." },
+            { q: "両親と自分の希望が違うために、どの大学を受験するか__決めかねている__。", options: ["考えるおそれがある", "まだ考えているところだ"], answer: 1, en: "Because my parents' wishes and my own are different, I can't decide which university to apply to." },
+            { q: "A：{俳優|はいゆう}の{松坂|まつざか}さんとの結婚はどうなっているんですか。\nB：{本日|ほんじつ}は{新作|しんさく}映画の{試写会|ししゃかい}ですので、個人的な質問には__お答えしかねます__。", options: ["答えなければなりません", "答えることができません"], answer: 1, en: "A: What's happening with your marriage to the actor Mr. Matsuzaka?\nB: Today is the preview screening of my new film, so I'm afraid I can't answer personal questions." },
+            { q: "そのような意見には、__とうてい{同意|どうい}しかねます__。", options: ["とても{同意|どうい}できるような意見ではない。", "{大|おお}いに{同意|どうい}すべき意見である。"], answer: 0, en: "I can by no means agree with an opinion like that." },
           ],
         },
       ],

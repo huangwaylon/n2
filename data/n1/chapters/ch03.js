@@ -1438,7 +1438,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**V-ない stem＋ずにはおかない** (written; spoken variant **〜ないではおかない**) is a double negative: *will not leave it without doing V* → *will definitely do V*. する becomes **せずにはおかない**.\n\nTwo uses:\n- **Strong determination** (main use): the subject is a person resolved to do something, often to someone else — 捕まえずにはおかない, 排除せずにはおかない, 請求しないではおかない. First-person vows sound dramatic (the monster wife's 食わずにはおかないぞ!).\n- **Inevitable effect** (clip note): the subject is a thing/event, and the verb is usually causative — 心を震わせずにはおかない, 危機を引き起こさずにはおかない, 衝撃を与えずにはおかない. *It cannot fail to ~ / it is bound to ~*.\n\nCompare:\n- **〜ずにはいられない** (N2): *can't help doing* — the speaker's own uncontrollable urge (笑わずにはいられない). ずにはおかない is about will directed outward, or an effect on others.\n- **〜ずにはすまない** (N1): *won't be settled without ~ / will have to ~* — social necessity or obligation (謝らずにはすまない).\n- **〜ないではおかない**: same meaning as ずにはおかない, slightly less stiff.\n\nPitfall: the negative stem — 食わず (食う), 捕まえず, せず (not ✗しず). JLPT tip: a causative verb + ずにはおかない with an inanimate subject = 'inevitably causes'; don't mix it up with ずにはいられない.",
+          "deepDive": "**V-ない stem＋ずにはおかない** (formal, written style; variant **〜ないではおかない**) is a double negative: *will not leave it without doing V* → *will definitely do V*. する becomes **せずにはおかない**.\n\nTwo uses:\n- **Strong determination** (main use): the subject is a person resolved to do something, often to someone else — 捕まえずにはおかない, 排除せずにはおかない, 請求しないではおかない. First-person vows sound dramatic (the monster wife's 食わずにはおかないぞ!).\n- **Inevitable effect** (clip note): the subject is a thing/event, and the verb is usually causative — 心を震わせずにはおかない, 危機を引き起こさずにはおかない, 衝撃を与えずにはおかない. *It cannot fail to ~ / it is bound to ~*.\n\nCompare:\n- **〜ずにはいられない** (N2): *can't help doing* — the speaker's own uncontrollable urge (笑わずにはいられない). ずにはおかない is about will directed outward, or an effect on others.\n- **〜ずにはすまない** (N1): *won't be settled without ~ / will have to ~* — social necessity or obligation (謝らずにはすまない).\n- **〜ないではおかない**: same meaning as ずにはおかない, slightly less stiff.\n\nPitfall: the negative stem — 食わず (食う), 捕まえず, せず (not ✗しず). JLPT tip: a causative verb + ずにはおかない with an inanimate subject = 'inevitably causes'; don't mix it up with ずにはいられない.",
           "see": [],
           "index": [
             "Vずにはおかない",
@@ -1748,7 +1748,7 @@ N2.register({
         },
         "items": [
           {
-            "before": "いくら{真夏|まなつ}でも、Tシャツ1枚で",
+            "before": "いくら{真夏|まなつ}でも、Ｔシャツ1枚で",
             "after": "だ。",
             "pieces": [
               "非常識",

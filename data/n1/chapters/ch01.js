@@ -61,7 +61,7 @@ N2.register({
           },
           {
             "ja": "日本から来たという観光客の一人は、「さすが、{本場|ほんば}は{雰囲気|ふんいき}**からして**全く違う」と{興奮気味|こうふんぎみ}に語っていた。",
-            "en": "One tourist, who said he had come from Japan, remarked excitedly: “As you'd expect, the real home of beer is completely different — starting with the atmosphere.”"
+            "en": "One tourist who said they had come from Japan remarked excitedly: “As you'd expect, the real home of beer is completely different — starting with the atmosphere.”"
           }
         ]
       },
@@ -100,7 +100,7 @@ N2.register({
               "en": "Starting with this novel becoming a bestseller, he went on to produce one popular series after another."
             }
           ],
-          "deepDive": "**〜を皮切りに** means *starting with ~* and marks **the first item in a series of similar events** that then follow one after another. 皮切り originally meant the first moxa burn in moxibustion (the first “cut” into the skin), hence *the very first of a sequence*.\n\nConnection:\n- **N + を皮切りに（して）／を皮切りとして**: 東京公演を皮切りに, 海外ロケを皮切りに.\n- A clause is nominalized with **の**: 支店を出したのを皮切りに, ベストセラーになったのを皮切りとして.\n\nThe key idea is that the first event and what follows are **the same kind of thing**, and the series typically grows or spreads: a tour that goes on to 20 cities, a company that goes on to open branches all over the world, festivals that are held one after another. The second half therefore often contains words like 次々と, 続々と, 全国, 各地, 世界各地. Because it describes things becoming lively or expanding, it is at home in news reports, business writing and announcements, and is not a chatty expression.\n\nCompare:\n- **〜をきっかけに** (N2): *prompted by ~*. The first event triggers something **different** (a change, a decision). 車椅子の学生の入学をきっかけに、ボランティアが組織された — the enrollment is not itself one of the volunteer activities, so を皮切りに is wrong there.\n- **〜につれて** (N2): proportional change (子どもの成長につれて負担が重くなる), not a sequence starting from a first event.\n- **〜をはじめ（として）** (N2): names a representative member of a group (*A and others*), with no time order. を皮切りに is about what comes **first in time**.\n\nPitfall: the item before を皮切りに should itself be the first of the series. 青森ねぶた祭りを皮切りに東北四大祭りが行われる works because the Nebuta festival is one of the four great Tohoku festivals and is held first.\n\nJLPT tip: if the blank sits between a first event and a phrase like 全国◯都市を回る or 次々と, choose を皮切りに; if what follows is a change caused by the event, choose をきっかけに.",
+          "deepDive": "**〜を皮切りに** means *starting with ~* and marks **the first item in a series of similar events** that then follow one after another. 皮切り (literally *cutting the skin*) originally meant the first moxa cone burned in moxibustion, said to be the most painful one, hence *the very first of a sequence*.\n\nConnection:\n- **N + を皮切りに（して）／を皮切りとして**: 東京公演を皮切りに, 海外ロケを皮切りに.\n- A clause is nominalized with **の**: 支店を出したのを皮切りに, ベストセラーになったのを皮切りとして.\n\nThe key idea is that the first event and what follows are **the same kind of thing**, and the series typically grows or spreads: a tour that goes on to 20 cities, a company that goes on to open branches all over the world, festivals that are held one after another. The second half therefore often contains words like 次々と, 続々と, 全国, 各地, 世界各地. Because it describes things becoming lively or expanding, it is at home in news reports, business writing and announcements, and is not a chatty expression.\n\nCompare:\n- **〜をきっかけに** (N2): *prompted by ~*. The first event triggers something **different** (a change, a decision). 車椅子の学生の入学をきっかけに、ボランティアが組織された — the enrollment is not itself one of the volunteer activities, so を皮切りに is wrong there.\n- **〜につれて** (N2): proportional change (子どもの成長につれて負担が重くなる), not a sequence starting from a first event.\n- **〜をはじめ（として）** (N2): names a representative member of a group (*A and others*), with no time order. を皮切りに is about what comes **first in time**.\n\nPitfall: the item before を皮切りに should itself be the first of the series. 青森ねぶた祭りを皮切りに東北四大祭りが行われる works because the Nebuta festival is one of the four great Tohoku festivals and is held first.\n\nJLPT tip: if the blank sits between a first event and a phrase like 全国◯都市を回る or 次々と, choose を皮切りに; if what follows is a change caused by the event, choose をきっかけに.",
           "see": [],
           "index": [
             "〜を皮切りに（して）",
@@ -271,7 +271,7 @@ N2.register({
               "en": "I think the fact that it's quite common for people to make their New Year's visit at a shrine, marry in a church and hold funerals at a temple is something you'd only find in Japan, with its tolerance of religion."
             }
           ],
-          "deepDive": "**N₁ならではのN₂** means *an N₂ that only N₁ has / that you find only with N₁*. It singles out a quality, experience or product that is **unique to** a place, person, group or situation: 北国ならではの遊び, 専門店ならではの味, 手作りならではの温かさ.\n\nForm: historically なら (if it is) + で + は — *if it weren't for N₁ (it wouldn't exist)*. Two patterns:\n- **N₁ならではのN₂** before a noun (the most common).\n- **〜はNならではだ** as a predicate: 宗教に寛容な日本ならではだ.\n- A literary variant, **Nならでは〜ない** (この味は老舗ならでは出せない), is rarely seen now.\n\nNuance: it almost always expresses **positive evaluation** (hence the praise icon) — the speaker admires something special. For a clearly negative characteristic, **〜特有の** is more natural (日本特有の湿気, 都会特有の犯罪); everyday speech does stretch ならではの to mild drawbacks (都会ならではの悩み), but the core meaning is *a special merit only N₁ has*.\n\nCompare:\n- **〜らしい**: *typical of, as expected of* — what is characteristic, not necessarily unique (子どもらしい絵).\n- **〜特有の／〜独特の**: neutral *peculiar to*.\n- A handy paraphrase is **Nでしか〜ない**: 専門店ならではの味 = 専門店でしか出せない独特の味; オリンピックならではのもの = オリンピックでしか見られない特別なもの.\n\nJLPT tip: ならでは is followed by の + noun or by だ; it is not followed directly by a verb. In a sentence like 日本の春（　）の光景, the answer is ならでは.",
+          "deepDive": "**N₁ならではのN₂** means *an N₂ that only N₁ has / that you find only with N₁*. It singles out a quality, experience or product that is **unique to** a place, person, group or situation: 北国ならではの遊び, 専門店ならではの味, 手作りならではの温かさ.\n\nForm: historically なら (classical copula) + で (classical negative *without*) + は — *without N₁ / if not N₁ (it wouldn't exist)*. Two patterns:\n- **N₁ならではのN₂** before a noun (the most common).\n- **〜はNならではだ** as a predicate: 宗教に寛容な日本ならではだ.\n- A literary variant, **Nならでは〜ない** (この味は老舗ならでは出せない), is rarely seen now.\n\nNuance: it almost always expresses **positive evaluation** (hence the praise icon) — the speaker admires something special. For a clearly negative characteristic, **〜特有の** is more natural (日本特有の湿気, 都会特有の犯罪); everyday speech does stretch ならではの to mild drawbacks (都会ならではの悩み), but the core meaning is *a special merit only N₁ has*.\n\nCompare:\n- **〜らしい**: *typical of, as expected of* — what is characteristic, not necessarily unique (子どもらしい絵).\n- **〜特有の／〜独特の**: neutral *peculiar to*.\n- A handy paraphrase is **Nでしか〜ない**: 専門店ならではの味 = 専門店でしか出せない独特の味; オリンピックならではのもの = オリンピックでしか見られない特別なもの.\n\nJLPT tip: ならでは is followed by の + noun or by だ; it is not followed directly by a verb. In a sentence like 日本の春（　）の光景, the answer is ならでは.",
           "see": [],
           "index": [
             "N₁ならではのN₂",
@@ -441,7 +441,7 @@ N2.register({
           ],
           "notes": [
             {
-              "ja": "「[V-る]／[N] + に{至|いた}る」は「〜という{段階|だんかい}や{状態|じょうたい}に{達|たっ}する」という意味で使われる。",
+              "ja": "「[V-る]／[N] + に{至|いた}る」は「〜という段階や{状態|じょうたい}に{達|たっ}する」という意味で使われる。",
               "zh": "用来表示“达到……阶段或状态”。",
               "en": "「V-る／N + に至る」 is used to mean “reach the stage or state of ~.”",
               "examples": [
@@ -461,7 +461,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**Nに至るまで** means *(all the way) to N, even N*. 至る means *to reach, to arrive at*, so the phrase marks the **far end of a range** and stresses that **everything** within it is included. It very often pairs with から: **AからBに至るまで** *from A all the way to B*.\n\nTwo uses:\n- **A concrete range** of places or times: 関東地方から東北地方に至るまで, 明治時代から現在に至るまで.\n- **An extreme endpoint** that shows how wide the range is — something very small and detailed or very large: 髪の毛1本に至るまで, 電源プラグから宇宙開発用ロボットに至るまで. The implication is *even that is included, so of course everything in between is too*.\n\nThe second half therefore talks about the whole range: すべて, さまざまな, あらゆる, 広範囲に及ぶ. In the sample text: 大人はもとより小さな子どもに至るまで、あらゆる人々が楽しめる. It is formal and written (not used in chat among friends).\n\nCompare:\n- **〜まで**: plain *until/to*, no emphasis on the extent.\n- **〜にかけて** (N2): a loose span of time or space (東北地方から関東北部にかけて広い範囲で積雪) — neutral, no sense of *even*.\n- **〜にわたって** (N2): *throughout, over* a period or area as a whole (3年間にわたって放送された). ✗3年間に至るまで.\n\nThe clip note covers the verb **に至る** *to reach (a stage or state)*: 作るに至った経緯 *how she came to make…*, 〜に至っては (an extreme case, point #7), and the idiom **事ここに至っては** *now that things have come to this*. Other forms like 〜に至っても and 〜に至るまでの N appear in review questions.\n\nJLPT tip: when the options include に至るまで, にかけて and にわたって, look at the second half: an emphatic すべて／あらゆる／さまざまな points to に至るまで; a simple span of area points to にかけて; a period + continuing action points to にわたって.",
+          "deepDive": "**Nに至るまで** means *(all the way) to N, even N*. 至る means *to reach, to arrive at*, so the phrase marks the **far end of a range** and stresses that **everything** within it is included. It very often pairs with から: **AからBに至るまで** *from A all the way to B*.\n\nTwo uses:\n- **A concrete range** of places or times: 関東地方から東北地方に至るまで, 明治時代から現在に至るまで.\n- **An extreme endpoint** that shows how wide the range is — something very small and detailed or very large: 髪の毛1本に至るまで, 電源プラグから宇宙開発用ロボットに至るまで. The implication is *even that is included, so of course everything in between is too*.\n\nThe second half therefore talks about the whole range: すべて, さまざまな, あらゆる, 広範囲に及ぶ. In the sample text: 大人はもとより小さな子どもに至るまで、あらゆる人々が楽しめる. It is formal and written (not used in chat among friends).\n\nCompare:\n- **〜まで**: plain *until/to*, no emphasis on the extent.\n- **〜にかけて** (N2): a loose span of time or space (東北地方から関東北部にかけて広い範囲で積雪) — neutral, no sense of *even*.\n- **〜にわたって** (N2): *throughout, over* a period or area as a whole (3年間にわたって放送された). ✗3年間に至るまで.\n\nThe clip note covers the verb **に至る** *to reach (a stage or state)*: 作るに至った経緯 *how she came to make…*, 〜に至っては (an extreme case, point #7), and the idiom **事ここに至っては** *now that things have come to this*. The review questions also use に至って, に至っても, に至っては and に至った as options.\n\nJLPT tip: when the options include に至るまで, にかけて and にわたって, look at the second half: an emphatic すべて／あらゆる／さまざまな points to に至るまで; a simple span of area points to にかけて; a period + continuing action points to にわたって.",
           "see": [
             7
           ],
@@ -543,7 +543,7 @@ N2.register({
               "en": "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models."
             }
           ],
-          "deepDive": "**AからしてB** means *starting with A / even A (is B), so everything is B*. You pick **one element** — usually the first thing that strikes you, or a minor detail — and let it stand for the whole: 本場は雰囲気からして全く違う *the real home of beer is different in everything, starting with the atmosphere*.\n\nConnection: N + からして. The noun is often a small, visible feature: 言葉遣い, 名前, 立っている姿, 見た目, 入り口, ロビー, タイトル.\n\nTwo nuances in the book:\n- **One example stands for all**: 言葉遣いからして丁寧 — if even their speech is polite, everything else about them is too. The evaluation can be good or bad: このホテルはロビーからして薄暗くてかび臭い.\n- **Showing an extreme degree** through one example: 起動にかかる時間からして最新機種の3倍以上だ — this single fact shows how hopelessly old the computer is.\n\nA related use (not the focus of this point) is *judging from ~*: 彼の態度からして、反省していないようだ — close to からすると.\n\nCompare:\n- **〜からすると／からすれば／から見て**: *judging from / from the standpoint of* — the basis for an inference or viewpoint, without the *even A, so everything* idea. ✗懐石料理は食器から見て季節感を大切にしている.\n- **〜さえ** / **〜まで**: *even*. **〜までして** means *going so far as to do ~* (親戚から借金までして資金を集めた) — a different structure, since からして needs a noun that stands for the whole.\n- **〜をはじめ**: lists a representative example among many things; からして implies *if even this is so, the rest goes without saying*.\n\nJLPT tip: からして is typically followed by an evaluation (美しい, 丁寧だ, 違う, 怪しい) and often appears with さすが. If the sentence says *even this small thing is X*, choose からして.",
+          "deepDive": "**AからしてB** means *starting with A / even A (is B), so everything is B*. You pick **one element** — usually the first thing that strikes you, or a minor detail — and let it stand for the whole: 本場は雰囲気からして全く違う *the real home of beer is different in everything, starting with the atmosphere*.\n\nConnection: N + からして. The noun is often a small, visible feature: 言葉遣い, 名前, 立っている姿, 見た目, 入り口, ロビー, タイトル.\n\nTwo nuances in the book:\n- **One example stands for all**: 言葉遣いからして丁寧 — if even their speech is polite, everything else about them is too. The evaluation can be good or bad: このホテルはロビーからして薄暗くてかび臭い.\n- **Showing an extreme degree** through one example: 起動にかかる時間からして最新機種の3倍以上だ — this single fact shows how hopelessly old the computer is.\n\nA related use (not the focus of this point) is *judging from ~*: 彼の態度からして、反省していないようだ — close to からすると.\n\nCompare:\n- **〜からすると／からすれば／から見て**: *judging from / from the standpoint of* — the basis for an inference or viewpoint, without the *even A, so everything* idea. ✗懐石料理は食器から見て季節感を大切にしている.\n- **〜さえ** / **〜まで**: *even*. **〜までして** means *going so far as to do ~* (親戚から借金までして資金を集めた) — an extreme action taken to reach a goal, whereas からして picks one element that stands for the whole.\n- **〜をはじめ**: lists a representative example among many things; からして implies *if even this is so, the rest goes without saying*.\n\nJLPT tip: からして is typically followed by an evaluation (美しい, 丁寧だ, 違う, 怪しい) and often appears with さすが. If the sentence says *even this small thing is X*, choose からして.",
           "see": [],
           "index": [
             "Nからして"
@@ -573,7 +573,7 @@ N2.register({
                     "から見て"
                   ],
                   "answer": 0,
-                  "en": "Kaiseki cuisine places great importance on a sense of the season, right down to the tableware."
+                  "en": "Kaiseki cuisine places great importance on a sense of the season, starting with the tableware itself."
                 },
                 {
                   "q": "彼は{親戚|しんせき}から借金（　）会社{設立|せつりつ}の{資金|しきん}を集めた。",
@@ -661,7 +661,7 @@ N2.register({
               "のあげく"
             ],
             "answer": 0,
-            "en": "Because of the local team's victory parade, the street in front of the station is packed with spectators."
+            "en": "Because it's the local team's victory parade, the street in front of the station is packed with spectators."
           },
           {
             "q": "今年は雨が少なく、{例年|れいねん}（　）暑さが{厳|きび}しい。",
@@ -705,7 +705,7 @@ N2.register({
               "からして"
             ],
             "answer": 3,
-            "en": "Mr. Ishida's house is completely different from an ordinary house, isn't it — starting with the way the entrance is built."
+            "en": "The Ishidas' house is completely different from an ordinary house, isn't it — starting with the way the entrance is built."
           },
           {
             "q": "合格したのに、手続きを忘れていた。{事|こと}ここ（　）、もうどうすることもできない。",

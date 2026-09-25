@@ -59,7 +59,7 @@ N2F({
         "Don't confuse it with the related forms of 至る:\n" +
         "- **〜に至るまで** (#5): *all the way to, even including* — covers a range (上は社長から下は新入社員に至るまで).\n" +
         "- **〜に至る / 〜に至った**: *to reach a point, to end up* (事故に至った原因).\n" +
-        "- **〜に至っても**: *even having reached that point* (この期に及んでも).\n\n" +
+        "- **〜に至っても**: *even having reached that point* (この段階に至っても、まだ決まらない).\n\n" +
         "Close neighbors: **〜はもとより** / **〜はもちろん** point to an obvious case and then add more; に至っては points to the most extreme case last. **〜にいたっては** is sometimes written in hiragana.\n\n" +
         "JLPT tip: look for a list of comparable items (40代は…、30代は…、20代に至っては…). If a choice gives the worst or most surprising item at the end, に至っては is the answer.",
       see: [5],
@@ -117,7 +117,7 @@ N2F({
         "**Nといえども** is a formal, literary *even though it is N / even N*. It comes from と言えども, an old concessive form of 言う (*even if one says N*). The pattern sets up an expectation from N and then **denies it**: 中小企業といえども、…責任を持つべき — you might think small firms are exempt, but no.\n\n" +
         "Typical shapes:\n" +
         "- **Status or category + といえども + 〜わけではない / 〜ない / 〜べきだ**: 社長といえども…わけではない; 子どもといえども、ルールは守るべきだ.\n" +
-        "- **いかに / たとえ … といえども**: いかにかわいい子熊といえども、危険だ (#8 practice 2).\n" +
+        "- **いかに / たとえ … といえども**: いかにかわいい子熊といえども、危険だ (practice item 2).\n" +
         "- **Fixed classical phrases**: 世界広しといえども (*wide as the world is*), 老いたりといえども (*old though he may be*), 数は少なりといえども. These keep a classical adjective or verb before といえど(も).\n" +
         "- **といえど** is the same thing, slightly more literary.\n\n" +
         "Although the book gives N + といえども, you'll also see it after clauses in writing (保護のためといえども; 知らなかったといえども). The core is always *even granting X, still Y*.\n\n" +
@@ -136,7 +136,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
           items: [
-            { q: "名人といえども、（　）。", options: ["作品のすべてが{傑作|けっさく}というわけではない", "{誰|だれ}からも認められ、尊敬されている"], answer: 0, en: "Even a master does not make nothing but masterpieces.", why: { en: "といえども needs a result contrary to expectation; being respected by everyone is exactly what you'd expect of a master." } },
+            { q: "名人といえども、（　）。", options: ["作品のすべてが{傑作|けっさく}というわけではない", "{誰|だれ}からも認められ、尊敬されている"], answer: 0, en: "Even a master does not produce masterpieces every single time.", why: { en: "といえども needs a result contrary to expectation; being respected by everyone is exactly what you'd expect of a master." } },
             { q: "いかにかわいい{子熊|こぐま}といえども、（　）。", options: ["抱き上げたくなる", "不用意に近づくと危険だ"], answer: 1, en: "No matter how cute a bear cub may be, it is dangerous to approach it carelessly." },
             { q: "アルバイトといえども、仕事に責任を（　）。", options: ["持たなければならない", "持つ義務はない"], answer: 0, en: "Even as a part-timer, you must take responsibility for your work." },
             { q: "野球チームの練習中は、{我|わ}が{子|こ}といえども（　）つもりだ。", options: ["特別{扱|あつか}いはしない", "特別に指導する"], answer: 0, en: "During the baseball team's practice, I don't intend to give special treatment even to my own child." },
@@ -157,6 +157,7 @@ N2F({
         en: "“〜を余儀なくされる” is used when you want to say “one is in a situation where one has to do 〜 even though one doesn't want to.” It is often used in the news and the like.",
       },
       forms: ["[N] + を{余儀|よぎ}なくされる"],
+      notesFirst: false,
       examples: [
         { ja: "景気{悪化|あっか}に{伴|ともな}い、工場は{閉鎖|へいさ}を{余儀|よぎ}なくされた。", en: "As the economy deteriorated, the factory was forced to close." },
         { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により{未|いま}だに{避難所|ひなんじょ}での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still forced to live in evacuation shelters." },

@@ -681,14 +681,14 @@ N2.register({
           "phrase": "{赤字|あかじ}にな**ろうが**なる**まいが**",
           "stars": 3,
           "marks": [],
+          "notesFirst": false,
           "usage": {
             "ja": "「A（よ）うがAまいが」は「AてもAなくても」という意味で、「{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ」のように、{影響|えいきょう}を受けない強い気持ちや、「信じようが信じまいが、これは本当にあった話です」のように変えられない事実があると言いたいときに使われる。",
             "zh": "表示“是不是A都……”的意思，用于表达不受影响的坚决态度时，如“不管田中去不去，我都打算去”，或者用于表示不可改变的事实，如“不管你信不信，这都是真实发生过的事情”。",
             "en": "“A（よ）うがAまいが” means “whether A or not A”. It is used to express a strong feeling of not being influenced, as in “{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ”, or that there is a fact that cannot be changed, as in “信じようが信じまいが、これは本当にあった話です”."
           },
           "forms": [
-            "[V-よう] + が + [V-る] + まいが",
-            "[V-よう] + と + [V-る] + まいと"
+            "[V-よう] + ［が　と］ + [V-る] + ［まいが　まいと］"
           ],
           "formNotes": [
             {
@@ -734,7 +734,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**Vようが Vまいが / Vようと Vまいと** = *whether one ~s or not*. It sets up an affirmative and negative alternative with the same verb and says the main clause holds either way. The main clause is a firm intention (私は行くつもりだ), a norm (守るべきだ, 片付けておけ) or a statement of fact (これは本当にあった話です).\n\nForming まい (the negative volitional):\n- Group 1: dictionary form + まい: 行くまい, 立つまい, 降るまい.\n- Group 2: dictionary form or stem + まい: 認めるまい／認めまい, いるまい／いまい (the book's examples use 認めまい and いるまい).\n- する → するまい／すまい／しまい; 来る → 来るまい／こまい.\n\nVariants (the clip note): two different verbs (雨が降ろうが風が吹こうが, #78), adjectives with 〜かろう (高かろうが安かろうが; ない → なかろう: 暇があろうがなかろうが), and nouns/な-adjectives with だろう (有名店だろうとそうじゃなかろうと). Same pattern: 〜ても〜ても.\n\nCompare:\n- **〜ても〜なくても**: the neutral equivalent.\n- **〜かどうかにかかわらず** (N2): impersonal, formal, used in notices: 参加するかどうかにかかわらず.\n- **〜にせよ〜にせよ / 〜であれ〜であれ** (#38): noun-based alternatives.\n\nPitfall: use the **same verb** in both halves (the ＊ note). ✗行こうが来るまいが. The negative half must be まい, not ない (✗行こうが行かないが).\n\nJLPT tip: in 文の組み立て, pieces like 〜ようが and 〜まいが sit next to each other with the same verb; the まいが piece is usually the ★ candidate after the よう piece.",
+          "deepDive": "**Vようが Vまいが / Vようと Vまいと** = *whether one ~s or not*. It sets up an affirmative and negative alternative with the same verb and says the main clause holds either way. The main clause is a firm intention (私は行くつもりだ), a norm (守るべきだ, 片付けておけ) or a statement of fact (これは本当にあった話です).\n\nForming まい (the negative volitional):\n- Group 1: dictionary form + まい: 行くまい, 立つまい, 降るまい.\n- Group 2: dictionary form or stem + まい: 認めるまい／認めまい, いるまい／いまい (the book's examples use 認めまい and いるまい).\n- する → するまい／すまい／しまい; 来る → 来るまい／こまい／きまい.\n\nVariants (the clip note): two different verbs (雨が降ろうが風が吹こうが, #78), adjectives with 〜かろう (高かろうが安かろうが; ない → なかろう: 暇があろうがなかろうが), and nouns/な-adjectives with だろう (有名店だろうとそうじゃなかろうと). Same pattern: 〜ても〜ても.\n\nCompare:\n- **〜ても〜なくても**: the neutral equivalent.\n- **〜かどうかにかかわらず** (N2): impersonal, formal, used in notices: 参加するかどうかにかかわらず.\n- **〜であれ〜であれ** (#38) / **〜にせよ〜にせよ** (N2): noun-based alternatives (*be it A or B*).\n\nPitfall: use the **same verb** in both halves (the ＊ note). ✗行こうが来るまいが. The negative half must be まい, not ない (✗行こうが行かないが).\n\nJLPT tip: when you see 〜（よ）うが／〜（よ）うと, look for the matching まいが／まいと with the same verb right after it; the main clause holds whichever alternative is true.",
           "see": [
             78,
             38
@@ -826,8 +826,10 @@ N2.register({
               "en": "If you're sick, then you have to stay in bed and rest!"
             }
           ],
-          "deepDive": "**AならAで** repeats the same word: 辞めるなら辞めるで, 嫌なら嫌で, 病気なら病気で. It accepts someone's situation A (*if that's how it is, fine*) and then says **what they should do given A** — so the second half is advice, a demand, or a complaint that they didn't act accordingly (〜ばよかったのに).\n\n- Connection: plain present form of verbs/い-adjectives (買うなら買うで, 忙しいなら忙しいで); な-adjectives and nouns drop だ (嫌なら嫌で, 病気なら病気で). The book specifies 現在形のみ — ✗辞めたなら辞めたで is not the target form here.\n- Very common in conversation; the tone is a little impatient.\n\nRelated uses you'll meet:\n- **〜ば〜で / 〜たら〜たで**: *if it happens, that brings its own (problems/benefits)*: お金はあればあったで心配が増える. This emphasizes that either way there are consequences, rather than giving advice.\n- **〜は〜で**: *A, for its part, …*: 私は私で忙しい.\n\nCompare **〜なら** alone: 辞めるなら、仕事を片付けてから — the repetition adds *(I accept that you're doing it, but) at least…*.\n\nPitfall: the two words must be identical (formNote). The pattern expresses the speaker's attitude toward **someone else's** situation, not a neutral condition.\n\nJLPT tip: in the practice, pick the second half that is advice/complaint (相談してくれれば…のに, メモしておかないとだめじゃないか, 挨拶してから帰りなさい), not a satisfied report.",
-          "see": [],
+          "deepDive": "**AならAで** repeats the same word: 辞めるなら辞めるで, 嫌なら嫌で, 病気なら病気で. It accepts someone's situation A (*if that's how it is, fine*) and then says **what they should do given A** — so the second half is advice, a demand, or a complaint that they didn't act accordingly (〜ばよかったのに).\n\n- Connection: plain present form of verbs/い-adjectives (買うなら買うで, 忙しいなら忙しいで); な-adjectives and nouns drop だ (嫌なら嫌で, 病気なら病気で). The book specifies 現在形のみ — ✗辞めたなら辞めたで is not the target form here.\n- Very common in conversation; the tone is a little impatient.\n\nRelated uses you'll meet:\n- **〜ば〜で / 〜たら〜たで** (#55): *if it happens, that brings its own (problems/benefits)*: お金はあればあったで心配が増える. This emphasizes that either way there are consequences, rather than giving advice.\n- **〜は〜で**: *A, for its part, …*: 私は私で忙しい.\n\nCompare **〜なら** alone: 辞めるなら、仕事を片付けてから — the repetition adds *(I accept that you're doing it, but) at least…*.\n\nPitfall: the two words must be identical (formNote). The pattern expresses the speaker's attitude toward **someone else's** situation, not a neutral condition.\n\nJLPT tip: in the practice, pick the second half that is advice/complaint (相談してくれれば…のに, メモしておかないとだめじゃないか, 挨拶してから帰りなさい), not a satisfied report.",
+          "see": [
+            55
+          ],
           "index": [
             "〜なら〜で"
           ],
@@ -922,7 +924,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**Nにすれば / Nにしたら / Nにしても / Nにしてみれば** = *from N's point of view / for N*. The speaker puts themself in someone else's shoes (usually a person or group other than the speaker) and describes how things look or feel **to them**: 相手にすれば、経費は安ければ安いほどいい.\n\n- N is almost always a person or organization: 被害者, 子ども, 会社側, 親, 若い人.\n- The second half is that party's feeling, judgment or opinion (迷惑だ, 宝物なのだ, 難しいことなんだ, 納得できない), often softened with だろう / のではないか / と思う.\n- にしても adds *even for N* (会社側にしてもメリットばかりとは言えまい). にしてみれば (Plus) is the most empathetic: *if you look at it from N's side*.\n- Can be used for oneself to contrast with others (英語が苦手な私にしてみれば).\n\nCompare:\n- **〜にとって** (N3): *for N* — a neutral evaluation (私にとって大切だ). にすれば explicitly imagines N's viewpoint, often contrasting it with another viewpoint.\n- **〜としては** (N2): *speaking as N* (in the capacity of) — usually the speaker's own position: 私としては反対だ.\n- **〜にしたって / 〜にしたところで** (#86): *even N (is no exception)* — about being the same as others, not about viewpoint.\n- **〜にしても〜にしても** (N2): *whether ~ or ~*.\n\nPitfall: ✗Nにすればいい here is not *should make it N*; context tells you whether する means ‘decide on’ or this viewpoint pattern.\n\nJLPT tip: when a sentence contrasts ‘what we think’ with ‘what they would feel’, choose にすれば／にしたら.",
+          "deepDive": "**Nにすれば / Nにしたら / Nにしても / Nにしてみれば** = *from N's point of view / for N*. The speaker puts themself in someone else's shoes (usually a person or group other than the speaker) and describes how things look or feel **to them**: 相手にすれば、経費は安ければ安いほどいい.\n\n- N is almost always a person or organization: 被害者, 子ども, 会社側, 親, 若い人.\n- The second half is that party's feeling, judgment or opinion (迷惑だ, 宝物なのだ, 難しいことなんだ, 納得できない), often softened with だろう / のではないか / と思う.\n- にしても adds *even for N* (会社側にしてもメリットばかりとは言えまい). にしてみれば (Plus) is the most empathetic: *if you look at it from N's side*.\n- Can be used for oneself to contrast with others (英語が苦手な私にしてみれば).\n\nCompare:\n- **〜にとって** (N3): *for N* — a neutral evaluation (私にとって大切だ). にすれば explicitly imagines N's viewpoint, often contrasting it with another viewpoint.\n- **〜としては** (N2): *speaking as N* (in the capacity of) — usually the speaker's own position: 私としては反対だ.\n- **〜にしたって / 〜にしたところで** (#86): *even N (is no exception)* — about being the same as others, not about viewpoint.\n- **〜にしても〜にしても** (N2): *whether ~ or ~*.\n\nPitfall: don't confuse it with Nにする *decide on N* (コーヒーにすればいい *you should go with coffee*); in the viewpoint pattern, N is the person whose standpoint is imagined, and the clause after it states how things look to them.\n\nJLPT tip: when a sentence contrasts ‘what we think’ with ‘what they would feel’, choose にすれば／にしたら.",
           "see": [
             86
           ],
@@ -1070,7 +1072,7 @@ N2.register({
             {
               "q": "歴史学者＿＿、こんな専門的な問題が大学の受験生にわかるわけないじゃないか。",
               "answer": "じゃあるまいし",
-              "en": "They're not historians. How could university applicants be expected to answer such a specialized question?"
+              "en": "It's not as if they were historians — how could university applicants be expected to answer such a specialized question?"
             },
             {
               "q": "テレビドラマを勝手にインターネットにアップロードする人がいるが、作った側の人間＿＿、許しがたい{行為|こうい}だ。",

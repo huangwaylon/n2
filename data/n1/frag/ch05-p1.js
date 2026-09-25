@@ -8,6 +8,7 @@ N2F({
   sample: {
     kind: "dialogue",
     vertical: true,
+    rings: false,
     lines: [
       { ja: "{警備会社|けいびがいしゃ}、社長室", en: "The security company, the president's office" },
       { ja: "{阿部|あべ}と社長、少し{離|はな}れて、制服{姿|すがた}のガードマンが立っている。", en: "Abe and the president; a little way off stands a guard in uniform." },
@@ -90,7 +91,7 @@ N2F({
         "Register: conversational (the casual-scene mark). In writing you'd more likely say AでもAでなくても or Aになったとしても.\n\n" +
         "Compare:\n" +
         "- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n" +
-        "- **〜なら〜で** (#80, 〜なら〜で): similar repetition with なら, found later in the book.\n\n" +
+        "- **〜なら〜で** (#80): the same kind of repetition with なら, found later in the book.\n\n" +
         "JLPT tip: in matching exercises, look for the half that states a problem with the *opposite* case first (深いプールでの事故は想像しやすいが → 浅かったら浅かったで…事故の心配がある).",
       see: [80],
       index: ["〜たら〜たで", "〜ば〜で"],
@@ -153,7 +154,7 @@ N2F({
       examples: [
         { ja: "言い{訳|わけ}ばかりしている政治家の話は聞くにたえない。", en: "The talk of politicians who do nothing but make excuses is unbearable to listen to." },
         { ja: "この小説は内容も{低俗|ていぞく}で、表現も{稚拙|ちせつ}で、読むにたえない。", en: "This novel is vulgar in content and clumsy in expression; it isn't fit to be read." },
-        { ja: "人目も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that women putting on makeup on the train without caring who's watching are painful to look at." },
+        { ja: "人目も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that the sight of women putting on makeup on the train, not caring who's watching, is unbearable to look at." },
         { ja: "{強行採決|きょうこうさいけつ}をめぐる国会での{乱闘騒|らんとうさわ}ぎは、全く{正視|せいし}にたえない。", en: "The brawl in the Diet over the forced vote is simply too disgraceful to look at." },
       ],
       xref: "☞ 69. 感謝の{念|ねん}**にたえません**",
@@ -195,7 +196,7 @@ N2F({
         "Forms: 出ようものなら, しようものなら, 捕まろうものなら, 続こうものなら, 遅れようものなら. Casual: **〜ようもんなら** (言い返そうもんなら). Note that the verb is in the **volitional** form even though it's not about intention — it's a fixed hypothetical.\n\n" +
         "Nuance: it usually describes a situation the speaker finds oppressive or exasperating (the scary wife, the harsh contract terms, the media swarming), and the 'regret' mark reflects that. The consequence is almost always negative.\n\n" +
         "Don't confuse with **V-る/V-れる + ものなら** (N2 〜ものなら): *if (one) could ~, (I'd like to…)*: 行けるものなら行きたい, できるものならやってみろ. That uses the **potential** form and expresses a wish or dare about something unlikely. ようものなら uses the **volitional** form and expresses a warning.\n\n" +
-        "Compare **〜たら最後** (#33, *once you ~, that's the end*) — also a drastic consequence, focusing on irreversibility.\n\n" +
+        "Compare **〜たが最後** (#33, *once you ~, that's the end*) — also a drastic consequence, but focusing on irreversibility once the action has happened.\n\n" +
         "JLPT tip: V-よう + ものなら + bad result; V-れる + ものなら + wish (〜たい).",
       see: [33],
       index: ["Vようものなら", "Vようもんなら"],

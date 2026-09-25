@@ -312,7 +312,7 @@ N2F({
         },
       ],
       deepDive:
-        "**V-ない stem＋ずにはおかない** (written; spoken variant **〜ないではおかない**) is a double negative: *will not leave it without doing V* → *will definitely do V*. する becomes **せずにはおかない**.\n\n" +
+        "**V-ない stem＋ずにはおかない** (formal, written style; variant **〜ないではおかない**) is a double negative: *will not leave it without doing V* → *will definitely do V*. する becomes **せずにはおかない**.\n\n" +
         "Two uses:\n" +
         "- **Strong determination** (main use): the subject is a person resolved to do something, often to someone else — 捕まえずにはおかない, 排除せずにはおかない, 請求しないではおかない. First-person vows sound dramatic (the monster wife's 食わずにはおかないぞ!).\n" +
         "- **Inevitable effect** (clip note): the subject is a thing/event, and the verb is usually causative — 心を震わせずにはおかない, 危機を引き起こさずにはおかない, 衝撃を与えずにはおかない. *It cannot fail to ~ / it is bound to ~*.\n\n" +

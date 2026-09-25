@@ -22,7 +22,7 @@ N2F({
       { cont: true, ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方**ならではの**ダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}**にもまして**、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are scheduled to be held twice a day each, every day, and even bigger crowds than in an ordinary year are expected." },
       { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール{飲料|いんりょう}のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、家族{連|づ}れの{姿|すがた}も多く見られる。", en: "When it comes to Oktoberfest, beer is of course the main attraction, but there are also bars serving non-alcoholic drinks and a traveling funfair with a merry-go-round and roller coasters, so many families can be seen as well." },
       { cont: true, ja: "今やビール{好|ず}きの大人はもとより小さな子ども**に{至|いた}るまで**、あらゆる人々が楽しめる国際的なイベントとなっている。", en: "It has now become an international event that everyone can enjoy — not only beer-loving adults but even small children." },
-      { ja: "日本から来たという観光客の一人は、「さすが、{本場|ほんば}は{雰囲気|ふんいき}**からして**全く違う」と{興奮気味|こうふんぎみ}に語っていた。", en: "One tourist, who said he had come from Japan, remarked excitedly: “As you'd expect, the real home of beer is completely different — starting with the atmosphere.”" },
+      { ja: "日本から来たという観光客の一人は、「さすが、{本場|ほんば}は{雰囲気|ふんいき}**からして**全く違う」と{興奮気味|こうふんぎみ}に語っていた。", en: "One tourist who said they had come from Japan remarked excitedly: “As you'd expect, the real home of beer is completely different — starting with the atmosphere.”" },
     ],
   },
   points: [
@@ -50,7 +50,7 @@ N2F({
         { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを生み出していった。", en: "Starting with this novel becoming a bestseller, he went on to produce one popular series after another." },
       ],
       deepDive:
-        "**〜を皮切りに** means *starting with ~* and marks **the first item in a series of similar events** that then follow one after another. 皮切り originally meant the first moxa burn in moxibustion (the first “cut” into the skin), hence *the very first of a sequence*.\n\n" +
+        "**〜を皮切りに** means *starting with ~* and marks **the first item in a series of similar events** that then follow one after another. 皮切り (literally *cutting the skin*) originally meant the first moxa cone burned in moxibustion, said to be the most painful one, hence *the very first of a sequence*.\n\n" +
         "Connection:\n" +
         "- **N + を皮切りに（して）／を皮切りとして**: 東京公演を皮切りに, 海外ロケを皮切りに.\n" +
         "- A clause is nominalized with **の**: 支店を出したのを皮切りに, ベストセラーになったのを皮切りとして.\n\n" +
@@ -145,7 +145,7 @@ N2F({
       ],
       deepDive:
         "**N₁ならではのN₂** means *an N₂ that only N₁ has / that you find only with N₁*. It singles out a quality, experience or product that is **unique to** a place, person, group or situation: 北国ならではの遊び, 専門店ならではの味, 手作りならではの温かさ.\n\n" +
-        "Form: historically なら (if it is) + で + は — *if it weren't for N₁ (it wouldn't exist)*. Two patterns:\n" +
+        "Form: historically なら (classical copula) + で (classical negative *without*) + は — *without N₁ / if not N₁ (it wouldn't exist)*. Two patterns:\n" +
         "- **N₁ならではのN₂** before a noun (the most common).\n" +
         "- **〜はNならではだ** as a predicate: 宗教に寛容な日本ならではだ.\n" +
         "- A literary variant, **Nならでは〜ない** (この味は老舗ならでは出せない), is rarely seen now.\n\n" +
@@ -242,7 +242,7 @@ N2F({
       ],
       notes: [
         {
-          ja: "「[V-る]／[N] + に{至|いた}る」は「〜という{段階|だんかい}や{状態|じょうたい}に{達|たっ}する」という意味で使われる。",
+          ja: "「[V-る]／[N] + に{至|いた}る」は「〜という段階や{状態|じょうたい}に{達|たっ}する」という意味で使われる。",
           zh: "用来表示“达到……阶段或状态”。",
           en: "「V-る／N + に至る」 is used to mean “reach the stage or state of ~.”",
           examples: [
@@ -262,7 +262,7 @@ N2F({
         "- **〜まで**: plain *until/to*, no emphasis on the extent.\n" +
         "- **〜にかけて** (N2): a loose span of time or space (東北地方から関東北部にかけて広い範囲で積雪) — neutral, no sense of *even*.\n" +
         "- **〜にわたって** (N2): *throughout, over* a period or area as a whole (3年間にわたって放送された). ✗3年間に至るまで.\n\n" +
-        "The clip note covers the verb **に至る** *to reach (a stage or state)*: 作るに至った経緯 *how she came to make…*, 〜に至っては (an extreme case, point #7), and the idiom **事ここに至っては** *now that things have come to this*. Other forms like 〜に至っても and 〜に至るまでの N appear in review questions.\n\n" +
+        "The clip note covers the verb **に至る** *to reach (a stage or state)*: 作るに至った経緯 *how she came to make…*, 〜に至っては (an extreme case, point #7), and the idiom **事ここに至っては** *now that things have come to this*. The review questions also use に至って, に至っても, に至っては and に至った as options.\n\n" +
         "JLPT tip: when the options include に至るまで, にかけて and にわたって, look at the second half: an emphatic すべて／あらゆる／さまざまな points to に至るまで; a simple span of area points to にかけて; a period + continuing action points to にわたって.",
       see: [7],
       index: ["Nに至るまで", "〜に至る", "AからBに至るまで", "事ここに至っては"],
@@ -307,7 +307,7 @@ N2F({
         "A related use (not the focus of this point) is *judging from ~*: 彼の態度からして、反省していないようだ — close to からすると.\n\n" +
         "Compare:\n" +
         "- **〜からすると／からすれば／から見て**: *judging from / from the standpoint of* — the basis for an inference or viewpoint, without the *even A, so everything* idea. ✗懐石料理は食器から見て季節感を大切にしている.\n" +
-        "- **〜さえ** / **〜まで**: *even*. **〜までして** means *going so far as to do ~* (親戚から借金までして資金を集めた) — a different structure, since からして needs a noun that stands for the whole.\n" +
+        "- **〜さえ** / **〜まで**: *even*. **〜までして** means *going so far as to do ~* (親戚から借金までして資金を集めた) — an extreme action taken to reach a goal, whereas からして picks one element that stands for the whole.\n" +
         "- **〜をはじめ**: lists a representative example among many things; からして implies *if even this is so, the rest goes without saying*.\n\n" +
         "JLPT tip: からして is typically followed by an evaluation (美しい, 丁寧だ, 違う, 怪しい) and often appears with さすが. If the sentence says *even this small thing is X*, choose からして.",
       see: [],
@@ -319,7 +319,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option, a or b. (Item 2 has an illustration of a kaiseki meal.)" },
           items: [
             { q: "このホテルはロビー（　）{薄暗|うすぐら}くてかび{臭|くさ}い。", options: ["からして", "からすると"], answer: 0, en: "This hotel is dim and smells musty, starting with the lobby." },
-            { q: "{懐石|かいせき}料理は、食器（　）季節感を大切にしている。", options: ["からして", "から見て"], answer: 0, en: "Kaiseki cuisine places great importance on a sense of the season, right down to the tableware." },
+            { q: "{懐石|かいせき}料理は、食器（　）季節感を大切にしている。", options: ["からして", "から見て"], answer: 0, en: "Kaiseki cuisine places great importance on a sense of the season, starting with the tableware itself." },
             { q: "彼は{親戚|しんせき}から借金（　）会社{設立|せつりつ}の{資金|しきん}を集めた。", options: ["からして", "までして"], answer: 1, en: "He went as far as borrowing money from relatives to raise the funds to set up his company." },
           ],
         },

@@ -7,7 +7,7 @@ N2F({ ch: 1, review: [
       items: [
         { q: "{地元|じもと}チームの優勝パレード（　）、駅前の通りは見物客でごった{返|がえ}している。",
           options: ["とあって", "にもかかわらず", "に{至|いた}るまで", "のあげく"], answer: 0,
-          en: "Because of the local team's victory parade, the street in front of the station is packed with spectators." },
+          en: "Because it's the local team's victory parade, the street in front of the station is packed with spectators." },
         { q: "今年は雨が少なく、{例年|れいねん}（　）暑さが{厳|きび}しい。",
           options: ["を{皮切|かわき}りに", "に{至|いた}るまで", "ならでは", "にもまして"], answer: 3,
           en: "There has been little rain this year, and the heat is even more severe than usual." },
@@ -19,7 +19,7 @@ N2F({ ch: 1, review: [
           en: "Snow cover was seen over a wide area from the Tohoku region to the northern Kanto region." },
         { q: "{石田|いしだ}さんのお宅、{玄関|げんかん}の{造|つく}り（　）普通の家とは全然違うね。",
           options: ["に{至|いた}って", "ならでは", "とあって", "からして"], answer: 3,
-          en: "Mr. Ishida's house is completely different from an ordinary house, isn't it — starting with the way the entrance is built." },
+          en: "The Ishidas' house is completely different from an ordinary house, isn't it — starting with the way the entrance is built." },
         { q: "合格したのに、手続きを忘れていた。{事|こと}ここ（　）、もうどうすることもできない。",
           options: ["に{至|いた}っても", "に{至|いた}るまで", "に{至|いた}る", "に{至|いた}っては"], answer: 3,
           en: "I passed, but I forgot to complete the paperwork. Now that things have come to this, there's nothing more I can do." },

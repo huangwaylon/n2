@@ -886,6 +886,7 @@ N2.register({
       "sample": {
         "kind": "dialogue",
         "vertical": true,
+        "rings": false,
         "lines": [
           {
             "ja": "{警備会社|けいびがいしゃ}、社長室",
@@ -1045,7 +1046,7 @@ N2.register({
               "en": "Honestly, she complains if I'm slow to reply to her emails, and if I reply quickly, she gets suspicious: \"You didn't read it properly, did you?\""
             }
           ],
-          "deepDive": "**AたらAたで** repeats a word: 出たら出たで, あったらあったで, 安かったら安かったで, ビリだったらビリだったで. Literally *if A happens, then with A (as it is)…*. It has two quite different uses:\n\n- **Either way it's a problem**: the speaker first mentions (or implies) the trouble with *not A*, then says that *A* brings its own trouble. 車はないと不便だが、あったらあったで維持費がかかる. In the sample, the president complains that the phone rings nonstop, and when he answers it, he gets abused.\n- **So what? It's no big deal**: 雨が降ったら降ったで、買えばいい; 失敗したら失敗したでまたやればいい. The speaker accepts the possibility calmly and proposes a way to cope.\n\nForms: both halves use the past form (たら / たで). With adjectives the second half can be non-past (早かったら早いで). The conditional ば version, **〜ば〜で** (Plus), works the same way: あればあったで, しなければしないで, 小さければ小さいで, 大きければ大きいで.\n\nRegister: conversational (the casual-scene mark). In writing you'd more likely say AでもAでなくても or Aになったとしても.\n\nCompare:\n- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n- **〜なら〜で** (#80, 〜なら〜で): similar repetition with なら, found later in the book.\n\nJLPT tip: in matching exercises, look for the half that states a problem with the *opposite* case first (深いプールでの事故は想像しやすいが → 浅かったら浅かったで…事故の心配がある).",
+          "deepDive": "**AたらAたで** repeats a word: 出たら出たで, あったらあったで, 安かったら安かったで, ビリだったらビリだったで. Literally *if A happens, then with A (as it is)…*. It has two quite different uses:\n\n- **Either way it's a problem**: the speaker first mentions (or implies) the trouble with *not A*, then says that *A* brings its own trouble. 車はないと不便だが、あったらあったで維持費がかかる. In the sample, the president complains that the phone rings nonstop, and when he answers it, he gets abused.\n- **So what? It's no big deal**: 雨が降ったら降ったで、買えばいい; 失敗したら失敗したでまたやればいい. The speaker accepts the possibility calmly and proposes a way to cope.\n\nForms: both halves use the past form (たら / たで). With adjectives the second half can be non-past (早かったら早いで). The conditional ば version, **〜ば〜で** (Plus), works the same way: あればあったで, しなければしないで, 小さければ小さいで, 大きければ大きいで.\n\nRegister: conversational (the casual-scene mark). In writing you'd more likely say AでもAでなくても or Aになったとしても.\n\nCompare:\n- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n- **〜なら〜で** (#80): the same kind of repetition with なら, found later in the book.\n\nJLPT tip: in matching exercises, look for the half that states a problem with the *opposite* case first (深いプールでの事故は想像しやすいが → 浅かったら浅かったで…事故の心配がある).",
           "see": [
             80
           ],
@@ -1146,7 +1147,7 @@ N2.register({
             },
             {
               "ja": "人目も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。",
-              "en": "My grandmother laments that women putting on makeup on the train without caring who's watching are painful to look at."
+              "en": "My grandmother laments that the sight of women putting on makeup on the train, not caring who's watching, is unbearable to look at."
             },
             {
               "ja": "{強行採決|きょうこうさいけつ}をめぐる国会での{乱闘騒|らんとうさわ}ぎは、全く{正視|せいし}にたえない。",
@@ -1210,7 +1211,7 @@ N2.register({
               "en": "If I talk back to my wife even a little, she won't speak to me until I apologize."
             }
           ],
-          "deepDive": "**V-よう + ものなら** (volitional form + ものなら) means *if (someone) should so much as ~, (something terrible) will happen*. It exaggerates how drastic the consequence of a small action would be. Typical companions: ちょっとでも, 一歩でも, 1個でも, 1秒でも, 少しでも in the first half; すぐ, あっという間に, 大変なことになる, 〜かねない, 〜てしまう in the second.\n\nForms: 出ようものなら, しようものなら, 捕まろうものなら, 続こうものなら, 遅れようものなら. Casual: **〜ようもんなら** (言い返そうもんなら). Note that the verb is in the **volitional** form even though it's not about intention — it's a fixed hypothetical.\n\nNuance: it usually describes a situation the speaker finds oppressive or exasperating (the scary wife, the harsh contract terms, the media swarming), and the 'regret' mark reflects that. The consequence is almost always negative.\n\nDon't confuse with **V-る/V-れる + ものなら** (N2 〜ものなら): *if (one) could ~, (I'd like to…)*: 行けるものなら行きたい, できるものならやってみろ. That uses the **potential** form and expresses a wish or dare about something unlikely. ようものなら uses the **volitional** form and expresses a warning.\n\nCompare **〜たら最後** (#33, *once you ~, that's the end*) — also a drastic consequence, focusing on irreversibility.\n\nJLPT tip: V-よう + ものなら + bad result; V-れる + ものなら + wish (〜たい).",
+          "deepDive": "**V-よう + ものなら** (volitional form + ものなら) means *if (someone) should so much as ~, (something terrible) will happen*. It exaggerates how drastic the consequence of a small action would be. Typical companions: ちょっとでも, 一歩でも, 1個でも, 1秒でも, 少しでも in the first half; すぐ, あっという間に, 大変なことになる, 〜かねない, 〜てしまう in the second.\n\nForms: 出ようものなら, しようものなら, 捕まろうものなら, 続こうものなら, 遅れようものなら. Casual: **〜ようもんなら** (言い返そうもんなら). Note that the verb is in the **volitional** form even though it's not about intention — it's a fixed hypothetical.\n\nNuance: it usually describes a situation the speaker finds oppressive or exasperating (the scary wife, the harsh contract terms, the media swarming), and the 'regret' mark reflects that. The consequence is almost always negative.\n\nDon't confuse with **V-る/V-れる + ものなら** (N2 〜ものなら): *if (one) could ~, (I'd like to…)*: 行けるものなら行きたい, できるものならやってみろ. That uses the **potential** form and expresses a wish or dare about something unlikely. ようものなら uses the **volitional** form and expresses a warning.\n\nCompare **〜たが最後** (#33, *once you ~, that's the end*) — also a drastic consequence, but focusing on irreversibility once the action has happened.\n\nJLPT tip: V-よう + ものなら + bad result; V-れる + ものなら + wish (〜たい).",
           "see": [
             33
           ],

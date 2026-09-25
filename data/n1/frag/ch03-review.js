@@ -46,7 +46,7 @@ N2F({ ch: 3, review: [
       type: "order",
       prompt: { ja: "次の文の＿★＿に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Choose the best option from 1, 2, 3 and 4 for the ★ slot." },
       items: [
-        { before: "いくら{真夏|まなつ}でも、Tシャツ1枚で", after: "だ。",
+        { before: "いくら{真夏|まなつ}でも、Ｔシャツ1枚で", after: "だ。",
           pieces: ["非常識", "とは", "登る", "{富士山|ふじさん}に"],
           order: [3, 2, 1, 0], star: 2,
           en: "However much it may be midsummer, climbing Mt. Fuji in just a T-shirt is reckless." },
