@@ -51,6 +51,32 @@
   const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po|文|数)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
   const TCY_RE = /(?<![\d,.])\d{1,2}(?![\d,.])/g;
 
+  // Horizontal furigana (docs/LAYOUT.md, "Furigana"). Native <ruby> can't be laid out consistently: Chrome spreads the kanji
+  // to the reading's width and WebKit (iOS Safari) ignores positioning on <ruby>/<rt>, so readings drift off their kanji.
+  // Instead: <span class="rb"> (inline-block: base) + <span class="rt"> (absolutely centred above the base). The reading may
+  // overhang a neighbouring kana / punctuation mark by up to one furigana character, as in the book (JIS X 4051), but
+  // never a kanji or another reading; whatever is still wider than the base becomes side margin, so readings never
+  // collide. --rw / --bw = reading / base width in characters, --ol / --or = 1 when that side may be overhung (CSS in base.css).
+  // Vertical text (opts.vertical) keeps native <ruby>, which lays out correctly in 縦書き.
+  const RUBY_RE = /\{([^{}|]+)\|([^{}]+)\}/g;
+  const OVERHANG_OK = /[ぁ-ゖゝゞァ-ヺーヽヾ、。，．・：；！？「」『』（）〈〉《》…‥〜～]/;
+  const cw = (s) => Array.from(s).reduce((n, c) => n + (/[\x20-\x7e]/.test(c) ? 0.55 : 1), 0);
+  function neighbour(str, i, dir) {
+    // skip inline markup (** __ ~~) and tags between this ruby and the next visible character
+    while (i >= 0 && i < str.length) {
+      const c = str[i];
+      if (c === "*" || c === "_" || c === "~") { i += dir; continue; }
+      if (c === ">" && dir < 0) { const k = str.lastIndexOf("<", i); if (k < 0) break; i = k - 1; continue; }
+      if (c === "<" && dir > 0) { const k = str.indexOf(">", i); if (k < 0) break; i = k + 1; continue; }
+      return c;
+    }
+    return "";
+  }
+  function rubyHtml(m, base, rd, off, str) {
+    const prev = neighbour(str, off - 1, -1), next = neighbour(str, off + m.length, 1);
+    const ol = OVERHANG_OK.test(prev) ? 1 : 0, or = OVERHANG_OK.test(next) ? 1 : 0;
+    return `<span class="rb" style="--rw:${cw(rd)};--bw:${cw(base)};--ol:${ol};--or:${or}"><span class="rb-b">${base}</span><span class="rt" aria-hidden="true">${rd}</span></span>`;
+  }
   // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
   // badge classes: colour hook b-n | b-i | b-na | b-pl | b-v, plus shape b-round (bare N/V/A) | b-pill (has "-") | b-sq (Pl/Po)
   function fmt(s, opts = {}) {
@@ -62,7 +88,7 @@
       const shape = /^P/.test(inner) ? "b-sq" : inner.includes("-") ? "b-pill" : "b-round";
       return `<span class="badge ${cls} ${shape}">${html}</span>`;
     });
-    t = t.replace(/\{([^{}|]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>");
+    t = opts.vertical ? t.replace(/\{([^{}|]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>") : t.replace(RUBY_RE, rubyHtml);
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     t = t.replace(/__(.+?)__/g, '<u class="ul">$1</u>');
     t = t.replace(/~~(.+?)~~/g, "<s>$1</s>");
@@ -1017,7 +1043,7 @@
   }
 
   // the guide's hand-written tables use {漢字|かな} too: render that ruby markup (without re-escaping the HTML)
-  const rubyOnly = (html) => html.replace(/\{([^{}|<>]+)\|([^{}<>]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>");
+  const rubyOnly = (html) => html.replace(/\{([^{}|<>]+)\|([^{}<>]+)\}/g, rubyHtml);
   function guideView() {
     return rubyOnly(`<div class="page guide" data-en-scope>
       ${pageHead("この教材の使い方 <span class=\"en-inline\">How to use this site</span>")}

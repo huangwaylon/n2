@@ -14,7 +14,7 @@
 .ch-banner__num { font: 900 96px/.9 var(--goth); letter-spacing: -.04em; min-width: .62em; text-align: center; text-shadow: 0 2px 0 rgba(0,0,0,.12); }
 .ch-banner__body { min-width: 0; }
 .ch-banner__genre { margin: 0 0 2px; font: 700 15px/1.5 var(--goth); }
-.ch-banner__genre rt, .ch-banner__title rt { color: rgba(255,255,255,.75); }
+.ch-banner__genre :is(rt, .rt), .ch-banner__title :is(rt, .rt) { color: rgba(255,255,255,.75); }
 .ch-banner__en { display: inline-block; font: 500 13px/1.4 var(--goth); opacity: .92; margin-left: .5em; letter-spacing: .01em; }
 .ch-banner__title { margin: 0; padding-top: .3em; font: 700 32px/1.45 var(--goth); text-wrap: pretty; }
 .ch-banner__title > .ja { margin-right: .5em; }
@@ -52,7 +52,7 @@
 .mini-toc__n { font-weight: 400; color: var(--ink-3); }
 .mini-toc__chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .mt-gp { display: inline-flex; align-items: center; gap: .45em; min-height: 32px; font: 13px/1.3 var(--goth); background: var(--panel); border: 1px solid var(--rule); border-radius: 999px; padding: 3px 12px; color: var(--ink-2); max-width: 100%; }
-.mt-gp rt { display: none; }
+.mt-gp :is(rt, .rt) { display: none; }
 .mt-gp__n { font: 700 12px var(--goth); color: var(--ink); }
 .mt-gp:hover { border-color: var(--ink); color: var(--ink); text-decoration: none; }
 .mt-part { font: 700 13px var(--goth); color: var(--ink); align-self: center; margin: 0 2px 0 8px; }
@@ -102,7 +102,7 @@
 .notice { font-size: 16.5px; }
 .nt-heading { margin: -6px 0 .3em; text-align: center; font: 900 32px/1.35 var(--goth); letter-spacing: .06em; text-wrap: balance;
   color: #fff; -webkit-text-stroke: 1.6px #222; paint-order: stroke fill; text-shadow: 3px 3px 0 var(--rule); }
-.nt-heading rt { color: var(--ink-2); -webkit-text-stroke: 0; text-shadow: none; letter-spacing: 0; }
+.nt-heading :is(rt, .rt) { color: var(--ink-2); -webkit-text-stroke: 0; text-shadow: none; letter-spacing: 0; }
 .nt-body { margin: 0 auto; max-width: 34em; }
 .nt-lead { margin: 0 0 .5em; text-align: center; }
 .nt-right { margin: 0; text-align: right; }
@@ -151,7 +151,7 @@
 .gp-bar__title strong { color: inherit; font-weight: 900; -webkit-text-stroke: .3px currentColor; }
 .stars, .gp-bar__stars { white-space: nowrap; letter-spacing: .08em; color: var(--ink); font-size: 15px; }
 .gp-pattern { margin: .35em 0 0; font: 13px/1.6 var(--goth); color: var(--ink-3); }
-.gp-pattern rt { display: none; }
+.gp-pattern :is(rt, .rt) { display: none; }
 .gp-pattern strong { color: inherit; font-weight: 400; }
 
 /* ---------- C8 どう使う？ + usage-scene icons ---------- */
@@ -195,7 +195,7 @@
 .kv-wrap { display: grid; grid-template-columns: minmax(0, 26em) minmax(0, 1fr); gap: 0 24px; align-items: start; margin: 8px 0 4px; }
 .kv { width: 100%; border-collapse: collapse; margin: 0 0 16px; font: 15px/1.9 var(--mincho); }
 .kv th { background: var(--band-edge); color: #fff; font: 600 14px/1.8 var(--goth); padding: 4px 8px; text-align: center; letter-spacing: .1em; }
-.kv th rt { color: rgba(255,255,255,.8); letter-spacing: 0; }
+.kv th :is(rt, .rt) { color: rgba(255,255,255,.8); letter-spacing: 0; }
 .kv th + th { border-left: 2px solid var(--panel); }
 .kv td { border-bottom: 1px solid var(--rule); padding: 4px 8px; vertical-align: top; width: 50%; }
 .kv td + td { border-left: 1px solid var(--rule); }
@@ -246,7 +246,7 @@
 .xref__web { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 0 .2em; color: var(--ink-3); }
 .xref__book + .xref__web::before { content: "／"; color: var(--rule); margin-right: .2em; }
 .gp-link { display: inline-block; margin: 0 0 0 .4em; padding: .35em .2em; font-size: 13px; background: none; border-radius: 0; }
-.gp-link rt { display: none; }
+.gp-link :is(rt, .rt) { display: none; }
 .gp-foot { display: flex; justify-content: flex-end; margin-top: 6px; }
 .studied { position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 4px 0 8px; cursor: pointer; color: var(--ink-2); font-size: 14px; }
 /* native checkbox as a transparent 44×44 hit area over the drawn 22px box */

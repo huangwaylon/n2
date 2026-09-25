@@ -65,11 +65,13 @@ a { color: var(--teal); text-decoration: none; }
 @media (hover: hover) { a:hover { text-decoration: underline; } }
 :focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
 h1, h2, h3, h4 { line-height: 1.5; }
+/* native <ruby> is only used in vertical text (.vt); horizontal furigana is .rb/.rt below */
 ruby { ruby-position: over; ruby-align: center; }
-ruby rt { font-size: max(.5em, 9px); line-height: 1; color: var(--ink-2); font-weight: 400; }
+ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; }
 /* iOS Safari zooms on focus if a form control is < 16px */
 @media (max-width: 900px), (pointer: coarse) { body :is(input, select, textarea) { font-size: max(16px, 1em); } }
-body.no-furi rt { display: none; }
+body.no-furi :is(rt, .rt) { display: none; }
+body.no-furi .rb { margin: 0; }
 strong { color: var(--accent); font-weight: 700; }
 .dim { color: var(--ink-3); }
 .small { font-size: 0.85em; }
@@ -147,14 +149,38 @@ s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 5
 .cd-badge.speaking { background: var(--ink); color: var(--panel); }
 .err { color: var(--ng); }
 
-/* Let a reading that is wider than its kanji overhang the neighbouring kana, as the book does,
-   instead of spreading the kanji apart (Chrome widens the base to the rt width). Horizontal text only —
-   vertical text (.vt / .vt-scroll) keeps native ruby layout. */
-ruby:not(:is(.vt, .vt-scroll) ruby) { position: relative; display: inline-block; text-indent: 0; line-height: 1; vertical-align: baseline; }
-ruby:not(:is(.vt, .vt-scroll) ruby) > rt {
-  position: absolute; left: 50%; bottom: 100%; transform: translate(-50%, -0.08em);
-  white-space: nowrap; letter-spacing: 0; text-align: center; pointer-events: none;
+/* ---------- horizontal furigana (fmt() → .rb / .rt; see the comment above RUBY_RE in app.js) ----------
+   --rk = furigana size relative to the text. Every length is in em of the ruby's own text, so the same rules work in
+   headings, options and tables. The margin-top reserves the reading's height inside the line box, so a reading can
+   never run into the line above even where line-height is tight. */
+:root { --rk: .5; }
+@media (max-width: 600px) { :root { --rk: .55; } }
+/* Unitless lengths in the ruby's em: e = excess of the reading over the base, l / r = how far the reading may overhang
+   the left / right neighbour (one furigana character, only onto kana or punctuation). pl = the part of the excess put on
+   the left: centred when it fits, shifted toward the side that may be overhung when one side is blocked, and whatever
+   fits nowhere is split evenly as side margins. The reading is then moved by (e/2 − pl) from the base's centre. */
+.rb {
+  --e: calc(var(--rw) * var(--rk) - var(--bw));
+  --l: calc(var(--ol) * var(--rk));
+  --r: calc(var(--or) * var(--rk));
+  --pl: min(calc(var(--l) + max(0, (var(--e) - var(--l) - var(--r)) / 2)), max(calc(var(--e) - var(--r)), calc(var(--e) / 2)));
+  display: inline-block; position: relative; line-height: 1; text-indent: 0; vertical-align: baseline;
+  margin-top: calc(var(--rk) * 1em + .08em);
+  margin-left: calc(max(0, var(--pl) - var(--l)) * 1em);
+  margin-right: calc(max(0, var(--e) - var(--pl) - var(--r)) * 1em);
 }
+.rb > .rt {
+  position: absolute; left: 50%; bottom: 100%;
+  /* the rt's own em is rk × the ruby's em, hence the division */
+  transform: translate(calc(-50% + (var(--e) / 2 - var(--pl)) / var(--rk) * 1em), -.04em);
+  font-size: calc(var(--rk) * 100%); line-height: 1; white-space: nowrap; letter-spacing: 0; text-align: center;
+  color: var(--ink-2); font-weight: 400; font-style: normal; text-decoration: none;
+  pointer-events: none; -webkit-user-select: none; user-select: none;
+}
+/* text decorations don't propagate into inline-blocks: carry underline / strike through to the base */
+:is(u, s, del) .rb-b { text-decoration: inherit; text-decoration-line: inherit; }
+u.ul .rb-b { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }
+s .rb-b { text-decoration: line-through; }
 
 /* ---------- the book's Chinese translations (N1, Chinese edition) ---------- */
 /* hidden until the 中文 switch (body.show-zh) is on; styled like the book: small grey Song/Gothic under the Japanese */
@@ -164,3 +190,5 @@ body.show-zh span.zh { display: block; }
 /* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
 .bi--zh-only > .zh { display: block; font-size: 14.5px; color: var(--ink-2); }
 u.ul { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }
+/* places that hide the readings (sidebar, chips, pager, links, pattern lines) drop the space reserved for them */
+:is(.sb-t, .sb-gps a, .cc-genre, .pager, .mt-gp, .gp-pattern, .gp-link) .rb { margin: 0; }

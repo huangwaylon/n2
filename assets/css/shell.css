@@ -67,13 +67,13 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 .sb-num { flex: none; width: 24px; height: 24px; border-radius: 6px; background: var(--bg); border: 1px solid var(--line); display: grid; place-items: center; font-size: 12px; font-weight: 700; color: var(--ink-2); }
 .sb-ch.open > .sb-ch-link .sb-num { background: var(--pill); color: var(--pill-ink); border-color: var(--pill); }
 .sb-t { flex: 1; min-width: 0; line-height: 1.4; }
-.sb-t rt { display: none; }
+.sb-t :is(rt, .rt) { display: none; }
 .sb-prog { font-size: 11px; color: var(--ink-3); }
 .sb-prog.done { color: var(--ok); font-weight: 700; }
 .sb-gps { display: none; padding: 2px 0 8px; }
 .sb-ch.open .sb-gps { display: block; }
 .sb-gps a { display: flex; align-items: center; min-height: 26px; padding: 1px 14px 1px 48px; font-size: 13px; color: var(--ink-2); line-height: 1.5; }
-.sb-gps a rt { display: none; }
+.sb-gps a :is(rt, .rt) { display: none; }
 .sb-gps a.active { color: var(--ink); font-weight: 700; background: var(--band); box-shadow: inset 3px 0 0 var(--band-edge); }
 .sb-gps a.done::after { content: " ✓"; color: var(--ok); margin-left: .3em; }
 .sb-gpn { display: inline-block; flex: none; width: 30px; color: var(--ink-3); font-size: 11px; }
@@ -127,7 +127,7 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 .cc-num { font-family: var(--serif); font-size: 34px; font-weight: 700; color: var(--ink); line-height: 1; min-width: 40px; }
 .cc-body { flex: 1; min-width: 0; }
 .cc-genre { font-size: 12px; color: var(--ink-3); }
-.cc-genre rt { display: none; }
+.cc-genre :is(rt, .rt) { display: none; }
 .cc-title { font-weight: 700; line-height: 1.6; }
 .cc-en { font-size: 13px; color: var(--ink-2); }
 .cc-foot { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; font-size: 12px; color: var(--ink-3); }
@@ -140,7 +140,7 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 
 /* ---------- chapter pager (C30): two cards, next right-aligned; 1 column (next first) at ≤390 ---------- */
 .pager { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); }
-.pager rt { display: none; }
+.pager :is(rt, .rt) { display: none; }
 .pager > a { display: flex; flex-direction: column; justify-content: center; gap: 2px; min-height: 56px; min-width: 0; padding: 8px 14px; border: 1px solid var(--rule); border-radius: 10px; color: var(--ink); line-height: 1.45; }
 .pager > :nth-child(2) { text-align: right; align-items: flex-end; }
 .pager__dir { font-size: 12px; color: var(--ink-3); }
