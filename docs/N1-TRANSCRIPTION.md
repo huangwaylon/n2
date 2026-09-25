@@ -99,7 +99,8 @@ only for N1 points of this book (1–123).
   see SCHEMA); speakers as printed (`M1`, `M2`, `F`, `F2`, `男`, `女`); narration lines `sp: ""`.
 - Furigana: exactly what the book prints, on exactly those kanji — use the zoom strips. Split okurigana out.
 - Characters: full-width Japanese punctuation as printed (（ ） 「 」 、 。 ？ ！ ～/〜 as printed — the book uses 〜 in
-  patterns), full-width digits only where printed. `……` stays `……`.
+  patterns). **Digits are ASCII** (1週間, 20%, 1,000円) as in the N2 data, even where the scan's glyph looks full-width —
+  the vertical renderer sets 1–2 digit numbers upright itself. Letters like ＡＢＫ stay as printed. `……` stays `……`.
 
 ## Done means
 

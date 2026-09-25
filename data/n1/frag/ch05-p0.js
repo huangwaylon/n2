@@ -12,6 +12,7 @@ N2F({
   sample: {
     kind: "dialogue",
     vertical: true,
+    rings: false,
     lines: [
       { ja: "【{某月某日|ぼうがつぼうにち}】　毎々新聞　社会面見出し", en: "[A certain day of a certain month] Maimai Shimbun, headline on the city-news page:" },
       { ja: "{警備会社|けいびがいしゃ}、三千万円{奪|うば}われる　――　{宿直|しゅくちょく}社員は{居眠|いねむ}り", en: "Security company robbed of 30 million yen — employee on night duty was asleep" },
@@ -48,8 +49,8 @@ N2F({
       examples: [
         { ja: "彼女の存在は、{砂漠|さばく}のオアシスといおうか、{嵐|あらし}の夜の灯台といおうか、辛い毎日の中の大きな{慰|なぐさ}めだ。", en: "Her presence is — what should I call it — an oasis in the desert, a lighthouse on a stormy night; a great comfort in my hard daily life." },
         { ja: "やる気があるのはいいのだが、積極的すぎるといおうか、言い方がストレートといおうか、もう少しチームのメンバーの気持ちも考えたほうが……。", en: "It's good that you're motivated, but you're — how shall I put it — too pushy, or too blunt in the way you say things; you might want to think a bit more about how the team members feel…" },
-        { ja: "入社して２年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。", en: "Two whole years since joining the company and you can't even say the president's name? As your boss I find it pathetic, or whatever you'd call it — I'm completely lost for words." },
-        { ja: "あの店員、５万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。", en: "That shop assistant recommending a 50,000-yen toner to me — you could say she has no idea how ordinary people live…" },
+        { ja: "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。", en: "Two whole years since joining the company and you can't even say the president's name? As your boss I find it pathetic, or whatever you'd call it — I'm completely lost for words." },
+        { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。", en: "That shop assistant recommending a 50,000-yen toner to me — you could say she has no idea how ordinary people live…" },
         { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく{物足|ものた}りないんだよ。", en: "This boxed lunch — the portions are small, or the flavor is bland, or something — anyway, it just isn't satisfying." },
         { ja: "電車で財布を盗まれたんですが、運がよかったというべきか悪かったというべきか、中には100円しか入っていなかったんです。", en: "My wallet was stolen on the train, but — should I call it good luck or bad luck? — there was only 100 yen in it." },
       ],
@@ -103,7 +104,7 @@ N2F({
         { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "Taking advantage of there being nobody around at night, the graffiti in the tunnel just keeps getting worse." },
         { ja: "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。", en: "Using the delayed train as an excuse, Yamamoto strolled in boldly just as the test was ending." },
         { ja: "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。", en: "It seems our cat took advantage of its owner being out to get up to mischief — the room is a total mess." },
-        { ja: "表現の自由は守るべき権利の１つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。", en: "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun." },
+        { ja: "表現の自由は守るべき権利の1つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。", en: "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun." },
       ],
       deepDive:
         "**〜のをいいことに** literally means *treating ~ as a good thing*: someone sees a situation (nobody watching, the owner away, a delayed train) as a convenient opportunity and **exploits it to do something they shouldn't**. The speaker always disapproves — it is a critical expression, never neutral.\n\n" +
@@ -134,7 +135,7 @@ N2F({
             "上司に{反抗|はんこう}したり仕事をさぼったりと、彼は好き勝手なことばかりしている。",
             "彼は会社の金を使い続けた。",
             "子どもは電車の中を走り回っている。",
-            "{試食|ししょく}のチョコレートを３つも食べたんだよ。",
+            "{試食|ししょく}のチョコレートを3つも食べたんだよ。",
           ],
           answer: [3, 0, 1, 2],
           en: [
@@ -162,7 +163,7 @@ N2F({
       examples: [
         { ja: "私は医者なんです。薬がないからといって、{患者|かんじゃ}を放っておけますか。", en: "I'm a doctor. Just because there's no medicine, how could I abandon my patients?" },
         { ja: "{善意|ぜんい}の寄付金を{着服|ちゃくふく}するなんて、そんな政治家、許すことができますか。", en: "Pocketing donations given in good faith — how could anyone forgive a politician like that?" },
-        { ja: "こんなくだらない番組、３時間も見ていられるか。", en: "Like I could sit through three hours of a stupid show like this!" },
+        { ja: "こんなくだらない番組、3時間も見ていられるか。", en: "Like I could sit through three hours of a stupid show like this!" },
         { ja: "あとちょっとで頂上なんだから、少し雨が降ってきたからといって今さら引き返せるか。", en: "We're almost at the summit — there's no way we can turn back now just because it's started raining a little." },
       ],
       deepDive:
@@ -198,7 +199,7 @@ N2F({
       examples: [
         { ja: "両親が苦労して送ってくれたお金を遊びに使うなんて、{親不孝|おやふこう}にもほどがある。", en: "Spending the money your parents worked so hard to send you on having fun — that's the height of ingratitude to your parents." },
         { ja: "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。", en: "Riding a bicycle without a light and texting on top of that — there are limits to how thoughtless you can be." },
-        { ja: "中身を減らして、２割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。", en: "Reducing the contents and then selling it as '20% off' — that's making fools of the customers beyond all limits." },
+        { ja: "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。", en: "Reducing the contents and then selling it as '20% off' — that's making fools of the customers beyond all limits." },
         { ja: "A：政治のことを全く知らない君が国会議員になろうなんて、{冗談|じょうだん}にもほどがある。\nB：{僕|ぼく}は本気だよ。もっと市民の{視点|してん}で政治を行う人間が必要だと思うんだ。", en: "A: You, who know nothing at all about politics, want to become a member of the Diet? That's taking a joke too far.\nB: I'm serious. I think we need people who do politics more from the citizens' point of view." },
         { ja: "A：あの人、友だちの結婚式に白いドレス着て行ったんだって。\nB：え?!　物を知らないにもほどがあるよね。", en: "A: I heard she wore a white dress to her friend's wedding.\nB: What?! That's ignorant beyond belief, isn't it." },
       ],
@@ -263,7 +264,7 @@ N2F({
         { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
         { ja: "A：安いホテルならまだしも、有名旅館でこのサービスはひどすぎるよね。\nB：まあ、料理はおいしいし、温泉もいいからいいじゃない。", en: "A: At a cheap hotel it might be acceptable, but service like this at a famous inn is just too awful.\nB: Well, the food is good and the hot spring is nice, so what does it matter?" },
         { ja: "自分で払うならまだしも、全部{僕|ぼく}に払わせるのにまだ食べるつもり？", en: "If you were paying yourself, fine, but you're making me pay for everything and you still intend to keep eating?" },
-        { ja: "電気代が上がった。それだけならまだしも、４月から家賃を2,000円上げると言われて、困っている。", en: "The electricity bill has gone up. If that were all, I could live with it, but I've also been told the rent will go up by 2,000 yen from April, and I'm at a loss." },
+        { ja: "電気代が上がった。それだけならまだしも、4月から家賃を2,000円上げると言われて、困っている。", en: "The electricity bill has gone up. If that were all, I could live with it, but I've also been told the rent will go up by 2,000 yen from April, and I'm at a loss." },
         { ja: "A：この{靴|くつ}、いいんだけど小さいサイズしかないんだって……。\nB：大きいならまだしも、小さい{靴|くつ}じゃどうしようもないよね。", en: "A: These shoes are nice, but apparently they only have them in a small size…\nB: Big ones could be made to work, but there's nothing you can do with shoes that are too small." },
       ],
       deepDive:
@@ -274,7 +275,7 @@ N2F({
         "- **〜ならいざしらず** (#58): very close — *A may be a different matter, but B*. いざしらず (*I don't know about A*) sets A aside as special; まだしも says A is *tolerable*. Both are followed by criticism of B. ならいざしらず is more formal/written.\n" +
         "- **〜はともかく**: *leaving A aside* — neutral, no sense that A is more acceptable.\n" +
         "- **〜ばまだいいが**: casual paraphrase of ならまだしも.\n\n" +
-        "Pitfall: the order matters. A must be the milder, more acceptable case, B the worse one. In the practice: よく使うならまだしも、週に１回も乗らないのに ✓ (buying a new car would be OK if you used it often).\n\n" +
+        "Pitfall: the order matters. A must be the milder, more acceptable case, B the worse one. In the practice: よく使うならまだしも、週に1回も乗らないのに ✓ (buying a new car would be OK if you used it often).\n\n" +
         "JLPT tip: when choosing which option goes before ならまだしも, pick the one that is *less* problematic than what follows.",
       see: [58],
       index: ["〜ならまだしも"],
@@ -284,7 +285,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option. (Item 2 is illustrated with a father in pajamas stretching outside the house while his daughter looks on, embarrassed.)" },
           items: [
-            { q: "A：え？　{新車|しんしゃ}を買うの？\nB：（　）ならまだしも、週に１回も乗らないのに、必要ないでしょう？", options: ["よく使う", "あまり使わない"], answer: 0, en: "A: What? You're buying a new car?\nB: If you used it a lot it'd be one thing, but you don't even drive once a week, so you don't need it, do you?" },
+            { q: "A：え？　{新車|しんしゃ}を買うの？\nB：（　）ならまだしも、週に1回も乗らないのに、必要ないでしょう？", options: ["よく使う", "あまり使わない"], answer: 0, en: "A: What? You're buying a new car?\nB: If you used it a lot it'd be one thing, but you don't even drive once a week, so you don't need it, do you?" },
             { q: "お父さん、（　）ならまだしも、パジャマで外へ出るのはやめてほしいんだけど……。", options: ["家で", "近所で"], answer: 0, en: "Dad, at home it's one thing, but I wish you'd stop going outside in your pajamas…" },
             { q: "（　）ならまだしも、{定価|ていか}でいくつも買ってくるなんて、どういうつもり？", options: ["たくさん", "安かった"], answer: 1, en: "If they'd been cheap, fine, but buying lots of them at full price — what were you thinking?" },
             { q: "{隣|となり}の部屋の{騒音|そうおん}、（　）ならまだしも、こう続くとまいっちゃうよ。", options: ["たまに", "いつも"], answer: 0, en: "The noise from the next room — if it were only occasional, I could stand it, but when it goes on like this, it wears me down." },
@@ -359,10 +360,10 @@ N2F({
         { ja: "＊[V₁]・[V₂]には同じ{動詞|どうし}を使うことが多い。", en: "＊ The same verb is usually used for V₁ and V₂." },
       ],
       examples: [
-        { ja: "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it sold well because it was bound to." },
+        { ja: "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },
         { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。", en: "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have succeeded as it deserved to." },
         { ja: "{指摘|してき}された{欠陥|けっかん}を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen." },
-        { ja: "70億の人間の中で、私たち２人はめぐり会うべくしてめぐり会ったのだと思います。", en: "Among seven billion people, I believe the two of us were destined to meet." },
+        { ja: "70億の人間の中で、私たち2人はめぐり会うべくしてめぐり会ったのだと思います。", en: "Among seven billion people, I believe the two of us were destined to meet." },
       ],
       deepDive:
         "**V-るべくしてV-た** repeats the same verb: 起こるべくして起こった, 売れるべくして売れた. べく is the classical form of べき (*should / be bound to*), so the phrase means *~ happened as it was bound to happen*: looking at the circumstances, **the result was inevitable** — not luck or coincidence.\n\n" +
@@ -384,7 +385,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "２年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの２人は、別れるべくして別れたのだと思う。", options: ["違っていた", "{一致|いっち}していた"], answer: 0, en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think those two parted ways because it was inevitable." },
+            { q: "2年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの2人は、別れるべくして別れたのだと思う。", options: ["違っていた", "{一致|いっち}していた"], answer: 0, en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think those two parted ways because it was inevitable." },
             { q: "このアニメは、ヒットするべくしてヒットしたと言える。{原作|げんさく}が（　）。その上、{宣伝|せんでん}にも力を入れていたのだから。", options: ["{無名|むめい}のマンガで{声優|せいゆう}も{新人|しんじん}", "{大人気|だいにんき}のマンガで{声優|せいゆう}も一流"], answer: 1, en: "You could say this anime was bound to be a hit. The original was a hugely popular manga and the voice actors were first-rate. On top of that, they put a lot into the advertising." },
             { q: "あの会社の（　）経営{体質|たいしつ}を考えると、今回の問題は出るべくして出たと言わざるを得ないだろう。", options: ["{健全|けんぜん}な", "ずさんな"], answer: 1, en: "Considering that company's sloppy management culture, we have to say this problem was bound to come up." },
             { q: "彼女は選ばれるべくして選ばれた。（　）のだから。", options: ["たまたま運が良かった", "それだけの{実績|じっせき}をあげている"], answer: 1, en: "She was chosen because she deserved to be. After all, she has the track record to match." },
@@ -432,10 +433,10 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the meaning of the underlined part (NがN（な）だけに) in each sentence." },
           items: [
-            { q: "相手が相手だけに、{緊迫|きんぱく}した試合になるだろう。", options: ["相手は初心者だから", "相手も強いから"], answer: 1, en: "Given who our opponent is, it will probably be a tense match." },
-            { q: "相手が相手だけに、{本気|ほんき}を出したらかわいそうだ。", options: ["相手は{初心者|しょしんしゃ}だから", "相手も強いから"], answer: 0, en: "Given who the opponent is, it would be cruel to go all out." },
-            { q: "乗っている車が車なだけに、金持ちだと誤解されるかもしれないよ。", options: ["外国の高級車だから", "{国産|こくさん}の{小型車|こがたしゃ}だから"], answer: 0, en: "Given the car you drive, people might mistake you for someone rich." },
-            { q: "着ている服が服なだけに、こんな高級レストランには入りづらい。", options: ["Ｔシャツとジーンズだから", "スーツにネクタイだから"], answer: 0, en: "Given the clothes I'm wearing, it's hard to walk into such a fancy restaurant." },
+            { q: "__相手が相手だけに__、{緊迫|きんぱく}した試合になるだろう。", options: ["相手は初心者だから", "相手も強いから"], answer: 1, en: "Given who our opponent is, it will probably be a tense match." },
+            { q: "__相手が相手だけに__、{本気|ほんき}を出したらかわいそうだ。", options: ["相手は{初心者|しょしんしゃ}だから", "相手も強いから"], answer: 0, en: "Given who the opponent is, it would be cruel to go all out." },
+            { q: "__乗っている車が車なだけに__、金持ちだと誤解されるかもしれないよ。", options: ["外国の高級車だから", "{国産|こくさん}の{小型車|こがたしゃ}だから"], answer: 0, en: "Given the car you drive, people might mistake you for someone rich." },
+            { q: "__着ている服が服なだけに__、こんな高級レストランには入りづらい。", options: ["Ｔシャツとジーンズだから", "スーツにネクタイだから"], answer: 0, en: "Given the clothes I'm wearing, it's hard to walk into such a fancy restaurant." },
           ],
         },
       ],
@@ -450,7 +451,7 @@ N2F({
         { q: "状況が状況な＿＿、家族の許可をとっている{暇|ひま}はない。とにかく手術を始めよう。", answer: "だけに", en: "Given the situation, there's no time to get the family's permission. Let's just start the operation." },
         { q: "{匿名|とくめい}＿＿、ネット上で知り合いを{中傷|ちゅうしょう}していた男が{訴|うった}えられたそうだ。", answer: "をいいことに", en: "I hear a man who took advantage of anonymity to slander an acquaintance online has been sued." },
         { q: "自分だけ＿＿、家族にも{悪影響|あくえいきょう}があるわけですから、たばこはやめたほうがいいですよ。", answer: "ならまだしも", en: "If it only affected you it would be one thing, but it's bad for your family too, so you should quit smoking." },
-        { q: "髪の毛が１本落ちていただけで、掃除をやり直すなんてきれい好き＿＿。", answer: "にもほどがある", en: "Redoing the cleaning just because a single hair had fallen — that's taking tidiness too far." },
+        { q: "髪の毛が1本落ちていただけで、掃除をやり直すなんてきれい好き＿＿。", answer: "にもほどがある", en: "Redoing the cleaning just because a single hair had fallen — that's taking tidiness too far." },
       ],
     },
     {

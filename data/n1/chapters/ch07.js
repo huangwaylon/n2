@@ -184,6 +184,7 @@ N2.register({
         {
           "no": 73,
           "pattern": "〜んばかり",
+          "notesFirst": false,
           "phrase": "言わ**んばかり**",
           "stars": 2,
           "marks": [],
@@ -453,7 +454,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ときたら」は「〜は本当に困る／ひどすぎる／だめだ」などの気持ちで相手や物を非難するときに使われる。",
-            "zh": "用于以“……真的很让人头疼／太糟糕了／不行”等心情指责对方或某物。",
+            "zh": "用于以“……真的很让人头疼/太糟糕了/不行”等心情指责对方或某物。",
             "en": "“〜ときたら” is used when criticizing a person or thing with feelings such as “〜 is really a pain / too awful / hopeless.”"
           },
           "forms": [
@@ -473,7 +474,7 @@ N2.register({
               "en": "Young people these days — sitting on the floor of the train and so on. Aren't they ashamed?"
             }
           ],
-          "deepDive": "**Nときたら** picks out a topic (a person or thing close to the speaker) in order to **complain about it**: *as for ~ (honestly) …*. It works like は but brings an exasperated tone, and the rest of the sentence is a complaint or negative evaluation.\n\n- Connection: noun + ときたら (people: うちの子, 部長, あの担当者; things: このパソコン, このシャツ; periods: 今年の夏).\n- Register: conversational; the book marks it with both the chatting icon and the frustrated/criticizing icon. Often with まったく, ほんとうに, もう at the start.\n- The second half is typically a negative description, often with exaggeration: いつも〜ばかり, 全然〜ない, 〜んだから, もう二度と〜ものか.\n\nCompare:\n- **〜といったら** (N2): *speaking of ~ (it's X)*; neutral or positive: 京都といったら寺だ. ときたら is almost always negative.\n- **〜ったら** (casual topic marker): あの子ったら…; very similar in feel, more colloquial and often used by women.\n- **〜にかけては** (N2): *when it comes to ~ (he's the best)* — positive evaluation of skill.\n- **〜ときたら** is occasionally used with admiration (酒の肴ときたら…), but for the test, treat it as criticism.\n\nPitfall: don't use it in formal complaints or about people you should respect in their presence.\n\nJLPT tip: if the sentence after the blank is a grumble about someone's habits, ときたら fits.",
+          "deepDive": "**Nときたら** picks out a topic (a person or thing close to the speaker) in order to **complain about it**: *as for ~ (honestly) …*. It works like は but brings an exasperated tone, and the rest of the sentence is a complaint or negative evaluation.\n\n- Connection: noun + ときたら (people: うちの子, 部長, あの担当者; things: このパソコン, このシャツ; periods: 今年の夏).\n- Register: conversational; the book marks it with both the chatting icon and the frustrated/criticizing icon. Often with まったく, ほんとうに, もう at the start.\n- The second half is typically a negative description, often with exaggeration: いつも〜ばかり, 全然〜ない, 〜んだから, もう二度と〜ものか.\n\nCompare:\n- **〜といったら** (N2): *speaking of ~ (it's X)*; neutral or positive: 京都といったら寺だ. ときたら is almost always negative.\n- **〜ったら** (casual topic marker): あの子ったら…; very similar in feel, more colloquial and often used by women.\n- **〜にかけては** (N2): *when it comes to ~ (he's the best)* — positive evaluation of skill.\n- **Nときたら** also has a neutral ‘X naturally goes with Y’ use (焼き肉ときたらビールだ), but in the sense of this point it introduces criticism.\n\nPitfall: don't use it in formal complaints or about people you should respect in their presence.\n\nJLPT tip: if the sentence after the blank is a grumble about someone's habits, ときたら fits.",
           "see": [],
           "index": [
             "Nときたら"
@@ -521,7 +522,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜たところで」は「たとえ〜ても」という意味で、「〜をしても{無駄|むだ}だ／期待通りの結果は得られない」と言いたいときに使う。",
-            "zh": "表示“就算……也……”之意，用于想说“就算……也没用／也得不到预想的结果”时。",
+            "zh": "表示“就算……也……”之意，用于想说“就算……也没用/也得不到预想的结果”时。",
             "en": "“〜たところで” means “even if 〜”, and is used when you want to say “doing 〜 is pointless / you won't get the result you hope for.”"
           },
           "forms": [
@@ -545,7 +546,7 @@ N2.register({
               "en": "Even if the country's leader changes, the public's distrust of politics can't be easily resolved."
             }
           ],
-          "deepDive": "**V-たところで** = *even if (you) ~, it's no use / the result won't be as hoped*. It is a pessimistic *even if*: the speaker assumes an action and immediately denies that it will make a difference.\n\n- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, 〜ても知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで５分早く着くだけだ.\n\nCompare:\n- **〜ても**: neutral *even if*; ところで adds that the effort is futile.\n- **〜としても** (N2): purely hypothetical *even supposing*; no built-in pessimism.\n- **〜たところ** (N2, no で): *when I did ~ (I found)*: 調べたところ、分かった. Totally different.\n- **〜にしたところで** (#86): *even ~ (is no exception)*, attaches to nouns.\n- **〜ところを** (#65): *at a time when ~*.\n\nPitfall: ✗急ぐところで. And don't put a request or intention in the second half (✗急いだところで、行こう).\n\nJLPT tip: in 文法形式 questions, たところで pairs with negative predicates like わけがない or 無駄だ; in paraphrase items it corresponds to 〜ても〜ない.",
+          "deepDive": "**V-たところで** = *even if (you) ~, it's no use / the result won't be as hoped*. It is a pessimistic *even if*: the speaker assumes an action and immediately denies that it will make a difference.\n\n- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, 〜たかが知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで5分早く着くだけだ.\n\nCompare:\n- **〜ても**: neutral *even if*; ところで adds that the effort is futile.\n- **〜としても** (N2): purely hypothetical *even supposing*; no built-in pessimism.\n- **〜たところ** (N2, no で): *when I did ~ (I found)*: 調べたところ、分かった. Totally different.\n- **〜にしたところで** (#86): *even ~ (is no exception)*, attaches to nouns.\n- **〜ところを** (#65): *at a time when ~*.\n\nPitfall: ✗急ぐところで. And don't put a request or intention in the second half (✗急いだところで、行こう).\n\nJLPT tip: in 文法形式 questions, たところで pairs with negative predicates like わけがない or 無駄だ; in paraphrase items it corresponds to 〜ても〜ない.",
           "see": [
             86
           ],
@@ -632,7 +633,7 @@ N2.register({
               "en": "Rain or wind, I have to take the dog for a walk."
             }
           ],
-          "deepDive": "**V-（よ）うが / V-（よ）うと** is a strong, somewhat literary *no matter (what/how) ~ / even if ~*. It uses the volitional form (行こう, しよう, 言おう, かかろう) + が or と, and the main clause states a determination that won't change or an unchangeable fact.\n\n- **With question words** (most common): 誰が何と言おうが, どこへ行こうと, どんなに〜しようが, いくら〜しようが.\n- **With たとえ**: たとえ台風が上陸しようが.\n- **が and と are interchangeable**; と is slightly more common in writing.\n- Adjectives and nouns: 高かろうが (い-adj → 〜かろう), 静かだろうが, 雨だろうと (な-adj/noun → だろう).\n- Pairs: 雨が降ろうが風が吹こうが (two different events) — see also #79 for the ‘A or not A’ version.\n\nRegister: stronger and more emphatic than 〜ても; common in determined speech (部長: 相手が何を言おうが…宣伝しなきゃだめじゃないか) and in writing. Rough speech like ③ (俺の知ったことか) shows it's not only formal.\n\nCompare:\n- **〜ても / 〜たって**: neutral *even if*.\n- **〜としても** (N2): hypothetical concession, weaker.\n- **〜にかかわらず / 〜を問わず** (N2): *regardless of* — attach to nouns, factual and impersonal.\n- **〜であれ** (#38): *whether it is ~*, noun-based, formal.\n- **〜ようにも〜ない** (#84): same volitional form but means *want to but can't*.\n\nPitfall: the main clause must not depend on the condition: ✗いくら頼もうが、手伝ってくれるだろう (a positive consequence) — use 〜ても or a negative/determined clause.\n\nJLPT tip: a question word or いくら/どんなに + blank → 〜ようが／〜ようと.",
+          "deepDive": "**V-（よ）うが / V-（よ）うと** is a strong, somewhat literary *no matter (what/how) ~ / even if ~*. It uses the volitional form (行こう, しよう, 言おう, かかろう) + が or と, and the main clause states a determination that won't change or an unchangeable fact.\n\n- **With question words** (most common): 誰が何と言おうが, どこへ行こうと, どんなに〜しようが, いくら〜しようが.\n- **With たとえ**: たとえ台風が上陸しようが.\n- **が and と are interchangeable** in this use.\n- Adjectives and nouns: 高かろうが (い-adj → 〜かろう), 静かだろうが, 雨だろうと (な-adj/noun → だろう).\n- Pairs: 雨が降ろうが風が吹こうが (two different events) — see also #79 for the ‘A or not A’ version.\n\nRegister: stronger and more emphatic than 〜ても; common in determined speech (部長: 相手が何を言おうが…宣伝しなきゃだめじゃないか) and in writing. Rough speech like ③ (俺の知ったことか) shows it's not only formal.\n\nCompare:\n- **〜ても / 〜たって**: neutral *even if*.\n- **〜としても** (N2): hypothetical concession, weaker.\n- **〜にかかわらず / 〜を問わず** (N2): *regardless of* — attach to nouns, factual and impersonal.\n- **〜であれ** (#38): *whether it is ~*, noun-based, formal.\n- **〜ようにも〜ない** (#84): same volitional form but means *want to but can't*.\n\nPitfall: the main clause must be something that holds regardless of the condition (a refusal, a determination, an unchangeable fact). ✗いくら頼もうが、手伝ってくれるだろう is odd because the result follows from the asking instead of resisting it.\n\nJLPT tip: a question word or いくら/どんなに + blank → 〜ようが／〜ようと.",
           "see": [
             79,
             84

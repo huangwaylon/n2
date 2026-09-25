@@ -1122,7 +1122,7 @@ N2.register({
                     "男の目の色が変わった"
                   ],
                   "answer": 1,
-                  "en": "The moment he saw the wads of banknotes in the suitcase, the man's eyes changed."
+                  "en": "The moment he saw the wads of banknotes in the suitcase, the look in the man's eyes changed."
                 },
                 {
                   "q": "彼女が歌い終わるや{否|いな}や、（　）。",
@@ -1165,7 +1165,7 @@ N2.register({
               "en": "Thank you very much for giving someone as humble as me such an opportunity to present."
             }
           ],
-          "deepDive": "**Nごとき** means *the likes of N, a mere N, something like N*. The speaker looks down on N as trivial or unworthy: 不況ごときに負けない *we won't be beaten by a mere recession*, あいつごとき *the likes of him*. It comes from the classical ごとし (*like, similar to*), the same root as のごとく (#101), but in this use it has become a contemptuous/humble *such a thing as*.\n\nTwo directions:\n- **Contempt** toward others or things: 小鬼ごとき, アリごとき, 風邪ごとき. The rest of the sentence usually says that N doesn't deserve much: ごときで休むわけにはいかない, ごときに高い殺虫剤を使うのはもったいない, ごときに解ける.\n- **Humility** about oneself: 私ごとき（に／が）… *someone like me*, very polite, often followed by gratitude or a disclaimer: 私ごときにこのような大役を…光栄です, 私ごときが申し上げるのは恐縮ですが.\n\nParticles: ごとき behaves like a noun — ごときに, ごときが, ごときで, ごときの (N ごときの話). ごときに負けない / ごときで騒ぐな are typical.\n\nContrast:\n- **〜なんか / 〜なんて**: the everyday equivalent (お菓子なんかでけんかするな). ごとき is stronger and more literary/stiff.\n- **〜くらい / 〜ぐらい** (風邪ぐらいで休むな): also minimises, but less contemptuous.\n- **N₁のごときN₂** (#101): *N₂ like N₁* — a simile, no contempt (鉄のごとき信念). Note the の: 小鬼ごとき (belittling) vs. 鉄のごとき (simile).\n\nJLPT tip: the second half must match the belittling: 小学生でも解ける ✓ (not 小学生では解けない), もったいない ✓, 休むわけにはいかない ✓; with 私ごとき the humble polite ending (光栄です) is the answer.",
+          "deepDive": "**Nごとき** means *the likes of N, a mere N, something like N*. The speaker looks down on N as trivial or unworthy: 不況ごときに負けない *we won't be beaten by a mere recession*, あいつごとき *the likes of him*. It comes from the classical ごとし (*like, similar to*), the same root as のごとく (#101), but in this use it has become a contemptuous/humble *such a thing as*.\n\nTwo directions:\n- **Contempt** toward others or things: 小鬼ごとき, アリごとき, 風邪ごとき. The rest of the sentence usually says that N doesn't deserve much: ごときで休むわけにはいかない, ごときに高い殺虫剤を使うのはもったいない, こんな問題ごとき、小学生でも解ける.\n- **Humility** about oneself: 私ごとき（に／が）… *someone like me*, very polite, often followed by gratitude or a disclaimer: 私ごときにこのような大役を…光栄です, 私ごときが申し上げるのは恐縮ですが.\n\nParticles: ごとき behaves like a noun — ごときに, ごときが, ごときで, ごときの (N ごときの話). ごときに負けない / ごときで騒ぐな are typical.\n\nContrast:\n- **〜なんか / 〜なんて**: the everyday equivalent (お菓子なんかでけんかするな). ごとき is stronger and more literary/stiff.\n- **〜くらい / 〜ぐらい** (風邪ぐらいで休むな): also minimises, but less contemptuous.\n- **N₁のごときN₂** (#101): *N₂ like N₁* — a simile, no contempt (鉄のごとき信念). Note the の: 小鬼ごとき (belittling) vs. 鉄のごとき (simile).\n\nJLPT tip: the second half must match the belittling: 小学生でも解ける ✓ (not 小学生では解けない), もったいない ✓, 休むわけにはいかない ✓; with 私ごとき the humble polite ending (光栄です) is the answer.",
           "see": [
             101
           ],
@@ -1340,7 +1340,7 @@ N2.register({
             },
             {
               "ja": "売らんがためとはいえ、安全性を{無視|むし}して価格を下げるやり方は問題だ。",
-              "en": "Even if it is in order to sell, cutting prices while ignoring safety is a problematic approach."
+              "en": "Even if the aim is simply to sell, cutting prices while ignoring safety is a problematic approach."
             },
             {
               "ja": "全宇宙を{征服|せいふく}せんがため、彼は{大|だい}宇宙{船団|せんだん}を{率|ひき}いて飛び立った。",
@@ -1351,7 +1351,7 @@ N2.register({
               "en": "They say \"lying can be a means to an end,\" and I think a lie told in order to save someone can be forgiven."
             }
           ],
-          "deepDive": "**Vんがため（に）** means *in order to ~, for the sake of ~*, with a strong sense of determination: the subject is bent on achieving the goal. It is built on the ない-stem + classical volitional ん (= む) + が + ため, literally *for the purpose of (one's intention) to do ~*. 楽園を創らんがため = 楽園を創るために, but far more solemn.\n\nForms:\n- ない-stem + んがため（に）: 守らんがため, 売らんがため, 救わんがため, 創らんがため.\n- **する → せんがため** (征服せんがため); くる → こんがため (rare).\n- Before a noun: **〜んがための N** (救わんがためのうそ).\n- 〜んがためだ at the end of a sentence also occurs: すべては勝たんがためだ.\n\nUsage points:\n- Very literary and dramatic (the book's formal icon, ★1): novels, speeches, historical or epic narration, editorials. In daily speech it sounds theatrical or ironic.\n- The purpose is often a big or single-minded aim (守る, 征服する, 勝つ, 生きる). 売らんがため is a fixed phrase for commercialism: *just to sell*, often critical (売らんがための過剰な宣伝).\n- As with ために, the second half is a deliberate action by the same subject; no requests or commands.\n\nContrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- Don't confuse the ん here with the ん of 〜んばかり (#73, *as if about to*) or 〜んじゃあるまいし (#72).\n\nJLPT tip: recognise the form from the stem: 〜らんがため / 〜わんがため / せんがため. If you see せんがため, it is する.",
+          "deepDive": "**Vんがため（に）** means *in order to ~, for the sake of ~*, with a strong sense of determination: the subject is bent on achieving the goal. It is built on the ない-stem + classical volitional ん (= む) + が + ため, literally *for the purpose of (one's intention) to do ~*. 楽園を創らんがため = 楽園を創るために, but far more solemn.\n\nForms:\n- ない-stem + んがため（に）: 守らんがため, 売らんがため, 救わんがため, 創らんがため.\n- **する → せんがため** (征服せんがため); くる → こんがため (rare).\n- Before a noun: **〜んがための N** (救わんがためのうそ).\n- 〜んがためだ at the end of a sentence also occurs: すべては勝たんがためだ.\n\nUsage points:\n- Very literary and dramatic (the book's formal icon, ★1): novels, speeches, historical or epic narration, editorials. In daily speech it sounds theatrical or ironic.\n- The purpose is often a big or single-minded aim (守る, 征服する, 勝つ, 生きる). 売らんがため is a fixed phrase for commercialism: *just to sell*, often critical (売らんがための過剰な宣伝).\n- As with ために, the second half is a deliberate action by the same subject; no requests or commands.\n\nContrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- Don't confuse the ん here with the ん of 〜んばかり (#73, *as if about to*) or the explanatory ん (= の) in 〜んじゃあるまいし (#72).\n\nJLPT tip: recognise the form from the stem: 〜らんがため / 〜わんがため / せんがため. If you see せんがため, it is する.",
           "see": [
             73,
             90
@@ -1395,7 +1395,7 @@ N2.register({
             },
             {
               "ja": "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。",
-              "en": "The will left to the brothers was written as follows."
+              "en": "The will left to the brothers read as follows."
             },
             {
               "ja": "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。",

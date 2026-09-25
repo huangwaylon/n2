@@ -224,6 +224,9 @@
   }
 
   // ---------- grammar point (C7–C17) ----------
+  // 📎 clip notes before or after やってみよう: N2 prints them after the practice, N1 before (book meta notesFirst);
+  // a point can override with g.notesFirst
+  const notesFirst = (g) => (g.notesFirst != null ? g.notesFirst : !!BOOK().notesFirst);
   function gpCard(g, ch) {
     const gid = `gp${g.no}`;
     const studied = progress.studied[g.no];
@@ -250,8 +253,9 @@
       ${formsHtml(g.forms, g.formNotes)}
       ${examplesHtml(g.examples)}
       ${g.deepDive ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span></summary><div class="deep-body">${prose(g.deepDive)}</div></details>` : ""}
+      ${notesFirst(g) ? notesHtml(g.notes, gid) : ""}
       ${(g.practice || []).map((ex, j) => renderExercise(ex, `${gid}-p${j}`, "やってみよう！ <span class='en-inline'>Try it out</span>") + (ex.xref ? xrefHtml(ex.xref) : "")).join("")}
-      ${notesHtml(g.notes, gid)}
+      ${notesFirst(g) ? "" : notesHtml(g.notes, gid)}
       ${plusHtml}
       ${xrefHtml(g.xref, g.see, g.no)}
       <footer class="gp-foot">

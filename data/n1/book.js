@@ -7,6 +7,7 @@ N2.registerBook({
   chapters: 10,
   points: 123,
   bookLang: "zh",
+  notesFirst: true, // 📎 clip notes are printed before やってみよう (point-level `notesFirst: false` where the book differs)
   bookTitle: "TRY! 日本語能力試験 N1",
   credit: "ABK; Chinese edition 新日语能力考试N1语法必备, 世界图书出版公司, 2013",
   books: [

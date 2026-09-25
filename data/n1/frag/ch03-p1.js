@@ -10,12 +10,13 @@ N2F({
     vertical: true,
     lines: [
       { ja: "あるとき、{嫁|よめ}が「お{前様|まえさま}がいるとゆっくり掃除ができません。昼間は外で遊んできてください。」と言うので、男は久しぶりに外へ出た。", en: "One day, his wife said, \"When you're here I can't clean properly. Please go out and enjoy yourself during the day,\" so the man went outside for the first time in a long while." },
-      { ja: "男が歩いていると、道の向こうから友達がやって来た。友達は男が{嫁|よめ}をもらったと聞いて、お祝い**かたがた**{嫁|よめ}の顔を見に来たのだった。うれしくなった男は、友達に{嫁|よめ}の{自慢話|じまんばなし}をした。だが、友達は{真|ま}っ{青|さお}な顔をして、「何も食べない人間がいる**とは**、信じられない。それは{化|ば}け{物|もの}だ。」と言った。そして、「明日、出かけるふりをして、こっそり様子を見てみろ。」と言い残し、逃げるように帰ってしまった。", en: "As the man was walking along, a friend came toward him from the other end of the road. The friend had heard the man had taken a wife and had come to congratulate him and, at the same time, to see what she looked like. Delighted, the man boasted to his friend about his wife. But the friend turned pale and said, \"I can't believe there's a human being who eats nothing at all. She's a monster.\" Then, saying, \"Tomorrow, pretend to go out and secretly watch what she does,\" he hurried home as if running away." },
-      { ja: "次の日、男は家を出るふりをして、家の中をのぞいてみた。笑顔だった{嫁|よめ}は、男が家を出る**なり**恐ろしい顔になった。「あのけちの{怠|なま}け{者|もの}め！　昼間っから酒は飲む**わ**、ごろごろする**わ**、外へ出すのも{一苦労|ひとくろう}だ。ああ、腹が減ったぞ。」とつぶやき、大きい{釜|かま}で米を{炊|た}き始めた。そして、結んでいた長い髪をほどいた。すると、頭の後ろから、鋭い歯が生えた大きな口が現れた。{嫁|よめ}は、米が{炊|た}ける**が早いか**どんどん{握|にぎ}り{飯|めし}を作り、作る**そばから**頭の後ろの口へ放り込み、むしゃむしゃと食べ始めた。「これでは足りぬ。肉はどこじゃ。」前の口から、恐ろしい言葉が飛び出した。びっくりした男は、つい「ひゃあ！」と悲鳴を上げてしまった。", en: "The next day, the man pretended to leave the house and peeked inside. The moment he left, his smiling wife's face turned terrifying. \"That stingy, lazy good-for-nothing! Drinking from broad daylight, lounging around — it's a real job just getting him out of the house. Ah, I'm starving!\" she muttered, and began cooking rice in a big pot. Then she undid her long, tied-up hair. And from the back of her head appeared a huge mouth full of sharp teeth. As soon as the rice was cooked, the wife made rice ball after rice ball, and no sooner had she made each one than she tossed it into the mouth on the back of her head and began gobbling them down. \"This isn't enough. Where's the meat?\" Terrifying words burst from the mouth at the front. The man was so startled that he couldn't help letting out a shriek: \"Eek!\"" },
+      { ja: "男が歩いていると、道の向こうから友達がやって来た。友達は男が{嫁|よめ}をもらったと聞いて、お祝い**かたがた**{嫁|よめ}の顔を見に来たのだった。うれしくなった男は、友達に{嫁|よめ}の{自慢話|じまんばなし}をした。", en: "As the man was walking along, a friend came toward him from the other end of the road. The friend had heard the man had taken a wife and had come to congratulate him and, at the same time, to see what she looked like. Delighted, the man boasted to his friend about his wife." },
+      { ja: "だが、友達は{真|ま}っ{青|さお}な顔をして、「何も食べない人間がいる**とは**、信じられない。それは{化|ば}け{物|もの}だ。」と言った。そして、「明日、出かけるふりをして、こっそり様子を見てみろ。」と言い残し、逃げるように帰ってしまった。", en: "But the friend turned pale and said, \"I can't believe there's a human being who eats nothing at all. She's a monster.\" Then, saying, \"Tomorrow, pretend to go out and secretly watch what she does,\" he hurried home as if running away." },
+      { ja: "次の日、男は家を出るふりをして、家の中をのぞいてみた。笑顔だった{嫁|よめ}は、男が家を出る**なり**恐ろしい顔になった。「あのけちの{怠|なま}け{者|もの}め！　昼間っから酒は飲む**わ**、ごろごろする**わ**、外へ出すのも{一苦労|ひとくろう}だ。ああ、腹が減ったぞ。」とつぶやき、大きい{釜|かま}で米を{炊|た}き始めた。そして、結んでいた長い髪をほどいた。すると、頭の後ろから、鋭い歯が生えた大きな口が現れた。{嫁|よめ}は、米が{炊|た}ける**が早いか**どんどん{握|にぎ}り{飯|めし}を作り、作る**そばから**頭の後ろの口へ放り込み、むしゃむしゃと食べ始めた。「これでは足りぬ。肉はどこじゃ。」前の口から、恐ろしい言葉が飛び出した。びっくりした男は、つい「ひゃあ！」と悲鳴を上げてしまった。", en: "The next day, the man pretended to leave the house and peeked inside. The moment he left, his smiling wife's face turned terrifying. \"That stingy, lazy good-for-nothing! Drinking in broad daylight, lounging around — it's a real job just getting him out of the house. Ah, I'm starving!\" she muttered, and began cooking rice in a big pot. Then she undid her long, tied-up hair. And from the back of her head appeared a huge mouth full of sharp teeth. As soon as the rice was cooked, the wife made rice ball after rice ball, and no sooner had she made each one than she tossed it into the mouth on the back of her head and began gobbling them down. \"This isn't enough. Where's the meat?\" Terrifying words burst from the mouth at the front. The man was so startled that he couldn't help letting out a shriek: \"Eek!\"" },
       { ja: "「{誰|だれ}じゃ！」長い髪の間から、ぎらぎら光る{眼|め}が男をにらみつけた。", en: "\"Who's there?!\" Glittering eyes glared at the man from between the strands of long hair." },
-      { ja: "「見たな！　見られたからには、お前を食わ**ずにはおかない**ぞ！」", en: "\"You saw me! Now that you've seen me, I'll eat you, whatever it takes!\"" },
+      { ja: "「見たな！　見られたからには、お前を食わ**ずにはおかない**ぞ！」", en: "\"You saw me! Now that you've seen me, I'm not letting you go without eating you!\"" },
       { ja: "捕まっ**たが最後**、食べられてしまうに違いない。そう思った男は、あわてて逃げ出した。", en: "If she caught him, she would surely eat him. Thinking this, the man fled in a panic." },
-      { ja: "「待て！　お前を食って**やる**！」恐ろしい顔で追いかけて来る女は、{二口女|ふたくちおんな}という{妖怪|ようかい}だったのだ。", en: "\"Wait! I'm going to eat you!\" The woman chasing after him with that terrifying face was a yōkai called a futakuchi-onna — the two-mouthed woman." },
+      { ja: "「待て！　お前を食っ**てやる**！」恐ろしい顔で追いかけて来る女は、{二口女|ふたくちおんな}という{妖怪|ようかい}だったのだ。", en: "\"Wait! I'm going to eat you!\" The woman chasing after him with that terrifying face was a yōkai called a futakuchi-onna — the two-mouthed woman." },
     ],
   },
   points: [
@@ -62,7 +63,7 @@ N2F({
         "Nuance: the two purposes are carried out in one trip/act. Often both halves are courtesies (お礼かたがたご挨拶に伺う).\n\n" +
         "**Plus: 〜がてら** = *while doing A / taking the opportunity of A, also do B*. It attaches to nouns (散歩がてら, 買い物がてら) and to the V-ます stem (届けがてら, 遊びに行きがてら). It is less formal and very common in conversation (散歩がてら牛乳買ってきたよ). Typically A is an outing (散歩, 買い物, お参り, 運動) and B something you do on the way.\n\n" +
         "Compare:\n" +
-        "- **〜ついでに** (N3/N2): *while you're at it*; the most neutral, B is a secondary add-on to A. がてら is close to ついでに but implies A itself is partly motivated by B.\n" +
+        "- **〜ついでに** (N3/N2): *while you're at it*; the most neutral, B is a secondary add-on to A. がてら is close to ついでに, but with ついでに B is an incidental add-on to A, whereas がてら presents A and B as both intended from the start, done in one outing.\n" +
         "- **〜かたわら** (N1, 本業のかたわら): *alongside (a main occupation)* — long-term parallel activities, not one trip.\n" +
         "- **〜を兼ねて**: *combining ~ (with)*: 運動を兼ねて歩いて通勤する; neutral.\n\n" +
         "Pitfall: かたがた takes only nouns (✗報告しかたがた); がてら takes nouns or ます-stems. JLPT tip: 挨拶・報告・お礼・お見舞い + blank + 伺う/参る → かたがた.",
@@ -96,7 +97,7 @@ N2F({
         "Connection: plain forms; with nouns and な-adjectives だ is optional (1杯2,000円とは / 大変だとは). The second half is often omitted, leaving the emotion implied (＊ note): あの老人が犯人だったとは。 / まさか君たちが結婚するとはねえ。 まさか often precedes it.\n\n" +
         "Distinguish from the other uses of とは:\n" +
         "- **Definition** (N3): 〜とは…のことだ *X means…*: 「リストラ」とは人員削減のことだ.\n" +
-        "- **〜とは限らない / 〜とはいえ / 〜とは言え** — separate patterns.\n\n" +
+        "- **〜とは限らない / 〜とはいえ** — separate patterns.\n\n" +
         "Compare the emotional **〜なんて** (N3): the colloquial equivalent (一杯2,000円なんて！). とは sounds more written/adult. **〜ものだ / 〜ことか** express deep feeling too, but aren't tied to a surprising *fact*.\n\n" +
         "The やってみよう pairs each surprising fact with a natural reaction: 宝くじが当たるとは → 夢を見ているようだ; ほこりがたまっていたとは → 気づかなかった; バッグが簡単に壊れるとは → 偽物だったのかな; 3キロも太るとは → 一体何を食べたんだ.\n\n" +
         "JLPT tip (★★★): a surprising fact + blank + 驚いた/思わなかった/信じられない → とは.",
@@ -156,7 +157,7 @@ N2F({
         "- **〜が早いか** (#30): very close; emphasises how short the gap is, literary.\n" +
         "- **〜や否や / 〜や**: literary, *no sooner than*.\n" +
         "- **〜とたん（に）** (N3): V-た＋とたん; the second event is often outside the subject's control (立ち上がったとたん、めまいがした).\n" +
-        "- **〜次第** (N2): *as soon as (I) do, (I will)* — future, volitional; the opposite register.\n\n" +
+        "- **〜次第** (N2): *as soon as (I) do, (I will)* — future and volitional, the opposite of なり's past narration.\n\n" +
         "Don't confuse with **V-た＋なり** (*and has stayed that way*: 出ていったなり帰ってこない) or **AなりBなり** (#21). JLPT tip: past narrative + sudden reaction by the same person → なり.",
       see: [21, 30],
       index: ["Vなり", "V-るなり", "〜なり"],
@@ -379,9 +380,9 @@ N2F({
         "Nuance range:\n" +
         "- **Revenge/harm**: なぐってやる, 訴えてやる, 食ってやる (the monster's threat).\n" +
         "- **Defiant resolve**: 一番になってやる, 絶対登ってやる — with 今度こそ, 絶対, 必ず.\n\n" +
-        "Usually masculine/rough; the more polite equivalent is 〜てみせる (*I'll show you I can*): 必ず合格してみせる. In the negative, **〜てやるものか** = *I'll never ~* (許してやるものか).\n\n" +
+        "Usually masculine/rough; for determination without the aggressive edge, use 〜てみせる (*I'll show you I can*): 必ず合格してみせる. In the negative, **〜てやるものか** = *I'll never ~* (許してやるものか).\n\n" +
         "Compare:\n" +
-        "- **〜てあげる / 〜てやる (benefactive)**: doing a favour for someone lower (犬に餌をやる). Context tells you which: an angry tone or harmful action → emotional てやる.\n" +
+        "- **〜てあげる / 〜てやる (benefactive)**: doing a favour for someone of lower status (弟に宿題を手伝ってやる). Context tells you which: an angry tone or harmful action → emotional てやる.\n" +
         "- **〜ずにはおかない** (#32): formal written determination; てやる is spoken and emotional.\n\n" +
         "JLPT tip: recognise it in listening and reading as anger/resolve, not kindness — e.g. もう二度と来てやるもんか.",
       see: [32],

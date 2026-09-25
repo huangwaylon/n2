@@ -185,8 +185,8 @@ N2F({
       ],
       examples: [
         { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you give them the slightest warning, they're liable to say, \"Well then, I quit.\"" },
-        { ja: "帰宅途中で彼女に捕まろうものなら、１時間はおしゃべりに付き合わされる。", en: "If she catches me on my way home, I'll be stuck chatting with her for at least an hour." },
-        { ja: "１個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、{下請|したう}けの{厳|きび}しさがわかっているのか。", en: "If even one defective product turns up, the contract gets canceled. Do you understand how tough it is being a subcontractor?" },
+        { ja: "帰宅途中で彼女に捕まろうものなら、1時間はおしゃべりに付き合わされる。", en: "If she catches me on my way home, I'll be stuck chatting with her for at least an hour." },
+        { ja: "1個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、{下請|したう}けの{厳|きび}しさがわかっているのか。", en: "If even one defective product turns up, the contract gets canceled. Do you understand how tough it is being a subcontractor?" },
         { ja: "このまま不景気が続こうものなら、{我々|われわれ}のような{零細企業|れいさいきぎょう}は{軒並|のきな}みつぶれてしまう。", en: "If this recession goes on, tiny businesses like ours will go under one after another." },
         { ja: "うちの奥さん、ちょっとでも言い返そうもんなら、こっちが{謝|あやま}るまで口をきいてくれないんだ。", en: "If I talk back to my wife even a little, she won't speak to me until I apologize." },
       ],
@@ -205,10 +205,10 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Match each beginning (1–4) with the correct ending (a–d)." },
           left: [
-            "この町は道を１本間違えようものなら、",
+            "この町は道を1本間違えようものなら、",
             "あそこの店、ちょっと立ち止まって見ていようものなら、",
             "こんな日に舟で海に出ようものなら、",
-            "卒業論文の{提出|ていしゅつ}が１秒でも遅れようものなら、",
+            "卒業論文の{提出|ていしゅつ}が1秒でも遅れようものなら、",
           ],
           right: [
             "店員が寄ってきて、あれこれ言うから、うるさいんだ。",
@@ -329,7 +329,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "スピーチは{原稿|げんこう}を見ないに{越|こ}したことはないが、（　）。", options: ["メモを見てはいけないことになっている", "メモぐらいは持っていてもいいだろう"], answer: 1, en: "Ideally you shouldn't look at a script when you give a speech, but it's probably fine to have notes with you." },
-            { q: "{災害|さいがい}に備えるに{越|こ}したことはないと思うので、（　）。", options: ["うちには３日分の{非常食|ひじょうしょく}が置いてあります", "とても不安で、夜も寝られません"], answer: 0, en: "I think it's best to be prepared for disasters, so we keep three days' worth of emergency food at home." },
+            { q: "{災害|さいがい}に備えるに{越|こ}したことはないと思うので、（　）。", options: ["うちには3日分の{非常食|ひじょうしょく}が置いてあります", "とても不安で、夜も寝られません"], answer: 0, en: "I think it's best to be prepared for disasters, so we keep three days' worth of emergency food at home." },
             { q: "この本の学習{項目|こうもく}は全部覚えるに{越|こ}したことはないですが、（　）。", options: ["★の数にかかわらず、全部やってみようと思っています", "時間がなければ、★が多いものから勉強したほうがいいですよ"], answer: 1, en: "Ideally you'd learn every item in this book, but if you're short of time, you'd better study the ones with the most ★ first." },
           ],
         },
@@ -346,7 +346,7 @@ N2F({
         { q: "最近、{隣|となり}の人がバイオリンの練習を始めたんだけど、ほとんど{騒音|そうおん}で聞く＿＿んだ。", answer: "にたえない", en: "Recently my neighbor started practicing the violin, but it's pretty much noise and unbearable to listen to." },
         { q: "{天才|てんさい}＿＿、{難関|なんかん}の国家試験に普通の人間が努力もせずに受かるわけがない。", answer: "ならいざしらず", en: "A genius might be a different matter, but there's no way an ordinary person could pass a tough national exam without making any effort." },
         { q: "{中村|なかむら}には言うな。あいつに知られ＿＿、その日のうちに学校中に知れ渡っちゃうから。", answer: "ようものなら", en: "Don't tell Nakamura. If he finds out, the whole school will know by the end of the day." },
-        { q: "A：{鈴木|すずき}さんと{加藤|かとう}さん、けんかしたんだって？\nB：うん。あの２人は親友だったんだから、何とか仲直りでき＿＿と思っているんだけど……。", answer: "ないものか", en: "A: I heard Suzuki and Kato had a fight?\nB: Yeah. They were best friends, so I'm hoping there's some way they can make up…" },
+        { q: "A：{鈴木|すずき}さんと{加藤|かとう}さん、けんかしたんだって？\nB：うん。あの2人は親友だったんだから、何とか仲直りでき＿＿と思っているんだけど……。", answer: "ないものか", en: "A: I heard Suzuki and Kato had a fight?\nB: Yeah. They were best friends, so I'm hoping there's some way they can make up…" },
       ],
     },
     {

@@ -113,7 +113,7 @@ N2F({
           items: [
             { q: "空港のロビーに彼が現れるや{否|いな}や、何十人もの女性ファンが（　）。", options: ["{歓声|かんせい}を上げた", "待っていた"], answer: 0, en: "The moment he appeared in the airport lobby, dozens of female fans let out a cheer." },
             { q: "そのワインを{一口|ひとくち}飲むや{否|いな}や、（　）。", options: ["とてもおいしかった", "{山野氏|やまのし}はばったり倒れた"], answer: 1, en: "No sooner had he taken a sip of the wine than Mr. Yamano collapsed on the spot." },
-            { q: "スーツケースの{札束|さつたば}を見るや、（　）。", options: ["{偽札|にせさつ}だったらしい", "男の目の色が変わった"], answer: 1, en: "The moment he saw the wads of banknotes in the suitcase, the man's eyes changed." },
+            { q: "スーツケースの{札束|さつたば}を見るや、（　）。", options: ["{偽札|にせさつ}だったらしい", "男の目の色が変わった"], answer: 1, en: "The moment he saw the wads of banknotes in the suitcase, the look in the man's eyes changed." },
             { q: "彼女が歌い終わるや{否|いな}や、（　）。", options: ["観客は{総立|そうだ}ちになった", "早くサインをもらいに行こう"], answer: 0, en: "The instant she finished singing, the whole audience rose to its feet." },
           ],
         },
@@ -138,7 +138,7 @@ N2F({
       ],
       deepDive:
         "**Nごとき** means *the likes of N, a mere N, something like N*. The speaker looks down on N as trivial or unworthy: 不況ごときに負けない *we won't be beaten by a mere recession*, あいつごとき *the likes of him*. It comes from the classical ごとし (*like, similar to*), the same root as のごとく (#101), but in this use it has become a contemptuous/humble *such a thing as*.\n\n" +
-        "Two directions:\n- **Contempt** toward others or things: 小鬼ごとき, アリごとき, 風邪ごとき. The rest of the sentence usually says that N doesn't deserve much: ごときで休むわけにはいかない, ごときに高い殺虫剤を使うのはもったいない, ごときに解ける.\n- **Humility** about oneself: 私ごとき（に／が）… *someone like me*, very polite, often followed by gratitude or a disclaimer: 私ごときにこのような大役を…光栄です, 私ごときが申し上げるのは恐縮ですが.\n\n" +
+        "Two directions:\n- **Contempt** toward others or things: 小鬼ごとき, アリごとき, 風邪ごとき. The rest of the sentence usually says that N doesn't deserve much: ごときで休むわけにはいかない, ごときに高い殺虫剤を使うのはもったいない, こんな問題ごとき、小学生でも解ける.\n- **Humility** about oneself: 私ごとき（に／が）… *someone like me*, very polite, often followed by gratitude or a disclaimer: 私ごときにこのような大役を…光栄です, 私ごときが申し上げるのは恐縮ですが.\n\n" +
         "Particles: ごとき behaves like a noun — ごときに, ごときが, ごときで, ごときの (N ごときの話). ごときに負けない / ごときで騒ぐな are typical.\n\n" +
         "Contrast:\n- **〜なんか / 〜なんて**: the everyday equivalent (お菓子なんかでけんかするな). ごとき is stronger and more literary/stiff.\n- **〜くらい / 〜ぐらい** (風邪ぐらいで休むな): also minimises, but less contemptuous.\n- **N₁のごときN₂** (#101): *N₂ like N₁* — a simile, no contempt (鉄のごとき信念). Note the の: 小鬼ごとき (belittling) vs. 鉄のごとき (simile).\n\n" +
         "JLPT tip: the second half must match the belittling: 小学生でも解ける ✓ (not 小学生では解けない), もったいない ✓, 休むわけにはいかない ✓; with 私ごとき the humble polite ending (光栄です) is the answer.",
@@ -218,7 +218,7 @@ N2F({
       ],
       examples: [
         { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger." },
-        { ja: "売らんがためとはいえ、安全性を{無視|むし}して価格を下げるやり方は問題だ。", en: "Even if it is in order to sell, cutting prices while ignoring safety is a problematic approach." },
+        { ja: "売らんがためとはいえ、安全性を{無視|むし}して価格を下げるやり方は問題だ。", en: "Even if the aim is simply to sell, cutting prices while ignoring safety is a problematic approach." },
         { ja: "全宇宙を{征服|せいふく}せんがため、彼は{大|だい}宇宙{船団|せんだん}を{率|ひき}いて飛び立った。", en: "Bent on conquering the entire universe, he took off at the head of a great space fleet." },
         { ja: "「うそも{方便|ほうべん}」と言うが、人を救わんがためのうそは許されると、私は思う。", en: "They say \"lying can be a means to an end,\" and I think a lie told in order to save someone can be forgiven." },
       ],
@@ -226,7 +226,7 @@ N2F({
         "**Vんがため（に）** means *in order to ~, for the sake of ~*, with a strong sense of determination: the subject is bent on achieving the goal. It is built on the ない-stem + classical volitional ん (= む) + が + ため, literally *for the purpose of (one's intention) to do ~*. 楽園を創らんがため = 楽園を創るために, but far more solemn.\n\n" +
         "Forms:\n- ない-stem + んがため（に）: 守らんがため, 売らんがため, 救わんがため, 創らんがため.\n- **する → せんがため** (征服せんがため); くる → こんがため (rare).\n- Before a noun: **〜んがための N** (救わんがためのうそ).\n- 〜んがためだ at the end of a sentence also occurs: すべては勝たんがためだ.\n\n" +
         "Usage points:\n- Very literary and dramatic (the book's formal icon, ★1): novels, speeches, historical or epic narration, editorials. In daily speech it sounds theatrical or ironic.\n- The purpose is often a big or single-minded aim (守る, 征服する, 勝つ, 生きる). 売らんがため is a fixed phrase for commercialism: *just to sell*, often critical (売らんがための過剰な宣伝).\n- As with ために, the second half is a deliberate action by the same subject; no requests or commands.\n\n" +
-        "Contrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- Don't confuse the ん here with the ん of 〜んばかり (#73, *as if about to*) or 〜んじゃあるまいし (#72).\n\n" +
+        "Contrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- Don't confuse the ん here with the ん of 〜んばかり (#73, *as if about to*) or the explanatory ん (= の) in 〜んじゃあるまいし (#72).\n\n" +
         "JLPT tip: recognise the form from the stem: 〜らんがため / 〜わんがため / せんがため. If you see せんがため, it is する.",
       see: [73, 90],
       index: ["Vんがため", "VんがためのN", "せんがため"],
@@ -249,7 +249,7 @@ N2F({
       examples: [
         { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow." },
         { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "He won a fortune in the lottery, but he kept spending it like water, and a year later he was back to his old life of poverty." },
-        { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The will left to the brothers was written as follows." },
+        { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The will left to the brothers read as follows." },
         { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Mr. Kitazato is working on the development of new drugs with an iron conviction." },
         { ja: "A：日本へ来てから何年経ったっけ。\nB：もう5年だよ。{光陰|こういん}{矢|や}のごとしだね。", en: "A: How many years has it been since you came to Japan?\nB: Five years already. Time flies like an arrow, doesn't it?", idiom: true },
       ],

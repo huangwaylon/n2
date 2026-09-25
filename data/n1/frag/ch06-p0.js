@@ -17,7 +17,7 @@ N2F({
       { cont: true, ja: "先ほどは、社長より{激励|げきれい}のお言葉をいただき、{感激|かんげき}**の{至|いた}り**です。", en: "A moment ago I received words of encouragement from the president, and I am deeply moved." },
       { ja: "{私|わたくし}、{本日|ほんじつ}3月31日**をもって**、本社での研修を終了し、来週ベトナムへ帰ります。", en: "As of today, March 31, I finish my training at the head office, and next week I return to Vietnam." },
       { cont: true, ja: "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。", en: "During the training period, being unused to things, I caused you all trouble, but you guided me so warmly that I cannot thank you enough." },
-      { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From your sincere and careful way of working I learned how a person who is a member of a company ought to be." },
+      { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned what anyone who is a company employee ought to be." },
       { cont: true, ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい**限りです**。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working together with you all." },
       { cont: true, ja: "まだまだ皆様に助けていただくことも多いと思いますので、今後ともどうぞよろしくお願いいたします。", en: "I expect I will still need your help a great deal, so I ask for your continued kind support from now on." },
     ],
@@ -44,7 +44,7 @@ N2F({
         { ja: "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。", en: "We apologize for the inconvenience in this heat, but to save electricity we have set the air conditioning to 28 degrees." },
         { ja: "お急ぎのところ、電車、遅れまして、大変ご{迷惑|めいわく}をおかけしましたことをお{詫|わ}びいたします。", en: "We sincerely apologize for the great inconvenience caused by the train delay when you are in a hurry." },
         { ja: "作業中のところ悪いんだけど、これ、コピーしてきてくれる？", en: "Sorry to bother you while you're in the middle of something, but could you go and copy this for me?" },
-        { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。", en: "By rights I should have come to see you, so I am very grateful — and a little embarrassed — that you took the trouble to come here." },
+        { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。", en: "By rights I should have been the one to call on you, yet you took the trouble to come here yourself — I am most grateful." },
       ],
       deepDive:
         "**〜ところ（を）** takes ところ in its sense of *situation / circumstances* and turns it into a courteous cushion: *in the (busy, rainy, hurried…) circumstances you are in*. Before the main apology, request or thanks, the speaker first acknowledges the other person's situation — お忙しいところ *when you are busy*, お休みのところ *on your day off*, 遠いところ *coming from so far*.\n\n" +
@@ -205,7 +205,7 @@ N2F({
         "- **V-ない + こととて**: 慣れないこととて, 知らないこととて; the classical negative **〜ぬ** is very common: **知らぬこととて** *not knowing (I failed to…)* is almost a set phrase.\n" +
         "- It also occurs after other plain forms in writing (急なこととて *as it was so sudden*).\n\n" +
         "Typical second halves: 失礼しました, ご迷惑をおかけしました, 申し訳ございません, お許しください, 十分なおもてなしもできませんが…. It can also simply explain a state in narrative writing (example ④: 日曜日のこととて社内には人影もなく…).\n\n" +
-        "Restrictions: the result clause is not a command, invitation or intention built on the reason — ✗新人のこととて、手伝ってください is odd. For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\n" +
+        "Restrictions: the second half is normally not the speaker's intention, an invitation or an ordinary request — ✗新人のこととて、手伝ってください is odd. The typical exception is asking for forgiveness (example ③: 新人のこととて失礼があったらお許しください). For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\n" +
         "Compare:\n" +
         "- **〜ので**: neutral, all-purpose reason.\n" +
         "- **〜ゆえ（に）** (#113): *because of*, written and logical, not specifically apologetic.\n" +

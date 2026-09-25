@@ -22,6 +22,7 @@ N2.register({
       "sample": {
         "kind": "dialogue",
         "vertical": true,
+        "rings": false,
         "lines": [
           {
             "ja": "【{某月某日|ぼうがつぼうにち}】　毎々新聞　社会面見出し",
@@ -54,7 +55,7 @@ N2.register({
           {
             "sp": "{刑事|けいじ}",
             "v": "m",
-            "ja": "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}込んでいたなんて……。」",
+            "ja": "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}{込|こ}んでいたなんて……。」",
             "en": "\"It's really — what should I call it — idiotic, or irresponsible. The man on night duty, of all people, taking advantage of nobody watching to fall fast asleep…\""
           },
           {
@@ -78,11 +79,11 @@ N2.register({
           {
             "sp": "{刑事|けいじ}",
             "v": "m",
-            "ja": "「まあ、{被害者|ひがいしゃ}の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」",
+            "ja": "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」",
             "en": "\"Well, it's harsh to say this to the victim, but you could say this incident was bound to happen. Given the kind of business you're in, the media will start making a fuss from now on. You'd better brace yourself…\""
           },
           {
-            "ja": "（{阿部|あべ}を見る{刑事|けいじ}の目、{鋭|するど}い）",
+            "ja": "（{阿部|あべ}を見る{刑事|けいじ}の目、鋭い）",
             "en": "(The detective's eyes, fixed on Abe, are sharp.)"
           }
         ]
@@ -122,11 +123,11 @@ N2.register({
               "en": "It's good that you're motivated, but you're — how shall I put it — too pushy, or too blunt in the way you say things; you might want to think a bit more about how the team members feel…"
             },
             {
-              "ja": "入社して２年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。",
+              "ja": "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。",
               "en": "Two whole years since joining the company and you can't even say the president's name? As your boss I find it pathetic, or whatever you'd call it — I'm completely lost for words."
             },
             {
-              "ja": "あの店員、５万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。",
+              "ja": "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。",
               "en": "That shop assistant recommending a 50,000-yen toner to me — you could say she has no idea how ordinary people live…"
             },
             {
@@ -233,7 +234,7 @@ N2.register({
               "en": "It seems our cat took advantage of its owner being out to get up to mischief — the room is a total mess."
             },
             {
-              "ja": "表現の自由は守るべき権利の１つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。",
+              "ja": "表現の自由は守るべき権利の1つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。",
               "en": "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun."
             }
           ],
@@ -264,7 +265,7 @@ N2.register({
                 "上司に{反抗|はんこう}したり仕事をさぼったりと、彼は好き勝手なことばかりしている。",
                 "彼は会社の金を使い続けた。",
                 "子どもは電車の中を走り回っている。",
-                "{試食|ししょく}のチョコレートを３つも食べたんだよ。"
+                "{試食|ししょく}のチョコレートを3つも食べたんだよ。"
               ],
               "answer": [
                 3,
@@ -305,7 +306,7 @@ N2.register({
               "en": "Pocketing donations given in good faith — how could anyone forgive a politician like that?"
             },
             {
-              "ja": "こんなくだらない番組、３時間も見ていられるか。",
+              "ja": "こんなくだらない番組、3時間も見ていられるか。",
               "en": "Like I could sit through three hours of a stupid show like this!"
             },
             {
@@ -346,7 +347,7 @@ N2.register({
               "en": "Riding a bicycle without a light and texting on top of that — there are limits to how thoughtless you can be."
             },
             {
-              "ja": "中身を減らして、２割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。",
+              "ja": "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。",
               "en": "Reducing the contents and then selling it as '20% off' — that's making fools of the customers beyond all limits."
             },
             {
@@ -435,7 +436,7 @@ N2.register({
               "en": "If you were paying yourself, fine, but you're making me pay for everything and you still intend to keep eating?"
             },
             {
-              "ja": "電気代が上がった。それだけならまだしも、４月から家賃を2,000円上げると言われて、困っている。",
+              "ja": "電気代が上がった。それだけならまだしも、4月から家賃を2,000円上げると言われて、困っている。",
               "en": "The electricity bill has gone up. If that were all, I could live with it, but I've also been told the rent will go up by 2,000 yen from April, and I'm at a loss."
             },
             {
@@ -443,7 +444,7 @@ N2.register({
               "en": "A: These shoes are nice, but apparently they only have them in a small size…\nB: Big ones could be made to work, but there's nothing you can do with shoes that are too small."
             }
           ],
-          "deepDive": "**AならまだしもB** combines なら (*if it's A*) and まだしも (*still tolerable / it would be better*). The speaker concedes that A would be **more or less acceptable**, then says B — the actual situation — is not: *A would be one thing, but B…!* The B part carries criticism, complaint or disbelief (無茶だ, ひどすぎる, 困っている, どうしようもない).\n\nIn the sample: 厳しい監視をくぐり抜けてやられたならまだしも — *if the thieves had outwitted tight security, that would be understandable (but that's not what happened)*. So A is often a hypothetical better case that contrasts with reality.\n\nConnection: plain forms; な-adjectives and nouns attach without だ (スニーカーならまだしも). It can also follow particles and だけ: それだけならまだしも, 子どもだけでならまだしも, 冗談でならまだしも.\n\nCompare:\n- **〜ならいざしらず** (#58): very close — *A may be a different matter, but B*. いざしらず (*I don't know about A*) sets A aside as special; まだしも says A is *tolerable*. Both are followed by criticism of B. ならいざしらず is more formal/written.\n- **〜はともかく**: *leaving A aside* — neutral, no sense that A is more acceptable.\n- **〜ばまだいいが**: casual paraphrase of ならまだしも.\n\nPitfall: the order matters. A must be the milder, more acceptable case, B the worse one. In the practice: よく使うならまだしも、週に１回も乗らないのに ✓ (buying a new car would be OK if you used it often).\n\nJLPT tip: when choosing which option goes before ならまだしも, pick the one that is *less* problematic than what follows.",
+          "deepDive": "**AならまだしもB** combines なら (*if it's A*) and まだしも (*still tolerable / it would be better*). The speaker concedes that A would be **more or less acceptable**, then says B — the actual situation — is not: *A would be one thing, but B…!* The B part carries criticism, complaint or disbelief (無茶だ, ひどすぎる, 困っている, どうしようもない).\n\nIn the sample: 厳しい監視をくぐり抜けてやられたならまだしも — *if the thieves had outwitted tight security, that would be understandable (but that's not what happened)*. So A is often a hypothetical better case that contrasts with reality.\n\nConnection: plain forms; な-adjectives and nouns attach without だ (スニーカーならまだしも). It can also follow particles and だけ: それだけならまだしも, 子どもだけでならまだしも, 冗談でならまだしも.\n\nCompare:\n- **〜ならいざしらず** (#58): very close — *A may be a different matter, but B*. いざしらず (*I don't know about A*) sets A aside as special; まだしも says A is *tolerable*. Both are followed by criticism of B. ならいざしらず is more formal/written.\n- **〜はともかく**: *leaving A aside* — neutral, no sense that A is more acceptable.\n- **〜ばまだいいが**: casual paraphrase of ならまだしも.\n\nPitfall: the order matters. A must be the milder, more acceptable case, B the worse one. In the practice: よく使うならまだしも、週に1回も乗らないのに ✓ (buying a new car would be OK if you used it often).\n\nJLPT tip: when choosing which option goes before ならまだしも, pick the one that is *less* problematic than what follows.",
           "see": [
             58
           ],
@@ -460,7 +461,7 @@ N2.register({
               },
               "items": [
                 {
-                  "q": "A：え？　{新車|しんしゃ}を買うの？\nB：（　）ならまだしも、週に１回も乗らないのに、必要ないでしょう？",
+                  "q": "A：え？　{新車|しんしゃ}を買うの？\nB：（　）ならまだしも、週に1回も乗らないのに、必要ないでしょう？",
                   "options": [
                     "よく使う",
                     "あまり使わない"
@@ -627,7 +628,7 @@ N2.register({
           "examples": [
             {
               "ja": "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。",
-              "en": "This car has good fuel economy and a refined design; you could say it sold well because it was bound to."
+              "en": "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did."
             },
             {
               "ja": "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。",
@@ -638,7 +639,7 @@ N2.register({
               "en": "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen."
             },
             {
-              "ja": "70億の人間の中で、私たち２人はめぐり会うべくしてめぐり会ったのだと思います。",
+              "ja": "70億の人間の中で、私たち2人はめぐり会うべくしてめぐり会ったのだと思います。",
               "en": "Among seven billion people, I believe the two of us were destined to meet."
             }
           ],
@@ -662,7 +663,7 @@ N2.register({
               },
               "items": [
                 {
-                  "q": "２年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの２人は、別れるべくして別れたのだと思う。",
+                  "q": "2年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの2人は、別れるべくして別れたのだと思う。",
                   "options": [
                     "違っていた",
                     "{一致|いっち}していた"
@@ -760,7 +761,7 @@ N2.register({
               },
               "items": [
                 {
-                  "q": "相手が相手だけに、{緊迫|きんぱく}した試合になるだろう。",
+                  "q": "__相手が相手だけに__、{緊迫|きんぱく}した試合になるだろう。",
                   "options": [
                     "相手は初心者だから",
                     "相手も強いから"
@@ -769,7 +770,7 @@ N2.register({
                   "en": "Given who our opponent is, it will probably be a tense match."
                 },
                 {
-                  "q": "相手が相手だけに、{本気|ほんき}を出したらかわいそうだ。",
+                  "q": "__相手が相手だけに__、{本気|ほんき}を出したらかわいそうだ。",
                   "options": [
                     "相手は{初心者|しょしんしゃ}だから",
                     "相手も強いから"
@@ -778,7 +779,7 @@ N2.register({
                   "en": "Given who the opponent is, it would be cruel to go all out."
                 },
                 {
-                  "q": "乗っている車が車なだけに、金持ちだと誤解されるかもしれないよ。",
+                  "q": "__乗っている車が車なだけに__、金持ちだと誤解されるかもしれないよ。",
                   "options": [
                     "外国の高級車だから",
                     "{国産|こくさん}の{小型車|こがたしゃ}だから"
@@ -787,7 +788,7 @@ N2.register({
                   "en": "Given the car you drive, people might mistake you for someone rich."
                 },
                 {
-                  "q": "着ている服が服なだけに、こんな高級レストランには入りづらい。",
+                  "q": "__着ている服が服なだけに__、こんな高級レストランには入りづらい。",
                   "options": [
                     "Ｔシャツとジーンズだから",
                     "スーツにネクタイだから"
@@ -830,7 +831,7 @@ N2.register({
               "en": "If it only affected you it would be one thing, but it's bad for your family too, so you should quit smoking."
             },
             {
-              "q": "髪の毛が１本落ちていただけで、掃除をやり直すなんてきれい好き＿＿。",
+              "q": "髪の毛が1本落ちていただけで、掃除をやり直すなんてきれい好き＿＿。",
               "answer": "にもほどがある",
               "en": "Redoing the cleaning just because a single hair had fallen — that's taking tidiness too far."
             }
@@ -1193,11 +1194,11 @@ N2.register({
               "en": "Part-timers these days — if you give them the slightest warning, they're liable to say, \"Well then, I quit.\""
             },
             {
-              "ja": "帰宅途中で彼女に捕まろうものなら、１時間はおしゃべりに付き合わされる。",
+              "ja": "帰宅途中で彼女に捕まろうものなら、1時間はおしゃべりに付き合わされる。",
               "en": "If she catches me on my way home, I'll be stuck chatting with her for at least an hour."
             },
             {
-              "ja": "１個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、{下請|したう}けの{厳|きび}しさがわかっているのか。",
+              "ja": "1個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、{下請|したう}けの{厳|きび}しさがわかっているのか。",
               "en": "If even one defective product turns up, the contract gets canceled. Do you understand how tough it is being a subcontractor?"
             },
             {
@@ -1226,10 +1227,10 @@ N2.register({
                 "en": "Match each beginning (1–4) with the correct ending (a–d)."
               },
               "left": [
-                "この町は道を１本間違えようものなら、",
+                "この町は道を1本間違えようものなら、",
                 "あそこの店、ちょっと立ち止まって見ていようものなら、",
                 "こんな日に舟で海に出ようものなら、",
-                "卒業論文の{提出|ていしゅつ}が１秒でも遅れようものなら、"
+                "卒業論文の{提出|ていしゅつ}が1秒でも遅れようものなら、"
               ],
               "right": [
                 "店員が寄ってきて、あれこれ言うから、うるさいんだ。",
@@ -1407,7 +1408,7 @@ N2.register({
                 {
                   "q": "{災害|さいがい}に備えるに{越|こ}したことはないと思うので、（　）。",
                   "options": [
-                    "うちには３日分の{非常食|ひじょうしょく}が置いてあります",
+                    "うちには3日分の{非常食|ひじょうしょく}が置いてあります",
                     "とても不安で、夜も寝られません"
                   ],
                   "answer": 0,
@@ -1463,7 +1464,7 @@ N2.register({
               "en": "Don't tell Nakamura. If he finds out, the whole school will know by the end of the day."
             },
             {
-              "q": "A：{鈴木|すずき}さんと{加藤|かとう}さん、けんかしたんだって？\nB：うん。あの２人は親友だったんだから、何とか仲直りでき＿＿と思っているんだけど……。",
+              "q": "A：{鈴木|すずき}さんと{加藤|かとう}さん、けんかしたんだって？\nB：うん。あの2人は親友だったんだから、何とか仲直りでき＿＿と思っているんだけど……。",
               "answer": "ないものか",
               "en": "A: I heard Suzuki and Kato had a fight?\nB: Yeah. They were best friends, so I'm hoping there's some way they can make up…"
             }
@@ -1768,7 +1769,7 @@ N2.register({
                   "en": "A: I hear you can speak Swahili.\nB: Speak it? Far from it. I can just about manage shopping, that's all."
                 },
                 {
-                  "q": "A：来週までに1,000個{納品|のうひん}してもらいたいんだが……。\nB：この機械で作れるのは１日にせいぜい80個ぐらいなので、週末をつぶしても{納品|のうひん}できるのは（　）といったところなんですが……。",
+                  "q": "A：来週までに1,000個{納品|のうひん}してもらいたいんだが……。\nB：この機械で作れるのは1日にせいぜい80個ぐらいなので、週末をつぶしても{納品|のうひん}できるのは（　）といったところなんですが……。",
                   "options": [
                     "1,000個",
                     "600個"
@@ -1777,7 +1778,7 @@ N2.register({
                   "en": "A: We'd like you to deliver 1,000 units by next week…\nB: This machine can make about 80 a day at most, so even if we give up the weekend, we can deliver 600 at best…"
                 },
                 {
-                  "q": "ここは（　）なので、利用者は１日10人といったところです。",
+                  "q": "ここは（　）なので、利用者は1日10人といったところです。",
                   "options": [
                     "田舎の駅",
                     "{乗|の}り{換|か}え駅"
@@ -1819,7 +1820,7 @@ N2.register({
               "en": "A: I wonder what's wrong with Tanaka. Do you know anything?\nB: I'm worried too, but he was so down that I couldn't bring myself to ask."
             },
             {
-              "ja": "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、１時間後ということで……。",
+              "ja": "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、1時間後ということで……。",
               "en": "A: The rain is so heavy that I can't get out even though I'd like to. Could we push back our appointment?\nB: In this rain, it can't be helped. Let's say an hour later, then…"
             },
             {
@@ -1936,7 +1937,7 @@ N2.register({
           ],
           "items": [
             {
-              "q": "A：ご両親にはよく連絡するの？\nB：ううん、せいぜい月に１度メールを送る＿＿かな。",
+              "q": "A：ご両親にはよく連絡するの？\nB：ううん、せいぜい月に1度メールを送る＿＿かな。",
               "answer": "といったところ",
               "en": "A: Do you keep in touch with your parents often?\nB: No, I send them an email once a month at most, I guess."
             },

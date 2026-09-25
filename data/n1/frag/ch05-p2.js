@@ -116,8 +116,8 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "A：スワヒリ語がおできになるそうですね。\nB：できるなんて、とんでもない。何とか（　）ができるといったところですよ。", options: ["買い物", "{通訳|つうやく}"], answer: 0, en: "A: I hear you can speak Swahili.\nB: Speak it? Far from it. I can just about manage shopping, that's all." },
-            { q: "A：来週までに1,000個{納品|のうひん}してもらいたいんだが……。\nB：この機械で作れるのは１日にせいぜい80個ぐらいなので、週末をつぶしても{納品|のうひん}できるのは（　）といったところなんですが……。", options: ["1,000個", "600個"], answer: 1, en: "A: We'd like you to deliver 1,000 units by next week…\nB: This machine can make about 80 a day at most, so even if we give up the weekend, we can deliver 600 at best…" },
-            { q: "ここは（　）なので、利用者は１日10人といったところです。", options: ["田舎の駅", "{乗|の}り{換|か}え駅"], answer: 0, en: "This is a country station, so it gets about ten passengers a day." },
+            { q: "A：来週までに1,000個{納品|のうひん}してもらいたいんだが……。\nB：この機械で作れるのは1日にせいぜい80個ぐらいなので、週末をつぶしても{納品|のうひん}できるのは（　）といったところなんですが……。", options: ["1,000個", "600個"], answer: 1, en: "A: We'd like you to deliver 1,000 units by next week…\nB: This machine can make about 80 a day at most, so even if we give up the weekend, we can deliver 600 at best…" },
+            { q: "ここは（　）なので、利用者は1日10人といったところです。", options: ["田舎の駅", "{乗|の}り{換|か}え駅"], answer: 0, en: "This is a country station, so it gets about ten passengers a day." },
           ],
         },
       ],
@@ -141,7 +141,7 @@ N2F({
       ],
       examples: [
         { ja: "A：田中さん、どうしたんだろう？　何か知ってる？\nB：{僕|ぼく}も心配なんだけど、あまりに落ち込んでいるんで、聞くに聞けなかったよ。", en: "A: I wonder what's wrong with Tanaka. Do you know anything?\nB: I'm worried too, but he was so down that I couldn't bring myself to ask." },
-        { ja: "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、１時間後ということで……。", en: "A: The rain is so heavy that I can't get out even though I'd like to. Could we push back our appointment?\nB: In this rain, it can't be helped. Let's say an hour later, then…" },
+        { ja: "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、1時間後ということで……。", en: "A: The rain is so heavy that I can't get out even though I'd like to. Could we push back our appointment?\nB: In this rain, it can't be helped. Let's say an hour later, then…" },
         { ja: "娘が私に寄りかかって寝てしまったので、動くに動けず肩が{凝|こ}ってしまった。", en: "My daughter fell asleep leaning against me, so I couldn't move even though I wanted to, and my shoulders got stiff." },
         { ja: "雑誌の間に10万円を{隠|かく}しておいたが、何も知らない妻がゴミに出してしまって、泣くに泣けない。", en: "I'd hidden 100,000 yen between the pages of a magazine, but my wife, knowing nothing, put it out with the trash — it's too awful even to cry about.", idiom: true },
         { ja: "人間{誰|だれ}でも言うに言えない悩みがあるものだ。", en: "Everyone has worries they can't bring themselves to talk about.", idiom: true },
@@ -213,7 +213,7 @@ N2F({
       prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
       bank: ["仕事とはいえ", "といったところ", "仕事にかこつけて", "怒るに怒れない"],
       items: [
-        { q: "A：ご両親にはよく連絡するの？\nB：ううん、せいぜい月に１度メールを送る＿＿かな。", answer: "といったところ", en: "A: Do you keep in touch with your parents often?\nB: No, I send them an email once a month at most, I guess." },
+        { q: "A：ご両親にはよく連絡するの？\nB：ううん、せいぜい月に1度メールを送る＿＿かな。", answer: "といったところ", en: "A: Do you keep in touch with your parents often?\nB: No, I send them an email once a month at most, I guess." },
         { q: "子猫が{花瓶|かびん}を割ってしまったが、{謝|あやま}るような{姿|すがた}が{可愛|かわい}くて＿＿。", answer: "怒るに怒れない", en: "The kitten broke a vase, but it looked so cute, as if it were apologizing, that I couldn't bring myself to scold it." },
         { q: "＿＿、{患者|かんじゃ}の家族に{余命宣告|よめいせんこく}をするのはつらいものだ。", answer: "仕事とはいえ", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is hard." },
         { q: "＿＿、気になる人のメールアドレスを教えてもらった。", answer: "仕事にかこつけて", en: "Using work as an excuse, I got the email address of someone I'm interested in." },

@@ -90,14 +90,10 @@ N2F({ ch: 6, review: [
         { question: "新しい社長は、まず何をすると言っていますか。",
           questionEn: "What does the new president say he will do first?",
           script: [
-            { sp: "", ja: "新しい社長は、まず何をすると言っていますか。" },
             { sp: "M", v: "m", ja: "えー、{本日|ほんじつ}をもちまして、社長に{就任|しゅうにん}いたしました{上田|うえだ}です。{我|わ}が{社|しゃ}は今、経営が{厳|きび}しい{状態|じょうたい}です。今は{我|わ}が{社|しゃ}の得意分野に集中し、経営を安定させなければなりません。広げすぎた{事業|じぎょう}は整理しますが、社員を減らすことは考えていません。大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。" },
-            { sp: "", ja: "新しい社長は、まず何をすると言っていますか。" },
           ],
           en: [
-            "What does the new president say he will do first?",
             "Er, I am Ueda, and as of today I have taken office as president. Our company is currently in a difficult financial position. Right now we must concentrate on our company's areas of strength and stabilize the business. We will reorganize the operations that have been overextended, but we are not considering reducing staff. As this is a major reform, difficulties are expected, but it is very reassuring to be able to move forward together with all of you.",
-            "What does the new president say he will do first?",
           ],
           options: ["{社員|しゃいん}を{集|あつ}める", "{経営|けいえい}を{安定|あんてい}させる", "{事業|じぎょう}を{広|ひろ}げる", "{社員|しゃいん}を{減|へ}らす"],
           answer: 1,

@@ -47,7 +47,7 @@ N2.register({
           {
             "cont": true,
             "ja": "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。",
-            "en": "From your sincere and careful way of working I learned how a person who is a member of a company ought to be."
+            "en": "From your sincere and meticulous way of working, I learned what anyone who is a company employee ought to be."
           },
           {
             "cont": true,
@@ -104,7 +104,7 @@ N2.register({
             },
             {
               "ja": "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。",
-              "en": "By rights I should have come to see you, so I am very grateful — and a little embarrassed — that you took the trouble to come here."
+              "en": "By rights I should have been the one to call on you, yet you took the trouble to come here yourself — I am most grateful."
             }
           ],
           "deepDive": "**〜ところ（を）** takes ところ in its sense of *situation / circumstances* and turns it into a courteous cushion: *in the (busy, rainy, hurried…) circumstances you are in*. Before the main apology, request or thanks, the speaker first acknowledges the other person's situation — お忙しいところ *when you are busy*, お休みのところ *on your day off*, 遠いところ *coming from so far*.\n\nConnection:\n- **い-adjective + ところ（を）**: お忙しいところ, 遠いところを, お暑いところ.\n- **Noun + の + ところ（を）**: お休みのところ, お急ぎのところ, ご多忙のところ, 作業中のところ, お話し中のところ.\n- **V + べきところを**: 本来ならこちらから伺うべきところを *although by rights I ought to have come* — the speaker admits the other person did something the speaker should have done.\n- The honorific お/ご on the noun or adjective (お忙しい, ご多忙) is typical because the situation belongs to the listener.\n\nWhat follows is almost always one of three things:\n- **Thanks**: お忙しいところをお集まりいただき、ありがとうございます.\n- **Apology**: お休みのところ申し訳ございません / すみません.\n- **Request**: お忙しいところ恐縮ですが、ご確認ください.\nSo the pattern is a fixed piece of business etiquette; in the practice below, the correct option is always the one that expresses thanks, apology or a request toward the listener (おいでいただき, ご来店いただき, 恐縮です, ご連絡ください).\n\nWith を vs without: ところを sounds a little more formal and is common in speeches and letters; ところ alone is common in speech. Example ③ (作業中のところ悪いんだけど) shows that it can be used casually too, as a friendly *sorry to interrupt*.\n\nDon't confuse it with:\n- **V-たところ** *just did*, **V-ているところ** *in the middle of doing*, **V-るところ** *about to do* (aspect).\n- **V-たところ、…** *when I did ~, (I found)…* (a discovery).\n- **〜ところを** with verbs of seeing/catching: 盗むところを見られた *was seen stealing*.\n- **〜たところで** (#77) *even if ~ (it's no use)*.\n\nJLPT tip: if the blank follows お忙しい / お休みの / ご多忙の and the sentence ends with ありがとう, すみません, 申し訳ない or 恐縮です, the answer is ところ（を）.",
@@ -363,7 +363,7 @@ N2.register({
               "en": "I hear your father passed away last year. Not having known, I didn't even offer my condolences — please forgive me."
             }
           ],
-          "deepDive": "**〜こととて** is an old-fashioned, formal way of giving a reason: *since / as (it is the case that) ~*. The とて is a classical particle close to と言って / として. The reason is presented as an **unavoidable circumstance**, which is why it appears mostly in **apologies and requests for forgiveness**: 慣れないこととてご迷惑をおかけしました *being unused to things, I caused you trouble*.\n\nConnection:\n- **N + の + こととて**: 新人のこととて, 田舎のこととて, 日曜日のこととて, 不在のこととて.\n- **V-ない + こととて**: 慣れないこととて, 知らないこととて; the classical negative **〜ぬ** is very common: **知らぬこととて** *not knowing (I failed to…)* is almost a set phrase.\n- It also occurs after other plain forms in writing (急なこととて *as it was so sudden*).\n\nTypical second halves: 失礼しました, ご迷惑をおかけしました, 申し訳ございません, お許しください, 十分なおもてなしもできませんが…. It can also simply explain a state in narrative writing (example ④: 日曜日のこととて社内には人影もなく…).\n\nRestrictions: the result clause is not a command, invitation or intention built on the reason — ✗新人のこととて、手伝ってください is odd. For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\nCompare:\n- **〜ので**: neutral, all-purpose reason.\n- **〜ゆえ（に）** (#113): *because of*, written and logical, not specifically apologetic.\n- **〜ばかりに** (N2): *just because ~ (something bad happened)*, stressing regret.\n- **〜ものだから / 〜もので** (N2): spoken excuses — the colloquial counterpart of こととて.\n\nJLPT tip: 知らぬ（　）, 慣れない（　）, 〜のこと（　） followed by 失礼 / ご迷惑 / お許し → こととて.",
+          "deepDive": "**〜こととて** is an old-fashioned, formal way of giving a reason: *since / as (it is the case that) ~*. The とて is a classical particle close to と言って / として. The reason is presented as an **unavoidable circumstance**, which is why it appears mostly in **apologies and requests for forgiveness**: 慣れないこととてご迷惑をおかけしました *being unused to things, I caused you trouble*.\n\nConnection:\n- **N + の + こととて**: 新人のこととて, 田舎のこととて, 日曜日のこととて, 不在のこととて.\n- **V-ない + こととて**: 慣れないこととて, 知らないこととて; the classical negative **〜ぬ** is very common: **知らぬこととて** *not knowing (I failed to…)* is almost a set phrase.\n- It also occurs after other plain forms in writing (急なこととて *as it was so sudden*).\n\nTypical second halves: 失礼しました, ご迷惑をおかけしました, 申し訳ございません, お許しください, 十分なおもてなしもできませんが…. It can also simply explain a state in narrative writing (example ④: 日曜日のこととて社内には人影もなく…).\n\nRestrictions: the second half is normally not the speaker's intention, an invitation or an ordinary request — ✗新人のこととて、手伝ってください is odd. The typical exception is asking for forgiveness (example ③: 新人のこととて失礼があったらお許しください). For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\nCompare:\n- **〜ので**: neutral, all-purpose reason.\n- **〜ゆえ（に）** (#113): *because of*, written and logical, not specifically apologetic.\n- **〜ばかりに** (N2): *just because ~ (something bad happened)*, stressing regret.\n- **〜ものだから / 〜もので** (N2): spoken excuses — the colloquial counterpart of こととて.\n\nJLPT tip: 知らぬ（　）, 慣れない（　）, 〜のこと（　） followed by 失礼 / ご迷惑 / お許し → こととて.",
           "see": [
             113
           ],
@@ -897,23 +897,13 @@ N2.register({
             "questionEn": "What does the new president say he will do first?",
             "script": [
               {
-                "sp": "",
-                "ja": "新しい社長は、まず何をすると言っていますか。"
-              },
-              {
                 "sp": "M",
                 "v": "m",
                 "ja": "えー、{本日|ほんじつ}をもちまして、社長に{就任|しゅうにん}いたしました{上田|うえだ}です。{我|わ}が{社|しゃ}は今、経営が{厳|きび}しい{状態|じょうたい}です。今は{我|わ}が{社|しゃ}の得意分野に集中し、経営を安定させなければなりません。広げすぎた{事業|じぎょう}は整理しますが、社員を減らすことは考えていません。大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。"
-              },
-              {
-                "sp": "",
-                "ja": "新しい社長は、まず何をすると言っていますか。"
               }
             ],
             "en": [
-              "What does the new president say he will do first?",
-              "Er, I am Ueda, and as of today I have taken office as president. Our company is currently in a difficult financial position. Right now we must concentrate on our company's areas of strength and stabilize the business. We will reorganize the operations that have been overextended, but we are not considering reducing staff. As this is a major reform, difficulties are expected, but it is very reassuring to be able to move forward together with all of you.",
-              "What does the new president say he will do first?"
+              "Er, I am Ueda, and as of today I have taken office as president. Our company is currently in a difficult financial position. Right now we must concentrate on our company's areas of strength and stabilize the business. We will reorganize the operations that have been overextended, but we are not considering reducing staff. As this is a major reform, difficulties are expected, but it is very reassuring to be able to move forward together with all of you."
             ],
             "options": [
               "{社員|しゃいん}を{集|あつ}める",

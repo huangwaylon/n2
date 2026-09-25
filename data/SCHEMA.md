@@ -164,6 +164,8 @@ exactly — every character, punctuation mark and furigana — from the scan:
   translation and must be accurate. `deepDive` is our own supplementary explanation.
 - Illustrations are not reproduced; if an exercise depends on a picture, describe it in `prompt.en`.
 - A small chain-link mark after an example = idiomatic expression → `idiom: true` (it is not a 📎 note).
+- Order of 📎 notes and やってみよう: N2 prints the practice first; N1 (book meta `notesFirst: true`) prints the clip notes
+  first. A point printed the other way sets `notesFirst: false` / `true`.
 - A small ※ footnote printed under an example (N1) → `foot: "※…"` on that example (rendered small, right-aligned, not read aloud).
 - Answers come from the supplement's answer key, never from our own judgement.
 
