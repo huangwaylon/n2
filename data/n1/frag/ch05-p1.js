@@ -272,7 +272,7 @@ N2F({
         { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
         { ja: "ラッシュアワーの{殺人的|さつじんてき}な混雑は何とかならないものか。", en: "Can't something be done about the murderous crowding at rush hour?" },
         { ja: "学校に行けない子どもたちのために、何か{支援|しえん}はできないものだろうか。", en: "Isn't there some kind of support we could give children who can't go to school?" },
-        { ja: "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。", en: "I know you are very busy, but might you not be able to hear me out, just once?" },
+        { ja: "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。", en: "I know you are very busy, but could you possibly just hear what I have to say, even once?" },
       ],
       deepDive:
         "**V-ない + ものか** looks like a question (*isn't it possible that ~?*), but it expresses a **longing wish** for something difficult: *if only there were some way to ~ / can't something be done so that ~*. It is often paired with 何とか, 何か, どうにか: 何とかならないものか, 何とかできないものか.\n\n" +

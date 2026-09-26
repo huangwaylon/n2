@@ -79,7 +79,7 @@ N2.register({
             "sp": "{刑事|けいじ}",
             "v": "m",
             "ja": "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」",
-            "en": "\"Well, it's harsh to say this to the victim, but you could say this was an incident that happened because it was bound to happen. Given the kind of business you're in, the media are going to start making a fuss. You'd better brace yourself…\""
+            "en": "\"Well, it's harsh to say this to the victim, but you could say this incident was bound to happen, and it did. Given the kind of business you're in, the media are going to start making a fuss. You'd better brace yourself…\""
           },
           {
             "ja": "（{阿部|あべ}を見る{刑事|けいじ}の目、鋭い）",
@@ -1317,7 +1317,7 @@ N2.register({
             },
             {
               "ja": "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。",
-              "en": "I know you are very busy, but might you not be able to hear me out, just once?"
+              "en": "I know you are very busy, but could you possibly just hear what I have to say, even once?"
             }
           ],
           "deepDive": "**V-ない + ものか** looks like a question (*isn't it possible that ~?*), but it expresses a **longing wish** for something difficult: *if only there were some way to ~ / can't something be done so that ~*. It is often paired with 何とか, 何か, どうにか: 何とかならないものか, 何とかできないものか.\n\nForms: 働かせられないものか, できないものか, ならないものか. Softer and more polite versions: **〜ないものだろうか** and **〜ないものでしょうか**. The last one is a very polite way to make a difficult request: 一度お話だけでも聞いていただけないものでしょうか (*might you possibly be willing to…*).\n\nThe verb is usually in the potential form or is なる/できる, because the wish is about *possibility*: can it be done or not?\n\nDon't confuse it with **V-る + ものか** (N2 〜ものか / もんか): *no way I'll ~ / as if I would*: 二度と行くものか. That is a strong **refusal** or denial. The negative 〜ないものか is the opposite in spirit — it **wishes** for something. Compare:\n- 負けるものか *I won't lose, no way*.\n- 勝てないものか *isn't there some way we could win?*\n\nAlso compare the rhetorical **〜か** (#48), which denies strongly, and **〜たいものだ** (*I'd really like to ~*), a plain wish.\n\nJLPT tip: 何とか…ないものか is a set chunk; if you see 何とか before a blank ending in か, choose ないものか.",
@@ -1537,7 +1537,7 @@ N2.register({
             "sp": "社員A",
             "v": "m",
             "ja": "「一体どうなるんだろな、この会社。部長は{行方不明|ゆくえふめい}、社長は毎日警察だし……。」",
-            "en": "\"What on earth is going to happen to this company? The manager's missing, and the president is at the police every day…\""
+            "en": "\"What on earth is going to happen to this company? The manager's missing, and the president is down at the police station every day…\""
           },
           {
             "sp": "社員B",
@@ -1889,7 +1889,7 @@ N2.register({
                 {
                   "q": "ゲームショーでは、＿＿にかこつけて、自分が楽しんでいる親たちの{姿|すがた}も{結構|けっこう}見かけますよ。",
                   "answer": "子ども",
-                  "en": "At game shows, you see quite a lot of parents enjoying themselves on the pretext of bringing their children."
+                  "en": "At video game expos, you see quite a lot of parents enjoying themselves on the pretext of bringing their children."
                 },
                 {
                   "q": "＿＿にかこつけて、社長にオフィスのエアコンを全部消され、寒くてたまらない。",

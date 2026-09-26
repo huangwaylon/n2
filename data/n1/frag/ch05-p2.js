@@ -17,7 +17,7 @@ N2F({
       { ja: "{阿部|あべ}、ガードマンの{帽子|ぼうし}を{外|はず}し、{額|ひたい}からメモリーチップを抜き出す。", en: "Abe takes off the guard's cap and pulls the memory chip out of his forehead." },
       { sp: "ガードマン", v: "m", ja: "「○×△☆□○×△☆□○×△☆□‼——」", en: "\"○×△☆□○×△☆□○×△☆□!! —\"" },
       { ja: "{警備会社|けいびがいしゃ}、社員食堂。テーブルに若い社員A・B", en: "The security company, the staff cafeteria. Young employees A and B at a table" },
-      { sp: "社員A", v: "m", ja: "「一体どうなるんだろな、この会社。部長は{行方不明|ゆくえふめい}、社長は毎日警察だし……。」", en: "\"What on earth is going to happen to this company? The manager's missing, and the president is at the police every day…\"" },
+      { sp: "社員A", v: "m", ja: "「一体どうなるんだろな、この会社。部長は{行方不明|ゆくえふめい}、社長は毎日警察だし……。」", en: "\"What on earth is going to happen to this company? The manager's missing, and the president is down at the police station every day…\"" },
       { sp: "社員B", v: "m", ja: "「この会社もせいぜいあと半年**といったところ**だろうな。つぶれる前に、次の仕事考えなきゃ……。のんびりしちゃいられないな。」", en: "\"This company's got half a year left at most, I'd say. I've got to think about my next job before it goes under… I can't just sit around.\"" },
       { sp: "社員A", v: "m", ja: "「将来を考えると{俺|おれ}も不安だけど、この不景気じゃ辞める**に**辞められ**ない**よ。」", en: "\"I'm worried too when I think about the future, but in this recession I can't quit even if I want to.\"" },
       { sp: "社員B", v: "m", ja: "「結局消えたのは、三千万と、{居眠|いねむ}りしたやつと、部長か……。」", en: "\"So in the end, what disappeared was thirty million yen, the guy who dozed off, and the manager…\"" },
@@ -196,7 +196,7 @@ N2F({
           bank: ["病気", "子ども", "{取材|しゅざい}", "{節電|せつでん}"],
           items: [
             { q: "記者をしていたときは、＿＿にかこつけて、各地の温泉を楽しんだものですよ。", answer: "{取材|しゅざい}", en: "When I was a reporter, I used to enjoy hot springs all over the country on the pretext of covering stories." },
-            { q: "ゲームショーでは、＿＿にかこつけて、自分が楽しんでいる親たちの{姿|すがた}も{結構|けっこう}見かけますよ。", answer: "子ども", en: "At game shows, you see quite a lot of parents enjoying themselves on the pretext of bringing their children." },
+            { q: "ゲームショーでは、＿＿にかこつけて、自分が楽しんでいる親たちの{姿|すがた}も{結構|けっこう}見かけますよ。", answer: "子ども", en: "At video game expos, you see quite a lot of parents enjoying themselves on the pretext of bringing their children." },
             { q: "＿＿にかこつけて、社長にオフィスのエアコンを全部消され、寒くてたまらない。", answer: "{節電|せつでん}", en: "Under the pretext of saving electricity, the president had all the office air conditioners turned off, and it's unbearably cold." },
             { q: "A：社長は{不祥事|ふしょうじ}を起こして以来、＿＿にかこつけてマスコミから逃げているらしいよ。\nB：それが本当なら無責任だよね。", answer: "病気", en: "A: Ever since the scandal, the president has apparently been avoiding the media on the pretext of being ill.\nB: If that's true, it's irresponsible." },
           ],
