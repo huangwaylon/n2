@@ -100,11 +100,11 @@ export function guideView() {
 // front matter of the book (はじめに / この本をお使いになる皆さんへ / 先生方へ). N2 prints it in Japanese and English
 export function aboutView() {
   const src = bookEnglish() ? "book" : "gen";
-  const b2 = (o, tag, cls) => bi(o, tag, cls, { src });
+  const b2 = (o, tag, cls) => bi(o, tag, cls, { book: true });
   const block = (b) => {
     if (b.h) return `<h3 class="bi">${b.h.en ? enToggle() : ""}<span class="ja">${fmt(b.h.ja)}</span> <span class="en-inline">${fmt(b.h.en || "")}</span></h3>`;
     if (b.table) return `<table class="tbl">${b.table.head ? `<tr>${b.table.head.map((c) => `<th>${fmt(c)}</th>`).join("")}</tr>` : ""}${b.table.rows.map((r, i) => `<tr>${r.map((c) => `<td>${fmt(c)}</td>`).join("")}</tr>${b.table.en && b.table.en[i] ? `<tr class="tbl-en"><td colspan="${r.length}">${en(b.table.en[i], src)}</td></tr>` : ""}`).join("")}</table>`;
-    if (b.list) return `<ul class="front-list">${b.list.map((x) => `<li class="bi">${biInner(x, { src })}</li>`).join("")}</ul>`;
+    if (b.list) return `<ul class="front-list">${b.list.map((x) => `<li class="bi">${biInner(x, { book: true })}</li>`).join("")}</ul>`;
     if (b.mark) return `<div class="front-mark">${marks([b.mark])} ${b2(b.p)}</div>`;
     if (b.p) return b2(b.p, "p", "front-p");
     return "";

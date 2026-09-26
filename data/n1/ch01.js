@@ -391,7 +391,7 @@ TRY.registerChapter({
             q: "合格したのに、手続きを忘れていた。{事|こと}ここ（　）、もうどうすることもできない。",
             options: ["に{至|いた}っても", "に{至|いた}るまで", "に{至|いた}る", "に{至|いた}っては"],
             answer: 3,
-            en: "I passed, but I forgot to complete the enrollment procedures. Now that things have come to this, there's nothing more I can do.",
+            en: "I passed, but I forgot to do the paperwork. Now that things have come to this, there's nothing more I can do.",
             why: { en: "事ここに至っては is a fixed idiom: now that things have come to this (bad) pass." },
           },
           {
