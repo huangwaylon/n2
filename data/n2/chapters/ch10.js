@@ -262,7 +262,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "「暑いにつけ寒いにつけ」のような{慣用|かんよう}表現で「どんなときも」という気持ちを表すこともある。",
-              "en": "As in \"暑いにつけ寒いにつけ\", you can also use it as an idiomatic expression to express a feeling of \"whatever.\""
+              "en": "As in \"暑いにつけ寒いにつけ\", it can also be used in idiomatic expressions to mean \"at any time / whatever the circumstances.\""
             }
           ],
           "examples": [
@@ -284,7 +284,7 @@ N2.register({
             },
             {
               "ja": "母は何かにつけ、{心配|しんぱい}して電話してくる。",
-              "en": "My mother calls me at every opportunity because she worries about me.",
+              "en": "My mother worries about every little thing and calls me.",
               "idiom": true
             }
           ],
@@ -330,7 +330,7 @@ N2.register({
               "en": "For someone who said he hated tennis, Mr. Yasuda is practicing pretty hard, isn't he?"
             }
           ],
-          "deepDive": "**〜わりに（は）** (割に, from 割 *ratio, proportion*) compares reality with the level you'd expect from X: *considering X / for X, (it's surprisingly…)*. The result can be better or worse than expected: 安いわりにおいしい (pleasant surprise), 高いわりにおいしくない (disappointment). は adds emphasis/contrast.\n\nWhat comes before わりに usually implies a **degree or amount** — price, age, size, effort, reputation, time spent: 値段のわりに, 年齢のわりに, 練習したわりに, 有名なわりに. The pattern **〜と言うわりに（は）** (*for someone who says ~*) is very common for pointing out that someone's words and actions don't match.\n\nContrasts:\n- **〜のに**: simple contradiction, often with the speaker's frustration. わりに is more measured — it's about degree. 練習したのに負けた (*I practiced, but lost!*) vs 練習したわりにはうまくならない (*I'm not as good as the amount of practice would suggest*).\n- **〜にしては**: *for a ~* based on a category or status: 子どもにしては上手だ, 初めてにしてはよくできた. わりに needs something with degree; にしては works with a category. Both are sometimes possible (年のわりに ≈ 年にしては).\n- **〜だけあって**: the opposite — the result is *as expected* from X: 有名なだけあって、おいしい.\n\nDon't confuse it with the adverb **わりに / わりと** (*relatively, fairly*): 今日はわりに暖かい.\n\nJLPT tip: when the two halves are in an “unexpected degree” relationship (big but light, cheap but good, famous but few people), わりに is the answer; if they are consistent (famous → delicious), look for だけあって.",
+          "deepDive": "**〜わりに（は）** (割に, from 割 *ratio, proportion*) compares reality with the level you'd expect from X: *considering X / for X, (it's surprisingly…)*. The result can be better or worse than expected: 安いわりにおいしい (pleasant surprise), 高いわりにおいしくない (disappointment). は adds emphasis/contrast.\n\nWhat comes before わりに usually implies a **degree or amount** — price, age, size, effort, reputation, time spent: 値段のわりに, 年齢のわりに, 練習したわりに, 有名なわりに. The pattern **〜と言うわりに（は）** (*for someone who says ~*) is very common for pointing out that someone's words and actions don't match.\n\nContrasts:\n- **〜のに**: simple contradiction, often with the speaker's frustration. わりに is more measured — it's about degree. 練習したのに負けた (*I practiced, but lost!*) vs 練習したわりにはうまくならない (*I'm not as good as the amount of practice would suggest*).\n- **〜にしては**: *for a ~* based on a category or status: 子どもにしては上手だ, 初めてにしてはよくできた. わりに needs something with degree; にしては works with a category. Both are sometimes possible (年のわりに ≈ 年にしては).\n- **〜だけあって** (#105): the opposite — the result is *as expected* from X: 有名なだけあって、おいしい.\n\nDon't confuse it with the adverb **わりに / わりと** (*relatively, fairly*): 今日はわりに暖かい.\n\nJLPT tip: when the two halves are in an “unexpected degree” relationship (big but light, cheap but good, famous but few people), わりに is the answer; if they are consistent (famous → delicious), look for だけあって.",
           "see": [
             41
           ],
@@ -475,7 +475,7 @@ N2.register({
               "en": "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open."
             }
           ],
-          "deepDive": "**〜か〜ないかのうちに** paints an action as happening so fast that the previous one had not quite finished: *before ~ was even done / the instant ~*. Literally: *within the time when it's unclear whether ~ has happened or not*.\n\nForm rules:\n- The **same verb** appears twice: 着くか着かないか, 言ったか言わないか. ✗着くか降りないかのうちに.\n- The first verb can be dictionary form or た-form with little difference in meaning: 鳴るか鳴らないか / 鳴ったか鳴らないか.\n- The second half describes what actually happens (past tense, or narrative present as in this chapter's essay) — typically a quick action or event. It can't be a request, command or intention: ✗ドアが開くか開かないかのうちに乗ってください.\n\nNeighbors meaning *as soon as*:\n- **〜たとたん（に）** (N3): *the moment ~, (unexpectedly)*; second half is often a surprise, not always someone's deliberate action.\n- **〜かと思うと／かと思ったら** (#99): *no sooner had A happened than B (a sudden change)*.\n- **〜次第** (*as soon as, I will…*) — used for future plans and requests, the opposite of this pattern.\n- **〜や否や / 〜なり** (N1): very literary equivalents.\n\nRelated うちに patterns (see list p.220): Vうちに (*while ~, gradually*) and Vないうちに (*before ~ happens*) are N3-level; this pattern is the N2 addition.\n\nJLPT tip: in ordering questions, look for pieces like ○○か / ○○ない / かのうちに — the verb must repeat and か appears twice.",
+          "deepDive": "**〜か〜ないかのうちに** paints an action as happening so fast that the previous one had not quite finished: *before ~ was even done / the instant ~*. Literally: *within the time when it's unclear whether ~ has happened or not*.\n\nForm rules:\n- The **same verb** appears twice: 着くか着かないか, 言ったか言わないか. ✗着くか降りないかのうちに.\n- The first verb can be dictionary form or た-form with little difference in meaning: 鳴るか鳴らないか / 鳴ったか鳴らないか.\n- The second half describes what actually happens (past tense, or narrative present as in this chapter's essay) — typically a quick action or event. It can't be a request, command or intention: ✗ドアが開くか開かないかのうちに乗ってください.\n\nNeighbors meaning *as soon as*:\n- **〜たとたん（に）** (N3): *the moment ~, (unexpectedly)*; second half is often a surprise, not always someone's deliberate action.\n- **〜かと思うと／かと思ったら** (#99): *no sooner had A happened than B (a sudden change)*.\n- **〜次第** (#36, *as soon as, I will…*) — used for future plans and requests, the opposite of this pattern.\n- **〜や否や / 〜なり** (N1): very literary equivalents.\n\nRelated うちに patterns (see list p.220): Vうちに (*while ~, gradually*) and Vないうちに (*before ~ happens*) are N3-level; this pattern is the N2 addition.\n\nJLPT tip: in ordering questions, look for pieces like ○○か / ○○ない / かのうちに — the verb must repeat and か appears twice.",
           "see": [
             99
           ],
@@ -695,7 +695,7 @@ N2.register({
                     "お{腹|なか}がいっぱいになった"
                   ],
                   "answer": 0,
-                  "en": "No sooner had Yoko said \"Thanks for the meal\" than she started studying right away."
+                  "en": "Yoko said \"Thanks for the meal\" and immediately started studying."
                 },
                 {
                   "q": "楽しみにしていたゲームソフトがやっと{発売|はつばい}されたかと思ったら、（　）。",
