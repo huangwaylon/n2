@@ -1,7 +1,7 @@
 // 似ている文型リスト〈N1レベル〉 of "TRY! 日本語能力試験 N1" (PDF pp. 178–187), in the book's order.
 // pattern / level / no / ex.ja are the book's (furigana as printed; the book prints no bold and no Chinese here);
 // ex.en and note are our own English. The book has no intro text for the groups.
-N2.registerCompare([
+TRY.registerCompare([
   {
     key: "〜かねない／かねる",
     items: [

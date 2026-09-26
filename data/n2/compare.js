@@ -1,4 +1,4 @@
-N2.registerCompare([
+TRY.registerCompare([
   {
     key: "〜{一方|いっぽう}",
     intro: {

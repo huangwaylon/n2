@@ -4,16 +4,9 @@
 //   node tools/text-snapshot.js [n1|n2] > /tmp/before.txt      (before editing; default n2)
 //   node tools/text-snapshot.js [n1|n2] | diff tools/<book>/text-baseline.txt -   (after — must print nothing)
 // Paragraph re-grouping is allowed: sample lines are compared as one concatenated string per sample.
-const fs = require("fs"), path = require("path");
-const { bookArg, chapterFile, dataDir } = require("./books");
+const { bookArg, loadBook, isBookEnglish } = require("./lib/books");
 const [book] = bookArg(process.argv.slice(2));
-const out = [];
-global.window = global;
-const chapters = [];
-global.N2 = { register: (c) => chapters.push(c), registerCompare: (g) => out.push(["compare", g]), registerFront: (f) => out.push(["front", f]) };
-global.N2.registerBook = () => {};
-for (let i = 1; i <= book.chapters; i++) if (fs.existsSync(chapterFile(book, i))) require(chapterFile(book, i));
-for (const f of ["compare.js", "front.js"]) if (fs.existsSync(dataDir(book, f))) require(dataDir(book, f));
+const TRY = loadBook(book);
 
 const SKIP = new Set(["en", "deepDive", "why", "see", "index", "v", "kind", "mode", "labels", "vertical", "rings", "cont", "style", "note", "intro"]);
 const lines = [];
@@ -24,7 +17,7 @@ function walk(o, p) {
   if (o && typeof o === "object") {
     for (const k of Object.keys(o).sort()) {
       // the book's own English is protected too (usage / notes / can-do / titles); other `en` is our translation
-      if (k === "en" && book.bookLang === "en" && /(usage|formNotes\.\d+|notes\.\d+|canDo\.\d+|title|genre)$/.test(p)) { walk(o[k], p + ".en"); continue; }
+      if (k === "en" && isBookEnglish(TRY, p, o)) { walk(o[k], p + ".en"); continue; }
       if (SKIP.has(k)) continue;
       if (k === "lines" && Array.isArray(o.lines)) {
         // sample text: compare the concatenated Japanese (and speakers) so re-grouping lines into paragraphs is allowed
@@ -35,6 +28,7 @@ function walk(o, p) {
     }
   }
 }
-chapters.forEach((c) => walk(c, "ch" + c.id));
-out.forEach(([name, v]) => walk(v, name));
+TRY.chapters.forEach((c) => walk(c, "ch" + c.id));
+walk(TRY.compare, "compare");
+walk(TRY.front, "front");
 process.stdout.write(lines.join("\n") + "\n");

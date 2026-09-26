@@ -3,7 +3,7 @@
 // in Chinese (the authors' signature, the whole "To teachers" page) are given in English only (`en`, no `ja`).
 // Tables keep the book's Japanese cells; `table.en` is our English, one line per row (not rendered yet). The book's
 // Chinese-only header and "text type" column of the table on p.10 are given in English as `head` and a third column.
-N2.registerFront([
+TRY.registerFront([
   {
     id: "intro",
     title: { ja: "はじめに", en: "Introduction" },

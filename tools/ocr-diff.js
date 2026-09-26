@@ -1,11 +1,10 @@
 // Independent check of a transcription against OCR of the scanned book (macOS Vision, see tools/ocr/).
-// usage: node tools/ocr-diff.js data/<book>/chapters/ch01.js 18-29[,31,40-42] [threshold]
-//        (works on fragments too: data/<book>/frag/ch01-p0.js)
+// usage: node tools/ocr-diff.js data/<book>/ch01.js 18-29[,31,40-42] [threshold]   (also data/<book>/compare.js, front.js)
 // Every Japanese string (and the book's own English translations in N2) is fuzzy-matched
 // against the OCR text of the given pages plus the answer/script supplement. Strings whose best match
 // scores below the threshold are listed — each must be re-checked against the scan by eye.
 const fs = require("fs"), path = require("path");
-const { bookOf, root } = require("./books");
+const { bookOf, root, loadFile, isBookEnglish } = require("./lib/books");
 const [file, range, thr = "0.9"] = process.argv.slice(2);
 const book = bookOf(path.resolve(file));
 const threshold = +thr;
@@ -17,11 +16,8 @@ for (const r of String(range).split(",")) {
 }
 for (let p = book.supplement[0]; p <= book.supplement[1]; p++) if (!pages.includes(p)) pages.push(p);
 
-let data;
-global.window = global;
-global.N2 = { register: (c) => (data = c), registerCompare: (g) => (data = g) };
-global.N2F = (f) => (data = f);
-require(path.resolve(file));
+const TRY = loadFile(file);
+const data = TRY.chapters[0] || (/compare\.js$/.test(file) ? TRY.compare : TRY.front);
 
 // ruby → base, drop markup, badges → their text, unify punctuation/width
 const plain = (s) => String(s || "")
@@ -39,7 +35,7 @@ function loadCorpus(dir) {
   // OCR puts furigana on their own short all-kana lines; drop those so kanji lines join cleanly
   return norm(corpus.split("\n").filter((l) => !/^[ぁ-ゖー\s]{1,12}$/.test(l.trim())).join(""));
 }
-const CORPUS = { ja: loadCorpus(process.env.OCR_DIR || book.ocr.ja) };
+const CORPUS = { ja: loadCorpus(process.env.OCR_DIR || book.ocr) };
 
 // best similarity of needle against any window of the corpus (edit distance, banded search)
 function bestScore(needle, corpusNorm) {
@@ -76,19 +72,17 @@ function editWindow(nd, hay) {
 // collect strings with their location; skip our own English translations and deepDives
 const out = [];
 const SKIP_KEYS = new Set(["deepDive", "why", "v", "kind", "type", "mode", "labels", "note", "see", "index", "no", "stars", "marks", "answer", "order", "star", "id", "intro", "pattern"]);
-// N2: English printed in the book: usage/formNotes/notes/can-do/titles. All other `en` strings are our translations.
-// N1: every `en` is ours.
-const BOOK_EN = /(^|\.)(usage|formNotes\.\d+|notes\.\d+|canDo\.\d+|title|genre)\.en$/;
-(function walk(o, p) {
+// English is checked only where the book prints it (N2 usage, notes, can-do, titles); the rest is ours
+(function walk(o, p, parent) {
   if (typeof o === "string") {
-    if (/(^|\.)en(\.\d+)?$/.test(p) && (book.bookLang !== "en" || !BOOK_EN.test(p))) return;
+    if (/(^|\.)en(\.\d+)?$/.test(p) && !(/(^|\.)en$/.test(p) && isBookEnglish(TRY, p.replace(/\.?en$/, ""), parent))) return;
     if (/(^|\.)questionEn$/.test(p)) return;
     const n = norm(o);
     if (n.length >= 4) out.push({ p, s: o, n, c: "ja" });
     return;
   }
-  if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP_KEYS.has(k)) walk(v, p ? p + "." + k : k);
-})(data, "");
+  if (o && typeof o === "object") for (const [k, v] of Object.entries(o)) if (!SKIP_KEYS.has(k)) walk(v, p ? p + "." + k : k, o);
+})(data, "", null);
 
 let bad = 0;
 out.forEach((x) => {

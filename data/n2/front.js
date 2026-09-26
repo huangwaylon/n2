@@ -1,5 +1,5 @@
 // Front matter of "TRY! 日本語能力試験 N2" (PDF pp. 3–11), transcribed verbatim.
-N2.registerFront([
+TRY.registerFront([
   {
     id: "intro",
     title: { ja: "はじめに", en: "Introduction" },

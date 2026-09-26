@@ -13,67 +13,9 @@
 <link rel="stylesheet" href="assets/css/content.css">
 <link rel="stylesheet" href="assets/css/exercises.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>文</text></svg>">
-<script src="assets/app.js"></script>
+<script src="assets/js/boot.js"></script>
 <script src="data/n2/book.js"></script>
-<script src="data/n2/chapters/ch01.js"></script>
-<script src="data/n2/chapters/ch02.js"></script>
-<script src="data/n2/chapters/ch03.js"></script>
-<script src="data/n2/chapters/ch04.js"></script>
-<script src="data/n2/chapters/ch05.js"></script>
-<script src="data/n2/chapters/ch06.js"></script>
-<script src="data/n2/chapters/ch07.js"></script>
-<script src="data/n2/chapters/ch08.js"></script>
-<script src="data/n2/chapters/ch09.js"></script>
-<script src="data/n2/chapters/ch10.js"></script>
-<script src="data/n2/chapters/ch11.js"></script>
-<script src="data/n2/chapters/ch12.js"></script>
-<script src="data/n2/chapters/ch13.js"></script>
-<script src="data/n2/chapters/ch14.js"></script>
-<script src="data/n2/compare.js"></script>
-<script src="data/n2/front.js"></script>
+<script type="module" src="assets/js/main.js"></script>
 </head>
-<body>
-<header class="topbar">
-  <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
-  <a class="brand" href="#/" aria-label="N2 文法 ホーム Home"><span class="brand-mark">N2</span><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
-  <nav class="topnav" aria-label="ページ Pages">
-    <a href="#/about">この本について<span class="en-inline"> About</span></a>
-    <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
-    <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
-    <a href="#/compare">似ている文型<span class="en-inline"> Compare</span></a>
-    <a href="#/cando">できること<span class="en-inline"> Can-do</span></a>
-    <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
-  </nav>
-  <div class="toggles">
-    <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
-    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
-    <details class="settings"><summary title="設定 Settings" aria-label="設定 Settings"><span aria-hidden="true">⚙</span></summary>
-      <div class="settings-pop">
-        <label class="set-row">音声の速さ <span class="en-inline">Speech rate</span> <span id="rate-v"></span><input type="range" id="rate" min="0.5" max="1.4" step="0.1"></label>
-        <label class="set-row">縦書きの文章 <span class="en-inline">Vertical texts</span>
-          <select id="vmode-set"><option value="auto">自動 Auto</option><option value="v">縦 Vertical</option><option value="h">横 Horizontal</option></select></label>
-        <button class="btn small" onclick="N2.resetProgress()">進度をリセット <span class="en-inline">Reset progress</span></button>
-      </div>
-    </details>
-  </div>
-</header>
-<div class="layout">
-  <aside class="sidebar" id="sidebar" aria-label="目次 Contents">
-    <nav class="sb-pages" aria-label="ページ Pages">
-      <a href="#/about">この本について<span class="en-inline"> About</span></a>
-      <a href="#/guide">使い方<span class="en-inline"> Guide</span></a>
-      <a href="#/index">さくいん<span class="en-inline"> Index</span></a>
-      <a href="#/compare">似ている文型<span class="en-inline"> Compare</span></a>
-      <a href="#/cando">できること<span class="en-inline"> Can-do</span></a>
-      <a href="#/drill">練習<span class="en-inline"> Drill</span></a>
-    </nav>
-    <div id="sb-nav"></div>
-  </aside>
-  <div class="sb-scrim" data-act="sb"></div>
-  <main id="main"></main>
-</div>
-<footer class="site-foot">
-  <p>Personal study edition of <em>TRY! 日本語能力試験 N2 文法から伸ばす日本語［改訂版］</em> (ABK, ASK Publishing, 2014). Book content is transcribed for private use; English translations of example sentences and the “deep-dive” explanations are supplementary. Not for distribution.</p>
-</footer>
-</body>
+<body></body>
 </html>

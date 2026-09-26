@@ -2,15 +2,9 @@
 // under the right grammar-point number, and that all points sit in the right chapters and parts.
 // usage: node tools/verify-index.js [n1|n2]   (default n2)
 const fs = require("fs"), path = require("path");
-const { bookArg, chapterFile } = require("./books");
+const { bookArg, loadBook, root } = require("./lib/books");
 const [book] = bookArg(process.argv.slice(2));
-const chapters = [];
-global.window = global;
-global.N2 = { register: (c) => chapters.push(c), registerCompare: () => {} };
-for (let i = 1; i <= book.chapters; i++) {
-  const f = chapterFile(book, i);
-  if (fs.existsSync(f)) require(f);
-}
+const { chapters } = loadBook(book);
 const { TOC, PARTS } = book; // PARTS[ch] = first point of part (2), (3) …
 const plain = (s) => String(s || "").replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\[[^\]]*\]/g, "").replace(/\*\*/g, "");
 const norm = (s) => plain(s).replace(/（[^）]*）|\([^)]*\)/g, "").replace(/[〜～A-Za-z①②③。…+＋\s・、／/「」]/g, "");
@@ -31,7 +25,7 @@ chapters.forEach((ch) => {
   }));
 });
 const present = new Set(chapters.map((c) => c.id));
-const lines = fs.readFileSync(path.join(__dirname, book.id, "index-manifest.txt"), "utf8").split("\n").filter((l) => l && !l.startsWith("#"));
+const lines = fs.readFileSync(path.join(root, "tools", book.id, "index-manifest.txt"), "utf8").split("\n").filter((l) => l && !l.startsWith("#"));
 let checked = 0;
 lines.forEach((l) => {
   const [form, noS] = l.split("\t"); const no = +noS;

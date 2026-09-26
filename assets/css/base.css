@@ -1,5 +1,6 @@
-/* base.css — [A] tokens, reset, typography, English layer, shared primitives (.bi .btn .speak .badge). Owned by implementer A. */
+/* base.css — tokens (light and dark theme), reset, typography, English layer, shared primitives (.bi .btn .speak .badge). */
 :root {
+  color-scheme: light;
   --bg: #faf8f4;
   --panel: #ffffff;
   --ink: #1f2328;
@@ -41,15 +42,15 @@
   --review-bg: #dcdcdc;   /* まとめの問題 page tint */
   --en-book: #6b6f75;     /* English printed in the book (--en stays for our translations) */
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #15171a; --panel: #1d2024; --ink: #e6e6e6; --ink-2: #aab1ba; --ink-3: #7d858f; --line: #30343a;
-    --accent: #f06595; --accent-soft: #3a1f2a; --teal: #3bc9db; --teal-soft: #15313a;
-    --ok: #3fb950; --ok-soft: #12301c; --ng: #ff7b72; --ng-soft: #3a1618; --en: #8ab4f8; --en-soft: #1b2636;
-    --band:#2a2d31; --band-edge:#8b9097; --banner:#3a3e44; --pill:#c9ccd1; --pill-ink:#15171a;
-    --pill-shadow:#000; --rule:#5a5f66; --note-bg:#24272b; --badge-bg:#4a4f56; --badge-ink:#f0f0f0;
-    --review-bg:#101214; --en-book:#9aa0a8;
-  }
+/* dark theme: boot.js sets data-theme from the setting ("auto" follows prefers-color-scheme) */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #15171a; --panel: #1d2024; --ink: #e6e6e6; --ink-2: #aab1ba; --ink-3: #7d858f; --line: #30343a;
+  --accent: #f06595; --accent-soft: #3a1f2a; --teal: #3bc9db; --teal-soft: #15313a;
+  --ok: #3fb950; --ok-soft: #12301c; --ng: #ff7b72; --ng-soft: #3a1618; --en: #8ab4f8; --en-soft: #1b2636;
+  --band:#2a2d31; --band-edge:#8b9097; --banner:#3a3e44; --pill:#c9ccd1; --pill-ink:#15171a;
+  --pill-shadow:#000; --rule:#5a5f66; --note-bg:#24272b; --badge-bg:#4a4f56; --badge-ink:#f0f0f0;
+  --review-bg:#101214; --en-book:#9aa0a8;
 }
 @media (min-width: 1200px) { :root { --sbw: 280px; } }
 @media (max-width: 900px) { :root { --main-pad: 20px; } }
@@ -116,6 +117,11 @@ body.show-en span.en, .en-open span.en { display: block; }
 .en-all .en { display: block; }
 .en-all .en-btn--scope { background: var(--en-soft); color: var(--en); border-color: var(--en); }
 .en--book { color: var(--en-book); font-family: var(--goth); font-size: 13.5px; line-height: 1.5; }
+/* English generated for this site (the book doesn't print it) carries a "generated" tag (markup.js en()) */
+.en--gen::after, .gen-tag { display: inline-block; margin-left: .6em; padding: 0 .4em; border: 1px solid currentColor; border-radius: 4px;
+  font: 600 9.5px/1.5 system-ui, -apple-system, sans-serif; letter-spacing: .05em; text-transform: uppercase; text-indent: 0; vertical-align: .15em; opacity: .65; white-space: nowrap; }
+.en--gen::after { content: "generated"; }
+.legend .en { display: inline; }
 body.show-en .en-btn { display: none; }
 .feedback .en, .script .en { display: none; }
 .q.graded .feedback .en { display: block; }
