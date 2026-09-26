@@ -91,7 +91,7 @@ N2.registerCompare([
         ex: { ja: "責任を取ることなしに自由を求めることはできない。", en: "You cannot demand freedom without taking responsibility." },
         note: "V-る + ことなしに + negative: \"without ~, one cannot ~\". Same as ことなく…ない, a little more formal." },
       { pattern: "〜ないことには", level: "N2",
-        ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい採用するのかなあ。\nB：問い合わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder about how many they'll take on.\nB: Unless you ask them, you won't know the details." },
+        ex: { ja: "A：ここに{若干名|じゃっかんめい}{募集|ぼしゅう}って書いてあるけど、何人ぐらい採用するのかなあ。\nB：問い合わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder about how many they'll take on.\nB: Unless you ask them, you won't know the details." },
         note: "\"Unless ~, (you can't) ~\": the first action is a necessary condition; followed by a negative." },
       { pattern: "Vことはない", level: "N2",
         ex: { ja: "君が{謝|あやま}ることはないよ。悪いのは向こうなんだから。", en: "There's no need for you to apologize. They're the ones in the wrong." },
@@ -170,7 +170,7 @@ N2.registerCompare([
     key: "〜といい／といわず",
     items: [
       { pattern: "N₁といいN₂といい", level: "N1", no: 44,
-        ex: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "Both the rich soup and the perfect firmness of the noodles — no wonder it's the best ramen in Japan." },
+        ex: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich soup, the perfectly firm noodles — it really is the best ramen in Japan." },
         note: "\"Both N₁ and N₂ (alike)\": picks out examples to support an evaluation (praise or criticism) of the whole." },
       { pattern: "N₁といわずN₂といわず", level: "N1", no: 54,
         ex: { ja: "昼といわず、夜といわず、{大型|おおがた}のダンプカーが通るのでうちが{揺|ゆ}れて困る。", en: "Big dump trucks go by day and night alike, so our house shakes, which is a real nuisance." },
@@ -273,7 +273,7 @@ N2.registerCompare([
         ex: { ja: "{欠陥品|けっかんひん}を売ったのだから消費者に非難されないではすまないでしょう。", en: "Since they sold defective goods, they can hardly avoid being criticized by consumers." },
         note: "\"Can't get away without ~\" (= ずにはすまない): unavoidable given the situation or social norms." },
       { pattern: "Vないでもない", level: "N1", no: 19,
-        ex: { ja: "A：ぜひにと言われれば飲まないでもないんですが、最近酒は{控|ひか}えているんです。\nB：じゃあ、まあ、少しだけ……。", en: "A: If you really insist, it's not that I won't drink, but I've been cutting back on alcohol lately.\nB: Well then, just a little……" },
+        ex: { ja: "A：ぜひにと言われれば飲まないでもないんですが、最近酒は{控|ひか}えているんです。\nB：じゃあ、まあ、少しだけ……。", en: "A: If you really insist, it's not that I won't drink, but I've been cutting back on alcohol lately.\nB: Well then, maybe just a little…" },
         note: "V-ない + でもない: \"it's not that I don't / won't ~\". A reluctant, partial affirmative (= なくもない); unlike ないではおかない, it has no sense of determination." }
     ]
   },
@@ -295,7 +295,7 @@ N2.registerCompare([
         ex: { ja: "{台湾|たいわん}へ旅行に行くなら、11月が一番いいと思いますよ。", en: "If you're going to travel to Taiwan, I think November is the best time." },
         note: "\"If (you are going to) ~\": takes up what the listener has said or plans and gives advice or an opinion about it." },
       { pattern: "〜なら〜で", level: "N1", no: 80,
-        ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: Sir, I'd like to leave the company at the end of this month……\nB: If you're going to quit, fine, but finish your current work properly first." },
+        ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: Sir, I'd like to leave the company at the end of this month…\nB: If you're going to quit, fine, but finish your current work properly first." },
         note: "X なら X で (same word repeated): \"if ~, then (at least / in that case) ~\". Accepts the situation and says what should be done, or what problem it brings, given that." },
       { pattern: "〜ならまだしも", level: "N1", no: 50,
         ex: { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
@@ -380,7 +380,7 @@ N2.registerCompare([
         note: "X にしろ Y にしろ: \"whether X or Y\" (= にしても〜にしても, somewhat more written)." },
       { pattern: "Nにしたところで", level: "N1", no: 86,
         ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even someone as mild-mannered as Tanaka would surely get angry if kept waiting a whole hour." },
-        note: "Person + にしたところで: \"even N (would be no exception)\". Casual/spoken counterpart of にしても; usually followed by a negative or unfavourable result." },
+        note: "Person + にしたところで: \"even N (would be no exception)\". Much like にしても; usually followed by a negative or unfavourable result." },
       { pattern: "Nにしたら", level: "N1", no: 81,
         ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victims' point of view it's probably not something they could accept." },
         note: "Person + にしたら: \"from N's point of view\" (= にしてみれば)." }
