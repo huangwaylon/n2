@@ -16,7 +16,7 @@ N2F({
       { ja: "20年以上の時間をかけて話し合いを続けた{結果|けっか}、1995年、ついにオオカミが{放|はな}された。", en: "As a result of more than 20 years of continued discussion, wolves were finally released in 1995." },
       { cont: true, ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}し**つつある**ことが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing." },
       { ja: "同じような取り組みはアメリカ**に{限|かぎ}らず**、ヨーロッパでも{検討|けんとう}されている。", en: "Similar efforts are being considered not only in America but in Europe as well." },
-      { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "While carefully continuing to exchange views, people will probably go on maintaining the balance of nature." },
+      { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "The balance of nature will probably be maintained through a careful, continuing exchange of views." },
       { ja: "こうした{意識|いしき}の{変化|へんか}にともない、オオカミに対する悪いイメージも{過去|かこ}のものになっていくかもしれない。", en: "Along with this change in awareness, the bad image of wolves may also become a thing of the past." },
     ],
   },
@@ -53,7 +53,7 @@ N2F({
         "- It is most natural with verbs of thinking, knowing, existing and solving (see the ＊ note).\n" +
         "- **あり得る / あり得ない** are the everyday members. The book marks the ありえない example as idiomatic and adds a ＊ note: **ありえない** is a common conversational exclamation meaning *no way, unbelievable* (三時間も待たされるなんて、ありえない！).\n\n" +
         "Don't confuse with **V-ざるを得ない** (#24, *can't help but ~*): 機械化せざるを得ない = *have no choice but to mechanize* (see #67 example ④). Both contain 得ない, but #24 attaches to the ない-stem + ざる and expresses unavoidable obligation, while 〜得ない attaches to the ます-stem and expresses impossibility.\n\n" +
-        "Related: **〜かねない** (*might (unfortunately) ~*) is for undesirable possibilities; 〜得る is neutral. **〜かねる** (*cannot bring oneself to ~ / is unable to ~*) is often used in polite refusals (お答えしかねます).\n\n" +
+        "Related: **〜かねない** (#27, *might (unfortunately) ~*) is for undesirable possibilities; 〜得る is neutral. **〜かねる** (*cannot bring oneself to ~ / is unable to ~*) is often used in polite refusals (お答えしかねます).\n\n" +
         "JLPT tip: know both readings and that 得ない is always えない.",
       see: [24],
       index: ["V得る（うる）", "V得る（える）", "V得ない", "あり得る", "ありえない"],
@@ -131,7 +131,7 @@ N2F({
         "- Largely interchangeable, but に関して sounds more official and can feel a little broader (*matters related to ~*), whereas について points more directly at the content (日本の歴史について話す).\n" +
         "- In casual speech, について (or just 〜のこと) is more natural.\n" +
         "- 〜に関しては often highlights a topic in contrast: 値段に関しては問題ないが…\n\n" +
-        "Related: **〜をめぐって** (*over / surrounding ~*) — used when there is debate or conflict around the topic (予算をめぐって議論が続く). **〜に対して** is about the target of an action or attitude, not a topic.\n\n" +
+        "Related: **〜をめぐって** (#133, *over / surrounding ~*) — used when there is debate or conflict around the topic (予算をめぐって議論が続く). **〜に対して** is about the target of an action or attitude, not a topic.\n\n" +
         "JLPT tip: if the blank directly modifies the next noun (試合に関する情報), choose に関する; if it links to the predicate, choose に関して. Careful: a noun right after the blank does not always mean に関する — in 利用に関して大学でアンケートを行った, 大学 is not modified; に関して links to 行った. When the topic is marked as a contrast (…は), に関しては.",
       see: [],
       index: ["Nに関して", "Nに関する", "Nに関しては", "Nに関しての"],
