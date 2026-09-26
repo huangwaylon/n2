@@ -342,5 +342,5 @@
 .exs__foot { display: block; text-align: right; font-size: .8em; color: var(--ink-2); line-height: 1.5; margin: .1em 0 .2em; }
 /* headlines: break only at the book's spaces / punctuation ("ビールの祭典　200周年"), not inside a word; a phrase that is
    still too long for the column breaks anywhere */
-.sample__headline, .vt--h .vt-title, .nt-heading { word-break: keep-all; overflow-wrap: anywhere; }
+.sample__headline, .vt-title, .vt-label, .nt-heading { word-break: keep-all; overflow-wrap: anywhere; }
 @media (max-width: 600px) { .vt--h .vt-title { font-size: 1.3em; } .sample__headline { font-size: 21px; } }

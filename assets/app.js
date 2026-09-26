@@ -651,6 +651,14 @@
   // scroll-hint fade on the vertical scroller while more text is hidden to the left
   function vtScrollInit() {
     $$(".vt-scroll").forEach((sc) => {
+      // a text only a little wider than the frame gets taller columns instead of a sideways scroll (up to 80vh / 44em):
+      // the last columns were hidden behind the scroll fade (n1 ch4 (2))
+      if (!sc.dataset.fitH && sc.clientWidth) {
+        sc.dataset.fitH = 1;
+        const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(innerHeight * 0.8, 44 * fs);
+        let h = sc.clientHeight;
+        while (sc.scrollWidth > sc.clientWidth + 1 && h + 2 * fs <= max) { h += 2 * fs; sc.style.height = `${h}px`; }
+      }
       const upd = () => sc.classList.toggle("has-more", sc.scrollWidth - sc.clientWidth + sc.scrollLeft > 4 && Math.abs(sc.scrollLeft) < sc.scrollWidth - sc.clientWidth - 4);
       if (!sc.dataset.hint) { sc.dataset.hint = 1; sc.addEventListener("scroll", upd, { passive: true }); }
       upd();
@@ -1465,7 +1473,10 @@
   });
   // readings that appear later (details opened, feedback shown, EN) are fitted when they get a layout; line breaks move on resize
   document.addEventListener("toggle", () => queueFit(), true);
-  window.addEventListener("resize", () => { clearTimeout(queueFit.t); queueFit.t = setTimeout(() => queueFit(true), 150); });
+  window.addEventListener("resize", () => { clearTimeout(queueFit.t); queueFit.t = setTimeout(() => {
+    $$(".vt-scroll[data-fit-h]").forEach((sc) => { delete sc.dataset.fitH; sc.style.height = ""; });
+    vtScrollInit(); queueFit(true);
+  }, 150); });
   if (document.fonts) document.fonts.ready.then(() => queueFit(true));
   document.addEventListener("change", (e) => {
     const t = e.target;

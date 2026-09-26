@@ -398,6 +398,11 @@ The book has no equivalent; this is a web convenience.
 
 **Responsive:** at ≤900 the default is horizontal (`auto`); the 縦/横 toggle stays so phone users can opt in. When vertical on a phone, height is `clamp(20em, 60vh, 24em)` and font 16px; swiping scrolls horizontally inside `.vt-scroll` only, never the page.
 
+**Current:** a vertical text that is only a little wider than its frame gets taller columns (vtScrollInit: +2em steps up to
+80vh / 44em) instead of hiding its last columns behind the scroll fade (n1 ch4 (2) at 1280 px). Headlines / labels use
+`word-break: keep-all` (break only at the book's spaces: "ミュンヘン" gets its own column), and the whole site uses
+`line-break: strict` (no ュ / ッ / ー / closing punctuation at a line or column start).
+
 ### C7 Grammar-point header band [B]
 
 **Book (pp.19, 20, 21, 25, 30, 72, 123, 148):**

@@ -62,6 +62,8 @@ html, body { overflow-x: clip; }
 html { scroll-padding-top: calc(var(--top) + env(safe-area-inset-top, 0px) + 12px); }
 /* Gothic UI text: 16px at every width (15.5 at ≤390); line-height ≥1.9 because most lines carry furigana */
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--jp); line-height: 1.9; font-size: 16px; -webkit-text-size-adjust: 100%; }
+/* kinsoku as in print: no small kana (ュ ッ), ー or closing punctuation at the start of a line / column */
+body { line-break: strict; }
 @media (max-width: 390px) { body { font-size: 15.5px; } }
 a { color: var(--teal); text-decoration: none; }
 @media (hover: hover) { a:hover { text-decoration: underline; } }
