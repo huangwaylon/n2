@@ -20,12 +20,12 @@ N2F({
       { cont: true, ja: "{優斗|ゆうと}はその様子を見る**ともなく**見ている。", en: "Yuto is idly watching her, without really meaning to." },
       { ja: "{萌花|もえか}は十六歳。", en: "Moeka is sixteen." },
       { cont: true, ja: "年よりもずっと大人っぽい印象だ。", en: "She gives the impression of being far more grown-up than her age." },
-      { cont: true, ja: "この神社の娘として生まれ、町を{異界|いかい}のものたちから守る**べく**育てられてきたのだから、普通の十六歳と同じはずがない。", en: "Born the daughter of this shrine and raised to protect the town from the beings of the other world, there is no way she could be the same as an ordinary sixteen-year-old." },
+      { cont: true, ja: "この神社の娘として生まれ、町を{異界|いかい}のものたちから守る**べく**育てられてきたのだから、普通の十六歳と同じはずがない。", en: "Born the daughter of this shrine and raised for the purpose of protecting the town from the beings of the other world, she could hardly be the same as an ordinary sixteen-year-old." },
       { cont: true, ja: "{物心|ものごころ}つい**てからというもの**、{修行|しゅぎょう}ずくめの毎日だった。", en: "Ever since she was old enough to understand the world, her days had been nothing but spiritual training." },
       { cont: true, ja: "この家に生まれたばかりに、普通の子どものように遊んだこともない。", en: "Simply because she was born into this family, she has never even played the way ordinary children do." },
       { cont: true, ja: "それは、生まれ**ながらに**決められていたことだった。", en: "That was something decided from the moment she was born." },
       { cont: true, ja: "とはいえ、それを不満に思っているわけでもない。", en: "That said, it's not as if she resents it." },
-      { cont: true, ja: "{萌花|もえか}にしてみれば、当たり前のことをしてき**たまでのことである**。", en: "As far as Moeka is concerned, she has simply been doing what was only natural." },
+      { cont: true, ja: "{萌花|もえか}にしてみれば、当たり前のことをしてき**たまでのことである**。", en: "As far as Moeka is concerned, she has merely been doing what was only natural — nothing more." },
       { cont: true, ja: "{厳|きび}しい{修行|しゅぎょう}**をものともせず**、母親をも超える力を身につけてきた。", en: "Undaunted by the harsh training, she has acquired powers that surpass even her mother's." },
       { ja: "{優斗|ゆうと}は十七歳、高校2年生である。", en: "Yuto is seventeen, a second-year high school student." },
       { cont: true, ja: "{赤|あか}ん{坊|ぼう}のころに事故で両親を失い、この神社に引き取られた。", en: "He lost his parents in an accident when he was a baby and was taken in by this shrine." },
@@ -129,7 +129,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜べく…」は「優勝すべく練習を重ねた」のように「〜（優勝）しようと思って…する（練習を重ねる）」と言いたいときに使われる。",
-        en: "As in \"優勝すべく練習を重ねた\", \"〜べく…\" is used when you want to say \"do … (keep practicing) intending to ~ (win).\"",
+        en: "\"〜べく…\" is used when you want to say \"do … (e.g. keep practicing) with the intention of ~ (e.g. winning),\" as in 優勝すべく練習を重ねた (\"practiced over and over in order to win\").",
       },
       forms: ["[V-る] + べく"],
       formNotes: [
@@ -138,7 +138,7 @@ N2F({
       examples: [
         { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business." },
         { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな取り組みをしている。", en: "In order to improve living conditions on the island, the islanders are undertaking various initiatives." },
-        { ja: "今年こそロケットを完成させるべく、研究者たちは努力を続けている。", en: "The researchers are continuing their efforts in order to complete the rocket this year, at last." },
+        { ja: "今年こそロケットを完成させるべく、研究者たちは努力を続けている。", en: "The researchers are continuing their efforts in order to finally complete the rocket this year, without fail." },
         { ja: "国民の理解と協力を{得|え}るべく、{広報|こうほう}活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Public relations activities were stepped up in order to gain the understanding and cooperation of the people, but no significant results were obtained." },
       ],
       deepDive:
@@ -285,7 +285,7 @@ N2F({
       },
       forms: ["[V-た] + までのことだ", "[V-た] + までだ"],
       examples: [
-        { ja: "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "When I blew the whistle internally, I was simply following my own conscience." },
+        { ja: "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "If I blew the whistle inside the company, it was simply because I was following my own conscience — nothing more." },
         { ja: "A：助けていただき、ありがとうございました。\nB：いやいや、医者として当然のことをしたまでです。", en: "A: Thank you so much for helping me.\nB: Not at all. I only did what any doctor would do." },
         { ja: "聞かれたから答えたまでで、別に深い意味はないよ。", en: "I only answered because I was asked; there's no deeper meaning to it." },
       ],
@@ -308,7 +308,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜をものともせず」は「困難なことがあっても、その{障害|しょうがい}を大変なことと思わないで、力強く行う」と言いたいときに使われる。普通は自分の行動には使わない。",
-        en: "\"〜をものともせず\" is used when you want to say \"even though there are difficulties, (someone) acts forcefully without treating the obstacle as a big deal.\" It is not normally used for one's own actions.",
+        en: "\"〜をものともせず\" is used when you want to say \"even when there are difficulties, (someone) doesn't treat the obstacle as anything serious and presses on with vigor.\" It is not normally used about one's own actions.",
       },
       forms: ["[N] + をものともせず（に）"],
       examples: [

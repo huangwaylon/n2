@@ -16,12 +16,12 @@ N2F({
       { cont: true, ja: "昨夜の{小鬼|こおに}が残した{謎|なぞ}**めいた**言葉だ。", en: "It is the cryptic words left by the little demon last night." },
       { ja: "{小鬼|こおに}が現れる**や{否|いな}や**、{萌花|もえか}は{懐|ふところ}から短い{刀|かたな}を出した。", en: "The moment the little demon appeared, Moeka drew a short sword from the fold of her robe." },
       { cont: true, ja: "この神社に伝わる宝の一つだ。", en: "It is one of the treasures handed down in this shrine." },
-      { cont: true, ja: "{小鬼|こおに}**ごとき**は、そのギラリとした光を見ただけで恐れて逃げ出すのが普通である。", en: "A mere little demon would normally flee in fear at the mere sight of its glinting light." },
-      { cont: true, ja: "この{小鬼|こおに}も{慌|あわ}てて逃げ出す**かと思いきや**、じっと{萌花|もえか}の目を見ると、声を出さずに伝えた。", en: "Just when she expected this little demon to flee in a panic as well, it instead stared straight into Moeka's eyes and conveyed a message without making a sound." },
-      { ja: "「{楽園|らくえん}を{創|つく}ら**んがため**、あのお{方|かた}がお{姿|すがた}を現される。", en: "\"In order to create paradise, that Person will reveal Himself." },
+      { cont: true, ja: "{小鬼|こおに}**ごとき**は、そのギラリとした光を見ただけで恐れて逃げ出すのが普通である。", en: "A lowly little demon would normally take fright and run away at the mere sight of its glinting blade." },
+      { cont: true, ja: "この{小鬼|こおに}も{慌|あわ}てて逃げ出す**かと思いきや**、じっと{萌花|もえか}の目を見ると、声を出さずに伝えた。", en: "One would have expected this little demon to flee in a panic as well, but instead it stared straight into Moeka's eyes and, without making a sound, conveyed a message:" },
+      { ja: "「{楽園|らくえん}を{創|つく}ら**んがため**、あのお{方|かた}がお{姿|すがた}を現される。", en: "\"In order to create paradise, the Exalted One will show Himself." },
       { cont: true, ja: "待て。」と。", en: "Wait.\"" },
       { ja: "{小鬼|こおに}の体は{薄紙|うすがみ}**のごとく**{透|す}け{始|はじ}めた。", en: "The little demon's body began to turn transparent, like thin paper." },
-      { cont: true, ja: "あのお{方|かた}とは{誰|だれ}か、{楽園|らくえん}とは何か、それになぜ自分にそれを伝えるのか、すべての質問に答えることなく、{小鬼|こおに}は黒い空に{溶|と}け{込|こ}み、{姿|すがた}を消した。", en: "Who was \"that Person\"? What was \"paradise\"? And why was it telling her this? Without answering any of these questions, the little demon melted into the black sky and vanished." },
+      { cont: true, ja: "あのお{方|かた}とは{誰|だれ}か、{楽園|らくえん}とは何か、それになぜ自分にそれを伝えるのか、すべての質問に答えることなく、{小鬼|こおに}は黒い空に{溶|と}け{込|こ}み、{姿|すがた}を消した。", en: "Who was \"the Exalted One\"? What was \"paradise\"? And why was it telling her this? Without answering any of these questions, the little demon melted into the black sky and vanished." },
       { ja: "暗くなっていた空が、{一瞬|いっしゅん}**にして**{満月|まんげつ}の明るさを取り戻した。", en: "The sky, which had grown dark, instantly regained the brightness of the full moon." },
       { style: "sep", ja: "— {中略|ちゅうりゃく} —", en: "— (omitted) —" },
       { ja: "戦いは終わった。", en: "The battle was over." },
@@ -46,9 +46,9 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜めく」は「だんだん春めいてきた」のように「〜（春）と感じられる部分がある」ときに使われる。「完全に〜（春）」であるときには使わない。",
-        en: "As in \"だんだん春めいてきた\", \"〜めく\" is used when there is something about it that feels like ~ (spring). It is not used when it is completely ~ (spring).",
+        en: "\"〜めく\" is used when something has aspects that make it feel like ~ (e.g. spring), as in だんだん春めいてきた (\"it has gradually started to feel like spring\"). It is not used when something is completely ~ (spring).",
       },
-      forms: ["[N₁] + めく", "[N₁] + めいた ＋ [N₂]"],
+      forms: ["[N₁] + めく", "[N₁] + めいた + [N₂]"],
       examples: [
         { ja: "風も涼しくなり、{徐々|じょじょ}に秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool and it is gradually beginning to feel like autumn; how are you getting along?" },
         { ja: "{冗談|じょうだん}めいた{口調|くちょう}だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, \"In ten years I might be the president,\" his eyes were deadly serious." },
@@ -57,9 +57,9 @@ N2F({
       ],
       deepDive:
         "**Nめく** is a suffix that turns a noun into a godan verb meaning *to take on the air of N, to show signs of N, to seem like N*. The thing is **not fully N**, but it has some quality that makes you feel N: 春めく *to become spring-like*, 謎めいた言葉 *cryptic words (words with an air of mystery)*.\n\n" +
-        "Forms:\n- Predicate: 春めいてきた, 秋めいてまいりました — usually with 〜てくる, describing a gradual change.\n- Before a noun: **Nめいた N₂** (the た form, not ✗めくN in modern use): 冗談めいた口調, 非難めいたこと, 作り話めいた美談, 皮肉めいた言い方.\n\n" +
+        "Forms:\n- Predicate: 春めいてきた, 秋めいてまいりました — usually with 〜てくる, describing a gradual change.\n- Before a noun: **Nめいた N₂** (the た form; めく + N is rare apart from a few phrases like 春めく頃): 冗談めいた口調, 非難めいたこと, 作り話めいた美談, 皮肉めいた言い方.\n\n" +
         "Key restriction (the book's point): めく is used when something is only **partly** or **apparently** N. If it is truly N, just say N: 完全に春だ, not ✗完全に春めいた.\n\n" +
-        "Collocations: the nouns are limited. Frequent ones: 春・秋 (seasons; 夏めく/冬めく exist but are rarer), 謎, 冗談, 皮肉, 非難, 説教, 言い訳, 脅迫, 作り話, 予言, 命令, 秘密, 儀式, 芝居, 古, 色 (色めく *become excited/aroused*), ざわめく and きらめく are lexicalised verbs built on the same suffix.\n\n" +
+        "Collocations: the nouns are limited. Frequent ones: 春・秋 (seasons; 夏めく/冬めく exist but are rarer), 謎, 冗談, 皮肉, 非難, 説教, 言い訳, 脅迫, 作り話, 予言, 命令, 秘密, 芝居. The same suffix has also produced ordinary verbs that you learn as vocabulary: 色めく *to stir with excitement*, 古めかしい *old-fashioned*, ざわめく *to rustle, buzz*, きらめく *to glitter*, ときめく *to (heart) flutter*.\n\n" +
         "Contrast:\n- **〜らしい** (男らしい) = *having the typical qualities of N*, often a positive evaluation; めく = *giving an impression of N*, neutral or faintly suspicious (謎めいた, 言い訳めいた).\n- **〜っぽい** (子どもっぽい, 春っぽい) is the casual counterpart; めく is more written.\n- **〜じみる / 〜じみた** (所帯じみた, 子どもじみた) is similar but clearly negative (*smacks of*); めく is less judgmental.\n- **〜ぶる** (上品ぶる) = *pretend to be*, a deliberate act; めく is an impression, not an act.\n\n" +
         "JLPT tip: the question usually tests the noun + めいた N₂ shape (謎めいた / 皮肉めいた / 言い訳めいた) or the seasonal めいてきた. Remember that めく conjugates as a godan verb: めいて, めいた, めかない.",
       see: [],
@@ -109,7 +109,7 @@ N2F({
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
           items: [
             { q: "空港のロビーに彼が現れるや{否|いな}や、何十人もの女性ファンが（　）。", options: ["{歓声|かんせい}を上げた", "待っていた"], answer: 0, en: "The moment he appeared in the airport lobby, dozens of female fans let out a cheer." },
-            { q: "そのワインを{一口|ひとくち}飲むや{否|いな}や、（　）。", options: ["とてもおいしかった", "{山野氏|やまのし}はばったり倒れた"], answer: 1, en: "No sooner had he taken a sip of the wine than Mr. Yamano collapsed on the spot." },
+            { q: "そのワインを{一口|ひとくち}飲むや{否|いな}や、（　）。", options: ["とてもおいしかった", "{山野氏|やまのし}はばったり倒れた"], answer: 1, en: "No sooner had Mr. Yamano taken a sip of the wine than he collapsed on the spot." },
             { q: "スーツケースの{札束|さつたば}を見るや、（　）。", options: ["{偽札|にせさつ}だったらしい", "男の目の色が変わった"], answer: 1, en: "The moment he saw the wads of banknotes in the suitcase, the look in the man's eyes changed." },
             { q: "彼女が歌い終わるや{否|いな}や、（　）。", options: ["観客は{総立|そうだ}ちになった", "早くサインをもらいに行こう"], answer: 0, en: "The instant she finished singing, the whole audience rose to its feet." },
           ],
@@ -124,7 +124,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ごとき」は「お菓子ごときで兄弟げんかするな」のように「〜（お{菓子|かし}）なんか」と「〜」を低く見て言うときに使われる。「{私|わたくし}ごとき」と{謙遜|けんそん}して使うこともある。",
-        en: "As in \"お菓子ごときで兄弟げんかするな\", \"〜ごとき\" is used to belittle ~, meaning \"something like ~ (sweets).\" It is also used humbly, as in \"私ごとき.\"",
+        en: "\"〜ごとき\" is used when you look down on ~ and mean \"something (as trivial) as ~ (e.g. sweets)\" (= 〜なんか), as in お菓子ごときで兄弟げんかするな (\"Don't fight with your brother over something like sweets\"). It is also used humbly about oneself, as in 私ごとき (\"someone like me\").",
       },
       forms: ["[N] + ごとき"],
       examples: [
@@ -164,7 +164,7 @@ N2F({
         ja: "「〜かと思いきや」は「〜と思っていたら」という意味で、予想したことと違っていて、意外に感じたときに使われる。",
         en: "\"〜かと思いきや\" means \"I thought ~, but…\" and is used when something turned out differently from what you expected and you found it surprising.",
       },
-      forms: ["[Pl] + かと思いきや", "［[なA~~だ~~]　[N~~だ~~]］"],
+      forms: ["[Pl] + かと思いきや\n［[なA~~だ~~]　[N~~だ~~]］"],
       formNotes: [
         { ja: "＊「か」のない形もよく使われる。その場合は「[なA]（だ）／[N]（だ）と思いきや」になる。", en: "＊The form without か is also often used. In that case it becomes \"なA (だ) / N (だ) と思いきや.\"" },
       ],
@@ -204,9 +204,9 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜んがため」は「〜するため」という意味で、特別な目的のために何かをするときに使われる。",
-        en: "\"〜んがため\" means \"in order to ~\" and is used when doing something for a special purpose.",
+        en: "\"〜んがため\" means \"in order to ~\" (= 〜するため) and is used when someone does something for a particular, special purpose.",
       },
-      forms: ["[V-~~ない~~] + んがため", "[V-~~ない~~] + んがための ＋ [N]"],
+      forms: ["[V-~~ない~~] + んがため", "[V-~~ない~~] + んがための + [N]"],
       formNotes: [
         { ja: "＊「する」は「せんがため」になる。", en: "＊する becomes せんがため." },
       ],
@@ -220,7 +220,7 @@ N2F({
         "**Vんがため（に）** means *in order to ~, for the sake of ~*, with a strong sense of determination: the subject is bent on achieving the goal. It is built on the ない-stem + classical volitional ん (= む) + が + ため, literally *for the purpose of (one's intention) to do ~*. 楽園を創らんがため = 楽園を創るために, but far more solemn.\n\n" +
         "Forms:\n- ない-stem + んがため（に）: 守らんがため, 売らんがため, 救わんがため, 創らんがため.\n- **する → せんがため** (征服せんがため); くる → こんがため (rare).\n- Before a noun: **〜んがための N** (救わんがためのうそ).\n- 〜んがためだ at the end of a sentence also occurs: すべては勝たんがためだ.\n\n" +
         "Usage points:\n- Very literary and dramatic (the book's formal icon, ★1): novels, speeches, historical or epic narration, editorials. In daily speech it sounds theatrical or ironic.\n- The purpose is often a big or single-minded aim (守る, 征服する, 勝つ, 生きる). 売らんがため is a fixed phrase for commercialism: *just to sell*, often critical (売らんがための過剰な宣伝).\n- As with ために, the second half is a deliberate action by the same subject; no requests or commands.\n\n" +
-        "Contrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- Don't confuse the ん here with the ん of 〜んばかり (#73, *as if about to*) or the explanatory ん (= の) in 〜んじゃあるまいし (#72).\n\n" +
+        "Contrast:\n- **〜ために**: neutral *in order to*.\n- **Vべく** (#90): formal *in order to*; べく is common in news/business writing, んがため sounds older and more emphatic.\n- **〜ように**: purpose with non-volitional verbs / potential forms (聞こえるように) — んがため needs a volitional verb.\n- The same classical ん (from む) appears in **〜んばかり（に）** (#73, *as if about to*: 泣かんばかり). Don't confuse it with the colloquial ん (= の) of 〜んです or the negative ん (= ない) of 知らん.\n\n" +
         "JLPT tip: recognise the form from the stem: 〜らんがため / 〜わんがため / せんがため. If you see せんがため, it is する.",
       see: [73, 90],
       index: ["Vんがため", "VんがためのN", "せんがため"],
@@ -303,7 +303,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜にして」は「〜で」という意味で、状況や{状態|じょうたい}・様子について特にはっきり示したいときに使う。",
-        en: "\"〜にして\" means \"at / in / with ~\" (= 〜で) and is used when you particularly want to state a situation, state or condition clearly.",
+        en: "\"〜にして\" means the same as \"〜で\" (\"at / in / with ~\") and is used when you want to point out a situation, state or circumstance especially clearly.",
       },
       forms: ["[N] + にして"],
       examples: [
@@ -313,10 +313,10 @@ N2F({
         { ja: "妹は交通事故に{遭|あ}ったが、幸いにして軽いけがだったので入院せずにすんだ。", en: "My younger sister was in a traffic accident, but fortunately her injuries were light, so she didn't have to be hospitalized." },
       ],
       deepDive:
-        "**Nにして** (use ①) is a formal, written equivalent of the particle **で** that marks the time, stage or circumstances in which something happens, while putting weight on that noun. 一瞬にして消え去った = 一瞬で消え去った, but more vivid: *in a single instant*.\n\n" +
+        "**Nにして** here is a formal, written equivalent of the particle **で** that marks the time, stage or circumstances in which something happens, while putting weight on that noun. 一瞬にして消え去った = 一瞬で消え去った, but more vivid: *in a single instant*.\n\n" +
         "Typical collocations — most uses are set phrases:\n- **Time / speed**: 一瞬にして *in an instant*, 一夜にして *overnight* (一夜にして有名になった), 一日にして成らず (ローマは一日にして成らず *Rome wasn't built in a day*).\n- **Age / stage in life**: 四十にして惑わず (Confucius), 50歳にして初めて… *at the age of 50, for the first time…* — often stressing that it is surprisingly early or late.\n- **Stage of a plan**: 志半ばにして *with one's ambition only half achieved* (usually about dying or falling ill before finishing one's life's work).\n- **Fixed adverbs**: 幸いにして *fortunately*, 不幸にして *unfortunately*, 往々にして *often*, 居ながらにして *without leaving one's seat*.\n\n" +
         "Register: formal and literary (the book marks it with the formal icon). In conversation, で or plain adverbs (すぐに, 幸い) are normal.\n\n" +
-        "Don't confuse it with **〜にして②** (#23), *AにしてB* = *both A and B* (two attributes of the same subject): 彼は大学の教授にして、有名な作家でもある *he is a university professor and a famous writer as well*; 大胆にして繊細 *bold and at the same time delicate*. A third, related use is **Nにして初めて** *only N (can …)*: 名人にして初めてできる技 *a technique only a master can achieve*. Use ① attaches to time/stage/situation nouns and means *in/at*; use ② links two attributes (nouns or な-adjective stems).\n\n" +
+        "Don't confuse it with **AにしてB** (#23) = *both A and B* (two attributes of the same subject): 彼は大学の教授にして、有名な作家でもある *he is a university professor and a famous writer as well*; 大胆にして繊細 *bold and at the same time delicate*. A third, related use is **Nにして初めて** *only N (can …)*: 名人にして初めてできる技 *a technique only a master can achieve*. This point (#102) attaches to time/stage/situation nouns and means *in/at*; #23 links two attributes (nouns or な-adjective stems).\n\n" +
         "JLPT tip: a blank after 一瞬 / 一夜 / 幸い / 志半ば / 〜歳 in a formal sentence usually wants にして.",
       see: [23],
       index: ["Nにして①", "一瞬にして", "幸いにして", "志半ばにして"],
@@ -397,7 +397,7 @@ N2F({
         { ja: "1人で山のような仕事を{抱|かか}えている私を見るに見かねて※、{同僚|どうりょう}が手伝ってくれた。", en: "Unable to stand by and watch me struggling alone with a mountain of work, a colleague helped me out.", idiom: true, foot: "※見かねる：「見ていられないぐらいの良くない状況だ」という意味。" },
       ],
       deepDive:
-        "**V-ますかねる** means *can't (bring oneself to) ~, find it hard to ~*. It is a polite, indirect way of saying できない: the speaker would like to do it (or is expected to), but circumstances or an inner reluctance make it impossible. 理解しかねる = *I can't quite understand*; 賛成しかねる = *I can't agree*; 決めかねている = *can't make up my mind*.\n\n" +
+        "**V-(ます stem) + かねる** means *can't (bring oneself to) ~, find it hard to ~*. It is a polite, indirect way of saying できない: the speaker would like to do it (or is expected to), but circumstances or an inner reluctance make it impossible. 理解しかねる = *I can't quite understand*; 賛成しかねる = *I can't agree*; 決めかねている = *can't make up my mind*.\n\n" +
         "Where it's used:\n- **Business and customer service refusals** — the classic use: お答えいたしかねます, 分かりかねます, お引き受けいたしかねます, ご要望には応じかねます. It softens a *no* and sounds far more professional than できません / 分かりません.\n- **Polite disagreement or criticism**: 賛成しかねる, 同意しかねる, 理解しかねる, 〜とは言いかねる (*I can hardly say ~*: 値段に相応しい味とは言いかねる = it isn't really worth the price).\n- **Indecision**: 決めかねる, 選びかねる.\n\n" +
         "Idiomatic compounds (the ※ notes, marked with the idiom icon):\n- **待ちかねる** *wait impatiently, can hardly wait*: 春の訪れを待ちかねている; お待ちかねの… *the long-awaited …*.\n- **見かねる / 見るに見かねて** *unable to stand by and watch*: someone else's plight is so bad that you step in.\n\n" +
         "Big trap — **〜かねない** is the opposite in form but not in meaning: 〜かねない = *might well ~ (something bad)*: 事故になりかねない. かねる = *can't*, かねない = *could happen*. Also, かねる is about the speaker's (or subject's) will; it isn't used for plain physical inability (✗重くて持ち上げかねる → 持ち上げられない).\n\n" +
