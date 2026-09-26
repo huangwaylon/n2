@@ -54,12 +54,12 @@ N2.register({
             { ja: "＊3「おいでの{際|さい}」「おいでです」「おいでいただく／くださる」「おいでください」などの使い方もある。", en: "*3 There are also uses such as おいでの際 (when you come), おいでです (is here / is coming), おいでいただく／くださる and おいでください (please come)." },
           ],
           examples: [
-            { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Mr. Oyama, who has come from Yokohama: Mr. Sato is waiting for you, so please come to the reception desk on the first floor." },
+            { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Mr. Oyama from Yokohama, Mr. Sato is waiting for you, so please come to the reception desk on the first floor." },
             { ja: "本日のご予約は{山本|やまもと}が{承|うけたまわ}りました。ありがとうございました。", en: "Your reservation for today was taken by Yamamoto. Thank you very much." },
             { ja: "この{資料|しりょう}、長い間{拝借|はいしゃく}したままお返しもせず、たいへん{申|もう}し{訳|わけ}ありませんでした。", en: "I'm terribly sorry for borrowing these materials for so long without returning them." },
             { ja: "A：こちらまで、お{車|くるま}でおいでになりましたか。\nB：いいえ、電車でまいりました。", en: "A: Did you come here by car?\nB: No, I came by train." },
             { ja: "A：休みの日はいつも何をしておいでになりますか。\nB：{趣味|しゅみ}のゴルフをしております。", en: "A: What do you usually do on your days off?\nB: I play golf, which is my hobby." },
-            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from his desk at the moment, so I'll pass on the message that he should contact you later." },
+            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from his desk at the moment, so I'll tell him to get back to you later." },
           ],
           deepDive:
             "Point 73 is really a **vocabulary list**: special keigo verbs that replace an ordinary verb entirely, instead of being built by rule (お〜になる / お〜する). The whole skill is knowing which *direction* each word points.\n\n" +
@@ -388,7 +388,7 @@ N2.register({
           "お買い上げ{誠|まこと}にありがとうございます。お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には{万全|ばんぜん}を{期|き}して[2]が、{万一|まんいち}{不良品|ふりょうひん}などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。",
         ],
         en: [
-          "Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there by any chance be a defective item or the like, we apologize for the inconvenience and ask that you contact our company.",
+          "Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there be any chance be a defective item or the like, we apologize for the inconvenience and ask that you contact our company.",
         ],
         blanks: [
           { options: ["なさいました", "いたしました", "ございました", "まいりました"], answer: 1, why: { en: "The company delivers (届ける) → humble お届けいたしました." } },
