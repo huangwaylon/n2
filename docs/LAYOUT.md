@@ -90,6 +90,10 @@ Keep the existing tokens. Add the book greys below, and use them for structure i
     stretched by justification: "が、　本場　は　雰囲気"), and the computed side margins pushed kana apart.
   - `tools/lib/furi-probe.mjs` checks all of this in the page (readings off-centre, covering text or boxes, clipped, uneven
     pitch): `node tools/overflow.mjs ROUTE W --furi` (Chrome) and `node tools/lib/wkshot.mjs DEVICE ROUTE --probe` (iOS Safari).
+- **Group readings:** a run of adjacent readings where one is wider than its kanji ("{国際|こくさい}{交流|こうりゅう}{会|かい}")
+  is merged by `fmt()` into one ruby over the whole compound (熟語ルビ, as the book sets it) instead of spacing the kanji
+  apart. A ruby never breaks across lines (`white-space: nowrap`): Blink otherwise splits the base and gives each line a
+  proportional slice of the reading ("運動" under "うんどうの").
 - Two readings that overhang the same single kana ("軽傷者で救急") get at most .375em each, so they never run together.
 - Inline options "（a.を皮切りに　b.につれて）" are `span[role=button][tabindex=0]` (Enter/Space handled in the global keydown),
   not `<button>`: a button is always an atomic inline-block, so each option wrapped as one box and the sentence lost its line
