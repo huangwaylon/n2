@@ -350,7 +350,7 @@ N2.register({
   ],
   review: [
     {
-      title: { ja: "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉", en: "Question 1: Selecting grammar form" },
+      title: { ja: "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉", en: "Question 1: Grammar form" },
       ex: {
         type: "choice",
         labels: "123",

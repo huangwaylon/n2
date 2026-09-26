@@ -1543,7 +1543,7 @@ N2.register({
     {
       "title": {
         "ja": "問題3 〈文章の文法〉",
-        "en": "Question 3: Text grammar"
+        "en": "Question 3: Grammar in a passage"
       },
       "ex": {
         "type": "passage",

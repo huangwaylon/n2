@@ -54,7 +54,7 @@ N2F({ ch: 6, review: [
     },
   },
   {
-    title: { ja: "問題3 〈文章の文法〉", en: "Question 3: Text grammar" },
+    title: { ja: "問題3 〈文章の文法〉", en: "Question 3: Grammar in a passage" },
     ex: {
       type: "passage", labels: "123",
       prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of the blanks [1] to [4]." },

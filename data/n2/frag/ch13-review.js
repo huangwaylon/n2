@@ -62,7 +62,7 @@ N2F({ ch: 13, review: [
     },
   },
   {
-    title: { ja: "問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉", en: "Question 3: Text grammar" },
+    title: { ja: "問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉", en: "Question 3: Grammar in a passage" },
     ex: {
       type: "passage",
       prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider the content of the whole text, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
