@@ -7,7 +7,7 @@ N2.registerCompare([
     items: [
       { pattern: "Vかねない", level: "N2",
         ex: { ja: "今のような経営方法では、2、3年のうちに{倒産|とうさん}しかねない。", en: "With the way the company is run now, it could well go bankrupt within two or three years." },
-        note: "V-ます stem + かねない: \"there is a risk that ~ might happen\". Used for undesirable outcomes; the meaning is positive (it could happen), despite the negative form." },
+        note: "V-ます stem + かねない: \"there is a risk that ~ might happen\". Used for undesirable outcomes; despite the negative form, the meaning is affirmative (it could happen)." },
       { pattern: "Vかねる", level: "N1", no: 105,
         ex: { ja: "どうして君が仕事をやめたいと言いだしたのか、理解しかねるんだけどね。", en: "I just can't understand why you suddenly said you want to quit your job." },
         note: "V-ます stem + かねる: \"cannot (bring oneself to) ~\", a polite, indirect refusal or inability (理解しかねる, お答えしかねます). Opposite polarity to かねない: かねる = can't, かねない = might." }
@@ -285,7 +285,7 @@ N2.registerCompare([
         note: "\"Although / even though ~\" (ながら(も)): concession — the second part is contrary to what the first leads one to expect. Often with state verbs (いる, ある, 知る) and adjectives." },
       { pattern: "〜ながら(に)", level: "N1", no: 92,
         ex: { ja: "{仏陀|ぶった}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talent from birth." },
-        note: "V-ます stem / N + ながらに(して): \"while still in the state of ~ / as ~ is\" (生まれながら, 涙ながら, 昔ながら). A fixed set of expressions; the state remains unchanged." }
+        note: "V-ます stem / N + ながら(に) / ながらの N: \"in the unchanged state of ~ / just as ~\" (生まれながら, 涙ながら, 昔ながら). A fixed set of expressions; the state remains unchanged." }
     ]
   },
   {
@@ -296,7 +296,7 @@ N2.registerCompare([
         note: "\"If (you are going to) ~\": takes up what the listener has said or plans and gives advice or an opinion about it." },
       { pattern: "〜なら〜で", level: "N1", no: 80,
         ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: Sir, I'd like to leave the company at the end of this month…\nB: If you're going to quit, fine, but finish your current work properly first." },
-        note: "X なら X で (same word repeated): \"if ~, then (at least / in that case) ~\". Accepts the situation and says what should be done, or what problem it brings, given that." },
+        note: "X なら X で (same word repeated): \"if ~, then (at least / in that case) ~\". Accepts someone else's situation and says what they should do (or should have done) given that; used for advice or complaints." },
       { pattern: "〜ならまだしも", level: "N1", no: 50,
         ex: { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
         note: "\"~ would be acceptable (but ~ is not)\": the first case is barely tolerable, the second clearly unacceptable. Followed by criticism." },
@@ -371,7 +371,7 @@ N2.registerCompare([
         note: "Person + にしてみれば: \"from N's point of view / as far as N is concerned\". Imagines how the situation looks to that person." },
       { pattern: "Nにしても", level: "N1", no: 81,
         ex: { ja: "人員{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts can hardly be said to bring only advantages." },
-        note: "Person/party + にしても: \"even for N / N too, from their standpoint\". Says that N is no exception." },
+        note: "Person/party + にしても: \"even for N / N too, from their standpoint\". Imagines the situation from N's side, adding that N is included too." },
       { pattern: "〜にしても〜にしても", level: "N2",
         ex: { ja: "大学院で研究しようと思ったら、理系にしても文系にしても、英語力は絶対必要だよ。", en: "If you want to do research at graduate school, whether in the sciences or the humanities, English ability is absolutely essential." },
         note: "X にしても Y にしても: \"whether X or Y / both X and Y\". Gives two examples and says the same holds for either." },
@@ -479,7 +479,7 @@ N2.registerCompare([
     items: [
       { pattern: "Vまでのことだ", level: "N1", no: 82,
         ex: { ja: "地下鉄が止まっていたら、バスで行くまでのことだ。心配はいらないよ。", en: "If the subway is stopped, we'll just go by bus. No need to worry." },
-        note: "V (dictionary form) + までのことだ: \"(if so,) I'll simply ~\". Presents a fallback with composure; also V-た + までのことだ: \"I merely ~ (nothing more)\"." },
+        note: "V (dictionary form) + までのことだ: \"(if so,) I'll simply ~\". Presents a fallback with composure; also V-た + までのことだ (#93): \"I merely ~ (nothing more)\"." },
       { pattern: "Vたらそれまでだ", level: "N1", no: 74,
         ex: { ja: "仕事を{頑張|がんば}るのもいいが、無理して病気になったらそれまでだ。", en: "Working hard is fine, but if you overdo it and get sick, that's the end of it." },
         note: "V-たら / V-ば + それまでだ: \"if ~, that's the end of it / it's all for nothing\"." },
@@ -589,7 +589,7 @@ N2.registerCompare([
     key: "〜ように",
     items: [
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強するように言ってください。", en: "Please tell him to study, too, Mom." },
+        ex: { ja: "お母さんからも勉強するように言ってください。", en: "I'd like you, as his mother, to tell him to study too." },
         note: "V + ように言う: \"tell someone to ~\". Reports a request or instruction indirectly (also ように頼む / 注意する)." },
       { pattern: "Vようになっている", level: "N2",
         ex: { ja: "ほこりが鼻に入るとくしゃみが出て、自然にそれを外へ出すようになっています。", en: "When dust gets into your nose you sneeze, and that is how it is naturally expelled." },
