@@ -53,7 +53,7 @@ TRY.registerChapter({
           usage: { ja: "「〜まい」は、{状況|じょうきょう}などから{判断|はんだん}して、「〜の{可能性|かのうせい}は{非常|ひじょう}に少ないだろう」と言いたいときに使われる。", en: "\"〜まい\" is used when you want to say that judging from a situation or the like, \"there is very little possibility of 〜\"." },
           forms: ["[V-る] + まい"],
           formNotes: [
-            { ja: "{動詞|どうし}のⅡグループとⅢグループには、{複数|ふくすう}の{接続|せつぞく}のし方がある。\n食べる　→　食べるまい／食べまい\nする　→　するまい／すまい／しまい\n来る　→　来るまい／{来|こ}まい／{来|き}まい", en: "Group II and Group III verbs have more than one way of connecting:\n食べる → 食べるまい / 食べまい\nする → するまい / すまい / しまい\n来る → くるまい / こまい / きまい" },
+            { ja: "{動詞|どうし}のⅡグループとⅢグループには、{複数|ふくすう}の{接続|せつぞく}のし方がある。\n食べる　→　食べるまい／食べまい\nする　→　するまい／すまい／しまい\n来る　→　来るまい／{来|こ}まい／{来|き}まい", en: "Group II and Group III verbs have more than one way of connecting:\n食べる → 食べるまい / 食べまい\nする → するまい / すまい / しまい\n来る → くるまい / こまい / きまい", gen: true },
           ],
           examples: [
             { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはあるまい。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to improve any time soon. Our company, too, must think up countermeasures right away." },
@@ -121,14 +121,14 @@ TRY.registerChapter({
           usage: { ja: "「〜につけ…」は、「何かを見たり聞いたりするたびに（いつも…と思う）」と言いたいときに使う。", en: "Use \"〜につけ…\" when you want to say \"(I always think …) when I see or hear something.\"" },
           forms: ["[V-る] + につけ"],
           formNotes: [
-            { ja: "「暑いにつけ寒いにつけ」のような{慣用|かんよう}表現で「どんなときも」という気持ちを表すこともある。", en: "As in \"暑いにつけ寒いにつけ\", it can also be used in idiomatic expressions to mean \"at any time / whatever the circumstances.\"" },
+            { ja: "「暑いにつけ寒いにつけ」のような{慣用|かんよう}表現で「どんなときも」という気持ちを表すこともある。", en: "As in \"暑いにつけ寒いにつけ\", you can also use it as an idiomatic expression to express a feeling of \"whatever.\"" },
           ],
           examples: [
             { ja: "電車の中で走り回る子どもたちを見るにつけ、{家庭|かてい}でしっかりしつけをしろと言いたくなる。", en: "Whenever I see children running around inside the train, I feel like telling their parents to discipline them properly at home." },
             { ja: "{戦争|せんそう}の{悲惨|ひさん}な{体験|たいけん}を聞くにつけ、{平和|へいわ}の大切さを{痛感|つうかん}する。", en: "Every time I hear about the tragic experiences of war, I keenly feel how precious peace is." },
             { ja: "{環境汚染|かんきょうおせん}のニュースを聞くにつけ、{健康|けんこう}への{影響|えいきょう}に{不安|ふあん}を感じる。", en: "Whenever I hear news about environmental pollution, I feel anxious about its effects on health." },
             { ja: "よいにつけ悪いにつけ、人はうわさ{話|ばなし}をしたがるようだ。", en: "Whether it's good or bad, people seem to love gossiping." },
-            { ja: "母は何かにつけ、{心配|しんぱい}して電話してくる。", en: "My mother worries about every little thing and calls me.", idiom: true },
+            { ja: "母は何かにつけ、{心配|しんぱい}して電話してくる。", en: "At the slightest excuse, my mother gets worried and calls me.", idiom: true },
           ],
           deepDive: "**〜につけ** links a repeated trigger (usually seeing, hearing or thinking about something) to a feeling or thought that arises naturally each time: 写真を見るにつけ、故郷を思い出す = *every time I look at the photo, I'm reminded of home*.\n\nTypical verbs before につけ: 見る, 聞く, 思う, 考える, 触れる (ニュースに触れるにつけ). Typical second halves are spontaneous mental reactions: 思い出す, 感じる, 心配になる, 〜と思う, 〜させられる. A deliberate action or request does not fit: ✗写真を見るにつけ、手紙を書いてください.\n\nCompare with **〜たびに** (N3). たびに is neutral and can connect any repeated event to any result (この店に来るたびに、同じものを注文する). につけ is literary and narrower — it's about what the experience makes you *feel or think*. In an essay like this chapter's, につけ gives a reflective tone.\n\nIdiomatic uses (the ＊ note):\n- **何かにつけ（て）** = *at every opportunity, on the slightest pretext*: 何かにつけ文句を言う. Often has a slightly critical or weary tone.\n- **AにつけBにつけ** with opposite pairs = *whether A or B, in any case*: うれしいにつけ悲しいにつけ, 暑いにつけ寒いにつけ, 雨につけ風につけ. Nouns and い-adjectives can appear here.\n- **〜につけても** = *speaking of ~ / in connection with ~* (それにつけても, literary).\n\nDon't confuse it with **〜につき** (#1, *because of*, on notices) — one kana difference, completely different meaning. JLPT tip: 見る/聞く + blank + a feeling at the end → につけ.",
           see: [1],
@@ -186,7 +186,7 @@ TRY.registerChapter({
         lines: [
           { ja: "次の駅が近づいてきた。前に座っている女子高生が、見ていた教科書をかばんにしまった。よし、今日は座るぞ。彼女が立つ**か**立たない**かのうちに**、次は自分が座るという{態度|たいど}を{周|まわ}りに{示|しめ}す。", en: "The next station was getting close. The high-school girl sitting in front of me put the textbook she'd been looking at away in her bag. All right, today I'm going to sit. Almost before she has even stood up, I make it clear to everyone around me that I'm the one who'll sit next." },
           { ja: "しかしその子は{全然|ぜんぜん}立とうとしない。教科書をしまったのは{文庫本|ぶんこぼん}を取り出すためだった。ああ、降りないのか。{残念|ざんねん}。周りを見ると、座っている人はみんな自由に好きなことをしている。2、3人で{雑誌|ざっし}を見ながら楽し**げ**におしゃべりしている子たちもいる。そんな{様子|ようす}がくやしい**やら**うらやましい**やら**…。", en: "But the girl shows no sign at all of standing up. She had put her textbook away only to take out a paperback. Oh, so she isn't getting off. Too bad. Looking around, everyone who's sitting is freely doing whatever they like. There are even some kids happily chatting in twos and threes while looking at a magazine. Seeing them like that, I feel frustrated and envious all at once…" },
-          { ja: "駅に着いて{乗客|じょうきゃく}が降りた**かと思うと**、それ以上の人が乗り込んでくる。{結局|けっきょく}、立ったまま{背中|せなか}をぐいぐい押され、{耐|た}えているうちにまた次の駅に着く。", en: "No sooner have passengers got off at a station than even more people pile on. In the end I stay standing, getting shoved hard in the back, and while I'm putting up with it we reach the next station again." },
+          { ja: "駅に着いて{乗客|じょうきゃく}が降りた**かと思うと**、それ以上の人が乗り込んでくる。{結局|けっきょく}、立ったまま{背中|せなか}をぐいぐい押され、{耐|た}えているうちにまた次の駅に着く。", en: "No sooner have passengers gotten off at a station than even more people pile on. In the end I stay standing, getting shoved hard in the back, and while I'm putting up with it we reach the next station again." },
           { ja: "やはり{満員|まんいん}電車はつらい{訓練|くんれん}の{場|ば}なのだ。", en: "A packed train really is a place of hard training after all." },
         ],
       },
@@ -200,7 +200,7 @@ TRY.registerChapter({
           usage: { ja: "「〜か〜ないかのうちに…」は、「〜の{動作|どうさ}が{完全|かんぜん}に{完了|かんりょう}しないくらい短い時間の間に」と言いたいときに使う。", en: "Use \"〜か〜ないかのうちに…\" when you want to say \"during the short time in which the action 〜 is not completely finished.\"" },
           forms: ["[V-る]／[V-た] + か + [V-ない] + かのうちに"],
           formNotes: [
-            { ja: "同じ動詞を使う。", en: "The same verb is used (in both slots)." },
+            { ja: "同じ動詞を使う。", en: "The same verb is used in both slots.", gen: true },
           ],
           examples: [
             { ja: "{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "When I was watching the speed-eating championship, the contestants were reaching for the next dish almost before they'd even put the food in their mouths." },
@@ -221,8 +221,8 @@ TRY.registerChapter({
           usage: { ja: "「〜げ」は、「〜そうだ」と同じように、見て感じた{印象|いんしょう}を言うときに使われる。気持ちを表す言葉と一緒に使われることが多い。", en: "\"〜げ\", like \"〜そうだ\", is used when you state an impression from what you see and feel. It is often used together with words that express emotions." },
           forms: ["[いA~~い~~]／[なA] + げ"],
           formNotes: [
-            { ja: "「〜げ」は、な{形容詞|けいようし}になる。", en: "〜げ becomes a な-adjective (〜げなN, 〜げにV, 〜げだ)." },
-            { ja: "「さびしい・{悲|かな}しい・楽しい・{不安|ふあん}・{得意|とくい}・{満足|まんぞく}・〜たい」などの言葉と一緒に使われる。", en: "It is used with words such as さびしい, 悲しい, 楽しい, 不安, 得意, 満足 and 〜たい." },
+            { ja: "「〜げ」は、な{形容詞|けいようし}になる。", en: "〜げ becomes a な-adjective (〜げなN, 〜げにV, 〜げだ).", gen: true },
+            { ja: "「さびしい・{悲|かな}しい・楽しい・{不安|ふあん}・{得意|とくい}・{満足|まんぞく}・〜たい」などの言葉と一緒に使われる。", en: "It is used with words such as さびしい, 悲しい, 楽しい, 不安, 得意, 満足 and 〜たい.", gen: true },
           ],
           examples: [
             { ja: "プロジェクトメンバーは、{誇|ほこ}らしげな{表情|ひょうじょう}で{成功|せいこう}したことを{報告|ほうこく}した。", en: "The project members reported their success with proud expressions." },
@@ -368,7 +368,7 @@ TRY.registerChapter({
             q: "同じ{失敗|しっぱい}はくり{返|かえ}す（　）と思っていても、ついやってしまうのが人間だ。",
             options: ["ことだ", "にすぎない", "まい", "まいか"],
             answer: 2,
-            en: "Even if you resolve never to repeat the same mistake, humans are the kind of creature that ends up doing it anyway.",
+            en: "Even when we tell ourselves we won't repeat the same mistake, we humans end up doing it anyway.",
             why: { en: "〜まいと思う: to resolve not to do something." },
           },
           {
@@ -428,7 +428,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{新米|しんまい}ドライバーの私[1]、カーナビは{必需品|ひつじゅひん}だ。{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で{目的地|もくてきち}まで道案内をしてくれる。高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。その声は本当に{心配|しんぱい}しているかのようだ。まさに{有能|ゆうのう}な{秘書|ひしょ}だ。地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。だがその彼女もカーナビがあれば道に{迷|まよ}うことはある[2]と思っているらしく、地図を見ていた[3]、いつの間にか寝ていることもある。そうしたら、{秘書|ひしょ}と2人きりのドライブだ。静かでいいと思う{反面|はんめん}、そのドライブにはどこかさびしい[4]。"],
-        en: ["For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and sometimes, just when I think she's looking at the map, she has dozed off before I know it. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."],
+        en: ["For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and sometimes she's looking at the map one minute and, before I know it, she's fallen asleep. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."],
         blanks: [
           {
             options: ["として", "に対して", "に{応|おう}じて", "にとって"],
@@ -462,13 +462,13 @@ TRY.registerChapter({
         items: [
           {
             question: "この鳥が動かないのは何に{関係|かんけい}があると言っていますか。",
-            questionEn: "What does he say the bird's not moving has to do with?",
+            questionEn: "What does the man say the bird's stillness is related to?",
             script: [
               { sp: "", ja: "動物園で男の人が話しています。男の人は、この鳥が動かないのは何に{関係|かんけい}があると言っていますか。" },
               { sp: "M", v: "m", ja: "えー、こちらにいるのは、動かない鳥として有名なハシビロコウです。ご{覧|らん}のように、体のわりに頭が大きく、くちばしが広いのが{特徴|とくちょう}です。この鳥が動かないのは、食事のし方に理由があります。アフリカの{湖|みずうみ}に住むハシビロコウは、草の{陰|かげ}で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。動物園にいるのは{比較的|ひかくてき}動くと言われていますが、今日も先ほどえさの時間に少し動いたきり、30分以上このままです。あっ、そちらのお子さん気をつけてください。子どもをおどろかそうとして、{突然|とつぜん}{近寄|ちかよ}ってくることがありますから…。" },
               { sp: "", ja: "この鳥が動かないのは何に{関係|かんけい}があると言っていますか。" },
             ],
-            en: ["A man is talking at a zoo. What does the man say the bird's not moving has to do with?", "Well, this is the shoebill, famous as a bird that doesn't move. As you can see, its head is large for its body, and its beak is wide — those are its characteristics. The reason this bird doesn't move lies in the way it eats. Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak. The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes. Oh, the child over there, please be careful. It sometimes suddenly comes up close, trying to startle children...", "What does he say the bird's not moving has to do with?"],
+            en: ["A man is talking at a zoo. What does the man say the bird's stillness is related to?", "Well, this is the shoebill, famous as a bird that doesn't move. As you can see, its distinguishing features are a head that's large for its body and a wide beak. The reason this bird doesn't move lies in the way it eats. Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak. The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes. Oh, the child over there, please be careful. It sometimes suddenly comes up close, trying to startle children...", "What does the man say the bird's stillness is related to?"],
             options: ["{体|からだ}の{大|おお}きさ", "{住|す}んでいるところ", "えさのとり{方|かた}", "{性格|せいかく}"],
             answer: 2,
             why: { en: "この鳥が動かないのは、食事のし方に理由があります — it waits motionless for fish, so it is related to how it catches food." },
