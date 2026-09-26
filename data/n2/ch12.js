@@ -88,7 +88,7 @@ TRY.registerChapter({
           usage: { ja: "「〜にそって」は、「〜の通りに」「〜に合わせて」という意味で使われる。", en: "\"〜にそって\" is used to mean \"along\", \"in accordance with\" or \"as\"." },
           forms: ["[N] + にそって", "[N] + にそう + [N]", "[N] + にそった + [N]"],
           formNotes: [
-            { ja: "「マニュアル・{方針|ほうしん}・案内・{道順|みちじゅん}」などの言葉と一緒に使われる。「{希望|きぼう}・{要望|ようぼう}・{意向|いこう}・{期待|きたい} + にそうよう」などの言い方もある。", en: "It is used together with words such as マニュアル, 方針, 案内 and 道順. There are also expressions such as 希望／要望／意向／期待 + にそうよう." },
+            { ja: "「マニュアル・{方針|ほうしん}・案内・{道順|みちじゅん}」などの言葉と一緒に使われる。「{希望|きぼう}・{要望|ようぼう}・{意向|いこう}・{期待|きたい} + にそうよう」などの言い方もある。", en: "It is used together with words such as マニュアル, 方針, 案内 and 道順. There are also expressions such as 希望／要望／意向／期待 + にそうよう.", gen: true },
           ],
           examples: [
             { ja: "2人は{夕暮|ゆうぐ}れの道を川にそって歩き続けた。", en: "The two of them kept walking along the river in the dusk." },
@@ -137,10 +137,10 @@ TRY.registerChapter({
           forms: ["[N] + にかけては"],
           examples: [
             { ja: "{日本酒造|にほんしゅづく}りにかけては彼の右に出る者はいない。", en: "When it comes to brewing sake, no one can beat him." },
-            { ja: "コンピューターの{知識|ちしき}にかけては{誰|だれ}にも{負|ま}けないつもりだ。", en: "When it comes to knowledge of computers, I don't intend to lose to anyone." },
+            { ja: "コンピューターの{知識|ちしき}にかけては{誰|だれ}にも{負|ま}けないつもりだ。", en: "When it comes to knowledge of computers, I believe I'm second to none." },
             { ja: "{伊藤|いとう}君は勉強も一番だが、走ることにかけてもクラスで一番だ。", en: "Ito is the best in his studies, and when it comes to running, he's also the best in the class." },
           ],
-          deepDive: "**〜にかけては** singles out one area and makes a strong positive claim about it: *when it comes to ~, (X) is the best / second to none / confident*. It is typically praise (of others) or self-confidence (of oneself or one's company) — hence the smiling-face mark.\n\nTypical second halves: 誰にも負けない, 右に出る者はいない (*nobody surpasses*), 〜が一番だ, 自信がある, 実績がある, トップレベルだ, すばらしい才能を持っている. Neutral statements, plans or efforts sound wrong: ✗ピアノの演奏にかけても興味を持っている, ✗機械を作ることにかけてはがんばるつもりだ.\n\nThe noun is a skill or quality; with verbs, nominalise with こと: 走ることにかけても, 機械を作ることにかけては. **〜にかけても** (*in ~ too*) adds one more area of excellence: 勉強も一番だが、走ることにかけてもクラスで一番だ.\n\nDon't mix it up with **AからBにかけて** (#32), *from A through to B* (a range of time or area): 関東から東北にかけて雪 (☞ p.224 〜にかけて). Same verb かける, totally different meaning. The は/も after にかけて is the clue for #109.\n\nCompare **〜に関しては / 〜については** (*as for / regarding*): neutral topic markers that can be followed by anything. にかけては is only for *excellence*.\n\nJLPT tip: if the options include にかけては and the sentence ends with 負けない / 一番 / 右に出る者はいない, that's your answer.",
+          deepDive: "**〜にかけては** singles out one area and makes a strong positive claim about it: *when it comes to ~, (X) is the best / second to none / confident*. It is typically praise (of others) or self-confidence (of oneself or one's company) — hence the smiling-face mark.\n\nTypical second halves: 誰にも負けない, 右に出る者はいない (*nobody surpasses*), 〜が一番だ, 自信がある, 実績がある, トップレベルだ, すばらしい才能を持っている. Neutral statements, plans or efforts sound wrong: ✗ピアノの演奏にかけても興味を持っている, ✗機械を作ることにかけてはがんばるつもりだ.\n\nThe noun is a skill or quality; with verbs, nominalize with こと: 走ることにかけても, 機械を作ることにかけては. **〜にかけても** (*in ~ too*) adds one more area of excellence: 勉強も一番だが、走ることにかけてもクラスで一番だ.\n\nDon't mix it up with **AからBにかけて** (#32), *from A through to B* (a range of time or area): 関東から東北にかけて雪 (☞ p.224 〜にかけて). Same verb かける, totally different meaning. The は/も after にかけて is the clue for #109.\n\nCompare **〜に関しては / 〜については** (*as for / regarding*): neutral topic markers that can be followed by anything. にかけては is only for *excellence*.\n\nJLPT tip: if the options include にかけては and the sentence ends with 負けない / 一番 / 右に出る者はいない, that's your answer.",
           see: [32],
           index: ["Nにかけては", "Nにかけても"],
           xref: "☞ p.224　〜にかけて",
@@ -187,7 +187,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ないことには…」は、「〜なければ（…できない・わからない）」と言いたいときに使われる。", en: "\"〜ないことには…\" is used when you want to say \"if you don't do 〜, then you can't / you won't know …\"." },
           forms: ["[V-~~ない~~] + ないことには"],
           formNotes: [
-            { ja: "「[N] + が+ないことには」の形も使われる。", en: "The form N + が + ないことには is also used." },
+            { ja: "「[N] + が+ないことには」の形も使われる。", en: "The form N + が + ないことには is also used.", gen: true },
           ],
           examples: [
             { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a few people,\" but I wonder roughly how many they'll actually take on.\nB: Unless you ask them, you won't know the details." },
@@ -220,7 +220,7 @@ TRY.registerChapter({
           usage: { ja: "「〜がち」は、「忘れがち・病気がち」のように「〜になることが多い」と言いたいときに使う。{状態|じょうたい}、{様子|ようす}を表す{慣用的|かんようてき}な言い方もある。", en: "Use \"〜がち\" when you want to say that someone \"often does / is 〜\" as in \"忘れがち・病気がち\". There is also an idiomatic usage to express a state or appearance." },
           forms: ["[V-~~ます~~] + がち", "[N] + がち"],
           formNotes: [
-            { ja: "「休む・思う・考える・{心配|しんぱい}する・{留守|るす}」などの言葉と一緒に使われる。", en: "It is used together with words such as 休む, 思う, 考える, 心配する and 留守." },
+            { ja: "「休む・思う・考える・{心配|しんぱい}する・{留守|るす}」などの言葉と一緒に使われる。", en: "It is used together with words such as 休む, 思う, 考える, 心配する and 留守.", gen: true },
           ],
           examples: [
             { ja: "日本人は自分の{意思|いし}をはっきり言わないので{誤解|ごかい}されがちだ。", en: "Japanese people tend to be misunderstood because they don't state their intentions clearly." },
@@ -252,7 +252,7 @@ TRY.registerChapter({
           usage: { ja: "「〜つつも」は、「たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう」のように、「〜だけれども（やめようと思うけれども）、{実際|じっさい}はよくないこと（{吸|す}う）をしてしまう」という気持ちを表す。", en: "As in \"たばこは体に悪いからやめようと思いつつも、つい{吸|す}ってしまう\", \"〜つつも\" expresses the feeling that \"although 〜 (I thought I should quit), something undesired actually happened (I smoked).\"" },
           forms: ["[V-~~ます~~] + つつも"],
           formNotes: [
-            { ja: "「も」を{省略|しょうりゃく}して、「〜つつ」の形でもよく使われる。", en: "It is also often used in the form 〜つつ, with も omitted." },
+            { ja: "「も」を{省略|しょうりゃく}して、「〜つつ」の形でもよく使われる。", en: "It is also often used in the form 〜つつ, with も omitted.", gen: true },
           ],
           examples: [
             { ja: "チョコレートを食べたらにきびが増えると知りつつも、つい手が{伸|の}びてしまうんです。", en: "Even though I know I'll get more pimples if I eat chocolate, I just can't help reaching for it." },
@@ -260,7 +260,7 @@ TRY.registerChapter({
             { ja: "早く寝ようと思いつつ、ゲームがやめられなくて、{夜|よ}が{明|あ}けてしまった。", en: "Although I meant to go to bed early, I couldn't stop playing the game, and before I knew it, dawn had broken." },
             { ja: "今日こそ歯医者に行かなければと思いつつ、忙しくて行けなかった。", en: "Although I thought I really had to go to the dentist today, I was too busy to go." },
           ],
-          deepDive: "**〜つつも** is a written/formal *although ~ / while ~ing (knowing/thinking…)*. It's close to 〜ながらも and 〜けれども, but it has a characteristic flavour: the first half is usually an **awareness or intention** (思う, 知る, 疑う, 分かる, 感じる), and the second half is an action that **goes against it** — often with しまう, つい, 結局. The speaker is admitting a small weakness: 増えると知りつつも、つい手が伸びてしまう.\n\n- Connection: V-ます stem + つつも: 思いつつも, 知りつつも, 疑いつつも.\n- **〜つつ** without も means the same in this concessive use (思いつつ、行けなかった — examples ③④), but 〜つつ alone can also mean *while doing* (#30), so context decides.\n\nThe つつ family (☞ p.223 〜つつ):\n- **Vつつ** (#30): *while doing* (simultaneous action, formal ながら): 景色を楽しみつつ歩く.\n- **Vつつも** (#112): *although* (concession, this point).\n- **Vつつある** (#71): *is in the process of ~ing* (ongoing change): 広がりつつある.\n\nCompare **〜ながらも**: also *although*, and can follow adjectives/nouns (狭いながらも, 子どもながらも). つつも is limited to verbs and sounds more literary.\n\nJLPT tip: 〜と思いつつも / 〜と知りつつも + つい / 〜てしまった is the textbook pattern. If a sentence has 思い（　）、つい…てしまう, choose つつ(も).",
+          deepDive: "**〜つつも** is a written/formal *although ~ / while ~ing (knowing/thinking…)*. It's close to 〜ながらも and 〜けれども, but it has a characteristic flavor: the first half is usually an **awareness or intention** (思う, 知る, 疑う, 分かる, 感じる), and the second half is an action that **goes against it** — often with しまう, つい, 結局. The speaker is admitting a small weakness: 増えると知りつつも、つい手が伸びてしまう.\n\n- Connection: V-ます stem + つつも: 思いつつも, 知りつつも, 疑いつつも.\n- **〜つつ** without も means the same in this concessive use (思いつつ、行けなかった — examples ③④), but 〜つつ alone can also mean *while doing* (#30), so context decides.\n\nThe つつ family (☞ p.223 〜つつ):\n- **Vつつ** (#30): *while doing* (simultaneous action, formal ながら): 景色を楽しみつつ歩く.\n- **Vつつも** (#112): *although* (concession, this point).\n- **Vつつある** (#71): *is in the process of ~ing* (ongoing change): 広がりつつある.\n\nCompare **〜ながらも**: also *although*, and can follow adjectives/nouns (狭いながらも, 子どもながらも). つつも is limited to verbs and sounds more literary.\n\nJLPT tip: 〜と思いつつも / 〜と知りつつも + つい / 〜てしまった is the textbook pattern. If a sentence has 思い（　）、つい…てしまう, choose つつ(も).",
           see: [30, 71],
           index: ["Vつつも", "Vつつ（逆接）"],
           xref: "☞ p.223　〜つつ",
@@ -346,7 +346,7 @@ TRY.registerChapter({
                   q: "10時までに（　）、先に{出発|しゅっぱつ}しますから、あとから来てください。",
                   options: ["来ないとしたら", "来なかったら"],
                   answer: 1,
-                  en: "If you haven't come by 10 o'clock, we'll leave first, so please come along afterwards.",
+                  en: "If you're not here by 10 o'clock, we'll go on ahead, so please come along later.",
                 },
               ],
             },
@@ -393,7 +393,7 @@ TRY.registerChapter({
               pattern: "〜ばかり",
               stars: 2,
               marks: ["regret"],
-              usage: { ja: "「[V-る] + ばかり」も同じ意味で使われる。", en: "" },
+              usage: { ja: "「[V-る] + ばかり」も同じ意味で使われる。", en: "[V-る] + ばかり is also used with the same meaning.", gen: true },
               forms: [],
               examples: [
                 { ja: "{円高|えんだか}が進んで、{景気|けいき}が悪くなるばかりだ。", en: "With the yen getting stronger, the economy just keeps getting worse." },
@@ -511,7 +511,7 @@ TRY.registerChapter({
                   q: "A：食事、どうする？\nB：ゆっくり食べたいから、映画を見た（　）食事しようよ。",
                   options: ["{上|うえ}で", "{後|あと}で"],
                   answer: 1,
-                  en: "A: What shall we do about eating?\nB: I want to take my time eating, so let's eat after we've seen the movie.",
+                  en: "A: What should we do about food?\nB: I want to take my time eating, so let's eat after we've seen the movie.",
                 },
                 {
                   q: "どんな仕事につくかはよく考えた（　）決めたほうがいいですよ。",
@@ -544,8 +544,8 @@ TRY.registerChapter({
           usage: { ja: "「〜にこたえて」は、「相手からの{期待|きたい}や{要請|ようせい}の通りに」と言いたいときに使う。", en: "Use \"〜にこたえて\" when you want to say \"according to another person's expectation or request.\"" },
           forms: ["[N] + にこたえて", "[N] + にこたえた + [N]"],
           formNotes: [
-            { ja: "「{期待|きたい}・{要望|ようぼう}・{要請|ようせい}・アンコール・リクエスト・{声援|せいえん}・声」などの言葉と一緒に使われる。", en: "Used with words such as 期待 (expectation), 要望 (request), 要請 (formal request), アンコール (encore), リクエスト (request), 声援 (cheering), 声 (voice, opinion)." },
-            { ja: "「ご[N] + におこたえして」の形もある。", en: "There is also the form ご + N + におこたえして." },
+            { ja: "「{期待|きたい}・{要望|ようぼう}・{要請|ようせい}・アンコール・リクエスト・{声援|せいえん}・声」などの言葉と一緒に使われる。", en: "Used with words such as 期待 (expectation), 要望 (request), 要請 (formal request), アンコール (encore), リクエスト (request), 声援 (cheering), 声 (voice, opinion).", gen: true },
+            { ja: "「ご[N] + におこたえして」の形もある。", en: "There is also the form ご + N + におこたえして.", gen: true },
           ],
           examples: [
             { ja: "そのアイドルはコンサートの最後にアンコールにこたえてもう1{曲|きょく}歌った。", en: "At the end of the concert, the idol answered the call for an encore and sang one more song." },

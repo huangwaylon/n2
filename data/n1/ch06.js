@@ -65,7 +65,7 @@ TRY.registerChapter({
                   q: "ご{多忙|たぼう}のところ、お時間を{割|さ}いていただき、（　）。",
                   options: ["{恐縮|きょうしゅく}です", "大変でございます"],
                   answer: 0,
-                  en: "Thank you for making time for me when you are so busy — I am very much obliged.",
+                  en: "I am very much obliged to you for taking time out for me when you are so busy.",
                 },
                 {
                   q: "お休みのところすみませんが、{至急|しきゅう}本社の{佐藤|さとう}まで（　）。",
@@ -213,7 +213,7 @@ TRY.registerChapter({
           phrase: "うれしい**限りです**",
           stars: 2,
           marks: [],
-          usage: { ja: "「〜限りだ」は「強く〜と感じる」自分の気持ちを言いたいときに使われる。", en: "〜限りだ is used when you want to express a feeling of your own that you feel strongly: \"I feel so ~\"." },
+          usage: { ja: "「〜限りだ」は「強く〜と感じる」自分の気持ちを言いたいときに使われる。", en: "〜限りだ is used when you want to express a strong feeling of your own: \"I feel so ~\"." },
           forms: ["[いA] + 限りだ", "[なA]な + 限りだ"],
           formNotes: [
             { ja: "＊感情を表す言葉と一緒に使われる。", en: "It is used with words that express emotions." },

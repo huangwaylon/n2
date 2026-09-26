@@ -112,7 +112,7 @@ TRY.registerChapter({
             { ja: "名詞は{状態|じょうたい}や{様子|ようす}を表す言葉が使われる。", en: "Words that express a state or appearance are used for a noun." },
           ],
           examples: [
-            { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever of as much as 40 degrees, and on top of that my diarrhoea wouldn't stop — it was really awful." },
+            { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever of as much as 40 degrees, and on top of that my diarrhea wouldn't stop — it was really awful." },
             { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill so it's easy to pick up speed, and there is also a lot of traffic at night, so please be very careful." },
             { ja: "この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。", en: "This university's cafeteria is cheap and tasty, and on top of that it has a wide menu, so it is loved by local people too." },
             { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands." },
@@ -149,7 +149,7 @@ TRY.registerChapter({
                   q: "{外資系企業|がいしけいきぎょう}は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。",
                   options: ["{上|じょう}は", "{上|うえ}に"],
                   answer: 1,
-                  en: "Foreign-affiliated companies are said to pay high salaries and let you take long holidays as well, but the work is demanding.",
+                  en: "Foreign-affiliated companies are said to pay high salaries and let you take long vacations as well, but the work is demanding.",
                 },
               ],
             },
@@ -168,7 +168,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "1{世帯|せたい}といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We may say \"one household\", but households range from people living alone to large families of ten or more." },
-            { ja: "A：夏休み、{北海道|ほっかいどう}に行ったんでしょう。うらやましいなあ。\nB：行ったといっても、4日だけですからあまりいろいろなところへは行けなかったんですよ。", en: "A: You went to Hokkaido for the summer holidays, didn't you? I'm so jealous.\nB: I did go, but only for four days, so I couldn't get to many places." },
+            { ja: "A：夏休み、{北海道|ほっかいどう}に行ったんでしょう。うらやましいなあ。\nB：行ったといっても、4日だけですからあまりいろいろなところへは行けなかったんですよ。", en: "A: You went to Hokkaido over summer vacation, didn't you? I'm so jealous.\nB: I did go, but only for four days, so I couldn't get to many places." },
             { ja: "A：あれ？　雨が降ったの？　気がつかなかった。\nB：うん。降ったといっても30分ぐらいだったけど。", en: "A: Huh? Did it rain? I didn't notice.\nB: Yeah. It did rain, but only for about thirty minutes." },
             { ja: "A：来月の{富士山日帰|ふじさんひがえ}りバスツアーは席がまだありますか？\nB：はい、まだございますが、あるといいましても、{残|のこ}りわずかですので、お早めにご予約ください。", en: "A: Are there still seats on next month's day-trip bus tour to Mt. Fuji?\nB: Yes, there are, but that said, only a few are left, so please book early." },
             { ja: "A：あの店、CDが安いんだって？\nB：まあね。安いといっても10%だけどね。", en: "A: I hear CDs are cheap at that shop?\nB: Sort of. They're cheap, but only by 10%." },
@@ -385,7 +385,7 @@ TRY.registerChapter({
           items: [
             { q: "ネットで見つけた{画像|がぞう}を{無断|むだん}で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", answer: "にほかならない", en: "Reposting images found online without permission is nothing other than a criminal act." },
             { q: "外国旅行は{団体|だんたい}で行く＿＿よ。言葉の{心配|しんぱい}もないし、{短時間|たんじかん}でいろいろなところへ行けるから。", answer: "に{限|かぎ}る", en: "For trips abroad, nothing beats going with a tour group. You don't have to worry about the language, and you can visit lots of places in a short time." },
-            { q: "リサイクルはごみを{減|へ}らすための1つの方法＿＿。ごみを{減|へ}らすのではなく、ごみが出ないようにすることも考えるべきだ。", answer: "にすぎない", en: "Recycling is merely one way of reducing rubbish. Rather than reducing rubbish, we should also think about not producing it in the first place." },
+            { q: "リサイクルはごみを{減|へ}らすための1つの方法＿＿。ごみを{減|へ}らすのではなく、ごみが出ないようにすることも考えるべきだ。", answer: "にすぎない", en: "Recycling is merely one way of reducing garbage. Rather than reducing garbage, we should also think about not producing it in the first place." },
           ],
         },
       ],

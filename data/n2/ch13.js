@@ -354,7 +354,7 @@ TRY.registerChapter({
           usage: { ja: "「〜がたい」は、「〜するのは難しい、なかなか〜することができない」という意味で使う。", en: "Use \"〜がたい\" to mean \"doing 〜 is difficult; probably can't do 〜\"." },
           forms: ["[V-~~ます~~] + がたい"],
           formNotes: [
-            { ja: "「信じる・{理解|りかい}する・{納得|なっとく}する・{認|みと}める・{得|え}る・{許|ゆる}す・忘れる」などの言葉と一緒に使われる。", en: "It is used with words such as 信じる, 理解する, 納得する, 認める, 得る, 許す and 忘れる." },
+            { ja: "「信じる・{理解|りかい}する・{納得|なっとく}する・{認|みと}める・{得|え}る・{許|ゆる}す・忘れる」などの言葉と一緒に使われる。", en: "It is used with words such as 信じる, 理解する, 納得する, 認める, 得る, 許す and 忘れる.", gen: true },
           ],
           examples: [
             { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの{合併|がっぺい}の{申|もう}し{出|で}は受け入れがたい。", en: "Under these conditions, we find it hard to accept the merger offer from Suzuki Trading." },
@@ -481,7 +481,7 @@ TRY.registerChapter({
           usage: { ja: "「〜を{込|こ}めて…」は、「{愛情|あいじょう}、思いなどの気持ちを入れて（…する）」という意味で使う。", en: "Use \"〜を{込|こ}めて…\" to mean \"do … with a lot of love, thought or the like.\"" },
           forms: ["[N] + を{込|こ}めて"],
           formNotes: [
-            { ja: "「心・{愛|あい}・{親|した}しみ・{祈|いの}り・{恨|うら}み・{怒|いか}り」などの言葉と一緒に使われる。", en: "It is used with words such as 心, 愛, 親しみ, 祈り, 恨み and 怒り." },
+            { ja: "「心・{愛|あい}・{親|した}しみ・{祈|いの}り・{恨|うら}み・{怒|いか}り」などの言葉と一緒に使われる。", en: "It is used with words such as 心, 愛, 親しみ, 祈り, 恨み and 怒り.", gen: true },
           ],
           examples: [
             { ja: "{当店|とうてん}では１つ１つのお{菓子|かし}を、心を{込|こ}めて{手作|てづく}りしております。", en: "At our shop, we make each and every sweet by hand, with all our heart." },
@@ -588,7 +588,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ぬく」は、「{苦|くる}しくても最後までがんばって〜をする」という意味で使われる。また、「{非常|ひじょう}に〜する」という意味を表すこともある。", en: "\"〜ぬく\" is used to mean \"I'll do my best to do 〜 to the end, even if it's difficult.\" It can also express \"do 〜 an extreme amount.\"" },
           forms: ["[V-~~ます~~] + ぬく"],
           formNotes: [
-            { ja: "「やる・生きる・がんばる」「考える・{悩|なや}む・困る・{苦|くる}しむ」などの言葉と一緒に使われる。", en: "It is used with words such as やる, 生きる and がんばる, or 考える, 悩む, 困る and 苦しむ." },
+            { ja: "「やる・生きる・がんばる」「考える・{悩|なや}む・困る・{苦|くる}しむ」などの言葉と一緒に使われる。", en: "It is used with words such as やる, 生きる and がんばる, or 考える, 悩む, 困る and 苦しむ.", gen: true },
           ],
           examples: [
             { ja: "一度やると決めたからには、どんな{困難|こんなん}があっても最後までやりぬく{覚悟|かくご}です。", en: "Now that I've decided to do it, I'm prepared to see it through to the end, whatever difficulties arise." },
