@@ -3899,7 +3899,7 @@ ch8.review.0.ex.items.6.options.3	いただければ
 ch8.review.0.ex.items.6.q	お忙しいところ{恐縮|きょうしゅく}ですが、{貴社|きしゃ}{主催|しゅさい}のツアーについて、{詳細|しょうさい}を教えて（　）と{存|ぞん}じます。どうぞよろしくお願いします。
 ch8.review.0.ex.prompt.ja	次の文の（　）に入れるのに最もよいものを1・2・3・4から一つ選びなさい。
 ch8.review.0.ex.type	choice
-ch8.review.0.title.en	Question 1: Selecting grammar form
+ch8.review.0.title.en	Question 1: Grammar form
 ch8.review.0.title.ja	問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉
 ch8.review.1.ex.items.0.after	ください。
 ch8.review.1.ex.items.0.before	お客様が
@@ -4694,7 +4694,7 @@ ch10.parts.0.points.2.examples.2.ja	{環境汚染|かんきょうおせん}の�
 ch10.parts.0.points.2.examples.3.ja	よいにつけ悪いにつけ、人はうわさ{話|ばなし}をしたがるようだ。
 ch10.parts.0.points.2.examples.4.idiom	true
 ch10.parts.0.points.2.examples.4.ja	母は何かにつけ、{心配|しんぱい}して電話してくる。
-ch10.parts.0.points.2.formNotes.0.en	As in "暑いにつけ寒いにつけ", you can also use it as an idiomatic expression to express a feeling of "whatever."
+ch10.parts.0.points.2.formNotes.0.en	As in "暑いにつけ寒いにつけ", it can also be used in idiomatic expressions to mean "at any time / whatever the circumstances."
 ch10.parts.0.points.2.formNotes.0.ja	「暑いにつけ寒いにつけ」のような{慣用|かんよう}表現で「どんなときも」という気持ちを表すこともある。
 ch10.parts.0.points.2.forms.0	[V-る] + につけ
 ch10.parts.0.points.2.no	94
@@ -5910,7 +5910,7 @@ ch12.review.2.ex.text.0	最近、{健康|けんこう}にいいと言われる{�
 ch12.review.2.ex.text.1	{健康|けんこう}を気にする人のニーズ[3]{様々|さまざま}な{栄養補助食品|えいようほじょしょくひん}が売られたりしていることもその{原因|げんいん}の1つかもしれませんが、{栄養|えいよう}のバランスを考えた[4]本当に体によい食事をとるようにしましょう。
 ch12.review.2.ex.title	
 ch12.review.2.ex.type	passage
-ch12.review.2.title.en	Question 3: Text grammar
+ch12.review.2.title.en	Question 3: Grammar in a passage
 ch12.review.2.title.ja	問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉
 ch12.review.3.ex.items.0.answer	3
 ch12.review.3.ex.items.0.options.0	{日本以外|にほんいがい}の{国|くに}でも{魚|さかな}がよく{食|た}べられていること
@@ -6547,7 +6547,7 @@ ch13.review.2.ex.text.0	リリーは、{子犬|こいぬ}のころ目の病気�
 ch13.review.2.ex.text.1	この話が{報道|ほうどう}されると、多くの{視聴者|しちょうしゃ}から「[4]どんなことがあっても2{匹|ひき}を{引|ひ}き{離|はな}さないで」といったコメントがいくつも{寄|よ}せられた。その中には{新|あら}たな{飼|か}い{主|ぬし}として声をあげる人もいる。2{匹|ひき}は、まもなく一生を{過|す}ごせる家を見つけ、{幸福|こうふく}な日を送るようになるだろう。
 ch13.review.2.ex.title	
 ch13.review.2.ex.type	passage
-ch13.review.2.title.en	Question 3: Text grammar
+ch13.review.2.title.en	Question 3: Grammar in a passage
 ch13.review.2.title.ja	問題3 〈{文章|ぶんしょう}の{文法|ぶんぽう}〉
 ch13.review.3.ex.items.0.answer	0
 ch13.review.3.ex.items.0.options.0	人生をあきらめないこと
