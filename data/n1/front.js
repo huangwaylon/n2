@@ -1,7 +1,8 @@
-// Front matter of "TRY! 日本語能力試験 N1" (PDF pp. 3–10). `ja` is the book's Japanese (furigana as printed);
+// Front matter of "TRY! 日本語能力試験 N1" (PDF pp. 3–10; the 目次 pp. 11–15 is the site's sidebar). `ja` is the book's Japanese (furigana as printed);
 // every `en` is our own translation. The book's Chinese translations are not reproduced: blocks the book prints only
 // in Chinese (the authors' signature, the whole "To teachers" page) are given in English only (`en`, no `ja`).
-// Tables keep the book's Japanese cells; `table.en` is our English, one line per row.
+// Tables keep the book's Japanese cells; `table.en` is our English, one line per row (not rendered yet). The book's
+// Chinese-only header and "text type" column of the table on p.10 are given in English as `head` and a third column.
 N2.registerFront([
   {
     id: "intro",
@@ -44,7 +45,7 @@ N2.registerFront([
       { h: { ja: "1. 本冊", en: "Main volume" }, level: 2 },
       { p: {
         ja: "全部で14章に分かれており、それぞれ次のような{構成|こうせい}になっています。",
-        en: "It is divided into 14 chapters in all, each organized as follows. (Sic: the N1 book has 10 chapters; the text is carried over from the N2 edition.)"
+        en: "It is divided into 14 chapters in all, each organized as follows. [So printed; this N1 book actually has 10 chapters. 14 is the number of chapters in the N2 book of the same series.]"
       } },
       { h: { ja: "各章の{構成|こうせい}", en: "Structure of each chapter" }, level: 3 },
       { h: { ja: "1）できること　Can Do", en: "Can-do" }, level: 4 },
@@ -54,13 +55,13 @@ N2.registerFront([
       } },
       { h: { ja: "2）{見本文|みほんぶん}", en: "Sample text" }, level: 4 },
       { p: {
-        ja: "その章で勉強する文法{項目|こうもく}が、{実際|じっさい}にどのように使われているかわかるような文章になっています。１つの章が(1)(2)に分かれている場合、(1)(2)の{見本文|みほんぶん}はストーリーがつながっています。勉強する文法{項目|こうもく}は、すぐわかるように太字で書いてあります。",
+        ja: "その章で勉強する文法{項目|こうもく}が、{実際|じっさい}にどのように使われているかわかるような文章になっています。1つの章が(1)(2)に分かれている場合、(1)(2)の{見本文|みほんぶん}はストーリーがつながっています。勉強する文法{項目|こうもく}は、すぐわかるように太字で書いてあります。",
         en: "This is a text that shows how the grammar points studied in the chapter are actually used. When a chapter is divided into (1) and (2), the sample texts of (1) and (2) form one continuous story. The grammar points to be studied are printed in bold so that you can spot them at once."
       } },
       { h: { ja: "3）文法{項目|こうもく}", en: "Grammar points" }, level: 4 },
       { p: {
-        ja: "その章で勉強する{項目|こうもく}を{順番|じゅんばん}に並べてあります。探すときに便利なように、１章から14章まで通し番号になっています。それぞれの中には、使い方、{接続|せつぞく}、例文、{補足|ほそく}説明、練習問題などがあります（くわしい内容は☞p.6）。",
-        en: "The points studied in the chapter are listed in order. To make them easy to look up, they are numbered consecutively from chapter 1 through chapter 14 (sic; the N1 book has 10 chapters). Each point contains its usage, connection, example sentences, supplementary explanations, practice questions and so on (for details ☞ p.6)."
+        ja: "その章で勉強する{項目|こうもく}を{順番|じゅんばん}に並べてあります。探すときに便利なように、1章から14章まで通し番号になっています。それぞれの中には、使い方、{接続|せつぞく}、例文、{補足|ほそく}説明、練習問題などがあります（くわしい内容は☞p.6）。",
+        en: "The points studied in the chapter are listed in order. To make them easy to look up, they are numbered consecutively from chapter 1 through chapter 14 [so printed; in this N1 book, points 1–123 run through chapters 1–10]. Each point contains its usage, connection, example sentences, supplementary explanations, practice questions and so on (for details ☞ p.6)."
       } },
       { h: { ja: "4）Check" }, level: 4 },
       { p: {
@@ -267,33 +268,22 @@ N2.registerFront([
         en: "With these points in mind, the sample texts in this book cover a wide variety of text types, as shown in the table below. The vocabulary used in them is also high-frequency vocabulary in wide everyday use."
       } },
       { table: {
+        head: ["Ch.", "Genre / title", "Text type"],
         rows: [
-          ["1", "ニュースを読む\nオクトーバーフェスト"],
-          ["2", "スピーチを聞く\n産業医を増やそう"],
-          ["3", "昔話を読む\n飯食わぬ女房"],
-          ["4", "実用書を読む\n上司との付き合い方"],
-          ["5", "ドラマのシナリオを読む\n転職"],
-          ["6", "スピーチをする\n研修を終えて"],
-          ["7", "社内で話す\nさすが本田君"],
-          ["8", "小説を読む\n楽園の萌花"],
-          ["9", "講演を聞く\nトリアージ"],
-          ["10", "論説文を読む\n前衛書道"]
-        ],
-        en: [
-          "Ch. 1 — Reading the news: Oktoberfest — news report",
-          "Ch. 2 — Listening to a speech: Let's have more company doctors — speech",
-          "Ch. 3 — Reading a folk tale: The Wife Who Doesn't Eat — folk tale",
-          "Ch. 4 — Reading a practical book: How to get along with your boss — practical book",
-          "Ch. 5 — Reading a TV drama script: Changing jobs — TV drama script",
-          "Ch. 6 — Giving a speech: After finishing the training — speech",
-          "Ch. 7 — Talking at work: That's Honda for you — workplace conversation",
-          "Ch. 8 — Reading a novel: Moeka of Paradise — novel",
-          "Ch. 9 — Listening to a lecture: Triage — lecture",
-          "Ch. 10 — Reading an editorial essay: Avant-garde calligraphy — argumentative essay"
+          ["1", "ニュースを読む\nオクトーバーフェスト", "News report"],
+          ["2", "スピーチを聞く\n産業医を増やそう", "Speech"],
+          ["3", "昔話を読む\n飯食わぬ女房", "Folk tale"],
+          ["4", "実用書を読む\n上司との付き合い方", "Practical guidebook"],
+          ["5", "ドラマのシナリオを読む\n転職", "TV drama script"],
+          ["6", "スピーチをする\n研修を終えて", "Speech"],
+          ["7", "社内で話す\nさすが本田君", "Workplace conversation"],
+          ["8", "小説を読む\n楽園の萌花", "Novel"],
+          ["9", "講演を聞く\nトリアージ", "Lecture"],
+          ["10", "論説文を読む\n前衛書道", "Argumentative essay"]
         ]
       } },
       { p: {
-        en: "When the book was used in actual teaching at our school, learners said they could get a rough feel for the meaning and use of the grammar points even without special explanation. We sincerely hope that teachers using this book will enjoy the stories of the sample texts together with their learners."
+        en: "When the book was used in actual teaching at our school, learners said they could get a rough feel for the meaning and use of the grammar points even without special explanation. We sincerely hope that teachers using this book will enjoy the stories told in the sample texts together with their learners."
       } },
       { p: {
         en: "If you have any comments or suggestions about this book, please do not hesitate to let us know."
