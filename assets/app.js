@@ -396,32 +396,69 @@
 
   // ---------- connection formula (C10), ＊ notes (C11), keigo tables (C16) ----------
   const FX_ALTS = /^［(.+)］$/;
+  // split s on sep only outside ［…］ and （…） (so a "+" or "　" inside a bracketed stack or a parenthesis stays in its token)
+  function splitTop(s, sep) {
+    const out = []; let depth = 0, cur = "";
+    for (const c of String(s)) {
+      if (c === "［" || c === "（") depth++;
+      else if ((c === "］" || c === "）") && depth) depth--;
+      if (!depth && sep.test(c)) { out.push(cur); cur = ""; continue; }
+      cur += c;
+    }
+    out.push(cur);
+    return out.map((x) => x.trim()).filter((x, i, a) => x || a.length === 1);
+  }
+  const PLUS = /\+/, FWSP = /　/;
   // one formula token: "［A　B］" (alternatives printed stacked in the book) → bracket stack; otherwise inline
   function fxTok(t, side) {
     const m = t.match(FX_ALTS);
-    if (m && m[1].includes("　")) return fxBr(m[1].split(/　+/), side);
+    if (m && splitTop(m[1], FWSP).length > 1) return fxBr(splitTop(m[1], FWSP), side);
     return `<span class="fx-t">${fmt(t)}</span>`;
   }
-  const fxBr = (alts, side) => `<span class="fx-br fx-br--${side}">${alts.map((a) => `<span class="fx-alt">${a.split(/\s*\+\s*/).map((x) => `<span class="fx-t">${fmt(x)}</span>`).join('<span class="fx-plus">+</span>')}</span>`).join("")}</span>`;
+  const fxBr = (alts, side) => `<span class="fx-br fx-br--${side}">${alts.map((a) => `<span class="fx-alt">${splitTop(a, PLUS).map((x) => fxTok(x, "r")).join('<span class="fx-plus">+</span>')}</span>`).join("")}</span>`;
   const fxJoin = (toks, lastSide = "l") => toks.map((t, i) => fxTok(t, i === toks.length - 1 && toks.length > 1 ? lastSide : "r")).join('<span class="fx-plus">+</span>');
   function formulaHtml(forms) {
     const main = [], subs = [];
     forms.forEach((f) => {
       const [head, ...rest] = String(f).split("\n");
-      if (FX_ALTS.test(head.trim()) && !/\+/.test(head)) subs.push(head.trim()); else main.push(head);
+      if (FX_ALTS.test(head.trim()) && splitTop(head, PLUS).length === 1) subs.push(head.trim()); else main.push(head);
       rest.forEach((r) => subs.push(r.trim()));
     });
-    const T = main.map((f) => f.split(/\s*\+\s*/).map((x) => x.trim()));
+    const T = main.map((f) => splitTop(f, PLUS));
     let body = "";
-    if (T.length === 1) body = `<div class="fx">${fxJoin(T[0])}</div>`;
+    // one formula whose sub-lines hold one bracket per [Pl]-type badge ("Pl₁ + といおうか + Pl₂ + といおうか" /
+    // "［なAだ　Nだ］　　［なAだ　Nだ］"): print each sub bracket under its badge, as the book does
+    const badgeIdx = T.length === 1 ? T[0].map((t, i) => (/^\[[^\]]+\]$/.test(t) ? i : -1)).filter((i) => i >= 0) : [];
+    // top-level ［…］ groups of a sub-line ("［A　B］　　［C］" or "［A］［B］"); null if it holds anything else
+    const groupsOf = (x) => {
+      const out = []; let depth = 0, cur = "";
+      for (const c of x) {
+        if (!depth && /[ 　]/.test(c)) continue;
+        if (!depth && c !== "［") return null;
+        cur += c;
+        if (c === "［") depth++; else if (c === "］" && !--depth) { out.push(cur); cur = ""; }
+      }
+      return depth ? null : out;
+    };
+    const uLines = T.length === 1 && badgeIdx.length > 1 ? subs.filter((x) => { const g = groupsOf(x); return g && g.length === badgeIdx.length; }) : [];
+    if (uLines.length) {
+      const G = uLines.map(groupsOf);
+      subs.splice(0, subs.length, ...subs.filter((x) => !uLines.includes(x)));
+      body = `<div class="fx fx--under">${T[0].map((t, i) => {
+        const k = badgeIdx.indexOf(i);
+        return `${i ? '<span class="fx-plus">+</span>' : ""}<span class="fx-col">${fxTok(t, "r")}${k >= 0 ? G.map((g) => `<span class="fx-u">${fmt(g[k])}</span>`).join("") : ""}</span>`;
+      }).join("")}</div>`;
+    } else if (T.length === 1) body = `<div class="fx">${fxJoin(T[0])}</div>`;
     else if (T.length > 1) {
       const n = T.length, minLen = Math.min(...T.map((t) => t.length));
       let pre = 0; while (pre < minLen - 1 && T.every((t) => t[pre] === T[0][pre])) pre++;
       let suf = 0; while (suf < minLen - 1 && T.every((t) => t[t.length - 1 - suf] === T[0][T[0].length - 1 - suf])) suf++;
-      const heads = [...new Set(T.map((t) => t[0]))], tails = [...new Set(T.map((t) => t[1]))];
-      const cross = T.every((t) => t.length === 2) && heads.length > 1 && tails.length > 1 && heads.length * tails.length === n &&
-        heads.every((h) => tails.every((tl) => T.some((t) => t[0] === h && t[1] === tl)));
+      // every head × every tail ("V-る／V-た + の | N" × "を皮切りに（して）| を皮切りとして", book p.17): two stacks
       const alt = (toks) => toks.join(" + ");
+      const hd = (t) => alt(t.slice(0, -1)), tl = (t) => t[t.length - 1];
+      const heads = [...new Set(T.map(hd))], tails = [...new Set(T.map(tl))];
+      const cross = T.every((t) => t.length >= 2) && heads.length > 1 && tails.length > 1 && heads.length * tails.length === n &&
+        heads.every((h) => tails.every((x) => T.some((t) => hd(t) === h && tl(t) === x)));
       if (cross) body = `<div class="fx fx--x">${fxBr(heads, "r")}<span class="fx-plus">+</span>${fxBr(tails, "l")}</div>`;
       else if (pre >= 1) body = `<div class="fx fx--pre">${fxJoin(T[0].slice(0, pre), "r")}<span class="fx-plus">+</span>${fxBr(T.map((t) => alt(t.slice(pre))), "l")}</div>`;
       else if (suf >= 1) body = `<div class="fx fx--suf">${fxBr(T.map((t) => alt(t.slice(0, t.length - suf))), "r")}<span class="fx-plus">+</span>${fxJoin(T[0].slice(T[0].length - suf))}</div>`;

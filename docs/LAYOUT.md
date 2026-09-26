@@ -516,6 +516,12 @@ The book has no equivalent; this is a web convenience.
 
 **Responsive:** ≤390: `.fx` 16px; bracket groups never exceed the width because each `.fx-alt` wraps internally (`min-width:0`).
 
+**Formula parsing (current):** tokens are split on "+" (and stack alternatives on "　") only outside ［…］ and （…）, so a
+bracketed alternative may contain "+" ("［ながら（に）　ながらの + [N₂]］", #92). Several forms that are every head × every
+tail (head = all tokens but the last: "[V-る]／[V-た] + の" | "[N]" × "を皮切りに（して）" | "を皮切りとして", book p.17) render as
+two bracket stacks. A sub-line of ［…］ groups, one per badge token ("Pl₁ + といおうか + Pl₂ + といおうか" /
+"［なAだ　Nだ］　　［なAだ　Nだ］", "［現在形のみ］［現在形のみ］") is printed in small type under each badge (`.fx--under`).
+
 ### C11 ＊ notes on connection [B]
 
 **Book (pp.19, 22, 38, 72):**

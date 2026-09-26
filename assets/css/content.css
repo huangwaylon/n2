@@ -183,6 +183,12 @@
 .fx-br--r::before { right: .15em; border-left: 0; }
 .fx-alt { display: flex; flex-wrap: wrap; align-items: center; gap: 0 .45em; min-width: 0; }
 .fx-sub { font: 15px/1.6 var(--goth); margin: .1em 0 0; }
+/* sub-bracket printed under its badge (fx--under): each token is a column, the bracket in small type below it */
+.fx--under { align-items: flex-start; }
+.fx--under > .fx-plus { align-self: flex-start; line-height: 1.6; }
+.fx-col { display: inline-flex; flex-direction: column; align-items: flex-start; min-width: 0; }
+.fx-u { font: 12.5px/1.5 var(--goth); white-space: nowrap; margin-left: -.1em; }
+.fx-u .badge { font-size: .85em; }
 .fx .badge, .fx-sub .badge { font-size: .8em; }
 
 /* ---------- C11 ＊ notes ---------- */
