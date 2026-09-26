@@ -29,7 +29,7 @@ TRY.registerChapter({
           usage: { ja: "「〜きり」は、「{友人|ゆうじん}とは2年前に別れたきり、会っていない」のように、「〜（別れた）のあとはそのままだ（会っていない）」と言いたいときに使う。", en: "As in \"{友人|ゆうじん}とは2年前に別れたきり、会っていない\", use \"〜きり\" when you want to say \"things have been the same (we haven't met) since then (after we parted).\"" },
           forms: ["[V-た] + きり"],
           formNotes: [
-            { ja: "話し言葉では「[V-た] + っきり」も使われる。", en: "In spoken language, \"[V-た] + っきり\" is also used." },
+            { ja: "話し言葉では「[V-た] + っきり」も使われる。", en: "In spoken language, \"[V-た] + っきり\" is also used.", gen: true },
           ],
           examples: [
             { ja: "彼は「ごめん」と言ったきり、{黙|だま}ってしまった。", en: "He said “sorry” and then fell silent." },
@@ -50,6 +50,7 @@ TRY.registerChapter({
             {
               ja: "「〜だけ」の意味で「数の言葉 + きり」の形でも使われる。",
               en: "It is also used in the form \"number word + きり\" to mean \"only ~\" (≈ 〜だけ).",
+              gen: true,
               examples: [
                 { ja: "女性が1人きりで{夜道|よみち}を歩くのは{危険|きけん}だ。", en: "It's dangerous for a woman to walk the streets alone at night." },
                 { ja: "彼と2人っきりでクリスマスを{過|す}ごすのが私の{夢|ゆめ}なの。", en: "My dream is to spend Christmas with him, just the two of us." },
@@ -144,8 +145,8 @@ TRY.registerChapter({
           usage: { ja: "「〜ものの」は、「ほしくて買ったものの」のように、「〜は{事実|じじつ}だ（ほしくて買った）けれども」という気持ちを強く言いたいときに使う。{事実|じじつ}を{強調|きょうちょう}するために、{助詞|じょし}「は」を使うことが多い。", en: "Use \"〜ものの\" when you really want to say you feel that \"even though the fact is 〜 (I wanted it and bought it),\" as in \"ほしくて買ったものの\". The particle \"は\" is often used to emphasize the fact." },
           forms: ["[Pl] + ものの\n［[なA~~だ~~]な　~~[N]だ~~］"],
           formNotes: [
-            { ja: "「[なA]／[N]で（は）ある + ものの」の形もある。", en: "There is also the form \"[なA]／[N]で(は)ある + ものの\"." },
-            { ja: "「〜ている・〜てみる」などは「〜てはいる」のように「は」が入ることが多い。", en: "With forms such as 〜ている and 〜てみる, は is often inserted, as in 〜てはいる." },
+            { ja: "「[なA]／[N]で（は）ある + ものの」の形もある。", en: "There is also the form \"[なA]／[N]で(は)ある + ものの\".", gen: true },
+            { ja: "「〜ている・〜てみる」などは「〜てはいる」のように「は」が入ることが多い。", en: "With forms such as 〜ている and 〜てみる, は is often inserted, as in 〜てはいる.", gen: true },
           ],
           examples: [
             { ja: "水泳教室に通ってはいるものの、いまだに25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can only swim 25 meters." },
@@ -194,7 +195,7 @@ TRY.registerChapter({
           usage: { ja: "「困ったことにお金がなかった」のように、「お金がなくて困った」ことを{倒置的|とうちてき}に言って、{話者|わしゃ}の気持ち、{感情|かんじょう}を強く表したいときに使う。", en: "Use this expression when you say something like \"困ったことにお金がなかった\" in reverse order, like \"I didn't have money and it was a problem,\" and you want to strongly express a feeling or emotion." },
           forms: ["[V-た]／[いA]／[なA]な + ことに"],
           formNotes: [
-            { ja: "「{驚|おどろ}いた・困った・うれしい・悲しい・{不思議|ふしぎ}な・{残念|ざんねん}な・ありがたい」などの言葉と一緒に使う。", en: "It is used together with words such as 驚いた (surprised), 困った (troubled), うれしい (happy), 悲しい (sad), 不思議な (strange), 残念な (regrettable) and ありがたい (grateful)." },
+            { ja: "「{驚|おどろ}いた・困った・うれしい・悲しい・{不思議|ふしぎ}な・{残念|ざんねん}な・ありがたい」などの言葉と一緒に使う。", en: "It is used together with words such as 驚いた (surprised), 困った (troubled), うれしい (happy), 悲しい (sad), 不思議な (strange), 残念な (regrettable) and ありがたい (grateful).", gen: true },
           ],
           examples: [
             { ja: "ホテルの部屋に入ったら、{驚|おどろ}いたことに、バラの{花束|はなたば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I entered my hotel room, to my surprise, a bouquet of roses and a welcome message from the hotel manager had been placed on the table." },
@@ -216,12 +217,12 @@ TRY.registerChapter({
           usage: { ja: "「小学1年生にしては{背|せ}が高い」のように、「〜にしては」は、「〜から{予想|よそう}することとは違う」と言いたいときに使う。", en: "Use \"〜にしては\" when you want to say that something is \"different from what you would expect from 〜\" as in \"小学1年生にしては{背|せ}が高い\"." },
           forms: ["[N] + にしては"],
           formNotes: [
-            { ja: "[Pl]［[なA~~だ~~]］の場合もある。", en: "It can also follow [Pl] (with [なA~~だ~~])." },
+            { ja: "[Pl]［[なA~~だ~~]］の場合もある。", en: "It can also follow [Pl] (with [なA~~だ~~]).", gen: true },
           ],
           examples: [
             { ja: "今人気のエリナはモデルにしては{背|せ}が高いほうではない。", en: "Erina, who is popular right now, isn't particularly tall for a model." },
             { ja: "このお{弁当|べんとう}は300円にしては{量|りょう}も多いし味もいい。", en: "For 300 yen, this boxed lunch has a generous portion and tastes good too." },
-            { ja: "A：そのコート、すてきね。\nB：30年前に母が着てたのなんだけど、それにしてはデザインも古くないでしょ？", en: "A: That coat is lovely.\nB: It's one my mother wore 30 years ago, but the design doesn't look old for that, does it?" },
+            { ja: "A：そのコート、すてきね。\nB：30年前に母が着てたのなんだけど、それにしてはデザインも古くないでしょ？", en: "A: That coat is lovely.\nB: It's one my mother wore 30 years ago, but considering that, the design doesn't look dated, does it?" },
             { ja: "そのおすし、初めて作ったにしては上手にできたじゃない。", en: "For your first time making sushi, it turned out really well, didn't it?" },
           ],
           deepDive: "**〜にしては** means *for (a/an) ~ / considering ~*. The speaker takes X as a standard and says the actual situation **doesn't match what X would lead you to expect**. The deviation can be positive (上手, 安い) or negative (下手, 少ない).\n\n- 3歳にしては言葉をよく知っている — *knows a lot of words for a 3-year-old*.\n- プロにしては下手だ — *bad, for a professional*.\n\nImportant restrictions:\n- X is something concrete that sets an expectation (age, price, experience, profession, season), and the second half must go **against** that expectation. If the result simply matches X, use だけあって (#105) instead: プロだけあって上手だ, not ✗プロにしては上手だ.\n- **それにしては** = *considering that*; don't confuse it with **それにしても** (*even so / anyway*), which just changes the topic or emphasizes.\n\nSimilar patterns:\n- **〜わりに（は）** (#95): very close, but わりに can follow adjectives and scale nouns directly (値段のわりに, 高いわりに), whereas にしては takes a specific value or status (千円にしては, 小学生にしては; ✗値段にしては).\n- **〜として** (*as ~, in the capacity of*): no idea of unexpectedness — 代表として挨拶した.\n- **〜に応じて** (#4): *in accordance with* — totally different meaning, but a favorite distractor.\n\nJLPT tip: when the sentence says something surprising compared with a fixed yardstick (年齢, 値段, 季節, 初めて), にしては is the answer.",
@@ -270,7 +271,7 @@ TRY.registerChapter({
           usage: { ja: "自分がこれまでしてきたことや感じていることについて、気持ちを{込|こ}めて言うときに使われる。「どんなに・どれだけ・どれほど」などの言葉と一緒に、{独|ひと}り{言|ごと}として言うことが多い。", en: "Use this when you say with emotion what you have done or felt up to now. It is often said to oneself together with words such as \"どんなに・どれだけ・どれほど\"." },
           forms: ["[Pl] + ことか\n［[なA~~だ~~]な　~~[N]だ~~］"],
           formNotes: [
-            { ja: "「[なA]／[N]である + ことか」も使われることがある。", en: "\"[なA]／[N]である + ことか\" is also sometimes used." },
+            { ja: "「[なA]／[N]である + ことか」も使われることがある。", en: "\"[なA]／[N]である + ことか\" is also sometimes used.", gen: true },
           ],
           examples: [
             { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows how hard I worked." },
@@ -425,7 +426,7 @@ TRY.registerChapter({
                   q: "彼は{徹夜|てつや}でゲームをした（　）、{遅刻|ちこく}して、宿題まで忘れてきた。",
                   options: ["あげく", "ものの"],
                   answer: 0,
-                  en: "He stayed up all night playing games, and as a result he was late and even forgot his homework.",
+                  en: "After staying up all night playing games, he ended up being late and even forgot his homework.",
                 },
                 {
                   q: "社長にはなった（　）、{会長|かいちょう}が何でも決めてしまうので、何もできない。",
@@ -461,7 +462,7 @@ TRY.registerChapter({
             { ja: "{楽|らく}をしてお金をもうけようなんて考えるもんじゃない。", en: "You shouldn't think about making money the easy way." },
             { ja: "人の{悪口|わるぐち}を言うもんじゃありません。", en: "You mustn't speak ill of others." },
             { ja: "社内のことは小さいことでも、{部外者|ぶがいしゃ}に話すものではない。", en: "You should not talk to outsiders about company matters, however small." },
-            { ja: "A：どうも、すみませ〜ん。\nB：何、笑ってるんだ！　{謝|あやま}るときにはへらへら笑うもんじゃない。", en: "A: Sorry about that~.\nB: What are you laughing about? You don't grin like that when you're apologizing!" },
+            { ja: "A：どうも、すみませ〜ん。\nB：何、笑ってるんだ！　{謝|あやま}るときにはへらへら笑うもんじゃない。", en: "A: Sooorry about that.\nB: What are you laughing about? You don't grin like that when you're apologizing!" },
           ],
           deepDive: "**〜ものではない** is the negative of the *nature/norm* **ものだ** (#13 〜ものだ①: 人は年を取ると忘れっぽくなるものだ). If ものだ says *that's how things (should) be*, ものではない says *that's not something one does*. So it's a warning or reprimand grounded in **common sense or social norms**, not in a specific rule.\n\n- Often said by someone older/senior: a parent to a child, a boss to a junior, or a friend giving firm advice (like 渡辺 in the sample: そんなこと考えるもんじゃないよ).\n- **もんじゃない** is the casual contraction; add よ to soften it among friends. Polite forms: ものではありません / もんじゃありません.\n- Connection is simple: dictionary form only (✗考えたものではない).\n\nCompare with close expressions:\n- **〜べきではない**: *should not* — a more logical, personal judgment; ものではない appeals to general norms.\n- **〜てはいけない**: direct prohibition, stronger and more rule-like.\n- **〜というものではない** (#25): *it's not (necessarily) the case that ~*: 高ければいいというものではない. Totally different meaning — a denial of a generalization, not a warning.\n- **〜ものか / もんか** (#51): *no way I'll ~*: 負けるもんか. A refusal, not advice.\n- **〜ものではない** can also appear in the non-admonishing sense *can't easily ~*: この味はなかなか出せるものではない (this flavor is not something you can easily produce). That's closer to *it's not possible*.\n\nJLPT tip: if the sentence is scolding someone for bad manners or poor attitude, ものではない is the answer; if it's denying an assumption (〜ばいい), look for というものではない.",
           see: [13, 25, 39, 51, 52, 56, 92, 122, 132],
@@ -594,7 +595,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{引|ひ}っ{越|こ}しのために荷物を{整理|せいり}することになったが、{祖父母|そふぼ}も両親も物が{捨|す}てられない{性格|せいかく}で、荷物が山のようにある。私たち{姉妹|しまい}の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", "両親は古い荷物の中から思い出の{品|しな}を手に取ってながめ、{引|ひ}っ{越|こ}し[1]。さんざん{昔話|むかしばなし}をした[2]、父はすべて{捨|す}てないと言い出した。思い出の{品|しな}とはいう[3]、しまっておく場所もないので[4]。{結局|けっきょく}トラック1{杯|ぱい}分の{品|しな}を{捨|す}てた。父はさびしいかもしれないが、また新しい家で新しい思い出を作ってほしいと思う。"],
-        en: ["We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from my sisters' and my childhood, but even my parents' and grandparents' schoolbooks from their childhood turned up.", "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to get on with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
+        en: ["We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from when my sisters and I were children turned up, but even the schoolbooks my parents and grandparents used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and were in no state to get on with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
         blanks: [
           { options: ["どころではない", "さえすればいい", "かねない", "ということだ"], answer: 0 },
           { options: ["ばかりで", "くせに", "あげく", "わけではなく"], answer: 2 },
@@ -646,7 +647,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "お昼、一緒に食べに行かない？" },
             ],
-            en: ["Do you want to go out for lunch together?"],
+            en: ["Do you want to go out for lunch together?", "Huh? You don't have anywhere to go?", "Sorry, I've got no time for that right now.", "Well then, take your time eating."],
             options: ["え？　行くところがないの？", "ごめん、それどころじゃないんだ。", "じゃ、ゆっくり食べてね。"],
             answer: 1,
             why: { en: "〜どころじゃない: \"Sorry, I'm in no position to do that (too busy).\"" },
@@ -655,7 +656,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "君、こんなレポートじゃ、直しようがないよ。" },
             ],
-            en: ["Look, with a report like this, there's no way to even fix it."],
+            en: ["Look, a report like this is beyond fixing.", "Yes, I suppose there's no way to fix it.", "Well then, let's fix it, sir.", "I'm sorry. I'll rewrite it and bring it back."],
             options: ["ええ、直しようがないでしょう。", "じゃ、部長、直しましょうよ。", "すみません。もう一度書いてきます。"],
             answer: 2,
             why: { en: "直しようがない means the report is beyond fixing, so the natural reply is to apologize and rewrite it." },

@@ -31,7 +31,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ばかりに」は、「〜だけが{原因|げんいん}で（悪い{結果|けっか}になってしまって{残念|ざんねん}だ）」と言いたいときに使う。", en: "Use \"〜ばかりに\" when you want to say \"(it's unfortunate that things turned out badly) just because of 〜\"." },
           forms: ["[Pl] + ばかりに\n［[なA~~だ~~]な　[N~~だ~~]な］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + ばかりに」の形もある。", en: "The form なA／N + である + ばかりに also exists." },
+            { ja: "「[なA]／[N] である + ばかりに」の形もある。", en: "The form なA／N + である + ばかりに also exists.", gen: true },
           ],
           examples: [
             { ja: "本当のことを言ったばかりに、彼を{怒|おこ}らせてしまった。", en: "Just because I told the truth, I ended up making him angry." },
@@ -211,7 +211,7 @@ TRY.registerChapter({
           usage: { ja: "{話者|わしゃ}の考えを、{個人的|こじんてき}な意見ではなく{一般的|いっぱんてき}にそうだと言いたいときに使う。", en: "Use this when you want to say you think that \"this isn't what I think, but generally it's like this.\"" },
           forms: ["[N] + というものだ"],
           formNotes: [
-            { ja: "[Pl]［[なA~~だ~~]］の場合もある。", en: "Plain forms (with なA dropping だ) are also possible." },
+            { ja: "[Pl]［[なA~~だ~~]］の場合もある。", en: "Plain forms (with なA dropping だ) are also possible.", gen: true },
           ],
           examples: [
             { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。\nB：困ったときに助け合うのが友達というものだろ。手伝ってあげなさい。", en: "A: Sir, because of Yamashita, our group is the only one whose piece isn't finished.\nB: Helping each other when you're in trouble — that's what friends are for, isn't it? Go and help him." },
@@ -335,7 +335,7 @@ TRY.registerChapter({
           usage: { ja: "「食べ{放題|ほうだい}だったので食べられるだけ食べた」のように、「{限界|げんかい}まで〜をする」と言いたいときに使う。", en: "Use this when you want to say you \"do 〜 to the maximum limit\" as in \"食べ{放題|ほうだい}だったので食べられるだけ食べた\"." },
           forms: ["[V-できる] + だけ"],
           formNotes: [
-            { ja: "「[V] たい／ほしい／好きな + だけ」の形もある。", en: "The forms V-たい / ほしい / 好きな + だけ also exist." },
+            { ja: "「[V] たい／ほしい／好きな + だけ」の形もある。", en: "The forms V-たい / ほしい / 好きな + だけ also exist.", gen: true },
           ],
           examples: [
             { ja: "{春節|しゅんせつ}を前にリンさんはお{土産|みやげ}を持てるだけ持って、帰国した。", en: "Just before Chinese New Year, Lin went back to her country carrying as many souvenirs as she could hold." },
@@ -355,7 +355,7 @@ TRY.registerChapter({
               left: ["好きなものを食べたいだけ食べて、", "{優勝|ゆうしょう}はできなかったがやれるだけのことはやったから、", "銀行から借りられるだけ借りて、", "集められるだけ集めたいと思ってがんばって{買|か}っていたら、"],
               right: ["くやしいとは思わない。", "980円なら安いよね。", "部屋中フィギュアでいっぱいになってしまった。", "自分の店を出した。"],
               answer: [1, 0, 3, 2],
-              en: ["You can eat as much as you like of whatever you like — for 980 yen, that's cheap, isn't it?", "We couldn't win the championship, but we did everything we could, so I don't feel frustrated.", "I borrowed as much as I could from the bank and opened my own shop.", "I kept buying hard, wanting to collect as many as I could, and my whole room ended up full of figurines."],
+              en: ["You can eat as much as you like of whatever you like — for 980 yen, that's cheap, isn't it?", "We couldn't win the championship, but we did everything we could, so I don't feel frustrated.", "I borrowed as much as I could from the bank and opened my own shop.", "I kept eagerly buying them, wanting to collect as many as I could, and my whole room ended up full of figurines."],
             },
           ],
         },
@@ -368,7 +368,7 @@ TRY.registerChapter({
           usage: { ja: "理由の説明や{言|い}い{訳|わけ}を言うときに使う。「もの」は{主|おも}に女性が使う言葉。", en: "Use this when you explain a reason or give an excuse. \"もの\" is a word used mainly by females." },
           forms: ["[Pl] + もん"],
           formNotes: [
-            { ja: "[Po] も使われることがある。", en: "The polite form can also be used." },
+            { ja: "[Po] も使われることがある。", en: "The polite form can also be used.", gen: true },
           ],
           examples: [
             { ja: "A：そんなにたくさんお{土産|みやげ}買うの？\nB：だって、この{人形|にんぎょう}もこのお{菓子|かし}も日本じゃなきゃ、買えないんだもん。", en: "A: You're buying that many souvenirs?\nB: Well, you can't buy these dolls or these sweets anywhere but Japan." },
@@ -446,7 +446,7 @@ TRY.registerChapter({
           usage: { ja: "「〜のみ」は、「〜だけ」と言いたいときに使う。お知らせなどによく使われる。", en: "Use \"〜のみ\" when you want to say \"only / just.\" It is often used in announcements and the like." },
           forms: ["[V-る]／[N] + のみ"],
           formNotes: [
-            { ja: "「ただ〜のみ」という言い方もある。", en: "The expression ただ〜のみ is also used." },
+            { ja: "「ただ〜のみ」という言い方もある。", en: "The expression ただ〜のみ is also used.", gen: true },
           ],
           examples: [
             { ja: "お薬のみご{希望|きぼう}の方は、こちらの{箱|はこ}に{診察券|しんさつけん}をお入れください。", en: "If you only want your medicine, please put your consultation card in this box." },
@@ -645,7 +645,7 @@ TRY.registerChapter({
               { sp: "M", v: "m", ja: "そう言ってたけど、{無理|むり}言って{頼|たの}んだんだ。まぁ、今度代わってあげればいいんじゃない？" },
               { sp: "", ja: "{伊藤|いとう}さんは昨日何をしましたか。" },
             ],
-            en: ["A woman and the store manager are talking. What did Ito-san do yesterday?", "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...", "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.", "Huh? I thought Ito-san had something to do yesterday...", "Ito-san did say so, but I pushed and asked anyway. Well, why don't you just cover for Ito-san next time?", "What did Ito-san do yesterday?"],
+            en: ["A woman and the store manager are talking. What did Ito-san do yesterday?", "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...", "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.", "Huh? I thought Ito-san had something to do yesterday...", "Ito-san did say so, but I insisted. Well, why don't you just cover for Ito-san next time?", "What did Ito-san do yesterday?"],
             options: ["アルバイトを{休|やす}んだ", "アルバイトをした", "{熱|ねつ}を{出|だ}して{寝|ね}ていた", "{用事|ようじ}があって{帰|かえ}った"],
             answer: 1,
             why: { en: "The manager says 君の代わりに伊藤さんが来てくれた — Ito worked the shift in the woman's place." },
@@ -664,7 +664,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "{無理|むり}すれば、{頂上|ちょうじょう}まで行けないことはなかったけど…。" },
             ],
-            en: ["If I'd pushed myself, it's not that I couldn't have made it to the summit, but...", "But you went, didn't you.", "It was good that you gave up after all, wasn't it.", "That's right. You overdid it, didn't you."],
+            en: ["If I'd pushed myself, it's not that I couldn't have made it to the summit, but...", "But you did go, didn't you?", "So it's a good thing you stopped after all.", "That's right. You pushed yourself too hard, didn't you?"],
             options: ["でも、行きましたね。", "やっぱりやめてよかったですね。", "そうですね。{無理|むり}しましたね。"],
             answer: 1,
             why: { en: "行けないことはなかった = he could have made it, but didn't go; the listener agrees stopping was wise." },
@@ -673,7 +673,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "{犯人|はんにん}についての{情報|じょうほう}を集められるだけ集めてくれ。" },
             ],
-            en: ["Gather as much information about the culprit as you can.", "Yes, just gather it, right?", "Yes, I'll give it a try.", "Yes, I'll gather only information."],
+            en: ["Gather as much information about the culprit as you can.", "Yes, just gather it, right?", "Yes, I'll give it a try.", "Yes, I'll gather only the information."],
             options: ["はい、集めるだけですね。", "はい、やってみます。", "はい、{情報|じょうほう}だけ集めます。"],
             answer: 1,
             why: { en: "〜られるだけ〜 = as much as possible; the natural reply is to agree to do one's best." },
