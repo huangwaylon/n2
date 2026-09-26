@@ -538,7 +538,7 @@ N2.register({
               "en": "Even if the country's leader changes, the public's distrust of politics can't be easily resolved."
             }
           ],
-          "deepDive": "**V-たところで** = *even if (you) ~, it's no use / the result won't be as hoped*. It is a pessimistic *even if*: the speaker assumes an action and immediately denies that it will make a difference.\n\n- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, 〜たかが知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで5分早く着くだけだ.\n\nCompare:\n- **〜ても**: neutral *even if*; ところで adds that the effort is futile.\n- **〜としても** (N2): purely hypothetical *even supposing*; no built-in pessimism.\n- **〜たところ** (N2, no で): *when I did ~ (I found)*: 調べたところ、分かった. Totally different.\n- **〜にしたところで** (#86): *even ~ (is no exception)*, attaches to nouns.\n- **〜ところを** (#65): *at a time when ~*.\n\nPitfall: ✗急ぐところで. And don't put a request or intention in the second half (✗急いだところで、行こう).\n\nJLPT tip: in 文法形式 questions, たところで pairs with negative predicates like わけがない or 無駄だ; in paraphrase items it corresponds to 〜ても〜ない.",
+          "deepDive": "**V-たところで** = *even if (you) ~, it's no use / the result won't be as hoped*. It is a pessimistic *even if*: the speaker assumes an action and immediately denies that it will make a difference.\n\n- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, たかが知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで5分早く着くだけだ.\n\nCompare:\n- **〜ても**: neutral *even if*; ところで adds that the effort is futile.\n- **〜としても** (N2): purely hypothetical *even supposing*; no built-in pessimism.\n- **〜たところ** (N2, no で): *when I did ~ (I found)*: 調べたところ、分かった. Totally different.\n- **〜にしたところで** (#86): *even ~ (is no exception)*, attaches to nouns.\n- **〜ところを** (#65): *at a time when ~*.\n\nPitfall: ✗急ぐところで. And don't put a request or intention in the second half (✗急いだところで、行こう).\n\nJLPT tip: in 文法形式 questions, たところで pairs with negative predicates like わけがない or 無駄だ; in paraphrase items it corresponds to 〜ても〜ない.",
           "see": [
             86
           ],
@@ -1107,7 +1107,7 @@ N2.register({
                 "{殴|なぐ}りかかるなら{殴|なぐ}りかかるで"
               ],
               "answer": 0,
-              "en": "The angry passenger pressed up to the station attendant as if about to hit him."
+              "en": "The angry passenger confronted the station attendant, looking as if he was about to hit him."
             },
             {
               "q": "A：話せば気が晴れるかもしれないから、話してごらんよ。\nB：ありがとう。でも、（　）悩みが解決するわけじゃないし……。",
@@ -1171,7 +1171,7 @@ N2.register({
             "sp": "部長",
             "v": "m",
             "ja": "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。",
-            "en": "In that case, maybe we should try handing out pamphlets to anyone and everyone, left and right."
+            "en": "In that case, maybe we should try handing out pamphlets like crazy, to anyone and everyone."
           },
           {
             "sp": "{本田|ほんだ}",
@@ -1251,7 +1251,7 @@ N2.register({
               "en": "A: My cat went missing and I searched everywhere for a week. You can't imagine how happy I was when I finally found her!\nB: That's really great."
             }
           ],
-          "deepDive": "**〜といったらない** literally means *if you try to say how ~ it is, there are no words* — i.e. *extremely ~, indescribably ~*. **〜といったらありゃしない** (ありゃ = ありは, a colloquial contraction of ありはしない) is an even more emphatic, colloquial variant, and **〜ったらない / 〜ったらありゃしない** are the contracted spoken forms.\n\n- Connection: い-adjectives directly (暑いといったらない, 悔しいったらありゃしない); nouns and な-adjectives with or without だ; emotional verbs (腹が立つったらない). い/な-adjectives can also take **〜こと** (退屈なことといったらない, 美しいことといったらない), and adjective-derived nouns are common (嬉しさといったら, 忙しさといったらない).\n- The ending can be dropped, leaving an exclamation: 嬉しさといったら！\n- Can be positive or negative, but ありゃしない is mostly used for negative feelings (annoyance, frustration). Past: といったらなかった (practice 1).\n\nCompare:\n- **〜といったら** (N2) *speaking of ~*: 日本の山といったら富士山だ — a topic marker; no ない/ありゃしない and no ‘extreme degree’ meaning.\n- **〜ときたら** (#76): topic + complaint about someone/something.\n- **〜極まりない / 〜極まる** (#119): *extremely* — formal, written, for negative evaluations (失礼極まりない).\n- **〜てたまらない / 〜てしかたがない** (N2): *can't help feeling ~* — about the speaker's feeling, neutral register.\n\nPitfall: in spite of the ない, the meaning is strongly **affirmative** (practice: 感動といったらなかった = 非常に感動した).\n\nJLPT tip: in paraphrase items, 〜といったらない ≈ 言葉で言い表せないほど〜 / 非常に〜.",
+          "deepDive": "**〜といったらない** literally means *if you try to say how ~ it is, there are no words* — i.e. *extremely ~, indescribably ~*. **〜といったらありゃしない** (ありゃしない is a colloquial contraction of ありはしない) is an even more emphatic, colloquial variant, and **〜ったらない / 〜ったらありゃしない** are the contracted spoken forms.\n\n- Connection: い-adjectives directly (暑いといったらない, 悔しいったらありゃしない); nouns and な-adjectives with or without だ; emotional verbs (腹が立つったらない). い/な-adjectives can also take **〜こと** (退屈なことといったらない, 美しいことといったらない), and adjective-derived nouns are common (嬉しさといったら, 忙しさといったらない).\n- The ending can be dropped, leaving an exclamation: 嬉しさといったら！\n- Can be positive or negative, but ありゃしない is mostly used for negative feelings (annoyance, frustration). Past: といったらなかった (practice 1).\n\nCompare:\n- **〜といったら** (N2) *speaking of ~*: 日本の山といったら富士山だ — a topic marker; no ない/ありゃしない and no ‘extreme degree’ meaning.\n- **〜ときたら** (#76): topic + complaint about someone/something.\n- **〜極まりない / 〜極まる** (#119): *extremely* — formal, written, for negative evaluations (失礼極まりない).\n- **〜てたまらない / 〜てしかたがない** (N2): *can't help feeling ~* — about the speaker's feeling, neutral register.\n\nPitfall: in spite of the ない, the meaning is strongly **affirmative** (practice: 感動といったらなかった = 非常に感動した).\n\nJLPT tip: in paraphrase items, 〜といったらない ≈ 言葉で言い表せないほど〜 / 非常に〜.",
           "see": [
             76,
             119
@@ -1418,7 +1418,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜まくる」は、ある行動や動作を深く考えずに、すごい勢いで何回も{繰|く}り{返|かえ}してする様子を表す。",
-            "en": "“〜まくる” describes doing some action or movement over and over with great force, without thinking deeply about it."
+            "en": "“〜まくる” describes doing some action or movement over and over with great vigor, without thinking deeply about it."
           },
           "forms": [
             "[V-~~ます~~] + まくる"

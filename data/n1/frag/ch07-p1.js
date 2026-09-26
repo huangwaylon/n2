@@ -16,7 +16,7 @@ N2F({
       { sp: "{本田|ほんだ}", v: "m", ja: "すみません、部長。{僕|ぼく}があのとき商品の説明をしっかりしていれば……。", en: "I'm sorry, sir. If only I had explained the product properly back then…" },
       { sp: "部長", v: "m", ja: "いや、君のせいじゃないよ。アポが取れなかったんだから、{契約|けいやく}を取**ろうにも**取れ**ない**じゃないか。", en: "No, it's not your fault. We couldn't get an appointment, so even if we'd wanted to win the contract, we couldn't have." },
       { sp: "{本田|ほんだ}", v: "m", ja: "でも、ほんとに{悔|くや}しいっす※。", en: "But it's really frustrating.*" },
-      { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "In that case, maybe we should try handing out pamphlets to anyone and everyone, left and right." },
+      { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "In that case, maybe we should try handing out pamphlets like crazy, to anyone and everyone." },
       { sp: "{本田|ほんだ}", v: "m", ja: "そうですね。カプテック社**にしたところで**あの条件では、そんなに{儲|もう}かるはずないですよね。毎年リース料を下げ続けるなんて。", en: "Right. Even Captec can't be making much money on those terms, can they? Lowering the lease fee every single year." },
       { sp: "部長", v: "m", ja: "そうだよ。{契約|けいやく}しなくて{正解|せいかい}だったんだよ。どんな条件で{契約|けいやく}したか知らないが、{仮|かり}に本当に10%ずつ下げ続けたら……。", en: "That's right. Not signing that contract was the right call. I don't know what terms they signed on, but if they really keep cutting it by 10% a year…" },
       { sp: "{本田|ほんだ}", v: "m", ja: "10年後はリース料ただですよ。カプテック社も{馬鹿|ばか}だな。ははははははは。元気出てきた。部長、{僕|ぼく}、次こそいい条件で{契約|けいやく}を取っ**てみせます**よ。", en: "In ten years the lease will be free! Captec are idiots. Hahahahaha. I feel better now. Sir, next time I'll win us a contract on good terms — just watch." },
@@ -53,7 +53,7 @@ N2F({
         { ja: "A：猫が{迷子|まいご}になって一週間{捜|さが}し回ったんだ。やっと見つかったときの{嬉|うれ}しさといったら！\nB：ほんと、よかったね。", en: "A: My cat went missing and I searched everywhere for a week. You can't imagine how happy I was when I finally found her!\nB: That's really great." },
       ],
       deepDive:
-        "**〜といったらない** literally means *if you try to say how ~ it is, there are no words* — i.e. *extremely ~, indescribably ~*. **〜といったらありゃしない** (ありゃ = ありは, a colloquial contraction of ありはしない) is an even more emphatic, colloquial variant, and **〜ったらない / 〜ったらありゃしない** are the contracted spoken forms.\n\n" +
+        "**〜といったらない** literally means *if you try to say how ~ it is, there are no words* — i.e. *extremely ~, indescribably ~*. **〜といったらありゃしない** (ありゃしない is a colloquial contraction of ありはしない) is an even more emphatic, colloquial variant, and **〜ったらない / 〜ったらありゃしない** are the contracted spoken forms.\n\n" +
         "- Connection: い-adjectives directly (暑いといったらない, 悔しいったらありゃしない); nouns and な-adjectives with or without だ; emotional verbs (腹が立つったらない). い/な-adjectives can also take **〜こと** (退屈なことといったらない, 美しいことといったらない), and adjective-derived nouns are common (嬉しさといったら, 忙しさといったらない).\n- The ending can be dropped, leaving an exclamation: 嬉しさといったら！\n- Can be positive or negative, but ありゃしない is mostly used for negative feelings (annoyance, frustration). Past: といったらなかった (practice 1).\n\n" +
         "Compare:\n- **〜といったら** (N2) *speaking of ~*: 日本の山といったら富士山だ — a topic marker; no ない/ありゃしない and no ‘extreme degree’ meaning.\n- **〜ときたら** (#76): topic + complaint about someone/something.\n- **〜極まりない / 〜極まる** (#119): *extremely* — formal, written, for negative evaluations (失礼極まりない).\n- **〜てたまらない / 〜てしかたがない** (N2): *can't help feeling ~* — about the speaker's feeling, neutral register.\n\n" +
         "Pitfall: in spite of the ない, the meaning is strongly **affirmative** (practice: 感動といったらなかった = 非常に感動した).\n\n" +
@@ -139,7 +139,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜まくる」は、ある行動や動作を深く考えずに、すごい勢いで何回も{繰|く}り{返|かえ}してする様子を表す。",
-        en: "“〜まくる” describes doing some action or movement over and over with great force, without thinking deeply about it.",
+        en: "“〜まくる” describes doing some action or movement over and over with great vigor, without thinking deeply about it.",
       },
       forms: ["[V-~~ます~~] + まくる"],
       examples: [

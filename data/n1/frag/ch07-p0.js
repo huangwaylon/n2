@@ -272,7 +272,7 @@ N2F({
       ],
       deepDive:
         "**V-たところで** = *even if (you) ~, it's no use / the result won't be as hoped*. It is a pessimistic *even if*: the speaker assumes an action and immediately denies that it will make a difference.\n\n" +
-        "- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, 〜たかが知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで5分早く着くだけだ.\n\n" +
+        "- Connection: always the た-form, even for future hypotheticals: 今から急いだところで.\n- The second half is negative or dismissive: 無駄だ, 〜わけがない, 〜とは限らない, 変わらない, どうにもならない, たかが知れている. Positive results after it are unnatural.\n- It often combines with **いくら / どんなに / 何回** (どんなに頼んだところで) and with だろう / さ in speech.\n- Also: **〜たところで〜だけだ / 〜程度だ** (*at most ~*): 急いだところで5分早く着くだけだ.\n\n" +
         "Compare:\n- **〜ても**: neutral *even if*; ところで adds that the effort is futile.\n- **〜としても** (N2): purely hypothetical *even supposing*; no built-in pessimism.\n- **〜たところ** (N2, no で): *when I did ~ (I found)*: 調べたところ、分かった. Totally different.\n- **〜にしたところで** (#86): *even ~ (is no exception)*, attaches to nouns.\n- **〜ところを** (#65): *at a time when ~*.\n\n" +
         "Pitfall: ✗急ぐところで. And don't put a request or intention in the second half (✗急いだところで、行こう).\n\n" +
         "JLPT tip: in 文法形式 questions, たところで pairs with negative predicates like わけがない or 無駄だ; in paraphrase items it corresponds to 〜ても〜ない.",
@@ -544,7 +544,7 @@ N2F({
       prompt: { ja: "2", en: "2. Choose the correct option." },
       items: [
         { q: "周りに人が（　）、{傘|かさ}を{振|ふ}り回すのは危険ですよ。", options: ["いたところで", "いようがいまいが"], answer: 1, en: "Whether or not there are people around, swinging your umbrella around is dangerous." },
-        { q: "怒った乗客は、（　）、駅員に{詰|つ}め{寄|よ}った。", options: ["{殴|なぐ}りかからんばかりの勢いで", "{殴|なぐ}りかかるなら{殴|なぐ}りかかるで"], answer: 0, en: "The angry passenger pressed up to the station attendant as if about to hit him." },
+        { q: "怒った乗客は、（　）、駅員に{詰|つ}め{寄|よ}った。", options: ["{殴|なぐ}りかからんばかりの勢いで", "{殴|なぐ}りかかるなら{殴|なぐ}りかかるで"], answer: 0, en: "The angry passenger confronted the station attendant, looking as if he was about to hit him." },
         { q: "A：話せば気が晴れるかもしれないから、話してごらんよ。\nB：ありがとう。でも、（　）悩みが解決するわけじゃないし……。", options: ["話すなら話すで", "話したところで"], answer: 1, en: "A: Talking about it might make you feel better, so go ahead, tell me.\nB: Thanks. But even if I talk about it, it's not as if my problem will be solved…" },
         { q: "{誰|だれ}に（　）、私の決心は変わりません。", options: ["反対されようが", "反対されんばかりで"], answer: 0, en: "No matter who opposes me, my decision won't change." },
       ],
