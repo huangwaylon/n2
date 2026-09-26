@@ -139,7 +139,7 @@ N2F({
       examples: [
         { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business." },
         { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな取り組みをしている。", en: "In order to improve living conditions on the island, the islanders are undertaking various initiatives." },
-        { ja: "今年こそロケットを完成させるべく、研究者たちは努力を続けている。", en: "The researchers are continuing their efforts in order to finally complete the rocket this year, without fail." },
+        { ja: "今年こそロケットを完成させるべく、研究者たちは努力を続けている。", en: "The researchers are keeping up their efforts in order to complete the rocket this year, at long last." },
         { ja: "国民の理解と協力を{得|え}るべく、{広報|こうほう}活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Public relations activities were stepped up in order to gain the understanding and cooperation of the people, but no significant results were obtained." },
       ],
       deepDive:
@@ -286,7 +286,7 @@ N2F({
       },
       forms: ["[V-た] + までのことだ", "[V-た] + までだ"],
       examples: [
-        { ja: "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "If I blew the whistle inside the company, it was simply because I was following my own conscience — nothing more." },
+        { ja: "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "I blew the whistle inside the company simply because I was following my own conscience — nothing more." },
         { ja: "A：助けていただき、ありがとうございました。\nB：いやいや、医者として当然のことをしたまでです。", en: "A: Thank you so much for helping me.\nB: Not at all. I only did what any doctor would do." },
         { ja: "聞かれたから答えたまでで、別に深い意味はないよ。", en: "I only answered because I was asked; there's no deeper meaning to it." },
       ],

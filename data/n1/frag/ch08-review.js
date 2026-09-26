@@ -83,7 +83,7 @@ N2F({ ch: 8, review: [
       en: [
         "“There's an opening for a high-school lecturer. How about it?”",
         "Ever since I accidentally deleted the experimental data a senior colleague had spent half a year on, the atmosphere in the lab had been awkward; sensing this, the professor made me the offer.",
-        "Teaching was the one profession I, who have never been good at speaking in front of people, had wanted to avoid at all costs. But I really couldn't bring myself to give that reason to a professor who had done so much for me. Besides, the money from my parents had stopped, and my expectation that I'd manage somehow by working part-time alongside my research had proved naive — to put food on the table, it was an unavoidable choice.",
+        "Teaching — for someone like me, who was never good at speaking in front of people, it was the one profession I had wanted to avoid at all costs. But I really couldn't bring myself to give that reason to a professor who had done so much for me. Besides, the money from my parents had stopped, and my expectation that I'd manage somehow by working part-time alongside my research had proved naive — to put food on the table, it was an unavoidable choice.",
         "I steeled myself. As if I'd let a bunch of mere high-school kids walk all over me...",
         "I took a deep breath and opened the door of class 1-A.",
         "The noisy room fell silent in an instant; with a voice calling “Stand!” came the clatter of chairs, and the navy-blue uniforms all over the classroom rose to their feet.",
@@ -138,7 +138,7 @@ N2F({ ch: 8, review: [
           questionEn: "What is the man worried about regarding study at this vocational school?",
           options: ["{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の{両立|りょうりつ}が{難|むずか}しいこと", "{生|なま}の{魚|さかな}が{調理|ちょうり}できないこと", "{勉強|べんきょう}の{期間|きかん}が{短|みじか}いこと", "フランス{語|ご}ができないこと"],
           answer: 2,
-          why: { en: "About the school's training itself, he doubts it: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not the school's course." } },
+          why: { en: "What he doubts about the school's course itself is its length: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not about the course." } },
       ],
     },
   },

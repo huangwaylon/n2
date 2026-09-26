@@ -305,7 +305,7 @@ N2.register({
             },
             {
               "ja": "今年こそロケットを完成させるべく、研究者たちは努力を続けている。",
-              "en": "The researchers are continuing their efforts in order to finally complete the rocket this year, without fail."
+              "en": "The researchers are keeping up their efforts in order to complete the rocket this year, at long last."
             },
             {
               "ja": "国民の理解と協力を{得|え}るべく、{広報|こうほう}活動を強化したが、これといった{成果|せいか}は得られなかった。",
@@ -580,7 +580,7 @@ N2.register({
           "examples": [
             {
               "ja": "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。",
-              "en": "If I blew the whistle inside the company, it was simply because I was following my own conscience — nothing more."
+              "en": "I blew the whistle inside the company simply because I was following my own conscience — nothing more."
             },
             {
               "ja": "A：助けていただき、ありがとうございました。\nB：いやいや、医者として当然のことをしたまでです。",
@@ -881,7 +881,7 @@ N2.register({
           },
           {
             "ja": "「{楽園|らくえん}を{創|つく}ら**んがため**、あのお{方|かた}がお{姿|すがた}を現される。",
-            "en": "\"In order to create paradise, the Exalted One will show Himself."
+            "en": "\"In order to create paradise, the Exalted One will appear."
           },
           {
             "cont": true,
@@ -994,7 +994,7 @@ N2.register({
               "en": "The lives of historical figures tend to come with admirable anecdotes that have the ring of fabrication."
             }
           ],
-          "deepDive": "**Nめく** is a suffix that turns a noun into a godan verb meaning *to take on the air of N, to show signs of N, to seem like N*. The thing is **not fully N**, but it has some quality that makes you feel N: 春めく *to become spring-like*, 謎めいた言葉 *cryptic words (words with an air of mystery)*.\n\nForms:\n- Predicate: 春めいてきた, 秋めいてまいりました — usually with 〜てくる, describing a gradual change.\n- Before a noun: **Nめいた N₂** (the た form; めく + N is rare apart from a few phrases like 春めく頃): 冗談めいた口調, 非難めいたこと, 作り話めいた美談, 皮肉めいた言い方.\n\nKey restriction (the book's point): めく is used when something is only **partly** or **apparently** N. If it is truly N, just say N: 完全に春だ, not ✗完全に春めいた.\n\nCollocations: the nouns are limited. Frequent ones: 春・秋 (seasons; 夏めく/冬めく exist but are rarer), 謎, 冗談, 皮肉, 非難, 説教, 言い訳, 脅迫, 作り話, 予言, 命令, 秘密, 芝居. The same suffix has also produced ordinary verbs that you learn as vocabulary: 色めく *to stir with excitement*, 古めかしい *old-fashioned*, ざわめく *to rustle, buzz*, きらめく *to glitter*, ときめく *to (heart) flutter*.\n\nContrast:\n- **〜らしい** (男らしい) = *having the typical qualities of N*, often a positive evaluation; めく = *giving an impression of N*, neutral or faintly suspicious (謎めいた, 言い訳めいた).\n- **〜っぽい** (子どもっぽい, 春っぽい) is the casual counterpart; めく is more written.\n- **〜じみる / 〜じみた** (所帯じみた, 子どもじみた) is similar but clearly negative (*smacks of*); めく is less judgmental.\n- **〜ぶる** (上品ぶる) = *pretend to be*, a deliberate act; めく is an impression, not an act.\n\nJLPT tip: the question usually tests the noun + めいた N₂ shape (謎めいた / 皮肉めいた / 言い訳めいた) or the seasonal めいてきた. Remember that めく conjugates as a godan verb: めいて, めいた, めかない.",
+          "deepDive": "**Nめく** is a suffix that turns a noun into a godan verb meaning *to take on the air of N, to show signs of N, to seem like N*. The thing is **not fully N**, but it has some quality that makes you feel N: 春めく *to become spring-like*, 謎めいた言葉 *cryptic words (words with an air of mystery)*.\n\nForms:\n- Predicate: 春めいてきた, 秋めいてまいりました — usually with 〜てくる, describing a gradual change.\n- Before a noun: **Nめいた N₂** (the た form; めく + N is rare apart from a few phrases like 春めく頃): 冗談めいた口調, 非難めいたこと, 作り話めいた美談, 皮肉めいた言い方.\n\nKey restriction (the book's point): めく is used when something is only **partly** or **apparently** N. If it is truly N, just say N: 完全に春だ, not ✗完全に春めいた.\n\nCollocations: the nouns are limited. Frequent ones: 春・秋 (seasons; 夏めく/冬めく exist but are rarer), 謎, 冗談, 皮肉, 非難, 説教, 言い訳, 脅迫, 作り話, 予言, 命令, 秘密, 芝居. The same suffix also appears in ordinary words that you learn as vocabulary: 色めく *to stir with excitement*, 古めかしい *old-fashioned*, ざわめく *to rustle, buzz*, きらめく *to glitter*, ときめく *to (heart) flutter*.\n\nContrast:\n- **〜らしい** (男らしい) = *having the typical qualities of N*, often a positive evaluation; めく = *giving an impression of N*, neutral or faintly suspicious (謎めいた, 言い訳めいた).\n- **〜っぽい** (子どもっぽい, 春っぽい) is the casual counterpart; めく is more written.\n- **〜じみる / 〜じみた** (所帯じみた, 子どもじみた) is similar but clearly negative (*smacks of*); めく is less judgmental.\n- **〜ぶる** (上品ぶる) = *pretend to be*, a deliberate act; めく is an impression, not an act.\n\nJLPT tip: the question usually tests the noun + めいた N₂ shape (謎めいた / 皮肉めいた / 言い訳めいた) or the seasonal めいてきた. Remember that めく conjugates as a godan verb: めいて, めいた, めかない.",
           "see": [],
           "index": [
             "Nめく",
@@ -1654,7 +1654,7 @@ N2.register({
               "foot": "※見かねる：「見ていられないぐらいの良くない状況だ」という意味。"
             }
           ],
-          "deepDive": "**V-(ます stem) + かねる** means *can't (bring oneself to) ~, find it hard to ~*. It is a polite, indirect way of saying できない: the speaker would like to do it (or is expected to), but circumstances or an inner reluctance make it impossible. 理解しかねる = *I can't quite understand*; 賛成しかねる = *I can't agree*; 決めかねている = *can't make up my mind*.\n\nWhere it's used:\n- **Business and customer service refusals** — the classic use: お答えいたしかねます, 分かりかねます, お引き受けいたしかねます, ご要望には応じかねます. It softens a *no* and sounds far more professional than できません / 分かりません.\n- **Polite disagreement or criticism**: 賛成しかねる, 同意しかねる, 理解しかねる, 〜とは言いかねる (*I can hardly say ~*: 値段に相応しい味とは言いかねる = it isn't really worth the price).\n- **Indecision**: 決めかねる, 選びかねる.\n\nIdiomatic compounds (the ※ notes, marked with the idiom icon):\n- **待ちかねる** *wait impatiently, can hardly wait*: 春の訪れを待ちかねている; お待ちかねの… *the long-awaited …*.\n- **見かねる / 見るに見かねて** *unable to stand by and watch*: someone else's plight is so bad that you step in.\n\nBig trap — **〜かねない** is the opposite in form but not in meaning: 〜かねない = *might well ~ (something bad)*: 事故になりかねない. かねる = *can't*, かねない = *could happen*. Also, かねる is about the speaker's (or subject's) will; it isn't used for plain physical inability (✗重くて持ち上げかねる → 持ち上げられない).\n\nRegister: formal (formal icon), but 分かりかねます etc. are everyday in keigo. JLPT tip: かねます in a polite reply = *I'm afraid we can't*; in the やってみよう, the かねる phrases are paraphrased as 〜とは言えない, まだ考えているところだ (still undecided), 答えることができません and 同意できるような意見ではない — i.e. *can't / won't*, never *must* or *might*.",
+          "deepDive": "**V-(ます stem) + かねる** means *can't (bring oneself to) ~, find it hard to ~*. It is a polite, indirect way of saying できない: the speaker would like to do it (or is expected to), but circumstances or an inner reluctance make it impossible. 理解しかねる = *I can't quite understand*; 賛成しかねる = *I can't agree*; 決めかねている = *can't make up my mind*.\n\nWhere it's used:\n- **Business and customer service refusals** — the classic use: お答えいたしかねます, 分かりかねます, お引き受けいたしかねます, ご要望には応じかねます. It softens a *no* and sounds far more professional than できません / 分かりません.\n- **Polite disagreement or criticism**: 賛成しかねる, 同意しかねる, 理解しかねる, 〜とは言いかねる (*I can hardly say ~*: 値段に相応しい味とは言いかねる = it isn't really worth the price).\n- **Indecision**: 決めかねる, 選びかねる.\n\nIdiomatic compounds (the ※ notes, marked with the idiom icon):\n- **待ちかねる** *wait impatiently, can hardly wait*: 春の訪れを待ちかねている; お待ちかねの… *the long-awaited …*.\n- **見かねる / 見るに見かねて** *unable to stand by and watch*: someone else's plight is so bad that you step in.\n\nBig trap — **〜かねない** looks like the negative of かねる, but it does not mean *can*: 〜かねない = *might well ~ (something bad)*: 事故になりかねない. かねる = *can't*, かねない = *could happen*. Also, かねる is about the speaker's (or subject's) will; it isn't used for plain physical inability (✗重くて持ち上げかねる → 持ち上げられない).\n\nRegister: formal (formal icon), but 分かりかねます etc. are everyday in keigo. JLPT tip: かねます in a polite reply = *I'm afraid we can't*; in the やってみよう, the かねる phrases are paraphrased as 〜とは言えない, まだ考えているところだ (still undecided), 答えることができません and 同意できるような意見ではない — i.e. *can't / won't*, never *must* or *might*.",
           "see": [],
           "index": [
             "Vかねる",
@@ -1792,7 +1792,7 @@ N2.register({
                     "お祭りは{次回|じかい}は行われない。"
                   ],
                   "answer": 1,
-                  "en": "The festival had continued for 20 years, but it has been decided that it will be suspended after this time."
+                  "en": "The festival had continued for 20 years, but it has been decided that it will be suspended after this one."
                 }
               ]
             }
@@ -2112,7 +2112,7 @@ N2.register({
         "en": [
           "“There's an opening for a high-school lecturer. How about it?”",
           "Ever since I accidentally deleted the experimental data a senior colleague had spent half a year on, the atmosphere in the lab had been awkward; sensing this, the professor made me the offer.",
-          "Teaching was the one profession I, who have never been good at speaking in front of people, had wanted to avoid at all costs. But I really couldn't bring myself to give that reason to a professor who had done so much for me. Besides, the money from my parents had stopped, and my expectation that I'd manage somehow by working part-time alongside my research had proved naive — to put food on the table, it was an unavoidable choice.",
+          "Teaching — for someone like me, who was never good at speaking in front of people, it was the one profession I had wanted to avoid at all costs. But I really couldn't bring myself to give that reason to a professor who had done so much for me. Besides, the money from my parents had stopped, and my expectation that I'd manage somehow by working part-time alongside my research had proved naive — to put food on the table, it was an unavoidable choice.",
           "I steeled myself. As if I'd let a bunch of mere high-school kids walk all over me...",
           "I took a deep breath and opened the door of class 1-A.",
           "The noisy room fell silent in an instant; with a voice calling “Stand!” came the clatter of chairs, and the navy-blue uniforms all over the classroom rose to their feet.",
@@ -2237,7 +2237,7 @@ N2.register({
             ],
             "answer": 2,
             "why": {
-              "en": "About the school's training itself, he doubts it: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not the school's course."
+              "en": "What he doubts about the school's course itself is its length: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not about the course."
             }
           }
         ]
