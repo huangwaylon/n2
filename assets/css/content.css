@@ -255,8 +255,6 @@
 .xref { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: baseline; gap: .1em .9em; margin: 12px 0 0; font: 14px/1.6 var(--goth); text-align: right; }
 .xref__hand { font-size: 1.35em; line-height: 1; }
 .xref__book { white-space: normal; }
-.xref__web { display: inline-flex; flex-wrap: wrap; justify-content: flex-end; gap: 0 .2em; color: var(--ink-3); }
-.xref__book + .xref__web::before { content: "／"; color: var(--rule); margin-right: .2em; }
 .gp-link { display: inline-block; margin: 0 0 0 .4em; padding: .35em .2em; font-size: 13px; background: none; border-radius: 0; }
 .gp-link rt { display: none; }
 /* our related links (not the book's ☞): a small grey supplementary line */
@@ -305,7 +303,6 @@
   .clip { padding-right: 12px; }
   .exs__tools > .en-btn { display: none; }
   .xref { justify-content: flex-start; text-align: left; }
-  .xref__web { justify-content: flex-start; }
 }
 @media (max-width: 390px) {
   .ch-banner__num { font-size: 52px; }

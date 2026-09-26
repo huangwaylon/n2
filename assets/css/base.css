@@ -92,7 +92,7 @@ strong { color: var(--accent); font-weight: 700; }
 /* ---------- English supplement ---------- */
 .en { display: none; color: var(--en); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14.5px; line-height: 1.55; }
 @media (max-width: 600px) { .en { font-size: 14px; } }
-body.show-en .en, .en-open > .en, .en-open > * > .en, .en-open .sl-body > .en { display: block; }
+body.show-en .en, .en-open > .en, .en-open > * > .en { display: block; }
 span.en { margin-top: 2px; }
 body.show-en span.en, .en-open span.en { display: block; }
 .en-inline { font-family: system-ui, -apple-system, sans-serif; font-size: 0.72em; color: var(--ink-3); font-weight: 400; letter-spacing: 0.01em; }
