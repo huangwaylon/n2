@@ -1,4 +1,4 @@
-/* Classic script loaded first by both book pages (and required by the Node tools, tools/lib/data.js).
+/* Classic script loaded first by both book pages (and required by the Node tools, tools/lib/books.js).
    - TRY: the data registry that data/<book>/*.js call (registerBook / registerChapter / registerCompare / registerFront).
    - Colour theme: applied to <html data-theme> before the first paint, so the page never flashes the wrong theme. */
 (function (root) {
