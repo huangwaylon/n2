@@ -79,14 +79,16 @@
 /* C6b prose: speech / news / essay / explanation / article */
 .prose { font-size: 17px; }
 .prose__para { margin: 0; }
-.prose__p { margin: 0; text-indent: 1em; text-align: justify; text-justify: inter-character; }
+/* not justified: WebKit spreads a justified line around every <ruby> ("重要　な　課題"), and line lengths of ~20–40
+   characters leave the ragged edge within a character or two */
+.prose__p { margin: 0; text-indent: 1em; text-align: start; }
 .prose__p--q { text-indent: 0; }
 .prose__en { margin: .15em 0 .6em; }
 .prose__sep { margin: .6em 0; text-indent: 1em; letter-spacing: .1em; color: var(--ink-2); }
 .credit { margin: .1em 0 0; text-align: right; text-indent: 0; font-size: .92em; }
 
 /* C6d article headline */
-.sample__headline { font: 700 25px/1.5 var(--goth); text-align: center; margin: -12px 0 .7em; text-wrap: balance; }
+.sample__headline { font: 700 25px/1.6 var(--goth); text-align: center; margin: 0 0 .7em; text-wrap: balance; }
 .sample__headline strong { color: inherit; }
 
 /* C6c dialogue */
@@ -125,7 +127,7 @@
 .vt-scroll.has-more { -webkit-mask-image: linear-gradient(to left, #000 92%, transparent); mask-image: linear-gradient(to left, #000 92%, transparent); }
 .vt-scroll:focus-visible { outline: 2px solid var(--ink-2); outline-offset: 4px; }
 .vt { writing-mode: vertical-rl; text-orientation: mixed; line-height: 1.95; height: 100%; }
-.vt p { margin: 0; text-indent: 1em; text-align: justify; }
+.vt p { margin: 0; text-indent: 1em; text-align: start; }
 .vt p.vt-q { text-indent: 0; }
 .vt strong { font-family: var(--goth); }
 .vt .vt-sep { text-indent: 2em; letter-spacing: .05em; margin: 0 .6em; color: var(--ink-2); }
@@ -137,7 +139,7 @@
 .vt-en p { margin: .2em 0 .5em; }
 /* horizontal fallback */
 .vt--h { writing-mode: horizontal-tb; height: auto; line-height: 2; }
-.vt--h .vt-mast { margin: -8px 0 .8em; padding: 0; border: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .3em .8em; text-align: center; }
+.vt--h .vt-mast { margin: 0 0 .8em; padding: 0; border: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .3em .8em; text-align: center; }
 .vt--h .vt-label { font-size: 1em; border-block: 0; border-inline: 3px double var(--ink); padding: 0 .5em; margin: 0; letter-spacing: .1em; }
 .vt--h .vt-title { font-size: 1.5em; line-height: 1.7; text-wrap: balance; }
 /* the book sets the editorial in two tiers (段組); multi-column inside vertical-rl is unreliable, so one tier */
@@ -285,8 +287,6 @@
   .sample--rings::before { left: 12px; right: 150px; background-size: 24px 16px; }
   .sample__tools { right: 8px; gap: 6px; }
   .prose, .dlg, .exs { font-size: 16.5px; }
-  /* ~20 characters a line: justifying stretches a whole line when an unbreakable word with furigana wraps */
-  .prose__p, .vt--h p { text-align: start; }
   .nt-heading { font-size: 26px; }
   .nt-row { grid-template-columns: 4.6em minmax(0, 1fr); }
   .nt-cells { grid-template-columns: auto auto auto; column-gap: .7em; justify-content: start; }

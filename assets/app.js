@@ -90,9 +90,9 @@
     const iL = neighbourAt(str, off - 1, -1), iR = neighbourAt(str, off + m.length, 1);
     const ol = overhangRoom(str, iL, -1), or = overhangRoom(str, iR, 1);
     const data = `data-e="${r2(e)}" data-ol="${ol}" data-or="${or}"`;
-    // right after another reading ("ご{観覧}{誠}に"): a centred reading would leave a gap on that side, so it starts at the
-    // base and overhangs the kana on the right instead (ruby-align: start)
-    if (iL >= 0 && str[iL] === "}" && or > 0) return `<ruby class="r-s" ${data}>${base}<rt>${rd}</rt></ruby>`;
+    // nothing to overhang on the left (another reading "ご{観覧}{誠}に", a kanji "来月{初旬}に", the start of the text):
+    // a centred reading would leave a gap there, so it starts at the base and overhangs the kana on the right instead
+    if (ol === 0 && or > 0) return `<ruby class="r-s" ${data}>${base}<rt>${rd}</rt></ruby>`;
     // WebKit and Blink usually let a centred reading overhang both neighbours by half a furigana character (.25em)
     const side = (room) => r2(Math.max(0, Math.min(e / 2, room) - RT_K / 2));
     const l = side(ol), r = side(or);
@@ -153,7 +153,11 @@
         const q = neighbourRect(sideNeighbour(r, dir), dir);
         // first on its line: a centred reading would leave an indent before the base, so start it at the base
         // (as the book does) and let it overhang the kana on the right
-        const first = () => { if (dir < 0 && !st && !vert && +r.dataset.or > 0) lineStart.push(r); };
+        const first = () => {
+          if (dir > 0) return;
+          out[0] = Math.max(0, out[0]); // never pull a line's first ruby out past the start of the line
+          if (!st && +r.dataset.or > 0) lineStart.push(r);
+        };
         if (!q) return first();
         if (q.rt) {
           // another reading: never overlap it (gap ≥ 0)
