@@ -1398,7 +1398,7 @@ N2.register({
               "をもとにした"
             ],
             "answer": 1,
-            "en": "The way to relieve the stress of being tired from work is to try forgetting about work for a while — that is the only way. Refresh yourself with a walk or a trip.",
+            "en": "The way to relieve the stress of work fatigue is to try forgetting about work for a while — there is no other way. Get a change of scene with a walk or a trip.",
             "why": {
               "en": "それをおいてない = there is nothing but that (〜をおいて他にない without 他に)."
             }

@@ -16,7 +16,7 @@ N2F({ ch: 4, review: [
           en: "Whether it's for business or sightseeing — whatever the purpose — you should take out insurance when you go abroad.", why: { en: "Question word + であれ = no matter what. The sentence ends with advice that holds regardless of the purpose." } },
         { q: "仕事{疲|づか}れのストレス{解消|かいしょう}方法は、仕事を少し忘れてみること、それ（　）でしょう。散歩や旅行などで気分{転換|てんかん}を{図|はか}りましょう。",
           options: ["をはじめとする", "をおいてない", "を問わない", "をもとにした"], answer: 1,
-          en: "The way to relieve the stress of being tired from work is to try forgetting about work for a while — that is the only way. Refresh yourself with a walk or a trip.", why: { en: "それをおいてない = there is nothing but that (〜をおいて他にない without 他に)." } },
+          en: "The way to relieve the stress of work fatigue is to try forgetting about work for a while — there is no other way. Get a change of scene with a walk or a trip.", why: { en: "それをおいてない = there is nothing but that (〜をおいて他にない without 他に)." } },
         { q: "{我|わ}が{校|こう}は医学部の研究設備が{充実|じゅうじつ}しているの（　）、{工学|こうがく}部は実験{装置|そうち}さえ満足に整っていない。",
           options: ["にひきかえ", "をぬきにして", "もさることながら", "に限らず"], answer: 0,
           en: "Whereas our university's medical school has excellent research facilities, the engineering school doesn't even have adequate laboratory equipment.", why: { en: "Two faculties of the same university are contrasted, one favourably and one unfavourably: plain form + の + にひきかえ." } },
