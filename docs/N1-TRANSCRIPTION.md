@@ -12,7 +12,7 @@ different for N1 and the conventions every transcriber must follow so the ten ch
 - Listening scripts exist **only** in the supplement. Answers come **only** from the supplement, never from our judgement.
 - Reading pages: `Read n1.pdf pages:"17"` for the layout, then `tools/zoom.sh n1 17` (three 300-dpi strips; Read the PNG paths)
   for every page to get furigana, small print and punctuation exactly right.
-- OCR (noisy, only a cross-check): `tools/n1/ocr/ja/NNN.txt`.
+- OCR (noisy, only a cross-check): `tools/n1/ocr/NNN.txt`.
 
 | Ch | Title | Pages | Points | Parts (first point) | やってみよう/Check answers | まとめ answers/scripts |
 |---|---|---|---|---|---|---|
@@ -31,14 +31,11 @@ different for N1 and the conventions every transcriber must follow so the ten ch
 
 ## Files
 
-- Write fragments, never the generated chapter files: `data/n1/frag/chNN-p0.js`, `chNN-p1.js`, `chNN-p2.js` (one per part)
-  and `data/n1/frag/chNN-review.js`. Same `N2F({...})` format as `data/n2/frag/*.js` (see `tools/merge.js` header).
-  Part 0 carries `head: { genre, title, canDo }`.
-- Build and validate:
+- One file per chapter: `data/n1/chNN.js` (`TRY.registerChapter({...})`, edited directly).
+- Validate:
   ```sh
-  node tools/merge.js n1 5                       # → data/n1/chapters/ch05.js
-  node tools/check.js data/n1/chapters/ch05.js   # structure, answers, en presence, no zh
-  node tools/ocr-diff.js data/n1/chapters/ch05.js 73-97   # every string vs OCR; look at everything < 0.9 on the scan
+  node tools/check.js n1 5                       # structure, answers, en presence, no zh
+  node tools/ocr-diff.js data/n1/ch05.js 73-97   # every string vs OCR; look at everything < 0.9 on the scan
   ```
 - View it: `python3 -m http.server 8765`, open http://localhost:8765/n1/#/ch/5 ; screenshots:
   `node tools/shot.mjs n1:ch/5 1280 2400 /tmp/c5.png --full`.
@@ -74,7 +71,7 @@ Write for an English-speaking learner of Japanese at N2→N1 level:
   contents pp.11–15, which prints furigana only on 昔話・実用書・論説文): e.g. `genre: { ja: "{実用書|じつようしょ}を読む", en: "…" }`;
   `title.ja` without the part label; part `label: "(1)"`, `"(2)"`, `"(3)"`, or `""` if unsplit.
 - Part-specific can-do: split chapters print a できること box at the start of each part → put it on the part (`canDo`
-  in the part fragment), and put the chapter-level `head.canDo` only for the first part's box. (Check against N1
+  on the part), and put the chapter-level `canDo` only for the first part's box. (Check against N1
   できること list pp.188–191, which lists one per part.)
 - Grammar point heading: `phrase` = the heading text with the bold part in `**…**` (e.g. `"「{樽明|たるあ}け」**を{皮切|かわき}りに**"`),
   `pattern` = the canonical form (use the book's 文型索引 form, e.g. `"〜を{皮切|かわき}りに"`). Stars as printed.
@@ -82,7 +79,7 @@ Write for an English-speaking learner of Japanese at N2→N1 level:
   evaluation) = `praise`; sweating/regret face = `regret` (legend on p.6). Transcribe exactly the icons printed.
 - Connection lines → `forms`, with the schema's badges: `[N]` `[V-る]` `[V-た]` `[V-~~ます~~]` `[Pl]` `[Pl₁]` `[N₁]`
   `[なA~~だ~~]` `[いA~~い~~]` and the N1-only `[文]` (sentence). Bracket lines as printed, e.g. `"［[なA]（だ）　[N]（だ）］"`.
-  Look at how N2 fragments encode stacked alternatives and brackets (`data/n2/frag/*`) and follow the same encoding.
+  Look at how the N2 chapters encode stacked alternatives and brackets (`data/n2/chNN.js`) and follow the same encoding.
 - ＊ lines under the connection → `formNotes` (`{ ja: "＊「…」の形も使われる。" }` — keep the ＊).
 - Examples ①②… in order; the chain-link icon after an example = `idiom: true`.
 - 📎 clip box → `notes` (with its own examples/practice). ＋Plus box → `plus`.
@@ -106,7 +103,7 @@ Write for an English-speaking learner of Japanese at N2→N1 level:
 
 ## Done means
 
-- merge + check.js OK, ocr-diff reviewed (every low score looked at on the zoomed scan and either fixed or confirmed),
+- check.js OK, ocr-diff reviewed (every low score looked at on the zoomed scan and either fixed or confirmed),
 - every string compared line by line with the zoomed scan,
 - all answers match the supplement,
 - a short report of anything ambiguous (page, what, what you chose).
