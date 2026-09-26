@@ -43,7 +43,7 @@ N2.register({
             "sp": "山下",
             "v": "m",
             "ja": "女性ですからね。",
-            "en": "Well, women are like that, aren't they."
+            "en": "Well, that's women for you."
           }
         ]
       },
@@ -186,7 +186,7 @@ N2.register({
           "examples": [
             {
               "ja": "2人は{夕暮|ゆうぐ}れの道を川にそって歩き続けた。",
-              "en": "The two of them kept walking along the river road at dusk."
+              "en": "The two of them kept walking along the river in the dusk."
             },
             {
               "ja": "お客様への{対応|たいおう}はマニュアルにそって{行|おこな}うこと。",
@@ -608,7 +608,7 @@ N2.register({
             {
               "q": "買っても当たらないと思い＿＿、毎回{宝|たから}くじを買っている。",
               "answer": "つつも",
-              "en": "Even though I think I won't win even if I buy one, I buy a lottery ticket every time."
+              "en": "Even though I think I won't win anyway, I buy lottery tickets every time."
             }
           ]
         }
@@ -666,7 +666,7 @@ N2.register({
             "sp": "川口",
             "v": "f",
             "ja": "そうですね。{市場調査|しじょうちょうさ}をした**{上|うえ}で**、若い社会人の声**にこたえた**「{見|み}た{目|め}もよくて{機能性抜群|きのうせいばつぐん}」の{商品|しょうひん}を{考|かんが}えましょう。",
-            "en": "That's right. After doing market research, let's come up with a product that answers the voices of young working people: \"good-looking and outstandingly functional.\""
+            "en": "That's right. After doing market research, let's come up with a product that responds to what young working people are asking for: \"good-looking and outstandingly functional.\""
           }
         ]
       },
@@ -1568,7 +1568,7 @@ N2.register({
             ],
             "en": [
               "At a university, a teacher is talking to students.",
-              "Recently, not only in Japan but also in Europe, America and elsewhere, people have come to eat fish a lot. Unfortunately, however, it tends to be certain fixed fish such as tuna and salmon. In Japan, people have long eaten big fish, small fish, all kinds of fish, and that is necessary in order not to destroy the ecosystem of sea creatures. We can say that eating many different kinds of fish in a balanced way is kinder to nature. So that is what I'd like to ask of you all.",
+              "Recently, not only in Japan but also in Europe, America and elsewhere, people have come to eat fish a lot. Unfortunately, however, it tends to be limited to certain fish such as tuna and salmon. In Japan, people have long eaten big fish, small fish, all kinds of fish, and that is necessary in order not to destroy the ecosystem of sea creatures. We can say that eating many different kinds of fish in a balanced way is kinder to nature. So that is what I'd like to ask of you all.",
               "Why is eating in a balanced way kind to nature?",
               "You know that tuna are rapidly decreasing, right?",
               "Yeah. They've gotten expensive. And people are saying we might soon not be able to eat them at all.",
@@ -1654,7 +1654,7 @@ N2.register({
               "That the technology is world-class",
               "That making things tends to be thought of as easy",
               "That they hire a variety of employees",
-              "That evaluating ability has led to development"
+              "That evaluating employees by ability has led to the company's growth"
             ],
             "options": [
               "{技術|ぎじゅつ}が世界トップレベルなこと",

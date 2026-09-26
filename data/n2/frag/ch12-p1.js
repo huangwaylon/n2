@@ -15,7 +15,7 @@ N2F({
       { sp: "山下", v: "m", ja: "デザイン**{次第|しだい}**で、ヒット{商品|しょうひん}になりますよ。", en: "Depending on the design, it could become a hit product." },
       { sp: "川口", v: "f", ja: "この{業界|ぎょうかい}も{競争|きょうそう}が{厳|きび}しくなる**{一方|いっぽう}**ですけど、ニーズに合った{商品|しょうひん}なら{絶対|ぜったい}売れますよね。", en: "Competition in this industry just keeps getting tougher, but a product that meets people's needs will definitely sell, won't it?" },
       { sp: "山下", v: "m", ja: "それじゃ、{新製品|しんせいひん}の{開発|かいはつ}**に{先立|さきだ}って**、アンケート{調査|ちょうさ}が{必要|ひつよう}になりますね。", en: "In that case, before developing the new product, we'll need to do a questionnaire survey." },
-      { sp: "川口", v: "f", ja: "そうですね。{市場調査|しじょうちょうさ}をした**{上|うえ}で**、若い社会人の声**にこたえた**「{見|み}た{目|め}もよくて{機能性抜群|きのうせいばつぐん}」の{商品|しょうひん}を{考|かんが}えましょう。", en: "That's right. After doing market research, let's come up with a product that answers the voices of young working people: \"good-looking and outstandingly functional.\"" },
+      { sp: "川口", v: "f", ja: "そうですね。{市場調査|しじょうちょうさ}をした**{上|うえ}で**、若い社会人の声**にこたえた**「{見|み}た{目|め}もよくて{機能性抜群|きのうせいばつぐん}」の{商品|しょうひん}を{考|かんが}えましょう。", en: "That's right. After doing market research, let's come up with a product that responds to what young working people are asking for: \"good-looking and outstandingly functional.\"" },
     ],
   },
   points: [

@@ -15,7 +15,7 @@ N2F({
       { sp: "{川口|かわぐち}", v: "f", ja: "今度、ミズノから「{軽|かる}くて{疲|つか}れない{靴|くつ}」が{発売|はつばい}される**とか**…。", en: "I hear Mizuno is going to release \"light shoes that don't tire you out\"..." },
       { sp: "{山下|やました}", v: "m", ja: "{軽量化|けいりょうか}という{業界|ぎょうかい}の{流|なが}れ**にそって**、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。わが社もウォーキングシューズ**にかけては**、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}し**ないことには**新しいお客さんは{獲得|かくとく}できないですよね。", en: "New products are being developed in line with the industry trend toward lighter weight, after all. Our company has a proven track record when it comes to walking shoes, but unless we develop them from a different perspective, we won't be able to win new customers." },
       { sp: "川口", v: "f", ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}し**がち**ですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。歩きやすい{靴|くつ}がほしいと思い**つつも**、デザインを{優先|ゆうせん}してしまう人が多いと思うんです。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, the deciding factor when buying is design, after all. I think there are a lot of people who, even though they want shoes that are easy to walk in, end up putting design first." },
-      { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, women are like that, aren't they." },
+      { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, that's women for you." },
     ],
   },
   points: [
@@ -92,7 +92,7 @@ N2F({
         { ja: "「マニュアル・{方針|ほうしん}・案内・{道順|みちじゅん}」などの言葉と一緒に使われる。「{希望|きぼう}・{要望|ようぼう}・{意向|いこう}・{期待|きたい} + にそうよう」などの言い方もある。", en: "It is used together with words such as マニュアル, 方針, 案内 and 道順. There are also expressions such as 希望／要望／意向／期待 + にそうよう." },
       ],
       examples: [
-        { ja: "2人は{夕暮|ゆうぐ}れの道を川にそって歩き続けた。", en: "The two of them kept walking along the river road at dusk." },
+        { ja: "2人は{夕暮|ゆうぐ}れの道を川にそって歩き続けた。", en: "The two of them kept walking along the river in the dusk." },
         { ja: "お客様への{対応|たいおう}はマニュアルにそって{行|おこな}うこと。", en: "Dealing with customers is to be done according to the manual." },
         { ja: "今度の{展覧会|てんらんかい}では「{平和|へいわ}」というテーマにそった作品を{展示|てんじ}しています。", en: "At this exhibition, we are displaying works in line with the theme of \"peace.\"" },
         { ja: "国民の皆様のご{期待|きたい}にそうよう、{努力|どりょく}いたします。", en: "I will strive to live up to the expectations of all of you, the people of this nation." },
@@ -327,7 +327,7 @@ N2F({
         { q: "A：Bさん、入院なさっていた＿＿。もう、大丈夫ですか。\nB：はい、おかげさまで。", answer: "とか", en: "A: I heard you were in the hospital, B. Are you all right now?\nB: Yes, thank you." },
         { q: "{許可|きょか}が{下|お}り＿＿留学できませんよ。", answer: "ないことには", en: "You can't study abroad unless you get permission." },
         { q: "この組み立て方の{手順|てじゅん}＿＿やれば、{初心者|しょしんしゃ}でも{簡単|かんたん}に組み立てられます。", answer: "にそって", en: "If you follow these assembly steps, even a beginner can put it together easily." },
-        { q: "買っても当たらないと思い＿＿、毎回{宝|たから}くじを買っている。", answer: "つつも", en: "Even though I think I won't win even if I buy one, I buy a lottery ticket every time." },
+        { q: "買っても当たらないと思い＿＿、毎回{宝|たから}くじを買っている。", answer: "つつも", en: "Even though I think I won't win anyway, I buy lottery tickets every time." },
       ],
     },
   ],

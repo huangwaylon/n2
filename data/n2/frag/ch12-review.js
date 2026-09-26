@@ -106,7 +106,7 @@ N2F({ ch: 12, review: [
           ],
           en: [
             "At a university, a teacher is talking to students.",
-            "Recently, not only in Japan but also in Europe, America and elsewhere, people have come to eat fish a lot. Unfortunately, however, it tends to be certain fixed fish such as tuna and salmon. In Japan, people have long eaten big fish, small fish, all kinds of fish, and that is necessary in order not to destroy the ecosystem of sea creatures. We can say that eating many different kinds of fish in a balanced way is kinder to nature. So that is what I'd like to ask of you all.",
+            "Recently, not only in Japan but also in Europe, America and elsewhere, people have come to eat fish a lot. Unfortunately, however, it tends to be limited to certain fish such as tuna and salmon. In Japan, people have long eaten big fish, small fish, all kinds of fish, and that is necessary in order not to destroy the ecosystem of sea creatures. We can say that eating many different kinds of fish in a balanced way is kinder to nature. So that is what I'd like to ask of you all.",
             "Why is eating in a balanced way kind to nature?",
             "You know that tuna are rapidly decreasing, right?",
             "Yeah. They've gotten expensive. And people are saying we might soon not be able to eat them at all.",
@@ -148,7 +148,7 @@ N2F({ ch: 12, review: [
             "That the technology is world-class",
             "That making things tends to be thought of as easy",
             "That they hire a variety of employees",
-            "That evaluating ability has led to development",
+            "That evaluating employees by ability has led to the company's growth",
           ],
           options: ["{技術|ぎじゅつ}が世界トップレベルなこと", "{物作|ものづく}りは{簡単|かんたん}だと思われがちなこと", "{様々|さまざま}な社員を{採用|さいよう}していること", "{能力評価|のうりょくひょうか}が{発展|はってん}につながったこと"],
           answer: 3,
