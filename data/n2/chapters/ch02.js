@@ -69,7 +69,7 @@ N2.register({
             },
             {
               "ja": "3年前の夏休みに帰国して{以来|いらい}、長い間家族に会っていません。",
-              "en": "Since I went home during the summer vacation three years ago, I haven't seen my family for a long time."
+              "en": "I haven't seen my family in a long time — not since I went home for the summer vacation three years ago."
             },
             {
               "ja": "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。",
@@ -677,7 +677,7 @@ N2.register({
             {
               "q": "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の{総合|そうごう}メーカーです。",
               "answer": "をはじめとする",
-              "en": "Our company is a general confectionery maker, producing chocolate and much more."
+              "en": "Our company is a general confectionery maker whose products include chocolate and many other sweets."
             },
             {
               "q": "このアニメは、子ども＿＿、大人でも十分楽しめる作品になっている。",
@@ -886,7 +886,7 @@ N2.register({
                     "に"
                   ],
                   "answer": 1,
-                  "en": "A: Everyone, unite around the captain and give it everything you've got in the match!\nB: We'll do our best. Coach, keep watching us."
+                  "en": "A: Everyone, unite around the captain and give it everything you've got in the match!\nB: We'll do our best. Coach, just watch us!"
                 }
               ]
             }
@@ -1451,7 +1451,7 @@ N2.register({
                     "はもちろん"
                   ],
                   "answer": 1,
-                  "en": "Ever since he was a child he has been good at every sport, soccer of course included."
+                  "en": "From childhood on, he was good at every sport, not to mention soccer."
                 }
               ]
             }
@@ -1563,7 +1563,7 @@ N2.register({
               "おかげで"
             ],
             "answer": 1,
-            "en": "My manager told me, \"Since you're quitting the company saying you'll go independent, hang in there no matter how hard it gets.\""
+            "en": "My manager told me, \"Now that you're quitting the company to go independent, as you say, hang in there no matter how hard it gets.\""
           },
           {
             "q": "{高橋|たかはし}さんは子どもが生まれたの（　）、たばこをやめる{決心|けっしん}をしたんだそうです。",
@@ -1750,7 +1750,7 @@ N2.register({
             "answer": 3,
             "en": "At this gathering, who is speaking to whom?",
             "why": {
-              "en": "The speaker is a runner in his last year (私にとっては大学生活最後の年; 選手一同) thanking the people who came (お集まりいただき)."
+              "en": "The speaker is a runner in their final year (私にとっては大学生活最後の年; 選手一同) thanking the people who came (お集まりいただき)."
             }
           }
         ]

@@ -34,7 +34,7 @@ N2F({
       forms: ["[V-て] + {以来|いらい}", "[N] + {以来|いらい}"],
       examples: [
         { ja: "母が入院して{以来|いらい}、{家事|かじ}はすべて私がしています。", en: "Ever since my mother went into hospital, I have been doing all the housework." },
-        { ja: "3年前の夏休みに帰国して{以来|いらい}、長い間家族に会っていません。", en: "Since I went home during the summer vacation three years ago, I haven't seen my family for a long time." },
+        { ja: "3年前の夏休みに帰国して{以来|いらい}、長い間家族に会っていません。", en: "I haven't seen my family in a long time — not since I went home for the summer vacation three years ago." },
         { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine." },
         { ja: "{山野|やまの}君とは卒業{以来|いらい}、まったく{連絡|れんらく}が取れない。", en: "I haven't been able to get in touch with Yamano at all since graduation." },
         { ja: "彼は2000年4月{以来|いらい}、1日も休まず{遺伝子|いでんし}の研究を続けている。", en: "Since April 2000 he has continued his genetic research without taking a single day off." },
@@ -360,7 +360,7 @@ N2F({
       prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
       bank: ["ながら", "のもとで", "はもとより", "をはじめとする"],
       items: [
-        { q: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の{総合|そうごう}メーカーです。", answer: "をはじめとする", en: "Our company is a general confectionery maker, producing chocolate and much more." },
+        { q: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の{総合|そうごう}メーカーです。", answer: "をはじめとする", en: "Our company is a general confectionery maker whose products include chocolate and many other sweets." },
         { q: "このアニメは、子ども＿＿、大人でも十分楽しめる作品になっている。", answer: "はもとより", en: "This anime is a work that adults as well as children can fully enjoy." },
         { q: "たまにはゆっくり映画を見たいと思い＿＿、なかなか時間がとれない。", answer: "ながら", en: "Although I'd like to relax and watch a movie once in a while, I just can't find the time." },
         { q: "がんの{疑|うたが}いがあるときは{専門医|せんもんい}＿＿{早期|そうき}に{診断|しんだん}、{治療|ちりょう}されることをおすすめします。", answer: "のもとで", en: "When cancer is suspected, we recommend being diagnosed and treated early under a specialist." },
