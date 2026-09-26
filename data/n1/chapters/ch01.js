@@ -190,7 +190,7 @@ N2.register({
             },
             {
               "ja": "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。",
-              "en": "Because this property is quiet and well served by public transport, applicants wanting to move in are flooding in."
+              "en": "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in."
             },
             {
               "ja": "パンダの{前足|まえあし}の形は大変珍しいとあって、{遺伝学|いでんがく}の研究対象として注目されている。",
@@ -570,7 +570,7 @@ N2.register({
             },
             {
               "ja": "グルメの友人は、朝食のパンからして有名店のものを選ぶ。",
-              "en": "My foodie friend picks things from famous shops for everything, starting with the bread he has for breakfast."
+              "en": "My foodie friend buys from famous shops for everything, starting with his breakfast bread."
             },
             {
               "ja": "このパソコンは古すぎる。{起動|きどう}にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。",
@@ -598,7 +598,7 @@ N2.register({
                     "からすると"
                   ],
                   "answer": 0,
-                  "en": "This hotel is dim and smells musty — and that starts with the lobby.",
+                  "en": "Starting with the lobby, this hotel is dim and smells musty.",
                   "why": {
                     "en": "The lobby is one example standing for the whole hotel (からして). からすると (judging from) would need an inference in the second half."
                   }

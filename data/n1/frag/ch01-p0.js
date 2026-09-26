@@ -90,7 +90,7 @@ N2F({
       forms: ["[Pl] + とあって\n［[なA]（だ）　[N]（だ）］"],
       examples: [
         { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "Today being the first Sunday of the summer vacation, beaches all over the country were packed with people." },
-        { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and well served by public transport, applicants wanting to move in are flooding in." },
+        { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in." },
         { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、{遺伝学|いでんがく}の研究対象として注目されている。", en: "Because the shape of the panda's front paw is so unusual, it is attracting attention as a subject of genetic research." },
         { ja: "あのダ・ヴィンチのモナリザが見られるとあって、開館前から長い列ができたという。", en: "Since this was a chance to see none other than da Vinci's Mona Lisa, a long line reportedly formed even before the museum opened." },
       ],
@@ -289,7 +289,7 @@ N2F({
       examples: [
         { ja: "有名デパートの店員は、言葉{遣|づか}いからして{丁寧|ていねい}だ。", en: "Staff at well-known department stores are polite in everything, starting with the way they speak." },
         { ja: "さすが{元|もと}バレリーナ。立っている{姿|すがた}からして美しい。", en: "Just what you'd expect of a former ballerina. Even the way she stands is beautiful." },
-        { ja: "グルメの友人は、朝食のパンからして有名店のものを選ぶ。", en: "My foodie friend picks things from famous shops for everything, starting with the bread he has for breakfast." },
+        { ja: "グルメの友人は、朝食のパンからして有名店のものを選ぶ。", en: "My foodie friend buys from famous shops for everything, starting with his breakfast bread." },
         { ja: "このパソコンは古すぎる。{起動|きどう}にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models." },
       ],
       deepDive:
@@ -312,7 +312,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option, a or b. (Item 2 has an illustration of a kaiseki meal.)" },
           items: [
-            { q: "このホテルはロビー（　）{薄暗|うすぐら}くてかび{臭|くさ}い。", options: ["からして", "からすると"], answer: 0, en: "This hotel is dim and smells musty — and that starts with the lobby.", why: { en: "The lobby is one example standing for the whole hotel (からして). からすると (judging from) would need an inference in the second half." } },
+            { q: "このホテルはロビー（　）{薄暗|うすぐら}くてかび{臭|くさ}い。", options: ["からして", "からすると"], answer: 0, en: "Starting with the lobby, this hotel is dim and smells musty.", why: { en: "The lobby is one example standing for the whole hotel (からして). からすると (judging from) would need an inference in the second half." } },
             { q: "{懐石|かいせき}料理は、食器（　）季節感を大切にしている。", options: ["からして", "から見て"], answer: 0, en: "Kaiseki cuisine values a sense of the season in everything, starting with the tableware.", why: { en: "The tableware is one example of how everything in kaiseki reflects the season, so からして. から見て (judging from) does not fit a statement of fact like this." } },
             { q: "彼は{親戚|しんせき}から借金（　）会社{設立|せつりつ}の{資金|しきん}を集めた。", options: ["からして", "までして"], answer: 1, en: "He went so far as to borrow money from relatives to raise the funds to set up his company.", why: { en: "借金までして = going as far as borrowing money, an extreme step taken to reach a goal. からして would treat borrowing as one example of something, which makes no sense here." } },
           ],
