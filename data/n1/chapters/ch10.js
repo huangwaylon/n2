@@ -12,7 +12,7 @@ N2.register({
   "canDo": [
     {
       "ja": "{古風|こふう}な表現を使った{論説文|ろんせつぶん}を読んで、その表現に込められた筆者の主張が理解できる。",
-      "en": "Read an editorial written with old-fashioned expressions and understand the writer's argument conveyed through those expressions."
+      "en": "Read an editorial that uses old-fashioned expressions and understand the argument the writer conveys through them."
     }
   ],
   "parts": [
@@ -28,11 +28,11 @@ N2.register({
           {
             "cont": true,
             "ja": "昭和30年代以降急速に発展し、現在では、現代芸術の一分野としての地位を{確立|かくりつ}している。",
-            "en": "It developed rapidly from the late 1950s onward (Showa 30s), and today it has established its position as a branch of contemporary art."
+            "en": "It developed rapidly from the Showa 30s (1955–64) onward, and today it has established itself as a branch of contemporary art."
           },
           {
             "ja": "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをする**べからず**{等|とう}、{数多|かずおお}くの決まりがある。",
-            "en": "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go over a stroke twice.”"
+            "en": "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”"
           },
           {
             "cont": true,
@@ -47,12 +47,12 @@ N2.register({
           {
             "cont": true,
             "ja": "**ただ**自分の心を表現すること**のみ**を目指す。",
-            "en": "They aim solely to express their own hearts."
+            "en": "Their sole aim is to express what is in their hearts."
           },
           {
             "cont": true,
             "ja": "文字として読めない**がゆえ**に、その筆の線が{余白|よはく}**と{相|あい}まって**作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。",
-            "en": "Precisely because the works cannot be read as characters, we can purely appreciate the beauty of the space that the brush lines create in combination with the blank areas."
+            "en": "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper."
           },
           {
             "ja": "{前衛|ぜんえい}書道で、よく語られるのが{上田桑鳩|うえだそうきゅう}（1899-1968年）の「愛」（1951年、第7回日本美術{展覧会|てんらんかい}に{出展|しゅってん}）である。",
@@ -66,7 +66,7 @@ N2.register({
           {
             "cont": true,
             "ja": "書**としてあるまじき**ものと批判され**ずにはすまなかった**のも、よくわかる。",
-            "en": "It is also easy to understand that it could not escape being criticized as something unworthy of being called calligraphy."
+            "en": "Nor is it hard to see why it could not escape being condemned as something calligraphy should never be."
           },
           {
             "cont": true,
@@ -76,30 +76,30 @@ N2.register({
           {
             "cont": true,
             "ja": "しかし、この作品を見ると、この文字が「{品|ひん}」**でなくてなんだろう**。",
-            "en": "Yet when you look at this work, what could this character be if not “品” (hin)?"
+            "en": "Yet looking at this work, what could this character be, if not 品 (hin, “refinement”)?"
           },
           {
             "cont": true,
             "ja": "失礼**{極|きわ}まりない**ことだが、これを「愛」と思う人などいるのだろうかという疑問**を禁じえない**。",
-            "en": "It is extremely rude to say so, but I cannot help wondering whether anyone would take this for “愛” (love)."
+            "en": "It is the height of rudeness to say so, but I cannot suppress my doubts as to whether anyone would take this for 愛 (“love”)."
           },
           {
             "ja": "人はその文字の持つ意味により、{固定的|こていてき}なイメージを{抱|いだ}くものだ。",
-            "en": "People form fixed images according to the meaning that a character carries."
+            "en": "People form a fixed image of a character from the meaning it carries."
           },
           {
             "cont": true,
             "ja": "{卑近|ひきん}な例で{恐縮|きょうしゅく}だが、たとえ{高名|こうめい}な{書家|しょか}が書いたものであっても、「{公衆便所|こうしゅうべんじょ}」と書かれた書が芸術と呼ぶ**にたる**作品かと聞かれれば、ほとんどの人が{否|いな}と答えるであろうことは疑う**べくもない**。",
-            "en": "Forgive the crude example, but if asked whether a piece of calligraphy reading “public toilet” is a work worthy of being called art, even if written by a renowned calligrapher, there is no doubt that most people would answer no."
+            "en": "Forgive me for such a vulgar example, but if people were asked whether a piece of calligraphy reading 公衆便所 (“public toilet”) was a work worthy of being called art — even one written by a renowned calligrapher — there can be no doubt that almost everyone would answer no."
           },
           {
             "ja": "だが、{固定|こてい}観念からの解放**なくして**芸術は生まれない。",
-            "en": "However, without liberation from fixed ideas, art cannot be born."
+            "en": "But without liberation from fixed ideas, no art can be born."
           },
           {
             "cont": true,
             "ja": "{前衛|ぜんえい}書道は、書道とは異なる新たな芸術の分野なのである。",
-            "en": "Avant-garde calligraphy is a new field of art, different from calligraphy."
+            "en": "Avant-garde calligraphy is a new field of art, distinct from calligraphy."
           }
         ]
       },
@@ -114,7 +114,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜べからず」は「〜してはいけない」と強く禁止することを表す。看板や{掲示|けいじ}によく使われる。",
-            "en": "“〜べからず” expresses a strong prohibition: “you must not do 〜.” It is often used on signs and notices."
+            "en": "“〜べからず” expresses a strong prohibition, meaning “you must not 〜.” It is often used on signs and notices."
           },
           "forms": [
             "[V-る] + べからず"
@@ -132,22 +132,22 @@ N2.register({
             },
             {
               "ja": "{私有地|しゆうち}につき駐車するべからず。",
-              "en": "Private property. No parking."
+              "en": "This is private property, so parking is prohibited."
             },
             {
               "ja": "キャンパス内で、許可なくポスターを{貼|は}るべからず。",
-              "en": "Do not put up posters on campus without permission."
+              "en": "Posters must not be put up on campus without permission."
             },
             {
               "ja": "{火気厳禁|かきげんきん}。ここでたばこを吸うべからず。",
-              "en": "Fire strictly prohibited. No smoking here."
+              "en": "No open flames. Smoking here is forbidden."
             },
             {
               "ja": "{飲酒|いんしゅ}運転は、許すべからざる{行為|こうい}だ。",
-              "en": "Drunk driving is an unforgivable act."
+              "en": "Drunk driving is an act that must never be tolerated."
             }
           ],
-          "deepDive": "**V-る + べからず** is the classical negative of べし (*must / should*): べから (the negative stem of べし) + ず (classical *not*). It is a **flat prohibition**: *do not ~ / ~ is forbidden*. It sounds stern, old-fashioned and impersonal, which is exactly why it survives on **signs, notices, rules and maxims**: 立入るべからず *Keep out*, 芝生に入るべからず *Keep off the grass*, 座るべからず *Do not sit*.\n\nForms:\n- **〜べからず** ends a sentence (a rule, a sign).\n- **〜べからざる + N** modifies a noun: 許すべからざる行為 *an unforgivable act*, 欠くべからざる条件 *an indispensable condition*, 犯すべからざる権利 *an inviolable right*. This attributive form is what you mostly meet in modern prose.\n- The affirmative counterpart is **〜べし** (*shall / must*): 筆順を守るべし, as in the sample text.\n\nConnection: like べき, it takes the dictionary form. **する** gives **するべからず** or the more classical **すべからず** (both are seen).\n\nRegister: in everyday speech nobody says 座るべからず to a friend; you'd say 座らないで or 座っちゃだめ. In writing it adds a solemn, sometimes humorous tone — the sample text uses it to evoke the traditional rules of calligraphy, and the listening task quotes a book's message 他人任せにして安心するべからず.\n\nCompare:\n- **〜べきではない**: *should not*, a modern opinion or advice; softer and argumentative rather than a rule.\n- **〜てはならない / 〜てはいけない**: ordinary prohibitions.\n- **〜べく** (#90) *in order to*, and **〜べくもない** (#122) *there's no way to ~*: other survivors of べし.\n\nJLPT tip: べからず is a sentence-final prohibition; if the blank is followed by a noun, the answer is べからざる.",
+          "deepDive": "**V-る + べからず** is the classical negative of べし (*must / should*): べから (the irrealis (未然形) form of べし) + ず (classical *not*). It is a **flat prohibition**: *do not ~ / ~ is forbidden*. It sounds stern, old-fashioned and impersonal, which is exactly why it survives on **signs, notices, rules and maxims**: 立入るべからず *Keep out*, 芝生に入るべからず *Keep off the grass*, 座るべからず *Do not sit*.\n\nForms:\n- **〜べからず** ends a sentence (a rule, a sign).\n- **〜べからざる + N** modifies a noun: 許すべからざる行為 *an unforgivable act*, 欠くべからざる条件 *an indispensable condition*, 犯すべからざる権利 *an inviolable right*. This attributive form is what you mostly meet in modern prose.\n- The affirmative counterpart is **〜べし** (*shall / must*): 筆順を守るべし, as in the sample text.\n\nConnection: like べき, it takes the dictionary form. **する** gives **するべからず** or the more classical **すべからず** (both are seen).\n\nRegister: in everyday speech nobody says 座るべからず to a friend; you'd say 座らないで or 座っちゃだめ. In writing it adds a solemn, sometimes humorous tone — the sample text uses it to evoke the traditional rules of calligraphy, and the listening task quotes a book's message 他人任せにして安心するべからず.\n\nCompare:\n- **〜べきではない**: *should not*, a modern opinion or advice; softer and argumentative rather than a rule.\n- **〜てはならない / 〜てはいけない**: ordinary prohibitions.\n- **〜べく** (#90) *in order to*, and **〜べくもない** (#122) *there's no way to ~*: other survivors of べし.\n\nJLPT tip: べからず is a sentence-final prohibition; if the blank is followed by a noun, the answer is べからざる.",
           "see": [
             90,
             122
@@ -171,7 +171,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「（ただ）〜のみ」は「本当に〜だけだ」と強く言いたいときに使われる。",
-            "en": "“（ただ）〜のみ” is used when you want to say emphatically “really only 〜.”"
+            "en": "“（ただ）〜のみ” is used when you want to stress strongly that it is “really only 〜.”"
           },
           "forms": [
             "（ただ） + ［[V-る]　[N]］ + のみ"
@@ -183,7 +183,7 @@ N2.register({
             },
             {
               "ja": "{本番|ほんばん}まで、あと1週間。皆さん、今は何も考えずに、ただ練習に{励|はげ}むのみです。",
-              "en": "One week to go until the real thing. Everyone, don't think about anything else now — all you need to do is practice hard."
+              "en": "One week to go until the performance. Everyone, don't think about anything else now — all you have to do is throw yourselves into practice."
             },
             {
               "ja": "A：コーチ、強ければそれでいいんじゃないですか。\nB：強さのみが{王者|おうじゃ}の条件ではない。お前はまだ何もわかっていない。",
@@ -191,10 +191,10 @@ N2.register({
             },
             {
               "ja": "やるべきことはすべてやったんでしょう。あとはただ結果を待つのみだね。",
-              "en": "You've done everything you had to do, right? Now all that's left is to wait for the result."
+              "en": "You've done everything you needed to do, right? Now all that's left is simply to wait for the result."
             }
           ],
-          "deepDive": "**のみ** is the written, formal equivalent of **だけ** (*only*). Adding the adverb **ただ** in front (ただ〜のみ) makes it emphatic: *nothing but ~, solely ~*. ただ自分の心を表現することのみを目指す = *they aim solely to express their own hearts*.\n\nConnection:\n- **N + のみ**: 強さのみ, 風の音のみ, 1人のみ. Particles can follow: のみが, のみを, のみで, のみに.\n- **V-る + のみ(だ)**: 待つのみだ, 励むのみです — *all one can/must do is ~*. This sentence-final use expresses resolve or the only remaining step: あとは結果を待つのみ.\n- Other adverbs of limitation combine too: **唯一〜のみ**, **〜のみならず** (*not only*).\n\nNuance: だけ is neutral and conversational; のみ is stiff and bookish — news, essays, notices (会員のみ入場可 *members only*), speeches. Using のみ in casual talk sounds dramatic, which can be deliberate, as in the coach's line 強さのみが王者の条件ではない.\n\nRelated forms:\n- **〜のみならず**: *not only ~ but also* (formal version of だけでなく).\n- **〜のみとなる**: *only ~ remains*: 残り1カ月を残すのみとなりました.\n- **ばかり** and **しか〜ない** also mean *only*, but しか needs a negative verb and ばかり stresses *nothing but* (often with disapproval).\n\nPitfall: のみ does not take a negative verb the way しか does (✗1人のみいない). Say 1人しかいない or 1人のみだ.\n\nJLPT tip: in the exercises, the part outside のみ must be the *other* part — ただ1人のみで、他の人々は間に合わなかった: the one person made it, *the others* didn't.",
+          "deepDive": "**のみ** is the written, formal equivalent of **だけ** (*only*). Adding the adverb **ただ** in front (ただ〜のみ) makes it emphatic: *nothing but ~, solely ~*. ただ自分の心を表現することのみを目指す = *they aim solely to express their own hearts*.\n\nConnection:\n- **N + のみ**: 強さのみ, 風の音のみ, 1人のみ. Particles can follow: のみが, のみを, のみで, のみに.\n- **V-る + のみ(だ)**: 待つのみだ, 励むのみです — *all one can/must do is ~*. This sentence-final use expresses resolve or the only remaining step: あとは結果を待つのみ.\n- Other limiting words can reinforce it instead of ただ: **唯一〜のみ**, **〜のみに限る**.\n\nNuance: だけ is neutral and conversational; のみ is stiff and bookish — news, essays, notices (会員のみ入場可 *members only*), speeches. Using のみ in casual talk sounds dramatic, which can be deliberate, as in the coach's line 強さのみが王者の条件ではない.\n\nRelated forms:\n- **〜のみならず**: *not only ~ but also* (formal version of だけでなく).\n- **〜のみとなる**: *only ~ remains*: あと1カ月を残すのみとなりました.\n- **ばかり** and **しか〜ない** also mean *only*, but しか needs a negative verb and ばかり stresses *nothing but* (often with disapproval).\n\nPitfall: don't blend のみ into the しか〜ない pattern. *There is only one person* is 1人しかいない or 1人のみだ, not ✗1人のみいない.\n\nJLPT tip: のみ singles out one thing and excludes everything else, so what follows has to be about the rest — ただ1人のみで、他の人々は間に合わなかった: *only one* made it, so *the others* didn't.",
           "see": [],
           "index": [
             "（ただ）〜のみ",
@@ -246,7 +246,7 @@ N2.register({
                     "1{カ|か}月を残す"
                   ],
                   "answer": 1,
-                  "en": "My life as an exchange student finally has only one month left."
+                  "en": "My time as an exchange student is finally down to its last month."
                 }
               ]
             }
@@ -289,11 +289,11 @@ N2.register({
             },
             {
               "ja": "若さゆえの{過|あやま}ちを、人はなかなか認めたがらないものだ。",
-              "en": "People are reluctant to admit the mistakes they made out of youth."
+              "en": "People are rarely willing to admit the mistakes they make because of their youth."
             },
             {
               "ja": "彼は国民の信頼を裏切った。それゆえに、{権力|けんりょく}の{座|ざ}を追われることとなったのである。",
-              "en": "He betrayed the people's trust. For that reason he was driven from power."
+              "en": "He betrayed the people's trust, and for that very reason he was driven from power."
             },
             {
               "ja": "日本カワウソは毛皮が美しいがゆえに{乱獲|らんかく}され、{絶滅|ぜつめつ}してしまった。",
@@ -328,7 +328,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜と／が{相|あい}まって」は「このスープは{酸味|さんみ}と{辛|から}みが{相|あい}まって、{絶妙|ぜつみょう}な味わいだ」のように「複数の{要素|ようそ}が一緒になって、程度が高くなる」と言いたいときに使う。",
-            "en": "Use “〜と／が相まって” when you want to say that “several elements come together and the degree increases,” as in “In this soup the sourness and spiciness combine to give an exquisite flavor.”"
+            "en": "Use “〜と／が相まって” when you want to say that “several elements come together and the effect becomes stronger,” as in “In this soup, the sourness and the spiciness combine to give an exquisite flavor.”"
           },
           "forms": [
             "[N] + と{相|あい}まって",
@@ -337,7 +337,7 @@ N2.register({
           "examples": [
             {
               "ja": "主役の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。",
-              "en": "The lead actor's performance, combined with the skillful plot development, made this drama popular, and it took the top ratings."
+              "en": "The lead actor's performance, combined with the skillfully developed plot, won the drama great popularity, and it took the top ratings."
             },
             {
               "ja": "この絵は、リアルな{描写|びょうしゃ}に{幻想的|げんそうてき}な世界観が{相|あい}まって、忘れがたい印象を与える。",
@@ -372,7 +372,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にかたくない」は「すぐに〜できる／十分〜できる」という意味を表す。",
-            "en": "“〜にかたくない” means “one can readily 〜 / one can fully 〜.”"
+            "en": "“〜にかたくない” means “one can readily 〜 / one can well 〜.”"
           },
           "forms": [
             "［[N]　[V-る]］ + にかたくない"
@@ -435,7 +435,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「許すまじき」と言うこともある。",
-              "en": "“許すまじき” (unforgivable) is also said."
+              "en": "“許すまじき” (that must not be forgiven) is also used."
             }
           ],
           "examples": [
@@ -445,15 +445,15 @@ N2.register({
             },
             {
               "ja": "{初日|しょにち}から遅刻するとは{新入|しんにゅう}社員にあるまじき{態度|たいど}だ。",
-              "en": "Being late on the very first day is an attitude unacceptable in a new employee."
+              "en": "Being late on your very first day is an attitude no new employee should ever show."
             },
             {
               "ja": "「{想定外|そうていがい}のことで対応できなかった」など、責任者にあるまじき{発言|はつげん}ではないだろうか。",
-              "en": "Isn't a remark like “We couldn't respond because it was unforeseen” unacceptable from the person in charge?"
+              "en": "Isn't a remark like “We couldn't respond because it was unforeseen” one that the person in charge should never make?"
             },
             {
               "ja": "お年寄りからお金をだまし取るなんて、人として許すまじきことだ。",
-              "en": "Swindling money out of elderly people is unforgivable for any human being."
+              "en": "Cheating elderly people out of their money is something unforgivable for any human being."
             }
           ],
           "deepDive": "**まじき** is the attributive form of the classical auxiliary **まじ**, the negative counterpart of べし. **V-る + まじき + N** = *an N that one should not / must not ~*. **あるまじき** (ある + まじき) = *that should not exist / unthinkable*. So **N₁としてあるまじき N₂** = *an N₂ unworthy of / unacceptable for an N₁*: 船長としてあるまじき行為 *conduct unworthy of a captain*.\n\nForms:\n- **N₁としてあるまじき N₂** / **N₁にあるまじき N₂**: 教師にあるまじき発言, 人としてあるまじき行為, 書としてあるまじきもの.\n- It always modifies a noun — typically 行為, 態度, 発言, 行動, こと, もの.\n- Other verbs are possible in fixed phrases: **許すまじき** *unforgivable*, 言うまじき *that should not be said*.\n\nNuance: it is a **strong moral condemnation** based on someone's role or status (a teacher, politician, doctor, captain, adult, human being). The speaker is indignant: *someone in that position must never do such a thing*.\n\nRegister: formal and literary; typical in editorials, news commentary and official criticism.\n\nCompare:\n- **〜にふさわしくない**: *not suitable for* — neutral, much weaker.\n- **〜べきではない**: *should not* — about actions, not a noun-modifier of a role.\n- **N₁たるN₂** (#70): *an N₂ worthy of the name N₁* — the positive counterpart (教師たる者…).\n- **〜まじ / まじき** vs **〜まい**: まい is the modern negative volitional/conjecture (行くまい); まじき survives only in these fixed expressions.\n\nJLPT tip: 教師（　）ことだ → にあるまじき. Also watch for ならではの (#3), which is the praising opposite.",
@@ -481,7 +481,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ずにはすまない」は「現状や常識から考えて、〜という望ましくない{事態|じたい}になる」という予想や、「〜しなければならない{事態|じたい}だ」ということを表す。",
-            "en": "“〜ずにはすまない” expresses the prediction that “judging from the current situation or common sense, an undesirable situation, 〜, will come about,” or that “the situation is one in which 〜 must be done.”"
+            "en": "“〜ずにはすまない” expresses the prediction that “judging from the present situation or common sense, the undesirable outcome 〜 will come about,” or that “the situation is one in which 〜 has to be done.”"
           },
           "forms": [
             "[V-~~ない~~] + ずにはすまない",
@@ -496,26 +496,26 @@ N2.register({
           "examples": [
             {
               "ja": "会社の金を{横領|おうりょう}したのだから、彼は首にならずにはすまないはずだ。",
-              "en": "Since he embezzled company money, he surely won't get away without being fired."
+              "en": "Since he embezzled company money, he surely can't avoid being fired."
             },
             {
               "ja": "このまま森林{伐採|ばっさい}を続けていたら、自然{災害|さいがい}を引き起こさずにはすまないだろう。",
-              "en": "If deforestation continues like this, it is bound to cause natural disasters."
+              "en": "If deforestation continues like this, it cannot fail to cause natural disasters."
             },
             {
               "ja": "{欠陥品|けっかんひん}を売ったのだから消費者に非難されないではすまないでしょう。",
-              "en": "Since they sold defective goods, they can hardly escape criticism from consumers."
+              "en": "Since they sold defective goods, they probably won't escape being criticized by consumers."
             },
             {
               "ja": "{高齢者福祉|こうれいしゃふくし}の問題は私たち国民にとって知らないではすまない重要な問題です。",
-              "en": "Welfare for the elderly is an important issue that we citizens cannot afford to be ignorant of."
+              "en": "Welfare for the elderly is an important issue that we citizens cannot get away with knowing nothing about."
             },
             {
               "ja": "事故を起こしてしまった以上、{公|おおやけ}の{場|ば}で{謝罪|しゃざい}せずにはすまない。",
-              "en": "Now that they have caused an accident, they will have to apologize publicly."
+              "en": "Now that they have caused an accident, they cannot avoid apologizing in public."
             }
           ],
-          "deepDive": "**すむ（済む）** means *to be settled / to get by*. **〜ずにはすまない** = literally *it won't be settled without ~ing*: **~ is unavoidable / one will inevitably have to ~**. The judgment is based on the situation, common sense or social obligation, not on the speaker's feelings.\n\nTwo uses, as the book says:\n- **Prediction of an undesirable outcome**: 首にならずにはすまない *he's bound to be fired*; 批判されずにはすまなかった *it could not escape criticism*; 自然災害を引き起こさずにはすまない.\n- **Unavoidable obligation**: 謝罪せずにはすまない *they'll have no choice but to apologize*; 知らないではすまない *you can't get away with not knowing*.\n\nConnection: V-ない stem + **ずにはすまない**, or V-ない + **ないではすまない** (slightly more colloquial). する → **せずにはすまない**. Formal variants: **〜ずにはすまされない**, **〜ないではすまされない**.\n\nCompare carefully with its lookalike **〜ずにはおかない / 〜ないではおかない** (#32):\n- ずにはおかない focuses on a **force or will that will make something happen**: この映画は観客を感動させずにはおかない *this film is sure to move its audience* (the film's power); 必ず犯人を逮捕せずにはおかない *I'll definitely arrest the culprit*.\n- ずにはすまない focuses on **the situation not being resolved otherwise**: the subject is forced by circumstances.\n- Also compare **〜ずにはいられない** *can't help ~ing* (an emotional impulse): 笑わずにはいられない.\n\nRelated everyday expressions: **〜なければならない**, **〜ざるを得ない**, and the negative-meaning idiom **〜ではすまない** (*won't end with ~*): 謝ってすむ問題ではない.\n\nJLPT tip: 問題1 often puts おかない / いられない / すまない side by side. If the context is a consequence imposed by the situation (追及されずには…), choose すまない.",
+          "deepDive": "**すむ（済む）** means *to be settled / to get by*. **〜ずにはすまない** = literally *it won't be settled without ~ing*: **~ is unavoidable / one will inevitably have to ~**. The judgment is based on the situation, common sense or social obligation, not on the speaker's feelings.\n\nTwo uses, as the book says:\n- **Prediction of an undesirable outcome**: 首にならずにはすまない *he's bound to be fired*; 批判されずにはすまなかった *it could not escape criticism*; 自然災害を引き起こさずにはすまない.\n- **Unavoidable obligation**: 謝罪せずにはすまない *they'll have no choice but to apologize*; 知らないではすまない *you can't get away with not knowing*.\n\nConnection: V-ない stem + **ずにはすまない**, or V-ない + **ないではすまない** (slightly more colloquial). する → **せずにはすまない**. Formal variants: **〜ずにはすまされない**, **〜ないではすまされない**.\n\nCompare carefully with its lookalike **〜ずにはおかない / 〜ないではおかない** (#32):\n- ずにはおかない focuses on a **force or will that will make something happen**: この映画は観客を感動させずにはおかない *this film is sure to move its audience* (the film's power); 必ず犯人を逮捕せずにはおかない *I'll definitely arrest the culprit*.\n- ずにはすまない focuses on **the situation not being resolved otherwise**: the subject is forced by circumstances.\n- Also compare **〜ずにはいられない** *can't help ~ing* (an emotional impulse): 笑わずにはいられない.\n\nRelated expressions: **〜なければならない**, **〜ざるを得ない**, and **〜てすむ / 〜ではすまない** (*~ is enough to settle it / ~ won't settle it*): 謝ってすむ問題ではない, 冗談ではすまない. Don't confuse it with **〜ずにすむ** *to get by without having to ~* (the opposite outcome): 謝らずにすんだ *I got away without apologizing*. In speech and casual writing the は is sometimes dropped (嘘をつかずにすまない in the reading passage).\n\nJLPT tip: 問題1 often puts おかない / いられない / すまない side by side. If the context is a consequence imposed by the situation (追及されずには…), choose すまない.",
           "see": [
             32
           ],
@@ -538,7 +538,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜でなくてなんだろう」は「本当に〜である」と強く言いたい気持ちを表す。",
-            "en": "“〜でなくてなんだろう” expresses a strong wish to say “this really is 〜.”"
+            "en": "“〜でなくてなんだろう” expresses the feeling of wanting to say forcefully “this truly is 〜.”"
           },
           "forms": [
             "[N] + でなくてなんだろう",
@@ -561,7 +561,7 @@ N2.register({
             },
             {
               "ja": "{戦火|せんか}の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、これが{運命|うんめい}でなくてなんであろう。",
-              "en": "To meet again, years later, a foreign woman he had met amid the flames of war — what could this be if not destiny?"
+              "en": "Meeting again, years later, the foreign woman he had met in the midst of war — what could this be, if not fate?"
             },
             {
               "ja": "たとえ{弾圧|だんあつ}されようとも、{真実|しんじつ}を{報道|ほうどう}する。それがジャーナリストの{正義|せいぎ}でなくてなんであろうか。",
@@ -606,11 +606,11 @@ N2.register({
             },
             {
               "ja": "アルバイトとはいえ、面接中にメールを確認するとは非常識{極|きわ}まる。",
-              "en": "It may only be a part-time job, but checking your email during the interview is extremely thoughtless."
+              "en": "It may only be a part-time job, but checking your email during the interview shows an utter lack of common sense."
             },
             {
               "ja": "「人間とは何か」などという{難解|なんかい}{極|きわ}まる問いかけに、一体何と答えればいいのだろう。",
-              "en": "How on earth should I answer an extremely difficult question like “What is a human being?”"
+              "en": "How on earth am I supposed to answer an extremely difficult question like “What is a human being?”"
             }
           ],
           "plus": [
@@ -638,7 +638,7 @@ N2.register({
                 },
                 {
                   "ja": "力{及|およ}ばず、今回の{選挙戦|せんきょせん}でこのような結果になりましたことは、{誠|まこと}に{痛恨|つうこん}の{極|きわ}みでございます。",
-                  "en": "That, for lack of strength, this election campaign has ended with such a result is truly a matter of the deepest regret."
+                  "en": "That, through our lack of strength, this election campaign has ended in such a result is truly a matter of the deepest regret."
                 },
                 {
                   "ja": "毎日、取れたての{新鮮|しんせん}な野菜や魚で作った料理が食べられるなんて{贅沢|ぜいたく}の{極|きわ}みだ。",
@@ -678,7 +678,7 @@ N2.register({
                 {
                   "q": "決勝戦は＿＿{極|きわ}まる結果に終わった。",
                   "answer": "{不本意|ふほんい}",
-                  "en": "The final ended in a result that was utterly disappointing (not at all what we had wanted)."
+                  "en": "The final ended in a result that was utterly contrary to what we had wanted."
                 },
                 {
                   "q": "十分な{装備|そうび}もせずに{冬山|ふゆやま}に登るなんて＿＿{極|きわ}まりない。",
@@ -709,7 +709,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜を禁じえない」は「自分の感情（〜）を{抑|おさ}えられないくらいに強く感じる」ことを表す。",
-            "en": "“〜を禁じえない” expresses “feeling (an emotion, 〜) so strongly that one cannot hold it back.”"
+            "en": "“〜を禁じえない” expresses “feeling one's emotion (〜) so strongly that one cannot hold it back.”"
           },
           "forms": [
             "[N] + を禁じえない"
@@ -735,7 +735,7 @@ N2.register({
             },
             {
               "ja": "{長年|ながねん}ご指導いただきました教授のご{退官|たいかん}にあたり、{一同|いちどう}、{惜別|せきべつ}の{念|ねん}を禁じえません。",
-              "en": "On the retirement of the professor who guided us for many years, all of us cannot help feeling the sorrow of parting."
+              "en": "On the retirement of the professor who guided us for so many years, none of us can hold back our sorrow at parting."
             }
           ],
           "deepDive": "**禁じる** *to forbid, to suppress* + **得ない（えない）** *cannot*. **N を禁じえない** = *cannot suppress N* → **cannot help feeling N**. The N is always a **feeling** (or its outward sign, like 涙): 驚き, 怒り, 憤り, 失望, 同情, 悲しみ, 疑問, 戸惑い, 感動, 惜別の念, 涙, 笑い.\n\nNuance: the emotion arises naturally and irresistibly from what the writer sees or learns; it is a reaction to an external situation, not a personal desire. Typical frame: **〜とは / 〜に（対して）、N を禁じえない**: 1億円もするとは、驚きを禁じえない.\n\nRegister: very formal and written — editorials, formal speeches, letters of condolence or farewell (惜別の念を禁じえません). The polite form is 禁じえません. In conversation you'd say 驚かずにはいられない or つい〜てしまう.\n\nCompare:\n- **〜ずにはいられない / 〜ないではいられない** (N2): *can't help ~ing*, the everyday equivalent, attached to verbs (驚かずにはいられない).\n- **〜てならない / 〜てたまらない**: *can't bear / feel extremely*, for continuous feelings, less formal.\n- **〜を余儀なくされる** (#9): *be forced to ~* — also 〜を + formal verb, but about actions forced by circumstances, not emotions.\n\nPitfalls:\n- Only feelings: ✗笑顔を禁じえない is odd; ✗行くことを禁じえない is wrong.\n- It's usually about the speaker's own feelings; for a third person add 〜ようだ / 〜らしい.\n\nJLPT tip: 感動 / 驚き / 同情 + を + blank → 禁じえない. In ordering questions, the chunk 〜に + 感動 + を禁じえない is common.",
@@ -783,12 +783,12 @@ N2.register({
             },
             {
               "ja": "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を{担|にな}うにたる{素晴|すば}らしい{人材|じんざい}だと信じている。",
-              "en": "I believe that you, chosen from among 2,000 people, are wonderful people fully capable of shouldering our company's future."
+              "en": "I believe that you, chosen from among 2,000 applicants, are splendid people fully worthy of shouldering our company's future."
             }
           ],
-          "deepDive": "**たる（足る）** is the classical/literary form of **足りる** *to be sufficient*. **V-る / N + にたる + N** = *worthy of ~, sufficient to ~, deserving ~*: 芸術と呼ぶにたる作品 *a work worthy of being called art*, 信頼にたる医師 *a trustworthy doctor*.\n\nConnection:\n- **V-る + にたる**: 読むにたる, 推薦するにたる, 担うにたる, 証明するにたる.\n- **N (a verbal noun of evaluation) + にたる**: 信頼にたる, 尊敬にたる, 満足にたる, 注目にたる.\n- It normally **modifies a noun**. The negative is **〜にたりない / 〜にたらない** *not worth ~, trivial*: 取るにたりない問題 *a trivial matter*, 恐れるにたりない *nothing to fear*.\n\nNuance: an evaluation that something **meets the standard** for a certain treatment (trust, respect, recommendation, being called art). Often used with a negative verb in the sentence to say that *nothing* deserved it: 読むにたる作品がなかった; 学会で発表するにたる成果が出なかった.\n\nRegister: formal, written. Everyday equivalents: 〜に値する (also formal, very close), 〜だけの価値がある, 〜ていい.\n\nCompare:\n- **〜に値する（あたいする）**: *worth ~* — nearly synonymous and slightly more common in modern writing (一読に値する).\n- **N₁たるN₂** (#70): *an N₂ who is an N₁ (and should act accordingly)* — the たる there is from classical 断定 たり, a different word, and it attaches to N without に.\n- **〜にたえる / 〜にたえない** (#69): *worth ~ / unbearable to ~*.\n\nJLPT tip: distinguish にたる (N/V-る + にたる, *worthy*) from たる (N₁たるN₂). If に comes before the blank's たる, it's this point.",
+          "deepDive": "**たる（足る）** is the classical/literary form of **足りる** *to be sufficient*. **V-る / N + にたる + N** = *worthy of ~, sufficient to ~, deserving ~*: 芸術と呼ぶにたる作品 *a work worthy of being called art*, 信頼にたる医師 *a trustworthy doctor*.\n\nConnection:\n- **V-る + にたる**: 読むにたる, 推薦するにたる, 担うにたる, 証明するにたる.\n- **N (a verbal noun of evaluation) + にたる**: 信頼にたる, 尊敬にたる, 満足にたる, 注目にたる.\n- It normally **modifies a noun**. The negative is **〜にたりない / 〜にたらない** *not worth ~, trivial*: 取るにたりない問題 *a trivial matter*, 恐れるにたりない *nothing to fear*.\n\nNuance: an evaluation that something **meets the standard** for a certain treatment (trust, respect, recommendation, being called art). Often used with a negative verb in the sentence to say that *nothing* deserved it: 読むにたる作品がなかった; 学会で発表するにたる成果が出なかった.\n\nRegister: formal, written. In plainer language: 〜だけの価値がある, 〜できるほどの.\n\nCompare:\n- **〜に値する（あたいする）**: *worth ~* — nearly synonymous and slightly more common in modern writing (一読に値する).\n- **N₁たるN₂** (#70): *an N₂ who is an N₁ (and should act accordingly)* — the たる there is from classical 断定 たり, a different word, and it attaches to N without に.\n- **〜にたえる** (*able to stand up to ~, worth ~*: 鑑賞にたえる作品) and its negative **見るにたえない / 聞くにたえない** (#56) *too awful to watch / listen to*.\n\nJLPT tip: distinguish にたる (N/V-る + にたる, *worthy of*) from たる (N₁たるN₂, *who is an N₁*). If the たる is preceded by に, it is this point.",
           "see": [
-            69,
+            56,
             70
           ],
           "index": [
@@ -831,7 +831,7 @@ N2.register({
                 {
                   "q": "彼はこのプロジェクトを＿＿にたる能力の持ち{主|ぬし}として、{推薦|すいせん}します。",
                   "answer": "{任|まか}せる",
-                  "en": "I recommend him as someone with the ability to be entrusted with this project."
+                  "en": "I recommend him as someone with ability enough to be entrusted with this project."
                 }
               ]
             }
@@ -865,14 +865,14 @@ N2.register({
             },
             {
               "ja": "これ以上の{待遇|たいぐう}は望むべくもないのに、なぜ{転職|てんしょく}など考えるのだろう。",
-              "en": "You couldn't possibly hope for better treatment than this, so why would you think of changing jobs?"
+              "en": "Better treatment than this is more than anyone could hope for, so why would you think of changing jobs?"
             },
             {
               "ja": "当時母がどんな気持ちだったのか、子どもの私には知るべくもないことだった。",
               "en": "What my mother was feeling at the time was something that I, as a child, had no way of knowing."
             }
           ],
-          "deepDive": "**べく** is the continuative form of classical **べし** (*can / should*). **V-る + べくもない** = *there is no way to ~, ~ is out of the question*. It says that, **given the situation, the action is impossible or unthinkable**.\n\nIt is essentially a set of fixed collocations:\n- **疑うべくもない** *beyond doubt* (the most common): 〜ことは疑うべくもない.\n- **望むべくもない** *one can't hope for (it's unattainable)*: これ以上の待遇は望むべくもない.\n- **知るべくもない** *there's no way of knowing*.\n- **比べるべくもない** *there's no comparison* (one is far superior): 両者の実力は比べるべくもない.\n- Also 言うべくもない, 避けるべくもない in literary style.\n\nConnection: V-る; する → **すべくもない / するべくもない**.\n\nRegister: formal and literary — editorials, essays, novels.\n\nCompare:\n- **〜ようがない** (N2): *there's no way to ~*, the neutral everyday equivalent (知りようがない).\n- **〜までもない** (#41): *there's no need to ~* (because it's obvious) — 言うまでもない ≠ 言うべくもない.\n- **〜べく** (#90): *in order to ~* — same root, different meaning.\n- **〜べからず** (#111): *must not ~*.\n\nPitfall: 疑うべくもない doesn't mean *you shouldn't doubt it* (a prohibition) but *it cannot be doubted* (an impossibility). Similarly 望むべくもない is not *you shouldn't wish* but *it's hopeless to wish*.\n\nJLPT tip: 比べる + blank + 中古の軽自動車 → べくもない (*no comparison*). Remember the four verbs in the book's ＊ note.",
+          "deepDive": "**べく** is the continuative form of classical **べし** (*can / should*). **V-る + べくもない** = *there is no way to ~, ~ is out of the question*. It says that, **given the situation, the action is impossible or unthinkable**.\n\nIt is essentially a set of fixed collocations:\n- **疑うべくもない** *beyond doubt* (the most common): 〜ことは疑うべくもない.\n- **望むべくもない** *one can't hope for (it's unattainable)*: これ以上の待遇は望むべくもない.\n- **知るべくもない** *there's no way of knowing*.\n- **比べるべくもない** *there's no comparison* (one is far superior): 両者の実力は比べるべくもない.\n\nConnection: V-る; する → **すべくもない / するべくもない**.\n\nRegister: formal and literary — editorials, essays, novels.\n\nCompare:\n- **〜ようがない** (N2): *there's no way to ~*, the neutral everyday equivalent (知りようがない).\n- **〜までもない** (#41): *there's no need to ~* (because it's obvious) — 言うまでもない ≠ 言うべくもない.\n- **〜べく** (#90): *in order to ~* — same root, different meaning.\n- **〜べからず** (#111): *must not ~*.\n\nPitfall: 疑うべくもない doesn't mean *you shouldn't doubt it* (a prohibition) but *it cannot be doubted* (an impossibility). Similarly 望むべくもない is not *you shouldn't wish* but *it's hopeless to wish*.\n\nJLPT tip: 比べる + blank + 中古の軽自動車 → べくもない (*no comparison*). Remember the four verbs in the book's ＊ note.",
           "see": [
             41,
             90,
@@ -899,7 +899,7 @@ N2.register({
             "en": "“〜なくして（は）…ない” is used when you want to say “if you are going to do something, 〜 is absolutely necessary.”"
           },
           "forms": [
-            "［[N]　[V-る] こと］ + なくして（は） + …ない"
+            "［[N]　[V-る] ＋ こと］ + なくして（は） + …ない"
           ],
           "examples": [
             {
@@ -908,11 +908,11 @@ N2.register({
             },
             {
               "ja": "この酒は{良質|りょうしつ}の米と{名水|めいすい}なくしては生まれなかった。",
-              "en": "This sake could not have been born without high-quality rice and excellent water."
+              "en": "This sake could never have been made without fine rice and famous spring water."
             },
             {
               "ja": "{他者|たしゃ}を思いやることなくして、暮らしやすい社会は作れないはずだ。",
-              "en": "Without being considerate of others, we surely cannot build a society that is easy to live in."
+              "en": "Without consideration for others, we surely cannot build a society that is pleasant to live in."
             },
             {
               "ja": "「{耐|た}えることなくして{勝利|しょうり}はない」という彼の言葉が好きだ。",
@@ -948,8 +948,10 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**なくして** is the literary te-form of ない (*without*). **A なくして（は）B ない** = *without A, B is impossible* → **A is indispensable for B**. 固定観念からの解放なくして芸術は生まれない = *without liberation from fixed ideas, art cannot be born*.\n\nConnection:\n- **N + なくして(は)**: 努力なくして, 許可なくして, 同意なくして, 愛なくして.\n- **V-る + こと + なくして(は)**: 思いやることなくして, 耐えることなくして, リスクを負うことなくして.\n- The second half is **always negative or implies impossibility**: 〜ない, 〜できない, 〜得ない, 〜なし (努力なくして成功なし is a proverb-like set phrase).\n- は after なくして adds emphasis (なくしては).\n\nPlus (the book's box): **V-る + ことなく / ことなしに** is used the same way: 同意を得ることなく…できない, 責任を取ることなしに…できない, 承認を得ることなしには行えない. Note that ことなく also has a neutral meaning *without ~ing* that doesn't require a negative ending (休むことなく働いた *worked without resting*, N2); in the Plus box it pairs with a negative or impossible result, exactly like なくして.\n\nRegister: formal, written; common in speeches, editorials, slogans and maxims.\n\nCompare:\n- **〜なしに(は) / 〜なしでは**: the plainer version (許可なしには入れない).\n- **〜抜きには / 〜を抜きにしては**: *leaving ~ out*, more conversational (彼の協力を抜きにしては成功しなかった).\n- **〜てこそ**: *only by ~ing* — the positive way to state the same necessity (努力してこそ成功する).\n- **〜ないことには〜ない** (N2): *unless ~, (can't) ~*.\n\nJLPT tip: 支援なくしては、この映画は（　）ことでしょう → the answer must be a negative outcome (完成しなかった). If an option is positive, it can't follow なくして.",
-          "see": [],
+          "deepDive": "**なくして** is the literary te-form of ない (*without*). **A なくして（は）B ない** = *without A, B is impossible* → **A is indispensable for B**. 固定観念からの解放なくして芸術は生まれない = *without liberation from fixed ideas, art cannot be born*.\n\nConnection:\n- **N + なくして(は)**: 努力なくして, 許可なくして, 同意なくして, 愛なくして.\n- **V-る + こと + なくして(は)**: 思いやることなくして, 耐えることなくして, リスクを負うことなくして.\n- The second half is **always negative or implies impossibility**: 〜ない, 〜できない, 〜得ない, 〜なし (努力なくして成功なし is a proverb-like set phrase).\n- は after なくして adds emphasis (なくしては).\n\nPlus (the book's box): **V-る + ことなく / ことなしに** is used the same way: 同意を得ることなく…できない, 責任を取ることなしに…できない, 承認を得ることなしには行えない. Note that ことなく also has a neutral meaning *without ~ing* that doesn't require a negative ending (休むことなく働いた *worked without resting*, N2); in the Plus box it pairs with a negative or impossible result, exactly like なくして.\n\nRegister: formal, written; common in speeches, editorials, slogans and maxims.\n\nCompare:\n- **〜なしに(は) / 〜なしでは**: the plainer version (許可なしには入れない).\n- **〜抜きには / 〜を抜きにしては**: *leaving ~ out*, more conversational (彼の協力を抜きにしては成功しなかった).\n- **〜てこそ**: *only by ~ing* — the positive way to state the same necessity (努力してこそ成功する).\n- **〜ないことには〜ない** (N2): *unless ~, (can't) ~*.\n- **N₁あってのN₂** (#14): *N₂ that exists only thanks to N₁* — the same dependency seen from the positive side (努力あっての成功).\n\nJLPT tip: 支援なくしては、この映画は（　）ことでしょう → the answer must be a negative outcome (完成しなかった). If an option is positive, it can't follow なくして.",
+          "see": [
+            14
+          ],
           "index": [
             "〜なくして（は）…ない",
             "Nなくして",
@@ -1319,12 +1321,12 @@ N2.register({
         "labels": "123",
         "prompt": {
           "ja": "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。",
-          "en": "Read the passage and choose the best answer to each question from 1, 2, 3 and 4. (In the book, 真実を包み隠さず伝える人物 in the second paragraph is underlined; question 1 refers to it.)"
+          "en": "Read the passage and choose the best answer to each question from 1, 2, 3 and 4."
         },
         "title": "",
         "text": [
           "「{嘘|うそ}をつくべからず」。これは当然のこととされている。{嘘|うそ}をついたことがわかれば社会的な信頼を失うことになる。{嘘|うそ}は人としてあるまじき{行為|こうい}だと言う人もいる。しかし、{矛盾|むじゅん}{極|きわ}まりないことだが、「これまで生きてきた中で一度も{嘘|うそ}をついたことがない」と言う人は信頼するにたる人物だろうか。",
-          "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が{絡|から}まり合う社会において、全く{嘘|うそ}をつくことなしに{円満|えんまん}な人間関係は{築|きず}けないのではないか。{誰|だれ}かの立場を思うがゆえに、{嘘|うそ}をつかずにすまない状況もあるはずだ。それでも{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物がいるとすれば、それは思いやりの気持ちを持たない冷たい人間か、その結果起こる{事態|じたい}を予想できない{愚|おろ}か{者|もの}ではないだろうか。"
+          "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が{絡|から}まり合う社会において、全く{嘘|うそ}をつくことなしに{円満|えんまん}な人間関係は{築|きず}けないのではないか。{誰|だれ}かの立場を思うがゆえに、{嘘|うそ}をつかずにすまない状況もあるはずだ。それでも__{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物__がいるとすれば、それは思いやりの気持ちを持たない冷たい人間か、その結果起こる{事態|じたい}を予想できない{愚|おろ}か{者|もの}ではないだろうか。"
         ],
         "en": [
           "“Thou shalt not lie.” This is taken for granted. If it comes out that you have lied, you lose the trust of society. Some people even say that lying is conduct unworthy of a human being. And yet — and this is utterly contradictory — is a person who says “I have never once told a lie in my whole life” really someone worthy of trust?",
@@ -1332,7 +1334,7 @@ N2.register({
         ],
         "items": [
           {
-            "q": "{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物に対して、筆者はどのように考えているか。",
+            "q": "__{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物__に対して、筆者はどのように考えているか。",
             "options": [
               "{配慮|はいりょ}に{欠|か}ける人",
               "{矛盾|むじゅん}を{抱|かか}えた人",

@@ -65,18 +65,18 @@ N2F({ ch: 10, review: [
     title: { ja: "問題3 〈読解〉", en: "Question 3: Reading comprehension" },
     ex: {
       type: "reading", labels: "123",
-      prompt: { ja: "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best answer to each question from 1, 2, 3 and 4. (In the book, 真実を包み隠さず伝える人物 in the second paragraph is underlined; question 1 refers to it.)" },
+      prompt: { ja: "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best answer to each question from 1, 2, 3 and 4." },
       title: "",
       text: [
         "「{嘘|うそ}をつくべからず」。これは当然のこととされている。{嘘|うそ}をついたことがわかれば社会的な信頼を失うことになる。{嘘|うそ}は人としてあるまじき{行為|こうい}だと言う人もいる。しかし、{矛盾|むじゅん}{極|きわ}まりないことだが、「これまで生きてきた中で一度も{嘘|うそ}をついたことがない」と言う人は信頼するにたる人物だろうか。",
-        "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が{絡|から}まり合う社会において、全く{嘘|うそ}をつくことなしに{円満|えんまん}な人間関係は{築|きず}けないのではないか。{誰|だれ}かの立場を思うがゆえに、{嘘|うそ}をつかずにすまない状況もあるはずだ。それでも{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物がいるとすれば、それは思いやりの気持ちを持たない冷たい人間か、その結果起こる{事態|じたい}を予想できない{愚|おろ}か{者|もの}ではないだろうか。",
+        "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が{絡|から}まり合う社会において、全く{嘘|うそ}をつくことなしに{円満|えんまん}な人間関係は{築|きず}けないのではないか。{誰|だれ}かの立場を思うがゆえに、{嘘|うそ}をつかずにすまない状況もあるはずだ。それでも__{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物__がいるとすれば、それは思いやりの気持ちを持たない冷たい人間か、その結果起こる{事態|じたい}を予想できない{愚|おろ}か{者|もの}ではないだろうか。",
       ],
       en: [
         "“Thou shalt not lie.” This is taken for granted. If it comes out that you have lied, you lose the trust of society. Some people even say that lying is conduct unworthy of a human being. And yet — and this is utterly contradictory — is a person who says “I have never once told a lie in my whole life” really someone worthy of trust?",
         "In a society where people in all kinds of positions live together and their interests and intentions are entangled with one another, isn't it impossible to build harmonious human relationships without ever telling a lie? There must also be situations in which, precisely out of consideration for someone's position, one cannot avoid telling a lie. If, even so, there is a person who conveys the truth without concealing anything, isn't that person either a cold human being with no sense of consideration for others, or a fool who cannot foresee the situation that will result?",
       ],
       items: [
-        { q: "{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物に対して、筆者はどのように考えているか。",
+        { q: "__{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物__に対して、筆者はどのように考えているか。",
           options: ["{配慮|はいりょ}に{欠|か}ける人", "{矛盾|むじゅん}を{抱|かか}えた人", "信頼にたる人", "{円満|えんまん}{極|きわ}まる人"],
           answer: 0,
           en: "What does the writer think of a person who conveys the truth without concealing anything?",
