@@ -1096,7 +1096,7 @@ N2.register({
             {
               "q": "{初対面|しょたいめん}の人に借金を申し込むなんて、非常識＿＿。",
               "answer": "{極|きわ}まりない",
-              "en": "Asking someone you've just met for a loan is extremely thoughtless."
+              "en": "Asking someone you've only just met to lend you money shows an utter lack of common sense."
             },
             {
               "q": "危険につき、この橋渡る＿＿。",
@@ -1152,7 +1152,7 @@ N2.register({
             "answer": 0,
             "en": "If only that guy hadn't been around, my life would have turned out quite differently.",
             "why": {
-              "en": "N さえ〜なければ: *if only N weren't there*."
+              "en": "N さえ〜なければ = *if only N weren't there*: さえ with a negative condition singles out the one thing that spoiled everything. こそ, のみ and なり don't fit this conditional frame."
             }
           },
           {
@@ -1166,7 +1166,7 @@ N2.register({
             "answer": 1,
             "en": "In the field of design, precisely because originality is valued, there is a tendency to reject tradition as old-fashioned.",
             "why": {
-              "en": "がゆえに (#113) gives the reason: valuing originality leads to rejecting tradition."
+              "en": "がゆえに (#113) gives the reason: *precisely because* originality is valued, tradition is dismissed. とはいえ and どころか are contrastive, and おかげで implies a welcome result."
             }
           },
           {
@@ -1180,7 +1180,7 @@ N2.register({
             "answer": 2,
             "en": "Missing work because of a hangover is behavior unworthy of a teacher.",
             "why": {
-              "en": "N₁にあるまじきN₂ (#116): conduct unacceptable for someone in that role."
+              "en": "N₁にあるまじきN₂ (#116): conduct unacceptable for someone in that role (a teacher). ならではの is praise, なりの means *in one's own way*, and にかたくない needs a verb of guessing (想像など)."
             }
           },
           {
@@ -1194,7 +1194,7 @@ N2.register({
             "answer": 0,
             "en": "Without everyone's warm support, this film would probably never have been completed.",
             "why": {
-              "en": "〜なくしては (#123) must be followed by a negative or impossible outcome."
+              "en": "〜なくしては (#123) must be followed by a negative or impossible outcome: without the support, the film would not have been completed. The other options are all positive."
             }
           },
           {
@@ -1208,7 +1208,7 @@ N2.register({
             "answer": 2,
             "en": "It hardly needs explaining again that a balanced diet is the foundation of good health.",
             "why": {
-              "en": "V-るまでもない (#41): *there's no need to ~* because it is obvious."
+              "en": "V-るまでもない (#41): *there's no need to ~* because it is obvious. べからざる would need a following noun, and にすぎない / わけがない don't fit the sense."
             }
           },
           {
@@ -1236,7 +1236,7 @@ N2.register({
             "answer": 1,
             "en": "The beauty of the materials combined with the craftsman's skill to produce a splendid piece of craftwork.",
             "why": {
-              "en": "AにBが相まって (#114): two elements combine to produce a greater result."
+              "en": "AにBが相まって (#114): two elements (the beauty of the materials and the craftsman's skill) combine to produce a splendid result."
             }
           }
         ]
@@ -1270,7 +1270,10 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "The critic Mr. Nakamura praised it, saying, “Every member of the audience will surely be unable to hold back their emotion at the great actor's wonderful performance.”"
+            "en": "The critic Mr. Nakamura praised it, saying, “Every member of the audience will surely be unable to hold back their emotion at the great actor's wonderful performance.”",
+            "why": {
+              "en": "名優の素晴らしい演技に感動を禁じえない (#120): 演技に names the cause, and 感動 is the feeling that を禁じえない takes."
+            }
           },
           {
             "before": "ノーベル賞の受賞通知を",
@@ -1288,7 +1291,10 @@ N2.register({
               3
             ],
             "star": 2,
-            "en": "It is easy to imagine how moved he was on receiving notice that he had won the Nobel Prize."
+            "en": "It is easy to imagine how moved he was on receiving notice that he had won the Nobel Prize.",
+            "why": {
+              "en": "受けた modifies 彼, and 彼の感激は is the topic of 想像にかたくない (#115)."
+            }
           },
           {
             "before": "限られた予算でできることはし{尽|つ}くしたが、すべての",
@@ -1306,7 +1312,10 @@ N2.register({
               2
             ],
             "star": 2,
-            "en": "We did everything we could with the limited budget, but we could not provide a service good enough to satisfy every customer."
+            "en": "We did everything we could with the limited budget, but we could not provide a service good enough to satisfy every customer.",
+            "why": {
+              "en": "すべての顧客を満足させる + にたる (#121) + サービス: *a service worthy of / sufficient to satisfy every customer*; は marks the contrasted topic before できなかった."
+            }
           }
         ]
       }
@@ -1358,7 +1367,7 @@ N2.register({
             "answer": 2,
             "en": "What does the writer most want to say?",
             "why": {
-              "en": "The writer argues that some lies are told out of consideration for others (誰かの立場を思うがゆえに) and are unavoidable, so such people should not be condemned."
+              "en": "The writer argues that some lies are unavoidable because they are told out of consideration for others (誰かの立場を思うがゆえに), and that it is rather the person who never lies who lacks consideration — so people who lie out of consideration should not be condemned."
             }
           }
         ]
@@ -1433,19 +1442,19 @@ N2.register({
             ],
             "en": [
               "A writer is answering questions in a radio interview.",
-              "To get right to it, I'd like to ask you various things about your latest book, “Be Anxious Correctly”...",
+              "To get straight to it, I'd like to ask you a number of things about your latest book, “Worry the Right Way”...",
               "Sure.",
-              "First, this title, “Be Anxious Correctly”...",
-              "In a word, it means “Do not leave things to others and feel reassured.”",
-              "Leave things to others...?",
+              "First of all, this title, “Worry the Right Way”...",
+              "In a word, it means “Thou shalt not leave it to others and rest easy.”",
+              "Leave it to others...?",
               "In the information society, there's quite a lot of information that has been conveniently manipulated. So actually getting hold of correct information is difficult.",
               "I see...",
-              "Those who receive information have a responsibility too. Feeling reassured simply on the strength of the information you are given is extremely dangerous.",
+              "Those who receive information have a responsibility too. To rest easy simply on the strength of the information you are given is extremely dangerous.",
               "That's certainly true.",
-              "We should manipulate it to reassure people.",
+              "We should manipulate it to put people at ease.",
               "We should send it out responsibly.",
               "We shouldn't believe it too easily.",
-              "We shouldn't simply feel anxious."
+              "We shouldn't just worry blindly."
             ],
             "options": [
               "{操作|そうさ}して安心させるべきだ",

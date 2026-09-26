@@ -641,7 +641,7 @@ N2F({
         { q: "建てたばかりの家が{洪水|こうずい}で流されてしまったときの彼のショックは想像＿＿。", answer: "にかたくない", en: "It is easy to imagine his shock when the house he had just built was washed away by the flood." },
         { q: "会社のために今まで{頑張|がんば}ってきたのに、リストラなんて、{裏切|うらぎ}り＿＿。", answer: "でなくてなんだろう", en: "I've worked hard for the company all this time, and now they're laying me off — if that isn't betrayal, what is?" },
         { q: "せっかくの海外旅行で財布を盗まれたとは、{同情|どうじょう}を＿＿。", answer: "禁じえない", en: "I can't help feeling sorry for you, having your wallet stolen on your long-awaited trip abroad." },
-        { q: "{初対面|しょたいめん}の人に借金を申し込むなんて、非常識＿＿。", answer: "{極|きわ}まりない", en: "Asking someone you've just met for a loan is extremely thoughtless." },
+        { q: "{初対面|しょたいめん}の人に借金を申し込むなんて、非常識＿＿。", answer: "{極|きわ}まりない", en: "Asking someone you've only just met to lend you money shows an utter lack of common sense." },
         { q: "危険につき、この橋渡る＿＿。", answer: "べからず", en: "Danger. Do not cross this bridge." },
         { q: "住宅{密集地|みっしゅうち}で{火災|かさい}が起こったら、大きな被害を出さ＿＿。", answer: "ずにはすまない", en: "If a fire breaks out in a densely built-up residential area, it is bound to cause great damage." },
       ],
