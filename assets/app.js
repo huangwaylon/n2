@@ -167,6 +167,7 @@
           return;
         }
         if (vert ? Math.abs((q.left + q.right) / 2 - (B.left + B.right) / 2) > fs * 0.6 : Math.abs(q.bottom - B.bottom) > fs * 0.6) return first(); // other line
+        if (Math.abs(dir < 0 ? s0(B) - s1(q) : s0(q) - s1(B)) > fs) return first(); // not adjacent (wrapped, or a float between)
         const actual = dir < 0 ? s1(q) - s0(T) : s1(T) - s0(q);
         const d = actual - want[k];
         if (Math.abs(d) > 0.5) out[k] += d;
@@ -177,6 +178,9 @@
       const m = plan[i];
       r.dataset.fit = 1;
       if (!m) return;
+      // a margin only ever absorbs part of the excess (or keeps two readings apart): anything beyond is a bad measurement
+      const fs = parseFloat(getComputedStyle(r).fontSize), e = +r.dataset.e * fs;
+      m[0] = Math.max(-RT_K * fs, Math.min(e, m[0])); m[1] = Math.max(-RT_K * fs, Math.min(e, m[1]));
       r.style.marginInlineStart = `${Math.round(m[0] * 10) / 10}px`;
       r.style.marginInlineEnd = `${Math.round(m[1] * 10) / 10}px`;
     });
