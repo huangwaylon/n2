@@ -95,7 +95,7 @@ N2F({ ch: 9, review: [
           ],
           en: [
             "On television, a scientist is talking about energy problems.",
-            "Securing energy is an important issue that bears on our future. In an age when energy to replace oil is being sought, the development of new energy sources is urgent.\nIn Japan too, following Europe's example, solar power and wind power have been introduced, but in Japan, where both the climate and the terrain are different, there are limits.\nAs for an energy source suited to Japan, what I am paying the most attention to now is methane hydrate. It is called “burning ice,” and there is as much of it as roughly 96 years' worth of the natural gas used in Japan. We would be foolish not to make use of it.",
+            "Securing energy is an important issue that bears on our future. In an age when energy to replace oil is being sought, the development of new energy sources is urgent.\nIn Japan too, following Europe's example, solar power and wind power have been introduced, but in Japan, where both the climate and the terrain are different, there are limits.\nAs for an energy source suited to Japan, what I am paying the most attention to now is methane hydrate. It is called “burning ice,” and there is enough of it to cover as much as roughly 96 years of the natural gas used in Japan. We would be foolish not to make use of it.",
             "“Burning ice,” huh... Sounds good. If it works out, we won't need oil, will we?",
             "Hmm. But that's only if it works out, right? I wonder how it would actually turn out.",
             "Oh, come on. Still, I think it's worth trying.",
