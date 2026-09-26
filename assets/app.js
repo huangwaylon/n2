@@ -80,19 +80,109 @@
     const j = neighbourAt(str, i + dir, dir);
     return j >= 0 && str[j] === (dir > 0 ? "{" : "}") ? 0.75 * RT_K : RT_K;
   }
+  // fmt() records the excess e (em) and the room on each side (data-e / data-ol / data-or) and sets a first-guess margin;
+  // fitRubies() then measures the real overhang (the engines differ: WebKit skips a kana that touches another reading,
+  // Blink doesn't) and corrects the margins.
   function rubyHtml(m, base, rd, off, str) {
     const e = cw(rd) * RT_K - cw(base);
-    let st = "";
-    // WebKit and Blink already let a reading overhang both neighbours by up to half a furigana character (.25em);
-    // the margin adds the rest
-    if (e > 0.5 && typeof str === "string") {
-      const r2 = (x) => Math.round(x * 100) / 100;
-      const side = (i, dir) => r2(Math.max(0, Math.min(e / 2, overhangRoom(str, i, dir)) - RT_K / 2));
-      const l = side(neighbourAt(str, off - 1, -1), -1), r = side(neighbourAt(str, off + m.length, 1), 1);
-      if (l || r) st = ` style="margin-inline:${-l}em ${-r}em"`;
-    }
-    return `<ruby${st}>${base}<rt>${rd}</rt></ruby>`;
+    if (!(e > 0.01) || typeof str !== "string") return `<ruby>${base}<rt>${rd}</rt></ruby>`;
+    const r2 = (x) => Math.round(x * 100) / 100;
+    const iL = neighbourAt(str, off - 1, -1), iR = neighbourAt(str, off + m.length, 1);
+    const ol = overhangRoom(str, iL, -1), or = overhangRoom(str, iR, 1);
+    const data = `data-e="${r2(e)}" data-ol="${ol}" data-or="${or}"`;
+    // right after another reading ("ご{観覧}{誠}に"): a centred reading would leave a gap on that side, so it starts at the
+    // base and overhangs the kana on the right instead (ruby-align: start)
+    if (iL >= 0 && str[iL] === "}" && or > 0) return `<ruby class="r-s" ${data}>${base}<rt>${rd}</rt></ruby>`;
+    // WebKit and Blink usually let a centred reading overhang both neighbours by half a furigana character (.25em)
+    const side = (room) => r2(Math.max(0, Math.min(e / 2, room) - RT_K / 2));
+    const l = side(ol), r = side(or);
+    return `<ruby ${data}${l || r ? ` style="margin-inline:${-l}em ${-r}em"` : ""}>${base}<rt>${rd}</rt></ruby>`;
   }
+  // measure-and-correct pass for readings wider than their base (see rubyHtml). For each side: the target overhang is
+  // min(e/2, room) (start-aligned .r-s: 0 on the left, min(e, room) on the right); the actual one is measured against the
+  // neighbouring glyph on the same line (or the neighbouring reading, which must never be overlapped), and the margin on
+  // that side absorbs the difference. Rubies without layout (hidden) keep fmt()'s first guess until they are shown.
+  // inline wrappers only: a grid / flex item or inline-block (option label, badge, blank) is a different box, not a neighbour
+  const isInline = (el) => el.nodeType === 1 && el.tagName !== "RUBY" && getComputedStyle(el).display === "inline";
+  function sideNeighbour(r, dir) {
+    // previous / next glyph run in the same line box: a text node or another ruby, crossing inline wrappers
+    let n = r, depth = 0;
+    for (;;) {
+      let sib = dir < 0 ? n.previousSibling : n.nextSibling;
+      while (sib && sib.nodeType === 3 && !sib.nodeValue.trim()) sib = dir < 0 ? sib.previousSibling : sib.nextSibling;
+      if (sib) {
+        // descend into inline wrappers
+        while (isInline(sib) && sib.lastChild) sib = dir < 0 ? sib.lastChild : sib.firstChild;
+        if (sib.nodeType === 3) return { text: sib };
+        if (sib.tagName === "RUBY") return { ruby: sib };
+        if (sib.tagName === "BR") return null;
+        return { el: sib };
+      }
+      n = n.parentNode;
+      if (!n || !isInline(n) || ++depth > 4) return null;
+    }
+  }
+  function neighbourRect(nb, dir) {
+    if (!nb) return null;
+    if (nb.text) {
+      const t = nb.text, g = document.createRange(), i = dir < 0 ? t.length - 1 : 0;
+      g.setStart(t, i); g.setEnd(t, i + 1);
+      const rs = g.getClientRects(); return rs.length ? rs[rs.length - 1] : null;
+    }
+    if (nb.ruby) { const rt = nb.ruby.querySelector("rt"); return rt ? { rt: rt.getBoundingClientRect(), box: nb.ruby.getBoundingClientRect() } : null; }
+    return null;
+  }
+  function fitRubies(root, all, depth = 0) {
+    if (!settings.furigana || !root) return;
+    // line-start alignment (below) depends on the line breaks: undo it before a full refit
+    if (all) $$("ruby[data-ls]", root).forEach((r) => { r.classList.remove("r-s"); delete r.dataset.ls; });
+    const rs = $$(all ? "ruby[data-e]" : "ruby[data-e]:not([data-fit])", root).filter((r) => r.getClientRects().length);
+    if (!rs.length) return;
+    const lineStart = [];
+    // correct from the current margins (fmt()'s guess or the last fit): resetting them first would move line breaks
+    const plan = rs.map((r) => {
+      const rt = r.querySelector("rt"), T = rt.getBoundingClientRect(), B = r.getBoundingClientRect();
+      if (!T.width) return null;
+      const cs = getComputedStyle(r), fs = parseFloat(cs.fontSize), vert = cs.writingMode.startsWith("vertical");
+      // inline axis start/end and the cross-axis centre of the base line
+      const s0 = (q) => (vert ? q.top : q.left), s1 = (q) => (vert ? q.bottom : q.right), cross = (q) => (vert ? (q.left + q.right) / 2 : (q.top + q.bottom) / 2);
+      const e = +r.dataset.e * fs, st = r.classList.contains("r-s");
+      const want = [st ? 0 : Math.min(e / 2, +r.dataset.ol * fs), Math.min(st ? e : e / 2, +r.dataset.or * fs)];
+      const out = vert ? [parseFloat(cs.marginTop) || 0, parseFloat(cs.marginBottom) || 0] : [parseFloat(cs.marginLeft) || 0, parseFloat(cs.marginRight) || 0];
+      [-1, 1].forEach((dir, k) => {
+        const q = neighbourRect(sideNeighbour(r, dir), dir);
+        // first on its line: a centred reading would leave an indent before the base, so start it at the base
+        // (as the book does) and let it overhang the kana on the right
+        const first = () => { if (dir < 0 && !st && !vert && +r.dataset.or > 0) lineStart.push(r); };
+        if (!q) return first();
+        if (q.rt) {
+          // another reading: never overlap it (gap ≥ 0)
+          if (Math.abs(cross(q.rt) - cross(T)) > fs * 0.4) return;
+          const ov = dir < 0 ? s1(q.rt) - s0(T) : s1(T) - s0(q.rt);
+          if (ov > 0.5) out[k] += ov;
+          return;
+        }
+        if (vert ? Math.abs((q.left + q.right) / 2 - (B.left + B.right) / 2) > fs * 0.6 : Math.abs(q.bottom - B.bottom) > fs * 0.6) return first(); // other line
+        const actual = dir < 0 ? s1(q) - s0(T) : s1(T) - s0(q);
+        const d = actual - want[k];
+        if (Math.abs(d) > 0.5) out[k] += d;
+      });
+      return out;
+    });
+    rs.forEach((r, i) => {
+      const m = plan[i];
+      r.dataset.fit = 1;
+      if (!m) return;
+      r.style.marginInlineStart = `${Math.round(m[0] * 10) / 10}px`;
+      r.style.marginInlineEnd = `${Math.round(m[1] * 10) / 10}px`;
+    });
+    if (lineStart.length && !depth) {
+      lineStart.forEach((r) => { r.classList.add("r-s"); r.dataset.ls = 1; r.style.marginInlineStart = "0px"; delete r.dataset.fit; });
+      fitRubies(root, false, 1);
+    }
+  }
+  let fitQueued = 0;
+  const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitRubies($("#main"), all); }); };
   // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
   // badge classes: colour hook b-n | b-i | b-na | b-pl | b-v, plus shape b-round (bare N/V/A) | b-pill (has "-") | b-sq (Pl/Po)
   function fmt(s, opts = {}) {
@@ -1231,6 +1321,7 @@
     const main = $("#main");
     if (main.dataset.view !== h || parts[0] === "drill") {
       main.innerHTML = html;
+      fitRubies(main, true);
       main.dataset.view = h;
       main.dataset.ch = activeCh || "";
     }
@@ -1314,15 +1405,19 @@
     const t = e.target.closest("[data-act]");
     if (!t) return;
     const f = ACT[t.dataset.act];
-    if (f) return f(t, e);
+    if (f) { const r = f(t, e); queueFit(); return r; }
   });
+  // readings that appear later (details opened, feedback shown, EN) are fitted when they get a layout; line breaks move on resize
+  document.addEventListener("toggle", () => queueFit(), true);
+  window.addEventListener("resize", () => { clearTimeout(queueFit.t); queueFit.t = setTimeout(() => queueFit(true), 150); });
+  if (document.fonts) document.fonts.ready.then(() => queueFit(true));
   document.addEventListener("change", (e) => {
     const t = e.target;
     if (t.dataset.act === "studied") {
       progress.studied[t.dataset.no] = t.checked;
       saveProgress();
       updateSidebarProgress();
-    } else if (t.id === "tg-furi") { settings.furigana = t.checked; saveSettings(); applySettings(); }
+    } else if (t.id === "tg-furi") { settings.furigana = t.checked; saveSettings(); applySettings(); queueFit(true); }
     else if (t.id === "tg-en") { settings.english = t.checked; saveSettings(); applySettings(); }
     else if (t.id === "vmode-set") { setVertical(t.value); rerender(); }
     else if (t.id === "reset-progress") {}

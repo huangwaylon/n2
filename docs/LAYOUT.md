@@ -74,9 +74,17 @@ Keep the existing tokens. Add the book greys below, and use them for structure i
     ascent WebKit makes every line that carries ruby ~4 px taller (uneven pitch 37/33 px); with Hiragino (and in Chrome with
     either font) the reading sits in the leading and the pitch is even at any line-height ≥ 1.8.
   - **Line-height:** any block with ruby needs ≥ 1.9 (2.0 for book text), so the reading never reaches the line above.
-  - **Overhang (JIS X 4051):** both engines already let a reading overhang its neighbours by .25em. A wider reading gets
-    `style="margin-inline:-Xem -Yem"` on the `<ruby>`, only toward a kana / punctuation neighbour (never a kanji or another
-    reading), up to one furigana character (.5em) per side in total, so "集客が" is not set as "集　客　が".
+  - **Overhang (JIS X 4051):** a reading wider than its base may overhang a kana / punctuation neighbour (never a kanji
+    or another reading) by up to one furigana character (.5em; .375em when that kana also takes another reading's overhang),
+    so "集客が" is not set as "集　客　が". `fmt()` writes `data-e` (excess, em) and `data-ol` / `data-or` (room per side)
+    and a first-guess `margin-inline`; `fitRubies()` (app.js, run after every render, resize, click, `<details>` toggle,
+    font load) then **measures** each such ruby against its neighbouring glyph on the same line and corrects the margins in
+    px. Measuring is needed because the engines differ: both auto-overhang a centred reading by .25em, but WebKit skips a
+    kana that touches another reading (gap in "倒産は同業者"), and `ruby-align: start` overhangs the whole excess in WebKit
+    but not in Blink. Neighbours are only glyphs in the same inline formatting context (not grid items, labels, badges).
+  - **Shifted readings (`ruby.r-s`, `ruby-align: start`):** right after another reading ("ご観覧誠に"), and for the first
+    ruby on a line (set by `fitRubies()`, `data-ls`), the reading starts at its base and overhangs the kana on the right,
+    instead of leaving a gap / an indent before the base.
   - **Why not the `.rb`/`.rt` inline-block spans of 9a5cfc0:** their reserved `margin-top` made lines with furigana taller
     than lines without (uneven pitch on phones), a multi-kanji base became one unbreakable inline-block (whole lines
     stretched by justification: "が、　本場　は　雰囲気"), and the computed side margins pushed kana apart.

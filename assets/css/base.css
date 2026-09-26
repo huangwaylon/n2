@@ -71,6 +71,10 @@ h1, h2, h3, h4 { line-height: 1.5; }
    any block with ruby needs line-height ≥ 1.9 so the reading sits in the leading and the line pitch stays even */
 ruby { ruby-position: over; ruby-align: center; text-indent: 0; }
 ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; font-style: normal; letter-spacing: 0; text-indent: 0; text-decoration: none; -webkit-user-select: none; user-select: none; }
+/* a reading that starts at its base and overhangs the kana on its right (fmt(): right after another reading) */
+ruby.r-s { ruby-align: start; }
+/* furigana off: no overhang margins (fitRubies() sets them in px) */
+body.no-furi ruby { margin-inline: 0 !important; }
 /* iOS Safari zooms on focus if a form control is < 16px */
 @media (max-width: 900px), (pointer: coarse) { body :is(input, select, textarea) { font-size: max(16px, 1em); } }
 body.no-furi rt { display: none; }

@@ -45,7 +45,7 @@ export const PROBE_FN = String(function probe(opts) {
     const bf = baseRects[0].f;
     const bx = { l: Math.min(...baseRects.map((g) => g.box.l)), r: Math.max(...baseRects.map((g) => g.box.r)), t: Math.min(...baseRects.map((g) => g.box.t)), b: Math.max(...baseRects.map((g) => g.box.b)) };
     const lines = new Set(baseRects.map((g) => Math.round(vert ? g.box.l : g.box.t)));
-    if (lines.size === 1) {
+    if (lines.size === 1 && !rb.classList.contains("r-s")) { // .r-s readings start at the base on purpose
       const d = vert ? (rr.top + rr.bottom) / 2 - (bx.t + bx.b) / 2 : (rr.left + rr.right) / 2 - (bx.l + bx.r) / 2;
       if (Math.abs(d) > 0.3 * bf) out.off.push({ at: ctx(rt), d: Math.round(d * 10) / 10, f: bf });
     }

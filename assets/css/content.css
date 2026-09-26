@@ -208,7 +208,7 @@
 .exs__i.bi { display: grid; grid-template-columns: 1.1em minmax(0, 1fr) auto; column-gap: .1em; margin: .15em 0; padding-right: 0; }
 .exs__n { line-height: 2; }
 .exs__t { min-width: 0; }
-.exs__turn { display: grid; grid-template-columns: 1.6em minmax(0, 1fr); }
+.exs__turn { display: grid; grid-template-columns: 1.75em minmax(0, 1fr); }
 .exs__tools { display: flex; gap: 2px; align-self: start; padding-top: .35em; }
 .exs__tools > .en-btn { position: relative; right: auto; top: auto; }
 .exs .en { margin: 0 0 .3em; }
