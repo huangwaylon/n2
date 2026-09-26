@@ -3,7 +3,7 @@ N2F({
   part: 1,
   label: "(2)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand a character's complex feelings." },
+    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the complex feelings of the characters." },
   ],
   sample: {
     kind: "dialogue",
@@ -12,12 +12,12 @@ N2F({
     lines: [
       { ja: "{警備会社|けいびがいしゃ}、社長室", en: "The security company, the president's office" },
       { ja: "{阿部|あべ}と社長、少し{離|はな}れて、制服{姿|すがた}のガードマンが立っている。", en: "Abe and the president; a little way off stands a guard in uniform." },
-      { sp: "社長", v: "m", ja: "「やれやれ、こいつのおかげで、事件以来、{早朝|そうちょう}**といわず**、深夜**といわず**、電話は鳴りっぱなし、電話に出**たら**出**たで**、どこの{誰|だれ}ともわからんやつに、まったく聞く**にたえない**ような言葉で{怒鳴|どな}られる。こっちは{誠意|せいい}をもって対応しているのに……。」", en: "\"Good grief. Thanks to this guy, ever since the incident the phone has been ringing nonstop, early morning and late at night alike, and when I do answer it, I get yelled at in language I can hardly bear to hear by people I don't know from Adam. And here we are dealing with it in good faith…\"" },
+      { sp: "社長", v: "m", ja: "「やれやれ、こいつのおかげで、事件以来、{早朝|そうちょう}**といわず**、深夜**といわず**、電話は鳴りっぱなし、電話に出**たら**出**たで**、どこの{誰|だれ}ともわからんやつに、まったく聞く**にたえない**ような言葉で{怒鳴|どな}られる。こっちは{誠意|せいい}をもって対応しているのに……。」", en: "\"Good grief. Thanks to this guy, ever since the incident the phone has been ringing nonstop, early morning and late at night alike, and when I do answer it, I get yelled at by complete strangers in language that's simply unbearable to listen to. And here we are dealing with it in good faith…\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「ほんとに……。」", en: "\"Yes, really…\"" },
       { sp: "社長", v: "m", ja: "「マスコミの{連中|れんちゅう}も、ただ{面白|おもしろ}がってるだけだ。{我々|われわれ}が一歩でも外に出**ようものなら**、何十人と{群|む}がってくる。{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。」", en: "\"The media people are just having fun with it. If we so much as set foot outside, dozens of them swarm around us. I took your advice and boldly brought it in to keep labor costs down, but it's backfired, hasn't it.\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「はあ、{申|もう}し{訳|わけ}ありません。」", en: "\"Yes, I'm terribly sorry.\"" },
       { sp: "社長", v: "m", ja: "「いっそのこと公表するか。あの{居眠|いねむ}りガードマンが、実は……。」", en: "\"Maybe we should just go public with it. That the dozing guard is actually…\"" },
-      { ja: "ガードマンのほうに{視線|しせん}を移す社長。{阿部|あべ}の{顔色|かおいろ}が変わる。", en: "The president shifts his gaze toward the guard. Abe's face changes color." },
+      { ja: "ガードマンのほうに{視線|しせん}を移す社長。{阿部|あべ}の{顔色|かおいろ}が変わる。", en: "The president shifts his gaze toward the guard. Abe's expression changes." },
       { sp: "{阿部|あべ}", v: "m", ja: "「いや、いや、それだけは、絶対に、絶対に、ダメです。ここで、{真実|しんじつ}を{明|あ}かせば、さらに信用をなくします。他の社員の{手前|てまえ}、{解雇|かいこ}という{名目|めいもく}で{廃棄処分|はいきしょぶん}にするべきです！」", en: "\"No, no, not that — absolutely, absolutely not. If we reveal the truth now, we'll lose even more trust. For appearances' sake in front of the other employees, we should scrap it under the pretext of a dismissal!\"" },
       { sp: "社長", v: "m", ja: "「だが、あれの開発には一千万かかっている。一般の人間**ならいざしらず**、警察の取り調べにも{正体|しょうたい}がバレなかったのなら、まだ使い道はある。何とか{廃棄|はいき}せずに働かせられ**ないものか**……。」", en: "\"But developing that thing cost ten million. Ordinary people are one thing, but if even the police interrogation didn't expose what it really is, it still has its uses. Isn't there some way we could keep it working without scrapping it…\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「はあ……。」", en: "\"Well…\"" },
@@ -86,7 +86,7 @@ N2F({
         "- **Either way it's a problem**: the speaker first mentions (or implies) the trouble with *not A*, then says that *A* brings its own trouble. 車はないと不便だが、あったらあったで維持費がかかる. In the sample, the president complains that the phone rings nonstop, and when he answers it, he gets abused.\n" +
         "- **So what? It's no big deal**: 雨が降ったら降ったで、買えばいい; 失敗したら失敗したでまたやればいい. The speaker accepts the possibility calmly and proposes a way to cope.\n\n" +
         "Forms: both halves use the past form (たら / たで). With adjectives the second half can be non-past (早かったら早いで). The conditional ば version, **〜ば〜で** (Plus), works the same way: あればあったで, しなければしないで, 小さければ小さいで, 大きければ大きいで.\n\n" +
-        "Register: conversational (the casual-scene mark). In writing you'd more likely say AでもAでなくても or Aになったとしても.\n\n" +
+        "Register: conversational — the book marks it with the casual-conversation icon.\n\n" +
         "Compare:\n" +
         "- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n" +
         "- **〜なら〜で** (#80): the same kind of repetition with なら, found later in the book.\n\n" +
@@ -126,7 +126,7 @@ N2F({
           marks: [],
           usage: { ja: "「〜ば 〜で」も同じように使われる。", en: "\"〜ば 〜で\" is also used in the same way." },
           examples: [
-            { ja: "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。", en: "A: I envy you having such a big garden.\nB: Oh no. When you do have a garden, looking after it takes both time and money, so…" },
+            { ja: "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。", en: "A: I envy you having such a big garden.\nB: Oh, no. If you have a garden, then that has its own problems — looking after it takes both time and money, so…" },
             { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Some people say that if you don't have a wedding ceremony, well, that's perfectly fine too." },
             { ja: "小さければ小さいで不便だし、大きければ大きいで{邪魔|じゃま}になる。", en: "If it's small, it's inconvenient because it's small; if it's big, it's in the way because it's big." },
           ],

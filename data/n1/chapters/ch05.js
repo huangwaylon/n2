@@ -870,7 +870,7 @@ N2.register({
       "canDo": [
         {
           "ja": "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。",
-          "en": "Read a TV drama script and understand a character's complex feelings."
+          "en": "Can read a TV drama script and understand the complex feelings of the characters."
         }
       ],
       "sample": {
@@ -890,7 +890,7 @@ N2.register({
             "sp": "社長",
             "v": "m",
             "ja": "「やれやれ、こいつのおかげで、事件以来、{早朝|そうちょう}**といわず**、深夜**といわず**、電話は鳴りっぱなし、電話に出**たら**出**たで**、どこの{誰|だれ}ともわからんやつに、まったく聞く**にたえない**ような言葉で{怒鳴|どな}られる。こっちは{誠意|せいい}をもって対応しているのに……。」",
-            "en": "\"Good grief. Thanks to this guy, ever since the incident the phone has been ringing nonstop, early morning and late at night alike, and when I do answer it, I get yelled at in language I can hardly bear to hear by people I don't know from Adam. And here we are dealing with it in good faith…\""
+            "en": "\"Good grief. Thanks to this guy, ever since the incident the phone has been ringing nonstop, early morning and late at night alike, and when I do answer it, I get yelled at by complete strangers in language that's simply unbearable to listen to. And here we are dealing with it in good faith…\""
           },
           {
             "sp": "{阿部|あべ}",
@@ -918,7 +918,7 @@ N2.register({
           },
           {
             "ja": "ガードマンのほうに{視線|しせん}を移す社長。{阿部|あべ}の{顔色|かおいろ}が変わる。",
-            "en": "The president shifts his gaze toward the guard. Abe's face changes color."
+            "en": "The president shifts his gaze toward the guard. Abe's expression changes."
           },
           {
             "sp": "{阿部|あべ}",
@@ -1034,7 +1034,7 @@ N2.register({
               "en": "Honestly, she complains if I'm slow to reply to her emails, and if I reply quickly, she gets suspicious: \"You didn't read it properly, did you?\""
             }
           ],
-          "deepDive": "**AたらAたで** repeats a word: 出たら出たで, あったらあったで, 安かったら安かったで, ビリだったらビリだったで. Literally *if A happens, then with A (as it is)…*. It has two quite different uses:\n\n- **Either way it's a problem**: the speaker first mentions (or implies) the trouble with *not A*, then says that *A* brings its own trouble. 車はないと不便だが、あったらあったで維持費がかかる. In the sample, the president complains that the phone rings nonstop, and when he answers it, he gets abused.\n- **So what? It's no big deal**: 雨が降ったら降ったで、買えばいい; 失敗したら失敗したでまたやればいい. The speaker accepts the possibility calmly and proposes a way to cope.\n\nForms: both halves use the past form (たら / たで). With adjectives the second half can be non-past (早かったら早いで). The conditional ば version, **〜ば〜で** (Plus), works the same way: あればあったで, しなければしないで, 小さければ小さいで, 大きければ大きいで.\n\nRegister: conversational (the casual-scene mark). In writing you'd more likely say AでもAでなくても or Aになったとしても.\n\nCompare:\n- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n- **〜なら〜で** (#80): the same kind of repetition with なら, found later in the book.\n\nJLPT tip: in matching exercises, look for the half that states a problem with the *opposite* case first (深いプールでの事故は想像しやすいが → 浅かったら浅かったで…事故の心配がある).",
+          "deepDive": "**AたらAたで** repeats a word: 出たら出たで, あったらあったで, 安かったら安かったで, ビリだったらビリだったで. Literally *if A happens, then with A (as it is)…*. It has two quite different uses:\n\n- **Either way it's a problem**: the speaker first mentions (or implies) the trouble with *not A*, then says that *A* brings its own trouble. 車はないと不便だが、あったらあったで維持費がかかる. In the sample, the president complains that the phone rings nonstop, and when he answers it, he gets abused.\n- **So what? It's no big deal**: 雨が降ったら降ったで、買えばいい; 失敗したら失敗したでまたやればいい. The speaker accepts the possibility calmly and proposes a way to cope.\n\nForms: both halves use the past form (たら / たで). With adjectives the second half can be non-past (早かったら早いで). The conditional ば version, **〜ば〜で** (Plus), works the same way: あればあったで, しなければしないで, 小さければ小さいで, 大きければ大きいで.\n\nRegister: conversational — the book marks it with the casual-conversation icon.\n\nCompare:\n- **〜ても〜なくても**: neutral *whether or not*; たら〜たで adds a sense of *the opposite case has its own issues* or *so be it*.\n- **〜なら〜で** (#80): the same kind of repetition with なら, found later in the book.\n\nJLPT tip: in matching exercises, look for the half that states a problem with the *opposite* case first (深いプールでの事故は想像しやすいが → 浅かったら浅かったで…事故の心配がある).",
           "see": [
             80
           ],
@@ -1088,7 +1088,7 @@ N2.register({
               "examples": [
                 {
                   "ja": "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。",
-                  "en": "A: I envy you having such a big garden.\nB: Oh no. When you do have a garden, looking after it takes both time and money, so…"
+                  "en": "A: I envy you having such a big garden.\nB: Oh, no. If you have a garden, then that has its own problems — looking after it takes both time and money, so…"
                 },
                 {
                   "ja": "結婚式なんて、しなければしないで別に構わないという人もいる。",
