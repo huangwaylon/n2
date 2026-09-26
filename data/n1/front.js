@@ -10,7 +10,7 @@ TRY.registerFront([
     blocks: [
       { p: {
         ja: "この本は、日本語能力試験のN1に対応した文法の問題集で、ABK（{財団法人|ざいだんほうじん}　アジア学生文化{協会|きょうかい}）の30年の日本語教育の経験を{生|い}かして、学内で使いながら作られたものです。日本語を勉強している皆さんが、文法をきちんと整理して、日本語が上手に使えるようになることを願って作りました。",
-        en: "This book is a collection of grammar exercises for level N1 of the Japanese-Language Proficiency Test. It draws on the 30 years of Japanese-language teaching experience of ABK (the Asian Students Cultural Association, a public-interest foundation) and was developed while being used in our own school's classes. We wrote it in the hope that all of you studying Japanese will put your grammar knowledge properly in order and become able to use Japanese well."
+        en: "This book is a collection of grammar exercises for level N1 of the Japanese-Language Proficiency Test. It draws on the 30 years of Japanese-language teaching experience of ABK (the Asian Students Cultural Association, an incorporated foundation) and was developed while being used in our own school's classes. We wrote it in the hope that all of you studying Japanese will put your grammar knowledge properly in order and become able to use Japanese well."
       } },
       { p: {
         ja: "文法は「聞く・話す・読む・書く」の{基礎|きそ}になるものです。この本では次のプロセスで勉強が進められるように工夫しました。",
@@ -262,7 +262,7 @@ TRY.registerFront([
         en: "With the spread of the internet, learners outside Japan have more and more opportunities to come into direct contact with Japanese, and these opportunities no doubt help them acquire natural Japanese. We feel that, as Japanese-language teaching increasingly emphasizes practical ability, the place of grammar is gradually changing too."
       } },
       { p: {
-        en: "Grammar, however, is the basic framework of the sentence, and a firm grasp of it is essential to being able to use Japanese. It is also very important to choose, consciously, Japanese that suits your relationship with the other person and the situation."
+        en: "Grammar, however, is the basic framework of the sentence, and a firm grasp of it is essential to being able to use Japanese. It is also very important to consciously choose Japanese that suits one's relationship with the other person and the situation."
       } },
       { p: {
         en: "With these points in mind, the sample texts in this book cover a wide variety of text types, as shown in the table below. The vocabulary used in them is also high-frequency vocabulary in wide everyday use."

@@ -8,7 +8,7 @@ TRY.registerCompare([
     items: [
       { pattern: "〜{一方|いっぽう}①", level: "N2", no: 61,
         ex: { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる**{一方|いっぽう}**、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While there are young people who go to the city looking for work, there are also young people who return to their hometowns to find jobs." },
-        note: "\"While / on the other hand\": sets two contrasting facts or sides side by side. Attaches to the noun-modifying form (V/いA plain, なAな/である, Nである); nothing about ongoing change." },
+        note: "\"While / on the other hand\": sets two contrasting facts or sides side by side. Attaches to the plain form (なA + な, N + の, or である); nothing about ongoing change." },
       { pattern: "V{一方|いっぽう}②", level: "N2", no: 115,
         ex: { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える**{一方|いっぽう}だ**。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists just keeps increasing." },
         note: "V-る + 一方だ: \"keeps on ~ing / only gets more ~\". Used with change verbs (増える, 減る, 悪化する) for a one-way trend that shows no sign of stopping." }
@@ -169,8 +169,8 @@ TRY.registerCompare([
         ex: { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}の**こと**。{窓口|まどぐち}での受け付けは{行|おこな}っておりません。", en: "Applications must arrive by January 28. We do not accept applications at the counter." },
         note: "Sentence-final こと: a written rule or instruction (\"must / is to\"), used on notices, application guidelines and the like." },
       { pattern: "〜ことか", level: "N2", no: 42,
-        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows about all my effort, I suppose." },
-        note: "どれだけ/どんなに/なんと ... ことか:\"how very much ...!\". An emotional exclamation of degree." },
+        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
+        note: "どれだけ/どんなに/なんと ... ことか: \"how very much ...!\". An emotional exclamation of degree." },
       { pattern: "〜ことから", level: "N2", no: 62,
         ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "Because this sweet potato is red inside, it is called a \"beni-imo\" (crimson potato)." },
         note: "\"From the fact that\": gives the basis for a name, judgment or origin; a written, explanatory style." },
@@ -196,7 +196,7 @@ TRY.registerCompare([
         ex: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いた**ことに**、バラの{花束|はなたば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I entered my hotel room, to my surprise, a bouquet of roses and a welcome message from the hotel manager had been placed on the table." },
         note: "Emotion word + ことに (驚いたことに, うれしいことに): states the speaker's feeling first, then the fact that caused it." },
       { pattern: "Vことなく", level: "N2", no: 20,
-        ex: { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}する**ことなく**、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "I was able to win this time, but without being satisfied with this, I will keep working even harder. Please continue to support me." },
+        ex: { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}する**ことなく**、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "I was able to win this time, but I won't rest on that; I'll keep working even harder. Please continue to support me." },
         note: "\"Without doing V\": a written equivalent of 〜ないで, often used in statements of resolve, or to say that something one might expect never happened (一度も休むことなく)." },
       { pattern: "〜ないことには", level: "N2", no: 110,
         ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder roughly how many they'll hire.\nB: Unless you ask them, you won't know the details." },
