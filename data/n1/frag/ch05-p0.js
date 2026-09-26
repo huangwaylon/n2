@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "ドラマのシナリオを読む", en: "Reading a TV Drama Script" },
     title: { ja: "{転職|てんしょく}", en: "Changing Jobs" },
     canDo: [
-      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand a character's critical feelings." },
+      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the critical feelings of the characters." },
     ],
   },
   label: "(1)",
@@ -14,17 +14,17 @@ N2F({
     vertical: true,
     rings: false,
     lines: [
-      { ja: "【{某月某日|ぼうがつぼうにち}】　毎々新聞　社会面見出し", en: "[A certain day of a certain month] Maimai Shimbun, headline on the city-news page:" },
+      { ja: "【{某月某日|ぼうがつぼうにち}】　毎々新聞　社会面見出し", en: "[Month X, Day X] Maimai Shimbun, headline on the city-news page" },
       { ja: "{警備会社|けいびがいしゃ}、三千万円{奪|うば}われる　――　{宿直|しゅくちょく}社員は{居眠|いねむ}り", en: "Security company robbed of 30 million yen — employee on night duty was asleep" },
       { ja: "警察{署|しょ}　{取調室|とりしらべしつ}", en: "Police station, interrogation room" },
-      { ja: "警備会社の部長・{阿部|あべ}、机をはさんで{刑事|けいじ}", en: "Abe, a manager at the security company, sits across the desk from a detective." },
+      { ja: "警備会社の部長・{阿部|あべ}、机をはさんで{刑事|けいじ}", en: "Abe, a department manager at the security company, facing a detective across the desk" },
       { sp: "{刑事|けいじ}", v: "m", ja: "「一体どうなっているんですか、おたくの社員は。」", en: "\"What on earth is going on with your employees?\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「はあ……。」", en: "\"Well…\"" },
-      { sp: "{刑事|けいじ}", v: "m", ja: "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}{込|こ}んでいたなんて……。」", en: "\"It's really — what should I call it — idiotic, or irresponsible. The man on night duty, of all people, taking advantage of nobody watching to fall fast asleep…\"" },
+      { sp: "{刑事|けいじ}", v: "m", ja: "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}{込|こ}んでいたなんて……。」", en: "\"Honestly, what would you call it — stupid? Irresponsible? The man on night duty, of all people, taking advantage of nobody watching to fall fast asleep…\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「いやあ……。」", en: "\"Er, well…\"" },
-      { sp: "{刑事|けいじ}", v: "m", ja: "「何度聞いても『私は寝ていました。{記憶|きおく}にありません』を{繰|く}り{返|かえ}すだけだ。おたくは{警備会社|けいびがいしゃ}なんでしょう。そんな言い{訳|わけ}、{誰|だれ}が{納得|なっとく}するんです**か**。{自覚|じかく}がない**にもほどがあります**よ。{厳|きび}しい{監視|かんし}をくぐり抜けてやられた**ならまだしも**、これは{警備|けいび}**以前**の問題じゃないですかね。」", en: "\"No matter how many times I ask, he just keeps repeating, 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? There are limits to how unaware of your responsibilities you can be. If the thieves had slipped past strict surveillance, that would be one thing, but this is a problem that comes before security even enters the picture, isn't it?\"" },
+      { sp: "{刑事|けいじ}", v: "m", ja: "「何度聞いても『私は寝ていました。{記憶|きおく}にありません』を{繰|く}り{返|かえ}すだけだ。おたくは{警備会社|けいびがいしゃ}なんでしょう。そんな言い{訳|わけ}、{誰|だれ}が{納得|なっとく}するんです**か**。{自覚|じかく}がない**にもほどがあります**よ。{厳|きび}しい{監視|かんし}をくぐり抜けてやられた**ならまだしも**、これは{警備|けいび}**以前**の問題じゃないですかね。」", en: "\"No matter how many times I ask, he just keeps repeating, 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? This lack of any sense of responsibility goes beyond all limits. If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this is a problem that comes before security even enters the picture, isn't it?\"" },
       { sp: "{阿部|あべ}", v: "m", ja: "「う〜ん……。」", en: "\"Hmm…\"" },
-      { sp: "{刑事|けいじ}", v: "m", ja: "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」", en: "\"Well, it's harsh to say this to the victim, but you could say this incident was bound to happen. Given the kind of business you're in, the media will start making a fuss from now on. You'd better brace yourself…\"" },
+      { sp: "{刑事|けいじ}", v: "m", ja: "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」", en: "\"Well, it's harsh to say this to the victim, but you could say this was an incident that happened because it was bound to happen. Given the kind of business you're in, the media are going to start making a fuss. You'd better brace yourself…\"" },
       { ja: "（{阿部|あべ}を見る{刑事|けいじ}の目、鋭い）", en: "(The detective's eyes, fixed on Abe, are sharp.)" },
     ],
   },
@@ -48,8 +48,8 @@ N2F({
       examples: [
         { ja: "彼女の存在は、{砂漠|さばく}のオアシスといおうか、{嵐|あらし}の夜の灯台といおうか、辛い毎日の中の大きな{慰|なぐさ}めだ。", en: "Her presence is — what should I call it — an oasis in the desert, a lighthouse on a stormy night; a great comfort in my hard daily life." },
         { ja: "やる気があるのはいいのだが、積極的すぎるといおうか、言い方がストレートといおうか、もう少しチームのメンバーの気持ちも考えたほうが……。", en: "It's good that you're motivated, but you're — how shall I put it — too pushy, or too blunt in the way you say things; you might want to think a bit more about how the team members feel…" },
-        { ja: "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。", en: "Two whole years since joining the company and you can't even say the president's name? As your boss I find it pathetic, or whatever you'd call it — I'm completely lost for words." },
-        { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。", en: "That shop assistant recommending a 50,000-yen toner to me — you could say she has no idea how ordinary people live…" },
+        { ja: "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。", en: "Two whole years since joining the company and you can't even say the president's name? As your boss I find it — pathetic, or whatever you'd call it; I'm completely lost for words." },
+        { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。", en: "That shop assistant recommending a 50,000-yen toner to me — what would you call it — she has no feel for how ordinary people live…" },
         { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく{物足|ものた}りないんだよ。", en: "This boxed lunch — the portions are small, or the flavor is bland, or something — anyway, it just isn't satisfying." },
         { ja: "電車で財布を盗まれたんですが、運がよかったというべきか悪かったというべきか、中には100円しか入っていなかったんです。", en: "My wallet was stolen on the train, but — should I call it good luck or bad luck? — there was only 100 yen in it." },
       ],
@@ -100,7 +100,7 @@ N2F({
       ],
       examples: [
         { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "Taking advantage of there being nobody around at night, the graffiti in the tunnel just keeps getting worse." },
-        { ja: "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。", en: "Using the delayed train as an excuse, Yamamoto strolled in boldly just as the test was ending." },
+        { ja: "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。", en: "Yamamoto took advantage of the train being late and strolled in brazenly just as the test was ending." },
         { ja: "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。", en: "It seems our cat took advantage of its owner being out to get up to mischief — the room is a total mess." },
         { ja: "表現の自由は守るべき権利の1つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。", en: "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun." },
       ],
@@ -194,8 +194,8 @@ N2F({
       forms: ["[Pl] + にもほどがある\n［現在形のみ］［[なA~~だ~~]　[N~~だ~~]］"],
       examples: [
         { ja: "両親が苦労して送ってくれたお金を遊びに使うなんて、{親不孝|おやふこう}にもほどがある。", en: "Spending the money your parents worked so hard to send you on having fun — that's the height of ingratitude to your parents." },
-        { ja: "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。", en: "Riding a bicycle without a light and texting on top of that — there are limits to how thoughtless you can be." },
-        { ja: "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。", en: "Reducing the contents and then selling it as '20% off' — that's making fools of the customers beyond all limits." },
+        { ja: "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。", en: "Riding a bicycle without a light and texting on top of that — that's thoughtless beyond all limits." },
+        { ja: "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。", en: "Reducing the contents and then selling it as '20% off' — that's treating customers as fools, and it goes way too far." },
         { ja: "A：政治のことを全く知らない君が国会議員になろうなんて、{冗談|じょうだん}にもほどがある。\nB：{僕|ぼく}は本気だよ。もっと市民の{視点|してん}で政治を行う人間が必要だと思うんだ。", en: "A: You, who know nothing at all about politics, want to become a member of the Diet? That's taking a joke too far.\nB: I'm serious. I think we need people who do politics more from the citizens' point of view." },
         { ja: "A：あの人、友だちの結婚式に白いドレス着て行ったんだって。\nB：え?!　物を知らないにもほどがあるよね。", en: "A: I heard she wore a white dress to her friend's wedding.\nB: What?! That's ignorant beyond belief, isn't it." },
       ],
@@ -313,7 +313,7 @@ N2F({
       deepDive:
         "**N + 以前** here is not *before (in time)* but *before (in logical order)*: something that has to be settled **at a more basic stage** than N. 警備以前の問題 = *a problem that comes before security even enters the picture* — i.e., so basic that talking about security is pointless. It's typically used to **criticize**: the person hasn't even reached the starting line.\n\n" +
         "Common frames:\n" +
-        "- **N以前の問題 / N以前の常識 / N以前の話**: ビジネスマナー以前の常識, 人間として以前の問題.\n" +
+        "- **N以前の問題 / N以前の常識 / N以前の話**: ビジネスマナー以前の常識, 常識以前の問題.\n" +
         "- **N以前に、…**: 予約の仕方以前に、いくらかかるか知ってるのか *before (asking) how to book, do you know the cost?*\n" +
         "- **それ以前の問題として / それ以前に**: *there's a more basic issue*.\n" +
         "- With questions: 何を書くか以前に, 行くかどうか以前に; and with paired opposites: できるできない以前に, おいしいおいしくない以前に, 大きい小さい以前に.\n\n" +
@@ -354,12 +354,12 @@ N2F({
       ],
       examples: [
         { ja: "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },
-        { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。", en: "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have succeeded as it deserved to." },
+        { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。", en: "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have been bound to succeed — and it did." },
         { ja: "{指摘|してき}された{欠陥|けっかん}を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen." },
         { ja: "70億の人間の中で、私たち2人はめぐり会うべくしてめぐり会ったのだと思います。", en: "Among seven billion people, I believe the two of us were destined to meet." },
       ],
       deepDive:
-        "**V-るべくしてV-た** repeats the same verb: 起こるべくして起こった, 売れるべくして売れた. べく is the classical form of べき (*should / be bound to*), so the phrase means *~ happened as it was bound to happen*: looking at the circumstances, **the result was inevitable** — not luck or coincidence.\n\n" +
+        "**V-るべくしてV-た** repeats the same verb: 起こるべくして起こった, 売れるべくして売れた. べく is a form of the classical auxiliary べし (the same べし behind べき, *should / be bound to*), so the phrase means *~ happened as it was bound to happen*: looking at the circumstances, **the result was inevitable** — not luck or coincidence.\n\n" +
         "It works both ways:\n" +
         "- **Negative outcomes** (criticism): 起こるべくして起こった事故/事件 — given the negligence, it was only a matter of time. This is how the detective uses it.\n" +
         "- **Positive outcomes** (well-deserved): 成功するべくして成功した, 勝つべくして勝った, 選ばれるべくして選ばれた — the result reflects real merit.\n" +
@@ -378,7 +378,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "2年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの2人は、別れるべくして別れたのだと思う。", options: ["違っていた", "{一致|いっち}していた"], answer: 0, en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think those two parted ways because it was inevitable." },
+            { q: "2年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの2人は、別れるべくして別れたのだと思う。", options: ["違っていた", "{一致|いっち}していた"], answer: 0, en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think it was inevitable that those two would split up — and they did." },
             { q: "このアニメは、ヒットするべくしてヒットしたと言える。{原作|げんさく}が（　）。その上、{宣伝|せんでん}にも力を入れていたのだから。", options: ["{無名|むめい}のマンガで{声優|せいゆう}も{新人|しんじん}", "{大人気|だいにんき}のマンガで{声優|せいゆう}も一流"], answer: 1, en: "You could say this anime was bound to be a hit. The original was a hugely popular manga and the voice actors were first-rate. On top of that, they put a lot into the advertising." },
             { q: "あの会社の（　）経営{体質|たいしつ}を考えると、今回の問題は出るべくして出たと言わざるを得ないだろう。", options: ["{健全|けんぜん}な", "ずさんな"], answer: 1, en: "Considering that company's sloppy management culture, we have to say this problem was bound to come up." },
             { q: "彼女は選ばれるべくして選ばれた。（　）のだから。", options: ["たまたま運が良かった", "それだけの{実績|じっせき}をあげている"], answer: 1, en: "She was chosen because she deserved to be. After all, she has the track record to match." },
@@ -451,7 +451,7 @@ N2F({
       prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
       bank: ["以前に", "といおうか", "べくして", "か"],
       items: [
-        { q: "今日の試合は負ける＿＿負けたと思います。自分たちの力を{過信|かしん}していたのが{敗因|はいいん}です。", answer: "べくして", en: "I think we lost today's match because we were bound to. The cause of our defeat was overconfidence in our own ability." },
+        { q: "今日の試合は負ける＿＿負けたと思います。自分たちの力を{過信|かしん}していたのが{敗因|はいいん}です。", answer: "べくして", en: "I think today's match was one we were bound to lose, and we did. The cause of our defeat was overconfidence in our own ability." },
         { q: "出発は来週だというのに、のんびりしている＿＿、まだ飛行機の予約をしていないそうだ。", answer: "といおうか", en: "Even though he leaves next week, he's — what should I call it — so laid-back that apparently he still hasn't booked his flight." },
         { q: "当時は、{治療|ちりょう}法＿＿、それが病気なのかどうかさえわからなかった。", answer: "以前に", en: "At the time, before there was any question of a treatment, people didn't even know whether it was an illness." },
         { q: "A：自分のせいで困ってるんだから、放っておけば？\nB：あの人は{俺|おれ}の命の{恩人|おんじん}だ。放っておける＿＿。", answer: "か", en: "A: He's in trouble through his own fault, so why not just leave him be?\nB: That man saved my life. How could I leave him be?" },

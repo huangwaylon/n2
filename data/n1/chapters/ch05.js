@@ -12,7 +12,7 @@ N2.register({
   "canDo": [
     {
       "ja": "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。",
-      "en": "Read a TV drama script and understand a character's critical feelings."
+      "en": "Can read a TV drama script and understand the critical feelings of the characters."
     }
   ],
   "parts": [
@@ -25,7 +25,7 @@ N2.register({
         "lines": [
           {
             "ja": "【{某月某日|ぼうがつぼうにち}】　毎々新聞　社会面見出し",
-            "en": "[A certain day of a certain month] Maimai Shimbun, headline on the city-news page:"
+            "en": "[Month X, Day X] Maimai Shimbun, headline on the city-news page"
           },
           {
             "ja": "{警備会社|けいびがいしゃ}、三千万円{奪|うば}われる　――　{宿直|しゅくちょく}社員は{居眠|いねむ}り",
@@ -37,7 +37,7 @@ N2.register({
           },
           {
             "ja": "警備会社の部長・{阿部|あべ}、机をはさんで{刑事|けいじ}",
-            "en": "Abe, a manager at the security company, sits across the desk from a detective."
+            "en": "Abe, a department manager at the security company, facing a detective across the desk"
           },
           {
             "sp": "{刑事|けいじ}",
@@ -55,7 +55,7 @@ N2.register({
             "sp": "{刑事|けいじ}",
             "v": "m",
             "ja": "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}{込|こ}んでいたなんて……。」",
-            "en": "\"It's really — what should I call it — idiotic, or irresponsible. The man on night duty, of all people, taking advantage of nobody watching to fall fast asleep…\""
+            "en": "\"Honestly, what would you call it — stupid? Irresponsible? The man on night duty, of all people, taking advantage of nobody watching to fall fast asleep…\""
           },
           {
             "sp": "{阿部|あべ}",
@@ -67,7 +67,7 @@ N2.register({
             "sp": "{刑事|けいじ}",
             "v": "m",
             "ja": "「何度聞いても『私は寝ていました。{記憶|きおく}にありません』を{繰|く}り{返|かえ}すだけだ。おたくは{警備会社|けいびがいしゃ}なんでしょう。そんな言い{訳|わけ}、{誰|だれ}が{納得|なっとく}するんです**か**。{自覚|じかく}がない**にもほどがあります**よ。{厳|きび}しい{監視|かんし}をくぐり抜けてやられた**ならまだしも**、これは{警備|けいび}**以前**の問題じゃないですかね。」",
-            "en": "\"No matter how many times I ask, he just keeps repeating, 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? There are limits to how unaware of your responsibilities you can be. If the thieves had slipped past strict surveillance, that would be one thing, but this is a problem that comes before security even enters the picture, isn't it?\""
+            "en": "\"No matter how many times I ask, he just keeps repeating, 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? This lack of any sense of responsibility goes beyond all limits. If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this is a problem that comes before security even enters the picture, isn't it?\""
           },
           {
             "sp": "{阿部|あべ}",
@@ -79,7 +79,7 @@ N2.register({
             "sp": "{刑事|けいじ}",
             "v": "m",
             "ja": "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」",
-            "en": "\"Well, it's harsh to say this to the victim, but you could say this incident was bound to happen. Given the kind of business you're in, the media will start making a fuss from now on. You'd better brace yourself…\""
+            "en": "\"Well, it's harsh to say this to the victim, but you could say this was an incident that happened because it was bound to happen. Given the kind of business you're in, the media are going to start making a fuss. You'd better brace yourself…\""
           },
           {
             "ja": "（{阿部|あべ}を見る{刑事|けいじ}の目、鋭い）",
@@ -122,11 +122,11 @@ N2.register({
             },
             {
               "ja": "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。",
-              "en": "Two whole years since joining the company and you can't even say the president's name? As your boss I find it pathetic, or whatever you'd call it — I'm completely lost for words."
+              "en": "Two whole years since joining the company and you can't even say the president's name? As your boss I find it — pathetic, or whatever you'd call it; I'm completely lost for words."
             },
             {
               "ja": "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。",
-              "en": "That shop assistant recommending a 50,000-yen toner to me — you could say she has no idea how ordinary people live…"
+              "en": "That shop assistant recommending a 50,000-yen toner to me — what would you call it — she has no feel for how ordinary people live…"
             },
             {
               "ja": "このお弁当、量が少ないというか、味が薄いというか、とにかく{物足|ものた}りないんだよ。",
@@ -224,7 +224,7 @@ N2.register({
             },
             {
               "ja": "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。",
-              "en": "Using the delayed train as an excuse, Yamamoto strolled in boldly just as the test was ending."
+              "en": "Yamamoto took advantage of the train being late and strolled in brazenly just as the test was ending."
             },
             {
               "ja": "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。",
@@ -339,11 +339,11 @@ N2.register({
             },
             {
               "ja": "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。",
-              "en": "Riding a bicycle without a light and texting on top of that — there are limits to how thoughtless you can be."
+              "en": "Riding a bicycle without a light and texting on top of that — that's thoughtless beyond all limits."
             },
             {
               "ja": "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。",
-              "en": "Reducing the contents and then selling it as '20% off' — that's making fools of the customers beyond all limits."
+              "en": "Reducing the contents and then selling it as '20% off' — that's treating customers as fools, and it goes way too far."
             },
             {
               "ja": "A：政治のことを全く知らない君が国会議員になろうなんて、{冗談|じょうだん}にもほどがある。\nB：{僕|ぼく}は本気だよ。もっと市民の{視点|してん}で政治を行う人間が必要だと思うんだ。",
@@ -535,7 +535,7 @@ N2.register({
               "en": "A: These mushrooms are pretty. I wonder if they taste good.\nB: Hang on. Before whether they taste good or not — are they even safe to eat?"
             }
           ],
-          "deepDive": "**N + 以前** here is not *before (in time)* but *before (in logical order)*: something that has to be settled **at a more basic stage** than N. 警備以前の問題 = *a problem that comes before security even enters the picture* — i.e., so basic that talking about security is pointless. It's typically used to **criticize**: the person hasn't even reached the starting line.\n\nCommon frames:\n- **N以前の問題 / N以前の常識 / N以前の話**: ビジネスマナー以前の常識, 人間として以前の問題.\n- **N以前に、…**: 予約の仕方以前に、いくらかかるか知ってるのか *before (asking) how to book, do you know the cost?*\n- **それ以前の問題として / それ以前に**: *there's a more basic issue*.\n- With questions: 何を書くか以前に, 行くかどうか以前に; and with paired opposites: できるできない以前に, おいしいおいしくない以前に, 大きい小さい以前に.\n\nDon't confuse with the time meaning **以前** (*formerly / before*): 以前ここに住んでいた, 3年以前. The evaluative 以前 is recognizable because what follows is *a more fundamental condition* (常識, 安全, 能力, 基本) rather than a time.\n\nRelated: **〜どころではない** (*it's no time for ~*) and **〜以前に…** both push aside a topic, but 以前 says the topic is premature because a more basic requirement isn't met.\n\nJLPT tip: in the 以前 practice, the item before 以前 is the *advanced* topic being dismissed; the part after is the *basic* problem. 英語以前の問題でして、自分の考えがまとまらなかった — the problem wasn't English; it was more basic.",
+          "deepDive": "**N + 以前** here is not *before (in time)* but *before (in logical order)*: something that has to be settled **at a more basic stage** than N. 警備以前の問題 = *a problem that comes before security even enters the picture* — i.e., so basic that talking about security is pointless. It's typically used to **criticize**: the person hasn't even reached the starting line.\n\nCommon frames:\n- **N以前の問題 / N以前の常識 / N以前の話**: ビジネスマナー以前の常識, 常識以前の問題.\n- **N以前に、…**: 予約の仕方以前に、いくらかかるか知ってるのか *before (asking) how to book, do you know the cost?*\n- **それ以前の問題として / それ以前に**: *there's a more basic issue*.\n- With questions: 何を書くか以前に, 行くかどうか以前に; and with paired opposites: できるできない以前に, おいしいおいしくない以前に, 大きい小さい以前に.\n\nDon't confuse with the time meaning **以前** (*formerly / before*): 以前ここに住んでいた, 3年以前. The evaluative 以前 is recognizable because what follows is *a more fundamental condition* (常識, 安全, 能力, 基本) rather than a time.\n\nRelated: **〜どころではない** (*it's no time for ~*) and **〜以前に…** both push aside a topic, but 以前 says the topic is premature because a more basic requirement isn't met.\n\nJLPT tip: in the 以前 practice, the item before 以前 is the *advanced* topic being dismissed; the part after is the *basic* problem. 英語以前の問題でして、自分の考えがまとまらなかった — the problem wasn't English; it was more basic.",
           "see": [],
           "index": [
             "〜以前",
@@ -624,7 +624,7 @@ N2.register({
             },
             {
               "ja": "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。",
-              "en": "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have succeeded as it deserved to."
+              "en": "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have been bound to succeed — and it did."
             },
             {
               "ja": "{指摘|してき}された{欠陥|けっかん}を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。",
@@ -635,7 +635,7 @@ N2.register({
               "en": "Among seven billion people, I believe the two of us were destined to meet."
             }
           ],
-          "deepDive": "**V-るべくしてV-た** repeats the same verb: 起こるべくして起こった, 売れるべくして売れた. べく is the classical form of べき (*should / be bound to*), so the phrase means *~ happened as it was bound to happen*: looking at the circumstances, **the result was inevitable** — not luck or coincidence.\n\nIt works both ways:\n- **Negative outcomes** (criticism): 起こるべくして起こった事故/事件 — given the negligence, it was only a matter of time. This is how the detective uses it.\n- **Positive outcomes** (well-deserved): 成功するべくして成功した, 勝つべくして勝った, 選ばれるべくして選ばれた — the result reflects real merit.\n- **Destiny**: めぐり会うべくしてめぐり会った *we were meant to meet*.\n\nForm notes: V₁ is dictionary form, V₂ is the た-form, usually the same verb. For する, both するべくして and すべくして occur (成功すべくして成功した). The phrase is often followed by と言える / と言えよう / のだ, giving an evaluative, written tone.\n\nCompare other べく patterns:\n- **V-るべく** (#90): *in order to ~* (formal purpose): 合格すべく努力する.\n- **V-るべくもない** (#122): *there's no way to ~*: 知るべくもない.\n- **V-るべからず / べからざる** (#111): prohibition *must not*.\n\nJLPT tip: in the practice, the correct reason must make the outcome *inevitable*. ヒットするべくしてヒットした requires a strong reason (大人気のマンガで声優も一流), not a weak one.",
+          "deepDive": "**V-るべくしてV-た** repeats the same verb: 起こるべくして起こった, 売れるべくして売れた. べく is a form of the classical auxiliary べし (the same べし behind べき, *should / be bound to*), so the phrase means *~ happened as it was bound to happen*: looking at the circumstances, **the result was inevitable** — not luck or coincidence.\n\nIt works both ways:\n- **Negative outcomes** (criticism): 起こるべくして起こった事故/事件 — given the negligence, it was only a matter of time. This is how the detective uses it.\n- **Positive outcomes** (well-deserved): 成功するべくして成功した, 勝つべくして勝った, 選ばれるべくして選ばれた — the result reflects real merit.\n- **Destiny**: めぐり会うべくしてめぐり会った *we were meant to meet*.\n\nForm notes: V₁ is dictionary form, V₂ is the た-form, usually the same verb. For する, both するべくして and すべくして occur (成功すべくして成功した). The phrase is often followed by と言える / と言えよう / のだ, giving an evaluative, written tone.\n\nCompare other べく patterns:\n- **V-るべく** (#90): *in order to ~* (formal purpose): 合格すべく努力する.\n- **V-るべくもない** (#122): *there's no way to ~*: 知るべくもない.\n- **V-るべからず / べからざる** (#111): prohibition *must not*.\n\nJLPT tip: in the practice, the correct reason must make the outcome *inevitable*. ヒットするべくしてヒットした requires a strong reason (大人気のマンガで声優も一流), not a weak one.",
           "see": [
             90,
             111,
@@ -661,7 +661,7 @@ N2.register({
                     "{一致|いっち}していた"
                   ],
                   "answer": 0,
-                  "en": "Ever since they set up the company together two years ago, their ideas about management were already different, so I think those two parted ways because it was inevitable."
+                  "en": "Ever since they set up the company together two years ago, their ideas about management were already different, so I think it was inevitable that those two would split up — and they did."
                 },
                 {
                   "q": "このアニメは、ヒットするべくしてヒットしたと言える。{原作|げんさく}が（　）。その上、{宣伝|せんでん}にも力を入れていたのだから。",
@@ -844,7 +844,7 @@ N2.register({
             {
               "q": "今日の試合は負ける＿＿負けたと思います。自分たちの力を{過信|かしん}していたのが{敗因|はいいん}です。",
               "answer": "べくして",
-              "en": "I think we lost today's match because we were bound to. The cause of our defeat was overconfidence in our own ability."
+              "en": "I think today's match was one we were bound to lose, and we did. The cause of our defeat was overconfidence in our own ability."
             },
             {
               "q": "出発は来週だというのに、のんびりしている＿＿、まだ飛行機の予約をしていないそうだ。",
