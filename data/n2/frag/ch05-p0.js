@@ -40,7 +40,7 @@ N2F({
         { ja: "彼は「ごめん」と言ったきり、{黙|だま}ってしまった。", en: "He said “sorry” and then fell silent." },
         { ja: "家には2、3回使ったきりの{健康器具|けんこうきぐ}がいくつもある。", en: "At home I have several pieces of fitness equipment that I used only two or three times." },
         { ja: "あの歌手、何年か前にテレビで見たきりだけど、今どうしているのかなあ。", en: "I haven't seen that singer since I saw them on TV a few years ago — I wonder what they're doing now." },
-        { ja: "ステーキなんて、半年前に食べたっきりだよ。", en: "Steak? I haven't had any since half a year ago." },
+        { ja: "ステーキなんて、半年前に食べたっきりだよ。", en: "Steak? The last time I had it was six months ago." },
         { ja: "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。", en: "Our dog has grown very weak and spends almost the whole day lying down." },
       ],
       notes: [
@@ -77,7 +77,7 @@ N2F({
         "- **V-ます + (っ)きり** describes a continuous state: つきっきりで看病する, 仕事にかかりきりだ. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n" +
         "- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n" +
         "\n" +
-        "Don't confuse this with **思いっきり** (*with all your might*) or **はっきり / すっきり**, which are unrelated adverbs.",
+        "Don't confuse this with fixed adverbs such as **思いっきり** (*with all your might*, from 思い切る) or **はっきり / すっきり**, which are not this pattern.",
       see: [],
       index: ["V-たきり", "V-たっきり", "Vますきり", "つきっきり", "かかりきり", "二人きり", "一度きり"],
       practice: [
@@ -112,7 +112,7 @@ N2F({
         { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Sir, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation." },
       ],
       deepDive: 
-        "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the frowning-face mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n" +
+        "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the book's regret (sweating-face) mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n" +
         "\n" +
         "Typical pattern: [problem] + て/ので, + [pleasant or normal activity] + どころではない.\n" +
         "- 歯が痛くて、食事どころではない.\n" +
@@ -341,7 +341,7 @@ N2F({
       { q: "友達にすすめられて新しいサプリメントを{試|ため}してみた＿＿、あまり{効果|こうか}がなかった。", answer: "ものの", en: "I tried a new supplement on a friend's recommendation, but it didn't have much effect." },
       { q: "彼が買った車は{中古車|ちゅうこしゃ}＿＿ボディもきれいで、エンジンの{調子|ちょうし}もいい。", answer: "にしては", en: "For a used car, the one he bought has a clean body and the engine runs well." },
       { q: "困った＿＿、ATMが{故障|こしょう}していてお金が下ろせない。", answer: "ことに", en: "Annoyingly, the ATM is broken and I can't withdraw any money." },
-      { q: "A：{健康診断|けんこうしんだん}、毎年受けてる？\nB：ううん。5年前に受けた＿＿。", answer: "きり", en: "A: Do you get a health checkup every year?\nB: No. I haven't had one since five years ago." },
+      { q: "A：{健康診断|けんこうしんだん}、毎年受けてる？\nB：ううん。5年前に受けた＿＿。", answer: "きり", en: "A: Do you get a health checkup every year?\nB: No. The last one I had was five years ago." },
       { q: "{一晩中連絡|ひとばんじゅうれんらく}もしないで、どこへ行ってたの。どんなに{心配|しんぱい}した＿＿。", answer: "ことか", en: "Where were you all night without even getting in touch? You have no idea how worried I was!" },
     ],
   },

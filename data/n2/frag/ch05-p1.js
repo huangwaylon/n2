@@ -39,7 +39,7 @@ N2F({
       ],
       deepDive: 
         "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\n" +
-        "Getting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\n" +
+        "Getting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** mean *as long as ~ doesn't happen*; with a past result + のに they express regret, *if only ~ hadn't happened*: 転びさえしなければ1位だったのに / 雨さえ降らなければ….\n\n" +
         "Differences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\n" +
         "Common mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\n" +
         "JLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
@@ -94,7 +94,7 @@ N2F({
         "Connection: ます-stem + ようがない: 書きようがない, 答えようがない, 直しようがない. With a する-noun you can say either 連絡しようがない or **連絡のしようがない** (Nの + しようがない) — both are common on the test. Polite: 〜ようがありません.\n\n" +
         "The set phrase **どうしようもない** (*nothing can be done / hopeless*; marked as an idiomatic example in the book) is extremely common — it can also describe a person: どうしようもない人 *a hopeless case*, and **しょうがない / しようがない** (*it can't be helped*) comes from the same pattern.\n\n" +
         "Comparisons (the first four are tested in the practice below):\n- **〜きれない**: *can't do completely* (食べきれない = can't finish). ようがない = can't even start because there's no method.\n- **〜ざるを得ない** (#24): *have no choice but to do* — the opposite direction: you *must* do it.\n- **〜わけではない** (#19): partial denial, *it's not that ~*.\n- **〜はずがない**: *it can't be that ~* — a judgment about likelihood, not about method.\n- **〜ようでは** (#84) shares the よう but means *if you're the kind who ~ (it's bad)*.\n\n" +
-        "Nuance: ようがない sounds resigned — the frowning-face mark reflects that the speaker regrets or is frustrated that nothing can be done.\n\n" +
+        "Nuance: ようがない sounds resigned — the book's regret mark reflects that the speaker regrets or is frustrated that nothing can be done.\n\n" +
         "Common mistake: ✗書けようがない (don't use the potential form) and ✗書くようがない (use the ます-stem).",
       see: [84],
       xref: "☞ p.225　〜よう",
@@ -207,7 +207,7 @@ N2F({
   ],
   check: {
     type: "fill",
-    prompt: { ja: "", en: "Choose the word that fills each blank from the box." },
+    prompt: { ja: "", en: "Choose the word from the box that fills each blank." },
     bank: ["さえ", "あげく", "ものではない", "だけ", "ようがない"],
     items: [
       { q: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", answer: "あげく", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes." },

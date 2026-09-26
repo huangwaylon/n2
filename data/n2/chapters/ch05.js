@@ -94,7 +94,7 @@ N2.register({
             },
             {
               "ja": "ステーキなんて、半年前に食べたっきりだよ。",
-              "en": "Steak? I haven't had any since half a year ago."
+              "en": "Steak? The last time I had it was six months ago."
             },
             {
               "ja": "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。",
@@ -136,7 +136,7 @@ N2.register({
               "xref": "☞ p.221　〜きる／きり"
             }
           ],
-          "deepDive": "**〜きり** comes from 切り, *a cut-off point*. V-たきり marks the last thing that happened — and says that the story **stopped there**. 行ったきり帰らない = *went and never came back*; 一度会ったきり = *met once and that was it*. That's why the rest of the sentence is almost always negative or describes an unchanged state (〜ていない, 〜ない, 〜ままだ).\n\nThe casual variant **っきり** (会ったっきり, 言ったっきり) is very common in conversation. Ending a sentence with **〜きりだ / っきりだよ** is also natural: 去年一回行ったっきりだよ.\n\nContrast with **〜まま**, the classic trap:\n- **V-たまま** = *with ~ still in that state* while you do something else: 眼鏡をかけたまま寝た (slept with my glasses on). The first action and the second happen **at the same time**.\n- **V-たきり** = *since ~, nothing further*: 眼鏡を買ったきり、かけていない (bought glasses and never wore them). There is **no follow-up**.\nQuick test: if you can translate with *with ~ on / still ~*, use まま; if you can say *and since then, not…*, use きり.\n\nThe two clip-note uses:\n- **V-ます + (っ)きり** describes a continuous state: つきっきりで看病する, 仕事にかかりきりだ. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n\nDon't confuse this with **思いっきり** (*with all your might*) or **はっきり / すっきり**, which are unrelated adverbs.",
+          "deepDive": "**〜きり** comes from 切り, *a cut-off point*. V-たきり marks the last thing that happened — and says that the story **stopped there**. 行ったきり帰らない = *went and never came back*; 一度会ったきり = *met once and that was it*. That's why the rest of the sentence is almost always negative or describes an unchanged state (〜ていない, 〜ない, 〜ままだ).\n\nThe casual variant **っきり** (会ったっきり, 言ったっきり) is very common in conversation. Ending a sentence with **〜きりだ / っきりだよ** is also natural: 去年一回行ったっきりだよ.\n\nContrast with **〜まま**, the classic trap:\n- **V-たまま** = *with ~ still in that state* while you do something else: 眼鏡をかけたまま寝た (slept with my glasses on). The first action and the second happen **at the same time**.\n- **V-たきり** = *since ~, nothing further*: 眼鏡を買ったきり、かけていない (bought glasses and never wore them). There is **no follow-up**.\nQuick test: if you can translate with *with ~ on / still ~*, use まま; if you can say *and since then, not…*, use きり.\n\nThe two clip-note uses:\n- **V-ます + (っ)きり** describes a continuous state: つきっきりで看病する, 仕事にかかりきりだ. (Note that 寝たきり *bedridden* uses the V-た form but has become a fixed noun.)\n- **Number + きり** ≈ だけ: 二人きり, 一度きりの人生. 一人きり sounds more emotional and lonely than 一人だけ.\n\nDon't confuse this with fixed adverbs such as **思いっきり** (*with all your might*, from 思い切る) or **はっきり / すっきり**, which are not this pattern.",
           "see": [],
           "index": [
             "V-たきり",
@@ -226,7 +226,7 @@ N2.register({
               "en": "A: Sir, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation."
             }
           ],
-          "deepDive": "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the frowning-face mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n\nTypical pattern: [problem] + て/ので, + [pleasant or normal activity] + どころではない.\n- 歯が痛くて、食事どころではない.\n- The noun is often an activity noun: 旅行・勉強・仕事・花見・休暇.\n\nAlthough the book frames it as describing *your own* situation, with だろう it can also be used to **scold** someone, telling them their situation doesn't allow something — as in example ③: この忙しいときに、お前、休暇どころじゃないだろう. The past form どころではなかった looks back on a time when circumstances made the activity impossible.\n\nDon't confuse it with:\n- **〜どころか** (#83): *far from ~, actually the opposite*: 涼しいどころか寒かった. That's about contradicting a statement, not about being unable to do something.\n- **V-るところだった** (#89): *almost happened*.\n- **〜わけにはいかない** (#57): can't do it for social/moral reasons; どころではない is about the situation making it impossible.\n\nCommon mistake: putting the *problem* before どころ. If you mean you can't travel because you're busy, say 忙しくて旅行どころではない — the thing before どころ is the activity you **can't** do. (忙しいどころではない does exist, but it means something else: *\"busy\" doesn't begin to describe it*.)\n\nJLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
+          "deepDive": "**〜どころではない** literally says *this is not the place for ~*: the circumstances are so pressing (busy, ill, in trouble) that the activity is simply **impossible right now**. It carries a tone of frustration or regret — hence the book's regret (sweating-face) mark. The spoken form **どころじゃない** is what you'll hear most among friends; polite versions are どころではありません / どころじゃないんです.\n\nTypical pattern: [problem] + て/ので, + [pleasant or normal activity] + どころではない.\n- 歯が痛くて、食事どころではない.\n- The noun is often an activity noun: 旅行・勉強・仕事・花見・休暇.\n\nAlthough the book frames it as describing *your own* situation, with だろう it can also be used to **scold** someone, telling them their situation doesn't allow something — as in example ③: この忙しいときに、お前、休暇どころじゃないだろう. The past form どころではなかった looks back on a time when circumstances made the activity impossible.\n\nDon't confuse it with:\n- **〜どころか** (#83): *far from ~, actually the opposite*: 涼しいどころか寒かった. That's about contradicting a statement, not about being unable to do something.\n- **V-るところだった** (#89): *almost happened*.\n- **〜わけにはいかない** (#57): can't do it for social/moral reasons; どころではない is about the situation making it impossible.\n\nCommon mistake: putting the *problem* before どころ. If you mean you can't travel because you're busy, say 忙しくて旅行どころではない — the thing before どころ is the activity you **can't** do. (忙しいどころではない does exist, but it means something else: *\"busy\" doesn't begin to describe it*.)\n\nJLPT tip: look for the two-part logic *trouble → can't enjoy X*; the blank takes the X that is being ruled out.",
           "see": [
             83,
             89
@@ -628,7 +628,7 @@ N2.register({
           {
             "q": "A：{健康診断|けんこうしんだん}、毎年受けてる？\nB：ううん。5年前に受けた＿＿。",
             "answer": "きり",
-            "en": "A: Do you get a health checkup every year?\nB: No. I haven't had one since five years ago."
+            "en": "A: Do you get a health checkup every year?\nB: No. The last one I had was five years ago."
           },
           {
             "q": "{一晩中連絡|ひとばんじゅうれんらく}もしないで、どこへ行ってたの。どんなに{心配|しんぱい}した＿＿。",
@@ -728,7 +728,7 @@ N2.register({
               "en": "Life as an exchange student is hard, but I'm going to keep going, believing that as long as I stay healthy I can get through any difficulty."
             }
           ],
-          "deepDive": "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\nGetting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** express *if only ~ hadn't happened* — often regret with のに: 雨さえ降らなければ….\n\nDifferences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\nCommon mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\nJLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
+          "deepDive": "**〜さえ…ば** means *if only ~ / as long as ~ (nothing else is needed)*. さえ singles out **one minimal condition**, and the ば-clause says that condition is enough: お金さえあれば = *as long as there's money (that's all it takes)*.\n\nGetting the connection right is the main challenge:\n- **Noun + さえ + verb-ば**: 時間さえあれば, 薬さえ飲めば. With a noun object, さえ replaces を/が.\n- **Verb**: put さえ between the ます-stem and すれば: 練習しさえすれば, 食べさえすれば, 謝りさえすれば. (✗練習すればさえ). With て-form: 見てさえいれば.\n- **Adjectives**: い-adj → 〜くさえあれば (安くさえあれば); な-adj/noun → 〜でさえあれば (静かでさえあれば, 健康でさえあれば).\n- The negative versions **さえしなければ / さえなければ** mean *as long as ~ doesn't happen*; with a past result + のに they express regret, *if only ~ hadn't happened*: 転びさえしなければ1位だったのに / 雨さえ降らなければ….\n\nDifferences from other さえ:\n- N3 **〜さえ (〜ない)** = *even*: 名前さえ書けない *can't even write his name*. No ば, and the meaning is extreme example, not minimal condition.\n- **〜だけ〜ば** is similar but plainer; さえ〜ば stresses *that's the only thing that matters*.\n- **〜さえも** is just an emphatic version of the *even* さえ; **〜ば〜ほど** (*the more ~, the more…*) is unrelated.\n\nCommon mistake: putting さえ after the ば-form or using さえ with a non-conditional second half. The typical second half is a positive outcome (大丈夫, 十分だ, 〜できる) or, with past/のに, a regret.\n\nJLPT tip: in 文の組み立て questions, look for the chain N + さえ + あれば/すれば — pieces like 〜さえ and あれば almost always sit side by side.",
           "see": [],
           "xref": "☞ p.222　〜さえ",
           "index": [
@@ -803,7 +803,7 @@ N2.register({
               "idiom": true
             }
           ],
-          "deepDive": "**〜ようがない** is made of よう (様, *way/method*) + が + ない: literally *there is no way of ~ing*. It says an action is **impossible because the means are missing** — no information, no materials, no access. That's why the sentence usually gives a reason first: 連絡先を知らないので、連絡しようがない.\n\nConnection: ます-stem + ようがない: 書きようがない, 答えようがない, 直しようがない. With a する-noun you can say either 連絡しようがない or **連絡のしようがない** (Nの + しようがない) — both are common on the test. Polite: 〜ようがありません.\n\nThe set phrase **どうしようもない** (*nothing can be done / hopeless*; marked as an idiomatic example in the book) is extremely common — it can also describe a person: どうしようもない人 *a hopeless case*, and **しょうがない / しようがない** (*it can't be helped*) comes from the same pattern.\n\nComparisons (the first four are tested in the practice below):\n- **〜きれない**: *can't do completely* (食べきれない = can't finish). ようがない = can't even start because there's no method.\n- **〜ざるを得ない** (#24): *have no choice but to do* — the opposite direction: you *must* do it.\n- **〜わけではない** (#19): partial denial, *it's not that ~*.\n- **〜はずがない**: *it can't be that ~* — a judgment about likelihood, not about method.\n- **〜ようでは** (#84) shares the よう but means *if you're the kind who ~ (it's bad)*.\n\nNuance: ようがない sounds resigned — the frowning-face mark reflects that the speaker regrets or is frustrated that nothing can be done.\n\nCommon mistake: ✗書けようがない (don't use the potential form) and ✗書くようがない (use the ます-stem).",
+          "deepDive": "**〜ようがない** is made of よう (様, *way/method*) + が + ない: literally *there is no way of ~ing*. It says an action is **impossible because the means are missing** — no information, no materials, no access. That's why the sentence usually gives a reason first: 連絡先を知らないので、連絡しようがない.\n\nConnection: ます-stem + ようがない: 書きようがない, 答えようがない, 直しようがない. With a する-noun you can say either 連絡しようがない or **連絡のしようがない** (Nの + しようがない) — both are common on the test. Polite: 〜ようがありません.\n\nThe set phrase **どうしようもない** (*nothing can be done / hopeless*; marked as an idiomatic example in the book) is extremely common — it can also describe a person: どうしようもない人 *a hopeless case*, and **しょうがない / しようがない** (*it can't be helped*) comes from the same pattern.\n\nComparisons (the first four are tested in the practice below):\n- **〜きれない**: *can't do completely* (食べきれない = can't finish). ようがない = can't even start because there's no method.\n- **〜ざるを得ない** (#24): *have no choice but to do* — the opposite direction: you *must* do it.\n- **〜わけではない** (#19): partial denial, *it's not that ~*.\n- **〜はずがない**: *it can't be that ~* — a judgment about likelihood, not about method.\n- **〜ようでは** (#84) shares the よう but means *if you're the kind who ~ (it's bad)*.\n\nNuance: ようがない sounds resigned — the book's regret mark reflects that the speaker regrets or is frustrated that nothing can be done.\n\nCommon mistake: ✗書けようがない (don't use the potential form) and ✗書くようがない (use the ます-stem).",
           "see": [
             84
           ],
@@ -1047,7 +1047,7 @@ N2.register({
         "type": "fill",
         "prompt": {
           "ja": "",
-          "en": "Choose the word that fills each blank from the box."
+          "en": "Choose the word from the box that fills each blank."
         },
         "bank": [
           "さえ",
@@ -1120,7 +1120,7 @@ N2.register({
               "を{問|と}わず"
             ],
             "answer": 2,
-            "en": "If only I could get the chance of an interview, I could convey my enthusiasm..."
+            "en": "If only I could get an interview, I could show them how enthusiastic I am..."
           },
           {
             "q": "{本場|ほんば}のタイ料理を作ってほしいと{頼|たの}まれたが、{材料|ざいりょう}がないので（　）。",
@@ -1438,7 +1438,7 @@ N2.register({
               }
             ],
             "en": [
-              "With a report like this, there's no way to even fix it."
+              "Look, with a report like this, there's no way to even fix it."
             ],
             "options": [
               "ええ、直しようがないでしょう。",
