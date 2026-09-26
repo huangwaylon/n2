@@ -485,7 +485,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[N₂]／[V₂-る]には「何・どこ（へ）・{誰|だれ}」などの{疑問詞|ぎもんし}を使うこともある。",
-              "en": "Question words such as 何, どこ（へ） and 誰 can also be used for N₂ / V₂-る (e.g. 〜なり何���り)."
+              "en": "Question words such as 何, どこ（へ） and 誰 can also be used for N₂ / V₂-る (e.g. 〜なり何なり)."
             }
           ],
           "examples": [

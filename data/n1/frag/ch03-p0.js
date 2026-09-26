@@ -256,7 +256,7 @@ N2F({
       },
       forms: ["［[N₁]（＋{助詞|じょし}）　[V₁-る]］ + なり + ［[N₂]（＋{助詞|じょし}）　[V₂-る]］ + なり"],
       formNotes: [
-        { ja: "＊[N₂]／[V₂-る]には「何・どこ（へ）・{誰|だれ}」などの{疑問詞|ぎもんし}を使うこともある。", en: "Question words such as 何, どこ（へ） and 誰 can also be used for N₂ / V₂-る (e.g. 〜なり何���り)." },
+        { ja: "＊[N₂]／[V₂-る]には「何・どこ（へ）・{誰|だれ}」などの{疑問詞|ぎもんし}を使うこともある。", en: "Question words such as 何, どこ（へ） and 誰 can also be used for N₂ / V₂-る (e.g. 〜なり何なり)." },
       ],
       examples: [
         { ja: "目が悪いなら、{眼鏡|めがね}なりコンタクトなりすればいいのに。", en: "If your eyesight is bad, you should just wear glasses or contacts or something." },
