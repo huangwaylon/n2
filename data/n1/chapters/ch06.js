@@ -7,12 +7,12 @@ N2.register({
   },
   "title": {
     "ja": "研修を終えて",
-    "en": "Having Completed My Training"
+    "en": "On Completing My Training"
   },
   "canDo": [
     {
       "ja": "送別会などで、関係者に対し、お礼や{抱負|ほうふ}を含む{改|あらた}まったスピーチができる。",
-      "en": "At a farewell party or similar occasion, give a formal speech to the people concerned that includes thanks and your aspirations."
+      "en": "At a farewell party or similar occasion, give a formal speech to the people involved that includes words of thanks and your aspirations for the future."
     }
   ],
   "parts": [
@@ -23,40 +23,40 @@ N2.register({
         "lines": [
           {
             "ja": "＜さくら{商事|しょうじ}・{東京|とうきょう}本社会議室にて＞",
-            "en": "<At Sakura Trading, in a conference room at the Tokyo head office>"
+            "en": "<Sakura Trading: in a conference room at the Tokyo head office>"
           },
           {
             "ja": "皆様、{本日|ほんじつ}はお忙しい**ところを**お集まりいただき、{誠|まこと}にありがとうございます。",
-            "en": "Everyone, thank you very much for gathering here today when you are so busy."
+            "en": "Everyone, thank you very much for gathering here today, busy as you are."
           },
           {
             "cont": true,
             "ja": "先ほどは、社長より{激励|げきれい}のお言葉をいただき、{感激|かんげき}**の{至|いた}り**です。",
-            "en": "A moment ago I received words of encouragement from the president, and I am deeply moved."
+            "en": "Just now I received words of encouragement from the President, and I am moved beyond words."
           },
           {
             "ja": "{私|わたくし}、{本日|ほんじつ}3月31日**をもって**、本社での研修を終了し、来週ベトナムへ帰ります。",
-            "en": "As of today, March 31, I finish my training at the head office, and next week I return to Vietnam."
+            "en": "As of today, March 31, I complete my training at the head office, and next week I return to Vietnam."
           },
           {
             "cont": true,
             "ja": "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。",
-            "en": "During the training period, being unused to things, I caused you all trouble, but you guided me so warmly that I cannot thank you enough."
+            "en": "During my training, being new to everything, I caused you all a good deal of trouble, yet you guided me so warmly that my gratitude is beyond words."
           },
           {
             "cont": true,
             "ja": "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。",
-            "en": "From your sincere and meticulous way of working, I learned what anyone who is a company employee ought to be."
+            "en": "From your sincere and meticulous way of working, I learned how anyone who is a company employee ought to conduct themselves."
           },
           {
             "cont": true,
             "ja": "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい**限りです**。",
-            "en": "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working together with you all."
+            "en": "After I return home I will be working at the Hanoi branch, but a joint project with the head office has just been launched, and I am truly delighted that I will be able to go on working with all of you."
           },
           {
             "cont": true,
             "ja": "まだまだ皆様に助けていただくことも多いと思いますので、今後ともどうぞよろしくお願いいたします。",
-            "en": "I expect I will still need your help a great deal, so I ask for your continued kind support from now on."
+            "en": "I am sure there will still be many times when I need your help, so I humbly ask for your continued support."
           }
         ]
       },
@@ -71,7 +71,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ところ（を）」は、お{詫|わ}びや依頼、感謝をするときの{前置|まえお}きとして使う。",
-            "en": "\"〜ところ（を）\" is used as a lead-in when apologizing, making a request or expressing thanks."
+            "en": "〜ところ（を） is used as a preface (a lead-in) before an apology, a request or an expression of thanks."
           },
           "forms": [
             "[いA] + ところ（を）",
@@ -80,21 +80,21 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「お忙しい・お休み・お急ぎ・遠い・ご{多忙|たぼう}」などの言葉と一緒に使われることが多い。相手に敬意を表すために「お・ご」をつけることが多い。",
-              "en": "Often used with words like お忙しい, お休み, お急ぎ, 遠い and ご多忙. お/ご is often added to show respect to the other person."
+              "en": "It is often used with words such as お忙しい (busy), お休み (resting / on a day off), お急ぎ (in a hurry), 遠い (far away) and ご多忙 (very busy). お or ご is often added to show respect to the other person."
             },
             {
               "ja": "＊「〜べきところ」も使われることがある。",
-              "en": "〜べきところ is also sometimes used."
+              "en": "The form 〜べきところ is also sometimes used."
             }
           ],
           "examples": [
             {
               "ja": "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。",
-              "en": "We apologize for the inconvenience in this heat, but to save electricity we have set the air conditioning to 28 degrees."
+              "en": "We are sorry to ask this of you in such hot weather, but to save electricity we have set the air conditioning to 28°C."
             },
             {
               "ja": "お急ぎのところ、電車、遅れまして、大変ご{迷惑|めいわく}をおかけしましたことをお{詫|わ}びいたします。",
-              "en": "We sincerely apologize for the great inconvenience caused by the train delay when you are in a hurry."
+              "en": "We sincerely apologize for the delay to this train and the great inconvenience it has caused you when you are in a hurry."
             },
             {
               "ja": "作業中のところ悪いんだけど、これ、コピーしてきてくれる？",
@@ -102,7 +102,7 @@ N2.register({
             },
             {
               "ja": "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。",
-              "en": "By rights I should have been the one to call on you, yet you took the trouble to come here yourself — I am most grateful."
+              "en": "By rights I should have been the one to call on you, yet you took the trouble to come here yourself — I am very much obliged."
             }
           ],
           "deepDive": "**〜ところ（を）** takes ところ in its sense of *situation / circumstances* and turns it into a courteous cushion: *in the (busy, rainy, hurried…) circumstances you are in*. Before the main apology, request or thanks, the speaker first acknowledges the other person's situation — お忙しいところ *when you are busy*, お休みのところ *on your day off*, 遠いところ *coming from so far*.\n\nConnection:\n- **い-adjective + ところ（を）**: お忙しいところ, 遠いところを, お暑いところ.\n- **Noun + の + ところ（を）**: お休みのところ, お急ぎのところ, ご多忙のところ, 作業中のところ, お話し中のところ.\n- **V + べきところを**: 本来ならこちらから伺うべきところを *although by rights I ought to have come* — the speaker admits the other person did something the speaker should have done.\n- The honorific お/ご on the noun or adjective (お忙しい, ご多忙) is typical because the situation belongs to the listener.\n\nWhat follows is almost always one of three things:\n- **Thanks**: お忙しいところをお集まりいただき、ありがとうございます.\n- **Apology**: お休みのところ申し訳ございません / すみません.\n- **Request**: お忙しいところ恐縮ですが、ご確認ください.\nSo the pattern is a fixed piece of business etiquette; in the practice below, the correct option is always the one that expresses thanks, apology or a request toward the listener (おいでいただき, ご来店いただき, 恐縮です, ご連絡ください).\n\nWith を vs without: ところを sounds a little more formal and is common in speeches and letters; ところ alone is common in speech. Example ③ (作業中のところ悪いんだけど) shows that it can be used casually too, as a friendly *sorry to interrupt*.\n\nDon't confuse it with:\n- **V-たところ** *just did*, **V-ているところ** *in the middle of doing*, **V-るところ** *about to do* (aspect).\n- **V-たところ、…** *when I did ~, (I found)…* (a discovery).\n- **〜ところを** with verbs of seeing/catching: 盗むところを見られた *was seen stealing*.\n- **〜たところで** (#77) *even if ~ (it's no use)*.\n\nJLPT tip: if the blank follows お忙しい / お休みの / ご多忙の and the sentence ends with ありがとう, すみません, 申し訳ない or 恐縮です, the answer is ところ（を）.",
@@ -132,7 +132,7 @@ N2.register({
                     "{伺|うかが}えなくて"
                   ],
                   "answer": 0,
-                  "en": "I'm very sorry to have had you come all this way."
+                  "en": "I am so sorry that you took the trouble to come all this way."
                 },
                 {
                   "q": "お客様、{本日|ほんじつ}は雨でお足元が悪いところ、（　）、{誠|まこと}にありがとうございます。",
@@ -141,7 +141,7 @@ N2.register({
                     "ご来店いただき"
                   ],
                   "answer": 1,
-                  "en": "Dear customers, thank you very much for visiting our store today despite the poor footing in the rain."
+                  "en": "Dear customers, thank you very much for coming to our store today, even though the rain has made it so unpleasant underfoot."
                 },
                 {
                   "q": "ご{多忙|たぼう}のところ、お時間を{割|さ}いていただき、（　）。",
@@ -150,7 +150,7 @@ N2.register({
                     "大変でございます"
                   ],
                   "answer": 0,
-                  "en": "I am very grateful that you have made time for me when you are so busy."
+                  "en": "Thank you for making time for me when you are so busy — I am very much obliged."
                 },
                 {
                   "q": "お休みのところすみませんが、{至急|しきゅう}本社の{佐藤|さとう}まで（　）。",
@@ -175,7 +175,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜の{至|いた}り」は「非常に〜だ」という自分の気持ちを表す。",
-            "en": "\"〜の{至|いた}り\" expresses one's own feeling of being \"extremely 〜\"."
+            "en": "〜の至り expresses the speaker's own feeling of being \"extremely ~\"."
           },
           "forms": [
             "[N] + の{至|いた}り"
@@ -183,26 +183,26 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「{光栄|こうえい}・{赤面|せきめん}・{感激|かんげき}・{恐縮|きょうしゅく}」などの言葉と一緒に使われる。",
-              "en": "Used with words such as 光栄 (honor), 赤面 (blushing with shame), 感激 (being deeply moved) and 恐縮 (feeling obliged/embarrassed)."
+              "en": "Used with words such as 光栄 (honor), 赤面 (blushing with shame), 感激 (being deeply moved) and 恐縮 (feeling deeply obliged or apologetic)."
             }
           ],
           "examples": [
             {
               "ja": "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。",
-              "en": "To receive such a prestigious award is truly the greatest honor."
+              "en": "I am truly honored beyond measure to receive such a prestigious award."
             },
             {
               "ja": "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。",
-              "en": "Getting the new president's name wrong at his inauguration party — even thinking back on it now, I blush with shame."
+              "en": "Getting the new president's name wrong at his inauguration party — even now, when I think back on it, I blush with shame."
             },
             {
               "ja": "{私|わたくし}のために、かくも{盛大|せいだい}な会を開いていただき、{感激|かんげき}の{至|いた}りです。",
-              "en": "I am deeply moved that you have held such a splendid gathering for me."
+              "en": "I am deeply moved that you have held such a grand gathering for me."
             },
             {
               "ja": "酒を{一気|いっき}飲みしたうえ、{真冬|まふゆ}の川に飛び込むなんて、本当に{若気|わかげ}の{至|いた}り※だった。",
               "foot": "※{若気|わかげ}の{至|いた}り：「若さのせいでおかした失敗」という意味。",
-              "en": "Chugging alcohol and then jumping into a river in the dead of winter — that really was youthful folly. (*若気の至り: “a mistake made because of one's youth”.)",
+              "en": "Downing a drink in one go and then jumping into a river in the dead of winter — that really was youthful folly.* (*若気の至り: “a mistake made because one was young”.)",
               "idiom": true
             }
           ],
@@ -231,7 +231,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜をもって」は、何かが変わったり終わったりする{時点|じてん}をはっきり言いたいときに使われる。「〜をもちまして」の形で使われることも多い。",
-            "en": "\"〜をもって\" is used when you want to state clearly the point in time at which something changes or ends. It is also often used in the form \"〜をもちまして\"."
+            "en": "〜をもって is used when you want to state clearly the point in time at which something changes or ends. It is also often used in the form 〜をもちまして."
           },
           "forms": [
             "[N] + をもって",
@@ -246,7 +246,7 @@ N2.register({
           "examples": [
             {
               "ja": "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。",
-              "en": "Our shop will close as of today. Thank you very much for your patronage over the years."
+              "en": "Our shop will close its doors as of today. Thank you very much for your patronage over the years."
             },
             {
               "ja": "{鈴木二郎殿|すずきじろうどの}。4月1日をもって、第2営業部{勤務|きんむ}を命じる。",
@@ -254,14 +254,14 @@ N2.register({
             },
             {
               "ja": "第22回卒業式は、これをもちまして、終了いたします。",
-              "en": "With this, the 22nd graduation ceremony comes to a close."
+              "en": "With this, the 22nd graduation ceremony is concluded."
             },
             {
               "ja": "以上をもちまして、{私|わたくし}のスピーチを終わらせていただきます。",
-              "en": "With that, I will conclude my speech."
+              "en": "With that, I will bring my speech to a close."
             }
           ],
-          "deepDive": "**〜をもって** (以て) has two uses in N1; this point is the **time** use: *as of / effective ~ / with ~ (something ends or changes)*. The noun marks the cut-off point: 本日をもって閉店 *closing as of today*, 3月31日をもって退職 *retiring as of March 31*.\n\nForms and register:\n- **N + をもって**: written notices, official documents, announcements (辞令: 4月1日をもって…を命じる).\n- **N + をもちまして**: the polite spoken version, used by an MC or speaker addressing an audience: これをもちまして終了いたします, 以上をもちまして….\n- Typical nouns: 本日, 今月末, 3月31日, 今回, これ, 以上.\n\nThe verb that follows expresses an **ending, start or change**: 終了する, 閉店する, 解散する, 締め切る, 退職する, 変更する, 廃止する. It is not used with continuing states: ✗本日をもって営業中です, ✗3週間続いています — exactly the wrong options in the practice below.\n\nThe other をもって (#13, ご指導をもって — the book's ☞ cross-reference) means *by means of / with*: 書面をもって通知する *notify in writing*, 誠意をもって対応する *respond with sincerity*. Tell them apart by the noun: a date or これ/以上 → time limit; a method, attitude or tool → means.\n\nCompare:\n- **〜を限りに** (#106): *as of ~ (for the last time)*, often with a sense of farewell: 今日を限りに禁煙する. をもって is more neutral and official.\n- **〜をもってすれば / 〜をもってしても**: *with (ability) ~ it would be possible / even with ~ it isn't* — a separate means-based idiom.\n- Plain **〜で**: 今日で終わりです is the everyday equivalent of 本日をもって終了いたします.\n\nJLPT tip: in listening, speeches and announcements that begin 本日をもちまして / これをもちまして signal an ending; in 文法 questions, pick the option with a completed change (解散いたします, 終了いたしました).",
+          "deepDive": "**〜をもって** (以て) has two uses in N1; this point is the **time** use: *as of / effective ~ / with ~ (something ends or changes)*. The noun marks the cut-off point: 本日をもって閉店 *closing as of today*, 3月31日をもって退職 *retiring as of March 31*.\n\nForms and register:\n- **N + をもって**: written notices, official documents, announcements (辞令: 4月1日をもって…を命じる).\n- **N + をもちまして**: the polite spoken version, used by an MC or speaker addressing an audience: これをもちまして終了いたします, 以上をもちまして….\n- Typical nouns: 本日, 今月末, 3月31日, 今回, これ, 以上.\n\nThe verb that follows expresses an **ending, start or change**: 終了する, 閉店する, 解散する, 締め切る, 退職する, 変更する, 廃止する. It is not used with continuing states: ✗本日をもって営業中です, ✗3週間続いています — exactly the wrong options in the practice below.\n\nThe other をもって (#13, ご指導をもって — the book's ☞ cross-reference) means *by means of / with*: 書面をもって通知する *notify in writing*, 誠意をもって対応する *respond with sincerity*. Tell them apart by the noun: a date or これ/以上 → time limit; a method, attitude or tool → means.\n\nCompare:\n- **〜を限りに** (#106): *after ~, no more*: something that had continued ends, typically with a personal resolution or a note of regret: 今日を限りにたばこをやめる. をもって is more neutral and official, the language of notices and ceremonies.\n- **〜をもってすれば / 〜をもってしても**: *with (ability) ~ it would be possible / even with ~ it isn't* — a separate means-based idiom.\n- Plain **〜で**: 今日で終わりです is the everyday equivalent of 本日をもって終了いたします.\n\nJLPT tip: in listening, speeches and announcements that begin 本日をもちまして / これをもちまして signal an ending; in 文法 questions, pick the option with a completed change (解散いたします, 終了いたしました).",
           "see": [
             13,
             106
@@ -324,7 +324,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜こととて」は「〜なので」と同じように理由を表す。話すときには{謝罪|しゃざい}をしたり、許しを求めたりするときに使われることが多い。",
-            "en": "Like \"〜なので\", \"〜こととて\" expresses a reason. In speech it is often used when apologizing or asking for forgiveness."
+            "en": "Like 〜なので, 〜こととて expresses a reason. In speech, it is often used when apologizing or asking for forgiveness."
           },
           "forms": [
             "[N] + の + こととて",
@@ -347,7 +347,7 @@ N2.register({
             },
             {
               "ja": "{新人|しんじん}のこととて失礼があったらお許しください。",
-              "en": "As I am new, please forgive me if I am rude in any way."
+              "en": "As I am new here, please forgive me if I am rude in any way."
             },
             {
               "ja": "日曜日のこととて社内には{人影|ひとかげ}もなく、しんと静まりかえっていた。",
@@ -355,10 +355,10 @@ N2.register({
             },
             {
               "ja": "昨年お父様が亡くなられたとか。知らぬこととて、お{悔|く}やみも申し上げず大変失礼いたしました。",
-              "en": "I hear your father passed away last year. Not having known, I didn't even offer my condolences — please forgive me."
+              "en": "I hear your father passed away last year. Since I didn't know, I never even offered my condolences — I am terribly sorry."
             }
           ],
-          "deepDive": "**〜こととて** is an old-fashioned, formal way of giving a reason: *since / as (it is the case that) ~*. The とて is a classical particle close to と言って / として. The reason is presented as an **unavoidable circumstance**, which is why it appears mostly in **apologies and requests for forgiveness**: 慣れないこととてご迷惑をおかけしました *being unused to things, I caused you trouble*.\n\nConnection:\n- **N + の + こととて**: 新人のこととて, 田舎のこととて, 日曜日のこととて, 不在のこととて.\n- **V-ない + こととて**: 慣れないこととて, 知らないこととて; the classical negative **〜ぬ** is very common: **知らぬこととて** *not knowing (I failed to…)* is almost a set phrase.\n- It also occurs after other plain forms in writing (急なこととて *as it was so sudden*).\n\nTypical second halves: 失礼しました, ご迷惑をおかけしました, 申し訳ございません, お許しください, 十分なおもてなしもできませんが…. It can also simply explain a state in narrative writing (example ④: 日曜日のこととて社内には人影もなく…).\n\nRestrictions: the second half is normally not the speaker's intention, an invitation or an ordinary request — ✗新人のこととて、手伝ってください is odd. The typical exception is asking for forgiveness (example ③: 新人のこととて失礼があったらお許しください). For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\nCompare:\n- **〜ので**: neutral, all-purpose reason.\n- **〜ゆえ（に）** (#113): *because of*, written and logical, not specifically apologetic.\n- **〜ばかりに** (N2): *just because ~ (something bad happened)*, stressing regret.\n- **〜ものだから / 〜もので** (N2): spoken excuses — the colloquial counterpart of こととて.\n\nJLPT tip: 知らぬ（　）, 慣れない（　）, 〜のこと（　） followed by 失礼 / ご迷惑 / お許し → こととて.",
+          "deepDive": "**〜こととて** is an old-fashioned, formal way of giving a reason: *since / as (it is the case that) ~*. The とて is a classical particle close to と言って / として. The reason is presented as an **unavoidable circumstance**, which is why it appears mostly in **apologies and requests for forgiveness**: 慣れないこととてご迷惑をおかけしました *being unused to things, I caused you trouble*.\n\nConnection:\n- **N + の + こととて**: 新人のこととて, 田舎のこととて, 日曜日のこととて, 不在のこととて.\n- **V-ない + こととて**: 慣れないこととて, 知らないこととて; the classical negative **〜ぬ** is very common: **知らぬこととて** *not knowing (I failed to…)* is almost a set phrase.\n- It also occurs after other plain forms in writing (急なこととて *as it was so sudden*).\n\nTypical second halves: 失礼しました, ご迷惑をおかけしました, 申し訳ございません, お許しください, 十分なおもてなしもできませんが…. It can also simply explain a state in narrative writing (example ④: 日曜日のこととて社内には人影もなく…).\n\nRestrictions: the second half is normally not the speaker's intention, an invitation or an ordinary request — ✗新人のこととて、手伝ってください is odd. The typical exception is asking for forgiveness (example ③: 新人のこととて失礼があったらお許しください). For everyday reasons use ので / から; こととて sounds stiff and literary in casual talk.\n\nCompare:\n- **〜ので**: neutral, all-purpose reason.\n- **〜がゆえ（に）** (#113): *because of*, written and logical, not specifically apologetic.\n- **〜ばかりに** (N2): *just because ~ (something bad happened)*, stressing regret.\n- **〜ものだから / 〜もので** (N2): spoken excuses — the colloquial counterpart of こととて.\n\nJLPT tip: 知らぬ（　）, 慣れない（　）, N + の（　） followed by 失礼 / ご迷惑 / お許し → こととて. In 文の組み立て, remember that a noun needs の: 年末のこととて, 早春のこととて.",
           "see": [
             113
           ],
@@ -380,7 +380,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にたえない」は「非常に〜だ」という気持ちを表す。",
-            "en": "\"〜にたえない\" expresses the feeling \"extremely 〜\"."
+            "en": "〜にたえない expresses the feeling of being \"extremely ~\"."
           },
           "forms": [
             "[N] + にたえない"
@@ -394,18 +394,18 @@ N2.register({
           "examples": [
             {
               "ja": "{長年|ながねん}にわたり{弊社|へいしゃ}の発展にご{尽力|じんりょく}を{賜|たまわ}り、感謝にたえません。",
-              "en": "We are deeply grateful for your efforts on behalf of our company's development over many years."
+              "en": "We cannot thank you enough for all you have done for our company's growth over so many years."
             },
             {
               "ja": "{念願|ねんがん}の世界大会優勝がかない、本当に喜びにたえません。",
-              "en": "My long-cherished dream of winning the world championship has come true, and I am overjoyed."
+              "en": "My long-cherished dream of winning the world championship has come true, and I am truly overjoyed."
             },
             {
               "ja": "この{不況下|ふきょうか}、経営努力を重ねたうえでの{倒産|とうさん}は{同業者|どうぎょうしゃ}として{同情|どうじょう}にたえない。",
-              "en": "In this recession, as someone in the same industry I feel the deepest sympathy for a company that went bankrupt after making every management effort."
+              "en": "In this recession, as someone in the same industry, I feel the deepest sympathy for a company that went bankrupt despite every effort to keep it going."
             }
           ],
-          "deepDive": "**〜にたえない** (堪えない) literally means *cannot bear / cannot contain*: the feeling is so strong it cannot be held in. With an emotion noun it means *extremely ~, ~ beyond words*: 感謝にたえない *I can't thank you enough*, 同情にたえない *I feel the deepest sympathy*.\n\nConnection: **N + にたえない**. The nouns are Sino-Japanese or formal emotion words: 感謝, 感激, 同情, 遺憾, 後悔, 喜び, and phrases with **〜の念** (感謝の念, 自責の念, 尊敬の念). Polite form in speeches: **〜にたえません**. It is formal — used in speeches, official statements and letters, not in chat.\n\nBe careful: there is a second, opposite-sounding にたえない (#56, 聞くにたえない — the book's ☞ cross-reference): **V-る + にたえない** = *too awful to ~*: 見るにたえない *unbearable to watch*, 聞くにたえない悪口 *abuse too ugly to listen to*. The difference is the connection:\n- **emotion noun + にたえない** → *extremely (feeling)* (this point).\n- **見る / 聞く / 読む + にたえない** → *so bad one can't bear to ~* (#56).\nAnd the positive **〜にたえる** (鑑賞にたえる作品 *a work worth appreciating*) and **〜にたる** (#121, 信頼するにたる *worthy of trust*) are about *being worth ~*.\n\nCompare with the other intensifiers in this chapter:\n- **〜の至り** (#66): 光栄・感激・恐縮・赤面 only.\n- **〜限りだ** (#71): feeling adjectives (うれしい限り).\n- **〜てやまない** (#15): *never cease to (wish/hope)*: 願ってやまない.\n\nNote: the kanji 堪えない is usually written in hiragana in this sense.\n\nJLPT tip: 喜び（　）, 感謝の念（　）, 同情（　） → にたえない / にたえません. If the blank follows a dictionary-form verb of perception (見る, 聞く), think of #56 instead.",
+          "deepDive": "**〜にたえない** (堪えない) literally means *cannot bear / cannot contain*: the feeling is so strong it cannot be held in. With an emotion noun it means *extremely ~, ~ beyond words*: 感謝にたえない *I can't thank you enough*, 同情にたえない *I feel the deepest sympathy*.\n\nConnection: **N + にたえない**. The nouns are Sino-Japanese or formal emotion words: 感謝, 感激, 同情, 遺憾, 後悔, 喜び, and phrases with **〜の念** (感謝の念, 自責の念, 尊敬の念). Polite form in speeches: **〜にたえません**. It is formal — used in speeches, official statements and letters, not in chat.\n\nBe careful: there is a second, opposite-sounding にたえない (#56, 聞くにたえない — the book's ☞ cross-reference): with a verb of perception it means *too awful to ~*: 見るにたえない *unbearable to watch*, 聞くにたえない悪口 *abuse too ugly to listen to*, 正視にたえない *too painful to look at directly*. The difference is the word in front:\n- **emotion noun + にたえない** → *extremely (feeling)* (this point).\n- **見る / 聞く / 読む / 正視 / 傾聴 + にたえない** → *so bad one can't bear to ~* (#56).\nAnd the positive **〜にたえる** (鑑賞にたえる作品 *a work worth appreciating*) and **〜にたる** (#121, 信頼するにたる *worthy of trust*) are about *being worth ~*.\n\nCompare with the other intensifiers in this chapter:\n- **〜の至り** (#66): 光栄・感激・恐縮・赤面 only.\n- **〜限りだ** (#71): feeling adjectives (うれしい限り).\n- **〜てやまない** (#15): *never cease to (wish/hope)*: 願ってやまない.\n\nNote: the kanji 堪えない is usually written in hiragana in this sense.\n\nJLPT tip: 喜び（　）, 感謝の念（　）, 同情（　） → にたえない / にたえません. If the blank follows a dictionary-form verb of perception (見る, 聞く), think of #56 instead.",
           "see": [
             56,
             66,
@@ -431,7 +431,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜たる」は「〜の立場・地位の」という意味を表す。当然どうあるべきかを{述|の}べる文で使われることが多い。「〜たる{者|もの}」の形がよく使われる。",
-            "en": "\"〜たる\" means \"in the position/status of 〜\". It is often used in sentences stating how one ought naturally to be. The form \"〜たる{者|もの}\" is often used."
+            "en": "〜たる means \"in the position / status of ~\". It is often used in sentences stating how someone in that position naturally ought to be. The form 〜たる者 is often used."
           },
           "forms": [
             "[N₁] + たる + [N₂]",
@@ -440,7 +440,7 @@ N2.register({
           "examples": [
             {
               "ja": "{企業|きぎょう}の経営者たる{者|もの}は、働く人たちが能力を{発揮|はっき}できるよう環境を整えるべきである。",
-              "en": "Anyone who is the manager of a company ought to create an environment in which the workers can make full use of their abilities."
+              "en": "Anyone who runs a company ought to create an environment in which employees can make full use of their abilities."
             },
             {
               "ja": "プロであれアマチュアであれ、スポーツ選手たる{者|もの}、{正々堂々|せいせいどうどう}と戦うことを常に忘れてはならない。",
@@ -448,11 +448,11 @@ N2.register({
             },
             {
               "ja": "国民の安全を{確保|かくほ}できなければ、国家のリーダーたるに{値|あたい}しない。",
-              "en": "If you cannot ensure the safety of the people, you are not worthy of being the nation's leader."
+              "en": "Anyone who cannot ensure the safety of the people is not worthy of being the nation's leader."
             },
             {
               "ja": "学生の気持ちを理解しようとしない人間には教育者たる{資格|しかく}はない。",
-              "en": "A person who makes no effort to understand students' feelings is not qualified to be an educator."
+              "en": "A person who makes no effort to understand students' feelings is not fit to be an educator."
             }
           ],
           "deepDive": "**〜たる** is the classical attributive form of the copula たり, i.e. a very formal である: 社員たる者 = 社員である者 *one who is a company employee*. It links a role or status (N₁) with what is expected of it, so the sentence almost always states an **obligation or standard**: 〜べきだ, 〜なければならない, 〜てはならない, 〜資格はない, 〜に値しない.\n\nForms:\n- **N₁ + たる + N₂**: 経営者たる者, 教育者たる資格, 首相たる人物, 大国たるもの.\n- **N₁ + たるに**: mostly in **〜たるに値する / 値しない** *(not) worthy of being N₁* and **〜たるにふさわしい**.\n- The most frequent pattern is **〜たる者（は）、…べきだ** *anyone who is a ~ should…* — a lecture-like, idealistic tone.\n\nMeaning check: N₁ must be a role with a clear standard — a position, profession or status (社員, 教師, 医者, 政治家, 親, 国家のリーダー). ✗雨たるもの or ✗机たる者 make no sense.\n\nRegister: stiff and written; in speeches it sounds dignified (the sample speech: 社員たる者どうあるべきか). In conversation you would say 社員なら / 社員として.\n\nCompare:\n- **〜として** (N3): *as ~* — neutral statement of role.\n- **N₁としてあるまじきN₂** (#116): *(behavior) unthinkable for a ~* — the negative mirror image: 教師としてあるまじき行為.\n- **〜にたる** (#121): *worthy of ~ / sufficient for ~* (信頼するにたる人) — similar-looking but a different word (足る).\n- **〜ともなると / 〜ともなれば** (#35): *when it comes to being ~ (naturally…)*.\n\nJLPT tip: a job/status noun + （　）者 or （　）資格 in a sentence that ends in べきだ / はならない → たる.",
@@ -477,7 +477,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜限りだ」は「強く〜と感じる」自分の気持ちを言いたいときに使われる。",
-            "en": "\"〜限りだ\" is used when you want to express your own feeling, \"I strongly feel 〜\"."
+            "en": "〜限りだ is used when you want to express a feeling of your own that you feel strongly: \"I feel so ~\"."
           },
           "forms": [
             "[いA] + 限りだ",
@@ -486,7 +486,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊感情を表す言葉と一緒に使われる。",
-              "en": "Used with words that express emotions."
+              "en": "It is used with words that express emotions."
             }
           ],
           "examples": [
@@ -496,18 +496,18 @@ N2.register({
             },
             {
               "ja": "たった2点足りなかったばかりに不合格だなんて、{悔|くや}しい限りだ。",
-              "en": "To fail just because I was a mere two points short — it's so frustrating."
+              "en": "To fail just because I was a mere two points short — it's so frustrating!"
             },
             {
               "ja": "貴重な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。",
-              "en": "I lent him a valuable book as a special favor, and he got it dirty. It makes me so angry."
+              "en": "I lent him a valuable book as a special favor, and he got it dirty. It makes me absolutely furious."
             },
             {
               "ja": "何{カ|か}月も前から楽しみにしていたコンサートが台風で中止だなんて、残念な限りだ。",
               "en": "The concert I'd been looking forward to for months has been canceled because of a typhoon — it's such a shame."
             }
           ],
-          "deepDive": "**〜限りだ** uses 限り *limit*: the feeling has reached its limit, i.e. *nothing but ~ / extremely ~*. It is attached to an adjective of feeling and states the **speaker's own emotion** at the moment: うれしい限りだ *I'm so happy*, 心細い限りだ *I feel so helpless*.\n\nConnection:\n- **い-adjective + 限りだ**: うれしい, 悔しい, 寂しい, 心細い, 情けない, 恥ずかしい, 頼もしい, 喜ばしい, うらやましい, 腹立たしい.\n- **な-adjective + な + 限りだ**: 残念な限りだ, 不安な限りだ.\n- Polite: 〜限りです (common in speeches: うれしい限りです).\n\nRestrictions:\n- Only **emotion/evaluation** adjectives. ✗高い限りだ, ✗静かな限りだ (not feelings).\n- Usually the speaker's own feeling; for a third person add 〜ようだ / 〜そうだ.\n- It is not used with nouns: ✗喜びの限りだ (use 喜びにたえない, #69).\n\nOther 限り patterns — don't mix them up:\n- **〜限り** (N2) *as long as ~ / as far as ~*: 私が知っている限り.\n- **〜ない限り** (N2) *unless ~*.\n- **N限りで** (#106) *(ending) with / as of N*: 今月限りで閉店.\n- **〜の限りを尽くす** *do everything possible*: 贅沢の限りを尽くす.\n\nCompare with the other intensifiers in this chapter: 〜の至り (#66) and 〜にたえない (#69) take nouns and are more ceremonious; 〜限りだ takes adjectives and is usable in everyday speech and writing as well as speeches.\n\nJLPT tip: when the blank sits between a feeling adjective and だ/です (うれしい（　）です, 悔しい（　）だ), the answer is 限り.",
+          "deepDive": "**〜限りだ** uses 限り *limit*: the feeling has reached its limit, i.e. *nothing but ~ / extremely ~*. It is attached to an adjective of feeling and states the **speaker's own emotion** at the moment: うれしい限りだ *I'm so happy*, 心細い限りだ *I feel so helpless*.\n\nConnection:\n- **い-adjective + 限りだ**: うれしい, 悔しい, 寂しい, 心細い, 情けない, 恥ずかしい, 頼もしい, 喜ばしい, うらやましい, 腹立たしい.\n- **な-adjective + な + 限りだ**: 残念な限りだ, 不安な限りだ.\n- Polite: 〜限りです (common in speeches: うれしい限りです).\n\nRestrictions:\n- Only **emotion/evaluation** adjectives. ✗高い限りだ, ✗静かな限りだ (not feelings).\n- It states the speaker's own feeling; it is not normally used to describe how someone else feels.\n- It is not used with nouns: ✗喜びの限りだ (use 喜びにたえない, #69).\n\nOther 限り patterns — don't mix them up:\n- **〜限り** (N2) *as long as ~ / as far as ~*: 私が知っている限り.\n- **〜ない限り** (N2) *unless ~*.\n- **N限りで** (#106) *(ending) with / as of N*: 今月限りで閉店.\n- **〜の限りを尽くす** *do everything possible*: 贅沢の限りを尽くす.\n\nCompare with the other intensifiers in this chapter: 〜の至り (#66) and 〜にたえない (#69) take nouns and are more ceremonious; 〜限りだ takes adjectives and is usable in everyday speech and writing as well as speeches.\n\nJLPT tip: when the blank sits between a feeling adjective and だ/です (うれしい（　）です, 悔しい（　）だ), the answer is 限り.",
           "see": [
             66,
             69,
@@ -536,7 +536,7 @@ N2.register({
                 {
                   "q": "クラスの学生が全員、日本語能力試験N1レベルに合格できたとは＿＿限りだ。",
                   "answer": "喜ばしい",
-                  "en": "It is truly gratifying that every student in the class was able to pass the JLPT at N1 level."
+                  "en": "It is truly gratifying that every student in the class managed to pass the JLPT at N1 level."
                 },
                 {
                   "q": "A：今度の{監督|かんとく}はナショナルチームの{監督|かんとく}を務めたこともあるんだって。\nB：それは＿＿限りだ。",
@@ -546,7 +546,7 @@ N2.register({
                 {
                   "q": "入社したてのころは社内事情もわからず相談できる友人もいなくて、＿＿限りだった。",
                   "answer": "{心細|こころぼそ}い",
-                  "en": "When I had just joined the company, I didn't know how things worked there and had no friends to talk to, so I felt terribly helpless."
+                  "en": "When I had just joined the company, I didn't know how things worked and had no friends to turn to, so I felt terribly lonely and insecure."
                 },
                 {
                   "q": "うちの会社は{警備会社|けいびがいしゃ}なのに泥棒に入られるなんて＿＿限りだ。",
@@ -575,17 +575,17 @@ N2.register({
             {
               "q": "初級で習った漢字なのに読めないなんて、恥ずかしい＿＿だ。",
               "answer": "限り",
-              "en": "Not being able to read kanji I learned at beginner level — how embarrassing."
+              "en": "Not being able to read kanji I learned at beginner level — how utterly embarrassing."
             },
             {
               "q": "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員{一同|いちどう}喜び＿＿。",
               "answer": "にたえません",
-              "en": "Today, having safely reached our 100th anniversary like this, all of us employees are overjoyed."
+              "en": "Having safely reached our 100th anniversary like this today, all of us employees are filled with joy."
             },
             {
               "q": "お電話でのお問い合わせは{本日|ほんじつ}6時＿＿終了させていただきました。",
               "answer": "をもちまして",
-              "en": "Telephone inquiries closed as of 6 o'clock today."
+              "en": "We stopped taking telephone inquiries as of 6 o'clock today."
             },
             {
               "q": "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。",
@@ -609,7 +609,7 @@ N2.register({
             {
               "q": "何もわからぬ{素人|しろうと}の＿＿変な質問をするかしれませんが、お許しください。",
               "answer": "こととて",
-              "en": "As I am an amateur who knows nothing, I may ask strange questions, but please forgive me."
+              "en": "As I am a complete amateur who knows nothing, I may ask odd questions, so please forgive me."
             },
             {
               "q": "このたびは{親善大使|しんぜんたいし}に{任命|にんめい}していただき、{光栄|こうえい}の＿＿でございます。",
@@ -649,9 +649,9 @@ N2.register({
               "限り"
             ],
             "answer": 3,
-            "en": "I sent in so many entry postcards, and not a single one won — it's so frustrating.",
+            "en": "I sent in all those entry postcards, and not a single one won — it's so frustrating!",
             "why": {
-              "en": "A feeling adjective + （　）だ → 限りだ (#71). 至り takes nouns such as 光栄/感激 (#66)."
+              "en": "A feeling adjective + （　）だ → 限りだ, \"I feel so ~\" (#71). 至り follows a noun + の (光栄の至り, #66); あまり and しまつ don't attach to an adjective + だ like this."
             }
           },
           {
@@ -665,7 +665,7 @@ N2.register({
             "answer": 1,
             "en": "Anyone who is a judge must never forget to pursue the truth from a position of fairness.",
             "why": {
-              "en": "A status noun + たる者 + てはならない states what someone in that role must do (#70)."
+              "en": "A status noun + たる者 + てはならない states what anyone in that role must do (#70). あっての (only possible thanks to), ならではの (unique to) and なりの (in one's own way) don't lead into 者 + an obligation."
             }
           },
           {
@@ -679,7 +679,7 @@ N2.register({
             "answer": 0,
             "en": "My design has won the grand prize, and I am overjoyed.",
             "why": {
-              "en": "喜びにたえません = I am extremely happy (#69)."
+              "en": "喜びにたえません = I am overjoyed (#69). 喜ぶまでもありません (there's no need to be glad), 喜びのいかんです and 喜ばないではおきません (will surely make someone glad) don't express the speaker's joy at winning."
             }
           },
           {
@@ -691,9 +691,9 @@ N2.register({
               "こととて"
             ],
             "answer": 3,
-            "en": "The sunshine has been getting warmer, but it being early spring, mornings and evenings are still chilly.",
+            "en": "The sunshine has been growing warmer, but as it is still early spring, mornings and evenings are chilly.",
             "why": {
-              "en": "N + の + こととて gives the circumstance as a reason: since it is early spring (#68)."
+              "en": "N + の + こととて gives a circumstance as the reason: it being early spring, it is still chilly (#68). あまり needs a noun of feeling (心配のあまり), and うえで / 限りで don't give a reason."
             }
           },
           {
@@ -707,7 +707,7 @@ N2.register({
             "answer": 2,
             "en": "Thank you for taking the trouble to come and help me move on your day off.",
             "why": {
-              "en": "お休みのところを + thanks is the courteous lead-in of #65."
+              "en": "お休みのところを before an expression of thanks is the courteous preface of #65. すえに and あげく (after / in the end) and くせに (even though — critical) don't fit a thank-you."
             }
           },
           {
@@ -721,7 +721,7 @@ N2.register({
             "answer": 0,
             "en": "Because of renovation work, this entrance will be closed as of the last day of this month.",
             "why": {
-              "en": "A date + をもちまして marks the point at which something changes (#67)."
+              "en": "A date + をもちまして marks the point at which something changes or ends — here, the closure (#67). によって, のところを and にわたって don't mark a cut-off date."
             }
           }
         ]
@@ -791,7 +791,7 @@ N2.register({
               2
             ],
             "star": 2,
-            "en": "Blue sky and green trees — a morning greeted on the highlands is wonderfully refreshing."
+            "en": "Blue skies and green trees — a morning spent up on the plateau is wonderfully refreshing."
           }
         ]
       }
@@ -815,8 +815,8 @@ N2.register({
           "さて、水は、私たちが生きる上で[4]、その一方で、生命を{脅|おびや}かすものでもあります。それでは……"
         ],
         "en": [
-          "(Applause) …Well, well, there are more people here than usual…. (Laughter from the hall)\nIt seems that even the alumni among you have taken the trouble to come today despite being busy, and I am truly delighted.",
-          "Er, today, with this lecture, I will be leaving this university, and as my last lecture I would like to take up the subject of “water” to round off my 35 years here.",
+          "(Applause) …Well now, there are more people here than usual…. (Laughter from the audience)\nIt seems that even you alumni have taken the trouble to come today, busy as you are, and I am truly delighted.",
+          "Er, with today's lecture I will be leaving this university, and to finish I would like to take up the subject of “water” as the conclusion of my 35 years here.",
           "Now, water is something we cannot live without, but on the other hand it is also something that threatens life. Well then…"
         ],
         "blanks": [
@@ -829,7 +829,7 @@ N2.register({
             ],
             "answer": 1,
             "why": {
-              "en": "忙しいところ + thanks/appreciation for coming (#65)."
+              "en": "忙しいところ, \"busy as you are\", prefaces the speaker's appreciation that the alumni came (#65). こととて would give a reason, not a courteous preface."
             }
           },
           {
@@ -841,7 +841,7 @@ N2.register({
             ],
             "answer": 3,
             "why": {
-              "en": "嬉しい限りです = I am truly delighted (#71)."
+              "en": "嬉しい限りです = I am truly delighted (#71). しまつ, まま and どころ don't follow a feeling adjective to express emotion."
             }
           },
           {
@@ -853,7 +853,7 @@ N2.register({
             ],
             "answer": 2,
             "why": {
-              "en": "この講義をもちまして marks the point at which the professor's time at the university ends (#67)."
+              "en": "この講義をもちまして marks the point at which the professor's time at the university ends (#67). を皮切りに would mark a beginning, をよそに means \"ignoring\", and をおいて means \"apart from\"."
             }
           },
           {
@@ -865,7 +865,7 @@ N2.register({
             ],
             "answer": 0,
             "why": {
-              "en": "Water is indispensable for living (なくてはならない), but on the other hand it also threatens life — the contrast needs ですが."
+              "en": "Water is indispensable for life (なくてはならない), and yet it also threatens life: ですが sets up the contrast with その一方で. あってはならない means \"must not exist\", and こととて (a reason) makes no sense here."
             }
           }
         ]
@@ -895,7 +895,7 @@ N2.register({
               }
             ],
             "en": [
-              "Er, I am Ueda, and as of today I have taken office as president. Our company is currently in a difficult financial position. Right now we must concentrate on our company's areas of strength and stabilize the business. We will reorganize the operations that have been overextended, but we are not considering reducing staff. As this is a major reform, difficulties are expected, but it is very reassuring to be able to move forward together with all of you."
+              "Er, as of today I have taken office as president; my name is Ueda. Our company is currently in a difficult position. For now we must concentrate on our areas of strength and put the business on a stable footing. We will rationalize the operations we have overextended, but we are not considering reducing staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."
             ],
             "options": [
               "{社員|しゃいん}を{集|あつ}める",
@@ -905,7 +905,7 @@ N2.register({
             ],
             "answer": 1,
             "why": {
-              "en": "今は…経営を安定させなければなりません: stabilizing the business is the immediate task. He will scale back overextended operations and explicitly rules out cutting staff."
+              "en": "今は…経営を安定させなければなりません: stabilizing the business is the immediate task. He will scale back overextended operations (not expand them) and explicitly rules out cutting staff; gathering staff is never mentioned."
             }
           }
         ]
