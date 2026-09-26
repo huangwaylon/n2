@@ -421,7 +421,7 @@ TRY.registerChapter({
           { cont: true, ja: "{優斗|ゆうと}はもうしばらくすれば目を覚ますだろう。", en: "Yuto would probably wake up before long." },
           { cont: true, ja: "しかし、自分が戦いの結果を{左右|さゆう}したことは覚えているまい。", en: "But he surely would not remember that it was he who had decided the outcome of the battle." },
           { cont: true, ja: "{萌花|もえか}も{優斗|ゆうと}がそのような力を持っているとは想像**だにしなかった**。", en: "Moeka herself had never so much as imagined that Yuto possessed such power." },
-          { cont: true, ja: "{優斗|ゆうと}に力のことを伝えるかどうか、{萌花|もえか}はまだ決め**かねて**いる。", en: "Moeka still can't bring herself to decide whether to tell Yuto about his power." },
+          { cont: true, ja: "{優斗|ゆうと}に力のことを伝えるかどうか、{萌花|もえか}はまだ決め**かねて**いる。", en: "Moeka still can't make up her mind whether to tell Yuto about his power." },
           { cont: true, ja: "それを伝えれば、{優斗|ゆうと}もまた今日**を限りに**普通の高校生の生活には戻れない。", en: "If she tells him, then Yuto too will, from this day on, never be able to return to the life of an ordinary high school student." },
           { ja: "「まあいい。今は少し休もう。」{萌花|もえか}は考えるのをやめ、静かに目を閉じた。", en: "\"Oh well. For now, let's rest a little.\" Moeka stopped thinking and quietly closed her eyes." },
           { style: "right", ja: "（{完|かん}）", en: "(The End)" },
