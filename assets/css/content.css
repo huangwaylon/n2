@@ -272,6 +272,8 @@
   .sample--rings::before { left: 12px; right: 150px; background-size: 24px 16px; }
   .sample__tools { right: 8px; gap: 6px; }
   .prose, .dlg, .exs { font-size: 16.5px; }
+  /* ~20 characters a line: justifying stretches a whole line when an unbreakable word with furigana wraps */
+  .prose__p, .vt--h p { text-align: start; }
   .nt-heading { font-size: 26px; }
   .nt-row { grid-template-columns: 4.6em minmax(0, 1fr); }
   .nt-cells { grid-template-columns: auto auto auto; column-gap: .7em; justify-content: start; }
@@ -295,7 +297,6 @@
   .cando__list { padding-left: 1.4em; }
   .sample { padding-inline: 12px; }
   .prose, .dlg, .exs { font-size: 16px; line-height: 1.95; }
-  .prose__p { text-align: start; }
   .nt-heading { font-size: 22px; }
   .nt-cells { display: flex; flex-wrap: wrap; gap: 0 .8em; }
   .nt-cells > span { grid-column-start: auto !important; }
@@ -326,3 +327,7 @@
 .vt .vt-note, .prose__p--note, .dlg__row--note .ja { font-size: .82em; color: var(--ink-2); text-indent: 0; }
 .vt .vt-note { padding-block-start: 2em; }
 .exs__foot { display: block; text-align: right; font-size: .8em; color: var(--ink-2); line-height: 1.5; margin: .1em 0 .2em; }
+/* headlines: break only at the book's spaces / punctuation ("ビールの祭典　200周年"), not inside a word; a phrase that is
+   still too long for the column breaks anywhere */
+.sample__headline, .vt--h .vt-title, .nt-heading { word-break: keep-all; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .vt--h .vt-title { font-size: 1.3em; } .sample__headline { font-size: 21px; } }

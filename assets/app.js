@@ -51,18 +51,19 @@
   const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po|文|数)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
   const TCY_RE = /(?<![\d,.])\d{1,2}(?![\d,.])/g;
 
-  // Horizontal furigana (docs/LAYOUT.md, "Furigana"). Native <ruby> can't be laid out consistently: Chrome spreads the kanji
-  // to the reading's width and WebKit (iOS Safari) ignores positioning on <ruby>/<rt>, so readings drift off their kanji.
-  // Instead: <span class="rb"> (inline-block: base) + <span class="rt"> (absolutely centred above the base). The reading may
-  // overhang a neighbouring kana / punctuation mark by up to one furigana character, as in the book (JIS X 4051), but
-  // never a kanji or another reading; whatever is still wider than the base becomes side margin, so readings never
-  // collide. --rw / --bw = reading / base width in characters, --ol / --or = 1 when that side may be overhung (CSS in base.css).
-  // Vertical text (opts.vertical) keeps native <ruby>, which lays out correctly in 縦書き.
+  // Furigana (docs/LAYOUT.md "Furigana"): native <ruby>base<rt>reading</rt></ruby>, horizontal and vertical alike.
+  // Measured in iOS Safari (WebKit) and Chrome: native ruby keeps every reading centred on its kanji and the line pitch even,
+  // provided the block's line-height leaves room for the reading (≥ 1.9, see base.css) and the Japanese font has CJK
+  // metrics (Hiragino first in the font stacks: with Noto webfonts WebKit makes every line that carries ruby taller).
+  // A reading wider than its base would push the neighbours apart ("集　客　が"); as in the book (JIS X 4051) it may instead
+  // overhang a neighbouring kana or punctuation mark — never a kanji or another reading — by up to one furigana character
+  // (.5em) per side. Done with negative inline margins on the <ruby> (the reading stays centred); measured in WebKit and Blink.
   const RUBY_RE = /\{([^{}|]+)\|([^{}]+)\}/g;
+  const RT_K = 0.5; // furigana size / text size (ruby rt font-size in base.css)
   const OVERHANG_OK = /[ぁ-ゖゝゞァ-ヺーヽヾ、。，．・：；！？「」『』（）〈〉《》…‥〜～]/;
   const cw = (s) => Array.from(s).reduce((n, c) => n + (/[\x20-\x7e]/.test(c) ? 0.55 : 1), 0);
+  // next visible character before/after a ruby, skipping inline markup (** __ ~~) and tags
   function neighbour(str, i, dir) {
-    // skip inline markup (** __ ~~) and tags between this ruby and the next visible character
     while (i >= 0 && i < str.length) {
       const c = str[i];
       if (c === "*" || c === "_" || c === "~") { i += dir; continue; }
@@ -73,9 +74,16 @@
     return "";
   }
   function rubyHtml(m, base, rd, off, str) {
-    const prev = neighbour(str, off - 1, -1), next = neighbour(str, off + m.length, 1);
-    const ol = OVERHANG_OK.test(prev) ? 1 : 0, or = OVERHANG_OK.test(next) ? 1 : 0;
-    return `<span class="rb" style="--rw:${cw(rd)};--bw:${cw(base)};--ol:${ol};--or:${or}"><span class="rb-b">${base}</span><span class="rt" aria-hidden="true">${rd}</span></span>`;
+    const e = cw(rd) * RT_K - cw(base);
+    let st = "";
+    // WebKit and Blink already let a reading overhang both neighbours by up to half a furigana character (.25em);
+    // the margin adds the rest, up to one furigana character in total
+    if (e > 0.5 && typeof str === "string") {
+      const h = Math.min(e / 2, RT_K) - RT_K / 2, r2 = (x) => Math.round(x * 100) / 100;
+      const l = OVERHANG_OK.test(neighbour(str, off - 1, -1)) ? r2(h) : 0, r = OVERHANG_OK.test(neighbour(str, off + m.length, 1)) ? r2(h) : 0;
+      if (l || r) st = ` style="margin-inline:${-l}em ${-r}em"`;
+    }
+    return `<ruby${st}>${base}<rt>${rd}</rt></ruby>`;
   }
   // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
   // badge classes: colour hook b-n | b-i | b-na | b-pl | b-v, plus shape b-round (bare N/V/A) | b-pill (has "-") | b-sq (Pl/Po)
@@ -88,7 +96,7 @@
       const shape = /^P/.test(inner) ? "b-sq" : inner.includes("-") ? "b-pill" : "b-round";
       return `<span class="badge ${cls} ${shape}">${html}</span>`;
     });
-    t = opts.vertical ? t.replace(/\{([^{}|]+)\|([^{}]+)\}/g, "<ruby>$1<rt>$2</rt></ruby>") : t.replace(RUBY_RE, rubyHtml);
+    t = t.replace(RUBY_RE, rubyHtml);
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     t = t.replace(/__(.+?)__/g, '<u class="ul">$1</u>');
     t = t.replace(/~~(.+?)~~/g, "<s>$1</s>");

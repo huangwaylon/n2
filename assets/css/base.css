@@ -22,11 +22,13 @@
   --sbw: 260px;          /* sidebar width (280px at ≥1200) */
   --main-pad: 28px;      /* main side padding: 28 / 20 (≤900) / 14 (≤600) / 12 (≤390); full-bleed = calc(-1*var(--main-pad)) */
   --safe-l: env(safe-area-inset-left, 0px); --safe-r: env(safe-area-inset-right, 0px);
-  --jp: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, sans-serif;
-  --serif: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  /* Apple's Hiragino first: its CJK metrics let WebKit fit furigana into the line's leading (with Noto's taller
+     ascent every line with ruby grows in iOS Safari); Noto webfonts elsewhere (only downloaded where Hiragino is missing) */
+  --jp: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
+  --serif: "Hiragino Mincho ProN", "Noto Serif JP", "Yu Mincho", serif;
   /* book design tokens (docs/LAYOUT.md §0.2) */
-  --goth: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, sans-serif;
-  --mincho: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --goth: var(--jp);
+  --mincho: var(--serif);
   --band: #e6e4e1;        /* grammar-point header band, table header tint */
   --band-edge: #6d7075;   /* thick left bar of the header band, chapter banner */
   --banner: #7f8388;      /* chapter opener band (white text on it) */
@@ -65,13 +67,13 @@ a { color: var(--teal); text-decoration: none; }
 @media (hover: hover) { a:hover { text-decoration: underline; } }
 :focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 4px; }
 h1, h2, h3, h4 { line-height: 1.5; }
-/* native <ruby> is only used in vertical text (.vt); horizontal furigana is .rb/.rt below */
-ruby { ruby-position: over; ruby-align: center; }
-ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; }
+/* furigana: native ruby (see RUBY_RE in app.js). Centred over the base, .5em (= RT_K in app.js, used for the overhang);
+   any block with ruby needs line-height ≥ 1.9 so the reading sits in the leading and the line pitch stays even */
+ruby { ruby-position: over; ruby-align: center; text-indent: 0; }
+ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; font-style: normal; letter-spacing: 0; text-indent: 0; text-decoration: none; -webkit-user-select: none; user-select: none; }
 /* iOS Safari zooms on focus if a form control is < 16px */
 @media (max-width: 900px), (pointer: coarse) { body :is(input, select, textarea) { font-size: max(16px, 1em); } }
-body.no-furi :is(rt, .rt) { display: none; }
-body.no-furi .rb { margin: 0; }
+body.no-furi rt { display: none; }
 strong { color: var(--accent); font-weight: 700; }
 .dim { color: var(--ink-3); }
 .small { font-size: 0.85em; }
@@ -149,43 +151,8 @@ s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 5
 .cd-badge.speaking { background: var(--ink); color: var(--panel); }
 .err { color: var(--ng); }
 
-/* ---------- horizontal furigana (fmt() → .rb / .rt; see the comment above RUBY_RE in app.js) ----------
-   --rk = furigana size relative to the text. Every length is in em of the ruby's own text, so the same rules work in
-   headings, options and tables. The margin-top reserves the reading's height inside the line box, so a reading can
-   never run into the line above even where line-height is tight. */
-:root { --rk: .5; }
-@media (max-width: 600px) { :root { --rk: .55; } }
-/* Unitless lengths in the ruby's em: e = excess of the reading over the base, l / r = how far the reading may overhang
-   the left / right neighbour (one furigana character, only onto kana or punctuation). pl = the part of the excess put on
-   the left: centred when it fits, shifted toward the side that may be overhung when one side is blocked, and whatever
-   fits nowhere is split evenly as side margins. The reading is then moved by (e/2 − pl) from the base's centre. */
-.rb {
-  --e: calc(var(--rw) * var(--rk) - var(--bw));
-  --l: calc(var(--ol) * var(--rk));
-  --r: calc(var(--or) * var(--rk));
-  --pl: min(calc(var(--l) + max(0, (var(--e) - var(--l) - var(--r)) / 2)), max(calc(var(--e) - var(--r)), calc(var(--e) / 2)));
-  display: inline-block; position: relative; line-height: 1; text-indent: 0; vertical-align: baseline;
-  margin-top: calc(var(--rk) * 1em + .08em);
-  margin-left: calc(max(0, var(--pl) - var(--l)) * 1em);
-  margin-right: calc(max(0, var(--e) - var(--pl) - var(--r)) * 1em);
-}
-.rb > .rt {
-  position: absolute; left: 50%; bottom: 100%;
-  /* the rt's own em is rk × the ruby's em, hence the division */
-  transform: translate(calc(-50% + (var(--e) / 2 - var(--pl)) / var(--rk) * 1em), -.04em);
-  font-size: calc(var(--rk) * 100%); line-height: 1; white-space: nowrap; letter-spacing: 0; text-align: center;
-  color: var(--ink-2); font-weight: 400; font-style: normal; text-decoration: none;
-  pointer-events: none; -webkit-user-select: none; user-select: none;
-}
-/* text decorations don't propagate into inline-blocks: carry underline / strike through to the base */
-:is(u, s, del) .rb-b { text-decoration: inherit; text-decoration-line: inherit; }
-u.ul .rb-b { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }
-s .rb-b { text-decoration: line-through; }
-
-/* ---------- the book's Chinese translations (N1, Chinese edition) ---------- */
+/* ---------- misc ---------- */
 /* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
 /* English-only block (N1 front matter the book prints only in Chinese): always shown, full size */
 .bi--en-only > .en { display: block; font-size: 15px; color: var(--ink-2); }
 u.ul { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }
-/* places that hide the readings (sidebar, chips, pager, links, pattern lines) drop the space reserved for them */
-:is(.sb-t, .sb-gps a, .cc-genre, .pager, .mt-gp, .gp-pattern, .gp-link) .rb { margin: 0; }

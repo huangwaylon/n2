@@ -65,11 +65,25 @@ Keep the existing tokens. Add the book greys below, and use them for structure i
 | Chapter numeral (banner) | 96px | 60px | 52px |
 | Grammar-point title (header band) | 22px | 19px | 17.5px |
 | Pills | 15px | 14px | 14px |
-| Furigana `rt` | `max(.5em, 9px)` | same | same |
+| Furigana `rt` | `.5em` | same | same |
 
-- Ruby CSS (base.css): `ruby { ruby-position: over; ruby-align: center; } rt { font-size: max(.5em, 9px); line-height: 1; font-weight: 400; }`.
-  - `ruby-align: center` stops a wide reading from spreading the base kanji apart ("求　人" gaps in the 390-px shot). Browsers without support ignore it harmlessly.
-- Any block that contains ruby must have line-height ≥ 1.9. Otherwise lines with furigana get taller than lines without, and the spacing looks uneven.
+- **Furigana (current implementation, measured in iOS Safari 26 and Chrome):** `fmt()` emits native
+  `<ruby>base<rt>reading</rt></ruby>` in horizontal and vertical text alike. `ruby { ruby-position: over; ruby-align: center }`,
+  `rt { font-size: .5em; line-height: 1 }` (the book's ratio; `RT_K` in app.js).
+  - **Fonts:** Hiragino comes first in `--jp` / `--serif` (Noto webfonts only where Hiragino is missing). With Noto's tall
+    ascent WebKit makes every line that carries ruby ~4 px taller (uneven pitch 37/33 px); with Hiragino (and in Chrome with
+    either font) the reading sits in the leading and the pitch is even at any line-height ≥ 1.8.
+  - **Line-height:** any block with ruby needs ≥ 1.9 (2.0 for book text), so the reading never reaches the line above.
+  - **Overhang (JIS X 4051):** both engines already let a reading overhang its neighbours by .25em. A wider reading gets
+    `style="margin-inline:-Xem -Yem"` on the `<ruby>`, only toward a kana / punctuation neighbour (never a kanji or another
+    reading), up to one furigana character (.5em) per side in total, so "集客が" is not set as "集　客　が".
+  - **Why not the `.rb`/`.rt` inline-block spans of 9a5cfc0:** their reserved `margin-top` made lines with furigana taller
+    than lines without (uneven pitch on phones), a multi-kanji base became one unbreakable inline-block (whole lines
+    stretched by justification: "が、　本場　は　雰囲気"), and the computed side margins pushed kana apart.
+  - `tools/lib/furi-probe.mjs` checks all of this in the page (readings off-centre, covering text or boxes, clipped, uneven
+    pitch): `node tools/overflow.mjs ROUTE W --furi` (Chrome) and `node tools/lib/wkshot.mjs DEVICE ROUTE --probe` (iOS Safari).
+- Phone text (≤600): prose is set ragged (`text-align: start`): at ~20 characters a line, justifying stretches a whole line
+  whenever an unbreakable word with furigana wraps. Sample headlines break only at the book's spaces (`word-break: keep-all`).
 - Every `<input>` and `<select>` must be **≥16px** on mobile. Today `select` is 14.7px, which makes iOS Safari zoom in on focus.
 
 ### 0.4 Shared primitives (base.css + helpers in app.js, [A])
