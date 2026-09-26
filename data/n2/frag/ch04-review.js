@@ -109,7 +109,7 @@ N2F({ ch: 4, review: [
             { sp: "F", v: "f", ja: "{東名高速道路|とうめいこうそくどうろ}は18日日曜日の午前0時から月曜日の午前にかけて、工事のため、{全面通行止|ぜんめんつうこうど}めになります。安全{第一|だいいち}で{作業|さぎょう}を進めますので、皆様のご{理解|りかい}とご{協力|きょうりょく}をお願いいたします。" },
           ],
           en: [
-            "A woman is speaking. What will people who heard this announcement do?",
+            "A woman is speaking. What will people who hear this announcement do?",
             "The Tomei Expressway will be completely closed to traffic for construction from midnight on Sunday the 18th through Monday morning. We will carry out the work with safety as our top priority, and ask for everyone's understanding and cooperation.",
           ],
           options: ["{東名高速道路|とうめいこうそくどうろ}で{工事|こうじ}をする", "{東名高速道路|とうめいこうそくどうろ}を{通|とお}らない", "{安全|あんぜん}に{運転|うんてん}する", "{作業|さぎょう}を{手伝|てつだ}う"],

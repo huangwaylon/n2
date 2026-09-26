@@ -13,15 +13,15 @@ N2F({
     kind: "news",
     lines: [
       { ja: "次は{台風|たいふう}{関係|かんけい}のニュースをお伝えします。", en: "Next, news about the typhoon." },
-      { ja: "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}{海上|かいじょう}にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。", en: "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometres per hour." },
-      { cont: true, ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the centre is 35 metres per second." },
+      { ja: "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}{海上|かいじょう}にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。", en: "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometers per hour." },
+      { cont: true, ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second." },
       { cont: true, ja: "今後{台風|たいふう}は{速度|そくど}を速め**つつ**東に進むと{予想|よそう}されます。", en: "The typhoon is expected to move east while picking up speed." },
-      { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、{広範囲|こうはんい}**にわたって**強い雨が降っています。", en: "At present, the area centred on Okinawa has entered the storm zone, and heavy rain is falling over a wide area." },
+      { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、{広範囲|こうはんい}**にわたって**強い雨が降っています。", en: "At present, the area centered on Okinawa has entered the storm zone, and heavy rain is falling over a wide area." },
       { cont: true, ja: "また、{九州|きゅうしゅう}{沿岸|えんがん}**から**{四国|しこく}**にかけて**{波|なみ}も高くなってきています。", en: "The waves are also getting higher from the Kyushu coast to Shikoku." },
       { ja: "{台風|たいふう}の{接近|せっきん}**にともない**、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}{洪水|こうずい}{注意報|ちゅういほう}が出されています。", en: "With the approach of the typhoon, heavy-rain and flood advisories have been issued in various areas, starting with southern Kyushu." },
       { cont: true, ja: "これから{明日|あす}の{明|あ}け{方|がた}にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降る**おそれがあります**。", en: "From now until dawn tomorrow, heavy rain of 70 mm per hour may fall locally." },
       { cont: true, ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}**とともに**{河川|かせん}の{増水|ぞうすい}にもご注意ください。", en: "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds." },
-      { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We plan to show you the situation in Okinawa, which is now in the storm zone, during the programme as soon as the live link is connected." },
+      { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We plan to show you the situation in Okinawa, which is now in the storm zone, during the program as soon as the live link is connected." },
     ],
   },
   points: [
@@ -38,7 +38,7 @@ N2F({
       forms: ["[V-~~ます~~] + つつ"],
       examples: [
         { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべつつ、プレゼントを選ぶお父さんの{姿|すがた}が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces." },
-        { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators gave warm applause to Suzuki, who kept running while favouring the leg he had injured in a fall, and finished the race." },
+        { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators gave warm applause to Suzuki, who kept running while favoring the leg he had injured in a fall, and finished the race." },
         { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department." },
         { ja: "{趣味|しゅみ}の{園芸|えんげい}教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At the gardening class I take as a hobby, I enjoy chatting with my friends while learning how to grow flowers." },
       ],
@@ -76,7 +76,7 @@ N2F({
           en: [
             "At this hotel you can take a leisurely soak in the hot spring while enjoying the beautiful scenery.",
             "I went out to the party hoping to meet someone new.",
-            "My mother teaches doll-making to people in the neighbourhood while helping with the family business.",
+            "My mother teaches doll-making to people in the neighborhood while helping with the family business.",
             "Encouraging one another in the bitter cold, they waited to be rescued.",
           ],
         },
@@ -101,7 +101,7 @@ N2F({
       ],
       deepDive:
         "**〜にわたって** comes from the verb 渡る *to cross over, to extend across*. The image is of something stretching from one end of a span to the other and covering all of it: 1週間にわたって = *for a whole week*; 50キロにわたって = *along a full 50 km*.\n\n" +
-        "What goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasises that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\n" +
+        "What goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasizes that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\n" +
         "The forms:\n" +
         "- **にわたって** — the standard adverbial form.\n" +
         "- **にわたり** — the written, clause-linking form (news, reports): 10回にわたり行われる.\n" +
@@ -117,7 +117,7 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "今年の{生|い}け{花|ばな}{講座|こうざ}は10回（　）市民センターで{行|おこな}われる。", options: ["にわたり", "にわたる"], answer: 0, en: "This year's flower-arranging course will be held at the community centre over ten sessions." },
+            { q: "今年の{生|い}け{花|ばな}{講座|こうざ}は10回（　）市民センターで{行|おこな}われる。", options: ["にわたり", "にわたる"], answer: 0, en: "This year's flower-arranging course will be held at the community center over ten sessions." },
             { q: "10年間（　）{遺跡|いせき}の{調査|ちょうさ}が{昨年|さくねん}{終了|しゅうりょう}した。", options: ["にわたって", "にわたった"], answer: 1, en: "The ten-year survey of the ruins was completed last year." },
             { q: "{事故|じこ}のため、{数|すう}時間（　）{新幹線|しんかんせん}がストップした。", options: ["にわたり", "にわたる"], answer: 0, en: "Because of an accident, the Shinkansen was stopped for several hours." },
             { q: "弟はバイク{事故|じこ}で大けがをしたが、8時間（　）{手術|しゅじゅつ}が{成功|せいこう}して{命|いのち}が助かった。", options: ["にわたり", "にわたる"], answer: 1, en: "My younger brother was badly injured in a motorbike accident, but an eight-hour operation succeeded and his life was saved." },
@@ -140,14 +140,14 @@ N2F({
         { ja: "本日、{九州|きゅうしゅう}から{四国|しこく}{地方|ちほう}にかけて、{梅雨|つゆ}{入|い}りしました。", en: "Today the rainy season began in the area from Kyushu to Shikoku." },
         { ja: "この動物はアジアからアフリカにかけて、{群|む}れで{暮|く}らしている。", en: "This animal lives in herds across the region from Asia to Africa." },
         { ja: "12月{中旬|ちゅうじゅん}から{年末|ねんまつ}にかけて、町は買い物客でにぎわう。", en: "From mid-December to the end of the year, the town is bustling with shoppers." },
-        { ja: "今年{流行|りゅうこう}のブラウスは{肩|かた}から{腕|うで}にかけてレースがついているのが{特徴|とくちょう}です。", en: "This year's fashionable blouses are characterised by lace running from the shoulders down the arms." },
+        { ja: "今年{流行|りゅうこう}のブラウスは{肩|かた}から{腕|うで}にかけてレースがついているのが{特徴|とくちょう}です。", en: "This year's fashionable blouses are characterized by lace running from the shoulders down the arms." },
       ],
       xref: "☞ p.224　〜にかけて",
       deepDive:
         "**AからBにかけて** marks a **rough span** between two points in time or space. The boundaries are fuzzy: 九州沿岸から四国にかけて波が高い means high waves *in the area between the Kyushu coast and Shikoku, more or less* — not necessarily everywhere, and not necessarily stopping exactly at the edges. This vagueness is exactly why weather reports love it: 夜から明け方にかけて, 東北から北陸にかけて.\n\n" +
         "Compare:\n" +
         "- **AからBまで**: precise start and end points. 9時から5時まで営業 (opening hours — you'd never say 9時から5時にかけて営業).\n" +
-        "- **〜にわたって** (#31): covers the *entire* span, emphasising its length or size. 1週間にわたって雨 = it rained for a whole week.\n" +
+        "- **〜にわたって** (#31): covers the *entire* span, emphasizing its length or size. 1週間にわたって雨 = it rained for a whole week.\n" +
         "- **AからBにかけて**: something happens *somewhere/sometime within* the span. 12月から3月にかけて雪が降る = snowy spells during Dec–Mar.\n\n" +
         "Grammar notes: both A and B are nouns (time words, place names, body parts). The phrase can modify a noun with の: 夕方から夜にかけての雨. It is common in news and forecasts but is also perfectly normal in everyday speech (首から背中にかけて赤くなった), so it is not limited to formal registers even though the book marks it as formal.\n\n" +
         "Don't confuse it with **Nにかけては** (#109), *when it comes to N (nobody beats ~)*: 料理の腕にかけては彼女が一番. That use has no から and is about skill.\n\n" +
@@ -172,9 +172,9 @@ N2F({
           ],
           answer: [2, 3, 0, 1],
           en: [
-            "In this region it snows from December to March, and the snow can pile up to three metres.",
+            "In this region it snows from December to March, and the snow can pile up to three meters.",
             "Because of the recession, 30 steel companies went bankrupt between 1998 and 2002.",
-            "I got sunburnt at the beach, and I turned red from my neck down to my back.",
+            "I got sunburned at the beach, and I turned red from my neck down to my back.",
             "Japanese tea is widely grown in the area from Akita to Okinawa.",
           ],
         },
@@ -238,7 +238,7 @@ N2F({
         { ja: "この{地震|じしん}による{津波|つなみ}のおそれはありません。", en: "There is no danger of a tsunami from this earthquake." },
         { ja: "この{化粧品|けしょうひん}はアレルギーを引き起こすおそれがあるので、{販売|はんばい}中止になった。", en: "Sales of this cosmetic were stopped because it may cause allergies." },
         { ja: "{災害時|さいがいじ}には{携帯|けいたい}電話がつながらないおそれがありますから、別の{連絡|れんらく}方法を考えておいてください。", en: "In a disaster, mobile phones may not get through, so please think of another way of getting in touch." },
-        { ja: "夕方から{雷|かみなり}が{発生|はっせい}し、それにともない{局地的|きょくちてき}に{大雨|おおあめ}が降るおそれがあります。", en: "Thunderstorms will develop from the evening, and with them there is a risk of localised heavy rain." },
+        { ja: "夕方から{雷|かみなり}が{発生|はっせい}し、それにともない{局地的|きょくちてき}に{大雨|おおあめ}が降るおそれがあります。", en: "Thunderstorms will develop from the evening, and with them there is a risk of localized heavy rain." },
       ],
       deepDive:
         "**おそれ** (恐れ) literally means *fear, dread*. 〜おそれがある = *there is fear that ~* → *there is a risk / danger that ~*. Because of this origin it is used **only for bad outcomes**: 事故を起こすおそれ, 健康を害するおそれ. You cannot say ✗合格するおそれがある or ✗晴れるおそれがある — for neutral or good possibilities use 〜可能性がある or 〜かもしれない.\n\n" +
@@ -291,7 +291,7 @@ N2F({
         "- **Linked change**: N / V-る + とともに + change verb (増える, 変わる, 〜ようになる). 子どもが成長するとともに親子の関係も変わる.\n\n" +
         "Compared with **〜にともなって** (#33): in the change-linked-to-change use they are often interchangeable (技術の進歩とともに / にともなって). But とともに can take a person as its partner, which にともなって cannot, and にともなって strongly implies cause and effect, whereas とともに may express mere simultaneity or addition.\n\n" +
         "Connection pitfalls: nouns attach directly (医師とともに); verbs use the dictionary form (成長するとともに); for a noun predicate in the addition use, you need である: ✓古い都であるとともに / ✗古い都とともに (that would mean *together with an old capital*).\n\n" +
-        "JLPT tip: in 問題1, if the blank follows a person or organisation (市民の皆様、家族), とともに is almost certainly the answer among options like にともない or にかけて.",
+        "JLPT tip: in 問題1, if the blank follows a person or organization (市民の皆様、家族), とともに is almost certainly the answer among options like にともない or にかけて.",
       see: [33],
       index: ["Nとともに", "Vるとともに", "Nであるとともに", "と共に"],
       practice: [
@@ -361,7 +361,7 @@ N2F({
             { q: "{花村|はなむら}さんが（　）、{送別会|そうべつかい}を始めましょう。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 0, en: "Let's start the farewell party as soon as Ms. Hanamura arrives." },
             { q: "{花村|はなむら}さんが（　）、{職場|しょくば}の{雰囲気|ふんいき}が明るくなった。", options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"], answer: 1, en: "Ever since Ms. Hanamura came, the atmosphere at work has become brighter." },
             { q: "お客様からのご{入金|にゅうきん}が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。", options: ["でき{次第|しだい}", "できるとともに"], answer: 0, en: "We will ship the goods as soon as we have confirmed the customer's payment." },
-            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologise that, owing to a safety check of the emergency doors at the time of this aircraft's departure, our departure was significantly delayed." },
+            { q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。", options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"], answer: 1, en: "We apologize that, as this aircraft was about to depart, a safety check of the emergency doors significantly delayed our departure time." },
           ],
         },
       ],

@@ -27,12 +27,12 @@ N2.register({
           },
           {
             "ja": "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}{海上|かいじょう}にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。",
-            "en": "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometres per hour."
+            "en": "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometers per hour."
           },
           {
             "cont": true,
             "ja": "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。",
-            "en": "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the centre is 35 metres per second."
+            "en": "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second."
           },
           {
             "cont": true,
@@ -41,7 +41,7 @@ N2.register({
           },
           {
             "ja": "{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、{広範囲|こうはんい}**にわたって**強い雨が降っています。",
-            "en": "At present, the area centred on Okinawa has entered the storm zone, and heavy rain is falling over a wide area."
+            "en": "At present, the area centered on Okinawa has entered the storm zone, and heavy rain is falling over a wide area."
           },
           {
             "cont": true,
@@ -64,7 +64,7 @@ N2.register({
           },
           {
             "ja": "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。",
-            "en": "We plan to show you the situation in Okinawa, which is now in the storm zone, during the programme as soon as the live link is connected."
+            "en": "We plan to show you the situation in Okinawa, which is now in the storm zone, during the program as soon as the live link is connected."
           }
         ]
       },
@@ -91,7 +91,7 @@ N2.register({
             },
             {
               "ja": "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。",
-              "en": "The spectators gave warm applause to Suzuki, who kept running while favouring the leg he had injured in a fall, and finished the race."
+              "en": "The spectators gave warm applause to Suzuki, who kept running while favoring the leg he had injured in a fall, and finished the race."
             },
             {
               "ja": "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。",
@@ -140,7 +140,7 @@ N2.register({
               "en": [
                 "At this hotel you can take a leisurely soak in the hot spring while enjoying the beautiful scenery.",
                 "I went out to the party hoping to meet someone new.",
-                "My mother teaches doll-making to people in the neighbourhood while helping with the family business.",
+                "My mother teaches doll-making to people in the neighborhood while helping with the family business.",
                 "Encouraging one another in the bitter cold, they waited to be rescued."
               ]
             }
@@ -182,7 +182,7 @@ N2.register({
               "en": "He is active in many fields, such as politics, economics and diplomacy."
             }
           ],
-          "deepDive": "**〜にわたって** comes from the verb 渡る *to cross over, to extend across*. The image is of something stretching from one end of a span to the other and covering all of it: 1週間にわたって = *for a whole week*; 50キロにわたって = *along a full 50 km*.\n\nWhat goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasises that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\nThe forms:\n- **にわたって** — the standard adverbial form.\n- **にわたり** — the written, clause-linking form (news, reports): 10回にわたり行われる.\n- **にわたる + N** — modifies a noun: 長年にわたる研究.\n- **にわたった + N** — modifies a noun and stresses that the span is over: 10年間にわたった遺跡の調査.\n\nContrast with **AからBにかけて** (#32): にかけて marks a rough range between two points and says something happened *somewhere/sometime in that range*; にわたって says it covered *the whole span*. 午後から夜にかけて雨 = rain at some point in that period; 5時間にわたって雨 = it rained for five hours straight. Note also that にわたって usually takes a single noun of extent (10年間), not an A-to-B pair — although 〜から〜にわたって does occur.\n\nCommon mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, ask what the phrase modifies: if it modifies the noun right after it (8時間にわたる手術, 10年間にわたった遺跡の調査), use にわたる/にわたった; if it modifies the verb or the whole clause, use にわたって/にわたり — even when a noun happens to follow the blank (数時間にわたり新幹線がストップした, 10回にわたり市民センターで行われる).",
+          "deepDive": "**〜にわたって** comes from the verb 渡る *to cross over, to extend across*. The image is of something stretching from one end of a span to the other and covering all of it: 1週間にわたって = *for a whole week*; 50キロにわたって = *along a full 50 km*.\n\nWhat goes before it: nouns expressing a **duration, distance, area or range** — 数時間, 長年, 10年間, 全域, 広範囲, 全国, 多方面, 各分野, 10回. It emphasizes that the extent is large, so it sounds odd with something tiny: ✗1分にわたって, ✗1メートルにわたって.\n\nThe forms:\n- **にわたって** — the standard adverbial form.\n- **にわたり** — the written, clause-linking form (news, reports): 10回にわたり行われる.\n- **にわたる + N** — modifies a noun: 長年にわたる研究.\n- **にわたった + N** — modifies a noun and stresses that the span is over: 10年間にわたった遺跡の調査.\n\nContrast with **AからBにかけて** (#32): にかけて marks a rough range between two points and says something happened *somewhere/sometime in that range*; にわたって says it covered *the whole span*. 午後から夜にかけて雨 = rain at some point in that period; 5時間にわたって雨 = it rained for five hours straight. Note also that にわたって usually takes a single noun of extent (10年間), not an A-to-B pair — although 〜から〜にわたって does occur.\n\nCommon mistake: choosing にわたる before a verb or にわたって before a noun. In 問題1 and in the やってみよう below, ask what the phrase modifies: if it modifies the noun right after it (8時間にわたる手術, 10年間にわたった遺跡の調査), use にわたる/にわたった; if it modifies the verb or the whole clause, use にわたって/にわたり — even when a noun happens to follow the blank (数時間にわたり新幹線がストップした, 10回にわたり市民センターで行われる).",
           "see": [
             32
           ],
@@ -208,7 +208,7 @@ N2.register({
                     "にわたる"
                   ],
                   "answer": 0,
-                  "en": "This year's flower-arranging course will be held at the community centre over ten sessions."
+                  "en": "This year's flower-arranging course will be held at the community center over ten sessions."
                 },
                 {
                   "q": "10年間（　）{遺跡|いせき}の{調査|ちょうさ}が{昨年|さくねん}{終了|しゅうりょう}した。",
@@ -271,11 +271,11 @@ N2.register({
             },
             {
               "ja": "今年{流行|りゅうこう}のブラウスは{肩|かた}から{腕|うで}にかけてレースがついているのが{特徴|とくちょう}です。",
-              "en": "This year's fashionable blouses are characterised by lace running from the shoulders down the arms."
+              "en": "This year's fashionable blouses are characterized by lace running from the shoulders down the arms."
             }
           ],
           "xref": "☞ p.224　〜にかけて",
-          "deepDive": "**AからBにかけて** marks a **rough span** between two points in time or space. The boundaries are fuzzy: 九州沿岸から四国にかけて波が高い means high waves *in the area between the Kyushu coast and Shikoku, more or less* — not necessarily everywhere, and not necessarily stopping exactly at the edges. This vagueness is exactly why weather reports love it: 夜から明け方にかけて, 東北から北陸にかけて.\n\nCompare:\n- **AからBまで**: precise start and end points. 9時から5時まで営業 (opening hours — you'd never say 9時から5時にかけて営業).\n- **〜にわたって** (#31): covers the *entire* span, emphasising its length or size. 1週間にわたって雨 = it rained for a whole week.\n- **AからBにかけて**: something happens *somewhere/sometime within* the span. 12月から3月にかけて雪が降る = snowy spells during Dec–Mar.\n\nGrammar notes: both A and B are nouns (time words, place names, body parts). The phrase can modify a noun with の: 夕方から夜にかけての雨. It is common in news and forecasts but is also perfectly normal in everyday speech (首から背中にかけて赤くなった), so it is not limited to formal registers even though the book marks it as formal.\n\nDon't confuse it with **Nにかけては** (#109), *when it comes to N (nobody beats ~)*: 料理の腕にかけては彼女が一番. That use has no から and is about skill.\n\nJLPT tip: if から appears earlier in the sentence and the blank follows a second time/place noun, にかけて is almost always the answer; にわたって rarely pairs with から on the test.",
+          "deepDive": "**AからBにかけて** marks a **rough span** between two points in time or space. The boundaries are fuzzy: 九州沿岸から四国にかけて波が高い means high waves *in the area between the Kyushu coast and Shikoku, more or less* — not necessarily everywhere, and not necessarily stopping exactly at the edges. This vagueness is exactly why weather reports love it: 夜から明け方にかけて, 東北から北陸にかけて.\n\nCompare:\n- **AからBまで**: precise start and end points. 9時から5時まで営業 (opening hours — you'd never say 9時から5時にかけて営業).\n- **〜にわたって** (#31): covers the *entire* span, emphasizing its length or size. 1週間にわたって雨 = it rained for a whole week.\n- **AからBにかけて**: something happens *somewhere/sometime within* the span. 12月から3月にかけて雪が降る = snowy spells during Dec–Mar.\n\nGrammar notes: both A and B are nouns (time words, place names, body parts). The phrase can modify a noun with の: 夕方から夜にかけての雨. It is common in news and forecasts but is also perfectly normal in everyday speech (首から背中にかけて赤くなった), so it is not limited to formal registers even though the book marks it as formal.\n\nDon't confuse it with **Nにかけては** (#109), *when it comes to N (nobody beats ~)*: 料理の腕にかけては彼女が一番. That use has no から and is about skill.\n\nJLPT tip: if から appears earlier in the sentence and the blank follows a second time/place noun, にかけて is almost always the answer; にわたって rarely pairs with から on the test.",
           "see": [
             31,
             109
@@ -310,9 +310,9 @@ N2.register({
                 1
               ],
               "en": [
-                "In this region it snows from December to March, and the snow can pile up to three metres.",
+                "In this region it snows from December to March, and the snow can pile up to three meters.",
                 "Because of the recession, 30 steel companies went bankrupt between 1998 and 2002.",
-                "I got sunburnt at the beach, and I turned red from my neck down to my back.",
+                "I got sunburned at the beach, and I turned red from my neck down to my back.",
                 "Japanese tea is widely grown in the area from Akita to Okinawa."
               ]
             }
@@ -450,7 +450,7 @@ N2.register({
             },
             {
               "ja": "夕方から{雷|かみなり}が{発生|はっせい}し、それにともない{局地的|きょくちてき}に{大雨|おおあめ}が降るおそれがあります。",
-              "en": "Thunderstorms will develop from the evening, and with them there is a risk of localised heavy rain."
+              "en": "Thunderstorms will develop from the evening, and with them there is a risk of localized heavy rain."
             }
           ],
           "deepDive": "**おそれ** (恐れ) literally means *fear, dread*. 〜おそれがある = *there is fear that ~* → *there is a risk / danger that ~*. Because of this origin it is used **only for bad outcomes**: 事故を起こすおそれ, 健康を害するおそれ. You cannot say ✗合格するおそれがある or ✗晴れるおそれがある — for neutral or good possibilities use 〜可能性がある or 〜かもしれない.\n\nRegister: it is the language of forecasts, warnings, official reports and product labels (アレルギーを引き起こすおそれがあります). It sounds objective, as if based on data, rather than a personal worry. In conversation people say 〜かもしれない or 〜んじゃないか.\n\nConnection:\n- **V-る**: 大雨が降るおそれ, 川の水が汚れるおそれ.\n- **V-ない**: 電話がつながらないおそれ, 予定通りに出発できないおそれ — the negative form is used when the *failure* of something is the danger.\n- **N + の**: 噴火のおそれ, 津波のおそれ, 感染のおそれ.\n\nVariations: **おそれがあります** (polite), **おそれがございます** (very polite, e.g. airline or station announcements), **おそれはない / おそれはありません** (*there is no risk*), and as a noun modifier: 倒壊のおそれがある建物.\n\nCompare with **〜かねない** (#27): also *could (lead to something bad)*, but it is common in speech as well and is often used as a warning about someone's behaviour or a situation (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like, typical of news, forecasts and official notices.\n\nTypical trap in the やってみよう: deciding between the affirmative and negative verb. Read for what the *danger* is — if the danger is an accident happening, use 起こす; if the danger is not being able to leave on time, use できない.",
@@ -548,7 +548,7 @@ N2.register({
               "en": "As science and technology advance, the mysteries of the universe will probably be revealed."
             }
           ],
-          "deepDive": "**〜とともに** (と共に, *together with*) is the formal version of 〜といっしょに, but it covers more ground. There are four related uses, all of which appear on the N2:\n\n- **Together with (a person/group)**: 現地の医師とともに治療を行う, 地域の皆様とともに歩む. Formal いっしょに — speeches, company slogans, news.\n- **A and also B (addition)**: 〜であるとともに / V-るとともに … も. 奈良は古い都であるとともに桜の名所でもある. Here it means *not only ~ but also*; the second half often contains も.\n- **At the same moment / alongside**: N + とともに + an event or warning. The sample text uses this idea: 強風とともに河川の増水にもご注意ください (*watch out for rising rivers as well as the strong winds*); likewise 洪水とともに、土砂崩れにも注意.\n- **Linked change**: N / V-る + とともに + change verb (増える, 変わる, 〜ようになる). 子どもが成長するとともに親子の関係も変わる.\n\nCompared with **〜にともなって** (#33): in the change-linked-to-change use they are often interchangeable (技術の進歩とともに / にともなって). But とともに can take a person as its partner, which にともなって cannot, and にともなって strongly implies cause and effect, whereas とともに may express mere simultaneity or addition.\n\nConnection pitfalls: nouns attach directly (医師とともに); verbs use the dictionary form (成長するとともに); for a noun predicate in the addition use, you need である: ✓古い都であるとともに / ✗古い都とともに (that would mean *together with an old capital*).\n\nJLPT tip: in 問題1, if the blank follows a person or organisation (市民の皆様、家族), とともに is almost certainly the answer among options like にともない or にかけて.",
+          "deepDive": "**〜とともに** (と共に, *together with*) is the formal version of 〜といっしょに, but it covers more ground. There are four related uses, all of which appear on the N2:\n\n- **Together with (a person/group)**: 現地の医師とともに治療を行う, 地域の皆様とともに歩む. Formal いっしょに — speeches, company slogans, news.\n- **A and also B (addition)**: 〜であるとともに / V-るとともに … も. 奈良は古い都であるとともに桜の名所でもある. Here it means *not only ~ but also*; the second half often contains も.\n- **At the same moment / alongside**: N + とともに + an event or warning. The sample text uses this idea: 強風とともに河川の増水にもご注意ください (*watch out for rising rivers as well as the strong winds*); likewise 洪水とともに、土砂崩れにも注意.\n- **Linked change**: N / V-る + とともに + change verb (増える, 変わる, 〜ようになる). 子どもが成長するとともに親子の関係も変わる.\n\nCompared with **〜にともなって** (#33): in the change-linked-to-change use they are often interchangeable (技術の進歩とともに / にともなって). But とともに can take a person as its partner, which にともなって cannot, and にともなって strongly implies cause and effect, whereas とともに may express mere simultaneity or addition.\n\nConnection pitfalls: nouns attach directly (医師とともに); verbs use the dictionary form (成長するとともに); for a noun predicate in the addition use, you need である: ✓古い都であるとともに / ✗古い都とともに (that would mean *together with an old capital*).\n\nJLPT tip: in 問題1, if the blank follows a person or organization (市民の皆様、家族), とともに is almost certainly the answer among options like にともない or にかけて.",
           "see": [
             33
           ],
@@ -679,7 +679,7 @@ N2.register({
                     "{出発|しゅっぱつ}の{際|さい}"
                   ],
                   "answer": 1,
-                  "en": "We apologise that, owing to a safety check of the emergency doors at the time of this aircraft's departure, our departure was significantly delayed."
+                  "en": "We apologize that, as this aircraft was about to depart, a safety check of the emergency doors significantly delayed our departure time."
                 }
               ]
             }
@@ -1047,7 +1047,7 @@ N2.register({
               }
             ],
             "en": [
-              "A woman is speaking. What will people who heard this announcement do?",
+              "A woman is speaking. What will people who hear this announcement do?",
               "The Tomei Expressway will be completely closed to traffic for construction from midnight on Sunday the 18th through Monday morning. We will carry out the work with safety as our top priority, and ask for everyone's understanding and cooperation."
             ],
             "options": [
