@@ -19,11 +19,11 @@ N2.registerFront([
       { list: [
         { ja: "1．実際にその文法がどのように使われているかを知る。", en: "1. Learn how the grammar is actually used." },
         { ja: "2．基本的な練習で使い慣れる。", en: "2. Get used to using it through basic practice." },
-        { ja: "3．まとめの問題で話を聞いたり日本語の文章を読んだりする{運用|うんよう}練習をする。", en: "3. Practise applying it in the review questions by listening to talks and reading Japanese texts." }
+        { ja: "3．まとめの問題で話を聞いたり日本語の文章を読んだりする{運用|うんよう}練習をする。", en: "3. Practice applying it in the review questions by listening to talks and reading Japanese texts." }
       ] },
       { p: {
         ja: "まとめの問題は日本語能力試験の{出題|しゅつだい}形式に合わせてありますので、試験を受ける皆さんは、この本1冊で文法{対策|たいさく}と{読解|どっかい}、{聴解|ちょうかい}の試験の練習ができるようになっています。",
-        en: "The review questions follow the question formats of the Japanese-Language Proficiency Test, so those of you taking the test can prepare for grammar and practise for the reading and listening sections, all with this one book."
+        en: "The review questions follow the question formats of the Japanese-Language Proficiency Test, so those of you taking the test can prepare for grammar and practice for the reading and listening sections, all with this one book."
       } },
       { p: {
         ja: "「TRY!」という名前には、{気軽|きがる}にやってみようという意味と、ラグビーのトライのようにがんばったことが{得点|とくてん}につながるという意味を込めました。皆さんがこの本で勉強して、日本語能力試験N1に合格し、さらに日本語を使って楽しく{自己|じこ}表現ができるようになりますよう、お祈りしています。",
@@ -72,7 +72,7 @@ N2.registerFront([
       { h: { ja: "5）まとめの問題", en: "Review questions" }, level: 4 },
       { p: {
         ja: "その章で勉強した文法を中心にした、文法、{読解|どっかい}、{聴解|ちょうかい}の問題です。日本語能力試験の{出題形式|しゅつだいけいしき}に合わせた形になっていますから、文法{項目|こうもく}の{再確認|さいかくにん}をしながら、試験{対策|たいさく}ができます。",
-        en: "These are grammar, reading and listening questions centred on the grammar studied in the chapter. They follow the question formats of the Japanese-Language Proficiency Test, so you can prepare for the test while re-checking the grammar points."
+        en: "These are grammar, reading and listening questions centered on the grammar studied in the chapter. They follow the question formats of the Japanese-Language Proficiency Test, so you can prepare for the test while re-checking the grammar points."
       } },
 
       { h: { ja: "2. 別冊", en: "Separate booklet" }, level: 2 },
