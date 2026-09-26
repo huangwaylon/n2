@@ -139,7 +139,7 @@
 .vt--h { writing-mode: horizontal-tb; height: auto; line-height: 2; }
 .vt--h .vt-mast { margin: -8px 0 .8em; padding: 0; border: 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .3em .8em; text-align: center; }
 .vt--h .vt-label { font-size: 1em; border-block: 0; border-inline: 3px double var(--ink); padding: 0 .5em; margin: 0; letter-spacing: .1em; }
-.vt--h .vt-title { font-size: 1.5em; text-wrap: balance; }
+.vt--h .vt-title { font-size: 1.5em; line-height: 1.7; text-wrap: balance; }
 /* the book sets the editorial in two tiers (段組); multi-column inside vertical-rl is unreliable, so one tier */
 
 /* ---------- C7 grammar-point header band ---------- */
