@@ -70,7 +70,7 @@ TRY.registerChapter({
           usage: { ja: "お知らせや{紹介文|しょうかいぶん}などで、「いつでも・どこでも・だれでも」などと説明したいときに使われる。", en: "This is used in an announcement, written introduction and the like to say “anytime, anywhere, anyone” and such." },
           forms: ["[N] + を{問|と}わず"],
           formNotes: [
-            { ja: "「{昼夜|ちゅうや}・国の{内外|ないがい}・{男女|だんじょ}・〜の{有無|うむ}」などの言葉と一緒に使われる。", en: "It is used together with words such as 昼夜 (day and night), 国の内外 (at home and abroad), 男女 (men and women) and 〜の有無 (whether or not there is ~)." },
+            { ja: "「{昼夜|ちゅうや}・国の{内外|ないがい}・{男女|だんじょ}・〜の{有無|うむ}」などの言葉と一緒に使われる。", en: "It is used together with words such as 昼夜 (day and night), 国の内外 (at home and abroad), 男女 (men and women) and 〜の有無 (whether or not there is ~).", gen: true },
           ],
           examples: [
             { ja: "このスポーツセンターは、{年齢|ねんれい}を{問|と}わず、どなたでも利用できます。", en: "Anyone, regardless of age, can use this sports center." },
@@ -255,7 +255,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{区民|くみん}センターの利用料金が{変更|へんこう}になりました。{和室|わしつ}は、{人数|にんずう}にかかわらず、2時間1,000円になります。", en: "The fees for the ward community center have changed. The Japanese-style room is now ¥1,000 for two hours, regardless of the number of people." },
             { ja: "セール{品|ひん}のため、理由のいかんにかかわらず、{返品|へんぴん}はお受けできません。", en: "Because these are sale items, we cannot accept returns for any reason whatsoever." },
-            { ja: "会議で{発言|はつげん}するしないにかかわらず、自分の意見はまとめておくべきです。", en: "Whether or not you speak up at the meeting, you should have your own opinion organized." },
+            { ja: "会議で{発言|はつげん}するしないにかかわらず、自分の意見はまとめておくべきです。", en: "Whether or not you speak up at the meeting, you should organize your own opinion beforehand." },
             { ja: "今回の旅行は{晴雨|せいう}にかかわらず、{実施|じっし}します。", en: "This trip will go ahead rain or shine." },
           ],
           deepDive: "**〜にかかわらず** (関わらず, from 関わる *to be related to*) literally means *without being related to ~*, so: *regardless of, irrespective of*.\n\nIts most characteristic shape is **[V-る] + [V-ない] + にかかわらず**: わかるわからないにかかわらず, 発言するしないにかかわらず. The same A-or-not-A idea appears with nouns: 有無, 大小, 多少, 晴雨, 採否, 好き嫌い, 善悪. The phrase **〜のいかんにかかわらず** (*whatever the ~ may be*) is a formal fixed expression.\n\nComparing with **〜を問わず** (#2):\n- Both mean *regardless of*, and are often interchangeable with nouns: 年齢を問わず ≈ 年齢にかかわらず.\n- With verb/adjective pairs, にかかわらず is the natural choice: ✓出席するしないにかかわらず (を問わず normally follows nouns).\n\nThe big trap is **にもかかわらず** (#21) — one extra も changes the meaning to *in spite of*. On the test, read the sentence: if the second half contradicts expectations, you need にもかかわらず.",

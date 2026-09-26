@@ -28,7 +28,7 @@ TRY.registerChapter({
           usage: { ja: "「〜{以来|いらい}」は、「〜」のときから今までずっと同じ{状態|じょうたい}が続いているときに使う。", en: "Use \"〜{以来|いらい}\" when a condition has continued from \"〜\" until now." },
           forms: ["[V-て] + {以来|いらい}", "[N] + {以来|いらい}"],
           examples: [
-            { ja: "母が入院して{以来|いらい}、{家事|かじ}はすべて私がしています。", en: "Ever since my mother went into hospital, I have been doing all the housework." },
+            { ja: "母が入院して{以来|いらい}、{家事|かじ}はすべて私がしています。", en: "Ever since my mother was hospitalized, I have been doing all the housework." },
             { ja: "3年前の夏休みに帰国して{以来|いらい}、長い間家族に会っていません。", en: "I haven't seen my family in a long time — not since I went home for the summer vacation three years ago." },
             { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を{日課|にっか}にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine." },
             { ja: "{山野|やまの}君とは卒業{以来|いらい}、まったく{連絡|れんらく}が取れない。", en: "I haven't been able to get in touch with Yamano at all since graduation." },
@@ -177,7 +177,7 @@ TRY.registerChapter({
                   q: "子どもは家族（　）生活しながら、社会{習慣|しゅうかん}を{身|み}につけるべきだ。",
                   options: ["はもとより", "のもとで"],
                   answer: 1,
-                  en: "Children should acquire social customs while living with (under the care of) their family.",
+                  en: "Children should acquire social customs while living in the care of their family.",
                 },
                 {
                   q: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も{活発|かっぱつ}になるだろう。",
@@ -270,7 +270,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ながら」は、「〜の{状態|じょうたい}だが、けれども」と言いたいときに使う。", en: "Use \"〜ながら\" when you want to say \"this is the situation, but...\"" },
           forms: ["[V-~~ます~~]／[V-ない] + ながら（も）", "[いA] + ながら（も）", "[なA] + ながら（も）", "[N] + ながら（も）"],
           formNotes: [
-            { ja: "「[なA]／[N] であり + ながら」の形もある。", en: "The form “なA / N + でありながら” also exists." },
+            { ja: "「[なA]／[N] であり + ながら」の形もある。", en: "The form “なA / N + でありながら” also exists.", gen: true },
           ],
           examples: [
             { ja: "彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。", en: "Although he and I lived in the same dormitory, we had hardly ever talked." },
@@ -369,7 +369,7 @@ TRY.registerChapter({
           usage: { ja: "「AをBとする」は、「{地域|ちいき}{交流|こうりゅう}を{目的|もくてき}として」「リーダーを中心に」のように、「AをBにする、AがBだ」と言うときに使う。「として」のかわりに「に」を使うこともある。", en: "Use \"AをBとする\" when you say \"do A as B; A is B\" as in \"{地域|ちいき}{交流|こうりゅう}を{目的|もくてき}として\" and \"リーダーを中心に\". You can also use \"に\" in place of \"として\"." },
           forms: ["[N₁] + を + [N₂] + とした + [N]", "[N₁] + を + [N₂] + とする", "[N₁] + を + [N₂] + として／に"],
           formNotes: [
-            { ja: "「{目的|もくてき}・中心・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。", en: "Used together with words such as 目的 (purpose), 中心 (center), 対象 (target), 手本 (model) and 前提 (premise)." },
+            { ja: "「{目的|もくてき}・中心・{対象|たいしょう}・{手本|てほん}・{前提|ぜんてい}」などの言葉と一緒に使われる。", en: "Used together with words such as 目的 (purpose), 中心 (center), 対象 (target), 手本 (model) and 前提 (premise).", gen: true },
           ],
           examples: [
             { ja: "「みどりの{会|かい}」は{環境|かんきょう}{保護|ほご}{活動|かつどう}を{目的|もくてき}とする市民の{組織|そしき}です。", en: "The Midori Society is a citizens' organization whose aim is environmental protection." },
@@ -459,7 +459,7 @@ TRY.registerChapter({
           usage: { ja: "「〜からには…」は、「〜は決めたこと・事実なのだから{当然|とうぜん}…するべきだ・するつもりだ・しろ」などの強い気持ちを言いたいときに使う。", en: "Use \"〜からには…\" when you want to say, with strong emotion, something like \"it's natural because 〜 is decided / a fact; something should be done; you intend to do something; when you order someone to do something.\"" },
           forms: ["[V-る]／[V-た] + からには"],
           formNotes: [
-            { ja: "「〜というからには」「[N] である + からには」の形もある。", en: "The forms 〜というからには and N + であるからには are also used." },
+            { ja: "「〜というからには」「[N] である + からには」の形もある。", en: "The forms 〜というからには and N + であるからには are also used.", gen: true },
           ],
           examples: [
             { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}するからには、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "Since you want to find a job in Japan, you had better research companies thoroughly." },
@@ -474,7 +474,7 @@ TRY.registerChapter({
               pattern: "〜{以上|いじょう}は",
               stars: 2,
               marks: [],
-              usage: { ja: "「[V] + {以上|いじょう}（は）」という言い方もある。", en: "You can also say V + 以上（は）." },
+              usage: { ja: "「[V] + {以上|いじょう}（は）」という言い方もある。", en: "You can also say V + 以上（は）.", gen: true },
               examples: [
                 { ja: "市長になった{以上|いじょう}は、皆様が安心して{暮|く}らせる街づくりをすることをお{約束|やくそく}します。", en: "Now that I have become mayor, I promise to build a town where all of you can live in peace of mind." },
                 { ja: "{期日|きじつ}までに間に合わせると{約束|やくそく}した{以上|いじょう}は、{残業|ざんぎょう}してでも終わらせなければならない。", en: "Since I promised to have it done by the deadline, I have to finish it even if it means working overtime." },
@@ -486,7 +486,7 @@ TRY.registerChapter({
               pattern: "〜{上|うえ}は",
               stars: 1,
               marks: ["formal"],
-              usage: { ja: "「[V] + {上|うえ}は」という言い方もある。", en: "You can also say V + 上は." },
+              usage: { ja: "「[V] + {上|うえ}は」という言い方もある。", en: "You can also say V + 上は.", gen: true },
               examples: [
                 { ja: "{税金|ぜいきん}を使って研究を{行|おこな}う{上|うえ}は、社会に役立つ研究をしなければならない。", en: "Since we are doing research with taxpayers' money, it must be research that benefits society." },
                 { ja: "かくなる{上|うえ}は{裁判|さいばん}で{争|あらそ}う以外に道はない。", en: "Things having come to this, there is no way left but to fight it out in court.", idiom: true },
@@ -637,7 +637,7 @@ TRY.registerChapter({
           usage: { ja: "「〜にもかかわらず」は、「〜なのに」という意味で、その{状態|じょうたい}から{予想|よそう}することと{実際|じっさい}が{違|ちが}うという意味で使う。", en: "\"〜にもかかわらず\" means \"although / despite 〜\". Use it to mean that something is actually different from what one would expect from the situation." },
           forms: ["[V-て] いる + にもかかわらず", "[V-た] + にもかかわらず", "[N] + にもかかわらず"],
           formNotes: [
-            { ja: "「[なA]／[N] である + にもかかわらず」「[いA] + にもかかわらず」の形もある。", en: "The forms なA / N + であるにもかかわらず and いA + にもかかわらず are also used." },
+            { ja: "「[なA]／[N] である + にもかかわらず」「[いA] + にもかかわらず」の形もある。", en: "The forms なA / N + であるにもかかわらず and いA + にもかかわらず are also used.", gen: true },
           ],
           examples: [
             { ja: "彼の{努力|どりょく}にもかかわらず、{業績|ぎょうせき}はよくならなかった。", en: "Despite his efforts, business results did not improve." },
@@ -732,7 +732,7 @@ TRY.registerChapter({
             q: "「{独立|どくりつ}すると言って会社を{辞|や}める（　）、どんなに大変でもがんばれ」と部長に言われた。",
             options: ["ことなく", "からには", "ように", "おかげで"],
             answer: 1,
-            en: "My manager told me, \"Now that you're quitting the company to go independent, as you say, hang in there no matter how hard it gets.\"",
+            en: "My manager told me, \"Since you're quitting the company saying you'll go out on your own, hang in there no matter how hard it gets.\"",
           },
           {
             q: "{高橋|たかはし}さんは子どもが生まれたの（　）、たばこをやめる{決心|けっしん}をしたんだそうです。",
