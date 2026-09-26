@@ -41,7 +41,7 @@ N2F({
       forms: ["[N] + として"],
       examples: [
         { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you're going on a business trip next week?\nB: Yeah. It's been decided that I'll go to the Singapore branch on behalf of the department manager." },
-        { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "After joining the company, please act with an awareness of yourself as a member of a business organization." },
+        { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "After joining the company, please act with an awareness of your responsibilities as a company employee." },
         { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of about one night, so it's very convenient." },
         { ja: "{当|とう}ホテルではお{支払|しはら}いのときにサービス料として10%いただきます。", en: "At this hotel, we charge 10% as a service fee at the time of payment." },
       ],
@@ -211,8 +211,8 @@ N2F({
         { ja: "「[なA]／[N] + というものではない」の形もある。", en: "The forms なA／N + というものではない also exist." },
       ],
       examples: [
-        { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "Studying isn't something where, if you do it today, you don't have to do it tomorrow." },
-        { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "Nor is marriage simply a matter of there being love." },
+        { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "With studying, it's not as if doing some today means you don't have to do any tomorrow." },
+        { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "Love alone isn't necessarily enough for a marriage, either." },
         { ja: "{泥棒|どろぼう}の{被害|ひがい}は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "Burglary can't necessarily be prevented just by locking your door." },
         { ja: "日本での{就職|しゅうしょく}には日本語能力試験N1{合格|ごうかく}が{必要|ひつよう}だと思われているが、なければだめだというものでもない。", en: "People think you need to pass JLPT N1 to get a job in Japan, but it's not as if you're hopeless without it." },
       ],
@@ -288,7 +288,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option. (Item 4 has an illustration: a man shows a woman a misshapen homemade cake.)" },
           items: [
             { q: "{健康|けんこう}のために、忙しいとき（　）、{普段|ふだん}はできるだけ食事をゆっくりとったほうがいいですよ。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "For your health, busy times aside, you should normally take your time over meals as much as possible." },
-            { q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "Even at a cheap hotel, never mind a bath, it's a problem if there isn't a shower." },
+            { q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "Even at a cheap hotel, a bath aside, it's a problem if there's no shower." },
             { q: "{国内外|こくないがい}（　）、{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}の{開発|かいはつ}が{行|おこな}われている。", options: ["はともかく", "を{問|と}わず"], answer: 1, en: "Both in Japan and abroad, environmentally friendly products are being developed." },
             { q: "A：初めてケーキを作ってみたんだけど、どう？\nB：形（　）、味はいいよ。", options: ["はともかく", "を{問|と}わず"], answer: 0, en: "A: I tried making a cake for the first time. What do you think?\nB: The shape aside, it tastes good." },
           ],

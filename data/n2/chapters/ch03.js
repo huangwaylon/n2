@@ -106,7 +106,7 @@ N2.register({
             },
             {
               "ja": "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。",
-              "en": "After joining the company, please act with an awareness of yourself as a member of a business organization."
+              "en": "After joining the company, please act with an awareness of your responsibilities as a company employee."
             },
             {
               "ja": "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。",
@@ -400,11 +400,11 @@ N2.register({
           "examples": [
             {
               "ja": "勉強は今日やれば明日やらなくていいというものではない。",
-              "en": "Studying isn't something where, if you do it today, you don't have to do it tomorrow."
+              "en": "With studying, it's not as if doing some today means you don't have to do any tomorrow."
             },
             {
               "ja": "{結婚|けっこん}は{愛|あい}があればいいというものでもない。",
-              "en": "Nor is marriage simply a matter of there being love."
+              "en": "Love alone isn't necessarily enough for a marriage, either."
             },
             {
               "ja": "{泥棒|どろぼう}の{被害|ひがい}は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。",
@@ -561,7 +561,7 @@ N2.register({
                     "を{問|と}わず"
                   ],
                   "answer": 0,
-                  "en": "Even at a cheap hotel, never mind a bath, it's a problem if there isn't a shower."
+                  "en": "Even at a cheap hotel, a bath aside, it's a problem if there's no shower."
                 },
                 {
                   "q": "{国内外|こくないがい}（　）、{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}の{開発|かいはつ}が{行|おこな}われている。",
@@ -1005,7 +1005,7 @@ N2.register({
               "言ってはいられない"
             ],
             "answer": 3,
-            "en": "A: Sir, you're reading that computer book very keenly.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it."
+            "en": "A: You're really engrossed in that computer book, sir.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it."
           }
         ]
       }
@@ -1038,7 +1038,7 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "A: B, you like drinking, don't you? Aren't you going out drinking three times a week?\nB: It's not that. Rather than liking alcohol, I like the atmosphere."
+            "en": "A: B, you like drinking, don't you? You go out drinking at least three times a week, don't you?\nB: It's not that. Rather than liking alcohol, I like the atmosphere."
           },
           {
             "before": "A：新しいアルバイト、ちゃんとやってる？\nB：もちろんだよ。まじめに",
@@ -1203,7 +1203,7 @@ N2.register({
               }
             ],
             "en": [
-              "A woman and a man are talking. What will the man do right now?",
+              "A woman and a man are talking. What will the man do right away?",
               "Section chief, Tokyo Shoji called a little while ago. Apparently there was a problem with the machine we delivered.",
               "What!? Goto is in charge of that, right? Is he away on a business trip now?",
               "Yes. We can contact him, but I'm not sure whether he can deal with it right away...",
