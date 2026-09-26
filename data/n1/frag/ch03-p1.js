@@ -195,7 +195,7 @@ N2F({
         "- **〜し、〜し** (N4): neutral listing of reasons; わ〜わ is more emotional and implies 'one thing after another'.\n" +
         "- **〜やら〜やら** (N2): listing, often with confusion; can take nouns (泣くやら笑うやら / 本やらノートやら).\n" +
         "- **〜たり〜たり**: neutral examples of actions.\n\n" +
-        "Don't confuse with sentence-final わ (feminine/Kansai), or the fixed **〜わ〜わで** (*what with ~ and ~*). JLPT tip: repeated わ after dictionary forms in a complaint → this pattern; watch for ✗降られたわ, 叱られたわ.",
+        "Don't confuse it with sentence-final わ (feminine/Kansai). It also appears as **〜わ〜わで** (*what with ~ and ~*), leading into the result. JLPT tip: repeated わ after dictionary forms in a complaint → this pattern; watch for ✗降られたわ, 叱られたわ.",
       see: [],
       index: ["〜わ…わ", "AわBわ", "〜わ〜わ"],
     },
@@ -217,7 +217,7 @@ N2F({
         { ja: "{田中|たなか}さんは疲れていたのか、電車に乗ったが早いか、いびきをかいて{爆睡|ばくすい}してしまった。", en: "Maybe Tanaka was tired — the moment he got on the train, he was snoring, dead to the world." },
       ],
       deepDive:
-        "**V＋が早いか** literally *whether V was quicker (or the next event)*: the second event happens **almost simultaneously** with the first, and the speaker is struck by how short the gap is. It's literary and narrative — ideal for folktales (米が炊けるが早いか…握り飯を作り).\n\n" +
+        "**V＋が早いか** (*no sooner ~ than*) means the second event happens **almost simultaneously** with the first, and the speaker is struck by how short the gap is. It's literary and narrative — ideal for folktales (米が炊けるが早いか…握り飯を作り).\n\n" +
         "Connection: V-る or V-た (開けるが早いか / 乗ったが早いか). The second half is a past fact; no requests, intentions or orders (✗着くが早いか電話しなさい).\n\n" +
         "Unlike なり (#28), the two subjects **can differ** (店員が開けるが早いか、客がなだれ込んだ; 魔法使いが唱えるが早いか、王子は変わった), and the focus is on the timing rather than on a single person's surprising behaviour.\n\n" +
         "Meaning check from the やってみよう: 鐘が鳴るが早いか = 鳴るとすぐ (not 鳴るより早く *before it rang*); 受付時間になるが早いか = なるかならないかのうちに; 母親が出かけるが早いか = the children didn't play while their mother was there.\n\n" +
@@ -268,7 +268,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "学生たちは積極的なので、教師が説明するそばから（　）。", options: ["新しい質問を出す", "シーンと静まり返る"], answer: 0, en: "The students are so keen that no sooner does the teacher explain something than they come up with new questions.", why: { en: "そばから describes one thing following another again and again: every explanation is met by new questions." } },
-            { q: "問い合わせのメールに{返信|へんしん}するそばから次のメールが（　）ので、なかなか帰れない。", options: ["入ってくる", "来ない"], answer: 0, en: "As soon as I reply to one inquiry email, the next one comes in, so I just can't get away and go home." },
+            { q: "問い合わせのメールに{返信|へんしん}するそばから次のメールが（　）ので、なかなか帰れない。", options: ["入ってくる", "来ない"], answer: 0, en: "As soon as I reply to one inquiry email, the next one comes in, so I just can't get away and go home.", why: { en: "そばから: each time A (replying) is done, B follows right away and again — the next email comes in. 来ない would contradict the repeated cycle and the reason for not being able to go home." } },
             { q: "この商品は{入荷|にゅうか}するそばから（　）ので、常に{品薄|しなうす}だ。", options: ["人気がある", "売れてしまう"], answer: 1, en: "This product sells out as soon as it comes in, so it's always in short supply.", why: { en: "B must be an action that follows A each time; 売れてしまう does, and explains the constant shortage. 人気がある is a state." } },
           ],
         },

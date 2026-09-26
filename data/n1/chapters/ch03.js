@@ -28,7 +28,7 @@ N2.register({
           },
           {
             "ja": "友達は「いつまでもそんな暮らしを続けるのはよくない。早くお{嫁|よめ}さんをもらえ。」と言うのだが、男は友達の心配**をよそに**、「確かに家は汚いけれど、{俺|おれ}は{俺|おれ}**なりに**楽しく暮らしているよ。一人なら余計な金もかからないし。」と全く気にしていない。「まあ、何も食べない{嫁|よめ}ならもらわ**ないでもない**がね。」などと言う**しまつ**で、友達もあきれてそれ以上は何も言わなかった。",
-            "en": "His friend told him, \"You can't go on living like this forever. Hurry up and get yourself a wife,\" but the man paid no heed to his friend's concern: \"Sure, my house is dirty, but I'm enjoying life in my own way. And living alone, I don't have to spend any extra money.\" He didn't care in the least. He even went so far as to say, \"Well, if it were a wife who didn't eat anything, I might not say no,\" until his friend, exasperated, said nothing more."
+            "en": "His friend told him, \"You can't go on living like this forever. Hurry up and get yourself a wife,\" but the man paid no heed to his friend's concern: \"Sure, my house is dirty, but I'm enjoying life in my own way. And living alone, I don't have to spend any extra money.\" He didn't care in the least. He even went so far as to say, \"Well, if it were a wife who didn't eat anything, I might not say no,\" and his friend, exasperated, said nothing more."
           },
           {
             "ja": "ある日の夕方、男の家に若い女が{訪|たず}ねてきて、「どうか私をお{嫁|よめ}さんにしてください。掃除**なり**洗濯**なり**、※お{前様|まえさま}のおっしゃることは何でもします。それに私は物を食べません。」と言った。「それは{結構|けっこう}**ずくめ**な話だ。」と男は{大喜|おおよろこ}びして女を{嫁|よめ}にした。",
@@ -161,7 +161,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜をよそに」は「親の心配をよそに」のように「〜を気にしないで」と言いたいときに使う。「{渋滞|じゅうたい}をよそに」のように「〜とは関係なく」と言うときにも使う。",
-            "en": "As in 親の心配をよそに (ignoring one's parents' worries), 〜をよそに is used when you want to say 'without caring about ~'. As in 渋滞をよそに (paying no attention to the traffic jam), it is also used to say 'having nothing to do with ~ / unaffected by ~'."
+            "en": "As in 親の心配をよそに (ignoring one's parents' worries), 〜をよそに is used when you want to say 'without caring about ~'. As in 渋滞をよそに (unaffected by the traffic jam), it is also used to say 'having nothing to do with ~ / unaffected by ~'."
           },
           "forms": [
             "[N] + をよそに"
@@ -264,7 +264,7 @@ N2.register({
             },
             {
               "ja": "日本語が上達したらしたなりに、新しい疑問が次から次へと出てくる。",
-              "en": "The better my Japanese gets, the more new questions keep popping up one after another, to match."
+              "en": "As my Japanese improves, new questions to match my new level keep popping up one after another."
             }
           ],
           "deepDive": "**〜なりに / 〜なりの＋N** (なり = *shape, manner befitting*) means *in a way that befits X / within X's limits*. It acknowledges that X's level or position is limited or particular, and says the action is appropriate to it: 私なりに考えた *I thought it through in my own way* (it may not be perfect, but it's my best).\n\nTwo main shades:\n- **Position/viewpoint**: 営業部は営業部なりに, 若者には若者なりの楽しみがある — each party has its own way.\n- **Limited ability, but doing one's best**: 子どもなりに, 幼いなりに, 僕なりに努力した. Often used humbly about oneself (私なりに) or kindly about someone weaker.\n\nConnection: nouns and な-adjectives drop だ (子どもなりに, 下手なりに), い-adjectives and verbs in plain form (狭いなりに, 練習したなりに). Before a noun: なりの (彼なりの考え).\n\nFixed forms (＊ note):\n- **それなり（に／の）** = *reasonably, to a fair degree, appropriate to the circumstances*: それなりの額, それなりに楽しかった.\n- **〜ば〜なりに**: repeat the word — お金がなければないなりに *if you have none, (you manage) in a way suited to having none*; 上達したらしたなりに.\n\nNuance point tested in the やってみよう: the result after なりに is usually **positive or at least appropriate**, not a failure — 狭い部屋は狭いなりに快適に過ごせます, 僕なりに努力したんです, 練習すればしたなりに上手になる (not ✗優勝できる, which exceeds 'what befits' the practice).\n\nDon't confuse with: **〜なり** (#28, *as soon as*), **AなりBなり** (#21, *either A or B*), or the colloquial **言いなり** (*doing whatever someone says*). JLPT tip: ★★★ — very frequent; look for a person/group noun or a limited-degree adjective before it.",
@@ -596,7 +596,7 @@ N2.register({
               "en": "Our prefecture's athletes did remarkably well this year: the soccer team won the championship and a marathon runner was chosen for the Olympic team — it's been a year of nothing but good news."
             }
           ],
-          "deepDive": "**〜ずくめ** (from 尽くす/尽くめ *exhausting, entirely*) means *nothing but ~, ~ from top to bottom*. It is used with a **limited set of nouns** (＊ note), in two senses:\n- **Covered entirely with a colour**: 黒ずくめ (all in black), 白ずくめ.\n- **One ~ after another / full of ~**: いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 失敗ずくめ, 異例ずくめ (the Check), 記録ずくめ.\n\nGrammar: behaves like a noun or な-adjective: ずくめだ, ずくめの＋N (黒ずくめの男), ずくめで, and — as in the story — ずくめな話.\n\nUnlike **まみれ** (#16) and **だらけ**, ずくめ is **not inherently negative**; it's often positive (いいことずくめ, 結構ずくめ). 規則ずくめ/失敗ずくめ are negative only because of the noun.\n\nCompare:\n- **〜だらけ**: full of (usually unwelcome) things scattered all over: 傷だらけ, 間違いだらけ. いいことだらけ is heard in casual speech, but for a run of good things ずくめ is the idiomatic, more polished choice.\n- **〜まみれ**: a coating of something dirty.\n- **〜一色**: *entirely one colour/mood* (お祝い一色).\n\nJLPT tip: memorise the collocations 黒ずくめ, いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 異例ずくめ — ずくめ doesn't attach freely to other nouns.",
+          "deepDive": "**〜ずくめ** (written 尽くめ, related to 尽くす *to use up, to exhaust*) means *nothing but ~, ~ from top to bottom*. It is used with a **limited set of nouns** (＊ note), in two senses:\n- **Covered entirely with a colour**: 黒ずくめ (all in black), 白ずくめ.\n- **One ~ after another / full of ~**: いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 失敗ずくめ, 異例ずくめ (the Check), 記録ずくめ.\n\nGrammar: behaves like a noun or な-adjective: ずくめだ, ずくめの＋N (黒ずくめの男), ずくめで, and — as in the story — ずくめな話.\n\nUnlike **まみれ** (#16) and **だらけ**, ずくめ is **not inherently negative**; it's often positive (いいことずくめ, 結構ずくめ). 規則ずくめ/失敗ずくめ are negative only because of the noun.\n\nCompare:\n- **〜だらけ**: full of (usually unwelcome) things scattered all over: 傷だらけ, 間違いだらけ. いいことだらけ is heard in casual speech, but for a run of good things ずくめ is the idiomatic, more polished choice.\n- **〜まみれ**: a coating of something dirty.\n- **〜一色**: *entirely one colour/mood* (お祝い一色).\n\nJLPT tip: memorise the collocations 黒ずくめ, いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 異例ずくめ — ずくめ doesn't attach freely to other nouns.",
           "see": [
             16
           ],
@@ -637,7 +637,7 @@ N2.register({
               "en": "The methods of the man they called the Phantom Thief were at once bold and delicate."
             }
           ],
-          "deepDive": "**AにしてB** joins two attributes of the same subject: *A and at the same time B / both A and B*. It is a literary, formal equivalent of 〜であり、〜 / 〜で、しかも〜: 教授にして作家 = 教授であり、作家でもある.\n\nConnection: nouns and な-adjective stems directly (教授にして, 大胆にして). The second half often has **〜でもある** or **かつ** to underline the combination: 大胆にして、かつ繊細, 教授にして作家でもある. A and B may be similar (美しく賢い) or contrasting (大胆 vs 繊細), and the combination is usually notable or admirable.\n\nOther uses of にして in N1 (not in this point, but worth knowing so you don't mix them up):\n- **Nにして（初めて）** = *only at N / only someone like N*: この年にして初めて, 名人にして初めてできる技.\n- **Nにして（も）** = *even N*: ベテランの彼にしてこのミスだ.\n- Time/age (#102): 40歳にして結婚した (*at the age of 40*), 一瞬にして (*in an instant*), 幸いにして (*fortunately*).\n\nRegister: formal/written (the 'no casual talk' icon). In conversation use 〜で、〜 or 〜だし、〜.\n\nJLPT tip: in the Check, 漫画家にして医学博士 — two roles of one person. If a sentence introduces a person with two titles or two praiseworthy qualities, にして is the answer.",
+          "deepDive": "**AにしてB** joins two attributes of the same subject: *A and at the same time B / both A and B*. It is a literary, formal equivalent of 〜であり、〜 / 〜で、しかも〜: 教授にして作家 = 教授であり、作家でもある.\n\nConnection: nouns and な-adjective stems directly (教授にして, 大胆にして). The second half often has **〜でもある** or **かつ** to underline the combination: 大胆にして、かつ繊細, 教授にして作家でもある. A and B may be similar (美しく賢い) or contrasting (大胆 vs 繊細), and the combination is usually notable or admirable.\n\nOther uses of にして in N1 (not in this point, but worth knowing so you don't mix them up):\n- **Nにして（初めて）** = *only at N / only someone like N*: この年にして初めて, 名人にして初めてできる技.\n- **Nにして（も）** = *even N*: ベテランの彼にしてこのミスだ.\n- **Nにして** ≈ 〜で, stating the circumstances or manner (#102): 一瞬にして (*in an instant*), 幸いにして (*fortunately*); with an age or stage, *at (as late/early as)*: 40歳にして結婚した (*married at the age of 40*).\n\nRegister: formal/written (the 'no casual talk' icon). In conversation use 〜で、〜 or 〜だし、〜.\n\nJLPT tip: in the Check, 漫画家にして医学博士 — two roles of one person. If a sentence introduces a person with two titles or two praiseworthy qualities, にして is the answer.",
           "see": [
             102
           ],
@@ -657,7 +657,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「AはおろかB…ない」は「食事はおろか水さえ飲めない」のように「も・さえ・まで・すら」などと一緒に使い、「A（食事）はもちろん、それより程度の低いB（水）も…ない」と言いたいときに使われる。",
-            "en": "As in 食事はおろか水さえ飲めない (can't even drink water, let alone eat a meal), AはおろかB…ない is used together with も・さえ・まで・すら and the like when you want to say 'A (a meal) goes without saying, and not even B (water), which is lower in degree, … '."
+            "en": "As in 食事はおろか水さえ飲めない (can't even drink water, let alone eat a meal), AはおろかB…ない is used together with も・さえ・まで・すら and the like when you want to say 'not only A (a meal) — which goes without saying — but not even B (water), something of a lower degree, …'."
           },
           "forms": [
             "[N₁] + はおろか + [N₂] + も／さえ／まで／すら + …ない"
@@ -731,7 +731,7 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜すら…」は「日曜日すら休めない」のように「他はもちろん〜（日曜日）も…（休めない）」と言いたいときに使われる。「〜さえ／〜も」と同じように使われる。{否定的|ひていてき}な状況で使うことが多い。",
-            "en": "As in 日曜日すら休めない (can't rest even on Sundays), 〜すら… is used when you want to say 'the others go without saying — even ~ (Sunday) … (one can't rest)'. It is used in the same way as 〜さえ / 〜も, and often in negative situations."
+            "en": "As in 日曜日すら休めない (can't rest even on Sundays), 〜すら… is used when you want to say 'the others go without saying — even on ~ (Sunday), … (one can't rest)'. It is used in the same way as 〜さえ / 〜も, and often in negative situations."
           },
           "forms": [
             "[N] + （{助詞|じょし}） + すら"
@@ -753,7 +753,7 @@ N2.register({
             },
             {
               "ja": "本に夢中になって、{夜|よ}が{明|あ}けたことにすら気づかなかった。",
-              "en": "I was so absorbed in the book that I didn't even notice the night had ended."
+              "en": "I was so absorbed in the book that I didn't even notice that dawn had broken."
             },
             {
               "ja": "スピーチに慣れた人ですら、話し始めはどきどきするそうだ。",
@@ -807,7 +807,10 @@ N2.register({
                     "受験生"
                   ],
                   "answer": 0,
-                  "en": "Putting a problem that even experts can't solve on an entrance exam is going too far."
+                  "en": "Putting a problem that even experts can't solve on an entrance exam is going too far.",
+                  "why": {
+                    "en": "すら marks the extreme case: if even experts can't solve it, examinees certainly can't. 'Even examinees' would not be surprising."
+                  }
                 },
                 {
                   "q": "（　）すらしたことがないのに、10kmも走れるわけがない。",
@@ -816,7 +819,10 @@ N2.register({
                     "マラソン"
                   ],
                   "answer": 0,
-                  "en": "I've never even gone jogging, so there's no way I can run a whole 10 km."
+                  "en": "I've never even gone jogging, so there's no way I can run a whole 10 km.",
+                  "why": {
+                    "en": "すら marks the minimal case: jogging is far easier than running 10 km, so never having done even that makes 10 km impossible. A marathon is the harder case, not the minimal one."
+                  }
                 },
                 {
                   "q": "彼は、上司どころか（　）にすら相談せずに、会社を辞めてしまった。",
@@ -868,7 +874,7 @@ N2.register({
             {
               "q": "当時は、収入も少なかったが、貧しい＿＿生活の工夫をしたものだった。",
               "answer": "なりに",
-              "en": "Our income was small back then, but poor as we were, we found ways, in our own way, to live well."
+              "en": "Our income was small back then, but poor as we were, we found our own ways of making the most of daily life."
             },
             {
               "q": "{漫画家|まんがか}＿＿医学{博士|はくし}でもあった{手塚治虫|てづかおさむ}は、その知識を作品に{生|い}かしている。",
@@ -1242,7 +1248,7 @@ N2.register({
               "en": "The food was delicious, the view was wonderful — that inn was the best, wasn't it?"
             }
           ],
-          "deepDive": "**AわBわ** lists two (or more) things piled one on another, usually with a feeling of *what with A and B…*: exasperation (雨には降られるわ、叱られるわ), sometimes delight (料理はうまいわ、眺めはいいわ). The emphatic particle わ is repeated after each item, and the sentence often ends with an evaluation (ついていない1日だった, 最高だった) or trails off (……).\n\nConnection: plain **non-past** forms only (＊ bracket: 現在形のみ) — even when describing the past: 降られるわ、叱られるわ、…1日だった. な-adjectives and nouns take だ (難解だわ). Nouns are often marked with は to contrast the items (遅刻はするわ、宿題は忘れるわ; 酒は飲むわ).\n\nRegister: conversational (the casual icon), with a slightly exaggerated, storytelling tone — exactly what the monster wife uses: 昼間っから酒は飲むわ、ごろごろするわ.\n\nCompare:\n- **〜し、〜し** (N4): neutral listing of reasons; わ〜わ is more emotional and implies 'one thing after another'.\n- **〜やら〜やら** (N2): listing, often with confusion; can take nouns (泣くやら笑うやら / 本やらノートやら).\n- **〜たり〜たり**: neutral examples of actions.\n\nDon't confuse with sentence-final わ (feminine/Kansai), or the fixed **〜わ〜わで** (*what with ~ and ~*). JLPT tip: repeated わ after dictionary forms in a complaint → this pattern; watch for ✗降られたわ, 叱られたわ.",
+          "deepDive": "**AわBわ** lists two (or more) things piled one on another, usually with a feeling of *what with A and B…*: exasperation (雨には降られるわ、叱られるわ), sometimes delight (料理はうまいわ、眺めはいいわ). The emphatic particle わ is repeated after each item, and the sentence often ends with an evaluation (ついていない1日だった, 最高だった) or trails off (……).\n\nConnection: plain **non-past** forms only (＊ bracket: 現在形のみ) — even when describing the past: 降られるわ、叱られるわ、…1日だった. な-adjectives and nouns take だ (難解だわ). Nouns are often marked with は to contrast the items (遅刻はするわ、宿題は忘れるわ; 酒は飲むわ).\n\nRegister: conversational (the casual icon), with a slightly exaggerated, storytelling tone — exactly what the monster wife uses: 昼間っから酒は飲むわ、ごろごろするわ.\n\nCompare:\n- **〜し、〜し** (N4): neutral listing of reasons; わ〜わ is more emotional and implies 'one thing after another'.\n- **〜やら〜やら** (N2): listing, often with confusion; can take nouns (泣くやら笑うやら / 本やらノートやら).\n- **〜たり〜たり**: neutral examples of actions.\n\nDon't confuse it with sentence-final わ (feminine/Kansai). It also appears as **〜わ〜わで** (*what with ~ and ~*), leading into the result. JLPT tip: repeated わ after dictionary forms in a complaint → this pattern; watch for ✗降られたわ, 叱られたわ.",
           "see": [],
           "index": [
             "〜わ…わ",
@@ -1281,7 +1287,7 @@ N2.register({
               "en": "Maybe Tanaka was tired — the moment he got on the train, he was snoring, dead to the world."
             }
           ],
-          "deepDive": "**V＋が早いか** literally *whether V was quicker (or the next event)*: the second event happens **almost simultaneously** with the first, and the speaker is struck by how short the gap is. It's literary and narrative — ideal for folktales (米が炊けるが早いか…握り飯を作り).\n\nConnection: V-る or V-た (開けるが早いか / 乗ったが早いか). The second half is a past fact; no requests, intentions or orders (✗着くが早いか電話しなさい).\n\nUnlike なり (#28), the two subjects **can differ** (店員が開けるが早いか、客がなだれ込んだ; 魔法使いが唱えるが早いか、王子は変わった), and the focus is on the timing rather than on a single person's surprising behaviour.\n\nMeaning check from the やってみよう: 鐘が鳴るが早いか = 鳴るとすぐ (not 鳴るより早く *before it rang*); 受付時間になるが早いか = なるかならないかのうちに; 母親が出かけるが早いか = the children didn't play while their mother was there.\n\nCompare: **〜や否や** (#97, equally literary, *no sooner than*), **〜なり** (#28, same subject, surprising behaviour), **〜とたん（に）** (N3, V-た, often accidental), **〜そばから** (#31, repeated cycles). JLPT tip: ★★ — recognise it as *as soon as*; its partner options are usually なり, や否や, そばから, とたん.",
+          "deepDive": "**V＋が早いか** (*no sooner ~ than*) means the second event happens **almost simultaneously** with the first, and the speaker is struck by how short the gap is. It's literary and narrative — ideal for folktales (米が炊けるが早いか…握り飯を作り).\n\nConnection: V-る or V-た (開けるが早いか / 乗ったが早いか). The second half is a past fact; no requests, intentions or orders (✗着くが早いか電話しなさい).\n\nUnlike なり (#28), the two subjects **can differ** (店員が開けるが早いか、客がなだれ込んだ; 魔法使いが唱えるが早いか、王子は変わった), and the focus is on the timing rather than on a single person's surprising behaviour.\n\nMeaning check from the やってみよう: 鐘が鳴るが早いか = 鳴るとすぐ (not 鳴るより早く *before it rang*); 受付時間になるが早いか = なるかならないかのうちに; 母親が出かけるが早いか = the children didn't play while their mother was there.\n\nCompare: **〜や否や** (#97, equally literary, *no sooner than*), **〜なり** (#28, same subject, surprising behaviour), **〜とたん（に）** (N3, V-た, often accidental), **〜そばから** (#31, repeated cycles). JLPT tip: ★★ — recognise it as *as soon as*; its partner options are usually なり, や否や, そばから, とたん.",
           "see": [
             28,
             31,
@@ -1409,7 +1415,10 @@ N2.register({
                     "来ない"
                   ],
                   "answer": 0,
-                  "en": "As soon as I reply to one inquiry email, the next one comes in, so I just can't get away and go home."
+                  "en": "As soon as I reply to one inquiry email, the next one comes in, so I just can't get away and go home.",
+                  "why": {
+                    "en": "そばから: each time A (replying) is done, B follows right away and again — the next email comes in. 来ない would contradict the repeated cycle and the reason for not being able to go home."
+                  }
                 },
                 {
                   "q": "この商品は{入荷|にゅうか}するそばから（　）ので、常に{品薄|しなうす}だ。",
@@ -1710,7 +1719,7 @@ N2.register({
               "をもって"
             ],
             "answer": 0,
-            "en": "Despite much criticism that its content is vulgar, this program is still getting high ratings.",
+            "en": "Paying no heed to widespread criticism that its content is vulgar, this program is still getting high ratings.",
             "why": {
               "en": "〜をよそに: paying no heed to (criticism, worries) and carrying on regardless."
             }
@@ -1802,7 +1811,7 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "However much it may be midsummer, climbing Mt. Fuji in just a T-shirt is reckless."
+            "en": "Midsummer or not, to think someone would climb Mt. Fuji in nothing but a T-shirt — that's just absurd."
           },
           {
             "before": "スケートを教えてほしいって彼女に言われたんだけど、実は{俺|おれ}、",
