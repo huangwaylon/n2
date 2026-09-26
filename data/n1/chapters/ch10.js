@@ -42,7 +42,7 @@ N2.register({
           {
             "cont": true,
             "ja": "彼らは文字を書こうとさえ考えていない。",
-            "en": "They do not even think of writing characters."
+            "en": "They do not even intend to write characters."
           },
           {
             "cont": true,
@@ -638,7 +638,7 @@ N2.register({
                 },
                 {
                   "ja": "力{及|およ}ばず、今回の{選挙戦|せんきょせん}でこのような結果になりましたことは、{誠|まこと}に{痛恨|つうこん}の{極|きわ}みでございます。",
-                  "en": "That, through our lack of strength, this election campaign has ended in such a result is truly a matter of the deepest regret."
+                  "en": "Our efforts fell short, and that this election campaign has ended in such a result is truly a matter of the deepest regret."
                 },
                 {
                   "ja": "毎日、取れたての{新鮮|しんせん}な野菜や魚で作った料理が食べられるなんて{贅沢|ぜいたく}の{極|きわ}みだ。",

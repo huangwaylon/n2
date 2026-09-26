@@ -16,7 +16,7 @@ N2F({
       { cont: true, ja: "昭和30年代以降急速に発展し、現在では、現代芸術の一分野としての地位を{確立|かくりつ}している。", en: "It developed rapidly from the Showa 30s (1955–64) onward, and today it has established itself as a branch of contemporary art." },
       { ja: "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをする**べからず**{等|とう}、{数多|かずおお}くの決まりがある。", en: "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”" },
       { cont: true, ja: "{前衛|ぜんえい}書道家はこうした決まりに{縛|しば}られずに、自由な表現を目指すものである。", en: "Avant-garde calligraphers are not bound by such rules and aim for free expression." },
-      { cont: true, ja: "彼らは文字を書こうとさえ考えていない。", en: "They do not even think of writing characters." },
+      { cont: true, ja: "彼らは文字を書こうとさえ考えていない。", en: "They do not even intend to write characters." },
       { cont: true, ja: "**ただ**自分の心を表現すること**のみ**を目指す。", en: "Their sole aim is to express what is in their hearts." },
       { cont: true, ja: "文字として読めない**がゆえ**に、その筆の線が{余白|よはく}**と{相|あい}まって**作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper." },
       { ja: "{前衛|ぜんえい}書道で、よく語られるのが{上田桑鳩|うえだそうきゅう}（1899-1968年）の「愛」（1951年、第7回日本美術{展覧会|てんらんかい}に{出展|しゅってん}）である。", en: "A work often talked about in avant-garde calligraphy is Ueda Sōkyū's (1899–1968) “Ai” (Love), exhibited at the 7th Japan Art Exhibition in 1951." },
@@ -376,7 +376,7 @@ N2F({
           ],
           examples: [
             { ja: "{京都|きょうと}の{金閣寺|きんかくじ}は美の{極|きわ}みを{尽|つ}くした{建造物|けんぞうぶつ}と言われている。", en: "Kyoto's Kinkaku-ji is said to be a building that attains the very height of beauty." },
-            { ja: "力{及|およ}ばず、今回の{選挙戦|せんきょせん}でこのような結果になりましたことは、{誠|まこと}に{痛恨|つうこん}の{極|きわ}みでございます。", en: "That, through our lack of strength, this election campaign has ended in such a result is truly a matter of the deepest regret." },
+            { ja: "力{及|およ}ばず、今回の{選挙戦|せんきょせん}でこのような結果になりましたことは、{誠|まこと}に{痛恨|つうこん}の{極|きわ}みでございます。", en: "Our efforts fell short, and that this election campaign has ended in such a result is truly a matter of the deepest regret." },
             { ja: "毎日、取れたての{新鮮|しんせん}な野菜や魚で作った料理が食べられるなんて{贅沢|ぜいたく}の{極|きわ}みだ。", en: "Being able to eat dishes made from fresh-picked vegetables and freshly caught fish every day is the height of luxury." },
           ],
         },
