@@ -12,7 +12,7 @@ export const sleep = ms => new Promise(r => setTimeout(r, ms));
 // open({route, width, height, scheme, wait, mobile, touch}) -> {send, evaluate, logs, close}
 // mobile defaults to width < 700; touch (pointer:coarse, hover:none) defaults to mobile.
 // logs collects console messages, uncaught exceptions and failed-load log entries.
-export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch } = {}) {
+export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch, dpr = 1 } = {}) {
   mobile = mobile ?? width < 700; touch = touch ?? mobile;
   // launch Chrome on a random debugging port; retry on a fresh port if it doesn't come up (port clash, slow start)
   let ch, prof, tabs;
@@ -41,7 +41,7 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
     } else if (m.method === "Log.entryAdded") logs.push(`log.${m.params.entry.level}: ${m.params.entry.text} ${m.params.entry.url || ""}`);
   };
   const send = (method, params = {}) => new Promise(r => { const i = ++id; pend[i] = r; ws.send(JSON.stringify({ id: i, method, params })); });
-  await send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: 1, mobile });
+  await send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: dpr, mobile });
   if (touch) await send("Emulation.setTouchEmulationEnabled", { enabled: true, maxTouchPoints: 5 });
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: scheme }] });
   await send("Runtime.enable"); await send("Log.enable"); await send("Page.enable");

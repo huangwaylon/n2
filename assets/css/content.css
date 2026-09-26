@@ -191,6 +191,10 @@
 .fx-col { display: inline-flex; flex-direction: column; align-items: flex-start; min-width: 0; }
 .fx-u { font: 12.5px/1.5 var(--goth); white-space: nowrap; margin-left: -.1em; }
 .fx-u .badge { font-size: .85em; }
+/* the column is as wide as its badge; the bracket overflows under the following "+ …" (never onto a line edge: max-width) */
+.fx-col--hang > .fx-u { width: 0; overflow: visible; }
+.fx-col--hang > .fx-u > * { white-space: nowrap; }
+.fx-col--hang { margin-bottom: .1em; }
 .fx .badge, .fx-sub .badge { font-size: .8em; }
 
 /* ---------- C11 ＊ notes ---------- */

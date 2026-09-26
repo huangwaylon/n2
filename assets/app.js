@@ -456,7 +456,9 @@
       subs.splice(0, subs.length, ...subs.filter((x) => !uLines.includes(x)));
       body = `<div class="fx fx--under">${T[0].map((t, i) => {
         const k = badgeIdx.indexOf(i);
-        return `${i ? '<span class="fx-plus">+</span>' : ""}<span class="fx-col">${fxTok(t, "r")}${k >= 0 ? G.map((g) => `<span class="fx-u">${fmt(g[k])}</span>`).join("") : ""}</span>`;
+        // the bracket hangs to the right under the "+" (book p.74) unless the next token carries its own bracket
+        const hang = k >= 0 && !badgeIdx.includes(i + 1) ? " fx-col--hang" : "";
+        return `${i ? '<span class="fx-plus">+</span>' : ""}<span class="fx-col${hang}">${fxTok(t, "r")}${k >= 0 ? G.map((g) => `<span class="fx-u">${fmt(g[k].replace(/　/g, " "))}</span>`).join("") : ""}</span>`;
       }).join("")}</div>`;
     } else if (T.length === 1) body = `<div class="fx">${fxJoin(T[0])}</div>`;
     else if (T.length > 1) {
