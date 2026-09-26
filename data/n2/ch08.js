@@ -34,9 +34,9 @@ TRY.registerChapter({
           usage: { ja: "ビジネスなどの場面では、下の表のような特別な{敬語|けいご}の言葉も使われる。", en: "The following kinds of special honorific words in the tables below are also used in business and other settings." },
           forms: ["意味 → {尊敬語|そんけいご}", "来る → お見えになる＊1／お{越|こ}しになる＊2", "行く・来る・いる → おいでになる＊3", "Vている → Vておいでになる", "意味 → {謙譲語|けんじょうご}", "見せる → ご{覧|らん}に{入|い}れる", "聞く・引き受ける → {承|うけたまわ}る", "借りる → {拝借|はいしゃく}する", "思う（知っている） → {存|ぞん}じる", "{伝言|でんごん}する → {申|もう}し{伝|つた}える", "Vていく・Vてくる → Vてまいる"],
           formNotes: [
-            { ja: "＊1「お見えです」も使われる。", en: "*1 お見えです is also used." },
-            { ja: "＊2「お{越|こ}しの{方|かた}」「お{越|こ}しです」「お{越|こ}しいただく／くださる」「お{越|こ}しください」などの使い方もある。", en: "*2 There are also uses such as お越しの方 (the person coming), お越しです (is coming / has come), お越しいただく／くださる (have someone come / someone kindly comes) and お越しください (please come)." },
-            { ja: "＊3「おいでの{際|さい}」「おいでです」「おいでいただく／くださる」「おいでください」などの使い方もある。", en: "*3 There are also uses such as おいでの際 (when you come), おいでです (is here / is coming), おいでいただく／くださる and おいでください (please come)." },
+            { ja: "＊1「お見えです」も使われる。", en: "*1 お見えです is also used.", gen: true },
+            { ja: "＊2「お{越|こ}しの{方|かた}」「お{越|こ}しです」「お{越|こ}しいただく／くださる」「お{越|こ}しください」などの使い方もある。", en: "*2 There are also uses such as お越しの方 (the person coming), お越しです (is coming / has come), お越しいただく／くださる (have someone come / someone kindly comes) and お越しください (please come).", gen: true },
+            { ja: "＊3「おいでの{際|さい}」「おいでです」「おいでいただく／くださる」「おいでください」などの使い方もある。", en: "*3 There are also uses such as おいでの際 (when you come), おいでです (is here / is coming), おいでいただく／くださる and おいでください (please come).", gen: true },
           ],
           examples: [
             { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Mr. Oyama from Yokohama, Mr. Sato is waiting for you, so please come to the reception desk on the first floor." },
@@ -122,7 +122,7 @@ TRY.registerChapter({
           usage: { ja: "「お／ご〜{申|もう}し{上|あ}げる」は、「言う」ではなく、「する」の意味で、自分が相手のために何かをするときに使う。「お／ご〜する」のもっと{丁寧|ていねい}な言い方。", en: "\"お／ご〜{申|もう}し{上|あ}げる\" means \"do,\" not \"say.\" Use it when you do something for someone. It is more polite speech than \"お／ご〜する\"." },
           forms: ["お[V-~~ます~~] + {申|もう}し{上|あ}げる", "ご[N] + {申|もう}し{上|あ}げる"],
           formNotes: [
-            { ja: "＊「{喜|よろこ}ぶ・{祈|いの}る・答える・案内・{相談|そうだん}・{紹介|しょうかい}」などの言葉と一緒に使われる。", en: "* It is used together with words such as 喜ぶ (be glad), 祈る (pray, wish), 答える (answer), 案内 (guidance), 相談 (consultation) and 紹介 (introduction)." },
+            { ja: "＊「{喜|よろこ}ぶ・{祈|いの}る・答える・案内・{相談|そうだん}・{紹介|しょうかい}」などの言葉と一緒に使われる。", en: "* It is used together with words such as 喜ぶ (be glad), 祈る (pray, wish), 答える (answer), 案内 (guidance), 相談 (consultation) and 紹介 (introduction).", gen: true },
           ],
           examples: [
             { ja: "{新|しん}{校舎|こうしゃ}{建設|けんせつ}のため、ご{寄付|きふ}をお願い{申|もう}し{上|あ}げます。", en: "We respectfully ask for your donations for the construction of the new school building." },
@@ -152,7 +152,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ばと思います」は、「{至急|しきゅう}ご{連絡|れんらく}いただければと思います」のように、相手に「できれば〜してほしい」とちょっと{遠慮|えんりょ}しながら言うときに使われる。「もう少し{価格|かかく}が安ければと思います」のように、自分の{希望|きぼう}を言うときにも使われる。", en: "\"〜ばと思います\" is used when you say modestly to someone \"if you can, I'd like you to 〜\" as in \"{至急|しきゅう}ご{連絡|れんらく}いただければと思います\". It is also used when you express a desire of yours as in \"もう少し{価格|かかく}が安ければと思います\"." },
           forms: ["[V-ば] + と思う"],
           formNotes: [
-            { ja: "＊「[いA~~い~~]ければ／[なA]であれば + と思う」の形もある。", en: "* The forms い-adj. (stem) + ければ／な-adj. + であれば + と思う also exist." },
+            { ja: "＊「[いA~~い~~]ければ／[なA]であれば + と思う」の形もある。", en: "* The forms い-adj. (stem) + ければ／な-adj. + であれば + と思う also exist.", gen: true },
           ],
           examples: [
             { ja: "こちらの{事情|じじょう}をご{理解|りかい}いただければと思います。", en: "I'd be grateful if you could understand our circumstances." },
@@ -183,7 +183,7 @@ TRY.registerChapter({
           usage: { ja: "「〜について・〜にとって・〜において・〜として・〜に{関|かん}して」は、{丁寧|ていねい}に話したいときは「〜まして」の形を使う。", en: "Use the \"〜まして\" form when you want to speak politely using \"〜について・〜にとって・〜において・〜として・〜{関|かん}して\"." },
           forms: [],
           formNotes: [
-            { ja: "＊「〜として」は、「〜としまして」のほか「〜といたしまして」も使われる。", en: "* For 〜として, besides 〜としまして, 〜といたしまして is also used." },
+            { ja: "＊「〜として」は、「〜としまして」のほか「〜といたしまして」も使われる。", en: "* For 〜として, besides 〜としまして, 〜といたしまして is also used.", gen: true },
           ],
           examples: [
             { ja: "{発売|はつばい}の{時期|じき}につきましては、{現在|げんざい}{検討中|けんとうちゅう}でございます。", en: "As for the release date, it is currently under consideration." },
@@ -358,7 +358,7 @@ TRY.registerChapter({
         labels: "123",
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、[1]から[4]の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider its overall content, and choose the best option (1–4) for each of blanks [1]–[4]." },
         text: ["お買い上げ{誠|まこと}にありがとうございます。お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には{万全|ばんぜん}を{期|き}して[2]が、{万一|まんいち}{不良品|ふりょうひん}などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。"],
-        en: ["Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there be any chance be a defective item or the like, we apologize for the inconvenience and ask that you contact our company."],
+        en: ["Thank you very much for your purchase. We take every care over the quality control of the products we deliver, but should there by any chance be a defective item or the like, we are sorry to trouble you, but we ask that you please contact our company."],
         blanks: [
           {
             options: ["なさいました", "いたしました", "ございました", "まいりました"],

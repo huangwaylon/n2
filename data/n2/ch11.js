@@ -108,7 +108,7 @@ TRY.registerChapter({
           usage: { ja: "「このアルバイトは交通{費|ひ}が{全額|ぜんがく}出る{上|うえ}に食事もついている」のように、「{状況|じょうきょう}や理由が1つだけでなく2つ以上ある」と言いたいときに使う。", en: "Use this when you want to say \"there are two circumstances or reason, not just one\" as in \" このアルバイトは交通{費|ひ}が{全額|ぜんがく}出る{上|うえ}に食事もついている \"." },
           forms: ["[Pl] + {上|うえ}（に）\n［[なA~~だ~~]な　[N~~だ~~]の］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + {上|うえ}」の形もある。", en: "The form [なA]／[N] である + 上 is also used." },
+            { ja: "「[なA]／[N] である + {上|うえ}」の形もある。", en: "The form [なA]／[N] である + 上 is also used.", gen: true },
             { ja: "名詞は{状態|じょうたい}や{様子|ようす}を表す言葉が使われる。", en: "Words that express a state or appearance are used for a noun." },
           ],
           examples: [
@@ -164,7 +164,7 @@ TRY.registerChapter({
           usage: { ja: "「会社といっても{妻|つま}と2人でやっている小さい会社です」のように、相手が{想像|そうぞう}したこと（社員がいる）に対して、「{実際|じっさい}にはそうではない」と言いたいときに使う。", en: "As in \" 会社といっても{妻|つま}と2人でやっている小さい会社です \", use this when you want to say \"It's not actually like that\" in response to what the listener has imagined (the company has many employees)." },
           forms: ["[Pl] + といっても", "[Pl] + といいましても"],
           formNotes: [
-            { ja: "「[なA]／[N] + といっても」の形もある。", en: "The form [なA]／[N] + といっても is also used." },
+            { ja: "「[なA]／[N] + といっても」の形もある。", en: "The form [なA]／[N] + といっても is also used.", gen: true },
           ],
           examples: [
             { ja: "1{世帯|せたい}といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We may say \"one household\", but households range from people living alone to large families of ten or more." },
@@ -232,7 +232,7 @@ TRY.registerChapter({
           usage: { ja: "「〜だけあって」は、「〜だから、{当然|とうぜん}そうだ」と言いたいときに使う。", en: "Use \" 〜だけあって \" when you want to say something \"is a matter of course because of 〜 \"." },
           forms: ["[V-る]／[V-た]／[V-て]いる + だけあって／だけに", "[いA] + だけあって／だけに", "[なA] な + だけあって／だけに", "[N] （な） + だけあって／だけに"],
           formNotes: [
-            { ja: "「[なA]／[N] である + だけあって」の形もある。", en: "The form [なA]／[N] である + だけあって is also used." },
+            { ja: "「[なA]／[N] である + だけあって」の形もある。", en: "The form [なA]／[N] である + だけあって is also used.", gen: true },
             { ja: "名詞は、{状態|じょうたい}や{様子|ようす}を表す言葉が使われるときは「な」がつく。", en: "Add \"な\" to a noun that expresses a state or appearance." },
           ],
           examples: [
@@ -305,7 +305,7 @@ TRY.registerChapter({
           usage: { ja: "「〜にしろ」は、ある{範囲内|はんいない}のものから例をあげて、「〜だけでなくどれでも」と言いたいときに使われる。「いい・悪い」「好き・嫌い」「する・しない」「{出席|しゅっせき}する・{欠席|けっせき}する」など{反対|はんたい}の意味の言葉を使って、どちらの場合でもと言いたいときにも使われる。", en: "\" 〜にしろ \" is used when you want to give examples from a category and say that \"not only 〜 but all of them\" are something. It is also used with pairs of antonyms such as \" いい・悪い \", \" 好き・嫌い \", \" する・しない \" and \" {出席|しゅっせき}する・{欠席|けっせき}する \" when you want to say that something could be applicable in either case." },
           forms: ["[Pl] + にしろ + [Pl] + にしろ", "[Pl] + にしても + [Pl] + にしても", "[Pl] + にせよ + [Pl] + にせよ", "［[なA~~だ~~]　[N~~だ~~]］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + にしろ」の形もある。", en: "The form [なA]／[N] である + にしろ is also used." },
+            { ja: "「[なA]／[N] である + にしろ」の形もある。", en: "The form [なA]／[N] である + にしろ is also used.", gen: true },
           ],
           examples: [
             { ja: "{東京|とうきょう}にしろ{大阪|おおさか}にしろ{大都市|だいとし}には働く場所が多いので人が集まってくる。", en: "Whether it's Tokyo or Osaka, big cities have many places to work, so people gather there." },

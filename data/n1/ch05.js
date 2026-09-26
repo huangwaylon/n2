@@ -97,7 +97,7 @@ TRY.registerChapter({
             { ja: "＊「[N]をいいことに」「[なA]／[N]であるのをいいことに」の形も使われる。", en: "The forms \"N + をいいことに\" and \"なA / N + であるのをいいことに\" are also used." },
           ],
           examples: [
-            { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "Taking advantage of there being nobody around at night, the graffiti in the tunnel just keeps getting worse." },
+            { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "People are taking advantage of there being nobody around at night, and the graffiti in the tunnel just keeps getting worse." },
             { ja: "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。", en: "Yamamoto took advantage of the train being late and strolled in brazenly just as the test was ending." },
             { ja: "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。", en: "It seems our cat took advantage of its owner being out to get up to mischief — the room is a total mess." },
             { ja: "表現の自由は守るべき権利の1つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。", en: "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun." },

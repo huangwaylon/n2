@@ -48,11 +48,11 @@ TRY.registerChapter({
           usage: { ja: "「〜たて」は、「〜」が{完了|かんりょう}して、「〜」になってすぐの{状態|じょうたい}であることを言うときに使う。", en: "Use \"〜たて\" when you say that \"〜\" is finished or that something happened soon after \"〜\"." },
           forms: ["[V-~~ます~~] + たて"],
           formNotes: [
-            { ja: "「作る・できる・{焼|や}く・{炊|た}く・なる」などの動詞と一緒に使われる。", en: "It is used together with verbs such as 作る, できる, 焼く, 炊く and なる." },
+            { ja: "「作る・できる・{焼|や}く・{炊|た}く・なる」などの動詞と一緒に使われる。", en: "It is used together with verbs such as 作る, できる, 焼く, 炊く and なる.", gen: true },
           ],
           examples: [
             { ja: "{炊|た}きたてのご飯ってほんといいね。{何杯|なんばい}でも食べられそう。", en: "Freshly cooked rice is really the best. I feel like I could eat any number of bowls." },
-            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. I bought them fresh out of the steamer." },
+            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. I bought them freshly made." },
             { ja: "このベンチ、ペンキぬりたてだって。", en: "They say this bench has just been painted (wet paint)." },
             { ja: "A：ねえ、うちの姉の子がね、{幼稚園|ようちえん}で習った覚えたての歌と{踊|おど}りを見せてくれたんだ。\nB：そりゃ、かわいかっただろうね。", en: "A: Hey, my sister's kid showed me a song and dance she just learned at kindergarten.\nB: That must have been adorable." },
           ],
@@ -110,7 +110,7 @@ TRY.registerChapter({
             {
               pattern: "〜ってば",
               marks: ["regret", "casual"],
-              usage: { ja: "「[N] + ってば」も同じように使う。", en: "" },
+              usage: { ja: "「[N] + ってば」も同じように使う。", en: "\"[N] + ってば\" is used in the same way.", gen: true },
               examples: [
                 { ja: "お母さんってば、いつも{勝手|かって}に私の部屋に入るのよ。", en: "Mom, honestly — she always comes into my room without asking." },
                 { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — he says he's going to put up a bronze statue of himself at the front entrance. What a pain." },
@@ -183,7 +183,7 @@ TRY.registerChapter({
           usage: { ja: "「開かないわけだ、かぎがかかっているよ」のように、思っていたこと（開かない）の理由（かぎがかかっている）がわかって「やっぱり」「なるほど」と{納得|なっとく}したときに使う。理由がわからないときは、「どういうわけか」を使う。", en: "As in \"開かないわけだ、かぎがかかっているよ\", use this when you come to understand that something is the case (it won't open) because of a certain reason (it's locked), as if to say \"ah ha\" or \"now I see.\" When you do not know the reason, use \"どういうわけか\"." },
           forms: ["[Pl] + わけだ\n［[なA~~だ~~]な　[N~~だ~~]の］"],
           formNotes: [
-            { ja: "「〜というわけだ」の形もある。", en: "The form 〜というわけだ also exists." },
+            { ja: "「〜というわけだ」の形もある。", en: "The form 〜というわけだ is also used.", gen: true },
           ],
           examples: [
             { ja: "A：このチョコ、1{粒|つぶ}1,000円もするんだよ。\nB：え！　本当？　じゃあ、おいしいわけよね。", en: "A: These chocolates cost 1,000 yen a piece, you know.\nB: What! Really? Well, no wonder they're delicious." },
@@ -205,7 +205,7 @@ TRY.registerChapter({
                   q: "A：{斎藤|さいとう}さん、今日、{就職|しゅうしょく}試験なんだって。\nB：ああ、それでスーツ着て出かけていった（　）ね。",
                   options: ["わけ", "はず", "べき"],
                   answer: 0,
-                  en: "A: I heard Saito has an employment exam today.\nB: Oh, so that's why he went out in a suit.",
+                  en: "A: I heard Saito has a job exam today.\nB: Oh, so that's why he went out in a suit.",
                 },
                 {
                   q: "A：{斎藤|さいとう}さん、部屋にいないみたいだね。\nB：うん。今日{就職|しゅうしょく}試験だって言っていたから、もう出かけた（　）よ。",
@@ -339,7 +339,7 @@ TRY.registerChapter({
           { sp: "大田", v: "f", ja: "それにね、{残|のこ}したら、{罰金|ばっきん}を{払|はら}わされる店もあるから気をつけないとだめよ。先週も友達と{焼|や}き{肉|にく}の食べ{放題|ほうだい}に行ったんだけど、{危|あや}うく{罰金|ばっきん}を{払|はら}わされる**ところだった**んだから。", en: "And, you know, some places make you pay a fine if you leave food, so you have to be careful. Last week I went to an all-you-can-eat yakiniku place with a friend, and we very nearly got made to pay a fine." },
           { sp: "小林", v: "m", ja: "それで、どうなったの？", en: "So what happened?" },
           { sp: "大田", v: "f", ja: "最後の力をふりしぼって、私が食べたわよ。{罰金|ばっきん}{払|はら}う**くらいなら**、がんばったほうがずっと**まし**だと思って…。", en: "I summoned the last of my strength and ate it myself. I figured that rather than pay a fine, it'd be far better to push through…" },
-          { sp: "小林", v: "m", ja: "{大田|おおた}さんがいれば{心強|こころづよ}いね。メンバー集めるから、{絶対|ぜったい}一緒に行こうね。よろしく！", en: "With you along, Ota, I'll feel confident. I'll get a group together, so let's definitely go together. I'm counting on you!" },
+          { sp: "小林", v: "m", ja: "{大田|おおた}さんがいれば{心強|こころづよ}いね。メンバー集めるから、{絶対|ぜったい}一緒に行こうね。よろしく！", en: "Having you with us will be reassuring, Ota. I'll get a group together, so let's definitely go together. I'm counting on you!" },
         ],
       },
       points: [
@@ -352,8 +352,8 @@ TRY.registerChapter({
           usage: { ja: "{実際|じっさい}はそうではないのに、そのように見せていることを表す。", en: "Express yourself to act like something is the case although it is in fact not." },
           forms: ["［[N]　[なA]　[いA~~い~~]］ + ぶる"],
           formNotes: [
-            { ja: "「{優等生|ゆうとうせい}・{悪者|わるもの}・大人・{上品|じょうひん}・いい子・{偉|えら}い」などの言葉と一緒に使う。", en: "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important)." },
-            { ja: "「ぶる」は「ぶらない」「ぶって」のように、Ⅰグループの{動詞|どうし}と同じ{活用|かつよう}をする。", en: "ぶる conjugates like a Group 1 verb: ぶらない, ぶって." },
+            { ja: "「{優等生|ゆうとうせい}・{悪者|わるもの}・大人・{上品|じょうひん}・いい子・{偉|えら}い」などの言葉と一緒に使う。", en: "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important).", gen: true },
+            { ja: "「ぶる」は「ぶらない」「ぶって」のように、Ⅰグループの{動詞|どうし}と同じ{活用|かつよう}をする。", en: "ぶる conjugates like a Group I verb, as in ぶらない and ぶって.", gen: true },
           ],
           examples: [
             { ja: "昔ぼくは好きな女の子の前で悪ぶっていた。本当は、好きだって言う{勇気|ゆうき}がなかっただけなんだ。", en: "When I was younger, I used to act like a bad boy in front of girls I liked. Really, I just didn't have the courage to tell them I liked them." },
@@ -422,7 +422,7 @@ TRY.registerChapter({
           usage: { ja: "「〜という〜」は、「店中の客という客が立ち上がって{踊|おど}り出した」のように、すべての「〜(客)」を表す。「〜」の部分は同じ言葉をくり返す。", en: "As in \"店中の客という客が立ち上がって{踊|おど}り出した\", \"〜という〜\" refers to all \"〜(customers).\" The same word is used both times for \"〜\"." },
           forms: ["[N] + という + [N]"],
           examples: [
-            { ja: "今回の{森林火災|しんりんかさい}で、この{辺|へん}の木という木は、1本{残|のこ}らず{燃|も}えてしまった。", en: "In this latest forest fire, every last tree around here burned down, without a single one left." },
+            { ja: "今回の{森林火災|しんりんかさい}で、この{辺|へん}の木という木は、1本{残|のこ}らず{燃|も}えてしまった。", en: "In this latest forest fire, every single tree around here burned down — not one was left." },
             { ja: "{田中監督|たなかかんとく}はこの映画で、今年の映画{関連|かんれん}の{賞|しょう}という{賞|しょう}を{独占|どくせん}した。", en: "With this film, director Tanaka swept every single film award this year." },
             { ja: "クリスマスにロンドンへ行ったら、店という店が閉まっちゃってて、何も買えなかった。", en: "When I went to London at Christmas, every single shop was closed, so I couldn't buy anything." },
             { ja: "{桜|さくら}の{季節|きせつ}には道という道に{観光客|かんこうきゃく}があふれ、{地元|じもと}の人間にとっては{迷惑|めいわく}な話だ。", en: "In cherry blossom season every street overflows with tourists, which is a real nuisance for the locals." },
@@ -440,7 +440,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ところだった」は、「もう少しでけがをするところだった」のように、「〜の{状況|じょうきょう}になりそうだったが、{実際|じっさい}にはそうならなかった」と言いたいときに使う。", en: "Use \"〜ところだった\" when you want to say \"it seemed like it was going to be 〜, but actually it didn't\" as in \"もう少しでけがをするところだった\"." },
           forms: ["[V-る] + ところだった"],
           formNotes: [
-            { ja: "「〜なければならない」「〜ざるを{得|え}ない」などと一緒に使うこともある。", en: "It can also be used together with 〜なければならない, 〜ざるを得ない, etc." },
+            { ja: "「〜なければならない」「〜ざるを{得|え}ない」などと一緒に使うこともある。", en: "It can also be used together with 〜なければならない, 〜ざるを得ない, etc.", gen: true },
           ],
           examples: [
             { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、{危|あや}うく{遅刻|ちこく}するところだったよ。", en: "I overslept by a whole 30 minutes this morning and very nearly ended up late." },
@@ -702,7 +702,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["今、{伊豆|いず}にある友達の{別荘|べっそう}に遊びに来てます。", "{今朝|けさ}起きたら、びっくりした[1]、{一面|いちめん}の{銀世界|ぎんせかい}。道路もすっかり雪が{積|つ}もって、車が通れなくなっちゃってました。朝ご飯は近くのお店からおいしい{牛乳|ぎゅうにゅう}と{焼|や}き[2]のパンが届くっていうことだったけど、こんな{状態|じょうたい}なので{配達|はいたつ}は{無理|むり}。しょうがないから、{残|のこ}ってたお{菓子|かし}を食べました。何も食べられないより[3]けど。", "そのあと、いつ来るかわからない{配達|はいたつ}を待ってる[4]買いに行ったほうが早いと思って、友達と2人でちょっと{離|はな}れたスーパーまで行くことにしたんだけど、雪で歩きにくくてとーっても{大変|たいへん}でした。お昼はバスで{港|みなと}までおいしい魚を食べに行く予定だったんだけどな～（泣）。"],
-        en: ["I'm visiting a friend's villa in Izu right now.", "When I woke up this morning, I was so surprised, you wouldn't believe it — everything was a silver world of snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.", "After that, thinking that rather than wait for a delivery that might come who knows when, it would be quicker to go and buy things ourselves, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob)."],
+        en: ["I'm visiting a friend's vacation home in Izu right now.", "When I woke up this morning, I was so surprised, you wouldn't believe it — everything was blanketed in white snow. The roads were completely covered in snow too, and cars couldn't get through. For breakfast, a nearby shop was supposed to deliver delicious milk and freshly baked bread, but in this state delivery was impossible. With no choice, we ate the leftover snacks. Better than having nothing to eat at all, though.", "After that, thinking that rather than wait for a delivery that might come who knows when, it would be quicker to go and buy things ourselves, my friend and I decided to go to a supermarket a little way off, but walking in the snow was sooo hard. We'd planned to take the bus to the harbor for lunch and eat delicious fish... (sob)."],
         blanks: [
           { options: ["のなんのって", "からだ", "けれど", "ところが"], answer: 0 },
           { options: ["始め", "たて", "かけ", "{次第|しだい}"], answer: 1 },
@@ -750,7 +750,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "{焼|や}きたてのケーキがあるのよ。食べていかない？" },
             ],
-            en: ["I have a freshly baked cake. Won't you have some before you go?", "Yes, I won't have any.", "What? You're going to bake a cake now?", "Oh, really? Are you sure?"],
+            en: ["I have a freshly baked cake. Won't you have some before you go?", "Yes, I won't stay and eat.", "What? You're going to bake a cake now?", "Oh, really? Are you sure?"],
             options: ["ええ、食べていきません。", "え？　今からケーキ{焼|や}くんですか。", "え？　いいんですか。"],
             answer: 2,
             why: { en: "焼きたて = freshly baked (already done), so offering it is an invitation; the polite, pleased reply is いいんですか." },

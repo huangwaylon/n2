@@ -27,7 +27,7 @@ TRY.registerChapter({
           phrase: "人間の{立場|たちば}**から見ると**",
           stars: 3,
           marks: [],
-          usage: { ja: "「〜から見る」は、「{専門家|せんもんか}から見ると」「{価格|かかく}の面から見ると」「データから見て」のように、「〜」の{立場|たちば}、{視点|してん}、{判断材料|はんだんざいりょう}から考えたことを言うときに使う。", en: "Use “〜から見る” when you state an idea based on the position, perspective or criterion of “〜” as in “{専門家|せんもんか}から見ると”, “{価格|かかく}の面から見ると” and “データから見て”." },
+          usage: { ja: "「〜から見る」は、「{専門家|せんもんか}から見ると」「{価格|かかく}の面から見ると」「データから見て」のように、「〜」の{立場|たちば}、{視点|してん}、{判断材料|はんだんざいりょう}から考えたことを言うときに使う。", en: "Use \"〜から見る\" when you state an idea based on the position, perspective or criterion of \"〜\" as in \"{専門家|せんもんか}から見ると\", \"{価格|かかく}の面から見ると\" and \"データから見て\"." },
           forms: ["[N] + から見ると", "[N] + から見れば", "[N] + から見て"],
           examples: [
             { ja: "便利さという点から見ると、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, the city is easier to live in than the countryside after all." },
@@ -97,10 +97,10 @@ TRY.registerChapter({
           phrase: "その**{一方|いっぽう}で**",
           stars: 3,
           marks: ["formal"],
-          usage: { ja: "「{行列|ぎょうれつ}ができる店がある{一方|いっぽう}、まったく客が入らない店もある」のように、1つのことに{関|かん}して、大きく違う{状況|じょうきょう}があることを説明するときに使う。", en: "Use this when you explain that one thing can be in very different situations as in “{行列|ぎょうれつ}ができる店がある{一方|いっぽう}、まったく客が入らない店もある”." },
+          usage: { ja: "「{行列|ぎょうれつ}ができる店がある{一方|いっぽう}、まったく客が入らない店もある」のように、1つのことに{関|かん}して、大きく違う{状況|じょうきょう}があることを説明するときに使う。", en: "Use this when you explain that one thing can be in very different situations as in \"{行列|ぎょうれつ}ができる店がある{一方|いっぽう}、まったく客が入らない店もある\"." },
           forms: ["[Pl] + {一方|いっぽう}\n［[なA~~だ~~]な　[N~~だ~~]の］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + {一方|いっぽう}」という形も使われる。", en: "The form なA／N + である + 一方 is also used." },
+            { ja: "「[なA]／[N] である + {一方|いっぽう}」という形も使われる。", en: "The form なA／N + である + 一方 is also used.", gen: true },
           ],
           examples: [
             { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる{一方|いっぽう}、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While some young people move to the city in search of work, others return to their hometowns to find jobs." },
@@ -133,7 +133,7 @@ TRY.registerChapter({
           usage: { ja: "物や{土地|とち}がその名前になった理由や、何かを{判断|はんだん}した理由や、そうなった{原因|げんいん}を言いたいときに使う。", en: "Use this when you want to give the reason for why a thing or land got its name, why a judgment was made, or the factors behind why something came to be." },
           forms: ["[Pl] + ことから\n［[なA~~だ~~]な　~~[N]だ~~］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + ことから」の形もある。", en: "The form なA／N + である + ことから also exists." },
+            { ja: "「[なA]／[N] である + ことから」の形もある。", en: "The form なA／N + である + ことから also exists.", gen: true },
           ],
           examples: [
             { ja: "このサツマイモは中が赤いことから、{紅|べに}イモと呼ばれています。", en: "This sweet potato is called a beni-imo (\"crimson potato\") because it is red inside." },
@@ -163,11 +163,11 @@ TRY.registerChapter({
           phrase: "{被害|ひがい}を{与|あた}えた**のみならず**",
           stars: 2,
           marks: ["formal"],
-          usage: { ja: "「〜のみならず」は、「〜だけでなく」と同じように使う。", en: "" },
+          usage: { ja: "「〜のみならず」は、「〜だけでなく」と同じように使う。", en: "\"〜のみならず\" is used in the same way as \"〜だけでなく\" (not only 〜).", gen: true },
           forms: ["[Pl] + のみならず\n［~~[なA]だ~~　[N~~だ~~]］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + のみならず」の形もある。", en: "The form なA／N + である + のみならず also exists." },
-            { ja: "「ただ〜のみならず」「ひとり〜のみならず」という言い方もある。", en: "The expressions ただ〜のみならず and ひとり〜のみならず are also used." },
+            { ja: "「[なA]／[N] である + のみならず」の形もある。", en: "The form なA／N + である + のみならず also exists.", gen: true },
+            { ja: "「ただ〜のみならず」「ひとり〜のみならず」という言い方もある。", en: "The expressions ただ〜のみならず and ひとり〜のみならず are also used.", gen: true },
           ],
           examples: [
             { ja: "{現在|げんざい}、日本のコンビニは{若者|わかもの}のみならず、あらゆる{世代|せだい}の{人々|ひとびと}に{様々|さまざま}な{目的|もくてき}で利用されている。", en: "Today, convenience stores in Japan are used not only by young people but by people of every generation, for all sorts of purposes." },
@@ -195,7 +195,7 @@ TRY.registerChapter({
                   q: "{朝日電子|あさひでんし}の{新製品|しんせいひん}はシェアを{独占|どくせん}したのみならず、（　）。",
                   options: ["売り上げを{伸|の}ばさなければならない", "会社のイメージアップにも{貢献|こうけん}した"],
                   answer: 1,
-                  en: "Asahi Electronics' new product not only monopolised the market share but also contributed to improving the company's image.",
+                  en: "Asahi Electronics' new product not only cornered the market but also helped improve the company's image.",
                 },
                 {
                   q: "{豆腐|とうふ}は今やアジアの国のみならず、（　）。",
@@ -219,7 +219,7 @@ TRY.registerChapter({
           phrase: "ネズミやビーバー**といった**",
           stars: 1,
           marks: [],
-          usage: { ja: "{代表的|だいひょうてき}な例をあげて説明するときの言い方で、「〜など」と同じ意味を表す。", en: "This expresses the same meaning as “〜など” by giving an explanation with typical examples." },
+          usage: { ja: "{代表的|だいひょうてき}な例をあげて説明するときの言い方で、「〜など」と同じ意味を表す。", en: "This expresses the same meaning as \"〜など\" by giving an explanation with typical examples." },
           forms: ["[N] + といった"],
           examples: [
             { ja: "くるみやアーモンドといったナッツ{類|るい}を毎日食べると、{記憶力|きおくりょく}がよくなるそうです。", en: "They say that eating nuts such as walnuts and almonds every day improves your memory." },
@@ -237,7 +237,7 @@ TRY.registerChapter({
           phrase: "数が増える**にしたがって**",
           stars: 3,
           marks: ["formal"],
-          usage: { ja: "「〜にしたがって」は、「〜の{変化|へんか}に合わせて、ほかのことも{変化|へんか}する」と言いたいときに使う。「〜にあわせて」と言いたいときにも使う。", en: "Use “〜にしたがって” when you want to say “something else changes along with a change in 〜”. You can also use it when you want to say “in concert with 〜”." },
+          usage: { ja: "「〜にしたがって」は、「〜の{変化|へんか}に合わせて、ほかのことも{変化|へんか}する」と言いたいときに使う。「〜にあわせて」と言いたいときにも使う。", en: "Use \"〜にしたがって\" when you want to say \"something else changes along with a change in 〜\". You can also use it when you want to say \"in concert with 〜\"." },
           forms: ["[V-る] + にしたがって", "[V-る] + にしたがい", "[N] + にしたがって", "[N] + にしたがい"],
           examples: [
             { ja: "暑くなるにしたがって、{体調|たいちょう}を{崩|くず}す人が増えた。", en: "As it got hotter, more people fell ill." },
@@ -250,7 +250,7 @@ TRY.registerChapter({
               pattern: "〜につれて／〜につれ",
               stars: 3,
               marks: ["formal"],
-              usage: { ja: "「[V-る] + につれて／につれ」も、「〜」と一緒に{変化|へんか}することを表す。", en: "" },
+              usage: { ja: "「[V-る] + につれて／につれ」も、「〜」と一緒に{変化|へんか}することを表す。", en: "\"[V-る] + につれて／につれ\" also expresses that something changes together with \"〜\".", gen: true },
               examples: [
                 { ja: "留学生活が長くなるにつれて、国のことを思い出すことが少なくなったような気がする。", en: "I feel that the longer my life as an overseas student goes on, the less often I think of my home country." },
                 { ja: "彼は年を取るにつれ、{周囲|しゅうい}の人と{交流|こうりゅう}することが少なくなっていった。", en: "As he grew older, he had less and less contact with the people around him." },
@@ -321,7 +321,7 @@ TRY.registerChapter({
           { ja: "20年以上の時間をかけて話し合いを続けた{結果|けっか}、1995年、ついにオオカミが{放|はな}された。", en: "As a result of more than 20 years of continued discussion, wolves were finally released in 1995." },
           { cont: true, ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}し**つつある**ことが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing." },
           { ja: "同じような取り組みはアメリカ**に{限|かぎ}らず**、ヨーロッパでも{検討|けんとう}されている。", en: "Similar efforts are being considered not only in America but in Europe as well." },
-          { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "The balance of nature will probably be maintained through a careful, continuing exchange of views." },
+          { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "The balance of nature will probably be maintained while views continue to be exchanged carefully." },
           { ja: "こうした{意識|いしき}の{変化|へんか}にともない、オオカミに対する悪いイメージも{過去|かこ}のものになっていくかもしれない。", en: "Along with this change in awareness, the bad image of wolves may also become a thing of the past." },
         ],
       },
@@ -335,7 +335,7 @@ TRY.registerChapter({
           usage: { ja: "「〜{得|う}る／〜{得|え}る」は、「〜ができる・可能性がある」と言うときに使い、「〜{得|え}ない」は「〜できない・{可能性|かのうせい}がない」と言うときに使う。{論文|ろんぶん}などでよく使う。", en: "Use \"〜{得|う}る／〜{得|え}る\" when you say \"there is a possibility that I can 〜\", and use \"〜{得|え}ない\" when you say \"I can't 〜; there is no possibility.\" This is often used in essays and the like." },
           forms: ["[V-~~ます~~] + {得|う}る／{得|え}る", "[V-~~ます~~] + {得|え}ない"],
           formNotes: [
-            { ja: "「考える・{想像|そうぞう}する・ある・知る・{予測|よそく}する・{解決|かいけつ}する・{理解|りかい}する」などと一緒に使われる。", en: "Used together with verbs such as 考える, 想像する, ある, 知る, 予測する, 解決する and 理解する." },
+            { ja: "「考える・{想像|そうぞう}する・ある・知る・{予測|よそく}する・{解決|かいけつ}する・{理解|りかい}する」などと一緒に使われる。", en: "Used together with verbs such as 考える, 想像する, ある, 知る, 予測する, 解決する and 理解する.", gen: true },
             { ja: "「ありえない」は信じられないという気持ちで、会話でよく使われる。", en: "\"ありえない\" is often used in conversation to say that something is unbelievable." },
           ],
           examples: [
@@ -343,7 +343,7 @@ TRY.registerChapter({
             { ja: "{普通|ふつう}の人が{宇宙|うちゅう}へ行ける日が来るなんて、100年前には{想像|そうぞう}し{得|え}なかったことだ。", en: "That a day would come when ordinary people could go to space was something unimaginable 100 years ago." },
             { ja: "マーケティング{調査|ちょうさ}の{結果|けっか}によっては、{発売時期|はつばいじき}の{変更|へんこう}もあり{得|う}る。", en: "Depending on the results of the marketing research, a change in the release date is also possible." },
             { ja: "{犯人|はんにん}しか知り{得|え}ない{情報|じょうほう}を、彼は知っていた。", en: "He knew information that only the culprit could have known." },
-            { ja: "A：おれ、{内定|ないてい}取り消しだって。ありえないよな。\nB：えー！　うそでしょ？", en: "A: They say my job offer's been withdrawn. That's unbelievable, right?\nB: What?! You're kidding, right?", idiom: true },
+            { ja: "A：おれ、{内定|ないてい}取り消しだって。ありえないよな。\nB：えー！　うそでしょ？", en: "A: I just heard my job offer's been withdrawn. Can you believe it?\nB: What?! You're kidding, right?", idiom: true },
           ],
           xref: "☞ p.220　〜{得|う}る／{得|え}る",
           deepDive: "**得る** (*to obtain*) attached to a verb stem gives the classical-flavoured potential *can ~ / it is possible that ~*. It is the language of essays, reports and news analysis.\n\nReading trap: the affirmative dictionary form has **two** readings — **うる** and **える** (あり得る = ありうる / ありえる). うる is more common in the dictionary/attributive form, but うる has **no other forms**: the negative, past and ます forms always use え: **得ない (えない), 得た, 得ます**. ✗うない never occurs.\n\nConnection is to the ます-stem: 考え得る, 起こり得る, 理解し得る, 予測し得ない. In the sample, 回復させ得る attaches to the causative stem (回復させ-).\n\nMeaning points:\n- It usually expresses **possibility / conceivability** (起こり得る事態 *a situation that could happen*) rather than personal ability. ✗私は泳ぎ得る sounds wrong — use 泳げる.\n- It is most natural with verbs of thinking, knowing, existing and solving (see the ＊ note).\n- **あり得る / あり得ない** are the everyday members. The book marks the ありえない example as idiomatic and adds a ＊ note: **ありえない** is a common conversational exclamation meaning *no way, unbelievable* (三時間も待たされるなんて、ありえない！).\n\nDon't confuse with **V-ざるを得ない** (#24, *can't help but ~*): 機械化せざるを得ない = *have no choice but to mechanize* (see #67 example ④). Both contain 得ない, but #24 attaches to the ない-stem + ざる and expresses unavoidable obligation, while 〜得ない attaches to the ます-stem and expresses impossibility.\n\nRelated: **〜かねない** (#27, *might (unfortunately) ~*) is for undesirable possibilities; 〜得る is neutral. **〜かねる** (*cannot bring oneself to ~ / is unable to ~*) is often used in polite refusals (お答えしかねます).\n\nJLPT tip: know both readings and that 得ない is always えない.",
@@ -359,7 +359,7 @@ TRY.registerChapter({
           usage: { ja: "「{予想|よそう}したことや{期待|きたい}したことと{反対|はんたい}の{結果|けっか}や{状態|じょうたい}になった」と言いたいときに使う。", en: "Use this when you want to say \"the result or situation has become opposite of what was predicted or expected.\"" },
           forms: ["[N] + に{反|はん}して", "[N] + に{反|はん}し", "[N] + に{反|はん}する + [N]", "[N] + に{反|はん}した + [N]"],
           formNotes: [
-            { ja: "「{予想|よそう}・{期待|きたい}・{意向|いこう}」などと一緒に使われる。", en: "Used together with nouns such as 予想 (prediction), 期待 (expectation) and 意向 (intention)." },
+            { ja: "「{予想|よそう}・{期待|きたい}・{意向|いこう}」などと一緒に使われる。", en: "Used together with nouns such as 予想 (prediction), 期待 (expectation) and 意向 (intention).", gen: true },
           ],
           examples: [
             { ja: "今回の{経済政策|けいざいせいさく}は国民の{期待|きたい}に{反|はん}して、まったく{効果|こうか}がなかった。", en: "Contrary to the public's expectations, this economic policy had no effect at all." },
@@ -452,7 +452,7 @@ TRY.registerChapter({
           usage: { ja: "あることに{関|かん}して、2つの{反対|はんたい}の面や{視点|してん}があることを説明するときに使う。", en: "Use this when you explain that there are two aspects or perspectives pertaining to something." },
           forms: ["[Pl] + {反面|はんめん}／{半面|はんめん}\n［[なA~~だ~~]な　~~[N]だ~~］"],
           formNotes: [
-            { ja: "「[なA]／[N] である + {反面|はんめん}」の形もある。", en: "The form なA／N + である + 反面 is also used." },
+            { ja: "「[なA]／[N] である + {反面|はんめん}」の形もある。", en: "The form なA／N + である + 反面 is also used.", gen: true },
           ],
           examples: [
             { ja: "来日前は留学に{期待|きたい}する{反面|はんめん}、不安も大きかった。", en: "Before coming to Japan, I was looking forward to studying abroad, but at the same time I was also very anxious." },
@@ -474,7 +474,7 @@ TRY.registerChapter({
           usage: { ja: "「〜{上|じょう}」は、「〜の点から考えて」という意味で、{視点|してん}を{示|しめ}す言葉と一緒に使う。", en: "Use \"〜{上|じょう}\" together with words that show a perspective to mean \"in view of 〜\"." },
           forms: ["[N] + {上|じょう}"],
           formNotes: [
-            { ja: "「{理論|りろん}・{職業|しょくぎょう}・{教育|きょういく}・{法律|ほうりつ}・{歴史|れきし}・{表面|ひょうめん}」などの言葉と一緒に使われる。", en: "Used together with words such as 理論 (theory), 職業 (occupation), 教育 (education), 法律 (law), 歴史 (history) and 表面 (surface)." },
+            { ja: "「{理論|りろん}・{職業|しょくぎょう}・{教育|きょういく}・{法律|ほうりつ}・{歴史|れきし}・{表面|ひょうめん}」などの言葉と一緒に使われる。", en: "Used together with words such as 理論 (theory), 職業 (occupation), 教育 (education), 法律 (law), 歴史 (history) and 表面 (surface).", gen: true },
           ],
           examples: [
             { ja: "お{札|さつ}にはその国の{歴史上|れきしじょう}の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "Banknotes often bear the faces of historical figures from that country." },
@@ -614,7 +614,7 @@ TRY.registerChapter({
           { q: "{契約|けいやく}＿＿、{引|ひ}っ{越|こ}す場合は1か月前までに伝えることになっている。", answer: "{上|じょう}", en: "Under the contract, if you move out you are required to give notice at least one month in advance." },
           { q: "{野外|やがい}イベントは{天候|てんこう}によっては中止もあり＿＿。", answer: "{得|う}る", en: "Depending on the weather, outdoor events may be canceled." },
           { q: "{警察|けいさつ}は{連続放火事件|れんぞくほうかじけん}＿＿{有力|ゆうりょく}な{情報|じょうほう}をつかんだ。", answer: "に{関|かん}する", en: "The police obtained a promising lead concerning the serial arson cases." },
-          { q: "わが{国|くに}の{産業|さんぎょう}は{現在発展|げんざいはってん}し＿＿。10年後が楽しみだ。", answer: "つつある", en: "Our country's industry is currently developing. I'm looking forward to seeing it in ten years." },
+          { q: "わが{国|くに}の{産業|さんぎょう}は{現在発展|げんざいはってん}し＿＿。10年後が楽しみだ。", answer: "つつある", en: "Our country's industry is now steadily developing. I can't wait to see where it will be in ten years." },
           { q: "アクリルはガラスと{比|くら}べて軽く{衝撃|しょうげき}に強い＿＿、{表面|ひょうめん}に{傷|きず}がついて{透明度|とうめいど}が下がりやすい。", answer: "{反面|はんめん}", en: "Compared with glass, acrylic is light and resistant to impact, but on the other hand its surface scratches easily and its transparency tends to decrease." },
           { q: "がん＿＿、病気の{治療|ちりょう}には{早期発見|そうきはっけん}が大事だ。", answer: "に{限|かぎ}らず", en: "Not only for cancer but for any illness, early detection is important for treatment." },
         ],
@@ -706,7 +706,7 @@ TRY.registerChapter({
             pieces: ["生活{習慣|しゅうかん}が", "の", "{見直|みなお}されつつある", "{早起|はやお}きの"],
             order: [3, 0, 2, 1],
             star: 2,
-            en: "I think it's a good thing that the habit of getting up early is being reconsidered, not only for health but also from the standpoint of work efficiency.",
+            en: "I think it's a good thing that the habit of getting up early is being reevaluated, not only for health but also from the standpoint of work efficiency.",
           },
           {
             before: "パンダは",
