@@ -182,7 +182,7 @@
     }
   }
   let fitQueued = 0;
-  const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitRubies($("#main"), all); }); };
+  const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitOptionCols($("#main")); fitRubies($("#main"), all); }); };
   // inline markup → HTML.  opts.vertical: wrap standalone 1–2 digit runs in <span class="tcy"> (縦中横), outside tags and ruby
   // badge classes: colour hook b-n | b-i | b-na | b-pl | b-v, plus shape b-round (bare N/V/A) | b-pill (has "-") | b-sq (Pl/Po)
   function fmt(s, opts = {}) {
@@ -732,6 +732,20 @@
   const qnHtml = (n, style) => style === "none" ? "" : style === "box" ? `<span class="qn qn--box">${n}</span>` : `<span class="qn qn--paren">${n}）</span>`;
   const plainLen = (s) => Array.from(plain(s).replace(/\s/g, "")).length;
   // option-grid columns by the longest option (docs/LAYOUT.md C24): desktop 4/2/1 at ≤7/≤16, phone ≤4/≤9, small phone 2 at ≤7
+  // widest option in em (full-width characters = 1, ASCII ≈ .55): fitOptionCols() picks 4 / 2 / 1 columns from it
+  const optW = (options) => Math.round(Math.max(0, ...options.map((o) => cw(plain(o)))) * 100) / 100;
+  // columns that fit the real width (the book's 4 / 2 / 1), so a short option never breaks inside a word ("にあるまじ／き")
+  function fitOptionCols(root) {
+    $$(".opts--grid[data-w]:not(.opts--list)", root).forEach((g) => {
+      const o = g.querySelector(".opt--grid"), t = o && o.querySelector(".opt-t");
+      if (!t || !g.clientWidth) return;
+      const fs = parseFloat(getComputedStyle(t).fontSize), gap = parseFloat(getComputedStyle(g).columnGap) || 0;
+      const over = o.getBoundingClientRect().width - t.getBoundingClientRect().width;
+      const need = +g.dataset.w * fs + over + 2;
+      const cols = [4, 2, 1].find((c) => c * need + (c - 1) * gap <= g.clientWidth) || 1;
+      g.style.setProperty("--cols", cols);
+    });
+  }
   function gridCols(options) {
     const L = Math.max(0, ...options.map(plainLen));
     return { d: L <= 7 ? 4 : L <= 16 ? 2 : 1, m: L <= 4 ? 4 : L <= 9 ? 2 : 1, s: L <= 7 ? 2 : 1 };
@@ -802,7 +816,7 @@
         .map((o, j) => `<button class="opt opt--let" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}</span></button>`).join("")}</div>`;
     }
     const k = mode === "list" ? { d: 1, m: 1, s: 1 } : gridCols(options);
-    return `<div class="opts opts--grid${mode === "list" ? " opts--list" : ""}" data-cols="${k.d}" data-cols-m="${k.m}" data-cols-s="${k.s}" data-answer="${answer}">${tag ? `<span class="opt-tag">${fmt(tag)}</span>` : ""}${options
+    return `<div class="opts opts--grid${mode === "list" ? " opts--list" : ""}" data-cols="${k.d}" data-cols-m="${k.m}" data-cols-s="${k.s}" data-w="${optW(options)}" data-answer="${answer}">${tag ? `<span class="opt-tag">${fmt(tag)}</span>` : ""}${options
       .map((o, j) => `<button class="opt opt--grid" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}</span><span class="opt-t">${fmt(o)}</span></button>`)
       .join("")}</div>`;
   }
@@ -894,7 +908,7 @@
   function orderItem(it, i, c) {
     const slots = [0, 1, 2, 3].map((k) => `<button class="slot${k === it.star ? " slot--star" : ""}" data-act="unslot" data-k="${k}" aria-label="空欄${k + 1}${k === it.star ? "（★）" : ""}"></button>`).join("");
     const k = gridCols(it.pieces);
-    const pieces = `<div class="opts opts--grid pieces" data-cols="${k.d}" data-cols-m="${k.m}" data-cols-s="${k.s}">${it.pieces
+    const pieces = `<div class="opts opts--grid pieces" data-cols="${k.d}" data-cols-m="${k.m}" data-cols-s="${k.s}" data-w="${optW(it.pieces)}">${it.pieces
       .map((p, j) => `<button class="opt opt--grid piece" data-act="piece" data-j="${j}"><span class="opt-n">${j + 1}</span><span class="opt-t">${fmt(p)}</span></button>`).join("")}</div>`;
     const correct = it.order.map((j) => it.pieces[j]);
     const full = fmt(it.before) + correct.map((p, k) => (k === it.star ? `<strong class="star-ans">${fmt(p)}</strong>` : fmt(p))).join("") + fmt(it.after);
@@ -1362,6 +1376,7 @@
     const main = $("#main");
     if (main.dataset.view !== h || parts[0] === "drill") {
       main.innerHTML = html;
+      fitOptionCols(main);
       fitRubies(main, true);
       main.dataset.view = h;
       main.dataset.ch = activeCh || "";

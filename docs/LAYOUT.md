@@ -845,6 +845,11 @@ Practice-level `fill` (4 instances) uses the same markup without `.check`.
 - ≤390: 2 cols when L ≤ 7, else 1.
 - Under coarse pointers, min-height is 44px.
 
+**Current:** the 4 / 2 / 1 column choice is made at runtime (`fitOptionCols()` in app.js, on render and resize):
+`data-w` = widest option in em, plus the measured label/padding overhead, against the grid's real width — so a short
+option never breaks inside a word (was "にあるまじ／き" at ~1000 px, "花火大会の会場" at 1280). `data-cols*` remain the no-JS
+fallback.
+
 ### C25 問題2 (文の組み立て): ★ ordering [C]
 
 **Book (pp.27, 28, 101, 170):**
