@@ -11,12 +11,13 @@ const [book, args] = bookArg(process.argv.slice(2));
 const fragDir = dataDir(book, "frag");
 const frags = [];
 global.N2F = (f) => frags.push(f);
-for (const f of fs.readdirSync(fragDir).filter((x) => /^ch\d\d-.*\.js$/.test(x)).sort()) {
+const want = args.map(Number);
+// load only the requested chapters' fragments, so a broken fragment elsewhere doesn't block this merge
+for (const f of fs.readdirSync(fragDir).filter((x) => /^ch\d\d-.*\.js$/.test(x) && (!want.length || want.includes(+x.slice(2, 4)))).sort()) {
   const before = frags.length;
   require(path.join(fragDir, f));
   frags.slice(before).forEach((x) => (x.__file = f));
 }
-const want = args.map(Number);
 const chIds = [...new Set(frags.map((f) => f.ch))].filter((c) => !want.length || want.includes(c)).sort((a, b) => a - b);
 
 for (const ch of chIds) {
