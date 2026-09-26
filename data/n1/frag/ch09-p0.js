@@ -15,13 +15,13 @@ N2F({
       { sp: "司会者", v: "f", ja: "{本日|ほんじつ}は「トリアージ」について、{救命救急|きゅうめいきゅうきゅう}がご専門の医師の{森|もり}先生にお話を{伺|うかが}います。{森|もり}先生、よろしくお願いします。",
         en: "Today we will hear about “triage” from Dr. Mori, a physician who specializes in emergency and critical care medicine. Dr. Mori, thank you for being here." },
       { sp: "{森|もり}", v: "m", ja: "{森|もり}です。「トリアージ」と言いますのは、{患者|かんじゃ}の{治療|ちりょう}について{優先順位|ゆうせんじゅんい}を決めることです。例えば、大きな{災害|さいがい}や事故で{多数|たすう}のけが{人|にん}が出たとしましょう。病院は1{カ|か}所、対応できる医者が2人しかいないとしたら、どんな{治療|ちりょう}ができるでしょうか。{医療|いりょう}設備やスタッフの数からして、対応に限界があるでしょう。100人**からいる**けが{人|にん}の中には、命**にかかわる**{重傷者|じゅうしょうしゃ}もいます。このような{緊急時|きんきゅうじ}**にあって**、医師は{速|すみ}やかな{決断|けつだん}を{迫|せま}られます。\nまず専門家が、{一目|ひとめ}でわかるように、けが{人|にん}に色分けされたタグを付けていきます。タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で{救命|きゅうめい}の可能性がある{者|もの}。黄色は、今すぐ命にかかわるほどのけがではないが、早い{処置|しょち}が必要な{者|もの}。緑色は、{軽傷者|けいしょうしゃ}で{救急|きゅうきゅう}に{搬送|はんそう}の必要のない{者|もの}。\nそして、黒色のタグは、すでに死亡が認められたか、あるいは今この段階では{救命|きゅうめい}が不可能な{者|もの}という分け方です。",
-        en: "I'm Mori. “Triage” means deciding the order of priority for treating patients. Suppose, for example, that a major disaster or accident has left a large number of people injured. If there is only one hospital and only two doctors able to deal with them, what kind of treatment can be given? Given the medical equipment and the number of staff alone, there will be limits to what can be done. Among as many as a hundred injured people, there will also be seriously injured people whose lives are at stake. In an emergency like this, doctors are forced to make quick decisions.\nFirst, specialists attach color-coded tags to the injured so that their condition can be seen at a glance. A red tag means a person who needs treatment as soon as possible and whose life can be saved. Yellow means a person whose injuries are not immediately life-threatening but who needs early treatment. Green means a person with minor injuries who does not need to be taken to emergency care.\nAnd a black tag is for someone who has already been confirmed dead, or whose life cannot be saved at this stage. That is how people are sorted." },
+        en: "I'm Mori. “Triage” means deciding the order of priority for treating patients. Suppose, for example, that a major disaster or accident has left a large number of people injured. If there is only one hospital and only two doctors able to deal with them, what kind of treatment can be given? Just judging from the medical equipment and the number of staff, there will be limits to what can be done. Among injured people numbering as many as a hundred, some will be seriously hurt, with their lives at stake. In the midst of an emergency like this, doctors are forced to make swift decisions.\nFirst, specialists attach color-coded tags to the injured so that their condition can be seen at a glance. A red tag means a person who needs treatment as soon as possible and whose life can be saved. Yellow means a person whose injuries are not immediately life-threatening but who needs early treatment. Green means a person with minor injuries who does not need to be transported for emergency care.\nAnd a black tag is for someone who has already been confirmed dead, or whose life cannot be saved at this stage. That is how people are sorted." },
       { sp: "司会者", v: "f", ja: "う〜ん、確かに必要な判断だとはいえ、もし目の前で黒のタグを付けられたとしたら、そのけが{人|にん}の家族は頭では理解しつつも、あきらめきれないのではないでしょうか。",
-        en: "Hmm. It is certainly a necessary judgment, but if a black tag were attached right in front of them, wouldn't the injured person's family, even while understanding it in their heads, find it impossible to give up?" },
+        en: "Hmm. It is certainly a necessary judgment, but if a black tag were attached right in front of them, wouldn't the injured person's family, even while understanding it rationally, find it impossible to give up hope?" },
       { sp: "{森|もり}", v: "m", ja: "確かに、見**ようによっては**{非情|ひじょう}な{行為|こうい}かもしれません。ですが、このような{緊急時|きんきゅうじ}には、助けられる命を{優先|ゆうせん}するのが最も良い方法なのです。",
-        en: "Certainly, depending on how you look at it, it may seem a heartless act. But in an emergency like this, giving priority to the lives that can be saved is the best approach." },
+        en: "Certainly, depending on how you look at it, it may be a heartless act. But in an emergency like this, giving priority to the lives that can be saved is the best approach." },
       { sp: "司会者", v: "f", ja: "{医療現場|いりょうげんば}で{究極|きゅうきょく}の{選択|せんたく}が必要になるということですね。私たちも{冷静|れいせい}に受け止めなければならないことがよくわかりました。",
-        en: "So in medical settings, the ultimate choice sometimes has to be made. I now understand well that this is something we too must accept calmly." },
+        en: "So in medical settings, ultimate choices sometimes have to be made. I now understand well that this is something we, too, must accept calmly." },
     ],
   },
   points: [
@@ -34,20 +34,20 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜からいる」は、普通よりはるかに多い数であることを表す。「〜からある」「〜からの」も同じ意味で使われる。",
-        en: "“〜からいる” expresses that a number is far larger than usual. “〜からある” and “〜からの” are also used with the same meaning.",
+        en: "“〜からいる” expresses that a number is far greater than usual. “〜からある” and “〜からの” are also used with the same meaning.",
       },
       forms: ["[数] + （{助数詞|じょすうし}） + ［からいる　からある　からの］ + [N]"],
       examples: [
-        { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely." },
-        { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all his might to carry a suitcase that weighs a good 10 kg." },
-        { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Mr. Ito offered a donation of no less than 100 million yen out of his own pocket." },
+        { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough hands to get an audience of as many as 3,000 people out safely." },
+        { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all his might to carry a suitcase that weighs 10 kg or more." },
+        { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Mr. Ito offered, as a private individual, a donation of no less than 100 million yen." },
       ],
       notes: [
         {
           ja: "「〜からする」は、値段が非常に高いということを表す。",
           en: "“〜からする” expresses that a price is extremely high.",
           examples: [
-            { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by someone, and it has caused a huge uproar." },
+            { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel costing as much as 20 million yen has been stolen by someone, causing a huge uproar." },
             { ja: "この切手は{発行|はっこう}枚数が少なかったこともあり、今では1枚50万円からの{値|ね}がついているそうだ。", en: "Partly because so few of these stamps were issued, I hear they now fetch as much as 500,000 yen apiece." },
           ],
         },
@@ -96,7 +96,7 @@ N2F({
         "- **〜に関する** (N3): neutral *about, regarding* — a topic label (環境に関する本). にかかわる adds a sense of real involvement or seriousness.\n" +
         "- **〜にかかわらず／〜にかかわりなく** (N2): *regardless of* — same verb, opposite effect. Don't mix them up: 年齢にかかわらず = *regardless of age*; 年齢にかかわる問題 = *an age-related problem*.\n" +
         "- **〜を左右する**: *to sway, to determine* — similar to the “serious effect” meaning.\n\n" +
-        "Collocations worth memorizing: 命にかかわる, 生死にかかわる, 存続にかかわる, 沽券（こけん）にかかわる *beneath one's dignity*, 名誉にかかわる, プライバシーにかかわる.\n\n" +
+        "Collocations worth memorizing: 命にかかわる, 生死にかかわる, 存続にかかわる, 沽券（こけん）にかかわる *would hurt one's dignity/standing*, 名誉にかかわる, プライバシーにかかわる.\n\n" +
         "JLPT tip: if the noun is 命・存続・将来・安全・評判 and the blank is followed by a noun such as 問題／事態／けが, にかかわる is almost always the answer.",
       see: [],
       index: ["Nにかかわる", "にかかわる"],
@@ -123,7 +123,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜にあって」は「〜の状況で」という意味で、「〜という{厳|きび}しい／普通とは違う、特別な状況で」と言いたいときに使われることが多い。",
-        en: "“〜にあって” means “in the situation of 〜”, and is often used when you want to say “in the harsh / unusual, special situation of 〜”.",
+        en: "“〜にあって” means “in the situation of 〜”. It is often used when you want to say “in the harsh, or out-of-the-ordinary, special situation of 〜”.",
       },
       forms: ["[N] + にあって"],
       examples: [
@@ -152,9 +152,9 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "キャラクターグッズは、消費が{低迷|ていめい}している中（　）、なお{根強|ねづよ}い人気を保っている。", options: ["とあって", "にあって"], answer: 1, en: "Even amid sluggish consumer spending, character goods still keep their enduring popularity.", why: { en: "消費が低迷している中 is a hard situation in which something happens — にあって, not a reason for a natural result." } },
-            { q: "{全品|ぜんぴん}半額セール（　）、{遠方|えんぽう}からも客が押し寄せている。", options: ["とあって", "にあって"], answer: 0, en: "Because it's a half-price sale on everything, customers are flocking in even from far away.", why: { en: "The sale is the reason and the crowds are the natural result — とあって (#2)." } },
-            { q: "{悪天候下|あくてんこうか}（　）、性能が低下しないブレーキの開発を目指している。", options: ["にあっても", "にあっては"], answer: 0, en: "They are aiming to develop brakes whose performance does not drop even in bad weather.", why: { en: "“Even in bad weather” — にあっても." } },
+            { q: "キャラクターグッズは、消費が{低迷|ていめい}している中（　）、なお{根強|ねづよ}い人気を保っている。", options: ["とあって", "にあって"], answer: 1, en: "Even amid sluggish consumer spending, character goods still keep their enduring popularity.", why: { en: "消費が低迷している中 is a difficult situation, and the sentence says what still holds true in it (なお…保っている) — にあって. とあって would need a natural consequence of the circumstance, but here popularity holds up in spite of it." } },
+            { q: "{全品|ぜんぴん}半額セール（　）、{遠方|えんぽう}からも客が押し寄せている。", options: ["とあって", "にあって"], answer: 0, en: "Because it's a half-price sale on everything, customers are flocking in even from far away.", why: { en: "The sale is the special circumstance and the crowds are its natural result — とあって (#2). にあって only sets a (usually harsh) situation." } },
+            { q: "{悪天候下|あくてんこうか}（　）、性能が低下しないブレーキの開発を目指している。", options: ["にあっても", "にあっては"], answer: 0, en: "They are aiming to develop brakes whose performance does not drop even in bad weather.", why: { en: "The brakes must keep their performance even under bad weather, so the concessive にあっても (“even in ~”) fits. にあっては (“in ~, as for what applies there…”) would not connect to “aiming to develop”." } },
           ],
         },
       ],
@@ -172,9 +172,9 @@ N2F({
       },
       forms: ["[V-~~ます~~] + ようによって（は）"],
       examples: [
-        { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you handle that idea, couldn't you make an interesting program out of it?" },
+        { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you treat that proposal, couldn't you make an interesting program out of it?" },
         { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を招くおそれがあるよ。", en: "If the explanation is insufficient, then depending on how people take it, it could cause misunderstandings." },
-        { ja: "同じ{境遇|きょうぐう}でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, depending on how you think about it, you can feel happy." },
+        { ja: "同じ{境遇|きょうぐう}でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, depending on how you look at things, you can feel happy — that's how it is." },
       ],
       deepDive:
         "**V-ます stem + ようによって（は）** means *depending on how you ~*. よう here is the noun 様 *way, manner* attached to a verb stem (見よう *way of looking*, 考えよう *way of thinking*, やりよう *way of doing*), and によって is *depending on*.\n\n" +
@@ -196,10 +196,10 @@ N2F({
     prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
     bank: ["からある", "にかかわる", "にあって", "ようによっては"],
     items: [
-      { q: "{短|たん}時間の勉強でも、やり＿＿、{成果|せいか}が上げられるはずだ。", answer: "ようによっては", en: "Even with a short time of study, you should be able to get results depending on how you go about it." },
-      { q: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な{課題|かだい}の1つとなっている。", answer: "にあって", en: "In the present age, as the information society advances, how to protect personal information has become one of the important issues." },
-      { q: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", answer: "からある", en: "The dog traveled a long way of a good 200 km and made it back to its owner." },
-      { q: "このスキャンダルは、会社の評判＿＿から、適切な対応が必要です。", answer: "にかかわる", en: "This scandal affects the company's reputation, so it needs to be handled appropriately." },
+      { q: "{短|たん}時間の勉強でも、やり＿＿、{成果|せいか}が上げられるはずだ。", answer: "ようによっては", en: "Even if you study for only a short time, you should be able to get results, depending on how you go about it.", why: { en: "やり is the stem of やる; stem + ようによっては = “depending on how you do it” (#110)." } },
+      { q: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な{課題|かだい}の1つとなっている。", answer: "にあって", en: "In the present age, with information technology spreading ever further, how to protect personal information has become one of the important issues.", why: { en: "現代 is framed as a special situation (an advanced information society) in which a task arises — N + にあって (#109)." } },
+      { q: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", answer: "からある", en: "The dog traveled a long way — 200 km or more — and made it back to its owner.", why: { en: "Number + km + からある + N stresses that the distance is remarkably long (#107); ある is used for distances and weights." } },
+      { q: "このスキャンダルは、会社の評判＿＿から、適切な対応が必要です。", answer: "にかかわる", en: "This scandal puts the company's reputation at stake, so it needs to be handled appropriately.", why: { en: "評判にかかわる = “seriously affects the reputation” (#108); the sentence continues with から (“because”)." } },
     ],
   },
 });
