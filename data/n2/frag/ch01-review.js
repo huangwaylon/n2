@@ -16,7 +16,7 @@ N2F({ ch: 1, review: [
           en: "At the moment, for this product only, we will deliver anywhere in the country for 210 yen." },
         { q: "{退職|たいしょく}の（　）に{必要|ひつよう}な{手続|てつづ}きについて、ご説明します。",
           options: ["たび", "{最中|さいちゅう}", "ところ", "{際|さい}"], answer: 3,
-          en: "I will explain the procedures required when you retire (leave the company)." },
+          en: "I will explain the procedures required when you leave the company." },
         { q: "{奨学金|しょうがくきん}を{希望|きぼう}する場合はこの{欄|らん}に{丸印|まるじるし}を付ける（　）。",
           options: ["べき", "つもり", "こと", "はず"], answer: 2,
           en: "If you wish to apply for a scholarship, put a circle in this box." },

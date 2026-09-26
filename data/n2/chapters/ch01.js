@@ -625,7 +625,7 @@ N2.register({
             },
             {
               "ja": "今回の{風力|ふうりょく}{発電|はつでん}{施設|しせつ}の{建設|けんせつ}は{自然|しぜん}エネルギー{開発|かいはつ}において大きな意味があると言われている。",
-              "en": "The construction of this wind power facility is said to be of great significance for the development of natural energy."
+              "en": "The construction of this wind power facility is said to be of great significance for the development of renewable energy."
             }
           ],
           "deepDive": "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event). Unlike に, it does not mark where something simply exists: ✗部屋において机がある. **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\nThree typical uses:\n- **Place of an official event**: 入学式は、3階のホールにおいて行われます. (Very common with 行われる/開催される.)\n- **Time/era**: 江戸時代において, 現代において.\n- **Field/situation**: 生物学における, 自然エネルギー開発において, 人生における.\n\nWith は and も: **においては** contrasts (*as for Japan…*), **においても** adds (*in ~ too*). In practice 3, 世界中で深刻 … 日本においても = *in Japan too*.\n\nPitfall: において sounds pompous for trivial actions. Keep で for “ate lunch in the classroom” (practice 4). On the test, if the sentence is newsy/official and talks about where an event is held, において is right; if it's a casual action, で is right.",
@@ -659,7 +659,7 @@ N2.register({
                     "における"
                   ],
                   "answer": 1,
-                  "en": "What changed my life was my experience during my life as an international student."
+                  "en": "What changed my life was my experience of living abroad as an international student."
                 },
                 {
                   "q": "{失業|しつぎょう}問題は今、世界中で{深刻|しんこく}になっているが、日本（　）、{重要|じゅうよう}な{課題|かだい}だ。",
@@ -735,12 +735,12 @@ N2.register({
                 },
                 {
                   "ja": "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。",
-                  "en": "We sincerely apologize that, in shipping the products, the shipment of some items was delayed."
+                  "en": "We sincerely apologize that, when the products were shipped, some items were sent out late."
                 }
               ]
             }
           ],
-          "deepDive": "**〜際（に）** is a formal *when / at the time of*. Think of it as a dressed-up とき. You'll meet it constantly on signs (お降りの際は…), in manuals (ご使用の際は…) and business email (お越しの際は…).\n\n- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n**〜に際して** (Plus) attaches directly to a noun and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\nCommon mistake: forgetting の after a noun: 地震のとき → ✓地震の際 (not ✗地震際).",
+          "deepDive": "**〜際（に）** is a formal *when / at the time of*. Think of it as a dressed-up とき. You'll meet it constantly on signs (お降りの際は…), in manuals (ご使用の際は…) and business email (お越しの際は…).\n\n- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n**〜に際して** (Plus) attaches directly to a noun (a dictionary-form verb is also possible: 出発するに際して) and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\nCommon mistake: forgetting の after a noun: 地震のとき → ✓地震の際 (not ✗地震際).",
           "see": [
             135
           ],
@@ -810,7 +810,7 @@ N2.register({
             },
             {
               "ja": "{寮|りょう}の{台所|だいどころ}はきれいに使用すること。",
-              "en": "Use the dormitory kitchen cleanly."
+              "en": "Keep the dormitory kitchen clean when you use it."
             },
             {
               "ja": "試験中は{携帯|けいたい}電話の{電源|でんげん}を切ること。{筆記|ひっき}{用具|ようぐ}以外は{机|つくえ}の上に置かないこと。",
@@ -1003,7 +1003,7 @@ N2.register({
               "{際|さい}"
             ],
             "answer": 3,
-            "en": "I will explain the procedures required when you retire (leave the company)."
+            "en": "I will explain the procedures required when you leave the company."
           },
           {
             "q": "{奨学金|しょうがくきん}を{希望|きぼう}する場合はこの{欄|らん}に{丸印|まるじるし}を付ける（　）。",

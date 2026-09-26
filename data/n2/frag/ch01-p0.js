@@ -317,7 +317,7 @@ N2F({
         { ja: "入学{式|しき}は、3階のホールにおいて{行|おこな}われます。", en: "The entrance ceremony will be held in the hall on the third floor." },
         { ja: "日本だけでなく、ほかの国においても、{環境|かんきょう}{汚染|おせん}は{深刻|しんこく}な問題だ。", en: "Not only in Japan but in other countries as well, environmental pollution is a serious problem." },
         { ja: "彼のようなすばらしい人に出会えたのは人生における最大の{幸運|こううん}だった。", en: "Meeting such a wonderful person as him was the greatest stroke of luck in my life." },
-        { ja: "今回の{風力|ふうりょく}{発電|はつでん}{施設|しせつ}の{建設|けんせつ}は{自然|しぜん}エネルギー{開発|かいはつ}において大きな意味があると言われている。", en: "The construction of this wind power facility is said to be of great significance for the development of natural energy." },
+        { ja: "今回の{風力|ふうりょく}{発電|はつでん}{施設|しせつ}の{建設|けんせつ}は{自然|しぜん}エネルギー{開発|かいはつ}において大きな意味があると言われている。", en: "The construction of this wind power facility is said to be of great significance for the development of renewable energy." },
       ],
       deepDive:
         "**〜において** is the formal counterpart of the particle **で** (location/time/field of an event). Unlike に, it does not mark where something simply exists: ✗部屋において机がある. **〜における + N** is its noun-modifying form, replacing での: 留学生活における経験 = 留学生活での経験.\n\n" +
@@ -336,7 +336,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "わが社（　）留学{研修|けんしゅう}{制度|せいど}が{導入|どうにゅう}された。", options: ["においても", "における"], answer: 0, en: "A study-abroad training system has been introduced at our company too." },
-            { q: "私の人生を変えたのは留学生活（　）{経験|けいけん}だ。", options: ["において", "における"], answer: 1, en: "What changed my life was my experience during my life as an international student." },
+            { q: "私の人生を変えたのは留学生活（　）{経験|けいけん}だ。", options: ["において", "における"], answer: 1, en: "What changed my life was my experience of living abroad as an international student." },
             { q: "{失業|しつぎょう}問題は今、世界中で{深刻|しんこく}になっているが、日本（　）、{重要|じゅうよう}な{課題|かだい}だ。", options: ["においては", "においても"], answer: 1, en: "Unemployment is now becoming serious all over the world, and it is an important issue in Japan too." },
             { q: "教室（　）友達と昼ご飯を食べた。", options: ["で", "において"], answer: 0, en: "I ate lunch with my friends in the classroom." },
           ],
@@ -371,7 +371,7 @@ N2F({
           examples: [
             { ja: "{各種|かくしゅ}{書類|しょるい}の{提出|ていしゅつ}に{際|さい}しては、{期限|きげん}を{厳守|げんしゅ}してください。", en: "When submitting the various documents, please strictly observe the deadline." },
             { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "When making a bank transfer, the handling fee is to be paid by the customer." },
-            { ja: "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping the products, the shipment of some items was delayed." },
+            { ja: "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, when the products were shipped, some items were sent out late." },
           ],
         },
       ],
@@ -379,7 +379,7 @@ N2F({
         "**〜際（に）** is a formal *when / at the time of*. Think of it as a dressed-up とき. You'll meet it constantly on signs (お降りの際は…), in manuals (ご使用の際は…) and business email (お越しの際は…).\n\n" +
         "- Connection: **V-る際** (before/while doing), **V-た際** (after doing, *when I did*), **Nの際** (note: の, not な).\n" +
         "- With particles: 際に, 際は (topic, contrast), 際には (emphasis).\n\n" +
-        "**〜に際して** (Plus) attaches directly to a noun and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\n" +
+        "**〜に際して** (Plus) attaches directly to a noun (a dictionary-form verb is also possible: 出発するに際して) and marks a **specific occasion** (提出, 振り込み, 発送, 入学, 開店); the sentence usually gives a warning, apology or explanation connected to that occasion. You wouldn't use に際して for a casual everyday action like ✗電気を消すに際して. Its even more formal cousin **〜にあたって** (#135) is used for the start of an important undertaking.\n\n" +
         "Common mistake: forgetting の after a noun: 地震のとき → ✓地震の際 (not ✗地震際).",
       see: [135],
       index: ["V際（に）", "Nの際（に）", "Nに際して"],
@@ -425,7 +425,7 @@ N2F({
       forms: ["[V-る]／[V-ない] + こと", "[N] の + こと"],
       examples: [
         { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}のこと。{窓口|まどぐち}での受け付けは{行|おこな}っておりません。", en: "Applications must arrive by January 28. We do not accept them at the counter." },
-        { ja: "{寮|りょう}の{台所|だいどころ}はきれいに使用すること。", en: "Use the dormitory kitchen cleanly." },
+        { ja: "{寮|りょう}の{台所|だいどころ}はきれいに使用すること。", en: "Keep the dormitory kitchen clean when you use it." },
         { ja: "試験中は{携帯|けいたい}電話の{電源|でんげん}を切ること。{筆記|ひっき}{用具|ようぐ}以外は{机|つくえ}の上に置かないこと。", en: "During the exam, turn off your mobile phone. Do not put anything other than writing materials on your desk." },
         { ja: "{寮|りょう}のシャワーは夜11時以降、使用しないこと。", en: "Do not use the dormitory showers after 11 p.m." },
       ],
