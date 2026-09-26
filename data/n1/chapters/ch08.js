@@ -113,11 +113,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[V₂]には[V₁]の{受身形|うけみけい}か反対の意味の{動詞|どうし}が使われる。",
-              "en": "＊For V₂, either the passive form of V₁ or a verb with the opposite meaning is used."
+              "en": "For V₂, either the passive form of V₁ or a verb with the opposite meaning is used."
             },
             {
               "ja": "＊「押しつ押されつ・抜きつ抜かれつ・浮きつ沈みつ・組んずほぐれつ・差しつ差されつ・持ちつ持たれつ」などが使われる。",
-              "en": "＊Set phrases such as 押しつ押されつ, 抜きつ抜かれつ, 浮きつ沈みつ, 組んずほぐれつ, 差しつ差されつ and 持ちつ持たれつ are used."
+              "en": "Set phrases such as 押しつ押されつ, 抜きつ抜かれつ, 浮きつ沈みつ, 組んずほぐれつ, 差しつ差されつ and 持ちつ持たれつ are used."
             }
           ],
           "examples": [
@@ -170,11 +170,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「見る・聞く・考える」などの言葉と一緒に使われる。",
-              "en": "＊Used with words such as 見る, 聞く and 考える."
+              "en": "Used with words such as 見る, 聞く and 考える."
             },
             {
               "ja": "＊前後に同じ{動詞|どうし}や似た意味の{動詞|どうし}を使うことが多い。",
-              "en": "＊The same verb, or a verb of similar meaning, is often used before and after it."
+              "en": "The same verb, or a verb of similar meaning, is often used before and after it."
             }
           ],
           "examples": [
@@ -291,7 +291,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「する」は「するべく」「すべく」のどちらも使われる。",
-              "en": "＊With する, both するべく and すべく are used."
+              "en": "With する, both するべく and すべく are used."
             }
           ],
           "examples": [
@@ -377,7 +377,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「それからというもの」という使い方もある。",
-              "en": "＊It can also be used as それからというもの."
+              "en": "It can also be used as それからというもの."
             }
           ],
           "examples": [
@@ -489,7 +489,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「いる・生きる・生まれる・昔・涙・いつも」など、決まった言葉と一緒に使われることが多い。",
-              "en": "＊It is often used with fixed words such as いる, 生きる, 生まれる, 昔, 涙 and いつも."
+              "en": "It is often used with fixed words such as いる, 生きる, 生まれる, 昔, 涙 and いつも."
             }
           ],
           "examples": [
@@ -1226,7 +1226,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「か」のない形もよく使われる。その場合は「[なA]（だ）／[N]（だ）と思いきや」になる。",
-              "en": "＊The form without か is also often used. In that case it becomes \"なA (だ) / N (だ) と思いきや.\""
+              "en": "The form without か is also often used. In that case it becomes \"なA (だ) / N (だ) と思いきや.\""
             }
           ],
           "examples": [
@@ -1316,7 +1316,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「する」は「せんがため」になる。",
-              "en": "＊する becomes せんがため."
+              "en": "する becomes せんがため."
             }
           ],
           "examples": [
@@ -1366,7 +1366,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「[N]のごとし」「[N₁]のごとき[N₂]」の形もある。",
-              "en": "＊The forms \"Nのごとし\" and \"N₁のごときN₂\" also exist."
+              "en": "The forms \"Nのごとし\" and \"N₁のごときN₂\" also exist."
             }
           ],
           "examples": [
@@ -1532,7 +1532,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「考える・思い出す・聞く・見る・口にする」などの言葉と一緒に使われる。",
-              "en": "＊Used with words such as 考える, 思い出す, 聞く, 見る and 口にする."
+              "en": "Used with words such as 考える, 思い出す, 聞く, 見る and 口にする."
             }
           ],
           "examples": [
@@ -1577,7 +1577,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「想像・予想・{微動|びどう}・{一顧|いっこ}」など限られた言葉と一緒に使われる。",
-              "en": "＊Used with a limited set of words such as 想像, 予想, 微動 and 一顧."
+              "en": "Used with a limited set of words such as 想像, 予想, 微動 and 一顧."
             }
           ],
           "examples": [
@@ -1731,7 +1731,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「今日・今月・今年」などの言葉と一緒に使われる。",
-              "en": "＊Used with words such as 今日, 今月 and 今年."
+              "en": "Used with words such as 今日, 今月 and 今年."
             }
           ],
           "examples": [

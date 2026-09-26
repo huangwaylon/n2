@@ -265,7 +265,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「〜は[N]ならではだ」の形も使われる。",
-              "en": "＊ The form 〜はNならではだ is also used."
+              "en": "The form 〜はNならではだ is also used."
             }
           ],
           "examples": [
@@ -342,7 +342,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「いつ／だれ／どこ／何 + にもまして」などの形も使われる。",
-              "en": "＊ Forms such as いつ／だれ／どこ／何 + にもまして are also used."
+              "en": "Forms such as いつ／だれ／どこ／何 + にもまして are also used."
             }
           ],
           "examples": [

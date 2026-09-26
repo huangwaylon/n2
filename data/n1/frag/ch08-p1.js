@@ -166,7 +166,7 @@ N2F({
       },
       forms: ["[Pl] + かと思いきや\n［[なA~~だ~~]　[N~~だ~~]］"],
       formNotes: [
-        { ja: "＊「か」のない形もよく使われる。その場合は「[なA]（だ）／[N]（だ）と思いきや」になる。", en: "＊The form without か is also often used. In that case it becomes \"なA (だ) / N (だ) と思いきや.\"" },
+        { ja: "＊「か」のない形もよく使われる。その場合は「[なA]（だ）／[N]（だ）と思いきや」になる。", en: "The form without か is also often used. In that case it becomes \"なA (だ) / N (だ) と思いきや.\"" },
       ],
       examples: [
         { ja: "なかなか連絡が来ないので落ちたかと思いきや、今日になって合格通知が届いた。", en: "I hadn't heard anything for ages, so I thought I'd failed — but then today the letter of acceptance arrived." },
@@ -208,7 +208,7 @@ N2F({
       },
       forms: ["[V-~~ない~~] + んがため", "[V-~~ない~~] + んがための + [N]"],
       formNotes: [
-        { ja: "＊「する」は「せんがため」になる。", en: "＊する becomes せんがため." },
+        { ja: "＊「する」は「せんがため」になる。", en: "する becomes せんがため." },
       ],
       examples: [
         { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger." },
@@ -237,7 +237,7 @@ N2F({
       },
       forms: ["[N] + の + ごとく"],
       formNotes: [
-        { ja: "＊「[N]のごとし」「[N₁]のごとき[N₂]」の形もある。", en: "＊The forms \"Nのごとし\" and \"N₁のごときN₂\" also exist." },
+        { ja: "＊「[N]のごとし」「[N₁]のごとき[N₂]」の形もある。", en: "The forms \"Nのごとし\" and \"N₁のごときN₂\" also exist." },
       ],
       examples: [
         { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow." },
@@ -333,7 +333,7 @@ N2F({
       },
       forms: ["[V-る] + だに"],
       formNotes: [
-        { ja: "＊「考える・思い出す・聞く・見る・口にする」などの言葉と一緒に使われる。", en: "＊Used with words such as 考える, 思い出す, 聞く, 見る and 口にする." },
+        { ja: "＊「考える・思い出す・聞く・見る・口にする」などの言葉と一緒に使われる。", en: "Used with words such as 考える, 思い出す, 聞く, 見る and 口にする." },
       ],
       examples: [
         { ja: "あんな高い木に登るなんて、想像するだに恐ろしい。", en: "Climbing a tree that tall? Just imagining it is terrifying." },
@@ -361,7 +361,7 @@ N2F({
       },
       forms: ["[N] + だにしない"],
       formNotes: [
-        { ja: "＊「想像・予想・{微動|びどう}・{一顧|いっこ}」など限られた言葉と一緒に使われる。", en: "＊Used with a limited set of words such as 想像, 予想, 微動 and 一顧." },
+        { ja: "＊「想像・予想・{微動|びどう}・{一顧|いっこ}」など限られた言葉と一緒に使われる。", en: "Used with a limited set of words such as 想像, 予想, 微動 and 一顧." },
       ],
       examples: [
         { ja: "予想だにしなかったコンピューターのシステム{障害|しょうがい}が{発生|はっせい}し、担当者は対応に追われた。", en: "A computer system failure that no one had even imagined occurred, and the staff in charge were kept busy dealing with it." },
@@ -430,7 +430,7 @@ N2F({
       },
       forms: ["[N] + を限りに", "[N] + 限りで"],
       formNotes: [
-        { ja: "＊「今日・今月・今年」などの言葉と一緒に使われる。", en: "＊Used with words such as 今日, 今月 and 今年." },
+        { ja: "＊「今日・今月・今年」などの言葉と一緒に使われる。", en: "Used with words such as 今日, 今月 and 今年." },
       ],
       examples: [
         { ja: "「今日を限りにギャンブルはやめる」と、彼は今年だけでも3回は言った。", en: "\"After today, I'm quitting gambling\" — he's said that at least three times this year alone." },

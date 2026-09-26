@@ -43,7 +43,7 @@ N2F({
         "[いA]／[なA] な + こと + といったらありゃしない／ったらありゃしない",
       ],
       formNotes: [
-        { ja: "＊{動詞|どうし}は「腹が立つ・疲れる・イライラする」などの感情を表す{動詞|どうし}、{名詞|めいし}は「喜び・{衝撃|しょうげき}・ショック」などや「{悲惨|ひさん}さ・忙しさ」など{形容詞|けいようし}が{名詞化|めいしか}されたものが使われる。", en: "*The verbs used are verbs expressing emotions such as 腹が立つ, 疲れる, イライラする; the nouns are words like 喜び, 衝撃, ショック, or adjectives turned into nouns such as 悲惨さ, 忙しさ." },
+        { ja: "＊{動詞|どうし}は「腹が立つ・疲れる・イライラする」などの感情を表す{動詞|どうし}、{名詞|めいし}は「喜び・{衝撃|しょうげき}・ショック」などや「{悲惨|ひさん}さ・忙しさ」など{形容詞|けいようし}が{名詞化|めいしか}されたものが使われる。", en: "The verbs used are verbs expressing emotions such as 腹が立つ, 疲れる, イライラする; the nouns are words like 喜び, 衝撃, ショック, or adjectives turned into nouns such as 悲惨さ, 忙しさ." },
       ],
       examples: [
         { ja: "今年の夏は暑いといったらない。早く秋になってほしいよ。", en: "This summer is unbearably hot. I wish autumn would hurry up and come." },
@@ -86,8 +86,8 @@ N2F({
       forms: ["[V-よう] + にも + [V-できない]"],
       notesFirst: false,
       formNotes: [
-        { ja: "＊[V-よう]・[V-できない] には同じ{動詞|どうし}が使われる。", en: "*The same verb is used in [V-よう] and [V-できない]." },
-        { ja: "＊[V-できない] に「無理だ・不可能だ」など「できない」という意味を持つ言葉が使われることもある。", en: "*Instead of [V-できない], words meaning “can't”, such as 無理だ or 不可能だ, may also be used." },
+        { ja: "＊[V-よう]・[V-できない] には同じ{動詞|どうし}が使われる。", en: "The same verb is used in [V-よう] and [V-できない]." },
+        { ja: "＊[V-できない] に「無理だ・不可能だ」など「できない」という意味を持つ言葉が使われることもある。", en: "Instead of [V-できない], words meaning “can't”, such as 無理だ or 不可能だ, may also be used." },
       ],
       examples: [
         { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "My huge blunder at the speech contest — I couldn't forget it even if I tried." },
@@ -167,7 +167,7 @@ N2F({
         en: "“〜にしたところで” is used when you want to say “〜, which people think is different from the others, is actually the same as the others,” as in “{大金持|おおがねも}ちにしたところで悩みはある”.",
       },
       forms: ["[N] + にしたところで", "[N] + にしたって"],
-      formNotes: [{ ja: "＊「いずれにしたところで」「いずれにしたって」の形も使われる。", en: "*The forms いずれにしたところで and いずれにしたって are also used." }],
+      formNotes: [{ ja: "＊「いずれにしたところで」「いずれにしたって」の形も使われる。", en: "The forms いずれにしたところで and いずれにしたって are also used." }],
       examples: [
         { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even the easygoing Mr. Tanaka would surely get angry if he were kept waiting for a whole hour." },
         { ja: "電気自動車にしたところで、環境への{負荷|ふか}が全くないわけではない。", en: "Even electric cars are not entirely free of environmental impact." },

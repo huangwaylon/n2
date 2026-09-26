@@ -134,7 +134,7 @@ N2F({
       },
       forms: ["[N₁] + ならではの + [N₂]"],
       formNotes: [
-        { ja: "＊「〜は[N]ならではだ」の形も使われる。", en: "＊ The form 〜はNならではだ is also used." },
+        { ja: "＊「〜は[N]ならではだ」の形も使われる。", en: "The form 〜はNならではだ is also used." },
       ],
       examples: [
         { ja: "凍った湖の上でのスケートは、{北国|きたぐに}ならではの楽しい遊びだ。", en: "Skating on a frozen lake is a fun pastime you can only enjoy in the snowy north." },
@@ -180,7 +180,7 @@ N2F({
       },
       forms: ["[N] + にもまして"],
       formNotes: [
-        { ja: "＊「いつ／だれ／どこ／何 + にもまして」などの形も使われる。", en: "＊ Forms such as いつ／だれ／どこ／何 + にもまして are also used." },
+        { ja: "＊「いつ／だれ／どこ／何 + にもまして」などの形も使われる。", en: "Forms such as いつ／だれ／どこ／何 + にもまして are also used." },
       ],
       examples: [
         { ja: "{選挙|せんきょ}を1週間後に{控|ひか}え、記者たちは普段にもまして忙しい。", en: "With the election a week away, reporters are even busier than usual." },

@@ -71,8 +71,8 @@ N2F({
       },
       forms: ["[Pl₁] + ら + [Pl₂] + で\n［過去形のみ］［過去形のみ］"],
       formNotes: [
-        { ja: "＊[Pl₁]・[Pl₂]には同じ言葉が使われる。", en: "＊ The same word is used for Pl₁ and Pl₂." },
-        { ja: "＊{形容詞|けいようし}のときは[Pl₂]に現在形が使われることもある。", en: "＊ With adjectives, the non-past form is sometimes used for Pl₂." },
+        { ja: "＊[Pl₁]・[Pl₂]には同じ言葉が使われる。", en: "The same word is used for Pl₁ and Pl₂." },
+        { ja: "＊{形容詞|けいようし}のときは[Pl₂]に現在形が使われることもある。", en: "With adjectives, the non-past form is sometimes used for Pl₂." },
       ],
       examples: [
         { ja: "部屋にほこりがたまれば文句を言うし、掃除をしたらしたで、「勝手に入った」と怒るし、全く高校生の息子は{扱|あつか}いにくい。", en: "If dust piles up in his room he complains, and if I do clean it, he gets angry that I went in without asking — my high-school son is really hard to deal with." },
@@ -146,7 +146,7 @@ N2F({
       },
       forms: ["［[V-る]　[N]］ + にたえない"],
       formNotes: [
-        { ja: "＊「聞く・見る・読む・{正視|せいし}・{傾聴|けいちょう}」などの限られた言葉と一緒に使われる。", en: "＊ It is used with a limited set of words, such as 聞く, 見る, 読む, 正視 (looking squarely at) and 傾聴 (listening closely)." },
+        { ja: "＊「聞く・見る・読む・{正視|せいし}・{傾聴|けいちょう}」などの限られた言葉と一緒に使われる。", en: "It is used with a limited set of words, such as 聞く, 見る, 読む, 正視 (looking squarely at) and 傾聴 (listening closely)." },
       ],
       examples: [
         { ja: "言い{訳|わけ}ばかりしている政治家の話は聞くにたえない。", en: "The talk of politicians who do nothing but make excuses is unbearable to listen to." },
@@ -178,7 +178,7 @@ N2F({
       },
       forms: ["[V-よう] + ものなら"],
       formNotes: [
-        { ja: "＊話し言葉では「〜もんなら」も使われる。", en: "＊ In speech, \"〜もんなら\" is also used." },
+        { ja: "＊話し言葉では「〜もんなら」も使われる。", en: "In speech, \"〜もんなら\" is also used." },
       ],
       examples: [
         { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you give them the slightest warning, they're liable to say, \"Well then, I quit.\"" },
@@ -266,7 +266,7 @@ N2F({
       },
       forms: ["[V-~~ない~~] + ないものか"],
       formNotes: [
-        { ja: "＊「〜ものだろうか」「〜ものでしょうか」の形も使われる。", en: "＊ The forms \"〜ものだろうか\" and \"〜ものでしょうか\" are also used." },
+        { ja: "＊「〜ものだろうか」「〜ものでしょうか」の形も使われる。", en: "The forms \"〜ものだろうか\" and \"〜ものでしょうか\" are also used." },
       ],
       examples: [
         { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },

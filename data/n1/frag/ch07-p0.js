@@ -41,7 +41,7 @@ N2F({
       },
       forms: ["[N] + じゃあるまいし", "[N] + ではあるまいし"],
       formNotes: [
-        { ja: "＊「[V-る]／[V-た]／[V-ない] + んじゃあるまいし」「〜わけじゃあるまいし」という言い方もある。", en: "*The forms “[V-る]／[V-た]／[V-ない] + んじゃあるまいし” and “〜わけじゃあるまいし” are also used." },
+        { ja: "＊「[V-る]／[V-た]／[V-ない] + んじゃあるまいし」「〜わけじゃあるまいし」という言い方もある。", en: "The forms “[V-る]／[V-た]／[V-ない] + んじゃあるまいし” and “〜わけじゃあるまいし” are also used." },
       ],
       examples: [
         { ja: "A：{山田|やまだ}さん、コピー、終わりました。次は何をしたらいいですか。\nB：{新入|しんにゅう}社員じゃあるまいし、少しは自分で考えろよ。", en: "A: Mr. Yamada, I've finished the copying. What should I do next?\nB: You're not a new hire. Think for yourself a little!" },
@@ -85,7 +85,7 @@ N2F({
         en: "“〜んばかり” means “looking as if it is about to 〜 at any moment”, as in “{壊|こわ}さんばかりにドアをたたく” (pounding on the door as if to break it down). It is used when you feel that the degree of something is extremely high.",
       },
       forms: ["[V-~~ない~~] + んばかり"],
-      formNotes: [{ ja: "＊「する」は「せんばかり」になる。", en: "*する becomes せんばかり." }],
+      formNotes: [{ ja: "＊「する」は「せんばかり」になる。", en: "する becomes せんばかり." }],
       examples: [
         { ja: "たくさんの花をつけた{山百合|やまゆり}が、風に吹かれて折れんばかりに{揺|ゆ}れている。", en: "Covered in blossoms, the mountain lilies are swaying in the wind as if they're about to snap." },
         { ja: "彼女は、今にも泣き出さんばかりの顔をして、部屋を飛び出していった。", en: "She ran out of the room looking as if she would burst into tears at any moment." },
@@ -178,7 +178,7 @@ N2F({
         en: "“〜ものを” means much the same as “〜のに” and is used to reproach someone. It is often used in the form “AばBものを”, as in “急げば間に合ったものを” (if you'd hurried, you'd have made it), to say “because you didn't do A (didn't hurry), the bad result opposite to B happened (you didn't make it) — why didn't you do A?”",
       },
       forms: ["[Pl] + ものを\n［[なA~~だ~~]な　[N~~だ~~]な］"],
-      formNotes: [{ ja: "＊「〜ものを……。」と、後ろを省略することもある。", en: "*The rest of the sentence may be left out, as in “〜ものを……。”" }],
+      formNotes: [{ ja: "＊「〜ものを……。」と、後ろを省略することもある。", en: "The rest of the sentence may be left out, as in “〜ものを……。”" }],
       examples: [
         { ja: "早く来れば{空|す}いていたものを、この様子じゃチケットを買うだけで1時間はかかりそうだ。", en: "If we'd come early it would have been empty, but at this rate it looks like it'll take an hour just to buy tickets." },
         { ja: "散歩は朝の涼しいときにすればいいものを、暑い{盛|さか}りに出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You should take your walk in the cool of the morning, but you go out in the heat of the day — that's why you get heatstroke." },
@@ -344,7 +344,7 @@ N2F({
         en: "“A（よ）うがAまいが” means “whether A or not A”. It is used to express a strong feeling of not being influenced, as in “{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ”, or that there is a fact that cannot be changed, as in “信じようが信じまいが、これは本当にあった話です”.",
       },
       forms: ["[V-よう] + ［が　と］ + [V-る] + ［まいが　まいと］"],
-      formNotes: [{ ja: "＊[V-よう]・[V-る] には同じ{動詞|どうし}が使われる。", en: "*The same verb is used in [V-よう] and [V-る]." }],
+      formNotes: [{ ja: "＊[V-よう]・[V-る] には同じ{動詞|どうし}が使われる。", en: "The same verb is used in [V-よう] and [V-る]." }],
       examples: [
         { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it's useful or not, it's human nature to try to get to the bottom of what puzzles us." },
         { ja: "皆が認めようが認めまいが、宇宙人は存在すると私は信じている。", en: "Whether people accept it or not, I believe aliens exist." },
@@ -405,7 +405,7 @@ N2F({
         en: "“AならAで…” expresses one's feelings (…) about another person's situation A, as in “来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに”. It is often used when giving advice or complaining.",
       },
       forms: ["[Pl₁] + なら + [Pl₂] + で\n［現在形のみ］　［現在形のみ］\n［[なA~~だ~~]　[N~~だ~~]］［[なA~~だ~~]　[N~~だ~~]］"],
-      formNotes: [{ ja: "＊[Pl₁]・[Pl₂] には同じ言葉が使われる。", en: "*The same word is used in [Pl₁] and [Pl₂]." }],
+      formNotes: [{ ja: "＊[Pl₁]・[Pl₂] には同じ言葉が使われる。", en: "The same word is used in [Pl₁] and [Pl₂]." }],
       examples: [
         { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: Sir, I'd like to leave the company at the end of this month…\nB: If you're quitting, fine, but finish your current work properly first." },
         { ja: "仕事が忙しいなら忙しいで、{誰|だれ}かに手伝ってもらうとか、断るとか、何か方法を考えたほうがいいですよ。", en: "If you're busy with work, then you should think of something — get someone to help, or turn things down." },

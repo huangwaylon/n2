@@ -46,8 +46,8 @@ N2F({
       },
       forms: ["[V₁-~~ます~~] + つ + [V₂-~~ます~~] + つ"],
       formNotes: [
-        { ja: "＊[V₂]には[V₁]の{受身形|うけみけい}か反対の意味の{動詞|どうし}が使われる。", en: "＊For V₂, either the passive form of V₁ or a verb with the opposite meaning is used." },
-        { ja: "＊「押しつ押されつ・抜きつ抜かれつ・浮きつ沈みつ・組んずほぐれつ・差しつ差されつ・持ちつ持たれつ」などが使われる。", en: "＊Set phrases such as 押しつ押されつ, 抜きつ抜かれつ, 浮きつ沈みつ, 組んずほぐれつ, 差しつ差されつ and 持ちつ持たれつ are used." },
+        { ja: "＊[V₂]には[V₁]の{受身形|うけみけい}か反対の意味の{動詞|どうし}が使われる。", en: "For V₂, either the passive form of V₁ or a verb with the opposite meaning is used." },
+        { ja: "＊「押しつ押されつ・抜きつ抜かれつ・浮きつ沈みつ・組んずほぐれつ・差しつ差されつ・持ちつ持たれつ」などが使われる。", en: "Set phrases such as 押しつ押されつ, 抜きつ抜かれつ, 浮きつ沈みつ, 組んずほぐれつ, 差しつ差されつ and 持ちつ持たれつ are used." },
       ],
       examples: [
         { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの{接戦|せっせん}が{繰|く}り{広|ひろ}げられた。", en: "In yesterday's marathon, a close race unfolded right to the end, with the runners overtaking and being overtaken by each other." },
@@ -80,8 +80,8 @@ N2F({
       },
       forms: ["[V-る] + ともなく"],
       formNotes: [
-        { ja: "＊「見る・聞く・考える」などの言葉と一緒に使われる。", en: "＊Used with words such as 見る, 聞く and 考える." },
-        { ja: "＊前後に同じ{動詞|どうし}や似た意味の{動詞|どうし}を使うことが多い。", en: "＊The same verb, or a verb of similar meaning, is often used before and after it." },
+        { ja: "＊「見る・聞く・考える」などの言葉と一緒に使われる。", en: "Used with words such as 見る, 聞く and 考える." },
+        { ja: "＊前後に同じ{動詞|どうし}や似た意味の{動詞|どうし}を使うことが多い。", en: "The same verb, or a verb of similar meaning, is often used before and after it." },
       ],
       examples: [
         { ja: "窓の外を見るともなく見ていたら、親猫がかわいい子猫を連れて歩いてきた。", en: "As I was idly gazing out of the window, a mother cat came walking along with her cute kittens." },
@@ -134,7 +134,7 @@ N2F({
       },
       forms: ["[V-る] + べく"],
       formNotes: [
-        { ja: "＊「する」は「するべく」「すべく」のどちらも使われる。", en: "＊With する, both するべく and すべく are used." },
+        { ja: "＊「する」は「するべく」「すべく」のどちらも使われる。", en: "With する, both するべく and すべく are used." },
       ],
       examples: [
         { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business." },
@@ -190,7 +190,7 @@ N2F({
       },
       forms: ["[V-て] + からというもの"],
       formNotes: [
-        { ja: "＊「それからというもの」という使い方もある。", en: "＊It can also be used as それからというもの." },
+        { ja: "＊「それからというもの」という使い方もある。", en: "It can also be used as それからというもの." },
       ],
       examples: [
         { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he's been going straight home as soon as work is over." },
@@ -244,7 +244,7 @@ N2F({
       },
       forms: ["［[V-~~ます~~]　[N₁]］ + ［ながら（に）　ながらの + [N₂]］"],
       formNotes: [
-        { ja: "＊「いる・生きる・生まれる・昔・涙・いつも」など、決まった言葉と一緒に使われることが多い。", en: "＊It is often used with fixed words such as いる, 生きる, 生まれる, 昔, 涙 and いつも." },
+        { ja: "＊「いる・生きる・生まれる・昔・涙・いつも」など、決まった言葉と一緒に使われることが多い。", en: "It is often used with fixed words such as いる, 生きる, 生まれる, 昔, 涙 and いつも." },
       ],
       examples: [
         { ja: "{仏陀|ぶっだ}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talents from the moment he was born." },

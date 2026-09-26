@@ -103,7 +103,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「[V-る]／[V-た]／[V-ない] + んじゃあるまいし」「〜わけじゃあるまいし」という言い方もある。",
-              "en": "*The forms “[V-る]／[V-た]／[V-ない] + んじゃあるまいし” and “〜わけじゃあるまいし” are also used."
+              "en": "The forms “[V-る]／[V-た]／[V-ない] + んじゃあるまいし” and “〜わけじゃあるまいし” are also used."
             }
           ],
           "examples": [
@@ -196,7 +196,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「する」は「せんばかり」になる。",
-              "en": "*する becomes せんばかり."
+              "en": "する becomes せんばかり."
             }
           ],
           "examples": [
@@ -377,7 +377,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「〜ものを……。」と、後ろを省略することもある。",
-              "en": "*The rest of the sentence may be left out, as in “〜ものを……。”"
+              "en": "The rest of the sentence may be left out, as in “〜ものを……。”"
             }
           ],
           "examples": [
@@ -683,7 +683,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[V-よう]・[V-る] には同じ{動詞|どうし}が使われる。",
-              "en": "*The same verb is used in [V-よう] and [V-る]."
+              "en": "The same verb is used in [V-よう] and [V-る]."
             }
           ],
           "examples": [
@@ -790,7 +790,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[Pl₁]・[Pl₂] には同じ言葉が使われる。",
-              "en": "*The same word is used in [Pl₁] and [Pl₂]."
+              "en": "The same word is used in [Pl₁] and [Pl₂]."
             }
           ],
           "examples": [
@@ -1226,7 +1226,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊{動詞|どうし}は「腹が立つ・疲れる・イライラする」などの感情を表す{動詞|どうし}、{名詞|めいし}は「喜び・{衝撃|しょうげき}・ショック」などや「{悲惨|ひさん}さ・忙しさ」など{形容詞|けいようし}が{名詞化|めいしか}されたものが使われる。",
-              "en": "*The verbs used are verbs expressing emotions such as 腹が立つ, 疲れる, イライラする; the nouns are words like 喜び, 衝撃, ショック, or adjectives turned into nouns such as 悲惨さ, 忙しさ."
+              "en": "The verbs used are verbs expressing emotions such as 腹が立つ, 疲れる, イライラする; the nouns are words like 喜び, 衝撃, ショック, or adjectives turned into nouns such as 悲惨さ, 忙しさ."
             }
           ],
           "examples": [
@@ -1312,11 +1312,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[V-よう]・[V-できない] には同じ{動詞|どうし}が使われる。",
-              "en": "*The same verb is used in [V-よう] and [V-できない]."
+              "en": "The same verb is used in [V-よう] and [V-できない]."
             },
             {
               "ja": "＊[V-できない] に「無理だ・不可能だ」など「できない」という意味を持つ言葉が使われることもある。",
-              "en": "*Instead of [V-できない], words meaning “can't”, such as 無理だ or 不可能だ, may also be used."
+              "en": "Instead of [V-できない], words meaning “can't”, such as 無理だ or 不可能だ, may also be used."
             }
           ],
           "examples": [
@@ -1460,7 +1460,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「いずれにしたところで」「いずれにしたって」の形も使われる。",
-              "en": "*The forms いずれにしたところで and いずれにしたって are also used."
+              "en": "The forms いずれにしたところで and いずれにしたって are also used."
             }
           ],
           "examples": [

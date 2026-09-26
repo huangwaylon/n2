@@ -42,8 +42,8 @@ N2F({
       },
       forms: ["[Pl₁] + といおうか + [Pl₂] + といおうか\n［[なA~~だ~~]　[N~~だ~~]］　　［[なA~~だ~~]　[N~~だ~~]］"],
       formNotes: [
-        { ja: "＊「〜といおうか」だけでも使われる。", en: "＊ \"〜といおうか\" can also be used on its own (just once)." },
-        { ja: "＊「〜というべきか」「〜というか」も同じ意味で使われる。", en: "＊ \"〜というべきか\" and \"〜というか\" are used with the same meaning." },
+        { ja: "＊「〜といおうか」だけでも使われる。", en: "\"〜といおうか\" can also be used on its own (just once)." },
+        { ja: "＊「〜というべきか」「〜というか」も同じ意味で使われる。", en: "\"〜というべきか\" and \"〜というか\" are used with the same meaning." },
       ],
       examples: [
         { ja: "彼女の存在は、{砂漠|さばく}のオアシスといおうか、{嵐|あらし}の夜の灯台といおうか、辛い毎日の中の大きな{慰|なぐさ}めだ。", en: "Her presence is — what should I call it — an oasis in the desert, a lighthouse on a stormy night; a great comfort in my hard daily life." },
@@ -96,7 +96,7 @@ N2F({
       },
       forms: ["[Pl] + の + をいいことに\n［[なA~~だ~~]な　[N~~だ~~]な］"],
       formNotes: [
-        { ja: "＊「[N]をいいことに」「[なA]／[N]であるのをいいことに」の形も使われる。", en: "＊ The forms \"N + をいいことに\" and \"なA / N + であるのをいいことに\" are also used." },
+        { ja: "＊「[N]をいいことに」「[なA]／[N]であるのをいいことに」の形も使われる。", en: "The forms \"N + をいいことに\" and \"なA / N + であるのをいいことに\" are also used." },
       ],
       examples: [
         { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "Taking advantage of there being nobody around at night, the graffiti in the tunnel just keeps getting worse." },
@@ -253,7 +253,7 @@ N2F({
       },
       forms: ["[Pl] + ならまだしも\n［[なA~~だ~~]　[N~~だ~~]］"],
       formNotes: [
-        { ja: "＊「だけ」「から」「で」などにも接続する。", en: "＊ It can also follow だけ, から, で, etc." },
+        { ja: "＊「だけ」「から」「で」などにも接続する。", en: "It can also follow だけ, から, で, etc." },
       ],
       examples: [
         { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
@@ -301,8 +301,8 @@ N2F({
       },
       forms: ["[N] + 以前"],
       formNotes: [
-        { ja: "＊「[なA]／[N]である以前」「{疑問詞|ぎもんし}＋〜か」「〜かどうか」の形も使われる。", en: "＊ The forms \"なA / N + である以前\", \"question word + 〜か\" and \"〜かどうか\" are also used." },
-        { ja: "＊「できるできない」のような{肯定形|こうていけい}＋{否定形|ひていけい}の形や、「大きい小さい」のように反対の意味を表す{形容詞|けいようし}を重ねる形なども使われる。", en: "＊ Forms that pair an affirmative with a negative, like \"できるできない\", or that put together adjectives of opposite meaning, like \"大きい小さい\", are also used." },
+        { ja: "＊「[なA]／[N]である以前」「{疑問詞|ぎもんし}＋〜か」「〜かどうか」の形も使われる。", en: "The forms \"なA / N + である以前\", \"question word + 〜か\" and \"〜かどうか\" are also used." },
+        { ja: "＊「できるできない」のような{肯定形|こうていけい}＋{否定形|ひていけい}の形や、「大きい小さい」のように反対の意味を表す{形容詞|けいようし}を重ねる形なども使われる。", en: "Forms that pair an affirmative with a negative, like \"できるできない\", or that put together adjectives of opposite meaning, like \"大きい小さい\", are also used." },
       ],
       examples: [
         { ja: "きちんと{挨拶|あいさつ}するのはビジネスマナー以前の常識だと思いますね。", en: "I think greeting people properly is common sense that comes before business manners." },
@@ -349,8 +349,8 @@ N2F({
       },
       forms: ["[V₁-る] + べくして + [V₂-た]"],
       formNotes: [
-        { ja: "＊「する」は「すべく」の形もある。", en: "＊ For する, the form すべく is also used." },
-        { ja: "＊[V₁]・[V₂]には同じ{動詞|どうし}を使うことが多い。", en: "＊ The same verb is usually used for V₁ and V₂." },
+        { ja: "＊「する」は「すべく」の形もある。", en: "For する, the form すべく is also used." },
+        { ja: "＊[V₁]・[V₂]には同じ{動詞|どうし}を使うことが多い。", en: "The same verb is usually used for V₁ and V₂." },
       ],
       examples: [
         { ja: "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },
@@ -399,7 +399,7 @@ N2F({
       },
       forms: ["[N₁] + が + [N₂]（な） + だけに"],
       formNotes: [
-        { ja: "＊[N₁]・[N₂]は同じ{名詞|めいし}を使う。", en: "＊ The same noun is used for N₁ and N₂." },
+        { ja: "＊[N₁]・[N₂]は同じ{名詞|めいし}を使う。", en: "The same noun is used for N₁ and N₂." },
       ],
       examples: [
         { ja: "A：部長に連絡しなきゃいけないんだけど、時間が時間なだけに電話はまずいよね。\nB：そうね。とりあえずメールだけ送っておいて、明日の朝報告したら？", en: "A: I need to contact the manager, but given what time it is, phoning would be a bad idea, wouldn't it?\nB: Right. Why not just send an email for now and report to him tomorrow morning?" },

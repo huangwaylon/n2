@@ -104,11 +104,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「〜といおうか」だけでも使われる。",
-              "en": "＊ \"〜といおうか\" can also be used on its own (just once)."
+              "en": "\"〜といおうか\" can also be used on its own (just once)."
             },
             {
               "ja": "＊「〜というべきか」「〜というか」も同じ意味で使われる。",
-              "en": "＊ \"〜というべきか\" and \"〜というか\" are used with the same meaning."
+              "en": "\"〜というべきか\" and \"〜というか\" are used with the same meaning."
             }
           ],
           "examples": [
@@ -214,7 +214,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「[N]をいいことに」「[なA]／[N]であるのをいいことに」の形も使われる。",
-              "en": "＊ The forms \"N + をいいことに\" and \"なA / N + であるのをいいことに\" are also used."
+              "en": "The forms \"N + をいいことに\" and \"なA / N + であるのをいいことに\" are also used."
             }
           ],
           "examples": [
@@ -413,7 +413,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「だけ」「から」「で」などにも接続する。",
-              "en": "＊ It can also follow だけ, から, で, etc."
+              "en": "It can also follow だけ, から, で, etc."
             }
           ],
           "examples": [
@@ -510,11 +510,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「[なA]／[N]である以前」「{疑問詞|ぎもんし}＋〜か」「〜かどうか」の形も使われる。",
-              "en": "＊ The forms \"なA / N + である以前\", \"question word + 〜か\" and \"〜かどうか\" are also used."
+              "en": "The forms \"なA / N + である以前\", \"question word + 〜か\" and \"〜かどうか\" are also used."
             },
             {
               "ja": "＊「できるできない」のような{肯定形|こうていけい}＋{否定形|ひていけい}の形や、「大きい小さい」のように反対の意味を表す{形容詞|けいようし}を重ねる形なども使われる。",
-              "en": "＊ Forms that pair an affirmative with a negative, like \"できるできない\", or that put together adjectives of opposite meaning, like \"大きい小さい\", are also used."
+              "en": "Forms that pair an affirmative with a negative, like \"できるできない\", or that put together adjectives of opposite meaning, like \"大きい小さい\", are also used."
             }
           ],
           "examples": [
@@ -610,11 +610,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「する」は「すべく」の形もある。",
-              "en": "＊ For する, the form すべく is also used."
+              "en": "For する, the form すべく is also used."
             },
             {
               "ja": "＊[V₁]・[V₂]には同じ{動詞|どうし}を使うことが多い。",
-              "en": "＊ The same verb is usually used for V₁ and V₂."
+              "en": "The same verb is usually used for V₁ and V₂."
             }
           ],
           "examples": [
@@ -710,7 +710,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[N₁]・[N₂]は同じ{名詞|めいし}を使う。",
-              "en": "＊ The same noun is used for N₁ and N₂."
+              "en": "The same noun is used for N₁ and N₂."
             }
           ],
           "examples": [
@@ -1005,11 +1005,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[Pl₁]・[Pl₂]には同じ言葉が使われる。",
-              "en": "＊ The same word is used for Pl₁ and Pl₂."
+              "en": "The same word is used for Pl₁ and Pl₂."
             },
             {
               "ja": "＊{形容詞|けいようし}のときは[Pl₂]に現在形が使われることもある。",
-              "en": "＊ With adjectives, the non-past form is sometimes used for Pl₂."
+              "en": "With adjectives, the non-past form is sometimes used for Pl₂."
             }
           ],
           "examples": [
@@ -1120,7 +1120,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「聞く・見る・読む・{正視|せいし}・{傾聴|けいちょう}」などの限られた言葉と一緒に使われる。",
-              "en": "＊ It is used with a limited set of words, such as 聞く, 見る, 読む, 正視 (looking squarely at) and 傾聴 (listening closely)."
+              "en": "It is used with a limited set of words, such as 聞く, 見る, 読む, 正視 (looking squarely at) and 傾聴 (listening closely)."
             }
           ],
           "examples": [
@@ -1172,7 +1172,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊話し言葉では「〜もんなら」も使われる。",
-              "en": "＊ In speech, \"〜もんなら\" is also used."
+              "en": "In speech, \"〜もんなら\" is also used."
             }
           ],
           "examples": [
@@ -1299,7 +1299,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊「〜ものだろうか」「〜ものでしょうか」の形も使われる。",
-              "en": "＊ The forms \"〜ものだろうか\" and \"〜ものでしょうか\" are also used."
+              "en": "The forms \"〜ものだろうか\" and \"〜ものでしょうか\" are also used."
             }
           ],
           "examples": [
@@ -1618,7 +1618,7 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊{接続詞|せつぞくし}としても使われる。",
-              "en": "＊ It is also used as a conjunction."
+              "en": "It is also used as a conjunction."
             }
           ],
           "examples": [
@@ -1788,11 +1788,11 @@ N2.register({
           "formNotes": [
             {
               "ja": "＊[V-る]・[V-できない]には同じ{動詞|どうし}が使われる。",
-              "en": "＊ The same verb is used for V-る and V-できない."
+              "en": "The same verb is used for V-る and V-できない."
             },
             {
               "ja": "＊「笑うに笑えない」「言うに言えない」「泣くに泣けない」「引くに引けない」など、「〜できない」ことを強調する言い方もある。",
-              "en": "＊ There are also expressions such as 笑うに笑えない (can't laugh even if you want to), 言うに言えない (can't bring oneself to say), 泣くに泣けない (can't even cry) and 引くに引けない (can't back down) that emphasize that one \"can't ~\"."
+              "en": "There are also expressions such as 笑うに笑えない (can't laugh even if you want to), 言うに言えない (can't bring oneself to say), 泣くに泣けない (can't even cry) and 引くに引けない (can't back down) that emphasize that one \"can't ~\"."
             }
           ],
           "examples": [
