@@ -3,7 +3,7 @@ N2F({
   part: 2,
   label: "(3)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand the situation and the characters' feelings." },
+    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the situation and the characters' feelings." },
   ],
   sample: {
     kind: "dialogue",
@@ -26,7 +26,7 @@ N2F({
       { ja: "Aの{視線|しせん}を{感知|かんち}し、メニューを持って近づくウェイトレス", en: "Sensing A's gaze, the waitress approaches with a menu" },
       { sp: "ウェイトレス", v: "f", ja: "「オ客様、イラッシャイマセ。注文ヲ、ドウゾ。」", en: "\"Welcome, customer. Your order, please.\"" },
       { sp: "社員A", v: "m", ja: "「ねえ、今日何時に終わんの？　{俺|おれ}、営業部の{山田|やまだ}っていうんだけど、よかったら、30分だけ、お茶とかどう？」", en: "\"Hey, what time do you finish today? I'm Yamada from Sales — if you like, how about tea or something, just for thirty minutes?\"" },
-      { sp: "社員B", v: "m", ja: "「お{前|まえ}、注文**にかこつけて**、何聞いてるんだよ。」", en: "\"What are you asking her, using ordering as an excuse?\"" },
+      { sp: "社員B", v: "m", ja: "「お{前|まえ}、注文**にかこつけて**、何聞いてるんだよ。」", en: "\"Hey, you're using the order as an excuse — what are you asking her?\"" },
       { sp: "ウェイトレス", v: "f", ja: "「〝ヨカッタラ、30分ダケ、オ茶トカドウ〟……ソノ注文ハ、{職務範囲|しょくむはんい}ニ、存在シマセン。」", en: "\"'If you like, just thirty minutes, how about tea or something'… That order does not exist within my scope of duties.\"" },
       { ja: "―　終わり　―", en: "— The End —" },
     ],
@@ -153,11 +153,11 @@ N2F({
         "- **言うに言えない**: *can't bring oneself to say* (言うに言えない悩み, ⑤).\n" +
         "- **引くに引けない**: *can't back down* (having gone too far to retreat).\n\n" +
         "Compare:\n" +
-        "- **〜ようにも〜ない** (N2, 辞めようにも辞められない): nearly the same meaning; the volitional form stresses the attempt.\n" +
+        "- **〜（よ）うにも〜ない** (#84, 辞めようにも辞められない): nearly the same meaning; the volitional form stresses the attempt.\n" +
         "- **〜わけにはいかない** (N3/N2): *can't ~ (for social or moral reasons)*; に〜ない adds the emotion of wanting to do it.\n" +
         "- **〜に〜を重ねて** / **〜に〜** (待ちに待った): repetition patterns with a different meaning (intensity), not impossibility.\n\n" +
         "JLPT tip: look for the same verb twice with に in between and the second one in the potential negative.",
-      see: [],
+      see: [84],
       index: ["VにVない"],
     },
     // ───────── 64
@@ -184,10 +184,10 @@ N2F({
         "Compare:\n" +
         "- **〜を口実に（して）**: very close in meaning, and more common in speech.\n" +
         "- **〜にかこつけて** vs **〜を理由に**: を理由に is neutral (the reason may be real); にかこつけて implies the reason is only a cover.\n" +
-        "- **〜をいいことに** (N1): *taking advantage of (a situation)* to do something bad (親が留守なのをいいことに): it exploits a circumstance, whereas にかこつけて uses something as a stated excuse.\n" +
+        "- **〜のをいいことに** (#47): *taking advantage of (a situation)* to do something bad (親が留守なのをいいことに): it exploits a circumstance, whereas にかこつけて uses something as a stated excuse.\n" +
         "- **〜にかこつけて** vs **〜を兼ねて**: を兼ねて is neutral *combining two purposes* (出張を兼ねて旅行する).\n\n" +
         "JLPT tip: the noun before にかこつけて is a legitimate-sounding reason; the rest reveals the hidden motive.",
-      see: [],
+      see: [47],
       index: ["Nにかこつけて"],
       practice: [
         {

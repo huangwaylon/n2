@@ -1489,7 +1489,7 @@ N2.register({
       "canDo": [
         {
           "ja": "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。",
-          "en": "Read a TV drama script and understand the situation and the characters' feelings."
+          "en": "Can read a TV drama script and understand the situation and the characters' feelings."
         }
       ],
       "sample": {
@@ -1587,7 +1587,7 @@ N2.register({
             "sp": "社員B",
             "v": "m",
             "ja": "「お{前|まえ}、注文**にかこつけて**、何聞いてるんだよ。」",
-            "en": "\"What are you asking her, using ordering as an excuse?\""
+            "en": "\"Hey, you're using the order as an excuse — what are you asking her?\""
           },
           {
             "sp": "ウェイトレス",
@@ -1819,8 +1819,10 @@ N2.register({
               "idiom": true
             }
           ],
-          "deepDive": "**V-る + に + V-できない** repeats the same verb — dictionary form, then its potential negative: 辞めるに辞められない, 出るに出られない, 聞くに聞けない, 動くに動けず. It means *I want to (or ought to) ~, but circumstances won't let me*, and it conveys the speaker's **frustration or helplessness**. In the sample: *I'm worried about the future, but in this recession I can't quit even if I want to*.\n\nThe first half usually states the reason or circumstance (この不景気じゃ, 雨がひどくて, あまりに落ち込んでいるんで, 娘が寄りかかって寝てしまったので). The pattern can end a sentence or connect with the ず form (動くに動けず).\n\nFixed idiomatic set phrases (the ＊ note and the chain-link examples):\n- **泣くに泣けない**: *so awful that you can't even cry* — a situation that's too frustrating or absurd for tears (④).\n- **笑うに笑えない**: *it would be funny if it weren't so serious*.\n- **言うに言えない**: *can't bring oneself to say* (言うに言えない悩み, ⑤).\n- **引くに引けない**: *can't back down* (having gone too far to retreat).\n\nCompare:\n- **〜ようにも〜ない** (N2, 辞めようにも辞められない): nearly the same meaning; the volitional form stresses the attempt.\n- **〜わけにはいかない** (N3/N2): *can't ~ (for social or moral reasons)*; に〜ない adds the emotion of wanting to do it.\n- **〜に〜を重ねて** / **〜に〜** (待ちに待った): repetition patterns with a different meaning (intensity), not impossibility.\n\nJLPT tip: look for the same verb twice with に in between and the second one in the potential negative.",
-          "see": [],
+          "deepDive": "**V-る + に + V-できない** repeats the same verb — dictionary form, then its potential negative: 辞めるに辞められない, 出るに出られない, 聞くに聞けない, 動くに動けず. It means *I want to (or ought to) ~, but circumstances won't let me*, and it conveys the speaker's **frustration or helplessness**. In the sample: *I'm worried about the future, but in this recession I can't quit even if I want to*.\n\nThe first half usually states the reason or circumstance (この不景気じゃ, 雨がひどくて, あまりに落ち込んでいるんで, 娘が寄りかかって寝てしまったので). The pattern can end a sentence or connect with the ず form (動くに動けず).\n\nFixed idiomatic set phrases (the ＊ note and the chain-link examples):\n- **泣くに泣けない**: *so awful that you can't even cry* — a situation that's too frustrating or absurd for tears (④).\n- **笑うに笑えない**: *it would be funny if it weren't so serious*.\n- **言うに言えない**: *can't bring oneself to say* (言うに言えない悩み, ⑤).\n- **引くに引けない**: *can't back down* (having gone too far to retreat).\n\nCompare:\n- **〜（よ）うにも〜ない** (#84, 辞めようにも辞められない): nearly the same meaning; the volitional form stresses the attempt.\n- **〜わけにはいかない** (N3/N2): *can't ~ (for social or moral reasons)*; に〜ない adds the emotion of wanting to do it.\n- **〜に〜を重ねて** / **〜に〜** (待ちに待った): repetition patterns with a different meaning (intensity), not impossibility.\n\nJLPT tip: look for the same verb twice with に in between and the second one in the potential negative.",
+          "see": [
+            84
+          ],
           "index": [
             "VにVない"
           ]
@@ -1858,8 +1860,10 @@ N2.register({
               "en": "In short, they just want an excuse — snow, cherry blossoms, something seasonal — to get together and make a racket."
             }
           ],
-          "deepDive": "**N + にかこつけて** (from かこつける, *to make a pretext of*) means *using N as a pretext / under the pretext of N (to do something else)*. The noun is an official or plausible reason (出張, 接待, 防災対策, 季節の行事); the second half is the real, often self-serving or improper purpose (恋人に会う, 高い料理を頼む, 粗悪な商品を売りつける). In the sample: 注文にかこつけて、何聞いてるんだよ — *taking her order as an excuse, what are you asking her?*\n\nNuance: it is usually critical — the speaker sees through the pretext, which is why the book gives it the negative-feeling mark. It's mostly said about others; about yourself it sounds like a confession or self-mockery.\n\nCompare:\n- **〜を口実に（して）**: very close in meaning, and more common in speech.\n- **〜にかこつけて** vs **〜を理由に**: を理由に is neutral (the reason may be real); にかこつけて implies the reason is only a cover.\n- **〜をいいことに** (N1): *taking advantage of (a situation)* to do something bad (親が留守なのをいいことに): it exploits a circumstance, whereas にかこつけて uses something as a stated excuse.\n- **〜にかこつけて** vs **〜を兼ねて**: を兼ねて is neutral *combining two purposes* (出張を兼ねて旅行する).\n\nJLPT tip: the noun before にかこつけて is a legitimate-sounding reason; the rest reveals the hidden motive.",
-          "see": [],
+          "deepDive": "**N + にかこつけて** (from かこつける, *to make a pretext of*) means *using N as a pretext / under the pretext of N (to do something else)*. The noun is an official or plausible reason (出張, 接待, 防災対策, 季節の行事); the second half is the real, often self-serving or improper purpose (恋人に会う, 高い料理を頼む, 粗悪な商品を売りつける). In the sample: 注文にかこつけて、何聞いてるんだよ — *taking her order as an excuse, what are you asking her?*\n\nNuance: it is usually critical — the speaker sees through the pretext, which is why the book gives it the negative-feeling mark. It's mostly said about others; about yourself it sounds like a confession or self-mockery.\n\nCompare:\n- **〜を口実に（して）**: very close in meaning, and more common in speech.\n- **〜にかこつけて** vs **〜を理由に**: を理由に is neutral (the reason may be real); にかこつけて implies the reason is only a cover.\n- **〜のをいいことに** (#47): *taking advantage of (a situation)* to do something bad (親が留守なのをいいことに): it exploits a circumstance, whereas にかこつけて uses something as a stated excuse.\n- **〜にかこつけて** vs **〜を兼ねて**: を兼ねて is neutral *combining two purposes* (出張を兼ねて旅行する).\n\nJLPT tip: the noun before にかこつけて is a legitimate-sounding reason; the rest reveals the hidden motive.",
+          "see": [
+            47
+          ],
           "index": [
             "Nにかこつけて"
           ],
