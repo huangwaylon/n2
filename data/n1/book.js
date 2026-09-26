@@ -14,5 +14,5 @@ N2.registerBook({
     { id: "n2", label: "N2", href: "../", title: "TRY! N2 文法" },
     { id: "n1", label: "N1", href: "./", title: "TRY! N1 文法" },
   ],
-  footer: "Personal study edition of <em>TRY! 日本語能力試験 N1</em> (ABK, 2013). The book's Japanese content is transcribed for private use; all English (translations and “deep-dive” explanations) is supplementary. Not for distribution.",
+  footer: "Personal study edition of <em>TRY! 日本語能力試験 N1</em> (ABK; Chinese edition, World Publishing Corporation Beijing, 2013). The book's Japanese content is transcribed for private use; its Chinese translations are not reproduced, and all English (translations and “deep-dive” explanations) is our own. Not for distribution.",
 });
