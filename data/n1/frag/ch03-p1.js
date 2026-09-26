@@ -118,8 +118,8 @@ N2F({
           ],
           answer: [1, 0, 3, 2],
           en: [
-            "To think that the one lottery ticket I bought would win — it's like a dream.",
-            "I never noticed that this much dust had built up under the bed.",
+            "To think that the only lottery ticket I bought would win — it's like a dream.",
+            "To think this much dust had built up under the bed — I never noticed.",
             "For a luxury-brand bag to break so easily — maybe it was a fake.",
             "Gaining three whole kilos in a week! What on earth did you eat?",
           ],
