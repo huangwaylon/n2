@@ -899,7 +899,7 @@ N2.register({
             "en": "“〜なくして（は）…ない” is used when you want to say “if you are going to do something, 〜 is absolutely necessary.”"
           },
           "forms": [
-            "［[N]　[V-る] ＋ こと］ + なくして（は） + …ない"
+            "［[N]　[V-る] + こと］ + なくして（は） + …ない"
           ],
           "examples": [
             {

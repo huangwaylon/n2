@@ -228,9 +228,14 @@ N2.register({
             {
               "type": "write",
               "prompt": {
-                "ja": "する　聞く　見る　待つ",
-                "en": "Fill both blanks using a verb from the box (する, 聞く, 見る, 待つ): the dictionary form before ともなく and the て-form after it."
+                "en": "Fill both blanks using a verb from the box: the dictionary form before ともなく and the て-form after it."
               },
+              "bank": [
+                "する",
+                "聞く",
+                "見る",
+                "待つ"
+              ],
               "items": [
                 {
                   "q": "電車の中で、{隣|となり}の人の会話を＿＿ともなく＿＿いたら、私の好きな歌手の話だった。",

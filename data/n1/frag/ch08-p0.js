@@ -111,7 +111,8 @@ N2F({
       practice: [
         {
           type: "write",
-          prompt: { ja: "する　聞く　見る　待つ", en: "Fill both blanks using a verb from the box (する, 聞く, 見る, 待つ): the dictionary form before ともなく and the て-form after it." },
+          prompt: { en: "Fill both blanks using a verb from the box: the dictionary form before ともなく and the て-form after it." },
+          bank: ["する", "聞く", "見る", "待つ"],
           items: [
             { q: "電車の中で、{隣|となり}の人の会話を＿＿ともなく＿＿いたら、私の好きな歌手の話だった。", answer: ["聞く／聞いて", "聞く・聞いて"], en: "On the train, I was half-listening to the conversation of the people next to me, and it turned out they were talking about my favorite singer." },
             { q: "空を＿＿ともなく＿＿いると、遠くから金色に光る{物体|ぶったい}がゆっくりと近づいてきた。", answer: ["見る／見て", "見る・見て"], en: "As I was idly looking at the sky, a gold-glowing object slowly approached from far away." },

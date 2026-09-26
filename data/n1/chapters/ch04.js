@@ -591,6 +591,7 @@ N2.register({
               "stars": 2,
               "examples": [
                 {
+                  "nonum": true,
                   "ja": "地震の際は、何をおいても、まず身の安全を{確保|かくほ}してください。",
                   "en": "In an earthquake, before anything else, make sure you are safe."
                 }

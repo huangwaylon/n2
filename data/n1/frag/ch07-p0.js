@@ -353,8 +353,8 @@ N2F({
       ],
       notes: [
         {
-          ja: "「[V₁-よう]が／と＋[V₂-よう]が／と」「[いA₁]~~い~~かろう＋が／と＋[いA₂]~~い~~かろう＋が／と」「[N₁]／[なA₁]だろう＋が／と＋[N₂]／[なA₂]だろう＋が／と」などの形も同じように使われる。",
-          en: "Forms such as “[V₁-よう]が／と + [V₂-よう]が／と”, “[いA₁]~~い~~かろう + が／と + [いA₂]~~い~~かろう + が／と” and “[N₁]／[なA₁]だろう + が／と + [N₂]／[なA₂]だろう + が／と” are used in the same way.",
+          ja: "「[V₁-よう]が／と＋[V₂-よう]が／と」「[いA₁~~い~~]かろう＋が／と＋[いA₂~~い~~]かろう＋が／と」「[N₁]／[なA₁]だろう＋が／と＋[N₂]／[なA₂]だろう＋が／と」などの形も同じように使われる。",
+          en: "Forms such as “[V₁-よう]が／と + [V₂-よう]が／と”, “[いA₁~~い~~]かろう + が／と + [いA₂~~い~~]かろう + が／と” and “[N₁]／[なA₁]だろう + が／と + [N₂]／[なA₂]だろう + が／と” are used in the same way.",
           examples: [
             { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは{欠|か}かしたことがないそうですよ。", en: "I hear that, whether he has time or not, he has never once skipped his after-meal coffee." },
             { ja: "高かろうが安かろうが、必要なものは買わねばならない。", en: "Expensive or cheap, you have to buy what you need." },

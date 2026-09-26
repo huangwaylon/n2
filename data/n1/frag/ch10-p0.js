@@ -542,7 +542,7 @@ N2F({
         ja: "「〜なくして（は）…ない」は「何かをするなら、〜が絶対に必要だ」と言いたいときに使われる。",
         en: "“〜なくして（は）…ない” is used when you want to say “if you are going to do something, 〜 is absolutely necessary.”",
       },
-      forms: ["［[N]　[V-る] ＋ こと］ + なくして（は） + …ない"],
+      forms: ["［[N]　[V-る] + こと］ + なくして（は） + …ない"],
       examples: [
         { ja: "努力なくして成功なしというが、運というものもあるのではないだろうか。", en: "They say there is no success without effort, but isn't there also such a thing as luck?" },
         { ja: "この酒は{良質|りょうしつ}の米と{名水|めいすい}なくしては生まれなかった。", en: "This sake could never have been made without fine rice and famous spring water." },

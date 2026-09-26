@@ -287,7 +287,7 @@ N2F({
           en: "“何をおいても” is used with the meaning “in any situation, first and foremost.”",
           stars: 2,
           examples: [
-            { ja: "地震の際は、何をおいても、まず身の安全を{確保|かくほ}してください。", en: "In an earthquake, before anything else, make sure you are safe." },
+            { nonum: true, ja: "地震の際は、何をおいても、まず身の安全を{確保|かくほ}してください。", en: "In an earthquake, before anything else, make sure you are safe." },
           ],
         },
       ],
