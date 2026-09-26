@@ -219,3 +219,8 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 /* ---------- footer ---------- */
 .site-foot { border-top: 1px solid var(--line); padding: 18px 24px calc(18px + env(safe-area-inset-bottom, 0px)); font-size: 12px; color: var(--ink-3); text-align: center; margin-left: var(--sbw); }
 @media (max-width: 900px) { .site-foot { margin-left: 0; padding-left: calc(var(--main-pad) + var(--safe-l)); padding-right: calc(var(--main-pad) + var(--safe-r)); } }
+/* front-matter tables: our English line under each row, only with the EN switch (the row would otherwise stay as an empty band) */
+.tbl-en { display: none; }
+body.show-en .tbl-en, .en-all .tbl-en { display: table-row; }
+.tbl-en td { border-top: 0; padding-top: 0; }
+.tbl-en .en { display: block; font-size: 13.5px; }

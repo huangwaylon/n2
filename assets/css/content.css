@@ -163,7 +163,7 @@
 .scene { width: 36px; height: 36px; display: inline-grid; place-items: center; border: 2px solid var(--rule); border-radius: 8px; background: var(--band); color: var(--ink); flex: none; }
 .scene svg { width: 26px; height: 26px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .en-btn--scope { flex: none; }
-@media (min-width: 601px) { .gp-use__tools > .en-btn--scope, .plus__head > .en-btn--scope, .clip__tools, .cando__tools { display: none; } }
+@media (min-width: 601px) { .gp-use__tools > .en-btn--scope, .plus__head > .en-btn--scope, .clip__tools > .en-btn--scope, .cando__tools { display: none; } }
 
 /* ---------- C9 usage ---------- */
 .usage { margin: 0; }
@@ -253,6 +253,13 @@
 .xref__book + .xref__web::before { content: "／"; color: var(--rule); margin-right: .2em; }
 .gp-link { display: inline-block; margin: 0 0 0 .4em; padding: .35em .2em; font-size: 13px; background: none; border-radius: 0; }
 .gp-link :is(rt, .rt) { display: none; }
+/* our related links (not the book's ☞): a small grey supplementary line */
+.gp-rel { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 .2em; margin: 10px 0 0; font: 13px/1.5 var(--goth); color: var(--ink-3); }
+.gp-rel__l { margin-right: .3em; font-weight: 700; }
+.gp-rel .gp-link { margin: 0 .5em 0 0; }
+.clip .xref { margin: .2em 0 .4em; }
+.exs__i--nonum .exs__n { display: none; }
+.exs__i.bi.exs__i--nonum { grid-template-columns: minmax(0, 1fr) auto; }
 .gp-foot { display: flex; justify-content: flex-end; margin-top: 6px; }
 .studied { position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 4px 0 8px; cursor: pointer; color: var(--ink-2); font-size: 14px; }
 /* native checkbox as a transparent 44×44 hit area over the drawn 22px box */

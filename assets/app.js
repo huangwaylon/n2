@@ -48,7 +48,7 @@
   const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 
   // POS badge: [N] [V] [いA] [なA] [A] [Pl] [Po], optional subscript/digit ([N₁] [いA₂]), optional "-form" ([V-る] [V-Pl] [V-~~ます~~])
-  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po|文|数)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)~~[^\]]*~~)\]/g;
+  const BADGE_RE = /\[((?:N|V|いA|なA|A|Pl|Po|文|数)[₀-₉0-9]?(?:-[^\]\s]*)?|(?:N|V|いA|なA|A)[₀-₉0-9]?~~[^\]]*~~)\]/g;
   const TCY_RE = /(?<![\d,.])\d{1,2}(?![\d,.])/g;
 
   // Furigana (docs/LAYOUT.md "Furigana"): native <ruby>base<rt>reading</rt></ruby>, horizontal and vertical alike.
@@ -343,14 +343,16 @@
   // ---------- small helpers ----------
   const CLIP_SVG = '<svg class="clip__icon" viewBox="0 0 22 40" aria-hidden="true" focusable="false"><path d="M15 12v17a5 5 0 0 1-10 0V8a3.5 3.5 0 0 1 7 0v19a1.8 1.8 0 0 1-3.6 0V11"/></svg>';
   const IDIOM_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M10 14a4 4 0 0 0 5.7 0l3.2-3.2a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3.2 3.2a4 4 0 0 0 5.7 5.7l1-1"/></svg>';
-  // ☞ line (C15): the book's own reference (p.xxx 〜…) right-aligned, then our links (似ている文型, related points)
+  // ☞ line (C15): only the book's own reference (p.xxx 〜…) is printed in the book's ☞ style, right-aligned. Our links
+  // (related points, the similar-pattern group) go on a separate small "関連 Related" line so they don't pass for book text.
+  const cmpGroupOf = (no) => (N2.compare || []).findIndex((gr) => (gr.items || []).some((it) => it.no === no));
   function xrefHtml(book, see, no) {
-    const inCompare = no != null && (N2.compare || []).some((gr) => (gr.items || []).some((it) => it.no === no));
+    const gi = no != null ? cmpGroupOf(no) : -1;
     const links = (see || []).map(gpLink).join("");
-    if (!book && !links && !inCompare) return "";
-    const b = book ? `<span class="xref__book">${fmt(String(book).replace(/^☞\s*/, ""))}</span>` : "";
-    const web = links || inCompare ? `<span class="xref__web">${inCompare ? `<a href="#/compare" class="gp-link xref__cmp">似ている文型</a>` : ""}${links}</span>` : "";
-    return `<p class="xref"><span class="xref__hand" aria-hidden="true">☞</span>${b}${web}</p>`;
+    const b = book ? `<p class="xref"><span class="xref__hand" aria-hidden="true">☞</span><span class="xref__book">${fmt(String(book).replace(/^☞\s*/, ""))}</span></p>` : "";
+    const cmp = gi >= 0 ? `<a href="#/compare/${gi}" class="gp-link xref__cmp">似ている文型 ${fmt(N2.compare[gi].key)}</a>` : "";
+    const web = links || cmp ? `<p class="gp-rel"><span class="gp-rel__l">関連 <span class="en-inline">Related</span></span>${cmp}${links}</p>` : "";
+    return b + web;
   }
 
   // ---------- grammar point (C7–C17) ----------
@@ -502,7 +504,7 @@
   function examplesHtml(exs) {
     if (!exs || !exs.length) return "";
     return `<ol class="exs ja-book">${exs
-      .map((e, i) => `<li class="exs__i bi"><span class="exs__n" aria-hidden="true">${CIRCLED[i] || i + 1}</span>
+      .map((e, i) => `<li class="exs__i bi${e.nonum ? " exs__i--nonum" : ""}"><span class="exs__n" aria-hidden="true">${e.nonum ? "" : CIRCLED[i] || i + 1}</span>
         <div class="exs__t"><span class="ja">${exText(e.ja)}${e.idiom ? `<span class="idiom" role="img" aria-label="慣用表現 idiom" title="慣用表現 — idiomatic expression">${IDIOM_SVG}</span>` : ""}</span>${e.foot ? `<span class="exs__foot">${fmt(e.foot)}</span>` : ""}${en(e.en)}</div>
         <span class="exs__tools">${speakBtn(e.ja, "data-small")}${e.en ? enToggle() : ""}</span></li>`)
       .join("")}</ol>`;
@@ -514,9 +516,10 @@
       .map((n, k) => `<aside class="clip" data-en-scope>${CLIP_SVG}<div class="clip__body">
         <div class="clip__tools">${n.stars ? stars(n.stars) : ""}${enScopeBtn()}</div>
         ${bi({ ja: n.ja, en: n.en }, "p", "clip__text", { book: true })}
+        ${n.xref ? xrefHtml(n.xref) : ""}
         ${examplesHtml(n.examples)}
         ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
-      </div></aside>${n.xref ? xrefHtml(n.xref) : ""}`)
+      </div></aside>`)
       .join("");
   }
 
@@ -747,7 +750,7 @@
     let body = "";
     switch (ex.type) {
       case "choice": body = ex.items.map((it, i) => choiceItem(it, i, c)).join(""); break;
-      case "write": body = ex.items.map((it, i) => writeItem(it, i, c)).join(""); break;
+      case "write": body = ex.items.map((it, i) => writeItem(it, i, c)).join("") + (ex.bank ? `<div class="bank bank--static ja-book" aria-label="語群">${ex.bank.map((b) => `<span class="chip">${fmt(b)}</span>`).join("")}</div>` : ""); break;
       case "match": body = matchBody(ex, c); break;
       case "fill": body = fillBody(ex, c); break;
       case "order": body = ex.items.map((it, i) => orderItem(it, i, c)).join(""); break;
@@ -908,7 +911,7 @@
     return `<div class="passage ja-book" data-en-scope>
       <div class="passage__tools">${speakable ? speakBtn(all) : ""}${enParas ? enScopeBtn().replace('class="en-btn', 'class="passage__en en-btn') : ""}</div>
       ${title ? `<h4 class="passage__title">${fmt(title)}</h4>` : ""}
-      <div class="ja">${paras.map((p) => `<p${/^[「『]/.test(plain(p)) ? ' class="p--q"' : ""}>${fmt(p).replace(/[\[［](\d+)[\]］]/g, '<span class="pblank" data-b="$1">$1</span>')}</p>`).join("")}</div>
+      <div class="ja">${paras.map((p) => `<p${/^[「『]/.test(plain(p)) ? ' class="p--q"' : ""}>${fmt(p).replace(/[\[［](\d+)[\]］]([、。，．」』）！？…]*)/g, (m, n, pu) => `${pu ? '<span class="nobr">' : ""}<span class="pblank" data-b="${n}">${n}</span>${pu ? pu + "</span>" : ""}`)}</p>`).join("")}</div>
       ${enParas ? `<div class="en">${enParas.map((p) => `<p>${fmt(p)}</p>`).join("")}</div>` : ""}</div>`;
   }
 
@@ -1241,7 +1244,7 @@
     const secs = N2.front || [];
     const block = (b) => {
       if (b.h) return `<h3 class="bi">${b.h.en ? enToggle() : ""}<span class="ja">${fmt(b.h.ja)}</span> <span class="en-inline">${fmt(b.h.en || "")}</span></h3>`;
-      if (b.table) return `<table class="tbl">${b.table.head ? `<tr>${b.table.head.map((c) => `<th>${fmt(c)}</th>`).join("")}</tr>` : ""}${b.table.rows.map((r) => `<tr>${r.map((c) => `<td>${fmt(c)}</td>`).join("")}</tr>`).join("")}</table>`;
+      if (b.table) return `<table class="tbl">${b.table.head ? `<tr>${b.table.head.map((c) => `<th>${fmt(c)}</th>`).join("")}</tr>` : ""}${b.table.rows.map((r, i) => `<tr>${r.map((c) => `<td>${fmt(c)}</td>`).join("")}</tr>${b.table.en && b.table.en[i] ? `<tr class="tbl-en"><td colspan="${r.length}"><div class="en">${fmt(b.table.en[i])}</div></td></tr>` : ""}`).join("")}</table>`;
       if (b.list) return `<ul class="front-list">${b.list.map((x) => `<li class="bi">${x.en ? enToggle() : ""}<span class="ja">${fmt(x.ja)}</span>${en(x.en)}</li>`).join("")}</ul>`;
       if (b.mark) return `<div class="front-mark">${marks([b.mark])} ${bi(b.p)}</div>`;
       if (b.p) return bi(b.p, "p", "front-p");
@@ -1272,8 +1275,9 @@
     const groups = N2.compare || [];
     return `<div class="page compare" data-en-scope>
       ${pageHead(`${fmt("{似|に}ている{文型|ぶんけい}リスト")} <span class="en-inline">Similar sentence patterns</span>`)}
-      ${bi({ ja: "形が似ている文型を、N4・N3の文型も含めて並べました。違いに注意しましょう。", en: "Patterns that look alike — including related N4/N3 patterns you should already know — side by side. Pay attention to how they differ." })}
-      ${groups.map((gr) => `<section class="cmp-group"><h2>${fmt(gr.key)}</h2>${gr.intro ? bi(gr.intro) : ""}<table class="tbl cmp stack">
+      ${BOOK().id === "n2" ? bi({ ja: "形が似ている文型を、N4・N3の文型も含めて並べました。違いに注意しましょう。", en: "Patterns that look alike — including related N4/N3 patterns you should already know — side by side. Pay attention to how they differ." })
+        : bi({ ja: "形が似ている文型を並べました。違いに注意しましょう。", en: "Patterns that look alike, side by side. Pay attention to how they differ." })}
+      ${groups.map((gr, gi) => `<section class="cmp-group" id="cmp-${gi}"><h2>${fmt(gr.key)}</h2>${gr.intro ? bi(gr.intro) : ""}<table class="tbl cmp stack">
         <thead><tr><th>文型</th><th>例文</th><th>レベル</th><th>番号</th></tr></thead><tbody>
         ${gr.items.map((it) => `<tr><td class="cmp-pat">${fmt(it.pattern)}</td><td class="bi">${it.ex && it.ex.en ? enToggle() : ""}<span class="ja">${fmt(it.ex && it.ex.ja)}</span>${en(it.ex && it.ex.en)}${it.note ? `<div class="en cmp-note">${fmt(it.note)}</div>` : ""}</td>
           <td><span class="lvl lvl-${esc(it.level)}">${esc(it.level)}</span></td><td ${it.no ? 'data-h="番号"' : ""}>${it.no ? `<a href="#/gp/${it.no}">${it.no}</a>` : ""}</td></tr>`).join("")}
@@ -1351,7 +1355,7 @@
     } else if (parts[0] === "guide") html = guideView();
     else if (parts[0] === "about") html = aboutView();
     else if (parts[0] === "index") html = indexView();
-    else if (parts[0] === "compare") html = compareView();
+    else if (parts[0] === "compare") { html = compareView(); if (parts[1]) scrollTo = `#cmp-${+parts[1]}`; }
     else if (parts[0] === "cando") html = canDoView();
     else if (parts[0] === "drill") html = drillView();
     else html = notFound();

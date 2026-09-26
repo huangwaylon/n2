@@ -159,4 +159,5 @@ s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 5
 /* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
 /* English-only block (N1 front matter the book prints only in Chinese): always shown, full size */
 .bi--en-only > .en { display: block; font-size: 15px; color: var(--ink-2); }
+.bi--en-only + .bi--en-only { margin-top: .7em; }
 u.ul { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }

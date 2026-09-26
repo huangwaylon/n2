@@ -578,6 +578,10 @@ two bracket stacks. A sub-line of ［…］ groups, one per badge token ("Pl₁ 
 
 **Responsive:** ≤390: padding-left 30px; the icon is 18×34.
 
+**Data hooks:** an example with `nonum: true` is printed without ①; a `write` exercise with `bank: [...]` gets the book's
+boxed word list (static, like the fill bank); badges accept a subscript before a struck ending (`[いA₁~~い~~]`, `[N₂~~だ~~]`,
+`[V₁-~~ます~~]`). The clip note's ★ stays visible at every width (only its scoped EN button is phone-only).
+
 ### C14 ＋Plus box [B]
 
 **Book (pp.25, 7):**
@@ -617,6 +621,11 @@ two bracket stacks. A sub-line of ［…］ groups, one per badge token ("Pl₁ 
 **CSS:** `.xref{text-align:right; font:14px var(--goth); margin:10px 0 0}`; `.xref__hand{font-size:1.25em; margin-right:.3em}`; `.gp-link{margin-left:.6em; padding:.35em .2em; display:inline-block}` (text link, no chip).
 
 **Responsive:** ≤600: `text-align:left; display:flex; flex-wrap:wrap; gap:.2em .8em`; each link ≥44px tall under `pointer:coarse` (padding .6em .2em).
+
+**Current (supersedes the above where they differ):** only the book's own reference (`xref`) is printed as the ☞ line.
+Our links — `see` points and the similar-pattern group (linked as `#/compare/<group index>`, named: "似ている文型 〜次第") —
+go on a separate small grey line `p.gp-rel` "関連 Related …", so they can't be taken for book text. A 📎 note's `xref` is
+printed inside the clip box, after the explanation and before its examples (book p.122).
 
 ### C16 Keigo and other tables (p.123) [B]
 
