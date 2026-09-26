@@ -63,7 +63,7 @@ html { scroll-padding-top: calc(var(--top) + env(safe-area-inset-top, 0px) + 12p
 /* Gothic UI text: 16px at every width (15.5 at ≤390); line-height ≥1.9 because most lines carry furigana */
 body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--jp); line-height: 1.9; font-size: 16px; -webkit-text-size-adjust: 100%; }
 /* kinsoku as in print: no small kana (ュ ッ), ー or closing punctuation at the start of a line / column */
-body { line-break: strict; }
+body { line-break: strict; overflow-wrap: break-word; }
 @media (max-width: 390px) { body { font-size: 15.5px; } }
 a { color: var(--teal); text-decoration: none; }
 @media (hover: hover) { a:hover { text-decoration: underline; } }
@@ -72,6 +72,9 @@ h1, h2, h3, h4 { line-height: 1.5; }
 /* furigana: native ruby (see RUBY_RE in app.js). Centred over the base, .5em (= RT_K in app.js, used for the overhang);
    any block with ruby needs line-height ≥ 1.9 so the reading sits in the leading and the line pitch stays even */
 ruby { ruby-position: over; ruby-align: center; text-indent: 0; }
+/* a group reading ({運動能力|うんどうのうりょく}) is never split across lines (JIS X 4051): Blink breaks the base and hands each
+   line a proportional slice of the reading ("運動" under "うんどうの"). WebKit already keeps a ruby on one line */
+body:not(.no-furi) ruby { white-space: nowrap; }
 ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; font-style: normal; letter-spacing: 0; text-indent: 0; text-decoration: none; -webkit-user-select: none; user-select: none; }
 /* a reading that starts at its base and overhangs the kana on its right (fmt(): right after another reading) */
 ruby.r-s { ruby-align: start; }

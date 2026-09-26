@@ -198,7 +198,7 @@
 .fx .badge, .fx-sub .badge { font-size: .8em; }
 
 /* ---------- C11 ＊ notes ---------- */
-.fnote { margin: .1em 0; font: 13.5px/1.65 var(--goth); padding-left: 1em; }
+.fnote { margin: .1em 0; font: 13.5px/2 var(--goth); padding-left: 1em; }
 .fnote__m { display: inline-block; min-width: 1em; margin-left: -1em; }
 .fnote .en { margin: 0; }
 .fnote:last-child { margin-bottom: 12px; }
