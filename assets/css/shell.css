@@ -19,7 +19,7 @@
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
 /* phones: the switcher already names the current book, so the brand drops its N2/N1 mark */
 @media (max-width: 600px) { .brand:has(~ .book-switch) { min-width: 44px; } .brand:has(~ .book-switch) .brand-mark { display: none; } .book-switch { margin-left: -10px; } }
-@media (max-width: 340px) { .brand:has(~ .book-switch) { display: none; } .book-switch { margin-left: -4px; }
+@media (max-width: 374px) { .brand:has(~ .book-switch) { display: none; } .book-switch { margin-left: -4px; }
   .topbar:has(.book-switch) { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
   .topbar:has(.book-switch) .switch { padding: 0 3px; } }
 .topnav { display: flex; gap: 2px; flex: 1; min-width: 0; }
