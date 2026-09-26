@@ -58,17 +58,17 @@ N2F({
         "- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgement about the situation.\n" +
         "- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n" +
         "- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\n" +
-        "JLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題4-1 of the review: わざわざ知らせる（までもない）.",
+        "JLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題1 of the review: わざわざ知らせる（までもない）.",
       see: [43],
       index: ["Vまでもない", "Vまでもなく", "言うまでもなく", "までもない"],
       practice: [
         {
           type: "choice",
           labels: "abc",
-          prompt: { ja: "", en: "Choose the option closest in meaning to the underlined part (shown in bold)." },
+          prompt: { ja: "", en: "Choose the option closest in meaning to the underlined part." },
           items: [
-            { q: "不景気で売り上げが減っていることは、**{決算書|けっさんしょ}を見るまでもなく明らかだ**。", options: ["{決算書|けっさんしょ}を見ればわかることだ", "{決算書|けっさんしょ}を見なくてもわかることだ", "{決算書|けっさんしょ}を見なければわからないことだ"], answer: 1, en: "It's clear, without even looking at the financial statements, that sales are falling because of the recession." },
-            { q: "今さら**言うまでもなく**、タバコは「{百害|ひゃくがい}あって{一利|いちり}なし」です。", options: ["言う必要もないが", "言ってもしかたがないが", "言わなければならないが"], answer: 0, en: "It hardly needs saying at this point, but cigarettes do a hundred kinds of harm and no good at all." },
+            { q: "不景気で売り上げが減っていることは、__{決算書|けっさんしょ}を見るまでもなく明らかだ__。", options: ["{決算書|けっさんしょ}を見ればわかることだ", "{決算書|けっさんしょ}を見なくてもわかることだ", "{決算書|けっさんしょ}を見なければわからないことだ"], answer: 1, en: "It's clear, without even looking at the financial statements, that sales are falling because of the recession." },
+            { q: "今さら__言うまでもなく__、タバコは「{百害|ひゃくがい}あって{一利|いちり}なし」です。", options: ["言う必要もないが", "言ってもしかたがないが", "言わなければならないが"], answer: 0, en: "It hardly needs saying at this point, but cigarettes do a hundred kinds of harm and no good at all." },
           ],
         },
       ],
@@ -138,6 +138,7 @@ N2F({
         "- **〜を問わず / 〜にかかわらず** (N2) are used directly after nouns; with いかん they sound more official.\n\n" +
         "JLPT tip: the review tests both halves: 経営状態（いかんによって）融資が受けられる (depending on), and 年数の（いかんにかかわらず）前向きな社員 (regardless). Decide whether the outcome changes with N or not.",
       see: [],
+      notesFirst: false,
       index: ["N（の）いかん", "Nいかん", "いかんせん〜", "いかんせん", "いかんともしがたい", "Nのいかんにかかわらず", "Nのいかんによらず", "Nのいかんを問わず", "いかんによって"],
       practice: [
         {
@@ -187,7 +188,7 @@ N2F({
       ],
       deepDive:
         "**AないまでもB** means *even if not A, at least B*. A is a higher, ideal level; B is a lower level that is still acceptable or expected: 好きとは言えないまでも嫌いではない *I can't say I like him, but at least I don't dislike him*.\n\n" +
-        "Connection: **V-ない form + までも** (drop ない and add ないまでも — i.e. 言えないまでも, もらえないまでも, 走れないまでも). Typical frames:\n" +
+        "Connection: **V-~~ない~~ + ないまでも**, i.e. the plain negative form + までも: 言えないまでも, もらえないまでも, 走れないまでも. Typical frames:\n" +
         "- 〜とは言わないまでも *I won't go as far as saying ~, but…*\n" +
         "- 〜とは言えないまでも *it can't be called ~, but…*\n" +
         "- B often contains **せめて, 少なくとも, 最低, 何とか, 〜くらいは, 〜ぐらい**: せめて週に1日は, メールくらいは.\n\n" +
@@ -204,11 +205,11 @@ N2F({
         {
           type: "choice",
           labels: "abc",
-          prompt: { ja: "", en: "Choose the option closest in meaning to the sentence (or to the underlined part, shown in bold)." },
+          prompt: { ja: "", en: "Choose the option closest in meaning to the sentence (or to the underlined part)." },
           items: [
-            { q: "金メダルとは言わないまでも、せめて{銅|どう}メダルはとってほしい。", options: ["金メダルがだめでも最低、{銅|どう}メダルはとってほしい。", "金メダルはほしくないが、{銅|どう}メダルは必ずとってほしい。", "金メダルはほしいが、{銅|どう}メダルはいらない。"], answer: 0, en: "I won't say gold, but I'd like them to win at least a bronze medal." },
-            { q: "お{腹|なか}を冷やすと**病気には{至|いた}らないまでも体に悪い{影響|えいきょう}を与える**らしい。", options: ["病気にはならない場合も体に悪い{影響|えいきょう}がある", "病気になって体に悪い{影響|えいきょう}がある", "病気にならなければ体に悪い{影響|えいきょう}はない"], answer: 0, en: "Apparently, letting your stomach get cold has a bad effect on your body, even if it doesn't go as far as making you ill." },
-            { q: "そんな商売をしていたら、**法に{触|ふ}れないまでも信用を失う**ぞ。", options: ["法律違反で警察に捕まって、客に信用されなくなる", "法律について考えないで商売をすると、客に信用されなくなる", "法律には違反しないが、客に信用されなくなる"], answer: 2, en: "If you do business like that, even if you don't break the law, you'll lose people's trust." },
+            { q: "金メダルとは言わないまでも、せめて銅メダルはとってほしい。", options: ["金メダルがだめでも最低、銅メダルはとってほしい。", "金メダルはほしくないが、銅メダルは必ずとってほしい。", "金メダルはほしいが、銅メダルはいらない。"], answer: 0, en: "I won't say gold, but I'd like them to win at least a bronze medal." },
+            { q: "お{腹|なか}を冷やすと__病気には{至|いた}らないまでも体に悪い{影響|えいきょう}を与える__らしい。", options: ["病気にはならない場合も体に悪い{影響|えいきょう}がある", "病気になって体に悪い{影響|えいきょう}がある", "病気にならなければ体に悪い{影響|えいきょう}はない"], answer: 0, en: "Apparently, letting your stomach get cold has a bad effect on your body, even if it doesn't go as far as making you ill." },
+            { q: "そんな商売をしていたら、__法に触れないまでも信用を失う__ぞ。", options: ["法律違反で警察に捕まって、客に信用されなくなる", "法律について考えないで商売をすると、客に信用されなくなる", "法律には違反しないが、客に信用されなくなる"], answer: 2, en: "If you do business like that, even if you don't break the law, you'll lose people's trust." },
           ],
         },
       ],
@@ -279,14 +280,14 @@ N2F({
         "**〜といったところだ** means *it's something like ~ / you could call it ~*. The speaker **rephrases** a thing with a familiar comparison (浮世絵 → 今でいえばアイドル写真) or **gives a typical example** (子どもに人気の料理 → カレーとハンバーグ), to help the listener grasp it: よい人間関係は、いわば思いやりのギブ・アンド・テイクといったところではないでしょうか.\n\n" +
         "Connection: **N + といったところだ**. Softer endings are common: 〜といったところでしょう, 〜といったところです, 〜といったところではないでしょうか. Words like いわば, 今日でいえば, 〜なら, 〜と言えば often appear earlier in the sentence.\n\n" +
         "Nuance: it sounds modest and approximate — *roughly, sort of*. It is not a strict definition.\n\n" +
-        "Second use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: 完成まではせいぜいあと半年といったところだ. This one stresses that the amount is **not large**; watch for せいぜい / 〜程度.\n\n" +
+        "Second use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: この会社もせいぜいあと半年といったところだろう. This one stresses that the amount is **not large**; watch for せいぜい / 〜程度.\n\n" +
         "Compare:\n" +
         "- **〜というところだ**: same meaning and form.\n" +
-        "- **〜のようなものだ**: plain *it's like ~* (comparison), less idiomatic in writing.\n" +
+        "- **〜のようなものだ**: a plain comparison, *it's like ~*; it lacks the modest, approximate *something like ~* nuance of といったところだ.\n" +
         "- **〜といったらない** (#83): *indescribably ~* — emphasis, not paraphrase.\n\n" +
         "JLPT tip: if the sentence rephrases something with an analogy (いわば, 今で言えば) or names typical examples, choose といったところだ. In the practice, いわば陰の社長 (*the shadow president*) is the analogy that matches 重要な決定事項は彼ぬきでは決められない.",
       see: [62, 83],
-      xref: "☞ 62.　せいぜいあと半年**といったところだ**",
+      xref: "☞ 62. せいぜいあと半年**といったところだ**",
       index: ["〜といったところだ①", "Nといったところだ", "といったところだ", "といったところ"],
       practice: [
         {

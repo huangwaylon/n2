@@ -144,7 +144,7 @@ N2.register({
               "en": "The home-appliance makers have grown by waging a neck-and-neck technology race, chasing and being chased by one another."
             }
           ],
-          "deepDive": "**V₁つV₂つ** is a literary pair pattern: two verbs in the ます-stem, each followed by the classical particle つ, describe an action that **alternates back and forth**. 行きつ戻りつ = *going and coming back, pacing to and fro*; 浮きつ沈みつ = *bobbing up and down*.\n\nHow the pair is built:\n- V₂ is either the **passive** of V₁ (抜きつ抜かれつ *overtaking and being overtaken*, 追いつ追われつ *chasing and being chased*, 持ちつ持たれつ *give and take*, 差しつ差されつ *pouring drinks for each other*), or\n- a verb of **opposite meaning** (行きつ戻りつ, 浮きつ沈みつ).\n\nIn practice it is almost limited to a handful of **set phrases** — the ones listed in the book's ＊ note plus 行きつ戻りつ. You can't freely coin new ones (✗食べつ飲みつ). Learn them as vocabulary.\n\nGrammar in the sentence: the pair works like an adverb (浮きつ沈みつ流れて行く), like する-verb (行きつ戻りつしている), or as a noun modifier with の (抜きつ抜かれつの接戦, 追いつ追われつの技術競争). 押しつ押されつで = *with pushing and shoving (and so…)*.\n\nNuance and register: old-fashioned and literary (the classical つ is the perfective auxiliary), so it gives a text the *slightly archaic* flavour the chapter's can-do mentions. In conversation it survives only in the fixed phrases — 持ちつ持たれつ is common in everyday speech: 世の中は持ちつ持たれつだ *life is give and take*.\n\nContrast:\n- **〜たり〜たり** (行ったり来たり) is the neutral everyday equivalent; 行きつ戻りつ is its literary counterpart.\n- **〜ては〜** (書いては消す) also repeats actions, but in sequence, not as a to-and-fro pair.\n\nJLPT tip: if the options include a pair like 抜きつ抜かれつ or 追いつ追われつ next to a phrase such as 接戦 / 競争 / 関係, that's the answer; also watch for the fake 〜ながらに / 〜ともなく in the same slot (see the Check).",
+          "deepDive": "**V₁つV₂つ** is a literary pair pattern: two verbs in the ます-stem, each followed by the classical particle つ, describe an action that **alternates back and forth**. 行きつ戻りつ = *going and coming back, pacing to and fro*; 浮きつ沈みつ = *bobbing up and down*.\n\nHow the pair is built:\n- V₂ is either the **passive** of V₁ (抜きつ抜かれつ *overtaking and being overtaken*, 追いつ追われつ *chasing and being chased*, 持ちつ持たれつ *give and take*, 差しつ差されつ *pouring drinks for each other*), or\n- a verb of **opposite meaning** (行きつ戻りつ, 浮きつ沈みつ).\n\nIn practice it is almost limited to a handful of **set phrases** — the ones listed in the book's ＊ note plus 行きつ戻りつ. You can't freely coin new ones (✗食べつ飲みつ). Learn them as vocabulary.\n\nGrammar in the sentence: the pair works like an adverb (浮きつ沈みつ流れて行く), like a する-verb (行きつ戻りつしている), or as a noun modifier with の (抜きつ抜かれつの接戦, 追いつ追われつの技術競争). 押しつ押されつで = *with pushing and shoving (and so…)*.\n\nNuance and register: old-fashioned and literary (the classical つ is the perfective auxiliary), so it gives a text the *slightly archaic* flavour the chapter's can-do mentions. In conversation it survives only in the fixed phrases — 持ちつ持たれつ is common in everyday speech: 世の中は持ちつ持たれつだ *life is give and take*.\n\nContrast:\n- **〜たり〜たり** (行ったり来たり) is the neutral everyday equivalent; 行きつ戻りつ is its literary counterpart.\n- **〜ては〜** (書いては消す) also repeats actions, but in sequence, not as a to-and-fro pair.\n\nJLPT tip: if the options include a pair like 抜きつ抜かれつ or 追いつ追われつ next to a phrase such as 接戦 / 競争 / 関係, that's the answer; distractors that merely look similar, like 追いながらに, don't express the back-and-forth (see the Check).",
           "see": [],
           "index": [
             "V₁つV₂つ",
@@ -157,6 +157,7 @@ N2.register({
         },
         {
           "no": 89,
+          "notesFirst": false,
           "pattern": "Vともなく",
           "phrase": "見る**ともなく**",
           "stars": 3,
@@ -214,7 +215,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**Vるともなく** means *(doing something) without really meaning to, absent-mindedly*. The action happens, but with no clear intention or focus: 見るともなく見る = *look without really looking*, 聞くともなく聞く = *half-listen*.\n\nTypical shape: **V-る + ともなく + (the same or a similar verb)**. The repeated verb is the hallmark (見るともなく見ていた, 考えるともなく考えていた), though the second verb can differ slightly (聞くともなくラジオを聞いていたら). The verbs are nearly always perception/thought verbs: 見る, 聞く, 考える, 眺める, 待つ, する. The second half is often 〜ていたら / 〜ていると / 〜ていたところに + an unexpected discovery — you were idly doing X when Y happened.\n\nThe 📎 note gives the second use: **question word (+ particle) + ともなく** = *it's not clear who/where/when…*: どこからともなく *from somewhere or other*, 誰に言うともなく *to no one in particular*, いつ終わるともなく *seemingly endlessly*, いつからともなく *at some point, before anyone knew*. These are near-idioms and very common in writing.\n\nContrast:\n- **〜ともなしに** is a synonym (見るともなしに見る), slightly more literary.\n- **なんとなく** is the everyday word for *vaguely, somehow*; ともなく is more literary.\n- **〜ともなると / ともなれば** (#35) is unrelated: *when it comes to (a higher level)*.\n- **〜ことなく** (*without doing*) negates the action itself, while ともなく says the action is done, just unintentionally.\n\nRegister: written/literary; it suits novels (as in the sample: 優斗はその様子を見るともなく見ている).\n\nJLPT tip: if the blank sits between a verb and the same verb (見る＿＿見ている), ともなく is the answer; if there is どこから／誰に／いつ before the blank, it's the question-word use.",
+          "deepDive": "**Vるともなく** means *(doing something) without really meaning to, absent-mindedly*. The action happens, but with no clear intention or focus: 見るともなく見る = *look without really looking*, 聞くともなく聞く = *half-listen*.\n\nTypical shape: **V-る + ともなく + (the same or a similar verb)**. The repeated verb is the hallmark (見るともなく見ていた, 考えるともなく考えていた), though the second verb can differ slightly (聞くともなくラジオを聞いていたら). The verbs are mostly perception/thought verbs (見る, 聞く, 考える, 眺める), plus a few everyday ones like 待つ and する. The second half is often 〜ていたら / 〜ていると / 〜ていたところに + an unexpected discovery — you were idly doing X when Y happened.\n\nThe 📎 note gives the second use: **question word (+ particle) + ともなく** = *it's not clear who/where/when…*: どこからともなく *from somewhere or other*, 誰に言うともなく *to no one in particular*, いつ終わるともなく *seemingly endlessly*, いつからともなく *at some point, before anyone knew*. These are near-idioms and very common in writing.\n\nContrast:\n- **〜ともなしに** is a synonym (見るともなしに見る), slightly more literary.\n- **なんとなく** is the everyday word for *vaguely, somehow*; ともなく is more literary.\n- **〜ともなると / ともなれば** (#35) is unrelated: *when it comes to (a higher level)*.\n- **〜ことなく** (*without doing*) negates the action itself, while ともなく says the action is done, just unintentionally.\n\nRegister: written/literary; it suits novels (as in the sample: 優斗はその様子を見るともなく見ている).\n\nJLPT tip: if the blank sits between a verb and the same verb (見る＿＿見ている), ともなく is the answer; if there is どこから／誰に／いつ before the blank, it's the question-word use.",
           "see": [
             35
           ],
@@ -333,7 +334,7 @@ N2.register({
                 "en": "Match each beginning (1–4) with the correct ending (a–d)."
               },
               "left": [
-                "{地震|じしん}{発生|はっせい}を{一刻|いっこく}も早く知らせるべく、",
+                "地震{発生|はっせい}を{一刻|いっこく}も早く知らせるべく、",
                 "今年こそは、{志望校|しぼうこう}に合格するべく、",
                 "交番は地域住民の安全を守るべく、",
                 "妻の{出産|しゅっさん}に立ち会うべく、"
@@ -361,6 +362,7 @@ N2.register({
         },
         {
           "no": 91,
+          "notesFirst": false,
           "pattern": "Vてからというもの",
           "phrase": "{物心|ものごころ}つい**てからというもの**",
           "stars": 3,
@@ -389,7 +391,7 @@ N2.register({
               "en": "Ever since I heard that song, I can't get the melody out of my head."
             },
             {
-              "ja": "{大型|おおがた}スーパーができてからというもの、駅前の商店{街|がい}は売り上げが30％以上減ってしまったという。",
+              "ja": "{大型|おおがた}スーパーができてからというもの、駅前の商店{街|がい}は売り上げが30%以上減ってしまったという。",
               "en": "They say that ever since the big supermarket opened, sales in the shopping street in front of the station have dropped by more than 30%."
             },
             {
@@ -485,10 +487,7 @@ N2.register({
             "en": "\"〜ながら（に）\" is used when you want to say \"in the state of ~ / unchanged since the time of ~.\""
           },
           "forms": [
-            "[V-~~ます~~] + ながら（に）",
-            "[V-~~ます~~] + ながらの ＋ [N₂]",
-            "[N₁] + ながら（に）",
-            "[N₁] + ながらの ＋ [N₂]"
+            "［[V-~~ます~~]　[N₁]］ + ［ながら（に）　ながらの + [N₂]］"
           ],
           "formNotes": [
             {
@@ -514,7 +513,7 @@ N2.register({
               "en": "In the old days, it is said, when a person of high rank died, there was a custom of burying their attendants alive around the tomb."
             }
           ],
-          "deepDive": "**〜ながら（に）** here is not the *while doing* ながら (歩きながら話す) nor the concessive *although* ながら. It is an older use meaning *in the (unchanged) state of ~, just as ~, from the time of ~*.\n\nForms: ます-stem or noun + **ながら（に）** adverbially, or + **ながらの N** before a noun. In practice it is limited to fixed expressions — memorize them:\n- 生まれながら（に）/ 生まれながらの *from birth, born (a …)*: 生まれながらの芸術家 *a born artist*\n- 昔ながらの *traditional, unchanged since old times*: 昔ながらの製法\n- 涙ながらに *in tears*: 涙ながらに語る\n- いつもながら *as always*: いつもながら見事だ\n- 生きながら *alive (while still living)*: 生きながら埋める\n- いながらにして *without leaving (home)*: 家にいながらにして世界中の情報が手に入る\n- 陰ながら *behind the scenes, quietly*: 陰ながら応援しています\n\nContrast (a favourite exam trap):\n- **〜ながら (simultaneous)**: 音楽を聞きながら勉強する — two actions at once.\n- **〜ながら（も）(concessive)**: 狭いながらも楽しい我が家 — *although*.\n- **〜ながらに (state)**: 涙ながらに — *in a state of tears*. The に is the clue; with nouns (昔, 涙) it can only be this use.\n\nIn the やってみよう, 自宅にいながら means *while (staying) at home* = 自宅にいて — a state that doesn't change, not *although*.\n\nRegister: formal/literary, hence the formal icon; but 昔ながらの and いつもながら are everyday phrases too.\n\nJLPT tip: when you see 生まれ／昔／涙／いつも before the blank, pick ながら（に）/ ながらの; distractors like 〜つ〜つ or 〜ともなく don't attach to these words.",
+          "deepDive": "**〜ながら（に）** here is not the *while doing* ながら (歩きながら話す) nor the concessive *although* ながら. It is an older use meaning *in the (unchanged) state of ~, just as ~, from the time of ~*.\n\nForms: ます-stem or noun + **ながら（に）** adverbially, or + **ながらの N** before a noun. In practice it is limited to fixed expressions — memorize them:\n- 生まれながら（に）/ 生まれながらの *from birth, born (a …)*: 生まれながらの芸術家 *a born artist*\n- 昔ながらの *traditional, unchanged since old times*: 昔ながらの製法\n- 涙ながらに *in tears*: 涙ながらに語る\n- いつもながら *as always*: いつもながら見事だ\n- 生きながら *alive (while still living)*: 生きながら埋める\n- いながらにして *without leaving (home)*: 家にいながらにして世界中の情報が手に入る\n- 陰ながら *behind the scenes, quietly*: 陰ながら応援しています\n\nContrast (a favourite exam trap):\n- **〜ながら (simultaneous)**: 音楽を聞きながら勉強する — two actions at once.\n- **〜ながら（も）(concessive)**: 狭いながらも楽しい我が家 — *although*.\n- **〜ながらに (state)**: 涙ながらに — *in a state of tears*. The に (or ながらの before a noun) is the clue; the simultaneous ながら never attaches to nouns, but the concessive one can (子どもながら（も）, 残念ながら), so read the meaning.\n\nIn the やってみよう, 自宅にいながら means *while (staying) at home* = 自宅にいて — a state that doesn't change, not *although*.\n\nRegister: formal/literary, hence the formal icon; but 昔ながらの and いつもながら are everyday phrases too.\n\nJLPT tip: when you see 生まれ／昔／涙／いつも before the blank, pick ながら（に）/ ながらの; distractors like 〜つ〜つ or 〜ともなく don't attach to these words.",
           "see": [],
           "index": [
             "〜ながら（に）",
@@ -530,11 +529,11 @@ N2.register({
               "labels": "abc",
               "prompt": {
                 "ja": "",
-                "en": "Choose the option closest in meaning to the underlined part (shown in bold)."
+                "en": "Choose the option closest in meaning to the underlined part."
               },
               "items": [
                 {
-                  "q": "**涙ながらに**戦争体験を語る老人の{姿|すがた}は、多くの人々の心を打った。",
+                  "q": "__涙ながらに__戦争体験を語る老人の{姿|すがた}は、多くの人々の心を打った。",
                   "options": [
                     "涙を流して",
                     "泣きそうになって",
@@ -544,7 +543,7 @@ N2.register({
                   "en": "The sight of the old man recounting his war experiences in tears moved many people."
                 },
                 {
-                  "q": "この店では、**昔ながらの**{製法|せいほう}で作られたお菓子を売っている。",
+                  "q": "この店では、__昔ながらの__{製法|せいほう}で作られたお菓子を売っている。",
                   "options": [
                     "昔よりいい",
                     "昔はなかった",
@@ -554,7 +553,7 @@ N2.register({
                   "en": "This shop sells sweets made by traditional, time-honored methods."
                 },
                 {
-                  "q": "オンデマンド{講座|こうざ}は、**自宅にいながら**自分のペースで学習できるシステムだ。",
+                  "q": "オンデマンド{講座|こうざ}は、__自宅にいながら__自分のペースで学習できるシステムだ。",
                   "options": [
                     "自宅にいないから",
                     "自宅にいてもいなくても",
@@ -585,7 +584,7 @@ N2.register({
           "examples": [
             {
               "ja": "私が内部{告発|こくはつ}したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。",
-              "en": "I blew the whistle internally simply because I followed my own conscience."
+              "en": "When I blew the whistle internally, I was simply following my own conscience."
             },
             {
               "ja": "A：助けていただき、ありがとうございました。\nB：いやいや、医者として当然のことをしたまでです。",
@@ -655,11 +654,11 @@ N2.register({
               "labels": "abc",
               "prompt": {
                 "ja": "",
-                "en": "Choose the option closest in meaning to the underlined part (shown in bold)."
+                "en": "Choose the option closest in meaning to the underlined part."
               },
               "items": [
                 {
-                  "q": "{登山隊|とざんたい}は、**{悪天候|あくてんこう}をものともせず**、ついに{登頂|とうちょう}に成功した。",
+                  "q": "{登山隊|とざんたい}は、__{悪天候|あくてんこう}をものともせず__、ついに{登頂|とうちょう}に成功した。",
                   "options": [
                     "{悪天候|あくてんこう}に負けないで",
                     "{悪天候|あくてんこう}だからこそ",
@@ -669,7 +668,7 @@ N2.register({
                   "en": "Undaunted by the bad weather, the climbing party finally succeeded in reaching the summit."
                 },
                 {
-                  "q": "**{砂漠|さばく}の{過酷|かこく}な環境やマシントラブルをものともせず**、彼らは1万2千kmを走りぬいた。",
+                  "q": "__{砂漠|さばく}の{過酷|かこく}な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。",
                   "options": [
                     "{一切|いっさい}問題がなく",
                     "さまざまな問題があっても",

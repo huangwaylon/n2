@@ -77,7 +77,7 @@ N2F({ ch: 3, review: [
       ],
       en: [
         "“Hey, take a look at that clock. It's already five o'clock. The moment your two o'clock break started, you rushed out and never came back… Once you'd gone, that was it — half past three, four o'clock, and still you didn't come back… You know that in a small shop like ours, even one person missing makes things hard.",
-        "There, again! You're always fiddling with your phone the moment somebody starts talking to you… Give it here!”",
+        "There, again! You're always fiddling with your phone even while someone's still talking to you… Give it here!”",
         "“Ah!”",
         "“ ‘Thanks for earlier, bro.’ What's this?”",
         "“I'm sorry. The truth is, my younger brother had an accident on his motorbike, so I was at the hospital.”",
@@ -150,7 +150,7 @@ N2F({ ch: 3, review: [
       type: "listening", mode: "response",
       prompt: { ja: "この{問題|もんだい}では、{問題用紙|もんだいようし}に{何|なに}も{印刷|いんさつ}されていません。まず{文|ぶん}を{聞|き}いてください。それから、それに{対|たい}する{返事|へんじ}を{聞|き}いて、1から3の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。", en: "Nothing is printed on the question sheet for this question. First listen to the sentence. Then listen to the replies and choose the best one from 1 to 3." },
       items: [
-        { script: [{ sp: "M1", v: "m", ja: "きのうの試合見た？　まさかあんなところで{逆転|ぎゃくてん}されるとはなあ……。" }],
+        { replyV: "m", script: [{ sp: "M1", v: "m", ja: "きのうの試合見た？　まさかあんなところで{逆転|ぎゃくてん}されるとはなあ……。" }],
           en: ["Did you see yesterday's game? Who'd have thought they'd get overtaken at a point like that…", "Seriously, I never saw that coming.", "Seriously, it went just as expected, didn't it.", "Seriously, I saw that coming."],
           options: ["ほんと、予想できなかったよ。", "ほんと、予想通りだったね。", "ほんと、予想できたよ。"],
           answer: 0,

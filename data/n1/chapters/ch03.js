@@ -1486,7 +1486,7 @@ N2.register({
               "en": "Once you press this button, the data can never be recovered, so be careful."
             }
           ],
-          "deepDive": "**V-た＋が最後** = *once ~ happens, that's it — (a bad, irreversible result) inevitably follows*. 最後 means *the end*: doing V is the point of no return. The second half is something undesirable or extreme and usually final: 取り戻すことは難しい, 二度とできなくなる, 食べられてしまう.\n\nConnection: V-た only (捕まったが最後, 失ったが最後). The spoken form is **〜たら最後** (押したら最後). The result can be a habitual truth (こもったが最後、寝食を忘れる) or a specific prediction.\n\nNuance: even 'positive-sounding' uses keep the idea of *being unable to stop*: 読み始めたが最後、徹夜してでも読みたくなる — you're trapped by the book. Hence the regret icon.\n\nCompare:\n- **〜たら／〜ば**: neutral conditional.\n- **〜が早いか** (#30): temporal, *as soon as*, no sense of irreversibility.\n- **一度〜と／いったん〜たら** (N3/N2): *once ~* — neutral; たが最後 is stronger and more dramatic.\n\nPitfall: don't use it for a good result you want (✗合格したが最後、留学できる). JLPT tip: 一度 + V-た + blank + 二度と/〜てしまう → が最後.",
+          "deepDive": "**V-た＋が最後** = *once ~ happens, that's it — (a bad, irreversible result) inevitably follows*. 最後 means *the end*: doing V is the point of no return. The second half is something undesirable or extreme and usually final: 取り戻すことは難しい, 二度とできなくなる, 食べられてしまう.\n\nConnection: V-た only (捕まったが最後, 失ったが最後). The spoken form is **〜たら最後** (押したら最後). The result can be a habitual truth (こもったが最後、寝食を忘れる) or a specific prediction.\n\nNuance: even 'positive-sounding' uses keep the idea of *being unable to stop*: 読み始めたが最後、徹夜してでも読みたくなる — you're trapped by the book. The book's regret icon reflects the pattern's usual tone: the outcome is one the speaker would rather avoid.\n\nCompare:\n- **〜たら／〜ば**: neutral conditional.\n- **〜が早いか** (#30): temporal, *as soon as*, no sense of irreversibility.\n- **一度〜と／いったん〜たら** (N3/N2): *once ~* — neutral; たが最後 is stronger and more dramatic.\n\nPitfall: don't use it for a good result you want (✗合格したが最後、留学できる). JLPT tip: 一度 + V-た + blank + 二度と/〜てしまう → が最後.",
           "see": [
             30
           ],
@@ -1827,7 +1827,7 @@ N2.register({
         ],
         "en": [
           "“Hey, take a look at that clock. It's already five o'clock. The moment your two o'clock break started, you rushed out and never came back… Once you'd gone, that was it — half past three, four o'clock, and still you didn't come back… You know that in a small shop like ours, even one person missing makes things hard.",
-          "There, again! You're always fiddling with your phone the moment somebody starts talking to you… Give it here!”",
+          "There, again! You're always fiddling with your phone even while someone's still talking to you… Give it here!”",
           "“Ah!”",
           "“ ‘Thanks for earlier, bro.’ What's this?”",
           "“I'm sorry. The truth is, my younger brother had an accident on his motorbike, so I was at the hospital.”",
@@ -1998,6 +1998,7 @@ N2.register({
         },
         "items": [
           {
+            "replyV": "m",
             "script": [
               {
                 "sp": "M1",

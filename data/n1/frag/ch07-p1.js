@@ -56,7 +56,7 @@ N2F({
       ],
       deepDive:
         "**〜といったらない** literally means *if you try to say how ~ it is, there are no words* — i.e. *extremely ~, indescribably ~*. **〜といったらありゃしない** (ありゃ = ありは, a colloquial contraction of ありはしない) is an even more emphatic, colloquial variant, and **〜ったらない / 〜ったらありゃしない** are the contracted spoken forms.\n\n" +
-        "- Connection: い-adjectives directly (暑いといったらない, 悔しいったらありゃしない); nouns and な-adjectives with or without だ; emotional verbs (腹が立つったらない). With **〜ことといったらない** or a noun made from an adjective (嬉しさといったら, 忙しさといったらない) it sounds a bit more written.\n- The ending can be dropped, leaving an exclamation: 嬉しさといったら！\n- Can be positive or negative, but ありゃしない is mostly used for negative feelings (annoyance, frustration). Past: といったらなかった (practice 1).\n\n" +
+        "- Connection: い-adjectives directly (暑いといったらない, 悔しいったらありゃしない); nouns and な-adjectives with or without だ; emotional verbs (腹が立つったらない). い/な-adjectives can also take **〜こと** (退屈なことといったらない, 美しいことといったらない), and adjective-derived nouns are common (嬉しさといったら, 忙しさといったらない).\n- The ending can be dropped, leaving an exclamation: 嬉しさといったら！\n- Can be positive or negative, but ありゃしない is mostly used for negative feelings (annoyance, frustration). Past: といったらなかった (practice 1).\n\n" +
         "Compare:\n- **〜といったら** (N2) *speaking of ~*: 日本の山といったら富士山だ — a topic marker; no ない/ありゃしない and no ‘extreme degree’ meaning.\n- **〜ときたら** (#76): topic + complaint about someone/something.\n- **〜極まりない / 〜極まる** (#119): *extremely* — formal, written, for negative evaluations (失礼極まりない).\n- **〜てたまらない / 〜てしかたがない** (N2): *can't help feeling ~* — about the speaker's feeling, neutral register.\n\n" +
         "Pitfall: in spite of the ない, the meaning is strongly **affirmative** (practice: 感動といったらなかった = 非常に感動した).\n\n" +
         "JLPT tip: in paraphrase items, 〜といったらない ≈ 言葉で言い表せないほど〜 / 非常に〜.",
@@ -87,6 +87,7 @@ N2F({
         en: "“A（よ）うにもAない” is used when you want to say “I want to do A, but because of some circumstance I can't do A.”",
       },
       forms: ["[V-よう] + にも + [V-できない]"],
+      notesFirst: false,
       formNotes: [
         { ja: "＊[V-よう]・[V-できない] には同じ{動詞|どうし}が使われる。", en: "*The same verb is used in [V-よう] and [V-できない]." },
         { ja: "＊[V-できない] に「無理だ・不可能だ」など「できない」という意味を持つ言葉が使われることもある。", en: "*Instead of [V-できない], words meaning “can't”, such as 無理だ or 不可能だ, may also be used." },
@@ -117,7 +118,7 @@ N2F({
         "The clip note contrasts it with **V-るに V-ない** (#63, 辞めるに辞められない): both mean *can't do it even though…*, but:\n- **〜ようにも〜ない** — **physical/external obstacles**: no money, trains stopped, no appointment (部長: アポが取れなかったんだから、契約を取ろうにも取れない).\n- **〜に〜ない** — **emotional/social reasons**: you *could* but feel you *mustn't* (大家さんに親切にしてもらっている, 先輩が残業している).\n\n" +
         "Compare:\n- **〜ようがない** (N2): *there's no way/means to ~* — no intention expressed.\n- **〜（よ）うが / 〜（よ）うと** (#78): same volitional form, meaning *no matter ~*.\n- **〜たくても〜ない**: plain equivalent (帰りたくても帰れない).\n\n" +
         "Pitfall: the verb must be the same in both halves, and the second half must be negative. ✗帰ろうにも帰る.\n\n" +
-        "JLPT tip: in the practice, pick the physical cause (足が痛い, 知らない人が貸してくれた, 騒音がひどくて).",
+        "JLPT tip: in the practice, pick the external/physical obstacle (足が痛い; 知らない人が貸してくれた — you can't find the lender; 騒音がひどくて), not a lack of will (立つのが嫌な) or of need (メールで済む).",
       see: [63, 78],
       index: ["VようにもVない"],
       practice: [
@@ -149,7 +150,7 @@ N2F({
       examples: [
         { ja: "3時間もカラオケで歌いまくって、声が出なくなった。", en: "I sang my heart out at karaoke for three hours and lost my voice." },
         { ja: "失恋したぐらいで、やけになって食べまくる{奴|やつ}の気がしれないよ。", en: "I don't understand people who go on an eating binge out of despair just because they got dumped." },
-        { ja: "あいつ、車を買うって、バイトしまくってるらしいよ。", en: "I hear he's working one part-time job after another because he wants to buy a car." },
+        { ja: "あいつ、車を買うって、バイトしまくってるらしいよ。", en: "I hear he's been working part-time like crazy because he wants to buy a car." },
       ],
       deepDive:
         "**V-ますstem + まくる** means *to do ~ like crazy, nonstop, relentlessly*. It stresses a large quantity or high frequency of the action and a certain lack of restraint: 歌いまくる, 食べまくる, 買いまくる, 撮りまくる. まくる conjugates as a regular Group 1 verb (まくって, まくった, まくってる).\n\n" +
@@ -182,7 +183,7 @@ N2F({
       ],
       deepDive:
         "**Nにしたところで / Nにしたって** = *even N (is no exception)*. The speaker takes something that might be expected to be special or different (a rich person, an electric car, humans, a gentle person) and says that it too is subject to the same general rule: 大金持ちにしたところで悩みはある.\n\n" +
-        "- にしたって is the colloquial form; にしたところで is a little more formal but still spoken. Written equivalents: **〜にしても**, **〜でさえ**.\n- Also used for the speaker: 私にしたところで、いい解決方法があるわけではない (*I'm no better — I don't have a solution either*) — practice 1.\n- **いずれにしたところで / いずれにしたって** (*in either case*) is a set phrase (example ⑤).\n- どんなに〜N にしたって = *however ~ an N may be* (example ③).\n\n" +
+        "- にしたって is the colloquial form; にしたところで is a little more formal but still spoken. Neutral equivalents: **〜にしても**, **〜でも**.\n- Also used for the speaker: 私にしたところで、いい解決方法があるわけではない (*I'm no better — I don't have a solution either*) — practice 1.\n- **いずれにしたところで / いずれにしたって** (*in either case*) is a set phrase (example ⑤).\n- どんなに〜N にしたって = *however ~ an N may be* (example ③).\n\n" +
         "In the sample: カプテック社にしたところであの条件では、そんなに儲かるはずない — *even Captec (the company that won the contract) can't be making much money on those terms*.\n\n" +
         "Compare:\n- **V-たところで** (#77): *even if you ~, it's useless* — attaches to verbs, expresses futility.\n- **Nにすれば／にしたら** (#81): *from N's viewpoint*. Beware: にしたら looks similar but means viewpoint; にしたって／にしたところで mean *even N*.\n- **Nでさえ** (N2): *even N* — emphasizes an extreme example, often with negative predicates.\n\n" +
         "JLPT tip: the second half is often a negative or ‘same as others’ statement (〜わけではない, 〜と変わらない, 大した差はない).",

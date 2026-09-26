@@ -138,6 +138,9 @@ explanation shown after grading.
 and then the options are spoken only after the script; the answer buttons are bare numerals as in `response`.
 `en` = script-line translations followed by option translations. Don't put the question in the script as a "質問" line.
 
+`replyV: "m"|"f"` on a `response` / `gist` item sets the voice of the spoken replies/options (default: the opposite of
+the script's first speaker) — e.g. N1 ch3 問題4-2 item 1, where M₂ answers M₁.
+
 An item with no `script` reuses the previous item's script (one talk → several questions, as in the book).
 
 ### ReviewSection

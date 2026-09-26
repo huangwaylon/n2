@@ -371,7 +371,7 @@
   function notesHtml(notes, base) {
     return (notes || [])
       .map((n, k) => `<aside class="clip" data-en-scope>${CLIP_SVG}<div class="clip__body">
-        <div class="clip__tools">${enScopeBtn()}</div>
+        <div class="clip__tools">${n.stars ? stars(n.stars) : ""}${enScopeBtn()}</div>
         ${bi({ ja: n.ja, en: n.en, zh: n.zh }, "p", "clip__text", { book: true })}
         ${examplesHtml(n.examples)}
         ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
@@ -801,7 +801,7 @@
         const qPlain = it.question ? plain(it.question).replace(/\s/g, "") : null;
         it.script.forEach((l) => { if (!(qPlain && !resp && plain(l.ja).replace(/\s/g, "") === qPlain)) queue.push({ text: plain(l.ja), v: l.v }); });
         if (it.question && !resp) queue.push({ text: (summary ? "しつもん。" : "") + plain(it.question), v: "f" });
-        if (spoken) it.options.forEach((o, j) => queue.push({ text: `${j + 1}、${plain(o)}`, v: it.script[0] && it.script[0].v === "m" ? "f" : "m" }));
+        if (spoken) it.options.forEach((o, j) => queue.push({ text: `${j + 1}、${plain(o)}`, v: it.replyV || (it.script[0] && it.script[0].v === "m" ? "f" : "m") }));
         const script = it.script
           .map((l, k) => `<div class="sline">${l.sp ? `<span class="sp">${fmt(l.sp)}：</span>` : "<span></span>"}<span>${fmt(l.ja)}${it.en && it.en[k] ? `<span class="en">${fmt(it.en[k])}</span>` : ""}</span></div>`)
           .join("");

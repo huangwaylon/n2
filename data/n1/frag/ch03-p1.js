@@ -348,7 +348,7 @@ N2F({
       deepDive:
         "**V-た＋が最後** = *once ~ happens, that's it — (a bad, irreversible result) inevitably follows*. 最後 means *the end*: doing V is the point of no return. The second half is something undesirable or extreme and usually final: 取り戻すことは難しい, 二度とできなくなる, 食べられてしまう.\n\n" +
         "Connection: V-た only (捕まったが最後, 失ったが最後). The spoken form is **〜たら最後** (押したら最後). The result can be a habitual truth (こもったが最後、寝食を忘れる) or a specific prediction.\n\n" +
-        "Nuance: even 'positive-sounding' uses keep the idea of *being unable to stop*: 読み始めたが最後、徹夜してでも読みたくなる — you're trapped by the book. Hence the regret icon.\n\n" +
+        "Nuance: even 'positive-sounding' uses keep the idea of *being unable to stop*: 読み始めたが最後、徹夜してでも読みたくなる — you're trapped by the book. The book's regret icon reflects the pattern's usual tone: the outcome is one the speaker would rather avoid.\n\n" +
         "Compare:\n" +
         "- **〜たら／〜ば**: neutral conditional.\n" +
         "- **〜が早いか** (#30): temporal, *as soon as*, no sense of irreversibility.\n" +

@@ -166,6 +166,7 @@ N2F({
       phrase: "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**",
       stars: 2,
       marks: [],
+      notesFirst: false,
       usage: {
         ja: "「AであれBであれ…」は「AでもBでも」と例をあげて、「どんなものでも同じように…だ」と言いたいときに使われる。",
         zh: "用于列举了“A也是，B也是”之后，想说“无论什么都一样……”时。",
@@ -268,22 +269,23 @@ N2F({
     // ───────── 40
     {
       no: 40,
-      pattern: "〜をおいて{他|ほか}にない",
+      pattern: "〜をおいて他にない",
       phrase: "今**をおいて他にありません**",
       stars: 2,
       marks: ["praise"],
+      notesFirst: false,
       usage: {
-        ja: "「〜をおいて{他|ほか}にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
+        ja: "「〜をおいて他にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
         zh: "用于想说“只有……”、“除……外没有”时。多用于高度评价时，“相比来看，……最棒”。",
         en: "“〜をおいて他にない” is used when you want to say “it is only 〜 / there is nothing but 〜.” It is often used when giving high praise: “compared with the others, 〜 is the best.”",
       },
-      forms: ["[N] + をおいて{他|ほか}にない"],
-      formNotes: [{ ja: "＊「〜をおいて{他|ほか}にいない」の形も使われる。", en: "The form “〜をおいて他にいない” is also used." }],
+      forms: ["[N] + をおいて他にない"],
+      formNotes: [{ ja: "＊「〜をおいて他にいない」の形も使われる。", en: "The form “〜をおいて他にいない” is also used." }],
       examples: [
-        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて{他|ほか}にない。", en: "If you want to change jobs on favourable terms, there's no time like now, while the economy is picking up." },
-        { ja: "{経営戦略論|けいえいせんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて{他|ほか}にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only choice." },
-        { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて{他|ほか}にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
-        { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて{他|ほか}にいないだろう。", en: "Judging from every angle — career, character and achievements — there is probably no one but him for the next president." },
+        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, there's no time like now, while the economy is picking up." },
+        { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only choice." },
+        { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
+        { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judging from every angle — career, character and achievements — there is probably no one but him for the next president." },
       ],
       notes: [
         {

@@ -299,6 +299,7 @@ N2.register({
           "phrase": "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**",
           "stars": 2,
           "marks": [],
+          "notesFirst": false,
           "usage": {
             "ja": "「AであれBであれ…」は「AでもBでも」と例をあげて、「どんなものでも同じように…だ」と言いたいときに使われる。",
             "zh": "用于列举了“A也是，B也是”之后，想说“无论什么都一样……”时。",
@@ -549,41 +550,42 @@ N2.register({
         },
         {
           "no": 40,
-          "pattern": "〜をおいて{他|ほか}にない",
+          "pattern": "〜をおいて他にない",
           "phrase": "今**をおいて他にありません**",
           "stars": 2,
           "marks": [
             "praise"
           ],
+          "notesFirst": false,
           "usage": {
-            "ja": "「〜をおいて{他|ほか}にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
+            "ja": "「〜をおいて他にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
             "zh": "用于想说“只有……”、“除……外没有”时。多用于高度评价时，“相比来看，……最棒”。",
             "en": "“〜をおいて他にない” is used when you want to say “it is only 〜 / there is nothing but 〜.” It is often used when giving high praise: “compared with the others, 〜 is the best.”"
           },
           "forms": [
-            "[N] + をおいて{他|ほか}にない"
+            "[N] + をおいて他にない"
           ],
           "formNotes": [
             {
-              "ja": "＊「〜をおいて{他|ほか}にいない」の形も使われる。",
+              "ja": "＊「〜をおいて他にいない」の形も使われる。",
               "en": "The form “〜をおいて他にいない” is also used."
             }
           ],
           "examples": [
             {
-              "ja": "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて{他|ほか}にない。",
+              "ja": "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。",
               "en": "If you want to change jobs on favourable terms, there's no time like now, while the economy is picking up."
             },
             {
-              "ja": "{経営戦略論|けいえいせんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて{他|ほか}にないと思うよ。",
+              "ja": "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。",
               "en": "If you're going to study management strategy, I think this university's business school is the only choice."
             },
             {
-              "ja": "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて{他|ほか}にない。",
+              "ja": "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。",
               "en": "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings."
             },
             {
-              "ja": "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて{他|ほか}にいないだろう。",
+              "ja": "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。",
               "en": "Judging from every angle — career, character and achievements — there is probably no one but him for the next president."
             }
           ],
@@ -843,7 +845,7 @@ N2.register({
               "en": "There's no need to ask what he wants to say."
             }
           ],
-          "deepDive": "**〜までもない / 〜までもなく** means *there is no need to go as far as ~*. まで (*even to the point of*) + も + ない: the action is unnecessary because the answer is **already clear or the matter is too minor**. 言うまでもなく *needless to say* is by far the most frequent use, and it works like a set phrase at the start of a clause.\n\nForms:\n- **V-る + までもない** at the end of a sentence: 聞くまでもない, 仰ぐまでもないだろう, 問うまでもないことだ.\n- **V-る + までもなく、…** as a linking form: 遠方に足を運ぶまでもなく、ネットで手に入る *without (needing to) ~*.\n- Fixed expressions: 言うまでもない, 言うまでもなく, 見るまでもない, 考えるまでもない, 説明するまでもない.\n\nNuance: slightly formal and confident; the speaker judges the action to be a waste of effort. The practice below checks the meaning: 決算書を見るまでもなく明らかだ = *it's clear even without looking at the financial statements* (b), and 言うまでもなく = *there's no need to say it, but…* (a).\n\nCompare:\n- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgement about the situation.\n- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\nJLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題4-1 of the review: わざわざ知らせる（までもない）.",
+          "deepDive": "**〜までもない / 〜までもなく** means *there is no need to go as far as ~*. まで (*even to the point of*) + も + ない: the action is unnecessary because the answer is **already clear or the matter is too minor**. 言うまでもなく *needless to say* is by far the most frequent use, and it works like a set phrase at the start of a clause.\n\nForms:\n- **V-る + までもない** at the end of a sentence: 聞くまでもない, 仰ぐまでもないだろう, 問うまでもないことだ.\n- **V-る + までもなく、…** as a linking form: 遠方に足を運ぶまでもなく、ネットで手に入る *without (needing to) ~*.\n- Fixed expressions: 言うまでもない, 言うまでもなく, 見るまでもない, 考えるまでもない, 説明するまでもない.\n\nNuance: slightly formal and confident; the speaker judges the action to be a waste of effort. The practice below checks the meaning: 決算書を見るまでもなく明らかだ = *it's clear even without looking at the financial statements* (b), and 言うまでもなく = *there's no need to say it, but…* (a).\n\nCompare:\n- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgement about the situation.\n- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\nJLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題1 of the review: わざわざ知らせる（までもない）.",
           "see": [
             43
           ],
@@ -859,11 +861,11 @@ N2.register({
               "labels": "abc",
               "prompt": {
                 "ja": "",
-                "en": "Choose the option closest in meaning to the underlined part (shown in bold)."
+                "en": "Choose the option closest in meaning to the underlined part."
               },
               "items": [
                 {
-                  "q": "不景気で売り上げが減っていることは、**{決算書|けっさんしょ}を見るまでもなく明らかだ**。",
+                  "q": "不景気で売り上げが減っていることは、__{決算書|けっさんしょ}を見るまでもなく明らかだ__。",
                   "options": [
                     "{決算書|けっさんしょ}を見ればわかることだ",
                     "{決算書|けっさんしょ}を見なくてもわかることだ",
@@ -873,7 +875,7 @@ N2.register({
                   "en": "It's clear, without even looking at the financial statements, that sales are falling because of the recession."
                 },
                 {
-                  "q": "今さら**言うまでもなく**、タバコは「{百害|ひゃくがい}あって{一利|いちり}なし」です。",
+                  "q": "今さら__言うまでもなく__、タバコは「{百害|ひゃくがい}あって{一利|いちり}なし」です。",
                   "options": [
                     "言う必要もないが",
                     "言ってもしかたがないが",
@@ -966,6 +968,7 @@ N2.register({
           ],
           "deepDive": "**いかん** (如何) is the formal, written word for *how / what (state)*. **Nいかんで / Nいかんによって(は) / Nいかんにかかっている** means *depending on (what) N (is like)* — the outcome is **decided by the state or content of N**: あなたのキャリアライフは上司との関係いかんにかかっている.\n\nForms:\n- **N（の）いかん** — の is optional: 結果いかん = 結果のいかん.\n- Typical partners: 〜いかんで, 〜いかんによって(は), 〜いかんにかかっている, 〜いかんだ.\n- Nouns are things that can vary: 結果, 天候, 情勢, 成績, 人数, 対応, 努力, 出方.\n\nThe clip note gives the opposite meaning, *regardless of N*: **Nのいかんにかかわらず / Nのいかんによらず / Nのいかんを問わず** (here の is normally kept). This is very common in official notices: 理由のいかんにかかわらず、キャンセルできません.\n\nPlus box: two set phrases with the same いかん:\n- **いかんせん** *unfortunately, there's no helping it* — adverb at the start of a clause, followed by the obstacle: いかんせん給料日前で….\n- **いかんともしがたい** *there's nothing one can do (about it)*: 実力差はいかんともしがたい.\n\nRegister: stiff and formal (the book marks it with the formal-scene icon). In speech people say 〜次第で or 〜によって.\n\nCompare:\n- **〜次第で / 〜次第だ** (N2): same meaning, less formal.\n- **〜によって(は)** (N3): neutral.\n- **〜を問わず / 〜にかかわらず** (N2) are used directly after nouns; with いかん they sound more official.\n\nJLPT tip: the review tests both halves: 経営状態（いかんによって）融資が受けられる (depending on), and 年数の（いかんにかかわらず）前向きな社員 (regardless). Decide whether the outcome changes with N or not.",
           "see": [],
+          "notesFirst": false,
           "index": [
             "N（の）いかん",
             "Nいかん",
@@ -1044,7 +1047,7 @@ N2.register({
               "en": "By keeping up my rehab I've managed to be able to walk, even if I can't run."
             }
           ],
-          "deepDive": "**AないまでもB** means *even if not A, at least B*. A is a higher, ideal level; B is a lower level that is still acceptable or expected: 好きとは言えないまでも嫌いではない *I can't say I like him, but at least I don't dislike him*.\n\nConnection: **V-ない form + までも** (drop ない and add ないまでも — i.e. 言えないまでも, もらえないまでも, 走れないまでも). Typical frames:\n- 〜とは言わないまでも *I won't go as far as saying ~, but…*\n- 〜とは言えないまでも *it can't be called ~, but…*\n- B often contains **せめて, 少なくとも, 最低, 何とか, 〜くらいは, 〜ぐらい**: せめて週に1日は, メールくらいは.\n\nThe second half is frequently a wish, request, opinion or duty (〜たい, 〜てほしい, 〜べきだ, 〜ほうがいい), or a statement that the lower level was reached (思ったほど悪くはなかった, 歩けるようになった).\n\nThe practice checks the meaning: 金メダルとは言わないまでも、せめて銅メダルは = *even if not gold, at least bronze* (a: 金メダルがだめでも最低、銅メダルは). 法に触れないまでも信用を失う = *even if it's not illegal, you'll lose trust* (c).\n\nCompare:\n- **〜までもない** (#41): *no need to ~* — a completely different meaning despite the shared までも. Check which comes before: V-る + までもない vs V-ない + までも.\n- **〜とまではいかなくても / 〜とは言わないが**: everyday equivalents.\n- **〜にしても** / **〜としても**: concessive *even if*, without the *level* nuance.\n\nJLPT tip: a pair of higher/lower levels (1,000円／850円, 毎日会う／メール, 金／銅) + せめて/くらい → ないまでも. The review's listening question 2 uses 毎日会えないまでも、メールくらいは….",
+          "deepDive": "**AないまでもB** means *even if not A, at least B*. A is a higher, ideal level; B is a lower level that is still acceptable or expected: 好きとは言えないまでも嫌いではない *I can't say I like him, but at least I don't dislike him*.\n\nConnection: **V-~~ない~~ + ないまでも**, i.e. the plain negative form + までも: 言えないまでも, もらえないまでも, 走れないまでも. Typical frames:\n- 〜とは言わないまでも *I won't go as far as saying ~, but…*\n- 〜とは言えないまでも *it can't be called ~, but…*\n- B often contains **せめて, 少なくとも, 最低, 何とか, 〜くらいは, 〜ぐらい**: せめて週に1日は, メールくらいは.\n\nThe second half is frequently a wish, request, opinion or duty (〜たい, 〜てほしい, 〜べきだ, 〜ほうがいい), or a statement that the lower level was reached (思ったほど悪くはなかった, 歩けるようになった).\n\nThe practice checks the meaning: 金メダルとは言わないまでも、せめて銅メダルは = *even if not gold, at least bronze* (a: 金メダルがだめでも最低、銅メダルは). 法に触れないまでも信用を失う = *even if it's not illegal, you'll lose trust* (c).\n\nCompare:\n- **〜までもない** (#41): *no need to ~* — a completely different meaning despite the shared までも. Check which comes before: V-る + までもない vs V-ない + までも.\n- **〜とまではいかなくても / 〜とは言わないが**: everyday equivalents.\n- **〜にしても** / **〜としても**: concessive *even if*, without the *level* nuance.\n\nJLPT tip: a pair of higher/lower levels (1,000円／850円, 毎日会う／メール, 金／銅) + せめて/くらい → ないまでも. The review's listening question 2 uses 毎日会えないまでも、メールくらいは….",
           "see": [
             41
           ],
@@ -1058,21 +1061,21 @@ N2.register({
               "labels": "abc",
               "prompt": {
                 "ja": "",
-                "en": "Choose the option closest in meaning to the sentence (or to the underlined part, shown in bold)."
+                "en": "Choose the option closest in meaning to the sentence (or to the underlined part)."
               },
               "items": [
                 {
-                  "q": "金メダルとは言わないまでも、せめて{銅|どう}メダルはとってほしい。",
+                  "q": "金メダルとは言わないまでも、せめて銅メダルはとってほしい。",
                   "options": [
-                    "金メダルがだめでも最低、{銅|どう}メダルはとってほしい。",
-                    "金メダルはほしくないが、{銅|どう}メダルは必ずとってほしい。",
-                    "金メダルはほしいが、{銅|どう}メダルはいらない。"
+                    "金メダルがだめでも最低、銅メダルはとってほしい。",
+                    "金メダルはほしくないが、銅メダルは必ずとってほしい。",
+                    "金メダルはほしいが、銅メダルはいらない。"
                   ],
                   "answer": 0,
                   "en": "I won't say gold, but I'd like them to win at least a bronze medal."
                 },
                 {
-                  "q": "お{腹|なか}を冷やすと**病気には{至|いた}らないまでも体に悪い{影響|えいきょう}を与える**らしい。",
+                  "q": "お{腹|なか}を冷やすと__病気には{至|いた}らないまでも体に悪い{影響|えいきょう}を与える__らしい。",
                   "options": [
                     "病気にはならない場合も体に悪い{影響|えいきょう}がある",
                     "病気になって体に悪い{影響|えいきょう}がある",
@@ -1082,7 +1085,7 @@ N2.register({
                   "en": "Apparently, letting your stomach get cold has a bad effect on your body, even if it doesn't go as far as making you ill."
                 },
                 {
-                  "q": "そんな商売をしていたら、**法に{触|ふ}れないまでも信用を失う**ぞ。",
+                  "q": "そんな商売をしていたら、__法に触れないまでも信用を失う__ぞ。",
                   "options": [
                     "法律違反で警察に捕まって、客に信用されなくなる",
                     "法律について考えないで商売をすると、客に信用されなくなる",
@@ -1244,12 +1247,12 @@ N2.register({
               "en": "The place I was born is an old town with a long history — something like Nara or Kyoto in Japan."
             }
           ],
-          "deepDive": "**〜といったところだ** means *it's something like ~ / you could call it ~*. The speaker **rephrases** a thing with a familiar comparison (浮世絵 → 今でいえばアイドル写真) or **gives a typical example** (子どもに人気の料理 → カレーとハンバーグ), to help the listener grasp it: よい人間関係は、いわば思いやりのギブ・アンド・テイクといったところではないでしょうか.\n\nConnection: **N + といったところだ**. Softer endings are common: 〜といったところでしょう, 〜といったところです, 〜といったところではないでしょうか. Words like いわば, 今日でいえば, 〜なら, 〜と言えば often appear earlier in the sentence.\n\nNuance: it sounds modest and approximate — *roughly, sort of*. It is not a strict definition.\n\nSecond use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: 完成まではせいぜいあと半年といったところだ. This one stresses that the amount is **not large**; watch for せいぜい / 〜程度.\n\nCompare:\n- **〜というところだ**: same meaning and form.\n- **〜のようなものだ**: plain *it's like ~* (comparison), less idiomatic in writing.\n- **〜といったらない** (#83): *indescribably ~* — emphasis, not paraphrase.\n\nJLPT tip: if the sentence rephrases something with an analogy (いわば, 今で言えば) or names typical examples, choose といったところだ. In the practice, いわば陰の社長 (*the shadow president*) is the analogy that matches 重要な決定事項は彼ぬきでは決められない.",
+          "deepDive": "**〜といったところだ** means *it's something like ~ / you could call it ~*. The speaker **rephrases** a thing with a familiar comparison (浮世絵 → 今でいえばアイドル写真) or **gives a typical example** (子どもに人気の料理 → カレーとハンバーグ), to help the listener grasp it: よい人間関係は、いわば思いやりのギブ・アンド・テイクといったところではないでしょうか.\n\nConnection: **N + といったところだ**. Softer endings are common: 〜といったところでしょう, 〜といったところです, 〜といったところではないでしょうか. Words like いわば, 今日でいえば, 〜なら, 〜と言えば often appear earlier in the sentence.\n\nNuance: it sounds modest and approximate — *roughly, sort of*. It is not a strict definition.\n\nSecond use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: この会社もせいぜいあと半年といったところだろう. This one stresses that the amount is **not large**; watch for せいぜい / 〜程度.\n\nCompare:\n- **〜というところだ**: same meaning and form.\n- **〜のようなものだ**: a plain comparison, *it's like ~*; it lacks the modest, approximate *something like ~* nuance of といったところだ.\n- **〜といったらない** (#83): *indescribably ~* — emphasis, not paraphrase.\n\nJLPT tip: if the sentence rephrases something with an analogy (いわば, 今で言えば) or names typical examples, choose といったところだ. In the practice, いわば陰の社長 (*the shadow president*) is the analogy that matches 重要な決定事項は彼ぬきでは決められない.",
           "see": [
             62,
             83
           ],
-          "xref": "☞ 62.　せいぜいあと半年**といったところだ**",
+          "xref": "☞ 62. せいぜいあと半年**といったところだ**",
           "index": [
             "〜といったところだ①",
             "Nといったところだ",
