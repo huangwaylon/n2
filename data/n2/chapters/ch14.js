@@ -26,7 +26,7 @@ N2.register({
         "lines": [
           {
             "ja": "オリンピック{開催|かいさい}といえば、昔は国を{挙|あ}げて{喜|よろこ}んだ**ものだ**。",
-            "en": "When it came to hosting the Olympics, in the past the whole nation used to rejoice."
+            "en": "In the past, the whole nation used to rejoice at the very idea of hosting the Olympics."
           },
           {
             "cont": true,
@@ -46,7 +46,7 @@ N2.register({
           {
             "cont": true,
             "ja": "それで{政府|せいふ}に対する{抗議|こうぎ}の声が上がることになる**わけだ**。",
-            "en": "That is why voices of protest against the government are raised."
+            "en": "Naturally, then, voices of protest against the government are raised."
           },
           {
             "ja": "また、オリンピック{開催|かいさい}**にあたって**は、{資金|しきん}**に{加|くわ}えて**、{競技場|きょうぎじょう}などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。",
@@ -74,7 +74,7 @@ N2.register({
           {
             "cont": true,
             "ja": "しかし、国民の{感情|かんじょう}や生活を{犠牲|ぎせい}にしてオリンピックが{開催|かいさい}されることがあってはならない。",
-            "en": "However, the Olympics must never be held at the sacrifice of the people's feelings and livelihoods."
+            "en": "However, the Olympics must never be held at the expense of the people's feelings and livelihoods."
           },
           {
             "cont": true,
@@ -109,7 +109,7 @@ N2.register({
             },
             {
               "ja": "{娘|むすめ}も昔は「パパ、大好き！」と言ってくれて、かわいかったものだが…。",
-              "en": "My daughter too used to say \"Daddy, I love you!\" and was so sweet, but..."
+              "en": "My daughter used to say \"Daddy, I love you!\" too, and she was so sweet back then, but..."
             },
             {
               "ja": "10年前はこのあたりも静かだったものだが、今ではすっかり変わってしまった。",
@@ -121,7 +121,7 @@ N2.register({
             },
             {
               "ja": "あの子がもう{成人式|せいじんしき}ですか。時間がたつのは早いものですね。",
-              "en": "That child is already having her coming-of-age ceremony? Time really flies, doesn't it?"
+              "en": "That kid is already old enough for the coming-of-age ceremony? Time really flies, doesn't it?"
             },
             {
               "ja": "うちの{猫|ねこ}はちっとも家に帰ってこない。困ったものだ。",
@@ -336,7 +336,7 @@ N2.register({
               "en": "Our previous shop was going to be torn down for redevelopment, and that's how we came to move here."
             }
           ],
-          "deepDive": "**〜わけだ②** (#134) is the *explanatory* わけだ: the speaker lays out causes and then presents the result as the natural, logical consequence. Think *so, naturally ~ / that's why ~ / which means ~*. It's very common in editorials, lectures and explanations, where the writer builds a chain of reasoning: AだからBになる**わけだ**.\n\nCompare **#82 わけだ①**: there the speaker *suddenly understands* the reason for something already observed: このチョコ、1粒1,000円？ おいしいわけだ (*No wonder it's delicious!*). #82 = realization/“no wonder”; #134 = explaining to others why something is (or will be) the case. The grammar is identical; the difference is who is explaining to whom.\n\nDistinguish from the look-alike options in the practice:\n- **はずだ**: the speaker's *expectation* based on reasoning (もう着いているはずだ). It is a guess; わけだ presents a consequence as fact.\n- **べきだ**: *should* — obligation or what is right (説明するべきだ).\n\nOther わけ patterns in N2 (similar-pattern list): わけではない (#19, *it's not that ~*), わけにはいかない (#57, *can't very well ~*), and N3 わけがない (*there's no way ~*).\n\nConnection pitfall: nouns take の or という (休みのわけだ / 休みというわけだ), not ✗休みだわけだ. な-adjectives take な.\n\nThe softer spoken version is わけです / わけですね; 〜というわけだ is used to wrap up a story (…というわけで、今日は休みです).",
+          "deepDive": "**〜わけだ②** (#134) is the *explanatory* わけだ: the speaker lays out causes and then presents the result as the natural, logical consequence. Think *so, naturally ~ / that's why ~ / which means ~*. It's very common in editorials, lectures and explanations, where the writer builds a chain of reasoning: AだからBになる**わけだ**.\n\nCompare **#82 わけだ①**: there the speaker *suddenly understands* the reason for something already observed: このチョコ、1粒1,000円？ おいしいわけだ (*No wonder it's delicious!*). #82 = realization/“no wonder”; #134 = explaining to others why something is (or will be) the case. The grammar is identical; the difference is who is explaining to whom.\n\nDistinguish from the look-alike options in the practice:\n- **はずだ**: the speaker's *expectation* based on reasoning (もう着いているはずだ). It is a guess; わけだ presents a consequence as fact.\n- **べきだ**: *should* — obligation or what is right (説明するべきだ).\n\nOther わけ patterns in N2 (similar-pattern list): わけではない (#19, *it's not that ~*), わけにはいかない (#57, *can't very well ~*), and N3 わけがない (*there's no way ~*).\n\nConnection pitfall: nouns take の or という (休みのわけだ / 休みというわけだ), not ✗休みだわけだ. な-adjectives take な.\n\nThe polite version is わけです (often わけですね in explanations); 〜というわけだ is used to wrap up a story (…というわけで、今日は休みです).",
           "see": [
             19,
             57,
@@ -417,7 +417,7 @@ N2.register({
             },
             {
               "ja": "{復興|ふっこう}にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。",
-              "en": "For the reconstruction, we received all kinds of support from people around the world."
+              "en": "In our reconstruction efforts, we received all kinds of support from people around the world."
             },
             {
               "ja": "{研修|けんしゅう}を始めるにあたり、社員としての{心構|こころがま}えについてお話しします。",
@@ -535,7 +535,7 @@ N2.register({
                     "とすれば"
                   ],
                   "answer": 0,
-                  "en": "A: Sir, about how much does a microwave cost?\nB: If it's just for heating things up, even an expensive one can probably be bought for under 10,000 yen."
+                  "en": "A: Sir, about how much does a microwave cost?\nB: If it's just for heating things up, even an expensive one should cost less than 10,000 yen."
                 },
                 {
                   "q": "A：夏休みに旅行する（　）、どこがいい？\nB：私、ソウルへ行きたい。",
@@ -601,7 +601,7 @@ N2.register({
             },
             {
               "ja": "この会社では、社員の{教育計画|きょういくけいかく}に{基|もと}づいた{人材|じんざい}の{育成|いくせい}が{行|おこな}われている。",
-              "en": "At this company, staff are developed according to an employee training plan."
+              "en": "At this company, staff development is carried out based on an employee training plan."
             }
           ],
           "deepDive": "**〜に基づいて** (基づく = to be based on; 基 = foundation) names a **basis that you follow or stay faithful to**: laws, rules, contracts, principles, data, facts, evidence, plans, ideals. 法律に基づいて処理する = *handle it in accordance with the law*. The nuance is *grounded in*, *not deviating from*.\n\nForms: に基づいて / に基づき (written, clause-linking) / に基づく + N / に基づいた + N (both modify nouns).\n\n**〜をもとに（して）** (Plus) is close but different in focus: the noun is **raw material or a starting point** from which something **new is created**: 小説をもとにした映画, 聞き取り調査をもとに報告書をまとめる. You take it and build on it.\n- 法律に基づいて判断する ✓ / 法律をもとに判断する (possible but weaker).\n- 実話をもとにした映画 ✓ and 実話に基づいた映画 ✓ both fine.\n- 手紙をもとに小説を書く ✓ / 手紙に基づいて小説を書く (possible, but をもとに is more natural when a new work is created from source material).\n\nOther look-alikes (tested in the practice):\n- **に関して / について**: just marks the topic (資源に関して調べる).\n- **をめぐって** (#133): the disputed issue (親権をめぐって争う).\n- **に応じて** (#4): something varies to match a condition (症状に応じて量が違う).\n- **に沿って**: *along / in line with* (a plan, wishes).\n\nCommon mistake: ✗データを基づいて — the particle is に: データ**に**基づいて. With もと, the particle is を: データ**を**もとに.\n\nJLPT tip: ★★★ for both — they appear constantly. If the noun is a rule/law/data/principle, choose に基づいて; if the sentence is about creating a work or idea out of source material, をもとに fits best.",
@@ -810,7 +810,7 @@ N2.register({
             {
               "q": "どんなスポーツでも、練習を続け＿＿{上達|じょうたつ}するのだから、練習をサボってはいけない。",
               "answer": "てこそ",
-              "en": "In any sport, you only improve by continuing to practise, so you mustn't skip practice."
+              "en": "In any sport, you only improve by continuing to practice, so you mustn't skip practice."
             },
             {
               "q": "昔はよく手紙を書いた＿＿が、最近は書くのは{年賀状|ねんがじょう}ぐらいになったね。",
