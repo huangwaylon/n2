@@ -134,7 +134,7 @@ N2F({ ch: 11, review: [
             "But... you couldn't become a pro baseball player either, could you?",
             "Well, that's because I got injured.",
             "I want him to become a school teacher like you.",
-            "It's true I'm glad I became a high school teacher too.",
+            "It's true — I'm glad I became a high school teacher myself.",
             "Right? On top of that, you coach the baseball team... It's a good life, isn't it?",
             "I do feel like recommending it to Takashi too, but he's still only a second-year in high school. Whether it's a baseball player or a teacher, it's his own life. Anyway, I don't think he needs to give up his dream now.",
             "What does the father think about Takashi's future?",

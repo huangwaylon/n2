@@ -33,22 +33,22 @@ N2.register({
           },
           {
             "ja": "昔のラーメンは{気軽|きがる}に{空腹|くうふく}を{満|み}たすもの**にすぎなかった**かもしれませんが、今ではラーメンは{立派|りっぱ}な料理です。",
-            "en": "In the past, ramen may have been nothing more than something to fill an empty stomach casually, but now ramen is a fine dish."
+            "en": "In the past, ramen may have been nothing more than a quick, easy way to fill an empty stomach, but today it is a proper dish in its own right."
           },
           {
             "cont": true,
             "ja": "ラーメンはめんやスープの作り方に{工夫|くふう}ができる**{上|うえ}**に、めんにのせる{具|ぐ}にもバリエーションがつけやすいのです。",
-            "en": "Not only can you be creative with how the noodles and soup are made, it is also easy to vary the toppings you put on the noodles."
+            "en": "With ramen, not only can you get creative with how the noodles and soup are made, but on top of that it is easy to vary the toppings you put on the noodles."
           },
           {
             "cont": true,
             "ja": "そのため、ラーメン**といっても**、最近はイタリア料理のトマトソースを使ったもの、サラダ{感覚|かんかく}で食べられるもの、スープのないものなど、{様々|さまざま}なものがあります。",
-            "en": "For that reason, although we say \"ramen\", these days there are all kinds: ones made with Italian-style tomato sauce, ones you can eat like a salad, ones without soup, and so on."
+            "en": "So although it is all called \"ramen\", these days there are all kinds: ones made with Italian-style tomato sauce, ones you can eat like a salad, ones without soup, and so on."
           },
           {
             "cont": true,
             "ja": "ラーメンはしょうゆ**に{限|かぎ}る**と言う人も、一度食べてみる{価値|かち}があるのではないでしょうか。",
-            "en": "Even people who say soy-sauce ramen is the best might find them worth trying once."
+            "en": "Even people who say nothing beats soy-sauce ramen might find them worth trying at least once."
           },
           {
             "ja": "先日インターネットで{話題|わだい}になっているラーメン店に行ってみました。",
@@ -62,7 +62,7 @@ N2.register({
           {
             "cont": true,
             "ja": "2時間待たされましたが、さすがにそのラーメンはスープ**にしろ**、{具|ぐ}**にしろ**、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。",
-            "en": "I had to wait two hours, but true to its reputation, that ramen — whether the soup or the toppings — had the shop's own original touches, and it was something new, unlike anything before."
+            "en": "I had to wait two hours, but true to its reputation, that ramen — whether the soup or the toppings — had the shop's own original touches, and it was something new, unlike anything I'd had before."
           },
           {
             "cont": true,
@@ -113,7 +113,7 @@ N2.register({
               "en": "The reason the people of this country live with smiles on their faces even though they are poor is, quite simply, that they value richness of heart."
             }
           ],
-          "deepDive": "**〜にほかならない** (外ならない) literally means *is not other than ~*, so it is an emphatic *is precisely / is none other than ~*. The speaker rejects every other possible explanation and pins the matter on one thing: 成功の理由は努力にほかならない = *the reason for success is effort — nothing else*.\n\nRegister: it is a written, rather formal pattern — essays, speeches, editorials, articles. In conversation people say まさに〜だ, 〜そのものだ or just 〜なんです. The polite ending is 〜にほかなりません.\n\nConnection:\n- **N + にほかならない**: 愛情の表れにほかならない.\n- **〜から／ため + にほかならない** (＊ note): the typical shape for explaining reasons. The subject is usually 〜のは: 彼が怒ったのは、あなたを心配していたからにほかならない.\n- You cannot attach it directly to a verb: ✗努力するにほかならない → ✓努力することにほかならない.\n\nContrast with **〜にすぎない** (#101): both say *X is (only) Y*, but in opposite directions. にほかならない *raises* Y to the single decisive factor; にすぎない *shrinks* X to something small or unimportant. 努力の結果にほかならない (praise: it's all thanks to effort) vs. 偶然にすぎない (dismissive: it's mere chance).\n\nSimilar emphatic reason patterns: 〜からこそ (*precisely because*), and the written 〜ゆえ. JLPT tip: when a sentence begins with 〜のは and the blank follows から or ため, にほかならない is a strong candidate.",
+          "deepDive": "**〜にほかならない** (他ならない／外ならない) literally means *is not other than ~*, so it is an emphatic *is precisely / is none other than ~*. The speaker rejects every other possible explanation and pins the matter on one thing: 成功の理由は努力にほかならない = *the reason for success is effort — nothing else*.\n\nRegister: it is a written, rather formal pattern — essays, speeches, editorials, articles. In conversation people say まさに〜だ, 〜そのものだ or just 〜なんです. The polite ending is 〜にほかなりません.\n\nConnection:\n- **N + にほかならない**: 愛情の表れにほかならない.\n- **〜から／ため + にほかならない** (＊ note): the typical shape for explaining reasons. The subject is usually 〜のは: 彼が怒ったのは、あなたを心配していたからにほかならない.\n- You cannot attach it directly to a verb: ✗努力するにほかならない → ✓努力することにほかならない.\n\nContrast with **〜にすぎない** (#101): both say *X is (only) Y*, but in opposite directions. にほかならない *raises* Y to the single decisive factor; にすぎない *shrinks* X to something small or unimportant. 努力の結果にほかならない (praise: it's all thanks to effort) vs. 偶然にすぎない (dismissive: it's mere chance).\n\nSimilar emphatic reason patterns: 〜からこそ (*precisely because*), and the written 〜ゆえ. JLPT tip: when a sentence begins with 〜のは and the blank follows から or ため, にほかならない is a strong candidate.",
           "see": [
             101
           ],
@@ -288,7 +288,7 @@ N2.register({
                     "の{上|うえ}に"
                   ],
                   "answer": 0,
-                  "en": "Looking at GDP, our country is becoming richer according to the data, but the people's standard of living can't be called high, and raising it is a challenge for the future."
+                  "en": "Looking at GDP, our country has been growing richer on paper, but the people's standard of living can't be called high, and raising it is a challenge for the future."
                 },
                 {
                   "q": "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）{保証人|ほしょうにん}にもなってくれた。",
@@ -344,7 +344,7 @@ N2.register({
           "examples": [
             {
               "ja": "1{世帯|せたい}といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。",
-              "en": "Though we say \"one household\", they range from people living alone to large families of ten or more."
+              "en": "We may say \"one household\", but households range from people living alone to large families of ten or more."
             },
             {
               "ja": "A：夏休み、{北海道|ほっかいどう}に行ったんでしょう。うらやましいなあ。\nB：行ったといっても、4日だけですからあまりいろいろなところへは行けなかったんですよ。",
@@ -356,7 +356,7 @@ N2.register({
             },
             {
               "ja": "A：来月の{富士山日帰|ふじさんひがえ}りバスツアーは席がまだありますか？\nB：はい、まだございますが、あるといいましても、{残|のこ}りわずかですので、お早めにご予約ください。",
-              "en": "A: Are there still seats on next month's day-trip bus tour to Mt. Fuji?\nB: Yes, we do, though I should add that only a few remain, so please book early."
+              "en": "A: Are there still seats on next month's day-trip bus tour to Mt. Fuji?\nB: Yes, there are, but that said, only a few are left, so please book early."
             },
             {
               "ja": "A：あの店、CDが安いんだって？\nB：まあね。安いといっても10%だけどね。",
@@ -442,11 +442,11 @@ N2.register({
             },
             {
               "ja": "{嫌|いや}なことは忘れるに{限|かぎ}りますよ。",
-              "en": "The best thing to do with unpleasant things is to forget them."
+              "en": "When something unpleasant happens, the best thing is to forget it."
             }
           ],
           "xref": "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
-          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). These are the forms the book gives; with an い-adjective you'll mostly meet it in set phrases like ビールは冷たいに限る, and otherwise people rephrase with a noun: 安いものに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *it's always ~ who… / just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
+          "deepDive": "**〜に限る** (#104) means *nothing beats ~ / the best thing is ~*. It is a **personal recommendation or preference**, typically in a topic frame like 〜は / 〜なら / 〜ときは: 夏はかき氷に限る, 迷ったときは寝るに限る. It is conversational and a little folksy, and it sounds confident — the speaker isn't comparing carefully, just declaring their favorite.\n\nConnection: N, V-る, V-ない (近づかないに限る *best not to go near*). These are the forms the book gives; with an い-adjective people usually add の or rephrase: ビールは冷たいのに限る / 安いのが一番だ.\n\nBe careful — this is a different use from the **〜に限る / に限り** of chapter 1 (#3), which means *limited to / only*: 参加は会員に限る = *participation is limited to members*. Context tells them apart: a rule/notice with a restricted group → *only*; a personal opinion about what's best (often with やっぱり, 〜なら, 〜ときは) → *the best*. Compare:\n- 入場は大人に限る。 (*Admission: adults only.*)\n- 疲れたときは甘いものに限る。 (*When you're tired, sweets are the best.*)\n\nThe 限る family in this book (☞ similar pattern list 〜に限る／限り): **Nに限り / Nに限って〜ない** (#3), **V限り** *as long as* (#23), **Nに限らず** *not only* (#72), **Nに限って** *it's always ~ who… / just when* (#86).\n\nRelated ways to say *best*: 〜が一番だ (neutral), 〜に越したことはない (*it's best if ~, though not essential*). JLPT tip: if the sentence is advice with 〜ときは / 〜なら and there's no restriction to a group, choose に限る.",
           "see": [
             3,
             23,
@@ -502,7 +502,7 @@ N2.register({
             },
             {
               "ja": "ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの安定感はすばらしい。",
-              "en": "Being a German luxury car, its stability on the motorway is superb."
+              "en": "As you'd expect of a German luxury car, its stability on the expressway is superb."
             }
           ],
           "notes": [
@@ -573,7 +573,7 @@ N2.register({
                     "だけ"
                   ],
                   "answer": 1,
-                  "en": "This is a new cosmetic; just this alone will make your skin beautiful."
+                  "en": "This is a new cosmetic; this alone will make your skin beautiful."
                 },
                 {
                   "q": "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が{相当|そうとう}ショックだったようだ。",
@@ -768,7 +768,7 @@ N2.register({
             {
               "q": "どんな{事情|じじょう}がある＿＿、{犯罪|はんざい}は{許|ゆる}されない。",
               "answer": "にしろ",
-              "en": "Whatever the circumstances, crime cannot be forgiven."
+              "en": "Whatever the circumstances, crime cannot be excused."
             },
             {
               "q": "{京都|きょうと}は、昔、{都|みやこ}だった＿＿、古い文化が今も{残|のこ}っている。",
@@ -802,7 +802,7 @@ N2.register({
             {
               "q": "外国旅行は{団体|だんたい}で行く＿＿よ。言葉の{心配|しんぱい}もないし、{短時間|たんじかん}でいろいろなところへ行けるから。",
               "answer": "に{限|かぎ}る",
-              "en": "For trips abroad, going with a group is the best. You don't have to worry about the language, and you can visit lots of places in a short time."
+              "en": "For trips abroad, nothing beats going with a tour group. You don't have to worry about the language, and you can visit lots of places in a short time."
             },
             {
               "q": "リサイクルはごみを{減|へ}らすための1つの方法＿＿。ごみを{減|へ}らすのではなく、ごみが出ないようにすることも考えるべきだ。",
@@ -1179,7 +1179,7 @@ N2.register({
               "But... you couldn't become a pro baseball player either, could you?",
               "Well, that's because I got injured.",
               "I want him to become a school teacher like you.",
-              "It's true I'm glad I became a high school teacher too.",
+              "It's true — I'm glad I became a high school teacher myself.",
               "Right? On top of that, you coach the baseball team... It's a good life, isn't it?",
               "I do feel like recommending it to Takashi too, but he's still only a second-year in high school. Whether it's a baseball player or a teacher, it's his own life. Anyway, I don't think he needs to give up his dream now.",
               "What does the father think about Takashi's future?"
