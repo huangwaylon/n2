@@ -97,8 +97,12 @@ Keep the existing tokens. Add the book greys below, and use them for structure i
   spacing the lines; a word joiner keeps "b." on the same line as its text.
 - Passages (問題3 文章の文法 / 読解): paragraphs that open with 「 or 『 are not indented (book p.56). Reading-question options
   sit in columns when short (book p.57) instead of always one per line.
-- Phone text (≤600): prose is set ragged (`text-align: start`): at ~20 characters a line, justifying stretches a whole line
-  whenever an unbreakable word with furigana wraps. Sample headlines break only at the book's spaces (`word-break: keep-all`).
+- Book text is set ragged (`text-align: start`) at every width, horizontal and vertical: WebKit spreads a justified line
+  around every `<ruby>` ("重要　な　課題" on iPad mini), and at 20–40 characters a line the ragged edge stays within a character
+  or two. Sample headlines break only at the book's spaces (`word-break: keep-all`).
+- Inline boxes in running text sit on the text: ＿＿ blanks, write-in inputs are 1.4em tall with `vertical-align:
+  text-bottom` (their underline used to hang into the next line's furigana and stretch that line); tap areas come from
+  transparent `::after` / padding, never from the line box. Badges are 1.45em tall.
 - Every `<input>` and `<select>` must be **≥16px** on mobile. Today `select` is 14.7px, which makes iOS Safari zoom in on focus.
 
 ### 0.4 Shared primitives (base.css + helpers in app.js, [A])
