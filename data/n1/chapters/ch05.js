@@ -12,7 +12,7 @@ N2.register({
   "canDo": [
     {
       "ja": "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。",
-      "en": "Can read a TV drama script and understand the critical feelings of the characters."
+      "en": "Read a TV drama script and understand the characters' critical feelings."
     }
   ],
   "parts": [
@@ -870,7 +870,7 @@ N2.register({
       "canDo": [
         {
           "ja": "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。",
-          "en": "Can read a TV drama script and understand the complex feelings of the characters."
+          "en": "Read a TV drama script and understand the characters' complex feelings."
         }
       ],
       "sample": {
@@ -1078,12 +1078,12 @@ N2.register({
           ],
           "plus": [
             {
-              "pattern": "〜ば 〜で",
+              "pattern": "〜ば〜で",
               "stars": 2,
               "marks": [],
               "usage": {
-                "ja": "「〜ば 〜で」も同じように使われる。",
-                "en": "\"〜ば 〜で\" is also used in the same way."
+                "ja": "「〜ば〜で」も同じように使われる。",
+                "en": "\"〜ば〜で\" is also used in the same way."
               },
               "examples": [
                 {
@@ -1489,7 +1489,7 @@ N2.register({
       "canDo": [
         {
           "ja": "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。",
-          "en": "Can read a TV drama script and understand the situation and the characters' feelings."
+          "en": "Read a TV drama script and understand the situation and the characters' feelings."
         }
       ],
       "sample": {
@@ -1968,7 +1968,10 @@ N2.register({
               "にかこつけて"
             ],
             "answer": 0,
-            "en": "One or two would have been all right, but I was given as many as ten watermelons at once and didn't know what to do with them."
+            "en": "One or two would have been fine, but I was given ten watermelons all at once and didn't know what to do with them.",
+            "why": {
+              "en": "〜ならまだしも (#50): one or two would be acceptable, but ten is too much. The sentence complains (困ってしまった) that ten was too many, so a “would be fine, but” contrast is needed; といわず (#54) means “not just / every one”, and をいいことに (#47) and にかこつけて (#64) mean exploiting a situation or using it as a pretext."
+            }
           },
           {
             "q": "旅行中のトラブルは、ない（　）が、案外それがいい思い出になることもある。",
@@ -1979,7 +1982,10 @@ N2.register({
               "に{越|こ}したことはない"
             ],
             "answer": 3,
-            "en": "It's best not to have any trouble while traveling, but surprisingly it can sometimes turn into a good memory."
+            "en": "Of course it's best to have no trouble while traveling, but surprisingly that trouble can sometimes turn into a good memory.",
+            "why": {
+              "en": "ないに越したことはない (#60): having no trouble would be best. The が that follows (“but…”) fits a general recommendation, not きらいがある (a bad tendency, #11) or にもほどがある (criticism of excess, #49); ないほかしかたがない (“there's no choice but not to have”) makes no sense."
+            }
           },
           {
             "q": "いくらビタミンが豊富（　）、毎日こればかり食べているのはどうかなあ……。",
@@ -1990,7 +1996,10 @@ N2.register({
               "ならまだしも"
             ],
             "answer": 2,
-            "en": "However rich in vitamins it may be, I'm not so sure about eating nothing but this every day..."
+            "en": "It may be rich in vitamins, but I'm not so sure about eating nothing but this every day...",
+            "why": {
+              "en": "いくら〜とはいえ (#61): even granting that it's rich in vitamins, the speaker still has doubts. ならいざしらず (#58) and ならまだしも (#50) would need a contrasting, less acceptable case after them, and といおうか (#46) is for groping for the right word."
+            }
           },
           {
             "q": "A：なんで社長があんなこと言うのか理解できないよ。\nB：それ（　）、なんで彼が社長なのかが理解できないよ。",
@@ -2001,7 +2010,10 @@ N2.register({
               "にかこつけて"
             ],
             "answer": 1,
-            "en": "A: I can't understand why the president would say something like that.\nB: Before that, I can't understand why he's the president in the first place."
+            "en": "A: I can't understand why the president would say something like that.\nB: Never mind that — what I can't understand is why he's the president in the first place.",
+            "why": {
+              "en": "それ以前に (#51): B points to a more basic problem that comes before A's (why he is president at all). にひきかえ (#36) contrasts two things, and をいいことに (#47) / にかこつけて (#64) don't fit."
+            }
           },
           {
             "q": "{儲|もう}けは少ないが、値上げ（　）、客はみんな向こうの店に行ってしまう。",
@@ -2012,7 +2024,10 @@ N2.register({
               "ならまだしも"
             ],
             "answer": 1,
-            "en": "Our profits are small, but if we were ever to raise prices, all the customers would go to the shop across the street."
+            "en": "Our profits are small, but if we so much as tried to raise prices, all our customers would go over to the shop across the street.",
+            "why": {
+              "en": "値上げしようものなら (#57): if we did something like raising prices, a bad result (losing every customer) would follow. しないものか (#59) is a wish, and とはいえ / ならまだしも don't give the “if we did X, disaster” structure."
+            }
           },
           {
             "q": "マザー・テレサは、{貧困|ひんこん}に苦しむ人々を{黙|だま}って（　）のです。",
@@ -2023,7 +2038,10 @@ N2.register({
               "見たが最後だった"
             ],
             "answer": 2,
-            "en": "Mother Teresa could not just stand by in silence and watch people suffering from poverty."
+            "en": "Mother Teresa could not just stand by in silence and watch people suffering from poverty.",
+            "why": {
+              "en": "黙って見てはいられなかった: she could not bear to just stand by and watch, so she acted. 見るにもほどがある, 見るに越したことはない and 見たが最後 (#33) make no sense here."
+            }
           },
           {
             "q": "みんなが{遠慮|えんりょ}して注意しない（　）、あの人はいつもここにバイクを止めっぱなしにするんですよ。",
@@ -2034,7 +2052,10 @@ N2.register({
               "ものか"
             ],
             "answer": 0,
-            "en": "Taking advantage of the fact that everyone is too reserved to say anything, that person always leaves his motorbike parked here."
+            "en": "Taking advantage of the fact that everyone is too polite to say anything, that person always leaves his motorbike parked here.",
+            "why": {
+              "en": "〜のをいいことに (#47): he uses others' reluctance to complain as a chance to do something selfish. といおうか (#46) is for groping for words, のにもまして (#4) means “even more than”, and ものか is an emphatic denial."
+            }
           }
         ]
       }
@@ -2067,7 +2088,10 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "Given what it cost, I didn't expect much of the melon I bought yesterday, but it was pretty tasty."
+            "en": "Given what it cost (it was cheap), I didn't expect much of the melon I bought yesterday, but it was actually pretty tasty.",
+            "why": {
+              "en": "値段が値段だけに (#53) + あまり期待していなかった: “the price being what it was, I didn't expect much”. Order 4→3→2→1, so ★ = あまり."
+            }
           },
           {
             "before": "テレビでもパソコンでも、",
@@ -2085,7 +2109,10 @@ N2.register({
               2
             ],
             "star": 2,
-            "en": "Whether it's a TV or a computer, if you don't have one, you manage somehow without it."
+            "en": "Whether it's a TV or a computer, if you don't have one, you somehow manage without it anyway.",
+            "why": {
+              "en": "なかったらなかったで (#55) + なんとかなるものだ: even if you don't have one, you get by. Order 2→4→1→3, so ★ = なんとか."
+            }
           },
           {
             "before": "君がイチゴのショートケーキが食べたいと言うから、走って買いに行ってきたのに、もう",
@@ -2103,7 +2130,10 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "You said you wanted strawberry shortcake, so I ran out and bought some, and now you say you don't want it anymore? There are limits to how selfish you can be!"
+            "en": "You said you wanted strawberry shortcake, so I ran out to buy some, and now you're telling me you don't want it? That's just too selfish!",
+            "why": {
+              "en": "もういらないなんて + わがままにもほどがある (#49): saying you don't want it after all is selfish beyond what can be tolerated. Order 4→2→3→1, so ★ = わがまま."
+            }
           }
         ]
       }
@@ -2128,10 +2158,10 @@ N2.register({
           "{先輩|せんぱい}のはやぶささんもかっこよかったなあ。最後は{流|なが}れ{星|ぼし}になって。{僕|ぼく}も、{小惑星探査|しょうわくせいたんさ}、{成功|せいこう}させてみせるぞ。"
         ],
         "en": [
-          "Oh well, I've finally set off. The island is getting smaller and smaller. Sigh — it may be my job, but am I really going all that way just to fetch sand and soil and whatnot? And if I were going with my friends, fine, but all by myself...",
-          "Well, I can't just keep grumbling. Because the distance is what it is, they couldn't send just anyone. So, in terms of ability, I — the most outstanding one — was chosen, as was only natural.",
-          "Right, time to check my course and my engines. No problems with either.",
-          "My senior, Hayabusa, was really cool too. In the end he became a shooting star. I'm going to make my asteroid exploration a success, too — just watch."
+          "Oh man, I've finally set off. The island is getting smaller and smaller. Sigh... I know it's my job, but am I really going all that way just to fetch sand and soil and stuff? And going with a companion would be one thing, but all on my own...",
+          "Well, I can't just sit here grumbling. The distance being what it is, it can't be just anyone. So, going by ability, it was only natural that I, the most capable of all, was chosen.",
+          "Right, time to check my course and my engines. Both normal.",
+          "My senior, Hayabusa, was so cool too. At the end he became a shooting star. I'm going to make this asteroid mission a success too — just you watch."
         ],
         "blanks": [
           {
@@ -2143,7 +2173,7 @@ N2.register({
             ],
             "answer": 0,
             "why": {
-              "en": "仕事とはいえ: “it may be work, but (still)...” — conceding the point and then complaining."
+              "en": "仕事とはいえ (#61): “I know it's my job, but still…” — the speaker admits it is work and then complains anyway. 以前に (#51) and をいいことに (#47) don't fit, and に違いなく (“surely”) makes no sense after 仕事."
             }
           },
           {
@@ -2155,7 +2185,7 @@ N2.register({
             ],
             "answer": 1,
             "why": {
-              "en": "〜ならまだしも、僕だけで: going with companions would be acceptable, but going alone is not — contrasted with 僕だけで."
+              "en": "〜ならまだしも (#50) sets up a more acceptable case to contrast with the real one, 僕だけで (“all by myself”). Going with companions would be bearable; alone is not. 1人 is the real situation, not the contrast."
             }
           },
           {
@@ -2167,7 +2197,7 @@ N2.register({
             ],
             "answer": 1,
             "why": {
-              "en": "距離が距離だけに: because of the enormous distance, it can't just be anyone (誰でもいいというわけにはいかない), which leads to the most capable one being chosen."
+              "en": "距離が距離だけに (#53): because the distance is so great, 誰でもいいというわけにはいかない — it can't be just anyone. The next sentence (だから…一番優秀な僕が) follows from that. に越したことはない (#60) would recommend something, not rule it out."
             }
           },
           {
@@ -2179,7 +2209,7 @@ N2.register({
             ],
             "answer": 3,
             "why": {
-              "en": "〜べくして〜た: the most outstanding one was chosen, as was bound to happen."
+              "en": "選ばれるべくして選ばれた (#52): the most capable one was chosen, as was bound to happen. 選ぶに選べない (#63) means “can't choose even if you want to”, and 選ぶことは選ぶ only concedes that the choosing happens."
             }
           }
         ]
@@ -2204,9 +2234,9 @@ N2.register({
           "{前例|ぜんれい}がないからと言って、__部下のアイデアを全然認めないという上司__がいれば、トラブルも起きないが、成長も望めない。トラブルはないに{越|こ}したことはないが、それ以前に、リスクを取らないこと{自体|じたい}が{組織|そしき}にとってのリスクなのである。"
         ],
         "en": [
-          "Particularly in large organizations, there is a danger that a “don't-rock-the-boat” mentality will spread. The don't-rock-the-boat mentality is a passive attitude that puts avoiding trouble above everything else.",
-          "If you try something new and should happen to fail, you and the people around you have to take responsibility. So feelings such as wanting to avoid risk and wanting to escape responsibility come into play. Then, for example, people end up not doing anything that has no precedent or that they have not been instructed to do.",
-          "If there is a boss who rejects all of his subordinates' ideas on the grounds that there is no precedent, there will be no trouble, but there can be no growth either. It is best to have no trouble, but before that, not taking risks is itself a risk for an organization."
+          "Particularly in large organizations, there is a danger that a “don't rock the boat” mentality will spread. This mentality is a passive attitude that puts the absence of trouble above everything else.",
+          "If you try something new and then, heaven forbid, fail, you and the people around you have to take responsibility. So feelings like wanting to avoid risk and wanting to escape responsibility come into play. As a result, for example, people stop doing anything that has no precedent or that they haven't been instructed to do.",
+          "If there is a boss who refuses to accept any of his subordinates' ideas because there is no precedent for them, there will be no trouble, but no growth can be expected either. Of course it is best to have no trouble, but more fundamentally, not taking risks is in itself a risk for an organization."
         ],
         "items": [
           {
@@ -2218,9 +2248,9 @@ N2.register({
               "{組織|そしき}を成長させる例"
             ],
             "answer": 1,
-            "en": "What is the boss who rejects all of his subordinates' ideas an example of?",
+            "en": "What is “a boss who refuses to accept any of his subordinates' ideas” an example of?",
             "why": {
-              "en": "The boss who rejects ideas because there is no precedent is an example of 事なかれ主義, which the passage defines as a 消極的な態度 (passive attitude)."
+              "en": "Rejecting ideas because they have no precedent is the 事なかれ主義 behavior described in paragraph 2, and paragraph 1 defines 事なかれ主義 as a 消極的な態度 (passive attitude). Such a boss fears failure, avoids responsibility and stops the organization from growing, so 1, 3 and 4 are the opposite."
             }
           },
           {
@@ -2232,9 +2262,9 @@ N2.register({
               "リスクを{避|さ}けてばかりではよくない。"
             ],
             "answer": 3,
-            "en": "What does this person most want to convey?",
+            "en": "What does the writer most want to say?",
             "why": {
-              "en": "The conclusion: リスクを取らないこと自体が組織にとってのリスク — only ever avoiding risk is not good."
+              "en": "The final sentence carries the point: トラブルはないに越したことはない (#60) concedes that no trouble is best, but それ以前に (#51) not taking risks is itself a risk. So only ever avoiding risk is not good. Options 1 and 3 are the conceded point, and 2 is a step in the argument, not the main claim."
             }
           }
         ]
@@ -2243,7 +2273,7 @@ N2.register({
     {
       "title": {
         "ja": "問題5 〈{聴解|ちょうかい}〉",
-        "en": "Question 5: Listening — quick response"
+        "en": "Question 5: Listening (quick response)"
       },
       "ex": {
         "type": "listening",
@@ -2262,10 +2292,10 @@ N2.register({
               }
             ],
             "en": [
-              "It's best to finish that proposal quickly, of course, but it's already ten o'clock.",
-              "Then I'll do the rest tomorrow.",
-              "Finishing at ten would be too early, wouldn't it.",
-              "Won't it be in time if I do it tomorrow?"
+              "Of course the sooner you finish that proposal the better, but it's already ten o'clock.",
+              "OK, then I'll do the rest tomorrow.",
+              "Finishing it by ten would be too early.",
+              "You mean tomorrow will be too late?"
             ],
             "options": [
               "じゃあ、あとは明日にします。",
@@ -2274,7 +2304,7 @@ N2.register({
             ],
             "answer": 0,
             "why": {
-              "en": "〜に越したことはないけど: finishing early would be best, but it's late — implying she should stop for today, so she leaves the rest for tomorrow."
+              "en": "〜に越したことはない (#60) けど: finishing soon would be best, but it's already late. He is suggesting she stop for today, so she agrees to do the rest tomorrow. Option 3 wrongly takes it as “tomorrow is too late”."
             }
           },
           {
@@ -2286,10 +2316,10 @@ N2.register({
               }
             ],
             "en": [
-              "Don't use being busy as an excuse to skip your share of the housework.",
-              "I've got free time, so it can't be helped.",
-              "But it's cool, isn't it?",
-              "But I really am busy."
+              "Don't use being busy as an excuse to get out of your share of the housework.",
+              "I've got free time, so what can I do?",
+              "But it looks cool, doesn't it?",
+              "But I really am busy!"
             ],
             "options": [
               "{暇|ひま}なんだからしょうがないでしょ。",
@@ -2298,7 +2328,7 @@ N2.register({
             ],
             "answer": 2,
             "why": {
-              "en": "〜にかこつけて = using busyness as a pretext; the natural reply insists he really is busy."
+              "en": "忙しさにかこつけて (#64): she accuses him of using “being busy” as a pretext. The natural reply denies that it is a pretext: “But I really am busy!” Option 1 makes no sense (having free time is no reason to skip chores), and 2 is unrelated."
             }
           },
           {
@@ -2310,10 +2340,10 @@ N2.register({
               }
             ],
             "en": [
-              "Oh, you're so clumsy. I can't bear to watch. Let me have that for a second.",
+              "Oh, you're hopeless at this. I can't stand watching. Here, let me have that for a sec.",
               "Right, I'll give you a hand.",
               "Oh, you'll help me?",
-              "Well then, I'll try borrowing it."
+              "OK, then I'll try borrowing it."
             ],
             "options": [
               "そう、手伝ってあげるよ。",
@@ -2322,7 +2352,7 @@ N2.register({
             ],
             "answer": 1,
             "why": {
-              "en": "見ちゃいられない (見てはいられない): he can't stand watching and offers to take over, so she replies “You'll help me?”"
+              "en": "見ちゃいられない (= 見てはいられない): he can't stand watching her struggle, and それ、ちょっと貸して means he'll do it himself. So she responds “Oh, you'll help me?” In option 1 she would be the one helping, and in 3 the borrowing is the wrong way round."
             }
           },
           {
@@ -2334,9 +2364,9 @@ N2.register({
               }
             ],
             "en": [
-              "Ugh, isn't this room way too dirty?",
-              "Because I cleaned it yesterday.",
-              "If it's a room you want, there is one.",
+              "Ugh, isn't this room just way too dirty?",
+              "Well, I cleaned it yesterday.",
+              "There's a room, if that's what you mean.",
               "I'll clean it on Sunday."
             ],
             "options": [
@@ -2346,7 +2376,7 @@ N2.register({
             ],
             "answer": 2,
             "why": {
-              "en": "〜にもほどがある: the room is unacceptably dirty; the fitting reply promises to clean it."
+              "en": "汚いにもほどがある (#49): the room is unacceptably dirty. The fitting reply promises to clean it. Option 1 doesn't fit a room that is still filthy, and 2 misses the point."
             }
           },
           {
@@ -2358,19 +2388,19 @@ N2.register({
               }
             ],
             "en": [
-              "I'd say the cherry blossoms here are about a week from full bloom.",
+              "I'd say the cherry trees here are about a week away from full bloom.",
               "Oh, so they've just come into full bloom?",
               "What, there's still a whole month to go?",
-              "Then maybe cherry-blossom viewing around Sunday next week?"
+              "Then we could go cherry-blossom viewing around next Sunday."
             ],
             "options": [
               "ああ、{満開|まんかい}になったところですか。",
-              "まだ、1{ヵ|か}月もあるんですか。",
+              "まだ、1{カ|か}月もあるんですか。",
               "じゃあ、お花見は来週の日曜日ぐらいかな。"
             ],
             "answer": 2,
             "why": {
-              "en": "〜といったところ: roughly a week to go, so viewing next Sunday fits."
+              "en": "あと1週間といったところ (#62): “about a week to go, roughly”. A week from now is around next Sunday, so the plan to view the blossoms then fits. They are not in full bloom yet (1), and it's a week, not a month (2)."
             }
           }
         ]

@@ -3,7 +3,7 @@ N2F({
   part: 2,
   label: "(3)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the situation and the characters' feelings." },
+    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand the situation and the characters' feelings." },
   ],
   sample: {
     kind: "dialogue",

@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "ドラマのシナリオを読む", en: "Reading a TV Drama Script" },
     title: { ja: "{転職|てんしょく}", en: "Changing Jobs" },
     canDo: [
-      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the critical feelings of the characters." },
+      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand the characters' critical feelings." },
     ],
   },
   label: "(1)",

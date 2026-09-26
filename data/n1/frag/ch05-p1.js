@@ -3,7 +3,7 @@ N2F({
   part: 1,
   label: "(2)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", en: "Can read a TV drama script and understand the complex feelings of the characters." },
+    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand the characters' complex feelings." },
   ],
   sample: {
     kind: "dialogue",
@@ -121,10 +121,10 @@ N2F({
       ],
       plus: [
         {
-          pattern: "〜ば 〜で",
+          pattern: "〜ば〜で",
           stars: 2,
           marks: [],
-          usage: { ja: "「〜ば 〜で」も同じように使われる。", en: "\"〜ば 〜で\" is also used in the same way." },
+          usage: { ja: "「〜ば〜で」も同じように使われる。", en: "\"〜ば〜で\" is also used in the same way." },
           examples: [
             { ja: "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。", en: "A: I envy you having such a big garden.\nB: Oh, no. If you have a garden, then that has its own problems — looking after it takes both time and money, so…" },
             { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Some people say that if you don't have a wedding ceremony, well, that's perfectly fine too." },
