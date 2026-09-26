@@ -267,6 +267,7 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 .q.ng .feedback { border-left-color: var(--ng); }
 .feedback p { margin: 2px 0; }
 .feedback .full { font-size: 15.5px; }
+.opt-en { margin: 4px 0; padding-left: 1.6em; }
 .why-en { color: var(--en); font-family: system-ui, sans-serif; font-size: 0.95em; }
 .feedback:empty { display: none !important; }
 .q.graded.ok > .q-line > .qn, .q.graded.ok > .qn, .q.graded.ok > .lq-row > .qn { background: var(--ok); color: #fff; border-color: var(--ok); }

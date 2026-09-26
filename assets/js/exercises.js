@@ -8,7 +8,9 @@ const qnHtml = (n, style) => (style === "none" ? "" : style === "box" ? `<span c
 const exCount = (ex) => (ex.items || ex.blanks || ex.left || []).length;
 // feedback shown after grading: our translation of the item and the why-explanation
 const whyHtml = (w) => (w ? `<div class="why">${w.ja ? `<p>${fmt(w.ja)}</p>` : ""}${w.en ? `<p class="why-en en--gen">${fmt(w.en)}</p>` : ""}</div>` : "");
-const feedback = (it, before = "") => `<div class="feedback">${before}${en(it.en, "gen", "p")}${whyHtml(it.why)}</div>`;
+// optionsEn: our translations of printed answer options (reading and listening questions), numbered as printed
+const optionsEnHtml = (list) => (list && list.length ? `<ol class="en en--gen opt-en">${list.map((o) => `<li>${fmt(o)}</li>`).join("")}</ol>` : "");
+const feedback = (it, before = "") => `<div class="feedback">${before}${en(it.en, "gen", "p")}${optionsEnHtml(it.optionsEn)}${whyHtml(it.why)}</div>`;
 
 // option-grid columns (the book's 4 / 2 / 1) from the real width, so a short option never breaks inside a word
 // ("にあるまじ／き"): data-w is the widest option in em
@@ -232,7 +234,7 @@ function listeningBody(ex, c) {
     return `<div class="q choice-q listen-q${spoken ? " listen-q--resp" : ""}" data-i="${i}">
           <div class="lq-row${num === "none" ? " lq-row--nonum" : ""}">${qnHtml(c.off + i + 1, num) || "<span></span>"}${opts}${cdBadge(queue, `問題${c.off + i + 1}を聞く`)}</div>
           <details class="script"><summary>スクリプト <span class="en-inline">Transcript</span></summary><div class="dlg ja-book">${summary ? "" : qLine}${script}${summary ? qLine : ""}${optsForScript}</div></details>
-          <div class="feedback">${it.question && !resp ? `<p class="lq-q">質問：${fmt(it.question)}${qEn}</p>` : ""}${whyHtml(it.why)}</div>
+          <div class="feedback">${it.question && !resp ? `<p class="lq-q">質問：${fmt(it.question)}${qEn}</p>` : ""}${optionsEnHtml(it.optionsEn)}${whyHtml(it.why)}</div>
         </div>`;
   }).join("");
 }

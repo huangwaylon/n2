@@ -143,6 +143,9 @@ and then the options are spoken only after the script; the answer buttons are ba
 `replyV: "m"|"f"` on a `response` / `gist` item sets the voice of the spoken replies/options (default: the opposite of
 the script's first speaker) — e.g. N1 ch3 問題4-2 item 1, where M₂ answers M₁.
 
+`optionsEn: ["…", …]` on a `reading` item or a `task` / `summary` listening item: our translations of the printed
+options, in order (shown in the feedback after grading).
+
 An item with no `script` reuses the previous item's script (one talk → several questions, as in the book).
 
 ### ReviewSection

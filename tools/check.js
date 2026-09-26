@@ -71,6 +71,11 @@ function checkEnglish(ch, E) {
       (x.examples || []).forEach((e, j) => need(e, `${w} example${j + 1}`));
     }));
   });
+  // printed answer options of reading / listening questions (not the spoken or bare-number ones) get optionsEn
+  (ch.review || []).forEach((r, k) => {
+    const ex = r.ex, printed = ex.type === "reading" || (ex.type === "listening" && !["response", "gist"].includes(ex.mode));
+    if (printed) ex.items.forEach((it, i) => { if (!it.optionsEn || it.optionsEn.length !== it.options.length) E(`review${k} item${i}: optionsEn missing or wrong length`); });
+  });
   (function walk(o) { if (o && typeof o === "object") Object.entries(o).forEach(([k, v]) => { if (k === "zh") E("zh field (Chinese is not reproduced): " + JSON.stringify(v).slice(0, 50)); walk(v); }); })(ch);
 }
 
