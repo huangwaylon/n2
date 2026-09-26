@@ -30,7 +30,7 @@ TRY.registerChapter({
           phrase: "{速度|そくど}を速め**つつ**",
           stars: 2,
           marks: ["formal"],
-          usage: { ja: "「〜つつ」は、「〜ながら」と同じ意味で使う。", en: "" },
+          usage: { ja: "「〜つつ」は、「〜ながら」と同じ意味で使う。", en: "“〜つつ” is used with the same meaning as “〜ながら”.", gen: true },
           forms: ["[V-~~ます~~] + つつ"],
           examples: [
             { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべつつ、プレゼントを選ぶお父さんの{姿|すがた}が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces." },

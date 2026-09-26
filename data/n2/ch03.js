@@ -74,7 +74,7 @@ TRY.registerChapter({
           usage: { ja: "「～{限|かぎ}り…」は、「ここにいる{限|かぎ}り、安全だ」のように、「～の{状態|じょうたい}である（ここにいる）間は変わらない（安全だ）」と言いたいときに使う。", en: "As in “ここにいる{限|かぎ}り、安全だ”, use “～{限|かぎ}り…” when you want to say that something “will not change (is safe) so long as the situation is ～ (you are here).”" },
           forms: ["[V-る]／[V-ない] + {限|かぎ}り", "[V-て] いる + {限|かぎ}り"],
           formNotes: [
-            { ja: "「[なA] な + {限|かぎ}り」が使われることもある。", en: "The form なA + な + 限り is also sometimes used." },
+            { ja: "「[なA] な + {限|かぎ}り」が使われることもある。", en: "The form なA + な + 限り is also sometimes used.", gen: true },
           ],
           examples: [
             { ja: "{高齢者|こうれいしゃ}でも、働ける{限|かぎ}りは働きたいと思っている人が多い。", en: "Even among elderly people, many want to keep working as long as they are able to." },
@@ -140,7 +140,7 @@ TRY.registerChapter({
           usage: { ja: "「～ざるを{得|え}ない」は、{状況|じょうきょう}から、「{嫌|いや}だが～しなければならない・～するしかない」と言いたいときに使う。", en: "Use “～ざるを{得|え}ない” when you want to say “I don't like it, but I have to / there's nothing else I can do.”" },
           forms: ["[V-~~ない~~] + ざるを{得|え}ない"],
           formNotes: [
-            { ja: "「する」→「せざるを{得|え}ない」", en: "する becomes せざるを得ない." },
+            { ja: "「する」→「せざるを{得|え}ない」", en: "する becomes せざるを得ない.", gen: true },
           ],
           examples: [
             { ja: "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, there was no choice but to cancel the open-air concert." },
@@ -172,7 +172,7 @@ TRY.registerChapter({
           usage: { ja: "{一般的|いっぱんてき}にそう思われていることも、{絶対|ぜったい}そうだとは言えないと言いたいときに使う。", en: "Use this expression when you want to say that “people usually think so, but it's not necessarily like that.”" },
           forms: ["[Pl] + というものではない", "[Pl] + というものでもない"],
           formNotes: [
-            { ja: "「[なA]／[N] + というものではない」の形もある。", en: "The forms なA／N + というものではない also exist." },
+            { ja: "「[なA]／[N] + というものではない」の形もある。", en: "The forms なA／N + というものではない also exist.", gen: true },
           ],
           examples: [
             { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "With studying, it's not as if doing some today means you don't have to do any tomorrow." },
@@ -227,11 +227,11 @@ TRY.registerChapter({
           usage: { ja: "「～はともかく」は、「～」については今は考えないで、ほかの点について言いたいときに使う。", en: "Use “～はともかく” when you want to say that you are not thinking about “～” now but about other things instead." },
           forms: ["[N] + はともかく（として）"],
           formNotes: [
-            { ja: "「～かどうか」「{疑問詞|ぎもんし} + か」「動詞 + か」と一緒に使うこともある。", en: "It is also used with 〜かどうか, a question word + か, or a verb + か." },
+            { ja: "「～かどうか」「{疑問詞|ぎもんし} + か」「動詞 + か」と一緒に使うこともある。", en: "It is also used with 〜かどうか, a question word + か, or a verb + か.", gen: true },
           ],
           examples: [
             { ja: "今の仕事は、{給料|きゅうりょう}はともかく、やりがいがあるいい仕事だと思っています。", en: "Salary aside, I think my current job is a good, rewarding one." },
-            { ja: "この魚、{見|み}た{目|め}はともかく、味は最高ですから、ぜひ食べてみてください。", en: "This fish may not look like much, but the taste is superb, so please do try it." },
+            { ja: "この魚、{見|み}た{目|め}はともかく、味は最高ですから、ぜひ食べてみてください。", en: "Never mind how this fish looks — the taste is superb, so please do try it." },
             { ja: "試合の{結果|けっか}はともかくとして、最後まで{全力|ぜんりょく}で{戦|たたか}うことができたので{満足|まんぞく}だ。", en: "Whatever the result of the match, I was able to fight with everything I had right to the end, so I'm satisfied." },
             { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから{話題|わだい}になっている。", en: "Whatever you think of its content, that film is getting a lot of attention because its cast is famous." },
             { ja: "昨日見た{UFO|ユーフォー}{特集|とくしゅう}は本当かどうかはともかく、たいへん{興味深|きょうみぶか}い{番組|ばんぐみ}だった。", en: "Whether or not it was true, the UFO special I watched yesterday was a very interesting program." },
@@ -255,7 +255,7 @@ TRY.registerChapter({
                   q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。",
                   options: ["はともかく", "を{問|と}わず"],
                   answer: 0,
-                  en: "Even at a cheap hotel, a bath aside, it's a problem if there's no shower.",
+                  en: "Even at a cheap hotel, never mind a bathtub, it's a problem if there isn't at least a shower.",
                 },
                 {
                   q: "{国内外|こくないがい}（　）、{環境|かんきょう}に{配慮|はいりょ}した{製品|せいひん}の{開発|かいはつ}が{行|おこな}われている。",
@@ -341,8 +341,8 @@ TRY.registerChapter({
           usage: { ja: "「～てはいられない」は、「～の{状態|じょうたい}を続けることができない」と言いたいときや、「～ができる{状態|じょうたい}ではない」と言いたいときに使う。「仕事があるから寝てはいられない」には、寝ている状態から、起きて仕事をしなければならないと思って起き上がる場合と、今忙しい仕事をしていて寝られない{状態|じょうたい}だという場合がある。", en: "Use “～てはいられない” when you want to say “I can't do that so long as ～” or “I'm not in a situation where I can do ～”. You can say “仕事があるから寝てはいられない” if you wake up thinking that you have to get up and work or if you are so busy with work now that you cannot sleep." },
           forms: ["[V-て] + はいられない", "[V-~~て~~] + ちゃいられない"],
           formNotes: [
-            { ja: "て形が「～で」のときは「[V] + じゃいられない」になる。", en: "When the て-form ends in 〜で, it becomes V + じゃいられない." },
-            { ja: "「[N] + ではいられない」の形もある。", en: "There is also the form N + ではいられない." },
+            { ja: "て形が「～で」のときは「[V] + じゃいられない」になる。", en: "When the て-form ends in 〜で, it becomes V + じゃいられない.", gen: true },
+            { ja: "「[N] + ではいられない」の形もある。", en: "There is also the form N + ではいられない.", gen: true },
           ],
           examples: [
             { ja: "A：ちょっと休んだほうがいいですよ。\nB：この仕事を明日までに{仕上|しあ}げなきゃならないので、のんびり休んではいられないんですよ。", en: "A: You should take a little break.\nB: I have to finish this job by tomorrow, so I can't afford to sit back and rest." },
@@ -507,7 +507,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［5］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 5." },
         title: "",
         text: ["会社に{勤|つと}めている[1]、前の晩どんなに遅く{帰宅|きたく}しても、{翌朝|よくあさ}はいつも通り9時に[2]のが日本のサラリーマンだ。午前中[3]午後2時を{過|す}ぎると、人間の体のリズムから{自然|しぜん}に{眠|ねむ}くなる。", "そうなったら、{事故|じこ}や仕事のミスを生み[4]。{睡眠不足|すいみんぶそく}は、会社が休みの日にたくさん寝れば、{解消|かいしょう}する[5]。{眠|ねむ}くなる{時間帯|じかんたい}に短い{睡眠|すいみん}を取るほうが、{眠|ねむ}くなるのを{防|ふせ}げると専門家は言う。", "{東京|とうきょう}のビルにある「{仮眠室|かみんしつ}」には、多い日には120人も{訪|おとず}れるそうだ。利用者の話では、{眠気|ねむけ}を{解消|かいしょう}するには、深く{眠|ねむ}らないで15分{程度|ていど}軽く寝るのがいいということだ。"],
-        en: ["As long as they work for a company, Japanese salarymen have no choice but to get to the office at 9 the next morning as usual, however late they got home the night before. The morning aside, once it passes 2 p.m., people naturally become sleepy because of the body's rhythm.", "When that happens, it can lead to accidents and mistakes at work. Lack of sleep is not something that gets resolved just by sleeping a lot on your days off. Experts say that taking a short nap during the hours when you get sleepy is better for preventing drowsiness.", "Reportedly, as many as 120 people a day on busy days visit a \"nap room\" in a building in Tokyo. According to its users, the best way to get rid of drowsiness is to sleep lightly for about 15 minutes without falling into a deep sleep."],
+        en: ["As long as they work for a company, Japanese salarymen have no choice but to get to the office at 9 the next morning as usual, however late they got home the night before. The morning aside, once it passes 2 p.m., people naturally become sleepy because of the body's rhythm.", "When that happens, it can lead to accidents and mistakes at work. Lack of sleep is not something that gets resolved just by sleeping a lot on your days off. Experts say that taking a short nap during the hours when you get sleepy is better for preventing drowsiness.", "Reportedly, on busy days as many as 120 people visit a \"nap room\" in a building in Tokyo. According to its users, the best way to get rid of drowsiness is to sleep lightly for about 15 minutes without falling into a deep sleep."],
         blanks: [
           { options: ["というのは", "{限|かぎ}り", "においては", "というと"], answer: 1 },
           {

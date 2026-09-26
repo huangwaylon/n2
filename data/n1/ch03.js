@@ -120,7 +120,7 @@ TRY.registerChapter({
           examples: [
             { ja: "営業部は営業部なりに{頑張|がんば}っているんだろうが、売り上げはなかなか伸びていない。", en: "The sales department is probably doing its best in its own way, but sales just aren't growing." },
             { ja: "あの子は幼いなりに親を助けようと、いろいろ努力している。", en: "Young as she is, that child is making all kinds of efforts, in her own way, to help her parents." },
-            { ja: "お金がなければないなりに、楽しみ方はあるものだ。", en: "If you don't have money, there are still ways of enjoying yourself that suit having none." },
+            { ja: "お金がなければないなりに、楽しみ方はあるものだ。", en: "Even if you don't have money, there are ways to enjoy yourself that suit having none." },
             { ja: "この1年貯めたお金がそれなりの額になったから、親を旅行に連れて行こうと思っている。", en: "The money I've saved over this past year has grown to a decent amount, so I'm thinking of taking my parents on a trip." },
             { ja: "日本語が上達したらしたなりに、新しい疑問が次から次へと出てくる。", en: "As my Japanese improves, new questions to match my new level keep popping up one after another." },
           ],
@@ -171,7 +171,7 @@ TRY.registerChapter({
           phrase: "もらわ**ないでもない**",
           stars: 2,
           marks: [],
-          usage: { ja: "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり言い切りたくないときに使われる。「ぜひと頼まれれば、引き受けないでもない」のように「条件が合えば〜する（引き受ける）可能性はゼロではない」と言うときにも使われる。", en: "As in 高い気がしないでもない (I can't help feeling it's a bit expensive), 〜ないでもない is used when you don't want to state flatly that something is so ('I feel it's expensive'). As in ぜひと頼まれれば、引き受けないでもない (if I'm earnestly asked, I might take it on), it is also used to say 'if the conditions are right, the possibility that I'll do ~ (take it on) isn't zero'." },
+          usage: { ja: "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり言い切りたくないときに使われる。「ぜひと頼まれれば、引き受けないでもない」のように「条件が合えば〜する（引き受ける）可能性はゼロではない」と言うときにも使われる。", en: "As in 高い気がしないでもない (it's not that it doesn't feel a bit expensive), 〜ないでもない is used when you don't want to state flatly that something is so ('I feel it's expensive'). As in ぜひと頼まれれば、引き受けないでもない (if I'm earnestly asked, I might take it on), it is also used to say 'if the conditions are right, the possibility that I'll do ~ (take it on) isn't zero'." },
           forms: ["[V-~~ない~~] + ないでもない"],
           formNotes: [
             { ja: "＊「〜ないものでもない」「〜なくもない」の形も使われる。", en: "The forms 〜ないものでもない and 〜なくもない are also used." },
@@ -421,7 +421,7 @@ TRY.registerChapter({
             { q: "今回の大統領の{訪日|ほうにち}中の行動は{異例|いれい}＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", answer: "ずくめ", en: "The president's conduct during this visit to Japan was unprecedented from start to finish, and it bewildered the staff of the Foreign Ministry." },
             { q: "100年前の女性たちには、{選挙|せんきょ}に{立候補|りっこうほ}する権利＿＿、{投票|とうひょう}する権利さえなかった。", answer: "はおろか", en: "A hundred years ago, women didn't even have the right to vote, let alone the right to stand for election." },
             { q: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を打ち出そうとしない。", answer: "をよそに", en: "Ignoring the business world's concern about the shrinking workforce caused by the falling birthrate, the government isn't trying to come up with any effective policy." },
-            { q: "当時は、収入も少なかったが、貧しい＿＿生活の工夫をしたものだった。", answer: "なりに", en: "Our income was small back then, but poor as we were, we found our own ways of making the most of daily life." },
+            { q: "当時は、収入も少なかったが、貧しい＿＿生活の工夫をしたものだった。", answer: "なりに", en: "Our income was small back then, but poor as we were, we used to find our own clever ways of getting by." },
             { q: "{漫画家|まんがか}＿＿医学{博士|はくし}でもあった{手塚治虫|てづかおさむ}は、その知識を作品に{生|い}かしている。", answer: "にして", en: "Osamu Tezuka, who was both a manga artist and a doctor of medicine, made use of that knowledge in his works." },
           ],
         },
