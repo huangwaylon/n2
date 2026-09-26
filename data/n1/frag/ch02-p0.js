@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "スピーチを聞く", en: "Listening to a Speech" },
     title: { ja: "産業医を増やそう", en: "Let's Increase the Number of Occupational Physicians" },
     canDo: [
-      { ja: "{公的|こうてき}な立場の人のスピーチを聞いて、現状の説明と{提言|ていげん}が理解できる。", en: "Listen to a speech by someone in an official position and understand their explanation of the current situation and their proposal." },
+      { ja: "{公的|こうてき}な立場の人のスピーチを聞いて、現状の説明と{提言|ていげん}が理解できる。", en: "Listen to a speech by someone in a public position and understand their explanation of the current situation and their proposal." },
     ],
   },
   label: "",
@@ -15,12 +15,12 @@ N2F({
       { ja: "さいわい市、市議会の皆様、市長の{松本義男|まつもとよしお}です。", en: "Members of the Saiwai City Council, I am Mayor Yoshio Matsumoto." },
       { cont: true, ja: "今から「産業医※{増員|ぞういん}3{カ|か}年計画」についてお話しさせていただきます。", en: "I would now like to speak to you about the “Three-Year Plan to Increase Occupational Physicians*.”" },
       { ja: "これは{小規模|しょうきぼ}{事業所|じぎょうしょ}に対して産業医を置くために、市が{補助|ほじょ}をする制度です。", en: "This is a scheme under which the city provides subsidies so that small workplaces can have an occupational physician." },
-      { cont: true, ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市**に{至|いた}っては**わずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but among workplaces of this size only about 8% nationwide have appointed an occupational physician — and in Saiwai City the figure is a mere 5%." },
+      { cont: true, ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市**に{至|いた}っては**わずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but among workplaces of this size the national average of those that have appointed an occupational physician is only about 8% — and in Saiwai City it is lower still, a mere 5%." },
       { cont: true, ja: "つまり、市内の{小規模|しょうきぼ}{事業所|じぎょうしょ}の95%に産業医がいない状況であります。", en: "In other words, 95% of the small workplaces in the city have no occupational physician." },
       { ja: "{中小企業|ちゅうしょうきぎょう}**といえども**、労働者の健康に責任を持つべきなのは言うまでもないことです。", en: "It goes without saying that even small and medium-sized businesses should take responsibility for their workers' health." },
       { cont: true, ja: "発見が遅れ、{病状|びょうじょう}が{悪化|あっか}して{休職|きゅうしょく}**を{余儀|よぎ}なくされる**{方|かた}も増えているのです。", en: "More and more people are being forced to take leave from work because an illness was discovered late and their condition worsened." },
       { cont: true, ja: "もはや{一刻|いっこく}**たりとも**{猶予|ゆうよ}はできません。", en: "We can no longer afford to delay even a single moment." },
-      { ja: "働き{盛|ざか}りの人たちは仕事を{重視|じゅうし}しすぎて、健康管理がおろそかになる**きらいがあります**。", en: "People in the prime of their working lives tend to put too much weight on their work and neglect their health." },
+      { ja: "働き{盛|ざか}りの人たちは仕事を{重視|じゅうし}しすぎて、健康管理がおろそかになる**きらいがあります**。", en: "People in the prime of their working lives put too much weight on their work and have an unfortunate tendency to neglect their health." },
       { cont: true, ja: "{私|わたくし}たちは{行政|ぎょうせい}の立場から、働く人の健康に対してもっと関心を持ち、さらにサポート体制を{充実|じゅうじつ}させていく必要があります。", en: "We, as the administration, need to take a greater interest in the health of working people and further strengthen our support system." },
       { ja: "このようなことから、今回のご{提案|ていあん}をさせていただく**{次第|しだい}です**。", en: "It is for these reasons that I am making this proposal to you today." },
       { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の{方々|かたがた}のご指導**をもって**、「住みたい町ベストテン」入りなど、多くの{実績|じっせき}をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has achieved a great deal, including making the list of the “Top Ten Towns to Live In.”" },
@@ -41,18 +41,18 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "まず比較する例を{挙|あ}げて、「〜に{至|いた}っては」の形で「〜の場合はさらに」と言うときに使われる。",
-        en: "Used when you first give examples for comparison and then, with the form “〜に至っては”, say “in the case of 〜, it is even more so.”",
+        en: "Used when you first give examples to compare against and then, with the form “〜に至っては”, say “and in the case of 〜, it goes even further.”",
       },
       forms: ["[N] + に{至|いた}っては"],
       examples: [
-        { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and among those in their twenties a mere 13%." },
+        { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and among those in their twenties it was down to 13%." },
         { ja: "調査によると、昨年度の{新卒者|しんそつしゃ}の{就職率|しゅうしょくりつ}は、大学卒業者が約55%、高校卒業者に{至|いた}っては17%以下と過去最低の状況となったとのことだ。", en: "According to the survey, last year's job placement rate for new graduates was about 55% for university graduates, and for high-school graduates it fell to 17% or lower — the worst on record." },
         { ja: "彼は{侍|さむらい}の家に生まれたが、読書好きで、{剣|けん}もちょっと習った程度で、{弓|ゆみ}や{槍|やり}に{至|いた}っては触ったことさえないという男だった。", en: "He was born into a samurai family, but he loved reading, had only studied swordsmanship a little, and as for the bow and the spear, he had never so much as touched them." },
       ],
       deepDive:
         "**Nに至っては** comes from 至る *to reach, to go as far as*. Literally *when it gets as far as N*, it introduces the **most extreme case at the end of a list**: after one or more examples, it says *and as for N, it's even more so*. The book's sample is textbook usage: 全国平均で8%程度、さいわい市に至ってはわずか5% — the national figure is already low; Saiwai's is lower still.\n\n" +
         "Key features:\n" +
-        "- It almost always describes something **negative or surprising**: low numbers, bad behavior, lack of ability. The extreme case is worse than what came before (わずか, 〜さえない, 〜すらしない, 全く〜ない often follow).\n" +
+        "- It usually describes something **negative or surprising**: low numbers, bad behavior, lack of ability (わずか, 〜さえない, 〜すらしない, 全く〜ない often follow). But what matters is that the last case is the **most extreme** in the same direction as the others — it can also be extreme popularity, as in the practice (限定100個のどら焼きに至っては連日開店前に行列ができる).\n" +
         "- It needs **a preceding comparison**. You can't open a sentence cold with 田中さんに至っては…; first say what the others are like.\n" +
         "- Register: written or formal speech (reports, news, speeches). In conversation people say 〜なんか or 〜なんて: 弟なんか一度も来ない.\n\n" +
         "Don't confuse it with the related forms of 至る:\n" +
@@ -83,8 +83,8 @@ N2F({
           en: [
             "In this country, if annual income in urban areas is taken as 100, it is 60 in rural areas and apparently a mere 35 in mountain areas.",
             "All of Ishidaya's sweets are popular, but their limited run of 100 dorayaki is so popular that a line forms before the shop opens every day.",
-            "Humidity around here is low all year round, and in December it is not unusual for days below 20% to continue for more than a week.",
-            "Everyone in my family is the type who can't throw things away, and my mother even carefully keeps wrapping paper and empty cans from decades ago.",
+            "Humidity around here is low all year round, and in December it is not unusual for it to stay below 20% for more than a week at a time.",
+            "Everyone in my family is the type who can't throw things away, and my mother is the worst: she carefully keeps even wrapping paper and empty cans from decades ago.",
           ],
         },
       ],
@@ -98,12 +98,12 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜といえども」は「〜でも」という意味で、「社長といえども1人で何でも決められるわけではない」のように、「事実や条件（社長）から当然予想される結果（何でも決められる）とは違う」と言いたいときに使われる。",
-        en: "“〜といえども” means “even 〜.” As in “社長といえども1人で何でも決められるわけではない” (Even the company president can't decide everything on his own), it is used when you want to say that the outcome differs from what would naturally be expected from a fact or condition (the president → being able to decide anything).",
+        en: "“〜といえども” means “even 〜.” As in “社長といえども1人で何でも決められるわけではない” (Even the company president can't decide everything on his own), it is used when you want to say that things differ from the result you would naturally expect from a fact or condition (being the president → being able to decide everything).",
       },
       forms: ["[N] + といえども"],
       formNotes: [
         { ja: "＊「〜といえど」も同じ意味で使われる。", en: "“〜といえど” is also used with the same meaning." },
-        { ja: "＊「世界広し・{老|お}いたり・少なり」など古い表現と一緒に使われることもある。", en: "It is sometimes used together with old-fashioned expressions such as 世界広し (the world is wide), 老いたり (has grown old) and 少なり (is few)." },
+        { ja: "＊「世界広し・{老|お}いたり・少なり」など古い表現と一緒に使われることもある。", en: "It is sometimes used together with old, classical expressions such as 世界広し (the world is wide), 老いたり (has grown old) and 少なり (is few)." },
       ],
       examples: [
         { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "Though we are only a tiny business, we pride ourselves on having technology that is a match for any large corporation." },
@@ -134,7 +134,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
           items: [
-            { q: "名人といえども、（　）。", options: ["作品のすべてが{傑作|けっさく}というわけではない", "{誰|だれ}からも認められ、尊敬されている"], answer: 0, en: "Even a master does not produce masterpieces every single time.", why: { en: "といえども needs a result contrary to expectation; being respected by everyone is exactly what you'd expect of a master." } },
+            { q: "名人といえども、（　）。", options: ["作品のすべてが{傑作|けっさく}というわけではない", "{誰|だれ}からも認められ、尊敬されている"], answer: 0, en: "Even a master's works are not all masterpieces.", why: { en: "といえども needs a result contrary to expectation; being respected by everyone is exactly what you'd expect of a master." } },
             { q: "いかにかわいい{子熊|こぐま}といえども、（　）。", options: ["抱き上げたくなる", "不用意に近づくと危険だ"], answer: 1, en: "No matter how cute a bear cub may be, it is dangerous to approach it carelessly." },
             { q: "アルバイトといえども、仕事に責任を（　）。", options: ["持たなければならない", "持つ義務はない"], answer: 0, en: "Even as a part-timer, you must take responsibility for your work." },
             { q: "野球チームの練習中は、{我|わ}が{子|こ}といえども（　）つもりだ。", options: ["特別{扱|あつか}いはしない", "特別に指導する"], answer: 0, en: "During the baseball team's practice, I don't intend to give special treatment even to my own child." },
@@ -158,7 +158,7 @@ N2F({
       examples: [
         { ja: "景気{悪化|あっか}に{伴|ともな}い、工場は{閉鎖|へいさ}を{余儀|よぎ}なくされた。", en: "As the economy deteriorated, the factory was forced to close." },
         { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により{未|いま}だに{避難所|ひなんじょ}での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still forced to live in evacuation shelters." },
-        { ja: "このまま利用者が減れば、この鉄道は{廃線|はいせん}を{余儀|よぎ}なくされるだろう。", en: "If the number of passengers keeps falling like this, the railway will probably be forced to close the line." },
+        { ja: "このまま利用者が減れば、この鉄道は{廃線|はいせん}を{余儀|よぎ}なくされるだろう。", en: "If the number of passengers keeps falling like this, this railway line will probably be forced to shut down." },
       ],
       notes: [
         {
@@ -184,7 +184,7 @@ N2F({
         "- **〜しかない / 〜ほかない**: *have no choice but to* — neutral, conversational.\n" +
         "- **やむを得ず**: *unavoidably* (adverb), also formal.\n" +
         "- **余儀ない事情** / **余儀なく〜する**: adjective and adverb uses (余儀なく撤退した).\n\n" +
-        "JLPT tip: in the practice and the まとめ questions the task is to pick the **unwanted action** that fits the cause (変更 not 続行, 休業 not 開発, 中止 not 開始, 辞任 not 責任).",
+        "JLPT tip: in the practice the task is to pick the **unwanted action** that fits the cause (変更 not 続行, 休業 not 開発, 中止 not 開始, 辞任 not 責任).",
       see: [],
       index: ["Nを余儀なくされる", "Nを余儀なくさせる", "〜を余儀なくされる"],
       practice: [
@@ -210,7 +210,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜たりとも…」は「1人たりとも逃すな」のように「その少ない単位（1人）でも絶対…ない（逃がさない）」と言いたいときに使われる。",
-        en: "As in “1人たりとも逃すな” (Don't let even one person get away), “〜たりとも…” is used when you want to say “not … (let get away) even that small a unit (one person).”",
+        en: "As in “1人たりとも逃すな” (Don't let even one person get away), “〜たりとも…” is used when you want to say “absolutely not … (let get away), not even so small a unit (one person).”",
       },
       forms: ["1 + {助数詞|じょすうし} + たりとも + …ない"],
       formNotes: [
@@ -259,7 +259,7 @@ N2F({
       marks: ["regret", "formal"],
       usage: {
         ja: "「〜きらいがある」は「〜という良くない傾向や性質がある」と言いたいときに使われる。",
-        en: "“〜きらいがある” is used when you want to say “there is a bad tendency or characteristic of 〜.”",
+        en: "“〜きらいがある” is used when you want to say that someone or something “has the undesirable tendency or nature of 〜.”",
       },
       forms: ["[V-る]／[V-ない] + きらいがある"],
       formNotes: [
@@ -269,7 +269,7 @@ N2F({
         { ja: "私たちは{国籍|こくせき}だけでその人の性格を判断してしまうきらいがある。", en: "We have a tendency to judge a person's character by their nationality alone." },
         { ja: "{先輩|せんぱい}は親切でいい人だが、お{節介|せっかい}を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but he tends to be a busybody." },
         { ja: "{叔母|おば}は、周りの人の気持ちを考えないきらいがあり、思ったことを何でも口にする。", en: "My aunt tends not to think about other people's feelings and says whatever comes into her head." },
-        { ja: "{大型|おおがた}電気店の値下げ競争は、消費者にとってはありがたいが、最近は少々行きすぎのきらいがある。", en: "The price war among big electronics stores is welcome for consumers, but lately it seems to be going a little too far." },
+        { ja: "{大型|おおがた}電気店の値下げ競争は、消費者にとってはありがたいが、最近は少々行きすぎのきらいがある。", en: "The price war among big electronics stores is welcome for consumers, but lately it has tended to go a little too far." },
       ],
       deepDive:
         "**きらい** here is the noun 嫌い in an old sense: *a (regrettable) tendency, a leaning*. **〜きらいがある** = *has a tendency to ~*, always about an **undesirable** habit or trait — hence the regret icon. It's a critical but polite, somewhat detached way of pointing out a fault: 健康管理がおろそかになるきらいがあります.\n\n" +
@@ -315,7 +315,7 @@ N2F({
       forms: ["[V-Pl] + {次第|しだい}だ"],
       examples: [
         { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be difficult with our company's technical capabilities, and that is why we declined it." },
-        { ja: "出張と重なってしまったために、会議を中止させていただいた{次第|しだい}です。", en: "Because it clashed with a business trip, we took the liberty of cancelling the meeting." },
+        { ja: "出張と重なってしまったために、会議を中止させていただいた{次第|しだい}です。", en: "The meeting clashed with a business trip, and that is why we have taken the liberty of cancelling it." },
         { ja: "国際交流イベントの成功のために、広く皆様にご協力をお願い申し上げる{次第|しだい}です。", en: "It is for the success of the international exchange event that I am asking all of you for your cooperation." },
         { ja: "調査結果がまだまとまっていないために、会議でご報告できなかった{次第|しだい}です。", en: "The reason we could not report at the meeting is that the survey results have not yet been compiled." },
       ],
@@ -331,7 +331,7 @@ N2F({
         "- **N + 次第だ / 次第で**: *depends on N* — 合否は努力次第だ, 天候次第では中止.\n" +
         "- **〜次第です** (this point): *that is the situation / that is why*.\n" +
         "- **事と次第によっては**: *depending on how things turn out*.\n\n" +
-        "Pitfall: don't use it for other people's reasons in casual talk; it sounds like a formal account given by the speaker.",
+        "Pitfall: it is a formal account of the speaker's own (or their organization's) actions. It is out of place in casual conversation and is not used to explain other people's reasons.",
       see: [],
       index: ["〜次第だ", "〜次第です"],
     },
@@ -344,7 +344,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜をもって」は「〜を手段・方法にして」と言いたいときに使う。「電話で話す」のように日常的なものには使わない。",
-        en: "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday things, as in “電話で話す” (talk on the phone).",
+        en: "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday means, as in “電話で話す” (talk on the phone).",
       },
       forms: ["[N] + をもって"],
       examples: [
@@ -378,7 +378,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "会の代表は{多数決|たすうけつ}（　）{選出|せんしゅつ}されました。", options: ["をもって", "にこたえて"], answer: 0, en: "The representative of the association was chosen by majority vote." },
-            { q: "{負傷|ふしょう}した選手（　）、{控|ひか}えの選手が出場した。", options: ["をもって", "にかわって"], answer: 1, en: "A reserve player took the field in place of the injured player." },
+            { q: "{負傷|ふしょう}した選手（　）、{控|ひか}えの選手が出場した。", options: ["をもって", "にかわって"], answer: 1, en: "A reserve player took the field in place of the injured player.", why: { en: "The injured player is not a means but the person being replaced: にかわって *in place of*." } },
             { q: "今回の台風（　）各地に大きな被害が出た。", options: ["をもって", "によって"], answer: 1, en: "This typhoon caused serious damage in various places.", why: { en: "The typhoon is a cause, not a means; をもって can't mark a cause." } },
             { q: "{退会|たいかい}を希望する場合は{書面|しょめん}（　）その{旨|むね}を届け出なければならない。", options: ["をもって", "をめぐって"], answer: 0, en: "If you wish to leave the association, you must notify us to that effect in writing." },
           ],
@@ -429,7 +429,7 @@ N2F({
           items: [
             { q: "何より学生あっての学校だから、（　）の{要望|ようぼう}をよく聞くべきだ。", options: ["学生", "教師"], answer: 0, en: "Above all, a school exists for its students, so it should listen carefully to what the students want." },
             { q: "美しい自然あっての観光地なのに、（　）なんて……。", options: ["山を守ってホテルを建てない", "山を{崩|くず}してホテルを建てる"], answer: 1, en: "It's a tourist spot that exists only because of its beautiful nature, and yet they're going to cut into the mountain to build a hotel…" },
-            { q: "相手あってのビジネスだから、こちらの{都合|つごう}だけ（　）うまくいかない。", options: ["言わなければ", "言っていても"], answer: 1, en: "Business depends on the other party, so if you only talk about what suits you, it won't go well." },
+            { q: "相手あってのビジネスだから、こちらの{都合|つごう}だけ（　）うまくいかない。", options: ["言わなければ", "言っていても"], answer: 1, en: "Business depends on the other party, so if you only talk about what suits you, it won't go well.", why: { en: "Because business depends on the other side, insisting only on your own convenience (言っていても) won't work." } },
             { q: "読者あっての新聞ではあるが、（　）内容は何でもいいというわけではない。", options: ["人気があれば", "事件が起きれば"], answer: 0, en: "A newspaper does depend on its readers, but that doesn't mean any content is fine as long as it's popular." },
           ],
         },
@@ -444,7 +444,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜てやまない」は「長い間、強く〜と思っている」と言いたいときに使われる。",
-        en: "“〜てやまない” is used when you want to say “one has long and strongly felt 〜.”",
+        en: "“〜てやまない” is used when you want to say “I have strongly felt 〜 for a long time.”",
       },
       forms: ["[V-て] + やまない"],
       formNotes: [
@@ -457,7 +457,7 @@ N2F({
         { ja: "便利な生活を求めてやまない人間の{欲望|よくぼう}が、さまざまな{矛盾|むじゅん}を生み出している。", en: "Humanity's endless craving for a convenient life is creating all kinds of contradictions." },
       ],
       deepDive:
-        "**V-てやまない** literally means *doing V without stopping* (止む = *to stop, cease*). It expresses a feeling that is **deep, sincere and lasting**: 願ってやみません *I sincerely hope*, 尊敬してやまない *whom I deeply admire*. It is a staple of the closing lines of formal speeches, letters and greetings: 皆様のご活躍を願ってやみません; ご健康をお祈りしてやみません.\n\n" +
+        "**V-てやまない** literally means *doing V without stopping* (止む = *to stop, cease*). It expresses a feeling that is **deep, sincere and lasting**: 願ってやみません *I sincerely hope*, 尊敬してやまない *whom I deeply admire*. It is a staple of the closing lines of formal speeches, letters and greetings: 皆様のご活躍を願ってやみません; ご健康を祈ってやみません.\n\n" +
         "Restrictions:\n" +
         "- Used with verbs of **feeling or wishing**: 願う, 祈る, 期待する, 望む, 愛する, 尊敬する, 求める, 憧れる. ✗走ってやまない.\n" +
         "- In the sentence-final form the subject is **the speaker** (私は…願ってやみません). As a noun modifier it can describe others or people in general: 求めてやまない人間の欲望, 愛してやまない故郷.\n" +
@@ -476,10 +476,10 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "彼は{誰|だれ}もが{敬愛|けいあい}し（　）優れた指導者だった。", options: ["てやまない", "てならない"], answer: 0, en: "He was an outstanding leader whom everyone deeply loved and respected." },
-            { q: "今年の夏は{連日|れんじつ}40度近くて、暑く（　）。", options: ["てやまない", "てたまらない"], answer: 1, en: "This summer it's close to 40 degrees day after day, and it's unbearably hot." },
+            { q: "彼は{誰|だれ}もが{敬愛|けいあい}し（　）優れた指導者だった。", options: ["てやまない", "てならない"], answer: 0, en: "He was an outstanding leader whom everyone deeply loved and respected.", why: { en: "敬愛する is a verb of lasting admiration, so てやまない fits; てならない is for feelings one can't help having (悔しくてならない)." } },
+            { q: "今年の夏は{連日|れんじつ}40度近くて、暑く（　）。", options: ["てやまない", "てたまらない"], answer: 1, en: "This summer it's close to 40 degrees day after day, and it's unbearably hot.", why: { en: "Heat is a physical sensation after an い-adjective (暑く): てたまらない. てやまない goes with verbs of wishing or admiring." } },
             { q: "あと少しで優勝できたのに、最後に抜かれて、{悔|くや}しく（　）。", options: ["てやまない", "てならない"], answer: 1, en: "We were so close to winning, but we were overtaken at the end, and I can't help feeling frustrated." },
-            { q: "医学者シュバイツァーは{生涯|しょうがい}、音楽を愛し（　）。", options: ["てやまなかった", "てたまらなかった"], answer: 0, en: "The medical scholar Schweitzer loved music deeply throughout his life." },
+            { q: "医学者シュバイツァーは{生涯|しょうがい}、音楽を愛し（　）。", options: ["てやまなかった", "てたまらなかった"], answer: 0, en: "Albert Schweitzer, the medical scholar, loved music deeply all his life." },
           ],
         },
       ],
@@ -495,7 +495,7 @@ N2F({
         { q: "初めて家庭菜園に{挑戦|ちょうせん}して、苦労して育てた{大根|だいこん}だから、1本＿＿{無駄|むだ}にしたくない。", answer: "たりとも", en: "These are daikon radishes I grew with great effort on my first try at a vegetable garden, so I don't want to waste even a single one." },
         { q: "{山田|やまだ}さんの料理はまずいわけではないが、味が濃すぎる＿＿。", answer: "きらいがある", en: "Mr. Yamada's cooking isn't bad, but it tends to be too strongly seasoned." },
         { q: "チャンピオン＿＿、油断すれば負けてしまうほど、勝負は{厳|きび}しいものだ。", answer: "といえども", en: "Competition is so tough that even a champion will lose if he lets his guard down." },
-        { q: "{原油|げんゆ}が値上がりしたために、値上げせざるを得なくなった＿＿。", answer: "{次第|しだい}です", en: "Because the price of crude oil has gone up, we have had no choice but to raise our prices. That is the situation." },
+        { q: "{原油|げんゆ}が値上がりしたために、値上げせざるを得なくなった＿＿。", answer: "{次第|しだい}です", en: "It is because the price of crude oil has gone up that we have had no choice but to raise our prices." },
       ],
     },
     {
@@ -505,8 +505,8 @@ N2F({
       items: [
         { q: "結婚だマイホームだといっても、安定した収入＿＿ことだ。", answer: "あっての", en: "Marriage, a home of your own — all of that is possible only with a stable income." },
         { q: "試合中の目のけががもとで引退＿＿ボクサーは、本当に{気|き}の{毒|どく}だ。", answer: "を{余儀|よぎ}なくされた", en: "I really feel sorry for the boxer who was forced to retire because of an eye injury during a match." },
-        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "With a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced." },
-        { q: "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", answer: "に{至|いた}っては", en: "This drama's first episode had a 31.5% rating, and its peak rating apparently came close to 40%." },
+        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "We must seek the forgiveness of the customers we have inconvenienced by means of a heartfelt apology." },
+        { q: "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", answer: "に{至|いた}っては", en: "This drama's first episode had a 31.5% rating, and its peak rating was higher still, apparently close to 40%." },
       ],
     },
   ],
