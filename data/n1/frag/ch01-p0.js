@@ -38,8 +38,8 @@ N2F({
         en: "〜を皮切りに is used when you want to say “starting with ~, similar things follow one after another.” It is often used when something is becoming more active and popular, or is developing and expanding.",
       },
       forms: [
-        "[V-る]／[V-た] + の + を{皮切|かわき}りに（して）",
-        "[V-る]／[V-た] + の + を{皮切|かわき}りとして",
+        "[V-る]／[V-た] ＋ の + を{皮切|かわき}りに（して）",
+        "[V-る]／[V-た] ＋ の + を{皮切|かわき}りとして",
         "[N] + を{皮切|かわき}りに（して）",
         "[N] + を{皮切|かわき}りとして",
       ],
