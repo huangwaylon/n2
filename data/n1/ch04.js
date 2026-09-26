@@ -176,7 +176,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**AであれBであれ** is the formal, written counterpart of **AでもBでも**: *whether it's A or B, (the same applies)*. You name two representative examples, and the conclusion holds for both — and by implication for everything of that kind: 上司との関係であれ、同僚や後輩との関係であれ、人間関係は大切です.\n\nForm: であれ is the old imperative-concessive of である (*be it ~*). Connect it directly to nouns: **N₁であれN₂であれ**. N₂ can be a question word: コンクリートであれ何であれ *concrete or whatever*.\n\nThe clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgment or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\nCompare:\n- **〜にしろ〜にしろ / 〜にせよ〜にせよ** (N2): same meaning, slightly less stiff; they attach to verbs and adjectives more freely. であれ is mainly for nouns.\n- **〜といい〜といい** (#44): also lists two examples, but to *evaluate* a whole (both A and B are great/terrible). であれ says the outcome is *the same regardless*.\n- **〜やら〜やら / 〜とか〜とか**: just list examples (*things like A and B*) with no *regardless* meaning — the contrast drilled in the practice below.\n- **〜だし〜だし**: gives reasons (*A, and also B, so...*).\n\nJLPT tip: if the sentence ends with a rule or a universal judgment (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
+          deepDive: "**AであれBであれ** is the formal, written counterpart of **AでもBでも**: *whether it's A or B, (the same applies)*. You name two representative examples, and the conclusion holds for both — and by implication for everything of that kind: 上司との関係であれ、同僚や後輩との関係であれ、人間関係は大切です.\n\nForm: であれ is the imperative form of である, used concessively (*be it ~*). Connect it directly to nouns: **N₁であれN₂であれ**. N₂ can be a question word: コンクリートであれ何であれ *concrete or whatever*.\n\nThe clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgment or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\nCompare:\n- **〜にしろ〜にしろ / 〜にせよ〜にせよ** (N2): same meaning, slightly less stiff; they attach to verbs and adjectives more freely. であれ is mainly for nouns.\n- **〜といい〜といい** (#44): also lists two examples, but to *evaluate* a whole (both A and B are great/terrible). であれ says the outcome is *the same regardless*.\n- **〜やら〜やら / 〜とか〜とか**: just list examples (*things like A and B*) with no *regardless* meaning — the contrast drilled in the practice below.\n- **〜だし〜だし**: gives reasons (*A, and also B, so...*).\n\nJLPT tip: if the sentence ends with a rule or a universal judgment (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
           see: [44],
           index: ["N₁であれN₂であれ", "NであれNであれ", "疑問詞＋であれ", "であれ"],
           practice: [
@@ -281,7 +281,7 @@ TRY.registerChapter({
             { ja: "＊「〜をおいて他にいない」の形も使われる。", en: "The form “〜をおいて他にいない” is also used." },
           ],
           examples: [
-            { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the time to do it — there is no better time." },
+            { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it." },
             { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only place." },
             { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
             { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president." },
@@ -337,7 +337,7 @@ TRY.registerChapter({
             { q: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい{病弱|びょうじゃく}だ。", answer: "にひきかえ", en: "In contrast to his robust older brother, the younger brother is so sickly that he ends up in hospital even with a cold." },
             { q: "一流の{通訳|つうやく}＿＿、いろいろな分野の知識が要求されるそうだ。", answer: "ともなると", en: "I hear that when you're a top-class interpreter, you're expected to have knowledge of all kinds of fields." },
             { q: "{我|わ}が{社|しゃ}の{顧客|こきゃく}情報は、個人情報{保護|ほご}法＿＿{適正|てきせい}に処理し、管理{致|いた}します。", answer: "に{則|そく}して", en: "Our company processes and manages customer information properly in accordance with the Personal Information Protection Act." },
-            { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say there's no one to match lawyer Sato." },
+            { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say there's nobody but lawyer Sato." },
           ],
         },
         {
@@ -345,7 +345,7 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
           bank: ["をおいても", "もさることながら", "であれ"],
           items: [
-            { q: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", answer: "をおいても", en: "Because samurai had to drop everything and rush to their lord's side in an emergency, they apparently couldn't leave their land as they pleased." },
+            { q: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", answer: "をおいても", en: "Because samurai had to drop everything and rush to report for duty in an emergency, they apparently couldn't leave their land as they pleased." },
             { q: "きっかけは何＿＿、走ることが楽しいと感じるようになればいいですね。", answer: "であれ", en: "Whatever got you started, it would be great if you came to find running enjoyable." },
             { q: "メロディーの美しさ＿＿、子どもたちの{澄|す}んだ{歌声|うたごえ}が印象に残った。", answer: "もさることながら", en: "The melody was beautiful, of course, but what really stayed with me was the children's clear singing voices." },
           ],
@@ -431,7 +431,7 @@ TRY.registerChapter({
             { ja: "戦争を{回避|かいひ}できるかどうかは、今回の{会談|かいだん}の結果いかんにかかっている。", en: "Whether war can be avoided depends on the outcome of this round of talks." },
             { ja: "明日のロケット打ち上げは、天候いかんで延期になる可能性が出てきました。", en: "Depending on the weather, there is now a chance that tomorrow's rocket launch will be postponed." },
             { ja: "今回のツアーは政治{情勢|じょうせい}いかんによっては、中止になる場合もあります。", en: "Depending on the political situation, this tour may be cancelled." },
-            { ja: "いつの時代でも{創意|そうい}と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, the possibilities for new businesses open up according to how much originality and ingenuity you bring." },
+            { ja: "いつの時代でも{創意|そうい}と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities should open up depending on the originality and ingenuity you bring." },
           ],
           notes: [
             {
@@ -578,11 +578,11 @@ TRY.registerChapter({
           forms: ["[N] + といったところだ"],
           examples: [
             { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like photos of pop idols." },
-            { ja: "今や、高速道路のサービスエリアは、温泉やショッピングまで楽しめるテーマパークといったところだ。", en: "These days, expressway service areas are practically theme parks where you can even enjoy hot springs and shopping." },
+            { ja: "今や、高速道路のサービスエリアは、温泉やショッピングまで楽しめるテーマパークといったところだ。", en: "These days, expressway service areas are something like theme parks, where you can even enjoy hot springs and shopping." },
             { ja: "子どもに人気の料理と言えば、カレーとハンバーグといったところでしょう。", en: "When it comes to dishes that are popular with children, it's probably things like curry and hamburger steak." },
             { ja: "私が生まれたのは歴史のある古い町で、日本なら{奈良|なら}や{京都|きょうと}といったところです。", en: "The place I was born is an old town with a long history — something like Nara or Kyoto in Japan." },
           ],
-          deepDive: "**〜といったところだ** means *it's something like ~ / you could call it ~*. The speaker **rephrases** a thing with a familiar comparison (浮世絵 → 今でいえばアイドル写真) or **gives a typical example** (子どもに人気の料理 → カレーとハンバーグ), to help the listener grasp it: よい人間関係は、いわば思いやりのギブ・アンド・テイクといったところではないでしょうか.\n\nConnection: **N + といったところだ**. Softer endings are common: 〜といったところでしょう, 〜といったところです, 〜といったところではないでしょうか. Words like いわば, 今日でいえば, 〜なら, 〜と言えば often appear earlier in the sentence.\n\nNuance: it sounds modest and approximate — *roughly, sort of*. It is not a strict definition.\n\nSecond use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: この会社もせいぜいあと半年といったところだろう. This one stresses that the amount is **not large**; watch for せいぜい / やっと / なんとか.\n\nCompare:\n- **〜というところだ**: same meaning and form.\n- **〜のようなものだ**: a plain comparison, *it's like ~*; it lacks the modest, approximate *something like ~* nuance of といったところだ.\n- **いわば** (*so to speak*): an adverb that also signals rephrasing; it often *combines* with といったところだ (いわば陰の社長といったところだ).\n- **〜といったらない** (#83): *indescribably ~* — emphasis, not paraphrase.\n\nJLPT tip: if the sentence rephrases something with an analogy (いわば, 今で言えば) or names typical examples, choose といったところだ. In the practice, いわば陰の社長 (*the shadow president*) is the analogy that matches 重要な決定事項は彼ぬきでは決められない.",
+          deepDive: "**〜といったところだ** means *it's something like ~ / you could call it ~*. The speaker **rephrases** a thing with a familiar comparison (浮世絵 → 今でいえばアイドル写真) or **gives a typical example** (子どもに人気の料理 → カレーとハンバーグ), to help the listener grasp it: よい人間関係は、いわば思いやりのギブ・アンド・テイクといったところではないでしょうか.\n\nConnection: **N + といったところだ**. Softer endings are common: 〜といったところでしょう, 〜といったところです, 〜といったところではないでしょうか. Words like いわば, 今日でいえば, 〜なら, 〜と言えば often appear earlier in the sentence.\n\nNuance: it sounds modest and approximate — *roughly, sort of*. It is not a strict definition.\n\nSecond use (the book's ☞ 62): **〜といったところだ②** after a number or amount, meaning *at most ~, only about ~*: この会社もせいぜいあと半年といったところだろう. This one stresses that the amount is **not large**; watch for せいぜい / やっと / なんとか.\n\nCompare:\n- **〜というところだ**: a variant with the same meaning.\n- **〜のようなものだ**: a plain comparison, *it's like ~*; it lacks the modest, approximate *something like ~* nuance of といったところだ.\n- **いわば** (*so to speak*): an adverb that also signals rephrasing; it often *combines* with といったところだ (いわば陰の社長といったところだ).\n- **〜といったらない** (#83): *indescribably ~* — emphasis, not paraphrase.\n\nJLPT tip: if the sentence rephrases something with an analogy (いわば, 今で言えば) or names typical examples, choose といったところだ. In the practice, いわば陰の社長 (*the shadow president*) is the analogy that matches 重要な決定事項は彼ぬきでは決められない.",
           see: [62, 83],
           xref: "☞ 62. せいぜいあと半年**といったところだ**",
           index: ["〜といったところだ①", "Nといったところだ", "といったところだ", "といったところ"],
@@ -785,7 +785,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "毎日会えないまでも、メールくらいはくれるよね。" },
             ],
-            en: ["Even if we can't see each other every day, you'll at least email me, right?", "Yeah, you'll meet me every day, right?", "Yeah, I'll email you.", "Yeah, while we still can see each other."],
+            en: ["Even if we can't see each other every day, you'll at least email me, right?", "Yeah, you'll meet me every day, right?", "Yeah, I'll email you.", "Yeah, while we're still able to see each other."],
             options: ["うん、毎日会ってくれるよね。", "うん、メールするよ。", "うん、会えるうちにね。"],
             answer: 1,
             why: { en: "〜ないまでも…くらいは: even if not every day, at least an email — so the reply promises to email." },
