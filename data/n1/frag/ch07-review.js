@@ -28,7 +28,7 @@ N2F({ ch: 7, review: [
         { q: "A：カラオケ発明した人、{特許|とっきょ}取らなかったんだって？\nB：{特許|とっきょ}を取っていれば、{大儲|おおもう}けできた（　）。",
           options: ["ものだ", "ものではない", "ものを", "ものか"], answer: 2,
           en: "A: I heard the person who invented karaoke didn't take out a patent?\nB: If only he had taken out a patent, he could have made a fortune.",
-          why: { en: "〜ば…ものを expresses regret about an unrealised possibility: “he could have …, but …”." } },
+          why: { en: "〜ば…ものを expresses regret about an unrealized possibility: “he could have …, but …”." } },
         { q: "トミーさん（　）、勝手に{冷房|れいぼう}の{設定|せってい}温度を13度にしちゃうんです。クラスメートはみんな、寒がっているのに……。",
           options: ["にすれば", "にしたところで", "ときたら", "といっても"], answer: 2,
           en: "Honestly, that Tommy — he goes and sets the air conditioner to 13 degrees on his own. Even though all his classmates are cold...",

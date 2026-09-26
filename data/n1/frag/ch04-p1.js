@@ -20,7 +20,7 @@ N2F({
       { cont: true, ja: "それより、せめて、「{嫌|きら}い」を「好きとは言え**ないまでも**{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, at least make an effort to move from “I dislike him” to the level of “I can't say I like him, but I don't dislike him.”" },
       { cont: true, ja: "これは「美的{凝視|ぎょうし}」という方法です。", en: "This is a method known as “aesthetic gazing” (looking for what is admirable)." },
       { cont: true, ja: "例えば、細かいミスばかり{指摘|してき}する{嫌|いや}な上司に対しても、その長所に目を向けるように努力するのです。", en: "For example, even with an unpleasant boss who does nothing but point out your small mistakes, you make an effort to look at his strengths." },
-      { cont: true, ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさ**といい**、{緻密|ちみつ}で正確な仕事ぶり**といい**、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realise that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is." },
+      { cont: true, ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさ**といい**、{緻密|ちみつ}で正確な仕事ぶり**といい**、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is." },
       { ja: "長所を見つけたら、{同僚|どうりょう}の前で話題にしましょう。", en: "Once you have found his good points, talk about them in front of your colleagues." },
       { cont: true, ja: "あなたが高く評価していることが{同僚|どうりょう}を通じて上司に伝われば、直接伝える以上に{真実味|しんじつみ}を持つこともあります。", en: "If your high opinion of him reaches your boss through your colleagues, it can sound even more genuine than if you told him directly." },
       { cont: true, ja: "よい人間関係は、いわば思いやりのギブ・アンド・テイク**といったところ**ではないでしょうか。", en: "Good relationships are, you might say, something like a give-and-take of consideration, aren't they?" },
@@ -54,7 +54,7 @@ N2F({
         "- Fixed expressions: 言うまでもない, 言うまでもなく, 見るまでもない, 考えるまでもない, 説明するまでもない.\n\n" +
         "Nuance: slightly formal and confident; the speaker judges the action to be a waste of effort. The practice below checks the meaning: 決算書を見るまでもなく明らかだ = *it's clear even without looking at the financial statements* (b), and 言うまでもなく = *there's no need to say it, but…* (a).\n\n" +
         "Compare:\n" +
-        "- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgement about the situation.\n" +
+        "- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgment about the situation.\n" +
         "- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n" +
         "- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\n" +
         "JLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題1 of the review: わざわざ知らせる（までもない）.",
@@ -228,13 +228,13 @@ N2F({
       ],
       deepDive:
         "**AといいBといい** means *both A and B / whether you look at A or B* — the speaker picks two representative aspects of one thing (a person, a place, a product) and uses them to make an **overall evaluation**, strongly positive or strongly negative: 面倒見のよさといい、緻密で正確な仕事ぶりといい、実は意外にデキる上司だ.\n\n" +
-        "Connection: **N₁といいN₂といい**, usually followed by a comma and the judgement. The two nouns are features of the same subject: スープ and 麺の硬さ (of the ramen), サービス and 料理 (of the hotel), 色 and 柄 (of the necktie).\n\n" +
+        "Connection: **N₁といいN₂といい**, usually followed by a comma and the judgment. The two nouns are features of the same subject: スープ and 麺の硬さ (of the ramen), サービス and 料理 (of the hotel), 色 and 柄 (of the necktie).\n\n" +
         "The second half expresses the speaker's feeling or verdict: さすが〜だ, 〜は魅力がいっぱいだ, ひどいものだ, センスがいい, 完璧だ, 最悪だ. It is not used for neutral facts or for requests.\n\n" +
         "Compare (the practice below contrasts these):\n" +
         "- **〜であれ〜であれ** (#38): *whether A or B, it's the same* — a rule that holds regardless; といい evaluates the subject through its features. 飲み物はアルコールであれソフトドリンクであれ、別に料金がかかる.\n" +
         "- **〜なり〜なり** (#21): *either A or B (choose one)* — a suggestion: 電話なりメールなりで連絡して.\n" +
         "- **〜にしても〜にしても / 〜にしろ〜にしろ** (N2): *whether A or B* — like であれ.\n" +
-        "- **〜も〜も**: plain *both A and B*, no evaluative colour.\n\n" +
+        "- **〜も〜も**: plain *both A and B*, no evaluative color.\n\n" +
         "JLPT tip: if two aspects of one subject are listed and the sentence ends with an emotional verdict (すばらしい, さすが, ひどい, 危険すぎる), choose といい. If it ends with a rule (料金がかかる, 守らなければならない), choose であれ.",
       see: [38, 21],
       index: ["N₁といいN₂といい", "NといいNといい", "といい"],
@@ -246,7 +246,7 @@ N2F({
           items: [
             { q: "このプールは広さ（ 1 ）、深さ（ 2 ）、子どもには危険すぎる。", parts: [{ tag: "1", options: ["といい", "なり"], answer: 0 }, { tag: "2", options: ["といい", "なり"], answer: 0 }], en: "What with its size and its depth, this pool is far too dangerous for children." },
             { q: "飲み物はアルコール（ 1 ）、ソフトドリンク（ 2 ）、別に料金がかかるんですよ。", parts: [{ tag: "1", options: ["といい", "であれ"], answer: 1 }, { tag: "2", options: ["といい", "であれ"], answer: 1 }], en: "Drinks cost extra, whether they're alcoholic or soft drinks." },
-            { q: "部長のネクタイは色（ 1 ）{柄|がら}（ 2 ）センスがいいけど、自分で選んでいるのかな。", parts: [{ tag: "1", options: ["といい", "であれ"], answer: 0 }, { tag: "2", options: ["といい", "であれ"], answer: 0 }], en: "The manager's ties are tasteful in both colour and pattern — I wonder if he chooses them himself." },
+            { q: "部長のネクタイは色（ 1 ）{柄|がら}（ 2 ）センスがいいけど、自分で選んでいるのかな。", parts: [{ tag: "1", options: ["といい", "であれ"], answer: 0 }, { tag: "2", options: ["といい", "であれ"], answer: 0 }], en: "The manager's ties are tasteful in both color and pattern — I wonder if he chooses them himself." },
           ],
         },
       ],

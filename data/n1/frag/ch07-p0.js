@@ -55,7 +55,7 @@ N2F({
         "Structure: **N + じゃあるまいし / ではあるまいし**; with verbs and clauses, add ん or わけ: 行くんじゃあるまいし, 一生会えないわけじゃあるまいし. The second half is typically a command, prohibition, request or judgment aimed at the listener: 少しは自分で考えろ, そんなに厚着しなくても大丈夫だ, 貸してくれてもいいでしょう.\n\n" +
         "Register: じゃあるまいし is conversational (the casual-chat icon). ではあるまいし is slightly stiffer but still spoken. It often carries irritation or a scolding tone, so be careful using it to superiors.\n\n" +
         "Compare:\n- **〜わけではないのだから / 〜ではないのだから**: the plain, neutral way to say the same thing. じゃあるまいし adds a ‘come on, obviously…’ exasperation.\n- **〜まい** (N2, *probably won't / I won't*): the same auxiliary, but here it is fossilized inside the set phrase.\n- **〜からには / 〜以上** (*since ~*) give a logical premise; じゃあるまいし gives a *counterfactual* premise that is rejected.\n\n" +
-        "Pitfall: the part before じゃあるまいし must be something that is **clearly not the case** (and usually would excuse the behaviour if it were). ✗学生じゃあるまいし said to someone who actually is a student makes no sense.\n\n" +
+        "Pitfall: the part before じゃあるまいし must be something that is **clearly not the case** (and usually would excuse the behavior if it were). ✗学生じゃあるまいし said to someone who actually is a student makes no sense.\n\n" +
         "JLPT tip: when the blank is followed by a scolding or advice and the preceding noun is an absurd comparison (子ども, 新人, 素人, 神様, 鬼), じゃあるまいし is the answer.",
       see: [],
       index: ["Nじゃあるまいし", "Nではあるまいし", "〜んじゃあるまいし", "〜わけじゃあるまいし"],

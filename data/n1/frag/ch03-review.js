@@ -159,7 +159,7 @@ N2F({ ch: 3, review: [
           en: ["Hey! How long is this going to take you?! You're way too slow.", "Yes, of course it will take until tomorrow.", "No, I went ahead and did it in my own way.", "I'm sorry. I'm doing my best, in my own way…"],
           options: ["はい、もちろん明日までかかります。", "いいえ、私なりにやってしまったんです。", "すみません。自分なりに{頑張|がんば}っているんですが……。"],
           answer: 2,
-          why: { en: "Faced with a scolding for being slow, the fitting reply apologises and says she is trying her best in her own way (〜なりに)." } },
+          why: { en: "Faced with a scolding for being slow, the fitting reply apologizes and says she is trying her best in her own way (〜なりに)." } },
         { script: [{ sp: "M", v: "m", ja: "え?!　{薔薇|ばら}？　そんな漢字、日本人ですら書けないよ。" }],
           en: ["What?! 薔薇 (rose)? Even Japanese people can't write a kanji like that.", "Is it that difficult a character?", "Foreigners can write it, then.", "So only Japanese people can write it."],
           options: ["そんなに難しい字なんですか。", "外国人なら書けますね。", "日本人しか書けないんですね。"],

@@ -51,11 +51,11 @@ N2F({
         "- **N + ともなると / ともなれば** — the basic pattern.\n" +
         "- A verb in the dictionary form is also possible (the book's ＊ note): 工場を建てかえるともなると.\n" +
         "- ともなると and ともなれば are interchangeable; ともなれば sounds slightly more like a hypothetical *if it becomes ~*.\n\n" +
-        "Second half: a natural, expected consequence — often a change in behaviour or a demanding situation (責任が重くなる, 大勢の客が来る, お金がかかる). It is not used for the speaker's wishes or commands: ✗社会人ともなると、ちゃんと働きなさい sounds off; prefer 社会人になったら / 社会人なのだから.\n\n" +
+        "Second half: a natural, expected consequence — often a change in behavior or a demanding situation (責任が重くなる, 大勢の客が来る, お金がかかる). It is not used for the speaker's wishes or commands: ✗社会人ともなると、ちゃんと働きなさい sounds off; prefer 社会人になったら / 社会人なのだから.\n\n" +
         "Compare:\n" +
         "- **〜となると** (N2): *if it comes to ~ / if that's the case* — broader and more neutral; ともなると adds the sense of *reaching a special level*.\n" +
         "- **〜ともなく** (#89) looks similar but means *without particularly ~ing* (見るともなく見る) — unrelated.\n" +
-        "- **〜ともあろう** (not in this book's list) *someone of the standing of ~* is used to criticise (教師ともあろう者が…).\n\n" +
+        "- **〜ともあろう** (not in this book's list) *someone of the standing of ~* is used to criticize (教師ともあろう者が…).\n\n" +
         "JLPT tip: if the blank follows a noun of rank, time of year/day or scale, and the rest of the sentence states the *expected* consequence, ともなると/ともなれば is the answer (see 問題1-8 of this chapter: 勤続20年のベテラン（ともなれば）).",
       see: [],
       index: ["Nともなると", "Nともなれば", "ともなると", "ともなれば"],
@@ -131,7 +131,7 @@ N2F({
         { ja: "学生{街|がい}のレストランは味もさることながら、量が多いことが第一条件だと言わる。", en: "They say that for a restaurant in a student district, taste matters, of course, but the number one requirement is big portions." },
       ],
       deepDive:
-        "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\n" +
+        "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasize: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\n" +
         "Two readings, as the book explains:\n" +
         "- *not only A but also B* — both A and B apply (デザインもさることながら、性能もいい; 晩婚化もさることながら、教育費の負担の大きさにもある). B often takes も.\n" +
         "- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\n" +
@@ -151,7 +151,7 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the sentence that has the same meaning as the first sentence." },
           items: [
-            { q: "専門知識はもちろん必要だが、コミュニケーション能力はもっと必要だ。", options: ["専門知識もさることながら、コミュニケーション能力も必要だ。", "コミュニケーション能力もさることながら、専門知識も必要だ。"], answer: 0, en: "Specialist knowledge is of course necessary, but communication skills are even more necessary.", why: { en: "The item that is acknowledged first (専門知識) goes before もさることながら; the one being emphasised comes after." } },
+            { q: "専門知識はもちろん必要だが、コミュニケーション能力はもっと必要だ。", options: ["専門知識もさることながら、コミュニケーション能力も必要だ。", "コミュニケーション能力もさることながら、専門知識も必要だ。"], answer: 0, en: "Specialist knowledge is of course necessary, but communication skills are even more necessary.", why: { en: "The item that is acknowledged first (専門知識) goes before もさることながら; the one being emphasized comes after." } },
             { q: "健康のためにはもちろん{治療|ちりょう}も大切だが、それ以上に病気予防に努力する必要がある。", options: ["健康のためには予防もさることながら、{治療|ちりょう}に努力すべきだ。", "健康のためには{治療|ちりょう}もさることながら、予防に努力すべきだ。"], answer: 1, en: "For your health, treatment is of course important, but you need to put even more effort into preventing illness.", why: { en: "The sentence puts more weight on 予防, so 治療 (the point acknowledged first) goes before もさることながら and 予防 comes after it." } },
           ],
         },
@@ -174,7 +174,7 @@ N2F({
       examples: [
         { ja: "犬であれ猫であれ、このマンションでペットを{飼|か}うことは禁止されています。", en: "Whether it's a dog or a cat, keeping pets in this apartment building is prohibited." },
         { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して引用しなければならない。", en: "Whether it's a thesis or a letter, you must quote with due regard for copyright." },
-        { ja: "結果が2位であれ3位であれ、{頑張|がんば}った{成果|せいか}は評価されるべきだろう。", en: "Whether the result is second place or third, the fruits of your hard work deserve to be recognised." },
+        { ja: "結果が2位であれ3位であれ、{頑張|がんば}った{成果|せいか}は評価されるべきだろう。", en: "Whether the result is second place or third, the fruits of your hard work deserve to be recognized." },
         { ja: "このウォーターカッターを使えば、コンクリートであれ何であれ、切れないものはない。", en: "With this water cutter, there's nothing it can't cut — concrete or anything else." },
       ],
       notes: [
@@ -191,13 +191,13 @@ N2F({
       deepDive:
         "**AであれBであれ** is the formal, written counterpart of **AでもBでも**: *whether it's A or B, (the same applies)*. You name two representative examples, and the conclusion holds for both — and by implication for everything of that kind: 上司との関係であれ、同僚や後輩との関係であれ、人間関係は大切です.\n\n" +
         "Form: であれ is the old imperative-concessive of である (*be it ~*). Connect it directly to nouns: **N₁であれN₂であれ**. N₂ can be a question word: コンクリートであれ何であれ *concrete or whatever*.\n\n" +
-        "The clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgement or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\n" +
+        "The clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgment or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\n" +
         "Compare:\n" +
         "- **〜にしろ〜にしろ / 〜にせよ〜にせよ** (N2): same meaning, slightly less stiff; they attach to verbs and adjectives more freely. であれ is mainly for nouns.\n" +
         "- **〜といい〜といい** (#44): also lists two examples, but to *evaluate* a whole (both A and B are great/terrible). であれ says the outcome is *the same regardless*.\n" +
         "- **〜やら〜やら / 〜とか〜とか**: just list examples (*things like A and B*) with no *regardless* meaning — the contrast drilled in the practice below.\n" +
         "- **〜だし〜だし**: gives reasons (*A, and also B, so...*).\n\n" +
-        "JLPT tip: if the sentence ends with a rule or a universal judgement (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
+        "JLPT tip: if the sentence ends with a rule or a universal judgment (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
       see: [44],
       index: ["N₁であれN₂であれ", "NであれNであれ", "疑問詞＋であれ", "であれ"],
       practice: [
@@ -254,7 +254,7 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "どんな{組織|そしき}のリーダーでも、状況に{即|そく}した（　）が求められるものだ。", options: ["理想", "判断"], answer: 1, en: "The leader of any organisation is expected to make judgements that fit the situation at hand." },
+            { q: "どんな{組織|そしき}のリーダーでも、状況に{即|そく}した（　）が求められるものだ。", options: ["理想", "判断"], answer: 1, en: "The leader of any organization is expected to make judgments that fit the situation at hand." },
             { q: "{顧客|こきゃく}のニーズに{即|そく}した（　）が{企業|きぎょう}の生き残りの道だ。", options: ["商品開発", "{市場|しじょう}調査"], answer: 0, en: "Developing products that match customers' needs is the way for a company to survive." },
             { q: "{本校|ほんこう}では（　）に{則|そく}して、成績{優秀者|ゆうしゅうしゃ}に{奨学金|しょうがくきん}が与えられることになっている。", options: ["校長", "{規定|きてい}"], answer: 1, en: "At this school, in accordance with the regulations, scholarships are awarded to students with outstanding grades." },
           ],
@@ -276,7 +276,7 @@ N2F({
       forms: ["[N] + をおいて他にない"],
       formNotes: [{ ja: "＊「〜をおいて他にいない」の形も使われる。", en: "The form “〜をおいて他にいない” is also used." }],
       examples: [
-        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, now, while the economy is picking up, is the time to do it — there is no better time." },
+        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the time to do it — there is no better time." },
         { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only place." },
         { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
         { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president." },

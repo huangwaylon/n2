@@ -194,7 +194,7 @@ N2F({
       deepDive:
         "**〜ないでもない** is a double negative — *it's not that I don't ~* — used to make a statement deliberately vague and non-committal. It asserts a small, grudging or conditional *yes*.\n\n" +
         "Two uses:\n" +
-        "- **Hedged feeling/judgement**: 高い気がしないでもない, そう思えないでもない — *I do sort of feel that...* The speaker avoids a flat assertion.\n" +
+        "- **Hedged feeling/judgment**: 高い気がしないでもない, そう思えないでもない — *I do sort of feel that...* The speaker avoids a flat assertion.\n" +
         "- **Conditional willingness/possibility**: 頼まれれば引き受けないでもない, 条件次第では認めないでもない — *I might, if...*. The speaker sounds reluctant or is showing off a little generosity (私が代わってやらないでもない ≈ 代わってやってもいい).\n\n" +
         "Connection: V-ない stem (drop ない) + ないでもない: 飲まないでもない, 行かないでもない. Variants (＊ note): **〜ないものでもない** (more formal/literary: 認めないものでもない) and **〜なくもない** (common in speech: 行けなくもない). In example ②, 証拠はないでもない is simply the adjective ない + でもない (*it's not that there is none*).\n\n" +
         "Meaning check (the やってみよう): 受験できないものでもない = *you can still sit the exam if you want to* (possibility not zero), not *you can't*.\n\n" +
@@ -240,7 +240,7 @@ N2F({
         "Compare:\n" +
         "- **〜あげく（に）** (N2): *after (much) ~, finally* — also a bad end, but it attaches to the *process* (迷ったあげく); しまつだ attaches to the *final result*.\n" +
         "- **〜ようになる**: neutral change. **〜てしまう**: completion/regret, but without the 'chain of bad events' story.\n\n" +
-        "JLPT tip: if the sentence lists escalating bad behaviour and ends with a blank before だ／で, しまつ is a strong candidate. It's written mostly in hiragana.",
+        "JLPT tip: if the sentence lists escalating bad behavior and ends with a blank before だ／で, しまつ is a strong candidate. It's written mostly in hiragana.",
       see: [],
       index: ["〜しまつだ", "〜始末だ", "Vしまつだ"],
     },
@@ -310,14 +310,14 @@ N2F({
       ],
       deepDive:
         "**〜ずくめ** (written 尽くめ, related to 尽くす *to use up, to exhaust*) means *nothing but ~, ~ from top to bottom*. It is used with a **limited set of nouns** (＊ note), in two senses:\n" +
-        "- **Covered entirely with a colour**: 黒ずくめ (all in black), 白ずくめ.\n" +
+        "- **Covered entirely with a color**: 黒ずくめ (all in black), 白ずくめ.\n" +
         "- **One ~ after another / full of ~**: いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 失敗ずくめ, 異例ずくめ (the Check), 記録ずくめ.\n\n" +
         "Grammar: behaves like a noun or な-adjective: ずくめだ, ずくめの＋N (黒ずくめの男), ずくめで, and — as in the story — ずくめな話.\n\n" +
         "Unlike **まみれ** (#16) and **だらけ**, ずくめ is **not inherently negative**; it's often positive (いいことずくめ, 結構ずくめ). 規則ずくめ/失敗ずくめ are negative only because of the noun.\n\n" +
         "Compare:\n" +
         "- **〜だらけ**: full of (usually unwelcome) things scattered all over: 傷だらけ, 間違いだらけ. いいことだらけ is heard in casual speech, but for a run of good things ずくめ is the idiomatic, more polished choice.\n" +
         "- **〜まみれ**: a coating of something dirty.\n" +
-        "- **〜一色**: *entirely one colour/mood* (お祝い一色).\n\n" +
+        "- **〜一色**: *entirely one color/mood* (お祝い一色).\n\n" +
         "JLPT tip: memorise the collocations 黒ずくめ, いいことずくめ, 結構ずくめ, ごちそうずくめ, 規則ずくめ, 異例ずくめ — ずくめ doesn't attach freely to other nouns.",
       see: [16],
       index: ["〜ずくめ", "Nずくめ", "黒ずくめ", "いいことずくめ", "結構ずくめ"],

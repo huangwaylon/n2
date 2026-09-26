@@ -150,7 +150,7 @@ N2F({
         "- The second half is a **past fact**; no volition, orders or requests: ✗家に着くなり電話してください (use 着いたらすぐ).\n" +
         "- The second half is typically sudden/unexpected (飛び出す, 泣き出す, 怒鳴る, 苦しみ出す) — the やってみよう: 叫ぶなり発砲した, 口にするなり苦しみ出した, 手に取るなり素晴らしいと言った.\n\n" +
         "Compare the 'as soon as' family:\n" +
-        "- **〜が早いか** (#30): very close; emphasises how short the gap is, literary.\n" +
+        "- **〜が早いか** (#30): very close; emphasizes how short the gap is, literary.\n" +
         "- **〜や否や / 〜や** (#97): literary, *no sooner than*.\n" +
         "- **〜とたん（に）** (N3): V-た＋とたん; the second event is often outside the subject's control (立ち上がったとたん、めまいがした).\n" +
         "- **〜次第** (N2): *as soon as (I) do, (I will)* — future and volitional, the opposite of なり's past narration.\n\n" +
@@ -219,9 +219,9 @@ N2F({
       deepDive:
         "**V＋が早いか** (*no sooner ~ than*) means the second event happens **almost simultaneously** with the first, and the speaker is struck by how short the gap is. It's literary and narrative — ideal for folktales (米が炊けるが早いか…握り飯を作り).\n\n" +
         "Connection: V-る or V-た (開けるが早いか / 乗ったが早いか). The second half is a past fact; no requests, intentions or orders (✗着くが早いか電話しなさい).\n\n" +
-        "Unlike なり (#28), the two subjects **can differ** (店員が開けるが早いか、客がなだれ込んだ; 魔法使いが唱えるが早いか、王子は変わった), and the focus is on the timing rather than on a single person's surprising behaviour.\n\n" +
+        "Unlike なり (#28), the two subjects **can differ** (店員が開けるが早いか、客がなだれ込んだ; 魔法使いが唱えるが早いか、王子は変わった), and the focus is on the timing rather than on a single person's surprising behavior.\n\n" +
         "Meaning check from the やってみよう: 鐘が鳴るが早いか = 鳴るとすぐ (not 鳴るより早く *before it rang*); 受付時間になるが早いか = なるかならないかのうちに; 母親が出かけるが早いか = the children didn't play while their mother was there.\n\n" +
-        "Compare: **〜や否や** (#97, equally literary, *no sooner than*), **〜なり** (#28, same subject, surprising behaviour), **〜とたん（に）** (N3, V-た, often accidental), **〜そばから** (#31, repeated cycles). JLPT tip: ★★ — recognise it as *as soon as*; its partner options are usually なり, や否や, そばから, とたん.",
+        "Compare: **〜や否や** (#97, equally literary, *no sooner than*), **〜なり** (#28, same subject, surprising behavior), **〜とたん（に）** (N3, V-た, often accidental), **〜そばから** (#31, repeated cycles). JLPT tip: ★★ — recognize it as *as soon as*; its partner options are usually なり, や否や, そばから, とたん.",
       see: [28, 31, 97],
       index: ["Vが早いか", "〜が早いか"],
       practice: [
@@ -365,15 +365,15 @@ N2F({
         { ja: "あんなやつ、なぐってやる。", en: "That jerk — I'm going to punch him." },
       ],
       deepDive:
-        "**V-て＋やる** here is not the 'giving a favour' やる (弟に本を買ってやる) but its emotional use: *I'll (show you and) do V!* — a declaration of will charged with anger, frustration, spite or fierce determination. It's first-person and colloquial, typically at the end of the sentence: 辞めてやる, なぐってやる, 見返してやる, 食ってやる.\n\n" +
+        "**V-て＋やる** here is not the 'giving a favor' やる (弟に本を買ってやる) but its emotional use: *I'll (show you and) do V!* — a declaration of will charged with anger, frustration, spite or fierce determination. It's first-person and colloquial, typically at the end of the sentence: 辞めてやる, なぐってやる, 見返してやる, 食ってやる.\n\n" +
         "Nuance range:\n" +
         "- **Revenge/harm**: なぐってやる, 訴えてやる, 食ってやる (the monster's threat).\n" +
         "- **Defiant resolve**: 一番になってやる, 絶対登ってやる — with 今度こそ, 絶対, 必ず.\n\n" +
         "Usually masculine/rough; for determination without the aggressive edge, use 〜てみせる (#87, *I'll show you I can*): 必ず合格してみせる. In the negative, **〜てやるものか** = *I'll never ~* (許してやるものか).\n\n" +
         "Compare:\n" +
-        "- **〜てあげる / 〜てやる (benefactive)**: doing a favour for someone of lower status (弟に宿題を手伝ってやる). Context tells you which: an angry tone or harmful action → emotional てやる.\n" +
+        "- **〜てあげる / 〜てやる (benefactive)**: doing a favor for someone of lower status (弟に宿題を手伝ってやる). Context tells you which: an angry tone or harmful action → emotional てやる.\n" +
         "- **〜ずにはおかない** (#32): formal written determination; てやる is spoken and emotional.\n\n" +
-        "JLPT tip: recognise it in listening and reading as anger/resolve, not kindness — e.g. もう二度と来てやるもんか.",
+        "JLPT tip: recognize it in listening and reading as anger/resolve, not kindness — e.g. もう二度と来てやるもんか.",
       see: [32, 87],
       index: ["Vてやる", "〜てやる"],
     },

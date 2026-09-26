@@ -248,7 +248,7 @@ N2F({
         "- **V-ない**: 電話がつながらないおそれ, 予定通りに出発できないおそれ — the negative form is used when the *failure* of something is the danger.\n" +
         "- **N + の**: 噴火のおそれ, 津波のおそれ, 感染のおそれ.\n\n" +
         "Variations: **おそれがあります** (polite), **おそれがございます** (very polite, e.g. airline or station announcements), **おそれはない / おそれはありません** (*there is no risk*), and as a noun modifier: 倒壊のおそれがある建物.\n\n" +
-        "Compare with **〜かねない** (#27): also *could (lead to something bad)*, but it is common in speech as well and is often used as a warning about someone's behaviour or a situation (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like, typical of news, forecasts and official notices.\n\n" +
+        "Compare with **〜かねない** (#27): also *could (lead to something bad)*, but it is common in speech as well and is often used as a warning about someone's behavior or a situation (そんな運転では事故を起こしかねない). おそれがある is more impersonal and report-like, typical of news, forecasts and official notices.\n\n" +
         "Typical trap in the やってみよう: deciding between the affirmative and negative verb. Read for what the *danger* is — if the danger is an accident happening, use 起こす; if the danger is not being able to leave on time, use できない.",
       see: [27, 33],
       index: ["Vおそれがある", "Nのおそれがある", "おそれがあります", "おそれはない", "恐れがある"],

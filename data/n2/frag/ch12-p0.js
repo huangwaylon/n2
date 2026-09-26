@@ -103,8 +103,8 @@ N2F({
         "- **Physical — along a line**: 川にそって歩く, 線路にそって走る. The noun is something long (川, 道, 線路, 壁).\n" +
         "- **Abstract — in line with a standard**: マニュアルにそって行う, 計画にそって進める, テーマにそった作品. The noun is a plan, rule, procedure, theme or someone's wishes; the action *follows* it faithfully.\n\n" +
         "Forms: にそって (adverbial), **にそう + N / にそった + N** (modifying a noun: 方針にそった内容). **〜にそうよう（に）** + 努力します / 努めます is a polite set phrase: ご期待にそうよう、努力いたします *we will strive to meet your expectations*.\n\n" +
-        "Neighbours:\n" +
-        "- **〜にしたがって** — *following, obeying* (instructions, rules); also *as X changes*. Very close in the abstract meaning, but にそって emphasises *keeping along the line* of something laid out.\n" +
+        "Neighbors:\n" +
+        "- **〜にしたがって** — *following, obeying* (instructions, rules); also *as X changes*. Very close in the abstract meaning, but にそって emphasizes *keeping along the line* of something laid out.\n" +
         "- **〜に基づいて** — *based on* (data, facts, laws) — the source, not the path.\n" +
         "- **〜にこたえて** (#118) — *in response to* a request or expectation.\n\n" +
         "Pitfall: にそって describes doing something *according to* the standard, so the main clause must be an action that follows it. ✗計画にそって住民が反対した makes no sense — opposing isn't something residents do *following* the plan (this is exactly what the practice tests).",

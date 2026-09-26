@@ -144,7 +144,7 @@ N2.register({
             },
             {
               "ja": "{警察|けいさつ}の仕事は{人々|ひとびと}の安全を{守|まも}ることで、{地域|ちいき}のパトロールはその1つにすぎません。",
-              "en": "The job of the police is to protect people's safety, and patrolling the neighbourhood is merely one part of it."
+              "en": "The job of the police is to protect people's safety, and patrolling the neighborhood is merely one part of it."
             },
             {
               "ja": "世界人口の2{割|わり}を{占|し}めるにすぎない{先進国|せんしんこく}の{人々|ひとびと}が、{ＣＯ₂|シーオーツー}の6{割|わり}を{排出|はいしゅつ}していると言われている。",
@@ -255,7 +255,7 @@ N2.register({
             },
             {
               "ja": "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。",
-              "en": "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands."
+              "en": "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands."
             }
           ],
           "deepDive": "**〜上（に）** (read うえ) adds a second point on top of the first: *not only A, but also B / A, and on top of that B*. It is close to 〜し、〜も or 〜だけでなく, but sounds a bit more written and emphasizes the *accumulation*.\n\nKey rule: A and B must point **in the same direction** — both good (安い上においしい) or both bad (熱がある上に咳も出る). ✗この店は安い上にまずい is odd, because the second point contradicts the first; use 安いけれどまずい. B very often contains **も** (家賃も, 味も).\n\nConnection: plain form, with なA + な and N + の (便利な上に; with nouns, only words describing a state work naturally: 高齢の上に, 初心者の上に — not ✗雨の上に). The formal 〜である上に is also possible. Commands, requests and invitations don't usually follow directly in the second clause: ✗雨が降っている上に、早く帰りなさい. (A request can still come at the very end after a further reason clause, as in example ②: …交通量が多いので、十分注意してください.)\n\nDon't mix it up with the other 上 patterns in the book (☞ similar pattern list 〜上／上):\n- **V上で** (#14) *in doing ~ / for the purpose of ~*; **V-た上で** (#117) *after doing ~*.\n- **〜上は** (＋Plus under #18) *now that ~ / since ~* (決めた上は最後までやる).\n- **N上（じょう）** (#70) *from the standpoint of ~*: 計算上, 法律上, 書類上. Written 上は, it looks just like #18, but after a noun it is read じょうは (計算上は *on paper*) — the practice below contrasts it with 上（うえ）に.\n\nJLPT tip: if the second half repeats the same kind of evaluation with も, choose 上に.",
@@ -397,7 +397,7 @@ N2.register({
                     "会長をしていますから"
                   ],
                   "answer": 1,
-                  "en": "A: There's a neighbourhood meeting next week — would you like to come with me? It may be called a neighbourhood meeting, but it's a relaxed gathering where we chat over snacks.\nB: Really? Well then, I'll try going too."
+                  "en": "A: There's a neighborhood meeting next week — would you like to come with me? It may be called a neighborhood meeting, but it's a relaxed gathering where we chat over snacks.\nB: Really? Well then, I'll try going too."
                 },
                 {
                   "q": "A：{風邪|かぜ}だって？　大丈夫？\nB：大丈夫だよ。{風邪|かぜ}っていっても（　）。",
@@ -646,7 +646,7 @@ N2.register({
               "examples": [
                 {
                   "ja": "海外旅行中はどこに行くにしろ、パスポートを持って歩かなければならない。",
-                  "en": "When travelling abroad, wherever you go, you must carry your passport with you."
+                  "en": "When traveling abroad, wherever you go, you must carry your passport with you."
                 },
                 {
                   "ja": "試験の{結果|けっか}がどうなるにせよ、今は{精一杯|せいいっぱい}の{努力|どりょく}をするだけです。",

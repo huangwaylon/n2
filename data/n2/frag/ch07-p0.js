@@ -204,7 +204,7 @@ N2F({
             "Apparently he thought of making an electronic calculator because he was bad at mental arithmetic.",
             "Since the kitchen window is broken, it is thought that the culprit got in through there.",
             "Because Okinawa was once an independent country, its own culture and language still survive today.",
-            "Mr. Tanaka next door is called the Edison of the neighbourhood because he has invented all sorts of things.",
+            "Mr. Tanaka next door is called the Edison of the neighborhood because he has invented all sorts of things.",
           ],
         },
       ],
@@ -226,7 +226,7 @@ N2F({
       ],
       examples: [
         { ja: "{現在|げんざい}、日本のコンビニは{若者|わかもの}のみならず、あらゆる{世代|せだい}の{人々|ひとびと}に{様々|さまざま}な{目的|もくてき}で利用されている。", en: "Today, convenience stores in Japan are used not only by young people but by people of every generation, for all sorts of purposes." },
-        { ja: "{難民問題|なんみんもんだい}は{人道的|じんどうてき}な問題であるのみならず、{近隣諸国|きんりんしょこく}にも{影響|えいきょう}を{及|およ}ぼす{政治的|せいじてき}な{側面|そくめん}もある。", en: "The refugee problem is not only a humanitarian issue; it also has a political side that affects neighbouring countries." },
+        { ja: "{難民問題|なんみんもんだい}は{人道的|じんどうてき}な問題であるのみならず、{近隣諸国|きんりんしょこく}にも{影響|えいきょう}を{及|およ}ぼす{政治的|せいじてき}な{側面|そくめん}もある。", en: "The refugee problem is not only a humanitarian issue; it also has a political side that affects neighboring countries." },
         { ja: "多くの人に{愛|あい}され続けてきたブランド{品|ひん}はただデザインが美しいのみならず、{機能的|きのうてき}にも{優|すぐ}れているものが多い。", en: "Many brand-name goods that have long been loved by many people are not merely beautifully designed but also excellent in terms of function." },
         { ja: "彼は{戦争|せんそう}で家族を{失|うしな}った子どもたちを引き取って{育|そだ}てたのみならず、その子どもたちが{自立|じりつ}して{暮|く}らせるように{教育|きょういく}を受けさせたという。", en: "He is said not only to have taken in and raised children who had lost their families in the war, but also to have had them educated so that they could live independently." },
       ],
@@ -270,7 +270,7 @@ N2F({
       forms: ["[N] + といった"],
       examples: [
         { ja: "くるみやアーモンドといったナッツ{類|るい}を毎日食べると、{記憶力|きおくりょく}がよくなるそうです。", en: "They say that eating nuts such as walnuts and almonds every day improves your memory." },
-        { ja: "{仏教|ぶっきょう}は、中国、日本、{韓国|かんこく}、タイといったアジアの国で広く{信仰|しんこう}されている。", en: "Buddhism is widely practised in Asian countries such as China, Japan, Korea and Thailand." },
+        { ja: "{仏教|ぶっきょう}は、中国、日本、{韓国|かんこく}、タイといったアジアの国で広く{信仰|しんこう}されている。", en: "Buddhism is widely practiced in Asian countries such as China, Japan, Korea and Thailand." },
         { ja: "{夜食|やしょく}は、おかゆやうどんといった{消化|しょうか}のいい食べ物にしたほうがいいでしょう。", en: "For a late-night snack, it's better to have easily digestible food such as rice porridge or udon." },
         { ja: "ヨガやストレッチといった運動は、少しずつでも続ければ、{効果|こうか}が{現|あらわ}れます。", en: "Exercise such as yoga and stretching shows results if you keep it up, even a little at a time." },
       ],
@@ -316,7 +316,7 @@ N2F({
           examples: [
             { ja: "留学生活が長くなるにつれて、国のことを思い出すことが少なくなったような気がする。", en: "I feel that the longer my life as an overseas student goes on, the less often I think of my home country." },
             { ja: "彼は年を取るにつれ、{周囲|しゅうい}の人と{交流|こうりゅう}することが少なくなっていった。", en: "As he grew older, he had less and less contact with the people around him." },
-            { ja: "{謝|あやま}ろうと思ったが、時間がたつにつれて、言い出しにくくなってしまった。", en: "I meant to apologise, but as time went by it became harder and harder to bring it up." },
+            { ja: "{謝|あやま}ろうと思ったが、時間がたつにつれて、言い出しにくくなってしまった。", en: "I meant to apologize, but as time went by it became harder and harder to bring it up." },
           ],
         },
       ],

@@ -273,7 +273,7 @@ N2F({
         "- **〜かどうかはともかく**: 本当かどうかはともかく *true or not*.\n" +
         "- **疑問詞 + か + はともかく**: 誰がやったかはともかく, いつ行くかはともかく.\n" +
         "- **Vか + はともかく**: 勝つか負けるかはともかく.\n\n" +
-        "Contrast with neighbours:\n" +
+        "Contrast with neighbors:\n" +
         "- **〜を問わず** (#2): *regardless of* — X is irrelevant to a rule that applies to all cases (国内外を問わず). はともかく doesn't state a rule; it just postpones discussing X. The practice drills this pair.\n" +
         "- **〜はもちろん／〜はもとより** (#12): *not to mention X* — X is obviously included, the opposite direction.\n" +
         "- **〜は別として**: close to はともかく, *except for / apart from*.\n\n" +
@@ -320,7 +320,7 @@ N2F({
         "- **Polite form: かねません** — very common in explanations, warnings and business talk (like the sample: 信頼を失いかねません).\n" +
         "- The judgment is based on the present situation, often in a conditional frame: 〜と／〜たら／〜ば、…かねない.\n\n" +
         "Compare:\n" +
-        "- **〜おそれがある** (#34): *there's a risk that* — more formal and written (news, weather warnings): 大雨のおそれがある. かねない is used in speech too and often implies the speaker's worry or criticism about someone's behaviour: 伊藤さんならクラス中の人に話しかねない *she's quite capable of telling the whole class*.\n" +
+        "- **〜おそれがある** (#34): *there's a risk that* — more formal and written (news, weather warnings): 大雨のおそれがある. かねない is used in speech too and often implies the speaker's worry or criticism about someone's behavior: 伊藤さんならクラス中の人に話しかねない *she's quite capable of telling the whole class*.\n" +
         "- **〜かもしれない**: pure possibility, positive or negative.\n" +
         "- **V-かねる** (positive form): *can't (bring oneself to) / I'm afraid we can't* — the opposite meaning! お答えしかねます = *I'm unable to answer*.\n\n" +
         "JLPT tip: if the sentence warns of a bad consequence (事故, 骨折, 倒産, 信頼を失う) and the options include かねない vs かねる, choose かねない; V-かねる would mean someone is *unable (or unwilling) to do* it, which doesn't fit a warning.",

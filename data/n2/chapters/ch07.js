@@ -376,7 +376,7 @@ N2.register({
                 "Apparently he thought of making an electronic calculator because he was bad at mental arithmetic.",
                 "Since the kitchen window is broken, it is thought that the culprit got in through there.",
                 "Because Okinawa was once an independent country, its own culture and language still survive today.",
-                "Mr. Tanaka next door is called the Edison of the neighbourhood because he has invented all sorts of things."
+                "Mr. Tanaka next door is called the Edison of the neighborhood because he has invented all sorts of things."
               ]
             }
           ]
@@ -413,7 +413,7 @@ N2.register({
             },
             {
               "ja": "{難民問題|なんみんもんだい}は{人道的|じんどうてき}な問題であるのみならず、{近隣諸国|きんりんしょこく}にも{影響|えいきょう}を{及|およ}ぼす{政治的|せいじてき}な{側面|そくめん}もある。",
-              "en": "The refugee problem is not only a humanitarian issue; it also has a political side that affects neighbouring countries."
+              "en": "The refugee problem is not only a humanitarian issue; it also has a political side that affects neighboring countries."
             },
             {
               "ja": "多くの人に{愛|あい}され続けてきたブランド{品|ひん}はただデザインが美しいのみならず、{機能的|きのうてき}にも{優|すぐ}れているものが多い。",
@@ -505,7 +505,7 @@ N2.register({
             },
             {
               "ja": "{仏教|ぶっきょう}は、中国、日本、{韓国|かんこく}、タイといったアジアの国で広く{信仰|しんこう}されている。",
-              "en": "Buddhism is widely practised in Asian countries such as China, Japan, Korea and Thailand."
+              "en": "Buddhism is widely practiced in Asian countries such as China, Japan, Korea and Thailand."
             },
             {
               "ja": "{夜食|やしょく}は、おかゆやうどんといった{消化|しょうか}のいい食べ物にしたほうがいいでしょう。",
@@ -581,7 +581,7 @@ N2.register({
                 },
                 {
                   "ja": "{謝|あやま}ろうと思ったが、時間がたつにつれて、言い出しにくくなってしまった。",
-                  "en": "I meant to apologise, but as time went by it became harder and harder to bring it up."
+                  "en": "I meant to apologize, but as time went by it became harder and harder to bring it up."
                 }
               ]
             }

@@ -64,7 +64,7 @@ N2F({
       forms: ["[V-る]／[V-た] + にすぎない", "[N] + にすぎない"],
       examples: [
         { ja: "この高校は2年前に男女{共学|きょうがく}になったが、男子学生はまだ10人にすぎない。", en: "This high school became co-educational two years ago, but there are still only ten male students." },
-        { ja: "{警察|けいさつ}の仕事は{人々|ひとびと}の安全を{守|まも}ることで、{地域|ちいき}のパトロールはその1つにすぎません。", en: "The job of the police is to protect people's safety, and patrolling the neighbourhood is merely one part of it." },
+        { ja: "{警察|けいさつ}の仕事は{人々|ひとびと}の安全を{守|まも}ることで、{地域|ちいき}のパトロールはその1つにすぎません。", en: "The job of the police is to protect people's safety, and patrolling the neighborhood is merely one part of it." },
         { ja: "世界人口の2{割|わり}を{占|し}めるにすぎない{先進国|せんしんこく}の{人々|ひとびと}が、{ＣＯ₂|シーオーツー}の6{割|わり}を{排出|はいしゅつ}していると言われている。", en: "It is said that people in developed countries, who make up only 20% of the world's population, emit 60% of the CO₂." },
         { ja: "{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての生物を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。", en: "Apparently humankind has discovered a mere 2% of the living things on Earth, and it is said to be impossible to identify and classify them all." },
         { ja: "違う国の人と{交流|こうりゅう}するとき、言葉は1つの{手段|しゅだん}にすぎない。言葉がわからなくても気持ちを伝えることはできるはずだ。", en: "When interacting with people from other countries, language is only one means. Even if you don't understand the language, you should be able to convey your feelings." },
@@ -105,7 +105,7 @@ N2F({
         { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever of as much as 40 degrees, and on top of that my diarrhoea wouldn't stop — it was really awful." },
         { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill so it's easy to pick up speed, and there is also a lot of traffic at night, so please be very careful." },
         { ja: "この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。", en: "This university's cafeteria is cheap and tasty, and on top of that it has a wide menu, so it is loved by local people too." },
-        { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labour that involves danger, and the wages are low as well, so apparently every site is short of hands." },
+        { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands." },
       ],
       deepDive: "**〜上（に）** (read うえ) adds a second point on top of the first: *not only A, but also B / A, and on top of that B*. It is close to 〜し、〜も or 〜だけでなく, but sounds a bit more written and emphasizes the *accumulation*.\n\nKey rule: A and B must point **in the same direction** — both good (安い上においしい) or both bad (熱がある上に咳も出る). ✗この店は安い上にまずい is odd, because the second point contradicts the first; use 安いけれどまずい. B very often contains **も** (家賃も, 味も).\n\nConnection: plain form, with なA + な and N + の (便利な上に; with nouns, only words describing a state work naturally: 高齢の上に, 初心者の上に — not ✗雨の上に). The formal 〜である上に is also possible. Commands, requests and invitations don't usually follow directly in the second clause: ✗雨が降っている上に、早く帰りなさい. (A request can still come at the very end after a further reason clause, as in example ②: …交通量が多いので、十分注意してください.)\n\nDon't mix it up with the other 上 patterns in the book (☞ similar pattern list 〜上／上):\n- **V上で** (#14) *in doing ~ / for the purpose of ~*; **V-た上で** (#117) *after doing ~*.\n- **〜上は** (＋Plus under #18) *now that ~ / since ~* (決めた上は最後までやる).\n- **N上（じょう）** (#70) *from the standpoint of ~*: 計算上, 法律上, 書類上. Written 上は, it looks just like #18, but after a noun it is read じょうは (計算上は *on paper*) — the practice below contrasts it with 上（うえ）に.\n\nJLPT tip: if the second half repeats the same kind of evaluation with も, choose 上に.",
       see: [14, 18, 70, 117],
@@ -156,7 +156,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option to complete the sentence." },
           items: [
             { q: "アルバイト店員といっても、（　）。", options: ["店長と同じぐらい働いています", "{給料|きゅうりょう}が安いです", "一生{懸命|けんめい}働きません"], answer: 0, en: "I may be a part-time shop assistant, but I work about as much as the manager." },
-            { q: "A：来週、この{地域|ちいき}の{集会|しゅうかい}があるんですが、一緒に行きませんか。{地域|ちいき}の{集会|しゅうかい}といっても、（　）。\nB：そうですか。じゃ、私も{参加|さんか}してみます。", options: ["難しい話ばかりしていますから", "お{菓子|かし}を食べながら話し合う{気楽|きらく}な{会|かい}ですから", "会長をしていますから"], answer: 1, en: "A: There's a neighbourhood meeting next week — would you like to come with me? It may be called a neighbourhood meeting, but it's a relaxed gathering where we chat over snacks.\nB: Really? Well then, I'll try going too." },
+            { q: "A：来週、この{地域|ちいき}の{集会|しゅうかい}があるんですが、一緒に行きませんか。{地域|ちいき}の{集会|しゅうかい}といっても、（　）。\nB：そうですか。じゃ、私も{参加|さんか}してみます。", options: ["難しい話ばかりしていますから", "お{菓子|かし}を食べながら話し合う{気楽|きらく}な{会|かい}ですから", "会長をしていますから"], answer: 1, en: "A: There's a neighborhood meeting next week — would you like to come with me? It may be called a neighborhood meeting, but it's a relaxed gathering where we chat over snacks.\nB: Really? Well then, I'll try going too." },
             { q: "A：{風邪|かぜ}だって？　大丈夫？\nB：大丈夫だよ。{風邪|かぜ}っていっても（　）。", options: ["病院へ行ってきたから", "学校を休んだから", "{熱|ねつ}はないんだから"], answer: 2, en: "A: I hear you've got a cold? Are you OK?\nB: I'm fine. It's a cold, but I don't have a fever." },
           ],
         },
@@ -260,7 +260,7 @@ N2F({
           ja: "「〜にしろ」が、{疑問詞|ぎもんし}と一緒に、1つだけで使われることもある。",
           en: "\" 〜にしろ \" can also be used only once in a sentence when used together with a question word.",
           examples: [
-            { ja: "海外旅行中はどこに行くにしろ、パスポートを持って歩かなければならない。", en: "When travelling abroad, wherever you go, you must carry your passport with you." },
+            { ja: "海外旅行中はどこに行くにしろ、パスポートを持って歩かなければならない。", en: "When traveling abroad, wherever you go, you must carry your passport with you." },
             { ja: "試験の{結果|けっか}がどうなるにせよ、今は{精一杯|せいいっぱい}の{努力|どりょく}をするだけです。", en: "Whatever the result of the exam, all I can do now is make my very best effort." },
             { ja: "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ{行|い}き{先|さき}を早く決めないと間に合わなくなるよ。", en: "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, if we don't decide where to go soon we'll be too late." },
           ],

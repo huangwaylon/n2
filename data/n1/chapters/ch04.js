@@ -104,7 +104,7 @@ N2.register({
               "en": "Once it comes to rebuilding a factory, the cost runs into hundreds of millions of yen."
             }
           ],
-          "deepDive": "**〜ともなると / 〜ともなれば** means *once it comes to ~ / when you reach the level of ~*. It picks out a status, time, occasion or scale that is **a notch above the ordinary**, and the second half states what is naturally expected at that level: 社会人ともなると、嫌いな人とも付き合わなくてはならない.\n\nIt is built from と + も + なる: literally *when it even becomes ~*. The も gives the feeling of *at that level (unlike before)*. That is why the noun is usually something that implies a higher degree or a special occasion: 総理大臣, 有名なサッカー選手, 一流の通訳, 昼休み (the peak hour), オリンピック, 正月, 勤続20年のベテラン.\n\nConnection:\n- **N + ともなると / ともなれば** — the basic pattern.\n- A verb in the dictionary form is also possible (the book's ＊ note): 工場を建てかえるともなると.\n- ともなると and ともなれば are interchangeable; ともなれば sounds slightly more like a hypothetical *if it becomes ~*.\n\nSecond half: a natural, expected consequence — often a change in behaviour or a demanding situation (責任が重くなる, 大勢の客が来る, お金がかかる). It is not used for the speaker's wishes or commands: ✗社会人ともなると、ちゃんと働きなさい sounds off; prefer 社会人になったら / 社会人なのだから.\n\nCompare:\n- **〜となると** (N2): *if it comes to ~ / if that's the case* — broader and more neutral; ともなると adds the sense of *reaching a special level*.\n- **〜ともなく** (#89) looks similar but means *without particularly ~ing* (見るともなく見る) — unrelated.\n- **〜ともあろう** (not in this book's list) *someone of the standing of ~* is used to criticise (教師ともあろう者が…).\n\nJLPT tip: if the blank follows a noun of rank, time of year/day or scale, and the rest of the sentence states the *expected* consequence, ともなると/ともなれば is the answer (see 問題1-8 of this chapter: 勤続20年のベテラン（ともなれば）).",
+          "deepDive": "**〜ともなると / 〜ともなれば** means *once it comes to ~ / when you reach the level of ~*. It picks out a status, time, occasion or scale that is **a notch above the ordinary**, and the second half states what is naturally expected at that level: 社会人ともなると、嫌いな人とも付き合わなくてはならない.\n\nIt is built from と + も + なる: literally *when it even becomes ~*. The も gives the feeling of *at that level (unlike before)*. That is why the noun is usually something that implies a higher degree or a special occasion: 総理大臣, 有名なサッカー選手, 一流の通訳, 昼休み (the peak hour), オリンピック, 正月, 勤続20年のベテラン.\n\nConnection:\n- **N + ともなると / ともなれば** — the basic pattern.\n- A verb in the dictionary form is also possible (the book's ＊ note): 工場を建てかえるともなると.\n- ともなると and ともなれば are interchangeable; ともなれば sounds slightly more like a hypothetical *if it becomes ~*.\n\nSecond half: a natural, expected consequence — often a change in behavior or a demanding situation (責任が重くなる, 大勢の客が来る, お金がかかる). It is not used for the speaker's wishes or commands: ✗社会人ともなると、ちゃんと働きなさい sounds off; prefer 社会人になったら / 社会人なのだから.\n\nCompare:\n- **〜となると** (N2): *if it comes to ~ / if that's the case* — broader and more neutral; ともなると adds the sense of *reaching a special level*.\n- **〜ともなく** (#89) looks similar but means *without particularly ~ing* (見るともなく見る) — unrelated.\n- **〜ともあろう** (not in this book's list) *someone of the standing of ~* is used to criticize (教師ともあろう者が…).\n\nJLPT tip: if the blank follows a noun of rank, time of year/day or scale, and the rest of the sentence states the *expected* consequence, ともなると/ともなれば is the answer (see 問題1-8 of this chapter: 勤続20年のベテラン（ともなれば）).",
           "see": [],
           "index": [
             "Nともなると",
@@ -247,7 +247,7 @@ N2.register({
               "en": "They say that for a restaurant in a student district, taste matters, of course, but the number one requirement is big portions."
             }
           ],
-          "deepDive": "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\nTwo readings, as the book explains:\n- *not only A but also B* — both A and B apply (デザインもさることながら、性能もいい; 晩婚化もさることながら、教育費の負担の大きさにもある). B often takes も.\n- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\nConnection: **N + もさることながら** (the も is part of the pattern and must not be dropped). Typical nouns are qualities or factors: 味, 値段, デザイン, 才能, 努力, 原因.\n\nRegister: formal and written; you will meet it in essays, reviews and advertising copy.\n\nCompare:\n- **〜はもとより / 〜はもちろん** (N2): *A, of course, and also B* — similar to the first reading, but they don't carry the *B is more important* nuance as naturally.\n- **〜ばかりか / 〜のみならず**: *not only ~ but also* — neutral addition.\n- **〜をおいて他にない** (#40) is about B being the *only* one, not an addition.\n\nPitfall: A should be something that is itself significant or worth mentioning (a factor, a quality, a cause); もさることながら is not used just to list trivial items.\n\nJLPT tip: in ordering questions the pattern often appears split as 「〜も」＋「さることながら」 (see 問題2-3 of this chapter: 機能面も／さることながら).",
+          "deepDive": "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasize: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\nTwo readings, as the book explains:\n- *not only A but also B* — both A and B apply (デザインもさることながら、性能もいい; 晩婚化もさることながら、教育費の負担の大きさにもある). B often takes も.\n- *A matters, but B matters even more* — the weight shifts to B (デザインもさることながら、安全性を重視すべきだ). B often takes が or を, or words like 何より / 第一.\n\nConnection: **N + もさることながら** (the も is part of the pattern and must not be dropped). Typical nouns are qualities or factors: 味, 値段, デザイン, 才能, 努力, 原因.\n\nRegister: formal and written; you will meet it in essays, reviews and advertising copy.\n\nCompare:\n- **〜はもとより / 〜はもちろん** (N2): *A, of course, and also B* — similar to the first reading, but they don't carry the *B is more important* nuance as naturally.\n- **〜ばかりか / 〜のみならず**: *not only ~ but also* — neutral addition.\n- **〜をおいて他にない** (#40) is about B being the *only* one, not an addition.\n\nPitfall: A should be something that is itself significant or worth mentioning (a factor, a quality, a cause); もさることながら is not used just to list trivial items.\n\nJLPT tip: in ordering questions the pattern often appears split as 「〜も」＋「さることながら」 (see 問題2-3 of this chapter: 機能面も／さることながら).",
           "see": [
             40
           ],
@@ -273,7 +273,7 @@ N2.register({
                   "answer": 0,
                   "en": "Specialist knowledge is of course necessary, but communication skills are even more necessary.",
                   "why": {
-                    "en": "The item that is acknowledged first (専門知識) goes before もさることながら; the one being emphasised comes after."
+                    "en": "The item that is acknowledged first (専門知識) goes before もさることながら; the one being emphasized comes after."
                   }
                 },
                 {
@@ -323,7 +323,7 @@ N2.register({
             },
             {
               "ja": "結果が2位であれ3位であれ、{頑張|がんば}った{成果|せいか}は評価されるべきだろう。",
-              "en": "Whether the result is second place or third, the fruits of your hard work deserve to be recognised."
+              "en": "Whether the result is second place or third, the fruits of your hard work deserve to be recognized."
             },
             {
               "ja": "このウォーターカッターを使えば、コンクリートであれ何であれ、切れないものはない。",
@@ -347,7 +347,7 @@ N2.register({
               ]
             }
           ],
-          "deepDive": "**AであれBであれ** is the formal, written counterpart of **AでもBでも**: *whether it's A or B, (the same applies)*. You name two representative examples, and the conclusion holds for both — and by implication for everything of that kind: 上司との関係であれ、同僚や後輩との関係であれ、人間関係は大切です.\n\nForm: であれ is the old imperative-concessive of である (*be it ~*). Connect it directly to nouns: **N₁であれN₂であれ**. N₂ can be a question word: コンクリートであれ何であれ *concrete or whatever*.\n\nThe clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgement or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\nCompare:\n- **〜にしろ〜にしろ / 〜にせよ〜にせよ** (N2): same meaning, slightly less stiff; they attach to verbs and adjectives more freely. であれ is mainly for nouns.\n- **〜といい〜といい** (#44): also lists two examples, but to *evaluate* a whole (both A and B are great/terrible). であれ says the outcome is *the same regardless*.\n- **〜やら〜やら / 〜とか〜とか**: just list examples (*things like A and B*) with no *regardless* meaning — the contrast drilled in the practice below.\n- **〜だし〜だし**: gives reasons (*A, and also B, so...*).\n\nJLPT tip: if the sentence ends with a rule or a universal judgement (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
+          "deepDive": "**AであれBであれ** is the formal, written counterpart of **AでもBでも**: *whether it's A or B, (the same applies)*. You name two representative examples, and the conclusion holds for both — and by implication for everything of that kind: 上司との関係であれ、同僚や後輩との関係であれ、人間関係は大切です.\n\nForm: であれ is the old imperative-concessive of である (*be it ~*). Connect it directly to nouns: **N₁であれN₂であれ**. N₂ can be a question word: コンクリートであれ何であれ *concrete or whatever*.\n\nThe clip note adds the single use with a question word: **疑問詞（+N）+であれ** = *no matter what/where/who*: どんな理由であれ, どこであれ, 誰であれ. It is often preceded by たとえ. The second half is typically a rule, a judgment or a strong statement (許されない, 禁止されている, 評価されるべきだ).\n\nCompare:\n- **〜にしろ〜にしろ / 〜にせよ〜にせよ** (N2): same meaning, slightly less stiff; they attach to verbs and adjectives more freely. であれ is mainly for nouns.\n- **〜といい〜といい** (#44): also lists two examples, but to *evaluate* a whole (both A and B are great/terrible). であれ says the outcome is *the same regardless*.\n- **〜やら〜やら / 〜とか〜とか**: just list examples (*things like A and B*) with no *regardless* meaning — the contrast drilled in the practice below.\n- **〜だし〜だし**: gives reasons (*A, and also B, so...*).\n\nJLPT tip: if the sentence ends with a rule or a universal judgment (…はいけない, …ことはない, …べきだ), choose であれ; if it simply piles up items (いろいろ, 大変だった), choose やら/とか.",
           "see": [
             44
           ],
@@ -520,7 +520,7 @@ N2.register({
                     "判断"
                   ],
                   "answer": 1,
-                  "en": "The leader of any organisation is expected to make judgements that fit the situation at hand."
+                  "en": "The leader of any organization is expected to make judgments that fit the situation at hand."
                 },
                 {
                   "q": "{顧客|こきゃく}のニーズに{即|そく}した（　）が{企業|きぎょう}の生き残りの道だ。",
@@ -569,7 +569,7 @@ N2.register({
           "examples": [
             {
               "ja": "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。",
-              "en": "If you want to change jobs on favourable terms, now, while the economy is picking up, is the time to do it — there is no better time."
+              "en": "If you want to change jobs on favorable terms, now, while the economy is picking up, is the time to do it — there is no better time."
             },
             {
               "ja": "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。",
@@ -783,7 +783,7 @@ N2.register({
           {
             "cont": true,
             "ja": "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさ**といい**、{緻密|ちみつ}で正確な仕事ぶり**といい**、実は意外にデキる上司だと気づくこともあります。",
-            "en": "Then you may realise that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is."
+            "en": "Then you may realize that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is."
           },
           {
             "ja": "長所を見つけたら、{同僚|どうりょう}の前で話題にしましょう。",
@@ -838,7 +838,7 @@ N2.register({
               "en": "There's no need to ask what he's getting at — it's obvious."
             }
           ],
-          "deepDive": "**〜までもない / 〜までもなく** means *there is no need to go as far as ~*. まで (*even to the point of*) + も + ない: the action is unnecessary because the answer is **already clear or the matter is too minor**. 言うまでもなく *needless to say* is by far the most frequent use, and it works like a set phrase at the start of a clause.\n\nForms:\n- **V-る + までもない** at the end of a sentence: 聞くまでもない, 仰ぐまでもないだろう, 問うまでもないことだ.\n- **V-る + までもなく、…** as a linking form: 遠方に足を運ぶまでもなく、ネットで手に入る *without (needing to) ~*.\n- Fixed expressions: 言うまでもない, 言うまでもなく, 見るまでもない, 考えるまでもない, 説明するまでもない.\n\nNuance: slightly formal and confident; the speaker judges the action to be a waste of effort. The practice below checks the meaning: 決算書を見るまでもなく明らかだ = *it's clear even without looking at the financial statements* (b), and 言うまでもなく = *there's no need to say it, but…* (a).\n\nCompare:\n- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgement about the situation.\n- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\nJLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題1 of the review: わざわざ知らせる（までもない）.",
+          "deepDive": "**〜までもない / 〜までもなく** means *there is no need to go as far as ~*. まで (*even to the point of*) + も + ない: the action is unnecessary because the answer is **already clear or the matter is too minor**. 言うまでもなく *needless to say* is by far the most frequent use, and it works like a set phrase at the start of a clause.\n\nForms:\n- **V-る + までもない** at the end of a sentence: 聞くまでもない, 仰ぐまでもないだろう, 問うまでもないことだ.\n- **V-る + までもなく、…** as a linking form: 遠方に足を運ぶまでもなく、ネットで手に入る *without (needing to) ~*.\n- Fixed expressions: 言うまでもない, 言うまでもなく, 見るまでもない, 考えるまでもない, 説明するまでもない.\n\nNuance: slightly formal and confident; the speaker judges the action to be a waste of effort. The practice below checks the meaning: 決算書を見るまでもなく明らかだ = *it's clear even without looking at the financial statements* (b), and 言うまでもなく = *there's no need to say it, but…* (a).\n\nCompare:\n- **〜ことはない** (N3/N2): *there's no need to ~* — advice to the listener (心配することはない). までもない is more a judgment about the situation.\n- **〜には及ばない**: *there's no need to ~* — polite, often used to decline (お礼には及びません).\n- **〜ないまでも** (#43) looks similar but is completely different: *even if not ~, at least …*. The Check for this part contrasts them.\n\nJLPT tip: if the context says the thing is obvious or trivial (この程度, 大したことない, 明らかだ), までもない fits — see 問題1 of the review: わざわざ知らせる（までもない）.",
           "see": [
             43
           ],
@@ -1114,7 +1114,7 @@ N2.register({
               "en": "This hotel was a real letdown. The service, the food — it's all dreadful."
             }
           ],
-          "deepDive": "**AといいBといい** means *both A and B / whether you look at A or B* — the speaker picks two representative aspects of one thing (a person, a place, a product) and uses them to make an **overall evaluation**, strongly positive or strongly negative: 面倒見のよさといい、緻密で正確な仕事ぶりといい、実は意外にデキる上司だ.\n\nConnection: **N₁といいN₂といい**, usually followed by a comma and the judgement. The two nouns are features of the same subject: スープ and 麺の硬さ (of the ramen), サービス and 料理 (of the hotel), 色 and 柄 (of the necktie).\n\nThe second half expresses the speaker's feeling or verdict: さすが〜だ, 〜は魅力がいっぱいだ, ひどいものだ, センスがいい, 完璧だ, 最悪だ. It is not used for neutral facts or for requests.\n\nCompare (the practice below contrasts these):\n- **〜であれ〜であれ** (#38): *whether A or B, it's the same* — a rule that holds regardless; といい evaluates the subject through its features. 飲み物はアルコールであれソフトドリンクであれ、別に料金がかかる.\n- **〜なり〜なり** (#21): *either A or B (choose one)* — a suggestion: 電話なりメールなりで連絡して.\n- **〜にしても〜にしても / 〜にしろ〜にしろ** (N2): *whether A or B* — like であれ.\n- **〜も〜も**: plain *both A and B*, no evaluative colour.\n\nJLPT tip: if two aspects of one subject are listed and the sentence ends with an emotional verdict (すばらしい, さすが, ひどい, 危険すぎる), choose といい. If it ends with a rule (料金がかかる, 守らなければならない), choose であれ.",
+          "deepDive": "**AといいBといい** means *both A and B / whether you look at A or B* — the speaker picks two representative aspects of one thing (a person, a place, a product) and uses them to make an **overall evaluation**, strongly positive or strongly negative: 面倒見のよさといい、緻密で正確な仕事ぶりといい、実は意外にデキる上司だ.\n\nConnection: **N₁といいN₂といい**, usually followed by a comma and the judgment. The two nouns are features of the same subject: スープ and 麺の硬さ (of the ramen), サービス and 料理 (of the hotel), 色 and 柄 (of the necktie).\n\nThe second half expresses the speaker's feeling or verdict: さすが〜だ, 〜は魅力がいっぱいだ, ひどいものだ, センスがいい, 完璧だ, 最悪だ. It is not used for neutral facts or for requests.\n\nCompare (the practice below contrasts these):\n- **〜であれ〜であれ** (#38): *whether A or B, it's the same* — a rule that holds regardless; といい evaluates the subject through its features. 飲み物はアルコールであれソフトドリンクであれ、別に料金がかかる.\n- **〜なり〜なり** (#21): *either A or B (choose one)* — a suggestion: 電話なりメールなりで連絡して.\n- **〜にしても〜にしても / 〜にしろ〜にしろ** (N2): *whether A or B* — like であれ.\n- **〜も〜も**: plain *both A and B*, no evaluative color.\n\nJLPT tip: if two aspects of one subject are listed and the sentence ends with an emotional verdict (すばらしい, さすが, ひどい, 危険すぎる), choose といい. If it ends with a rule (料金がかかる, 守らなければならない), choose であれ.",
           "see": [
             38,
             21
@@ -1197,7 +1197,7 @@ N2.register({
                       "answer": 0
                     }
                   ],
-                  "en": "The manager's ties are tasteful in both colour and pattern — I wonder if he chooses them himself."
+                  "en": "The manager's ties are tasteful in both color and pattern — I wonder if he chooses them himself."
                 }
               ]
             }
@@ -1414,7 +1414,7 @@ N2.register({
             "answer": 0,
             "en": "Whereas our university's medical school has excellent research facilities, the engineering school doesn't even have adequate laboratory equipment.",
             "why": {
-              "en": "Two faculties of the same university are contrasted, one favourably and one unfavourably: plain form + の + にひきかえ."
+              "en": "Two faculties of the same university are contrasted, one favorably and one unfavorably: plain form + の + にひきかえ."
             }
           },
           {
@@ -1490,7 +1490,7 @@ N2.register({
               2
             ],
             "star": 2,
-            "en": "For our new location, what with the good transport links and the safe neighbourhood, there seems to be nowhere but here.",
+            "en": "For our new location, what with the good transport links and the safe neighborhood, there seems to be nowhere but here.",
             "why": {
               "en": "交通の便といい、治安の良さといい、ここをおいて他にない: といい…といい pairs 交通の便 with 治安の良さ, and ここ + をおいて precedes 他にない."
             }
@@ -1511,7 +1511,7 @@ N2.register({
               1
             ],
             "star": 2,
-            "en": "This school does not refund enrolment fees once they have been paid, whatever the reason.",
+            "en": "This school does not refund enrollment fees once they have been paid, whatever the reason.",
             "why": {
               "en": "納入された入学金は、理由のいかんにかかわらず返還いたしません: the topic 入学金は comes first, then 理由の + いかんにかかわらず, then 返還 before いたしません."
             }

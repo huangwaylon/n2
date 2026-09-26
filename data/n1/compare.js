@@ -30,7 +30,7 @@ N2.registerCompare([
         note: "\"Now that / since ~ (you are committed)\": followed by duty, resolve or advice (〜べきだ, 〜たほうがいい)." },
       { pattern: "〜から見て", level: "N2",
         ex: { ja: "便利さという点から見ると、やはり田舎より都会のほうが暮らしやすい。", en: "In terms of convenience, the city is certainly easier to live in than the countryside." },
-        note: "\"Judging from / from the standpoint of ~\" (から見ると/見れば/見て). States the viewpoint on which a judgement is based." },
+        note: "\"Judging from / from the standpoint of ~\" (から見ると/見れば/見て). States the viewpoint on which a judgment is based." },
       { pattern: "Nからして", level: "N1", no: 6,
         ex: { ja: "有名デパートの店員は、言葉{遣|づか}いからして{丁寧|ていねい}だ。", en: "At famous department stores, the staff are polite, starting with the way they speak." },
         note: "\"Starting with ~ / even ~ alone\": picks one (often basic) example to suggest that everything else is the same. Also \"judging from ~\" (名前からして)." },
@@ -68,7 +68,7 @@ N2.registerCompare([
         note: "どれだけ/どんなに … ことか: \"how very ~!\". An exclamation of strong feeling, usually with a question word." },
       { pattern: "〜ことから", level: "N2",
         ex: { ja: "このサツマイモは中が赤いことから、{紅|べに}イモと呼ばれています。", en: "Because this sweet potato is red inside, it is called beni-imo (red potato)." },
-        note: "\"From the fact that ~\": gives the grounds for a name, judgement or origin. Written style." },
+        note: "\"From the fact that ~\": gives the grounds for a name, judgment or origin. Written style." },
       { pattern: "〜ということだ", level: "N3",
         ex: { ja: "ニュースでは、今回の地震による{津波|つなみ}の心配はないということです。", en: "According to the news, there is no danger of a tsunami from this earthquake." },
         note: "\"I hear that / it is said that ~\": reports information from a source (hearsay)." },
@@ -216,7 +216,7 @@ N2.registerCompare([
     items: [
       { pattern: "〜かと思う", level: "N3",
         ex: { ja: "今週はちょっと難しいですが、来週なら時間が取れるかと思います。", en: "This week is a bit difficult, but I think I can make time next week." },
-        note: "\"I think perhaps ~\": a softened, polite statement of one's opinion or judgement." },
+        note: "\"I think perhaps ~\": a softened, polite statement of one's opinion or judgment." },
       { pattern: "〜かと思った", level: "N3",
         ex: { ja: "A：あの人、新しく来た課長さんよ。\nB：え、本当!?　若そうだから、{新入|しんにゅう}社員かと思ったよ。", en: "A: That's the new section manager.\nB: What, really!? He looks so young, I thought he was a new employee." },
         note: "\"I thought (mistakenly) that ~\": what one had assumed turned out to be wrong." },
@@ -245,7 +245,7 @@ N2.registerCompare([
         note: "〜ところ(を): \"when (you are ~) / despite ~\". A formal set phrase acknowledging the listener's situation before a request or apology (お忙しいところ, お休みのところ)." },
       { pattern: "Vたところで", level: "N1", no: 77,
         ex: { ja: "今から急いだところで、間に合うわけがないよ。", en: "Even if we hurry now, there's no way we'll make it in time." },
-        note: "V-た + ところで: \"even if ~ (it would be useless)\". The action won't bring the desired result; followed by a negative or dismissive judgement." },
+        note: "V-た + ところで: \"even if ~ (it would be useless)\". The action won't bring the desired result; followed by a negative or dismissive judgment." },
       { pattern: "〜といったところだ①", level: "N1", no: 45,
         ex: { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like pin-up photos of idols." },
         note: "\"Is something like ~ / could be likened to ~\"." },
@@ -256,7 +256,7 @@ N2.registerCompare([
         ex: { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: Karaoke? No way! I have to write my report. It's due tomorrow." },
         note: "\"This is no time for ~ / ~ is out of the question\" (because of circumstances)." },
       { pattern: "〜どころか", level: "N2",
-        ex: { ja: "高校を卒業した{頃|ころ}、海外旅行どころか国内旅行もしたことがなかった。", en: "When I graduated from high school, I had never even travelled within the country, let alone abroad." },
+        ex: { ja: "高校を卒業した{頃|ころ}、海外旅行どころか国内旅行もしたことがなかった。", en: "When I graduated from high school, I had never even traveled within the country, let alone abroad." },
         note: "\"Far from ~ / let alone ~\": denies the first item and presents a more extreme (or opposite) fact." }
     ]
   },
@@ -342,7 +342,7 @@ N2.registerCompare([
         note: "N + に限って: \"it is precisely / always N that ~\". Points out, with dissatisfaction, that N in particular behaves this way (often unexpectedly or at a bad time)." },
       { pattern: "〜に限る", level: "N2",
         ex: { ja: "運動の後は、はちみつとレモンのジュースに限る。", en: "After exercise, there's nothing like a honey and lemon drink." },
-        note: "\"~ is the best / there's nothing better than ~\": the speaker's subjective judgement of what is best." },
+        note: "\"~ is the best / there's nothing better than ~\": the speaker's subjective judgment of what is best." },
       { pattern: "限りだ", level: "N1", no: 71,
         ex: { ja: "努力の{甲斐|かい}あって、日本の{看護師|かんごし}の国家試験に受かって、うれしい限りです。", en: "My efforts paid off and I passed Japan's national nursing exam. I couldn't be happier." },
         note: "Emotion adjective + 限りだ: \"extremely ~ / I feel so ~\" (うれしい限り, 心細い限り). Expresses the speaker's own feeling at its peak." },
@@ -380,7 +380,7 @@ N2.registerCompare([
         note: "X にしろ Y にしろ: \"whether X or Y\" (= にしても〜にしても, somewhat more written)." },
       { pattern: "Nにしたところで", level: "N1", no: 86,
         ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even someone as mild-mannered as Tanaka would surely get angry if kept waiting a whole hour." },
-        note: "Person + にしたところで: \"even N (would be no exception)\". Much like にしても; usually followed by a negative or unfavourable result." },
+        note: "Person + にしたところで: \"even N (would be no exception)\". Much like にしても; usually followed by a negative or unfavorable result." },
       { pattern: "Nにしたら", level: "N1", no: 81,
         ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victims' point of view it's probably not something they could accept." },
         note: "Person + にしたら: \"from N's point of view\" (= にしてみれば)." }
@@ -453,7 +453,7 @@ N2.registerCompare([
         ex: { ja: "天候不順で、山頂まで行くのはあきらめるほかない。", en: "Because of the unsettled weather, we have no choice but to give up on going to the summit." },
         note: "V (dictionary form) + ほか(は)ない: \"there is no choice but to ~\" (= しかない, よりほかない)." },
       { pattern: "Nをおいて他にない", level: "N1", no: 40,
-        ex: { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, there's no better time than now, while the economy is improving." },
+        ex: { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, there's no better time than now, while the economy is improving." },
         note: "N + をおいて他にない: \"there is no one / nothing other than N\". Highly evaluates N as the only candidate (彼をおいて他にいない)." }
     ]
   },

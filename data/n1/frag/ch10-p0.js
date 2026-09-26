@@ -339,7 +339,7 @@ N2F({
         "- **〜以外の何ものでもない**: *is nothing other than ~*, also emphatic, often negative (嫌がらせ以外の何ものでもない).\n" +
         "- **〜というものだ**: *that's what ~ is*.\n\n" +
         "Pitfall: despite the question form, the meaning is a strong **affirmative**. Don't translate it as doubt.\n\n" +
-        "JLPT tip: recognise the chunk でなくて + なん(だろう/であろう) in ordering questions; the noun it attaches to is the author's conclusion.",
+        "JLPT tip: recognize the chunk でなくて + なん(だろう/であろう) in ordering questions; the noun it attaches to is the author's conclusion.",
       see: [],
       index: ["Nでなくてなんだろう", "Nでなくてなんだろうか", "Nでなくてなんであろう", "Nでなくてなんであろうか", "〜でなくてなんだろう"],
     },
