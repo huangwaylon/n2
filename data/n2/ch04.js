@@ -11,7 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "news",
         lines: [
-          { ja: "次は{台風|たいふう}{関係|かんけい}のニュースをお伝えします。", en: "Next, news about the typhoon." },
+          { ja: "次は{台風|たいふう}{関係|かんけい}のニュースをお伝えします。", en: "Next, we bring you news about the typhoon." },
           { ja: "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}{海上|かいじょう}にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。", en: "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometers per hour." },
           { cont: true, ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second." },
           { cont: true, ja: "今後{台風|たいふう}は{速度|そくど}を速め**つつ**東に進むと{予想|よそう}されます。", en: "The typhoon is expected to move east while picking up speed." },
@@ -468,7 +468,7 @@ TRY.registerChapter({
           },
           {
             question: "{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。",
-            questionEn: "According to the report, what do people on the Sea of Japan side of the Tohoku region need to watch out for?",
+            questionEn: "What does she say people on the Sea of Japan side of the Tohoku region need to watch out for?",
             script: [
               { sp: "", ja: "女の人が話しています。{東北|とうほく}地方の{日本海側|にほんかいがわ}の人は何に注意が{必要|ひつよう}だと言っていますか。" },
               { sp: "F", v: "f", ja: "{東北|とうほく}地方の{日本海側|にほんかいがわ}には{大雪警報|おおゆきけいほう}が出ています。今夜から明日にかけて、強い風と{雷|かみなり}をともなって{大雪|おおゆき}になるおそれがありますので、{積雪|せきせつ}とともに、{落雷|らくらい}、{強風|きょうふう}にもご注意ください。" },
