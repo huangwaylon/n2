@@ -417,7 +417,7 @@ N2.register({
                     "べき"
                   ],
                   "answer": 0,
-                  "en": "A: I heard Saito has a job interview exam today.\nB: Oh, so that's why he went out in a suit."
+                  "en": "A: I heard Saito has an employment exam today.\nB: Oh, so that's why he went out in a suit."
                 },
                 {
                   "q": "A：{斎藤|さいとう}さん、部屋にいないみたいだね。\nB：うん。今日{就職|しゅうしょく}試験だって言っていたから、もう出かけた（　）よ。",

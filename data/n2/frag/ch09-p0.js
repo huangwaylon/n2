@@ -224,7 +224,7 @@ N2F({
           labels: "abc",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "A：{斎藤|さいとう}さん、今日、{就職|しゅうしょく}試験なんだって。\nB：ああ、それでスーツ着て出かけていった（　）ね。", options: ["わけ", "はず", "べき"], answer: 0, en: "A: I heard Saito has a job interview exam today.\nB: Oh, so that's why he went out in a suit." },
+            { q: "A：{斎藤|さいとう}さん、今日、{就職|しゅうしょく}試験なんだって。\nB：ああ、それでスーツ着て出かけていった（　）ね。", options: ["わけ", "はず", "べき"], answer: 0, en: "A: I heard Saito has an employment exam today.\nB: Oh, so that's why he went out in a suit." },
             { q: "A：{斎藤|さいとう}さん、部屋にいないみたいだね。\nB：うん。今日{就職|しゅうしょく}試験だって言っていたから、もう出かけた（　）よ。", options: ["わけ", "はず", "べき"], answer: 1, en: "A: Saito doesn't seem to be in his room.\nB: Yeah. He said he had a job exam today, so he should have left already." },
             { q: "{事故|じこ}にあったときは、まず何をする（　）か、{落|お}ち{着|つ}いて考えましょう。", options: ["わけ", "はず", "べき"], answer: 2, en: "When you're in an accident, calmly think about what you should do first." },
             { q: "A：このプリンターは去年のモデルなので、30,000円{引|び}きになっております。\nB：ああ、それで安い（　）ね。", options: ["わけ", "はず", "べき"], answer: 0, en: "A: This printer is last year's model, so it's 30,000 yen off.\nB: Ah, so that's why it's cheap." },
