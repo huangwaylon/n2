@@ -396,7 +396,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜たりとも…」は「1人たりとも逃すな」のように「その少ない単位（1人）でも絶対…ない（逃がさない）」と言いたいときに使われる。",
-            "en": "As in “1人たりとも逃すな” (Don't let even one person get away), “〜たりとも…” is used when you want to say “absolutely not … (let get away), not even so small a unit (one person).”"
+            "en": "As in “1人たりとも逃すな” (Don't let a single one get away), “〜たりとも…” is used when you want to say “not even that smallest unit (one person) — absolutely not … (let get away).”"
           },
           "forms": [
             "1 + {助数詞|じょすうし} + たりとも + …ない"
@@ -517,7 +517,7 @@ N2.register({
               "en": "The price war among big electronics stores is welcome for consumers, but lately it has tended to go a little too far."
             }
           ],
-          "deepDive": "**きらい** here is the noun 嫌い in an old sense: *a (regrettable) tendency, a leaning*. **〜きらいがある** = *has a tendency to ~*, always about an **undesirable** habit or trait — hence the regret icon. It's a critical but polite, somewhat detached way of pointing out a fault: 健康管理がおろそかになるきらいがあります.\n\nConnection:\n- **V-る / V-ない + きらいがある**: 判断してしまうきらいがある, 考えないきらいがある. Verbs like 〜がち, 〜すぎる, 〜たがる, 〜てしまう fit naturally before it.\n- **Nのきらいがある**, especially **〜すぎのきらいがある**: 行きすぎのきらいがある, 楽観的すぎるきらいがある.\n\nNuance and register:\n- It describes a general **tendency of a person, group or phenomenon**, not a single event. ✗昨日彼は遅刻するきらいがあった.\n- It is never used for good traits: ✗彼は親切にするきらいがある.\n- Formal/written; in conversation you'd say 〜がちだ, 〜傾向がある, or 〜ところがある.\n\nCompare:\n- **〜がちだ** (N2): *tend to* — also mostly negative, more everyday, attaches to V-ます stem or N (忘れがち, 病気がち).\n- **〜傾向がある**: *there is a tendency* — neutral, can be positive or negative, statistical.\n- **〜おそれがある**: *there is a risk that* — about a possible future bad event, not a habit.\n\nJLPT tip: in the practice the correct option is the one that makes the behavior **a fault** (軽視する, 甘くなる, 結果さえよければ満足し…過程を軽んじる). If an option describes something admirable, it can't go with きらいがある.",
+          "deepDive": "**きらい** here is the noun 嫌い in an old sense: *a (regrettable) tendency, a leaning*. **〜きらいがある** = *has a tendency to ~*, always about an **undesirable** habit or trait — hence the regret icon. It's a critical but polite, somewhat detached way of pointing out a fault: 健康管理がおろそかになるきらいがあります.\n\nConnection:\n- **V-る / V-ない + きらいがある**: 判断してしまうきらいがある, 考えないきらいがある. Verbs like 〜がち, 〜すぎる, 〜たがる, 〜てしまう fit naturally before it.\n- **Nのきらいがある**, especially **〜すぎのきらいがある**: 行きすぎのきらいがある (the verb form 〜すぎるきらいがある is also common: 楽観的すぎるきらいがある).\n\nNuance and register:\n- It describes a general **tendency of a person, group or phenomenon**, not a single event. ✗昨日彼は遅刻するきらいがあった.\n- It is never used for good traits: ✗彼は親切にするきらいがある.\n- Formal/written; in conversation you'd say 〜がちだ, 〜傾向がある, or 〜ところがある.\n\nCompare:\n- **〜がちだ** (N2): *tend to* — also mostly negative, more everyday, attaches to V-ます stem or N (忘れがち, 病気がち).\n- **〜傾向がある**: *there is a tendency* — neutral, can be positive or negative, statistical.\n- **〜おそれがある**: *there is a risk that* — about a possible future bad event, not a habit.\n\nJLPT tip: in the practice the correct option is the one that makes the behavior **a fault** (軽視する, 甘くなる, 結果さえよければ満足し…過程を軽んじる). If an option describes something admirable, it can't go with きらいがある.",
           "see": [],
           "index": [
             "〜きらいがある",
@@ -599,7 +599,7 @@ N2.register({
             },
             {
               "ja": "国際交流イベントの成功のために、広く皆様にご協力をお願い申し上げる{次第|しだい}です。",
-              "en": "It is for the success of the international exchange event that I am asking all of you for your cooperation."
+              "en": "To make the international exchange event a success, I am therefore asking all of you for your cooperation."
             },
             {
               "ja": "調査結果がまだまとまっていないために、会議でご報告できなかった{次第|しだい}です。",
@@ -623,7 +623,7 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜をもって」は「〜を手段・方法にして」と言いたいときに使う。「電話で話す」のように日常的なものには使わない。",
-            "en": "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday means, as in “電話で話す” (talk on the phone)."
+            "en": "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday means such as the telephone in “電話で話す” (talk on the phone)."
           },
           "forms": [
             "[N] + をもって"
@@ -733,7 +733,7 @@ N2.register({
           "examples": [
             {
               "ja": "「皆さん、泊まってくださるお客様あっての旅館だということを忘れずに、今日も1日笑顔で{頑張|がんば}りましょう。」",
-              "en": "“Everyone, let's not forget that this inn exists only thanks to the guests who stay with us, and let's do our best with a smile again all day today.”"
+              "en": "“Everyone, let's not forget that this inn exists only thanks to the guests who stay with us, and let's keep smiling and do our best again today.”"
             },
             {
               "ja": "一流シェフは、「良い材料あってのおいしい料理」とよく口にする。",
@@ -741,7 +741,7 @@ N2.register({
             },
             {
               "ja": "「社員の幸福あっての{我|わ}が{社|しゃ}です。」と経営の神様と呼ばれた社長は言った。",
-              "en": "“Our company exists only through the happiness of its employees,” said the president who was called the god of management."
+              "en": "“Our company exists only through the happiness of its employees,” said the company president known as “the god of management.”"
             },
             {
               "ja": "決勝に進出できたのはチームの{団結|だんけつ}あってのことだ。{一丸|いちがん}となって優勝を勝ち取ろう。",
@@ -984,7 +984,7 @@ N2.register({
             {
               "q": "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。",
               "answer": "をもって",
-              "en": "We must seek the forgiveness of the customers we have inconvenienced by means of a heartfelt apology."
+              "en": "With a heartfelt apology, we must ask the customers we have inconvenienced to forgive us."
             },
             {
               "q": "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。",
@@ -1157,7 +1157,7 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "With a large typhoon approaching, this year's festival was forced to be cancelled."
+            "en": "With a large typhoon approaching, this year's festival had to be cancelled."
           },
           {
             "before": "「サルも木から落ちる」というのは、",
@@ -1344,7 +1344,7 @@ N2.register({
               "The leader of a volunteer program is talking to the participants.",
               "To all of you taking part in this month-long volunteer program overseas, I would like to express my heartfelt respect. I have a request to make of you.",
               "Above all, I would like you to put your own health first. Those of you taking part for the first time in particular tend to push yourselves too hard. I understand how you feel, but if you fall ill, you may be forced to go into hospital or to return home partway through. Whatever you do, it all depends on your health. Please don't forget that.",
-              "Also, as for how to interact with the local people — not taking photos or videos without permission, not handing out presents to the children on your own initiative, and so on — it is just as written in your materials.",
+              "Also, as for how to interact with the local people — not taking photos or videos without permission, not handing out presents to the children on your own initiative, and so on — is as set out in your materials.",
               "If you have the attitude of working together as fellow members, rather than as the side that gives support and the side that receives it, I think things will go well. Well, you may also be worried about the language or the food, but in any case, as long as you're healthy, things will work out. I sincerely wish you every success.",
               "I see. I'll be careful. It would be rude to act as if we were superior, wouldn't it? And with photos, too — it's their lives, so I think they'd hate being photographed as if they were objects or scenery.",
               "Yeah, well, it's common sense, I guess. I think it's just a matter of not doing to others what you wouldn't want done to yourself. What matters more is your own health.",

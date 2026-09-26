@@ -210,7 +210,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜たりとも…」は「1人たりとも逃すな」のように「その少ない単位（1人）でも絶対…ない（逃がさない）」と言いたいときに使われる。",
-        en: "As in “1人たりとも逃すな” (Don't let even one person get away), “〜たりとも…” is used when you want to say “absolutely not … (let get away), not even so small a unit (one person).”",
+        en: "As in “1人たりとも逃すな” (Don't let a single one get away), “〜たりとも…” is used when you want to say “not even that smallest unit (one person) — absolutely not … (let get away).”",
       },
       forms: ["1 + {助数詞|じょすうし} + たりとも + …ない"],
       formNotes: [
@@ -275,7 +275,7 @@ N2F({
         "**きらい** here is the noun 嫌い in an old sense: *a (regrettable) tendency, a leaning*. **〜きらいがある** = *has a tendency to ~*, always about an **undesirable** habit or trait — hence the regret icon. It's a critical but polite, somewhat detached way of pointing out a fault: 健康管理がおろそかになるきらいがあります.\n\n" +
         "Connection:\n" +
         "- **V-る / V-ない + きらいがある**: 判断してしまうきらいがある, 考えないきらいがある. Verbs like 〜がち, 〜すぎる, 〜たがる, 〜てしまう fit naturally before it.\n" +
-        "- **Nのきらいがある**, especially **〜すぎのきらいがある**: 行きすぎのきらいがある, 楽観的すぎるきらいがある.\n\n" +
+        "- **Nのきらいがある**, especially **〜すぎのきらいがある**: 行きすぎのきらいがある (the verb form 〜すぎるきらいがある is also common: 楽観的すぎるきらいがある).\n\n" +
         "Nuance and register:\n" +
         "- It describes a general **tendency of a person, group or phenomenon**, not a single event. ✗昨日彼は遅刻するきらいがあった.\n" +
         "- It is never used for good traits: ✗彼は親切にするきらいがある.\n" +
@@ -316,7 +316,7 @@ N2F({
       examples: [
         { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be difficult with our company's technical capabilities, and that is why we declined it." },
         { ja: "出張と重なってしまったために、会議を中止させていただいた{次第|しだい}です。", en: "The meeting clashed with a business trip, and that is why we have taken the liberty of cancelling it." },
-        { ja: "国際交流イベントの成功のために、広く皆様にご協力をお願い申し上げる{次第|しだい}です。", en: "It is for the success of the international exchange event that I am asking all of you for your cooperation." },
+        { ja: "国際交流イベントの成功のために、広く皆様にご協力をお願い申し上げる{次第|しだい}です。", en: "To make the international exchange event a success, I am therefore asking all of you for your cooperation." },
         { ja: "調査結果がまだまとまっていないために、会議でご報告できなかった{次第|しだい}です。", en: "The reason we could not report at the meeting is that the survey results have not yet been compiled." },
       ],
       deepDive:
@@ -344,7 +344,7 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜をもって」は「〜を手段・方法にして」と言いたいときに使う。「電話で話す」のように日常的なものには使わない。",
-        en: "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday means, as in “電話で話す” (talk on the phone).",
+        en: "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday means such as the telephone in “電話で話す” (talk on the phone).",
       },
       forms: ["[N] + をもって"],
       examples: [
@@ -401,9 +401,9 @@ N2F({
         { ja: "＊「〜あってのことだ」の形も使われる。", en: "The form “〜あってのことだ” is also used." },
       ],
       examples: [
-        { ja: "「皆さん、泊まってくださるお客様あっての旅館だということを忘れずに、今日も1日笑顔で{頑張|がんば}りましょう。」", en: "“Everyone, let's not forget that this inn exists only thanks to the guests who stay with us, and let's do our best with a smile again all day today.”" },
+        { ja: "「皆さん、泊まってくださるお客様あっての旅館だということを忘れずに、今日も1日笑顔で{頑張|がんば}りましょう。」", en: "“Everyone, let's not forget that this inn exists only thanks to the guests who stay with us, and let's keep smiling and do our best again today.”" },
         { ja: "一流シェフは、「良い材料あってのおいしい料理」とよく口にする。", en: "First-class chefs often say, “Delicious food comes only from good ingredients.”" },
-        { ja: "「社員の幸福あっての{我|わ}が{社|しゃ}です。」と経営の神様と呼ばれた社長は言った。", en: "“Our company exists only through the happiness of its employees,” said the president who was called the god of management." },
+        { ja: "「社員の幸福あっての{我|わ}が{社|しゃ}です。」と経営の神様と呼ばれた社長は言った。", en: "“Our company exists only through the happiness of its employees,” said the company president known as “the god of management.”" },
         { ja: "決勝に進出できたのはチームの{団結|だんけつ}あってのことだ。{一丸|いちがん}となって優勝を勝ち取ろう。", en: "We were able to reach the final only because the team was united. Let's pull together as one and win the championship." },
         { ja: "1人で{強盗|ごうとう}を追いかけるなんて{無茶|むちゃ}ですよ。命あっての{物種|ものだね}※なんですから。", foot: "※命あっての{物種|ものだね}：「命がなければ何もできない。だから危ないことをしてはいけない。」という意味。", en: "Chasing a robber on your own is reckless. After all, you can't do anything if you're dead.* (*命あっての物種: “Without your life you can do nothing, so you mustn't do dangerous things.”)", idiom: true },
       ],
@@ -505,7 +505,7 @@ N2F({
       items: [
         { q: "結婚だマイホームだといっても、安定した収入＿＿ことだ。", answer: "あっての", en: "Marriage, a home of your own — all of that is possible only with a stable income." },
         { q: "試合中の目のけががもとで引退＿＿ボクサーは、本当に{気|き}の{毒|どく}だ。", answer: "を{余儀|よぎ}なくされた", en: "I really feel sorry for the boxer who was forced to retire because of an eye injury during a match." },
-        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "We must seek the forgiveness of the customers we have inconvenienced by means of a heartfelt apology." },
+        { q: "ご{迷惑|めいわく}をおかけしたお客様には、心からの{謝罪|しゃざい}＿＿許していただかなければなりません。", answer: "をもって", en: "With a heartfelt apology, we must ask the customers we have inconvenienced to forgive us." },
         { q: "このドラマは初回の{視聴率|しちょうりつ}が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", answer: "に{至|いた}っては", en: "This drama's first episode had a 31.5% rating, and its peak rating was higher still, apparently close to 40%." },
       ],
     },
