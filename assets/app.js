@@ -98,6 +98,15 @@
     const l = side(ol), r = side(or);
     return `<ruby ${data}${l || r ? ` style="margin-inline:${-l}em ${-r}em"` : ""}>${base}<rt>${rd}</rt></ruby>`;
   }
+  // a compound written as adjacent readings ("{国際|こくさい}{交流|こうりゅう}{会|かい}") where one reading is wider than its
+  // kanji: it can't overhang the neighbouring kanji, so its base would be spaced apart ("国際 交流 会"). The book sets such a
+  // compound as one group reading over the whole word (熟語ルビ), so merge the run into one ruby
+  const RUBY_RUN_RE = /(?:\{[^{}|]+\|[^{}]+\}){2,}/g;
+  function mergeRubyRun(run) {
+    const parts = [...run.matchAll(RUBY_RE)];
+    if (!parts.some((p) => cw(p[2]) * RT_K - cw(p[1]) > 0.01)) return run;
+    return `{${parts.map((p) => p[1]).join("")}|${parts.map((p) => p[2]).join("")}}`;
+  }
   // measure-and-correct pass for readings wider than their base (see rubyHtml). For each side: the target overhang is
   // min(e/2, room) (start-aligned .r-s: 0 on the left, min(e, room) on the right); the actual one is measured against the
   // neighbouring glyph on the same line (or the neighbouring reading, which must never be overlapped), and the margin on
@@ -202,7 +211,7 @@
       const shape = /^P/.test(inner) ? "b-sq" : inner.includes("-") ? "b-pill" : "b-round";
       return `<span class="badge ${cls} ${shape}">${html}</span>`;
     });
-    t = t.replace(RUBY_RE, rubyHtml);
+    t = t.replace(RUBY_RUN_RE, mergeRubyRun).replace(RUBY_RE, rubyHtml);
     t = t.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
     t = t.replace(/__(.+?)__/g, '<u class="ul">$1</u>');
     t = t.replace(/~~(.+?)~~/g, "<s>$1</s>");
