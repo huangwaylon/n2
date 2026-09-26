@@ -14,7 +14,7 @@ TRY.registerChapter({
         rings: false,
         heading: "{社説|しゃせつ}　{問|と}われる{五輪招致|ごりんしょうち}の{是非|ぜひ}",
         lines: [
-          { ja: "オリンピック{開催|かいさい}といえば、昔は国を{挙|あ}げて{喜|よろこ}んだ**ものだ**。", en: "In the past, the whole nation used to rejoice at the very idea of hosting the Olympics." },
+          { ja: "オリンピック{開催|かいさい}といえば、昔は国を{挙|あ}げて{喜|よろこ}んだ**ものだ**。", en: "When it came to hosting the Olympics, the whole nation used to rejoice in the old days." },
           { cont: true, ja: "しかし{今日|こんにち}ではどこの国でも、オリンピック{開催|かいさい}**をめぐって**意見が{対|たい}{立|りつ}する。", en: "Today, however, in every country opinions clash over hosting the Olympics." },
           { cont: true, ja: "{開催国|かいさいこく}はオリンピックを{契機|けいき}として、国の{発|はっ}{展|てん}を願う。", en: "The host country hopes to use the Olympics as an opportunity for national development." },
           { cont: true, ja: "しかし、オリンピック{開催|かいさい}には多くの{費用|ひよう}がかかる。", en: "But hosting the Olympics costs a great deal of money." },
@@ -22,7 +22,7 @@ TRY.registerChapter({
           { ja: "また、オリンピック{開催|かいさい}**にあたって**は、{資金|しきん}**に{加|くわ}えて**、{競技場|きょうぎじょう}などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Also, when hosting the Olympics, in addition to funding, securing land for building stadiums and other facilities becomes an important issue." },
           { cont: true, ja: "そのために住民の{移|い}{転|てん}問題も{出|で}てくる。", en: "Because of that, the problem of relocating residents also arises." },
           { cont: true, ja: "住み{慣|な}れた土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意された**としても**、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Leaving the land where one has long lived is probably not something one can easily accept, even if compensation or replacement housing is provided." },
-          { ja: "オリンピック{憲章|けんしょう}の中に、「スポーツを通じて{平|へい}{和|わ}な社会を{構築|こうちく}する」とある。", en: "The Olympic Charter states, \"to build a peaceful society through sport.\"" },
+          { ja: "オリンピック{憲章|けんしょう}の中に、「スポーツを通じて{平|へい}{和|わ}な社会を{構築|こうちく}する」とある。", en: "The Olympic Charter speaks of \"building a peaceful society through sport.\"" },
           { cont: true, ja: "この{理念|りねん}**に{基|もと}づいて**、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。", en: "Aiming for peace in the international community based on this ideal is a wonderful thing." },
           { cont: true, ja: "しかし、国民の{感情|かんじょう}や生活を{犠牲|ぎせい}にしてオリンピックが{開催|かいさい}されることがあってはならない。", en: "However, the Olympics must never be held at the expense of the people's feelings and livelihoods." },
           { cont: true, ja: "多くの人が{賛|さん}{同|どう}し**てこそ**、オリンピックを{開|ひら}く{意義|いぎ}がある。", en: "Only when many people support it is there any point in holding the Olympics." },
@@ -145,7 +145,7 @@ TRY.registerChapter({
           usage: { ja: "理由や{事情|じじょう}を説明して「{当然|とうぜん}そうなる」と言いたいときに使う。", en: "Use this when you want to explain a reason or circumstances about something and say that it is a matter of course." },
           forms: ["[Pl] + わけだ\n［[なA~~だ~~]な　[N~~だ~~]の］"],
           formNotes: [
-            { ja: "「〜というわけだ」の形も使われる。", en: "The form 〜というわけだ is also used." },
+            { ja: "「〜というわけだ」の形も使われる。", en: "The form 〜というわけだ is also used.", gen: true },
           ],
           examples: [
             { ja: "食生活の{改善|かいぜん}と{適度|てきど}な運動によって{免疫力|めんえきりょく}が高まり、病気にかかりにくくなるわけです。", en: "Improving your diet and getting moderate exercise raises your immunity, and so you become less likely to fall ill." },
@@ -254,7 +254,7 @@ TRY.registerChapter({
                   q: "A：夏休みに旅行する（　）、どこがいい？\nB：私、ソウルへ行きたい。",
                   options: ["としたって", "としたら"],
                   answer: 1,
-                  en: "A: If we travel during the summer holidays, where would be good?\nB: I want to go to Seoul.",
+                  en: "A: If we take a trip during summer vacation, where should we go?\nB: I want to go to Seoul.",
                 },
                 {
                   q: "それほど遠くないから、{渋滞|じゅうたい}した（　）お昼までには{向|む}こうに着くでしょう。",
@@ -479,7 +479,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{交差点|こうさてん}で{車同士|くるまどうし}が{衝突|しょうとつ}する{事故|じこ}が起きた。{事故原因|じこげんいん}の{調査|ちょうさ}では、運転手に{重大|じゅうだい}な{過失|かしつ}は{認|みと}められなかった。{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は{判決|はんけつ}[2]、200万円を{支払|しはら}うこととなった。道路{管理|かんり}に問題があったと{認|みと}められた[3]。今回の{事故|じこ}[4]、{大山|おおやま}市は市内のすべての道路の安全{調査|ちょうさ}を{実施|じっし}するとのことだ。"],
-        en: ["A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, this accident led to a court case between the driver and Oyama City, which manages the road, and in accordance with the ruling, the city ended up paying 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city."],
+        en: ["A collision between two cars occurred at an intersection. The investigation into the cause of the accident found no serious negligence on the part of the driver. Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen. In other words, it was recognized that there had been a problem with the road management. Taking this accident as a trigger, Oyama City is reportedly going to carry out a safety inspection of all roads in the city."],
         blanks: [
           {
             options: ["を{通|つう}じて", "をめぐって", "を{問|と}わず", "をはじめ"],

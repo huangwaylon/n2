@@ -818,7 +818,7 @@ TRY.registerChapter({
           forms: ["[V-る] + に + [V-できない]"],
           formNotes: [
             { ja: "＊[V-る]・[V-できない]には同じ{動詞|どうし}が使われる。", en: "The same verb is used for V-る and V-できない." },
-            { ja: "＊「笑うに笑えない」「言うに言えない」「泣くに泣けない」「引くに引けない」など、「〜できない」ことを強調する言い方もある。", en: "There are also expressions such as 笑うに笑えない (can't laugh even if you want to), 言うに言えない (can't bring oneself to say), 泣くに泣けない (can't even cry) and 引くに引けない (can't back down) that emphasize that one \"can't ~\"." },
+            { ja: "＊「笑うに笑えない」「言うに言えない」「泣くに泣けない」「引くに引けない」など、「〜できない」ことを強調する言い方もある。", en: "There are also expressions such as 笑うに笑えない (can't laugh even if you want to), 言うに言えない (can't bring oneself to say), 泣くに泣けない (so upset one can't even cry) and 引くに引けない (can't back down) that emphasize that one \"can't ~\"." },
           ],
           examples: [
             { ja: "A：田中さん、どうしたんだろう？　何か知ってる？\nB：{僕|ぼく}も心配なんだけど、あまりに落ち込んでいるんで、聞くに聞けなかったよ。", en: "A: I wonder what's wrong with Tanaka. Do you know anything?\nB: I'm worried too, but he was so down that I couldn't bring myself to ask." },

@@ -41,34 +41,34 @@ TRY.registerChapter({
             {
               type: "choice",
               labels: "ABC",
-              prompt: { ja: "（A）今年のゴールデンウィークは{円高|えんだか}の{影響|えいきょう}で海外に行く人が多いとか。うらやましいですね。\n（B）彼女はチョコレートとか、{甘|あま}いものが大好きです。\n例）今年の冬は寒さが{厳|きび}しいとか。{嫌|いや}ですね。　（　A　）", en: "Decide whether each underlined とか is used like (A) (hearsay: \"I hear that ~\") or like (B) (listing an example: \"things like ~\"). (A) I hear that a lot of people are going abroad this Golden Week because of the strong yen. I'm jealous. (B) She loves sweet things like chocolate. Example: I hear this winter will be severely cold. How awful. → A" },
+              prompt: { ja: "（A）今年のゴールデンウィークは{円高|えんだか}の{影響|えいきょう}で海外に行く人が多い__とか__。うらやましいですね。\n（B）彼女はチョコレート__とか__、{甘|あま}いものが大好きです。\n例）今年の冬は寒さが{厳|きび}しい__とか__。{嫌|いや}ですね。　（　A　）", en: "Decide whether each underlined とか is used like (A) (hearsay: \"I hear that ~\") or like (B) (listing an example: \"things like ~\"). (A) I hear that a lot of people are going abroad this Golden Week because of the strong yen. I'm jealous. (B) She loves sweet things like chocolate. Example: I hear this winter will be severely cold. How awful. → A" },
               items: [
                 {
-                  q: "{佐藤|さとう}さんのおばあちゃんは75歳で山登りがご{趣味|しゅみ}だとか。お元気ですね。",
+                  q: "{佐藤|さとう}さんのおばあちゃんは75歳で山登りがご{趣味|しゅみ}だ__とか__。お元気ですね。",
                   options: ["", ""],
                   answer: 0,
                   en: "I hear Sato's grandmother is 75 and her hobby is mountain climbing. She's so energetic.",
                 },
                 {
-                  q: "駅前にうちと同じような{焼|や}き{肉屋|にくや}ができるとか聞いたんですけど、うち、大丈夫ですかね。",
+                  q: "駅前にうちと同じような{焼|や}き{肉屋|にくや}ができる__とか__聞いたんですけど、うち、大丈夫ですかね。",
                   options: ["", ""],
                   answer: 0,
                   en: "I heard that a yakiniku restaurant just like ours is opening in front of the station — will we be all right?",
                 },
                 {
-                  q: "休みの日にスポーツをするなら、ゴルフよりジョギングとかのほうがいいですよ。お金もかからないし。",
+                  q: "休みの日にスポーツをするなら、ゴルフよりジョギング__とか__のほうがいいですよ。お金もかからないし。",
                   options: ["", ""],
                   answer: 1,
                   en: "If you're going to play a sport on your days off, something like jogging is better than golf. It doesn't cost money, either.",
                 },
                 {
-                  q: "部長：{吉田|よしだ}君はまだ来てないの？\n{小林|こばやし}：さっき電話があって、今日は{取引先|とりひきさき}に{寄|よ}ってから来るとか。",
+                  q: "部長：{吉田|よしだ}君はまだ来てないの？\n{小林|こばやし}：さっき電話があって、今日は{取引先|とりひきさき}に{寄|よ}ってから来る__とか__。",
                   options: ["", ""],
                   answer: 0,
                   en: "Manager: Yoshida isn't here yet?\nKobayashi: He called a little while ago — he said he'd be coming in after stopping by a client today.",
                 },
                 {
-                  q: "{中村|なかむら}君、アメリカに{転勤|てんきん}するとか言ってたけど、{引|ひ}っ{越|こ}しとか大変だろうね。",
+                  q: "{中村|なかむら}君、アメリカに{転勤|てんきん}する__とか__言ってたけど、{引|ひ}っ{越|こ}し__とか__大変だろうね。",
                   parts: [
                     { tag: "転勤するとか", options: ["", ""], answer: 0 },
                     { tag: "引っ越しとか", options: ["", ""], answer: 1 },
@@ -409,22 +409,22 @@ TRY.registerChapter({
             {
               type: "choice",
               labels: "ABC",
-              prompt: { ja: "例1）彼女は歌手として{活躍|かつやく}する{一方|いっぽう}、最近、映画にも出始めた。　（　A　）\n例2）{不況|ふきょう}で{収入|しゅうにゅう}が{減|へ}る{一方|いっぽう}だ。　（　B　）", en: "Decide whether each underlined 一方 is used like example 1 (A: \"while / on the other hand\") or example 2 (B: \"just keeps ~ing\"). Ex. 1: While she's active as a singer, she's recently started appearing in films too. → A. Ex. 2: Because of the recession, income just keeps decreasing. → B" },
+              prompt: { ja: "例1）彼女は歌手として{活躍|かつやく}する__{一方|いっぽう}__、最近、映画にも出始めた。　（　A　）\n例2）{不況|ふきょう}で{収入|しゅうにゅう}が{減|へ}る__{一方|いっぽう}__だ。　（　B　）", en: "Decide whether each underlined 一方 is used like example 1 (A: \"while / on the other hand\") or example 2 (B: \"just keeps ~ing\"). Ex. 1: While she's active as a singer, she's recently started appearing in films too. → A. Ex. 2: Because of the recession, income just keeps decreasing. → B" },
               items: [
                 {
-                  q: "{政治家|せいじか}の{汚職事件|おしょくじけん}が続き、{政府|せいふ}に対する{信頼|しんらい}は{薄|うす}れる{一方|いっぽう}だ。",
+                  q: "{政治家|せいじか}の{汚職事件|おしょくじけん}が続き、{政府|せいふ}に対する{信頼|しんらい}は{薄|うす}れる__{一方|いっぽう}__だ。",
                   options: ["", ""],
                   answer: 1,
                   en: "With one politician corruption scandal after another, trust in the government just keeps fading.",
                 },
                 {
-                  q: "{新製品|しんせいひん}の{紹介|しょうかい}のために、インターネットで{広告|こうこく}を{流|なが}す{一方|いっぽう}で、{直接店頭|ちょくせつてんとう}でサンプルの{手渡|てわた}しも{行|おこな}っている。",
+                  q: "{新製品|しんせいひん}の{紹介|しょうかい}のために、インターネットで{広告|こうこく}を{流|なが}す__{一方|いっぽう}__で、{直接店頭|ちょくせつてんとう}でサンプルの{手渡|てわた}しも{行|おこな}っている。",
                   options: ["", ""],
                   answer: 0,
                   en: "To promote the new product, we're running ads on the internet while also handing out samples directly in stores.",
                 },
                 {
-                  q: "{物価|ぶっか}が上がる{一方|いっぽう}で、留学生の生活も大変だろうと思う。",
+                  q: "{物価|ぶっか}が上がる__{一方|いっぽう}__で、留学生の生活も大変だろうと思う。",
                   options: ["", ""],
                   answer: 1,
                   en: "Prices just keep rising, so I imagine life must be hard for international students too.",
