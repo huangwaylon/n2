@@ -43,17 +43,17 @@
 .opt.wrong .opt-t, .opt--inl.wrong { text-decoration: line-through; text-decoration-thickness: 1px; }
 
 /* C19 inline "（a. … b. … c. …）" inside the sentence */
-.q--inline .q-text { line-height: 2.35; }
+/* the options flow in the sentence like the book's text: same line-height as any other sentence, they wrap like text,
+   and the padding (which does not change the line box) enlarges the tap area to ~1.9em without spacing the lines */
 .opts--inline { display: inline; }
-.opt--inl { display: inline; position: relative; border: 1px solid transparent; border-radius: 6px; padding: .1em .3em; margin: 0 .05em; background: none; font: inherit; line-height: inherit; text-align: left; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
-.opt--inl::after { content: ""; position: absolute; inset: -8px -2px; }
-.opt--inl .opt-n { font-size: .9em; margin-right: .3em; }
+.opt--inl { display: inline; border: 1px solid transparent; border-radius: 6px; padding: .45em .12em; margin: 0; background: none; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.opt--inl:focus-visible { outline: 2px solid var(--teal); outline-offset: 0; }
+.opt--inl .opt-n { font-size: .9em; margin-right: .15em; }
 .opt-sep { font-size: .7em; }
 @media (hover: hover) { .opt--inl:hover { border-color: var(--rule); } }
 .opt--inl.picked { background: var(--teal-soft); border-color: var(--teal); }
 .opt--inl.right { background: var(--ok-soft); border-color: var(--ok); }
 .opt--inl.wrong { background: var(--ng-soft); border-color: var(--ng); }
-@media (pointer: coarse) { .q--inline .q-text { line-height: 2.6; } }
 
 /* C24 option grid "1 opt   2 opt   3 opt   4 opt" (4 / 2 / 1 columns by length, set by JS) */
 .opts--grid { --cols: 4; display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); gap: .15em 1em; margin: .25em 0 0 2.2em; }
@@ -161,6 +161,8 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 /* ---------- C26 / C27 passage in a dashed frame ---------- */
 .passage { position: relative; border: 1.5px dashed var(--rule); padding: 16px 20px 12px; margin: 10px 0 16px; font-size: 17px; }
 .passage .ja p { text-indent: 1em; margin: 0; }
+/* a paragraph that opens with a quote / bracket is not indented, as in the book (「あ！」) */
+.passage .ja p.p--q { text-indent: 0; }
 .passage .en { margin-top: .6em; }
 .passage .en p { margin: .3em 0; }
 .passage__tools { float: right; margin: -10px -14px 0 8px; display: flex; gap: 4px; align-items: center; position: relative; z-index: 1; }

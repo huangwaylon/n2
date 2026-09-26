@@ -62,25 +62,33 @@
   const RT_K = 0.5; // furigana size / text size (ruby rt font-size in base.css)
   const OVERHANG_OK = /[ぁ-ゖゝゞァ-ヺーヽヾ、。，．・：；！？「」『』（）〈〉《》…‥〜～]/;
   const cw = (s) => Array.from(s).reduce((n, c) => n + (/[\x20-\x7e]/.test(c) ? 0.55 : 1), 0);
-  // next visible character before/after a ruby, skipping inline markup (** __ ~~) and tags
-  function neighbour(str, i, dir) {
+  // index of the next visible character before (dir −1) / after (+1) position i, skipping inline markup (** __ ~~) and tags
+  function neighbourAt(str, i, dir) {
     while (i >= 0 && i < str.length) {
       const c = str[i];
       if (c === "*" || c === "_" || c === "~") { i += dir; continue; }
       if (c === ">" && dir < 0) { const k = str.lastIndexOf("<", i); if (k < 0) break; i = k - 1; continue; }
       if (c === "<" && dir > 0) { const k = str.indexOf(">", i); if (k < 0) break; i = k + 1; continue; }
-      return c;
+      return i;
     }
-    return "";
+    return -1;
+  }
+  // how far (em) the reading may overhang the neighbour at index i: one furigana character onto kana / punctuation, but
+  // only .375em when that single kana also carries another reading's overhang ("軽傷者で救急": the readings stay apart)
+  function overhangRoom(str, i, dir) {
+    if (i < 0 || !OVERHANG_OK.test(str[i])) return 0;
+    const j = neighbourAt(str, i + dir, dir);
+    return j >= 0 && str[j] === (dir > 0 ? "{" : "}") ? 0.75 * RT_K : RT_K;
   }
   function rubyHtml(m, base, rd, off, str) {
     const e = cw(rd) * RT_K - cw(base);
     let st = "";
     // WebKit and Blink already let a reading overhang both neighbours by up to half a furigana character (.25em);
-    // the margin adds the rest, up to one furigana character in total
+    // the margin adds the rest
     if (e > 0.5 && typeof str === "string") {
-      const h = Math.min(e / 2, RT_K) - RT_K / 2, r2 = (x) => Math.round(x * 100) / 100;
-      const l = OVERHANG_OK.test(neighbour(str, off - 1, -1)) ? r2(h) : 0, r = OVERHANG_OK.test(neighbour(str, off + m.length, 1)) ? r2(h) : 0;
+      const r2 = (x) => Math.round(x * 100) / 100;
+      const side = (i, dir) => r2(Math.max(0, Math.min(e / 2, overhangRoom(str, i, dir)) - RT_K / 2));
+      const l = side(neighbourAt(str, off - 1, -1), -1), r = side(neighbourAt(str, off + m.length, 1), 1);
       if (l || r) st = ` style="margin-inline:${-l}em ${-r}em"`;
     }
     return `<ruby${st}>${base}<rt>${rd}</rt></ruby>`;
@@ -651,9 +659,11 @@
   // mode: "inline" (a. … b. … inside the sentence's parentheses) | "grid" (4/2/1 columns by length) | "list" (1 column)
   function optGroup(options, answer, labels, mode = "grid", tag) {
     const n = options.length;
+    // inline options are spans with role="button", not <button>s: a button is always an atomic inline-block, so each
+    // option was an unbreakable box that wrapped as a whole and stretched the sentence's line spacing
     if (mode === "inline") {
       return `<span class="opts opts--inline" data-answer="${answer}">（${options
-        .map((o, j) => `<button class="opt opt--inl" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}.</span>${fmt(o)}</button>`)
+        .map((o, j) => `<span class="opt opt--inl" role="button" tabindex="0" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}.</span>\u2060${fmt(o)}</span>`)
         .join("<span class=\"opt-sep\">　</span>")}）</span>`;
     }
     // label-only choices (the options are just "A" / "B"): a row of round letter buttons
@@ -674,7 +684,7 @@
     let qHtml = fmt(it.q || "");
     let groups = "", inline = false;
     const opts0 = it.parts ? it.parts[0].options : it.options;
-    if (it.q && c.mode !== "list" && letterLabels(opts0.length, labels) && (it.parts || it.options).length) {
+    if (it.q && c.mode !== "list" && c.mode !== "noinline" && letterLabels(opts0.length, labels) && (it.parts || it.options).length) {
       if (it.parts) {
         const res = it.parts.map((p) => new RegExp(`（[ 　]*${reEsc(p.tag)}[ 　]*）`, "g"));
         if (it.parts.every((p, k) => p.options.every((x) => x !== "") && (qHtml.match(res[k]) || []).length === 1)) {
@@ -771,7 +781,7 @@
     return `<div class="passage ja-book" data-en-scope>
       <div class="passage__tools">${speakable ? speakBtn(all) : ""}${enParas ? enScopeBtn().replace('class="en-btn', 'class="passage__en en-btn') : ""}</div>
       ${title ? `<h4 class="passage__title">${fmt(title)}</h4>` : ""}
-      <div class="ja">${paras.map((p) => `<p>${fmt(p).replace(/[\[［](\d+)[\]］]/g, '<span class="pblank" data-b="$1">$1</span>')}</p>`).join("")}</div>
+      <div class="ja">${paras.map((p) => `<p${/^[「『]/.test(plain(p)) ? ' class="p--q"' : ""}>${fmt(p).replace(/[\[［](\d+)[\]］]/g, '<span class="pblank" data-b="$1">$1</span>')}</p>`).join("")}</div>
       ${enParas ? `<div class="en">${enParas.map((p) => `<p>${fmt(p)}</p>`).join("")}</div>` : ""}</div>`;
   }
 
@@ -784,7 +794,8 @@
     return textBlock(ex.title, ex.text, ex.en) + `<div class="pq">${rows}</div>`;
   }
   function readingBody(ex, c) {
-    return textBlock(ex.title, ex.text, ex.en) + ex.items.map((it, i) => choiceItem(it, i, Object.assign({}, c, { mode: "list" }))).join("");
+    // options never go inline here; short ones sit in columns as in the book (N1 p.57: "1 店長が…　2 客が…")
+    return textBlock(ex.title, ex.text, ex.en) + ex.items.map((it, i) => choiceItem(it, i, Object.assign({}, c, { mode: "noinline" }))).join("");
   }
   // listening (C28): the question isn't printed (it's heard); it opens the transcript and shows in the feedback
   function listeningBody(ex, c) {
@@ -1329,6 +1340,9 @@
     if (st && st.open && !st.contains(e.target)) st.open = false;
   });
   document.addEventListener("keydown", (e) => {
+    // span[role=button] controls (inline options) answer to Enter / Space like buttons
+    const rb = e.target.closest && e.target.closest('[role="button"][data-act]');
+    if (rb && rb.tagName !== "BUTTON" && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); rb.click(); return; }
     if (e.key === "Escape") {
       const st = $(".settings");
       if (st && st.open) { st.open = false; $("summary", st).focus(); return; }

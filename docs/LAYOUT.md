@@ -82,6 +82,13 @@ Keep the existing tokens. Add the book greys below, and use them for structure i
     stretched by justification: "が、　本場　は　雰囲気"), and the computed side margins pushed kana apart.
   - `tools/lib/furi-probe.mjs` checks all of this in the page (readings off-centre, covering text or boxes, clipped, uneven
     pitch): `node tools/overflow.mjs ROUTE W --furi` (Chrome) and `node tools/lib/wkshot.mjs DEVICE ROUTE --probe` (iOS Safari).
+- Two readings that overhang the same single kana ("軽傷者で救急") get at most .375em each, so they never run together.
+- Inline options "（a.を皮切りに　b.につれて）" are `span[role=button][tabindex=0]` (Enter/Space handled in the global keydown),
+  not `<button>`: a button is always an atomic inline-block, so each option wrapped as one box and the sentence lost its line
+  spacing. They take the sentence's line-height (2.0) like the book; vertical padding enlarges the tap area without
+  spacing the lines; a word joiner keeps "b." on the same line as its text.
+- Passages (問題3 文章の文法 / 読解): paragraphs that open with 「 or 『 are not indented (book p.56). Reading-question options
+  sit in columns when short (book p.57) instead of always one per line.
 - Phone text (≤600): prose is set ragged (`text-align: start`): at ~20 characters a line, justifying stretches a whole line
   whenever an unbreakable word with furigana wraps. Sample headlines break only at the book's spaces (`word-break: keep-all`).
 - Every `<input>` and `<select>` must be **≥16px** on mobile. Today `select` is 14.7px, which makes iOS Safari zoom in on focus.
