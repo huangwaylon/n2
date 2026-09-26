@@ -34,6 +34,7 @@
   --band-edge: #6d7075;   /* thick left bar of the header band, chapter banner */
   --banner: #7f8388;      /* chapter opener band (white text on it) */
   --pill: #55585d;        /* できること / どう使う？ / やってみよう！ / 問題N pills */
+  --pill-top: #66696e;    /* top of the pill gradient */
   --pill-ink: #ffffff;
   --pill-shadow: #c3c3c3; /* offset shadow under pills */
   --rule: #9a9a9a;        /* 見本文 frame, passage dashed frame, table rules */
@@ -48,7 +49,7 @@
   --bg: #15171a; --panel: #1d2024; --ink: #e6e6e6; --ink-2: #aab1ba; --ink-3: #7d858f; --line: #30343a;
   --accent: #f06595; --accent-soft: #3a1f2a; --teal: #3bc9db; --teal-soft: #15313a;
   --ok: #3fb950; --ok-soft: #12301c; --ng: #ff7b72; --ng-soft: #3a1618; --en: #8ab4f8; --en-soft: #1b2636;
-  --band:#2a2d31; --band-edge:#8b9097; --banner:#3a3e44; --pill:#c9ccd1; --pill-ink:#15171a;
+  --band:#2a2d31; --band-edge:#8b9097; --banner:#3a3e44; --pill:#b9bdc3; --pill-top:#dadde1; --pill-ink:#15171a;
   --pill-shadow:#000; --rule:#5a5f66; --note-bg:#24272b; --badge-bg:#4a4f56; --badge-ink:#f0f0f0;
   --review-bg:#101214; --en-book:#9aa0a8;
 }
@@ -152,7 +153,7 @@ s .badge { background-image: linear-gradient(transparent 46%, currentColor 46% 5
 
 /* ---------- shared primitives (docs/LAYOUT.md §0.4) ---------- */
 .ja-book { font-family: var(--mincho); line-height: 2.0; }
-.pill { display: inline-block; background: linear-gradient(#66696e, var(--pill)); color: var(--pill-ink); font: 700 15px/1.3 var(--goth); padding: .28em 1em .22em; border-radius: 999px; box-shadow: -2px 3px 0 var(--pill-shadow); letter-spacing: .04em; }
+.pill { display: inline-block; background: linear-gradient(var(--pill-top), var(--pill)); color: var(--pill-ink); font: 700 15px/1.3 var(--goth); padding: .28em 1em .22em; border-radius: 999px; box-shadow: -2px 3px 0 var(--pill-shadow); letter-spacing: .04em; }
 .pill .en-inline { color: inherit; opacity: .8; }
 /* question numbers; .qn itself lives in exercises.css, so the modifiers use .qn.qn--x to win regardless of file order */
 .qn.qn--box { min-width: 2.6em; height: 1.5em; border: 1px solid var(--ink-2); border-radius: 0; display: inline-grid; place-items: center; font: 15px var(--mincho); color: var(--ink); background: none; }

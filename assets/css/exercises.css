@@ -221,7 +221,7 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 /* ---------- C23 まとめの問題 ---------- */
 .review { background: var(--review-bg); margin: 56px calc(-1 * var(--main-pad, 20px)) 0; padding: 24px var(--main-pad, 20px); }
 .review__panel { background: var(--panel); border-radius: 18px; padding: 26px 30px; }
-.review__title { background: linear-gradient(#66696e, var(--pill)); color: var(--pill-ink); border-radius: 999px; text-align: center; font: 800 30px/1.3 var(--goth); padding: .2em 1em; margin: 0 0 22px; letter-spacing: .1em; }
+.review__title { background: linear-gradient(var(--pill-top), var(--pill)); color: var(--pill-ink); border-radius: 999px; text-align: center; font: 800 30px/1.3 var(--goth); padding: .2em 1em; margin: 0 0 22px; letter-spacing: .1em; }
 .review__en { font-size: 15px; letter-spacing: 0; margin-left: .6em; font-weight: 700; white-space: nowrap; }
 .rv { margin: 0 0 40px; }
 .rv:last-child { margin-bottom: 8px; }

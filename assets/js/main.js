@@ -32,7 +32,7 @@ function shellHtml() {
   const select = (id, opts) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`;
   return `<header class="topbar">
   <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
-  <a class="brand" href="#/" aria-label="${b.level} 文法 ホーム Home"><span class="brand-mark">${b.level}</span><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
+  <a class="brand" href="#/" aria-label="${b.level} 文法 ホーム Home"><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
   <nav class="book-switch" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""} title="TRY! ${o.label} 文法">${o.label}</a>`).join("")}</nav>
   <nav class="topnav" aria-label="ページ Pages">${pageLinks}</nav>
   <div class="toggles">

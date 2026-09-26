@@ -8,20 +8,18 @@
   background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); font-size: 18px; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
-.brand-mark { background: var(--pill); color: var(--pill-ink); border-radius: 8px; padding: 2px 8px; margin-right: 6px; line-height: 1.4; }
 .brand-sub { font-size: 12px; color: var(--ink-3); font-weight: 400; margin-left: 6px; }
 /* N2 | N1 book switcher next to the brand */
-.book-switch { display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-left: -8px; }
+.book-switch { display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
 .book-switch a { display: grid; place-items: center; min-width: 40px; min-height: 32px; padding: 0 8px; font: 700 13px/1 var(--goth); color: var(--ink-2); }
 .book-switch a + a { border-left: 1px solid var(--line); }
 .book-switch a[aria-current] { background: var(--pill); color: var(--pill-ink); }
 @media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; } }
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
-/* phones: the switcher already names the current book, so the brand drops its N2/N1 mark */
-@media (max-width: 600px) { .brand:has(~ .book-switch) { min-width: 44px; } .brand:has(~ .book-switch) .brand-mark { display: none; } .book-switch { margin-left: -10px; } }
-@media (max-width: 374px) { .brand:has(~ .book-switch) { display: none; } .book-switch { margin-left: -4px; }
-  .topbar:has(.book-switch) { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
-  .topbar:has(.book-switch) .switch { padding: 0 3px; } }
+/* small phones: the switcher already names the book, so the 文法 brand goes */
+@media (max-width: 374px) { .brand { display: none; }
+  .topbar { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
+  .topbar .switch { padding: 0 3px; } }
 .topnav { display: flex; gap: 2px; flex: 1; min-width: 0; }
 .topnav a { display: inline-block; padding: 6px 10px; line-height: 24px; color: var(--ink-2); border-radius: 8px; white-space: nowrap; font-size: 14px; }
 .topnav a.active { background: var(--band); color: var(--ink); }
@@ -101,7 +99,6 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
   .settings-pop { position: fixed; right: calc(8px + var(--safe-r)); top: calc(var(--top) + env(safe-area-inset-top, 0px) + 6px); width: min(280px, calc(100vw - 16px)); }
 }
 @media (max-width: 600px) { .brand { font-size: 17px; } }
-@media (max-width: 340px) { .brand-t { display: none; } }
 
 /* ---------- home ---------- */
 .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 28px 30px; margin-bottom: 28px; }
