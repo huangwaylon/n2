@@ -733,6 +733,7 @@ TRY.registerChapter({
             ],
             en: ["A man and a woman are talking. Why couldn't the man get his points?", "When I went on a trip last year, I forgot my mileage card. I should have gotten quite a lot of points, too...", "You can still get the points added even after you get back, can't you?", "Yeah. I didn't know that, and when someone told me, I was going to do it, but...", "I know — you threw away your boarding pass, right?", "No. I'd kept it as a souvenir... But I only found out the other day, and the deadline had already passed.", "I see. That's too bad. Next time, don't forget your card.", "Why couldn't the man get his points?"],
             options: ["カードをなくしたから", "{搭乗券|とうじょうけん}をなくしたから", "{搭乗券|とうじょうけん}を{捨|す}ててしまったから", "{手続|てつづ}きの{期間|きかん}が{終|お}わっていたから"],
+            optionsEn: ["Because he lost his card", "Because he lost his boarding pass", "Because he threw away his boarding pass", "Because the period for the procedure had ended"],
             answer: 3,
             why: { en: "He still had the boarding pass (記念に取ってあった), but by the time he learned about it the deadline had expired (期限切れちゃってた)." },
           },

@@ -599,6 +599,7 @@ TRY.registerChapter({
           {
             q: "日本の{警備会社|けいびがいしゃ}が人気がある一番の理由は何ですか。",
             options: ["セキュリティーシステムをチェックしてくれるから", "いつでもチェックしていて、すぐ問題に{対応|たいおう}してくれるから", "料金が少し高いから", "安心して{警備|けいび}を{任|まか}せられないから"],
+            optionsEn: ["Because they check your security system for you", "Because they're always checking and respond to problems right away", "Because the fee is a little high", "Because you can't feel safe leaving your security to them"],
             answer: 1,
             en: "What is the main reason Japanese security companies are popular?",
             why: { en: "The passage stresses constant checking (常にチェックし) plus an immediate response when the alarm sounds (すぐ担当者が駆けつけ…) — option 1 covers only half of that." },
@@ -606,6 +607,7 @@ TRY.registerChapter({
           {
             q: "{筆者|ひっしゃ}が最も言いたいことは何ですか。",
             options: ["{国際的|こくさいてき}な{経済競争|けいざいきょうそう}が{激|はげ}しくなっていること", "日本{製品|せいひん}が外国{製品|せいひん}に{比|くら}べて、{値段|ねだん}が高くなったこと", "日本の{警備会社|けいびがいしゃ}がヨーロッパで人気を集めていること", "{消費者|しょうひしゃ}のニーズを{追求|ついきゅう}することが、世界{市場|しじょう}で{勝|か}つということ"],
+            optionsEn: ["That international economic competition is getting fiercer", "That Japanese products have become more expensive than foreign ones", "That Japanese security companies are gaining popularity in Europe", "That pursuing consumers' needs is how you win in the global market"],
             answer: 3,
             en: "What does the writer most want to say?",
             why: { en: "The thesis is stated in the first paragraph: ビジネス成功のポイントは、ただ消費者のニーズを追求することのみだ; the security company is just an example." },
@@ -631,6 +633,7 @@ TRY.registerChapter({
             ],
             en: ["An expert is speaking. What is the most important thing when keeping medaka (killifish)?", "Hello, everyone. Today we'll ask Dr. Tanaka what to do when keeping medaka for the first time. Dr. Tanaka, thank you for joining us.", "Medaka are river fish, so they need an environment close to nature. That said, there's no need to think of it as difficult. If you put in some pebbles and water plants, medaka will be able to live without stress. Medaka are hardy fish, so keeping them isn't difficult either, but if you don't look after them properly every day they will die, so that is the one thing you must never forget.", "What is the most important thing when keeping medaka?"],
             options: ["{自然|しぜん}の{環境|かんきょう}を{作|つく}ること", "{水槽|すいそう}に{水草|みずくさ}を{入|い}れること", "メダカのストレスをなくすこと", "{毎日|まいにち}{世話|せわ}をすること"],
+            optionsEn: ["Creating a natural environment", "Putting water plants in the tank", "Getting rid of the medaka's stress", "Looking after them every day"],
             answer: 3,
             why: { en: "それだけは絶対に忘れないでください refers to looking after them every day (毎日きちんと面倒をみないと死んでしまいます)." },
           },
@@ -647,6 +650,7 @@ TRY.registerChapter({
             ],
             en: ["A woman and the store manager are talking. What did Ito-san do yesterday?", "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...", "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.", "Huh? I thought Ito-san had something to do yesterday...", "Ito-san did say so, but I insisted. Well, why don't you just cover for Ito-san next time?", "What did Ito-san do yesterday?"],
             options: ["アルバイトを{休|やす}んだ", "アルバイトをした", "{熱|ねつ}を{出|だ}して{寝|ね}ていた", "{用事|ようじ}があって{帰|かえ}った"],
+            optionsEn: ["Took the day off from the part-time job", "Worked the part-time shift", "Stayed in bed with a fever", "Had something to do and went home"],
             answer: 1,
             why: { en: "The manager says 君の代わりに伊藤さんが来てくれた — Ito worked the shift in the woman's place." },
           },

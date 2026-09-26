@@ -815,6 +815,7 @@ TRY.registerChapter({
           {
             q: "ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。",
             options: ["初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}し、{精一杯|せいいっぱい}がんばった。", "初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}できることになった。", "{駅伝部|えきでんぶ}は{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}して、大きく{成長|せいちょう}した。", "{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}するという{夢|ゆめ}を{実現|じつげん}したいと思っている。"],
+            optionsEn: ["They took part in the Hakone Ekiden for the first time and did their very best.", "They will be taking part in the Hakone Ekiden for the first time.", "The team took part in the Hakone Ekiden and grew a great deal.", "They hope to make their dream of taking part in the Hakone Ekiden come true."],
             answer: 1,
             en: "Which statement about the ABK University ekiden team is correct?",
             why: { en: "The school had never qualified before (出場権を得ることはありませんでした) and this year finally did (ついに夢を実現することができました) — the race itself hasn't been run yet." },
@@ -822,6 +823,7 @@ TRY.registerChapter({
           {
             q: "この会で、{誰|だれ}が{誰|だれ}に話していますか。",
             options: ["選手がコーチに話している。", "コーチが選手に話している。", "コーチが会の{参加者|さんかしゃ}に話している。", "選手が会の{参加者|さんかしゃ}に話している。"],
+            optionsEn: ["A runner is speaking to the coach.", "The coach is speaking to the runners.", "The coach is speaking to the people at the gathering.", "A runner is speaking to the people at the gathering."],
             answer: 3,
             en: "At this gathering, who is speaking to whom?",
             why: { en: "The speaker is a runner in their final year (私にとっては大学生活最後の年; 選手一同) thanking the people who came (お集まりいただき)." },

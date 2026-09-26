@@ -1020,6 +1020,7 @@ TRY.registerChapter({
           {
             q: "__部下のアイデアを全然認めないという上司__は何の例か。",
             options: ["失敗を恐れない例", "消極的な{態度|たいど}の例", "責任を{負|お}おうとする例", "{組織|そしき}を成長させる例"],
+            optionsEn: ["An example of not fearing failure", "An example of a passive attitude", "An example of trying to take responsibility", "An example of helping an organization grow"],
             answer: 1,
             en: "What is “a boss who refuses to accept any of his subordinates' ideas” an example of?",
             why: { en: "Rejecting ideas because they have no precedent is the 事なかれ主義 behavior described in paragraph 2, and paragraph 1 defines 事なかれ主義 as a 消極的な態度 (passive attitude). Such a boss fears failure, avoids responsibility and stops the organization from growing, so 1, 3 and 4 are the opposite." },
@@ -1027,6 +1028,7 @@ TRY.registerChapter({
           {
             q: "この人が一番伝えたいことは何か。",
             options: ["トラブルを起こさないことが一番大事だ。", "新しいことをやってみるのはリスクがある。", "リスクや責任はないほうがいい。", "リスクを{避|さ}けてばかりではよくない。"],
+            optionsEn: ["Not causing trouble is the most important thing.", "Trying something new involves risk.", "It's better to have no risk or responsibility.", "Doing nothing but avoiding risk is not good."],
             answer: 3,
             en: "What does the writer most want to say?",
             why: { en: "The final sentence carries the point: トラブルはないに越したことはない (#60) concedes that no trouble is best, but それ以前に (#51) not taking risks is itself a risk. So only ever avoiding risk is not good. Options 1 and 3 are the conceded point, and 2 is a step in the argument, not the main claim." },

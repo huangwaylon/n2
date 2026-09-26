@@ -470,6 +470,7 @@ TRY.registerChapter({
             ],
             en: ["A man is talking at a zoo. What does the man say the bird's stillness is related to?", "Well, this is the shoebill, famous as a bird that doesn't move. As you can see, its distinguishing features are a head that's large for its body and a wide beak. The reason this bird doesn't move lies in the way it eats. Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak. The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes. Oh, the child over there, please be careful. It sometimes suddenly comes up close, trying to startle children...", "What does the man say the bird's stillness is related to?"],
             options: ["{体|からだ}の{大|おお}きさ", "{住|す}んでいるところ", "えさのとり{方|かた}", "{性格|せいかく}"],
+            optionsEn: ["Its body size", "Where it lives", "How it catches its food", "Its personality"],
             answer: 2,
             why: { en: "この鳥が動かないのは、食事のし方に理由があります — it waits motionless for fish, so it is related to how it catches food." },
           },

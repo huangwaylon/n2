@@ -401,6 +401,7 @@ TRY.registerChapter({
             ],
             en: ["Er, as of today I have taken office as president; my name is Ueda. Our company is currently in a difficult position. For now we must concentrate on our areas of strength and put the business on a stable footing. We will rationalize the operations we have overextended, but we are not considering reducing staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."],
             options: ["{社員|しゃいん}を{集|あつ}める", "{経営|けいえい}を{安定|あんてい}させる", "{事業|じぎょう}を{広|ひろ}げる", "{社員|しゃいん}を{減|へ}らす"],
+            optionsEn: ["Gather employees", "Stabilize the business", "Expand operations", "Reduce staff"],
             answer: 1,
             why: { en: "今は…経営を安定させなければなりません: stabilizing the business is the immediate task. He will scale back overextended operations (not expand them) and explicitly rules out cutting staff; gathering staff is never mentioned." },
           },

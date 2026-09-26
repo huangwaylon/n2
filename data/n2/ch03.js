@@ -541,6 +541,7 @@ TRY.registerChapter({
             ],
             en: ["A woman and a man are talking. What will the man do right away?", "Section chief, Tokyo Shoji called a little while ago. Apparently there was a problem with the machine we delivered.", "What!? Goto is in charge of that, right? Is he away on a business trip now?", "Yes. We can contact him, but I'm not sure whether he can deal with it right away...", "If we're slow, we could lose the deal, so I guess I have no choice but to handle this matter myself.", "Shall I bring the related documents?", "Yes. For now, I'll get in touch with them, and depending on how it goes, I'll go over to Tokyo Shoji."],
             options: ["{東京商事|とうきょうしょうじ}に{機械|きかい}を{納入|のうにゅう}する", "{関係書類|かんけいしょるい}を{持|も}ってくる", "{東京商事|とうきょうしょうじ}に{電話|でんわ}する", "{東京商事|とうきょうしょうじ}へ{行|い}く"],
+            optionsEn: ["Deliver a machine to Tokyo Shoji", "Bring the related documents", "Call Tokyo Shoji", "Go to Tokyo Shoji"],
             answer: 2,
             why: { en: "とりあえず私が先方に連絡を取って — first he will contact Tokyo Shoji; going there is only 場合によっては (depending on the situation), and the woman is the one bringing documents." },
           },

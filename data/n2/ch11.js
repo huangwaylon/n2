@@ -497,6 +497,7 @@ TRY.registerChapter({
           {
             q: "{企業|きぎょう}コンサルティングの会社は{研修|けんしゅう}でどうして「おやつ」を出すのだと{筆者|ひっしゃ}は考えましたか。",
             options: ["お{腹|なか}が{空|す}く時間に{行|おこな}われるから", "{甘|あま}いものが好きな女性の{参加者|さんかしゃ}が多いから", "体にも心にもいい{効果|こうか}があるから", "お{菓子業界|かしぎょうかい}の{宣伝|せんでん}の意味もある{研修|けんしゅう}だから"],
+            optionsEn: ["Because it's held at a time when people get hungry", "Because many of the participants are women who like sweets", "Because they have a good effect on both body and mind", "Because the training also serves to promote the confectionery industry"],
             answer: 2,
             en: "Why does the writer think the corporate consulting company serves \"snacks\" at its training?",
             why: { en: "The candy cleared the writer's tired head (body) and eased the first-meeting tension so people began chatting (mind) — a good effect on both." },
@@ -526,6 +527,7 @@ TRY.registerChapter({
             ],
             en: ["A female student is consulting her teacher about the interview for a university entrance exam. What is the female student most worried about?", "Tomorrow's interview — you'll be fine, right?", "Sir, I'm not confident. I feel like I'll forget everything when it's for real. And since it's a popular school, the competition is fierce too.", "That's true. But even if the competition is fierce, you have the ability to get in, don't you?", "Sir, what should I do if they ask me questions different from the ones we practiced? That's what I'm most worried about...", "Don't be afraid of failing; state your ideas confidently. Looking unsure of yourself is the worst thing.", "Yes, I understand. I'll change my mindset starting now.", "What is the female student most worried about?"],
             options: ["{希望|きぼう}の{大学|だいがく}は{競争率|きょうそうりつ}が{高|たか}いこと", "{試験|しけん}のとき、{練習|れんしゅう}したことを{全部|ぜんぶ}{忘|わす}れること", "{練習|れんしゅう}をしなかったこと", "{練習|れんしゅう}と{違|ちが}う{質問|しつもん}をされること"],
+            optionsEn: ["That the competition for her chosen university is fierce", "That she'll forget everything she practiced during the exam", "That she didn't practice", "That she'll be asked questions different from the ones she practiced"],
             answer: 3,
             why: { en: "She says もし練習と違う質問をされたら…それが一番心配 — being asked questions different from what she practiced." },
           },
@@ -546,6 +548,7 @@ TRY.registerChapter({
             ],
             en: ["Two parents are talking about their child's future. What does the father think?", "Takashi says he wants to become a professional baseball player.", "Sounds good to me. Is there some problem?", "But... you couldn't become a pro baseball player either, could you?", "Well, that's because I got injured.", "I want him to become a school teacher like you.", "It's true — I'm glad I became a high school teacher myself.", "Right? On top of that, you coach the baseball team... It's a good life, isn't it?", "I do feel like recommending it to Takashi too, but he's still only a second-year in high school. Whether it's a baseball player or a teacher, it's his own life. Anyway, I don't think he needs to give up his dream now.", "What does the father think about Takashi's future?"],
             options: ["{高校|こうこう}の{先生|せんせい}になってほしいと思っている", "{自分|じぶん}で{決|き}めてほしいと思っている", "{野球部|やきゅうぶ}の{監督|かんとく}になってほしいと思っている", "プロ{野球|やきゅう}の{選手|せんしゅ}になるのに{反対|はんたい}している"],
+            optionsEn: ["He wants him to become a high school teacher", "He wants him to decide for himself", "He wants him to become a baseball team coach", "He's against him becoming a pro baseball player"],
             answer: 1,
             why: { en: "野球選手にしろ、教師にしろ、自分の人生だ — whichever he chooses, it's his own life, so the father wants Takashi to decide for himself." },
           },

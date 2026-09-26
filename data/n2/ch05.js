@@ -630,6 +630,7 @@ TRY.registerChapter({
             ],
             en: ["A woman and a man are talking. What does the woman think is the biggest problem?", "Hey, the other day I checked how much I'd spent with electronic money, and I was surprised that it had gone up compared to before.", "Me too... Although I think I need to be careful about wasting money, when there are new original convenience-store products, I just end up...", "Yeah, you buy them without really thinking, right?", "It's convenient, too. You don't have to dig around in your wallet for 1-yen and 5-yen coins.", "True, but spending money without realizing it is bad, isn't it?", "Yeah. With electronic money, you don't take the money directly out of your wallet. And you don't check how much you've spent.", "Exactly. Not having the sense that you've spent money is the worst thing. We have to be careful.", "What does the woman think is the biggest problem?"],
             options: ["コンビニなどで{新商品|しんしょうひん}を{買|か}うこと", "1{円玉|えんだま}や5{円玉|えんだま}を{使|つか}わないこと", "お{金|かね}を{使|つか}ったという{感覚|かんかく}がないこと", "{使|つか}った{金額|きんがく}をチェックしないこと"],
+            optionsEn: ["Buying new products at convenience stores and such", "Not using 1-yen and 5-yen coins", "Not feeling like you've spent money", "Not checking how much you've spent"],
             answer: 2,
             why: { en: "She says お金を使ったという感覚がないのが一番いけない — not feeling that you've spent money is the worst part." },
           },

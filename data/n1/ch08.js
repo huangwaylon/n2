@@ -975,6 +975,7 @@ TRY.registerChapter({
           {
             q: "「{俺|おれ}」が教師になったのはなぜか。",
             options: ["高校生が好きだから", "研究室が{嫌|いや}になったから", "生活が苦しかったから", "{先輩|せんぱい}にお世話になっているから"],
+            optionsEn: ["Because he likes high-school students", "Because he had grown sick of the lab", "Because he was struggling to make ends meet", "Because a senior colleague has done a lot for him"],
             answer: 2,
             en: "Why did “I” become a teacher?",
             why: { en: "親元からの送金がなくなり … 食わんがためには、やむを得ない選択だった — he took the job to make a living." },
@@ -982,6 +983,7 @@ TRY.registerChapter({
           {
             q: "クラスの生徒たちの「{俺|おれ}」に対する{態度|たいど}として最も適当なものは何か。",
             options: ["尊敬", "{興味|きょうみ}", "親切", "無関心"],
+            optionsEn: ["Respect", "Interest", "Kindness", "Indifference"],
             answer: 1,
             en: "Which best describes the class's attitude toward “me”?",
             why: { en: "一斉に注がれる40の視線 and 何やらささやきあっているやつらもいる — the students are curious about the new teacher." },
@@ -1010,6 +1012,7 @@ TRY.registerChapter({
             ],
             en: ["A teacher is speaking at a school information session.", "Thank you for attending our school's information session today. Ours is a culinary vocational school that trains sushi chefs. Ever since we were featured on television the other day, inquiries have increased to more than five times what they were, and we are rushed off our feet — happily so.\nSushi chefs are now attracting attention overseas, too, as a profession with outstanding prospects, but in Europe in particular there is an overwhelming shortage of chefs who can make genuine sushi. This is because, with the traditional apprenticeship, it could take more than ten years to become fully qualified.\nSo our school has created a course that trains full-fledged sushi chefs in one year. Some of our students are even current university students who are working hard to master the skills while attending university.", "Doesn't it sound good? You can become a chef in a year, and it looks like there'd be chances to work abroad, too...", "Until now it took years of training — is one year really enough, I wonder?", "The course seems properly organized, so it'll be fine.", "I wonder... But still... Oh, or rather — you've never cooked, have you? Can you even touch raw fish? And if you're going abroad, you'll have to study the language too...", "Hmm, fish, huh. I'm fairly confident about my French, though."],
             options: ["すしを{食|た}べたい{人|ひと}が{多|おお}いから", "フランス{語|ご}に{自信|じしん}があるから", "テレビの{番組|ばんぐみ}で{紹介|しょうかい}されたから", "{料理|りょうり}の{勉強|べんきょう}ができるから"],
+            optionsEn: ["Because many people want to eat sushi", "Because she's confident in her French", "Because the school was featured on a TV program", "Because you can study cooking"],
             answer: 2,
             why: { en: "テレビで取り上げていただいてからというもの、問い合わせもこれまでの5倍以上に増え — inquiries rose after the school was featured on TV." },
           },
@@ -1017,6 +1020,7 @@ TRY.registerChapter({
             question: "男の人がこの専門学校の勉強に不安を持っているのはどんなことですか。",
             questionEn: "What is the man worried about regarding study at this vocational school?",
             options: ["{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の{両立|りょうりつ}が{難|むずか}しいこと", "{生|なま}の{魚|さかな}が{調理|ちょうり}できないこと", "{勉強|べんきょう}の{期間|きかん}が{短|みじか}いこと", "フランス{語|ご}ができないこと"],
+            optionsEn: ["Balancing university and vocational-school studies", "Being unable to prepare raw fish", "The short study period", "Being unable to speak French"],
             answer: 2,
             why: { en: "What he doubts about the school's course itself is its length: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not about the course." },
           },

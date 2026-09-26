@@ -889,6 +889,7 @@ TRY.registerChapter({
           {
             q: "母親はどんな気持ちで__①「子どもじゃあるまいし、またレゴ遊び。」__と言っているか。",
             options: ["子どもではないのに、ずっとレゴ遊びを続けているのは評価できる。", "レゴ遊びは大人がするものではないからやめてほしい。", "子どもでも大人でも夢中でレゴ遊びをするのは気がかりだ。", "子どもではないから、夜遅くまで自由にレゴ遊びをしてもかまわない。"],
+            optionsEn: ["It's commendable that he keeps playing with LEGO even though he isn't a child.", "LEGO isn't something adults do, so she wants him to stop.", "It's worrying for anyone, child or adult, to get absorbed in LEGO.", "He isn't a child, so it's fine for him to play with LEGO freely until late at night."],
             answer: 1,
             en: "With what feelings does the mother say ① “You're not a child, and yet it's LEGO again”?",
             why: { en: "〜じゃあるまいし + あきれ: she is exasperated that a grown man plays with LEGO and wants him to stop." },
@@ -896,6 +897,7 @@ TRY.registerChapter({
           {
             q: "__②「母さんにはわからないよ。」__とあるが、母親に何がわからないと思っているか。",
             options: ["レゴの世界の{魅力|みりょく}", "レゴの作り方", "今何を作っているか", "姉が心配していること"],
+            optionsEn: ["The appeal of the world of LEGO", "How to build with LEGO", "What he's building now", "That his sister is worried"],
             answer: 0,
             en: "The passage says ② “You wouldn't understand, Mom.” What does he think his mother doesn't understand?",
             why: { en: "Absorbed in his creations, he feels his mother can't understand what makes the world of LEGO so appealing." },
@@ -903,6 +905,7 @@ TRY.registerChapter({
           {
             q: "相談者は、どんなことを一番心配しているか。",
             options: ["親子関係が{悪化|あっか}すること", "レゴばかりして働かないこと", "ストレスで自分が病気になること", "弟の健康や将来のこと"],
+            optionsEn: ["That the parent–child relationship will get worse", "That he'll do nothing but LEGO and not work", "That she herself will get sick from stress", "Her brother's health and future"],
             answer: 3,
             en: "What is the person seeking advice most worried about?",
             why: { en: "She writes 弟の体も心配ですし、結婚もできないのではないかと気がかりです — his health and his future." },

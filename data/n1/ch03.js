@@ -896,6 +896,7 @@ TRY.registerChapter({
           {
             q: "{誰|だれ}が{誰|だれ}に対して怒っているか。",
             options: ["店長がアルバイト店員に", "客がアルバイト店員に", "店長が客に", "新人店員が{先輩|せんぱい}の店員に"],
+            optionsEn: ["The manager, with a part-timer", "A customer, with a part-timer", "The manager, with a customer", "A new employee, with a senior coworker"],
             answer: 0,
             en: "Who is angry with whom?",
             why: { en: "The speaker talks about うちみたいな小さな店 and 他のアルバイト — he is the shop manager scolding a part-timer." },
@@ -903,6 +904,7 @@ TRY.registerChapter({
           {
             q: "この人が怒っている理由は何か。",
             options: ["相手が{休憩|きゅうけい}時間が終わっても戻らなかったから", "相手が{休憩|きゅうけい}時間に帰宅して戻ってこなかったから", "相手が{携帯|けいたい}電話で話しているから", "相手が遅れた理由をまだ言わないから"],
+            optionsEn: ["Because the other person didn't come back even after the break was over", "Because the other person went home during the break and didn't come back", "Because the other person is talking on the phone", "Because the other person still won't say why he was late"],
             answer: 0,
             en: "Why is this person angry?",
             why: { en: "The part-timer left at the 2 o'clock break and still hadn't come back at 3:30 or 4 (出てったが最後…帰ってこない). He went to the hospital, not home." },
@@ -936,6 +938,7 @@ TRY.registerChapter({
             ],
             en: ["A folk tale for children is playing on the radio.", "One day, as a monkey and a crab were out for a walk, they came across a delicious-looking rice ball lying on the ground.", "The instant the crab spotted the rice ball, it quickly picked it up with its big claws, which it was so proud of.", "The monkey, seeing this, walked on searching hard for another one, but there wasn't so much as a grain of rice lying about, let alone a rice ball.", "In the end, all the monkey picked up was a single small, hard persimmon seed.", "The monkey thought for a moment and said:", "“Hey, hey, Mr. Crab. I'll trade you this persimmon seed for that rice ball. Once you've eaten a rice ball, that's the end of it, right? But if you plant a persimmon seed, it will soon sprout and grow into a tree, and when the persimmons ripen, you can eat as many as you like.”", "The crab thought that made sense, and traded the rice ball for the persimmon seed. The moment the monkey got the rice ball from the crab, it gobbled it up in no time.", "The monkey really is clever, isn't he? Thinking of planting the persimmon seed like that.", "I feel sorry for the crab. It got tricked, didn't it.", "I don't feel sorry for it at all. Once the persimmons grow, it can eat lots of them, can't it?", "I wonder. I bet the crab was hungry too. The monkey only thinks about himself. Who knows when a persimmon seed will sprout."],
             options: ["{猿|さる}が{落|お}とした　⇒　{道|みち}に{落|お}ちていた　⇒　{蟹|かに}が{拾|ひろ}った", "{道|みち}に{落|お}ちていた　⇒　{蟹|かに}が{拾|ひろ}った　⇒　{猿|さる}がもらった", "{道|みち}に{落|お}ちていた　⇒　{猿|さる}が{拾|ひろ}った　⇒　{蟹|かに}がもらった", "{蟹|かに}が{落|お}とした　⇒　{道|みち}に{落|お}ちていた　⇒　{猿|さる}が{拾|ひろ}った"],
+            optionsEn: ["Dropped by the monkey ⇒ lying on the road ⇒ picked up by the crab", "Lying on the road ⇒ picked up by the crab ⇒ given to the monkey", "Lying on the road ⇒ picked up by the monkey ⇒ given to the crab", "Dropped by the crab ⇒ lying on the road ⇒ picked up by the monkey"],
             answer: 2,
             why: { en: "The seed was lying on the road, the monkey picked it up (猿が拾ったのは…柿の種), and then traded it to the crab for the rice ball." },
           },
@@ -943,6 +946,7 @@ TRY.registerChapter({
             question: "男の子は{猿|さる}についてどう思っていますか。",
             questionEn: "What does the boy think about the monkey?",
             options: ["うそつきだと{思|おも}っている。", "{自己中心的|じこちゅうしんてき}だと{思|おも}っている。", "{頭|あたま}がいいと{思|おも}っている。", "{楽天的|らくてんてき}だと{思|おも}っている。"],
+            optionsEn: ["He thinks he's a liar.", "He thinks he's selfish.", "He thinks he's smart.", "He thinks he's optimistic."],
             answer: 2,
             why: { en: "The boy says やっぱり猿は賢いね; it is the girl who thinks the monkey only thinks of himself." },
           },

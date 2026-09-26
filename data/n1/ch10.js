@@ -551,6 +551,7 @@ TRY.registerChapter({
           {
             q: "__{真実|しんじつ}を{包|つつ}み{隠|かく}さず伝える人物__に対して、筆者はどのように考えているか。",
             options: ["{配慮|はいりょ}に{欠|か}ける人", "{矛盾|むじゅん}を{抱|かか}えた人", "信頼にたる人", "{円満|えんまん}{極|きわ}まる人"],
+            optionsEn: ["Someone lacking in consideration", "Someone full of contradictions", "Someone worthy of trust", "Someone perfectly amiable"],
             answer: 0,
             en: "What does the writer think of a person who conveys the truth without concealing anything?",
             why: { en: "The writer calls such a person 思いやりの気持ちを持たない冷たい人間 or 事態を予想できない愚か者 — someone lacking in consideration for others." },
@@ -558,6 +559,7 @@ TRY.registerChapter({
           {
             q: "筆者が最も言いたいことは何か。",
             options: ["{円満|えんまん}な人間関係のためには、{嘘|うそ}をつくべきではない。", "自分の利害や{思惑|おもわく}を{優先|ゆうせん}する人こそ信頼すべきである。", "相手への思いやりから{嘘|うそ}をつく人を批判すべきではない。", "{嘘|うそ}をつく人間は{愚|おろ}か{者|もの}と呼ばれるべきである。"],
+            optionsEn: ["For harmonious relationships, one should not lie.", "It is precisely those who put their own interests and intentions first who should be trusted.", "People who lie out of consideration for others should not be criticized.", "People who lie should be called fools."],
             answer: 2,
             en: "What does the writer most want to say?",
             why: { en: "The writer argues that some lies are unavoidable because they are told out of consideration for others (誰かの立場を思うがゆえに), and that it is rather the person who never lies who lacks consideration — so people who lie out of consideration should not be condemned." },

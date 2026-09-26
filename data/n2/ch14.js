@@ -517,6 +517,7 @@ TRY.registerChapter({
           {
             q: "{筆者|ひっしゃ}が一番言いたいことは何ですか。",
             options: ["高速道路を新しく作る{必要|ひつよう}があること", "高速道路ができれば、{地域経済|ちいきけいざい}が{活発|かっぱつ}になること", "高速道路ができれば、国民が{幸福|こうふく}になること", "高速道路の{建設|けんせつ}にはいろいろな問題があること"],
+            optionsEn: ["That a new expressway needs to be built", "That a new expressway would boost the regional economy", "That a new expressway would make the people happy", "That building an expressway involves many problems"],
             answer: 3,
             en: "What does the writer most want to say?",
             why: { en: "The passage lists cost, noise and air pollution as issues and concludes many problems remain, so a decision will take time." },
