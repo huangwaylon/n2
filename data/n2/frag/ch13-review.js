@@ -11,7 +11,7 @@ N2F({ ch: 13, review: [
           why: { en: "〜てならない = \"can't help feeling ~, extremely ~\", used with emotion words like くやしい." } },
         { q: "{企画会議|きかくかいぎ}で、部長の{決定|けってい}を本当にそれでいいのかと{疑問|ぎもん}に思い（　）、聞いていた。",
           options: ["つつ", "ぬき", "がたくて", "を{込|こ}めて"], answer: 0,
-          en: "At the planning meeting, I listened to the manager's decision while wondering whether it was really all right.",
+          en: "At the planning meeting, I listened to the department head's decision while wondering whether it was really all right.",
           why: { en: "[V-ます stem] + つつ = \"while ~\", two actions at the same time (思いつつ聞いていた)." } },
         { q: "これは{苦労|くろう}して探し回った（　）、やっと見つけた本なんです。",
           options: ["あげく", "あまり", "{末|すえ}に", "{限|かぎ}り"], answer: 2,
@@ -31,7 +31,7 @@ N2F({ ch: 13, review: [
           why: { en: "〜を込めて = \"filled with (a feeling/wish)\"." } },
         { q: "試合会場へのペットボトルの持ち込みが{禁止|きんし}になったのは、（　）グラウンドに物を{投|な}げるファンが増えたからです。",
           options: ["{興奮|こうふん}することなく", "{興奮|こうふん}するどころか", "{興奮|こうふん}するからには", "{興奮|こうふん}のあまり"], answer: 3,
-          en: "Plastic bottles were banned from the stadium because more fans were throwing things onto the field out of excess excitement.",
+          en: "Plastic bottles were banned from the stadium because more and more fans were getting so excited that they threw things onto the field.",
           why: { en: "[N]のあまり = \"out of excessive ~\", an extreme emotion leading to an unusual action." } },
         { q: "このドキュメンタリーは{南極|なんきょく}の{厳|きび}しい{自然|しぜん}の中を生き（　）2{匹|ひき}の犬の{物語|ものがたり}である。",
           options: ["ぬいた", "がたい", "かねない", "{得|う}る"], answer: 0,
@@ -72,8 +72,8 @@ N2F({ ch: 13, review: [
         "この話が{報道|ほうどう}されると、多くの{視聴者|しちょうしゃ}から「[4]どんなことがあっても2{匹|ひき}を{引|ひ}き{離|はな}さないで」といったコメントがいくつも{寄|よ}せられた。その中には{新|あら}たな{飼|か}い{主|ぬし}として声をあげる人もいる。2{匹|ひき}は、まもなく一生を{過|す}ごせる家を見つけ、{幸福|こうふく}な日を送るようになるだろう。",
       ],
       en: [
-        "Lily went blind after an eye disease when she was a puppy. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. The two went on walks together and slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
-        "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\" Some of them even came forward as new owners. The two will probably soon find a home where they can spend the rest of their lives and come to live happy days.",
+        "When Lily was a puppy, she got an eye disease and went blind. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. The two went on walks together and slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
+        "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\" Some of them even came forward as new owners. The two will probably soon find a home where they can spend the rest of their lives and begin living happily.",
       ],
       blanks: [
         { options: ["がたく", "つつ", "ぬいて", "らしく"], answer: 1,

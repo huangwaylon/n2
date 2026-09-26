@@ -28,7 +28,7 @@ N2.register({
         "lines": [
           {
             "ja": "「{課長昇進|かちょうしょうしん}の話はなかっ**たことにする**」と部長に{告|つ}げられたのは3か月前だった。自分では{精一杯|せいいっぱい}がんばった**つもり**だったが、プロジェクトに{失敗|しっぱい}し、大きな{損害|そんがい}を出したのが{原因|げんいん}だ。{出社|しゅっしゃ}しても、毎日がつらく**てならなかった**。できる**ものなら**、違う世界へ行ってしまいたいと思いながら、{日々|ひび}を{過|す}ごしていた。",
-            "en": "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world."
+            "en": "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss — that was why. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world."
           },
           {
             "ja": "{蒸|む}し暑いある晩、{俺|おれ}は{散歩|さんぽ}していた。{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの{一軒屋|いっけんや}の2階の{窓|まど}に{明|あ}かりが見えた。",
@@ -340,7 +340,7 @@ N2.register({
           "examples": [
             {
               "ja": "子どものころから{星|ほし}が好きだったので、行けるものなら{宇宙|うちゅう}旅行に行ってみたいと思っています。",
-              "en": "I've loved the stars since I was a child, so if I could go, I'd love to try going on a trip to space."
+              "en": "I've loved the stars since I was a child, so if I could, I'd love to go on a trip into space."
             },
             {
               "ja": "こんなつらい仕事は{辞|や}められるものなら{辞|や}めたいが、生活のことを考えると{辞|や}めるわけにはいかない。",
@@ -348,7 +348,7 @@ N2.register({
             },
             {
               "ja": "{下山|げざん}できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。",
-              "en": "If we could get down the mountain, I'd want to descend as soon as possible, but we have no choice but to wait until the weather improves."
+              "en": "If we could, we'd get down the mountain as soon as possible, but we have no choice but to wait until the weather improves."
             },
             {
               "ja": "A：今帰りですか。お{互|たが}いに、{通勤|つうきん}に1時間半なんて、大変ですよね。\nB：そうですよね。買えるもんなら会社の近くにマンションでも買いたいけど…。",
@@ -547,7 +547,7 @@ N2.register({
                     "あげくに"
                   ],
                   "answer": 2,
-                  "en": "My friend drank too much, fell asleep on the train, rode all the way to the last stop, and on top of that lost his wallet, so he called asking me to come pick him up."
+                  "en": "My friend drank too much, fell asleep on the train, rode all the way to the last stop and ended up losing his wallet, so he called asking me to come pick him up."
                 },
                 {
                   "q": "アパートの{契約|けいやく}をする（　）{契約書|けいやくしょ}の内容を{詳|くわ}しく説明してもらった。",
@@ -732,7 +732,7 @@ N2.register({
                 2
               ],
               "en": [
-                "Even if it has something I dislike in it, I'll eat every bit of what the girlfriend I love made.",
+                "Even if it has something I dislike in it, I'll eat every last bit of anything my beloved girlfriend makes.",
                 "No matter how difficult the exam, you should keep working hard and not give up.",
                 "No matter how much the treatment costs, I don't mind, as long as it saves their life.",
                 "Even when you know it's just flattery, being praised makes you happy."
@@ -1426,7 +1426,7 @@ N2.register({
               "を{込|こ}めて"
             ],
             "answer": 0,
-            "en": "At the planning meeting, I listened to the manager's decision while wondering whether it was really all right.",
+            "en": "At the planning meeting, I listened to the department head's decision while wondering whether it was really all right.",
             "why": {
               "en": "[V-ます stem] + つつ = \"while ~\", two actions at the same time (思いつつ聞いていた)."
             }
@@ -1496,7 +1496,7 @@ N2.register({
               "{興奮|こうふん}のあまり"
             ],
             "answer": 3,
-            "en": "Plastic bottles were banned from the stadium because more fans were throwing things onto the field out of excess excitement.",
+            "en": "Plastic bottles were banned from the stadium because more and more fans were getting so excited that they threw things onto the field.",
             "why": {
               "en": "[N]のあまり = \"out of excessive ~\", an extreme emotion leading to an unusual action."
             }
@@ -1604,8 +1604,8 @@ N2.register({
           "この話が{報道|ほうどう}されると、多くの{視聴者|しちょうしゃ}から「[4]どんなことがあっても2{匹|ひき}を{引|ひ}き{離|はな}さないで」といったコメントがいくつも{寄|よ}せられた。その中には{新|あら}たな{飼|か}い{主|ぬし}として声をあげる人もいる。2{匹|ひき}は、まもなく一生を{過|す}ごせる家を見つけ、{幸福|こうふく}な日を送るようになるだろう。"
         ],
         "en": [
-          "Lily went blind after an eye disease when she was a puppy. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. The two went on walks together and slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
-          "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\" Some of them even came forward as new owners. The two will probably soon find a home where they can spend the rest of their lives and come to live happy days."
+          "When Lily was a puppy, she got an eye disease and went blind. For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her. The two went on walks together and slept together too. Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter. \"If at all possible, we want to let these two stay together forever,\" said the shelter staff, and they looked for a new owner.",
+          "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\" Some of them even came forward as new owners. The two will probably soon find a home where they can spend the rest of their lives and begin living happily."
         ],
         "blanks": [
           {

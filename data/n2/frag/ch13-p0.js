@@ -14,7 +14,7 @@ N2F({
     kind: "story",
     vertical: true,
     lines: [
-      { ja: "「{課長昇進|かちょうしょうしん}の話はなかっ**たことにする**」と部長に{告|つ}げられたのは3か月前だった。自分では{精一杯|せいいっぱい}がんばった**つもり**だったが、プロジェクトに{失敗|しっぱい}し、大きな{損害|そんがい}を出したのが{原因|げんいん}だ。{出社|しゅっしゃ}しても、毎日がつらく**てならなかった**。できる**ものなら**、違う世界へ行ってしまいたいと思いながら、{日々|ひび}を{過|す}ごしていた。", en: "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world." },
+      { ja: "「{課長昇進|かちょうしょうしん}の話はなかっ**たことにする**」と部長に{告|つ}げられたのは3か月前だった。自分では{精一杯|せいいっぱい}がんばった**つもり**だったが、プロジェクトに{失敗|しっぱい}し、大きな{損害|そんがい}を出したのが{原因|げんいん}だ。{出社|しゅっしゃ}しても、毎日がつらく**てならなかった**。できる**ものなら**、違う世界へ行ってしまいたいと思いながら、{日々|ひび}を{過|す}ごしていた。", en: "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago. I thought I had done my very best, but the project failed and caused a huge loss — that was why. Even when I went to work, every day was unbearably painful. I spent my days thinking that, if only I could, I'd like to go off to a different world." },
       { ja: "{蒸|む}し暑いある晩、{俺|おれ}は{散歩|さんぽ}していた。{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの{一軒屋|いっけんや}の2階の{窓|まど}に{明|あ}かりが見えた。", en: "One hot, muggy night, I was taking a walk. As I walked along a pitch-dark road with hardly any houses, I saw a light in a second-floor window of a detached house up ahead." },
       { ja: "「あれ？　{確|たし}かあそこは{空家|あきや}のはずだ」{不審|ふしん}に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の{悲鳴|ひめい}が聞こえた。そして男女の{争|あらそ}う声。「やめて！」「うるさい！　{黙|だま}れ！」", en: "\"Huh? That place is supposed to be empty, I'm sure.\" As I approached, feeling suspicious, I suddenly heard a young woman scream, \"Aaah!\" Then the sound of a man and a woman fighting. \"Stop it!\" \"Shut up! Be quiet!\"" },
       { ja: "もしかして、{事件|じけん}か。こんなときに{限|かぎ}って、{携帯|けいたい}をうちに{置|お}いてきてしまった。行**こうか**行く**まいか**{迷|まよ}った**{末|すえ}**、{俺|おれ}はその家に近づいていった。そしてその家のドアの前まで来たとき、「あのかばんはどこだ！　言え！」という低い男の声。そして「助けてー！」という女性の声――。", en: "Could it be a crime? Of all times, I'd left my cell phone at home. After agonizing over whether to go or not, I approached the house. And when I got to the front door, I heard a man's low voice: \"Where's that bag? Tell me!\" And then a woman's voice: \"Help!\"" },
@@ -155,9 +155,9 @@ N2F({
         { ja: "{可能|かのう}の意味を持つ{動詞|どうし}の{辞書形|じしょけい}も使われる。", en: "Dictionary forms of verbs that indicate possibility are also used." },
       ],
       examples: [
-        { ja: "子どものころから{星|ほし}が好きだったので、行けるものなら{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I could go, I'd love to try going on a trip to space." },
+        { ja: "子どものころから{星|ほし}が好きだったので、行けるものなら{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I could, I'd love to go on a trip into space." },
         { ja: "こんなつらい仕事は{辞|や}められるものなら{辞|や}めたいが、生活のことを考えると{辞|や}めるわけにはいかない。", en: "I'd quit this awful job if I could, but when I think about making a living, I can't quit." },
-        { ja: "{下山|げざん}できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "If we could get down the mountain, I'd want to descend as soon as possible, but we have no choice but to wait until the weather improves." },
+        { ja: "{下山|げざん}できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "If we could, we'd get down the mountain as soon as possible, but we have no choice but to wait until the weather improves." },
         { ja: "A：今帰りですか。お{互|たが}いに、{通勤|つうきん}に1時間半なんて、大変ですよね。\nB：そうですよね。買えるもんなら会社の近くにマンションでも買いたいけど…。", en: "A: On your way home now? A commute of an hour and a half is tough for both of us, isn't it?\nB: It sure is. If I could afford it, I'd like to buy an apartment or something near the office, but..." },
         { ja: "{不老不死|ふろうふし}の願いがかなうものなら、私はいくらでも金を出す。", en: "If my wish to never age and never die could come true, I'd pay any amount of money." },
       ],
@@ -229,7 +229,7 @@ N2F({
           items: [
             { q: "自分の{将来|しょうらい}について{悩|なや}み、いろいろ考えた（　）日本に留学することにした。", options: ["{際|さい}に", "{末|すえ}に", "あげくに"], answer: 1, en: "After worrying about my future and thinking it over in many ways, I decided to study abroad in Japan." },
             { q: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを{築|きず}いた{松下|まつした}さんの{記念館|きねんかん}です。", options: ["{際|さい}に", "{末|すえ}に", "あげくに"], answer: 1, en: "This is the memorial hall of Mr. Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic." },
-            { q: "友達は、飲みすぎて電車で寝てしまい、{終点|しゅうてん}まで行った（　）{財布|さいふ}をなくしたから{迎|むか}えに来てくれと電話してきた。", options: ["{際|さい}に", "{末|すえ}に", "あげくに"], answer: 2, en: "My friend drank too much, fell asleep on the train, rode all the way to the last stop, and on top of that lost his wallet, so he called asking me to come pick him up." },
+            { q: "友達は、飲みすぎて電車で寝てしまい、{終点|しゅうてん}まで行った（　）{財布|さいふ}をなくしたから{迎|むか}えに来てくれと電話してきた。", options: ["{際|さい}に", "{末|すえ}に", "あげくに"], answer: 2, en: "My friend drank too much, fell asleep on the train, rode all the way to the last stop and ended up losing his wallet, so he called asking me to come pick him up." },
             { q: "アパートの{契約|けいやく}をする（　）{契約書|けいやくしょ}の内容を{詳|くわ}しく説明してもらった。", options: ["{際|さい}に", "{末|すえ}に", "あげくに"], answer: 0, en: "When I signed the apartment lease, I had the contents of the contract explained to me in detail." },
           ],
         },

@@ -59,7 +59,7 @@ N2F({
           ],
           answer: [3, 1, 0, 2],
           en: [
-            "Even if it has something I dislike in it, I'll eat every bit of what the girlfriend I love made.",
+            "Even if it has something I dislike in it, I'll eat every last bit of anything my beloved girlfriend makes.",
             "No matter how difficult the exam, you should keep working hard and not give up.",
             "No matter how much the treatment costs, I don't mind, as long as it saves their life.",
             "Even when you know it's just flattery, being praised makes you happy.",
