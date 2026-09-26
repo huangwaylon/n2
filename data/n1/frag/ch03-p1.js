@@ -3,7 +3,7 @@ N2F({
   part: 1,
   label: "(2)",
   canDo: [
-    { ja: "{昔話|むかしばなし}の表現を楽しみながら、登場する人物の行動や出来事の{経緯|けいい}などが理解できる。", zh: "在欣赏传说故事的同时，理解出场人物的行为、事情发展的经过等。", en: "Enjoy the expressions of a folktale while understanding the characters' actions and how events unfold." },
+    { ja: "{昔話|むかしばなし}の表現を楽しみながら、登場する人物の行動や出来事の{経緯|けいい}などが理解できる。", en: "Enjoy the expressions of a folktale while understanding the characters' actions and how events unfold." },
   ],
   sample: {
     kind: "story",
@@ -28,7 +28,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「AかたがたB」は「お見舞いかたがた会いに行く」のように「Aという目的（お見舞い）もあって、Bをする（会いに行く）」という意味を表す。Bには「{伺|うかが}う・行く・{訪|たず}ねる・来る」など移動に関係のある{動詞|どうし}がよく使われる。",
-        zh: "表示“做B这件事情，同时也带有A的目的”，如“去见他，顺便探望一下”。B的部分经常用到和移动有关系的动词，如“拜访、去、造访、来”等。",
         en: "As in \"お見舞いかたがた会いに行く\" (go to see someone, partly to visit them in hospital), \"AかたがたB\" means \"do B (go to see them), with A (a sick visit) also as a purpose.\" Verbs related to movement, such as \"伺う・行く・訪ねる・来る,\" are often used for B.",
       },
       forms: ["[N] + かたがた"],
@@ -47,7 +46,6 @@ N2F({
           marks: [],
           usage: {
             ja: "「AがてらB」は「Aの機会を利用して、Bする」と言いたいときに使われる。A・Bには、移動に関係のある言葉がよく使われる。",
-            zh: "用于想说“利用A的机会，做B这件事情”。A、B两处经常使用与移动有关系的词。",
             en: "\"AがてらB\" is used when you want to say \"take the opportunity of A to do B.\" Words related to movement are often used for A and B.",
           },
           forms: ["[N]／[V-~~ます~~] + がてら"],
@@ -78,7 +76,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜とは」は、意外な事実に対する話し手の{驚|おどろ}き・感心・あきれなどの気持ちを言いたいときに使われる。",
-        zh: "用于想表达说话人对于意外事实的惊讶、佩服、愕然等。",
         en: "\"〜とは\" is used when you want to express the speaker's surprise, admiration, exasperation and the like at an unexpected fact.",
       },
       forms: ["[Pl] + とは", "［[なA]（だ）　[N]（だ）］"],
@@ -137,7 +134,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜なり…」は「〜という動作のすぐ後で…ということが起こる」と言いたいときに使われる。起きた出来事や他の人の意外な行動に{驚|おどろ}いたときに使われることが多い。",
-        zh: "用于想说“紧接着……动作之后发生了……事”。多用于表示对发生的事情或别人的意外行为感到很惊讶的时候。",
         en: "\"〜なり…\" is used when you want to say that \"… happens immediately after the action 〜.\" It is often used when one is surprised by something that happened or by someone else's unexpected behavior.",
       },
       forms: ["[V-る] + なり"],
@@ -182,7 +178,6 @@ N2F({
       marks: ["casual"],
       usage: {
         ja: "「AわBわ」は、困ったり喜んだりする理由や状況を並べて言うときに使う。",
-        zh: "用于列举烦恼或喜悦的理由、状态。",
         en: "\"AわBわ\" is used when listing the reasons or circumstances that make one troubled or delighted.",
       },
       forms: ["[Pl₁] + わ + [Pl₂] + わ\n［現在形のみ］　［現在形のみ］"],
@@ -212,7 +207,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜が早いか…」は「〜なり」と同じように「〜の直後、ほとんど同時に…ということが起こる」と言いたいときに使われる。「…」が起こるまでの時間が非常に短いことを{驚|おどろ}いて話すときに使うことが多い。",
-        zh: "与“〜なり”一样，用于想说“在……之后几乎同时发生了……”。多用于表示对两件事情相隔时间之短表示惊讶时。",
         en: "Like \"〜なり,\" \"〜が早いか…\" is used when you want to say \"… happens right after 〜, almost at the same time.\" It is often used when speaking with surprise about how very short the time was before \"…\" happened.",
       },
       forms: ["[V-る]／[V-た] + が早いか"],
@@ -251,7 +245,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AそばからB」は「Aの後、すぐにBをする」と言いたいときに使われる。A・B2つの動作が何回も{反復|はんぷく}される様子を述べたり、「{頑張|がんば}ってAをしたのに、すぐにBなので、努力が{無駄|むだ}になってしまう」と言いたいときによく使われる。",
-        zh: "用于想说“A之后马上做B”时。常常用于描述A、B两个动作反复好几次的样子或者想说“很努力把A做完了，却马上B，结果努力全都白费了”时。",
         en: "\"AそばからB\" is used when you want to say \"B is done right after A.\" It is often used to describe the two actions A and B being repeated over and over, or when you want to say \"I worked hard to do A, but B happens right away, so the effort goes to waste.\"",
       },
       forms: ["[V-る]／[V-た] + そばから"],
@@ -289,7 +282,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ずにはおかない」は「〜するまであきらめない／絶対に〜する」という話し手の強い意志を表す。",
-        zh: "表示说话人强烈的意愿，“在……之前不放弃/在……之前一定要做……”。",
         en: "\"〜ずにはおかない\" expresses the speaker's strong will: \"I won't give up until I do 〜 / I will definitely do 〜.\"",
       },
       forms: ["[V-~~ない~~] + ずにはおかない", "[V-~~ない~~] + ないではおかない"],
@@ -301,7 +293,6 @@ N2F({
       notes: [
         {
           ja: "「〜ずにはおかない」は「自然に〜の感情が起こる／〜の状況になる」と言いたいときにもよく使われる。",
-          zh: "还常常用于想说“自然而然地产生……感情或进入……状态”。",
           en: "\"〜ずにはおかない\" is also often used when you want to say that \"a feeling of 〜 arises naturally / a situation of 〜 inevitably comes about.\"",
           stars: 1,
           examples: [
@@ -332,7 +323,6 @@ N2F({
       marks: ["regret"],
       usage: {
         ja: "「〜たが最後…」は「もし〜したら、必ず…になってしまう」という意味を表す。「…」には、話し手にとって望ましくない{状態|じょうたい}を表す言葉が入る。",
-        zh: "表示“如果……的话，一定会……”的意思。后项出现的是对于说话人来说不希望发生的状态。",
         en: "\"〜たが最後…\" means \"if 〜 happens, it will inevitably end up as ….\" In \"…\" come words expressing a state the speaker does not want.",
       },
       forms: ["[V-た] + が最後"],
@@ -365,7 +355,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜てやる」は「{怒|いか}り・不満などの強い感情を持って〜する」ことを表す。",
-        zh: "表示“带着愤怒、不满等强烈的情绪做……”。",
         en: "\"〜てやる\" expresses \"doing 〜 with strong feelings such as anger or dissatisfaction.\"",
       },
       forms: ["[V-て] + やる"],

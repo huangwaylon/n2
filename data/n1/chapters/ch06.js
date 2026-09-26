@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "送別会などで、関係者に対し、お礼や{抱負|ほうふ}を含む{改|あらた}まったスピーチができる。",
-      "zh": "能够在欢送会等场合，面对相关人士，做一次满含谢意、抱负的正式演讲。",
       "en": "At a farewell party or similar occasion, give a formal speech to the people concerned that includes thanks and your aspirations."
     }
   ],
@@ -72,7 +71,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ところ（を）」は、お{詫|わ}びや依頼、感謝をするときの{前置|まえお}きとして使う。",
-            "zh": "用于表示道歉、请求、感谢时的铺垫说法。",
             "en": "\"〜ところ（を）\" is used as a lead-in when apologizing, making a request or expressing thanks."
           },
           "forms": [
@@ -177,7 +175,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜の{至|いた}り」は「非常に〜だ」という自分の気持ちを表す。",
-            "zh": "表示自己“非常……”的心情。",
             "en": "\"〜の{至|いた}り\" expresses one's own feeling of being \"extremely 〜\"."
           },
           "forms": [
@@ -234,7 +231,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜をもって」は、何かが変わったり終わったりする{時点|じてん}をはっきり言いたいときに使われる。「〜をもちまして」の形で使われることも多い。",
-            "zh": "想明确地说某事发生改变或结束的时间点。",
             "en": "\"〜をもって\" is used when you want to state clearly the point in time at which something changes or ends. It is also often used in the form \"〜をもちまして\"."
           },
           "forms": [
@@ -328,7 +324,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜こととて」は「〜なので」と同じように理由を表す。話すときには{謝罪|しゃざい}をしたり、許しを求めたりするときに使われることが多い。",
-            "zh": "和“因为……”一样，表示理由。说话时多用于道歉、请求原谅时。",
             "en": "Like \"〜なので\", \"〜こととて\" expresses a reason. In speech it is often used when apologizing or asking for forgiveness."
           },
           "forms": [
@@ -385,7 +380,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にたえない」は「非常に〜だ」という気持ちを表す。",
-            "zh": "表示“非常……”的心情。",
             "en": "\"〜にたえない\" expresses the feeling \"extremely 〜\"."
           },
           "forms": [
@@ -437,7 +431,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜たる」は「〜の立場・地位の」という意味を表す。当然どうあるべきかを{述|の}べる文で使われることが多い。「〜たる{者|もの}」の形がよく使われる。",
-            "zh": "表示“……的立场、地位的……”意思。多用于阐述理所当然要怎样的句子当中。多使用“～たる者”的形式。",
             "en": "\"〜たる\" means \"in the position/status of 〜\". It is often used in sentences stating how one ought naturally to be. The form \"〜たる{者|もの}\" is often used."
           },
           "forms": [
@@ -484,7 +477,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜限りだ」は「強く〜と感じる」自分の気持ちを言いたいときに使われる。",
-            "zh": "用于想说自己“强烈地感觉到……”。",
             "en": "\"〜限りだ\" is used when you want to express your own feeling, \"I strongly feel 〜\"."
           },
           "forms": [

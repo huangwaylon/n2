@@ -183,12 +183,9 @@ u.ul .rb-b { text-decoration: underline; text-underline-offset: .25em; text-deco
 s .rb-b { text-decoration: line-through; }
 
 /* ---------- the book's Chinese translations (N1, Chinese edition) ---------- */
-/* hidden until the 中文 switch (body.show-zh) is on; styled like the book: small grey Song/Gothic under the Japanese */
-.zh { display: none; color: var(--en-book); font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif; font-size: 13px; line-height: 1.55; margin: 1px 0 .2em; }
-body.show-zh .zh { display: block; }
-body.show-zh span.zh { display: block; }
 /* [文] (sentence) / [数] (number) badges: circled in the book, so they take the default b-round shape; b-s is a colour hook only */
-.bi--zh-only > .zh { display: block; font-size: 14.5px; color: var(--ink-2); }
+/* English-only block (N1 front matter the book prints only in Chinese): always shown, full size */
+.bi--en-only > .en { display: block; font-size: 15px; color: var(--ink-2); }
 u.ul { text-decoration: underline; text-underline-offset: .25em; text-decoration-thickness: 1px; }
 /* places that hide the readings (sidebar, chips, pager, links, pattern lines) drop the space reserved for them */
 :is(.sb-t, .sb-gps a, .cc-genre, .pager, .mt-gp, .gp-pattern, .gp-link) .rb { margin: 0; }

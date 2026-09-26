@@ -7,7 +7,6 @@ N2F({
     canDo: [
       {
         ja: "ファンタジー小説を読んで、やや{古風|こふう}な表現を味わいながら、登場人物やその関係を理解することができる。",
-        zh: "阅读一篇空想小说，欣赏略微古典的表达风格，同时理解出场人物及其关系。",
         en: "Read a fantasy novel and understand its characters and their relationships while savoring its somewhat old-fashioned expressions.",
       },
     ],
@@ -43,7 +42,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AつBつ」は、AとBを{繰|く}り{返|かえ}すことを表す。",
-        zh: "表示A、B重复进行。",
         en: "\"AつBつ\" expresses that A and B are repeated alternately.",
       },
       forms: ["[V₁-~~ます~~] + つ + [V₂-~~ます~~] + つ"],
@@ -78,7 +76,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ともなく」は「はっきり意識しないで／目的を持たずに〜する」と言いたいときに使われる。",
-        zh: "用于想说“不是特别有意识地/漫无目的地……”时。",
         en: "\"〜ともなく\" is used when you want to say \"do ~ without being clearly aware of it / without any particular purpose.\"",
       },
       forms: ["[V-る] + ともなく"],
@@ -94,7 +91,6 @@ N2F({
       notes: [
         {
           ja: "「{疑問詞|ぎもんし}（＋{助詞|じょし}＋[V]）＋ともなく」は「はっきりわからないが」と言いたいときに使われる。",
-          zh: "用于想说“说不清楚，但……”时。",
           en: "\"Question word (+ particle + V) + ともなく\" is used when you want to say \"it isn't clear (where/when/who…), but…\"",
           examples: [
             { ja: "夕方の商店{街|がい}を歩くと、どこからともなくおいしそうな{匂|にお}いが{漂|ただよ}ってくる。", en: "When you walk through the shopping street in the evening, a delicious smell drifts over from somewhere or other." },
@@ -133,7 +129,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜べく…」は「優勝すべく練習を重ねた」のように「〜（優勝）しようと思って…する（練習を重ねる）」と言いたいときに使われる。",
-        zh: "用于想说“做……一心想要……”时，如“不停练习，一心想要获胜”。",
         en: "As in \"優勝すべく練習を重ねた\", \"〜べく…\" is used when you want to say \"do … (keep practicing) intending to ~ (win).\"",
       },
       forms: ["[V-る] + べく"],
@@ -190,7 +185,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜てからというもの」は「〜をきっかけに大きく変わり、それがずっと続いている」と言いたいときに使う。",
-        zh: "用于想说“以……为契机发生巨大改变，一直持续至今”时。",
         en: "\"〜てからというもの\" is used when you want to say \"~ triggered a big change, and that has continued ever since.\"",
       },
       forms: ["[V-て] + からというもの"],
@@ -207,7 +201,6 @@ N2F({
         {
           stars: 2,
           ja: "「[N]＋というもの」は「その期間中ずっと」という意味で使われる。",
-          zh: "用于表示“在此期间一直”的意思。",
           en: "\"N + というもの\" is used to mean \"throughout that whole period.\"",
           examples: [
             { ja: "この1週間というもの、カップラーメン以外のものを口にしていない。", en: "For this entire week, I haven't eaten anything but cup noodles." },
@@ -246,7 +239,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜ながら（に）」は「〜の{状態|じょうたい}のまま／〜のときから変わらず」と言いたいときに使われる。",
-        zh: "用于想说“保持……的状态/从……开始就没有变过”时。",
         en: "\"〜ながら（に）\" is used when you want to say \"in the state of ~ / unchanged since the time of ~.\"",
       },
       forms: ["［[V-~~ます~~]　[N₁]］ + ［ながら（に）　ながらの + [N₂]］"],
@@ -289,7 +281,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜たまでのことだ」は「したことに〜以外の意味はない」という気持ちを表す。いいことをして感謝されたときなどの返事に使われるときには、{謙遜|けんそん}の気持ちが含まれる。",
-        zh: "表示“不过是……没有别的意思”的心情。做了好事受到表扬等时候可以用来回答，这种时候含有谦虚的心情。",
         en: "\"〜たまでのことだ\" expresses the feeling that \"what I did has no meaning other than ~.\" When it is used as a reply, for instance when you are thanked for doing something good, it carries a sense of modesty.",
       },
       forms: ["[V-た] + までのことだ", "[V-た] + までだ"],
@@ -317,7 +308,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜をものともせず」は「困難なことがあっても、その{障害|しょうがい}を大変なことと思わないで、力強く行う」と言いたいときに使われる。普通は自分の行動には使わない。",
-        zh: "用于想说“虽然有困难，但不要觉得障碍很大，而要坚定地做下去”时。一般不用来表述自己的行为。",
         en: "\"〜をものともせず\" is used when you want to say \"even though there are difficulties, (someone) acts forcefully without treating the obstacle as a big deal.\" It is not normally used for one's own actions.",
       },
       forms: ["[N] + をものともせず（に）"],
@@ -364,7 +354,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「AかたわらB」は「Aをしながら、他のこと（B）もしている」と言いたいときに使う。",
-        zh: "用于想说“一边做A，一边也在做其他事情（B）”时。",
         en: "\"AかたわらB\" is used when you want to say \"while doing A, (someone) is also doing something else (B).\"",
       },
       forms: ["[V-る] + かたわら", "[N] + かたわら"],

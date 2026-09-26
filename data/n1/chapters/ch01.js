@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "イベントなどに関する記事を読んで、その特色や様子が理解できる。",
-      "zh": "阅读有关活动等的新闻报道，理解该活动的特色和现场情况。",
       "en": "Read a news article about an event or the like and understand its distinctive features and what it is like."
     }
   ],
@@ -77,7 +76,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜を{皮切|かわき}りに」は「〜から始まって、次々に同じようなことが続く」と言いたいときに使われる。{盛|さか}んになったり、発展したりするときによく使われる。",
-            "zh": "用于想说“从……开始，接连发生同样的事情”时。常常用在气氛热烈时、情况进一步发展时。",
             "en": "「〜を皮切りに」 is used when you want to say “starting with ~, similar things follow one after another.” It is often used when something becomes lively or develops."
           },
           "forms": [
@@ -168,7 +166,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜とあって」は「特別な〜なので、普通と違う／他と違う状況になる」と言いたいときに使われる。社会的な現象や{客観的|きゃっかんてき}な事実について言うときに使う。",
-            "zh": "用于想说“……是很特别的，会和一般/其他不一样。”常常用于描述社会现象或客观事实时。",
             "en": "「〜とあって」 is used when you want to say “because it is a special ~, the situation becomes different from usual / from others.” It is used when talking about social phenomena or objective facts."
           },
           "forms": [
@@ -245,7 +242,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「AならではのB」は「〜は他にはないAだけが持つ特別なもの（B）だ」と言いたいときに使われる。",
-            "zh": "用于想说“……是A独有的、非同一般的（B）”时。",
             "en": "「AならではのB」 is used when you want to say “~ is something special (B) that only A has and that is not found anywhere else.”"
           },
           "forms": [
@@ -317,7 +313,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜にもまして」は「〜以上に／〜もそうだがさらに」と言いたいときに使われる。",
-            "zh": "用于想说“比……更加/……也是，但更加”时。",
             "en": "「〜にもまして」 is used when you want to say “more than ~ / ~ is so too, but even more.”"
           },
           "forms": [
@@ -415,7 +410,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜に{至|いた}るまで」は「〜までの場所や時間などその{範囲|はんい}すべて」と言うときに使われる。「髪の毛1本に{至|いた}るまで」「宇宙開発に{至|いた}るまで」のように、「非常に細かいことや大きいことまで、{範囲|はんい}が広い」と言いたいときにも使われる。",
-            "zh": "用于想说“到……之前的所有地方、时间等”时。也用于想说“范围很广，广到非常细微或庞大的事情”时，如“（细）到一根头发”、“（大）到宇宙开发”等。",
             "en": "「〜に至るまで」 is used to mean “the whole range — places, times and so on — up to ~.” As in 「髪の毛1本に至るまで」 (down to a single hair) or 「宇宙開発に至るまで」 (all the way to space development), it is also used when you want to say “the range is wide, extending even to extremely small or large things.”"
           },
           "forms": [
@@ -442,7 +436,6 @@ N2.register({
           "notes": [
             {
               "ja": "「[V-る]／[N] + に{至|いた}る」は「〜という段階や{状態|じょうたい}に{達|たっ}する」という意味で使われる。",
-              "zh": "用来表示“达到……阶段或状态”。",
               "en": "「V-る／N + に至る」 is used to mean “reach the stage or state of ~.”",
               "examples": [
                 {
@@ -519,7 +512,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AからしてB」は「女優は歩き方からして美しい」のように、「A（歩き方）を一例としてすべてB（美しい）」と言いたいときに使う。Aには、まず気がついたこと、あるいは一番重要ではない部分を言う。また、Bの程度が{極端|きょくたん}なことを、Aを例にして言いたいときにも使われる。",
-            "zh": "就像“光看走路姿态就知道那名女演员很美”一样，用于想说“举A（走路姿态）为例，全部都B（美）”时。A的部分要说最先引起注意的事情或者并非最重要的一点。也用于想举A为例说明B的程度很极端时。",
             "en": "「AからしてB」 is used, as in 「女優は歩き方からして美しい」 (the actress is beautiful, starting with the way she walks), when you want to say “taking A (the way she walks) as one example, everything is B (beautiful).” For A you mention the first thing you notice, or a part that is not the most important. It is also used when you want to show, with A as an example, that the degree of B is extreme."
           },
           "forms": [

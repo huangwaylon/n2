@@ -18,7 +18,7 @@
   N2.registerCompare = (groups) => (N2.compare = groups);
   N2.registerFront = (sections) => (N2.front = sections);
   // book meta (data/<book>/book.js). bookLang: language of the translations the book prints — "en" (N2: `en` on usage,
-  // notes, can-do is the book's) or "zh" (N1, Chinese edition: the book's text is in `zh`, every `en` is ours)
+  // notes, can-do is the book's) or "ja" (N1: the Chinese edition; its Chinese is not reproduced and every `en` is ours)
   N2.book = { id: "n2", level: "N2", bookLang: "en", chapters: 14, points: 139 };
   N2.registerBook = (b) => (N2.book = Object.assign({}, N2.book, b));
   const BOOK = () => N2.book;
@@ -33,7 +33,7 @@
   // settings.vertical: "auto" | "v" | "h" — 縦書き for sample.vertical texts; auto = 縦 at ≥901 px, 横 below
   // settings are shared by both books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1";
   // loaded at DOMContentLoaded, after data/<book>/book.js has registered the book)
-  const settings = Object.assign({ furigana: true, english: false, chinese: false, rate: 0.9, vertical: "auto" }, LS.get("settings", {}));
+  const settings = Object.assign({ furigana: true, english: false, rate: 0.9, vertical: "auto" }, LS.get("settings", {}));
   const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
   let progress = { studied: {}, scores: {} };
   const loadProgress = () => (progress = Object.assign({ studied: {}, scores: {} }, LS.get(progressKey(), {})));
@@ -127,20 +127,18 @@
       .join("");
   }
   const en = (s, tag = "div", cls = "") => (s ? `<${tag} class="en ${cls}">${fmt(s)}</${tag}>` : "");
-  // the book's Chinese translation (N1): small grey text, shown with the 中文 switch
-  const zh = (s, tag = "div") => (s ? `<${tag} class="zh" lang="zh-Hans">${fmt(s)}</${tag}>` : "");
   // opts.book → the English is the book's own (only in books whose printed translations are English)
   const enBook = (book) => (book && BOOK().bookLang === "en" ? "en--book" : "");
   const enToggle = () => `<button class="en-btn" data-act="en" title="Show / hide English">EN</button>`;
-  // bilingual line. o: string (Japanese only) or {ja, en, zh}. opts.book: in a book whose printed translations are English
-  // (N2) the English is the book's (.en--book, grey Gothic) rather than ours; o.zh is the book's Chinese (N1).
+  // bilingual line. o: string (Japanese only) or {ja, en}. opts.book: in a book whose printed translations are English
+  // (N2) the English is the book's (.en--book, grey Gothic) rather than ours.
   // opts.vertical is passed to fmt() for the Japanese.
   const bi = (o, tag = "p", cls = "", opts = {}) => {
     if (!o) return "";
     if (typeof o === "string") return `<${tag} class="${cls}">${fmt(o, opts)}</${tag}>`;
-    // a block the book prints only in Chinese (N1 front matter) has no ja: the Chinese then shows without the 中文 switch
-    const ja = o.ja ? `<${tag} class="ja">${fmt(o.ja, opts)}</${tag}>` : "";
-    return `<div class="bi ${cls}${o.ja ? "" : " bi--zh-only"}">${o.en ? enToggle() : ""}${ja}${zh(o.zh)}${en(o.en, "div", enBook(opts.book))}</div>`;
+    // a block with no Japanese (N1 front matter the book prints only in Chinese) shows its English without the EN switch
+    if (!o.ja) return `<div class="bi bi--en-only ${cls}">${en(o.en)}</div>`;
+    return `<div class="bi ${cls}">${o.en ? enToggle() : ""}<${tag} class="ja">${fmt(o.ja, opts)}</${tag}>${en(o.en, "div", enBook(opts.book))}</div>`;
   };
   // one EN button for a whole container: put data-en-scope on the container, this button in its header row
   const enScopeBtn = () => `<button class="en-btn en-btn--scope" data-act="en-scope" title="Show / hide English">EN</button>`;
@@ -330,7 +328,7 @@
       const o = typeof n === "string" ? { ja: n } : n;
       const m = String(o.ja).match(/^＊(\d*)/);
       const mark = m ? "＊" + m[1] : "＊", text = m ? o.ja.slice(m[0].length) : o.ja;
-      return `<p class="fnote bi">${o.en ? enToggle() : ""}<span class="fnote__m">${mark}</span><span class="ja">${fmt(text)}</span>${zh(o.zh, "span")}${o.en ? `<span class="en ${enBook(true)}">${fmt(o.en)}</span>` : ""}</p>`;
+      return `<p class="fnote bi">${o.en ? enToggle() : ""}<span class="fnote__m">${mark}</span><span class="ja">${fmt(text)}</span>${o.en ? `<span class="en ${enBook(true)}">${fmt(o.en)}</span>` : ""}</p>`;
     }).join("");
   }
   function kvTableHtml(forms, notes) {
@@ -372,7 +370,7 @@
     return (notes || [])
       .map((n, k) => `<aside class="clip" data-en-scope>${CLIP_SVG}<div class="clip__body">
         <div class="clip__tools">${n.stars ? stars(n.stars) : ""}${enScopeBtn()}</div>
-        ${bi({ ja: n.ja, en: n.en, zh: n.zh }, "p", "clip__text", { book: true })}
+        ${bi({ ja: n.ja, en: n.en }, "p", "clip__text", { book: true })}
         ${examplesHtml(n.examples)}
         ${(n.practice || []).map((ex, j) => renderExercise(ex, `${base}-n${k}-p${j}`, "やってみよう！")).join("")}
       </div></aside>${n.xref ? xrefHtml(n.xref) : ""}`)
@@ -573,7 +571,7 @@
   }
   const canDoHtml = (list) => `<section class="cando" data-en-scope>
     <h2 class="cando__label">${pill("できること")}<span class="cando__tools">${enScopeBtn()}</span></h2>
-    <ul class="cando__list">${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${zh(c.zh, "span")}${c.en ? `<span class="en ${enBook(true)}">${fmt(c.en)}</span>` : ""}</li>`).join("")}</ul>
+    <ul class="cando__list">${list.map((c) => `<li class="bi">${c.en ? enToggle() : ""}<span class="ja">${fmt(c.ja)}</span>${c.en ? `<span class="en ${enBook(true)}">${fmt(c.en)}</span>` : ""}</li>`).join("")}</ul>
   </section>`;
 
   // ===== end [B] chapter content =====
@@ -1031,8 +1029,8 @@
       <section class="hero">
         <h1>JLPT ${esc(BOOK().level)} 文法 <span class="hero-sub">Interactive Grammar Textbook</span></h1>
         <p class="lead">An interactive edition of <em>${esc(BOOK().bookTitle || "TRY! 日本語能力試験 " + BOOK().level)}</em>${BOOK().credit ? ` (${esc(BOOK().credit)})` : ""}: all ${N2.chapters.length || BOOK().chapters} chapters and ${total || BOOK().points} grammar points with the book’s sample texts, explanations, examples, practice and review questions, plus listening via text-to-speech.</p>
-        ${BOOK().bookLang === "zh" ? `<div class="bi hero-bi" data-en-scope>${enToggle()}<p class="ja">${fmt("この本の{翻訳|ほんやく}は{中国語|ちゅうごくご}です。本に{印刷|いんさつ}されている中国語訳は「中文」スイッチで表示できます。英語はすべてこのサイトの{補足|ほそく}です。")}</p>
-        <div class="en">This is the Chinese edition of the book: the translations printed in it are in Chinese. Turn on <b>中文</b> in the top bar to see them. All English on this site is our own supplementary translation.</div></div>` : ""}
+        ${BOOK().bookLang === "ja" ? `<div class="bi hero-bi" data-en-scope>${enToggle()}<p class="ja">${fmt("この本は{中国語版|ちゅうごくごばん}をもとにしています。英語の訳と説明はすべてこのサイトの{補足|ほそく}です。")}</p>
+        <div class="en">This edition is based on the Chinese edition of the book; its Chinese translations are not reproduced. All English on this site (translations and explanations) is our own supplement, written for learners of Japanese.</div></div>` : ""}
         <div class="bi hero-bi" data-en-scope>${enToggle()}${enScopeBtn()}<p class="ja">日本語で読むことに慣れるため、説明は日本語が中心です。英語の説明・訳は最初は隠れています。右上の「EN」で表示できます。</p>
         <div class="en">To get you used to reading Japanese, explanations are primarily in Japanese. English translations and detailed English explanations are hidden by default — use the <b>EN</b> switch at the top (or the small EN button next to any line) to reveal them.</div></div>
         <div class="stats"><div><b>${done}</b> / ${total} studied</div><div class="bar big"><span style="width:${total ? (100 * done) / total : 0}%"></span></div></div>
@@ -1279,10 +1277,8 @@
   function applySettings() {
     document.body.classList.toggle("no-furi", !settings.furigana);
     document.body.classList.toggle("show-en", settings.english);
-    document.body.classList.toggle("show-zh", settings.chinese);
     $("#tg-furi").checked = settings.furigana;
     $("#tg-en").checked = settings.english;
-    ["#tg-zh", "#set-zh"].forEach((q) => { if ($(q)) $(q).checked = settings.chinese; });
     $("#rate").value = settings.rate;
     $("#rate-v").textContent = settings.rate.toFixed(1) + "×";
     $("#vmode-set").value = settings.vertical;
@@ -1309,7 +1305,6 @@
       updateSidebarProgress();
     } else if (t.id === "tg-furi") { settings.furigana = t.checked; saveSettings(); applySettings(); }
     else if (t.id === "tg-en") { settings.english = t.checked; saveSettings(); applySettings(); }
-    else if (t.id === "tg-zh" || t.id === "set-zh") { settings.chinese = t.checked; saveSettings(); applySettings(); }
     else if (t.id === "vmode-set") { setVertical(t.value); rerender(); }
     else if (t.id === "reset-progress") {}
   });
@@ -1342,7 +1337,7 @@
   window.addEventListener("hashchange", () => { if (!sameChapterJump()) route(); else setDrawer(false, false); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   matchMedia("(max-width: 900px)").addEventListener("change", (m) => { if (!m.matches) setDrawer(false, false); });
-  // book-specific parts of the static shell: brand, book switcher, 中文 switch (books with Chinese translations), footer
+  // book-specific parts of the static shell: brand, book switcher, footer
   function bookShell() {
     const b = BOOK();
     document.body.dataset.book = b.id;
@@ -1351,13 +1346,6 @@
     if (b.books && brand && !$(".book-switch")) {
       brand.insertAdjacentHTML("afterend", `<nav class="book-switch" aria-label="本 Book">${b.books.map((o) =>
         `<a href="${esc(o.href)}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.title || "")}">${esc(o.label)}</a>`).join("")}</nav>`);
-    }
-    const tg = $(".toggles");
-    if (b.bookLang === "zh" && tg && !$("#tg-zh")) {
-      tg.insertAdjacentHTML("afterbegin", `<label class="switch switch--zh" title="本の中国語訳 The book's Chinese translations"><input type="checkbox" id="tg-zh"><span class="sw" aria-hidden="true"></span><span class="sw-l">中文</span></label>`);
-      // phones hide the top-bar switch (no room); the same setting sits in the ⚙ popover
-      const pop = $(".settings-pop");
-      if (pop) pop.insertAdjacentHTML("afterbegin", `<label class="set-row set-row--zh"><span>本の中国語訳 <span class="en-inline">Book's Chinese</span></span><input type="checkbox" id="set-zh"></label>`);
     }
     const foot = $(".site-foot p"); if (foot && b.footer) foot.innerHTML = b.footer;
   }

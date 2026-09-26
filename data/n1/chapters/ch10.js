@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "{古風|こふう}な表現を使った{論説文|ろんせつぶん}を読んで、その表現に込められた筆者の主張が理解できる。",
-      "zh": "阅读一篇使用古典表达方式的议论文，理解字里行间作者的主张。",
       "en": "Read an editorial written with old-fashioned expressions and understand the writer's argument conveyed through those expressions."
     }
   ],
@@ -115,7 +114,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜べからず」は「〜してはいけない」と強く禁止することを表す。看板や{掲示|けいじ}によく使われる。",
-            "zh": "表示强烈禁止“不能做……”。常常出现在招牌或公告栏上。",
             "en": "“〜べからず” expresses a strong prohibition: “you must not do 〜.” It is often used on signs and notices."
           },
           "forms": [
@@ -173,7 +171,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「（ただ）〜のみ」は「本当に〜だけだ」と強く言いたいときに使われる。",
-            "zh": "用于想强调“真的只是……”时。",
             "en": "“（ただ）〜のみ” is used when you want to say emphatically “really only 〜.”"
           },
           "forms": [
@@ -265,7 +262,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜がゆえ」は「〜ため／〜から」と同じように原因や理由を表す。",
-            "zh": "表示原因或理由。",
             "en": "“〜がゆえ” expresses a cause or reason, in the same way as “〜ため／〜から.”"
           },
           "forms": [
@@ -332,7 +328,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜と／が{相|あい}まって」は「このスープは{酸味|さんみ}と{辛|から}みが{相|あい}まって、{絶妙|ぜつみょう}な味わいだ」のように「複数の{要素|ようそ}が一緒になって、程度が高くなる」と言いたいときに使う。",
-            "zh": "用于想说“多种元素汇集在一起，程度提高了”时，如“这汤，酸味和辣味相互交融，味道太棒了”。",
             "en": "Use “〜と／が相まって” when you want to say that “several elements come together and the degree increases,” as in “In this soup the sourness and spiciness combine to give an exquisite flavor.”"
           },
           "forms": [
@@ -377,7 +372,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にかたくない」は「すぐに〜できる／十分〜できる」という意味を表す。",
-            "zh": "表示“马上就能……/足够……”的意思。",
             "en": "“〜にかたくない” means “one can readily 〜 / one can fully 〜.”"
           },
           "forms": [
@@ -433,7 +427,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜として／にあるまじき」は「{賄賂|わいろ}は政治家にあるまじき{行為|こうい}だ」のように「〜という立場（政治家）では、絶対に許されない」という強い気持ちを表す。",
-            "zh": "表示“在……的立场上说绝对不能允许”的强硬态度，如“贿赂是政治家不应有的行为”。",
             "en": "“〜として／にあるまじき” expresses a strong feeling that something is “absolutely unacceptable for someone in the position of 〜 (a politician),” as in “Bribery is conduct unworthy of a politician.”"
           },
           "forms": [
@@ -488,7 +481,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ずにはすまない」は「現状や常識から考えて、〜という望ましくない{事態|じたい}になる」という予想や、「〜しなければならない{事態|じたい}だ」ということを表す。",
-            "zh": "表示预测“从现状或尝试来考虑，局面会变成不希望出现的事态”或“这局面不得不……”。",
             "en": "“〜ずにはすまない” expresses the prediction that “judging from the current situation or common sense, an undesirable situation, 〜, will come about,” or that “the situation is one in which 〜 must be done.”"
           },
           "forms": [
@@ -546,7 +538,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜でなくてなんだろう」は「本当に〜である」と強く言いたい気持ちを表す。",
-            "zh": "表示强调“真的是……”。",
             "en": "“〜でなくてなんだろう” expresses a strong wish to say “this really is 〜.”"
           },
           "forms": [
@@ -598,7 +589,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜{極|きわ}まりない」は「危険{極|きわ}まりない」「残念{極|きわ}まりない」のように「非常に〜だ」と言いたいときに使われる。「〜{極|きわ}まる」も同じように使う。",
-            "zh": "用于想说“非常……”时，如“极其危险”、“极其遗憾”。",
             "en": "“〜極まりない” is used when you want to say “extremely 〜,” as in “危険極まりない (extremely dangerous)” or “残念極まりない (extremely regrettable).” “〜極まる” is used in the same way."
           },
           "forms": [
@@ -630,7 +620,6 @@ N2.register({
               "marks": [],
               "usage": {
                 "ja": "「〜の{極|きわ}み」は「非常に／最高に〜」という意味を表す。",
-                "zh": "表示“非常/最……”的意思。",
                 "en": "“〜の極み” means “extremely / supremely 〜.”"
               },
               "forms": [
@@ -720,7 +709,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜を禁じえない」は「自分の感情（〜）を{抑|おさ}えられないくらいに強く感じる」ことを表す。",
-            "zh": "表示“强烈感觉到无法抑制自己的感情”。",
             "en": "“〜を禁じえない” expresses “feeling (an emotion, 〜) so strongly that one cannot hold it back.”"
           },
           "forms": [
@@ -771,7 +759,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にたる」は「〜する条件や価値を十分{満|み}たしている」と言いたいときに使われる。",
-            "zh": "用于想说“有……充足的条件或价值……”时。",
             "en": "“〜にたる” is used when you want to say that something “fully meets the conditions for, or has the value to deserve, 〜.”"
           },
           "forms": [
@@ -860,7 +847,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜べくもない」は「状況から考えて〜できない／〜はずがない」という気持ちを表す。",
-            "zh": "表示“从目前情况来考虑不能/不应该……”的心情。",
             "en": "“〜べくもない” expresses the feeling that “judging from the situation, 〜 is impossible / 〜 cannot be.”"
           },
           "forms": [
@@ -910,7 +896,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜なくして（は）…ない」は「何かをするなら、〜が絶対に必要だ」と言いたいときに使われる。",
-            "zh": "用于想说“要想做某事，就必须……”时。",
             "en": "“〜なくして（は）…ない” is used when you want to say “if you are going to do something, 〜 is absolutely necessary.”"
           },
           "forms": [

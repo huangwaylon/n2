@@ -3,7 +3,7 @@ N2F({
   part: 2,
   label: "(3)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", zh: "阅读电视剧的剧本，理解当时的情况以及出场人物的心情。", en: "Read a TV drama script and understand the situation and the characters' feelings." },
+    { ja: "ドラマのシナリオを読んで、状況や登場人物の{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand the situation and the characters' feelings." },
   ],
   sample: {
     kind: "dialogue",
@@ -41,7 +41,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AとはいえB」は「春とはいえ、今日はまだ寒い」のように「確かにA（今は春）だが、それから予想や期待されること（暖かい）とは違うBだ（まだ寒い）」と言いたいときに使われる。",
-        zh: "用于想说“确实是A，但B与从A预想或期待的情况不一样”时，如“虽然是春天，今天还是非常寒冷”。",
         en: "\"AとはいえB\" is used when you want to say \"it's certainly A (it is spring now), but B differs from what you would predict or expect from that (warmth) (it's still cold)\", as in \"春とはいえ、今日はまだ寒い\" (It may be spring, but it's still cold today).",
       },
       forms: ["[Pl] + とはいえ\n［[なA]（だ）　[N]（だ）］"],
@@ -90,7 +89,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜といったところだ」は「程度や{数量|すうりょう}がだいたいそのくらいだ」と言いたいときに使われる。十分ではないという気持ちを表すことが多い。「せいぜい・やっと・なんとか」などの言葉と一緒に使われることが多い。",
-        zh: "用于想说“程度或数量大概是那样”时。多用来表达不够的心情。常常和“顶多、总算、好歹”等词一起使用。",
         en: "\"〜といったところだ\" is used when you want to say \"the degree or amount is roughly about that much\". It often expresses the feeling that this is not enough. It is often used together with words such as せいぜい (at most), やっと (barely) and なんとか (somehow).",
       },
       forms: ["［[V-る]　[N]］ + といったところだ"],
@@ -132,7 +130,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AにAない」は「理由や事情があって、AしたくてもAできない」という強い気持ちを表す。",
-        zh: "表示“出于某种理由或情况，就算想做A也做不了”的强烈情绪。",
         en: "\"AにAない\" expresses the strong feeling that \"for some reason or circumstance, even though I want to do A, I can't do A\".",
       },
       forms: ["[V-る] + に + [V-できない]"],
@@ -172,7 +169,6 @@ N2F({
       marks: ["regret"],
       usage: {
         ja: "「AにかこつけてB」は「AをBするための{口実|こうじつ}にする」と言いたいときに使われる。他の人を批判するときに使われることが多い。",
-        zh: "用于想说“把A作为B的借口”时。多用于批评别人时。",
         en: "\"AにかこつけてB\" is used when you want to say \"use A as a pretext for doing B\". It is often used when criticizing other people.",
       },
       forms: ["[N] + にかこつけて"],

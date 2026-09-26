@@ -3,7 +3,7 @@ N2F({
   part: 1,
   label: "(2)",
   canDo: [
-    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", zh: "阅读电视剧的剧本，理解出场人物的复杂心情。", en: "Read a TV drama script and understand a character's complex feelings." },
+    { ja: "ドラマのシナリオを読んで、登場人物の複雑な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand a character's complex feelings." },
   ],
   sample: {
     kind: "dialogue",
@@ -34,7 +34,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AといわずBといわず」は「AでもBでも何でもすべて」という意味を表す。",
-        zh: "表示“A也是，B也是，什么都……”的意思。",
         en: "\"AといわずBといわず\" means \"A, B, anything — all of it\".",
       },
       forms: ["[N₁] + といわず + [N₂] + といわず"],
@@ -68,7 +67,6 @@ N2F({
       marks: ["casual"],
       usage: {
         ja: "「AたらAたで」は「車はないと不便だが、あったらあったで{維持費|いじひ}がかかるから困ったものだ」のように「AでもAでなくても（車があってもなくても）どちらもよくない」と言いたいときや、「失敗したら失敗したでまたやればいい」のように「{大|たい}したことではない」と言いたいときに使われる。",
-        zh: "用于想说“不管是不是A都不行”时，如“虽然没有车很不方便，但有了车就要花钱养车，也很让人头疼”。或者用于想说“没什么大不了的”，如“失败就失败了呗，东山再起就行了”。",
         en: "\"AたらAたで\" is used when you want to say \"whether it's A or not A (whether you have a car or not), neither is good\", as in \"車はないと不便だが、あったらあったで{維持費|いじひ}がかかるから困ったものだ\" (Not having a car is inconvenient, but if you do have one, it costs money to keep, which is a nuisance), or when you want to say \"it's no big deal\", as in \"失敗したら失敗したでまたやればいい\" (If you fail, you fail — you can just try again).",
       },
       forms: ["[Pl₁] + ら + [Pl₂] + で\n［過去形のみ］［過去形のみ］"],
@@ -144,7 +142,6 @@ N2F({
       marks: ["regret"],
       usage: {
         ja: "「〜にたえない」は「状況がひどすぎて、見たり聞いたりするのがつらい／{我慢|がまん}できない」という意味を表す。",
-        zh: "表示“情况太糟糕了，听一听、看一看都让人揪心／受不了”的意思。",
         en: "\"〜にたえない\" means \"the situation is so terrible that it is painful / unbearable to look at or listen to\".",
       },
       forms: ["［[V-る]　[N]］ + にたえない"],
@@ -177,7 +174,6 @@ N2F({
       marks: ["regret"],
       usage: {
         ja: "「〜（よ）うものなら」は「もし〜したらよくない結果になる」と言いたいときに使われる。「大変なことになる／大きな{影響|えいきょう}がある」と言うときに使われることが多い。",
-        zh: "用于想说“如果……的话会导致不好的结果”时。多用于表示“事情会变糟糕／影响巨大”。",
         en: "\"〜（よ）うものなら\" is used when you want to say \"if 〜 happens, it will lead to a bad result\". It is often used to say that \"something terrible will happen / there will be a big effect\".",
       },
       forms: ["[V-よう] + ものなら"],
@@ -236,7 +232,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜ならいざしらず」は「〜ならそうかもしれないが、〜ではないので」という気持ちを表す。",
-        zh: "表示“如果是……也许会那样，但不是，所以……”的心情。",
         en: "\"〜ならいざしらず\" expresses the feeling \"if it were 〜, that might be so, but since it isn't 〜…\".",
       },
       forms: ["[Pl] + ならいざしらず\n［[なA~~だ~~]　[N~~だ~~]］"],
@@ -267,7 +262,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ないものか」は「何とか〜したい／〜をしてほしい」という気持ちや、「難しいとわかっていることだが、それでも実現させたい／実現してほしい」と願う気持ちを表す。",
-        zh: "表示“想尽力……／希望对方做……”或者“明白很难，但还是想实现它／希望对方实现它”的心情。",
         en: "\"〜ないものか\" expresses the feeling \"I want to 〜 somehow / I want someone to do 〜\", or the wish \"I know it is difficult, but even so I want to make it happen / want it to happen\".",
       },
       forms: ["[V-~~ない~~] + ないものか"],
@@ -301,7 +295,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜に{越|こ}したことはない」は「できれば〜のほうがいい」と、一般的にいいと思われることを言うときに使う。",
-        zh: "用于想说“可能的话，最好是……”时，表示普遍认为是好的事情。",
         en: "Use \"〜に{越|こ}したことはない\" when you say something that is generally thought to be good: \"if possible, 〜 is better\".",
       },
       forms: ["［[V-る]／[V-ない]　[いA]　[なA~~だ~~]　[N~~だ~~]］ + に{越|こ}したことはない"],

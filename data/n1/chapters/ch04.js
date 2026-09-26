@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。",
-      "zh": "阅读实用类图书，理解作者的想法。",
       "en": "Read practical guides and the like, and understand the author's observations."
     }
   ],
@@ -75,7 +74,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ともなると…」は「〜の条件や立場ならば当然…になる」と言いたいときに使われる。",
-            "zh": "用于想说“如果是……的条件或立场，当然就会……”时。",
             "en": "“〜ともなると…” is used when you want to say “given the condition or position of 〜, naturally … follows.”"
           },
           "forms": [
@@ -180,7 +178,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜にひきかえ…」は「一方は〜のに、{他方|たほう}は…だ」と2つの{事柄|ことがら}を比べて、対照的だという意味を表す。",
-            "zh": "对比两件事情，“一边……，另一边却……”，表示对比的意思。",
             "en": "“〜にひきかえ…” compares two things — “one is 〜, whereas the other is …” — and expresses that they are in sharp contrast."
           },
           "forms": [
@@ -231,7 +228,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜もさることながら…」は「この車はデザインもさることながら、性能もいい」のように「〜だけでなく…も」と言いたいときに使われる。「車選びはデザインもさることながら、安全性を{重視|じゅうし}すべきだ」のように「〜も大切だが…はもっと重要だ」と言いたいときにも使う。",
-            "zh": "用于想说“不仅……，……也”时，如“这款车设计就不用说了，性能也非常好”。也用于想说“……很重要，但……更重要”时，如“选车时，设计当然很重要，但更要注重安全性”。",
             "en": "“〜もさることながら…” is used when you want to say “not only 〜 but also …”, as in “この車はデザインもさることながら、性能もいい” (This car's design is good, of course, but its performance is good too). It is also used when you want to say “〜 is important, but … is even more important”, as in “車選びはデザインもさることながら、安全性を重視すべきだ” (In choosing a car, design matters, but you should put more weight on safety)."
           },
           "forms": [
@@ -302,7 +298,6 @@ N2.register({
           "notesFirst": false,
           "usage": {
             "ja": "「AであれBであれ…」は「AでもBでも」と例をあげて、「どんなものでも同じように…だ」と言いたいときに使われる。",
-            "zh": "用于列举了“A也是，B也是”之后，想说“无论什么都一样……”时。",
             "en": "“AであれBであれ…” is used when you give examples — “whether A or B” — and want to say “whatever it is, … all the same.”"
           },
           "forms": [
@@ -335,7 +330,6 @@ N2.register({
           "notes": [
             {
               "ja": "「{疑問詞|ぎもんし}（＋[N]）＋であれ」は「〜であっても」という意味で使われる。",
-              "zh": "意思是“不管……”。",
               "en": "“Question word (+ N) + であれ” is used with the meaning “even if it is 〜 / no matter what 〜.”",
               "stars": 2,
               "examples": [
@@ -471,7 +465,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜に{即|そく}して」は「ある状況や経験、規則に合わせて、何かの行動をする」と言いたいときに使われる。法律や規則の場合、漢字は「{則|そく}して」を使う。",
-            "zh": "用于想说“根据某种状态、经验、规定，采取某种行动”时。用于法律、规定时，要使用汉字“則して”。",
             "en": "“〜に即して” is used when you want to say “to take some action in line with a certain situation, experience or rule.” For laws and rules, the kanji 「則して」 is used."
           },
           "forms": [
@@ -559,7 +552,6 @@ N2.register({
           "notesFirst": false,
           "usage": {
             "ja": "「〜をおいて他にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
-            "zh": "用于想说“只有……”、“除……外没有”时。多用于高度评价时，“相比来看，……最棒”。",
             "en": "“〜をおいて他にない” is used when you want to say “it is only 〜 / there is nothing but 〜.” It is often used when giving high praise: “compared with the others, 〜 is the best.”"
           },
           "forms": [
@@ -592,7 +584,6 @@ N2.register({
           "notes": [
             {
               "ja": "「何をおいても」は「どんな状況でも、まず第一に」という意味で使われる。",
-              "zh": "用来表示“不管在任何情况下，首先……”的意思。",
               "en": "“何をおいても” is used with the meaning “in any situation, first and foremost.”",
               "stars": 2,
               "examples": [
@@ -726,7 +717,6 @@ N2.register({
       "canDo": [
         {
           "ja": "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。",
-          "zh": "阅读实用类图书，理解作者的想法。",
           "en": "Read practical guides and the like, and understand the author's observations."
         }
       ],
@@ -820,7 +810,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜までもなく」は「すでにわかっていることや当然のことなので、〜する必要がない」と言いたいときに使う。",
-            "zh": "用于想说“因为是已经知道了的或理所当然的事情，所以没必要……”时。",
             "en": "Use “〜までもなく” when you want to say “it is already known or obvious, so there is no need to 〜.”"
           },
           "forms": [
@@ -898,7 +887,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜いかん」は「{検査|けんさ}の結果いかんで、手術することになるかもしれない」のように「〜（{検査|けんさ}の結果）がどのような内容・{状態|じょうたい}かによって、どうなるかが決まる」と言いたいときに使われる。",
-            "zh": "用于想说“看……是什么样的内容、情况，决定怎么做”时，如“看检查结果，有可能要动手术”。",
             "en": "“〜いかん” is used when you want to say “what happens is decided by what the content or state of 〜 (the test results) is”, as in “検査の結果いかんで、手術することになるかもしれない” (Depending on the test results, you may end up having surgery)."
           },
           "forms": [
@@ -925,7 +913,6 @@ N2.register({
           "notes": [
             {
               "ja": "「〜いかん」は「[N] + の + いかん にかかわらず／によらず／を問わず」などの形で、「〜がどのような内容・{状態|じょうたい}であっても、関係なく」という意味で使う。",
-              "zh": "用来表示“不管……是什么样的内容、情况都没有关系”的意思。",
               "en": "“〜いかん” is used in forms like “N + の + いかん にかかわらず／によらず／を問わず” to mean “regardless of what the content or state of 〜 is.”",
               "stars": 2,
               "examples": [
@@ -951,7 +938,6 @@ N2.register({
               "marks": [],
               "usage": {
                 "ja": "「いかんせん〜／いかんともしがたい」は「{残念|ざんねん}だが、どうにもならない／どうすることもできない」という意味で使われる。",
-                "zh": "用来表示“虽然很遗憾，但束手无策”的意思。",
                 "en": "“いかんせん〜／いかんともしがたい” is used to mean “unfortunately, it can't be helped / nothing can be done about it.”"
               },
               "examples": [
@@ -1023,7 +1009,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AないまでもB」は「Aほど高いレベルではなくてもB程度は」と言いたいときに使う。",
-            "zh": "用于想说“虽然没有A那么高水平，但B的程度……”时。",
             "en": "Use “AないまでもB” when you want to say “even if not at a level as high as A, at least to the extent of B.”"
           },
           "forms": [
@@ -1106,7 +1091,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AといいBといい…」は、A・B2つの例をあげて「全体的に…だ」と言いたいときに使う。すばらしいと思ったり、ひどいと思ったりした自分の気持ちを言うときに使う。",
-            "zh": "用于列举A、B两个例子之后，想说“整体来看……”时。用于表达自己认为很精彩或很糟糕的心情。",
             "en": "Use “AといいBといい…” when you give two examples, A and B, and want to say “on the whole, it is ….” It is used to express your own feeling that something is wonderful or terrible."
           },
           "forms": [
@@ -1223,7 +1207,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜といったところだ」は、相手がわかりやすいように、違う言葉に言い{換|か}えたり、例を{挙|あ}げたりするときに使う。",
-            "zh": "用于为了让对方更容易明白而换用不同的词语来描述或举例说明等时候。",
             "en": "Use “〜といったところだ” when you rephrase something in different words or give an example so that the other person can understand it more easily."
           },
           "forms": [

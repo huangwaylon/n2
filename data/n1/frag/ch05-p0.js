@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "ドラマのシナリオを読む", en: "Reading a TV Drama Script" },
     title: { ja: "{転職|てんしょく}", en: "Changing Jobs" },
     canDo: [
-      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", zh: "阅读电视剧的剧本，理解出场人物的批判性情绪。", en: "Read a TV drama script and understand a character's critical feelings." },
+      { ja: "ドラマのシナリオを読んで、登場人物の批判的な{心情|しんじょう}が理解できる。", en: "Read a TV drama script and understand a character's critical feelings." },
     ],
   },
   label: "(1)",
@@ -38,7 +38,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AといおうかBといおうか」は、説明したり例えたりするとき、ぴったり合う表現を考えながら言うときに使われる。「（変な絵だと思いながら）個性的といおうか、とても{真似|まね}できないといおうか、ユニークな絵だね」のように、直接的に言うのを{避|さ}けたいときに使われることもある。",
-        zh: "在解释或举例的时候，边思考边说出最合适的那个。也可以用于回避直截了当地表达意见时，如“（心里觉得这幅画很奇怪）可以说是很有个性，或者说是很难被人模仿，总之这幅画真的很独特”。",
         en: "\"AといおうかBといおうか\" is used when explaining something or making a comparison while searching for the expression that fits exactly. It is also used when you want to avoid saying something directly, as in \"（変な絵だと思いながら）個性的といおうか、とても{真似|まね}できないといおうか、ユニークな絵だね\" ((thinking it's a strange picture) \"It's — how shall I put it — individual, or impossible to imitate… a unique picture, isn't it\").",
       },
       forms: ["[Pl₁] + といおうか + [Pl₂] + といおうか\n［[なA~~だ~~]　[N~~だ~~]］　　［[なA~~だ~~]　[N~~だ~~]］"],
@@ -93,7 +92,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜のをいいことに」は「〜の状況を都合よく利用して、良くないことをする」と批判的な気持ちで言いたいときに使われる。",
-        zh: "用于想批评地说“利用……的情况为己所用，做不好的事情”。",
         en: "\"〜のをいいことに\" is used when you want to say critically that someone \"conveniently takes advantage of the situation 〜 to do something bad\".",
       },
       forms: ["[Pl] + の + をいいことに\n［[なA~~だ~~]な　[N~~だ~~]な］"],
@@ -156,7 +154,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜か」は「こんな少しで足りるか！　もっとくれ」のように、質問の形だが、「違う！　絶対に〜ない（足りない）」と強く否定する気持ちを表す。",
-        zh: "虽然是疑问句的形式，却表示强烈的否定情绪“不对！绝对不……”，如“就这么点儿怎么够！再给我一点”。",
         en: "As in \"こんな少しで足りるか！　もっとくれ\" (How is this little bit going to be enough? Give me more!), \"〜か\" has the form of a question, but expresses a strong denial: \"No! It's absolutely not 〜 (enough).\"",
       },
       forms: ["[文] + か"],
@@ -192,7 +189,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜にもほどがある」は「あまりにも〜すぎる」と、良くない状況を強調して言いたいときに使う。",
-        zh: "用于想强调情况不太好时，“太过于……”。",
         en: "Use \"〜にもほどがある\" when you want to emphasize a bad situation, saying it is \"far too 〜\".",
       },
       forms: ["[Pl] + にもほどがある\n［現在形のみ］［[なA~~だ~~]　[N~~だ~~]］"],
@@ -253,7 +249,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AならまだしもB」は「Aなら何とか受け入れてもいいと思うが、Bは受け入れられない／変だ」と言いたいときに使われる。",
-        zh: "用于想说“A的话倒还能勉强接受，B接受不了／太不正常了”时。",
         en: "\"AならまだしもB\" is used when you want to say \"A could somehow be accepted, but B cannot be accepted / is strange\".",
       },
       forms: ["[Pl] + ならまだしも\n［[なA~~だ~~]　[N~~だ~~]］"],
@@ -302,7 +297,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜以前」は「〜よりもっと前の基本的な段階だ」と言って、状況を批判するときに使われる。",
-        zh: "“这是要比……早很久的基础阶段”，用于评价某种情况时。",
         en: "\"〜以前\" is used to criticize a situation by saying \"this is a basic stage that comes well before 〜\".",
       },
       forms: ["[N] + 以前"],
@@ -351,7 +345,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜べくして」は「状況からわかるように、当然の結果として〜になった」と言いたいときに使う。",
-        zh: "用于想说“从目前情况来看，可以知道结果当然是……”时。",
         en: "Use \"〜べくして\" when you want to say \"as the situation shows, 〜 happened as a natural result\".",
       },
       forms: ["[V₁-る] + べくして + [V₂-た]"],
@@ -402,7 +395,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AがAだけに」は「他の場合と違って、特別なAだから」と言いたいときに使う。",
-        zh: "用于想说“A和其他情况都不一样，很特殊，所以……”时。",
         en: "Use \"AがAだけに\" when you want to say \"because it is a special A, unlike other cases\".",
       },
       forms: ["[N₁] + が + [N₂]（な） + だけに"],

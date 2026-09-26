@@ -7,7 +7,6 @@ N2F({
     canDo: [
       {
         ja: "仕事上の話題について、批判的な意見を{交|まじ}えて社内で話ができる。",
-        zh: "能够在公司里就工作上的某个话题发表一些批判性的意见。",
         en: "Talk about work matters at the office, mixing in critical opinions.",
       },
     ],
@@ -38,7 +37,6 @@ N2F({
       marks: ["casual"],
       usage: {
         ja: "「〜じゃあるまいし」は「〜なら仕方がないが、そうではないのだから」と、相手に対する批判や意見を言いたいときに使う。",
-        zh: "用于想说“如果是……那就没有办法了，但不是那样，所以……”，向对方提出批评或者表达意见。",
         en: "“〜じゃあるまいし” is used to criticize someone or give your opinion, in the sense of “if it were 〜 it couldn't be helped, but it isn't, so…”.",
       },
       forms: ["[N] + じゃあるまいし", "[N] + ではあるまいし"],
@@ -84,7 +82,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜んばかり」は「{壊|こわ}さんばかりにドアをたたく」のように「今にも〜しそうな様子だ」という意味で、程度が非常に高いと感じたときに使われる。",
-        zh: "表示“眼看就要……的样子”，用于感觉到程度非常高的时候，如“敲得就快把门敲坏了”。",
         en: "“〜んばかり” means “looking as if it is about to 〜 at any moment”, as in “{壊|こわ}さんばかりにドアをたたく”; it is used when you feel that the degree of something is extremely high.",
       },
       forms: ["[V-~~ない~~] + んばかり"],
@@ -99,7 +96,6 @@ N2F({
       notes: [
         {
           ja: "「〜と言わんばかりに」は「言わん」を省略して「〜とばかりに」の形で使われることもある。",
-          zh: "有时可以省略“言わん”，使用“～と言わんばかりに”的形式。",
           en: "“〜と言わんばかりに” is also used in the form “〜とばかりに”, dropping 言わん.",
           examples: [
             { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "When the coach called on Nakata at a key moment, he jumped up as if to say, “I've been waiting for this!”" },
@@ -140,7 +136,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜たら／ば　それまでだ」は「もし〜したら、今までの努力や苦労や費用が全て{無駄|むだ}になる」と言いたいときに使われる。",
-        zh: "用于想说“如果……的话，到现在为止的努力、辛苦、开销全都白费了”时。",
         en: "“〜たら／ば　それまでだ” is used when you want to say “if 〜 happens, all the effort, hardship and expense up to now will be wasted.”",
       },
       forms: ["[V-た]ら／[V-ば] + それまでだ"],
@@ -180,7 +175,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ものを」は「〜のに」と、相手を非難するときに使われる。「急げば間に合ったものを」のように「AばBものを」の形で「Aしなかったので（急がなかったので）、Bと反対の悪い結果になった（間に合わなかった）。なぜAしなかったのか」と言いたいときに使われることが多い。",
-        zh: "与“～のに”一样，用于指责对方时。“～ものを”常用于表示“就因为没做A，所以导致与B相反的坏结果。为什么当时不做A呢？”，如“要是抓紧一点，就赶上了……”。",
         en: "Like “〜のに”, “〜ものを” is used to reproach someone. It is often used in the form “AばBものを”, as in “急げば間に合ったものを”, to say “because you didn't do A (didn't hurry), the bad result opposite to B happened (you didn't make it). Why didn't you do A?”",
       },
       forms: ["[Pl] + ものを\n［[なA~~だ~~]な　[N~~だ~~]な］"],
@@ -220,7 +214,6 @@ N2F({
       marks: ["regret", "casual"],
       usage: {
         ja: "「〜ときたら」は「〜は本当に困る／ひどすぎる／だめだ」などの気持ちで相手や物を非難するときに使われる。",
-        zh: "用于以“……真的很让人头疼/太糟糕了/不行”等心情指责对方或某物。",
         en: "“〜ときたら” is used when criticizing a person or thing with feelings such as “〜 is really a pain / too awful / hopeless.”",
       },
       forms: ["[N] + ときたら"],
@@ -268,7 +261,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜たところで」は「たとえ〜ても」という意味で、「〜をしても{無駄|むだ}だ／期待通りの結果は得られない」と言いたいときに使う。",
-        zh: "表示“就算……也……”之意，用于想说“就算……也没用/也得不到预想的结果”时。",
         en: "“〜たところで” means “even if 〜”, and is used when you want to say “doing 〜 is pointless / you won't get the result you hope for.”",
       },
       forms: ["[V-た] + ところで"],
@@ -308,7 +300,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜（よ）うが」は「〜ても」と強く言いたいときに使う。「何年かかろうが、必ず{新薬|しんやく}を開発します」のように、{影響|えいきょう}を受けない強い気持ちや、「たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない」のように、変えられない事実があると言いたいときに使われる。{疑問詞|ぎもんし}と一緒に使われることが多い。",
-        zh: "用于强调“就算……”之意时。用于想表达不受影响的坚决态度时，如“不管花多少年，我一定要开发出新药来”，或者用于表示不可改变的事实，如“就算台风登陆，也不可能不工作”。多和疑问词一起使用。",
         en: "“〜（よ）うが” is used to say “even if 〜” emphatically. It expresses a strong feeling of not being influenced, as in “何年かかろうが、必ず{新薬|しんやく}を開発します”, or that there is a fact that cannot be changed, as in “たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない”. It is often used together with question words.",
       },
       forms: ["[V-よう] + が", "[V-よう] + と"],
@@ -350,7 +341,6 @@ N2F({
       notesFirst: false,
       usage: {
         ja: "「A（よ）うがAまいが」は「AてもAなくても」という意味で、「{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ」のように、{影響|えいきょう}を受けない強い気持ちや、「信じようが信じまいが、これは本当にあった話です」のように変えられない事実があると言いたいときに使われる。",
-        zh: "表示“是不是A都……”的意思，用于表达不受影响的坚决态度时，如“不管田中去不去，我都打算去”，或者用于表示不可改变的事实，如“不管你信不信，这都是真实发生过的事情”。",
         en: "“A（よ）うがAまいが” means “whether A or not A”. It is used to express a strong feeling of not being influenced, as in “{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ”, or that there is a fact that cannot be changed, as in “信じようが信じまいが、これは本当にあった話です”.",
       },
       forms: ["[V-よう] + ［が　と］ + [V-る] + ［まいが　まいと］"],
@@ -412,7 +402,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AならAで…」は「来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに」のように、他の人のAという状況に対する気持ち（…）を表す。アドバイスしたり不満を言ったりするときに使われることが多い。",
-        zh: "针对别人的A状况表达某种情绪，如“要来就事先联系一下嘛，至少可以把饭菜准备好”。常常用来提意见或抱怨时。",
         en: "“AならAで…” expresses one's feelings (…) about another person's situation A, as in “来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに”. It is often used when giving advice or complaining.",
       },
       forms: ["[Pl₁] + なら + [Pl₂] + で\n［現在形のみ］　［現在形のみ］\n［[なA~~だ~~]　[N~~だ~~]］［[なA~~だ~~]　[N~~だ~~]］"],
@@ -455,7 +444,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜にすれば」は「〜の立場で考えれば」という意味で、他の人の考えを想像して言うときに使うことが多い。",
-        zh: "表示“站在……的立场上考虑”的意思，多用于想象别人的想法时。",
         en: "“〜にすれば” means “if you think from 〜's standpoint”, and is often used when imagining what someone else thinks.",
       },
       forms: ["[N] + にすれば", "[N] + にしたら", "[N] + にしても"],
@@ -506,7 +494,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜までのことだ」は「事業に失敗したら、またやり直すまでのことだ」のように「だめなら〜すればいいのだから、それは大きな問題ではない」と言いたいときに使われる。何でもいいと言いながら、本当はそれを気にしているときに使われることも多い。自分について使うことが多い。",
-        zh: "用于想说“不行的话，做……就好了，所以那不是什么大问题”时，如“创业失败的话，大不了重头来过”。常常表示虽然嘴上说什么都行，其实心里非常在意。多用于自己。",
         en: "“〜までのことだ” is used to say “if it doesn't work out I can just do 〜, so it's not a big problem”, as in “事業に失敗したら、またやり直すまでのことだ”. It is also often used when you say you don't mind, but you actually do care about it. It is usually used about oneself.",
       },
       forms: ["[V-る] + までのことだ", "[V-る] + までだ"],

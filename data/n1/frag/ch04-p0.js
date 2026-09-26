@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "{実用書|じつようしょ}を読む", en: "Reading a Practical Guide" },
     title: { ja: "上司との付き合い方", en: "How to Get Along with Your Boss" },
     canDo: [
-      { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", zh: "阅读实用类图书，理解作者的想法。", en: "Read practical guides and the like, and understand the author's observations." },
+      { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", en: "Read practical guides and the like, and understand the author's observations." },
     ],
   },
   label: "(1)",
@@ -34,7 +34,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ともなると…」は「〜の条件や立場ならば当然…になる」と言いたいときに使われる。",
-        zh: "用于想说“如果是……的条件或立场，当然就会……”时。",
         en: "“〜ともなると…” is used when you want to say “given the condition or position of 〜, naturally … follows.”",
       },
       forms: ["[N] + ともなると", "[N] + ともなれば"],
@@ -84,7 +83,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜にひきかえ…」は「一方は〜のに、{他方|たほう}は…だ」と2つの{事柄|ことがら}を比べて、対照的だという意味を表す。",
-        zh: "对比两件事情，“一边……，另一边却……”，表示对比的意思。",
         en: "“〜にひきかえ…” compares two things — “one is 〜, whereas the other is …” — and expresses that they are in sharp contrast.",
       },
       forms: ["[Pl] + の + にひきかえ\n［[なA~~だ~~]な］"],
@@ -123,7 +121,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜もさることながら…」は「この車はデザインもさることながら、性能もいい」のように「〜だけでなく…も」と言いたいときに使われる。「車選びはデザインもさることながら、安全性を{重視|じゅうし}すべきだ」のように「〜も大切だが…はもっと重要だ」と言いたいときにも使う。",
-        zh: "用于想说“不仅……，……也”时，如“这款车设计就不用说了，性能也非常好”。也用于想说“……很重要，但……更重要”时，如“选车时，设计当然很重要，但更要注重安全性”。",
         en: "“〜もさることながら…” is used when you want to say “not only 〜 but also …”, as in “この車はデザインもさることながら、性能もいい” (This car's design is good, of course, but its performance is good too). It is also used when you want to say “〜 is important, but … is even more important”, as in “車選びはデザインもさることながら、安全性を重視すべきだ” (In choosing a car, design matters, but you should put more weight on safety).",
       },
       forms: ["[N] + もさることながら"],
@@ -169,7 +166,6 @@ N2F({
       notesFirst: false,
       usage: {
         ja: "「AであれBであれ…」は「AでもBでも」と例をあげて、「どんなものでも同じように…だ」と言いたいときに使われる。",
-        zh: "用于列举了“A也是，B也是”之后，想说“无论什么都一样……”时。",
         en: "“AであれBであれ…” is used when you give examples — “whether A or B” — and want to say “whatever it is, … all the same.”",
       },
       forms: ["[N₁] + であれ + [N₂] + であれ"],
@@ -183,7 +179,6 @@ N2F({
       notes: [
         {
           ja: "「{疑問詞|ぎもんし}（＋[N]）＋であれ」は「〜であっても」という意味で使われる。",
-          zh: "意思是“不管……”。",
           en: "“Question word (+ N) + であれ” is used with the meaning “even if it is 〜 / no matter what 〜.”",
           stars: 2,
           examples: [
@@ -227,7 +222,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜に{即|そく}して」は「ある状況や経験、規則に合わせて、何かの行動をする」と言いたいときに使われる。法律や規則の場合、漢字は「{則|そく}して」を使う。",
-        zh: "用于想说“根据某种状态、经验、规定，采取某种行动”时。用于法律、规定时，要使用汉字“則して”。",
         en: "“〜に即して” is used when you want to say “to take some action in line with a certain situation, experience or rule.” For laws and rules, the kanji 「則して」 is used.",
       },
       forms: ["[N₁] + にそくして", "[N₁] + にそくした + [N₂]"],
@@ -276,7 +270,6 @@ N2F({
       notesFirst: false,
       usage: {
         ja: "「〜をおいて他にない」は「〜だけだ／〜以外ない」と言いたいときに使われる。「比べてみて〜が一番だ」と高い評価をしているときに使われることが多い。",
-        zh: "用于想说“只有……”、“除……外没有”时。多用于高度评价时，“相比来看，……最棒”。",
         en: "“〜をおいて他にない” is used when you want to say “it is only 〜 / there is nothing but 〜.” It is often used when giving high praise: “compared with the others, 〜 is the best.”",
       },
       forms: ["[N] + をおいて他にない"],
@@ -290,7 +283,6 @@ N2F({
       notes: [
         {
           ja: "「何をおいても」は「どんな状況でも、まず第一に」という意味で使われる。",
-          zh: "用来表示“不管在任何情况下，首先……”的意思。",
           en: "“何をおいても” is used with the meaning “in any situation, first and foremost.”",
           stars: 2,
           examples: [

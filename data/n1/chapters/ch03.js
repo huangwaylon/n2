@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "{昔話|むかしばなし}の表現を楽しみながら、物語の展開を追って読める。",
-      "zh": "在欣赏传说故事的同时，读懂故事情节的发展。",
       "en": "Enjoy the expressions of a folktale while following how the story unfolds."
     }
   ],
@@ -57,7 +56,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜まみれ」は「表面全体に{不快|ふかい}な物がついている」と言いたいときに使う。「借金まみれ」のように、良くない状況から抜け出せない様子を表すのにも使われる。",
-            "zh": "用于想说“整个表面都沾着令人不舒服的东西”时。也可以用于表示陷入不好的状态无法摆脱的样子，如“一直借钱”。",
             "en": "\"〜まみれ\" is used when you want to say that \"something unpleasant is stuck all over the surface.\" As in \"借金まみれ\" (up to one's neck in debt), it is also used to describe being stuck in a bad situation one cannot get out of."
           },
           "forms": [
@@ -157,7 +155,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜をよそに」は「親の心配をよそに」のように「〜を気にしないで」と言いたいときに使う。「{渋滞|じゅうたい}をよそに」のように「〜とは関係なく」と言うときにも使う。",
-            "zh": "用于想说“不在意……”时，如“不顾父母的担心”。也用于表示“和……没关系”，如“无视堵车”。",
             "en": "As in \"親の心配をよそに\" (ignoring one's parents' worries), use \"〜をよそに\" when you want to say \"without caring about 〜.\" As in \"渋滞をよそに\" (paying no heed to the traffic jam), it is also used to say \"regardless of / unaffected by 〜.\""
           },
           "forms": [
@@ -229,7 +226,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜なりに」は「自分なりに工夫して作る」のように「〜の立場やレベルに応じて」と言いたいときに使う。「子どもなりにがんばっている」のように「〜（子ども）は十分ではないができるだけ」と言いたいときにも使う。",
-            "zh": "用于想说“对应……的立场或水平”时，如“凭自己用心制作”。也用于想说“……虽然不够但尽力”时，如“孩子们靠自己在努力”。",
             "en": "As in \"自分なりに工夫して作る\" (make something with one's own ingenuity), use \"〜なりに\" when you want to say \"in keeping with 〜's position or level.\" As in \"子どもなりにがんばっている\" (doing their best in their own childlike way), it is also used to say \"〜 (a child) is not fully capable, but does as much as it can.\""
           },
           "forms": [
@@ -337,7 +333,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり言い切りたくないときに使われる。「ぜひと頼まれれば、引き受けないでもない」のように「条件が合えば〜する（引き受ける）可能性はゼロではない」と言うときにも使われる。",
-            "zh": "用于不想直截了当地说“是……”时，如“并不是觉得不贵”。也用于表示“如果条件吻合，……的可能性并不为零”，如“如果使劲拜托他，他也不是不能接受”。",
             "en": "As in \"高い気がしないでもない\" (I do rather feel it's expensive), \"〜ないでもない\" is used when you don't want to state flatly that \"it's 〜 (I feel it's expensive).\" As in \"ぜひと頼まれれば、引き受けないでもない\" (if I'm earnestly asked, I might take it on), it is also used to say \"if the conditions are right, the possibility of doing 〜 (taking it on) is not zero.\""
           },
           "forms": [
@@ -418,7 +413,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜しまつだ」は、それまでの{経緯|けいい}を説明して、「良くないことが続き、結局〜という悪い結果になった」ということを表す。話し手の非難や残念な気持ちを表す。",
-            "zh": "对目前为止的经过进行解释，然后表示“一直发生不好的事情，最终导致……不好的结果”。表现出说话人指责、遗憾的心情。",
             "en": "\"〜しまつだ\" explains how things have developed up to that point and expresses that \"bad things kept happening, and in the end it came to the bad result of 〜.\" It conveys the speaker's criticism or regret."
           },
           "forms": [
@@ -462,7 +456,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AなりBなり」は「AでもBでも（何でもいい）」と思いついた例を{挙|あ}げるときに使われる。相手に{提案|ていあん}したり、アドバイスや注意をしたりする場合に使われることが多い。",
-            "zh": "用于列举自己想到的例子，“A也行B也行（什么都行）”。常常用于向对方提议或给对方意见、提醒对方时。",
             "en": "\"AなりBなり\" is used when giving examples that come to mind, meaning \"A or B (anything will do).\" It is often used when making a suggestion to someone, or giving advice or a warning."
           },
           "forms": [
@@ -547,7 +540,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ずくめ」は「大部分が〜で占められている／〜が連続する」ことを表す。",
-            "zh": "表示“大部分都被……所占/持续……”的意思。",
             "en": "\"〜ずくめ\" expresses that \"most of something is taken up by 〜 / 〜 happens one after another.\""
           },
           "forms": [
@@ -599,7 +591,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「（〜は）AにしてBだ」は「〜にはA・B2つの面がある」ことを表す。",
-            "zh": "表示“……有A、B两个方面”。",
             "en": "\"(〜は) AにしてBだ\" expresses that \"〜 has two sides, A and B.\""
           },
           "forms": [
@@ -639,7 +630,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「AはおろかB…ない」は「食事はおろか水さえ飲めない」のように「も・さえ・まで・すら」などと一緒に使い、「A（食事）はもちろん、それより程度の低いB（水）も…ない」と言いたいときに使われる。",
-            "zh": "和“也、连、甚至、都”等一起使用，用于想说“A就不用说了，比A程度还低的B也不……”。如“别说吃饭了，连水都不能喝”。",
             "en": "As in \"食事はおろか水さえ飲めない\" (can't even drink water, let alone eat), \"AはおろかB…ない\" is used together with \"も・さえ・まで・すら\" and the like when you want to say \"not only A (a meal), but not even B (water), which is lower in degree than A.\""
           },
           "forms": [
@@ -711,7 +701,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜すら…」は「日曜日すら休めない」のように「他はもちろん〜（日曜日）も…（休めない）」と言いたいときに使われる。「〜さえ／〜も」と同じように使われる。{否定的|ひていてき}な状況で使うことが多い。",
-            "zh": "用于想说“其他就不用说了，连……也……”时，如“连周日都不能休息”。用法同“连……/……也”。多用于否定的情况。",
             "en": "As in \"日曜日すら休めない\" (can't rest even on Sundays), \"〜すら…\" is used when you want to say \"not to mention the others, even 〜 (Sunday) … (one can't rest).\" It is used in the same way as \"〜さえ／〜も.\" It is often used in negative situations."
           },
           "forms": [
@@ -896,7 +885,6 @@ N2.register({
       "canDo": [
         {
           "ja": "{昔話|むかしばなし}の表現を楽しみながら、登場する人物の行動や出来事の{経緯|けいい}などが理解できる。",
-          "zh": "在欣赏传说故事的同时，理解出场人物的行为、事情发展的经过等。",
           "en": "Enjoy the expressions of a folktale while understanding the characters' actions and how events unfold."
         }
       ],
@@ -949,7 +937,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「AかたがたB」は「お見舞いかたがた会いに行く」のように「Aという目的（お見舞い）もあって、Bをする（会いに行く）」という意味を表す。Bには「{伺|うかが}う・行く・{訪|たず}ねる・来る」など移動に関係のある{動詞|どうし}がよく使われる。",
-            "zh": "表示“做B这件事情，同时也带有A的目的”，如“去见他，顺便探望一下”。B的部分经常用到和移动有关系的动词，如“拜访、去、造访、来”等。",
             "en": "As in \"お見舞いかたがた会いに行く\" (go to see someone, partly to visit them in hospital), \"AかたがたB\" means \"do B (go to see them), with A (a sick visit) also as a purpose.\" Verbs related to movement, such as \"伺う・行く・訪ねる・来る,\" are often used for B."
           },
           "forms": [
@@ -982,7 +969,6 @@ N2.register({
               "marks": [],
               "usage": {
                 "ja": "「AがてらB」は「Aの機会を利用して、Bする」と言いたいときに使われる。A・Bには、移動に関係のある言葉がよく使われる。",
-                "zh": "用于想说“利用A的机会，做B这件事情”。A、B两处经常使用与移动有关系的词。",
                 "en": "\"AがてらB\" is used when you want to say \"take the opportunity of A to do B.\" Words related to movement are often used for A and B."
               },
               "forms": [
@@ -1022,7 +1008,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜とは」は、意外な事実に対する話し手の{驚|おどろ}き・感心・あきれなどの気持ちを言いたいときに使われる。",
-            "zh": "用于想表达说话人对于意外事实的惊讶、佩服、愕然等。",
             "en": "\"〜とは\" is used when you want to express the speaker's surprise, admiration, exasperation and the like at an unexpected fact."
           },
           "forms": [
@@ -1106,7 +1091,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜なり…」は「〜という動作のすぐ後で…ということが起こる」と言いたいときに使われる。起きた出来事や他の人の意外な行動に{驚|おどろ}いたときに使われることが多い。",
-            "zh": "用于想说“紧接着……动作之后发生了……事”。多用于表示对发生的事情或别人的意外行为感到很惊讶的时候。",
             "en": "\"〜なり…\" is used when you want to say that \"… happens immediately after the action 〜.\" It is often used when one is surprised by something that happened or by someone else's unexpected behavior."
           },
           "forms": [
@@ -1192,7 +1176,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「AわBわ」は、困ったり喜んだりする理由や状況を並べて言うときに使う。",
-            "zh": "用于列举烦恼或喜悦的理由、状态。",
             "en": "\"AわBわ\" is used when listing the reasons or circumstances that make one troubled or delighted."
           },
           "forms": [
@@ -1232,7 +1215,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜が早いか…」は「〜なり」と同じように「〜の直後、ほとんど同時に…ということが起こる」と言いたいときに使われる。「…」が起こるまでの時間が非常に短いことを{驚|おどろ}いて話すときに使うことが多い。",
-            "zh": "与“〜なり”一样，用于想说“在……之后几乎同时发生了……”。多用于表示对两件事情相隔时间之短表示惊讶时。",
             "en": "Like \"〜なり,\" \"〜が早いか…\" is used when you want to say \"… happens right after 〜, almost at the same time.\" It is often used when speaking with surprise about how very short the time was before \"…\" happened."
           },
           "forms": [
@@ -1313,7 +1295,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AそばからB」は「Aの後、すぐにBをする」と言いたいときに使われる。A・B2つの動作が何回も{反復|はんぷく}される様子を述べたり、「{頑張|がんば}ってAをしたのに、すぐにBなので、努力が{無駄|むだ}になってしまう」と言いたいときによく使われる。",
-            "zh": "用于想说“A之后马上做B”时。常常用于描述A、B两个动作反复好几次的样子或者想说“很努力把A做完了，却马上B，结果努力全都白费了”时。",
             "en": "\"AそばからB\" is used when you want to say \"B is done right after A.\" It is often used to describe the two actions A and B being repeated over and over, or when you want to say \"I worked hard to do A, but B happens right away, so the effort goes to waste.\""
           },
           "forms": [
@@ -1395,7 +1376,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ずにはおかない」は「〜するまであきらめない／絶対に〜する」という話し手の強い意志を表す。",
-            "zh": "表示说话人强烈的意愿，“在……之前不放弃/在……之前一定要做……”。",
             "en": "\"〜ずにはおかない\" expresses the speaker's strong will: \"I won't give up until I do 〜 / I will definitely do 〜.\""
           },
           "forms": [
@@ -1419,7 +1399,6 @@ N2.register({
           "notes": [
             {
               "ja": "「〜ずにはおかない」は「自然に〜の感情が起こる／〜の状況になる」と言いたいときにもよく使われる。",
-              "zh": "还常常用于想说“自然而然地产生……感情或进入……状态”。",
               "en": "\"〜ずにはおかない\" is also often used when you want to say that \"a feeling of 〜 arises naturally / a situation of 〜 inevitably comes about.\"",
               "stars": 1,
               "examples": [
@@ -1456,7 +1435,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜たが最後…」は「もし〜したら、必ず…になってしまう」という意味を表す。「…」には、話し手にとって望ましくない{状態|じょうたい}を表す言葉が入る。",
-            "zh": "表示“如果……的话，一定会……”的意思。后项出现的是对于说话人来说不希望发生的状态。",
             "en": "\"〜たが最後…\" means \"if 〜 happens, it will inevitably end up as ….\" In \"…\" come words expressing a state the speaker does not want."
           },
           "forms": [
@@ -1504,7 +1482,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜てやる」は「{怒|いか}り・不満などの強い感情を持って〜する」ことを表す。",
-            "zh": "表示“带着愤怒、不满等强烈的情绪做……”。",
             "en": "\"〜てやる\" expresses \"doing 〜 with strong feelings such as anger or dissatisfaction.\""
           },
           "forms": [

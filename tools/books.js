@@ -24,8 +24,8 @@ const BOOKS = {
     TOC: { 1: [1, 6], 2: [7, 15], 3: [16, 34], 4: [35, 45], 5: [46, 64], 6: [65, 71], 7: [72, 87], 8: [88, 106], 9: [107, 110], 10: [111, 123] },
     PARTS: { 3: [26], 4: [41], 5: [54, 61], 7: [83], 8: [96] },
     supplement: [193, 207], // supplement page N = PDF page 192 + N
-    ocr: { ja: "tools/n1/ocr/ja", zh: "tools/n1/ocr/zh" },
-    bookLang: "zh", // the Chinese edition: printed translations are Chinese → `zh` fields; every `en` is ours
+    ocr: { ja: "tools/n1/ocr/ja" },
+    bookLang: "ja", // the Chinese edition; its Chinese is not reproduced, every `en` is ours
   },
 };
 

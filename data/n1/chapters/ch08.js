@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "ファンタジー小説を読んで、やや{古風|こふう}な表現を味わいながら、登場人物やその関係を理解することができる。",
-      "zh": "阅读一篇空想小说，欣赏略微古典的表达风格，同时理解出场人物及其关系。",
       "en": "Read a fantasy novel and understand its characters and their relationships while savoring its somewhat old-fashioned expressions."
     }
   ],
@@ -106,7 +105,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「AつBつ」は、AとBを{繰|く}り{返|かえ}すことを表す。",
-            "zh": "表示A、B重复进行。",
             "en": "\"AつBつ\" expresses that A and B are repeated alternately."
           },
           "forms": [
@@ -164,7 +162,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ともなく」は「はっきり意識しないで／目的を持たずに〜する」と言いたいときに使われる。",
-            "zh": "用于想说“不是特别有意识地/漫无目的地……”时。",
             "en": "\"〜ともなく\" is used when you want to say \"do ~ without being clearly aware of it / without any particular purpose.\""
           },
           "forms": [
@@ -197,7 +194,6 @@ N2.register({
           "notes": [
             {
               "ja": "「{疑問詞|ぎもんし}（＋{助詞|じょし}＋[V]）＋ともなく」は「はっきりわからないが」と言いたいときに使われる。",
-              "zh": "用于想说“说不清楚，但……”时。",
               "en": "\"Question word (+ particle + V) + ともなく\" is used when you want to say \"it isn't clear (where/when/who…), but…\"",
               "examples": [
                 {
@@ -282,7 +278,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜べく…」は「優勝すべく練習を重ねた」のように「〜（優勝）しようと思って…する（練習を重ねる）」と言いたいときに使われる。",
-            "zh": "用于想说“做……一心想要……”时，如“不停练习，一心想要获胜”。",
             "en": "As in \"優勝すべく練習を重ねた\", \"〜べく…\" is used when you want to say \"do … (keep practicing) intending to ~ (win).\""
           },
           "forms": [
@@ -369,7 +364,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜てからというもの」は「〜をきっかけに大きく変わり、それがずっと続いている」と言いたいときに使う。",
-            "zh": "用于想说“以……为契机发生巨大改变，一直持续至今”时。",
             "en": "\"〜てからというもの\" is used when you want to say \"~ triggered a big change, and that has continued ever since.\""
           },
           "forms": [
@@ -403,7 +397,6 @@ N2.register({
             {
               "stars": 2,
               "ja": "「[N]＋というもの」は「その期間中ずっと」という意味で使われる。",
-              "zh": "用于表示“在此期间一直”的意思。",
               "en": "\"N + というもの\" is used to mean \"throughout that whole period.\"",
               "examples": [
                 {
@@ -483,7 +476,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜ながら（に）」は「〜の{状態|じょうたい}のまま／〜のときから変わらず」と言いたいときに使われる。",
-            "zh": "用于想说“保持……的状态/从……开始就没有变过”时。",
             "en": "\"〜ながら（に）\" is used when you want to say \"in the state of ~ / unchanged since the time of ~.\""
           },
           "forms": [
@@ -574,7 +566,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜たまでのことだ」は「したことに〜以外の意味はない」という気持ちを表す。いいことをして感謝されたときなどの返事に使われるときには、{謙遜|けんそん}の気持ちが含まれる。",
-            "zh": "表示“不过是……没有别的意思”的心情。做了好事受到表扬等时候可以用来回答，这种时候含有谦虚的心情。",
             "en": "\"〜たまでのことだ\" expresses the feeling that \"what I did has no meaning other than ~.\" When it is used as a reply, for instance when you are thanked for doing something good, it carries a sense of modesty."
           },
           "forms": [
@@ -616,7 +607,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜をものともせず」は「困難なことがあっても、その{障害|しょうがい}を大変なことと思わないで、力強く行う」と言いたいときに使われる。普通は自分の行動には使わない。",
-            "zh": "用于想说“虽然有困难，但不要觉得障碍很大，而要坚定地做下去”时。一般不用来表述自己的行为。",
             "en": "\"〜をものともせず\" is used when you want to say \"even though there are difficulties, (someone) acts forcefully without treating the obstacle as a big deal.\" It is not normally used for one's own actions."
           },
           "forms": [
@@ -691,7 +681,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「AかたわらB」は「Aをしながら、他のこと（B）もしている」と言いたいときに使う。",
-            "zh": "用于想说“一边做A，一边也在做其他事情（B）”时。",
             "en": "\"AかたわらB\" is used when you want to say \"while doing A, (someone) is also doing something else (B).\""
           },
           "forms": [
@@ -850,7 +839,6 @@ N2.register({
       "canDo": [
         {
           "ja": "ファンタジー小説を読んで、やや{古風|こふう}な表現を味わいながら、出来事の{経緯|けいい}を追って登場人物の心情が理解できる。",
-          "zh": "阅读一篇空想小说，欣赏略微古典的表达风格，同时根据事情发展的经过理解出场人物的心情。",
           "en": "Read a fantasy novel and, while savoring its somewhat old-fashioned expressions, follow the course of events and understand the characters' feelings."
         }
       ],
@@ -977,7 +965,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜めく」は「だんだん春めいてきた」のように「〜（春）と感じられる部分がある」ときに使われる。「完全に〜（春）」であるときには使わない。",
-            "zh": "用于想说“有点儿感觉到……”时，如“春意渐浓”，完全进入春天之后就不能这么说了。",
             "en": "As in \"だんだん春めいてきた\", \"〜めく\" is used when there is something about it that feels like ~ (spring). It is not used when it is completely ~ (spring)."
           },
           "forms": [
@@ -1056,7 +1043,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜や{否|いな}や」は「〜とすぐ／〜たとたん」と同じように、「前のことがあった直後に、何かが起きた」と言うときに使われる。",
-            "zh": "用于想说“发生前一件事情之后马上发生了某事”时。",
             "en": "Like \"〜とすぐ / 〜たとたん\", \"〜や否や\" is used to say that something happened immediately after the preceding event."
           },
           "forms": [
@@ -1144,7 +1130,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ごとき」は「お菓子ごときで兄弟げんかするな」のように「〜（お{菓子|かし}）なんか」と「〜」を低く見て言うときに使われる。「{私|わたくし}ごとき」と{謙遜|けんそん}して使うこともある。",
-            "zh": "用于想鄙视地说“……之流”时，如“不就一块点心吗，别吵了！”有时也用作谦虚的说法，如“像我这样的人”。",
             "en": "As in \"お菓子ごときで兄弟げんかするな\", \"〜ごとき\" is used to belittle ~, meaning \"something like ~ (sweets).\" It is also used humbly, as in \"私ごとき.\""
           },
           "forms": [
@@ -1228,7 +1213,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜かと思いきや」は「〜と思っていたら」という意味で、予想したことと違っていて、意外に感じたときに使われる。",
-            "zh": "表示“刚以为……就……”的意思，用于与预想的不一样，感觉到意外时。",
             "en": "\"〜かと思いきや\" means \"I thought ~, but…\" and is used when something turned out differently from what you expected and you found it surprising."
           },
           "forms": [
@@ -1319,7 +1303,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜んがため」は「〜するため」という意味で、特別な目的のために何かをするときに使われる。",
-            "zh": "表示“为了……”，用于为某种特别的目的而做什么事情时。",
             "en": "\"〜んがため\" means \"in order to ~\" and is used when doing something for a special purpose."
           },
           "forms": [
@@ -1371,7 +1354,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜のごとく」は「〜のように」と同じ意味で、「風のごとく走り去った」のように例えたり、「{下記|かき}のごとく決定した」のように例や内容を{挙|あ}げたりするときに使われる。",
-            "zh": "和“像……一样”意思相同，用于比喻，如“像一阵风一样跑去了”，或用于举例或罗列内容，如“决定如下”。",
             "en": "\"〜のごとく\" means the same as \"〜のように.\" It is used to make a comparison, as in \"風のごとく走り去った,\" or to give an example or state the content of something, as in \"下記のごとく決定した.\""
           },
           "forms": [
@@ -1493,7 +1475,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にして」は「〜で」という意味で、状況や{状態|じょうたい}・様子について特にはっきり示したいときに使う。",
-            "zh": "用于想特别明确地呈现某种情况、状态、样子时。",
             "en": "\"〜にして\" means \"at / in / with ~\" (= 〜で) and is used when you particularly want to state a situation, state or condition clearly."
           },
           "forms": [
@@ -1539,7 +1520,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜だに」は「直接体験しなくても、〜だけでも十分に」という気持ちを表す。「恐ろしい・{辛|つら}い・難しい」などの否定的な気持ちや{戸惑|とまど}いの気持ちを表すときに使う。",
-            "zh": "表示“就算不亲自体验，……就足够了”的心情。用于表示“害怕、痛苦、艰难”等否定性情绪或困惑时。",
             "en": "\"〜だに\" expresses the feeling \"even without experiencing it directly, just ~ing is enough.\" It is used to express negative feelings such as \"frightening, painful, difficult,\" or feelings of bewilderment."
           },
           "forms": [
@@ -1585,7 +1565,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜だにしない」は「〜さえしない／全く〜しない」ことを表す。",
-            "zh": "表示“连……都不做/完全不做……”。",
             "en": "\"〜だにしない\" expresses \"not even ~ / not ~ at all.\""
           },
           "forms": [
@@ -1640,7 +1619,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜かねる」は「〜したい気持ちはあるが、別の事情があったり、心理的に{抵抗|ていこう}を感じたりしてできない」と言いたいときに使う。「できない」とはっきり言いたくないときに使うことが多い。",
-            "zh": "用于想说“我有心想做……但有其他情况或者内心有抵触情绪，所以做不了”时。多用于不想直接回绝“做不到”时。",
             "en": "\"〜かねる\" is used when you want to say \"I'd like to ~, but I can't, because of other circumstances or because I feel psychological resistance.\" It is often used when you don't want to say \"I can't\" outright."
           },
           "forms": [
@@ -1740,7 +1718,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜を限りに」は「〜が最後で、続いていたことが終わる」と言いたいときに使われる。何かを{決意|けつい}したり、残念に思っているときに使われることが多い。",
-            "zh": "用于想说“……是最后……，持续至今的事情就此结束”时。多用于下定什么决心、对什么表示遗憾时。",
             "en": "\"〜を限りに\" is used when you want to say \"~ is the last time; something that had been continuing comes to an end.\" It is often used when someone has made a resolution, or feels regret."
           },
           "forms": [

@@ -12,8 +12,8 @@ before the chapters load. `bookLang` is the language of the translations the boo
 
 - `"en"` (N2): the English on usage explanations, notes, ＋Plus, can-do and titles is the book's (`en--book` style);
   other `en` is ours.
-- `"zh"` (N1, Chinese edition): the book's Chinese goes verbatim in **`zh`** next to `ja` (usage, notes, Plus usage,
-  can-do, front matter), shown with the 中文 switch; **every** `en` is our own translation.
+- `"ja"` (N1, transcribed from the Chinese edition): the book's Chinese translations are **not** reproduced (no `zh`
+  fields anywhere); **every** `en` is our own translation, written for English-speaking learners of Japanese.
   See `docs/N1-TRANSCRIPTION.md` for the N1 page map and conventions.
 
 ## Inline markup (usable in any Japanese or English string)

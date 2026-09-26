@@ -5,7 +5,6 @@ N2F({
   canDo: [
     {
       ja: "仕事の結果について、{振|ふ}り返りながら社内で話ができる。",
-      zh: "能够在公司里在对话的过程中回顾工作结果。",
       en: "Talk at the office about the results of your work while looking back on them.",
     },
   ],
@@ -35,7 +34,6 @@ N2F({
       marks: ["casual"],
       usage: {
         ja: "「〜といったらない／ありゃしない」は「言葉では言えないほど非常に〜だ」と強調して言いたいときに使われる。「ない」「ありゃしない」の部分は省略されることもある。",
-        zh: "用于想强调“无法用言语表达，非常……”时。通常省略“ない”、“ありゃしない”。",
         en: "“〜といったらない／ありゃしない” is used to say emphatically “it is so extremely 〜 that words can't describe it.” The ない / ありゃしない part is sometimes omitted.",
       },
       forms: [
@@ -83,7 +81,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「A（よ）うにもAない」は「Aしたいが、ある事情のためにAできない」と言いたいときに使う。",
-        zh: "用于想说“想做A，但由于某种情况做不了A”时。",
         en: "“A（よ）うにもAない” is used when you want to say “I want to do A, but because of some circumstance I can't do A.”",
       },
       forms: ["[V-よう] + にも + [V-できない]"],
@@ -101,7 +98,6 @@ N2F({
       notes: [
         {
           ja: "**「A（よ）うにもAない」と「AにAない」**\n「A（よ）うにもAない」と「AにAない」はどちらも、事情があってAできないときに使われるが、物理的な理由の場合は「A（よ）うにもAない」、心情的な理由の場合は「AにAない」が使われることが多い。",
-          zh: "二者都用于表示因为某种情况而做不了A，但物理性理由常用“A（よ）うにもAない”，情绪性理由常用“AにAない”。",
           en: "“A（よ）うにもAない” and “AにAない”\nBoth “A（よ）うにもAない” and “AにAない” are used when you can't do A because of some circumstance, but “A（よ）うにもAない” is often used for physical reasons and “AにAない” for emotional reasons.",
           xref: "☞ 63. 辞める**に**辞められ**ない**",
           examples: [
@@ -143,7 +139,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜まくる」は、ある行動や動作を深く考えずに、すごい勢いで何回も{繰|く}り{返|かえ}してする様子を表す。",
-        zh: "表示不深究某行为或动作，卯足了劲儿重复好几次的样子。",
         en: "“〜まくる” describes doing some action or movement over and over with great force, without thinking deeply about it.",
       },
       forms: ["[V-~~ます~~] + まくる"],
@@ -169,7 +164,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜にしたところで」は「{大金持|おおがねも}ちにしたところで悩みはある」のように「他とは違うと思われている〜も、実は他と同じだ」と言いたいときに使われる。",
-        zh: "用于想说“一直以为……和其他的不一样，其实是一样的”时，如“就算大富翁也有烦恼”。",
         en: "“〜にしたところで” is used when you want to say “〜, which people think is different from the others, is actually the same as the others,” as in “{大金持|おおがねも}ちにしたところで悩みはある”.",
       },
       forms: ["[N] + にしたところで", "[N] + にしたって"],
@@ -211,7 +205,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜てみせる」は「（自分を認めてもらうために）{頑張|がんば}って〜しよう」という強い{決意|けつい}を表す。",
-        zh: "表示“（为了让自己获得认可）一定要努力……”的坚定决心。",
         en: "“〜てみせる” expresses a strong determination: “(in order to earn recognition) I will work hard and do 〜.”",
       },
       forms: ["[V-て] + みせる"],

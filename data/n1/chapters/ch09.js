@@ -12,7 +12,6 @@ N2.register({
   "canDo": [
     {
       "ja": "やや専門的な説明を聞いて、その内容や{発話者|はつわしゃ}の意見が理解できる。",
-      "zh": "听一段有点儿专业的解释，理解其内容及发言人的观点。",
       "en": "Listen to a somewhat specialized explanation and understand its content and the speaker's opinion."
     }
   ],
@@ -63,7 +62,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜からいる」は、普通よりはるかに多い数であることを表す。「〜からある」「〜からの」も同じ意味で使われる。",
-            "zh": "表示数量远远多出通常情况。",
             "en": "“〜からいる” expresses that a number is far larger than usual. “〜からある” and “〜からの” are also used with the same meaning."
           },
           "forms": [
@@ -86,7 +84,6 @@ N2.register({
           "notes": [
             {
               "ja": "「〜からする」は、値段が非常に高いということを表す。",
-              "zh": "表示价格非常高。",
               "en": "“〜からする” expresses that a price is extremely high.",
               "examples": [
                 {
@@ -121,7 +118,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜にかかわる」は「命にかかわるけが」のように「〜に重大な{影響|えいきょう}がある」と言いたいときに使う。「教育にかかわる仕事」のように「〜に関係がある」と言いたいときにも使う。",
-            "zh": "用于想说“对……有重大影响”时，如“关系到性命的伤”。也用于想说“与……相关”时，如“教育相关的工作”。",
             "en": "Use “〜にかかわる” when you want to say that something “has a serious effect on 〜”, as in “命にかかわるけが” (a life-threatening injury). It is also used when you want to say “is related to 〜”, as in “教育にかかわる仕事” (work related to education)."
           },
           "forms": [
@@ -199,7 +195,6 @@ N2.register({
           ],
           "usage": {
             "ja": "「〜にあって」は「〜の状況で」という意味で、「〜という{厳|きび}しい／普通とは違う、特別な状況で」と言いたいときに使われることが多い。",
-            "zh": "表示“……的状况下”，多用于想说“在……严峻/不同于平常的特殊状况下”时。",
             "en": "“〜にあって” means “in the situation of 〜”, and is often used when you want to say “in the harsh / unusual, special situation of 〜”."
           },
           "forms": [
@@ -287,7 +282,6 @@ N2.register({
           "marks": [],
           "usage": {
             "ja": "「〜ようによって（は）」は「〜のしかた{次第|しだい}で変わる」と言いたいときに使われる。",
-            "zh": "用于想说“根据……做法而变”。",
             "en": "“〜ようによって（は）” is used when you want to say that something “changes depending on how 〜 is done”."
           },
           "forms": [

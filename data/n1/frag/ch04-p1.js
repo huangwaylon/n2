@@ -3,7 +3,7 @@ N2F({
   part: 1,
   label: "(2)",
   canDo: [
-    { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", zh: "阅读实用类图书，理解作者的想法。", en: "Read practical guides and the like, and understand the author's observations." },
+    { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", en: "Read practical guides and the like, and understand the author's observations." },
   ],
   sample: {
     kind: "explanation",
@@ -37,7 +37,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜までもなく」は「すでにわかっていることや当然のことなので、〜する必要がない」と言いたいときに使う。",
-        zh: "用于想说“因为是已经知道了的或理所当然的事情，所以没必要……”时。",
         en: "Use “〜までもなく” when you want to say “it is already known or obvious, so there is no need to 〜.”",
       },
       forms: ["[V-る] + までもなく", "[V-る] + までもない"],
@@ -82,7 +81,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜いかん」は「{検査|けんさ}の結果いかんで、手術することになるかもしれない」のように「〜（{検査|けんさ}の結果）がどのような内容・{状態|じょうたい}かによって、どうなるかが決まる」と言いたいときに使われる。",
-        zh: "用于想说“看……是什么样的内容、情况，决定怎么做”时，如“看检查结果，有可能要动手术”。",
         en: "“〜いかん” is used when you want to say “what happens is decided by what the content or state of 〜 (the test results) is”, as in “検査の結果いかんで、手術することになるかもしれない” (Depending on the test results, you may end up having surgery).",
       },
       forms: ["[N] + （の） + いかん"],
@@ -95,7 +93,6 @@ N2F({
       notes: [
         {
           ja: "「〜いかん」は「[N] + の + いかん にかかわらず／によらず／を問わず」などの形で、「〜がどのような内容・{状態|じょうたい}であっても、関係なく」という意味で使う。",
-          zh: "用来表示“不管……是什么样的内容、情况都没有关系”的意思。",
           en: "“〜いかん” is used in forms like “N + の + いかん にかかわらず／によらず／を問わず” to mean “regardless of what the content or state of 〜 is.”",
           stars: 2,
           examples: [
@@ -112,7 +109,6 @@ N2F({
           marks: [],
           usage: {
             ja: "「いかんせん〜／いかんともしがたい」は「{残念|ざんねん}だが、どうにもならない／どうすることもできない」という意味で使われる。",
-            zh: "用来表示“虽然很遗憾，但束手无策”的意思。",
             en: "“いかんせん〜／いかんともしがたい” is used to mean “unfortunately, it can't be helped / nothing can be done about it.”",
           },
           examples: [
@@ -176,7 +172,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AないまでもB」は「Aほど高いレベルではなくてもB程度は」と言いたいときに使う。",
-        zh: "用于想说“虽然没有A那么高水平，但B的程度……”时。",
         en: "Use “AないまでもB” when you want to say “even if not at a level as high as A, at least to the extent of B.”",
       },
       forms: ["[V-~~ない~~] + ないまでも"],
@@ -223,7 +218,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AといいBといい…」は、A・B2つの例をあげて「全体的に…だ」と言いたいときに使う。すばらしいと思ったり、ひどいと思ったりした自分の気持ちを言うときに使う。",
-        zh: "用于列举A、B两个例子之后，想说“整体来看……”时。用于表达自己认为很精彩或很糟糕的心情。",
         en: "Use “AといいBといい…” when you give two examples, A and B, and want to say “on the whole, it is ….” It is used to express your own feeling that something is wonderful or terrible.",
       },
       forms: ["[N₁] + といい + [N₂] + といい"],
@@ -266,7 +260,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜といったところだ」は、相手がわかりやすいように、違う言葉に言い{換|か}えたり、例を{挙|あ}げたりするときに使う。",
-        zh: "用于为了让对方更容易明白而换用不同的词语来描述或举例说明等时候。",
         en: "Use “〜といったところだ” when you rephrase something in different words or give an example so that the other person can understand it more easily.",
       },
       forms: ["[N] + といったところだ"],

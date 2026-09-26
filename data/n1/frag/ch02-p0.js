@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "スピーチを聞く", en: "Listening to a Speech" },
     title: { ja: "産業医を増やそう", en: "Let's Increase the Number of Occupational Physicians" },
     canDo: [
-      { ja: "{公的|こうてき}な立場の人のスピーチを聞いて、現状の説明と{提言|ていげん}が理解できる。", zh: "听一段政府人员的演讲，理解发言人对现状的解释及其提议。", en: "Listen to a speech by someone in an official position and understand their explanation of the current situation and their proposal." },
+      { ja: "{公的|こうてき}な立場の人のスピーチを聞いて、現状の説明と{提言|ていげん}が理解できる。", en: "Listen to a speech by someone in an official position and understand their explanation of the current situation and their proposal." },
     ],
   },
   label: "",
@@ -41,7 +41,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "まず比較する例を{挙|あ}げて、「〜に{至|いた}っては」の形で「〜の場合はさらに」と言うときに使われる。",
-        zh: "先列举出要进行比较的例子，然后说“……更加”。",
         en: "Used when you first give examples for comparison and then, with the form “〜に至っては”, say “in the case of 〜, it is even more so.”",
       },
       forms: ["[N] + に{至|いた}っては"],
@@ -99,7 +98,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜といえども」は「〜でも」という意味で、「社長といえども1人で何でも決められるわけではない」のように、「事実や条件（社長）から当然予想される結果（何でも決められる）とは違う」と言いたいときに使われる。",
-        zh: "表示“就算是……”的意思，用于想说“和从某一事实或条件自然而然预想到的结果不一样”时，如“就算是总经理，也不是什么事情都能一个人说了算”。",
         en: "“〜といえども” means “even 〜.” As in “社長といえども1人で何でも決められるわけではない” (Even the company president can't decide everything on his own), it is used when you want to say that the outcome differs from what would naturally be expected from a fact or condition (the president → being able to decide anything).",
       },
       forms: ["[N] + といえども"],
@@ -153,7 +151,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜を{余儀|よぎ}なくされる」は「{嫌|いや}でも〜しなければならない状況だ」と言いたいときに使われる。ニュースなどでよく使われる。",
-        zh: "用于想说“就算不愿意也不得不做……”时。常常出现在新闻报道中。",
         en: "“〜を余儀なくされる” is used when you want to say “one is in a situation where one has to do 〜 even though one doesn't want to.” It is often used in the news and the like.",
       },
       forms: ["[N] + を{余儀|よぎ}なくされる"],
@@ -166,7 +163,6 @@ N2F({
       notes: [
         {
           ja: "「〜を{余議|よぎ}なくさせる」は「何かが、{嫌|いや}でも〜しなければならない{状態|じょうたい}に追い込む」と言いたいときに使われる。",
-          zh: "用于想说“被逼进入一种状态，就算不愿意也不得不做某一件事情”时。",
           en: "“〜を余儀なくさせる” is used when you want to say “something drives someone into a situation where they have to do 〜 even though they don't want to.”",
           stars: 3,
           examples: [
@@ -214,7 +210,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜たりとも…」は「1人たりとも逃すな」のように「その少ない単位（1人）でも絶対…ない（逃がさない）」と言いたいときに使われる。",
-        zh: "用于想说“就算是最小单位也绝对不能……”时，如“就算是一个人也不能放过”。",
         en: "As in “1人たりとも逃すな” (Don't let even one person get away), “〜たりとも…” is used when you want to say “not … (let get away) even that small a unit (one person).”",
       },
       forms: ["1 + {助数詞|じょすうし} + たりとも + …ない"],
@@ -264,7 +259,6 @@ N2F({
       marks: ["regret", "formal"],
       usage: {
         ja: "「〜きらいがある」は「〜という良くない傾向や性質がある」と言いたいときに使われる。",
-        zh: "用于想说“有……不好的倾向或性质”时。",
         en: "“〜きらいがある” is used when you want to say “there is a bad tendency or characteristic of 〜.”",
       },
       forms: ["[V-る]／[V-ない] + きらいがある"],
@@ -316,7 +310,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜{次第|しだい}です」は「〜んです」と同じように、事情や理由を説明するときに使われる。会議やビジネスなどの場面で使われることが多い。",
-        zh: "同“～んです”一样，用于解释情况或理由时。常常用于会议、商务等场景中。",
         en: "Like “〜んです,” “〜次第です” is used when explaining circumstances or reasons. It is often used in settings such as meetings and business.",
       },
       forms: ["[V-Pl] + {次第|しだい}だ"],
@@ -351,7 +344,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜をもって」は「〜を手段・方法にして」と言いたいときに使う。「電話で話す」のように日常的なものには使わない。",
-        zh: "用于想说“以……为手段、方法”时。不能用于“打电话”等日常生活场景中。",
         en: "“〜をもって” is used when you want to say “using 〜 as a means or method.” It is not used for everyday things, as in “電話で話す” (talk on the phone).",
       },
       forms: ["[N] + をもって"],
@@ -402,7 +394,6 @@ N2F({
       marks: [],
       usage: {
         ja: "「AあってのB」は「お客様あっての店」のように、「A（お客様）があるからB（店）は成立する、AがなければBは成立しない」と言いたいときに使われる。",
-        zh: "用于想说“因为有了A（顾客），B（商店）才能存在。如果没有A，B就不成立”时。如“有顾客才称其为商店”。",
         en: "As in “お客様あっての店” (A shop exists only thanks to its customers), “AあってのB” is used when you want to say “B (the shop) can exist because there is A (customers); without A, B cannot exist.”",
       },
       forms: ["[N₁] + あっての + [N₂]"],
@@ -453,7 +444,6 @@ N2F({
       marks: ["formal"],
       usage: {
         ja: "「〜てやまない」は「長い間、強く〜と思っている」と言いたいときに使われる。",
-        zh: "用于想说“长时间强烈地想……”时。",
         en: "“〜てやまない” is used when you want to say “one has long and strongly felt 〜.”",
       },
       forms: ["[V-て] + やまない"],

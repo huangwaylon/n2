@@ -1,4 +1,4 @@
-# N1 transcription guide (TRY! N1, Chinese edition — `n1.pdf`)
+# N1 transcription guide (TRY! N1 — `n1.pdf`, the Chinese edition)
 
 Read `data/SCHEMA.md` first: the N1 data uses exactly the same schema and verbatim rules as N2. This file lists what is
 different for N1 and the conventions every transcriber must follow so the ten chapters are consistent.
@@ -11,8 +11,8 @@ different for N1 and the conventions every transcriber must follow so the ten ch
   - やってみよう！/Check answers: supp pp.1–8 (PDF 193–200). まとめの問題 answers + listening scripts: supp pp.8–15 (PDF 200–207).
 - Listening scripts exist **only** in the supplement. Answers come **only** from the supplement, never from our judgement.
 - Reading pages: `Read n1.pdf pages:"17"` for the layout, then `tools/zoom.sh n1 17` (three 300-dpi strips; Read the PNG paths)
-  for every page to get furigana, small print, punctuation and Chinese exactly right.
-- OCR (noisy, only a cross-check): `tools/n1/ocr/ja/NNN.txt` (Japanese), `tools/n1/ocr/zh/NNN.txt` (Chinese).
+  for every page to get furigana, small print and punctuation exactly right.
+- OCR (noisy, only a cross-check): `tools/n1/ocr/ja/NNN.txt`.
 
 | Ch | Title | Pages | Points | Parts (first point) | やってみよう/Check answers | まとめ answers/scripts |
 |---|---|---|---|---|---|---|
@@ -37,35 +37,36 @@ different for N1 and the conventions every transcriber must follow so the ten ch
 - Build and validate:
   ```sh
   node tools/merge.js n1 5                       # → data/n1/chapters/ch05.js
-  node tools/check.js data/n1/chapters/ch05.js   # structure, answers, zh/en presence
+  node tools/check.js data/n1/chapters/ch05.js   # structure, answers, en presence, no zh
   node tools/ocr-diff.js data/n1/chapters/ch05.js 73-97   # every string vs OCR; look at everything < 0.9 on the scan
   ```
 - View it: `python3 -m http.server 8765`, open http://localhost:8765/n1/#/ch/5 ; screenshots:
   `node tools/shot.mjs n1:ch/5 1280 2400 /tmp/c5.png --full`.
 
-## Chinese (`zh`) — the book's own translation
+## No Chinese
 
-The book prints a small Chinese line under: the chapter can-do (できること), every どう使う？ explanation, every 📎 clip
-note, every ＋Plus explanation, and in the front matter. Transcribe it **verbatim** into `zh`, character for character,
-simplified Chinese as printed, with the book's punctuation (full-width “ ” ， 。 ：  …… etc.). No furigana markup in `zh`.
-
-```js
-usage: { ja: "「〜を{皮切|かわき}りに」は…", zh: "用于想说“从……开始，接连发生同样的事情”时。…", en: "(our English)" },
-notes: [ { ja: "…", zh: "…", en: "…", examples: [...] } ],
-canDo: [ { ja: "イベントなどに関する記事を読んで、…", zh: "阅读有关活动等的新闻报道，…", en: "…" } ],
-```
-
-If a Japanese element has no Chinese line in the book (e.g. ＊ connection notes, example sentences), it has no `zh`.
-Never invent or translate Chinese.
+The site is for English-speaking learners of Japanese. The book's Chinese translations are **not** reproduced: no `zh`
+fields, no Chinese anywhere in the data or UI (`tools/check.js` fails on any `zh` key). The Chinese printed in the book
+may be read as a check on the intended meaning of the Japanese, nothing more.
 
 ## English (`en`) — always ours
 
 Nothing in the N1 book is English, so **every** `en` is our own translation: usage, notes, Plus usage, can-do, chapter
-genre/title, examples, sample-text lines, exercises, scripts, `questionEn`. Translate from the Japanese (the Chinese is a
-useful check of the intended meaning). Accurate, natural, faithful — not a paraphrase of the Chinese.
-`deepDive` (required for every point) is our detailed English explanation: nuance, register, contrast with similar
-patterns (N2/N1), learner mistakes, JLPT tips — like the N2 deepDives. It must be correct; cite point numbers `#NN`
-only for N1 points of this book (1–123).
+genre/title, examples, sample-text lines, exercises, scripts, `questionEn`, front matter. Required on every usage
+explanation, clip note, ＋Plus usage, can-do, example, sample line and exercise item.
+
+Write for an English-speaking learner of Japanese at N2→N1 level:
+
+- **Accurate and faithful** to the Japanese — translate the Japanese, not the Chinese; keep every nuance the Japanese
+  explanation states (register, speaker's feeling, restrictions). Do not add claims the book does not make (put those
+  in `deepDive`).
+- **Natural, clear English.** Explanations should be understandable without knowing Chinese or linguistics jargon; when
+  quoting Japanese inside English, keep the Japanese form (e.g. "〜を皮切りに is used when…") and gloss it if helpful.
+- Example / exercise translations: natural English that shows how the target grammar is being used (the sense of the
+  bold part should be recoverable from the English). Don't translate word-for-word into awkward English.
+- `deepDive` (required for every point) is our detailed English explanation: meaning, nuance, register, connection,
+  contrast with similar patterns (N2/N1), common learner mistakes, JLPT tips — like the N2 deepDives. It must be
+  correct; cite point numbers `#NN` only for N1 points of this book (1–123). No Chinese.
 
 ## Conventions (all chapters)
 
