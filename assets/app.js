@@ -829,7 +829,9 @@
     }
     const k = mode === "list" ? { d: 1, m: 1, s: 1 } : gridCols(options);
     return `<div class="opts opts--grid${mode === "list" ? " opts--list" : ""}" data-cols="${k.d}" data-cols-m="${k.m}" data-cols-s="${k.s}" data-w="${optW(options)}" data-answer="${answer}">${tag ? `<span class="opt-tag">${fmt(tag)}</span>` : ""}${options
-      .map((o, j) => `<button class="opt opt--grid" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}</span><span class="opt-t">${fmt(o)}</span></button>`)
+      .map((o, j) => { const L = optLabel(n, j, labels), let_ = typeof L === "string";
+        // letters are printed "a." as in the book's practice (p.19); numbers stay in the round 1 2 3 4 of the review
+        return `<button class="opt opt--grid" data-act="pick" data-j="${j}"><span class="opt-n${let_ ? " opt-n--let" : ""}">${L}${let_ ? "." : ""}</span><span class="opt-t">${fmt(o)}</span></button>`; })
       .join("")}</div>`;
   }
   const reEsc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
