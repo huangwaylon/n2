@@ -8,7 +8,7 @@ N2.registerCompare([
     items: [
       { pattern: "〜{一方|いっぽう}①", level: "N2", no: 61,
         ex: { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる**{一方|いっぽう}**、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While there are young people who go to the city looking for work, there are also young people who return to their hometowns to find jobs." },
-        note: "\"While / on the other hand\": sets two contrasting facts or sides side by side. Attaches to any plain form; nothing about ongoing change." },
+        note: "\"While / on the other hand\": sets two contrasting facts or sides side by side. Attaches to the noun-modifying form (V/いA plain, なAな/である, Nである); nothing about ongoing change." },
       { pattern: "V{一方|いっぽう}②", level: "N2", no: 115,
         ex: { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える**{一方|いっぽう}だ**。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists just keeps increasing." },
         note: "V-る + 一方だ: \"keeps on ~ing / only gets more ~\". Used with change verbs (増える, 減る, 悪化する) for a one-way trend that shows no sign of stopping." }
@@ -65,7 +65,7 @@ N2.registerCompare([
     items: [
       { pattern: "V{得|う}る", level: "N2", no: 66,
         ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place for the murder weapon, but couldn't find a single clue." },
-        note: "V-ます stem + 得る (うる/える): \"can / it is possible that\". Expresses logical possibility, not personal ability; negative is 得ない." },
+        note: "V-ます stem + 得る (うる/える): \"can / it is possible that\". Expresses logical possibility, not personal ability; the negative is 得ない (read えない)." },
       { pattern: "Vざるを{得|え}ない", level: "N2", no: 24,
         ex: { ja: "{台風接近|たいふうせっきん}のため、{野外|やがい}コンサートは中止せ**ざるを{得|え}なく**なった。", en: "Because a typhoon was approaching, we had no choice but to cancel the outdoor concert." },
         note: "V-ない stem + ざるを得ない (する → せざるを得ない): \"have no choice but to\". Reluctant action forced by circumstances." }
@@ -170,7 +170,7 @@ N2.registerCompare([
         note: "Sentence-final こと: a written rule or instruction (\"must / is to\"), used on notices, application guidelines and the like." },
       { pattern: "〜ことか", level: "N2", no: 42,
         ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows about all my effort, I suppose." },
-        note: "どれほど/なんと ... ことか: \"how very much ...!\". An emotional exclamation of degree." },
+        note: "どれだけ/どんなに/なんと ... ことか:\"how very much ...!\". An emotional exclamation of degree." },
       { pattern: "〜ことから", level: "N2", no: 62,
         ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "Because this sweet potato is red inside, it is called a \"beni-imo\" (crimson potato)." },
         note: "\"From the fact that\": gives the basis for a name, judgment or origin; a written, explanatory style." },
@@ -197,10 +197,10 @@ N2.registerCompare([
         note: "Emotion word + ことに (驚いたことに, うれしいことに): states the speaker's feeling first, then the fact that caused it." },
       { pattern: "Vことなく", level: "N2", no: 20,
         ex: { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}する**ことなく**、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "I was able to win this time, but without being satisfied with this, I will keep working even harder. Please continue to support me." },
-        note: "\"Without doing V\": a written equivalent of 〜ないで, often in resolutions or statements that something one might expect never happened." },
+        note: "\"Without doing V\": a written equivalent of 〜ないで, often used in statements of resolve, or to say that something one might expect never happened (一度も休むことなく)." },
       { pattern: "〜ないことには", level: "N2", no: 110,
-        ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder about how many they'll take on.\nB: Unless you ask them, you won't know the details." },
-        note: "\"Unless / if one doesn't\": without this condition, the result can't happen. Always followed by a negative." },
+        ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder roughly how many they'll hire.\nB: Unless you ask them, you won't know the details." },
+        note: "\"Unless / if one doesn't\": without this condition, the result can't happen. Followed by a negative outcome (〜ない, 〜できない, わからない)." },
       { pattern: "Vことはない", level: "N2", no: 49,
         ex: { ja: "{君|きみ}が{謝|あやま}る**ことはない**よ。悪いのは{向|む}こうなんだから。", en: "There's no need for you to apologize. They're the ones at fault." },
         note: "V-る + ことはない: \"there's no need to\". Reassures or advises the listener." },
@@ -427,7 +427,7 @@ N2.registerCompare([
     },
     items: [
       { pattern: "Vたばかり", level: "N3",
-        ex: { ja: "父は昨日退院した**ばかり**なのに、今日から会社に出ている。", en: "My father only got out of the hospital yesterday, but he's already back at work from today." },
+        ex: { ja: "父は昨日退院した**ばかり**なのに、今日から会社に出ている。", en: "My father only got out of the hospital yesterday, but he's already back at work as of today." },
         note: "V-た + ばかり: \"have just done\", subjectively recent." },
       { pattern: "〜ばかり", level: "N3",
         ex: { ja: "最近雨**ばかり**で、{洗濯物|せんたくもの}が{乾|かわ}かなくて困っています。", en: "It's been nothing but rain lately, and it's a pain because the laundry won't dry." },
@@ -547,7 +547,7 @@ N2.registerCompare([
         ex: { ja: "A：{健康|けんこう}のために、少し運動したほうがいいですよ。\nB：じゃ、これから毎日1時間くらい歩く**ようにします**。", en: "A: You should get a little exercise for your health.\nB: Then from now on I'll try to walk for about an hour every day." },
         note: "\"Try to / make a habit of\": conscious effort." },
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Please tell him to study, too — he should hear it from his mother as well." },
+        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Could you, as his mother, also tell him to study?" },
         note: "\"Tell (someone) to\": reports a request or instruction indirectly (〜ように言う/言われる)." },
       { pattern: "〜ようになる①", level: "N4",
         ex: { ja: "日本へ来たときは、{納豆|なっとう}が食べられませんでしたが、今は食べられる**ようになりました**。", en: "When I came to Japan I couldn't eat natto, but now I can." },
