@@ -5,7 +5,7 @@ N2F({
     genre: { ja: "{実用書|じつようしょ}を読む", en: "Reading a Practical Guide" },
     title: { ja: "上司との付き合い方", en: "How to Get Along with Your Boss" },
     canDo: [
-      { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", en: "Read practical guides and the like, and understand the author's observations." },
+      { ja: "{実用書|じつようしょ}などを読んで、筆者の{考察|こうさつ}が理解できる。", en: "Read a practical guide or similar book and understand the author's analysis." },
     ],
   },
   label: "(1)",
@@ -34,19 +34,19 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ともなると…」は「〜の条件や立場ならば当然…になる」と言いたいときに使われる。",
-        en: "“〜ともなると…” is used when you want to say “given the condition or position of 〜, naturally … follows.”",
+        en: "“〜ともなると…” is used when you want to say “under the condition of 〜, or in the position of 〜, … naturally follows.”",
       },
       forms: ["[N] + ともなると", "[N] + ともなれば"],
       formNotes: [{ ja: "＊{動詞|どうし}も使われることがある。", en: "Verbs are sometimes used too." }],
       examples: [
         { ja: "総理大臣ともなると、その{言動|げんどう}の1つ1つが大きな{影響|えいきょう}を与える。", en: "When you're the prime minister, every single thing you say and do has a big impact." },
-        { ja: "そこは{一見|いっけん}目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "At first glance it's an inconspicuous shop, but come lunchtime a crowd of customers lines up — it's a famous ramen place." },
-        { ja: "普段はスポーツに関心のない人も、オリンピックともなれば夢中でテレビにかじりつく。", en: "Even people who usually have no interest in sports get glued to the TV when it comes to the Olympics." },
-        { ja: "工場を建てかえるともなると、億単位の金がかかる。", en: "When it comes to rebuilding a factory, it costs hundreds of millions of yen." },
+        { ja: "そこは{一見|いっけん}目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It looks like an unremarkable shop at first glance, but it's a famous ramen place where, come lunchtime, crowds of customers form a queue." },
+        { ja: "普段はスポーツに関心のない人も、オリンピックともなれば夢中でテレビにかじりつく。", en: "Even people who normally have no interest in sport are glued to the TV once the Olympics come round." },
+        { ja: "工場を建てかえるともなると、億単位の金がかかる。", en: "Once it comes to rebuilding a factory, the cost runs into hundreds of millions of yen." },
       ],
       deepDive:
         "**〜ともなると / 〜ともなれば** means *once it comes to ~ / when you reach the level of ~*. It picks out a status, time, occasion or scale that is **a notch above the ordinary**, and the second half states what is naturally expected at that level: 社会人ともなると、嫌いな人とも付き合わなくてはならない.\n\n" +
-        "It is built from と + も + なる: literally *when it even becomes ~*. The も gives the feeling of *at that level (unlike before)*. That is why the noun is usually something that implies a higher degree: 総理大臣, 一流の選手, 昼休み (the peak hour), 12月 (year-end rush), 10年目 (a veteran), 億単位 (a huge sum).\n\n" +
+        "It is built from と + も + なる: literally *when it even becomes ~*. The も gives the feeling of *at that level (unlike before)*. That is why the noun is usually something that implies a higher degree or a special occasion: 総理大臣, 有名なサッカー選手, 一流の通訳, 昼休み (the peak hour), オリンピック, 正月, 勤続20年のベテラン.\n\n" +
         "Connection:\n" +
         "- **N + ともなると / ともなれば** — the basic pattern.\n" +
         "- A verb in the dictionary form is also possible (the book's ＊ note): 工場を建てかえるともなると.\n" +
@@ -65,11 +65,11 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "{宗教|しゅうきょう}に無関心な日本の若者も{正月|しょうがつ}ともなれば（　）行くことが多い。", options: ["寺や神社へ", "海外旅行に"], answer: 0, en: "Even young Japanese people who are indifferent to religion often go to temples and shrines when it comes to New Year." },
-            { q: "勉強{嫌|ぎら}いの学生でも、試験前ともなると（　）だろう。", options: ["遊んでいるわけにはいかない", "何もしない"], answer: 0, en: "Even students who hate studying probably can't afford to fool around when it gets to be just before the exams." },
-            { q: "キャンプ場は（　）ともなると親子{連|づ}れでにぎわう。", options: ["夏休み", "{平日|へいじつ}"], answer: 0, en: "When the summer holidays come, the campsite is bustling with families." },
-            { q: "有名なサッカー選手ともなると（　）。", options: ["コマーシャルの{出演|しゅつえん}料も{高額|こうがく}だ", "マスコミは関心がない"], answer: 0, en: "When you're a famous soccer player, your fees for appearing in commercials are high too." },
-            { q: "世界1周旅行ともなると（　）。", options: ["荷物は全部準備した", "荷物の準備も大変だ"], answer: 1, en: "When it comes to a trip around the world, even preparing your luggage is a big job." },
+            { q: "{宗教|しゅうきょう}に無関心な日本の若者も{正月|しょうがつ}ともなれば（　）行くことが多い。", options: ["寺や神社へ", "海外旅行に"], answer: 0, en: "Even young Japanese people who are indifferent to religion often go to temples and shrines once New Year comes round." },
+            { q: "勉強{嫌|ぎら}いの学生でも、試験前ともなると（　）だろう。", options: ["遊んでいるわけにはいかない", "何もしない"], answer: 0, en: "Even students who hate studying probably can't afford to fool around once the exams are close." },
+            { q: "キャンプ場は（　）ともなると親子{連|づ}れでにぎわう。", options: ["夏休み", "{平日|へいじつ}"], answer: 0, en: "Once the summer holidays come, the campsite is crowded with parents and children." },
+            { q: "有名なサッカー選手ともなると（　）。", options: ["コマーシャルの{出演|しゅつえん}料も{高額|こうがく}だ", "マスコミは関心がない"], answer: 0, en: "Once you're a famous soccer player, your fees for appearing in commercials are high too." },
+            { q: "世界1周旅行ともなると（　）。", options: ["荷物は全部準備した", "荷物の準備も大変だ"], answer: 1, en: "When it comes to a round-the-world trip, even packing is a big job." },
           ],
         },
       ],
@@ -91,10 +91,10 @@ N2F({
         { ja: "＊「[なA]／[N]である + の + にひきかえ」の形もある。", en: "The form “なA / N である + の + にひきかえ” also exists." },
       ],
       examples: [
-        { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、{続編|ぞくへん}は100万人にも届かなかったそうだ。", en: "Whereas the first film drew more than 2.5 million viewers, I hear the sequel didn't even reach one million." },
-        { ja: "父親の{死後|しご}、2人の兄が家や土地をもらったのにひきかえ、{末|すえ}の弟に残されたのはなぜか1冊の古いノートだけだった。", en: "After their father's death, the two elder brothers received the house and the land, whereas all that was left to the youngest brother, for some reason, was a single old notebook." },
-        { ja: "{災害時|さいがいじ}、{迅速|じんそく}に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "In the disaster, in contrast to the private groups that responded swiftly, the government's slow response stood out." },
-        { ja: "{佐藤|さとう}君の作品が{独創的|どくそうてき}であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and lacks interest." },
+        { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、{続編|ぞくへん}は100万人にも届かなかったそうだ。", en: "Whereas the previous film drew more than 2.5 million viewers, I hear the sequel didn't even reach one million." },
+        { ja: "父親の{死後|しご}、2人の兄が家や土地をもらったのにひきかえ、{末|すえ}の弟に残されたのはなぜか1冊の古いノートだけだった。", en: "After their father died, the two elder brothers got the house and the land, whereas all that was left to the youngest brother, for some reason, was a single old notebook." },
+        { ja: "{災害時|さいがいじ}、{迅速|じんそく}に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "During the disaster, in contrast to the private groups, which responded swiftly, the government was conspicuously slow to respond." },
+        { ja: "{佐藤|さとう}君の作品が{独創的|どくそうてき}であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and rather dull." },
       ],
       deepDive:
         "**〜にひきかえ** (引き換え, *exchange*) sets two things side by side and stresses that they are **complete opposites**: 気楽な学生時代にひきかえ、社会人は多くのストレスを抱える. The two items are usually of the same kind (two films, two brothers, two groups, two people's work), and one is good while the other is bad.\n\n" +
@@ -105,7 +105,8 @@ N2F({
         "Nuance: it is a written, somewhat formal expression that carries the **speaker's evaluation** — often admiration for one side and criticism or disappointment for the other (the government's slow response, Yamashita's dull work). It is not a neutral comparison of facts.\n\n" +
         "Compare:\n" +
         "- **〜に対して** (N2): neutral contrast (兄は背が高いのに対して、弟は低い). にひきかえ is stronger and more subjective.\n" +
-        "- **〜反面 / 〜一方で**: two sides of *the same* thing (便利な反面、危険もある). にひきかえ contrasts *two different* things.\n" +
+        "- **〜反面**: two sides of *the same* thing (便利な反面、危険もある). にひきかえ contrasts *two different* things.\n" +
+        "- **〜一方(で)**: can set two different things side by side too, but neutrally; it does not carry にひきかえ's evaluative *how different they are!*\n" +
         "- **〜のに** alone expresses surprise/dissatisfaction about one situation; のにひきかえ needs two contrasted parties.\n\n" +
         "JLPT tip: look for a pair of parallel subjects with opposite evaluations (上がった／下がった, 迅速／遅れ). That structure plus a blank after の or a noun points to にひきかえ.",
       see: [],
@@ -121,13 +122,13 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜もさることながら…」は「この車はデザインもさることながら、性能もいい」のように「〜だけでなく…も」と言いたいときに使われる。「車選びはデザインもさることながら、安全性を{重視|じゅうし}すべきだ」のように「〜も大切だが…はもっと重要だ」と言いたいときにも使う。",
-        en: "“〜もさることながら…” is used when you want to say “not only 〜 but also …”, as in “この車はデザインもさることながら、性能もいい” (This car's design is good, of course, but its performance is good too). It is also used when you want to say “〜 is important, but … is even more important”, as in “車選びはデザインもさることながら、安全性を重視すべきだ” (In choosing a car, design matters, but you should put more weight on safety).",
+        en: "“〜もさることながら…” is used when you want to say “not only 〜 but also …”, as in “この車はデザインもさることながら、性能もいい” (This car has a great design, and good performance too). It is also used when you want to say “〜 is important too, but … is even more important”, as in “車選びはデザインもさることながら、安全性を重視すべきだ” (When choosing a car, design matters, of course, but safety should come first).",
       },
       forms: ["[N] + もさることながら"],
       examples: [
-        { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, you need not only to rehydrate but also to take in a moderate amount of salt and the like." },
+        { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, you need not only to drink enough fluids but also to take in a moderate amount of salt and other minerals." },
         { ja: "{少子化|しょうしか}の原因は、{晩婚化|ばんこんか}もさることながら、教育費の負担の大きさにもある。", en: "The declining birthrate is caused not only by people marrying later but also by the heavy burden of education costs." },
-        { ja: "学生{街|がい}のレストランは味もさることながら、量が多いことが第一条件だと言わる。", en: "It is said that for a restaurant in a student area, taste matters of course, but the first requirement is big portions." },
+        { ja: "学生{街|がい}のレストランは味もさることながら、量が多いことが第一条件だと言わる。", en: "They say that for a restaurant in a student district, taste matters, of course, but the number one requirement is big portions." },
       ],
       deepDive:
         "**〜もさることながら** comes from the classical さる (然る, *being so*) + こと + ながら (*while*): literally *while ~ is of course so*. It first **acknowledges A as important or obvious**, then adds B, which the speaker wants to emphasise: 仕事の内容や待遇の問題もさることながら、「人間関係」が常に上位に挙がっています.\n\n" +
@@ -151,7 +152,7 @@ N2F({
           prompt: { ja: "", en: "Choose the sentence that has the same meaning as the first sentence." },
           items: [
             { q: "専門知識はもちろん必要だが、コミュニケーション能力はもっと必要だ。", options: ["専門知識もさることながら、コミュニケーション能力も必要だ。", "コミュニケーション能力もさることながら、専門知識も必要だ。"], answer: 0, en: "Specialist knowledge is of course necessary, but communication skills are even more necessary.", why: { en: "The item that is acknowledged first (専門知識) goes before もさることながら; the one being emphasised comes after." } },
-            { q: "健康のためにはもちろん{治療|ちりょう}も大切だが、それ以上に病気予防に努力する必要がある。", options: ["健康のためには予防もさることながら、{治療|ちりょう}に努力すべきだ。", "健康のためには{治療|ちりょう}もさることながら、予防に努力すべきだ。"], answer: 1, en: "For your health, treatment is of course important, but you need to put even more effort into preventing illness." },
+            { q: "健康のためにはもちろん{治療|ちりょう}も大切だが、それ以上に病気予防に努力する必要がある。", options: ["健康のためには予防もさることながら、{治療|ちりょう}に努力すべきだ。", "健康のためには{治療|ちりょう}もさることながら、予防に努力すべきだ。"], answer: 1, en: "For your health, treatment is of course important, but you need to put even more effort into preventing illness.", why: { en: "The sentence puts more weight on 予防, so 治療 (the point acknowledged first) goes before もさることながら and 予防 comes after it." } },
           ],
         },
       ],
@@ -183,7 +184,7 @@ N2F({
           stars: 2,
           examples: [
             { ja: "たとえどんな理由であれ、{暴力|ぼうりょく}は許されない。", en: "Whatever the reason, violence cannot be tolerated." },
-            { ja: "どこであれ、あなたの行くところへ私もついて行きたい。", en: "Wherever it may be, I want to follow you wherever you go." },
+            { ja: "どこであれ、あなたの行くところへ私もついて行きたい。", en: "No matter where it is, I want to go with you wherever you go." },
           ],
         },
       ],
@@ -253,7 +254,7 @@ N2F({
           labels: "ab",
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
-            { q: "どんな{組織|そしき}のリーダーでも、状況に{即|そく}した（　）が求められるものだ。", options: ["理想", "判断"], answer: 1, en: "The leader of any organisation is expected to make judgements that fit the situation." },
+            { q: "どんな{組織|そしき}のリーダーでも、状況に{即|そく}した（　）が求められるものだ。", options: ["理想", "判断"], answer: 1, en: "The leader of any organisation is expected to make judgements that fit the situation at hand." },
             { q: "{顧客|こきゃく}のニーズに{即|そく}した（　）が{企業|きぎょう}の生き残りの道だ。", options: ["商品開発", "{市場|しじょう}調査"], answer: 0, en: "Developing products that match customers' needs is the way for a company to survive." },
             { q: "{本校|ほんこう}では（　）に{則|そく}して、成績{優秀者|ゆうしゅうしゃ}に{奨学金|しょうがくきん}が与えられることになっている。", options: ["校長", "{規定|きてい}"], answer: 1, en: "At this school, in accordance with the regulations, scholarships are awarded to students with outstanding grades." },
           ],
@@ -275,10 +276,10 @@ N2F({
       forms: ["[N] + をおいて他にない"],
       formNotes: [{ ja: "＊「〜をおいて他にいない」の形も使われる。", en: "The form “〜をおいて他にいない” is also used." }],
       examples: [
-        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, there's no time like now, while the economy is picking up." },
-        { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only choice." },
+        { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favourable terms, now, while the economy is picking up, is the time to do it — there is no better time." },
+        { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only place." },
         { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
-        { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judging from every angle — career, character and achievements — there is probably no one but him for the next president." },
+        { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president." },
       ],
       notes: [
         {
@@ -300,7 +301,7 @@ N2F({
         "- **〜なしには〜ない**: *without ~, … can't happen* — a necessary condition, not uniqueness.\n" +
         "- **〜をぬきにして(は)**: *leaving ~ out* — 恩師をぬきにして同窓会は開けない = *we can't hold the reunion without our old teacher*.\n" +
         "- **〜しかない / 〜以外にない**: plain everyday equivalents; をおいて is more formal and evaluative.\n\n" +
-        "Pitfall: don't use it for negative uniqueness (✗犯人は彼をおいて他にいない sounds strange — use 彼しかいない / 彼以外に考えられない).\n\n" +
+        "Pitfall: because it carries a positive evaluation, it sounds odd when the only candidate is something bad; for 犯人 (the culprit) and the like, 彼しかいない / 彼以外に考えられない is the natural choice.\n\n" +
         "JLPT tip: 他に + ない/いない at the end of the sentence and a noun before the blank → をおいて.",
       see: [17],
       index: ["Nをおいて他にない", "Nをおいて他にいない", "何をおいても", "をおいて"],
@@ -327,7 +328,7 @@ N2F({
         { q: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい{病弱|びょうじゃく}だ。", answer: "にひきかえ", en: "In contrast to his robust older brother, the younger brother is so sickly that he ends up in hospital even with a cold." },
         { q: "一流の{通訳|つうやく}＿＿、いろいろな分野の知識が要求されるそうだ。", answer: "ともなると", en: "I hear that when you're a top-class interpreter, you're expected to have knowledge of all kinds of fields." },
         { q: "{我|わ}が{社|しゃ}の{顧客|こきゃく}情報は、個人情報{保護|ほご}法＿＿{適正|てきせい}に処理し、管理{致|いた}します。", answer: "に{則|そく}して", en: "Our company processes and manages customer information properly in accordance with the Personal Information Protection Act." },
-        { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say there's no one but lawyer Sato." },
+        { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say there's no one to match lawyer Sato." },
       ],
     },
     {
@@ -335,9 +336,9 @@ N2F({
       prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
       bank: ["をおいても", "もさることながら", "であれ"],
       items: [
-        { q: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", answer: "をおいても", en: "Because samurai had to rush to their lord's side before anything else in an emergency, they apparently couldn't leave their land as they pleased." },
+        { q: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", answer: "をおいても", en: "Because samurai had to drop everything and rush to their lord's side in an emergency, they apparently couldn't leave their land as they pleased." },
         { q: "きっかけは何＿＿、走ることが楽しいと感じるようになればいいですね。", answer: "であれ", en: "Whatever got you started, it would be great if you came to find running enjoyable." },
-        { q: "メロディーの美しさ＿＿、子どもたちの{澄|す}んだ{歌声|うたごえ}が印象に残った。", answer: "もさることながら", en: "The beauty of the melody, of course, but even more the children's clear singing voices left an impression on me." },
+        { q: "メロディーの美しさ＿＿、子どもたちの{澄|す}んだ{歌声|うたごえ}が印象に残った。", answer: "もさることながら", en: "The melody was beautiful, of course, but what really stayed with me was the children's clear singing voices." },
       ],
     },
   ],
