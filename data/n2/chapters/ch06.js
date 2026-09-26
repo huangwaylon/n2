@@ -971,7 +971,7 @@ N2.register({
                     "わけではない"
                   ],
                   "answer": 1,
-                  "en": "It's not that there's a program I want to watch, but I always end up turning on the TV."
+                  "en": "It's not that there's any particular program I want to watch, but I always end up turning on the TV anyway."
                 },
                 {
                   "q": "{駐車|ちゅうしゃ}{違反|いはん}をしてしまったので、{罰金|ばっきん}を{払|はら}わない（　）。{給料|きゅうりょう}{日|び}{前|まえ}なのに、つらいなあ…。",
@@ -1058,7 +1058,7 @@ N2.register({
             },
             {
               "ja": "{娘|むすめ}は{体験学習|たいけんがくしゅう}の{際|さい}に、お母さんになったつもりで赤ちゃんのお{世話|せわ}をしたそうだ。",
-              "en": "I hear that during a hands-on learning activity, my daughter looked after a baby, pretending she was its mother."
+              "en": "I hear that during a hands-on learning activity, my daughter looked after a baby as if she were its mother."
             },
             {
               "ja": "いつまでも若いつもりで{徹夜|てつや}してると体を{壊|こわ}すよ。",
@@ -1319,7 +1319,7 @@ N2.register({
               0
             ],
             "star": 2,
-            "en": "To become a good conversationalist, listen carefully to what people say as if you were a reporter, get information, and increase your topics of conversation."
+            "en": "To become a good conversationalist, listen carefully to what people say as if you were a reporter, gather information, and build up a stock of things to talk about."
           }
         ]
       }
@@ -1468,7 +1468,7 @@ N2.register({
               "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...",
               "You still look pale. At the store, Ito-san came in to cover for you, so there's no need to worry about it.",
               "Huh? I thought Ito-san had something to do yesterday...",
-              "She did say so, but I talked her into it even though it was a big ask. Well, why don't you just cover for her next time?",
+              "Ito-san did say so, but I pushed and asked anyway. Well, why don't you just cover for Ito-san next time?",
               "What did Ito-san do yesterday?"
             ],
             "options": [

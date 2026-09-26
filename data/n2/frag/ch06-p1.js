@@ -203,7 +203,7 @@ N2F({
           prompt: { ja: "", en: "Choose the correct option." },
           items: [
             { q: "明日は{朝一|あさいち}で会議があるので{寝坊|ねぼう}する（　）。", options: ["わけにはいかない", "わけではない"], answer: 0, en: "I have a meeting first thing tomorrow morning, so I can't afford to oversleep." },
-            { q: "見たい{番組|ばんぐみ}がある（　）が、いつもテレビをつけてしまう。", options: ["わけにはいかない", "わけではない"], answer: 1, en: "It's not that there's a program I want to watch, but I always end up turning on the TV." },
+            { q: "見たい{番組|ばんぐみ}がある（　）が、いつもテレビをつけてしまう。", options: ["わけにはいかない", "わけではない"], answer: 1, en: "It's not that there's any particular program I want to watch, but I always end up turning on the TV anyway." },
             { q: "{駐車|ちゅうしゃ}{違反|いはん}をしてしまったので、{罰金|ばっきん}を{払|はら}わない（　）。{給料|きゅうりょう}{日|び}{前|まえ}なのに、つらいなあ…。", options: ["わけにはいかない", "わけではない"], answer: 0, en: "I got a parking ticket, so I have no choice but to pay the fine. And right before payday, too — that hurts…" },
           ],
         },
@@ -247,7 +247,7 @@ N2F({
       forms: ["[V-た]／[いA]／[なA] な／[N] の + つもり"],
       examples: [
         { ja: "旅行に行ったつもりで、この「{列車|れっしゃ}の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy watching this \"Train Journey\" DVD and imagine we've gone on a trip." },
-        { ja: "{娘|むすめ}は{体験学習|たいけんがくしゅう}の{際|さい}に、お母さんになったつもりで赤ちゃんのお{世話|せわ}をしたそうだ。", en: "I hear that during a hands-on learning activity, my daughter looked after a baby, pretending she was its mother." },
+        { ja: "{娘|むすめ}は{体験学習|たいけんがくしゅう}の{際|さい}に、お母さんになったつもりで赤ちゃんのお{世話|せわ}をしたそうだ。", en: "I hear that during a hands-on learning activity, my daughter looked after a baby as if she were its mother." },
         { ja: "いつまでも若いつもりで{徹夜|てつや}してると体を{壊|こわ}すよ。", en: "If you keep pulling all-nighters thinking you're as young as ever, you'll ruin your health." },
         { ja: "ヘルパーさんは、本当の家族のつもりでお{年寄|としよ}りの{世話|せわ}をしていると言っていた。", en: "The caregiver said she looks after the elderly as if they were her own family." },
       ],
