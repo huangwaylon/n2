@@ -15,7 +15,7 @@ N2F({ ch: 7, review: [
           why: { en: "V-る + までだ = “I'll just do that (there's no other way)”, a resolute last resort after いざとなったら." } },
         { q: "運動は健康{維持|いじ}に{欠|か}かせない。{高齢者|こうれいしゃ}に限らず、{若者|わかもの}（　）同じことだ。",
           options: ["にすれば", "にしたところで", "に{先立|さきだ}って", "に対して"], answer: 1,
-          en: "Exercise is indispensable for staying healthy. This is not limited to the elderly; the same goes for young people too.",
+          en: "Exercise is indispensable for staying healthy. Not only for the elderly — even for young people, it's just the same.",
           why: { en: "N + にしたところで = “even for N (it's the same)”, matching 同じことだ." } },
         { q: "{山桜|やまざくら}は人が（　）、春になれば咲くということを{繰|く}り{返|かえ}してきた。",
           options: ["見ようと見るまいと", "見るなり聞くなり", "見れば見るほど", "見るやら聞くやら"], answer: 0,

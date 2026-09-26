@@ -1136,7 +1136,7 @@ N2.register({
       "canDo": [
         {
           "ja": "仕事の結果について、{振|ふ}り返りながら社内で話ができる。",
-          "en": "Talk at the office about the results of your work while looking back on them."
+          "en": "Talk at the office about the results of your work, looking back on how things went."
         }
       ],
       "sample": {
@@ -1171,7 +1171,7 @@ N2.register({
             "sp": "部長",
             "v": "m",
             "ja": "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。",
-            "en": "In that case, shall we try handing out pamphlets to everyone we can find?"
+            "en": "In that case, maybe we should try handing out pamphlets to anyone and everyone, left and right."
           },
           {
             "sp": "{本田|ほんだ}",
@@ -1668,7 +1668,7 @@ N2.register({
               "に対して"
             ],
             "answer": 1,
-            "en": "Exercise is indispensable for staying healthy. This is not limited to the elderly; the same goes for young people too.",
+            "en": "Exercise is indispensable for staying healthy. Not only for the elderly — even for young people, it's just the same.",
             "why": {
               "en": "N + にしたところで = “even for N (it's the same)”, matching 同じことだ."
             }

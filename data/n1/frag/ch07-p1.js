@@ -5,7 +5,7 @@ N2F({
   canDo: [
     {
       ja: "仕事の結果について、{振|ふ}り返りながら社内で話ができる。",
-      en: "Talk at the office about the results of your work while looking back on them.",
+      en: "Talk at the office about the results of your work, looking back on how things went.",
     },
   ],
   sample: {
@@ -16,7 +16,7 @@ N2F({
       { sp: "{本田|ほんだ}", v: "m", ja: "すみません、部長。{僕|ぼく}があのとき商品の説明をしっかりしていれば……。", en: "I'm sorry, sir. If only I had explained the product properly back then…" },
       { sp: "部長", v: "m", ja: "いや、君のせいじゃないよ。アポが取れなかったんだから、{契約|けいやく}を取**ろうにも**取れ**ない**じゃないか。", en: "No, it's not your fault. We couldn't get an appointment, so even if we'd wanted to win the contract, we couldn't have." },
       { sp: "{本田|ほんだ}", v: "m", ja: "でも、ほんとに{悔|くや}しいっす※。", en: "But it's really frustrating.*" },
-      { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "In that case, shall we try handing out pamphlets to everyone we can find?" },
+      { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "In that case, maybe we should try handing out pamphlets to anyone and everyone, left and right." },
       { sp: "{本田|ほんだ}", v: "m", ja: "そうですね。カプテック社**にしたところで**あの条件では、そんなに{儲|もう}かるはずないですよね。毎年リース料を下げ続けるなんて。", en: "Right. Even Captec can't be making much money on those terms, can they? Lowering the lease fee every single year." },
       { sp: "部長", v: "m", ja: "そうだよ。{契約|けいやく}しなくて{正解|せいかい}だったんだよ。どんな条件で{契約|けいやく}したか知らないが、{仮|かり}に本当に10%ずつ下げ続けたら……。", en: "That's right. Not signing that contract was the right call. I don't know what terms they signed on, but if they really keep cutting it by 10% a year…" },
       { sp: "{本田|ほんだ}", v: "m", ja: "10年後はリース料ただですよ。カプテック社も{馬鹿|ばか}だな。ははははははは。元気出てきた。部長、{僕|ぼく}、次こそいい条件で{契約|けいやく}を取っ**てみせます**よ。", en: "In ten years the lease will be free! Captec are idiots. Hahahahaha. I feel better now. Sir, next time I'll win us a contract on good terms — just watch." },
