@@ -37,7 +37,7 @@ N2F({
       marks: ["casual"],
       usage: {
         ja: "「〜じゃあるまいし」は「〜なら仕方がないが、そうではないのだから」と、相手に対する批判や意見を言いたいときに使う。",
-        en: "“〜じゃあるまいし” is used to criticize someone or give your opinion, in the sense of “if it were 〜 it couldn't be helped, but it isn't, so…”.",
+        en: "“〜じゃあるまいし” is used when you want to criticize the other person or tell them what you think, with the sense “if it were 〜, that would be understandable, but it isn't, so…”.",
       },
       forms: ["[N] + じゃあるまいし", "[N] + ではあるまいし"],
       formNotes: [
@@ -82,7 +82,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜んばかり」は「{壊|こわ}さんばかりにドアをたたく」のように「今にも〜しそうな様子だ」という意味で、程度が非常に高いと感じたときに使われる。",
-        en: "“〜んばかり” means “looking as if it is about to 〜 at any moment”, as in “{壊|こわ}さんばかりにドアをたたく”; it is used when you feel that the degree of something is extremely high.",
+        en: "“〜んばかり” means “looking as if it is about to 〜 at any moment”, as in “{壊|こわ}さんばかりにドアをたたく” (pounding on the door as if to break it down). It is used when you feel that the degree of something is extremely high.",
       },
       forms: ["[V-~~ない~~] + んばかり"],
       formNotes: [{ ja: "＊「する」は「せんばかり」になる。", en: "*する becomes せんばかり." }],
@@ -175,7 +175,7 @@ N2F({
       marks: [],
       usage: {
         ja: "「〜ものを」は「〜のに」と、相手を非難するときに使われる。「急げば間に合ったものを」のように「AばBものを」の形で「Aしなかったので（急がなかったので）、Bと反対の悪い結果になった（間に合わなかった）。なぜAしなかったのか」と言いたいときに使われることが多い。",
-        en: "Like “〜のに”, “〜ものを” is used to reproach someone. It is often used in the form “AばBものを”, as in “急げば間に合ったものを”, to say “because you didn't do A (didn't hurry), the bad result opposite to B happened (you didn't make it). Why didn't you do A?”",
+        en: "“〜ものを” means much the same as “〜のに” and is used to reproach someone. It is often used in the form “AばBものを”, as in “急げば間に合ったものを” (if you'd hurried, you'd have made it), to say “because you didn't do A (didn't hurry), the bad result opposite to B happened (you didn't make it) — why didn't you do A?”",
       },
       forms: ["[Pl] + ものを\n［[なA~~だ~~]な　[N~~だ~~]な］"],
       formNotes: [{ ja: "＊「〜ものを……。」と、後ろを省略することもある。", en: "*The rest of the sentence may be left out, as in “〜ものを……。”" }],
@@ -187,7 +187,7 @@ N2F({
       ],
       deepDive:
         "**〜ものを** is a literary relative of **〜のに** (*and yet / if only*). It expresses dissatisfaction, reproach or regret that something **didn't turn out as it could have**. The classic pattern is **Aば／Aたら B ものを**: *if A had been done, B would have resulted — but it wasn't*. (早く来れば空いていたものを).\n\n" +
-        "Connection: plain form + ものを; な-adjectives and nouns take な (ハッピーなものを, 絶好のチャンスだったものを uses the past だった). The second half is usually a criticism (どうしてしゃべっちゃったんだ), a bad outcome, or is omitted altogether (〜ものを……。), leaving the regret hanging — as the 部長 does in the sample.\n\n" +
+        "Connection: plain form + ものを; in the non-past, な-adjectives and nouns take な instead of だ (ハッピーなものを), while the past keeps だった (絶好のチャンスだったものを). The second half is usually a criticism (どうしてしゃべっちゃったんだ), a bad outcome, or is omitted altogether (〜ものを……。), leaving the regret hanging — as the 部長 does in the sample.\n\n" +
         "Nuance:\n- Stronger and more emotional than のに; slightly old-fashioned/written, but used in speech for reproach.\n- Often directed at another person (blame) but also at oneself (regret: 手術をしないですんだものを……).\n- Commonly with 〜ばいい／〜ばよかった: すればいいものを, 言えばよかったものを.\n\n" +
         "Compare:\n- **〜のに**: everyday, neutral. ものを is more literary and more reproachful.\n- **〜ものの** (N2, *although*): factual concession with no blame: 買ったものの、使っていない.\n- **〜ものだ / 〜ものなら / 〜ものか**: other もの patterns; only ものを carries this ‘if only… but’ reproach.\n\n" +
         "JLPT tip: look for a counterfactual conditional (〜ば／〜たら／〜ていれば) before the blank and an unwanted result or a why-question after it.",
@@ -314,7 +314,7 @@ N2F({
         "**V-（よ）うが / V-（よ）うと** is a strong, somewhat literary *no matter (what/how) ~ / even if ~*. It uses the volitional form (行こう, しよう, 言おう, かかろう) + が or と, and the main clause states a determination that won't change or an unchangeable fact.\n\n" +
         "- **With question words** (most common): 誰が何と言おうが, どこへ行こうと, どんなに〜しようが, いくら〜しようが.\n- **With たとえ**: たとえ台風が上陸しようが.\n- **が and と are interchangeable** in this use.\n- Adjectives and nouns: 高かろうが (い-adj → 〜かろう), 静かだろうが, 雨だろうと (な-adj/noun → だろう).\n- Pairs: 雨が降ろうが風が吹こうが (two different events) — see also #79 for the ‘A or not A’ version.\n\n" +
         "Register: stronger and more emphatic than 〜ても; common in determined speech (部長: 相手が何を言おうが…宣伝しなきゃだめじゃないか) and in writing. Rough speech like ③ (俺の知ったことか) shows it's not only formal.\n\n" +
-        "Compare:\n- **〜ても / 〜たって**: neutral *even if*.\n- **〜としても** (N2): hypothetical concession, weaker.\n- **〜にかかわらず / 〜を問わず** (N2): *regardless of* — attach to nouns, factual and impersonal.\n- **〜であれ** (#38): *whether it is ~*, noun-based, formal.\n- **〜ようにも〜ない** (#84): same volitional form but means *want to but can't*.\n\n" +
+        "Compare:\n- **〜ても / 〜たって**: neutral *even if*.\n- **〜としても** (N2): hypothetical concession, weaker.\n- **〜にかかわらず / 〜を問わず** (N2): *regardless of* — attach to nouns, factual and impersonal.\n- **〜であれ〜であれ** (#38): *whether it is A or B*, noun-based, formal.\n- **〜ようにも〜ない** (#84): same volitional form but means *want to but can't*.\n\n" +
         "Pitfall: the main clause must be something that holds regardless of the condition (a refusal, a determination, an unchangeable fact). ✗いくら頼もうが、手伝ってくれるだろう is odd because the result follows from the asking instead of resisting it.\n\n" +
         "JLPT tip: a question word or いくら/どんなに + blank → 〜ようが／〜ようと.",
       see: [79, 84],
@@ -353,8 +353,8 @@ N2F({
       ],
       notes: [
         {
-          ja: "「[V₁-よう]が／と＋[V₂-よう]が／と」「[いA₁]~~い~~かろう＋が／と＋[いA₂]~~い~~かろう＋が／と」「[N₁]／[なA₁]だろう＋が／と＋[N₂]／[なA₂]だろう＋が／と」などの形も同じように使われる。",
-          en: "Forms such as “[V₁-よう]が／と + [V₂-よう]が／と”, “[いA₁]~~い~~かろう + が／と + [いA₂]~~い~~かろう + が／と” and “[N₁]／[なA₁]だろう + が／と + [N₂]／[なA₂]だろう + が／と” are used in the same way.",
+          ja: "「[V₁-よう]が／と＋[V₂-よう]が／と」「[いA₁~~い~~]かろう＋が／と＋[いA₂~~い~~]かろう＋が／と」「[N₁]／[なA₁]だろう＋が／と＋[N₂]／[なA₂]だろう＋が／と」などの形も同じように使われる。",
+          en: "Forms such as “[V₁-よう]が／と + [V₂-よう]が／と”, “[いA₁~~い~~]かろう + が／と + [いA₂~~い~~]かろう + が／と” and “[N₁]／[なA₁]だろう + が／と + [N₂]／[なA₂]だろう + が／と” are used in the same way.",
           examples: [
             { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは{欠|か}かしたことがないそうですよ。", en: "I hear that, whether he has time or not, he has never once skipped his after-meal coffee." },
             { ja: "高かろうが安かろうが、必要なものは買わねばならない。", en: "Expensive or cheap, you have to buy what you need." },
