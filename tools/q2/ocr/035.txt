@@ -1,0 +1,39 @@
+読みのストラテジー 11
+省略された言葉 Word omission in sentences
+In written Japanese, words and phrases are often omitted from sentences when understood from the
+context. This is especially true for topic words and sentence subjects, so you need to analyze the context to
+infer what has been omitted.
+ストラテジー
+▶ As you read a passage, keep in mind the tendency for topic words and sentence subjects to be
+omitted.
+▶ Use the context, especially the immediately preceding sentence, to infer what has been
+omitted
+■例：初めてのハイテクトイレ
+今日、デパートで日本のハイテクトイレを初めて使った。それは、驚きの連続だった。
+まず、自動でフタが開いたことには驚かされた。そして、座ると突然、水の流れる音が
+聞こえてきた。後で友人に聞いてみたら、用を足す音が聞こえないようにするためのも
+（c）
+のだと教えてくれた。
+（d）
+でも、一番驚いたのは、便座が温かかったことだ。寒い時に座っても冷たくないよう
+に、温度が調整できるようになっているらしい。そして、便座から立ち上がると自動で
+水が流れ、フタが閉まった。初めて体験したが、入ってから出るまで本当にすべてがマ
+ジックのようだった。
+単語
+用を足す to relieve oneself
+・ The topic of this passage isハイテクトイレ、With this in mind, we can infer that （a）フタ is トイレのフタ、
+and （b）座る means トイレ（の便座）に座る.Thus, we can tell that the word トイレ has been omitted.
+・ The person in this passage who experienced the high-tech toilet is the writer. Consequently, we can
+deduce that the writer is the omitted subject of both （b）（トイレの便座に）座るand （c）聞いてみた。We
+can then see that the subject of （d）教えてくれた is the person whom the writer asked for clarification，
+namely, the 友人、
+・ Also note that the part （c）聞いてみた doesn't state what was asked. One possibility could be that the
+topic word トイレ was dropped, but since the friend's explanation was用を足す音が聞こえないようにす
+るためのもの， we can infer that the omitted question is actually “What is the purpose of 水が流れる音？
+referring to the immediately preceding sentence. As for （e） 体験した， the remainder of the sentence，入っ
+てから出るまで・・・がマジックのようだった， reveals to us that the direct object omitted here is トイレ、
+rather than the フタ discussed in the sentence right before it.
+だれが共有したがるのか。Who is the subject of 共有したがる？（読み物2：行 13～15）
+外国人らはイベントで日本人と連絡先を交換する。今後も一緒に仲間になっ
+て、いろんな趣味を共有したがるのだ。
+008

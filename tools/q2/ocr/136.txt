@@ -1,0 +1,80 @@
+読みのストラテジー 17
+調査結果のグラフ Graphs of survey results
+Graphs in articles presenting survey results and analysis provide good clues for better understanding the
+text.
+ストラテジー
+survey.
+responses.
+▶ Use the title of a graph or figure as a guide for thinking about what question was asked in the
+▶ Make sure you have a correct understanding of the expressions commonly used in survey
+■例：グラフ
+第10 課
+読む
+デ
+あなたの幸せ度は？
+7%
+11%
+22%
+13%
+47%
+A.かなり幸せ
+■B. まあ幸せ
+■C. どちらともいえない
+D. どちらかといえば幸せではない
+E. まったく幸せではない
+書く
+話す
+今
+聞く
+S
+※質問の答えの選択肢で使われる表現
+「かなり」「非常に」「大いに」
+「まあ」「ある程度（to a certain degree）」
+「どちらともいえない」
+「どちらかといえば～」
+「まったく～ない」
+=とても
+＝「とても」ではないが、そうである
+=「はい」でも「いいえ」でもない
+=2つを比べてどちらか1つ選ぶなら、〜
+＝全然〜ない
+・ The graphi's title reveals that the survey question was あなたは（どれくらい）幸せですか。
+・ The results indicate that 13% of the people surveyed selected かなり幸せ as their response, and 47%
+responded with まあ幸せ、 When these two levels of happiness，かなり and まあ， are combined, we see
+that 60% of the respondents feel happy. As this example shows, analyses of survey results sometimes
+take multiple groups with different degrees of the same condition and treat them as a single group.
+調査の質問は何か。また、「どちらか
+といえば」も含めると、「政府の責任だ」
+と答えた人は全体の何%か。What is this
+survey question asking? What percentage
+of all respondents feel that 政府の責任だ、
+including those who selected どちらかとい
+えば？（読み物2：行 10～16）
+図1
+政府の責任だと思うか「失業者対策」
+アメリカ
+16%
+41%
+33%
+10%
+オーストラリア
+13%
+43%
+29%
+15%
+日本
+15%
+38%
+32%
+15%
+チェコ
+11%
+37%
+31%
+20%
+■政府の責任である
+■ どちらかといえば政府の責任である
+どちらかといえば政府の責任ではない
+■政府の責任ではない
+「放送研究と調査 2019年7月号』NHK放送文化研究所
+109

@@ -1,0 +1,75 @@
+最詞と活用の記号 Symbols for Parts of Speech and Conjugations
+品詞と活用形 Parts of Speech and Conjugations
+すべての農連悪
+short form / plain form
+Vる
+Vた
+Vて
+Vます
+Vない
+Vず
+Vば
+V（よ）う
+いAい
+いAくて
+いAに
+いAければ
+なA
+動詞のた
+動詞のて悪
+動詞の語数
+（ます形から「ます」を取った悲）
+動詞のない形
+動詞のない形の古い形
+（ない形から「ない」を取って「ず」をつけた形。
+ただし、「しない」は「せず」になる）
+動詞の素生形
+動詞の意志
+い形育詞の総出
+い形容詞のて悪
+い形容詞の語幹
+（終止形から下む」」を取った形）
+い形容詞の条件形
+じょうけんけい
+（「い」を「ければ」に変えた形）
+な形容詞の語幹
+こかん
+short present form of verb
+short past form of verb
+て-form of verb
+stem of verb
+（form made by omitting ます from ます-form）
+short present negative form of verb
+old negative form of verb
+（form made by omitting ない of ない-form and
+adding ず.Note thatしないbecomesせず.）
+conditional form of verb
+volitional form of verb
+short present form of -adiective
+て-form of -adjective
+stem of c-adjective
+form made by omiting from short present
+conditional form of -adjective
+（form made by replacing い with ければ）
+stem of な-adjective
+noun
+例 Examples
+読む・読まない・読んだ・読まなかった
+大きい・大きくない・大きかった・大きくなかった
+元気だ・元気じゃない・元気だった・元気じゃなかった
+学生だ・学生じゃない・学生だった・学生じゃなかった
+読む食べる来る
+読んだ食べた来た
+読んで食べて来て
+読み食べ来
+読まない食べない来ない
+読まず食べず来ず
+（しない」は「せず」になる）
+読めば食べれば来れば
+読もう食べよう来よう
+大きい
+大きくて
+大き
+大きければ
+元気
+学生

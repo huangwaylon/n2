@@ -1,0 +1,41 @@
+第8課
+読む
+読みのストラテジー 13
+何を説明している例か What does an example explain？
+Writers trying to convey a certain point often explain it by presenting a real instance or other specific
+example. When you encounter such an example, you need to identify where it starts and ends, and
+determine what point it is being used to illustrate.
+ストラテジー
+▶ Look for the word 例えば、
+▶ Watch for hypernyms （broader terms representing a category） and hyponyms （words that fall
+into the category）.
+1「例えば」
+音楽は人の脳（brain）に影響響を与えることができると言われています。例えば、クラシッ
+ク音楽を聞くと集中（concentrate）できるそうです。
+・The point that the writer seeks to convey is the first sentence's 音楽は人の脳に影響を与えることがで
+きる、The writer then uses 例えば to introduce the example of クラシック音楽。
+2） 上位語と下位語 Hypernyms and hyponyms
+また、自然の音にはリラックス効果があると言われています。眠れない時に波（wave）の
+音や鳥の鳴き声を聞くと、気持ちが落ち着きよく眠ることができます。
+• A hypernym is a word with broad meaning that represents a category encompassing other words.
+The words categorized by a hypernym are called hyponyms. For example, if we consider the words
+文字 （character） and ひらがな（hiragana）， we would define 文字 as the hypernym, and ひらがなas
+one of its hyponyms.
+・ A sentence that contains a hyponym is presenting a specific example. In the case of the example
+passage above， 自然の音 functions as a hypernym, and the more specific words 波の音 and 鳥の鳴き
+声 are hyponyms for it. Thus， 波の音や鳥の鳴き声を聞くとよく眠れる provides an example of how 自
+然の音 have a リラックス効果。
+「すずらんの小さな花束」について答えなさい。
+Answer the questions about すずらんの小さな花束．（読み物1：行38~45）
+ーところで、近年、日本を訪れる外国人観光客が増えてきていますが、外国人
+のお客様に対するおもてなしはどのようにされていますか。
+文化や習慣など、その国のことをまずいろいろ調べます。喜ばれるのは国花で
+す。スウェーデンの王室の方がいらっしゃったときは、すずらんの小さな花束を
+20個ほど作り洗面所やベッドの枕の横などに置いたら、うれしいと大感激して
+いただきました。
+（1） すずらんの上位語を探しなさい。What is the hypernym for すずらん？
+（2） すずらんの例では何を説明しているか。For what does すずらん serve as an example？
+君く
+話す
+聞く
+041

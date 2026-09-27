@@ -1,0 +1,70 @@
+読みのストラテジー 16
+データの説明 Explanations of data
+Passages that explain certain data often include （A）調査結果（the results of a survey or study），（B）結果か
+らわかること（conclusions that can be drawn from the results）， and （C） 筆者や専門家の青餐（意見・考え）
+（a discussion of the opinion/interpretation of the writer or an expert）. However, these elements do not
+always follow the order of （A），（B） and （C）. Consequently, as you read such a passage, it's a good idea to
+keep track of which part is whichー（A），（B） or （C）.
+｜ストラテジー」
+▶（A）調査結果 presents specific numbers and comparisons of numbers. Expressions often used
+include words like 達する、占める、とどまる、多い／少ない、高め／低め、最もand～より。
+▶（B）結果からわかること presents what can be said based on the evidence of the results. Expressions
+like 〜がわかる，～がうかがえる、～ようだ，and傾向があるare typically used here. Usually, this part
+follows the results section, but note that there also cases where the order is reversed.
+▶（C）筆者や専門家の考察 does not discuss the survey itself, Instead, it presents the opinion of the
+writer or an expert regarding the results, such as making inferences about the causes behind
+the results, based on the findings of other studies, social factors, and so on.
+■例：家事分担に関する男女の意識の違い
+図1
+1週間の家事時間（育児を除く）
+＜配者と生活している男女別＞
+図1は、配者と生活している人に、1週間にど
+はいぐうしゃ
+■15%
+0時間
+0%
+のくらいの時間、家事（育児を除く）をしているか
+5時間未満
+148%
+7%
+尋ねた結果である。
+5～10時間未満
+男性は、1週間に5時間未満の人が約5割を占め、
+10〜20時間未満
+119%
+11%
+110%
+116%
+0時間の人も15%だった。女性は20～30時間
+20～30時間未満
+13%
+■29%
+未満が一番多く、約3割に達した。また、30時間
+30～40時間未満
+11%
+118%
+以上は、男性では1%にとどまった一方で、女性で
+40時間以上
+0%
+■16%
+■ 3%
+無回答
+は34%にのぼった。
+12%
+■配偶者と生活している男性（356人）
+このことから、女性は家事をしている時間が男性
+配偶者と生活している女性（418人）
+「放送研究と調査 2013年4月号」
+よりかなり長くなっていることがわかる。
+NHK放送文化研究所
+女性の仕事の有無別の調査によると、1週間の平均家事時間は、働いている女性
+が約23時間、働いていない女性が約25時間である。女性の社会進出など家の外
+での男女平等は進んできているが、一方で、家事分担は昔のままで、働いていても、
+働いていない女性と変わらない家事を負担している現状が、このような傾向がみら
+れる要因の一つになっているのではないだろうか。
+次の2文はそれぞれ（A）調査結果、（B）結果からわかること、（C）筆者や専門家の考察のうち
+どれに当たるか。Which element does each of the following two sentences represent： （A）調査結果、（B）
+結果からわかること or （C）筆者や専門家の考察？（読み物1：6~7）
+結婚は当たり前ではなくなった。郵送の世論調査で、結婚は「できるだけする
+べきだ」と思う人は48%で、2012年調査の59%から大きく減った。
+108

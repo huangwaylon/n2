@@ -1,5 +1,7 @@
 // Entry point: loads the book's data files, builds the page shell (top bar, sidebar, footer), routes, wires events.
-// The page (index.html = N2, n1/index.html = N1) loads assets/js/boot.js and data/<book>/book.js first.
+// The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
+// data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
+// for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
 import { ACT, BOOK, TRY, TTS, $, $$, chapterPoints, esc, findPoint, isWide, loadProgress, progress, saveProgress, saveSettings, settings, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
@@ -8,9 +10,8 @@ import { fitOptionCols } from "./exercises.js";
 import { aboutView, canDoView, compareView, drillView, guideView, homeView, indexView, notFound } from "./pages.js";
 
 const SITE = new URL("../../", import.meta.url); // site root
-const BOOKS = [{ id: "n2", label: "N2", dir: "" }, { id: "n1", label: "N1", dir: "n1/" }];
-const PAGES = [["about", "この本について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"],
-  ["compare", "似ている文型", "Compare"], ["cando", "できること", "Can-do"], ["drill", "練習", "Drill"]];
+const BOOKS = [{ id: "n2", label: "N2", dir: "", title: "TRY! N2 文法" }, { id: "n1", label: "N1", dir: "n1/", title: "TRY! N1 文法" },
+  { id: "q2", label: "Q2", dir: "q2/", title: "Quartet II 中級日本語カルテット" }];
 
 // ---------- data ----------
 const loadScript = (src) => new Promise((ok, fail) => {
@@ -21,19 +22,20 @@ const loadScript = (src) => new Promise((ok, fail) => {
 // every file registers itself (TRY.registerChapter sorts), so they load in parallel
 const loadData = () => {
   const dir = new URL(`data/${BOOK().id}/`, SITE);
-  const files = Array.from({ length: BOOK().chapters }, (_, i) => `ch${String(i + 1).padStart(2, "0")}.js`).concat("compare.js", "front.js");
-  return Promise.all(files.map((f) => loadScript(new URL(f, dir))));
+  const files = BOOK().files || Array.from({ length: BOOK().chapters }, (_, i) => `ch${String(i + 1).padStart(2, "0")}.js`).concat("compare.js", "front.js");
+  // a file that fails to load is reported on the page; the rest of the book still renders
+  return Promise.allSettled(files.map((f) => loadScript(new URL(f, dir)))).then((rs) => rs.filter((r) => r.status === "rejected").map((r) => r.reason.message));
 };
 
 // ---------- shell ----------
 function shellHtml() {
   const b = BOOK();
-  const pageLinks = PAGES.map(([id, ja, e]) => `<a href="#/${id}">${ja}<span class="en-inline"> ${e}</span></a>`).join("");
+  const pageLinks = A.pages.map(([id, ja, e]) => `<a href="#/${id}">${ja}<span class="en-inline"> ${e}</span></a>`).join("");
   const select = (id, opts) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`;
   return `<header class="topbar">
   <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
-  <a class="brand" href="#/" aria-label="${b.level} 文法 ホーム Home"><span class="brand-t">文法</span><span class="brand-sub">TRY! companion</span></a>
-  <nav class="book-switch" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""} title="TRY! ${o.label} 文法">${o.label}</a>`).join("")}</nav>
+  <a class="brand" href="#/" aria-label="${esc(b.brand || b.level + " 文法")} ホーム Home"><span class="brand-t">${esc(b.brand || "文法")}</span><span class="brand-sub">${esc(b.brandSub || "TRY! companion")}</span></a>
+  <nav class="book-switch" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.title)}">${o.label}</a>`).join("")}</nav>
   <nav class="topnav" aria-label="ページ Pages">${pageLinks}</nav>
   <div class="toggles">
     <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
@@ -61,7 +63,9 @@ function shellHtml() {
 <footer class="site-foot"><p>${b.footer}</p></footer>`;
 }
 
-// ---------- sidebar ----------
+// ---------- TRY books (n2, n1): pages, sidebar, routes ----------
+const TRY_PAGES = [["about", "この本について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"],
+  ["compare", "似ている文型", "Compare"], ["cando", "できること", "Can-do"], ["drill", "練習", "Drill"]];
 function sidebar() {
   $("#sb-nav").innerHTML = `<ul class="sb-list">${TRY.chapters.map((ch) => `<li class="sb-ch" data-ch="${ch.id}"><a href="#/ch/${ch.id}" class="sb-ch-link"><span class="sb-num">${ch.id}</span><span class="sb-t">${esc(plain(ch.title.ja))}</span><span class="sb-prog" data-prog="${ch.id}"></span></a>
         <ul class="sb-gps">${chapterPoints(ch).map((g) => `<li><a href="#/gp/${g.no}" data-gp="${g.no}"><span class="sb-gpn">${g.no}</span><span class="sb-gpt">${esc(plain(g.pattern))}</span></a></li>`).join("")}
@@ -76,11 +80,7 @@ function updateSidebarProgress() {
     pts.forEach((g) => { const a = $(`[data-gp="${g.no}"]`); if (a) a.classList.toggle("done", !!progress.studied[g.no]); });
   });
 }
-document.addEventListener("try:progress", updateSidebarProgress);
-
-// ---------- router ----------
 // routes are hashes: "" home · ch/N · ch/N/review · gp/N · compare[/group] · about · guide · index · cando · drill
-const hashRoute = () => location.hash.replace(/^#\/?/, "");
 const VIEWS = { guide: guideView, about: aboutView, index: indexView, compare: compareView, cando: canDoView, drill: drillView };
 // the chapter a route shows and the element to scroll to
 function target(h) {
@@ -96,18 +96,28 @@ function viewHtml(h, t) {
   const v = VIEWS[h.split("/")[0]];
   return v ? v() : null;
 }
+const docTitle = (main) => {
+  const ch = main.dataset.ch && TRY.chapters.find((c) => String(c.id) === main.dataset.ch);
+  return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
+};
+// target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
+const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
+let A = TRY_BOOK;
+
+// ---------- router ----------
+const hashRoute = () => location.hash.replace(/^#\/?/, "");
 const markActive = (h) => {
   const p0 = h.split("/")[0];
   $$(".sb-list a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + h));
   $$(".topnav a, .sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
 };
 // layout pass after a render: option columns, furigana overhang, vertical scrollers
-const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); };
+const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
 function route(force) {
   TTS.stop();
-  const h = hashRoute(), main = $("#main"), t = target(h);
+  const h = hashRoute(), main = $("#main"), t = A.target(h);
   if (force || main.dataset.view !== h || h === "drill") {
-    const html = viewHtml(h, t);
+    const html = A.viewHtml(h, t);
     main.innerHTML = html || notFound();
     layout(main);
     main.dataset.view = h;
@@ -119,12 +129,11 @@ function route(force) {
   const el = t.scrollTo && $(t.scrollTo);
   if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
   else window.scrollTo(0, 0);
-  const ch = main.dataset.ch && TRY.chapters.find((c) => String(c.id) === main.dataset.ch);
-  document.title = (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
+  document.title = A.docTitle(main);
 }
 // jumping between the grammar points (or to the review) of the chapter on screen keeps its DOM
 function sameChapterJump() {
-  const h = hashRoute(), t = target(h);
+  const h = hashRoute(), t = A.target(h);
   const el = t.ch && t.scrollTo && String(t.ch) === $("#main").dataset.ch && $(t.scrollTo);
   if (!el) return false;
   el.scrollIntoView({ block: "start" });
@@ -176,7 +185,7 @@ const setSetting = (k, v) => { settings[k] = v; saveSettings(); applySettings();
 // ---------- events ----------
 let fitQueued = 0;
 // readings that appear later (details opened, feedback shown, EN) are fitted once they have a layout
-const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitOptionCols($("#main")); fitRubies($("#main"), all); }); };
+const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitOptionCols($("#main")); fitRubies($("#main"), all); A.layout($("#main"), all); }); };
 
 ACT.en = (t) => t.closest(".bi").classList.toggle("en-open");
 ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) box.classList.toggle("en-all"); };
@@ -191,6 +200,8 @@ ACT["reset-progress"] = () => {
   rerender();
 };
 
+// Quartet readings switch 縦/横 by re-rendering the view (blocks.js ACT.q2vmode)
+document.addEventListener("try:setting-vertical", () => { saveSettings(); applySettings(); rerender(); });
 function wireEvents() {
   document.addEventListener("click", (e) => {
     // close the ⚙ popover on any click outside it
@@ -236,14 +247,17 @@ function wireEvents() {
 }
 
 async function init() {
+  if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
   document.body.dataset.book = BOOK().id;
   document.body.innerHTML = shellHtml();
   loadProgress();
   TTS.load();
   applySettings();
   wireEvents();
-  try { await loadData(); } catch (err) { $("#main").innerHTML = `<p class="err">${esc(err.message)}</p>`; return; }
-  sidebar();
+  const failed = await loadData();
+  A.sidebar();
+  document.addEventListener("try:progress", A.updateProgress);
   route();
+  if (failed.length) $("#main").insertAdjacentHTML("afterbegin", `<p class="err">${failed.map(esc).join("<br>")}</p>`);
 }
 init();

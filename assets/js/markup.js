@@ -22,10 +22,28 @@ function tateChuYoko(html) {
   }).join("");
 }
 export const BLANK_HTML = '<span class="blank">　　　</span>';
+// Quartet II markup (data/Q2-SCHEMA.md): [[text|7]] numbered underline → grammar note 7 ([[text|a]] lettered, [[text|]]
+// continued), {{slot}} practice-pattern slot, !!accent!!, [#3] boxed example number, ❶ step marks, [普] plain-form badge.
+// None of these occur in the TRY data.
+const refHtml = (m, text, tag) => {
+  if (!tag) return `<u class="ref">${text}</u>`;
+  const lab = /^\d+$/.test(tag) ? tag : `(${tag})`;
+  return /^\d+$/.test(tag) ? `<a class="ref" href="#gn-${tag}" data-act="jump" title="文型・表現ノート ${tag}"><u>${text}</u><span class="ref__n">${lab}</span></a>`
+    : `<u class="ref ref--let">${text}<span class="ref__n">${lab}</span></u>`;
+};
+const q2Markup = (t) => t
+  .replace(/\[\[(.+?)\|([0-9a-z]*)\]\]/g, refHtml)
+  .replace(/\{\{(.+?)\}\}/g, '<span class="slot">$1</span>')
+  .replace(/!!(.+?)!!/g, '<span class="acc">$1</span>')
+  .replace(/\^\^(.+?)\^\^/g, '<em class="bouten">$1</em>')
+  .replace(/==(.+?)==/g, '<u class="ul2">$1</u>')
+  .replace(/\[#(\d+)\]/g, '<span class="exno" aria-label="例$1">$1</span>')
+  .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
+  .replace(/[❶-❿]/g, '<span class="step">$&</span>');
 // opts.vertical: 縦中横 for standalone numbers (outside tags and ruby)
 export function fmt(s, opts = {}) {
   if (s == null) return "";
-  let t = rubyMarkup(esc(s).replace(BADGE_RE, badgeHtml))
+  let t = q2Markup(rubyMarkup(esc(s).replace(BADGE_RE, badgeHtml)))
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/__(.+?)__/g, '<u class="ul">$1</u>')
     .replace(/~~(.+?)~~/g, "<s>$1</s>")
@@ -34,7 +52,7 @@ export function fmt(s, opts = {}) {
   return opts.vertical ? tateChuYoko(t) : t;
 }
 // plain text: readings, markup and badges dropped (speech, search, titles)
-export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
+export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|[❶-❿]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
   .replace(/＿＿|（　）/g, "、なになに、").replace(/\[(\d+)\]/g, "、").replace(/\[[^\]]+\]/g, "");
 // English long-form (deepDive): paragraphs separated by a blank line; a block of "- " lines is a bullet list
 export const prose = (s) => (!s ? "" : String(s).split(/\n\s*\n/).map((block) => {
