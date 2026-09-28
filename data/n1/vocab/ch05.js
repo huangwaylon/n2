@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "{怒鳴|どな}る", lv: "N1", pos: "verb (godan)",
     en: "to shout (angrily); to yell at; to bark",
     note: "Raising one's voice in anger or to be heard: 部下を怒鳴る, 怒鳴り声, 怒鳴られる. 叱る is scolding someone for their own good, which need not be loud; 怒鳴る is about the loud voice.",
-    rx: ["どうなる", "おこなる", "どめいる"],
+    rx: ["どうなる", "とうなる", "どめいする"],
     book: { ja: "電話に出たら出たで、どこの{誰|だれ}ともわからんやつに、まったく聞くにたえないような言葉で**{怒鳴|どな}られる**。", en: "When I do answer it, I get yelled at by complete strangers in language that's simply unbearable to listen to.", at: "ch/5" },
     ex: [
       { ja: "{庭|にわ}でボール{遊|あそ}びをしていたら、{隣|となり}のおじいさんに「うるさい！」と**{怒鳴|どな}られた**。", en: "We were playing ball in the yard when the old man next door yelled at us, \"Keep it down!\"", alt: ["{鳴|な}らされた", "{踏|ふ}まれた", "{誘|さそ}われた"] },
