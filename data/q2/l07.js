@@ -1812,7 +1812,7 @@ TRY.registerLesson({
      "tr": [
       "I came to Japan four months ago as an exchange student. At the university I am studying things like the Japanese language and Japanese culture. Living in a foreign culture like Japan's, I make new discoveries every day, and it is stimulating and fun, but there have also been hard times.",
       "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. As this kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
-      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. And I was told, \"It's the same even between Japanese people.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say \"I'd like to go somewhere with you,\" it is often just \"diplomatic talk.\" My roommate also told me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
+      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. And I was told, \"It's the same even between Japanese people.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
       "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to not hide your discomfort or your questions, and to be willing to understand and accept differences."
      ],
      "roles": [
@@ -2187,7 +2187,7 @@ TRY.registerLesson({
               {
                "mark": "×",
                "ja": "ルームメートは私に言いました。",
-               "tr": "My roommate said to me."
+               "tr": "My roommate said to me. (The subject switches to the roommate.)"
               }
              ]
             }
@@ -2475,7 +2475,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "相手との＿＿もあるってことはわかるし、\n絶対に＿＿っていうわけじゃないんだけど、\n昔から……抵抗があって。",
-            "tr": "I know there are also ＿＿ with other people, and it's not that I absolutely ＿＿, but I've always... felt uncomfortable with it."
+            "tr": "I know there are also ＿＿ where people are close to others, and it's not that I absolutely ＿＿, but I've always... felt uncomfortable with it."
            },
            "answer": [
             "{距離|きょり}が近い文化",
@@ -2504,7 +2504,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "相手が何かをしてくれても、それがあまりうれしくない時があります。しかし、それを「嫌だ、{迷惑|めいわく}だ」とはっきり言うのは失礼です。「嫌だ」、「好きじゃない」と言わないで、「苦手」や「慣れない」など、{直接的|ちょくせつてき}ではない（not direct）別の言葉を使いましょう。また、「～て……。」と「て形」で止めて、最後まではっきりと言わない言い方をすると、相手をあまり嫌な気持ちにさせずに済みます。",
+        "ja": "相手が何かをしてくれても、それがあまりうれしくない時があります。しかし、それを「嫌だ、{迷惑|めいわく}だ」とはっきり言うのは失礼です。「嫌だ」、「好きじゃない」と言わないで、「苦手」や「慣れない」など、{直接的|ちょくせつてき}ではない（not direct）別の言葉を使いましょう。また、「〜て……。」と「て形」で止めて、最後まではっきりと言わない言い方をすると、相手をあまり嫌な気持ちにさせずに済みます。",
         "tr": "Even when someone does something for you, there are times when it doesn't make you very happy. However, it's rude to say flatly, \"I hate it\" or \"It's annoying.\" Instead of saying \"I hate it\" or \"I don't like it,\" use other, indirect words such as 苦手 (\"not good with\") or 慣れない (\"not used to\"). Also, if you stop at the te-form, as in \"~て……,\" and speak without spelling everything out to the end, you can avoid making the other person feel too bad."
        }
       },
@@ -2604,7 +2604,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "うん。❹相手との{距離|きょり}が近い文化もあるってことはわかるし、絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**昔からハグされたり、肩や{腕|うで}を組まれたりするのに抵抗があっ**て**……。ボディータッチが多い文化の人と友達になっても、やっぱりまだ慣れなく**て**……。",
-       "tr": "Yeah. I know there are cultures where people get close to each other, and it's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
+       "tr": "Yeah. I know there are cultures where people keep less distance from each other, and it's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
       },
       {
        "sp": "サ",
@@ -2741,7 +2741,7 @@ TRY.registerLesson({
         "tr": "Soften it and give the reason you dislike it"
        },
        "text": {
-        "ja": "絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**\n昔からハグされたり、肩や{腕|うで}を組まれたりするのに抵抗があっ**て**……。",
+        "ja": "絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**\n昔からハグされたり、肩や{腕|うで}を組まれたりするのに\n抵抗があっ**て**……。",
         "tr": "It's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me..."
        }
       },
@@ -2905,7 +2905,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "友達はあなたと一緒に宿題をする時、いつも先に答えを言います。でも、あなたはもう少し自分で考えたいです。友達に上手に伝えなさい。",
-        "tr": "When you do homework together, your friend always blurts out the answers first. But you want to think things through on your own a little longer. Tell your friend tactfully."
+        "tr": "When you do homework together, your friend always says the answers before you can. But you want to think things through on your own a little longer. Tell your friend tactfully."
        }
       },
       {
