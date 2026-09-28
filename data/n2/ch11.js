@@ -135,7 +135,7 @@ TRY.registerChapter({
                   q: "GDPを見ると、データ（　）{豊|ゆた}かになってきているわが国だが、国民の生活{水準|すいじゅん}は高いとは言えず、その{向上|こうじょう}が今後の{課題|かだい}だ。",
                   options: ["{上|じょう}は", "の{上|うえ}に"],
                   answer: 0,
-                  en: "Judging by GDP, our country has been growing richer according to the data, but the people's standard of living can't be called high, and raising it is a challenge for the future., but the people's standard of living can't be called high, and raising it is a challenge for the future.",
+                  en: "Looking at GDP, our country has been growing richer according to the data, but the people's standard of living can't be called high, and raising it is a challenge for the future.",
                   why: { en: "データ上は (read じょう) = \"according to the data, statistically\": N上 (#70), set against the reality that follows (だが…). データの上に would mean \"on top of the data,\" and nothing is being added." },
                 },
                 {
