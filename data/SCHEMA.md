@@ -224,7 +224,9 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ぼしゅ", "ぼうしゅう", "ほしゅう"],     // kanji words: 3 plausible wrong readings (JLPT 漢字読み style)
     book: { ja: "…", en: "…", at: "gp/2" },  // a sentence from the chapter using the word, copied verbatim from the data
                                             //   with the word in **bold** (the chapter's own ** dropped); at = route
-                                            //   of the point (gp/N) or chapter (ch/N, ch/N/review) it comes from
+                                            //   of the point (gp/N) or chapter (ch/N, ch/N/review) it comes from;
+                                            //   a line whose English the book prints (N2 title, can-do, usage, note)
+                                            //   keeps the book's English verbatim and adds src: "book"
     ex: [ { ja: "…**{募集|ぼしゅう}**…", en: "…", alt: ["{応募|おうぼ}", "…", "…"] },   // 1–2 original sentences; the word
           { ja: "…", en: "…" } ] }           //   in **bold**; ex[0].alt = 3 wrong words in the same form (文脈規定 quiz)
 ] });

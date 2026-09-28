@@ -3,7 +3,7 @@
 // warns when a word already appears in an earlier chapter's text.
 //   node tools/vocab-check.js [n2|n1] [chNN …]
 const fs = require("fs"), path = require("path");
-const { bookArg, dataDir, loadBook } = require("./lib/books.js");
+const { bookArg, dataDir, loadBook, isBookEnglish } = require("./lib/books.js");
 const [B, only] = bookArg(process.argv.slice(2));
 const T = loadBook(B);
 const dir = path.join(dataDir(B), "vocab");
@@ -19,6 +19,14 @@ const strings = (o, out = []) => { if (typeof o === "string") out.push(o); else 
 const chText = new Map(T.chapters.filter(Boolean).map((c) => [c.id, strings(c).map(bare)]));
 const gpText = new Map();
 T.chapters.filter(Boolean).forEach((c) => c.parts.forEach((p) => p.points.forEach((g) => gpText.set(g.no, { ch: c.id, s: strings(g).map(bare) }))));
+
+// lines whose English the book prints (N2 titles, can-do, usage, notes): a book sentence quoted from one keeps it
+const bookEn = new Map();
+T.chapters.filter(Boolean).forEach((c) => (function walk(o, p) {
+  if (!o || typeof o !== "object") return;
+  if (typeof o.ja === "string" && o.en && isBookEnglish(T, p, o)) bookEn.set(bare(o.ja), o.en);
+  Object.entries(o).forEach(([k, v]) => walk(v, p ? `${p}.${k}` : k));
+})(c, ""));
 
 let errs = 0, warns = 0, n = 0;
 const seen = new Map();
@@ -58,6 +66,9 @@ for (const v of T.vocab) {
       if (p0 === "ch" && +num !== v.ch) E(id, `book.at ${x.book.at} is not chapter ${v.ch}`);
       if (!pool) E(id, `book.at ${x.book.at}: no such place`);
       else if (!pool.some((s) => s.includes(plainJa))) E(id, `book sentence not found verbatim at ${x.book.at}: ${plainJa.slice(0, 40)}`);
+      const be = bookEn.get(plainJa);
+      if (be != null && (x.book.src !== "book" || x.book.en !== be)) E(id, `book sentence is a line the book translates: src: "book", en: ${JSON.stringify(be)}`);
+      if (be == null && x.book.src === "book") E(id, "src: \"book\" but the book prints no English for this line");
     }
     // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list
     const stem = w.replace(/[ぁ-ゖ]+$/u, "");

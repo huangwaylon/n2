@@ -22,7 +22,7 @@ const atLink = (at) => {
   const [p0, n, p2] = String(at).split("/");
   return p0 === "gp" ? gpLink(+n) : `<a class="gp-link" href="#/${esc(at)}">第${+n}章${p2 === "review" ? " まとめの問題" : ""}</a>`;
 };
-const exLine = (o, extra = "", cls = "") => `<li class="bi vc-ex${cls}">${biInner(o)}${speakBtn(o.ja, "data-small")}${extra}</li>`;
+const exLine = (o, extra = "", cls = "") => `<li class="bi vc-ex${cls}">${biInner(o, { src: o.src })}${speakBtn(o.ja, "data-small")}${extra}</li>`;
 const card = (x) => `<article class="vc" id="vc-${esc(x.key)}" data-lv="${x.lv}" data-s="${esc([plain(x.w), reading(x.w), x.en, x.pos].join(" ").toLowerCase())}" data-en-scope>
     <header class="vc__h"><span class="vc__w ja">${esc(plain(x.w))}</span><span class="vc__r ja">${esc(reading(x.w))}</span>${speakBtn(reading(x.w), "data-small")}
       <span class="vc__lv">${esc(x.lv)}</span><span class="vc__pos">${esc(x.pos || "")}</span>
