@@ -285,7 +285,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "small",
     "text": {
-     "ja": "✎答え▶（1）を　（2）笑__っ__て　（3）泣__かせ__て　（4）a. 食べ__たがっていた__　b. 作__ってあげた__　（5）幸せ__そうだった__\n（6）a. に　b. __もらっ__た　c. 壊__し__て　（7）a. は　b. に　c. __あげ__た　d. 壊__され__て",
+     "ja": "✎答え▶ (1) を　(2) 笑__っ__て　(3) 泣__かせ__て　(4) a. 食べ__たがっていた__　b. 作__ってあげた__　(5) 幸せ__そうだった__\n(6) a. に　b. __もらっ__た　c. 壊__し__て　(7) a. は　b. に　c. __あげ__た　d. 壊__され__て",
      "tr": "Answers: (1) を (2) 笑って (3) 泣かせて (4) a. 食べたがっていた b. 作ってあげた (5) 幸せそうだった (6) a. に b. もらった c. 壊して (7) a. は b. に c. あげた d. 壊されて"
     }
    }
@@ -307,7 +307,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「{一所懸命|いっしょけんめい}」や第8課の読み物1に出てきた「{十人|じゅうにん}{十|と}{色|いろ}」などのように、4つの漢字から作られていて{慣用句|かんようく} (idiom) のように使われるものを「{四字熟語|よじじゅくご}」といいます。四字熟語を知っていると、説明が長くなってしまうことや難しいことを、簡単に言うことができます。",
-     "tr": "Expressions such as 一所懸命 (“with all one's might”) and 十人十色 (“to each their own”), which appeared in Reading 1 of Lesson 8, are made up of four kanji and are used like idioms; they are called yoji-jukugo (four-character idioms). If you know four-character idioms, you can briefly express things that would otherwise take a long explanation, or that are hard to put into words."
+     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"to each their own,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called yoji-jukugo (four-character idioms). If you know four-character idioms, you can say simply things that would otherwise take a long explanation, or that are difficult."
     },
     "page": 202
    },
@@ -721,7 +721,7 @@ TRY.registerUnits([
     "tag": "B",
     "id": "c2-2b",
     "text": {
-     "ja": "人との{関|かか}わり（involvement with people）",
+     "ja": "人との{関|かか}わり (involvement with people)",
      "tr": "Relationships with people"
     }
    },
@@ -739,7 +739,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "一期＝人が生まれてから死ぬまで　一会＝一度の機会、出会い",
-         "tr": "ichigo (一期) = the time from a person's birth to their death; ichie = a single opportunity, an encounter"
+         "tr": "一期 = the time from a person's birth to their death; 一会 = a single opportunity, an encounter"
         }
        },
        {
@@ -990,7 +990,7 @@ TRY.registerUnits([
     "tag": "E",
     "id": "c2-2e",
     "text": {
-     "ja": "人生に役立つ{教訓|きょうくん}（lesson）",
+     "ja": "人生に役立つ{教訓|きょうくん} (lesson)",
      "tr": "Lessons that are useful in life"
     }
    },
@@ -1085,7 +1085,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "「このジュースを飲めば、目がよくなりますよ」と店員さんに言われた。初めは【a. 半信半疑　b. 一喜一憂　c. 四苦八苦】だったが、結局そのジュースを買ってしまった。",
-         "tr": "A store clerk told me, “If you drink this juice, your eyesight will get better.” At first I was …, but in the end I went ahead and bought the juice."
+         "tr": "A store clerk told me, \"If you drink this juice, your eyesight will get better.\" At first I was …, but in the end I went ahead and bought the juice."
         },
         "options": [
          "a. 半信半疑",
@@ -1124,7 +1124,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "私がお気に入りのくつ下を探していたら、母が「探しているのはこれでしょ？」と持ってきてくれた。私と母は【a. 意味深長　b. 単刀直入　c. 以心伝心】の仲だ。",
-         "tr": "While I was looking for my favorite socks, my mother brought them over to me and said, “This is what you're looking for, right?” My mother and I have a … relationship."
+         "tr": "While I was looking for my favorite socks, my mother brought them over to me and said, \"This is what you're looking for, right?\" My mother and I have a … relationship."
         },
         "options": [
          "a. 意味深長",
@@ -1154,7 +1154,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "small",
     "text": {
-     "ja": "✎答え▶（1）b　（2）a　（3）b　（4）a　（5）c　（6）b　（7）c　（8）a",
+     "ja": "✎答え▶ (1) b　(2) a　(3) b　(4) a　(5) c　(6) b　(7) c　(8) a",
      "tr": "Answers: (1) b (2) a (3) b (4) a (5) c (6) b (7) c (8) a"
     }
    }
@@ -1177,7 +1177,7 @@ TRY.registerUnits([
     "page": 206,
     "text": {
      "ja": "第8課の読み物2に出てきた「{灯台|とうだい}もと{暗|くら}し」は「ことわざ」です。このことわざの{由来|ゆらい} (derivation) は「灯台（昔の部屋を明るくするための道具）の周りは明るいが、そのすぐ下は暗い」で、意味は「自分のことや身近なことは、気がつきにくい」です。このように、ことわざとは人々の{知恵|ちえ} (wisdom) を短い言葉にしたもので、昔から多くの人によって伝えられてきました。みんなが知っていることわざを使うと、状況を詳しく説明する必要がなくなったり、{説得力|せっとくりょく}のある (persuasive) 主張ができたりします。",
-     "tr": "“Tōdai moto kurashi” (“It is darkest at the foot of the lamp stand”), which appeared in Reading 2 of Lesson 8, is a kotowaza, a proverb. Its origin is “The area around a tōdai (a device used long ago to light a room) is bright, but right underneath it, it is dark,” and its meaning is “It is hard to notice things about yourself or things close to you.” In this way, a proverb is a piece of people's wisdom put into a few words, and proverbs have been handed down by many people since long ago. Using a proverb everyone knows can save you from having to explain a situation in detail, or let you make a persuasive argument."
+     "tr": "\"Tōdai moto kurashi\" (\"It is darkest at the foot of the lamp stand\"), which appeared in Reading 2 of Lesson 8, is a kotowaza, a proverb. Its origin is \"The area around a tōdai (a device used long ago to light a room) is bright, but right underneath it, it is dark,\" and its meaning is \"It is hard to notice things about yourself or things close to you.\" In this way, a proverb is a piece of people's wisdom put into a few words, and proverbs have been handed down by many people since long ago. Using a proverb everyone knows can save you from having to explain a situation in detail, or let you make a persuasive argument."
     }
    },
    {
@@ -1272,7 +1272,7 @@ TRY.registerUnits([
           },
           {
            "ja": "しなくてもいいことをすると、悪いことが起きるかもしれない。だから、必要ないことはするべきではない。今では「何か行動すると、いいことがあるかもしれない」といういい意味でも使われる。",
-           "tr": "If you do something you don't need to do, something bad may happen. So you shouldn't do things that aren't necessary. Nowadays it is also used in a good sense: “If you take some action, something good may happen.”"
+           "tr": "If you do something you don't need to do, something bad may happen. So you shouldn't do things that aren't necessary. Nowadays it is also used in a good sense: \"If you take some action, something good may happen.\""
           }
          ]
         ]
@@ -1413,7 +1413,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "里＝{距離|きょり}を表す昔の単位 (unit)。ここでは「千里」は、とても遠い距離を表す。",
-         "tr": "ri = an old unit of distance. Here, “a thousand ri” means a very long distance."
+         "tr": "ri = an old unit of distance. Here, \"a thousand ri\" means a very long distance."
         }
        },
        {
@@ -1717,7 +1717,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "急がば{回|まわ}れ",
-       "tr": "If you're in a hurry, go around (≈ more haste, less speed)."
+       "tr": "If you're in a hurry, go the long way around (≈ haste makes waste)."
       },
       "blocks": [
        {
@@ -2119,8 +2119,8 @@ TRY.registerUnits([
     "t": "p",
     "style": "small",
     "text": {
-     "ja": "答え ▶ (1) a　(2) b　(3) b　(4) c",
-     "tr": "Answers: (1) a, (2) b, (3) b, (4) c"
+     "ja": "✎答え▶ (1) a　(2) b　(3) b　(4) c",
+     "tr": "Answers: (1) a (2) b (3) b (4) c"
     }
    }
   ]
@@ -2142,7 +2142,7 @@ TRY.registerUnits([
     "page": 209,
     "text": {
      "ja": "第9課の読み物1に出てきた「びりびり」「じっと」、読み物2に出てきた「くるくる」「ぴかぴか」は「オノマトペ」です。オノマトペには、私たちの周りの実際の音や声を表したもの（{擬音語|ぎおんご} imitative word）と、気持ち、様子、状態などを表したもの（{擬態語|ぎたいご} mimetic word）があります。日本語は、オノマトペを多く使用する言語だと言われています。オノマトペは小説やマンガ、商品の{広告|こうこく}や CM などに使われ、状態や様子などを短くわかりやすく伝えます。意味だけでなく、どんな形で使われるかにも気をつけましょう。",
-     "tr": "“Biribiri” and “jitto,” which appeared in Reading 1 of Lesson 9, and “kurukuru” and “pikapika,” which appeared in Reading 2, are onomatopoeia. Onomatopoeia include words that represent actual sounds and voices around us (giongo, imitative words) and words that represent feelings, appearances, states, and so on (gitaigo, mimetic words). Japanese is said to be a language that uses a lot of onomatopoeia. Onomatopoeia are used in novels, manga, product advertisements, commercials, and so on, and they convey states and appearances briefly and in an easy-to-understand way. Pay attention not only to their meanings but also to the forms in which they are used."
+     "tr": "\"Biribiri\" and \"jitto,\" which appeared in Reading 1 of Lesson 9, and \"kurukuru\" and \"pikapika,\" which appeared in Reading 2, are onomatopoeia. Onomatopoeia include words that represent actual sounds and voices around us (giongo, imitative words) and words that represent feelings, appearances, states, and so on (gitaigo, mimetic words). Japanese is said to be a language that uses a lot of onomatopoeia. Onomatopoeia are used in novels, manga, product advertisements, commercials, and so on, and they convey states and appearances briefly and in an easy-to-understand way. Pay attention not only to their meanings but also to the forms in which they are used."
     }
    },
    {
@@ -2416,7 +2416,7 @@ TRY.registerUnits([
       {
        "text": {
         "ja": "__ぐうぐう__寝る",
-        "tr": "to sleep snoring"
+        "tr": "to be fast asleep, snoring away"
        }
       },
       {
@@ -3659,7 +3659,7 @@ TRY.registerUnits([
     "style": "small",
     "text": {
      "ja": "✎答え▶ (1) __ス__キ__ルアッ__プ　(2) __テー__マ　(3) __フ__リ__ートー__ク　(4) __マス__コ__ミ__　(5) __ウイ__ル__ス__",
-     "tr": "Answers: (1) sukiru appu (skill up) (2) tēma (theme) (3) furī tōku (free talk) (4) masukomi (mass media) (5) uirusu (virus)"
+     "tr": "Answers: (1) sukiru appu (skill up), (2) tēma (theme), (3) furī tōku (free talk), (4) masukomi (mass media), (5) uirusu (virus)"
     }
    }
   ]
@@ -3733,6 +3733,11 @@ TRY.registerUnits([
       "tr": "Land in Hawaii is expensive. So rent is expensive too."
      }
     ]
+   },
+   {
+    "t": "figure",
+    "desc": "Illustration for A: a girl at a window, looking out at the rain with her chin in her hand, thinking of a hiker climbing a mountain trail.",
+    "labels": []
    },
    {
     "t": "box",
@@ -4198,6 +4203,11 @@ TRY.registerUnits([
     }
    },
    {
+    "t": "figure",
+    "desc": "Illustration for B: a smiling man eating a slice of cake from a plate with a ¥100 price tag.",
+    "labels": []
+   },
+   {
     "t": "box",
     "style": "gray",
     "blocks": [
@@ -4460,12 +4470,12 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "この授業はすぐ{眠|ねむ}くなる。__要するに__、おもしろくないということだ。",
-      "tr": "This class makes me sleepy right away. In short, it's boring."
+      "tr": "This class makes me sleepy right away. In short, what that means is it's boring."
      },
      {
       "n": 2,
       "ja": "漢字を1,000字知っていれば、新聞の文字の90%が理解できると言われている。__つまり__、{常用|じょうよう}漢字が半分わかれば、新聞がある{程度|ていど}読めるということだ。",
-      "tr": "It is said that if you know 1,000 kanji, you can understand 90% of the characters in a newspaper. In other words, if you know half of the Joyo kanji, you can read a newspaper to some extent."
+      "tr": "It is said that if you know 1,000 kanji, you can understand 90% of the characters in a newspaper. In other words, if you know half of the Joyo (common-use) kanji, you can read a newspaper to some extent."
      },
      {
       "n": 3,
@@ -4525,7 +4535,7 @@ TRY.registerUnits([
     "style": "small",
     "text": {
      "ja": "✎答え▶ (1) b　(2) c　(3) a　(4) b　(5) a　(6) a",
-     "tr": "Answers: (1) b (2) c (3) a (4) b (5) a (6) a"
+     "tr": "Answers: (1) b, (2) c, (3) a, (4) b, (5) a, (6) a"
     }
    }
   ]

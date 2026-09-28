@@ -416,14 +416,12 @@ a.ref:hover u { background: var(--q-soft); }
 .rd--v .rd-fig { writing-mode: horizontal-tb; width: min(26em, 80vw); margin: 0 1em; }
 .mt-r { list-style: none; padding: 0; margin: 4px 0 10px; display: flex; flex-wrap: wrap; gap: 4px 20px; }
 .mt-r li { display: flex; gap: .4em; }
-.flow__who { margin: 0 0 2px; font: 13px/1.5 var(--goth); color: var(--ink-2); }
 .rd-h__by { font: 700 15px/1.4 var(--goth); color: var(--ink-2); }
 .rd--profile { border: 1.5px solid var(--line); border-radius: 10px; padding: 8px 14px; }
 .rd--profile .rd-h--profile { background: none; padding: 0; font-size: 15px; color: var(--q); }
 .rd--profile .rd-body { font-size: 15px; line-height: 2; }
-.flow__phase { justify-self: stretch; font: 700 13px/1.5 var(--goth); color: var(--q); border-bottom: 1px dashed var(--q); padding-top: 4px; }
 /* long unbroken runs (headings, table cells, labels) wrap instead of pushing the page sideways */
-.q2 .ja, .q2 .bk-en, .q2 .en, .rd-title, .hd-t, .qtbl td, .qtbl th, .flow__l, .flow__who { overflow-wrap: anywhere; }
+.q2 .ja, .q2 .bk-en, .q2 .en, .rd-title, .hd-t, .qtbl td, .qtbl th, .flow__l, .flow__pill { overflow-wrap: anywhere; }
 /* phones: tables fit the column — the "generated" tag (an unbreakable inline box) doesn't set a 100px cell minimum;
    long word-box entries, dialogue labels and flowchart labels wrap */
 .qtbl .en--gen::after { display: none; }
@@ -439,7 +437,7 @@ a.ref:hover u { background: var(--q-soft); }
 body:not(.no-furi) .ref--rb .ref-n { left: auto; right: 100%; margin-right: .1em; }
 /* headings, labels and cells set tighter than text: with a reading under the line they need the text's leading, or a
    reading of a wrapped first line sits on the second (furigana below, as printed) */
-:is(h1, h2, h3, h4, .hd-t, .rd-h__t, .rd-h__by, .flow__l, .flow__who, .flow__head, .bubble__l, .qdlg__title, .gn-pat, .gn-sub__p,
+:is(h1, h2, h3, h4, .hd-t, .rd-h__t, .rd-h__by, .flow__l, .flow__pill, .flow__head, .bubble__l, .qdlg__title, .gn-pat, .gn-sub__p,
   .strat__t, .unit-h__t, .sk-banner__t, .qbox__title, .rd-title, .rd-role, .qtbl td, .qtbl th):has(ruby) { line-height: 1.95; }
 /* ~~struck~~ endings and particles: the book's blue rule (p.143 お年寄り~~が~~まで) — the text colour alone is too faint */
 s { text-decoration: line-through var(--q) 2px; }
@@ -456,3 +454,20 @@ body:not(.no-furi) :is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em
 .qdlg__row--sep .qdlg__say { grid-column: 1 / -1; }
 .swatch { display: inline-block; width: 3.2em; height: 1.1em; vertical-align: -.15em; background: var(--q-gray); margin: 0 .15em; border-radius: 2px; }
 .rd-title--c { text-align: center; }
+/* flowchart: one-role charts have full-width bubbles and no centre line; the lead's pill sits above; phases are a
+   bracket down the right edge with the label on a vertical blue tab (pp.023, 093) */
+.flow--one .flow__steps { background: none; }
+.flow--one .flow__s { max-width: none; justify-self: stretch; }
+.flow__pill { justify-self: start; background: var(--q); color: #fff; border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
+.flow__pill--b { justify-self: end; background: var(--ink-3); }
+.flow__pill b { font-weight: 700; }
+.flow__g { display: grid; grid-template-columns: minmax(0, 1fr) 2.4em; column-gap: 8px; }
+.flow__gs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; align-content: start; }
+.flow__ph { position: relative; border: 2px solid var(--q); border-left: 0; border-radius: 0 8px 8px 0; width: 12px; margin: 4px 0; }
+.flow__ph > span { position: absolute; left: 100%; top: 50%; transform: translate(-50%, -50%); writing-mode: vertical-rl; background: var(--q); color: #fff;
+  border-radius: 999px; padding: 10px 3px; font: 700 14px/1.2 var(--goth); white-space: nowrap; }
+@media (max-width: 600px) {
+  .flow__g { grid-template-columns: 1fr; }
+  .flow__ph { order: -1; width: auto; border: 0; border-bottom: 1px dashed var(--q); border-radius: 0; margin: 0 0 6px; }
+  .flow__ph > span { position: static; transform: none; writing-mode: horizontal-tb; background: none; color: var(--q); padding: 0; font-size: 13px; }
+}

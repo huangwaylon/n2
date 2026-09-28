@@ -144,10 +144,18 @@ const B = {
         <div class="role__h"><span class="role__tag">${fmt(c.tag)}</span><span class="role__who">${fmt(c.who)}</span></div>${roleText(c.text)}</div>`).join("")}</div></div>`;
   },
   flow(b) {
-    return `<div class="flow">${b.head ? `<div class="flow__head"><span>${inl(b.head[0])}</span><span>${inl(b.head[1])}</span></div>` : ""}
-      <ol class="flow__steps">${(b.steps || []).map((s) => `${s.phase ? `<li class="flow__phase">${inl(s.phase)}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
-        ${s.who || s.act ? `<p class="flow__who">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</p>` : ""}
-        ${s.label ? `<p class="flow__l">${s.n ? `<span class="step">${String.fromCodePoint(0x2775 + s.n)}</span>` : ""}${inl(s.label)}</p>` : ""}${line(s.text, "flow__t")}</li>`).join("")}</ol></div>`;
+    // one bubble per step; a lead's name / action ("あなた：できごとを話す") as a pill above its first bubble; bracketed
+    // phases (話し始める / できごとを話す / 話をまとめる) as a bracket with a vertical tab on the right (p.093)
+    const one = !(b.steps || []).some((s) => s.side === "b");
+    const step = (s) => `${s.who || s.act ? `<li class="flow__pill flow__pill--${s.side === "b" ? "b" : "a"}">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
+        ${s.label ? `<p class="flow__l">${s.n ? `<span class="step">${String.fromCodePoint(0x2775 + s.n)}</span>` : ""}${inl(s.label)}</p>` : ""}${line(s.text, "flow__t")}</li>`;
+    const groups = [];
+    (b.steps || []).forEach((s) => { if (s.phase || !groups.length) groups.push({ phase: s.phase, steps: [] }); groups[groups.length - 1].steps.push(s); });
+    const body = groups.some((g) => g.phase)
+      ? groups.map((g) => g.phase ? `<li class="flow__g"><ol class="flow__gs">${g.steps.map(step).join("")}</ol><div class="flow__ph"><span>${inl(g.phase)}</span></div></li>` : g.steps.map(step).join("")).join("")
+      : groups.map((g) => g.steps.map(step).join("")).join("");
+    return `<div class="flow${one ? " flow--one" : ""}">${b.head ? `<div class="flow__head"><span>${inl(b.head[0])}</span><span>${inl(b.head[1])}</span></div>` : ""}
+      <ol class="flow__steps">${body}</ol></div>`;
   },
   bubbles(b, ctx) {
     const id = `${ctx.id || "q"}-bb${seq++}`;
