@@ -67,7 +67,7 @@ Routes are hash routes: `#/` home, `#/ch/N`, `#/ch/N/review`, `#/gp/N` (grammar 
 
 ```sh
 for b in n2 n1; do node tools/check.js $b; node tools/verify-index.js $b; done        # structure, answers, English presence
-for b in n2 n1; do node tools/text-snapshot.js $b | diff tools/$b/text-baseline.txt -; done   # protected text unchanged
+for b in n2 n1 q2; do node tools/text-snapshot.js $b | diff tools/$b/text-baseline.txt -; done   # protected text unchanged
 node tools/q2/check.js && node tools/q2/verify.js                      # Quartet II: structure, markup, tr; vs the book's lists
 node tools/q2/ocr-diff.js data/q2/l07.js 28-59,265                     # Quartet II transcription vs OCR (PDF pages)
 node tools/ocr-diff.js data/n2/ch01.js 18-29      # transcription vs OCR; check every score < 0.9 on the scan
