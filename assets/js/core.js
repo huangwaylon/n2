@@ -61,6 +61,7 @@ export const TTS = {
     return vs.find((x) => (v === "m" ? MALE : FEMALE).test(x.name)) || vs[0] || null;
   },
   stop() {
+    clearTimeout(this.timer);
     if ("speechSynthesis" in window) speechSynthesis.cancel();
     $$(".speaking").forEach((b) => b.classList.remove("speaking"));
   },
@@ -68,20 +69,30 @@ export const TTS = {
   play(queue, btn) {
     if (!("speechSynthesis" in window)) { alert("Speech synthesis isn't available in this browser."); return; }
     const wasPlaying = btn && btn.classList.contains("speaking");
+    const busy = speechSynthesis.speaking || speechSynthesis.pending;
     this.stop();
     if (wasPlaying) return;
     if (btn) btn.classList.add("speaking");
+    if (!this.voices.length) this.load();
     // with a single Japanese voice, pitch tells the speakers apart
     const oneVoice = this.voiceFor("m") === this.voiceFor("f");
-    queue.forEach((item, i) => {
+    const done = () => btn && btn.classList.remove("speaking");
+    // kept on the object: Chrome garbage-collects unreferenced utterances (they stop and never fire "end")
+    this.utts = queue.map((item, i) => {
       const u = new SpeechSynthesisUtterance(item.text);
       u.lang = "ja-JP";
       u.rate = settings.rate;
       const voice = this.voiceFor(item.v);
       if (voice) u.voice = voice;
       if (oneVoice) u.pitch = item.v === "m" ? 0.75 : item.v === "f" ? 1.25 : 1;
-      if (i === queue.length - 1) u.onend = () => btn && btn.classList.remove("speaking");
-      speechSynthesis.speak(u);
+      if (i === queue.length - 1) u.onend = done;
+      u.onerror = (e) => { if (e.error !== "interrupted" && e.error !== "canceled") { console.warn("speech:", e.error); done(); } };
+      return u;
     });
+    // a synthesizer left paused (the tab was hidden mid-speech) stays silent until resume(). WebKit and Blink drop an
+    // utterance queued in the same task as cancel(), so after cancelling speech speak on a later tick; otherwise speak
+    // right away, inside the tap (iOS Safari only lets a user gesture start speech)
+    const go = () => { speechSynthesis.resume(); this.utts.forEach((u) => speechSynthesis.speak(u)); };
+    if (busy) this.timer = setTimeout(go, 80); else go();
   },
 };
