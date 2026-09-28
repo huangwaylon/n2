@@ -141,7 +141,7 @@ const B = {
   // ----- 話す -----
   roles(b) {
     return `<div class="roles">${styleLab(b)}<div class="roles__cards">${(b.cards || []).map((c, i) => `<div class="role${i ? "" : " role--a"}">
-        <div class="role__h"><span class="role__tag">${fmt(c.tag)}</span><span class="role__who">${fmt(c.who)}</span></div>${line(c.text, "role__t")}</div>`).join("")}</div></div>`;
+        <div class="role__h"><span class="role__tag">${fmt(c.tag)}</span><span class="role__who">${fmt(c.who)}</span></div>${roleText(c.text)}</div>`).join("")}</div></div>`;
   },
   flow(b) {
     return `<div class="flow">${b.head ? `<div class="flow__head"><span>${inl(b.head[0])}</span><span>${inl(b.head[1])}</span></div>` : ""}
@@ -227,6 +227,9 @@ const B = {
 const styleLab = (b) => (b.style || b.styleLabel ? `<p class="qdlg__style">${b.style === "casual" ? "👕" : "👔"} ${fmt(b.styleLabel || (b.style === "casual" ? "カジュアルな会話" : "フォーマルな会話"))}</p>` : "");
 
 // ---------- dialogue rows, example bodies ----------
+// a role card's instructions are centred; a ［状況］ part after them is set flush left, its ・ items with a hanging indent (p.084)
+const roleText = (t) => line(t, "role__t").replace(/<br>(［状況］)(.*?)<\/(span|p)>/s, (m, h, rest, tag) =>
+  `</${tag}><${tag} class="ja role__sit"><span class="role__sh">${h}</span>${rest.split("<br>").filter(Boolean).map((x) => `<span class="role__li">${x}</span>`).join("")}</${tag}>`);
 function dlgRows(lines) {
   return (lines || []).map((l) => {
     const o = norm(l) || {};

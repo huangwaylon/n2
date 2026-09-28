@@ -230,7 +230,12 @@ a.ref:hover u { background: var(--q-soft); }
 .role__h { display: flex; gap: 10px; align-items: center; font-weight: 700; margin-bottom: 6px; }
 .role__tag { color: var(--q); font: 700 24px/1 var(--goth); border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); border-radius: 0 0 6px 0; padding: 0 6px 2px 0; }
 .role:not(.role--a) .role__tag { color: var(--ink-3); }
+.role { display: flex; flex-direction: column; }
+.role__t { flex: 1; display: flex; flex-direction: column; justify-content: center; }
 .role__t .ja { text-align: center; }
+.role__t .role__sit { display: block; text-align: left; margin-top: .4em; }
+.role__sh, .role__li { display: block; }
+.role__li { padding-left: 1em; text-indent: -1em; }
 .flow { margin: 12px 0 18px; }
 .flow__head { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px; font: 700 15px/1.5 var(--goth); }
 .flow__head > span { background: var(--q-gray); border-radius: 999px; padding: 6px 14px; text-align: center; }
