@@ -4894,7 +4894,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**まず、図1をご{覧|らん}ください。**「学食にほとんど行かない」と答えた人は全体で約5割**を占め、**女性では61%**にのぼっています。**女性の結果を詳しく見ると、週1回以上は16%**にとどまっています。**",
-        "tr": "First, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure reaches 61 percent. Looking at the women's results in more detail, once a week or more is only 16 percent."
+        "tr": "First, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure reaches 61 percent. Looking at the women's results in more detail, those who go once a week or more come to only 16 percent."
        }
       },
       {
@@ -4913,7 +4913,7 @@ TRY.registerLesson({
        "side": "a",
        "n": 5,
        "label": {
-        "ja": "❹の理由を{分析|ぶんせき}する (analyze) ために別のデータを紹介し、注目したい結果を説明する",
+        "ja": "❹の理由を{分析|ぶんせき}する (analyze) ために別のデータを紹介し、\n注目したい結果を説明する",
         "tr": "Introduce other data to analyze the reason for 4, and explain the result you want to focus on"
        },
        "text": {
@@ -4941,7 +4941,7 @@ TRY.registerLesson({
        },
        "n": 7,
        "label": {
-        "ja": "{提案|ていあん}する",
+        "ja": "提案する",
         "tr": "Make a proposal"
        },
        "text": {
@@ -5042,7 +5042,7 @@ TRY.registerLesson({
   {
    "skill": "listen",
    "title": {
-    "ja": "{格差|かくさ}社会",
+    "ja": "格差社会",
     "tr": "A Society of Disparities"
    },
    "page": 131,
@@ -5064,7 +5064,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "日本の所得格差について社会学の授業で先生が話しています。「{貧困|ひんこん}層」と「{富裕|ふゆう}層」を表す組み合わせで正しいものは、a〜dのどれですか。",
-      "tr": "In a sociology class, a teacher is talking about income inequality in Japan. Which of a–d is the correct combination representing the “poor” and the “wealthy”?"
+      "tr": "In a sociology class, a teacher is talking about income inequality in Japan. Which of a–d is the correct combination representing the \"poor\" and the \"wealthy\"?"
      }
     },
     {
@@ -5200,7 +5200,7 @@ TRY.registerLesson({
       ]
      ],
      "note": "『平成30年 国民生活基礎調査 各種世帯の所得等の状況』（厚生労働省）より",
-     "desc": "Bar graph of the share of households (%, y-axis 0–20) by annual household income (x-axis, in units of 10,000 yen). Above 1000 the book labels only every other bar; the ranges in parentheses are not printed. Bracket 1 spans the first two bars (under 1,000,000 yen and 100–200); bracket 2 spans the first six bars (under 1,000,000 yen through 500–600); bracket 3 spans all bars from 1000–1100 through 20,000,000 yen and over; bracket 4 spans the bars from 1500–1600 through 20,000,000 yen and over. A vertical line in the 400–500 bar marks the median (423万円), another in the 500–600 bar marks the average income (551万6千円); an arrow up to the average line is labeled “below the average income (62.4%).”"
+     "desc": "Bar graph of the share of households (%, y-axis 0–20) by annual household income (x-axis, in units of 10,000 yen). Above 1000 the book labels only every other bar; the ranges in parentheses are not printed. Bracket 1 spans the first two bars (under 1,000,000 yen and 100–200); bracket 2 spans the first six bars (under 1,000,000 yen through 500–600); bracket 3 spans all bars from 1000–1100 through 20,000,000 yen and over; bracket 4 spans the bars from 1500–1600 through 20,000,000 yen and over. A vertical line in the 400–500 bar marks the median (423万円), another in the 500–600 bar marks the average income (551万6千円); an arrow up to the average line is labeled \"below the average income (62.4%).\""
     },
     {
      "t": "figure",
@@ -5239,7 +5239,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "日本の所得格差について社会学の授業で先生が話しています。「{貧困|ひんこん}層」と「{富裕|ふゆう}層」を表す組み合わせで正しいものは、a〜dのどれですか。",
-      "tr": "In a sociology class, a teacher is talking about income inequality in Japan. Which of a–d is the correct combination representing the “poor” and the “wealthy”?"
+      "tr": "In a sociology class, a teacher is talking about income inequality in Japan. Which of a–d is the correct combination representing the \"poor\" and the \"wealthy\"?"
      },
      "lines": [
       {
@@ -5252,13 +5252,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "格差社会とは、収入や{資産|しさん}によって人々の間に{階層|かいそう}ができ、簡単には別の階層に動くことができない社会のことです。",
-       "tr": "An unequal society is one in which people are divided into classes according to their income and assets, and cannot easily move up into another class."
+       "tr": "An unequal society is one in which people are divided into classes according to their income and assets, and cannot easily move into another class."
       },
       {
        "sp": "",
        "v": "f",
        "ja": "1970年代の日本は「自分は中流である」と考える人が9割を占め、格差があまりない{平等|びょうどう}な社会だと思われていました。この傾向は80年代まで強く見られましたが、その後、資本主義経済の発展により一部の{富裕|ふゆう}層に資産が集まるようになりました。2018年の調査を見てみましょう。ここでは富裕層を所得が1000万円以上の世帯とします。グラフを見ると、富裕層は全体の12.2%__にとどまって__いることがわかります。{一方|いっぽう}、その時の平均所得以下の世帯は全体の62.4%__を占めて__います。また、{貧困|ひんこん}層を所得が200万円以下の世帯とすると、日本の貧困層の世帯は約20%__にのぼって__いることがわかります。このことから、日本は、富裕層より貧困層の割合が高い格差社会であると言えます。",
-       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the ’80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let’s look at a survey from 2018. Here, we’ll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households in Japan amount to as much as about 20 percent. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
+       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households in Japan amount to as much as about 20 percent. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
       },
       {
        "sp": "",
@@ -5308,7 +5308,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "アメリカ人のジョージと日本人の{絵理|えり}が、教育格差について話しています。\n会話を聞いて質問に答えなさい。",
-      "tr": "George, an American, and Eri, a Japanese, are talking about educational inequality.\nListen to the conversation and answer the questions."
+      "tr": "George, who is American, and Eri, who is Japanese, are talking about educational inequality.\nListen to the conversation and answer the questions."
      }
     },
     {
@@ -5447,7 +5447,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "アメリカ人のジョージと日本人の{絵理|えり}が、教育格差について話しています。会話を聞いて質問に答えなさい。",
-      "tr": "George, an American, and Eri, a Japanese, are talking about educational inequality. Listen to the conversation and answer the questions."
+      "tr": "George, who is American, and Eri, who is Japanese, are talking about educational inequality. Listen to the conversation and answer the questions."
      },
      "lines": [
       {
