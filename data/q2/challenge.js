@@ -6265,8 +6265,8 @@ TRY.registerUnits([
      {
       "t": "p",
       "text": {
-       "ja": "（部首の例）　氵　辶　扌　宀　貝　言　忄　糸　木　口　日",
-       "tr": "(Examples of radicals) 氵 辶 扌 宀 貝 言 忄 糸 木 口 日"
+       "ja": "（部首の例）　氵　辶　扌　宀　貝　言　忄　糹　木　口　日",
+       "tr": "(Examples of radicals) 氵 辶 扌 宀 貝 言 忄 糹 木 口 日"
       }
      }
     ]
@@ -6275,7 +6275,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「さんずい（氵）」は「水」の意味を表す部首です。",
-     "tr": "Sanzui (氵) is a radical that means “water.”"
+     "tr": "Sanzui (氵) is a radical that means \"water.\""
     }
    },
    {
@@ -6451,7 +6451,7 @@ TRY.registerUnits([
     "page": 227,
     "text": {
      "ja": "「てへん（扌）」は「手」の意味を表す部首です。",
-     "tr": "Tehen (扌) is a radical that means “hand.”"
+     "tr": "Tehen (扌) is a radical that means \"hand.\""
     }
    },
    {
@@ -6744,7 +6744,7 @@ TRY.registerUnits([
     "page": 228,
     "text": {
      "ja": "「生」（学__生__）と「性」（女__性__ female）という漢字は、同じ「生」というパーツが使われていて、どちらも音読みは「せい」です。このように音読みを表すパーツを「{音符|おんぷ}」と言い、漢字の音読みがわからない時のヒントになります。",
-     "tr": "The kanji 生 (as in 学生, “student”) and 性 (as in 女性, “female”) both use the same part, 生, and both have the on-reading sei. A part like this that shows the on-reading is called a phonetic indicator (onpu), and it can give you a hint when you don't know a kanji's on-reading."
+     "tr": "The kanji 生 (as in 学生, \"student\") and 性 (as in 女性, \"female\") both use the same part, 生, and both have the on-reading sei. A part like this that shows the on-reading is called a phonetic indicator (onpu), and it can give you a hint when you don't know a kanji's on-reading."
     }
    },
    {
@@ -6843,9 +6843,9 @@ TRY.registerUnits([
        [
         "①",
         "宿",
-        "!!宿!!題",
+        "［!!宿!!題",
         "",
-        "!!縮!!小",
+        "!!縮!!小］",
         {
          "en": "reduction"
         }
@@ -6853,11 +6853,11 @@ TRY.registerUnits([
        [
         "②",
         "古",
-        "!!{古|こ}!!{文|ぶん}",
+        "［!!{古|こ}!!{文|ぶん}",
         {
          "en": "ancient writings"
         },
-        "びわ!!湖!!",
+        "びわ!!湖!!］",
         {
          "en": "Lake Biwa"
         }
@@ -6865,9 +6865,9 @@ TRY.registerUnits([
        [
         "③",
         "可",
-        "!!可!!能",
+        "［!!可!!能",
         "",
-        "!!河!!{川|せん}",
+        "!!河!!{川|せん}］",
         {
          "en": "rivers"
         }
@@ -6875,9 +6875,9 @@ TRY.registerUnits([
        [
         "④",
         "真",
-        "写!!真!!",
+        "［写!!真!!",
         "",
-        "!!慎!!{重|ちょう}な",
+        "!!慎!!{重|ちょう}な］",
         {
          "en": "careful"
         }
@@ -6885,11 +6885,11 @@ TRY.registerUnits([
        [
         "⑤",
         "容",
-        "内!!容!!",
+        "［内!!容!!",
         {
          "en": "content"
         },
-        "!!溶!!接",
+        "!!溶!!接］",
         {
          "en": "welding"
         }
@@ -6921,7 +6921,7 @@ TRY.registerUnits([
     "page": 229,
     "text": {
      "ja": "「年齢」という単語がわからなくても「年」という漢字を知っていたら、「年齢」は「年」に関係がある言葉だと考えることができます。このように、ある単語を知らなくても、1つ1つの漢字から意味を想像することができます。ここでは、知っている漢字から単語の意味を考えましょう。",
-     "tr": "Even if you don't know the word 年齢, if you know the kanji 年 (“year”), you can figure that 年齢 is a word related to 年. In this way, even when you don't know a word, you can imagine its meaning from each of its kanji. Here, let's think about the meanings of words from kanji we know."
+     "tr": "Even if you don't know the word 年齢, if you know the kanji 年 (\"year\"), you can figure that 年齢 is a word related to 年. In this way, even when you don't know a word, you can imagine its meaning from each of its kanji. Here, let's think about the meanings of words from kanji we know."
     }
    },
    {
@@ -6968,9 +6968,9 @@ TRY.registerUnits([
       "(例)",
       "送",
       "（＝　　　　）",
-      "a. !!送!!金",
+      "［a. !!送!!金",
       "b. !!送!!{迎|げい}",
-      "c. !!送!!電"
+      "c. !!送!!電］"
      ]
     ]
    },
@@ -6999,33 +6999,33 @@ TRY.registerUnits([
       "(1)",
       "特",
       "（＝　　　　）",
-      "a. !!特!!別",
+      "［a. !!特!!別",
       "b. !!特!!技",
-      "c. !!特!!急"
+      "c. !!特!!急］"
      ],
      [
       "(2)",
       "退",
       "（＝　　　　）",
-      "a. !!退!!学",
+      "［a. !!退!!学",
       "b. !!退!!職",
-      "c. !!退!!室"
+      "c. !!退!!室］"
      ],
      [
       "(3)",
       "過",
       "（＝　　　　）",
-      "a. !!過!!食",
+      "［a. !!過!!食",
       "b. !!過!!労",
-      "c. !!過!!{言|ごん}"
+      "c. !!過!!{言|ごん}］"
      ],
      [
       "(4)",
       "冷",
       "（＝　　　　）",
-      "a. !!冷!!水",
+      "［a. !!冷!!水",
       "b. !!冷!!気",
-      "c. !!冷!!{夏|か}"
+      "c. !!冷!!{夏|か}］"
      ]
     ]
    },
@@ -7059,41 +7059,41 @@ TRY.registerUnits([
         "①",
         "温",
         "（＝　　　　）",
-        "a. !!温!!水",
+        "［a. !!温!!水",
         "b. !!温!!{風|ぷう}",
-        "c. !!温!!{泉|せん}"
+        "c. !!温!!{泉|せん}］"
        ],
        [
         "②",
         "採",
         "（＝　　　　）",
-        "a. !!採!!{集|しゅう}",
+        "［a. !!採!!{集|しゅう}",
         "b. !!採!!用",
-        "c. !!採!!{血|けつ}"
+        "c. !!採!!{血|けつ}］"
        ],
        [
         "③",
         "確",
         "（＝　　　　）",
-        "a. !!確!!定",
+        "［a. !!確!!定",
         "b. !!確!!信",
-        "c. !!確!!認"
+        "c. !!確!!認］"
        ],
        [
         "④",
         "運",
         "（＝　　　　）",
-        "a. !!運!!動",
+        "［a. !!運!!動",
         "b. !!運!!転",
-        "c. !!運!!{輸|ゆ}"
+        "c. !!運!!{輸|ゆ}］"
        ],
        [
         "⑤",
         "普",
         "（＝　　　　）",
-        "a. !!普!!通",
+        "［a. !!普!!通",
         "b. !!普!!段",
-        "c. !!普!!{及|きゅう}"
+        "c. !!普!!{及|きゅう}］"
        ]
       ]
      },
@@ -7311,7 +7311,7 @@ TRY.registerUnits([
     "page": 231,
     "text": {
      "ja": "「りっしんべん（忄）」は「心」の意味を表す部首です。",
-     "tr": "Risshinben (忄) is a radical that means “heart.”"
+     "tr": "Risshinben (忄) is a radical that means \"heart.\""
     }
    },
    {
@@ -7819,7 +7819,7 @@ TRY.registerUnits([
         },
         {
          "text": {
-          "ja": "ピザハウス（大学前店）",
+          "ja": "**ピザハウス**（大学前店）",
           "tr": "Pizza House (Daigaku-mae branch)"
          }
         }
@@ -8016,8 +8016,8 @@ TRY.registerUnits([
      {
       "t": "p",
       "text": {
-       "ja": "（部首の例）　氵　辶　扌　宀　貝　言　忄　糸　木　口　日",
-       "tr": "(Examples of radicals) 氵 辶 扌 宀 貝 言 忄 糸 木 口 日"
+       "ja": "（部首の例）　氵　辶　扌　宀　貝　言　忄　糹　木　口　日",
+       "tr": "(Examples of radicals) 氵 辶 扌 宀 貝 言 忄 糹 木 口 日"
       }
      }
     ]
@@ -8025,8 +8025,8 @@ TRY.registerUnits([
    {
     "t": "p",
     "text": {
-     "ja": "「うかんむり（宀）」は「家」「屋根（roof）」の意味を表す部首です。",
-     "tr": "Ukanmuri (宀) is a radical that means “house” or “roof.”"
+     "ja": "「うかんむり（宀）」は「家」「屋根 (roof)」の意味を表す部首です。",
+     "tr": "Ukanmuri (宀) is a radical that means \"house\" or \"roof.\""
     }
    },
    {
@@ -8202,7 +8202,7 @@ TRY.registerUnits([
     "page": 235,
     "text": {
      "ja": "「かいへん・かい（貝）」は「お金」の意味を表す部首です。",
-     "tr": "Kaihen / kai (貝) is a radical that means “money.”"
+     "tr": "Kaihen / kai (貝) is a radical that means \"money.\""
     }
    },
    {
