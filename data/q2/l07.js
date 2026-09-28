@@ -525,7 +525,7 @@ TRY.registerLesson({
         },
         {
          "n": 4,
-         "ja": "{年賀状|ねんがじょう}(New Year's card)を送る習慣が日本から消え**つつある**のは残念だ。",
+         "ja": "{年賀状|ねんがじょう} (New Year's card) を送る習慣が日本から消え**つつある**のは残念だ。",
          "tr": "It's a shame that the custom of sending New Year's cards is disappearing from Japan."
         }
        ]
@@ -541,10 +541,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~つつある is used with verbs that denote a change, and expresses that the change is currently in the process of occurring."
+           "en": "〜つつある is used with verbs that denote a change, and expresses that the change is currently in the process of occurring."
           },
           {
-           "en": "When ~つつある is used with verbs that typically represent gradual changes, it implies that the change began recently and is about to go through a bigger transition (see [#1] and [#2])."
+           "en": "When 〜つつある is used with verbs that typically represent gradual changes, it implies that the change began recently and is about to go through a bigger transition (see [#1] and [#2])."
           },
           {
            "en": "However, when used with verbs that represent instantaneous changes (e.g., 終わる, 消える), this expression implies that the transition is about to be completed (see [#3] and [#4])."
@@ -553,7 +553,7 @@ TRY.registerLesson({
            "en": "This expression is often accompanied by adverbs expressing the degree or speed of change, such as {次第|しだい}に, {徐々|じょじょ}に, だんだん, or 少しずつ."
           },
           {
-           "en": "~つつある is not used with verbs for actions that are currently taking place."
+           "en": "〜つつある is not used with verbs for actions that are currently taking place."
           }
          ]
         },
@@ -568,7 +568,7 @@ TRY.registerLesson({
           },
           {
            "mark": "○",
-           "ja": "今、図書館で勉強し__ている__。",
+           "ja": "今、図書館で勉強している。",
            "en": "I am studying at the library right now."
           }
          ]
@@ -648,13 +648,13 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~際 (に) is a formal equivalent of ~時 (に)."
+           "en": "〜際 (に) is a formal equivalent of 〜時 (に)."
           },
           {
            "en": "Rather than simply denoting a time or period, this expression refers to a special occasion."
           },
           {
-           "en": "Unlike ~時 (に), ~際 (に) is not used with a negative form of verb (i.e., ~ない際に)."
+           "en": "Unlike 〜時 (に), 〜際 (に) is not used with a negative form of verb (i.e., 〜ない際に)."
           }
          ]
         }
@@ -747,7 +747,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "X てしょうがない expresses a state in which the speaker has a naturally emerging desire or emotion and cannot control that feeling. Words expressing emotion or desire, such as ~たい or 残念, are often used in place of X."
+           "en": "X てしょうがない expresses a state in which the speaker has a naturally emerging desire or emotion and cannot control that feeling. Words expressing emotion or desire, such as 〜たい or 残念, are often used in place of X."
           }
          ]
         },
@@ -772,10 +772,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~てしかたがない is a formal equivalent of ~てしょうがない."
+           "en": "〜てしかたがない is a formal equivalent of 〜てしょうがない."
           },
           {
-           "en": "Expressions such as ~ようだ and ~らしい are used to describe other people's emotions or desires."
+           "en": "Expressions such as 〜ようだ and 〜らしい are used to describe other people's emotions or desires."
           }
          ]
         },
@@ -838,12 +838,12 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "やっと見つけた！　こけしのお{弁当箱|べんとうばこ}。これ**こそ**、まさに私がほしかったものだ。",
-         "tr": "I finally found it! A kokeshi lunch box. This is exactly what I wanted."
+         "tr": "I finally found it! A kokeshi lunch box. This is the very thing I wanted."
         },
         {
          "n": 2,
          "ja": "これまで何度も日本語能力試験に落ちているが、今年**こそ**絶対に合格したい。",
-         "tr": "I've failed the Japanese-Language Proficiency Test many times, but this year I'm determined to pass."
+         "tr": "I've failed the Japanese-Language Proficiency Test many times, but this year, for sure, I want to pass."
         },
         {
          "n": 3,
@@ -1002,7 +1002,7 @@ TRY.registerLesson({
            "en": "Y usually takes a statement that includes a positive message."
           },
           {
-           "en": "The sentence ending following X からこそ Y often takes ~のだ and ~のではないか, as shown in [#4], [#5] and [#6]."
+           "en": "The sentence ending following X からこそ Y often takes 〜のだ and 〜のではないか, as shown in [#4], [#5] and [#6]."
           }
          ]
         }
@@ -1442,12 +1442,12 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "スマートフォンは便利である**と同時に**、勉強のじゃまになってしまうこともある。",
-         "tr": "Smartphones are convenient, but they can also get in the way of studying."
+         "tr": "As well as being convenient, smartphones can also get in the way of studying."
         },
         {
          "n": 3,
          "ja": "彼は先生である**と同時に**、会社の社長もしている。",
-         "tr": "He is a teacher, and he is also the president of a company."
+         "tr": "As well as being a teacher, he is also the president of a company."
         },
         {
          "n": 4,
@@ -1492,6 +1492,7 @@ TRY.registerLesson({
      "pattern": "〜ことに",
      "gloss": "it is very ~ that",
      "ref": "読み物2-行9",
+     "page": 15,
      "id": "l7-note9",
      "blocks": [
       {
@@ -1679,6 +1680,7 @@ TRY.registerLesson({
      "pattern": "まさに",
      "gloss": "truly; really",
      "ref": "読み物2-行29",
+     "page": 16,
      "id": "l7-note11",
      "blocks": [
       {
@@ -1701,7 +1703,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "ハワイは**まさに**天国のようなところらしい。",
-         "tr": "Hawaii is supposedly a truly heavenly place."
+         "tr": "I hear Hawaii is truly a paradise."
         },
         {
          "n": 3,
@@ -1714,11 +1716,11 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{税金|ぜいきん}を高くするより、{政府|せいふ}にはまず{無駄遣|むだづか}いを減らしてほしいですよね。",
-           "tr": "Rather than raising taxes, I’d like the government to cut its wasteful spending first, wouldn’t you?"
+           "tr": "Rather than raising taxes, I’d like the government to cut its wasteful spending first. Don’t you agree?"
           },
           {
            "sp": "B",
-           "ja": "**まさにその通り**だと思います。",
+           "ja": "**まさに**その通りだと思います。",
            "tr": "I think that’s exactly right."
           }
          ]
