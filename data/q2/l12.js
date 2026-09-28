@@ -2251,7 +2251,7 @@ TRY.registerLesson({
       "I read The Miracle Workplace, a book about the management of TESSEI, the company that cleans the Tohoku Shinkansen. TESSEI is a company that has won praise for bringing energy to cleaning, a line of work people tend to shy away from. According to that book, what is becoming important in work is not only \"making money\" but also a sense of \"doing something for others\" and \"being useful.\" On the other hand, though, some people think the purpose of working is to earn an income that makes their lives comfortable. So what matters more in choosing a job: is it income? Or is it being able to feel that you are \"useful\"? I would like to argue from the position that what matters more in choosing a job is income.",
       "First, in many cases, the higher your income, the greater your happiness. According to a survey of Americans conducted in 2009 by Professor Kahneman, a behavioral economist, up to an annual income of $75,000 (about 8 million yen), the more your annual income rises, the happier you become. According to a 2018 report by the National Tax Agency, 90% of people in Japan earn 8 million yen a year or less, so it can be said that for most people, annual income affects happiness.",
       "Next, the higher your income, the higher your job satisfaction. If your pay is high, your sense of responsibility to do work worthy of it grows, and you can approach your work positively. Also, if you feel that the results of your hard work are reflected in your pay, your motivation should rise even further, and you should gain a sense of accomplishment and satisfaction.",
-      "Finally, if your income is high, you can save money and ease your anxiety about your future life. Anyone could see the company they work for run into financial trouble and suddenly lose their job. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, there is no need to keep carrying anxieties like these.",
+      "Finally, if your income is high, you can save money and ease your anxiety about your future life. Anyone could suddenly lose their job if the company they work for runs into financial trouble. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, there is no need to keep carrying anxieties like these.",
       "As stated above, the higher your income, the greater your happiness, and it seems your job satisfaction rises as well. Also, because you can save money, you can ease your anxiety about the future. It may be true that without a real sense of \"being useful to others,\" you might lose sight of what working means. However, with a low income, won't you be unable to live a financially satisfying life, with limits on where you can live, what you can eat, and so on, and no room to enjoy hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
      ],
      "roles": [
@@ -2324,7 +2324,7 @@ TRY.registerLesson({
       },
       {
        "ja": "{失職|しっしょく}",
-       "en": "losing one's job"
+       "en": "losing one’s job"
       },
       {
        "ja": "{定年|ていねん}",
@@ -2524,7 +2524,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "❶{序論|じょろん}で論点と自分の立場を示す。",
-        "tr": "In 1, the introduction, show the point at issue and your own position."
+        "tr": "In the introduction (1), show the point at issue and your own position."
        },
        "blocks": [
         {
@@ -2596,7 +2596,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "❷〜❹本論で理由を述べる。",
-        "tr": "In 2 to 4, the body, state your reasons."
+        "tr": "In the body (2-4), state your reasons."
        },
        "blocks": [
         {
@@ -2658,7 +2658,7 @@ TRY.registerLesson({
        "n": "4.",
        "text": {
         "ja": "❺結論で本論を要約し (summarize)、もう一度主張を述べる。",
-        "tr": "In 5, the conclusion, summarize the body and state your claim once more."
+        "tr": "In the conclusion (5), summarize the body and state your claim once more."
        },
        "blocks": [
         {
@@ -3059,7 +3059,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "先生が＿＿をいかして、\nこれからも＿＿。",
-            "tr": "Making the most of ＿＿, I will ＿＿ from now on too."
+            "tr": "I'll make the most of what you ＿＿ and, from here on too, ＿＿."
            },
            "answer": [
             "教えてくださったこと",
@@ -3105,19 +3105,19 @@ TRY.registerLesson({
       },
       {
        "sp": "中",
-       "v": "f",
+       "v": "m",
        "ja": "はい。",
        "tr": "Yes."
       },
       {
        "sp": "ジ",
        "v": "m",
-       "ja": "❷20日に帰国する**ことになったので、**帰国前に{一言|ひとこと}**お礼をお伝えしたくて、ごあいさつに伺いました。**",
+       "ja": "❷20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
        "tr": "I'm going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
       },
       {
        "sp": "中",
-       "v": "f",
+       "v": "m",
        "ja": "わざわざありがとうございます。あっと言う{間|ま}でしたね。",
        "tr": "Thank you for taking the trouble to come. The time just flew by, didn't it?"
       },
@@ -3129,7 +3129,7 @@ TRY.registerLesson({
       },
       {
        "sp": "中",
-       "v": "f",
+       "v": "m",
        "ja": "そうですか。それはよかったですね。",
        "tr": "Is that so? I'm glad to hear it."
       },
@@ -3141,8 +3141,8 @@ TRY.registerLesson({
       },
       {
        "sp": "中",
-       "v": "f",
-       "ja": "いいえ、すべてはテイラーさんの努力があったからこそですよ。よくがんばりましたね。",
+       "v": "m",
+       "ja": "いえいえ、すべてはテイラーさんの努力があったからこそですよ。よくがんばりましたね。",
        "tr": "Not at all. It was all thanks to your own hard work, Mr. Taylor. You really did well."
       },
       {
@@ -3153,7 +3153,7 @@ TRY.registerLesson({
       },
       {
        "sp": "中",
-       "v": "f",
+       "v": "m",
        "ja": "えっ、いいんですか。ありがとうございます。カードは後で、ゆっくり読ませてもらいますね。",
        "tr": "Oh, are you sure? Thank you very much. I'll take my time and read the card later."
       },
@@ -3165,7 +3165,7 @@ TRY.registerLesson({
       },
       {
        "sp": "中",
-       "v": "f",
+       "v": "m",
        "ja": "はい、体に気をつけて。また、遊びに来てくださいね。",
        "tr": "All right, take care of yourself. And please come visit again."
       },
@@ -3248,7 +3248,7 @@ TRY.registerLesson({
         "tr": "Say that you're leaving"
        },
        "text": {
-        "ja": "20日に帰国する**ことになったので、**帰国前に{一言|ひとこと}**お礼をお伝えしたくて、ごあいさつに伺いました。**",
+        "ja": "20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
         "tr": "I'm going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
        }
       },
@@ -3292,7 +3292,7 @@ TRY.registerLesson({
       {
        "side": "b",
        "text": {
-        "ja": "いいえ、〜さんの努力があったからこそですよ。",
+        "ja": "いえいえ、〜さんの努力があったからこそですよ。",
         "tr": "Not at all. It was all thanks to your own hard work, (name)."
        }
       },
@@ -3411,7 +3411,7 @@ TRY.registerLesson({
       {
        "sp": "先生",
        "v": "f",
-       "ja": "いいえ、〜さんの努力があったからこそですよ。）",
+       "ja": "いえいえ、〜さんの努力があったからこそですよ。）",
        "tr": "Not at all. It was all thanks to your own hard work, (name).)"
       },
       {
@@ -3515,7 +3515,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶{{{絵理|えり}ちゃんに会える}}**のは、これが最後になるね……。**\n❷{{明日帰国する}}**なんて、全然実感がわかないよ。**",
-         "tr": "This is the last time I'll get to see you, Eri... I'm going back home tomorrow, but it just doesn't feel real yet."
+         "tr": "This is the last time I'll get to see you, Eri... I can't believe I'm going home tomorrow. It doesn't feel real at all."
         },
         {
          "sp": "絵理",
@@ -3533,7 +3533,7 @@ TRY.registerLesson({
          "sp": "絵理",
          "v": "f",
          "ja": "ううん、そんなことないよ……。",
-         "tr": "No, not really..."
+         "tr": "No, that's not true..."
         },
         {
          "sp": "あなた",
