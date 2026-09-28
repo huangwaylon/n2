@@ -2554,7 +2554,7 @@ TRY.registerLesson({
       {
        "n": "2）",
        "text": {
-        "ja": "相手があなたからの申し出（offer）を{遠慮|えんりょ}（hold back）した時、どう言えば受け入れてもらえると思いますか。あなたは誰かに何か助けてもらう時、どんな言葉をかけてもらえたらうれしいですか／遠慮せずにお願いできますか。",
+        "ja": "相手があなたからの申し出 (offer) を{遠慮|えんりょ} (hold back) した時、どう言えば受け入れてもらえると思いますか。あなたは誰かに何か助けてもらう時、どんな言葉をかけてもらえたらうれしいですか／遠慮せずにお願いできますか。",
         "tr": "When someone politely declines your offer, what do you think you could say to get them to accept it? When someone helps you with something, what words would make you happy to hear, or would let you ask for help without holding back?"
        }
       },
@@ -2581,7 +2581,7 @@ TRY.registerLesson({
            "tag": "B",
            "who": "Aのアルバイト先の友達",
            "text": {
-            "ja": "Aさんに話しかけられます。\n{状況|じょうきょう}を説明しなさい。\n［状況］\n・週末、別の町から友達が来ますが、あなたは日にちを間違えてアルバイトを入れてしまいました。\n・Aさんが手助けを申し出ます。でも、Aさんも忙しそうなので、一度は{断|ことわ}り（refuse）なさい。",
+            "ja": "Aさんに話しかけられます。\n{状況|じょうきょう}を説明しなさい。\n［状況］\n・週末、別の町から友達が来ますが、あなたは日にちを間違えてアルバイトを入れてしまいました。\n・Aさんが手助けを申し出ます。でも、Aさんも忙しそうなので、一度は{断|ことわ}り (refuse) なさい。",
             "tr": "A starts talking to you. Explain the situation.\n[Situation]\n• A friend is coming from another town this weekend, but you got the dates mixed up and signed up for a shift at your part-time job.\n• A offers to help. But A seems busy too, so turn the offer down once."
            }
           }
@@ -2652,7 +2652,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "＿＿たら、バイトのシフト、＿＿か。",
-            "tr": "If …, … your shift at work?"
+            "tr": "If ＿＿, shall ＿＿ your shift at work?"
            },
            "answer": [
             "よかっ",
@@ -2666,7 +2666,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "昼のシフトも＿＿けど、＿＿の？\n夕方だけ＿＿で、＿＿よ。",
-            "tr": "I … the afternoon shift too, but …? Don't … just the evening, …."
+            "tr": "I ＿＿ the day shift too, but ＿＿?\nDon't ＿＿ \"just the evening\"; ＿＿."
            },
            "answer": [
             "代われる",
@@ -2697,7 +2697,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "何をやってももう結果が決まっている、わかっていると話し手が感じている時に使います。話し手のあきらめの気持ち（feel resigned）を表すことが多く、とてもネガティブな言葉で聞いている人を嫌な気分にさせる可能性があるので、使う時は気をつけましょう。",
+        "ja": "何をやってももう結果が決まっている、わかっていると話し手が感じている時に使います。話し手のあきらめの気持ち (feel resigned) を表すことが多く、とてもネガティブな言葉で聞いている人を嫌な気分にさせる可能性があるので、使う時は気をつけましょう。",
         "tr": "This is used when the speaker feels that the outcome is already decided or known, no matter what anyone does. It often expresses the speaker's feeling of resignation, and because it is a very negative word that can make the listener feel bad, be careful when you use it."
        }
       },
@@ -2725,7 +2725,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "しかし「手助けを申し出る（offer）」時に使うと、その申し出がそれほど大変なことではないという気持ちを表すことができます。目上の人に使うと失礼になるので、気をつけましょう。",
+        "ja": "しかし「手助けを申し出る (offer)」時に使うと、その申し出がそれほど大変なことではないという気持ちを表すことができます。目上の人に使うと失礼になるので、気をつけましょう。",
         "tr": "However, when used while \"offering help,\" it can convey the feeling that what you are offering is not much trouble. Using it with someone of higher status is rude, so be careful."
        }
       },
@@ -2771,7 +2771,7 @@ TRY.registerLesson({
        "t": "head",
        "style": "plain",
        "text": {
-        "ja": "相手が{遠慮|えんりょ}（hold back）した時",
+        "ja": "相手が{遠慮|えんりょ} (hold back) した時",
         "tr": "When the other person politely declines"
        }
       },
@@ -2792,7 +2792,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "勉強を手伝ってもらうのは悪いから、いいよ。",
-           "tr": "I'd feel bad having you help me study, so it's okay."
+           "tr": "I'd feel bad having you help me study, so no, it's okay."
           },
           {
            "sp": "B",
@@ -2840,19 +2840,19 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "実は、今週の土曜日、{絵理|えり}の{誕生日|たんじょうび}なんだけど、来週と間違えて一日中バイトを入れちゃってたんだ。あーあ、一緒にお{祝|いわ}いするって約束してたのに……。",
-       "tr": "Well, this Saturday is Eri's birthday, but I mixed it up with next week and signed up to work all day. Ugh, and I promised we'd celebrate together..."
+       "tr": "Well, this Saturday is Eri's birthday, but I mixed it up with next week and signed up to work all day. Ugh, and I promised her we'd celebrate together..."
       },
       {
        "sp": "サ",
        "v": "f",
        "ja": "あー、誕生日デートって、はりきってたよね。❷**よかったら、**バイトのシフト、私が代わろ**うか。**",
-       "tr": "Oh, you were so excited about your birthday date. If you want, should I cover your shift?"
+       "tr": "Oh, you were so excited about your birthday date. If you like, shall I cover your shift?"
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "えっ、でもサラ、週末はバイト入れないようにしてるんじゃなかったっけ？　それに、急に代わってもらうなんて悪いし、いいよ。",
-       "tr": "Huh? But Sara, didn't you say you try not to work on weekends? Besides, I'd feel bad having you fill in for me on such short notice, so it's okay."
+       "tr": "Huh? But Sara, didn't you say you try not to work on weekends? Besides, I'd feel bad having you fill in for me on such short notice, so no, it's okay."
       },
       {
        "sp": "サ",
@@ -2870,13 +2870,13 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❹昼のシフトも代われるけど、夕方だけ**でいいの？**　夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-       "tr": "I can cover the afternoon shift too. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
+       "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "本当にいいの？　なんかごめんね。",
-       "tr": "Are you really sure? I'm kind of sorry about this."
+       "tr": "Are you really sure? I feel kind of bad about this."
       },
       {
        "sp": "サ",
@@ -2984,14 +2984,14 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "そっか……。**よかったら、**バイトのシフト、\n私が代わろ**うか。**",
-        "tr": "I see... If you want, should I cover your shift?"
+        "tr": "I see... If you like, shall I cover your shift?"
        }
       },
       {
        "side": "b",
        "text": {
         "ja": "えっ、でも悪いし、いいよ。",
-        "tr": "Huh? But I'd feel bad, so it's okay."
+        "tr": "Huh? But I'd feel bad, so no, it's okay."
        }
       },
       {
@@ -3021,14 +3021,14 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "昼のシフトも代われるけど、夕方だけ**でいいの？**\n夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-        "tr": "I can cover the afternoon shift too. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
+        "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
        }
       },
       {
        "side": "b",
        "text": {
         "ja": "本当にいいの？　なんかごめんね。",
-        "tr": "Are you really sure? I'm kind of sorry about this."
+        "tr": "Are you really sure? I feel kind of bad about this."
        }
       },
       {
@@ -3080,12 +3080,16 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "❶話しかける → ❷手助けを申し出る → ❸もう一度申し出る（→ ❹もっと申し出る）\n→ ❺相手が申し出を受け入れやすくなるような言葉を言う",
-        "tr": "❶ Start talking → ❷ Offer to help → ❸ Offer again (→ ❹ Offer even more) → ❺ Say something that makes it easier for the other person to accept your offer"
+        "ja": "❶話しかける ➔ ❷手助けを申し出る ➔ ❸もう一度申し出る（➔ ❹もっと申し出る）\n➔ ❺相手が申し出を受け入れやすくなるような言葉を言う",
+        "tr": "1 Start talking → 2 Offer to help → 3 Offer again (→ 4 Offer even more)\n→ 5 Say something that makes it easier for the other person to accept your offer"
        }
       }
      ]
     },
+    {
+     "t": "box",
+     "style": "gray",
+     "blocks": [
     {
      "t": "dialogue",
      "lines": [
@@ -3105,13 +3109,13 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❷｛**よかったら**／**私でよければ**｝、{{バイトのシフト、{代|か}わろ}}**うか。**",
-       "tr": "[If you want / If I'm any help], should I cover your shift?"
+       "tr": "[If you like / If you don't mind me], shall I cover your shift?"
       },
       {
        "sp": "友達",
        "v": "f",
        "ja": "えっ、でも悪いし、いいよ。",
-       "tr": "Huh? But I'd feel bad, so it's okay."
+       "tr": "Huh? But I'd feel bad, so no, it's okay."
       },
       {
        "sp": "あなた",
@@ -3129,13 +3133,13 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❹{{（昼のシフトも代われるけど、）夕方だけ}}**でいいの？**　{{夕方だけなんて言わないで。両方代わっ}}**てあげるよ。**）",
-       "tr": "(I can cover the afternoon shift too.) Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you.)"
+       "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't say just the evening. I'll cover both for you.)"
       },
       {
        "sp": "友達",
        "v": "f",
        "ja": "本当にいいの？　なんかごめんね。",
-       "tr": "Are you really sure? I'm kind of sorry about this."
+       "tr": "Are you really sure? I feel kind of bad about this."
       },
       {
        "sp": "あなた",
@@ -3149,6 +3153,8 @@ TRY.registerLesson({
        "ja": "ありがとう。本当に助かるよ。",
        "tr": "Thanks. You're really helping me out."
       }
+     ]
+    }
      ]
     },
     {
@@ -3210,12 +3216,11 @@ TRY.registerLesson({
          "tag": "B",
          "who": "Aのアルバイト先の店長",
          "text": {
-          "ja": "・今週末{引|ひ}っ{越|こ}します。一人で引っ越しをするので大変です。\n・Aさんが手助けを申し出ますが、仕事とは関係がないので、一度は{断|ことわ}り（refuse）なさい。",
+          "ja": "・今週末{引|ひ}っ{越|こ}します。一人で引っ越しをするので大変です。\n・Aさんが手助けを申し出ますが、仕事とは関係がないので、一度は{断|ことわ}り (refuse) なさい。",
           "tr": "• You're moving this weekend. You're doing the move by yourself, so it's a lot of work.\n• A offers to help, but since it has nothing to do with work, turn the offer down once."
          }
         }
-       ],
-       "style": "formal"
+       ]
       },
       {
        "t": "head",
@@ -3226,6 +3231,10 @@ TRY.registerLesson({
         "tr": "Let's practice"
        }
       },
+      {
+       "t": "box",
+       "style": "gray",
+       "blocks": [
       {
        "t": "dialogue",
        "lines": [
@@ -3251,7 +3260,7 @@ TRY.registerLesson({
          "sp": "店長",
          "v": "f",
          "ja": "えっ、でもせっかくの休みだし、悪いから、いいよ。",
-         "tr": "Oh, but it's your precious day off, and I'd feel bad, so it's okay."
+         "tr": "Oh, but it's your precious day off, and I'd feel bad, so no, it's okay."
         },
         {
          "sp": "あなた",
@@ -3289,8 +3298,9 @@ TRY.registerLesson({
          "ja": "ありがとう。本当に助かるよ。",
          "tr": "Thank you. You're really helping me out."
         }
-       ],
-       "style": "formal"
+       ]
+      }
+       ]
       },
       {
        "t": "words",
@@ -3307,7 +3317,7 @@ TRY.registerLesson({
         {
          "n": "1.",
          "text": {
-          "ja": "国際交流課の{事務員|じむいん}（office worker）の{加藤|かとう}さんが、教室で{机|つくえ}やいすを一人で並べています。何かのイベントの準備をしているようです。手助けを申し出なさい。",
+          "ja": "国際交流課の{事務員|じむいん} (office worker) の{加藤|かとう}さんが、教室で{机|つくえ}やいすを一人で並べています。何かのイベントの準備をしているようです。手助けを申し出なさい。",
           "tr": "Kato, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. It looks like Kato is getting ready for some kind of event. Offer to help."
          }
         },
