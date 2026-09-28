@@ -1976,7 +1976,7 @@ TRY.registerLesson({
         },
         {
          "n": 2,
-         "ja": "去年の日本のGDP{成長率|せいちょうりつ}(GDP growth)は1.6%**にとどまった**。",
+         "ja": "去年の日本のGDP{成長率|せいちょうりつ} (GDP growth) は1.6%**にとどまった**。",
          "tr": "Japan's GDP growth last year was only 1.6%."
         },
         {
@@ -2231,7 +2231,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "母の料理は、レストランの味**を超える**くらいおいしい。",
-         "tr": "My mother's cooking is so good it beats restaurant food."
+         "tr": "My mother's cooking is so delicious it surpasses the taste of restaurant food."
         },
         {
          "n": 4,
@@ -2386,7 +2386,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "子ども**ながら**、いろいろなことを考えているようだ。",
-         "tr": "Child though he is, he seems to think about all sorts of things."
+         "tr": "Even though they're only a child, they seem to think about all sorts of things."
         },
         {
          "n": 5,
@@ -2591,7 +2591,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "ある調査によると、1日に1冊も本を読まない大学生は約5割**にのぼる**らしい。",
-         "tr": "According to one survey, about 50 percent of college students don't read even a single book a day."
+         "tr": "According to one survey, a full 50 percent or so of college students don't read even a single book a day."
         },
         {
          "n": 2,
@@ -2601,7 +2601,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "大雨での死者が、250人**にのぼった**。",
-         "tr": "The death toll from the heavy rain reached 250."
+         "tr": "The death toll from the heavy rain climbed to 250."
         },
         {
          "n": 4,
@@ -2673,7 +2673,7 @@ TRY.registerLesson({
         },
         {
          "n": 5,
-         "ja": "病気の友達の手術の{成功|せいこう}を願い**つつ**、{千羽鶴|せんばづる}(a thousand origami cranes)を{折|お}った。",
+         "ja": "病気の友達の手術の{成功|せいこう}を願い**つつ**、{千羽鶴|せんばづる} (a thousand origami cranes) を{折|お}った。",
          "tr": "I folded a thousand origami cranes while praying for the success of my sick friend's surgery."
         }
        ]
@@ -2717,7 +2717,7 @@ TRY.registerLesson({
        "t": "head",
        "style": "sq",
        "text": {
-        "en": "☛ ~つつ and ~ながら"
+        "en": "☛ 〜つつ and 〜ながら"
        }
       },
       {
@@ -2801,12 +2801,12 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "I went to a shop I used to go to often for the first time in a long while, but it was closed, which was disappointing."
+         "tr": "When I went back to a shop I used to go to often, for the first time in a long while, I found it closed, which was disappointing."
         },
         {
          "n": 5,
          "ja": "新しい漢字学習アプリを{試|ため}してみ**たところ**、漢字の勉強が好きになった。",
-         "tr": "After trying out a new kanji-learning app, I came to like studying kanji."
+         "tr": "When I tried out a new kanji-learning app, I found I came to like studying kanji."
         }
        ]
       },
@@ -2962,7 +2962,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "ものの works similarly to adversative conjunctions (e.g., ~のに, ~けれど). X ものの Y presents X as a fact, while stating Y as something that contrasts with X. This structure often expresses the speaker’s regret or disappointment."
+           "en": "ものの works similarly to adversative conjunctions (e.g., 〜のに, 〜けれど). X ものの Y presents X as a fact, while stating Y as something that contrasts with X. This structure often expresses the speaker’s regret or disappointment."
           }
          ]
         }

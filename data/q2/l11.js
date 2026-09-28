@@ -567,7 +567,7 @@ TRY.registerLesson({
           {
            "sp": "親",
            "ja": "今日は仕事で帰るのが遅くなりそうなんだ。晩ご飯は、スーパーで何か買う**なり**、簡単なものを作る**なり**して食べてね。",
-           "tr": "It looks like I'll be home late from work today. For dinner, buy something at the supermarket or make something simple, okay?"
+           "tr": "It looks like I'll be home late from work today. For dinner, either buy something at the supermarket or make something simple, whatever works, okay?"
           },
           {
            "sp": "子",
@@ -607,7 +607,7 @@ TRY.registerLesson({
           {
            "sp": "{絵理|えり}",
            "ja": "{東京|とうきょう}**なり**、{京都|きょうと}**なり**、サラが行きたいところでいいよ。",
-           "tr": "Tokyo, Kyoto, wherever you want to go is fine with me, Sarah."
+           "tr": "Tokyo or Kyoto or wherever—anywhere you'd like to go is fine with me, Sarah."
           }
          ]
         }
@@ -688,7 +688,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "私が小学生の時歌手として活動していたということは、クラスメートの誰も知る**まい**。",
-         "tr": "None of my classmates probably know that I performed as a singer when I was in elementary school."
+         "tr": "I doubt any of my classmates know that I performed as a singer when I was in elementary school."
         },
         {
          "n": 2,
@@ -698,7 +698,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "スペインからお客様が来た時に通訳をしてくれ**まい**かと{上司|じょうし}に頼まれた。",
-         "tr": "My boss asked me whether I would interpret when our guests from Spain come."
+         "tr": "My boss asked me whether I might be willing to interpret when our guests from Spain come."
         },
         {
          "n": 4,
@@ -728,16 +728,16 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~まい can be used in two ways: (a) to express the speaker’s speculation that something is not the case ([#1] through [#4]), and (b) to state the speaker’s determination not to do something ([#5] and [#6])."
+           "en": "〜まい can be used in two ways: (a) to express the speaker’s speculation that something is not the case ([#1] through [#4]), and (b) to state the speaker’s determination not to do something ([#5] and [#6])."
           },
           {
            "en": "Generally, まい is attached to the dictionary form of verbs, but in case of ru-verbs, it can also be used with the stem form (V~~ます~~), as shown in [#3] and [#5]."
           },
           {
-           "en": "~てくれまいか and ~てもらえまいか are formal, written forms of ~てくれないだろうか and ~てもらえないだろうか that are often used to quote a request [#3]."
+           "en": "〜てくれまいか and 〜てもらえまいか are formal, written forms of 〜てくれないだろうか and 〜てもらえないだろうか that are often used to quote a request [#3]."
           },
           {
-           "en": "~(の)ではあるまいか in [#4] is a formal/written equivalent of ~(の)ではないだろうか ."
+           "en": "〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか ."
           },
           {
            "en": "When this structure is used to state the speaker’s determination not to do something, phrases such as 決して and 二度と are often added (examples [#5] and [#6])."
@@ -788,7 +788,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "今回の{選挙|せんきょ}は、接戦の**すえ**、わずかな差で{鈴木|すずき}さんが{田中|たなか}さんに勝った。",
-         "tr": "This election was a close race, and in the end Suzuki beat Tanaka by a narrow margin."
+         "tr": "In this election, after a close race, Suzuki finally beat Tanaka by a narrow margin."
         },
         {
          "n": 5,
@@ -1013,7 +1013,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "リーさん、サモスン社に就職が決まったけど、仕事内容が気に入らないんだって。",
-           "tr": "Lee got a job at Samoson, but apparently doesn't like the work."
+           "tr": "Lee got hired at Samosun, but apparently isn't happy with the kind of work it is."
           },
           {
            "sp": "B",
@@ -1174,13 +1174,13 @@ TRY.registerLesson({
        "t": "head",
        "style": "sq",
        "text": {
-        "en": "☛ ~かねる ⟨can’t deal with ~; can’t bring oneself to ~⟩"
+        "en": "☛ 〜かねる ⟨can’t deal with ~; can’t bring oneself to ~⟩"
        }
       },
       {
        "t": "p",
        "text": {
-        "en": "~かねる means that the subject cannot bring himself/herself to do something—even if he/she wanted to do it—because of a psychological barrier."
+        "en": "〜かねる means that the subject cannot bring himself/herself to do something—even if he/she wanted to do it—because of a psychological barrier."
        }
       },
       {
@@ -1221,7 +1221,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "In business settings such as customer services, ~かねる is often used as a formal and indirect way to state that the subject cannot do V even though he/she would like to do it."
+        "en": "In business settings such as customer services, 〜かねる is often used as a formal and indirect way to state that the subject cannot do V even though he/she would like to do it."
        }
       },
       {
@@ -1276,7 +1276,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "父の料理は、見た目**はさておくとして**、味は{保証|ほしょう}できる。",
-         "tr": "My father’s cooking may not look like much, but I can vouch for the taste."
+         "tr": "Setting aside how it looks, I can vouch for the taste of my father’s cooking."
         },
         {
          "n": 3,
@@ -1286,7 +1286,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "試合の結果**はさておき**、{全力|ぜんりょく}を出し切れたので{後悔|こうかい}はない。",
-         "tr": "Whatever the result of the match, I gave it everything I had, so I have no regrets."
+         "tr": "The result of the match aside, I gave it everything I had, so I have no regrets."
         },
         {
          "n": 5,
@@ -1355,7 +1355,7 @@ TRY.registerLesson({
          "lines": [
           {
            "sp": "A",
-           "ja": "明日の映画、2時の回にする？ 4時の回にする？",
+           "ja": "明日の映画、2時の回にする？　4時の回にする？",
            "tr": "For tomorrow’s movie, do you want the 2:00 showing? Or the 4:00 one?"
           },
           {
@@ -1367,7 +1367,7 @@ TRY.registerLesson({
         },
         {
          "n": 3,
-         "ja": "いつかはまだ決めていないが、**いずれにせよ**、今月中に{市役所|しやくしょ}(city hall)に行かなければならない。",
+         "ja": "いつかはまだ決めていないが、**いずれにせよ**、今月中に{市役所|しやくしょ} (city hall) に行かなければならない。",
          "tr": "I haven’t decided when yet, but in any case, I have to go to city hall sometime this month."
         },
         {
@@ -1524,7 +1524,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "この試験は70点以上を合格**とする**。",
-         "tr": "For this exam, a score of 70 or above is a pass."
+         "tr": "For this exam, a score of 70 or higher will be considered passing."
         },
         {
          "n": 2,
@@ -1584,7 +1584,7 @@ TRY.registerLesson({
         },
         {
          "sp": "B",
-         "ja": "甘いもの**でも**食べたら？ 元気が出るよ。",
+         "ja": "甘いもの**でも**食べたら？　元気が出るよ。",
          "en": "Why don’t you eat something sweet? It’ll help you feel better."
         }
        ]
@@ -1617,7 +1617,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "また？ 人に聞かないで、スマホで**でも**調べてみたら？",
+           "ja": "また？　人に聞かないで、スマホで**でも**調べてみたら？",
            "tr": "Again? Instead of asking people, why don’t you look it up on your phone or something?"
           }
          ]
@@ -1633,7 +1633,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "じゃあ、温泉旅行に**でも**行かない？",
-           "tr": "Then how about a hot-spring trip or something?"
+           "tr": "Then why don’t we go on a hot-spring trip or something?"
           }
          ]
         },
