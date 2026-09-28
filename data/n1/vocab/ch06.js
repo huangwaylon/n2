@@ -90,7 +90,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "{一同|いちどう}", lv: "N1", pos: "noun",
     en: "all (the members); everyone concerned",
     note: "Formal word for all the people of a group, often right after the group's name: 社員一同, 家族一同, 一同礼 (all bow). Common at the end of formal letters and in speeches.",
-    rx: ["いちとう", "いっどう", "いちどお"],
+    rx: ["いちとう", "いっどう", "いちど"],
     book: { ja: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員**{一同|いちどう}**喜び＿＿。", en: "Today we have safely reached the 100th anniversary of our founding, and all of us at the company (＿＿) with joy.", at: "ch/6" },
     ex: [
       { ja: "{皆様|みなさま}のご{来店|らいてん}を、スタッフ**{一同|いちどう}**{心|こころ}よりお{待|ま}ちしております。", en: "All of our staff look forward to welcoming you.", alt: ["{同一|どういつ}", "{一部|いちぶ}", "{一種|いっしゅ}"] },

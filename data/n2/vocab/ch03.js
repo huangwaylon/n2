@@ -10,7 +10,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{対応|たいおう}", lv: "N2", pos: "noun · する verb",
     en: "dealing with; handling; response (to a situation or request); correspondence",
     note: "Responding appropriately to a situation, problem or request: 〜に対応する, クレーム対応 (handling complaints), 対応が早い (quick to respond). It also means “to correspond to / be compatible with” (英語に対応している). 応対 is narrower — dealing with a person in front of you or on the phone.",
-    rx: ["たいよう", "たいおお", "ついおう"],
+    rx: ["たいよう", "たいのう", "ついおう"],
     book: { ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける{限|かぎ}り、お客様からのクレームに**{対応|たいおう}**せざるを{得|え}ない場面に{必|かなら}ず{出合|であ}います。", en: "You probably think you'd rather not do it, but as long as you keep working at a hotel, you will certainly run into situations where you have no choice but to deal with complaints from guests.", at: "ch/3" },
     ex: [
       { ja: "{問|と}い{合|あ}わせが{急|きゅう}に{増|ふ}えて、{今|いま}のスタッフだけでは**{対応|たいおう}**しきれない。", en: "Inquiries have suddenly increased, and the current staff alone can't handle them all.", alt: ["{応用|おうよう}", "{対立|たいりつ}", "{相応|そうおう}"] },
@@ -298,7 +298,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{才能|さいのう}", lv: "N2", pos: "noun",
     en: "talent; gift; natural ability",
     note: "Inborn ability in a field: 才能がある, 才能に恵まれる, 才能を伸ばす (develop a talent), 音楽の才能. 能力 is ability in general (including learned skills); 素質 is aptitude or potential.",
-    rx: ["さいのお", "ざいのう", "さいのうう"],
+    rx: ["ざいのう", "ざいのう", "さいのうう"],
     book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり**{才能|さいのう}**がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.", at: "gp/25" },
     ex: [
       { ja: "{彼女|かのじょ}には{子|こ}どもの{頃|ころ}から{音楽|おんがく}の**{才能|さいのう}**があった。", en: "She has had a talent for music since she was a child.", alt: ["{性能|せいのう}", "{機能|きのう}", "{芸能|げいのう}"] },

@@ -22,7 +22,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しょうたん", "そうだん", "しょだん"],
     book: { ja: "それじゃ、**{商談|しょうだん}**はどうでもいいと言わんばかりじゃないか。", en: "That's practically saying you don't care about the deal.", at: "ch/7" },
     ex: [
-      { ja: "{取引先|とりひきさき}との**{商談|しょうだん}**がまとまり、来月から{輸出|ゆしゅつ}が始まる。", en: "The deal with our business partner was struck, and exports start next month.", alt: ["{相談|そうだん}", "{雑談|ざつだん}", "{会談|かいだん}"] },
+      { ja: "{取引先|とりひきさき}との**{商談|しょうだん}**がまとまり、来月から{輸出|ゆしゅつ}が始まる。", en: "The deal with our business partner was struck, and exports start next month.", alt: ["{冗談|じょうだん}", "{雑談|ざつだん}", "{談話|だんわ}"] },
     ] },
   { w: "ぐずぐず", lv: "N2", pos: "adverb · する verb",
     en: "slowly, sluggishly; dawdling, dragging one's feet; complaining (grumbling)",
@@ -37,15 +37,15 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["せんをこす", "さきをとおす", "さきをすごす"],
     book: { ja: "ぐずぐずしているうちにライバル社に**{先|さき}を{越|こ}され**たらそれまでだぞ。", en: "If a rival company beats us to it while we dawdle, that's the end of it.", at: "ch/7" },
     ex: [
-      { ja: "新しい{薬|くすり}の開発で、{他社|たしゃ}に**{先|さき}を{越|こ}され**てしまった。", en: "Another company beat us to the development of the new drug.", alt: ["{先|さき}を{急|いそ}が", "{先|さき}を{読|よ}ま", "{後|あと}を{追|お}わ"] },
+      { ja: "新しい{薬|くすり}の開発で、{他社|たしゃ}に**{先|さき}を{越|こ}され**てしまった。", en: "Another company beat us to the development of the new drug.", alt: ["{肩|かた}を{持|も}たれ", "{羽|はね}を{伸|の}ばされ", "{顔|かお}を{立|た}てられ"] },
     ] },
   { w: "{先方|せんぽう}", lv: "N1", pos: "noun",
     en: "the other party (in business); the other side",
-    note: "Business word for the client or company you are dealing with: 先方に連絡する, 先方の都合を聞く. It is neutral and slightly formal; within the same sentence, 当方 means “our side.” Not the same as 前方 (the front, ahead).",
+    note: "Business word for the client or company you are dealing with: 先方に連絡する, 先方の都合を聞く. It is neutral and slightly formal; its counterpart 当方 means “our side.” Not the same as 前方 (the front, ahead).",
     rx: ["せんがた", "せんほう", "せんぼう"],
     book: { ja: "**{先方|せんぽう}**から問い合わせがあったんだぞ。", en: "They were the ones who contacted us.", at: "ch/7" },
     ex: [
-      { ja: "会議の日時は、**{先方|せんぽう}**の{都合|つごう}を聞いてから決めましょう。", en: "Let's decide the meeting date after checking what suits the other party.", alt: ["{前方|ぜんぽう}", "{双方|そうほう}", "{方々|ほうぼう}"] },
+      { ja: "会議の日時は、**{先方|せんぽう}**の{都合|つごう}を聞いてから決めましょう。", en: "Let's decide the meeting date after checking what suits the other party.", alt: ["{前方|ぜんぽう}", "{途方|とほう}", "{方角|ほうがく}"] },
     ] },
   { w: "{絶好|ぜっこう}", lv: "N1", pos: "noun (usu. 絶好の)",
     en: "ideal, perfect (opportunity, conditions)",
@@ -69,7 +69,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ていし", "てんじ", "だいじ"],
     book: { ja: "安くしてほしいならほしいで、{納得|なっとく}できる条件を**{提示|ていじ}**すべきですよね。", en: "If he wants it cheaper, fine, but then he should offer terms we can accept.", at: "ch/7" },
     ex: [
-      { ja: "{入館|にゅうかん}の{際|さい}は、{受付|うけつけ}で身分証明書をご**{提示|ていじ}**ください。", en: "When entering the building, please show your ID at reception.", alt: ["{提出|ていしゅつ}", "{提案|ていあん}", "{指示|しじ}"] },
+      { ja: "{入館|にゅうかん}の{際|さい}は、{受付|うけつけ}で身分証明書をご**{提示|ていじ}**ください。", en: "When entering the building, please show your ID at reception.", alt: ["{提携|ていけい}", "{提案|ていあん}", "{指示|しじ}"] },
     ] },
   { w: "{経費|けいひ}", lv: "N2", pos: "noun",
     en: "expenses, costs (of running something); business expenses",
@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["がみつく", "かみづく", "こうみつく"],
     book: { ja: "**{噛|か}みつか**", en: "(answer option) bite", at: "gp/73" },
     ex: [
-      { ja: "{散歩中|さんぽちゅう}の犬が、{急|きゅう}に{配達員|はいたついん}に**{噛|か}みついた**。", en: "A dog out on a walk suddenly bit a delivery worker.", alt: ["{噛|か}みしめた", "{飛|と}びついた", "{吸|す}いついた"] },
+      { ja: "{散歩中|さんぽちゅう}の犬が、{急|きゅう}に{配達員|はいたついん}に**{噛|か}みついた**。", en: "A dog out on a walk suddenly bit a delivery worker.", alt: ["{噛|か}みしめた", "{思|おも}いついた", "{吸|す}いついた"] },
     ] },
   { w: "{破綻|はたん}", lv: "N1", pos: "noun · する verb",
     en: "collapse, bankruptcy, failure (of a business, plan, marriage)",
@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はだん", "ひたん", "はてい"],
     book: { ja: "いくら有名{企業|きぎょう}に{就職|しゅうしょく}しても、経営が**{破|は}たん**すればそれまでだ。", en: "No matter how famous the company you join, if it goes bankrupt, that's the end of that.", at: "gp/74" },
     ex: [
-      { ja: "{無理|むり}な計画は、いずれ**{破綻|はたん}**する。", en: "An unreasonable plan will collapse sooner or later.", alt: ["{完成|かんせい}", "{分担|ぶんたん}", "{安定|あんてい}"] },
+      { ja: "{無理|むり}な計画は、いずれ**{破綻|はたん}**する。", en: "An unreasonable plan will collapse sooner or later.", alt: ["{破損|はそん}", "{分担|ぶんたん}", "{安定|あんてい}"] },
     ] },
   { w: "{使|つか}いこなす", lv: "N1", pos: "verb (transitive)",
     en: "to master, handle with skill, make full use of",
@@ -181,7 +181,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しいこなす", "つかいごなす", "つかいこなう"],
     book: { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、**使いこなせる**技術者がいなければそれまでだ。", en: "Even if you equip yourself with the latest medical equipment, it's useless without technicians who can operate it.", at: "gp/74" },
     ex: [
-      { ja: "祖母は{最新|さいしん}のスマホを**{使|つか}いこなして**いる。", en: "My grandmother has mastered the latest smartphone.", alt: ["{使|つか}い{果|は}たして", "{使|つか}い{捨|す}てて", "{使|つか}い{込|こ}んで"] },
+      { ja: "祖母は{最新|さいしん}のスマホを**{使|つか}いこなして**いる。", en: "My grandmother has mastered the latest smartphone.", alt: ["{使|つか}い{果|は}たして", "{使|つか}い{捨|す}てて", "{使|つか}い{古|ふる}して"] },
     ] },
   { w: "かなう", lv: "N2", pos: "verb (intransitive)",
     en: "to come true (a wish, dream); to be a match for; to meet (a condition)",
@@ -196,7 +196,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["さかい", "せいり", "さがり"],
     book: { ja: "散歩は朝の涼しいときにすればいいものを、暑い**{盛|さか}り**に出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You should take your walk in the cool of the morning, but you go out in the heat of the day — that's why you get heatstroke.", at: "gp/75" },
     ex: [
-      { ja: "{桜|さくら}の花は今が**{盛|さか}り**で、公園は花見客でいっぱいだ。", en: "The cherry blossoms are at their peak now, and the park is packed with people viewing them.", alt: ["{終|お}わり", "{限|かぎ}り", "{始|はじ}まり"] },
+      { ja: "{桜|さくら}の花は今が**{盛|さか}り**で、公園は花見客でいっぱいだ。", en: "The cherry blossoms are at their peak now, and the park is packed with people viewing them.", alt: ["{限|かぎ}り", "{残|のこ}り", "{便|たよ}り"] },
     ] },
   { w: "{内緒|ないしょ}", lv: "N2", pos: "noun",
     en: "secret; (keeping something) confidential, private",
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["すわりごむ", "ざりこむ", "すわりいむ"],
     book: { ja: "最近の若い人ときたら、電車の中で床に**座り込ん**だりして、恥ずかしくないのかしら。", en: "Young people these days — sitting on the floor of the train and so on. Aren't they ashamed?", at: "gp/76" },
     ex: [
-      { ja: "{疲|つか}れ{果|は}てた子どもは、道の{真|ま}ん{中|なか}に**{座|すわ}り{込|こ}んで**しまった。", en: "The worn-out child plopped down in the middle of the road.", alt: ["{座|すわ}り{直|なお}して", "{飛|と}び{込|こ}んで", "{割|わ}り{込|こ}んで"] },
+      { ja: "{疲|つか}れ{果|は}てた子どもは、道の{真|ま}ん{中|なか}に**{座|すわ}り{込|こ}んで**しまった。", en: "The worn-out child plopped down in the middle of the road.", alt: ["{座|すわ}り{直|なお}して", "{申|もう}し{込|こ}んで", "{割|わ}り{込|こ}んで"] },
     ] },
   { w: "しっぽ", lv: "N2", pos: "noun",
     en: "tail (of an animal); the end, tail end",
@@ -234,7 +234,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["るすはん", "りゅうすばん", "るすうばん"],
     book: { ja: "{誰|だれ}を見てもしっぽを{振|ふ}って、**留守番**の役にも立たないんだから。", en: "It wags its tail at anyone it sees, so it's no use at all for watching the house.", at: "gp/76" },
     ex: [
-      { ja: "両親が旅行中なので、週末は{一人|ひとり}で**{留守番|るすばん}**だ。", en: "My parents are away on a trip, so I'm minding the house on my own this weekend.", alt: ["{当番|とうばん}", "{門番|もんばん}", "{順番|じゅんばん}"] },
+      { ja: "両親が旅行中なので、週末は{一人|ひとり}で**{留守番|るすばん}**だ。", en: "My parents are away on a trip, so I'm minding the house on my own this weekend.", alt: ["{番号|ばんごう}", "{門番|もんばん}", "{順番|じゅんばん}"] },
     ] },
   { w: "{通用|つうよう}", lv: "N2", pos: "noun · する verb",
     en: "being accepted, valid or effective (somewhere); passing as; holding good",
@@ -250,7 +250,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ふじん", "ぶしん", "ふしんい"],
     book: { ja: "国のトップが変わったところで、国民の政治**{不信|ふしん}**は簡単には解決できない。", en: "Even if the country's leader changes, the public's distrust of politics can't be easily resolved.", at: "gp/77" },
     ex: [
-      { ja: "{度重|たびかさ}なるミスで、客は会社に**{不信|ふしん}**感を{抱|いだ}いている。", en: "After repeated mistakes, customers have come to distrust the company.", alt: ["{不審|ふしん}", "{不振|ふしん}", "{安心|あんしん}"] },
+      { ja: "{度重|たびかさ}なるミスで、客は会社に**{不信|ふしん}**感を{抱|いだ}いている。", en: "After repeated mistakes, customers have come to distrust the company.", alt: ["{不在|ふざい}", "{不振|ふしん}", "{安心|あんしん}"] },
     ] },
   { w: "{名誉|めいよ}", lv: "N1", pos: "noun · な adjective",
     en: "honor, glory, prestige; honorary (title)",
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["かいする", "がいさする", "ごうする"],
     book: { ja: "健康を**害したら**何にもならないよ", en: "It's all for nothing if you ruin your health.", at: "gp/77" },
     ex: [
-      { ja: "{働|はたら}きすぎて健康を**{害|がい}して**は元も子もない。", en: "If you work too hard and ruin your health, you lose everything.", alt: ["{保|たも}って", "{守|まも}って", "{損|そこ}なわれて"] },
+      { ja: "{働|はたら}きすぎて健康を**{害|がい}して**は元も子もない。", en: "If you work too hard and ruin your health, you lose everything.", alt: ["{保|たも}って", "{守|まも}って", "{養|やしな}って"] },
     ] },
   { w: "{財産|ざいさん}", lv: "N2", pos: "noun",
     en: "property, assets, fortune; (a valuable) asset",
@@ -298,7 +298,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["かいみょう", "げめい", "かいべい"],
     book: { ja: "役に立とうが立つまいが、疑問に思うことを**{解明|かいめい}**しようとするのが人間というものだ。", en: "Whether it's useful or not, it's human nature to try to get to the bottom of what puzzles us.", at: "gp/79" },
     ex: [
-      { ja: "事故の原因はまだ**{解明|かいめい}**されていない。", en: "The cause of the accident has not yet been determined.", alt: ["{解散|かいさん}", "{説明|せつめい}", "{表明|ひょうめい}"] },
+      { ja: "事故の原因はまだ**{解明|かいめい}**されていない。", en: "The cause of the accident has not yet been determined.", alt: ["{解散|かいさん}", "{照明|しょうめい}", "{解約|かいやく}"] },
     ] },
   { w: "{欠|か}かす", lv: "N1", pos: "verb (transitive)",
     en: "to miss, go without (usually in the negative: never fail to)",
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["けかす", "かけす", "きかす"],
     book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that, whether he has time or not, he has never once skipped his after-meal coffee.", at: "gp/79" },
     ex: [
-      { ja: "運動は健康{維持|いじ}に**{欠|か}かせない**。", en: "Exercise is indispensable for staying healthy.", alt: ["{欠|か}けない", "{抜|ぬ}かせない", "{外|はず}せない"] },
+      { ja: "運動は健康{維持|いじ}に**{欠|か}かせない**。", en: "Exercise is indispensable for staying healthy.", alt: ["{欠|か}けない", "{抜|ぬ}かせない", "{任|まか}せない"] },
     ] },
   { w: "{就|つ}く", lv: "N2", pos: "verb (intransitive)",
     en: "to take (a post, job); to assume (a position); to settle into",
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しゅうく", "じゅく", "づく"],
     book: { ja: "責任のある地位に**{就|つ}こ**うが{就|つ}くまいが、", en: "Whether you take a responsible position or not,", at: "gp/79" },
     ex: [
-      { ja: "{卒業後|そつぎょうご}は、{地元|じもと}で教師の{職|しょく}に**{就|つ}き**たい。", en: "After graduating, I want to get a job as a teacher back home.", alt: ["{着|つ}き", "{付|つ}き", "{突|つ}き"] },
+      { ja: "{卒業後|そつぎょうご}は、{地元|じもと}で教師の{職|しょく}に**{就|つ}き**たい。", en: "After graduating, I want to get a job as a teacher back home.", alt: ["{働|はたら}き", "{雇|やと}い", "{訪|たず}ね"] },
     ] },
   { w: "{無理|むり}やり", lv: "N1", pos: "adverb",
     en: "forcibly, against someone's will",
@@ -330,7 +330,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["みごう", "けんあい", "みあわい"],
     book: { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお**{見合|みあ}い**させられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…", at: "gp/80" },
     ex: [
-      { ja: "両親は**お{見合|みあ}い**で知り合って結婚したそうだ。", en: "Apparently my parents met at an arranged-marriage meeting and got married.", alt: ["お{付|つ}き{合|あ}い", "お{見舞|みま}い", "お{知|し}り{合|あ}い"] },
+      { ja: "両親は**お{見合|みあ}い**で知り合って結婚したそうだ。", en: "Apparently my parents met at an arranged-marriage meeting and got married.", alt: ["お{付|つ}き{合|あ}い", "お{見通|みとお}し", "お{知|し}り{合|あ}い"] },
     ] },
   { w: "{用件|ようけん}", lv: "N2", pos: "noun",
     en: "business, matter (one needs to take care of); the point of a message",
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ようげん", "ようかん", "よけん"],
     book: { ja: "相手の名前も**{用件|ようけん}**も忘れていました", en: "I'd forgotten both the person's name and what they wanted.", at: "gp/80" },
     ex: [
-      { ja: "{恐|おそ}れ{入|い}りますが、ご**{用件|ようけん}**をお{伺|うかが}いできますか。", en: "Excuse me, may I ask what this is regarding?", alt: ["{条件|じょうけん}", "{事件|じけん}", "{要求|ようきゅう}"] },
+      { ja: "{恐|おそ}れ{入|い}りますが、ご**{用件|ようけん}**をお{伺|うかが}いできますか。", en: "Excuse me, may I ask what this is regarding?", alt: ["{物件|ぶっけん}", "{事件|じけん}", "{用心|ようじん}"] },
     ] },
   { w: "{判決|はんけつ}", lv: "N1", pos: "noun",
     en: "(court) judgment, ruling, verdict, sentence",
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["にんいん", "じんにん", "ひといん"],
     book: { ja: "**人員**{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts can hardly be said to bring nothing but benefits.", at: "gp/81" },
     ex: [
-      { ja: "{繁忙期|はんぼうき}に{備|そな}えて、**{人員|じんいん}**を{増|ふ}やすことになった。", en: "We decided to increase staff in preparation for the busy season.", alt: ["{人間|にんげん}", "{人口|じんこう}", "{委員|いいん}"] },
+      { ja: "{繁忙期|はんぼうき}に{備|そな}えて、**{人員|じんいん}**を{増|ふ}やすことになった。", en: "We decided to increase staff in preparation for the busy season.", alt: ["{人格|じんかく}", "{人口|じんこう}", "{人生|じんせい}"] },
     ] },
   { w: "{継|つ}ぐ", lv: "N2", pos: "verb (transitive)",
     en: "to succeed to, take over (a business, position); to inherit",
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["すぐ", "けいぐ", "つむぐ"],
     book: { ja: "息子も娘も**{継|つ}ぐ**気がないなら、工場は閉めるまでだ。", en: "If neither my son nor my daughter wants to take over, I'll just close the factory.", at: "gp/82" },
     ex: [
-      { ja: "{兄|あに}は{大学|だいがく}を{出|で}てから、家の{旅館|りょかん}を**{継|つ}いだ**。", en: "After college, my older brother took over the family inn.", alt: ["{注|つ}いだ", "{次|つ}いだ", "{接|つ}いだ"] },
+      { ja: "{兄|あに}は{大学|だいがく}を{出|で}てから、家の{旅館|りょかん}を**{継|つ}いだ**。", en: "After college, my older brother took over the family inn.", alt: ["{稼|かせ}いだ", "{防|ふせ}いだ", "{脱|ぬ}いだ"] },
     ] },
   { w: "{消火器|しょうかき}", lv: "N1", pos: "noun",
     en: "fire extinguisher",
@@ -370,7 +370,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しょうかっき", "しょかき", "けしかき"],
     book: { ja: "**消火器**があっても使い方を知らなければ＿＿。", en: "Even if you have a fire extinguisher, if you don't know how to use it, ＿＿.", at: "ch/7" },
     ex: [
-      { ja: "{台所|だいどころ}には**{消火器|しょうかき}**を{備|そな}えておいたほうがいい。", en: "You should keep a fire extinguisher in the kitchen.", alt: ["{消化器|しょうかき}", "{加湿器|かしつき}", "{楽器|がっき}"] },
+      { ja: "{台所|だいどころ}には**{消火器|しょうかき}**を{備|そな}えておいたほうがいい。", en: "You should keep a fire extinguisher in the kitchen.", alt: ["{消化器|しょうかき}", "{兵器|へいき}", "{楽器|がっき}"] },
     ] },
   { w: "{振|ふ}り{回|まわ}す", lv: "N1", pos: "verb (transitive)",
     en: "to swing around, brandish; to throw one's weight around, show off; to jerk (someone) around",
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["おうりかかる", "たたりかかる", "なぐりががる"],
     book: { ja: "**{殴|なぐ}りかから**んばかりの勢いで", en: "looking as if he were about to hit him", at: "ch/7" },
     ex: [
-      { ja: "{酔|よ}った客が{急|きゅう}に店員に**{殴|なぐ}りかかった**。", en: "A drunk customer suddenly went at the clerk with his fists.", alt: ["{殴|なぐ}り{書|が}きした", "{寄|よ}りかかった", "{通|とお}りかかった"] },
+      { ja: "{酔|よ}った客が{急|きゅう}に店員に**{殴|なぐ}りかかった**。", en: "A drunk customer suddenly went at the clerk with his fists.", alt: ["{殴|なぐ}り{書|が}きした", "{降|ふ}りかかった", "{通|とお}りかかった"] },
     ] },
   { w: "{気|き}が{晴|は}れる", lv: "N1", pos: "expression (verb)",
     en: "to feel better, be cheered up, have one's mind eased",
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["きがなれる", "きがせいれる", "きがはらえる"],
     book: { ja: "A：話せば**気が晴れる**かもしれないから、話してごらんよ。", en: "A: Talking about it might make you feel better, so go ahead and tell me.", at: "ch/7" },
     ex: [
-      { ja: "思い切り{泣|な}いたら、少し**{気|き}が{晴|は}れた**。", en: "After a good cry, I felt a little better.", alt: ["{気|き}が{引|ひ}けた", "{気|き}が{抜|ぬ}けた", "{気|き}が{散|ち}った"] },
+      { ja: "思い切り{泣|な}いたら、少し**{気|き}が{晴|は}れた**。", en: "After a good cry, I felt a little better.", alt: ["{気|き}が{利|き}いた", "{気|き}が{短|みじか}かった", "{気|き}が{散|ち}った"] },
     ] },
   { w: "{片|かた}っ{端|ぱし}から", lv: "N1", pos: "expression (adverb)",
     en: "one after another without exception; indiscriminately, from one end to the other",
@@ -410,7 +410,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["かたっはしから", "へんっぱしから", "かたっばしから"],
     book: { ja: "こうなったら**{片|かた}っ{端|ぱし}から**パンフレットを配りまくってみるか。", en: "In that case, maybe we should try handing out pamphlets like crazy, to anyone and everyone.", at: "ch/7" },
     ex: [
-      { ja: "{求人|きゅうじん}{情報|じょうほう}を見て、**{片|かた}っ{端|ぱし}から**{応募|おうぼ}した。", en: "I looked through the job listings and applied to every single one.", alt: ["{片手間|かたてま}に", "{片隅|かたすみ}に", "{端|はし}っこに"] },
+      { ja: "{求人|きゅうじん}{情報|じょうほう}を見て、**{片|かた}っ{端|ぱし}から**{応募|おうぼ}した。", en: "I looked through the job listings and applied to every single one.", alt: ["{片道|かたみち}で", "{片隅|かたすみ}に", "{端|はし}っこに"] },
     ] },
   { w: "{仮|かり}に", lv: "N2", pos: "adverb",
     en: "supposing, if (hypothetically); temporarily, for the time being",
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["とくしゅう", "どくしゅ", "とくじゅ"],
     book: { ja: "※っす：一部の若い男性の話し言葉で、「です・ます」を短くした**{特殊|とくしゅ}**な言い方。", en: "*っす: a special shortened form of です/ます used in the speech of some young men.", at: "ch/7" },
     ex: [
-      { ja: "この{部品|ぶひん}は**{特殊|とくしゅ}**な{機械|きかい}でしか作れない。", en: "This part can only be made on a special machine.", alt: ["{特有|とくゆう}", "{特急|とっきゅう}", "{特技|とくぎ}"] },
+      { ja: "この{部品|ぶひん}は**{特殊|とくしゅ}**な{機械|きかい}でしか作れない。", en: "This part can only be made on a special machine.", alt: ["{特色|とくしょく}", "{特急|とっきゅう}", "{特技|とくぎ}"] },
     ] },
   { w: "{吸|す}い{殻|がら}", lv: "N1", pos: "noun",
     en: "cigarette butt",
@@ -442,7 +442,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["すいから", "すいかく", "きゅうがら"],
     book: { ja: "家の前に毎朝たばこの**{吸|す}い{殻|がら}**を捨てられて、腹が立つったらない。", en: "Every morning someone throws cigarette butts in front of my house — it makes me furious.", at: "gp/83" },
     ex: [
-      { ja: "{道路|どうろ}に**{吸|す}い{殻|がら}**を{捨|す}てるのはマナー{違反|いはん}だ。", en: "Throwing cigarette butts on the street is bad manners.", alt: ["{吸|す}い{込|こ}み", "{抜|ぬ}け{殻|がら}", "{吸|す}い{物|もの}"] },
+      { ja: "{道路|どうろ}にたばこの**{吸|す}い{殻|がら}**を{捨|す}てるのはマナー{違反|いはん}だ。", en: "Throwing cigarette butts on the street is bad manners.", alt: ["{吸|す}い{込|こ}み", "{抜|ぬ}け{殻|がら}", "{吸|す}い{物|もの}"] },
     ] },
   { w: "{眼下|がんか}", lv: "N1", pos: "noun",
     en: "(the view) below one's eyes; beneath one",
@@ -450,7 +450,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["めした", "がんげ", "げんか"],
     book: { ja: "**{眼下|がんか}**に広がる{紅葉|こうよう}の美しいことといったらないね。", en: "The autumn leaves spreading out below us are indescribably beautiful.", at: "gp/83" },
     ex: [
-      { ja: "{展望台|てんぼうだい}からは、**{眼下|がんか}**に{港|みなと}の{夜景|やけい}が広がっていた。", en: "From the observation deck, the night view of the harbor spread out below us.", alt: ["{眼科|がんか}", "{目前|もくぜん}", "{真上|まうえ}"] },
+      { ja: "{展望台|てんぼうだい}からは、**{眼下|がんか}**に{港|みなと}の{夜景|やけい}が広がっていた。", en: "From the observation deck, the night view of the harbor spread out below us.", alt: ["{眼科|がんか}", "{目下|もっか}", "{真上|まうえ}"] },
     ] },
   { w: "{言|い}い{表|あらわ}す", lv: "N1", pos: "verb (transitive)",
     en: "to express (in words), put into words, describe",
@@ -458,7 +458,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いいひょうす", "いいおもてす", "げんあらわす"],
     book: { ja: "{紅葉|こうよう}が言葉で**言い表せない**ほど美しい。", en: "The autumn leaves are more beautiful than words can express.", at: "gp/83" },
     ex: [
-      { ja: "{初|はじ}めて{娘|むすめ}を{抱|だ}いたときの気持ちは、言葉では**{言|い}い{表|あらわ}せない**。", en: "I can't put into words how I felt when I first held my daughter.", alt: ["{言|い}い{返|かえ}せない", "{言|い}い{出|だ}せない", "{言|い}い{切|き}れない"] },
+      { ja: "{初|はじ}めて{娘|むすめ}を{抱|だ}いたときの気持ちは、言葉では**{言|い}い{表|あらわ}せない**。", en: "I can't put into words how I felt when I first held my daughter.", alt: ["{言|い}い{返|かえ}せない", "{言|い}い{触|ふ}らせない", "{言|い}い{争|あらそ}えない"] },
     ] },
   { w: "{告白|こくはく}", lv: "N2", pos: "noun · する verb",
     en: "confession (of love); confession, admission (of a secret or wrongdoing)",
@@ -466,7 +466,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["こうはく", "こくばく", "こくひゃく"],
     book: { ja: "彼女に**{告白|こくはく}**しようにも、チャンスがなくてなかなかできない。", en: "I want to tell her how I feel, but I never get the chance.", at: "gp/84" },
     ex: [
-      { ja: "{卒業式|そつぎょうしき}の日、{勇気|ゆうき}を出して{先輩|せんぱい}に**{告白|こくはく}**した。", en: "On graduation day, I worked up the courage to tell my senior how I felt.", alt: ["{報告|ほうこく}", "{広告|こうこく}", "{告知|こくち}"] },
+      { ja: "{卒業式|そつぎょうしき}の日、{勇気|ゆうき}を出して{先輩|せんぱい}に**{告白|こくはく}**した。", en: "On graduation day, I worked up the courage to tell my senior how I felt.", alt: ["{被告|ひこく}", "{広告|こうこく}", "{申告|しんこく}"] },
     ] },
   { w: "{物理的|ぶつりてき}", lv: "N1", pos: "な adjective",
     en: "physical, material (as opposed to mental or emotional)",
@@ -474,17 +474,17 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ぶつりいてき", "もつりてき", "ぶつりでき"],
     book: { ja: "「A（よ）うにもAない」と「AにAない」はどちらも、事情があってAできないときに使われるが、**物理的**な理由の場合は「A（よ）うにもAない」、心情的な理由の場合は「AにAない」が使われることが多い。", en: "Both are used when you can't do A because of some circumstance, but “A（よ）うにもAない” is often used for physical reasons and “AにAない” for emotional reasons.", at: "gp/84" },
     ex: [
-      { ja: "一日でこの量を{処理|しょり}するのは**{物理的|ぶつりてき}**に{無理|むり}だ。", en: "Processing this much in one day is physically impossible.", alt: ["{心理的|しんりてき}", "{理想的|りそうてき}", "{具体的|ぐたいてき}"] },
+      { ja: "一日でこの量を{処理|しょり}するのは**{物理的|ぶつりてき}**に{無理|むり}だ。", en: "Processing this much in one day is physically impossible.", alt: ["{感動的|かんどうてき}", "{理想的|りそうてき}", "{具体的|ぐたいてき}"] },
     ] },
   { w: "{大家|おおや}", lv: "N2", pos: "noun",
     en: "landlord, landlady (of a rented house or apartment)",
     note: "Usually 大家さん. Read たいか, the same kanji means a great master or authority in a field (書道の大家). 家主 (やぬし) is the formal word for the owner.",
-    rx: ["たいや", "おおか", "おうや"],
+    rx: ["たいや", "おおか", "おおいえ"],
     book: { ja: "**大家**さんに親切にしてもらっているから、引っ{越|こ}すに引っ{越|こ}せない。", en: "The landlord has been so kind to me that I can't bring myself to move out.", at: "gp/84" },
     ex: [
       { ja: "{家賃|やちん}は毎月、**{大家|おおや}**さんの{口座|こうざ}に{振|ふ}り{込|こ}んでいる。", en: "I pay the rent into the landlord's account every month.", alt: ["{大工|だいく}", "{大物|おおもの}", "{大使|たいし}"] },
     ] },
-  { w: "やけ", lv: "N1", pos: "noun · な adjective",
+  { w: "やけ", lv: "N1", pos: "noun",
     en: "desperation, self-abandonment (acting recklessly out of frustration)",
     note: "やけになる (become desperate and reckless), やけを起こす, やけ食い (binge-eating out of frustration), やけ酒 (drinking to drown one's sorrows). Also written 自棄. Not the same as やけに (awfully, strangely).",
     book: { ja: "失恋したぐらいで、**やけ**になって食べまくる{奴|やつ}の気がしれないよ。", en: "I don't understand people who go on an eating binge out of despair just because they got dumped.", at: "gp/85" },
@@ -505,7 +505,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["おんこ", "おんごう", "うんこう"],
     book: { ja: "**{温厚|おんこう}**な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even the easygoing Mr. Tanaka would surely get angry if he were kept waiting for a whole hour.", at: "gp/86" },
     ex: [
-      { ja: "{祖父|そふ}は**{温厚|おんこう}**な人で、声を{荒|あら}げたことがない。", en: "My grandfather is a gentle man who has never raised his voice.", alt: ["{濃厚|のうこう}", "{温暖|おんだん}", "{重厚|じゅうこう}"] },
+      { ja: "{祖父|そふ}は**{温厚|おんこう}**な人で、声を{荒|あら}げたことがない。", en: "My grandfather is a gentle man who has never raised his voice.", alt: ["{濃厚|のうこう}", "{温暖|おんだん}", "{厚手|あつで}"] },
     ] },
   { w: "{負荷|ふか}", lv: "N1", pos: "noun",
     en: "load, burden, strain (on a system, body, environment)",
@@ -521,14 +521,14 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はえ", "ばかい", "はかえ"],
     book: { ja: "人間にしたところで、自然が**{破壊|はかい}**されれば生きられないのは{野生|やせい}動物と変わらない。", en: "Even humans are no different from wild animals in that they can't survive if nature is destroyed.", at: "gp/86" },
     ex: [
-      { ja: "{森林|しんりん}の**{破壊|はかい}**が進み、多くの動物がすみかを{失|うしな}った。", en: "As forest destruction advances, many animals have lost their homes.", alt: ["{崩壊|ほうかい}", "{破産|はさん}", "{破片|はへん}"] },
+      { ja: "{森林|しんりん}の**{破壊|はかい}**が進み、多くの動物がすみかを{失|うしな}った。", en: "As forest destruction advances, many animals have lost their homes.", alt: ["{破格|はかく}", "{破産|はさん}", "{破片|はへん}"] },
     ] },
   { w: "いずれ", lv: "N2", pos: "adverb · pronoun",
     en: "either, whichever (of several); sooner or later, eventually; some day",
     note: "いずれにしても／いずれにせよ (in any case), いずれの場合も (in either case) — the formal version of どちら／どれ. As an adverb: いずれわかる (you'll find out eventually), いずれまた (some other time).",
     book: { ja: "進学か{就職|しゅうしょく}か**いずれ**にしたって、自分で決めなければならない。", en: "Whether you go on to further study or get a job, either way you have to decide for yourself.", at: "gp/86" },
     ex: [
-      { ja: "{嘘|うそ}をついても、**いずれ**ばれるよ。", en: "Even if you lie, it'll come out sooner or later.", alt: ["いまさら", "たちまち", "いまだに"] },
+      { ja: "{嘘|うそ}をついても、**いずれ**ばれるよ。", en: "Even if you lie, it'll come out sooner or later.", alt: ["いまさら", "かつて", "いまだに"] },
     ] },
   { w: "{決意|けつい}", lv: "N1", pos: "noun · する verb",
     en: "determination, resolve; making up one's mind (firmly)",
@@ -559,7 +559,7 @@ TRY.registerVocab({ ch: 7, words: [
     note: "いざ means “now, at the critical moment”: いざという時 (in an emergency), いざ始めると (once you actually start). いざとなれば is the same as いざとなったら.",
     book: { ja: "**いざとなったら**、この土地を売って借金を返す（　）。", en: "If it comes to that, I'll (　) sell this land and pay off the debt.", at: "ch/7/review" },
     ex: [
-      { ja: "**いざとなったら**、{実家|じっか}に帰ればいい。", en: "If push comes to shove, I can always go back to my parents' place.", alt: ["いざ{知|し}らず", "いまさら", "なにがなんでも"] },
+      { ja: "**いざとなったら**、{実家|じっか}に帰ればいい。", en: "If push comes to shove, I can always go back to my parents' place.", alt: ["いざ{知|し}らず", "かつて", "とっくに"] },
     ] },
   { w: "{特許|とっきょ}", lv: "N1", pos: "noun",
     en: "patent; special permission",
@@ -567,7 +567,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["とくきょ", "とっきょう", "どっきょ"],
     book: { ja: "A：カラオケ発明した人、**{特許|とっきょ}**取らなかったんだって？", en: "A: I hear the man who invented karaoke never took out a patent?", at: "ch/7/review" },
     ex: [
-      { ja: "この会社は、新しい{電池|でんち}の技術で**{特許|とっきょ}**を{取得|しゅとく}した。", en: "This company obtained a patent for its new battery technology.", alt: ["{許可|きょか}", "{免許|めんきょ}", "{特権|とっけん}"] },
+      { ja: "この会社は、新しい{電池|でんち}の技術で**{特許|とっきょ}**を{取得|しゅとく}した。", en: "This company obtained a patent for its new battery technology.", alt: ["{特急|とっきゅう}", "{免許|めんきょ}", "{特権|とっけん}"] },
     ] },
   { w: "{大儲|おおもう}け", lv: "N1", pos: "noun · する verb",
     en: "huge profit, windfall; making a killing",
@@ -628,12 +628,12 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "{当|とう}の", lv: "N1", pos: "prenominal adjective",
     en: "the very (person or thing) in question; the ... concerned",
     note: "当の本人 (the very person in question), 当の相手; used to contrast that person with others who are fussing: 周りは心配しているが、当の本人は平気だ. 当人 (とうにん) is the noun.",
-    rx: ["あての", "とおの", "どうの"],
+    rx: ["あての", "まさの", "どうの"],
     book: { ja: "**{当|とう}の**本人は、__②「母さんにはわからないよ。」__と言わんばかりの顔で、", en: "The man himself, with a look that says “Mom, you don't get it,”", at: "ch/7/review" },
     ex: [
-      { ja: "{周|まわ}りは大騒ぎしているのに、**{当|とう}の**本人は{平気|へいき}な{顔|かお}をしている。", en: "Everyone around him is in an uproar, but the man himself looks unconcerned.", alt: ["{例|れい}の", "{肝心|かんじん}の", "{本|ほん}の"] },
+      { ja: "{周|まわ}りは大騒ぎしているのに、**{当|とう}の**本人は{平気|へいき}な{顔|かお}をしている。", en: "Everyone around him is in an uproar, but the man himself looks unconcerned.", alt: ["{他|た}の", "{本|ほん}の", "{別|べつ}の"] },
     ] },
-  { w: "{立体|りったい}", lv: "N1", pos: "noun",
+  { w: "{立体|りったい}", lv: "N2", pos: "noun",
     en: "solid (body), three-dimensional object; 3D",
     note: "立体的 (three-dimensional), 立体駐車場 (multi-story parking garage), 立体交差 (overpass/underpass junction). The opposite is 平面 (plane, 2D).",
     rx: ["りつたい", "たちたい", "りゅうたい"],
@@ -671,7 +671,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["そうそう", "そうぞ", "しょうぞう"],
     book: { ja: "レゴはすでに、弟さんの人生の一部であり、**{創造|そうぞう}**の{源|みなもと}であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO is probably already part of your brother's life, a source of creativity, and energy for tomorrow.", at: "ch/7/review" },
     ex: [
-      { ja: "子どもの**{創造|そうぞう}**{力|りょく}を{育|そだ}てる{教育|きょういく}が{求|もと}められている。", en: "There is a demand for education that nurtures children's creativity.", alt: ["{想像|そうぞう}", "{製造|せいぞう}", "{構造|こうぞう}"] },
+      { ja: "子どもの**{創造|そうぞう}**{力|りょく}を{育|そだ}てる{教育|きょういく}が{求|もと}められている。", en: "There is a demand for education that nurtures children's creativity.", alt: ["{創立|そうりつ}", "{製造|せいぞう}", "{構造|こうぞう}"] },
     ] },
   { w: "{源|みなもと}", lv: "N1", pos: "noun",
     en: "source, origin; the source (of a river)",
@@ -679,7 +679,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["みなみと", "げんもと", "みなかみ"],
     book: { ja: "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の**{源|みなもと}**であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO is probably already part of your brother's life, a source of creativity, and energy for tomorrow.", at: "ch/7/review" },
     ex: [
-      { ja: "{家族|かぞく}の{笑顔|えがお}が、{私|わたし}の{元気|げんき}の**{源|みなもと}**です。", en: "My family's smiles are the source of my energy.", alt: ["{根|ね}", "{泉|いずみ}", "{岸|きし}"] },
+      { ja: "{家族|かぞく}の{笑顔|えがお}が、{私|わたし}の{元気|げんき}の**{源|みなもと}**です。", en: "My family's smiles are the source of my energy.", alt: ["{根|ね}", "{壁|かべ}", "{岸|きし}"] },
     ] },
   { w: "{活力|かつりょく}", lv: "N1", pos: "noun",
     en: "vitality, energy, vigor",

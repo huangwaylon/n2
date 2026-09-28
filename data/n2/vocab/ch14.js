@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 14, words: [
   { w: "{賛同|さんどう}", lv: "N1", pos: "noun · する verb",
     en: "approval; support; endorsement",
     note: "Agreeing with and supporting a proposal or cause: 計画に賛同する, 多くの人の賛同を得る. More formal than 賛成, and often used for joining a movement or signing on to an idea (賛同者 supporters).",
-    rx: ["さんとう", "さんどお", "ざんどう"],
+    rx: ["さんとう", "さんとう", "ざんどう"],
     book: { ja: "多くの人が**{賛|さん}{同|どう}**してこそ、オリンピックを{開|ひら}く{意義|いぎ}がある。", en: "Only when many people support it is there any point in holding the Olympics.", at: "ch/14" },
     ex: [
       { ja: "{多|おお}くの{住民|じゅうみん}が、{公園|こうえん}を{守|まも}る{運動|うんどう}に**{賛同|さんどう}**した。", en: "Many residents gave their support to the movement to protect the park.", alt: ["{同行|どうこう}", "{参道|さんどう}", "{反動|はんどう}"] },
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 14, words: [
   { w: "{原料|げんりょう}", lv: "N2", pos: "noun",
     en: "raw material(s); ingredients (for manufacturing)",
     note: "The basic substance a product is made from, often in industry: 原料の値上げ, 大豆を原料とする (made from soybeans), 原材料 (raw materials, on food labels). 材料 is used for cooking and building materials.",
-    rx: ["げんりょ", "げんりょお", "がんりょう"],
+    rx: ["げんりょ", "げんりょ", "がんりょう"],
     book: { ja: "**{原料|げんりょう}**の{値上|ねあ}げ＿＿、{流通|りゅうつう}コストも上がったため、{値上|ねあ}げせざるを{得|え}なくなってしまいました。", en: "On top of the rise in raw material prices, distribution costs also went up, so we have had no choice but to raise our prices.", at: "ch/14" },
     ex: [
       { ja: "しょうゆの**{原料|げんりょう}**は{大豆|だいず}と{小麦|こむぎ}と{塩|しお}だ。", en: "Soy sauce is made from soybeans, wheat and salt.", alt: ["{原因|げんいん}", "{燃料|ねんりょう}", "{給料|きゅうりょう}"] },

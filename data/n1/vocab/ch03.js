@@ -102,7 +102,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{健闘|けんとう}", lv: "N1", pos: "noun · する verb",
     en: "a good fight; a strong effort (in a contest), even in defeat",
     note: "Sports, elections and competitions: 健闘をたたえる (praise someone's effort), ご健闘をお祈りします (best of luck — before a match or exam). It often means 'fought well against the odds', so it softens a loss. 奮闘 is a desperate struggle.",
-    rx: ["けんどう", "けんとお", "げんとう"],
+    rx: ["けんどう", "けんどう", "げんとう"],
     book: { ja: "試合終了のホイッスルが{響|ひび}き、泥まみれの選手たちは雨の中でお互いの**{健闘|けんとう}**をたたえ合った。", en: "The final whistle sounded, and in the rain the mud-covered players praised one another for a hard-fought game.", at: "gp/16" },
     ex: [
       { ja: "{初出場|はつしゅつじょう}で{準決勝|じゅんけっしょう}まで進んだチームの**{健闘|けんとう}**に、{観客|かんきゃく}から大きな{拍手|はくしゅ}が送られた。", en: "The crowd gave a big round of applause to the team for its strong showing in reaching the semifinals in its first appearance.", alt: ["{健康|けんこう}", "{検討|けんとう}", "{格闘|かくとう}"] },

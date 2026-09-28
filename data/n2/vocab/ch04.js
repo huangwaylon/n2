@@ -177,7 +177,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "{検討|けんとう}", lv: "N2", pos: "noun · する verb",
     en: "examination; consideration; review (before deciding)",
     note: "Looking at something carefully to decide on it: 案を検討する, 検討中 (under review), 検討の余地 (room for consideration). In business, 前向きに検討します can be a polite way of not committing. 考慮 is taking a factor into account.",
-    rx: ["けんどう", "けんとお", "げんとう"],
+    rx: ["けんどう", "けんどう", "げんとう"],
     book: { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を**{検討|けんとう}**しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department.", at: "gp/30" },
     ex: [
       { ja: "{新|あたら}しい{計画|けいかく}については、{来週|らいしゅう}の{会議|かいぎ}で**{検討|けんとう}**します。", en: "We will review the new plan at next week's meeting.", alt: ["{見当|けんとう}", "{検査|けんさ}", "{検索|けんさく}"] },

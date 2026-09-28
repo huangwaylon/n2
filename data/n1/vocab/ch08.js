@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["らくおん", "がくえん", "らっえん"],
     book: { ja: "**{楽園|らくえん}**の{萌花|もえか}", en: "Moeka of Paradise", at: "ch/8" },
     ex: [
-      { ja: "その{島|しま}は、{渡|わた}り{鳥|どり}にとって**{楽園|らくえん}**のような{場所|ばしょ}だ。", en: "That island is like a paradise for migratory birds.", alt: ["{楽屋|がくや}", "{学園|がくえん}", "{庭園|ていえん}"] },
+      { ja: "その{島|しま}は、{渡|わた}り{鳥|どり}にとって**{楽園|らくえん}**のような{場所|ばしょ}だ。", en: "That island is like a paradise for migratory birds.", alt: ["{楽屋|がくや}", "{学園|がくえん}", "{遠足|えんそく}"] },
     ] },
   { w: "{古風|こふう}", lv: "N1", pos: "な adjective · noun",
     en: "old-fashioned, traditional, of the old style",
@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こかぜ", "ふるふう", "こぶう"],
     book: { ja: "ファンタジー小説を読んで、やや**{古風|こふう}**な表現を味わいながら、登場人物やその関係を理解することができる。", en: "Read a fantasy novel and understand its characters and their relationships while savoring its somewhat old-fashioned expressions.", at: "ch/8" },
     ex: [
-      { ja: "{彼女|かのじょ}は{今|いま}どき{珍|めずら}しい、**{古風|こふう}**な{考|かんが}え{方|かた}の{持|も}ち{主|ぬし}だ。", en: "She holds the kind of old-fashioned views that are rare these days.", alt: ["{古典|こてん}", "{風変|ふうが}わり", "{古代|こだい}"] },
+      { ja: "{彼女|かのじょ}は{今|いま}どき{珍|めずら}しい、**{古風|こふう}**な{考|かんが}え{方|かた}の{持|も}ち{主|ぬし}だ。", en: "She holds the kind of old-fashioned views that are rare these days.", alt: ["{古典|こてん}", "{風通|かぜとお}し", "{古代|こだい}"] },
     ] },
   { w: "{考|かんが}え{込|こ}む", lv: "N2", pos: "verb (intransitive)",
     en: "to be lost in thought, brood over, ponder deeply",
@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こうえこむ", "かんがえごむ", "かんがいこむ"],
     book: { ja: "何か**考え込ん**でいる表情で{萌花|もえか}は先ほどから庭を行きつ戻りつしている。", en: "With a look of deep thought, Moeka has been pacing back and forth in the garden for a while now.", at: "ch/8" },
     ex: [
-      { ja: "{父|ちち}は{手紙|てがみ}を{読|よ}むと、{黙|だま}って**{考|かんが}え{込|こ}んで**しまった。", en: "After reading the letter, my father fell silent, lost in thought.", alt: ["{考|かんが}え{出|だ}して", "{考|かんが}え{直|なお}して", "{思|おも}い{込|こ}んで"] },
+      { ja: "{父|ちち}は{手紙|てがみ}を{読|よ}むと、{黙|だま}って**{考|かんが}え{込|こ}んで**しまった。", en: "After reading the letter, my father fell silent, lost in thought.", alt: ["{考|かんが}え{出|だ}して", "{払|はら}い{込|こ}んで", "{見|み}{込|こ}んで"] },
     ] },
   { w: "{物心|ものごころ}つく", lv: "N1", pos: "expression (verb)",
     en: "to become old enough to understand things (in early childhood)",
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["とりぐみ", "しゅそみ", "とりくいみ"],
     book: { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな**取り組み**をしている。", en: "In order to improve living conditions on the island, the islanders are undertaking various initiatives.", at: "gp/90" },
     ex: [
-      { ja: "{市|し}はごみを{減|へ}らすための**{取|と}り{組|く}み**を{始|はじ}めた。", en: "The city has launched an initiative to reduce waste.", alt: ["{取|と}り{扱|あつか}い", "{取|と}り{消|け}し", "{仕組|しく}み"] },
+      { ja: "{市|し}はごみを{減|へ}らすための**{取|と}り{組|く}み**を{始|はじ}めた。", en: "The city has launched an initiative to reduce waste.", alt: ["{取|と}り{扱|あつか}い", "{取|と}り{消|け}し", "{取|と}り{柄|え}"] },
     ] },
   { w: "{広報|こうほう}", lv: "N1", pos: "noun",
     en: "public relations, PR; publicity, public information",
@@ -93,7 +93,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こうほ", "ひろほう", "こうぼう"],
     book: { ja: "国民の理解と協力を{得|え}るべく、**{広報|こうほう}**活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Public relations activities were stepped up in order to gain the understanding and cooperation of the people, but no significant results were obtained.", at: "gp/90" },
     ex: [
-      { ja: "{新製品|しんせいひん}の{発表会|はっぴょうかい}は、**{広報|こうほう}**{部|ぶ}が{担当|たんとう}している。", en: "The PR department is in charge of the new product launch.", alt: ["{情報|じょうほう}", "{予報|よほう}", "{警報|けいほう}"] },
+      { ja: "{新製品|しんせいひん}の{発表会|はっぴょうかい}は、**{広報|こうほう}**{部|ぶ}が{担当|たんとう}している。", en: "The PR department is in charge of the new product launch.", alt: ["{電報|でんぽう}", "{予報|よほう}", "{警報|けいほう}"] },
     ] },
   { w: "{立|た}ち{会|あ}う", lv: "N1", pos: "verb (intransitive)",
     en: "to be present at, attend, witness (an event, a birth, an inspection)",
@@ -101,7 +101,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["たちかう", "りつあう", "たちあいう"],
     book: { ja: "妻の{出産|しゅっさん}に**立ち会う**べく、", en: "In order to be present at my wife's delivery,", at: "gp/90" },
     ex: [
-      { ja: "{契約|けいやく}の{際|さい}には、{弁護士|べんごし}に**{立|た}ち{会|あ}って**もらった。", en: "We had a lawyer present when we signed the contract.", alt: ["{立|た}ち{向|む}かって", "{付|つ}き{合|あ}って", "{立|た}ち{寄|よ}って"] },
+      { ja: "{契約|けいやく}の{際|さい}には、{弁護士|べんごし}に**{立|た}ち{会|あ}って**もらった。", en: "We had a lawyer present when we signed the contract.", alt: ["{立|た}ち{向|む}かって", "{知|し}り{合|あ}って", "{立|た}ち{退|の}いて"] },
     ] },
   { w: "{速報|そくほう}", lv: "N1", pos: "noun · する verb",
     en: "news flash, breaking news; preliminary report",
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 8, words: [
     note: "For clear changes over time: めっきり寒くなった (it has gotten noticeably colder), めっきり老け込む, 客がめっきり減った. Used with change verbs, not with states. すっかり means completely; めっきり stresses how noticeable the change is.",
     book: { ja: "**めっきり**{老|ふ}けこんで", en: "aged noticeably", at: "gp/91" },
     ex: [
-      { ja: "10{月|がつ}に{入|はい}って、{朝晩|あさばん}は**めっきり**{涼|すず}しくなった。", en: "Now that it's October, the mornings and evenings have gotten noticeably cooler.", alt: ["しっかり", "うっかり", "ぎっしり"] },
+      { ja: "10{月|がつ}に{入|はい}って、{朝晩|あさばん}は**めっきり**{涼|すず}しくなった。", en: "Now that it's October, the mornings and evenings have gotten noticeably cooler.", alt: ["ちっとも", "うっかり", "ぎっしり"] },
     ] },
   { w: "{老|ふ}け{込|こ}む", lv: "N1", pos: "verb (intransitive)",
     en: "to age (suddenly), grow old, look much older",
@@ -132,7 +132,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["ろうけこむ", "おけこむ", "ふけごむ"],
     book: { ja: "めっきり**{老|ふ}けこん**で", en: "aged noticeably", at: "gp/91" },
     ex: [
-      { ja: "{仕事|しごと}を{辞|や}めてから、{父|ちち}は{急|きゅう}に**{老|ふ}け{込|こ}んだ**。", en: "After he quit working, my father suddenly aged a lot.", alt: ["{冷|ひ}え{込|こ}んだ", "{落|お}ち{込|こ}んだ", "{老|お}い{立|た}った"] },
+      { ja: "{仕事|しごと}を{辞|や}めてから、{父|ちち}は{急|きゅう}に**{老|ふ}け{込|こ}んだ**。", en: "After he quit working, my father suddenly aged a lot.", alt: ["{冷|ひ}え{込|こ}んだ", "{割|わ}り{込|こ}んだ", "{売|う}り{込|こ}んだ"] },
     ] },
   { w: "{非凡|ひぼん}", lv: "N1", pos: "な adjective · noun",
     en: "extraordinary, exceptional, remarkable",
@@ -148,7 +148,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["おきょう", "おども", "おぐ"],
     book: { ja: "昔、地位の高い人が亡くなると、**お{供|とも}**の人を{墓|はか}の周りに生きながら{埋|う}めるという習慣があったそうだ。", en: "In the old days, it is said, when a person of high rank died, there was a custom of burying their attendants alive around the tomb.", at: "gp/92" },
     ex: [
-      { ja: "{部長|ぶちょう}の{出張|しゅっちょう}に**お{供|とも}**することになった。", en: "I'm going to accompany the department manager on his business trip.", alt: ["お{世話|せわ}", "お{見合|みあ}い", "お{手伝|てつだ}い"] },
+      { ja: "{部長|ぶちょう}の{出張|しゅっちょう}に**お{供|とも}**することになった。", en: "I'm going to accompany the department manager on his business trip.", alt: ["お{世話|せわ}", "お{見合|みあ}い", "お{見舞|みま}い"] },
     ] },
   { w: "{製法|せいほう}", lv: "N1", pos: "noun",
     en: "manufacturing method, recipe, process",
@@ -174,7 +174,7 @@ TRY.registerVocab({ ch: 8, words: [
     ex: [
       { ja: "{社員|しゃいん}の{内部|ないぶ}**{告発|こくはつ}**によって、{会社|かいしゃ}の{不正|ふせい}が{明|あき}らかになった。", en: "The company's wrongdoing came to light through an employee blowing the whistle.", alt: ["{告白|こくはく}", "{発表|はっぴょう}", "{開発|かいはつ}"] },
     ] },
-  { w: "{良心|りょうしん}", lv: "N1", pos: "noun",
+  { w: "{良心|りょうしん}", lv: "N2", pos: "noun",
     en: "conscience",
     note: "良心が痛む／とがめる (one's conscience pricks), 良心的な店 (an honest, fairly priced shop). Same sound as 両親 (parents) — context tells them apart.",
     rx: ["りょうじん", "よしん", "りょしん"],
@@ -212,7 +212,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こうなみ", "あれなみ", "あらば"],
     book: { ja: "**{荒波|あらなみ}**をものともせず、ヨットは力強く進んでいった。", en: "Braving the rough waves, the yacht pressed powerfully onward.", at: "gp/94" },
     ex: [
-      { ja: "{新入社員|しんにゅうしゃいん}は、{社会|しゃかい}の**{荒波|あらなみ}**にもまれて{成長|せいちょう}していく。", en: "New employees grow as they are tossed about by the harsh realities of the working world.", alt: ["{人波|ひとなみ}", "{電波|でんぱ}", "{荒野|こうや}"] },
+      { ja: "{新入社員|しんにゅうしゃいん}は、{社会|しゃかい}の**{荒波|あらなみ}**にもまれて{成長|せいちょう}していく。", en: "New employees grow as they are tossed about by the harsh realities of the working world.", alt: ["{波長|はちょう}", "{電波|でんぱ}", "{荒野|こうや}"] },
     ] },
   { w: "{悪天候|あくてんこう}", lv: "N1", pos: "noun",
     en: "bad weather, foul weather",
@@ -228,9 +228,9 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["かごく", "かこう", "かっこく"],
     book: { ja: "__{砂漠|さばく}の**{過酷|かこく}**な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。", en: "Undeterred by the desert's harsh environment and mechanical trouble, they drove all 12,000 km.", at: "gp/94" },
     ex: [
-      { ja: "{工場|こうじょう}の{労働者|ろうどうしゃ}たちは、**{過酷|かこく}**な{条件|じょうけん}で{働|はたら}かされていた。", en: "The factory workers were made to work under grueling conditions.", alt: ["{残酷|ざんこく}", "{過剰|かじょう}", "{冷酷|れいこく}"] },
+      { ja: "{工場|こうじょう}の{労働者|ろうどうしゃ}たちは、**{過酷|かこく}**な{条件|じょうけん}で{働|はたら}かされていた。", en: "The factory workers were made to work under grueling conditions.", alt: ["{過去|かこ}", "{過剰|かじょう}", "{酷似|こくじ}"] },
     ] },
-  { w: "{一切|いっさい}", lv: "N1", pos: "adverb · noun",
+  { w: "{一切|いっさい}", lv: "N2", pos: "adverb · noun",
     en: "(not) at all, (none) whatsoever; everything, all",
     note: "With a negative, a strong “not at all”: 一切関係ない, 一切受け付けません. As a noun, “all of it”: 一切を任せる. Same kanji read いっせつ in 一切衆生 (Buddhist). 全く is the milder everyday equivalent.",
     rx: ["いちせつ", "いっきり", "ひときり"],
@@ -270,7 +270,7 @@ TRY.registerVocab({ ch: 8, words: [
     ex: [
       { ja: "{祖父母|そふぼ}は{海辺|うみべ}の{町|まち}で{小|ちい}さな{民宿|みんしゅく}を**{営|いとな}んで**いる。", en: "My grandparents run a small guesthouse in a seaside town.", alt: ["{務|つと}めて", "{勤|つと}めて", "{働|はたら}いて"] },
     ] },
-  { w: "{栽培|さいばい}", lv: "N1", pos: "noun · する verb",
+  { w: "{栽培|さいばい}", lv: "N2", pos: "noun · する verb",
     en: "cultivation, growing (plants, crops)",
     note: "野菜を栽培する, 有機栽培 (organic farming), 水耕栽培 (hydroponics). 飼育 is the counterpart for raising animals; 養殖 for fish farming.",
     rx: ["さいはい", "せいばい", "さいぱい"],
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["ようけこむ", "とけごむ", "とかこむ"],
     book: { ja: "{小鬼|こおに}は黒い空に**{溶|と}け{込|こ}み**、{姿|すがた}を消した。", en: "The little demon melted into the black sky and vanished.", at: "ch/8" },
     ex: [
-      { ja: "{転校生|てんこうせい}はすぐにクラスに**{溶|と}け{込|こ}んだ**。", en: "The transfer student fit in with the class right away.", alt: ["{飛|と}び{込|こ}んだ", "{割|わ}り{込|こ}んだ", "{解|と}け{合|あ}った"] },
+      { ja: "{転校生|てんこうせい}はすぐにクラスに**{溶|と}け{込|こ}んだ**。", en: "The transfer student fit in with the class right away.", alt: ["{煮|に}{込|こ}んだ", "{割|わ}り{込|こ}んだ", "{解|と}け{合|あ}った"] },
     ] },
   { w: "{左右|さゆう}", lv: "N1", pos: "noun · する verb",
     en: "left and right; to influence, control, decide (an outcome)",
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["じょうじょうに", "しょしょに", "じょうじょに"],
     book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool and it is gradually beginning to feel like autumn; how are you getting along?", at: "gp/96" },
     ex: [
-      { ja: "{手術|しゅじゅつ}の{後|あと}、{父|ちち}の{体力|たいりょく}は**{徐々|じょじょ}に**{回復|かいふく}している。", en: "Since the operation, my father's strength has been gradually coming back.", alt: ["{直|ただ}ちに", "{一気|いっき}に", "{急激|きゅうげき}に"] },
+      { ja: "{手術|しゅじゅつ}の{後|あと}、{父|ちち}の{体力|たいりょく}は**{徐々|じょじょ}に**{回復|かいふく}している。", en: "Since the operation, my father's strength has been gradually coming back.", alt: ["{直|ただ}ちに", "{無性|むしょう}に", "{一向|いっこう}に"] },
     ] },
   { w: "{口調|くちょう}", lv: "N1", pos: "noun",
     en: "tone (of voice), manner of speaking",
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["だまだま", "もっくもっく", "ぼくぼく"],
     book: { ja: "彼は上司のせいで苦労したが、非難めいたことは{一言|ひとこと}も言わず、**{黙々|もくもく}**と働いていた。", en: "He had a hard time because of his boss, but he never said a single word that sounded like criticism and just kept working in silence.", at: "gp/96" },
     ex: [
-      { ja: "{選手|せんしゅ}たちは{誰|だれ}もいないグラウンドで**{黙々|もくもく}**と{練習|れんしゅう}を{続|つづ}けた。", en: "The players kept practicing silently on the empty field.", alt: ["{堂々|どうどう}", "{次々|つぎつぎ}", "{早々|そうそう}"] },
+      { ja: "{選手|せんしゅ}たちは{誰|だれ}もいないグラウンドで**{黙々|もくもく}**と{練習|れんしゅう}を{続|つづ}けた。", en: "The players kept practicing silently on the empty field.", alt: ["{点々|てんてん}", "{次々|つぎつぎ}", "{早々|そうそう}"] },
     ] },
   { w: "{美談|びだん}", lv: "N1", pos: "noun",
     en: "a heartwarming or admirable story; a story of a good deed",
@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 8, words: [
       { ja: "{有名人|ゆうめいじん}の{家|いえ}に**{脅迫|きょうはく}**{状|じょう}が{届|とど}いた。", en: "A threatening letter was delivered to the celebrity's home.", alt: ["{圧迫|あっぱく}", "{迫力|はくりょく}", "{招待|しょうたい}"] },
     ] },
   { w: "{魅了|みりょう}", lv: "N1", pos: "noun · する verb",
-    en: "fascinating, captivating, enchanting",
+    en: "captivating, enchanting (people); fascination",
     note: "人々を魅了する, 観客を魅了した演技; often passive: 美しさに魅了される. 魅力 is the noun “charm, appeal”; 魅了 is the act of captivating.",
     rx: ["みりょ", "びりょう", "みいりょう"],
     book: { ja: "モナリザの＿＿めいた{微笑|ほほえみ}は時代を超えて人々を**{魅了|みりょう}**し続けている。", en: "The Mona Lisa's ＿＿-like smile has kept captivating people across the ages.", at: "gp/96" },
@@ -418,7 +418,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["あはく", "ぼうく", "あばける"],
     book: { ja: "不正を**{暴|あば}いた**ジャーナリストに対して、「交通事故に気をつけろ」といった＿＿めいた電話が毎日かかってくる。", en: "The journalist who exposed the wrongdoing gets ＿＿-like phone calls every day, saying things like “Watch out for traffic accidents.”", at: "gp/96" },
     ex: [
-      { ja: "{記者|きしゃ}たちは{政治家|せいじか}の{嘘|うそ}を**{暴|あば}いた**。", en: "The reporters exposed the politician's lies.", alt: ["{暴|あば}れた", "{隠|かく}した", "{守|まも}った"] },
+      { ja: "{記者|きしゃ}たちは{政治家|せいじか}の{嘘|うそ}を**{暴|あば}いた**。", en: "The reporters exposed the politician's lies.", alt: ["{暴|あば}れた", "{耕|たがや}した", "{招|まね}いた"] },
     ] },
   { w: "{完売|かんばい}", lv: "N1", pos: "noun · する verb",
     en: "selling out, being sold out",
@@ -442,15 +442,15 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["さきをそう", "せんをあらそう", "さきをあらそおう"],
     book: { ja: "大人が**{先|さき}を{争|あらそ}って**飲んでいる", en: "Adults are scrambling to drink it", at: "gp/99" },
     ex: [
-      { ja: "ドアが{開|ひら}くと、{客|きゃく}は**{先|さき}を{争|あらそ}って**{店|みせ}に{入|はい}った。", en: "When the doors opened, the customers scrambled into the store.", alt: ["{先|さき}を{越|こ}して", "{後|あと}を{絶|た}たず", "{先|さき}を{見越|みこ}して"] },
+      { ja: "ドアが{開|ひら}くと、{客|きゃく}は**{先|さき}を{争|あらそ}って**{店|みせ}に{入|はい}った。", en: "When the doors opened, the customers scrambled into the store.", alt: ["{後|あと}を{濁|にご}して", "{先|さき}が{見|み}えて", "{口|くち}を{割|わ}って"] },
     ] },
-  { w: "{敢|あ}えて", lv: "N1", pos: "adverb",
+  { w: "{敢|あ}えて", lv: "N2", pos: "adverb",
     en: "deliberately, dare to (do something unpleasant or risky); (not) necessarily",
     note: "Choosing to do something despite difficulty: あえて反対する, あえて言わせてもらえば (if I may be so bold). With negatives: あえて〜ない (no need to …). Often written in kana.",
     rx: ["かんえて", "かえて", "あいて"],
     book: { ja: "国民の生命を守らんがため、彼は**{敢|あ}えて**危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
     ex: [
-      { ja: "{楽|らく}な{道|みち}ではなく、**{敢|あ}えて**{難|むずか}しい{道|みち}を{選|えら}んだ。", en: "Rather than the easy path, I deliberately chose the difficult one.", alt: ["{決|けっ}して", "{到底|とうてい}", "{既|すで}に"] },
+      { ja: "{楽|らく}な{道|みち}ではなく、**{敢|あ}えて**{難|むずか}しい{道|みち}を{選|えら}んだ。", en: "Rather than the easy path, I deliberately chose the difficult one.", alt: ["{決|けっ}して", "{到底|とうてい}", "{一向|いっこう}に"] },
     ] },
   { w: "{任務|にんむ}", lv: "N1", pos: "noun",
     en: "duty, mission, assignment",
@@ -458,7 +458,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["にんぶ", "じんむ", "にむ"],
     book: { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う**{任務|にんむ}**を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
     ex: [
-      { ja: "{隊員|たいいん}たちは{無事|ぶじ}に**{任務|にんむ}**を{果|は}たして{帰国|きこく}した。", en: "The team members carried out their mission safely and returned home.", alt: ["{任期|にんき}", "{任命|にんめい}", "{事務|じむ}"] },
+      { ja: "{隊員|たいいん}たちは{無事|ぶじ}に**{任務|にんむ}**を{果|は}たして{帰国|きこく}した。", en: "The team members carried out their mission safely and returned home.", alt: ["{任意|にんい}", "{任命|にんめい}", "{事務|じむ}"] },
     ] },
   { w: "{征服|せいふく}", lv: "N1", pos: "noun · する verb",
     en: "conquest, subjugation; conquering (a mountain, a difficulty)",
@@ -474,7 +474,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["りついる", "ひきる", "そついる"],
     book: { ja: "全宇宙を{征服|せいふく}せんがため、彼は{大|だい}宇宙{船団|せんだん}を**{率|ひき}いて**飛び立った。", en: "Bent on conquering the entire universe, he took off at the head of a great space fleet.", at: "gp/100" },
     ex: [
-      { ja: "{新監督|しんかんとく}が**{率|ひき}いる**チームは、{初戦|しょせん}で{快勝|かいしょう}した。", en: "The team led by the new coach won its first game easily.", alt: ["{引|ひ}き{取|と}る", "{引|ひ}く", "{届|とど}く"] },
+      { ja: "{新監督|しんかんとく}が**{率|ひき}いる**チームは、{初戦|しょせん}で{快勝|かいしょう}した。", en: "The team led by the new coach won its first game easily.", alt: ["{退|しりぞ}く", "{引|ひ}く", "{届|とど}く"] },
     ] },
   { w: "{華々|はなばな}しい", lv: "N1", pos: "い adjective",
     en: "brilliant, glorious, spectacular",
@@ -530,7 +530,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["ふるぶう", "しんるまう", "ぶるまう"],
     book: { ja: "彼は怖いものなど何もないかのごとく**{振|ふ}る{舞|ま}って**いるが、実はかなりの{小心|しょうしん}{者|もの}だ。", en: "He acts as though he had nothing in the world to fear, but in fact he is quite a coward.", at: "gp/101" },
     ex: [
-      { ja: "{悲|かな}しいはずなのに、{彼女|かのじょ}は{明|あか}るく**{振|ふ}る{舞|ま}って**いた。", en: "She must have been sad, but she acted cheerful.", alt: ["{振|ふ}り{向|む}いて", "{見舞|みま}って", "{振|ふ}り{返|かえ}って"] },
+      { ja: "{悲|かな}しいはずなのに、{彼女|かのじょ}は{明|あか}るく**{振|ふ}る{舞|ま}って**いた。", en: "She must have been sad, but she acted cheerful.", alt: ["{振|ふ}り{払|はら}って", "{見舞|みま}って", "{振|ふ}り{込|こ}んで"] },
     ] },
   { w: "{平然|へいぜん}", lv: "N1", pos: "adverb (と) · noun",
     en: "calmly, coolly, as if nothing had happened; unconcerned",
@@ -546,15 +546,15 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こころざ", "ここざし", "こころさし"],
     book: { ja: "**{志|こころざし}**{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled.", at: "gp/102" },
     ex: [
-      { ja: "{医者|いしゃ}になるという**{志|こころざし}**を{胸|むね}に、{彼|かれ}は{上京|じょうきょう}した。", en: "With his ambition to become a doctor in his heart, he moved to Tokyo.", alt: ["{心得|こころえ}", "{心当|こころあ}たり", "{気配|けはい}"] },
+      { ja: "{医者|いしゃ}になるという**{志|こころざし}**を{胸|むね}に、{彼|かれ}は{上京|じょうきょう}した。", en: "With his ambition to become a doctor in his heart, he moved to Tokyo.", alt: ["{心地|ここち}", "{心当|こころあ}たり", "{気配|けはい}"] },
     ] },
-  { w: "{半|なか}ば", lv: "N1", pos: "noun · adverb",
+  { w: "{半|なか}ば", lv: "N2", pos: "noun · adverb",
     en: "middle, halfway (point); partly, half",
     note: "月の半ば (the middle of the month), 志半ばにして (before achieving one's goal), 30代半ば (mid-thirties); as an adverb, 半ばあきらめている (have half given up). 半分 is simply half.",
     rx: ["はんば", "なかぱ", "はんぶ"],
     book: { ja: "{志|こころざし}**{半|なか}ば**にして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled.", at: "gp/102" },
     ex: [
-      { ja: "{来月|らいげつ}の**{半|なか}ば**に、{引|ひ}っ{越|こ}しをする{予定|よてい}だ。", en: "I'm planning to move in the middle of next month.", alt: ["{半分|はんぶん}", "{片方|かたほう}", "{途中|とちゅう}"] },
+      { ja: "{来月|らいげつ}の**{半|なか}ば**に、{引|ひ}っ{越|こ}しをする{予定|よてい}だ。", en: "I'm planning to move in the middle of next month.", alt: ["{半分|はんぶん}", "{片方|かたほう}", "{半端|はんぱ}"] },
     ] },
   { w: "{無念|むねん}", lv: "N1", pos: "な adjective · noun",
     en: "regret, chagrin, bitter disappointment",
@@ -575,7 +575,7 @@ TRY.registerVocab({ ch: 8, words: [
   { w: "{気|き}が{重|おも}い", lv: "N1", pos: "expression (い adjective)",
     en: "to feel down, be depressed or reluctant (about something ahead)",
     note: "A heavy heart about something one has to do: 明日の会議を思うと気が重い. The opposite is 気が軽い. 憂鬱 (ゆううつ) is the stronger, more literary word.",
-    rx: ["きがかさい", "きがおもたい", "けがおもい"],
+    rx: ["きがかさい", "きがじゅうい", "けがおもい"],
     book: { ja: "卒業試験のことは、考えるだに**気が重く**なる。", en: "Just thinking about the graduation exam makes me feel depressed.", at: "gp/103" },
     ex: [
       { ja: "{上司|じょうし}にミスを{報告|ほうこく}しなければならず、**{気|き}が{重|おも}い**。", en: "I have to report my mistake to my boss, and I'm dreading it.", alt: ["{気|き}が{早|はや}い", "{気|き}が{長|なが}い", "{気|き}が{多|おお}い"] },
@@ -599,7 +599,7 @@ TRY.registerVocab({ ch: 8, words: [
   { w: "{微動|びどう}", lv: "N1", pos: "noun",
     en: "slight movement, a tremor",
     note: "Almost always 微動だにしない (not move a muscle, stand perfectly still), used of people, guards, or figuratively of a resolve. 微妙 (subtle) and 微笑 (smile) share the kanji.",
-    rx: ["みどう", "びとう", "びどお"],
+    rx: ["みどう", "びとう", "ひどう"],
     book: { ja: "エネルギーの消費を{抑|おさ}えるために何時間も**{微動|びどう}**だにしない動物もいる。", en: "Some animals don't move a muscle for hours on end in order to conserve energy.", at: "gp/104" },
     ex: [
       { ja: "{門|もん}の{前|まえ}の{衛兵|えいへい}は、{雨|あめ}の{中|なか}でも**{微動|びどう}**だにしなかった。", en: "The guard in front of the gate did not move a muscle, even in the rain.", alt: ["{移動|いどう}", "{行動|こうどう}", "{振動|しんどう}"] },
@@ -626,7 +626,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["さど", "さとう", "しと"],
     book: { ja: "{雪深|ゆきぶか}いこの**{里|さと}**では皆が春の{訪|おとず}れを待ちかねている※。", en: "In this snowbound village, everyone is waiting impatiently for spring to arrive.", at: "gp/105" },
     ex: [
-      { ja: "{夏休|なつやす}みには、{山|やま}あいの{小|ちい}さな**{里|さと}**で{過|す}ごした。", en: "I spent the summer vacation in a small village in the mountains.", alt: ["{丘|おか}", "{峠|とうげ}", "{岬|みさき}"] },
+      { ja: "{夏休|なつやす}みには、{山|やま}あいの{小|ちい}さな**{里|さと}**で{過|す}ごした。", en: "I spent the summer vacation in a small village in the mountains.", alt: ["{枝|えだ}", "{泡|あわ}", "{岬|みさき}"] },
     ] },
   { w: "{見|み}かねる", lv: "N1", pos: "verb (transitive)",
     en: "to be unable to stand by and watch, can't bear to see",
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["めはえる", "めいきえる", "めうまえる"],
     book: { ja: "彼女への{想|おも}いは今日**{芽生|めば}え**たばかりだ。", en: "My feelings for her only began today.", at: "gp/106" },
     ex: [
-      { ja: "{一緒|いっしょ}に{困難|こんなん}を{乗|の}り{越|こ}えるうちに、{二人|ふたり}の{間|あいだ}に{友情|ゆうじょう}が**{芽生|めば}えた**。", en: "As they overcame hardships together, a friendship began to grow between the two.", alt: ["{生|は}えた", "{芽|め}を{出|だ}した", "{育|そだ}てた"] },
+      { ja: "{一緒|いっしょ}に{困難|こんなん}を{乗|の}り{越|こ}えるうちに、{二人|ふたり}の{間|あいだ}に{友情|ゆうじょう}が**{芽生|めば}えた**。", en: "As they overcame hardships together, a friendship began to grow between the two.", alt: ["{生|は}えた", "{芽|め}を{摘|つ}んだ", "{育|そだ}てた"] },
     ] },
   { w: "{屈|くっ}する", lv: "N1", pos: "verb (intransitive)",
     en: "to yield, give in, submit (to pressure, power)",
@@ -658,7 +658,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["くつする", "こっする", "ぐっする"],
     book: { ja: "最後まで{権力|けんりょく}に**{屈|くっ}せず**、{信念|しんねん}を{貫|つらぬ}いた彼女の生き方は、まさに{炎|ほのお}の＿＿一生だった。", en: "Never yielding to authority and holding to her convictions to the end, she lived a life truly like ＿＿ a flame.", at: "ch/8" },
     ex: [
-      { ja: "{彼|かれ}は{脅|おど}しに**{屈|くっ}する**ことなく、{真実|しんじつ}を{語|かた}り{続|つづ}けた。", en: "Without giving in to threats, he kept telling the truth.", alt: ["{屈|かが}む", "{抗|こう}する", "{属|ぞく}する"] },
+      { ja: "{彼|かれ}は{脅|おど}しに**{屈|くっ}する**ことなく、{真実|しんじつ}を{語|かた}り{続|つづ}けた。", en: "Without giving in to threats, he kept telling the truth.", alt: ["{屈|かが}む", "{愛|あい}する", "{属|ぞく}する"] },
     ] },
   { w: "{貫|つらぬ}く", lv: "N1", pos: "verb (transitive)",
     en: "to stick to, carry through (one's beliefs); to pierce, run through",
@@ -674,12 +674,12 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["けいぱつ", "けいばち", "ぎょうばつ"],
     book: { ja: "昔は聞く＿＿恐ろしい**{刑罰|けいばつ}**が実際に行われていたそうだ。", en: "They say punishments so terrible that ＿＿ hearing about them is frightening were actually carried out in the past.", at: "ch/8" },
     ex: [
-      { ja: "{飲酒運転|いんしゅうんてん}に{対|たい}する**{刑罰|けいばつ}**が{重|おも}くなった。", en: "The penalties for drunk driving have become heavier.", alt: ["{刑事|けいじ}", "{刑務所|けいむしょ}", "{賞罰|しょうばつ}"] },
+      { ja: "{飲酒運転|いんしゅうんてん}に{対|たい}する**{刑罰|けいばつ}**が{重|おも}くなった。", en: "The penalties for drunk driving have become heavier.", alt: ["{刑事|けいじ}", "{刑務所|けいむしょ}", "{懸賞|けんしょう}"] },
     ] },
   { w: "{統合|とうごう}", lv: "N1", pos: "noun · する verb",
     en: "integration, consolidation, merger (of organizations, systems)",
     note: "学校を統合する, 経営統合 (a business merger), システムの統合. 合併 is a legal merger of companies; 統一 is unification into one standard.",
-    rx: ["とうごお", "どうごう", "とうあい"],
+    rx: ["とうこう", "どうごう", "とうあい"],
     book: { ja: "{今年度|こんねんど}＿＿、{本学部|ほんがくぶ}は学生募集を停止し、来年度より経済学部に**{統合|とうごう}**されることになりました。", en: "＿＿ this academic year, our faculty will stop recruiting students and, from next year, will be merged into the Faculty of Economics.", at: "ch/8" },
     ex: [
       { ja: "{少子化|しょうしか}で、{町|まち}の{小学校|しょうがっこう}が{二|ふた}つに**{統合|とうごう}**された。", en: "Due to the falling birthrate, the town's elementary schools were consolidated into two.", alt: ["{統計|とうけい}", "{総合|そうごう}", "{都合|つごう}"] },
@@ -752,7 +752,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["しんね", "まい", "しんじ"],
     book: { ja: "突然{契約|けいやく}を結ぼうと言ってくるなんて、私には{先方|せんぽう}の**{真意|しんい}**がはかり（　）んです。", en: "Suddenly saying they want to sign a contract — I (　) figure out what the other party's real intention is.", at: "ch/8/review" },
     ex: [
-      { ja: "{大臣|だいじん}の{発言|はつげん}の**{真意|しんい}**を{確|たし}かめる{必要|ひつよう}がある。", en: "We need to confirm what the minister really meant by his remarks.", alt: ["{真相|しんそう}", "{真剣|しんけん}", "{誠意|せいい}"] },
+      { ja: "{大臣|だいじん}の{発言|はつげん}の**{真意|しんい}**を{確|たし}かめる{必要|ひつよう}がある。", en: "We need to confirm what the minister really meant by his remarks.", alt: ["{真珠|しんじゅ}", "{真剣|しんけん}", "{得意|とくい}"] },
     ] },
   { w: "{精巧|せいこう}", lv: "N1", pos: "な adjective",
     en: "elaborate, finely crafted, precise (workmanship)",
@@ -760,12 +760,12 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["せいこ", "しょうこう", "せいごう"],
     book: { ja: "これだけ**{精巧|せいこう}**にできていると、", en: "When something is made this elaborately,", at: "ch/8/review" },
     ex: [
-      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills so elaborate they can't be told from the real thing were found.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{正確|せいかく}"] },
+      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills so elaborate they can't be told from the real thing were found.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{精算|せいさん}"] },
     ] },
   { w: "{見通|みとお}し", lv: "N1", pos: "noun",
     en: "outlook, prospects, forecast; visibility; insight (into)",
     note: "見通しが甘い (be too optimistic), 見通しが立たない (the outlook is unclear), 今後の見通し; also 見通しのいい道 (a road with good visibility). お見通し is seeing through someone.",
-    rx: ["みどおし", "けんとおし", "みとうし"],
+    rx: ["みどおし", "けんとおし", "みつうし"],
     book: { ja: "研究のかたわらバイトすれば何とかなるだろうという**{見通|みとお}し**は甘く、", en: "my expectation that I'd somehow get by with a part-time job alongside my research proved too optimistic, and", at: "ch/8/review" },
     ex: [
       { ja: "{工事|こうじ}の{完了|かんりょう}は、まだ**{見通|みとお}し**が{立|た}っていない。", en: "There is still no clear idea of when the construction will be finished.", alt: ["{見晴|みは}らし", "{見出|みだ}し", "{見直|みなお}し"] },
@@ -776,7 +776,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["はだをくくる", "ふくをくくる", "はらをぐくる"],
     book: { ja: "{俺|おれ}は、**腹をくくった**。", en: "I steeled myself.", at: "ch/8/review" },
     ex: [
-      { ja: "{失敗|しっぱい}しても{構|かま}わないと**{腹|はら}をくくって**、{社長|しゃちょう}に{意見|いけん}を{言|い}った。", en: "I made up my mind that it didn't matter if I failed and gave the president my opinion.", alt: ["{腹|はら}を{立|た}てて", "{腹|はら}を{割|わ}って", "{腹|はら}を{抱|かか}えて"] },
+      { ja: "{失敗|しっぱい}しても{構|かま}わないと**{腹|はら}をくくって**、{社長|しゃちょう}に{意見|いけん}を{言|い}った。", en: "I made up my mind that it didn't matter if I failed and gave the president my opinion.", alt: ["{腹|はら}を{立|た}てて", "{腹|はら}を{壊|こわ}して", "{腹|はら}を{抱|かか}えて"] },
     ] },
   { w: "なめる", lv: "N1", pos: "verb (transitive)",
     en: "to underestimate, look down on, not take seriously; to lick",
@@ -797,7 +797,7 @@ TRY.registerVocab({ ch: 8, words: [
     note: "耳元でささやく (whisper in someone's ear), ささやき声; ささやきあう is to whisper to each other. Kanji 囁く. つぶやく is muttering to oneself.",
     book: { ja: "こっちを見ながら、何やら**ささやき**あっているやつらもいる。", en: "Some of them are looking this way and whispering something to each other.", at: "ch/8/review" },
     ex: [
-      { ja: "{彼|かれ}は{彼女|かのじょ}の{耳元|みみもと}で{何|なに}かを**ささやいた**。", en: "He whispered something in her ear.", alt: ["さけんだ", "どなった", "うたった"] },
+      { ja: "{彼|かれ}は{彼女|かのじょ}の{耳元|みみもと}で{何|なに}かを**ささやいた**。", en: "He whispered something in her ear.", alt: ["ささげた", "さばいた", "さまよった"] },
     ] },
   { w: "{抜群|ばつぐん}", lv: "N1", pos: "な adjective · noun",
     en: "outstanding, excellent, far above the rest",
@@ -813,7 +813,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["あつとうてき", "あっどうてき", "あっとてき"],
     book: { ja: "特にヨーロッパでは本物の{寿司|すし}を{握|にぎ}れる職人が**{圧倒的|あっとうてき}**に不足しています。", en: "Especially in Europe, there is an overwhelming shortage of chefs who can make real sushi.", at: "ch/8/review" },
     ex: [
-      { ja: "{選挙|せんきょ}は{現職|げんしょく}の{市長|しちょう}の**{圧倒的|あっとうてき}**な{勝利|しょうり}に{終|お}わった。", en: "The election ended in an overwhelming victory for the incumbent mayor.", alt: ["{圧縮的|あっしゅくてき}", "{否定的|ひていてき}", "{消極的|しょうきょくてき}"] },
+      { ja: "{選挙|せんきょ}は{現職|げんしょく}の{市長|しちょう}の**{圧倒的|あっとうてき}**な{勝利|しょうり}に{終|お}わった。", en: "The election ended in an overwhelming victory for the incumbent mayor.", alt: ["{悲観的|ひかんてき}", "{否定的|ひていてき}", "{消極的|しょうきょくてき}"] },
     ] },
   { w: "{養成|ようせい}", lv: "N1", pos: "noun · する verb",
     en: "training, cultivation (of skilled people)",

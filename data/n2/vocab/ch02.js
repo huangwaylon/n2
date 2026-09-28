@@ -18,7 +18,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{指導|しどう}", lv: "N2", pos: "noun · する verb",
     en: "guidance; instruction; coaching; leadership",
     note: "Teaching and guiding someone over time: 部下を指導する, ご指導ください (please guide me — a set phrase to superiors), 指導者 (leader, coach), 生活指導 (student guidance). 教える is plain “teach”; 指導 implies an ongoing mentor role.",
-    rx: ["しとう", "しどお", "じどう"],
+    rx: ["しとう", "しとう", "じどう"],
     book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors.", at: "ch/2" },
     ex: [
       { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指紋|しもん}", "{誘導|ゆうどう}"] },
@@ -386,7 +386,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{芸能|げいのう}", lv: "N1", pos: "noun",
     en: "performing arts; entertainment (industry)",
     note: "Traditional performing arts (伝統芸能 such as kabuki and noh) and show business: 芸能人 (celebrity), 芸能界 (entertainment world), 芸能ニュース. 芸術 is art in general.",
-    rx: ["げいの", "けいのう", "げいのお"],
+    rx: ["げいの", "けいのう", "げいの"],
     book: { ja: "今回のシンポジウムは日本の{伝統|でんとう}**{芸能|げいのう}**をテーマとして{行|おこな}われます。", en: "This symposium will be held on the theme of Japan's traditional performing arts.", at: "gp/16" },
     ex: [
       { ja: "{彼女|かのじょ}は{高校|こうこう}{時代|じだい}に**{芸能|げいのう}**{事務所|じむしょ}にスカウトされた。", en: "She was scouted by a talent agency when she was in high school.", alt: ["{芸術|げいじゅつ}", "{機能|きのう}", "{才能|さいのう}"] },
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{催|もよお}し{物|もの}", lv: "N1", pos: "noun",
     en: "event; attraction; entertainment (put on for the public)",
     note: "Events organized for visitors: 催し物会場 (event hall in a department store), 夏の催し物. 催し alone also works. 開催 (holding an event) shares the kanji 催.",
-    rx: ["さいしもの", "もようしもの", "もよしもの"],
+    rx: ["さいしもの", "さいしもの", "もよしもの"],
     book: { ja: "この{港|みなと}では、{開港|かいこう}100{周年|しゅうねん}を{契機|けいき}に今年1年さまざまな**{催|もよお}し{物|もの}**が{企画|きかく}されている。", en: "To mark the 100th anniversary of its opening, all kinds of events have been planned at this port throughout the year.", at: "gp/17" },
     ex: [
       { ja: "デパートの{最上階|さいじょうかい}では、{北海道|ほっかいどう}{物産展|ぶっさんてん}などの**{催|もよお}し{物|もの}**が{開|ひら}かれる。", en: "Events such as Hokkaido product fairs are held on the top floor of the department store.", alt: ["{落|お}とし{物|もの}", "{贈|おく}り{物|もの}", "{飲|の}み{物|もの}"] },
@@ -554,7 +554,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{争|あらそ}う", lv: "N2", pos: "verb (godan)",
     en: "to fight; to compete (for); to dispute",
     note: "Fighting or competing over something: 優勝を争う, 裁判で争う, 首位を争う (vie for first place), 一刻を争う (every second counts). けんかする is a personal quarrel; 戦う is to fight a battle or opponent.",
-    rx: ["あらかう", "そうう", "あらそお"],
+    rx: ["あらかう", "そうう", "あらそる"],
     book: { ja: "かくなる{上|うえ}は{裁判|さいばん}で**{争|あらそ}う**以外に道はない。", en: "Things having come to this, there is no way left but to fight it out in court.", at: "gp/18" },
     ex: [
       { ja: "{二|ふた}つのチームが{最後|さいご}まで{優勝|ゆうしょう}を**{争|あらそ}った**。", en: "The two teams battled for the championship to the very end.", alt: ["{失|うしな}った", "{奪|うば}った", "{払|はら}った"] },
@@ -722,7 +722,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{一同|いちどう}", lv: "N1", pos: "noun",
     en: "all (members); everyone (of a group)",
     note: "Placed after a group name in formal speech and writing: 社員一同 (all the staff), 家族一同, 選手一同. Often closes letters and cards: スタッフ一同より (from all the staff).",
-    rx: ["いっとう", "いちどお", "いちおな"],
+    rx: ["いっとう", "いちど", "いちおな"],
     book: { ja: "コーチをはじめ、これまで{応援|おうえん}してくださった方のためにも、選手**{一同|いちどう}**、{精一杯|せいいっぱい}がんばるつもりです。", en: "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to do our very best.", at: "ch/2/review" },
     ex: [
       { ja: "{皆様|みなさま}のご{来店|らいてん}を、スタッフ**{一同|いちどう}**{心|こころ}よりお{待|ま}ちしております。", en: "All of our staff sincerely look forward to your visit.", alt: ["{一度|いちど}", "{同一|どういつ}", "{一斉|いっせい}"] },

@@ -609,7 +609,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{遠|とお}ざかる", lv: "N1", pos: "verb (intransitive)",
     en: "to move away; to recede; to grow distant",
     note: "足音が遠ざかる, 夢が遠ざかる, 優勝から遠ざかる (go a long time without a title). The transitive partner is 遠ざける, and the opposite is 近づく.",
-    rx: ["えんざかる", "とうざかる", "とおさかる"],
+    rx: ["えんざかる", "えんざかる", "とおさかる"],
     book: { ja: "{就職|しゅうしょく}したらお金を{貯|た}めて海外旅行に行きたいと思ったが、長い休みが取れず、{夢|ゆめ}は**{遠|とお}ざかる**＿＿だ。", en: "I thought that once I got a job I'd save money and travel abroad, but I can't get any long vacations, and my dream just keeps slipping further away.", at: "ch/12" },
     ex: [
       { ja: "{電車|でんしゃ}の{音|おと}がだんだん**{遠|とお}ざかって**いった。", en: "The sound of the train gradually faded into the distance.", alt: ["{預|あず}かって", "{助|たす}かって", "{見|み}つかって"] },

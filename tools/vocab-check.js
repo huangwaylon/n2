@@ -13,7 +13,8 @@ for (const f of files) require(path.join(dir, f));
 const RUBY = /\{([^{}|]+)\|([^{}]+)\}/g;
 const bare = (s) => String(s || "").replace(RUBY, "$1").replace(/\*\*/g, "");
 const kanaOf = (s) => String(s || "").replace(RUBY, "$2");
-const same = (k) => k.replace(/づ/g, "ず").replace(/ぢ/g, "じ");
+// the same sound spelled differently: づ/ず, ぢ/じ, and long お written おう or おお (とうり / とおり)
+const same = (k) => k.replace(/づ/g, "ず").replace(/ぢ/g, "じ").replace(/([おこごそぞとどのほぼぽもよょろを])う/g, "$1お");
 const KANA = /^[ぁ-ゖァ-ヺー～〜・]+$/u, KANJI = /[㐀-鿿々〆]/u;
 // every Japanese string in a chapter (sample, points, exercises, review), and per grammar point
 const strings = (o, out = []) => { if (typeof o === "string") out.push(o); else if (o && typeof o === "object") Object.entries(o).forEach(([k, v]) => { if (!/^(en|why|deepDive|optionsEn|questionEn|note)$/.test(k)) strings(v, out); }); return out; };
@@ -38,6 +39,7 @@ for (const v of T.vocab) {
   if (!chText.has(v.ch)) E("-", "no such chapter");
   (v.words || []).forEach((x) => {
     n++;
+    if (JSON.stringify(x).includes("\uFFFD")) E(plain(x.w), "broken character (U+FFFD)");
     const w = bare(x.w), r = kanaOf(x.w), id = `${w}（${r}）`;
     ["w", "lv", "pos", "en"].forEach((k) => { if (!x[k]) E(id, `missing ${k}`); });
     if (!/^N[12]$/.test(x.lv)) E(id, `lv ${x.lv}`);

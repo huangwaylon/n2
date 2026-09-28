@@ -269,7 +269,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "{見通|みとお}し", lv: "N1", pos: "noun",
     en: "visibility, view; outlook, prospects; forecast",
     note: "見通しが悪い (poor visibility, e.g. on a curvy road), 見通しが立つ (can foresee how things will go), 今後の見通し (the outlook). Verb 見通す (see through; foresee). 見込み (expectation, likelihood) overlaps in the prospects sense.",
-    rx: ["みどおし", "けんとおし", "みとうし"],
+    rx: ["みどおし", "けんとおし", "みどおし"],
     book: { ja: "この道、カーブが多くて**{見通|みとお}し**が悪いし、{街灯|がいとう}は少ないし…。", en: "This road has lots of curves and poor visibility, and there are hardly any streetlights...", at: "gp/82" },
     ex: [
       { ja: "{工事|こうじ}が{終|お}わる**{見通|みとお}し**は、まだ{立|た}っていない。", en: "There's still no telling when the construction will be finished.", alt: ["{見出|みだ}し", "{見舞|みま}い", "{見本|みほん}"] },

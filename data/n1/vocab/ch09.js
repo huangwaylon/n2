@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["きゅうみょう", "くめい", "きゅめい"],
     book: { ja: "タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で**{救命|きゅうめい}**の可能性がある{者|もの}。", en: "A red tag means a person who needs treatment as soon as possible and who has a chance of being saved.", at: "ch/9" },
     ex: [
-      { ja: "{船|ふね}が{沈|しず}み{始|はじ}めたので、{乗客|じょうきゃく}は**{救命|きゅうめい}**ボートに{乗|の}り{移|うつ}った。", en: "The ship began to sink, so the passengers moved into the lifeboats.", alt: ["{救急|きゅうきゅう}", "{運命|うんめい}", "{生命|せいめい}"] },
+      { ja: "{船|ふね}が{沈|しず}み{始|はじ}めたので、{乗客|じょうきゃく}は**{救命|きゅうめい}**ボートに{乗|の}り{移|うつ}った。", en: "The ship began to sink, so the passengers moved into the lifeboats.", alt: ["{懸命|けんめい}", "{運命|うんめい}", "{生命|せいめい}"] },
     ] },
   { w: "{優先|ゆうせん}", lv: "N2", pos: "noun · する verb",
     en: "priority; preference; giving precedence (to)",
@@ -29,7 +29,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["じゅうそう", "ちょうしょう", "じゅしょう"],
     book: { ja: "100人からいるけが{人|にん}の中には、命にかかわる**{重傷者|じゅうしょうしゃ}**もいます。", en: "Among injured people numbering as many as a hundred, some will be seriously hurt, with their lives at stake.", at: "ch/9" },
     ex: [
-      { ja: "{交通事故|こうつうじこ}で、{運転手|うんてんしゅ}が**{重傷|じゅうしょう}**を{負|お}った。", en: "The driver was seriously injured in the traffic accident.", alt: ["{重荷|おもに}", "{重力|じゅうりょく}", "{重視|じゅうし}"] },
+      { ja: "{交通事故|こうつうじこ}で、{運転手|うんてんしゅ}が**{重傷|じゅうしょう}**を{負|お}った。", en: "The driver was seriously injured in the traffic accident.", alt: ["{重箱|じゅうばこ}", "{重力|じゅうりょく}", "{重視|じゅうし}"] },
     ] },
   { w: "{緊急|きんきゅう}", lv: "N2", pos: "noun · な adjective",
     en: "emergency; urgent",
@@ -45,7 +45,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["はややか", "すばやか", "そくやか"],
     book: { ja: "このような{緊急時|きんきゅうじ}にあって、医師は**{速|すみ}やか**な{決断|けつだん}を{迫|せま}られます。", en: "In the midst of an emergency like this, doctors are forced to make swift decisions.", at: "ch/9" },
     ex: [
-      { ja: "{地震|じしん}の{際|さい}は、{係員|かかりいん}の{指示|しじ}に{従|したが}って**{速|すみ}やか**に{避難|ひなん}してください。", en: "In the event of an earthquake, please follow the staff's instructions and evacuate promptly.", alt: ["{穏|おだ}やか", "{緩|ゆる}やか", "{和|なご}やか"] },
+      { ja: "{地震|じしん}の{際|さい}は、{係員|かかりいん}の{指示|しじ}に{従|したが}って**{速|すみ}やか**に{避難|ひなん}してください。", en: "In the event of an earthquake, please follow the staff's instructions and evacuate promptly.", alt: ["{細|こま}やか", "{鮮|あざ}やか", "{和|なご}やか"] },
     ] },
   { w: "{決断|けつだん}", lv: "N1", pos: "noun · する verb",
     en: "decision (made resolutely); decisiveness",
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["なにしゃ", "なんもの", "かもの"],
     book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel costing as much as 20 million yen has been stolen by someone, causing a huge uproar.", at: "gp/107" },
     ex: [
-      { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, a shop in front of the station was ransacked by an unknown person.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何物|なにもの}"] },
+      { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, a shop in front of the station was ransacked by an unknown person.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何度|なんど}"] },
     ] },
   { w: "{発行|はっこう}", lv: "N2", pos: "noun · する verb",
     en: "issue; publication (of books, stamps, certificates, etc.)",
@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["けいぜい", "ぎょうせい", "けいじょう"],
     book: { ja: "家庭での教育は子どもの発達や人間**{形成|けいせい}**にかかわる大きな問題だ。", en: "Education at home is a major issue that affects children's development and the formation of their character.", at: "gp/108" },
     ex: [
-      { ja: "{子|こ}どもの{頃|ころ}の{経験|けいけん}は、{人格|じんかく}の**{形成|けいせい}**に{大|おお}きな{影響|えいきょう}を{与|あた}える。", en: "Childhood experiences have a great influence on the formation of one's character.", alt: ["{形式|けいしき}", "{構成|こうせい}", "{完成|かんせい}"] },
+      { ja: "{子|こ}どもの{頃|ころ}の{経験|けいけん}は、{人格|じんかく}の**{形成|けいせい}**に{大|おお}きな{影響|えいきょう}を{与|あた}える。", en: "Childhood experiences have a great influence on the formation of one's character.", alt: ["{形式|けいしき}", "{構想|こうそう}", "{賛成|さんせい}"] },
     ] },
   { w: "{真相|しんそう}", lv: "N1", pos: "noun",
     en: "the truth (behind something); the real facts",
@@ -181,7 +181,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ふっし", "ふくじ", "ふくそ"],
     book: { ja: "**{福祉|ふくし}**", en: "welfare", at: "gp/108" },
     ex: [
-      { ja: "{彼女|かのじょ}は{大学|だいがく}で{学|まな}んだことを{生|い}かして、{高齢者|こうれいしゃ}**{福祉|ふくし}**の{仕事|しごと}に{就|つ}いた。", en: "Making use of what she studied at university, she got a job in welfare for the elderly.", alt: ["{祝福|しゅくふく}", "{幸福|こうふく}", "{福利|ふくり}"] },
+      { ja: "{彼女|かのじょ}は{大学|だいがく}で{学|まな}んだことを{生|い}かして、{高齢者|こうれいしゃ}**{福祉|ふくし}**の{仕事|しごと}に{就|つ}いた。", en: "Making use of what she studied at university, she got a job in welfare for the elderly.", alt: ["{祝福|しゅくふく}", "{幸福|こうふく}", "{福引|ふくびき}"] },
     ] },
   { w: "{存続|そんぞく}", lv: "N1", pos: "noun · する verb",
     en: "continued existence; survival (of an organization or system)",
@@ -237,7 +237,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["かざい", "ひさい", "かしゃ"],
     book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first important thing is to act calmly.", at: "gp/109" },
     ex: [
-      { ja: "{昨夜|さくや}、{駅前|えきまえ}のビルで**{火災|かさい}**が{発生|はっせい}した。", en: "Last night a fire broke out in a building in front of the station.", alt: ["{災難|さいなん}", "{火山|かざん}", "{被災|ひさい}"] },
+      { ja: "{昨夜|さくや}、{駅前|えきまえ}のビルで**{火災|かさい}**が{発生|はっせい}した。", en: "Last night a fire broke out in a building in front of the station.", alt: ["{火星|かせい}", "{火山|かざん}", "{被災|ひさい}"] },
     ] },
   { w: "{非常時|ひじょうじ}", lv: "N1", pos: "noun",
     en: "(time of) emergency; crisis",
@@ -253,7 +253,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["こうとけいざいせいちょう", "こうどけいさいせいちょう", "こうどけいざいせいじょう"],
     book: { ja: "当時は**高度経済成長**期にあって、政府は高速道路の整備に力を入れていた。", en: "At the time, in the midst of the period of rapid economic growth, the government was putting great effort into building expressways.", at: "gp/109" },
     ex: [
-      { ja: "{祖父|そふ}は**{高度経済成長|こうどけいざいせいちょう}**の{時代|じだい}に、{毎日|まいにち}{夜遅|よるおそ}くまで{働|はたら}いていたそうだ。", en: "I hear my grandfather worked late every night during the era of rapid economic growth.", alt: ["{少子高齢化|しょうしこうれいか}", "{情報技術|じょうほうぎじゅつ}", "{地球温暖化|ちきゅうおんだんか}"] },
+      { ja: "{祖父|そふ}は**{高度経済成長|こうどけいざいせいちょう}**の{時代|じだい}に、{毎日|まいにち}{夜遅|よるおそ}くまで{働|はたら}いていたそうだ。", en: "I hear my grandfather worked late every night during the era of rapid economic growth.", alt: ["{経済学部|けいざいがくぶ}", "{国際空港|こくさいくうこう}", "{高速道路|こうそくどうろ}"] },
     ] },
   { w: "{業績|ぎょうせき}", lv: "N1", pos: "noun",
     en: "(business) results, performance; achievements",
@@ -269,7 +269,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["こんづよい", "ねつよい", "ねいづよい"],
     book: { ja: "キャラクターグッズは、消費が{低迷|ていめい}している中（　）、なお**{根強|ねづよ}い**人気を保っている。", en: "Even amid sluggish consumer spending, character goods still keep their enduring popularity.", at: "gp/109" },
     ex: [
-      { ja: "{新|あたら}しい{空港|くうこう}の{建設|けんせつ}には、{地元|じもと}で**{根強|ねづよ}い**{反対|はんたい}がある。", en: "There is deep-rooted local opposition to building the new airport.", alt: ["{力強|ちからづよ}い", "{辛抱強|しんぼうづよ}い", "{心強|こころづよ}い"] },
+      { ja: "{新|あたら}しい{空港|くうこう}の{建設|けんせつ}には、{地元|じもと}で**{根強|ねづよ}い**{反対|はんたい}がある。", en: "There is deep-rooted local opposition to building the new airport.", alt: ["{欲深|よくぶか}い", "{辛抱強|しんぼうづよ}い", "{心強|こころづよ}い"] },
     ] },
   { w: "{低下|ていか}", lv: "N2", pos: "noun · する verb",
     en: "decline; drop; deterioration",
@@ -277,7 +277,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ていげ", "ていが", "でいか"],
     book: { ja: "{悪天候下|あくてんこうか}（　）、性能が**低下**しないブレーキの開発を目指している。", en: "They are aiming to develop brakes whose performance does not drop even in bad weather.", at: "gp/109" },
     ex: [
-      { ja: "{睡眠不足|すいみんぶそく}が{続|つづ}くと、{集中力|しゅうちゅうりょく}が**{低下|ていか}**する。", en: "When you keep going without enough sleep, your concentration drops.", alt: ["{沈下|ちんか}", "{落下|らっか}", "{低迷|ていめい}"] },
+      { ja: "{睡眠不足|すいみんぶそく}が{続|つづ}くと、{集中力|しゅうちゅうりょく}が**{低下|ていか}**する。", en: "When you keep going without enough sleep, your concentration drops.", alt: ["{沈下|ちんか}", "{落下|らっか}", "{低温|ていおん}"] },
     ] },
   { w: "{招|まね}く", lv: "N2", pos: "godan verb",
     en: "to invite; to bring about, cause (a bad result)",
@@ -285,7 +285,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["まにく", "しょうく", "まねぐ"],
     book: { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を**招く**おそれがあるよ。", en: "If the explanation is insufficient, then depending on how people take it, it could cause misunderstandings.", at: "gp/110" },
     ex: [
-      { ja: "{大臣|だいじん}の{不用意|ふようい}な{発言|はつげん}が、{国民|こくみん}の{不信|ふしん}を**{招|まね}いた**。", en: "The minister's careless remark provoked public distrust.", alt: ["{抱|かか}えた", "{与|あた}えた", "{迎|むか}えた"] },
+      { ja: "{大臣|だいじん}の{不用意|ふようい}な{発言|はつげん}が、{国民|こくみん}の{不信|ふしん}を**{招|まね}いた**。", en: "The minister's careless remark provoked public distrust.", alt: ["{抱|かか}えた", "{払|はら}った", "{迎|むか}えた"] },
     ] },
   { w: "{境遇|きょうぐう}", lv: "N1", pos: "noun",
     en: "(one's) circumstances; situation in life; lot",
@@ -293,7 +293,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["きょうぐ", "けいぐう", "きょうこう"],
     book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, depending on how you look at things, you can feel happy — that's how it is.", at: "gp/110" },
     ex: [
-      { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started an organization supporting children in the same circumstances he grew up in.", alt: ["{境界|きょうかい}", "{待遇|たいぐう}", "{国境|こっきょう}"] },
+      { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started working to support children who are in the same circumstances he was.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
     ] },
   { w: "{情報化|じょうほうか}", lv: "N1", pos: "noun",
     en: "computerization; the spread of information technology",
@@ -389,7 +389,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["しゅうりゅう", "しゅる", "おもりゅう"],
     book: { ja: "この学校は、着物が**{主流|しゅりゅう}**だった", en: "This school, (in an era when) kimono were the norm", at: "ch/9/review" },
     ex: [
-      { ja: "{最近|さいきん}は、{現金|げんきん}よりもスマホでの{支払|しはら}いが**{主流|しゅりゅう}**になりつつある。", en: "These days, paying by smartphone is becoming the norm rather than cash.", alt: ["{交流|こうりゅう}", "{上流|じょうりゅう}", "{一流|いち��ゅう}"] },
+      { ja: "{最近|さいきん}は、{現金|げんきん}よりもスマホでの{支払|しはら}いが**{主流|しゅりゅう}**になりつつある。", en: "These days, paying by smartphone is becoming the norm rather than cash.", alt: ["{交流|こうりゅう}", "{上流|じょうりゅう}", "{一流|いちりゅう}"] },
     ] },
   { w: "{洋装|ようそう}", lv: "N1", pos: "noun",
     en: "Western(-style) clothes, dress",
@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["とりはいれる", "しゅいれる", "とりいる"],
     book: { ja: "制服に{洋装|ようそう}を**取り入れた**。", en: "adopted Western-style dress for its uniform.", at: "ch/9/review" },
     ex: [
-      { ja: "{店長|てんちょう}は{客|きゃく}の{意見|いけん}を**{取|と}り{入|い}れて**、メニューを{変|か}えた。", en: "The manager took the customers' opinions on board and changed the menu.", alt: ["{取|と}り{消|け}して", "{受|う}け{流|なが}して", "{取|と}り{除|のぞ}いて"] },
+      { ja: "{店長|てんちょう}は{客|きゃく}の{意見|いけん}を**{取|と}り{入|い}れて**、メニューを{変|か}えた。", en: "The manager took the customers' opinions on board and changed the menu.", alt: ["{取|と}り{消|け}して", "{取|と}り{押|お}さえて", "{取|と}り{除|のぞ}いて"] },
     ] },
   { w: "{金庫|きんこ}", lv: "N2", pos: "noun",
     en: "safe; strongbox; vault",
@@ -457,11 +457,11 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{常時|じょうじ}", lv: "N1", pos: "noun · adverb",
     en: "always; at all times; constantly",
-    note: "A formal, written equivalent of いつも, typical of notices and specifications: 常時開放 (always open), 常時監視 (constant monitoring), 常時10名が勤務. The opposite in this chapter's sense is 非常時 or 臨時 (temporary).",
+    note: "A formal, written equivalent of いつも, typical of notices and specifications: 常時開放 (always open), 常時監視 (constant monitoring), 常時10名が勤務. The opposite is 臨時 (temporary, only when needed).",
     rx: ["じょうし", "つねじ", "しょうじ"],
     book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
     ex: [
-      { ja: "この{施設|しせつ}には、{看護師|かんごし}が**{常時|じょうじ}**{待機|たいき}している。", en: "Nurses are on standby at this facility around the clock.", alt: ["{臨時|りんじ}", "{同時|どうじ}", "{当時|とうじ}"] },
+      { ja: "この{施設|しせつ}には、{看護師|かんごし}が**{常時|じょうじ}**{待機|たいき}している。", en: "Nurses are on standby at this facility around the clock.", alt: ["{時差|じさ}", "{同時|どうじ}", "{当時|とうじ}"] },
     ] },
   { w: "{生産性|せいさんせい}", lv: "N1", pos: "noun",
     en: "productivity",
@@ -485,7 +485,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["へいしょう", "ひょうじょう", "へいぞう"],
     book: { ja: "とはいえ、**{平常時|へいじょうじ}**の「全力」を超えた労働をし続けることを{強|し}いれば、", en: "Even so, if you force workers to keep working beyond their normal “full strength,”", at: "ch/9/review" },
     ex: [
-      { ja: "{台風|たいふう}が{過|す}ぎ、{電車|でんしゃ}は{今朝|けさ}から**{平常|へいじょう}**{通|どお}り{運転|うんてん}している。", en: "The typhoon has passed, and trains have been running as usual since this morning.", alt: ["{非常|ひじょう}", "{日常|にちじょう}", "{異常|いじょう}"] },
+      { ja: "{台風|たいふう}が{過|す}ぎ、{電車|でんしゃ}は{今朝|けさ}から**{平常|へいじょう}**{通|どお}り{運転|うんてん}している。", en: "The typhoon has passed, and trains have been running as usual since this morning.", alt: ["{非常|ひじょう}", "{感情|かんじょう}", "{異常|いじょう}"] },
     ] },
   { w: "{強|し}いる", lv: "N1", pos: "ichidan verb",
     en: "to force (someone to do); to compel; to impose",
@@ -522,14 +522,14 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "{往々|おうおう}にして", lv: "N1", pos: "adverb",
     en: "often; frequently; all too often",
     note: "A written adverb for something that tends to happen, usually undesirable: 往々にして失敗する, 往々にしてあることだ (it happens all the time). よくある or しばしば are plainer. Not used for simple frequency of good habits.",
-    rx: ["おうゆうにして", "ゆうゆうにして", "おおおうにして"],
+    rx: ["おうゆうにして", "ゆうゆうにして", "じゅうじゅうにして"],
     book: { ja: "**{往々|おうおう}にして**もともとの生産性をも{下回|したまわ}ってしまうのである。", en: "productivity will often fall even below its original level.", at: "ch/9/review" },
     ex: [
       { ja: "{忙|いそが}しいときほど、**{往々|おうおう}にして**{単純|たんじゅん}なミスが{起|お}きるものだ。", en: "It's when you're busiest that simple mistakes all too often happen.", alt: ["{堂々|どうどう}として", "{次々|つぎつぎ}にして", "{早々|そうそう}にして"] },
     ] },
   { w: "{下回|したまわ}る", lv: "N1", pos: "godan verb",
     en: "to fall below; to be less than",
-    note: "Being lower than a standard or figure: 予想を下回る (fall short of forecasts), 平年を下回る気温, 定員を下回る. The opposite is 上回る (exceed). Read したまわる, not かかいる.",
+    note: "Being lower than a standard or figure: 予想を下回る (fall short of forecasts), 平年を下回る気温, 定員を下回る. The opposite is 上回る (exceed).",
     rx: ["したまえる", "しもまわる", "げまわる"],
     book: { ja: "{往々|おうおう}にしてもともとの生産性をも**{下回|したまわ}って**しまうのである。", en: "productivity will often fall even below its original level.", at: "ch/9/review" },
     ex: [
@@ -557,6 +557,6 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["〜ないしゅはない", "〜ないたはない", "〜ないてんはない"],
     book: { ja: "これを利用しない**手はない**でしょう。", en: "We would be foolish not to make use of it.", at: "ch/9/review" },
     ex: [
-      { ja: "{無料|むりょう}で{参加|さんか}できるなら、{行|い}か**ない{手|て}はない**よ。", en: "If it's free to attend, it'd be a waste not to go.", alt: ["ないに{越|こ}したことはない", "ないでおく", "ないはめになる"] },
+      { ja: "{無料|むりょう}で{参加|さんか}できるなら、{行|い}か**ない{手|て}はない**よ。", en: "If it's free to attend, it'd be a waste not to go.", alt: ["ないに{越|こ}したことはない", "ないうちに", "ないはめになる"] },
     ] },
 ] });

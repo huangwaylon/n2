@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ろんぜつぶん", "りんせつぶん", "ろんせつもん"],
     book: { ja: "**{論説文|ろんせつぶん}**を読む", en: "Reading an Editorial", at: "ch/10" },
     ex: [
-      { ja: "{新聞|しんぶん}の**{論説文|ろんせつぶん}**を{読|よ}んで、{筆者|ひっしゃ}の{主張|しゅちょう}をまとめなさい。", en: "Read the newspaper editorial and summarize the writer's argument.", alt: ["{作文|さくぶん}", "{説明書|せつめいしょ}", "{論理的|ろんりてき}"] },
+      { ja: "{新聞|しんぶん}の**{論説文|ろんせつぶん}**を{読|よ}んで、{筆者|ひっしゃ}の{主張|しゅちょう}をまとめなさい。", en: "Read the newspaper editorial and summarize the writer's argument.", alt: ["{文法|ぶんぽう}", "{説明書|せつめいしょ}", "{文房具|ぶんぼうぐ}"] },
     ] },
   { w: "{前衛|ぜんえい}", lv: "N1", pos: "noun",
     en: "avant-garde; (sports) forward, front player",
@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こもる", "ごめる", "はめる"],
     book: { ja: "{古風|こふう}な表現を使った{論説文|ろんせつぶん}を読んで、その表現に**込められた**筆者の主張が理解できる。", en: "Read an editorial that uses old-fashioned expressions and understand the argument the writer conveys through them.", at: "ch/10" },
     ex: [
-      { ja: "{母|はは}の{誕生日|たんじょうび}に、{感謝|かんしゃ}の{気持|きも}ちを**{込|こ}めて**{手紙|てがみ}を{書|か}いた。", en: "For my mother's birthday, I wrote her a letter full of gratitude.", alt: ["{止|と}めて", "{詰|つ}めて", "{閉|と}じて"] },
+      { ja: "{母|はは}の{誕生日|たんじょうび}に、{感謝|かんしゃ}の{気持|きも}ちを**{込|こ}めて**{手紙|てがみ}を{書|か}いた。", en: "For my mother's birthday, I wrote her a letter full of gratitude.", alt: ["{止|と}めて", "{諦|あきら}めて", "{閉|と}じて"] },
     ] },
   { w: "{確立|かくりつ}", lv: "N1", pos: "noun · する verb",
     en: "establishment; establishing firmly",
@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["すうおおい", "かずたい", "かずおい"],
     book: { ja: "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをするべからず{等|とう}、**{数多|かずおお}く**の決まりがある。", en: "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”", at: "ch/10" },
     ex: [
-      { ja: "この{監督|かんとく}は、{国際的|こくさいてき}な{映画祭|えいがさい}で**{数多|かずおお}く**の{賞|しょう}を{受|う}けている。", en: "This director has won a great many awards at international film festivals.", alt: ["{数少|かずすく}な", "{数々|かずかず}な", "{数値|すうち}"] },
+      { ja: "この{監督|かんとく}は、{国際的|こくさいてき}な{映画祭|えいがさい}で**{数多|かずおお}く**の{賞|しょう}を{受|う}けている。", en: "This director has won a great many awards at international film festivals.", alt: ["{数少|かずすく}な", "{数字|すうじ}", "{数値|すうち}"] },
     ] },
   { w: "{縛|しば}る", lv: "N2", pos: "godan verb",
     en: "to tie up, bind; to restrict, constrain",
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["よばく", "あまはく", "よひゃく"],
     book: { ja: "文字として読めないがゆえに、その筆の線が**{余白|よはく}**と{相|あい}まって作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper.", at: "ch/10" },
     ex: [
-      { ja: "{答|こた}えが{書|か}ききれなかったら、{用紙|ようし}の**{余白|よはく}**を{使|つか}ってもかまいません。", en: "If you can't fit your answer, you may use the blank space on the sheet.", alt: ["{余暇|よか}", "{余地|よち}", "{明白|めいはく}"] },
+      { ja: "{答|こた}えが{書|か}ききれなかったら、{用紙|ようし}の**{余白|よはく}**を{使|つか}ってもかまいません。", en: "If you can't fit your answer, you may use the blank space on the sheet.", alt: ["{余暇|よか}", "{余談|よだん}", "{明白|めいはく}"] },
     ] },
   { w: "{純粋|じゅんすい}", lv: "N2", pos: "な adjective · noun",
     en: "pure; genuine; innocent",
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "familiar, everyday (and rather low); commonplace",
     note: "Close at hand and ordinary, sometimes a bit vulgar. Almost always in the set phrase 卑近な例 (a homely example): 卑近な例で恐縮ですが (excuse the mundane example). A humble way to introduce an everyday comparison in formal speech or writing.",
     rx: ["ひこん", "ひちか", "びきん"],
-    book: { ja: "**{卑近|ひきん}**な例で{恐縮|きょうしゅく}だが、", en: "Forgive me for such a vulgar example, but", at: "ch/10" },
+    book: { ja: "**{卑近|ひきん}**な例で{恐縮|きょうしゅく}だが、", en: "Forgive me for such a mundane example, but", at: "ch/10" },
     ex: [
       { ja: "**{卑近|ひきん}**な{例|れい}を{挙|あ}げれば、{家計簿|かけいぼ}も{国|くに}の{予算|よさん}も{考|かんが}え{方|かた}は{同|おな}じだ。", en: "To take a homely example, a household budget and the national budget work on the same principle.", alt: ["{卑怯|ひきょう}", "{間近|まぢか}", "{卑屈|ひくつ}"] },
     ] },
@@ -109,7 +109,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こていけんねん", "こうていかんねん", "こていかんえん"],
     book: { ja: "だが、**{固定|こてい}観念**からの解放なくして芸術は生まれない。", en: "But without liberation from fixed ideas, no art can be born.", at: "ch/10" },
     ex: [
-      { ja: "「{男|おとこ}は{泣|な}くべきではない」という**{固定観念|こていかんねん}**は、もう{古|ふる}い。", en: "The stereotype that “men shouldn't cry” is already outdated.", alt: ["{既成事実|きせいじじつ}", "{固定資産|こていしさん}", "{観念論|かんねんろん}"] },
+      { ja: "「{男|おとこ}は{泣|な}くべきではない」という**{固定観念|こていかんねん}**は、もう{古|ふる}い。", en: "The stereotype that “men shouldn't cry” is already outdated.", alt: ["{既成事実|きせいじじつ}", "{固定資産|こていしさん}", "{観光客|かんこうきゃく}"] },
     ] },
   { w: "{解放|かいほう}", lv: "N2", pos: "noun · する verb",
     en: "liberation; release; freeing (from)",
@@ -125,7 +125,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["けいし", "がいじ", "けじ"],
     book: { ja: "看板や**{掲示|けいじ}**によく使われる。", en: "It is often used on signs and notices.", at: "gp/111" },
     ex: [
-      { ja: "{合格者|ごうかくしゃ}の{番号|ばんごう}は、{正門|せいもん}{前|まえ}に**{掲示|けいじ}**されます。", en: "The numbers of successful applicants will be posted in front of the main gate.", alt: ["{指示|しじ}", "{開示|かいじ}", "{掲載|けいさい}"] },
+      { ja: "{合格者|ごうかくしゃ}の{番号|ばんごう}は、{正門|せいもん}{前|まえ}に**{掲示|けいじ}**されます。", en: "The numbers of successful applicants will be posted in front of the main gate.", alt: ["{指示|しじ}", "{暗示|あんじ}", "{掲揚|けいよう}"] },
     ] },
   { w: "{私有地|しゆうち}", lv: "N1", pos: "noun",
     en: "private land; private property",
@@ -137,7 +137,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{火気厳禁|かきげんきん}", lv: "N1", pos: "expression (sign)",
     en: "No open flames; fire strictly prohibited",
-    note: "A four-character warning on signs at gas stations, warehouses and labs: 火気 (fire, flame) + 厳禁 (strictly prohibited). Other 厳禁 signs: 土足厳禁 (no outdoor shoes), 天地無用 (this side up) is a related packaging warning.",
+    note: "A four-character warning on signs at gas stations, warehouses and labs: 火気 (fire, flame) + 厳禁 (strictly prohibited). Another 厳禁 sign is 土足厳禁 (no outdoor shoes); 天地無用 (this side up) is a packaging warning.",
     rx: ["ひきげんきん", "かけげんきん", "かきごんきん"],
     book: { ja: "**{火気厳禁|かきげんきん}**。ここでたばこを吸うべからず。", en: "No open flames. Smoking here is forbidden.", at: "gp/111" },
     ex: [
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["のみざけ", "いんさけ", "いんしゅう"],
     book: { ja: "**{飲酒|いんしゅ}**運転は、許すべからざる{行為|こうい}だ。", en: "Drunk driving is an act that must never be tolerated.", at: "gp/111" },
     ex: [
-      { ja: "{医者|いしゃ}に{言|い}われて、{手術後|しゅじゅつご}しばらくは**{飲酒|いんしゅ}**を{控|ひか}えている。", en: "On my doctor's advice, I'm staying off alcohol for a while after the operation.", alt: ["{飲料|いんりょう}", "{喫茶|きっさ}", "{酒場|さかば}"] },
+      { ja: "{医者|いしゃ}に{言|い}われて、{手術後|しゅじゅつご}しばらくは**{飲酒|いんしゅ}**を{控|ひか}えている。", en: "On my doctor's advice, I'm staying off alcohol for a while after the operation.", alt: ["{飲料|いんりょう}", "{喫茶|きっさ}", "{酒税|しゅぜい}"] },
     ] },
   { w: "{王者|おうじゃ}", lv: "N1", pos: "noun",
     en: "champion; titleholder; king, ruler",
@@ -189,7 +189,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["らんがく", "らんえい", "みだかく"],
     book: { ja: "日本カワウソは毛皮が美しいがゆえに**{乱獲|らんかく}**され、{絶滅|ぜつめつ}してしまった。", en: "Because its fur was beautiful, the Japanese river otter was overhunted and became extinct.", at: "gp/113" },
     ex: [
-      { ja: "{長年|ながねん}の**{乱獲|らんかく}**で、この{海|うみ}の{魚|さかな}はすっかり{減|へ}ってしまった。", en: "Years of overfishing have left very few fish in this sea.", alt: ["{獲得|かくとく}", "{混乱|こんらん}", "{収穫|しゅうかく}"] },
+      { ja: "{長年|ながねん}の**{乱獲|らんかく}**で、この{海|うみ}の{魚|さかな}はすっかり{減|へ}ってしまった。", en: "Years of overfishing have left very few fish in this sea.", alt: ["{獲得|かくとく}", "{乱視|らんし}", "{獲物|えもの}"] },
     ] },
   { w: "{絶滅|ぜつめつ}", lv: "N1", pos: "noun · する verb",
     en: "extinction; dying out; eradication",
@@ -205,7 +205,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["すみ", "さんあじ", "ざんみ"],
     book: { ja: "このスープは**{酸味|さんみ}**と{辛|から}みが{相|あい}まって、{絶妙|ぜつみょう}な味わいだ", en: "In this soup, the sourness and the spiciness combine to give an exquisite flavor", at: "gp/114" },
     ex: [
-      { ja: "このコーヒーは**{酸味|さんみ}**が{少|すく}なくて、{飲|の}みやすい。", en: "This coffee has little acidity and is easy to drink.", alt: ["{興味|きょうみ}", "{意味|いみ}", "{中身|なかみ}"] },
+      { ja: "このコーヒーは**{酸味|さんみ}**が{少|すく}なくて、{飲|の}みやすい。", en: "This coffee has little acidity and is easy to drink.", alt: ["{興味|きょうみ}", "{意味|いみ}", "{趣味|しゅみ}"] },
     ] },
   { w: "{絶妙|ぜつみょう}", lv: "N1", pos: "な adjective",
     en: "exquisite; perfect; superb (timing, balance)",
@@ -237,7 +237,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こうみ", "たくいみ", "うまみ"],
     book: { ja: "主役の演技が**{巧|たく}み**なストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, won the drama great popularity, and it took the top ratings.", at: "gp/114" },
     ex: [
-      { ja: "{犯人|はんにん}は{言葉|ことば}**{巧|たく}み**に{高齢者|こうれいしゃ}に{近|ちか}づき、お{金|かね}をだまし{取|と}った。", en: "The culprit approached elderly people with smooth talk and swindled them out of their money.", alt: ["{丁寧|ていねい}", "{素直|すなお}", "{正直|しょうじき}"] },
+      { ja: "{犯人|はんにん}は{言葉|ことば}**{巧|たく}み**に{高齢者|こうれいしゃ}に{近|ちか}づき、お{金|かね}をだまし{取|と}った。", en: "The culprit approached elderly people with smooth talk and swindled them out of their money.", alt: ["{不器用|ぶきよう}", "{素直|すなお}", "{正直|しょうじき}"] },
     ] },
   { w: "{獲得|かくとく}", lv: "N1", pos: "noun · する verb",
     en: "acquisition; winning, gaining (a prize, rights, votes)",
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "{公|おおやけ}", lv: "N1", pos: "noun",
     en: "public; official; (the) government",
     note: "The public sphere as opposed to private: 公の場 (a public setting), 公にする (make public), 公になる (become public knowledge). Read おおやけ alone; in compounds it is こう (公共, 公式).",
-    rx: ["おうやけ", "おおやか", "おやけ"],
+    rx: ["こうやけ", "おおやか", "おやけ"],
     book: { ja: "事故を起こしてしまった以上、**{公|おおやけ}**の{場|ば}で{謝罪|しゃざい}せずにはすまない。", en: "Now that they have caused an accident, they cannot avoid apologizing in public.", at: "gp/117" },
     ex: [
       { ja: "{調査|ちょうさ}の{結果|けっか}は、まだ**{公|おおやけ}**にされていない。", en: "The results of the investigation haven't been made public yet.", alt: ["{個人|こじん}", "{仲間|なかま}", "{私物|しぶつ}"] },
@@ -417,7 +417,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{奇跡|きせき}", lv: "N2", pos: "noun",
     en: "miracle; wonder",
-    note: "Something seemingly impossible: 奇跡が起きる, 奇跡的に助かる (survive miraculously), 奇跡の生還. Beware its homophones 軌跡 (a trajectory, path) and 奇策 (a clever scheme, きさく).",
+    note: "Something seemingly impossible: 奇跡が起きる, 奇跡的に助かる (survive miraculously), 奇跡の生還. Beware its homophone 軌跡 (a trajectory, path).",
     rx: ["きせっき", "きぜき", "きしゃく"],
     book: { ja: "10階から{転落|てんらく}した幼児が無事だったとは、これが**{奇跡|きせき}**でなくてなんだろう。", en: "A toddler who fell from the tenth floor was unhurt — if that isn't a miracle, what is?", at: "gp/118" },
     ex: [
@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["いごく", "ことくに", "いこっく"],
     book: { ja: "{戦火|せんか}の中で出会った**{異国|いこく}**の女性と数年後にめぐり会うとは、", en: "Meeting again, years later, the foreign woman he had met in the midst of war —", at: "gp/118" },
     ex: [
-      { ja: "{港町|みなとまち}の{古|ふる}い{洋館|ようかん}には、どこか**{異国|いこく}**の{雰囲気|ふんいき}が{漂|ただよ}っている。", en: "The old Western-style houses of the port town have a somewhat exotic air.", alt: ["{帰国|きこく}", "{異常|いじょう}", "{全国|ぜんこく}"] },
+      { ja: "{港町|みなとまち}の{古|ふる}い{洋館|ようかん}には、どこか**{異国|いこく}**の{雰囲気|ふんいき}が{漂|ただよ}っている。", en: "The old Western-style houses of the port town have a somewhat exotic air.", alt: ["{帰国|きこく}", "{異論|いろん}", "{全国|ぜんこく}"] },
     ] },
   { w: "{弾圧|だんあつ}", lv: "N1", pos: "noun · する verb",
     en: "oppression; suppression; crackdown",
@@ -461,7 +461,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["りじま", "はなれとう", "りいとう"],
     book: { ja: "**{離島|りとう}**の生活は不便{極|きわ}まりないと思っていたが、慣れれば気にならないものだ。", en: "I thought life on a remote island would be extremely inconvenient, but once you get used to it, it doesn't bother you.", at: "gp/119" },
     ex: [
-      { ja: "**{離島|りとう}**には{病院|びょういん}がないため、{急病人|きゅうびょうにん}はヘリコプターで{運|はこ}ばれる。", en: "There are no hospitals on the remote islands, so sudden emergencies are flown out by helicopter.", alt: ["{離陸|りりく}", "{列島|れっとう}", "{離婚|りこん}"] },
+      { ja: "**{離島|りとう}**には{病院|びょういん}がないため、{急病人|きゅうびょうにん}はヘリコプターで{運|はこ}ばれる。", en: "There are no hospitals on the remote islands, so sudden emergencies are flown out by helicopter.", alt: ["{離陸|りりく}", "{離乳|りにゅう}", "{離婚|りこん}"] },
     ] },
   { w: "{建造物|けんぞうぶつ}", lv: "N1", pos: "noun",
     en: "structure; building; edifice",
@@ -538,7 +538,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "{憤|いきどお}り", lv: "N1", pos: "noun",
     en: "indignation; resentment; righteous anger",
     note: "Anger at injustice or wrongdoing, formal and written: 憤りを感じる, 憤りを覚える, 深い憤り. The verb is 憤る. 怒り is general anger; 憤り suggests moral outrage.",
-    rx: ["いきどうり", "いきとおり", "ふんどおり"],
+    rx: ["いきとり", "いきとおり", "ふんどおり"],
     book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに失望と**{憤|いきどお}り**を禁じえない。", en: "I cannot suppress my disappointment and indignation at the lack of ability to deliver shown by the politician I trusted and cast my vote for.", at: "gp/120" },
     ex: [
       { ja: "{弱|よわ}い{立場|たちば}の{人|ひと}を{利用|りよう}するやり{方|かた}に、{強|つよ}い**{憤|いきどお}り**を{感|かん}じる。", en: "I feel strong indignation at methods that exploit people in weak positions.", alt: ["{喜|よろこ}び", "{憧|あこが}れ", "{安|やす}らぎ"] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "{投|とう}じる", lv: "N1", pos: "ichidan verb",
     en: "to cast (a vote); to invest (money, resources); to throw (oneself into)",
     note: "A formal verb: 一票を投じる (cast a vote), 私財を投じる (invest one's own fortune), 疑問を投じる (raise a question), 身を投じる (throw oneself into a cause). Also written 投ずる. In everyday speech 投票する, お金をかける.",
-    rx: ["なげじる", "とおじる", "どうじる"],
+    rx: ["なげじる", "とじる", "どうじる"],
     book: { ja: "信頼して1{票|ぴょう}を**{投|とう}じた**政治家の{実行力|じっこうりょく}のなさに失望と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation at the lack of ability to deliver shown by the politician I trusted and cast my vote for.", at: "gp/120" },
     ex: [
       { ja: "{彼|かれ}は{私財|しざい}を**{投|とう}じて**、{故郷|こきょう}に{図書館|としょかん}を{建|た}てた。", en: "He used his personal fortune to build a library in his hometown.", alt: ["{信|しん}じて", "{応|おう}じて", "{論|ろん}じて"] },
@@ -565,7 +565,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しゃくべつ", "せきべち", "おしべつ"],
     book: { ja: "{一同|いちどう}、**{惜別|せきべつ}**の{念|ねん}を禁じえません。", en: "none of us can hold back our sorrow at parting.", at: "gp/120" },
     ex: [
-      { ja: "{卒業式|そつぎょうしき}では、{在校生|ざいこうせい}が**{惜別|せきべつ}**の{言葉|ことば}を{述|の}べた。", en: "At the graduation ceremony, a current student gave a farewell address.", alt: ["{区別|くべつ}", "{特別|とくべつ}", "{差別|さべつ}"] },
+      { ja: "{卒業式|そつぎょうしき}では、{在校生|ざいこうせい}が**{惜別|せきべつ}**の{言葉|ことば}を{述|の}べた。", en: "At the graduation ceremony, a current student gave a farewell address.", alt: ["{区別|くべつ}", "{分別|ふんべつ}", "{差別|さべつ}"] },
     ] },
   { w: "{担|にな}う", lv: "N1", pos: "godan verb",
     en: "to shoulder, bear (responsibility, a role); to carry",
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ほかしゃ", "たもの", "たじゃ"],
     book: { ja: "**{他者|たしゃ}**を思いやることなくして、暮らしやすい社会は作れないはずだ。", en: "Without consideration for others, we surely cannot build a society that is pleasant to live in.", at: "gp/123" },
     ex: [
-      { ja: "{子|こ}どもは、{遊|あそ}びを{通|とお}して**{他者|たしゃ}**との{関|かか}わり{方|かた}を{学|まな}ぶ。", en: "Children learn how to relate to others through play.", alt: ["{他方|たほう}", "{��者|ひっしゃ}", "{他界|たかい}"] },
+      { ja: "{子|こ}どもは、{遊|あそ}びを{通|とお}して**{他者|たしゃ}**との{関|かか}わり{方|かた}を{学|まな}ぶ。", en: "Children learn how to relate to others through play.", alt: ["{他方|たほう}", "{筆者|ひっしゃ}", "{他界|たかい}"] },
     ] },
   { w: "{耐|た}える", lv: "N2", pos: "ichidan verb",
     en: "to endure, bear; to withstand",
@@ -653,7 +653,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["おといろ", "おんいろ", "ねしょく"],
     book: { ja: "この歌はピアノの**{音色|ねいろ}**と少年の{澄|す}んだ{歌声|うたごえ}が＿＿、", en: "In this song, the tone of the piano and the boy's clear singing voice combine to", at: "ch/10" },
     ex: [
-      { ja: "{古|ふる}いバイオリンには、{新|あたら}しい{物|もの}にはない{深|ふか}い**{音色|ねいろ}**がある。", en: "Old violins have a deep tone that new ones lack.", alt: ["{顔色|かおいろ}", "{景色|けしき}", "{特色|とくしょく}"] },
+      { ja: "{古|ふる}いバイオリンには、{新|あたら}しい{物|もの}にはない{深|ふか}い**{音色|ねいろ}**がある。", en: "Old violins have a deep tone that new ones lack.", alt: ["{顔色|かおいろ}", "{景色|けしき}", "{難色|なんしょく}"] },
     ] },
   { w: "{心地|ここち}", lv: "N1", pos: "noun",
     en: "feeling, sensation; comfort",
@@ -661,7 +661,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しんち", "こころじ", "ここじ"],
     book: { ja: "いつまでも聞いていたくなるほど**{心地|ここち}**いい曲だ。", en: "a piece so pleasant that you want to keep listening forever.", at: "ch/10" },
     ex: [
-      { ja: "{窓|まど}を{開|あ}けると、**{心地|ここち}**よい{風|かぜ}が{入|はい}ってきた。", en: "When I opened the window, a pleasant breeze came in.", alt: ["{具合|ぐあい}", "{格好|かっこう}", "{機嫌|きげん}"] },
+      { ja: "{窓|まど}を{開|あ}けると、**{心地|ここち}**よい{風|かぜ}が{入|はい}ってきた。", en: "When I opened the window, a pleasant breeze came in.", alt: ["{具合|ぐあい}", "{見当|けんとう}", "{機嫌|きげん}"] },
     ] },
   { w: "{捧|ささ}げる", lv: "N1", pos: "ichidan verb",
     en: "to devote, dedicate (one's life, efforts); to offer (up)",
@@ -701,7 +701,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["じゅうんじる", "おもいじる", "かさんじる"],
     book: { ja: "デザインの分野では{独創性|どくそうせい}を**重んじる**（　）、伝統を{古臭|ふるくさ}いと否定する傾向がある。", en: "In the field of design, precisely because originality is valued, there is a tendency to reject tradition as old-fashioned.", at: "ch/10/review" },
     ex: [
-      { ja: "この{学校|がっこう}は、{成績|せいせき}よりも{生徒|せいと}の{自主性|じしゅせい}を**{重|おも}んじて**いる。", en: "This school values students' independence more than their grades.", alt: ["{安|やす}んじて", "{重|かさ}なって", "{案|あん}じて"] },
+      { ja: "この{学校|がっこう}は、{成績|せいせき}よりも{生徒|せいと}の{自主性|じしゅせい}を**{重|おも}んじて**いる。", en: "This school values students' independence more than their grades.", alt: ["{安|やす}んじて", "{重|かさ}なって", "{甘|あま}んじて"] },
     ] },
   { w: "{古臭|ふるくさ}い", lv: "N1", pos: "い adjective",
     en: "old-fashioned; outdated; stale",
@@ -709,7 +709,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こしゅうい", "ふるぐさい", "ふるにおい"],
     book: { ja: "デザインの分野では{独創性|どくそうせい}を重んじる（　）、伝統を**{古臭|ふるくさ}い**と否定する傾向がある。", en: "In the field of design, precisely because originality is valued, there is a tendency to reject tradition as old-fashioned.", at: "ch/10/review" },
     ex: [
-      { ja: "「{女性|じょせい}は{家|いえ}にいるべきだ」なんて、**{古臭|ふるくさ}い**{考|かんが}えだ。", en: "Saying “women should stay home” is an outdated way of thinking.", alt: ["{照|て}れくさい", "{水臭|みずくさ}い", "{面倒|めんどう}くさい"] },
+      { ja: "「{女性|じょせい}は{家|いえ}にいるべきだ」なんて、**{古臭|ふるくさ}い**{考|かんが}えだ。", en: "Saying “women should stay home” is an outdated way of thinking.", alt: ["{照|て}れくさい", "{水臭|みずくさ}い", "{焦|こ}げくさい"] },
     ] },
   { w: "{二日酔|ふつかよ}い", lv: "N2", pos: "noun",
     en: "hangover",
@@ -781,7 +781,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ほうみかくす", "つつみいんす", "くるみかくす"],
     book: { ja: "{真実|しんじつ}を**{包|つつ}み{隠|かく}さず**伝える人物", en: "a person who conveys the truth without concealing anything", at: "ch/10/review" },
     ex: [
-      { ja: "{医者|いしゃ}に{自分|じぶん}の{症状|しょうじょう}を**{包|つつ}み{隠|かく}さず**{話|はな}した。", en: "I told the doctor about my symptoms frankly, hiding nothing.", alt: ["{言|い}い{逃|のが}れず", "{使|つか}わず", "{見逃|みのが}さず"] },
+      { ja: "{医者|いしゃ}に{自分|じぶん}の{症状|しょうじょう}を**{包|つつ}み{隠|かく}さず**{話|はな}した。", en: "I told the doctor about my symptoms frankly, hiding nothing.", alt: ["{言|い}い{逃|のが}れず", "{使|つか}わず", "{飲|の}み{込|こ}まず"] },
     ] },
   { w: "{愚|おろ}か", lv: "N1", pos: "な adjective",
     en: "foolish; stupid",
