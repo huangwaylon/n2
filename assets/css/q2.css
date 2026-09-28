@@ -155,13 +155,17 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 .rd-role { display: flex; gap: 8px; align-items: baseline; margin: .8em 0 .1em; font: 700 14px/1.6 var(--goth); color: var(--q); letter-spacing: 0; }
 .rd-role__s { font-weight: 500; }
 .ln { display: inline; }
+.rd-body:not(.rd-body--book) .bl-br { display: none; }
 .ln-no { position: absolute; left: 0; width: 2em; text-align: right; font: 12px/2.25 var(--goth); color: var(--ink-3); letter-spacing: 0; pointer-events: none; user-select: none; -webkit-user-select: none; transform: translateY(.1em); }
 .rd-body .pg { display: inline; }
 .rd-body .pg::before { display: none; }
 /* numbered underline → note (number under the start of the line, blue) */
 .ref { position: relative; color: inherit; text-decoration: none; }
 .ref u, u.ref { text-decoration: underline; text-decoration-color: var(--q); text-decoration-thickness: 2px; text-underline-offset: .28em; }
-.ref__n { position: absolute; left: 0; top: 100%; margin-top: -.35em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
+.ref-n { position: absolute; left: 0; top: 100%; margin-top: -.35em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
+/* lettered underlines (strategies, model compositions; p.008): grey rule, black bold (a) under its start */
+u.ref--let { text-decoration-color: var(--ink-3); }
+.ref--let .ref-n { color: var(--ink); font-size: .62em; margin-top: .55em; }
 a.ref:hover { text-decoration: none; }
 a.ref:hover u { background: var(--q-soft); }
 @media (max-width: 600px) { .rd-body { font-size: 17px; letter-spacing: .02em; } .rd-body--nums { padding-left: 2em; } .ln-no { width: 1.6em; font-size: 11px; } }
@@ -175,7 +179,7 @@ a.ref:hover u { background: var(--q-soft); }
 .rd--v .rd-by { text-align: end; margin-left: .4em; }
 .rd--v .rd-credit { text-align: end; margin: 0 1.5em 0 0; }
 .rd--v .ref u, .rd--v u.ref { text-underline-position: right; }
-.rd--v .ref__n { top: 0; left: 100%; margin: 0 0 0 .1em; writing-mode: horizontal-tb; }
+.rd--v .ref-n { top: 0; left: 100%; margin: 0 0 0 .1em; writing-mode: horizontal-tb; }
 .rd--v .rd-en { display: none !important; }
 
 /* ---------- dialogues ---------- */

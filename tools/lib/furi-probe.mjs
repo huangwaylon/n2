@@ -31,7 +31,7 @@ export const PROBE_FN = String(function probe(opts) {
     for (const r of rg.getClientRects()) if (r.width > 0.5 && r.height > 0.5) glyphs.push({ n, el, rt: !!isRt(n), box: emBox(r, f, vert), f, vert });
   }
   // boxes that furigana must not cover
-  const boxes = Array.from(root.querySelectorAll(".badge, .blank, input, select, button, .opt-n, .qn, .b-slot, .ob-slot, .fill-blank, .cd-badge"))
+  const boxes = Array.from(root.querySelectorAll(".badge, .blank, input, select, button, .opt-n, .qn, .b-slot, .ob-slot, .fill-blank, .cd-badge, .ref-n"))
     .filter(vis).flatMap((el) => Array.from(el.getClientRects()).map((r) => ({ el, box: { l: r.left, r: r.right, t: r.top, b: r.bottom } })));
   const rts = Array.from(root.querySelectorAll(".rt, rt")).filter(vis);
   for (const rt of rts) {

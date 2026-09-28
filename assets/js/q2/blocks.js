@@ -2,6 +2,7 @@
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
 import { ACT, $, $$, esc, isWide, progress, saveProgress, settings } from "../core.js";
 import { cdBadge, en, enScopeBtn, enToggle, fmt, plain, speakBtn } from "../markup.js";
+import { vtScrollInit } from "../content.js";
 
 // ---------- text ----------
 const norm = (t) => (t == null || t === "" ? null : typeof t === "string" ? { ja: t } : t);
@@ -276,7 +277,9 @@ function readingHtml(b, ctx) {
     let html;
     if (kind === "title" && s.includes("@")) { const [t, by] = s.split("@"); html = `${fmt(t, { vertical: V })}<span class="rd-by rd-by--in">${fmt(by, { vertical: V })}</span>`; }
     else html = fmt(s, { vertical: V });
-    cur.html += pm + mark(n) + html;
+    // each printed line in a .bl span, with a break before continuation lines: kept where the screen holds the book's
+    // lines (placeLineNos checks), so lines and line numbers are the book's; phones reflow the paragraph
+    cur.html += (kind || !cur.html ? "" : '<br class="bl-br">') + pm + mark(n) + `<span class="bl">${html}</span>`;
   });
   // paragraph translations, one per ¶ paragraph
   let pi = 0;
@@ -310,8 +313,39 @@ ACT.q2vmode = (t) => {
   document.dispatchEvent(new Event("try:setting-vertical"));
 };
 
+// book line breaks where they fit: every printed line on one line (one column in 縦書き) → .rd-body--book; a 縦書き text
+// then gets a scroller exactly as tall as its longest column. Otherwise (narrow screens) the paragraphs reflow.
+const lineCount = (el, vert) => new Set([...el.getClientRects()].map((r) => Math.round((vert ? r.right : r.top) / 8))).size;
+function fitBookLines(body) {
+  const sc = body.closest(".rd-scroll"), vert = getComputedStyle(body).writingMode.startsWith("vertical");
+  body.classList.add("rd-body--book");
+  body.style.fontSize = "";
+  if (sc) sc.style.height = `${Math.max(innerHeight * 0.8, sc.clientHeight)}px`;
+  const lines = $$(".bl", body), fits = () => lines.length && !lines.some((l) => lineCount(l, vert) > 1);
+  // a text printed in small type (interviews) may need a slightly smaller size to keep the book's lines (not below 15px)
+  for (let fs = parseFloat(getComputedStyle(body).fontSize); !fits() && !vert && fs * 0.95 >= 15; ) body.style.fontSize = `${(fs *= 0.95)}px`;
+  if (!fits()) {
+    body.classList.remove("rd-body--book");
+    body.style.fontSize = "";
+    if (sc) { sc.style.height = ""; delete sc.dataset.fitH; vtScrollInit(false); }
+    return;
+  }
+  if (sc && vert) {
+    // the scroller as tall as the longest column; lines set flush with the column end (bylines, credits) count by length
+    const top = body.getBoundingClientRect().top, pad = parseFloat(getComputedStyle(body).paddingTop), rg = document.createRange();
+    let end = 0;
+    [...lines, ...$$(".rd-credit", body)].forEach((el) => {
+      rg.selectNodeContents(el);
+      const r = rg.getBoundingClientRect();
+      end = Math.max(end, el.closest(".rd-by, .rd-credit, .rd-center") ? r.height + pad : r.bottom - top);
+    });
+    sc.style.height = `${Math.ceil(end + parseFloat(getComputedStyle(body).fontSize))}px`;
+  }
+}
+
 // line numbers (every 5th, and 1) and page marks in the gutter, at the height (column) where the book's line starts
 export function placeLineNos(root) {
+  $$(".rd-body", root).forEach((body) => { if (body.getClientRects().length) fitBookLines(body); });
   $$(".rd-body--nums", root).forEach((body) => {
     $$(".ln-no", body).forEach((x) => x.remove());
     if (!body.getClientRects().length) return;

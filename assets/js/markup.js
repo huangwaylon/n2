@@ -28,8 +28,8 @@ export const BLANK_HTML = '<span class="blank">　　　</span>';
 const refHtml = (m, text, tag) => {
   if (!tag) return `<u class="ref">${text}</u>`;
   const lab = /^\d+$/.test(tag) ? tag : `(${tag})`;
-  return /^\d+$/.test(tag) ? `<a class="ref" href="#gn-${tag}" data-act="jump" title="文型・表現ノート ${tag}"><u>${text}</u><span class="ref__n">${lab}</span></a>`
-    : `<u class="ref ref--let">${text}<span class="ref__n">${lab}</span></u>`;
+  return /^\d+$/.test(tag) ? `<a class="ref" href="#gn-${tag}" data-act="jump" title="文型・表現ノート ${tag}"><u>${text}</u><span class="ref-n">${lab}</span></a>`
+    : `<u class="ref ref--let">${text}<span class="ref-n">${lab}</span></u>`;
 };
 const q2Markup = (t) => t
   .replace(/\[\[(.+?)\|([0-9a-z]*)\]\]/g, refHtml)

@@ -22,7 +22,7 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
     prof = `/tmp/n2-cdp-prof-${port}-${process.pid}`;
     ch = spawn(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", `--remote-debugging-port=${port}`,
       `--user-data-dir=${prof}`, "about:blank"], { stdio: "ignore" });
-    for (let i = 0; i < 60; i++) {
+    for (let i = 0; i < 120; i++) {
       try { const t = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); if (t.find(x => x.type === "page")) { tabs = t; break; } } catch (e) {}
       await sleep(250);
     }
