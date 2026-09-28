@@ -1,7 +1,7 @@
 // Quartet II blocks (data/Q2-SCHEMA.md "Blocks"): every lesson section, brush-up unit and front-matter section is a list
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
 import { ACT, $, $$, esc, isWide, progress, saveProgress, settings } from "../core.js";
-import { cdBadge, en, enScopeBtn, enToggle, fmt, plain, speakBtn } from "../markup.js";
+import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, plain, speakBtn } from "../markup.js";
 import { vtScrollInit } from "../content.js";
 
 // ---------- text ----------
@@ -131,7 +131,7 @@ const B = {
     if (b.audio) QUEUES.set(b.audio, q);
     const spw = Math.max(1, ...b.lines.map((l) => plain(l.sp || "").length));
     return `<div class="qdlg${b.style ? " qdlg--" + b.style : ""}"${idAttr(b)} data-en-scope>
-      <div class="qdlg__tools">${enScopeBtn()}${cdBadge(q, "会話を聞く")}</div>
+      <div class="qdlg__tools">${enScopeBtn()}${b.audio ? cdBadge(q, "会話を聞く") : listenBtn(q, "会話を聞く")}</div>
       ${styleLab(b)}
       ${b.title ? `<h4 class="qdlg__title">${inl(b.title)}</h4>` : ""}
       ${b.setting ? line(b.setting, "qdlg__set") : ""}
@@ -232,7 +232,7 @@ function dlgRows(lines) {
     const o = norm(l) || {};
     const body = `<div class="qdlg__say"><span class="ja">${fmt(o.ja)}</span>${enLines(o)}</div>`;
     return l.sp ? `<div class="qdlg__row bi">${o.en || o.tr ? enToggle() : ""}<span class="qdlg__sp">${fmt(l.sp)}</span><span class="qdlg__c" aria-hidden="true">：</span>${body}</div>`
-      : `<div class="qdlg__row qdlg__row--narr bi">${o.en || o.tr ? enToggle() : ""}${body}</div>`;
+      : `<div class="qdlg__row qdlg__row--narr${/^＊[　 ]＊/.test(o.ja || "") ? " qdlg__row--sep" : ""} bi">${o.en || o.tr ? enToggle() : ""}${body}</div>`;
   }).join("");
 }
 // an example: one sentence, or lines with speakers
@@ -280,6 +280,7 @@ function readingHtml(b, ctx) {
     let html;
     if (kind === "title" && s.includes("@")) { const [t, by] = s.split("@"); html = `${fmt(t, { vertical: V })}<span class="rd-by rd-by--in">${fmt(by, { vertical: V })}</span>`; }
     else html = fmt(s, { vertical: V });
+    if (kind === "title") html = html.replace(/^◆/, '<span class="acc">◆</span>'); // the book's blue ◆ heading mark (pp.100–107)
     // each printed line in a .bl span, with a break before continuation lines: kept where the screen holds the book's
     // lines (placeLineNos checks), so lines and line numbers are the book's; phones reflow the paragraph
     cur.html += (kind || !cur.html ? "" : '<br class="bl-br">') + pm + mark(n) + `<span class="bl">${html}</span>`;
@@ -315,7 +316,7 @@ function readingHtml(b, ctx) {
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
   return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}"${idAttr(b)} data-en-scope>
-    ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : cdBadge(say, "音声を聞く")}</div>
+    ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : b.audio ? cdBadge(say, "音声を聞く") : listenBtn(say)}</div>
     ${V ? `<div class="vt-scroll rd-scroll" tabindex="0" role="region" aria-label="本文（縦書き）">${text}</div>` : text}
     ${V ? "" : credit}
   </section>`;

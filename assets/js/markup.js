@@ -41,7 +41,9 @@ const q2Markup = (t) => t
   .replace(/==(.+?)==/g, '<u class="ul2">$1</u>')
   .replace(/\[#(\d+)\]/g, '<span class="exno" aria-label="例$1">$1</span>')
   .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
-  .replace(/[❶-❿]/g, '<span class="step">$&</span>');
+  .replace(/[❶-❿]/g, '<span class="step">$&</span>')
+  // 書くポイント "…… (a) (b)": the pointer to the model composition's letters, blue as printed (pp.018, 050)
+  .replace(/……((?:\s*\([a-z]\))+)/g, '……<span class="acc">$1</span>');
 // opts.vertical: 縦中横 for standalone numbers (outside tags and ruby)
 export function fmt(s, opts = {}) {
   if (s == null) return "";
@@ -96,6 +98,9 @@ export const pill = (html, cls = "") => `<span class="pill ${cls}">${html}</span
 // headphone "CD ▶" play button for a speech queue [{ text, v }] (v: "m" | "f")
 export const cdBadge = (queue, label = "音声を聞く") =>
   `<button class="cd-badge" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="${esc(label)}"><span class="cd-badge__cd">CD</span><span class="cd-badge__play">▶</span></button>`;
+// the same speech queue as cdBadge, as a plain 🔊 button: for texts the book has no recording of (no CD mark to imitate)
+export const listenBtn = (queue, label = "音声を聞く") =>
+  `<button class="speak" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="Listen">🔊</button>`;
 export const speakBtn = (text, extra = "") => `<button class="speak" data-act="speak" data-text="${esc(plain(text))}" ${extra} title="Listen">🔊</button>`;
 // the book prints only filled stars, in black
 export const stars = (n) => (!n ? "" : `<span class="stars gp-bar__stars" role="img" aria-label="重要度 ${n}/3" title="Importance ${n}/3">${"★".repeat(n)}</span>`);
