@@ -2410,7 +2410,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "{売店|ばいてん}で＿＿時にはあったので、\n＿＿たら、売店か{廊下|ろうか}の\n＿＿かもしれません……。",
-            "tr": "I still had it when I ＿＿ at the gift shop, so if it ＿＿, it may be at ＿＿ at the gift shop or in the hallway..."
+            "tr": "I still had it when I ＿＿ at the gift shop, so if it ＿＿, it may be at the gift shop or ＿＿ in the hallway..."
            },
            "answer": [
             "お{土産|みやげ}を買った",
@@ -2460,7 +2460,7 @@ TRY.registerLesson({
      "style": "formal",
      "audio": "3.Kaiwa_L8-1",
      "setting": {
-      "ja": "ジョージ・テイラー（ジ：）が、宿泊した旅館に電話をかける。（旅館のスタッフ：ス）",
+      "ja": "ジョージ・テイラー（ジ:）が、宿泊した旅館に電話をかける。（旅館のスタッフ：ス）",
       "tr": "George Taylor (ジ) calls the ryokan where he stayed. (Ryokan staff member: ス)"
      },
      "lines": [
