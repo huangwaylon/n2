@@ -375,3 +375,12 @@
 .card-fc__f .card-fc__def { font-size: 22px; }
 @media (max-width: 600px) { .card-fc__f { font-size: 40px; } .card-fc { min-height: 200px; padding: 18px; } }
 .vc__at .gp-link { min-width: 44px; text-align: center; }
+/* 全部: one row per word (grid: word · reading · level · gloss · chapter; the gloss wraps under it on phones) */
+.vc-rows { display: grid; }
+.vc-row { display: grid; grid-template-columns: minmax(5em, auto) minmax(5em, auto) auto 1fr auto; align-items: baseline; gap: 0 12px; min-height: 44px; padding: 8px 4px; border-top: 1px solid var(--line); color: var(--ink); }
+.vc-row__w { font: 700 18px/1.4 var(--mincho); }
+.vc-row__r { font: 14px/1.4 var(--goth); color: var(--ink-2); }
+.vc-row__en { color: var(--en); font: 14.5px/1.4 system-ui, -apple-system, sans-serif; }
+.vc-row__ch { justify-self: end; font: 12px/1.4 var(--goth); color: var(--ink-3); }
+@media (hover: hover) { .vc-row:hover { background: var(--band); text-decoration: none; } }
+@media (max-width: 600px) { .vc-row { grid-template-columns: auto 1fr auto auto; } .vc-row__ch { grid-area: 1 / 4; } .vc-row__en { grid-column: 1 / -1; } }

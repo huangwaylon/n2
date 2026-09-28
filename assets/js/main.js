@@ -86,7 +86,8 @@ function updateSidebarProgress() {
     pts.forEach((g) => { const a = $(`[data-gp="${g.no}"]`); if (a) a.classList.toggle("done", !!progress.studied[g.no]); });
   });
 }
-// routes are hashes: "" home · ch/N · ch/N/review · gp/N · compare[/group] · about · guide · index · cando · drill
+// routes are hashes: "" home · ch/N · ch/N/review · gp/N · compare[/group] · about · guide · index · cando · drill ·
+// vocab[/N[/i]] · vocab/drill
 const VIEWS = { guide: guideView, about: aboutView, index: indexView, compare: compareView, cando: canDoView, drill: drillView, vocab: vocabView };
 // the chapter a route shows and the element to scroll to
 function target(h) {
@@ -94,6 +95,7 @@ function target(h) {
   if (p0 === "ch") return { ch: +p1, scrollTo: p2 === "review" ? `#review-${+p1}` : null };
   if (p0 === "gp") { const f = findPoint(+p1); return f ? { ch: f.ch.id, scrollTo: `#gp-${+p1}` } : {}; }
   if (p0 === "compare" && p1) return { scrollTo: `#cmp-${+p1}` };
+  if (p0 === "vocab" && /^\d+$/.test(p2 || "")) return { scrollTo: `#vc-${+p1}-${+p2}` };
   return {};
 }
 function viewHtml(h, t) {

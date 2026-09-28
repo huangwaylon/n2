@@ -1,6 +1,7 @@
 // 単語 Vocabulary (TRY books): our list of the N2/N1-level words each chapter uses (data/<book>/vocab/chNN.js, loaded by
 // main.js on the first vocab route; data/SCHEMA.md "Vocabulary"), the list page and the drill (flashcards and 4択).
-// Routes: vocab · vocab/N (chapter N) · vocab/drill. All English here is generated.
+// Routes: vocab (every word, one row each) · vocab/N (chapter N as study cards) · vocab/N/i (… scrolled to its word i) ·
+// vocab/drill. All English here is generated.
 import { ACT, TRY, $, $$, esc, progress, saveProgress, shuffle } from "./core.js";
 import { biInner, enScopeBtn, fmt, fmtEm, gpLink, plain, speakBtn } from "./markup.js";
 import { RUBY_RE } from "./ruby.js";
@@ -8,7 +9,10 @@ import { renderExercise } from "./exercises.js";
 import { flashcards, redraw } from "./flash.js";
 
 const reading = (w) => String(w).replace(RUBY_RE, "$2");
-const words = () => TRY.vocab.flatMap((v) => v.words.map((x) => Object.assign({ ch: v.ch, key: `w${v.ch}-${plain(x.w)}` }, x)));
+const words = () => TRY.vocab.flatMap((v) => v.words.map((x, i) => Object.assign({ ch: v.ch, i, key: `w${v.ch}-${plain(x.w)}` }, x)));
+const short = (en) => String(en).split(";")[0];
+// what the level and search filters look at (cards and rows alike)
+const filterAttrs = (x) => `data-lv="${x.lv}" data-k="${esc(x.key)}" data-s="${esc([plain(x.w), reading(x.w), x.en, x.pos].join(" ").toLowerCase())}"`;
 const known = () => (progress.known = progress.known || {});
 const LEVELS = [[null, "全レベル"], ["N2", "N2"], ["N1", "N1"]];
 const uiLine = (ja, en) => `<div class="bi" data-en-scope>${biInner({ ja, en }, { src: "ui", jaTag: "p" })}</div>`;
@@ -23,7 +27,7 @@ const atLink = (at) => {
   return p0 === "gp" ? gpLink(+n) : `<a class="gp-link" href="#/${esc(at)}">第${+n}章${p2 === "review" ? " まとめの問題" : ""}</a>`;
 };
 const exLine = (o, extra = "", cls = "") => `<li class="bi vc-ex${cls}">${biInner(o, { src: o.src })}${speakBtn(o.ja, "data-small")}${extra}</li>`;
-const card = (x) => `<article class="vc" id="vc-${esc(x.key)}" data-lv="${x.lv}" data-s="${esc([plain(x.w), reading(x.w), x.en, x.pos].join(" ").toLowerCase())}" data-en-scope>
+const card = (x) => `<article class="vc vc-f" id="vc-${x.ch}-${x.i}" ${filterAttrs(x)} data-en-scope>
     <header class="vc__h"><span class="vc__w ja">${esc(plain(x.w))}</span><span class="vc__r ja">${esc(reading(x.w))}</span>${speakBtn(reading(x.w), "data-small")}
       <span class="vc__lv">${esc(x.lv)}</span><span class="vc__pos">${esc(x.pos || "")}</span>
       <span class="vc__tools"><label class="studied"><input type="checkbox" data-act="known" data-k="${esc(x.key)}"${known()[x.key] ? " checked" : ""}><span class="studied__box" aria-hidden="true"></span>覚えた <span class="en-inline">Known</span></label>${enScopeBtn()}</span></header>
@@ -31,6 +35,8 @@ const card = (x) => `<article class="vc" id="vc-${esc(x.key)}" data-lv="${x.lv}"
     ${x.note ? `<p class="vc__note">${fmtEm(x.note)}</p>` : ""}
     <ul class="vc__exs">${(x.ex || []).map((e) => exLine(e)).join("")}${x.book ? exLine(x.book, `<span class="vc__at">本の文 <span class="en-inline">from the book</span> ☞ ${atLink(x.book.at)}</span>`, " vc-ex--book") : ""}</ul>
   </article>`;
+// the whole book at a glance: one light row per word, linking to its card (every card at once is ~50 000 nodes)
+const row = (x) => `<a class="vc-row vc-f" href="#/vocab/${x.ch}/${x.i}" ${filterAttrs(x)}><span class="vc-row__w ja">${esc(plain(x.w))}</span><span class="vc-row__r ja">${esc(reading(x.w))}</span><span class="vc__lv">${esc(x.lv)}</span><span class="vc-row__en">${fmt(short(x.en))}</span><span class="vc-row__ch">第${x.ch}章</span></a>`;
 
 export function vocabView(h) {
   const arg = h.split("/")[1];
@@ -43,12 +49,12 @@ export function vocabView(h) {
     ${chapterSeg("vocab", ch)}
     <div class="vc-filter">${segBtns("vlv", LEVELS, vf.lv)}<input class="search" id="vc-search" type="search" enterkeyhint="search" aria-label="検索 Search" placeholder="検索 Search: 募集, ぼしゅう, recruit …"></div>
     <p class="dim vc-count"></p>
-    <div class="vc-list">${list.map(card).join("") || `<p class="dim">No words yet.</p>`}</div></div>`;
+    <div class="vc-list${ch ? "" : " vc-rows"}">${list.map(ch ? card : row).join("") || `<p class="dim">No words yet.</p>`}</div></div>`;
 }
 // level and search filters (kept across chapters), applied in place
 const vf = { lv: null, q: "" };
 export function filterVocab() {
-  const cards = $$(".vc");
+  const cards = $$(".vc-f");
   if (!cards.length) return;
   const input = $("#vc-search");
   if (input && input.value !== vf.q) input.value = vf.q;
@@ -56,7 +62,7 @@ export function filterVocab() {
   cards.forEach((c) => {
     const on = (!vf.lv || c.dataset.lv === vf.lv) && (!vf.q || c.dataset.s.includes(vf.q) || c.dataset.s.includes(vf.q.toLowerCase()));
     c.hidden = !on;
-    if (on) { n++; if ($("input[data-act=known]", c).checked) k++; }
+    if (on) { n++; if (known()[c.dataset.k]) k++; }
   });
   $(".vc-count").textContent = `${n} words · 覚えた ${k}`;
 }
@@ -74,7 +80,6 @@ const cardOf = (x) => {
   const sub = x.ex && x.ex[0] ? fmt(x.ex[0].ja) : "";
   return dr.dir === "je" ? { key: x.key, front: esc(plain(x.w)), back: `${esc(reading(x.w))}<br>${def}`, sub } : { key: x.key, front: def, back: jp, sub };
 };
-const short = (en) => String(en).split(";")[0];
 // three wrong answers drawn from the other words (same part of speech first)
 const others = (x, all, f) => {
   const rest = shuffle(all.filter((y) => y !== x && f(y) !== f(x)));

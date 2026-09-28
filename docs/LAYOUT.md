@@ -417,7 +417,9 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 - **Drawer (≤900):** fixed, `width: min(86vw, 320px)`, slides in (`body.sb-open`), scrim closes it, page scroll locked, focus moves in and is trapped (`trapDrawerFocus`), Esc and navigation close it, crossing to ≥901 closes it. Its first block `.sb-pages` holds the six page links as 44px rows in two columns.
 - **Pages:** `.tbl` tables; at ≤600 `.tbl.stack` (index, compare, can-do) become stacked cards with `td[data-h]::before` labels. Front matter rows carry an English row `.tbl-en` shown with EN. Index search is a 16px, 44px-tall input.
 - **単語 Vocabulary** (`vocab.js`, web-only, not in the book): chapter chips and level filter wrap as separate chips
-  (`.vc-seg`; 15 don't fit one row on a phone), search. A word `.vc`: headword + kana reading (always shown, whatever the
+  (`.vc-seg`; 15 don't fit one row on a phone), search. 全部 lists every word as a light row `.vc-row` (word · reading ·
+  level · first sense · chapter; the sense wraps under it ≤600) linking to its card `vocab/N/i` — all cards at once were
+  ~50 000 nodes, 1.4 s on a throttled phone CPU. A chapter shows the cards; a word `.vc`: headword + kana reading (always shown, whatever the
   furigana switch) + 🔊, level badge, part of speech, 覚えた checkbox; the definition `.vc__def` is always visible in the
   generated-English colour with its tag (a word list with hidden meanings is useless); note; our examples and the book's
   sentence (`.vc-ex--book`, left rule, ☞ link to its point or chapter) with per-line EN. Drill: flashcards (`flash.js`,

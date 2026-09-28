@@ -93,6 +93,7 @@ body.nav-sb .sb-pages a { display: flex; align-items: center; gap: .35em; min-he
 body.nav-sb .sb-pages a.active { background: var(--band); }
 @media (hover: hover) { body.nav-sb .sb-pages a:hover { background: var(--band); text-decoration: none; } }
 body.nav-sb .sb-pages .en-inline { display: none; }
+@media (pointer: coarse) { body.nav-sb .sb-pages a { min-height: 44px; } }
 
 /* ---------- tablet: sidebar becomes a drawer; the six page links move into it ---------- */
 @media (max-width: 900px) {
