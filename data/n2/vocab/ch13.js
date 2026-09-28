@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["てんがい", "でんかい", "てんけい"],
     book: { ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に{同情|どうじょう}しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある**{展開|てんかい}**をお楽しみいただけると思います。", en: "In the first half, I'd like you to watch while sympathizing with the main character, and from the second half on, I think you'll enjoy a fast-paced plot with both mystery and action scenes.", at: "ch/13/review" },
     ex: [
-      { ja: "{話|はなし}は{最後|さいご}に{意外|いがい}な**{展開|てんかい}**を{見|み}せた。", en: "The story took an unexpected turn at the end.", alt: ["{発展|はってん}", "{展示|てんじ}", "{開発|かいはつ}"] },
+      { ja: "{話|はなし}は{最後|さいご}に{意外|いがい}な**{展開|てんかい}**を{見|み}せた。", en: "The story took an unexpected turn at the end.", alt: ["{開店|かいてん}", "{展示|てんじ}", "{開発|かいはつ}"] },
       { ja: "その{会社|かいしゃ}はアジア{各地|かくち}に{店舗|てんぽ}を**{展開|てんかい}**している。", en: "That company has expanded its stores across Asia." },
     ] },
   { w: "{登場人物|とうじょうじんぶつ}", lv: "N2", pos: "noun",
@@ -38,7 +38,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["しょうじん", "しょしん", "じょうしん"],
     book: { ja: "**{昇進|しょうしん}**の話はなかったことにする", en: "treat the talk of the promotion as if it never happened", at: "gp/119" },
     ex: [
-      { ja: "{彼|かれ}は{入社|にゅうしゃ}5{年目|ねんめ}で{課長|かちょう}に**{昇進|しょうしん}**した。", en: "He was promoted to section chief in his fifth year at the company.", alt: ["{前進|ぜんしん}", "{進学|しんがく}", "{上昇|じょうしょう}"] },
+      { ja: "{彼|かれ}は{入社|にゅうしゃ}5{年目|ねんめ}で{課長|かちょう}に**{昇進|しょうしん}**した。", en: "He was promoted to section chief in his fifth year at the company.", alt: ["{前進|ぜんしん}", "{進学|しんがく}", "{上陸|じょうりく}"] },
     ] },
   { w: "{告|つ}げる", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to tell; to inform; to announce",
@@ -118,7 +118,7 @@ TRY.registerVocab({ ch: 13, words: [
     note: "Kanji 囁く, usually written in kana. 耳元でささやく (whisper in someone's ear). The noun is ささやき. つぶやく is muttering to yourself (and also posting on social media); ささやく is speaking softly to someone.",
     book: { ja: "会議中にちょっと**ささやいた**つもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "During the meeting I meant to just whisper, but everyone heard me, and it was so embarrassing.", at: "gp/120" },
     ex: [
-      { ja: "{彼女|かのじょ}は{私|わたし}の{耳元|みみもと}で「ありがとう」と**ささやいた**。", en: "She whispered \"thank you\" in my ear.", alt: ["うなずいた", "ほほえんだ", "ためらった"] },
+      { ja: "{彼女|かのじょ}は{私|わたし}の{耳元|みみもと}で「ありがとう」と**ささやいた**。", en: "She whispered \"thank you\" in my ear.", alt: ["うなずいた", "ふくらんだ", "ためらった"] },
     ] },
   { w: "{傷|きず}つける", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to hurt (someone's feelings); to injure; to damage",
@@ -158,7 +158,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["げんじち", "けんじつ", "げんしつ"],
     book: { ja: "**{現実|げんじつ}**には{無理|むり}だと思っていることを強く{希望|きぼう}するときに使う。会話では「もんなら」になる。", en: "Use this when you very much want something that you actually think is impossible. It becomes \" もんなら \" in casual conversation.", at: "gp/122", src: "book" },
     ex: [
-      { ja: "{夢|ゆめ}を{持|も}つのはいいが、**{現実|げんじつ}**も{見|み}なければならない。", en: "It's good to have dreams, but you also have to face reality.", alt: ["{現在|げんざい}", "{現場|げんば}", "{実現|じつげん}"] },
+      { ja: "{夢|ゆめ}を{持|も}つのはいいが、**{現実|げんじつ}**も{見|み}なければならない。", en: "It's good to have dreams, but you also have to face reality.", alt: ["{現金|げんきん}", "{現場|げんば}", "{実現|じつげん}"] },
     ] },
   { w: "{下山|げざん}", lv: "N1", pos: "noun · する verb",
     en: "descending a mountain; coming down from a mountain",
@@ -211,7 +211,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["きょねむり", "いみん", "いねぶり"],
     book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "The department head dozed off during the meeting, and I agonized over whether to wake him or not; in the end I didn't. What should I have done?", at: "gp/123" },
     ex: [
-      { ja: "{授業中|じゅぎょうちゅう}に**{居眠|いねむ}り**をして、{先生|せんせい}に{注意|ちゅうい}された。", en: "I dozed off in class and got scolded by the teacher.", alt: ["{寝坊|ねぼう}", "{居留守|いるす}", "{寝相|ねぞう}"] },
+      { ja: "{授業中|じゅぎょうちゅう}に**{居眠|いねむ}り**をして、{先生|せんせい}に{注意|ちゅうい}された。", en: "I dozed off in class and got scolded by the teacher.", alt: ["{寝袋|ねぶくろ}", "{居留守|いるす}", "{寝相|ねぞう}"] },
     ] },
   { w: "{引退|いんたい}", lv: "N1", pos: "noun · する verb",
     en: "retirement (from active life, sports, public office)",
@@ -240,7 +240,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "{築|きず}く", lv: "N2", pos: "verb (godan, transitive)",
     en: "to build (up); to establish (a relationship, fortune, position)",
     note: "Originally building walls or castles (城を築く); now mostly abstract: 信頼関係を築く, 財産を築く (amass a fortune), 地位を築く, 幸せな家庭を築く. Don't confuse it with 気づく (notice), which sounds similar.",
-    rx: ["ちくく", "きづく", "つくく"],
+    rx: ["ちくく", "きぞく", "つくく"],
     book: { ja: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを**{築|きず}いた**{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Mr. Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
     ex: [
       { ja: "お{客様|きゃくさま}との{信頼関係|しんらいかんけい}を**{築|きず}く**には{時間|じかん}がかかる。", en: "It takes time to build a relationship of trust with customers.", alt: ["{気|き}づく", "{近|ちか}づく", "{片|かた}づく"] },
@@ -332,7 +332,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["しゅうやく", "おもやく", "しゅえき"],
     book: { ja: "{俺|おれ}は会社を{辞|や}めて、今は{自主製作|じしゅせいさく}映画の**{主役|しゅやく}**だ。", en: "I quit my company, and now I'm the lead actor in an independent film.", at: "ch/13" },
     ex: [
-      { ja: "{妹|いもうと}は{学校|がっこう}の{劇|げき}で**{主役|しゅやく}**を{演|えん}じた。", en: "My younger sister played the lead in the school play.", alt: ["{主張|しゅちょう}", "{通訳|つうやく}", "{主催|しゅさい}"] },
+      { ja: "{妹|いもうと}は{学校|がっこう}の{劇|げき}で**{主役|しゅやく}**を{演|えん}じた。", en: "My younger sister played the lead in the school play.", alt: ["{主張|しゅちょう}", "{主食|しゅしょく}", "{主催|しゅさい}"] },
     ] },
   { w: "{山頂|さんちょう}", lv: "N2", pos: "noun",
     en: "summit; mountaintop",
@@ -340,7 +340,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["さんじょう", "やまちょう", "さんちょ"],
     book: { ja: "たとえどんなに{困難|こんなん}でも、チョモランマの**{山頂|さんちょう}**に立ってみたいと思っている。", en: "No matter how difficult it may be, I want to stand on the summit of Chomolungma (Everest).", at: "gp/125" },
     ex: [
-      { ja: "{朝早|あさはや}く{出発|しゅっぱつ}して、{昼前|ひるまえ}に**{山頂|さんちょう}**に{着|つ}いた。", en: "We set out early in the morning and reached the summit before noon.", alt: ["{山菜|さんさい}", "{山脈|さんみゃく}", "{登山|とざん}"] },
+      { ja: "{朝早|あさはや}く{出発|しゅっぱつ}して、{昼前|ひるまえ}に**{山頂|さんちょう}**に{着|つ}いた。", en: "We set out early in the morning and reached the summit before noon.", alt: ["{山菜|さんさい}", "{散歩|さんぽ}", "{登山|とざん}"] },
     ] },
   { w: "お{世辞|せじ}", lv: "N2", pos: "noun",
     en: "flattery; compliment (not sincerely meant)",
@@ -348,7 +348,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["おせいじ", "およじ", "おせし"],
     book: { ja: "たとえ**お{世辞|せじ}**だとわかっていても、", en: "Even when you know it's just flattery,", at: "gp/125" },
     ex: [
-      { ja: "{彼|かれ}の{言葉|ことば}は**お{世辞|せじ}**ではなく、{本心|ほんしん}だと{思|おも}う。", en: "I think what he said wasn't flattery but what he really feels.", alt: ["お{祝|いわ}い", "お{見舞|みま}い", "お{土産|みやげ}"] },
+      { ja: "{彼|かれ}の{言葉|ことば}は**お{世辞|せじ}**ではなく、{本心|ほんしん}だと{思|おも}う。", en: "I think what he said wasn't flattery but what he really feels.", alt: ["お{釣|つ}り", "お{辞儀|じぎ}", "お{土産|みやげ}"] },
     ] },
   { w: "{合併|がっぺい}", lv: "N1", pos: "noun · する verb",
     en: "merger; amalgamation",
@@ -364,7 +364,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["もうしだし", "しんしゅつ", "もうしいで"],
     book: { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの{合併|がっぺい}の**{申|もう}し{出|で}**は受け入れがたい。", en: "Under these conditions, we find it hard to accept the merger offer from Suzuki Trading.", at: "gp/126" },
     ex: [
-      { ja: "{友人|ゆうじん}からの{援助|えんじょ}の**{申|もう}し{出|で}**を、{丁寧|ていねい}に{断|ことわ}った。", en: "I politely declined my friend's offer of help.", alt: ["{申|もう}し{込|こ}み", "{申|もう}し{訳|わけ}", "{思|おも}い{出|で}"] },
+      { ja: "{友人|ゆうじん}からの{援助|えんじょ}の**{申|もう}し{出|で}**を、{丁寧|ていねい}に{断|ことわ}った。", en: "I politely declined my friend's offer of help.", alt: ["{申|もう}し{分|ぶん}", "{申|もう}し{訳|わけ}", "{思|おも}い{出|で}"] },
     ] },
   { w: "{逆|さか}らう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to go against; to defy; to disobey",
@@ -372,7 +372,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["ぎゃくらう", "さかなう", "さがらう"],
     book: { ja: "信じがたいことだが、あのおとなしい{高橋|たかはし}さんが{上司|じょうし}の{命令|めいれい}に**{逆|さか}らった**というのは{事実|じじつ}らしい。", en: "It's hard to believe, but it seems to be true that quiet Mr. Takahashi defied his boss's orders.", at: "gp/126" },
     ex: [
-      { ja: "{子|こ}どものころ、{私|わたし}は{親|おや}に**{逆|さか}らって**ばかりいた。", en: "As a child, I was always defying my parents.", alt: ["{払|はら}って", "{誘|さそ}って", "{争|あらそ}って"] },
+      { ja: "{子|こ}どものころ、{私|わたし}は{親|おや}に**{逆|さか}らって**ばかりいた。", en: "As a child, I was always defying my parents.", alt: ["{払|はら}って", "{誘|さそ}って", "{祝|いわ}って"] },
     ] },
   { w: "{脱|だつ}サラ", lv: "N1", pos: "noun · する verb",
     en: "quitting a salaried job (to start one's own business)",
@@ -606,7 +606,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "{品数|しなかず}", lv: "N1", pos: "noun",
     en: "number of items; range of goods (on offer)",
     note: "How many kinds of goods a store has or dishes a meal has: 品数が多い / 豊富, 品数をそろえる. Note the kun reading しなかず (not ひんすう). 品ぞろえ is the selection or assortment.",
-    rx: ["ひんすう", "しなすう", "しなかづ"],
+    rx: ["ひんすう", "しなすう", "ひんかず"],
     book: { ja: "今度できたスーパーは**{品数|しなかず}**も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection and low prices too, so it's hugely popular.", at: "gp/130" },
     ex: [
       { ja: "この{店|みせ}は**{品数|しなかず}**が{豊富|ほうふ}で、{必要|ひつよう}なものが{何|なん}でもそろう。", en: "This store has a wide range of goods, so you can get everything you need.", alt: ["{品質|ひんしつ}", "{人数|にんずう}", "{回数|かいすう}"] },
@@ -614,7 +614,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "{肌寒|はださむ}い", lv: "N1", pos: "i-adjective",
     en: "chilly; a bit cold (felt on the skin)",
     note: "Slightly cold, especially in early spring, autumn or on a cool morning: 肌寒い日, 朝晩は肌寒い. Milder than 寒い. Its opposite in feeling is 蒸し暑い (muggy).",
-    rx: ["きさむい", "はだざむい", "はださぶい"],
+    rx: ["きさむい", "はだかん", "はださぶい"],
     book: { ja: "５月は{気温|きおん}が25度以上になる日もあれば、20度以下で**{肌寒|はださむ}い**日もある。", en: "In May, there are days when the temperature rises above 25 degrees, and also chilly days when it's below 20.", at: "gp/130" },
     ex: [
       { ja: "{朝晩|あさばん}は**{肌寒|はださむ}い**ので、{上着|うわぎ}を{持|も}って{行|い}ったほうがいい。", en: "It gets chilly in the mornings and evenings, so you'd better take a jacket.", alt: ["{蒸|む}し{暑|あつ}い", "{暖|あたた}かい", "{心細|こころぼそ}い"] },
@@ -697,7 +697,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["かいしゅ", "しいぬし", "かいおも"],
     book: { ja: "そんな2{匹|ひき}を{温|あたた}かく{見守|みまも}っていた**{飼|か}い{主|ぬし}**だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter.", at: "ch/13/review" },
     ex: [
-      { ja: "{犬|いぬ}が{玄関|げんかん}で**{飼|か}い{主|ぬし}**の{帰|かえ}りを{待|ま}っている。", en: "The dog is waiting at the front door for its owner to come home.", alt: ["{株主|かぶぬし}", "{地主|じぬし}", "{店主|てんしゅ}"] },
+      { ja: "{犬|いぬ}が{玄関|げんかん}で**{飼|か}い{主|ぬし}**の{帰|かえ}りを{待|ま}っている。", en: "The dog is waiting at the front door for its owner to come home.", alt: ["{株主|かぶぬし}", "{主語|しゅご}", "{主食|しゅしょく}"] },
     ] },
   { w: "{引|ひ}き{離|はな}す", lv: "N1", pos: "verb (godan, transitive)",
     en: "to separate; to pull apart; to pull ahead of (a rival)",

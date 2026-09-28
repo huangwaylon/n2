@@ -29,7 +29,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["まんたす", "みちたす", "みだす"],
     book: { ja: "昔のラーメンは{気軽|きがる}に{空腹|くうふく}を**{満|み}たす**ものにすぎなかったかもしれませんが、今ではラーメンは{立派|りっぱ}な料理です。", en: "In the past, ramen may have been nothing more than a quick, easy way to fill an empty stomach, but today it is a proper dish in its own right.", at: "ch/11" },
     ex: [
-      { ja: "{応募|おうぼ}するには、すべての{条件|じょうけん}を**{満|み}たす**{必要|ひつよう}がある。", en: "To apply, you need to meet all the requirements.", alt: ["{満|み}ちる", "{果|は}たす", "{浸|ひた}す"] },
+      { ja: "{応募|おうぼ}するには、すべての{条件|じょうけん}を**{満|み}たす**{必要|ひつよう}がある。", en: "To apply, you need to meet all the requirements.", alt: ["{満|み}ちる", "{耕|たがや}す", "{浸|ひた}す"] },
     ] },
   { w: "{具|ぐ}", lv: "N1", pos: "noun",
     en: "ingredients; toppings or fillings (in a dish)",
@@ -68,7 +68,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["こんこ", "ねきょ", "こんきょう"],
     book: { ja: "理由を表す「から・ため」にもついて、{原因|げんいん}・理由・**{根拠|こんきょ}**を{強調|きょうちょう}する言い方になる。", en: "You can also say it with \"から・ため\", which emphasizes a cause, reason or basis.", at: "gp/100", src: "book" },
     ex: [
-      { ja: "その{話|はなし}には{科学的|かがくてき}な**{根拠|こんきょ}**がない。", en: "There is no scientific basis for that story.", alt: ["{根本|こんぽん}", "{根気|こんき}", "{本拠|ほんきょ}"] },
+      { ja: "その{話|はなし}には{科学的|かがくてき}な**{根拠|こんきょ}**がない。", en: "There is no scientific basis for that story.", alt: ["{根性|こんじょう}", "{根気|こんき}", "{本拠|ほんきょ}"] },
     ] },
   { w: "{勝利|しょうり}", lv: "N2", pos: "noun · する verb",
     en: "victory; win",
@@ -105,7 +105,7 @@ TRY.registerVocab({ ch: 11, words: [
   { w: "{割|わり}", lv: "N2", pos: "noun · counter",
     en: "ten percent (as a unit of proportion); rate",
     note: "Proportions in tenths: 2割 = 20%, 3割引 (30% off), 8割の人. 割合 is a ratio or percentage in general. The grammar 〜わりに (considering …) comes from the same word.",
-    rx: ["かつ", "わい", "さき"],
+    rx: ["かり", "わい", "さき"],
     book: { ja: "世界人口の2**{割|わり}**を{占|し}めるにすぎない{先進国|せんしんこく}の{人々|ひとびと}が、{ＣＯ₂|シーオーツー}の6{割|わり}を{排出|はいしゅつ}していると言われている。", en: "It is said that people in developed countries, who make up only 20% of the world's population, emit 60% of the CO₂.", at: "gp/101" },
     ex: [
       { ja: "{参加者|さんかしゃ}の{約|やく}8**{割|わり}**が{女性|じょせい}だった。", en: "About 80 percent of the participants were women.", alt: ["{倍|ばい}", "{件|けん}", "{枚|まい}"] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["おうよ", "のうよう", "おうおう"],
     book: { ja: "これは私の{希望|きぼう}（　）のですが、今回の{成果|せいか}が{様々|さまざま}な研究に**{応用|おうよう}**され、{将来的|しょうらいてき}に多くの人の役に立てばうれしいです。", en: "This is merely my hope, but I would be glad if these results were applied to various kinds of research and eventually helped many people.", at: "gp/101" },
     ex: [
-      { ja: "この{技術|ぎじゅつ}は{医療|いりょう}の{分野|ぶんや}にも**{応用|おうよう}**できる。", en: "This technology can also be applied in the medical field.", alt: ["{応募|おうぼ}", "{応援|おうえん}", "{信用|しんよう}"] },
+      { ja: "この{技術|ぎじゅつ}は{医療|いりょう}の{分野|ぶんや}にも**{応用|おうよう}**できる。", en: "This technology can also be applied in the medical field.", alt: ["{応募|おうぼ}", "{応援|おうえん}", "{雇用|こよう}"] },
     ] },
   { w: "{全額|ぜんがく}", lv: "N1", pos: "noun",
     en: "the full amount; the total sum",
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["いきせん", "こうさき", "ぎょうさき"],
     book: { ja: "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ**{行|い}き{先|さき}**を早く決めないと間に合わなくなるよ。", en: "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, if we don't decide where to go soon we'll be too late.", at: "gp/106" },
     ex: [
-      { ja: "タクシーの{運転手|うんてんしゅ}に**{行|い}き{先|さき}**を{伝|つた}えた。", en: "I told the taxi driver where I was going.", alt: ["{行|い}き{止|ど}まり", "{勤|つと}め{先|さき}", "{行事|ぎょうじ}"] },
+      { ja: "タクシーの{運転手|うんてんしゅ}に**{行|い}き{先|さき}**を{伝|つた}えた。", en: "I told the taxi driver where I was going.", alt: ["{行|い}き{止|ど}まり", "{行|い}き{違|ちが}い", "{行事|ぎょうじ}"] },
     ] },
   { w: "{物価|ぶっか}", lv: "N2", pos: "noun",
     en: "(consumer) prices; the cost of living",
@@ -410,7 +410,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["ものか", "ぶつか", "ぶっけ"],
     book: { ja: "日本は**{物価|ぶっか}**が高い＿＿、全部高いわけではなくて、安いものもありますよ。", en: "Prices in Japan may be high, but not everything is expensive — there are cheap things too.", at: "ch/11" },
     ex: [
-      { ja: "{都会|とかい}は**{物価|ぶっか}**が{高|たか}いので、{生活|せいかつ}が{大変|たいへん}だ。", en: "Prices in the city are high, so life is hard.", alt: ["{価値|かち}", "{定価|ていか}", "{物質|ぶっしつ}"] },
+      { ja: "{都会|とかい}は**{物価|ぶっか}**が{高|たか}いので、{生活|せいかつ}が{大変|たいへん}だ。", en: "Prices in the city are high, so life is hard.", alt: ["{価値|かち}", "{物置|ものおき}", "{物質|ぶっしつ}"] },
     ] },
   { w: "{画像|がぞう}", lv: "N2", pos: "noun",
     en: "image; picture (esp. digital)",

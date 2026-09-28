@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["ぜい", "しひ", "ぜっぴ"],
     book: { ja: "今回の{警察|けいさつ}の{捜査方法|そうさほうほう}の**{是非|ぜひ}**（　）いろいろな専門家がコメントをしている。", en: "Various experts are commenting on whether the police's investigation methods in this case were appropriate.", at: "gp/133" },
     ex: [
-      { ja: "{死刑制度|しけいせいど}の**{是非|ぜひ}**をめぐって、{議論|ぎろん}が{続|つづ}いている。", en: "Debate continues over whether the death penalty is right or wrong.", alt: ["{是正|ぜせい}", "{非常|ひじょう}", "{非難|ひなん}"] },
+      { ja: "{死刑制度|しけいせいど}の**{是非|ぜひ}**をめぐって、{議論|ぎろん}が{続|つづ}いている。", en: "Debate continues over whether the death penalty is right or wrong.", alt: ["{非番|ひばん}", "{非常|ひじょう}", "{非売品|ひばいひん}"] },
     ] },
   { w: "{挙|あ}げる", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to raise (a hand); to give (an example); to hold (a ceremony); to do with all one's strength",
@@ -54,7 +54,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["けんしょ", "けんじょう", "げんしょう"],
     book: { ja: "オリンピック**{憲章|けんしょう}**の中に、「スポーツを通じて{平|へい}{和|わ}な社会を{構築|こうちく}する」とある。", en: "The Olympic Charter speaks of \"building a peaceful society through sport.\"", at: "ch/14" },
     ex: [
-      { ja: "{国連|こくれん}**{憲章|けんしょう}**には、{国際平和|こくさいへいわ}の{維持|いじ}が{目的|もくてき}として{書|か}かれている。", en: "The UN Charter states that its purpose is to maintain international peace.", alt: ["{憲法|けんぽう}", "{勲章|くんしょう}", "{文章|ぶんしょう}"] },
+      { ja: "{国連|こくれん}**{憲章|けんしょう}**には、{国際平和|こくさいへいわ}の{維持|いじ}が{目的|もくてき}として{書|か}かれている。", en: "The UN Charter states that its purpose is to maintain international peace.", alt: ["{楽章|がくしょう}", "{勲章|くんしょう}", "{文章|ぶんしょう}"] },
     ] },
   { w: "{構築|こうちく}", lv: "N1", pos: "noun · する verb",
     en: "building; construction; establishing (a system, relationship)",
@@ -62,7 +62,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["こうちゅく", "こうきず", "こちく"],
     book: { ja: "オリンピック{憲章|けんしょう}の中に、「スポーツを通じて{平|へい}{和|わ}な社会を**{構築|こうちく}**する」とある。", en: "The Olympic Charter speaks of \"building a peaceful society through sport.\"", at: "ch/14" },
     ex: [
-      { ja: "{新|あたら}しい{管理|かんり}システムを**{構築|こうちく}**するには、{半年|はんとし}ほどかかる。", en: "It will take about six months to build the new management system.", alt: ["{建築|けんちく}", "{構内|こうない}", "{改築|かいちく}"] },
+      { ja: "{新|あたら}しい{管理|かんり}システムを**{構築|こうちく}**するには、{半年|はんとし}ほどかかる。", en: "It will take about six months to build the new management system.", alt: ["{構図|こうず}", "{構内|こうない}", "{改築|かいちく}"] },
     ] },
   { w: "{理念|りねん}", lv: "N1", pos: "noun",
     en: "philosophy; guiding principle; ideal",
@@ -126,7 +126,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["ふんぞう", "ぶんそう", "ふんしょう"],
     book: { ja: "「〜をめぐって」は、「〜を{話題|わだい}として」という意味で、「〜」について{様々|さまざま}な{立場|たちば}、{方向|ほうこう}から意見を述べたり、{争|あらそ}い・**{紛争|ふんそう}**・{対立|たいりつ}などが起きていると言いたいときに使う。", en: "Use \" 〜をめぐって \", meaning \"about 〜 \", when you want to say that there is opposition, dispute, conflict, or opinions coming from various directions and positions about \" 〜 \".", at: "gp/133", src: "book" },
     ex: [
-      { ja: "その{地域|ちいき}では、{民族間|みんぞくかん}の**{紛争|ふんそう}**が{長|なが}く{続|つづ}いている。", en: "In that region, conflict between ethnic groups has continued for a long time.", alt: ["{競争|きょうそう}", "{紛失|ふんしつ}", "{奮闘|ふんとう}"] },
+      { ja: "その{地域|ちいき}では、{民族間|みんぞくかん}の**{紛争|ふんそう}**が{長|なが}く{続|つづ}いている。", en: "In that region, conflict between ethnic groups has continued for a long time.", alt: ["{奮発|ふんぱつ}", "{紛失|ふんしつ}", "{噴水|ふんすい}"] },
     ] },
   { w: "{持|も}ち{越|こ}す", lv: "N1", pos: "verb (godan, transitive)",
     en: "to carry over; to postpone (to a later time)",
@@ -181,7 +181,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["しょうしこうれか", "しょうじこうれいか", "しょうしこうりょうか"],
     book: { ja: "**{少子高齢化|しょうしこうれいか}**が進めば、{労働人口|ろうどうじんこう}が{減|へ}ってしまうわけですから、{経済構造|けいざいこうぞう}にも{当然|とうぜん}{影響|えいきょう}が出てきます。", en: "If the declining birthrate and aging population progress, the working population will shrink, so naturally the economic structure will be affected too.", at: "gp/134" },
     ex: [
-      { ja: "**{少子高齢化|しょうしこうれいか}**が{進|すす}み、{働|はたら}く{世代|せだい}の{負担|ふたん}が{増|ふ}えている。", en: "As the population ages and the birthrate falls, the burden on the working generation is growing.", alt: ["{温暖化|おんだんか}", "{自由化|じゆうか}", "{国際化|こくさいか}"] },
+      { ja: "**{少子高齢化|しょうしこうれいか}**が{進|すす}み、{働|はたら}く{世代|せだい}の{負担|ふたん}が{増|ふ}えている。", en: "As the population ages and the birthrate falls, the burden on the working generation is growing.", alt: ["{液状化|えきじょうか}", "{自由化|じゆうか}", "{緑化|りょっか}"] },
     ] },
   { w: "{取|と}り{壊|こわ}す", lv: "N1", pos: "verb (godan, transitive)",
     en: "to demolish; to tear down (a building)",
@@ -229,7 +229,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["きょうちょせい", "きょうちょうしょう", "こうちょうせい"],
     book: { ja: "{優|すぐ}れたサッカー{選手|せんしゅ}になるには、{運動能力|うんどうのうりょく}に{加|くわ}えて、{判断力|はんだんりょく}や**{協調性|きょうちょうせい}**が{求|もと}められる。", en: "To become an excellent soccer player, you need not only athletic ability but also judgment and the ability to cooperate with others.", at: "gp/136" },
     ex: [
-      { ja: "チームで{働|はたら}くには、**{協調性|きょうちょうせい}**が{欠|か}かせない。", en: "The ability to cooperate is essential for working in a team.", alt: ["{可能性|かのうせい}", "{危険性|きけんせい}", "{重要性|じゅうようせい}"] },
+      { ja: "チームで{働|はたら}くには、**{協調性|きょうちょうせい}**が{欠|か}かせない。", en: "The ability to cooperate is essential for working in a team.", alt: ["{酸性|さんせい}", "{危険性|きけんせい}", "{重要性|じゅうようせい}"] },
     ] },
   { w: "{購入代金|こうにゅうだいきん}", lv: "N1", pos: "noun",
     en: "purchase price; payment for goods",
@@ -269,7 +269,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["さっせい", "さくしょう", "さくなり"],
     book: { ja: "{区域内|くいきない}の道路{建設|けんせつ}は{法律|ほうりつ}に{基|もと}づいて、{各市町村|かくしちょうそん}が{基本計画|きほんけいかく}を**{作成|さくせい}**する。", en: "For road construction within the district, each municipality draws up a basic plan in accordance with the law.", at: "gp/138" },
     ex: [
-      { ja: "{明日|あした}の{会議|かいぎ}で{使|つか}う{資料|しりょう}を**{作成|さくせい}**した。", en: "I prepared the materials for tomorrow's meeting.", alt: ["{作業|さぎょう}", "{作用|さよう}", "{完成|かんせい}"] },
+      { ja: "{明日|あした}の{会議|かいぎ}で{使|つか}う{資料|しりょう}を**{作成|さくせい}**した。", en: "I prepared the materials for tomorrow's meeting.", alt: ["{作業|さぎょう}", "{作用|さよう}", "{作法|さほう}"] },
     ] },
   { w: "{育成|いくせい}", lv: "N1", pos: "noun · する verb",
     en: "training; development; fostering (people, talent)",
@@ -293,7 +293,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["てきしょう", "てっせい", "てきじょう"],
     book: { ja: "{廃棄物|はいきぶつ}は{法|ほう}（　）、**{適正|てきせい}**に{処理|しょり}されなければならない。", en: "Waste must be disposed of properly in accordance with the law.", at: "gp/138" },
     ex: [
-      { ja: "{商品|しょうひん}は**{適正|てきせい}**な{価格|かかく}で{販売|はんばい}されるべきだ。", en: "Goods should be sold at a fair price.", alt: ["{適性|てきせい}", "{正式|せいしき}", "{適用|てきよう}"] },
+      { ja: "{商品|しょうひん}は**{適正|てきせい}**な{価格|かかく}で{販売|はんばい}されるべきだ。", en: "Goods should be sold at a fair price.", alt: ["{適性|てきせい}", "{正体|しょうたい}", "{適用|てきよう}"] },
     ] },
   { w: "{天然資源|てんねんしげん}", lv: "N1", pos: "noun",
     en: "natural resources",
@@ -373,7 +373,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["せいりゅう", "じょうりつ", "せいたつ"],
     book: { ja: "「〜てこそ…」は、「〜がないと…が**{成立|せいりつ}**しない、〜が{絶対|ぜったい}に{必要|ひつよう}な{条件|じょうけん}である」ということを{強調|きょうちょう}する気持ちを表す。", en: "\" 〜てこそ… \" expresses a feeling that emphasizes that \"with 〜, … can not be; 〜 is an absolutely necessary condition.\"", at: "gp/139", src: "book" },
     ex: [
-      { ja: "{長|なが}い{議論|ぎろん}の{末|すえ}、{新|あたら}しい{法律|ほうりつ}が**{成立|せいりつ}**した。", en: "After a long debate, the new law was passed.", alt: ["{設立|せつりつ}", "{独立|どくりつ}", "{成長|せいちょう}"] },
+      { ja: "{長|なが}い{議論|ぎろん}の{末|すえ}、{新|あたら}しい{法律|ほうりつ}が**{成立|せいりつ}**した。", en: "After a long debate, the new law was passed.", alt: ["{起立|きりつ}", "{独立|どくりつ}", "{成長|せいちょう}"] },
     ] },
   { w: "{原料|げんりょう}", lv: "N2", pos: "noun",
     en: "raw material(s); ingredients (for manufacturing)",
@@ -397,7 +397,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["しゅぎいん", "しゅうぎえん", "しゅうきいん"],
     book: { ja: "**{衆議院|しゅうぎいん}**では{来年度予算案|らいねんどよさんあん}＿＿、{与野党|よやとう}の意見が{対立|たいりつ}している。", en: "In the House of Representatives, the ruling and opposition parties are at odds over next year's draft budget.", at: "ch/14" },
     ex: [
-      { ja: "**{衆議院|しゅうぎいん}**が{解散|かいさん}され、{総選挙|そうせんきょ}が{行|おこな}われることになった。", en: "The House of Representatives was dissolved, and a general election will be held.", alt: ["{参議院|さんぎいん}", "{病院|びょういん}", "{議事堂|ぎじどう}"] },
+      { ja: "**{衆議院|しゅうぎいん}**が{解散|かいさん}され、{総選挙|そうせんきょ}が{行|おこな}われることになった。", en: "The House of Representatives was dissolved, and a general election will be held.", alt: ["{寺院|じいん}", "{病院|びょういん}", "{議事堂|ぎじどう}"] },
     ] },
   { w: "{与野党|よやとう}", lv: "N1", pos: "noun",
     en: "ruling and opposition parties",
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["かねつさつきん", "かねっさっきん", "かれつさっきん"],
     book: { ja: "{缶詰|かんづめ}は中の空気が{抜|ぬ}かれ、**{加熱殺菌|かねつさっきん}**されているので、{長期間保存|ちょうきかんほぞん}できる＿＿。", en: "Canned food has the air removed and is heat-sterilized, which is why it can be stored for a long time.", at: "ch/14" },
     ex: [
-      { ja: "この{牛乳|ぎゅうにゅう}は**{加熱殺菌|かねつさっきん}**してから{出荷|しゅっか}されている。", en: "This milk is pasteurized before it is shipped.", alt: ["{冷凍保存|れいとうほぞん}", "{天日干|てんぴぼ}し", "{品種改良|ひんしゅかいりょう}"] },
+      { ja: "この{牛乳|ぎゅうにゅう}は**{加熱殺菌|かねつさっきん}**してから{出荷|しゅっか}されている。", en: "This milk is pasteurized before it is shipped.", alt: ["{栄養失調|えいようしっちょう}", "{天日干|てんぴぼ}し", "{品種改良|ひんしゅかいりょう}"] },
     ] },
   { w: "{芝生|しばふ}", lv: "N2", pos: "noun",
     en: "lawn; grass",
@@ -461,6 +461,6 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["はんけち", "ばんけつ", "はんげつ"],
     book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court handed down a verdict of not guilty for the defendant.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{対決|たいけつ}"] },
+      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court handed down a verdict of not guilty for the defendant.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
     ] },
 ] });

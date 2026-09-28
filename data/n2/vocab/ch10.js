@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["まんえん", "まいん", "もういん"],
     book: { ja: "**{満員|まんいん}**電車にストレスを感じない人はいるまい。", en: "Surely there is no one who doesn't feel stressed on a packed train.", at: "ch/10" },
     ex: [
-      { ja: "{人気|にんき}の{映画|えいが}で、{映画館|えいがかん}は**{満員|まんいん}**だった。", en: "It was a popular movie, so the theater was packed.", alt: ["{全員|ぜんいん}", "{満点|まんてん}", "{定員|ていいん}"] },
+      { ja: "{人気|にんき}の{映画|えいが}で、{映画館|えいがかん}は**{満員|まんいん}**だった。", en: "It was a popular movie, so the theater was packed.", alt: ["{全員|ぜんいん}", "{満点|まんてん}", "{満月|まんげつ}"] },
     ] },
   { w: "{通勤|つうきん}", lv: "N2", pos: "noun · する verb",
     en: "commuting (to work)",
@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["じょうかく", "のりきゃく", "じょきゃく"],
     book: { ja: "{日々|ひび}{耐|た}えている**{乗客|じょうきゃく}**を見るにつけ、みんな何と{我慢強|がまんづよ}いのだろうと思う。", en: "Whenever I see the passengers enduring it day after day, I think how patient they all are.", at: "ch/10" },
     ex: [
-      { ja: "{事故|じこ}の{影響|えいきょう}で、{多|おお}くの**{乗客|じょうきゃく}**が{駅|えき}で{足止|あしど}めされた。", en: "Because of the accident, many passengers were stranded at the station.", alt: ["{乗車|じょうしゃ}", "{観客|かんきゃく}", "{顧客|こきゃく}"] },
+      { ja: "{事故|じこ}の{影響|えいきょう}で、{多|おお}くの**{乗客|じょうきゃく}**が{駅|えき}で{足止|あしど}めされた。", en: "Because of the accident, many passengers were stranded at the station.", alt: ["{乗車|じょうしゃ}", "{客席|きゃくせき}", "{客間|きゃくま}"] },
     ] },
   { w: "{我慢強|がまんづよ}い", lv: "N1", pos: "い adjective",
     en: "patient; persevering; able to put up with a lot",
@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ろうせん", "ろせい", "みちせん"],
     book: { ja: "この**{路線|ろせん}**にはいくつか高校があり、{階段|かいだん}の近くに止まるこの{車両|しゃりょう}には高校生がたくさん乗っている。", en: "There are several high schools along this line, and lots of high school students ride in this car, which stops near the stairs.", at: "ch/10" },
     ex: [
-      { ja: "この{駅|えき}は3つの**{路線|ろせん}**が{乗|の}り{入|い}れていて、とても{便利|べんり}だ。", en: "Three lines run into this station, so it's very convenient.", alt: ["{線路|せんろ}", "{道路|どうろ}", "{進路|しんろ}"] },
+      { ja: "この{駅|えき}は3つの**{路線|ろせん}**が{乗|の}り{入|い}れていて、とても{便利|べんり}だ。", en: "Three lines run into this station, so it's very convenient.", alt: ["{路地|ろじ}", "{回路|かいろ}", "{進路|しんろ}"] },
     ] },
   { w: "{車両|しゃりょう}", lv: "N1", pos: "noun",
     en: "(railway) car; vehicle",
@@ -109,7 +109,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こうでん", "すきてん", "こってん"],
     book: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに**{好転|こうてん}**することはあるまい。", en: "Judging from the situation, the world economy is unlikely to improve any time soon.", at: "gp/93" },
     ex: [
-      { ja: "{新|あたら}しい{薬|くすり}のおかげで、{父|ちち}の{病状|びょうじょう}は**{好転|こうてん}**した。", en: "Thanks to the new medicine, my father's condition took a turn for the better.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{逆転|ぎゃくてん}"] },
+      { ja: "{新|あたら}しい{薬|くすり}のおかげで、{父|ちち}の{病状|びょうじょう}は**{好転|こうてん}**した。", en: "Thanks to the new medicine, my father's condition took a turn for the better.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移転|いてん}"] },
     ] },
   { w: "{早急|さっきゅう}", lv: "N1", pos: "な adjective · noun",
     en: "urgent; immediate; prompt",
@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["はやきゅう", "さきゅう", "そっきゅう"],
     book: { ja: "わが社も**{早急|さっきゅう}**に{対策|たいさく}を考えなければならない。", en: "Our company, too, must think up countermeasures right away.", at: "gp/93" },
     ex: [
-      { ja: "この{問題|もんだい}については、**{早急|さっきゅう}**な{対応|たいおう}が{求|もと}められている。", en: "This problem calls for an immediate response.", alt: ["{急激|きゅうげき}", "{早口|はやくち}", "{救急|きゅうきゅう}"] },
+      { ja: "この{問題|もんだい}については、**{早急|さっきゅう}**な{対応|たいおう}が{求|もと}められている。", en: "This problem calls for an immediate response.", alt: ["{早退|そうたい}", "{早口|はやくち}", "{救急|きゅうきゅう}"] },
     ] },
   { w: "{畳|たたみ}", lv: "N2", pos: "noun · counter",
     en: "tatami mat; (counter) tatami mats, as a measure of room size",
@@ -169,8 +169,8 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{代替|だいたい}", lv: "N1", pos: "noun · する verb",
     en: "substitute; alternative; replacement",
-    note: "代替エネルギー (alternative energy), 代替案 (an alternative plan), 代替品 (a substitute). Often misread だいがえ. Everyday speech uses 代わり.",
-    rx: ["だいがえ", "だいたえ", "だいてい"],
+    note: "代替エネルギー (alternative energy), 代替案 (an alternative plan), 代替品 (a substitute). だいがえ is also heard, but だいたい is the standard reading. Everyday speech uses 代わり.",
+    rx: ["たいたい", "だいたえ", "だいてい"],
     book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but the spread of alternative energy probably won't progress easily.", at: "gp/93" },
     ex: [
       { ja: "{部品|ぶひん}が{手|て}に{入|はい}らないため、**{代替|だいたい}**{品|ひん}を{使|つか}うことにした。", en: "The part wasn't available, so we decided to use a substitute.", alt: ["{大体|だいたい}", "{交代|こうたい}", "{現代|げんだい}"] },
@@ -197,7 +197,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ちょっこう", "じきご", "ちょくごう"],
     book: { ja: "彼女に{振|ふ}られた**{直後|ちょくご}**は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I thought I'd never fall in love again, but...", at: "gp/93" },
     ex: [
-      { ja: "{家|いえ}を{出|で}た**{直後|ちょくご}**に、{雨|あめ}が{降|ふ}り{出|だ}した。", en: "It started raining right after I left the house.", alt: ["{直前|ちょくぜん}", "{直接|ちょくせつ}", "{背後|はいご}"] },
+      { ja: "{家|いえ}を{出|で}た**{直後|ちょくご}**に、{雨|あめ}が{降|ふ}り{出|だ}した。", en: "It started raining right after I left the house.", alt: ["{直線|ちょくせん}", "{直接|ちょくせつ}", "{背後|はいご}"] },
     ] },
   { w: "{誓|ちか}う", lv: "N1", pos: "godan verb",
     en: "to swear; to vow; to pledge",
@@ -218,7 +218,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "{登山|とざん}", lv: "N2", pos: "noun · する verb",
     en: "mountain climbing; climbing a mountain",
     note: "登山する, 富士登山, 登山口 (trailhead), 登山道. 山登り is the everyday word; ハイキング is lighter walking. Coming down is 下山.",
-    rx: ["とうざん", "とさん", "のぼりやま"],
+    rx: ["とうさん", "とさん", "のぼりやま"],
     book: { ja: "この{天候|てんこう}では、明日の**{登山|とざん}**は（　）。", en: "In this weather, we'll probably have no choice but to cancel tomorrow's climb.", at: "gp/93" },
     ex: [
       { ja: "{父|ちち}は{休|やす}みのたびに、{仲間|なかま}と**{登山|とざん}**に{出|で}かける。", en: "Whenever he has time off, my father goes mountain climbing with his friends.", alt: ["{下山|げざん}", "{登校|とうこう}", "{火山|かざん}"] },
@@ -345,7 +345,7 @@ TRY.registerVocab({ ch: 10, words: [
     note: "さっさと帰る / 片付ける; as a command, さっさとしなさい (hurry up!). Suggests briskness or impatience, unlike neutral 早く.",
     book: { ja: "5時になるかならないかのうちに、彼は**さっさと**帰り{仕度|じたく}を始めた。", en: "It had barely turned five o'clock when he briskly started getting ready to go home.", at: "gp/96" },
     ex: [
-      { ja: "{文句|もんく}ばかり{言|い}っていないで、**さっさと**{宿題|しゅくだい}を{終|お}わらせなさい。", en: "Stop complaining and hurry up and finish your homework.", alt: ["そっと", "じっと", "ほっと"] },
+      { ja: "{文句|もんく}ばかり{言|い}っていないで、**さっさと**{宿題|しゅくだい}を{終|お}わらせなさい。", en: "Stop complaining and hurry up and finish your homework.", alt: ["ぞっと", "じっと", "ほっと"] },
     ] },
   { w: "{仕度|したく}", lv: "N2", pos: "noun · する verb",
     en: "preparation; getting ready",
@@ -455,7 +455,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しゅがつけられない", "てがづけられない", "たがつけられない"],
     book: { ja: "{酔|よ}った彼女は、{泣|な}くやら、わめくやら、**手がつけられない**{状態|じょうたい}だった。", en: "Drunk, she was crying, screaming and carrying on — there was no handling her.", at: "gp/98" },
     ex: [
-      { ja: "{弟|おとうと}は{一度|いちど}{怒|おこ}りだすと、**{手|て}がつけられない**。", en: "Once my little brother starts getting angry, there's no controlling him.", alt: ["{手|て}が{離|はな}せない", "{手|て}が{届|とど}かない", "{気|き}が{抜|ぬ}けない"] },
+      { ja: "{弟|おとうと}は{一度|いちど}{怒|おこ}りだすと、**{手|て}がつけられない**。", en: "Once my little brother starts getting angry, there's no controlling him.", alt: ["{手|て}が{離|はな}せない", "{手|て}が{届|とど}かない", "{口|くち}に{合|あ}わない"] },
     ] },
   { w: "{載|の}る", lv: "N2", pos: "godan verb",
     en: "to appear (in print); to be published, listed; to be placed on (top of)",
@@ -486,7 +486,7 @@ TRY.registerVocab({ ch: 10, words: [
     note: "魚をくわえる, たばこをくわえる; 指をくわえて見る (look on enviously, unable to do anything). Kanji 咥える; not to be confused with 加える (to add), same reading.",
     book: { ja: "{青空|あおぞら}を{飛|と}んでいた鳥は{突然|とつぜん}海に{潜|もぐ}ったかと思うと、魚を口に**くわえて**出てきた。", en: "The bird that had been flying in the blue sky suddenly dove into the sea, and the next moment came back up with a fish in its beak.", at: "gp/99" },
     ex: [
-      { ja: "{犬|いぬ}が{新聞|しんぶん}を**くわえて**{走|はし}ってきた。", en: "The dog came running with the newspaper in its mouth.", alt: ["かかえて", "そろえて", "たくわえて"] },
+      { ja: "{犬|いぬ}が{新聞|しんぶん}を**くわえて**{走|はし}ってきた。", en: "The dog came running with the newspaper in its mouth.", alt: ["こらえて", "そろえて", "たくわえて"] },
     ] },
   { w: "{燃|も}え{広|ひろ}がる", lv: "N1", pos: "godan verb",
     en: "(fire) to spread",
@@ -542,7 +542,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["とびごむ", "ひこむ", "とびいむ"],
     book: { ja: "ブレーキの音が聞こえた（　）、{突然|とつぜん}トラックが店に**{飛|と}び{込|こ}んで**きた。", en: "No sooner had I heard the sound of brakes than a truck suddenly crashed into the store.", at: "ch/10/review" },
     ex: [
-      { ja: "{暑|あつ}い{日|ひ}だったので、{子|こ}どもたちは{次々|つぎつぎ}とプールに**{飛|と}び{込|こ}んだ**。", en: "It was a hot day, so the children jumped into the pool one after another.", alt: ["{飛|と}び{出|だ}した", "{追|お}い{込|こ}んだ", "{払|はら}い{込|こ}んだ"] },
+      { ja: "{暑|あつ}い{日|ひ}だったので、{子|こ}どもたちは{次々|つぎつぎ}とプールに**{飛|と}び{込|こ}んだ**。", en: "It was a hot day, so the children jumped into the pool one after another.", alt: ["{飛|と}び{立|た}った", "{追|お}い{込|こ}んだ", "{払|はら}い{込|こ}んだ"] },
     ] },
   { w: "{落|お}ち{込|こ}む", lv: "N2", pos: "godan verb",
     en: "to feel down, be depressed; to drop, slump (sales)",
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しゅういかかる", "おそいがかる", "かさいかかる"],
     book: { ja: "魚が{水面|すいめん}に上がってきたときにこの大きいくちばしで**おそいかかる**んです。", en: "When a fish comes up to the surface of the water, they attack with this big beak.", at: "ch/10/review" },
     ex: [
-      { ja: "{草|くさ}むらに{隠|かく}れていたライオンが、シマウマに**{襲|おそ}いかかった**。", en: "The lion hiding in the grass pounced on the zebra.", alt: ["{追|お}いかけた", "{寄|よ}りかかった", "{取|と}りかかった"] },
+      { ja: "{草|くさ}むらに{隠|かく}れていたライオンが、シマウマに**{襲|おそ}いかかった**。", en: "The lion hiding in the grass pounced on the zebra.", alt: ["{腰|こし}かけた", "{寄|よ}りかかった", "{取|と}りかかった"] },
     ] },
   { w: "{比較的|ひかくてき}", lv: "N2", pos: "adverb · な adjective",
     en: "comparatively; relatively",

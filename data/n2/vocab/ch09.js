@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["けんあい", "みあわい", "みごい"],
     book: { ja: "で、**{見合|みあ}い**するの？", en: "So, are you going to do the arranged-marriage meeting?", at: "gp/78" },
     ex: [
-      { ja: "{両親|りょうしん}は**お{見合|みあ}い**で{知|し}り{合|あ}って{結婚|けっこん}したそうだ。", en: "My parents apparently met through an arranged introduction and got married.", alt: ["お{祝|いわ}い", "お{見舞|みま}い", "お{土産|みやげ}"] },
+      { ja: "{両親|りょうしん}は**お{見合|みあ}い**で{知|し}り{合|あ}って{結婚|けっこん}したそうだ。", en: "My parents apparently met through an arranged introduction and got married.", alt: ["お{釣|つ}り", "お{辞儀|じぎ}", "お{土産|みやげ}"] },
     ] },
   { w: "{思|おも}いのほか", lv: "N1", pos: "adverb",
     en: "unexpectedly; more (or less) than expected",
@@ -156,7 +156,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["はえる", "ほうえる", "こえる"],
     book: { ja: "よその人と間違えて**ほえた**のよ。", en: "It mistook me for a stranger and barked at me.", at: "gp/80" },
     ex: [
-      { ja: "{夜中|よなか}に{隣|となり}の{犬|いぬ}が**{吠|ほ}えて**、{眠|ねむ}れなかった。", en: "The neighbor's dog barked in the middle of the night, and I couldn't sleep.", alt: ["{鳴|な}って", "{唱|とな}えて", "{訴|うった}えて"] },
+      { ja: "{夜中|よなか}に{隣|となり}の{犬|いぬ}が**{吠|ほ}えて**、{眠|ねむ}れなかった。", en: "The neighbor's dog barked in the middle of the night, and I couldn't sleep.", alt: ["{抱|かか}えて", "{唱|とな}えて", "{訴|うった}えて"] },
     ] },
   { w: "しょっちゅう", lv: "N2", pos: "adverb",
     en: "all the time; constantly; very often",
@@ -240,7 +240,7 @@ TRY.registerVocab({ ch: 9, words: [
     note: "いたずらをする, いたずら電話 (prank call), いたずら書き (doodle, graffiti), いたずらっ子 (little rascal). Kanji 悪戯. Can be affectionate, unlike 悪さ.",
     book: { ja: "子どもが**いたずら**しても火がつかないようになっています。", en: "It's designed so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
-      { ja: "{弟|おとうと}は{小|ちい}さいころ、**いたずら**ばかりして{母|はは}に{叱|しか}られていた。", en: "When my brother was little, he was always up to mischief and getting scolded by our mother.", alt: ["おしゃれ", "おかわり", "おつかい"] },
+      { ja: "{弟|おとうと}は{小|ちい}さいころ、**いたずら**ばかりして{母|はは}に{叱|しか}られていた。", en: "When my brother was little, he was always up to mischief and getting scolded by our mother.", alt: ["おしぼり", "おみやげ", "おつかい"] },
     ] },
   { w: "{揺|ゆ}れ", lv: "N2", pos: "noun",
     en: "shaking; tremor; swaying",
@@ -268,7 +268,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{個性的|こせいてき}", lv: "N2", pos: "な adjective",
     en: "distinctive; individual; having a strong personality",
-    note: "Usually positive: 個性的な服装 / デザイン / 人. 個性 is personality, individuality (個性がある / 強い). 独特 (peculiar, unique) can sound odd; 特徴的 means “characteristic.”",
+    note: "Usually positive: 個性的な服装 / デザイン / 人. 個性 is personality, individuality (個性がある / 強い). 独特 (peculiar to, one of a kind) can be neutral or slightly negative; 特徴的 means “characteristic.”",
     rx: ["こしょうてき", "こせいでき", "こうせいてき"],
     book: { ja: "やってみたら、キャラクターも**{個性的|こせいてき}**だし、ストーリーも{独創的|どくそうてき}だし、最高だよ。", en: "I tried it, and the characters are distinctive, the story is original — it's the best.", at: "gp/82" },
     ex: [
@@ -288,7 +288,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["かいとう", "まちとう", "がいどう"],
     book: { ja: "この道、カーブが多くて{見通|みとお}しが悪いし、**{街灯|がいとう}**は少ないし…。", en: "This road has lots of curves and poor visibility, and there are hardly any streetlights...", at: "gp/82" },
     ex: [
-      { ja: "この{辺|あた}りは**{街灯|がいとう}**が{少|すく}なく、{夜|よる}は{暗|くら}くて{危|あぶ}ない。", en: "There are few streetlights around here, so it's dark and dangerous at night.", alt: ["{街角|まちかど}", "{電柱|でんちゅう}", "{灯油|とうゆ}"] },
+      { ja: "この{辺|あた}りは**{街灯|がいとう}**が{少|すく}なく、{夜|よる}は{暗|くら}くて{危|あぶ}ない。", en: "There are few streetlights around here, so it's dark and dangerous at night.", alt: ["{街角|まちかど}", "{電池|でんち}", "{灯油|とうゆ}"] },
     ] },
   { w: "つなぐ", lv: "N2", pos: "godan verb",
     en: "to connect; to link; to hold (hands); to tie (up)",
@@ -326,7 +326,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ぼうかど", "ぼうひとびら", "ほうかとびら"],
     book: { ja: "このマンションは{火事|かじ}が起きると{自動的|じどうてき}に**{防火扉|ぼうかとびら}**が閉まる＿＿。", en: "This condominium is designed so that the fire doors close automatically when a fire breaks out.", at: "ch/9" },
     ex: [
-      { ja: "{火事|かじ}のとき、**{防火扉|ぼうかとびら}**が{閉|し}まって{煙|けむり}が{広|ひろ}がるのを{防|ふせ}いだ。", en: "During the fire, the fire doors closed and kept the smoke from spreading.", alt: ["{防犯|ぼうはん}カメラ", "{消火器|しょうかき}", "{非常口|ひじょうぐち}"] },
+      { ja: "{火事|かじ}のとき、**{防火扉|ぼうかとびら}**が{閉|し}まって{煙|けむり}が{広|ひろ}がるのを{防|ふせ}いだ。", en: "During the fire, the fire doors closed and kept the smoke from spreading.", alt: ["{防犯|ぼうはん}カメラ", "{消火器|しょうかき}", "{避難所|ひなんじょ}"] },
     ] },
   { w: "{商店街|しょうてんがい}", lv: "N2", pos: "noun",
     en: "shopping street; local shopping district",
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "{心強|こころづよ}い", lv: "N1", pos: "い adjective",
     en: "reassuring; encouraging; heartening",
     note: "Said when support makes you feel safe: あなたがいてくれると心強い. The opposite is 心細い (helpless, forlorn). It does not mean “strong-willed” (that's 気が強い / 意志が強い).",
-    rx: ["しんつよい", "こころずよい", "こころごわい"],
+    rx: ["しんつよい", "こころつよい", "こころごわい"],
     book: { ja: "{大田|おおた}さんがいれば**{心強|こころづよ}い**ね。", en: "Having you with us will be reassuring, Ota.", at: "ch/9" },
     ex: [
       { ja: "{初|はじ}めての{海外旅行|かいがいりょこう}だけど、{現地|げんち}に{友達|ともだち}がいるので**{心強|こころづよ}い**。", en: "It's my first trip abroad, but it's reassuring that I have a friend there.", alt: ["{心細|こころぼそ}い", "{力強|ちからづよ}い", "{我慢強|がまんづよ}い"] },
@@ -422,7 +422,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ゆうとうしょう", "ゆうどうせい", "ようとうせい"],
     book: { ja: "「**{優等生|ゆうとうせい}**・{悪者|わるもの}・大人・{上品|じょうひん}・いい子・{偉|えら}い」などの言葉と一緒に使う。", en: "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important).", at: "gp/85" },
     ex: [
-      { ja: "{兄|あに}は{子|こ}どものころから、{成績|せいせき}も{態度|たいど}もよい**{優等生|ゆうとうせい}**だった。", en: "Ever since he was a kid, my older brother was a model student with good grades and good behavior.", alt: ["{同級生|どうきゅうせい}", "{卒業生|そつぎょうせい}", "{新入生|しんにゅうせい}"] },
+      { ja: "{兄|あに}は{子|こ}どものころから、{成績|せいせき}も{態度|たいど}もよい**{優等生|ゆうとうせい}**だった。", en: "Ever since he was a kid, my older brother was a model student with good grades and good behavior.", alt: ["{下級生|かきゅうせい}", "{卒業生|そつぎょうせい}", "{新入生|しんにゅうせい}"] },
     ] },
   { w: "{悪者|わるもの}", lv: "N2", pos: "noun",
     en: "bad guy; villain; wrongdoer",
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["つうばん", "とうはん", "つはん"],
     book: { ja: "あの**{通販|つうはん}**サイト、にせブランド品を売っていたんだって。", en: "I heard that online shopping site was selling fake brand goods.", at: "ch/9" },
     ex: [
-      { ja: "{忙|いそが}しいので、{服|ふく}はほとんど**{通販|つうはん}**で{買|か}っている。", en: "I'm busy, so I buy almost all my clothes online.", alt: ["{通勤|つうきん}", "{通訳|つうやく}", "{通知|つうち}"] },
+      { ja: "{忙|いそが}しいので、{服|ふく}はほとんど**{通販|つうはん}**で{買|か}っている。", en: "I'm busy, so I buy almost all my clothes online.", alt: ["{通帳|つうちょう}", "{通訳|つうやく}", "{通知|つうち}"] },
     ] },
   { w: "{騙|だま}す", lv: "N2", pos: "godan verb",
     en: "to deceive; to trick; to cheat",

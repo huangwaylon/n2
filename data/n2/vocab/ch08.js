@@ -41,7 +41,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{手数|てすう}", lv: "N2", pos: "noun",
     en: "trouble; bother (caused to someone)",
-    note: "Almost always polite お手数: お手数をおかけしました (sorry to have troubled you), お手数ですが〜 (sorry to trouble you, but …). Unrelated to 手数料 (a fee) except for the shared kanji. 手間 is the time and effort something takes.",
+    note: "Almost always polite お手数: お手数をおかけしました (sorry to have troubled you), お手数ですが〜 (sorry to trouble you, but …). 手数料 (てすうりょう) is a handling fee or commission. 手間 is the time and effort something takes.",
     rx: ["しゅすう", "てずう", "てかす"],
     book: { ja: "ああ、どうも。お**{手数|てすう}**をおかけしました。", en: "Ah, thanks. Sorry for the trouble.", at: "ch/8" },
     ex: [
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
     book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from his desk at the moment, so I'll tell him to get back to you later.", at: "gp/73" },
     ex: [
-      { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{上|あ}げます", "{申|もう}し{出|で}ます"] },
+      { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
   { w: "{受付|うけつけ}", lv: "N2", pos: "noun",
     en: "reception (desk); accepting (applications)",
@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["かくし", "かっじ", "おのおのじ"],
     book: { ja: "お食事はついておりませんので、**{各自|かくじ}**でご用意{願|ねが}います。", en: "… meals are not included, so please arrange your own.", at: "gp/74" },
     ex: [
-      { ja: "{当日|とうじつ}は、{飲|の}み{物|もの}を**{各自|かくじ}**で{持|も}ってきてください。", en: "On the day, please each bring your own drinks.", alt: ["{各地|かくち}", "{自然|しぜん}", "{自宅|じたく}"] },
+      { ja: "{当日|とうじつ}は、{飲|の}み{物|もの}を**{各自|かくじ}**で{持|も}ってきてください。", en: "On the day, please each bring your own drinks.", alt: ["{各地|かくち}", "{自然|しぜん}", "{各駅|かくえき}"] },
     ] },
   { w: "{祈|いの}る", lv: "N2", pos: "verb (godan, transitive)",
     en: "to pray; to wish (for someone's health or success)",
@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["はいしょく", "はいぞっく", "くばりぞく"],
     book: { ja: "新入社員の{佐藤|さとう}と[1]ます。このたび、{第|だい}2{営業部|えいぎょうぶ}に**{配属|はいぞく}**されることに[2]。", en: "I'm Sato, a new employee. I have been assigned to Sales Department No. 2.", at: "ch/8" },
     ex: [
-      { ja: "{入社|にゅうしゃ}{後|ご}、{希望|きぼう}どおり{企画部|きかくぶ}に**{配属|はいぞく}**された。", en: "After joining the company, I was assigned to the planning department, just as I'd hoped.", alt: ["{配達|はいたつ}", "{所属|しょぞく}", "{配布|はいふ}"] },
+      { ja: "{入社|にゅうしゃ}{後|ご}、{希望|きぼう}どおり{企画部|きかくぶ}に**{配属|はいぞく}**された。", en: "After joining the company, I was assigned to the planning department, just as I'd hoped.", alt: ["{配達|はいたつ}", "{配慮|はいりょ}", "{配布|はいふ}"] },
     ] },
   { w: "なにぶん", lv: "N1", pos: "adverb",
     en: "since, after all (asking for understanding); please (do what you can)",
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["きじゃ", "ぎしゃ", "たかしゃ"],
     book: { ja: "お忙しいところ{恐縮|きょうしゅく}ですが、**{貴社|きしゃ}**{主催|しゅさい}のツアーについて、{詳細|しょうさい}を教えて（　）と{存|ぞん}じます。", en: "I'm sorry to trouble you when you're busy, but I would be grateful if you could tell me the details of the tour your company is organizing.", at: "ch/8/review" },
     ex: [
-      { ja: "**{貴社|きしゃ}**の{新製品|しんせいひん}について、{資料|しりょう}をお{送|おく}りいただけますでしょうか。", en: "Could you please send me materials about your company's new product?", alt: ["{当社|とうしゃ}", "{弊社|へいしゃ}", "{記者|きしゃ}"] },
+      { ja: "**{貴社|きしゃ}**の{新製品|しんせいひん}について、{資料|しりょう}をお{送|おく}りいただけますでしょうか。", en: "Could you please send me materials about your company's new product?", alt: ["{帰社|きしゃ}", "{寄付|きふ}", "{記者|きしゃ}"] },
     ] },
   { w: "{主催|しゅさい}", lv: "N1", pos: "noun · する verb",
     en: "sponsoring; hosting; organizing (an event)",
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["しゅざい", "しゅうさい", "ぬしさい"],
     book: { ja: "お忙しいところ{恐縮|きょうしゅく}ですが、{貴社|きしゃ}**{主催|しゅさい}**のツアーについて、{詳細|しょうさい}を教えて（　）と{存|ぞん}じます。", en: "I'm sorry to trouble you when you're busy, but I would be grateful if you could tell me the details of the tour your company is organizing.", at: "ch/8/review" },
     ex: [
-      { ja: "この{大会|たいかい}は{新聞社|しんぶんしゃ}の**{主催|しゅさい}**で{毎年|まいとし}{行|おこな}われている。", en: "This tournament is held every year, organized by a newspaper company.", alt: ["{主張|しゅちょう}", "{開催|かいさい}", "{主食|しゅしょく}"] },
+      { ja: "この{大会|たいかい}は{新聞社|しんぶんしゃ}の**{主催|しゅさい}**で{毎年|まいとし}{行|おこな}われている。", en: "This tournament is held every year, organized by a newspaper company.", alt: ["{主張|しゅちょう}", "{主演|しゅえん}", "{主食|しゅしょく}"] },
     ] },
   { w: "{詳細|しょうさい}", lv: "N1", pos: "noun · な adjective",
     en: "details; particulars; detailed",
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["まんぜん", "ばんせん", "ばんぜ"],
     book: { ja: "お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には**{万全|ばんぜん}**を{期|き}して[2]が、", en: "We take every care over the quality control of the products we deliver, but …", at: "ch/8/review" },
     ex: [
-      { ja: "{試合|しあい}に{向|む}けて、**{万全|ばんぜん}**の{準備|じゅんび}をした。", en: "I made thorough preparations for the match.", alt: ["{安全|あんぜん}", "{完全|かんぜん}", "{万能|ばんのう}"] },
+      { ja: "{試合|しあい}に{向|む}けて、**{万全|ばんぜん}**の{準備|じゅんび}をした。", en: "I made thorough preparations for the match.", alt: ["{安全|あんぜん}", "{全滅|ぜんめつ}", "{万能|ばんのう}"] },
     ] },
   { w: "{万一|まんいち}", lv: "N1", pos: "adverb · noun",
     en: "if by any chance; in the unlikely event (that)",
@@ -287,7 +287,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "とんだ", lv: "N1", pos: "pre-noun adjectival (連体詞)",
     en: "terrible; awful; unexpected (and unwelcome)",
-    note: "Only before a noun: とんだことをする (do something terrible), とんだ目に遭う (have an awful experience), とんだ災難 (a real disaster). It shares its origin with とんでもない but isn't used on its own as a reply.",
+    note: "Only before a noun: とんだことをする (do something terrible), とんだ目に遭う (have an awful experience), とんだ災難 (a real disaster). Unlike とんでもない, it can't stand alone as a reply.",
     book: { ja: "いえ。せっかくご{招待|しょうたい}いただきましたのに、**とんだ**ことをいたしまして、本当に{申|もう}し{訳|わけ}ございませんでした。", en: "Not at all. You were kind enough to invite me, and then I did such a terrible thing. I'm truly sorry.", at: "ch/8/review" },
     ex: [
       { ja: "{旅行中|りょこうちゅう}に{財布|さいふ}を{盗|ぬす}まれて、**とんだ**{目|め}に{遭|あ}った。", en: "My wallet was stolen during the trip. What an awful experience.", alt: ["ちょっとした", "たいした", "いわゆる"] },

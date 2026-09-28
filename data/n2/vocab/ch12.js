@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["ゆうくれ", "せきぐれ", "ゆうぼれ"],
     book: { ja: "2人は**{夕暮|ゆうぐ}れ**の道を川にそって歩き続けた。", en: "The two of them kept walking along the river in the dusk.", at: "gp/108" },
     ex: [
-      { ja: "**{夕暮|ゆうぐ}れ**の{海|うみ}は{赤|あか}く{染|そ}まって{美|うつく}しかった。", en: "The sea at dusk was beautifully tinged with red.", alt: ["{夕立|ゆうだち}", "{夕刊|ゆうかん}", "{年|とし}の{暮|く}れ"] },
+      { ja: "**{夕暮|ゆうぐ}れ**の{海|うみ}は{赤|あか}く{染|そ}まって{美|うつく}しかった。", en: "The sea at dusk was beautifully tinged with red.", alt: ["{夕立|ゆうだち}", "{夕刊|ゆうかん}", "{夕飯|ゆうはん}"] },
     ] },
   { w: "{展覧会|てんらんかい}", lv: "N2", pos: "noun",
     en: "exhibition (esp. of art)",
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["てんかんかい", "でんらんかい", "てんらいかい"],
     book: { ja: "今度の**{展覧会|てんらんかい}**では「{平和|へいわ}」というテーマにそった作品を{展示|てんじ}しています。", en: "At this exhibition, we are displaying works in line with the theme of \"peace.\"", at: "gp/108" },
     ex: [
-      { ja: "{美術館|びじゅつかん}でピカソの**{展覧会|てんらんかい}**が{開|ひら}かれている。", en: "A Picasso exhibition is being held at the art museum.", alt: ["{博覧会|はくらんかい}", "{展望台|てんぼうだい}", "{観覧車|かんらんしゃ}"] },
+      { ja: "{美術館|びじゅつかん}でピカソの**{展覧会|てんらんかい}**が{開|ひら}かれている。", en: "A Picasso exhibition is being held at the art museum.", alt: ["{運動会|うんどうかい}", "{展望台|てんぼうだい}", "{観覧車|かんらんしゃ}"] },
     ] },
   { w: "{限定|げんてい}", lv: "N1", pos: "noun · する verb",
     en: "limitation; restriction; limited (edition); to limit",
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{缶詰|かんづめ}", lv: "N2", pos: "noun",
     en: "canned food; being shut up (somewhere) to work",
     note: "魚の缶詰, 缶詰を開ける. Figuratively, being confined to finish work: ホテルに缶詰になる. 缶 alone is the can itself; 缶切り is a can opener.",
-    rx: ["かんつめ", "かんずめ", "かんけつ"],
+    rx: ["かんつめ", "かんじめ", "かんけつ"],
     book: { ja: "{普段|ふだん}の食生活で{不足|ふそく}しがちなカルシウムを{補|おぎな}うには魚の**{缶詰|かんづめ}**がいいそうです。", en: "I hear canned fish is good for making up for the calcium that tends to be lacking in our everyday diet.", at: "gp/111" },
     ex: [
       { ja: "{災害|さいがい}に{備|そな}えて、**{缶詰|かんづめ}**と{水|みず}を{買|か}っておいた。", en: "To be prepared for disasters, I bought canned food and water.", alt: ["{詰|つ}め{込|こ}み", "{缶|かん}けり", "{満員|まんいん}"] },
@@ -181,7 +181,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["こうをだす", "くちをでる", "くちをいだす"],
     book: { ja: "親は子どものすることに**口を出し**がちだが、", en: "Parents tend to interfere in what their children do, but", at: "gp/111" },
     ex: [
-      { ja: "{他人|たにん}の{家庭|かてい}の{問題|もんだい}に**{口|くち}を{出|だ}す**べきではない。", en: "You shouldn't meddle in other families' problems.", alt: ["{口|くち}を{開|ひら}く", "{口|くち}に{合|あ}う", "{顔|かお}を{出|だ}す"] },
+      { ja: "{他人|たにん}の{家庭|かてい}の{問題|もんだい}に**{口|くち}を{出|だ}す**べきではない。", en: "You shouldn't meddle in other families' problems.", alt: ["{口|くち}を{揃|そろ}える", "{口|くち}に{合|あ}う", "{顔|かお}を{出|だ}す"] },
     ] },
   { w: "{外食|がいしょく}", lv: "N2", pos: "noun · する verb",
     en: "eating out",
@@ -241,7 +241,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{売買|ばいばい}", lv: "N1", pos: "noun · する verb",
     en: "buying and selling; trade",
     note: "A formal word: 不動産売買 (real estate transactions), 株の売買, 売買契約. In conversation 売り買い. Note both kanji read ばい.",
-    rx: ["ばいかい", "うりかい", "まいばい"],
+    rx: ["ばいかい", "ばいまい", "まいばい"],
     book: { ja: "アスクホームズは**{不動産売買|ふどうさんばいばい}**＿＿{長年|ながねん}の{実績|じっせき}があるので、{信|しん}{頼|らい}できるだろう。", en: "Ask Homes has a long track record when it comes to buying and selling real estate, so they can probably be trusted.", at: "ch/12" },
     ex: [
       { ja: "インターネットで{中古品|ちゅうこひん}を**{売買|ばいばい}**する{人|ひと}が{増|ふ}えている。", en: "More and more people are buying and selling secondhand goods online.", alt: ["{売店|ばいてん}", "{倍増|ばいぞう}", "{買収|ばいしゅう}"] },
@@ -260,7 +260,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しゅじゅん", "てずん", "てしゅん"],
     book: { ja: "この組み立て方の**{手順|てじゅん}**＿＿やれば、{初心者|しょしんしゃ}でも{簡単|かんたん}に組み立てられます。", en: "If you follow these assembly steps, even a beginner can put it together easily.", at: "ch/12" },
     ex: [
-      { ja: "{説明書|せつめいしょ}の**{手順|てじゅん}**{通|どお}りに{設定|せってい}すれば{大丈夫|だいじょうぶ}です。", en: "If you set it up following the steps in the manual, you'll be fine.", alt: ["{手続|てつづ}き", "{順調|じゅんちょう}", "{手当|てあ}て"] },
+      { ja: "{説明書|せつめいしょ}の**{手順|てじゅん}**{通|どお}りに{設定|せってい}すれば{大丈夫|だいじょうぶ}です。", en: "If you set it up following the steps in the manual, you'll be fine.", alt: ["{手品|てじな}", "{順調|じゅんちょう}", "{手当|てあ}て"] },
     ] },
   { w: "{宝|たから}くじ", lv: "N1", pos: "noun",
     en: "lottery (ticket)",
@@ -268,7 +268,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["ほうくじ", "たからぐじ", "だからくじ"],
     book: { ja: "買っても当たらないと思い＿＿、毎回**{宝|たから}くじ**を買っている。", en: "Even though I think I won't win anyway, I buy lottery tickets every time.", at: "ch/12" },
     ex: [
-      { ja: "**{宝|たから}くじ**で1{億円|おくえん}{当|あ}たったら、{何|なに}をしたい？", en: "What would you do if you won 100 million yen in the lottery?", alt: ["{宝物|たからもの}", "{宝石|ほうせき}", "{福袋|ふくぶくろ}"] },
+      { ja: "**{宝|たから}くじ**で1{億円|おくえん}{当|あ}たったら、{何|なに}をしたい？", en: "What would you do if you won 100 million yen in the lottery?", alt: ["{宝物|たからもの}", "{宝石|ほうせき}", "{宝庫|ほうこ}"] },
     ] },
   { w: "{生|う}まれ{変|か}わる", lv: "N1", pos: "verb",
     en: "to be reborn; to be completely transformed",
@@ -276,7 +276,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["うまれかえる", "しょうまれかわる", "うまれがわる"],
     book: { ja: "もし、**生まれ変われる**としたら、私は鳥になりたい。", en: "If I could be reborn, I'd want to be a bird.", at: "gp/113" },
     ex: [
-      { ja: "{駅前|えきまえ}の{商店街|しょうてんがい}は{再開発|さいかいはつ}で{新|あたら}しく**{生|う}まれ{変|か}わった**。", en: "The shopping street in front of the station was completely transformed by the redevelopment.", alt: ["{入|い}れ{替|か}わった", "{生|う}まれ{育|そだ}った", "{飛|と}び{回|まわ}った"] },
+      { ja: "{駅前|えきまえ}の{商店街|しょうてんがい}は{再開発|さいかいはつ}で{新|あたら}しく**{生|う}まれ{変|か}わった**。", en: "The shopping street in front of the station was completely transformed by the redevelopment.", alt: ["{言|い}い{争|あらそ}った", "{生|う}まれ{育|そだ}った", "{飛|と}び{回|まわ}った"] },
     ] },
   { w: "{一戸建|いっこだ}て", lv: "N1", pos: "noun",
     en: "detached house; single-family home",
@@ -452,7 +452,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しじき", "しいしょく", "ためしょく"],
     book: { ja: "レストランの開店に{先立|さきだ}って、**{試食会|ししょくかい}**が開かれた。", en: "Prior to the restaurant's opening, a tasting event was held.", at: "gp/116" },
     ex: [
-      { ja: "スーパーで**{試食|ししょく}**したソーセージがおいしかったので{買|か}った。", en: "I bought the sausages I'd sampled at the supermarket because they were tasty.", alt: ["{試着|しちゃく}", "{試験|しけん}", "{飲食|いんしょく}"] },
+      { ja: "スーパーで**{試食|ししょく}**したソーセージがおいしかったので{買|か}った。", en: "I bought the sausages I'd sampled at the supermarket because they were tasty.", alt: ["{試着|しちゃく}", "{試験|しけん}", "{試合|しあい}"] },
     ] },
   { w: "{舞台|ぶたい}", lv: "N2", pos: "noun",
     en: "stage; setting (of a story)",
@@ -468,7 +468,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["こうえい", "くえん", "こうおん"],
     book: { ja: "**{舞台公演|ぶたいこうえん}**に{先立|さきだ}つ{公開|こうかい}リハーサルに多くの{報道関係者|ほうどうかんけいしゃ}が集まった。", en: "Many members of the press gathered for the open rehearsal held ahead of the stage performance.", at: "gp/116" },
     ex: [
-      { ja: "{人気|にんき}のミュージカルが{東京|とうきょう}で**{公演|こうえん}**される。", en: "A popular musical will be performed in Tokyo.", alt: ["{講演|こうえん}", "{公園|こうえん}", "{出演|しゅつえん}"] },
+      { ja: "{人気|にんき}のミュージカルが{東京|とうきょう}で**{公演|こうえん}**される。", en: "A popular musical will be performed in Tokyo.", alt: ["{講演|こうえん}", "{公園|こうえん}", "{公言|こうげん}"] },
     ] },
   { w: "{公開|こうかい}", lv: "N2", pos: "noun · する verb",
     en: "opening to the public; release (of a film); disclosure",
@@ -484,7 +484,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["ほうど", "ほうとう", "ほどう"],
     book: { ja: "{舞台公演|ぶたいこうえん}に{先立|さきだ}つ{公開|こうかい}リハーサルに多くの**{報道関係者|ほうどうかんけいしゃ}**が集まった。", en: "Many members of the press gathered for the open rehearsal held ahead of the stage performance.", at: "gp/116" },
     ex: [
-      { ja: "その{事件|じけん}はテレビで{大|おお}きく**{報道|ほうどう}**された。", en: "The incident was widely covered on TV.", alt: ["{報告|ほうこく}", "{歩道|ほどう}", "{方法|ほうほう}"] },
+      { ja: "その{事件|じけん}はテレビで{大|おお}きく**{報道|ほうどう}**された。", en: "The incident was widely covered on TV.", alt: ["{報酬|ほうしゅう}", "{歩道|ほどう}", "{方法|ほうほう}"] },
     ] },
   { w: "{体制|たいせい}", lv: "N1", pos: "noun",
     en: "system; structure; setup (of an organization)",
@@ -657,7 +657,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{崩|くず}れる", lv: "N2", pos: "verb (intransitive)",
     en: "to collapse; to crumble; to be thrown off (balance); (of weather) to turn bad",
     note: "Intransitive; the transitive partner is 崩す. 建物が崩れる, バランスが崩れる, 天気が崩れる, 形が崩れる. 壊れる is for things that break and stop working.",
-    rx: ["ほうれる", "くずされる", "くづれる"],
+    rx: ["ほうれる", "くずされる", "くぞれる"],
     book: { ja: "そうそう。それでマグロのえさになる小さい魚が増えすぎて、海の生き物のバランスが**くずれて**るっていうことなんだよ。", en: "Right, right. And so the small fish that tuna feed on are increasing too much, and the balance of sea life is being thrown off.", at: "ch/12/review" },
     ex: [
       { ja: "{地震|じしん}で{古|ふる}い{壁|かべ}が**{崩|くず}れた**。", en: "The old wall collapsed in the earthquake.", alt: ["{崩|くず}した", "{溶|と}けた", "{破|やぶ}れた"] },
