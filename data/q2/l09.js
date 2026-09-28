@@ -142,7 +142,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "あなたの好きな人／場所／音楽について、どれくらい好きかを「たとえ」を使って\n話しましょう。",
-        "tr": "Think of a person, place, or piece of music you love, and use a “comparison” (a figure of speech) to describe how much you love it."
+        "tr": "Talk about a person, place, or piece of music you love, using an analogy (たとえ) to describe how much you love it."
        }
       }
      ]
@@ -293,12 +293,12 @@ TRY.registerLesson({
      "credit": [
       "『村上朝日堂超短篇小説　夜のくもざる』新潮社"
      ],
-     "titleTr": "On the Whistle in the Night, or On What Stories Are Good For",
+     "titleTr": "On a Train Whistle in the Middle of the Night, or On the Uses of Stories",
      "tr": [
       "A girl asks a boy a question: \"How much do you love me?\"",
       "The boy thinks for a while, then answers in a quiet voice, \"As much as a train whistle in the middle of the night.\"",
       "The girl waits in silence for him to go on. There must be a story behind it.",
-      "\"Once, I suddenly woke up in the middle of the night,\" he begins. \"I don't know exactly what time it was. Two or three o'clock, probably, something like that. But what time it was isn't that important. Anyway, it was the middle of the night, and I was completely alone; there was no one around me. Now, try to imagine it. Everything around me is pitch-dark, and I can't see a thing. I can't hear a single sound. I can't even hear the clock ticking away the time; maybe the clock has stopped. And then all of a sudden I feel that I'm unbelievably far away from everyone I know and from every place I know, cut off and torn away from them. I realize that I have become someone nobody in this whole wide world loves, nobody speaks to, nobody even remembers. Even if I just disappeared, nobody would notice. It feels like being packed into a thick iron box and sunk to the bottom of a deep sea. Because of the pressure, my heart hurts, as if it's about to rip right in two. Do you know that kind of feeling?\"",
+      "\"One time, I suddenly wake up in the middle of the night,\" he begins. \"I don't know exactly what time it is. Two or three o'clock, probably, something like that. But what time it is isn't that important. Anyway, it's the middle of the night, and I'm completely alone; there's no one around me. Now, try to imagine it. Everything around me is pitch-dark, and I can't see a thing. I can't hear a single sound. I can't even hear the clock ticking away the time; maybe the clock has stopped. And then all of a sudden I feel that I'm unbelievably far away from everyone I know and from every place I know, cut off and torn away from them. I realize that I have become someone nobody in this whole wide world loves, nobody speaks to, nobody even remembers. Even if I just disappeared, nobody would notice. It feels like being packed into a thick iron box and sunk to the bottom of a deep sea. Because of the pressure, my heart hurts, as if it's about to rip right in two. Do you know that kind of feeling?\"",
       "The girl nods. She thinks she probably does.",
       "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's a feeling so sad and painful that you really want to just die. No, that's not it. It's not that you want to die; if you just left it like that, the air in the box would get thinner and you would actually die. That's not a figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
       "The girl nods silently again. The boy pauses for a moment.",
@@ -358,7 +358,7 @@ TRY.registerLesson({
       "していた。が、それも四日、五日たつと、「出かけるの？",
       "ふーん。じゃーにー」といったような、あっさりした態度",
       "になる。見送りにももちろん出てこない。ええーっ、そ",
-      "んな！と、こちらが何かさみしいような気持ちになるほ",
+      "んな！　と、こちらが何かさみしいような気持ちになるほ",
       "どの成長ぶりである。この順応性の高さにもまた、驚か",
       "された。",
       "¶そうして、気づいたことがある。愛するものが増える",
@@ -399,7 +399,7 @@ TRY.registerLesson({
       "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, even that turned into a casual attitude, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my imagination in the fear department has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
-      "And so I think: how much imagined fear must the mothers of the world tremble with while their children are small? Things they can laugh about once the child has grown up, saying, \"That could never have happened,\" they must have been truly afraid of. Surely just having their child come home from kindergarten or elementary school feels like a miracle.",
+      "And so I think: when their children are small, how much imagined fear must the world's mothers tremble with? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
       "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs to pessimism."
      ]
     },
@@ -547,7 +547,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "ええーっ、そんな！　と、こちらが何かさみしいような気持ちになる__ほど__の成長ぶりである。この順応性の高さにもまた、驚かされた。",
-          "tr": "“Whaaat? No way!” They have grown up so much that it leaves me feeling somehow a little lonely. I was also surprised by how adaptable they are."
+          "tr": "“Wha-a-at? No way!” It has grown up so much that it leaves me feeling somehow lonely. I was also surprised by how adaptable it is."
          }
         }
        ]
