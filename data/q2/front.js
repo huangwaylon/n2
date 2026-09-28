@@ -28,7 +28,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "本書の作成には本当に多くの方々にお世話になりました。南山大学外国人留学生別科には本書を試用する機会を与えていただき、長年にわたり温かく見守っていただきました。ここに深く感謝の意を表します。また、本書に準拠した単語・漢字アプリ制作のためのクラウドファンディングに多額のご寄付をしてくださいました皆様お一人おひとりに、そして前回同様、緻密かつ丁寧な翻訳で多大な貢献をいただきました増本朱華さんにも心よりお礼を申し上げます。",
-     "tr": "A great many people helped us in making this book. The Center for Japanese Studies at Nanzan University, its program for international students, gave us the opportunity to trial this book and watched over us warmly for many years. We express our deep gratitude to them here. We also extend our heartfelt thanks to each and every one of you who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, who, as with the previous volume, made a great contribution with her meticulous and careful translation."
+     "tr": "A great many people helped us in making this book. Nanzan University's Center for Japanese Studies, its program for international students, gave us the opportunity to trial this book and warmly supported us for many years. We express our deep gratitude to them here. We also extend our heartfelt thanks to each and every one of you who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, who, as with the previous volume, made a great contribution with her meticulous and careful translation."
     }
    },
    {
@@ -243,7 +243,7 @@ TRY.registerFront([
        {
         "n": "3.",
         "text": {
-         "ja": "**モデル会話**　スクリプトを読んでモデル会話を文字で確認するとともに、「フローチャート」で会話全体の流れを視覚的に確認します。",
+         "ja": "**モデル会話**　スクリプトを読んでモデル会話を文字で確認するとともに、「**フローチャート**」で会話全体の流れを視覚的に確認します。",
          "tr": "Model Conversation: Learners read the script to check the model conversation in writing, and use the flowchart to check the flow of the whole conversation visually."
         }
        },
@@ -1073,7 +1073,7 @@ TRY.registerFront([
    },
    {
     "t": "head",
-    "style": "plain",
+    "style": "label",
     "icon": "read",
     "tag": "読む",
     "text": {
@@ -1100,7 +1100,7 @@ TRY.registerFront([
    },
    {
     "t": "head",
-    "style": "plain",
+    "style": "label",
     "icon": "write",
     "tag": "書く",
     "text": {
@@ -1115,7 +1115,7 @@ TRY.registerFront([
    },
    {
     "t": "head",
-    "style": "plain",
+    "style": "label",
     "icon": "speak",
     "tag": "話す",
     "text": {
@@ -1166,7 +1166,7 @@ TRY.registerFront([
    },
    {
     "t": "head",
-    "style": "plain",
+    "style": "label",
     "icon": "listen",
     "tag": "聞く",
     "text": {
@@ -1206,6 +1206,10 @@ TRY.registerFront([
      "en": "This part presents composition-enriching expressions from the readings to help you further build your vocabulary and expression skills. Some of these items can be reviewed more effectively when studied along with certain parts of the lessons. The table below lists those pairings. The last one, ⑧インタビュープロジェクト, is a project that challenges you to utilize what you learned in Lessons 8, 10 and 12."
     }
    },
+   {
+    "t": "box",
+    "style": "gray",
+    "blocks": [
    {
     "t": "table",
     "cols": [
@@ -1287,6 +1291,8 @@ TRY.registerFront([
        "en": "☛ 第8課：書く／第10課：書く／第12課：書く"
       }
      ]
+    ]
+   }
     ]
    },
    {
