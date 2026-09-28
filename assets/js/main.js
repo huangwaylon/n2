@@ -102,7 +102,7 @@ const docTitle = (main) => {
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
 // target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
-const TRY_BOOK = { pagesInSidebar: true, pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
+const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
 let A = TRY_BOOK;
 
 // ---------- router ----------
@@ -253,8 +253,8 @@ function wireEvents() {
 async function init() {
   if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
   document.body.dataset.book = BOOK().id;
-  // TRY books keep their page links (About, Guide, Index …) at the top of the sidebar instead of the top bar
-  document.body.classList.toggle("nav-sb", !!A.pagesInSidebar);
+  // the page links (About, Guide, Index …) sit at the top of the sidebar instead of the top bar
+  document.body.classList.add("nav-sb");
   document.body.innerHTML = shellHtml();
   loadProgress();
   TTS.load();
