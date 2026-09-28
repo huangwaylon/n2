@@ -2081,7 +2081,7 @@ TRY.registerLesson({
           {
            "n": "②",
            "text": {
-            "ja": "難しいお願いをする時、どうやって{交渉|こうしょう}します（negotiate）か。どんなことに気をつけたら、相手にそのお願いをきいてもらえると思いますか。",
+            "ja": "難しいお願いをする時、どうやって{交渉|こうしょう}します (negotiate) か。どんなことに気をつけたら、相手にそのお願いをきいてもらえると思いますか。",
             "tr": "When you make a difficult request, how do you negotiate? What do you think you should be careful about so that the other person will grant your request?"
            }
           }
@@ -2183,7 +2183,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "こちらの＿＿が、\n今回だけでも＿＿いただけないでしょうか。",
-            "tr": "I'm sorry ＿＿ on my part, but could you possibly ＿＿, just this once?"
+            "tr": "It's for my own ＿＿, but could you possibly ＿＿, just this once?"
            },
            "answer": [
             "都合で申し訳ございません",
@@ -2192,12 +2192,12 @@ TRY.registerLesson({
           },
           {
            "label": {
-            "ja": "② 条件を出して{交渉|こうしょう}する（negotiate）時",
+            "ja": "② 条件を出して{交渉|こうしょう}する (negotiate) 時",
             "tr": "② When negotiating by offering a condition"
            },
            "text": {
             "ja": "では、＿＿を＿＿を見つけてきますので、\nなんとか＿＿いただけないでしょうか。",
-            "tr": "Well then, I'll find ＿＿ for ＿＿, so could you please ＿＿ somehow?"
+            "tr": "Well then, (for) ＿＿, I'll find ＿＿, so is there any way you could ＿＿?"
            },
            "answer": [
             "発表の日",
@@ -2212,7 +2212,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "＿＿を言って、＿＿。",
-            "tr": "I'm ＿＿ for being ＿＿."
+            "tr": "Saying something so ＿＿ — ＿＿."
            },
            "answer": [
             "勝手",
@@ -2254,7 +2254,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❶先生、すみません。今、ちょっとよろしいでしょうか。**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-       "tr": "Excuse me, Professor. Do you have a moment now? There's something I'd like to talk to you about, if I may..."
+       "tr": "Excuse me, Professor. Do you have a moment now? There's something rather important I was hoping to discuss with you..."
       },
       {
        "sp": "中",
@@ -2278,7 +2278,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❸**実は、**その日に興味がある会社の企業説明会がありまし**て**……。{直前|ちょくぜん}のことで**申し訳ありませんが、**授業を{欠席|けっせき}させていただきたい**ので、**発表の日を別の日に変え**ていただけないでしょうか。**",
-       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like to be excused from class, so could you possibly move my presentation to another day?"
+       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like your permission to miss class, so could you possibly move my presentation to another day?"
       },
       {
        "sp": "中",
@@ -2290,7 +2290,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❹留学生対象の説明会はこの日しかないので、どうしても参加したいんです。**こちらの都合で申し訳ございませんが、**今回**だけでもご配慮いただけないでしょうか。**",
-       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry that this is for my own convenience, but could you possibly make an allowance for me, just this once?"
+       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
       },
       {
        "sp": "中",
@@ -2302,7 +2302,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❺**では、**発表の日を代わってくれる人を見つけてきます**ので、なんとかご{検討|けんとう}いただけないでしょうか。**",
-       "tr": "Well then, I'll find someone to swap presentation days with me, so could you please consider it somehow?"
+       "tr": "Well then, I'll find someone to swap presentation days with me, so is there any way you could consider it?"
       },
       {
        "sp": "中",
@@ -2399,7 +2399,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "今、ちょっとよろしいでしょうか。\n**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-        "tr": "Do you have a moment now? There's something I'd like to talk to you about, if I may..."
+        "tr": "Do you have a moment now? There's something rather important I was hoping to discuss with you..."
        }
       },
       {
@@ -2436,7 +2436,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**実は、**その日に興味がある会社の企業説明会がありまし**て**……。\n{直前|ちょくぜん}のこと**で申し訳ありませんが、**（授業を{欠席|けっせき}させていただきたい**ので、**）発表の日を別の日に変え**ていただけないでしょうか。**",
-        "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but (I'd like to be excused from class, so) could you possibly move my presentation to another day?"
+        "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but (I'd like your permission to miss class, so) could you possibly move my presentation to another day?"
        }
       },
       {
@@ -2455,7 +2455,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "留学生対象の説明会はこの日しかないので、どうしても参加したいんです。**こちらの都合で申し訳ございませんが、**今回**だけでもご配慮いただけないでしょうか。**",
-        "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry that this is for my own convenience, but could you possibly make an allowance for me, just this once?"
+        "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
        }
       },
       {
@@ -2469,12 +2469,12 @@ TRY.registerLesson({
        "side": "a",
        "n": 5,
        "label": {
-        "ja": "条件を出して{交渉|こうしょう}する（negotiate）",
+        "ja": "条件を出して{交渉|こうしょう}する (negotiate)",
         "tr": "Negotiate by offering a condition"
        },
        "text": {
         "ja": "**では、**発表の日を代わってくれる人を見つけてきます**ので、**\n**なんとかご{検討|けんとう}いただけないでしょうか。**",
-        "tr": "Well then, I'll find someone to swap presentation days with me, so could you please consider it somehow?"
+        "tr": "Well then, I'll find someone to swap presentation days with me, so is there any way you could consider it?"
        }
       },
       {
@@ -2526,7 +2526,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "❶話しかける（➔ ❷話を切り出す）➔ ❸理由を言ってお願いする\n➔ ❹状況を詳しく説明し、もう一度強くお願いする\n➔ ❺条件を出して{交渉|こうしょう}する（negotiate）\n➔ ❻お礼を言って、会話を終える",
+        "ja": "❶話しかける（➔ ❷話を切り出す）➔ ❸理由を言ってお願いする\n➔ ❹状況を詳しく説明し、もう一度強くお願いする\n➔ ❺条件を出して{交渉|こうしょう}する (negotiate)\n➔ ❻お礼を言って、会話を終える",
         "tr": "❶ Start talking (→ ❷ Bring up the subject) → ❸ Give your reason and make the request → ❹ Explain the situation in detail and press your request once more → ❺ Negotiate by offering a condition → ❻ Thank the other person and end the conversation"
        }
       }
@@ -2539,7 +2539,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❶今、ちょっとよろしいでしょうか。**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-       "tr": "Do you have a moment now? There's something I'd like to talk to you about, if I may..."
+       "tr": "Do you have a moment now? There's something rather important I was hoping to discuss with you..."
       },
       {
        "sp": "先生",
@@ -2563,7 +2563,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❸**実は、**{{その日に興味がある会社の企業説明会がありまし}}**て**……。{直前|ちょくぜん}のこと**で申し訳ありませんが、**{{授業を{欠席|けっせき}させていただきたい}}**ので、**{{発表の日を別の日に変え}}**ていただけないでしょうか。**",
-       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like to be excused from class, so could you possibly move my presentation to another day?"
+       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like your permission to miss class, so could you possibly move my presentation to another day?"
       },
       {
        "sp": "先生",
@@ -2575,7 +2575,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❹{{留学生対象の説明会はこの日しかないので、どうしても参加したいんです。}}**こちらの都合で申し訳ございませんが、**{{今回}}**だけでもご{配慮|はいりょ}いただけないでしょうか。**",
-       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry that this is for my own convenience, but could you possibly make an allowance for me, just this once?"
+       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
       },
       {
        "sp": "先生",
@@ -2587,7 +2587,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❺**では、**{{発表の日を代わってくれる人を見つけてきます}}**ので、なんとかご{検討|けんとう}いただけないでしょうか。**",
-       "tr": "Well then, I'll find someone to swap presentation days with me, so could you please consider it somehow?"
+       "tr": "Well then, I'll find someone to swap presentation days with me, so is there any way you could consider it?"
       },
       {
        "sp": "先生",
@@ -2655,7 +2655,7 @@ TRY.registerLesson({
          "tag": "A",
          "who": "あなた",
          "text": {
-          "ja": "あなたは、来週友達に\nペットを{預|あず}かって（look after）\nもらいたいと思っています。\n上手にお願いしなさい。",
+          "ja": "あなたは、来週友達に\nペットを{預|あず}かって (look after)\nもらいたいと思っています。\n上手にお願いしなさい。",
           "tr": "You'd like a friend to look after your pet next week. Ask your friend tactfully."
          }
         },
