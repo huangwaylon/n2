@@ -137,7 +137,7 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 
 - `lines`: **one string per printed line** (one column in 縦書き), in order, so the line numbers are the book's. Every
   printed line counts, including title and byline lines (the book numbers them). Prefixes: `¶` first line of a
-  paragraph (don't type the indent space), `#` title line, `@` byline (right-aligned; may follow a title on the same line),
+  paragraph (don't type the indent space), `#` title line (`#=` centred title), `@` byline (right-aligned; may follow a title on the same line),
   `=` centred line, no prefix = continuation. A word split across two lines is split in the data the same way.
 - `numbers: false` for texts printed without line numbers (strategy examples).
 - `vertical: true` for 縦書き texts (rendered vertically on wide screens, horizontally on phones).

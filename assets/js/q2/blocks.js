@@ -272,14 +272,14 @@ function readingHtml(b, ctx) {
     // a figure / chart / table printed between paragraphs (not a text line)
     if (raw && typeof raw === "object") { paras.push({ kind: "fig", html: blocks([raw.fig || raw], ctx), first: n }); cur = null; return; }
     n++;
-    let s = String(raw), kind = null;
+    let s = String(raw), kind = null, centred = false;
     const pm = pg != null ? `<span class="pg" aria-hidden="true" data-p="${pg}"></span>` : "";
     pg = null;
     if (s[0] === "¶") { kind = "p"; s = s.slice(1); }
-    else if (s[0] === "#") { kind = "title"; s = s.slice(1); }
+    else if (s[0] === "#") { kind = "title"; s = s.slice(1); if (s[0] === "=") { s = s.slice(1); centred = true; } } // #= centred title
     else if (s[0] === "@") { kind = "by"; s = s.slice(1); }
     else if (s[0] === "=") { kind = "center"; s = s.slice(1); }
-    if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); } // interviewer's ── line: set flush, no indent
+    if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); cur.c = centred; } // interviewer's ── line: set flush, no indent
     let html;
     if (kind === "title" && s.includes("@")) { const [t, by] = s.split("@"); html = `${fmt(t, { vertical: V })}<span class="rd-by rd-by--in">${fmt(by, { vertical: V })}</span>`; }
     else html = fmt(s, { vertical: V });
@@ -296,7 +296,7 @@ function readingHtml(b, ctx) {
   const html = paras.map((p) => {
     if (p.kind !== "fig") say.push({ text: plain(p.html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "")), v: b.v || "f" });
     if (p.kind === "fig") return `<div class="rd-fig">${p.html}</div>`;
-    if (p.kind === "title") return `<p class="rd-title">${p.html}</p>`;
+    if (p.kind === "title") return `<p class="rd-title${p.c ? " rd-title--c" : ""}">${p.html}</p>`;
     if (p.kind === "by") return `<p class="rd-by">${p.html}</p>`;
     if (p.kind === "center") return `<p class="rd-center">${p.html}</p>`;
     const tr = b.tr && b.tr[pi++];

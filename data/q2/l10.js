@@ -3003,7 +3003,7 @@ TRY.registerLesson({
      "id": "l10-model",
      "numbers": true,
      "lines": [
-      "#結婚相手に求める年収の男女比較",
+      "#=結婚相手に求める年収の男女比較",
       {
        "fig": {
         "t": "chart",

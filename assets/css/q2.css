@@ -171,7 +171,7 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 /* wide: a bracket beside the paragraphs (top and bottom ticks), the label at its top (p.017) */
 @media (min-width: 901px) {
   .rd--model .rd-body { --side: 8.6em; }
-  .rd--model .rd-body > :is(.rd-title, .rd-by, .rd-p) { margin-right: var(--side); }  /* ungrouped lines stay on the panel */
+  .rd--model .rd-body > :is(.rd-title, .rd-by, .rd-p, .rd-fig) { margin-right: var(--side); }  /* ungrouped lines stay on the panel */
   .rd-grp { display: grid; grid-template-columns: minmax(0, 1fr) 7.5em; column-gap: 1.1em; }
   .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 13px; line-height: 1.5; }
   .rd-grp .rd-role::before, .rd-grp .rd-role::after { content: ""; position: absolute; left: -12px; width: 12px; border-top: 1.5px solid var(--q); }
@@ -455,3 +455,4 @@ body:not(.no-furi) :is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em
 .qdlg__row--sep { text-align: center; font-size: .9em; }
 .qdlg__row--sep .qdlg__say { grid-column: 1 / -1; }
 .swatch { display: inline-block; width: 3.2em; height: 1.1em; vertical-align: -.15em; background: var(--q-gray); margin: 0 .15em; border-radius: 2px; }
+.rd-title--c { text-align: center; }
