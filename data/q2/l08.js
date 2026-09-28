@@ -96,7 +96,7 @@ TRY.registerLesson({
       {
        "n": "1.",
        "text": {
-        "ja": "旅行する時、どんなところに泊まりますか。日本の旅館に泊まったことがありますか。どんな点がホテルと違いますか。",
+        "ja": "旅行する時、どんなところに泊まりますか。\n日本の旅館に泊まったことがありますか。\nどんな点がホテルと違いますか。",
         "tr": "When you travel, what kind of places do you stay at? Have you ever stayed at a Japanese ryokan (traditional inn)? In what ways is it different from a hotel?"
        }
       },
@@ -224,7 +224,7 @@ TRY.registerLesson({
       {
        "n": "5.",
        "text": {
-        "ja": "日本やあなたの国のもので、世界にもっと紹介されるべきだと思うものはありますか。どうしてですか。",
+        "ja": "日本やあなたの国のもので、世界にもっと紹介されるべきだと思うものはありますか。\nどうしてですか。",
         "tr": "Is there anything from Japan or your country that you think should be introduced more widely to the world? Why?"
        }
       }
@@ -318,11 +318,11 @@ TRY.registerLesson({
       "What kind of omotenashi can only be found at Kagaya?",
       "We never say \"no\" or \"we can't.\" Our predecessor taught us that if we don't know something, we should look it up and give an answer. Even if we can't reply right away, we make sure to give an answer the guest will be fully satisfied with.",
       "I see. By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
-      "First, we research all kinds of things about the guest's country, such as its culture and customs. Their national flower always pleases guests. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
+      "First, we research all kinds of things about the guest's country, such as its culture and customs. What guests especially appreciate is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
       "Then what about the language barrier?",
       "We have staff members who can speak English and Chinese, but in other languages we communicate with gestures. We also carry around papers with simple greetings and necessary expressions like \"Is there anything I can do for you?\" written in the guest's language.",
       "Finally, is there anything you would like to change at Kagaya in the future, and anything you want to keep?",
-      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that there is an inn here that exists only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and we are sometimes even scolded with \"Please don't keep coming in and out.\" I think what's necessary is to do what guests want, not to do what they don't want, and to keep polishing ourselves every day."
+      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that this is a kind of inn found only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and sometimes, far from appreciating it, guests actually scold us, saying, \"Please don't keep coming in and out.\" I think what's necessary is to do what guests want, not to do what they don't want, and to keep polishing ourselves every day."
      ]
     },
     {
@@ -370,7 +370,7 @@ TRY.registerLesson({
       "立ち上げ、12年に京都に弁当箱{専門|せんもん}店をオープン。"
      ],
      "tr": [
-      "Born in 1981 in Lyon, France. His childhood coincided with an unprecedented boom in Japanese anime: \"I watched Dragon Ball and played on the Super Famicom.\" He studied politics at Sciences Po Grenoble, but cherished a dream: \"The Japanese history classes taught by a teacher who loved Japan were really interesting, and someday I would go to Japan.\" In 2003, he went to Kyoto University. After studying there, he went back home for a while but soon returned to Kyoto. While writing a blog introducing Japanese culture, he began to think, \"Maybe there's something I can do myself.\" Prompted by hearing from his mother that Japanese bento were being featured in a French magazine, he started the online shop Bento&co in 2008. In 2010 he founded BERTRAND Co., Ltd. together with his Japanese wife, and in 2012 he opened a specialty bento box shop in Kyoto."
+      "Born in 1981 in Lyon, France. His childhood coincided with an unprecedented boom in Japanese anime: \"I watched Dragon Ball and played on the Super Famicom.\" He studied politics at Sciences Po Grenoble, but \"the Japanese history classes taught by a teacher who loved Japan were so interesting\" that he nurtured a dream of going \"to Japan someday.\" In 2003, he went to Kyoto University. After studying there, he went back home for a while but soon returned to Kyoto. While writing a blog introducing Japanese culture, he began to think, \"Maybe there's something I can do myself.\" Prompted by hearing from his mother that Japanese bento were being featured in a French magazine, he started the online shop Bento&co in 2008. In 2010 he founded BERTRAND Co., Ltd. together with his Japanese wife, and in 2012 he opened a specialty bento box shop in Kyoto."
      ]
     },
     {
@@ -429,10 +429,10 @@ TRY.registerLesson({
       "I hear that at first the manufacturers gave you puzzled looks.",
       "Back then, they had no thought yet of actively selling overseas; instead, they asked me, \"Why?\" But now I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, I came up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
-      "I do my own research into what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and some are the kind that get people saying \"Wow! How cute!\" just when the user takes them out.",
+      "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others are the kind that make people say \"Wow! How cute!\" the moment their owner just takes them out.",
       "You're also very particular about traditional Japanese products, aren't you?",
       "For example, magewappa (bentwood boxes) with a lovely cedar scent. Some cost nearly 10,000 yen, but they're popular with people interested in traditional Japanese crafts, and apparently they're also used as interior decor. Also, the lacquerware bento boxes made in Ishikawa Prefecture are made of plastic and use new techniques such as silk-screen printing, yet their patterns, which look as if a craftsman had painted them stroke by stroke, have won universal acceptance.",
-      "So you're a missionary for Japan.",
+      "You're a real evangelist for Japan, aren't you?",
       "I want to be a bridge for introducing Japan to the world. My concept is \"Bringing Japan closer.\""
      ]
     },
@@ -499,11 +499,11 @@ TRY.registerLesson({
        "style": "interview",
        "numbers": false,
        "lines": [
-        "¶**Q. なぜ日本に来たのですか。**",
+        "¶Q. なぜ日本に来たのですか。",
         "¶高校生の頃、日本の歌を聞くようになり、歌を通して日本語に興味を持ち始めました。",
         "それで、日本語が{専攻|せんこう}できる大学に入りました。2年生の時に実際に日本で日本の文化",
         "や言葉を学びたいと思い、留学することにしました。",
-        "¶**Q. 日本で苦労したことがあったそうですが。**",
+        "¶Q. 日本で苦労したことがあったそうですが。",
         "¶留学前に日本語を学び、日常生活のコミュニケーションができるくらいの日本語力は",
         "あったので、言葉が通じなくて苦労したということはあまりなかったと思います。ただ、",
         "日本の習慣では、慣れないことや知らないことが思ったよりあって……。飲み会で{乾杯|かんぱい}",
@@ -545,7 +545,7 @@ TRY.registerLesson({
          "style": "interview",
          "numbers": false,
          "lines": [
-          "¶——最初は、メーカーにけげんな顔をされたと聞きます。",
+          "¶──最初は、メーカーにけげんな顔をされたと聞きます。",
           "¶その頃は、まだ海外で積極的に販売するという考えがなくて、逆に「なぜ？」",
           "と質問されました。（中略）それらは、いまや世界的な人気商品になっています。"
          ],
@@ -668,7 +668,7 @@ TRY.registerLesson({
          "style": "interview",
          "numbers": false,
          "lines": [
-          "¶——ところで、近年、日本を訪れる外国人観光客が増えてきていますが、外国人",
+          "¶──ところで、近年、日本を訪れる外国人観光客が増えてきていますが、外国人",
           "のお客様に対するおもてなしはどのようにされていますか。",
           "¶文化や習慣など、その国のことをまずいろいろ調べます。喜ばれるのは国花で",
           "す。スウェーデンの王室の方がいらっしゃったときは、すずらんの小さな花束を",
