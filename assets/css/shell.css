@@ -102,7 +102,9 @@ body.nav-sb .sb-pages .en-inline { display: none; }
     padding-left: var(--safe-l); padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
     transform: translateX(-100%); visibility: hidden; transition: transform .2s, visibility 0s .2s; box-shadow: 4px 0 16px rgba(0,0,0,.12); }
   body.sb-open .sidebar { transform: none; visibility: visible; transition: transform .2s; }
-  body.sb-open { overflow: hidden; }
+  /* scroll lock on the root: html has overflow-x: clip, so overflow on body would not reach the viewport — body would
+     become the scroll container and the sticky top bar would scroll away with the page */
+  html:has(body.sb-open) { overflow: hidden; }
   body.sb-open .sb-scrim { display: block; position: fixed; inset: calc(var(--top) + env(safe-area-inset-top, 0px)) 0 0 0; background: rgba(0,0,0,.3); z-index: 20; }
   .sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
   .sb-pages a { display: flex; align-items: center; gap: .35em; min-height: 44px; padding: 0 8px; border-radius: 8px; color: var(--ink); font-size: 14px; line-height: 1.3; }
