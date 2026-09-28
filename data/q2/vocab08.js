@@ -755,7 +755,7 @@ TRY.registerVocab({
      "ln": 21,
      "w": "待ちきれない",
      "yomi": "まちきれない",
-     "en": "eager to do something; can't wait"
+     "en": "eager to do something; can’t wait"
     },
     {
      "ln": 22,

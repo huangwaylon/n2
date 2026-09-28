@@ -29,7 +29,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { ln: 12, w: "目まぐるしい", yomi: "めまぐるしい", en: "dizzy; hectic" },
     { ln: 13, w: "軌道に乗る", yomi: "きどうにのる", en: "to be on track" },
     { n: 11, k: "◆", ln: 16, w: "__逆__に", yomi: "ぎゃくに", en: "on the contrary; conversely" },
-    { k: "◇", ln: 17, w: "肩を__組__む", yomi: "かたをくむ", en: "to put one's arm around someone's shoulders" },
+    { k: "◇", ln: 17, w: "肩を__組__む", yomi: "かたをくむ", en: "to put one’s arm around someone’s shoulders" },
     { k: "◇", w: "__組__む", yomi: "くむ", en: "to cross" },
     { w: "叩く", yomi: "たたく", en: "to pat; to tap" },
     { w: "ボディータッチ", yomi: "ぼでぃーたっち", en: "touching" },
