@@ -718,7 +718,7 @@ TRY.registerVocab({
     {
      "w": "それぞれの",
      "yomi": "それぞれの",
-     "en": "one's own"
+     "en": "one’s own"
     },
     {
      "ln": 16,
@@ -744,7 +744,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "__締__めつける",
      "yomi": "しめつける",
-     "en": "to wrench (one's heart)"
+     "en": "to wrench (one’s heart)"
     },
     {
      "ln": 18,

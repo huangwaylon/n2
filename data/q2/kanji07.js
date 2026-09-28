@@ -25,7 +25,7 @@ TRY.registerKanji({ lesson: 7, page: 34, kanji: [
   { no: 339, k: "逆", sec: "読み物1", hl: true, meaning: "opposite; reverse", on: ["ギャク"], kun: ["さか"], strokes: 9,
     words: [ { m: "◆", w: "逆に", yomi: "ぎゃくに", en: "on the contrary; conversely" }, { w: "逆らう", yomi: "さからう", en: "to oppose" } ] },
   { no: 340, k: "組", sec: "読み物1", meaning: "set; group; company", on: ["ソ"], kun: ["く", "くみ"], strokes: 11,
-    words: [ { w: "組織", yomi: "そしき", en: "organization" }, { w: "肩を組む", yomi: "かたをくむ", en: "to put one's arm around someone's shoulders" }, { m: "◇", w: "組む", yomi: "くむ", en: "to cross" }, { w: "番組", yomi: "ばんぐみ", en: "show; program" } ] },
+    words: [ { w: "組織", yomi: "そしき", en: "organization" }, { w: "肩を組む", yomi: "かたをくむ", en: "to put one’s arm around someone’s shoulders" }, { m: "◇", w: "組む", yomi: "くむ", en: "to cross" }, { w: "番組", yomi: "ばんぐみ", en: "show; program" } ] },
   { no: 341, k: "遊", sec: "読み物1", hl: true, meaning: "play; enjoy", on: ["ユウ"], kun: ["あそ"], strokes: 12,
     words: [ { w: "遊園地", yomi: "ゆうえんち", en: "amusement park" }, { m: "◆", w: "遊ぶ", yomi: "あそぶ", en: "to hang out" } ] },
   { no: 342, k: "束", sec: "読み物1", hl: true, meaning: "bundle; sheaf; ream", on: ["ソク"], kun: ["たば"], strokes: 7,

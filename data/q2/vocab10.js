@@ -211,7 +211,7 @@ TRY.registerVocab({ lesson: 10, lists: [
       { n: 37, w: "～主義", ex: "{完璧|かんぺき}主義の人は、目標や理想が高く、すべて完璧にやりたいと考える。", tr: "Perfectionists have high goals and ideals and want to do everything perfectly." },
       { n: 38, w: "指摘（する）", ex: "クラスメートに、みんなの前で漢字の間違いを指摘されてしまった。", tr: "A classmate pointed out my kanji mistake in front of everyone." },
       { n: 39, w: "防犯", ex: "防犯対策として、{玄関|げんかん}にカメラを設置した。", tr: "As a crime-prevention measure, we installed a camera at the front door." },
-      { n: 40, w: "許す", ex: "彼女のうそをどうしても許すことができません。", tr: "I just can't forgive her lie." },
+      { n: 40, w: "許す", ex: "彼女のうそをどうしても許すことができません。", tr: "I just can't bring myself to forgive her for lying." },
       { n: 41, w: "[～に] 設置（する）", ex: "この部屋にはエアコンが設置されていない。", tr: "There is no air conditioner installed in this room." },
       { n: 42, w: "犯罪", ex: "人が多い都市部は犯罪が多い。", tr: "Crowded urban areas have a lot of crime." },
       { n: 43, w: "[～が] 欠かせない", ex: "水は人間にとって欠かせないものの一つだ。", tr: "Water is one of the things humans cannot do without." },
