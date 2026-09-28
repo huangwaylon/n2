@@ -927,6 +927,7 @@ TRY.registerLesson({
      "pattern": "〜たとしても",
      "gloss": "even if ~",
      "ref": "読み物1-行21",
+     "page": 75,
      "id": "l9-note3",
      "blocks": [
       {
@@ -954,7 +955,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "私は歌が苦手だ。毎日10時間練習し**たとしても**、テイラーさんのように上手に歌えるようにはならないだろう。",
-         "tr": "I’m bad at singing. Even if I practiced ten hours a day, I probably wouldn’t become able to sing as well as Taylor-san."
+         "tr": "I’m bad at singing. Even if I practiced ten hours a day, I probably still wouldn’t be able to sing as well as Taylor-san."
         },
         {
          "n": 2,
@@ -967,7 +968,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "実は{迷|まよ}ってて……。行っ**たとしても**午前中で帰るつもり。午後から予定があって。",
-           "tr": "Actually, I can’t decide… Even if I do go, I plan to leave in the morning. I have plans in the afternoon."
+           "tr": "Actually, I can’t decide… Even if I do go, I plan to leave before noon. I have plans in the afternoon."
           }
          ]
         },
@@ -1097,6 +1098,7 @@ TRY.registerLesson({
      "pattern": "Nなんか",
      "gloss": "things like N",
      "ref": "読み物1-行33·39",
+     "page": 76,
      "id": "l9-note4",
      "blocks": [
       {
@@ -1272,6 +1274,7 @@ TRY.registerLesson({
      "pattern": "いったい Question Word（か）",
      "gloss": "on earth",
      "ref": "読み物1-行38",
+     "page": 77,
      "id": "l9-note5",
      "blocks": [
       {
@@ -1578,7 +1581,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "えっ、違う人なんじゃない？ 彼女、今アメリカに留学中だから、日本にいる**はずがない**よ。",
+           "ja": "えっ、違う人なんじゃない？　彼女、今アメリカに留学中だから、日本にいる**はずがない**よ。",
            "en": "Really? I think that was someone else. She’s currently studying in the US, so she can’t be in Japan."
           }
          ]
@@ -1601,7 +1604,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "働きながら大学に行くのは大変じゃない**はずがない**。",
-         "tr": "Going to college while working can't possibly be anything but hard."
+         "tr": "There's no way going to college while working isn't hard."
         },
         {
          "n": 4,
@@ -1613,7 +1616,7 @@ TRY.registerLesson({
           {
            "sp": "スタッフ",
            "ja": "申し訳ございません。お客様のお名前でご予約はございませんが……。",
-           "tr": "I'm terribly sorry, but we don't have a reservation under your name..."
+           "tr": "I'm terribly sorry, but we don't have a reservation under your name…"
           },
           {
            "sp": "客",
@@ -1701,7 +1704,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "それ、古いものなんじゃない？ 新しいパソコンが1万円の**わけがない**よ。",
+           "ja": "それ、古いものなんじゃない？　新しいパソコンが1万円の**わけがない**よ。",
            "en": "Isn’t it an old model? There is no way that a new computer would cost only 10,000 yen."
           }
          ]
@@ -1742,7 +1745,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "{甘|あま}いクリームと肉のパスタ？ おいしい**わけがない**よ！",
+           "ja": "{甘|あま}いクリームと肉のパスタ？　おいしい**わけがない**よ！",
            "tr": "Sweet cream on meat pasta? There's no way that's good!"
           }
          ]
@@ -1757,7 +1760,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "何言ってるの？ 新聞記事なんだから、簡単な**わけがない**でしょ？！",
+           "ja": "何言ってるの？　新聞記事なんだから、簡単な**わけがない**でしょ？！",
            "tr": "What are you talking about? It's a newspaper article, so there's no way it's easy!"
           }
          ]
@@ -1877,7 +1880,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "本当？ そんなこと、絶対にあり**{得|え}ない**よ。",
+           "ja": "本当？　そんなこと、絶対にあり**{得|え}ない**よ。",
            "en": "Really? That can’t possibly be true."
           }
          ]
@@ -1892,12 +1895,12 @@ TRY.registerLesson({
          "lines": [
           {
            "sp": "A",
-           "ja": "あれ？ 誰もいない……。ここでミーティングするって言ってたよね。",
-           "tr": "Huh? Nobody's here... They said the meeting would be here, didn't they?"
+           "ja": "あれ？　誰もいない……。ここでミーティングするって言ってたよね。",
+           "tr": "Huh? Nobody's here… They said the meeting would be here, didn't they?"
           },
           {
            "sp": "B",
-           "ja": "おかしいね。誰かに電話してみる？ 場所が変わったってこともあり**得る**よ。",
+           "ja": "おかしいね。誰かに電話してみる？　場所が変わったってこともあり**得る**よ。",
            "tr": "That's strange. Want to try calling someone? It's possible the location changed."
           }
          ]
@@ -2008,7 +2011,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "父は私の話を聞き**もしない**で怒り続けた。",
-         "tr": "My father kept yelling at me without even listening to what I had to say."
+         "tr": "My father kept scolding me without even listening to what I had to say."
         },
         {
          "n": 2,
@@ -2040,8 +2043,8 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "自転車で日本一周か……。すごい！ 思いつき**もしなかった**なあ。",
-           "tr": "All the way around Japan by bike... Amazing! That never even occurred to me."
+           "ja": "自転車で日本一周か……。すごい！　思いつき**もしなかった**なあ。",
+           "tr": "All the way around Japan by bike… Amazing! That never even occurred to me."
           }
          ]
         },
