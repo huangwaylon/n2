@@ -34,7 +34,7 @@ function shellHtml() {
   const select = (id, opts) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`;
   return `<header class="topbar">
   <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
-  <a class="brand" href="#/" aria-label="${esc(b.brand || b.level + " 文法")} ホーム Home"><span class="brand-t">${esc(b.brand || "文法")}</span><span class="brand-sub">${esc(b.brandSub || "TRY! companion")}</span></a>
+  <a class="brand" href="#/" aria-label="日本語 ホーム Home"><span class="brand-t">日本語</span></a>
   <nav class="book-switch" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.title)}">${o.label}</a>`).join("")}</nav>
   <nav class="topnav" aria-label="ページ Pages">${pageLinks}</nav>
   <div class="toggles">
@@ -55,6 +55,7 @@ function shellHtml() {
 <div class="layout">
   <aside class="sidebar" id="sidebar" aria-label="目次 Contents">
     <nav class="sb-pages" aria-label="ページ Pages">${pageLinks}</nav>
+    <nav class="sb-books" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""}>${o.label}<span class="en-inline"> ${esc(o.title)}</span></a>`).join("")}</nav>
     <div id="sb-nav"></div>
   </aside>
   <div class="sb-scrim" data-act="sb"></div>
@@ -101,7 +102,7 @@ const docTitle = (main) => {
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
 // target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
-const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
+const TRY_BOOK = { pagesInSidebar: true, pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
 let A = TRY_BOOK;
 
 // ---------- router ----------
@@ -169,6 +170,8 @@ function trapDrawerFocus(e) {
 
 // ---------- settings ----------
 function applySettings() {
+  document.body.classList.toggle("sb-hidden", !settings.sidebar);
+  if (isWide()) $(".sb-toggle").setAttribute("aria-expanded", String(settings.sidebar));
   document.body.classList.toggle("no-furi", !settings.furigana);
   document.body.classList.toggle("show-en", settings.english);
   $("#tg-furi").checked = settings.furigana;
@@ -192,7 +195,8 @@ ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) bo
 ACT.speak = (t) => TTS.play([{ text: t.dataset.text }], t);
 ACT.listen = (t) => TTS.play(JSON.parse(t.dataset.q), t);
 ACT.redrill = (t, e) => { e.preventDefault(); route(); };
-ACT.sb = () => setDrawer(!isDrawerOpen());
+// ☰: on wide screens it shows / hides the sidebar (remembered); below 901 it opens the drawer
+ACT.sb = () => (isWide() ? setSetting("sidebar", !settings.sidebar) : setDrawer(!isDrawerOpen()));
 ACT["reset-progress"] = () => {
   if (!confirm("Reset all saved progress and scores?")) return;
   progress.studied = {}; progress.scores = {};
@@ -243,12 +247,14 @@ function wireEvents() {
   });
   window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
-  matchMedia(WIDE).addEventListener("change", (m) => { if (m.matches) setDrawer(false, false); });
+  matchMedia(WIDE).addEventListener("change", (m) => { if (m.matches) setDrawer(false, false); applySettings(); });
 }
 
 async function init() {
   if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
   document.body.dataset.book = BOOK().id;
+  // TRY books keep their page links (About, Guide, Index …) at the top of the sidebar instead of the top bar
+  document.body.classList.toggle("nav-sb", !!A.pagesInSidebar);
   document.body.innerHTML = shellHtml();
   loadProgress();
   TTS.load();

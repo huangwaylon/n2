@@ -151,7 +151,7 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 ### Dialogues
 
 ```js
-{ t: "dialogue", title: "前から思っていたけど", style: "casual" | "formal", setting: Text, audio: "3.Kaiwa_L7-1",
+{ t: "dialogue", title: "前から思っていたけど", style: "casual" | "formal", styleLabel: "フォーマルなディスカッション", setting: Text, audio: "3.Kaiwa_L7-1",
   lines: [ { sp: "メ", v: "f", ja: "❶あのさあ、サラ……。", tr: "…" }, { sp: "サ", v: "f", ja: "何？", tr: "…" } ] }
 ```
 
@@ -164,6 +164,8 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
 ```js
 { t: "roles", style: "casual" | "formal", cards: [ { tag: "A", who: "あなた", text: Text }, { tag: "B", who: "Aの友達", text: Text } ] }
 { t: "flow", head: [Text, Text], steps: [ { side: "a", n: 1, label: "話しかける", text: "あのさあ、〇〇さん……。" }, { side: "b", text: "何？" } ] }
+//   more than two roles: side "a" = lead, "b" = the others; who / act on each role's first step (name and action as printed);
+//   phase: { ja, tr } on the first step of a bracketed group of steps (the bracket label beside the chart)
 { t: "bubbles", from: "モデル会話", items: [ { label: "① 実は嫌だと思っているということを伝える時",
     text: "親しくしてくれているのがわかるから、＿＿けど、\n実は私、＿＿。", answer: ["気持ちはうれしいんだ", "ボディータッチがちょっと苦手で……"] } ] }
 //   answer: the words of the book's own モデル会話 that fill the blanks (from names where they come from)

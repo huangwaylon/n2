@@ -141,7 +141,7 @@ const B = {
   },
   flow(b) {
     return `<div class="flow">${b.head ? `<div class="flow__head"><span>${inl(b.head[0])}</span><span>${inl(b.head[1])}</span></div>` : ""}
-      <ol class="flow__steps">${(b.steps || []).map((s) => `<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
+      <ol class="flow__steps">${(b.steps || []).map((s) => `${s.phase ? `<li class="flow__phase">${inl(s.phase)}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
         ${s.who || s.act ? `<p class="flow__who">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</p>` : ""}
         ${s.label ? `<p class="flow__l">${s.n ? `<span class="step">${String.fromCodePoint(0x2775 + s.n)}</span>` : ""}${inl(s.label)}</p>` : ""}${line(s.text, "flow__t")}</li>`).join("")}</ol></div>`;
   },
@@ -297,7 +297,7 @@ function readingHtml(b, ctx) {
   const credit = (b.credit || []).map((c) => `<p class="rd-credit">${fmt(c, { vertical: V })}</p>`).join("");
   const seg = b.vertical ? `<div class="seg" role="group" aria-label="縦書き・横書き">${[["v", "縦", "Vertical"], ["h", "横", "Horizontal"]].map(([m, j, e]) =>
     `<button type="button" class="seg__b" data-act="q2vmode" data-v="${m}" aria-pressed="${(m === "v") === V}" title="${e}">${j}</button>`).join("")}</div>` : "";
-  const head = b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
+  const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
   return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}"${idAttr(b)} data-en-scope>
     ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : cdBadge(say, "音声を聞く")}</div>

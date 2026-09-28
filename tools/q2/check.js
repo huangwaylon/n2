@@ -20,12 +20,14 @@ function strings(o, w) {
     if (typeof v === "string") {
       const s = v;
       if (s.includes("�")) E(w + p, "U+FFFD");
-      const noRuby = s.replace(/\{\{.+?\}\}/g, "").replace(/\{[^{}|]+\|[^{}|]+\}/g, "");
+      // furigana first (as fmt() does), then the {{slot}} marks
+      const noRuby = s.replace(/\{[^{}|]+\|[^{}|]+\}/g, "").replace(/\{\{|\}\}/g, "");
       if (/[{}]/.test(noRuby)) E(w + p, "bad ruby/braces: " + s.slice(0, 70));
-      if (/\{[ぁ-んー]+\|/.test(s)) E(w + p, "ruby base is kana: " + s.slice(0, 50));
+      // a kana base is only allowed for a printed gloss in katakana (the French readings of L11 読み物2: {だめ|ノン})
+      if (/\{[ぁ-んー]+\|[^}]*[ぁ-ん]/.test(s)) E(w + p, "ruby base is kana: " + s.slice(0, 50));
       for (const m of ["**", "__", "~~", "!!"]) if (s.split(m).length % 2 === 0) E(w + p, `unbalanced ${m}: ` + s.slice(0, 70));
       if ((s.match(/\[\[/g) || []).length !== (s.match(/\]\]/g) || []).length) E(w + p, "unbalanced [[ ]]: " + s.slice(0, 70));
-      if (/[一-鿿]/.test(s) && /(^|\.)(en|tr)$/.test(p) && /[这们说时会对]/.test(s)) E(w + p, "Chinese?");
+      if (/[一-鿿]/.test(s) && /(^|\.)(en|tr)$/.test(p) && /[这们说时对么]/.test(s)) E(w + p, "Chinese?");
       return;
     }
     if (Array.isArray(v)) v.forEach((x, i) => walk(x, `${p}.${i}`));
@@ -48,7 +50,10 @@ function block(b, w) {
   if (T === "reading") {
     const lines = b.lines || [];
     if (!lines.length) E(w, "reading without lines");
-    lines.forEach((l, k) => { if (typeof l !== "string" && typeof l !== "number") E(`${w}.line${k}`, "line must be a string (or a page number)"); });
+    lines.forEach((l, k) => {
+      if (l && typeof l === "object") { if (l.fig) block(l.fig, `${w}.line${k}.fig`); else E(`${w}.line${k}`, "object line needs fig"); }
+      else if (typeof l !== "string" && typeof l !== "number") E(`${w}.line${k}`, "line must be a string, a page number or { fig }");
+    });
     const paras = lines.filter((l) => typeof l === "string" && (l[0] === "¶")).length;
     const firstBody = lines.findIndex((l) => typeof l === "string" && !/^[#@=]/.test(l));
     if (firstBody >= 0 && lines[firstBody][0] !== "¶") E(w, "first body line must start a paragraph (¶)");

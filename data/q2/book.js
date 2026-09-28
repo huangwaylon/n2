@@ -11,7 +11,5 @@ TRY.registerBook({
   bookTitle: "4技能でひろがる 中級日本語カルテット II",
   bookTitleEn: "Quartet II: Intermediate Japanese Across the Four Language Skills",
   credit: "The Japan Times Publishing, 2020",
-  brand: "カルテット",
-  brandSub: "Quartet II companion",
   footer: "Personal study edition of <em>4技能でひろがる 中級日本語カルテット II / Quartet: Intermediate Japanese Across the Four Language Skills II</em> (Tadashi Sakamoto, Akemi Yasui, Yuriko Ide, Miyuki Doi, Hideki Hamada; The Japan Times Publishing, 2020). Book content is transcribed for private use; English marked “generated” is supplementary. Audio is the browser’s speech synthesis, not the book’s recordings. Not for distribution.",
 });

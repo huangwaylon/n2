@@ -16,8 +16,15 @@
 .book-switch a[aria-current] { background: var(--pill); color: var(--pill-ink); }
 @media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; } }
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
-/* small phones: the switcher already names the book, so the 文法 brand goes */
-@media (max-width: 374px) { .brand { display: none; }
+/* phones: the switcher (N2 | N1 | Q2) already names the book, so the brand goes; below 375 the bar tightens too */
+@media (max-width: 480px) { .brand { display: none; } }
+.sb-books { display: none; }
+/* smallest phones: only the current book in the bar; the other books move into the drawer */
+@media (max-width: 374px) {
+  .book-switch a:not([aria-current]) { display: none; }
+  .sb-books { display: grid; gap: 2px; padding: 4px 8px 10px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
+  .sb-books a { display: flex; align-items: center; min-height: 44px; padding: 0 10px; border-radius: 8px; color: var(--ink); font-weight: 700; }
+  .sb-books a[aria-current] { background: var(--band); }
   .topbar { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
   .topbar .switch { padding: 0 3px; } }
 .topnav { display: flex; gap: 2px; flex: 1; min-width: 0; }
@@ -43,7 +50,7 @@
 .set-row { display: grid; gap: 4px; }
 .settings-pop input[type=range] { width: 100%; min-height: 32px; }
 .settings-pop select { font: inherit; padding: 6px 8px; min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
-.sb-toggle { display: none; flex: none; width: 44px; height: 44px; margin-left: -8px; background: none; border: 0; border-radius: 8px; color: var(--ink); cursor: pointer; place-items: center; padding: 0; }
+.sb-toggle { display: grid; flex: none; width: 44px; height: 44px; margin-left: -8px; background: none; border: 0; border-radius: 8px; color: var(--ink); cursor: pointer; place-items: center; padding: 0; }
 .sb-bars, .sb-bars::before, .sb-bars::after { display: block; width: 20px; height: 2px; border-radius: 1px; background: currentColor; }
 .sb-bars { position: relative; }
 .sb-bars::before, .sb-bars::after { content: ""; position: absolute; left: 0; }
@@ -77,9 +84,18 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 }
 .sb-scrim { display: none; }
 
+/* desktop: ☰ hides the sidebar (settings.sidebar); the content column recentres in the full width */
+@media (min-width: 901px) { body.sb-hidden .sidebar { display: none; } }
+/* TRY books (body.nav-sb): the page links sit at the top of the sidebar at every width, not in the top bar */
+body.nav-sb .topnav { display: none; }
+body.nav-sb .sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+body.nav-sb .sb-pages a { display: flex; align-items: center; gap: .35em; min-height: 36px; padding: 0 8px; border-radius: 8px; color: var(--ink); font-size: 14px; line-height: 1.3; }
+body.nav-sb .sb-pages a.active { background: var(--band); }
+@media (hover: hover) { body.nav-sb .sb-pages a:hover { background: var(--band); text-decoration: none; } }
+body.nav-sb .sb-pages .en-inline { display: none; }
+
 /* ---------- tablet: sidebar becomes a drawer; the six page links move into it ---------- */
 @media (max-width: 900px) {
-  .sb-toggle { display: grid; }
   .topnav { display: none; }
   .topbar { gap: 6px; padding-left: calc(10px + var(--safe-l)); padding-right: calc(8px + var(--safe-r)); }
   .sidebar { position: fixed; left: 0; top: calc(var(--top) + env(safe-area-inset-top, 0px)); bottom: 0; height: auto; width: min(86vw, 320px); z-index: 25;

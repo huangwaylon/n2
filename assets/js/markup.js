@@ -33,7 +33,7 @@ const refHtml = (m, text, tag) => {
 };
 const q2Markup = (t) => t
   .replace(/\[\[(.+?)\|([0-9a-z]*)\]\]/g, refHtml)
-  .replace(/\{\{(.+?)\}\}/g, '<span class="slot">$1</span>')
+  .replace(/\{\{(.+?)\}\}/g, '<span class="pslot">$1</span>')
   .replace(/!!(.+?)!!/g, '<span class="acc">$1</span>')
   .replace(/\^\^(.+?)\^\^/g, '<em class="bouten">$1</em>')
   .replace(/==(.+?)==/g, '<u class="ul2">$1</u>')

@@ -1,10 +1,13 @@
-# N2 · N1 文法 — Interactive JLPT Grammar Textbooks
+# 日本語 — Interactive Japanese Textbooks
 
-Two books, one site (switch with the **N2 | N1** buttons in the top bar):
+Three books, one site (switch with the **N2 | N1 | Q2** buttons in the top bar):
 
 - **N2** — *TRY! 日本語能力試験 N2* (14 chapters, 139 points): https://huangwaylon.github.io/n2/
 - **N1** — *TRY! 日本語能力試験 N1* (10 chapters, 123 points), transcribed from the Chinese edition — its Chinese is not
   reproduced; all English on the N1 site is generated: https://huangwaylon.github.io/n2/n1/
+- **Q2** — *4技能でひろがる 中級日本語カルテット II / Quartet II* (lessons 7–12: readings with the book's line numbers, 66
+  grammar notes, reading strategies, model compositions, conversations, listening with scripts and answers, vocabulary
+  and kanji lists, ブラッシュアップ): https://huangwaylon.github.io/n2/q2/
 
 Static site on GitHub Pages (from `main`, repo root), no build step. Run locally:
 `python3 -m http.server 8765`, then open http://localhost:8765/ (N2) or http://localhost:8765/n1/ (N1).

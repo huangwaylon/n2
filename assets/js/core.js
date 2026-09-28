@@ -15,7 +15,8 @@ const LS = {
   set(k, v) { try { localStorage.setItem("n2." + k, JSON.stringify(v)); } catch (e) {} },
 };
 // vertical: "auto" | "v" | "h" — 縦書き for sample.vertical texts (auto = 縦 at ≥901 px); theme: "auto" | "light" | "dark"
-export const settings = Object.assign({ furigana: true, english: false, rate: 0.9, vertical: "auto", theme: "auto" }, LS.get("settings", {}));
+// sidebar: the table of contents shown beside the page at ≥901 (☰ hides it; below 901 it is a drawer either way)
+export const settings = Object.assign({ furigana: true, english: false, rate: 0.9, vertical: "auto", theme: "auto", sidebar: true }, LS.get("settings", {}));
 export const saveSettings = () => LS.set("settings", settings);
 const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
 export const progress = { studied: {}, scores: {} };

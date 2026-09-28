@@ -1,14 +1,18 @@
 # CLAUDE.md
 
-Interactive editions of two JLPT grammar textbooks for **English-speaking** learners, served as a static site
+Interactive editions of three Japanese textbooks for **English-speaking** learners, served as a static site
 (GitHub Pages from `main`, no build step):
 
 - **N2** — *TRY! 日本語能力試験 N2* (bilingual Japanese/English book): `index.html` → `/`
 - **N1** — *TRY! 日本語能力試験 N1* (Chinese edition): `n1/index.html` → `/n1/`
+- **Q2** — *4技能でひろがる 中級日本語カルテット II / Quartet II* (Japan Times): `q2/index.html` → `/q2/`. A four-skills
+  book (読む・書く・話す・聞く) with its own block data model: `data/Q2-SCHEMA.md`, `docs/Q2-TRANSCRIPTION.md`,
+  renderer `assets/js/q2/`, tools `tools/q2/`. The scan `Quartet II - Textbook - 1st Edition.pdf` (311 MB) is **not in
+  git** (over GitHub's file limit); book page = PDF − 27, 別冊 page = PDF − 287; `tools/zoom.sh q2 PDFPAGE`.
 
 ## Source of truth
 
-`n2.pdf` and `n1.pdf` (repo root) are the **absolute** source of truth for all book content: Japanese text, furigana,
+`n2.pdf`, `n1.pdf` and the Quartet II scan (repo root) are the **absolute** source of truth for all book content: Japanese text, furigana,
 answers, the English the N2 book prints, and the layout the site imitates. Never "fix" the book; never guess —
 read the page (`Read n2.pdf pages:"18"`, or `tools/zoom.sh n2 18` for 300-dpi strips to read furigana).
 
@@ -64,6 +68,8 @@ Routes are hash routes: `#/` home, `#/ch/N`, `#/ch/N/review`, `#/gp/N` (grammar 
 ```sh
 for b in n2 n1; do node tools/check.js $b; node tools/verify-index.js $b; done        # structure, answers, English presence
 for b in n2 n1; do node tools/text-snapshot.js $b | diff tools/$b/text-baseline.txt -; done   # protected text unchanged
+node tools/q2/check.js && node tools/q2/verify.js                      # Quartet II: structure, markup, tr; vs the book's lists
+node tools/q2/ocr-diff.js data/q2/l07.js 28-59,265                     # Quartet II transcription vs OCR (PDF pages)
 node tools/ocr-diff.js data/n2/ch01.js 18-29      # transcription vs OCR; check every score < 0.9 on the scan
 ```
 
@@ -75,7 +81,7 @@ node tools/ocr-diff.js data/n2/ch01.js 18-29      # transcription vs OCR; check 
 Layout tools (Node ≥ 22, Google Chrome, server on :8765; prefix N1 routes with `n1:`):
 
 ```sh
-node tools/shot.mjs ch/1 390 2400 /tmp/a.png [light|dark] [--full] [--en] [--touch] [--dpr=3]
+node tools/shot.mjs ch/1 390 2400 /tmp/a.png [light|dark] [--full] [--en] [--touch] [--dpr=3]   # q2:l/7/read for Quartet
 node tools/overflow.mjs ch/1 375 [--en] [--touch] [--furi]   # sideways overflow, clipping, small tap targets, furigana
 node tools/lib/wkshot.mjs "iPhone 17e" n1:ch/3 /tmp/wk --probe   # real iOS Safari (simulator) + furigana probe
 tools/simshot.sh "iPad mini (A17 Pro)" ch/2                     # simulator screenshot via simctl
@@ -104,6 +110,8 @@ pill, connection formulas with bracket stacks, ①② examples, 📎 clip notes,
   follows the book.
 - Theme: `settings.theme` (auto/light/dark); `boot.js` sets `<html data-theme>`; dark tokens in
   `:root[data-theme="dark"]` (base.css). Use tokens, never hard-coded colours that break one theme.
-- Progress per book in `localStorage` (`n2.progress`, `n2.progress.n1`); settings shared (`n2.settings`). Keep these
-  keys stable.
+- Progress per book in `localStorage` (`n2.progress`, `n2.progress.n1`, `n2.progress.q2`); settings shared
+  (`n2.settings`, incl. `sidebar` — ☰ hides the sidebar at ≥901). Keep these keys stable.
+- The shell (`main.js`) is shared; what differs per book is an adapter (TRY books in `main.js`, Quartet in
+  `assets/js/q2/nav.js`). TRY books keep their page links in the sidebar (`body.nav-sb`).
 - Commit and push small, verified checkpoints.
