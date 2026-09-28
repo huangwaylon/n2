@@ -74,8 +74,7 @@ const TRY_PAGES = [["about", "この本について", "About"], ["guide", "使�
 function sidebar() {
   $("#sb-nav").innerHTML = `<ul class="sb-list">${TRY.chapters.map((ch) => `<li class="sb-ch" data-ch="${ch.id}"><a href="#/ch/${ch.id}" class="sb-ch-link"><span class="sb-num">${ch.id}</span><span class="sb-t">${esc(plain(ch.title.ja))}</span><span class="sb-prog" data-prog="${ch.id}"></span></a>
         <ul class="sb-gps">${chapterPoints(ch).map((g) => `<li><a href="#/gp/${g.no}" data-gp="${g.no}"><span class="sb-gpn">${g.no}</span><span class="sb-gpt">${esc(plain(g.pattern))}</span></a></li>`).join("")}
-        ${ch.review && ch.review.length ? `<li><a href="#/ch/${ch.id}/review" class="sb-review">まとめの問題</a></li>` : ""}
-        <li><a href="#/vocab/${ch.id}" class="sb-review">単語 <span class="en-inline">Vocab</span></a></li></ul></li>`).join("")}</ul>`;
+        ${ch.review && ch.review.length ? `<li><a href="#/ch/${ch.id}/review" class="sb-review">まとめの問題</a></li>` : ""}</ul></li>`).join("")}</ul>`;
   updateSidebarProgress();
 }
 function updateSidebarProgress() {
