@@ -44,6 +44,12 @@ for (const v of T.vocab) {
     if (/\{[^}]*$|^[^{]*\}/.test(x.w) || !KANA.test(r)) E(id, `reading not kana: ${r}`);
     if (KANJI.test(r)) E(id, "kanji left in the reading");
     if (seen.has(id)) E(id, `also listed in ch${seen.get(id)}`); else seen.set(id, v.ch);
+    // the same word spelled with fewer kanji (静まり返る / 静まりかえる): same reading, one's kanji a subset of the other's
+    const kj = (t) => [...t].filter((c) => KANJI.test(c));
+    for (const [o, c] of seen) if (o !== id && o.endsWith(`（${r}）`)) {
+      const a = kj(w), b = kj(o.slice(0, o.indexOf("（")));
+      if ((a.every((k) => b.includes(k)) || b.every((k) => a.includes(k))) && a.length && b.length) E(id, `same word as ${o} in ch${c}?`);
+    }
     if (KANJI.test(w)) {
       if (!x.rx || x.rx.length !== 3) E(id, "rx needs 3 wrong readings");
       // a wrong reading that is only another spelling of the same sound (きづく / きずく) can't be told apart by ear

@@ -165,14 +165,6 @@ TRY.registerVocab({ ch: 9, words: [
     ex: [
       { ja: "{彼|かれ}は**しょっちゅう**{忘|わす}れ{物|もの}をするので、{先生|せんせい}によく{注意|ちゅうい}される。", en: "He's always forgetting things, so the teacher often warns him.", alt: ["めったに", "ようやく", "せっかく"] },
     ] },
-  { w: "{買|か}い{替|か}える", lv: "N1", pos: "ichidan verb",
-    en: "to replace (by buying a new one); to buy a new one instead",
-    note: "車 / スマホを買い替える; noun 買い替え (買い替え時, time for a new one). Also written 買い換える. 買い足す is buying more; 取り替える is swapping or exchanging.",
-    rx: ["かいかわる", "ばいかえる", "かいがえる"],
-    book: { ja: "じゃあ、**{買|か}い{替|か}えたら**？", en: "Then why not replace it?", at: "gp/80" },
-    ex: [
-      { ja: "{冷蔵庫|れいぞうこ}が{古|ふる}くなったので、{新|あたら}しいのに**{買|か}い{替|か}えた**。", en: "Our fridge got old, so we replaced it with a new one.", alt: ["{買|か}い{占|し}めた", "{言|い}い{替|か}えた", "{着替|きが}えた"] },
-    ] },
   { w: "{勝手|かって}", lv: "N2", pos: "な adjective · noun",
     en: "selfish; (doing as one pleases) without permission; on one's own",
     note: "勝手に (without asking; by itself), 勝手な人 / 自分勝手 (selfish), 勝手にしなさい (“do as you please, then!”). Also “ease of use” in 使い勝手.",
