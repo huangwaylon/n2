@@ -2209,8 +2209,8 @@ TRY.registerLesson({
      "id": "l12-model",
      "numbers": true,
      "lines": [
-      "#仕事を選ぶうえでより重要なのは収入か、",
-      "#「役に立つ」という意識か",
+      "#=仕事を選ぶうえでより重要なのは収入か、",
+      "#=「役に立つ」という意識か",
       "¶{東北|とうほく}新幹線の清掃会社テッセイの経営について書かれた『奇跡の",
       "職場』を読んだ。テッセイは、敬遠される清掃の職場に活気を与え",
       "たことが{評価|ひょうか}された会社だ。__その本__[[によると、|a]]__「お金になる」ことだ__",
@@ -3627,7 +3627,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "ペアになり、「仕事ではお金よりやりがい (worth while fulfilling) が大切だ」という意見に対して、一人は賛成、一人は反対の立場になりなさい。その理由を2つ、それぞれ一人で考えて下の表に書きなさい。",
-        "tr": "Work in pairs. On the opinion \"In work, finding it worthwhile matters more than money,\" one of you takes the position for it and the other against it. Each of you, on your own, think of two reasons and write them in the table below."
+        "tr": "Work in pairs. Regarding the opinion \"In work, a sense of purpose matters more than money,\" one of you takes the position for it and the other against it. Each of you, on your own, think of two reasons and write them in the table below."
        },
        "blocks": [
         {
@@ -3704,7 +3704,7 @@ TRY.registerLesson({
            "n": "①",
            "text": {
             "ja": "メイリンが「仕事ではお金よりやりがいが大切だ」という意見に賛成する理由は何ですか。2つの理由のポイントを書きなさい。",
-            "tr": "What are Meilin's reasons for agreeing with the opinion \"In work, finding it worthwhile matters more than money\"? Write down the main points of her two reasons."
+            "tr": "What are Meilin's reasons for agreeing with the opinion \"In work, a sense of purpose matters more than money\"? Write down the main points of her two reasons."
            },
            "blocks": [
             {
@@ -3801,24 +3801,24 @@ TRY.registerLesson({
      "audio": "3.Kaiwa_L12-2",
      "title": {
       "ja": "ディベート大会",
-      "tr": "The debate"
+      "tr": "Debate Contest"
      },
      "setting": {
       "ja": "日本語のクラスでジョージ・テイラー（ジ:）たちが「仕事ではお金よりやりがいが大切だ」というテーマでディベートをしている。\n{司会|しかい}＝サラ・ゴミス（サ:）　賛成側＝ワン・メイリン（メ:）　反対側＝ジョージ・テイラー",
-      "tr": "In Japanese class, George Taylor (ジ) and his classmates are holding a debate on the theme \"In work, finding it worthwhile matters more than money.\"\nModerator = Sarah Gomis (サ); for = Wang Meilin (メ); against = George Taylor"
+      "tr": "In Japanese class, George Taylor (ジ) and his classmates are holding a debate on the theme \"In work, a sense of purpose matters more than money.\"\nModerator = Sarah Gomis (サ); for = Wang Meilin (メ); against = George Taylor"
      },
      "lines": [
       {
        "sp": "サ",
        "v": "f",
        "ja": "これから「仕事ではお金よりやりがいが大切だ」というテーマでミニディベートを行いたいと思います。まず、賛成の意見のスピーチをお願いします。",
-       "tr": "We will now hold a mini-debate on the theme \"In work, finding it worthwhile matters more than money.\" First, may we have the speech from the side in favor?"
+       "tr": "We will now hold a mini-debate on the theme \"In work, a sense of purpose matters more than money.\" First, may we have the speech from the side in favor?"
       },
       {
        "sp": "メ",
        "v": "f",
        "ja": "❶「仕事ではお金よりやりがいが大切だ」**に賛成の立場から、意見を述べたいと思います。**❷**まず、**仕事にやりがいがあれば、日々の生活が{充実|じゅうじつ}する**からです。**仕事をする時間は1日の3分の1を占めています。起きている時間の多くを過ごす場所でやりがいが感じられなければ、日々の生活はつまらないものになってしまうでしょう。**それに、**自分の存在価値が感じられ、自己肯定感が持てます。自分が{一生懸命|いっしょうけんめい}取り組んだ仕事に対し、お客様や取引先から感謝されると、社会の役に立っている、社会に必要とされていると実感できます。これはお金とは比べられない特別な{報酬|ほうしゅう}な**のではないでしょうか。**\n❸**以上のことから、**「仕事ではお金よりやりがいが大切だ」**と主張します。**",
-       "tr": "I would like to state my opinion from the position of agreeing that \"in work, finding it worthwhile matters more than money.\" First, if your work is worthwhile, your daily life becomes fulfilling. Working hours take up one third of the day. If you can't feel that what you do is worthwhile in the place where you spend so much of your waking time, your daily life will probably become dull. On top of that, you can feel your own worth and gain self-esteem. When customers or clients thank you for work you've put your all into, you can truly feel that you are useful to society and that society needs you. Isn't that a special reward that can't be compared with money?\nFor these reasons, I maintain that \"in work, finding it worthwhile matters more than money.\""
+       "tr": "I would like to state my opinion from the position in favor of \"in work, a sense of purpose matters more than money.\" First, it's because if your work gives you a sense of purpose, your daily life becomes fulfilling. Working hours take up one third of the day. If you can't feel a sense of purpose in the place where you spend so much of your waking time, your daily life will probably end up being dull. On top of that, you can feel your own worth and gain self-esteem. When customers or clients thank you for work you've put your all into, you can truly feel that you are useful to society and that society needs you. Isn't that a special reward that can't be compared with money?\nFor these reasons, I maintain that \"in work, a sense of purpose matters more than money.\""
       },
       {
        "sp": "サ",
@@ -3830,13 +3830,13 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❹日々の生活が充実する**とおっしゃいましたが、**プライベートの時間を充実させれば、仕事にやりがいがなくても日々の生活がつまらなくなる**とは限らないと思います。**❺**例えば、**趣味に没頭したり、休みに旅行したり、おいしいものを食べたりすれば、生活は充実する**のではないでしょうか。**",
-       "tr": "You said that your daily life becomes fulfilling, but if you make your private time fulfilling, I don't think your daily life will necessarily become dull even if your work isn't worthwhile. For example, if you immerse yourself in a hobby, travel on your days off, and eat good food, wouldn't your life be fulfilling?"
+       "tr": "You said that your daily life becomes fulfilling, but if you make your private time fulfilling, I don't think your daily life will necessarily become dull even if your work doesn't give you a sense of purpose. For example, if you immerse yourself in a hobby, travel on your days off, and eat good food, wouldn't your life be fulfilling?"
       },
       {
        "sp": "メ",
        "v": "f",
        "ja": "❻**確かに、**プライベートを充実させることでも生活を楽しめる**とは思います。しかし、**1日の3分の1が仕事をしている時間で、他の3分の1が{睡眠|すいみん}となると、プライベートの時間は日々の生活の中ではほとんど残っていない**のではないでしょうか。**\n❼**だから、**仕事でやりがいを感じられるというのは重要だ**と思います。**",
-       "tr": "Certainly, I do think you can enjoy life by making your private time fulfilling too. However, if one third of the day is time spent working and another third is sleep, isn't it true that there's hardly any private time left in our daily lives?\nThat's why I think being able to find your work worthwhile is important."
+       "tr": "Certainly, I do think you can enjoy life by making your private time fulfilling too. However, if one third of the day is time spent working and another third is sleep, isn't it true that there's hardly any private time left in our daily lives?\nThat's why I think being able to feel a sense of purpose in your work is important."
       },
       {
        "sp": "ジ",
@@ -3899,7 +3899,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "「仕事ではお金よりやりがいが大切だ」**に賛成の立場から、意見を述べたいと思います。**",
-        "tr": "I would like to state my opinion from the position of agreeing that \"in work, finding it worthwhile matters more than money.\""
+        "tr": "I would like to state my opinion from the position in favor of \"in work, a sense of purpose matters more than money.\""
        }
       },
       {
@@ -3911,7 +3911,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**まず、**仕事にやりがいがあれば、日々の生活が{充実|じゅうじつ}する**からです。**\n**それに、**自分の存在価値が感じられ、自己肯定感が持てます。",
-        "tr": "First, if your work is worthwhile, your daily life becomes fulfilling.\nOn top of that, you can feel your own worth and gain self-esteem."
+        "tr": "First, it's because if your work gives you a sense of purpose, your daily life becomes fulfilling.\nOn top of that, you can feel your own worth and gain self-esteem."
        }
       },
       {
@@ -3923,7 +3923,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**以上のことから、**「仕事ではお金よりやりがいが大切だ」**と主張します。**",
-        "tr": "For these reasons, I maintain that \"in work, finding it worthwhile matters more than money.\""
+        "tr": "For these reasons, I maintain that \"in work, a sense of purpose matters more than money.\""
        }
       },
       {
@@ -3981,7 +3981,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**だから、**仕事でやりがいを感じられるというのは重要だ**と思います。**",
-        "tr": "That's why I think being able to find your work worthwhile is important."
+        "tr": "That's why I think being able to feel a sense of purpose in your work is important."
        }
       }
      ]
@@ -4010,7 +4010,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "「仕事ではお金よりやりがいが大切だ」**に反対の意見をまとめて述べたいと思います。まず、〜からです。それに、〜。**",
-        "tr": "I would like to sum up our opinion against \"in work, finding it worthwhile matters more than money.\" First, because ~. On top of that, ~."
+        "tr": "I would like to sum up our opinion against \"in work, a sense of purpose matters more than money.\" First, because ~. On top of that, ~."
        }
       },
       {
@@ -4034,7 +4034,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**よって、**「仕事ではやりがいよりお金のほうが大切だ」**と主張します。**",
-        "tr": "Therefore, I maintain that \"in work, money matters more than finding it worthwhile.\""
+        "tr": "Therefore, I maintain that \"in work, money matters more than a sense of purpose.\""
        }
       }
      ]
@@ -4143,7 +4143,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "「2-1. やってみよう」(p. 190) で話した「仕事ではお金よりやりがいが大切だ」というテーマで、賛成側と反対側に分かれてミニディベートをしなさい。",
-        "tr": "Split into a side in favor and a side against and hold a mini-debate on the theme you talked about in \"2-1. Let's try it\" (p. 190): \"In work, finding it worthwhile matters more than money.\""
+        "tr": "Split into a side in favor and a side against and hold a mini-debate on the theme you talked about in \"2-1. Let's try it\" (p. 190): \"In work, a sense of purpose matters more than money.\""
        },
        "blocks": [
         {
@@ -4222,7 +4222,7 @@ TRY.registerLesson({
              "sp": "反対側",
              "v": "m",
              "ja": "❽「__{{仕事ではお金よりやりがいが大切だ}}__」**に反対の意見をまとめてお話しします。**\n**まず、**__{{仕事にやりがいがなくても、日々の生活がつまらなくなるとは限らないからです}}__**。それに**__{{趣味に没頭したり休みに旅行したりするためには、お金も必要です}}__**。**\n❾**確かに**__{{やりがいがなければ、仕事は楽しくないかもしれません}}__**。**\n**しかし、**__{{お金がなければ、生活を十分に楽しめないと思います}}__**。**\n❿**よって、**__{{仕事ではやりがいよりお金のほうが大切だ}}__**と主張します。**",
-             "tr": "I will sum up our opinion against \"in work, finding it worthwhile matters more than money.\"\nFirst, because even if your work isn't worthwhile, your daily life won't necessarily become dull. On top of that, you also need money to immerse yourself in hobbies and travel on your days off.\nCertainly, if your work isn't worthwhile, it may not be enjoyable.\nHowever, I think that without money, you can't fully enjoy life.\nTherefore, I maintain that \"in work, money matters more than finding it worthwhile.\""
+             "tr": "I will sum up our opinion against \"in work, a sense of purpose matters more than money.\"\nFirst, it's because even if your work doesn't give you a sense of purpose, your daily life won't necessarily become dull. On top of that, you also need money to immerse yourself in hobbies and travel on your days off.\nCertainly, without a sense of purpose, work may not be enjoyable.\nHowever, I think that without money, you can't fully enjoy life.\nTherefore, I maintain that \"in work, money matters more than a sense of purpose.\""
             },
             {
              "sp": "司会",
@@ -4532,7 +4532,7 @@ TRY.registerLesson({
     },
     {
      "t": "figure",
-     "desc": "Horizontal bar chart “企業が重視する人材” (the kind of people companies value), comparing これまで (until now, blue bars) with 今後 (from now on, grey bars) for eight abilities a–h, on a scale of 0 to 90. No values are printed; read from the bars, approximately: a. 80 until now / 59 from now on; b. 64 / 41; c. 60 / 42; d. 59 / 80; e. 52 / 68; f. 49 / 68; g. 41 / 42; h. 11 / 48. So a–c fall, d–f rise, g stays about the same, and h shows by far the largest change (a rise of about 37 points). Source: パーソル総合研究所, データで語る『企業が求める人材』.",
+     "desc": "Horizontal bar chart \"企業が重視する人材\" (the kind of people companies value), comparing これまで (until now, blue bars) with 今後 (from now on, gray bars) for eight abilities a–h, on a scale of 0 to 90. No values are printed; read from the bars, approximately: a. 80 until now / 59 from now on; b. 64 / 41; c. 60 / 42; d. 59 / 80; e. 52 / 68; f. 49 / 68; g. 41 / 42; h. 11 / 48. So a–c fall, d–f rise, g stays about the same, and h shows by far the largest change (a rise of about 37 points). Source: パーソル総合研究所, データで語る『企業が求める人材』.",
      "labels": [
       "企業が重視する人材",
       "これまで",
@@ -4629,7 +4629,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "このグラフは、企業が求める人材を「これまで」と「今後」で比較したものです。",
-       "tr": "This graph compares the kind of people companies look for “until now” and “from now on.”"
+       "tr": "This graph compares the kind of people companies look for \"until now\" and \"from now on.\""
       },
       {
        "sp": "",
@@ -4641,7 +4641,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "しかし、今ではどの企業も{即戦力|そくせんりょく}を求めています。即戦力というと、具体的なスキル、{専門|せんもん}的知識、業務経験といったものをイメージし__がち__ですが、企業が求めているのは「自分でものを考え、行動できる力、主体性」です。会社に入ると、自分で{判断|はんだん}しなければならないことがたくさんあります。仕事を任されている__以上__、「上司がそう言ったから」といった態度では{困|こま}ります。その点に関して言えば、「リーダーシップが取れること」も同様に大切なスキルだと言えます。",
-       "tr": "Today, however, every company is looking for people who can contribute right away. When people hear “ready to contribute right away,” they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is “the ability to think for yourself and act, and initiative.” Once you join a company, there are many things you have to decide on your own. As long as you've been entrusted with a job, an attitude of “I did it because my boss said so” won't do. On that point, you could say that “being able to take the lead” is an equally important skill."
+       "tr": "Today, however, every company is looking for people who can contribute right away. When people hear \"ready to contribute right away,\" they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is \"the ability to think for yourself and act, and initiative.\" Once you join a company, there are many things you have to decide on your own. Since you've been entrusted with the work, an attitude of \"I did it because my boss said so\" won't do. In that respect, you could say that \"being able to take the lead\" is an equally important skill."
       },
       {
        "sp": "",
@@ -4849,7 +4849,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "{研|けん}によると、一般的な日本人の「協調性」とグローバル人材に求められる「協調性」はどう違いますか。",
-        "tr": "According to Ken, how does the “cooperativeness” of typical Japanese people differ from the “cooperativeness” required of global talent?"
+        "tr": "According to Ken, how does the \"cooperativeness\" of typical Japanese people differ from the \"cooperativeness\" required of global talent?"
        },
        "answer": {
         "ja": "一般的な日本人の協調性はただ{争|あらそ}いを{避|さ}けるために相手の意見に同意しているにすぎないが、グローバル人材に求められる協調性は相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力のことである。（日本人は、{一方|いっぽう}が折れているだけだが、グローバル人材に求められる協調性は、話し合ってお互いに{納得|なっとく}できる答えにたどり着くことができる能力のことである。）",
@@ -4873,7 +4873,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "上のメモの「グローバル人材に求められる能力」以外に、どんな能力が大切だと思いますか。どうしてですか。",
-        "tr": "Besides the “abilities required of global talent” in the memo above, what abilities do you think are important? Why?"
+        "tr": "Besides the \"abilities required of global talent\" in the memo above, what abilities do you think are important? Why?"
        }
       },
       {
@@ -4926,19 +4926,19 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "そうだね。「企業は今、自分で考えて動ける人材を求めている」って、この前の就職セミナーでも言ってたよね。",
-       "tr": "Right. They said at the job-hunting seminar the other day too that “companies today are looking for people who can think for themselves and take action.”"
+       "tr": "Right. They said at the job-hunting seminar the other day too that \"companies today are looking for people who can think for themselves and take action.\""
       },
       {
        "sp": "サ",
        "v": "f",
        "ja": "うん。あ、あと3つ目に話していた、「協調性」は、日本人にはもうあるんじゃない？　日本人って人に合わせるの得意だし。",
-       "tr": "Yeah. Oh, and the third thing the professor mentioned, “cooperativeness”: don't Japanese people already have that? Japanese people are good at going along with others."
+       "tr": "Yeah. Oh, and the third thing the professor mentioned, \"cooperativeness\": don't Japanese people already have that? Japanese people are good at going along with others."
       },
       {
        "sp": "研",
        "v": "m",
        "ja": "でも、日本人の多くはただ{争|あらそ}いを{避|さ}けるために相手の意見に同意している__にすぎない__んじゃないかな。ここで言う「協調性」って、相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力ってことでしょ？",
-       "tr": "But I think a lot of Japanese people are just agreeing with the other person's opinion to avoid conflict, nothing more. The “cooperativeness” they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
+       "tr": "But I think a lot of Japanese people are just agreeing with the other person's opinion to avoid conflict, nothing more. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
       },
       {
        "sp": "サ",
