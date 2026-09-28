@@ -243,7 +243,7 @@ function dlgRows(lines) {
     const o = norm(l) || {};
     const body = `<div class="qdlg__say"><span class="ja">${fmt(o.ja)}</span>${enLines(o)}</div>`;
     return l.sp ? `<div class="qdlg__row bi">${o.en || o.tr ? enToggle() : ""}<span class="qdlg__sp">${fmt(l.sp)}</span><span class="qdlg__c" aria-hidden="true">：</span>${body}</div>`
-      : `<div class="qdlg__row qdlg__row--narr${/^＊[　 ]＊/.test(o.ja || "") ? " qdlg__row--sep" : ""} bi">${o.en || o.tr ? enToggle() : ""}${body}</div>`;
+      : `<div class="qdlg__row qdlg__row--narr${/^＊[　 ]?＊/.test(o.ja || "") ? " qdlg__row--sep" : ""} bi">${o.en || o.tr ? enToggle() : ""}${body}</div>`;
   }).join("");
 }
 // an example: one sentence, or lines with speakers
