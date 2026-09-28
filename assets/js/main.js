@@ -158,7 +158,7 @@ function setDrawer(open, moveFocus = true) {
     const cur = $(".sb-ch.open") || $(".sb-list a.active");
     if (cur) cur.scrollIntoView({ block: "nearest" });
     if (moveFocus) requestAnimationFrame(() => { const f = $(".sb-list a.active") || $$(".sidebar a").find((x) => x.offsetParent); if (f) f.focus({ preventScroll: true }); });
-  } else if (!open && was && moveFocus) $(".sb-toggle").focus();
+  } else if (!open && was && moveFocus) $(".sb-toggle").focus({ preventScroll: true });
 }
 // keep Tab inside the open drawer (plus the ☰ button that closes it)
 function trapDrawerFocus(e) {
