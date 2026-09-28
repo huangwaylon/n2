@@ -11,6 +11,7 @@
 //   --en     turn on the global English layer first (English lines are longer)
 //   --touch  emulate a touch screen (pointer:coarse) and report visible tap targets smaller than 44×44
 //            (box, widened by an absolute ::after). Widths < 700 are always emulated as touch phones.
+//   --nofuri furigana off (the site default; otherwise the tools turn furigana on)
 //   --furi   also run the furigana probe (tools/lib/furi-probe.mjs: readings off-centre, covering text/boxes, clipped,
 //            uneven line pitch) -> "furi": {n, off, hit, clip, uneven}. Same probe in real iOS Safari: tools/lib/wkshot.mjs --probe
 //   e.g. node tools/overflow.mjs ch/1 375
@@ -57,7 +58,7 @@ const PROBE = `(() => {
   return JSON.stringify(out, null, 1);
 })()`;
 
-const pg = await open({ route, width, height: 900, scheme: flags.includes("--dark") ? "dark" : "light", touch: flags.includes("--touch") || undefined });
+const pg = await open({ route, width, height: 900, scheme: flags.includes("--dark") ? "dark" : "light", touch: flags.includes("--touch") || undefined, furigana: !flags.includes("--nofuri") });
 if (flags.includes("--en")) { await pg.evaluate("document.body.classList.add('show-en')"); await sleep(300); }
 const res = JSON.parse(await pg.evaluate(PROBE));
 if (flags.includes("--furi")) res.furi = await pg.evaluate(`(${PROBE_FN})({})`);

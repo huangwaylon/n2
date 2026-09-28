@@ -9,10 +9,11 @@ export const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Con
 export const BASE = process.env.N2_BASE || "http://localhost:8765/";
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-// open({route, width, height, scheme, wait, mobile, touch}) -> {send, evaluate, logs, close}
+// open({route, width, height, scheme, wait, mobile, touch, furigana}) -> {send, evaluate, logs, close}
 // mobile defaults to width < 700; touch (pointer:coarse, hover:none) defaults to mobile.
+// furigana defaults to true (the site's default is off, but layout checks are about the readings).
 // logs collects console messages, uncaught exceptions and failed-load log entries.
-export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch, dpr = 1 } = {}) {
+export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch, dpr = 1, furigana = true } = {}) {
   mobile = mobile ?? width < 700; touch = touch ?? mobile;
   // launch Chrome on a random debugging port; retry on a fresh port if it doesn't come up (port clash, slow start)
   let ch, prof, tabs;
@@ -45,6 +46,8 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
   if (touch) await send("Emulation.setTouchEmulationEnabled", { enabled: true, maxTouchPoints: 5 });
   await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-color-scheme", value: scheme }] });
   await send("Runtime.enable"); await send("Log.enable"); await send("Page.enable");
+  await send("Page.addScriptToEvaluateOnNewDocument", { source: `try { const s = JSON.parse(localStorage.getItem("n2.settings") || "{}");
+    s.furigana = ${!!furigana}; localStorage.setItem("n2.settings", JSON.stringify(s)); } catch (e) {}` });
   // "n1:ch/1" → the N1 book page (BASE + "n1/#/ch/1"), "q2:l/7/read" → Quartet II; plain routes are the N2 book at the root
   const bm = /^(n\d|q2):(.*)$/.exec(route);
   await send("Page.navigate", { url: bm && bm[1] !== "n2" ? `${BASE}${bm[1]}/#/${bm[2]}` : BASE + "#/" + (bm ? bm[2] : route) });

@@ -11,6 +11,7 @@
 //   --touch emulate a touch screen (pointer:coarse) at any width (always on below 700 px)
 //   --dpr=N  device pixel ratio (2 or 3 to read furigana as on a phone); --y=PX scroll down before capturing
 //   --drawer open the sidebar drawer (☰) before capturing
+//   --nofuri furigana off (the site default; the tools turn furigana on unless this is given)
 // Prints the PNG path; console messages / JS exceptions from the page are printed to stderr.
 //   e.g. node tools/shot.mjs ch/1 390 2400 /tmp/ch1-390.png
 //        node tools/shot.mjs ch/2/review 375 900 /tmp/rev.png dark --en
@@ -26,7 +27,7 @@ const OUT = outArg || `/tmp/n2shot/${route.replace(/[/:]/g, "_") || "home"}-${wi
 const wait = +((flags.find(f => f.startsWith("--wait=")) || "").split("=")[1] || 2500);
 
 const num = k => +((flags.find(f => f.startsWith(`--${k}=`)) || "").split("=")[1] || 0);
-const pg = await open({ route, width, height, scheme, wait, touch: flags.includes("--touch") || undefined, dpr: num("dpr") || 1 });
+const pg = await open({ route, width, height, scheme, wait, touch: flags.includes("--touch") || undefined, furigana: !flags.includes("--nofuri"), dpr: num("dpr") || 1 });
 if (num("y")) { await pg.evaluate(`window.scrollTo(0, ${num("y")})`); await sleep(400); }
 if (flags.includes("--en")) { await pg.evaluate("document.body.classList.add('show-en')"); await sleep(300); }
 if (flags.includes("--drawer")) { await pg.evaluate("document.querySelector('.sb-toggle').click()"); await sleep(400); }
