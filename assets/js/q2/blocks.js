@@ -369,7 +369,13 @@ function fitBookLines(body) {
 
 // line numbers (every 5th, and 1) and page marks in the gutter, at the height (column) where the book's line starts
 export function placeLineNos(root) {
+  // the fit test sets the book's breaks for a moment: scroll anchoring must not follow that transient layout (it moved
+  // the reader's place when furigana were toggled on a phone)
+  const html = document.documentElement, y = scrollY;
+  html.style.overflowAnchor = "none";
   $$(".rd-body", root).forEach((body) => { if (body.getClientRects().length) fitBookLines(body); });
+  if (Math.abs(scrollY - y) > 1) scrollTo(0, y);
+  html.style.overflowAnchor = "";
   $$(".rd-body--nums", root).forEach((body) => {
     $$(".ln-no", body).forEach((x) => x.remove());
     if (!body.getClientRects().length) return;

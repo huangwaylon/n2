@@ -5,7 +5,7 @@
 // A reading wider than its base would push the neighbours apart ("集　客　が"); as in the book (JIS X 4051) it may instead
 // overhang a neighbouring kana or punctuation mark — never a kanji or another reading — by up to one furigana character
 // (.5em) per side. rubyHtml() records the excess and sets a first-guess margin; fitRubies() measures and corrects it.
-import { $$, settings } from "./core.js";
+import { $$ } from "./core.js";
 
 export const RUBY_RE = /\{([^{}|]+)\|([^{}]+)\}/g;
 const RT_K = 0.5; // furigana size / text size (ruby rt font-size in base.css)
@@ -94,7 +94,7 @@ function neighbourRect(nb, dir) {
   return null;
 }
 export function fitRubies(root, all, depth = 0) {
-  if (!settings.furigana || !root) return;
+  if (!root) return;
   // line-start alignment (below) depends on the line breaks: undo it before a full refit
   if (all) $$("ruby[data-ls]", root).forEach((r) => { r.classList.remove("r-s"); delete r.dataset.ls; });
   const rs = $$(all ? "ruby[data-e]" : "ruby[data-e]:not([data-fit])", root).filter((r) => r.getClientRects().length);

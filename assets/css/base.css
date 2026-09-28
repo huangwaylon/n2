@@ -76,15 +76,15 @@ h1, h2, h3, h4 { line-height: 1.5; }
 ruby { ruby-position: over; ruby-align: center; text-indent: 0; }
 /* a group reading ({運動能力|うんどうのうりょく}) is never split across lines (JIS X 4051): Blink breaks the base and hands each
    line a proportional slice of the reading ("運動" under "うんどうの"). WebKit already keeps a ruby on one line */
-body:not(.no-furi) ruby { white-space: nowrap; }
+ruby { white-space: nowrap; }
 ruby rt { font-size: .5em; line-height: 1; color: var(--ink-2); font-weight: 400; font-style: normal; letter-spacing: 0; text-indent: 0; text-decoration: none; -webkit-user-select: none; user-select: none; }
 /* a reading that starts at its base and overhangs the kana on its right (fmt(): right after another reading) */
 ruby.r-s { ruby-align: start; }
-/* furigana off: no overhang margins (fitRubies() sets them in px) */
-body.no-furi ruby { margin-inline: 0 !important; }
 /* iOS Safari zooms on focus if a form control is < 16px */
 @media (max-width: 900px), (pointer: coarse) { body :is(input, select, textarea) { font-size: max(16px, 1em); } }
-body.no-furi rt { display: none; }
+/* furigana off: the readings are hidden but keep their place — Blink makes a line with ruby taller, and a wide reading's
+   overhang margins decide the line breaks, so removing them would reflow the page and lose the reader's place */
+body.no-furi rt { visibility: hidden; }
 strong { color: var(--accent); font-weight: 700; }
 .dim { color: var(--ink-3); }
 .small { font-size: 0.85em; }

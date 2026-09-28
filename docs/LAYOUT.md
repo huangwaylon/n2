@@ -92,7 +92,7 @@ Data writes `{漢字|かな}`; `fmt()` → `rubyMarkup()` emits native `<ruby>ba
 - **Start-aligned readings (`ruby.r-s`):** right after another reading ("ご観覧誠に"), and for the first ruby on a line (set by `fitRubies()`, marked `data-ls`), the reading starts at its base and overhangs the kana on the right instead of leaving a gap or an indent.
 - **Group readings (熟語ルビ):** a run of adjacent readings where one is wider than its kanji ("{国際|こくさい}{交流|こうりゅう}{会|かい}") is merged into one ruby over the whole compound instead of spacing the kanji apart.
 - **Unbreakable ruby:** `body:not(.no-furi) ruby { white-space: nowrap }`. Blink would otherwise split a base across lines and give each line a proportional slice of the reading ("運動" under "うんどうの").
-- **Furigana off** (`body.no-furi`): `rt` hidden, overhang margins zeroed; line-height stays, so nothing jumps.
+- **Furigana off** (`body.no-furi`): `rt { visibility: hidden }` — the readings keep their place and the overhang margins stay, so the page does not reflow or move (Blink makes a line carrying ruby taller than one without, even with line-height ≥ 1.9).
 - **Don't** emulate ruby with inline-block `.rb`/`.rt` spans: a reserved top margin makes ruby lines taller than plain lines, a multi-kanji base becomes one unbreakable box (justification then stretches whole lines), and computed side margins push kana apart.
 - Sidebar, mini-TOC chips, pager and `.gp-pattern` hide `rt`.
 

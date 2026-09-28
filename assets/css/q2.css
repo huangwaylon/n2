@@ -434,7 +434,7 @@ a.ref:hover u { background: var(--q-soft); }
   .flow__steps > li { min-width: 0; }
 }
 .rei { min-width: 0; } .rei__items { min-width: 0; } .rei__b, .exd__say { min-width: 0; }
-body:not(.no-furi) .ref--rb .ref-n { left: auto; right: 100%; margin-right: .1em; }
+.ref--rb .ref-n { left: auto; right: 100%; margin-right: .1em; }
 /* headings, labels and cells set tighter than text: with a reading under the line they need the text's leading, or a
    reading of a wrapped first line sits on the second (furigana below, as printed) */
 :is(h1, h2, h3, h4, .hd-t, .rd-h__t, .rd-h__by, .flow__l, .flow__pill, .flow__head, .bubble__l, .qdlg__title, .gn-pat, .gn-sub__p,
@@ -448,7 +448,7 @@ s { text-decoration: line-through var(--q) 2px; }
   linear-gradient(currentColor, currentColor) top right / 5px 2px no-repeat, linear-gradient(currentColor, currentColor) bottom right / 5px 2px no-repeat; }
 /* an underline sits between the text and its readings (p.082 孤独): close under the glyphs, so a reading under the
    line never crosses it (WebKit ignores offsets on rt, so the rule moves, not the reading) */
-body:not(.no-furi) :is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em; }
+:is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em; }
 /* ＊　＊　＊ scene breaks in dialogues: centred (pp.028, 030, 122) */
 .qdlg__row--sep { text-align: center; font-size: .9em; }
 .qdlg__row--sep .qdlg__say { grid-column: 1 / -1; }
