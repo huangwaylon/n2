@@ -3449,7 +3449,7 @@ TRY.registerLesson({
        "n": "2）",
        "text": {
         "ja": "1）で考えたことについて、3〜4人のグループになって、一人1〜2分で話しなさい。",
-        "tr": "Get into groups of three or four and have each person talk for one to two minutes about what you thought about in 1)."
+        "tr": "Get into groups of three or four, and have each person talk for one to two minutes about what you noted down in 1)."
        }
       }
      ]
@@ -3487,7 +3487,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "サラ、＿＿よ。\n＿＿で、＿＿んだ。",
-        "tr": "Sara, … . On …, … ."
+        "tr": "Sara, ＿＿.\nOn ＿＿, ＿＿."
        },
        "answer": [
         "ちょっと、聞いて",
@@ -3502,7 +3502,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "{絵|え}{理|り}の＿＿をお{祝|いわ}いしようと思って準備しておいたんだけど……。",
-        "tr": "I wanted to celebrate Eri's …, so I got everything ready, but..."
+        "tr": "I wanted to celebrate Eri's ＿＿, so I got everything ready, but..."
        },
        "answer": [
         "誕生日"
@@ -3515,7 +3515,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "カフェに着いたら＿＿で……。しかも、最悪なことに\n急に＿＿て。2人とも＿＿になっちゃって。",
-        "tr": "When we got to the café, there was …... And worst of all, it suddenly …. We both got …."
+        "tr": "When we got to the café, there was ＿＿... And worst of all,\nit suddenly ＿＿. We both got ＿＿."
        },
        "answer": [
         "すごい行列",
@@ -3530,7 +3530,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "大切なデートの時は、＿＿と＿＿を忘れては\nいけないってことを学んだよ。",
-        "tr": "I learned that for an important date, you can't forget … and … ."
+        "tr": "I learned that for an important date, you can't forget ＿＿ and\n＿＿."
        },
        "answer": [
         "お店の予約",
@@ -3653,7 +3653,7 @@ TRY.registerLesson({
       {
        "sp": "ジ",
        "v": "m",
-       "ja": "❸**でも、**カフェに着いたらすごい行列で……。人気店だから1時間ぐらい待つことは予想していたんだけど、3時間待ちって言われちゃっ**て……。**",
+       "ja": "❸**でも、**カフェに着いたらすごい行列**で……。**人気店だから1時間ぐらい待つことは予想していたんだけど、3時間待ちって言われちゃっ**て……。**",
        "tr": "But when we got to the café, there was a huge line... It's a popular place, so I expected to wait about an hour, but they told us it would be a three-hour wait..."
       },
       {
@@ -3665,7 +3665,7 @@ TRY.registerLesson({
       {
        "sp": "ジ",
        "v": "m",
-       "ja": "**それで**しかたがないから、別のカフェを探して、うろうろ歩き回った**んだけど、**どこもいっぱいで……。",
+       "ja": "**それで**しかたがないから、別のカフェを探して、うろうろ歩き回った**んだけど、**どこもいっぱい**で……。**",
        "tr": "So, since there was nothing else we could do, we wandered around looking for another café, but everywhere was full..."
       },
       {
@@ -3702,7 +3702,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "うん。❻すてきなカフェには行けなかった**し、**雨に降られてびしょびしょになった**し、**予想以上にお金を使っちゃった**し、本当に最悪だったよ。**❼大切なデートの**時は、**お店の予約とかさを忘れてはいけない**ってことを学んだよ。**",
-       "tr": "Yeah. We couldn't go to the nice café, we got caught in the rain and got soaked, and I spent more money than I expected. It was really the worst. I learned that for an important date, you mustn't forget to book the restaurant and bring an umbrella."
+       "tr": "Yeah. We couldn't go to the nice café, we got caught in the rain and got soaked, and I spent more money than I expected. It was really the worst. I learned that for an important date, you can't forget to reserve a table and bring an umbrella."
       },
       {
        "sp": "サ",
@@ -3806,7 +3806,7 @@ TRY.registerLesson({
         "tr": "Describe how the situation changed and introduce the incident"
        },
        "text": {
-        "ja": "**でも、**カフェに着いたらすごい行列で……。\n**それで、**別の店に行くことにした**んだけど、**どこもいっぱいで。",
+        "ja": "**でも、**カフェに着いたらすごい行列**で……。**\n**それで、**別の店に行くことにした**んだけど、**どこもいっぱい**で。**",
         "tr": "But when we got to the café, there was a huge line... So we decided to go somewhere else, but everywhere was full."
        }
       },
@@ -3846,7 +3846,7 @@ TRY.registerLesson({
         "tr": "Sum up what you told"
        },
        "text": {
-        "ja": "すてきなカフェには行けなかった**し、**雨に降られてびしょびしょに\nなった**し、**予想以上にお金を使っちゃた**し、本当に**最悪だったよ。",
+        "ja": "すてきなカフェには行けなかった**し、**雨に降られてびしょびしょに\nなった**し、**予想以上にお金を使っちゃた**し、本当に最悪だったよ。**",
         "tr": "We couldn't go to the nice café, we got caught in the rain and got soaked, and I spent more money than I expected. It was really the worst."
        }
       },
@@ -3859,7 +3859,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "大切なデートの**時は、**お店の予約とかさを忘れては\nいけない**ってことを学んだよ。**",
-        "tr": "I learned that for an important date, you mustn't forget to book the restaurant and bring an umbrella."
+        "tr": "I learned that for an important date, you can't forget to reserve a table and bring an umbrella."
        }
       }
      ]
@@ -3876,11 +3876,14 @@ TRY.registerLesson({
      }
     },
     {
-     "t": "p",
-     "text": {
-      "ja": "▶ ［　　　］のパターンを使って準備してから話してみましょう。",
-      "tr": "▶ Prepare using the pattern in the gray box, then try telling your story."
-     }
+     "t": "list",
+     "mark": "▸",
+     "items": [
+      {
+       "ja": "［　　　］のパターンを使って準備してから話してみましょう。",
+       "tr": "Prepare using the pattern in the gray box, then try telling your story."
+      }
+     ]
     },
     {
      "t": "box",
@@ -3906,7 +3909,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶**ちょっと、聞いてよ。**＿＿{{（で／時に）}}＿＿**ことがあったんだ。**",
-         "tr": "Listen to this. (On / When) …, … happened."
+         "tr": "Listen to this. ＿＿ (on / when) ＿＿, something happened."
         },
         {
          "sp": "友達",
@@ -3918,7 +3921,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❷**その日は**＿＿｛**んだけど**／**て**｝、＿＿**んだ。**\n｛**それで**／**だから**｝＿＿**んだけど。**",
-         "tr": "That day, … (and / so), … . (So / That's why) …, but..."
+         "tr": "That day, ＿＿ (, but / and), ＿＿.\n(So / That's why) ＿＿, but..."
         },
         {
          "sp": "友達",
@@ -3930,43 +3933,43 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸**でも**＿＿**て……。**\n｛**それで**／**だから**｝＿＿**んだけど、**＿＿**て……。**",
-         "tr": "But …... (So / That's why) …, but …..."
+         "tr": "But ＿＿...\n(So / That's why) ＿＿, but ＿＿..."
         },
         {
          "sp": "友達",
          "v": "f",
          "ja": "＿＿［コメントする］＿＿。それで？",
-         "tr": "… [comment] … . And then?"
+         "tr": "＿＿ [comment] ＿＿. And then?"
         },
         {
          "sp": "あなた",
          "v": "f",
          "ja": "❹**しかも、**＿＿**ことに、**＿＿**て。**",
-         "tr": "And, … as it was, … ."
+         "tr": "And ＿＿ of all, ＿＿."
         },
         {
          "sp": "友達",
          "v": "f",
          "ja": "＿＿［コメントする］＿＿。",
-         "tr": "… [comment] … ."
+         "tr": "＿＿ [comment] ＿＿."
         },
         {
          "sp": "あなた",
          "v": "f",
          "ja": "❺**結局、**＿＿**（ちゃった）んだ。**",
-         "tr": "In the end, I (ended up) … ."
+         "tr": "In the end, (I ended up) ＿＿."
         },
         {
          "sp": "友達",
          "v": "f",
          "ja": "＿＿［コメントする］＿＿。",
-         "tr": "… [comment] … ."
+         "tr": "＿＿ [comment] ＿＿."
         },
         {
          "sp": "あなた",
          "v": "f",
          "ja": "❻＿＿**し**＿＿**し、本当に**＿＿**たよ。**\n❼＿＿**時は、**＿＿｛ってことを学んだよ／と思ったよ｝。",
-         "tr": "…, …, and it was really … . I (learned / thought) that when …, … ."
+         "tr": "＿＿, ＿＿, and it was really ＿＿.\nWhen ＿＿, ＿＿ (, I learned / , I thought)."
         }
        ]
       }
@@ -4200,7 +4203,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "__いったい__どうして殺処分数が減っているのでしょうか。まず、「ペットがかわいくなくなったから」、「{引|ひ}っ{越|こ}しするから」という理由では、保健所が引きとりを{断|ことわ}れるようになったからです。それから、動物{愛護団体|あいごだんたい}が飼えなくなったペットを直接引きとって、次の飼い主を{探|さが}すようになったことも減少の理由の一つになっています。",
-       "tr": "So why on earth is the number of animals euthanized going down? First, it's because public health centers are now allowed to refuse to take in animals for reasons like “my pet isn't cute anymore” or “I'm moving.” Another reason for the decrease is that animal welfare organizations have started taking in pets that their owners can no longer keep directly and looking for new owners for them."
+       "tr": "So why on earth is the number of animals euthanized going down? First, it's because public health centers are now allowed to refuse to take in animals for reasons like “my pet isn't cute anymore” or “I'm moving.” Another reason for the decrease is that animal welfare organizations have started taking in pets directly from owners who can no longer keep them and looking for new owners for them."
       },
       {
        "sp": "",
@@ -4370,7 +4373,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "信じられないと思っています。ペットを飼ったことがないし、ペットが服などをほしいと思っているかどうかわからないからです。",
-        "tr": "He finds it hard to believe. Because he has never had a pet, and he doesn't know whether pets actually want things like clothes."
+        "tr": "He finds it unbelievable, because he has never had a pet and doesn't know whether pets actually want things like clothes."
        }
       }
      ]
@@ -4444,7 +4447,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "え？　__ということは__、犬も一緒に泊まった、ってこと？",
-       "tr": "Huh? So you mean the dog stayed there with you?"
+       "tr": "Huh? So that means the dog stayed there with you too?"
       },
       {
        "sp": "絵",
@@ -4492,7 +4495,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "ペットがいない僕からすると、そこまでするのはちょっと抵抗があるな。そもそも本当に犬が服とか望んでいるのか、わからないわけだし。",
-       "tr": "For me, since I don't have a pet, going that far feels a bit much. I mean, we don't even know whether dogs really want things like clothes in the first place."
+       "tr": "Speaking as someone without a pet, I'm a little uncomfortable with going that far. I mean, we don't even know whether dogs really want things like clothes in the first place."
       },
       {
        "sp": "絵",

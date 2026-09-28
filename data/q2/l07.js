@@ -3226,7 +3226,7 @@ TRY.registerLesson({
       },
       {
        "ja": "{挙手|きょしゅ}",
-       "en": "raising one's hand"
+       "en": "raising one’s hand"
       }
      ]
     },
@@ -3441,8 +3441,6 @@ TRY.registerLesson({
      "blocks": [
       {
        "t": "dialogue",
-       "style": "formal",
-       "styleLabel": "フォーマルなディスカッション",
        "lines": [
         {
          "sp": "リーダー",
@@ -3457,7 +3455,7 @@ TRY.registerLesson({
          "tr": "How about …? The reason is that …. Also, from my experience, I feel that …. What do you think, …?"
         },
         {
-         "ja": "＊＊＊ 参加者 2（反対し、別の提案をする）か、参加者 3（賛成し、付け加える）に進む ＊＊＊",
+         "ja": "＊ ＊ ＊ 参加者 2（反対し、別の提案をする）か、参加者 3（賛成し、付け加える）に進む ＊ ＊ ＊",
          "tr": "*** Go on to Participant 2 (disagree and make another proposal) or Participant 3 (agree and add to it) ***"
         },
         {
@@ -3473,7 +3471,7 @@ TRY.registerLesson({
          "tr": "It certainly sounds …. To add to …'s idea, how about …? (The reason is that ….) What does everyone else think?"
         },
         {
-         "ja": "＊＊＊ 参加者 2 か参加者 3 へ戻り、話し合いを続ける ＊＊＊",
+         "ja": "＊ ＊ ＊ 参加者 2 か参加者 3 へ戻り、話し合いを続ける ＊ ＊ ＊",
          "tr": "*** Go back to Participant 2 or Participant 3 and continue the discussion ***"
         }
        ]
@@ -3591,7 +3589,7 @@ TRY.registerLesson({
     },
     {
      "t": "figure",
-     "desc": "A U-shaped curve of satisfaction (vertical axis, 満足度 ↑) over time (horizontal axis, 時間 →). ❶ is at the start of the curve, already high; ❷ is at its peak, just before it turns down; ❸ is on the long falling slope; ❹ is on the rising slope after the lowest point; ❺ is near the top of the rise at the end, about as high as the start.",
+     "desc": "A U-shaped curve of satisfaction (vertical axis, 満足度 ↑) over time (horizontal axis, 時間 →). ❶ is at the start of the curve, already high; ❷ is just past the peak, where the curve starts to turn down; ❸ is low on the long falling slope, near the bottom; ❹ is on the rising slope after the lowest point; ❺ is near the top of the rise at the end, about as high as the start.",
      "labels": [
       "満足度",
       "時間",
