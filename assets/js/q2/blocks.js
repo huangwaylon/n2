@@ -75,7 +75,10 @@ const B = {
   head(b) {
     const s = b.style === "sq" && /^☛/.test(plain(b.text && b.text.ja !== undefined ? b.text.ja : b.text)) ? "sq hd--pt" : b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
     const h = s === "band" ? "h2" : s === "label" ? "h4" : "h3";
-    return `<${h} class="hd hd--${s}"${idAttr(b)}>${b.icon ? skillIcon(b.icon) : ""}${tag}<span class="hd-t">${inl(b.text)}</span>${audioBadge(b.audio)}</${h}>`;
+    // a heading's printed English (p.041 上位語と下位語 Hypernyms and hyponyms) is part of the heading: always shown
+    const o = b.text && typeof b.text === "object" && b.text.ja && b.text.en ? b.text : null;
+    const t = o ? `<span class="ja">${fmt(o.ja)}</span> <span class="hd-en">${fmt(o.en)}</span>${o.tr ? en(o.tr, "gen", "span", "en-under") : ""}` : inl(b.text);
+    return `<${h} class="hd hd--${s}"${idAttr(b)}>${b.icon ? skillIcon(b.icon) : ""}${tag}<span class="hd-t">${t}</span>${audioBadge(b.audio)}</${h}>`;
   },
   p: (b) => line(b.text, `qp${b.style ? " qp--" + b.style : ""}`),
   hr: () => `<hr class="q-hr">`,

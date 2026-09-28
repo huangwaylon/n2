@@ -82,6 +82,7 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 .hd--pt { color: var(--ink); }
 .hd--pt::before { display: none; }  /* ☛ comparison sub-headings: the ☛ only (p.046) */
 .hd--label { font-size: 15px; font-weight: 700; color: var(--q); border-bottom: 2px solid var(--q); border-right: 2px solid var(--q); border-radius: 0 0 8px 0; padding: 0 16px 2px 2px; width: fit-content; margin: 22px 0 10px; }
+.hd-en { font: 700 .85em/1.4 var(--goth); color: var(--ink); margin-left: .3em; }
 .hd--plain { font-size: 18px; font-weight: 700; }
 .hd .en-under { flex-basis: 100%; }
 
