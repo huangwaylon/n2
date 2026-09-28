@@ -109,7 +109,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ようきゅ", "ようぎゅう", "よっきゅう"],
     book: { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が**{要求|ようきゅう}**されることを忘れてはいけない。", en: "From an employee's standpoint, the higher the salary the better, but you mustn't forget that to receive a high salary you are expected to produce results to match.", at: "gp/60" },
     ex: [
-      { ja: "{労働組合|ろうどうくみあい}は{会社|かいしゃ}に{給料|きゅうりょう}の{引|ひ}き{上|あ}げを**{要求|ようきゅう}**した。", en: "The labor union demanded that the company raise wages.", alt: ["{追求|ついきゅう}", "{請求|せいきゅう}", "{要約|ようやく}"] },
+      { ja: "{労働組合|ろうどうくみあい}は{会社|かいしゃ}に{給料|きゅうりょう}の{引|ひ}き{上|あ}げを**{要求|ようきゅう}**した。", en: "The labor union demanded that the company raise wages.", alt: ["{追求|ついきゅう}", "{探求|たんきゅう}", "{要約|ようやく}"] },
     ] },
   { w: "{目撃者|もくげきしゃ}", lv: "N1", pos: "noun",
     en: "eyewitness",
@@ -125,7 +125,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しょげん", "しょうごん", "せいげん"],
     book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
     ex: [
-      { ja: "{彼|かれ}は{裁判|さいばん}で、{事件|じけん}の{夜|よる}のことを**{証言|しょうげん}**した。", en: "At the trial, he testified about the night of the incident.", alt: ["{証明|しょうめい}", "{宣言|せんげん}", "{助言|じょげん}"] },
+      { ja: "{彼|かれ}は{裁判|さいばん}で、{事件|じけん}の{夜|よる}のことを**{証言|しょうげん}**した。", en: "At the trial, he testified about the night of the incident.", alt: ["{証券|しょうけん}", "{宣言|せんげん}", "{助言|じょげん}"] },
     ] },
   { w: "{複数|ふくすう}", lv: "N2", pos: "noun",
     en: "more than one; several; plural",
@@ -189,7 +189,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ゆうじ", "ようち", "ゆち"],
     book: { ja: "みどり市では工場**{誘致|ゆうち}**を{喜|よろこ}ぶ市民がいる{一方|いっぽう}、", en: "In Midori City, while some residents welcome efforts to attract factories, (others …)", at: "gp/61" },
     ex: [
-      { ja: "{市|し}は{国際会議|こくさいかいぎ}の**{誘致|ゆうち}**に{力|ちから}を{入|い}れている。", en: "The city is working hard to attract international conferences.", alt: ["{誘惑|ゆうわく}", "{招待|しょうたい}", "{一致|いっち}"] },
+      { ja: "{市|し}は{国際会議|こくさいかいぎ}の**{誘致|ゆうち}**に{力|ちから}を{入|い}れている。", en: "The city is working hard to attract international conferences.", alt: ["{誘惑|ゆうわく}", "{誘拐|ゆうかい}", "{一致|いっち}"] },
     ] },
   { w: "{対策|たいさく}", lv: "N2", pos: "noun",
     en: "countermeasure; measures (to deal with a problem)",
@@ -229,7 +229,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しんいゅう", "ちんにゅう", "しにゅう"],
     book: { ja: "{犯人|はんにん}はそこから**{侵入|しんにゅう}**したと思われます。", en: "It is thought the culprit got in through there.", at: "gp/62" },
     ex: [
-      { ja: "{夜中|よなか}に{何者|なにもの}かが{事務所|じむしょ}に**{侵入|しんにゅう}**し、パソコンを{盗|ぬす}んだ。", en: "In the middle of the night someone broke into the office and stole a computer.", alt: ["{進入|しんにゅう}", "{加入|かにゅう}", "{侵略|しんりゃく}"] },
+      { ja: "{夜中|よなか}に{何者|なにもの}かが{事務所|じむしょ}に**{侵入|しんにゅう}**し、パソコンを{盗|ぬす}んだ。", en: "In the middle of the night someone broke into the office and stole a computer.", alt: ["{浸透|しんとう}", "{加入|かにゅう}", "{侵略|しんりゃく}"] },
     ] },
   { w: "{独自|どくじ}", lv: "N1", pos: "noun · な adjective (usually 独自の)",
     en: "one's own; original; independent (of others)",
@@ -325,7 +325,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しいん", "しえい", "ちえん"],
     book: { ja: "海外からも多くの**{支援|しえん}**が{寄|よ}せられた", en: "a great deal of aid was also sent from abroad", at: "gp/63" },
     ex: [
-      { ja: "{市|し}は{子育|こそだ}て{中|ちゅう}の{家庭|かてい}への**{支援|しえん}**を{強化|きょうか}する。", en: "The city will strengthen its support for families raising children.", alt: ["{支店|してん}", "{声援|せいえん}", "{支持|しじ}"] },
+      { ja: "{市|し}は{子育|こそだ}て{中|ちゅう}の{家庭|かてい}への**{支援|しえん}**を{強化|きょうか}する。", en: "The city will strengthen its support for families raising children.", alt: ["{支店|してん}", "{声援|せいえん}", "{支度|したく}"] },
     ] },
   { w: "{信仰|しんこう}", lv: "N1", pos: "noun · する verb",
     en: "(religious) faith; belief; worship",
@@ -341,7 +341,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["きしゅん", "きじゅうん", "もとじゅん"],
     book: { ja: "この{商品|しょうひん}は安全**{基準|きじゅん}**にしたがって作られています。", en: "This product is made in accordance with safety standards.", at: "gp/65" },
     ex: [
-      { ja: "この{会社|かいしゃ}では、{年齢|ねんれい}ではなく{能力|のうりょく}を**{基準|きじゅん}**に{給料|きゅうりょう}を{決|き}めている。", en: "This company decides salaries on the basis of ability, not age.", alt: ["{基礎|きそ}", "{水準|すいじゅん}", "{基地|きち}"] },
+      { ja: "この{会社|かいしゃ}では、{年齢|ねんれい}ではなく{能力|のうりょく}を**{基準|きじゅん}**に{給料|きゅうりょう}を{決|き}めている。", en: "This company decides salaries on the basis of ability, not age.", alt: ["{基金|ききん}", "{水準|すいじゅん}", "{基地|きち}"] },
     ] },
   { w: "{不景気|ふけいき}", lv: "N2", pos: "noun · な adjective",
     en: "recession; economic slump; hard times",
@@ -357,7 +357,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いだる", "しる", "いたす"],
     book: { ja: "{不景気|ふけいき}で{倒産|とうさん}する{企業|きぎょう}がある＿＿、{優|すぐ}れた{技術|ぎじゅつ}で世界的なシェアを持つに**{至|いた}った**{企業|きぎょう}もある。", en: "While some companies go bankrupt in the recession, others have come to hold a global market share thanks to their outstanding technology.", at: "ch/7" },
     ex: [
-      { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、{両国|りょうこく}は{合意|ごうい}に**{至|いた}った**。", en: "After long talks, the two countries reached an agreement.", alt: ["{届|とど}いた", "{着|つ}いた", "{移|うつ}った"] },
+      { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、{両国|りょうこく}は{合意|ごうい}に**{至|いた}った**。", en: "After long talks, the two countries reached an agreement.", alt: ["{届|とど}いた", "{咲|さ}いた", "{移|うつ}った"] },
     ] },
   { w: "{復活|ふっかつ}", lv: "N1", pos: "noun · する verb",
     en: "revival; comeback; return",
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["げきけん", "きょくげん", "げっげん"],
     book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は**{激減|げきげん}**したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing.", at: "ch/7" },
     ex: [
-      { ja: "{不漁|ふりょう}が{続|つづ}き、この{港|みなと}の{水揚|みずあ}げは**{激減|げきげん}**した。", en: "After a run of poor catches, the amount of fish landed at this port plunged.", alt: ["{激増|げきぞう}", "{削減|さくげん}", "{増減|ぞうげん}"] },
+      { ja: "{不漁|ふりょう}が{続|つづ}き、この{港|みなと}の{水揚|みずあ}げは**{激減|げきげん}**した。", en: "After a run of poor catches, the amount of fish landed at this port plunged.", alt: ["{激増|げきぞう}", "{削減|さくげん}", "{加減|かげん}"] },
     ] },
   { w: "{徐々|じょじょ}に", lv: "N2", pos: "adverb",
     en: "gradually; little by little",
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いきょう", "いごう", "いむこう"],
     book: { ja: "彼は、親の**{意向|いこう}**に{反|はん}して、{戦場|せんじょう}カメラマンになった。", en: "Against his parents' wishes, he became a war photographer.", at: "gp/67" },
     ex: [
-      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president made clear his intention to retire next year.", alt: ["{方向|ほうこう}", "{意外|いがい}", "{傾向|けいこう}"] },
+      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president made clear his intention to retire next year.", alt: ["{方角|ほうがく}", "{意外|いがい}", "{傾向|けいこう}"] },
     ] },
   { w: "{政策|せいさく}", lv: "N1", pos: "noun",
     en: "(government) policy",
@@ -501,7 +501,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ごうせい", "きょうぜい", "きょせい"],
     book: { ja: "{労働者|ろうどうしゃ}の{意思|いし}（　）{雇用者|こようしゃ}が{労働|ろうどう}を**{強制|きょうせい}**することはできない。", en: "Employers cannot force workers to work against their will.", at: "gp/67" },
     ex: [
-      { ja: "{参加|さんか}は{自由|じゆう}です。{誰|だれ}にも**{強制|きょうせい}**はしません。", en: "Participation is voluntary. We won't force anyone.", alt: ["{強化|きょうか}", "{制限|せいげん}", "{強調|きょうちょう}"] },
+      { ja: "{参加|さんか}は{自由|じゆう}です。{誰|だれ}にも**{強制|きょうせい}**はしません。", en: "Participation is voluntary. We won't force anyone.", alt: ["{強化|きょうか}", "{制服|せいふく}", "{強調|きょうちょう}"] },
     ] },
   { w: "{細心|さいしん}", lv: "N1", pos: "noun · な adjective",
     en: "meticulous; utmost (care)",
@@ -597,7 +597,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["かんやか", "ゆるいやか", "ゆかやか"],
     book: { ja: "日本銀行は、国内の{景気|けいき}について、**{緩|ゆる}やか**に{回復|かいふく}しつつあると発表した。", en: "The Bank of Japan announced that the domestic economy is gradually recovering.", at: "gp/71" },
     ex: [
-      { ja: "この{道|みち}は**{緩|ゆる}やか**な{坂|さか}が{続|つづ}くので、{歩|ある}きやすい。", en: "This road is a long, gentle slope, so it's easy to walk.", alt: ["{穏|おだ}やか", "{速|すみ}やか", "{細|こま}やか"] },
+      { ja: "この{道|みち}は**{緩|ゆる}やか**な{坂|さか}が{続|つづ}くので、{歩|ある}きやすい。", en: "This road is a long, gentle slope, so it's easy to walk.", alt: ["{鮮|あざ}やか", "{速|すみ}やか", "{細|こま}やか"] },
     ] },
   { w: "{緊急|きんきゅう}", lv: "N2", pos: "noun · な adjective",
     en: "emergency; urgent",
@@ -669,7 +669,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["けこう", "けいごう", "きょうこう"],
     book: { ja: "このデータ（　）男性のほうが女性より{甘|あま}い飲み物を{好|この}む**{傾向|けいこう}**があることがわかります。", en: "Judging from this data, we can see that men tend to prefer sweet drinks more than women do.", at: "ch/7/review" },
     ex: [
-      { ja: "{最近|さいきん}の{若者|わかもの}は、{車|くるま}を{買|か}わない**{傾向|けいこう}**にある。", en: "Young people these days tend not to buy cars.", alt: ["{方向|ほうこう}", "{意向|いこう}", "{傾斜|けいしゃ}"] },
+      { ja: "{最近|さいきん}の{若者|わかもの}は、{車|くるま}を{買|か}わない**{傾向|けいこう}**にある。", en: "Young people these days tend not to buy cars.", alt: ["{方法|ほうほう}", "{意向|いこう}", "{傾斜|けいしゃ}"] },
     ] },
   { w: "{発掘|はっくつ}", lv: "N1", pos: "noun · する verb",
     en: "excavation; digging up; discovering (hidden talent)",
@@ -693,7 +693,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ごうど", "きょうと", "きょうつち"],
     book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "While culinary researcher Ms. Kuribayashi presents original creative dishes, she also researches traditional local cuisine from around the country.", at: "ch/7/review" },
     ex: [
-      { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the famous one.", alt: ["{国土|こくど}", "{土地|とち}", "{風土|ふうど}"] },
+      { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the famous one.", alt: ["{国土|こくど}", "{土地|とち}", "{領土|りょうど}"] },
     ] },
   { w: "{関与|かんよ}", lv: "N1", pos: "noun · する verb",
     en: "involvement; having a hand in (something)",
@@ -709,7 +709,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いちさい", "いっきり", "ひときり"],
     book: { ja: "**{一切|いっさい}**知らない", en: "know nothing at all", at: "ch/7/review" },
     ex: [
-      { ja: "この{件|けん}について、{私|わたし}は**{一切|いっさい}**{関係|かんけい}ありません。", en: "I have absolutely nothing to do with this matter.", alt: ["{一応|いちおう}", "{一時|いちじ}", "{一斉|いっせい}"] },
+      { ja: "この{件|けん}について、{私|わたし}は**{一切|いっさい}**{関係|かんけい}ありません。", en: "I have absolutely nothing to do with this matter.", alt: ["{一緒|いっしょ}", "{一時|いちじ}", "{一斉|いっせい}"] },
     ] },
   { w: "{膨張|ぼうちょう}", lv: "N1", pos: "noun · する verb",
     en: "expansion; swelling",

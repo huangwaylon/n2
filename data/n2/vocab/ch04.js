@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["きあち", "けあつ", "きえつ"],
     book: { ja: "中心の**{気圧|きあつ}**は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second.", at: "ch/4" },
     ex: [
-      { ja: "{山|やま}の{上|うえ}は**{気圧|きあつ}**が{低|ひく}いので、お{菓子|かし}の{袋|ふくろ}がふくらむ。", en: "Air pressure is low at the top of a mountain, so snack bags puff up.", alt: ["{気温|きおん}", "{血圧|けつあつ}", "{気分|きぶん}"] },
+      { ja: "{山|やま}の{上|うえ}は**{気圧|きあつ}**が{低|ひく}いので、お{菓子|かし}の{袋|ふくろ}がふくらむ。", en: "Air pressure is low at the top of a mountain, so snack bags puff up.", alt: ["{気配|けはい}", "{血圧|けつあつ}", "{気分|きぶん}"] },
     ] },
   { w: "{瞬間|しゅんかん}", lv: "N2", pos: "noun",
     en: "moment; instant",
@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["えんかん", "せんがん", "そいがん"],
     book: { ja: "また、{九州|きゅうしゅう}**{沿岸|えんがん}**から{四国|しこく}にかけて{波|なみ}も高くなってきています。", en: "The waves are also getting higher from the Kyushu coast to Shikoku.", at: "ch/4" },
     ex: [
-      { ja: "{津波|つなみ}{警報|けいほう}が{出|だ}され、**{沿岸|えんがん}**の{住民|じゅうみん}は{高台|たかだい}に{避難|ひなん}した。", en: "A tsunami warning was issued, and residents along the coast evacuated to high ground.", alt: ["{沿線|えんせん}", "{沿道|えんどう}", "{延長|えんちょう}"] },
+      { ja: "{津波|つなみ}{警報|けいほう}が{出|だ}され、**{沿岸|えんがん}**の{住民|じゅうみん}は{高台|たかだい}に{避難|ひなん}した。", en: "A tsunami warning was issued, and residents along the coast evacuated to high ground.", alt: ["{沿革|えんかく}", "{延期|えんき}", "{延長|えんちょう}"] },
     ] },
   { w: "{洪水|こうずい}", lv: "N2", pos: "noun",
     en: "flood; flooding",
@@ -141,7 +141,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["すかた", "しせい", "すがだ"],
     book: { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべつつ、プレゼントを選ぶお父さんの**{姿|すがた}**が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces.", at: "gp/30" },
     ex: [
-      { ja: "{最近|さいきん}、{朝|あさ}の{公園|こうえん}で{走|はし}っている{人|ひと}の**{姿|すがた}**をよく{見|み}かける。", en: "Lately I often see people jogging in the park in the morning.", alt: ["{形|かたち}", "{影響|えいきょう}", "{様子|ようす}"] },
+      { ja: "{最近|さいきん}、{朝|あさ}の{公園|こうえん}で{走|はし}っている{人|ひと}の**{姿|すがた}**をよく{見|み}かける。", en: "Lately I often see people jogging in the park in the morning.", alt: ["{形|かたち}", "{影響|えいきょう}", "{景色|けしき}"] },
     ] },
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
@@ -236,7 +236,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["しゅうたい", "じゅうだい", "じゅたい"],
     book: { ja: "「1週間にわたって雨が降り続いた」「高速道路は50キロにわたって**{渋滞|じゅうたい}**している」のように、時間や場所の{範囲|はんい}全部でという意味で使う。", en: "Use this to mean throughout a long length of time or wide area as in “1週間にわたって雨が降り続いた” and “高速道路は50キロにわたって{渋滞|じゅうたい}している”.", at: "gp/31", src: "book" },
     ex: [
-      { ja: "{連休|れんきゅう}{初日|しょにち}で、{高速|こうそく}{道路|どうろ}はひどく**{渋滞|じゅうたい}**していた。", en: "It was the first day of the long weekend, and the expressway was badly jammed.", alt: ["{停滞|ていたい}", "{重大|じゅうだい}", "{延滞|えんたい}"] },
+      { ja: "{連休|れんきゅう}{初日|しょにち}で、{高速|こうそく}{道路|どうろ}はひどく**{渋滞|じゅうたい}**していた。", en: "It was the first day of the long weekend, and the expressway was badly jammed.", alt: ["{連帯|れんたい}", "{重大|じゅうだい}", "{延滞|えんたい}"] },
     ] },
   { w: "{全域|ぜんいき}", lv: "N1", pos: "noun",
     en: "the whole area; the entire region",
@@ -420,7 +420,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ひきおくす", "いんきこす", "ひっきおこす"],
     book: { ja: "この{化粧品|けしょうひん}はアレルギーを**{引|ひ}き{起|お}こす**おそれがあるので、{販売|はんばい}中止になった。", en: "Sales of this cosmetic were stopped because it may cause allergies.", at: "gp/34" },
     ex: [
-      { ja: "{運転|うんてん}{中|ちゅう}のスマートフォンの{使用|しよう}は、{重大|じゅうだい}な{事故|じこ}を**{引|ひ}き{起|お}こす**。", en: "Using a smartphone while driving causes serious accidents.", alt: ["{引|ひ}き{受|う}ける", "{引|ひ}き{返|かえ}す", "{呼|よ}び{起|お}こす"] },
+      { ja: "{運転|うんてん}{中|ちゅう}のスマートフォンの{使用|しよう}は、{重大|じゅうだい}な{事故|じこ}を**{引|ひ}き{起|お}こす**。", en: "Using a smartphone while driving causes serious accidents.", alt: ["{引|ひ}き{受|う}ける", "{引|ひ}き{返|かえ}す", "{叩|たた}き{起|お}こす"] },
     ] },
   { w: "{災害|さいがい}", lv: "N2", pos: "noun",
     en: "disaster; calamity",
@@ -452,7 +452,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["かいする", "がいずる", "そこする"],
     book: { ja: "**{害|がい}する**", en: "harm", at: "gp/34" },
     ex: [
-      { ja: "{失礼|しつれい}な{言|い}い{方|かた}をして、{相手|あいて}の{気分|きぶん}を**{害|がい}して**しまった。", en: "I spoke rudely and ended up offending the other person.", alt: ["{満|み}たして", "{壊|こわ}して", "{許|ゆる}して"] },
+      { ja: "{失礼|しつれい}な{言|い}い{方|かた}をして、{相手|あいて}の{気分|きぶん}を**{害|がい}して**しまった。", en: "I spoke rudely and ended up offending the other person.", alt: ["{満|み}たして", "{溶|と}かして", "{許|ゆる}して"] },
     ] },
   { w: "{搭乗|とうじょう}", lv: "N1", pos: "noun · する verb",
     en: "boarding (a plane or ship)",
@@ -460,7 +460,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["とうじょ", "たっじょう", "とうしょう"],
     book: { ja: "お客様の**{搭乗|とうじょう}**が遅れますと、予定{通|どお}りに出発（　）おそれがございますので、早めのご{準備|じゅんび}をお願いいたします。", en: "If passengers are late boarding, we may not be able to depart on schedule, so we ask you to get ready early.", at: "gp/34" },
     ex: [
-      { ja: "**{搭乗|とうじょう}**{口|ぐち}は{出発|しゅっぱつ}の15{分|ふん}{前|まえ}に{閉|し}まります。", en: "The boarding gate closes fifteen minutes before departure.", alt: ["{登場|とうじょう}", "{乗車|じょうしゃ}", "{到着|とうちゃく}"] },
+      { ja: "**{搭乗|とうじょう}**{口|ぐち}は{出発|しゅっぱつ}の15{分|ふん}{前|まえ}に{閉|し}まります。", en: "The boarding gate closes fifteen minutes before departure.", alt: ["{登場|とうじょう}", "{上陸|じょうりく}", "{到着|とうちゃく}"] },
     ] },
   { w: "{医療|いりょう}", lv: "N2", pos: "noun",
     en: "medical care; health care; medical treatment",
@@ -532,7 +532,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["けんあわせる", "みごうわせる", "みあいわせる"],
     book: { ja: "ただ今、{全線|ぜんせん}で運転を**{見|み}{合|あ}わせて**おりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Services are currently suspended on all lines; we will let you know as soon as we receive information.", at: "gp/36" },
     ex: [
-      { ja: "{台風|たいふう}が{近|ちか}づいているため、{旅行|りょこう}を**{見合|みあ}わせる**ことにした。", en: "A typhoon is approaching, so we decided to put off our trip.", alt: ["{問|と}い{合|あ}わせる", "{待|ま}ち{合|あ}わせる", "{組|く}み{合|あ}わせる"] },
+      { ja: "{台風|たいふう}が{近|ちか}づいているため、{旅行|りょこう}を**{見合|みあ}わせる**ことにした。", en: "A typhoon is approaching, so we decided to put off our trip.", alt: ["{詰|つ}め{合|あ}わせる", "{待|ま}ち{合|あ}わせる", "{組|く}み{合|あ}わせる"] },
     ] },
   { w: "{入金|にゅうきん}", lv: "N1", pos: "noun · する verb",
     en: "payment (received); deposit (into an account)",
@@ -604,7 +604,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["きゅえん", "きゅうおん", "くえん"],
     book: { ja: "**{救援活動|きゅうえんかつどう}**を", en: "relief operations", at: "ch/4/review" },
     ex: [
-      { ja: "{被災地|ひさいち}に、{全国|ぜんこく}から**{救援|きゅうえん}**{物資|ぶっし}が{届|とど}けられた。", en: "Relief supplies from all over the country were delivered to the disaster area.", alt: ["{応援|おうえん}", "{救急|きゅうきゅう}", "{声援|せいえん}"] },
+      { ja: "{被災地|ひさいち}に、{全国|ぜんこく}から**{救援|きゅうえん}**{物資|ぶっし}が{届|とど}けられた。", en: "Relief supplies from all over the country were delivered to the disaster area.", alt: ["{球場|きゅうじょう}", "{救急|きゅうきゅう}", "{声援|せいえん}"] },
     ] },
   { w: "{景気|けいき}", lv: "N2", pos: "noun",
     en: "the economy; business conditions; economic climate",
@@ -628,7 +628,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["へんが", "へんかっく", "へんかわ"],
     book: { ja: "{時代|じだい}の{変化|へんか}[1]、大学も大きく**{変革|へんかく}**を{迫|せま}られております。", en: "Along with the changes of the times, universities too are being pressed to transform greatly.", at: "ch/4/review" },
     ex: [
-      { ja: "インターネットは、{私|わたし}たちの{働|はたら}き{方|かた}に{大|おお}きな**{変革|へんかく}**をもたらした。", en: "The internet brought about a major transformation in the way we work.", alt: ["{変更|へんこう}", "{返却|へんきゃく}", "{変身|へんしん}"] },
+      { ja: "インターネットは、{私|わたし}たちの{働|はたら}き{方|かた}に{大|おお}きな**{変革|へんかく}**をもたらした。", en: "The internet brought about a major transformation in the way we work.", alt: ["{変装|へんそう}", "{返却|へんきゃく}", "{変身|へんしん}"] },
     ] },
   { w: "{迫|せま}る", lv: "N2", pos: "godan verb",
     en: "press (for); urge; approach, draw near",

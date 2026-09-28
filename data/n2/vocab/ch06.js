@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["どうぎ", "とうき", "どき"],
     book: { ja: "初めは**{同期|どうき}**の人に{比|くら}べて、{知識|ちしき}も{技術|ぎじゅつ}も足りなかったからね。", en: "At first I was short on both knowledge and skills compared with the people who joined the same year as me.", at: "ch/6" },
     ex: [
-      { ja: "{彼|かれ}とは**{同期|どうき}**で{入社|にゅうしゃ}して、もう十{年|ねん}の{付|つ}き{合|あ}いだ。", en: "He and I joined the company in the same intake, so we've known each other for ten years now.", alt: ["{動機|どうき}", "{同時|どうじ}", "{時期|じき}"] },
+      { ja: "{彼|かれ}とは**{同期|どうき}**で{入社|にゅうしゃ}して、もう十{年|ねん}の{付|つ}き{合|あ}いだ。", en: "He and I joined the company in the same intake, so we've known each other for ten years now.", alt: ["{動機|どうき}", "{同居|どうきょ}", "{時期|じき}"] },
     ] },
   { w: "{上司|じょうし}", lv: "N2", pos: "noun",
     en: "boss; superior (at work)",
@@ -92,7 +92,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["だいじょう", "たいば", "たいじょ"],
     book: { ja: "**{退場|たいじょう}**させられてしまった", en: "he got sent off", at: "gp/48" },
     ex: [
-      { ja: "{演奏|えんそう}が{終|お}わると、{出演者|しゅつえんしゃ}は{拍手|はくしゅ}の{中|なか}**{退場|たいじょう}**した。", en: "When the performance was over, the performers left the stage amid applause.", alt: ["{登場|とうじょう}", "{退院|たいいん}", "{会場|かいじょう}"] },
+      { ja: "{演奏|えんそう}が{終|お}わると、{出演者|しゅつえんしゃ}は{拍手|はくしゅ}の{中|なか}**{退場|たいじょう}**した。", en: "When the performance was over, the performers left the stage amid applause.", alt: ["{立場|たちば}", "{退院|たいいん}", "{会場|かいじょう}"] },
     ] },
   { w: "{売店|ばいてん}", lv: "N2", pos: "noun",
     en: "kiosk; stand; shop (inside a station, hospital, park)",
@@ -225,7 +225,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["びんしい", "ひんしい", "まづしい"],
     book: { ja: "**{貧|まず}しくても**家族が{仲|なか}よく{暮|く}らせるのが{幸|しあわ}せというものですよ。", en: "Being able to live together happily as a family, even if you're poor — that's what happiness is.", at: "gp/52" },
     ex: [
-      { ja: "{彼|かれ}は**{貧|まず}しい**{家庭|かてい}に{育|そだ}ったが、{努力|どりょく}して{医者|いしゃ}になった。", en: "He grew up in a poor family, but through hard work became a doctor.", alt: ["{乏|とぼ}しい", "{険|けわ}しい", "{惜|お}しい"] },
+      { ja: "{彼|かれ}は**{貧|まず}しい**{家庭|かてい}に{育|そだ}ったが、{努力|どりょく}して{医者|いしゃ}になった。", en: "He grew up in a poor family, but through hard work became a doctor.", alt: ["{涼|すず}しい", "{険|けわ}しい", "{惜|お}しい"] },
     ] },
   { w: "{批判|ひはん}", lv: "N2", pos: "noun · する verb",
     en: "criticism",
@@ -328,7 +328,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ちゅうはん", "ひるまし", "ひるめい"],
     book: { ja: "そろそろ12時だけど、**{昼飯|ひるめし}**、どうする？", en: "It's almost 12. What do you want to do for lunch?", at: "gp/54" },
     ex: [
-      { ja: "**{昼飯|ひるめし}**、{食|く}いに{行|い}こうぜ。", en: "Let's go grab some lunch.", alt: ["{昼寝|ひるね}", "{夕立|ゆうだち}", "{昼間|ひるま}"] },
+      { ja: "**{昼飯|ひるめし}**、{食|く}いに{行|い}こうぜ。", en: "Let's go grab some lunch.", alt: ["{昼寝|ひるね}", "{夕立|ゆうだち}", "{朝顔|あさがお}"] },
     ] },
   { w: "{食|た}べ{放題|ほうだい}", lv: "N2", pos: "noun",
     en: "all-you-can-eat",
@@ -367,7 +367,7 @@ TRY.registerVocab({ ch: 6, words: [
     note: "Written 奢る: 先輩が後輩におごる, 今日はおごるよ (it's on me). Casual; the polite equivalent is ごちそうする. The receiver says おごってもらう or ごちそうになる.",
     book: { ja: "今日は私が**おごる**よ。", en: "Today's on me.", at: "gp/57" },
     ex: [
-      { ja: "{給料日|きゅうりょうび}だから、{今夜|こんや}は{私|わたし}が**おごる**よ。", en: "It's payday, so tonight's on me.", alt: ["いただく", "すます", "あずける"] },
+      { ja: "{給料日|きゅうりょうび}だから、{今夜|こんや}は{私|わたし}が**おごる**よ。", en: "It's payday, so tonight's on me.", alt: ["ねむる", "すます", "あずける"] },
     ] },
   { w: "{寝坊|ねぼう}", lv: "N2", pos: "noun · する verb",
     en: "oversleeping; a late riser",
@@ -487,7 +487,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["けんらくとす", "みおちとす", "みらくとす"],
     book: { ja: "**{見落|みお}として**いた", en: "had overlooked", at: "ch/6/review" },
     ex: [
-      { ja: "{大事|だいじ}なメールを**{見落|みお}として**、{返事|へんじ}が{遅|おく}れてしまった。", en: "I overlooked an important email and ended up replying late.", alt: ["{見下|みお}ろして", "{見送|みおく}って", "{見上|みあ}げて"] },
+      { ja: "{大事|だいじ}なメールを**{見落|みお}として**、{返事|へんじ}が{遅|おく}れてしまった。", en: "I overlooked an important email and ended up replying late.", alt: ["{見下|みお}ろして", "{見慣|みな}れて", "{見上|みあ}げて"] },
     ] },
   { w: "ご{存知|ぞんじ}", lv: "N2", pos: "noun (honorific)",
     en: "knowing (honorific); you know",
@@ -503,7 +503,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["がんむ", "ふくる", "こむ"],
     book: { ja: "**{含|ふく}まれる**", en: "contained", at: "ch/6/review" },
     ex: [
-      { ja: "この{料金|りょうきん}には{朝食|ちょうしょく}{代|だい}も**{含|ふく}まれて**いる。", en: "This rate includes breakfast as well.", alt: ["{込|こ}められて", "{囲|かこ}まれて", "{包|つつ}まれて"] },
+      { ja: "この{料金|りょうきん}には{朝食|ちょうしょく}{代|だい}も**{含|ふく}まれて**いる。", en: "This rate includes breakfast as well.", alt: ["{盗|ぬす}まれて", "{囲|かこ}まれて", "{包|つつ}まれて"] },
     ] },
   { w: "{国際的|こくさいてき}", lv: "N2", pos: "な adjective",
     en: "international",
@@ -567,7 +567,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["そうう", "あいう", "おう"],
     book: { ja: "「セキュリティーがしっかりしていなかったばかりに、大きな{被害|ひがい}に**{遭|あ}った**」", en: "“We suffered major damage just because our security wasn't solid”", at: "ch/6/review" },
     ex: [
-      { ja: "{旅行|りょこう}{中|ちゅう}に{財布|さいふ}を{盗|ぬす}まれて、ひどい{目|め}に**{遭|あ}った**。", en: "My wallet was stolen during the trip — it was an awful experience.", alt: ["{会|あ}った", "{合|あ}った", "{見|み}た"] },
+      { ja: "{旅行|りょこう}{中|ちゅう}に{財布|さいふ}を{盗|ぬす}まれて、ひどい{目|め}に**{遭|あ}った**。", en: "My wallet was stolen during the trip — it was an awful experience.", alt: ["{祝|いわ}った", "{払|はら}った", "{見|み}た"] },
     ] },
   { w: "{後悔|こうかい}", lv: "N2", pos: "noun · する verb",
     en: "regret",
@@ -583,7 +583,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["にんせる", "まませる", "たくせる"],
     book: { ja: "料金は少し高くても、{頼|たよ}れる会社に**{任|まか}せよう**というニーズがあったからと言える。", en: "You could say it's because there was demand for leaving things to a company you can rely on, even if the fee is a little higher.", at: "ch/6/review" },
     ex: [
-      { ja: "{料理|りょうり}は{得意|とくい}だから、{今日|きょう}の{夕食|ゆうしょく}は{私|わたし}に**{任|まか}せて**。", en: "I'm good at cooking, so leave tonight's dinner to me.", alt: ["{預|あず}けて", "{合|あ}わせて", "{届|とど}けて"] },
+      { ja: "{料理|りょうり}は{得意|とくい}だから、{今日|きょう}の{夕食|ゆうしょく}は{私|わたし}に**{任|まか}せて**。", en: "I'm good at cooking, so leave tonight's dinner to me.", alt: ["{浴|あ}びせて", "{合|あ}わせて", "{届|とど}けて"] },
     ] },
   { w: "{筆者|ひっしゃ}", lv: "N2", pos: "noun",
     en: "the writer (of a text); the author",

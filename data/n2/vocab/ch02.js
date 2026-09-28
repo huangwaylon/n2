@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しとう", "しどお", "じどう"],
     book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors.", at: "ch/2" },
     ex: [
-      { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指摘|してき}", "{誘導|ゆうどう}"] },
+      { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指紋|しもん}", "{誘導|ゆうどう}"] },
     ] },
   { w: "{取引先|とりひきさき}", lv: "N1", pos: "noun",
     en: "client; business partner (a company one does business with)",
@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["にちか", "ひか", "にっが"],
     book: { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を**{日課|にっか}**にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine.", at: "gp/9" },
     ex: [
-      { ja: "{寝|ね}る{前|まえ}に{日記|にっき}をつけるのが、{祖父|そふ}の**{日課|にっか}**だ。", en: "Writing in his diary before bed is my grandfather's daily routine.", alt: ["{日程|にってい}", "{課題|かだい}", "{日中|にっちゅう}"] },
+      { ja: "{寝|ね}る{前|まえ}に{日記|にっき}をつけるのが、{祖父|そふ}の**{日課|にっか}**だ。", en: "Writing in his diary before bed is my grandfather's daily routine.", alt: ["{日程|にってい}", "{課長|かちょう}", "{日中|にっちゅう}"] },
     ] },
   { w: "{遺伝子|いでんし}", lv: "N1", pos: "noun",
     en: "gene",
@@ -189,7 +189,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["じせん", "しぜん", "ことまえ"],
     book: { ja: "**{事前|じぜん}**に予約した場合（　）{無料|むりょう}で{参加|さんか}できます。", en: "Only if you book in advance can you take part free of charge.", at: "gp/12" },
     ex: [
-      { ja: "{欠席|けっせき}する{場合|ばあい}は、**{事前|じぜん}**にご{連絡|れんらく}ください。", en: "If you will be absent, please let us know in advance.", alt: ["{事後|じご}", "{自然|しぜん}", "{以前|いぜん}"] },
+      { ja: "{欠席|けっせき}する{場合|ばあい}は、**{事前|じぜん}**にご{連絡|れんらく}ください。", en: "If you will be absent, please let us know in advance.", alt: ["{事情|じじょう}", "{自然|しぜん}", "{以前|いぜん}"] },
     ] },
   { w: "{活発|かっぱつ}", lv: "N2", pos: "な adjective",
     en: "lively; active; brisk",
@@ -234,7 +234,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{避|さ}ける", lv: "N2", pos: "verb (ru-verb, transitive)",
     en: "to avoid; to keep away from; to evade",
     note: "Keep away from something unwanted: 混雑を避ける, 人目を避ける, 避けられない (unavoidable). よける is to dodge physically (車をよける); 避ける also covers topics and situations.",
-    rx: ["よける", "ひける", "さげる"],
+    rx: ["ざける", "ひける", "さげる"],
     book: { ja: "{国際関係|こくさいかんけい}を考える{上|うえ}で、{宗教|しゅうきょう}問題は**{避|さ}けられない**。", en: "When thinking about international relations, religious issues cannot be avoided.", at: "gp/14" },
     ex: [
       { ja: "{朝|あさ}のラッシュを**{避|さ}けて**、{早|はや}めに{家|いえ}を{出|で}た。", en: "I left home early to avoid the morning rush.", alt: ["{裂|さ}いて", "{下|さ}げて", "{冷|さ}めて"] },
@@ -261,7 +261,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["けかす", "かけかす", "かがす"],
     book: { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は**{欠|か}かせない**。", en: "When opening a new store, marketing research of the surrounding area is indispensable.", at: "gp/14" },
     ex: [
-      { ja: "{祖母|そぼ}は{毎朝|まいあさ}の{散歩|さんぽ}を**{欠|か}かさない**。", en: "My grandmother never misses her morning walk.", alt: ["{許|ゆる}さない", "{渡|わた}さない", "{貸|か}さない"] },
+      { ja: "{祖母|そぼ}は{毎朝|まいあさ}の{散歩|さんぽ}を**{欠|か}かさない**。", en: "My grandmother never misses her morning walk.", alt: ["{乾|かわ}かさない", "{渡|わた}さない", "{貸|か}さない"] },
     ] },
   { w: "{講座|こうざ}", lv: "N1", pos: "noun",
     en: "course (of lectures); class; university chair",
@@ -285,7 +285,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きゅうけい", "きゅがた", "ふるがた"],
     book: { ja: "この{洗濯機|せんたくき}は、**{旧型|きゅうがた}**ながらとても（　）。", en: "Although this washing machine is an old model, it is very (　).", at: "gp/15" },
     ex: [
-      { ja: "{新型|しんがた}が{出|で}たので、**{旧型|きゅうがた}**のスマホが{安|やす}く{売|う}られている。", en: "Since the new model came out, the old-model smartphones are being sold cheaply.", alt: ["{体型|たいけい}", "{血液型|けつえきがた}", "{旧友|きゅうゆう}"] },
+      { ja: "{新型|しんがた}が{出|で}たので、**{旧型|きゅうがた}**のスマホが{安|やす}く{売|う}られている。", en: "Since the new model came out, the old-model smartphones are being sold cheaply.", alt: ["{体型|たいけい}", "{血液型|けつえきがた}", "{旧姓|きゅうせい}"] },
     ] },
   { w: "{総合|そうごう}", lv: "N2", pos: "noun · する verb",
     en: "comprehensive; general; overall; synthesis",
@@ -365,7 +365,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しんづかい", "こころつかい", "こころちがい"],
     book: { ja: "最後に、本日は雨にもかかわらず、このように多くの{方々|かたがた}が来てくださったこと、皆様の温かいお**{心遣|こころづか}い**に心から{感謝|かんしゃ}しております。", en: "Finally, I am sincerely grateful that so many of you came today despite the rain, and for your warm consideration.", at: "ch/2" },
     ex: [
-      { ja: "{入院中|にゅういんちゅう}はお**{心遣|こころづか}い**をいただき、ありがとうございました。", en: "Thank you for your kindness while I was in the hospital.", alt: ["{無駄遣|むだづか}い", "{言葉遣|ことばづか}い", "{小遣|こづか}い"] },
+      { ja: "{入院中|にゅういんちゅう}はお**{心遣|こころづか}い**をいただき、ありがとうございました。", en: "Thank you for your kindness while I was in the hospital.", alt: ["{無駄遣|むだづか}い", "{言葉遣|ことばづか}い", "{金遣|かねづか}い"] },
     ] },
   { w: "{手本|てほん}", lv: "N1", pos: "noun",
     en: "model; example (to follow); copybook",
@@ -381,7 +381,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["ぜんで", "せんてい", "まえてい"],
     book: { ja: "{結婚|けっこん}を**{前提|ぜんてい}**に彼女に{交際|こうさい}を申し込んだ。", en: "I asked her to go out with me with a view to marriage.", at: "gp/16" },
     ex: [
-      { ja: "この{計画|けいかく}は、{予算|よさん}が{通|とお}ることが**{前提|ぜんてい}**になっている。", en: "This plan is based on the premise that the budget will be approved.", alt: ["{前進|ぜんしん}", "{提出|ていしゅつ}", "{前後|ぜんご}"] },
+      { ja: "この{計画|けいかく}は、{予算|よさん}が{通|とお}ることが**{前提|ぜんてい}**になっている。", en: "This plan is based on the premise that the budget will be approved.", alt: ["{前半|ぜんはん}", "{提出|ていしゅつ}", "{前後|ぜんご}"] },
     ] },
   { w: "{芸能|げいのう}", lv: "N1", pos: "noun",
     en: "performing arts; entertainment (industry)",
@@ -525,7 +525,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きにち", "きじつう", "ごじつ"],
     book: { ja: "**{期日|きじつ}**までに間に合わせると{約束|やくそく}した{以上|いじょう}は、{残業|ざんぎょう}してでも終わらせなければならない。", en: "Since I promised to have it done by the deadline, I have to finish it even if it means working overtime.", at: "gp/18" },
     ex: [
-      { ja: "{家賃|やちん}の{支払|しはら}いが**{期日|きじつ}**に{遅|おく}れてしまった。", en: "I was late paying the rent on the due date.", alt: ["{後日|ごじつ}", "{休日|きゅうじつ}", "{期待|きたい}"] },
+      { ja: "{家賃|やちん}の{支払|しはら}いが**{期日|きじつ}**に{遅|おく}れてしまった。", en: "My rent payment was late — I missed the due date.", alt: ["{後日|ごじつ}", "{休日|きゅうじつ}", "{期待|きたい}"] },
     ] },
   { w: "{残業|ざんぎょう}", lv: "N2", pos: "noun · する verb",
     en: "overtime (work)",
@@ -549,7 +549,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["じんくす", "づくす", "つきす"],
     book: { ja: "プロジェクトのリーダーを引き受けた{以上|いじょう}、{全力|ぜんりょく}を**{尽|つ}くします**。", en: "Now that I've taken on the role of project leader, I will do my utmost.", at: "gp/18" },
     ex: [
-      { ja: "{医者|いしゃ}たちはあらゆる{手|て}を**{尽|つ}くした**が、{患者|かんじゃ}を{救|すく}えなかった。", en: "The doctors tried everything, but they couldn't save the patient.", alt: ["{付|つ}くした", "{抜|ぬ}いた", "{突|つ}いた"] },
+      { ja: "{医者|いしゃ}たちはあらゆる{手|て}を**{尽|つ}くした**が、{患者|かんじゃ}を{救|すく}えなかった。", en: "The doctors tried everything, but they couldn't save the patient.", alt: ["{付|つ}くした", "{振|ふ}った", "{突|つ}いた"] },
     ] },
   { w: "{争|あらそ}う", lv: "N2", pos: "verb (godan)",
     en: "to fight; to compete (for); to dispute",
@@ -581,7 +581,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["ぶんく", "もんぐ", "ぶんこう"],
     book: { ja: "彼は{一言|ひとこと}も**{文句|もんく}**を言うことなく、重い荷物を運んでいった。", en: "He carried the heavy luggage away without a single word of complaint.", at: "gp/20" },
     ex: [
-      { ja: "{料理|りょうり}が{遅|おそ}いと、{客|きゃく}が{店員|てんいん}に**{文句|もんく}**を{言|い}っていた。", en: "A customer was complaining to the staff that the food was slow.", alt: ["{文章|ぶんしょう}", "{冗談|じょうだん}", "{伝言|でんごん}"] },
+      { ja: "{料理|りょうり}が{遅|おそ}いと、{客|きゃく}が{店員|てんいん}に**{文句|もんく}**を{言|い}っていた。", en: "A customer was complaining to the staff that the food was slow.", alt: ["{文章|ぶんしょう}", "{文法|ぶんぽう}", "{伝言|でんごん}"] },
     ] },
   { w: "{訪|おとず}れる", lv: "N2", pos: "verb (ru-verb)",
     en: "to visit (a place); to arrive, come (of a season or time)",
@@ -770,7 +770,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{整|ととの}える", lv: "N2", pos: "verb (ru-verb, transitive)",
     en: "to put in order; to arrange; to prepare; to improve (conditions)",
     note: "Getting something into proper shape: 環境を整える, 準備を整える, 体調を整える (get in good condition), 髪を整える. Intransitive: 整う. 片づける is tidying up by putting things away.",
-    rx: ["せいえる", "ととなえる", "そろえる"],
+    rx: ["せいえる", "ととなえる", "とどのえる"],
     book: { ja: "{地域|ちいき}の{環境|かんきょう}を**{整|ととの}えて**、子どもたちもお{年寄|としよ}りも安心して暮らせる街づくりを{目|め}{指|ざ}しています。", en: "We aim to improve the local environment and create a town where both children and the elderly can live with peace of mind.", at: "ch/2/review" },
     ex: [
       { ja: "{試合|しあい}の{前|まえ}の{日|ひ}は{早|はや}く{寝|ね}て、{体調|たいちょう}を**{整|ととの}えた**。", en: "The day before the match, I went to bed early to get myself in good shape.", alt: ["{数|かぞ}えた", "{唱|とな}えた", "{加|くわ}えた"] },

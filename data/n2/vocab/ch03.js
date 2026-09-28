@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["たいよう", "たいおお", "ついおう"],
     book: { ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける{限|かぎ}り、お客様からのクレームに**{対応|たいおう}**せざるを{得|え}ない場面に{必|かなら}ず{出合|であ}います。", en: "You probably think you'd rather not do it, but as long as you keep working at a hotel, you will certainly run into situations where you have no choice but to deal with complaints from guests.", at: "ch/3" },
     ex: [
-      { ja: "{問|と}い{合|あ}わせが{急|きゅう}に{増|ふ}えて、{今|いま}のスタッフだけでは**{対応|たいおう}**しきれない。", en: "Inquiries have suddenly increased, and the current staff alone can't handle them all.", alt: ["{応用|おうよう}", "{対立|たいりつ}", "{反応|はんのう}"] },
+      { ja: "{問|と}い{合|あ}わせが{急|きゅう}に{増|ふ}えて、{今|いま}のスタッフだけでは**{対応|たいおう}**しきれない。", en: "Inquiries have suddenly increased, and the current staff alone can't handle them all.", alt: ["{応用|おうよう}", "{対立|たいりつ}", "{相応|そうおう}"] },
     ] },
   { w: "{一員|いちいん}", lv: "N2", pos: "noun",
     en: "a member (of a group, team or family)",
@@ -45,7 +45,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["せいどう", "しょうとう", "せいと"],
     book: { ja: "そのクレームが**{正当|せいとう}**なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
     ex: [
-      { ja: "**{正当|せいとう}**な{理由|りゆう}がなければ、{会社|かいしゃ}は{社員|しゃいん}を{解雇|かいこ}できない。", en: "A company cannot dismiss an employee without a legitimate reason.", alt: ["{正直|しょうじき}", "{正面|しょうめん}", "{当然|とうぜん}"] },
+      { ja: "**{正当|せいとう}**な{理由|りゆう}がなければ、{会社|かいしゃ}は{社員|しゃいん}を{解雇|かいこ}できない。", en: "A company cannot dismiss an employee without a legitimate reason.", alt: ["{正直|しょうじき}", "{正面|しょうめん}", "{弁当|べんとう}"] },
     ] },
   { w: "{不快|ふかい}", lv: "N1", pos: "な adjective · noun",
     en: "unpleasant; uncomfortable; displeasure",
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ふかいい", "ぶかい", "ふけ"],
     book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は**{不快|ふかい}**な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
     ex: [
-      { ja: "{他人|たにん}に**{不快|ふかい}**な{思|おも}いをさせないよう、{言葉|ことば}{遣|づか}いに{気|き}をつけている。", en: "I'm careful with my language so as not to make others uncomfortable.", alt: ["{愉快|ゆかい}", "{不便|ふべん}", "{不足|ふそく}"] },
+      { ja: "{他人|たにん}に**{不快|ふかい}**な{思|おも}いをさせないよう、{言葉|ことば}{遣|づか}いに{気|き}をつけている。", en: "I'm careful with my language so as not to make others uncomfortable.", alt: ["{愉快|ゆかい}", "{不振|ふしん}", "{不足|ふそく}"] },
     ] },
   { w: "{信頼|しんらい}", lv: "N2", pos: "noun · する verb",
     en: "trust; confidence; reliance",
@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["しんたい", "じんらい", "しんれい"],
     book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの**{信頼|しんらい}**を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
     ex: [
-      { ja: "{彼|かれ}は{約束|やくそく}を{必|かなら}ず{守|まも}るので、{周|まわ}りから**{信頼|しんらい}**されている。", en: "He always keeps his promises, so the people around him trust him.", alt: ["{依頼|いらい}", "{信仰|しんこう}", "{申請|しんせい}"] },
+      { ja: "{彼|かれ}は{約束|やくそく}を{必|かなら}ず{守|まも}るので、{周|まわ}りから**{信頼|しんらい}**されている。", en: "He always keeps his promises, so the people around him trust him.", alt: ["{以来|いらい}", "{信仰|しんこう}", "{申請|しんせい}"] },
     ] },
   { w: "{滞在|たいざい}", lv: "N2", pos: "noun · する verb",
     en: "stay (at a place for a period of time)",
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ごうかい", "ぎょかい", "ぎょうがい"],
     book: { ja: "しかし、今後ホテル**{業界|ぎょうかい}**はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心してはいられません。", en: "However, competition in the hotel industry is going to get tougher and tougher from now on, so we can't afford to be complacent.", at: "ch/3" },
     ex: [
-      { ja: "{兄|あに}は{出版|しゅっぱん}**{業界|ぎょうかい}**で{二十年|にじゅうねん}{働|はたら}いている。", en: "My older brother has worked in the publishing industry for twenty years.", alt: ["{世界|せかい}", "{業務|ぎょうむ}", "{境界|きょうかい}"] },
+      { ja: "{兄|あに}は{出版|しゅっぱん}**{業界|ぎょうかい}**で{二十年|にじゅうねん}{働|はたら}いている。", en: "My older brother has worked in the publishing industry for twenty years.", alt: ["{限界|げんかい}", "{業務|ぎょうむ}", "{境界|きょうかい}"] },
     ] },
   { w: "{競争|きょうそう}", lv: "N2", pos: "noun · する verb",
     en: "competition; contest; rivalry",
@@ -93,7 +93,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["きょうぞう", "けいそう", "きょそう"],
     book: { ja: "しかし、今後ホテル{業界|ぎょうかい}はますます**{競争|きょうそう}**が{厳|きび}しくなりますから、安心してはいられません。", en: "However, competition in the hotel industry is going to get tougher and tougher from now on, so we can't afford to be complacent.", at: "ch/3" },
     ex: [
-      { ja: "{駅前|えきまえ}にコンビニが{増|ふ}えて、{店|みせ}{同士|どうし}の**{競争|きょうそう}**が{激|はげ}しくなった。", en: "More convenience stores have opened by the station, and competition between them has become fierce.", alt: ["{戦争|せんそう}", "{論争|ろんそう}", "{競技|きょうぎ}"] },
+      { ja: "{駅前|えきまえ}にコンビニが{増|ふ}えて、{店|みせ}{同士|どうし}の**{競争|きょうそう}**が{激|はげ}しくなった。", en: "More convenience stores have opened by the station, and competition between them has become fierce.", alt: ["{競馬|けいば}", "{論争|ろんそう}", "{競技|きょうぎ}"] },
     ] },
   { w: "{追求|ついきゅう}", lv: "N1", pos: "noun · する verb",
     en: "pursuit (of a goal such as profit, happiness or quality)",
@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["じつこう", "じっこ", "しっこう"],
     book: { ja: "社長が{同意|どうい}（　）{限|かぎ}り、どんな{計画|けいかく}も**{実行|じっこう}**に{移|うつ}せない。", en: "Unless the president agrees, no plan whatsoever can be put into action.", at: "gp/23" },
     ex: [
-      { ja: "{計画|けいかく}を{立|た}てるのは{簡単|かんたん}だが、それを**{実行|じっこう}**するのは{難|むずか}しい。", en: "Making a plan is easy, but carrying it out is hard.", alt: ["{実感|じっかん}", "{実験|じっけん}", "{発行|はっこう}"] },
+      { ja: "{計画|けいかく}を{立|た}てるのは{簡単|かんたん}だが、それを**{実行|じっこう}**するのは{難|むずか}しい。", en: "Making a plan is easy, but carrying it out is hard.", alt: ["{実感|じっかん}", "{実家|じっか}", "{発行|はっこう}"] },
     ] },
   { w: "{接近|せっきん}", lv: "N2", pos: "noun · する verb",
     en: "approach; drawing near",
@@ -237,7 +237,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["さんおく", "やまおう", "やまのおく"],
     book: { ja: "**{山奥|やまおく}**の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間{暮|く}らしてみて、{必|かなら}ずしも{都会|とかい}の便利で{快適|かいてき}な生活がいい（　）ことを知った。", en: "After living for a week at a friend's house deep in the mountains, surrounded by nature, I learned that a convenient, comfortable city life isn't necessarily better.", at: "gp/25" },
     ex: [
-      { ja: "{祖父|そふ}は{今|いま}も**{山奥|やまおく}**の{小|ちい}さな{村|むら}で{暮|く}らしている。", en: "My grandfather still lives in a small village deep in the mountains.", alt: ["{奥様|おくさま}", "{屋上|おくじょう}", "{山頂|さんちょう}"] },
+      { ja: "{祖父|そふ}は{今|いま}も**{山奥|やまおく}**の{小|ちい}さな{村|むら}で{暮|く}らしている。", en: "My grandfather still lives in a small village deep in the mountains.", alt: ["{奥様|おくさま}", "{屋上|おくじょう}", "{登山|とざん}"] },
     ] },
   { w: "{恵|めぐ}まれる", lv: "N2", pos: "ichidan verb (passive form)",
     en: "be blessed with; be fortunate (in)",
@@ -333,7 +333,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["はなだい", "わたい", "わだいい"],
     book: { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから**{話題|わだい}**になっている。", en: "Whatever you think of its content, that film is getting a lot of attention because its cast is famous.", at: "gp/26" },
     ex: [
-      { ja: "{駅前|えきまえ}にできた**{話題|わだい}**のパン{屋|や}に{行|い}ってみた。", en: "I tried the much-talked-about bakery that opened by the station.", alt: ["{問題|もんだい}", "{課題|かだい}", "{題名|だいめい}"] },
+      { ja: "{駅前|えきまえ}にできた**{話題|わだい}**のパン{屋|や}に{行|い}ってみた。", en: "I tried the much-talked-about bakery that opened by the station.", alt: ["{主題|しゅだい}", "{課題|かだい}", "{題名|だいめい}"] },
     ] },
   { w: "{特集|とくしゅう}", lv: "N2", pos: "noun · する verb",
     en: "special feature (in a magazine, newspaper or TV program)",
@@ -485,7 +485,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ちあげ", "ねじょうげ", "あたいあげ"],
     book: { ja: "{材料費|ざいりょうひ}が上がっているので、うちのパンやケーキも**{値上|ねあ}げ**せ＿＿んです。", en: "Ingredient costs are going up, so we have no choice but to raise the prices of our bread and cakes too.", at: "ch/3" },
     ex: [
-      { ja: "{来月|らいげつ}から{電気|でんき}{料金|りょうきん}が**{値上|ねあ}げ**される。", en: "Electricity rates will be raised starting next month.", alt: ["{仕上|しあ}げ", "{見上|みあ}げ", "{棚上|たなあ}げ"] },
+      { ja: "{来月|らいげつ}から{電気|でんき}{料金|りょうきん}が**{値上|ねあ}げ**される。", en: "Electricity rates will be raised starting next month.", alt: ["{仕上|しあ}げ", "{見上|みあ}げ", "{打|う}ち{上|あ}げ"] },
     ] },
   { w: "{事情|じじょう}", lv: "N2", pos: "noun",
     en: "circumstances; reasons; the situation (behind something)",
@@ -493,7 +493,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["じじょ", "じせい", "ことじょう"],
     book: { ja: "{明後日|あさって}は卒業試験です。特別な**{事情|じじょう}**がない＿＿、{遅刻|ちこく}、{欠席|けっせき}は{認|みと}めません。", en: "The day after tomorrow is the graduation exam. Unless there are special circumstances, lateness or absence will not be permitted.", at: "ch/3" },
     ex: [
-      { ja: "{家庭|かてい}の**{事情|じじょう}**で、{彼|かれ}は{大学|だいがく}を{辞|や}めることになった。", en: "Because of family circumstances, he has had to leave college.", alt: ["{感情|かんじょう}", "{苦情|くじょう}", "{事件|じけん}"] },
+      { ja: "{家庭|かてい}の**{事情|じじょう}**で、{彼|かれ}は{大学|だいがく}を{辞|や}めることになった。", en: "Because of family circumstances, he has had to leave college.", alt: ["{感情|かんじょう}", "{苦情|くじょう}", "{事項|じこう}"] },
     ] },
   { w: "{一口|ひとくち}", lv: "N2", pos: "noun",
     en: "a mouthful; a bite; (in) a word",
@@ -564,7 +564,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ようあさ", "よくざさ", "よあさ"],
     book: { ja: "会社に{勤|つと}めている[1]、前の晩どんなに遅く{帰宅|きたく}しても、**{翌朝|よくあさ}**はいつも通り9時に[2]のが日本のサラリーマンだ。", en: "As long as they work for a company, Japanese salarymen have no choice but to get to the office at 9 the next morning as usual, however late they got home the night before.", at: "ch/3/review" },
     ex: [
-      { ja: "{夜|よる}{遅|おそ}くに{出|だ}した{荷物|にもつ}が、**{翌朝|よくあさ}**にはもう{届|とど}いていた。", en: "The package I sent late at night had already arrived by the next morning.", alt: ["{翌年|よくねん}", "{昨夜|さくや}", "{前日|ぜんじつ}"] },
+      { ja: "{夜|よる}{遅|おそ}くに{出|だ}した{荷物|にもつ}が、**{翌朝|よくあさ}**にはもう{届|とど}いていた。", en: "The package I sent late at night had already arrived by the next morning.", alt: ["{翌年|よくねん}", "{先月|せんげつ}", "{前日|ぜんじつ}"] },
     ] },
   { w: "{睡眠不足|すいみんぶそく}", lv: "N2", pos: "noun",
     en: "lack of sleep; sleep deprivation",

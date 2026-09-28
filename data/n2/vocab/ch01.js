@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["とてん", "とうでん", "あたりてん"],
     book: { ja: "{書類|しょるい}{審査|しんさ}{後|ご}、**{当店|とうてん}**において{面接|めんせつ}。", en: "After the document screening, interviews will be held at our store.", at: "ch/1" },
     ex: [
-      { ja: "**{当店|とうてん}**では、クレジットカードもご{利用|りよう}いただけます。", en: "Credit cards are also accepted at our store.", alt: ["{開店|かいてん}", "{売店|ばいてん}", "{閉店|へいてん}"] },
+      { ja: "**{当店|とうてん}**では、クレジットカードもご{利用|りよう}いただけます。", en: "Credit cards are also accepted at our store.", alt: ["{開店|かいてん}", "{店員|てんいん}", "{閉店|へいてん}"] },
     ] },
   { w: "{所定|しょてい}", lv: "N1", pos: "noun (usually 所定の)",
     en: "designated; prescribed; fixed (by the rules)",
@@ -229,7 +229,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["がくかい", "がっがい", "がくえ"],
     book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、**{学会|がっかい}**{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations with Dr. Sato, who is attending an academic conference.", at: "gp/1" },
     ex: [
-      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present her research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学園|がくえん}", "{学歴|がくれき}"] },
+      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present her research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
     ] },
   { w: "{休診|きゅうしん}", lv: "N1", pos: "noun · する verb",
     en: "(a clinic) being closed; no consultations",
@@ -253,7 +253,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["てんほ", "てんぼ", "みせぽ"],
     book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}**{店舗|てんぽ}**で{営業|えいぎょう}いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left.", at: "gp/1" },
     ex: [
-      { ja: "そのコンビニチェーンは、{全国|ぜんこく}に{五千|ごせん}以上の**{店舗|てんぽ}**を持っている。", en: "That convenience store chain has more than 5,000 stores nationwide.", alt: ["{店員|てんいん}", "{舗装|ほそう}", "{商品|しょうひん}"] },
+      { ja: "そのコンビニチェーンは、{全国|ぜんこく}に{五千|ごせん}以上の**{店舗|てんぽ}**を持っている。", en: "That convenience store chain has more than 5,000 stores nationwide.", alt: ["{店頭|てんとう}", "{舗装|ほそう}", "{商品|しょうひん}"] },
     ] },
   { w: "{営業|えいぎょう}", lv: "N2", pos: "noun · する verb",
     en: "being open for business; business operations; sales (department/work)",
@@ -301,7 +301,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ひるや", "ちゅうよ", "じゅうや"],
     book: { ja: "このスーパーは**{昼夜|ちゅうや}**を{問|と}わず、{営業|えいぎょう}しているので、{深夜|しんや}も働く人にとってありがたい。", en: "This supermarket is open day and night, which is a blessing for people who work late at night.", at: "gp/2" },
     ex: [
-      { ja: "{砂漠|さばく}では**{昼夜|ちゅうや}**の{気温|きおん}の{差|さ}がとても{大|おお}きい。", en: "In the desert, the difference in temperature between day and night is very large.", alt: ["{深夜|しんや}", "{昼食|ちゅうしょく}", "{前夜|ぜんや}"] },
+      { ja: "{砂漠|さばく}では**{昼夜|ちゅうや}**の{気温|きおん}の{差|さ}がとても{大|おお}きい。", en: "In the desert, the difference in temperature between day and night is very large.", alt: ["{徹夜|てつや}", "{昼食|ちゅうしょく}", "{前夜|ぜんや}"] },
     ] },
   { w: "{内外|ないがい}", lv: "N1", pos: "noun",
     en: "inside and outside; home and abroad",
@@ -389,7 +389,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["しんがける", "こころかける", "ここがける"],
     book: { ja: "{社会人|しゃかいじん}なら、場所や場合に{応|おう}じた{服装|ふくそう}を**{心|こころ}がける**べきだ。", en: "As a working adult, you should take care to dress appropriately for the place and occasion.", at: "gp/4" },
     ex: [
-      { ja: "{健康|けんこう}のために、{野菜|やさい}を{多|おお}めに{食|た}べるよう**{心|こころ}がけて**いる。", en: "For my health, I make a point of eating plenty of vegetables.", alt: ["{心得|こころえ}て", "{思|おも}い{込|こ}んで", "{見|み}かけて"] },
+      { ja: "{健康|けんこう}のために、{野菜|やさい}を{多|おお}めに{食|た}べるよう**{心|こころ}がけて**いる。", en: "For my health, I make a point of eating plenty of vegetables.", alt: ["{追|お}いかけて", "{思|おも}い{込|こ}んで", "{見|み}かけて"] },
     ] },
   { w: "{要望|ようぼう}", lv: "N1", pos: "noun · する verb",
     en: "request; demand; wish (addressed to an organization)",
@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["じつし", "じっせ", "しっし"],
     book: { ja: "今回の旅行は{晴雨|せいう}にかかわらず、**{実施|じっし}**します。", en: "This trip will go ahead rain or shine.", at: "gp/5" },
     ex: [
-      { ja: "{来月|らいげつ}から{新|あたら}しい{料金|りょうきん}{制度|せいど}が**{実施|じっし}**される。", en: "The new fee system will be put into effect from next month.", alt: ["{実現|じつげん}", "{施設|しせつ}", "{実感|じっかん}"] },
+      { ja: "{来月|らいげつ}から{新|あたら}しい{料金|りょうきん}{制度|せいど}が**{実施|じっし}**される。", en: "The new fee system will be put into effect from next month.", alt: ["{実習|じっしゅう}", "{施設|しせつ}", "{実感|じっかん}"] },
     ] },
   { w: "{寄付|きふ}", lv: "N2", pos: "noun · する verb",
     en: "donation; contribution",
@@ -517,7 +517,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ふりごみ", "しんこみ", "ぶりこみ"],
     book: { ja: "**{振|ふ}り{込|こ}み**に{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "When making a bank transfer, the handling fee is to be paid by the customer.", at: "gp/7" },
     ex: [
-      { ja: "{授業料|じゅぎょうりょう}の**{振|ふ}り{込|こ}み**は、{今月|こんげつ}{末|まつ}までにお{願|ねが}いします。", en: "Please pay the tuition by bank transfer by the end of this month.", alt: ["{申|もう}し{込|こ}み", "{書|か}き{込|こ}み", "{思|おも}い{込|こ}み"] },
+      { ja: "{授業料|じゅぎょうりょう}の**{振|ふ}り{込|こ}み**は、{今月|こんげつ}{末|まつ}までにお{願|ねが}いします。", en: "Please pay the tuition by bank transfer by the end of this month.", alt: ["{打|う}ち{込|こ}み", "{書|か}き{込|こ}み", "{思|おも}い{込|こ}み"] },
     ] },
   { w: "{手数料|てすうりょう}", lv: "N2", pos: "noun",
     en: "handling fee; service charge; commission",
@@ -581,7 +581,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ひつちゃく", "ひっちゃっく", "ひっつき"],
     book: { ja: "{願書|がんしょ}は1月28日**{必着|ひっちゃく}**のこと。", en: "Applications must arrive by January 28.", at: "gp/8" },
     ex: [
-      { ja: "{作品|さくひん}は9月30日**{必着|ひっちゃく}**で{送|おく}ってください。", en: "Please send your entries so that they arrive by September 30.", alt: ["{到着|とうちゃく}", "{必死|ひっし}", "{先着|せんちゃく}"] },
+      { ja: "{作品|さくひん}は9月30日**{必着|ひっちゃく}**で{送|おく}ってください。", en: "Please send your entries so that they arrive by September 30.", alt: ["{着陸|ちゃくりく}", "{必死|ひっし}", "{先着|せんちゃく}"] },
     ] },
   { w: "{分別|ぶんべつ}", lv: "N1", pos: "noun · する verb",
     en: "sorting; separating (garbage by type)",
@@ -597,7 +597,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ちょうぜい", "ちょせい", "しょうせい"],
     book: { ja: "カレーの{辛|から}さはお客様のご{希望|きぼう}＿＿**{調整|ちょうせい}**いたします。", en: "We adjust the spiciness of the curry according to the customer's wishes.", at: "ch/1" },
     ex: [
-      { ja: "{会議|かいぎ}の{日程|にってい}を**{調整|ちょうせい}**するのに{苦労|くろう}した。", en: "I had a hard time coordinating the schedule for the meeting.", alt: ["{整備|せいび}", "{調査|ちょうさ}", "{強調|きょうちょう}"] },
+      { ja: "{会議|かいぎ}の{日程|にってい}を**{調整|ちょうせい}**するのに{苦労|くろう}した。", en: "I had a hard time coordinating the schedule for the meeting.", alt: ["{整備|せいび}", "{調子|ちょうし}", "{強調|きょうちょう}"] },
     ] },
   { w: "{先着|せんちゃく}", lv: "N1", pos: "noun",
     en: "first come (first served); arriving first",
@@ -605,7 +605,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["せんちゃっく", "さきちゃく", "せんじゃく"],
     book: { ja: "毎週日曜日は**{先着|せんちゃく}**10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。", en: "Every Sunday, only the first 10 people can try the ninja experience for free.", at: "ch/1" },
     ex: [
-      { ja: "{説明会|せつめいかい}の{席|せき}は**{先着|せんちゃく}**{順|じゅん}となります。", en: "Seats at the information session are first come, first served.", alt: ["{到着|とうちゃく}", "{先輩|せんぱい}", "{着席|ちゃくせき}"] },
+      { ja: "{説明会|せつめいかい}の{席|せき}は**{先着|せんちゃく}**{順|じゅん}となります。", en: "Seats at the information session are first come, first served.", alt: ["{発着|はっちゃく}", "{先輩|せんぱい}", "{着席|ちゃくせき}"] },
     ] },
   { w: "{抽選|ちゅうせん}", lv: "N1", pos: "noun · する verb",
     en: "lottery; drawing (lots); raffle",
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ちゅうぜん", "ゆうせん", "ちゅせん"],
     book: { ja: "今回のコンサートは{応募者|おうぼしゃ}{多数|たすう}＿＿**{抽選|ちゅうせん}**とさせていただきます。", en: "Because of the large number of applicants, tickets for this concert will be allocated by lottery.", at: "ch/1" },
     ex: [
-      { ja: "{応募者|おうぼしゃ}の{中|なか}から**{抽選|ちゅうせん}**で100{名|めい}にプレゼントが{当|あ}たります。", en: "One hundred applicants chosen by lottery will win a gift.", alt: ["{選挙|せんきょ}", "{選択|せんたく}", "{当選|とうせん}"] },
+      { ja: "{応募者|おうぼしゃ}の{中|なか}から**{抽選|ちゅうせん}**で100{名|めい}にプレゼントが{当|あ}たります。", en: "One hundred applicants chosen by lottery will win a gift.", alt: ["{選挙|せんきょ}", "{選手|せんしゅ}", "{当選|とうせん}"] },
     ] },
   { w: "{返送|へんそう}", lv: "N1", pos: "noun · する verb",
     en: "sending back; returning (by mail)",
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["へんぞう", "はんそう", "へんそ"],
     book: { ja: "ご{出席|しゅっせき}、ご{欠席|けっせき}＿＿、このはがきは{必|かなら}ずご**{返送|へんそう}**ください。", en: "Whether you will attend or not, please be sure to return this postcard.", at: "ch/1" },
     ex: [
-      { ja: "{契約書|けいやくしょ}にサインをして、{同封|どうふう}の{封筒|ふうとう}でご**{返送|へんそう}**ください。", en: "Please sign the contract and return it in the enclosed envelope.", alt: ["{放送|ほうそう}", "{回送|かいそう}", "{送別|そうべつ}"] },
+      { ja: "{契約書|けいやくしょ}にサインをして、{同封|どうふう}の{封筒|ふうとう}でご**{返送|へんそう}**ください。", en: "Please sign the contract and return it in the enclosed envelope.", alt: ["{放送|ほうそう}", "{送料|そうりょう}", "{送別|そうべつ}"] },
     ] },
   { w: "{配送|はいそう}", lv: "N1", pos: "noun · する verb",
     en: "delivery (of goods); shipping",
@@ -631,7 +631,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{大型|おおがた}の{家具|かぐ}は、**{配送|はいそう}**に一週間ほどかかります。", en: "Delivery of large furniture takes about a week.", alt: ["{配布|はいふ}", "{手配|てはい}", "{心配|しんぱい}"] },
     ] },
-  { w: "{承|うけたまわ}る", lv: "N2", pos: "verb (godan, humble)",
+  { w: "{承|うけたまわ}る", lv: "N1", pos: "verb (godan, humble)",
     en: "to receive, accept or take (an order, request); to hear (humble)",
     note: "Humble 謙譲語 used by staff to customers: ご注文を承ります (we take orders), ご予約を承りました, お話を承る (hear what you have to say). The long reading of the single kanji 承 is a favorite 漢字読み question.",
     rx: ["うけたまる", "うけわたる", "うけとまわる"],
@@ -653,7 +653,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ていし", "てじ", "だいじ"],
     book: { ja: "[4]、チケットを買う[5]は、{身分証明書|みぶんしょうめいしょ}の**{提示|ていじ}**が{必要|ひつよう}です。", en: "However, you must show ID when buying the tickets.", at: "ch/1/review" },
     ex: [
-      { ja: "{入場|にゅうじょう}の{際|さい}は、チケットをご**{提示|ていじ}**ください。", en: "Please show your ticket when entering.", alt: ["{展示|てんじ}", "{表示|ひょうじ}", "{指示|しじ}"] },
+      { ja: "{入場|にゅうじょう}の{際|さい}は、チケットをご**{提示|ていじ}**ください。", en: "Please show your ticket when entering.", alt: ["{展示|てんじ}", "{掲示|けいじ}", "{指示|しじ}"] },
     ] },
   { w: "{開催|かいさい}", lv: "N2", pos: "noun · する verb",
     en: "holding (an event); hosting",

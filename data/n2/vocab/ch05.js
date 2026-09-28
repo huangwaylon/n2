@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["もくる", "だもる", "しずまる"],
     book: { ja: "彼は「ごめん」と言ったきり、**{黙|だま}って**しまった。", en: "He said “sorry” and then fell silent.", at: "gp/37" },
     ex: [
-      { ja: "{母|はは}に**{黙|だま}って**{友達|ともだち}の{家|いえ}に{泊|と}まった。", en: "I stayed over at a friend's house without telling my mother.", alt: ["{眠|ねむ}って", "{静|しず}まって", "{困|こま}って"] },
+      { ja: "{母|はは}に**{黙|だま}って**{友達|ともだち}の{家|いえ}に{泊|と}まった。", en: "I stayed over at a friend's house without telling my mother.", alt: ["{眠|ねむ}って", "{静|しず}まって", "{踊|おど}って"] },
     ] },
   { w: "{寝|ね}たきり", lv: "N1", pos: "noun · の adjective",
     en: "bedridden; confined to bed",
@@ -84,7 +84,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["かいすいいく", "うみすいよく", "かいずいよく"],
     book: { ja: "**{海水浴|かいすいよく}**どうだった？　楽しかった？", en: "How was the beach? Did you have fun?", at: "gp/38" },
     ex: [
-      { ja: "{夏|なつ}になると、この{浜|はま}は**{海水浴|かいすいよく}**の{客|きゃく}でにぎわう。", en: "In summer this beach is crowded with people who come to swim.", alt: ["{入浴|にゅうよく}", "{海底|かいてい}", "{水泳|すいえい}"] },
+      { ja: "{夏|なつ}になると、この{浜|はま}は**{海水浴|かいすいよく}**の{客|きゃく}でにぎわう。", en: "In summer this beach is crowded with people who come to swim.", alt: ["{入浴|にゅうよく}", "{海底|かいてい}", "{海峡|かいきょう}"] },
     ] },
   { w: "{休暇|きゅうか}", lv: "N2", pos: "noun",
     en: "vacation; leave; time off (from work)",
@@ -92,7 +92,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["きゅうが", "きゅか", "きゅうけ"],
     book: { ja: "この忙しいときに、お前、**{休暇|きゅうか}**どころじゃないだろう。", en: "At a busy time like this? This is no time for a vacation.", at: "gp/38" },
     ex: [
-      { ja: "{来月|らいげつ}、一{週間|しゅうかん}の**{休暇|きゅうか}**を{取|と}って{海外|かいがい}へ{行|い}く。", en: "Next month I'm taking a week off and going abroad.", alt: ["{休憩|きゅうけい}", "{休講|きゅうこう}", "{休業|きゅうぎょう}"] },
+      { ja: "{来月|らいげつ}、一{週間|しゅうかん}の**{休暇|きゅうか}**を{取|と}って{海外|かいがい}へ{行|い}く。", en: "Next month I'm taking a week off and going abroad.", alt: ["{休戦|きゅうせん}", "{休講|きゅうこう}", "{休業|きゅうぎょう}"] },
     ] },
   { w: "{忘年会|ぼうねんかい}", lv: "N1", pos: "noun",
     en: "year-end party",
@@ -211,7 +211,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["こうきつけ", "いききつけ", "ぎょうきつけ"],
     book: { ja: "{残念|ざんねん}なことに、**行きつけ**の{美容院|びよういん}が{閉店|へいてん}してしまった。", en: "Sadly, the hair salon I always go to has closed down.", at: "gp/40" },
     ex: [
-      { ja: "{会社|かいしゃ}の{帰|かえ}りに、**{行|い}きつけ**の{居酒屋|いざかや}に{寄|よ}った。", en: "On my way home from work I stopped by my usual izakaya.", alt: ["{行|い}き{止|ど}まり", "{売|う}り{切|き}れ", "{行|い}き{違|ちが}い"] },
+      { ja: "{会社|かいしゃ}の{帰|かえ}りに、**{行|い}きつけ**の{居酒屋|いざかや}に{寄|よ}った。", en: "On my way home from work I stopped by my usual izakaya.", alt: ["{行|い}き{届|とど}き", "{売|う}り{切|き}れ", "{行|い}き{違|ちが}い"] },
     ] },
   { w: "{述|の}べる", lv: "N2", pos: "ichidan verb (transitive)",
     en: "to state; to express; to mention",
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["じゅつべる", "のぺる", "しべる"],
     book: { ja: "{青木|あおき}さんは卒業生{代表|だいひょう}（　）校長先生に{感謝|かんしゃ}の言葉を**{述|の}べた**。", en: "As the representative of the graduates, Aoki expressed words of thanks to the principal.", at: "gp/41" },
     ex: [
-      { ja: "{会議|かいぎ}では一{人|り}ずつ{自分|じぶん}の{意見|いけん}を**{述|の}べた**。", en: "At the meeting each person stated their opinion in turn.", alt: ["{比|くら}べた", "{並|なら}べた", "{調|しら}べた"] },
+      { ja: "{会議|かいぎ}では一{人|り}ずつ{自分|じぶん}の{意見|いけん}を**{述|の}べた**。", en: "At the meeting each person stated their opinion in turn.", alt: ["{比|くら}べた", "{食|た}べた", "{調|しら}べた"] },
     ] },
   { w: "{日中|にっちゅう}", lv: "N2", pos: "noun · adverb",
     en: "daytime; during the day",
@@ -495,7 +495,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["しんさい", "しんざつ", "けんさつ"],
     book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes.", at: "ch/5" },
     ex: [
-      { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I got examined at the hospital.", alt: ["{視察|しさつ}", "{観察|かんさつ}", "{警察|けいさつ}"] },
+      { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I got examined at the hospital.", alt: ["{視察|しさつ}", "{偵察|ていさつ}", "{警察|けいさつ}"] },
     ] },
   { w: "{部品|ぶひん}", lv: "N2", pos: "noun",
     en: "part; component",
@@ -503,7 +503,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ぶびん", "ぶしな", "ぶっぴん"],
     book: { ja: "**{部品|ぶひん}**がないので、直し＿＿んですよ。", en: "We don't have the parts, so there's no way to repair it.", at: "ch/5" },
     ex: [
-      { ja: "{古|ふる}いパソコンなので、**{部品|ぶひん}**がもう{手|て}に{入|はい}らない。", en: "It's an old computer, so the parts aren't available anymore.", alt: ["{部分|ぶぶん}", "{作品|さくひん}", "{部屋|へや}"] },
+      { ja: "{古|ふる}いパソコンなので、**{部品|ぶひん}**がもう{手|て}に{入|はい}らない。", en: "It's an old computer, so the parts aren't available anymore.", alt: ["{部長|ぶちょう}", "{作品|さくひん}", "{部屋|へや}"] },
     ] },
   { w: "{言|い}い{訳|わけ}", lv: "N2", pos: "noun · する verb",
     en: "excuse; (self-justifying) explanation",
@@ -575,7 +575,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["しいまい", "しまえ", "じまい"],
     book: { ja: "私たち**{姉妹|しまい}**の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", en: "Not only things from when we sisters were children, but even my parents' and grandparents' childhood textbooks turned up.", at: "ch/5/review" },
     ex: [
-      { ja: "{私|わたし}たちの{町|まち}はフランスの{町|まち}と**{姉妹|しまい}**{都市|とし}になっている。", en: "Our town is a sister city of a town in France.", alt: ["{兄弟|きょうだい}", "{親子|おやこ}", "{夫婦|ふうふ}"] },
+      { ja: "{私|わたし}たちの{町|まち}はフランスの{町|まち}と**{姉妹|しまい}**{都市|とし}になっている。", en: "Our town is a sister city of a town in France.", alt: ["{先輩|せんぱい}", "{親子|おやこ}", "{夫婦|ふうふ}"] },
     ] },
   { w: "{昔話|むかしばなし}", lv: "N2", pos: "noun",
     en: "talk about the old days; folktale",
