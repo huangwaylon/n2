@@ -4,6 +4,8 @@
 :root { --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; }
 :root[data-theme="dark"] { --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; }
 body[data-book="q2"] strong { color: inherit; }
+/* Quartet prints its furigana under the kanji (left of the column in 縦書き), below any underline (pp.009, 068, 082) */
+ruby { -webkit-ruby-position: after; ruby-position: under; }
 .q2 .ja-book, .q2 .rd-body { font-family: var(--mincho); }
 
 /* ---------- icons, pills ---------- */
@@ -428,3 +430,18 @@ a.ref:hover u { background: var(--q-soft); }
   .flow__steps > li { min-width: 0; }
 }
 .rei { min-width: 0; } .rei__items { min-width: 0; } .rei__b, .exd__say { min-width: 0; }
+body:not(.no-furi) .ref--rb .ref-n { left: auto; right: 100%; margin-right: .1em; }
+/* headings, labels and cells set tighter than text: with a reading under the line they need the text's leading, or a
+   reading of a wrapped first line sits on the second (furigana below, as printed) */
+:is(h1, h2, h3, h4, .hd-t, .rd-h__t, .rd-h__by, .flow__l, .flow__who, .flow__head, .bubble__l, .qdlg__title, .gn-pat, .gn-sub__p,
+  .strat__t, .unit-h__t, .sk-banner__t, .qbox__title, .rd-title, .rd-role, .qtbl td, .qtbl th):has(ruby) { line-height: 1.95; }
+/* ~~struck~~ endings and particles: the book's blue rule (p.143 お年寄り~~が~~まで) — the text colour alone is too faint */
+s { text-decoration: line-through var(--q) 2px; }
+/* ［読み物1-行13］: the book's corner brackets (p.009) */
+.gn-ref { border: 0; padding: 0 7px; background:
+  linear-gradient(currentColor, currentColor) left / 2px 100% no-repeat, linear-gradient(currentColor, currentColor) right / 2px 100% no-repeat,
+  linear-gradient(currentColor, currentColor) top left / 5px 2px no-repeat, linear-gradient(currentColor, currentColor) bottom left / 5px 2px no-repeat,
+  linear-gradient(currentColor, currentColor) top right / 5px 2px no-repeat, linear-gradient(currentColor, currentColor) bottom right / 5px 2px no-repeat; }
+/* an underline sits between the text and its readings (p.082 孤独): close under the glyphs, so a reading under the
+   line never crosses it (WebKit ignores offsets on rt, so the rule moves, not the reading) */
+body:not(.no-furi) :is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em; }

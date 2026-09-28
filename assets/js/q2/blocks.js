@@ -73,7 +73,7 @@ export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}
 const B = {
   // ----- structure -----
   head(b) {
-    const s = b.style === "sq" && /^☛/.test(plain(b.text && b.text.ja !== undefined ? b.text.ja : b.text)) ? "sq hd--pt" : b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
+    const s = b.style === "sq" && /^☛/.test(plain(typeof b.text === "object" && b.text ? b.text.ja || b.text.en : b.text)) ? "sq hd--pt" : b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
     const h = s === "band" ? "h2" : s === "label" ? "h4" : "h3";
     // a heading's printed English (p.041 上位語と下位語 Hypernyms and hyponyms) is part of the heading: always shown
     const o = b.text && typeof b.text === "object" && b.text.ja && b.text.en ? b.text : null;

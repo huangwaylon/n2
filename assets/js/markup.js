@@ -28,8 +28,10 @@ export const BLANK_HTML = '<span class="blank">　　　</span>';
 const refHtml = (m, text, tag) => {
   if (!tag) return `<u class="ref">${text}</u>`;
   const lab = /^\d+$/.test(tag) ? tag : `(${tag})`;
-  return /^\d+$/.test(tag) ? `<a class="ref" href="#gn-${tag}" data-act="jump" title="文型・表現ノート ${tag}"><u>${text}</u><span class="ref-n">${lab}</span></a>`
-    : `<u class="ref ref--let">${text}<span class="ref-n">${lab}</span></u>`;
+  // the underline starts on a kanji with a reading: the label goes before the reading, as printed ("(c)こどく", p.082)
+  const rb = /^<ruby\b/.test(text) ? " ref--rb" : "";
+  return /^\d+$/.test(tag) ? `<a class="ref${rb}" href="#gn-${tag}" data-act="jump" title="文型・表現ノート ${tag}"><u>${text}</u><span class="ref-n">${lab}</span></a>`
+    : `<u class="ref ref--let${rb}">${text}<span class="ref-n">${lab}</span></u>`;
 };
 const q2Markup = (t) => t
   .replace(/\[\[(.+?)\|([0-9a-z]*)\]\]/g, refHtml)

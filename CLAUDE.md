@@ -95,7 +95,8 @@ sidebar · ≤600 phone · ≤390 small phone. Touch targets ≥ 44 px under `(p
 Furigana are native `<ruby>`; any block with readings needs line-height ≥ 1.9 so readings sit in the leading and
 never cover the line above. A reading wider than its kanji may overhang neighbouring kana/punctuation (never kanji or
 another reading); adjacent readings where one is too wide become one group reading; a group reading never breaks
-across lines. Check with `tools/overflow.mjs ROUTE W --furi` (reports off-centre, overlapping, clipped readings and
+across lines. Quartet II prints its readings **under** the text (left of the column in 縦書き), below any underline; q2.css
+follows it (`ruby-position: under`). Check with `tools/overflow.mjs ROUTE W --furi` (reports off-centre, overlapping, clipped readings and
 uneven line pitch) at 320/390/820/1280 with and without `--en`; real WebKit via `wkshot.mjs --probe`.
 
 Follow the books' layout as closely as the screen allows (see `docs/LAYOUT.md`): grammar-point header band, どう使う？
