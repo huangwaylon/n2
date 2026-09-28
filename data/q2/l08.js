@@ -732,7 +732,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ごめん。今、1,000円**どころか**、500円**も**ないんだ。",
-           "en": "Sorry. I don't have 1,000 yen, not even 500 yen."
+           "en": "Sorry. I don’t have 1,000 yen, not even 500 yen."
           }
          ]
         }
@@ -852,12 +852,12 @@ TRY.registerLesson({
           {
            "sp": "子",
            "ja": "お父さん、お酒飲みすぎだよ。体に悪いからやめたら？",
-           "en": "Dad, you really should stop drinking. It's bad for your health."
+           "en": "Dad, you really should stop drinking. It’s bad for your health."
           },
           {
            "sp": "父",
            "ja": "医者に止められ**ない限り**、やめられないなあ。",
-           "en": "I won't be able to quit drinking, unless my doctor tells me to quit."
+           "en": "I won’t be able to quit drinking, unless my doctor tells me to quit."
           }
          ]
         }
@@ -941,12 +941,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "「お疲れさま」って日本語**ならでは**のあいさつだよね。",
-           "en": "“Otsukaresama” is a very uniquely Japanese greeting, don't you think?"
+           "en": "“Otsukaresama” is a very uniquely Japanese greeting, don’t you think?"
           },
           {
            "sp": "B",
            "ja": "うん。英語にはうまく訳せないよね。",
-           "en": "Yes. It's difficult to translate into English."
+           "en": "Yes. It’s difficult to translate into English."
           }
          ]
         }
@@ -1015,7 +1015,7 @@ TRY.registerLesson({
      "no": 4,
      "star": true,
      "pattern": "〜ないまでも",
-     "gloss": "if not ~; can't go so far as ~",
+     "gloss": "if not ~; can’t go so far as ~",
      "ref": "読み物1-行46",
      "page": 44,
      "blocks": [
@@ -1032,7 +1032,7 @@ TRY.registerLesson({
           {
            "sp": "{夫|おっと}",
            "ja": "わかったよ。じゃあ、そうしよう。",
-           "en": "OK. Let's do that, then."
+           "en": "OK. Let’s do that, then."
           }
          ]
         }
@@ -1102,10 +1102,10 @@ TRY.registerLesson({
            "en": "X ないまでも Y is used to make a statement about Y, which is considered to be a lower standard than X. This structure implies that X is much more desirable than Y. Although Y is considered to be less desirable than X, Y takes a condition that is still good enough."
           },
           {
-           "en": "Idiomatic phrases are often used in place of X. [#1] and [#3] show such phrases: 〜とは言わないまでも and 〜とは言えないまでも (translated as “I can't go so far as to call ~” and “You may not be able to call ~”). These idiomatic phrases mean that X may be an overstatement but Y is not."
+           "en": "Idiomatic phrases are often used in place of X. [#1] and [#3] show such phrases: 〜とは言わないまでも and 〜とは言えないまでも (translated as “I can’t go so far as to call ~” and “You may not be able to call ~”). These idiomatic phrases mean that X may be an overstatement but Y is not."
           },
           {
-           "en": "When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker's hope, とは言わないまでも is used instead of とは言えないまでも , as shown in [#2]."
+           "en": "When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker’s hope, とは言わないまでも is used instead of とは言えないまでも , as shown in [#2]."
           }
          ]
         }
@@ -1298,7 +1298,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "子どもの頃はよくいたずらをして、{祖母|そぼ}に怒られ**たものだ**。",
-         "tr": "When I was a child, I was always getting into mischief and being scolded by my grandmother."
+         "tr": "When I was a child, I used to get up to mischief a lot and get scolded by my grandmother."
         }
        ]
       },
@@ -1508,7 +1508,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "毎日書いている**うちに**きっと上手になるから、大丈夫ですよ。",
-           "tr": "If you keep writing every day, you’re sure to get better, so don’t worry."
+           "tr": "As you keep writing every day, you’ll get better before you know it, so don’t worry."
           }
          ]
         },
@@ -1523,7 +1523,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "最初は慣れなかったんですが、住んでいる**うちに**気に入ってきました。",
-           "tr": "I couldn’t get used to it at first, but I’ve come to like it as I’ve lived there."
+           "tr": "I couldn’t get used to it at first, but as I’ve been living here, I’ve come to like it."
           }
          ]
         },
@@ -1710,7 +1710,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "うん。いつも高級ブランドのスーツを着ていておしゃれだよね。",
-           "tr": "Yeah. Always wearing designer-brand suits. So stylish."
+           "tr": "Yeah. The manager always wears high-end designer suits and looks really stylish."
           }
          ]
         }
