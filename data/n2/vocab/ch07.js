@@ -554,7 +554,7 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "{位置|いち}づけ", lv: "N1", pos: "noun",
     en: "positioning; placement; how something is regarded",
     note: "The place something is given within a larger scheme: 〜という位置づけ, 位置づけが変わる; verb 〜として位置づける. Also written 位置付け.",
-    rx: ["いちつけ", "いちずけ", "くらいづけ"],
+    rx: ["いちつけ", "いっちづけ", "くらいづけ"],
     book: { ja: "高校{進学率|しんがくりつ}が90%を{超|こ}え、＿＿{義務教育|ぎむきょういく}のような**{位置|いち}づけ**になっている。", en: "With over 90% of students going on to high school, it has effectively come to be regarded like compulsory education.", at: "gp/70" },
     ex: [
       { ja: "この{大会|たいかい}は、オリンピックの{予選|よせん}という**{位置|いち}づけ**だ。", en: "This tournament is treated as a qualifier for the Olympics.", alt: ["{値|ね}づけ", "{片|かた}づけ", "{名|な}づけ"] },

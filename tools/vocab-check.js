@@ -13,6 +13,7 @@ for (const f of files) require(path.join(dir, f));
 const RUBY = /\{([^{}|]+)\|([^{}]+)\}/g;
 const bare = (s) => String(s || "").replace(RUBY, "$1").replace(/\*\*/g, "");
 const kanaOf = (s) => String(s || "").replace(RUBY, "$2");
+const same = (k) => k.replace(/づ/g, "ず").replace(/ぢ/g, "じ");
 const KANA = /^[ぁ-ゖァ-ヺー～〜・]+$/u, KANJI = /[㐀-鿿々〆]/u;
 // every Japanese string in a chapter (sample, points, exercises, review), and per grammar point
 const strings = (o, out = []) => { if (typeof o === "string") out.push(o); else if (o && typeof o === "object") Object.entries(o).forEach(([k, v]) => { if (!/^(en|why|deepDive|optionsEn|questionEn|note)$/.test(k)) strings(v, out); }); return out; };
@@ -45,7 +46,8 @@ for (const v of T.vocab) {
     if (seen.has(id)) E(id, `also listed in ch${seen.get(id)}`); else seen.set(id, v.ch);
     if (KANJI.test(w)) {
       if (!x.rx || x.rx.length !== 3) E(id, "rx needs 3 wrong readings");
-      else x.rx.forEach((y) => { if (y === r || !KANA.test(y)) E(id, `bad rx ${y}`); });
+      // a wrong reading that is only another spelling of the same sound (きづく / きずく) can't be told apart by ear
+      else x.rx.forEach((y) => { if (y === r || same(y) === same(r) || !KANA.test(y)) E(id, `bad rx ${y}`); });
     }
     const ex = x.ex || [];
     if (!ex.length) E(id, "no example sentence");

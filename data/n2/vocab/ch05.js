@@ -374,7 +374,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "{片付|かたづ}ける", lv: "N2", pos: "ichidan verb (transitive)",
     en: "to tidy up; to put away; to finish off (a task)",
     note: "部屋を片付ける, 書類を片付ける (put papers away), and figuratively 仕事を片付ける (get work done). The intransitive is 片付く. 整理 is arranging in order; 掃除 is cleaning away dirt.",
-    rx: ["へんづける", "かたつける", "かたずける"],
+    rx: ["へんづける", "かたつける", "かたづく"],
     book: { ja: "**{片付|かたづ}け**ようがない", en: "there's no way to put them away", at: "gp/44" },
     ex: [
       { ja: "{来客|らいきゃく}の{前|まえ}に、{急|いそ}いでリビングを**{片付|かたづ}けた**。", en: "Before the guests arrived, I quickly tidied up the living room.", alt: ["{名付|なづ}けた", "{植|う}え{付|つ}けた", "{片付|かたづ}いた"] },

@@ -222,7 +222,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "{貧|まず}しい", lv: "N2", pos: "い adjective",
     en: "poor; needy; meager",
     note: "貧しい家庭 / 国 (poor), 貧しい食事 (a meager meal), 心が貧しい (poor in spirit). More formal than お金がない; 貧乏 is the everyday noun / な adjective.",
-    rx: ["びんしい", "ひんしい", "まづしい"],
+    rx: ["びんしい", "ひんしい", "まぶしい"],
     book: { ja: "**{貧|まず}しくても**家族が{仲|なか}よく{暮|く}らせるのが{幸|しあわ}せというものですよ。", en: "Being able to live together happily as a family, even if you're poor — that's what happiness is.", at: "gp/52" },
     ex: [
       { ja: "{彼|かれ}は**{貧|まず}しい**{家庭|かてい}に{育|そだ}ったが、{努力|どりょく}して{医者|いしゃ}になった。", en: "He grew up in a poor family, but through hard work became a doctor.", alt: ["{涼|すず}しい", "{険|けわ}しい", "{惜|お}しい"] },
