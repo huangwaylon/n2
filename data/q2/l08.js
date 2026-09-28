@@ -3369,7 +3369,7 @@ TRY.registerLesson({
       {
        "side": "a",
        "phase": {
-        "ja": "特徴や{魅|み}{力|りょく}を紹介する",
+        "ja": "特徴や魅力を紹介する",
         "tr": "Present its features and appeal"
        },
        "n": 4,
@@ -3577,7 +3577,7 @@ TRY.registerLesson({
       {
        "n": "1.",
        "text": {
-        "ja": "a～cの説明は①～③のどのプランについての説明ですか。線で{結|むす}びなさい。",
+        "ja": "a〜cの説明は①〜③のどのプランについての説明ですか。線で{結|むす}びなさい。",
         "tr": "Which of the plans ①–③ does each of the descriptions a–c describe? Connect them with lines."
        },
        "blocks": [
@@ -3632,7 +3632,7 @@ TRY.registerLesson({
       {
        "n": "2.",
        "text": {
-        "ja": "メイリンと{絵理|えり}は①～③のどの温泉旅行プランを選びましたか。",
+        "ja": "メイリンと{絵理|えり}は①〜③のどの温泉旅行プランを選びましたか。",
         "tr": "Which of the hot spring travel plans ①–③ did Meilin and Eri choose?"
        },
        "blocks": [
@@ -3809,7 +3809,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "サラと{研|けん}が{温泉|おんせん}とタトゥーについて話しています。\n会話を聞いて、質問に答えなさい。",
-      "tr": "Sarah and Ken are talking about hot springs and tattoos.\nListen to the conversation and answer the questions."
+      "tr": "Sara and Ken are talking about hot springs and tattoos.\nListen to the conversation and answer the questions."
      }
     },
     {
@@ -3906,7 +3906,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "サラは、今の温泉の対応について、どんな課題があると言っていますか。2つ答えなさい。",
-        "tr": "What issues does Sarah say there are with the way hot springs currently handle this? Give two."
+        "tr": "What issues does Sara say there are with the way hot springs currently handle this? Give two."
        },
        "answer": {
         "ja": "・タトゥーを{隠|かく}すシールを準備するのにはお金がかかること。\n・{貸切風呂|かしきりぶろ}がない{温泉|おんせん}もあること。",
@@ -3953,7 +3953,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "サラと{研|けん}が{温泉|おんせん}とタトゥーについて話しています。会話を聞いて、質問に答えなさい。",
-      "tr": "Sarah and Ken are talking about hot springs and tattoos. Listen to the conversation and answer the questions."
+      "tr": "Sara and Ken are talking about hot springs and tattoos. Listen to the conversation and answer the questions."
      },
      "lines": [
       {

@@ -460,7 +460,7 @@ TRY.registerLesson({
         "desc": "Three stacked horizontal 100% bars on an axis marked 0, 10, 20 … 100. Row 1 (Is it an easy environment to have and raise children?): easy 21%, hard 72%, other 7%. Row 2 (It would be better to become a society where putting family before work is the norm): agree 60%, disagree 33%, other 7%. Row 3 (It would be better to become a society where men taking childcare leave is the norm): agree 69%, disagree 28%, other 3%."
        }
       },
-      "#**◆理想の相手、現実とギャップも　女性7割「収入、譲れぬ条件」未婚の25〜34歳**",
+      "#◆**理想の相手、現実とギャップも　女性7割「収入、譲れぬ条件」未婚の25〜34歳**",
       "**ネット調査**",
       "¶若者の「結婚観」を探るため、インターネット調査は、25〜34歳の未婚者",
       "を対象にした。8割が結婚願望を持ち[[ながら|6]]、将来「自分は結婚する」と思っ",
@@ -560,7 +560,7 @@ TRY.registerLesson({
       "Attitudes toward the division of roles between husband and wife are also changing: only 32% think it is better for \"the husband to mainly work and earn the living and the wife to mainly do the housework and raise the children.\" And 69% think it would be good if \"more women worked.\"",
       "On the other hand, the idea that marriage equals children is deeply rooted. 77% think it is better to \"have children once you're married.\" The figure was 82% among men and reached 74% among women, too. By age group, people in their 40s were somewhat lower at 67%, but among young people in their 30s and under it exceeded 70%.",
       "As for child care, too, the answer \"While children are small, it's better for the mother to look after them at home\" accounted for 63%. It was lower among those in their 30s and under, but even so, more than half of them were positive about \"child care by the mother at home\" (Figure 2).",
-      "Perhaps reflecting the sense of burden felt by women who raise children while working, compared with the 43% who think \"marriage brings great benefits for men,\" fewer, 36%, said \"marriage brings great benefits for women.\" Only 31% of women answered that \"marriage brings great benefits for women\" (Figure 3).",
+      "Perhaps reflecting the burden felt by women who raise children while working, only 36% said \"women gain a lot from marriage,\" fewer than the 43% who think \"men gain a lot from marriage.\" Among women, only 31% answered that \"women gain a lot from marriage\" (Figure 3).",
       "Unstable employment and income, typified by non-regular employment, also seem to be feeding anxiety about marriage. When people were asked to choose from four options the social factors behind people marrying later or not marrying at all, the most common answer, at 36%, was \"values regarding marriage have changed,\" followed by \"young people's employment and income are unstable\" at 30%. Among those in their 30s and under, however, \"employment and income\" was the most common, accounting for nearly 40% (Figure 4).",
       "When asked about the environment for raising children, 72% answered that “Japan today is a society in which it is hard to have and raise children.” Asked what the biggest problem is, many named the difficulty of balancing work and child-rearing, second only to the financial burden of raising children.",
       "Sixty percent think “it would be better to become a society in which putting family before work is the norm.” Asked about childcare leave for men, the share saying “it would be better to become a society in which taking it is the norm” reached 69%. According to the Ministry of Health, Labour and Welfare, the rate at which men take childcare leave only just passed 5% in fiscal 2017. The gap with reality has been thrown into sharp relief (Figure 5).",
@@ -586,7 +586,7 @@ TRY.registerLesson({
      "titleTr": "What the Japanese Expect of Their Government: From the ISSP International Comparative Survey \"Role of Government\"",
      "audio": "1.Yomimono_L10-2",
      "lines": [
-      "#**◆はじめに**",
+      "#◆**はじめに**",
       "¶NHK放送文化研究所が{加盟|かめい}している国際比較調査グループISSP (International",
       "Social Survey Programme)が2016年に実施した「政府の役割」の結果から、35の国・",
       "{地域|ちいき}を比較し[[つつ|9]]、政府の望ましいあり方について、日本人がどうとらえてい",
@@ -595,14 +595,14 @@ TRY.registerLesson({
       "の広がりを背景に、政府に対してどのような役割を求めているのか。{本稿|ほんこう}では、",
       "特に日本人の政府に対する意識が、世界各国との比較においてどのように位置",
       "づけられるのかを中心に報告する。",
-      "#**◆何が政府の責任と考えられているか**",
+      "#◆**何が政府の責任と考えられているか**",
       "#**失業者対策・格差{縮小|しゅくしょう}は『政府の責任』、各国より少ない日本**",
       "¶「失業者がそれなりの生活水準を{維持|いじ}できるようにすること」が『政府の責",
       "任』（「どちらかといえば」を含む、以下同）だと考える人は、日本で53%と",
       "なっていて、各国の中では低い水準である（図1）。『政府の責任』と回答した",
       "人は、スペインやクロアチア、南アフリカなど失業率の高い国で多く、日本や",
       "チェコ、アメリカといった失業率の低い国で少ない傾向がある。",
-      "#**◆低所得家庭の大学生への援助は『政府の責任』、各国の中で最少**",
+      "#◆**低所得家庭の大学生への援助は『政府の責任』、各国の中で最少**",
       "¶「収入の少ない家庭の大学生に経済的な援助を与えること」が『政府の責任』",
       "だと考える人は、ほとんどの国で8割[[を超え|4]]、9割以上[[を占める|5]]国も多い（図2）。",
       "¶他方、日本では67%で、各国の中で最も少なくなっている。{韓国|かんこく}でも、日本",
@@ -1322,7 +1322,7 @@ TRY.registerLesson({
         }
        }
       },
-      "#**◆政府の監視はどこまで許容できるか**",
+      "#◆**政府の監視はどこまで許容できるか**",
       "#**政府による監視―許容度が高いのは、「電子メール」よりも「防犯カメラ」**",
       "¶政府が、「インターネットでやりとりされる電子メールや情報を監視するこ",
       "と（電子メール）」が許されるかどうかを尋ね[[たところ|10]]、『許される』（当然＋ま",
@@ -1530,7 +1530,7 @@ TRY.registerLesson({
       "捜査に欠かせないものとなっている。防犯カメラによる監視の許容度が比較的",
       "高いのは、防犯カメラが身近な安全を{保障|ほしょう}してくれるという安心感の表れでは",
       "ないだろうか。",
-      "#**◆おわりに**",
+      "#◆**おわりに**",
       "¶ここまで、人々が各国政府に対してどのような役割を求めているのかを概観",
       "してきた。各国を取り巻く状況によって結果にばらつきはある[[ものの|11]]、多くの",
       "国で政府が果たす役割への期待が大きいことがわかった。"
@@ -1542,8 +1542,8 @@ TRY.registerLesson({
       "The proportion of people who think that \"giving financial aid to university students from low-income families\" is \"the government's responsibility\" exceeds 80% in almost every country, and in many countries it accounts for 90% or more (Figure 2).",
       "In Japan, on the other hand, the figure is 67%, the lowest of all the countries. In South Korea, too, although not to the same extent as in Japan, fewer people than in other countries consider it \"the government's responsibility.\"",
       "In the 2006 survey, 58% of Japanese answered that aid for university students from low-income families was \"the government's responsibility,\" which was also considerably lower than in other countries. South Korea, though not to the same degree as Japan, was also low among the countries. Looking at the change over time, in Japan the share saying \"the government's responsibility\" rose from 58% to 67%, the largest increase of any country. Even so, Japan remains the lowest of all the countries (Table 1).",
-      "The low share of \"the government's responsibility\" answers in Japan and South Korea may be due to low public spending on higher education and a widely rooted view in society that \"paying for education is the family's role.\" The education scholar Masayuki Kobayashi points out that in Japan the \"parents-pay principle\" for education costs has taken hold, and that this has produced \"households that overstretch themselves\" while keeping the small public share of education costs in Japan from surfacing as a problem.",
-      "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries fewer than half of the respondents answered \"acceptable\" (\"definitely\" + \"probably,\" here and below) (Figure 3). Japan, too, stayed at 30%, on the low side among the countries.",
+      "The low share of \"the government's responsibility\" answers in Japan and South Korea may be due to low public spending on higher education and a view, widely rooted in society, that \"paying for education is the family's role.\" The education scholar Masayuki Kobayashi points out that in Japan the \"parents-pay principle\" for education costs has taken hold, and that this has produced \"households that overstretch themselves\" while keeping the small public share of education costs in Japan from surfacing as a problem.",
+      "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries fewer than half of the respondents answered \"acceptable\" (\"definitely\" + \"probably,\" here and below) (Figure 3). In Japan, too, it was only 30%, on the low side among the countries.",
       "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. The relatively high acceptance of surveillance by security cameras may be an expression of a sense of reassurance that the cameras guarantee people's safety in their everyday surroundings.",
       "So far, we have surveyed what roles people expect their governments to play. Although the results vary with the circumstances surrounding each country, it became clear that in many countries expectations of the role the government plays are high."
      ],
@@ -1821,7 +1821,7 @@ TRY.registerLesson({
         ],
         [
          {
-          "ja": "「まあ」「ある{程度|ていど}(to a certain degree)」",
+          "ja": "「まあ」「ある{程度|ていど} (to a certain degree)」",
           "tr": "“fairly,” “to a certain degree”"
          },
          {

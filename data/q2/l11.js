@@ -79,7 +79,7 @@ TRY.registerLesson({
      "icon": "read",
      "text": {
       "ja": "よろしく──日本語 表と{裏|うら}",
-      "tr": "Yoroshiku: Japanese, Its Surface and What Lies Beneath"
+      "tr": "Yoroshiku: The Surface of Japanese and What Lies Beneath"
      }
     },
     {
@@ -159,7 +159,7 @@ TRY.registerLesson({
      "icon": "read",
      "text": {
       "ja": "二重人格者の会話──日本語の{復権|ふっけん}",
-      "tr": "Conversations of a Split Personality: Restoring Japanese to Its Rightful Place"
+      "tr": "Conversations Between People with Split Personalities: The Restoration of the Japanese Language"
      }
     },
     {
@@ -293,8 +293,8 @@ TRY.registerLesson({
      "titleTr": "Yoroshiku: The Surface of Japanese and What Lies Beneath",
      "tr": [
       "Japanese people say yoroshiku everywhere they go. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you no longer know what yoroshiku means.",
-      "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, he asks for help within the limits of what they can do and leaves those limits up to them. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
-      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, Mr. So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean he wanted me to meet the man at the airport? That he wanted me to book him a hotel? That I should show him around Paris? Or would I be good enough to have a meal with him at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. I did so because I felt that making me decide even that much was—it's no joke—far too presumptuous, and just too convenient for them.",
+      "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within the limits of what the other person can do and leave those limits up to that person. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
+      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, Mr. So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean he wanted me to meet the man at the airport? That he wanted me to book a hotel for him? That I should show him around Paris? Or that I might perhaps have a meal with him at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
       "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person can at times even be rude. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
      ]
     },
@@ -378,7 +378,7 @@ TRY.registerLesson({
       "These facts probably show that our personalities, too, differ greatly depending on the language we use. As is often said, Italian, spoken with plenty of gestures and full, ringing vowels, makes Italians cheerful, and the restrained King's English makes the English composed; such claims cannot necessarily be dismissed as mere popular opinion. From that standpoint, Japanese seems to produce a relatively gentle, flat people.",
       "Furthermore, if straightforward expressions and ambiguous expressions lead directly to straightforward personalities and ambiguous personalities, then isn't Japanese, after all, producing rather ambiguous Japanese people? If we want to test this, there is nothing better than to consider, for example, the lines a fellow Japanese man uses when he asks a woman out on a date.",
       "\"Um, if it's all right with you, would you like to go have some tea or something somewhere around here?\"",
-      "First of all, he does not call out to her firmly; with \"Um\" he vaguely draws her attention. Next, by saying \"if it's all right with you,\" he makes his assertion vague. Then he adds \"a little\" (chotto) to make his wording light, and blurs things by saying \"somewhere around here\" instead of \"there,\" and \"tea or something\" instead of \"tea.\" Naturally, the woman, too, can only reply with a vague answer such as \"Yes, well then\" or \"Hmm, well, okay,\" which, to my Italian friends, must surely be a frustrating story."
+      "First of all, he does not call out to her firmly; with \"Um\" he vaguely draws her attention. Next, by saying \"if it's all right with you,\" he makes his assertion vague. Then he adds \"a little\" (chotto) to make his wording light, and blurs things by saying \"somewhere around here\" instead of \"there,\" and \"tea or something\" instead of \"tea.\" Naturally, the woman, too, can only reply with a vague answer such as \"Yes, well then\" or \"Hmm, well, okay,\" which, to people like my Italian friends, must surely be terribly exasperating."
      ]
     },
     {
@@ -454,7 +454,7 @@ TRY.registerLesson({
         "__遠慮__してハッキリと自己主張しないため、相手の思いを察する能力が==発達==する。"
        ],
        "credit": [
-        "榎本博明『ディベートが苦手、だから日本人はすごい』朝日新聞出版"
+        "（榎本博明『ディベートが苦手、だから日本人はすごい』朝日新聞出版）"
        ],
        "tr": [
         "We Japanese hold back at every turn. It isn’t that we consciously hold back each time; we do it quite naturally.",
