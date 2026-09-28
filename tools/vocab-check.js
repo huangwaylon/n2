@@ -1,6 +1,6 @@
 // Checks the vocabulary lists (data/<book>/vocab/chNN.js, data/SCHEMA.md "Vocabulary"): fields, ruby markup and kana
 // readings, the quiz distractors, the book sentence (verbatim from the chapter it names), one entry per word, and
-// warns when a word already appears in an earlier chapter's text.
+// warns when a word already appears in an earlier chapter's text (a warning is for a person to judge: 見合い vs 見合わせる).
 //   node tools/vocab-check.js [n2|n1] [chNN …]
 const fs = require("fs"), path = require("path");
 const { bookArg, dataDir, loadBook, isBookEnglish } = require("./lib/books.js");
@@ -17,6 +17,7 @@ const KANA = /^[ぁ-ゖァ-ヺー～〜・]+$/u, KANJI = /[㐀-鿿々〆]/u;
 // every Japanese string in a chapter (sample, points, exercises, review), and per grammar point
 const strings = (o, out = []) => { if (typeof o === "string") out.push(o); else if (o && typeof o === "object") Object.entries(o).forEach(([k, v]) => { if (!/^(en|why|deepDive|optionsEn|questionEn|note)$/.test(k)) strings(v, out); }); return out; };
 const chText = new Map(T.chapters.filter(Boolean).map((c) => [c.id, strings(c).map(bare)]));
+const chRaw = new Map(T.chapters.filter(Boolean).map((c) => [c.id, strings(c)]));
 const gpText = new Map();
 T.chapters.filter(Boolean).forEach((c) => c.parts.forEach((p) => p.points.forEach((g) => gpText.set(g.no, { ch: c.id, s: strings(g).map(bare) }))));
 
@@ -70,9 +71,11 @@ for (const v of T.vocab) {
       if (be != null && (x.book.src !== "book" || x.book.en !== be)) E(id, `book sentence is a line the book translates: src: "book", en: ${JSON.stringify(be)}`);
       if (be == null && x.book.src === "book") E(id, "src: \"book\" but the book prints no English for this line");
     }
-    // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list
-    const stem = w.replace(/[ぁ-ゖ]+$/u, "");
-    if (KANJI.test(stem) && stem.length >= 2) for (const [c, s] of chText) if (c < v.ch && s.some((t) => t.includes(stem))) { W(id, `appears in ch${c}`); break; }
+    // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list; an occurrence
+    // whose furigana gives another reading is a different word (人気 にんき / ひとけ)
+    const stem = w.replace(/[ぁ-ゖ]+$/u, ""), hr = [...x.w.matchAll(RUBY)].map((m) => m[2]).join("");
+    const other = (t) => t.replace(RUBY, (m, b, rd) => (b.includes(stem) && !rd.includes(hr) && !hr.includes(rd) ? "" : m));
+    if (KANJI.test(stem) && stem.length >= 2) for (const [c, s] of chRaw) if (c < v.ch && s.some((t) => bare(other(t)).includes(stem))) { W(id, `appears in ch${c}`); break; }
   });
 }
 console.log(`${B.id}: ${T.vocab.length} files, ${n} words, ${errs} errors, ${warns} warnings`);
