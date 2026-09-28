@@ -42,6 +42,8 @@ const q2Markup = (t) => t
   .replace(/\[#(\d+)\]/g, '<span class="exno" aria-label="例$1">$1</span>')
   .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
   .replace(/[❶-❿]/g, '<span class="step">$&</span>')
+  // "［　　　］のパターンを使って": the book prints a grey swatch, the colour of the practice box below (pp.024, 030)
+  .replace(/［　+］(?=の?パターン)/g, '<span class="swatch" role="img" aria-label="灰色の部分"></span>')
   // 書くポイント "…… (a) (b)": the pointer to the model composition's letters, blue as printed (pp.018, 050)
   .replace(/……((?:\s*\([a-z]\))+)/g, '……<span class="acc">$1</span>');
 // opts.vertical: 縦中横 for standalone numbers (outside tags and ruby)
