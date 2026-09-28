@@ -73,7 +73,7 @@ export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}
 const B = {
   // ----- structure -----
   head(b) {
-    const s = b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
+    const s = b.style === "sq" && /^☛/.test(plain(b.text && b.text.ja !== undefined ? b.text.ja : b.text)) ? "sq hd--pt" : b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
     const h = s === "band" ? "h2" : s === "label" ? "h4" : "h3";
     return `<${h} class="hd hd--${s}"${idAttr(b)}>${b.icon ? skillIcon(b.icon) : ""}${tag}<span class="hd-t">${inl(b.text)}</span>${audioBadge(b.audio)}</${h}>`;
   },
@@ -160,7 +160,7 @@ const B = {
 
   // ----- grammar notes, strategies -----
   note: noteHtml,
-  sub: (b) => `<h4 class="gn-sub"${idAttr(b)}><span class="gn-sub__n">${fmt(String(b.n))}</span><span class="gn-sub__p">${fmt(b.pattern)}</span>${b.gloss ? `<span class="gn-gloss">〈${fmt(b.gloss)}〉</span>` : ""}</h4>`,
+  sub: (b) => `<h4 class="gn-sub"${idAttr(b)}><span class="gn-sub__n">${fmt(String(b.n))}</span><span class="gn-sub__p">${fmt(b.pattern)}</span>${b.gloss ? `<span class="gn-gloss">〈${fmt(b.gloss)}〉</span>` : ""}${b.ref ? `<span class="gn-sub__r"><span class="gn-ref">${fmt(b.ref)}</span></span>` : ""}</h4>`,
   key(b) {
     return `<div class="gn-key ja-book">${(b.items || []).map((it) => exBody(it, "gn-key__i")).join("")}</div>`;
   },

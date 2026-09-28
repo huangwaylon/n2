@@ -79,6 +79,8 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 .hd--step .hd-tag { background: var(--q-soft); color: var(--ink); border-bottom: 2px solid var(--ink-2); border-right: 2px solid var(--ink-2); border-radius: 0 0 8px 0; padding: 2px 12px; font-size: 17px; }
 .hd--sq { color: var(--q); font-size: 19px; font-weight: 700; }
 .hd--sq::before { content: ""; width: .7em; height: .7em; background: var(--q); flex: none; }
+.hd--pt { color: var(--ink); }
+.hd--pt::before { display: none; }  /* ☛ comparison sub-headings: the ☛ only (p.046) */
 .hd--label { font-size: 15px; font-weight: 700; color: var(--q); border-bottom: 2px solid var(--q); border-right: 2px solid var(--q); border-radius: 0 0 8px 0; padding: 0 16px 2px 2px; width: fit-content; margin: 22px 0 10px; }
 .hd--plain { font-size: 18px; font-weight: 700; }
 .hd .en-under { flex-basis: 100%; }
@@ -241,6 +243,7 @@ a.ref:hover u { background: var(--q-soft); }
 .gn-h__r { margin-left: auto; display: flex; gap: 8px; align-items: center; }
 .gn-ref { color: var(--ink); font: 13px/1.4 var(--goth); border-left: 2px solid var(--ink); border-right: 2px solid var(--ink); padding: 0 6px; white-space: nowrap; }
 .gn-sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 18px 0 8px 12px; font: 800 21px/1.4 var(--goth); }
+.gn-sub__r { margin-left: auto; font-size: 14px; font-weight: 500; }
 .gn-sub__n { display: inline-grid; place-items: center; min-width: 28px; height: 28px; background: var(--ink-2); color: var(--panel); border-radius: 4px; font-size: 16px; }
 .gn-key { background: var(--q-soft); padding: 10px 18px; margin: 0 0 12px; }
 .gn-key__i, .gn-key .exd__row { margin: 4px 0; }
@@ -249,21 +252,32 @@ a.ref:hover u { background: var(--q-soft); }
 .gn-ex { display: grid; grid-template-columns: auto 1fr auto; gap: 0 .5em; margin: 6px 0; align-items: start; }
 .gn-ex > .exno { margin-top: .45em; font-size: .7em; }
 .gn-ex__b { min-width: 0; line-height: 2; }
-.exd__row { display: grid; grid-template-columns: auto auto 1fr; line-height: 2; }
+/* A：/ B： lines: one grid for the whole exchange, so the colons line up after names of different lengths (p.009) */
+.exd { display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-content: start; }
+.exd__row { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; line-height: 2; }
+.exd__row:not(:has(> .exd__sp)) > .exd__say { grid-column: 1 / -1; }
 .exd__sp { font-family: var(--goth); white-space: nowrap; }
 .exd__c { padding: 0 .3em 0 .1em; }
 .exd__say { min-width: 0; }
 .gn-conn { background: var(--q-gray); padding: 12px 16px; margin: 6px 0 12px; display: flow-root; }
-.gn-forms { float: left; background: var(--panel); padding: 10px 16px; margin: 0 18px 8px 0; font: 17px/1.9 var(--goth); max-width: 100%; }
+.gn-forms { float: left; background: var(--panel); padding: 10px 16px; margin: 0 calc(1.2em + 12px) 8px 0; font: 17px/1.9 var(--goth); max-width: 100%; }
 @media (max-width: 600px) { .gn-forms { float: none; margin-right: 0; } }
 .fx1 { white-space: nowrap; }
+/* V~~ます~~: the book strikes the dropped ending with a blue rule (p.009) */
+.gn-forms s { text-decoration-color: var(--q); text-decoration-thickness: 2px; }
 .fxs { display: flex; align-items: center; gap: 0; }
 .fxs__stack { display: grid; }
 .fxs__br { align-self: stretch; width: 10px; margin: 4px 6px 4px 4px; border: 1.5px solid var(--q); border-left: 0; border-radius: 0 6px 6px 0; position: relative; }
 .fxs__br::after { content: ""; position: absolute; right: -7px; top: 50%; width: 6px; border-top: 1.5px solid var(--q); }
 .fxs__join { margin-left: 6px; }
 .gn-conn__b .qlist { margin: 0; }
-.gn-conn__b .qlist > li::before { content: "•"; }
+/* the bullets flow around the formula box as printed (p.010: a bullet's last line wraps under the box), so the dot is
+   inline with a hanging indent — an absolute dot would sit under the float; 例） lines go under the box */
+.gn-conn__b .qlist > li { padding-left: 1.2em; text-indent: -1.2em; }
+.gn-conn__b .qlist > li::before { content: "•"; position: static; display: inline-block; width: 1.2em; text-indent: 0; color: var(--ink); font-weight: 700; }
+.gn-conn__b .qlist > li > * { text-indent: 0; }
+.gn-conn__b .qlist > li > .bk-en.qlist__t { display: inline; }
+.gn-conn__b .rei { clear: left; }
 .gn-conn__b .bk-en { font-size: 16px; }
 .rei { display: grid; grid-template-columns: auto 1fr; gap: 0 .6em; margin: 8px 0 4px .6em; }
 .rei__l { font: 16px/2 var(--goth); }
@@ -390,7 +404,6 @@ a.ref:hover u { background: var(--q-soft); }
 @media (max-width: 600px) {
   .qtbl th, .qtbl td { padding: 4px 6px; font-size: 14px; }
   .w { white-space: normal; }
-  .exd__row { grid-template-columns: auto auto minmax(0, 1fr); }
   .exd__sp { white-space: normal; max-width: 6em; }
   .flow__s { max-width: 100%; min-width: 0; }
   .flow__steps > li { min-width: 0; }
