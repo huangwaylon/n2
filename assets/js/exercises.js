@@ -116,7 +116,7 @@ function choiceItem(it, i, c) {
   const groups = inline ? "" : it.parts ? it.parts.map((p, k) => optGroup(p.options, p.answer, labels, mode, p.tag || `(${k + 1})`)).join("") : optGroup(it.options, it.answer, labels, mode);
   const n = c.off + i + 1;
   return `<div class="q choice-q${inline ? " q--inline" : ""}" data-i="${i}">
-      ${it.q ? `<div class="q-line">${qnHtml(n, c.num)}<div class="q-text ja-book">${qHtml}</div>${speakBtn(it.q, "data-small")}</div>` : qnHtml(n, c.num)}
+      ${it.q ? `<div class="q-line">${qnHtml(n, c.num)}<div class="q-text ja-book">${qHtml}</div>${it.mute ? "" : speakBtn(it.q, "data-small")}</div>` : qnHtml(n, c.num)}
       ${groups}
       ${feedback(it)}
     </div>`;

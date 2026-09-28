@@ -45,9 +45,11 @@ assets/js/
   content.js    chapter view: banner, can-do, mini TOC, 見本文 (notice/prose/dialogue/vertical), grammar points
   exercises.js  all exercise types, Check, まとめの問題, grading and input actions
   pages.js      home, guide, about (front matter), index, compare, can-do list, drill
+  vocab.js      単語: vocabulary list per chapter (data/<book>/vocab/chNN.js, loaded on the first vocab route) and its drill
+  flash.js      flashcard deck shared by the vocab drills (TRY 単語, Quartet 覚える単語・漢字)
   main.js       loads chapter data, builds the shell (topbar/sidebar/footer), router, settings, events
 assets/css/     base.css (tokens, light + dark theme, English layer, primitives) · shell.css · content.css · exercises.css
-data/<book>/    book.js (meta) · chNN.js (one file per chapter) · compare.js · front.js
+data/<book>/    book.js (meta) · chNN.js (one file per chapter) · compare.js · front.js · vocab/chNN.js (our word lists)
 data/SCHEMA.md  data format and transcription rules — read before editing data
 docs/LAYOUT.md  how each book component looks and is rendered, breakpoints, furigana rules, QA checklist
 docs/N1-TRANSCRIPTION.md  N1 page map and conventions
@@ -61,7 +63,7 @@ python3 -m http.server 8765          # then http://localhost:8765/ (N2) and http
 ```
 
 Routes are hash routes: `#/` home, `#/ch/N`, `#/ch/N/review`, `#/gp/N` (grammar point), `#/compare[/i]`, `#/about`,
-`#/guide`, `#/index`, `#/cando`, `#/drill`. Module scripts need an HTTP server (not `file://`).
+`#/guide`, `#/index`, `#/cando`, `#/drill`, `#/vocab[/N]`, `#/vocab/drill`. Module scripts need an HTTP server (not `file://`).
 
 ## Validation (run after any change)
 
@@ -71,6 +73,7 @@ for b in n2 n1 q2; do node tools/text-snapshot.js $b | diff tools/$b/text-baseli
 node tools/q2/check.js && node tools/q2/verify.js                      # Quartet II: structure, markup, tr; vs the book's lists
 node tools/q2/ocr-diff.js data/q2/l07.js 28-59,265                     # Quartet II transcription vs OCR (PDF pages)
 node tools/ocr-diff.js data/n2/ch01.js 18-29      # transcription vs OCR; check every score < 0.9 on the scan
+for b in n2 n1; do node tools/xref.js $b; node tools/vocab-check.js $b; done   # #N cross-references; vocabulary lists
 ```
 
 - `text-snapshot` dumps the Japanese and the book's English. Any diff must be an intended, verified fix; then

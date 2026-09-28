@@ -208,3 +208,26 @@ Heuristics used when `style` is absent: notice (`kind:"notice"`) — the first l
 Story — a line of only 〜 is a scene separator.
 
 Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point. A ãã£ã¦ã¿ãã exercise may carry its own `xref` when the book prints the â line right after the exercise but before a following ï¼Plus box; it is printed right after that exercise.
+
+## Vocabulary (単語) — `data/<book>/vocab/chNN.js`
+
+Not book content: a study list we compiled of the N2/N1-level words that each chapter's texts use (見本文, examples,
+practice, まとめの問題, listening scripts). All English here is generated. Each file calls:
+
+```js
+TRY.registerVocab({ ch: 1, words: [
+  { w: "{募集|ぼしゅう}",                    // headword: dictionary form; ruby markup gives the reading (kana words: plain)
+    lv: "N2",                               // "N2" | "N1" (usual JLPT level lists; the level the word is normally taught)
+    pos: "noun · する verb",                 // part of speech, short English
+    en: "recruitment; a call for applicants or entries",   // definition: the senses that matter, most common first
+    note: "…",                              // optional nuance: register, collocations, how it differs from look-alikes
+    rx: ["ぼしゅ", "ぼうしゅう", "ほしゅう"],     // kanji words: 3 plausible wrong readings (JLPT 漢字読み style)
+    book: { ja: "…", en: "…", at: "gp/2" },  // a sentence from the chapter using the word, copied verbatim from the data
+                                            //   with the word in **bold** (the chapter's own ** dropped); at = route
+                                            //   of the point (gp/N) or chapter (ch/N, ch/N/review) it comes from
+    ex: [ { ja: "…**{募集|ぼしゅう}**…", en: "…", alt: ["{応募|おうぼ}", "…", "…"] },   // 1–2 original sentences; the word
+          { ja: "…", en: "…" } ] }           //   in **bold**; ex[0].alt = 3 wrong words in the same form (文脈規定 quiz)
+] });
+```
+
+A word is listed once per book, in the first chapter that uses it. `node tools/vocab-check.js <book>` validates it.

@@ -345,3 +345,33 @@
    still too long for the column breaks anywhere */
 .sample__headline, .vt-title, .vt-label, .nt-heading { word-break: keep-all; overflow-wrap: anywhere; }
 @media (max-width: 600px) { .vt--h .vt-title { font-size: 1.3em; } .sample__headline { font-size: 21px; } }
+
+/* ---------- 単語 vocabulary list (vocab.js) ---------- */
+/* chapter / level selectors wrap as separate chips (14 chapters don't fit one row on a phone) */
+.vc-seg { display: flex; flex-wrap: wrap; gap: 4px; border: 0; overflow: visible; margin: 6px 0; }
+.vc-seg .seg__b, .vc-seg .seg__b + .seg__b { display: inline-grid; place-items: center; border: 1.5px solid var(--rule); border-radius: 8px; text-decoration: none; }
+.vc-seg a.seg__b[aria-current] { background: var(--pill); color: var(--pill-ink); }
+.page-head > .btn { flex: none; margin-top: .9em; }
+.vc-filter { display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px; }
+.vc-filter .search { flex: 1 1 14em; width: auto; }
+.vc { padding: 14px 0 10px; border-top: 1px solid var(--line); }
+.vc__h { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; }
+.vc__w { font: 700 24px/1.4 var(--mincho); }
+.vc__r { font: 16px/1.4 var(--goth); color: var(--ink-2); }
+.vc__lv { font: 700 11px/1 var(--goth); padding: 3px 6px; border-radius: 5px; background: var(--band); color: var(--ink-2); }
+.vc__pos { font: 13px/1.4 system-ui, sans-serif; color: var(--ink-3); }
+.vc__tools { display: inline-flex; align-items: center; gap: 6px; margin-left: auto; }
+.vc__def { margin: 6px 0 2px; color: var(--en); font: 500 16px/1.5 system-ui, -apple-system, sans-serif; }
+.vc__def::after { content: "generated"; display: inline-block; margin-left: .6em; padding: 0 .4em; border: 1px solid currentColor; border-radius: 4px; font-size: 10px; font-weight: 400; vertical-align: 2px; opacity: .8; }
+.vc__note { margin: 4px 0; color: var(--ink-2); font: 14.5px/1.6 system-ui, -apple-system, sans-serif; }
+.vc__exs { list-style: none; margin: 6px 0 0; padding: 0; }
+.vc-ex { position: relative; margin: 4px 0; line-height: 2; }
+.vc-ex .speak { margin-left: .3em; }
+.vc-ex--book { padding-left: 10px; border-left: 3px solid var(--band-edge); }
+.vc__at { display: block; text-align: right; font-size: 13px; color: var(--ink-3); }
+/* flashcard extras for the vocabulary drill */
+.card-fc__r { display: block; font: 20px/1.5 var(--goth); color: var(--ink-2); }
+.card-fc__def { font: 20px/1.5 system-ui, -apple-system, sans-serif; color: var(--en); }
+.card-fc__f .card-fc__def { font-size: 22px; }
+@media (max-width: 600px) { .card-fc__f { font-size: 40px; } .card-fc { min-height: 200px; padding: 18px; } }
+.vc__at .gp-link { min-width: 44px; text-align: center; }

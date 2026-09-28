@@ -400,14 +400,8 @@ a.ref:hover u { background: var(--q-soft); }
 .kj-chip__n { font: 10px/1 var(--goth); color: var(--ink-3); }
 @media (hover: hover) { .kj-chip:hover { border-color: var(--q); text-decoration: none; } }
 
-/* ---------- drill ---------- */
-.dr-opts { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
-.card-fc { display: grid; place-items: center; gap: 10px; min-height: 240px; border: 2px solid var(--q); border-radius: 16px; padding: 24px; text-align: center; cursor: pointer; background: var(--panel); }
-.card-fc__f { font: 48px/1.4 var(--mincho); }
-.card-fc__b { font: 20px/1.7 var(--goth); color: var(--ink-2); }
-.card-fc__s { font-size: 16px; }
-.dr-act { display: flex; justify-content: center; gap: 12px; margin: 16px 0 6px; }
-.dr-count { text-align: center; }
+/* ---------- drill (the flashcards are shared: exercises.css) ---------- */
+.q2 .card-fc { border-color: var(--q); }
 
 /* ---------- additions: emphasis dots, double underline, figures in readings, matching ---------- */
 .bouten { font-style: normal; text-emphasis: filled dot; -webkit-text-emphasis: filled dot; text-emphasis-position: over right; -webkit-text-emphasis-position: over right; }

@@ -279,3 +279,12 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 .listen-q--resp .lq-row { align-items: center; }
 .listen-q--resp .lq-row > .qn.qn--box { margin-top: 0; }
 .opts--letters > .opt-tag { flex-basis: 100%; }
+
+/* ---------- flashcards (flash.js: Quartet II drill, TRY 単語 drill) ---------- */
+.dr-opts { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+.card-fc { display: grid; place-items: center; gap: 10px; min-height: 240px; border: 2px solid var(--pill); border-radius: 16px; padding: 24px; text-align: center; cursor: pointer; background: var(--panel); }
+.card-fc__f { font: 48px/1.4 var(--mincho); }
+.card-fc__b { font: 20px/1.7 var(--goth); color: var(--ink-2); }
+.card-fc__s { font-size: 16px; }
+.dr-act { display: flex; justify-content: center; gap: 12px; margin: 16px 0 6px; }
+.dr-count { text-align: center; }

@@ -1,5 +1,5 @@
 // The pages outside the chapters: home, guide, about (front matter), index, similar patterns, can-do list, drill.
-import { BOOK, TRY, allPoints, bookEnglish, chapterPoints, esc, pointRange, progress } from "./core.js";
+import { BOOK, TRY, allPoints, bookEnglish, chapterPoints, esc, pointRange, progress, shuffle } from "./core.js";
 import { bi, biInner, en, enScopeBtn, enToggle, fmt, gpLink, marks, MARKS, plain, stars } from "./markup.js";
 import { rubyMarkup } from "./ruby.js";
 import { renderExercise } from "./exercises.js";
@@ -31,7 +31,7 @@ export function homeView() {
         <div class="bi hero-bi" data-en-scope>${enToggle()}${enScopeBtn()}<p class="ja">日本語で読むことに慣れるため、説明は日本語が中心です。英語の説明・訳は最初は隠れています。右上の「EN」で表示できます。</p>
         ${en("To get you used to reading Japanese, explanations are primarily in Japanese. English translations and detailed English explanations are hidden by default — use the **EN** switch at the top (or the small EN button next to any line) to reveal them.", "ui")}</div>
         <div class="stats"><div><b>${done}</b> / ${pts.length} studied</div>${bar(done, pts.length, " big")}</div>
-        <div class="hero-links"><a class="btn primary" href="#/ch/1">第1章から始める <span class="en-inline">Start Chapter 1</span></a><a class="btn" href="#/guide">使い方 <span class="en-inline">How to use</span></a><a class="btn" href="#/drill">ランダム練習 <span class="en-inline">Random drill</span></a></div>
+        <div class="hero-links"><a class="btn primary" href="#/ch/1">第1章から始める <span class="en-inline">Start Chapter 1</span></a><a class="btn" href="#/guide">使い方 <span class="en-inline">How to use</span></a><a class="btn" href="#/drill">ランダム練習 <span class="en-inline">Random drill</span></a><a class="btn" href="#/vocab">単語 <span class="en-inline">Vocabulary</span></a></div>
       </section>
       <section class="ch-grid">${cards}</section>
     </div>`;
@@ -164,7 +164,7 @@ export function drillView() {
   const add = (ex, g, ch) => ex.type === "choice" && ex.items.forEach((it) => pool.push({ it: ex.labels ? Object.assign({ labels: ex.labels }, it) : it, g, ch }));
   allPoints().forEach(({ g, ch }) => (g.practice || []).concat((g.plus || []).flatMap((p) => p.practice || []), (g.notes || []).flatMap((n) => n.practice || [])).forEach((ex) => add(ex, g, ch)));
   TRY.chapters.forEach((ch) => (ch.review || []).forEach((r) => add(r.ex, null, ch)));
-  for (let i = pool.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [pool[i], pool[j]] = [pool[j], pool[i]]; }
+  shuffle(pool);
   const ex = { type: "choice", items: pool.slice(0, 10).map((p) => Object.assign({}, p.it, { why: Object.assign({}, p.it.why, { ja: ((p.it.why && p.it.why.ja) || "") + (p.g ? ` ☞ [#${p.g.no}]` : ` ☞ 第${p.ch.id}章`) }) })) };
   const html = renderExercise(ex, "drill-" + ++drillSeq, "ランダム10問 <span class='en-inline'>10 random questions</span>").replace(/☞ \[#(\d+)\]/g, (m, n) => "☞ " + gpLink(+n));
   return `<div class="page drill" data-en-scope>${pageHead("ランダム練習 <span class=\"en-inline\">Random drill</span>")}

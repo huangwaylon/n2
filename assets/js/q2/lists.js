@@ -1,6 +1,7 @@
 // Quartet II lists: 単語リスト / 覚える単語と例文 (vocabNN.js), 漢字リスト (kanjiNN.js), the generated indexes
 // (文型・表現さくいん, 単語さくいん — the book's pp.246–259 list the same entries) and the vocab / kanji drill.
-import { ACT, TRY, $, $$, esc, progress, saveProgress } from "../core.js";
+import { ACT, TRY, $$, esc } from "../core.js";
+import { flashcards, redraw } from "../flash.js";
 import { en, enScopeBtn, enToggle, fmt, plain, speakBtn } from "../markup.js";
 
 const vocabOf = (id) => TRY.vocab.find((v) => v.lesson === +id);
@@ -87,34 +88,18 @@ document.addEventListener("input", (e) => {
 });
 
 // ---------- drill: flashcards over the 覚える単語 and the kanji of chosen lessons ----------
-const drill = { mode: "vocab", lessons: null, deck: [], i: 0, show: false };
+const drill = { mode: "vocab", lessons: null };
 function deckOf() {
   const ls = drill.lessons || TRY.lessons.map((l) => l.id);
   if (drill.mode === "kanji") return TRY.kanji.filter((K) => ls.includes(K.lesson)).flatMap((K) => K.kanji.map((k) => ({ front: k.k, back: `${[...(k.on || []), ...(k.kun || [])].join("・")}<br>${fmt(k.meaning || "")}`, sub: (k.words || []).slice(0, 2).map((w) => `${fmt(w.w)}（${fmt(w.yomi)}）`).join("　"), key: "k" + k.no })));
   return TRY.vocab.filter((v) => ls.includes(v.lesson)).flatMap((v) => v.lists.flatMap((L) => L.rows.filter((r) => r.n).map((r) => ({ front: fmt(r.w), back: `${fmt(r.yomi)}<br>${fmt(r.en)}`, sub: "", key: `v${v.lesson}-${plain(r.w)}` }))));
 }
-const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 export function drillView() {
-  if (!drill.deck.length) drill.deck = shuffle(deckOf());
-  const c = drill.deck[drill.i];
-  const known = (progress.known = progress.known || {});
-  const n = drill.deck.length, k = drill.deck.filter((x) => known[x.key]).length;
   return `<div class="page q2 drill">
     <div class="page-head"><h1>練習 <span class="en-inline">Flashcards</span></h1></div>
     <div class="dr-opts"><div class="seg">${[["vocab", "覚える単語"], ["kanji", "漢字"]].map(([m, l]) => `<button class="seg__b" data-act="dr-mode" data-m="${m}" aria-pressed="${drill.mode === m}">${l}</button>`).join("")}</div>
       <div class="seg">${[null, ...TRY.lessons.map((l) => l.id)].map((id) => `<button class="seg__b" data-act="dr-les" data-l="${id || ""}" aria-pressed="${String(drill.lessons ? drill.lessons[0] === id : id === null)}">${id ? `L${id}` : "全部"}</button>`).join("")}</div></div>
-    ${c ? `<div class="card-fc${drill.show ? " is-open" : ""}" data-act="dr-flip" role="button" tabindex="0" aria-label="カードをめくる Flip">
-        <div class="card-fc__f ja">${c.front}</div>${drill.show ? `<div class="card-fc__b ja">${c.back}</div>${c.sub ? `<div class="card-fc__s ja">${c.sub}</div>` : ""}` : `<div class="card-fc__hint dim">タップして答えを見る <span class="en-inline">tap to reveal</span></div>`}</div>
-      <div class="dr-act"><button class="btn" data-act="dr-next" data-k="0">もう一度 <span class="en-inline">Again</span></button><button class="btn primary" data-act="dr-next" data-k="1">覚えた <span class="en-inline">Got it</span></button></div>
-      <p class="dim dr-count">${drill.i + 1} / ${n} · 覚えた ${k}</p>` : `<p class="dim">No cards yet.</p>`}</div>`;
+    ${flashcards(`${drill.mode}:${drill.lessons}`, deckOf)}</div>`;
 }
-const redraw = () => { $("#main").innerHTML = drillView(); };
-ACT["dr-flip"] = () => { drill.show = !drill.show; redraw(); };
-ACT["dr-next"] = (t) => {
-  const c = drill.deck[drill.i];
-  progress.known = progress.known || {};
-  if (c) { if (t.dataset.k === "1") progress.known[c.key] = 1; else { delete progress.known[c.key]; drill.deck.push(c); } saveProgress(); }
-  drill.i = (drill.i + 1) % Math.max(1, drill.deck.length); drill.show = false; redraw();
-};
-ACT["dr-mode"] = (t) => { drill.mode = t.dataset.m; drill.deck = []; drill.i = 0; drill.show = false; redraw(); };
-ACT["dr-les"] = (t) => { drill.lessons = t.dataset.l ? [+t.dataset.l] : null; drill.deck = []; drill.i = 0; drill.show = false; redraw(); };
+ACT["dr-mode"] = (t) => { drill.mode = t.dataset.m; redraw(); };
+ACT["dr-les"] = (t) => { drill.lessons = t.dataset.l ? [+t.dataset.l] : null; redraw(); };

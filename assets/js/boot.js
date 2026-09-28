@@ -1,6 +1,6 @@
 /* Classic script loaded first by every book page (and required by the Node tools, tools/lib/books.js).
    - TRY: the data registry that data/<book>/*.js call — TRY books (n2, n1): registerBook / registerChapter /
-     registerCompare / registerFront; Quartet II (q2, data/Q2-SCHEMA.md): registerLesson / registerVocab / registerKanji /
+     registerCompare / registerFront / registerVocab (単語); Quartet II (q2, data/Q2-SCHEMA.md): registerLesson / registerVocab / registerKanji /
      registerUnits (ブラッシュアップ) / registerFront.
    - Colour theme: applied to <html data-theme> before the first paint, so the page never flashes the wrong theme. */
 (function (root) {
@@ -13,7 +13,7 @@
   TRY.registerCompare = (groups) => (TRY.compare = groups);
   TRY.registerFront = (sections) => (TRY.front = sections);
   TRY.registerLesson = (l) => add(TRY.lessons, l, (x) => x.id);
-  TRY.registerVocab = (v) => add(TRY.vocab, v, (x) => x.lesson);
+  TRY.registerVocab = (v) => add(TRY.vocab, v, (x) => x.lesson || x.ch); // Quartet: lesson; TRY books: ch (vocab/chNN.js)
   TRY.registerKanji = (k) => add(TRY.kanji, k, (x) => x.lesson);
   // units: ブラッシュアップ pages (上級へのチャレンジ c1–c8, 漢字チャレンジ k13–k24), sorted by book page
   TRY.registerUnits = (list) => list.forEach((u) => add(TRY.units, u, (x) => x.page));

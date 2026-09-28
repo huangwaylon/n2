@@ -32,6 +32,7 @@ export const LETTERS = "abcdefghijklmnop";
 export const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 export const WIDE = "(min-width: 901px)"; // desktop layout; the sidebar is a drawer below it
 export const isWide = () => matchMedia(WIDE).matches;
+export const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 export const chapterPoints = (ch) => ch.parts.flatMap((p) => p.points);
 export const pointRange = (pts, sep = "〜") => (pts.length ? `${pts[0].no}${sep}${pts[pts.length - 1].no}` : "");

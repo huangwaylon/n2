@@ -8,6 +8,7 @@ import { fitRubies } from "./ruby.js";
 import { chapterView, setVertical, vtScrollInit } from "./content.js";
 import { fitOptionCols } from "./exercises.js";
 import { aboutView, canDoView, compareView, drillView, guideView, homeView, indexView, notFound } from "./pages.js";
+import { filterVocab, vocabView } from "./vocab.js";
 
 const SITE = new URL("../../", import.meta.url); // site root
 const BOOKS = [{ id: "n2", label: "N2", dir: "", title: "TRY! N2 文法" }, { id: "n1", label: "N1", dir: "n1/", title: "TRY! N1 文法" },
@@ -20,12 +21,15 @@ const loadScript = (src) => new Promise((ok, fail) => {
   document.head.append(s);
 });
 // every file registers itself (TRY.registerChapter sorts), so they load in parallel
-const loadData = () => {
+const chFiles = (dir = "") => Array.from({ length: BOOK().chapters }, (_, i) => `${dir}ch${String(i + 1).padStart(2, "0")}.js`);
+const loadData = (files = BOOK().files || chFiles().concat("compare.js", "front.js")) => {
   const dir = new URL(`data/${BOOK().id}/`, SITE);
-  const files = BOOK().files || Array.from({ length: BOOK().chapters }, (_, i) => `ch${String(i + 1).padStart(2, "0")}.js`).concat("compare.js", "front.js");
   // a file that fails to load is reported on the page; the rest of the book still renders
   return Promise.allSettled(files.map((f) => loadScript(new URL(f, dir)))).then((rs) => rs.filter((r) => r.status === "rejected").map((r) => r.reason.message));
 };
+// TRY books: the vocabulary lists (data/<book>/vocab/chNN.js) load on the first visit to a vocab page
+let vocabLoad = null;
+const needVocab = (h) => A === TRY_BOOK && /^vocab/.test(h) && !vocabLoad && (vocabLoad = loadData(chFiles("vocab/")));
 
 // ---------- shell ----------
 function shellHtml() {
@@ -66,11 +70,12 @@ function shellHtml() {
 
 // ---------- TRY books (n2, n1): pages, sidebar, routes ----------
 const TRY_PAGES = [["about", "この本について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"],
-  ["compare", "似ている文型", "Compare"], ["cando", "できること", "Can-do"], ["drill", "練習", "Drill"]];
+  ["compare", "似ている文型", "Compare"], ["cando", "できること", "Can-do"], ["drill", "練習", "Drill"], ["vocab", "単語", "Vocab"]];
 function sidebar() {
   $("#sb-nav").innerHTML = `<ul class="sb-list">${TRY.chapters.map((ch) => `<li class="sb-ch" data-ch="${ch.id}"><a href="#/ch/${ch.id}" class="sb-ch-link"><span class="sb-num">${ch.id}</span><span class="sb-t">${esc(plain(ch.title.ja))}</span><span class="sb-prog" data-prog="${ch.id}"></span></a>
         <ul class="sb-gps">${chapterPoints(ch).map((g) => `<li><a href="#/gp/${g.no}" data-gp="${g.no}"><span class="sb-gpn">${g.no}</span><span class="sb-gpt">${esc(plain(g.pattern))}</span></a></li>`).join("")}
-        ${ch.review && ch.review.length ? `<li><a href="#/ch/${ch.id}/review" class="sb-review">まとめの問題</a></li>` : ""}</ul></li>`).join("")}</ul>`;
+        ${ch.review && ch.review.length ? `<li><a href="#/ch/${ch.id}/review" class="sb-review">まとめの問題</a></li>` : ""}
+        <li><a href="#/vocab/${ch.id}" class="sb-review">単語 <span class="en-inline">Vocab</span></a></li></ul></li>`).join("")}</ul>`;
   updateSidebarProgress();
 }
 function updateSidebarProgress() {
@@ -82,7 +87,7 @@ function updateSidebarProgress() {
   });
 }
 // routes are hashes: "" home · ch/N · ch/N/review · gp/N · compare[/group] · about · guide · index · cando · drill
-const VIEWS = { guide: guideView, about: aboutView, index: indexView, compare: compareView, cando: canDoView, drill: drillView };
+const VIEWS = { guide: guideView, about: aboutView, index: indexView, compare: compareView, cando: canDoView, drill: drillView, vocab: vocabView };
 // the chapter a route shows and the element to scroll to
 function target(h) {
   const [p0, p1, p2] = h.split("/");
@@ -95,14 +100,14 @@ function viewHtml(h, t) {
   if (!h) return homeView();
   if (t.ch) return chapterView(t.ch);
   const v = VIEWS[h.split("/")[0]];
-  return v ? v() : null;
+  return v ? v(h) : null;
 }
 const docTitle = (main) => {
   const ch = main.dataset.ch && TRY.chapters.find((c) => String(c.id) === main.dataset.ch);
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
 // target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
-const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: () => {} };
+const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab };
 let A = TRY_BOOK;
 
 // ---------- router ----------
@@ -117,7 +122,9 @@ const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollI
 function route(force) {
   TTS.stop();
   const h = hashRoute(), main = $("#main"), t = A.target(h);
-  if (force || main.dataset.view !== h || h === "drill") {
+  const loading = needVocab(h);
+  if (loading) return loading.then(() => route(true));
+  if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
     const html = A.viewHtml(h, t);
     main.innerHTML = html || notFound();
     layout(main);
@@ -205,6 +212,8 @@ ACT["reset-progress"] = () => {
 };
 
 // Quartet readings switch 縦/横 by re-rendering the view (blocks.js ACT.q2vmode)
+// the drills redraw themselves after every card or option change (flash.js)
+document.addEventListener("try:rerender", () => rerender());
 document.addEventListener("try:setting-vertical", () => { saveSettings(); applySettings(); rerender(); });
 function wireEvents() {
   document.addEventListener("click", (e) => {
