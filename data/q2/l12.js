@@ -1029,7 +1029,7 @@ TRY.registerLesson({
            "en": "X といっても Y means X is true, but technically speaking, Y is more accurate. It is used in a situation where people might expect something (X) that is more extreme than the reality (Y)."
           },
           {
-           "en": "X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) ～だけ , (それ) ほど～ない , and ～わけではない” are phrases that are often used with this structure."
+           "en": "X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) 〜だけ , (それ) ほど〜ない , and 〜わけではない” are phrases that are often used with this structure."
           }
          ]
         }
@@ -1116,7 +1116,7 @@ TRY.registerLesson({
            "en": "X がち means that someone/something has a tendency (X) that is considered undesirable."
           },
           {
-           "en": "V がち expresses that the subject has a tendency to do V despite the lack of intention to do it. つい and ～てしまう are often used with this expression, as in [#4]."
+           "en": "V がち expresses that the subject has a tendency to do V despite the lack of intention to do it. つい and 〜てしまう are often used with this expression, as in [#4]."
           },
           {
            "en": "N in “N がち” takes only certain nouns, such as 病気がち (tend to get sick often) and くもりがち (tend to be cloudy)."
@@ -1243,7 +1243,7 @@ TRY.registerLesson({
        "t": "head",
        "style": "sq",
        "text": {
-        "en": "☛ ～に応じて and ～によって"
+        "en": "☛ 〜に応じて and 〜によって"
        }
       },
       {
@@ -1277,7 +1277,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, ～に応じて should be used instead of ～によって ."
+        "en": "Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, 〜に応じて should be used instead of 〜によって ."
        }
       },
       {
@@ -1342,7 +1342,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "私が住んでいるアパートは駅から遠くて不便な**分**、{家賃|やちん}は安い。",
-         "tr": "My apartment is far from the station and inconvenient, but the rent is correspondingly cheap."
+         "tr": "My apartment is far from the station and inconvenient, but the rent is cheap to make up for it."
         },
         {
          "n": 5,
@@ -1471,10 +1471,10 @@ TRY.registerLesson({
            "en": "X にすぎない means “(it) is just X (and nothing more than that).”"
           },
           {
-           "en": "～にすぎない is often used with ただ or ただの (N), which mean “just” or “merely.” (See [#1] and [#3].)"
+           "en": "〜にすぎない is often used with ただ or ただの (N), which mean “just” or “merely.” (See [#1] and [#3].)"
           },
           {
-           "en": "This structure using an adjective in X is not as common as ones using nouns. When X takes an adjective, it’s used to state a reason (～から adjective にすぎない) and the structure means, “it is X merely because ～ (see [#4] and [#5]).”"
+           "en": "This structure using an adjective in X is not as common as ones using nouns. When X takes an adjective, it’s used to state a reason (〜から adjective にすぎない) and the structure means, “it is X merely because 〜 (see [#4] and [#5]).”"
           }
          ]
         }
@@ -1581,7 +1581,7 @@ TRY.registerLesson({
            "en": "X takes a clause describing a situation that requires some type of responsibility, commitment, etc."
           },
           {
-           "en": "Y in X 以上は Y expresses the speaker’s subjective opinion that people need to be committed or take responsibility in a particular situation (X). Phrases frequently used with this structure are: ～てください (request), ～つもり (determination), ～てはいけない (prohibition), ～なければいけない (obligation), ～たい (wish), ～ほうがいい (advice), ～べきだ／べきではない (rule and norms)."
+           "en": "Y in X 以上は Y expresses the speaker’s subjective opinion that people need to be committed or take responsibility in a particular situation (X). Phrases frequently used with this structure are: 〜てください (request), 〜つもり (determination), 〜てはいけない (prohibition), 〜なければいけない (obligation), 〜たい (wish), 〜ほうがいい (advice), 〜べきだ／べきではない (rule and norms)."
           }
          ]
         }
@@ -1642,7 +1642,7 @@ TRY.registerLesson({
           {
            "sp": "後輩",
            "ja": "今の会社で仕事を続けていく**うえで**大切にしている点は、何ですか。",
-           "tr": "What do you value most as you keep working at your current company?"
+           "tr": "What do you consider important in continuing to work at your current company?"
           },
           {
            "sp": "先輩",
@@ -1678,7 +1678,7 @@ TRY.registerLesson({
            "en": "X うえで is used to mention important factors, issues, or considerations for X."
           },
           {
-           "en": "X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な, 大切な, 必要な, 難しい, 注意すべき, 問題になる, etc."
+           "en": "X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な , 大切な , 必要な , 難しい , 注意すべき , 問題になる , etc."
           },
           {
            "en": "As in [#4], N のうえで takes the noun form of suru-verbs."
@@ -1724,7 +1724,7 @@ TRY.registerLesson({
         {
          "n": 6,
          "ja": "サークルのメンバーの意見を聞い**たうえで**、夏休みにみんなで行く旅行{先|さき}を決めることになった。",
-         "tr": "We decided that we would choose where we'll all travel over summer vacation after hearing the club members' opinions."
+         "tr": "It’s been decided that we’ll hear the club members’ opinions first and then choose where we’ll all travel over summer vacation."
         },
         {
          "n": 7,
@@ -1758,7 +1758,7 @@ TRY.registerLesson({
            "en": "V₁ うえで V₂ describes a sequence of actions or events; the subject does V₁ first, then V₂."
           },
           {
-           "en": "V₁ takes actions done as a preparation for V₂ (e.g., 調べた, 考えた, 相談した)."
+           "en": "V₁ takes actions done as a preparation for V₂ (e.g., 調べた , 考えた , 相談した)."
           },
           {
            "en": "V₂ takes actions that are done as a result of V₁."
@@ -1814,7 +1814,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{吐|は}き**そうになった**時は、うめぼしを食べるといいですよ。",
-           "tr": "When you feel like you're about to throw up, it helps to eat an umeboshi."
+           "tr": "When you feel like you’re about to throw up, it helps to eat an umeboshi."
           }
          ]
         },
@@ -1829,7 +1829,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "えー、{危|あぶ}ない。気をつけて。",
-           "tr": "Whoa, that's dangerous. Be careful."
+           "tr": "Whoa, that’s dangerous. Be careful."
           }
          ]
         },
@@ -1841,7 +1841,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "夢をあきらめ**そうになる**たびに、この本を読んで元気をもらっている。",
-         "tr": "Every time I'm about to give up on my dream, I read this book and it lifts my spirits."
+         "tr": "Every time I’m about to give up on my dream, I read this book and it lifts my spirits."
         }
        ]
       },
@@ -1909,7 +1909,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "驚くこと**なかれ**。この小さな{田舎|いなか}{町|まち}に、今、全国から観光客が集まっている。",
-         "tr": "Believe it or not, tourists from all over the country are now flocking to this small country town."
+         "tr": "Don’t be surprised, but tourists from all over the country are now flocking to this small rural town."
         }
        ]
       },
@@ -1924,10 +1924,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~なかれ is a command form of ない, and it indicates prohibition (i.e., ~ないで)."
+           "en": "〜なかれ is a command form of ない , and it indicates prohibition (i.e., 〜ないで )."
           },
           {
-           "en": "~なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ, and they are used as idioms."
+           "en": "〜なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ , and they are used as idioms."
           }
          ]
         },
@@ -1963,7 +1963,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~ことなかれ is often used as well."
+           "en": "〜ことなかれ is often used as well."
           }
          ]
         }
@@ -2005,12 +2005,12 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "雪で電車が動いていないから、帰りたくても帰り**ようがない**。",
-         "tr": "The trains aren't running because of the snow, so even though I want to go home, there's no way to get there."
+         "tr": "The trains aren’t running because of the snow, so even though I want to go home, there’s no way to get there."
         },
         {
          "n": 2,
          "ja": "インスタントラーメンを作ったが、はしがなくては食べ**ようがない**。",
-         "tr": "I made instant ramen, but without chopsticks there's no way to eat it."
+         "tr": "I made instant ramen, but without chopsticks there’s no way to eat it."
         },
         {
          "n": 3,
@@ -2023,14 +2023,14 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "え！　色が全然違うから、間違え**ようがない**と思うけどなあ。",
-           "tr": "What? The colors are completely different, so I don't see how you could mix them up."
+           "tr": "What? The colors are completely different, so I don’t see how you could mix them up."
           }
          ]
         },
         {
          "n": 4,
          "ja": "あんなにいい先生が大学をやめてしまうなんて、残念としか言い**ようがない**。",
-         "tr": "That such a good professor is leaving the university can only be called a shame."
+         "tr": "That such a good professor is leaving the university—there’s no other word for it but a shame."
         },
         {
          "n": 5,
@@ -2063,7 +2063,7 @@ TRY.registerLesson({
            "en": "X としか言いようがない is an idiomatic phrase that means X is the only word there is to describe the item or person under discussion. (See [#4].)"
           },
           {
-           "en": "When modifying a noun, the variation ~ようのない N can also be used. (See [#5].)"
+           "en": "When modifying a noun, the variation 〜ようのない N can also be used. (See [#5].)"
           }
          ]
         }
@@ -2096,7 +2096,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{山田|やまだ}さんは店を出る**なり**、走り出した。",
-         "tr": "The moment Yamada-san left the store, he started running."
+         "tr": "The moment Yamada left the store, he started running."
         },
         {
          "n": 2,
@@ -2119,7 +2119,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "久しぶりに会った友達が私の顔を見る**なり**「年を取ったね」って言ってきたんだ。",
-           "tr": "A friend I hadn't seen in a long time took one look at my face and said, \"You've gotten old.\""
+           "tr": "A friend I hadn’t seen in a long time took one look at my face and said, “You’ve gotten old.”"
           }
          ]
         },
@@ -2147,7 +2147,7 @@ TRY.registerLesson({
            "en": "Y only takes verbs in the past tense. The present tense, future tense, command form, or a request form is not used in Y."
           },
           {
-           "en": "Y often takes expressions that describe a specific moment in time. Examples of such expressions are: ~てきた / ~ていった, and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time)."
+           "en": "Y often takes expressions that describe a specific moment in time. Examples of such expressions are: 〜てきた / 〜ていった , and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time)."
           }
          ]
         },
