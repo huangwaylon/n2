@@ -3082,7 +3082,7 @@ TRY.registerLesson({
       "In December 2018, the Asahi Shimbun conducted an online survey of 1,032 unmarried people and asked them about \"the annual income they want in a marriage partner.\" Below, I will describe the results and analyze the trends.",
       "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and the women who want a marriage partner with an annual income of 2 million yen or more reached 80% in total. This shows that women tend to care more about a marriage partner's income than men do.",
       "Could the reason for this trend be that both men and women continue to hold the idea that the husband supports the household's income? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
-      "From the above, it appears that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think we need to change this image from now on."
+      "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think we need to change this image from now on."
      ],
      "roles": [
       {
@@ -3402,7 +3402,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "**以上のことから、**日本人は……持ち続けている**ことがうかがえた**。",
-           "tr": "From the above, it appears that Japanese people continue to hold …."
+           "tr": "From the above, we can infer that Japanese people continue to hold …."
           }
          ]
         }
@@ -3997,7 +3997,7 @@ TRY.registerLesson({
      "items": [
       {
        "ja": "{修士課程|しゅうしかてい}",
-       "en": "master's course"
+       "en": "master’s course"
       },
       {
        "ja": "{早速|さっそく}ですが",
@@ -4008,7 +4008,7 @@ TRY.registerLesson({
        "en": "doctoral course"
       },
       {
-       "ja": "～にあたり",
+       "ja": "〜にあたり",
        "en": "on the occasion of"
       },
       {
