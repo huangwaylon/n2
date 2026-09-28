@@ -155,8 +155,26 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 .rd-center { text-align: center; }
 .rd-credit { text-align: right; font: 13px/1.7 var(--goth); color: var(--ink-2); margin: 10px 0 0; }
 .rd-en { margin: .2em 0 .7em; font-size: 14.5px; line-height: 1.6; letter-spacing: 0; }
+/* モデル作文 (texts with roles): the text on a grey panel, line numbers and brackets outside it; lettered underlines blue
+   (pp.017, 050, 082) where the strategies' are grey */
+.rd--model .rd-body { --gut: 2.2em; --side: 0px; padding-block: .6em; background: linear-gradient(to right, transparent var(--gut), var(--q-gray) var(--gut), var(--q-gray) calc(100% - var(--side)), transparent calc(100% - var(--side))); }
+.rd--model .rd-body:not(.rd-body--nums) { --gut: 0px; padding-inline: .8em; }
+.rd--model .rd-p .ja, .rd--model .rd-title, .rd--model .rd-by { padding-right: .6em; }
+.rd--model u.ref--let { text-decoration-color: var(--q); }
+.rd--model .ref--let .ref-n { color: var(--q); font-weight: 500; }
+@media (max-width: 600px) { .rd--model .rd-body { --gut: 1.7em; } }
+.rd-grp { display: flex; flex-direction: column-reverse; }
 .rd-role { display: flex; gap: 8px; align-items: baseline; margin: .8em 0 .1em; font: 700 14px/1.6 var(--goth); color: var(--q); letter-spacing: 0; }
 .rd-role__s { font-weight: 500; }
+/* wide: a bracket beside the paragraphs (top and bottom ticks), the label at its top (p.017) */
+@media (min-width: 901px) {
+  .rd--model .rd-body { --side: 8.6em; }
+  .rd-grp { display: grid; grid-template-columns: minmax(0, 1fr) 7.5em; column-gap: 1.1em; }
+  .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 13px; line-height: 1.5; }
+  .rd-grp .rd-role::before, .rd-grp .rd-role::after { content: ""; position: absolute; left: -12px; width: 12px; border-top: 1.5px solid var(--q); }
+  .rd-grp .rd-role::before { top: 0; }
+  .rd-grp .rd-role::after { bottom: 0; }
+}
 .ln { display: inline; }
 .rd-body:not(.rd-body--book) .bl-br { display: none; }
 .ln-no { position: absolute; left: 0; width: 2em; text-align: right; font: 12px/2.25 var(--goth); color: var(--ink-3); letter-spacing: 0; pointer-events: none; user-select: none; -webkit-user-select: none; transform: translateY(.1em); }
@@ -165,7 +183,7 @@ body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
 /* numbered underline → note (number under the start of the line, blue) */
 .ref { position: relative; color: inherit; text-decoration: none; }
 .ref u, u.ref { text-decoration: underline; text-decoration-color: var(--q); text-decoration-thickness: 2px; text-underline-offset: .28em; }
-.ref-n { position: absolute; left: 0; top: 100%; margin-top: -.35em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
+.ref-n { position: absolute; left: 0; top: 100%; white-space: nowrap; margin-top: -.35em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
 /* lettered underlines (strategies, model compositions; p.008): grey rule, black bold (a) under its start */
 u.ref--let { text-decoration-color: var(--ink-3); }
 .ref--let .ref-n { color: var(--ink); font-size: .62em; margin-top: .55em; }

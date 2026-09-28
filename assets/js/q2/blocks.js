@@ -283,29 +283,38 @@ function readingHtml(b, ctx) {
     // each printed line in a .bl span, with a break before continuation lines: kept where the screen holds the book's
     // lines (placeLineNos checks), so lines and line numbers are the book's; phones reflow the paragraph
     cur.html += (kind || !cur.html ? "" : '<br class="bl-br">') + pm + mark(n) + `<span class="bl">${html}</span>`;
+    cur.last = n;
   });
   // paragraph translations, one per ¶ paragraph
   let pi = 0;
   const roleAt = new Map((b.roles || []).map((r) => [r.from, r]));
   const say = [];
-  const body = paras.map((p) => {
-    const role = roleAt.get(p.first + 1);
-    const roleHtml = role ? `<div class="rd-role"><span class="rd-role__l">${fmt(role.label)}</span>${role.sub ? `<span class="rd-role__s">${fmt(role.sub)}</span>` : ""}</div>` : "";
+  const html = paras.map((p) => {
     if (p.kind !== "fig") say.push({ text: plain(p.html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "")), v: b.v || "f" });
     if (p.kind === "fig") return `<div class="rd-fig">${p.html}</div>`;
-    if (p.kind === "title") return `${roleHtml}<p class="rd-title">${p.html}</p>`;
+    if (p.kind === "title") return `<p class="rd-title">${p.html}</p>`;
     if (p.kind === "by") return `<p class="rd-by">${p.html}</p>`;
     if (p.kind === "center") return `<p class="rd-center">${p.html}</p>`;
     const tr = b.tr && b.tr[pi++];
-    return `${roleHtml}<div class="rd-p${p.q ? " rd-p--q" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
-  }).join("");
+    return `<div class="rd-p${p.q ? " rd-p--q" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
+  });
+  // roles: the bracketed paragraph labels beside a model composition (p.017: a bracket over lines from–to, the label
+  // beside it); on phones the label sits above its paragraphs
+  let body = "";
+  for (let i = 0; i < paras.length; i++) {
+    const role = roleAt.get(paras[i].first);
+    if (!role) { body += html[i]; continue; }
+    let inner = "";
+    for (; i < paras.length; i++) { inner += html[i]; if ((paras[i].last || paras[i].first) >= role.to || roleAt.has(paras[i + 1] && paras[i + 1].first)) break; }
+    body += `<div class="rd-grp"><div class="rd-grp__t">${inner}</div><div class="rd-role"><span class="rd-role__l">${fmt(role.label)}</span>${role.sub ? `<span class="rd-role__s">${fmt(role.sub)}</span>` : ""}</div></div>`;
+  }
   if (b.audio) QUEUES.set(b.audio, say);
   const credit = (b.credit || []).map((c) => `<p class="rd-credit">${fmt(c, { vertical: V })}</p>`).join("");
   const seg = b.vertical ? `<div class="seg" role="group" aria-label="縦書き・横書き">${[["v", "縦", "Vertical"], ["h", "横", "Horizontal"]].map(([m, j, e]) =>
     `<button type="button" class="seg__b" data-act="q2vmode" data-v="${m}" aria-pressed="${(m === "v") === V}" title="${e}">${j}</button>`).join("")}</div>` : "";
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
-  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}"${idAttr(b)} data-en-scope>
+  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}"${idAttr(b)} data-en-scope>
     ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : cdBadge(say, "音声を聞く")}</div>
     ${V ? `<div class="vt-scroll rd-scroll" tabindex="0" role="region" aria-label="本文（縦書き）">${text}</div>` : text}
     ${V ? "" : credit}
