@@ -2798,10 +2798,10 @@ TRY.registerLesson({
     },
     {
      "t": "list",
-     "mark": "▸",
+     "mark": "▶",
      "items": [
       {
-       "ja": "＿＿のパターンを使って話してみましょう。",
+       "ja": "［　　　］のパターンを使って話してみましょう。",
        "tr": "Try having the conversation using the pattern in the gray box."
       }
      ]

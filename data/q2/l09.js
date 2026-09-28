@@ -3065,7 +3065,7 @@ TRY.registerLesson({
     },
     {
      "t": "list",
-     "mark": "▸",
+     "mark": "▶",
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
@@ -3877,7 +3877,7 @@ TRY.registerLesson({
     },
     {
      "t": "list",
-     "mark": "▸",
+     "mark": "▶",
      "items": [
       {
        "ja": "［　　　］のパターンを使って準備してから話してみましょう。",

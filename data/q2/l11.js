@@ -2511,7 +2511,7 @@ TRY.registerLesson({
     },
     {
      "t": "list",
-     "mark": "▸",
+     "mark": "▶",
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
@@ -2956,7 +2956,7 @@ TRY.registerLesson({
            },
            {
             "ja": "④＿＿で大切にすること。",
-            "tr": "④ …, and treating something as important."
+            "tr": "④ Treating something as important, …."
            }
           ],
           [
@@ -3021,7 +3021,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "みなさんは「尊敬」と「尊重」の使い方が\n＿＿はありませんか。",
-            "tr": "Do any of you find that … how to use \"sonkei\" and \"sonchō\"?"
+            "tr": "When it comes to how to use \"sonkei\" and \"sonchō,\" do any of you ever find …?"
            },
            "answer": [
             "わからなくなるということ"
@@ -3077,7 +3077,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❶最近、授業で「尊重」という言葉を習いましたが、みなさんは「尊敬」と「尊重」の使い方がわからなくなるということはありませんか。私はよくこの2つを{混同|こんどう}してしまいます。\n❷「尊敬」**も**「尊重」**も、どちらも**英語では“respect”と訳される**という点では共通しています。**❸**しかし、**日本語では2つの言葉は{置|お}き{換|か}え可能**というわけではありません。**今日は、「尊敬」**と**「尊重」**の意味と使い方に注目し、違いを考えたいと思います。**\n❹**まず、意味の面から比較します。**「尊敬」**は、**相手の人格や行動などを「すごい、すばらしい」と感じ、「自分もあの人みたいになりたい」と思う**ことです。一方、**「尊重」**は**軽く見ないで大切にする**ことです。つまり、**「尊敬」はあこがれの感情**を表し、**「尊重」はモラルや常識から判断して何かを大切にする**という意味を表します。**\n❺**次に、使い方に注目すると、**「尊敬」**は**「人」**に対して使われますが、**「尊重」**の場合は、**「人の意見や意思」**に対して使われます。よって、**「尊敬」**は**「親を尊敬する」、「{上司|じょうし}を尊敬する」**などのように使われ、**「尊重」**は**「相手の意見を尊重する」、「相手の文化を尊重する」、「{人権|じんけん}を尊重する」**などのように使われます。**\n❻**まとめると、**「尊敬」**は**人**に対して使われ、**その人がすごい、すばらしいと思う**時に使う言葉です。それに対して、**「尊重」**は**人の意見や意思**に対して使われ、**それを大切にしようと思う**時に使う言葉です。**❼「尊敬」を使わなければいけない時に「尊重」を使ってしまうと、まったく意味が通じないわけではありませんが、少し変な日本語になってしまうので、使い方には十分注意してください。",
-       "tr": "Recently we learned the word \"sonchō\" in class. Do any of you find that you lose track of how to use \"sonkei\" and \"sonchō\"? I often mix the two up.\n\"Sonkei\" and \"sonchō\" have one thing in common: both are translated into English as \"respect.\" In Japanese, however, the two words aren't interchangeable. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ.\nFirst, let's compare their meanings. \"Sonkei\" means feeling that someone's character, actions, and so on are \"amazing, wonderful\" and thinking, \"I want to be like that person too.\" \"Sonchō,\" on the other hand, means not taking something lightly and treating it as important. In other words, \"sonkei\" expresses a feeling of admiration, while \"sonchō\" means judging from morals or common sense that something should be treated as important.\nNext, if we look at usage, \"sonkei\" is used toward \"people,\" whereas \"sonchō\" is used toward \"people's opinions and wishes.\" So \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion), \"aite no bunka o sonchō suru\" (respect the other person's culture), and \"jinken o sonchō suru\" (respect human rights).\nTo sum up, \"sonkei\" is used toward people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used toward people's opinions and wishes, and it's the word you use when you want to treat them as important. If you use \"sonchō\" when you should use \"sonkei,\" it's not that people won't understand you at all, but it makes for slightly odd Japanese, so please be very careful how you use them."
+       "tr": "Recently we learned the word \"sonchō\" in class. Do any of you ever get confused about how to use \"sonkei\" and \"sonchō\"? I often mix the two up.\n\"Sonkei\" and \"sonchō\" have one thing in common: both are translated into English as \"respect.\" In Japanese, however, it isn't the case that the two words can simply be swapped for each other. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ.\nFirst, let's compare their meanings. \"Sonkei\" means feeling that someone's character, actions, and so on are \"amazing, wonderful\" and thinking, \"I want to be like that person too.\" \"Sonchō,\" on the other hand, means not taking something lightly and treating it as important. In other words, \"sonkei\" expresses a feeling of admiration, while \"sonchō\" means judging from morals or common sense that something should be treated as important.\nNext, if we look at usage, \"sonkei\" is used toward \"people,\" whereas \"sonchō\" is used toward \"people's opinions and wishes.\" So \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion), \"aite no bunka o sonchō suru\" (respect the other person's culture), and \"jinken o sonchō suru\" (respect human rights).\nTo sum up, \"sonkei\" is used toward people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used toward people's opinions and wishes, and it's the word you use when you want to treat them as important. If you use \"sonchō\" when you should use \"sonkei,\" it's not that people won't understand you at all, but it makes for slightly odd Japanese, so please be very careful how you use them."
       }
      ]
     },
@@ -3142,7 +3142,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "みなさんは「尊敬」と「尊重」の使い方がわからなくなるということはありませんか。私はよくこの2つを混同してしまいます。",
-        "tr": "Do any of you find that you lose track of how to use \"sonkei\" and \"sonchō\"? I often mix the two up."
+        "tr": "Do any of you ever get confused about how to use \"sonkei\" and \"sonchō\"? I often mix the two up."
        }
       },
       {
@@ -3166,7 +3166,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**しかし、**日本語では2つの言葉は{置|お}き{換|か}え可能**というわけではありません。**今日は、「尊敬」**と**「尊重」**の意味と使い方に注目し、違いを考えたいと思います。**",
-        "tr": "In Japanese, however, the two words aren't interchangeable. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ."
+        "tr": "In Japanese, however, it isn't the case that the two words can simply be swapped for each other. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ."
        }
       },
       {
@@ -3320,8 +3320,8 @@ TRY.registerLesson({
     {
      "t": "p",
      "text": {
-      "ja": "「言葉の変化」というタイトルで言語学の先生が大学の講演会で話しています。\n「見れる」と「読まさせていただく」は、それぞれ1〜4の{段階|だんかい}（stage）のどれですか。",
-      "tr": "A linguistics professor is giving a talk titled “Language Change” at a university lecture event.\nWhich of stages 1–4 are “mireru” and “yomasasete itadaku” each in?"
+      "ja": "「言葉の変化」というタイトルで言語学の先生が大学の講演会で話しています。\n「見れる」と「読まさせていただく」は、それぞれ1〜4の{段階|だんかい} (stage) のどれですか。",
+      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event.\nWhich of stages 1–4 is each of \"mireru\" and \"yomasasete itadaku\" at?"
      }
     },
     {
@@ -3407,11 +3407,11 @@ TRY.registerLesson({
       ]
      ],
      "note": "文化庁「平成27年度『国語に関する世論調査』」より抜粋",
-     "desc": "Survey table. Column headings: use (A), use (B), use both, don’t know. The larger figures (the (A) and (B) columns) are printed in bold."
+     "desc": "Survey table. Column headings: use (A), use (B), use both, don't know. The larger figures (the (A) and (B) columns) are printed in bold."
     },
     {
      "t": "figure",
-     "desc": "Diagram titled “Language Change”: three blue circles joined by arrows — misuse → wavering → established. Dotted lines below divide the progression into four stages: 1 under “misuse”, 2 between “misuse” and “wavering”, 3 under “wavering”, 4 between “wavering” and “established”.",
+     "desc": "Diagram titled \"Language Change\": three blue circles joined by arrows — misuse → wavering → established. Dotted lines below divide the progression into four stages: 1 under \"misuse\", 2 between \"misuse\" and \"wavering\", 3 under \"wavering\", 4 between \"wavering\" and \"established\".",
      "labels": [
       "言葉の変化",
       "誤用",
@@ -3430,7 +3430,7 @@ TRY.registerLesson({
        "n": "a.",
        "text": {
         "ja": "「見れる」",
-        "tr": "“mireru”"
+        "tr": "\"mireru\""
        },
        "options": [
         "1",
@@ -3444,7 +3444,7 @@ TRY.registerLesson({
        "n": "b.",
        "text": {
         "ja": "「読まさせていただく」",
-        "tr": "“yomasasete itadaku”"
+        "tr": "\"yomasasete itadaku\""
        },
        "options": [
         "1",
@@ -3465,26 +3465,26 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "「言葉の変化」というタイトルで言語学の先生が大学の講演会で話しています。「見れる」と「読まさせていただく」は、それぞれ1〜4の{段階|だんかい}のどれですか。",
-      "tr": "A linguistics professor is giving a talk titled “Language Change” at a university lecture event. Which of stages 1–4 are “mireru” and “yomasasete itadaku” each in?"
+      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event. Which of stages 1–4 is each of \"mireru\" and \"yomasasete itadaku\" at?"
      },
      "lines": [
       {
        "sp": "",
        "v": "f",
        "ja": "{皆|みな}さんは「見ることができる」を可能形で言うとき「見られる」と言いますか。それとも「見れる」と言いますか。日本の国語教育では「見られる」が正しく、「見れる」は間違いで「誤用」だ__とされて__います。しかし、最近、若い人を中心に「見れる」と「ら」を抜いて使う人が多くなってきています。2016年の調査では、「『見れる』と言う」と答えた人が48.4%で「見られる」の44.6%を初めて超えました。ということは、もはや「見れる」は「誤用」__とばかりは言い切れない__のではないでしょうか。",
-       "tr": "When you put “miru koto ga dekiru” (“can see”) into the potential form, do you say “mirareru”? Or do you say “mireru”? In Japanese language education at school, “mirareru” is considered correct, and “mireru” is considered a mistake, a “misuse.” Recently, however, more and more people, especially young people, have been dropping the “ra” and saying “mireru.” In a 2016 survey, the share of people who answered “I say ‘mireru’” was 48.4 percent, surpassing the 44.6 percent for “mirareru” for the first time. Doesn’t that mean we can no longer flatly call “mireru” a “misuse”?"
+       "tr": "When you put \"miru koto ga dekiru\" (\"be able to see\") into the potential form, do you say \"mirareru\"? Or do you say \"mireru\"? In Japanese language education at school, \"mirareru\" is considered correct, and \"mireru\" is considered wrong, a \"misuse.\" Recently, however, more and more people, especially young people, have been dropping the \"ra\" and saying \"mireru.\" In a 2016 survey, the share of people who answered \"I say 'mireru'\" was 48.4 percent, surpassing the 44.6 percent for \"mirareru\" for the first time. Doesn't that mean we can no longer flatly write off \"mireru\" as simply a \"misuse\"?"
       },
       {
        "sp": "",
        "v": "f",
        "ja": "言葉というものは常に変化します。もともと「誤用」だったものでも使う人がだんだん多くなり、最終的にはその言い方が「定着」し正しい使い方とされます。その「誤用」が増え、本来の形と同時に存在する状態を「{揺|ゆ}れ」と言います。つまり、「見れる」は「揺れ」の{段階|だんかい}にあると言えます。",
-       "tr": "Language is always changing. Even something that was originally a “misuse” gradually comes to be used by more and more people, and eventually that way of saying it becomes “established” and is regarded as correct usage. The state in which the “misuse” spreads and exists side by side with the original form is called “wavering.” In other words, we can say that “mireru” is at the “wavering” stage."
+       "tr": "Language is always changing. Even something that was originally a \"misuse\" gradually comes to be used by more and more people, and eventually that way of saying it becomes \"established\" and is regarded as correct usage. The state in which the \"misuse\" spreads and exists side by side with the original form is called \"wavering.\" In other words, we can say that \"mireru\" is at the \"wavering\" stage."
       },
       {
        "sp": "",
        "v": "f",
        "ja": "同じように「読ませていただく」を「読まさせていただく」と「さ」を入れて言う人も増えてきています。しかし、「読まさせていただく」はまだ23.2%と少数{派|は}であることから、完全な誤用とは言えないまでも「見れる」よりも「誤用」に近い状態にあると言えるでしょう。",
-       "tr": "In the same way, more and more people are adding a “sa” and saying “yomasasete itadaku” instead of “yomasete itadaku.” However, since “yomasasete itadaku” is still a minority at 23.2 percent, we can probably say that, while it isn’t a complete misuse, it is closer to “misuse” than “mireru” is."
+       "tr": "In the same way, more and more people are adding a \"sa\" and saying \"yomasasete itadaku\" instead of \"yomasete itadaku.\" However, since \"yomasasete itadaku\" is still a minority at 23.2 percent, we can probably say that, even if it can't be called an outright misuse, it is closer to \"misuse\" than \"mireru\" is."
       }
      ]
     },
@@ -3633,7 +3633,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "対面のコミュニケーションでは、苦手な相手や考え方が全く違う人とも関わらなければいけないことや、言葉だけではなく、相手の表情や身振りからも気持ちが読み取れることが、SNS上のコミュニケーションと違う。",
-        "tr": "Face-to-face communication differs from communication on social media in that you have to deal even with people you don’t get along with or whose way of thinking is completely different from yours, and in that you can read the other person’s feelings not only from their words but also from their facial expressions and gestures."
+        "tr": "Face-to-face communication differs from communication on social media in that you have to deal even with people you don't get along with or whose way of thinking is completely different from yours, and in that you can read the other person's feelings not only from their words but also from their facial expressions and gestures."
        }
       }
      ]
@@ -3682,31 +3682,31 @@ TRY.registerLesson({
        "sp": "ジョージ",
        "v": "m",
        "ja": "最近、若者のコミュニケーション能力がSNSのせいで低下しているって言われるけど、本当だと思う？",
-       "tr": "People say young people’s communication skills have been declining lately because of social media. Do you think that’s true?"
+       "tr": "People say young people's communication skills have been declining lately because of social media. Do you think that's true?"
       },
       {
        "sp": "サラ",
        "v": "f",
        "ja": "うーん、確かにSNSでは短いコメントや絵文字なんかの簡単なやりとりが中心だからね。",
-       "tr": "Hmm, well, it’s true that on social media it’s mostly simple exchanges, like short comments and emoji."
+       "tr": "Hmm, well, it's true that on social media it's mostly simple exchanges, like short comments and emoji."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "うん。でも、それってコミュニケーションの方法が変わっただけなんじゃない？",
-       "tr": "Yeah. But isn’t it just that the way we communicate has changed?"
+       "tr": "Yeah. But isn't it just that the way we communicate has changed?"
       },
       {
        "sp": "サ",
        "v": "f",
        "ja": "そうかもね。でも、言葉を使って{互|たが}いに{意思疎通|いしそつう}を図ることがコミュニケーションだとすると、SNS上のやりとりでは表現力はやっぱり落ちちゃうと思うよ。なんでも「いいね」とかのスタンプ1つで済んじゃうし。",
-       "tr": "Maybe. But if communication means using words to understand each other, then I think exchanges on social media really do make our ability to express ourselves decline. You can get by with a single sticker like “Like” for anything."
+       "tr": "Maybe. But if communication means using words to understand each other, then I think our power of expression really does suffer in exchanges on social media. You can get by with a single sticker like \"Like\" for anything."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "そっか。でも、内容は__さておき__、SNSのおかげでやりとりする相手は増えているわけだから、SNSがコミュニケーションに悪い影響を与えている__とばかりは言えない__んじゃないかな。",
-       "tr": "I see. But content aside, thanks to social media the number of people we interact with has gone up, so I don’t think you can just say that social media has a bad influence on communication."
+       "tr": "I see. But setting aside what we actually say, thanks to social media the number of people we interact with has gone up, so I don't think you can say social media is only a bad influence on communication."
       },
       {
        "sp": "サ",
@@ -3718,13 +3718,13 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "確かに……。",
-       "tr": "That’s true…"
+       "tr": "That's true…"
       },
       {
        "sp": "サ",
        "v": "f",
        "ja": "実際、社会に出れば苦手な相手や考え方が全く違う人とも付き合わなきゃいけないわけだし。それに、人に直接会えば、言葉だけじゃなく、相手の表情や身振りなんかからも気持ちが読み取れるよね。",
-       "tr": "In reality, once you go out into the world, you have to deal even with people you don’t get along with or who think completely differently from you. Plus, when you meet people in person, you can read their feelings not just from their words but also from things like their facial expressions and gestures."
+       "tr": "In reality, once you go out into the world, you have to deal even with people you don't get along with or who think completely differently from you. Plus, when you meet people in person, you can read their feelings not just from their words but also from things like their facial expressions and gestures."
       },
       {
        "sp": "ジ",
