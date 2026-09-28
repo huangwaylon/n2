@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["とくいろ", "とっしょく", "とくしき"],
     book: { ja: "イベントなどに関する記事を読んで、その**特色**や様子が理解できる。", en: "Read a news article about an event or the like, and understand what makes it distinctive and what it is like.", at: "ch/1" },
     ex: [
-      { ja: "{各地域|かくちいき}の**{特色|とくしょく}**を{生|い}かした{町|まち}づくりが{求|もと}められている。", en: "Town planning that makes the most of each area's distinctive character is needed.", alt: ["{特定|とくてい}", "{色彩|しきさい}", "{特急|とっきゅう}"] },
+      { ja: "{各地域|かくちいき}の**{特色|とくしょく}**を{生|い}かした{町|まち}づくりが{求|もと}められている。", en: "Town planning that makes the most of each area's distinctive character is needed.", alt: ["{特定|とくてい}", "{特売|とくばい}", "{特急|とっきゅう}"] },
     ] },
   { w: "{祭典|さいてん}", lv: "N1", pos: "noun",
     en: "festival; (grand) celebration",
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["せつめ", "ふしもく", "ふじめ"],
     book: { ja: "今年は、二〇〇周年という歴史的**{節目|ふしめ}**にあたることから、二〇〇年前のお祭りムードを{再現|さいげん}するヒストリーテントも特別に{設置|せっち}された。", en: "Since this year marks the historic milestone of the festival's 200th anniversary, a special History Tent recreating the festive mood of 200 years ago has also been set up.", at: "ch/1" },
     ex: [
-      { ja: "{創業|そうぎょう}50{年|ねん}の**{節目|ふしめ}**に、{会社|かいしゃ}のロゴを{新|あたら}しくした。", en: "To mark the milestone of the company's 50th year, we updated the logo.", alt: ["{境目|さかいめ}", "{切|き}れ{目|め}", "{効|き}き{目|め}"] },
+      { ja: "{創業|そうぎょう}50{年|ねん}の**{節目|ふしめ}**に、{会社|かいしゃ}のロゴを{新|あたら}しくした。", en: "To mark the milestone of the company's 50th year, we updated the logo.", alt: ["{折|お}り{目|め}", "{切|き}れ{目|め}", "{効|き}き{目|め}"] },
     ] },
   { w: "{再現|さいげん}", lv: "N1", pos: "noun · する verb",
     en: "re-creation; reproduction; reenactment",
@@ -69,12 +69,12 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["せつち", "せっじ", "しっち"],
     book: { ja: "今年は、二〇〇周年という歴史的{節目|ふしめ}にあたることから、二〇〇年前のお祭りムードを{再現|さいげん}するヒストリーテントも特別に**{設置|せっち}**された。", en: "Since this year marks the historic milestone of the festival's 200th anniversary, a special History Tent recreating the festive mood of 200 years ago has also been set up.", at: "ch/1" },
     ex: [
-      { ja: "{駅|えき}の{全|すべ}てのホームに{転落|てんらく}{防止|ぼうし}の{柵|さく}が**{設置|せっち}**された。", en: "Barriers to keep people from falling onto the tracks were installed on every platform at the station.", alt: ["{設立|せつりつ}", "{設定|せってい}", "{放置|ほうち}"] },
+      { ja: "{駅|えき}の{全|すべ}てのホームに{転落|てんらく}{防止|ぼうし}の{柵|さく}が**{設置|せっち}**された。", en: "Barriers to keep people from falling onto the tracks were installed on every platform at the station.", alt: ["{設立|せつりつ}", "{設定|せってい}", "{措置|そち}"] },
     ] },
   { w: "{漂|ただよ}う", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to drift, float; (of a smell or mood) to hang in the air",
     note: "Literally drifting on water or in the air (波に漂う); very often figurative for smells and atmospheres: いい香りが漂う, 緊張感が漂う. 〜の漂う + noun (a place where ~ hangs in the air) is a set written pattern.",
-    rx: ["たたよう", "さまよう", "ひたよう"],
+    rx: ["たたよう", "ひょうう", "ひたよう"],
     book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected.", at: "ch/1" },
     ex: [
       { ja: "{台所|だいどころ}からカレーのいい{香|かお}りが**{漂|ただよ}って**きた。", en: "A nice smell of curry drifted in from the kitchen.", alt: ["{迷|まよ}って", "{浮|う}かんで", "{揺|ゆ}れて"] },
@@ -101,7 +101,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["れいどし", "れいねい", "りょうねん"],
     book: { ja: "今年は雨が少なく、**{例年|れいねん}**（　）暑さが{厳|きび}しい。", en: "There has been little rain this year, and the heat is even more severe than in an ordinary year.", at: "ch/1/review" },
     ex: [
-      { ja: "{今年|ことし}の{梅雨|つゆ}{明|あ}けは**{例年|れいねん}**より1{週間|しゅうかん}ほど{早|はや}かった。", en: "The rainy season ended about a week earlier than usual this year.", alt: ["{定年|ていねん}", "{晩年|ばんねん}", "{近年|きんねん}"] },
+      { ja: "{今年|ことし}の{梅雨|つゆ}{明|あ}けは**{例年|れいねん}**より1{週間|しゅうかん}ほど{早|はや}かった。", en: "The rainy season ended about a week earlier than usual this year.", alt: ["{定年|ていねん}", "{晩年|ばんねん}", "{周年|しゅうねん}"] },
     ] },
   { w: "{集客|しゅうきゃく}", lv: "N1", pos: "noun · する verb",
     en: "attracting customers or visitors; drawing crowds",
@@ -157,7 +157,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["なまみだす", "うみでだす", "せいみだす"],
     book: { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを**生み出して**いった。", en: "Beginning with this novel becoming a bestseller, he went on to produce one popular series after another.", at: "gp/1" },
     ex: [
-      { ja: "{新|あたら}しいアイデアを**{生|う}み{出|だ}す**には、{自由|じゆう}な{環境|かんきょう}が{必要|ひつよう}だ。", en: "A free environment is needed to come up with new ideas.", alt: ["{飛|と}び{出|だ}す", "{逃|に}げ{出|だ}す", "{売|う}り{出|だ}す"] },
+      { ja: "{新|あたら}しいアイデアを**{生|う}み{出|だ}す**には、{自由|じゆう}な{環境|かんきょう}が{必要|ひつよう}だ。", en: "A free environment is needed to come up with new ideas.", alt: ["{飛|と}び{出|だ}す", "{逃|に}げ{出|だ}す", "{追|お}い{出|だ}す"] },
     ] },
   { w: "{家計|かけい}", lv: "N1", pos: "noun",
     en: "household finances; family budget",
@@ -180,7 +180,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["きゃくかんてき", "かっかんてき", "きゃっけんてき"],
     book: { ja: "社会的な現象や**{客観的|きゃっかんてき}**な事実について言うときに使う。", en: "It is used when talking about social phenomena or objective facts.", at: "gp/2" },
     ex: [
-      { ja: "{自分|じぶん}の{作品|さくひん}を**{客観的|きゃっかんてき}**に{見|み}るのは{難|むずか}しい。", en: "It's hard to look at your own work objectively.", alt: ["{感覚的|かんかくてき}", "{観光的|かんこうてき}", "{一方的|いっぽうてき}"] },
+      { ja: "{自分|じぶん}の{作品|さくひん}を**{客観的|きゃっかんてき}**に{見|み}るのは{難|むずか}しい。", en: "It's hard to look at your own work objectively.", alt: ["{圧倒的|あっとうてき}", "{観光的|かんこうてき}", "{劇的|げきてき}"] },
     ] },
   { w: "にぎわう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be crowded and lively; to bustle; to thrive",
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["にゅうこ", "にゅきょ", "いりきょ"],
     book: { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、**{入居|にゅうきょ}**希望者が{殺到|さっとう}している。", en: "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in.", at: "gp/2" },
     ex: [
-      { ja: "{新|あたら}しいマンションには{来月|らいげつ}から**{入居|にゅうきょ}**できる。", en: "You can move into the new apartment building from next month.", alt: ["{入院|にゅういん}", "{入場|にゅうじょう}", "{同居|どうきょ}"] },
+      { ja: "{新|あたら}しいマンションには{来月|らいげつ}から**{入居|にゅうきょ}**できる。", en: "You can move into the new apartment building from next month.", alt: ["{入院|にゅういん}", "{入学|にゅうがく}", "{同居|どうきょ}"] },
     ] },
   { w: "{殺到|さっとう}", lv: "N1", pos: "noun · する verb",
     en: "rush; flood (of people, orders or inquiries)",
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["いちせいに", "いっさいに", "いっせきに"],
     book: { ja: "マスコミは**{一斉|いっせい}に**{取材|しゅざい}を開始した", en: "the media all started covering the story at once", at: "gp/2" },
     ex: [
-      { ja: "ベルが{鳴|な}ると、{生徒|せいと}たちは**{一斉|いっせい}に**{教室|きょうしつ}を{飛|と}び{出|だ}した。", en: "When the bell rang, the students all rushed out of the classroom at once.", alt: ["{一応|いちおう}", "{一層|いっそう}", "{一向|いっこう}に"] },
+      { ja: "ベルが{鳴|な}ると、{生徒|せいと}たちは**{一斉|いっせい}に**{教室|きょうしつ}を{飛|と}び{出|だ}した。", en: "When the bell rang, the students all rushed out of the classroom at once.", alt: ["{一概|いちがい}に", "{一層|いっそう}", "{一向|いっこう}に"] },
     ] },
   { w: "{取材|しゅざい}", lv: "N1", pos: "noun · する verb",
     en: "news gathering; reporting; research (for a story or book)",
@@ -277,7 +277,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{彼|かれ}は{部下|ぶか}の{小|ちい}さなミスには**{寛容|かんよう}**だ。", en: "He is tolerant of his subordinates' small mistakes.", alt: ["{肝心|かんじん}", "{容易|ようい}", "{内容|ないよう}"] },
     ] },
-  { w: "{独特|どくとく}", lv: "N1", pos: "な-adjective · noun",
+  { w: "{独特|どくとく}", lv: "N2", pos: "な-adjective · noun",
     en: "unique; distinctive; peculiar (to)",
     note: "A characteristic found only in that thing, usually as 独特の + noun: 独特の味 / 雰囲気, 日本独特の文化. It can be neutral or slightly negative (独特なにおい = a peculiar smell). 独自 means “one's own, original” (独自の方法).",
     rx: ["どっとく", "とくとく", "どくどく"],
@@ -348,7 +348,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{京都|きょうと}の{土産物|みやげもの}{店|てん}には{伝統的|でんとうてき}な**{工芸品|こうげいひん}**が{並|なら}んでいる。", en: "Traditional handicrafts line the shelves of the souvenir shops in Kyoto.", alt: ["{工事|こうじ}", "{芸能人|げいのうじん}", "{工作機械|こうさくきかい}"] },
     ] },
-  { w: "{衣類|いるい}", lv: "N1", pos: "noun",
+  { w: "{衣類|いるい}", lv: "N2", pos: "noun",
     en: "clothing; garments",
     note: "A formal, collective word for clothes, common on labels and signs: 衣類の洗濯, 衣類乾燥機 (clothes dryer), 冬物衣類. In conversation people say 服. 衣装 is a costume or outfit for an occasion.",
     rx: ["いりゅい", "えるい", "いらい"],
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["かいこ", "けいご", "かいごう"],
     book: { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の**{介護靴|かいごぐつ}**を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes for people needing nursing care.", at: "gp/5" },
     ex: [
-      { ja: "{母|はは}は{仕事|しごと}を{続|つづ}けながら、{祖母|そぼ}の**{介護|かいご}**をしている。", en: "My mother looks after my grandmother while continuing to work.", alt: ["{保護|ほご}", "{弁護|べんご}", "{介入|かいにゅう}"] },
+      { ja: "{母|はは}は{仕事|しごと}を{続|つづ}けながら、{祖母|そぼ}の**{介護|かいご}**をしている。", en: "My mother looks after my grandmother while continuing to work.", alt: ["{防護|ぼうご}", "{弁護|べんご}", "{介入|かいにゅう}"] },
     ] },
   { w: "{経緯|けいい}", lv: "N1", pos: "noun",
     en: "the circumstances; how something came about; the details",
@@ -420,7 +420,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{映画館|えいがかん}では{携帯|けいたい}{電話|でんわ}の**{電源|でんげん}**をお{切|き}りください。", en: "Please turn off your cell phone in the movie theater.", alt: ["{電池|でんち}", "{電波|でんぱ}", "{電球|でんきゅう}"] },
     ] },
-  { w: "{幼児|ようじ}", lv: "N1", pos: "noun",
+  { w: "{幼児|ようじ}", lv: "N2", pos: "noun",
     en: "young child; preschooler; toddler",
     note: "Roughly ages 1 to 6, before elementary school: 幼児教育, 乳幼児 (babies and small children). 乳児 is a baby under one, and 児童 is an elementary-school child.",
     rx: ["よじ", "ようし", "ゆうじ"],
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["いくしょう", "そだせい", "いっせい"],
     book: { ja: "当スイミングスクールでは、{幼児|ようじ}から学生、{成人|せいじん}、選手**{育成|いくせい}**に{至|いた}るまで（　）。", en: "At our swimming school, we give instruction suited to each individual — from toddlers to students and adults, all the way to training competitive swimmers.", at: "gp/5" },
     ex: [
-      { ja: "{会社|かいしゃ}は{若手|わかて}{社員|しゃいん}の**{育成|いくせい}**に{力|ちから}を{入|い}れている。", en: "The company is putting a lot of effort into developing its younger staff.", alt: ["{成育|せいいく}", "{作成|さくせい}", "{構成|こうせい}"] },
+      { ja: "{会社|かいしゃ}は{若手|わかて}{社員|しゃいん}の**{育成|いくせい}**に{力|ちから}を{入|い}れている。", en: "The company is putting a lot of effort into developing its younger staff.", alt: ["{完成|かんせい}", "{作成|さくせい}", "{構成|こうせい}"] },
     ] },
   { w: "{及|およ}ぶ", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to reach; to extend to; to amount to; (negative) to be no match for",
@@ -455,7 +455,7 @@ TRY.registerVocab({ ch: 1, words: [
   { w: "{言葉|ことば}{遣|づか}い", lv: "N1", pos: "noun",
     en: "way of speaking; choice of words; language (in terms of politeness)",
     note: "How politely or roughly someone speaks: 言葉遣いが丁寧 / 乱暴だ, 言葉遣いに気をつける. The standard spelling uses 遣い, not 使い, and the reading is voiced: づかい.",
-    rx: ["ことばつかい", "ことはづかい", "ことばけんい"],
+    rx: ["ことばちがい", "ことはづかい", "ことばけんい"],
     book: { ja: "有名デパートの店員は、**言葉{遣|づか}い**からして{丁寧|ていねい}だ。", en: "Staff at well-known department stores are polite in everything, starting with the way they speak.", at: "gp/6" },
     ex: [
       { ja: "{面接|めんせつ}では、**{言葉|ことば}{遣|づか}い**に{十分|じゅうぶん}{気|き}をつけてください。", en: "Be very careful about how you speak in the interview.", alt: ["{言葉|ことば}{遊|あそ}び", "{小遣|こづか}い", "{無駄|むだ}{遣|づか}い"] },
@@ -466,7 +466,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["きいどう", "おきどう", "きとう"],
     book: { ja: "このパソコンは古すぎる。**{起動|きどう}**にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models.", at: "gp/6" },
     ex: [
-      { ja: "パソコンを**{起動|きどう}**すると、{自動的|じどうてき}に{更新|こうしん}が{始|はじ}まった。", en: "When I started up the computer, an update began automatically.", alt: ["{起床|きしょう}", "{移動|いどう}", "{行動|こうどう}"] },
+      { ja: "パソコンを**{起動|きどう}**すると、{自動的|じどうてき}に{更新|こうしん}が{始|はじ}まった。", en: "When I started up the computer, an update began automatically.", alt: ["{起床|きしょう}", "{起源|きげん}", "{行動|こうどう}"] },
     ] },
   { w: "{機種|きしゅ}", lv: "N1", pos: "noun",
     en: "model (of a machine, phone or aircraft); type of device",
@@ -492,7 +492,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{祖父|そふ}が1960{年|ねん}に**{設立|せつりつ}**した{会社|かいしゃ}を、{今|いま}は{父|ちち}が{経営|けいえい}している。", en: "My father now runs the company my grandfather founded in 1960.", alt: ["{設置|せっち}", "{成立|せいりつ}", "{樹立|じゅりつ}"] },
     ] },
-  { w: "{資金|しきん}", lv: "N1", pos: "noun",
+  { w: "{資金|しきん}", lv: "N2", pos: "noun",
     en: "funds; capital",
     note: "Money set aside for a purpose: 資金を集める / 調達する (raise funds), 資金不足, 活動資金. 資本 is capital in the economic sense, and 基金 is a fund or endowment.",
     rx: ["しがね", "しっきん", "しきむ"],
@@ -569,7 +569,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["まんがい", "まいかい", "みちかい"],
     book: { ja: "**{満開|まんかい}**の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。", en: "The bustle of cherry-blossom viewers under trees in full bloom is surely a scene you can only find in spring in Japan.", at: "ch/1/review" },
     ex: [
-      { ja: "{公園|こうえん}の{桜|さくら}が**{満開|まんかい}**になり、{花見|はなみ}{客|きゃく}でいっぱいだ。", en: "The cherry trees in the park are in full bloom, and it's packed with blossom viewers.", alt: ["{満員|まんいん}", "{満点|まんてん}", "{開花|かいか}"] },
+      { ja: "{公園|こうえん}の{桜|さくら}が**{満開|まんかい}**になり、{花見|はなみ}{客|きゃく}でいっぱいだ。", en: "The cherry trees in the park are in full bloom, and it's packed with blossom viewers.", alt: ["{満員|まんいん}", "{満点|まんてん}", "{満期|まんき}"] },
     ] },
   { w: "{光景|こうけい}", lv: "N1", pos: "noun",
     en: "scene; sight; spectacle",
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{朝|あさ}の{駅|えき}で{大勢|おおぜい}の{人|ひと}が{走|はし}る**{光景|こうけい}**は、{外国人|がいこくじん}には{珍|めずら}しいらしい。", en: "The sight of crowds rushing through the station in the morning is apparently unusual for visitors from abroad.", alt: ["{背景|はいけい}", "{景気|けいき}", "{光線|こうせん}"] },
     ] },
-  { w: "{燃料|ねんりょう}", lv: "N1", pos: "noun",
+  { w: "{燃料|ねんりょう}", lv: "N2", pos: "noun",
     en: "fuel",
     note: "燃料を補給する (refuel), 化石燃料 (fossil fuels), 燃料費, 燃料電池 (fuel cell). 原料 is a raw material, and 材料 is material or ingredients.",
     rx: ["ねんりょ", "もえりょう", "ぜんりょう"],

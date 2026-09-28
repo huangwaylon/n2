@@ -10,7 +10,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{女房|にょうぼう}", lv: "N1", pos: "noun",
     en: "wife (folksy or old-fashioned; a man speaking of his own wife)",
     note: "A man's casual word for his own wife: うちの女房. Today it sounds old-fashioned or a bit rough; 妻 is neutral, 家内 is humble, and 奥さん is for someone else's wife. 女房役 means someone's right-hand person.",
-    rx: ["じょぼう", "にょぼう", "じょうぼう"],
+    rx: ["じょぼう", "おんなぼう", "じょうぼう"],
     book: { ja: "{飯|めし}{食|く}わぬ**{女房|にょうぼう}**", en: "The Wife Who Doesn't Eat", at: "ch/3" },
     ex: [
       { ja: "{俺|おれ}が{風邪|かぜ}で{寝|ね}ていたら、**{女房|にょうぼう}**がおかゆを作ってくれた。", en: "When I was in bed with a cold, my wife made me some rice porridge.", alt: ["{亭主|ていしゅ}", "{旦那|だんな}", "{仲人|なこうど}"] },
@@ -97,7 +97,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ふっかい", "ぶかい", "ふけい"],
     book: { ja: "「〜まみれ」は「表面全体に**{不快|ふかい}**な物がついている」と言いたいときに使う。", en: "〜まみれ is used when you want to say that something unpleasant is stuck all over the surface of something.", at: "gp/16" },
     ex: [
-      { ja: "隣の{席|せき}の人の{香水|こうすい}がきつくて、**{不快|ふかい}**な思いをした。", en: "The person in the next seat was wearing such strong perfume that it was really unpleasant.", alt: ["{不便|ふべん}", "{不安|ふあん}", "{不満|ふまん}"] },
+      { ja: "隣の{席|せき}の人の{香水|こうすい}がきつくて、**{不快|ふかい}**な思いをした。", en: "The person in the next seat was wearing such strong perfume that it was really unpleasant.", alt: ["{不便|ふべん}", "{不安|ふあん}", "{不利|ふり}"] },
     ] },
   { w: "{健闘|けんとう}", lv: "N1", pos: "noun · する verb",
     en: "a good fight; a strong effort (in a contest), even in defeat",
@@ -334,7 +334,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["てくち", "しゅこう", "てぐっち"],
     book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の**{手口|てぐち}**は{大胆|だいたん}にして、かつ{繊細|せんさい}だった。", en: "The methods of the man they called the Phantom Thief were at once bold and delicate.", at: "gp/23" },
     ex: [
-      { ja: "最近は{銀行員|ぎんこういん}を{名乗|なの}る新しい**{手口|てぐち}**の{詐欺|さぎ}が多い。", en: "Lately there have been a lot of scams using a new trick: the caller claims to be a bank employee.", alt: ["{手順|てじゅん}", "{手際|てぎわ}", "{入口|いりぐち}"] },
+      { ja: "最近は{銀行員|ぎんこういん}を{名乗|なの}る新しい**{手口|てぐち}**の{詐欺|さぎ}が多い。", en: "Lately there have been a lot of scams using a new trick: the caller claims to be a bank employee.", alt: ["{手当|てあて}", "{手際|てぎわ}", "{入口|いりぐち}"] },
     ] },
   { w: "{繊細|せんさい}", lv: "N1", pos: "な adjective",
     en: "delicate, fine; sensitive",
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["うちだず", "だちだす", "うちいだす"],
     book: { ja: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を**打ち出そ**うとしない。", en: "＿＿ the business community's concerns about the shrinking workforce caused by the falling birthrate, the government shows no sign of putting forward any effective policy.", at: "ch/3" },
     ex: [
-      { ja: "政府は観光客を増やすための新たな{方針|ほうしん}を**{打|う}ち{出|だ}した**。", en: "The government put forward a new policy to attract more tourists.", alt: ["{打|う}ち{明|あ}けた", "{打|う}ち{消|け}した", "{打|う}ち{切|き}った"] },
+      { ja: "政府は観光客を増やすための新たな{方針|ほうしん}を**{打|う}ち{出|だ}した**。", en: "The government put forward a new policy to attract more tourists.", alt: ["{打|う}ち{明|あ}けた", "{打|う}ち{消|け}した", "{打|う}ち{寄|よ}せた"] },
     ] },
   { w: "{恩恵|おんけい}", lv: "N1", pos: "noun",
     en: "benefit, blessing (received from something)",
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{放|ほう}り{込|こ}む", lv: "N1", pos: "verb",
     en: "to toss in, to throw into",
     note: "Casual: tossing something into a container or one's mouth without care: 口に放り込む, かばんに放り込む. 投げ込む is throwing with force; 入れる is neutral.",
-    rx: ["はなりこむ", "ほうりごむ", "ほりこむ"],
+    rx: ["はなりこむ", "ほうりごむ", "はなちこむ"],
     book: { ja: "{嫁|よめ}は、米が{炊|た}けるが早いかどんどん{握|にぎ}り{飯|めし}を作り、作るそばから頭の後ろの口へ**放り込み**、むしゃむしゃと食べ始めた。", en: "As soon as the rice was cooked, the wife made rice ball after rice ball, and no sooner had she made each one than she tossed it into the mouth on the back of her head and began gobbling them down.", at: "ch/3" },
     ex: [
       { ja: "息子は{脱|ぬ}いだ服を{洗濯機|せんたくき}に**{放|ほう}り{込|こ}んで**、遊びに行った。", en: "My son tossed the clothes he'd taken off into the washing machine and went out to play.", alt: ["{取|と}り{込|こ}んで", "{寝|ね}{込|こ}んで", "{割|わ}り{込|こ}んで"] },
@@ -597,7 +597,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ちょしゅう", "ちょうじゅう", "ていしゅう"],
     book: { ja: "{盲目|もうもく}のピアニストが{奏|かな}でる美しい調べは、**{聴衆|ちょうしゅう}**の心を{震|ふる}わせずにはおかなかった。", en: "The beautiful melody played by the blind pianist could not fail to move the hearts of the audience.", at: "gp/32" },
     ex: [
-      { ja: "彼の感動的な{演説|えんぜつ}に、**{聴衆|ちょうしゅう}**は{総立|そうだ}ちで{拍手|はくしゅ}を送った。", en: "The audience gave his moving speech a standing ovation.", alt: ["{視聴者|しちょうしゃ}", "{民衆|みんしゅう}", "{大衆|たいしゅう}"] },
+      { ja: "彼の感動的な{演説|えんぜつ}に、**{聴衆|ちょうしゅう}**は{総立|そうだ}ちで{拍手|はくしゅ}を送った。", en: "The audience gave his moving speech a standing ovation.", alt: ["{視聴者|しちょうしゃ}", "{聴覚|ちょうかく}", "{聴講|ちょうこう}"] },
     ] },
   { w: "{大手|おおて}", lv: "N1", pos: "noun",
     en: "major company, big player (in an industry)",
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["いさま", "いよ", "ことよう"],
     book: { ja: "{地球外生命体|ちきゅうがいせいめいたい}の**{異様|いよう}**な{映像|えいぞう}は、見る人に{衝撃|しょうげき}を与えずにはおかないだろう。", en: "The bizarre footage of an extraterrestrial life form is bound to shock anyone who sees it.", at: "gp/32" },
     ex: [
-      { ja: "部屋に入ると、**{異様|いよう}**なにおいが鼻をついた。", en: "When I walked into the room, a strange smell hit my nose.", alt: ["{多様|たよう}", "{同様|どうよう}", "{模様|もよう}"] },
+      { ja: "部屋に入ると、**{異様|いよう}**なにおいが鼻をついた。", en: "When I walked into the room, a strange smell hit my nose.", alt: ["{仕様|しよう}", "{同様|どうよう}", "{模様|もよう}"] },
     ] },
   { w: "{衝撃|しょうげき}", lv: "N1", pos: "noun",
     en: "shock, impact",
@@ -645,7 +645,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["むだつかい", "むたづかい", "ぶだづかい"],
     book: { ja: "お前、**{無駄遣|むだづか}い**はやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", en: "You said you'd stop wasting money, and ＿＿ you go and buy two new bags — what's that about?", at: "ch/3" },
     ex: [
-      { ja: "毎月{家計簿|かけいぼ}をつけて、**{無駄遣|むだづか}い**を減らすようにしている。", en: "I keep a household budget every month to cut down on wasteful spending.", alt: ["{小遣|こづか}い", "{気遣|きづか}い", "{言葉遣|ことばづか}い"] },
+      { ja: "毎月{家計簿|かけいぼ}をつけて、**{無駄遣|むだづか}い**を減らすようにしている。", en: "I keep a household budget every month to cut down on wasteful spending.", alt: ["{心遣|こころづか}い", "{気遣|きづか}い", "{言葉遣|ことばづか}い"] },
     ] },
   { w: "{被告|ひこく}", lv: "N1", pos: "noun",
     en: "defendant (in court)",

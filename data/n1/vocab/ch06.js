@@ -45,7 +45,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ねい", "めん", "なん"],
     book: { ja: "研修期間中は慣れないこととて皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の**{念|ねん}**にたえません。", en: "During my training, being new to everything, I caused you all a good deal of trouble, yet you guided me so warmly that my gratitude is beyond words.", at: "ch/6" },
     ex: [
-      { ja: "{命|いのち}を{救|すく}ってくれた{医師|いし}に、{深|ふか}い{感謝|かんしゃ}の**{念|ねん}**を{抱|いだ}いている。", en: "I feel deep gratitude toward the doctor who saved my life.", alt: ["{値|あたい}", "{気|き}", "{数|かず}"] },
+      { ja: "{命|いのち}を{救|すく}ってくれた{医師|いし}に、{深|ふか}い{感謝|かんしゃ}の**{念|ねん}**を{抱|いだ}いている。", en: "I feel deep gratitude toward the doctor who saved my life.", alt: ["{値|あたい}", "{札|ふだ}", "{数|かず}"] },
     ] },
   { w: "{誠実|せいじつ}", lv: "N2", pos: "な adjective",
     en: "sincere; honest; faithful",
@@ -133,7 +133,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["にんみょう", "にめい", "じんめい"],
     book: { ja: "このたびは{親善大使|しんぜんたいし}に**{任命|にんめい}**していただき、{光栄|こうえい}の＿＿でございます。", en: "I am (＿＿) honored to have been appointed goodwill ambassador on this occasion.", at: "ch/6" },
     ex: [
-      { ja: "{彼女|かのじょ}は{新|あたら}しいプロジェクトの{責任者|せきにんしゃ}に**{任命|にんめい}**された。", en: "She was appointed head of the new project.", alt: ["{運命|うんめい}", "{命令|めいれい}", "{任務|にんむ}"] },
+      { ja: "{彼女|かのじょ}は{新|あたら}しいプロジェクトの{責任者|せきにんしゃ}に**{任命|にんめい}**された。", en: "She was appointed head of the new project.", alt: ["{運命|うんめい}", "{生命|せいめい}", "{任務|にんむ}"] },
     ] },
   { w: "{光栄|こうえい}", lv: "N1", pos: "noun · な adjective",
     en: "honor; privilege",
@@ -249,7 +249,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "{殿|どの}", lv: "N1", pos: "suffix",
     en: "Mr./Ms. (formal title after a name on official documents)",
     note: "Used after a name in official documents such as certificates, notices of appointment and awards: 山田太郎殿. Stiffer and more bureaucratic than 様; in ordinary business letters 様 is now preferred.",
-    rx: ["との", "でん", "てん"],
+    rx: ["とん", "でん", "てん"],
     book: { ja: "**{鈴木二郎殿|すずきじろうどの}**。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Mr. Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2.", at: "gp/67" },
     ex: [
       { ja: "{賞状|しょうじょう}には「{田中花子|たなかはなこ}**{殿|どの}**」と{書|か}かれていた。", en: "The certificate was made out to \"Ms. Hanako Tanaka.\"", alt: ["{御中|おんちゅう}", "{各位|かくい}", "{先輩|せんぱい}"] },
@@ -268,15 +268,15 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["かんらい", "がんらん", "かんろう"],
     book: { ja: "{本日|ほんじつ}夜の部をもちまして、この{公演|こうえん}の日程は全て（　）。ご**{観覧|かんらん}**{誠|まこと}にありがとうございました。", en: "With tonight's evening performance, all dates of this run are (　). Thank you very much for attending.", at: "gp/67" },
     ex: [
-      { ja: "{美術館|びじゅつかん}の**{観覧|かんらん}**{料|りょう}は、{高校生|こうこうせい}{以下|いか}{無料|むりょう}です。", en: "Admission to the museum is free for high school students and younger.", alt: ["{閲覧|えつらん}", "{展覧|てんらん}", "{観光|かんこう}"] },
+      { ja: "{美術館|びじゅつかん}の**{観覧|かんらん}**{料|りょう}は、{高校生|こうこうせい}{以下|いか}{無料|むりょう}です。", en: "Admission to the museum is free for high school students and younger.", alt: ["{閲覧|えつらん}", "{回覧|かいらん}", "{観光|かんこう}"] },
     ] },
   { w: "{何分|なにぶん}", lv: "N1", pos: "adverb",
     en: "(apologetically) after all; since, as you know; (as a request) kindly",
     note: "Formal adverb offering an excuse: 何分にも初めてのことで (this being, after all, my first time), 何分田舎なもので. Also 何分よろしくお願いします (please do what you can). Read なんぷん, it means 'how many minutes'.",
-    rx: ["なんぶん", "なにふん", "なにぷん"],
+    rx: ["なにぶ", "なにふん", "なにぷん"],
     book: { ja: "**{何分|なにぶん}**にも田舎のこととて{山菜|さんさい}料理しかありませんが、どうぞゆっくりしていってください。", en: "This being the countryside, I'm afraid all we have is mountain-vegetable dishes, but please take your time and relax.", at: "gp/68" },
     ex: [
-      { ja: "**{何分|なにぶん}**{初|はじ}めてのことですので、{至|いた}らない{点|てん}はお{許|ゆる}しください。", en: "As this is, after all, my first time, please forgive any shortcomings.", alt: ["{何|なに}とか", "{何|なん}なりと", "{何|なに}より"] },
+      { ja: "**{何分|なにぶん}**{初|はじ}めてのことですので、{至|いた}らない{点|てん}はお{許|ゆる}しください。", en: "As this is, after all, my first time, please forgive any shortcomings.", alt: ["{何|なに}とか", "{何|なん}なりと", "{何|なに}げなく"] },
     ] },
   { w: "{山菜|さんさい}", lv: "N1", pos: "noun",
     en: "edible wild plants (gathered in the mountains)",
@@ -302,21 +302,13 @@ TRY.registerVocab({ ch: 6, words: [
     ex: [
       { ja: "{霧|きり}の{向|む}こうに、ぼんやりと**{人影|ひとかげ}**が{見|み}えた。", en: "I could make out a dim figure beyond the fog.", alt: ["{人柄|ひとがら}", "{日陰|ひかげ}", "{人前|ひとまえ}"] },
     ] },
-  { w: "{静|しず}まりかえる", lv: "N1", pos: "verb (godan, intransitive)",
-    en: "to fall completely silent; to be hushed",
-    note: "A place becoming totally quiet: 会場が静まりかえる, しんと静まりかえる, 静まりかえった夜. Also written 静まり返る. 〜かえる here intensifies ('completely'), as in あきれかえる.",
-    rx: ["せいまりかえる", "しづまりかえる", "しずまりがえる"],
-    book: { ja: "日曜日のこととて社内には{人影|ひとかげ}もなく、しんと**静まりかえって**いた。", en: "It being Sunday, there was not a soul in the office, and it was utterly silent.", at: "gp/68" },
-    ex: [
-      { ja: "{指揮者|しきしゃ}が{登場|とうじょう}すると、{会場|かいじょう}はしんと**{静|しず}まりかえった**。", en: "When the conductor appeared, the hall fell completely silent.", alt: ["{生|う}まれ{変|か}わった", "{振|ふ}り{返|かえ}った", "{繰|く}り{返|かえ}した"] },
-    ] },
   { w: "お{悔|く}やみ", lv: "N1", pos: "noun",
     en: "condolences; sympathy (on a death)",
     note: "Words of sympathy to the bereaved: お悔やみを申し上げる, お悔やみ申し上げます (my condolences), お悔やみの言葉. The verb 悔やむ means 'to regret' or 'to mourn'.",
     rx: ["おかいやみ", "おぐやみ", "おくいやみ"],
     book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "Since I didn't know, I never even offered my condolences — I am terribly sorry.", at: "gp/68" },
     ex: [
-      { ja: "このたびはご{愁傷|しゅうしょう}さまでした。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{見舞|みま}い", "お{礼|れい}"] },
+      { ja: "このたびはご{愁傷|しゅうしょう}さまでした。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{土産|みやげ}", "お{礼|れい}"] },
     ] },
   { w: "{遺憾|いかん}", lv: "N1", pos: "noun · な adjective",
     en: "regret; regrettable (formal, often official)",
@@ -324,7 +316,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["いけん", "いかい", "ゆいかん"],
     book: { ja: "＊「感謝・{同情|どうじょう}・**{遺憾|いかん}**・{感激|かんげき}・喜び・{後悔|こうかい}・〜の{念|ねん}」などの言葉と一緒に使われる。", en: "Used with words such as 感謝 (gratitude), 同情 (sympathy), 遺憾 (regret), 感激 (being moved), 喜び (joy), 後悔 (remorse) and 〜の念 (a feeling of ~).", at: "gp/69" },
     ex: [
-      { ja: "{政府|せいふ}は、{相手国|あいてこく}の{対応|たいおう}に{対|たい}して**{遺憾|いかん}**の{意|い}を{表明|ひょうめい}した。", en: "The government expressed its regret over the other country's response.", alt: ["{遺産|いさん}", "{遺跡|いせき}", "{好感|こうかん}"] },
+      { ja: "{政府|せいふ}は、{相手国|あいてこく}の{対応|たいおう}に{対|たい}して**{遺憾|いかん}**の{意|い}を{表明|ひょうめい}した。", en: "The government expressed its regret over the other country's response.", alt: ["{遺産|いさん}", "{遺跡|いせき}", "{遺言|ゆいごん}"] },
     ] },
   { w: "{尽力|じんりょく}", lv: "N1", pos: "noun · する verb",
     en: "efforts; hard work (for a cause or on someone's behalf)",
@@ -393,7 +385,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "{甲斐|かい}", lv: "N1", pos: "noun",
     en: "worth; result (of effort); the point (of doing something)",
     note: "The reward that makes an effort worthwhile: 努力の甲斐あって (thanks to one's efforts), 〜甲斐がない (it was no use), and as a suffix 〜がい: 生きがい, やりがい, 働きがい. Often written in kana.",
-    rx: ["こうひ", "かひ", "がい"],
+    rx: ["こうひ", "かひ", "こうい"],
     book: { ja: "努力の**{甲斐|かい}**あって、日本の{看護師|かんごし}の国家試験に受かって、うれしい限りです。", en: "My efforts paid off: I passed Japan's national nursing exam, and I couldn't be happier.", at: "gp/71" },
     ex: [
       { ja: "{看病|かんびょう}の**{甲斐|かい}**もなく、{祖母|そぼ}は{亡|な}くなった。", en: "Despite all our nursing care, my grandmother passed away.", alt: ["{見込|みこ}み", "{具合|ぐあい}", "{理由|りゆう}"] },
@@ -412,7 +404,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["きじゅう", "ぎちょう", "きちょ"],
     book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent him a valuable book as a special favor, and he got it dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
-      { ja: "{留学|りゅうがく}は、{私|わたし}にとって{本当|ほんとう}に**{貴重|きちょう}な**{経験|けいけん}になった。", en: "Studying abroad turned out to be a truly valuable experience for me.", alt: ["{高価|こうか}な", "{慎重|しんちょう}な", "{丁重|ていちょう}な"] },
+      { ja: "{留学|りゅうがく}は、{私|わたし}にとって{本当|ほんとう}に**{貴重|きちょう}な**{経験|けいけん}になった。", en: "Studying abroad turned out to be a truly valuable experience for me.", alt: ["{不器用|ぶきよう}な", "{慎重|しんちょう}な", "{丁重|ていちょう}な"] },
     ] },
   { w: "{喜|よろこ}ばしい", lv: "N1", pos: "い adjective",
     en: "gratifying; happy; welcome (news)",
@@ -498,7 +490,7 @@ TRY.registerVocab({ ch: 6, words: [
     note: "Something differs from how it normally is: いつになく静かだ, いつになく真剣な顔. Formal-ish, and neutral in tone; 珍しく is the everyday equivalent.",
     book: { ja: "（{拍手|はくしゅ}）……いやあ、**いつになく**出席者が多いですね……。（会場から笑い）", en: "(Applause) … Well, well, there are more people here than usual… (Laughter from the audience)", at: "ch/6/review" },
     ex: [
-      { ja: "{今朝|けさ}の{父|ちち}は、**いつになく**{機嫌|きげん}がよかった。", en: "My father was in an unusually good mood this morning.", alt: ["いつまでも", "いつのまにか", "いつなんどき"] },
+      { ja: "{今朝|けさ}の{父|ちち}は、**いつになく**{機嫌|きげん}がよかった。", en: "My father was in an unusually good mood this morning.", alt: ["いつまでも", "いつぞや", "いつなんどき"] },
     ] },
   { w: "{拍手|はくしゅ}", lv: "N2", pos: "noun · する verb",
     en: "applause; clapping",
@@ -522,12 +514,12 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["てめくくり", "しめぐくり", "ていくくり"],
     book: { ja: "えー、{本日|ほんじつ}、この講義[3]、{本学|ほんがく}を{去|さ}ることになるわけですが、最後に、「水」というものを取り上げまして、私の35年間の**{締|し}めくくり**としたいと思います。", en: "Well, with this lecture [3] today I will be leaving this university, and finally, I would like to take up the subject of water to round off my thirty-five years.", at: "ch/6/review" },
     ex: [
-      { ja: "{一年|いちねん}の**{締|し}めくくり**に、{家族|かぞく}みんなで{温泉|おんせん}に{行|い}った。", en: "To round off the year, the whole family went to a hot spring.", alt: ["{締|し}め{切|き}り", "{区切|くぎ}り{目|め}", "{戸締|とじ}まり"] },
+      { ja: "{一年|いちねん}の**{締|し}めくくり**に、{家族|かぞく}みんなで{温泉|おんせん}に{行|い}った。", en: "To round off the year, the whole family went to a hot spring.", alt: ["{締|し}め{切|き}り", "{仕切|しき}り", "{戸締|とじ}まり"] },
     ] },
   { w: "{脅|おびや}かす", lv: "N1", pos: "verb (godan, transitive)",
     en: "to threaten; to endanger; to menace",
     note: "Putting something's safety or position at risk: 生命を脅かす, 平和を脅かす, 地位を脅かす (threaten someone's position). The same kanji read おどかす means 'to scare' a person; おびやかす is about danger to life, peace or status.",
-    rx: ["おどかす", "おびかす", "きょうかす"],
+    rx: ["おびやがす", "おびかす", "きょうかす"],
     book: { ja: "さて、水は、私たちが生きる上で[4]、その一方で、生命を**{脅|おびや}かす**ものでもあります。", en: "Now, water is [4] for us to live, but on the other hand, it is also something that threatens life.", at: "ch/6/review" },
     ex: [
       { ja: "{地球|ちきゅう}{温暖化|おんだんか}は、{多|おお}くの{生物|せいぶつ}の{生存|せいぞん}を**{脅|おびや}かして**いる。", en: "Global warming is threatening the survival of many living things.", alt: ["{甘|あま}やかして", "{冷|ひ}やかして", "{輝|かがや}かして"] },
@@ -538,7 +530,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["へんがく", "へんかわ", "べんかく"],
     book: { ja: "大きな**{変革|へんかく}**のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。", en: "As this is a major transformation, difficulties are expected, but it is truly reassuring to be able to move forward together with all of you.", at: "ch/6/review" },
     ex: [
-      { ja: "インターネットは、{人々|ひとびと}の{働|はたら}き{方|かた}に{大|おお}きな**{変革|へんかく}**をもたらした。", en: "The internet brought about a great transformation in the way people work.", alt: ["{変換|へんかん}", "{変色|へんしょく}", "{変身|へんしん}"] },
+      { ja: "インターネットは、{人々|ひとびと}の{働|はたら}き{方|かた}に{大|おお}きな**{変革|へんかく}**をもたらした。", en: "The internet brought about a great transformation in the way people work.", alt: ["{変装|へんそう}", "{変色|へんしょく}", "{変身|へんしん}"] },
     ] },
   { w: "{心強|こころづよ}い", lv: "N1", pos: "い adjective",
     en: "reassuring; encouraging; heartening",
@@ -546,6 +538,6 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["しんづよい", "こころつよい", "こころきょうい"],
     book: { ja: "大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは**{心強|こころづよ}い**限りです。", en: "As this is a major transformation, difficulties are expected, but it is truly reassuring to be able to move forward together with all of you.", at: "ch/6/review" },
     ex: [
-      { ja: "{経験|けいけん}{豊富|ほうふ}な{先輩|せんぱい}が{一緒|いっしょ}に{来|き}てくれるので、とても**{心強|こころづよ}い**。", en: "It's really reassuring that an experienced senior colleague is coming with me.", alt: ["{心細|こころぼそ}い", "{力強|ちからづよ}い", "{根強|ねづよ}い"] },
+      { ja: "{経験|けいけん}{豊富|ほうふ}な{先輩|せんぱい}が{一緒|いっしょ}に{来|き}てくれるので、とても**{心強|こころづよ}い**。", en: "It's really reassuring that an experienced senior colleague is coming with me.", alt: ["{心細|こころぼそ}い", "{粘|ねば}り{強|づよ}い", "{根強|ねづよ}い"] },
     ] },
 ] });

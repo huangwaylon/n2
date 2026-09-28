@@ -42,7 +42,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{事業所|じぎょうしょ}", lv: "N1", pos: "noun",
     en: "place of business; business establishment; workplace",
     note: "An administrative and legal term for any site where business is carried on — office, factory or shop: 事業所の数, 小規模事業所. 事業 alone means a business or undertaking (新規事業 = a new line of business).",
-    rx: ["じぎょうじょ", "じごうしょ", "しぎょうしょ"],
+    rx: ["じぎょうどころ", "じごうしょ", "しぎょうしょ"],
     book: { ja: "これは{小規模|しょうきぼ}**{事業所|じぎょうしょ}**に対して産業医を置くために、市が{補助|ほじょ}をする制度です。", en: "This is a scheme under which the city provides subsidies so that small workplaces can have an occupational physician.", at: "ch/2" },
     ex: [
       { ja: "この{地域|ちいき}には{従業員|じゅうぎょういん}10{人|にん}{以下|いか}の**{事業所|じぎょうしょ}**が{多|おお}い。", en: "There are many business establishments in this area with ten or fewer employees.", alt: ["{避難所|ひなんじょ}", "{停留所|ていりゅうじょ}", "{台所|だいどころ}"] },
@@ -101,7 +101,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きゅしょく", "きゅうじょく", "やすしょく"],
     book: { ja: "発見が遅れ、{病状|びょうじょう}が{悪化|あっか}して**{休職|きゅうしょく}**を{余儀|よぎ}なくされる{方|かた}も増えているのです。", en: "More and more people are being forced to take leave from work because an illness was discovered late and their condition worsened.", at: "ch/2" },
     ex: [
-      { ja: "{彼女|かのじょ}は{体調|たいちょう}を{崩|くず}して、{半年|はんとし}ほど**{休職|きゅうしょく}**していた。", en: "She fell ill and was on leave from work for about six months.", alt: ["{休日|きゅうじつ}", "{就職|しゅうしょく}", "{退職|たいしょく}"] },
+      { ja: "{彼女|かのじょ}は{体調|たいちょう}を{崩|くず}して、{半年|はんとし}ほど**{休職|きゅうしょく}**していた。", en: "She fell ill and was on leave from work for about six months.", alt: ["{休日|きゅうじつ}", "{就職|しゅうしょく}", "{職場|しょくば}"] },
     ] },
   { w: "もはや", lv: "N1", pos: "adverb",
     en: "(by) now, already; (with a negative) no longer",
@@ -116,7 +116,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["いちこく", "いっごく", "ひとこく"],
     book: { ja: "もはや**{一刻|いっこく}**たりとも{猶予|ゆうよ}はできません。", en: "We can no longer afford to delay even a single moment.", at: "ch/2" },
     ex: [
-      { ja: "{患者|かんじゃ}は**{一刻|いっこく}**を{争|あらそ}う{状態|じょうたい}だった。", en: "The patient was in a condition where every second counted.", alt: ["{一瞬|いっしゅん}", "{時刻|じこく}", "{一層|いっそう}"] },
+      { ja: "{患者|かんじゃ}は**{一刻|いっこく}**を{争|あらそ}う{状態|じょうたい}だった。", en: "The patient was in a condition where every second counted.", alt: ["{一気|いっき}", "{時刻|じこく}", "{一層|いっそう}"] },
     ] },
   { w: "{猶予|ゆうよ}", lv: "N1", pos: "noun · する verb",
     en: "grace period; postponement; time allowed (before acting)",
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 2, words: [
     note: "A formal word from さらに, used only before nouns: さらなる発展 / 努力 / 飛躍. Common in speeches and official writing; the adverb is さらに.",
     book: { ja: "**さらなる**生活の{充実|じゅうじつ}のために、3年以内に市内すべての{事業所|じぎょうしょ}に産業医を{配置|はいち}することを、目標としております。", en: "To further enrich people's lives, our goal is to station an occupational physician at every workplace in the city within three years.", at: "ch/2" },
     ex: [
-      { ja: "{皆様|みなさま}の**さらなる**ご{活躍|かつやく}をお{祈|いの}りしております。", en: "We wish you all even greater success.", alt: ["いわゆる", "あらゆる", "いかなる"] },
+      { ja: "{皆様|みなさま}の**さらなる**ご{活躍|かつやく}をお{祈|いの}りしております。", en: "We wish you all even greater success.", alt: ["いわゆる", "とんだ", "いかなる"] },
     ] },
   { w: "{配置|はいち}", lv: "N1", pos: "noun · する verb",
     en: "placement; arrangement; stationing (of staff)",
@@ -228,7 +228,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{転職|てんしょく}して**{年収|ねんしゅう}**が100{万円|まんえん}{上|あ}がった。", en: "When I changed jobs, my annual income went up by one million yen.", alt: ["{年齢|ねんれい}", "{年賀|ねんが}", "{回収|かいしゅう}"] },
     ] },
-  { w: "{限定|げんてい}", lv: "N1", pos: "noun · する verb",
+  { w: "{限定|げんてい}", lv: "N2", pos: "noun · する verb",
     en: "limited (edition); restricted (to)",
     note: "Everywhere in shops and ads: 数量限定 (limited quantity), 期間限定 (for a limited time), 会員限定 (members only). 〜に限定する = restrict to.",
     rx: ["げんじょう", "かんてい", "げんでい"],
@@ -308,7 +308,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{津波|つなみ}{警報|けいほう}が{出|で}て、{住民|じゅうみん}は{高台|たかだい}に**{避難|ひなん}**した。", en: "A tsunami warning was issued, and residents evacuated to higher ground.", alt: ["{非難|ひなん}", "{困難|こんなん}", "{回避|かいひ}"] },
     ] },
-  { w: "{上昇|じょうしょう}", lv: "N1", pos: "noun · する verb",
+  { w: "{上昇|じょうしょう}", lv: "N2", pos: "noun · する verb",
     en: "rise; climb; increase",
     note: "気温 / 物価 / 株価が上昇する. The opposite is 下降 or 低下. It is the written counterpart of 上がる.",
     rx: ["じょうしょ", "うえしょう", "しょうしょう"],
@@ -322,7 +322,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["いじゅ", "いすう", "いしゅう"],
     book: { ja: "地球温暖化による{海面上昇|かいめんじょうしょう}がこの地域の人々に**{移住|いじゅう}**を{余儀|よぎ}なくさせたのである。", en: "It was the sea-level rise caused by global warming that forced the people of this region to relocate.", at: "gp/9" },
     ex: [
-      { ja: "{定年|ていねん}{後|ご}、{夫婦|ふうふ}で{沖縄|おきなわ}に**{移住|いじゅう}**した。", en: "After retiring, the couple moved to Okinawa.", alt: ["{移植|いしょく}", "{住居|じゅうきょ}", "{移民|いみん}"] },
+      { ja: "{定年|ていねん}{後|ご}、{夫婦|ふうふ}で{沖縄|おきなわ}に**{移住|いじゅう}**した。", en: "After retiring, the couple moved to Okinawa.", alt: ["{移植|いしょく}", "{住居|じゅうきょ}", "{移籍|いせき}"] },
     ] },
   { w: "{急速|きゅうそく}", lv: "N1", pos: "な-adjective",
     en: "rapid; swift",
@@ -330,7 +330,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きゅそく", "きゅうぞく", "いそそく"],
     book: { ja: "**急速**な情報技術の発達は{企業|きぎょう}に{組織|そしき}の{再編成|さいへんせい}を{余儀|よぎ}なくさせた。", en: "The rapid development of information technology forced companies to reorganize.", at: "gp/9" },
     ex: [
-      { ja: "スマートフォンは**{急速|きゅうそく}**に{普及|ふきゅう}した。", en: "Smartphones spread rapidly.", alt: ["{急用|きゅうよう}", "{休息|きゅうそく}", "{高速|こうそく}"] },
+      { ja: "スマートフォンは**{急速|きゅうそく}**に{普及|ふきゅう}した。", en: "Smartphones spread rapidly.", alt: ["{急用|きゅうよう}", "{休息|きゅうそく}", "{急病|きゅうびょう}"] },
     ] },
   { w: "{削減|さくげん}", lv: "N1", pos: "noun · する verb",
     en: "reduction; cut (in costs, staff or emissions)",
@@ -364,7 +364,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{子|こ}どもに**{不適切|ふてきせつ}**な{内容|ないよう}の{動画|どうが}は{削除|さくじょ}される。", en: "Videos with content unsuitable for children are removed.", alt: ["{不規則|ふきそく}", "{不景気|ふけいき}", "{不器用|ぶきよう}"] },
     ] },
-  { w: "{決勝|けっしょう}", lv: "N1", pos: "noun",
+  { w: "{決勝|けっしょう}", lv: "N2", pos: "noun",
     en: "final (match); deciding round",
     note: "決勝戦 (the final), 決勝に進む / 進出する, 準決勝 (semifinal), 準々決勝 (quarterfinal). The homophone 結晶 means crystal.",
     rx: ["けつしょう", "けっそう", "けっしょ"],
@@ -388,7 +388,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{安全|あんぜん}を**{軽|かろ}んじる**{会社|かいしゃ}は、いつか{大|おお}きな{事故|じこ}を{起|お}こす。", en: "A company that makes light of safety will one day cause a serious accident.", alt: ["{重|おも}んじる", "{甘|あま}んじる", "{先|さき}んじる"] },
     ] },
-  { w: "{外科|げか}", lv: "N1", pos: "noun",
+  { w: "{外科|げか}", lv: "N2", pos: "noun",
     en: "surgery (as a medical department)",
     note: "外科医 (surgeon), 外科手術, 整形外科 (orthopedics). 内科 is internal medicine. 外 is read げ here, as in 外道; don't read it がいか.",
     rx: ["がいか", "そとか", "げいか"],
@@ -450,7 +450,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["たすけつ", "たかずけつ", "たすうげつ"],
     book: { ja: "会の代表は**{多数決|たすうけつ}**（　）{選出|せんしゅつ}されました。", en: "The representative of the association was chosen by majority vote.", at: "gp/13" },
     ex: [
-      { ja: "クラスの{旅行先|りょこうさき}は**{多数決|たすうけつ}**で{決|き}めた。", en: "We decided on the class trip's destination by majority vote.", alt: ["{多数派|たすうは}", "{決勝|けっしょう}", "{解決|かいけつ}"] },
+      { ja: "クラスの{旅行先|りょこうさき}は**{多数決|たすうけつ}**で{決|き}めた。", en: "We decided on the class trip's destination by majority vote.", alt: ["{多目的|たもくてき}", "{決勝|けっしょう}", "{解決|かいけつ}"] },
     ] },
   { w: "{負傷|ふしょう}", lv: "N1", pos: "noun · する verb",
     en: "injury; being wounded",
@@ -479,7 +479,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{旨|むね}", lv: "N1", pos: "noun",
     en: "(to the) effect (that); gist; purport",
     note: "Formal, common in business letters and official notices: その旨を伝える (inform someone of that), 〜という旨の連絡 (a message to the effect that ~). It refers back to the content of a statement.",
-    rx: ["うま", "むな", "もね"],
+    rx: ["しめ", "むな", "もね"],
     book: { ja: "{退会|たいかい}を希望する場合は{書面|しょめん}（　）その**{旨|むね}**を届け出なければならない。", en: "If you wish to leave the association, you must notify us to that effect in writing.", at: "gp/13" },
     ex: [
       { ja: "{欠席|けっせき}する{場合|ばあい}は、その**{旨|むね}**を{事前|じぜん}に{担当者|たんとうしゃ}にお{知|し}らせください。", en: "If you will be absent, please let the person in charge know in advance.", alt: ["{胸|むね}", "{棟|むね}", "{趣味|しゅみ}"] },
@@ -562,7 +562,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["むしゅん", "ほこたて", "むじゅう"],
     book: { ja: "便利な生活を求めてやまない人間の{欲望|よくぼう}が、さまざまな**{矛盾|むじゅん}**を生み出している。", en: "Humanity's endless craving for a convenient life is creating all kinds of contradictions.", at: "gp/15" },
     ex: [
-      { ja: "{彼|かれ}の{説明|せつめい}は{前|まえ}に{言|い}ったことと**{矛盾|むじゅん}**している。", en: "His explanation contradicts what he said before.", alt: ["{無視|むし}", "{一致|いっち}", "{順番|じゅんばん}"] },
+      { ja: "{彼|かれ}の{説明|せつめい}は{前|まえ}に{言|い}ったことと**{矛盾|むじゅん}**している。", en: "His explanation contradicts what he said before.", alt: ["{無視|むし}", "{無理|むり}", "{順番|じゅんばん}"] },
     ] },
   { w: "{敬愛|けいあい}", lv: "N1", pos: "noun · する verb",
     en: "love and respect; reverence",
@@ -585,7 +585,7 @@ TRY.registerVocab({ ch: 2, words: [
     note: "Drawing people's attention or hearts: 人をひきつける魅力, 観客をひきつける. Also written 引き付ける or 惹き付ける; the literal sense is pulling something close.",
     book: { ja: "彼女の絵は少し変わっているが、人々を**ひきつけ**＿＿不思議な{魅力|みりょく}がある。", en: "Her paintings are a little unusual, but they have a mysterious charm that never stops drawing people in.", at: "ch/2" },
     ex: [
-      { ja: "{彼|かれ}の{話|はなし}には{人|ひと}を**ひきつける**{力|ちから}がある。", en: "The way he talks has the power to draw people in.", alt: ["ひきさげる", "ひきはなす", "ひきだす"] },
+      { ja: "{彼|かれ}の{話|はなし}には{人|ひと}を**ひきつける**{力|ちから}がある。", en: "The way he talks has the power to draw people in.", alt: ["ひきさげる", "ひきはなす", "ひきうける"] },
     ] },
   { w: "{油断|ゆだん}", lv: "N1", pos: "noun · する verb",
     en: "carelessness; letting one's guard down",
@@ -627,7 +627,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{彼|かれ}の{映画|えいが}は{海外|かいがい}の{映画祭|えいがさい}で{賞|しょう}を**{受賞|じゅしょう}**した。", en: "His film won an award at an overseas film festival.", alt: ["{受験|じゅけん}", "{賞品|しょうひん}", "{受信|じゅしん}"] },
     ] },
-  { w: "{支配|しはい}", lv: "N1", pos: "noun · する verb",
+  { w: "{支配|しはい}", lv: "N2", pos: "noun · する verb",
     en: "rule; control; domination",
     note: "国を支配する, 支配者 (ruler), 感情に支配される (be ruled by one's emotions). 支配人 is the manager of a hotel or theater.",
     rx: ["しばい", "しっぱい", "ささはい"],
@@ -680,7 +680,7 @@ TRY.registerVocab({ ch: 2, words: [
     note: "A formal word used before nouns: いかなる理由があっても (whatever the reason), いかなる場合も. Often paired with も, でも or といえども. The everyday equivalent is どんな.",
     book: { ja: "**いかなる**困難[3]、乗り越えられないものはないということです。", en: "It means that there is no difficulty, however great, that cannot be overcome.", at: "ch/2/review" },
     ex: [
-      { ja: "**いかなる**{理由|りゆう}があっても、{暴力|ぼうりょく}は{許|ゆる}されない。", en: "Violence is never acceptable, whatever the reason.", alt: ["あらゆる", "いわゆる", "さらなる"] },
+      { ja: "**いかなる**{理由|りゆう}があっても、{暴力|ぼうりょく}は{許|ゆる}されない。", en: "Violence is never acceptable, whatever the reason.", alt: ["ほんの", "いわゆる", "{来|きた}る"] },
     ] },
   { w: "{敬意|けいい}", lv: "N1", pos: "noun",
     en: "respect; esteem",

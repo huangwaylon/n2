@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["けいひ", "けいぴ", "きょうび"],
     book: { ja: "**{警備会社|けいびがいしゃ}**、社長室", en: "The security company, the president's office", at: "ch/5" },
     ex: [
-      { ja: "{首脳|しゅのう}{会議|かいぎ}の{会場|かいじょう}{周辺|しゅうへん}では、{厳重|げんじゅう}な**{警備|けいび}**が{行|おこな}われている。", en: "Tight security is in place around the venue of the summit meeting.", alt: ["{警報|けいほう}", "{整備|せいび}", "{警告|けいこく}"] },
+      { ja: "{首脳|しゅのう}{会議|かいぎ}の{会場|かいじょう}{周辺|しゅうへん}では、{厳重|げんじゅう}な**{警備|けいび}**が{行|おこな}われている。", en: "Tight security is in place around the venue of the summit meeting.", alt: ["{警報|けいほう}", "{整備|せいび}", "{警察|けいさつ}"] },
     ] },
   { w: "{宿直|しゅくちょく}", lv: "N1", pos: "noun · する verb",
     en: "night duty; overnight watch (staying at the workplace overnight)",
@@ -70,7 +70,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["くぐりばける", "くぐりぬかる", "くくりぬける"],
     book: { ja: "{厳|きび}しい{監視|かんし}を**くぐり抜けて**やられたならまだしも", en: "if you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but", at: "gp/50" },
     ex: [
-      { ja: "{兵士|へいし}たちは{敵|てき}の{包囲網|ほういもう}を**くぐり{抜|ぬ}けて**{脱出|だっしゅつ}した。", en: "The soldiers slipped through the enemy encirclement and escaped.", alt: ["{追|お}い{抜|ぬ}いて", "{打|う}ち{抜|ぬ}いて", "{見抜|みぬ}いて"] },
+      { ja: "{兵士|へいし}たちは{敵|てき}の{包囲網|ほういもう}を**くぐり{抜|ぬ}けて**{脱出|だっしゅつ}した。", en: "The soldiers slipped through the enemy encirclement and escaped.", alt: ["{追|お}い{抜|ぬ}いて", "{引|ひ}き{抜|ぬ}いて", "{書|か}き{抜|ぬ}いて"] },
     ] },
   { w: "{酷|こく}", lv: "N1", pos: "な adjective",
     en: "harsh; cruel; too much to ask (of someone)",
@@ -86,7 +86,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ぎょうしゅう", "ごうしゅ", "ぎょしゅ"],
     book: { ja: "**{業種|ぎょうしゅ}**が{業種|ぎょうしゅ}なだけに、これからマスコミも{騒|さわ}ぎ出すでしょう。", en: "Given the kind of business you're in, the media are going to start making a fuss.", at: "ch/5" },
     ex: [
-      { ja: "{飲食業|いんしょくぎょう}は、{他|ほか}の**{業種|ぎょうしゅ}**に{比|くら}べて{離職率|りしょくりつ}が{高|たか}いと{言|い}われる。", en: "The restaurant industry is said to have a higher turnover rate than other industries.", alt: ["{業績|ぎょうせき}", "{品種|ひんしゅ}", "{業務|ぎょうむ}"] },
+      { ja: "{飲食業|いんしょくぎょう}は、{他|ほか}の**{業種|ぎょうしゅ}**に{比|くら}べて{離職率|りしょくりつ}が{高|たか}いと{言|い}われる。", en: "The restaurant industry is said to have a higher turnover rate than other industries.", alt: ["{業績|ぎょうせき}", "{品種|ひんしゅ}", "{授業|じゅぎょう}"] },
     ] },
   { w: "{覚悟|かくご}", lv: "N2", pos: "noun · する verb",
     en: "readiness to face something hard; resolve; bracing oneself",
@@ -278,7 +278,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ほっち", "ほうじ", "はなち"],
     book: { ja: "{指摘|してき}された{欠陥|けっかん}を**{放置|ほうち}**していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen.", at: "gp/52" },
     ex: [
-      { ja: "{駅前|えきまえ}に**{放置|ほうち}**された{自転車|じてんしゃ}が、{市|し}によって{撤去|てっきょ}された。", en: "Bicycles abandoned in front of the station were removed by the city.", alt: ["{配置|はいち}", "{処置|しょち}", "{放送|ほうそう}"] },
+      { ja: "{駅前|えきまえ}に**{放置|ほうち}**された{自転車|じてんしゃ}が、{市|し}によって{撤去|てっきょ}された。", en: "Bicycles abandoned in front of the station were removed by the city.", alt: ["{物置|ものおき}", "{処置|しょち}", "{放送|ほうそう}"] },
     ] },
   { w: "めぐり{会|あ}う", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to meet by chance (after a long time); to come across (as if by fate)",
@@ -373,7 +373,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["おんにん", "いんじん", "おうじん"],
     book: { ja: "あの人は{俺|おれ}の命の**{恩人|おんじん}**だ。", en: "That man saved my life.", at: "ch/5" },
     ex: [
-      { ja: "{苦|くる}しいときに{仕事|しごと}を{紹介|しょうかい}してくれた{彼|かれ}は、{私|わたし}の**{恩人|おんじん}**です。", en: "He found me work when I was struggling; I owe him a great deal.", alt: ["{主人|しゅじん}", "{故人|こじん}", "{恩恵|おんけい}"] },
+      { ja: "{苦|くる}しいときに{仕事|しごと}を{紹介|しょうかい}してくれた{彼|かれ}は、{私|わたし}の**{恩人|おんじん}**です。", en: "He found me work when I was struggling; I owe him a great deal.", alt: ["{犯人|はんにん}", "{故人|こじん}", "{恩恵|おんけい}"] },
     ] },
   { w: "{怒鳴|どな}る", lv: "N1", pos: "verb (godan)",
     en: "to shout (angrily); to yell at; to bark",
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["りめにでる", "うらもくにでる", "うらまにでる"],
     book: { ja: "{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、**{裏目|うらめ}に出て**しまったな。", en: "I took your advice and boldly brought it in to keep labor costs down, but it's backfired, hasn't it.", at: "ch/5" },
     ex: [
-      { ja: "{慎重|しんちょう}に{行動|こうどう}したつもりが、かえって**{裏目|うらめ}に{出|で}た**。", en: "I meant to act carefully, but it backfired on me.", alt: ["{明|あか}るみに{出|で}た", "{芽|め}が{出|で}た", "{足|あし}が{出|で}た"] },
+      { ja: "{慎重|しんちょう}に{行動|こうどう}したつもりが、かえって**{裏目|うらめ}に{出|で}た**。", en: "I meant to act carefully, but it backfired on me.", alt: ["{右|みぎ}に{出|で}た", "{芽|め}が{出|で}た", "{足|あし}が{出|で}た"] },
     ] },
   { w: "いっそ", lv: "N1", pos: "adverb",
     en: "rather (than go on like this); might as well; just",
@@ -452,7 +452,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["はいぎ", "ばいき", "はつき"],
     book: { ja: "何とか**{廃棄|はいき}**せずに働かせられないものか……。", en: "Isn't there some way we could keep it working without scrapping it…", at: "ch/5" },
     ex: [
-      { ja: "{賞味期限|しょうみきげん}が{切|き}れた{食品|しょくひん}は、すべて**{廃棄|はいき}**された。", en: "All the food past its best-before date was thrown away.", alt: ["{廃止|はいし}", "{放棄|ほうき}", "{廃刊|はいかん}"] },
+      { ja: "{賞味期限|しょうみきげん}が{切|き}れた{食品|しょくひん}は、すべて**{廃棄|はいき}**された。", en: "All the food past its best-before date was thrown away.", alt: ["{廃止|はいし}", "{廃業|はいぎょう}", "{廃刊|はいかん}"] },
     ] },
   { w: "{正体|しょうたい}", lv: "N1", pos: "noun",
     en: "true identity; true nature; what something really is",
@@ -467,7 +467,7 @@ TRY.registerVocab({ ch: 5, words: [
     note: "Casual: うそがばれる, 秘密がばれる, 親にばれる. Often written in katakana (バレる). The formal equivalent is 発覚する; 知られる is neutral.",
     book: { ja: "一般の人間ならいざしらず、警察の取り調べにも{正体|しょうたい}が**バレなかった**のなら、まだ使い道はある。", en: "Ordinary people are one thing, but if even the police interrogation didn't expose what it really is, it still has its uses.", at: "ch/5" },
     ex: [
-      { ja: "うそをついても、いつかは**ばれる**ものだ。", en: "Even if you lie, it'll come out sooner or later.", alt: ["ずれる", "はがれる", "くずれる"] },
+      { ja: "うそをついても、いつかは**ばれる**ものだ。", en: "Even if you lie, it'll come out sooner or later.", alt: ["ずれる", "はがれる", "ほえる"] },
     ] },
   { w: "{使|つか}い{道|みち}", lv: "N1", pos: "noun",
     en: "use; what something can be used for; how to spend (money)",
@@ -605,7 +605,7 @@ TRY.registerVocab({ ch: 5, words: [
     ex: [
       { ja: "{警察|けいさつ}は**{容疑者|ようぎしゃ}**を{逮捕|たいほ}し、{取|と}り{調|しら}べを{進|すす}めている。", en: "The police have arrested a suspect and are questioning him.", alt: ["{被害者|ひがいしゃ}", "{候補者|こうほしゃ}", "{保護者|ほごしゃ}"] },
     ] },
-  { w: "{衛生|えいせい}", lv: "N1", pos: "noun",
+  { w: "{衛生|えいせい}", lv: "N2", pos: "noun",
     en: "hygiene; sanitation",
     note: "Keeping things clean to prevent disease: 衛生管理, 公衆衛生 (public health), 衛生的 (sanitary), 不衛生. The homophone 衛星 means 'satellite'.",
     rx: ["えいしょう", "えいせ", "えいぜい"],
@@ -723,7 +723,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["よみょう", "よいのち", "あまめい"],
     book: { ja: "＿＿、{患者|かんじゃ}の家族に**{余命宣告|よめいせんこく}**をするのはつらいものだ。", en: "(＿＿), having to tell a patient's family how long the patient has left to live is painful.", at: "ch/5" },
     ex: [
-      { ja: "{父|ちち}は{医者|いしゃ}から**{余命|よめい}**{半年|はんとし}と{告|つ}げられた。", en: "My father was told by his doctor that he had six months to live.", alt: ["{寿命|じゅみょう}", "{余白|よはく}", "{運命|うんめい}"] },
+      { ja: "{父|ちち}は{医者|いしゃ}から**{余命|よめい}**{半年|はんとし}と{告|つ}げられた。", en: "My father was told by his doctor that he had six months to live.", alt: ["{余談|よだん}", "{余白|よはく}", "{運命|うんめい}"] },
     ] },
   { w: "{貧困|ひんこん}", lv: "N1", pos: "noun · な adjective",
     en: "poverty; (figuratively) poverty of ideas or policy",

@@ -29,7 +29,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["きがく", "けらく", "きらっく"],
     book: { ja: "そのため**{気楽|きらく}**な学生時代にひきかえ、多くのストレスを{抱|かか}えることになるでしょう。", en: "So, in contrast to your carefree student days, you will probably end up carrying a lot of stress.", at: "ch/4" },
     ex: [
-      { ja: "{定年|ていねん}後は{田舎|いなか}で**{気楽|きらく}**に暮らしたい。", en: "After I retire, I want to live a carefree life in the countryside.", alt: ["{気長|きなが}", "{気味|きみ}", "{気短|きみじか}"] },
+      { ja: "{定年|ていねん}後は{田舎|いなか}で**{気楽|きらく}**に暮らしたい。", en: "After I retire, I want to live a carefree life in the countryside.", alt: ["{気重|きおも}", "{気味|きみ}", "{気短|きみじか}"] },
     ] },
   { w: "{待遇|たいぐう}", lv: "N1", pos: "noun",
     en: "treatment; pay and working conditions",
@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["いちみ", "ひとみ", "いっけい"],
     book: { ja: "そこは**{一見|いっけん}**目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It looks like an unremarkable shop at first glance, but it's a famous ramen place where, come lunchtime, crowds of customers line up.", at: "gp/35" },
     ex: [
-      { ja: "この問題は**{一見|いっけん}**簡単そうだが、実はかなり難しい。", en: "This problem looks easy at first glance, but it's actually quite hard.", alt: ["{一応|いちおう}", "{一気|いっき}", "{一層|いっそう}"] },
+      { ja: "この問題は**{一見|いっけん}**簡単そうだが、実はかなり難しい。", en: "This problem looks easy at first glance, but it's actually quite hard.", alt: ["{一斉|いっせい}", "{一気|いっき}", "{一層|いっそう}"] },
     ] },
   { w: "かじりつく", lv: "N1", pos: "verb",
     en: "to be glued to, to cling to; to bite into",
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["じんそっく", "しんそく", "じんぞく"],
     book: { ja: "{災害時|さいがいじ}、**{迅速|じんそく}**に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "During the disaster, in contrast to the private groups, which responded swiftly, the government was conspicuously slow to respond.", at: "gp/36" },
     ex: [
-      { ja: "お客様からの{苦情|くじょう}には、**{迅速|じんそく}**に対応することが大切だ。", en: "It's important to respond promptly to customer complaints.", alt: ["{急速|きゅうそく}", "{高速|こうそく}", "{時速|じそく}"] },
+      { ja: "お客様からの{苦情|くじょう}には、**{迅速|じんそく}**に対応することが大切だ。", en: "It's important to respond promptly to customer complaints.", alt: ["{速達|そくたつ}", "{風速|ふうそく}", "{時速|じそく}"] },
     ] },
   { w: "{独創的|どくそうてき}", lv: "N1", pos: "な adjective",
     en: "original, creative, inventive",
@@ -140,7 +140,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ほきゅ", "ほうきゅう", "ほっきゅう"],
     book: { ja: "{熱中症|ねっちゅうしょう}を予防するには、**{水分補給|すいぶんほきゅう}**もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, you need not only to drink enough fluids but also to take in a moderate amount of salt and other minerals.", at: "gp/37" },
     ex: [
-      { ja: "マラソンの{途中|とちゅう}では、こまめな水分**{補給|ほきゅう}**が欠かせない。", en: "During a marathon, it's essential to drink water frequently.", alt: ["{供給|きょうきゅう}", "{給料|きゅうりょう}", "{補償|ほしょう}"] },
+      { ja: "マラソンの{途中|とちゅう}では、こまめな水分**{補給|ほきゅう}**が欠かせない。", en: "During a marathon, it's essential to drink water frequently.", alt: ["{月給|げっきゅう}", "{給料|きゅうりょう}", "{補償|ほしょう}"] },
     ] },
   { w: "{適度|てきど}", lv: "N1", pos: "な adjective · noun",
     en: "moderate, the right amount (neither too much nor too little)",
@@ -196,7 +196,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["へいじゃ", "ひしゃ", "べいしゃ"],
     book: { ja: "**{弊社|へいしゃ}**は、時代に{即|そく}した経営によって、常に{業界|ぎょうかい}をリードしてまいりました。", en: "Through management suited to the times, our company has always led the industry.", at: "gp/39" },
     ex: [
-      { ja: "**{弊社|へいしゃ}**の新製品について、ご説明させていただきます。", en: "Allow me to tell you about our company's new product.", alt: ["{御社|おんしゃ}", "{貴社|きしゃ}", "{商社|しょうしゃ}"] },
+      { ja: "**{弊社|へいしゃ}**の新製品について、ご説明させていただきます。", en: "Allow me to tell you about our company's new product.", alt: ["{社宅|しゃたく}", "{社説|しゃせつ}", "{入社|にゅうしゃ}"] },
     ] },
   { w: "{条例|じょうれい}", lv: "N1", pos: "noun",
     en: "(local) ordinance, bylaw",
@@ -212,7 +212,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["かず", "りょうす", "しなす"],
     book: { ja: "この地区で{路上喫煙|ろじょうきつえん}すると、{条例|じょうれい}に{則|そく}して1万円以下の{罰金|ばっきん}が**{科|か}せ**られるそうだ。", en: "I hear that if you smoke on the street in this district, you'll be fined up to 10,000 yen in accordance with the local ordinance.", at: "gp/39" },
     ex: [
-      { ja: "{違反|いはん}した{業者|ぎょうしゃ}には重い罰金が**{科|か}され**る。", en: "Businesses that break the rules face heavy fines.", alt: ["{貸|か}され", "{渡|わた}され", "{許|ゆる}され"] },
+      { ja: "{違反|いはん}した{業者|ぎょうしゃ}には重い罰金が**{科|か}され**る。", en: "Businesses that break the rules face heavy fines.", alt: ["{貸|か}され", "{隠|かく}され", "{許|ゆる}され"] },
     ] },
   { w: "{有利|ゆうり}", lv: "N2", pos: "な adjective",
     en: "advantageous, favorable",
@@ -220,7 +220,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ゆうりい", "ゆり", "うり"],
     book: { ja: "**{有利|ゆうり}**な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it.", at: "gp/40" },
     ex: [
-      { ja: "英語ができると、{就職|しゅうしょく}に**{有利|ゆうり}**だ。", en: "Being able to speak English gives you an advantage in finding a job.", alt: ["{便利|べんり}", "{有能|ゆうのう}", "{有名|ゆうめい}"] },
+      { ja: "英語ができると、{就職|しゅうしょく}に**{有利|ゆうり}**だ。", en: "Being able to speak English gives you an advantage in finding a job.", alt: ["{有料|ゆうりょう}", "{有能|ゆうのう}", "{有名|ゆうめい}"] },
     ] },
   { w: "{好転|こうてん}", lv: "N1", pos: "noun · する verb",
     en: "a turn for the better, improvement",
@@ -252,7 +252,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ほぜ", "ほうぜん", "ほせん"],
     book: { ja: "地球の{生態系|せいたいけい}を**{保全|ほぜん}**し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings.", at: "gp/40" },
     ex: [
-      { ja: "地域の{住民|じゅうみん}が協力して、{里山|さとやま}の**{保全|ほぜん}**活動を続けている。", en: "Local residents are working together to keep up their efforts to conserve the wooded hills near the village.", alt: ["{安全|あんぜん}", "{保険|ほけん}", "{完全|かんぜん}"] },
+      { ja: "地域の{住民|じゅうみん}が協力して、{里山|さとやま}の**{保全|ほぜん}**活動を続けている。", en: "Local residents are working together to keep up their efforts to conserve the wooded hills near the village.", alt: ["{保温|ほおん}", "{保険|ほけん}", "{完全|かんぜん}"] },
     ] },
   { w: "{次期|じき}", lv: "N1", pos: "noun",
     en: "next term; the next (holder of an office, model, period)",
@@ -276,7 +276,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["かくほう", "かっぽ", "かくぼ"],
     book: { ja: "地震の際は、何をおいても、まず身の安全を**{確保|かくほ}**してください。", en: "In an earthquake, before anything else, make sure you are safe.", at: "gp/40" },
     ex: [
-      { ja: "早めに{会場|かいじょう}に行って、前の{席|せき}を**{確保|かくほ}**した。", en: "I got to the venue early and grabbed seats near the front.", alt: ["{確立|かくりつ}", "{保存|ほぞん}", "{確定|かくてい}"] },
+      { ja: "早めに{会場|かいじょう}に行って、前の{席|せき}を**{確保|かくほ}**した。", en: "I got to the venue early and grabbed seats near the front.", alt: ["{確立|かくりつ}", "{保存|ほぞん}", "{確率|かくりつ}"] },
     ] },
   { w: "{精一杯|せいいっぱい}", lv: "N2", pos: "adverb · noun",
     en: "as hard as one can, with all one's might; the most one can manage",
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["びょうじゃ", "やまいじゃく", "ひょうじゃく"],
     book: { ja: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい**{病弱|びょうじゃく}**だ。", en: "＿＿ his sturdy older brother, the younger one is so sickly that even a cold puts him in the hospital.", at: "ch/4" },
     ex: [
-      { ja: "幼いころは**{病弱|びょうじゃく}**で、よく学校を休んでいた。", en: "I was a sickly child and often missed school.", alt: ["{丈夫|じょうぶ}", "{貧弱|ひんじゃく}", "{軟弱|なんじゃく}"] },
+      { ja: "幼いころは**{病弱|びょうじゃく}**で、よく学校を休んでいた。", en: "I was a sickly child and often missed school.", alt: ["{丈夫|じょうぶ}", "{強力|きょうりょく}", "{強引|ごういん}"] },
     ] },
   { w: "{有事|ゆうじ}", lv: "N1", pos: "noun",
     en: "emergency, crisis (especially war or a disaster)",
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["そなお", "すじき", "そちょく"],
     book: { ja: "それは**{素直|すなお}**な人だと多くのベテラン社員が言います。", en: "Many veteran employees say it is someone who is open and willing to listen.", at: "ch/4" },
     ex: [
-      { ja: "自分が悪いと思ったら、**{素直|すなお}**に{謝|あやま}るべきだ。", en: "If you think you're in the wrong, you should just apologize.", alt: ["{素朴|そぼく}", "{正確|せいかく}", "{丁寧|ていねい}"] },
+      { ja: "自分が悪いと思ったら、**{素直|すなお}**に{謝|あやま}るべきだ。", en: "If you think you're in the wrong, you should just apologize.", alt: ["{素朴|そぼく}", "{正確|せいかく}", "{素敵|すてき}"] },
     ] },
   { w: "とりあえず", lv: "N2", pos: "adverb",
     en: "for now, for the time being; first of all",
@@ -369,7 +369,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ていじゃく", "じょうちゃく", "ていちゃっく"],
     book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に**{定着|ていちゃく}**させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only fixes the bad feelings more firmly in your own mind.", at: "ch/4" },
     ex: [
-      { ja: "{在宅|ざいたく}{勤務|きんむ}という働き方は、すっかり社会に**{定着|ていちゃく}**した。", en: "Working from home has become firmly established in society.", alt: ["{到着|とうちゃく}", "{執着|しゅうちゃく}", "{密着|みっちゃく}"] },
+      { ja: "{在宅|ざいたく}{勤務|きんむ}という働き方は、すっかり社会に**{定着|ていちゃく}**した。", en: "Working from home has become firmly established in society.", alt: ["{到着|とうちゃく}", "{執着|しゅうちゃく}", "{着席|ちゃくせき}"] },
     ] },
   { w: "せめて", lv: "N2", pos: "adverb",
     en: "at least (the minimum one hopes for)",
@@ -384,7 +384,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ぎょし", "こうし", "ぎょうじ"],
     book: { ja: "これは「美的**{凝視|ぎょうし}**」という方法です。", en: "This is a method known as “aesthetic gazing” (looking for what is admirable).", at: "ch/4" },
     ex: [
-      { ja: "彼は{黙|だま}ったまま、相手の顔を**{凝視|ぎょうし}**した。", en: "Without a word, he stared hard at the other man's face.", alt: ["{無視|むし}", "{軽視|けいし}", "{重視|じゅうし}"] },
+      { ja: "彼は{黙|だま}ったまま、相手の顔を**{凝視|ぎょうし}**した。", en: "Without a word, he stared hard at the other man's face.", alt: ["{視力|しりょく}", "{軽視|けいし}", "{重視|じゅうし}"] },
     ] },
   { w: "{指摘|してき}", lv: "N2", pos: "noun · する verb",
     en: "pointing out (a problem or fact)",
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["していき", "しさく", "しちゃく"],
     book: { ja: "例えば、細かいミスばかり**{指摘|してき}**する{嫌|いや}な上司に対しても、その長所に目を向けるように努力するのです。", en: "For example, even with an unpleasant boss who does nothing but point out your small mistakes, you make an effort to look at his strengths.", at: "ch/4" },
     ex: [
-      { ja: "先生に**{指摘|してき}**されて、初めて計算の{間違|まちが}いに気づいた。", en: "I didn't notice the error in my calculations until my teacher pointed it out.", alt: ["{指示|しじ}", "{指定|してい}", "{摘発|てきはつ}"] },
+      { ja: "先生に**{指摘|してき}**されて、初めて計算の{間違|まちが}いに気づいた。", en: "I didn't notice the error in my calculations until my teacher pointed it out.", alt: ["{指紋|しもん}", "{摘出|てきしゅつ}", "{摘発|てきはつ}"] },
     ] },
   { w: "{面倒見|めんどうみ}", lv: "N1", pos: "noun",
     en: "looking after others; being caring and helpful (toward juniors, etc.)",
@@ -448,7 +448,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["とくざんひん", "とくさんびん", "とっさんひん"],
     book: { ja: "{遠方|えんぽう}に足を運ぶまでもなく、ネットを通じて地方の**{特産品|とくさんひん}**が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the internet without having to travel far.", at: "gp/41" },
     ex: [
-      { ja: "この町の**{特産品|とくさんひん}**といえば、甘いメロンだ。", en: "When it comes to this town's local specialty, it's sweet melons.", alt: ["{贈答品|ぞうとうひん}", "{日用品|にちようひん}", "{遺失物|いしつぶつ}"] },
+      { ja: "この町の**{特産品|とくさんひん}**といえば、甘いメロンだ。", en: "When it comes to this town's local specialty, it's sweet melons.", alt: ["{不良品|ふりょうひん}", "{日用品|にちようひん}", "{遺失物|いしつぶつ}"] },
     ] },
   { w: "{世論|よろん}", lv: "N1", pos: "noun",
     en: "public opinion",
@@ -464,7 +464,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["けっさ", "けつさん", "けっざん"],
     book: { ja: "**{決算書|けっさんしょ}**を見るまでもなく明らかだ", en: "it's obvious without even looking at the financial statements", at: "gp/41" },
     ex: [
-      { ja: "{年度末|ねんどまつ}は**{決算|けっさん}**の準備で{経理部|けいりぶ}が忙しい。", en: "At the end of the fiscal year, the accounting department is busy preparing the financial statements.", alt: ["{計算|けいさん}", "{決断|けつだん}", "{決勝|けっしょう}"] },
+      { ja: "{年度末|ねんどまつ}は**{決算|けっさん}**の準備で{経理部|けいりぶ}が忙しい。", en: "At the end of the fiscal year, the accounting department is busy preparing the financial statements.", alt: ["{決心|けっしん}", "{決断|けつだん}", "{決勝|けっしょう}"] },
     ] },
   { w: "{回避|かいひ}", lv: "N1", pos: "noun · する verb",
     en: "avoidance, averting (danger, conflict, responsibility)",
@@ -544,7 +544,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ほうにさわれる", "ほにふれる", "ほうにぶれる"],
     book: { ja: "**法に触れ**ないまでも信用を失う", en: "lose people's trust, even if it isn't against the law", at: "gp/43" },
     ex: [
-      { ja: "他人のパスワードを勝手に使うのは**{法|ほう}に{触|ふ}れる**行為だ。", en: "Using someone else's password without permission is against the law.", alt: ["{法|ほう}に{従|したが}う", "{気|き}に{障|さわ}る", "{法|ほう}を{守|まも}る"] },
+      { ja: "他人のパスワードを勝手に使うのは**{法|ほう}に{触|ふ}れる**行為だ。", en: "Using someone else's password without permission is against the law.", alt: ["{法|ほう}に{従|したが}う", "{手|て}に{入|はい}る", "{法|ほう}を{守|まも}る"] },
     ] },
   { w: "{濃厚|のうこう}", lv: "N1", pos: "な adjective",
     en: "rich, thick (flavor); strong (likelihood)",
@@ -552,14 +552,14 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["のうこ", "こうこう", "のうごう"],
     book: { ja: "**{濃厚|のうこう}**なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich broth, the perfectly firm noodles — this really is Japan's best ramen, isn't it?", at: "gp/44" },
     ex: [
-      { ja: "この店のチーズケーキは**{濃厚|のうこう}**な味で人気がある。", en: "This shop's cheesecake is popular for its rich flavor.", alt: ["{濃度|のうど}", "{温厚|おんこう}", "{重厚|じゅうこう}"] },
+      { ja: "この店のチーズケーキは**{濃厚|のうこう}**な味で人気がある。", en: "This shop's cheesecake is popular for its rich flavor.", alt: ["{濃度|のうど}", "{温厚|おんこう}", "{厚着|あつぎ}"] },
     ] },
   { w: "ほどよい", lv: "N1", pos: "い adjective",
     en: "just right, moderate",
     note: "Also written 程よい: ほどよい甘さ / 硬さ / 距離. It stresses pleasant balance and is a little more literary than ちょうどいい.",
     book: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}の**ほどよい**{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich broth, the perfectly firm noodles — this really is Japan's best ramen, isn't it?", at: "gp/44" },
     ex: [
-      { ja: "この紅茶は**ほどよい**甘さで、とても飲みやすい。", en: "This tea is just sweet enough and very easy to drink.", alt: ["ほど{遠|とお}い", "あくどい", "ほろ{苦|にが}い"] },
+      { ja: "この紅茶は**ほどよい**甘さで、とても飲みやすい。", en: "This tea is just sweet enough and very easy to drink.", alt: ["ほど{遠|とお}い", "あくどい", "{心細|こころぼそ}い"] },
     ] },
   { w: "{言|い}い{換|か}える", lv: "N1", pos: "verb",
     en: "to rephrase, to put in other words",
@@ -606,7 +606,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ゆし", "りゅうし", "ゆうじ"],
     book: { ja: "{担保|たんぽ}がなくても、経営{状態|じょうたい}（　）、**{融資|ゆうし}**が受けられる場合もあるらしいよ。", en: "Apparently, even without collateral, you can sometimes get a loan (　) the state of your business.", at: "ch/4/review" },
     ex: [
-      { ja: "新しい工場を建てるため、銀行に**{融資|ゆうし}**を申し込んだ。", en: "We applied to the bank for a loan to build a new factory.", alt: ["{融通|ゆうずう}", "{資格|しかく}", "{融合|ゆうごう}"] },
+      { ja: "新しい工場を建てるため、銀行に**{融資|ゆうし}**を申し込んだ。", en: "We applied to the bank for a loan to build a new factory.", alt: ["{融解|ゆうかい}", "{資格|しかく}", "{融合|ゆうごう}"] },
     ] },
   { w: "{気分転換|きぶんてんかん}", lv: "N1", pos: "noun",
     en: "a change of pace, refreshing oneself",
@@ -622,7 +622,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ずる", "とる", "はがる"],
     book: { ja: "散歩や旅行などで気分{転換|てんかん}を**{図|はか}り**ましょう。", en: "Try to refresh yourself with a walk, a trip or the like.", at: "ch/4/review" },
     ex: [
-      { ja: "会社は新しいシステムを{導入|どうにゅう}して、業務の{効率化|こうりつか}を**{図|はか}った**。", en: "The company introduced a new system to make its operations more efficient.", alt: ["{測|はか}った", "{戻|もど}した", "{描|えが}いた"] },
+      { ja: "会社は新しいシステムを{導入|どうにゅう}して、業務の{効率化|こうりつか}を**{図|はか}った**。", en: "The company introduced a new system to make its operations more efficient.", alt: ["{省|はぶ}いた", "{戻|もど}した", "{断|ことわ}った"] },
     ] },
   { w: "{返還|へんかん}", lv: "N1", pos: "noun · する verb",
     en: "return, restitution (of money, land or property)",
@@ -638,7 +638,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["よが", "よけい", "あまか"],
     book: { ja: "私の{部署|ぶしょ}でも、**{余暇|よか}**を上手に使って、{資格|しかく}を{取得|しゅとく}する{者|もの}や、", en: "In my department too, there are people who make good use of their free time to earn qualifications, …", at: "ch/4/review" },
     ex: [
-      { ja: "{定年|ていねん}後は、**{余暇|よか}**を使って絵を習いたい。", en: "After I retire, I'd like to spend my free time learning to paint.", alt: ["{休暇|きゅうか}", "{余計|よけい}", "{余裕|よゆう}"] },
+      { ja: "{定年|ていねん}後は、**{余暇|よか}**を使って絵を習いたい。", en: "After I retire, I'd like to spend my free time learning to paint.", alt: ["{余震|よしん}", "{余計|よけい}", "{余裕|よゆう}"] },
     ] },
   { w: "{取得|しゅとく}", lv: "N1", pos: "noun · する verb",
     en: "acquisition, obtaining (a license, qualification or right)",
@@ -646,7 +646,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["しゅうとく", "とりとく", "しゅどく"],
     book: { ja: "私の{部署|ぶしょ}でも、{余暇|よか}を上手に使って、{資格|しかく}を**{取得|しゅとく}**する{者|もの}や、", en: "In my department too, there are people who make good use of their free time to earn qualifications, …", at: "ch/4/review" },
     ex: [
-      { ja: "運転{免許|めんきょ}を**{取得|しゅとく}**するために、{教習所|きょうしゅうじょ}に{通|かよ}っている。", en: "I'm going to driving school to get my driver's license.", alt: ["{習得|しゅうとく}", "{獲得|かくとく}", "{所得|しょとく}"] },
+      { ja: "運転{免許|めんきょ}を**{取得|しゅとく}**するために、{教習所|きょうしゅうじょ}に{通|かよ}っている。", en: "I'm going to driving school to get my driver's license.", alt: ["{納得|なっとく}", "{説得|せっとく}", "{所得|しょとく}"] },
     ] },
   { w: "{役職|やくしょく}", lv: "N1", pos: "noun",
     en: "(managerial) post, position with a title",
