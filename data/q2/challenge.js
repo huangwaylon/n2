@@ -4630,7 +4630,7 @@ TRY.registerUnits([
     "tag": "B",
     "id": "c7-1b",
     "text": {
-     "ja": "思考・{脳|のう}（brain）",
+     "ja": "思考・{脳|のう} (brain)",
      "tr": "Thinking; the brain"
     }
    },
@@ -5015,7 +5015,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "手を打つ",
-       "tr": "to take measures (lit. \"to play a hand\")"
+       "tr": "to take measures (lit. \"to make a move,\" as in a board game)"
       },
       "blocks": [
        {
@@ -5232,7 +5232,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "足を{引|ひ}っ{張|ぱ}る",
-       "tr": "to hold someone back (lit. \"to pull someone's leg\")"
+       "tr": "to drag someone down; to hold someone back (lit. \"to pull at someone's feet\")"
       },
       "blocks": [
        {
@@ -5470,7 +5470,7 @@ TRY.registerUnits([
         "n": "(11)",
         "text": {
          "ja": "先輩の案に反対だったが、先輩の【a. 顔を立てて　b. 顔に{泥|どろ}を{塗|ぬ}って】賛成した。",
-         "tr": "I was against my senior's proposal, but I agreed to it to … ."
+         "tr": "I was against my senior's proposal, but I agreed to it so as to … my senior."
         },
         "options": [
          "a. 顔を立てて",
@@ -5486,7 +5486,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "small",
     "text": {
-     "ja": "✎答え▶（1）a　（2）b　（3）b　（4）a　（5）b　（6）a　（7）b　（8）a　（9）b　（10）b　（11）a",
+     "ja": "✎答え▶ (1) a　(2) b　(3) b　(4) a　(5) b　(6) a　(7) b　(8) a　(9) b　(10) b　(11) a",
      "tr": "Answers: (1) a (2) b (3) b (4) a (5) b (6) a (7) b (8) a (9) b (10) b (11) a"
     }
    }
@@ -5541,11 +5541,11 @@ TRY.registerUnits([
      "#1. はじめに",
      "¶日本のアニメで、{彩|いろど}りよくおかずが詰められた「お弁当」を中高生が昼食",
      "に食べている場面をよく見る。一方、留学先の大学では食堂やコンビニを",
-     "利用する学生も多いようだ。[[では、|a]]日本の大学生はお弁当を持っていく[[の|]]",
-     "[[だろうか|]]。[[そして、|a]]お弁当についてどう思っている[[のだろうか|]]。[[このレポー|b]]",
+     "利用する学生も多いようだ。[[では|a]]、日本の大学生はお弁当を持っていく[[の|]]",
+     "[[だろうか|]]。[[そして|a]]、お弁当についてどう思っている[[のだろうか|]]。[[このレポー|b]]",
      "[[トでは、|]]お弁当[[に関する|]]日本人学生[[へのインタビューについて報告する|]]。",
      "#2. 背景",
-     "¶[[20XX年に|c]]カルテットリサーチ[[が行った調査によると、|]]「大学にお弁",
+     "¶[[20XX年に|c]]カルテットリサーチ[[が行った調査によると|]]、「大学にお弁",
      "当を{持参|じさん}しているか」という質問に対して「はい」と答えたのは43.1%、",
      "「いいえ」は56.9%だった。お弁当を持っていく理由として、「節約のた",
      "め」「栄養面で{優|すぐ}れている」、「学食は込んでいる／高くてまずい」などが",
@@ -5597,7 +5597,7 @@ TRY.registerUnits([
      "生活の中に根付いている[[と感じた|]]。"
     ],
     "tr": [
-     "In Japanese anime, you often see junior high and high school students eating a colorfully packed bento of side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I report on interviews with Japanese students about bento.",
+     "In Japanese anime, you often see junior high and high school students eating a colorfully packed bento of side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present the results of interviews with Japanese students about bento.",
      "According to a survey conducted by Quartet Research in 20XX, 43.1% answered \"yes\" to the question \"Do you bring a bento to college?\" and 56.9% answered \"no.\" The reasons given for bringing a bento included \"to save money,\" \"it's nutritionally better,\" and \"the cafeteria is crowded / expensive and the food is bad.\" The reasons for not bringing one included \"making it is a lot of work,\" \"I don't have time in the morning,\" and \"the cafeteria is convenient.\" This shows that, although many university students don't bring a bento because it's a hassle, it is not unusual for university students to bring a bento to school for economic and health reasons.",
      "This time, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M (second-year, female), H (third-year, male), and Y (third-year, female).",
      "First, when I asked, \"Do you bring a bento to school?\", M answered \"every day,\" H \"sometimes,\" and Y \"never.\" M lives with her parents, and apparently her mother makes it for her. H, on the other hand, seems to make a bento only when he has time. Y said she eats lunch at the cafeteria or buys it at a convenience store.",
@@ -6130,7 +6130,7 @@ TRY.registerUnits([
          [
           {
            "ja": "・この調査の論点\n例）［論点1］__では、__日本の大学生はお弁当を持っていく__のだろうか。__\n［論点2］__そして、__お弁当についてどう思っている__のだろうか。__",
-           "tr": "The points at issue of this survey\nE.g. [Point 1] So, do Japanese university students bring a bento?\n[Point 2] And what do they think about bento?"
+           "tr": "The points at issue in this survey\nE.g. [Point 1] So, do Japanese university students bring a bento?\n[Point 2] And what do they think about bento?"
           },
           "(a)"
          ],
