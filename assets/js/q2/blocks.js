@@ -273,7 +273,7 @@ function readingHtml(b, ctx) {
     else if (s[0] === "#") { kind = "title"; s = s.slice(1); }
     else if (s[0] === "@") { kind = "by"; s = s.slice(1); }
     else if (s[0] === "=") { kind = "center"; s = s.slice(1); }
-    if (kind || !cur) open(kind || "p");
+    if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); } // interviewer's ── line: set flush, no indent
     let html;
     if (kind === "title" && s.includes("@")) { const [t, by] = s.split("@"); html = `${fmt(t, { vertical: V })}<span class="rd-by rd-by--in">${fmt(by, { vertical: V })}</span>`; }
     else html = fmt(s, { vertical: V });
@@ -294,7 +294,7 @@ function readingHtml(b, ctx) {
     if (p.kind === "by") return `<p class="rd-by">${p.html}</p>`;
     if (p.kind === "center") return `<p class="rd-center">${p.html}</p>`;
     const tr = b.tr && b.tr[pi++];
-    return `${roleHtml}<div class="rd-p bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
+    return `${roleHtml}<div class="rd-p${p.q ? " rd-p--q" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
   }).join("");
   if (b.audio) QUEUES.set(b.audio, say);
   const credit = (b.credit || []).map((c) => `<p class="rd-credit">${fmt(c, { vertical: V })}</p>`).join("");
