@@ -60,11 +60,20 @@ export function fmt(s, opts = {}) {
 // plain text: readings, markup and badges dropped (speech, search, titles)
 export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|[❶-❿]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
   .replace(/＿＿|（　）/g, "、なになに、").replace(/\[(\d+)\]/g, "、").replace(/\[[^\]]+\]/g, "");
-// English long-form (deepDive): paragraphs separated by a blank line; a block of "- " lines is a bullet list
+// *italic* in our explanations (deepDive, why, vocab notes): a single * not touching a letter on its outer side, so
+// the footnote stars of translations ("* The hourly wage…", "Physicians*.") are left alone
+const EM_RE = /(^|[^\w*])\*(?![\s*])([^*\n]*?[^\s*])\*(?![\w*])/g;
+export const fmtEm = (s) => fmt(s).replace(EM_RE, "$1<em>$2</em>");
+// English long-form (deepDive): paragraphs separated by a blank line; a run of "- " lines is a bullet list (it may follow
+// a lead-in line in the same block: "Things to watch:\n- …\n- …")
 export const prose = (s) => (!s ? "" : String(s).split(/\n\s*\n/).map((block) => {
-  const lines = block.split("\n");
-  if (lines.every((l) => /^\s*- /.test(l))) return "<ul>" + lines.map((l) => "<li>" + fmt(l.replace(/^\s*- /, "")) + "</li>").join("") + "</ul>";
-  return "<p>" + lines.map(fmt).join("<br>") + "</p>";
+  const runs = [];
+  block.split("\n").forEach((l) => {
+    const li = /^\s*- /.test(l), last = runs[runs.length - 1];
+    if (last && last.li === li) last.lines.push(l); else runs.push({ li, lines: [l] });
+  });
+  return runs.map((r) => (r.li ? "<ul>" + r.lines.map((l) => "<li>" + fmtEm(l.replace(/^\s*- /, "")) + "</li>").join("") + "</ul>"
+    : "<p>" + r.lines.map(fmtEm).join("<br>") + "</p>")).join("");
 }).join(""));
 
 // ---------- English layer ----------

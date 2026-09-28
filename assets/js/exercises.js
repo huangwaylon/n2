@@ -1,13 +1,13 @@
 // Exercises (docs/LAYOUT.md C18–C29): やってみよう, Check, まとめの問題, the random drill. Rendering, grading, input actions.
 import { ACT, LETTERS, $, $$, esc, progress, saveProgress } from "./core.js";
 import { cw } from "./ruby.js";
-import { BLANK_HTML, cdBadge, en, enScopeBtn, fmt, pill, plain, speakBtn } from "./markup.js";
+import { BLANK_HTML, cdBadge, en, enScopeBtn, fmt, fmtEm, pill, plain, speakBtn } from "./markup.js";
 
 // Exercise numbers: "1）" in practice / Check (paren), a boxed "1" in まとめの問題 (box), none for single listening items
 const qnHtml = (n, style) => (style === "none" ? "" : style === "box" ? `<span class="qn qn--box">${n}</span>` : `<span class="qn qn--paren">${n}）</span>`);
 const exCount = (ex) => (ex.items || ex.blanks || ex.left || []).length;
 // feedback shown after grading: our translation of the item and the why-explanation
-const whyHtml = (w) => (w ? `<div class="why">${w.ja ? `<p>${fmt(w.ja)}</p>` : ""}${w.en ? `<p class="why-en en--gen">${fmt(w.en)}</p>` : ""}</div>` : "");
+const whyHtml = (w) => (w ? `<div class="why">${w.ja ? `<p>${fmt(w.ja)}</p>` : ""}${w.en ? `<p class="why-en en--gen">${fmtEm(w.en)}</p>` : ""}</div>` : "");
 // optionsEn: our translations of printed answer options (reading and listening questions), numbered as printed
 const optionsEnHtml = (list) => (list && list.length ? `<ol class="en en--gen opt-en">${list.map((o) => `<li>${fmt(o)}</li>`).join("")}</ol>` : "");
 const feedback = (it, before = "") => `<div class="feedback">${before}${en(it.en, "gen", "p")}${optionsEnHtml(it.optionsEn)}${whyHtml(it.why)}</div>`;

@@ -2,7 +2,7 @@
 // main.js on the first vocab route; data/SCHEMA.md "Vocabulary"), the list page and the drill (flashcards and 4択).
 // Routes: vocab · vocab/N (chapter N) · vocab/drill. All English here is generated.
 import { ACT, TRY, $, $$, esc, progress, saveProgress, shuffle } from "./core.js";
-import { biInner, enScopeBtn, fmt, gpLink, plain, speakBtn } from "./markup.js";
+import { biInner, enScopeBtn, fmt, fmtEm, gpLink, plain, speakBtn } from "./markup.js";
 import { RUBY_RE } from "./ruby.js";
 import { renderExercise } from "./exercises.js";
 import { flashcards, redraw } from "./flash.js";
@@ -28,7 +28,7 @@ const card = (x) => `<article class="vc" id="vc-${esc(x.key)}" data-lv="${x.lv}"
       <span class="vc__lv">${esc(x.lv)}</span><span class="vc__pos">${esc(x.pos || "")}</span>
       <span class="vc__tools"><label class="studied"><input type="checkbox" data-act="known" data-k="${esc(x.key)}"${known()[x.key] ? " checked" : ""}><span class="studied__box" aria-hidden="true"></span>覚えた <span class="en-inline">Known</span></label>${enScopeBtn()}</span></header>
     <p class="vc__def">${fmt(x.en)}</p>
-    ${x.note ? `<p class="vc__note">${fmt(x.note)}</p>` : ""}
+    ${x.note ? `<p class="vc__note">${fmtEm(x.note)}</p>` : ""}
     <ul class="vc__exs">${(x.ex || []).map((e) => exLine(e)).join("")}${x.book ? exLine(x.book, `<span class="vc__at">本の文 <span class="en-inline">from the book</span> ☞ ${atLink(x.book.at)}</span>`, " vc-ex--book") : ""}</ul>
   </article>`;
 
