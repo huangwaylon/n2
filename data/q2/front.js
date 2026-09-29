@@ -426,7 +426,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "部首に関する知識や読みのヒントとなる「音符」に関する知識など、中級以降の漢字学習に必要なストラテジーを12項目取り上げました。これらを学習することで、漢字の意味や読みが推測しやすくなったり、これまでに学んだ漢字の知識を整理し直したりすることができ、中級以降ますます重要になる漢字力を効率よく伸ばすことができます。",
-     "tr": "Twelve strategies needed for studying kanji from the intermediate level on are taken up, such as knowledge of radicals and of the phonetic components (onpu) that give hints to readings. Studying them makes it easier to guess the meanings and readings of kanji and lets learners reorganize the kanji knowledge they have acquired so far, so that they can efficiently build up their kanji ability, which becomes more and more important from the intermediate level on."
+     "tr": "Twelve strategies needed for studying kanji from the intermediate level on are taken up, such as knowledge of radicals and of the phonetic indicators (onpu) that give hints to readings. Studying them makes it easier to guess the meanings and readings of kanji and lets learners reorganize the kanji knowledge they have acquired so far, so that they can efficiently build up their kanji ability, which becomes more and more important from the intermediate level on."
     }
    },
    {

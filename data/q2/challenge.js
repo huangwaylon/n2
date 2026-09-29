@@ -120,7 +120,7 @@ TRY.registerUnits([
      {
       "n": "(4)",
       "ja": "すると絵理は悪かったと__思ったようで__、（僕が）ずっと食べたかったカレーを（僕のために）__作ってくれた__。",
-      "tr": "Then Eri seemed to feel bad, and she made (me) the curry (I) had been wanting to eat for a long time (for my sake)."
+      "tr": "Then Eri seemed to feel bad, and she made the curry (I)'d been wanting to eat for ages (for me)."
      },
      {
       "n": "(5)",
@@ -178,7 +178,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "だから（私は）悪かったと思って、ジョージがa. 食べ＿＿\nカレーを（ジョージのために）b. 作＿＿。",
-         "tr": "So (I) felt bad and made (b.) George the curry he had been wanting to eat (a.) (for George's sake)."
+         "tr": "So (I) felt bad and (b.) made the curry George (a.) had been wanting to eat (for him)."
         },
         "answer": "a. 食べ__たがっていた__　b. 作__ってあげた__"
        },
@@ -265,7 +265,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "ジョージは絵理a. ＿＿パソコンを貸してb. ＿＿た。\nでも、そのパソコンをc. {壊|こわ}＿＿てしまった。",
-         "tr": "George borrowed a computer from Eri (a., b.). But he ended up breaking it (c.)."
+         "tr": "George borrowed Eri's computer (a., b.). But he ended up breaking it (c.)."
         },
         "answer": "a. に　b. __もらっ__た　c. 壊__し__て"
        },
@@ -273,7 +273,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "絵理a. ＿＿ジョージb. ＿＿パソコンを貸して\nc. ＿＿た。\nでも、そのパソコンをd. 壊＿＿てしまった。",
-         "tr": "Eri lent George a computer (a., b., c.). But she ended up having it broken on her (d.)."
+         "tr": "Eri lent George her computer (a., b., c.). But she ended up having it broken on her (d.)."
         },
         "answer": "a. は　b. に　c. __あげ__た　d. 壊__され__て"
        }
@@ -307,7 +307,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「{一所懸命|いっしょけんめい}」や第8課の読み物1に出てきた「{十人|じゅうにん}{十|と}{色|いろ}」などのように、4つの漢字から作られていて{慣用句|かんようく} (idiom) のように使われるものを「{四字熟語|よじじゅくご}」といいます。四字熟語を知っていると、説明が長くなってしまうことや難しいことを、簡単に言うことができます。",
-     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"to each their own,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called yoji-jukugo (four-character idioms). If you know four-character idioms, you can say simply things that would otherwise take a long explanation, or that are difficult."
+     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"to each their own,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called yoji-jukugo (four-character idioms). If you know four-character idioms, you can put things that would take a long explanation, or that are hard to express, in just a few words."
     },
     "page": 202
    },
@@ -567,7 +567,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "この店のコートはデザインはいいが、高い。あの店のは安いが、デザインがあまりよくない。\nどちらも【a. 古今東西　b. 一長一短　c. 三寒四温　d. 弱肉強食】がある。",
-         "tr": "The coats at this store have nice designs, but they're expensive. The ones at that store are cheap, but their designs aren't very good.\nEach has its …."
+         "tr": "The coats at this store have nice designs, but they're expensive. The ones at that store are cheap, but their designs aren't very good.\nEach has its strengths and weaknesses."
         },
         "options": [
          "a. 古今東西",
@@ -581,7 +581,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "A：来週の試験には、どんな問題が出るかなあ。\nB：ジョージに聞いてみたら？　彼の{予想|よそう}は【a. 百発百中　b. 自画自賛】だから。",
-         "tr": "A: I wonder what kinds of questions will be on next week's exam.\nB: Why don't you ask George? His predictions are …."
+         "tr": "A: I wonder what kinds of questions will be on next week's exam.\nB: Why don't you ask George? His predictions are always spot-on."
         },
         "options": [
          "a. 百発百中",
@@ -593,7 +593,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "トムは最近遅刻が多い。もっと早く家を出るように注意したが、【a. 一石二鳥　b. 馬耳東風】だった。",
-         "tr": "Tom has been late a lot lately. I warned him to leave home earlier, but it was …."
+         "tr": "Tom has been late a lot lately. I warned him to leave home earlier, but it went in one ear and out the other."
         },
         "options": [
          "a. 一石二鳥",
@@ -840,7 +840,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "体や{命|いのち} (life) がなくなるほど{追|お}いつめられている (driven into a corner) 様子",
-         "tr": "The state of being driven into a corner so badly that you might lose your body and your life"
+         "tr": "Being driven into such a corner that you might lose life and limb"
         }
        },
        {
@@ -1085,7 +1085,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "「このジュースを飲めば、目がよくなりますよ」と店員さんに言われた。初めは【a. 半信半疑　b. 一喜一憂　c. 四苦八苦】だったが、結局そのジュースを買ってしまった。",
-         "tr": "A store clerk told me, \"If you drink this juice, your eyesight will get better.\" At first I was …, but in the end I went ahead and bought the juice."
+         "tr": "A store clerk told me, \"If you drink this juice, your eyesight will get better.\" At first I only half believed it, but in the end I went ahead and bought the juice."
         },
         "options": [
          "a. 半信半疑",
@@ -1098,7 +1098,7 @@ TRY.registerUnits([
         "n": "(5)",
         "text": {
          "ja": "サッカー部員が【a. 一期一会　b. 八方美人　c. 一心同体】で力を合わせてがんばった結果、{優勝|ゆうしょう}する (win the tournament) ことができた。",
-         "tr": "The members of the soccer team pulled together …, and as a result they were able to win the tournament."
+         "tr": "The members of the soccer team pulled together as one, and as a result they were able to win the tournament."
         },
         "options": [
          "a. 一期一会",
@@ -1111,7 +1111,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "テニスの{対戦|たいせん}相手 (opponent) にマッチポイントを取られた。【a. 言語道断　b. 絶体絶命　c. 前代未聞】の状況だが、まだあきらめたくない。",
-         "tr": "My tennis opponent has reached match point. It's a … situation, but I don't want to give up yet."
+         "tr": "My tennis opponent has reached match point. It's a desperate situation, but I don't want to give up yet."
         },
         "options": [
          "a. 言語道断",
@@ -1124,7 +1124,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "私がお気に入りのくつ下を探していたら、母が「探しているのはこれでしょ？」と持ってきてくれた。私と母は【a. 意味深長　b. 単刀直入　c. 以心伝心】の仲だ。",
-         "tr": "While I was looking for my favorite socks, my mother brought them over to me and said, \"This is what you're looking for, right?\" My mother and I have a … relationship."
+         "tr": "While I was looking for my favorite socks, my mother brought them over to me and said, \"This is what you're looking for, right?\" My mother and I understand each other without having to say a word."
         },
         "options": [
          "a. 意味深長",
@@ -1137,7 +1137,7 @@ TRY.registerUnits([
         "n": "(8)",
         "text": {
          "ja": "A：試験で0点を取っちゃった。どうしよう……。\nB：全然勉強しなかったからでしょ。【a. 自業自得　b. 大器晩成　c. 油断大敵】だね。",
-         "tr": "A: I got a zero on the exam. What am I going to do…?\nB: That's because you didn't study at all, right? It's …, isn't it?"
+         "tr": "A: I got a zero on the exam. What am I going to do…?\nB: Well, you didn't study at all. You reap what you sow."
         },
         "options": [
          "a. 自業自得",
@@ -1585,7 +1585,7 @@ TRY.registerUnits([
           },
           {
            "ja": "優しい仏様 (Buddha) でも、顔をなでる (stroked) という失礼なことを3回もされたら、怒る。",
-           "tr": "Even the kind Buddha will get angry if someone does something as rude as stroking his face three times."
+           "tr": "Even the kind Buddha will get angry if someone does something as rude as stroking his face as many as three times."
           }
          ],
          [
@@ -1664,7 +1664,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "彼は有名な芸術家が作った高価なつぼ (vase) をごみ箱にしている。信じられない。本当に【 a. 猫に小判　b. 犬も歩けば棒に当たる　c. 仏の顔も三度 】だ。",
-         "tr": "He's using an expensive vase made by a famous artist as a trash can. I can't believe it. It really is [a. gold coins to a cat / b. even a dog that walks around will run into a stick / c. even the Buddha's face only three times]."
+         "tr": "He's using an expensive vase made by a famous artist as a trash can. I can't believe it. It really is gold coins to a cat (pearls before swine)."
         },
         "options": [
          "a. 猫に小判",
@@ -1677,7 +1677,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "先輩たちに留学の{魅力|みりょく}をいろいろ聞いたが、【 a. 石の上にも三年　b. 百聞は一見にしかず　c. 千里の道も一歩から 】と思い留学することにした。",
-         "tr": "I heard a lot from my seniors about the appeal of studying abroad, but thinking [a. three years even on a stone / b. hearing a hundred times is not as good as seeing once / c. a journey of a thousand ri begins with a single step], I decided to go study abroad."
+         "tr": "I'd heard a lot from my seniors about how great studying abroad is, but thinking that seeing once beats hearing a hundred times, I decided to go abroad myself."
         },
         "options": [
          "a. 石の上にも三年",
@@ -1752,7 +1752,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "かわいい子には{旅|たび}をさせよ",
-       "tr": "Send the child you love on a journey (≈ spare the rod, spoil the child)."
+       "tr": "Send the child you love on a journey (≈ let children learn from hardship)."
       },
       "blocks": [
        {
@@ -1793,7 +1793,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "{情|なさ}けは人のためならず",
-       "tr": "Kindness is not just for others (≈ one good turn deserves another)."
+       "tr": "Kindness is not just for others (≈ kindness comes back to you)."
       },
       "blocks": [
        {
@@ -2089,7 +2089,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "親：カルテット{王国|おうこく}に留学したい？　そんな聞いたことがない国は絶対ダメ！\n子：あの国に留学することが夢だったんだ。それに、【 a. 情けは人のためならず　b. かわいい子には旅をさせよ　c. 急がば回れ 】っていうじゃない？",
-         "tr": "Parent: You want to study abroad in the Kingdom of Quartet? Absolutely not, not some country I've never even heard of!\nChild: Studying in that country has been my dream. Besides, don't they say [a. kindness is not just for others / b. send the child you love on a journey / c. if you're in a hurry, go around]?"
+         "tr": "Parent: You want to study abroad in the Kingdom of Quartet? Absolutely not, not some country I've never even heard of!\nChild: Studying in that country has been my dream. Besides, don't they say you should send the child you love on a journey?"
         },
         "options": [
          "a. 情けは人のためならず",
@@ -2102,7 +2102,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "ホストマザーにマナーを注意されて嫌だったが、【 a. 案ずるより産むが易し　b. 親の心 子知らず　c. 良薬は口に苦し 】と思い、がまんして聞いた。",
-         "tr": "I didn't like it when my host mother corrected my manners, but thinking [a. giving birth is easier than worrying about it / b. children do not know their parents' hearts / c. good medicine tastes bitter], I put up with it and listened."
+         "tr": "I didn't like it when my host mother corrected my manners, but I told myself that good medicine tastes bitter, and I put up with it and listened."
         },
         "options": [
          "a. 案ずるより産むが易し",
@@ -2181,7 +2181,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "お金を払う時、__うっかり__さいふを家に忘れてきたことに気がついた。",
-         "tr": "When I went to pay, I realized I had carelessly left my wallet at home."
+         "tr": "When I went to pay, I realized I'd absent-mindedly left my wallet at home."
         }
        }
       ]
@@ -2950,7 +2950,7 @@ TRY.registerUnits([
         "n": "(10)",
         "text": {
          "ja": "会社の面接があるので、【a. すっきり　b. どきどき　c. ほっと】している。",
-         "tr": "I have a job interview at a company, so my heart is pounding."
+         "tr": "I have a job interview with a company coming up, so my heart is pounding."
         },
         "options": [
          "a. すっきり",
@@ -3915,7 +3915,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "たくさん勉強した。【a. そこで　b. それで　c. したがって】テストでいい{成績|せいせき}が取れた。",
-         "tr": "I studied a lot. … I got a good score on the test."
+         "tr": "I studied a lot. And so I got a good score on the test."
         },
         "options": [
          "a. そこで",
@@ -4090,7 +4090,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "今は冬だから{富士山|ふじさん}には登れない。【a. ところが　b. それにもかかわらず　c. だが】、いつか登りたい。",
-         "tr": "It's winter now, so I can't climb Mt. Fuji. …, I want to climb it someday."
+         "tr": "It's winter now, so I can't climb Mt. Fuji. But I want to climb it someday."
         },
         "options": [
          "a. ところが",
@@ -4152,7 +4152,7 @@ TRY.registerUnits([
      {
       "n": 3,
       "ja": "大阪の{名物|めいぶつ}と言えば、たこ{焼|や}きやお{好|この}み{焼|や}きだ。__それから__、うどんも有名だ。",
-      "tr": "When it comes to Osaka's specialties, there's takoyaki and okonomiyaki. Udon is also famous there."
+      "tr": "When it comes to Osaka's specialties, there's takoyaki and okonomiyaki. And udon is famous too."
      },
      {
       "n": 4,
@@ -4314,7 +4314,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "今朝は8時に起きた。【a. それから　b. それに】、ジョギングに行った。",
-         "tr": "I got up at 8 this morning. …, I went jogging."
+         "tr": "I got up at 8 this morning. After that, I went jogging."
         },
         "options": [
          "a. それから",
@@ -4409,7 +4409,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "{休憩|きゅうけい}に入ります。【a. ただし　b. なお】、お手洗いは1階にございます。",
-         "tr": "We will now take a break. …, the restrooms are on the first floor."
+         "tr": "We will now take a break. Please note that the restrooms are on the first floor."
         },
         "options": [
          "a. ただし",
@@ -4421,7 +4421,7 @@ TRY.registerUnits([
         "n": "(5)",
         "text": {
          "ja": "雨でも試合は行います。【a. ただし　b. ちなみに】台風の場合は中止です。",
-         "tr": "The game will be held even if it rains. … it will be canceled in the event of a typhoon."
+         "tr": "The game will be held even if it rains. However, it will be canceled in the event of a typhoon."
         },
         "options": [
          "a. ただし",
@@ -4470,7 +4470,7 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "この授業はすぐ{眠|ねむ}くなる。__要するに__、おもしろくないということだ。",
-      "tr": "This class makes me sleepy right away. In short, what that means is it's boring."
+      "tr": "This class makes me sleepy right away. In short, that means it's boring."
      },
      {
       "n": 2,
@@ -4518,7 +4518,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "{山田|やまだ}さんには、14歳、【a. つまり　b. 要するに】、中学生の子どもがいる。",
-         "tr": "Ms. Yamada has a child who is 14, …, in junior high school."
+         "tr": "Ms. Yamada has a child who is 14, in other words, in junior high school."
         },
         "options": [
          "a. つまり",
@@ -4766,7 +4766,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "友達は毎日何時間も勉強している。本当に【a. 頭が下がる　b. 頭を下げる】。",
-         "tr": "My friend studies for hours every day. I really … ."
+         "tr": "My friend studies for hours every day. I really take my hat off to them."
         },
         "options": [
          "a. 頭が下がる",
@@ -4778,7 +4778,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "ちゃんと寝ないと、【a. 頭にきて　b. 頭が回らず】、何も考えられなくなる。",
-         "tr": "If I don't get enough sleep, …, and I can't think about anything."
+         "tr": "If I don't get enough sleep, my head stops working, and I can't think about anything."
         },
         "options": [
          "a. 頭にきて",
@@ -4790,7 +4790,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "スピーチで【a. 頭ごなしに　b. 頭から】最後まで止まらず話せてよかった。",
-         "tr": "I'm glad I was able to give my speech … to the end without stopping."
+         "tr": "I'm glad I was able to give my speech from start to finish without stopping."
         },
         "options": [
          "a. 頭ごなしに",
@@ -5061,7 +5061,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "幼い子どもは【a. 手がかかる　b. 手を抜く】から、世話が大変だ。",
-         "tr": "Small children …, so taking care of them is hard."
+         "tr": "Small children take a lot of looking after, so taking care of them is hard work."
         },
         "options": [
          "a. 手がかかる",
@@ -5073,7 +5073,7 @@ TRY.registerUnits([
         "n": "(5)",
         "text": {
          "ja": "個人情報が悪人の【a. 手に入れる　b. 手に{渡|わた}る】と{危|あぶ}ない。",
-         "tr": "It's dangerous if personal information … bad people."
+         "tr": "It's dangerous if personal information falls into the hands of bad people."
         },
         "options": [
          "a. 手に入れる",
@@ -5085,7 +5085,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "あの会社は借金が増え、もう【a. 手に負えない　b. 手を{尽|つ}くす】状況らしい。",
-         "tr": "That company's debts have grown, and apparently the situation is already … ."
+         "tr": "That company's debts have grown, and apparently the situation is already more than it can handle."
         },
         "options": [
          "a. 手に負えない",
@@ -5279,7 +5279,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "旅行で{大阪|おおさか}に行った時、【a. 足を運んで　b. 足を伸ばして】、近くの{神戸|こうべ}まで行った。",
-         "tr": "When I went to Osaka on a trip, I … and went to nearby Kobe."
+         "tr": "When I went to Osaka on a trip, I went a little farther, to nearby Kobe."
         },
         "options": [
          "a. 足を運んで",
@@ -5291,7 +5291,7 @@ TRY.registerUnits([
         "n": "(8)",
         "text": {
          "ja": "チームの【a. 足を引っ張らない　b. 足が出ない】ように、練習した。",
-         "tr": "I practiced so that I wouldn't … the team."
+         "tr": "I practiced so that I wouldn't drag the team down."
         },
         "options": [
          "a. 足を引っ張らない",
@@ -5303,7 +5303,7 @@ TRY.registerUnits([
         "n": "(9)",
         "text": {
          "ja": "生魚は【a. 足を引っ張る　b. 足が早い】から、{冷蔵庫|れいぞうこ}にいれておきましょう。",
-         "tr": "Raw fish …, so let's put it in the refrigerator."
+         "tr": "Raw fish spoils quickly, so let's put it in the refrigerator."
         },
         "options": [
          "a. 足を引っ張る",
@@ -5458,7 +5458,7 @@ TRY.registerUnits([
         "n": "(10)",
         "text": {
          "ja": "高校の友達と連絡は取っていたが、【a. 顔を出す　b. 顔を合わせる】のは卒業以来だ。",
-         "tr": "I had kept in touch with my high school friends, but this is the first time we've … since graduation."
+         "tr": "I had kept in touch with my high school friends, but this is the first time we've seen each other face to face since graduation."
         },
         "options": [
          "a. 顔を出す",
@@ -5470,7 +5470,7 @@ TRY.registerUnits([
         "n": "(11)",
         "text": {
          "ja": "先輩の案に反対だったが、先輩の【a. 顔を立てて　b. 顔に{泥|どろ}を{塗|ぬ}って】賛成した。",
-         "tr": "I was against my senior's proposal, but I agreed to it so as to … my senior."
+         "tr": "I was against my senior's proposal, but I agreed to it so that my senior wouldn't lose face."
         },
         "options": [
          "a. 顔を立てて",
@@ -5555,7 +5555,7 @@ TRY.registerUnits([
      "に持っていく大学生は{珍|めずら}しくはない[[ことがわかった|]]。",
      "#3. 調査について",
      "¶[[今回は、|d]]「日本の大学生はお弁当を持っていくのか。そして、お弁当に",
-     "ついてどう思っているのか」[[を調べるために|]]北東大学の日本人学生[[を対象|]]",
+     "ついてどう思っているのか」[[を調べるため|]]に北東大学の日本人学生[[を対象|]]",
      "[[にインタビューを行った|]]。Mさん（2年生・女性）、Hさん（3年生・男性）、",
      "Yさん（3年生・女性）の3[[人が答えてくれた|]]。",
      222,
@@ -5599,11 +5599,11 @@ TRY.registerUnits([
     "tr": [
      "In Japanese anime, you often see junior high and high school students eating a colorfully packed bento of side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present the results of interviews with Japanese students about bento.",
      "According to a survey conducted by Quartet Research in 20XX, 43.1% answered \"yes\" to the question \"Do you bring a bento to college?\" and 56.9% answered \"no.\" The reasons given for bringing a bento included \"to save money,\" \"it's nutritionally better,\" and \"the cafeteria is crowded / expensive and the food is bad.\" The reasons for not bringing one included \"making it is a lot of work,\" \"I don't have time in the morning,\" and \"the cafeteria is convenient.\" This shows that, although many university students don't bring a bento because it's a hassle, it is not unusual for university students to bring a bento to school for economic and health reasons.",
-     "This time, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M (second-year, female), H (third-year, male), and Y (third-year, female).",
+     "For this study, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M (second-year, female), H (third-year, male), and Y (third-year, female).",
      "First, when I asked, \"Do you bring a bento to school?\", M answered \"every day,\" H \"sometimes,\" and Y \"never.\" M lives with her parents, and apparently her mother makes it for her. H, on the other hand, seems to make a bento only when he has time. Y said she eats lunch at the cafeteria or buys it at a convenience store.",
      "Next, I asked about their reasons for bringing or not bringing a bento. M told me, \"I bring one because a homemade bento saves money and is good for your health, too.\" H answered, \"Getting up early to prepare it is hard, so when I don't have time, I can't. But a bento saves money, and at the cafeteria and convenience stores you have to wait in line, so I'd like to bring one if I can.\" Y explained, \"Bento are a hassle, so I don't bring one. By comparison, the cafeteria is cheap and convenient because it has lots of menu options, and it's fun because I can see my friends.\"",
      "Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" All three mentioned the words \"homemade,\" \"saving money,\" and \"healthy.\" Besides these, M named standard side dishes such as \"rolled omelet\" and \"fried chicken,\" and H answered \"frozen foods.\" Y's answer was \"the elementary school sports day.\" Apparently she has memories of her family coming to sports day and everyone eating bento together at lunchtime.",
-     "This time, I conducted an interview survey of three Japanese students on the question \"Do Japanese university students bring a bento? And what do they think about bento?\" As a result, two people bring one, including the one who said \"sometimes,\" and one person does not. I also found that, just as in Quartet Research's 20XX survey, bento are considered economical and healthy.",
+     "For this study, I conducted an interview survey of three Japanese students on the question \"Do Japanese university students bring a bento? And what do they think about bento?\" As a result, two people bring one, including the one who said \"sometimes,\" and one person does not. I also found that, just as in Quartet Research's 20XX survey, bento are considered economical and healthy.",
      "What was interesting was that one person thought of \"sports day\" in connection with bento. I also asked other Japanese friends, and they told me that at school sports days, families pack onigiri and side dishes for the whole family into a large bento box called an \"ojū,\" bring it along, and eat it together with the family members who come to watch.",
      "Through this project, I found that although some people think bento are a hassle to make, they have economic and health benefits and are an ordinary lunch for university students. Also, it seems that bento are not only an everyday lunch but can also become memories of special days such as sports day. I felt that bento are deeply rooted in the lives of Japanese people."
     ],
@@ -6137,7 +6137,7 @@ TRY.registerUnits([
          [
           {
            "ja": "・レポートの内容について\n例）__このレポートでは、〜に関する〜へのインタビューについて報告する。__",
-           "tr": "About the content of the report\nE.g. In this report, I report on interviews with … about …."
+           "tr": "About the content of the report\nE.g. In this report, I present interviews with … about …."
           },
           "(b)"
          ],
@@ -6165,7 +6165,7 @@ TRY.registerUnits([
           },
           {
            "ja": "・対象・人数・答えてくれた人についての情報\n例）__今回は__「［論点1］。そして、［論点2］」__を調べるために、〜を対象にインタビューを行った。__……の3__人が答えてくれた。__",
-           "tr": "Information about who was surveyed, how many, and the people who answered\nE.g. This time, to find out \"[Point 1]? And [Point 2]?\", I interviewed …. Three people, …, answered."
+           "tr": "Information about who was surveyed, how many, and the people who answered\nE.g. For this study, to find out \"[Point 1]? And [Point 2]?\", I interviewed …. Three people, …, answered."
           },
           "(d)"
          ],
@@ -6209,7 +6209,7 @@ TRY.registerUnits([
           },
           {
            "ja": "・調査の論点、対象をもう一度述べる。\n例）__今回は__「［論点1］。そして、［論点2］」__について、__〜に__インタビュー調査を行った。__",
-           "tr": "Restate the points at issue and who was surveyed.\nE.g. This time, I conducted an interview survey of … on \"[Point 1]? And [Point 2]?\""
+           "tr": "Restate the points at issue and who was surveyed.\nE.g. For this study, I conducted an interview survey of … on \"[Point 1]? And [Point 2]?\""
           },
           "(h)"
          ],
@@ -7604,39 +7604,39 @@ TRY.registerUnits([
         "rows": [
          [
           "(1)",
-          "総合案内",
+          {"ja": "総合案内", "tr": "General information"},
           "(2)",
-          "鉄道駅"
+          {"ja": "鉄道駅", "tr": "Train station"}
          ],
          [
           "(3)",
-          "駐車場",
+          {"ja": "駐車場", "tr": "Parking lot"},
           "(4)",
-          "バス乗り場"
+          {"ja": "バス乗り場", "tr": "Bus stop"}
          ],
          [
           "(5)",
-          "お手洗い",
+          {"ja": "お手洗い", "tr": "Restrooms"},
           "(6)",
-          "食堂"
+          {"ja": "食堂", "tr": "Cafeteria"}
          ],
          [
           "(7)",
-          "水飲み場",
+          {"ja": "水飲み場", "tr": "Drinking fountain"},
           "(8)",
-          "銀行ATM"
+          {"ja": "銀行ATM", "tr": "Bank ATM"}
          ],
          [
           "(9)",
-          "救護所",
+          {"ja": "救護所", "tr": "First-aid station"},
           "(10)",
-          "喫煙所"
+          {"ja": "喫煙所", "tr": "Smoking area"}
          ],
          [
           "(11)",
-          "店舗／売店",
+          {"ja": "店舗／売店", "tr": "Shops / kiosk"},
           "(12)",
-          "駐輪場"
+          {"ja": "駐輪場", "tr": "Bicycle parking"}
          ]
         ]
        },
@@ -7880,7 +7880,7 @@ TRY.registerUnits([
         {
          "text": {
           "ja": "シフト制　★ 学生・フリーター歓迎",
-          "tr": "Shift system; students and freelance part-timers welcome"
+          "tr": "Shift system; students and freeters (people who live on part-time work) welcome"
          }
         }
        ],
