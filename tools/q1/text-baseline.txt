@@ -14123,7 +14123,7 @@ front.2.blocks.30.rows.1.0
 front.2.blocks.30.rows.1.1	
 front.2.blocks.30.rows.1.2	
 front.2.blocks.30.rows.1.3	
-front.2.blocks.30.rows.1.4.en	宮崎駿
+front.2.blocks.30.rows.1.4.en	宮﨑駿
 front.2.blocks.30.rows.1.5.en	みやざきはやお
 front.2.blocks.30.rows.1.6.en	Hayao Miyazaki
 front.2.blocks.30.rows.2.0.en	❸
@@ -14470,7 +14470,7 @@ front.5.blocks.1.rows.8.3	015
 front.5.blocks.2.head.0.0.text	第2課
 front.5.blocks.2.rows.0.0	
 front.5.blocks.2.rows.0.1	1
-front.5.blocks.2.rows.0.2	{動詞|どうし}て-form のフォーマルな{表現|ひょうげん}
+front.5.blocks.2.rows.0.2	{動詞|どうし} て-form のフォーマルな{表現|ひょうげん}
 front.5.blocks.2.rows.0.3	040
 front.5.blocks.2.rows.1.0	★
 front.5.blocks.2.rows.1.1	2
