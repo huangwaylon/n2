@@ -68,7 +68,7 @@ export function guideView() {
       ${ui({ ja: "各章は「できること → 見本文 → 文法項目 → Check → まとめの問題」の順に進みます。まず見本文を読んで（聞いて）、太字の文法が実際にどう使われているかを確認しましょう。", en: "Each chapter goes: Can-do goals → Sample text → Grammar points → Check → Review questions. Start by reading (and listening to) the sample text to see how the bold grammar is used in context." })}
       <h2>各文法項目の中身 <span class="en-inline">Inside a grammar point</span></h2>
       <ul class="legend">
-        <li>${stars(3)} ${ui({ ja: "★が多いほど重要な項目です。", en: "More stars = more important / more likely on the test." }, "span")}</li>
+        <li>${stars(3)} ${ui({ ja: "★が多いほど重要な項目です。", en: "The more stars, the more important the point." }, "span")}</li>
         ${Object.keys(MARKS).map((k) => `<li class="legend-mark">${marks([k])} ${esc(MARKS[k][0])}</li>`).join("")}
         ${li("どう使う？", { ja: "どんな場面・気持ちで使うか", en: "When and with what feeling the pattern is used" })}
         ${li("接続", { ja: "どの品詞のどの形につながるか", en: "Which part of speech / conjugated form it attaches to" })}
@@ -76,7 +76,7 @@ export function guideView() {
         ${li("＋Plus", { ja: "同じような意味で使われる別の表現", en: "Other expressions with a similar meaning" })}
         <li><b>📘 English deep-dive</b> — detailed English explanation: nuance, comparisons, common mistakes, test tips.</li>
         ${li("やってみよう！ / Check / まとめの問題", { ja: "練習問題。「答え合わせ」を押すと採点されます。結果はブラウザに保存されます。", en: "Practice. Press “Check answers” to grade; scores are saved in your browser." })}
-        ${li("🔊 / ▶", { ja: "ブラウザの音声合成で読み上げます（聴解問題も）。", en: "Read aloud with your browser's Japanese text-to-speech (also used for the listening questions). Adjust speed in the settings." })}
+        ${li("🔊 / ▶", { ja: "ブラウザの音声合成で読み上げます（聴解問題も）。速さは⚙で変えられます。", en: "Read aloud with your browser's Japanese text-to-speech (also used for the listening questions). Adjust the speed in ⚙." })}
       </ul>
       <h2>英語 <span class="en-inline">English</span></h2>
       <ul class="legend">

@@ -55,7 +55,7 @@ export function kanjiView(id) {
   return `<div class="page q2 kanji">
     <div class="page-head"><h1>漢字リスト <span class="en-inline">Kanji list — 第${esc(id)}課 ${range}</span></h1></div>
     ${lessonNav(id, "kanji")}
-    ${K ? `<p class="vl-legend">◆ 読み書きを覚える単語　◇ 読みだけ覚える単語 <span class="en-inline">stroke-order diagrams are not reproduced</span></p><div class="kj-grid">${kanjiGroups(K)}</div>` : empty("漢字リスト")}</div>`;
+    ${K ? `<p class="vl-legend">◆ 読み書きを覚える単語　◇ 読みだけ覚える単語 <span class="en-inline">◆ words to learn to read and write · ◇ to read only · stroke-order diagrams are not reproduced</span></p><div class="kj-grid">${kanjiGroups(K)}</div>` : empty("漢字リスト")}</div>`;
 }
 export function kanjiAllView() {
   const all = TRY.kanji.flatMap((K) => K.kanji.map((k) => ({ k, l: K.lesson })));

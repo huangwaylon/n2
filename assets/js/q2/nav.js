@@ -189,7 +189,7 @@ function guideView() {
     <ul class="legend">
       <li>${ui("本文の行番号は本と同じです。青い下線と番号は「文型・表現ノート」の項目を表します。番号を押すと説明に移動します。", "Line numbers are the book's. A blue underline with a number marks a grammar note — tap the number to jump to it.")}</li>
       <li>${ui("縦書きの文章は、広い画面では縦書きで、スマートフォンでは横書きで表示されます（⚙で変更できます）。", "Vertical texts are shown vertically on wide screens and horizontally on phones (change it in ⚙).")}</li>
-      <li>${ui("★の付いた文型は、ワークブックで練習する項目です。", "Notes marked ★ are practised in the workbook.")}</li>
+      <li>${ui("★の付いた文型は、話したり書いたりできるようにする項目です。★がない文型は、意味がわかれば十分です。", "Notes marked ★ are ones to learn to use in speaking and writing; notes without ★ only need to be understood.")}</li>
     </ul>
     <h2>英語 <span class="en-inline">English</span></h2>
     <ul class="legend">
