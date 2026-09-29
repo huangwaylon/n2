@@ -2050,7 +2050,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "a. 私は……\nb. {友達|ともだち}は……",
-         "tr": "a. I ...\nb. My friend ..."
+         "tr": "a. I got a stuffed animal from my friend.\nb. My friend gave me a stuffed animal."
         },
         "answer": "a. 友達にぬいぐるみをもらいました。　b. 私にぬいぐるみをくれました。"
        },
@@ -2058,7 +2058,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "a. {絵理|えり}は……\nb. ジョージは……",
-         "tr": "a. Eri ...\nb. George ..."
+         "tr": "a. Eri got flowers from George.\nb. George gave Eri flowers."
         },
         "answer": "a. ジョージに花をもらいました。　b. 絵理に花をあげました。"
        },
@@ -2066,7 +2066,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "a. 私は……\nb. 先生は……",
-         "tr": "a. I ...\nb. The teacher ..."
+         "tr": "a. I received a souvenir from my teacher.\nb. My teacher gave me a souvenir."
         },
         "answer": "a. 先生におみやげをいただきました。　b. 私におみやげをくださいました。"
        }
@@ -2490,11 +2490,11 @@ TRY.registerUnits([
       "lines": [
        {
         "ja": "［お母さんは子どもにケーキを作った。］",
-        "tr": "[The mother made a cake for her child.]"
+        "tr": "[The mother made her child a cake.]"
        },
        {
         "ja": "→ お母さんは子ども**に**ケーキを作っ__てあげました__。",
-        "tr": "→ The mother made a cake for her child."
+        "tr": "→ The mother made a cake for her child (as a favor to the child)."
        }
       ]
      },
@@ -2591,7 +2591,7 @@ TRY.registerUnits([
        },
        {
         "ja": "→ ホストファミリーは（私**に**）日本語を教え__てくれました__。",
-        "tr": "→ My host family taught (me) Japanese."
+        "tr": "→ My host family kindly taught (me) Japanese."
        }
       ]
      },
@@ -2747,11 +2747,11 @@ TRY.registerUnits([
       "items": [
        {
         "ja": "__友達__は!!(giver)!!　__私__に!!(receiver)!!　おいしい店を教え__てくれました__。",
-        "tr": "My friend told me about a good restaurant."
+        "tr": "My friend kindly told me about a good restaurant."
        },
        {
         "ja": "__私__は!!(receiver)!!　__友達__に!!(giver)!!　おいしい店を教え__てもらいました__。",
-        "tr": "I had my friend tell me about a good restaurant."
+        "tr": "I got my friend to tell me about a good restaurant."
        }
       ]
      },
@@ -2894,7 +2894,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "a〜fの{下線|かせん}部分は、①Vてあげる／くれる／もらう、②{受身形|うけみけい}、③{使役形|しえきけい}、④使役形＋てあげる／くれる／もらう、⑤{使役受身形|しえきうけみけい}のどれですか。{番号|ばんごう}を（　　）に書いてください。",
-         "tr": "Which of these is each underlined part of a–f: ① V-te ageru / kureru / morau, ② the passive form, ③ the causative form, ④ the causative form + te ageru / kureru / morau, ⑤ the causative-passive form? Write the number in the (　)."
+         "tr": "Which is each underlined part of a–f: ① Vてあげる／くれる／もらう, ② the passive form, ③ the causative form, ④ the causative form + てあげる／くれる／もらう, or ⑤ the causative-passive form? Write the number in the (　)."
         },
         "answer": "a. ②　b. ①　c. ③　d. ④　e. ⑤　f. ④"
        },
@@ -3493,7 +3493,7 @@ TRY.registerUnits([
        },
        {
         "ja": "→ 私はホストマザーにパソコンを__使わせてもらいました__。",
-        "tr": "→ My host mother let me use the computer."
+        "tr": "→ I got my host mother to let me use the computer."
        }
       ]
      }
@@ -4655,7 +4655,7 @@ TRY.registerUnits([
        {
         "sp": "店員",
         "ja": "黒**が**おすすめです。",
-        "tr": "I recommend the black one."
+        "tr": "Black is the one I recommend."
        }
       ]
      },
@@ -4670,14 +4670,14 @@ TRY.registerUnits([
        {
         "sp": "B",
         "ja": "いえ、ホストマザー**が**作ってくれたんです。",
-        "tr": "No, my host mother made it for me."
+        "tr": "No, it was my host mother who made it for me."
        }
       ]
      },
      {
       "n": 3,
       "ja": "だれも運転できないなら、私**が**運転します。",
-      "tr": "If nobody else can drive, I'll drive."
+      "tr": "If nobody can drive, I'll be the one to drive."
      }
     ]
    },
@@ -4757,7 +4757,7 @@ TRY.registerUnits([
        {
         "n": "(b)",
         "ja": "!!［!!母**が**家族の誕生日に作る!!］!!ケーキはおいしい。（[#1]）",
-        "tr": "The cakes [my mother makes for family birthdays] are delicious. ([1])"
+        "tr": "The cakes [my mother makes for family birthdays] are delicious. (1)"
        }
       ]
      },
