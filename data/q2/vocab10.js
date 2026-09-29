@@ -101,7 +101,7 @@ TRY.registerVocab({ lesson: 10, lists: [
       { n: 9, w: "妻", ex: "男性の多数が結婚後も妻とデートしたいと答えた。", tr: "Most of the men answered that they want to keep going on dates with their wives even after getting married." },
       { n: 10, w: "～割", ex: "この大学では女子学生が7割を占めている。", tr: "At this university, female students make up 70 percent of the student body." },
       { n: 11, w: "育児", ex: "母によると、育児は24時間休みがない仕事だそうだ。", tr: "According to my mother, raising children is a job with no breaks, 24 hours a day." },
-      { n: 12, w: "幼い", ex: "{山田|やまだ}さんにはまだ2歳の幼い子どもがいる。", tr: "Yamada has a little one who is only two years old." },
+      { n: 12, w: "幼い", ex: "{山田|やまだ}さんにはまだ2歳の幼い子どもがいる。", tr: "Yamada-san has a little one who is only two years old." },
       { n: 13, w: "負担（する）", ex: "経験が少ない彼にこの仕事をさせるのは負担が大きい。", tr: "Having him do this job, with his little experience, would be a heavy burden on him." },
       { n: 14, w: "雇用（する）", ex: "技術の発展によって、新しい雇用が生まれた。", tr: "Technological progress has created new jobs." },
       { n: 15, w: "収入", ex: "毎月20万円の収入で家族4人が生活するのは苦しい。", tr: "It's hard for a family of four to live on an income of 200,000 yen a month." },
