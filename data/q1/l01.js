@@ -260,7 +260,7 @@ TRY.registerLesson({
       "だろう。"
      ],
      "tr": [
-      "When it comes to directors of Japanese animated films, the first name is, of course, Hayao Miyazaki. Spirited Away is especially popular among his works. It is the film that won an Academy Award in 2003. If you are interested in anime, you may also have seen Princess Mononoke or My Neighbor Totoro. Many of his anime stories carry a message about environmental problems and give adults something to think about, too.",
+      "When it comes to directors of Japanese animated films, it has to be Hayao Miyazaki. Spirited Away is especially popular among his works; it won an Academy Award in 2003. If you are interested in anime, you may also have seen Princess Mononoke or My Neighbor Totoro. Many of his anime stories carry a message about environmental problems and give adults something to think about, too.",
       "Director Miyazaki has white hair and a white beard and wears black-rimmed glasses. When he smiles he looks gentle, but when he is making a film he becomes very strict. For example, he has his staff redo their drawings again and again until they can draw exactly the way he tells them. Apparently, he once looked at a drawing of meat by a staff member and got angry, saying, “This meat looks like rubber. Think about whether it's tough or tender, and then draw it.” He is also said to have once spent more than a year making a scene just four seconds long.",
       "“I don't want to make work I'd be ashamed of,” the director says. So, in order to make good work, he works from morning to night with hardly any rest. He eats lunch and dinner in five minutes. He doesn't spend his precious time on TV or hobbies. When he was young, he reportedly worked from 9 in the morning until 5 the next morning. It is because he is just as strict with himself that he is able to make such beautiful, artistic anime.",
       "His works, wonderful in both their art and their stories, will surely go on being loved all over the world for years to come."
@@ -670,7 +670,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "世界で人気がある日本料理**といえば**、すしだろう。",
-         "tr": "When it comes to Japanese food that's popular around the world, it has to be sushi."
+         "tr": "When you think of Japanese food that's popular around the world, sushi probably comes to mind first."
         },
         {
          "n": 2,
@@ -703,7 +703,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "いいですね。日本の冬**といえば**、温泉ですよね。",
-           "tr": "That sounds nice. Speaking of winter in Japan, hot springs are the thing, aren't they?"
+           "tr": "That sounds nice. Winter in Japan means hot springs, doesn't it?"
           }
          ]
         }
@@ -729,7 +729,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nといえば** names N and then the first thing it brings to mind, usually something everyone would agree on, which is why it pairs with やっぱり and だろう: 京都といえば、お寺だろう (*when you think of Kyoto, it's temples*).\n\n- In conversation it picks up a word the other person just used and steers to a related topic: 旅行といえば、来月北海道に行くんだ (*speaking of trips, I'm going to Hokkaido next month*). For a sudden recollection with no word to pick up, say そういえば (*that reminds me*).\n- Compare Nなら (L1-2②): さくら病院なら… also picks up the partner's word, but to give information about it, not to name what comes to mind.\n\nPitfall: XといえばXだが is a concession, *X, I suppose, but*: 高いといえば高いけど (*it's expensive, I guess, but*). Quartet II L12-1 〜といっても also scales X down."
     },
     {
      "t": "note",
@@ -779,7 +780,7 @@ TRY.registerLesson({
           {
            "sp": "{青山|あおやま}",
            "ja": "日本で働きたい**なら**、敬語を勉強しておいたほうがいいよ。",
-           "tr": "If you want to work in Japan, you'd better study keigo (honorific language) ahead of time."
+           "tr": "If you want to work in Japan, you should study keigo (honorific language) beforehand."
           }
          ]
         },
@@ -902,7 +903,7 @@ TRY.registerLesson({
           {
            "sp": "{事務員|じむいん}",
            "ja": "川村先生**なら**、もうお帰りになりましたよ。",
-           "tr": "Professor Kawamura has already gone home."
+           "tr": "If it's Professor Kawamura you want, he's already gone home."
           }
          ]
         }
@@ -990,7 +991,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜なら** takes up what the listener has just said, or a situation just made clear, and answers it with advice, a request or a judgment (*if that's the case*). It often opens a reply: 行くなら、傘を持って行って (*if you're going, take an umbrella*).\n\n- With Vなら, Y may come first in time: 日本に行くなら、JRパスを買っておくといい (*if you're going to Japan, buy a JR Pass before you go*). 行ったら would mean *once you're there*.\n- Uses ② and ③ attach straight to a noun: 川村先生なら (*if it's Professor Kawamura you want*), ペンならある (*a pen, I do have*), contrasting N with what was asked for.\n\nQuartet I 初級文法チェック⑥ sets なら against たら, と and ば. TRY! N1 #80 AならAで reacts to someone's choice with advice or a complaint: 来るなら来るで連絡してよ (*if you're coming, at least let me know*)."
     },
     {
      "t": "note",
@@ -1055,7 +1057,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "うん。昨日初めてお話ししたんだけど、うわさで聞いていた**とおり**、優しい先生だったよ。",
-           "tr": "Yeah. I talked with the professor for the first time yesterday, and just as I'd heard, the professor was very kind."
+           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and just as I'd heard, a very kind teacher."
           }
          ]
         },
@@ -1093,7 +1095,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜とおり（に）** says an action or result matches a model: instructions, a plan, what was expected or heard. Before a verb it takes に (言ったとおりに書く); before a noun, の: 予想どおりの結果 (*the result we expected*); it can also end a sentence: 思ったとおりだ (*just as I thought*).\n\n- A noun takes どおり directly or の＋とおり: 予定どおり／予定のとおり. 次のとおり (*as follows*) is fixed in notices, このとおり (*like this*) in demonstrations.\n- The verb is usually た form when the model came first (聞いたとおり), dictionary form for what is about to be said: 今から言うとおりにしてください.\n\nCompare 〜ように as in 前にも言ったように (*as I said before*): it only points to a similarity, while とおり stresses an exact match. Pitfall: the kanji form 通り is also the noun *street*, as in 大通り (*main street*)."
     },
     {
      "t": "note",
@@ -1290,7 +1293,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "本当に{全然|ぜんぜん}梅雨**らしくない**よね。毎年、この{季節|きせつ}は雨の日が続くのに。",
-           "tr": "It really doesn't feel like the rainy season at all, does it? And every other year it rains day after day this time of year."
+           "tr": "It really doesn't feel like the rainy season at all, does it? Every year it rains day after day at this time of year."
           }
          ]
         },
@@ -1330,7 +1333,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜らしい** ① passes on what the speaker has heard or read while keeping a distance from it: the speaker doesn't vouch for it. It is vaguer than hearsay そうだ and can mix in the speaker's own inference, so it suits rumors and secondhand talk.\n\n- ② Nらしい is a separate word, an い-adjective meaning *having the qualities an N should have*: 学生らしい服装 (*clothes suited to a student*). It conjugates: 春らしくない, 子どもらしく.\n- Look-alikes: 子どもらしい (*childlike*, praise) vs 子どもっぽい (*childish*, criticism) vs 子どものようだ (*like a child*, said of someone who isn't one).\n\nQuartet I 初級文法チェック② compares らしい with そうだ, ようだ and みたいだ. Pitfall: 彼は学生らしい can mean *he's apparently a student* or *he's every inch a student*; context decides."
     },
     {
      "t": "note",
@@ -1380,7 +1384,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "昔のレコードを聞く**ために**レコードプレーヤーを買ったんだ。",
-           "tr": "I bought a record player so I can listen to old records."
+           "tr": "I bought a record player to listen to old records."
           },
           {
            "sp": "B",
@@ -1502,7 +1506,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "デザイナーになる**ための**学校に行くつもりです。",
-           "tr": "I'm planning to go to a school for people who want to become designers."
+           "tr": "I'm planning to go to a school that trains designers."
           }
          ]
         },
@@ -1514,7 +1518,7 @@ TRY.registerLesson({
         {
          "n": 6,
          "ja": "お{見|み}{合|あ}いパーティーは、結婚したい人がパートナーを{探|さが}す**ための**パーティーだ。",
-         "tr": "A matchmaking party is a party for people who want to get married to look for a partner."
+         "tr": "A matchmaking party is a party where people who want to get married look for a partner."
         }
        ]
       },
@@ -1535,7 +1539,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vるために** states a purpose the subject deliberately works toward, so both verbs are volitional and share one subject. When the goal is a state that comes about by itself (potential forms, わかる, 見える), Japanese uses 〜ように (L5-7): 漢字が覚えられるように練習する (*practice so that I can remember kanji*).\n\n- After a noun: Nのために, *for N*: 家族のために働く (*work for my family*).\n- ためのN turns the purpose into a label: 日本語を学ぶための本 (*a book for learning Japanese*).\n- Vるためには + 必要だ／一番だ says what it takes to reach a goal.\n\nPitfall: after a past verb or a state, ため means *because*: 雨が降ったため中止になった (*it was canceled because of rain*), the reason use taught in L3-5. TRY! N1 has the formal written purpose forms Vべく (#90) and Vんがため (#100)."
     },
     {
      "t": "note",
@@ -1576,7 +1581,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "英会話学校でアルバイトをしたこと**がきっかけで**、将来日本で英語を教える仕事がしたいと思うようになった。",
-         "tr": "Working part-time at an English conversation school made me want to work as an English teacher in Japan in the future."
+         "tr": "My part-time job at an English conversation school got me thinking I'd like to teach English in Japan someday."
         },
         {
          "n": 3,
@@ -1589,7 +1594,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{実|じつ}は、医者に言われたの**がきっかけで**、走るようになったんです。",
-           "tr": "Actually, I started running because my doctor told me to."
+           "tr": "Actually, what got me running was my doctor telling me to."
           }
          ]
         }
@@ -1621,7 +1626,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Xがきっかけで Y** names the event that set off a change in someone's life: a new interest, friendship, decision or habit. X is one event, often small or accidental (Vたの／こと, or a noun such as 飲み会, 旅行); Y is what started: 始めた, 仲よくなった, 思うようになった. It is a pattern of personal stories.\n\n- 何がきっかけで…？ asks *what got you into…?*, and Y often uses 〜ようになる (L1-7) or 〜始める.\n- For a plain cause with no new beginning, use から／ので: ✗雨がきっかけで試合が中止になった.\n\nTRY! N2 #17 teaches the same idea with を: 入学をきっかけに一人暮らしを始めた (*I started living on my own when I entered college*); its Plus, 〜を契機に, is the formal written version."
     },
     {
      "t": "note",
@@ -1768,7 +1774,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ようになる** reports a change that came about over time rather than by a decision: a new habit (Vる) or a new ability (potential form). English says *have started to*, *now*, or *have become able to*.\n\n- Verbs that already mean a change take no ようになる: ✗太るようになった → 太った.\n- *No longer* is normally Vなくなる: 食べなくなった. 〜ないようになった is marginal, as the book's ？ shows.\n- Adjectives and nouns use 〜くなる／〜になる: 上手になった, not ✗上手ようになった.\n\nCompare 〜ことになる (L2-9), a change decided by others or by circumstances, and 〜ようにする (L1-8), a conscious effort. TRY! N2 #81 〜ようになっている is different again: how a device or system is set up to work (ボタンを押すと水が出るようになっている *it's designed so water comes out when you press the button*)."
     },
     {
      "t": "note",
@@ -1888,7 +1895,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ようにする** is an effort the speaker commits to; 〜ようにしている is one kept up as a habit. Both admit the result isn't fully under control, so the English is *try to* or *make a point of* rather than a flat *will*. That softness makes ようにします the standard promise after a mistake: 次から気をつけるようにします (*I'll be more careful from now on*).\n\n- Vないようにする: *make sure not to*, as in 遅れないようにします.\n- A one-time step you simply decide on takes 〜ことにする (L2-4): サークルに入ることにした (*I decided to join a club*).\n- Close in form: 〜ようになる (L1-7), a change that happens; 〜ように (L5-7), *so that*.\n\nPitfall: 〜ようにしてください asks for ongoing care or a habit (*please make sure to*), a gentler request than a plain 〜てください."
     },
     {
      "t": "note",
@@ -1935,7 +1943,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "フランス出身のサラ**によると**、日本のコンビニはとても{便利|べんり}らしい。",
-         "tr": "According to Sarah, who is from France, convenience stores in Japan are apparently really convenient."
+         "tr": "According to Sarah, who is from France, Japanese convenience stores are apparently really handy."
         }
        ]
       },
@@ -1959,7 +1967,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nによると** names where a piece of information came from, and the sentence then ends in a hearsay form: そうだ, らしい, ということだ, or casual って (天気予報によると、雨だって). Without that ending the sentence sounds unfinished, because によると only introduces the source.\n\n- N is a source of information: a person, the news, a survey, 〜の話. For one's own view, say 私の考えでは (*in my opinion*), not ✗私によると.\n- によれば is the same with a slightly more formal ring.\n- Compare Nによって (L3-6), *depending on N*: 国によって習慣が違う (*customs differ from country to country*).\n\nThe listening script uses it just this way: 友達によると、…ほとんどいないらしいです (*according to a friend, apparently hardly anyone…*)."
     }
    ]
   },
@@ -1967,7 +1976,7 @@ TRY.registerLesson({
    "skill": "write",
    "title": {
     "ja": "私が{尊敬|そんけい}する有名人",
-    "tr": "A Famous Person I Admire"
+    "tr": "A Famous Person I Respect"
    },
    "page": 16,
    "blocks": [
@@ -2014,7 +2023,7 @@ TRY.registerLesson({
      "titleTr": "Ichiro, a Man of Effort",
      "tr": [
       "The famous person I respect is Ichiro, who was a baseball player. He is from Aichi Prefecture, and after playing professional baseball in Japan for ten years, he became a Major League player in America.",
-      "Ichiro was a wonderful player who moved people with his effort and his results. Apparently he was always thinking, \"What kind of practice do I need right now, and how much?\" I hear he was strict with himself and took only a few days a year off from practice. Ichiro says, \"If you keep working hard even at small things, you will reach a big goal.\" In 2016, the number of hits he had made since turning pro passed 4,300, a world record. He was also good at fielding and won the Gold Glove Award as many as ten times. He announced his retirement in 2019, but his records will surely remain for a long time to come.",
+      "Ichiro was a wonderful player who moved people with his effort and his results. Apparently he was always thinking, \"What kind of practice do I need right now, and how much?\" I hear he was strict with himself and took only a few days a year off from practice. Ichiro says, \"If you keep working hard even at small things, you will reach a big goal.\" In 2016, the number of hits he had gotten since turning pro passed 4,300, a world record. He was also good at fielding and won the Gold Glove Award as many as ten times. He announced his retirement in 2019, but his records will surely stand for a long time to come.",
       "Ichiro never gave up until he got results, and he always kept taking on challenges. What I truly respect about him is that he kept up his effort and also delivered results."
      ],
      "roles": [
@@ -2722,7 +2731,7 @@ TRY.registerLesson({
       },
       {
        "ja": "新しいルームメート：自己紹介する",
-       "tr": "New roommate: introduce yourself"
+       "tr": "New roommate: introduces themselves"
       }
      ],
      "steps": [
@@ -3184,7 +3193,7 @@ TRY.registerLesson({
      "id": "l1-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3487,7 +3496,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "え、あの{宮崎|みやざき}{監督|かんとく}の？",
-       "tr": "Wait, the one for Miyazaki, the famous director?"
+       "tr": "Wait, the one for Director Miyazaki? That Miyazaki?"
       },
       {
        "sp": "ジ",
@@ -3764,7 +3773,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ 天気の話で会話を始める ➔ ❷ {話題|わだい} (topic) を変えて質問する ➔ ❸ コメントをする",
-        "tr": "1 Start the conversation by talking about the weather → 2 Change the topic and ask a question → 3 Make a comment"
+        "tr": "❶ Start the conversation by talking about the weather → ❷ Change the topic and ask a question → ❸ Make a comment"
        }
       }
      ]
@@ -3831,7 +3840,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）(p. 24) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) of “2-1. Let's try it” (p. 24)."
+        "tr": "Try talking using what you thought about in 1) of “2-1. Let's try” (p. 24)."
        }
       }
      ]
@@ -3848,7 +3857,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❹ くわしく聞く ➔ ❺（友達が）同じ話題の質問をする",
-        "tr": "4 Ask for details → 5 (Your friend) asks a question on the same topic"
+        "tr": "❹ Ask for details → ❺ (Your friend) asks a question on the same topic"
        }
       }
      ]
@@ -4219,7 +4228,7 @@ TRY.registerLesson({
            "n": "③",
            "text": {
             "ja": "ジョージはスーパーで「こんにちは」と言われた。",
-            "tr": "At the supermarket, George was told “Hello.”"
+            "tr": "Someone said “Hello” to George at the supermarket."
            },
            "answer": "×"
           },
