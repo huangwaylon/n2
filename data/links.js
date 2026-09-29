@@ -67,4 +67,5 @@ TRY.registerLinks([
   { k: "ことなく", ids: ["n2:20 〜ことなく", "n1:123+1 〜ことなく／〜ことなしに"], en: "Same 〜ことなく \"without ~ing\"; N1 uses it (and ことなしに) with a negative result: without doing A, B can't happen." },
   { k: "からすれば", ids: ["n2:60+2 〜からすると／〜からすれば／〜からして", "n1:81 〜にすれば／〜にしたら／〜にしても"], en: "Both mean \"from the standpoint of\"; N1's にすれば imagines how another person sees it." },
   { k: "かかわらず", ids: ["n2:5 〜にかかわらず", "n1:79 〜（よ）うが〜まいが／〜（よ）うと〜まいと"], en: "VるVないにかかわらず and N1's VようがVまいが both mean \"whether or not\"; the N1 form is more emphatic." },
+  { k: "に限る", ids: ["n2:104 〜に{限|かぎ}る", "n1:60 〜に{越|こ}したことはない"], en: "Both say X is best; に限る is a personal conviction (夏はビールに限る), に越したことはない a general, common-sense recommendation." },
 ]);
