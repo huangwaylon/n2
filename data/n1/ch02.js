@@ -444,7 +444,7 @@ TRY.registerChapter({
             { ja: "便利な生活を求めてやまない人間の{欲望|よくぼう}が、さまざまな{矛盾|むじゅん}を生み出している。", en: "Humanity's endless craving for a convenient life is creating all kinds of contradictions." },
           ],
           deepDive: "**V-てやまない** expresses a deep, sincere, long-held feeling (the book: 長い間、強く〜と思っている); literally *not ceasing to V* (止む *to stop*). It is a staple of formal speeches and letters, especially their closing lines: 皆様のご活躍を願ってやみません (*I sincerely wish you every success*).\n\nIt goes with verbs of wishing, hoping and loving (the ＊ note: 願う, 祈る, 期待する, 望む, 愛する), and also 尊敬する and 求める. As a sentence ending, the feeling is the speaker's; as a noun modifier it can describe others: 誰もが敬愛してやまない指導者. The polite form is 〜てやみません (✗願ってやまないです).\n\nCompare the look-alikes in the practice:\n- **〜てたまらない**: unbearable sensations and urges, neutral to casual: 暑くてたまらない (*it's unbearably hot*).\n- **〜てならない**: feelings one can't help having: 悔しくてならない (*I can't help feeling frustrated*).\nBoth follow い-adjectives; てやまない follows verbs.\n\nPitfall: ✗祈ってたまりません in a congratulatory speech; the set phrase is 祈ってやみません.\n\nJLPT cue: a ceremonial context with 願う／祈る／期待する before the blank → てやまない; an い-adjective (暑く, 悔しく) → てたまらない or てならない.",
-          see: [],
+          see: [120],
           index: ["Vてやまない", "〜てやまない"],
           practice: [
             {

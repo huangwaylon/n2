@@ -40,7 +40,7 @@ TRY.registerChapter({
             { ja: "彼は両親が有名人であるばかりに、いつもからかわれてかわいそうだ。", en: "Just because his parents are celebrities, he's always teased. I feel sorry for him." },
           ],
           deepDive: "**〜ばかりに** = *just because ~, all because ~*, followed by a bad or regrettable result. ばかり keeps its sense of *only*: one cause, often a small one, led to an outcome the speaker laments: 一言多かったばかりに、けんかになった (*just because I said one word too many, we ended up fighting*).\n\nConnection: plain form + ばかりに; なA／N take な or である (正直なばかりに, 有名人であるばかりに).\n\nThe second half is an unwanted fact: 〜てしまった, 〜なかった, 〜られた. It can't be a request, wish or intention, and a good result takes おかげで. The exception is **V-たいばかりに**, *just because one wanted ~ so badly*, followed by the lengths someone went to: 彼女に会いたいばかりに、毎日その店に通った (*he went to that shop every day just because he wanted to see her*).\n\nCompare:\n- **〜せいで**: blames a cause without stressing *only that*.\n- **〜ばかりだ** (#115 Plus): *keeps getting worse*, a different ばかり.\n\nJLPT cue: a single cause before the blank and a letdown after it that follows naturally from the cause.",
-          see: [115],
+          see: [115, 128],
           index: ["Plばかりに", "〜であるばかりに", "Vたいばかりに"],
           xref: "☞ p.224　〜ばかり",
           practice: [

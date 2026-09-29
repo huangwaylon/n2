@@ -287,7 +287,7 @@ TRY.registerChapter({
             { ja: "{海|うみ}で子どもを助けたことが新聞に{載|の}って、うれしいやら{恥|は}ずかしいやら…。", en: "The story of how I saved a child at the beach was in the newspaper — I'm both happy and embarrassed…" },
           ],
           deepDive: "**AやらBやら** lists two examples from a larger, messier set: *what with A and B (and more)*. Beyond や／たり, it conveys that a lot was going on or that feelings are mixed: 引っ越しやら入学やらで忙しい (*what with the move and starting school, I'm swamped*); うれしいやら恥ずかしいやら (*happy and embarrassed at once*).\n\nConnection: V-る, いA or N, the two items of the same type; やら〜やらで gives a cause, and trailing off (…) after the second やら is common with feelings.\n\nThe usage's last sentence is a second meaning, **〜のやら〜のやら**, *I can't tell whether A or B*: 本気なのやら冗談なのやら (*I can't tell if he's serious or joking*). The same やら is in 何やら (*something or other*).\n\nRegister: casual; conversation, light essays and blogs.\n\nCompare:\n- **〜とか〜とか**, **〜たり〜たり**: neutral lists.\n- **〜にしろ〜にしろ** (#106): *whether A or B*, a concession rather than a pile of troubles.\nN1's 〜わ〜わ also piles up troubles.\n\nPitfall: one やら alone: ✗部屋代やら交通費で.\n\nJLPT cue: two burdens or two clashing feelings before で, 、 or ….",
-          see: [106],
+          see: [106, 130],
           index: ["〜やら〜やら", "〜のやら〜のやら"],
         },
         {

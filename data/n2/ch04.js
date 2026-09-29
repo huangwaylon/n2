@@ -280,7 +280,7 @@ TRY.registerChapter({
           ],
           xref: "☞ p.222　〜{次第|しだい}",
           deepDive: "**V-ます stem／N + 次第** means *as soon as ~, (I'll) right away*: it announces a future action waiting on something that hasn't happened yet. 決まり次第お知らせします (*we'll let you know as soon as it's decided*). It is the stock phrase of business email, customer service and news desks, and also fine in ordinary speech. The nouns are mostly する-nouns: 到着次第, 確認次第, 完成次第.\n\nConstraints the test checks:\n- The main clause is the speaker's intention, request or plan (〜します, 〜してください), not a past fact: ✗着き次第電話した → ✓着いてすぐ電話した (*I called right after I arrived*).\n- It must be a deliberate action, not something that just happens: ✗春になり次第、桜が咲く.\n\nCompare:\n- **N次第だ／で** (#114): *depends on*: 結果は努力次第だ (*the result depends on your effort*). An action after it means *as soon as*; a varying result means *depends on*.\n- **〜以来** (#9): *ever since*, a state continuing from a past point.\n- **〜際** (#7): *on the occasion of*, a formal *when*.\n\nPitfall: 次第 needs the ます-stem; ✗決まる次第.\n\nJLPT cue: a ます-stem before the blank and a polite future action (いたします, ご連絡します) after it.",
-          see: [114, 9, 7],
+          see: [114, 9, 7, 96],
           index: ["V-ます次第", "N次第", "〜次第、…します"],
           practice: [
             {

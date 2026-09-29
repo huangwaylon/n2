@@ -176,7 +176,7 @@ TRY.registerChapter({
             { ja: "彼は{戦争|せんそう}で家族を{失|うしな}った子どもたちを引き取って{育|そだ}てたのみならず、その子どもたちが{自立|じりつ}して{暮|く}らせるように{教育|きょういく}を受けさせたという。", en: "He is said not only to have taken in and raised children who had lost their families in the war, but also to have had them educated so that they could live independently." },
           ],
           deepDive: "**〜のみならず** is the written equivalent of 〜だけでなく: *not only ~ (but also)*. のみ is the formal *only*, so it sounds stiff and belongs to essays, reports and speeches. The second half adds something **in the same direction**, usually with も, まで or さえ: 若者のみならず、あらゆる世代の人々に利用されている (*used not only by young people but by every generation*).\n\nNouns attach directly (若者のみならず); な-adjectives need である (✗便利のみならず → ✓便利であるのみならず), and nouns may take it too. **ただ〜のみならず** and **ひとり〜のみならず** (*not ~ alone*) intensify it; **それのみならず** starts a sentence: *not only that*.\n\nCompare:\n- **〜に限らず** (#72): *not limited to*, after nouns only: 夏に限らず (*not just in summer*).\n- **〜はもとより** (#12): *not to mention*; the first item is the obvious case: 子どもはもとより大人も楽しめる (*adults can enjoy it, let alone children*).\n- **〜ばかりか**: similar, often adds something surprising or worse.\n\nPitfall: the second half must extend the first, not contrast with it: ✗彼は頭がいいのみならず、性格は悪い. A contrast needs が or 反面.\n\nJLPT cue: ただ before the blank, or も／にも／からも after it.",
-          see: [58, 72, 12, 10],
+          see: [58, 72, 12, 10, 136],
           index: ["〜のみならず", "ただ〜のみならず", "ひとり〜のみならず", "Nであるのみならず"],
           xref: "☞ p.224　〜のみ",
           practice: [

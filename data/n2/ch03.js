@@ -351,7 +351,7 @@ TRY.registerChapter({
             { ja: "いつまでも{夢|ゆめ}見る少女じゃいられないよね、私たち。", en: "We can't stay dreamy girls forever, can we?" },
           ],
           deepDive: "**〜てはいられない** is V-ている + いられない (*can't stay*): *can't afford to keep ~ing*, *this is no time to ~*. It expresses urgency: circumstances or the speaker's own sense of pressure rule out staying in a relaxed or passive state. The book gives two readings: *can't go on* (いつまでも甘えてはいられない, *I can't keep relying on others forever*) and *not in a position to* (忙しくて寝てはいられない, *I'm too busy to sleep*). Typical verbs are 待つ, 休む, のんびりする, 甘える and 頼る, often with いつまでも or これ以上.\n\nCasual forms are **〜ちゃいられない / 〜じゃいられない**; nouns take **Nではいられない** (子どもではいられない, *can't stay a child*).\n\nCompare:\n- **〜ずにはいられない**: *can't help ~ing*: 笑わずにはいられない (*I can't help laughing*), whereas 笑ってはいられない means *this is no laughing matter*.\n- **〜ざるを得ない** (#24): *forced to do* an action, the reverse direction.\n- **〜わけにはいかない** (#57): *can't, because it would be wrong*: a social reason rather than urgency.\n\nPitfall: the verb must be something one could keep doing; ✗出発してはいられない.\n\nJLPT cue: いつまでも or これ以上 before the blank and a reason pressing the speaker to act.",
-          see: [24, 57, 19],
+          see: [24, 57, 19, 38],
           index: ["Vてはいられない", "Vちゃいられない", "Vじゃいられない", "Nではいられない"],
           practice: [
             {

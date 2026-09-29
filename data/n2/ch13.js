@@ -363,7 +363,7 @@ TRY.registerChapter({
             { ja: "いい{記録|きろく}を出すために{薬物|やくぶつ}を使用するのは、フェアプレイの{精神|せいしん}に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to set a good record is an unforgivable act that goes against the spirit of fair play." },
           ],
           deepDive: "**V-stem + がたい** = *hard to ~*, in practice *can't bring oneself to ~*: the difficulty is psychological or moral, not physical. It goes with verbs of believing, accepting, forgiving and forgetting (信じがたい, 受け入れがたい, 許しがたい, 忘れがたい, 〜とは言いがたい *can hardly be called ~*) and is formal; speech uses 信じられない, 許せない. It inflects like an い-adjective and often modifies a noun: 否定しがたい事実 (*an undeniable fact*). ありがたい is the same がたい (originally *rare*).\n\nCompare:\n- 〜にくい (N4): physical or practical difficulty: 歩道が狭くて歩きにくい; ✗歩きがたい.\n- 〜づらい: difficulty that causes discomfort, conversational: 言いづらい.\n- **〜ようがない** (#44): there's no means at all: 書くことがなくて書きようがない. 書きがたい would be reluctance to write something that exists.\n- 〜かねる (taught in N1): a polite *unable to*, for reasons of position: 賛成しかねます.\n\nPitfall: ✗字が小さくて読みがたい → 読みにくい.\n\nJLPT cue: a verb of belief or acceptance in a formal sentence → がたい; a physical obstacle → にくい.",
-          see: [44],
+          see: [44, 66],
           index: ["Vがたい", "信じがたい", "〜とは言いがたい"],
           practice: [
             {

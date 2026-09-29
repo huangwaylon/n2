@@ -60,7 +60,7 @@ TRY.registerChapter({
             },
           ],
           deepDive: "**〜きり** (from 切る, *cut off*) marks the last thing that happened: after it, nothing changed. 彼とは卒業式で会ったきりだ (*the last time I saw him was at graduation*). So the rest of the sentence is a negative or an unchanged state (〜ていない, 〜ままだ), often with a note of *and that was that*.\n\nConnection: V-た + きり; in speech っきり. It can end a sentence (〜たきりだ), modify a noun (一度読んだきりの本, *a book I read only once*) or link with きりで. The 📎 uses: V-ます + （っ）きり, *nonstop* (付きっきり, かかりっきり), and number + きり ≈ だけ (二人きり, *just the two of us*), which sounds more intimate or lonelier than だけ.\n\nCompare **V-たまま** (N3): a state that stays on while something else happens: 靴を履いたまま部屋に入った (*he came into the room with his shoes on*). まま says a state continued; きり says nothing followed.\n\nPitfall: ✗先週会ったきり、昨日も会った. きり rules out any follow-up.\n\nJLPT cue: a V-た form before the blank and a negative after it (連絡がない, 帰ってこない).",
-          see: [],
+          see: [9],
           index: ["V-たきり", "V-たっきり", "Vますきり", "つきっきり", "かかりきり", "二人きり", "一度きり"],
           practice: [
             {
@@ -363,7 +363,7 @@ TRY.registerChapter({
             { ja: "タケダ{産業|さんぎょう}に{就職|しゅうしょく}したいが{新卒|しんそつ}の{採用|さいよう}がないので、どうしようもない。", en: "I want to get a job at Takeda Industries, but they aren't hiring new graduates, so there's nothing I can do.", idiom: true },
           ],
           deepDive: "**〜ようがない** (よう, *way of doing*) means *there's no way to ~*: the action is impossible because the means are missing, such as information, tools or a contact. The reason usually comes first: 住所がわからないので、連絡しようがない (*I don't know the address, so there's no way to contact him*). The tone is resigned; the speaker would do it if they could.\n\nConnection: V-ます + ようがない; with する-nouns both 説明しようがない and 説明のしようがない. どうしようもない (*nothing can be done*) and しようがない／しょうがない (*it can't be helped*) come from the same pattern.\n\nCompare:\n- **〜きれない**: can't do it *all*: 多すぎて覚えきれない (*too many to memorize them all*). ようがない is can't do it at all.\n- **〜ざるを得ない** (#24): the opposite direction, *have no choice but to*.\n- **〜はずがない** (N3): a judgment that something can't be true, not a missing means.\n\nPitfall: the stem is the ます-stem, never the dictionary or potential form: ✗書けようがない.\n\nJLPT cue: a missing resource (道具がない, 連絡先を知らない) before the blank.",
-          see: [24],
+          see: [24, 126],
           xref: "☞ p.225　〜よう",
           index: ["Vますようがない", "Nのしようがない", "どうしようもない", "しようがない"],
           practice: [
