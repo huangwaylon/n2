@@ -48,3 +48,14 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
 - [ ] Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi`
 - [ ] Performance: `tools/perf.mjs` on q1 routes
 - [ ] Docs final: CLAUDE.md, Q1-TRANSCRIPTION.md, README; remove this file
+
+## 4. Four-book site layout and UX (after sections 1–3)
+
+- [ ] Audit the whole shell for four books: book switcher, home/landing that presents N2 · N1 · Q1 · Q2, top bar,
+      sidebar/drawer, page links, footer, settings; consistency between TRY and Quartet views
+- [ ] Design proposal (screenshots before) → redesign where needed: navigation between books and within a book,
+      typography scale, spacing, per-book accent, reading comfort, touch ergonomics, keyboard, accessibility (contrast,
+      focus, landmarks, reduced motion)
+- [ ] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
+      light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
+- [ ] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
