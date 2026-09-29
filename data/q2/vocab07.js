@@ -66,7 +66,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { w: "うち", yomi: "うち", en: "inside" },
   ],
   targets: { audio: "5.Tango_L7-1", page: 3, items: [
-    { n: 1, w: "壁", ex: "外国で生活すると、文化の壁を感じることがある。", tr: "When you live abroad, you sometimes feel the cultural barrier." },
+    { n: 1, w: "壁", ex: "外国で生活すると、文化の壁を感じることがある。", tr: "When you live abroad, you sometimes run into cultural barriers." },
     { n: 2, w: "厚さ", ex: "あのレストランのステーキは、厚さが5センチもある。", tr: "The steaks at that restaurant are a full five centimeters thick." },
     { n: 3, w: "辛い", ex: "仕事が辛いと思うことは、だれにでもあるだろう。", tr: "Everyone probably has times when they find their work hard to bear." },
     { n: 4, w: "濃い", ex: "ねむかったので、濃いコーヒーを飲んだ。", tr: "I was sleepy, so I drank some strong coffee." },
@@ -182,7 +182,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { n: 34, w: "素早く", ex: "ホテルに忘れ物をした時、スタッフが素早く対応してくれて、助かった。", tr: "When I left something behind at the hotel, the staff dealt with it quickly, which was a big help." },
     { n: 35, w: "望む", ex: "幸せを望まない人はいないだろう。", tr: "There's probably no one who doesn't wish for happiness." },
     { n: 36, w: "早速", ex: "友達からすすめられたアプリを早速ダウンロードしてみた。", tr: "I immediately downloaded the app a friend recommended." },
-    { n: 37, w: "[～に]示す", ex: "先輩は後輩の私たちに進むべき道を示してくれた。", tr: "Our senior showed us juniors the path we should take." },
+    { n: 37, w: "[～に]示す", ex: "先輩は後輩の私たちに進むべき道を示してくれた。", tr: "An older student showed us younger ones the path we should take." },
     { n: 38, w: "[～に]返信（する）", ex: "彼は私が送ったメールにすぐ返信してくれる。", tr: "He always replies right away to the emails I send him." },
     { n: 39, w: "裏切る", ex: "友達だと思っていた人に裏切られた経験があります。", tr: "I've been betrayed by someone I thought was a friend." },
     { n: 40, w: "[～に]失望（する）", ex: "就職活動に失敗して、自分自身に失望した。", tr: "I failed at job hunting and was disappointed in myself." },

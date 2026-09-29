@@ -439,7 +439,7 @@ TRY.registerVocab({
       "n": 7,
       "w": "{癒|い}やす",
       "ex": "かわいい犬を見ると{癒|い}やされます。",
-      "tr": "Looking at cute dogs makes me feel soothed."
+      "tr": "Seeing cute dogs soothes me."
      },
      {
       "n": 8,
