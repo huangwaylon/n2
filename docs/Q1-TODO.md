@@ -43,7 +43,10 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
 
 Review error rates found and fixed: lessons 1–10 % (mostly tr wording, bold/underline scope), vocab/kanji 0–3 %.
 
-## 3. After merge
+## 3. After merge (workflow q1-verify: markup → second pass ×10 files → links → layout)
+
+- [ ] Markup for reported gaps: italics in book English, boxed POS forms in English, grey shading, lead + brace
+      connection formulas, speaker labels in readings, tr on reading headings, a)/b) sub-labels, table cell styles
 
 - [x] `check.js q1` OK (flow steps with only a label and ×/？ examples need no text/tr); `verify.js q1` OK — L4 #2
       ★ removed (not starred on p.108 or in the list); 8 vocab words not found in the noisy index OCR, to check
