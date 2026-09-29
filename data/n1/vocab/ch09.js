@@ -433,7 +433,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{熾烈|しれつ}", lv: "N1", pos: "な adjective",
     en: "fierce; intense (competition, battle)",
-    note: "A written word, almost always with 競争 or 争い: 熾烈な競争, 熾烈を極める (be extremely fierce). 激しい is the everyday word. The kanji 熾 is rare, so you may see it written しれつ.",
+    note: "A written word, almost always with 競争 or 争い: 熾烈な競争, 熾烈を極める (be extremely fierce). 激しい is the everyday word. 熾 is outside the everyday (常用) kanji list, so newspapers write it し烈.",
     rx: ["しいれつ", "しょくれつ", "しれい"],
     book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
     ex: [

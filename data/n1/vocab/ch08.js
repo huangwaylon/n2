@@ -383,7 +383,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{美談|びだん}", lv: "N1", pos: "noun",
     en: "a heartwarming or admirable story; a story of a good deed",
-    note: "Often a slightly critical nuance of being idealized: 美談に仕立てる (turn something into a feel-good story), 美談として語られる.",
+    note: "A story of someone's good deed, usually told with approval: 美談として語られる (be told as an inspiring story). 美談に仕立てる (dress something up as a feel-good story) hints that the story has been idealized.",
     rx: ["みだん", "びたん", "びだい"],
     book: { ja: "歴史上の人物の{生涯|しょうがい}には、とかく{作|つく}り{話|ばなし}めいた**{美談|びだん}**が存在しているものだ。", en: "The lives of historical figures tend to come with admirable anecdotes that have the ring of fabrication.", at: "gp/96" },
     ex: [
