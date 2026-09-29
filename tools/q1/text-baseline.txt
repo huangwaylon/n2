@@ -99,22 +99,22 @@ l1.sections.0.blocks.16.blocks.1.blocks.0.items.0.en	Noun-modifying clauses alwa
 l1.sections.0.blocks.16.blocks.1.blocks.0.items.1.en	The subject of a noun-modifying clause is typically marked with が rather than は, so look for a が that might help you figure out where the noun-modifying clause starts.
 l1.sections.0.blocks.16.blocks.2.text.ja	{名詞|めいし}{修飾|しゅうしょく}{部|ぶ}を見つける
 l1.sections.0.blocks.16.blocks.2.text.en	Identifying the noun-modifying clause
-l1.sections.0.blocks.16.blocks.3.text.ja	(a) {田中|たなか}さんは　パーティーで　日本語を　**__勉強している__**　人に会った。
-l1.sections.0.blocks.16.blocks.4.text.ja	(b) 田中さんは　パーティーで　**__日本語を__**　**__勉強している__**　人に会った。
+l1.sections.0.blocks.16.blocks.3.text.ja	(a) {田中|たなか}さんは　パーティーで　日本語を　**__勉強している__**　%%人%%に会った。
+l1.sections.0.blocks.16.blocks.4.text.ja	(b) 田中さんは　パーティーで　**__日本語を__**　**__勉強している__**　%%人%%に会った。
 l1.sections.0.blocks.16.blocks.5.labels.0	Noun
 l1.sections.0.blocks.16.blocks.5.labels.1	×
 l1.sections.0.blocks.16.blocks.6.items.0.en	勉強している is a plain-form verb placed right before the noun 人, so we know that it is the predicate of a noun-modifying clause.
 l1.sections.0.blocks.16.blocks.6.items.1.en	日本語を is the object of 勉強している, so it has to be part of the noun-modifying clause. What about the パーティーで before that? Since parties aren’t usually an occasion for studying Japanese, we can assume that it is not part of the noun-modifying clause.
 l1.sections.0.blocks.16.blocks.7.text.ja	{助詞|じょし}「が」に注目する
 l1.sections.0.blocks.16.blocks.7.text.en	Using the particle が as a clue
-l1.sections.0.blocks.16.blocks.8.text.ja	(a) **母は**　作ったケーキ　を__食べた__。　!!➡「食べた」人＝母。「作った」人は？!!
-l1.sections.0.blocks.16.blocks.9.text.ja	(b) **母が**　__作った__ケーキ　を食べた。　!!➡「作った」人＝母。「食べた」人は？!!
+l1.sections.0.blocks.16.blocks.8.text.ja	(a) **母は**　%%作ったケーキ%%　を__食べた__。　!!➡「食べた」人＝母。「作った」人は？!!
+l1.sections.0.blocks.16.blocks.9.text.ja	(b) %%**母が**　__作った__ケーキ%%　を食べた。　!!➡「作った」人＝母。「食べた」人は？!!
 l1.sections.0.blocks.16.blocks.11.items.0.en	Since the particle in 母は is は, we can tell that 母 is the subject of the entire sentence predicated by 食べた. As the subject of 作った is omitted, we can assume that it is the same as the subject of the sentence, meaning 母 is also the subject of 作った.
 l1.sections.0.blocks.16.blocks.11.items.1.en	Here, the particle used with 母 is が, which means 母 is the subject of a noun-modifying clause whose predicate is 作った. Since the subject of 食べた has been left out, it is likely “I,” the person making the statement.
 l1.sections.0.blocks.16.blocks.12.title.ja	「肉の絵」を{修飾|しゅうしょく}する部分はどこからどこまでか。また「__{描|か}いた__」と「__見て__」の{主語|しゅご}はだれか。
 l1.sections.0.blocks.16.blocks.12.title.en	Where does the clause modifying 肉の絵 start and end? What is the subject of {描|か}いた, and of 見て?
 l1.sections.0.blocks.16.blocks.12.ref	（読み物1：行8〜10）
-l1.sections.0.blocks.16.blocks.12.blocks.0.text.ja	スタッフが__{描|か}いた__肉の絵を__見て__、「この肉はゴムのようだ。かたいのか、やわらかいのか、考えて描きなさい」と怒ったこともあるらしい。
+l1.sections.0.blocks.16.blocks.12.blocks.0.text.ja	スタッフが__{描|か}いた__%%肉の絵%%を__見て__、「この肉はゴムのようだ。かたいのか、やわらかいのか、考えて描きなさい」と怒ったこともあるらしい。
 l1.sections.0.blocks.17.title	{指示詞|しじし}
 l1.sections.0.blocks.17.en	Demonstrative words
 l1.sections.0.blocks.17.blocks.0.text.en	Words starting with こ, そ or あ that serve as simple substitutes for other words (such as これ / それ / あれ, この / その / あの, and ここ / そこ / あそこ) are called demonstrative words. Once you determine the referent of a demonstrative word in a sentence, you’ll have an easier time understanding how that sentence relates to the preceding one.
@@ -124,18 +124,18 @@ l1.sections.0.blocks.17.blocks.1.blocks.0.items.1.en	Keep in mind that demonstra
 l1.sections.0.blocks.17.blocks.2.text.ja	「それ」が{指|さ}すものを見つける
 l1.sections.0.blocks.17.blocks.2.text.en	Identifying the referent of それ
 l1.sections.0.blocks.17.blocks.3.text.ja	週末、カレーを食べた。**__それ__**は、　彼女が初めて作ってくれた料理だった。
-l1.sections.0.blocks.17.blocks.4.text.ja	(a) それは、　彼女が初めて作ってくれた__料理__だった。　!!それ＝料理!!
+l1.sections.0.blocks.17.blocks.4.text.ja	(a) %%それ%%は、　彼女が初めて作ってくれた__料理__だった。　!!それ＝料理!!
 l1.sections.0.blocks.17.blocks.5.text.ja	↓
-l1.sections.0.blocks.17.blocks.6.text.ja	(b) 週末、__カレー__を食べた。それは、　彼女が初めて作ってくれた__料理__だった。　!!料理→カレー!!
+l1.sections.0.blocks.17.blocks.6.text.ja	(b) 週末、__カレー__を食べた。%%それ%%は、　彼女が初めて作ってくれた__料理__だった。　!!料理→カレー!!
 l1.sections.0.blocks.17.blocks.7.text.ja	↓
-l1.sections.0.blocks.17.blocks.8.text.ja	(c) 週末、カレーを食べた。__カレーは、彼女が初めて作ってくれた料理だった__。　!!それ＝カレー!!
+l1.sections.0.blocks.17.blocks.8.text.ja	(c) 週末、カレーを食べた。__%%カレー%%は、彼女が初めて作ってくれた料理だった__。　!!それ＝カレー!!
 l1.sections.0.blocks.17.blocks.10.items.0.en	In the sentence **(a)**, the portion 彼女が初めて作ってくれた is a clause modifying 料理. This means that the main part of this sentence is それは料理だった, and thus we know that the referent of それ is some form of 料理.
 l1.sections.0.blocks.17.blocks.10.items.1.en	Search for words associated with 料理 that precede それ. カレー seems to be the best choice. **(b)**
 l1.sections.0.blocks.17.blocks.10.items.2.en	Next, test it out by replacing それ with カレー. **(c)**
 The sentence makes sense, so we can safely assume that カレー is the referent.
 l1.sections.0.blocks.17.blocks.11.text.ja	{指示詞|しじし}が文を{指|さ}す{場合|ばあい}もある
 l1.sections.0.blocks.17.blocks.11.text.en	Sometimes the demonstrative word refers to the preceding sentence
-l1.sections.0.blocks.17.blocks.12.text.ja	__{昨日|きのう}カラオケに行った__。その時、好きなアニメソングを歌った。
+l1.sections.0.blocks.17.blocks.12.text.ja	__{昨日|きのう}カラオケに行った__。%%その%%時、好きなアニメソングを歌った。
 l1.sections.0.blocks.17.blocks.14.title.ja	「__それ__」が{指|さ}すものは何か。
 l1.sections.0.blocks.17.blocks.14.title.en	What does それ refer to in the following?
 l1.sections.0.blocks.17.blocks.14.ref	（読み物2：行11〜15）
@@ -250,7 +250,7 @@ l1.sections.0.blocks.21.blocks.1.items.3.ja	計画**どおりに**仕事をす�
 l1.sections.0.blocks.21.blocks.2.forms.0	Vる／Vた !!とおり（に）!!
 l1.sections.0.blocks.21.blocks.2.forms.1	N !!どおり（に）!!
 l1.sections.0.blocks.21.blocks.2.blocks.0.items.0.en	X とおり (に) means “exactly the same way as X.” とおり (に) is used when X is a verb, and どおり (に) is used when X is a noun.
-l1.sections.0.blocks.21.blocks.2.blocks.0.items.1.en	X can be instructions (e.g., “if you make [curry] following the directions I give you” in [#1]), or a source of information (e.g., “just as I heard in a rumor”).
+l1.sections.0.blocks.21.blocks.2.blocks.0.items.1.en	X can be instructions (e.g., “if you make [curry] ''following the directions I give you''” in [#1]), or a source of information (e.g., “just as I heard in a rumor”).
 l1.sections.0.blocks.21.blocks.2.blocks.0.items.2.en	Common verbs used in X are verbs that express one’s opinion and/or statement, such as 言う, 話す, 聞く, 思う and 考える. Some examples of nouns used in X are {予定|よてい}, 計画, {希望|きぼう}, {想像|そうぞう}, {予想|よそう}, {練習|れんしゅう}, レシピ and マニュアル.
 l1.sections.0.blocks.21.blocks.2.blocks.0.items.3.en	The particle に can be used only when X とおり/どおり explains the manner in which the action expressed by the following verb is performed (as shown in [#1], [#2] and [#4]). In other cases, に should be omitted ([#3]).
 l1.sections.0.blocks.22.pattern	〜らしい
@@ -305,8 +305,10 @@ l1.sections.0.blocks.22.blocks.6.items.0.lines.1.ja	最近、雨が{降|ふ}ら�
 l1.sections.0.blocks.22.blocks.6.items.0.lines.2.sp	B
 l1.sections.0.blocks.22.blocks.6.items.0.lines.2.ja	本当に{全然|ぜんぜん}梅雨**らしくない**よね。毎年、この{季節|きせつ}は雨の日が続くのに。
 l1.sections.0.blocks.22.blocks.6.items.1.lines.0.ja	子どものイメージ＝「勉強より{遊|あそ}ぶほうが好きだ」
-l1.sections.0.blocks.22.blocks.6.items.1.lines.1.ja	a) {将|しょう}くんはいつも元気に遊んでいて、子ども**らしい**。
-l1.sections.0.blocks.22.blocks.6.items.1.lines.2.ja	b) {愛|あい}ちゃんはいつも一人で難しい本を読んでいて、あまり子ども**らしくない**。
+l1.sections.0.blocks.22.blocks.6.items.1.lines.1.sub	a
+l1.sections.0.blocks.22.blocks.6.items.1.lines.1.ja	{将|しょう}くんはいつも元気に遊んでいて、子ども**らしい**。
+l1.sections.0.blocks.22.blocks.6.items.1.lines.2.sub	b
+l1.sections.0.blocks.22.blocks.6.items.1.lines.2.ja	{愛|あい}ちゃんはいつも一人で難しい本を読んでいて、あまり子ども**らしくない**。
 l1.sections.0.blocks.22.blocks.7.forms.0	N !!らしい!!
 l1.sections.0.blocks.22.blocks.7.blocks.0.items.0.en	(X は) N らしい states that X possesses characteristics typical of N.
 l1.sections.0.blocks.23.pattern	〜ために／〜ためのN
@@ -330,7 +332,7 @@ l1.sections.0.blocks.23.blocks.2.items.2.lines.0.ja	いつも漢字の勉強を�
 l1.sections.0.blocks.23.blocks.2.items.2.lines.1.sp	B
 l1.sections.0.blocks.23.blocks.2.items.2.lines.1.ja	ええ、漢字を{覚|おぼ}える**ために**は、毎日少しずつ勉強するのが一番なんです。
 l1.sections.0.blocks.23.blocks.3.forms.0	V₁る !!ために!! V₂
-l1.sections.0.blocks.23.blocks.3.blocks.0.items.0.en	V₁る ために V₂ means, “V₂ in order to V₁.”
+l1.sections.0.blocks.23.blocks.3.blocks.0.items.0.en	[#V₁る] ために [#V₂] means, “V₂ in order to V₁.”
 l1.sections.0.blocks.23.blocks.3.blocks.0.items.1.en	V₁ and V₂ in this structure take the same subject.
 l1.sections.0.blocks.23.blocks.3.blocks.0.items.2.en	Both verbs must be verbs that express one’s will; verbs in the potential form or stative verbs cannot be used in this structure.
 l1.sections.0.blocks.23.blocks.3.blocks.1.label	例1）
@@ -356,7 +358,7 @@ l1.sections.0.blocks.23.blocks.6.items.0.lines.1.ja	デザイナーになる**�
 l1.sections.0.blocks.23.blocks.6.items.1.ja	図書館は勉強したり、本を読んだりする**ための**場所だ。
 l1.sections.0.blocks.23.blocks.6.items.2.ja	お{見|み}{合|あ}いパーティーは、結婚したい人がパートナーを{探|さが}す**ための**パーティーだ。
 l1.sections.0.blocks.23.blocks.7.forms.0	Vる !!ための!! N
-l1.sections.0.blocks.23.blocks.7.blocks.0.items.0.en	When a noun follows Vる ため, の is used in front of the noun.
+l1.sections.0.blocks.23.blocks.7.blocks.0.items.0.en	When a noun follows [#Vる] ため, の is used in front of the noun.
 l1.sections.0.blocks.24.pattern	〜がきっかけで
 l1.sections.0.blocks.24.gloss	being motivated by ~; for the initial reason of ~
 l1.sections.0.blocks.24.ref	読み物1-行21
@@ -425,15 +427,17 @@ l1.sections.0.blocks.26.blocks.1.items.0.lines.0.ja	スミスさん、今日も�
 l1.sections.0.blocks.26.blocks.1.items.0.lines.1.sp	学生
 l1.sections.0.blocks.26.blocks.1.items.0.lines.1.ja	すみません。明日から遅れない**ようにします**。
 l1.sections.0.blocks.26.blocks.1.items.1.ja	また電車にかさを忘れてしまった。今日で5回目なので、もう忘れない**ようにし**たい。
-l1.sections.0.blocks.26.blocks.1.items.2.lines.0.ja	a) 日本語が上手になりたいので、{友達|ともだち}と日本語で話す**ようにして**います。
-l1.sections.0.blocks.26.blocks.1.items.2.lines.1.ja	b) 日本語が上手になりたいので、友達と英語で話さない**ようにして**います。
+l1.sections.0.blocks.26.blocks.1.items.2.lines.0.sub	a
+l1.sections.0.blocks.26.blocks.1.items.2.lines.0.ja	日本語が上手になりたいので、{友達|ともだち}と日本語で話す**ようにして**います。
+l1.sections.0.blocks.26.blocks.1.items.2.lines.1.sub	b
+l1.sections.0.blocks.26.blocks.1.items.2.lines.1.ja	日本語が上手になりたいので、友達と英語で話さない**ようにして**います。
 l1.sections.0.blocks.26.blocks.1.items.3.lines.0.sp	A
 l1.sections.0.blocks.26.blocks.1.items.3.lines.0.ja	体にいいことって、何かしている？
 l1.sections.0.blocks.26.blocks.1.items.3.lines.1.sp	B
 l1.sections.0.blocks.26.blocks.1.items.3.lines.1.ja	そうだなあ。なるべく毎日、運動する**ようにして**いるよ。
 l1.sections.0.blocks.26.blocks.2.forms.0	Vる／Vない !!ようにする!!
-l1.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	〜ようにする means that the subject of the sentence will be making a conscious effort to do (or not to do) something.
-l1.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	〜ようにしている, on the other hand, means that the subject of the sentence currently is making an effort to do (or not to do) something. Verbs in this construction are typically used for habitual actions, and verbs that express one-time action (such as 入る in the example below) cannot be used.
+l1.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	〜ようにする means that the subject of the sentence ''will'' be making a conscious effort to do (or not to do) something.
+l1.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	〜ようにしている, on the other hand, means that the subject of the sentence ''currently'' is making an effort to do (or not to do) something. Verbs in this construction are typically used for habitual actions, and verbs that express one-time action (such as 入る in the example below) cannot be used.
 l1.sections.0.blocks.26.blocks.2.blocks.1.items.0.ja	友達を作りたいので、サークルに__入る__ようにしている。（入る＝一回だけ）
 l1.sections.0.blocks.26.blocks.2.blocks.1.items.1.ja	日本人の友達を作りたいので、毎日サークルの__{練習|れんしゅう}に行く__ようにしている。
 l1.sections.0.blocks.26.blocks.2.blocks.1.items.1.en	As I want to make Japanese friends, I make a point of going to club practice every day.
@@ -499,7 +503,7 @@ l1.sections.1.blocks.3.items.9.en	properly
 l1.sections.1.blocks.4.text.ja	書くポイント
 l1.sections.1.blocks.5.items.0.text.ja	どんな人か説明する時に{名詞修飾|めいししゅうしょく} (noun modification) を使う。…… (a)
 l1.sections.1.blocks.5.items.0.blocks.0.label	（行5）
-l1.sections.1.blocks.5.items.0.blocks.0.items.0.ja	イチローは、**__{努力|どりょく}と結果で人々を感動させる__** **__すばらしい__** {選手|せんしゅ}だった。
+l1.sections.1.blocks.5.items.0.blocks.0.items.0.ja	イチローは、**__{努力|どりょく}と結果で人々を感動させる__** **__すばらしい__** %%{選手|せんしゅ}%%だった。
 l1.sections.1.blocks.5.items.1.text.ja	調べたことを{引用|いんよう}する (quote) 時は「（〜によると）〜そうだ」や「らしい」を使う。…… (b)
 l1.sections.1.blocks.5.items.1.blocks.0.label	（行6）
 l1.sections.1.blocks.5.items.1.blocks.0.items.0.ja	（イチローは）「今、どんな{練習|れんしゅう}が、どのくらい必要なのか」といつも考えていた**らしい**。
@@ -1127,7 +1131,7 @@ l2.sections.0.blocks.20.blocks.2.forms.1	Vていて → Vており、〜。
 l2.sections.0.blocks.20.blocks.2.forms.2	Vないで → Vず（に）、〜。
 l2.sections.0.blocks.20.blocks.2.forms.3	＊しないで → せず（に）、〜。
 l2.sections.0.blocks.20.blocks.2.blocks.0.items.0.en	The stem in Vます form is a formal equivalent of 〜て.
-l2.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	As seen in examples [#3], [#4] and [#5], formal equivalents for derivatives of て-forms would be Vており for Vていて, Vずに for Vないで, and せずに for しないで.
+l2.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	As seen in examples [#3], [#4] and [#5], formal equivalents for derivatives of て-forms would be [#Vて]おり for [#Vて]いて, [#Vず]に for [#Vない]で, and せずに for しないで.
 l2.sections.0.blocks.20.blocks.3.text.en	☛ い{形容詞|けいようし} て-form のフォーマルな{表現|ひょうげん}〈Formal expression of て-form of い-adjectives〉
 l2.sections.0.blocks.20.blocks.4.text.en	In the case of て-form of い-adjectives (〜くて), the formal expression would be 〜く.
 l2.sections.0.blocks.20.blocks.5.label	例）
@@ -1163,8 +1167,8 @@ l2.sections.0.blocks.21.blocks.3.items.2.lines.1.sp	ジョージ
 l2.sections.0.blocks.21.blocks.3.items.2.lines.1.ja	ありがとう。最近やっと日本語だけで話せるようになっ**てきた**よ。
 l2.sections.0.blocks.21.blocks.3.items.3.ja	私の{娘|むすめ}は中学に入ってから、だんだん勉強するようになっ**てきた**。
 l2.sections.0.blocks.21.blocks.4.forms.0	V!!てくる!!
-l2.sections.0.blocks.21.blocks.4.blocks.0.items.0.en	Vてくる is often used in the past tense (Vてきた) and expresses that a change has occurred in the past and is continuing to take place currently.
-l2.sections.0.blocks.21.blocks.4.blocks.0.items.1.en	Verbs used in Vてくる are verbs that inherently express changes, such as {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる and 慣れる. When other types of verbs are used, the structure would be modified to Vるようになってきた.
+l2.sections.0.blocks.21.blocks.4.blocks.0.items.0.en	[#Vて]くる is often used in the past tense ([#Vて]きた) and expresses that a change has occurred in the past and is continuing to take place currently.
+l2.sections.0.blocks.21.blocks.4.blocks.0.items.1.en	Verbs used in [#Vて]くる are verbs that inherently express changes, such as {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる and 慣れる. When other types of verbs are used, the structure would be modified to [#Vる]ようになってきた.
 l2.sections.0.blocks.21.blocks.5.pattern	〜ていく
 l2.sections.0.blocks.21.blocks.5.gloss	will begin to do; is going to do
 l2.sections.0.blocks.21.blocks.6.items.0.lines.0.sp	A
@@ -1180,8 +1184,8 @@ l2.sections.0.blocks.21.blocks.7.items.0.lines.1.ja	ええ。でも、これか�
 l2.sections.0.blocks.21.blocks.7.items.1.ja	今後、ロボットが増えると、仕事の仕方は変わっ**ていく**でしょう。
 l2.sections.0.blocks.21.blocks.7.items.2.ja	子どもはいつの間にかいろいろなことができるようになっ**ていきます**。
 l2.sections.0.blocks.21.blocks.8.forms.0	V!!ていく!!
-l2.sections.0.blocks.21.blocks.8.blocks.0.items.0.en	Vていく expresses that a change is currently taking place (or will soon begin to take place) and the change is expected to continue into the future.
-l2.sections.0.blocks.21.blocks.8.blocks.0.items.1.en	Similarly to Vてくる, verbs that inherently express changes (e.g., {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる, 慣れる) are used in Vていく, and when other types of verbs are used, the structure would be modified to Vるようになっていく, as shown in [#7].
+l2.sections.0.blocks.21.blocks.8.blocks.0.items.0.en	[#Vて]いく expresses that a change is currently taking place (or will soon begin to take place) and the change is expected to continue into the future.
+l2.sections.0.blocks.21.blocks.8.blocks.0.items.1.en	Similarly to [#Vて]くる, verbs that inherently express changes (e.g., {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる, 慣れる) are used in [#Vて]いく, and when other types of verbs are used, the structure would be modified to [#Vる]ようになっていく, as shown in [#7].
 l2.sections.0.blocks.22.pattern	しか〜ない
 l2.sections.0.blocks.22.ref	読み物1-行15
 l2.sections.0.blocks.22.blocks.0.pattern	Number + counter しか〜ない
@@ -1356,7 +1360,7 @@ l2.sections.0.blocks.25.blocks.3.forms.0.stack.1	＊なA~~だ~~ → な
 l2.sections.0.blocks.25.blocks.3.forms.0.stack.2	＊N~~だ~~ → の
 l2.sections.0.blocks.25.blocks.3.forms.0.join	!!おかげで!!
 l2.sections.0.blocks.25.blocks.3.blocks.0.items.0.en	X おかげで Y is used when there is a cause and effect relationship between X and Y, with X being the cause and Y being the effect. Y is a desirable state resulting from X (such as an act of kindness), and this structure is used typically to express gratitude toward X. Y is often something that is otherwise not controllable by the speaker.
-l2.sections.0.blocks.25.blocks.3.blocks.0.items.1.en	When someone did a favor for the speaker and the speaker wants to express gratitude, Vてくれた (or Vてくださった) おかげで is used.
+l2.sections.0.blocks.25.blocks.3.blocks.0.items.1.en	When someone did a favor for the speaker and the speaker wants to express gratitude, [#Vて]くれた (or [#Vて]くださった) おかげで is used.
 l2.sections.0.blocks.25.blocks.3.blocks.0.items.2.en	When the causality is not obvious but it is speculated that X is the cause for Y, X おかげか Y is used.
 l2.sections.0.blocks.25.blocks.3.blocks.1.label	例）
 l2.sections.0.blocks.25.blocks.3.blocks.1.items.0.ja	昼間によく運動した**おかげか**、{昨日|きのう}の夜はよく{寝|ね}られた。
@@ -1417,16 +1421,22 @@ l2.sections.0.blocks.27.blocks.0.items.0.lines.1.sp	B
 l2.sections.0.blocks.27.blocks.0.items.0.lines.1.ja	うん。**まるで**歌手**のようだ**よね。
 l2.sections.0.blocks.27.blocks.0.items.0.lines.1.en	I know. It’s as if she were a professional singer.
 l2.sections.0.blocks.27.blocks.1.items.0.ja	ジョージは日本語が上手だ。**まるで**日本人**のように**話す。
-l2.sections.0.blocks.27.blocks.1.items.1.ja	a) サラは{背|せ}が高くてきれいだ。**まるで**モデル**のようだ**。
-l2.sections.0.blocks.27.blocks.1.items.2.ja	b) サラは背が高くてきれいだ。**まるで**モデル**のような**人だ。
-l2.sections.0.blocks.27.blocks.1.items.3.ja	c) サラは背が高くてきれいだ。**まるで**モデル**のように**きれいだ。
-l2.sections.0.blocks.27.blocks.1.items.4.ja	a) 今日は**山のように**宿題が出た。
-l2.sections.0.blocks.27.blocks.1.items.5.ja	b) 今日は**山のような**宿題が出た。
-l2.sections.0.blocks.27.blocks.1.items.6.ja	**雪のように**白い花が{咲|さ}いていた。
-l2.sections.0.blocks.27.blocks.1.items.7.ja	彼女は友達が{困|こま}っていても助けない。彼女の心は**{氷|こおり}のように**冷たい。
-l2.sections.0.blocks.27.blocks.2.forms.0	N!!のようだ!!
-l2.sections.0.blocks.27.blocks.2.forms.1	N!!のような!!N
-l2.sections.0.blocks.27.blocks.2.forms.2	N!!のように!!V／A
+l2.sections.0.blocks.27.blocks.1.items.1.lines.0.sub	a
+l2.sections.0.blocks.27.blocks.1.items.1.lines.0.ja	サラは{背|せ}が高くてきれいだ。**まるで**モデル**のようだ**。
+l2.sections.0.blocks.27.blocks.1.items.1.lines.1.sub	b
+l2.sections.0.blocks.27.blocks.1.items.1.lines.1.ja	サラは背が高くてきれいだ。**まるで**モデル**のような**人だ。
+l2.sections.0.blocks.27.blocks.1.items.1.lines.2.sub	c
+l2.sections.0.blocks.27.blocks.1.items.1.lines.2.ja	サラは背が高くてきれいだ。**まるで**モデル**のように**きれいだ。
+l2.sections.0.blocks.27.blocks.1.items.2.lines.0.sub	a
+l2.sections.0.blocks.27.blocks.1.items.2.lines.0.ja	今日は**山のように**宿題が出た。
+l2.sections.0.blocks.27.blocks.1.items.2.lines.1.sub	b
+l2.sections.0.blocks.27.blocks.1.items.2.lines.1.ja	今日は**山のような**宿題が出た。
+l2.sections.0.blocks.27.blocks.1.items.3.ja	**雪のように**白い花が{咲|さ}いていた。
+l2.sections.0.blocks.27.blocks.1.items.4.ja	彼女は友達が{困|こま}っていても助けない。彼女の心は**{氷|こおり}のように**冷たい。
+l2.sections.0.blocks.27.blocks.2.forms.0.lead	N!!の!!
+l2.sections.0.blocks.27.blocks.2.forms.0.stack.0	!!ようだ!!
+l2.sections.0.blocks.27.blocks.2.forms.0.stack.1	!!ような!!N
+l2.sections.0.blocks.27.blocks.2.forms.0.stack.2	!!ように!!V／A
 l2.sections.0.blocks.27.blocks.2.blocks.0.items.0.en	(まるで)Nのようだ is an expression of simile in which something is compared to N.
 l2.sections.0.blocks.27.blocks.2.blocks.0.items.1.en	Nみたい is a more colloquial version of Nのようだ.
 l2.sections.0.blocks.27.blocks.2.blocks.0.items.2.en	[#3], [#4] and [#5] show idiomatic use of Nのようだ: 山のようにある means, “there is a ton of . . . ,” 花のように美しい means, “as beautiful as flower,” 雪のように白い means, “as white as snow,” and 氷のように冷たい means, “as cold as ice.”
@@ -2188,10 +2198,10 @@ l3.sections.0.blocks.14.lines.38	汚さないようにすることは、登山�
 l3.sections.0.blocks.14.lines.39	¶富士山には、日本だけでなく世界中から人が集まります。準備をしっかり行
 l3.sections.0.blocks.14.lines.40	い、マナーを守って、日本一の山に登る感動を味わってください。
 l3.sections.0.blocks.15.labels.0	登山ルート
-l3.sections.0.blocks.15.labels.1	吉田ルート
-l3.sections.0.blocks.15.labels.2	富士宮ルート
-l3.sections.0.blocks.15.labels.3	須走ルート
-l3.sections.0.blocks.15.labels.4	御殿場ルート
+l3.sections.0.blocks.15.labels.1	{吉田|よしだ}ルート
+l3.sections.0.blocks.15.labels.2	{富士宮|ふじのみや}ルート
+l3.sections.0.blocks.15.labels.3	{須走|すばしり}ルート
+l3.sections.0.blocks.15.labels.4	{御殿場|ごてんば}ルート
 l3.sections.0.blocks.16.title.ja	{富士|ふじ}登山の服装と持ち物
 l3.sections.0.blocks.16.blocks.1.items.0.ja	ヘッドライト
 （ほとんどのコースは夜の登山）
@@ -2241,10 +2251,10 @@ l3.sections.0.blocks.17.lines.33	¶このように、おいしい料理やお酒
 l3.sections.0.blocks.17.lines.34	が深められる場所——それが居酒屋だ。あなたもぜひ一
 l3.sections.0.blocks.17.lines.35	度、居酒屋に足を運んで、その独特な{雰囲気|ふんいき}を感じてみ
 l3.sections.0.blocks.17.lines.36	てほしい。
-l3.sections.0.blocks.18.labels.0	串盛り
+l3.sections.0.blocks.18.labels.0	{串|くし}{盛|も}り
 l3.sections.0.blocks.18.labels.1	だしまき
-l3.sections.0.blocks.18.labels.2	えだ豆
-l3.sections.0.blocks.18.labels.3	から揚げ
+l3.sections.0.blocks.18.labels.2	えだ{豆|まめ}
+l3.sections.0.blocks.18.labels.3	から{揚|あ}げ
 l3.sections.0.blocks.19.labels.0	居酒屋のメニュー（例）
 l3.sections.0.blocks.19.labels.1	サラダ
 l3.sections.0.blocks.19.labels.2	お刺身
@@ -2305,8 +2315,8 @@ l3.sections.0.blocks.22.blocks.2.forms.0.stack.3	なAな
 l3.sections.0.blocks.22.blocks.2.forms.0.stack.4	Nの
 l3.sections.0.blocks.22.blocks.2.forms.0.join	!!うちに!!
 l3.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	X うちに Y means that Y will be done while X continues. There is a connotation that it would be too late to do Y once X ends, thus X うちに Y conveys a slightly increased sense of imminence compared with 間に.
-l3.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	The verb in X can take any of the following forms: Vている, Vない, ある, いる.
-l3.sections.0.blocks.22.blocks.2.blocks.0.items.2.en	Vない うちに Y in [#4] implies that Y needs to be done in haste before V occurs.
+l3.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	The verb in X can take any of the following forms: [#Vて]いる, [#Vない], ある, いる.
+l3.sections.0.blocks.22.blocks.2.blocks.0.items.2.en	[#Vない] うちに Y in [#4] implies that Y needs to be done in haste before V occurs.
 l3.sections.0.blocks.22.blocks.2.blocks.0.items.3.en	Y cannot be in the negative form 〜ない. To use 〜ない in Y, 〜うちは would be used rather than 〜うちに.
 l3.sections.0.blocks.22.blocks.2.blocks.1.items.0.ja	日本にいる__うちに__、英語を__話しません__。
 l3.sections.0.blocks.22.blocks.2.blocks.1.items.1.ja	日本にいる__うちは__、英語を__話しません__。
@@ -2346,7 +2356,11 @@ l3.sections.0.blocks.24.blocks.1.items.0.lines.1.ja	日本の習慣に慣れる�
 l3.sections.0.blocks.24.blocks.1.items.1.ja	体**にとって**重要なものの一つは、水だ。
 l3.sections.0.blocks.24.blocks.1.items.2.ja	一人{暮|ぐ}らしをしている人**にとって**{便利|べんり}なものは、インスタントラーメンだろう。
 l3.sections.0.blocks.24.blocks.1.items.3.ja	家族と過ごす時間は、私**にとって**一番必要なものです。
-l3.sections.0.blocks.24.blocks.2.forms.0	N !!にとって!! ｛難しい／大切／必要／{便利|べんり}　etc.｝
+l3.sections.0.blocks.24.blocks.2.forms.0.lead	N !!にとって!!
+l3.sections.0.blocks.24.blocks.2.forms.0.stack.0	難しい
+l3.sections.0.blocks.24.blocks.2.forms.0.stack.1	大切
+l3.sections.0.blocks.24.blocks.2.forms.0.stack.2	必要
+l3.sections.0.blocks.24.blocks.2.forms.0.stack.3	{便利|べんり}　etc.
 l3.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	N にとって X is used when stating a quality of something (an object, person, etc.) from the perspective of N.
 l3.sections.0.blocks.24.blocks.2.blocks.0.items.1.en	N is usually a person or a group of people (e.g., 私, 外国人, 学生, 日本, 町), and X takes words that describe a quality (e.g., 難しい, 大切な, 重要な, 必要な, {便利|べんり}な, etc.).
 l3.sections.0.blocks.24.blocks.2.blocks.0.items.2.en	X cannot be words of description that are subjective and only reflect the speaker’s personal opinion, such as いい, 好きな, {嫌|きら}いな, {賛成|さんせい} and {反対|はんたい}.
@@ -2408,7 +2422,10 @@ l3.sections.0.blocks.27.blocks.1.items.1.lines.1.sp	B
 l3.sections.0.blocks.27.blocks.1.items.1.lines.1.ja	おもしろかったよ。人**によって**感じ方は違うかもしれないけど。
 l3.sections.0.blocks.27.blocks.1.items.2.ja	話す相手**によって**言葉の使い方を変えたほうがいい。
 l3.sections.0.blocks.27.blocks.1.items.3.ja	どれだけ働くか**によって**{給料|きゅうりょう}は変わるだろう。
-l3.sections.0.blocks.27.blocks.2.forms.0	N !!によって!! ｛違う／異なる／変わる　etc.｝
+l3.sections.0.blocks.27.blocks.2.forms.0.lead	N !!によって!!
+l3.sections.0.blocks.27.blocks.2.forms.0.stack.0	違う
+l3.sections.0.blocks.27.blocks.2.forms.0.stack.1	異なる
+l3.sections.0.blocks.27.blocks.2.forms.0.stack.2	変わる　etc.
 l3.sections.0.blocks.27.blocks.2.blocks.0.items.0.en	N によって X states that X can be different depending on what N is.
 l3.sections.0.blocks.27.blocks.2.blocks.0.items.1.en	Embedded questions (such as どれだけ働くか in [#4]) can be used in N as well.
 l3.sections.0.blocks.28.pattern	〜べきだ／べきではない
@@ -2429,8 +2446,9 @@ l3.sections.0.blocks.28.blocks.1.items.3.lines.0.sp	A
 l3.sections.0.blocks.28.blocks.1.items.3.lines.0.ja	ルームメートがうるさくて、部屋で勉強できないんです。
 l3.sections.0.blocks.28.blocks.1.items.3.lines.1.sp	B
 l3.sections.0.blocks.28.blocks.1.items.3.lines.1.ja	{嫌|いや}なら、「{静|しず}かにして！」とはっきり言う**べきだ**よ。
-l3.sections.0.blocks.28.blocks.2.forms.0	Vる !!べきだ!!
-l3.sections.0.blocks.28.blocks.2.forms.1	Vる !!べきではない!!
+l3.sections.0.blocks.28.blocks.2.forms.0.lead	Vる
+l3.sections.0.blocks.28.blocks.2.forms.0.stack.0	!!べきだ!!
+l3.sections.0.blocks.28.blocks.2.forms.0.stack.1	!!べきではない!!
 l3.sections.0.blocks.28.blocks.2.blocks.0.items.0.en	べき is used to make an assertive statement about one’s opinion regarding matters in general, as shown in [#1] through [#3].
 l3.sections.0.blocks.28.blocks.2.blocks.0.items.1.en	When the verb する precedes べき, an abbreviated form すべきだ can be used as well, in addition to the standard form するべきだ.
 l3.sections.0.blocks.28.blocks.2.blocks.0.items.2.en	To make a statement about your own action (i.e., what you think you should do), then 〜なければならない is used instead of 〜べきだ.
@@ -2462,9 +2480,12 @@ l3.sections.0.blocks.29.blocks.1.items.2.lines.1.sp	B
 l3.sections.0.blocks.29.blocks.1.items.2.lines.1.ja	いえいえ。若い**からといって**、できないとは限りませんよ。
 l3.sections.0.blocks.29.blocks.1.items.3.ja	間違えるのが{嫌|いや}だ**からといって**、クラスで話さないのはよくない。
 l3.sections.0.blocks.29.blocks.1.items.4.ja	お金持ちだ**からといって**、幸せとは限らない。
-l3.sections.0.blocks.29.blocks.2.forms.0	[普] !!からといって!! ｛〜とは限らない／Vてはいけない　etc.｝
+l3.sections.0.blocks.29.blocks.2.forms.0.lead	[普] !!からといって!!
+l3.sections.0.blocks.29.blocks.2.forms.0.stack.0	〜とは限らない
+l3.sections.0.blocks.29.blocks.2.forms.0.stack.1	Vてはいけない
+l3.sections.0.blocks.29.blocks.2.forms.0.stack.2	etc.
 l3.sections.0.blocks.29.blocks.2.blocks.0.items.0.en	X からといって Y ない states that X is not a good enough reason to conclude that Y is true, even though people might believe that X can be a reason for Y. For instance, [#5] implies that one might assume that a rich person must be happy, but wealth alone does not equate with happiness, and there may be people who are rich but unhappy.
-l3.sections.0.blocks.29.blocks.2.blocks.0.items.1.en	Some common forms used in Y ない are Vてはいけない, 〜とは限らない and 〜わけではない (see Lesson 6).
+l3.sections.0.blocks.29.blocks.2.blocks.0.items.1.en	Some common forms used in Y ない are [#Vて]はいけない, 〜とは限らない and 〜わけではない (see Lesson 6).
 l3.sections.0.blocks.29.blocks.2.blocks.0.items.2.en	In casual settings, an abbreviated form 〜からって instead of 〜からといって is used, as in [#2].
 l3.sections.0.blocks.30.pattern	〜とは限らない
 l3.sections.0.blocks.30.gloss	it is not always the case that ~
@@ -2511,8 +2532,13 @@ l3.sections.0.blocks.31.blocks.1.items.3.lines.1.sp	B
 l3.sections.0.blocks.31.blocks.1.items.3.lines.1.ja	やっぱりこのタブレットです。
 写真を{撮|と}ったりネットで道を調べたりする**のに**役に立つので。
 l3.sections.0.blocks.31.blocks.1.items.4.ja	このサイトのユーザー登録をする**のに**1分しかかからなかった。
-l3.sections.0.blocks.31.blocks.2.forms.0	Vる !!のに!! ｛使う／必要だ／{便利|べんり}だ／役に立つ／かかる　etc.｝
-l3.sections.0.blocks.31.blocks.2.blocks.0.items.0.en	Vる のに X expresses purposes/uses.
+l3.sections.0.blocks.31.blocks.2.forms.0.lead	Vる !!のに!!
+l3.sections.0.blocks.31.blocks.2.forms.0.stack.0	使う
+l3.sections.0.blocks.31.blocks.2.forms.0.stack.1	必要だ
+l3.sections.0.blocks.31.blocks.2.forms.0.stack.2	{便利|べんり}だ
+l3.sections.0.blocks.31.blocks.2.forms.0.stack.3	役に立つ
+l3.sections.0.blocks.31.blocks.2.forms.0.stack.4	かかる　etc.
+l3.sections.0.blocks.31.blocks.2.blocks.0.items.0.en	[#Vる] のに X expresses purposes/uses.
 l3.sections.0.blocks.31.blocks.2.blocks.0.items.1.en	Expressions used in X are limited to phrases/words such as 使う, 必要だ, {便利|べんり}だ, 役に立つ and かかる.
 l3.sections.1.title.ja	私の好きな町
 l3.sections.1.blocks.0.text.ja	モデル作文
@@ -2666,7 +2692,7 @@ l3.sections.2.blocks.7.lines.5.ja	えっと、❷**申し訳ありませんが�
 l3.sections.2.blocks.7.lines.6.sp	店
 l3.sections.2.blocks.7.lines.6.ja	お二人様キャンセルですね。かしこまりました。
 l3.sections.2.blocks.7.lines.7.sp	ジ
-l3.sections.2.blocks.7.lines.7.ja	❸あの、**それから、**席を個室**に変えていただくことは{可能|かのう}でしょうか。**
+l3.sections.2.blocks.7.lines.7.ja	❸あの、**それから、**席**を**個室**に変えていただくことは{可能|かのう}でしょうか。**
 l3.sections.2.blocks.7.lines.8.sp	店
 l3.sections.2.blocks.7.lines.8.ja	少々お待ちください。……お待たせいたしました。テーブルの個室は{満席|まんせき}のため、お{座敷|ざしき}のご案内となりますが、よろしいでしょうか。
 l3.sections.2.blocks.7.lines.9.sp	ジ
@@ -2710,7 +2736,7 @@ l3.sections.2.blocks.10.steps.3.text.ja	**申し訳ありませんが、**12人*
 l3.sections.2.blocks.10.steps.4.text.ja	かしこまりました。
 l3.sections.2.blocks.10.steps.5.phase.ja	パートB
 l3.sections.2.blocks.10.steps.5.label.ja	変更したい内容をもう一つ伝える
-l3.sections.2.blocks.10.steps.5.text.ja	あの、**それから、**席を個室**に{変|か}えて**
+l3.sections.2.blocks.10.steps.5.text.ja	あの、**それから、**席**を**個室**に{変|か}えて**
 **いただくことは{可能|かのう}でしょうか。**
 l3.sections.2.blocks.10.steps.6.text.ja	個室ですね。かしこまりました。
 他はよろしいですか。
@@ -2927,7 +2953,7 @@ l3.sections.2.blocks.31.steps.8.text.ja	はい、かしこまりました。
 レモンハイの氷抜きですね。
 l3.sections.2.blocks.31.steps.9.label.ja	注文を終える
 l3.sections.2.blocks.31.steps.9.text.ja	**（とりあえず、）以上でお願いします。**
-l3.sections.2.blocks.32.text.ja	{練習|れんしゅう}しよう
+l3.sections.2.blocks.32.text.ja	練習しよう
 l3.sections.2.blocks.33.items.0.ja	［　　　］のパターンを使って話してみましょう。
 l3.sections.2.blocks.34.title.ja	パートA
 l3.sections.2.blocks.34.blocks.0.text.ja	❶ メニューについて質問する ➔ ❷ 注文する
@@ -3087,7 +3113,7 @@ l3.sections.3.blocks.6.labels.3	{須走|すばしり}ルート
 l3.sections.3.blocks.6.labels.4	{吉田|よしだ}ルート
 l3.sections.3.blocks.7.key.0	c
 l3.sections.3.blocks.7.intro.ja	登山サークルのアンドレアと{研|けん}が、{富士山|ふじさん}のパンフレットを見ながら登山イベントの計画を立てています。会話を聞いて、この人たちが登るルートに○をつけなさい。
-l3.sections.3.blocks.7.lines.0.sp	研
+l3.sections.3.blocks.7.lines.0.sp	{研|けん}
 l3.sections.3.blocks.7.lines.0.ja	そろそろ{富士|ふじ}登山のイベントの計画を立てないとね。
 l3.sections.3.blocks.7.lines.1.sp	アンドレア
 l3.sections.3.blocks.7.lines.1.ja	研は何度も登ったことあるんだよね？　{僕|ぼく}、1回しか行ったことがないから、不安だなあ。
@@ -3326,19 +3352,19 @@ l4.sections.0.blocks.17.blocks.4.rows.0.0.ja	(a) **私** !!（だれが）!!
 l4.sections.0.blocks.17.blocks.4.rows.0.1	→
 l4.sections.0.blocks.17.blocks.4.rows.0.2.ja	__土曜日にすしを食べた__
 l4.sections.0.blocks.17.blocks.4.rows.0.3	のは
-l4.sections.0.blocks.17.blocks.4.rows.0.4.ja	私
+l4.sections.0.blocks.17.blocks.4.rows.0.4.text.ja	私
 l4.sections.0.blocks.17.blocks.4.rows.0.5	だ。
 l4.sections.0.blocks.17.blocks.4.rows.1.0.ja	(b) **土曜日** !!（いつ）!!
 l4.sections.0.blocks.17.blocks.4.rows.1.1	→
 l4.sections.0.blocks.17.blocks.4.rows.1.2.ja	__私がすしを食べた__
 l4.sections.0.blocks.17.blocks.4.rows.1.3	のは
-l4.sections.0.blocks.17.blocks.4.rows.1.4.ja	土曜日
+l4.sections.0.blocks.17.blocks.4.rows.1.4.text.ja	土曜日
 l4.sections.0.blocks.17.blocks.4.rows.1.5	だ。
 l4.sections.0.blocks.17.blocks.4.rows.2.0.ja	(c) **すし** !!（何を）!!
 l4.sections.0.blocks.17.blocks.4.rows.2.1	→
 l4.sections.0.blocks.17.blocks.4.rows.2.2.ja	__私が土曜日に食べた__
 l4.sections.0.blocks.17.blocks.4.rows.2.3	のは
-l4.sections.0.blocks.17.blocks.4.rows.2.4.ja	すし
+l4.sections.0.blocks.17.blocks.4.rows.2.4.text.ja	すし
 l4.sections.0.blocks.17.blocks.4.rows.2.5	だ。
 l4.sections.0.blocks.17.blocks.5.items.0.en	In this emphatic construction, the noun being emphasized is embedded in the predicate (〜だ), and the rest of the sentence is placed before 〜のは (here, the subject of the non-emphatic construction, 私は, is replaced with 私が, as seen in **(b)** and **(c)**).
 l4.sections.0.blocks.17.blocks.6.text.ja	{強調構文|きょうちょうこうぶん}の{効果|こうか}
@@ -3418,8 +3444,8 @@ l4.sections.0.blocks.20.blocks.1.items.3.ja	先週、彼とけんかした。そ
 l4.sections.0.blocks.20.blocks.2.forms.0.stack.0	Vて
 l4.sections.0.blocks.20.blocks.2.forms.0.stack.1	N
 l4.sections.0.blocks.20.blocks.2.forms.0.join	!!以来!!
-l4.sections.0.blocks.20.blocks.2.blocks.0.items.0.en	Vて 以来 X (or N 以来 X) states that X has been continuing since the time V or N occurred.
-l4.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	X expresses that something (e.g., custom, change, state) is continuing, and X takes expressions such as Vている, Vるようになった, 〜ない, いAい, なAだ and Nだ.
+l4.sections.0.blocks.20.blocks.2.blocks.0.items.0.en	[#Vて] 以来 X (or N 以来 X) states that X has been continuing since the time V or N occurred.
+l4.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	X expresses that something (e.g., custom, change, state) is continuing, and X takes expressions such as [#Vている], [#Vる]ようになった, 〜ない, [#いAい], [#なA]だ and Nだ.
 l4.sections.0.blocks.21.pattern	〜ような気がする
 l4.sections.0.blocks.21.gloss	have a feeling that ~; feel like ~
 l4.sections.0.blocks.21.ref	読み物1-行11·25
@@ -3466,10 +3492,12 @@ l4.sections.0.blocks.22.blocks.1.items.4.lines.0.ja	旅行はどうでしたか�
 l4.sections.0.blocks.22.blocks.1.items.4.lines.1.sp	B
 l4.sections.0.blocks.22.blocks.1.items.4.lines.1.ja	実は、{財布|さいふ}を{盗|ぬす}まれて……。
 **せっかく**の旅行だったのに、全然楽しめませんでした。
-l4.sections.0.blocks.22.blocks.2.forms.0	!!せっかく!! ｛〜（んだ）から／〜のに｝
+l4.sections.0.blocks.22.blocks.2.forms.0.lead	!!せっかく!!
+l4.sections.0.blocks.22.blocks.2.forms.0.stack.0	〜（んだ）から
+l4.sections.0.blocks.22.blocks.2.forms.0.stack.1	〜のに
 l4.sections.0.blocks.22.blocks.2.forms.1	!!せっかく!!の N
 l4.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	An action or event that follows the form せっかく is considered to be a rare occasion or an opportunity.
-l4.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	“せっかく X（んだ）から、Y” states that one should make the most of X—a rare occasion or an opportunity—by doing Y. Y is often given in the form of advice, suggestion, request, or the speaker’s hope or resolution. Forms commonly used in Y are: 〜ほうがいい, Vてください, V たい and V(よ)う.
+l4.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	“せっかく X（んだ）から、Y” states that one should make the most of X—a rare occasion or an opportunity—by doing Y. Y is often given in the form of advice, suggestion, request, or the speaker’s hope or resolution. Forms commonly used in Y are: 〜ほうがいい, [#Vて]ください, V たい and [#V(よ)う].
 l4.sections.0.blocks.22.blocks.2.blocks.0.items.2.en	“せっかく X のに Y” conveys the speaker’s acknowledgement that X is a rare occasion or an opportunity, and expresses regret for not fully making the most of X.
 l4.sections.0.blocks.22.blocks.2.blocks.0.items.3.en	When X is a noun, the particle の is used after せっかく ([#5]).
 l4.sections.0.blocks.23.pattern	〜さえ
@@ -3497,7 +3525,7 @@ l4.sections.0.blocks.23.blocks.2.items.4.ja	この本は簡単な言葉が使わ
 l4.sections.0.blocks.23.blocks.3.forms.0	N (prt.) !!さえ!!
 l4.sections.0.blocks.23.blocks.3.blocks.0.items.0.en	N さえ emphasizes N as an extreme example.
 l4.sections.0.blocks.23.blocks.3.blocks.0.items.1.en	N さえ X mentions N as an extreme example for X, and implies that since N is X, other things would be X as well.
-l4.sections.0.blocks.23.blocks.3.blocks.0.items.2.en	さえ also implies the speaker’s surprise, self-deprecation, sarcasm, etc. While も can be used for similar function (i.e., to mean even in an emphatic way), さえ conveys the aforementioned feelings more than も alone.
+l4.sections.0.blocks.23.blocks.3.blocks.0.items.2.en	さえ also implies the speaker’s surprise, self-deprecation, sarcasm, etc. While も can be used for similar function (i.e., to mean ''even'' in an emphatic way), さえ conveys the aforementioned feelings more than も alone.
 l4.sections.0.blocks.23.blocks.3.blocks.0.items.3.en	As seen in [#1] and [#2], in sentences where N is normally followed by the particle を, が, は or も, the particle is omitted and さえ is used alone.
 l4.sections.0.blocks.23.blocks.3.blocks.1.items.0.ja	電車の{切符|きっぷ}の買い方 __が__　　　わからなかった。
 l4.sections.0.blocks.23.blocks.3.blocks.1.items.1.ja	電車の切符の買い方 ~~が~~ **さえ** わからなかった。…… [#1]
@@ -3515,9 +3543,9 @@ l4.sections.0.blocks.23.blocks.5.items.0.lines.0.en	What’s the matter? You loo
 l4.sections.0.blocks.23.blocks.5.items.0.lines.1.sp	B
 l4.sections.0.blocks.23.blocks.5.items.0.lines.1.ja	{大丈夫|だいじょうぶ}です。{薬|くすり}**さえ**飲め**ば**すぐによくなると思います。
 l4.sections.0.blocks.23.blocks.5.items.0.lines.1.en	I’m all right. I think I’ll feel better if I just take my medicine.
-l4.sections.0.blocks.23.blocks.6.items.0.lines.0.sp	a)
+l4.sections.0.blocks.23.blocks.6.items.0.lines.0.sub	a
 l4.sections.0.blocks.23.blocks.6.items.0.lines.0.ja	私はチョコレート**さえ**食べられれ**ば**幸せです。
-l4.sections.0.blocks.23.blocks.6.items.0.lines.1.sp	b)
+l4.sections.0.blocks.23.blocks.6.items.0.lines.1.sub	b
 l4.sections.0.blocks.23.blocks.6.items.0.lines.1.ja	私はチョコレートを食べること**さえ**できれ**ば**幸せです。
 l4.sections.0.blocks.23.blocks.6.items.1.ja	天気**さえ**よけれ**ば**、ここから{富士山|ふじさん}が見えます。
 l4.sections.0.blocks.23.blocks.6.items.2.lines.0.sp	A
@@ -3529,7 +3557,11 @@ l4.sections.0.blocks.23.blocks.6.items.3.lines.0.ja	来週の試験が心配な�
 l4.sections.0.blocks.23.blocks.6.items.3.lines.1.sp	{先輩|せんぱい}
 l4.sections.0.blocks.23.blocks.6.items.3.lines.1.ja	漢字を{復習|ふくしゅう}し**さえ**すれ**ば**きっといい点が取れるよ。
 l4.sections.0.blocks.23.blocks.6.items.4.ja	国の家族と時々話して**さえ**いれ**ば**、留学中にホームシックにならないと思う。
-l4.sections.0.blocks.23.blocks.7.forms.0	N (prt.) !!さえ!! ｛V!!ば!!／いAけれ!!ば!!／なAなら（!!ば!!）／Nなら（!!ば!!）｝
+l4.sections.0.blocks.23.blocks.7.forms.0.lead	N (prt.) !!さえ!!
+l4.sections.0.blocks.23.blocks.7.forms.0.stack.0	V!!ば!!
+l4.sections.0.blocks.23.blocks.7.forms.0.stack.1	いAけれ!!ば!!
+l4.sections.0.blocks.23.blocks.7.forms.0.stack.2	なAなら（!!ば!!）
+l4.sections.0.blocks.23.blocks.7.forms.0.stack.3	Nなら（!!ば!!）
 l4.sections.0.blocks.23.blocks.7.forms.1	V~~ます~~ !!さえ!!すれ!!ば!!
 l4.sections.0.blocks.23.blocks.7.forms.2	Vて !!さえ!!いれ!!ば!!
 l4.sections.0.blocks.23.blocks.7.blocks.0.items.0.en	“X ば Y” expresses that a desirable result Y would be achieved if a condition X is met. By adding さえ to a word or phrase in X, this structure would convey that other conditions are not necessary as long as X is met. The statement in [#1] means that the speaker is content as long as he/she has some chocolate, and he/she doesn’t need anything else.
@@ -3538,13 +3570,16 @@ l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.0.sp	A
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.0.ja	{頭|あたま}が痛い時、どうすればよくなりますか。
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.0.en	When I have a headache, what should I do to make it better?
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.1.sp	B
-l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.1.ja	a) {薬|くすり}__さえ__飲めば、よくなります。（←薬を飲めば）
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.1.sub	a
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.1.ja	{薬|くすり}__さえ__飲めば、よくなります。（←薬を飲めば）
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.1.en	If you just take medicine, you’ll get better.
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.2.sp	B
-l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.2.ja	b) {寝|ね}__さえすれば__、よくなります。（←寝れば）
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.2.sub	b
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.2.ja	{寝|ね}__さえすれば__、よくなります。（←寝れば）
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.2.en	If you just sleep, you’ll get better.
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.3.sp	B
-l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.3.ja	c) 少し休ん__でさえいれば__、よくなります。（←少し休んでいれば）
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.3.sub	c
+l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.3.ja	少し休ん__でさえいれば__、よくなります。（←少し休んでいれば）
 l4.sections.0.blocks.23.blocks.7.blocks.1.items.0.lines.3.en	If you just rest for a while, you’ll get better.
 l4.sections.0.blocks.24.pattern	〜たばかり
 l4.sections.0.blocks.24.gloss	have just done
@@ -3565,7 +3600,9 @@ l4.sections.0.blocks.24.blocks.1.items.1.lines.1.sp	B
 l4.sections.0.blocks.24.blocks.1.items.1.lines.1.ja	2週間前に日本に来**たばかり**なので、まだわからないことが多いです。
 l4.sections.0.blocks.24.blocks.1.items.2.ja	生まれ**たばかり**の子犬はとてもかわいい。
 l4.sections.0.blocks.24.blocks.1.items.3.ja	日本語を習い始め**たばかり**の頃は、簡単なあいさつさえできなかった。
-l4.sections.0.blocks.24.blocks.2.forms.0	Vた ｛!!ばかり!!だ／!!ばかり!!の N｝
+l4.sections.0.blocks.24.blocks.2.forms.0.lead	Vた
+l4.sections.0.blocks.24.blocks.2.forms.0.stack.0	!!ばかり!!だ
+l4.sections.0.blocks.24.blocks.2.forms.0.stack.1	!!ばかり!!の N
 l4.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	This structure conveys that not much time has passed since action V was done.
 l4.sections.0.blocks.25.pattern	〜ないで済む／〜ずに済む
 l4.sections.0.blocks.25.gloss	get by without ~ing; it saved me from ~ing
@@ -3717,11 +3754,11 @@ l4.sections.0.blocks.28.blocks.2.forms.0.stack.1	いAけれ!!ば!!
 l4.sections.0.blocks.28.blocks.2.forms.0.stack.2	なAなら（!!ば!!）
 l4.sections.0.blocks.28.blocks.2.forms.0.stack.3	Nなら（!!ば!!）
 l4.sections.0.blocks.28.blocks.2.forms.0.join	〜!!のに!!
-l4.sections.0.blocks.28.blocks.2.blocks.0.items.0.en	X ば Y のに expresses the speaker’s regret that X is not the case, because if X were realized, it would be Y (the desired result). X ばいいのに is a common set phrase used to express such regret when the speaker feels X is not and will not be realized.
+l4.sections.0.blocks.28.blocks.2.blocks.0.items.0.en	X ば Y のに expresses the speaker’s regret that X is not the case, because if X were realized, it would be Y (the desired result). X ばいいのに is a common set phrase used to express such regret when the speaker feels X is not and ''will'' not be realized.
 l4.sections.0.blocks.28.blocks.2.blocks.0.items.1.en	The sentence-ending particle なあ is often used with this structure when expressing the speaker’s wish, as shown in [#1] and [#2].
 l4.sections.0.blocks.28.blocks.2.blocks.0.items.2.en	X たら Y のに also expresses the same sentiment as X ば Y のに.
 l4.sections.0.blocks.28.blocks.2.blocks.1.items.0.ja	私の寮の{門限|もんげん}は11時だ。こんなにルールが{厳|きび}しくなかっ__たらいいのに__と思う。
-l4.sections.0.blocks.28.blocks.2.blocks.2.items.0.en	When Y is in past tense, it expresses the speaker’s regret that Y (the desired result) would have happened if X had been true, or the speaker would have done Y if X had been true.
+l4.sections.0.blocks.28.blocks.2.blocks.2.items.0.en	When Y is in past tense, it expresses the speaker’s regret that Y (the desired result) ''would have'' happened if X had been true, or the speaker ''would have'' done Y if X had been true.
 l4.sections.0.blocks.28.blocks.2.blocks.3.items.0.lines.0.sp	{絵理|えり}
 l4.sections.0.blocks.28.blocks.2.blocks.3.items.0.lines.0.ja	サラ。{昨日|きのう}のジョージのライブ、どうして来なかったの？
 l4.sections.0.blocks.28.blocks.2.blocks.3.items.0.lines.1.sp	サラ
@@ -4513,16 +4550,15 @@ l5.sections.0.blocks.17.blocks.1.items.4.lines.0.ja	来週はレポートの{締
 l5.sections.0.blocks.17.blocks.1.items.4.lines.1.sp	B
 l5.sections.0.blocks.17.blocks.1.items.4.lines.1.ja	卒業したかったら、**どんなに**大変**でも**、あきらめちゃだめだよ。
 l5.sections.0.blocks.17.blocks.1.items.5.ja	**いくら**考え**ても**この宿題の答えがわからない。
-l5.sections.0.blocks.17.blocks.2.forms.0	!!Question word!!（prt.）
+l5.sections.0.blocks.17.blocks.2.forms.0.lead	!!Question word!!（prt.）
 （何／どこ／だれ／どれ／いつ／etc.）
-l5.sections.0.blocks.17.blocks.2.forms.1.stack.0	V!!ても!!
-l5.sections.0.blocks.17.blocks.2.forms.1.stack.1	いAく!!ても!!
-l5.sections.0.blocks.17.blocks.2.forms.1.stack.2	なA!!でも!!
-l5.sections.0.blocks.17.blocks.2.forms.1.stack.3	N!!でも!!
-l5.sections.0.blocks.17.blocks.2.forms.1.join	
-l5.sections.0.blocks.17.blocks.2.forms.2	!!何!!＋counter V!!ても!!
+l5.sections.0.blocks.17.blocks.2.forms.0.stack.0	V!!ても!!
+l5.sections.0.blocks.17.blocks.2.forms.0.stack.1	いAく!!ても!!
+l5.sections.0.blocks.17.blocks.2.forms.0.stack.2	なA!!でも!!
+l5.sections.0.blocks.17.blocks.2.forms.0.stack.3	N!!でも!!
+l5.sections.0.blocks.17.blocks.2.forms.1	!!何!!＋counter V!!ても!!
 l5.sections.0.blocks.17.blocks.2.blocks.0.items.0.en	Question word 〜ても Y means that Y is always true whatever the condition may be.
-l5.sections.0.blocks.17.blocks.2.blocks.0.items.1.en	As shown in [#3], 何 + 度 / 回 + Vても Y means that the same result Y is always achieved no matter how many times the action V is repeated.
+l5.sections.0.blocks.17.blocks.2.blocks.0.items.1.en	As shown in [#3], 何 + 度 / 回 + [#Vて]も Y means that the same result Y is always achieved no matter how many times the action V is repeated.
 l5.sections.0.blocks.17.blocks.2.blocks.0.items.2.en	[#5] and [#6] show usage of どんなに / いくら X ても Y, where Y is true regardless of the extent/degree of X.
 l5.sections.0.blocks.18.pattern	〜たび（に）
 l5.sections.0.blocks.18.gloss	whenever ~; every time ~
@@ -4562,8 +4598,10 @@ l5.sections.0.blocks.19.blocks.0.items.0.lines.0.en	I wonder if Mr. Tanaka has g
 l5.sections.0.blocks.19.blocks.0.items.0.lines.1.sp	B
 l5.sections.0.blocks.19.blocks.0.items.0.lines.1.ja	うん、1時間も前に帰ったから、もう家にいる**はずだ**よ。
 l5.sections.0.blocks.19.blocks.0.items.0.lines.1.en	Yeah, he left for home an hour ago, so he should be there by now.
-l5.sections.0.blocks.19.blocks.1.items.0.lines.0.ja	a) 今日は日曜日だから、銀行は{閉|し}まっている**はずだ**。
-l5.sections.0.blocks.19.blocks.1.items.0.lines.1.ja	b) 今日は日曜日だから、銀行は休みの**はずだ**。
+l5.sections.0.blocks.19.blocks.1.items.0.lines.0.sub	a
+l5.sections.0.blocks.19.blocks.1.items.0.lines.0.ja	今日は日曜日だから、銀行は{閉|し}まっている**はずだ**。
+l5.sections.0.blocks.19.blocks.1.items.0.lines.1.sub	b
+l5.sections.0.blocks.19.blocks.1.items.0.lines.1.ja	今日は日曜日だから、銀行は休みの**はずだ**。
 l5.sections.0.blocks.19.blocks.1.items.1.lines.0.sp	A
 l5.sections.0.blocks.19.blocks.1.items.1.lines.0.ja	スペイン語が話せる人、だれか知らない？
 l5.sections.0.blocks.19.blocks.1.items.1.lines.1.sp	B
@@ -4615,7 +4653,7 @@ l5.sections.0.blocks.20.blocks.2.items.1.lines.0.ja	明日は{絵理|えり}の{
 l5.sections.0.blocks.20.blocks.2.items.1.lines.1.sp	メイリン
 l5.sections.0.blocks.20.blocks.2.items.1.lines.1.ja	うん。じゃあ、私はケーキを{焼|や}い**とく**ね。
 l5.sections.0.blocks.20.blocks.3.forms.0	V!!ておく!!
-l5.sections.0.blocks.20.blocks.3.blocks.0.items.0.en	Vておく is used to state that an action V is done in preparation for the purpose of accomplishing something.
+l5.sections.0.blocks.20.blocks.3.blocks.0.items.0.en	[#Vて]おく is used to state that an action V is done in preparation for the purpose of accomplishing something.
 l5.sections.0.blocks.20.blocks.3.blocks.0.items.1.en	V takes verbs that express one’s will.
 l5.sections.0.blocks.20.blocks.3.blocks.0.items.2.en	In casual conversations, 〜とく is used ([#2]).
 l5.sections.0.blocks.20.blocks.4.pattern	〜ないでおく
@@ -4635,7 +4673,7 @@ l5.sections.0.blocks.20.blocks.6.items.1.ja	今日のランチはホテルの食
 l5.sections.0.blocks.20.blocks.6.items.2.lines.0.ja	〔{研|けん}の日記〕
 l5.sections.0.blocks.20.blocks.6.items.2.lines.1.ja	今日はバレンタインデーだった。ジョージが「{絵理|えり}からチョコレートをもらった！」とうれしそうに僕に言った。実は、僕も同じチョコレートをもらったが、そのことはジョージに言わ**ないでおいた**。
 l5.sections.0.blocks.20.blocks.7.forms.0	V!!ないでおく!!
-l5.sections.0.blocks.20.blocks.7.blocks.0.items.0.en	Vないでおく is used to state that an action V is not done in order to accomplish a certain purpose.
+l5.sections.0.blocks.20.blocks.7.blocks.0.items.0.en	[#Vない]でおく is used to state that an action V is not done in order to accomplish a certain purpose.
 l5.sections.0.blocks.20.blocks.7.blocks.0.items.1.en	V takes verbs that express one’s will.
 l5.sections.0.blocks.21.pattern	まず／次に／それから／最後に
 l5.sections.0.blocks.21.gloss	first of all/next/and then/finally
@@ -4676,12 +4714,11 @@ l5.sections.0.blocks.22.blocks.1.items.3.lines.0.ja	あの店のケーキって�
 l5.sections.0.blocks.22.blocks.1.items.3.lines.1.sp	B
 l5.sections.0.blocks.22.blocks.1.items.3.lines.1.ja	うん。**もし**100円**でも**、私、きっと買わないと思う。
 l5.sections.0.blocks.22.blocks.1.items.4.ja	たとえ世界に男の人が彼しかいなく**ても**、彼とは絶対に結婚したくない。
-l5.sections.0.blocks.22.blocks.2.forms.0	!!（もし）!!
-l5.sections.0.blocks.22.blocks.2.forms.1.stack.0	V!!ても!!
-l5.sections.0.blocks.22.blocks.2.forms.1.stack.1	いAく!!ても!!
-l5.sections.0.blocks.22.blocks.2.forms.1.stack.2	なA!!でも!!
-l5.sections.0.blocks.22.blocks.2.forms.1.stack.3	N!!でも!!
-l5.sections.0.blocks.22.blocks.2.forms.1.join	
+l5.sections.0.blocks.22.blocks.2.forms.0.lead	!!（もし）!!
+l5.sections.0.blocks.22.blocks.2.forms.0.stack.0	V!!ても!!
+l5.sections.0.blocks.22.blocks.2.forms.0.stack.1	いAく!!ても!!
+l5.sections.0.blocks.22.blocks.2.forms.0.stack.2	なA!!でも!!
+l5.sections.0.blocks.22.blocks.2.forms.0.stack.3	N!!でも!!
 l5.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	“(もし)X ても、Y”states that Y will be realized in spite of X, implying that normally Y would not be realized if X is the case. For instance, in the case of [#1], baseball games would typically be cancelled if it rains, but this sentence emphasizes that the game will still be held even if it rains.
 l5.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	When もし is used with this structure, it implies that the speaker thinks X is unlikely to happen.
 l5.sections.0.blocks.22.blocks.2.blocks.0.items.2.en	As in [#3] and [#5], when たとえ is used along with this structure, X is introduced as a hypothetical situation and X often takes an extreme example.
@@ -4713,7 +4750,7 @@ l5.sections.0.blocks.23.blocks.2.blocks.1.items.1.ja	休みに旅行に__行け�
 l5.sections.0.blocks.23.blocks.2.blocks.1.items.1.en	I’m saving my money so that I can go on a trip during the holidays.
 l5.sections.0.blocks.23.blocks.2.blocks.2.items.0.en	The subjects of X and Y can be different, as shown in [#3] and [#4].
 l5.sections.0.blocks.23.blocks.3.text.en	☛ 〜ために〈in order to ~〉
-l5.sections.0.blocks.23.blocks.4.text.en	“X ように Y” and “V₁る ために V₂” are similar in that they both express a purpose. The latter, however, is more likely to be used when emphasizing the subject’s determination to fulfill the purpose. Following are other ways in which the two structures differ:
+l5.sections.0.blocks.23.blocks.4.text.en	“X ように Y” and “[#V₁る] ために [#V₂]” are similar in that they both express a purpose. The latter, however, is more likely to be used when emphasizing the subject’s determination to fulfill the purpose. Following are other ways in which the two structures differ:
 l5.sections.0.blocks.23.blocks.5.text.en	(1) V₁ takes verbs that express one’s will.
 l5.sections.0.blocks.23.blocks.6.items.0.ja	休みに旅行に__行く__ために、アルバイトをしています。
 l5.sections.0.blocks.23.blocks.6.items.0.en	In order to go on a trip during the holidays, I am working part-time.
@@ -5736,9 +5773,10 @@ l6.sections.0.blocks.21.blocks.1.items.4.lines.0.sp	客
 l6.sections.0.blocks.21.blocks.1.items.4.lines.0.ja	あの、仕事で使うパソコンを{探|さが}しているんですが。
 l6.sections.0.blocks.21.blocks.1.items.4.lines.1.sp	店員
 l6.sections.0.blocks.21.blocks.1.items.4.lines.1.ja	使いやすさ**からいうと**、このソミー社のパソコンがおすすめです。
-l6.sections.0.blocks.21.blocks.2.forms.0	N !!からみると!!
-l6.sections.0.blocks.21.blocks.2.forms.1	N !!からすると!!
-l6.sections.0.blocks.21.blocks.2.forms.2	N !!からいうと!!
+l6.sections.0.blocks.21.blocks.2.forms.0.lead	N !!から!!
+l6.sections.0.blocks.21.blocks.2.forms.0.stack.0	!!みると!!
+l6.sections.0.blocks.21.blocks.2.forms.0.stack.1	!!すると!!
+l6.sections.0.blocks.21.blocks.2.forms.0.stack.2	!!いうと!!
 l6.sections.0.blocks.21.blocks.2.blocks.0.items.0.en	N からみると , N からすると and N からいうと all make a statement about something from the standpoint of N.
 l6.sections.0.blocks.21.blocks.2.blocks.0.items.1.en	In the case of N からみると , N usually takes words or phrases that represent a particular person or a group of people, making a statement that speaks for N’s opinion or views.
 l6.sections.0.blocks.21.blocks.2.blocks.0.items.2.en	N in N からすると takes information that is used as evidence or grounds for making a judgment.
@@ -5753,13 +5791,13 @@ l6.sections.0.blocks.22.blocks.0.items.0.lines.0.en	How do you feel about elemen
 l6.sections.0.blocks.22.blocks.0.items.0.lines.1.sp	B
 l6.sections.0.blocks.22.blocks.0.items.0.lines.1.ja	友達と遊ぶ時間がなくなるので、あまりよくない**んじゃないでしょうか**。
 l6.sections.0.blocks.22.blocks.0.items.0.lines.1.en	They will lose the time to hang out with their friends, so I don’t think it’s good for them (although I cannot say this with confidence).
-l6.sections.0.blocks.22.blocks.1.items.0.lines.0.sp	a)
+l6.sections.0.blocks.22.blocks.1.items.0.lines.0.sub	a
 l6.sections.0.blocks.22.blocks.1.items.0.lines.0.ja	期末試験は必要な**のではないでしょうか**。（＝必要だ）
-l6.sections.0.blocks.22.blocks.1.items.0.lines.1.sp	b)
+l6.sections.0.blocks.22.blocks.1.items.0.lines.1.sub	b
 l6.sections.0.blocks.22.blocks.1.items.0.lines.1.ja	期末試験は必要ない**のではないでしょうか**。（＝必要ない）
-l6.sections.0.blocks.22.blocks.1.items.1.lines.0.sp	a)
+l6.sections.0.blocks.22.blocks.1.items.1.lines.0.sub	a
 l6.sections.0.blocks.22.blocks.1.items.1.lines.0.ja	大学生はアルバイトをすべきな**のではないでしょうか**。（＝するべきだ）
-l6.sections.0.blocks.22.blocks.1.items.1.lines.1.sp	b)
+l6.sections.0.blocks.22.blocks.1.items.1.lines.1.sub	b
 l6.sections.0.blocks.22.blocks.1.items.1.lines.1.ja	大学生はアルバイトをすべきではない**のではないでしょうか**。（＝するべきではない）
 l6.sections.0.blocks.22.blocks.1.items.2.lines.0.sp	サラ
 l6.sections.0.blocks.22.blocks.1.items.2.lines.0.ja	ジョージ、{絵理|えり}が{研|けん}と映画に行った話を聞いて{落|お}ち{込|こ}んでいたよね。
@@ -6100,325 +6138,325 @@ l6.sections.2.blocks.2.items.1.blocks.0.cards.0.text.ja	同じ寮に住んでい
 l6.sections.2.blocks.2.items.1.blocks.0.cards.1.who	Aと同じ寮に住んでいる学生
 l6.sections.2.blocks.2.items.1.blocks.0.cards.1.text.ja	Aさんの{苦情|くじょう}を
 聞いて、対応しなさい。
-l6.sections.2.blocks.3.text.ja	聞いてみよう
-l6.sections.2.blocks.4.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
-l6.sections.2.blocks.4.items.0.blocks.0.items.0.text.ja	{研|けん}は今日キッチンを使いましたか。どうして使いましたか。
-l6.sections.2.blocks.4.items.0.blocks.0.items.1.text.ja	ジョージは研に、何をしてほしがっていますか。
-l6.sections.2.blocks.4.items.0.blocks.0.items.2.text.ja	ジョージは出かける時、何をし忘れますか。
-l6.sections.2.blocks.4.items.1.text.ja	ジョージは、{研|けん}に{苦情|くじょう}を言う時、何と言っていましたか。
-l6.sections.2.blocks.4.items.1.blocks.0.items.0.label.ja	① 苦情を言い始める時
-l6.sections.2.blocks.4.items.1.blocks.0.items.0.text.ja	こんなこと＿＿んだけど、研は使ったものを
+l6.sections.2.blocks.4.text.ja	聞いてみよう
+l6.sections.2.blocks.5.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
+l6.sections.2.blocks.5.items.0.blocks.0.items.0.text.ja	{研|けん}は今日キッチンを使いましたか。どうして使いましたか。
+l6.sections.2.blocks.5.items.0.blocks.0.items.1.text.ja	ジョージは研に、何をしてほしがっていますか。
+l6.sections.2.blocks.5.items.0.blocks.0.items.2.text.ja	ジョージは出かける時、何をし忘れますか。
+l6.sections.2.blocks.5.items.1.text.ja	ジョージは、{研|けん}に{苦情|くじょう}を言う時、何と言っていましたか。
+l6.sections.2.blocks.5.items.1.blocks.0.items.0.label.ja	① 苦情を言い始める時
+l6.sections.2.blocks.5.items.1.blocks.0.items.0.text.ja	こんなこと＿＿んだけど、研は使ったものを
 そのままシンクに置きっぱなしにする＿＿？
-l6.sections.2.blocks.4.items.1.blocks.0.items.0.answer.0	言いたくない
-l6.sections.2.blocks.4.items.1.blocks.0.items.0.answer.1	ことが多くない
-l6.sections.2.blocks.4.items.1.blocks.0.items.1.label.ja	② {迷惑|めいわく}な理由を言う時
-l6.sections.2.blocks.4.items.1.blocks.0.items.1.text.ja	僕も{洗|あら}い{物|もの}は好きじゃないから研の＿＿、
+l6.sections.2.blocks.5.items.1.blocks.0.items.0.answer.0	言いたくない
+l6.sections.2.blocks.5.items.1.blocks.0.items.0.answer.1	ことが多くない
+l6.sections.2.blocks.5.items.1.blocks.0.items.1.label.ja	② {迷惑|めいわく}な理由を言う時
+l6.sections.2.blocks.5.items.1.blocks.0.items.1.text.ja	僕も{洗|あら}い{物|もの}は好きじゃないから研の＿＿、
 キッチンは寮のみんなが使うところだから……。
-l6.sections.2.blocks.4.items.1.blocks.0.items.1.answer.0	気持ちはわかるけど
-l6.sections.2.blocks.5.title	ここにも注目
-l6.sections.2.blocks.5.blocks.0.text.ja	「〜っぱなし」
-l6.sections.2.blocks.5.blocks.1.text.ja	同じ{状態|じょうたい} (state) がずっと続くという意味です。しなければいけないことをしないで、「そのままにしておく」「そのままでいる」という意味で、悪い意味で使われることが多い表現です。
-l6.sections.2.blocks.5.blocks.2.label	例1
-l6.sections.2.blocks.5.blocks.2.items.0.lines.0.sp	母
-l6.sections.2.blocks.5.blocks.2.items.0.lines.0.ja	さっき、シャワーを使った人はだれ？
+l6.sections.2.blocks.5.items.1.blocks.0.items.1.answer.0	気持ちはわかるけど
+l6.sections.2.blocks.6.title	ここにも注目
+l6.sections.2.blocks.6.blocks.0.text.ja	「〜っぱなし」
+l6.sections.2.blocks.6.blocks.1.text.ja	同じ{状態|じょうたい} (state) がずっと続くという意味です。しなければいけないことをしないで、「そのままにしておく」「そのままでいる」という意味で、悪い意味で使われることが多い表現です。
+l6.sections.2.blocks.6.blocks.2.label	例1
+l6.sections.2.blocks.6.blocks.2.items.0.lines.0.sp	母
+l6.sections.2.blocks.6.blocks.2.items.0.lines.0.ja	さっき、シャワーを使った人はだれ？
 水を出し__っぱなし__にしないでよ。
-l6.sections.2.blocks.5.blocks.2.items.0.lines.1.sp	子
-l6.sections.2.blocks.5.blocks.2.items.0.lines.1.ja	ごめん。
-l6.sections.2.blocks.5.blocks.3.label	例2
-l6.sections.2.blocks.5.blocks.3.items.0.ja	今日はとても暑かったので、一日中エアコンをつけ__っぱなし__だった。
-l6.sections.2.blocks.5.blocks.4.label	例3
-l6.sections.2.blocks.5.blocks.4.items.0.ja	接客の仕事は一日中立ち__っぱなし__なので、疲れる。
-l6.sections.2.blocks.6.text.ja	モデル会話
-l6.sections.2.blocks.7.title.ja	寮のキッチンの使い方
-l6.sections.2.blocks.7.setting.ja	寮でジョージ（ジ:）が{研|けん}（研:）に話しかける。
-l6.sections.2.blocks.7.lines.0.sp	ジ
-l6.sections.2.blocks.7.lines.0.ja	❶ねえ、研、**もしかして**、今日キッチン使った？
-l6.sections.2.blocks.7.lines.1.sp	研
-l6.sections.2.blocks.7.lines.1.ja	うん。お昼に和風パスタを作った時に使ったよ。どうして？
-l6.sections.2.blocks.7.lines.2.sp	ジ
-l6.sections.2.blocks.7.lines.2.ja	❷**実は**、僕も使いたかった**んだけど**、汚れたお皿やフライパンがあっ**て**……。
-l6.sections.2.blocks.7.lines.3.sp	研
-l6.sections.2.blocks.7.lines.3.ja	あ、ごめん。{洗|あら}うの忘れてた。
-l6.sections.2.blocks.7.lines.4.sp	ジ
-l6.sections.2.blocks.7.lines.4.ja	❸**こんなこと言いたくないんだけど**、研は使ったものをそのままシンクに置きっぱなしにする**ことが多くない？**
-l6.sections.2.blocks.7.lines.5.sp	研
-l6.sections.2.blocks.7.lines.5.ja	あ、そうかも……。
-l6.sections.2.blocks.7.lines.6.sp	ジ
-l6.sections.2.blocks.7.lines.6.ja	❹僕も洗い物は好きじゃないから研**の気持ちはわかるけど**、キッチンは寮のみんなが使うところだ**から**……。
-l6.sections.2.blocks.7.lines.7.sp	研
-l6.sections.2.blocks.7.lines.7.ja	ごめん。ジョージの言うとおりだよ。これからは気をつけるよ。
-l6.sections.2.blocks.7.lines.8.sp	ジ
-l6.sections.2.blocks.7.lines.8.ja	❺うん。**よろしくね。でも、僕も**{窓|まど}をよく開けっぱなしで出かけちゃうことがあるから、**人のことは言えないんだけどね。**
-l6.sections.2.blocks.7.lines.9.sp	研
-l6.sections.2.blocks.7.lines.9.ja	あっ、あれってジョージだったの？ この間、急に雨が降った時、{床|ゆか}がびしょびしょになって大変だったんだよ。
-l6.sections.2.blocks.7.lines.10.sp	ジ
-l6.sections.2.blocks.7.lines.10.ja	わあ、ごめん。
-l6.sections.2.blocks.7.lines.11.sp	研
-l6.sections.2.blocks.7.lines.11.ja	ううん。僕たち、いいコンビかもしれないね。
-l6.sections.2.blocks.9.items.0.ja	もしかして
-l6.sections.2.blocks.9.items.0.en	by any chance
-l6.sections.2.blocks.9.items.1.ja	フライパン
-l6.sections.2.blocks.9.items.1.en	frying pan
-l6.sections.2.blocks.9.items.2.ja	シンク
-l6.sections.2.blocks.9.items.2.en	kitchen sink
-l6.sections.2.blocks.9.items.3.ja	{人|ひと}のことは{言|い}えない
-l6.sections.2.blocks.9.items.3.en	I am in no position to criticize
-l6.sections.2.blocks.9.items.4.ja	{床|ゆか}
-l6.sections.2.blocks.9.items.4.en	floor
-l6.sections.2.blocks.9.items.5.ja	びしょびしょになる
-l6.sections.2.blocks.9.items.5.en	to get water-soaked
-l6.sections.2.blocks.9.items.6.ja	コンビ
-l6.sections.2.blocks.9.items.6.en	pair
-l6.sections.2.blocks.10.text.ja	フローチャート
-l6.sections.2.blocks.11.head.0.ja	あなた：{苦情|くじょう} (complaint) を言う
-l6.sections.2.blocks.11.head.1.ja	同じ寮の学生：対応する
-l6.sections.2.blocks.11.steps.0.phase.ja	パートA
-l6.sections.2.blocks.11.steps.0.label.ja	話しかけて、質問する
-l6.sections.2.blocks.11.steps.0.text.ja	ねえ、〇〇さん、**もしかして**、
+l6.sections.2.blocks.6.blocks.2.items.0.lines.1.sp	子
+l6.sections.2.blocks.6.blocks.2.items.0.lines.1.ja	ごめん。
+l6.sections.2.blocks.6.blocks.3.label	例2
+l6.sections.2.blocks.6.blocks.3.items.0.ja	今日はとても暑かったので、一日中エアコンをつけ__っぱなし__だった。
+l6.sections.2.blocks.6.blocks.4.label	例3
+l6.sections.2.blocks.6.blocks.4.items.0.ja	接客の仕事は一日中立ち__っぱなし__なので、疲れる。
+l6.sections.2.blocks.7.text.ja	モデル会話
+l6.sections.2.blocks.8.title.ja	寮のキッチンの使い方
+l6.sections.2.blocks.8.setting.ja	寮でジョージ（ジ:）が{研|けん}（研:）に話しかける。
+l6.sections.2.blocks.8.lines.0.sp	ジ
+l6.sections.2.blocks.8.lines.0.ja	❶ねえ、研、**もしかして**、今日キッチン使った？
+l6.sections.2.blocks.8.lines.1.sp	研
+l6.sections.2.blocks.8.lines.1.ja	うん。お昼に和風パスタを作った時に使ったよ。どうして？
+l6.sections.2.blocks.8.lines.2.sp	ジ
+l6.sections.2.blocks.8.lines.2.ja	❷**実は**、僕も使いたかった**んだけど**、汚れたお皿やフライパンがあっ**て**……。
+l6.sections.2.blocks.8.lines.3.sp	研
+l6.sections.2.blocks.8.lines.3.ja	あ、ごめん。{洗|あら}うの忘れてた。
+l6.sections.2.blocks.8.lines.4.sp	ジ
+l6.sections.2.blocks.8.lines.4.ja	❸**こんなこと言いたくないんだけど**、研は使ったものをそのままシンクに置きっぱなしにする**ことが多くない？**
+l6.sections.2.blocks.8.lines.5.sp	研
+l6.sections.2.blocks.8.lines.5.ja	あ、そうかも……。
+l6.sections.2.blocks.8.lines.6.sp	ジ
+l6.sections.2.blocks.8.lines.6.ja	❹僕も洗い物は好きじゃないから研**の気持ちはわかるけど**、キッチンは寮のみんなが使うところだ**から**……。
+l6.sections.2.blocks.8.lines.7.sp	研
+l6.sections.2.blocks.8.lines.7.ja	ごめん。ジョージの言うとおりだよ。これからは気をつけるよ。
+l6.sections.2.blocks.8.lines.8.sp	ジ
+l6.sections.2.blocks.8.lines.8.ja	❺うん。**よろしくね。でも、僕も**{窓|まど}をよく開けっぱなしで出かけちゃうことがあるから、**人のことは言えないんだけどね。**
+l6.sections.2.blocks.8.lines.9.sp	研
+l6.sections.2.blocks.8.lines.9.ja	あっ、あれってジョージだったの？ この間、急に雨が降った時、{床|ゆか}がびしょびしょになって大変だったんだよ。
+l6.sections.2.blocks.8.lines.10.sp	ジ
+l6.sections.2.blocks.8.lines.10.ja	わあ、ごめん。
+l6.sections.2.blocks.8.lines.11.sp	研
+l6.sections.2.blocks.8.lines.11.ja	ううん。僕たち、いいコンビかもしれないね。
+l6.sections.2.blocks.10.items.0.ja	もしかして
+l6.sections.2.blocks.10.items.0.en	by any chance
+l6.sections.2.blocks.10.items.1.ja	フライパン
+l6.sections.2.blocks.10.items.1.en	frying pan
+l6.sections.2.blocks.10.items.2.ja	シンク
+l6.sections.2.blocks.10.items.2.en	kitchen sink
+l6.sections.2.blocks.10.items.3.ja	{人|ひと}のことは{言|い}えない
+l6.sections.2.blocks.10.items.3.en	I am in no position to criticize
+l6.sections.2.blocks.10.items.4.ja	{床|ゆか}
+l6.sections.2.blocks.10.items.4.en	floor
+l6.sections.2.blocks.10.items.5.ja	びしょびしょになる
+l6.sections.2.blocks.10.items.5.en	to get water-soaked
+l6.sections.2.blocks.10.items.6.ja	コンビ
+l6.sections.2.blocks.10.items.6.en	pair
+l6.sections.2.blocks.11.text.ja	フローチャート
+l6.sections.2.blocks.12.head.0.ja	あなた：{苦情|くじょう} (complaint) を言う
+l6.sections.2.blocks.12.head.1.ja	同じ寮の学生：対応する
+l6.sections.2.blocks.12.steps.0.phase.ja	パートA
+l6.sections.2.blocks.12.steps.0.label.ja	話しかけて、質問する
+l6.sections.2.blocks.12.steps.0.text.ja	ねえ、〇〇さん、**もしかして**、
 今日キッチン使った？
-l6.sections.2.blocks.11.steps.1.text.ja	うん。どうして？
-l6.sections.2.blocks.11.steps.2.label.ja	{迷惑|めいわく}に思っていることを話す
-l6.sections.2.blocks.11.steps.2.text.ja	**実は**、私も使いたかった**んだけど**、
+l6.sections.2.blocks.12.steps.1.text.ja	うん。どうして？
+l6.sections.2.blocks.12.steps.2.label.ja	{迷惑|めいわく}に思っていることを話す
+l6.sections.2.blocks.12.steps.2.text.ja	**実は**、私も使いたかった**んだけど**、
 汚れたお皿があっ**て**……。
-l6.sections.2.blocks.11.steps.3.text.ja	あ、ごめん。{洗|あら}うの忘れてた。
-l6.sections.2.blocks.11.steps.4.phase.ja	パートB
-l6.sections.2.blocks.11.steps.4.label.ja	相手を怒らせないように、{苦情|くじょう}を言う
-l6.sections.2.blocks.11.steps.4.text.ja	**こんなこと言いたくないんだけど**、〇〇さんは
+l6.sections.2.blocks.12.steps.3.text.ja	あ、ごめん。{洗|あら}うの忘れてた。
+l6.sections.2.blocks.12.steps.4.phase.ja	パートB
+l6.sections.2.blocks.12.steps.4.label.ja	相手を怒らせないように、{苦情|くじょう}を言う
+l6.sections.2.blocks.12.steps.4.text.ja	**こんなこと言いたくないんだけど**、〇〇さんは
 使ったものをそのままシンクに置きっぱなしに
 する**ことが多くない？**
-l6.sections.2.blocks.11.steps.5.text.ja	そうかも……。
-l6.sections.2.blocks.11.steps.6.label.ja	迷惑な理由を言う
-l6.sections.2.blocks.11.steps.6.text.ja	私も洗い物は好きじゃないから〇〇さん**の**
+l6.sections.2.blocks.12.steps.5.text.ja	そうかも……。
+l6.sections.2.blocks.12.steps.6.label.ja	迷惑な理由を言う
+l6.sections.2.blocks.12.steps.6.text.ja	私も洗い物は好きじゃないから〇〇さん**の**
 **気持ちはわかるけど**、キッチンは寮のみん
 なが使うところだ**から**……。
-l6.sections.2.blocks.11.steps.7.text.ja	ごめん。
+l6.sections.2.blocks.12.steps.7.text.ja	ごめん。
 これからは気をつけるよ。
-l6.sections.2.blocks.11.steps.8.label.ja	会話を終える
-l6.sections.2.blocks.11.steps.8.text.ja	うん、**よろしくね。でも、私も**{窓|まど}をよく
+l6.sections.2.blocks.12.steps.8.label.ja	会話を終える
+l6.sections.2.blocks.12.steps.8.text.ja	うん、**よろしくね。でも、私も**{窓|まど}をよく
 開けっぱなしで出かけちゃうから、**人の**
 **ことは言えないんだけどね。**
-l6.sections.2.blocks.12.text.ja	練習しよう
-l6.sections.2.blocks.13.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l6.sections.2.blocks.14.title.ja	パートA
-l6.sections.2.blocks.14.blocks.0.text.ja	❶話しかけて、質問する ➔ ❷{迷惑|めいわく}に思っていることを話す
-l6.sections.2.blocks.15.blocks.0.lines.0.sp	あなた
-l6.sections.2.blocks.15.blocks.0.lines.0.ja	❶ねえ、〇〇さん、**もしかして、**{{今日キッチン使った}}？
-l6.sections.2.blocks.15.blocks.0.lines.1.sp	同じ寮の学生
-l6.sections.2.blocks.15.blocks.0.lines.1.ja	うん。どうして？
-l6.sections.2.blocks.15.blocks.0.lines.2.sp	あなた
-l6.sections.2.blocks.15.blocks.0.lines.2.ja	❷**実は、**{{私も使いたかった}}**んだけど、**{{汚れたお皿があっ}}**て**……。
-l6.sections.2.blocks.15.blocks.0.lines.3.sp	同じ寮の学生
-l6.sections.2.blocks.15.blocks.0.lines.3.ja	あ、ごめん。{{{洗|あら}うの忘れてた}}。
-l6.sections.2.blocks.16.items.0.text.ja	{洗濯|せんたく}をしようと思ったら、同じ寮の学生の洗濯物が洗濯機にずっと入ったままでした。
+l6.sections.2.blocks.13.text.ja	練習しよう
+l6.sections.2.blocks.14.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l6.sections.2.blocks.15.title.ja	パートA
+l6.sections.2.blocks.15.blocks.0.text.ja	❶話しかけて、質問する ➔ ❷{迷惑|めいわく}に思っていることを話す
+l6.sections.2.blocks.16.blocks.0.lines.0.sp	あなた
+l6.sections.2.blocks.16.blocks.0.lines.0.ja	❶ねえ、〇〇さん、**もしかして、**{{今日キッチン使った}}？
+l6.sections.2.blocks.16.blocks.0.lines.1.sp	同じ寮の学生
+l6.sections.2.blocks.16.blocks.0.lines.1.ja	うん。どうして？
+l6.sections.2.blocks.16.blocks.0.lines.2.sp	あなた
+l6.sections.2.blocks.16.blocks.0.lines.2.ja	❷**実は、**{{私も使いたかった}}**んだけど、**{{汚れたお皿があっ}}**て**……。
+l6.sections.2.blocks.16.blocks.0.lines.3.sp	同じ寮の学生
+l6.sections.2.blocks.16.blocks.0.lines.3.ja	あ、ごめん。{{{洗|あら}うの忘れてた}}。
+l6.sections.2.blocks.17.items.0.text.ja	{洗濯|せんたく}をしようと思ったら、同じ寮の学生の洗濯物が洗濯機にずっと入ったままでした。
 {苦情|くじょう}を言いなさい。
-l6.sections.2.blocks.16.items.1.text.ja	夜、{寝|ね}ようと思ったら、{隣|となり}の部屋の学生が聞いている音楽がうるさくて、寝られません。
+l6.sections.2.blocks.17.items.1.text.ja	夜、{寝|ね}ようと思ったら、{隣|となり}の部屋の学生が聞いている音楽がうるさくて、寝られません。
 苦情を言いなさい。
-l6.sections.2.blocks.16.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう} (situation) を使って、{迷惑|めいわく}に思っていることを話してみよう。
-l6.sections.2.blocks.18.title.ja	パートB
-l6.sections.2.blocks.18.blocks.0.text.ja	❸相手を怒らせないように、{苦情|くじょう}を言う ➔ ❹{迷惑|めいわく}な理由を言う ➔ ❺会話を終える
-l6.sections.2.blocks.19.blocks.0.lines.0.sp	あなた
-l6.sections.2.blocks.19.blocks.0.lines.0.ja	❸**こんなこと言いたくないんだけど、**{{〇〇さんは、使ったものをそのままシンクに置きっぱなしにする}}**ことが多くない？**
-l6.sections.2.blocks.19.blocks.0.lines.1.sp	同じ寮の学生
-l6.sections.2.blocks.19.blocks.0.lines.1.ja	そうかも……。
-l6.sections.2.blocks.19.blocks.0.lines.2.sp	あなた
-l6.sections.2.blocks.19.blocks.0.lines.2.ja	❹{{私も{洗|あら}い物は好きじゃないから}}〇〇さん**の気持ちはわかるけど、**{{キッチンは寮のみんなが使うところだ}}**から**……。
-l6.sections.2.blocks.19.blocks.0.lines.3.sp	同じ寮の学生
-l6.sections.2.blocks.19.blocks.0.lines.3.ja	ごめん。これからは気をつけるよ。
-l6.sections.2.blocks.19.blocks.0.lines.4.sp	あなた
-l6.sections.2.blocks.19.blocks.0.lines.4.ja	❺うん、**よろしくね。でも、私も人のことは言えないんだけどね。**
-l6.sections.2.blocks.20.items.0.text.ja	同じ寮の学生は、{洗濯物|せんたくもの}を洗濯機に入れたままにしていることがよくあります。怒らせないように{苦情|くじょう}を言いなさい。
-l6.sections.2.blocks.20.items.1.text.ja	{隣|となり}の部屋の学生は大きな{音|おと}で音楽を聞いていることがよくあります。怒らせないように苦情を言いなさい。
-l6.sections.2.blocks.20.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう}を使って、相手を怒らせないように苦情を言ってみよう。
-l6.sections.2.blocks.21.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l6.sections.2.blocks.22.text.ja	言い訳
-l6.sections.2.blocks.23.text.ja	やってみよう
-l6.sections.2.blocks.24.items.0.text.ja	先生やアパートの{管理人|かんりにん} (caretaker for an apartment) に注意されたことがありますか。その時、あなたは何と言いましたか。2つ考えて下の表にメモしなさい。
-l6.sections.2.blocks.24.items.0.blocks.0.head.0.0	
-l6.sections.2.blocks.24.items.0.blocks.0.head.0.1.ja	a. だれに？
-l6.sections.2.blocks.24.items.0.blocks.0.head.0.2.ja	b. どうして？
-l6.sections.2.blocks.24.items.0.blocks.0.head.0.3.ja	c. その時あなたは何と言った？
-l6.sections.2.blocks.24.items.0.blocks.0.rows.0.0	①
-l6.sections.2.blocks.24.items.0.blocks.0.rows.0.1.text	
-l6.sections.2.blocks.24.items.0.blocks.0.rows.0.2	
-l6.sections.2.blocks.24.items.0.blocks.0.rows.0.3	
-l6.sections.2.blocks.24.items.0.blocks.0.rows.1.0	②
-l6.sections.2.blocks.24.items.0.blocks.0.rows.1.1	
-l6.sections.2.blocks.24.items.0.blocks.0.rows.1.2	
-l6.sections.2.blocks.24.items.1.text.ja	ロールプレイをしなさい。
-l6.sections.2.blocks.24.items.1.blocks.0.cards.0.who	あなた
-l6.sections.2.blocks.24.items.1.blocks.0.cards.0.text.ja	{管理人|かんりにん}に注意されます。
+l6.sections.2.blocks.17.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう} (situation) を使って、{迷惑|めいわく}に思っていることを話してみよう。
+l6.sections.2.blocks.19.title.ja	パートB
+l6.sections.2.blocks.19.blocks.0.text.ja	❸相手を怒らせないように、{苦情|くじょう}を言う ➔ ❹{迷惑|めいわく}な理由を言う ➔ ❺会話を終える
+l6.sections.2.blocks.20.blocks.0.lines.0.sp	あなた
+l6.sections.2.blocks.20.blocks.0.lines.0.ja	❸**こんなこと言いたくないんだけど、**{{〇〇さんは、使ったものをそのままシンクに置きっぱなしにする}}**ことが多くない？**
+l6.sections.2.blocks.20.blocks.0.lines.1.sp	同じ寮の学生
+l6.sections.2.blocks.20.blocks.0.lines.1.ja	そうかも……。
+l6.sections.2.blocks.20.blocks.0.lines.2.sp	あなた
+l6.sections.2.blocks.20.blocks.0.lines.2.ja	❹{{私も{洗|あら}い物は好きじゃないから}}〇〇さん**の気持ちはわかるけど、**{{キッチンは寮のみんなが使うところだ}}**から**……。
+l6.sections.2.blocks.20.blocks.0.lines.3.sp	同じ寮の学生
+l6.sections.2.blocks.20.blocks.0.lines.3.ja	ごめん。これからは気をつけるよ。
+l6.sections.2.blocks.20.blocks.0.lines.4.sp	あなた
+l6.sections.2.blocks.20.blocks.0.lines.4.ja	❺うん、**よろしくね。でも、私も人のことは言えないんだけどね。**
+l6.sections.2.blocks.21.items.0.text.ja	同じ寮の学生は、{洗濯物|せんたくもの}を洗濯機に入れたままにしていることがよくあります。怒らせないように{苦情|くじょう}を言いなさい。
+l6.sections.2.blocks.21.items.1.text.ja	{隣|となり}の部屋の学生は大きな{音|おと}で音楽を聞いていることがよくあります。怒らせないように苦情を言いなさい。
+l6.sections.2.blocks.21.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう}を使って、相手を怒らせないように苦情を言ってみよう。
+l6.sections.2.blocks.22.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.23.text.ja	言い訳
+l6.sections.2.blocks.24.text.ja	やってみよう
+l6.sections.2.blocks.25.items.0.text.ja	先生やアパートの{管理人|かんりにん} (caretaker for an apartment) に注意されたことがありますか。その時、あなたは何と言いましたか。2つ考えて下の表にメモしなさい。
+l6.sections.2.blocks.25.items.0.blocks.0.head.0.0	
+l6.sections.2.blocks.25.items.0.blocks.0.head.0.1.ja	a. だれに？
+l6.sections.2.blocks.25.items.0.blocks.0.head.0.2.ja	b. どうして？
+l6.sections.2.blocks.25.items.0.blocks.0.head.0.3.ja	c. その時あなたは何と言った？
+l6.sections.2.blocks.25.items.0.blocks.0.rows.0.0	①
+l6.sections.2.blocks.25.items.0.blocks.0.rows.0.1.text	
+l6.sections.2.blocks.25.items.0.blocks.0.rows.0.2	
+l6.sections.2.blocks.25.items.0.blocks.0.rows.0.3	
+l6.sections.2.blocks.25.items.0.blocks.0.rows.1.0	②
+l6.sections.2.blocks.25.items.0.blocks.0.rows.1.1	
+l6.sections.2.blocks.25.items.0.blocks.0.rows.1.2	
+l6.sections.2.blocks.25.items.1.text.ja	ロールプレイをしなさい。
+l6.sections.2.blocks.25.items.1.blocks.0.cards.0.who	あなた
+l6.sections.2.blocks.25.items.1.blocks.0.cards.0.text.ja	{管理人|かんりにん}に注意されます。
 上手にあやまりなさい。
-l6.sections.2.blocks.24.items.1.blocks.0.cards.1.who	Aのアパートの{管理人|かんりにん}
-l6.sections.2.blocks.24.items.1.blocks.0.cards.1.text.ja	Aさんがゴミを
+l6.sections.2.blocks.25.items.1.blocks.0.cards.1.who	Aのアパートの{管理人|かんりにん}
+l6.sections.2.blocks.25.items.1.blocks.0.cards.1.text.ja	Aさんがゴミを
 分別しないで捨てるので、
 注意しなさい。
-l6.sections.2.blocks.25.text.ja	聞いてみよう
-l6.sections.2.blocks.26.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
-l6.sections.2.blocks.26.items.0.blocks.0.items.0.text.ja	グエン・ヴァン・タンはどんなことを注意されましたか。2つ答えなさい。
-l6.sections.2.blocks.26.items.0.blocks.0.items.1.text.ja	グエン・ヴァン・タンはどんな言い訳 (excuse) をしましたか。2つ答えなさい。
-l6.sections.2.blocks.27.items.0.text.ja	グエン・ヴァン・タンはあやまる時、何と言っていましたか。
-l6.sections.2.blocks.27.items.0.blocks.0.items.0.label.ja	① ゴミを出す時間についてあやまって、言い訳をする時
-l6.sections.2.blocks.27.items.0.blocks.0.items.0.text.ja	あっ、すみません。{朝寝坊|あさねぼう}＿＿……。
-l6.sections.2.blocks.27.items.0.blocks.0.items.0.answer.0	してしまったもので、つい
-l6.sections.2.blocks.27.items.0.blocks.0.items.1.label.ja	② ゴミの分別についてあやまる時
-l6.sections.2.blocks.27.items.0.blocks.0.items.1.text.ja	ご{迷惑|めいわく}を＿＿すみませんでした。
+l6.sections.2.blocks.26.text.ja	聞いてみよう
+l6.sections.2.blocks.27.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
+l6.sections.2.blocks.27.items.0.blocks.0.items.0.text.ja	グエン・ヴァン・タンはどんなことを注意されましたか。2つ答えなさい。
+l6.sections.2.blocks.27.items.0.blocks.0.items.1.text.ja	グエン・ヴァン・タンはどんな言い訳 (excuse) をしましたか。2つ答えなさい。
+l6.sections.2.blocks.28.items.0.text.ja	グエン・ヴァン・タンはあやまる時、何と言っていましたか。
+l6.sections.2.blocks.28.items.0.blocks.0.items.0.label.ja	① ゴミを出す時間についてあやまって、言い訳をする時
+l6.sections.2.blocks.28.items.0.blocks.0.items.0.text.ja	あっ、すみません。{朝寝坊|あさねぼう}＿＿……。
+l6.sections.2.blocks.28.items.0.blocks.0.items.0.answer.0	してしまったもので、つい
+l6.sections.2.blocks.28.items.0.blocks.0.items.1.label.ja	② ゴミの分別についてあやまる時
+l6.sections.2.blocks.28.items.0.blocks.0.items.1.text.ja	ご{迷惑|めいわく}を＿＿すみませんでした。
 これからは＿＿にします。
 本当にすみませんでした。
-l6.sections.2.blocks.27.items.0.blocks.0.items.1.answer.0	おかけして
-l6.sections.2.blocks.27.items.0.blocks.0.items.1.answer.1	ちゃんと分けるよう
-l6.sections.2.blocks.28.title	ここにも注目
-l6.sections.2.blocks.28.blocks.0.text.ja	「〜もので／〜ものですから」
-l6.sections.2.blocks.28.blocks.1.text.ja	{原因|げんいん} (cause) や理由を表します。あやまって言い訳をする時によく使います。
-l6.sections.2.blocks.28.blocks.2.items.0.lines.0.sp	先生
-l6.sections.2.blocks.28.blocks.2.items.0.lines.0.ja	テイラーさん、5分{遅刻|ちこく}ですよ。もう少し早く来てください。
-l6.sections.2.blocks.28.blocks.2.items.0.lines.1.sp	テイラー
-l6.sections.2.blocks.28.blocks.2.items.0.lines.1.ja	すみません。朝、電車に乗り遅れてしまった__もので__……。
-l6.sections.2.blocks.28.blocks.2.items.1.lines.0.sp	{上司|じょうし}
-l6.sections.2.blocks.28.blocks.2.items.1.lines.0.ja	プロジェクト、無事に終わってよかったなあ。今晩{一杯|いっぱい}飲みに行こうか。
-l6.sections.2.blocks.28.blocks.2.items.1.lines.1.sp	部下
-l6.sections.2.blocks.28.blocks.2.items.1.lines.1.ja	すみません。今日は{息子|むすこ}を{保育園|ほいくえん}に{迎|むか}えに行かなきゃいけない__ものですから__……。
-l6.sections.2.blocks.28.blocks.3.text.ja	「つい」
-l6.sections.2.blocks.28.blocks.4.text.ja	「不注意 (carelessness) でしてしまった」と言い訳をする時、使います。
-l6.sections.2.blocks.28.blocks.5.items.0.ja	〈ルームメートに〉{勝手|かって}にケーキ食べちゃってごめん。たくさんあったから、__つい__……（食べてしまいました）。
-l6.sections.2.blocks.28.blocks.5.items.1.ja	〈ホストファミリーのお母さんに〉帰るのが遅くなって、すみませんでした。パーティーが{盛|も}り{上|あ}がっていたので、__つい__……（遅くなってしまいました）。
-l6.sections.2.blocks.28.blocks.6.text.ja	「てっきり」
-l6.sections.2.blocks.28.blocks.7.text.ja	「絶対そうだ」と思っていた{予想|よそう} (expectation) が、反対の結果になった時に使います。
-l6.sections.2.blocks.28.blocks.8.items.0.ja	外はすごい雨だ。__てっきり__今日は雨が降らないと思っていたから、かさを持ってこなかった。
-l6.sections.2.blocks.28.blocks.8.items.1.lines.0.sp	{田中|たなか}
-l6.sections.2.blocks.28.blocks.8.items.1.lines.0.ja	{研|けん}は、パーティーに来なかったね。
-l6.sections.2.blocks.28.blocks.8.items.1.lines.1.sp	{山下|やました}
-l6.sections.2.blocks.28.blocks.8.items.1.lines.1.ja	うん。パーティーについていろいろ話してたから、__てっきり__彼も来ると思ってたよ。
-l6.sections.2.blocks.29.text.ja	モデル会話
-l6.sections.2.blocks.30.title.ja	ゴミ出しのルール
-l6.sections.2.blocks.30.setting.ja	グエン・ヴァン・タン（グ:）が寮のゴミ捨て場に行く。そこで、{管理人|かんりにん}（管:）に会う。
-l6.sections.2.blocks.30.lines.0.sp	グ
-l6.sections.2.blocks.30.lines.0.ja	あ、管理人さん。おはようございます。
-l6.sections.2.blocks.30.lines.1.sp	管
-l6.sections.2.blocks.30.lines.1.ja	ちょっと、グエンさん。もう9時半ですよ。ゴミは8時半までに出すことになっていますよね。
-l6.sections.2.blocks.30.lines.2.sp	グ
-l6.sections.2.blocks.30.lines.2.ja	❶あっ、**すみません。**{朝寝坊|あさねぼう}してしまった**もので、つい……。**
-l6.sections.2.blocks.30.lines.3.sp	管
-l6.sections.2.blocks.30.lines.3.ja	もうゴミ収集車が行ってしまったので、そのゴミは部屋に持って帰ってください。次はきちんと8時半までに出しに来てくださいね。
-l6.sections.2.blocks.30.lines.4.sp	グ
-l6.sections.2.blocks.30.lines.4.ja	すみません。❶**これからは、このようなことがないようにします。**
-l6.sections.2.blocks.30.lines.5.sp	管
-l6.sections.2.blocks.30.lines.5.ja	お願いしますね。それと……そこに入っているペットボトルのことですけど。
-l6.sections.2.blocks.30.lines.6.sp	グ
-l6.sections.2.blocks.30.lines.6.ja	あ、はい。
-l6.sections.2.blocks.30.lines.7.sp	管
-l6.sections.2.blocks.30.lines.7.ja	ちゃんと分別してくれないと{困|こま}ります。
-l6.sections.2.blocks.30.lines.8.sp	グ
-l6.sections.2.blocks.30.lines.8.ja	えっ、ペットボトルって燃えるゴミじゃないんですか。
-l6.sections.2.blocks.30.lines.9.sp	管
-l6.sections.2.blocks.30.lines.9.ja	ペットボトルはリサイクルできるから資源ゴミです。
-l6.sections.2.blocks.30.lines.10.sp	グ
-l6.sections.2.blocks.30.lines.10.ja	えっ、そうだったんですか。❷**てっきり**、燃えるゴミだ**と思っていました。すみません。**
-l6.sections.2.blocks.30.lines.11.sp	管
-l6.sections.2.blocks.30.lines.11.ja	分別していないと、持っていってもらえないから……。
-l6.sections.2.blocks.30.lines.12.sp	グ
-l6.sections.2.blocks.30.lines.12.ja	❸**ご{迷惑|めいわく}をおかけしてすみませんでした。**
+l6.sections.2.blocks.28.items.0.blocks.0.items.1.answer.0	おかけして
+l6.sections.2.blocks.28.items.0.blocks.0.items.1.answer.1	ちゃんと分けるよう
+l6.sections.2.blocks.29.title	ここにも注目
+l6.sections.2.blocks.29.blocks.0.text.ja	「〜もので／〜ものですから」
+l6.sections.2.blocks.29.blocks.1.text.ja	{原因|げんいん} (cause) や理由を表します。あやまって言い訳をする時によく使います。
+l6.sections.2.blocks.29.blocks.2.items.0.lines.0.sp	先生
+l6.sections.2.blocks.29.blocks.2.items.0.lines.0.ja	テイラーさん、5分{遅刻|ちこく}ですよ。もう少し早く来てください。
+l6.sections.2.blocks.29.blocks.2.items.0.lines.1.sp	テイラー
+l6.sections.2.blocks.29.blocks.2.items.0.lines.1.ja	すみません。朝、電車に乗り遅れてしまった__もので__……。
+l6.sections.2.blocks.29.blocks.2.items.1.lines.0.sp	{上司|じょうし}
+l6.sections.2.blocks.29.blocks.2.items.1.lines.0.ja	プロジェクト、無事に終わってよかったなあ。今晩{一杯|いっぱい}飲みに行こうか。
+l6.sections.2.blocks.29.blocks.2.items.1.lines.1.sp	部下
+l6.sections.2.blocks.29.blocks.2.items.1.lines.1.ja	すみません。今日は{息子|むすこ}を{保育園|ほいくえん}に{迎|むか}えに行かなきゃいけない__ものですから__……。
+l6.sections.2.blocks.29.blocks.3.text.ja	「つい」
+l6.sections.2.blocks.29.blocks.4.text.ja	「不注意 (carelessness) でしてしまった」と言い訳をする時、使います。
+l6.sections.2.blocks.29.blocks.5.items.0.ja	〈ルームメートに〉{勝手|かって}にケーキ食べちゃってごめん。たくさんあったから、__つい__……（食べてしまいました）。
+l6.sections.2.blocks.29.blocks.5.items.1.ja	〈ホストファミリーのお母さんに〉帰るのが遅くなって、すみませんでした。パーティーが{盛|も}り{上|あ}がっていたので、__つい__……（遅くなってしまいました）。
+l6.sections.2.blocks.29.blocks.6.text.ja	「てっきり」
+l6.sections.2.blocks.29.blocks.7.text.ja	「絶対そうだ」と思っていた{予想|よそう} (expectation) が、反対の結果になった時に使います。
+l6.sections.2.blocks.29.blocks.8.items.0.ja	外はすごい雨だ。__てっきり__今日は雨が降らないと思っていたから、かさを持ってこなかった。
+l6.sections.2.blocks.29.blocks.8.items.1.lines.0.sp	{田中|たなか}
+l6.sections.2.blocks.29.blocks.8.items.1.lines.0.ja	{研|けん}は、パーティーに来なかったね。
+l6.sections.2.blocks.29.blocks.8.items.1.lines.1.sp	{山下|やました}
+l6.sections.2.blocks.29.blocks.8.items.1.lines.1.ja	うん。パーティーについていろいろ話してたから、__てっきり__彼も来ると思ってたよ。
+l6.sections.2.blocks.30.text.ja	モデル会話
+l6.sections.2.blocks.31.title.ja	ゴミ出しのルール
+l6.sections.2.blocks.31.setting.ja	グエン・ヴァン・タン（グ:）が寮のゴミ捨て場に行く。そこで、{管理人|かんりにん}（管:）に会う。
+l6.sections.2.blocks.31.lines.0.sp	グ
+l6.sections.2.blocks.31.lines.0.ja	あ、管理人さん。おはようございます。
+l6.sections.2.blocks.31.lines.1.sp	管
+l6.sections.2.blocks.31.lines.1.ja	ちょっと、グエンさん。もう9時半ですよ。ゴミは8時半までに出すことになっていますよね。
+l6.sections.2.blocks.31.lines.2.sp	グ
+l6.sections.2.blocks.31.lines.2.ja	❶あっ、**すみません。**{朝寝坊|あさねぼう}してしまった**もので、つい……。**
+l6.sections.2.blocks.31.lines.3.sp	管
+l6.sections.2.blocks.31.lines.3.ja	もうゴミ収集車が行ってしまったので、そのゴミは部屋に持って帰ってください。次はきちんと8時半までに出しに来てくださいね。
+l6.sections.2.blocks.31.lines.4.sp	グ
+l6.sections.2.blocks.31.lines.4.ja	すみません。❶**これからは、このようなことがないようにします。**
+l6.sections.2.blocks.31.lines.5.sp	管
+l6.sections.2.blocks.31.lines.5.ja	お願いしますね。それと……そこに入っているペットボトルのことですけど。
+l6.sections.2.blocks.31.lines.6.sp	グ
+l6.sections.2.blocks.31.lines.6.ja	あ、はい。
+l6.sections.2.blocks.31.lines.7.sp	管
+l6.sections.2.blocks.31.lines.7.ja	ちゃんと分別してくれないと{困|こま}ります。
+l6.sections.2.blocks.31.lines.8.sp	グ
+l6.sections.2.blocks.31.lines.8.ja	えっ、ペットボトルって燃えるゴミじゃないんですか。
+l6.sections.2.blocks.31.lines.9.sp	管
+l6.sections.2.blocks.31.lines.9.ja	ペットボトルはリサイクルできるから資源ゴミです。
+l6.sections.2.blocks.31.lines.10.sp	グ
+l6.sections.2.blocks.31.lines.10.ja	えっ、そうだったんですか。❷**てっきり**、燃えるゴミだ**と思っていました。すみません。**
+l6.sections.2.blocks.31.lines.11.sp	管
+l6.sections.2.blocks.31.lines.11.ja	分別していないと、持っていってもらえないから……。
+l6.sections.2.blocks.31.lines.12.sp	グ
+l6.sections.2.blocks.31.lines.12.ja	❸**ご{迷惑|めいわく}をおかけしてすみませんでした。**
 **これからはちゃんと**分ける**ようにします。本当にすみませんでした。**
-l6.sections.2.blocks.30.lines.13.sp	管
-l6.sections.2.blocks.30.lines.13.ja	よろしくお願いしますね。
-l6.sections.2.blocks.31.items.0.ja	ゴミ{捨|す}て{場|ば}
-l6.sections.2.blocks.31.items.0.en	a garbage collection site
-l6.sections.2.blocks.31.items.1.ja	{管理人|かんりにん}
-l6.sections.2.blocks.31.items.1.en	caretaker for an apartment
-l6.sections.2.blocks.31.items.2.ja	ゴミ{収集車|しゅうしゅうしゃ}
-l6.sections.2.blocks.31.items.2.en	garbage wagon
-l6.sections.2.blocks.31.items.3.ja	てっきり
-l6.sections.2.blocks.31.items.3.en	I thought for sure
-l6.sections.2.blocks.31.items.4.ja	{迷惑|めいわく}をかける
-l6.sections.2.blocks.31.items.4.en	to bother someone
-l6.sections.2.blocks.31.items.5.ja	ご{迷惑|めいわく}をおかけしてすみません
-l6.sections.2.blocks.31.items.5.en	I'm sorry for causing you trouble.
-l6.sections.2.blocks.32.text.ja	フローチャート
-l6.sections.2.blocks.33.head.0.ja	あなた：あやまる
-l6.sections.2.blocks.33.head.1.ja	{管理人|かんりにん}：注意する
-l6.sections.2.blocks.33.steps.0.phase.ja	パートA
-l6.sections.2.blocks.33.steps.0.text.ja	ちょっと、〇〇さん。ゴミは8時半までに出すことになっていますよね。
-l6.sections.2.blocks.33.steps.1.label.ja	あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
-l6.sections.2.blocks.33.steps.1.text.ja	あっ、**すみません。**{朝寝坊|あさねぼう}してしまった**もので、つい……。これからは、このようなことがないようにします。**
-l6.sections.2.blocks.33.steps.2.text.ja	お願いしますね。
-l6.sections.2.blocks.33.steps.3.phase.ja	パートB
-l6.sections.2.blocks.33.steps.3.text.ja	それと、そこに入っているペットボトルのことですけど。
-l6.sections.2.blocks.33.steps.4.text.ja	はい。
-l6.sections.2.blocks.33.steps.5.text.ja	ちゃんと分別してくれないと{困|こま}ります。
-l6.sections.2.blocks.33.steps.6.label.ja	かん違い (misunderstanding) をしていたことを伝えてあやまる
-l6.sections.2.blocks.33.steps.6.text.ja	えっ、**てっきり**、ペットボトルは燃えるゴミだ**と思っていました。すみません。**
-l6.sections.2.blocks.33.steps.7.text.ja	分別していないと、持っていってもらえないから……。
-l6.sections.2.blocks.33.steps.8.label.ja	もう一度あやまり、決意を伝える
-l6.sections.2.blocks.33.steps.8.text.ja	**ご{迷惑|めいわく}をおかけしてすみませんでした。**
+l6.sections.2.blocks.31.lines.13.sp	管
+l6.sections.2.blocks.31.lines.13.ja	よろしくお願いしますね。
+l6.sections.2.blocks.33.items.0.ja	ゴミ{捨|す}て{場|ば}
+l6.sections.2.blocks.33.items.0.en	a garbage collection site
+l6.sections.2.blocks.33.items.1.ja	{管理人|かんりにん}
+l6.sections.2.blocks.33.items.1.en	caretaker for an apartment
+l6.sections.2.blocks.33.items.2.ja	ゴミ{収集車|しゅうしゅうしゃ}
+l6.sections.2.blocks.33.items.2.en	garbage wagon
+l6.sections.2.blocks.33.items.3.ja	てっきり
+l6.sections.2.blocks.33.items.3.en	I thought for sure
+l6.sections.2.blocks.33.items.4.ja	{迷惑|めいわく}をかける
+l6.sections.2.blocks.33.items.4.en	to bother someone
+l6.sections.2.blocks.33.items.5.ja	ご{迷惑|めいわく}をおかけしてすみません
+l6.sections.2.blocks.33.items.5.en	I'm sorry for causing you trouble.
+l6.sections.2.blocks.34.text.ja	フローチャート
+l6.sections.2.blocks.35.head.0.ja	あなた：あやまる
+l6.sections.2.blocks.35.head.1.ja	{管理人|かんりにん}：注意する
+l6.sections.2.blocks.35.steps.0.phase.ja	パートA
+l6.sections.2.blocks.35.steps.0.text.ja	ちょっと、〇〇さん。ゴミは8時半までに出すことになっていますよね。
+l6.sections.2.blocks.35.steps.1.label.ja	あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
+l6.sections.2.blocks.35.steps.1.text.ja	あっ、**すみません。**{朝寝坊|あさねぼう}してしまった**もので、つい……。これからは、このようなことがないようにします。**
+l6.sections.2.blocks.35.steps.2.text.ja	お願いしますね。
+l6.sections.2.blocks.35.steps.3.phase.ja	パートB
+l6.sections.2.blocks.35.steps.3.text.ja	それと、そこに入っているペットボトルのことですけど。
+l6.sections.2.blocks.35.steps.4.text.ja	はい。
+l6.sections.2.blocks.35.steps.5.text.ja	ちゃんと分別してくれないと{困|こま}ります。
+l6.sections.2.blocks.35.steps.6.label.ja	かん違い (misunderstanding) をしていたことを伝えてあやまる
+l6.sections.2.blocks.35.steps.6.text.ja	えっ、**てっきり**、ペットボトルは燃えるゴミだ**と思っていました。すみません。**
+l6.sections.2.blocks.35.steps.7.text.ja	分別していないと、持っていってもらえないから……。
+l6.sections.2.blocks.35.steps.8.label.ja	もう一度あやまり、決意を伝える
+l6.sections.2.blocks.35.steps.8.text.ja	**ご{迷惑|めいわく}をおかけしてすみませんでした。**
 **これからはちゃんと**分ける**ようにします。**
 **本当にすみませんでした。**
-l6.sections.2.blocks.34.text.ja	{練習|れんしゅう}しよう
-l6.sections.2.blocks.35.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l6.sections.2.blocks.36.title.ja	パートA
-l6.sections.2.blocks.36.blocks.0.text.ja	❶ あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
-l6.sections.2.blocks.37.blocks.0.lines.0.sp	{管理人|かんりにん}
-l6.sections.2.blocks.37.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは8時半までに出す}}ことになっていますよね。
-l6.sections.2.blocks.37.blocks.0.lines.1.sp	あなた
-l6.sections.2.blocks.37.blocks.0.lines.1.ja	❶あっ、**すみません。**{{{朝寝坊|あさねぼう}し}}てしまった**もので、つい……。**
+l6.sections.2.blocks.36.text.ja	練習しよう
+l6.sections.2.blocks.37.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l6.sections.2.blocks.38.title.ja	パートA
+l6.sections.2.blocks.38.blocks.0.text.ja	❶ あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
+l6.sections.2.blocks.39.blocks.0.lines.0.sp	{管理人|かんりにん}
+l6.sections.2.blocks.39.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは8時半までに出す}}ことになっていますよね。
+l6.sections.2.blocks.39.blocks.0.lines.1.sp	あなた
+l6.sections.2.blocks.39.blocks.0.lines.1.ja	❶あっ、**すみません。**{{{朝寝坊|あさねぼう}し}}てしまった**もので、つい……。**
 **これからは、このようなことがないようにします。**
-l6.sections.2.blocks.37.blocks.0.lines.2.sp	管理人
-l6.sections.2.blocks.37.blocks.0.lines.2.ja	お願いしますね。
-l6.sections.2.blocks.38.items.0.text.ja	漢字の宿題を遅れて出したので、先生に注意されました。先生にあやまりなさい。
-l6.sections.2.blocks.38.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 196) で考えたことを使って話してみよう。
-l6.sections.2.blocks.39.title.ja	パートB
-l6.sections.2.blocks.39.blocks.0.text.ja	❷ かん違い (misunderstanding) をしていたことを伝えてあやまる
+l6.sections.2.blocks.39.blocks.0.lines.2.sp	管理人
+l6.sections.2.blocks.39.blocks.0.lines.2.ja	お願いしますね。
+l6.sections.2.blocks.40.items.0.text.ja	漢字の宿題を遅れて出したので、先生に注意されました。先生にあやまりなさい。
+l6.sections.2.blocks.40.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 196) で考えたことを使って話してみよう。
+l6.sections.2.blocks.41.title.ja	パートB
+l6.sections.2.blocks.41.blocks.0.text.ja	❷ かん違い (misunderstanding) をしていたことを伝えてあやまる
 ➔ ❸ もう一度あやまり、{決意|けつい}を伝える
-l6.sections.2.blocks.40.blocks.0.lines.0.sp	管理人
-l6.sections.2.blocks.40.blocks.0.lines.0.ja	それから、{{そこに入っているペットボトル}}のことですけど。
-l6.sections.2.blocks.40.blocks.0.lines.1.sp	あなた
-l6.sections.2.blocks.40.blocks.0.lines.1.ja	はい。
-l6.sections.2.blocks.40.blocks.0.lines.2.sp	管理人
-l6.sections.2.blocks.40.blocks.0.lines.2.ja	{{ちゃんと分別し}}てくれないと{困|こま}ります。
-l6.sections.2.blocks.40.blocks.0.lines.3.sp	あなた
-l6.sections.2.blocks.40.blocks.0.lines.3.ja	❷えっ、**てっきり、**{{ペットボトルは燃えるゴミだ}}**と思っていました。**
+l6.sections.2.blocks.42.blocks.0.lines.0.sp	管理人
+l6.sections.2.blocks.42.blocks.0.lines.0.ja	それから、{{そこに入っているペットボトル}}のことですけど。
+l6.sections.2.blocks.42.blocks.0.lines.1.sp	あなた
+l6.sections.2.blocks.42.blocks.0.lines.1.ja	はい。
+l6.sections.2.blocks.42.blocks.0.lines.2.sp	管理人
+l6.sections.2.blocks.42.blocks.0.lines.2.ja	{{ちゃんと分別し}}てくれないと{困|こま}ります。
+l6.sections.2.blocks.42.blocks.0.lines.3.sp	あなた
+l6.sections.2.blocks.42.blocks.0.lines.3.ja	❷えっ、**てっきり、**{{ペットボトルは燃えるゴミだ}}**と思っていました。**
 **すみません。**
-l6.sections.2.blocks.40.blocks.0.lines.4.sp	管理人
-l6.sections.2.blocks.40.blocks.0.lines.4.ja	{{分別していないと、持っていってもらえない}}から……。
-l6.sections.2.blocks.40.blocks.0.lines.5.sp	あなた
-l6.sections.2.blocks.40.blocks.0.lines.5.ja	❸**ご{迷惑|めいわく}をおかけしてすみませんでした。**
+l6.sections.2.blocks.42.blocks.0.lines.4.sp	管理人
+l6.sections.2.blocks.42.blocks.0.lines.4.ja	{{分別していないと、持っていってもらえない}}から……。
+l6.sections.2.blocks.42.blocks.0.lines.5.sp	あなた
+l6.sections.2.blocks.42.blocks.0.lines.5.ja	❸**ご{迷惑|めいわく}をおかけしてすみませんでした。**
 **これからはちゃんと**{{分ける}}**ようにします。本当にすみませんでした。**
-l6.sections.2.blocks.41.items.0.text.ja	「{昨日|きのう}の作文の宿題を早く出してくれないと{困|こま}る」と先生に言われました。しかし、あなたは明日が{締|し}め{切|き}りだと思っていました。先生に上手にあやまりなさい。
-l6.sections.2.blocks.41.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 196) で考えたことを使って話してみよう。
-l6.sections.2.blocks.42.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l6.sections.2.blocks.43.title.ja	カジュアルな会話にチャレンジ！
-l6.sections.2.blocks.43.blocks.0.text.ja	ロールプレイをやってみよう
-l6.sections.2.blocks.43.blocks.1.cards.0.who	あなた
-l6.sections.2.blocks.43.blocks.1.cards.0.text.ja	ルームメート／友達に
+l6.sections.2.blocks.43.items.0.text.ja	「{昨日|きのう}の作文の宿題を早く出してくれないと{困|こま}る」と先生に言われました。しかし、あなたは明日が{締|し}め{切|き}りだと思っていました。先生に上手にあやまりなさい。
+l6.sections.2.blocks.43.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 196) で考えたことを使って話してみよう。
+l6.sections.2.blocks.44.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.45.title.ja	カジュアルな会話にチャレンジ！
+l6.sections.2.blocks.45.blocks.0.text.ja	ロールプレイをやってみよう
+l6.sections.2.blocks.45.blocks.1.cards.0.who	あなた
+l6.sections.2.blocks.45.blocks.1.cards.0.text.ja	ルームメート／友達に
 行動を注意されます。
 上手にあやまりなさい。
-l6.sections.2.blocks.43.blocks.1.cards.1.who	Aのルームメート／友達
-l6.sections.2.blocks.43.blocks.1.cards.1.text.ja	Aさんの行動に{困|こま}っています。
+l6.sections.2.blocks.45.blocks.1.cards.1.who	Aのルームメート／友達
+l6.sections.2.blocks.45.blocks.1.cards.1.text.ja	Aさんの行動に{困|こま}っています。
 注意しなさい。
 例）貸したノートを返してもらっていない
-l6.sections.2.blocks.43.blocks.2.text.ja	{練習|れんしゅう}しよう
-l6.sections.2.blocks.43.blocks.3.text.ja	パートA
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.0.sp	ルームメート
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは{交替|こうたい}で (in turn) 出す}}ことに決めたよね。
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.1.sp	あなた
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.1.ja	❶あっ、**ごめん。〜から、つい……。もうこんなことがないようにするね。**
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.2.sp	ルームメート
-l6.sections.2.blocks.43.blocks.4.blocks.0.lines.2.ja	よろしくね。
-l6.sections.2.blocks.43.blocks.5.items.0.ja	「使ったお皿をすぐに{洗|あら}っていない」とルームメートに言われました。あやまりなさい。
-l6.sections.2.blocks.43.blocks.6.text.ja	パートB
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.0.sp	ルームメート
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.0.ja	それから、{{そこに入っているペットボトル}}のことなんだけど……。
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.1.sp	あなた
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.1.ja	うん。
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.2.sp	ルームメート
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.2.ja	{{ちゃんと分別し}}てくれないと{困|こま}るんだけど。
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.3.sp	あなた
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.3.ja	❷えっ、**てっきり、**{{ペットボトルは燃えるゴミだ}}**と思ってた。**
+l6.sections.2.blocks.45.blocks.2.text.ja	練習しよう
+l6.sections.2.blocks.45.blocks.3.text.ja	パートA
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.0.sp	ルームメート
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは{交替|こうたい}で (in turn) 出す}}ことに決めたよね。
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.1.sp	あなた
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.1.ja	❶あっ、**ごめん。〜から、つい……。もうこんなことがないようにするね。**
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.2.sp	ルームメート
+l6.sections.2.blocks.45.blocks.4.blocks.0.lines.2.ja	よろしくね。
+l6.sections.2.blocks.45.blocks.5.items.0.ja	「使ったお皿をすぐに{洗|あら}っていない」とルームメートに言われました。あやまりなさい。
+l6.sections.2.blocks.45.blocks.6.text.ja	パートB
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.0.sp	ルームメート
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.0.ja	それから、{{そこに入っているペットボトル}}のことなんだけど……。
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.1.sp	あなた
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.1.ja	うん。
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.2.sp	ルームメート
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.2.ja	{{ちゃんと分別し}}てくれないと{困|こま}るんだけど。
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.3.sp	あなた
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.3.ja	❷えっ、**てっきり、**{{ペットボトルは燃えるゴミだ}}**と思ってた。**
 **ごめん。**
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.4.sp	ルームメート
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.4.ja	{{分別していないと、持っていってもらえない}}から……。
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.5.sp	あなた
-l6.sections.2.blocks.43.blocks.7.blocks.0.lines.5.ja	❸**{迷惑|めいわく}をかけちゃってごめん。これからはちゃんと**{{分ける}}**ようにするよ。本当にごめん。**
-l6.sections.2.blocks.43.blocks.8.items.0.ja	前に借りたマンガのことで、ルームメートに注意されました。ルームメートは、すぐ返してくれないと困ると言っています。でもあなたは、そのマンガはルームメートがくれたんだと思っていました。上手にあやまりなさい。
-l6.sections.2.blocks.43.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.4.sp	ルームメート
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.4.ja	{{分別していないと、持っていってもらえない}}から……。
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.5.sp	あなた
+l6.sections.2.blocks.45.blocks.7.blocks.0.lines.5.ja	❸**{迷惑|めいわく}をかけちゃってごめん。これからはちゃんと**{{分ける}}**ようにするよ。本当にごめん。**
+l6.sections.2.blocks.45.blocks.8.items.0.ja	前に借りたマンガのことで、ルームメートに注意されました。ルームメートは、すぐ返してくれないと困ると言っています。でもあなたは、そのマンガはルームメートがくれたんだと思っていました。上手にあやまりなさい。
+l6.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
 l6.sections.3.title.ja	{中|ちゅう}{国|ごく}{人|じん}留学生から見た日本
 l6.sections.3.blocks.0.text.ja	ゴミの分別
 l6.sections.3.blocks.1.text.ja	留学生のメイリンが、寮のルームメートとゴミを出す日について話しています。2人はいつどんなゴミを出しますか。会話を聞いて、内容に合う表に○をつけなさい。
@@ -6511,7 +6549,7 @@ l6.sections.3.blocks.16.lines.5.ja	ふーん。じゃ、これはほとんどプ
 l6.sections.3.blocks.16.lines.6.sp	ル
 l6.sections.3.blocks.16.lines.6.ja	ケースと分けて捨てなきゃいけないみたい。サングラスはプラスチックだから燃えるゴミ、ケースは金属だから……
 l6.sections.3.blocks.16.lines.7.sp	メ
-l6.sections.3.blocks.16.lines.7.ja	燃えないゴミだね。ああ、このハンディークリーナー、こわれちゃったんだよねえ。これって{粗大|そだい}ゴミ？　だとしたら、この__まま__出せないよね？
+l6.sections.3.blocks.16.lines.7.ja	燃えないゴミだね。ああ、このハンディークリーナー、こわれちゃったんだよねえ。これって{粗大|そだい}ゴミ？ だとしたら、この__まま__出せないよね？
 l6.sections.3.blocks.16.lines.8.sp	ル
 l6.sections.3.blocks.16.lines.8.ja	えーっと、一番長いところが50センチ以上のものは粗大ゴミだって。それ、30センチくらいだから、燃えないゴミでいい__んじゃない__？
 l6.sections.3.blocks.16.lines.9.sp	メ
@@ -11898,9 +11936,10 @@ g2.blocks.17.items.3.lines.1.sp	母
 g2.blocks.17.items.3.lines.1.ja	またバイト？　学生なら学生**らしく**勉強しなさい。
 g2.blocks.18.labels.0	1
 g2.blocks.19.text.ja	✎答え▶ (1) b　(2) a　(3) c　(4) b
-g2.blocks.20.forms.0	N !!らしい!!
-g2.blocks.20.forms.1	N !!らしい!! N
-g2.blocks.20.forms.2	N !!らしく!! V
+g2.blocks.20.forms.0.lead	N
+g2.blocks.20.forms.0.stack.0	!!らしい!!
+g2.blocks.20.forms.0.stack.1	!!らしい!! N
+g2.blocks.20.forms.0.stack.2	!!らしく!! V
 g2.blocks.20.blocks.0.items.0.en	X は N らしい expresses that X is a perfect example of N, as it has qualities that are considered stereotypical of N.
 g2.blocks.20.blocks.0.items.1.en	らしい conjugates the same way as い-adjectives.
 g2.blocks.21.text	〜ようだ
@@ -11936,9 +11975,10 @@ g2.blocks.33.items.0.ja	ジョージはモデルの**ように**かっこいい�
 g2.blocks.33.items.0.en	(George is not a model.)
 g2.blocks.34.labels.0	1
 g2.blocks.34.labels.1	2
-g2.blocks.35.forms.0	N の !!ようだ!!
-g2.blocks.35.forms.1	N の !!ような!! N
-g2.blocks.35.forms.2	N の !!ように!! V/A
+g2.blocks.35.forms.0.lead	N の
+g2.blocks.35.forms.0.stack.0	!!ようだ!!
+g2.blocks.35.forms.0.stack.1	!!ような!! N
+g2.blocks.35.forms.0.stack.2	!!ように!! V/A
 g2.blocks.35.blocks.0.text.en	This is an expression used to compare the subject to someone/something else.
 g2.blocks.36.text	〜みたいだ
 g2.blocks.37.items.0.lines.0.ja	あの本は{難|むずか}しい**みたいだ**。

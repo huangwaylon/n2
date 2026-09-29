@@ -300,14 +300,20 @@ TRY.registerLesson({
       "い、マナーを守って、日本一の山に登る感動を味わってください。"
      ],
      "tr": [
-      "The place I'd most like you to visit at least once while you're in Japan is, without a doubt, Mount Fuji. At 3,776 meters, Mount Fuji is the highest mountain in Japan, and it sits on the border between Yamanashi and Shizuoka Prefectures. It is a special mountain for the Japanese, loved as a symbol of Japan, and it is even pictured on the 1,000-yen bill. Because it was registered as a World Cultural Heritage Site in 2013, more and more climbers have been coming from abroad.",
+      "The place I'd most like you to visit at least once while you're in Japan is, without a doubt, Mount Fuji. At 3,776 meters, Mount Fuji is the highest mountain in Japan, and it sits on the border between Yamanashi and Shizuoka Prefectures. To the Japanese it is a special mountain: it is loved as a symbol of Japan and even appears on the 1,000-yen bill. Because it was registered as a World Cultural Heritage Site in 2013, more and more climbers have been coming from abroad.",
       "Here we introduce information that will help you, as international students, climb Mount Fuji.",
       "First, when should you climb, and by which route? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open and climbers' buses run. There are four climbing routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the route that suits you.",
       "Next, how long does the climb take? On the Yoshida Route, for example, which the largest number of people take, it takes about six hours to reach the summit. For that reason, it is common to stay the first night at a mountain hut near the summit, watch the sunrise from the summit the next morning, and then go down. This sunrise is called goraikō. If you see a beautiful goraikō from the summit, it will be a memory for a lifetime.",
       "Also, if you join a climbing tour run by a travel agency, a guide will lead you, so even first-time climbers can feel at ease. Climbing Mount Fuji is popular, so book your tour and your mountain hut as early as possible.",
       "Once you have planned your climb, the next thing is clothing. What kind of clothes should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below zero, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking near the rocky summit. Be sure to get them ready for your safety.",
-      "What else should you be careful about? There are few toilets on Mount Fuji, so it's best to go when you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Not dirtying the mountain is a rule that climbers must follow.",
+      "What else should you be careful about? There are few toilets on Mount Fuji, so it's best to go when you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Keeping the mountain clean is a rule every climber should follow.",
       "People come to Mount Fuji not only from all over Japan but from all over the world. Prepare well, follow the rules of etiquette, and enjoy the thrill of climbing Japan's highest mountain."
+     ],
+     "headTr": [
+      "Climbing Season and Routes",
+      "Planning Your Climb",
+      "Clothing",
+      "Things to Watch Out For"
      ]
     },
     {
@@ -316,10 +322,10 @@ TRY.registerLesson({
      "desc": "Diagram 登山ルート beside lines 16–22: a cone-shaped Mount Fuji with the four climbing routes drawn from the foot to the summit. The Yoshida Route (pink, upper right) and the Subashiri Route (light pink, right) are on the right; the Fujinomiya Route (dark grey, left) and the Gotemba Route (grey, bottom) on the left.",
      "labels": [
       "登山ルート",
-      "吉田ルート",
-      "富士宮ルート",
-      "須走ルート",
-      "御殿場ルート"
+      "{吉田|よしだ}ルート",
+      "{富士宮|ふじのみや}ルート",
+      "{須走|すばしり}ルート",
+      "{御殿場|ごてんば}ルート"
      ]
     },
     {
@@ -443,9 +449,9 @@ TRY.registerLesson({
      "tr": [
       "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What do people look for when they go to an izakaya? I would like to consider the appeal of izakaya by looking at their characteristics.",
       "The first characteristic is the wide variety of both food and drinks. Once you sit down and look at the menu, you will notice this right away. Having salads and desserts is no different from ordinary restaurants, but izakaya have many dishes that go well with drinks, called otsumami, such as edamame and karaage (fried chicken). Another difference is that you can order all kinds of alcohol besides beer and wine, such as sake and chūhai. There are also soft drinks such as juice and tea, so even people who don't drink alcohol can have a good time.",
-      "What can be considered the second characteristic is how cheap they are. Because both the food and the drinks are inexpensive, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worry. Also, people who drink a lot should know about the system called nomihōdai (all-you-can-drink). With nomihōdai, if you pay a fixed price, you can drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
+      "A second characteristic that comes to mind is how inexpensive they are. Because both the food and the drinks are inexpensive, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worry. Also, people who drink a lot should know about the system called nomihōdai (all-you-can-drink). With nomihōdai, if you pay a fixed price, you can drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
       "But without a doubt the biggest characteristic is that izakaya are places for socializing. Most of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings is a way to take a break when you're tired and to relieve stress. It is also a chance to become close to people you haven't talked with much.",
-      "In this way, a place where you can enjoy good food and drinks cheaply and deepen your relationships with others: that is the izakaya. I hope you, too, will visit an izakaya at least once and experience its unique atmosphere."
+      "A place where you can enjoy good food and drinks at low prices and get to know people better: that, in short, is the izakaya. I hope you, too, will make your way to an izakaya at least once and experience its unique atmosphere."
      ]
     },
     {
@@ -453,10 +459,10 @@ TRY.registerLesson({
      "page": 72,
      "desc": "Four photos of izakaya dishes on p.072, beside the end of 読み物2: kushimori (an assortment of deep-fried skewers), dashimaki (a rolled omelet), edamame (green soybeans in the pod), and karaage (Japanese fried chicken, with a lemon wedge).",
      "labels": [
-      "串盛り",
+      "{串|くし}{盛|も}り",
       "だしまき",
-      "えだ豆",
-      "から揚げ"
+      "えだ{豆|まめ}",
+      "から{揚|あ}げ"
      ]
     },
     {
@@ -702,10 +708,10 @@ TRY.registerLesson({
            "en": "X うちに Y means that Y will be done while X continues. There is a connotation that it would be too late to do Y once X ends, thus X うちに Y conveys a slightly increased sense of imminence compared with 間に."
           },
           {
-           "en": "The verb in X can take any of the following forms: Vている, Vない, ある, いる."
+           "en": "The verb in X can take any of the following forms: [#Vて]いる, [#Vない], ある, いる."
           },
           {
-           "en": "Vない うちに Y in [#4] implies that Y needs to be done in haste before V occurs."
+           "en": "[#Vない] うちに Y in [#4] implies that Y needs to be done in haste before V occurs."
           },
           {
            "en": "Y cannot be in the negative form 〜ない. To use 〜ない in Y, 〜うちは would be used rather than 〜うちに."
@@ -729,7 +735,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XうちにY** means *while X still holds*: X is a state that will end (being in Japan, being young, George being out), and Y is done before the chance is gone. 間に only marks a stretch of time; うちに adds the closing window.\n\n- X is a state: Vている, Vない, ある／いる, adjectives, Nの. A bare action verb doesn't give this meaning.\n- **Vないうちに** is English *before*: 忘れないうちにメモしよう (*let me write it down before I forget*).\n- Y is a deliberate act. For a change that just came about while X went on (話しているうちに好きになった), see Quartet II L8-8.\n\nTRY! N2 #96 〜か〜ないかのうちに is a different pattern: *barely had ~ when*."
     },
     {
      "t": "note",
@@ -812,7 +819,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**何と言っても** singles out one item as the obvious choice, the one nobody would argue with: *above all, without a doubt, hands down*. It comes before the item, and the sentence ends in a ranking or judgment: 一番, 最高, 最大の特徴 (Reading 2, line 24).\n\n- It often answers 〜と言えば？ or a question about the best or most typical thing.\n- It is also written なんといっても.\n- Keep it apart from the literal question word + ても (L5-1): 親が何と言っても留学する (*I'll study abroad whatever my parents say*). That one is literal: *whatever (someone) says*.\n\nPitfall: it presents a preference as settled fact; add と思う or でしょう to soften it, as in examples 3 and 4."
     },
     {
      "t": "note",
@@ -881,7 +889,15 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N !!にとって!! ｛難しい／大切／必要／{便利|べんり}　etc.｝"
+        {
+         "lead": "N !!にとって!!",
+         "stack": [
+          "難しい",
+          "大切",
+          "必要",
+          "{便利|べんり}　etc."
+         ]
+        }
        ],
        "blocks": [
         {
@@ -916,7 +932,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**NにとってX** evaluates something from N's standpoint: for N it is hard, important, necessary or handy. N is the one affected; X describes the thing, not N's own taste or opinion.\n\n- ✗私にとって旅行が好きだ: preference and opinion (好き, 賛成) take は: 私は旅行が好きだ.\n- Before a noun: 私にとっての幸せ (*what happiness means to me*).\n- **Nに対して** marks the target of an action or attitude. English *to/for* covers both: 子どもにとって大切 (*important for children*) vs. 子どもに対して優しい (*kind to children*).\n\nIn polite speech it becomes 〜にとりまして (TRY! N2 #77). TRY! N1 #81 〜にすれば imagines how things feel to someone else: 親にすれば心配だろう (*for the parents it must be worrying*)."
     },
     {
      "t": "note",
@@ -966,7 +983,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "ビジネススキル**として**必要なものは、何ですか。",
-           "tr": "What do you need as a business skill?"
+           "tr": "What is essential as a business skill?"
           },
           {
            "sp": "B",
@@ -1009,7 +1026,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nとして** names the role, status or function in which someone or something acts or is seen: *as a translator, as a hobby, as a symbol of Japan*. It answers *in what capacity?*\n\n- Before a noun it needs の: 教師としての経験 (*my experience as a teacher*).\n- Compare **Nで** for a plain tool or means: 辞書で調べる (*look it up in a dictionary*). スマホを辞書として使う gives the phone a role it doesn't normally have.\n- 一人として／一つとして + negative is a different use, *not a single*: 一人として来なかった (*not one person came*).\n\nTRY! N2 #22 teaches the same 〜として; TRY! N1 #116 〜としてあるまじき (*unbecoming of a ~*) builds on it."
     },
     {
      "t": "note",
@@ -1085,7 +1103,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XためY** states a cause in a factual, impersonal way: announcements, news, reports and formal explanations. 台風のため、電車が遅れております sounds like a station; 台風だから is conversation.\n\n- Y reports a result. Requests, suggestions and intentions sound wrong after it: ✗雨のため、傘を持っていってください → 雨なので….\n- After a volitional verb, the same ため（に） means *in order to* (L1-5): 留学するために貯金する. A past event or a state (遅れた, 寒かった, 不便な, Nの) gives a cause.\n- その ため starts a sentence: *for that reason* (Reading 1, lines 20–21).\n\nTRY! N1 #113 〜がゆえ(に) is a literary relative; TRY! N2 #48 〜ばかりに adds regret: *just because*."
     },
     {
      "t": "note",
@@ -1153,7 +1172,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N !!によって!! ｛違う／異なる／変わる　etc.｝"
+        {
+         "lead": "N !!によって!!",
+         "stack": [
+          "違う",
+          "異なる",
+          "変わる　etc."
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1170,7 +1196,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**NによってX** says that X varies with N: 国によって違う (*differs from country to country*). X is a word of difference (違う, 異なる, 変わる, さまざまだ), so English says *vary by, depend on*.\n\n- Short answer: 人によります (*it depends on the person*). 場合によっては means *in some cases*.\n- N can be an embedded question: どれだけ働くかによって (example 4).\n- Other によって uses: the agent of a passive (〜によって建てられた, *built by*) and a cause or means in writing.\n- **Nに応じて** (TRY! N2 #4, Quartet II L12-3) adds deliberate adjustment: 人数に応じて部屋を選ぶ (*choose a room to suit the group*). With 違う or 異なる, use によって.\n\nDon't confuse it with **Nによると** (L1-9), *according to N*."
     },
     {
      "t": "note",
@@ -1221,7 +1248,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "世界の国々は{戦争|せんそう}をす（る）**べきではない**と思う。",
-         "tr": "I think the countries of the world should not wage war."
+         "tr": "I think the nations of the world should not go to war."
         },
         {
          "n": 4,
@@ -1243,8 +1270,13 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "Vる !!べきだ!!",
-        "Vる !!べきではない!!"
+        {
+         "lead": "Vる",
+         "stack": [
+          "!!べきだ!!",
+          "!!べきではない!!"
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1313,7 +1345,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vるべきだ** states what is right or proper as a general judgment: how people ought to behave. It is firmer than 〜たほうがいい, which is advice for one situation.\n\n- Negative: べきではない, not ✗Vないべきだ. Past: べきだった (*should have*), usually with regret: もっと早く言うべきだった.\n- Before a noun: 守るべきルール (*a rule to be observed*, Reading 1, line 38). In a question, 着ていくべきでしょうか asks what is proper (line 29).\n- Said to the listener it sounds like a lecture (example 4); 〜たほうがいいよ is softer.\n\nTRY! N1 teaches its written relatives #111 〜べからず (*do not*, on signs) and #90 Vべく (*in order to*). For advice, compare TRY! N2 #87 〜ことだ."
     },
     {
      "t": "note",
@@ -1397,7 +1430,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "[普] !!からといって!! ｛〜とは限らない／Vてはいけない　etc.｝"
+        {
+         "lead": "[普] !!からといって!!",
+         "stack": [
+          "〜とは限らない",
+          "Vてはいけない",
+          "etc."
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1408,7 +1448,7 @@ TRY.registerLesson({
            "en": "X からといって Y ない states that X is not a good enough reason to conclude that Y is true, even though people might believe that X can be a reason for Y. For instance, [#5] implies that one might assume that a rich person must be happy, but wealth alone does not equate with happiness, and there may be people who are rich but unhappy."
           },
           {
-           "en": "Some common forms used in Y ない are Vてはいけない, 〜とは限らない and 〜わけではない (see Lesson 6)."
+           "en": "Some common forms used in Y ない are [#Vて]はいけない, 〜とは限らない and 〜わけではない (see Lesson 6)."
           },
           {
            "en": "In casual settings, an abbreviated form 〜からって instead of 〜からといって is used, as in [#2]."
@@ -1417,7 +1457,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XからといってYない** rejects a conclusion people might draw from X: X is true, but it doesn't justify Y. X is usually a common assumption (rich → happy, summer → no snow), and Y is negative: 〜とは限らない, 〜わけではない, 〜てはいけない, 〜ないで.\n\n- Compare plain **から**: 夏だから雪は降らない (*it's summer, so it won't snow*) asserts the link; 夏だからといって雪が降らないとは限らない (Reading 1, line 30) denies it.\n- Casual speech shortens it to 〜からって (example 2).\n- It pairs with **〜とは限らない** (L3-9) and **〜わけではない** (L6-1).\n\nTRY! N1 #8 〜といえども and #61 〜とはいえ are formal relatives: they grant X and deny what it would lead you to expect."
     },
     {
      "t": "note",
@@ -1525,7 +1566,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Xとは限らない** is partial negation: X is often true, but not always, so the speaker won't commit to it. English *not necessarily, not always, not every*. It corrects an overgeneralization instead of flatly denying it.\n\n- It goes with words of totality in X: 必ずしも, いつも, みんな, どの店でも (example 4).\n- Compare a flat denial: 高い店はおいしくない (*expensive places aren't good*) vs. おいしいとは限らない (*aren't always good*).\n- **〜わけではない** (L6-1, TRY! N2 #19) denies an inference or reading: 嫌いなわけではない (*it's not that I dislike it*). とは限らない is about how generally something holds.\n\nQuartet II L11-9 〜とばかりは言えない (*can't always be said*) is its written relative."
     },
     {
      "t": "note",
@@ -1600,7 +1642,16 @@ TRY.registerLesson({
        "t": "conn",
        "page": 81,
        "forms": [
-        "Vる !!のに!! ｛使う／必要だ／{便利|べんり}だ／役に立つ／かかる　etc.｝"
+        {
+         "lead": "Vる !!のに!!",
+         "stack": [
+          "使う",
+          "必要だ",
+          "{便利|べんり}だ",
+          "役に立つ",
+          "かかる　etc."
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1608,7 +1659,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vる のに X expresses purposes/uses."
+           "en": "[#Vる] のに X expresses purposes/uses."
           },
           {
            "en": "Expressions used in X are limited to phrases/words such as 使う, 必要だ, {便利|べんり}だ, 役に立つ and かかる."
@@ -1617,7 +1668,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**VるのにX** names the purpose something serves, and X evaluates it: 使う, 必要だ, 便利だ, 役に立つ, いい, or a cost with かかる. English *for ~ing, to do*.\n\n- X is limited to such words. For going somewhere or acting with a goal, use ために (L1-5): ✗パンを買うのにスーパーへ行った → 買うために.\n- With a noun, Nに works the same way: 通学に便利 (*convenient for commuting*).\n- The のに of *although* is a different word: 雨なのに出かけた (*went out even though it was raining*); 〜ば〜のに (L4-9) uses that one. The purpose のに follows only a plain Vる.\n\nTRY! N2 #14 V-る上で (*in doing ~*) is a formal relative: 生活する上で必要なこと (*what you need to get by*)."
     }
    ]
   },
@@ -1670,12 +1722,14 @@ TRY.registerLesson({
       "・{大阪|おおさか}から……電車で約4時間／車で約4時間",
       "・{東京|とうきょう}から……{新幹線|しんかんせん}と電車で約4時間"
      ],
-     "titleTr": "Takayama, a Town Where You Can Feel the Japan of the Past",
      "tr": [
       "Takayama, in Gifu Prefecture, is an old and beautiful town. Many historic buildings remain there, and it is called a \"Little Kyoto.\"",
       "If you go to Takayama, I'd like you to first try walking along the streets with old buildings. You will probably feel as if you were taking a stroll through the Edo period. Along those old streets there are many shops selling traditional crafts and the like, so it might be fun to look for chopsticks, dolls, or other things you like.",
       "It would also be nice to tour a house built more than 100 years ago. There you can actually experience what country life was like long ago, and try your hand at making traditional crafts. When you want to forget the busy life of today, why not visit Takayama and feel the Japan of the past?",
       "Getting to Takayama\n・From Nagoya: about 2 and a half hours by train / about 2 hours by car\n・From Osaka: about 4 hours by train / about 4 hours by car\n・From Tokyo: about 4 hours by Shinkansen and train"
+     ],
+     "headTr": [
+      "Takayama, a Town Where You Can Feel the Japan of the Past"
      ],
      "roles": [
       {
@@ -2200,7 +2254,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "よく覚えていない時に使います。",
-        "tr": "Used when you don't remember something well."
+        "tr": "Used when you can't quite remember something."
        }
       },
       {
@@ -2338,7 +2392,7 @@ TRY.registerLesson({
       {
        "sp": "ジ",
        "v": "m",
-       "ja": "❸あの、**それから、**席を個室**に変えていただくことは{可能|かのう}でしょうか。**",
+       "ja": "❸あの、**それから、**席**を**個室**に変えていただくことは{可能|かのう}でしょうか。**",
        "tr": "Um, and also, would it be possible to change our seating to a private room?"
       },
       {
@@ -2498,7 +2552,7 @@ TRY.registerLesson({
         "tr": "Say one more thing you want to change"
        },
        "text": {
-        "ja": "あの、**それから、**席を個室**に{変|か}えて**\n**いただくことは{可能|かのう}でしょうか。**",
+        "ja": "あの、**それから、**席**を**個室**に{変|か}えて**\n**いただくことは{可能|かのう}でしょうか。**",
         "tr": "Um, and also, would it be possible to change our seating to a private room?"
        }
       },
@@ -3411,7 +3465,7 @@ TRY.registerLesson({
      "id": "l3-2-4",
      "page": 94,
      "text": {
-      "ja": "{練習|れんしゅう}しよう",
+      "ja": "練習しよう",
       "tr": "Let's practice"
      }
     },
@@ -3437,7 +3491,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ メニューについて質問する ➔ ❷ 注文する",
-        "tr": "1 Ask about the menu → 2 Order"
+        "tr": "❶ Ask about the menu ➔ ❷ Order"
        }
       }
      ]
@@ -3595,7 +3649,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❸ {追加|ついか}の注文 (additional order) をする ➔ ❹ {希望|きぼう} (request) を言う ➔ ❺ 注文を終える",
-        "tr": "3 Place an additional order → 4 Make a request → 5 Finish ordering"
+        "tr": "❸ Place an additional order ➔ ❹ Make a request ➔ ❺ Finish ordering"
        }
       }
      ]
@@ -4122,7 +4176,7 @@ TRY.registerLesson({
      },
      "lines": [
       {
-       "sp": "研",
+       "sp": "{研|けん}",
        "v": "m",
        "ja": "そろそろ{富士|ふじ}登山のイベントの計画を立てないとね。",
        "tr": "We'd better start planning the Mt. Fuji climbing event soon."
