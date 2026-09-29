@@ -7,7 +7,8 @@ const all = rest.includes("--all");
 const T = loadBook(B);
 const pts = new Map();
 for (const ch of T.chapters.filter(Boolean)) for (const p of ch.parts) for (const g of p.points) pts.set(g.no, { g, ch: ch.id });
-const bare = (s) => String(s || "").replace(/\{([^|}]+)\|[^}]*\}/g, "$1").replace(/\*\*|__|~~.*?~~|\[[^\]]*\]|[〜~（）()＋+・／/…\s、。「」]/g, "");
+// form markers (V-る, V-た, circled sense numbers) are dropped too, so "Vだけ①" matches "V-るだけV"
+const bare = (s) => String(s || "").replace(/\{([^|}]+)\|[^}]*\}/g, "$1").replace(/-[るたてないます]+|[①-⑳]/g, "").replace(/\*\*|__|~~.*?~~|\[[^\]]*\]|[〜~（）()＋+・／/…\s、。「」]/g, "");
 // the forms a point can be referred to by
 const namesOf = (g) => [g.pattern, g.phrase, ...(g.index || []), ...(g.plus || []).map((x) => x.pattern)].filter(Boolean).map(bare).filter(Boolean);
 // Japanese run right before "(#N)" / "#N": the last **bold** or the last Japanese word

@@ -26,13 +26,13 @@ TRY.registerCompare([
         note: "V-る + 上で: \"in doing V / when it comes to V\". The rest of the sentence says what is important, necessary or a problem for that activity (重要だ, 必要だ, 欠かせない); 上での + N modifies a noun, as here." },
       { pattern: "〜{上|うえ}で②", level: "N2", no: 117,
         ex: { ja: "駅前の{再開発|さいかいはつ}については、住民の皆さんの意見をまとめた**{上|うえ}で**、市に{要望書|ようぼうしょ}を{提出|ていしゅつ}したいと思います。", en: "Regarding the redevelopment in front of the station, we would like to submit a written request to the city after compiling the opinions of all the residents." },
-        note: "V-た / Nの + 上で: \"after (first) doing V, and on that basis\". A necessary step (consulting, checking, compiling) is completed before a decision or action; formal, so not for everyday sequences (✗映画を見た上で食事しよう). The V-た form is what separates it from ①." },
+        note: "V-た / Nの + 上で: \"after (first) doing V, and on that basis\". A necessary step (checking, compiling) comes before a decision or action; formal, not for everyday sequences (✗映画を見た上で食事しよう). The V-た form separates it from ①." },
       { pattern: "〜{上|うえ}は", level: "N2", no: 18,
         ex: { ja: "{税金|ぜいきん}を使って研究を{行|おこな}う**{上|うえ}は**、社会に役立つ研究をしなければならない。", en: "Since we are conducting research with taxpayers' money, we have to do research that benefits society." },
         note: "V + 上は: \"now that / since\", a stiff, formal variant of からには (Plus under #18). The second half states a duty, resolve or firm conclusion (〜なければならない, 〜べきだ)." },
       { pattern: "〜{上|うえ}（に）", level: "N2", no: 102,
         ex: { ja: "先週は{熱|ねつ}が40度も出た**{上|うえ}に**、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever as high as 40°C, and on top of that I had diarrhea that wouldn't stop. It was really awful." },
-        note: "Plain form (なA + な, N + の) + 上（に）: \"on top of / not only A, but also B\". Adds a second circumstance pointing the same way (good + good, bad + bad), often with も; not for contrasts (✗安い上にまずい)." },
+        note: "Plain form (なA + な, N + の) + 上（に）: \"on top of / not only A but also B\". Adds a second circumstance pointing the same way (both good or both bad), often with も; never a contrast (✗安い上にまずい)." },
       { pattern: "N{上|じょう}", level: "N2", no: 70,
         ex: { ja: "お{札|さつ}にはその国の{歴史|れきし}**{上|じょう}**の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "Banknotes often depict the faces of historical figures from that country." },
         note: "N + 上 (read じょう), directly after a Sino-Japanese noun: \"from the standpoint of N / in terms of N\" (歴史上, 法律上, 健康上). A written-style suffix, not a clause connector like the うえ patterns; 上の + N modifies a noun." }
@@ -53,7 +53,7 @@ TRY.registerCompare([
         note: "V-ない / いA / Nの + うちに: \"before (it stops being) ~ / while still ~\". Do something while the favorable state lasts, before it changes (冷めないうちに, 若いうちに)." },
       { pattern: "VかVかのうちに", level: "N2", no: 96,
         ex: { ja: "{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に**入れたか入れないかのうちに**、次の料理に手を{伸|の}ばしていた。", en: "When I watched the speed-eating championship, the contestants were already reaching for the next dish almost before they'd gotten the food into their mouths." },
-        note: "V-る/V-た + か + V-ない + かのうちに (the same verb twice): \"barely had ~ when / almost before ~\". The next event follows so fast that the first has hardly finished; it reports a fact, usually in the past, not a request or intention." }
+        note: "V-る/V-た + か + V-ない + かのうちに (the same verb twice): \"barely had ~ when\". The next event follows before the first has quite finished; it reports a fact, usually past, never a request or intention." }
     ]
   },
   {
@@ -89,7 +89,7 @@ TRY.registerCompare([
         note: "V-て + からでなければ: \"not until after V / unless you first V\". The first action is a required precondition, and the second half is negative or impossible (なれない, できない)." },
       { pattern: "Vからには", level: "N2", no: 18,
         ex: { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}する**からには**、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "Since you're hoping to find a job in Japan, you'd better research companies thoroughly." },
-        note: "V-る / V-た + からには: \"now that / since (it's decided or done)\". The second half must carry resolve, duty, advice or a command (〜べきだ, 〜つもりだ, 〜ほうがいい), not a neutral fact; 上は (in the 上 group) is its formal Plus variant." },
+        note: "V-る / V-た + からには: \"now that / since (it's decided or done)\". The second half must carry resolve, duty, advice or a command (〜べきだ, 〜つもりだ, 〜ほうがいい), not a neutral fact; 上は is its formal Plus variant." },
       { pattern: "〜から見て", level: "N2", no: 60,
         ex: { ja: "便利さという点**から見ると**、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, cities are, as you'd expect, easier places to live than the countryside." },
         note: "N + から見て / から見ると / から見れば: \"judging from / from the viewpoint of N\". N is the vantage point or evidence for a judgment (〜という点から見ると, as here), not a reason." }
@@ -254,7 +254,7 @@ TRY.registerCompare([
         note: "Potential verb (or V-たい / 好きな) + だけ + V: \"as much as one can (or wants)\". だけ marks the full extent, not \"only\"." },
       { pattern: "〜だけに", level: "N2", no: 105,
         ex: { ja: "この町は文化{遺産|いさん}に{登録|とうろく}されている**だけあって**、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As you'd expect of a town registered as a cultural heritage site, its residents are also highly conscious of environmental protection." },
-        note: "〜だけあって / 〜だけに: \"as you'd expect of / befitting\" (the example uses だけあって). The result naturally matches the status, price or effort in the first half; だけあって is almost always praise, while だけに also allows expected negative results and \"all the more because\"." }
+        note: "Plain form + だけあって / だけに: \"as you'd expect of\". The result lives up to the status, price or effort in the first half; だけあって is usually praise, だけに also allows bad results and \"all the more because\"." }
     ]
   },
   {
@@ -290,7 +290,7 @@ TRY.registerCompare([
         note: "V-た / Nの + つもりで: \"imagining that / in the frame of mind of\". The speaker knows it isn't true but deliberately adopts that attitude (旅行に行ったつもりで, 本番のつもりで)." },
       { pattern: "〜つもり②", level: "N2", no: 120,
         ex: { ja: "説明書通りにやっている**つもり**なのに、どうしてもうまくできない。", en: "I think I'm doing it exactly as the instructions say, but I just can't get it to work." },
-        note: "V-た / V-ている / Nの + つもりだ: \"believe that one has done / is ~\". Self-perception that often proves wrong, hence 〜つもりなのに / 〜つもりだったが; unlike ①, the person really believes it." }
+        note: "V-た / V-ている / V-る / Nの + つもりだ: \"believe that one has done / is ~\". Self-perception that often proves wrong, hence 〜つもりなのに / 〜つもりだったが; unlike ①, the person really believes it." }
     ]
   },
   {

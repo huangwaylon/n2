@@ -52,7 +52,7 @@ TRY.registerLinks([
   { k: "に即して", ids: ["n2:108 〜にそって", "n2:138 〜に{基|もと}づいて", "n1:39 〜に{即|そく}して"], en: "\"In line with / based on\"; に即して is formal and stresses fitting the actual situation or rules closely." },
   { k: "ことはない", ids: ["n2:49 〜ことはない", "n1:41 〜までもない"], en: "Both say there's no need; ことはない advises the listener, までもない says it's unnecessary because the matter is obvious." },
   { k: "次第", ids: ["n2:114 〜{次第|しだい}", "n1:42 〜いかん", "n1:110 〜ようによって（は）"], en: "\"Depending on N\"; いかん is more formal and official; Vようによっては: depending on how one does it (考えようによっては)." },
-  { k: "ものか", ids: ["n2:51 〜ものか", "n1:48 〜か"], en: "Both are emphatic rhetorical denials; N1's bare か does the same without もの (こんな少しで足りるか)." },
+  { k: "ものか", ids: ["n2:51 〜ものか", "n1:48 〜か", "n1:59 Vないものか"], en: "ものか and bare か: emphatic denials (足りるか); look-alike Vないものか is a wish (何とかならないものか)." },
   { k: "問わず", ids: ["n2:2 〜を{問|と}わず", "n1:54 N₁といわずN₂といわず"], en: "Both mean \"without distinction\"; といわず…といわず pairs two nouns (昼といわず夜といわず ≈ 昼夜を問わず)." },
   { k: "ものなら", ids: ["n2:122 〜ものなら", "n1:57 Vようものなら"], en: "Look-alikes: potential + ものなら wishes for the unlikely; N1's volitional + ものなら warns of a bad result." },
   { k: "わけにはいかない", ids: ["n2:57 〜わけにはいかない", "n1:63 VにVない", "n1:117 〜ずにはすまない"], en: "わけにはいかない: can't for some reason (ないわけにはいかない: must); N1's VにVない adds wanting to but being held back, ずにはすまない is a formal must." },

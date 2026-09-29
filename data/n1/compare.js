@@ -115,7 +115,7 @@ TRY.registerCompare([
         note: "N + 次第だ / 次第で（は）: \"depends on N / is up to N\". N determines the outcome." },
       { pattern: "〜{次第|しだい}だ", level: "N1", no: 12,
         ex: { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be difficult with our company's technical capabilities, and that is why we declined it." },
-        note: "Plain V (often V-た) + 次第だ / 次第です: \"that is how / why (I did) ~\". A formal, business-style explanation of the circumstances behind the speaker's own action (≈ 〜んです, 〜わけです); unlike ① and ②, it ends the sentence after a verb." }
+        note: "Plain V (often V-た) + 次第です: \"that is how / why (I did) ~\". A formal, business-style account of the circumstances behind the speaker's own action (≈ 〜んです); unlike ① and ②, it ends the sentence after a verb." }
     ]
   },
   {
@@ -404,7 +404,7 @@ TRY.registerCompare([
     key: "〜ばかり",
     items: [
       { pattern: "Vたばかり", level: "N3",
-        ex: { ja: "父は昨日退院したばかりなのに、今日から会社に出ている。", en: "My father only got out of hospital yesterday, but he's back at work from today." },
+        ex: { ja: "父は昨日退院したばかりなのに、今日から会社に出ている。", en: "My father only got out of the hospital yesterday, but he's already back at work today." },
         note: "V-た + ばかり: \"have just done\". Feels recent to the speaker; often with のに for a contrast." },
       { pattern: "〜ばかり", level: "N3",
         ex: { ja: "最近雨ばかりで、洗濯物が乾かなくて困っています。", en: "It's been nothing but rain lately, and my laundry won't dry." },
@@ -566,7 +566,7 @@ TRY.registerCompare([
         ex: { ja: "おしゃれに全然気を使わないようじゃ、社会人としてまずいんじゃない？", en: "If you don't pay any attention to how you dress, that's a problem for a working adult, isn't it?" },
         note: "V-る / V-ない + ようでは (casual ようじゃ): \"if you're (still) the kind who ~\". Criticizes a current state by predicting a bad result." },
       { pattern: "Vようがない", level: "N2",
-        ex: { ja: "出張の予定だったが、{大雪|おおゆき}で飛行機が{欠航|けっこう}してしまったので行きようがない。", en: "I was supposed to go on a business trip, but the flight was cancelled because of heavy snow, so there's no way for me to go." },
+        ex: { ja: "出張の予定だったが、{大雪|おおゆき}で飛行機が{欠航|けっこう}してしまったので行きようがない。", en: "I was supposed to go on a business trip, but the flight was canceled because of heavy snow, so there's no way for me to go." },
         note: "V-ます stem + ようがない: \"there's no way to\". The means are missing, so the action is impossible." },
       { pattern: "Vようが", level: "N1", no: 78,
         ex: { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
@@ -606,7 +606,7 @@ TRY.registerCompare([
     key: "〜をもって",
     items: [
       { pattern: "Nをもって①", level: "N1", no: 13,
-        ex: { ja: "{当選者|とうせんしゃ}の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "The shipment of the prizes will take the place of a separate announcement of the winners." },
+        ex: { ja: "{当選者|とうせんしゃ}の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "Instead of a separate announcement, winners will be notified by the shipment of their prizes." },
         note: "N + をもって ①: \"by means of N\". A formal, ceremonial で for official means (書面, 多数決), not everyday ones; 〜をもって…にかえる = \"let ~ serve in place of …\"." },
       { pattern: "Nをもって②", level: "N1", no: 67,
         ex: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。", en: "This store will close as of today. Thank you very much for your patronage over the years." },
