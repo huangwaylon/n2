@@ -16,14 +16,15 @@
 .book-switch a[aria-current] { background: var(--pill); color: var(--pill-ink); }
 @media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; } }
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
-/* phones: the switcher (N2 | N1 | Q2) already names the book, so the brand goes; below 375 the bar tightens too */
+/* phones: the switcher already names the book, so the brand goes; below 430 the bar tightens too */
 @media (max-width: 480px) { .brand { display: none; } }
 .sb-books { display: none; }
-/* smallest phones: only the current book in the bar; the other books move into the drawer */
-@media (max-width: 374px) {
+/* phones: only the current book in the bar; the other books move into the drawer (four books with ☰ and the toggles
+   need about 430px: at 390 the bar ran 29px past the screen) */
+@media (max-width: 429px) {
   .book-switch a:not([aria-current]) { display: none; }
   .sb-books { display: grid; gap: 2px; padding: 4px 8px 10px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
-  .sb-books a { display: flex; align-items: center; min-height: 44px; padding: 0 10px; border-radius: 8px; color: var(--ink); font-weight: 700; }
+  .sb-books a { display: flex; align-items: center; gap: .6em; min-height: 44px; padding: 0 10px; border-radius: 8px; color: var(--ink); font-weight: 700; }
   .sb-books a[aria-current] { background: var(--band); }
   .topbar { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
   .topbar .switch { padding: 0 3px; } }

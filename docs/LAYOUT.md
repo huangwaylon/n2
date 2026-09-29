@@ -412,7 +412,7 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 
 ### C31 Shell and pages
 
-- **Topbar** (`shellHtml`, sticky, `height: calc(var(--top) + safe-area-top)`, translucent `--panel` with blur): ☰ (≤900) · brand "文法" (+ "TRY! companion" hidden ≤1100; brand hidden ≤374) · **N2 | N1** book switcher (`.book-switch`, current = pill colours) · `.topnav` six page links (not shown: every book puts its page links at the top of the sidebar, `body.nav-sb`) (English labels hidden ≤1100, whole nav hidden ≤900) · toggles ふりがな / EN (short labels "ふ" / "EN" via `data-short` at ≤900; labels always visible) · ⚙ popover (theme, speech rate, vertical texts, reset progress; `position: fixed` below the bar at ≤900, closes on outside click and Esc). All controls 44×44.
+- **Topbar** (`shellHtml`, sticky, `height: calc(var(--top) + safe-area-top)`, translucent `--panel` with blur): ☰ (≤900) · brand "文法" (+ "TRY! companion" hidden ≤1100; brand hidden ≤480) · **N2 | N1 | Q1 | Q2** book switcher (`.book-switch`, current = pill colours; ≤429 only the current book, the others at the top of the drawer, `.sb-books`) · `.topnav` six page links (not shown: every book puts its page links at the top of the sidebar, `body.nav-sb`) (English labels hidden ≤1100, whole nav hidden ≤900) · toggles ふりがな / EN (short labels "ふ" / "EN" via `data-short` at ≤900; labels always visible) · ⚙ popover (theme, speech rate, vertical texts, reset progress; `position: fixed` below the bar at ≤900, closes on outside click and Esc). All controls 44×44.
 - **Sidebar** (`sidebar()`): chapter rows `.sb-ch-link` (number chip, title, progress "3/8" / ✓), the open chapter expands its points `.sb-gps` and review link; the active point is highlighted with a `--band-edge` inset bar. Desktop: sticky, `height: calc(100dvh - var(--top))`, own scroll, `overscroll-behavior: contain`.
 - **Drawer (≤900):** fixed, `width: min(86vw, 320px)`, slides in (`body.sb-open`), scrim closes it, page scroll locked, focus moves in and is trapped (`trapDrawerFocus`), Esc and navigation close it, crossing to ≥901 closes it. Its first block `.sb-pages` holds the six page links as 44px rows in two columns.
 - **Pages:** `.tbl` tables; at ≤600 `.tbl.stack` (index, compare, can-do) become stacked cards with `td[data-h]::before` labels. Front matter rows carry an English row `.tbl-en` shown with EN. Index search is a 16px, 44px-tall input.
@@ -441,7 +441,8 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 | — | `max-width: 700px` | matching and keigo tables collapse to one column |
 | phone | `max-width: 600px` | `--top` 52, `--main-pad` 14; full-bleed banner, 見本文 and review band; scoped EN buttons; stacked tables; mini-TOC collapsed |
 | small phone | `max-width: 390px` | `--main-pad` 12, body 15.5px, the smaller type steps in 0.3 |
-| tiny | `max-width: 374px` | brand hidden, tighter topbar |
+| — | `max-width: 480px` | brand hidden |
+| small phone bar | `max-width: 429px` | book switcher shows only the current book (the others move into the drawer), tighter topbar |
 | touch | `pointer: coarse` | every target ≥44×44 (padding or `::after` hit extension) |
 | hover | `hover: hover` | hover styles only here (no sticky hover on iOS) |
 
