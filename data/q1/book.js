@@ -7,7 +7,7 @@ TRY.registerBook({
   kind: "quartet",
   level: "中級",
   lessons: [1, 2, 3, 4, 5, 6],
-  files: [],
+  files: ["front.js", "challenge.js"].concat(["01", "02", "03", "04", "05", "06"].flatMap((n) => [`l${n}.js`, `vocab${n}.js`, `kanji${n}.js`])),
   bookLang: "en",
   shortTitle: "Quartet I",
   titleJa: "中級日本語カルテット I",

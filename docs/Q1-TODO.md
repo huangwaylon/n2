@@ -29,22 +29,27 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
 
 | Chunk | PDF pages | Transcribed | Reviewed | Merged + validated | Committed |
 |---|---|---|---|---|---|
-| L1 read / notes / write+会話1 / 会話2+聞く | 27–56, 268 | [ ] | [ ] | [ ] | [ ] |
-| L2 | 57–92, 269 | [ ] | [ ] | [ ] | [ ] |
-| L3 | 93–124, 270–271 | [ ] | [ ] | [ ] | [ ] |
-| L4 | 125–158, 271–272 | [ ] | [ ] | [ ] | [ ] |
-| L5 | 159–194, 272–273 | [ ] | [ ] | [ ] | [ ] |
-| L6 | 195–230, 273–274 | [ ] | [ ] | [ ] | [ ] |
-| 初級文法チェック ①–⑦ | 231–255 | [ ] | [ ] | [ ] | [ ] |
-| 漢字チャレンジ ①–⑫ | 256–267 | [ ] | [ ] | [ ] | [ ] |
-| Front matter (+ 文型・表現ノート一覧 PDF 5, separate agent) | 5, 9, 14–26 | [ ] | [ ] | [ ] | [ ] |
-| 別冊 単語リスト L1–6 | 289–314 | [ ] | [ ] | [ ] | [ ] |
-| 別冊 漢字リスト L1–6 + チャレンジ | 315–351 | [ ] | [ ] | [ ] | [ ] |
+| L1 read / notes / write+会話1 / 会話2+聞く | 27–56, 268 | [x] | [x] | [x] | [x] |
+| L2 | 57–92, 269 | [x] | [x] | [x] | [x] |
+| L3 | 93–124, 270–271 | [x] | [x] | [x] | [x] |
+| L4 | 125–158, 271–272 | [x] | [x] | [x] | [x] |
+| L5 | 159–194, 272–273 | [x] | [x] | [x] | [x] |
+| L6 | 195–230, 273–274 | [x] | [x] | [x] | [x] |
+| 初級文法チェック ①–⑦ | 231–255 | [x] | [x] | [x] | [x] |
+| 漢字チャレンジ ①–⑫ | 256–267 | [x] | [x] | [x] | [x] |
+| Front matter (+ 文型・表現ノート一覧 PDF 5, separate agent) | 5, 9, 14–26 | [x] | [x] | [x] | [x] |
+| 別冊 単語リスト L1–6 | 289–314 | [x] | [x] | [x] | [x] |
+| 別冊 漢字リスト L1–6 + チャレンジ | 315–351 | [x] | [x] | [x] | [x] |
+
+Review error rates found and fixed: lessons 1–10 % (mostly tr wording, bold/underline scope), vocab/kanji 0–3 %.
 
 ## 3. After merge
 
-- [ ] `node tools/q2/check.js q1`, `verify.js` (vs さくいん PDF 275–284), `ocr-diff.js` per file; fix < 0.85 on the scan
-- [ ] `tools/q1/text-baseline.txt` generated from the verified data
+- [x] `check.js q1` OK (flow steps with only a label and ×/？ examples need no text/tr); `verify.js q1` OK — L4 #2
+      ★ removed (not starred on p.108 or in the list); 8 vocab words not found in the noisy index OCR, to check
+
+- [ ] Second pass: every `ocr-diff.js` string < 0.85 checked on the scan (l01 53 · l02 55 · l03 99 · l04 60 · l05 84 · l06 92 · challenge 119 · front 33 · vocab 71–106 each · kanji 6–78 each)
+- [x] `tools/q1/text-baseline.txt` generated (first pass; regenerate after the second pass fixes)
 - [ ] Deep-dives on every 文型・表現ノート (nuance, register, contrasts; as Q2 L7–12)
 - [ ] Cross-book links: Q1 notes into `data/links.js` (Q2, N2, N1), `see:`-style relations
 - [ ] Second English pass per lesson (translations of readings, dialogues, scripts, exercises vs answers)
