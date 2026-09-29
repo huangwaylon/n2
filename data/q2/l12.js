@@ -311,12 +311,12 @@ TRY.registerLesson({
       "Of course, that is probably because the only people who stay with us are those who are suited to TESSEI's way of thinking and to the work, and who keep their motivation strong. But I think what matters even more is that this company aims for \"management by everyone,\" built on the front line.",
       "We do have a set uniform, but all the ideas for letting our customers feel the seasons, such as wearing aloha shirts or yukata in summer, putting hibiscus or cherry blossoms on our caps, and Christmas touches in December, started as ideas from the employees on the front line. And each one of them ends up bringing energy to what would otherwise be a \"3K\" workplace.",
       "TESSEI's main sources of income are cleaning train cars and stations. We calculate charges as \"X yen per trainset\" or \"X yen per so many square meters,\" so we are paid according to the amount of cleaning we do.",
-      "So the more extra trains are added, the more our income goes up. On the other hand, services such as bowing or giving directions don't count as income at all.",
+      "So the more extra trains are added, the more our income goes up. On the other hand, services such as bowing or giving directions don't bring in any income.",
       "But for our staff they are very important. That's because when they provide a service to a customer and receive, say, a single word of \"thank you,\" it leads to a sense of self-worth and confidence.",
       "From my point of view, that is no more than \"just how things turned out,\" but when I look around, it also seems to me that society as a whole is now moving in that direction.",
-      "The age when only \"making money\" was considered a virtue is over. Since it is a business, of course, earning as much money as possible is important, but aren't we reaching an age in which, as a basic premise, an awareness of \"doing something for others\" and \"being useful\" takes on a very important meaning?",
+      "In other words, the age when only \"making money\" was considered a virtue is over. Since it is a business, of course, earning as much money as possible is important, but aren't we reaching an age in which, as a basic premise, an awareness of \"doing something for others\" and \"being useful\" takes on a very important meaning?",
       "I think this is a point that can't be ignored in understanding the times.",
-      "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous circles are born. Won't the work of today, and of the times to come, move forward on the basis of that kind of circle?"
+      "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous cycles are born. Isn't it on cycles like that that work, today and in the years to come, will be built?"
      ]
     },
     {
@@ -467,7 +467,7 @@ TRY.registerLesson({
       "ちはまだ人間に強い恐怖と敵意を抱",
       "いている。しかし、それがいつか変",
       "わる日が来ると私は確信している。",
-      "¶それは人間社会にも言えることで",
+      "それは人間社会にも言えることで",
       "はないだろうか。ぜひ「あらしのよ",
       "る」を体験してほしいと思う。"
      ],
@@ -477,14 +477,13 @@ TRY.registerLesson({
      "titleTr": "One Stormy Night",
      "tr": [
       "This fall, at the Minamiza theater in Kyoto, I saw a new kabuki play called \"Arashi no Yoru ni\" (One Stormy Night). Nakamura Shidō plays Gabu the wolf, and Onoe Matsuya plays Mei the goat.",
-      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is talked out of it by its companions and nearly loses heart. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
+      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is lectured by its companions and nearly gives in. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
       "Don't dismiss it as a silly fantasy. It depicts a surprising truth and a possibility. Who on earth decided the common belief that goats are something to be eaten by wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
-      "In fact, it is humans who have arbitrarily created, and then just as arbitrarily dissolved, such absolute hostile relationships that seem at first glance to be common sense. The gorillas I have studied for so long have been at the mercy of humans' selfish common sense. Ever since they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took seriously stories that they attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are like what the wolf is to the goat. However, once the peaceful life of gorillas became clear, that view changed completely, and now they have become a major tourist attraction as important neighbors of humans. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
-      "The same can be said of relationships between humans. In the Edo period, white people were seen by the Japanese as demons who ate human beings. During World War II, what on earth was the fear and hatred people harbored when they called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
+      "In fact, it is humans who have arbitrarily created, and then just as arbitrarily dissolved, such absolute hostile relationships that seem at first glance to be common sense. The gorillas I have studied for so long have been at the mercy of humans' selfish common sense. After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took seriously stories that they attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once the peaceful life of gorillas became clear, that view changed completely, and now they have become a major tourist attraction as important neighbors of humans. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
+      "The same can be said of relationships between humans. In the Edo period, white people were seen by the Japanese as demons who ate human beings. And what on earth was the fear and hatred we harbored during World War II, when we called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
       "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is that even a relationship that seems at first glance utterly impossible to change can be changed by the way we choose to feel about it. This is not something only intelligent humans can do.",
       "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have both built a friendly relationship over a long time. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I was charged and injured in the head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
-      "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes.",
-      "Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
+      "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
      ]
     },
     {
@@ -1035,7 +1034,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "Both uses start from a word the listener already has in mind and then adjust the picture it creates.\n\n- **一口にNといっても** widens it: one label, many kinds. It suits explanations and presentations, and the second half names the variety (様々な, いろいろな).\n- **XといってもY** shrinks it: the claim is true but less impressive than it sounds. Casual speech says 〜っていっても: 料理するっていっても、卵を焼くぐらいだよ (*I do cook, but only fried eggs*).\n\nThe second half has to go against the image; a clause that confirms X falls flat. Compare **〜というより** (L7-5), which drops the word for a better one. **〜にすぎない** (L12-5) often completes the second half, as in that note's key sentence. TRY! N2 teaches the same 〜といっても."
     },
     {
      "t": "note",
@@ -1125,7 +1125,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜がち** describes a habit or recurring tendency, nearly always one the speaker regrets: 忘れがち, 遅れがち, 休みがち. It isn't used for a single event (✗昨日は財布を忘れがちだった) or for a welcome habit (✗よく勉強しがちだ).\n\n- It behaves like a な-adjective: がちだ, がちな／がちの + N (ありがちな間違い, 病気がちの母), がちになる.\n- Set phrases: ありがち (*all too common*), 遠慮がちに (*hesitantly*), and the weather report's 曇りがち (*mostly cloudy*).\n\nCompare **〜気味**, a slight present state: 風邪気味だ (*I have a touch of a cold*) vs. 風邪をひきがちだ (*I often catch colds*); and **〜っぽい**, a casual character trait: 忘れっぽい (*forgetful*). TRY! N2 teaches the same 〜がち."
     },
     {
      "t": "note",
@@ -1291,7 +1292,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nに応じて** says the second half is adjusted to fit N: fees, plans, portions or tasks are matched to something that varies. It is neutral to formal and common in business, ads and rules (予算に応じて, 能力に応じて).\n\n- In writing it shortens to に応じ mid-sentence: 人数に応じ、部屋を用意します (*we will prepare rooms to suit the number of people*).\n- 応じる alone means *to respond to, accept*: 取材に応じる (*agree to an interview*).\n\nBesides **〜によって** (the book's ☛), compare **〜にしたがって**, a trend in which Y moves with X: 年をとるにしたがって体力が落ちる (*strength declines with age*). に応じて says only that Y fits X; for a matching amount see **〜分（だけ）** (L12-4). TRY! N2 teaches the same pattern."
     },
     {
      "t": "note",
@@ -1337,7 +1339,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "{山口|やまぐち}先生はいつも優しい**分だけ**、怒ると怖い。",
-         "tr": "Precisely because Professor Yamaguchi is always so kind, it’s all the scarier when the professor gets angry."
+         "tr": "Professor Yamaguchi is always so kind that it’s all the scarier when they do get angry."
         },
         {
          "n": 4,
@@ -1379,7 +1381,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N2, with 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
     },
     {
      "t": "note",
@@ -1480,7 +1483,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜にすぎない** puts a ceiling on X: *merely, no more than*. It belittles or plays down (言い訳にすぎない *it's just an excuse*); said of oneself it is modest (私は一社員にすぎません *I'm just an ordinary employee*). It is written or formal; conversation uses 〜だけだ or ただの〜だ, though a polite にすぎません is heard in speech, as in [#1].\n\n- Numbers are a typical X: 参加者は20人にすぎなかった (*there were only 20 participants*).\n- Mid-sentence it becomes にすぎず.\n\nCompare **Nにとどまる** (L10-1), which reports that a figure stayed within a limit without belittling it, and **〜にほかならない** (TRY! N2), which raises X to the one true answer instead of shrinking it. TRY! N2 teaches the same にすぎない."
     },
     {
      "t": "note",
@@ -1553,7 +1557,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "プロである**以上**、簡単に「できない」という言葉を使うべきではない。",
-         "tr": "As long as you’re a professional, you shouldn’t casually say “I can’t.”"
+         "tr": "Since you’re a professional, you shouldn’t be quick to say “I can’t.”"
         }
        ]
       },
@@ -1587,7 +1591,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜以上（は）** reasons from a fact or decision to what must follow: *since X is so, Y (naturally)*. It sounds a little more logical and formal than its twin **〜からには**, which TRY! N2 teaches with 以上は as a variant.\n\n- The second half must be a will, duty, request or firm judgment, not a neutral outcome: ✗留学した以上、日本語が上手になった.\n- X is often a role or status with である: 学生である以上, 社会人である以上 (*as a working adult*).\n\nDon't confuse it with 以上 meaning *or more* (3人以上) or the closing 以上です (*that's all*). **〜うえは** is a stiffer synonym, mostly in fixed phrases such as こうなった上は (*now that it has come to this*)."
     },
     {
      "t": "note",
@@ -1770,7 +1775,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "The verb form decides the meaning: **Vるうえで** is *in doing, for* and ends in what matters, is needed or is hard; **Vたうえで** is *after doing, and on that basis* and ends in a decision or action. ✗仕事をしたうえで大切なこと → ✓仕事をするうえで大切なこと.\n\n- Both are formal: reports, advice, business talk, notices. Notices often drop で: ご確認のうえ、お申し込みください (*please check before applying*).\n- Before a noun it becomes うえでの: 話し合ったうえでの決定 (*a decision reached through discussion*).\n\nVたうえで is not a plain *after*: ✗映画を見たうえで食事した → ✓見た後で. Compare **〜すえ（に）** (L11-3), which reports an outcome reached after long effort. TRY! N2 teaches the two uses as separate points (〜上で)."
     },
     {
      "t": "note",
@@ -1868,7 +1874,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vそうになる** reports a near miss: the event was on the verge of happening, then didn't. It is usually past (〜そうになった), and the event is involuntary or unwelcome: falling, crying, laughing, being late, dropping something.\n\n- The subject doesn't choose the event, so deliberate actions sound odd: ✗手紙を書きそうになった.\n- もう少しで, あやうく and 思わず are common partners. 〜ところだった states the same narrow escape: もう少しで遅刻するところだった (*I was almost late*).\n\nPlain **Vそうだ** is an observation, not a report of what nearly happened: 雨が降りそうだ (*it looks like rain*). **Vかける** means the action had already begun: 言いかけてやめた (*I started to say it and stopped*)."
     },
     {
      "t": "note",
@@ -1909,7 +1916,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "驚くこと**なかれ**。この小さな{田舎|いなか}{町|まち}に、今、全国から観光客が集まっている。",
-         "tr": "Don’t be surprised, but tourists from all over the country are now flocking to this small rural town."
+         "tr": "Believe it or not, tourists from all over the country are now flocking to this small rural town."
         }
        ]
       },
@@ -1969,7 +1976,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜なかれ** is a classical negative imperative (from なし), so it sounds literary and rhetorical. Modern writers use it for effect in essays, headlines and ads, mostly in a few set phrases: 驚くなかれ (*believe it or not*), 侮るなかれ, 〜と思うなかれ (*don't assume*). It sets up a surprising fact in the next sentence, as in every example here; it isn't a real order to someone present.\n\n- Everyday prohibitions use 〜ないで or 〜てはいけない; signs say 〜禁止.\n\nCompare **〜べからず** (TRY! N1), also classical, which forbids things on signs and in rules: 芝生に入るべからず (*keep off the grass*), and **〜まい** (L11-2), a negative intention or guess, not a command."
     },
     {
      "t": "note",
@@ -2030,7 +2038,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "あんなにいい先生が大学をやめてしまうなんて、残念としか言い**ようがない**。",
-         "tr": "That such a good professor is leaving the university—there’s no other word for it but a shame."
+         "tr": "All I can say is that it’s a real shame such a good professor is leaving the university."
         },
         {
          "n": 5,
@@ -2069,7 +2077,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vようがない** says the means are missing (an address, a tool, information), so the action cannot happen however much one wants it. The tone is resigned.\n\n- With する-nouns both 説明しようがない and 説明のしようがない occur; しようがない／しょうがない (*it can't be helped*) grew out of it.\n- The stem is the ます-stem, never the potential: ✗書けようがない.\n\nCompare **〜はずがない** (L9-8) and **〜わけがない** (L9-9), the speaker's judgment that something can't be true; [#3] reaches a similar denial through the lack of a way. TRY! N2 has the same ようがない; TRY! N1's 〜ようにも〜ない adds a wish or an attempt: 帰ろうにも帰れない (*I want to go home, but I can't*)."
     },
     {
      "t": "note",
@@ -2174,7 +2183,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vるなり** narrates: the moment X happened, someone did Y, and Y is abrupt or surprising to the observer. It reads as an account of someone else, which is why the speaker isn't the subject of Y.\n\n- X is always the dictionary form, even in the past. V-たなり is a different pattern, *and has stayed that way*: 出ていったなり戻らない (*left and never came back*).\n- It can't express plans or requests: ✗着くなり電話してください → ✓着いたらすぐ電話してください.\n\nCompare **〜たとたん（に）**, often for something that happens beyond the subject's control: 立ち上がったとたん、めまいがした (*the moment I stood up, I felt dizzy*). Don't confuse it with **〜なり〜なり** (L11-1) or **Nなりに** (L8-9). TRY! N1 teaches the same Vるなり."
     }
    ]
   },
@@ -2252,7 +2262,7 @@ TRY.registerLesson({
       "First, in many cases, the higher your income, the greater your happiness. According to a survey of Americans conducted in 2009 by Professor Kahneman, a behavioral economist, up to an annual income of $75,000 (about 8 million yen), the more your annual income rises, the happier you become. According to a 2018 report by the National Tax Agency, 90% of people in Japan earn 8 million yen a year or less, so it can be said that for most people, annual income affects happiness.",
       "Next, the higher your income, the higher your job satisfaction. If your pay is high, your sense of responsibility to do work worthy of it grows, and you can approach your work positively. Also, if you feel that the results of your hard work are reflected in your pay, your motivation should rise even further, and you should gain a sense of accomplishment and satisfaction.",
       "Finally, if your income is high, you can save money and ease your anxiety about your future life. Anyone could suddenly lose their job if the company they work for runs into financial trouble. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, there is no need to keep carrying anxieties like these.",
-      "As stated above, the higher your income, the greater your happiness, and it seems your job satisfaction rises as well. Also, because you can save money, you can ease your anxiety about the future. It may be true that without a real sense of \"being useful to others,\" you might lose sight of what working means. However, with a low income, won't you be unable to live a financially satisfying life, with limits on where you can live, what you can eat, and so on, and no room to enjoy hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
+      "As stated above, the higher your income, the greater your happiness, and it seems your job satisfaction rises as well. Also, because you can save money, you can ease your anxiety about the future. Admittedly, without a real sense of \"being useful to others,\" you may lose sight of what working means. However, with a low income, won't you be unable to live a financially satisfying life, with limits on where you can live, what you can eat, and so on, and no room to enjoy hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
      ],
      "roles": [
       {
@@ -4848,7 +4858,7 @@ TRY.registerLesson({
       {
        "n": "2.",
        "text": {
-        "ja": "{研|けん}によると、一般的な日本人の「協調性」とグローバル人材に求められる「協調性」はどう違いますか。",
+        "ja": "研によると、一般的な日本人の「協調性」とグローバル人材に求められる「協調性」はどう違いますか。",
         "tr": "According to Ken, how does the \"cooperativeness\" of typical Japanese people differ from the \"cooperativeness\" required of global talent?"
        },
        "answer": {
@@ -4938,7 +4948,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "でも、日本人の多くはただ{争|あらそ}いを{避|さ}けるために相手の意見に同意している__にすぎない__んじゃないかな。ここで言う「協調性」って、相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力ってことでしょ？",
-       "tr": "But I think a lot of Japanese people are just agreeing with the other person's opinion to avoid conflict, nothing more. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
+       "tr": "But I wonder if a lot of Japanese people aren't merely agreeing with the other person's opinion to avoid conflict. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
       },
       {
        "sp": "サ",

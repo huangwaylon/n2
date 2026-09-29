@@ -39,7 +39,7 @@ TRY.registerLinks([
   { k: "がち", ids: ["n2:111 〜がち", "q2:12-2 〜がち", "n1:11 〜きらいがある"], en: "〜がち: tend to (mostly bad things); N1's 〜きらいがある is a formal, critical remark about someone's bad tendency." },
   { k: "に応じて", ids: ["n2:4 〜に{応|おう}じ（て）", "q2:12-3 Nに応じて"], en: "Same pattern: \"in accordance with, depending on N\" (能力に応じて)." },
   { k: "にすぎない", ids: ["n2:101 〜にすぎない", "q2:12-5 〜にすぎない"], en: "Same pattern: \"nothing more than, only,\" belittling the amount or importance." },
-  { k: "以上は", ids: ["n2:18+1 〜{以上|いじょう}は", "q2:12-6 〜以上（は）"], en: "Same pattern: \"since, now that ~ (one must)\"; N2 gives it as a Plus of 〜からには." },
+  { k: "以上は", ids: ["n2:18+1 〜{以上|いじょう}は", "q2:12-6 〜以上（は）", "n2:18 〜からには"], en: "Same pattern: \"since, now that ~ (one must)\"; N2 gives it as a Plus of 〜からには." },
   { k: "うえで", ids: ["q2:12-7 〜うえで", "n2:14 〜{上|うえ}で", "n2:117 〜{上|うえ}で"], en: "Vるうえで \"in doing\" and Vたうえで \"after doing, based on\"; N2 teaches them as two points, Quartet in one note." },
   { k: "ようがない", ids: ["n2:44 〜ようがない", "q2:12-10 〜ようがない", "n1:84 〜（よ）うにも〜ない", "n1:122 〜べくもない"], en: "No way to do it: Vようがない; Vようにも Vない adds wanting or trying to; literary べくもない (疑うべくもない)." },
   { k: "なり", ids: ["n1:28 〜なり", "q2:12-11 〜なり"], en: "Same pattern: Vるなり \"the moment ~,\" followed by a sudden, often surprising action." },

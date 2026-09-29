@@ -6025,7 +6025,7 @@ l12.sections.0.blocks.13.lines.92	れだけである。他の数万のゴリラ�
 l12.sections.0.blocks.13.lines.93	ちはまだ人間に強い恐怖と敵意を抱
 l12.sections.0.blocks.13.lines.94	いている。しかし、それがいつか変
 l12.sections.0.blocks.13.lines.95	わる日が来ると私は確信している。
-l12.sections.0.blocks.13.lines.96	¶それは人間社会にも言えることで
+l12.sections.0.blocks.13.lines.96	それは人間社会にも言えることで
 l12.sections.0.blocks.13.lines.97	はないだろうか。ぜひ「あらしのよ
 l12.sections.0.blocks.13.lines.98	る」を体験してほしいと思う。
 l12.sections.0.blocks.13.credit.0	「毎日新聞」2015年11月1日（一部改）
@@ -7077,7 +7077,7 @@ l12.sections.3.blocks.15.items.0.blocks.0.items.3.text.ja	チャレンジ精神�
 l12.sections.3.blocks.15.items.0.blocks.0.items.3.answer	○
 l12.sections.3.blocks.15.items.0.blocks.0.items.4.text.ja	サラが思っていた協調性は、{研|けん}が言うものとは違ったようだ。
 l12.sections.3.blocks.15.items.0.blocks.0.items.4.answer	○
-l12.sections.3.blocks.15.items.1.text.ja	{研|けん}によると、一般的な日本人の「協調性」とグローバル人材に求められる「協調性」はどう違いますか。
+l12.sections.3.blocks.15.items.1.text.ja	研によると、一般的な日本人の「協調性」とグローバル人材に求められる「協調性」はどう違いますか。
 l12.sections.3.blocks.15.items.1.answer.ja	一般的な日本人の協調性はただ{争|あらそ}いを{避|さ}けるために相手の意見に同意しているにすぎないが、グローバル人材に求められる協調性は相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力のことである。（日本人は、{一方|いっぽう}が折れているだけだが、グローバル人材に求められる協調性は、話し合ってお互いに{納得|なっとく}できる答えにたどり着くことができる能力のことである。）
 l12.sections.3.blocks.16.text.ja	ディスカッション
 l12.sections.3.blocks.17.items.0.text.ja	上のメモの「グローバル人材に求められる能力」以外に、どんな能力が大切だと思いますか。どうしてですか。
