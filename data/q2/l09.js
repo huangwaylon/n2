@@ -1866,7 +1866,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜わけがない** rejects X as absurd: *no way, of course not*. Where はずがない (L9-8) argues from facts, わけがない rests on the speaker's sense that X makes no sense, so it often comes with よ, でしょ or じゃない and an exclamation mark.\n\n- Casual speech shortens it to **〜わけない** or **〜っこない**: できっこない (*there's no way I can do it*). Polite speech uses 〜わけがありません.\n- Don't confuse it with **〜わけではない** (*it's not that ~*), which denies only part of an idea: 嫌いなわけではない (*it's not that I dislike it*).\n\nTRY! N2's **〜ものか** is an emotional cousin that rejects an idea with determination: 負けるものか (*like I'd ever lose!*)."
+     "deepDive": "**〜わけがない** rejects X as absurd: *no way, of course not*. Where はずがない (L9-8) argues from facts, わけがない rests on the speaker's sense that X makes no sense, so it often comes with よ, でしょ or じゃない and an exclamation mark.\n\n- Casual speech drops the が (**〜わけない**) or switches to the ます-stem + **っこない**: できっこない (*there's no way I can do it*). Polite speech uses 〜わけがありません.\n- Don't confuse it with **〜わけではない** (*it's not that ~*), which denies only part of an idea: 嫌いなわけではない (*it's not that I dislike it*).\n\nTRY! N2's **〜ものか** is an emotional cousin that rejects an idea with determination: 負けるものか (*like I'd ever lose!*)."
     },
     {
      "t": "note",
@@ -4049,7 +4049,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "社会学の授業でグエン・ヴァン・タンがペットの{殺処分|さつしょぶん}の問題について発表しています。発表の内容に合う{概要|がいよう} (outline) はa〜dのどれですか。",
-      "tr": "In a sociology class, Nguyen Van Thanh is giving a presentation on the problem of euthanizing pets. Which of a–d is the outline that matches the content of the presentation?"
+      "tr": "In a sociology class, Nguyen Van Tan is giving a presentation on the problem of euthanizing pets. Which of a–d is the outline that matches the content of the presentation?"
      }
     },
     {
@@ -4201,7 +4201,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "社会学の授業で、グエン・ヴァン・タンがペットの{殺処分|さつしょぶん}の問題について発表しています。発表の内容に合う{概要|がいよう}はa〜dのどれですか。",
-      "tr": "In a sociology class, Nguyen Van Thanh is giving a presentation on the problem of euthanizing pets. Which of a–d is the outline that matches the content of the presentation?"
+      "tr": "In a sociology class, Nguyen Van Tan is giving a presentation on the problem of euthanizing pets. Which of a–d is the outline that matches the content of the presentation?"
      },
      "lines": [
       {

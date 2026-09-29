@@ -607,7 +607,7 @@ TRY.registerLesson({
           {
            "sp": "{絵理|えり}",
            "ja": "{東京|とうきょう}**なり**、{京都|きょうと}**なり**、サラが行きたいところでいいよ。",
-           "tr": "Tokyo or Kyoto or wherever—anywhere you'd like to go is fine with me, Sarah."
+           "tr": "Tokyo or Kyoto or wherever—anywhere you'd like to go is fine with me, Sara."
           }
          ]
         }
@@ -3539,7 +3539,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "ジョージとサラが、若者のコミュニケーションについて話しています。\n会話を聞いて、質問に答えなさい。",
-      "tr": "George and Sarah are talking about how young people communicate.\nListen to the conversation and answer the questions."
+      "tr": "George and Sara are talking about how young people communicate.\nListen to the conversation and answer the questions."
      }
     },
     {
@@ -3596,7 +3596,7 @@ TRY.registerLesson({
            "n": "①",
            "text": {
             "ja": "サラによると、SNSのコミュニケーションでは言葉で表現する機会が少ない。",
-            "tr": "According to Sarah, communication on social media offers few opportunities to express oneself in words."
+            "tr": "According to Sara, communication on social media offers few opportunities to express oneself in words."
            },
            "answer": "○"
           },
@@ -3612,7 +3612,7 @@ TRY.registerLesson({
            "n": "③",
            "text": {
             "ja": "サラはSNSのおかげで自分とは趣味が違う人と出会えるのが{魅力|みりょく}だと感じている。",
-            "tr": "Sarah feels that the appeal of social media is that it lets you meet people whose interests are different from your own."
+            "tr": "Sara feels that the appeal of social media is that it lets you meet people whose interests are different from your own."
            },
            "answer": "×"
           },
@@ -3620,7 +3620,7 @@ TRY.registerLesson({
            "n": "④",
            "text": {
             "ja": "サラはSNS上と実際の社会での人との付き合いは違うと思っている。",
-            "tr": "Sarah thinks that relationships with people on social media are different from those in real-world society."
+            "tr": "Sara thinks that relationships with people on social media are different from those in real-world society."
            },
            "answer": "○"
           },
@@ -3640,7 +3640,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "サラによると、SNS上のコミュニケーションと対面でのコミュニケーションはどう違いますか。\n2つ挙げなさい。",
-        "tr": "According to Sarah, how does communication on social media differ from face-to-face communication?\nGive two differences."
+        "tr": "According to Sara, how does communication on social media differ from face-to-face communication?\nGive two differences."
        },
        "answer": {
         "ja": "対面のコミュニケーションでは、苦手な相手や考え方が全く違う人とも関わらなければいけないことや、言葉だけではなく、相手の表情や身振りからも気持ちが読み取れることが、SNS上のコミュニケーションと違う。",
@@ -3686,7 +3686,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "ジョージとサラが、若者のコミュニケーションについて話しています。会話を聞いて、質問に答えなさい。",
-      "tr": "George and Sarah are talking about how young people communicate. Listen to the conversation and answer the questions."
+      "tr": "George and Sara are talking about how young people communicate. Listen to the conversation and answer the questions."
      },
      "lines": [
       {

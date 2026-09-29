@@ -1012,7 +1012,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**こそ** singles out one item and implies a contrast with the rest: 今年こそ (*this year, unlike all the others*). It replaces は, が and を, but follows other particles: あなたにこそ読んでほしい (*you're the one I want to read it*).\n\n- **からこそ** turns a reason that looks like an obstacle into the source of the result: 大変だからこそおもしろい. Plain から only states a cause.\n- ので cannot take こそ: ✗大変なのでこそ.\n\nTRY! N2 adds two relatives. **〜ばこそ** is a literary からこそ: 親友であればこそ (*precisely because we're best friends*). **〜てこそ** means *only by ~ing*: 続けてこそ効果がある (*it only works if you keep at it*)."
+     "deepDive": "**こそ** singles out one item and implies a contrast with the rest: 今年こそ合格したい (*this year, for sure, I want to pass*). It replaces は, が and を, but follows other particles: あなたにこそ読んでほしい (*you're the one I want to read it*).\n\n- **からこそ** insists that this reason, and no other, produces the result, often one that looks paradoxical: 大変だからこそおもしろい (*it is fun precisely because it is hard*). Plain から only states a cause.\n- ので cannot take こそ: ✗大変なのでこそ.\n\nTRY! N2 adds two relatives. **〜ばこそ** is a literary からこそ: 親友であればこそ (*precisely because we're best friends*). **〜てこそ** means *only by ~ing*: 続けてこそ効果がある (*it only works if you keep at it*)."
     },
     {
      "t": "note",
@@ -3169,25 +3169,25 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "❶**本日は、**日本人と留学生の交流イベント**について話し合いたいと思います。では、まず、**テイラーさん**から意見をお願いします。**",
-       "tr": "Today I'd like to discuss an exchange event for Japanese and international students. So, first, may we have your opinion, Mr. Taylor?"
+       "tr": "Today I'd like to discuss an exchange event for Japanese and international students. So, first, may we have your opinion, Taylor-san?"
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "❷たこやきパーティー**はどうでしょうか。**❸**なぜかというと、**たこやきなら簡単に作れるし、留学生も日本人学生も好きな人が多い**からです。それに、僕の経験から言うと、**何か一緒にしながらのほうが{緊張|きんちょう}せずに話せて、会話がはずむ**ような気がします。**❹ワンさん**はどう思いますか。**",
-       "tr": "How about a takoyaki party? The reason is that takoyaki are easy to make, and a lot of people, both international and Japanese students, like them. Also, from my experience, I feel that when you're doing something together, you can talk without getting nervous and the conversation really gets going. What do you think, Ms. Wang?"
+       "tr": "How about a takoyaki party? The reason is that takoyaki are easy to make, and a lot of people, both international and Japanese students, like them. Also, from my experience, I feel that when you're doing something together, you can talk without getting nervous and the conversation really gets going. What do you think, Wang-san?"
       },
       {
        "sp": "メ",
        "v": "f",
        "ja": "❺たこやきを一緒に作りながら交流を深める**というのは、いい考えですね。**❻**ただ、**たこやきは一度にたくさん作れないので、参加者が多い場合は{困|こま}る**かもしれません。**❼**そこで、{提案|ていあん}なのですが、**それぞれの国の簡単なゲームを紹介し合う**のはどうでしょうか。**❸お{互|たが}いの国のことがわかるし、楽しい思い出になる**のではないかと思います。**❹本田さん**はいかがですか。**",
-       "tr": "Getting to know each other better while making takoyaki together is a good idea. However, you can't make a lot of takoyaki at once, so it might be a problem if there are a lot of participants. So I have a suggestion: how about introducing each other to simple games from our countries? We'd learn about each other's countries, and I think it would make for a fun memory. What do you think, Mr. Honda?"
+       "tr": "Getting to know each other better while making takoyaki together is a good idea. However, you can't make a lot of takoyaki at once, so it might be a problem if there are a lot of participants. So I have a suggestion: how about introducing each other to simple games from our countries? We'd learn about each other's countries, and I think it would make for a fun memory. What do you think, Honda-san?"
       },
       {
        "sp": "研",
        "v": "m",
        "ja": "❺**確かに、**いろいろな国のゲームをするのは楽し**そうですね。**❽ワンさん**の意見に{付|つ}け{加|くわ}えるなら、**日本人と留学生を{混|ま}ぜたグループを作って、グループ{対抗|たいこう}にするという**のはどうでしょうか。**❸**というのは、**{競争|きょうそう}があったほうがグループ{内|ない}のきずなが強くなると思う**からです。**❹**他のみなさんはいかがですか。**",
-       "tr": "It certainly sounds fun to play games from various countries. To add to Ms. Wang's idea, how about making groups that mix Japanese and international students and turning it into a competition between the groups? The reason is that I think a little competition would strengthen the bonds within each group. What does everyone else think?"
+       "tr": "It certainly sounds fun to play games from various countries. To add to Wang-san's idea, how about making groups that mix Japanese and international students and turning it into a competition between the groups? The reason is that I think a little competition would strengthen the bonds within each group. What does everyone else think?"
       },
       {
        "ja": "＊　＊　＊"

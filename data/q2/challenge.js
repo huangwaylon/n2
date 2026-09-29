@@ -4518,7 +4518,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "{山田|やまだ}さんには、14歳、【a. つまり　b. 要するに】、中学生の子どもがいる。",
-         "tr": "Ms. Yamada has a child who is 14, in other words, in junior high school."
+         "tr": "Yamada-san has a child who is 14, in other words, in junior high school."
         },
         "options": [
          "a. つまり",

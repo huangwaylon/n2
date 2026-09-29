@@ -960,7 +960,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "テイラーさんは英語を教えた経験があるそうですね。",
-           "tr": "I hear you have experience teaching English, Mr. Taylor."
+           "tr": "I hear you have experience teaching English, Taylor-san."
           },
           {
            "sp": "テイラー",
@@ -1422,7 +1422,7 @@ TRY.registerLesson({
           {
            "sp": "{田中|たなか}",
            "ja": "{山田|やまだ}さんのご主人は育児に積極的なんでしょ？　うらやましい……。",
-           "tr": "Your husband is really involved in raising the kids, isn’t he, Ms. Yamada? I’m so jealous…"
+           "tr": "Your husband is really involved in raising the kids, isn’t he, Yamada-san? I’m so jealous…"
           },
           {
            "sp": "山田",
@@ -3153,7 +3153,7 @@ TRY.registerLesson({
        "sp": "中",
        "v": "m",
        "ja": "いえいえ、すべてはテイラーさんの努力があったからこそですよ。よくがんばりましたね。",
-       "tr": "Not at all. It was all thanks to your own hard work, Mr. Taylor. You really did well."
+       "tr": "Not at all. It was all thanks to your own hard work, Taylor-san. You really did well."
       },
       {
        "sp": "ジ",
@@ -3815,7 +3815,7 @@ TRY.registerLesson({
      },
      "setting": {
       "ja": "日本語のクラスでジョージ・テイラー（ジ:）たちが「仕事ではお金よりやりがいが大切だ」というテーマでディベートをしている。\n{司会|しかい}＝サラ・ゴミス（サ:）　賛成側＝ワン・メイリン（メ:）　反対側＝ジョージ・テイラー",
-      "tr": "In Japanese class, George Taylor (ジ) and his classmates are holding a debate on the theme \"In work, a sense of purpose matters more than money.\"\nModerator = Sarah Gomis (サ); for = Wang Meilin (メ); against = George Taylor"
+      "tr": "In Japanese class, George Taylor (ジ) and his classmates are holding a debate on the theme \"In work, a sense of purpose matters more than money.\"\nModerator = Sara Gomis (サ); for = Wang Meilin (メ); against = George Taylor"
      },
      "lines": [
       {
@@ -4701,7 +4701,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "{研|けん}とサラがビジネスの講義の後、下のノートを見ながら話しています。会話を聞いて、質問に答えなさい。",
-      "tr": "After a business lecture, Ken and Sarah are talking while looking at the notes below. Listen to the conversation and answer the questions."
+      "tr": "After a business lecture, Ken and Sara are talking while looking at the notes below. Listen to the conversation and answer the questions."
      }
     },
     {
@@ -4847,7 +4847,7 @@ TRY.registerLesson({
            "n": "⑤",
            "text": {
             "ja": "サラが思っていた協調性は、{研|けん}が言うものとは違ったようだ。",
-            "tr": "It seems the cooperativeness Sarah had in mind was different from what Ken is talking about."
+            "tr": "It seems the cooperativeness Sara had in mind was different from what Ken is talking about."
            },
            "answer": "○"
           }
@@ -4905,7 +4905,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "{研|けん}とサラがビジネスの講義の後、下のノートを見ながら話しています。会話を聞いて、質問に答えなさい。",
-      "tr": "After a business lecture, Ken and Sarah are talking while looking at the notes below. Listen to the conversation and answer the questions."
+      "tr": "After a business lecture, Ken and Sara are talking while looking at the notes below. Listen to the conversation and answer the questions."
      },
      "lines": [
       {

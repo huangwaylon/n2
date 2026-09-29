@@ -1826,7 +1826,7 @@ TRY.registerLesson({
       "I think I've become calmer and better at concentrating. I've always been restless, but as I kept practicing the tea ceremony, I feel that my mind, along with my movements, has calmed down.",
       "What do you think is the greatest appeal of the tea ceremony?",
       "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had been doing the tea ceremony.",
-      "I had an image of the tea ceremony as something difficult, but listening to Ms. Wang, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
+      "I had an image of the tea ceremony as something difficult, but listening to Wang-san, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
      ],
      "roles": [
       {
