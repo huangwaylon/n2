@@ -1119,7 +1119,7 @@ TRY.registerVocab({
       "n": 28,
       "w": "態度",
       "ex": "人をバカにするような態度を取るべきではない。",
-      "tr": "You shouldn't act in a way that makes fun of people."
+      "tr": "You shouldn't take a condescending attitude toward people."
      },
      {
       "n": 29,

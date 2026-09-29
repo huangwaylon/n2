@@ -2291,7 +2291,7 @@ l9.sections.0.blocks.21.blocks.1.items.0.lines.1.ja	ううん。忙しくて、�
 l9.sections.0.blocks.21.blocks.1.items.1.lines.0.sp	A
 l9.sections.0.blocks.21.blocks.1.items.1.lines.0.ja	初めてカラオケに行ったんだって？　どうだった？
 l9.sections.0.blocks.21.blocks.1.items.1.lines.1.sp	B
-l9.sections.0.blocks.21.blocks.1.items.1.lines.1.ja	実は、歌が下手でみんなに笑われちゃって……。もうカラオケに**なんか**行きたくないよ。
+l9.sections.0.blocks.21.blocks.1.items.1.lines.1.ja	実は、歌が下手でみんなに笑われちゃって……。もうカラオケ**になんか**行きたくないよ。
 l9.sections.0.blocks.21.blocks.1.items.2.lines.0.sp	A
 l9.sections.0.blocks.21.blocks.1.items.2.lines.0.ja	ああ、ショック。勉強したのに60点しか取れなくて。
 l9.sections.0.blocks.21.blocks.1.items.2.lines.1.sp	B

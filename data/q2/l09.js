@@ -302,7 +302,7 @@ TRY.registerLesson({
       "The girl nods. She thinks she probably does.",
       "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's a feeling so sad and painful that you really want to just die. No, that's not it. It's not that you want to die; if you just left it like that, the air in the box would get thinner and you would actually die. That's not a figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
       "The girl nods silently again. The boy pauses for a moment.",
-      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Where on earth there could be railroad tracks out there, even I don't know. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I listen hard in the darkness. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, isn't it? Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
+      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Where on earth there could be railroad tracks out there, even I don't know. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I listen hard in the darkness. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
       "With that, the boy's short story ends. Now the girl begins to tell her own story."
      ]
     },
@@ -399,7 +399,7 @@ TRY.registerLesson({
       "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, even that turned into a casual attitude, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my imagination in the fear department has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
-      "And so I think: when their children are small, how much imagined fear must the world's mothers tremble with? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
+      "And so I wonder: when their children are small, how many imagined fears must mothers everywhere tremble at? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
       "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs to pessimism."
      ]
     },
@@ -547,7 +547,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "ええーっ、そんな！　と、こちらが何かさみしいような気持ちになる__ほど__の成長ぶりである。この順応性の高さにもまた、驚かされた。",
-          "tr": "“Wha-a-at? No way!” It has grown up so much that it leaves me feeling somehow lonely. I was also surprised by how adaptable it is."
+          "tr": "“Wha-a-at? No way!” It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is."
          }
         }
        ]
@@ -801,7 +801,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜くらい** measures a feeling or state by how far it goes, and the yardstick is usually a vivid, not literal, picture: 泣きそうになるくらいうれしかった (*I was so happy I nearly cried*). It is the everyday word; **ほど** says the same in more formal or written Japanese.\n\n- After a noun it sets a standard: ジョージくらい上手になりたい (*as good as George*). With a negative, Nくらい〜はない means *nothing is as ~ as N*: 彼くらい優しい人はいない (*there's no one as kind as him*).\n- After a number it means *about*: 30分くらい (*about 30 minutes*).\n- A dismissive くらい, *at least*, is a different use: 電話くらいしてよ (*you could at least call*). TRY! N2's **〜くらいなら** (*rather than ~*) builds on it."
     },
     {
      "t": "note",
@@ -918,7 +919,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- Put the past inside: 何かあったに違いない (*something must have happened*).\n\nCompare **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
     },
     {
      "t": "note",
@@ -1090,7 +1092,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜たとしても** supposes a case, often an unlikely one, and says the outcome stays the same. The た does not mean past time: 月に住めるようになったとしても (*even if it became possible to live on the moon*) is about the future; the た presents the case as if it were already settled.\n\n- たとえ or 仮に in front underlines the supposition; どんなに／いくら turn it into *no matter how*.\n- **〜ても** is the neutral *even if / even though* and can state real facts: 雨が降っても行った (*I went even though it rained*). 〜としても stays hypothetical.\n\nTRY! N2 teaches plain-form **〜としても** with casual **〜としたって**; TRY! N1's **〜たところで** adds that the action would be pointless (今さら急いだところで間に合わない *hurrying now won't get us there in time*)."
     },
     {
      "t": "note",
@@ -1148,7 +1151,7 @@ TRY.registerLesson({
           },
           {
            "sp": "B",
-           "ja": "実は、歌が下手でみんなに笑われちゃって……。もうカラオケに**なんか**行きたくないよ。",
+           "ja": "実は、歌が下手でみんなに笑われちゃって……。もうカラオケ**になんか**行きたくないよ。",
            "tr": "Actually, I’m a bad singer, and everyone laughed at me… I never want to go to karaoke or anything like that again."
           }
          ]
@@ -1266,7 +1269,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nなんか** is spoken and emotional: it pushes N down, whether in dislike (試験なんか受けたくない), in modesty (僕なんか *someone like me*), or in surprise that N is there at all (デパートなんかある). Its written and polite form is **など**, which also has a neutral *such as* use: 野菜や果物など (*vegetables, fruit and so on*).\n\n- Using it about something the listener cares about sounds belittling: 君の料理なんか… dismisses their cooking.\n- In casual talk なんか also works alone as a filler, *kind of*: なんか変だね (*it's kind of weird*).\n\nSentence + **なんて** (the ☛ note) reacts to a whole event; なんて also opens exclamations: なんてきれいなんだろう (*how beautiful!*)."
     },
     {
      "t": "note",
@@ -1348,7 +1352,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**いったい** (一体) turns a question into bewilderment or frustration: the speaker is less asking than wondering aloud. It needs a question word (何, どこ, いつ, どうして, どうやって), and the sentence usually ends in 〜のだろう（か）, 〜んだろう or an exasperated 〜んだ！\n\n- It is out of place in a neutral request for information: asking a stranger the way, say 駅はどこですか; いったいどこですか sounds annoyed.\n- いったい全体 is a stronger spoken version, and いったい何なの？ (*what is going on?!*) is a common outburst.\n\nThe written **はたして〜だろうか** also doubts an answer, but calmly: はたして成功するだろうか (*will it really succeed?*)."
     },
     {
      "t": "note",
@@ -1404,7 +1409,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "昼ご飯を食べ終わった**か**終わら**ないか**の時に、電話がかかってきた。",
-         "tr": "Just as I was finishing lunch, I got a phone call."
+         "tr": "I had barely finished lunch when the phone rang."
         },
         {
          "n": 4,
@@ -1447,7 +1452,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**V₁かV₁ないか** puts something right on the borderline, where it is unclear whether V has happened yet; English says *barely, just about*: 聞こえるか聞こえないかくらいの声 (*a voice you can barely hear*). The same verb fills both slots, and くらいの + N or の + N usually follows.\n\n- With a time noun (の時, の頃) it means *just as, right around when*: 食べ終わったか終わらないかの時 (*just as I finished eating*).\n- Don't confuse it with **〜かどうか** (*whether or not*), which asks a question instead of describing a borderline state.\n\nTRY! N2's **〜か〜ないかのうちに** grows out of this: *barely had ~ when…*, with a second event cutting in. TRY! N1's **〜が早いか** and **〜や否や** are the written cousins."
     },
     {
      "t": "note",
@@ -1557,7 +1563,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XということはYということだ** reinterprets X: *doing X really amounts to Y*. The speaker draws out what X involves, often an implication the listener hasn't considered: 一人暮らしをするということは、経済的に自立するということだ. When it is a realization, it ends in 〜ということなんだ（ね）, as in the key example.\n\n- At the start of a reply, ということは means *so that means…*: A：明日は祝日だよ。B：ということは、授業はないの？ (*so there's no class?*).\n- **XとはYだ** is the compact written form used for definitions.\n\n**Nというものは** (the ☛ note) talks about the nature of N in general and usually ends in 〜ものだ. TRY! N2's **〜というものだ** and **〜というものではない** belong to the same family."
     },
     {
      "t": "note",
@@ -1681,7 +1688,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜はずがない** is the negative end of はず: judging from what the speaker knows (a schedule, a fact, common sense), X is ruled out: *can't be, there's no way*. It argues from facts and sounds more reasoned than **〜わけがない** (L9-9). Both are blunt, so a speaker being polite hedges, as the hotel guest does with と思うんですが.\n\n- そんなはずはない (with は) is the set reply *that can't be right* when the facts contradict what the speaker believes.\n- Keep it apart from **〜ないはずだ**, a milder expectation: 彼は今日来ないはずだ (*he's not supposed to come today*) vs. 来るはずがない (*he can't possibly come*).\n\nThe affirmative counterparts are **〜はずだ** (L5-3) and **〜に違いない** (L9-2)."
     },
     {
      "t": "note",
@@ -1771,12 +1779,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "その服すてきだね。ブランド物？",
-           "tr": "Those are nice clothes. Are they designer?"
+           "tr": "That's a nice outfit. Is it designer?"
           },
           {
            "sp": "B",
            "ja": "ブランド物の**わけがない**じゃない。うちはセールの時しか服を買わないんだから。母が作ってくれたの。",
-           "tr": "Of course they're not designer. My family only buys clothes on sale. My mom made them for me."
+           "tr": "As if it could be designer! My family only buys clothes on sale. My mom made it for me."
           }
          ]
         }
@@ -1857,7 +1865,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜わけがない** rejects X as absurd: *no way, of course not*. Where はずがない (L9-8) argues from facts, わけがない rests on the speaker's sense that X makes no sense, so it often comes with よ, でしょ or じゃない and an exclamation mark.\n\n- Casual speech shortens it to **〜わけない** or **〜っこない**: できっこない (*there's no way I can do it*). Polite speech uses 〜わけがありません.\n- Don't confuse it with **〜わけではない** (*it's not that ~*), which denies only part of an idea: 嫌いなわけではない (*it's not that I dislike it*).\n\nTRY! N2's **〜ものか** is an emotional cousin that rejects an idea with determination: 負けるものか (*like I'd ever lose!*)."
     },
     {
      "t": "note",
@@ -1974,7 +1983,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**V-ます + 得る** is a written word for possibility, whether something can happen or be the case, not whether someone is able to do it. Reports and analysis use it: 起こり得るリスク (*risks that could arise*), 想像し得ない変化 (*unimaginable change*).\n\n- あり得る／あり得ない are the forms heard in everyday speech; ありえない！ on its own means *no way! / that's ridiculous*.\n- Before a noun it often means *every possible*: 考え得る方法 (*every conceivable method*).\n\nKeep it apart from **〜ざるを得ない** (*have no choice but to*), where 得ない expresses necessity. TRY! N2 teaches the same 〜得る／得ない; **〜かねない** (L11-6) adds that the possible outcome is a bad one."
     },
     {
      "t": "note",
@@ -2100,7 +2110,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**V-ますもしない** is *not even*, aimed at someone who skips the obvious first step, so it carries criticism or frustration: 見もしないで (*without even looking*). With the speaker as subject and verbs of thinking, it turns into surprise: 思いつきもしなかった (*it never even occurred to me*).\n\n- The negation sits on する: 読みもしない, 食べもしない; the past is 〜もしなかった, and 〜もしないで／〜もせずに means *without even*.\n- Nouns take も directly: 返事もしない (*doesn't even reply*).\n\nCompare **Nさえ〜ない** (*not even N*), which stresses the noun instead of the action, and TRY! N1's literary **Nだにしない** (想像だにしない ≈ 想像もしない)."
     }
    ]
   },
@@ -2160,12 +2171,12 @@ TRY.registerLesson({
       "かを支えてあげたいと思う時。そんな時にこの作品を手に取ってみ",
       "てほしい。"
      ],
-     "titleTr": "On Reading \"On a Midnight Whistle, or On the Usefulness of Stories\" (Haruki Murakami)",
+     "titleTr": "On Reading \"On a Train Whistle in the Middle of the Night, or On the Uses of Stories\" (Haruki Murakami)",
      "tr": [
-      "\"How much do you like me?\"",
+      "\"How much do you love me?\"",
       "To the girl's question, the boy answers like this: \"As much as a whistle in the middle of the night.\"",
       "The boy turns what the midnight whistle means to him into a story and tells it, and the girl quietly listens to his story. This work is an ultra-short love story that expresses the boy's love for the girl who rescued him from loneliness.",
-      "The appeal of this story is, above all, that it expresses love beautifully. If your sweetheart asked you, \"How much do you like me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This could truly be called \"the usefulness of stories.\"",
+      "The appeal of this story is, above all, that it expresses love beautifully. If your sweetheart asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This could truly be called \"the uses of stories.\"",
       "Another appeal is the boy's gentle tone. The boy moves the story along, gently asking the girl, \"Do you understand?\" and \"Do you understand that too?\" And the girl listens to the story silently and intently, as if watching over the boy. This exchange connects the boy's \"story of loneliness\" with the \"reality\" of the boy being together with the girl. I think the reason we can feel warmth in a painful story is that we can sense the girl's presence through the boy's gentle tone.",
       "It is short, but it is a story that leaves its readers with a warm feeling. When you feel lonely, when you think of someone who supports you, or when you want to support someone: at times like these, I hope you will pick up this work."
      ],
@@ -2380,7 +2391,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "**「あなたはどれくらい私のことを好き？」**",
-           "tr": "\"How much do you like me?\""
+           "tr": "\"How much do you love me?\""
           },
           {
            "ja": "少女の質問に少年はこう答える。**「夜中の{汽笛|きてき}くらい」**",
@@ -2858,7 +2869,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**せっかくの誕生日なんだし、お祝いしてあげて。",
-       "tr": "Don't be so reserved. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
+       "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
       },
       {
        "sp": "ジ",
@@ -3003,7 +3014,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**\nせっかくの誕生日なんだし、お{祝|いわ}いしてあげて。",
-        "tr": "Don't be so reserved. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
+        "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
        }
       },
       {
@@ -3121,7 +3132,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**　{{せっかくの誕生日なんだし、お{祝|いわ}いしてあげて。}}",
-       "tr": "Don't be so reserved. We should help each other out when we're in a bind. It's their birthday, after all, so go celebrate with them."
+       "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's their birthday, after all, so go celebrate with them."
       },
       {
        "sp": "友達",
@@ -3266,7 +3277,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸**そんな{遠慮|えんりょ}なさらないでください。**　{{力仕事は得意なので、}}**私でよろしければ、**{{お手伝いさ}}**せてください。**",
-         "tr": "Please don't hold back like that. I'm good at physical work, so if I'd be of any help, please let me help."
+         "tr": "Please don't hold back like that. I'm good at heavy lifting, so if you don't mind, please let me help."
         },
         {
          "sp": "店長",
@@ -4209,7 +4220,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "このように殺処分の数は減っているのですが、ゼロにすることは難しいようです。では、殺処分をゼロに近づけるためにはどうすればいいでしょうか。日本ではペットショップなどで気軽に犬や猫を買うことができます。しかし、ペットを飼う__ということは__、そのペットが死ぬまで世話をするということで、簡単なことではありません。ペットを飼い始める前に、飼い主としての{責任|せきにん}をよく理解してもらう必要があるでしょう。",
-       "tr": "So the number of animals euthanized is going down, but it seems that bringing it down to zero is difficult. Then what should we do to bring euthanasia closer to zero? In Japan, you can casually buy a dog or cat at a pet shop or the like. But having a pet means looking after it until it dies, and that's not a simple thing. Before people start keeping a pet, they probably need to be made to fully understand their responsibilities as an owner."
+       "tr": "So the number of animals euthanized is going down, but it seems that bringing it down to zero is difficult. Then what should we do to bring euthanasia closer to zero? In Japan, you can casually buy a dog or cat at a pet shop or the like. But having a pet means looking after it until it dies, and that's not a simple thing. Before people start keeping a pet, we probably need to make sure they fully understand their responsibilities as owners."
       }
      ]
     },

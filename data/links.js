@@ -20,7 +20,7 @@ TRY.registerLinks([
   { k: "たものだ", ids: ["n2:132 〜ものだ", "q2:8-6 〜たものだ"], en: "Same use: Vたものだ recalls with nostalgia what one often used to do." },
   { k: "なりに", ids: ["n1:18 〜なりに", "q2:8-9 Nなりに"], en: "Same pattern: in one's own way, within one's own limits (自分なりに)." },
   { k: "としても", ids: ["n2:137 〜としても／〜としたって", "q2:9-3 〜たとしても", "n1:77 〜たところで"], en: "Xとしても is a hypothetical \"even if\"; N1's 〜たところで adds that doing it would be useless." },
-  { k: "か〜ないか", ids: ["q2:9-6 V₁かV₁ないか", "n2:96 〜か〜ないかのうちに", "n1:30 〜が早いか", "n1:97 Vや{否|いな}や"], en: "VかVないか: \"on the borderline of V\"; かのうちに, が早いか and や否や (both written): \"no sooner had ~ than.\"" },
+  { k: "か〜ないか", ids: ["q2:9-6 V₁かV₁ないか", "n2:96 〜か〜ないかのうちに", "n1:30 〜が早いか", "n1:97 Vや{否|いな}や"], en: "VかVないか: \"on the borderline of V\"; かのうちに, and written が早いか, や否や: \"no sooner had ~ than.\"" },
   { k: "得る", ids: ["n2:66 〜{得|う}る／〜{得|え}る／〜{得|え}ない", "q2:9-10 〜{得|え}る／{得|え}ない"], en: "Same pattern: V-ます + 得る／得ない, \"can / cannot possibly.\"" },
   { k: "もしない", ids: ["q2:9-11 〜もしない", "n1:104 Nだにしない"], en: "Both mean \"not even ~\"; N1's だにしない is literary and limited to set nouns (想像だにしない ≈ 想像もしない)." },
   { k: "一方で", ids: ["n2:61 〜{一方|いっぽう}（で）／その{一方|いっぽう}で", "q2:10-2 {一方|いっぽう}（で）", "n2:69 〜{反面|はんめん}／〜{半面|はんめん}"], en: "Two contrasting sides, \"on the other hand; while\"; 反面 contrasts two sides of the same thing (便利な反面)." },
