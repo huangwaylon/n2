@@ -654,7 +654,7 @@ TRY.registerChapter({
               { sp: "M", v: "m", ja: "そう言ってたけど、{無理|むり}言って{頼|たの}んだんだ。まぁ、今度代わってあげればいいんじゃない？" },
               { sp: "", ja: "{伊藤|いとう}さんは昨日何をしましたか。" },
             ],
-            en: ["A woman and the store manager are talking. What did Ito do yesterday?", "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...", "You still look pale. Ito-san came in to cover for you at the store, so there's no need to worry about it.", "Huh? But Ito-san was supposed to have plans yesterday...", "Ito-san did say so, but I pushed and asked anyway. Well, why don't you cover for Ito-san next time?", "What did Ito-san do yesterday?"],
+            en: ["A woman and the store manager are talking. What did Ito do yesterday?", "I'm sorry about yesterday. I thought I couldn't possibly skip my part-time shift, but my fever was high and I couldn't get up...", "You still look pale. Ito came in to cover for you at the store, so there's no need to worry about it.", "Huh? But Ito was supposed to have plans yesterday...", "Ito did say so, but I pushed and asked anyway. Well, why don't you cover for Ito next time?", "What did Ito do yesterday?"],
             options: ["アルバイトを{休|やす}んだ", "アルバイトをした", "{熱|ねつ}を{出|だ}して{寝|ね}ていた", "{用事|ようじ}があって{帰|かえ}った"],
             optionsEn: ["Took the day off from the part-time job", "Worked the part-time shift", "Stayed in bed with a fever", "Had something to do and went home"],
             answer: 1,

@@ -14,7 +14,8 @@ Quartet II). The book's own English (N2 `en` on usage, ＋Plus usage, 📎 notes
   should read *although…*, one built on 〜つつある *is increasingly / is gradually*.
 - Consistent with the answer key: an exercise's translation is the sentence with the correct answer filled in.
 - Keigo: render the register (*we would be grateful if…*, *may I…*), not a word-for-word humble form.
-- Names stay as printed (田中 → Tanaka; Mr./Ms. only where the Japanese uses さん in a way English needs).
+- Names: TRY books drop さん (田中さん → Tanaka; Mr./Ms. only for 氏 or where English needs a title). Quartet II keeps
+  the book's own convention (its printed English writes Yamada-san), so its `tr` does too.
 
 ## deepDive (TRY books) and note deep-dives (Quartet II)
 
