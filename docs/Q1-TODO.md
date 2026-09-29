@@ -16,7 +16,7 @@ Page map and conventions: `docs/Q1-TRANSCRIPTION.md`. Remove this file when ever
 - [x] `tools/zoom.sh q1` (f34a5e6)
 - [x] OCR of all 352 pages → `tools/q1/ocr/` (e31aee0)
 - [x] Survey: book = PDF − 26, 別冊 = PDF − 288, lessons 1–6, 初級文法チェック ①–⑦, 漢字チャレンジ ①–⑫
-- [ ] Infrastructure (agent running): `q1/index.html`, `data/q1/book.js`, BOOKS entry, renderer book-agnostic
+- [x] Infrastructure (f64bb73, 4cc8200): `q1/index.html`, `data/q1/book.js`, BOOKS entry, renderer book-agnostic
       (titles, `q1:` link ids, unit kind "grammar", ①–⑫), pink accent tokens, tools take q1|q2,
       `docs/Q1-TRANSCRIPTION.md`, CLAUDE.md, Q2-SCHEMA note
 
@@ -34,7 +34,7 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
 | L6 | 195–230, 273–274 | [ ] | [ ] | [ ] | [ ] |
 | 初級文法チェック ①–⑦ | 231–255 | [ ] | [ ] | [ ] | [ ] |
 | 漢字チャレンジ ①–⑫ | 256–267 | [ ] | [ ] | [ ] | [ ] |
-| Front matter | 9, 14–26 | [ ] | [ ] | [ ] | [ ] |
+| Front matter (+ 文型・表現ノート一覧 PDF 5, separate agent) | 5, 9, 14–26 | [ ] | [ ] | [ ] | [ ] |
 | 別冊 単語リスト L1–6 | 289–314 | [ ] | [ ] | [ ] | [ ] |
 | 別冊 漢字リスト L1–6 + チャレンジ | 315–351 | [ ] | [ ] | [ ] | [ ] |
 
