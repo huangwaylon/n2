@@ -63,4 +63,6 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
       light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
 - [ ] Quartet lettered/numbered underline label after a line wrap sits under the 2nd line and can hit a reading
       (Q2 L7 書く 390, 遠慮) — markup.js positioning; needs a WebKit check
+- [ ] Candidate: `content-visibility: auto` on grammar points with ruby/option fitting deferred to first view
+      (chapter render ~140 → ~75 ms at 4x CPU); verify gp/N jump positions and no furigana shift
 - [ ] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
