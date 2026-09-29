@@ -374,8 +374,11 @@ TRY.registerLesson({
      "tr": [
       "The first thing I noticed after coming to Japan is that many Japanese people are mindful of the environment. For example, the trash bins at train stations are divided into “recyclable waste,” such as plastic bottles, newspapers, and magazines, and “burnable waste,” and you have to sort your trash properly.",
       "Recently, however, something has been bothering me: excessive packaging. For example, when I bought a box of cookies, not only was the box wrapped in paper, but each cookie inside was also wrapped individually in plastic. It's true that when each one is in its own bag, your hands don't get dirty when you take them out of the box, and it's convenient because you don't have to eat them all at once. But it definitely increases the amount of trash. Besides, it's not that the box's wrapping paper can't be used again later, but most people end up throwing it away, so it's a waste of resources.",
-      "Besides product packaging, I also have doubts about store bags. The other day, when I went shopping at a department store on a rainy day, I was surprised when they carefully put a plastic cover over the usual paper bag so it wouldn't get wet in the rain. I think this kind of consideration for customers is very Japanese, but from the point of view of a foreigner like me, I can't help feeling that it's going a little too far.",
+      "Besides product packaging, I also have doubts about store bags. The other day, when I went shopping at a department store on a rainy day, I was surprised when they carefully put a plastic cover over the usual paper bag so it wouldn't get wet in the rain. I think this kind of consideration for customers is very Japanese, but from the point of view of a foreigner like me, I can't help feeling that it may be going a little too far.",
       "If we really care about the environment, shouldn't Japanese people rethink excessive packaging?"
+     ],
+     "headTr": [
+      "Is All That Packaging Really Necessary?"
      ]
     },
     {
@@ -483,6 +486,11 @@ TRY.registerLesson({
       "Also, few children study English of their own free will. In my case too, when I was a child my parents told me to go to an English cram school, and I was made to study against my will. Speaking from that experience, there is no point in forcing children who don't want to learn English to do it. It only increases the number of children who dislike English. I think it's better to wait until children start to become interested in English.",
       "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but after it was decided that they would go to Canada for work, they started studying in earnest and improved amazingly. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
       "For the reasons above, I maintain that early English education is not necessarily needed."
+     ],
+     "headTr": [
+      "Early English Education: For or Against?",
+      "English While They're Still Children",
+      "Do Children Need English?"
      ]
     },
     {
@@ -561,7 +569,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "__8歳の子どもに{携帯|けいたい}電話は必要ない__**のではないでしょうか。**\n(X)",
-        "tr": "Isn't it true that an eight-year-old child doesn't need a cell phone?"
+        "tr": "An eight-year-old child doesn't really need a cell phone, wouldn't you say?"
        }
       },
       {
@@ -770,7 +778,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "せっかくカラオケに来たのに歌わないの？ 歌は苦手？",
-           "tr": "We came all the way to karaoke and you're not going to sing? Are you not good at singing?"
+           "tr": "We came all the way to karaoke and you're not going to sing? Is singing not your thing?"
           },
           {
            "sp": "B",
@@ -903,7 +911,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜わけではない** denies a conclusion someone might draw, not the fact itself: 同じ寮だけど親しいわけじゃない (*we live in the same dorm, but that doesn't make us close*). It is a partial, softened *no*, often followed by the real reason: できないわけではないんですが、面倒なので.\n\n- Casual speech says わけじゃない. 別に and 必ずしも often come before it: 必ずしも必要なわけではない (*it isn't necessarily needed*).\n- It does not deny with certainty. For *there's no way that ~*, use **〜わけがない** (Quartet II L9-9): 彼が来るわけがない (*there's no way he's coming*).\n\n**〜とは限らない** (L3-9) only says X may not hold, so it can't deny a fact you know about yourself (例2). TRY! N2 #19 teaches the same pattern, with 〜わけでもない (*not particularly*)."
     },
     {
      "t": "note",
@@ -986,9 +995,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N !!からみると!!",
-        "N !!からすると!!",
-        "N !!からいうと!!"
+        {
+         "lead": "N !!から!!",
+         "stack": [
+          "!!みると!!",
+          "!!すると!!",
+          "!!いうと!!"
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1011,7 +1025,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*to a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば and て forms (からみれば, からして). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
     },
     {
      "t": "note",
@@ -1049,12 +1064,12 @@ TRY.registerLesson({
          "n": 1,
          "lines": [
           {
-           "sp": "a)",
+           "sub": "a",
            "ja": "期末試験は必要な**のではないでしょうか**。（＝必要だ）",
            "tr": "I'd say final exams are necessary, wouldn't you? (= They are necessary.)"
           },
           {
-           "sp": "b)",
+           "sub": "b",
            "ja": "期末試験は必要ない**のではないでしょうか**。（＝必要ない）",
            "tr": "I'd say final exams aren't necessary, wouldn't you? (= They aren't necessary.)"
           }
@@ -1064,12 +1079,12 @@ TRY.registerLesson({
          "n": 2,
          "lines": [
           {
-           "sp": "a)",
+           "sub": "a",
            "ja": "大学生はアルバイトをすべきな**のではないでしょうか**。（＝するべきだ）",
            "tr": "I'd say college students ought to work part-time, wouldn't you? (= They should.)"
           },
           {
-           "sp": "b)",
+           "sub": "b",
            "ja": "大学生はアルバイトをすべきではない**のではないでしょうか**。（＝するべきではない）",
            "tr": "I'd say college students shouldn't work part-time, wouldn't you? (= They shouldn't.)"
           }
@@ -1111,7 +1126,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "やはり「{千|せん}と{千尋|ちひろ}の{神隠|かみかく}し」**ではないか**と思います。",
-           "tr": "I'd say it's probably Spirited Away."
+           "tr": "I'd say it would have to be Spirited Away."
           }
          ]
         }
@@ -1160,7 +1175,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜のではないだろうか** is a question in form and an opinion in effect: *I'd say ~*. It leaves the reader room to disagree, which is why essays and letters to the editor close their argument with it (Reading 1, line 36; the model composition).\n\n- From formal to casual: のではないでしょうか → のではないだろうか (writing) → んじゃないでしょうか → んじゃない？\n- In speech the pitch decides: 雨じゃない？ with a rise means *isn't it raining?*; said flat, 雨じゃない means *it isn't raining*.\n\nIt is less sure than だろう and far less than **〜に違いない** (Quartet II L9-2), *must be*. Pitfall: the negative word is not a denial. 必要ないのではないでしょうか means *I'd say it isn't needed* (例1b)."
     },
     {
      "t": "note",
@@ -1212,12 +1228,12 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "母親は嫌**がって**いる子どもに{野菜|やさい}を食べさせた。",
-         "tr": "The mother made her child eat vegetables even though the child didn't want to."
+         "tr": "The mother made her child eat vegetables despite the child's protests."
         },
         {
          "n": 3,
          "ja": "弟は転んで、足にけがをしたらしい。とても痛**がって**いるので心配だ。",
-         "tr": "My little brother fell and apparently hurt his leg. He seems to be in a lot of pain, so I'm worried."
+         "tr": "My little brother fell and apparently hurt his leg. He keeps saying it really hurts, so I'm worried."
         },
         {
          "n": 4,
@@ -1305,7 +1321,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜がる** turns a feeling word into a verb about visible behavior. 痛い is felt from inside; 痛がる is what an observer sees. Japanese reports other people's inner states from the outside, so 弟はとても痛い sounds odd, while 弟はとても痛がっている (*my brother keeps saying it hurts*) is natural.\n\n- The object takes を: 甘いものをほしがる, おみやげを買いたがる.\n- It is not used for the speaker's own present feelings: ✗私はうれしがっている.\n- For someone wanting *you* to do something, use 〜てほしがる (例2).\n\nCompare **〜げ** (TRY! N2 #97), an impression of how someone looks rather than what they do: さびしげに微笑んだ (*smiled sadly*). For a superior, report the words instead: 〜たいとおっしゃっている."
     },
     {
      "t": "note",
@@ -1476,7 +1493,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "順番に持っていくことにしたらどう？",
-           "tr": "Why don't you decide to take turns taking it out?"
+           "tr": "How about agreeing to take turns taking it out?"
           }
          ]
         },
@@ -1508,7 +1525,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vようとする** has two readings, and context decides: *try to* (effort that may fail: 忘れようとしても忘れられない) and *be about to* (the moment just before: 寝ようとしたら電話がかかってきた). With a subject that has no will, only *about to* works: 電車が出ようとしている (*the train is about to leave*).\n\n- **Vようとしない** reports someone else's refusal as seen from outside, *won't even try*, usually with criticism or worry: 猫が魚を食べようとしない.\n- Compare **〜てみる**, *try and see*: 食べてみた means you did eat it; 食べようとした suggests you didn't manage to.\n\nKeep both apart from **〜ようにする** (L1-8), *make a point of*: 毎日歩くようにしている (*I make a point of walking every day*)."
     },
     {
      "t": "note",
@@ -1751,7 +1769,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**まま** marks a state left as it was when a change was expected: きれいなまま (*still like new*), 開けたまま (*left open*). The next action happens inside that unchanged state, often one that shouldn't have: くつをはいたまま家に入る (*go into a house with your shoes on*).\n\n- Both actions have the same subject ([#5]).\n- Vたまま needs a verb whose result lasts: 座る, つける, 着る. ✗走ったまま.\n- Vないまま stresses time passing with something undone: 返事をしないまま一週間たった (*a week went by without my replying*). For a plain *without doing*, use Vずに or Vないで.\n\nClose relatives: **〜っぱなし** (会話1, ここにも注目), which adds neglect, and **〜きり** (TRY! N2 #37): 出かけたきり戻らない (*went out and never came back*)."
     },
     {
      "t": "note",
@@ -1953,7 +1972,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ように言う** reports a command or request without quoting it: 「片づけて！」 → 片づけるように言った. The verb before ように is plain present, positive or ない: 話さないように注意された (*was told not to speak*).\n\n- The verb after ように sets the nuance: 言う (*tell*), 頼む／お願いする (*ask*), 注意する (*warn*). 〜てくれるように頼む marks the request as a favor ([#4]).\n- Passive forms (言われる, 頼まれる) report being told; the person who gave the order takes に.\n\nContrast a direct quote, 「閉めて」と言った, and **〜ように** of purpose (L5-7): 忘れないようにメモする (*make a note so I won't forget*). Listening 2 has this note in use: 窓を閉めてから出かけるように頼んだのに."
     },
     {
      "t": "note",
@@ -2043,7 +2063,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XほどY** measures Y with an image of how far it goes: 涙が出るほどうれしい (*so happy I could cry*). X can be literal or plain exaggeration (死ぬほど), and English usually needs *so ~ that*.\n\n- X is typically a potential or intransitive verb (眠れないほど, 涙が出るほど) or an adjective with なる.\n- The reversed order Yて、Xほどだ puts the image last ([#3]).\n\n**くらい／ぐらい** (Quartet II L9-1) overlaps here and sounds more casual. Only くらい can also belittle: それくらい自分でやって (*do at least that much yourself*). Keep both apart from comparison **（Xは）Yほど〜ない** (L4-7): 東京ほど寒くない (*not as cold as Tokyo*), and from **XばXほど** (L2-7), *the more ~, the more ~*."
     },
     {
      "t": "note",
@@ -2197,7 +2218,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**わざわざ** marks effort beyond what was needed. Whether that is gratitude or criticism depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (例1, 例2).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいて (*thank you for coming all this way*)."
     }
    ]
   },
@@ -2249,11 +2271,13 @@ TRY.registerLesson({
       "¶わりばしは資源のむだだから、洗って何度も使えるはしを使うべ",
       "き[[ではないか|b]]と思う。"
      ],
-     "titleTr": "Letter to the editor: \"Let's stop using disposable chopsticks\" (Park Jihoon, international student)",
      "tr": [
       "It has been three months since I came to Japan. Now that I am actually living here, I notice all kinds of differences between Japan and Korea. Of these, the one that bothers me most is disposable chopsticks.",
       "At restaurants in Korea, people wash metal chopsticks and use them over and over. In Japan, however, I noticed that restaurants often use wooden disposable chopsticks. Izakayas, ramen shops, Japanese restaurants — disposable chopsticks are set out in all kinds of places. Japan cares about the environment, so why does it still use disposable chopsticks? A Japanese friend of mine said, \"Disposable chopsticks are good because they're new and clean.\" It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can be thrown away as they are without washing, they may be convenient for the restaurant as well. However, isn't it wasteful to throw away chopsticks made from wood after using them just once?",
       "Disposable chopsticks are a waste of resources, so I think we should use chopsticks that can be washed and used again and again."
+     ],
+     "headTr": [
+      "Letter to the Editor: \"Let's Stop Using Disposable Chopsticks\""
      ],
      "roles": [
       {
@@ -2575,6 +2599,11 @@ TRY.registerLesson({
        ]
       }
      ]
+    },
+    {
+     "t": "figure",
+     "desc": "Illustration: a young man with his arms crossed, frowning in annoyance.",
+     "labels": []
     },
     {
      "t": "head",
@@ -3427,7 +3456,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "テイラーさん、5分{遅刻|ちこく}ですよ。もう少し早く来てください。",
-           "tr": "Taylor, you're five minutes late. Please come a little earlier."
+           "tr": "Taylor-san, you're five minutes late. Please come a little earlier."
           },
           {
            "sp": "テイラー",
@@ -3560,7 +3589,7 @@ TRY.registerLesson({
        "sp": "管",
        "v": "f",
        "ja": "ちょっと、グエンさん。もう9時半ですよ。ゴミは8時半までに出すことになっていますよね。",
-       "tr": "Excuse me, Mr. Nguyen. It's already 9:30. Garbage is supposed to be put out by 8:30, you know."
+       "tr": "Excuse me, Nguyen-san. It's already 9:30. Garbage is supposed to be put out by 8:30, you know."
       },
       {
        "sp": "グ",
@@ -3637,6 +3666,11 @@ TRY.registerLesson({
      ]
     },
     {
+     "t": "figure",
+     "desc": "A drawing: Nguyen Van Tan, looking flustered, holds bags of garbage full of plastic bottles, while the caretaker, broom in hand, points at the bags at his feet and scolds him.",
+     "labels": []
+    },
+    {
      "t": "words",
      "items": [
       {
@@ -3697,7 +3731,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "ちょっと、〇〇さん。ゴミは8時半までに出すことになっていますよね。",
-        "tr": "Excuse me, ~. Garbage is supposed to be put out by 8:30, you know."
+        "tr": "Excuse me, (name). Garbage is supposed to be put out by 8:30, you know."
        }
       },
       {
@@ -3784,7 +3818,7 @@ TRY.registerLesson({
      "id": "l6-2-4",
      "page": 200,
      "text": {
-      "ja": "{練習|れんしゅう}しよう",
+      "ja": "練習しよう",
       "tr": "Let's practice"
      }
     },
@@ -3810,7 +3844,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える",
-        "tr": "1 Apologize, make an excuse, and state your resolution"
+        "tr": "❶ Apologize, make an excuse, and state your resolution"
        }
       }
      ]
@@ -3826,7 +3860,7 @@ TRY.registerLesson({
          "sp": "{管理人|かんりにん}",
          "v": "f",
          "ja": "ちょっと、〇〇さん。{{ゴミは8時半までに出す}}ことになっていますよね。",
-         "tr": "Excuse me, ~. Garbage is supposed to be put out by 8:30, you know."
+         "tr": "Excuse me, (name). Garbage is supposed to be put out by 8:30, you know."
         },
         {
          "sp": "あなた",
@@ -3875,7 +3909,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❷ かん違い (misunderstanding) をしていたことを伝えてあやまる\n➔ ❸ もう一度あやまり、{決意|けつい}を伝える",
-        "tr": "2 Say that you had misunderstood, and apologize\n→ 3 Apologize once more and state your resolution"
+        "tr": "❷ Say that you had misunderstood, and apologize\n➔ ❸ Apologize once more and state your resolution"
        }
       }
      ]
@@ -3999,7 +4033,7 @@ TRY.registerLesson({
        "style": "num",
        "tag": "2",
        "text": {
-        "ja": "{練習|れんしゅう}しよう",
+        "ja": "練習しよう",
         "tr": "Let's practice"
        }
       },
@@ -4022,7 +4056,7 @@ TRY.registerLesson({
            "sp": "ルームメート",
            "v": "f",
            "ja": "ちょっと、〇〇さん。{{ゴミは{交替|こうたい}で (in turn) 出す}}ことに決めたよね。",
-           "tr": "Hey, ~. We agreed to take turns putting out the garbage, right?"
+           "tr": "Hey, (name). We agreed to take turns putting out the garbage, right?"
           },
           {
            "sp": "あなた",
@@ -4548,7 +4582,7 @@ TRY.registerLesson({
       {
        "sp": "メ",
        "v": "f",
-       "ja": "燃えないゴミだね。ああ、このハンディークリーナー、こわれちゃったんだよねえ。これって{粗大|そだい}ゴミ？　だとしたら、この__まま__出せないよね？",
+       "ja": "燃えないゴミだね。ああ、このハンディークリーナー、こわれちゃったんだよねえ。これって{粗大|そだい}ゴミ？ だとしたら、この__まま__出せないよね？",
        "tr": "...it's non-burnable garbage. Oh, this handheld vacuum broke, you know. Is this bulky garbage? If so, we can't put it out as is, can we?"
       },
       {
