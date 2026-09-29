@@ -48,7 +48,7 @@ TRY.registerLinks([
   { k: "ないことはない", ids: ["n2:54 〜ないことはない", "n1:19 〜ないでもない"], en: "Same hesitant yes, \"it's not that ~ not\"; N2's ないことはない is slightly more direct." },
   { k: "あげく", ids: ["n2:45 〜あげく（に）", "n1:20 〜しまつだ"], en: "Both end a trying story with a bad result; しまつだ adds the speaker's criticism of how bad things have become." },
   { k: "やら〜やら", ids: ["n2:98 〜やら〜やら", "n1:29 〜わ〜わ"], en: "Both list things with feeling; わ〜わ piles up troubles or delights, やら〜やら can also mix emotions and take nouns." },
-  { k: "もとより", ids: ["n2:12 〜はもとより", "n1:37 〜もさることながら"], en: "Both are \"A of course, and B too\"; もさることながら suggests that B matters even more." },
+  { k: "もとより", ids: ["n2:12 〜はもとより", "n1:37 〜もさることながら"], en: "Both are \"A of course, and B too\"; もさることながら can suggest that B matters even more." },
   { k: "に即して", ids: ["n2:108 〜にそって", "n1:39 〜に{即|そく}して"], en: "Both mean \"in line with\"; に即して is formal and stresses fitting the actual situation or rules closely." },
   { k: "ことはない", ids: ["n2:49 〜ことはない", "n1:41 〜までもない"], en: "Both say there's no need; ことはない advises the listener, までもない says it's unnecessary because the matter is obvious." },
   { k: "次第", ids: ["n2:114 〜{次第|しだい}", "n1:42 〜いかん"], en: "Same meaning, \"depending on N\"; N1's いかん is more formal and official." },
