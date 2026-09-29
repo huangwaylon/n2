@@ -257,7 +257,7 @@ TRY.registerLesson({
       "To: Professor Reiko Suzuki <r.suzuki@nau.edu>",
       "Subject: Request for a letter of recommendation",
       "Professor Suzuki,",
-      "Here in Japan, cold winds are blowing and it is cold every day. I imagine the snowy days are continuing there; I hope you are doing well. I have finally gotten used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
+      "Here in Japan, cold winds are blowing and it is cold every day. I imagine it is still snowing day after day there; I hope you are doing well. I am finally getting used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
       "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Exchange Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
       "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much.",
       "Colds are easy to catch this time of year, so please take care of yourself.",
@@ -421,7 +421,7 @@ TRY.registerLesson({
       "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. I imagine it is starting to get hot there by now. How are you? It will soon be summer vacation. Will you be teaching the summer course again this year?",
       "The other day, my two-month internship program came to a successful end. Thank you for writing me a letter of recommendation back then when you were so busy. It was a short time, but thanks to you, I had a wonderful experience of a kind no textbook could teach. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
       "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Exchange Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that isn't all it is. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
-      "The internship is over now, but actually, starting next month I will be doing another international exchange activity as a volunteer. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
+      "The internship is over now, but actually, it has been arranged for me to start another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
       "It is only a small gift, but I am sending you a pen from the university here along with this letter. I would be happy if you like it.",
       "Well then, I am looking forward to seeing you again and talking about many things when I go back there for summer vacation.",
       "I know you are busy, but please take good care of yourself. Please give my regards to Professor Sato as well.",
@@ -493,9 +493,9 @@ TRY.registerLesson({
        "tr": [
         "Professor Tanaka,",
         "The rainy season has started here, and it has been raining almost every day. How are things there? What will you be doing over summer vacation?",
-        "Now, I am writing today because I have some news I'd like to share. Actually, I am going to start working in Japan after I finish studying abroad. The job is …",
+        "Now, I am writing today because I have some news I'd like to share. Actually, it has been settled that I will work in Japan after my study abroad ends. The job is …",
         "Well then, I will be in touch again. Please be careful not to catch a summer cold. Please give my regards to Professor Yamashita as well.",
-        "Sara Gomis"
+        "Sarah Gomis"
        ]
       },
       {
@@ -776,7 +776,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "The **ます-stem link** is how written Japanese joins clauses: letters, reports and news write 降り、 あり、 ており、 ず（に） where speech says 降って、 あって、 ていて、 ないで. George's e-mail and letter use it throughout (吹き、 あり、 でき).\n\n- It replaces only the linking て. Requests and fixed forms keep it: 見てください, never ✗見ください.\n- い-adjectives drop て (安く、), and nouns and な-adjectives take であり: 留学生であり、 (*is an international student, and*).\n- ず（に） is the written ないで; in writing the に is often left out.\n\nIn conversation the stem link sounds like reading aloud: to a friend, say 雪が降って、寒かった. TRY! N2 #20 〜ことなく is a still more formal *without (ever) ~*: 休むことなく働いた (*worked without a break*)."
     },
     {
      "t": "note",
@@ -970,7 +971,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜てくる／〜ていく** place a change on a time line with the speaker at *now*: くる brings it up to the present (*has been getting, has started to*), いく carries it forward (*will go on, more and more*). English usually needs *getting* or *keep*: 寒くなってきた (*it's getting cold*), 増えていくだろう (*will keep increasing*).\n\n- 慣れた reports the change as done (*I'm used to it*, as student B says in example 2); 慣れてきた keeps it under way.\n- Verbs that are not changes need ようになる first: 話せるようになってきた (*I'm getting to where I can speak*).\n- The same forms also mean movement: 買ってくる (*go buy and come back*), 持っていく (*take along*); context decides.\n\nQuartet II L7-1 〜つつある is the written, report-style *is in the process of changing*. TRY! N2 #65 〜につれて ties two changes together: *as X, Y*."
     },
     {
      "t": "note",
@@ -1195,7 +1197,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**しか〜ない** is *only* with a note of *not enough*: the sentence is negative, and the speaker implies the amount or range falls short of what was wanted or expected. だけ only states the limit: 1人だけいる (*there's just one*) vs. 1人しかいない (*there's only one, too few*).\n\n- The predicate must be negative: ✗3分しかかかる.\n- しか replaces は, が and を but follows other particles: 日曜日にしか, 母にしか, 東京からしか.\n- After a verb, 〜しかない means *have no choice but to*: 歩くしかない (*there's nothing for it but to walk*). In the listening, ここしかない is *this is the only option*.\n\nPitfall: a positive request uses だけ, not しか: これだけください (*just this, please*). TRY! N2 #58 〜のみ is the written *only*, with no negative."
     },
     {
      "t": "note",
@@ -1260,7 +1263,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "じゃあ、みんなで{順番|じゅんばん}にゴミを出す**ことにしよう**。",
-           "tr": "Then let's decide that we'll all take turns taking out the trash."
+           "tr": "Then let's make it a rule that we all take turns taking out the trash."
           }
          ]
         },
@@ -1359,7 +1362,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ことにする** reports a decision the subject made: ことにした (*decided to*) presents the plan as one's own choice, which is why George announces 申し込むことにしました. 〜ことにしている is a rule one has set and keeps: 毎朝6時に起きることにしている (*I make it a rule to*).\n\n- Only a dictionary or ない form of a verb the subject controls comes before it; no potential forms (✗話せることにする).\n- ことにしよう proposes a decision to a group: *let's make it that ~*.\n\nCompare **〜ことになる** (L2-9), a decision that came about or was made with others, and **〜ようにする** (L1-8), an effort rather than a firm rule. Noun + にする (L5-8) chooses between items: コーヒーにする (*I'll have coffee*). TRY! N2 #119 〜たことにする is different: *pretend, treat as if*: 聞かなかったことにする (*I'll pretend I didn't hear that*)."
     },
     {
      "t": "note",
@@ -1614,7 +1618,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "The three set phrases use 気 differently. **〜に気がつく** (also 気づく) is noticing something that was there all along: 財布を忘れたのに気がついた (*I realized I'd forgotten my wallet*). **〜に気をつける** is paying attention to avoid trouble; お体にお気をつけください is a standard letter closing (*please take care of yourself*), and 気をつけて alone means *take care* when parting. **〜が気に入る** is a liking one takes to a particular thing, usually as 気に入った or 気に入っている: このかばん、気に入ってる (*I love this bag*).\n\n- 気に入る marks the liked thing with が (を in 〜を気に入る is also common) and does not take whole categories: 甘い物が好きだ.\n\nPitfall: 気にする is *worry about*, not *notice*: 人の目を気にする (*worry what people think*). Quartet I L4-2 〜ような気がする is *have a feeling that*."
     },
     {
      "t": "note",
@@ -1657,7 +1662,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{奨学金|しょうがくきん}がもらえた**おかげで**、日本に留学できた。",
-         "tr": "Thanks to getting a scholarship, I was able to study abroad in Japan."
+         "tr": "Thanks to the scholarship I got, I was able to study abroad in Japan."
         },
         {
          "n": 2,
@@ -1677,12 +1682,12 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "雨が急に降り始めたが、家が駅から近い**おかげで**、ぬれなかった。",
-         "tr": "It suddenly started to rain, but thanks to my house being close to the station, I didn't get wet."
+         "tr": "It suddenly started raining, but thanks to living close to the station, I didn't get wet."
         },
         {
          "n": 4,
          "ja": "ルームメートが料理が上手な**おかげで**、いろいろなレシピを教えてもらえる。",
-         "tr": "Thanks to my roommate being a good cook, I get to learn all kinds of recipes from them."
+         "tr": "My roommate is a good cook, and thanks to that I get to learn all kinds of recipes."
         }
        ]
       },
@@ -1782,7 +1787,7 @@ TRY.registerLesson({
           {
            "sp": "中山",
            "ja": "ありがとうございます。**おかげさまで**、4月から{大阪|おおさか}で働くことになりました。",
-           "tr": "Thank you. Thanks to you, I'll be working in Osaka starting in April."
+           "tr": "Thank you. Things worked out, and I'll be working in Osaka starting in April."
           }
          ]
         }
@@ -1808,7 +1813,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**おかげで** credits a good result to its cause and carries gratitude, even when the cause is a thing: 家が近いおかげで (*thanks to living close by*). Its negative counterpart **〜せいで** blames: 雨のせいで試合が中止になった (*the game was canceled because of the rain*). Said of a bad result, おかげで turns sarcastic: 君のおかげで遅刻したよ (*thanks to you, I was late*).\n\n- To thank a person, name the favor: 〜てくれた／てくださったおかげで, or 〜のは先生のおかげです.\n- **おかげさまで** answers *how are you* or congratulations. It thanks the listener without saying they caused anything, so *thanks to you* over-translates it; *I'm fine, thank you* or *things went well* fits.\n\nQuartet I L3-5 〜ため（に） states a cause neutrally. TRY! N2 #48 〜ばかりに blames one small cause for a bad result."
     },
     {
      "t": "note",
@@ -1926,7 +1932,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XばXほどY** makes Y grow in step with X: *the more X, the more Y*. X is said twice, the ば form first and the plain form second (話せば話すほど). With する verbs, な-adjectives and nouns, the second X shrinks to する or ある (勉強すればするほど, 大変であればあるほど).\n\n- い-adjectives: 近ければ近いほど. In speech, な-adjectives also use なら: 静かなら静かなほど.\n- The ば half can be dropped with the same meaning: 練習するほど上手になる.\n- A common set phrase: 早ければ早いほどいい (*the sooner the better*).\n\nQuartet I L6-8 〜ほど is *to the extent that*; Quartet II L10-7 Nほど compares cases: 忙しい人ほど (*the busier a person is*). TRY! N2 #65 〜につれて also pairs two changes, as a gradual *as X, Y*."
     },
     {
      "t": "note",
@@ -1967,15 +1974,15 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "a) サラは{背|せ}が高くてきれいだ。**まるで**モデル**のようだ**。",
-         "tr": "a) Sara is tall and beautiful. She's just like a model."
+         "tr": "a) Sarah is tall and beautiful. She's just like a model."
         },
         {
          "ja": "b) サラは背が高くてきれいだ。**まるで**モデル**のような**人だ。",
-         "tr": "b) Sara is tall and beautiful. She's someone who looks just like a model."
+         "tr": "b) Sarah is tall and beautiful. She's someone who looks just like a model."
         },
         {
          "ja": "c) サラは背が高くてきれいだ。**まるで**モデル**のように**きれいだ。",
-         "tr": "c) Sara is tall and beautiful. She's as beautiful as a model."
+         "tr": "c) Sarah is tall and beautiful. She's as beautiful as a model."
         },
         {
          "n": 3,
@@ -2023,7 +2030,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nのようだ** here is a simile: the speaker knows it isn't N and compares it to N. まるで (*just like*) announces the comparison and makes it vivid; it pairs only with such comparisons (ようだ, みたいだ).\n\n- The ending follows the slot: のようだ ends the sentence, のようなN modifies a noun, のようにV／A modifies a verb or adjective.\n- Many are set comparisons: 山のような宿題 (*a mountain of homework*), 氷のように冷たい (*ice-cold*).\n- Speech prefers みたい: まるで夢みたい (*it's like a dream*).\n\nPitfall: keep the simile apart from inference. 雨が降ったようだ (*it seems it rained*) is a guess from evidence; Quartet I 初級文法チェック② sorts そうだ, らしい, ようだ and みたいだ. TRY! N1 #101 Nのごとく is the literary *like N*: 前述のごとく (*as stated above*)."
     },
     {
      "t": "note",
@@ -2066,7 +2074,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to a senior colleague who introduced me to a job, it's been settled that I can work in Japan."
+         "tr": "Thanks to a senior colleague who referred me for a job, it's been settled that I can work in Japan."
         },
         {
          "n": 2,
@@ -2356,7 +2364,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ことになった** presents a decision as something that came about, made by others, by circumstances or jointly, so the speaker does not sound as if acting alone. That is why news of a transfer, a new job or a wedding uses it even when the speaker chose: 結婚することになりました (*I'm getting married*) sounds more modest than 結婚することにしました.\n\n- 〜ことになっている is an established rule, custom or schedule: *is supposed to, is scheduled to*.\n- With a prohibition: 〜てはいけないことになっている (*it's against the rules to*).\n\nCompare **〜ことにする** (L2-4), one's own decision, and **〜ようになる** (L1-7), a change in habit or ability. TRY! N2 #81 〜ようになっている describes how something is designed to work: ボタンを押すと水が出るようになっている (*it's designed so that water comes out when you press the button*)."
     }
    ]
   },
@@ -3028,7 +3037,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "2月14日です。後で推薦状のフォームをメールでお送りします。",
-       "tr": "It's February 14. I'll send you the recommendation form by email later."
+       "tr": "It's February 14. I'll send you the recommendation form by e-mail later."
       },
       {
        "sp": "中",
@@ -3359,7 +3368,7 @@ TRY.registerLesson({
         {
          "sp": "あなた",
          "v": "f",
-         "ja": "❺〜ので、〜（さ）せていただけませんか。",
+         "ja": "❺**〜ので、〜（さ）せていただけませんか。**",
          "tr": "(Reason), so would you allow me to (do something)?"
         },
         {
@@ -3543,7 +3552,7 @@ TRY.registerLesson({
           {
            "sp": "あなた",
            "v": "f",
-           "ja": "❺〜んだけど、〜（さ）せてくれない？",
+           "ja": "❺**〜んだけど、〜（さ）せてくれない？**",
            "tr": "(Situation), so could you let me (do something)?"
           },
           {
@@ -3873,14 +3882,14 @@ TRY.registerLesson({
      },
      "setting": {
       "ja": "日本語の授業の後、ワン・メイリン（メ:）が{中村|なかむら}先生（中:）に話しかける。",
-      "tr": "After Japanese class, Wang Meilin (メ) goes up to talk to Nakamura-sensei (中)."
+      "tr": "After Japanese class, Wang Meilin (メ) goes up to talk to Professor Nakamura (中)."
      },
      "lines": [
       {
        "sp": "メ",
        "v": "f",
        "ja": "{中村|なかむら}先生、❶**{先日|せんじつ}は**{推薦状|すいせんじょう}を書い**てくださって、ありがとうございました。**\n先週の金曜日にインターンシップがすべて終わりました。",
-       "tr": "Nakamura-sensei, thank you for writing me a letter of recommendation the other day. My internship finished last Friday."
+       "tr": "Professor Nakamura, thank you for writing me a letter of recommendation the other day. My internship finished last Friday."
       },
       {
        "sp": "中",
@@ -3910,13 +3919,13 @@ TRY.registerLesson({
        "sp": "中",
        "v": "m",
        "ja": "そうですか。すみません。じゃあ、{遠慮|えんりょ}なく。\nところで、インターンシップはどうでしたか。",
-       "tr": "Well, if you insist. Thank you. Then I'll gladly accept. By the way, how was the internship?"
+       "tr": "Well, if you insist. Thank you, I'll gladly accept it. By the way, how was the internship?"
       },
       {
        "sp": "メ",
        "v": "f",
        "ja": "❸町の人と交流することができた**し**、自分の国について知ってもらえた**し**、とてもおもしろかったです。",
-       "tr": "I got to interact with people in the town, and I was able to tell them about my country, so it was really interesting."
+       "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
       },
       {
        "sp": "中",
@@ -4020,7 +4029,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "すみません。\nじゃあ、{遠慮|えんりょ}なく。",
-        "tr": "Thank you. Then I'll gladly accept."
+        "tr": "Thank you. I'll gladly accept it, then."
        }
       },
       {
@@ -4043,7 +4052,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "町の人と交流することができた**し**、自分の国について\n知ってもらえた**し**、とてもおもしろかったです。",
-        "tr": "I got to interact with people in the town, and I was able to tell them about my country, so it was really interesting."
+        "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
        }
       },
       {
@@ -4100,7 +4109,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ お礼を言う ➔ ❷ お礼をわたす",
-        "tr": "1 Say thank you → 2 Give a thank-you gift"
+        "tr": "❶ Say thank you → ❷ Give a thank-you gift"
        }
       }
      ]
@@ -4134,7 +4143,7 @@ TRY.registerLesson({
          "sp": "先生",
          "v": "m",
          "ja": "すみません。じゃあ、{遠慮|えんりょ}なく。",
-         "tr": "Thank you. Then I'll gladly accept."
+         "tr": "Thank you. I'll gladly accept it, then."
         }
        ]
       }
@@ -4171,7 +4180,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❸ その後どうなったか話す ➔ ❹ もう一度お礼を言い、会話を終える",
-        "tr": "3 Talk about how things went afterward → 4 Say thank you once more and end the conversation"
+        "tr": "❸ Talk about how things went afterward → ❹ Say thank you once more and end the conversation"
        }
       }
      ]
@@ -4193,7 +4202,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{町の人と交流することができた}}**し**、{{自分の国について知ってもらえた}}**し**、{{とてもおもしろかったです}}。",
-         "tr": "I got to interact with people in the town, and I was able to tell them about my country, so it was really interesting."
+         "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
         },
         {
          "sp": "先生",
@@ -4462,7 +4471,7 @@ TRY.registerLesson({
      "kind": "table",
      "title": {
       "ja": "{桜|さくら}の{開花|かいか}{予想|よそう}",
-      "tr": "Cherry blossom forecast"
+      "tr": "Cherry blossom blooming forecast"
      },
      "rows": [
       [
@@ -4693,13 +4702,13 @@ TRY.registerLesson({
        "sp": "美",
        "v": "f",
        "ja": "いいね。楽しそう！　あ、そうだ。これ知ってる？「桜の開花{予想|よそう}」。",
-       "tr": "Sounds good. That'll be fun! Oh, I know. Have you seen this? The “cherry blossom forecast.”"
+       "tr": "Sounds good. That'll be fun! Oh, I know. Do you know about this? The “cherry blossom blooming forecast.”"
       },
       {
        "sp": "サ",
        "v": "f",
        "ja": "開花予想？",
-       "tr": "Blossom forecast?"
+       "tr": "Blooming forecast?"
       },
       {
        "sp": "美",

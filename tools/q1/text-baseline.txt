@@ -1710,7 +1710,7 @@ l2.sections.2.blocks.17.blocks.0.lines.0.ja	❹**あの、もう一つお願い�
 l2.sections.2.blocks.17.blocks.0.lines.1.sp	先生
 l2.sections.2.blocks.17.blocks.0.lines.1.ja	何ですか。
 l2.sections.2.blocks.17.blocks.0.lines.2.sp	あなた
-l2.sections.2.blocks.17.blocks.0.lines.2.ja	❺〜ので、〜（さ）せていただけませんか。
+l2.sections.2.blocks.17.blocks.0.lines.2.ja	❺**〜ので、〜（さ）せていただけませんか。**
 l2.sections.2.blocks.17.blocks.0.lines.3.sp	先生
 l2.sections.2.blocks.17.blocks.0.lines.3.ja	わかりました。
 l2.sections.2.blocks.17.blocks.0.lines.4.sp	あなた
@@ -1745,7 +1745,7 @@ l2.sections.2.blocks.20.blocks.7.blocks.0.lines.0.ja	❹**それから、もう�
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.1.sp	クラスメート
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.1.ja	何？
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.2.sp	あなた
-l2.sections.2.blocks.20.blocks.7.blocks.0.lines.2.ja	❺〜んだけど、〜（さ）せてくれない？
+l2.sections.2.blocks.20.blocks.7.blocks.0.lines.2.ja	❺**〜んだけど、〜（さ）せてくれない？**
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.3.sp	クラスメート
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.3.ja	いいよ。
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.4.sp	あなた
