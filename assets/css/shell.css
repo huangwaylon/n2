@@ -183,7 +183,11 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 @media (min-width: 601px) {
   .tbl.cmp th, .tbl.idx th, .tbl.cmp td:nth-child(n+3), .tbl.idx td:nth-child(n+2):not(.en-col) { white-space: nowrap; }
   .cmp-pat { min-width: 7em; }
+  /* Quartet indexes: columns 2–3 hold meanings (the TRY index's narrow 番号 / 章); only the lesson column stays on one line */
+  .index-page.q2 .tbl.idx td { width: auto; text-align: left; white-space: normal; }
+  .index-page.q2 .tbl.idx td:last-child { white-space: nowrap; }
 }
+.index-page.q2 .tbl.idx td { vertical-align: middle; }
 .tbl-note { color: var(--ink-2); }
 .legend { padding-left: 18px; }
 .legend li { margin: 6px 0; }
@@ -200,8 +204,10 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 .cd-ch-t { display: block; }
 /* touch: table links get a 44px hit box */
 @media (pointer: coarse) {
-  .tbl a { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; }
-  .tbl .cd-gp { display: flex; }
+  /* inline-block + padding, not inline-flex: a flex box makes every text run and <ruby> its own item, so readings
+     lose their overhang and cover the kana beside them (index "承る", can-do "輸出拡大を目的として") */
+  .tbl a { display: inline-block; min-width: 44px; min-height: 44px; padding-block: max(0px, (44px - 1lh) / 2); }
+  .tbl .cd-gp { display: block; }
 }
 
 /* ≤600: index / compare / can-do tables become stacked cards; labels come from td[data-h] */

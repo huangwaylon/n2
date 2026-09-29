@@ -469,10 +469,11 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 | `.cd-badge` | 44 | 44 |
 | `.mt-gp` chips, `.mini-toc` summary, `.seg__b` 縦/横 | 44 | 44 |
 | `.opt--grid`, `.opt--let`, `.opt--resp`, `.chip` | 44 | 44 |
-| `.opt--inl` (inline option) | text | ~44 (vertical padding, no line growth) |
-| `.slot`, `button.blank` | text line | `::after` inset −10px |
+| `.opt--inl` (inline option) | text | 44 (vertical padding, no line growth; a centred 44px-wide `::after` for one-kana options) |
+| `.slot`, `button.blank` | text line | `::after` inset −10px (blank: at least 44px tall) |
+| `input.write` | 1.45em | 44 (padding cancelled by negative margins; the rule is a content-box background) |
 | `.studied` | 22 box | 44 (native checkbox overlay) |
-| `.gp-link`, table links | text | 44 (padding) |
+| `.gp-link`, table links | text | 44 (padding; table links are inline-block, never inline-flex, so ruby inside keeps its overhang) |
 | `.btn`, `.ex-actions .btn` | 44 | 44 |
 | `.pager a` | ≥56 | ≥56 |
 | `.sb-ch-link`, `.sb-gps a`, `.sb-pages a` | 44 | 44 |
