@@ -28,7 +28,7 @@ TRY.registerVocab({
     {
      "w": "千と千尋の神隠し",
      "yomi": "せんとちひろのかみかくし",
-     "en": "Spirited Away [movie title]"
+     "en": "''Spirited Away'' [movie title]"
     },
     {
      "ln": 2,
@@ -66,12 +66,12 @@ TRY.registerVocab({
     {
      "w": "もののけ姫",
      "yomi": "もののけひめ",
-     "en": "Princess Mononoke [movie title]"
+     "en": "''Princess Mononoke'' [movie title]"
     },
     {
      "w": "となりのトトロ",
      "yomi": "となりのととろ",
-     "en": "My Neighbor Totoro [movie title]"
+     "en": "''My Neighbor Totoro'' [movie title]"
     },
     {
      "ln": 4,
@@ -152,7 +152,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "__直__す",
      "yomi": "なおす",
-     "en": "to fix [vt.]"
+     "en": "to fix [''vt.'']"
     },
     {
      "ln": 9,
@@ -197,7 +197,7 @@ TRY.registerVocab({
      "ln": 11,
      "w": "[時間を]かける",
      "yomi": "かける",
-     "en": "to spend (time) [vt.]"
+     "en": "to spend (time) [''vt.'']"
     },
     {
      "n": 12,
@@ -549,7 +549,7 @@ TRY.registerVocab({
      "ln": 4,
      "w": "__助__ける",
      "yomi": "たすける",
-     "en": "to save; to help [vt.]"
+     "en": "to save; to help [''vt.'']"
     },
     {
      "k": "◇",
@@ -608,7 +608,7 @@ TRY.registerVocab({
      "ln": 12,
      "w": "[病気を]なおす",
      "yomi": "なおす",
-     "en": "to cure; to heal [vt.]"
+     "en": "to cure; to heal [''vt.'']"
     },
     {
      "n": 27,
@@ -747,7 +747,7 @@ TRY.registerVocab({
      "ln": 25,
      "w": "[～に]届ける",
      "yomi": "とどける",
-     "en": "to deliver (something) to [vt.]"
+     "en": "to deliver (something) to [''vt.'']"
     },
     {
      "w": "患者",
@@ -778,7 +778,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "__決__める",
      "yomi": "きめる",
-     "en": "to set; to decide [vt.]"
+     "en": "to set; to decide [''vt.'']"
     },
     {
      "n": 41,

@@ -4,7 +4,7 @@ TRY.registerVocab({
  "lists": [
   {
    "sec": "読み物1",
-   "title": "留学生のための{富士|ふじ}登山ガイド",
+   "title": "留学生のための{富|ふ}{士|じ}登山ガイド",
    "page": 10,
    "rows": [
     {
@@ -203,7 +203,7 @@ TRY.registerVocab({
      "ln": 22,
      "w": "[～に]__泊__まる",
      "yomi": "とまる",
-     "en": "to stay [vi.]"
+     "en": "to stay [''vi.'']"
     },
     {
      "w": "日の出",
@@ -356,7 +356,7 @@ TRY.registerVocab({
      "ln": 38,
      "w": "__汚__す",
      "yomi": "よごす",
-     "en": "to make something dirty [vt.]"
+     "en": "to make something dirty [''vt.'']"
     },
     {
      "n": 20,
@@ -638,7 +638,7 @@ TRY.registerVocab({
      "ln": 11,
      "w": "えだ豆",
      "yomi": "えだまめ",
-     "en": "edamame; boiled young soybeans"
+     "en": "''edamame''; boiled young soybeans"
     },
     {
      "w": "から揚げ",
@@ -664,7 +664,7 @@ TRY.registerVocab({
     {
      "w": "チューハイ",
      "yomi": "ちゅーはい",
-     "en": "shochu-based highball"
+     "en": "''shochu''-based highball"
     },
     {
      "ln": 14,
@@ -959,7 +959,7 @@ TRY.registerVocab({
       "n": 34,
       "w": "量",
       "ex": "あの店のパスタは量が多いので、全部食べられない。",
-      "tr": "The pasta portions at that restaurant are so big that I can't eat it all."
+      "tr": "The pasta at that restaurant comes in such big portions that I can't finish it."
      },
      {
       "n": 35,

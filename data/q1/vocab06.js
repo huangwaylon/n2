@@ -73,7 +73,7 @@ TRY.registerVocab({
      "ln": 8,
      "w": "[～が]__燃__える",
      "yomi": "もえる",
-     "en": "to burn [vi.]"
+     "en": "to burn [''vi.'']"
     },
     {
      "k": "◆",
@@ -84,7 +84,7 @@ TRY.registerVocab({
     {
      "w": "[～が]分かれる",
      "yomi": "わかれる",
-     "en": "to get separated [vi.]"
+     "en": "to get separated [''vi.'']"
     },
     {
      "n": 6,
@@ -185,7 +185,7 @@ TRY.registerVocab({
      "ln": 26,
      "w": "[～が]ぬれる",
      "yomi": "ぬれる",
-     "en": "to get wet [vi.]"
+     "en": "to get wet [''vi.'']"
     },
     {
      "k": "◇",
@@ -205,7 +205,7 @@ TRY.registerVocab({
      "ln": 28,
      "w": "かける",
      "yomi": "かける",
-     "en": "to cover; to put something on [vt.]"
+     "en": "to cover; to put something on [''vt.'']"
     },
     {
      "ln": 29,
@@ -352,7 +352,7 @@ TRY.registerVocab({
      "ln": 2,
      "w": "育てる",
      "yomi": "そだてる",
-     "en": "to educate; to train [vt.]"
+     "en": "to educate; to train [''vt.'']"
     },
     {
      "n": 17,
@@ -389,7 +389,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～が]__進__む",
      "yomi": "すすむ",
-     "en": "to proceed; to advance [vi.]"
+     "en": "to proceed; to advance [''vi.'']"
     },
     {
      "n": 19,
@@ -563,7 +563,7 @@ TRY.registerVocab({
     {
      "w": "[～が]広がる",
      "yomi": "ひろがる",
-     "en": "to spread; to open [vi.]"
+     "en": "to spread; to open [''vi.'']"
     },
     {
      "n": 33,
@@ -683,7 +683,7 @@ TRY.registerVocab({
      "ln": 56,
      "w": "[～が]上達（する）",
      "yomi": "じょうたつ（する）",
-     "en": "to improve [vi.]"
+     "en": "to improve [''vi.'']"
     },
     {
      "n": 42,
@@ -779,7 +779,7 @@ TRY.registerVocab({
      {
       "n": 28,
       "w": "周り",
-      "ex": "{祖母|そぼ}が住んでいる家の周りには何もない。",
+      "ex": "{祖|そ}{母|ぼ}が住んでいる家の周りには何もない。",
       "tr": "There's nothing around the house where my grandmother lives."
      },
      {

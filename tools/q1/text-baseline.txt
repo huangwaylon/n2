@@ -6623,7 +6623,7 @@ vocab1.lists.0.rows.2.yomi	やはり
 vocab1.lists.0.rows.2.en	undoubtedly; after all
 vocab1.lists.0.rows.3.w	千と千尋の神隠し
 vocab1.lists.0.rows.3.yomi	せんとちひろのかみかくし
-vocab1.lists.0.rows.3.en	Spirited Away [movie title]
+vocab1.lists.0.rows.3.en	''Spirited Away'' [movie title]
 vocab1.lists.0.rows.4.w	作品
 vocab1.lists.0.rows.4.yomi	さくひん
 vocab1.lists.0.rows.4.en	a work
@@ -6641,10 +6641,10 @@ vocab1.lists.0.rows.8.yomi	きょうみ
 vocab1.lists.0.rows.8.en	interest
 vocab1.lists.0.rows.9.w	もののけ姫
 vocab1.lists.0.rows.9.yomi	もののけひめ
-vocab1.lists.0.rows.9.en	Princess Mononoke [movie title]
+vocab1.lists.0.rows.9.en	''Princess Mononoke'' [movie title]
 vocab1.lists.0.rows.10.w	となりのトトロ
 vocab1.lists.0.rows.10.yomi	となりのととろ
-vocab1.lists.0.rows.10.en	My Neighbor Totoro [movie title]
+vocab1.lists.0.rows.10.en	''My Neighbor Totoro'' [movie title]
 vocab1.lists.0.rows.11.w	ストーリー
 vocab1.lists.0.rows.11.yomi	すとーりー
 vocab1.lists.0.rows.11.en	story
@@ -6683,7 +6683,7 @@ vocab1.lists.0.rows.22.yomi	え
 vocab1.lists.0.rows.22.en	picture; drawing; painting
 vocab1.lists.0.rows.23.w	__直__す
 vocab1.lists.0.rows.23.yomi	なおす
-vocab1.lists.0.rows.23.en	to fix [vt.]
+vocab1.lists.0.rows.23.en	to fix [''vt.'']
 vocab1.lists.0.rows.24.w	ゴム
 vocab1.lists.0.rows.24.yomi	ごむ
 vocab1.lists.0.rows.24.en	rubber
@@ -6707,7 +6707,7 @@ vocab1.lists.0.rows.30.yomi	しーん
 vocab1.lists.0.rows.30.en	scene
 vocab1.lists.0.rows.31.w	[時間を]かける
 vocab1.lists.0.rows.31.yomi	かける
-vocab1.lists.0.rows.31.en	to spend (time) [vt.]
+vocab1.lists.0.rows.31.en	to spend (time) [''vt.'']
 vocab1.lists.0.rows.32.w	はずかしい
 vocab1.lists.0.rows.32.yomi	はずかしい
 vocab1.lists.0.rows.32.en	embarrassing; embarrassed
@@ -6853,7 +6853,7 @@ vocab1.lists.1.rows.8.yomi	むずかしい
 vocab1.lists.1.rows.8.en	difficult
 vocab1.lists.1.rows.9.w	__助__ける
 vocab1.lists.1.rows.9.yomi	たすける
-vocab1.lists.1.rows.9.en	to save; to help [vt.]
+vocab1.lists.1.rows.9.en	to save; to help [''vt.'']
 vocab1.lists.1.rows.10.w	__夢__
 vocab1.lists.1.rows.10.yomi	ゆめ
 vocab1.lists.1.rows.10.en	dream
@@ -6883,7 +6883,7 @@ vocab1.lists.1.rows.18.yomi	はたらきはじめる
 vocab1.lists.1.rows.18.en	to start working
 vocab1.lists.1.rows.19.w	[病気を]なおす
 vocab1.lists.1.rows.19.yomi	なおす
-vocab1.lists.1.rows.19.en	to cure; to heal [vt.]
+vocab1.lists.1.rows.19.en	to cure; to heal [''vt.'']
 vocab1.lists.1.rows.20.w	方__法__
 vocab1.lists.1.rows.20.yomi	ほうほう
 vocab1.lists.1.rows.20.en	method; means; way
@@ -6946,7 +6946,7 @@ vocab1.lists.1.rows.39.yomi	べっどさいど
 vocab1.lists.1.rows.39.en	bedside
 vocab1.lists.1.rows.40.w	[～に]届ける
 vocab1.lists.1.rows.40.yomi	とどける
-vocab1.lists.1.rows.40.en	to deliver (something) to [vt.]
+vocab1.lists.1.rows.40.en	to deliver (something) to [''vt.'']
 vocab1.lists.1.rows.41.w	患者
 vocab1.lists.1.rows.41.yomi	かんじゃ
 vocab1.lists.1.rows.41.en	patient
@@ -6961,7 +6961,7 @@ vocab1.lists.1.rows.44.yomi	つまり
 vocab1.lists.1.rows.44.en	in other words
 vocab1.lists.1.rows.45.w	__決__める
 vocab1.lists.1.rows.45.yomi	きめる
-vocab1.lists.1.rows.45.en	to set; to decide [vt.]
+vocab1.lists.1.rows.45.en	to set; to decide [''vt.'']
 vocab1.lists.1.rows.46.w	[～が]__必要__な
 vocab1.lists.1.rows.46.yomi	ひつような
 vocab1.lists.1.rows.46.en	necessary
@@ -7250,7 +7250,7 @@ vocab2.lists.1.rows.22.yomi	りかい（する）
 vocab2.lists.1.rows.22.en	to understand
 vocab2.lists.1.rows.23.w	[～が]__深__まる
 vocab2.lists.1.rows.23.yomi	ふかまる
-vocab2.lists.1.rows.23.en	to deepen [vi.]
+vocab2.lists.1.rows.23.en	to deepen [''vi.'']
 vocab2.lists.1.rows.24.w	発見（する）
 vocab2.lists.1.rows.24.yomi	はっけん（する）
 vocab2.lists.1.rows.24.en	to discover
@@ -7265,7 +7265,7 @@ vocab2.lists.1.rows.27.yomi	きがつく
 vocab2.lists.1.rows.27.en	to notice
 vocab2.lists.1.rows.28.w	[～が]集まる
 vocab2.lists.1.rows.28.yomi	あつまる
-vocab2.lists.1.rows.28.en	to gather [vi.]
+vocab2.lists.1.rows.28.en	to gather [''vi.'']
 vocab2.lists.1.rows.29.w	（お）弁当
 vocab2.lists.1.rows.29.yomi	（お）べんとう
 vocab2.lists.1.rows.29.en	bento; Japanese box lunch
@@ -7313,7 +7313,7 @@ vocab2.lists.1.rows.43.yomi	さとう
 vocab2.lists.1.rows.43.en	Sato [surname]
 vocab2.lists.1.rows.44.w	[～に]__伝__える
 vocab2.lists.1.rows.44.yomi	つたえる
-vocab2.lists.1.rows.44.en	to convey (a message) to ~ [vt.]
+vocab2.lists.1.rows.44.en	to convey (a message) to ~ [''vt.'']
 vocab2.lists.1.rows.45.w	敬__具__
 vocab2.lists.1.rows.45.yomi	けいぐ
 vocab2.lists.1.rows.45.en	sincerely yours [a closing greeting in letters]
@@ -7359,7 +7359,7 @@ vocab2.lists.1.targets.items.19.w	[～に]伝える
 vocab2.lists.1.targets.items.19.ex	「ありがとう」とリーさんに伝えてください。
 vocab2.lists.1.targets.items.20.w	敬具
 vocab2.lists.1.targets.items.20.ex	【手紙で】では、お体を大切になさってください。　敬具
-vocab3.lists.0.title	留学生のための{富士|ふじ}登山ガイド
+vocab3.lists.0.title	留学生のための{富|ふ}{士|じ}登山ガイド
 vocab3.lists.0.rows.0.w	富士（山）
 vocab3.lists.0.rows.0.yomi	ふじ（さん）
 vocab3.lists.0.rows.0.en	Mt. Fuji
@@ -7452,7 +7452,7 @@ vocab3.lists.0.rows.29.yomi	さんちょう
 vocab3.lists.0.rows.29.en	summit
 vocab3.lists.0.rows.30.w	[～に]__泊__まる
 vocab3.lists.0.rows.30.yomi	とまる
-vocab3.lists.0.rows.30.en	to stay [vi.]
+vocab3.lists.0.rows.30.en	to stay [''vi.'']
 vocab3.lists.0.rows.31.w	日の出
 vocab3.lists.0.rows.31.yomi	ひので
 vocab3.lists.0.rows.31.en	sunrise
@@ -7524,7 +7524,7 @@ vocab3.lists.0.rows.53.yomi	もちかえる
 vocab3.lists.0.rows.53.en	to bring back
 vocab3.lists.0.rows.54.w	__汚__す
 vocab3.lists.0.rows.54.yomi	よごす
-vocab3.lists.0.rows.54.en	to make something dirty [vt.]
+vocab3.lists.0.rows.54.en	to make something dirty [''vt.'']
 vocab3.lists.0.rows.55.w	守る
 vocab3.lists.0.rows.55.yomi	まもる
 vocab3.lists.0.rows.55.en	to follow (rules)
@@ -7633,7 +7633,7 @@ vocab3.lists.1.rows.18.yomi	かわらない
 vocab3.lists.1.rows.18.en	to be no different
 vocab3.lists.1.rows.19.w	えだ豆
 vocab3.lists.1.rows.19.yomi	えだまめ
-vocab3.lists.1.rows.19.en	edamame; boiled young soybeans
+vocab3.lists.1.rows.19.en	''edamame''; boiled young soybeans
 vocab3.lists.1.rows.20.w	から揚げ
 vocab3.lists.1.rows.20.yomi	からあげ
 vocab3.lists.1.rows.20.en	fried chicken
@@ -7648,7 +7648,7 @@ vocab3.lists.1.rows.23.yomi	にほんしゅ
 vocab3.lists.1.rows.23.en	Japanese rice wine; sake
 vocab3.lists.1.rows.24.w	チューハイ
 vocab3.lists.1.rows.24.yomi	ちゅーはい
-vocab3.lists.1.rows.24.en	shochu-based highball
+vocab3.lists.1.rows.24.en	''shochu''-based highball
 vocab3.lists.1.rows.25.w	注文（する）
 vocab3.lists.1.rows.25.yomi	ちゅうもん（する）
 vocab3.lists.1.rows.25.en	to order
@@ -7862,7 +7862,7 @@ vocab4.lists.0.rows.20.yomi	せっきょくてきに
 vocab4.lists.0.rows.20.en	actively
 vocab4.lists.0.rows.21.w	行動（する）
 vocab4.lists.0.rows.21.yomi	こうどう（する）
-vocab4.lists.0.rows.21.en	to act; to move [vi.]
+vocab4.lists.0.rows.21.en	to act; to move [''vi.'']
 vocab4.lists.0.rows.22.w	深く
 vocab4.lists.0.rows.22.yomi	ふかく
 vocab4.lists.0.rows.22.en	deeply
@@ -7937,7 +7937,7 @@ vocab4.lists.0.rows.45.yomi	ただしい
 vocab4.lists.0.rows.45.en	correct; true
 vocab4.lists.0.rows.46.w	むだにする
 vocab4.lists.0.rows.46.yomi	むだにする
-vocab4.lists.0.rows.46.en	to waste [vt.]
+vocab4.lists.0.rows.46.en	to waste [''vt.'']
 vocab4.lists.0.rows.47.w	__確__かに
 vocab4.lists.0.rows.47.yomi	たしかに
 vocab4.lists.0.rows.47.en	certainly; indeed
@@ -7967,7 +7967,7 @@ vocab4.lists.0.rows.55.yomi	ほーむしっくになる
 vocab4.lists.0.rows.55.en	to get homesick
 vocab4.lists.0.rows.56.w	[～が]__済__む
 vocab4.lists.0.rows.56.yomi	すむ
-vocab4.lists.0.rows.56.en	to finish; to end [vi.] (See 文型・表現 6「～ないで済む／～ずに済む」)
+vocab4.lists.0.rows.56.en	to finish; to end [''vi.''] (See 文型・表現 6「～ないで済む／～ずに済む」)
 vocab4.lists.0.rows.57.w	遅れる
 vocab4.lists.0.rows.57.yomi	おくれる
 vocab4.lists.0.rows.57.en	to be late; to fall behind
@@ -7994,7 +7994,7 @@ vocab4.lists.0.rows.64.yomi	しゅうしょくかつどう
 vocab4.lists.0.rows.64.en	job hunting
 vocab4.lists.0.rows.65.w	[～が]重なる
 vocab4.lists.0.rows.65.yomi	かさなる
-vocab4.lists.0.rows.65.en	to overlap [vi.]
+vocab4.lists.0.rows.65.en	to overlap [''vi.'']
 vocab4.lists.0.rows.66.w	交__換__（する）
 vocab4.lists.0.rows.66.yomi	こうかん（する）
 vocab4.lists.0.rows.66.en	to exchange
@@ -8021,7 +8021,7 @@ vocab4.lists.0.rows.73.yomi	さいよう（する）
 vocab4.lists.0.rows.73.en	to hire; to employ
 vocab4.lists.0.rows.74.w	集める
 vocab4.lists.0.rows.74.yomi	あつめる
-vocab4.lists.0.rows.74.en	to collect [vt.]
+vocab4.lists.0.rows.74.en	to collect [''vt.'']
 vocab4.lists.0.rows.75.w	[～に]帰国（する）
 vocab4.lists.0.rows.75.yomi	きこく（する）
 vocab4.lists.0.rows.75.en	to return to one’s country
@@ -8127,7 +8127,7 @@ vocab4.lists.1.rows.14.yomi	ほーる
 vocab4.lists.1.rows.14.en	hall
 vocab4.lists.1.rows.15.w	出す
 vocab4.lists.1.rows.15.yomi	だす
-vocab4.lists.1.rows.15.en	to put out [vt.]
+vocab4.lists.1.rows.15.en	to put out [''vt.'']
 vocab4.lists.1.rows.16.w	ホールに出す
 vocab4.lists.1.rows.16.yomi	ほーるにだす
 vocab4.lists.1.rows.16.en	to let someone serve customers
@@ -8148,7 +8148,7 @@ vocab4.lists.1.rows.21.yomi	たのむ
 vocab4.lists.1.rows.21.en	to ask; to request
 vocab4.lists.1.rows.22.w	[～が]残る
 vocab4.lists.1.rows.22.yomi	のこる
-vocab4.lists.1.rows.22.en	to remain; to be left [vi.]
+vocab4.lists.1.rows.22.en	to remain; to be left [''vi.'']
 vocab4.lists.1.rows.23.w	__片__づけ
 vocab4.lists.1.rows.23.yomi	かたづけ
 vocab4.lists.1.rows.23.en	cleaning up
@@ -8242,7 +8242,7 @@ vocab5.lists.0.rows.2.yomi	こうきゅうな
 vocab5.lists.0.rows.2.en	expensive; high-class
 vocab5.lists.0.rows.3.w	変える
 vocab5.lists.0.rows.3.yomi	かえる
-vocab5.lists.0.rows.3.en	to change (something) [vt.]
+vocab5.lists.0.rows.3.en	to change (something) [''vt.'']
 vocab5.lists.0.rows.4.w	ネタ
 vocab5.lists.0.rows.4.yomi	ねた
 vocab5.lists.0.rows.4.en	ingredient (for sushi)
@@ -8257,13 +8257,13 @@ vocab5.lists.0.rows.7.yomi	つい
 vocab5.lists.0.rows.7.en	unintentionally; automatically
 vocab5.lists.0.rows.8.w	[～が]回る
 vocab5.lists.0.rows.8.yomi	まわる
-vocab5.lists.0.rows.8.en	to turn around; to go around [vi.]
+vocab5.lists.0.rows.8.en	to turn around; to go around [''vi.'']
 vocab5.lists.0.rows.9.w	ベルトコンベア
 vocab5.lists.0.rows.9.yomi	べるとこんべあ
 vocab5.lists.0.rows.9.en	belt conveyor
 vocab5.lists.0.rows.10.w	[～が]目に入る
 vocab5.lists.0.rows.10.yomi	めにはいる
-vocab5.lists.0.rows.10.en	to come into view [vi.]
+vocab5.lists.0.rows.10.en	to come into view [''vi.'']
 vocab5.lists.0.rows.11.w	次々と
 vocab5.lists.0.rows.11.yomi	つぎつぎと
 vocab5.lists.0.rows.11.en	continuously; one after another
@@ -8287,7 +8287,7 @@ vocab5.lists.0.rows.17.yomi	さいどめにゅー
 vocab5.lists.0.rows.17.en	side menu
 vocab5.lists.0.rows.18.w	[～が]__増__える
 vocab5.lists.0.rows.18.yomi	ふえる
-vocab5.lists.0.rows.18.en	to increase [vi.]
+vocab5.lists.0.rows.18.en	to increase [''vi.'']
 vocab5.lists.0.rows.19.w	通常
 vocab5.lists.0.rows.19.yomi	つうじょう
 vocab5.lists.0.rows.19.en	usually; normally
@@ -8320,7 +8320,7 @@ vocab5.lists.0.rows.28.yomi	ぼっくすせき
 vocab5.lists.0.rows.28.en	booth
 vocab5.lists.0.rows.29.w	[～が]空く
 vocab5.lists.0.rows.29.yomi	あく
-vocab5.lists.0.rows.29.en	to become available; to become vacant [vi.]
+vocab5.lists.0.rows.29.en	to become available; to become vacant [''vi.'']
 vocab5.lists.0.rows.30.w	__順__番に
 vocab5.lists.0.rows.30.yomi	じゅんばんに
 vocab5.lists.0.rows.30.en	in order
@@ -8338,7 +8338,7 @@ vocab5.lists.0.rows.34.yomi	てぃーばっぐ
 vocab5.lists.0.rows.34.en	tea bag
 vocab5.lists.0.rows.35.w	[～に]__付__く
 vocab5.lists.0.rows.35.yomi	つく
-vocab5.lists.0.rows.35.en	to be attached to; to be connected to [vi.]
+vocab5.lists.0.rows.35.en	to be attached to; to be connected to [''vi.'']
 vocab5.lists.0.rows.36.w	ノズル
 vocab5.lists.0.rows.36.yomi	のずる
 vocab5.lists.0.rows.36.en	nozzle; faucet
@@ -8356,7 +8356,7 @@ vocab5.lists.0.rows.40.yomi	しょうゆ
 vocab5.lists.0.rows.40.en	soy sauce
 vocab5.lists.0.rows.41.w	わさび
 vocab5.lists.0.rows.41.yomi	わさび
-vocab5.lists.0.rows.41.en	wasabi
+vocab5.lists.0.rows.41.en	''wasabi''
 vocab5.lists.0.rows.42.w	お口直し
 vocab5.lists.0.rows.42.yomi	おくちなおし
 vocab5.lists.0.rows.42.en	palate cleanser
@@ -8401,7 +8401,7 @@ vocab5.lists.0.rows.55.yomi	ちゅうもんひん
 vocab5.lists.0.rows.55.en	ordered thing
 vocab5.lists.0.rows.56.w	[～に]のる
 vocab5.lists.0.rows.56.yomi	のる
-vocab5.lists.0.rows.56.en	to be put on [vi.]
+vocab5.lists.0.rows.56.en	to be put on [''vi.'']
 vocab5.lists.0.rows.57.w	流れる
 vocab5.lists.0.rows.57.yomi	ながれる
 vocab5.lists.0.rows.57.en	to flow
@@ -8425,7 +8425,7 @@ vocab5.lists.0.targets.items.3.ex	リビングで勉強していると、つい�
 vocab5.lists.0.targets.items.4.w	[～が]回る
 vocab5.lists.0.targets.items.4.ex	自転車に乗った人たちが{湖|みずうみ}の{周|まわ}りを回っていた。
 vocab5.lists.0.targets.items.5.w	豊富な
-vocab5.lists.0.targets.items.5.ex	彼女は{教師|きょうし}としての経験が豊富だ。
+vocab5.lists.0.targets.items.5.ex	彼女は{教|きょう}{師|し}としての経験が豊富だ。
 vocab5.lists.0.targets.items.6.w	～限定
 vocab5.lists.0.targets.items.6.ex	このレストランは季節限定のメニューがたくさんある。
 vocab5.lists.0.targets.items.7.w	変わった
@@ -8433,7 +8433,7 @@ vocab5.lists.0.targets.items.7.ex	変わったデザインのTシャツを買っ
 vocab5.lists.0.targets.items.8.w	～以外
 vocab5.lists.0.targets.items.8.ex	日本語以外にどんな外国語が話せますか。
 vocab5.lists.0.targets.items.9.w	[～が]増える
-vocab5.lists.0.targets.items.9.ex	{中国語|ちゅうごくご}を勉強する人が増えているそうだ。
+vocab5.lists.0.targets.items.9.ex	{中国|ちゅうごく}{語|ご}を勉強する人が増えているそうだ。
 vocab5.lists.0.targets.items.10.w	行列
 vocab5.lists.0.targets.items.10.ex	人気のレストランの前にはいつも行列ができる。
 vocab5.lists.0.targets.items.11.w	置く
@@ -8461,7 +8461,7 @@ vocab5.lists.0.targets.items.21.ex	漢字を覚えるには、何度も繰り返
 vocab5.lists.1.title	肉じゃがの作り方
 vocab5.lists.1.rows.0.w	肉じゃが
 vocab5.lists.1.rows.0.yomi	にくじゃが
-vocab5.lists.1.rows.0.en	nikujaga (simmered meat, potatoes and onions)
+vocab5.lists.1.rows.0.en	''nikujaga'' (simmered meat, potatoes and onions)
 vocab5.lists.1.rows.1.w	家__庭__
 vocab5.lists.1.rows.1.yomi	かてい
 vocab5.lists.1.rows.1.en	home; family
@@ -8515,7 +8515,7 @@ vocab5.lists.1.rows.17.yomi	かわ
 vocab5.lists.1.rows.17.en	skin; coat
 vocab5.lists.1.rows.18.w	むく
 vocab5.lists.1.rows.18.yomi	むく
-vocab5.lists.1.rows.18.en	to peel [vt.]
+vocab5.lists.1.rows.18.en	to peel [''vt.'']
 vocab5.lists.1.rows.19.w	大きさ
 vocab5.lists.1.rows.19.yomi	おおきさ
 vocab5.lists.1.rows.19.en	size
@@ -8545,7 +8545,7 @@ vocab5.lists.1.rows.27.yomi	いためる
 vocab5.lists.1.rows.27.en	to (stir-)fry
 vocab5.lists.1.rows.28.w	加える
 vocab5.lists.1.rows.28.yomi	くわえる
-vocab5.lists.1.rows.28.en	to add [vt.]
+vocab5.lists.1.rows.28.en	to add [''vt.'']
 vocab5.lists.1.rows.29.w	軽く
 vocab5.lists.1.rows.29.yomi	かるく
 vocab5.lists.1.rows.29.en	lightly
@@ -8554,7 +8554,7 @@ vocab5.lists.1.rows.30.yomi	ちゅうび
 vocab5.lists.1.rows.30.en	medium heat
 vocab5.lists.1.rows.31.w	__煮__る
 vocab5.lists.1.rows.31.yomi	にる
-vocab5.lists.1.rows.31.en	to boil; to simmer [vt.]
+vocab5.lists.1.rows.31.en	to boil; to simmer [''vt.'']
 vocab5.lists.1.rows.32.w	表__面__
 vocab5.lists.1.rows.32.yomi	ひょうめん
 vocab5.lists.1.rows.32.en	surface
@@ -8566,7 +8566,7 @@ vocab5.lists.1.rows.34.yomi	よわび
 vocab5.lists.1.rows.34.en	low heat
 vocab5.lists.1.rows.35.w	[～が]こげる
 vocab5.lists.1.rows.35.yomi	こげる
-vocab5.lists.1.rows.35.en	to get burned [vi.]
+vocab5.lists.1.rows.35.en	to get burned [''vi.'']
 vocab5.lists.1.rows.36.w	様子を見る
 vocab5.lists.1.rows.36.yomi	ようすをみる
 vocab5.lists.1.rows.36.en	to watch; to see how it goes
@@ -8593,7 +8593,7 @@ vocab5.lists.1.rows.43.yomi	しる
 vocab5.lists.1.rows.43.en	soup; juice
 vocab5.lists.1.rows.44.w	うまみ
 vocab5.lists.1.rows.44.yomi	うまみ
-vocab5.lists.1.rows.44.en	umami; savoriness
+vocab5.lists.1.rows.44.en	''umami''; savoriness
 vocab5.lists.1.rows.45.w	溶かす
 vocab5.lists.1.rows.45.yomi	とかす
 vocab5.lists.1.rows.45.en	to melt; to dissolve
@@ -8633,7 +8633,7 @@ vocab5.lists.1.targets.items.8.ex	にんじんを薄く切ってください。
 vocab5.lists.1.targets.items.9.w	熱する
 vocab5.lists.1.targets.items.9.ex	フライパンを熱してから油を入れる。
 vocab5.lists.1.targets.items.10.w	いためる
-vocab5.lists.1.targets.items.10.ex	肉と{野菜|やさい}を一緒にいためてください。
+vocab5.lists.1.targets.items.10.ex	肉と{野|や}{菜|さい}を一緒にいためてください。
 vocab5.lists.1.targets.items.11.w	加える
 vocab5.lists.1.targets.items.11.ex	最後にカレールーを加えると、カレーができます。
 vocab5.lists.1.targets.items.12.w	軽く
@@ -8684,13 +8684,13 @@ vocab6.lists.0.rows.8.yomi	しげんごみ
 vocab6.lists.0.rows.8.en	recyclable waste
 vocab6.lists.0.rows.9.w	[～が]__燃__える
 vocab6.lists.0.rows.9.yomi	もえる
-vocab6.lists.0.rows.9.en	to burn [vi.]
+vocab6.lists.0.rows.9.en	to burn [''vi.'']
 vocab6.lists.0.rows.10.w	__燃__えるゴミ
 vocab6.lists.0.rows.10.yomi	もえるごみ
 vocab6.lists.0.rows.10.en	burnable waste
 vocab6.lists.0.rows.11.w	[～が]分かれる
 vocab6.lists.0.rows.11.yomi	わかれる
-vocab6.lists.0.rows.11.en	to get separated [vi.]
+vocab6.lists.0.rows.11.en	to get separated [''vi.'']
 vocab6.lists.0.rows.12.w	分別（する）
 vocab6.lists.0.rows.12.yomi	ぶんべつ（する）
 vocab6.lists.0.rows.12.en	to separate; to sort
@@ -8735,7 +8735,7 @@ vocab6.lists.0.rows.25.yomi	ぎもん
 vocab6.lists.0.rows.25.en	doubt; question
 vocab6.lists.0.rows.26.w	[～が]ぬれる
 vocab6.lists.0.rows.26.yomi	ぬれる
-vocab6.lists.0.rows.26.en	to get wet [vi.]
+vocab6.lists.0.rows.26.en	to get wet [''vi.'']
 vocab6.lists.0.rows.27.w	紙__袋__
 vocab6.lists.0.rows.27.yomi	かみぶくろ
 vocab6.lists.0.rows.27.en	paper bag
@@ -8744,7 +8744,7 @@ vocab6.lists.0.rows.28.yomi	ていねいに
 vocab6.lists.0.rows.28.en	carefully; politely
 vocab6.lists.0.rows.29.w	かける
 vocab6.lists.0.rows.29.yomi	かける
-vocab6.lists.0.rows.29.en	to cover; to put something on [vt.]
+vocab6.lists.0.rows.29.en	to cover; to put something on [''vt.'']
 vocab6.lists.0.rows.30.w	～に対する
 vocab6.lists.0.rows.30.yomi	～にたいする
 vocab6.lists.0.rows.30.en	to; toward; for; concerning
@@ -8797,7 +8797,7 @@ vocab6.lists.1.rows.2.yomi	はんたい（する）
 vocab6.lists.1.rows.2.en	to oppose; to disagree
 vocab6.lists.1.rows.3.w	育てる
 vocab6.lists.1.rows.3.yomi	そだてる
-vocab6.lists.1.rows.3.en	to educate; to train [vt.]
+vocab6.lists.1.rows.3.en	to educate; to train [''vt.'']
 vocab6.lists.1.rows.4.w	__制__度
 vocab6.lists.1.rows.4.yomi	せいど
 vocab6.lists.1.rows.4.en	system
@@ -8815,7 +8815,7 @@ vocab6.lists.1.rows.8.yomi	～か
 vocab6.lists.1.rows.8.en	change to ~; ~ization
 vocab6.lists.1.rows.9.w	[～が]__進__む
 vocab6.lists.1.rows.9.yomi	すすむ
-vocab6.lists.1.rows.9.en	to proceed; to advance [vi.]
+vocab6.lists.1.rows.9.en	to proceed; to advance [''vi.'']
 vocab6.lists.1.rows.10.w	__関__心
 vocab6.lists.1.rows.10.yomi	かんしん
 vocab6.lists.1.rows.10.en	interest
@@ -8893,7 +8893,7 @@ vocab6.lists.1.rows.34.yomi	かのうせい
 vocab6.lists.1.rows.34.en	possibility
 vocab6.lists.1.rows.35.w	[～が]広がる
 vocab6.lists.1.rows.35.yomi	ひろがる
-vocab6.lists.1.rows.35.en	to spread; to open [vi.]
+vocab6.lists.1.rows.35.en	to spread; to open [''vi.'']
 vocab6.lists.1.rows.36.w	__述__べる
 vocab6.lists.1.rows.36.yomi	のべる
 vocab6.lists.1.rows.36.en	to state; to express
@@ -8947,7 +8947,7 @@ vocab6.lists.1.rows.52.yomi	ほんきで
 vocab6.lists.1.rows.52.en	seriously
 vocab6.lists.1.rows.53.w	[～が]上達（する）
 vocab6.lists.1.rows.53.yomi	じょうたつ（する）
-vocab6.lists.1.rows.53.en	to improve [vi.]
+vocab6.lists.1.rows.53.en	to improve [''vi.'']
 vocab6.lists.1.rows.54.w	主__張__（する）
 vocab6.lists.1.rows.54.yomi	しゅちょう（する）
 vocab6.lists.1.rows.54.en	to insist; to claim
@@ -8978,7 +8978,7 @@ vocab6.lists.1.targets.items.11.ex	ダイエットに一番効果的なのは運
 vocab6.lists.1.targets.items.12.w	抵抗感
 vocab6.lists.1.targets.items.12.ex	若者は変化や新しいものに抵抗感がない。
 vocab6.lists.1.targets.items.13.w	周り
-vocab6.lists.1.targets.items.13.ex	{祖母|そぼ}が住んでいる家の周りには何もない。
+vocab6.lists.1.targets.items.13.ex	{祖|そ}{母|ぼ}が住んでいる家の周りには何もない。
 vocab6.lists.1.targets.items.14.w	失敗（する）
 vocab6.lists.1.targets.items.14.ex	失敗しても、あきらめないで続けるつもりだ。
 vocab6.lists.1.targets.items.15.w	恐れる

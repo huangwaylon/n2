@@ -145,7 +145,7 @@ TRY.registerVocab({
      "n": 9,
      "w": "行動（する）",
      "yomi": "こうどう（する）",
-     "en": "to act; to move [vi.]"
+     "en": "to act; to move [''vi.'']"
     },
     {
      "ln": 17,
@@ -300,7 +300,7 @@ TRY.registerVocab({
      "ln": 32,
      "w": "むだにする",
      "yomi": "むだにする",
-     "en": "to waste [vt.]"
+     "en": "to waste [''vt.'']"
     },
     {
      "n": 18,
@@ -363,7 +363,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～が]__済__む",
      "yomi": "すむ",
-     "en": "to finish; to end [vi.] (See 文型・表現 6「～ないで済む／～ずに済む」)"
+     "en": "to finish; to end [''vi.''] (See 文型・表現 6「～ないで済む／～ずに済む」)"
     },
     {
      "ln": 40,
@@ -416,7 +416,7 @@ TRY.registerVocab({
      "ln": 45,
      "w": "[～が]重なる",
      "yomi": "かさなる",
-     "en": "to overlap [vi.]"
+     "en": "to overlap [''vi.'']"
     },
     {
      "n": 23,
@@ -473,7 +473,7 @@ TRY.registerVocab({
      "ln": 50,
      "w": "集める",
      "yomi": "あつめる",
-     "en": "to collect [vt.]"
+     "en": "to collect [''vt.'']"
     },
     {
      "n": 27,
@@ -756,7 +756,7 @@ TRY.registerVocab({
     {
      "w": "出す",
      "yomi": "だす",
-     "en": "to put out [vt.]"
+     "en": "to put out [''vt.'']"
     },
     {
      "w": "ホールに出す",
@@ -803,7 +803,7 @@ TRY.registerVocab({
      "ln": 22,
      "w": "[～が]残る",
      "yomi": "のこる",
-     "en": "to remain; to be left [vi.]"
+     "en": "to remain; to be left [''vi.'']"
     },
     {
      "n": 39,

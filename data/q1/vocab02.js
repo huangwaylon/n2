@@ -550,7 +550,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～が]__深__まる",
      "yomi": "ふかまる",
-     "en": "to deepen [vi.]"
+     "en": "to deepen [''vi.'']"
     },
     {
      "n": 33,
@@ -582,7 +582,7 @@ TRY.registerVocab({
      "ln": 12,
      "w": "[～が]集まる",
      "yomi": "あつまる",
-     "en": "to gather [vi.]"
+     "en": "to gather [''vi.'']"
     },
     {
      "w": "（お）弁当",
@@ -681,7 +681,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～に]__伝__える",
      "yomi": "つたえる",
-     "en": "to convey (a message) to ~ [vt.]"
+     "en": "to convey (a message) to ~ [''vt.'']"
     },
     {
      "n": 42,
@@ -784,7 +784,7 @@ TRY.registerVocab({
       "n": 36,
       "w": "活動",
       "ex": "日本の大学で人気があるクラブ活動はテニスだろう。",
-      "tr": "Tennis is probably the most popular club activity at Japanese universities."
+      "tr": "The club activity that's popular at Japanese universities is probably tennis."
      },
      {
       "n": 37,

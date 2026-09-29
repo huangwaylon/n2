@@ -30,7 +30,7 @@ TRY.registerVocab({
     {
      "w": "変える",
      "yomi": "かえる",
-     "en": "to change (something) [vt.]"
+     "en": "to change (something) [''vt.'']"
     },
     {
      "ln": 3,
@@ -64,7 +64,7 @@ TRY.registerVocab({
      "ln": 8,
      "w": "[～が]回る",
      "yomi": "まわる",
-     "en": "to turn around; to go around [vi.]"
+     "en": "to turn around; to go around [''vi.'']"
     },
     {
      "w": "ベルトコンベア",
@@ -75,7 +75,7 @@ TRY.registerVocab({
      "ln": 9,
      "w": "[～が]目に入る",
      "yomi": "めにはいる",
-     "en": "to come into view [vi.]"
+     "en": "to come into view [''vi.'']"
     },
     {
      "ln": 10,
@@ -127,7 +127,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～が]__増__える",
      "yomi": "ふえる",
-     "en": "to increase [vi.]"
+     "en": "to increase [''vi.'']"
     },
     {
      "ln": 16,
@@ -194,7 +194,7 @@ TRY.registerVocab({
      "ln": 25,
      "w": "[～が]空く",
      "yomi": "あく",
-     "en": "to become available; to become vacant [vi.]"
+     "en": "to become available; to become vacant [''vi.'']"
     },
     {
      "n": 13,
@@ -235,7 +235,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～に]__付__く",
      "yomi": "つく",
-     "en": "to be attached to; to be connected to [vi.]"
+     "en": "to be attached to; to be connected to [''vi.'']"
     },
     {
      "ln": 29,
@@ -271,7 +271,7 @@ TRY.registerVocab({
     {
      "w": "わさび",
      "yomi": "わさび",
-     "en": "wasabi"
+     "en": "''wasabi''"
     },
     {
      "w": "お口直し",
@@ -364,7 +364,7 @@ TRY.registerVocab({
      "ln": 49,
      "w": "[～に]のる",
      "yomi": "のる",
-     "en": "to be put on [vi.]"
+     "en": "to be put on [''vi.'']"
     },
     {
      "w": "流れる",
@@ -425,7 +425,7 @@ TRY.registerVocab({
      {
       "n": 6,
       "w": "豊富な",
-      "ex": "彼女は{教師|きょうし}としての経験が豊富だ。",
+      "ex": "彼女は{教|きょう}{師|し}としての経験が豊富だ。",
       "tr": "She has a wealth of experience as a teacher."
      },
      {
@@ -449,7 +449,7 @@ TRY.registerVocab({
      {
       "n": 10,
       "w": "[～が]増える",
-      "ex": "{中国語|ちゅうごくご}を勉強する人が増えているそうだ。",
+      "ex": "{中国|ちゅうごく}{語|ご}を勉強する人が増えているそうだ。",
       "tr": "I hear the number of people studying Chinese is growing."
      },
      {
@@ -536,7 +536,7 @@ TRY.registerVocab({
      "ln": 0,
      "w": "肉じゃが",
      "yomi": "にくじゃが",
-     "en": "nikujaga (simmered meat, potatoes and onions)"
+     "en": "''nikujaga'' (simmered meat, potatoes and onions)"
     },
     {
      "k": "◇",
@@ -648,7 +648,7 @@ TRY.registerVocab({
      "n": 27,
      "w": "むく",
      "yomi": "むく",
-     "en": "to peel [vt.]"
+     "en": "to peel [''vt.'']"
     },
     {
      "ln": 12,
@@ -712,7 +712,7 @@ TRY.registerVocab({
      "ln": 17,
      "w": "加える",
      "yomi": "くわえる",
-     "en": "to add [vt.]"
+     "en": "to add [''vt.'']"
     },
     {
      "n": 35,
@@ -731,7 +731,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "__煮__る",
      "yomi": "にる",
-     "en": "to boil; to simmer [vt.]"
+     "en": "to boil; to simmer [''vt.'']"
     },
     {
      "n": 37,
@@ -758,7 +758,7 @@ TRY.registerVocab({
      "ln": 22,
      "w": "[～が]こげる",
      "yomi": "こげる",
-     "en": "to get burned [vi.]"
+     "en": "to get burned [''vi.'']"
     },
     {
      "n": 39,
@@ -813,7 +813,7 @@ TRY.registerVocab({
      "ln": 27,
      "w": "うまみ",
      "yomi": "うまみ",
-     "en": "umami; savoriness"
+     "en": "''umami''; savoriness"
     },
     {
      "w": "溶かす",
@@ -893,7 +893,7 @@ TRY.registerVocab({
       "n": 28,
       "w": "縦に",
       "ex": "日本語の小説は縦に書いてあることが多いが、横書きもある。",
-      "tr": "Japanese novels are usually written vertically, but some are written horizontally too."
+      "tr": "Japanese novels are often written vertically, but some are written horizontally too."
      },
      {
       "n": 29,
@@ -922,7 +922,7 @@ TRY.registerVocab({
      {
       "n": 33,
       "w": "いためる",
-      "ex": "肉と{野菜|やさい}を一緒にいためてください。",
+      "ex": "肉と{野|や}{菜|さい}を一緒にいためてください。",
       "tr": "Please stir-fry the meat and vegetables together."
      },
      {
