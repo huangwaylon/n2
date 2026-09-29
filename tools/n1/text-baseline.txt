@@ -300,7 +300,6 @@ ch1.review.3.ex.items.0.options.1	250{年|ねん}{以上|いじょう}{続|つ�
 ch1.review.3.ex.items.0.options.2	{浴衣|ゆかた}を{着|き}ている{人|ひと}が{多|おお}いから
 ch1.review.3.ex.items.0.options.3	{船|ふね}に{乗|の}れるから
 ch1.review.3.ex.items.0.question	どうして{隅田川|すみだがわ}の花火大会を見に行く人が多いと言っていますか。
-ch1.review.3.ex.items.0.questionEn	Why does the reporter say many people go to see the Sumida River fireworks display?
 ch1.review.3.ex.items.0.script.0.ja	テレビの番組でリポーターが話しています。
 ch1.review.3.ex.items.0.script.0.sp	
 ch1.review.3.ex.items.0.script.1.ja	今晩は。今年も花火のシーズンになりました。この番組でも{東京|とうきょう}を{皮切|かわき}りに{新潟|にいがた}、{秋田|あきた}に{至|いた}るまで{東|ひがし}日本の花火大会を追いかけて参ります。
@@ -323,7 +322,6 @@ ch1.review.3.ex.items.1.options.1	テレビ{局|きょく}
 ch1.review.3.ex.items.1.options.2	{花火大会|はなびたいかい}の{会場|かいじょう}
 ch1.review.3.ex.items.1.options.3	{船|ふね}の{中|なか}
 ch1.review.3.ex.items.1.question	女の人は今、どこにいますか。
-ch1.review.3.ex.items.1.questionEn	Where is the woman now?
 ch1.review.3.ex.prompt.ja	まず{話|はなし}を{聞|き}いてください。それから、{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch1.review.3.ex.type	listening
 ch1.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉
@@ -733,7 +731,6 @@ ch2.review.3.ex.items.0.options.1	{許可|きょか}なく{撮影|さつえい}�
 ch2.review.3.ex.items.0.options.2	{現地|げんち}の{人|ひと}に{品物|しなもの}を{与|あた}えないこと
 ch2.review.3.ex.items.0.options.3	{体調管理|たいちょうかんり}をしっかりすること
 ch2.review.3.ex.items.0.question	リーダーが一番伝えたいことは何ですか。
-ch2.review.3.ex.items.0.questionEn	What does the leader most want to get across?
 ch2.review.3.ex.items.0.script.0.ja	ボランティア活動のリーダーが参加者に話をしています。
 ch2.review.3.ex.items.0.script.0.sp	
 ch2.review.3.ex.items.0.script.1.ja	海外での1{カ|か}月にもわたるボランティアに参加される皆様には、心から{敬意|けいい}を{表|ひょう}したいと思います。ここで私からお願いがあります。
@@ -762,7 +759,6 @@ ch2.review.3.ex.items.1.options.1	{自分自身|じぶんじしん}の{健康|�
 ch2.review.3.ex.items.1.options.2	{現地|げんち}の{人|ひと}の{健康|けんこう}
 ch2.review.3.ex.items.1.options.3	{特|とく}に{気|き}をつけることはない
 ch2.review.3.ex.items.1.question	この女の人は何に気をつけると言っていますか。
-ch2.review.3.ex.items.1.questionEn	What does the woman say she will be careful about?
 ch2.review.3.ex.prompt.ja	まず{話|はなし}を{聞|き}いてください。それから、{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch2.review.3.ex.type	listening
 ch2.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉
@@ -1329,7 +1325,6 @@ ch3.review.3.ex.items.0.options.1	{道|みち}に{落|お}ちていた　⇒　{
 ch3.review.3.ex.items.0.options.2	{道|みち}に{落|お}ちていた　⇒　{猿|さる}が{拾|ひろ}った　⇒　{蟹|かに}がもらった
 ch3.review.3.ex.items.0.options.3	{蟹|かに}が{落|お}とした　⇒　{道|みち}に{落|お}ちていた　⇒　{猿|さる}が{拾|ひろ}った
 ch3.review.3.ex.items.0.question	昔話の中で{柿|かき}の{種|たね}はどのように移動しましたか。
-ch3.review.3.ex.items.0.questionEn	In the folk tale, how did the persimmon seed change hands?
 ch3.review.3.ex.items.0.script.0.ja	ラジオから子ども向けの昔話が流れています。
 ch3.review.3.ex.items.0.script.0.sp	
 ch3.review.3.ex.items.0.script.1.ja	ある日、{猿|さる}と{蟹|かに}が散歩をしていると、おいしそうなおむすびが一つ落ちていた。
@@ -1360,7 +1355,6 @@ ch3.review.3.ex.items.1.options.1	{自己中心的|じこちゅうしんてき}�
 ch3.review.3.ex.items.1.options.2	{頭|あたま}がいいと{思|おも}っている。
 ch3.review.3.ex.items.1.options.3	{楽天的|らくてんてき}だと{思|おも}っている。
 ch3.review.3.ex.items.1.question	男の子は{猿|さる}についてどう思っていますか。
-ch3.review.3.ex.items.1.questionEn	What does the boy think about the monkey?
 ch3.review.3.ex.prompt.ja	まず{話|はなし}を{聞|き}いてください。それから、{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch3.review.3.ex.type	listening
 ch3.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
@@ -2895,7 +2889,6 @@ ch6.review.3.ex.items.0.options.1	{経営|けいえい}を{安定|あんてい}�
 ch6.review.3.ex.items.0.options.2	{事業|じぎょう}を{広|ひろ}げる
 ch6.review.3.ex.items.0.options.3	{社員|しゃいん}を{減|へ}らす
 ch6.review.3.ex.items.0.question	新しい社長は、まず何をすると言っていますか。
-ch6.review.3.ex.items.0.questionEn	What does the new president say he will do first?
 ch6.review.3.ex.items.0.script.0.ja	えー、{本日|ほんじつ}をもちまして、社長に{就任|しゅうにん}いたしました{上田|うえだ}です。{我|わ}が{社|しゃ}は今、経営が{厳|きび}しい{状態|じょうたい}です。今は{我|わ}が{社|しゃ}の得意分野に集中し、経営を安定させなければなりません。広げすぎた{事業|じぎょう}は整理しますが、社員を減らすことは考えていません。大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。
 ch6.review.3.ex.items.0.script.0.sp	M
 ch6.review.3.ex.prompt.ja	この{問題|もんだい}では、まず{質問|しつもん}を{聞|き}いてください。そのあと、{問題用紙|もんだいようし}の{選択肢|せんたくし}を{読|よ}んでください。{読|よ}む{時間|じかん}があります。それから{話|はなし}を{聞|き}いて、{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
@@ -4165,7 +4158,6 @@ ch8.review.3.ex.items.0.options.1	フランス{語|ご}に{自信|じしん}が�
 ch8.review.3.ex.items.0.options.2	テレビの{番組|ばんぐみ}で{紹介|しょうかい}されたから
 ch8.review.3.ex.items.0.options.3	{料理|りょうり}の{勉強|べんきょう}ができるから
 ch8.review.3.ex.items.0.question	学校への問い合わせが増えたのはなぜですか。
-ch8.review.3.ex.items.0.questionEn	Why have inquiries to the school increased?
 ch8.review.3.ex.items.0.script.0.ja	学校の説明会で先生が話しています。
 ch8.review.3.ex.items.0.script.0.sp	
 ch8.review.3.ex.items.0.script.1.ja	{本日|ほんじつ}は、{当校|とうこう}の説明会にご参加いただきありがとうございます。{当校|とうこう}は、すし職人を{育成|いくせい}する{調理|ちょうり}専門学校です。先日、テレビで取り上げていただいてからというもの、問い合わせもこれまでの5倍以上に増え、うれしい{悲鳴|ひめい}をあげております。
@@ -4188,7 +4180,6 @@ ch8.review.3.ex.items.1.options.1	{生|なま}の{魚|さかな}が{調理|ち�
 ch8.review.3.ex.items.1.options.2	{勉強|べんきょう}の{期間|きかん}が{短|みじか}いこと
 ch8.review.3.ex.items.1.options.3	フランス{語|ご}ができないこと
 ch8.review.3.ex.items.1.question	男の人がこの専門学校の勉強に不安を持っているのはどんなことですか。
-ch8.review.3.ex.items.1.questionEn	What is the man worried about regarding study at this vocational school?
 ch8.review.3.ex.prompt.ja	まず{話|はなし}を{聞|き}いてください。それから、{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch8.review.3.ex.type	listening
 ch8.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉 1
@@ -4399,7 +4390,6 @@ ch9.review.3.ex.items.0.options.1	{風力|ふうりょく}
 ch9.review.3.ex.items.0.options.2	メタンハイドレート
 ch9.review.3.ex.items.0.options.3	{天然|てんねん}ガス
 ch9.review.3.ex.items.0.question	この科学者が最も注目しているエネルギーは何ですか。
-ch9.review.3.ex.items.0.questionEn	Which energy source is this scientist paying the most attention to?
 ch9.review.3.ex.items.0.script.0.ja	テレビで、ある科学者がエネルギー問題について話しています。
 ch9.review.3.ex.items.0.script.0.sp	
 ch9.review.3.ex.items.0.script.1.ja	エネルギーの{確保|かくほ}は、{我々|われわれ}の将来にかかわる重要な{課題|かだい}です。石油に代わるエネルギーが求められる時代にあって、新しいエネルギーの開発が急がれております。
@@ -4420,7 +4410,6 @@ ch9.review.3.ex.items.1.options.1	{女|おんな}の{人|ひと}は{賛成|さ�
 ch9.review.3.ex.items.1.options.2	{女|おんな}の{人|ひと}は{賛成|さんせい}しかねているが、{男|おとこ}の{人|ひと}は{賛成|さんせい}だ。
 ch9.review.3.ex.items.1.options.3	{女|おんな}の{人|ひと}も{男|おとこ}の{人|ひと}も{賛成|さんせい}しかねている。
 ch9.review.3.ex.items.1.question	この2人は科学者の意見についてどう思っていますか。
-ch9.review.3.ex.items.1.questionEn	What do these two people think about the scientist's opinion?
 ch9.review.3.ex.prompt.ja	まず{話|はなし}を{聞|き}いてください。それから、{二|ふた}つの{質問|しつもん}を{聞|き}いて、それぞれ{問題用紙|もんだいようし}の1から4の{中|なか}から、{最|もっと}もよいものを{一|ひと}つ{選|えら}んでください。
 ch9.review.3.ex.type	listening
 ch9.review.3.title.ja	問題4 〈{聴解|ちょうかい}〉
@@ -4825,7 +4814,6 @@ ch10.review.3.ex.items.0.options.1	責任を持って送るべきだ
 ch10.review.3.ex.items.0.options.2	簡単に信じるべきではない
 ch10.review.3.ex.items.0.options.3	単純に不安がるべきではない
 ch10.review.3.ex.items.0.question	男の人は情報についてどう言っていますか。
-ch10.review.3.ex.items.0.questionEn	What does the man say about information?
 ch10.review.3.ex.items.0.script.0.ja	ラジオで作家がインタビューに答えています。
 ch10.review.3.ex.items.0.script.0.sp	
 ch10.review.3.ex.items.0.script.1.ja	早速ですが、{最新作|さいしんさく}『正しく不安がる』について、いろいろお聞きしたいんですが……。
