@@ -12,23 +12,11 @@ import { filterVocab, vocabView } from "./vocab.js";
 
 
 // ---------- data ----------
-const loadScript = (src) => new Promise((ok, fail) => {
-  const s = document.createElement("script");
-  s.src = src; s.onload = ok; s.onerror = () => fail(new Error("could not load " + src));
-  document.head.append(s);
-});
-// every file registers itself (TRY.registerChapter sorts), so they load in parallel
-const chFiles = (dir = "") => Array.from({ length: BOOK().chapters }, (_, i) => `${dir}ch${String(i + 1).padStart(2, "0")}.js`);
-// the book's own files, and the cross-book links shared by all three books (data/links.js)
-const bookFiles = () => (BOOK().files || chFiles().concat("compare.js", "front.js")).concat("../links.js");
-const loadData = (files = bookFiles()) => {
-  const dir = new URL(`data/${BOOK().id}/`, SITE);
-  // a file that fails to load is reported on the page; the rest of the book still renders
-  return Promise.allSettled(files.map((f) => loadScript(new URL(f, dir)))).then((rs) => rs.filter((r) => r.status === "rejected").map((r) => r.reason.message));
-};
-// TRY books: the vocabulary lists (data/<book>/vocab/chNN.js) load on the first visit to a vocab page
-let vocabLoad = null;
-const needVocab = (h) => A === TRY_BOOK && /^vocab/.test(h) && !vocabLoad && (vocabLoad = loadData(chFiles("vocab/")));
+// the book's data files are already loading (boot.js, TRY.ready); TRY books: the vocabulary lists
+// (data/<book>/vocab/chNN.js) load on the first visit to a vocab page: needVocab → the pending load, or null once loaded
+let vocabLoad = null, vocabDone = false;
+const needVocab = (h) => (A !== TRY_BOOK || !/^vocab/.test(h) || vocabDone ? null
+  : (vocabLoad = vocabLoad || TRY.load(TRY.chapterFiles("vocab/")).then(() => (vocabDone = true))));
 
 // ---------- shell ----------
 function shellHtml() {
@@ -261,6 +249,8 @@ function wireEvents() {
 
 async function init() {
   if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
+  // a vocab page opened directly: its lists load alongside the book's data
+  needVocab(hashRoute());
   document.body.dataset.book = BOOK().id;
   // the page links (About, Guide, Index …) sit at the top of the sidebar instead of the top bar
   document.body.classList.add("nav-sb");
@@ -269,7 +259,7 @@ async function init() {
   TTS.load();
   applySettings();
   wireEvents();
-  const failed = await loadData();
+  const failed = await TRY.ready;
   A.sidebar();
   document.addEventListener("try:progress", A.updateProgress);
   route();

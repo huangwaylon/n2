@@ -21,7 +21,7 @@ Page references (p.19 …) are **N2 PDF page numbers**, which are also the print
 | C1–C17 | `assets/css/content.css` |
 | C18–C29 | `assets/css/exercises.css` |
 
-Both pages (`index.html` for N2, `n1/index.html` for N1) load `boot.js`, `data/<book>/book.js`, then `main.js`, which builds the same shell for either book and loads `data/<book>/chNN.js`, `compare.js` and `front.js` in parallel.
+Every page (`index.html` for N2, `n1/index.html` for N1, `q2/index.html`) loads `boot.js`, `data/<book>/book.js`, then `main.js`, which builds the same shell for either book. The data files (`data/<book>/chNN.js`, `compare.js`, `front.js`, `data/links.js`; Quartet: the list in its `book.js`) are requested by `boot.js` as soon as `book.js` registers the book, in parallel with the modules (`<link rel="modulepreload">` in each page lists them, so they are not fetched one import level at a time); `main.js` awaits `TRY.ready`. A vocab route opened directly also starts `vocab/chNN.js` at once. Load and route timings: `node tools/perf.mjs`.
 
 ---
 
@@ -559,7 +559,8 @@ All need the site served on `:8765` (`python3 -m http.server 8765`) and Node ≥
 | `node tools/lib/wkshot.mjs DEVICE ROUTE[,ROUTE…] [OUTDIR] [--pages=N] [--probe] [--en] [--nofuri] [--sel=CSS] [--dark]` | real iOS Safari (simulator, via safaridriver / `tools/lib/wd.mjs`) screenshots and furigana probe: Chrome emulation does not reproduce WebKit ruby and line-box behaviour |
 | `tools/simshot.sh DEVICE ROUTE [OUT]` | quick viewport screenshot in simulator Safari |
 | `tools/lib/furi-probe.mjs` | the in-page furigana probe shared by overflow.mjs and wkshot.mjs (off / hit / clip / uneven) |
-| `node tools/render-dump.mjs n1\|n2 [--html] > /tmp/x.txt` | dump the rendered text (or normalised markup) of every route; diff before and after a renderer or layout change to prove nothing was added, dropped or reordered |
+| `node tools/render-dump.mjs n1\|n2\|q2 [--html] > /tmp/x.txt` | dump the rendered text (or normalised markup) of every route; diff before and after a renderer or layout change to prove nothing was added, dropped or reordered |
+| `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [ROUTE…]` | cold-cache load of each route (requests, bytes, first paint, content, layout / script time, long tasks, DOM size, CPU in fitRubies and the other measuring passes) and chapter → chapter route changes |
 | `node tools/text-snapshot.js [n1\|n2] \| diff tools/<book>/text-baseline.txt -` | proves no book text changed in the data (layout-only fields ignored) |
 | `node tools/check.js [n1\|n2] [CHAPTER…]` | structural validation of `data/<book>/chNN.js` after data edits (layout hints included) |
 | `tools/zoom.sh [n1\|n2] PAGE [STRIP]` | 300-dpi strips of a book page, for reading the scan's layout and small furigana |

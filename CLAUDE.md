@@ -37,9 +37,10 @@ for the whole page where Read can't open PDFs — zoom.sh falls back to PDFKit w
 ## Layout
 
 ```
-index.html, n1/index.html   minimal pages: CSS, assets/js/boot.js, data/<book>/book.js, module assets/js/main.js
+index.html, n1/index.html   minimal pages: CSS, assets/js/boot.js, data/<book>/book.js, module assets/js/main.js (+ modulepreload of its modules)
 assets/js/
-  boot.js       classic script: TRY data registry (registerBook/Chapter/Compare/Front) + theme before first paint
+  boot.js       classic script: TRY data registry (registerBook/Chapter/Compare/Front) + theme before first paint; registerBook
+                starts loading the book's data files (TRY.load, TRY.ready) while the modules are still downloading
   core.js       book meta, settings/progress (localStorage "n2.*"), DOM helpers, ACT click registry, TTS
   ruby.js       furigana: {漢字|かな} → <ruby>, overhang margins (rubyHtml) and measured correction (fitRubies)
   markup.js     fmt() inline markup, plain(), bilingual helpers (bi, biInner, en, enSrc), pills, buttons, marks
@@ -48,7 +49,7 @@ assets/js/
   pages.js      home, guide, about (front matter), index, compare, can-do list, drill
   vocab.js      単語: vocabulary list per chapter (data/<book>/vocab/chNN.js, loaded on the first vocab route) and its drill
   flash.js      flashcard deck shared by the vocab drills (TRY 単語, Quartet 覚える単語・漢字)
-  main.js       loads chapter data, builds the shell (topbar/sidebar/footer), router, settings, events
+  main.js       awaits the book's data (TRY.ready), builds the shell (topbar/sidebar/footer), router, settings, events
 assets/css/     base.css (tokens, light + dark theme, English layer, primitives) · shell.css · content.css · exercises.css
 data/<book>/    book.js (meta) · chNN.js (one file per chapter) · compare.js · front.js · vocab/chNN.js (our word lists)
 data/links.js   the same grammar across the three books (他の本 Other books under each point / Quartet note)
@@ -82,7 +83,7 @@ node tools/links.js                               # cross-book links (data/links
 
 - `text-snapshot` dumps the Japanese and the book's English. Any diff must be an intended, verified fix; then
   regenerate the baseline (`node tools/text-snapshot.js n2 > tools/n2/text-baseline.txt`).
-- Renderer refactors: `node tools/render-dump.mjs n2 --html > /tmp/before.html` before and after, then diff
+- Renderer refactors: `node tools/render-dump.mjs n2 --html > /tmp/before.html` (n2, n1, q2) before and after, then diff
   (server on :8765). Without `--html` it dumps rendered text.
 
 Layout tools (Node ≥ 22, Google Chrome, server on :8765; prefix N1 routes with `n1:`):
@@ -92,6 +93,7 @@ node tools/shot.mjs ch/1 390 2400 /tmp/a.png [light|dark] [--full] [--en] [--tou
 node tools/overflow.mjs ch/1 375 [--en] [--touch] [--furi]   # sideways overflow, clipping, small tap targets, furigana
 node tools/lib/wkshot.mjs "iPhone 17e" n1:ch/3 /tmp/wk --probe   # real iOS Safari (simulator) + furigana probe
 tools/simshot.sh "iPad mini (A17 Pro)" ch/2                     # simulator screenshot via simctl
+node tools/perf.mjs [--cpu=4] [--net=150,10000] [ROUTE …]        # load / route-change timings, requests, DOM size, layout code
 ```
 
 ## Screens and furigana

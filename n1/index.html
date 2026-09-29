@@ -16,6 +16,15 @@
 <script src="../assets/js/boot.js"></script>
 <script src="../data/n1/book.js"></script>
 <script type="module" src="../assets/js/main.js"></script>
+<!-- the modules main.js loads, fetched in parallel with it instead of one import level after another -->
+<link rel="modulepreload" href="../assets/js/core.js">
+<link rel="modulepreload" href="../assets/js/markup.js">
+<link rel="modulepreload" href="../assets/js/ruby.js">
+<link rel="modulepreload" href="../assets/js/content.js">
+<link rel="modulepreload" href="../assets/js/exercises.js">
+<link rel="modulepreload" href="../assets/js/pages.js">
+<link rel="modulepreload" href="../assets/js/vocab.js">
+<link rel="modulepreload" href="../assets/js/flash.js">
 </head>
 <body></body>
 </html>

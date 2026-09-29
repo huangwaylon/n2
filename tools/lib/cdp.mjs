@@ -58,5 +58,5 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
     const exited = new Promise(r => ch.once("exit", r)); ch.kill(); await Promise.race([exited, sleep(3000)]);
     try { rmSync(prof, { recursive: true, force: true, maxRetries: 5, retryDelay: 200 }); } catch (e) {}
   };
-  return { send, evaluate, logs, close };
+  return { send, evaluate, logs, close, ws };
 }

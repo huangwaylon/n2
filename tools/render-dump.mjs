@@ -3,13 +3,16 @@
 // a renderer or layout change did not add, drop or reorder anything: dump before and after the change, then diff.
 //   --text (default): the text, one line per block, readings as base《reading》
 //   --html: the markup, with the layout-dependent attributes (ruby margins, option columns, scroller heights) removed
-// usage: node tools/render-dump.mjs n1|n2 [--html] > /tmp/after.txt      (server on :8765, or N2_BASE=…)
+// usage: node tools/render-dump.mjs n1|n2|q2 [--html] > /tmp/after.txt      (server on :8765, or N2_BASE=…)
 import { open, sleep } from "./lib/cdp.mjs";
 
 const html = process.argv.includes("--html");
 const [book = "n2"] = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const pg = await open({ route: book === "n2" ? "" : `${book}:`, width: 1280, height: 900, wait: 3000 });
-const routes = await pg.evaluate(`["", "guide", "about", "index", "compare", "cando"].concat(TRY.chapters.map((c) => "ch/" + c.id))`);
+// Quartet II: home, the pages, every lesson opener, section and list, every ブラッシュアップ unit
+const routes = await pg.evaluate(book === "q2"
+  ? `["", "guide", "about", "index", "kanji"].concat(TRY.lessons.flatMap((l) => ["l/" + l.id, ...l.sections.map((s) => "l/" + l.id + "/" + s.skill), "l/" + l.id + "/vocab", "l/" + l.id + "/kanji"]), TRY.units.map((u) => "u/" + u.id))`
+  : `["", "guide", "about", "index", "compare", "cando"].concat(TRY.chapters.map((c) => "ch/" + c.id))`);
 const TEXT = `(() => {
   const m = document.querySelector("#main").cloneNode(true);
   m.querySelectorAll("rt").forEach((e) => e.replaceWith("《" + e.textContent + "》"));
@@ -39,7 +42,7 @@ const HTML = `(() => {
 })()`;
 for (const r of routes) {
   await pg.evaluate(`location.hash = "#/${r}"`);
-  await sleep(r.startsWith("ch/") ? 700 : 300);
+  await sleep(/^(ch|l|u)\//.test(r) ? 700 : 300);
   console.log("=== " + (r || "home"));
   console.log(await pg.evaluate(html ? HTML : TEXT));
 }
