@@ -8,7 +8,9 @@ Page map and conventions: `docs/Q1-TRANSCRIPTION.md`. Remove this file when ever
 - [x] Cross-book links: 76 groups / 182 links, 10 `see:` contrasts, N1 #23 xref cue (b63be1b, 9dd57d0)
 - [x] English QA: Q2 vocab 07/08/11/12, N2/N1 vocab sample, UI text, exercise/script/まとめ sample, deep-dive sample
 - [ ] Layout sweep all routes × 320/390/820/1024/1280/1440, light/dark, iOS simulator (agent running)
-- [ ] Performance: measure + optimize load/route changes (agent running; first commit cb7d400)
+- [x] Performance (cb7d400, ea22bb0): data loads from boot.js in parallel with modules, modulepreload, Quartet line-number
+      refit only for changed readings; FCP −30–50 %. Open: lazy-load Quartet vocab/kanji/challenge files; chunked
+      render of the all-words vocab page (7 600 nodes)
 
 ## 1. Setup
 
