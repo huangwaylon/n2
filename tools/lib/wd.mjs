@@ -27,7 +27,7 @@ export async function ensureDriver() {
 
 export const routeUrl = (route) => {
   if (/^https?:/.test(route)) return route;
-  const bm = /^(n\d|q2):(.*)$/.exec(route);
+  const bm = /^(n\d|q\d):(.*)$/.exec(route);
   const q = `?t=${Date.now()}`;
   return bm && bm[1] !== "n2" ? `${BASE}${bm[1]}/${q}#/${bm[2]}` : `${BASE}${q}#/${bm ? bm[2] : route}`;
 };

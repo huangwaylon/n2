@@ -1,10 +1,11 @@
-// Assembles data/q2/lNN.js from the chunk fragments written by transcription agents (/tmp/q2parts/lNN-*.json, see
-// docs/Q2-TRANSCRIPTION.md "Team workflow"). Fragments are merged in file-name order; each is
+// Assembles data/<q1|q2>/lNN.js from the chunk fragments written by transcription agents (/tmp/<q1|q2>parts/lNN-*.json,
+// or $QPARTS; see docs/Q2-TRANSCRIPTION.md "Team workflow"). Fragments are merged in file-name order; each is
 //   { "part": "read" | "write" | "speak" | "listen", "blocks": [ … ] }
 // and the first chunk also carries "pages", "opener" and "sections" ([{ skill, title, page }], the four section titles).
-// usage: node tools/q2/merge-lesson.js 7        (writes data/q2/l07.js; missing chunks are listed, the rest merged)
+// usage: node tools/q2/merge-lesson.js [q1|q2] 7        (default q2; writes data/q2/l07.js; missing chunks are listed, the rest merged)
 const fs = require("fs"), path = require("path");
-const L = +process.argv[2], LL = String(L).padStart(2, "0"), dir = process.env.Q2PARTS || "/tmp/q2parts";
+const [B, [arg]] = require("./lib").bookArg(process.argv.slice(2));
+const L = +arg, LL = String(L).padStart(2, "0"), dir = B.parts;
 const frags = fs.readdirSync(dir).filter((f) => new RegExp(`^l${LL}-.*\\.json$`).test(f)).sort()
   .map((f) => ({ f, d: JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) }));
 const head = frags.find((x) => x.d.sections);
@@ -23,8 +24,8 @@ for (const { f, d } of frags) {
   }
   sec.blocks.push(...(d.blocks || []));
 }
-const out = `// Quartet II 第${L}課 (book pp.${lesson.pages ? lesson.pages.join("–") : "?"}; answers/scripts pp.238–245). data/Q2-SCHEMA.md.\n` +
+const out = `// ${B.name} 第${L}課 (book pp.${lesson.pages ? lesson.pages.join("–") : "?"}; answers/scripts ${B.scripts}). data/Q2-SCHEMA.md.\n` +
   `// Assembled by tools/q2/merge-lesson.js from the transcription chunks; edit this file directly from now on.\n` +
   `TRY.registerLesson(${JSON.stringify(lesson, null, 1)});\n`;
-fs.writeFileSync(path.resolve(__dirname, `../../data/q2/l${LL}.js`), out);
+fs.writeFileSync(path.join(B.dir, `l${LL}.js`), out);
 console.log(`l${LL}.js ← ${frags.map((x) => x.f).join(" ")}`);

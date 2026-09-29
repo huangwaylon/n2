@@ -1,13 +1,13 @@
 // Guard for layout work: proves that no book text changed.
 // Dumps every Japanese string (sample text, points, exercises, reviews, compare, front matter) in order,
 // ignoring our own English, deepDive, why, and any layout-only fields.
-//   node tools/text-snapshot.js [n1|n2|q2] > /tmp/before.txt      (before editing; default n2)
-//   node tools/text-snapshot.js [n1|n2|q2] | diff tools/<book>/text-baseline.txt -   (after — must print nothing)
+//   node tools/text-snapshot.js [n1|n2|q1|q2] > /tmp/before.txt      (before editing; default n2)
+//   node tools/text-snapshot.js [n1|n2|q1|q2] | diff tools/<book>/text-baseline.txt -   (after — must print nothing)
 // Paragraph re-grouping is allowed: sample lines are compared as one concatenated string per sample.
-// Quartet II (q2): every book string (Japanese and the book's English, not `tr`) with its path, via tools/q2/lib.js.
-if (process.argv[2] === "q2") {
-  const q = require("./q2/lib");
-  const T = q.load(q.allFiles()), out = [];
+// Quartet (q1, q2): every book string (Japanese and the book's English, not `tr`) with its path, via tools/q2/lib.js.
+if (/^q\d$/.test(process.argv[2])) {
+  const q = require("./q2/lib"), B = q.BOOKS[process.argv[2]];
+  const T = q.load(q.allFiles(B), B), out = [];
   const dump = (o, p) => q.walkBook(o, (s, path) => out.push(path + "\t" + s), p);
   T.lessons.forEach((l) => dump(l, "l" + l.id));
   T.vocab.forEach((v) => dump(v, "vocab" + v.lesson));

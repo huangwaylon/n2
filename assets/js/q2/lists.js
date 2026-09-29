@@ -1,5 +1,6 @@
-// Quartet II lists: 単語リスト / 覚える単語と例文 (vocabNN.js), 漢字リスト (kanjiNN.js), the generated indexes
-// (文型・表現さくいん, 単語さくいん — the book's pp.246–259 list the same entries) and the vocab / kanji drill.
+// Quartet lists (both books): 単語リスト / 覚える単語と例文 (vocabNN.js), 漢字リスト (kanjiNN.js), the generated indexes
+// (文型・表現さくいん, 単語さくいん — the book's own indexes list the same entries: Q1 pp.249–258, Q2 pp.246–259) and the
+// vocab / kanji drill.
 import { ACT, TRY, $$, esc } from "../core.js";
 import { flashcards, redraw } from "../flash.js";
 import { en, enScopeBtn, enToggle, fmt, plain, speakBtn } from "../markup.js";

@@ -119,7 +119,7 @@ export const gpLink = (no) => {
   const f = findPoint(no);
   return f ? `<a class="gp-link" href="#/gp/${no}">${no} ${fmt(f.g.pattern)}</a>` : `<span class="gp-link">${no}</span>`;
 };
-// 他の本: the same grammar in the other books (data/links.js). key: "n2:12" (a point, with its Plus boxes) or "q2:7-3"
+// 他の本: the same grammar in the other books (data/links.js). key: "n2:12" (a point, with its Plus boxes) or "q2:7-3", "q1:1-3"
 // (a Quartet note); an id is "book:no pattern", no = point number, N+ for its Plus, lesson-note for Quartet
 const linkId = (id) => { const [, b, no, pat] = id.match(/^(\w+):(\S+?)\+? (.+)$/); return { b, no, pat }; };
 export const otherBooksHtml = (key) => {
@@ -127,8 +127,8 @@ export const otherBooksHtml = (key) => {
   const groups = (TRY.links || []).filter((g) => g.ids.some((id) => { const x = linkId(id); return x.b === kb && x.no === kno; }));
   if (!groups.length) return "";
   const links = groups.flatMap((g) => g.ids.map(linkId).filter((x) => x.b !== kb)).map((x) => {
-    const o = BOOKS.find((b) => b.id === x.b), route = x.b === "q2" ? `gn/${x.no}` : `gp/${x.no}`;
-    return `<a class="gp-link" href="${new URL(o.dir, SITE).pathname}#/${route}">${o.label} ${x.b === "q2" ? "L" : ""}${esc(x.no)} ${fmt(x.pat)}</a>`;
+    const o = BOOKS.find((b) => b.id === x.b), q = /^q/.test(x.b), route = q ? `gn/${x.no}` : `gp/${x.no}`; // q1, q2: Quartet
+    return `<a class="gp-link" href="${new URL(o.dir, SITE).pathname}#/${route}">${o.label} ${q ? "L" : ""}${esc(x.no)} ${fmt(x.pat)}</a>`;
   }).join("");
   const notes = groups.map((g) => en(g.en, "gen", "p", "gp-rel__en")).join("");
   return `<div class="gp-rel gp-rel--x"><span class="gp-rel__l">他の本 <span class="en-inline">Other books</span></span>${links}${notes}</div>`;

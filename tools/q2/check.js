@@ -1,11 +1,12 @@
-// Structural validator for Quartet II data (data/Q2-SCHEMA.md): block types and required fields, answers in range,
+// Structural validator for Quartet data (q1, q2; data/Q2-SCHEMA.md): block types and required fields, answers in range,
 // well-formed markup, our English (tr) present where required, no Chinese.
-// usage: node tools/q2/check.js [data/q2/l07.js …]      (default: every file of data/q2/book.js)
+// usage: node tools/q2/check.js [q1|q2] [data/q2/l07.js …]      (default q2, every file of data/<book>/book.js)
 const path = require("path");
-const { load, allFiles } = require("./lib");
-const files = process.argv.slice(2).map((f) => path.resolve(f));
-const list = files.length ? files : allFiles();
-const TRY = load(list);
+const { load, allFiles, bookArg } = require("./lib");
+const [B, args] = bookArg(process.argv.slice(2));
+const files = args.map((f) => path.resolve(f));
+const list = files.length ? files : allFiles(B);
+const TRY = load(list, B);
 const errs = [];
 const E = (w, m) => errs.push(`${w}: ${m}`);
 

@@ -1,9 +1,12 @@
-/* q2.css — Quartet II (loaded only by q2/index.html): the book's cyan design on top of base / shell / content /
-   exercises. Blocks: assets/js/q2/blocks.js; data/Q2-SCHEMA.md. Breakpoints as elsewhere: ≥901 desktop · ≤900 drawer ·
+/* q2.css — Quartet I and II (loaded only by q1/index.html and q2/index.html): the books' design on top of base / shell /
+   content / exercises, in Quartet II's cyan or Quartet I's pink (body[data-book], set by main.js). Blocks: assets/js/q2/blocks.js; data/Q2-SCHEMA.md. Breakpoints as elsewhere: ≥901 desktop · ≤900 drawer ·
    ≤600 phone · ≤390 small phone. Tokens only (light + dark). */
 :root { --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; }
 :root[data-theme="dark"] { --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; }
-body[data-book="q2"] strong { color: inherit; }
+/* Quartet I: the book's magenta (#e8186a on the scan, PDF 10, 30) */
+body[data-book="q1"] { --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
+:root[data-theme="dark"] body[data-book="q1"] { --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
+body[data-book] strong { color: inherit; }
 /* Quartet prints its furigana under the kanji (left of the column in 縦書き), below any underline (pp.009, 068, 082) */
 ruby { -webkit-ruby-position: after; ruby-position: under; }
 .q2 .ja-book, .q2 .rd-body { font-family: var(--mincho); }
@@ -48,7 +51,8 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .q-card .cc-body { display: grid; gap: 2px; }
 .q-card__s { display: flex; gap: 6px; align-items: center; font-size: 14px; line-height: 1.5; }
 .q-card__s .sk-ic { color: var(--q); }
-body[data-book="q2"] .cc-num { background: var(--q); color: var(--panel); }
+body[data-book] .cc-num { background: var(--q); color: var(--panel); }
+.q-card--na { opacity: .7; } /* home: a lesson not transcribed yet */
 
 /* ---------- section banner + tabs ---------- */
 .sk-banner { display: flex; align-items: center; gap: 16px; background: repeating-linear-gradient(-45deg, var(--q-soft) 0 6px, var(--q-hatch) 6px 8px); border-radius: 0 0 22px 0; padding: 14px 18px; margin: -8px 0 12px; }

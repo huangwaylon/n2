@@ -1,4 +1,5 @@
-// Quartet II adapter for main.js (book kind "quartet"): page links, sidebar, routes and the views.
+// Quartet adapter for main.js (book kind "quartet": Quartet I q1 and Quartet II q2 — the assets/js/q2/ modules and
+// q2.css serve both; per-book names come from data/<book>/book.js): page links, sidebar, routes and the views.
 // Routes: "" home · l/7 lesson opener · l/7/read|write|speak|listen · gn/7-12 → note 12 of lesson 7 · st/11 strategy ·
 // l/7/vocab · l/7/kanji · u/c1 (上級へのチャレンジ ①) · u/k13 (漢字チャレンジ ⑬) · about · guide · index · kanji · drill
 import { ACT, BOOK, TRY, $, esc, progress } from "../core.js";
@@ -10,6 +11,8 @@ const SK = ["read", "write", "speak", "listen"];
 const lessonOf = (id) => TRY.lessons.find((l) => l.id === +id);
 const secOf = (l, s) => l && l.sections.find((x) => x.skill === s);
 const unitOf = (id) => TRY.units.find((u) => u.id === id);
+// the ブラッシュアップ unit kinds in book order (book.js unitKinds): Q1 初級文法チェック, Q2 上級へのチャレンジ; both 漢字チャレンジ
+const unitName = (u) => (BOOK().unitKinds.find(([k]) => k === u.kind) || [u.kind, u.kind])[1];
 const pageHead = (h1) => `<div class="page-head"><h1>${h1}</h1>${enScopeBtn()}</div>`;
 
 // every grammar note / strategy with its lesson (note numbers restart in each lesson; strategies are book-wide)
@@ -36,7 +39,7 @@ function sidebar() {
   const units = (kind, label) => TRY.units.filter((u) => u.kind === kind).map((u) => `<li><a href="#/u/${u.id}"><span class="sb-gpn">${circ(u.no)}</span><span class="sb-gpt">${esc(plain(u.title))}</span></a></li>`).join("");
   $("#sb-nav").innerHTML = `<ul class="sb-list">${items}
     ${TRY.units.length ? `<li class="sb-ch sb-bu" data-ch="u"><a href="#/u/${TRY.units[0].id}" class="sb-ch-link"><span class="sb-num">＋</span><span class="sb-t">ブラッシュアップ</span></a>
-      <ul class="sb-gps"><li class="sb-sub">上級へのチャレンジ</li>${units("challenge")}<li class="sb-sub">漢字チャレンジ</li>${units("kanji")}</ul></li>` : ""}</ul>`;
+      <ul class="sb-gps">${BOOK().unitKinds.map(([k, name]) => `<li class="sb-sub">${name}</li>${units(k)}`).join("")}</ul></li>` : ""}</ul>`;
   updateProgress();
 }
 function updateProgress() {
@@ -57,7 +60,7 @@ function target(h) {
   if (p0 === "u") return { ch: "u" };
   return {};
 }
-// strategies are numbered book-wide (⑪–⑳)
+// strategies are numbered book-wide (Q1 ①–⑩, Q2 ⑪–⑳)
 function strategyAt(no) {
   for (const l of TRY.lessons) { const hit = findIn(l, (b) => b.t === "strategy" && b.no === no); if (hit) return { l, sec: hit.sec }; }
   return null;
@@ -82,7 +85,7 @@ function viewHtml(h) {
 }
 function docTitle(main) {
   const l = main.dataset.ch && lessonOf(main.dataset.ch);
-  return (l ? `第${l.id}課 – ` : "") + "Quartet II 中級日本語 Interactive";
+  return (l ? `第${l.id}課 – ` : "") + `${BOOK().shortTitle} 中級日本語 Interactive`;
 }
 const layout = (root, all) => { placeLineNos(root, !!all); wireTracks(root); };
 
@@ -94,14 +97,20 @@ export const QUARTET = {
 // ---------- views ----------
 function homeView() {
   const B = BOOK();
-  const cards = TRY.lessons.map((l) => `<a class="ch-card q-card" href="#/l/${l.id}"><div class="cc-num">${l.id}</div><div class="cc-body">
-      ${l.sections.map((s) => `<div class="q-card__s">${skillIcon(s.skill)}<span>${fmt(s.title.ja || s.title)}</span></div>`).join("")}</div></a>`).join("");
+  // a lesson whose file is not there yet: its section titles from book.js toc, not linked
+  const cards = B.lessons.map((id) => {
+    const l = lessonOf(id), secs = l ? l.sections.map((s) => [s.skill, s.title.ja || s.title]) : ((B.toc || {})[id] || []).map((t, i) => [SK[i], t]);
+    const body = secs.map(([sk, t]) => `<div class="q-card__s">${skillIcon(sk)}<span>${fmt(t)}</span></div>`).join("") + (l ? "" : `<div class="q-card__s dim">準備中 <span class="en-inline">not transcribed yet</span></div>`);
+    return l ? `<a class="ch-card q-card" href="#/l/${id}"><div class="cc-num">${id}</div><div class="cc-body">${body}</div></a>`
+      : `<div class="ch-card q-card q-card--na"><div class="cc-num">${id}</div><div class="cc-body">${body}</div></div>`;
+  }).join("");
+  const first = TRY.lessons.length ? TRY.lessons[0].id : B.lessons[0], last = B.lessons[B.lessons.length - 1];
   return `<div class="home">
     <section class="hero">
-      <h1>中級日本語カルテット II <span class="hero-sub">Quartet II — Interactive Edition</span></h1>
-      <p class="lead">An interactive edition of <em>${esc(B.bookTitle)}</em> / <em>${esc(B.bookTitleEn)}</em> (${esc(B.credit)}): lessons 7–12 with every reading, grammar note, reading strategy, model composition, conversation and listening task, the vocabulary and kanji lists, and the brush-up section.</p>
+      <h1>${esc(B.titleJa)} <span class="hero-sub">${esc(B.shortTitle)} — Interactive Edition</span></h1>
+      <p class="lead">An interactive edition of <em>${esc(B.bookTitle)}</em> / <em>${esc(B.bookTitleEn)}</em> (${esc(B.credit)}): lessons ${B.lessons[0]}–${last} with every reading, grammar note, reading strategy, model composition, conversation and listening task, the vocabulary and kanji lists, and the brush-up section.</p>
       ${line({ ja: "{英語|えいご}のうち、{本|ほん}に{印刷|いんさつ}されているものは{灰色|はいいろ}、このサイトで{作成|さくせい}した{訳|やく}と{説明|せつめい}には「generated」と{表示|ひょうじ}されています。{音声|おんせい}はブラウザの{音声合成|おんせいごうせい}です。", tr: "English printed in the book is shown in grey. Translations the book doesn't print were generated for this site and are tagged “generated”. Audio is your browser's speech synthesis, not the book's recordings." }, "hero-bi")}
-      <div class="hero-links"><a class="btn primary" href="#/l/${TRY.lessons.length ? TRY.lessons[0].id : 7}">第${TRY.lessons.length ? TRY.lessons[0].id : 7}課から始める <span class="en-inline">Start</span></a><a class="btn" href="#/guide">使い方 <span class="en-inline">How to use</span></a><a class="btn" href="#/drill">単語・漢字の練習 <span class="en-inline">Vocab &amp; kanji drill</span></a></div>
+      <div class="hero-links"><a class="btn primary" href="#/l/${first}">第${first}課から始める <span class="en-inline">Start</span></a><a class="btn" href="#/guide">使い方 <span class="en-inline">How to use</span></a><a class="btn" href="#/drill">単語・漢字の練習 <span class="en-inline">Vocab &amp; kanji drill</span></a></div>
     </section>
     <section class="ch-grid">${cards}</section>
   </div>`;
@@ -116,7 +125,7 @@ function openerView(l) {
     <header class="op-banner"><span class="op-dai">第</span><span class="op-n">${l.id}</span><span class="op-ka">課</span><span class="op-tools">${enScopeBtn()}</span></header>
     ${groups}
     <nav class="op-more"><a class="btn" href="#/l/${l.id}/vocab">単語リスト <span class="en-inline">Vocabulary</span></a><a class="btn" href="#/l/${l.id}/kanji">漢字リスト <span class="en-inline">Kanji</span></a>
-      ${units.map((u) => `<a class="btn" href="#/u/${u.id}">${u.kind === "kanji" ? "漢字チャレンジ" : "上級へのチャレンジ"} ${circ(u.no)}</a>`).join("")}</nav>
+      ${units.map((u) => `<a class="btn" href="#/u/${u.id}">${unitName(u)} ${circ(u.no)}</a>`).join("")}</nav>
     ${pager(l, null)}</div>`;
 }
 
@@ -166,10 +175,10 @@ function unitView(id) {
   const u = unitOf(id);
   if (!u) return null;
   const list = TRY.units, i = list.indexOf(u);
-  const lab = (x) => `${x.kind === "kanji" ? "漢字チャレンジ" : "上級へのチャレンジ"} ${circ(x.no)} ${fmt(x.title)}`;
+  const lab = (x) => `${unitName(x)} ${circ(x.no)} ${fmt(x.title)}`;
   const a = (x, dir, cls) => (x ? `<a class="${cls}" href="#/u/${x.id}"><span class="pager__dir">${dir}</span><span class="pager__t">${lab(x)}</span></a>` : "<span></span>");
   return `<div class="lesson q2 unit">
-    <header class="unit-h"><span class="unit-h__tag">${u.kind === "kanji" ? "漢字チャレンジ" : "上級へのチャレンジ"} ${circ(u.no)}</span>
+    <header class="unit-h"><span class="unit-h__tag">${unitName(u)} ${circ(u.no)}</span>
       <h1 class="unit-h__t"><span class="ja">${fmt(u.title)}</span> ${u.en ? `<span class="strat__en">${fmt(u.en)}</span>` : ""}</h1>
       ${u.lesson ? `<a class="unit-h__l" href="#/l/${u.lesson}">☛ 第${u.lesson}課</a>` : ""}</header>
     <div class="sec-body" data-en-scope>${blocks(u.blocks, { id: `u-${u.id}` })}</div>
@@ -181,13 +190,13 @@ function aboutView() {
 }
 
 function guideView() {
-  const ui = (ja, e) => line({ ja, tr: e });
+  const ui = (ja, e) => line({ ja, tr: e }), [accJa, accEn] = BOOK().accent;
   return `<div class="page guide" data-en-scope>
     ${pageHead("この教材の使い方 <span class=\"en-inline\">How to use this site</span>")}
     ${ui("各課は「読む・書く・話す・聞く」の4つのセクションに分かれています。左のメニュー（スマートフォンでは☰）から選んでください。", "Each lesson has four sections — Reading, Writing, Speaking, Listening. Pick one from the menu on the left (☰ on phones).")}
     <h2>読む <span class="en-inline">Reading</span></h2>
     <ul class="legend">
-      <li>${ui("本文の行番号は本と同じです。青い下線と番号は「文型・表現ノート」の項目を表します。番号を押すと説明に移動します。", "Line numbers are the book's. A blue underline with a number marks a grammar note — tap the number to jump to it.")}</li>
+      <li>${ui(`本文の行番号は本と同じです。${accJa}下線と番号は「文型・表現ノート」の項目を表します。番号を押すと説明に移動します。`, `Line numbers are the book's. A ${accEn} underline with a number marks a grammar note — tap the number to jump to it.`)}</li>
       <li>${ui("縦書きの文章は、広い画面では縦書きで、スマートフォンでは横書きで表示されます（⚙で変更できます）。", "Vertical texts are shown vertically on wide screens and horizontally on phones (change it in ⚙).")}</li>
       <li>${ui("★の付いた文型は、話したり書いたりできるようにする項目です。★がない文型は、意味がわかれば十分です。", "Notes marked ★ are ones to learn to use in speaking and writing; notes without ★ only need to be understood.")}</li>
     </ul>

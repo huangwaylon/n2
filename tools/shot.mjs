@@ -4,7 +4,7 @@
 //
 // usage: node tools/shot.mjs ROUTE [WIDTH=1280] [HEIGHT=900] [OUT] [light|dark] [--full] [--en] [--wait=MS]
 //   ROUTE   hash route without "#/", e.g. ""  ch/1  ch/2/review  gp/12  compare   (quote "" for home);
-//           prefix "n1:" for the N1 book (n1:ch/5, "n1:" = N1 home)
+//           prefix "n1:" for the N1 book (n1:ch/5, "n1:" = N1 home), "q1:" / "q2:" for Quartet I / II (q1:l/1/read)
 //   WIDTH   390 = iPhone 14, 375 = iPhone SE/mini, 320 = smallest; < 700 turns on mobile emulation
 //   --full  capture the whole page height instead of just the viewport (from the current scroll position's top: 0)
 //   --en    turn the global English layer on (body.show-en) before capturing

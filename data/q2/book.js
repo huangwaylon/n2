@@ -8,6 +8,11 @@ TRY.registerBook({
   lessons: [7, 8, 9, 10, 11, 12],
   files: ["front.js", "challenge.js"].concat(["07", "08", "09", "10", "11", "12"].flatMap((n) => [`l${n}.js`, `vocab${n}.js`, `kanji${n}.js`])),
   bookLang: "en",
+  // names used by the Quartet renderer (assets/js/q2/): page title, hero, and the ブラッシュアップ unit kinds in book order
+  shortTitle: "Quartet II",
+  titleJa: "中級日本語カルテット II",
+  accent: ["青い", "blue"], // the colour of the book's grammar-note underlines (使い方)
+  unitKinds: [["challenge", "上級へのチャレンジ"], ["kanji", "漢字チャレンジ"]],
   bookTitle: "4技能でひろがる 中級日本語カルテット II",
   bookTitleEn: "Quartet II: Intermediate Japanese Across the Four Language Skills",
   credit: "The Japan Times Publishing, 2020",

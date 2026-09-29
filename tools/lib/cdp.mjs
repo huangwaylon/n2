@@ -48,8 +48,8 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
   await send("Runtime.enable"); await send("Log.enable"); await send("Page.enable");
   await send("Page.addScriptToEvaluateOnNewDocument", { source: `try { const s = JSON.parse(localStorage.getItem("n2.settings") || "{}");
     s.furigana = ${!!furigana}; localStorage.setItem("n2.settings", JSON.stringify(s)); } catch (e) {}` });
-  // "n1:ch/1" → the N1 book page (BASE + "n1/#/ch/1"), "q2:l/7/read" → Quartet II; plain routes are the N2 book at the root
-  const bm = /^(n\d|q2):(.*)$/.exec(route);
+  // "n1:ch/1" → the N1 book page (BASE + "n1/#/ch/1"), "q2:l/7/read" → Quartet II ("q1:" Quartet I); plain routes are the N2 book at the root
+  const bm = /^(n\d|q\d):(.*)$/.exec(route);
   await send("Page.navigate", { url: bm && bm[1] !== "n2" ? `${BASE}${bm[1]}/#/${bm[2]}` : BASE + "#/" + (bm ? bm[2] : route) });
   await sleep(wait);
   const evaluate = async expr => (await send("Runtime.evaluate", { expression: expr, returnByValue: true, awaitPromise: true })).result?.value;

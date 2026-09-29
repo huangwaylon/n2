@@ -7,13 +7,13 @@ export const TRY = window.TRY;
 const BOOK_DEFAULTS = { bookLang: "en", notesFirst: false };
 export const BOOK = () => Object.assign({}, BOOK_DEFAULTS, TRY.book);
 export const bookEnglish = () => BOOK().bookLang === "en";
-// the three books of the site: id, top-bar label, page directory under the site root
+// the books of the site: id, top-bar label, page directory under the site root
 export const SITE = new URL("../../", import.meta.url); // site root
 export const BOOKS = [{ id: "n2", label: "N2", dir: "", title: "TRY! N2 文法" }, { id: "n1", label: "N1", dir: "n1/", title: "TRY! N1 文法" },
-  { id: "q2", label: "Q2", dir: "q2/", title: "Quartet II 中級日本語カルテット" }];
+  { id: "q1", label: "Q1", dir: "q1/", title: "Quartet I 中級日本語カルテット" }, { id: "q2", label: "Q2", dir: "q2/", title: "Quartet II 中級日本語カルテット" }];
 
 // ---------- storage ----------
-// settings are shared by both books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1")
+// settings are shared by all books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1" / ".q1" / ".q2")
 const LS = {
   get(k, d) { try { const v = localStorage.getItem("n2." + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem("n2." + k, JSON.stringify(v)); } catch (e) {} },
