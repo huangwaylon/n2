@@ -22,7 +22,7 @@ TRY.registerLinks([
   { k: "としても", ids: ["n2:137 〜としても／〜としたって", "q2:9-3 〜たとしても", "n1:77 〜たところで"], en: "Xとしても is a hypothetical \"even if\"; N1's 〜たところで adds that doing it would be useless." },
   { k: "か〜ないか", ids: ["q2:9-6 V₁かV₁ないか", "n2:96 〜か〜ないかのうちに", "n1:30 〜が早いか", "n1:97 Vや{否|いな}や"], en: "VかVないか: \"on the borderline of V\"; かのうちに, and written が早いか, や否や: \"no sooner had ~ than.\"" },
   { k: "得る", ids: ["n2:66 〜{得|う}る／〜{得|え}る／〜{得|え}ない", "q2:9-10 〜{得|え}る／{得|え}ない"], en: "Same pattern: V-ます + 得る／得ない, \"can / cannot possibly.\"" },
-  { k: "もしない", ids: ["q2:9-11 〜もしない", "n1:104 Nだにしない"], en: "Both mean \"not even ~\"; N1's だにしない is literary and limited to set nouns (想像だにしない ≈ 想像もしない)." },
+  { k: "もしない", ids: ["q2:9-11 〜もしない", "n1:104 Nだにしない", "n1:25 〜すら"], en: "\"Not even ~\": もしない; literary だにしない with set nouns (想像だにしない); すら, a written さえ (名前すら知らない)." },
   { k: "一方で", ids: ["n2:61 〜{一方|いっぽう}（で）／その{一方|いっぽう}で", "q2:10-2 {一方|いっぽう}（で）", "n2:69 〜{反面|はんめん}／〜{半面|はんめん}"], en: "Two contrasting sides, \"on the other hand; while\"; 反面 contrasts two sides of the same thing (便利な反面)." },
   { k: "ながら", ids: ["n2:15 〜ながら（も）", "q2:10-6 〜ながら"], en: "Same pattern: concessive \"although,\" often with states such as 知っていながら." },
   { k: "つつ", ids: ["n2:30 〜つつ", "q2:10-9 〜つつ", "n2:112 〜つつも"], en: "つつ: formal ながら for two actions at once, often with thinking or feeling; つつも: \"although\" (悪いと知りつつも)." },
