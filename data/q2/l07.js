@@ -296,7 +296,7 @@ TRY.registerLesson({
       "Those nine months, packed with fun times and hard times, were the most intense of my life, and they greatly broadened my options and possibilities in life.",
       "On orientation day, nearly a hundred international students from all over the world had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
       "The following week, classes called the English Language Program began, designed to give us enough English to take regular undergraduate courses. I got multinational classmates from Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
-      "But my life as an international student, which had finally been getting on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or slapping you on the back every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
+      "But my life as an international student, which had finally been getting on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the back every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
       "Precisely because they were close friends, and precisely because our cultures were different, I wanted to tell them the truth and have them understand, so I worked up the courage and told them that it made me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
       "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If you don't follow through even though you made a yakusoku to hang out, that means you \"broke your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
@@ -364,13 +364,13 @@ TRY.registerLesson({
      "titleTr": "Thoughts of an International Student",
      "tr": [
       "\"Making friends in Japan is hard, isn't it!\" These are words that foreigners who have lived in Japan for a long time often say.",
-      "This remark, which comes out at the same time as a wry smile, reflects their dissatisfaction with international exchange and conveys the loneliness of foreign residents in Japan, and at the same time it expresses the \"cultural wall\" between them and Japanese people.",
-      "Interestingly, I hear these words most often not when I am giving foreigners advice, but right in the middle of lively social events. These events bring together dozens of Japanese and foreign people so that they can get to know one another through free mingling. At the events, the foreigners exchange contact information with Japanese people. They want to become friends from then on and share all kinds of hobbies.",
+      "This remark, which comes out along with a wry smile, reflects their dissatisfaction with international exchange and conveys the loneliness of foreign residents in Japan, and at the same time it shows the \"cultural wall\" between them and Japanese people.",
+      "Interestingly, I hear these words most often not when I am giving foreigners advice, but right in the middle of lively social events. These events bring together dozens of Japanese and foreign people so that they can get to know one another through free mingling. At the events, the foreigners exchange contact information with Japanese people. They want to go on being friends with them afterward and share all kinds of hobbies.",
       "Yet even though the foreigners throw themselves into \"collecting friends\" at the events, the grumbling \"I can't make friends\" never stops. The reason they can't make friends is not that they have few chances to meet people.",
       "The foreigners' failure lies, in the first place, in the gap between their eagerness and reality.",
       "They believe the only way to escape the \"foreigner community\" in Japan is to get in touch with as many Japanese people as they can. With that in mind, they talk passionately to lots of Japanese people about how much they want to make connections.",
       "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"advances\" and answer questions pleasantly. They eagerly play along with foreign jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
-      "\"I made an unusually good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are betrayed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
+      "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are betrayed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
       "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and sincerely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
      ]
     },
@@ -526,7 +526,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "{年賀状|ねんがじょう} (New Year's card) を送る習慣が日本から消え**つつある**のは残念だ。",
-         "tr": "It's a shame that the custom of sending New Year's cards is disappearing from Japan."
+         "tr": "It's a shame that the custom of sending New Year's cards is dying out in Japan."
         }
        ]
       },
@@ -575,7 +575,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜つつある** belongs to written, report-style Japanese: news, essays and speeches use it to present a trend as under way. Conversation says 〜てきている or 〜ていく instead: 最近、増えてきているね (*it's been increasing lately*).\n\n- With change verbs, 〜ている usually reports the result, while つつある keeps the change open: 消えている (*has disappeared*) vs. 消えつつある (*is disappearing, not gone yet*).\n- Passives are frequent: 見直されつつある (*is being reconsidered*), 失われつつある (*is being lost*).\n\nCompare **〜つつ** (L10-9), *while doing*, which joins two actions instead of describing a change: 音楽を聴きつつ歩く (*walk while listening to music*). TRY! N2 teaches the same 〜つつある next to 〜つつ and 〜つつも (*although*)."
     },
     {
      "t": "note",
@@ -660,7 +661,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜際（に）** is とき dressed up for notices, announcements, manuals and business email; in casual talk it sounds stiff. That is why it so often sits next to honorific or humble forms: お越しの際は (*when you visit*), ご利用の際には (*when using this*).\n\n- It points to a particular occasion or case, not a stretch of time: ✗子どもの際 → ✓子どものころ (*when I was a child*).\n- A noun before it is normally an action noun: 入学の際, 面接の際 (*at the interview*).\n- その際 refers back to an occasion just mentioned: *at that time, when you do so*.\n\nTRY! N2 has the same 〜際（に） and the weightier **〜に際して**, *on the occasion of*, reserved for significant events such as 入学 or 開店."
     },
     {
      "t": "note",
@@ -797,7 +799,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜てしょうがない** is conversational and a little emotional: the feeling is strong enough that the speaker can't keep it in check. A close synonym is **〜てたまらない**, which stresses a sensation or feeling that is hard to bear: 痛くてたまらない (*it hurts unbearably*).\n\n- It works best with words of feeling or sensation (うれしい, 心配だ, 眠い, 〜たい) and with spontaneous verbs such as 気になる: 気になってしょうがない (*I can't stop thinking about it*).\n- Do not confuse it with **〜てもしょうがない**, *there's no point in ~*: 今さら後悔してもしょうがない (*there's no point regretting it now*).\n\nReading 1 adds なる: 不快に感じてしょうがなくなりました, the discomfort built up until it became unbearable."
     },
     {
      "t": "note",
@@ -1008,7 +1011,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**こそ** singles out one item and implies a contrast with the rest: 今年こそ (*this year, unlike all the others*). It replaces は, が and を, but follows other particles: あなたにこそ読んでほしい (*you're the one I want to read it*).\n\n- **からこそ** turns a reason that looks like an obstacle into the source of the result: 大変だからこそおもしろい. Plain から only states a cause.\n- ので cannot take こそ: ✗大変なのでこそ.\n\nTRY! N2 adds two relatives. **〜ばこそ** is a literary からこそ: 親友であればこそ (*precisely because we're best friends*). **〜てこそ** means *only by ~ing*: 続けてこそ効果がある (*it only works if you keep at it*)."
     },
     {
      "t": "note",
@@ -1108,7 +1112,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**むしろ** corrects an expectation: the speaker grants that X is the obvious view or choice and puts forward Y as the better fit. English renders it as *actually*, *if anything* or *rather*, depending on the sentence.\n\n- It can open a clause after a denial: 迷惑じゃないよ。むしろうれしい (*it's no trouble; if anything, I'm glad*). Reading 1 has this shape: 仲が悪くなったわけでもなく、むしろ….\n- It compares or evaluates; it does not report a result that went against what someone was trying to do.\n\nThat last point separates it from **かえって** (L8-7): 掃除してあげたらかえって怒られた (*I cleaned for my roommate and got yelled at instead*) cannot take むしろ."
     },
     {
      "t": "note",
@@ -1145,7 +1150,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "遠くて大変なの**にもかかわらず**、先生は私たちの結婚式に来てくださった。",
-         "tr": "Even though it was far and a lot of trouble, our teacher came to our wedding."
+         "tr": "Even though it was far and a lot of trouble, our teacher was kind enough to come to our wedding."
         },
         {
          "n": 4,
@@ -1218,7 +1223,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜にもかかわらず** is the formal, written counterpart of 〜のに, and it sounds more objective. のに can trail off with a complaint (来るって言ったのに……); にもかかわらず always needs its second half.\n\n- The second half is a fact, not a request or invitation: ✗雨にもかかわらず来てください → ✓雨でも来てください (*please come even if it rains*).\n- それにもかかわらず at the start of a sentence means *nevertheless*.\n\nDon't confuse it with **〜にかかわらず** (TRY! N2), *regardless of*: 年齢にかかわらず (*regardless of age*), a rule for every case rather than a surprising outcome. Close in meaning are **〜ながら** (L10-6) and **〜ものの** (L10-11), both *although*."
     },
     {
      "t": "note",
@@ -1405,7 +1411,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "The two uses limit different things. **Vるばかり** limits the direction of a change: things only move one way, usually for the worse. **Vて／N ばかり** limits what someone does or has, with a note of disapproval: 文句ばかり言っている (*all he does is complain*).\n\n- Vるばかり is close to **〜一方だ** (TRY! N2), which is more formal: 悪化する一方だ (*it keeps getting worse*).\n- For a neutral *only*, use だけ: 水だけ飲んだ states a fact; 水ばかり飲んでいる criticizes.\n\nKeep both apart from **Vたばかり**, *have just done*: the listening script's 日本に来たばかりで means *you've only just arrived in Japan*."
     },
     {
      "t": "note",
@@ -1483,7 +1490,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "The meaning depends on what comes before it. After an event verb or an action noun (着く, 開店) it means *the moment ~, as soon as ~*; after a description (便利である, 先生である) it adds a second quality or role, *while also*.\n\n- In the first use it is close to **〜たとたん（に）**, but とたん suggests surprise; と同時に is neutral and written.\n- In the second use the two halves often pull in different directions (厳しい / やさしい), like English *but at the same time*.\n- それと同時に at the start of a sentence, as in the listening script, means *at the same time, also*.\n\nRelated: **〜とともに** (L8-5), *together with; as*, and **一方（で）** (L10-2), *meanwhile, on the other hand*."
     },
     {
      "t": "note",
@@ -1567,7 +1575,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ことに** works like an English sentence adverb (*sadly*, *to my surprise*, *fortunately*): the speaker's evaluation comes first and the fact follows. It is slightly formal and common in essays and narration, as in reading 2's 興味深いことに.\n\n- The feeling is the speaker's: ✗彼はうれしいことに合格した for *he was happy to pass*; say 彼は合格して喜んでいる.\n- The main clause is a statement of fact, not a request, intention or question: ✗困ったことに、手伝ってください.\n- Verbs are in the past: 驚いたことに, not ✗驚くことに.\n\nKeep it apart from **〜ことにする** (*decide to*) and **〜ことになる** (*it has been decided that*), where こと carries no feeling. TRY! N2 teaches the same 〜ことに."
     },
     {
      "t": "note",
@@ -1672,7 +1681,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nにおいて** is the written counterpart of the particle で when で marks the setting of an event, an era or a field; **Nにおける** does the same job before a noun. Neither marks where something simply exists: ✗部屋において机がある → ✓部屋に机がある.\n\n- においては sets up a contrast (*as for ~*); においても adds *in ~ too*.\n- における must stand directly before its noun: 日本における外国人の数 (*the number of foreigners in Japan*).\n- In speeches the polite spoken form is **〜におきまして**.\n\nIn reading 2, 日本における「外国人コミュニティー」 treats the community as a phenomenon of Japanese society, a typical essay use. TRY! N2 teaches the same 〜において／〜における."
     },
     {
      "t": "note",
@@ -1703,7 +1713,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "ハワイは**まさに**天国のようなところらしい。",
-         "tr": "I hear Hawaii is truly a paradise."
+         "tr": "I hear Hawaii is truly like paradise."
         },
         {
          "n": 3,
@@ -1747,7 +1757,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**まさに** says that something fits a description exactly: *exactly, truly, the very*. It adds the speaker's conviction rather than a degree, so it goes with nouns and judgments (まさに天才だ, *a true genius*) rather than plain adjectives (✗まさに大きい).\n\n- まさに〜ようだ and まさに〜と言える are common frames.\n- **まさに〜ようとしている** is a separate time use, *just about to*: まさに出かけようとしていた (*I was just about to leave*).\n- **ちょうど** is the neutral, spoken *exactly*; **これこそ** (L7-4) singles out one item in the same spirit.\n\nIn reading 2, まさに…「オープンな日本人」だ is ironic: the Japanese look exactly like what the foreigners want, but only on the surface."
     }
    ]
   },
@@ -2475,7 +2486,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "相手との＿＿もあるってことはわかるし、\n絶対に＿＿っていうわけじゃないんだけど、\n昔から……抵抗があって。",
-            "tr": "I know there are also ＿＿ where people are close to others, and it's not that I absolutely ＿＿, but I've always... felt uncomfortable with it."
+            "tr": "I know there are also ＿＿ with others, and it's not that I absolutely ＿＿, but I've always... felt uneasy about it."
            },
            "answer": [
             "{距離|きょり}が近い文化",
@@ -2516,7 +2527,7 @@ TRY.registerLesson({
         {
          "mark": "△",
          "ja": "ハグは嫌いなんだ。",
-         "tr": "I hate hugs."
+         "tr": "I don't like hugs."
         },
         {
          "mark": "○",
@@ -2529,7 +2540,7 @@ TRY.registerLesson({
         },
         {
          "ja": "ハグには抵抗があっ__て……__。",
-         "tr": "I feel a bit uneasy about hugs..."
+         "tr": "I feel uneasy about hugs..."
         },
         {
          "ja": "ハグはちょっと……。",
@@ -2604,7 +2615,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "うん。❹相手との{距離|きょり}が近い文化もあるってことはわかるし、絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**昔からハグされたり、肩や{腕|うで}を組まれたりするのに抵抗があっ**て**……。ボディータッチが多い文化の人と友達になっても、やっぱりまだ慣れなく**て**……。",
-       "tr": "Yeah. I know there are cultures where people keep less distance from each other, and it's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
+       "tr": "Yeah. I know there are cultures where people stand close to each other, and it's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
       },
       {
        "sp": "サ",

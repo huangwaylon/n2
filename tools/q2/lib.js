@@ -14,7 +14,7 @@ const allFiles = () => {
   return globalThis.TRY.book.files.map((f) => path.join(dir, f)).filter((f) => fs.existsSync(f));
 };
 // keys whose strings are ours (generated English) or not text at all
-const OURS = new Set(["tr", "titleTr", "desc"]);
+const OURS = new Set(["tr", "titleTr", "desc", "deepDive"]);
 const META = new Set(["t", "style", "id", "icon", "audio", "v", "mark", "side", "kind", "skill", "sec", "k", "m", "hl", "page", "pages", "no", "n", "ln", "lesson", "star", "strokes", "numbers", "vertical", "from", "to", "answer", "cols", "colspan", "rowspan", "tag", "unit", "start", "min", "max", "nopage"]);
 // visit(str, path, key, parent) for every string that is book text
 function walkBook(o, visit, p = "", key = "", parent = null) {
