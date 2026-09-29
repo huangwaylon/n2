@@ -79,7 +79,7 @@ TRY.registerLesson({
      "icon": "read",
      "text": {
       "ja": "結婚・子育て、夢{描|えが}きにくく 〜朝日新聞社世論調査〜",
-      "tr": "Marriage and Child-Rearing: Harder to Dream Of (Asahi Shimbun Public Opinion Survey)"
+      "tr": "Marriage and Child-Rearing: Harder to Dream Of (Asahi Shimbun Opinion Poll)"
      }
     },
     {
@@ -241,7 +241,7 @@ TRY.registerLesson({
      "page": 100,
      "vertical": false,
      "numbers": true,
-     "titleTr": "Marriage and Child-Rearing: A Hard Future to Picture — Asahi Shimbun Opinion Poll",
+     "titleTr": "Marriage and Child-Rearing: Harder to Dream Of — Asahi Shimbun Opinion Poll",
      "lines": [
       "¶結婚したら子どもを持つ方がいい。でも子育てにはお金がかかるし、仕事と",
       "家庭の両立も大変──。朝日新聞社が実施した{郵送|ゆうそう}による世論調査と、未婚者",
@@ -1635,7 +1635,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "Figure 1 shows the results of asking people who live with a spouse how much time they spend on housework (excluding childcare) in a week.",
-        "Among men, those who spend less than 5 hours a week made up about 50%, and those who spend 0 hours were as many as 15%. Among women, 20 to under 30 hours was the most common, reaching about 30%. And while only 1% of men spend 30 hours or more, the figure for women rose to 34%.",
+        "Among men, those who spend less than 5 hours a week made up about 50%, and 15% spent no time at all. Among women, 20 to under 30 hours was the most common, reaching about 30%. And while only 1% of men spend 30 hours or more, among women the figure was as high as 34%.",
         "From this we can see that women spend considerably more time on housework than men.",
         "According to a survey broken down by whether or not women have a job, the average weekly time spent on housework is about 23 hours for working women and about 25 hours for women who do not work. Gender equality outside the home, such as women's advancement in society, has been progressing, but on the other hand, the division of housework remains the same as it used to be. Could it be that the current situation, in which women who work carry the same housework burden as women who do not, is one of the factors behind this trend?"
        ]
@@ -2008,7 +2008,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nにとどまる** reports a figure as low: the English *only* or *no more than* carries the speaker's judgment that it falls short of expectations or of a comparison figure. It belongs to news and survey reports; in conversation 〜しかいない or 〜だけだ is more usual.\n\n- The past にとどまった reports a finished survey; にとどまっている describes a current state (③).\n- Its opposites in this lesson are **Nに達する** (L10-3) and **Nにのぼる** (L10-8), which present a figure as large: 85%にのぼった vs. 32%にとどまった.\n- **〜にとどまらず** is a separate pattern, *not limited to*: 国内にとどまらず、海外でも人気がある (*popular not only in Japan but abroad too*)."
     },
     {
      "t": "note",
@@ -2115,7 +2116,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**一方（で）** lays two facts side by side without ranking them; the speaker observes rather than complains, which suits reports and essays. In conversation でも or 〜けど does the same job.\n\n- A noun takes である before it (大都市である一方, ⑤); a な-adjective takes な or である.\n- **〜反面** (TRY! N2) contrasts two opposite sides of *one* subject, usually a merit and a drawback. With two different subjects only 一方 works: 兄は背が高い一方、弟は低い (*my older brother is tall, while the younger one is short*).\n- Sentence-final **V一方だ** is unrelated: 物価は上がる一方だ (*prices just keep going up*).\n\nTRY! N2 teaches the same pattern as 〜一方（で）／その一方で."
     },
     {
      "t": "note",
@@ -2195,7 +2197,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nに達する** marks the moment a rising figure reaches a level, and treats that level as high. Its focus is the line itself: a goal, a limit, a milestone. So it pairs with とうとう／ついに (key sentence) and takes non-numeric levels: 合格点に達する (②), プロのレベルに達する (⑤).\n\n- **Nにのぼる** (L10-8) stresses the sheer size of a total, with no sense of a target: ✗合格点にのぼる.\n- **Nを超える** (L10-4) goes past the line.\n- The negative に達しない is *falls short of*: 基準に達しない (*does not meet the standard*).\n\nThe everyday equivalent is 〜になった; に達する is written and formal."
     },
     {
      "t": "note",
@@ -2267,7 +2270,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nを超える** is neutral about size: context alone shows whether the figure is good or bad news. Japanese counts the boundary strictly: 30度を超える is *above 30 degrees*, while 30度以上 includes 30 itself.\n\n- 〜を超えて + verb gives *beyond, more than*: 8時間を超えて働く (②).\n- It takes non-numbers too: 想像を超える (*beyond imagination*), 母の料理はレストランの味を超える (③).\n- The kanji 越える is used for physical crossing (山を越える *cross a mountain*); 超える for amounts, limits and standards.\n\nCompare **Nに達する** (L10-3), which stops at the line instead of passing it, and **Nにとどまる** (L10-1), which stays below it."
     },
     {
      "t": "note",
@@ -2339,7 +2343,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nを占める** gives a part's share of a whole, and the book notes it implies the share is large. The whole is usually named with 全体の or 〜のうち: 留学生全体の約60%を占めている.\n\n- The subject is the part; ③ fronts the object for emphasis: 生活費の半分を家賃が占めている (*rent takes up half of my living expenses*).\n- It works without numbers too: 大部分を占める (*make up the majority*), 上位を占める (*take the top places*).\n- For a small share, use **Nにとどまる** (L10-1).\n\nIn reports, 〜が最も多く、N%を占めた is a stock phrase for the largest category, as in Reading 1, line 28."
     },
     {
      "t": "note",
@@ -2452,7 +2457,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "Concessive **ながら** follows a state: 〜ている, ある／いる, である, or a small set of adjectives and nouns. With an action verb it means *while doing* (the ☛ box). The criticism the book mentions comes from the gap between the two halves: 知っていながら、何も言わなかった (*he knew, yet he said nothing*).\n\n- **ながらも** makes the concession unmistakable.\n- **〜のに** is the conversational choice and more openly emotional; **〜ものの** (L10-11) concedes a fact more calmly.\n- One subject for both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った.\n\nTRY! N2 teaches the same use as 〜ながら（も）; TRY! N1's **〜ながら（に）** (涙ながらに *in tears*, 生まれながらに *from birth*) is a different, literary sense."
     },
     {
      "t": "note",
@@ -2565,7 +2571,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nほど** is a compressed **〜ば〜ほど**: 忙しい人ほど means 忙しければ忙しいほど, *the busier someone is*. The scale lives in the modifier, so the noun must be described by something that varies in degree (駅に近い, よく本を読む); a bare noun fails, as the book's ✗ examples show.\n\n- It states a tendency, so sentences often end in 〜そうだ, 〜傾向がある or 〜って本当だね (②).\n- Different patterns: comparative **NほどY…ない**, *not as Y as N* (東京ほど寒くない *not as cold as Tokyo*), and 3日ほど, *about three days*.\n\nReading 1 uses it for survey data: 年収の低い層ほど「結婚しないと思う」率が高く (*the lower the income bracket, the higher the share who think they won't marry*)."
     },
     {
      "t": "note",
@@ -2591,7 +2598,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "ある調査によると、1日に1冊も本を読まない大学生は約5割**にのぼる**らしい。",
-         "tr": "According to one survey, a full 50 percent or so of college students don't read even a single book a day."
+         "tr": "According to one survey, as many as half of college students don't read even one book a day."
         },
         {
          "n": 2,
@@ -2627,7 +2634,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nにのぼる** (上る, *climb*) presents a total as strikingly large, typically a count of people, money or damage: 死者が250人にのぼった. It is the language of news; English uses *as many as*, *amount to*, *a full*.\n\n- Unlike **Nに達する** (L10-3), there is no target or limit being met, only magnitude, so it takes numbers, not levels: ✗プロのレベルにのぼる.\n- Before a noun: 2万人分にのぼる個人情報 (②), *personal data on as many as 20,000 people*.\n- The idiom 話題にのぼる, *come up in conversation*, is a different use.\n\nIts opposite in this lesson is **Nにとどまる** (L10-1)."
     },
     {
      "t": "note",
@@ -2659,7 +2667,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "大学院進学を{視野|しや}に入れ**つつ**、卒業論文のテーマを決めた。",
-         "tr": "I chose the topic of my graduation thesis while keeping graduate school in view."
+         "tr": "I chose the topic of my graduation thesis with an eye toward going on to graduate school."
         },
         {
          "n": 3,
@@ -2759,7 +2767,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜つつ** is written ながら, at home in news, essays and formal speech. The second clause is the main action; the つつ clause gives the frame of mind in which it is done, which is why verbs of thought and wishing (考え, 願い, 視野に入れ) are so common.\n\n- ます-stem only, and one subject for both actions.\n- Plain つつ can be concessive: 悪いと思いつつ、うそをついた (*I lied, though I knew it was wrong*); **つつも** makes that explicit.\n- **〜つつある** (L7-1), *is gradually ~ing*, describes one change, not two actions.\n\nTRY! N2 teaches 〜つつ together with its concessive partner 〜つつも."
     },
     {
      "t": "note",
@@ -2801,12 +2810,12 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I went back to a shop I used to go to often, for the first time in a long while, I found it closed, which was disappointing."
+         "tr": "When I went back to a shop I used to go to a lot, for the first time in ages, it turned out to be closed, which was disappointing."
         },
         {
          "n": 5,
          "ja": "新しい漢字学習アプリを{試|ため}してみ**たところ**、漢字の勉強が好きになった。",
-         "tr": "When I tried out a new kanji-learning app, I found I came to like studying kanji."
+         "tr": "When I tried out a new kanji-learning app, I came to enjoy studying kanji."
         }
        ]
       },
@@ -2888,7 +2897,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**V-たところ** reports what an action led to or revealed: *when I did X, (I found that) Y*. X is a deliberate action (聞いた, 調べた, 試してみた), and Y is an outcome the doer did not control, often a discovery; hence the frequent 〜てみたところ, *when I tried ~*.\n\n- **〜たら** is broader and conversational; it also covers sudden, surprising events (the ☛ box), which たところ, a measured report, does not.\n- Keep it apart from **V-たところだ**, *have just done*, and from **V-たところで** (TRY! N1), *even if ~, it's no use*: 今さら急いだところで間に合わない (*even if we hurry now, we won't make it*).\n\nIn survey writing, 〜に聞いたところ、N%が〜と答えた is a stock frame."
     },
     {
      "t": "note",
@@ -2968,7 +2978,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ものの** grants X as a fact, then says the expected result did not follow. The tone is regretful but measured: calmer than のに, more written than けど.\n\n- Y states a fact or a worry, never a request, invitation or intention: ✗難しいものの、やってみよう → ✓難しいけど、やってみよう.\n- With 〜てみる, は is often inserted: 買ってはみたものの (*I did buy it, but*).\n- **とはいうものの** opens a sentence: *that said*.\n- **〜ながら** (L10-6) concedes a state; ものの also concedes a completed action (入ったものの, ⑤).\n\nTRY! N2 teaches the same 〜ものの; TRY! N1's **〜とはいえ** is its more formal cousin."
     }
    ]
   },
@@ -3080,8 +3091,8 @@ TRY.registerLesson({
      "titleTr": "Men and Women Compared: The Annual Income They Want in a Marriage Partner",
      "tr": [
       "In December 2018, the Asahi Shimbun conducted an online survey of 1,032 unmarried people and asked them about \"the annual income they want in a marriage partner.\" Below, I will describe the results and analyze the trends.",
-      "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and the women who want a marriage partner with an annual income of 2 million yen or more reached 80% in total. This shows that women tend to care more about a marriage partner's income than men do.",
-      "Could the reason for this trend be that both men and women continue to hold the idea that the husband supports the household's income? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
+      "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and the women who want a marriage partner with an annual income of 2 million yen or more came to as much as 80% in total. This shows that women tend to care more about a marriage partner's income than men do.",
+      "Could the reason for this trend be that both men and women continue to hold the idea that it is the husband who supports the household financially? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
       "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think we need to change this image from now on."
      ],
      "roles": [
@@ -3454,7 +3465,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "結婚相手に……合計で80%**にのぼっている**。",
-               "tr": "The women who want a marriage partner … reached 80% in total."
+               "tr": "The women who want a marriage partner … came to as much as 80% in total."
               }
              ]
             }
@@ -3950,7 +3961,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "はい。❷{私|わたくし}は現在経済学研究科で日本とベトナムの関係について研究しておりますが、来年{博士課程|はくしかてい}に進学することになりました。進学にあたり、アルバイトをやめ、研究に集中したい**と思い、応募させていただきました。**",
-       "tr": "Yes. I'm currently researching relations between Japan and Vietnam at the Graduate School of Economics, and next year I'll be going on to the doctoral program. As I go on to the doctoral program, I'd like to quit my part-time job and concentrate on my research, so I applied."
+       "tr": "Yes. I'm currently researching relations between Japan and Vietnam at the Graduate School of Economics, and next year I will be going on to the doctoral program. With that step ahead of me, I would like to give up my part-time job and concentrate on my research, and so I applied."
       },
       {
        "sp": "面",
@@ -4101,7 +4112,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "はい。来年大学院に進学するにあたり、アルバイトをやめ、研究に集中したい**と思い、応募させていただきました。**",
-        "tr": "Yes. As I go on to graduate school next year, I'd like to quit my part-time job and concentrate on my research, so I applied."
+        "tr": "Yes. Since I'll be entering graduate school next year, I would like to give up my part-time job and concentrate on my research, and so I applied."
        }
       },
       {
@@ -4231,7 +4242,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "はい。❷{{来年進学するにあたり、アルバイトをやめ、研究に{集中|しゅうちゅう}したい}}**と思い、応募させていただきました。**",
-         "tr": "Yes. As I go on to the next stage of my studies next year, I'd like to quit my part-time job and concentrate on my research, so I applied."
+         "tr": "Yes. Since I'll be going on to the next stage of my studies next year, I would like to give up my part-time job and concentrate on my research, and so I applied."
         },
         {
          "sp": "面接官",
@@ -4785,7 +4796,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❶**みなさんは**よく学食を利用します**か。今日のトピックは「**学食**」です。**❷**お{手元|てもと}の{資料|しりょう}は、**{北東|ほくとう}大学の学生男女200人を対象に行った**調査の結果です。この調査結果を{基|もと}に、**学食**についての{提案|ていあん}をしたいと思います。**\n❸**まず、図1をご{覧|らん}ください。**「学食にほとんど行かない」と答えた人は全体で約5割**を占め、**女性では61%**にのぼっています。**女性の結果を詳しく見ると、週1回以上行く人は16%**にとどまっています。**❹**つまり、**日常的に食堂を利用する女性はかなり少ない**というわけです。**\n❺**では、**女性はどのような点を不満に感じている**のでしょうか。図2は、**学食への不満を複数回答で聞いた**結果を表したものです。**女性の場合「ヘルシーな食べ物が少ない」**という回答が最も多く**48%、**次に**「量が多い」**が**38%**と続きました。**❻**このことから、**メニューに「からあげセット」や「カツ{丼|どん}」などのカロリーの高い{揚|あ}げ{物|もの}や、量の多い丼ぶりものが多いことを不満に思っている**ことがわかります。**\n❼**そこで、**女性が利用しやすい学食を{目指|めざ}し、{野菜|やさい}を中心としたメニューや{単品|たんぴん}メニューを増やす**ことを提案したいと思います。**野菜はヘルシーなイメージがありますし、単品メニューはコンビニのおにぎりなどと一緒に食べることもできるので便利です。**また、**量が選べるように、普通、少なめ、{大盛|おおも}りなど、いくつかサイズを作ってみ**てはどうでしょうか。**\n❽**以上で、発表を終わります。ご質問やご意見をどうぞよろしくお願いします。**",
-       "tr": "Do you all use the cafeteria often? Today's topic is \"the cafeteria.\" The handout in front of you shows the results of a survey conducted among 200 male and female students at Hokuto University. Based on these survey results, I'd like to make a proposal about the cafeteria.\nFirst, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure reaches 61 percent. Looking at the women's results in more detail, the share who go once a week or more is only 16 percent. In other words, very few women use the cafeteria on a regular basis.\nSo what do women find unsatisfactory? Figure 2 shows the results of asking about complaints about the cafeteria, with multiple answers allowed. Among women, the most common answer was \"There aren't many healthy dishes,\" at 48 percent, followed by \"The portions are too big\" at 38 percent. From this we can see that they are dissatisfied that the menu has so many high-calorie fried dishes, like the fried chicken set and the pork cutlet bowl, and so many large rice bowls.\nSo, with the aim of making the cafeteria easier for women to use, I'd like to propose adding more vegetable-based dishes and more à la carte items. Vegetables have a healthy image, and à la carte items are convenient because you can also eat them together with things like rice balls from a convenience store. Also, how about offering several sizes, such as regular, small, and large, so that people can choose how much they get?\nThis concludes my presentation. I welcome your questions and comments."
+       "tr": "Do you all use the cafeteria often? Today's topic is \"the cafeteria.\" The handout in front of you shows the results of a survey conducted among 200 male and female students at Hokuto University. Based on these survey results, I'd like to make a proposal about the cafeteria.\nFirst, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure is as high as 61 percent. Looking at the women's results in more detail, the share who go once a week or more is only 16 percent. In other words, very few women use the cafeteria on a regular basis.\nSo what do women find unsatisfactory? Figure 2 shows the results of asking about complaints about the cafeteria, with multiple answers allowed. Among women, the most common answer was \"There aren't many healthy dishes,\" at 48 percent, followed by \"The portions are too big\" at 38 percent. From this we can see that they are dissatisfied that the menu has so many high-calorie fried dishes, like the fried chicken set and the pork cutlet bowl, and so many large rice bowls.\nSo, with the aim of making the cafeteria easier for women to use, I'd like to propose adding more vegetable-based dishes and more à la carte items. Vegetables have a healthy image, and à la carte items are convenient because you can also eat them together with things like rice balls from a convenience store. Also, how about offering several sizes, such as regular, small, and large, so that people can choose how much they get?\nThis concludes my presentation. I welcome your questions and comments."
       }
      ]
     },
@@ -4894,7 +4905,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**まず、図1をご{覧|らん}ください。**「学食にほとんど行かない」と答えた人は全体で約5割**を占め、**女性では61%**にのぼっています。**女性の結果を詳しく見ると、週1回以上は16%**にとどまっています。**",
-        "tr": "First, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure reaches 61 percent. Looking at the women's results in more detail, those who go once a week or more come to only 16 percent."
+        "tr": "First, please look at Figure 1. The people who answered \"I hardly ever go to the cafeteria\" make up about 50 percent of the total, and among women the figure is as high as 61 percent. Looking at the women's results in more detail, those who go once a week or more come to only 16 percent."
        }
       },
       {
@@ -5246,7 +5257,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "日本は格差社会になりつつあると言われています。",
-       "tr": "It is said that Japan is becoming an unequal society."
+       "tr": "It is said that Japan is gradually becoming an unequal society."
       },
       {
        "sp": "",
@@ -5404,7 +5415,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "学費が高くなってきているせいで、{奨学金|しょうがくきん}が返せないから。",
-        "tr": "Because tuition has been getting more expensive, so they can't pay back their scholarships."
+        "tr": "Because tuition has been getting more expensive, they can't pay back their scholarships."
        }
       }
      ]
