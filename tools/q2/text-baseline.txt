@@ -1532,7 +1532,7 @@ l8.sections.2.blocks.4.items.1.blocks.0.items.1.text.ja	{売店|ばいてん}で
 ＿＿たら、売店か{廊下|ろうか}の
 ＿＿かもしれません……。
 l8.sections.2.blocks.4.items.1.blocks.0.items.1.answer.0	お{土産|みやげ}を買った
-l8.sections.2.blocks.4.items.1.blocks.0.items.1.answer.1	部屋になかった
+l8.sections.2.blocks.4.items.1.blocks.0.items.1.answer.1	部屋になかっ
 l8.sections.2.blocks.4.items.1.blocks.0.items.1.answer.2	自動販売機のところ
 l8.sections.2.blocks.4.items.1.blocks.0.items.2.label.ja	③ 見つかった時
 l8.sections.2.blocks.4.items.1.blocks.0.items.2.text.ja	そうですか！＿＿が、予約した時の住所に、

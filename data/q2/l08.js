@@ -327,7 +327,7 @@ TRY.registerLesson({
     },
     {
      "t": "figure",
-     "desc": "Photo beside lines 6–14 of the text: the proprietress, in a kimono, standing in front of the Kagaya sign.",
+     "desc": "Photo in the top tier, below lines 1–5 of the text: the proprietress, in a kimono, standing in front of the Kagaya sign.",
      "labels": [
       "加賀屋",
       "加賀屋女将　{小田|おだ}{真弓|まゆみ}さん"
@@ -425,7 +425,7 @@ TRY.registerLesson({
      "tr": [
       "Selling bento boxes overseas is, for Japanese people, a case of \"it's dark at the foot of the lighthouse\" (not noticing what's right under their noses). Why did you set your sights on it?",
       "A bento is a small universe. It carries an aesthetic sense unique to Japan, one that expresses concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always an airtight container with no dividers holding just sandwiches, if it's sandwiches, or just pasta, if it's pasta. A Japanese bento, though, is packed colorfully with side dishes, with thought given to the person who will eat it and care taken over nutritional balance.",
-      "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people put weight on cooking and on taking time to enjoy a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
+      "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",
       "Back then, they had no thought yet of actively selling overseas; instead, they asked me, \"Why?\" But now I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, I came up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
@@ -551,7 +551,7 @@ TRY.registerLesson({
          ],
          "tr": [
           "I hear that at first the manufacturers gave you puzzled looks.",
-          "Back then, there was not yet any idea of actively selling overseas, so instead they asked me, \"Why?\" (…) Those products have now become popular all over the world."
+          "Back then, they had no thought yet of actively selling overseas; instead, they asked me, \"Why?\" (…) Those products have now become popular all over the world."
          ]
         }
        ]
@@ -677,7 +677,7 @@ TRY.registerLesson({
          ],
          "tr": [
           "By the way, the number of foreign tourists visiting Japan has been growing in recent years. How do you go about offering hospitality to foreign guests?",
-          "First, I research all sorts of things about their country, such as its culture and customs. What guests appreciate is their national flower. When members of the Swedish royal family came, I made about 20 little bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were deeply moved and told me how happy it made them."
+          "First, we research all sorts of things about their country, such as its culture and customs. What guests especially appreciate is their national flower. When members of the Swedish royal family came, we made about 20 little bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were deeply moved and told me how happy it made them."
          ]
         },
         {
@@ -833,7 +833,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and conversational, and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal, negative-only counterpart."
     },
     {
      "t": "note",
@@ -923,7 +924,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vない限り** is firmer than 〜なければ: it makes X the one condition that has to be met, and until it is, Y stays out of reach. It suits warnings, refusals and resigned judgments, like the father who won't quit until his doctor orders it.\n\n- Y is usually negative or an unwelcome outcome: 謝らない限り、許さない (*I won't forgive you unless you apologize*).\n- The affirmative **V限り** means *as long as*: ここにいる限り安全だ (*as long as you stay here, you're safe*).\n\nTRY! N2 teaches both under 〜限り, along with 知っている限り (*as far as I know*). Its **〜ないことには** (*unless X, you can't even begin*) follows the same logic."
     },
     {
      "t": "note",
@@ -1008,7 +1010,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nならでは** is praise: something is special because only N could offer it. N is a place, a material, a season or a kind of establishment (その場所, 日本, 木, 旅館); only a noun can precede it.\n\n- Before a noun it takes の (日本ならではの美意識, reading 2); at the end of a sentence it is 〜ならではだ (④).\n- For what is merely typical, use 〜らしい. For neutral or negative traits, use 〜特有の: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*).\n- It has nothing to do with the conditional なら; ならでは is a fixed expression.\n\nTRY! N1 teaches the same pattern as 〜ならではの."
     },
     {
      "t": "note",
@@ -1111,7 +1114,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XないまでもY** puts two levels on one scale: X is the ideal and Y the lower level the speaker settles for or has reached. The tone is a compromise, *maybe not X, but at least Y*, so せめて, 少なくとも or 〜くらいは usually turn up in Y.\n\n- The higher level always comes first: ✗月に1回とは言わないまでも、週に1回 reverses the logic.\n- It is slightly formal; in conversation 〜とまではいかなくても is also common.\n- Don't confuse it with **〜までもない**, *there's no need to*: 言うまでもない (*it goes without saying*).\n\nReading 1 uses it for a standard the inn can't always meet: いつも100点満点のことはできないまでも. TRY! N1 teaches the same pattern."
     },
     {
      "t": "note",
@@ -1257,7 +1261,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**とともに** belongs to formal, written Japanese. In conversation *together with* is 〜といっしょに, and a linked change is usually 〜につれて.\n\n- ① With a person or group, Nとともに means doing something jointly (日本人の妻とともに立ち上げ, reading 2); with a thing, *along with* (③).\n- ② A change verb or a time noun (時代, 年齢) comes before it and a change after it: 時代とともに変えていきたい (reading 1).\n- With two actions it lists them as done together, the formal *and at the same time* of the 例.\n\n**〜と同時に** (L7-8) stresses the single moment rather than a gradual link. TRY! N2 has the same 〜とともに; its **〜にともなって** and **〜にしたがって** cover only the change use."
     },
     {
      "t": "note",
@@ -1322,7 +1327,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vたものだ** looks back on something that happened regularly, or a state that lasted, and savors the memory: *I used to ~ (those were the days)*. It suits reminiscing rather than a quick answer, which is why the book calls it monologue-like; in speech it is often **〜たもんだ**.\n\n- The past event is repeated or ongoing. A single event takes 〜たことがある: ✗去年一度京都へ行ったものだ.\n- よく, 毎日, 昔は and 〜頃は are frequent companions.\n- Plain 〜ていた reports a past habit neutrally; たものだ adds the nostalgia.\n\nReading 1 contrasts then and now: 10回はお茶を出していたものですが、今は…. TRY! N2 teaches it with the other **ものだ** uses, a general truth (人は変わるものだ) and a heartfelt reaction (時間がたつのは早いものだ)."
     },
     {
      "t": "note",
@@ -1461,7 +1467,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**かえって** (却って) says an action backfired: it produced the opposite of its purpose, *actually, instead, only made it worse*. The first half is usually a step taken for a reason (薬を飲んだ, 安い車を買った, 高いワインを持っていく) and the second half the unwanted result.\n\n- It reports an outcome, so the second half is a result or a prediction, not a request.\n- It does not compare two descriptions; for *more B than A*, use **むしろ** (L7-5), as the ☛ note shows.\n- A polite set phrase: かえってご迷惑をおかけしました (*I'm afraid I only caused you more trouble*).\n\nIn reading 1, the frequent visits meant as service かえってお叱りを受ける: they *actually draw complaints*."
     },
     {
      "t": "note",
@@ -1557,7 +1564,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**VているうちにY** says Y came about gradually, without anyone planning it, while X went on. Y is typically a change (〜てきた, 〜ようになった, 〜てしまった), often with いつの間にか; English needs *before I knew it* or *as I kept ~ing*.\n\n- Y is not a deliberate act. For something done on purpose during X, use 〜間に: 待っている間に本を読んだ (*I read a book while I waited*).\n- Keep it apart from the other **うちに**, *while it's still ~, before it's too late*: 温かいうちに食べて (*eat it while it's hot*), 忘れないうちに (*before I forget*). That one takes a state (い-adjective, 〜ない, Nの) and a deliberate action.\n\nReading 2: ブログを書いているうちに「何か自分でできるのではないか」と思うようになる, the idea grew on him as he blogged."
     },
     {
      "t": "note",
@@ -1641,7 +1649,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nなりに** gives credit within limits: N isn't the most capable, but does what it can in its own way. About yourself it sounds modest (私なりに, 自分なりに); about a child or a junior it sounds fair or kind, as with the father defending 将.\n\n- Before a noun it becomes なりの: 私なりの考え (*my own view, for what it's worth*).\n- **それなりに** means *reasonably, to a fair extent*: not what one hoped for, but acceptable (④, and the listening script's それなりに満足できる).\n- **〜らしく**, *as befits a proper ~*, holds N to a standard instead of allowing for its limits.\n\nTRY! N1 teaches the same 〜なりに, adding 〜ば〜なりに: 忙しければ忙しいなりに (*busy as you are, in a way that suits it*)."
     },
     {
      "t": "note",
@@ -1733,7 +1742,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**こだわる** can praise or criticize. As praise it means caring about quality and refusing to compromise: 素材にこだわった料理 (*dishes made with carefully chosen ingredients*), a favorite phrase of ads and menus. As criticism it means being hung up on something that doesn't deserve it: 勝ち負けにこだわらないで (③).\n\n- Context decides: a product or craft usually gets praise (伝統的な商品にもこだわって, reading 2); a person's fixation on a job, a result or the past usually gets criticism (②).\n- The noun **こだわり** is common: 店主のこだわり (*the owner's personal touch*).\n- 〜にこだわらず means *without sticking to*: 形式にこだわらず (*without standing on formality*).\n\nListening 1 uses the positive side: 露天風呂にこだわった和風旅館."
     }
    ]
   },
@@ -1813,7 +1823,7 @@ TRY.registerLesson({
       "What kind of practice do you do in the tea ceremony club?",
       "We learn the basic etiquette by watching our seniors. There are rules for every single thing, such as how to bow, how to step forward, and how to walk, so we practice over and over until we can do it all without thinking. Even after two months had passed, I still couldn't remember them properly, and I wondered, \"Why are there so many rules?\" and worried, \"Will I ever be able to learn them all?\"",
       "That sounds tough. What changed between before and after you started the tea ceremony? If the tea ceremony has influenced you in some way, please tell me.",
-      "I think I've become calmer and better at concentrating. I was never a calm person, but as I kept practicing the tea ceremony, I feel that my mind, along with my movements, has calmed down.",
+      "I think I've become calmer and better at concentrating. I've always been restless, but as I kept practicing the tea ceremony, I feel that my mind, along with my movements, has calmed down.",
       "What do you think is the greatest appeal of the tea ceremony?",
       "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had been doing the tea ceremony.",
       "I had an image of the tea ceremony as something difficult, but listening to Ms. Wang, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
@@ -2414,7 +2424,7 @@ TRY.registerLesson({
            },
            "answer": [
             "お{土産|みやげ}を買った",
-            "部屋になかった",
+            "部屋になかっ",
             "自動販売機のところ"
            ]
           },
@@ -3032,7 +3042,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "最近よく使っているものや、気に入っているものの中で、他の人にもおすすめしたいものがありますか。それについて下の表に書きなさい。{魅|み}{力|りょく}が3つぐらい言えるものを選びましょう。",
-        "tr": "Among the things you've been using a lot lately or that you really like, is there anything you'd like to recommend to other people too? Write about it in the table below. Choose something about which you can name about three appealing points."
+        "tr": "Among the things you've been using a lot lately or that you really like, is there anything you'd like to recommend to other people too? Write about it in the table below. Pick something you can name about three good points for."
        },
        "blocks": [
         {
@@ -3151,7 +3161,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "コンセントがなくても、{生|なま}の＿＿から＿＿が\n{炊|た}けるのが特徴です。容器に＿＿と＿＿を入れ＿＿で\nチンして使います。8分チンして30分保温すれば、＿＿です。",
-            "tr": "Its special feature is that it can cook … from uncooked … even without an outlet. You put … and … in the container and heat it up in the …. If you heat it for eight minutes and keep it warm for thirty minutes, it's …."
+            "tr": "Its special feature is that it can turn raw … into … even without an outlet. You put … and … in the container and heat it up in the …. If you heat it for eight minutes and keep it warm for thirty minutes, it's …."
            },
            "answer": [
             "お米",
@@ -3246,7 +3256,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "残念！　❸**ご覧のとおり、見た目は**ご飯を温かいまま持っていけるランチジャー**のようですが、これは**「ご飯が{炊|た}ける弁当箱」**なんです。**❹コンセントがなくても、{生|なま}のお{米|こめ}からご飯が炊ける**のが特徴です。**容器に米と水を入れ電子レンジでチンし**て使います。**8分チンして30分保温すれば、完成です。家の電子レンジでチンしてから出かければ、通勤中、通学中にご飯が炊け、お昼においしいご飯が食べられます。\n❺**また、**この弁当箱が役に立つ**のは、実は**お弁当の時**だけじゃないんです。**{一人|ひとり}{暮|ぐ}らしの人や、長期の出張や旅行中にご飯が食べたい人は、{炊|すい}{飯|はん}{器|き}の{代|か}わりとしても使えます。普通の炊飯器より小さく、値段もずっと安いです。\n**そして特に私がすばらしいと思うのは、**味がよい**点です。**電子レンジで温め直したご飯や、保温機能がある弁当箱で持っていったご飯とは、全然おいしさが違います。炊いてすぐのおいしさが、食べる時まで続いています。\n❻**このように、**移動しながらでも簡単にご飯が炊けて、おいしさが長持ちする**のが、**この弁当箱の**{魅|み}{力|りょく}です。**ご飯好きなら、❼**ぜひ一度{試|ため}してみてください。**",
-       "tr": "Too bad! As you can see, it looks like an insulated lunch jar that lets you carry rice while keeping it warm, but this is actually a \"lunch box that cooks rice.\" Its special feature is that it can cook rice from uncooked rice even without an outlet. You use it by putting rice and water in the container and heating it in the microwave. Microwave it for eight minutes, keep it warm for thirty minutes, and it's done. If you microwave it at home before you leave, the rice cooks while you're commuting to work or school, and you can eat delicious rice at lunchtime.\nAlso, this lunch box is actually useful not only for packed lunches. People who live alone, or who want to eat rice during long business trips or while traveling, can also use it as a substitute for a rice cooker. It's smaller than an ordinary rice cooker, and much cheaper too.\nAnd what I think is especially great is that it tastes good. It's completely different from rice reheated in the microwave or rice carried in a thermal lunch box. It stays as delicious as freshly cooked rice right up until you eat it.\nSo the appeal of this lunch box is that you can easily cook rice even while on the move, and it stays delicious for a long time. If you love rice, please give it a try."
+       "tr": "Too bad! As you can see, it looks like an insulated lunch jar that lets you carry rice while keeping it warm, but this is actually a \"lunch box that cooks rice.\" Its special feature is that it can turn raw rice into cooked rice even without an outlet. You use it by putting rice and water in the container and heating it in the microwave. Microwave it for eight minutes, keep it warm for thirty minutes, and it's done. If you microwave it at home before you leave, the rice cooks while you're commuting to work or school, and you can eat delicious rice at lunchtime.\nAlso, this lunch box is actually useful not only for packed lunches. People who live alone, or who want to eat rice during long business trips or while traveling, can also use it as a substitute for a rice cooker. It's smaller than an ordinary rice cooker, and much cheaper too.\nAnd what I think is especially great is that it tastes good. It's completely different from rice reheated in the microwave or rice carried in a thermal lunch box. It stays as delicious as freshly cooked rice right up until you eat it.\nSo the appeal of this lunch box is that you can easily cook rice even while on the move, and it stays delicious for a long time. If you love rice, please give it a try."
       }
      ]
     },
@@ -3379,7 +3389,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "{生|なま}のお{米|こめ}からご飯が炊ける**のが特徴です。**\n容器に米と水を入れ電子レンジでチンし**て使います。**\n家でチンして出かければ、通学中にご飯が炊けます。",
-        "tr": "Its special feature is that it can cook rice from uncooked rice. You use it by putting rice and water in the container and heating it in the microwave. If you microwave it at home before you leave, the rice cooks while you're on your way to school."
+        "tr": "Its special feature is that it can turn raw rice into cooked rice. You use it by putting rice and water in the container and heating it in the microwave. If you microwave it at home before you leave, the rice cooks while you're on your way to school."
        }
       },
       {

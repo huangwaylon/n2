@@ -463,7 +463,7 @@ TRY.registerVocab({
       "n": 11,
       "w": "常に",
       "ex": "常に笑顔でお客様に接することが大切だ。",
-      "tr": "It's important to always greet customers with a smile."
+      "tr": "It's important to always serve customers with a smile."
      },
      {
       "n": 12,
