@@ -187,6 +187,9 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
   ] }
 ```
 
+- `deepDive` (after `blocks`): **our** English deep-dive on the note (docs/ENGLISH.md: 60–130 words; nuance, register and
+  contrasts the book's explanation leaves implicit), rendered closed under the note like the TRY books' deep-dives.
+  The note's counterparts in TRY! N2 / N1 are listed in data/links.js (他の本).
 - `star`: the ★ badge (items practised in the workbook, marked in the book). `ref`: the bracketed source
   "読み物1-行13" as printed. `pattern` / `gloss` exactly as printed (gloss without the ⟨ ⟩).
 - A note with sub-patterns (4. 〜こそ → ① Nこそ Y, ② XからこそY): `{ t: "sub", n: 1, pattern: "Nこそ Y", gloss: "it is N that Y" }`

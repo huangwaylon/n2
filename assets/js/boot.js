@@ -1,11 +1,11 @@
 /* Classic script loaded first by every book page (and required by the Node tools, tools/lib/books.js).
    - TRY: the data registry that data/<book>/*.js call — TRY books (n2, n1): registerBook / registerChapter /
      registerCompare / registerFront / registerVocab (単語); Quartet II (q2, data/Q2-SCHEMA.md): registerLesson / registerVocab / registerKanji /
-     registerUnits (ブラッシュアップ) / registerFront.
+     registerUnits (ブラッシュアップ) / registerFront; all books: registerLinks (data/links.js).
    - Colour theme: applied to <html data-theme> before the first paint, so the page never flashes the wrong theme. */
 (function (root) {
   "use strict";
-  const TRY = (root.TRY = root.TRY || { book: null, chapters: [], compare: [], front: [], lessons: [], vocab: [], kanji: [], units: [] });
+  const TRY = (root.TRY = root.TRY || { book: null, chapters: [], compare: [], front: [], lessons: [], vocab: [], kanji: [], units: [], links: [] });
   // data files load in parallel, so every list is kept sorted as files register
   const add = (list, x, key) => { list.push(x); list.sort((a, b) => key(a) - key(b)); };
   TRY.registerBook = (b) => (TRY.book = b);
@@ -16,6 +16,8 @@
   TRY.registerVocab = (v) => add(TRY.vocab, v, (x) => x.lesson || x.ch); // Quartet: lesson; TRY books: ch (vocab/chNN.js)
   TRY.registerKanji = (k) => add(TRY.kanji, k, (x) => x.lesson);
   // units: ブラッシュアップ pages (上級へのチャレンジ c1–c8, 漢字チャレンジ k13–k24), sorted by book page
+  // links: groups of the same grammar in the three books (data/links.js, loaded by every book page)
+  TRY.registerLinks = (groups) => (TRY.links = groups);
   TRY.registerUnits = (list) => list.forEach((u) => add(TRY.units, u, (x) => x.page));
   if (!root.document) return;
 

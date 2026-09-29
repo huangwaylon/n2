@@ -2,7 +2,7 @@
 // The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
 // data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
 // for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
-import { ACT, BOOK, TRY, TTS, $, $$, chapterPoints, esc, findPoint, isWide, loadProgress, progress, saveProgress, saveSettings, settings, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, chapterPoints, esc, findPoint, isWide, loadProgress, progress, saveProgress, saveSettings, settings, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
 import { chapterView, setVertical, vtScrollInit } from "./content.js";
@@ -10,9 +10,6 @@ import { fitOptionCols } from "./exercises.js";
 import { aboutView, canDoView, compareView, drillView, guideView, homeView, indexView, notFound } from "./pages.js";
 import { filterVocab, vocabView } from "./vocab.js";
 
-const SITE = new URL("../../", import.meta.url); // site root
-const BOOKS = [{ id: "n2", label: "N2", dir: "", title: "TRY! N2 文法" }, { id: "n1", label: "N1", dir: "n1/", title: "TRY! N1 文法" },
-  { id: "q2", label: "Q2", dir: "q2/", title: "Quartet II 中級日本語カルテット" }];
 
 // ---------- data ----------
 const loadScript = (src) => new Promise((ok, fail) => {
@@ -22,7 +19,9 @@ const loadScript = (src) => new Promise((ok, fail) => {
 });
 // every file registers itself (TRY.registerChapter sorts), so they load in parallel
 const chFiles = (dir = "") => Array.from({ length: BOOK().chapters }, (_, i) => `${dir}ch${String(i + 1).padStart(2, "0")}.js`);
-const loadData = (files = BOOK().files || chFiles().concat("compare.js", "front.js")) => {
+// the book's own files, and the cross-book links shared by all three books (data/links.js)
+const bookFiles = () => (BOOK().files || chFiles().concat("compare.js", "front.js")).concat("../links.js");
+const loadData = (files = bookFiles()) => {
   const dir = new URL(`data/${BOOK().id}/`, SITE);
   // a file that fails to load is reported on the page; the rest of the book still renders
   return Promise.allSettled(files.map((f) => loadScript(new URL(f, dir)))).then((rs) => rs.filter((r) => r.status === "rejected").map((r) => r.reason.message));

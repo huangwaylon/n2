@@ -1,6 +1,6 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
 import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide } from "./core.js";
-import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
+import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, otherBooksHtml, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
 // ---------- chapter ----------
@@ -66,12 +66,15 @@ const TRY_IT = "やってみよう！";
 // ☞ line: only the book's own reference (p.xxx 〜…) is printed in the book's ☞ style, right-aligned. Our links (related
 // points, the similar-pattern group) go on a separate small "関連 Related" line so they don't pass for book text.
 const cmpGroupOf = (no) => TRY.compare.findIndex((gr) => (gr.items || []).some((it) => it.no === no));
+// 📘 our English deep-dive on a grammar point (also on Quartet II notes), closed by default
+export const deepHtml = (s) => (s ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span><span class="gen-tag">generated</span></summary><div class="deep-body">${prose(s)}</div></details>` : "");
 function xrefHtml(book, see, no) {
   const gi = no != null ? cmpGroupOf(no) : -1;
   const links = (see || []).map(gpLink).join("");
   const b = book ? `<p class="xref"><span class="xref__hand" aria-hidden="true">☞</span><span class="xref__book">${fmt(String(book).replace(/^☞\s*/, ""))}</span></p>` : "";
   const cmp = gi >= 0 ? `<a href="#/compare/${gi}" class="gp-link xref__cmp">似ている文型 ${fmt(TRY.compare[gi].key)}</a>` : "";
-  return b + (links || cmp ? `<p class="gp-rel"><span class="gp-rel__l">関連 <span class="en-inline">Related</span></span>${cmp}${links}</p>` : "");
+  return b + (links || cmp ? `<p class="gp-rel"><span class="gp-rel__l">関連 <span class="en-inline">Related</span></span>${cmp}${links}</p>` : "")
+    + (no != null ? otherBooksHtml(`${BOOK().id}:${no}`) : "");
 }
 const practiceHtml = (list, id, title = TRY_IT) => (list || []).map((ex, j) => renderExercise(ex, `${id}-p${j}`, title) + (ex.xref ? xrefHtml(ex.xref) : "")).join("");
 // 📎 clip notes before or after やってみよう: N2 prints them after the practice, N1 before (book meta notesFirst);
@@ -101,7 +104,7 @@ function gpCard(g) {
       ${bi(g.usage, "p", "usage", { book: true })}
       ${formsHtml(g.forms, g.formNotes)}
       ${examplesHtml(g.examples)}
-      ${g.deepDive ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span><span class="gen-tag">generated</span></summary><div class="deep-body">${prose(g.deepDive)}</div></details>` : ""}
+      ${deepHtml(g.deepDive)}
       ${notesFirst(g) ? notes : ""}
       ${practiceHtml(g.practice, gid, `${TRY_IT} <span class='en-inline'>Try it out</span>`)}
       ${notesFirst(g) ? "" : notes}

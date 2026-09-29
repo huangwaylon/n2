@@ -1,6 +1,6 @@
 // Inline markup → HTML (data/SCHEMA.md "Inline markup") and the small shared pieces of markup: bilingual lines, EN
 // buttons, pills, play buttons, stars, usage-scene marks, links to grammar points.
-import { BOOK, bookEnglish, esc, findPoint } from "./core.js";
+import { BOOK, BOOKS, SITE, TRY, bookEnglish, esc, findPoint } from "./core.js";
 import { RUBY_RE, rubyMarkup } from "./ruby.js";
 
 // POS badge: [N] [V] [いA] [なA] [A] [Pl] [Po] [文] [数], optional subscript/digit ([N₁] [いA₂]), optional "-form"
@@ -118,6 +118,20 @@ export const stars = (n) => (!n ? "" : `<span class="stars gp-bar__stars" role="
 export const gpLink = (no) => {
   const f = findPoint(no);
   return f ? `<a class="gp-link" href="#/gp/${no}">${no} ${fmt(f.g.pattern)}</a>` : `<span class="gp-link">${no}</span>`;
+};
+// 他の本: the same grammar in the other books (data/links.js). key: "n2:12" (a point, with its Plus boxes) or "q2:7-3"
+// (a Quartet note); an id is "book:no pattern", no = point number, N+ for its Plus, lesson-note for Quartet
+const linkId = (id) => { const [, b, no, pat] = id.match(/^(\w+):(\S+?)\+? (.+)$/); return { b, no, pat }; };
+export const otherBooksHtml = (key) => {
+  const [kb, kno] = key.split(":");
+  const groups = (TRY.links || []).filter((g) => g.ids.some((id) => { const x = linkId(id); return x.b === kb && x.no === kno; }));
+  if (!groups.length) return "";
+  const links = groups.flatMap((g) => g.ids.map(linkId).filter((x) => x.b !== kb)).map((x) => {
+    const o = BOOKS.find((b) => b.id === x.b), route = x.b === "q2" ? `gn/${x.no}` : `gp/${x.no}`;
+    return `<a class="gp-link" href="${new URL(o.dir, SITE).pathname}#/${route}">${o.label} ${x.b === "q2" ? "L" : ""}${esc(x.no)} ${fmt(x.pat)}</a>`;
+  }).join("");
+  const notes = groups.map((g) => en(g.en, "gen", "p", "gp-rel__en")).join("");
+  return `<div class="gp-rel gp-rel--x"><span class="gp-rel__l">他の本 <span class="en-inline">Other books</span></span>${links}${notes}</div>`;
 };
 
 // usage-scene marks: [English label, Japanese label, 24×24 line-icon SVG body]

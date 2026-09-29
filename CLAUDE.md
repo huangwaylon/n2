@@ -14,7 +14,8 @@ Interactive editions of three Japanese textbooks for **English-speaking** learne
 
 `n2.pdf`, `n1.pdf` and the Quartet II scan (repo root) are the **absolute** source of truth for all book content: Japanese text, furigana,
 answers, the English the N2 book prints, and the layout the site imitates. Never "fix" the book; never guess —
-read the page (`Read n2.pdf pages:"18"`, or `tools/zoom.sh n2 18` for 300-dpi strips to read furigana).
+read the page (`Read n2.pdf pages:"18"`, or `tools/zoom.sh n2 18` for 300-dpi strips to read furigana; `tools/zoom.sh n2 18 page`
+for the whole page where Read can't open PDFs — zoom.sh falls back to PDFKit when pdftoppm isn't installed).
 
 - PDF page = printed page. N2 answers/scripts: supplement PDF pp.233–252 (supp p.N = PDF 232+N).
   N1: supplement PDF pp.193–207 (supp p.N = PDF 192+N); N1 page map in `docs/N1-TRANSCRIPTION.md`.
@@ -50,9 +51,11 @@ assets/js/
   main.js       loads chapter data, builds the shell (topbar/sidebar/footer), router, settings, events
 assets/css/     base.css (tokens, light + dark theme, English layer, primitives) · shell.css · content.css · exercises.css
 data/<book>/    book.js (meta) · chNN.js (one file per chapter) · compare.js · front.js · vocab/chNN.js (our word lists)
+data/links.js   the same grammar across the three books (他の本 Other books under each point / Quartet note)
 data/SCHEMA.md  data format and transcription rules — read before editing data
 docs/LAYOUT.md  how each book component looks and is rendered, breakpoints, furigana rules, QA checklist
 docs/N1-TRANSCRIPTION.md  N1 page map and conventions
+docs/ENGLISH.md style guide for all generated English (translations, deep-dives, why, cross-book links)
 tools/          validators and layout probes (below); tools/lib/books.js = per-book tool config + Node data loader
 ```
 
@@ -74,6 +77,7 @@ node tools/q2/check.js && node tools/q2/verify.js                      # Quartet
 node tools/q2/ocr-diff.js data/q2/l07.js 28-59,265                     # Quartet II transcription vs OCR (PDF pages)
 node tools/ocr-diff.js data/n2/ch01.js 18-29      # transcription vs OCR; check every score < 0.9 on the scan
 for b in n2 n1; do node tools/xref.js $b; node tools/vocab-check.js $b; done   # #N cross-references; vocabulary lists
+node tools/links.js                               # cross-book links (data/links.js)
 ```
 
 - `text-snapshot` dumps the Japanese and the book's English. Any diff must be an intended, verified fix; then

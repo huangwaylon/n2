@@ -1,8 +1,8 @@
 // Quartet II blocks (data/Q2-SCHEMA.md "Blocks"): every lesson section, brush-up unit and front-matter section is a list
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
 import { ACT, $, $$, esc, isWide, progress, saveProgress, settings } from "../core.js";
-import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, plain, speakBtn } from "../markup.js";
-import { vtScrollInit } from "../content.js";
+import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, otherBooksHtml, plain, speakBtn } from "../markup.js";
+import { deepHtml, vtScrollInit } from "../content.js";
 
 // ---------- text ----------
 const norm = (t) => (t == null || t === "" ? null : typeof t === "string" ? { ja: t } : t);
@@ -262,6 +262,8 @@ function noteHtml(b, ctx) {
       <h3 class="gn-pat">${fmt(b.pattern)}</h3>${b.gloss ? `<span class="gn-gloss">〈${fmt(b.gloss)}〉</span>` : ""}
       <span class="gn-h__r">${b.ref ? `<span class="gn-ref">${fmt(b.ref)}</span>` : ""}${enScopeBtn()}</span></header>
     ${blocks(b.blocks, ctx)}
+    ${deepHtml(b.deepDive)}
+    ${otherBooksHtml(`q2:${ctx.lesson}-${b.no}`)}
     <footer class="gp-foot"><label class="studied"><input type="checkbox" data-act="studied" data-no="${k}" ${progress.studied[k] ? "checked" : ""}><span class="studied__box" aria-hidden="true"></span>学習済み <span class="en-inline">Studied</span></label></footer>
   </article>`;
 }

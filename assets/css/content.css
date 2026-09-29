@@ -261,6 +261,8 @@
 .gp-rel { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 .2em; margin: 10px 0 0; font: 13px/1.5 var(--goth); color: var(--ink-3); }
 .gp-rel__l { margin-right: .3em; font-weight: 700; }
 .gp-rel .gp-link { margin: 0 .5em 0 0; }
+.gp-rel--x { margin-top: 2px; }
+.gp-rel__en { flex-basis: 100%; margin: .2em 0 0; }
 .clip .xref { margin: .2em 0 .4em; }
 .exs__i--nonum .exs__n { display: none; }
 .exs__i.bi.exs__i--nonum { grid-template-columns: minmax(0, 1fr) auto; }

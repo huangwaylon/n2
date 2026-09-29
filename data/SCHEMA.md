@@ -83,7 +83,7 @@ TRY.registerChapter({
   deepDive: "…",                          // DETAILED English explanation (hidden by default). Paragraphs separated by \n\n,
                                           // lines starting "- " become bullets. Cover nuance, register, what it
                                           // contrasts with, common learner mistakes, JLPT tips.
-  see: [ 3, 104 ],                        // related grammar point numbers
+  see: [ 3, 104 ],                        // related grammar point numbers (the same grammar in the other books: data/links.js)
   index: [ "Nにつき" ],                    // extra searchable forms for the index
   practice: [ Exercise, … ]               // やってみよう！ — ORIGINAL questions
 }
