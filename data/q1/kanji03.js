@@ -78,8 +78,8 @@ TRY.registerKanji({
    "words": [
     {
      "m": "◆",
-     "w": "～県",
-     "yomi": "～けん",
+     "w": "〜県",
+     "yomi": "〜けん",
      "en": "~ Prefecture"
     },
     {
@@ -505,8 +505,8 @@ TRY.registerKanji({
      "en": "to limit"
     },
     {
-     "w": "～とは限らない",
-     "yomi": "～とはかぎらない",
+     "w": "〜とは限らない",
+     "yomi": "〜とはかぎらない",
      "en": "not necessarily"
     }
    ]

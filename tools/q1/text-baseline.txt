@@ -9911,8 +9911,8 @@ kanji3.kanji.1.words.1.yomi	おとずれる
 kanji3.kanji.1.words.1.en	to visit (a place)
 kanji3.kanji.2.meaning	prefecture
 kanji3.kanji.2.on.0	ケン
-kanji3.kanji.2.words.0.w	～県
-kanji3.kanji.2.words.0.yomi	～けん
+kanji3.kanji.2.words.0.w	〜県
+kanji3.kanji.2.words.0.yomi	〜けん
 kanji3.kanji.2.words.0.en	~ Prefecture
 kanji3.kanji.2.words.1.w	県境
 kanji3.kanji.2.words.1.yomi	けんざかい
@@ -10057,8 +10057,8 @@ kanji3.kanji.19.words.0.en	limit
 kanji3.kanji.19.words.1.w	限る
 kanji3.kanji.19.words.1.yomi	かぎる
 kanji3.kanji.19.words.1.en	to limit
-kanji3.kanji.19.words.2.w	～とは限らない
-kanji3.kanji.19.words.2.yomi	～とはかぎらない
+kanji3.kanji.19.words.2.w	〜とは限らない
+kanji3.kanji.19.words.2.yomi	〜とはかぎらない
 kanji3.kanji.19.words.2.en	not necessarily
 kanji3.kanji.20.meaning	rock
 kanji3.kanji.20.on.0	ガン
