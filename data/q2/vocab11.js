@@ -75,7 +75,7 @@ TRY.registerVocab({ lesson: 11, lists: [
       { n: 3, w: "具体的な", ex: "説明する時は、具体的な例を挙げたほうがわかりやすい。", tr: "When you explain something, it is easier to understand if you give concrete examples." },
       { n: 4, w: "[〜に]要求（する）", ex: "社員の代表が社長に給料を上げるように要求した。", tr: "The employees' representative demanded that the president raise their salaries." },
       { n: 5, w: "迷惑（する）", ex: "約束の時間に遅れて、友達に迷惑をかけてしまった。", tr: "I was late for the time we'd agreed on and ended up causing my friend trouble." },
-      { n: 6, w: "[〜に]任せる", ex: "部長は部下にそのプロジェクトを全部任せた。", tr: "The department manager left the whole project to his subordinates." },
+      { n: 6, w: "[〜に]任せる", ex: "部長は部下にそのプロジェクトを全部任せた。", tr: "The department manager left the whole project to their team." },
       { n: 7, w: "したがって", ex: "これはコーラではなく酒だ。したがって、子どもに与えてはいけない。", tr: "This is not cola but alcohol. Therefore, you must not give it to children." },
       { n: 8, w: "結構な", ex: "「面接はスーツではなく私服で結構です」と言われたので、何を着ていったらいいか{困|こま}った。", tr: "I was told, \"For the interview, casual clothes are fine instead of a suit,\" so I didn't know what to wear." },
       { n: 9, w: "[〜に]寄付（する）", ex: "難病の子どもをサポートするNPOに寄付をした。", tr: "I made a donation to a nonprofit that supports children with serious illnesses." },
