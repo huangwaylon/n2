@@ -369,16 +369,21 @@ function fitBookLines(body) {
   }
 }
 
-// line numbers (every 5th, and 1) and page marks in the gutter, at the height (column) where the book's line starts
-export function placeLineNos(root) {
+// line numbers (every 5th, and 1) and page marks in the gutter, at the height (column) where the book's line starts.
+// all = false (the layout pass after a click, main.js queueFit): a reading whose box has the size it had after its last
+// fit keeps its lines and numbers, since every fit test forces a layout of the whole page (~50 ms a click on a phone)
+const fitSize = new WeakMap();
+const sizeOf = (body) => `${body.offsetWidth}x${body.offsetHeight} ${body.parentElement.clientWidth}x${body.parentElement.clientHeight}`;
+export function placeLineNos(root, all = true) {
+  const todo = $$(".rd-body", root).filter((body) => all || !body.getClientRects().length || fitSize.get(body) !== sizeOf(body));
   // the fit test sets the book's breaks for a moment: scroll anchoring must not follow that transient layout (it moved
   // the reader's place when furigana were toggled on a phone)
   const html = document.documentElement, y = scrollY;
   html.style.overflowAnchor = "none";
-  $$(".rd-body", root).forEach((body) => { if (body.getClientRects().length) fitBookLines(body); });
+  todo.forEach((body) => { if (body.getClientRects().length) fitBookLines(body); });
   if (Math.abs(scrollY - y) > 1) scrollTo(0, y);
   html.style.overflowAnchor = "";
-  $$(".rd-body--nums", root).forEach((body) => {
+  todo.filter((body) => body.classList.contains("rd-body--nums")).forEach((body) => {
     $$(".ln-no", body).forEach((x) => x.remove());
     if (!body.getClientRects().length) return;
     const vert = getComputedStyle(body).writingMode.startsWith("vertical");
@@ -400,6 +405,7 @@ export function placeLineNos(root) {
       body.append(el);
     });
   });
+  todo.forEach((body) => (body.getClientRects().length ? fitSize.set(body, sizeOf(body)) : fitSize.delete(body)));
 }
 
 // ---------- interactive: ○× and choices (graded like the TRY exercises), bubbles, compose ----------

@@ -84,7 +84,7 @@ function docTitle(main) {
   const l = main.dataset.ch && lessonOf(main.dataset.ch);
   return (l ? `第${l.id}課 – ` : "") + "Quartet II 中級日本語 Interactive";
 }
-const layout = (root) => { placeLineNos(root); wireTracks(root); };
+const layout = (root, all) => { placeLineNos(root, !!all); wireTracks(root); };
 
 export const QUARTET = {
   pages: [["about", "本書について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"], ["kanji", "漢字", "Kanji"], ["drill", "練習", "Drill"]],
