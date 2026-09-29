@@ -31,7 +31,7 @@ TRY.registerLinks([
   { k: "まい", ids: ["n2:93 〜まい", "q2:11-2 〜まい"], en: "Same pattern, two uses: \"surely not\" (conjecture) and \"I will never\" (resolution)." },
   { k: "末に", ids: ["n2:124 〜{末|すえ}（に）", "q2:11-3 〜すえ（に）"], en: "Same pattern: after a long process of ~, finally." },
   { k: "であれ", ids: ["n1:38 〜であれ〜であれ", "q2:11-5 Nであれ", "n2:106 〜にしろ〜にしろ", "q2:11-8 いずれにしても／せよ／しろ"], en: "\"Whether A or B, the same holds\": Nであれ, AであれBであれ, the less formal にしろ〜にしろ; いずれにしても: \"either way.\"" },
-  { k: "かねない", ids: ["n2:27 〜かねない", "q2:11-6 〜かねない"], en: "Same pattern: a bad outcome could result (誤解を招きかねない)." },
+  { k: "かねない", ids: ["n2:27 〜かねない", "q2:11-6 〜かねない", "n1:105 Vかねる"], en: "かねない: a bad outcome could result (誤解を招きかねない); look-alike かねる: can't bring oneself to, politely unable (お答えしかねます)." },
   { k: "さておき", ids: ["n2:26 〜はともかく（として）", "q2:11-7 Nはさておくとして／さておき"], en: "Same function: setting N aside for now to talk about something else." },
   { k: "とばかりは言えない", ids: ["n2:25 〜というものではない", "q2:11-9 〜とばかりは言えない"], en: "Both deny that a common belief is always true, \"not necessarily\"; というものではない often follows a formula like 〜ばいい." },
   { k: "とする", ids: ["n2:16 〜を〜とする", "q2:11-10 Nとする"], en: "Both mean \"treat as N, set as N\"; N2 focuses on AをBとする with nouns like 目的, 中心, 対象." },

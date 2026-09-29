@@ -662,7 +662,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**AなりBなり** names two sample options and leaves the rest open: *A or B or something like that*. The speaker cares that some step is taken, not which one, so it suits advice, suggestions and instructions (〜ばいい, 〜ほうがいい, 〜てください). With verbs the pair ends in する: 買うなり作るなりして (①).\n\n- Past facts take 〜たり〜たり instead: 薬を飲んだり病院に行ったりした (*I took medicine and went to the doctor*).\n- 何なり leaves the list fully open: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nTRY! N1 teaches the same pattern and warns against the look-alike **V-るなり**, *as soon as*. Compare **Nであれ** (L11-5), which says the choice makes no difference to the outcome."
     },
     {
      "t": "note",
@@ -693,7 +694,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "いくら父親との関係が悪かったとしても、彼は親にそんなひどいことは言う**まい**。",
-         "tr": "No matter how bad his relationship with his father may have been, he surely wouldn't say such a terrible thing to his parent."
+         "tr": "No matter how bad his relationship with his father may have been, he surely wouldn't say such a terrible thing to his own father."
         },
         {
          "n": 3,
@@ -746,7 +747,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜まい** is the negative partner of 〜う／〜よう and belongs to writing, speeches and old-fashioned speech; in conversation people say 〜ないだろう, or もう〜ない for a resolution.\n\n- Conjecture sounds confident but is still a guess, usually drawn from reasoning (〜のだから, いくら〜ても ②).\n- Resolution is first person and usually framed by と思う／と決める／と誓う (⑤).\n- Set phrases: 〜ことはあるまい (*there's surely no need to ~*), 〜しかあるまい (*there's probably no choice but ~*), 〜のではあるまいか (Reading 2).\n\nまい already negates: ✗行かないまい. Reading 2's 言いきれまい combines it with L11-9: *can hardly be dismissed as*. TRY! N2 teaches the same two uses, plus 〜（よ）うか〜まいか, *whether or not to ~*."
     },
     {
      "t": "note",
@@ -836,7 +838,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜すえ（に）** presents a result as the end point of a long, effortful process: deliberation, trial and error, a hard-fought contest. It is written and fairly formal; conversation tends to say 〜て、結局… or やっと….\n\n- Before it: V-た (悩んだ, 話し合った) or an action noun + の (接戦の, 検討の); ✗悩むすえ.\n- As a modifier: 悩んだすえの決断 (*a decision reached after much agonizing*).\n- The result can be good, neutral or disappointing (③).\n\nTRY! N2 teaches the same 末（に） next to **〜あげく（に）**, which is used when the long process ends badly: さんざん迷ったあげく、何も買わなかった (*after dithering forever, I bought nothing*). 月末 and 年末 (*end of the month / year*) are the unrelated time word 末."
     },
     {
      "t": "note",
@@ -969,7 +972,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nまで** marks N as the far end of a range: things have gone so far that they now take in N, which the speaker finds surprising, excessive or annoying. It is close to **さえ** and **も**, with a different focus:\n\n- まで piles N on top of what is already there: 雨に加えて、風まで強くなってきた (*and now even the wind has picked up*).\n- さえ singles out N as the extreme case and is favored in negative sentences: 自分の名前さえ書けない (*can't even write his own name*).\n- も is the neutral *also, even*.\n\nBecause it expresses escalation, 〜だけでなく〜まで (②) is a natural frame. **〜どころか** (L8-1) often ends in まで for the same climbing effect."
     },
     {
      "t": "note",
@@ -1013,7 +1017,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "リーさん、サモスン社に就職が決まったけど、仕事内容が気に入らないんだって。",
-           "tr": "Lee got hired at Samosun, but apparently isn't happy with the kind of work it is."
+           "tr": "Lee landed a job at Samosun, but I hear he doesn't like the work he'll be doing."
           },
           {
            "sp": "B",
@@ -1078,13 +1082,14 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "理由が何__であろうと__、人を{傷|きず}つけることを言うべきではない。（＝[#5]）",
-           "tr": "Whatever the reason may be, you should not say things that hurt people. (= 5)"
+           "tr": "Whatever the reason may be, you should not say things that hurt people. (= [#5])"
           }
          ]
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nであれ** comes from an old imperative of である, *be it N*: whatever N turns out to be, the main clause holds. It belongs to writing and formal speech; conversation says Nでも or Nだとしても.\n\n- With a question word (どんな, 何, 誰) it means *no matter what / who* (①②⑤); たとえ in front strengthens it (④).\n- The main clause is a general judgment, rule or duty (〜べきだ, 〜てはいけない), not a report of one past event.\n- Verb clauses take **〜（よ）うと** or 〜ても instead: 何を言われようと (*whatever they say to you*).\n\nTRY! N1 teaches **AであれBであれ** (③); TRY! N2's **AにしろBにしろ** is the same idea one step less formal. **いずれにしても** (L11-8) sums up alternatives already mentioned."
     },
     {
      "t": "note",
@@ -1245,7 +1250,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜かねない** is a warning: from the present situation the speaker sees a real risk of a bad result. It is used only for undesirable outcomes; for neutral or good possibilities, use かもしれない: ✗合格しかねない.\n\n- It follows the ます-stem, passives included: 誤解されかねない (*could be misunderstood*). Polite かねません is common in advice (key example).\n- A conditional usually sets it up: 〜と／〜ば／〜たら…かねない (①–③).\n- With a person + なら (④), it is a judgment of character: *he's just the type to do it*.\n\nReading 1's 無礼にもなりかねない adds も, *even*: presumption can shade into outright rudeness. TRY! N2 teaches the same 〜かねない next to the more formal **〜おそれがある**, which also follows nouns: 台風のおそれ."
     },
     {
      "t": "note",
@@ -1315,7 +1321,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nはさておき** shelves N as a side issue so the speaker can get to what matters now. Two uses follow from that: changing the subject (冗談はさておき, *joking aside*, ①) and setting a weak point against a strong one (見た目はさておき、味は…, ②). It is somewhat bookish; everyday speech often uses **〜はともかく**, and the full さておくとして is rarer still.\n\n- It also follows 〜かどうか and question-word clauses: 本当かどうかはさておき (*whether or not it's true*).\n- It does not mean *regardless of*: for a rule that applies in every case, use 〜を問わず or 〜にかかわらず.\n\nTRY! N2's **〜はともかく（として）** is nearly interchangeable in the contrast use; さておき is the more natural choice for changing the topic."
     },
     {
      "t": "note",
@@ -1407,7 +1414,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**いずれにしても** closes a discussion of open alternatives: whichever turns out to be true or gets chosen, the next point stands. It usually follows a sentence that lays out options or uncertainty (①–③) and introduces a conclusion, a duty or advice (〜なければならない, 〜ほうがいい).\n\n- Casual speech often says **どっちにしても**; にせよ／にしろ lean written.\n- **とにかく** is broader: it can brush a matter aside without any options in view (とにかく急いで, *just hurry*).\n- いずれ alone means *someday, sooner or later*: いずれわかる (*you'll understand eventually*).\n\nIt is the set-phrase form of TRY! N2's **AにしろBにしろ**, with いずれ (*whichever*) standing in for the list."
     },
     {
      "t": "note",
@@ -1439,7 +1447,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "大学の勉強で大切なことは知識を得ることである**とばかりは言えない**だろう。得た知識をどのように使うかも大切だ。",
-         "tr": "It probably can’t be said that the only important thing about college study is gaining knowledge. How you use the knowledge you gain matters too."
+         "tr": "It probably can’t be said that gaining knowledge is all that matters in college study. How you use the knowledge you gain matters too."
         },
         {
          "n": 2,
@@ -1492,7 +1500,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜とばかりは言えない** is a partial denial: X is often true, or commonly believed, but not always, and the speaker has a counterpoint in mind. ばかり (*only*) is what makes it partial; 〜とは言えない alone denies X outright. The everyday equivalent is 〜とは限らない (*not always*).\n\n- Hedging adverbs often lead in: 一概に (②), あながち (④), 必ずしも.\n- 言い切れない (*can't state flatly*) and 言い切れまい (with L11-2) are more cautious and more written; Reading 2 uses the latter.\n- A sentence giving the other side usually follows (①③).\n\nTRY! N2's **〜というものではない** also rejects a common belief, typically a formula like 〜ばいい: 高ければいいというものではない (*pricier isn't necessarily better*)."
     },
     {
      "t": "note",
@@ -1563,7 +1572,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nとする** declares how something is to be treated, by whoever sets the rules or by convention: *count as, regard as, set as*. It is formal: regulations, exam instructions, notices, academic prose (①②).\n\n- 〜ものとする (②) is the stock phrase of rules and contracts: *shall be deemed*.\n- The passive 〜とされる (③④) reports a general view without naming who holds it: *is considered, is said to be*.\n- After a clause it can mean *suppose*: 仮に〜とすると (*assuming ~*); Reading 2's 〜とするならば is *if we grant that ~*.\n\nTRY! N2's **〜を〜とする** uses the same verb with role nouns: 利益を目的とする (*aimed at profit*), 高校生を対象とした調査 (*a survey of high school students*)."
     },
     {
      "t": "note",
@@ -1677,7 +1687,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nでも** offers N as one casual example so that a suggestion or request sounds light and unforced: お茶でも (*tea or something*). The speaker isn't insisting on N, which is why Reading 2 counts it among the ways Japanese blurs an invitation.\n\n- It goes with suggestions, invitations, requests and wishes (〜たら？, 〜ない？, 〜ませんか, 〜たい), not with statements of fact: ✗昨日はテレビでも見た.\n- Other でも: after a question word it means *any* (何でも, いつでも); in 子どもでもわかる it means *even* (*even a child could understand*).\n- Casual speech does the same job with **なんか** or **とか**: お茶なんかどう？\n\nCompare **〜なり〜なり** (L11-1), which offers two sample options instead of one."
     }
    ]
   },
@@ -1738,7 +1749,7 @@ TRY.registerLesson({
      "tr": [
       "When you study Japanese, you notice differences from your native language, which in my case is English. Thinking about the differences is interesting: words that look similar but differ slightly in meaning or usage, words that exist in Japanese but not in English, and so on. For example, muzukashii (\"difficult\") is one of the words whose usage and nuance are different.",
       "I noticed the difference when I proposed a one-week trip as an event for the international exchange club. A senior member told me, \"I think that plan is muzukashii,\" but I thought, \"It's precisely because it's difficult that I want to try it,\" so I revised my proposal and went to talk to the senior member again. But I was told, \"I told you that plan was muzukashii, didn't I? Think of something else,\" and I ended up planning a different event. That was when I finally realized that the Japanese word muzukashii has a meaning that the English word doesn't.",
-      "First, in Japanese, if you propose something and are told it is muzukashii, it seems that it often means \"impossible.\" In English, by contrast, if you are told something is \"difficult\" in such a situation, you don't take it to mean \"impossible.\" Rather, you often take it to mean \"difficult means 'challenging' (a level you can achieve if you make the effort), so it is worth trying.\"",
+      "First, in Japanese, if you propose something and are told it is muzukashii, it seems that it often means \"impossible.\" In English, by contrast, if you are told something is \"difficult\" in such a situation, you don't take it to mean \"impossible.\" Rather, you often think, \"If it's difficult, that means it's 'challenging' (achievable with effort), so it's worth trying.\"",
       "Muzukashii is a simple Japanese word I learned at the beginner level, but it made me keenly aware of how difficult communication across cultures is."
      ],
      "roles": [
@@ -2212,7 +2223,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "＿＿を言って、＿＿。",
-            "tr": "Saying something so ＿＿ — ＿＿."
+            "tr": "For asking something so ＿＿, ＿＿."
            },
            "answer": [
             "勝手",
@@ -3321,7 +3332,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "「言葉の変化」というタイトルで言語学の先生が大学の講演会で話しています。\n「見れる」と「読まさせていただく」は、それぞれ1〜4の{段階|だんかい} (stage) のどれですか。",
-      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event.\nWhich of stages 1–4 is each of \"mireru\" and \"yomasasete itadaku\" at?"
+      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event.\nAt which of stages 1–4 is \"mireru,\" and at which is \"yomasasete itadaku\"?"
      }
     },
     {
@@ -3465,7 +3476,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "「言葉の変化」というタイトルで言語学の先生が大学の講演会で話しています。「見れる」と「読まさせていただく」は、それぞれ1〜4の{段階|だんかい}のどれですか。",
-      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event. Which of stages 1–4 is each of \"mireru\" and \"yomasasete itadaku\" at?"
+      "tr": "A linguistics professor is giving a talk titled \"Language Change\" at a university lecture event. At which of stages 1–4 is \"mireru,\" and at which is \"yomasasete itadaku\"?"
      },
      "lines": [
       {
@@ -3706,7 +3717,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "そっか。でも、内容は__さておき__、SNSのおかげでやりとりする相手は増えているわけだから、SNSがコミュニケーションに悪い影響を与えている__とばかりは言えない__んじゃないかな。",
-       "tr": "I see. But setting aside what we actually say, thanks to social media the number of people we interact with has gone up, so I don't think you can say social media is only a bad influence on communication."
+       "tr": "I see. But setting aside what we actually say, thanks to social media we're interacting with more people, so you can't necessarily say social media is having a bad influence on communication, can you?"
       },
       {
        "sp": "サ",
