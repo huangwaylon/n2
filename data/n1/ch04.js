@@ -339,7 +339,7 @@ TRY.registerChapter({
             { q: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい{病弱|びょうじゃく}だ。", answer: "にひきかえ", en: "In contrast to his robust older brother, the younger brother is so sickly that he ends up in the hospital even with a cold." },
             { q: "一流の{通訳|つうやく}＿＿、いろいろな分野の知識が要求されるそうだ。", answer: "ともなると", en: "I hear that when you're a top-class interpreter, you're expected to have knowledge of all kinds of fields." },
             { q: "{我|わ}が{社|しゃ}の{顧客|こきゃく}情報は、個人情報{保護|ほご}法＿＿{適正|てきせい}に処理し、管理{致|いた}します。", answer: "に{則|そく}して", en: "Our company processes and manages customer information properly in accordance with the Personal Information Protection Act." },
-            { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say attorney Sato is the only one." },
+            { q: "{医療|いりょう}に関する{件|けん}ならば、{佐藤弁護士|さとうべんごし}＿＿他にはいないと言われている。", answer: "をおいて", en: "When it comes to medical cases, they say there is no one to turn to but attorney Sato." },
           ],
         },
         {

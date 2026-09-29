@@ -310,7 +310,7 @@ TRY.registerChapter({
                   q: "2年前に一緒に会社を作ったころから、もう経営に対する考え方が（　）から、あの2人は、別れるべくして別れたのだと思う。",
                   options: ["違っていた", "{一致|いっち}していた"],
                   answer: 0,
-                  en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think those two split up because they were bound to.",
+                  en: "Ever since they set up the company together two years ago, their ideas about management were already different, so I think it was inevitable that those two would split up.",
                 },
                 {
                   q: "このアニメは、ヒットするべくしてヒットしたと言える。{原作|げんさく}が（　）。その上、{宣伝|せんでん}にも力を入れていたのだから。",
@@ -527,7 +527,7 @@ TRY.registerChapter({
             { ja: "{強行採決|きょうこうさいけつ}をめぐる国会での{乱闘騒|らんとうさわ}ぎは、全く{正視|せいし}にたえない。", en: "The brawl in the Diet over the forced vote is simply too disgraceful to look at." },
           ],
           xref: "☞ 69. 感謝の{念|ねん}**にたえません**",
-          deepDive: "**V-る / N + にたえない** (堪える, *bear*) says something is too bad, vulgar or pitiful to look at or listen to: 聞くにたえない言葉 (*language unbearable to hear*). It is a strong, written-style judgment of the object, made from the speaker's pained or disgusted point of view.\n\nConnection: only a few perception words: 聞く, 見る, 読む and the nouns 正視 and 傾聴. New combinations don't work (✗食べるにたえない).\n\nThe ☞ points to the other use, **N + にたえない** (#69) after emotion nouns: 感謝の念にたえません (*I cannot thank you enough*), very formal and criticizing nothing. The word before decides: a perception word means *unbearable*, an emotion noun means *deeply felt*.\n\nCompare:\n- **〜にたえる**: the positive, *worth ~, stands up to ~* (鑑賞にたえる作品 *a work worth appreciating*).\n- **〜にたる** (#121): *worthy of ~* (信頼するにたる人物).\n- **見ていられない**: the everyday *I can't bear to watch*, often sympathetic rather than judgmental.\n\nPitfall: using it for one's own inability (✗忙しくて聞くにたえない).\n\nJLPT cue: 聞く / 見る / 読む + blank, with something ugly or noisy described, points to にたえない.",
+          deepDive: "**V-る / N + にたえない** (堪える, *bear*) says something is too bad, vulgar or pitiful to look at or listen to: 聞くにたえない言葉 (*language unbearable to hear*). It is a strong, written-style judgment of the object, made from the speaker's pained or disgusted point of view.\n\nConnection: only a few perception words: 聞く, 見る, 読む and the noun 正視 (正視にたえない). New combinations don't work (✗食べるにたえない).\n\nThe ☞ points to the other use, **N + にたえない** (#69) after emotion nouns: 感謝の念にたえません (*I cannot thank you enough*), very formal and criticizing nothing. The word before decides: a perception word means *unbearable*, an emotion noun means *deeply felt*.\n\nCompare:\n- **〜にたえる**: the positive, *worth ~, stands up to ~* (鑑賞にたえる作品 *a work worth appreciating*).\n- **〜にたる** (#121): *worthy of ~* (信頼するにたる人物).\n- **見ていられない**: the everyday *I can't bear to watch*, often sympathetic rather than judgmental.\n\nPitfall: using it for one's own inability (✗忙しくて聞くにたえない).\n\nJLPT cue: 聞く / 見る / 読む + blank, with something ugly or noisy described, points to にたえない.",
           see: [69, 121],
           index: ["〜にたえない②", "V-るにたえない", "Nにたえない", "聞くにたえない", "見るにたえない"],
         },
@@ -963,7 +963,7 @@ TRY.registerChapter({
             pieces: ["期待していなかった", "あまり", "値段だけに", "値段が"],
             order: [3, 2, 1, 0],
             star: 2,
-            en: "Given what it cost (it was cheap), I didn't expect much of the melon I bought yesterday, but it was actually pretty tasty.",
+            en: "Given how cheap it was, I didn't expect much of the melon I bought yesterday, but it was actually pretty tasty.",
             why: { en: "値段が値段だけに (#53) + あまり期待していなかった: “the price being what it was, I didn't expect much”. Order 4→3→2→1, so ★ = あまり." },
           },
           {
