@@ -1,10 +1,10 @@
 #!/bin/sh
 # High-resolution strips of a book page for reading small furigana.
-# usage: tools/zoom.sh [n1|n2|q2] PAGE [STRIP]   → prints image paths; STRIP = 1|2|3 (top/middle/bottom), default all;
+# usage: tools/zoom.sh [n1|n2|q1|q2] PAGE [STRIP]   → prints image paths; STRIP = 1|2|3 (top/middle/bottom), default all;
 #        STRIP = page → the whole page at reading resolution (layout). Book default n2; PAGE is the PDF page.
 #        (Use this where the Read tool can't open the PDF — it needs pdftoppm, which zoom.sh can do without.)
 #        Read the printed PNG paths with the Read tool.
-BOOK=n2; case "$1" in n1|n2|q2) BOOK=$1; shift;; esac
+BOOK=n2; case "$1" in n1|n2|q1|q2) BOOK=$1; shift;; esac
 P=$(printf "%03d" "$1"); OUT=/tmp/${BOOK}zoom; mkdir -p $OUT
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # render: pdftoppm (poppler) if installed, else tools/lib/pdfcrop.swift (PDFKit, compiled once into /tmp)
@@ -13,6 +13,25 @@ crop() { # PDF PAGE DPI X Y W H OUT-without-.png
   bin=/tmp/pdfcrop-bin; [ -x $bin ] && [ $bin -nt "$ROOT/tools/lib/pdfcrop.swift" ] || swiftc -O -o $bin "$ROOT/tools/lib/pdfcrop.swift" 2>/dev/null
   $bin "$1" "$2" "$3" "$4" "$5" "$6" "$7" "$8.png"
 }
+if [ "$BOOK" = q1 ]; then
+  # Quartet I: US-letter pages (612×792 pt) with the printed page in the middle (x 60–552, y 40–750 pt).
+  # Not in git (135 MB): see docs/Q1-TRANSCRIPTION.md
+  PDF="$ROOT/Quartet1.pdf"
+  for s in ${2:-1 2 3}; do
+    f=$OUT/p$P-$s.png
+    if [ ! -f "$f" ]; then
+      if [ "$s" = page ]; then
+        crop "$PDF" "$1" 110 90 60 755 1090 "${f%.png}"
+      else
+        # three overlapping strips of 1100 px at 300 dpi
+        y=$(( 160 + (s - 1) * 900 ))
+        crop "$PDF" "$1" 300 240 $y 2080 1100 "${f%.png}"
+      fi
+    fi
+    echo "$f"
+  done
+  exit 0
+fi
 if [ "$BOOK" = q2 ]; then
   # Quartet II: phone screenshots of a PDF viewer, 2881×5121 px at 192 dpi; the printed page is the fixed box
   # x 48–2830, y 599–4522 (black bars above and below). Not in git (311 MB): see docs/Q2-TRANSCRIPTION.md
