@@ -7,7 +7,8 @@ Page map and conventions: `docs/Q1-TRANSCRIPTION.md`. Remove this file when ever
 
 - [x] Cross-book links: 76 groups / 182 links, 10 `see:` contrasts, N1 #23 xref cue (b63be1b, 9dd57d0)
 - [x] English QA: Q2 vocab 07/08/11/12, N2/N1 vocab sample, UI text, exercise/script/まとめ sample, deep-dive sample
-- [ ] Layout sweep all routes × 320/390/820/1024/1280/1440, light/dark, iOS simulator (agent running)
+- [x] Layout sweep (b00fc4c, 7fd8ebd): 149 routes × 6 widths ± EN ± furi, 0 overflow / clipping / small targets;
+      book switcher collapses into the drawer below 430 px. No iOS simulator on this machine (xcrun simctl missing)
 - [x] Performance (cb7d400, ea22bb0): data loads from boot.js in parallel with modules, modulepreload, Quartet line-number
       refit only for changed readings; FCP −30–50 %. Open: lazy-load Quartet vocab/kanji/challenge files; chunked
       render of the all-words vocab page (7 600 nodes)
@@ -60,4 +61,6 @@ Each chunk: transcribed by one agent, reviewed line by line against the scan by 
       focus, landmarks, reduced motion)
 - [ ] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
       light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
+- [ ] Quartet lettered/numbered underline label after a line wrap sits under the 2nd line and can hit a reading
+      (Q2 L7 書く 390, 遠慮) — markup.js positioning; needs a WebKit check
 - [ ] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
