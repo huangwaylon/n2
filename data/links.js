@@ -5,7 +5,7 @@
 TRY.registerLinks([
   { k: "つつある", ids: ["n2:71 〜つつある", "q2:7-1 〜つつある"], en: "Same pattern: a change that is gradually taking place (人口が減りつつある)." },
   { k: "際に", ids: ["n2:7 〜{際|さい}（に）", "q2:7-2 〜際（に）"], en: "Same pattern: formal \"when ~,\" common in instructions and notices." },
-  { k: "てしょうがない", ids: ["q2:7-3 〜てしょうがない", "n2:121 〜てならない", "n1:120 〜を{禁|きん}じえない"], en: "A feeling one can't hold back: conversational てしょうがない, more formal てならない, written N1 Nを禁じえない (同情を禁じえない)." },
+  { k: "てしょうがない", ids: ["q2:7-3 〜てしょうがない", "n2:121 〜てならない", "n1:120 〜を禁じえない"], en: "A feeling one can't hold back: conversational てしょうがない, more formal てならない, written N1 Nを禁じえない (同情を禁じえない)." },
   { k: "こそ", ids: ["q2:7-4 〜こそ", "n2:53 〜ばこそ", "n2:139 〜てこそ"], en: "Quartet's XからこそY stresses the reason; N2's 〜ばこそ is its formal equivalent, and 〜てこそ means Y is only possible by doing X." },
   { k: "むしろ", ids: ["q2:7-5 むしろ", "n2:28 〜というより"], en: "AというよりB says B describes it better than A; Quartet teaches it strengthened as XというよりむしろY." },
   { k: "にもかかわらず", ids: ["n2:21 〜にもかかわらず", "q2:7-6 〜にもかかわらず"], en: "Same pattern: \"despite ~,\" with a result that goes against what X would lead one to expect." },
@@ -56,8 +56,8 @@ TRY.registerLinks([
   { k: "問わず", ids: ["n2:2 〜を{問|と}わず", "n1:54 N₁といわずN₂といわず"], en: "Both mean \"without distinction\"; といわず…といわず pairs two nouns (昼といわず夜といわず ≈ 昼夜を問わず)." },
   { k: "ものなら", ids: ["n2:122 〜ものなら", "n1:57 Vようものなら"], en: "Look-alikes: potential + ものなら wishes for the unlikely; N1's volitional + ものなら warns of a bad result." },
   { k: "わけにはいかない", ids: ["n2:57 〜わけにはいかない", "n1:63 VにVない", "n1:117 〜ずにはすまない"], en: "わけにはいかない: can't for some reason (ないわけにはいかない: must); N1's VにVない adds wanting to but being held back, ずにはすまない is a formal must." },
-  { k: "ったら", ids: ["n2:80 〜ったら", "n1:76 〜ときたら"], en: "Both raise a person or thing as the topic to complain about or criticize it; ったら is casual, ときたら also written." },
-  { k: "のなんのって", ids: ["n2:78 〜のなんのって", "n1:83 〜といったらない／〜といったらありゃしない"], en: "Same meaning: so ~ it can't be put into words; のなんのって is casual speech, といったらない is also written (ありゃしない is spoken)." },
+  { k: "ったら", ids: ["n2:80 〜ったら", "n1:76 〜ときたら"], en: "Both raise a person or thing as the topic to complain about or criticize it; ときたら is the more critical of the two." },
+  { k: "のなんのって", ids: ["n2:78 〜のなんのって", "n1:83 〜といったらない／〜といったらありゃしない"], en: "Same meaning: so ~ it can't be put into words; both are conversational, ありゃしない the most casual." },
   { k: "ほかならない", ids: ["n2:100 〜にほかならない", "n1:118 〜でなくてなんだろう"], en: "Both insist that something is truly N; N1's でなくてなんだろう says it as a literary rhetorical question." },
   { k: "以来", ids: ["n2:9 〜{以来|いらい}", "n1:91 Vてからというもの"], en: "Both mean \"ever since\"; てからというもの stresses a big change that has lasted since." },
   { k: "もかまわず", ids: ["n2:127 〜もかまわず", "n1:17 〜をよそに", "n1:94 Nをものともせず（に）"], en: "Acting regardless: もかまわず ignores what one should mind (人目, 迷惑), をよそに others' concern, をものともせず braves obstacles (praise)." },
@@ -68,4 +68,5 @@ TRY.registerLinks([
   { k: "からすれば", ids: ["n2:60+2 〜からすると／〜からすれば／〜からして", "n1:81 〜にすれば／〜にしたら／〜にしても"], en: "Both mean \"from the standpoint of\"; N1's にすれば imagines how another person sees it." },
   { k: "かかわらず", ids: ["n2:5 〜にかかわらず", "n1:79 〜（よ）うが〜まいが／〜（よ）うと〜まいと"], en: "VるVないにかかわらず and N1's VようがVまいが both mean \"whether or not\"; the N1 form is more emphatic." },
   { k: "に限る", ids: ["n2:104 〜に{限|かぎ}る", "n1:60 〜に{越|こ}したことはない"], en: "Both say X is best; に限る is a personal conviction (夏はビールに限る), に越したことはない a general, common-sense recommendation." },
+  { k: "たとえ〜ても", ids: ["n2:125 たとえ〜ても", "n1:78 〜（よ）うが／〜（よ）うと"], en: "Both: \"even if, no matter what\"; N1's volitional ようが／ようと is more emphatic and often defiant (何を言われようと)." },
 ]);
