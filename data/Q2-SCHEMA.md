@@ -1,4 +1,10 @@
-# Quartet II data schema (`data/q2/`)
+# Quartet data schema (`data/q2/`, `data/q1/`)
+
+This schema covers both Quartet books: *Quartet II* (`data/q2/`, lessons 7–12) and *Quartet I* (`data/q1/`, lessons 1–6;
+page map in `docs/Q1-TRANSCRIPTION.md`). Page numbers below are Quartet II's. Quartet I differs only in its numbers and
+names: book page = PDF − 26, 別冊 = PDF − 288; its ブラッシュアップ units are 初級文法チェック ①–⑦ (kind `"grammar"`,
+ids `g1`–`g7`, same blocks as `"challenge"`) and 漢字チャレンジ ①–⑫ (`k1`–`k12`); strategies ①–⑩. The per-book names
+the renderer shows (`shortTitle`, `titleJa`, `unitKinds`, `accent`) are in each `book.js`.
 
 *4技能でひろがる 中級日本語カルテット II* (The Japan Times, 2020) is a four-skills textbook, not a grammar-point book, so it
 has its own data model: every lesson is a list of sections (読む・書く・話す・聞く), and every section is a list of
@@ -274,6 +280,9 @@ TRY.registerUnits([
   { id: "k13", kind: "kanji", no: 13, title: "{部首|ぶしゅ}「さんずい（氵）」", lesson: 7, page: 226, blocks: [Block] },
 ]);
 ```
+
+`kind` is one of the book's `unitKinds` (book.js, in sidebar order): Q2 `"challenge"` 上級へのチャレンジ, Q1 `"grammar"`
+初級文法チェック, both `"kanji"` 漢字チャレンジ.
 
 ## Front matter (`front.js`)
 

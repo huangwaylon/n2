@@ -1,6 +1,6 @@
 // Grammar shared across the books: each group is the same or a closely related pattern in TRY! N2, TRY! N1 and
-// Quartet II, shown under each point as 他の本 Other books. "book:id pattern" — id is the point number (n2, n1), the
-// Plus under a point as N+ (the pattern is then the Plus pattern), or lesson-note for Quartet II ("q2:7-3"); the
+// Quartet I / II, shown under each point as 他の本 Other books. "book:id pattern" — id is the point number (n2, n1), the
+// Plus under a point as N+ (the pattern is then the Plus pattern), or lesson-note for Quartet ("q1:1-3", "q2:7-3"); the
 // pattern is copied as printed in the data (ruby markup included). Checked by tools/links.js.
 TRY.registerLinks([
   { k: "つつある", ids: ["n2:71 〜つつある", "q2:7-1 〜つつある"], en: "Same pattern: a change that is gradually taking place (人口が減りつつある)." },
