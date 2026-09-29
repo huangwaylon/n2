@@ -1,0 +1,57 @@
+読みのストラテジー6
+強調構文「Xのは Yだ」Emphatic construction: XのはYだ
+きょうちょうこうぶん
+XのはYだ is a sentence pattern commonly used in Japanese writing to emphasize something. Sentences
+using this construction play a key role in compositions.
+ストラテジー
+▶ Look for XのはYだ sentences and determine what they are emphasizing.
+1
+強調構文のパターン Emphatic sentence construction
+きょうちょうこうぶん
+私は土曜日にすしを食べた。
+どようび
+（a）
+（b）
+（c）
+強調するもの（what to emphasize）
+きょうちょう
+（a） 私（だれが）
+→
+（b） 土曜日（いつ）
+（c） すし（何を）
+（X）
+土曜日にすしを食べた
+→
+私がすしを食べた
+→
+私が土曜日に食べた
+（Y）
+のは
+私
+だ。
+のは土曜日
+だ。
+のは
+すし
+だ。
+・ In this emphatic construction, the noun being emphasized is embedded in the predicate （〜だ）， and the
+rest of the sentence is placed before ～のは（here, the subject of the non-emphatic construction，私は、is
+replaced with 私が， as seen in （b） and （c））.
+2
+強調構文の効果 Emphatic effect
+きょうちょうこうぶん
+こうか
+（a） 外国人は日本でいろいろなことに驚く。私はトイレに驚いた。友人はコンビニに驚い
+たらしい。
+（b）外国人は日本でいろいろなことに驚く。私が驚いたのはトイレだ。なぜなら、日本のト
+イレには「おもてなし」が感じられるからだ。
+・ The underlined sentence in （a） is in the normal construction and thus does not emphasize any of its
+elements. Example （b） uses the XのはYだ pattern to emphasize トイレ， and the next sentence explains
+the reason for the writer's surprise at Japanese restrooms. In this way, this pattern can be used to
+introduce a topic with greater impact or stronger focus.
+／下線の強調構文を普通の文にしなさい。 Change the underined emphatic construction into the
+plain construction.（読み物1：行13～16）
+パク：僕もそう思います。他の国の言語や文化を学ぶ時に一番重要なのは、何
+よりも実際に経験することです。僕は日本の政治や歴史に興味があるの
+で、広島の原爆ドームに行ったり、日本人の意見を聞いたりしています。
+106

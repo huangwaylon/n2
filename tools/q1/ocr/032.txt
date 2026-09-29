@@ -1,0 +1,44 @@
+読みのストラテジー①
+名詞修飾 Noun modification
+めいし しゅうしょく
+Sentences that contain noun-modifying clauses are much easier to decipher if you' re able to accurately
+parse their structure. The key here is to understand where the noun-modifying clause starts and ends.
+ストラテジー」
+▶ Noun-modifying clauses always come before the modified noun, and their predicate is in the
+plain form. If you find a verb right before a noun, it is very likely the end of a noun-modifying
+▶ The subject of a noun-modifying clause is typically marked with が rather than は， so look for a
+が that might help you figure out where the noun-modifying clause starts.
+1
+名詞修部を見つける Identifying the noun-modifying clause
+めいし しゅうしょくぶ
+Noun
+（a） 田中さんはパーティーで日本語を勉強している
+3 人に会った。
+たなか
+（b） 田中さんはパーティーで
+日本語を
+動揺している
+2 人に会った。
+・勉強している is a plain-form verb placed right before the noun 人， so we know that it is the predicate of
+a noun-modifying clause.
+・日本語を is the object of 勉強している， so it has to be part of the noun-modifying clause. What about
+the パーティーで before that? Since parties aren't usually an occasion for studying Japanese, we can
+assume that it is not part of the noun-modifying clause.
+2
+助詞「が」に注目する Using the particle が asa clue
+（a） 母は作ったケーキを食べた。
+→「食べた」人＝母。「作った」人は？
+（b）母が作ったケーキを食べた。
+→「作った」人＝母。「食べた」人は？
+・Since the particle in 母は is は， we can tell that 母 is the subject of the entire sentence predicated by 食べ
+た。As the subject of 作った is omitted, we can assume that it is the same as the subject of the sentence，
+meaning 母 is also the subject of 作った。
+・Here, the particle used with 母 is が， which means 母 is the subject of a noun-modifying clause whose
+predicate is 作った. Since the subject of 食べた has been left out, it is likely “T, the person making the
+statement.
+「肉の絵」を修飾する部分はどこからどこまでか。また「描いた」と「見て」の声麺はだれか。
+Where does the clause modifying 肉の絵 start and end？ What is the subject of 嫌いた，and of 見て？
+（読み物1：行 8〜10）
+スタッフが描いた肉の絵を見て、「この肉はゴムのようだ。かたいのか、やわら
+かいのか、考えて描きなさい」と怒ったこともあるらしい。
+006

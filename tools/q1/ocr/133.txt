@@ -1,0 +1,61 @@
+第4課
+読む
+読みのストラテジー①
+動詞の形と動作主 Verb forms and agent
+It can be hard to tell who performed the action described by the passive, causative, causative-passive, and
+Vてもらう forms of verbs.
+ストラテジー
+▶ Look closely at the main verb's form and the particle to figure out who performed the action.
+▶ When the agent and receiver of action are not explicitly stated, use the context as a guide.
+1
+動詞の形と動作法 読んだ人はだれか？ Verb forms and agent Whois the reader？
+Identify the person who performs the action by examining the main verb's form and the particle.
+Verb form
+Example
+Agent is
+marked by
+1.常身形 passive
+み けい
+2. 使役形 causative
+えきけい
+3. 使役受身形
+causative-passive
+4. Vてもらう
+私は母に日記を読まれた。
+親は子どもに本を読ませた。
+に
+にor を
+私は先生に難しい論文を読まされた。
+は・が
+子どもの時、私は母に絵本を読んでもらった。
+に
+5. V（使役形 causative）
+てもらう
+私は友達にマンガを読ませてもらった。
+は・が
+読んだ人
+母
+子ども
+私
+母
+私
+話す
+聞く
+22
+主語や「に」がつく人が省略された場合 Omission of the subject or person marked with に
+子どもの時、母はとてもきびしかった。毎日のように「勉強しなさい」と
+言われて、一日に何時間も勉強させられた。
+（）素身形→言った人は「母」
+便袋票身形→勉強した人は「私」
+（a） Since 言われる is passive, the agent of this action would be the one marked withに， but there is no
+に in this sentence. Consequently, we have to rely on the context to decide whether the words were
+said by 私，or by 母. In most cases, the subject of a passive sentence is 私，meaning that the writer was
+affected by some action done by another person, so it is likely that 私は母に has been omitted from the
+sentence in this example. Therefore, the person who said 勉強しなさい was the mother.
+（b） 勉強させられる is causative-passive, so the agent of this action would be the one marked by は、Since
+we already know 私は母に has been omitted from the sentence, we can tell 私 is the person who did the
+ビ おじぎやあいさつの練習をしたのはだれか。（読み物2：行7〜9）
+初日は、一日中トレーニングを受けた。おじぎや「いらっしゃいませ」「かしこ
+まりました」などのあいさつがきちんとできるようになるまで、何度も練習させ
+られた。
+1107

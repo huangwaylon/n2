@@ -1,0 +1,40 @@
+第1
+課
+読む
+読みのストラテジー②
+指示詞 Demonstrative words
+しじし
+Words starting withこ、そ or あ that serve as simple substitutes for other words （such as これ／それ／あ
+れ、この／その／あの，andここ／そこ／あそこ） are called demonstrative words. Once you determine the
+referent of a demonstrative word in a sentence， you ll have an easier time understanding how that sentence
+relates to the preceding one.
+ストラテジー
+▶ In most cases, demonstrative words point to something that closely precedes them in the text，
+so when you need to figure out what a demonstrative word is referring to, carefully scan the
+words that come before it. Once you think you've found the referent, test it by seeing whether
+the sentence makes sense when that word or phrase is used in place of the demonstrative
+▶ Keep in mind that demonstrative words sometimes refer to an idea encapsulated in longer text，
+such as the entire preceding sentence or paragraph.
+口「それ」が指すものを見つける Identifying the referent of それ
+週末、カレーを食べた。それは、彼女が初めて作ってくれた料理だった。
+（a）
+それは、彼女が初めて作ってくれた料理だった。それ＝料理
+（b） 週末、カレーを食べた。それは、彼女が初めて作ってくれた料理だった。料理→カレー
+↓
+（C）週末、カレーを食べた。カレーは、彼女が初めて作ってくれた料理だった。それ＝カレー
+・In the sentence （a）， the portion 彼女が初めて作ってくれた is a clause modifying 料理. This means that
+the main part of this sentence is それは料理だった， and thus we know that the referent of それ is some
+form of 料理.
+・ Search for words associated with 料理 that precede それ．カレー seems to be the best choice.（b）
+・ Next, test it out by replacing それ with カレー・（c）
+The sentence makes sense, so we can safely assume that カレー is the referent.
+②指が文を指す場もある Sementes the demonstatveword reters to the preceding
+昨日カラオケに行った。その時、好きなアニメソングを歌った。
+話す
+聞く
+⑨
+「それ」が指すものは何か。What does それ refer to in the following？（読み物2：行11~15）
+病院で働き始めた時、病気をなおすための方法がなくて苦しんでいる人がたくさ
+んいるのを知って、ショックを受けました。それが、医者をやめて研究をしよう
+と思った理由の一つだったそうです。
+1007
