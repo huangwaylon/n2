@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "thorough; perfect; with every precaution taken",
     note: "万全を期す (take every possible care, a formal set phrase), 万全の準備 / 態勢, 体調は万全だ (in perfect condition). 万 is read ばん here, as in 万能 (ばんのう), not まん as in 万一.",
     rx: ["まんぜん", "ばんせん", "ばんぜ"],
-    book: { ja: "お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には**{万全|ばんぜん}**を{期|き}して[2]が、", en: "We take every care over the quality control of the products we deliver, but …", at: "ch/8/review" },
+    book: { ja: "お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には**{万全|ばんぜん}**を{期|き}して[2]が、", en: "We take every care over the quality control of the products we deliver to you, but …", at: "ch/8/review" },
     ex: [
       { ja: "{試合|しあい}に{向|む}けて、**{万全|ばんぜん}**の{準備|じゅんび}をした。", en: "I made thorough preparations for the match.", alt: ["{安全|あんぜん}", "{全滅|ぜんめつ}", "{万能|ばんのう}"] },
     ] },

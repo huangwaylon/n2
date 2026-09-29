@@ -292,13 +292,13 @@ TRY.registerChapter({
                   q: "{花村|はなむら}さんが（　）、{送別会|そうべつかい}を始めましょう。",
                   options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"],
                   answer: 0,
-                  en: "Let's start the farewell party as soon as Ms. Hanamura arrives.",
+                  en: "Let's start the farewell party as soon as Hanamura arrives.",
                 },
                 {
                   q: "{花村|はなむら}さんが（　）、{職場|しょくば}の{雰囲気|ふんいき}が明るくなった。",
                   options: ["{来|き}{次第|しだい}", "{来|き}て{以来|いらい}"],
                   answer: 1,
-                  en: "Ever since Ms. Hanamura came, the atmosphere at work has become brighter.",
+                  en: "Ever since Hanamura came, the atmosphere at work has become brighter.",
                 },
                 {
                   q: "お客様からのご{入金|にゅうきん}が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。",

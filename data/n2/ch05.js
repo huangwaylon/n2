@@ -44,7 +44,7 @@ TRY.registerChapter({
               en: "Use the \"[V-~~ます~~] + (っ)きり\" form when you want to say that the situation have continued indefinitely.",
               examples: [
                 { ja: "{妻|つま}は{赤|あか}ん{坊|ぼう}の{世話|せわ}にかかりっきりなので、{掃除|そうじ}や{洗濯|せんたく}は私がしています。", en: "My wife is fully occupied looking after the baby, so I do the cleaning and laundry." },
-                { ja: "{佐藤|さとう}さんは新入社員をつきっきりで{指導|しどう}している。", en: "Mr. Sato is training the new employee, staying by his side the whole time." },
+                { ja: "{佐藤|さとう}さんは新入社員をつきっきりで{指導|しどう}している。", en: "Sato is training the new employee, staying by his side the whole time." },
               ],
             },
             {

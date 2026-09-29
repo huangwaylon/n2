@@ -100,7 +100,7 @@ TRY.registerChapter({
                   q: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、{支持者|しじしゃ}は安心しているようだ。",
                   options: ["あるまい", "あるわけではない"],
                   answer: 0,
-                  en: "His supporters seem relieved, thinking there is little chance Mr. Yamaguchi will lose in this election.",
+                  en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.",
                   why: { en: "The supporters are relieved because they judge his defeat very unlikely → 落選することはあるまい. あるわけではない is a partial denial and doesn't explain their relief." },
                 },
                 {
@@ -148,7 +148,7 @@ TRY.registerChapter({
             { ja: "この料理は{簡単|かんたん}なわりに{豪華|ごうか}に見えるので{来客|らいきゃく}のときによく作るんです。", en: "This dish looks impressive for how simple it is, so I often make it when I have guests." },
             { ja: "彼女は映画が好きだと言うわりには、映画のことを知らない。", en: "For someone who says she loves movies, she doesn't know much about them." },
             { ja: "{祖父|そふ}は{年齢|ねんれい}のわりに若く見える。", en: "My grandfather looks young for his age." },
-            { ja: "{安田|やすだ}さん、テニスが嫌いだと言っていたわりには、{熱心|ねっしん}に練習していますね。", en: "For someone who said he hated tennis, Mr. Yasuda is practicing pretty hard, isn't he?" },
+            { ja: "{安田|やすだ}さん、テニスが嫌いだと言っていたわりには、{熱心|ねっしん}に練習していますね。", en: "For someone who said he hated tennis, Yasuda is practicing pretty hard, isn't he?" },
           ],
           deepDive: "**〜わりに（は）** (割, *proportion*) measures reality against the degree you'd expect from X: *considering X, for X*. The result can beat or fall short of expectations: 安いわりにおいしい (*tasty for the price*), 高いわりにおいしくない. は adds emphasis.\n\nConnection: plain form; なA + な, N + の (年齢のわりに). X implies a degree: price, age, size, effort. **〜と言うわりに** points out that words and deeds don't match: 料理が得意だと言うわりには、何も作らない (*for someone who says she's a good cook, she never makes anything*).\n\nCompare:\n- **〜にしては** (#41): measured against a category or single fact: 初めてにしては上手だ (*good for a first try*). 年のわりに ≈ 年にしては, but with a one-off fact にしては is more natural.\n- **〜だけあって** (#105): the result matches expectations: 老舗だけあって、味がいい (*as you'd expect of an old shop, it tastes good*).\n- **〜のに**: plain contradiction, often with frustration.\n\nPitfall: the adverb わりに／わりと (*fairly*) is unrelated: 今日はわりと暖かい.\n\nJLPT cue: two halves in an unexpected-degree relation call for わりに; halves that match, for だけあって.",
           see: [41, 105],
@@ -438,7 +438,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{新米|しんまい}ドライバーの私[1]、カーナビは{必需品|ひつじゅひん}だ。{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で{目的地|もくてきち}まで道案内をしてくれる。高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。その声は本当に{心配|しんぱい}しているかのようだ。まさに{有能|ゆうのう}な{秘書|ひしょ}だ。地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。だがその彼女もカーナビがあれば道に{迷|まよ}うことはある[2]と思っているらしく、地図を見ていた[3]、いつの間にか寝ていることもある。そうしたら、{秘書|ひしょ}と2人きりのドライブだ。静かでいいと思う{反面|はんめん}、そのドライブにはどこかさびしい[4]。"],
-        en: ["For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we're unlikely to get lost, and sometimes she's looking at the map one minute and, before I know it, she's fallen asleep. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."],
+        en: ["For me, a novice driver, a car navigation system is a necessity. If you enter the information, it guides you to your destination with a map and voice. On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\" Its voice sounds as if it's really worried. It's truly a capable secretary. It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn. But she too seems to think that with a car navigation system we surely won't get lost, and sometimes she's looking at the map one minute and, before I know it, she's fallen asleep. Then it's a drive with just me and my secretary. While I think the quiet is nice, there is something somehow lonely about that drive."],
         blanks: [
           {
             options: ["として", "に対して", "に{応|おう}じて", "にとって"],

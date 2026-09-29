@@ -297,7 +297,7 @@ TRY.registerChapter({
               left: ["{準備|じゅんび}運動もしないで、急に{激|はげ}しい運動をしたら、", "インターネットショッピングは気をつけないと、", "{風邪|かぜ}をひいているのに{無理|むり}したら、", "{伊藤|いとう}さんに{秘密|ひみつ}を話したりしたら、"],
               right: ["{詐欺|さぎ}にあいかねない。", "けがをしかねないよ。", "クラス中の人に話しかねないよ。", "{悪化|あっか}しかねないから、会社休んだほうがいいよ。"],
               answer: [1, 0, 3, 2],
-              en: ["If you suddenly do strenuous exercise without even warming up, you could get injured.", "If you're not careful with online shopping, you could fall victim to fraud.", "If you push yourself when you have a cold, it could get worse, so you'd better take the day off work.", "If you tell Ito a secret, the whole class will probably hear about it."],
+              en: ["If you suddenly do strenuous exercise without even warming up, you could get injured.", "If you're not careful with online shopping, you could fall victim to fraud.", "If you push yourself when you have a cold, it could get worse, so you'd better take the day off work.", "If you tell Ito a secret, Ito could end up telling the whole class."],
             },
           ],
         },

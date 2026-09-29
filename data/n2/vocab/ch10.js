@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "losing an election; being rejected (in a contest)",
     note: "選挙で落選する; the opposite is 当選 (being elected). Also for contests and prize draws: コンクールで落選. Failing an exam is 不合格.",
     rx: ["らっせん", "おちせん", "らくぜん"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "His supporters seem relieved, thinking there is little chance Mr. Yamaguchi will lose in this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.", at: "gp/93" },
     ex: [
       { ja: "{人気|にんき}のあった{候補者|こうほしゃ}が、まさかの**{落選|らくせん}**となった。", en: "The popular candidate unexpectedly lost the election.", alt: ["{落下|らっか}", "{脱線|だっせん}", "{選択|せんたく}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "support; backing (of a person, party or opinion)",
     note: "支持する, 支持者 (supporters), 支持率 (approval rating), 支持を得る. 支援 is support as aid or assistance; 応援 is cheering someone on. Don't confuse it with 指示 (instructions), same reading.",
     rx: ["しし", "しじい", "ささじ"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "His supporters seem relieved, thinking there is little chance Mr. Yamaguchi will lose in this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.", at: "gp/93" },
     ex: [
       { ja: "{新|あたら}しい{政策|せいさく}は、{若者|わかもの}の{間|あいだ}で{強|つよ}い**{支持|しじ}**を{得|え}ている。", en: "The new policy has strong support among young people.", alt: ["{指示|しじ}", "{支給|しきゅう}", "{維持|いじ}"] },
     ] },

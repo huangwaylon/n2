@@ -774,7 +774,7 @@ TRY.registerChapter({
             q: "{高橋|たかはし}さんは子どもが生まれたの（　）、たばこをやめる{決心|けっしん}をしたんだそうです。",
             options: ["はもとより", "をきっかけに", "をはじめとして", "を中心として"],
             answer: 1,
-            en: "I heard that the birth of his child prompted Mr. Takahashi to decide to quit smoking.",
+            en: "I heard that the birth of his child prompted Takahashi to decide to quit smoking.",
             why: { en: "The birth triggered a decision (決心をした): をきっかけに. The other options list or center things rather than naming a trigger." },
           },
           {
@@ -925,7 +925,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "何遊んでるのよ。ちょっと手伝ってくれない？" },
             ],
-            en: ["What are you goofing off for? Can't you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "You won't help me?"],
+            en: ["What are you doing, goofing off? Could you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "You won't help me?"],
             why: { en: "Accused of goofing off, B softly denies it: 別に遊んでるわけじゃないよ, “it's not like I'm goofing off.”" },
             options: ["じゃ、一緒に遊ぼうよ。", "別に遊んでるわけじゃないよ。", "手伝ってくれないの？"],
             answer: 1,
