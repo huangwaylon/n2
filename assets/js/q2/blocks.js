@@ -105,13 +105,32 @@ const B = {
     return `<div class="qbox qbox--${s}"${idAttr(b)}>${title}${blocks(b.blocks, ctx)}</div>`;
   },
   table(b) {
-    const cell = (c, th) => {
-      const o = c && typeof c === "object" && c.text !== undefined ? c : { text: c };
-      const tag = th || o.head ? "th" : "td";
-      return `<${tag}${o.colspan ? ` colspan="${o.colspan}"` : ""}${o.rowspan ? ` rowspan="${o.rowspan}"` : ""}${o.style ? ` class="c--${esc(o.style)}"` : ""}>${inl(o.text)}</${tag}>`;
+    // align / headAlign: the book's alignment of body / head cells, one value for all or one per column (p.107 centres
+    // only its last two columns); a cell's own style overrides it. Columns are counted through colspan / rowspan.
+    const al = (a, i) => (Array.isArray(a) ? a[i] : a) || "";
+    const grid = (rows, a) => {
+      const taken = [];
+      return rows.map((r, ri) => {
+        let col = 0;
+        return r.map((c) => {
+          const o = c && typeof c === "object" && c.text !== undefined ? c : { text: c };
+          while ((taken[ri] || [])[col]) col++;
+          const at = col, span = o.colspan || 1;
+          for (let k = 1; k < (o.rowspan || 1); k++) for (let j = 0; j < span; j++) (taken[ri + k] ||= [])[at + j] = true;
+          col += span;
+          return { o, align: al(a, at) };
+        });
+      });
     };
-    return `<div class="qtbl-wrap"><table class="qtbl">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${b.head.map((r) => `<tr>${r.map((c) => cell(c, true)).join("")}</tr>`).join("")}</thead>` : ""}
-      <tbody>${(b.rows || []).map((r) => `<tr>${r.map((c) => cell(c)).join("")}</tr>`).join("")}</tbody></table></div>`;
+    const cell = ({ o, align }, th) => {
+      const tag = th || o.head ? "th" : "td";
+      const st = (o.style || "").split(/\s+/).filter(Boolean);
+      if (align && !st.some((x) => /^(center|right|left)$/.test(x))) st.push(align);
+      return `<${tag}${o.colspan ? ` colspan="${o.colspan}"` : ""}${o.rowspan ? ` rowspan="${o.rowspan}"` : ""}${st.length ? ` class="${st.map((x) => "c--" + esc(x)).join(" ")}"` : ""}>${inl(o.text)}</${tag}>`;
+    };
+    const tr = (rows, a, th) => grid(rows, a).map((r) => `<tr>${r.map((c) => cell(c, th)).join("")}</tr>`).join("");
+    return `<div class="qtbl-wrap"><table class="qtbl${b.stripe ? " qtbl--stripe" : ""}">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${tr(b.head, b.headAlign, true)}</thead>` : ""}
+      <tbody>${tr(b.rows || [], b.align)}</tbody></table></div>`;
   },
   words(b) {
     return `<div class="words"><span class="words__l">${fmt(b.label || "単語")}</span><span class="words__list">${(b.items || []).map((w) => `<span class="w"><span class="w__ja">${fmt(w.ja)}</span> <span class="w__en">${fmt(w.en || "")}</span></span>`).join("")}</span></div>`;

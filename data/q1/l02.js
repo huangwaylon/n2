@@ -319,7 +319,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "accent",
      "title": {
       "ja": "先生にメールでファイルを送る時",
       "tr": "When Sending a File to a Teacher by E-mail"
@@ -2232,7 +2232,10 @@ TRY.registerLesson({
        ],
        "head": [
         [
-         "",
+         {
+          "text": "",
+          "style": "plain"
+         },
          {
           "en": "する：presence of speaker’s will"
          },
@@ -2243,7 +2246,10 @@ TRY.registerLesson({
        ],
        "rows": [
         [
-         "ように",
+         {
+          "text": "ように",
+          "style": "gray center"
+         },
          {
           "en": "① 〜ようにする (keep in mind to do)\nUsed for something you make an effort to do."
          },
@@ -2254,7 +2260,8 @@ TRY.registerLesson({
         [
          {
           "text": "ことに",
-          "rowspan": 2
+          "rowspan": 2,
+          "style": "gray center"
          },
          {
           "text": {
@@ -2271,7 +2278,8 @@ TRY.registerLesson({
           "en": "⑤ 〜ことになっている (it is expected that)\nUsed for something that has been decided as a rule or plan."
          }
         ]
-       ]
+       ],
+       "headAlign": "center"
       },
       {
        "t": "head",

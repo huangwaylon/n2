@@ -3773,7 +3773,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "blue",
+     "style": "attention",
      "page": 96,
      "id": "l3-yakuni",
      "title": "役に立つ表現",
@@ -4050,7 +4050,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
-        "style": "gray",
+        "style": "gray left",
         "text": {
          "ja": "長さ",
          "tr": "Length"
@@ -4064,7 +4064,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
-        "style": "gray",
+        "style": "gray left",
         "text": {
          "ja": "登り時間",
          "tr": "Time up"
@@ -4090,7 +4090,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
-        "style": "gray",
+        "style": "gray left",
         "text": {
          "ja": "下り時間",
          "tr": "Time down"
@@ -4116,7 +4116,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
-        "style": "gray",
+        "style": "gray left",
         "text": {
          "ja": "人の多さ",
          "tr": "Crowds"
@@ -4139,7 +4139,9 @@ TRY.registerLesson({
         "tr": "Few people"
        }
       ]
-     ]
+     ],
+     "headAlign": "center",
+     "align": "center"
     },
     {
      "t": "p",

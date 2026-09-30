@@ -445,6 +445,10 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
 - Reading style `email` (Q1 pp.034–035): the 差出人／宛先／件名／添付 lines on a grey header band, the rest in a framed
   body, gothic, no paragraph indent.
 - モデル作文 in 縦書き: the grey panel runs across all columns (gradient `to bottom`), the role brackets below it.
+- Tables follow the book's alignment through `align` / `headAlign` (per table or per column; Q1 head rows are centred);
+  grey row labels (`c--gray`) never break inside a word (p.049 ように at 390); `stripe` greys every second row (p.107).
+- ｛alt1\nalt2｝ in a sentence: an inline brace in the text colour with the lines stacked (`.ibr`, p.085); the brace
+  and its lines wrap as one unit.
 - Phones (≤600): flowchart bubbles drop the printed line breaks; lead+stack leads wrap; ≥8 / ≥11-column tables tighten
   their cells to fit 320.
 

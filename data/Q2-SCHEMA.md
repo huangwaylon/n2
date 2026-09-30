@@ -73,6 +73,10 @@ POS symbols in connection formulas are written as printed, without brackets: `V�
 `Vず` `Vば` `V(よ)う` `いAい` `いAくて` `いA~~い~~` `いAければ` `なA` `なA~~だ~~` `N` `N₁` `N₂`; the renderer sets the
 POS letters in bold (front matter p.[19]–[20] lists the symbols).
 
+Alternatives printed one above the other in a brace inside a sentence (Q1 p.085: そのお店は北山駅の近く｛でしたっけ？ /
+だっけ？／だったっけ？｝) are typed `｛alt1\nalt2｝`, with the printed line break inside the brace; a brace without a line break
+stays literal (choice brackets). Connection formulas use `stack` instead (below).
+
 Furigana: exactly the readings the book prints, on exactly those kanji. Split okurigana out (`{詰|つ}まった`). Readings
 in the book's 単語 boxes and word lists are also furigana (`{悩|なや}む`).
 
@@ -118,10 +122,17 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 { t: "qs", items: [ { n: "1.", text: Text, words: ["友達", …], blocks: [Block], answer: Text } ] }
 //   numbered questions / tasks: n as printed ("1." "(1)" "①" "1）"); words = the [ … ] word box under a question;
 //   answer = the book's printed answer (聴解 解答) — shown behind a 解答 button
-{ t: "box", style: "gray" | "blue" | "frame" | "attention" | "task" | "strategy" | "challenge", title: Text, icon, ref, blocks: [Block] }
-//   attention — 💡ここにも注目      task — ✎ box (title, ref "（読み物2：行13〜15）")      strategy — ストラテジー box
+{ t: "box", style: "gray" | "blue" | "accent" | "frame" | "attention" | "task" | "strategy" | "challenge", title: Text, icon, ref, blocks: [Block] }
+//   attention — 💡ここにも注目 / 💡役に立つ表現      task — ✎ box (title, ref "（読み物2：行13〜15）")      strategy — ストラテジー box
+//   blue — the light accent fill without a border      accent — the same fill in an accent-coloured frame (Q1 p.035)
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"] }   // Cell = Text | { text, colspan, rowspan, style }
-//   Cell style: "hl" shaded cell · "gray" grey cell (row labels beside a coloured head row, Q1 pp.084, 097) · "frame" the cell's text in a box (Q1 p.106 私 / 土曜日 / すし) · "center" · "right"
+//   Cell style (several may be combined with spaces, "gray center"): "hl" shaded cell · "gray" grey cell (row labels beside a
+//   coloured head row, Q1 pp.084, 097) · "frame" the cell's text in a box (Q1 p.106 私 / 土曜日 / すし) · "plain" an unfilled
+//   head cell (the empty corner, Q1 p.049) · "center" · "right" · "left"
+//   Table options: align — alignment of the body cells, "center" | "right" for all, or one entry per column
+//   (["", "", "center", "center"], Q1 p.107; colspan / rowspan counted); headAlign — the same for the head rows (Q1 tables
+//   centre their head row: pp.049, 097, 107, 118, 196, 202); a cell's own center / right / left wins; stripe: true — every
+//   second body row grey (Q1 p.107)
 { t: "words", items: [ { ja: "{悩|なや}む", en: "to worry" } ] }          // 単語 box
 { t: "figure", desc: "…", labels: ["満足度", "時間"] }  // an illustration / graph that matters: desc = our English description,
                                                          // labels = the Japanese printed in it (verbatim)

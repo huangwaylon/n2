@@ -4397,7 +4397,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "attention",
      "page": 165,
      "id": "l5-yakuni",
      "title": {

@@ -35,6 +35,9 @@ const refHtml = (m, text, tag) => {
     : `<u class="ref ref--let${rb}">${text}<span class="ref-n">${lab}</span></u>`;
 };
 const q2Markup = (t) => t
+  // ｛alt1\nalt2｝: alternatives printed one above the other in a brace inside a sentence (Q1 p.085 〜っけ); a brace
+  // without a line break stays literal (choice brackets ｛○かえって／×むしろ｝), and so does a {{｛}} practice slot
+  .replace(/(?<!\{\{)｛([^｛｝]*\n[^｛｝]*)｝/g, (m, t) => `<span class="ibr"><span class="ibr-s">${t.split("\n").map((l) => `<span>${l}</span>`).join("")}</span></span>`)
   .replace(/\[\[(.+?)\|([0-9a-z]*)\]\]/g, refHtml)
   .replace(/\{\{(.+?)\}\}/g, '<span class="pslot">$1</span>')
   .replace(/!!(.+?)!!/g, '<span class="acc">$1</span>')

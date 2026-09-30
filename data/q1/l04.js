@@ -745,7 +745,15 @@ TRY.registerLesson({
         "1fr",
         "auto",
         "auto"
-       ]
+       ],
+       "headAlign": "center",
+       "align": [
+        "",
+        "",
+        "center",
+        "center"
+       ],
+       "stripe": true
       },
       {
        "t": "head",
@@ -2529,8 +2537,11 @@ TRY.registerLesson({
          "rows": [
           [
            {
-            "ja": "{進路|しんろ} ①",
-            "tr": "Path ①"
+            "text": {
+             "ja": "{進路|しんろ} ①",
+             "tr": "Path ①"
+            },
+            "style": "gray"
            },
            {
             "ja": "就職する",
@@ -2544,8 +2555,11 @@ TRY.registerLesson({
           ],
           [
            {
-            "ja": "進路 ②",
-            "tr": "Path ②"
+            "text": {
+             "ja": "進路 ②",
+             "tr": "Path ②"
+            },
+            "style": "gray"
            },
            {
             "ja": "大学院に行く",
@@ -2557,7 +2571,8 @@ TRY.registerLesson({
            },
            ""
           ]
-         ]
+         ],
+         "headAlign": "center"
         }
        ]
       },

@@ -128,6 +128,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .qbox--frame { background: transparent; border: 1.5px solid var(--line); }
 .qbox--attention { background: var(--q-soft); border: 2px solid var(--q); border-radius: 12px; }
 .qbox--attention > .qbox__title { color: var(--q); font-size: 20px; }
+.qbox--accent { background: var(--q-soft); border: 1.5px solid var(--q); border-radius: 10px; }   /* Q1 p.035 */
 .qbox--task { background: var(--q-soft); border: 3px solid var(--q-soft-2); border-radius: 16px; }
 .qbox--strategy { background: var(--q-soft); border-radius: 0; }
 .qbox--challenge { background: var(--q-soft); border-radius: 16px; }
@@ -139,7 +140,11 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .qtbl { border-collapse: collapse; min-width: 100%; font-family: var(--goth); font-size: 15px; }
 .qtbl th, .qtbl td { border: 1px solid var(--line); padding: 6px 10px; vertical-align: middle; line-height: 1.8; text-align: left; }
 .qtbl th { background: var(--q-soft); font-weight: 700; }
-.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
+.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; } .qtbl .c--left { text-align: left; }
+/* grey row labels keep their words whole (p.049 ように / ことに); plain = the unfilled corner of a coloured head row (p.049);
+   stripe = every second body row grey (p.107) */
+.qtbl .c--gray, .qtbl .c--gray .ja { word-break: keep-all; overflow-wrap: normal; } .qtbl th.c--plain { background: none; }
+.qtbl--stripe > tbody > tr:nth-child(even) > td { background: var(--q-gray); }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
 .words__l { flex: none; background: var(--q); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
@@ -338,6 +343,10 @@ a.ref:hover u { background: var(--q-soft); }
 @media (max-width: 600px) { .fxs__lead { white-space: normal; min-width: 0; } .fxs--lead .fxs__stack { flex: none; } }
 .fxs__br--open { margin: 4px 4px 4px 12px; border: 1.5px solid var(--q); border-right: 0; border-radius: 6px 0 0 6px; }
 .fxs__br--open::after { right: auto; left: -7px; }
+/* ｛alt1 / alt2｝ stacked in a sentence (p.085): a brace in the text colour opening towards the lines */
+.ibr { display: inline-flex; vertical-align: middle; align-items: stretch; }
+.ibr::before { content: ""; flex: none; width: 7px; margin: 4px 4px 4px 2px; border: 1.5px solid currentColor; border-right: 0; border-radius: 7px 0 0 7px; }
+.ibr-s { display: grid; }
 .gn-conn__b .qlist { margin: 0; }
 /* the bullets flow around the formula box as printed (p.010: a bullet's last line wraps under the box), so the dot is
    inline with a hanging indent — an absolute dot would sit under the float; 例） lines go under the box */

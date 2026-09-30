@@ -3287,7 +3287,7 @@ TRY.registerLesson({
           [
            {
             "text": "①",
-            "style": "gray"
+            "style": "gray center"
            },
            {
             "text": "",
@@ -3299,12 +3299,13 @@ TRY.registerLesson({
           [
            {
             "text": "②",
-            "style": "gray"
+            "style": "gray center"
            },
            "",
            ""
           ]
-         ]
+         ],
+         "headAlign": "center"
         }
        ]
       },
@@ -4293,7 +4294,9 @@ TRY.registerLesson({
        "",
        ""
       ]
-     ]
+     ],
+     "headAlign": "center",
+     "align": "center"
     },
     {
      "t": "figure",
@@ -4385,7 +4388,9 @@ TRY.registerLesson({
        "",
        ""
       ]
-     ]
+     ],
+     "headAlign": "center",
+     "align": "center"
     },
     {
      "t": "figure",
@@ -4477,7 +4482,9 @@ TRY.registerLesson({
        "",
        ""
       ]
-     ]
+     ],
+     "headAlign": "center",
+     "align": "center"
     },
     {
      "t": "figure",
@@ -4569,7 +4576,9 @@ TRY.registerLesson({
        "",
        ""
       ]
-     ]
+     ],
+     "headAlign": "center",
+     "align": "center"
     },
     {
      "t": "figure",

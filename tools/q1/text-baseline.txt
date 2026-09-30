@@ -1477,10 +1477,10 @@ l2.sections.0.blocks.28.blocks.7.forms.0	Vる／Vない !!ことになってい�
 l2.sections.0.blocks.28.blocks.7.blocks.0.items.0.en	This expression states an agreement such as a rule, custom or plan.
 l2.sections.0.blocks.28.blocks.8.text.ja	☛「ようにする」「ようになる」「ことにする」「ことになる」の違い
 l2.sections.0.blocks.28.blocks.9.text.en	する expresses an action or a condition that is related to the speaker’s will, whereas なる is not related to the speaker’s will. Given this distinction between する and なる, refer to the table below for an overview of structures covered thus far:
-l2.sections.0.blocks.28.blocks.10.head.0.0	
+l2.sections.0.blocks.28.blocks.10.head.0.0.text	
 l2.sections.0.blocks.28.blocks.10.head.0.1.en	する：presence of speaker’s will
 l2.sections.0.blocks.28.blocks.10.head.0.2.en	なる：absence of speaker’s will
-l2.sections.0.blocks.28.blocks.10.rows.0.0	ように
+l2.sections.0.blocks.28.blocks.10.rows.0.0.text	ように
 l2.sections.0.blocks.28.blocks.10.rows.0.1.en	① 〜ようにする (keep in mind to do)
 Used for something you make an effort to do.
 l2.sections.0.blocks.28.blocks.10.rows.0.2.en	③ 〜ようになる (start doing)
@@ -1492,6 +1492,7 @@ l2.sections.0.blocks.28.blocks.10.rows.1.2.en	④ 〜ことになる (be decided
 Used for something decided by another person or something that naturally comes to be the case.
 l2.sections.0.blocks.28.blocks.10.rows.2.0.en	⑤ 〜ことになっている (it is expected that)
 Used for something that has been decided as a rule or plan.
+l2.sections.0.blocks.28.blocks.10.headAlign	center
 l2.sections.0.blocks.28.blocks.11.text	① 〜ようにする
 l2.sections.0.blocks.28.blocks.12.label	a)
 l2.sections.0.blocks.28.blocks.12.items.0.ja	いつも声が小さいので、今度のスピーチでは大きい声で話す**ようにします**。
@@ -3101,6 +3102,8 @@ l3.sections.3.blocks.3.rows.3.1.ja	多い
 l3.sections.3.blocks.3.rows.3.2.ja	ふつう
 l3.sections.3.blocks.3.rows.3.3.ja	少ない
 l3.sections.3.blocks.3.rows.3.4.ja	少ない
+l3.sections.3.blocks.3.headAlign	center
+l3.sections.3.blocks.3.align	center
 l3.sections.3.blocks.4.text.ja	（出典：ウェブサイト「初心者のための登山とキャンプ入門」）
 l3.sections.3.blocks.5.items.0.options.0	a. {吉田|よしだ}ルート
 l3.sections.3.blocks.5.items.0.options.1	b. {富士宮|ふじのみや}ルート
@@ -3411,6 +3414,11 @@ l4.sections.0.blocks.18.blocks.4.rows.4.0.ja	5. %%V（使役形 causative）%%
 l4.sections.0.blocks.18.blocks.4.rows.4.1.ja	私**は**友達にマンガを**読ませてもらった**。
 l4.sections.0.blocks.18.blocks.4.rows.4.2	は・が
 l4.sections.0.blocks.18.blocks.4.rows.4.3.ja	!!私!!
+l4.sections.0.blocks.18.blocks.4.headAlign	center
+l4.sections.0.blocks.18.blocks.4.align.0	
+l4.sections.0.blocks.18.blocks.4.align.1	
+l4.sections.0.blocks.18.blocks.4.align.2	center
+l4.sections.0.blocks.18.blocks.4.align.3	center
 l4.sections.0.blocks.18.blocks.5.text.ja	主語や「に」がつく人が{省略|しょうりゃく}された場合
 l4.sections.0.blocks.18.blocks.5.text.en	Omission of the subject or person marked with に
 l4.sections.0.blocks.18.blocks.6.text.ja	子どもの時、母はとてもきびしかった。毎日のように「勉強しなさい」と
@@ -3830,14 +3838,15 @@ l4.sections.2.blocks.2.items.0.blocks.0.head.0.0
 l4.sections.2.blocks.2.items.0.blocks.0.head.0.1.ja	例1
 l4.sections.2.blocks.2.items.0.blocks.0.head.0.2.ja	例2
 l4.sections.2.blocks.2.items.0.blocks.0.head.0.3.ja	あなた
-l4.sections.2.blocks.2.items.0.blocks.0.rows.0.0.ja	{進路|しんろ} ①
+l4.sections.2.blocks.2.items.0.blocks.0.rows.0.0.text.ja	{進路|しんろ} ①
 l4.sections.2.blocks.2.items.0.blocks.0.rows.0.1.ja	就職する
 l4.sections.2.blocks.2.items.0.blocks.0.rows.0.2.ja	A社に入る
 l4.sections.2.blocks.2.items.0.blocks.0.rows.0.3	
-l4.sections.2.blocks.2.items.0.blocks.0.rows.1.0.ja	進路 ②
+l4.sections.2.blocks.2.items.0.blocks.0.rows.1.0.text.ja	進路 ②
 l4.sections.2.blocks.2.items.0.blocks.0.rows.1.1.ja	大学院に行く
 l4.sections.2.blocks.2.items.0.blocks.0.rows.1.2.ja	B社に入る
 l4.sections.2.blocks.2.items.0.blocks.0.rows.1.3	
+l4.sections.2.blocks.2.items.0.blocks.0.headAlign	center
 l4.sections.2.blocks.2.items.1.text.ja	1）で考えたことを使って、ロールプレイをしなさい。
 l4.sections.2.blocks.2.items.1.blocks.0.cards.0.who	あなた
 l4.sections.2.blocks.2.items.1.blocks.0.cards.0.text.ja	卒業した後の{進路|しんろ}で{迷|まよ}っています。
@@ -6288,6 +6297,7 @@ l6.sections.2.blocks.25.items.0.blocks.0.rows.0.3
 l6.sections.2.blocks.25.items.0.blocks.0.rows.1.0.text	②
 l6.sections.2.blocks.25.items.0.blocks.0.rows.1.1	
 l6.sections.2.blocks.25.items.0.blocks.0.rows.1.2	
+l6.sections.2.blocks.25.items.0.blocks.0.headAlign	center
 l6.sections.2.blocks.25.items.1.text.ja	ロールプレイをしなさい。
 l6.sections.2.blocks.25.items.1.blocks.0.cards.0.who	あなた
 l6.sections.2.blocks.25.items.1.blocks.0.cards.0.text.ja	{管理人|かんりにん}に注意されます。
@@ -6486,6 +6496,8 @@ l6.sections.3.blocks.4.rows.1.1
 l6.sections.3.blocks.4.rows.1.2	
 l6.sections.3.blocks.4.rows.1.3	
 l6.sections.3.blocks.4.rows.1.4	
+l6.sections.3.blocks.4.headAlign	center
+l6.sections.3.blocks.4.align	center
 l6.sections.3.blocks.6.text	b.（　　）
 l6.sections.3.blocks.7.head.0.0.text.ja	ゴミの種類
 l6.sections.3.blocks.7.head.0.1.text.ja	燃えるゴミ
@@ -6502,6 +6514,8 @@ l6.sections.3.blocks.7.rows.1.1
 l6.sections.3.blocks.7.rows.1.2	
 l6.sections.3.blocks.7.rows.1.3	
 l6.sections.3.blocks.7.rows.1.4	
+l6.sections.3.blocks.7.headAlign	center
+l6.sections.3.blocks.7.align	center
 l6.sections.3.blocks.9.text	c.（　　）
 l6.sections.3.blocks.10.head.0.0.text.ja	ゴミの種類
 l6.sections.3.blocks.10.head.0.1.text.ja	燃えるゴミ
@@ -6518,6 +6532,8 @@ l6.sections.3.blocks.10.rows.1.1
 l6.sections.3.blocks.10.rows.1.2	
 l6.sections.3.blocks.10.rows.1.3	
 l6.sections.3.blocks.10.rows.1.4	
+l6.sections.3.blocks.10.headAlign	center
+l6.sections.3.blocks.10.align	center
 l6.sections.3.blocks.12.text	d.（　　）
 l6.sections.3.blocks.13.head.0.0.text.ja	ゴミの種類
 l6.sections.3.blocks.13.head.0.1.text.ja	燃えるゴミ
@@ -6534,6 +6550,8 @@ l6.sections.3.blocks.13.rows.1.1
 l6.sections.3.blocks.13.rows.1.2	
 l6.sections.3.blocks.13.rows.1.3	
 l6.sections.3.blocks.13.rows.1.4	
+l6.sections.3.blocks.13.headAlign	center
+l6.sections.3.blocks.13.align	center
 l6.sections.3.blocks.15.items.0.options.0	a.
 l6.sections.3.blocks.15.items.0.options.1	b.
 l6.sections.3.blocks.15.items.0.options.2	c.
