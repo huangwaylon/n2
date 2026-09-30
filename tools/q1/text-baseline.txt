@@ -13061,7 +13061,7 @@ k4.blocks.1.items.1.blocks.2.rows.0.0
 k4.blocks.1.items.1.blocks.2.rows.0.1	結
 k4.blocks.1.items.1.blocks.2.rows.0.2	
 k4.blocks.1.items.1.blocks.2.rows.1.0	!!B→!!
-k4.blocks.1.items.1.blocks.2.rows.1.1	!!果!!
+k4.blocks.1.items.1.blocks.2.rows.1.1.text	!!果!!
 k4.blocks.1.items.1.blocks.2.rows.1.2	物
 k4.blocks.1.items.1.blocks.3.text	(1)
 k4.blocks.1.items.1.blocks.4.head.0.0	
@@ -13072,13 +13072,13 @@ k4.blocks.1.items.1.blocks.4.rows.0.1
 k4.blocks.1.items.1.blocks.4.rows.0.2	高
 k4.blocks.1.items.1.blocks.4.rows.1.0	!!B→!!
 k4.blocks.1.items.1.blocks.4.rows.1.1	学
-k4.blocks.1.items.1.blocks.4.rows.1.2	＿＿
+k4.blocks.1.items.1.blocks.4.rows.1.2.text	＿＿
 k4.blocks.1.items.1.blocks.5.text	(2)
 k4.blocks.1.items.1.blocks.6.head.0.0	
 k4.blocks.1.items.1.blocks.6.head.0.1	!!A↓!!
 k4.blocks.1.items.1.blocks.6.head.0.2	
 k4.blocks.1.items.1.blocks.6.rows.0.0	!!B→!!
-k4.blocks.1.items.1.blocks.6.rows.0.1	＿＿
+k4.blocks.1.items.1.blocks.6.rows.0.1.text	＿＿
 k4.blocks.1.items.1.blocks.6.rows.0.2	談
 k4.blocks.1.items.1.blocks.6.rows.1.0	
 k4.blocks.1.items.1.blocks.6.rows.1.1	手
@@ -13091,7 +13091,7 @@ k4.blocks.1.items.1.blocks.8.rows.0.0
 k4.blocks.1.items.1.blocks.8.rows.0.1	音
 k4.blocks.1.items.1.blocks.8.rows.0.2	
 k4.blocks.1.items.1.blocks.8.rows.1.0	!!B→!!
-k4.blocks.1.items.1.blocks.8.rows.1.1	＿＿
+k4.blocks.1.items.1.blocks.8.rows.1.1.text	＿＿
 k4.blocks.1.items.1.blocks.8.rows.1.2	しい
 k4.blocks.1.items.1.blocks.9.text	(4)
 k4.blocks.1.items.1.blocks.10.head.0.0	
@@ -13101,7 +13101,7 @@ k4.blocks.1.items.1.blocks.10.rows.0.0
 k4.blocks.1.items.1.blocks.10.rows.0.1	日
 k4.blocks.1.items.1.blocks.10.rows.0.2	
 k4.blocks.1.items.1.blocks.10.rows.1.0	!!B→!!
-k4.blocks.1.items.1.blocks.10.rows.1.1	＿＿
+k4.blocks.1.items.1.blocks.10.rows.1.1.text	＿＿
 k4.blocks.1.items.1.blocks.10.rows.1.2	当
 k4.blocks.2.title.ja	チャレンジ！
 k4.blocks.2.blocks.0.text.ja	「きへん」と「き」の漢字をもっと勉強しよう。
@@ -13449,7 +13449,7 @@ k8.blocks.1.items.1.blocks.1.rows.0.0
 k8.blocks.1.items.1.blocks.1.rows.0.1	図
 k8.blocks.1.items.1.blocks.1.rows.0.2	
 k8.blocks.1.items.1.blocks.1.rows.1.0	!!B→!!
-k8.blocks.1.items.1.blocks.1.rows.1.1	＿＿
+k8.blocks.1.items.1.blocks.1.rows.1.1.text	＿＿
 k8.blocks.1.items.1.blocks.1.rows.1.2	く
 k8.blocks.1.items.1.blocks.1.rows.2.0	
 k8.blocks.1.items.1.blocks.1.rows.2.1	館
@@ -13459,7 +13459,7 @@ k8.blocks.1.items.1.blocks.3.head.0.0
 k8.blocks.1.items.1.blocks.3.head.0.1	!!A↓!!
 k8.blocks.1.items.1.blocks.3.head.0.2	
 k8.blocks.1.items.1.blocks.3.rows.0.0	!!B→!!
-k8.blocks.1.items.1.blocks.3.rows.0.1	＿＿
+k8.blocks.1.items.1.blocks.3.rows.0.1.text	＿＿
 k8.blocks.1.items.1.blocks.3.rows.0.2	食
 k8.blocks.1.items.1.blocks.3.rows.1.0	
 k8.blocks.1.items.1.blocks.3.rows.1.1	休
@@ -13472,7 +13472,7 @@ k8.blocks.1.items.1.blocks.5.head.0.0
 k8.blocks.1.items.1.blocks.5.head.0.1	!!A↓!!
 k8.blocks.1.items.1.blocks.5.head.0.2	
 k8.blocks.1.items.1.blocks.5.rows.0.0	!!B→!!
-k8.blocks.1.items.1.blocks.5.rows.0.1	＿＿
+k8.blocks.1.items.1.blocks.5.rows.0.1.text	＿＿
 k8.blocks.1.items.1.blocks.5.rows.0.2	日
 k8.blocks.1.items.1.blocks.5.rows.1.0	
 k8.blocks.1.items.1.blocks.5.rows.1.1	る
@@ -13488,14 +13488,14 @@ k8.blocks.1.items.1.blocks.7.rows.0.0
 k8.blocks.1.items.1.blocks.7.rows.0.1	四
 k8.blocks.1.items.1.blocks.7.rows.0.2	
 k8.blocks.1.items.1.blocks.7.rows.1.0	!!B→!!
-k8.blocks.1.items.1.blocks.7.rows.1.1	＿＿
+k8.blocks.1.items.1.blocks.7.rows.1.1.text	＿＿
 k8.blocks.1.items.1.blocks.7.rows.1.2	々
 k8.blocks.1.items.1.blocks.8.text	(5)
 k8.blocks.1.items.1.blocks.9.head.0.0	
 k8.blocks.1.items.1.blocks.9.head.0.1	!!A↓!!
 k8.blocks.1.items.1.blocks.9.head.0.2	
 k8.blocks.1.items.1.blocks.9.rows.0.0	!!B→!!
-k8.blocks.1.items.1.blocks.9.rows.0.1	＿＿
+k8.blocks.1.items.1.blocks.9.rows.0.1.text	＿＿
 k8.blocks.1.items.1.blocks.9.rows.0.2	い
 k8.blocks.1.items.1.blocks.9.rows.1.0	
 k8.blocks.1.items.1.blocks.9.rows.1.1	朝
@@ -13760,7 +13760,7 @@ k12.blocks.1.items.1.blocks.1.rows.0.1
 k12.blocks.1.items.1.blocks.1.rows.0.2	座
 k12.blocks.1.items.1.blocks.1.rows.1.0	!!B→!!
 k12.blocks.1.items.1.blocks.1.rows.1.1	相
-k12.blocks.1.items.1.blocks.1.rows.1.2	＿＿
+k12.blocks.1.items.1.blocks.1.rows.1.2.text	＿＿
 k12.blocks.1.items.1.blocks.1.rows.2.0	
 k12.blocks.1.items.1.blocks.1.rows.2.1	
 k12.blocks.1.items.1.blocks.1.rows.2.2	会
@@ -13773,7 +13773,7 @@ k12.blocks.1.items.1.blocks.3.rows.0.1
 k12.blocks.1.items.1.blocks.3.rows.0.2	申し
 k12.blocks.1.items.1.blocks.3.rows.1.0	!!B→!!
 k12.blocks.1.items.1.blocks.3.rows.1.1	通
-k12.blocks.1.items.1.blocks.3.rows.1.2	＿＿
+k12.blocks.1.items.1.blocks.3.rows.1.2.text	＿＿
 k12.blocks.1.items.1.blocks.3.rows.2.0	
 k12.blocks.1.items.1.blocks.3.rows.2.1	
 k12.blocks.1.items.1.blocks.3.rows.2.2	ない
@@ -13782,7 +13782,7 @@ k12.blocks.1.items.1.blocks.5.head.0.0
 k12.blocks.1.items.1.blocks.5.head.0.1	!!A↓!!
 k12.blocks.1.items.1.blocks.5.head.0.2	
 k12.blocks.1.items.1.blocks.5.rows.0.0	!!B→!!
-k12.blocks.1.items.1.blocks.5.rows.0.1	＿＿
+k12.blocks.1.items.1.blocks.5.rows.0.1.text	＿＿
 k12.blocks.1.items.1.blocks.5.rows.0.2	問
 k12.blocks.1.items.1.blocks.5.rows.1.0	
 k12.blocks.1.items.1.blocks.5.rows.1.1	れ
@@ -13798,14 +13798,14 @@ k12.blocks.1.items.1.blocks.7.rows.0.0
 k12.blocks.1.items.1.blocks.7.rows.0.1	体
 k12.blocks.1.items.1.blocks.7.rows.0.2	
 k12.blocks.1.items.1.blocks.7.rows.1.0	!!B→!!
-k12.blocks.1.items.1.blocks.7.rows.1.1	＿＿
+k12.blocks.1.items.1.blocks.7.rows.1.1.text	＿＿
 k12.blocks.1.items.1.blocks.7.rows.1.2	査
 k12.blocks.1.items.1.blocks.8.text	(5)
 k12.blocks.1.items.1.blocks.9.head.0.0	
 k12.blocks.1.items.1.blocks.9.head.0.1	!!A↓!!
 k12.blocks.1.items.1.blocks.9.head.0.2	
 k12.blocks.1.items.1.blocks.9.rows.0.0	!!B→!!
-k12.blocks.1.items.1.blocks.9.rows.0.1	＿＿
+k12.blocks.1.items.1.blocks.9.rows.0.1.text	＿＿
 k12.blocks.1.items.1.blocks.9.rows.0.2	む
 k12.blocks.1.items.1.blocks.9.rows.1.0	
 k12.blocks.1.items.1.blocks.9.rows.1.1	書

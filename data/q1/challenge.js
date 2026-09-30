@@ -5587,7 +5587,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "!!果!!",
+          {
+           "text": "!!果!!",
+           "style": "hl"
+          },
           "物"
          ]
         ]
@@ -5614,7 +5617,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "学",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ]
         ]
        },
@@ -5634,7 +5640,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "談"
          ],
          [
@@ -5665,7 +5674,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "しい"
          ]
         ]
@@ -5691,7 +5703,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "当"
          ]
         ]
@@ -6564,7 +6579,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "く"
          ],
          [
@@ -6590,7 +6608,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "食"
          ],
          [
@@ -6621,7 +6642,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "日"
          ],
          [
@@ -6657,7 +6681,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "々"
          ]
         ]
@@ -6678,7 +6705,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "い"
          ],
          [
@@ -7418,7 +7448,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "相",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -7449,7 +7482,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "通",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -7474,7 +7510,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "問"
          ],
          [
@@ -7510,7 +7549,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "査"
          ]
         ]
@@ -7531,7 +7573,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "む"
          ],
          [
