@@ -39,7 +39,7 @@ TRY.registerChapter({
             { ja: "＊3「おいでの{際|さい}」「おいでです」「おいでいただく／くださる」「おいでください」などの使い方もある。", en: "*3 There are also uses such as おいでの際 (when you come), おいでです (is here / is coming), おいでいただく／くださる and おいでください (please come).", gen: true },
           ],
           examples: [
-            { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Mr. Oyama from Yokohama, Mr. Sato is waiting for you, so please come to the reception desk on the first floor." },
+            { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Would Oyama, visiting from Yokohama, please come to the reception desk on the first floor? Sato is waiting for you." },
             { ja: "本日のご予約は{山本|やまもと}が{承|うけたまわ}りました。ありがとうございました。", en: "Your reservation for today was taken by Yamamoto. Thank you very much." },
             { ja: "この{資料|しりょう}、長い間{拝借|はいしゃく}したままお返しもせず、たいへん{申|もう}し{訳|わけ}ありませんでした。", en: "I'm terribly sorry for borrowing these materials for so long without returning them." },
             { ja: "A：こちらまで、お{車|くるま}でおいでになりましたか。\nB：いいえ、電車でまいりました。", en: "A: Did you come here by car?\nB: No, I came by train." },
