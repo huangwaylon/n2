@@ -3285,7 +3285,10 @@ TRY.registerLesson({
          ],
          "rows": [
           [
-           "①",
+           {
+            "text": "①",
+            "style": "gray"
+           },
            {
             "text": "",
             "rowspan": 2
@@ -3294,7 +3297,10 @@ TRY.registerLesson({
            ""
           ],
           [
-           "②",
+           {
+            "text": "②",
+            "style": "gray"
+           },
            "",
            ""
           ]
@@ -4218,24 +4224,39 @@ TRY.registerLesson({
      "head": [
       [
        {
-        "ja": "ゴミの種類",
-        "tr": "Type of garbage"
+        "text": {
+         "ja": "ゴミの種類",
+         "tr": "Type of garbage"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えるゴミ",
-        "tr": "Burnable"
+        "text": {
+         "ja": "燃えるゴミ",
+         "tr": "Burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えないゴミ",
-        "tr": "Non-burnable"
+        "text": {
+         "ja": "燃えないゴミ",
+         "tr": "Non-burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "資源ゴミ",
-        "tr": "Recyclables"
+        "text": {
+         "ja": "資源ゴミ",
+         "tr": "Recyclables"
+        },
+        "style": "gray"
        },
        {
-        "ja": "{粗大|そだい}ゴミ",
-        "tr": "Bulky garbage"
+        "text": {
+         "ja": "{粗大|そだい}ゴミ",
+         "tr": "Bulky garbage"
+        },
+        "style": "gray"
        }
       ]
      ],
@@ -4295,24 +4316,39 @@ TRY.registerLesson({
      "head": [
       [
        {
-        "ja": "ゴミの種類",
-        "tr": "Type of garbage"
+        "text": {
+         "ja": "ゴミの種類",
+         "tr": "Type of garbage"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えるゴミ",
-        "tr": "Burnable"
+        "text": {
+         "ja": "燃えるゴミ",
+         "tr": "Burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えないゴミ",
-        "tr": "Non-burnable"
+        "text": {
+         "ja": "燃えないゴミ",
+         "tr": "Non-burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "資源ゴミ",
-        "tr": "Recyclables"
+        "text": {
+         "ja": "資源ゴミ",
+         "tr": "Recyclables"
+        },
+        "style": "gray"
        },
        {
-        "ja": "{粗大|そだい}ゴミ",
-        "tr": "Bulky garbage"
+        "text": {
+         "ja": "{粗大|そだい}ゴミ",
+         "tr": "Bulky garbage"
+        },
+        "style": "gray"
        }
       ]
      ],
@@ -4372,24 +4408,39 @@ TRY.registerLesson({
      "head": [
       [
        {
-        "ja": "ゴミの種類",
-        "tr": "Type of garbage"
+        "text": {
+         "ja": "ゴミの種類",
+         "tr": "Type of garbage"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えるゴミ",
-        "tr": "Burnable"
+        "text": {
+         "ja": "燃えるゴミ",
+         "tr": "Burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えないゴミ",
-        "tr": "Non-burnable"
+        "text": {
+         "ja": "燃えないゴミ",
+         "tr": "Non-burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "資源ゴミ",
-        "tr": "Recyclables"
+        "text": {
+         "ja": "資源ゴミ",
+         "tr": "Recyclables"
+        },
+        "style": "gray"
        },
        {
-        "ja": "{粗大|そだい}ゴミ",
-        "tr": "Bulky garbage"
+        "text": {
+         "ja": "{粗大|そだい}ゴミ",
+         "tr": "Bulky garbage"
+        },
+        "style": "gray"
        }
       ]
      ],
@@ -4449,24 +4500,39 @@ TRY.registerLesson({
      "head": [
       [
        {
-        "ja": "ゴミの種類",
-        "tr": "Type of garbage"
+        "text": {
+         "ja": "ゴミの種類",
+         "tr": "Type of garbage"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えるゴミ",
-        "tr": "Burnable"
+        "text": {
+         "ja": "燃えるゴミ",
+         "tr": "Burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "燃えないゴミ",
-        "tr": "Non-burnable"
+        "text": {
+         "ja": "燃えないゴミ",
+         "tr": "Non-burnable"
+        },
+        "style": "gray"
        },
        {
-        "ja": "資源ゴミ",
-        "tr": "Recyclables"
+        "text": {
+         "ja": "資源ゴミ",
+         "tr": "Recyclables"
+        },
+        "style": "gray"
        },
        {
-        "ja": "{粗大|そだい}ゴミ",
-        "tr": "Bulky garbage"
+        "text": {
+         "ja": "{粗大|そだい}ゴミ",
+         "tr": "Bulky garbage"
+        },
+        "style": "gray"
        }
       ]
      ],

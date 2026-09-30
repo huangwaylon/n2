@@ -2094,6 +2094,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+            "style": "gray",
             "text": {
              "ja": "変更 ①\n（　　）",
              "tr": "Change ①\n(　　)"
@@ -2104,6 +2105,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+            "style": "gray",
             "text": {
              "ja": "変更 ②\n（　　）",
              "tr": "Change ②\n(　　)"
@@ -4048,6 +4050,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
+        "style": "gray",
         "text": {
          "ja": "長さ",
          "tr": "Length"
@@ -4061,6 +4064,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
+        "style": "gray",
         "text": {
          "ja": "登り時間",
          "tr": "Time up"
@@ -4086,6 +4090,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
+        "style": "gray",
         "text": {
          "ja": "下り時間",
          "tr": "Time down"
@@ -4111,6 +4116,7 @@ TRY.registerLesson({
       [
        {
         "head": true,
+        "style": "gray",
         "text": {
          "ja": "人の多さ",
          "tr": "Crowds"

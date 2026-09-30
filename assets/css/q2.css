@@ -133,7 +133,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .qtbl { border-collapse: collapse; min-width: 100%; font-family: var(--goth); font-size: 15px; }
 .qtbl th, .qtbl td { border: 1px solid var(--line); padding: 6px 10px; vertical-align: middle; line-height: 1.8; text-align: left; }
 .qtbl th { background: var(--q-soft); font-weight: 700; }
-.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
+.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
 .words__l { flex: none; background: var(--q); color: #fff; font: 700 12px/1 var(--goth); padding: 4px 8px; }

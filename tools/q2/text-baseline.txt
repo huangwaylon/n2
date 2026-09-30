@@ -313,7 +313,7 @@ l7.sections.0.blocks.20.blocks.2.blocks.2.items.1.en	Y is a statement that is ty
 l7.sections.0.blocks.20.blocks.2.blocks.2.items.2.en	“〜にもかかわらず、〜てくださってありがとうございます” is an expression of appreciation used often in a formal setting, as shown in [#5].
 l7.sections.0.blocks.21.pattern	〜ばかり
 l7.sections.0.blocks.21.ref	読み物1-行35
-l7.sections.0.blocks.21.blocks.0.pattern	Vるばかり
+l7.sections.0.blocks.21.blocks.0.pattern	[#Vる]ばかり
 l7.sections.0.blocks.21.blocks.0.gloss	just continue to do
 l7.sections.0.blocks.21.blocks.1.items.0.sp	A
 l7.sections.0.blocks.21.blocks.1.items.0.ja	寮を出ようと思っているの？
@@ -332,7 +332,7 @@ l7.sections.0.blocks.21.blocks.3.forms.0	Vる !!ばかり!!
 l7.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	[#Vる]ばかり takes verbs that express change, and is often used in the form 〜ていくばかりだ.
 l7.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	[#Vる]ばかり typically connotes that the speaker feels the change occurred is not a desirable one. However, it can also be used to express a positive change (e.g., 期待が膨らむばかりだ).
 l7.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	Verbs that express instantaneous change, such as 死ぬ, 消える, 始まる, 始める or 終わる, cannot be used in this structure.
-l7.sections.0.blocks.21.blocks.4.pattern	Vてばかり／Nばかり
+l7.sections.0.blocks.21.blocks.4.pattern	[#Vて]ばかり／Nばかり
 l7.sections.0.blocks.21.blocks.4.gloss	only V and does nothing else; only N and nothing else
 l7.sections.0.blocks.21.blocks.5.items.0.sp	母
 l7.sections.0.blocks.21.blocks.5.items.0.ja	ゲーム**ばかり**していないで、早く宿題しなさい。

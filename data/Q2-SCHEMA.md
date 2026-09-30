@@ -120,7 +120,7 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 { t: "box", style: "gray" | "blue" | "frame" | "attention" | "task" | "strategy" | "challenge", title: Text, icon, ref, blocks: [Block] }
 //   attention — 💡ここにも注目      task — ✎ box (title, ref "（読み物2：行13〜15）")      strategy — ストラテジー box
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"] }   // Cell = Text | { text, colspan, rowspan, style }
-//   Cell style: "hl" shaded cell · "frame" the cell's text in a box (Q1 p.106 私 / 土曜日 / すし) · "center" · "right"
+//   Cell style: "hl" shaded cell · "gray" grey cell (row labels beside a coloured head row, Q1 pp.084, 097) · "frame" the cell's text in a box (Q1 p.106 私 / 土曜日 / すし) · "center" · "right"
 { t: "words", items: [ { ja: "{悩|なや}む", en: "to worry" } ] }          // 単語 box
 { t: "figure", desc: "…", labels: ["満足度", "時間"] }  // an illustration / graph that matters: desc = our English description,
                                                          // labels = the Japanese printed in it (verbatim)

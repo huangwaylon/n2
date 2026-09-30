@@ -6275,11 +6275,11 @@ l6.sections.2.blocks.25.items.0.blocks.0.head.0.0
 l6.sections.2.blocks.25.items.0.blocks.0.head.0.1.ja	a. だれに？
 l6.sections.2.blocks.25.items.0.blocks.0.head.0.2.ja	b. どうして？
 l6.sections.2.blocks.25.items.0.blocks.0.head.0.3.ja	c. その時あなたは何と言った？
-l6.sections.2.blocks.25.items.0.blocks.0.rows.0.0	①
+l6.sections.2.blocks.25.items.0.blocks.0.rows.0.0.text	①
 l6.sections.2.blocks.25.items.0.blocks.0.rows.0.1.text	
 l6.sections.2.blocks.25.items.0.blocks.0.rows.0.2	
 l6.sections.2.blocks.25.items.0.blocks.0.rows.0.3	
-l6.sections.2.blocks.25.items.0.blocks.0.rows.1.0	②
+l6.sections.2.blocks.25.items.0.blocks.0.rows.1.0.text	②
 l6.sections.2.blocks.25.items.0.blocks.0.rows.1.1	
 l6.sections.2.blocks.25.items.0.blocks.0.rows.1.2	
 l6.sections.2.blocks.25.items.1.text.ja	ロールプレイをしなさい。
@@ -6465,11 +6465,11 @@ l6.sections.3.blocks.2.items.0.en	metal
 l6.sections.3.blocks.2.items.1.ja	{粗大|そだい}ゴミ
 l6.sections.3.blocks.2.items.1.en	bulky garbage
 l6.sections.3.blocks.3.text	a.（　　）
-l6.sections.3.blocks.4.head.0.0.ja	ゴミの種類
-l6.sections.3.blocks.4.head.0.1.ja	燃えるゴミ
-l6.sections.3.blocks.4.head.0.2.ja	燃えないゴミ
-l6.sections.3.blocks.4.head.0.3.ja	資源ゴミ
-l6.sections.3.blocks.4.head.0.4.ja	{粗大|そだい}ゴミ
+l6.sections.3.blocks.4.head.0.0.text.ja	ゴミの種類
+l6.sections.3.blocks.4.head.0.1.text.ja	燃えるゴミ
+l6.sections.3.blocks.4.head.0.2.text.ja	燃えないゴミ
+l6.sections.3.blocks.4.head.0.3.text.ja	資源ゴミ
+l6.sections.3.blocks.4.head.0.4.text.ja	{粗大|そだい}ゴミ
 l6.sections.3.blocks.4.rows.0.0.ja	捨てる日
 l6.sections.3.blocks.4.rows.0.1.ja	火
 l6.sections.3.blocks.4.rows.0.2.ja	第3水曜日
@@ -6481,11 +6481,11 @@ l6.sections.3.blocks.4.rows.1.2
 l6.sections.3.blocks.4.rows.1.3	
 l6.sections.3.blocks.4.rows.1.4	
 l6.sections.3.blocks.6.text	b.（　　）
-l6.sections.3.blocks.7.head.0.0.ja	ゴミの種類
-l6.sections.3.blocks.7.head.0.1.ja	燃えるゴミ
-l6.sections.3.blocks.7.head.0.2.ja	燃えないゴミ
-l6.sections.3.blocks.7.head.0.3.ja	資源ゴミ
-l6.sections.3.blocks.7.head.0.4.ja	{粗大|そだい}ゴミ
+l6.sections.3.blocks.7.head.0.0.text.ja	ゴミの種類
+l6.sections.3.blocks.7.head.0.1.text.ja	燃えるゴミ
+l6.sections.3.blocks.7.head.0.2.text.ja	燃えないゴミ
+l6.sections.3.blocks.7.head.0.3.text.ja	資源ゴミ
+l6.sections.3.blocks.7.head.0.4.text.ja	{粗大|そだい}ゴミ
 l6.sections.3.blocks.7.rows.0.0.ja	捨てる日
 l6.sections.3.blocks.7.rows.0.1.ja	金
 l6.sections.3.blocks.7.rows.0.2.ja	第3水曜日
@@ -6497,11 +6497,11 @@ l6.sections.3.blocks.7.rows.1.2
 l6.sections.3.blocks.7.rows.1.3	
 l6.sections.3.blocks.7.rows.1.4	
 l6.sections.3.blocks.9.text	c.（　　）
-l6.sections.3.blocks.10.head.0.0.ja	ゴミの種類
-l6.sections.3.blocks.10.head.0.1.ja	燃えるゴミ
-l6.sections.3.blocks.10.head.0.2.ja	燃えないゴミ
-l6.sections.3.blocks.10.head.0.3.ja	資源ゴミ
-l6.sections.3.blocks.10.head.0.4.ja	{粗大|そだい}ゴミ
+l6.sections.3.blocks.10.head.0.0.text.ja	ゴミの種類
+l6.sections.3.blocks.10.head.0.1.text.ja	燃えるゴミ
+l6.sections.3.blocks.10.head.0.2.text.ja	燃えないゴミ
+l6.sections.3.blocks.10.head.0.3.text.ja	資源ゴミ
+l6.sections.3.blocks.10.head.0.4.text.ja	{粗大|そだい}ゴミ
 l6.sections.3.blocks.10.rows.0.0.ja	捨てる日
 l6.sections.3.blocks.10.rows.0.1.ja	金
 l6.sections.3.blocks.10.rows.0.2.ja	第3水曜日
@@ -6513,11 +6513,11 @@ l6.sections.3.blocks.10.rows.1.2
 l6.sections.3.blocks.10.rows.1.3	
 l6.sections.3.blocks.10.rows.1.4	
 l6.sections.3.blocks.12.text	d.（　　）
-l6.sections.3.blocks.13.head.0.0.ja	ゴミの種類
-l6.sections.3.blocks.13.head.0.1.ja	燃えるゴミ
-l6.sections.3.blocks.13.head.0.2.ja	燃えないゴミ
-l6.sections.3.blocks.13.head.0.3.ja	資源ゴミ
-l6.sections.3.blocks.13.head.0.4.ja	{粗大|そだい}ゴミ
+l6.sections.3.blocks.13.head.0.0.text.ja	ゴミの種類
+l6.sections.3.blocks.13.head.0.1.text.ja	燃えるゴミ
+l6.sections.3.blocks.13.head.0.2.text.ja	燃えないゴミ
+l6.sections.3.blocks.13.head.0.3.text.ja	資源ゴミ
+l6.sections.3.blocks.13.head.0.4.text.ja	{粗大|そだい}ゴミ
 l6.sections.3.blocks.13.rows.0.0.ja	捨てる日
 l6.sections.3.blocks.13.rows.0.1.ja	火
 l6.sections.3.blocks.13.rows.0.2.ja	第3水曜日

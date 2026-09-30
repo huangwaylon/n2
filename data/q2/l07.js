@@ -1244,7 +1244,7 @@ TRY.registerLesson({
       {
        "t": "sub",
        "n": 1,
-       "pattern": "Vるばかり",
+       "pattern": "[#Vる]ばかり",
        "gloss": "just continue to do"
       },
       {
@@ -1324,7 +1324,7 @@ TRY.registerLesson({
       {
        "t": "sub",
        "n": 2,
-       "pattern": "Vてばかり／Nばかり",
+       "pattern": "[#Vて]ばかり／Nばかり",
        "gloss": "only V and does nothing else; only N and nothing else"
       },
       {
