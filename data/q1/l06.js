@@ -912,7 +912,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜わけではない** denies a conclusion someone might draw, not the fact itself: 同じ寮だけど親しいわけじゃない (*we live in the same dorm, but that doesn't make us close*). It is a partial, softened *no*, often followed by the real reason: できないわけではないんですが、面倒なので.\n\n- Casual speech says わけじゃない. 別に and 必ずしも often come before it: 必ずしも必要なわけではない (*it isn't necessarily needed*).\n- It does not deny with certainty. For *there's no way that ~*, use **〜わけがない** (Quartet II L9-9): 彼が来るわけがない (*there's no way he's coming*).\n\n**〜とは限らない** (L3-9) only says X may not hold, so it can't deny a fact you know about yourself (example 2). TRY! N2 #19 teaches the same pattern, with 〜わけでもない (*not particularly*)."
+     "deepDive": "**〜わけではない** denies a conclusion someone might draw, not the fact itself: 同じ寮だけど親しいわけじゃない (*we live in the same dorm, but that doesn't make us close*). It is a partial, softened *no*, often followed by the real reason: できないわけではないんですが、面倒なので.\n\n- Casual speech says わけじゃない. 別に and 必ずしも often come before it: 必ずしも必要なわけではない (*it isn't necessarily needed*).\n- It does not deny with certainty. For *there's no way that ~*, use **〜わけがない** (Quartet II L9-9): 彼が来るわけがない (*there's no way he's coming*).\n\n**〜とは限らない** (L3-9) only says X may not hold, so it can't deny a fact you know about yourself (see 例2）). TRY! N2 #19 teaches the same pattern, with 〜わけでもない (*not particularly*)."
     },
     {
      "t": "note",
@@ -1324,7 +1324,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**〜がる** turns a feeling word into a verb about visible behavior. 痛い is felt from inside; 痛がる is what an observer sees. Japanese reports other people's inner states from the outside, so 弟はとても痛い sounds odd, while 弟はとても痛がっている (*my brother keeps saying it hurts*) is natural.\n\n- The object takes を: 甘いものをほしがる, おみやげを買いたがる.\n- It is not used for the speaker's own present feelings: ✗私はうれしがっている.\n- For someone wanting *you* to do something, use 〜てほしがる (example 2).\n\nCompare **〜げ** (TRY! N2 #97), an impression of how someone looks rather than what they do: さびしげに微笑んだ (*smiled sadly*). For a superior, report the words instead: 〜たいとおっしゃっている."
+     "deepDive": "**〜がる** turns a feeling word into a verb about visible behavior. 痛い is felt from inside; 痛がる is what an observer sees. Japanese reports other people's inner states from the outside, so 弟はとても痛い sounds odd, while 弟はとても痛がっている (*my brother keeps saying it hurts*) is natural.\n\n- The object takes を: 甘いものをほしがる, おみやげを買いたがる.\n- It is not used for the speaker's own present feelings: ✗私はうれしがっている.\n- For someone wanting *you* to do something, use 〜てほしがる (see 例2）).\n\nCompare **〜げ** (TRY! N2 #97), an impression of how someone looks rather than what they do: さびしげに微笑んだ (*smiled sadly*). For a superior, report the words instead: 〜たいとおっしゃっている."
     },
     {
      "t": "note",
@@ -2020,7 +2020,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "あの会社の社長はまだ中学生だそうだ。信じられない**ほど**若い。",
-         "tr": "I hear the president of that company is still in junior high. He's unbelievably young."
+         "tr": "I hear the president of that company is still in junior high. That's unbelievably young."
         },
         {
          "n": 3,
@@ -2225,7 +2225,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**わざわざ** marks effort beyond what was needed. Whether that is gratitude or criticism depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (examples 1 and 2).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいて (*thank you for coming all this way*)."
+     "deepDive": "**わざわざ** marks effort beyond what was needed. Whether that is gratitude or criticism depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (see 例1） and 例2）).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいて (*thank you for coming all this way*)."
     }
    ]
   },
@@ -3596,7 +3596,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "あ、管理人さん。おはようございます。",
-       "tr": "Oh, good morning, ma'am."
+       "tr": "Oh, it's you. Good morning."
       },
       {
        "sp": "管",
