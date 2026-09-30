@@ -1880,6 +1880,13 @@ TRY.registerLesson({
       "¶大人も子どももみんな大好きなお好み焼き。",
       "材料を切って、まぜて、{焼|や}くだけなので、簡単",
       "に作れます。",
+      {
+       "fig": {
+        "t": "figure",
+        "desc": "Photo beside lines 2–4: two okonomiyaki on a plate, topped with sauce and a lattice of mayonnaise.",
+        "labels": []
+       }
+      },
       "¶**材料（二人分）**",
       "¶だし汁　100cc　｜　青ねぎ　10g　｜　ソース　{適量|てきりょう}",
       "¶{小麦粉|こむぎこ}　80g　｜　天かす　10g　｜　青のり　適量",
@@ -1898,6 +1905,13 @@ TRY.registerLesson({
       "さらに3分ぐらい焼きます。",
       "¶4. [[最後に|a]]ソースと青のりをかけ[[たら|b]]、完成です。",
       "お好みで、マヨネーズをかけてもおいしいです。",
+      {
+       "fig": {
+        "t": "figure",
+        "desc": "Four photos beside steps 1–4: a whisk mixing the batter in a bowl; slices of pork being laid on the batter in the pan with chopsticks; the okonomiyaki, browned, turned over with a spatula; aonori sprinkled over the finished okonomiyaki, topped with sauce and mayonnaise.",
+        "labels": []
+       }
+      },
       "¶**おいしく作るためのポイント**",
       "¶材料をまぜる時は空気を入れるようにしましょう。",
       "ふわっとしたおいしいお好み焼きになります。"
@@ -2821,6 +2835,12 @@ TRY.registerLesson({
        "tr": "Yeah. I'm looking forward to it."
       }
      ]
+    },
+    {
+     "t": "figure",
+     "page": 154,
+     "desc": "Illustration beside the conversation: George smiling and pointing a finger up, with a thought bubble showing plates of sushi, and Eri beside him with a surprised smile.",
+     "labels": []
     },
     {
      "t": "words",
@@ -3813,7 +3833,7 @@ TRY.registerLesson({
       {
        "side": "b",
        "text": {
-        "ja": "そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。",
+        "ja": "そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの\n{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。",
         "tr": "Go down those stairs and go back down to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
        }
       },
@@ -3894,7 +3914,7 @@ TRY.registerLesson({
       {
        "side": "b",
        "text": {
-        "ja": "「海ずし」なら、{移転|いてん}したみたいですよ。道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたったら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。",
+        "ja": "「海ずし」なら、{移転|いてん}したみたいですよ。道なりに行くと左手に\n「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたっ\nたら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。",
         "tr": "If it's Umizushi you want, it looks like they've moved. If you follow the road, there's a hotel called “Yoruton” on your left, so after you cross the intersection past it, turn left right away. You should see it on your right."
        }
       },
@@ -3919,7 +3939,7 @@ TRY.registerLesson({
      "id": "l5-2-4",
      "page": 162,
      "text": {
-      "ja": "{練習|れんしゅう}しよう",
+      "ja": "練習しよう",
       "tr": "Let's practice"
      }
     },

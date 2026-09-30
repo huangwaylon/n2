@@ -4823,27 +4823,27 @@ l5.sections.1.blocks.2.lines.0	#={関西風|かんさいふう}お{好|この}�
 l5.sections.1.blocks.2.lines.1	¶大人も子どももみんな大好きなお好み焼き。
 l5.sections.1.blocks.2.lines.2	材料を切って、まぜて、{焼|や}くだけなので、簡単
 l5.sections.1.blocks.2.lines.3	に作れます。
-l5.sections.1.blocks.2.lines.4	¶**材料（二人分）**
-l5.sections.1.blocks.2.lines.5	¶だし汁　100cc　｜　青ねぎ　10g　｜　ソース　{適量|てきりょう}
-l5.sections.1.blocks.2.lines.6	¶{小麦粉|こむぎこ}　80g　｜　天かす　10g　｜　青のり　適量
-l5.sections.1.blocks.2.lines.7	¶やまいもパウダー　30g　｜　たまご　2個
-l5.sections.1.blocks.2.lines.8	¶キャベツ　300g　｜　ぶた肉　60g
-l5.sections.1.blocks.2.lines.9	¶**作り方**
-l5.sections.1.blocks.2.lines.10	¶1. [[まず|a]]、だし汁の中に小麦粉とやまいもパウダー
-l5.sections.1.blocks.2.lines.11	を入れてまぜます。そして、小さく切ったキャ
-l5.sections.1.blocks.2.lines.12	ベツ、青ねぎ、天かすとたまごを入れ[[てから|b]]、も
-l5.sections.1.blocks.2.lines.13	う一度まぜます。
-l5.sections.1.blocks.2.lines.14	¶2. [[次に|a]]、200度に熱したフライパンに1を流し入
-l5.sections.1.blocks.2.lines.15	れ、{形|かたち}を{丸|まる}くします。3分ぐらい焼い[[たら|b]]、ぶた
-l5.sections.1.blocks.2.lines.16	肉を上にのせて、すぐにうら返します。
-l5.sections.1.blocks.2.lines.17	¶3. [[それから|a]]、ふたをして240度で4分焼きます。
-l5.sections.1.blocks.2.lines.18	4分たっ[[たら|b]]、ふたを取り、もう一度うら返して
-l5.sections.1.blocks.2.lines.19	さらに3分ぐらい焼きます。
-l5.sections.1.blocks.2.lines.20	¶4. [[最後に|a]]ソースと青のりをかけ[[たら|b]]、完成です。
-l5.sections.1.blocks.2.lines.21	お好みで、マヨネーズをかけてもおいしいです。
-l5.sections.1.blocks.2.lines.22	¶**おいしく作るためのポイント**
-l5.sections.1.blocks.2.lines.23	¶材料をまぜる時は空気を入れるようにしましょう。
-l5.sections.1.blocks.2.lines.24	ふわっとしたおいしいお好み焼きになります。
+l5.sections.1.blocks.2.lines.5	¶**材料（二人分）**
+l5.sections.1.blocks.2.lines.6	¶だし汁　100cc　｜　青ねぎ　10g　｜　ソース　{適量|てきりょう}
+l5.sections.1.blocks.2.lines.7	¶{小麦粉|こむぎこ}　80g　｜　天かす　10g　｜　青のり　適量
+l5.sections.1.blocks.2.lines.8	¶やまいもパウダー　30g　｜　たまご　2個
+l5.sections.1.blocks.2.lines.9	¶キャベツ　300g　｜　ぶた肉　60g
+l5.sections.1.blocks.2.lines.10	¶**作り方**
+l5.sections.1.blocks.2.lines.11	¶1. [[まず|a]]、だし汁の中に小麦粉とやまいもパウダー
+l5.sections.1.blocks.2.lines.12	を入れてまぜます。そして、小さく切ったキャ
+l5.sections.1.blocks.2.lines.13	ベツ、青ねぎ、天かすとたまごを入れ[[てから|b]]、も
+l5.sections.1.blocks.2.lines.14	う一度まぜます。
+l5.sections.1.blocks.2.lines.15	¶2. [[次に|a]]、200度に熱したフライパンに1を流し入
+l5.sections.1.blocks.2.lines.16	れ、{形|かたち}を{丸|まる}くします。3分ぐらい焼い[[たら|b]]、ぶた
+l5.sections.1.blocks.2.lines.17	肉を上にのせて、すぐにうら返します。
+l5.sections.1.blocks.2.lines.18	¶3. [[それから|a]]、ふたをして240度で4分焼きます。
+l5.sections.1.blocks.2.lines.19	4分たっ[[たら|b]]、ふたを取り、もう一度うら返して
+l5.sections.1.blocks.2.lines.20	さらに3分ぐらい焼きます。
+l5.sections.1.blocks.2.lines.21	¶4. [[最後に|a]]ソースと青のりをかけ[[たら|b]]、完成です。
+l5.sections.1.blocks.2.lines.22	お好みで、マヨネーズをかけてもおいしいです。
+l5.sections.1.blocks.2.lines.24	¶**おいしく作るためのポイント**
+l5.sections.1.blocks.2.lines.25	¶材料をまぜる時は空気を入れるようにしましょう。
+l5.sections.1.blocks.2.lines.26	ふわっとしたおいしいお好み焼きになります。
 l5.sections.1.blocks.2.roles.0.label	❶ 料理の名前
 l5.sections.1.blocks.2.roles.1.label	❷ どんな料理か
 l5.sections.1.blocks.2.roles.2.label	❸ 材料
@@ -5008,409 +5008,412 @@ l5.sections.2.blocks.7.lines.13.sp	絵
 l5.sections.2.blocks.7.lines.13.ja	オッケー！ じゃあ、土曜日に。
 l5.sections.2.blocks.7.lines.14.sp	ジ
 l5.sections.2.blocks.7.lines.14.ja	うん。❺**楽しみにしてるね。**
-l5.sections.2.blocks.8.items.0.ja	{空|あ}いて（い）る
-l5.sections.2.blocks.8.items.0.en	to be free
-l5.sections.2.blocks.8.items.1.ja	{現地集合|げんちしゅうごう}
-l5.sections.2.blocks.8.items.1.en	meet at the destination
-l5.sections.2.blocks.8.items.2.ja	{徒歩|とほ}
-l5.sections.2.blocks.8.items.2.en	on foot
-l5.sections.2.blocks.9.text.ja	フローチャート
-l5.sections.2.blocks.10.head.0.ja	あなた：誘う
-l5.sections.2.blocks.10.head.1.ja	友達：誘われる
-l5.sections.2.blocks.10.steps.0.phase.ja	パートA
-l5.sections.2.blocks.10.steps.0.label.ja	話しかけて予定を聞く
-l5.sections.2.blocks.10.steps.0.text.ja	ねえ、〇〇さん、今週の土曜日**って{空|あ}いてる？**
-l5.sections.2.blocks.10.steps.1.text.ja	今週の土曜日？
+l5.sections.2.blocks.9.items.0.ja	{空|あ}いて（い）る
+l5.sections.2.blocks.9.items.0.en	to be free
+l5.sections.2.blocks.9.items.1.ja	{現地集合|げんちしゅうごう}
+l5.sections.2.blocks.9.items.1.en	meet at the destination
+l5.sections.2.blocks.9.items.2.ja	{徒歩|とほ}
+l5.sections.2.blocks.9.items.2.en	on foot
+l5.sections.2.blocks.10.text.ja	フローチャート
+l5.sections.2.blocks.11.head.0.ja	あなた：誘う
+l5.sections.2.blocks.11.head.1.ja	友達：誘われる
+l5.sections.2.blocks.11.steps.0.phase.ja	パートA
+l5.sections.2.blocks.11.steps.0.label.ja	話しかけて予定を聞く
+l5.sections.2.blocks.11.steps.0.text.ja	ねえ、〇〇さん、今週の土曜日**って{空|あ}いてる？**
+l5.sections.2.blocks.11.steps.1.text.ja	今週の土曜日？
 特に予定はないけど……。
-l5.sections.2.blocks.10.steps.2.label.ja	理由を言って誘う
-l5.sections.2.blocks.10.steps.2.text.ja	日本語のクラスメートと回転ずしに行く**んだけど、**
+l5.sections.2.blocks.11.steps.2.label.ja	理由を言って誘う
+l5.sections.2.blocks.11.steps.2.text.ja	日本語のクラスメートと回転ずしに行く**んだけど、**
 **よかったら、一緒に行かない？**
-l5.sections.2.blocks.10.steps.3.text.ja	へえ、楽しそうだね。
+l5.sections.2.blocks.11.steps.3.text.ja	へえ、楽しそうだね。
 でも、私が行ってもいいの？
-l5.sections.2.blocks.10.steps.4.label.ja	もう一度誘ってみる
-l5.sections.2.blocks.10.steps.4.text.ja	もちろん！ 〇〇さんが来てくれたら、みんなも{喜|よろこ}
+l5.sections.2.blocks.11.steps.4.label.ja	もう一度誘ってみる
+l5.sections.2.blocks.11.steps.4.text.ja	もちろん！ 〇〇さんが来てくれたら、みんなも{喜|よろこ}
 ぶと思う**し**。**それに**、{研|けん}も来るって言ってる**し**。
 **予定がないなら、一緒に行こうよ。**
-l5.sections.2.blocks.10.steps.5.text.ja	じゃあ、行こうかな。
-l5.sections.2.blocks.10.steps.6.phase.ja	パートB
-l5.sections.2.blocks.10.steps.6.label.ja	時間と場所を伝える
-l5.sections.2.blocks.10.steps.6.text.ja	じゃあ、12時半**に{現地集合|げんちしゅうごう}なんだけど、いい？**
-l5.sections.2.blocks.10.steps.7.text.ja	オッケー！ じゃあ、土曜日に。
-l5.sections.2.blocks.10.steps.8.label.ja	会話を終える
-l5.sections.2.blocks.10.steps.8.text.ja	うん。**楽しみにしてるね。**
-l5.sections.2.blocks.11.text.ja	練習しよう
-l5.sections.2.blocks.12.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l5.sections.2.blocks.13.title.ja	パートA
-l5.sections.2.blocks.13.blocks.0.text.ja	❶話しかけて予定を聞く ➔ ❷理由を言って誘う ➔ ❸もう一度誘ってみる
-l5.sections.2.blocks.14.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.14.blocks.0.lines.0.ja	❶ねえ、〇〇さん、{{今週の土曜日}}**って{空|あ}いてる？**
-l5.sections.2.blocks.14.blocks.0.lines.1.sp	友達
-l5.sections.2.blocks.14.blocks.0.lines.1.ja	{{今週の土曜日}}？ 特に予定はないけど……。
-l5.sections.2.blocks.14.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.14.blocks.0.lines.2.ja	❷**〜んだけど、よかったら、一緒に行かない？**
-l5.sections.2.blocks.14.blocks.0.lines.3.sp	友達
-l5.sections.2.blocks.14.blocks.0.lines.3.ja	楽しそうだね。でも、私が行ってもいいの？
-l5.sections.2.blocks.14.blocks.0.lines.4.sp	あなた
-l5.sections.2.blocks.14.blocks.0.lines.4.ja	もちろん！ ❸＿＿［理由1］＿＿**し。それに、**＿＿［理由2］＿＿**し。**
+l5.sections.2.blocks.11.steps.5.text.ja	じゃあ、行こうかな。
+l5.sections.2.blocks.11.steps.6.phase.ja	パートB
+l5.sections.2.blocks.11.steps.6.label.ja	時間と場所を伝える
+l5.sections.2.blocks.11.steps.6.text.ja	じゃあ、12時半**に{現地集合|げんちしゅうごう}なんだけど、いい？**
+l5.sections.2.blocks.11.steps.7.text.ja	オッケー！ じゃあ、土曜日に。
+l5.sections.2.blocks.11.steps.8.label.ja	会話を終える
+l5.sections.2.blocks.11.steps.8.text.ja	うん。**楽しみにしてるね。**
+l5.sections.2.blocks.12.text.ja	練習しよう
+l5.sections.2.blocks.13.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l5.sections.2.blocks.14.title.ja	パートA
+l5.sections.2.blocks.14.blocks.0.text.ja	❶話しかけて予定を聞く ➔ ❷理由を言って誘う ➔ ❸もう一度誘ってみる
+l5.sections.2.blocks.15.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.15.blocks.0.lines.0.ja	❶ねえ、〇〇さん、{{今週の土曜日}}**って{空|あ}いてる？**
+l5.sections.2.blocks.15.blocks.0.lines.1.sp	友達
+l5.sections.2.blocks.15.blocks.0.lines.1.ja	{{今週の土曜日}}？ 特に予定はないけど……。
+l5.sections.2.blocks.15.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.15.blocks.0.lines.2.ja	❷**〜んだけど、よかったら、一緒に行かない？**
+l5.sections.2.blocks.15.blocks.0.lines.3.sp	友達
+l5.sections.2.blocks.15.blocks.0.lines.3.ja	楽しそうだね。でも、私が行ってもいいの？
+l5.sections.2.blocks.15.blocks.0.lines.4.sp	あなた
+l5.sections.2.blocks.15.blocks.0.lines.4.ja	もちろん！ ❸＿＿［理由1］＿＿**し。それに、**＿＿［理由2］＿＿**し。**
 **予定がないなら、一緒に行こうよ。**
-l5.sections.2.blocks.14.blocks.0.lines.5.sp	友達
-l5.sections.2.blocks.14.blocks.0.lines.5.ja	じゃあ、行こうかな。
-l5.sections.2.blocks.15.items.0.text.ja	友達をバーベキューパーティーに誘いなさい。友達が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
-l5.sections.2.blocks.15.items.1.text.ja	「1-1. やってみよう」の1）①② (p.152) で考えたことを使って話してみよう。
-l5.sections.2.blocks.16.title.ja	パートB
-l5.sections.2.blocks.16.blocks.0.text.ja	❹時間と場所を伝える ➔ ❺会話を終える
-l5.sections.2.blocks.17.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.17.blocks.0.lines.0.ja	❹じゃあ、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんだけど、いい？**
-l5.sections.2.blocks.17.blocks.0.lines.1.sp	友達
-l5.sections.2.blocks.17.blocks.0.lines.1.ja	オッケー！ じゃあ、{{土曜日}}の〇時に。
-l5.sections.2.blocks.17.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.17.blocks.0.lines.2.ja	うん。❺**楽しみにしてるね。**
-l5.sections.2.blocks.18.items.0.text.ja	友達に、バーベキューパーティーの集合時間と場所を伝えなさい。
-l5.sections.2.blocks.18.items.1.text.ja	「1-1. やってみよう」の1）③ (p.152) で考えたことを使って話してみよう。
-l5.sections.2.blocks.19.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l5.sections.2.blocks.20.title.ja	フォーマルな会話にチャレンジ！
-l5.sections.2.blocks.20.blocks.0.text.ja	ロールプレイをやってみよう
-l5.sections.2.blocks.20.blocks.1.cards.0.who	あなた
-l5.sections.2.blocks.20.blocks.1.cards.0.text.ja	先生をクラスメートとの食事会や
+l5.sections.2.blocks.15.blocks.0.lines.5.sp	友達
+l5.sections.2.blocks.15.blocks.0.lines.5.ja	じゃあ、行こうかな。
+l5.sections.2.blocks.16.items.0.text.ja	友達をバーベキューパーティーに誘いなさい。友達が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
+l5.sections.2.blocks.16.items.1.text.ja	「1-1. やってみよう」の1）①② (p.152) で考えたことを使って話してみよう。
+l5.sections.2.blocks.17.title.ja	パートB
+l5.sections.2.blocks.17.blocks.0.text.ja	❹時間と場所を伝える ➔ ❺会話を終える
+l5.sections.2.blocks.18.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.18.blocks.0.lines.0.ja	❹じゃあ、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんだけど、いい？**
+l5.sections.2.blocks.18.blocks.0.lines.1.sp	友達
+l5.sections.2.blocks.18.blocks.0.lines.1.ja	オッケー！ じゃあ、{{土曜日}}の〇時に。
+l5.sections.2.blocks.18.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.18.blocks.0.lines.2.ja	うん。❺**楽しみにしてるね。**
+l5.sections.2.blocks.19.items.0.text.ja	友達に、バーベキューパーティーの集合時間と場所を伝えなさい。
+l5.sections.2.blocks.19.items.1.text.ja	「1-1. やってみよう」の1）③ (p.152) で考えたことを使って話してみよう。
+l5.sections.2.blocks.20.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l5.sections.2.blocks.21.title.ja	フォーマルな会話にチャレンジ！
+l5.sections.2.blocks.21.blocks.0.text.ja	ロールプレイをやってみよう
+l5.sections.2.blocks.21.blocks.1.cards.0.who	あなた
+l5.sections.2.blocks.21.blocks.1.cards.0.text.ja	先生をクラスメートとの食事会や
 サークルのイベントに
 誘いなさい。
 会う時間と場所も伝えなさい。
-l5.sections.2.blocks.20.blocks.1.cards.1.who	Aの先生
-l5.sections.2.blocks.20.blocks.1.cards.1.text.ja	Aさんにイベントに誘われます。
+l5.sections.2.blocks.21.blocks.1.cards.1.who	Aの先生
+l5.sections.2.blocks.21.blocks.1.cards.1.text.ja	Aさんにイベントに誘われます。
 対応しなさい。
 （初めは行くかどうか{迷|まよ}いますが、
 やはり行くことにします。）
-l5.sections.2.blocks.20.blocks.2.text.ja	練習しよう
-l5.sections.2.blocks.20.blocks.3.text.ja	パートA
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.0.ja	❶あの、{{今週の土曜日}}**はお忙しいですか。**
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.1.sp	先生
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.1.ja	{{今週の土曜日}}ですか。特に予定はないですが。
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.2.ja	❷**〜んですが、よろしければ、**先生**もいらっしゃいませんか。**
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.3.sp	先生
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.3.ja	いいですね。でも、私が行っても{大丈夫|だいじょうぶ}ですか。
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.4.sp	あなた
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.4.ja	もちろんです。❸＿＿［理由1］＿＿**。それに、**＿＿［理由2］＿＿。
+l5.sections.2.blocks.21.blocks.2.text.ja	練習しよう
+l5.sections.2.blocks.21.blocks.3.text.ja	パートA
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.0.ja	❶あの、{{今週の土曜日}}**はお忙しいですか。**
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.1.sp	先生
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.1.ja	{{今週の土曜日}}ですか。特に予定はないですが。
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.2.ja	❷**〜んですが、よろしければ、**先生**もいらっしゃいませんか。**
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.3.sp	先生
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.3.ja	いいですね。でも、私が行っても{大丈夫|だいじょうぶ}ですか。
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.4.sp	あなた
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.4.ja	もちろんです。❸＿＿［理由1］＿＿**。それに、**＿＿［理由2］＿＿。
 **ご{都合|つごう}がよろしければ、ぜひ、いらっしゃってください。**
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.5.sp	先生
-l5.sections.2.blocks.20.blocks.4.blocks.0.lines.5.ja	そうですか？ じゃあ、行きます。
-l5.sections.2.blocks.20.blocks.5.items.0.ja	先生をクラスの打ち上げに誘いなさい。先生が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
-l5.sections.2.blocks.20.blocks.6.text.ja	パートB
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.0.ja	❹では、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんですが、よろしいでしょうか。**
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.1.sp	先生
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.1.ja	わかりました。じゃあ、{{土曜日}}の〇時に。
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.20.blocks.7.blocks.0.lines.2.ja	はい。❺先生がいらっしゃるのを**楽しみにしています。**
-l5.sections.2.blocks.20.blocks.8.items.0.ja	先生にクラスの打ち上げの集合時間と場所を伝えなさい。
-l5.sections.2.blocks.20.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l5.sections.2.blocks.21.text.ja	店への行き方
-l5.sections.2.blocks.22.text.ja	やってみよう
-l5.sections.2.blocks.23.items.0.text.ja	道がわからなくて人に聞いたことがありますか。その時の経験について教えてください。
-l5.sections.2.blocks.23.items.1.text.ja	スマホの地図アプリの情報が古くて目的地 (destination) が見つからなかったら、どうしますか。
-l5.sections.2.blocks.23.items.2.text.ja	カフェの場所を聞くロールプレイをしなさい。その後で、カフェは下の地図の !!A!! 〜 !!G!! のどれか答えなさい。
-l5.sections.2.blocks.23.items.2.blocks.0.cards.0.who	あなた
-l5.sections.2.blocks.23.items.2.blocks.0.cards.0.text.ja	カフェに行くために
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.5.sp	先生
+l5.sections.2.blocks.21.blocks.4.blocks.0.lines.5.ja	そうですか？ じゃあ、行きます。
+l5.sections.2.blocks.21.blocks.5.items.0.ja	先生をクラスの打ち上げに誘いなさい。先生が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
+l5.sections.2.blocks.21.blocks.6.text.ja	パートB
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.0.ja	❹では、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんですが、よろしいでしょうか。**
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.1.sp	先生
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.1.ja	わかりました。じゃあ、{{土曜日}}の〇時に。
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.21.blocks.7.blocks.0.lines.2.ja	はい。❺先生がいらっしゃるのを**楽しみにしています。**
+l5.sections.2.blocks.21.blocks.8.items.0.ja	先生にクラスの打ち上げの集合時間と場所を伝えなさい。
+l5.sections.2.blocks.21.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l5.sections.2.blocks.22.text.ja	店への行き方
+l5.sections.2.blocks.23.text.ja	やってみよう
+l5.sections.2.blocks.24.items.0.text.ja	道がわからなくて人に聞いたことがありますか。その時の経験について教えてください。
+l5.sections.2.blocks.24.items.1.text.ja	スマホの地図アプリの情報が古くて目的地 (destination) が見つからなかったら、どうしますか。
+l5.sections.2.blocks.24.items.2.text.ja	カフェの場所を聞くロールプレイをしなさい。その後で、カフェは下の地図の !!A!! 〜 !!G!! のどれか答えなさい。
+l5.sections.2.blocks.24.items.2.blocks.0.cards.0.who	あなた
+l5.sections.2.blocks.24.items.2.blocks.0.cards.0.text.ja	カフェに行くために
 地図アプリを使っています。
 でも、アプリの情報が古くて、
 カフェが見つかりません。
 知らない人にカフェの場所を
 聞きなさい。あなたは今、
 下の地図の !!📍!! にいます。
-l5.sections.2.blocks.23.items.2.blocks.0.cards.1.who	{通行人|つうこうにん} (passer-by)
-l5.sections.2.blocks.23.items.2.blocks.0.cards.1.text.ja	今、下の地図の !!📍!! にいます。
+l5.sections.2.blocks.24.items.2.blocks.0.cards.1.who	{通行人|つうこうにん} (passer-by)
+l5.sections.2.blocks.24.items.2.blocks.0.cards.1.text.ja	今、下の地図の !!📍!! にいます。
 知らない人（A）に
 カフェの場所を聞かれます。
 下の情報を使って道を教えなさい。
-l5.sections.2.blocks.23.items.2.blocks.1.items.0.ja	そのカフェは{移転|いてん}しました (moved)。
-l5.sections.2.blocks.23.items.2.blocks.1.items.1.ja	「道なりに行くとホテルがあるから、その先の{交差点|こうさてん} (intersection) をわたって (cross) まっすぐ行ってください。しばらく行くと、左手に見えますよ。」
-l5.sections.2.blocks.23.items.2.blocks.2.labels.0	A
-l5.sections.2.blocks.23.items.2.blocks.2.labels.1	B
-l5.sections.2.blocks.23.items.2.blocks.2.labels.2	C
-l5.sections.2.blocks.23.items.2.blocks.2.labels.3	D
-l5.sections.2.blocks.23.items.2.blocks.2.labels.4	E
-l5.sections.2.blocks.23.items.2.blocks.2.labels.5	F
-l5.sections.2.blocks.23.items.2.blocks.2.labels.6	ホテル
-l5.sections.2.blocks.23.items.2.blocks.2.labels.7	G
-l5.sections.2.blocks.23.items.2.blocks.2.labels.8	{郵便局|ゆうびんきょく}
-l5.sections.2.blocks.23.items.2.blocks.2.labels.9	入口
-l5.sections.2.blocks.23.items.2.blocks.2.labels.10	here
-l5.sections.2.blocks.24.text.ja	聞いてみよう
-l5.sections.2.blocks.25.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
-l5.sections.2.blocks.25.items.0.blocks.0.items.0.text.ja	{区|く}{役所|やくしょ}{方面|ほうめん}に行くためには何という{改札|かいさつ}を使いますか。
-l5.sections.2.blocks.25.items.0.blocks.0.items.1.text.ja	何番出口から出ればいいですか。
-l5.sections.2.blocks.25.items.0.blocks.0.items.2.text.ja	ジョージはどうしてすし屋が見つけられませんでしたか。
-l5.sections.2.blocks.25.items.0.blocks.0.items.3.text.ja	すし屋はどこですか。下の地図の !!A!! 〜 !!G!! の中から選びなさい。
-l5.sections.2.blocks.25.items.0.blocks.1.labels.0	A
-l5.sections.2.blocks.25.items.0.blocks.1.labels.1	B
-l5.sections.2.blocks.25.items.0.blocks.1.labels.2	C
-l5.sections.2.blocks.25.items.0.blocks.1.labels.3	D
-l5.sections.2.blocks.25.items.0.blocks.1.labels.4	E
-l5.sections.2.blocks.25.items.0.blocks.1.labels.5	F
-l5.sections.2.blocks.25.items.0.blocks.1.labels.6	ホテル
-l5.sections.2.blocks.25.items.0.blocks.1.labels.7	G
-l5.sections.2.blocks.25.items.0.blocks.1.labels.8	{郵便局|ゆうびんきょく}
-l5.sections.2.blocks.25.items.0.blocks.1.labels.9	入口
-l5.sections.2.blocks.25.items.0.blocks.1.labels.10	here
-l5.sections.2.blocks.25.items.1.text.ja	ジョージは場所や道を聞く時、何と言っていましたか。
-l5.sections.2.blocks.25.items.1.blocks.0.items.0.label.ja	① {改札|かいさつ}を{確認|かくにん}する時
-l5.sections.2.blocks.25.items.1.blocks.0.items.0.text.ja	{区|く}{役所|やくしょ}＿＿が、
+l5.sections.2.blocks.24.items.2.blocks.1.items.0.ja	そのカフェは{移転|いてん}しました (moved)。
+l5.sections.2.blocks.24.items.2.blocks.1.items.1.ja	「道なりに行くとホテルがあるから、その先の{交差点|こうさてん} (intersection) をわたって (cross) まっすぐ行ってください。しばらく行くと、左手に見えますよ。」
+l5.sections.2.blocks.24.items.2.blocks.2.labels.0	A
+l5.sections.2.blocks.24.items.2.blocks.2.labels.1	B
+l5.sections.2.blocks.24.items.2.blocks.2.labels.2	C
+l5.sections.2.blocks.24.items.2.blocks.2.labels.3	D
+l5.sections.2.blocks.24.items.2.blocks.2.labels.4	E
+l5.sections.2.blocks.24.items.2.blocks.2.labels.5	F
+l5.sections.2.blocks.24.items.2.blocks.2.labels.6	ホテル
+l5.sections.2.blocks.24.items.2.blocks.2.labels.7	G
+l5.sections.2.blocks.24.items.2.blocks.2.labels.8	{郵便局|ゆうびんきょく}
+l5.sections.2.blocks.24.items.2.blocks.2.labels.9	入口
+l5.sections.2.blocks.24.items.2.blocks.2.labels.10	here
+l5.sections.2.blocks.25.text.ja	聞いてみよう
+l5.sections.2.blocks.26.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
+l5.sections.2.blocks.26.items.0.blocks.0.items.0.text.ja	{区|く}{役所|やくしょ}{方面|ほうめん}に行くためには何という{改札|かいさつ}を使いますか。
+l5.sections.2.blocks.26.items.0.blocks.0.items.1.text.ja	何番出口から出ればいいですか。
+l5.sections.2.blocks.26.items.0.blocks.0.items.2.text.ja	ジョージはどうしてすし屋が見つけられませんでしたか。
+l5.sections.2.blocks.26.items.0.blocks.0.items.3.text.ja	すし屋はどこですか。下の地図の !!A!! 〜 !!G!! の中から選びなさい。
+l5.sections.2.blocks.26.items.0.blocks.1.labels.0	A
+l5.sections.2.blocks.26.items.0.blocks.1.labels.1	B
+l5.sections.2.blocks.26.items.0.blocks.1.labels.2	C
+l5.sections.2.blocks.26.items.0.blocks.1.labels.3	D
+l5.sections.2.blocks.26.items.0.blocks.1.labels.4	E
+l5.sections.2.blocks.26.items.0.blocks.1.labels.5	F
+l5.sections.2.blocks.26.items.0.blocks.1.labels.6	ホテル
+l5.sections.2.blocks.26.items.0.blocks.1.labels.7	G
+l5.sections.2.blocks.26.items.0.blocks.1.labels.8	{郵便局|ゆうびんきょく}
+l5.sections.2.blocks.26.items.0.blocks.1.labels.9	入口
+l5.sections.2.blocks.26.items.0.blocks.1.labels.10	here
+l5.sections.2.blocks.26.items.1.text.ja	ジョージは場所や道を聞く時、何と言っていましたか。
+l5.sections.2.blocks.26.items.1.blocks.0.items.0.label.ja	① {改札|かいさつ}を{確認|かくにん}する時
+l5.sections.2.blocks.26.items.1.blocks.0.items.0.text.ja	{区|く}{役所|やくしょ}＿＿が、
 南口{改札|かいさつ}＿＿か。
-l5.sections.2.blocks.25.items.1.blocks.0.items.0.answer.0	方面に行きたいんです
-l5.sections.2.blocks.25.items.1.blocks.0.items.0.answer.1	でいいです
-l5.sections.2.blocks.25.items.1.blocks.0.items.1.label.ja	② すし屋の場所を聞く時
-l5.sections.2.blocks.25.items.1.blocks.0.items.1.text.ja	「{海|うみ}ずし」という回転ずしの店を＿＿か。
+l5.sections.2.blocks.26.items.1.blocks.0.items.0.answer.0	方面に行きたいんです
+l5.sections.2.blocks.26.items.1.blocks.0.items.0.answer.1	でいいです
+l5.sections.2.blocks.26.items.1.blocks.0.items.1.label.ja	② すし屋の場所を聞く時
+l5.sections.2.blocks.26.items.1.blocks.0.items.1.text.ja	「{海|うみ}ずし」という回転ずしの店を＿＿か。
 地図だと＿＿けど。
-l5.sections.2.blocks.25.items.1.blocks.0.items.1.answer.0	ご存知です
-l5.sections.2.blocks.25.items.1.blocks.0.items.1.answer.1	この辺のはずなんです
-l5.sections.2.blocks.26.text.ja	モデル会話
-l5.sections.2.blocks.27.title.ja	道を{尋|たず}ねる
-l5.sections.2.blocks.27.setting.ja	回転ずしの店に行くため、ジョージ（ジ:）が駅で駅員（駅:）に{尋|たず}ねて (ask) いる。
-l5.sections.2.blocks.27.lines.0.sp	ジ
-l5.sections.2.blocks.27.lines.0.ja	❶すみません。{区|く}{役所|やくしょ}**{方面|ほうめん}に行きたいんですが、**南口**{改札|かいさつ}でいいですか。**
-l5.sections.2.blocks.27.lines.1.sp	駅
-l5.sections.2.blocks.27.lines.1.ja	区役所方面なら、北口改札ですね。
-l5.sections.2.blocks.27.lines.2.sp	ジ
-l5.sections.2.blocks.27.lines.2.ja	あ、そうなんですか。❷北口改札**はどう行けばいいですか。**
-l5.sections.2.blocks.27.lines.3.sp	駅
-l5.sections.2.blocks.27.lines.3.ja	そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。
-l5.sections.2.blocks.27.lines.4.sp	ジ
-l5.sections.2.blocks.27.lines.4.ja	❸ホームの反対のエスカレーターを上がった**ところですね？**
-l5.sections.2.blocks.27.lines.5.sp	駅
-l5.sections.2.blocks.27.lines.5.ja	はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。
-l5.sections.2.blocks.27.lines.6.sp	ジ
-l5.sections.2.blocks.27.lines.6.ja	❹3番出口**ですね。**わかりました。
+l5.sections.2.blocks.26.items.1.blocks.0.items.1.answer.0	ご存知です
+l5.sections.2.blocks.26.items.1.blocks.0.items.1.answer.1	この辺のはずなんです
+l5.sections.2.blocks.27.text.ja	モデル会話
+l5.sections.2.blocks.28.title.ja	道を{尋|たず}ねる
+l5.sections.2.blocks.28.setting.ja	回転ずしの店に行くため、ジョージ（ジ:）が駅で駅員（駅:）に{尋|たず}ねて (ask) いる。
+l5.sections.2.blocks.28.lines.0.sp	ジ
+l5.sections.2.blocks.28.lines.0.ja	❶すみません。{区|く}{役所|やくしょ}**{方面|ほうめん}に行きたいんですが、**南口**{改札|かいさつ}でいいですか。**
+l5.sections.2.blocks.28.lines.1.sp	駅
+l5.sections.2.blocks.28.lines.1.ja	区役所方面なら、北口改札ですね。
+l5.sections.2.blocks.28.lines.2.sp	ジ
+l5.sections.2.blocks.28.lines.2.ja	あ、そうなんですか。❷北口改札**はどう行けばいいですか。**
+l5.sections.2.blocks.28.lines.3.sp	駅
+l5.sections.2.blocks.28.lines.3.ja	そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。
+l5.sections.2.blocks.28.lines.4.sp	ジ
+l5.sections.2.blocks.28.lines.4.ja	❸ホームの反対のエスカレーターを上がった**ところですね？**
+l5.sections.2.blocks.28.lines.5.sp	駅
+l5.sections.2.blocks.28.lines.5.ja	はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。
+l5.sections.2.blocks.28.lines.6.sp	ジ
+l5.sections.2.blocks.28.lines.6.ja	❹3番出口**ですね。**わかりました。
 **ありがとうございました。**
-l5.sections.2.blocks.27.lines.7.sp	駅
-l5.sections.2.blocks.27.lines.7.ja	いいえ。
-l5.sections.2.blocks.27.lines.8.ja	＊　　＊　　＊
-l5.sections.2.blocks.27.lines.9.ja	駅を出たジョージ（ジ:）が{通行人|つうこうにん}（通:）に道を尋ねている。
-l5.sections.2.blocks.27.lines.10.sp	ジ
-l5.sections.2.blocks.27.lines.10.ja	❺すみません。**ちょっと道を{伺|うかが}いたいんですが。**
-l5.sections.2.blocks.27.lines.11.sp	通
-l5.sections.2.blocks.27.lines.11.ja	はい。
-l5.sections.2.blocks.27.lines.12.sp	ジ
-l5.sections.2.blocks.27.lines.12.ja	❻「{海|うみ}ずし」という回転ずしの店**をご{存知|ぞんじ}ですか。地図だとこの{辺|へん}のはずなんですけど。**（スマホの地図を見せる）
-l5.sections.2.blocks.27.lines.13.sp	通
-l5.sections.2.blocks.27.lines.13.ja	ちょっと、見せてください。確かにこのビルのはずですね。変ですね……。
-l5.sections.2.blocks.27.lines.14.sp	ジ
-l5.sections.2.blocks.27.lines.14.ja	はい……。
-l5.sections.2.blocks.27.lines.15.sp	通
-l5.sections.2.blocks.27.lines.15.ja	あっ、あそこに{貼|は}り{紙|がみ}が……。えーと……ああ、{移転|いてん}したみたいですね。
-l5.sections.2.blocks.27.lines.16.sp	ジ
-l5.sections.2.blocks.27.lines.16.ja	えっ、そうなんですか！
-l5.sections.2.blocks.27.lines.17.sp	通
-l5.sections.2.blocks.27.lines.17.ja	えっと、貼り紙の地図によると、この先の{交差点|こうさてん}をわたって少し歩いたところにあるみたいですよ。道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の交差点をわたったら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。
-l5.sections.2.blocks.27.lines.18.sp	ジ
-l5.sections.2.blocks.27.lines.18.ja	❼ホテルの先の交差点をわたって左**ですね。どうもありがとうございました。**
-l5.sections.2.blocks.27.lines.19.sp	通
-l5.sections.2.blocks.27.lines.19.ja	いいえ。
-l5.sections.2.blocks.28.labels.0	北口改札
-l5.sections.2.blocks.28.labels.1	南口改札
-l5.sections.2.blocks.28.labels.2	here
-l5.sections.2.blocks.29.items.0.ja	{区|く}{役所|やくしょ}
-l5.sections.2.blocks.29.items.0.en	city hall
-l5.sections.2.blocks.29.items.1.ja	〜{方面|ほうめん}
-l5.sections.2.blocks.29.items.1.en	direction
-l5.sections.2.blocks.29.items.2.ja	{改札|かいさつ}
-l5.sections.2.blocks.29.items.2.en	ticket gate
-l5.sections.2.blocks.29.items.3.ja	{階段|かいだん}
-l5.sections.2.blocks.29.items.3.en	stairs
-l5.sections.2.blocks.29.items.4.ja	いったん
-l5.sections.2.blocks.29.items.4.en	＝{一度|いちど}
-l5.sections.2.blocks.29.items.5.ja	ホーム
-l5.sections.2.blocks.29.items.5.en	station platform
-l5.sections.2.blocks.29.items.6.ja	{戻|もど}る
-l5.sections.2.blocks.29.items.6.en	to return
-l5.sections.2.blocks.29.items.7.ja	{反対|はんたい}の{端|はし}
-l5.sections.2.blocks.29.items.7.en	opposite end
-l5.sections.2.blocks.29.items.8.ja	この{辺|へん}
-l5.sections.2.blocks.29.items.8.en	around here
-l5.sections.2.blocks.29.items.9.ja	{貼|は}り{紙|がみ}
-l5.sections.2.blocks.29.items.9.en	poster
-l5.sections.2.blocks.29.items.10.ja	{移転|いてん}する
-l5.sections.2.blocks.29.items.10.en	to move
-l5.sections.2.blocks.29.items.11.ja	{交差点|こうさてん}
-l5.sections.2.blocks.29.items.11.en	intersection
-l5.sections.2.blocks.29.items.12.ja	わたる
-l5.sections.2.blocks.29.items.12.en	to cross at a traffic light
-l5.sections.2.blocks.29.items.13.ja	{道|みち}なりに{行|い}く
-l5.sections.2.blocks.29.items.13.en	to go along the road
-l5.sections.2.blocks.29.items.14.ja	〜の{先|さき}
-l5.sections.2.blocks.29.items.14.en	ahead of ~
-l5.sections.2.blocks.29.items.15.ja	{曲|ま}がる
-l5.sections.2.blocks.29.items.15.en	to turn
-l5.sections.2.blocks.30.text.ja	フローチャート
-l5.sections.2.blocks.31.head.0.ja	あなた：道を聞く
-l5.sections.2.blocks.31.head.1.ja	駅員：道を教える
-l5.sections.2.blocks.31.steps.0.phase.ja	パートA
-l5.sections.2.blocks.31.steps.0.label.ja	{確認|かくにん} (confirmation) のために聞く
-l5.sections.2.blocks.31.steps.0.text.ja	すみません。{区|く}{役所|やくしょ}**{方面|ほうめん}に行きたいんですが、**
-南口**{改札|かいさつ}でいいですか。**
-l5.sections.2.blocks.31.steps.1.text.ja	区役所方面なら、北口改札ですね。
-l5.sections.2.blocks.31.steps.2.label.ja	道を聞く
-l5.sections.2.blocks.31.steps.2.text.ja	北口改札**はどう行けばいいですか。**
-l5.sections.2.blocks.31.steps.3.text.ja	そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。
-l5.sections.2.blocks.31.steps.4.label.ja	繰り返して (repeat) 確認する
-l5.sections.2.blocks.31.steps.4.text.ja	ホームの反対のエスカレーターを上がった**ところですね？**
-l5.sections.2.blocks.31.steps.5.text.ja	はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。
-l5.sections.2.blocks.31.steps.6.label.ja	繰り返して確認し、お礼を言う
-l5.sections.2.blocks.31.steps.6.text.ja	3番出口**ですね。ありがとうございました。**
+l5.sections.2.blocks.28.lines.7.sp	駅
+l5.sections.2.blocks.28.lines.7.ja	いいえ。
+l5.sections.2.blocks.28.lines.8.ja	＊　　＊　　＊
+l5.sections.2.blocks.28.lines.9.ja	駅を出たジョージ（ジ:）が{通行人|つうこうにん}（通:）に道を尋ねている。
+l5.sections.2.blocks.28.lines.10.sp	ジ
+l5.sections.2.blocks.28.lines.10.ja	❺すみません。**ちょっと道を{伺|うかが}いたいんですが。**
+l5.sections.2.blocks.28.lines.11.sp	通
+l5.sections.2.blocks.28.lines.11.ja	はい。
+l5.sections.2.blocks.28.lines.12.sp	ジ
+l5.sections.2.blocks.28.lines.12.ja	❻「{海|うみ}ずし」という回転ずしの店**をご{存知|ぞんじ}ですか。地図だとこの{辺|へん}のはずなんですけど。**（スマホの地図を見せる）
+l5.sections.2.blocks.28.lines.13.sp	通
+l5.sections.2.blocks.28.lines.13.ja	ちょっと、見せてください。確かにこのビルのはずですね。変ですね……。
+l5.sections.2.blocks.28.lines.14.sp	ジ
+l5.sections.2.blocks.28.lines.14.ja	はい……。
+l5.sections.2.blocks.28.lines.15.sp	通
+l5.sections.2.blocks.28.lines.15.ja	あっ、あそこに{貼|は}り{紙|がみ}が……。えーと……ああ、{移転|いてん}したみたいですね。
+l5.sections.2.blocks.28.lines.16.sp	ジ
+l5.sections.2.blocks.28.lines.16.ja	えっ、そうなんですか！
+l5.sections.2.blocks.28.lines.17.sp	通
+l5.sections.2.blocks.28.lines.17.ja	えっと、貼り紙の地図によると、この先の{交差点|こうさてん}をわたって少し歩いたところにあるみたいですよ。道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の交差点をわたったら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。
+l5.sections.2.blocks.28.lines.18.sp	ジ
+l5.sections.2.blocks.28.lines.18.ja	❼ホテルの先の交差点をわたって左**ですね。どうもありがとうございました。**
+l5.sections.2.blocks.28.lines.19.sp	通
+l5.sections.2.blocks.28.lines.19.ja	いいえ。
+l5.sections.2.blocks.29.labels.0	北口改札
+l5.sections.2.blocks.29.labels.1	南口改札
+l5.sections.2.blocks.29.labels.2	here
+l5.sections.2.blocks.30.items.0.ja	{区|く}{役所|やくしょ}
+l5.sections.2.blocks.30.items.0.en	city hall
+l5.sections.2.blocks.30.items.1.ja	〜{方面|ほうめん}
+l5.sections.2.blocks.30.items.1.en	direction
+l5.sections.2.blocks.30.items.2.ja	{改札|かいさつ}
+l5.sections.2.blocks.30.items.2.en	ticket gate
+l5.sections.2.blocks.30.items.3.ja	{階段|かいだん}
+l5.sections.2.blocks.30.items.3.en	stairs
+l5.sections.2.blocks.30.items.4.ja	いったん
+l5.sections.2.blocks.30.items.4.en	＝{一度|いちど}
+l5.sections.2.blocks.30.items.5.ja	ホーム
+l5.sections.2.blocks.30.items.5.en	station platform
+l5.sections.2.blocks.30.items.6.ja	{戻|もど}る
+l5.sections.2.blocks.30.items.6.en	to return
+l5.sections.2.blocks.30.items.7.ja	{反対|はんたい}の{端|はし}
+l5.sections.2.blocks.30.items.7.en	opposite end
+l5.sections.2.blocks.30.items.8.ja	この{辺|へん}
+l5.sections.2.blocks.30.items.8.en	around here
+l5.sections.2.blocks.30.items.9.ja	{貼|は}り{紙|がみ}
+l5.sections.2.blocks.30.items.9.en	poster
+l5.sections.2.blocks.30.items.10.ja	{移転|いてん}する
+l5.sections.2.blocks.30.items.10.en	to move
+l5.sections.2.blocks.30.items.11.ja	{交差点|こうさてん}
+l5.sections.2.blocks.30.items.11.en	intersection
+l5.sections.2.blocks.30.items.12.ja	わたる
+l5.sections.2.blocks.30.items.12.en	to cross at a traffic light
+l5.sections.2.blocks.30.items.13.ja	{道|みち}なりに{行|い}く
+l5.sections.2.blocks.30.items.13.en	to go along the road
+l5.sections.2.blocks.30.items.14.ja	〜の{先|さき}
+l5.sections.2.blocks.30.items.14.en	ahead of ~
+l5.sections.2.blocks.30.items.15.ja	{曲|ま}がる
+l5.sections.2.blocks.30.items.15.en	to turn
+l5.sections.2.blocks.31.text.ja	フローチャート
 l5.sections.2.blocks.32.head.0.ja	あなた：道を聞く
-l5.sections.2.blocks.32.head.1.ja	通行人：道を教える
-l5.sections.2.blocks.32.steps.0.phase.ja	パートB
-l5.sections.2.blocks.32.steps.0.label.ja	話しかける
-l5.sections.2.blocks.32.steps.0.text.ja	すみません。**ちょっと道を{伺|うかが}いたいんですが。**
-l5.sections.2.blocks.32.steps.1.label.ja	道を聞く
-l5.sections.2.blocks.32.steps.1.text.ja	「{海|うみ}ずし」という回転ずしの店**をご{存知|ぞんじ}ですか。
+l5.sections.2.blocks.32.head.1.ja	駅員：道を教える
+l5.sections.2.blocks.32.steps.0.phase.ja	パートA
+l5.sections.2.blocks.32.steps.0.label.ja	{確認|かくにん} (confirmation) のために聞く
+l5.sections.2.blocks.32.steps.0.text.ja	すみません。{区|く}{役所|やくしょ}**{方面|ほうめん}に行きたいんですが、**
+南口**{改札|かいさつ}でいいですか。**
+l5.sections.2.blocks.32.steps.1.text.ja	区役所方面なら、北口改札ですね。
+l5.sections.2.blocks.32.steps.2.label.ja	道を聞く
+l5.sections.2.blocks.32.steps.2.text.ja	北口改札**はどう行けばいいですか。**
+l5.sections.2.blocks.32.steps.3.text.ja	そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの
+{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。
+l5.sections.2.blocks.32.steps.4.label.ja	繰り返して (repeat) 確認する
+l5.sections.2.blocks.32.steps.4.text.ja	ホームの反対のエスカレーターを上がった**ところですね？**
+l5.sections.2.blocks.32.steps.5.text.ja	はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。
+l5.sections.2.blocks.32.steps.6.label.ja	繰り返して確認し、お礼を言う
+l5.sections.2.blocks.32.steps.6.text.ja	3番出口**ですね。ありがとうございました。**
+l5.sections.2.blocks.33.head.0.ja	あなた：道を聞く
+l5.sections.2.blocks.33.head.1.ja	通行人：道を教える
+l5.sections.2.blocks.33.steps.0.phase.ja	パートB
+l5.sections.2.blocks.33.steps.0.label.ja	話しかける
+l5.sections.2.blocks.33.steps.0.text.ja	すみません。**ちょっと道を{伺|うかが}いたいんですが。**
+l5.sections.2.blocks.33.steps.1.label.ja	道を聞く
+l5.sections.2.blocks.33.steps.1.text.ja	「{海|うみ}ずし」という回転ずしの店**をご{存知|ぞんじ}ですか。
 地図だとこの{辺|へん}のはずなんですけど。**
-l5.sections.2.blocks.32.steps.2.text.ja	「海ずし」なら、{移転|いてん}したみたいですよ。道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたったら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。
-l5.sections.2.blocks.32.steps.3.label.ja	繰り返して確認し、お礼を言う
-l5.sections.2.blocks.32.steps.3.text.ja	ホテルの先の交差点をわたって左**ですね。
+l5.sections.2.blocks.33.steps.2.text.ja	「海ずし」なら、{移転|いてん}したみたいですよ。道なりに行くと左手に
+「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたっ
+たら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。
+l5.sections.2.blocks.33.steps.3.label.ja	繰り返して確認し、お礼を言う
+l5.sections.2.blocks.33.steps.3.text.ja	ホテルの先の交差点をわたって左**ですね。
 どうもありがとうございました。**
-l5.sections.2.blocks.33.text.ja	{練習|れんしゅう}しよう
-l5.sections.2.blocks.34.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l5.sections.2.blocks.35.title.ja	パートA
-l5.sections.2.blocks.35.blocks.0.text.ja	❶ {確認|かくにん} (confirmation) のために聞く ➔ ❷ 道を聞く ➔ ❸ 繰り返して (repeat) 確認する ➔ ❹ 繰り返して確認し、お礼を言う
-l5.sections.2.blocks.36.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.36.blocks.0.lines.0.ja	❶すみません。{{{区|く}{役所|やくしょ}}}**{方面|ほうめん}に行きたいんですが、**{{南口}}**{改札|かいさつ}でいいですか。**
-l5.sections.2.blocks.36.blocks.0.lines.1.sp	駅員
-l5.sections.2.blocks.36.blocks.0.lines.1.ja	{{区役所}}方面なら、{{北口}}改札ですね。
-l5.sections.2.blocks.36.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.36.blocks.0.lines.2.ja	❷{{北口改札}}**はどう行けばいいですか。**
-l5.sections.2.blocks.36.blocks.0.lines.3.sp	駅員
-l5.sections.2.blocks.36.blocks.0.lines.3.ja	{{そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です}}。
-l5.sections.2.blocks.36.blocks.0.lines.4.sp	あなた
-l5.sections.2.blocks.36.blocks.0.lines.4.ja	❸{{ホームの反対のエスカレーターを上がった}}**ところですね？**
-l5.sections.2.blocks.36.blocks.0.lines.5.sp	駅員
-l5.sections.2.blocks.36.blocks.0.lines.5.ja	はい。{{北口の3番出口を出ると、右手に}}すぐ{{区役所}}が見えますよ。
-l5.sections.2.blocks.36.blocks.0.lines.6.sp	あなた
-l5.sections.2.blocks.36.blocks.0.lines.6.ja	❹{{3番出口}}**ですね。ありがとうございました。**
-l5.sections.2.blocks.37.items.0.text.ja	あなたは図の★にいます。①②の場合に、今、自分がいる改札が正しいかどうか、駅員に聞きなさい。
-l5.sections.2.blocks.37.items.0.blocks.0.items.0.text.ja	「{市民|しみん}病院{方面|ほうめん}」に行きたいです。
-l5.sections.2.blocks.37.items.0.blocks.0.items.1.text.ja	「みどり公園方面」に行きたいです。
-l5.sections.2.blocks.38.labels.0	新西口改札
-l5.sections.2.blocks.38.labels.1	上り→
-l5.sections.2.blocks.38.labels.2	←下り
-l5.sections.2.blocks.38.labels.3	新東口改札
-l5.sections.2.blocks.38.labels.4	here
-l5.sections.2.blocks.38.labels.5	東口改札
-l5.sections.2.blocks.38.labels.6	西口改札
-l5.sections.2.blocks.39.text.ja	※駅員は図の★で、客に改札について聞かれています。以下のメモを見ながら話を続けなさい。
-l5.sections.2.blocks.40.blocks.0.items.0.blocks.0.items.0.ja	「{市民|しみん}病院{方面|ほうめん}」は西口改札が近いです。
-l5.sections.2.blocks.40.blocks.0.items.0.blocks.0.items.1.ja	西口改札は、階段を{下|お}りてホームに{戻|もど}って、{反対|はんたい}の{端|はし}のエスカレーターを{上|あ}がって、左に{曲|ま}がって少し行ったところです。
-l5.sections.2.blocks.40.blocks.0.items.1.blocks.0.items.0.ja	「みどり公園方面」は新西口改札が近いです。
-l5.sections.2.blocks.40.blocks.0.items.1.blocks.0.items.1.ja	新西口改札は、トイレの横の{階段|かいだん}を下りて、{隣|となり}のホームに行き、ホームの反対の端のエスカレーターを{上|あ}がったところです。
-l5.sections.2.blocks.41.title.ja	パートB
-l5.sections.2.blocks.41.blocks.0.text.ja	❺ 話しかける ➔ ❻ 道を聞く ➔ ❼ 繰り返して{確認|かくにん}し、お礼を言う
-l5.sections.2.blocks.42.blocks.0.lines.0.sp	あなた
-l5.sections.2.blocks.42.blocks.0.lines.0.ja	❺すみません。**ちょっと道を{伺|うかが}いたいんですが。**
-l5.sections.2.blocks.42.blocks.0.lines.1.sp	通行人
-l5.sections.2.blocks.42.blocks.0.lines.1.ja	はい。
-l5.sections.2.blocks.42.blocks.0.lines.2.sp	あなた
-l5.sections.2.blocks.42.blocks.0.lines.2.ja	❻{{「{海|うみ}ずし」という回転ずしの店}}**をご{存知|ぞんじ}ですか。地図だとこの{辺|へん}のはずなんですけど。**
-l5.sections.2.blocks.42.blocks.0.lines.3.sp	通行人
-l5.sections.2.blocks.42.blocks.0.lines.3.ja	{{「海ずし」}}なら、{移転|いてん}したみたいですよ。{{道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたって、左に{曲|ま}がっ}}てください。すぐ見えるはずですよ。
-l5.sections.2.blocks.42.blocks.0.lines.4.sp	あなた
-l5.sections.2.blocks.42.blocks.0.lines.4.ja	❼{{ホテルの先の交差点をわたって左}}**ですね。どうもありがとうございました。**
-l5.sections.2.blocks.43.items.0.text.ja	あなたは、下の①〜④の場所に行こうと思っています。地図アプリによると、①〜④はそれぞれ !!📍①!! 〜 !!📍④!! の場所にあるようですが、行ってみるとその場所にはありませんでした。通行人に聞いて、正しい場所を下の地図の !!A!! 〜 !!H!! から選びなさい。あなたは地図の !!📍①!! 〜 !!📍④!! にいます。
-l5.sections.2.blocks.43.items.0.blocks.0.items.0.ja	① {市|し}{役所|やくしょ}
-l5.sections.2.blocks.43.items.0.blocks.0.items.1.ja	② {喫茶店|きっさてん}「{山|やま}」
-l5.sections.2.blocks.43.items.0.blocks.0.items.2.ja	③ カラオケ「ファン」
-l5.sections.2.blocks.43.items.0.blocks.0.items.3.ja	④ {十八|じゅうはち}銀行
-l5.sections.2.blocks.44.text.ja	※通行人は次のページの地図2と表現を使いなさい。
-l5.sections.2.blocks.45.text.ja	地図1
-l5.sections.2.blocks.46.labels.0	A
-l5.sections.2.blocks.46.labels.1	B
-l5.sections.2.blocks.46.labels.2	ガソリン
+l5.sections.2.blocks.34.text.ja	練習しよう
+l5.sections.2.blocks.35.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l5.sections.2.blocks.36.title.ja	パートA
+l5.sections.2.blocks.36.blocks.0.text.ja	❶ {確認|かくにん} (confirmation) のために聞く ➔ ❷ 道を聞く ➔ ❸ 繰り返して (repeat) 確認する ➔ ❹ 繰り返して確認し、お礼を言う
+l5.sections.2.blocks.37.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.37.blocks.0.lines.0.ja	❶すみません。{{{区|く}{役所|やくしょ}}}**{方面|ほうめん}に行きたいんですが、**{{南口}}**{改札|かいさつ}でいいですか。**
+l5.sections.2.blocks.37.blocks.0.lines.1.sp	駅員
+l5.sections.2.blocks.37.blocks.0.lines.1.ja	{{区役所}}方面なら、{{北口}}改札ですね。
+l5.sections.2.blocks.37.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.37.blocks.0.lines.2.ja	❷{{北口改札}}**はどう行けばいいですか。**
+l5.sections.2.blocks.37.blocks.0.lines.3.sp	駅員
+l5.sections.2.blocks.37.blocks.0.lines.3.ja	{{そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です}}。
+l5.sections.2.blocks.37.blocks.0.lines.4.sp	あなた
+l5.sections.2.blocks.37.blocks.0.lines.4.ja	❸{{ホームの反対のエスカレーターを上がった}}**ところですね？**
+l5.sections.2.blocks.37.blocks.0.lines.5.sp	駅員
+l5.sections.2.blocks.37.blocks.0.lines.5.ja	はい。{{北口の3番出口を出ると、右手に}}すぐ{{区役所}}が見えますよ。
+l5.sections.2.blocks.37.blocks.0.lines.6.sp	あなた
+l5.sections.2.blocks.37.blocks.0.lines.6.ja	❹{{3番出口}}**ですね。ありがとうございました。**
+l5.sections.2.blocks.38.items.0.text.ja	あなたは図の★にいます。①②の場合に、今、自分がいる改札が正しいかどうか、駅員に聞きなさい。
+l5.sections.2.blocks.38.items.0.blocks.0.items.0.text.ja	「{市民|しみん}病院{方面|ほうめん}」に行きたいです。
+l5.sections.2.blocks.38.items.0.blocks.0.items.1.text.ja	「みどり公園方面」に行きたいです。
+l5.sections.2.blocks.39.labels.0	新西口改札
+l5.sections.2.blocks.39.labels.1	上り→
+l5.sections.2.blocks.39.labels.2	←下り
+l5.sections.2.blocks.39.labels.3	新東口改札
+l5.sections.2.blocks.39.labels.4	here
+l5.sections.2.blocks.39.labels.5	東口改札
+l5.sections.2.blocks.39.labels.6	西口改札
+l5.sections.2.blocks.40.text.ja	※駅員は図の★で、客に改札について聞かれています。以下のメモを見ながら話を続けなさい。
+l5.sections.2.blocks.41.blocks.0.items.0.blocks.0.items.0.ja	「{市民|しみん}病院{方面|ほうめん}」は西口改札が近いです。
+l5.sections.2.blocks.41.blocks.0.items.0.blocks.0.items.1.ja	西口改札は、階段を{下|お}りてホームに{戻|もど}って、{反対|はんたい}の{端|はし}のエスカレーターを{上|あ}がって、左に{曲|ま}がって少し行ったところです。
+l5.sections.2.blocks.41.blocks.0.items.1.blocks.0.items.0.ja	「みどり公園方面」は新西口改札が近いです。
+l5.sections.2.blocks.41.blocks.0.items.1.blocks.0.items.1.ja	新西口改札は、トイレの横の{階段|かいだん}を下りて、{隣|となり}のホームに行き、ホームの反対の端のエスカレーターを{上|あ}がったところです。
+l5.sections.2.blocks.42.title.ja	パートB
+l5.sections.2.blocks.42.blocks.0.text.ja	❺ 話しかける ➔ ❻ 道を聞く ➔ ❼ 繰り返して{確認|かくにん}し、お礼を言う
+l5.sections.2.blocks.43.blocks.0.lines.0.sp	あなた
+l5.sections.2.blocks.43.blocks.0.lines.0.ja	❺すみません。**ちょっと道を{伺|うかが}いたいんですが。**
+l5.sections.2.blocks.43.blocks.0.lines.1.sp	通行人
+l5.sections.2.blocks.43.blocks.0.lines.1.ja	はい。
+l5.sections.2.blocks.43.blocks.0.lines.2.sp	あなた
+l5.sections.2.blocks.43.blocks.0.lines.2.ja	❻{{「{海|うみ}ずし」という回転ずしの店}}**をご{存知|ぞんじ}ですか。地図だとこの{辺|へん}のはずなんですけど。**
+l5.sections.2.blocks.43.blocks.0.lines.3.sp	通行人
+l5.sections.2.blocks.43.blocks.0.lines.3.ja	{{「海ずし」}}なら、{移転|いてん}したみたいですよ。{{道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたって、左に{曲|ま}がっ}}てください。すぐ見えるはずですよ。
+l5.sections.2.blocks.43.blocks.0.lines.4.sp	あなた
+l5.sections.2.blocks.43.blocks.0.lines.4.ja	❼{{ホテルの先の交差点をわたって左}}**ですね。どうもありがとうございました。**
+l5.sections.2.blocks.44.items.0.text.ja	あなたは、下の①〜④の場所に行こうと思っています。地図アプリによると、①〜④はそれぞれ !!📍①!! 〜 !!📍④!! の場所にあるようですが、行ってみるとその場所にはありませんでした。通行人に聞いて、正しい場所を下の地図の !!A!! 〜 !!H!! から選びなさい。あなたは地図の !!📍①!! 〜 !!📍④!! にいます。
+l5.sections.2.blocks.44.items.0.blocks.0.items.0.ja	① {市|し}{役所|やくしょ}
+l5.sections.2.blocks.44.items.0.blocks.0.items.1.ja	② {喫茶店|きっさてん}「{山|やま}」
+l5.sections.2.blocks.44.items.0.blocks.0.items.2.ja	③ カラオケ「ファン」
+l5.sections.2.blocks.44.items.0.blocks.0.items.3.ja	④ {十八|じゅうはち}銀行
+l5.sections.2.blocks.45.text.ja	※通行人は次のページの地図2と表現を使いなさい。
+l5.sections.2.blocks.46.text.ja	地図1
+l5.sections.2.blocks.47.labels.0	A
+l5.sections.2.blocks.47.labels.1	B
+l5.sections.2.blocks.47.labels.2	ガソリン
 スタンド
-l5.sections.2.blocks.46.labels.3	入口
-l5.sections.2.blocks.46.labels.4	C
-l5.sections.2.blocks.46.labels.5	北山図書館
-l5.sections.2.blocks.46.labels.6	D
-l5.sections.2.blocks.46.labels.7	②
-l5.sections.2.blocks.46.labels.8	④
-l5.sections.2.blocks.46.labels.9	E
-l5.sections.2.blocks.46.labels.10	花屋
-l5.sections.2.blocks.46.labels.11	F
-l5.sections.2.blocks.46.labels.12	パン屋
-l5.sections.2.blocks.46.labels.13	H
-l5.sections.2.blocks.46.labels.14	デパート
-l5.sections.2.blocks.46.labels.15	ラーメン屋
-l5.sections.2.blocks.46.labels.16	G
-l5.sections.2.blocks.46.labels.17	③
-l5.sections.2.blocks.46.labels.18	本屋
-l5.sections.2.blocks.46.labels.19	①
-l5.sections.2.blocks.46.labels.20	コンビニ
-l5.sections.2.blocks.46.labels.21	{郵便局|ゆうびんきょく}
-l5.sections.2.blocks.47.text.ja	※通行人は地図2の !!📍①!! 〜 !!📍④!! にいます。地図とメモを見ながら道を教えなさい。
-l5.sections.2.blocks.48.text.ja	地図2
-l5.sections.2.blocks.49.labels.0	A
-l5.sections.2.blocks.49.labels.1	B
-l5.sections.2.blocks.49.labels.2	カラオケ
+l5.sections.2.blocks.47.labels.3	入口
+l5.sections.2.blocks.47.labels.4	C
+l5.sections.2.blocks.47.labels.5	北山図書館
+l5.sections.2.blocks.47.labels.6	D
+l5.sections.2.blocks.47.labels.7	②
+l5.sections.2.blocks.47.labels.8	④
+l5.sections.2.blocks.47.labels.9	E
+l5.sections.2.blocks.47.labels.10	花屋
+l5.sections.2.blocks.47.labels.11	F
+l5.sections.2.blocks.47.labels.12	パン屋
+l5.sections.2.blocks.47.labels.13	H
+l5.sections.2.blocks.47.labels.14	デパート
+l5.sections.2.blocks.47.labels.15	ラーメン屋
+l5.sections.2.blocks.47.labels.16	G
+l5.sections.2.blocks.47.labels.17	③
+l5.sections.2.blocks.47.labels.18	本屋
+l5.sections.2.blocks.47.labels.19	①
+l5.sections.2.blocks.47.labels.20	コンビニ
+l5.sections.2.blocks.47.labels.21	{郵便局|ゆうびんきょく}
+l5.sections.2.blocks.48.text.ja	※通行人は地図2の !!📍①!! 〜 !!📍④!! にいます。地図とメモを見ながら道を教えなさい。
+l5.sections.2.blocks.49.text.ja	地図2
+l5.sections.2.blocks.50.labels.0	A
+l5.sections.2.blocks.50.labels.1	B
+l5.sections.2.blocks.50.labels.2	カラオケ
 「ファン」
-l5.sections.2.blocks.49.labels.3	ガソリン
+l5.sections.2.blocks.50.labels.3	ガソリン
 スタンド
-l5.sections.2.blocks.49.labels.4	入口
-l5.sections.2.blocks.49.labels.5	C
-l5.sections.2.blocks.49.labels.6	{市|し}{役所|やくしょ}
-l5.sections.2.blocks.49.labels.7	北山図書館
-l5.sections.2.blocks.49.labels.8	D
-l5.sections.2.blocks.49.labels.9	{十八|じゅうはち}銀行
-l5.sections.2.blocks.49.labels.10	②
-l5.sections.2.blocks.49.labels.11	④
-l5.sections.2.blocks.49.labels.12	E
-l5.sections.2.blocks.49.labels.13	花屋
-l5.sections.2.blocks.49.labels.14	F
-l5.sections.2.blocks.49.labels.15	パン屋
-l5.sections.2.blocks.49.labels.16	H
-l5.sections.2.blocks.49.labels.17	デパート
-l5.sections.2.blocks.49.labels.18	ラーメン屋
-l5.sections.2.blocks.49.labels.19	G
-l5.sections.2.blocks.49.labels.20	{喫茶店|きっさてん}「{山|やま}」
-l5.sections.2.blocks.49.labels.21	③
-l5.sections.2.blocks.49.labels.22	本屋
-l5.sections.2.blocks.49.labels.23	①
-l5.sections.2.blocks.49.labels.24	コンビニ
-l5.sections.2.blocks.49.labels.25	{郵便局|ゆうびんきょく}
-l5.sections.2.blocks.50.blocks.0.items.0.text.ja	**{市|し}{役所|やくしょ}の行き方（場所：!!C!!）**
-l5.sections.2.blocks.50.blocks.0.items.0.blocks.0.text.ja	市役所は{移転|いてん}しました。コンビニの{方|ほう}に{向|む}かって道なりに行って、コンビニまで来たら、{角|かど}を左に{曲|ま}がってください。次の{交差点|こうさてん}をわたって、しばらく行くと、左手に見えますよ。
-l5.sections.2.blocks.50.blocks.0.items.1.text.ja	**{喫茶店|きっさてん}「{山|やま}」の行き方（場所：!!G!!）**
-l5.sections.2.blocks.50.blocks.0.items.1.blocks.0.text.ja	「喫茶店『山』」は{移転|いてん}しました。少し行くと{交差点|こうさてん}に出るから、その交差点をパン屋の{方|ほう}にわたってください。それから、その{方向|ほうこう}に{向|む}かってまっすぐ行くと、道の{右側|みぎがわ}に見えますよ。
-l5.sections.2.blocks.50.blocks.0.items.2.text.ja	**カラオケ「ファン」の行き方（場所：!!B!!）**
-l5.sections.2.blocks.50.blocks.0.items.2.blocks.0.text.ja	「カラオケ『ファン』」は{移転|いてん}しました。少し行くと、左手に本屋があるから、その{角|かど}を左に{曲|ま}がって、{突|つ}き{当|あ}たりまで道なりにまっすぐ行ってください。そして突き当たりに出たら、右に曲がってください。しばらく行くと、見えますよ。
-l5.sections.2.blocks.50.blocks.0.items.3.text.ja	**{十八|じゅうはち}銀行の行き方（場所：!!D!!）**
-l5.sections.2.blocks.50.blocks.0.items.3.blocks.0.text.ja	「十八銀行」は{移転|いてん}しました。あそこに花屋が見えるでしょ？ このまま花屋に{向|む}かってまっすぐ{進|すす}んでください。それから、花屋の次の{交差点|こうさてん}をわたってから左に{曲|ま}がってください。ここから2つ目の交差点です。しばらく行くと、右手に見えますよ。
-l5.sections.2.blocks.51.title.ja	役に立つ表現
-l5.sections.2.blocks.51.blocks.0.labels.0	{交差点|こうさてん}
-l5.sections.2.blocks.51.blocks.0.labels.1	{横断歩道|おうだんほどう}
-l5.sections.2.blocks.51.blocks.0.labels.2	{角|かど}
-l5.sections.2.blocks.51.blocks.0.labels.3	道
-l5.sections.2.blocks.51.blocks.0.labels.4	{信号|しんごう}
-l5.sections.2.blocks.51.blocks.0.labels.5	をわたる
-l5.sections.2.blocks.51.blocks.0.labels.6	3つ目の{通|とお}り
-l5.sections.2.blocks.51.blocks.0.labels.7	2つ目の{信号|しんごう}
-l5.sections.2.blocks.51.blocks.0.labels.8	{突|つ}き{当|あ}たり
-l5.sections.2.blocks.51.blocks.0.labels.9	{T|ティー}{字|じ}{路|ろ}／{丁|てい}{字|じ}{路|ろ}
-l5.sections.2.blocks.51.blocks.0.labels.10	コンビニの{先|さき}
-l5.sections.2.blocks.51.blocks.0.labels.11	コンビニ
-l5.sections.2.blocks.51.blocks.0.labels.12	コンビニの{反対側|はんたいがわ}
-l5.sections.2.blocks.51.blocks.0.labels.13	コンビニの{手前|てまえ}
-l5.sections.2.blocks.51.blocks.0.labels.14	コンビニの{方|ほう}に{向|む}かって
-l5.sections.2.blocks.51.blocks.1.items.0.ja	{交差点|こうさてん}
-l5.sections.2.blocks.51.blocks.1.items.1.ja	{横断歩道|おうだんほどう}
-l5.sections.2.blocks.51.blocks.1.items.2.ja	{角|かど}
-l5.sections.2.blocks.51.blocks.1.items.3.ja	道／{信号|しんごう}／{横断歩道|おうだんほどう}／{交差点|こうさてん}をわたる
-l5.sections.2.blocks.51.blocks.1.items.4.ja	{信号|しんごう}
-l5.sections.2.blocks.51.blocks.1.items.5.ja	3つ目の{通|とお}り
-l5.sections.2.blocks.51.blocks.1.items.6.ja	2つ目の{信号|しんごう}
-l5.sections.2.blocks.51.blocks.1.items.7.ja	{突|つ}き{当|あ}たり
-l5.sections.2.blocks.51.blocks.1.items.8.ja	{T|ティー}{字|じ}{路|ろ}／{丁|てい}{字|じ}{路|ろ}
-l5.sections.2.blocks.51.blocks.1.items.9.ja	コンビニの{先|さき}
-l5.sections.2.blocks.51.blocks.1.items.10.ja	コンビニの{反対側|はんたいがわ}
-l5.sections.2.blocks.51.blocks.1.items.11.ja	コンビニの{手前|てまえ}
-l5.sections.2.blocks.51.blocks.1.items.12.ja	コンビニの{方|ほう}に{向|む}かって
+l5.sections.2.blocks.50.labels.4	入口
+l5.sections.2.blocks.50.labels.5	C
+l5.sections.2.blocks.50.labels.6	{市|し}{役所|やくしょ}
+l5.sections.2.blocks.50.labels.7	北山図書館
+l5.sections.2.blocks.50.labels.8	D
+l5.sections.2.blocks.50.labels.9	{十八|じゅうはち}銀行
+l5.sections.2.blocks.50.labels.10	②
+l5.sections.2.blocks.50.labels.11	④
+l5.sections.2.blocks.50.labels.12	E
+l5.sections.2.blocks.50.labels.13	花屋
+l5.sections.2.blocks.50.labels.14	F
+l5.sections.2.blocks.50.labels.15	パン屋
+l5.sections.2.blocks.50.labels.16	H
+l5.sections.2.blocks.50.labels.17	デパート
+l5.sections.2.blocks.50.labels.18	ラーメン屋
+l5.sections.2.blocks.50.labels.19	G
+l5.sections.2.blocks.50.labels.20	{喫茶店|きっさてん}「{山|やま}」
+l5.sections.2.blocks.50.labels.21	③
+l5.sections.2.blocks.50.labels.22	本屋
+l5.sections.2.blocks.50.labels.23	①
+l5.sections.2.blocks.50.labels.24	コンビニ
+l5.sections.2.blocks.50.labels.25	{郵便局|ゆうびんきょく}
+l5.sections.2.blocks.51.blocks.0.items.0.text.ja	**{市|し}{役所|やくしょ}の行き方（場所：!!C!!）**
+l5.sections.2.blocks.51.blocks.0.items.0.blocks.0.text.ja	市役所は{移転|いてん}しました。コンビニの{方|ほう}に{向|む}かって道なりに行って、コンビニまで来たら、{角|かど}を左に{曲|ま}がってください。次の{交差点|こうさてん}をわたって、しばらく行くと、左手に見えますよ。
+l5.sections.2.blocks.51.blocks.0.items.1.text.ja	**{喫茶店|きっさてん}「{山|やま}」の行き方（場所：!!G!!）**
+l5.sections.2.blocks.51.blocks.0.items.1.blocks.0.text.ja	「喫茶店『山』」は{移転|いてん}しました。少し行くと{交差点|こうさてん}に出るから、その交差点をパン屋の{方|ほう}にわたってください。それから、その{方向|ほうこう}に{向|む}かってまっすぐ行くと、道の{右側|みぎがわ}に見えますよ。
+l5.sections.2.blocks.51.blocks.0.items.2.text.ja	**カラオケ「ファン」の行き方（場所：!!B!!）**
+l5.sections.2.blocks.51.blocks.0.items.2.blocks.0.text.ja	「カラオケ『ファン』」は{移転|いてん}しました。少し行くと、左手に本屋があるから、その{角|かど}を左に{曲|ま}がって、{突|つ}き{当|あ}たりまで道なりにまっすぐ行ってください。そして突き当たりに出たら、右に曲がってください。しばらく行くと、見えますよ。
+l5.sections.2.blocks.51.blocks.0.items.3.text.ja	**{十八|じゅうはち}銀行の行き方（場所：!!D!!）**
+l5.sections.2.blocks.51.blocks.0.items.3.blocks.0.text.ja	「十八銀行」は{移転|いてん}しました。あそこに花屋が見えるでしょ？ このまま花屋に{向|む}かってまっすぐ{進|すす}んでください。それから、花屋の次の{交差点|こうさてん}をわたってから左に{曲|ま}がってください。ここから2つ目の交差点です。しばらく行くと、右手に見えますよ。
+l5.sections.2.blocks.52.title.ja	役に立つ表現
+l5.sections.2.blocks.52.blocks.0.labels.0	{交差点|こうさてん}
+l5.sections.2.blocks.52.blocks.0.labels.1	{横断歩道|おうだんほどう}
+l5.sections.2.blocks.52.blocks.0.labels.2	{角|かど}
+l5.sections.2.blocks.52.blocks.0.labels.3	道
+l5.sections.2.blocks.52.blocks.0.labels.4	{信号|しんごう}
+l5.sections.2.blocks.52.blocks.0.labels.5	をわたる
+l5.sections.2.blocks.52.blocks.0.labels.6	3つ目の{通|とお}り
+l5.sections.2.blocks.52.blocks.0.labels.7	2つ目の{信号|しんごう}
+l5.sections.2.blocks.52.blocks.0.labels.8	{突|つ}き{当|あ}たり
+l5.sections.2.blocks.52.blocks.0.labels.9	{T|ティー}{字|じ}{路|ろ}／{丁|てい}{字|じ}{路|ろ}
+l5.sections.2.blocks.52.blocks.0.labels.10	コンビニの{先|さき}
+l5.sections.2.blocks.52.blocks.0.labels.11	コンビニ
+l5.sections.2.blocks.52.blocks.0.labels.12	コンビニの{反対側|はんたいがわ}
+l5.sections.2.blocks.52.blocks.0.labels.13	コンビニの{手前|てまえ}
+l5.sections.2.blocks.52.blocks.0.labels.14	コンビニの{方|ほう}に{向|む}かって
+l5.sections.2.blocks.52.blocks.1.items.0.ja	{交差点|こうさてん}
+l5.sections.2.blocks.52.blocks.1.items.1.ja	{横断歩道|おうだんほどう}
+l5.sections.2.blocks.52.blocks.1.items.2.ja	{角|かど}
+l5.sections.2.blocks.52.blocks.1.items.3.ja	道／{信号|しんごう}／{横断歩道|おうだんほどう}／{交差点|こうさてん}をわたる
+l5.sections.2.blocks.52.blocks.1.items.4.ja	{信号|しんごう}
+l5.sections.2.blocks.52.blocks.1.items.5.ja	3つ目の{通|とお}り
+l5.sections.2.blocks.52.blocks.1.items.6.ja	2つ目の{信号|しんごう}
+l5.sections.2.blocks.52.blocks.1.items.7.ja	{突|つ}き{当|あ}たり
+l5.sections.2.blocks.52.blocks.1.items.8.ja	{T|ティー}{字|じ}{路|ろ}／{丁|てい}{字|じ}{路|ろ}
+l5.sections.2.blocks.52.blocks.1.items.9.ja	コンビニの{先|さき}
+l5.sections.2.blocks.52.blocks.1.items.10.ja	コンビニの{反対側|はんたいがわ}
+l5.sections.2.blocks.52.blocks.1.items.11.ja	コンビニの{手前|てまえ}
+l5.sections.2.blocks.52.blocks.1.items.12.ja	コンビニの{方|ほう}に{向|む}かって
 l5.sections.3.title.ja	{韓国人|かんこくじん}留学生から見た日本
 l5.sections.3.blocks.0.text.ja	今日の晩ご飯
 l5.sections.3.blocks.1.text.ja	留学生のソヨンが、寮のルームメートと今日の晩ご飯について話しています。
