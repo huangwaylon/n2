@@ -52,7 +52,10 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .op-sk:hover { text-decoration: none; }
 .op-sk .sk-ic { width: 38px; height: 38px; padding: 6px; border-radius: 50%; border: 3px solid var(--q); color: var(--q); }
 .op-sk__l { background: var(--q-fill); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 12px; border-radius: 0 999px 999px 0; margin-left: -14px; }
-.op-sk__t { font: 800 22px/1.4 var(--goth); }
+.op-sk__t { font: 800 22px/1.4 var(--goth); min-width: 0; }
+/* the icon and its label keep their size beside a long title (読/む stacked at 320) */
+.op-sk .sk-ic, .op-sk__l { flex: none; white-space: nowrap; }
+@media (max-width: 390px) { .op-sk__t { font-size: 19px; } }
 @media (hover: hover) { .op-sk:hover .op-sk__t { color: var(--q); } }
 .op-cando { list-style: none; padding: 4px 0 0 4px; margin: 0; }
 .op-cando li { position: relative; padding-left: 1.6em; font-family: var(--goth); }
