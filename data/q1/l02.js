@@ -742,7 +742,7 @@ TRY.registerLesson({
            "en": "The stem in Vます form is a formal equivalent of 〜て."
           },
           {
-           "en": "As seen in examples [#3], [#4] and [#5], formal equivalents for derivatives of て-forms would be Vており for Vていて, Vずに for Vないで, and せずに for しないで."
+           "en": "As seen in examples [#3], [#4] and [#5], formal equivalents for derivatives of て-forms would be [#Vて]おり for [#Vて]いて, [#Vず]に for [#Vない]で, and せずに for しないで."
           }
          ]
         }
@@ -887,10 +887,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vてくる is often used in the past tense (Vてきた) and expresses that a change has occurred in the past and is continuing to take place currently."
+           "en": "[#Vて]くる is often used in the past tense ([#Vて]きた) and expresses that a change has occurred in the past and is continuing to take place currently."
           },
           {
-           "en": "Verbs used in Vてくる are verbs that inherently express changes, such as {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる and 慣れる. When other types of verbs are used, the structure would be modified to Vるようになってきた."
+           "en": "Verbs used in [#Vて]くる are verbs that inherently express changes, such as {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる and 慣れる. When other types of verbs are used, the structure would be modified to [#Vる]ようになってきた."
           }
          ]
         }
@@ -962,10 +962,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vていく expresses that a change is currently taking place (or will soon begin to take place) and the change is expected to continue into the future."
+           "en": "[#Vて]いく expresses that a change is currently taking place (or will soon begin to take place) and the change is expected to continue into the future."
           },
           {
-           "en": "Similarly to Vてくる, verbs that inherently express changes (e.g., {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる, 慣れる) are used in Vていく, and when other types of verbs are used, the structure would be modified to Vるようになっていく, as shown in [#7]."
+           "en": "Similarly to [#Vて]くる, verbs that inherently express changes (e.g., {太|ふと}る, やせる, {増|ふ}える, {減|へ}る, なる, 慣れる) are used in [#Vて]いく, and when other types of verbs are used, the structure would be modified to [#Vる]ようになっていく, as shown in [#7]."
           }
          ]
         }
@@ -1712,7 +1712,7 @@ TRY.registerLesson({
            "en": "X おかげで Y is used when there is a cause and effect relationship between X and Y, with X being the cause and Y being the effect. Y is a desirable state resulting from X (such as an act of kindness), and this structure is used typically to express gratitude toward X. Y is often something that is otherwise not controllable by the speaker."
           },
           {
-           "en": "When someone did a favor for the speaker and the speaker wants to express gratitude, Vてくれた (or Vてくださった) おかげで is used."
+           "en": "When someone did a favor for the speaker and the speaker wants to express gratitude, [#Vて]くれた (or [#Vて]くださった) おかげで is used."
           },
           {
            "en": "When the causality is not obvious but it is speculated that X is the cause for Y, X おかげか Y is used."
@@ -1973,25 +1973,38 @@ TRY.registerLesson({
         },
         {
          "n": 2,
-         "ja": "a) サラは{背|せ}が高くてきれいだ。**まるで**モデル**のようだ**。",
-         "tr": "a) Sarah is tall and beautiful. She's just like a model."
-        },
-        {
-         "ja": "b) サラは背が高くてきれいだ。**まるで**モデル**のような**人だ。",
-         "tr": "b) Sarah is tall and beautiful. She's someone who looks just like a model."
-        },
-        {
-         "ja": "c) サラは背が高くてきれいだ。**まるで**モデル**のように**きれいだ。",
-         "tr": "c) Sarah is tall and beautiful. She's as beautiful as a model."
+         "lines": [
+          {
+           "sub": "a",
+           "ja": "サラは{背|せ}が高くてきれいだ。**まるで**モデル**のようだ**。",
+           "tr": "Sarah is tall and beautiful. She's just like a model."
+          },
+          {
+           "sub": "b",
+           "ja": "サラは背が高くてきれいだ。**まるで**モデル**のような**人だ。",
+           "tr": "Sarah is tall and beautiful. She's someone who looks just like a model."
+          },
+          {
+           "sub": "c",
+           "ja": "サラは背が高くてきれいだ。**まるで**モデル**のように**きれいだ。",
+           "tr": "Sarah is tall and beautiful. She's as beautiful as a model."
+          }
+         ]
         },
         {
          "n": 3,
-         "ja": "a) 今日は**山のように**宿題が出た。",
-         "tr": "a) We were given tons of homework today."
-        },
-        {
-         "ja": "b) 今日は**山のような**宿題が出た。",
-         "tr": "b) We were given a mountain of homework today."
+         "lines": [
+          {
+           "sub": "a",
+           "ja": "今日は**山のように**宿題が出た。",
+           "tr": "We were given tons of homework today."
+          },
+          {
+           "sub": "b",
+           "ja": "今日は**山のような**宿題が出た。",
+           "tr": "We were given a mountain of homework today."
+          }
+         ]
         },
         {
          "n": 4,
@@ -2008,9 +2021,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N!!のようだ!!",
-        "N!!のような!!N",
-        "N!!のように!!V／A"
+        {
+         "lead": "N!!の!!",
+         "stack": [
+          "!!ようだ!!",
+          "!!ような!!N",
+          "!!ように!!V／A"
+         ]
+        }
        ],
        "blocks": [
         {

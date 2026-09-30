@@ -2093,15 +2093,21 @@ TRY.registerLesson({
          "rows": [
           [
            {
-            "ja": "変更 ①\n（　　）",
-            "tr": "Change ①\n(　　)"
+            "head": true,
+            "text": {
+             "ja": "変更 ①\n（　　）",
+             "tr": "Change ①\n(　　)"
+            }
            },
            ""
           ],
           [
            {
-            "ja": "変更 ②\n（　　）",
-            "tr": "Change ②\n(　　)"
+            "head": true,
+            "text": {
+             "ja": "変更 ②\n（　　）",
+             "tr": "Change ②\n(　　)"
+            }
            },
            ""
           ]

@@ -520,7 +520,7 @@ TRY.registerFront([
       "千と千尋の神隠し",
       "せんとちひろのかみかくし",
       {
-       "en": "Spirited Away [movie title]"
+       "en": "''Spirited Away'' [movie title]"
       }
      ],
      [
@@ -580,7 +580,7 @@ TRY.registerFront([
       "もののけ姫",
       "もののけひめ",
       {
-       "en": "Princess Mononoke [movie title]"
+       "en": "''Princess Mononoke'' [movie title]"
       }
      ]
     ]
@@ -1432,7 +1432,7 @@ TRY.registerFront([
        "en": "せんとちひろのかみかくし"
       },
       {
-       "en": "Spirited Away [movie title]"
+       "en": "''Spirited Away'' [movie title]"
       }
      ],
      [
@@ -1540,7 +1540,7 @@ TRY.registerFront([
        "en": "もののけひめ"
       },
       {
-       "en": "Princess Mononoke [movie title]"
+       "en": "''Princess Mononoke'' [movie title]"
       }
      ]
     ]

@@ -848,7 +848,7 @@ TRY.registerLesson({
            "en": "The form X わけではない is used to deny X, a statement that may be inferred or assumed based on what is known in context or what has previously been stated. [#1] means, “Joining a calligraphy club does not immediately result in improved skills in calligraphy (even though one might make such an assumption).”"
           },
           {
-           "en": "[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I can cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない ."
+           "en": "[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I ''can'' cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない ."
           },
           {
            "en": "As [#1] shows, わけではない is often used with からといって , a structure covered in Lesson 3."
@@ -1278,7 +1278,7 @@ TRY.registerLesson({
            "en": "This structure typically takes the ている form (i.e., 〜がっている), but it appears in the 〜がる form when making a comment about someone’s tendency to desire something ([#6]), as opposed to an observed instance of someone desiring something."
           },
           {
-           "en": "As described above, 〜がる or 〜がっている has connotations that the person mentioned is showing outward signs of feelings or desires, suggesting that he/she does not have good control of their own emotions. Therefore, making a statement in this structure about someone superior to you should be avoided."
+           "en": "As described above, 〜がる or 〜がっている has connotations that the person mentioned is showing ''outward'' signs of feelings or desires, suggesting that he/she does not have good control of their own emotions. Therefore, making a statement in this structure about someone superior to you should be avoided."
           }
          ]
         },
@@ -1304,7 +1304,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "To state that someone else is showing the signs of desire for the speaker to do something, Vてほしがる is used."
+           "en": "To state that someone else is showing the signs of desire for the speaker to do something, [#Vて]ほしがる is used."
           }
          ]
         },
@@ -1414,7 +1414,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "V(よ)うとする states that the subject of the sentence is making an effort to accomplish the action V."
+           "en": "[#V(よ)う]とする states that the subject of the sentence is making an effort to accomplish the action V."
           }
          ]
         }
@@ -1516,7 +1516,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "V(よ)うとしない states that the subject of the sentence shows no intention of doing something that is expected of them or something they should do."
+           "en": "[#V(よ)う]としない states that the subject of the sentence shows no intention of doing something that is expected of them or something they should do."
           },
           {
            "en": "This structure cannot be used to describe the speaker’s current lack of intention; however, it may be used to describe the speaker’s past objectively, as shown in [#8]."
@@ -1624,7 +1624,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Used to describe an object or a person that would typically undergo some type of change, いAい / なAな / N のまま expresses that their state of being has remained unchanged."
+           "en": "Used to describe an object or a person that would typically undergo some type of change, [#いAい] / [#なA]な / N のまま expresses that their state of being has remained unchanged."
           },
           {
            "en": "[#3] shows another common usage of まま , where it is preceded by a demonstrative (e.g., この , その , あの) to express the idea that an object or a person remains “this way,” or “that way.”"
@@ -1729,19 +1729,19 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vたまま expresses that the state that resulted from an action V is left unchanged."
+           "en": "[#Vた]まま expresses that the state that resulted from an action V is left unchanged."
           },
           {
-           "en": "V₁たまま V₂ expresses that someone is doing V₂ while maintaining the same state that resulted from V₁."
+           "en": "[#V₁た]まま V₂ expresses that someone is doing V₂ while maintaining the same state that resulted from V₁."
           },
           {
-           "en": "Typically, V₁ in V₁たまま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける , {閉|し}める , 立つ , 座る , つける , 消す , 着る and 出かける ."
+           "en": "Typically, V₁ in [#V₁た]まま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける , {閉|し}める , 立つ , 座る , つける , 消す , 着る and 出かける ."
           },
           {
            "en": "The agent of the two actions (V₁ and V₂) must be the same; in [#5], the one who turned the light on and the one who fell asleep is identical (person B, in this case)."
           },
           {
-           "en": "Vたまま cannot be used in negative form (V なかったまま ). The present negative form ( Vないまま ) can be used, and it conveys that the action is not done for some length of time (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, Vずに or Vないで should be used."
+           "en": "[#Vた]まま cannot be used in negative form (V なかったまま ). The present negative form ( [#Vない]まま ) can be used, and it conveys that the action is not done ''for some length of time'' (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, [#Vず]に or [#Vない]で should be used."
           }
          ]
         },

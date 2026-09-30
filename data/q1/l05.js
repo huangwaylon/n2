@@ -439,6 +439,11 @@ TRY.registerLesson({
       "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
       "Conveyor-belt sushi restaurants have now spread all over the world, but try the authentic version here in Japan, which has a character all its own that sets it apart from what you find in other countries."
+     ],
+     "headTr": [
+      "What Is Kaitenzushi?",
+      "When You Go to a Kaitenzushi Restaurant",
+      "How to Use the Touch Panel"
      ]
     },
     {
@@ -537,6 +542,12 @@ TRY.registerLesson({
       "5. When the potatoes are soft, it's ready.",
       "The stock made by simmering ingredients such as katsuobushi (dried bonito) and kombu is called dashi (出汁). Dashi is an important source of umami used in all kinds of Japanese dishes. A convenient powdered type that you simply dissolve in hot water is also popular.",
       "If you add water and curry roux to leftover nikujaga and simmer it, you get Japanese-style curry. It's tasty if you put the nikujaga broth in too, so keep the broth instead of throwing it away."
+     ],
+     "headTr": [
+      "Ingredients (Serves 2)",
+      "Cooking Notes",
+      "What Is Dashi?",
+      "Leftovers? Turn Them into Japanese-Style Curry"
      ]
     },
     {
@@ -733,15 +744,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "!!Question word!!（prt.）\n（何／どこ／だれ／どれ／いつ／etc.）",
         {
+         "lead": "!!Question word!!（prt.）\n（何／どこ／だれ／どれ／いつ／etc.）",
          "stack": [
           "V!!ても!!",
           "いAく!!ても!!",
           "なA!!でも!!",
           "N!!でも!!"
-         ],
-         "join": ""
+         ]
         },
         "!!何!!＋counter V!!ても!!"
        ],
@@ -754,7 +764,7 @@ TRY.registerLesson({
            "en": "Question word 〜ても Y means that Y is always true whatever the condition may be."
           },
           {
-           "en": "As shown in [#3], 何 + 度 / 回 + Vても Y means that the same result Y is always achieved no matter how many times the action V is repeated."
+           "en": "As shown in [#3], 何 + 度 / 回 + [#Vて]も Y means that the same result Y is always achieved no matter how many times the action V is repeated."
           },
           {
            "en": "[#5] and [#6] show usage of どんなに / いくら X ても Y, where Y is true regardless of the extent/degree of X."
@@ -928,12 +938,14 @@ TRY.registerLesson({
          "n": 1,
          "lines": [
           {
-           "ja": "a) 今日は日曜日だから、銀行は{閉|し}まっている**はずだ**。",
-           "tr": "a) It's Sunday today, so the bank should be closed."
+           "sub": "a",
+           "ja": "今日は日曜日だから、銀行は{閉|し}まっている**はずだ**。",
+           "tr": "It's Sunday today, so the bank should be closed."
           },
           {
-           "ja": "b) 今日は日曜日だから、銀行は休みの**はずだ**。",
-           "tr": "b) It's Sunday today, so the bank should be closed for the day."
+           "sub": "b",
+           "ja": "今日は日曜日だから、銀行は休みの**はずだ**。",
+           "tr": "It's Sunday today, so the bank should be closed for the day."
           }
          ]
         },
@@ -1149,7 +1161,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vておく is used to state that an action V is done in preparation for the purpose of accomplishing something."
+           "en": "[#Vて]おく is used to state that an action V is done in preparation for the purpose of accomplishing something."
           },
           {
            "en": "V takes verbs that express one’s will."
@@ -1236,7 +1248,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vないでおく is used to state that an action V is not done in order to accomplish a certain purpose."
+           "en": "[#Vない]でおく is used to state that an action V is not done in order to accomplish a certain purpose."
           },
           {
            "en": "V takes verbs that express one’s will."
@@ -1410,15 +1422,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "!!（もし）!!",
         {
+         "lead": "!!（もし）!!",
          "stack": [
           "V!!ても!!",
           "いAく!!ても!!",
           "なA!!でも!!",
           "N!!でも!!"
-         ],
-         "join": ""
+         ]
         }
        ],
        "blocks": [
@@ -1571,7 +1582,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "“X ように Y” and “V₁る ために V₂” are similar in that they both express a purpose. The latter, however, is more likely to be used when emphasizing the subject’s determination to fulfill the purpose. Following are other ways in which the two structures differ:"
+        "en": "“X ように Y” and “[#V₁る] ために [#V₂]” are similar in that they both express a purpose. The latter, however, is more likely to be used when emphasizing the subject’s determination to fulfill the purpose. Following are other ways in which the two structures differ:"
        }
       },
       {
@@ -1891,7 +1902,6 @@ TRY.registerLesson({
       "¶材料をまぜる時は空気を入れるようにしましょう。",
       "ふわっとしたおいしいお好み焼きになります。"
      ],
-     "titleTr": "Kansai-Style Okonomiyaki",
      "tr": [
       "Okonomiyaki: adults and kids alike love it. All you do is cut the ingredients, mix them, and cook them, so it's easy to make.",
       "Ingredients (serves two)",
@@ -1906,6 +1916,9 @@ TRY.registerLesson({
       "4. Finally, once you've topped it with sauce and aonori, it's done. If you like, it's also tasty with mayonnaise on it.",
       "Tips for making it delicious",
       "When you mix the ingredients, try to get air into the batter. That makes a fluffy, delicious okonomiyaki."
+     ],
+     "headTr": [
+      "Kansai-Style Okonomiyaki"
      ],
      "roles": [
       {

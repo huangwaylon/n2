@@ -391,14 +391,14 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "(a) {田中|たなか}さんは　パーティーで　日本語を　**__勉強している__**　人に会った。",
+        "ja": "(a) {田中|たなか}さんは　パーティーで　日本語を　**__勉強している__**　%%人%%に会った。",
         "tr": "Tanaka-san met a person who was studying Japanese at the party."
        }
       },
       {
        "t": "p",
        "text": {
-        "ja": "(b) 田中さんは　パーティーで　**__日本語を__**　**__勉強している__**　人に会った。",
+        "ja": "(b) 田中さんは　パーティーで　**__日本語を__**　**__勉強している__**　%%人%%に会った。",
         "tr": "Tanaka-san met a person who was studying Japanese at the party."
        }
       },
@@ -435,14 +435,14 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "(a) **母は**　作ったケーキ　を__食べた__。　!!➡「食べた」人＝母。「作った」人は？!!",
+        "ja": "(a) **母は**　%%作ったケーキ%%　を__食べた__。　!!➡「食べた」人＝母。「作った」人は？!!",
         "tr": "My mother ate the cake she made. → The one who ate = my mother. And the one who made it?"
        }
       },
       {
        "t": "p",
        "text": {
-        "ja": "(b) **母が**　__作った__ケーキ　を食べた。　!!➡「作った」人＝母。「食べた」人は？!!",
+        "ja": "(b) %%**母が**　__作った__ケーキ%%　を食べた。　!!➡「作った」人＝母。「食べた」人は？!!",
         "tr": "I ate the cake my mother made. → The one who made it = my mother. And the one who ate it?"
        }
       },
@@ -475,7 +475,7 @@ TRY.registerLesson({
         {
          "t": "p",
          "text": {
-          "ja": "スタッフが__{描|か}いた__肉の絵を__見て__、「この肉はゴムのようだ。かたいのか、やわらかいのか、考えて描きなさい」と怒ったこともあるらしい。",
+          "ja": "スタッフが__{描|か}いた__%%肉の絵%%を__見て__、「この肉はゴムのようだ。かたいのか、やわらかいのか、考えて描きなさい」と怒ったこともあるらしい。",
           "tr": "Apparently, he once looked at a drawing of meat by a staff member and got angry, saying, “This meat looks like rubber. Think about whether it's tough or tender, and then draw it.”"
          }
         }
@@ -536,7 +536,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "(a) それは、　彼女が初めて作ってくれた__料理__だった。　!!それ＝料理!!",
+        "ja": "(a) %%それ%%は、　彼女が初めて作ってくれた__料理__だった。　!!それ＝料理!!",
         "tr": "It was the first dish she had ever made for me. (それ = the dish)"
        }
       },
@@ -549,7 +549,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "(b) 週末、__カレー__を食べた。それは、　彼女が初めて作ってくれた__料理__だった。　!!料理→カレー!!",
+        "ja": "(b) 週末、__カレー__を食べた。%%それ%%は、　彼女が初めて作ってくれた__料理__だった。　!!料理→カレー!!",
         "tr": "Over the weekend, I had curry. It was the first dish she had ever made for me. (the dish → the curry)"
        }
       },
@@ -562,7 +562,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "(c) 週末、カレーを食べた。__カレーは、彼女が初めて作ってくれた料理だった__。　!!それ＝カレー!!",
+        "ja": "(c) 週末、カレーを食べた。__%%カレー%%は、彼女が初めて作ってくれた料理だった__。　!!それ＝カレー!!",
         "tr": "Over the weekend, I had curry. The curry was the first dish she had ever made for me. (それ = the curry)"
        }
       },
@@ -599,7 +599,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "ja": "__{昨日|きのう}カラオケに行った__。その時、好きなアニメソングを歌った。",
+        "ja": "__{昨日|きのう}カラオケに行った__。%%その%%時、好きなアニメソングを歌った。",
         "tr": "Yesterday I went to karaoke. While I was there, I sang my favorite anime songs."
        }
       },
@@ -1083,7 +1083,7 @@ TRY.registerLesson({
            "en": "X とおり (に) means “exactly the same way as X.” とおり (に) is used when X is a verb, and どおり (に) is used when X is a noun."
           },
           {
-           "en": "X can be instructions (e.g., “if you make [curry] following the directions I give you” in [#1]), or a source of information (e.g., “just as I heard in a rumor”)."
+           "en": "X can be instructions (e.g., “if you make [curry] ''following the directions I give you''” in [#1]), or a source of information (e.g., “just as I heard in a rumor”)."
           },
           {
            "en": "Common verbs used in X are verbs that express one’s opinion and/or statement, such as 言う, 話す, 聞く, 思う and 考える. Some examples of nouns used in X are {予定|よてい}, 計画, {希望|きぼう}, {想像|そうぞう}, {予想|よそう}, {練習|れんしゅう}, レシピ and マニュアル."
@@ -1305,12 +1305,14 @@ TRY.registerLesson({
            "tr": "The image of a child = \"likes playing more than studying\""
           },
           {
-           "ja": "a) {将|しょう}くんはいつも元気に遊んでいて、子ども**らしい**。",
-           "tr": "a) Sho is always playing energetically. He's a typical kid."
+           "sub": "a",
+           "ja": "{将|しょう}くんはいつも元気に遊んでいて、子ども**らしい**。",
+           "tr": "Sho is always playing energetically. He's a typical kid."
           },
           {
-           "ja": "b) {愛|あい}ちゃんはいつも一人で難しい本を読んでいて、あまり子ども**らしくない**。",
-           "tr": "b) Ai is always reading difficult books by herself. She's not very childlike."
+           "sub": "b",
+           "ja": "{愛|あい}ちゃんはいつも一人で難しい本を読んでいて、あまり子ども**らしくない**。",
+           "tr": "Ai is always reading difficult books by herself. She's not very childlike."
           }
          ]
         }
@@ -1421,7 +1423,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "V₁る ために V₂ means, “V₂ in order to V₁.”"
+           "en": "[#V₁る] ために [#V₂] means, “V₂ in order to V₁.”"
           },
           {
            "en": "V₁ and V₂ in this structure take the same subject."
@@ -1533,7 +1535,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "When a noun follows Vる ため, の is used in front of the noun."
+           "en": "When a noun follows [#Vる] ため, の is used in front of the noun."
           }
          ]
         }
@@ -1833,12 +1835,14 @@ TRY.registerLesson({
          "n": 3,
          "lines": [
           {
-           "ja": "a) 日本語が上手になりたいので、{友達|ともだち}と日本語で話す**ようにして**います。",
-           "tr": "a) I want to get good at Japanese, so I make a point of speaking Japanese with my friends."
+           "sub": "a",
+           "ja": "日本語が上手になりたいので、{友達|ともだち}と日本語で話す**ようにして**います。",
+           "tr": "I want to get good at Japanese, so I make a point of speaking Japanese with my friends."
           },
           {
-           "ja": "b) 日本語が上手になりたいので、友達と英語で話さない**ようにして**います。",
-           "tr": "b) I want to get good at Japanese, so I make a point of not speaking English with my friends."
+           "sub": "b",
+           "ja": "日本語が上手になりたいので、友達と英語で話さない**ようにして**います。",
+           "tr": "I want to get good at Japanese, so I make a point of not speaking English with my friends."
           }
          ]
         },
@@ -1870,10 +1874,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "〜ようにする means that the subject of the sentence will be making a conscious effort to do (or not to do) something."
+           "en": "〜ようにする means that the subject of the sentence ''will'' be making a conscious effort to do (or not to do) something."
           },
           {
-           "en": "〜ようにしている, on the other hand, means that the subject of the sentence currently is making an effort to do (or not to do) something. Verbs in this construction are typically used for habitual actions, and verbs that express one-time action (such as 入る in the example below) cannot be used."
+           "en": "〜ようにしている, on the other hand, means that the subject of the sentence ''currently'' is making an effort to do (or not to do) something. Verbs in this construction are typically used for habitual actions, and verbs that express one-time action (such as 入る in the example below) cannot be used."
           }
          ]
         },
@@ -2020,11 +2024,13 @@ TRY.registerLesson({
       "チャレンジし続けていた。努力を続けて結果もきちんと出したとこ",
       "ろが本当に尊敬できる。"
      ],
-     "titleTr": "Ichiro, a Man of Effort",
      "tr": [
       "The famous person I respect is Ichiro, who was a baseball player. He is from Aichi Prefecture, and after playing professional baseball in Japan for ten years, he became a Major League player in America.",
       "Ichiro was a wonderful player who moved people with his effort and his results. Apparently he was always thinking, \"What kind of practice do I need right now, and how much?\" I hear he was strict with himself and took only a few days a year off from practice. Ichiro says, \"If you keep working hard even at small things, you will reach a big goal.\" In 2016, the number of hits he had gotten since turning pro passed 4,300, a world record. He was also good at fielding and won the Gold Glove Award as many as ten times. He announced his retirement in 2019, but his records will surely stand for a long time to come.",
       "Ichiro never gave up until he got results, and he always kept taking on challenges. What I truly respect about him is that he kept up his effort and also delivered results."
+     ],
+     "headTr": [
+      "Ichiro, a Man of Effort"
      ],
      "roles": [
       {
@@ -2117,7 +2123,7 @@ TRY.registerLesson({
          "label": "（行5）",
          "items": [
           {
-           "ja": "イチローは、**__{努力|どりょく}と結果で人々を感動させる__** **__すばらしい__** {選手|せんしゅ}だった。",
+           "ja": "イチローは、**__{努力|どりょく}と結果で人々を感動させる__** **__すばらしい__** %%{選手|せんしゅ}%%だった。",
            "tr": "Ichiro was a wonderful player who moved people with his effort and his results."
           }
          ]

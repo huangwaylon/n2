@@ -259,6 +259,7 @@ TRY.registerLesson({
      "page": 102,
      "vertical": false,
      "numbers": true,
+     "speakers": true,
      "titleTr": "Roundtable: Talking About Studying Abroad",
      "lines": [
       "¶現在、日本に留学しているフランス人のサラ・ゴミスさん、{韓国人|かんこくじん}のパク・",
@@ -393,6 +394,9 @@ TRY.registerLesson({
       "The next day, after they explained the day's work to me, I was finally allowed out onto the dining floor. Once I actually started working, I realized that the floor work wasn't as easy as I had thought. What was especially hard was that, whether I was busy or tired, I always had to watch the guests closely and serve them with a smile. For example, if a guest's glass of water was getting low, I had to go and refill it before being asked. There was also a rule that even after closing time, if even one guest was still there, we couldn't start cleaning up the restaurant. In my heart I thought, “I wish they'd hurry up and leave...,” but thinking of the guests first and acting accordingly, even at times like that, is what first-class service is all about.",
       "I also came to understand how hardworking Japanese people are. The employees come in 30 minutes before work starts to get ready, and even when it's time to go home, they stay behind to help the other staff if it's busy. Even the students working part-time found things to do on their own initiative and worked hard. But what surprised me more than anything was that even when there were few guests and things were slow, no one was chatting. I felt that in Japan even the part-time staff are properly trained, and each and every one of them works with a professional attitude.",
       "Through this part-time job, I was able to learn about Japanese people's politeness and diligence, and about how they think about service. It was a hotel job I had started because I'd always longed to do it, but I was able to learn a side of Japanese people I hadn't known before, and it turned out to be a more meaningful experience than I had expected."
+     ],
+     "headTr": [
+      "My Experience Working Part-Time in Japan"
      ]
     },
     {
@@ -476,8 +480,11 @@ TRY.registerLesson({
          },
          "のは",
          {
-          "ja": "私",
-          "tr": "me"
+          "text": {
+           "ja": "私",
+           "tr": "me"
+          },
+          "style": "frame"
          },
          "だ。"
         ],
@@ -493,8 +500,11 @@ TRY.registerLesson({
          },
          "のは",
          {
-          "ja": "土曜日",
-          "tr": "Saturday"
+          "text": {
+           "ja": "土曜日",
+           "tr": "Saturday"
+          },
+          "style": "frame"
          },
          "だ。"
         ],
@@ -510,8 +520,11 @@ TRY.registerLesson({
          },
          "のは",
          {
-          "ja": "すし",
-          "tr": "sushi"
+          "text": {
+           "ja": "すし",
+           "tr": "sushi"
+          },
+          "style": "frame"
          },
          "だ。"
         ]
@@ -889,10 +902,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vて 以来 X (or N 以来 X) states that X has been continuing since the time V or N occurred."
+           "en": "[#Vて] 以来 X (or N 以来 X) states that X has been continuing since the time V or N occurred."
           },
           {
-           "en": "X expresses that something (e.g., custom, change, state) is continuing, and X takes expressions such as Vている, Vるようになった, 〜ない, いAい, なAだ and Nだ."
+           "en": "X expresses that something (e.g., custom, change, state) is continuing, and X takes expressions such as [#Vている], [#Vる]ようになった, 〜ない, [#いAい], [#なA]だ and Nだ."
           }
          ]
         }
@@ -1081,7 +1094,13 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "!!せっかく!! ｛〜（んだ）から／〜のに｝",
+        {
+         "lead": "!!せっかく!!",
+         "stack": [
+          "〜（んだ）から",
+          "〜のに"
+         ]
+        },
         "!!せっかく!!の N"
        ],
        "blocks": [
@@ -1093,7 +1112,7 @@ TRY.registerLesson({
            "en": "An action or event that follows the form せっかく is considered to be a rare occasion or an opportunity."
           },
           {
-           "en": "“せっかく X（んだ）から、Y” states that one should make the most of X—a rare occasion or an opportunity—by doing Y. Y is often given in the form of advice, suggestion, request, or the speaker’s hope or resolution. Forms commonly used in Y are: 〜ほうがいい, Vてください, V たい and V(よ)う."
+           "en": "“せっかく X（んだ）から、Y” states that one should make the most of X—a rare occasion or an opportunity—by doing Y. Y is often given in the form of advice, suggestion, request, or the speaker’s hope or resolution. Forms commonly used in Y are: 〜ほうがいい, [#Vて]ください, V たい and [#V(よ)う]."
           },
           {
            "en": "“せっかく X のに Y” conveys the speaker’s acknowledgement that X is a rare occasion or an opportunity, and expresses regret for not fully making the most of X."
@@ -1209,7 +1228,7 @@ TRY.registerLesson({
            "en": "N さえ X mentions N as an extreme example for X, and implies that since N is X, other things would be X as well."
           },
           {
-           "en": "さえ also implies the speaker’s surprise, self-deprecation, sarcasm, etc. While も can be used for similar function (i.e., to mean even in an emphatic way), さえ conveys the aforementioned feelings more than も alone."
+           "en": "さえ also implies the speaker’s surprise, self-deprecation, sarcasm, etc. While も can be used for similar function (i.e., to mean ''even'' in an emphatic way), さえ conveys the aforementioned feelings more than も alone."
           },
           {
            "en": "As seen in [#1] and [#2], in sentences where N is normally followed by the particle を, が, は or も, the particle is omitted and さえ is used alone."
@@ -1310,12 +1329,12 @@ TRY.registerLesson({
          "n": 1,
          "lines": [
           {
-           "sp": "a)",
+           "sub": "a",
            "ja": "私はチョコレート**さえ**食べられれ**ば**幸せです。",
            "tr": "As long as I can eat chocolate, I'm happy."
           },
           {
-           "sp": "b)",
+           "sub": "b",
            "ja": "私はチョコレートを食べること**さえ**できれ**ば**幸せです。",
            "tr": "As long as I can just eat chocolate, I'm happy."
           }
@@ -1366,7 +1385,15 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N (prt.) !!さえ!! ｛V!!ば!!／いAけれ!!ば!!／なAなら（!!ば!!）／Nなら（!!ば!!）｝",
+        {
+         "lead": "N (prt.) !!さえ!!",
+         "stack": [
+          "V!!ば!!",
+          "いAけれ!!ば!!",
+          "なAなら（!!ば!!）",
+          "Nなら（!!ば!!）"
+         ]
+        },
         "V~~ます~~ !!さえ!!すれ!!ば!!",
         "Vて !!さえ!!いれ!!ば!!"
        ],
@@ -1396,17 +1423,20 @@ TRY.registerLesson({
             },
             {
              "sp": "B",
-             "ja": "a) {薬|くすり}__さえ__飲めば、よくなります。（←薬を飲めば）",
+             "sub": "a",
+             "ja": "{薬|くすり}__さえ__飲めば、よくなります。（←薬を飲めば）",
              "en": "If you just take medicine, you’ll get better."
             },
             {
              "sp": "B",
-             "ja": "b) {寝|ね}__さえすれば__、よくなります。（←寝れば）",
+             "sub": "b",
+             "ja": "{寝|ね}__さえすれば__、よくなります。（←寝れば）",
              "en": "If you just sleep, you’ll get better."
             },
             {
              "sp": "B",
-             "ja": "c) 少し休ん__でさえいれば__、よくなります。（←少し休んでいれば）",
+             "sub": "c",
+             "ja": "少し休ん__でさえいれば__、よくなります。（←少し休んでいれば）",
              "en": "If you just rest for a while, you’ll get better."
             }
            ]
@@ -1494,7 +1524,13 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "Vた ｛!!ばかり!!だ／!!ばかり!!の N｝"
+        {
+         "lead": "Vた",
+         "stack": [
+          "!!ばかり!!だ",
+          "!!ばかり!!の N"
+         ]
+        }
        ],
        "blocks": [
         {
@@ -2070,7 +2106,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "X ば Y のに expresses the speaker’s regret that X is not the case, because if X were realized, it would be Y (the desired result). X ばいいのに is a common set phrase used to express such regret when the speaker feels X is not and will not be realized."
+           "en": "X ば Y のに expresses the speaker’s regret that X is not the case, because if X were realized, it would be Y (the desired result). X ばいいのに is a common set phrase used to express such regret when the speaker feels X is not and ''will'' not be realized."
           },
           {
            "en": "The sentence-ending particle なあ is often used with this structure when expressing the speaker’s wish, as shown in [#1] and [#2]."
@@ -2095,7 +2131,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "When Y is in past tense, it expresses the speaker’s regret that Y (the desired result) would have happened if X had been true, or the speaker would have done Y if X had been true."
+           "en": "When Y is in past tense, it expresses the speaker’s regret that Y (the desired result) ''would have'' happened if X had been true, or the speaker ''would have'' done Y if X had been true."
           }
          ]
         },
@@ -2149,6 +2185,7 @@ TRY.registerLesson({
      "t": "reading",
      "id": "l4-model",
      "numbers": true,
+     "speakers": true,
      "lines": [
       "#クラブ活動座談会",
       "¶{書道|しょどう}{部|ぶ}のグエン・ヴァン・タンさん、{茶道|さどう}部のワン・メイリンさん、{野|や}",
@@ -2177,7 +2214,6 @@ TRY.registerLesson({
       "い点と悪い点がありますが、自分に合ったクラブに入ることが",
       "大切[[かもしれません|b]]。"
      ],
-     "titleTr": "Club Activities Roundtable",
      "tr": [
       "We asked Nguyen Van Tan of the calligraphy club, Wang Meilin of the tea ceremony club, and Kimura Jun of the baseball club to talk about the good things that came from doing club activities and the points to watch out for when choosing a club.",
       "What are the good points of club activities?",
@@ -2188,6 +2224,9 @@ TRY.registerLesson({
       "Wang: What you should pay the most attention to when choosing a club is time. The number of meetings and the length of practices differ from club to club. You should probably look at the club's schedule and think about the balance with your studies and part-time job.",
       "Kimura: There's also the issue of money. In the case of the baseball club, money goes to all kinds of things, like equipment and games. I think you also need to find out ahead of time roughly how much it will cost for a year.",
       "Nguyen: Another thing that becomes an issue is relationships. There are clubs where the hierarchy between seniors and juniors is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
+     ],
+     "headTr": [
+      "Club Activities Roundtable"
      ],
      "roles": [
       {

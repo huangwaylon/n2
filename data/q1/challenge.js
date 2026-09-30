@@ -620,7 +620,7 @@ TRY.registerUnits([
         "en": "This structure is used to express the speaker’s impression of something based on what was heard, seen, etc."
        },
        {
-        "en": "そうだ here is used to state the speaker’s conjecture or judgment (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい , かわいい)"
+        "en": "そうだ here is used to state the speaker’s ''conjecture'' or ''judgment'' (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい , かわいい)"
        }
       ]
      },
@@ -819,9 +819,14 @@ TRY.registerUnits([
     "t": "conn",
     "page": 210,
     "forms": [
-     "N !!らしい!!",
-     "N !!らしい!! N",
-     "N !!らしく!! V"
+     {
+      "lead": "N",
+      "stack": [
+       "!!らしい!!",
+       "!!らしい!! N",
+       "!!らしく!! V"
+      ]
+     }
     ],
     "blocks": [
      {
@@ -861,7 +866,7 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "あの本は{難|むずか}しい**ようだ**。",
-      "en": "Seeing a smart person struggling with a book, the speaker speculates:",
+      "en": "''Seeing a smart person struggling with a book, the speaker speculates:''",
       "tr": "That book seems to be hard."
      },
      {
@@ -925,12 +930,12 @@ TRY.registerUnits([
     "items": [
      {
       "n": 1,
-      "ja": "私は!![!!タイ料理の**ような**!!]!!{辛|から}い料理が好きだ。",
+      "ja": "私は!![!!タイ料理の**ような**!!]!!%%{辛|から}い料理%%が好きだ。",
       "tr": "I like spicy food, like Thai food."
      },
      {
       "n": 2,
-      "ja": "日本では!![!!キティの**ような**!!]!!かわいいキャラクターが人気です。",
+      "ja": "日本では!![!!キティの**ような**!!]!!%%かわいいキャラクター%%が人気です。",
       "tr": "In Japan, cute characters like Kitty are popular."
      }
     ]
@@ -971,7 +976,7 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "{田中|たなか}さんは50歳だが、子どもの**ような**人だ。",
-      "en": "(Tanaka is not a child.)",
+      "en": "(Tanaka is ''not'' a child.)",
       "tr": "Tanaka-san is 50, but he's like a child."
      },
      {
@@ -1003,7 +1008,7 @@ TRY.registerUnits([
      {
       "n": 3,
       "ja": "ジョージはモデルの**ように**かっこいい。",
-      "en": "(George is not a model.)",
+      "en": "(George is ''not'' a model.)",
       "tr": "George is as good-looking as a model."
      }
     ]
@@ -1019,9 +1024,14 @@ TRY.registerUnits([
    {
     "t": "conn",
     "forms": [
-     "N の !!ようだ!!",
-     "N の !!ような!! N",
-     "N の !!ように!! V/A"
+     {
+      "lead": "N の",
+      "stack": [
+       "!!ようだ!!",
+       "!!ような!! N",
+       "!!ように!! V/A"
+      ]
+     }
     ],
     "blocks": [
      {
@@ -1364,7 +1374,7 @@ TRY.registerUnits([
         "en": "When special verbs are available, use them instead of other honorific forms. See p. 215 for a list of special verbs."
        },
        {
-        "en": "When special verbs are not available, use “お＋V~~ます~~＋になる.” When the verb is a Sino-Japanese word (i.e., kango), use “ご＋V (without する) ＋になる.”"
+        "en": "When special verbs are not available, use “お＋V~~ます~~＋になる.” When the verb is a Sino-Japanese word (i.e., ''kango''), use “ご＋V (without する) ＋になる.”"
        },
        {
         "en": "れる／られる is considered slightly less respectful than the first or second form, but is nevertheless an honorific form."
@@ -1613,7 +1623,7 @@ TRY.registerUnits([
         "en": "When special verbs are available, use them instead of the humble form in ②. See p. 215 for a list of special verbs."
        },
        {
-        "en": "When special verbs are not available, use “お＋V~~ます~~＋する.” When the verb is a Sino-Japanese word (i.e., kango), use ご＋V する."
+        "en": "When special verbs are not available, use “お＋V~~ます~~＋する.” When the verb is a Sino-Japanese word (i.e., ''kango''), use ご＋V する."
        }
       ]
      }
@@ -1636,7 +1646,7 @@ TRY.registerUnits([
     "items": [
      {
       "ja": "ユと__{申|もう}します__。{中国|ちゅうごく}から__{参|まい}りました__。A社で働いて__おります__。",
-      "en": "(self-introduction)",
+      "en": "(''self-introduction'')",
       "tr": "My name is Yu. I came here from China. I work at Company A."
      }
     ]
@@ -1648,7 +1658,7 @@ TRY.registerUnits([
     "items": [
      {
       "ja": "メニューで__ございます__。メインのお料理は肉と魚が__ございます__。",
-      "en": "(at a restaurant)",
+      "en": "(''at a restaurant'')",
       "tr": "Here is the menu. For the main course, we have meat and fish."
      }
     ]
@@ -1698,7 +1708,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "The polite style is used not only for people of higher status, but also for people in an out-group, meaning people outside of the speaker’s social circle or people who are not in familiar relationships with the speaker. Honorific forms are used to make statements about people in an out-group, whereas the humble form or です・ます style is used to talk about people within the speaker’s in-group or people who are in familiar relationships with the speaker."
+        "en": "The polite style is used not only for people of higher status, but also for people in an ''out-group'', meaning people outside of the speaker’s social circle or people who are not in familiar relationships with the speaker. Honorific forms are used to make statements about people in an ''out-group'', whereas the humble form or です・ます style is used to talk about people within the speaker’s ''in-group'' or people who are in familiar relationships with the speaker."
        }
       ]
      }
@@ -1779,13 +1789,13 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "When speaking about people of higher status who are in your in-group, the appropriate style to use in a conversation can change depending on the situation."
+        "en": "When speaking about people of higher status who are in your ''in-group'', the appropriate style to use in a conversation can change depending on the situation."
        },
        {
-        "en": "If you are having a conversation with people in your in-group, honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an out-group (e.g., people who work for other companies), then humble forms should be used when referring to people in your in-group, even when the referents hold higher statuses. In such cases, titles (e.g., 部長 , さん ) should also be omitted."
+        "en": "If you are having a conversation with people in your ''in-group'', honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an ''out-group'' (e.g., people who work for other companies), then humble forms should be used when referring to people in your ''in-group'', even when the referents hold higher statuses. In such cases, titles (e.g., 部長 , さん ) should also be omitted."
        },
        {
-        "en": "Who belongs in the speaker’s in-group or out-group is not fixed, and it depends on the situation and who the conversation partner is."
+        "en": "Who belongs in the speaker’s ''in-group'' or ''out-group'' is not fixed, and it depends on the situation and who the conversation partner is."
        }
       ]
      }
@@ -1866,12 +1876,12 @@ TRY.registerUnits([
      ],
      [
       {
-       "text": "［Vて］いる",
+       "text": "[#Vて]いる",
        "head": true
       },
-      "［Vて］いらっしゃる\n［Vて］いらっしゃいます",
+      "[#Vて]いらっしゃる\n[#Vて]いらっしゃいます",
       "",
-      "［Vて］おります"
+      "[#Vて]おります"
      ],
      [
       {
@@ -2413,7 +2423,7 @@ TRY.registerUnits([
       "**は / が**",
       "Receiver（×私）",
       "＋**{助詞|じょし}**",
-      "**［Vて］あげる**］"
+      "**[#Vて]あげる**］"
      ],
      [
       {
@@ -2427,7 +2437,7 @@ TRY.registerUnits([
       "**は / が**",
       "Receiver（私）",
       "＋**助詞**",
-      "**［Vて］くれる**］"
+      "**[#Vて]くれる**］"
      ],
      [
       {
@@ -2441,7 +2451,7 @@ TRY.registerUnits([
       "**は / が**",
       "Giver（×私）",
       "**に**",
-      "**［Vて］もらう**］"
+      "**[#Vて]もらう**］"
      ]
     ]
    },
@@ -2489,7 +2499,7 @@ TRY.registerUnits([
       "n": 1,
       "lines": [
        {
-        "ja": "［お母さんは子どもにケーキを作った。］",
+        "ja": "［お母さんは子ども%%に%%ケーキを作った。］",
         "tr": "[The mother made her child a cake.]"
        },
        {
@@ -2502,7 +2512,7 @@ TRY.registerUnits([
       "n": 2,
       "lines": [
        {
-        "ja": "［私は弟を学校に連れていった。］",
+        "ja": "［私は弟%%を%%学校に連れていった。］",
         "tr": "[I took my little brother to school.]"
        },
        {
@@ -2515,7 +2525,7 @@ TRY.registerUnits([
       "n": 3,
       "lines": [
        {
-        "ja": "［（私は）父の車を{洗|あら}った。］",
+        "ja": "［（私は）父の車%%を%%{洗|あら}った。］",
         "tr": "[(I) washed my father's car.]"
        },
        {
@@ -2548,16 +2558,16 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "［Vて］あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私 , and when 私 is the receiver, ［Vて］くれる would be used."
+        "en": "[#Vて]あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私 , and when 私 is the receiver, [#Vて]くれる would be used."
        },
        {
-        "en": "In this construction using ［Vて］あげる , the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3]."
+        "en": "In this construction using [#Vて]あげる , the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3]."
        },
        {
         "en": "As in [#4] (スーパーに行く), when the verb does not take the receiver as its object, 〜のために would be used to specify the receiver."
        },
        {
-        "en": "When the agent of the verb is the speaker (i.e., 私), using ［Vて］あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use ［Vて］さしあげる ."
+        "en": "When the agent of the verb is the speaker (i.e., 私), using [#Vて]あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use [#Vて]さしあげる ."
        }
       ]
      }
@@ -2586,7 +2596,7 @@ TRY.registerUnits([
       "n": 1,
       "lines": [
        {
-        "ja": "［ホストファミリーは私に日本語を教えた。］",
+        "ja": "［ホストファミリーは私%%に%%日本語を教えた。］",
         "tr": "[My host family taught me Japanese.]"
        },
        {
@@ -2599,7 +2609,7 @@ TRY.registerUnits([
       "n": 2,
       "lines": [
        {
-        "ja": "［{田中|たなか}先生は（私の）子どもを家まで送った。］",
+        "ja": "［{田中|たなか}先生は（私の）子ども%%を%%家まで送った。］",
         "tr": "[Tanaka-sensei took (my) child home.]"
        },
        {
@@ -2613,7 +2623,7 @@ TRY.registerUnits([
       "page": 219,
       "lines": [
        {
-        "ja": "［ホストファミリーは（私の）部屋を{掃除|そうじ}した。］",
+        "ja": "［ホストファミリーは（私の）部屋%%を%%{掃除|そうじ}した。］",
         "tr": "[My host family cleaned (my) room.]"
        },
        {
@@ -2646,10 +2656,10 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "［Vて］くれる conveys that the action (V) done by someone else would benefit the speaker. It also expresses the speaker’s gratitude for the action."
+        "en": "[#Vて]くれる conveys that the action (V) done by someone else would benefit the speaker. It also expresses the speaker’s gratitude for the action."
        },
        {
-        "en": "In this construction using ［Vて］くれる , the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3]."
+        "en": "In this construction using [#Vて]くれる , the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3]."
        },
        {
         "en": "As in [#4] ({郵便局|ゆうびんきょく}に行く), when the verb does not take the receiver as its object, 〜のために may be used to denote the receiver (which is 私 , in the case of this example)."
@@ -2737,7 +2747,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "Sentences using ［Vて］くれる can be rephrased by using ［Vて］もらう ."
+        "en": "Sentences using [#Vて]くれる can be rephrased by using [#Vて]もらう ."
        }
       ]
      },
@@ -2760,10 +2770,10 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "In the ［Vて］もらう structure, the giver always takes the particle に ."
+        "en": "In the [#Vて]もらう structure, the giver always takes the particle に ."
        },
        {
-        "en": "Similar to the sentence using ［Vて］くれる , ［Vて］もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between ［Vて］くれる and ［Vて］もらう is that ［Vて］もらう implies that the action was done as a favor specifically requested by the speaker."
+        "en": "Similar to the sentence using [#Vて]くれる , [#Vて]もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between [#Vて]くれる and [#Vて]もらう is that [#Vて]もらう implies that the action was done as a favor specifically requested by the speaker."
        }
       ]
      }
@@ -3032,11 +3042,11 @@ TRY.registerUnits([
       "n": 4,
       "lines": [
        {
-        "ja": "試験の前に友達が{遊|あそ}びに来ました。(Simply stating the fact.)",
+        "ja": "試験の前に友達が{遊|あそ}びに来ました。(''Simply stating the fact.'')",
         "tr": "My friend came over to hang out before the exam."
        },
        {
-        "ja": "→（**私**は）試験の前に友達**に**遊びに__来られました__。(The speaker is unhappy.)",
+        "ja": "→（**私**は）試験の前に友達**に**遊びに__来られました__。(''The speaker is unhappy.'')",
         "tr": "→ My friend came over to hang out before the exam (and I was bothered by it)."
        }
       ]
@@ -3057,11 +3067,11 @@ TRY.registerUnits([
       "n": 5,
       "lines": [
        {
-        "ja": "雨が{降|ふ}りました。(Simply stating the fact.)",
+        "ja": "雨が{降|ふ}りました。(''Simply stating the fact.'')",
         "tr": "It rained."
        },
        {
-        "ja": "→（**私**は）雨**に**__降られました__。(The speaker is unhappy because he/she didn’t have an umbrella.)",
+        "ja": "→（**私**は）雨**に**__降られました__。(''The speaker is unhappy because he/she didn’t have an umbrella.'')",
         "tr": "→ (I) got caught in the rain."
        }
       ]
@@ -3299,7 +3309,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "note",
     "text": {
-     "en": "＊ As shown in [#1] above, when the original verb takes an object followed by the particle を (e.g., 野菜を), then the person who was forced to do the action (e.g., 子ども) should take the particle に. This is a grammatical rule called double を constraint, which limits the use of particle を to once per verb."
+     "en": "＊ As shown in [#1] above, when the original verb takes an object followed by the particle を (e.g., 野菜を), then the person who was forced to do the action (e.g., 子ども) should take the particle に. This is a grammatical rule called ''double を constraint'', which limits the use of particle を to once per verb."
     }
    },
    {
@@ -3367,7 +3377,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "Causative forms of intransitive verbs expressing emotions (e.g., 笑う , {泣|な}く , 怒る , びっくりする , 心配する , {困|こま}る ) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were induced by the causer. In such cases, the causee should take the particle を."
+        "en": "Causative forms of intransitive verbs expressing emotions (e.g., 笑う , {泣|な}く , 怒る , びっくりする , 心配する , {困|こま}る ) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were ''induced'' by the causer. In such cases, the causee should take the particle を."
        }
       ]
      }
@@ -3503,7 +3513,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "note",
     "text": {
-     "en": "＊ When the speaker receives a permission to do something, either 〜てくれる or 〜てもらう can be used with the causative form, depending on who the subject is. If the person giving the permission is the subject, then 〜てくれる is used (see [#2]); if the person receiving the permission is the subject, then 〜てもらう is used (see [#3]). In both cases, the speaker’s gratitude is expressed."
+     "en": "＊ When the speaker receives a permission to do something, either 〜てくれる or 〜てもらう can be used with the causative form, depending on who the subject is. If the person ''giving'' the permission is the subject, then 〜てくれる is used (see [#2]); if the person ''receiving'' the permission is the subject, then 〜てもらう is used (see [#3]). In both cases, the speaker’s gratitude is expressed."
     }
    },
    {
@@ -3799,7 +3809,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "This form states that Y will occur after the condition X is completed/realized."
+        "en": "This form states that Y will occur ''after'' the condition X is completed/realized."
        },
        {
         "en": "Y often uses structures that express the speaker’s subjective opinion, volition or desire, such as 〜(よ)う and 〜たい ."
@@ -3941,7 +3951,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "The conditional form 〜と used in “X と Y” (Y in present tense) expresses that Y always happens when X occurs. This structure is often used for a natural phenomenon ([#1]), something that occurs automatically ([#2]), and habitual routines ([#3])."
+        "en": "The conditional form 〜と used in “X と Y” (Y in present tense) expresses that Y ''always'' happens when X occurs. This structure is often used for a natural phenomenon ([#1]), something that occurs automatically ([#2]), and habitual routines ([#3])."
        },
        {
         "en": "Unlike 〜たら , forms that express the speaker’s subjective opinion, volition or desire (e.g., 〜(よ)う and 〜たい ) cannot be used in Y when using the conditional form 〜と ."
@@ -4173,7 +4183,7 @@ TRY.registerUnits([
       "n": 3,
       "lines": [
        {
-        "ja": "(Your subordinate looks tired.)"
+        "ja": "(''Your subordinate looks tired.'')"
        },
        {
         "ja": "{疲|つか}れている**なら**、早く帰ってもいいよ。",
@@ -4200,7 +4210,7 @@ TRY.registerUnits([
       "n": 5,
       "lines": [
        {
-        "ja": "(On a travel agency flyer)"
+        "ja": "(''On a travel agency flyer'')"
        },
        {
         "ja": "古い町を見たい**なら**、{京都|きょうと}や{奈良|なら}がおすすめ！",
@@ -4222,7 +4232,7 @@ TRY.registerUnits([
         "en": "X なら means “if X is the case.” X in “X なら Y” rephrases/reiterates something that was discussed previously or something that is known in the context (e.g., a statement made by the conversation partner). Y expresses the speaker’s judgment, command, desire, or volition regarding the matter mentioned in X."
        },
        {
-        "en": "Unlike other types of conditional sentences, 〜なら can be used for a situation in which X is achieved after Y occurred (see [#1])."
+        "en": "Unlike other types of conditional sentences, 〜なら can be used for a situation in which X is achieved ''after'' Y occurred (see [#1])."
        },
        {
         "en": "As in [#4], それなら “in that case” is used as a set phrase to refer to the previous statement made by the conversation partner."
@@ -4262,7 +4272,7 @@ TRY.registerUnits([
       },
       "XたらY\n(present)",
       {
-       "en": "If X occurs (or after X occurs),\nY will happen."
+       "en": "If X occurs (or ''after'' X occurs),\nY will happen."
       },
       "○"
      ],
@@ -4337,7 +4347,7 @@ TRY.registerUnits([
     "t": "p",
     "page": 227,
     "text": {
-     "en": "In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of subjects of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が ."
+     "en": "In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of ''subjects'' of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が ."
     }
    },
    {
@@ -4464,13 +4474,13 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement about X. が , on the other hand, marks the subject of the sentence."
+        "en": "は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement ''about'' X. が , on the other hand, marks the subject of the sentence."
        },
        {
-        "en": "は places focus on the part of the sentence that follows は ; therefore, main points of the sentence (e.g., interrogative words, important information) come after は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener."
+        "en": "は places focus on the part of the sentence that ''follows'' は ; therefore, main points of the sentence (e.g., interrogative words, important information) come ''after'' は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener."
        },
        {
-        "en": "On the contrary, が places focus on the part of the sentence that precedes が . As such, important information is mentioned before the particle が (see [#2]). Also in contrast to は , が is used to mark a subject that is considered to be new information for one of the speakers."
+        "en": "On the contrary, が places focus on the part of the sentence that ''precedes'' が . As such, important information is mentioned ''before'' the particle が (see [#2]). Also in contrast to は , が is used to mark a subject that is considered to be new information for one of the speakers."
        }
       ]
      }
@@ -4568,7 +4578,7 @@ TRY.registerUnits([
         "en": "The particle は has a contrastive function as well. In [#1] above, は is used to make contrast between soccer and baseball. Because of this contrastive function of the particle, conjunctions for reverse conditions (e.g., でも , 〜が) are often used with them."
        },
        {
-        "en": "In negative sentences, は is often used to mark the specific item that is being negated. In [#2], {喫茶店|きっさてん}で is being negated specifically, implying that the speaker may drink coffee at other places, just not at the café. On the contrary, in [#3], コーヒー is being negated, meaning that the speaker may drink other types of beverages but not coffee."
+        "en": "In negative sentences, は is often used to mark the specific item that is being negated. In [#2], {喫茶店|きっさてん}で is being negated specifically, implying that the speaker may drink coffee at other places, just ''not at the café''. On the contrary, in [#3], コーヒー is being negated, meaning that the speaker may drink other types of beverages but ''not coffee''."
        }
       ]
      }
@@ -4751,12 +4761,12 @@ TRY.registerUnits([
       "items": [
        {
         "n": "(a)",
-        "ja": "母は家族の{誕生日|たんじょうび}にケーキを作る。そのケーキはおいしい。",
+        "ja": "母は家族の{誕生日|たんじょうび}にケーキを作る。その%%ケーキ%%はおいしい。",
         "tr": "My mother makes a cake for family birthdays. That cake is delicious."
        },
        {
         "n": "(b)",
-        "ja": "!!［!!母**が**家族の誕生日に作る!!］!!ケーキはおいしい。（[#1]）",
+        "ja": "!!［!!母**が**家族の誕生日に作る!!］!!%%ケーキ%%はおいしい。（[#1]）",
         "tr": "The cakes [my mother makes for family birthdays] are delicious. (1)"
        }
       ]
@@ -5555,7 +5565,10 @@ TRY.registerUnits([
        },
        {
         "t": "p",
-        "text": { "ja": "(例)", "tr": "(Example)" }
+        "text": {
+         "ja": "(例)",
+         "tr": "(Example)"
+        }
        },
        {
         "t": "table",
