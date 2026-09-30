@@ -485,7 +485,7 @@ TRY.registerChapter({
             options: ["言うというものではない", "言いかねない", "言わざるを{得|え}ない", "言ってはいられない"],
             answer: 3,
             en: "A: You're really engrossed in that computer book, sir.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it.",
-            why: { en: "The situation doesn't allow him to keep saying できない, so he is studying: 言ってはいられない. 言わざるを得ない would mean he is *forced* to say it, 言いかねない that he *might* say it, and 言うというものではない doesn't fit." },
+            why: { en: "The situation doesn't allow B to keep saying できない, hence the studying: 言ってはいられない. 言わざるを得ない would mean being *forced* to say it, 言いかねない that B *might* say it, and 言うというものではない doesn't fit." },
           },
         ],
       },
