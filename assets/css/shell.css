@@ -140,10 +140,12 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 
 /* ---------- home ---------- */
 /* shelf: the four books at the top of every book's home (what each is, progress, continue); the book menu rows (.bk-row) share the parts */
-.shelf { margin: 0 0 22px; }
+.shelf { margin: 0 0 22px; container-type: inline-size; }
 .shelf-h { margin: 0 0 8px; font-size: 14px; font-weight: 700; color: var(--ink-2); line-height: 1.5; }
 .shelf-h .en-inline { font-size: 12px; }
-.shelf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(172px, 100%), 1fr)); gap: 10px; }
+/* four in a row, or two by two — never three and one left over */
+.shelf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@container (min-width: 700px) { .shelf-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .bk-card, .bk-row { display: flex; gap: 10px; min-width: 0; color: var(--ink); line-height: 1.45; }
 /* card: code beside the name, the rest under both at full card width (four cards share the 800px column) */
 .bk-card { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto auto 1fr; align-items: center; gap: 4px 10px;
@@ -158,7 +160,8 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 .bk-b { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
 .bk-foot { display: grid; gap: 2px; margin-top: auto; padding-top: 4px; }
 .bk-name { font-weight: 700; font-size: 15px; }
-.bk-ja { display: block; font-weight: 400; font-size: 12px; color: var(--ink-2); word-break: keep-all; overflow-wrap: anywhere; }
+/* one line: breaking inside a title left 文 / 法 or I alone on a line */
+.bk-ja { display: block; font-weight: 400; font-size: 12px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .bk-about { font-size: 12px; color: var(--ink-3); }
 .bk-about > span { white-space: nowrap; }
 .bk-prog { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); }
