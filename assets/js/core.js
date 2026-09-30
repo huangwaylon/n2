@@ -46,6 +46,38 @@ export const LETTERS = "abcdefghijklmnop";
 export const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 export const WIDE = "(min-width: 901px)"; // desktop layout; the sidebar is a drawer below it
 export const isWide = () => matchMedia(WIDE).matches;
+
+// keep a block where it is on screen while a setting rebuilds the page (縦/横: every vertical text above it changes
+// height, and the fit passes after the re-render change it again): the clicked block, else the one being read (across
+// the top of the view), else the first one below. Returns the restore step: now, and again after the fit pass.
+const PLACE = ".rd, .sample--vertical, .gp, .exercise, .gn, .strat, .qbox, .hd";
+export function keepPlace(el) {
+  const all = $$(PLACE, $("#main"));
+  // the innermost block across the top of the view, if it fills a third of it (not the last line of the block before)
+  const over = all.filter((b) => { const r = b.getBoundingClientRect(); return r.top < 0 && r.bottom > innerHeight / 3; }).pop();
+  el = (el && el.closest(PLACE)) || over || all.find((b) => b.getBoundingClientRect().top >= 0);
+  const i = all.indexOf(el);
+  if (i < 0) return () => {};
+  const top = el.getBoundingClientRect().top;
+  // a block that now ends above the view (the reader was inside a long 横 text that became a short 縦 scroller) is shown
+  // from its top instead
+  const back = () => {
+    const b = $$(PLACE, $("#main"))[i];
+    if (!b) return;
+    scrollBy(0, b.getBoundingClientRect().top - top);
+    if (b.getBoundingClientRect().bottom < innerHeight / 3) b.scrollIntoView({ block: "start" });
+  };
+  // late: once more after the resize pass (main.js, 150 ms debounce) when a turned tablet re-fits every text, unless
+  // the reader has scrolled or touched the page since
+  return (late) => {
+    back();
+    requestAnimationFrame(() => requestAnimationFrame(back));
+    if (!late) return;
+    const t = setTimeout(() => { stop(); back(); }, 500), ev = ["wheel", "touchstart", "keydown", "mousedown"];
+    const stop = () => { clearTimeout(t); ev.forEach((e) => removeEventListener(e, stop)); };
+    ev.forEach((e) => addEventListener(e, stop, { passive: true }));
+  };
+}
 export const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 
 export const chapterPoints = (ch) => ch.parts.flatMap((p) => p.points);

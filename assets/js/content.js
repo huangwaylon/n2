@@ -1,5 +1,5 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
-import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide } from "./core.js";
+import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace } from "./core.js";
 import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, otherBooksHtml, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
@@ -372,7 +372,7 @@ export function setVertical(mode) {
   vtScrollInit();
 }
 // pressing the mode that "auto" already gives keeps auto; otherwise pin the choice
-ACT.vmode = (t) => setVertical((t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v);
+ACT.vmode = (t) => { const back = keepPlace(t); setVertical((t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v); back(); };
 // vertical scrollers: a text only a little wider than the frame gets taller columns instead of a sideways scroll (up to
 // 80vh / 44em: the last columns were hidden behind the scroll fade, N1 ch4 (2)); the fade shows while more is hidden
 export function vtScrollInit(refit) {
@@ -390,4 +390,4 @@ export function vtScrollInit(refit) {
   });
 }
 // auto mode follows the width
-matchMedia(WIDE).addEventListener("change", () => { if (settings.vertical === "auto" && $(".sample--vertical")) setVertical("auto"); });
+matchMedia(WIDE).addEventListener("change", () => { if (settings.vertical === "auto" && $(".sample--vertical")) { const back = keepPlace(); setVertical("auto"); back(true); } });

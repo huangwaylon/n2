@@ -395,7 +395,7 @@ function readingHtml(b, ctx) {
 }
 ACT.q2vmode = (t) => {
   settings.vertical = (t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v;
-  document.dispatchEvent(new Event("try:setting-vertical"));
+  document.dispatchEvent(new CustomEvent("try:setting-vertical", { detail: t }));
 };
 
 // book line breaks where they fit: every printed line on one line (one column in 縦書き) → .rd-body--book; a 縦書き text

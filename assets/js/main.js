@@ -2,7 +2,7 @@
 // The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
 // data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
 // for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
-import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, loadProgress, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, keepPlace, loadProgress, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
 import { chapterView, setVertical, vtScrollInit } from "./content.js";
@@ -173,6 +173,7 @@ const markActive = (h) => {
 const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
 function route(force) {
   TTS.stop();
+  if (!force) snap = null; // a new page: the last place read belongs to the old one
   const h = hashRoute(), main = $("#main"), t = A.target(h);
   const loading = need(h);
   if (loading) return loading.then((failed) => { route(true); showErrors(failed); });
@@ -249,7 +250,12 @@ const setSetting = (k, v) => { settings[k] = v; saveSettings(); applySettings();
 // ---------- events ----------
 let fitQueued = 0;
 // readings that appear later (details opened, feedback shown, EN) are fitted once they have a layout
-const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitOptionCols($("#main")); fitRubies($("#main"), all); A.layout($("#main"), all); }); };
+const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationFrame(() => { fitQueued = 0; fitOptionCols($("#main")); fitRubies($("#main"), all); A.layout($("#main"), all); takeSnap(); }); };
+// the block being read, taken when scrolling stops and after each fit pass: a resize (a tablet turned, a window dragged)
+// re-fits every text and may re-render the readings, then puts it back. Not taken while a resize settles — the
+// browser has already laid the page out at the new width by the time resize or a media-query change fires
+let snap = null, snapT = 0, resizing = 0;
+const takeSnap = () => { if (!resizing) snap = keepPlace(); };
 
 ACT.en = (t) => t.closest(".bi").classList.toggle("en-open");
 ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) box.classList.toggle("en-all"); };
@@ -268,7 +274,11 @@ ACT["reset-progress"] = () => {
 // Quartet readings switch 縦/横 by re-rendering the view (blocks.js ACT.q2vmode)
 // the drills redraw themselves after every card or option change (flash.js)
 document.addEventListener("try:rerender", () => rerender());
-document.addEventListener("try:setting-vertical", () => { saveSettings(); applySettings(); rerender(); });
+// detail: the clicked switch, or { late: true } when a tablet was turned
+document.addEventListener("try:setting-vertical", (e) => {
+  const d = e.detail, back = (d && d.late && snap) || keepPlace(d instanceof Element ? d : null);
+  saveSettings(); applySettings(); rerender(); back(d && d.late);
+});
 function wireEvents() {
   document.addEventListener("click", (e) => {
     // close the ⚙ / book popovers on any click outside them
@@ -282,8 +292,11 @@ function wireEvents() {
     if (e.target.classList && e.target.classList.contains("book-menu") && e.target.open) $(".book-pop").innerHTML = BOOKS.map((o) => bookCard(o, "bk-row")).join("");
     queueFit();
   }, true);
-  addEventListener("scroll", queueResume, { passive: true });
-  window.addEventListener("resize", () => { clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); }, 150); });
+  addEventListener("scroll", () => { queueResume(); clearTimeout(snapT); snapT = setTimeout(takeSnap, 150); }, { passive: true });
+  window.addEventListener("resize", () => {
+    clearTimeout(resizing); resizing = setTimeout(() => (resizing = 0), 1200);
+    clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); if (snap) snap(true); }, 150);
+  });
   if (document.fonts) document.fonts.ready.then(() => queueFit(true));
   document.addEventListener("change", (e) => {
     const t = e.target;
@@ -291,7 +304,11 @@ function wireEvents() {
     else if (t.id === "tg-furi") { setSetting("furigana", t.checked); queueFit(true); }
     else if (t.id === "tg-en") setSetting("english", t.checked);
     else if (t.id === "theme-set") setSetting("theme", t.value);
-    else if (t.id === "vmode-set") { setVertical(t.value); queueFit(true); }
+    else if (t.id === "vmode-set") {
+      const back = keepPlace();
+      setVertical(t.value);
+      if ($("#main .rd--tate")) document.dispatchEvent(new Event("try:setting-vertical")); else { queueFit(true); back(); }
+    }
   });
   document.addEventListener("input", (e) => {
     if (e.target.id === "rate") setSetting("rate", +e.target.value);
@@ -318,7 +335,12 @@ function wireEvents() {
   });
   window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
-  matchMedia(WIDE).addEventListener("change", (m) => { if (m.matches) setDrawer(false, false); applySettings(); });
+  // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
+  matchMedia(WIDE).addEventListener("change", (m) => {
+    if (m.matches) setDrawer(false, false);
+    applySettings();
+    if (settings.vertical === "auto" && $("#main .rd--tate")) document.dispatchEvent(new CustomEvent("try:setting-vertical", { detail: { late: true } }));
+  });
 }
 
 async function init() {
