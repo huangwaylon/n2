@@ -1,8 +1,9 @@
 # Chapter data schema
 
-The site hosts two books with the same schema: `data/n2/` (TRY! N2, root `index.html`) and `data/n1/` (TRY! N1,
-Chinese edition, `n1/index.html`). Every chapter lives in `data/<book>/chNN.js` and calls `TRY.registerChapter({...})`;
-edit these files directly. `compare.js` calls `TRY.registerCompare([...])`, `front.js` `TRY.registerFront([...])`.
+The two TRY books share this schema: `data/n2/` (TRY! N2, root `index.html`) and `data/n1/` (TRY! N1, Chinese
+edition, `n1/index.html`). The Quartet books (`data/q1/`, `data/q2/`) have their own block model:
+`data/Q2-SCHEMA.md`. Every chapter lives in `data/<book>/chNN.js` and calls `TRY.registerChapter({...})`; edit these
+files directly. `compare.js` calls `TRY.registerCompare([...])`, `front.js` `TRY.registerFront([...])`.
 The site renders everything from these objects — there is no build step.
 
 ## Books
@@ -207,7 +208,7 @@ Heuristics used when `style` is absent: notice (`kind:"notice"`) — the first l
 ☎ / http / E-mail the contact block starts. Article — a line `（文：…）` is the right-aligned credit.
 Story — a line of only 〜 is a scene separator.
 
-Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point. A ãã£ã¦ã¿ãã exercise may carry its own `xref` when the book prints the â line right after the exercise but before a following ï¼Plus box; it is printed right after that exercise.
+Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point. A やってみよう exercise may carry its own `xref` when the book prints the ☞ line right after the exercise but before a following ＋Plus box; it is printed right after that exercise.
 
 ## Vocabulary (単語) — `data/<book>/vocab/chNN.js`
 

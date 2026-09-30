@@ -23,7 +23,7 @@ that file's markup.
 | `kanjiNN.js` | `TRY.registerKanji(Kanji)` | 別冊 漢字リスト for the lesson |
 | `challenge.js` | `TRY.registerUnits([Unit…])` | ブラッシュアップ: 上級へのチャレンジ ①–⑧ (pp.200–225), 漢字チャレンジ ⑬–㉔ (pp.226–237) |
 
-The indexes (文型・表現さくいん p.246, 単語さくいん pp.248–259) are generated from the data, and the tools check the data
+The indexes (文型・表現さくいん p.246, 単語さくいん pp.248–257) are generated from the data, and the tools check the data
 against them (`node tools/q2/verify.js`).
 
 ## Text, English
@@ -36,7 +36,7 @@ A **Text** is either a string (Japanese only) or an object:
 
 - `ja` — the Japanese exactly as printed (inline markup below).
 - `en` — English **printed in the book**, verbatim (grammar-note glosses and explanations, key-example translations,
-  strategies, 単語 boxes, vocab / kanji meanings, About This Book …). Checked against the OCR by `tools/ocr-diff.js`.
+  strategies, 単語 boxes, vocab / kanji meanings, About This Book …). Checked against the OCR by `tools/q2/ocr-diff.js`.
 - `tr` — **our** English translation (generated). Required on every Japanese sentence the book doesn't translate
   (reading paragraphs, examples, questions, instructions, dialogue and script lines, vocab example sentences).
   Never put our English in `en`, never put the book's English in `tr`.
@@ -219,7 +219,7 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
   ] }
 ```
 
-- `deepDive` (after `blocks`): **our** English deep-dive on the note (docs/ENGLISH.md: 60–130 words; nuance, register and
+- `deepDive` (after `blocks`): **our** English deep-dive on the note (docs/ENGLISH.md: 60–140 words; nuance, register and
   contrasts the book's explanation leaves implicit), rendered closed under the note like the TRY books' deep-dives.
   The note's counterparts in TRY! N2 / N1 are listed in data/links.js (他の本).
 - `star`: the ★ badge (items practised in the workbook, marked in the book). `ref`: the bracketed source
@@ -295,9 +295,9 @@ as printed (`__…__`), `yomi` / `en` as printed. Targets (覚える単語と例
 ## Kanji (`kanjiNN.js`)
 
 ```js
-TRY.registerKanji({ lesson: 7, page: 33, kanji: [
-  { no: 348, k: "似", sec: "読み物2", hl: true, meaning: "resemble", on: ["ジ"], kun: ["に"], strokes: 7,
-    words: [ { m: "", w: "類似", yomi: "るいじ", en: "similarity; resemblance" }, { m: "◆", w: "似る", yomi: "にる", en: "to resemble" } ] },
+TRY.registerKanji({ lesson: 7, page: 34, kanji: [
+  { no: 334, k: "差", sec: "読み物1", hl: true, meaning: "point; difference", on: ["サ"], kun: ["さ"], strokes: 10,
+    words: [ { m: "◆", w: "差", yomi: "さ", en: "difference" }, { w: "差別", yomi: "さべつ", en: "discrimination" } ] },
 ] });
 ```
 
