@@ -6539,7 +6539,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "!!抜!!",
+          {
+           "text": "!!抜!!",
+           "style": "hl"
+          },
           "く"
          ],
          [
@@ -6566,7 +6569,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "直",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -6596,7 +6602,10 @@ TRY.registerUnits([
         "rows": [
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "書"
          ],
          [
@@ -6632,7 +6641,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "業"
          ]
         ]
@@ -6658,7 +6670,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "術"
          ]
         ]
@@ -7380,7 +7395,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "報"
          ]
         ]
@@ -7402,7 +7420,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "多",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -7433,7 +7454,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "習",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -7464,7 +7488,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "恐",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ],
          [
           "",
@@ -7494,7 +7521,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "格"
          ]
         ]
@@ -7631,7 +7661,7 @@ TRY.registerUnits([
           "(7)",
           {"ja": "水飲み場", "tr": "Drinking fountain"},
           "(8)",
-          {"ja": "銀行ATM", "tr": "Bank ATM"}
+          {"ja": "銀行ＡＴＭ", "tr": "Bank ATM"}
          ],
          [
           "(9)",
@@ -7822,7 +7852,7 @@ TRY.registerUnits([
           "ja": "勤務地",
           "tr": "Location"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -7837,7 +7867,7 @@ TRY.registerUnits([
           "ja": "時間",
           "tr": "Hours"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -7852,7 +7882,7 @@ TRY.registerUnits([
           "ja": "年齢",
           "tr": "Age"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -7867,7 +7897,7 @@ TRY.registerUnits([
           "ja": "時給",
           "tr": "Hourly wage"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -7882,7 +7912,7 @@ TRY.registerUnits([
           "ja": "休日",
           "tr": "Days off"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -7897,7 +7927,7 @@ TRY.registerUnits([
           "ja": "待遇",
           "tr": "Benefits"
          },
-         "style": "hl"
+         "style": "frame"
         },
         {
          "text": {
@@ -8280,7 +8310,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "う"
          ]
         ]
@@ -8307,7 +8340,10 @@ TRY.registerUnits([
          [
           "!!B→!!",
           "雑",
-          "＿＿"
+          {
+           "text": "＿＿",
+           "style": "hl"
+          }
          ]
         ]
        },
@@ -8332,7 +8368,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "問"
          ]
         ]
@@ -8358,7 +8397,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "用"
          ]
         ]
@@ -8384,7 +8426,10 @@ TRY.registerUnits([
          ],
          [
           "!!B→!!",
-          "＿＿",
+          {
+           "text": "＿＿",
+           "style": "hl"
+          },
           "金"
          ]
         ]
@@ -8500,9 +8545,15 @@ TRY.registerUnits([
     "rows": [
      [
       "(例)　①",
-      "日",
+      {
+       "text": "日",
+       "style": "frame"
+      },
       "＋　⑬",
-      "寺",
+      {
+       "text": "寺",
+       "style": "frame"
+      },
       "＝　時"
      ]
     ]
@@ -8677,35 +8728,50 @@ TRY.registerUnits([
         "rows": [
          [
           "(1)",
-          "土",
+          {
+           "text": "土",
+           "style": "frame"
+          },
           "［a. 平!!地!!",
           "b. !!場!!所",
           "c. !!増!!える］"
          ],
          [
           "(2)",
-          "彳",
+          {
+           "text": "彳",
+           "style": "frame"
+          },
           "［a. !!復!!習",
           "b. !!役!!割",
           "c. !!得!!る］"
          ],
          [
           "(3)",
-          "禾",
+          {
+           "text": "禾",
+           "style": "frame"
+          },
           "［a. !!秋!!",
           "b. !!積!!極的",
           "c. 便!!利!!］"
          ],
          [
           "(4)",
-          "礻",
+          {
+           "text": "礻",
+           "style": "frame"
+          },
           "［a. お!!礼!!",
           "b. !!社!!員",
           "c. !!神!!様］"
          ],
          [
           "(5)",
-          "阝",
+          {
+           "text": "阝",
+           "style": "frame"
+          },
           "［a. !!隣!!人",
           "b. !!降!!る",
           "c. !!限!!界］"
@@ -8724,7 +8790,7 @@ TRY.registerUnits([
        {
         "t": "p",
         "text": {
-         "ja": "(例)　土　→　壊",
+         "ja": "(例)　[#土]　→　壊",
          "tr": "(Example) 土 → 壊"
         }
        },

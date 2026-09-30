@@ -14682,7 +14682,7 @@ k14.blocks.1.items.1.blocks.2.rows.0.0
 k14.blocks.1.items.1.blocks.2.rows.0.1	息
 k14.blocks.1.items.1.blocks.2.rows.0.2	
 k14.blocks.1.items.1.blocks.2.rows.1.0	!!B→!!
-k14.blocks.1.items.1.blocks.2.rows.1.1	!!抜!!
+k14.blocks.1.items.1.blocks.2.rows.1.1.text	!!抜!!
 k14.blocks.1.items.1.blocks.2.rows.1.2	く
 k14.blocks.1.items.1.blocks.2.rows.2.0	
 k14.blocks.1.items.1.blocks.2.rows.2.1	き
@@ -14693,7 +14693,7 @@ k14.blocks.1.items.1.blocks.4.head.0.1
 k14.blocks.1.items.1.blocks.4.head.0.2	!!A↓!!
 k14.blocks.1.items.1.blocks.4.rows.0.0	!!B→!!
 k14.blocks.1.items.1.blocks.4.rows.0.1	直
-k14.blocks.1.items.1.blocks.4.rows.0.2	＿＿
+k14.blocks.1.items.1.blocks.4.rows.0.2.text	＿＿
 k14.blocks.1.items.1.blocks.4.rows.1.0	
 k14.blocks.1.items.1.blocks.4.rows.1.1	
 k14.blocks.1.items.1.blocks.4.rows.1.2	す
@@ -14705,7 +14705,7 @@ k14.blocks.1.items.1.blocks.6.head.0.0
 k14.blocks.1.items.1.blocks.6.head.0.1	!!A↓!!
 k14.blocks.1.items.1.blocks.6.head.0.2	
 k14.blocks.1.items.1.blocks.6.rows.0.0	!!B→!!
-k14.blocks.1.items.1.blocks.6.rows.0.1	＿＿
+k14.blocks.1.items.1.blocks.6.rows.0.1.text	＿＿
 k14.blocks.1.items.1.blocks.6.rows.0.2	書
 k14.blocks.1.items.1.blocks.6.rows.1.0	
 k14.blocks.1.items.1.blocks.6.rows.1.1	げ
@@ -14721,7 +14721,7 @@ k14.blocks.1.items.1.blocks.8.rows.0.0
 k14.blocks.1.items.1.blocks.8.rows.0.1	教
 k14.blocks.1.items.1.blocks.8.rows.0.2	
 k14.blocks.1.items.1.blocks.8.rows.1.0	!!B→!!
-k14.blocks.1.items.1.blocks.8.rows.1.1	＿＿
+k14.blocks.1.items.1.blocks.8.rows.1.1.text	＿＿
 k14.blocks.1.items.1.blocks.8.rows.1.2	業
 k14.blocks.1.items.1.blocks.9.text	(4)
 k14.blocks.1.items.1.blocks.10.head.0.0	
@@ -14731,7 +14731,7 @@ k14.blocks.1.items.1.blocks.10.rows.0.0
 k14.blocks.1.items.1.blocks.10.rows.0.1	特
 k14.blocks.1.items.1.blocks.10.rows.0.2	
 k14.blocks.1.items.1.blocks.10.rows.1.0	!!B→!!
-k14.blocks.1.items.1.blocks.10.rows.1.1	＿＿
+k14.blocks.1.items.1.blocks.10.rows.1.1.text	＿＿
 k14.blocks.1.items.1.blocks.10.rows.1.2	術
 k14.blocks.2.title.ja	チャレンジ！
 k14.blocks.2.blocks.0.text.ja	「てへん」の漢字をもっと勉強しよう。
@@ -14970,7 +14970,7 @@ k18.blocks.1.items.1.blocks.1.rows.0.0
 k18.blocks.1.items.1.blocks.1.rows.0.1	感
 k18.blocks.1.items.1.blocks.1.rows.0.2	
 k18.blocks.1.items.1.blocks.1.rows.1.0	!!B→!!
-k18.blocks.1.items.1.blocks.1.rows.1.1	＿＿
+k18.blocks.1.items.1.blocks.1.rows.1.1.text	＿＿
 k18.blocks.1.items.1.blocks.1.rows.1.2	報
 k18.blocks.1.items.1.blocks.2.text	(2)
 k18.blocks.1.items.1.blocks.3.head.0.0	
@@ -14978,7 +14978,7 @@ k18.blocks.1.items.1.blocks.3.head.0.1
 k18.blocks.1.items.1.blocks.3.head.0.2	!!A↓!!
 k18.blocks.1.items.1.blocks.3.rows.0.0	!!B→!!
 k18.blocks.1.items.1.blocks.3.rows.0.1	多
-k18.blocks.1.items.1.blocks.3.rows.0.2	＿＿
+k18.blocks.1.items.1.blocks.3.rows.0.2.text	＿＿
 k18.blocks.1.items.1.blocks.3.rows.1.0	
 k18.blocks.1.items.1.blocks.3.rows.1.1	
 k18.blocks.1.items.1.blocks.3.rows.1.2	し
@@ -14991,7 +14991,7 @@ k18.blocks.1.items.1.blocks.5.head.0.1
 k18.blocks.1.items.1.blocks.5.head.0.2	!!A↓!!
 k18.blocks.1.items.1.blocks.5.rows.0.0	!!B→!!
 k18.blocks.1.items.1.blocks.5.rows.0.1	習
-k18.blocks.1.items.1.blocks.5.rows.0.2	＿＿
+k18.blocks.1.items.1.blocks.5.rows.0.2.text	＿＿
 k18.blocks.1.items.1.blocks.5.rows.1.0	
 k18.blocks.1.items.1.blocks.5.rows.1.1	
 k18.blocks.1.items.1.blocks.5.rows.1.2	れ
@@ -15004,7 +15004,7 @@ k18.blocks.1.items.1.blocks.7.head.0.1
 k18.blocks.1.items.1.blocks.7.head.0.2	!!A↓!!
 k18.blocks.1.items.1.blocks.7.rows.0.0	!!B→!!
 k18.blocks.1.items.1.blocks.7.rows.0.1	恐
-k18.blocks.1.items.1.blocks.7.rows.0.2	＿＿
+k18.blocks.1.items.1.blocks.7.rows.0.2.text	＿＿
 k18.blocks.1.items.1.blocks.7.rows.1.0	
 k18.blocks.1.items.1.blocks.7.rows.1.1	
 k18.blocks.1.items.1.blocks.7.rows.1.2	い
@@ -15016,7 +15016,7 @@ k18.blocks.1.items.1.blocks.9.rows.0.0
 k18.blocks.1.items.1.blocks.9.rows.0.1	異
 k18.blocks.1.items.1.blocks.9.rows.0.2	
 k18.blocks.1.items.1.blocks.9.rows.1.0	!!B→!!
-k18.blocks.1.items.1.blocks.9.rows.1.1	＿＿
+k18.blocks.1.items.1.blocks.9.rows.1.1.text	＿＿
 k18.blocks.1.items.1.blocks.9.rows.1.2	格
 k18.blocks.1.items.1.words.0	①怖
 k18.blocks.1.items.1.words.1	②慣
@@ -15063,7 +15063,7 @@ k19.blocks.1.items.0.blocks.0.rows.2.3.ja	食堂
 k19.blocks.1.items.0.blocks.0.rows.3.0	(7)
 k19.blocks.1.items.0.blocks.0.rows.3.1.ja	水飲み場
 k19.blocks.1.items.0.blocks.0.rows.3.2	(8)
-k19.blocks.1.items.0.blocks.0.rows.3.3.ja	銀行ATM
+k19.blocks.1.items.0.blocks.0.rows.3.3.ja	銀行ＡＴＭ
 k19.blocks.1.items.0.blocks.0.rows.4.0	(9)
 k19.blocks.1.items.0.blocks.0.rows.4.1.ja	救護所
 k19.blocks.1.items.0.blocks.0.rows.4.2	(10)
@@ -15219,7 +15219,7 @@ k22.blocks.1.items.1.blocks.1.rows.0.0
 k22.blocks.1.items.1.blocks.1.rows.0.1	売
 k22.blocks.1.items.1.blocks.1.rows.0.2	
 k22.blocks.1.items.1.blocks.1.rows.1.0	!!B→!!
-k22.blocks.1.items.1.blocks.1.rows.1.1	＿＿
+k22.blocks.1.items.1.blocks.1.rows.1.1.text	＿＿
 k22.blocks.1.items.1.blocks.1.rows.1.2	う
 k22.blocks.1.items.1.blocks.2.text	(2)
 k22.blocks.1.items.1.blocks.3.head.0.0	
@@ -15230,7 +15230,7 @@ k22.blocks.1.items.1.blocks.3.rows.0.1
 k22.blocks.1.items.1.blocks.3.rows.0.2	通
 k22.blocks.1.items.1.blocks.3.rows.1.0	!!B→!!
 k22.blocks.1.items.1.blocks.3.rows.1.1	雑
-k22.blocks.1.items.1.blocks.3.rows.1.2	＿＿
+k22.blocks.1.items.1.blocks.3.rows.1.2.text	＿＿
 k22.blocks.1.items.1.blocks.4.text	(3)
 k22.blocks.1.items.1.blocks.5.head.0.0	
 k22.blocks.1.items.1.blocks.5.head.0.1	!!A↓!!
@@ -15239,7 +15239,7 @@ k22.blocks.1.items.1.blocks.5.rows.0.0
 k22.blocks.1.items.1.blocks.5.rows.0.1	品
 k22.blocks.1.items.1.blocks.5.rows.0.2	
 k22.blocks.1.items.1.blocks.5.rows.1.0	!!B→!!
-k22.blocks.1.items.1.blocks.5.rows.1.1	＿＿
+k22.blocks.1.items.1.blocks.5.rows.1.1.text	＿＿
 k22.blocks.1.items.1.blocks.5.rows.1.2	問
 k22.blocks.1.items.1.blocks.6.text	(4)
 k22.blocks.1.items.1.blocks.7.head.0.0	
@@ -15249,7 +15249,7 @@ k22.blocks.1.items.1.blocks.7.rows.0.0
 k22.blocks.1.items.1.blocks.7.rows.0.1	学
 k22.blocks.1.items.1.blocks.7.rows.0.2	
 k22.blocks.1.items.1.blocks.7.rows.1.0	!!B→!!
-k22.blocks.1.items.1.blocks.7.rows.1.1	＿＿
+k22.blocks.1.items.1.blocks.7.rows.1.1.text	＿＿
 k22.blocks.1.items.1.blocks.7.rows.1.2	用
 k22.blocks.1.items.1.blocks.8.text	(5)
 k22.blocks.1.items.1.blocks.9.head.0.0	
@@ -15259,7 +15259,7 @@ k22.blocks.1.items.1.blocks.9.rows.0.0
 k22.blocks.1.items.1.blocks.9.rows.0.1	受
 k22.blocks.1.items.1.blocks.9.rows.0.2	
 k22.blocks.1.items.1.blocks.9.rows.1.0	!!B→!!
-k22.blocks.1.items.1.blocks.9.rows.1.1	＿＿
+k22.blocks.1.items.1.blocks.9.rows.1.1.text	＿＿
 k22.blocks.1.items.1.blocks.9.rows.1.2	金
 k22.blocks.2.title.ja	チャレンジ！
 k22.blocks.2.blocks.0.text.ja	「かいへん」と「かい」の漢字をもっと勉強しよう。
@@ -15292,9 +15292,9 @@ k23.blocks.2.head.0.2
 k23.blocks.2.head.0.3	!!B!!
 k23.blocks.2.head.0.4	
 k23.blocks.2.rows.0.0	(例)　①
-k23.blocks.2.rows.0.1	日
+k23.blocks.2.rows.0.1.text	日
 k23.blocks.2.rows.0.2	＋　⑬
-k23.blocks.2.rows.0.3	寺
+k23.blocks.2.rows.0.3.text	寺
 k23.blocks.2.rows.0.4	＝　時
 k23.blocks.3.labels.0	A
 k23.blocks.3.labels.1	B
@@ -15356,32 +15356,32 @@ k24.title	その他の部首「土・彳・禾・礻・阝」
 k24.blocks.0.text.ja	「つちへん・つち（土）」「ぎょうにんべん（彳）」「のぎへん（禾）」「しめすへん（礻）」「こざとへん（阝）」の漢字を勉強しましょう。
 k24.blocks.1.items.0.text.ja	a〜cの単語を読んでみよう。
 k24.blocks.1.items.0.blocks.0.rows.0.0	(1)
-k24.blocks.1.items.0.blocks.0.rows.0.1	土
+k24.blocks.1.items.0.blocks.0.rows.0.1.text	土
 k24.blocks.1.items.0.blocks.0.rows.0.2	［a. 平!!地!!
 k24.blocks.1.items.0.blocks.0.rows.0.3	b. !!場!!所
 k24.blocks.1.items.0.blocks.0.rows.0.4	c. !!増!!える］
 k24.blocks.1.items.0.blocks.0.rows.1.0	(2)
-k24.blocks.1.items.0.blocks.0.rows.1.1	彳
+k24.blocks.1.items.0.blocks.0.rows.1.1.text	彳
 k24.blocks.1.items.0.blocks.0.rows.1.2	［a. !!復!!習
 k24.blocks.1.items.0.blocks.0.rows.1.3	b. !!役!!割
 k24.blocks.1.items.0.blocks.0.rows.1.4	c. !!得!!る］
 k24.blocks.1.items.0.blocks.0.rows.2.0	(3)
-k24.blocks.1.items.0.blocks.0.rows.2.1	禾
+k24.blocks.1.items.0.blocks.0.rows.2.1.text	禾
 k24.blocks.1.items.0.blocks.0.rows.2.2	［a. !!秋!!
 k24.blocks.1.items.0.blocks.0.rows.2.3	b. !!積!!極的
 k24.blocks.1.items.0.blocks.0.rows.2.4	c. 便!!利!!］
 k24.blocks.1.items.0.blocks.0.rows.3.0	(4)
-k24.blocks.1.items.0.blocks.0.rows.3.1	礻
+k24.blocks.1.items.0.blocks.0.rows.3.1.text	礻
 k24.blocks.1.items.0.blocks.0.rows.3.2	［a. お!!礼!!
 k24.blocks.1.items.0.blocks.0.rows.3.3	b. !!社!!員
 k24.blocks.1.items.0.blocks.0.rows.3.4	c. !!神!!様］
 k24.blocks.1.items.0.blocks.0.rows.4.0	(5)
-k24.blocks.1.items.0.blocks.0.rows.4.1	阝
+k24.blocks.1.items.0.blocks.0.rows.4.1.text	阝
 k24.blocks.1.items.0.blocks.0.rows.4.2	［a. !!隣!!人
 k24.blocks.1.items.0.blocks.0.rows.4.3	b. !!降!!る
 k24.blocks.1.items.0.blocks.0.rows.4.4	c. !!限!!界］
 k24.blocks.1.items.1.text.ja	!!1!!の(1)〜(5)の部首を使ったほかの漢字をできるだけたくさん考えよう。
-k24.blocks.1.items.1.blocks.0.text.ja	(例)　土　→　壊
+k24.blocks.1.items.1.blocks.0.text.ja	(例)　[#土]　→　壊
 k24.blocks.1.items.1.blocks.1.labels.0	土
 k24.blocks.1.items.1.blocks.1.labels.1	壊
 k24.blocks.2.title.ja	チャレンジ！
