@@ -504,8 +504,9 @@ TRY.registerLesson({
      "title": "プロフィール",
      "titleTr": "Profile",
      "tag": false,
+     "start": 99,
      "vertical": true,
-     "numbers": false,
+     "numbers": true,
      "lines": [
       "#**山極 寿一（やまぎわ じゅいち）**",
       "¶霊長類学者・人類学者。京都大学総長",
