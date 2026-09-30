@@ -234,7 +234,8 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
 - `conn`: the connection box. `forms`: one entry per formula — a string, or a bracket stack
   `{ stack: ["Vる", "Vた", "Nの"], join: "!!際（に）!!" }` (the brace closes towards the join), or a shared part before
   the brace, `{ lead: "N", stack: ["!!からみると!!", "!!からすると!!", "!!からいうと!!"] }` (the brace opens towards the
-  stack; `lead` and `join` may both be present); stack lines may start with `＊`. Never type ｛…／…｝ into a form. Its `blocks` are the English
+  stack; `lead` and `join` may both be present); stack lines may start with `＊`. Never type ｛…／…｝ into a form. `side: true`: the box's bullets stay in a column beside the formula box
+  as printed (Q1 p.009) instead of running on under it (Q2 p.009). Its `blocks` are the English
   bullets and 例） lines printed in the box.
 
 ### Reading strategies (読みのストラテジー)

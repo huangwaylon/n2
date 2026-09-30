@@ -207,12 +207,13 @@ const B = {
     return `<ol class="gn-exs ja-book">${(b.items || []).map((it) => `<li class="gn-ex">${it.n != null ? `<span class="exno">${esc(it.n)}</span>` : ""}${exBody(it, "gn-ex__b")}<span class="gn-ex__tools">${speakBtn(it.lines ? it.lines.map((l) => l.ja).join("。") : it.ja, "data-small")}</span></li>`).join("")}</ol>`;
   },
   conn(b, ctx) {
-    // a join that wraps on phones keeps "（だろう）か" together (word joiner; p.180)
+    // a join that wraps on phones keeps "（だろう）か" together (word joiner; p.180). side: the bullets stay in a column
+    // beside the formula box as printed (Q1 p.009); otherwise they run on under it (Q2 p.009)
     // a stack: alternatives in a brace, after a shared lead ("N から｛みると／すると／いうと｝", p.179: the brace opens
     // towards the stack) and / or before a shared join ("｛Vる／Nの｝たび（に）": the brace closes towards the join)
     const forms = (b.forms || []).map((f) => (typeof f === "string" ? `<div class="fx1">${posFmt(f)}</div>`
       : `<div class="fxs${f.lead ? " fxs--lead" : ""}">${f.lead ? `<span class="fxs__lead">${posFmt(f.lead)}</span><span class="fxs__br fxs__br--open" aria-hidden="true"></span>` : ""}<span class="fxs__stack">${f.stack.map((l) => `<span>${posFmt(l)}</span>`).join("")}</span>${f.join || !f.lead ? `<span class="fxs__br" aria-hidden="true"></span><span class="fxs__join">${posFmt(f.join || "").replace(/）(?=[ぁ-ん])/g, "）\u2060")}</span>` : ""}</div>`)).join("");
-    return `<div class="gn-conn">${forms ? `<div class="gn-forms">${forms}</div>` : ""}<div class="gn-conn__b">${blocks(b.blocks, ctx)}</div></div>`;
+    return `<div class="gn-conn${b.side ? " gn-conn--side" : ""}">${forms ? `<div class="gn-forms">${forms}</div>` : ""}<div class="gn-conn__b">${blocks(b.blocks, ctx)}</div></div>`;
   },
   strategy(b, ctx) {
     return `<section class="strat" id="st-${esc(b.no)}" data-en-scope>

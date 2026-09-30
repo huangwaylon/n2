@@ -480,6 +480,17 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
 - モデル作文 in 縦書き: the grey panel runs across all columns (gradient `to bottom`), the role brackets below it.
 - Tables follow the book's alignment through `align` / `headAlign` (per table or per column; Q1 head rows are centred);
   grey row labels (`c--gray`) never break inside a word (p.049 ように at 390); `stripe` greys every second row (p.107).
+- フローチャート heading (`hd--flow`): the same icon + accent title in 会話1 and 会話2 of both books; a step with `labels`
+  prints several label-only steps in one bubble (Q1 p.027).
+- Accent fills under white text use `--q-fill` (≥4.5:1: Q2 light is darkened to #0e78ab); `--q` stays the text/rule accent.
+- Connection formulas: the dropped ending is grey under a double accent strike; stack lines never wrap, a join wraps only
+  between phrases. The bullets float round the formula box (text runs on under it, Q2 p.009) unless the conn has
+  `side: true` (a column beside the box, Q1 p.009; ≥601 only).
+- A dialogue under a heading with the same track has no CD button of its own (one per モデル会話, as printed).
+- Quartet blanks keep following punctuation on their line (`.nobr`); lesson and section titles set readings at .42em so
+  a word like 中国人 has no gap around it.
+- 座談会 texts: `speakers: "right"` right-aligns the names (p.102); `indent: false` sets paragraphs flush (p.116).
+- Sidebar lesson rows: 第N課 and the opener's titles on one line, cut with an ellipsis.
 - ｛alt1\nalt2｝ in a sentence: an inline brace in the text colour with the lines stacked (`.ibr`, p.085); the brace
   and its lines wrap as one unit.
 - Phones (≤600): flowchart bubbles drop the printed line breaks; lead+stack leads wrap; ≥8 / ≥11-column tables tighten
