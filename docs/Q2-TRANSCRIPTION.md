@@ -52,7 +52,6 @@ Read `data/Q2-SCHEMA.md` first (the data format). **The PDF is the source of tru
 
 漢字チャレンジ kanji (the チャレンジ！ box kanji) are listed in the 別冊 too: ⑬⑭ 598–607 (p.64, → kanji07.js), ⑮⑯
 608–617 (p.65, L8), ⑰⑱ 618–627 (p.66, L9), ⑲⑳ 628–637 (p.67, L10), ㉑㉒ 638–647 (p.68, L11), ㉓㉔ 648–657 (p.69, L12).
-(Supplement page ranges are from the survey — confirm on the scans.)
 
 ## Conventions
 
@@ -68,8 +67,9 @@ Read `data/Q2-SCHEMA.md` first (the data format). **The PDF is the source of tru
   (report a typo, don't fix it). Spacing is not transcribed from the glyph gaps: the book sets Japanese words in its
   English with full-width boxes, so a half-width `.` `,` `)` after a Japanese word (and a `(` before one) looks spaced
   on the scan. Type no space there: `the particle が.`, `(e.g., 季節, 状況)`, `(i.e., 〜ないで)` — not `が .`,
-  `季節 ,`, `〜ないで )`. Keep the spaces between words (`N によって X`, `Y 点は`). Our translations go in `tr`: accurate, natural American English, faithful to the
-  Japanese (not to any other translation), consistent with the answer keys. Every Japanese sentence that has no book
+  `季節 ,`, `〜ないで )`. Keep the spaces between words (`N によって X`, `Y 点は`). Quartet I follows the same rule.
+  Our translations go in `tr`: accurate, natural American English, faithful to the Japanese (not to any other
+  translation), consistent with the answer keys. Every Japanese sentence that has no book
   English gets `tr`.
 - Illustrations are not reproduced. When a picture carries information needed for a task (a graph, a map, a situation
   drawing), add a `figure` with `desc` (our description) and `labels` (the Japanese printed in it). A graph whose values
@@ -84,6 +84,8 @@ Read `data/Q2-SCHEMA.md` first (the data format). **The PDF is the source of tru
 ```sh
 node tools/q2/check.js data/q2/l07.js                 # structure, markup, tr present
 node tools/q2/ocr-diff.js data/q2/l07.js 28-59,265    # every string vs OCR of those PDF pages (< 0.85 → look at the scan)
+node tools/q2/verify.js q2                            # notes vs the note list, kanji numbers, words vs 単語さくいん
+node tools/text-snapshot.js q2 | diff tools/q2/text-baseline.txt -   # regenerate the baseline after verified changes
 python3 -m http.server 8765 → http://localhost:8765/q2/#/l/7/read
 ```
 
