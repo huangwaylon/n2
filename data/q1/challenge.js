@@ -620,7 +620,7 @@ TRY.registerUnits([
         "en": "This structure is used to express the speaker’s impression of something based on what was heard, seen, etc."
        },
        {
-        "en": "そうだ here is used to state the speaker’s ''conjecture'' or ''judgment'' (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい , かわいい)"
+        "en": "そうだ here is used to state the speaker’s ''conjecture'' or ''judgment'' (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい, かわいい)"
        }
       ]
      },
@@ -1112,7 +1112,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "みたいだ is a colloquial equivalent of ようだ ."
+        "en": "みたいだ is a colloquial equivalent of ようだ."
        },
        {
         "en": "みたいだ conjugates in the same way as な-adjectives."
@@ -1792,7 +1792,7 @@ TRY.registerUnits([
         "en": "When speaking about people of higher status who are in your ''in-group'', the appropriate style to use in a conversation can change depending on the situation."
        },
        {
-        "en": "If you are having a conversation with people in your ''in-group'', honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an ''out-group'' (e.g., people who work for other companies), then humble forms should be used when referring to people in your ''in-group'', even when the referents hold higher statuses. In such cases, titles (e.g., 部長 , さん ) should also be omitted."
+        "en": "If you are having a conversation with people in your ''in-group'', honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an ''out-group'' (e.g., people who work for other companies), then humble forms should be used when referring to people in your ''in-group'', even when the referents hold higher statuses. In such cases, titles (e.g., 部長, さん) should also be omitted."
        },
        {
         "en": "Who belongs in the speaker’s ''in-group'' or ''out-group'' is not fixed, and it depends on the situation and who the conversation partner is."
@@ -2015,7 +2015,7 @@ TRY.registerUnits([
     "t": "p",
     "page": 216,
     "text": {
-     "en": "In this section we will review expressions of giving and receiving. Pay special attention to the directions of giving/receiving, as particles（は／が／に）are often omitted especially when the subject is 私 ."
+     "en": "In this section we will review expressions of giving and receiving. Pay special attention to the directions of giving/receiving, as particles（は／が／に）are often omitted especially when the subject is 私."
     }
    },
    {
@@ -2186,7 +2186,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "When the subject of the sentence is the giver and the speaker is the receiver, you cannot say, “Giver は私に〜をあげる .” くれる should be used instead of あげる ."
+        "en": "When the subject of the sentence is the giver and the speaker is the receiver, you cannot say, “Giver は私に〜をあげる.” くれる should be used instead of あげる."
        }
       ]
      },
@@ -2206,7 +2206,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "The humble form of the verb あげる is さしあげる ."
+        "en": "The humble form of the verb あげる is さしあげる."
        }
       ]
      }
@@ -2263,7 +2263,7 @@ TRY.registerUnits([
         "en": "くれる can also be used when the receiver is someone who belongs in the same social group as the speaker (e.g., 私の子ども)."
        },
        {
-        "en": "The honorific form of the verb くれる is くださる ."
+        "en": "The honorific form of the verb くれる is くださる."
        }
       ]
      }
@@ -2313,7 +2313,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "When the speaker is the giver, you cannot describe the action from the perspective of the receiver (e.g., “Receiver は私に〜をもらう”). The speaker should be the subject of the sentence and あげる should be used instead of もらう ."
+        "en": "When the speaker is the giver, you cannot describe the action from the perspective of the receiver (e.g., “Receiver は私に〜をもらう”). The speaker should be the subject of the sentence and あげる should be used instead of もらう."
        }
       ]
      },
@@ -2339,7 +2339,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "The humble form of もらう is いただく ."
+        "en": "The humble form of もらう is いただく."
        }
       ]
      }
@@ -2464,10 +2464,10 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "To express giving or receiving of an action (e.g., favor) rather than an object, use て-form ＋あげる／くれる／もらう ."
+        "en": "To express giving or receiving of an action (e.g., favor) rather than an object, use て-form ＋あげる／くれる／もらう."
        },
        {
-        "en": "Pay attention to the context and the structure of the sentence, as particles（は／が or に）are often omitted, especially when the sentence involves 私 ."
+        "en": "Pay attention to the context and the structure of the sentence, as particles（は／が or に）are often omitted, especially when the sentence involves 私."
        }
       ]
      }
@@ -2558,16 +2558,16 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "[#Vて]あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私 , and when 私 is the receiver, [#Vて]くれる would be used."
+        "en": "[#Vて]あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私, and when 私 is the receiver, [#Vて]くれる would be used."
        },
        {
-        "en": "In this construction using [#Vて]あげる , the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3]."
+        "en": "In this construction using [#Vて]あげる, the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3]."
        },
        {
         "en": "As in [#4] (スーパーに行く), when the verb does not take the receiver as its object, 〜のために would be used to specify the receiver."
        },
        {
-        "en": "When the agent of the verb is the speaker (i.e., 私), using [#Vて]あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use [#Vて]さしあげる ."
+        "en": "When the agent of the verb is the speaker (i.e., 私), using [#Vて]あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use [#Vて]さしあげる."
        }
       ]
      }
@@ -2659,13 +2659,13 @@ TRY.registerUnits([
         "en": "[#Vて]くれる conveys that the action (V) done by someone else would benefit the speaker. It also expresses the speaker’s gratitude for the action."
        },
        {
-        "en": "In this construction using [#Vて]くれる , the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3]."
+        "en": "In this construction using [#Vて]くれる, the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3]."
        },
        {
-        "en": "As in [#4] ({郵便局|ゆうびんきょく}に行く), when the verb does not take the receiver as its object, 〜のために may be used to denote the receiver (which is 私 , in the case of this example)."
+        "en": "As in [#4] ({郵便局|ゆうびんきょく}に行く), when the verb does not take the receiver as its object, 〜のために may be used to denote the receiver (which is 私, in the case of this example)."
        },
        {
-        "en": "私に , 私の , and 私のために are often omitted."
+        "en": "私に, 私の, and 私のために are often omitted."
        }
       ]
      }
@@ -2747,7 +2747,7 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "Sentences using [#Vて]くれる can be rephrased by using [#Vて]もらう ."
+        "en": "Sentences using [#Vて]くれる can be rephrased by using [#Vて]もらう."
        }
       ]
      },
@@ -2770,10 +2770,10 @@ TRY.registerUnits([
       "mark": "・",
       "items": [
        {
-        "en": "In the [#Vて]もらう structure, the giver always takes the particle に ."
+        "en": "In the [#Vて]もらう structure, the giver always takes the particle に."
        },
        {
-        "en": "Similar to the sentence using [#Vて]くれる , [#Vて]もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between [#Vて]くれる and [#Vて]もらう is that [#Vて]もらう implies that the action was done as a favor specifically requested by the speaker."
+        "en": "Similar to the sentence using [#Vて]くれる, [#Vて]もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between [#Vて]くれる and [#Vて]もらう is that [#Vて]もらう implies that the action was done as a favor specifically requested by the speaker."
        }
       ]
      }
@@ -3002,7 +3002,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "note",
     "text": {
-     "en": "＊ Using “my wallet ( 私のさいふ )” as the subject of a passive voice sentence sounds unnatural in Japanese; 私 (the owner of the object) should be the subject instead."
+     "en": "＊ Using “my wallet (私のさいふ)” as the subject of a passive voice sentence sounds unnatural in Japanese; 私 (the owner of the object) should be the subject instead."
     }
    },
    {
@@ -3173,7 +3173,7 @@ TRY.registerUnits([
     "t": "p",
     "style": "note",
     "text": {
-     "en": "＊ The passive voice can be used when stating simple facts (e.g., who wrote a book that is fairly well-known). In such cases, the agents of the verbs (author of the book, in this case) are marked by 〜によって , rather than 〜に ."
+     "en": "＊ The passive voice can be used when stating simple facts (e.g., who wrote a book that is fairly well-known). In such cases, the agents of the verbs (author of the book, in this case) are marked by 〜によって, rather than 〜に."
     }
    },
    {
@@ -3377,7 +3377,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "Causative forms of intransitive verbs expressing emotions (e.g., 笑う , {泣|な}く , 怒る , びっくりする , 心配する , {困|こま}る ) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were ''induced'' by the causer. In such cases, the causee should take the particle を."
+        "en": "Causative forms of intransitive verbs expressing emotions (e.g., 笑う, {泣|な}く, 怒る, びっくりする, 心配する, {困|こま}る) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were ''induced'' by the causer. In such cases, the causee should take the particle を."
        }
       ]
      }
@@ -3812,7 +3812,7 @@ TRY.registerUnits([
         "en": "This form states that Y will occur ''after'' the condition X is completed/realized."
        },
        {
-        "en": "Y often uses structures that express the speaker’s subjective opinion, volition or desire, such as 〜(よ)う and 〜たい ."
+        "en": "Y often uses structures that express the speaker’s subjective opinion, volition or desire, such as 〜(よ)う and 〜たい."
        }
       ]
      },
@@ -3831,7 +3831,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "〜たら is less restrictive and can be used in more situations compared to 〜と , 〜ば , and 〜なら . However, in cases where Y would be realized before X is, 〜なら should be used instead of 〜たら."
+        "en": "〜たら is less restrictive and can be used in more situations compared to 〜と, 〜ば, and 〜なら. However, in cases where Y would be realized before X is, 〜なら should be used instead of 〜たら."
        }
       ]
      }
@@ -3954,7 +3954,7 @@ TRY.registerUnits([
         "en": "The conditional form 〜と used in “X と Y” (Y in present tense) expresses that Y ''always'' happens when X occurs. This structure is often used for a natural phenomenon ([#1]), something that occurs automatically ([#2]), and habitual routines ([#3])."
        },
        {
-        "en": "Unlike 〜たら , forms that express the speaker’s subjective opinion, volition or desire (e.g., 〜(よ)う and 〜たい ) cannot be used in Y when using the conditional form 〜と ."
+        "en": "Unlike 〜たら, forms that express the speaker’s subjective opinion, volition or desire (e.g., 〜(よ)う and 〜たい) cannot be used in Y when using the conditional form 〜と."
        }
       ]
      },
@@ -4027,7 +4027,7 @@ TRY.registerUnits([
         "en": "As in [#3], when the construction “X なければ Y ない” is used,  X is considered a prerequisite for Y to happen."
        },
        {
-        "en": "When X uses a verb that expresses an action or change, then Y cannot use expressions that convey the speaker’s subjective opinion or wish (e.g., 〜たい , 〜(よ)う , 〜てください , 〜たほうがいい). However, when X uses an adjective or a verb that describes a state, Y can have expressions of the speaker’s subjective opinion or wish."
+        "en": "When X uses a verb that expresses an action or change, then Y cannot use expressions that convey the speaker’s subjective opinion or wish (e.g., 〜たい, 〜(よ)う, 〜てください, 〜たほうがいい). However, when X uses an adjective or a verb that describes a state, Y can have expressions of the speaker’s subjective opinion or wish."
        }
       ]
      }
@@ -4347,7 +4347,7 @@ TRY.registerUnits([
     "t": "p",
     "page": 227,
     "text": {
-     "en": "In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of ''subjects'' of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が ."
+     "en": "In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of ''subjects'' of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が."
     }
    },
    {
@@ -4474,13 +4474,13 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement ''about'' X. が , on the other hand, marks the subject of the sentence."
+        "en": "は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement ''about'' X. が, on the other hand, marks the subject of the sentence."
        },
        {
-        "en": "は places focus on the part of the sentence that ''follows'' は ; therefore, main points of the sentence (e.g., interrogative words, important information) come ''after'' は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener."
+        "en": "は places focus on the part of the sentence that ''follows'' は; therefore, main points of the sentence (e.g., interrogative words, important information) come ''after'' は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener."
        },
        {
-        "en": "On the contrary, が places focus on the part of the sentence that ''precedes'' が . As such, important information is mentioned ''before'' the particle が (see [#2]). Also in contrast to は , が is used to mark a subject that is considered to be new information for one of the speakers."
+        "en": "On the contrary, が places focus on the part of the sentence that ''precedes'' が. As such, important information is mentioned ''before'' the particle が (see [#2]). Also in contrast to は, が is used to mark a subject that is considered to be new information for one of the speakers."
        }
       ]
      }
@@ -4575,7 +4575,7 @@ TRY.registerUnits([
       "mark": "•",
       "items": [
        {
-        "en": "The particle は has a contrastive function as well. In [#1] above, は is used to make contrast between soccer and baseball. Because of this contrastive function of the particle, conjunctions for reverse conditions (e.g., でも , 〜が) are often used with them."
+        "en": "The particle は has a contrastive function as well. In [#1] above, は is used to make contrast between soccer and baseball. Because of this contrastive function of the particle, conjunctions for reverse conditions (e.g., でも, 〜が) are often used with them."
        },
        {
         "en": "In negative sentences, は is often used to mark the specific item that is being negated. In [#2], {喫茶店|きっさてん}で is being negated specifically, implying that the speaker may drink coffee at other places, just ''not at the café''. On the contrary, in [#3], コーヒー is being negated, meaning that the speaker may drink other types of beverages but ''not coffee''."
@@ -4779,7 +4779,7 @@ TRY.registerUnits([
         "en": "In a sentence with both an independent clause and a dependent clause, if the subject of the dependent clause is different from the subject of the independent clause, then the subject of the dependent clause should take the particle が (see [#3])."
        },
        {
-        "en": "Within a quote (e.g., 〜と思う , 〜と言う), the subject does not always have to take the particle が. Whether to use は or が depends on the original particle used."
+        "en": "Within a quote (e.g., 〜と思う, 〜と言う), the subject does not always have to take the particle が. Whether to use は or が depends on the original particle used."
        }
       ]
      },
@@ -4846,7 +4846,7 @@ TRY.registerUnits([
         "en": "“X は Y が〜” is a structure in which both は and が are used. This structure can be roughly translated as: “Speaking of X, Y is/does . . . ”"
        },
        {
-        "en": "There are two patterns for this construction: (a) Y is a part of X ( [#1] and [#2]), and (b) Y is an object that triggers certain feelings for X, or a specific ability of X ( [#3] and [#4])."
+        "en": "There are two patterns for this construction: (a) Y is a part of X ([#1] and [#2]), and (b) Y is an object that triggers certain feelings for X, or a specific ability of X ([#3] and [#4])."
        }
       ]
      }

@@ -784,7 +784,7 @@ TRY.registerLesson({
        "mark": "",
        "items": [
         {
-         "en": "**(a)** Since 言われる is passive, the agent of this action would be the one marked with に , but there is no に in this sentence. Consequently, we have to rely on the context to decide whether the words were said by 私, or by 母. In most cases, the subject of a passive sentence is 私, meaning that the writer was affected by some action done by another person, so it is likely that 私は母に has been omitted from the sentence in this example. Therefore, the person who said 勉強しなさい was the mother."
+         "en": "**(a)** Since 言われる is passive, the agent of this action would be the one marked with に, but there is no に in this sentence. Consequently, we have to rely on the context to decide whether the words were said by 私, or by 母. In most cases, the subject of a passive sentence is 私, meaning that the writer was affected by some action done by another person, so it is likely that 私は母に has been omitted from the sentence in this example. Therefore, the person who said 勉強しなさい was the mother."
         },
         {
          "en": "**(b)** 勉強させられる is causative-passive, so the agent of this action would be the one marked by は. Since we already know 私は母に has been omitted from the sentence, we can tell 私 is the person who did the studying."

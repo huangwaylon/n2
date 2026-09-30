@@ -69,8 +69,11 @@ ACT.kjgo = () => {};
 
 // ---------- indexes (generated) ----------
 import { allNotes } from "./nav.js";
+import { circ } from "./blocks.js";
 export function indexView() {
-  const notes = allNotes().map(({ l, b }) => `<tr data-s="${esc((plain(b.pattern) + " " + (b.gloss || "")).toLowerCase())}"><td><a href="#/gn/${l.id}-${b.no}">${fmt(b.pattern)}</a></td><td class="bk-en">${fmt(b.gloss || "")}</td><td>L${l.id}-${b.no}</td></tr>`).join("");
+  // a note with sub-patterns prints its glosses on the subs (Q1 p.008 〜なら ① ② ③): the index lists them in order
+  const gloss = (b) => b.gloss || (b.blocks || []).filter((x) => x.t === "sub" && x.gloss).map((x) => `${circ(+x.n) || x.n} ${x.gloss}`).join("　");
+  const notes = allNotes().map(({ l, b }) => `<tr data-s="${esc((plain(b.pattern) + " " + gloss(b)).toLowerCase())}"><td><a href="#/gn/${l.id}-${b.no}">${fmt(b.pattern)}</a></td><td class="bk-en">${fmt(gloss(b))}</td><td>L${l.id}-${b.no}</td></tr>`).join("");
   const words = TRY.vocab.flatMap((v) => v.lists.flatMap((L) => L.rows.map((r) => ({ r, v, L }))));
   words.sort((a, b) => plain(a.r.yomi).localeCompare(plain(b.r.yomi), "ja"));
   const wrows = words.map(({ r, v, L }) => `<tr data-s="${esc((plain(r.w) + " " + plain(r.yomi) + " " + plain(r.en)).toLowerCase())}"><td class="ja">${esc(r.k || "")}${fmt(r.w)}</td><td class="ja">${fmt(r.yomi)}</td><td>${fmt(r.en || "")}</td><td><a href="#/l/${v.lesson}/vocab">L${v.lesson}-${fmt(L.sec)}</a></td></tr>`).join("");

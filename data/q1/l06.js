@@ -517,7 +517,7 @@ TRY.registerLesson({
          "mark": "▸",
          "items": [
           {
-           "en": "If you come across the pattern “確かに〜。しかし〜。”, note that the writer’s opinion will follow the しかし ."
+           "en": "If you come across the pattern “確かに〜。しかし〜。”, note that the writer’s opinion will follow the しかし."
           },
           {
            "en": "In the pattern “X のではないだろうか”, the part represented by X is the writer’s opinion."
@@ -655,7 +655,7 @@ TRY.registerLesson({
        "mark": "・",
        "items": [
         {
-         "en": "The statement 理由は 2 つある makes it clear that two reasons will be enumerated. Using this clue, look for two expressions of enumeration and you’ll find まず and また . Each signifies that one of the reasons will immediately follow, so now you can readily make out the two items."
+         "en": "The statement 理由は 2 つある makes it clear that two reasons will be enumerated. Using this clue, look for two expressions of enumeration and you’ll find まず and また. Each signifies that one of the reasons will immediately follow, so now you can readily make out the two items."
         }
        ]
       },
@@ -848,10 +848,10 @@ TRY.registerLesson({
            "en": "The form X わけではない is used to deny X, a statement that may be inferred or assumed based on what is known in context or what has previously been stated. [#1] means, “Joining a calligraphy club does not immediately result in improved skills in calligraphy (even though one might make such an assumption).”"
           },
           {
-           "en": "[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I ''can'' cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない ."
+           "en": "[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I ''can'' cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない."
           },
           {
-           "en": "As [#1] shows, わけではない is often used with からといって , a structure covered in Lesson 3."
+           "en": "As [#1] shows, わけではない is often used with からといって, a structure covered in Lesson 3."
           }
          ]
         }
@@ -1010,16 +1010,16 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "N からみると , N からすると and N からいうと all make a statement about something from the standpoint of N."
+           "en": "N からみると, N からすると and N からいうと all make a statement about something from the standpoint of N."
           },
           {
-           "en": "In the case of N からみると , N usually takes words or phrases that represent a particular person or a group of people, making a statement that speaks for N’s opinion or views."
+           "en": "In the case of N からみると, N usually takes words or phrases that represent a particular person or a group of people, making a statement that speaks for N’s opinion or views."
           },
           {
            "en": "N in N からすると takes information that is used as evidence or grounds for making a judgment."
           },
           {
-           "en": "N からいうと is used when the speaker wants to acknowledge that there are many different ways to look at the matter mentioned, but the speaker is commenting on it from just one of those perspectives. Unlike N からみると or N からすると , N からいうと cannot take nouns representing people in N."
+           "en": "N からいうと is used when the speaker wants to acknowledge that there are many different ways to look at the matter mentioned, but the speaker is commenting on it from just one of those perspectives. Unlike N からみると or N からすると, N からいうと cannot take nouns representing people in N."
           }
          ]
         }
@@ -1160,7 +1160,7 @@ TRY.registerLesson({
            "en": "X のではないだろうか expresses the speaker’s opinion or speculation about something without sounding assertive. As such, this structure is often used when eliciting an agreement from a listener in a subtle manner, or when disagreeing with someone in a non-confrontational way."
           },
           {
-           "en": "X のではないだろうか conveys level of confidence that is lower than that of X だろう ."
+           "en": "X のではないだろうか conveys level of confidence that is lower than that of X だろう."
           },
           {
            "en": "In conversation, X んじゃないでしょうか is used in a formal setting, and X んじゃない？ is used in a casual setting. ([#3])"
@@ -1269,10 +1269,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "This structure describes a third person’s outward (though not necessarily verbal) expression of having certain feelings or desires. Examples of adjectives commonly used with this structure are さびしい , 恥ずかしい , うらやましい , 痛い , 残念だ , {嫌|いや}だ , ほしい and V たい ."
+           "en": "This structure describes a third person’s outward (though not necessarily verbal) expression of having certain feelings or desires. Examples of adjectives commonly used with this structure are さびしい, 恥ずかしい, うらやましい, 痛い, 残念だ, {嫌|いや}だ, ほしい and V たい."
           },
           {
-           "en": "In this structure, the object of desires or feelings takes the particle を. As shown in [#4] and [#5], when ほしい or V たい is used, the desired item or action takes the particle を , rather than が ."
+           "en": "In this structure, the object of desires or feelings takes the particle を. As shown in [#4] and [#5], when ほしい or V たい is used, the desired item or action takes the particle を, rather than が."
           },
           {
            "en": "This structure typically takes the ている form (i.e., 〜がっている), but it appears in the 〜がる form when making a comment about someone’s tendency to desire something ([#6]), as opposed to an observed instance of someone desiring something."
@@ -1627,7 +1627,7 @@ TRY.registerLesson({
            "en": "Used to describe an object or a person that would typically undergo some type of change, [#いAい] / [#なA]な / N のまま expresses that their state of being has remained unchanged."
           },
           {
-           "en": "[#3] shows another common usage of まま , where it is preceded by a demonstrative (e.g., この , その , あの) to express the idea that an object or a person remains “this way,” or “that way.”"
+           "en": "[#3] shows another common usage of まま, where it is preceded by a demonstrative (e.g., この, その, あの) to express the idea that an object or a person remains “this way,” or “that way.”"
           }
          ]
         }
@@ -1735,13 +1735,13 @@ TRY.registerLesson({
            "en": "[#V₁た]まま V₂ expresses that someone is doing V₂ while maintaining the same state that resulted from V₁."
           },
           {
-           "en": "Typically, V₁ in [#V₁た]まま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける , {閉|し}める , 立つ , 座る , つける , 消す , 着る and 出かける ."
+           "en": "Typically, V₁ in [#V₁た]まま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける, {閉|し}める, 立つ, 座る, つける, 消す, 着る and 出かける."
           },
           {
            "en": "The agent of the two actions (V₁ and V₂) must be the same; in [#5], the one who turned the light on and the one who fell asleep is identical (person B, in this case)."
           },
           {
-           "en": "[#Vた]まま cannot be used in negative form (V なかったまま ). The present negative form ( [#Vない]まま ) can be used, and it conveys that the action is not done ''for some length of time'' (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, [#Vず]に or [#Vない]で should be used."
+           "en": "[#Vた]まま cannot be used in negative form (V なかったまま). The present negative form ([#Vない]まま) can be used, and it conveys that the action is not done ''for some length of time'' (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, [#Vず]に or [#Vない]で should be used."
           }
          ]
         },
@@ -1928,10 +1928,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "ように言う / 注意する / 頼む / お願いする are used to indirectly quote requests or commands (e.g., 〜てくれませんか , 〜てください , 〜なさい)."
+           "en": "ように言う / 注意する / 頼む / お願いする are used to indirectly quote requests or commands (e.g., 〜てくれませんか, 〜てください, 〜なさい)."
           },
           {
-           "en": "When quoting a request that was expressed by the speaker or the subject of the sentence, and it was directed towards a third person, 〜てくれるように is used more commonly than 〜ように , as seen in [#4]."
+           "en": "When quoting a request that was expressed by the speaker or the subject of the sentence, and it was directed towards a third person, 〜てくれるように is used more commonly than 〜ように, as seen in [#4]."
           }
          ]
         }
@@ -1947,7 +1947,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "〜ように has two functions: (1) to indirectly quote a request or a command, and (2) to express a purpose behind an action. The latter function was covered in Lesson 5 Grammar 7. When 注意する follows 〜ように , function (1) conveys advice or warning (例 1), whereas function (2) expresses being cautious or paying attention in order to achieve a particular purpose (例 2)."
+        "en": "〜ように has two functions: (1) to indirectly quote a request or a command, and (2) to express a purpose behind an action. The latter function was covered in Lesson 5 Grammar 7. When 注意する follows 〜ように, function (1) conveys advice or warning (例 1), whereas function (2) expresses being cautious or paying attention in order to achieve a particular purpose (例 2)."
        }
       },
       {
@@ -2051,7 +2051,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "X ほど Y uses X as an example (either factual or metaphorical) to emphasize the high level of Y. Typically, X takes verbs in potential forms or intransitive verbs, as well as adjectives followed by なる ."
+           "en": "X ほど Y uses X as an example (either factual or metaphorical) to emphasize the high level of Y. Typically, X takes verbs in potential forms or intransitive verbs, as well as adjectives followed by なる."
           },
           {
            "en": "{飛|と}び上がるほど（うれしい）, {涙|なみだ}が出るほど（うれしい） and 死ぬほど（忙しい） are idiomatic phrases that are commonly used for emphasis."
@@ -2198,7 +2198,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "せっかく is also limited in that it can only be used with particular expressions such as 〜のに and 〜から , while there is no restriction for structures to be paired with わざわざ ."
+        "en": "せっかく is also limited in that it can only be used with particular expressions such as 〜のに and 〜から, while there is no restriction for structures to be paired with わざわざ."
        }
       },
       {

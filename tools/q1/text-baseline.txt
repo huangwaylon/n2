@@ -3424,7 +3424,7 @@ l4.sections.0.blocks.18.blocks.5.text.en	Omission of the subject or person marke
 l4.sections.0.blocks.18.blocks.6.text.ja	子どもの時、母はとてもきびしかった。毎日のように「勉強しなさい」と
 __言われて__、一日に何時間も__勉強させられた__。
 l4.sections.0.blocks.18.blocks.7.text.ja	(a) !!{受身形|うけみけい} → 言った人は「母」!!　(b) !!{使役受身形|しえきうけみけい} → 勉強した人は「私」!!
-l4.sections.0.blocks.18.blocks.8.items.0.en	**(a)** Since 言われる is passive, the agent of this action would be the one marked with に , but there is no に in this sentence. Consequently, we have to rely on the context to decide whether the words were said by 私, or by 母. In most cases, the subject of a passive sentence is 私, meaning that the writer was affected by some action done by another person, so it is likely that 私は母に has been omitted from the sentence in this example. Therefore, the person who said 勉強しなさい was the mother.
+l4.sections.0.blocks.18.blocks.8.items.0.en	**(a)** Since 言われる is passive, the agent of this action would be the one marked with に, but there is no に in this sentence. Consequently, we have to rely on the context to decide whether the words were said by 私, or by 母. In most cases, the subject of a passive sentence is 私, meaning that the writer was affected by some action done by another person, so it is likely that 私は母に has been omitted from the sentence in this example. Therefore, the person who said 勉強しなさい was the mother.
 l4.sections.0.blocks.18.blocks.8.items.1.en	**(b)** 勉強させられる is causative-passive, so the agent of this action would be the one marked by は. Since we already know 私は母に has been omitted from the sentence, we can tell 私 is the person who did the studying.
 l4.sections.0.blocks.18.blocks.9.title.ja	おじぎやあいさつの練習をしたのはだれか。
 l4.sections.0.blocks.18.blocks.9.ref	（読み物2：行7〜9）
@@ -5683,7 +5683,7 @@ l6.sections.0.blocks.17.title	意見を述べる時の表現
 l6.sections.0.blocks.17.en	Expressions for conveying opinions
 l6.sections.0.blocks.17.blocks.0.text.en	When reading a statement of opinion, look for the following two expressions that are commonly used to convey opinions.
 l6.sections.0.blocks.17.blocks.1.title	ストラテジー
-l6.sections.0.blocks.17.blocks.1.blocks.0.items.0.en	If you come across the pattern “確かに〜。しかし〜。”, note that the writer’s opinion will follow the しかし .
+l6.sections.0.blocks.17.blocks.1.blocks.0.items.0.en	If you come across the pattern “確かに〜。しかし〜。”, note that the writer’s opinion will follow the しかし.
 l6.sections.0.blocks.17.blocks.1.blocks.0.items.1.en	In the pattern “X のではないだろうか”, the part represented by X is the writer’s opinion.
 l6.sections.0.blocks.17.blocks.2.text.ja	確かに〜。しかし〜。
 l6.sections.0.blocks.17.blocks.3.text.ja	留学中にホームステイをする人もいるし、寮に住む人もいる。どちらのほうがいいのだろうか。**確かに**ホームステイで日本の家族と生活するのはいい経験になるだろう。**しかし**、ホームステイの場合、大学から遠いところに住むことが多く、通学に時間がかかるのが問題だ。だから、キャンパスに近い寮に住んだほうがいいと思う。
@@ -5705,7 +5705,7 @@ l6.sections.0.blocks.18.blocks.1.blocks.0.items.1.en	Look for expressions such a
 l6.sections.0.blocks.18.blocks.2.text.ja	「まず」「また」を使って理由を{列挙|れっきょ}する
 l6.sections.0.blocks.18.blocks.2.text.en	Enumerating reasons using まず and また
 l6.sections.0.blocks.18.blocks.3.text.ja	私は大学生はアルバイトをしたほうがいいと思う。==理由は2つある==。**まず**、__アルバイトをすると、学生以外の人と知り合う機会が増える__。違う年代の人や様々な経験を持つ人と付き合うことで、視野が広がるのではないだろうか。**また**、__時間の使い方も学ぶことができる__。勉強と仕事のバランスを取るのは難しいが、うまく時間が使えるようになれば、社会に出てからきっと役に立つだろう。
-l6.sections.0.blocks.18.blocks.4.items.0.en	The statement 理由は 2 つある makes it clear that two reasons will be enumerated. Using this clue, look for two expressions of enumeration and you’ll find まず and また . Each signifies that one of the reasons will immediately follow, so now you can readily make out the two items.
+l6.sections.0.blocks.18.blocks.4.items.0.en	The statement 理由は 2 つある makes it clear that two reasons will be enumerated. Using this clue, look for two expressions of enumeration and you’ll find まず and また. Each signifies that one of the reasons will immediately follow, so now you can readily make out the two items.
 l6.sections.0.blocks.18.blocks.5.title.ja	下の質問に答えなさい。
 l6.sections.0.blocks.18.blocks.5.ref	（読み物2：行10〜19）
 l6.sections.0.blocks.18.blocks.5.blocks.0.text.ja	私は、早期英語教育に賛成だ。理由は三つある。
@@ -5753,8 +5753,8 @@ l6.sections.0.blocks.20.blocks.2.forms.1.stack.1	＊なA（だ）
 l6.sections.0.blocks.20.blocks.2.forms.1.stack.2	＊N（だ）
 l6.sections.0.blocks.20.blocks.2.forms.1.join	!!というわけではない!!
 l6.sections.0.blocks.20.blocks.2.blocks.0.items.0.en	The form X わけではない is used to deny X, a statement that may be inferred or assumed based on what is known in context or what has previously been stated. [#1] means, “Joining a calligraphy club does not immediately result in improved skills in calligraphy (even though one might make such an assumption).”
-l6.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I ''can'' cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない .
-l6.sections.0.blocks.20.blocks.2.blocks.0.items.2.en	As [#1] shows, わけではない is often used with からといって , a structure covered in Lesson 3.
+l6.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	[#4] shows 〜わけではない used in double negative construction, turning the statement into a positive one. This example would be translated as “I ''can'' cook, (although I may not be good at it.)” As [#5] shows, in the case of N, it is often used in the form of N（だ）というわけではない rather than N なわけではない.
+l6.sections.0.blocks.20.blocks.2.blocks.0.items.2.en	As [#1] shows, わけではない is often used with からといって, a structure covered in Lesson 3.
 l6.sections.0.blocks.20.blocks.3.text.en	☛ 〜わけではない and 〜とは限らない（L3-9）
 l6.sections.0.blocks.20.blocks.4.text.en	わけではない and とは限らない have overlapping meanings, and can sometimes be interchangeable.
 l6.sections.0.blocks.20.blocks.5.label	例1）
@@ -5792,10 +5792,10 @@ l6.sections.0.blocks.21.blocks.2.forms.0.lead	N !!から!!
 l6.sections.0.blocks.21.blocks.2.forms.0.stack.0	!!みると!!
 l6.sections.0.blocks.21.blocks.2.forms.0.stack.1	!!すると!!
 l6.sections.0.blocks.21.blocks.2.forms.0.stack.2	!!いうと!!
-l6.sections.0.blocks.21.blocks.2.blocks.0.items.0.en	N からみると , N からすると and N からいうと all make a statement about something from the standpoint of N.
-l6.sections.0.blocks.21.blocks.2.blocks.0.items.1.en	In the case of N からみると , N usually takes words or phrases that represent a particular person or a group of people, making a statement that speaks for N’s opinion or views.
+l6.sections.0.blocks.21.blocks.2.blocks.0.items.0.en	N からみると, N からすると and N からいうと all make a statement about something from the standpoint of N.
+l6.sections.0.blocks.21.blocks.2.blocks.0.items.1.en	In the case of N からみると, N usually takes words or phrases that represent a particular person or a group of people, making a statement that speaks for N’s opinion or views.
 l6.sections.0.blocks.21.blocks.2.blocks.0.items.2.en	N in N からすると takes information that is used as evidence or grounds for making a judgment.
-l6.sections.0.blocks.21.blocks.2.blocks.0.items.3.en	N からいうと is used when the speaker wants to acknowledge that there are many different ways to look at the matter mentioned, but the speaker is commenting on it from just one of those perspectives. Unlike N からみると or N からすると , N からいうと cannot take nouns representing people in N.
+l6.sections.0.blocks.21.blocks.2.blocks.0.items.3.en	N からいうと is used when the speaker wants to acknowledge that there are many different ways to look at the matter mentioned, but the speaker is commenting on it from just one of those perspectives. Unlike N からみると or N からすると, N からいうと cannot take nouns representing people in N.
 l6.sections.0.blocks.22.pattern	〜（の）ではない（だろう）か
 l6.sections.0.blocks.22.gloss	(although I cannot say this with confidence,) I think it is the case that ~
 l6.sections.0.blocks.22.ref	読み物1-行32·36
@@ -5833,7 +5833,7 @@ l6.sections.0.blocks.22.blocks.2.forms.1.stack.0	なA
 l6.sections.0.blocks.22.blocks.2.forms.1.stack.1	N
 l6.sections.0.blocks.22.blocks.2.forms.1.join	!!ではない（だろう）か!!
 l6.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	X のではないだろうか expresses the speaker’s opinion or speculation about something without sounding assertive. As such, this structure is often used when eliciting an agreement from a listener in a subtle manner, or when disagreeing with someone in a non-confrontational way.
-l6.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	X のではないだろうか conveys level of confidence that is lower than that of X だろう .
+l6.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	X のではないだろうか conveys level of confidence that is lower than that of X だろう.
 l6.sections.0.blocks.22.blocks.2.blocks.0.items.2.en	In conversation, X んじゃないでしょうか is used in a formal setting, and X んじゃない？ is used in a casual setting. ([#3])
 l6.sections.0.blocks.22.blocks.2.blocks.0.items.3.en	When used with な-adjectives and nouns, なの in なのではないだろうか may be omitted. ([#4] and [#5])
 l6.sections.0.blocks.22.blocks.2.blocks.0.items.4.en	When 〜と思う follows this structure, だろう is omitted and 〜（の）ではないか is used. ([#5])
@@ -5859,8 +5859,8 @@ l6.sections.0.blocks.23.blocks.1.items.5.ja	一般的に言って、子どもは
 l6.sections.0.blocks.23.blocks.2.forms.0.stack.0	いA~~い~~
 l6.sections.0.blocks.23.blocks.2.forms.0.stack.1	なA
 l6.sections.0.blocks.23.blocks.2.forms.0.join	!!がる!!
-l6.sections.0.blocks.23.blocks.2.blocks.0.items.0.en	This structure describes a third person’s outward (though not necessarily verbal) expression of having certain feelings or desires. Examples of adjectives commonly used with this structure are さびしい , 恥ずかしい , うらやましい , 痛い , 残念だ , {嫌|いや}だ , ほしい and V たい .
-l6.sections.0.blocks.23.blocks.2.blocks.0.items.1.en	In this structure, the object of desires or feelings takes the particle を. As shown in [#4] and [#5], when ほしい or V たい is used, the desired item or action takes the particle を , rather than が .
+l6.sections.0.blocks.23.blocks.2.blocks.0.items.0.en	This structure describes a third person’s outward (though not necessarily verbal) expression of having certain feelings or desires. Examples of adjectives commonly used with this structure are さびしい, 恥ずかしい, うらやましい, 痛い, 残念だ, {嫌|いや}だ, ほしい and V たい.
+l6.sections.0.blocks.23.blocks.2.blocks.0.items.1.en	In this structure, the object of desires or feelings takes the particle を. As shown in [#4] and [#5], when ほしい or V たい is used, the desired item or action takes the particle を, rather than が.
 l6.sections.0.blocks.23.blocks.2.blocks.0.items.2.en	This structure typically takes the ている form (i.e., 〜がっている), but it appears in the 〜がる form when making a comment about someone’s tendency to desire something ([#6]), as opposed to an observed instance of someone desiring something.
 l6.sections.0.blocks.23.blocks.2.blocks.0.items.3.en	As described above, 〜がる or 〜がっている has connotations that the person mentioned is showing ''outward'' signs of feelings or desires, suggesting that he/she does not have good control of their own emotions. Therefore, making a statement in this structure about someone superior to you should be avoided.
 l6.sections.0.blocks.23.blocks.2.blocks.1.label	例1）
@@ -5943,7 +5943,7 @@ l6.sections.0.blocks.25.blocks.3.forms.0.stack.1	なAな
 l6.sections.0.blocks.25.blocks.3.forms.0.stack.2	Nの
 l6.sections.0.blocks.25.blocks.3.forms.0.join	!!まま!!
 l6.sections.0.blocks.25.blocks.3.blocks.0.items.0.en	Used to describe an object or a person that would typically undergo some type of change, [#いAい] / [#なA]な / N のまま expresses that their state of being has remained unchanged.
-l6.sections.0.blocks.25.blocks.3.blocks.0.items.1.en	[#3] shows another common usage of まま , where it is preceded by a demonstrative (e.g., この , その , あの) to express the idea that an object or a person remains “this way,” or “that way.”
+l6.sections.0.blocks.25.blocks.3.blocks.0.items.1.en	[#3] shows another common usage of まま, where it is preceded by a demonstrative (e.g., この, その, あの) to express the idea that an object or a person remains “this way,” or “that way.”
 l6.sections.0.blocks.25.blocks.4.pattern	〜たまま
 l6.sections.0.blocks.25.blocks.4.gloss	just as it is; unchanged; as remains
 l6.sections.0.blocks.25.blocks.5.items.0.lines.0.sp	学生
@@ -5969,9 +5969,9 @@ l6.sections.0.blocks.25.blocks.6.items.3.lines.1.ja	本当に全部が金色で�
 l6.sections.0.blocks.25.blocks.7.forms.0	Vた!!まま!!
 l6.sections.0.blocks.25.blocks.7.blocks.0.items.0.en	[#Vた]まま expresses that the state that resulted from an action V is left unchanged.
 l6.sections.0.blocks.25.blocks.7.blocks.0.items.1.en	[#V₁た]まま V₂ expresses that someone is doing V₂ while maintaining the same state that resulted from V₁.
-l6.sections.0.blocks.25.blocks.7.blocks.0.items.2.en	Typically, V₁ in [#V₁た]まま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける , {閉|し}める , 立つ , 座る , つける , 消す , 着る and 出かける .
+l6.sections.0.blocks.25.blocks.7.blocks.0.items.2.en	Typically, V₁ in [#V₁た]まま V₂ takes momentary verbs (i.e., verbs for actions that can be completed in an instant) such as 開ける, {閉|し}める, 立つ, 座る, つける, 消す, 着る and 出かける.
 l6.sections.0.blocks.25.blocks.7.blocks.0.items.3.en	The agent of the two actions (V₁ and V₂) must be the same; in [#5], the one who turned the light on and the one who fell asleep is identical (person B, in this case).
-l6.sections.0.blocks.25.blocks.7.blocks.0.items.4.en	[#Vた]まま cannot be used in negative form (V なかったまま ). The present negative form ( [#Vない]まま ) can be used, and it conveys that the action is not done ''for some length of time'' (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, [#Vず]に or [#Vない]で should be used.
+l6.sections.0.blocks.25.blocks.7.blocks.0.items.4.en	[#Vた]まま cannot be used in negative form (V なかったまま). The present negative form ([#Vない]まま) can be used, and it conveys that the action is not done ''for some length of time'' (i.e., it is left incomplete or not initiated). To simply express that the action is not done, without placing emphasis on the passage of time, [#Vず]に or [#Vない]で should be used.
 l6.sections.0.blocks.25.blocks.7.blocks.1.label	例）
 l6.sections.0.blocks.25.blocks.7.blocks.1.items.0.ja	エアコンを消さなかったまま部屋を出た。
 l6.sections.0.blocks.25.blocks.7.blocks.1.items.1.ja	エアコンを__消さないまま__部屋を出た。
@@ -6016,10 +6016,10 @@ l6.sections.0.blocks.26.blocks.1.items.5.lines.0.ja	あっ、お姉ちゃん、�
 l6.sections.0.blocks.26.blocks.1.items.5.lines.1.sp	母
 l6.sections.0.blocks.26.blocks.1.items.5.lines.1.ja	本当だ。この前、食べたらすぐ洗う**ように注意した**のに……。
 l6.sections.0.blocks.26.blocks.2.forms.0	Vる／Vない !!ように言う!!
-l6.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	ように言う / 注意する / 頼む / お願いする are used to indirectly quote requests or commands (e.g., 〜てくれませんか , 〜てください , 〜なさい).
-l6.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	When quoting a request that was expressed by the speaker or the subject of the sentence, and it was directed towards a third person, 〜てくれるように is used more commonly than 〜ように , as seen in [#4].
+l6.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	ように言う / 注意する / 頼む / お願いする are used to indirectly quote requests or commands (e.g., 〜てくれませんか, 〜てください, 〜なさい).
+l6.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	When quoting a request that was expressed by the speaker or the subject of the sentence, and it was directed towards a third person, 〜てくれるように is used more commonly than 〜ように, as seen in [#4].
 l6.sections.0.blocks.26.blocks.3.text.en	☛ 〜ように注意する
-l6.sections.0.blocks.26.blocks.4.text.en	〜ように has two functions: (1) to indirectly quote a request or a command, and (2) to express a purpose behind an action. The latter function was covered in Lesson 5 Grammar 7. When 注意する follows 〜ように , function (1) conveys advice or warning (例 1), whereas function (2) expresses being cautious or paying attention in order to achieve a particular purpose (例 2).
+l6.sections.0.blocks.26.blocks.4.text.en	〜ように has two functions: (1) to indirectly quote a request or a command, and (2) to express a purpose behind an action. The latter function was covered in Lesson 5 Grammar 7. When 注意する follows 〜ように, function (1) conveys advice or warning (例 1), whereas function (2) expresses being cautious or paying attention in order to achieve a particular purpose (例 2).
 l6.sections.0.blocks.26.blocks.5.label	例1）
 l6.sections.0.blocks.26.blocks.5.items.0.ja	私はルームメートに部屋のかぎを忘れない__ように注意した__。
 l6.sections.0.blocks.26.blocks.5.items.0.en	I told (advised) my roommate not to forget the room key.
@@ -6043,7 +6043,7 @@ l6.sections.0.blocks.27.blocks.1.items.3.lines.0.ja	次は期末試験だから�
 l6.sections.0.blocks.27.blocks.1.items.3.lines.1.sp	B
 l6.sections.0.blocks.27.blocks.1.items.3.lines.1.ja	そうだね。一緒にがんばろう！
 l6.sections.0.blocks.27.blocks.2.forms.0	Vる／Vない !!ほど!!
-l6.sections.0.blocks.27.blocks.2.blocks.0.items.0.en	X ほど Y uses X as an example (either factual or metaphorical) to emphasize the high level of Y. Typically, X takes verbs in potential forms or intransitive verbs, as well as adjectives followed by なる .
+l6.sections.0.blocks.27.blocks.2.blocks.0.items.0.en	X ほど Y uses X as an example (either factual or metaphorical) to emphasize the high level of Y. Typically, X takes verbs in potential forms or intransitive verbs, as well as adjectives followed by なる.
 l6.sections.0.blocks.27.blocks.2.blocks.0.items.1.en	{飛|と}び上がるほど（うれしい）, {涙|なみだ}が出るほど（うれしい） and 死ぬほど（忙しい） are idiomatic phrases that are commonly used for emphasis.
 l6.sections.0.blocks.27.blocks.2.blocks.0.items.2.en	This expression X ほど Y may also be seen in reversed order Y て、X ほどだ to convey the same idea. [#3] can be rephrased as 最近、テレビを見る時間もないほど忙しい to mean the same thing. However, 死ぬほど in [#4] would only be used in X ほど Y structure.
 l6.sections.0.blocks.28.pattern	わざわざ
@@ -6077,7 +6077,7 @@ l6.sections.0.blocks.28.blocks.5.items.0.en	Even though I took the trouble to ba
 l6.sections.0.blocks.28.blocks.6.label	例2）
 l6.sections.0.blocks.28.blocks.6.items.0.ja	__せっかく__ケーキを作ったのに、彼は食べてくれなかった。
 l6.sections.0.blocks.28.blocks.6.items.0.en	Even though I took the trouble to bake a cake (as I thought it would make him happy), he did not even eat it (and I’m sad that my thoughtfulness, time and effort were wasted).
-l6.sections.0.blocks.28.blocks.7.text.en	せっかく is also limited in that it can only be used with particular expressions such as 〜のに and 〜から , while there is no restriction for structures to be paired with わざわざ .
+l6.sections.0.blocks.28.blocks.7.text.en	せっかく is also limited in that it can only be used with particular expressions such as 〜のに and 〜から, while there is no restriction for structures to be paired with わざわざ.
 l6.sections.0.blocks.28.blocks.8.label	例3）
 l6.sections.0.blocks.28.blocks.8.items.0.ja	友達に服を貸したら、__わざわざ__クリーニングをして返してくれた。
 l6.sections.0.blocks.28.blocks.8.items.0.en	When I lent some clothes to a friend, she took the trouble to get them dry-cleaned before returning them to me.
@@ -11916,7 +11916,7 @@ g2.blocks.10.forms.0.stack.2	V~~ます~~
 g2.blocks.10.forms.0.stack.3	＊〜ない → 〜なさ
 g2.blocks.10.forms.0.join	!!そうだ／そうな!! N
 g2.blocks.10.blocks.0.items.0.en	This structure is used to express the speaker’s impression of something based on what was heard, seen, etc.
-g2.blocks.10.blocks.0.items.1.en	そうだ here is used to state the speaker’s ''conjecture'' or ''judgment'' (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい , かわいい)
+g2.blocks.10.blocks.0.items.1.en	そうだ here is used to state the speaker’s ''conjecture'' or ''judgment'' (rather than direct observation) that is based on the appearance of the subject being discussed. As such, this structure cannot be used with words describing qualities that are obvious just by looking at the person, thing, etc. (e.g., きれい, かわいい)
 g2.blocks.10.blocks.1.items.0.ja	（あの人は）きれいそうだ。
 g2.blocks.10.blocks.2.items.0.en	そうだ conjugates in the same pattern as な-adjectives.
 g2.blocks.11.text	〜らしい
@@ -12015,7 +12015,7 @@ g2.blocks.38.forms.0.stack.0	[普]
 g2.blocks.38.forms.0.stack.1	＊なA~~だ~~
 g2.blocks.38.forms.0.stack.2	＊N~~だ~~
 g2.blocks.38.forms.0.join	!!みたいだ!!
-g2.blocks.38.blocks.0.items.0.en	みたいだ is a colloquial equivalent of ようだ .
+g2.blocks.38.blocks.0.items.0.en	みたいだ is a colloquial equivalent of ようだ.
 g2.blocks.38.blocks.0.items.1.en	みたいだ conjugates in the same way as な-adjectives.
 g2.blocks.39.text.ja	❖ まとめ
 g2.blocks.40.labels.0	おいしいよ
@@ -12140,7 +12140,7 @@ g3.blocks.45.items.1.lines.0.ja	川村部長はいらっしゃいますか。
 g3.blocks.45.items.1.lines.1.sp	私 (X社の社員)
 g3.blocks.45.items.1.lines.1.ja	**川村**はただいま、外出して**おります**。
 g3.blocks.46.blocks.0.items.0.en	When speaking about people of higher status who are in your ''in-group'', the appropriate style to use in a conversation can change depending on the situation.
-g3.blocks.46.blocks.0.items.1.en	If you are having a conversation with people in your ''in-group'', honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an ''out-group'' (e.g., people who work for other companies), then humble forms should be used when referring to people in your ''in-group'', even when the referents hold higher statuses. In such cases, titles (e.g., 部長 , さん ) should also be omitted.
+g3.blocks.46.blocks.0.items.1.en	If you are having a conversation with people in your ''in-group'', honorific forms should be used to talk about people of higher status (e.g., 川村部長 in example 1). On the contrary, when your conversation partner is in an ''out-group'' (e.g., people who work for other companies), then humble forms should be used when referring to people in your ''in-group'', even when the referents hold higher statuses. In such cases, titles (e.g., 部長, さん) should also be omitted.
 g3.blocks.46.blocks.0.items.2.en	Who belongs in the speaker’s ''in-group'' or ''out-group'' is not fixed, and it depends on the situation and who the conversation partner is.
 g3.blocks.47.text.ja	❖ 特別な{形|かたち}の{動詞|どうし}
 g3.blocks.47.text.en	List of Special Verbs
@@ -12244,7 +12244,7 @@ g3.blocks.48.rows.15.1	くださる
 g3.blocks.48.rows.15.2	
 g3.blocks.48.rows.15.3	
 g4.title	あげる／くれる／もらう
-g4.blocks.0.text.en	In this section we will review expressions of giving and receiving. Pay special attention to the directions of giving/receiving, as particles（は／が／に）are often omitted especially when the subject is 私 .
+g4.blocks.0.text.en	In this section we will review expressions of giving and receiving. Pay special attention to the directions of giving/receiving, as particles（は／が／に）are often omitted especially when the subject is 私.
 g4.blocks.1.text.ja	あげる／くれる／もらう（物の{授受|じゅじゅ}）
 g4.blocks.1.text.en	Giving and receiving things
 g4.blocks.2.title.ja	「あげる／くれる／もらう」のどれを使いますか。a・bの{言葉|ことば}に続けて文を言ってください。
@@ -12301,9 +12301,9 @@ g4.blocks.5.items.1.en	Ken gave a present to Lisa.
 g4.blocks.6.labels.0	1
 g4.blocks.6.labels.1	リサ
 g4.blocks.6.labels.2	私
-g4.blocks.7.blocks.0.items.0.en	When the subject of the sentence is the giver and the speaker is the receiver, you cannot say, “Giver は私に〜をあげる .” くれる should be used instead of あげる .
+g4.blocks.7.blocks.0.items.0.en	When the subject of the sentence is the giver and the speaker is the receiver, you cannot say, “Giver は私に〜をあげる.” くれる should be used instead of あげる.
 g4.blocks.7.blocks.1.items.0.ja	研は私にプレゼントを__あげました__。→ くれました
-g4.blocks.7.blocks.2.items.0.en	The humble form of the verb あげる is さしあげる .
+g4.blocks.7.blocks.2.items.0.en	The humble form of the verb あげる is さしあげる.
 g4.blocks.8.text.ja	くれる
 g4.blocks.8.text.en	to give to me
 g4.blocks.9.items.0.ja	サラは　（私**に**）　プレゼント**を**　くれました。
@@ -12315,7 +12315,7 @@ g4.blocks.10.labels.2	「サラ__は__」
 g4.blocks.10.labels.3	私
 g4.blocks.11.blocks.0.items.0.en	くれる is used when someone gives something to the speaker (私).
 g4.blocks.11.blocks.0.items.1.en	くれる can also be used when the receiver is someone who belongs in the same social group as the speaker (e.g., 私の子ども).
-g4.blocks.11.blocks.0.items.2.en	The honorific form of the verb くれる is くださる .
+g4.blocks.11.blocks.0.items.2.en	The honorific form of the verb くれる is くださる.
 g4.blocks.12.text.ja	もらう
 g4.blocks.12.text.en	to receive
 g4.blocks.13.items.0.ja	（私は）サラ**に**　プレゼント**を**　もらいました。
@@ -12326,11 +12326,11 @@ g4.blocks.14.labels.0	1
 g4.blocks.14.labels.1	サラ
 g4.blocks.14.labels.2	「サラ__に__」
 g4.blocks.14.labels.3	私
-g4.blocks.15.blocks.0.items.0.en	When the speaker is the giver, you cannot describe the action from the perspective of the receiver (e.g., “Receiver は私に〜をもらう”). The speaker should be the subject of the sentence and あげる should be used instead of もらう .
+g4.blocks.15.blocks.0.items.0.en	When the speaker is the giver, you cannot describe the action from the perspective of the receiver (e.g., “Receiver は私に〜をもらう”). The speaker should be the subject of the sentence and あげる should be used instead of もらう.
 g4.blocks.15.blocks.1.label	　
 g4.blocks.15.blocks.1.items.0.ja	研は私にプレゼントを__もらいました__。
 g4.blocks.15.blocks.1.items.1.ja	私は研にプレゼントを__あげました__。
-g4.blocks.15.blocks.2.items.0.en	The humble form of もらう is いただく .
+g4.blocks.15.blocks.2.items.0.en	The humble form of もらう is いただく.
 g4.blocks.16.text.ja	〜てあげる／〜てくれる／〜てもらう（{行為|こうい}の{授受|じゅじゅ}）
 g4.blocks.16.text.en	Giving and receiving an action
 g4.blocks.17.title.ja	「〜てあげる／くれる／もらう」を使って文を{完成|かんせい}させてください。
@@ -12369,8 +12369,8 @@ g4.blocks.18.rows.2.2	**は / が**
 g4.blocks.18.rows.2.3	Giver（×私）
 g4.blocks.18.rows.2.4	**に**
 g4.blocks.18.rows.2.5	**[#Vて]もらう**］
-g4.blocks.19.blocks.0.items.0.en	To express giving or receiving of an action (e.g., favor) rather than an object, use て-form ＋あげる／くれる／もらう .
-g4.blocks.19.blocks.0.items.1.en	Pay attention to the context and the structure of the sentence, as particles（は／が or に）are often omitted, especially when the sentence involves 私 .
+g4.blocks.19.blocks.0.items.0.en	To express giving or receiving of an action (e.g., favor) rather than an object, use て-form ＋あげる／くれる／もらう.
+g4.blocks.19.blocks.0.items.1.en	Pay attention to the context and the structure of the sentence, as particles（は／が or に）are often omitted, especially when the sentence involves 私.
 g4.blocks.20.text	〜てあげる
 g4.blocks.21.labels.0	1
 g4.blocks.21.labels.1	2
@@ -12386,10 +12386,10 @@ g4.blocks.22.items.2.lines.0.ja	［（私は）父の車%%を%%{洗|あら}っ�
 g4.blocks.22.items.2.lines.1.ja	→（私は）父の車**を**洗っ__てあげました__。
 g4.blocks.22.items.3.lines.0.ja	［（母が{忙|いそが}しいので、）私がスーパーに行った。］
 g4.blocks.22.items.3.lines.1.ja	→ 私は母**のために**スーパーに行っ__てあげました__。
-g4.blocks.23.blocks.0.items.0.en	[#Vて]あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私 , and when 私 is the receiver, [#Vて]くれる would be used.
-g4.blocks.23.blocks.0.items.1.en	In this construction using [#Vて]あげる , the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3].
+g4.blocks.23.blocks.0.items.0.en	[#Vて]あげる expresses that the action done by the agent would benefit the receiver. The receiver of the action should be someone other than 私, and when 私 is the receiver, [#Vて]くれる would be used.
+g4.blocks.23.blocks.0.items.1.en	In this construction using [#Vて]あげる, the particle following the receiver is the same particle that would be used with the original verb, as shown in [#1], [#2] and [#3].
 g4.blocks.23.blocks.0.items.2.en	As in [#4] (スーパーに行く), when the verb does not take the receiver as its object, 〜のために would be used to specify the receiver.
-g4.blocks.23.blocks.0.items.3.en	When the agent of the verb is the speaker (i.e., 私), using [#Vて]あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use [#Vて]さしあげる .
+g4.blocks.23.blocks.0.items.3.en	When the agent of the verb is the speaker (i.e., 私), using [#Vて]あげる may sound like the speaker is emphasizing the favor he/she has done; it may be perceived as self-approval. When the receiver is of higher social status than the speaker, it would come off as rude, even if you use [#Vて]さしあげる.
 g4.blocks.24.text	〜てくれる
 g4.blocks.25.labels.0	2
 g4.blocks.25.labels.1	先生
@@ -12403,9 +12403,9 @@ g4.blocks.26.items.2.lines.1.ja	→ ホストファミリーは（私の）部�
 g4.blocks.26.items.3.lines.0.ja	［（私が{忙|いそが}しいので、）姉が{郵便局|ゆうびんきょく}に行った。］
 g4.blocks.26.items.3.lines.1.ja	→ 姉が（私**のために**）郵便局に行っ__てくれました__。
 g4.blocks.27.blocks.0.items.0.en	[#Vて]くれる conveys that the action (V) done by someone else would benefit the speaker. It also expresses the speaker’s gratitude for the action.
-g4.blocks.27.blocks.0.items.1.en	In this construction using [#Vて]くれる , the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3].
-g4.blocks.27.blocks.0.items.2.en	As in [#4] ({郵便局|ゆうびんきょく}に行く), when the verb does not take the receiver as its object, 〜のために may be used to denote the receiver (which is 私 , in the case of this example).
-g4.blocks.27.blocks.0.items.3.en	私に , 私の , and 私のために are often omitted.
+g4.blocks.27.blocks.0.items.1.en	In this construction using [#Vて]くれる, the particle following the receiver (i.e., the speaker) is the same particle used with the original verb, as shown in [#1], [#2] and [#3].
+g4.blocks.27.blocks.0.items.2.en	As in [#4] ({郵便局|ゆうびんきょく}に行く), when the verb does not take the receiver as its object, 〜のために may be used to denote the receiver (which is 私, in the case of this example).
+g4.blocks.27.blocks.0.items.3.en	私に, 私の, and 私のために are often omitted.
 g4.blocks.28.text	〜てもらう
 g4.blocks.29.labels.0	1
 g4.blocks.29.labels.1	○△駅
@@ -12424,11 +12424,11 @@ g4.blocks.30.items.1.lines.1.ja	いいよ。
 g4.blocks.30.items.1.lines.2.ja	↓
 ［友達は私と一緒にパーティーに行きました。］
 g4.blocks.30.items.1.lines.3.ja	→ 私は友達に一緒にパーティーに行っ__てもらいました__。
-g4.blocks.31.blocks.0.items.0.en	Sentences using [#Vて]くれる can be rephrased by using [#Vて]もらう .
+g4.blocks.31.blocks.0.items.0.en	Sentences using [#Vて]くれる can be rephrased by using [#Vて]もらう.
 g4.blocks.31.blocks.1.items.0.ja	__友達__は!!(giver)!!　__私__に!!(receiver)!!　おいしい店を教え__てくれました__。
 g4.blocks.31.blocks.1.items.1.ja	__私__は!!(receiver)!!　__友達__に!!(giver)!!　おいしい店を教え__てもらいました__。
-g4.blocks.31.blocks.2.items.0.en	In the [#Vて]もらう structure, the giver always takes the particle に .
-g4.blocks.31.blocks.2.items.1.en	Similar to the sentence using [#Vて]くれる , [#Vて]もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between [#Vて]くれる and [#Vて]もらう is that [#Vて]もらう implies that the action was done as a favor specifically requested by the speaker.
+g4.blocks.31.blocks.2.items.0.en	In the [#Vて]もらう structure, the giver always takes the particle に.
+g4.blocks.31.blocks.2.items.1.en	Similar to the sentence using [#Vて]くれる, [#Vて]もらう can be used to show the speaker’s gratitude for the action, when 私 is the subject (receiver). The difference between [#Vて]くれる and [#Vて]もらう is that [#Vて]もらう implies that the action was done as a favor specifically requested by the speaker.
 g4.blocks.32.text.ja	✎1. 答え▶ (1) a. 友達にぬいぐるみをもらいました。　b. 私にぬいぐるみをくれました。
 (2) a. ジョージに花をもらいました。　b. 絵理に花をあげました。
 (3) a. 先生におみやげをいただきました。　b. 私におみやげをくださいました。
@@ -12484,7 +12484,7 @@ g5.blocks.5.items.0.lines.1.ja	→（**私**は）友達**に**ばかに__され
 g5.blocks.5.items.1.lines.0.ja	どろぼうが**私**のさいふをとりました。
 g5.blocks.5.items.1.lines.1.ja	→（**私**は）どろぼう**に**さいふを__とられました__。
 g5.blocks.5.items.1.lines.2.ja	？私のさいふは、どろぼうにとられました。
-g5.blocks.6.text.en	＊ Using “my wallet ( 私のさいふ )” as the subject of a passive voice sentence sounds unnatural in Japanese; 私 (the owner of the object) should be the subject instead.
+g5.blocks.6.text.en	＊ Using “my wallet (私のさいふ)” as the subject of a passive voice sentence sounds unnatural in Japanese; 私 (the owner of the object) should be the subject instead.
 g5.blocks.7.items.0.lines.0.ja	だれかが**私**の足をふみました。
 g5.blocks.7.items.0.lines.1.ja	→（**私**は）だれか**に**足を__ふまれました__。
 g5.blocks.7.items.0.lines.2.ja	？私の足は、だれかにふまれました。
@@ -12508,7 +12508,7 @@ g5.blocks.18.items.0.ja	（多くの人が）世界中で**英語**を使って�
 g5.blocks.18.items.1.ja	コンサートは7時からAホールで__{行|おこな}われます__。
 g5.blocks.18.items.2.lines.0.ja	{村上春樹|むらかみはるき}が**『ノルウェーの{森|もり}』という本**を書きました。
 g5.blocks.18.items.2.lines.1.ja	→**『ノルウェーの森』という本**は村上春樹__によって　書かれました__。
-g5.blocks.19.text.en	＊ The passive voice can be used when stating simple facts (e.g., who wrote a book that is fairly well-known). In such cases, the agents of the verbs (author of the book, in this case) are marked by 〜によって , rather than 〜に .
+g5.blocks.19.text.en	＊ The passive voice can be used when stating simple facts (e.g., who wrote a book that is fairly well-known). In such cases, the agents of the verbs (author of the book, in this case) are marked by 〜によって, rather than 〜に.
 g5.blocks.20.title.ja	▸ {迷惑|めいわく}の{受身|うけみ} (adverse passive) and 〜てもらう
 g5.blocks.20.blocks.0.text.en	To state the fact that a stranger took a picture of the speaker, use the adverse passive if the speaker felt annoyed by it (as in [#1]), and use 〜てもらう if the speaker requested it (as in [#2]).
 g5.blocks.20.blocks.1.text.ja	Fact:「知らない人が私の写真を{撮|と}った」
@@ -12546,7 +12546,7 @@ g5.blocks.27.items.1.lines.1.ja	じゃあ、今回は森**に**__行かせよう
 g5.blocks.28.text.en	＊ If the original verb is an intransitive verb, the causee (the person who was forced to do the action) is followed by the particle を, as in [#2]. Use of the particle に is not prohibited, as shown in [#3], but in this case the sentence has the connotations that the subject (causer) considered the feeling of the person who does the action (causee). As such, example [#3] implies that 社長 is showing consideration for 森’s desire to go on the business trip.
 g5.blocks.29.text.ja	感情の{誘発|ゆうはつ}
 g5.blocks.29.text.en	Induction
-g5.blocks.30.blocks.0.items.0.en	Causative forms of intransitive verbs expressing emotions (e.g., 笑う , {泣|な}く , 怒る , びっくりする , 心配する , {困|こま}る ) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were ''induced'' by the causer. In such cases, the causee should take the particle を.
+g5.blocks.30.blocks.0.items.0.en	Causative forms of intransitive verbs expressing emotions (e.g., 笑う, {泣|な}く, 怒る, びっくりする, 心配する, {困|こま}る) do not mean that the emotions were “forced” by the causer; rather, they convey that the emotions were ''induced'' by the causer. In such cases, the causee should take the particle を.
 g5.blocks.31.items.0.ja	兄は弟**を**__{泣|な}かせました__。
 g5.blocks.31.items.1.ja	親**を**__{喜|よろこ}ばせる__ために、いい会社に{就職|しゅうしょく}したい。
 g5.blocks.32.labels.0	1
@@ -12622,10 +12622,10 @@ g6.blocks.4.items.1.ja	明日{晴|は}れ**たら**、テニスがしたいで�
 g6.blocks.4.items.2.ja	{寒|さむ}かっ**たら**、ヒーターをつけてください。
 g6.blocks.4.items.3.ja	{熱|ねつ}が出**たら**、学校を休んだほうがいい。
 g6.blocks.5.blocks.0.items.0.en	This form states that Y will occur ''after'' the condition X is completed/realized.
-g6.blocks.5.blocks.0.items.1.en	Y often uses structures that express the speaker’s subjective opinion, volition or desire, such as 〜(よ)う and 〜たい .
+g6.blocks.5.blocks.0.items.1.en	Y often uses structures that express the speaker’s subjective opinion, volition or desire, such as 〜(よ)う and 〜たい.
 g6.blocks.5.blocks.1.items.0.ja	{寝|ね}る → 寝__よう__ (volition)／寝__たい__ (desire)／寝て__ください__ (request)／
 寝た__ほうがいい__ (advice)
-g6.blocks.5.blocks.2.items.0.en	〜たら is less restrictive and can be used in more situations compared to 〜と , 〜ば , and 〜なら . However, in cases where Y would be realized before X is, 〜なら should be used instead of 〜たら.
+g6.blocks.5.blocks.2.items.0.en	〜たら is less restrictive and can be used in more situations compared to 〜と, 〜ば, and 〜なら. However, in cases where Y would be realized before X is, 〜なら should be used instead of 〜たら.
 g6.blocks.6.text.ja	XたらY
 g6.blocks.6.text.en	(Y in past tense)
 g6.blocks.7.items.0.ja	朝起き**たら**、{雪|ゆき}が{降|ふ}っていました。
@@ -12644,7 +12644,7 @@ g6.blocks.12.items.3.lines.1.sp	B
 g6.blocks.12.items.3.lines.1.ja	ありがとうございます。
 g6.blocks.13.labels.0	4
 g6.blocks.14.blocks.0.items.0.en	The conditional form 〜と used in “X と Y” (Y in present tense) expresses that Y ''always'' happens when X occurs. This structure is often used for a natural phenomenon ([#1]), something that occurs automatically ([#2]), and habitual routines ([#3]).
-g6.blocks.14.blocks.0.items.1.en	Unlike 〜たら , forms that express the speaker’s subjective opinion, volition or desire (e.g., 〜(よ)う and 〜たい ) cannot be used in Y when using the conditional form 〜と .
+g6.blocks.14.blocks.0.items.1.en	Unlike 〜たら, forms that express the speaker’s subjective opinion, volition or desire (e.g., 〜(よ)う and 〜たい) cannot be used in Y when using the conditional form 〜と.
 g6.blocks.14.blocks.1.items.0.ja	あの{喫茶店|きっさてん}に行くと、いつもケーキを食べてしまう。
 g6.blocks.14.blocks.1.items.1.ja	あの喫茶店に行くと、ケーキを食べ__よう__と思います。
 g6.blocks.14.blocks.2.items.0.en	X といいんですが and X といいですね are set phrases used to express the speaker’s hope ([#4]).
@@ -12654,7 +12654,7 @@ g6.blocks.16.items.1.ja	{薬|くすり}を飲め**ば**、{風邪|かぜ}がよ�
 g6.blocks.16.items.2.ja	薬を飲ま**なければ**、風邪がよくなりません。
 g6.blocks.17.blocks.0.items.0.en	X ば Y (Y in present tense) conveys that a desirable result (Y) would be achieved if the condition X is met.
 g6.blocks.17.blocks.0.items.1.en	As in [#3], when the construction “X なければ Y ない” is used,  X is considered a prerequisite for Y to happen.
-g6.blocks.17.blocks.0.items.2.en	When X uses a verb that expresses an action or change, then Y cannot use expressions that convey the speaker’s subjective opinion or wish (e.g., 〜たい , 〜(よ)う , 〜てください , 〜たほうがいい). However, when X uses an adjective or a verb that describes a state, Y can have expressions of the speaker’s subjective opinion or wish.
+g6.blocks.17.blocks.0.items.2.en	When X uses a verb that expresses an action or change, then Y cannot use expressions that convey the speaker’s subjective opinion or wish (e.g., 〜たい, 〜(よ)う, 〜てください, 〜たほうがいい). However, when X uses an adjective or a verb that describes a state, Y can have expressions of the speaker’s subjective opinion or wish.
 g6.blocks.18.head.0.0	
 g6.blocks.18.head.0.1.text	Xば
 g6.blocks.18.head.0.2	Y
@@ -12726,7 +12726,7 @@ g6.blocks.23.rows.5.1.text.en	Used to state the speaker’s opinion (Y) in the c
 g6.blocks.23.rows.5.2	○
 g7.title	{助詞|じょし}「は」と「が」
 g7.en	Particles は and が
-g7.blocks.0.text.en	In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of ''subjects'' of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が .
+g7.blocks.0.text.en	In Japanese, the particle は marks the topic of the sentence, whereas が marks the nominative case. Both are often considered the equivalent of ''subjects'' of the sentences, but the two particles are not always interchangeable. Below is a review of differences between は and が.
 g7.blocks.1.title.ja	正しい答えを{選|えら}んでください。
 g7.blocks.1.blocks.0.items.0.text.ja	A：テスト　a.【は・が】いつですか。
 B：金曜日です。
@@ -12755,9 +12755,9 @@ g7.blocks.3.items.3.lines.1.sp	B
 g7.blocks.3.items.3.lines.1.ja	ああ、リーさん**は**元気でしたか。
 g7.blocks.3.items.3.lines.2.sp	A
 g7.blocks.3.items.3.lines.2.ja	はい。（リーさん**は**）元気でしたよ。
-g7.blocks.4.blocks.0.items.0.en	は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement ''about'' X. が , on the other hand, marks the subject of the sentence.
-g7.blocks.4.blocks.0.items.1.en	は places focus on the part of the sentence that ''follows'' は ; therefore, main points of the sentence (e.g., interrogative words, important information) come ''after'' は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener.
-g7.blocks.4.blocks.0.items.2.en	On the contrary, が places focus on the part of the sentence that ''precedes'' が . As such, important information is mentioned ''before'' the particle が (see [#2]). Also in contrast to は , が is used to mark a subject that is considered to be new information for one of the speakers.
+g7.blocks.4.blocks.0.items.0.en	は in “X は” marks X as the topic of the sentence, thereby signaling that the sentence will be a statement ''about'' X. が, on the other hand, marks the subject of the sentence.
+g7.blocks.4.blocks.0.items.1.en	は places focus on the part of the sentence that ''follows'' は; therefore, main points of the sentence (e.g., interrogative words, important information) come ''after'' は (see [#1]). は is also used to mark the subject of the sentence that is already made clear in the context and shared between the speaker and the listener.
+g7.blocks.4.blocks.0.items.2.en	On the contrary, が places focus on the part of the sentence that ''precedes'' が. As such, important information is mentioned ''before'' the particle が (see [#2]). Also in contrast to は, が is used to mark a subject that is considered to be new information for one of the speakers.
 g7.blocks.5.blocks.0.rows.0.0.text	**は**：
 g7.blocks.5.blocks.0.rows.0.1.en	topic
 g7.blocks.5.blocks.0.rows.0.2	**は**
@@ -12771,7 +12771,7 @@ g7.blocks.6.text.en	Specific use of は: Making a contrast
 g7.blocks.7.items.0.ja	サッカー**は**よく見ますが、{野球|やきゅう}**は**あまり見ません。
 g7.blocks.7.items.1.ja	{喫茶店|きっさてん}で**は**コーヒーをあまり飲みません。
 g7.blocks.7.items.2.ja	喫茶店でコーヒー**は**あまり飲みません。
-g7.blocks.8.blocks.0.items.0.en	The particle は has a contrastive function as well. In [#1] above, は is used to make contrast between soccer and baseball. Because of this contrastive function of the particle, conjunctions for reverse conditions (e.g., でも , 〜が) are often used with them.
+g7.blocks.8.blocks.0.items.0.en	The particle は has a contrastive function as well. In [#1] above, は is used to make contrast between soccer and baseball. Because of this contrastive function of the particle, conjunctions for reverse conditions (e.g., でも, 〜が) are often used with them.
 g7.blocks.8.blocks.0.items.1.en	In negative sentences, は is often used to mark the specific item that is being negated. In [#2], {喫茶店|きっさてん}で is being negated specifically, implying that the speaker may drink coffee at other places, just ''not at the café''. On the contrary, in [#3], コーヒー is being negated, meaning that the speaker may drink other types of beverages but ''not coffee''.
 g7.blocks.9.text.ja	「が」の{特徴的|とくちょうてき}な使い方
 g7.blocks.9.text.en	Specific uses of が
@@ -12804,7 +12804,7 @@ g7.blocks.19.blocks.0.items.0.en	In general, the particle が is used within a n
 g7.blocks.19.blocks.1.items.0.ja	母は家族の{誕生日|たんじょうび}にケーキを作る。その%%ケーキ%%はおいしい。
 g7.blocks.19.blocks.1.items.1.ja	!!［!!母**が**家族の誕生日に作る!!］!!%%ケーキ%%はおいしい。（[#1]）
 g7.blocks.19.blocks.2.items.0.en	In a sentence with both an independent clause and a dependent clause, if the subject of the dependent clause is different from the subject of the independent clause, then the subject of the dependent clause should take the particle が (see [#3]).
-g7.blocks.19.blocks.2.items.1.en	Within a quote (e.g., 〜と思う , 〜と言う), the subject does not always have to take the particle が. Whether to use は or が depends on the original particle used.
+g7.blocks.19.blocks.2.items.1.en	Within a quote (e.g., 〜と思う, 〜と言う), the subject does not always have to take the particle が. Whether to use は or が depends on the original particle used.
 g7.blocks.19.blocks.3.items.0.ja	ジョージ「日本のコンビニ**は**{便利|べんり}だね。」
 g7.blocks.19.blocks.3.items.1.ja	→ ジョージは日本のコンビニ**は**便利だと言いました。
 g7.blocks.20.text.ja	「XはYが〜」のパターン
@@ -12814,7 +12814,7 @@ g7.blocks.21.items.1.ja	{東京|とうきょう}**は**{物価|ぶっか}**が**
 g7.blocks.21.items.2.ja	私**は**日本のアニメ**が**好きです。
 g7.blocks.21.items.3.ja	ジョージ**は**テニス**が**上手です。
 g7.blocks.22.blocks.0.items.0.en	“X は Y が〜” is a structure in which both は and が are used. This structure can be roughly translated as: “Speaking of X, Y is/does . . . ”
-g7.blocks.22.blocks.0.items.1.en	There are two patterns for this construction: (a) Y is a part of X ( [#1] and [#2]), and (b) Y is an object that triggers certain feelings for X, or a specific ability of X ( [#3] and [#4]).
+g7.blocks.22.blocks.0.items.1.en	There are two patterns for this construction: (a) Y is a part of X ([#1] and [#2]), and (b) Y is an object that triggers certain feelings for X, or a specific ability of X ([#3] and [#4]).
 g7.blocks.23.text.ja	✎答え▶ (1) a. は　b. が　c. は　(2) が　(3) が
 k1.title	{形|かたち}が{似|に}ている漢字
 k1.en	Kanji with similar shapes
