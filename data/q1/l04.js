@@ -920,7 +920,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- Y must be something that continues: 〜ている, 〜ようになった, 〜ない (例1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (例4) opens a new sentence: *since then*.\n- It only looks back from the present; for a starting point in the future, say 〜てからは.\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
+     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- Y must be something that continues: 〜ている, 〜ようになった, 〜ない (examples 1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (example 4) opens a new sentence: *since then*.\n- It only looks back from the present; for a starting point in the future, say 〜てからは.\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
     },
     {
      "t": "note",
@@ -1558,7 +1558,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vたばかり** says an action happened only a short time ago, as the speaker feels it, so 先月買ったばかり can be weeks old. It usually explains (〜たばかりだから, *it's new, so*) or complains (〜たばかりなのに, the key example).\n\n- **Vたところだ** is narrower: the action has only just ended, right now: 今帰ってきたところだ (*I've just got back*). ✗先週来たところだ; say 来たばかりだ.\n- Before a noun: 生まれたばかりの子犬 (例3).\n- Keep it apart from Vるばかり (*keep getting worse*) and Vてばかり (*do nothing but*), Quartet II L7-7.\n\nTRY! N2 #79 V-ますたて describes something still fresh from being made or done: 焼きたてのパン (*bread fresh from the oven*)."
+     "deepDive": "**Vたばかり** says an action happened only a short time ago, as the speaker feels it, so 先月買ったばかり can be weeks old. It usually explains (〜たばかりだから, *it's new, so*) or complains (〜たばかりなのに, the key example).\n\n- **Vたところだ** is narrower: the action has only just ended, right now: 今帰ってきたところだ (*I've just got back*). ✗先週来たところだ; say 来たばかりだ.\n- Before a noun: 生まれたばかりの子犬 (example 3).\n- Keep it apart from Vるばかり (*keep getting worse*) and Vてばかり (*do nothing but*), Quartet II L7-7.\n\nTRY! N2 #79 V-ますたて describes something still fresh from being made or done: 焼きたてのパン (*bread fresh from the oven*)."
     },
     {
      "t": "note",
@@ -1745,7 +1745,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XはYほど〜ない** says X falls short of Y, the standard: オーストラリアはアメリカほど広くない (例1). It compares degree, so X may still rank high: 昨日ほど寒くありません (key example) implies it is still cold.\n\n- It needs the negative. An affirmative comparison uses より: アメリカはオーストラリアより広い. Affirmative XほどY is degree, *so ~ that* (L6-8).\n- With verbs, Y is limited to expectation or hearsay: 思った, 聞いていた, 言うほど〜ない (Reading 2, line 17: 思ったほど楽ではない, *not as easy as I thought*).\n- **Nほど〜はない** makes a superlative: 健康ほど大切なものはない (*nothing is as important as health*).\n\nKeep it apart from **XばXほど** (L2-7), *the more ~, the more ~*."
+     "deepDive": "**XはYほど〜ない** says X falls short of Y, the standard: オーストラリアはアメリカほど広くない (example 1). It compares degree, so X may still rank high: 昨日ほど寒くありません (key example) implies it is still cold.\n\n- It needs the negative. An affirmative comparison uses より: アメリカはオーストラリアより広い. Affirmative XほどY is degree, *so ~ that* (L6-8).\n- With verbs, Y is limited to expectation or hearsay: 思った, 聞いていた, 言うほど〜ない (Reading 2, line 17: 思ったほど楽ではない, *not as easy as I thought*).\n- **Nほど〜はない** makes a superlative: 健康ほど大切なものはない (*nothing is as important as health*).\n\nKeep it apart from **XばXほど** (L2-7), *the more ~, the more ~*."
     },
     {
      "t": "note",
@@ -1790,12 +1790,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{木村|きむら}さん、行きたかった大学に{落|お}ちたらしいよ。",
-           "tr": "I hear Kimura-san didn't get into the college he wanted."
+           "tr": "I hear Kimura-san didn't get into their first-choice college."
           },
           {
            "sp": "B",
            "ja": "だから、がっかりしていた**わけだ**。",
-           "tr": "So that's why he looked so disappointed."
+           "tr": "So that's why Kimura-san looked so disappointed."
           }
          ]
         },
@@ -2013,7 +2013,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜わけだ** presents a statement as following from what is known. The book teaches two uses:\n\n- ① The reason for something puzzling becomes clear: *so that's why, no wonder*. だから, それで and どうりで lead in: どうりで、ホテルで働く人はみんな礼儀正しいわけだ (Reading 2, line 14).\n- ② The speaker restates or sums up: *so you mean, in other words*, often after つまり (Reading 1, line 49; Reading 2, line 26). As a question, 〜わけ？ can sound like an accusation (例9).\n\n**〜わけではない** (L6-1) denies an inference, and **〜わけがない** (Quartet II L9-9) means *there's no way*. TRY! N2 #82 (*no wonder*) and #134 (*it naturally follows*) split わけだ the same way. Pitfall: N takes な, である or という: 特徴なわけだ, 制服というわけだ; ✗制服だわけだ."
+     "deepDive": "**〜わけだ** presents a statement as following from what is known. The book teaches two uses:\n\n- ① The reason for something puzzling becomes clear: *so that's why, no wonder*. だから, それで and どうりで lead in: どうりで、ホテルで働く人はみんな礼儀正しいわけだ (Reading 2, line 14).\n- ② The speaker restates or sums up: *so you mean, in other words*, often after つまり (Reading 1, line 49; Reading 2, line 26). As a question, 〜わけ？ can sound like an accusation (example 9).\n\n**〜わけではない** (L6-1) denies an inference, and **〜わけがない** (Quartet II L9-9) means *there's no way*. TRY! N2 #82 (*no wonder*) and #134 (*it naturally follows*) split わけだ the same way. Pitfall: N takes な, である or という: 特徴なわけだ, 制服というわけだ; ✗制服だわけだ."
     },
     {
      "t": "note",
@@ -2093,12 +2093,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "あ、あの人。となりのクラスの新しい先生だって。",
-           "tr": "Oh, that person. I hear she's the new teacher for the class next door."
+           "tr": "Oh, that's the new teacher for the class next door, I hear."
           },
           {
            "sp": "B",
            "ja": "わあ、きれいな人だね。あーあ、僕たちの先生なら（**ば**）いい**のに**。",
-           "tr": "Wow, she's beautiful. Man, I wish she were our teacher."
+           "tr": "Wow, what a beautiful person. Man, I wish we had that teacher."
           }
          ]
         }

@@ -775,7 +775,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (例5), だれに聞いても.\n- 何度／何回 Vても stresses repeated tries with the same result (例3); いくら and どんなに measure degree (例5, 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
+     "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (example 5), だれに聞いても.\n- 何度／何回 Vても stresses repeated tries with the same result (example 3); いくら and どんなに measure degree (examples 5 and 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
     },
     {
      "t": "note",
@@ -1086,7 +1086,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜はずだ** is a conclusion the speaker reaches by reasoning from facts: *should, ought to, must be*. The grounds usually come first with から: 日曜日だから、閉まっているはずだ (例1).\n\n- Forms: plain form, なAな, Nの (休みのはずだ).\n- Past はずだった is a plan or expectation that fell through: 行くはずだったが、病気で行けなくなった (例5). For one's own future plans, say 予定だ or つもりだ (the × example).\n- Readings 1 and 2 use it to assure the reader: 楽しめるはずだ, 気に入るはずです.\n\n**〜べきだ** (L3-7) is an opinion about what is right: 席を譲るべきだ. **〜わけだ** (L4-8) explains something already observed. Quartet II L9-8 〜はずがない is the strong denial, *there's no way*; L9-2 〜に違いない is a firmer personal conviction. Pitfall: はずだ is never advice; *you should study more* is もっと勉強したほうがいい."
+     "deepDive": "**〜はずだ** is a conclusion the speaker reaches by reasoning from facts: *should, ought to, must be*. The grounds usually come first with から: 日曜日だから、閉まっているはずだ (example 1).\n\n- Forms: plain form, なAな, Nの (休みのはずだ).\n- Past はずだった is a plan or expectation that fell through: 行くはずだったが、病気で行けなくなった (example 5). For one's own future plans, say 予定だ or つもりだ (the × example).\n- Readings 1 and 2 use it to assure the reader: 楽しめるはずだ, 気に入るはずです.\n\n**〜べきだ** (L3-7) is an opinion about what is right: 席を譲るべきだ. **〜わけだ** (L4-8) explains something already observed. Quartet II L9-8 〜はずがない is the strong denial, *there's no way*; L9-2 〜に違いない is a firmer personal conviction. Pitfall: はずだ is never advice; *you should study more* is もっと勉強したほうがいい."
     },
     {
      "t": "note",
@@ -1266,7 +1266,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, 例1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (例2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (例5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
+     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, 例1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (example 2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (example 5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
     },
     {
      "t": "note",
@@ -1462,7 +1462,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (例1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (例3, 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, 例4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
+     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (examples 3 and 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, 例4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
     },
     {
      "t": "note",
@@ -1643,7 +1643,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XようにY** does Y hoping that condition X comes about: *so that*. X is something one can't bring about directly by will: a potential form (起きられる), an intransitive or stative verb (わかる, 聞こえる, やわらかくなる), or 〜ない (忘れないように; こげないように, Reading 2, line 22).\n\n- The two subjects may differ: 留学生がわかるように、ゆっくり話す (例4).\n- **Vるために** (L1-5) needs a volitional verb and the same subject, and stresses resolve: 勉強するために来た. Hence ✗行けるために, ✓行けるように.\n- **〜ようにする** (L1-8) is a conscious effort (*make a point of*), and **〜ように言う** (L6-7) reports a request.\n\nPitfall: a volitional verb before ように is wrong: ✗旅行に行くように、お金をためている (the book's × example); say 行けるように or 行くために."
+     "deepDive": "**XようにY** does Y hoping that condition X comes about: *so that*. X is something one can't bring about directly by will: a potential form (起きられる), an intransitive or stative verb (わかる, 聞こえる, やわらかくなる), or 〜ない (忘れないように; こげないように, Reading 2, line 22).\n\n- The two subjects may differ: 留学生がわかるように、ゆっくり話す (example 4).\n- **Vるために** (L1-5) needs a volitional verb and the same subject, and stresses resolve: 勉強するために来た. Hence ✗行けるために, ✓行けるように.\n- **〜ようにする** (L1-8) is a conscious effort (*make a point of*), and **〜ように言う** (L6-7) reports a request.\n\nPitfall: a volitional verb before ように is wrong: ✗旅行に行くように、お金をためている (the book's × example); say 行けるように or 行くために."
     },
     {
      "t": "note",
@@ -1762,7 +1762,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nにする** announces a choice among options: *I'll have, let's make it, I'll go with*. When ordering, it is the everyday way to say what one wants: 焼き肉定食にします. Staff ask 何になさいますか, the honorific form.\n\n- Question words fit: いつにしますか, どこにしましょうか (例1), どれにするか決めたら (Reading 1, line 43).\n- 〜にしたら？／〜にしたらどうですか suggests an option (例2, 3).\n- For deciding to *do* something, use **〜ことにする** (L2-4): 北海道に行くことにした. **Nになる** is a result decided by others or by circumstances: 会議は月曜日になった (*the meeting ended up on Monday*).\n\nPitfall: after an adjective, にする means *make it ~*, not a choice: 部屋をきれいにする (*tidy up the room*); only a noun + にする picks an option."
+     "deepDive": "**Nにする** announces a choice among options: *I'll have, let's make it, I'll go with*. When ordering, it is the everyday way to say what one wants: 焼き肉定食にします. Staff ask 何になさいますか, the honorific form.\n\n- Question words fit: いつにしますか, どこにしましょうか (example 1), どれにするか決めたら (Reading 1, line 43).\n- 〜にしたら？／〜にしたらどうですか suggests an option (examples 2 and 3).\n- For deciding to *do* something, use **〜ことにする** (L2-4): 北海道に行くことにした. **Nになる** is a result decided by others or by circumstances: 会議は月曜日になった (*the meeting ended up on Monday*).\n\nPitfall: after an adjective, にする means *make it ~*, not a choice: 部屋をきれいにする (*tidy up the room*); only a noun + にする picks an option."
     },
     {
      "t": "note",
@@ -1858,7 +1858,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is status, profession, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (例1). XだけあるY after a compliment adds the reason: さすが高級ホテルだけある (例5).\n- It isn't used about oneself: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
+     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is status, profession, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (example 1). XだけあるY after a compliment adds the reason: さすが高級ホテルだけある (example 5).\n- It isn't used about oneself: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
     }
    ]
   },
