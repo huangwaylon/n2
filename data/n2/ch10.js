@@ -453,7 +453,7 @@ TRY.registerChapter({
           {
             options: ["かのうちに", "かと思ったら", "かのように", "わりには"],
             answer: 1,
-            why: { en: "She was looking at the map, and the next thing he knew she was asleep, a sudden change the writer observes → かと思ったら. かのうちに needs a か〜ないか pair, かのように means *as if*, and わりには doesn't make sense here." },
+            why: { en: "She was looking at the map, and the next thing the writer knew she was asleep, a sudden change the writer observes → かと思ったら. かのうちに needs a か〜ないか pair, かのように means *as if*, and わりには doesn't make sense here." },
           },
           {
             options: ["やら", "というものだ", "ものがある", "かと思う"],
