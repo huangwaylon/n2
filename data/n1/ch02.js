@@ -64,7 +64,7 @@ TRY.registerChapter({
           phrase: "{中小企業|ちゅうしょうきぎょう}**といえども**",
           stars: 3,
           marks: ["formal"],
-          usage: { ja: "「〜といえども」は「〜でも」という意味で、「社長といえども1人で何でも決められるわけではない」のように、「事実や条件（社長）から当然予想される結果（何でも決められる）とは違う」と言いたいときに使われる。", en: "“〜といえども” means “even 〜.” As in “社長といえども1人で何でも決められるわけではない” (Even the company president can't decide everything on his own), it is used when you want to say that things differ from the result you would naturally expect from a fact or condition (being the president → being able to decide everything)." },
+          usage: { ja: "「〜といえども」は「〜でも」という意味で、「社長といえども1人で何でも決められるわけではない」のように、「事実や条件（社長）から当然予想される結果（何でも決められる）とは違う」と言いたいときに使われる。", en: "“〜といえども” means “even 〜.” As in “社長といえども1人で何でも決められるわけではない” (Even the company president can't decide everything alone), it is used when you want to say that things differ from the result you would naturally expect from a fact or condition (being the president → being able to decide everything)." },
           forms: ["[N] + といえども"],
           formNotes: [
             { ja: "＊「〜といえど」も同じ意味で使われる。", en: "“〜といえど” is also used with the same meaning." },
@@ -248,11 +248,11 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "私たちは{国籍|こくせき}だけでその人の性格を判断してしまうきらいがある。", en: "We have a tendency to judge a person's character by their nationality alone." },
-            { ja: "{先輩|せんぱい}は親切でいい人だが、お{節介|せっかい}を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but he tends to be a busybody." },
+            { ja: "{先輩|せんぱい}は親切でいい人だが、お{節介|せっかい}を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but has a tendency to be a busybody." },
             { ja: "{叔母|おば}は、周りの人の気持ちを考えないきらいがあり、思ったことを何でも口にする。", en: "My aunt tends not to think about other people's feelings and says whatever comes into her head." },
             { ja: "{大型|おおがた}電気店の値下げ競争は、消費者にとってはありがたいが、最近は少々行きすぎのきらいがある。", en: "The price war among big electronics stores is welcome for consumers, but lately it has tended to go a little too far." },
           ],
-          deepDive: "**〜きらいがある** means *to have a (regrettable) tendency to ~*. きらい is the noun 嫌い in an old sense, *an undesirable leaning*. It points out a bad habit or trait in a restrained, somewhat detached way, hence the book's regret and formal icons: 働き盛りの人たちは…健康管理がおろそかになるきらいがあります.\n\nConnection: V-る／V-ない + きらいがある; also Nのきらいがある, especially 〜すぎのきらいがある (the ＊ note). It describes a general tendency, not a single event, and never a good trait: ✗患者の気持ちを大切にするきらいがある. It often softens criticism of someone otherwise praised: 優秀な外科医だが、患者の気持ちを軽視するきらいがある.\n\nCompare:\n- **〜がちだ** (N2): also mostly negative but everyday; it attaches to the ます-stem or a noun (忘れがち) and can describe frequent occurrences (曇りがち), which きらいがある can't.\n- **〜傾向がある**: neutral, for good or bad trends.\n- **〜おそれがある**: a risk of a future bad event, not a habit.\n\nPitfall: reading it as 嫌いだ. お節介を焼きたがるきらいがある means he tends to meddle, the opposite of disliking it.\n\nJLPT cue: a sentence describing someone's bad habit (話し出すと長くなる) → きらいがある.",
+          deepDive: "**〜きらいがある** means *to have a (regrettable) tendency to ~*. きらい is the noun 嫌い in an old sense, *an undesirable leaning*. It points out a bad habit or trait in a restrained, somewhat detached way, hence the book's regret and formal icons: 働き盛りの人たちは…健康管理がおろそかになるきらいがあります.\n\nConnection: V-る／V-ない + きらいがある; also Nのきらいがある, especially 〜すぎのきらいがある (the ＊ note). It describes a general tendency, not a single event, and never a good trait: ✗患者の気持ちを大切にするきらいがある. It often softens criticism of someone otherwise praised: 優秀な外科医だが、患者の気持ちを軽視するきらいがある.\n\nCompare:\n- **〜がちだ** (N2): also mostly negative but everyday; it attaches to the ます-stem or a noun (忘れがち) and can describe frequent occurrences (曇りがち), which きらいがある can't.\n- **〜傾向がある**: neutral, for good or bad trends.\n- **〜おそれがある**: a risk of a future bad event, not a habit.\n\nPitfall: reading it as 嫌いだ. お節介を焼きたがるきらいがある means the person tends to meddle, the opposite of disliking it.\n\nJLPT cue: a sentence describing someone's bad habit (話し出すと長くなる) → きらいがある.",
           see: [],
           index: ["〜きらいがある", "Vきらいがある", "〜すぎのきらいがある"],
           practice: [
@@ -279,7 +279,7 @@ TRY.registerChapter({
                   q: "{林|はやし}さんは優秀な外科医だが、{患者|かんじゃ}の気持ちを（　）きらいがある。",
                   options: ["{軽視|けいし}する", "大切にする"],
                   answer: 0,
-                  en: "Dr. Hayashi is an excellent surgeon, but he tends to disregard his patients' feelings.",
+                  en: "Dr. Hayashi is an excellent surgeon, but tends to disregard patients' feelings.",
                   why: { en: "きらいがある is only used for bad tendencies, and だが sets up a fault after the praise: 軽視する. 大切にする is a virtue." },
                 },
                 {
@@ -443,7 +443,7 @@ TRY.registerChapter({
             { ja: "私は尊敬してやまない{黒沢監督|くろさわかんとく}のような映画を作りたい。", en: "I want to make films like those of Director Kurosawa, whom I deeply admire." },
             { ja: "便利な生活を求めてやまない人間の{欲望|よくぼう}が、さまざまな{矛盾|むじゅん}を生み出している。", en: "Humanity's endless craving for a convenient life is creating all kinds of contradictions." },
           ],
-          deepDive: "**V-てやまない** expresses a deep, sincere, long-held feeling (the book: 長い間、強く〜と思っている); literally *not ceasing to V* (止む *to stop*). It is a staple of formal speeches and letters, especially their closing lines: 皆様のご活躍を願ってやみません (*I sincerely wish you every success*).\n\nIt goes with verbs of wishing, hoping and loving (the ＊ note: 願う, 祈る, 期待する, 望む, 愛する), and also 尊敬する and 求める. As a sentence ending, the feeling is the speaker's; as a noun modifier it can describe others: 誰もが敬愛してやまない指導者. The polite form is 〜てやみません (✗願ってやまないです).\n\nCompare the look-alikes in the practice:\n- **〜てたまらない**: unbearable sensations and urges, neutral to casual: 暑くてたまらない (*it's unbearably hot*).\n- **〜てならない**: feelings one can't help having: 悔しくてならない (*I can't help feeling frustrated*).\nBoth follow い-adjectives; てやまない follows verbs.\n\nPitfall: ✗祈ってたまりません in a congratulatory speech; the set phrase is 祈ってやみません.\n\nJLPT cue: a ceremonial context with 願う／祈る／期待する before the blank → てやまない; an い-adjective (暑く, 悔しく) → てたまらない or てならない.",
+          deepDive: "**V-てやまない** expresses a deep, sincere, long-held feeling (the book: 長い間、強く〜と思っている); literally *not ceasing to V* (止む *to stop*). It is a staple of formal speeches and letters, especially their closing lines: 皆様のご活躍を願ってやみません (*I sincerely wish you every success*).\n\nIt goes with verbs of wishing, hoping and loving (the ＊ note: 願う, 祈る, 期待する, 望む, 愛する), and also 尊敬する and 求める. As a sentence ending, the feeling is the speaker's; as a noun modifier it can describe others: 誰もが敬愛してやまない指導者. The polite form is 〜てやみません (✗願ってやまないです).\n\nCompare the look-alikes in the practice:\n- **〜てたまらない**: unbearable sensations and urges, neutral to casual: 暑くてたまらない (*it's unbearably hot*).\n- **〜てならない**: feelings one can't help having: 悔しくてならない (*I can't help feeling frustrated*).\nBoth commonly follow adjectives (暑く, 悔しく); てやまない follows only verbs.\n\nPitfall: ✗祈ってたまりません in a congratulatory speech; the set phrase is 祈ってやみません.\n\nJLPT cue: a ceremonial context with 願う／祈る／期待する before the blank → てやまない; an い-adjective (暑く, 悔しく) → てたまらない or てならない.",
           see: [120],
           index: ["Vてやまない", "〜てやまない"],
           practice: [
@@ -531,7 +531,7 @@ TRY.registerChapter({
             q: "{田中|たなか}さんは、話し出すと長くなる（　）。",
             options: ["ものがある", "ほかしかたがない", "向きだ", "きらいがある"],
             answer: 3,
-            en: "Tanaka has a tendency to go on and on once he starts talking.",
+            en: "Tanaka has a tendency to go on and on once the talking starts.",
             why: { en: "きらいがある (#11) points out an undesirable tendency." },
           },
           {
