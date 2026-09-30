@@ -14,7 +14,8 @@ Quartet I and II). The book's own English (N2 `en` on usage, ＋Plus usage, 📎
   should read *although…*, one built on 〜つつある *is increasingly / is gradually*.
 - Consistent with the answer key: an exercise's translation is the sentence with the correct answer filled in.
 - Keigo: render the register (*we would be grateful if…*, *may I…*), not a word-for-word humble form.
-- Names: TRY books drop さん (田中さん → Tanaka; Mr./Ms. only for 氏 or where English needs a title). Both Quartet
+- Names: TRY books drop さん (田中さん → Tanaka; 氏 too, unless the text gives the person's gender and English needs
+  a title). Both Quartet
   books keep their own convention (their printed English writes Yamada-san), so their `tr` does too.
 - Gender: Japanese rarely marks it. Use he / she only where the Japanese does (彼, 彼女, 夫, 母, a character the text
   genders); for 社長, 上司, 先輩, 店員, 〜さん and the like reword, repeat the noun or use singular *they*. Add no
