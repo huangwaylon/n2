@@ -5607,6 +5607,13 @@ TRY.registerUnits([
      "What was interesting was that one person thought of \"sports day\" in connection with bento. I also asked other Japanese friends, and they told me that at school sports days, families pack onigiri and side dishes for the whole family into a large bento box called an \"ojū,\" bring it along, and eat it together with the family members who come to watch.",
      "Through this project, I found that although some people think bento are a hassle to make, they have economic and health benefits and are an ordinary lunch for university students. Also, it seems that bento are not only an everyday lunch but can also become memories of special days such as sports day. I felt that bento are deeply rooted in the lives of Japanese people."
     ],
+    "headTr": [
+     "1. Introduction",
+     "2. Background",
+     "3. About the Survey",
+     "4. Survey Results",
+     "5. Summary"
+    ],
     "roles": [
      {
       "from": 1,
@@ -6036,11 +6043,11 @@ TRY.registerUnits([
         "label": "例）",
         "items": [
          {
-          "ja": "［論点1］日本の大学生はお弁当を持っていくのか。",
+          "ja": "[#論点1]日本の大学生はお弁当を持っていくのか。",
           "tr": "[Point 1] Do Japanese university students bring a bento?"
          },
          {
-          "ja": "［論点2］お弁当についてどう思っているのか。",
+          "ja": "[#論点2]お弁当についてどう思っているのか。",
           "tr": "[Point 2] What do they think about bento?"
          }
         ]
@@ -6129,7 +6136,7 @@ TRY.registerUnits([
          ],
          [
           {
-           "ja": "・この調査の論点\n例）［論点1］__では、__日本の大学生はお弁当を持っていく__のだろうか。__\n［論点2］__そして、__お弁当についてどう思っている__のだろうか。__",
+           "ja": "・この調査の論点\n例）[#論点1]__では、__日本の大学生はお弁当を持っていく__のだろうか。__\n[#論点2]__そして、__お弁当についてどう思っている__のだろうか。__",
            "tr": "The points at issue in this survey\nE.g. [Point 1] So, do Japanese university students bring a bento?\n[Point 2] And what do they think about bento?"
           },
           "(a)"
@@ -6164,7 +6171,7 @@ TRY.registerUnits([
            "head": true
           },
           {
-           "ja": "・対象・人数・答えてくれた人についての情報\n例）__今回は__「［論点1］。そして、［論点2］」__を調べるために、〜を対象にインタビューを行った。__……の3__人が答えてくれた。__",
+           "ja": "・対象・人数・答えてくれた人についての情報\n例）__今回は__「[#論点1]。そして、[#論点2]」__を調べるために、〜を対象にインタビューを行った。__……の3__人が答えてくれた。__",
            "tr": "Information about who was surveyed, how many, and the people who answered\nE.g. For this study, to find out \"[Point 1]? And [Point 2]?\", I interviewed …. Three people, …, answered."
           },
           "(d)"
@@ -6179,14 +6186,14 @@ TRY.registerUnits([
            "head": true
           },
           {
-           "ja": "・質問1：［論点1］の答えにつながる質問について書く。\n例）__まず、__「学校にお弁当を持ってきますか」と聞くと……。",
+           "ja": "・質問1：[#論点1]の答えにつながる質問について書く。\n例）__まず、__「学校にお弁当を持ってきますか」と聞くと……。",
            "tr": "Question 1: Write about the question that leads to the answer to [Point 1].\nE.g. First, when I asked, \"Do you bring a bento to school?\", …."
           },
           "(e)"
          ],
          [
           {
-           "ja": "・質問2：［論点2］の答えにつながる質問について書く。\n例）__次に、__お弁当を持っていく理由、持っていかない理由を聞いてみた。",
+           "ja": "・質問2：[#論点2]の答えにつながる質問について書く。\n例）__次に、__お弁当を持っていく理由、持っていかない理由を聞いてみた。",
            "tr": "Question 2: Write about the question that leads to the answer to [Point 2].\nE.g. Next, I asked about their reasons for bringing or not bringing a bento."
           },
           "(f)"
@@ -6208,7 +6215,7 @@ TRY.registerUnits([
            "head": true
           },
           {
-           "ja": "・調査の論点、対象をもう一度述べる。\n例）__今回は__「［論点1］。そして、［論点2］」__について、__〜に__インタビュー調査を行った。__",
+           "ja": "・調査の論点、対象をもう一度述べる。\n例）__今回は__「[#論点1]。そして、[#論点2]」__について、__〜に__インタビュー調査を行った。__",
            "tr": "Restate the points at issue and who was surveyed.\nE.g. For this study, I conducted an interview survey of … on \"[Point 1]? And [Point 2]?\""
           },
           "(h)"

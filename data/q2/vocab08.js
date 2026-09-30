@@ -228,7 +228,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～に]__提__供（する）",
      "yomi": "ていきょう（する）",
-     "en": "to provide [vt.]"
+     "en": "to provide [''vt.'']"
     },
     {
      "n": 13,
@@ -583,7 +583,7 @@ TRY.registerVocab({
      "ln": 7,
      "w": "__温__める",
      "yomi": "あたためる",
-     "en": "to warm up [vt.]"
+     "en": "to warm up [''vt.'']"
     },
     {
      "w": "京都大学",
@@ -675,7 +675,7 @@ TRY.registerVocab({
     {
      "w": "凝縮（する）",
      "yomi": "ぎょうしゅく（する）",
-     "en": "to condense [vt.]"
+     "en": "to condense [''vt.'']"
     },
     {
      "w": "美",
@@ -709,7 +709,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "__密閉__（する）",
      "yomi": "みっぺい（する）",
-     "en": "to close [vt.]"
+     "en": "to close [''vt.'']"
     },
     {
      "n": 27,
@@ -749,7 +749,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～に]__詰__める",
      "yomi": "つめる",
-     "en": "to fill; to stuff [vt.]"
+     "en": "to fill; to stuff [''vt.'']"
     },
     {
      "ln": 21,
@@ -846,7 +846,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "内__蔵__（する）",
      "yomi": "ないぞう（する）",
-     "en": "to be built-in [vt.]"
+     "en": "to be built-in [''vt.'']"
     },
     {
      "n": 36,
@@ -942,7 +942,7 @@ TRY.registerVocab({
      "ln": 37,
      "w": "__並__べる",
      "yomi": "ならべる",
-     "en": "to line up; to put in order [vt.]"
+     "en": "to line up; to put in order [''vt.'']"
     },
     {
      "n": 39,
@@ -974,7 +974,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "__曲__げる",
      "yomi": "まげる",
-     "en": "to bend [vt.]"
+     "en": "to bend [''vt.'']"
     },
     {
      "k": "◇",
@@ -1019,7 +1019,7 @@ TRY.registerVocab({
     {
      "w": "[～に]取り入れる",
      "yomi": "とりいれる",
-     "en": "to adopt [vt.]"
+     "en": "to adopt [''vt.'']"
     },
     {
      "n": 41,

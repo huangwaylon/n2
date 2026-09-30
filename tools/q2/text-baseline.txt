@@ -329,8 +329,8 @@ l7.sections.0.blocks.21.blocks.2.items.1.lines.1.ja	私も最近忙しくて、�
 l7.sections.0.blocks.21.blocks.2.items.2.ja	多くの人がインターネットで買い物をするようになり、小さい店の客は減る**ばかり**だ。
 l7.sections.0.blocks.21.blocks.2.items.3.ja	{給料|きゅうりょう}は上がらないのに、物価は高くなる**ばかり**だ。
 l7.sections.0.blocks.21.blocks.3.forms.0	Vる !!ばかり!!
-l7.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	Vるばかり takes verbs that express change, and is often used in the form 〜ていくばかりだ.
-l7.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	Vるばかり typically connotes that the speaker feels the change occurred is not a desirable one. However, it can also be used to express a positive change (e.g., 期待が膨らむばかりだ).
+l7.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	[#Vる]ばかり takes verbs that express change, and is often used in the form 〜ていくばかりだ.
+l7.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	[#Vる]ばかり typically connotes that the speaker feels the change occurred is not a desirable one. However, it can also be used to express a positive change (e.g., 期待が膨らむばかりだ).
 l7.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	Verbs that express instantaneous change, such as 死ぬ, 消える, 始まる, 始める or 終わる, cannot be used in this structure.
 l7.sections.0.blocks.21.blocks.4.pattern	Vてばかり／Nばかり
 l7.sections.0.blocks.21.blocks.4.gloss	only V and does nothing else; only N and nothing else
@@ -354,8 +354,8 @@ l7.sections.0.blocks.21.blocks.7.forms.0.join	!!ばかり!!
 l7.sections.0.blocks.21.blocks.7.blocks.0.items.0.en	〜ばかり is used to describe a state in which there are too many of the same items, or the same action or event is repeated too many times. This structure has the negative connotation that there is an imbalance of the object/action/event.
 l7.sections.0.blocks.21.blocks.7.blocks.0.items.1.en	N ばかり means that there are too many of N.
 l7.sections.0.blocks.21.blocks.7.blocks.0.items.2.en	When the statement is one that normally takes the particle を, が, は or も after the noun, the particle is replaced by ばかり (see [#5] and [#6]). When the particle is で, に or と, then ばかり is inserted after the particle (see [#7]).
-l7.sections.0.blocks.21.blocks.7.blocks.0.items.3.en	Vてばかりいる and Vてばかりだ mean that the person is always doing the action expressed by V, and does nothing else.
-l7.sections.0.blocks.21.blocks.7.blocks.0.items.4.en	Action verbs are used in Vてばかり.
+l7.sections.0.blocks.21.blocks.7.blocks.0.items.3.en	[#Vて]ばかりいる and [#Vて]ばかりだ mean that the person is always doing the action expressed by V, and does nothing else.
+l7.sections.0.blocks.21.blocks.7.blocks.0.items.4.en	Action verbs are used in [#Vて]ばかり.
 l7.sections.0.blocks.22.pattern	〜と同時に
 l7.sections.0.blocks.22.gloss	at the same time; simultaneously; as well as
 l7.sections.0.blocks.22.ref	読み物2-行6·7
@@ -374,7 +374,7 @@ l7.sections.0.blocks.22.blocks.2.forms.0.stack.1	＊なA~~だ~~ → である
 l7.sections.0.blocks.22.blocks.2.forms.0.stack.2	＊N~~だ~~ → （である）
 l7.sections.0.blocks.22.blocks.2.forms.0.join	!!と同時に!!
 l7.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	〜と同時に changes its meaning depending on the context. In [#1] and [#4], it means “at the same time” or “simultaneously,” whereas in [#2] and [#3], it means “as well as.”
-l7.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	When 〜と同時に takes the noun form of suru-verbs, である is not used ([#4]).
+l7.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	When 〜と同時に takes the noun form of ''suru''-verbs, である is not used ([#4]).
 l7.sections.0.blocks.23.pattern	〜ことに
 l7.sections.0.blocks.23.gloss	it is very ~ that
 l7.sections.0.blocks.23.ref	読み物2-行9
@@ -1135,7 +1135,7 @@ l8.sections.0.blocks.19.blocks.5.text.ja	上位語と下位語
 l8.sections.0.blocks.19.blocks.5.text.en	Hypernyms and hyponyms
 l8.sections.0.blocks.19.blocks.6.lines.0	¶また、自然の音にはリラックス効果があると言われています。{眠|ねむ}れない時に{波|なみ}(wave)の
 l8.sections.0.blocks.19.blocks.6.lines.1	音や鳥の鳴き声を聞くと、気持ちが落ち着きよく眠ることができます。
-l8.sections.0.blocks.19.blocks.7.items.0.en	A hypernym is a word with broad meaning that represents a category encompassing other words. The words categorized by a hypernym are called hyponyms. For example, if we consider the words 文字 (character) and ひらがな (hiragana), we would define 文字 as the hypernym, and ひらがな as one of its hyponyms.
+l8.sections.0.blocks.19.blocks.7.items.0.en	A hypernym is a word with broad meaning that represents a category encompassing other words. The words categorized by a hypernym are called hyponyms. For example, if we consider the words 文字 (character) and ひらがな (''hiragana''), we would define 文字 as the hypernym, and ひらがな as one of its hyponyms.
 l8.sections.0.blocks.19.blocks.7.items.1.en	A sentence that contains a hyponym is presenting a specific example. In the case of the example passage above, 自然の音 functions as a hypernym, and the more specific words 波の音 and 鳥の鳴き声 are hyponyms for it. Thus, 波の音や鳥の鳴き声を聞くとよく眠れる provides an example of how 自然の音 have a リラックス効果.
 l8.sections.0.blocks.19.blocks.8.title.ja	「すずらんの小さな花束」について答えなさい。
 l8.sections.0.blocks.19.blocks.8.title.en	Answer the questions about すずらんの小さな花束.
@@ -1208,7 +1208,7 @@ l8.sections.0.blocks.23.ref	読み物1-行32
 読み物2-行15
 l8.sections.0.blocks.23.blocks.0.items.0.lines.0.sp	A
 l8.sections.0.blocks.23.blocks.0.items.0.lines.0.ja	「お疲れさま」って日本語**ならでは**のあいさつだよね。
-l8.sections.0.blocks.23.blocks.0.items.0.lines.0.en	“Otsukaresama” is a very uniquely Japanese greeting, don’t you think?
+l8.sections.0.blocks.23.blocks.0.items.0.lines.0.en	“''Otsukaresama''” is a very uniquely Japanese greeting, don’t you think?
 l8.sections.0.blocks.23.blocks.0.items.0.lines.1.sp	B
 l8.sections.0.blocks.23.blocks.0.items.0.lines.1.ja	うん。英語にはうまく訳せないよね。
 l8.sections.0.blocks.23.blocks.0.items.0.lines.1.en	Yes. It’s difficult to translate into English.
@@ -1286,7 +1286,7 @@ l8.sections.0.blocks.26.blocks.1.items.1.ja	{東京|とうきょう}に来たば
 l8.sections.0.blocks.26.blocks.1.items.2.ja	弟が小さかった時は、よく宿題を手伝ってあげ**たものだ**。
 l8.sections.0.blocks.26.blocks.1.items.3.ja	子どもの頃はよくいたずらをして、{祖母|そぼ}に怒られ**たものだ**。
 l8.sections.0.blocks.26.blocks.2.forms.0	Vた !!ものだ!!
-l8.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	Vたものだ is an expression for stating something that the speaker used to do but no longer does now; it implies that the speaker feels nostalgic about the memory.
+l8.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	[#Vた]ものだ is an expression for stating something that the speaker used to do but no longer does now; it implies that the speaker feels nostalgic about the memory.
 l8.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	This expression is somewhat monologue-like, and is not typically used in conversations.
 l8.sections.0.blocks.27.pattern	かえって
 l8.sections.0.blocks.27.gloss	rather than; contrary to expectation
@@ -2194,8 +2194,10 @@ l9.sections.0.blocks.18.blocks.1.items.0.lines.1.sp	B
 l9.sections.0.blocks.18.blocks.1.items.0.lines.1.ja	実は、寝られない**くらい**試験の結果が心配で……。
 l9.sections.0.blocks.18.blocks.1.items.1.ja	国の両親から{誕生日|たんじょうび}プレゼントが送られてきた時は、泣きそうになる**くらい**うれしかった。
 l9.sections.0.blocks.18.blocks.1.items.2.ja	子どもの時に親に食べさせられて以来、見るのも嫌な**くらい**{納豆|なっとう}が嫌いだ。
-l9.sections.0.blocks.18.blocks.1.items.3.lines.0.ja	a) 日本での留学生活は国に帰りたくない**くらい**楽しい。
-l9.sections.0.blocks.18.blocks.1.items.3.lines.1.ja	b) 日本での留学生活は楽しくて国に帰りたくない**くらい**だ。
+l9.sections.0.blocks.18.blocks.1.items.3.lines.0.sub	a
+l9.sections.0.blocks.18.blocks.1.items.3.lines.0.ja	日本での留学生活は国に帰りたくない**くらい**楽しい。
+l9.sections.0.blocks.18.blocks.1.items.3.lines.1.sub	b
+l9.sections.0.blocks.18.blocks.1.items.3.lines.1.ja	日本での留学生活は楽しくて国に帰りたくない**くらい**だ。
 l9.sections.0.blocks.18.blocks.1.items.4.ja	ジョージはいろいろな料理が作れる。ジョージ**くらい**料理が上手になりたい。
 l9.sections.0.blocks.18.blocks.1.items.5.ja	日本に留学できるとわかった時は、{涙|なみだ}が出る**くらい**うれしかった。
 l9.sections.0.blocks.18.blocks.2.forms.0.stack.0	Vる／Vない
@@ -2267,8 +2269,8 @@ l9.sections.0.blocks.20.blocks.3.blocks.1.items.1.en	George and Eri make up quic
 l9.sections.0.blocks.20.blocks.3.blocks.1.items.2.ja	けんかし__たとしても__、すぐ仲直りするだろう。
 l9.sections.0.blocks.20.blocks.3.blocks.1.items.2.en	George and Eri rarely quarrel, but even if they do, I bet they would make up quickly.
 l9.sections.0.blocks.20.blocks.3.blocks.2.items.0.en	To emphasize that X is a hypothetical situation, たとえ is often used with this structure ([#6]).
-l9.sections.0.blocks.20.blocks.4.text.en	☛ Vたとしても and Vるとしても
-l9.sections.0.blocks.20.blocks.5.text.en	Vるとしても Y means “Y even if V happens.”When this structure is used, Y occurs before or at the same time as V.
+l9.sections.0.blocks.20.blocks.4.text.en	☛ [#Vた]としても and [#Vる]としても
+l9.sections.0.blocks.20.blocks.5.text.en	[#Vる]としても Y means “Y even if V happens.”When this structure is used, Y occurs before or at the same time as V.
 l9.sections.0.blocks.20.blocks.6.label	例1）
 l9.sections.0.blocks.20.blocks.6.items.0.ja	新しいカメラを__買ったとしても__、古いのは捨てません。
 l9.sections.0.blocks.20.blocks.6.items.0.en	Even if I buy a new camera, I wouldn’t get rid of my old one.
@@ -4154,7 +4156,7 @@ l10.sections.0.blocks.21.blocks.3.forms.0.stack.1	いVい
 l10.sections.0.blocks.21.blocks.3.forms.0.stack.2	なA
 l10.sections.0.blocks.21.blocks.3.forms.0.stack.3	N（であり）
 l10.sections.0.blocks.21.blocks.3.forms.0.join	!!ながら!!
-l10.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , Vている , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2]).
+l10.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , [#Vて]いる , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2]).
 l10.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	X and Y take the same subject.
 l10.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	X takes only certain い-adjectives, な-adjectives and nouns (e.g., 小さい , 若い , 小ぶりな , 子ども , 小学生). When used with those adjectives and nouns, it often conveys a positive impression of the person or thing described regardless of the small size or powerlessness ([#3] and [#4]).
 l10.sections.0.blocks.21.blocks.3.blocks.0.items.3.en	残念ながら , {勝手|かって}ながら and 当然ながら are idioms used as set phrases to introduce a statement. They are synonymous to 〜ですが , and do not mean “although. (see [#5])”
@@ -4220,7 +4222,7 @@ l10.sections.0.blocks.24.blocks.5.items.0.en	I called someone while walking.
 l10.sections.0.blocks.24.blocks.5.items.1.ja	歩き__つつ__、電話をかけた。
 l10.sections.0.blocks.24.blocks.6.text.en	X in X つつ Y, on the other hand, usually takes thinking verbs or verbs expressing actions that require mental processing of ideas (e.g., 考える, 思う, 話し合う, 視野に入れる, 考えに入れる, 願う, 気をつける).
 l10.sections.0.blocks.24.blocks.7.items.0.ja	日本には、12月31日に{健康|けんこう}を願い__つつ__、そばを食べる習慣がある。
-l10.sections.0.blocks.24.blocks.7.items.0.en	In Japan, there is a traditional custom to eat soba noodles on New Year’s Eve while wishing for good health.
+l10.sections.0.blocks.24.blocks.7.items.0.en	In Japan, there is a traditional custom to eat ''soba'' noodles on New Year’s Eve while wishing for good health.
 l10.sections.0.blocks.25.pattern	〜たところ
 l10.sections.0.blocks.25.gloss	as a result of ~ing
 l10.sections.0.blocks.25.ref	読み物2-行36
@@ -5145,7 +5147,7 @@ l11.sections.0.blocks.18.blocks.1.items.4.ja	彼には何度もうそをつか�
 l11.sections.0.blocks.18.blocks.1.items.5.ja	この店は料理がまずいだけでなくサービスも悪い。もう二度とこんな店に来る**まい**。
 l11.sections.0.blocks.18.blocks.2.forms.0	Vる !!まい!!
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.0.en	〜まい can be used in two ways: (a) to express the speaker’s speculation that something is not the case ([#1] through [#4]), and (b) to state the speaker’s determination not to do something ([#5] and [#6]).
-l11.sections.0.blocks.18.blocks.2.blocks.0.items.1.en	Generally, まい is attached to the dictionary form of verbs, but in case of ru-verbs, it can also be used with the stem form (V~~ます~~), as shown in [#3] and [#5].
+l11.sections.0.blocks.18.blocks.2.blocks.0.items.1.en	Generally, まい is attached to the dictionary form of verbs, but in case of ''ru''-verbs, it can also be used with the stem form ([#V~~ます~~]), as shown in [#3] and [#5].
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.2.en	〜てくれまいか and 〜てもらえまいか are formal, written forms of 〜てくれないだろうか and 〜てもらえないだろうか that are often used to quote a request [#3].
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.3.en	〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか .
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.4.en	When this structure is used to state the speaker’s determination not to do something, phrases such as 決して and 二度と are often added (examples [#5] and [#6]).
@@ -5266,7 +5268,9 @@ l11.sections.0.blocks.23.blocks.1.items.1.ja	父の料理は、見た目**はさ
 l11.sections.0.blocks.23.blocks.1.items.2.ja	プライベート**はさておくとして**、ビジネスシーンでは丁寧な{言葉遣|ことばづか}いをしなければいけない。
 l11.sections.0.blocks.23.blocks.1.items.3.ja	試合の結果**はさておき**、{全力|ぜんりょく}を出し切れたので{後悔|こうかい}はない。
 l11.sections.0.blocks.23.blocks.1.items.4.ja	何**はさておき**、学生は勉強が大切だ。
-l11.sections.0.blocks.23.blocks.2.forms.0	N !!はさておくとして／さておき!!
+l11.sections.0.blocks.23.blocks.2.forms.0.lead	N !!は!!
+l11.sections.0.blocks.23.blocks.2.forms.0.stack.0	!!さておくとして!!
+l11.sections.0.blocks.23.blocks.2.forms.0.stack.1	!!さておき!!
 l11.sections.0.blocks.23.blocks.2.blocks.0.items.0.en	N はさておくとして / さておき means “aside from N,” and it is used to change the topic or move on with the discussion. さておき is more commonly used than さておくとして.
 l11.sections.0.blocks.23.blocks.2.blocks.0.items.1.en	何はさておき, as in [#5], is an idiomatic expression that means “first of all,” or “before everything.”
 l11.sections.0.blocks.24.pattern	いずれにしても／せよ／しろ
@@ -5288,7 +5292,10 @@ l11.sections.0.blocks.24.blocks.1.items.3.lines.0.sp	A
 l11.sections.0.blocks.24.blocks.1.items.3.lines.0.ja	この服、もう少し安くなるのを待っているんだけど、なかなか安くならなくて……。
 l11.sections.0.blocks.24.blocks.1.items.3.lines.1.sp	B
 l11.sections.0.blocks.24.blocks.1.items.3.lines.1.ja	**いずれにしろ**買うのであれば、早く買ったほうがいいよ。売れてしまうこともあり得るからね。
-l11.sections.0.blocks.24.blocks.2.forms.0	!!いずれにしても／せよ／しろ!!
+l11.sections.0.blocks.24.blocks.2.forms.0.lead	!!いずれに!!
+l11.sections.0.blocks.24.blocks.2.forms.0.stack.0	!!しても!!
+l11.sections.0.blocks.24.blocks.2.forms.0.stack.1	!!せよ!!
+l11.sections.0.blocks.24.blocks.2.forms.0.stack.2	!!しろ!!
 l11.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	いずれにしても X implies that there are multiple paths or possibilities, but X is bound to happen regardless of the situation.
 l11.sections.0.blocks.24.blocks.2.blocks.0.items.1.en	いずれにせよ and いずれにしろ are synonymous with いずれにしても, but are slightly more formal.
 l11.sections.0.blocks.25.pattern	〜とばかりは言えない
@@ -6312,7 +6319,7 @@ l12.sections.0.blocks.23.blocks.3.blocks.0.items.1.en	X takes a clause describin
 l12.sections.0.blocks.23.blocks.3.blocks.0.items.2.en	Y in X 以上は Y expresses the speaker’s subjective opinion that people need to be committed or take responsibility in a particular situation (X). Phrases frequently used with this structure are: 〜てください (request), 〜つもり (determination), 〜てはいけない (prohibition), 〜なければいけない (obligation), 〜たい (wish), 〜ほうがいい (advice), 〜べきだ／べきではない (rule and norms).
 l12.sections.0.blocks.24.pattern	〜うえで
 l12.sections.0.blocks.24.ref	読み物1-行44
-l12.sections.0.blocks.24.blocks.0.pattern	Vる／Nのうえで
+l12.sections.0.blocks.24.blocks.0.pattern	[#Vる]／Nのうえで
 l12.sections.0.blocks.24.blocks.0.gloss	when ~ing/N
 l12.sections.0.blocks.24.blocks.1.items.0.lines.0.sp	A
 l12.sections.0.blocks.24.blocks.1.items.0.lines.0.ja	毎日プロジェクトの話し合いがあって大変なんだ。
@@ -6332,8 +6339,8 @@ l12.sections.0.blocks.24.blocks.3.forms.0.stack.1	Nの
 l12.sections.0.blocks.24.blocks.3.forms.0.join	!!うえで!!
 l12.sections.0.blocks.24.blocks.3.blocks.0.items.0.en	X うえで is used to mention important factors, issues, or considerations for X.
 l12.sections.0.blocks.24.blocks.3.blocks.0.items.1.en	X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な , 大切な , 必要な , 難しい , 注意すべき , 問題になる , etc.
-l12.sections.0.blocks.24.blocks.3.blocks.0.items.2.en	As in [#4], N のうえで takes the noun form of suru-verbs.
-l12.sections.0.blocks.24.blocks.4.pattern	V₁た／Nのうえで V₂
+l12.sections.0.blocks.24.blocks.3.blocks.0.items.2.en	As in [#4], N のうえで takes the noun form of ''suru''-verbs.
+l12.sections.0.blocks.24.blocks.4.pattern	[#V₁た]／Nのうえで V₂
 l12.sections.0.blocks.24.blocks.4.gloss	V₂ based on the result of V₁-ing
 l12.sections.0.blocks.24.blocks.5.items.0.lines.0.sp	先生
 l12.sections.0.blocks.24.blocks.5.items.0.lines.0.ja	留学先は、ご両親とよく相談し**たうえで**決めてください。
@@ -6351,7 +6358,7 @@ l12.sections.0.blocks.24.blocks.7.forms.0.join	!!うえで!! V₂
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.0.en	V₁ うえで V₂ describes a sequence of actions or events; the subject does V₁ first, then V₂.
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.1.en	V₁ takes actions done as a preparation for V₂ (e.g., 調べた , 考えた , 相談した).
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.2.en	V₂ takes actions that are done as a result of V₁.
-l12.sections.0.blocks.24.blocks.7.blocks.0.items.3.en	As in [#8], N のうえで takes the noun form of suru-verbs.
+l12.sections.0.blocks.24.blocks.7.blocks.0.items.3.en	As in [#8], N のうえで takes the noun form of ''suru''-verbs.
 l12.sections.0.blocks.25.pattern	〜そうになる
 l12.sections.0.blocks.25.gloss	about to ~; almost ~
 l12.sections.0.blocks.25.ref	読み物2-行17
@@ -7113,7 +7120,7 @@ vocab7.lists.0.rows.2.yomi	つらい
 vocab7.lists.0.rows.2.en	painful
 vocab7.lists.0.rows.3.w	詰まる
 vocab7.lists.0.rows.3.yomi	つまる
-vocab7.lists.0.rows.3.en	to fill [vi.]
+vocab7.lists.0.rows.3.en	to fill [''vi.'']
 vocab7.lists.0.rows.4.w	__濃__い
 vocab7.lists.0.rows.4.yomi	こい
 vocab7.lists.0.rows.4.en	thick; dense; strong
@@ -7167,13 +7174,13 @@ vocab7.lists.0.rows.20.yomi	しれん
 vocab7.lists.0.rows.20.en	trial; test
 vocab7.lists.0.rows.21.w	[～が]変化（する）
 vocab7.lists.0.rows.21.yomi	へんか（する）
-vocab7.lists.0.rows.21.en	to change [vi.]
+vocab7.lists.0.rows.21.en	to change [''vi.'']
 vocab7.lists.0.rows.22.w	新たな
 vocab7.lists.0.rows.22.yomi	あらたな
 vocab7.lists.0.rows.22.en	new
 vocab7.lists.0.rows.23.w	[～に]__与__える
 vocab7.lists.0.rows.23.yomi	あたえる
-vocab7.lists.0.rows.23.en	to give; to provide [vt.]
+vocab7.lists.0.rows.23.en	to give; to provide [''vt.'']
 vocab7.lists.0.rows.24.w	～なんて
 vocab7.lists.0.rows.24.yomi	～なんて
 vocab7.lists.0.rows.24.en	such as ~; like ~
@@ -7227,7 +7234,7 @@ vocab7.lists.0.rows.40.yomi	じつげん（する）
 vocab7.lists.0.rows.40.en	to become reality
 vocab7.lists.0.rows.41.w	__破__る
 vocab7.lists.0.rows.41.yomi	やぶる
-vocab7.lists.0.rows.41.en	to break [vt.]
+vocab7.lists.0.rows.41.en	to break [''vt.'']
 vocab7.lists.0.rows.42.w	ただ
 vocab7.lists.0.rows.42.yomi	ただ
 vocab7.lists.0.rows.42.en	just
@@ -7248,7 +7255,7 @@ vocab7.lists.0.rows.47.yomi	やくそくをかわす
 vocab7.lists.0.rows.47.en	to make a promise
 vocab7.lists.0.rows.48.w	[～が]__膨__らむ
 vocab7.lists.0.rows.48.yomi	ふくらむ
-vocab7.lists.0.rows.48.en	to expand; to swell [vi.]
+vocab7.lists.0.rows.48.en	to expand; to swell [''vi.'']
 vocab7.lists.0.rows.49.w	正直
 vocab7.lists.0.rows.49.yomi	しょうじき
 vocab7.lists.0.rows.49.en	honestly
@@ -7272,7 +7279,7 @@ vocab7.lists.0.rows.55.yomi	どくじ
 vocab7.lists.0.rows.55.en	original; unique
 vocab7.lists.0.rows.56.w	[～が]発__展__（する）
 vocab7.lists.0.rows.56.yomi	はってん（する）
-vocab7.lists.0.rows.56.en	to develop [vi.]
+vocab7.lists.0.rows.56.en	to develop [''vi.'']
 vocab7.lists.0.rows.57.w	基準
 vocab7.lists.0.rows.57.yomi	きじゅん
 vocab7.lists.0.rows.57.en	standard
@@ -7519,7 +7526,7 @@ vocab7.lists.1.rows.60.yomi	しつぼう（する）
 vocab7.lists.1.rows.60.en	to be disappointed
 vocab7.lists.1.rows.61.w	[～が]増す
 vocab7.lists.1.rows.61.yomi	ます
-vocab7.lists.1.rows.61.en	to increase [vi.]
+vocab7.lists.1.rows.61.en	to increase [''vi.'']
 vocab7.lists.1.rows.62.w	期待外れ
 vocab7.lists.1.rows.62.yomi	きたいはずれ
 vocab7.lists.1.rows.62.en	disappointment
@@ -7716,7 +7723,7 @@ vocab8.lists.0.rows.34.yomi	さきまわり（する）
 vocab8.lists.0.rows.34.en	to anticipate
 vocab8.lists.0.rows.35.w	[～に]__提__供（する）
 vocab8.lists.0.rows.35.yomi	ていきょう（する）
-vocab8.lists.0.rows.35.en	to provide [vt.]
+vocab8.lists.0.rows.35.en	to provide [''vt.'']
 vocab8.lists.0.rows.36.w	策を練る
 vocab8.lists.0.rows.36.yomi	さくをねる
 vocab8.lists.0.rows.36.en	to come up with ideas
@@ -7864,7 +7871,7 @@ vocab8.lists.1.rows.7.yomi	いつか
 vocab8.lists.1.rows.7.en	someday
 vocab8.lists.1.rows.8.w	__温__める
 vocab8.lists.1.rows.8.yomi	あたためる
-vocab8.lists.1.rows.8.en	to warm up [vt.]
+vocab8.lists.1.rows.8.en	to warm up [''vt.'']
 vocab8.lists.1.rows.9.w	京都大学
 vocab8.lists.1.rows.9.yomi	きょうとだいがく
 vocab8.lists.1.rows.9.en	Kyoto University
@@ -7912,7 +7919,7 @@ vocab8.lists.1.rows.23.yomi	くうかん
 vocab8.lists.1.rows.23.en	space; room
 vocab8.lists.1.rows.24.w	凝縮（する）
 vocab8.lists.1.rows.24.yomi	ぎょうしゅく（する）
-vocab8.lists.1.rows.24.en	to condense [vt.]
+vocab8.lists.1.rows.24.en	to condense [''vt.'']
 vocab8.lists.1.rows.25.w	美
 vocab8.lists.1.rows.25.yomi	び
 vocab8.lists.1.rows.25.en	beauty
@@ -7930,7 +7937,7 @@ vocab8.lists.1.rows.29.yomi	しきり
 vocab8.lists.1.rows.29.en	partition
 vocab8.lists.1.rows.30.w	__密閉__（する）
 vocab8.lists.1.rows.30.yomi	みっぺい（する）
-vocab8.lists.1.rows.30.en	to close [vt.]
+vocab8.lists.1.rows.30.en	to close [''vt.'']
 vocab8.lists.1.rows.31.w	容__器__
 vocab8.lists.1.rows.31.yomi	ようき
 vocab8.lists.1.rows.31.en	container
@@ -7948,7 +7955,7 @@ vocab8.lists.1.rows.35.yomi	おかず
 vocab8.lists.1.rows.35.en	side dish
 vocab8.lists.1.rows.36.w	[～に]__詰__める
 vocab8.lists.1.rows.36.yomi	つめる
-vocab8.lists.1.rows.36.en	to fill; to stuff [vt.]
+vocab8.lists.1.rows.36.en	to fill; to stuff [''vt.'']
 vocab8.lists.1.rows.37.w	待ちきれない
 vocab8.lists.1.rows.37.yomi	まちきれない
 vocab8.lists.1.rows.37.en	eager to do something; can’t wait
@@ -7996,7 +8003,7 @@ vocab8.lists.1.rows.51.yomi	ほれいざい
 vocab8.lists.1.rows.51.en	ice pack; refrigerant
 vocab8.lists.1.rows.52.w	内__蔵__（する）
 vocab8.lists.1.rows.52.yomi	ないぞう（する）
-vocab8.lists.1.rows.52.en	to be built-in [vt.]
+vocab8.lists.1.rows.52.en	to be built-in [''vt.'']
 vocab8.lists.1.rows.53.w	開発（する）
 vocab8.lists.1.rows.53.yomi	かいはつ（する）
 vocab8.lists.1.rows.53.en	to develop
@@ -8044,7 +8051,7 @@ vocab8.lists.1.rows.67.yomi	ばらん
 vocab8.lists.1.rows.67.en	food separator sheet (used for partitioning or decoration)
 vocab8.lists.1.rows.68.w	__並__べる
 vocab8.lists.1.rows.68.yomi	ならべる
-vocab8.lists.1.rows.68.en	to line up; to put in order [vt.]
+vocab8.lists.1.rows.68.en	to line up; to put in order [''vt.'']
 vocab8.lists.1.rows.69.w	伝__統__的な
 vocab8.lists.1.rows.69.yomi	でんとうてきな
 vocab8.lists.1.rows.69.en	traditional
@@ -8059,7 +8066,7 @@ vocab8.lists.1.rows.72.yomi	かおり
 vocab8.lists.1.rows.72.en	scent; odor
 vocab8.lists.1.rows.73.w	__曲__げる
 vocab8.lists.1.rows.73.yomi	まげる
-vocab8.lists.1.rows.73.en	to bend [vt.]
+vocab8.lists.1.rows.73.en	to bend [''vt.'']
 vocab8.lists.1.rows.74.w	__曲__げわっぱ
 vocab8.lists.1.rows.74.yomi	まげわっぱ
 vocab8.lists.1.rows.74.en	mage-wappa; bentwood box
@@ -8083,7 +8090,7 @@ vocab8.lists.1.rows.80.yomi	ぎほう
 vocab8.lists.1.rows.80.en	techniques
 vocab8.lists.1.rows.81.w	[～に]取り入れる
 vocab8.lists.1.rows.81.yomi	とりいれる
-vocab8.lists.1.rows.81.en	to adopt [vt.]
+vocab8.lists.1.rows.81.en	to adopt [''vt.'']
 vocab8.lists.1.rows.82.w	職人
 vocab8.lists.1.rows.82.yomi	しょくにん
 vocab8.lists.1.rows.82.en	craftsman
@@ -8251,7 +8258,7 @@ vocab9.lists.0.rows.30.yomi	～だって
 vocab9.lists.0.rows.30.en	even
 vocab9.lists.0.rows.31.w	隔てる
 vocab9.lists.0.rows.31.yomi	へだてる
-vocab9.lists.0.rows.31.en	to part; to separate [vt.]
+vocab9.lists.0.rows.31.en	to part; to separate [''vt.'']
 vocab9.lists.0.rows.32.w	__引__き離す
 vocab9.lists.0.rows.32.yomi	ひきはなす
 vocab9.lists.0.rows.32.en	to pull apart; to separate
@@ -8272,7 +8279,7 @@ vocab9.lists.0.rows.37.yomi	そこ
 vocab9.lists.0.rows.37.en	bottom
 vocab9.lists.0.rows.38.w	[～を]__沈__める
 vocab9.lists.0.rows.38.yomi	しずめる
-vocab9.lists.0.rows.38.en	to sink; to submerge [vt.]
+vocab9.lists.0.rows.38.en	to sink; to submerge [''vt.'']
 vocab9.lists.0.rows.39.w	気__圧__
 vocab9.lists.0.rows.39.yomi	きあつ
 vocab9.lists.0.rows.39.en	atmospheric pressure
@@ -8287,7 +8294,7 @@ vocab9.lists.0.rows.42.yomi	びりびり（と）
 vocab9.lists.0.rows.42.en	(sound of tearing up)
 vocab9.lists.0.rows.43.w	[～が]張り裂ける
 vocab9.lists.0.rows.43.yomi	はりさける
-vocab9.lists.0.rows.43.en	to burst; to break [vi.]
+vocab9.lists.0.rows.43.en	to burst; to break [''vi.'']
 vocab9.lists.0.rows.44.w	うなずく
 vocab9.lists.0.rows.44.yomi	うなずく
 vocab9.lists.0.rows.44.en	to nod
@@ -8338,7 +8345,7 @@ vocab9.lists.0.rows.59.yomi	みみをすます
 vocab9.lists.0.rows.59.en	to listen carefully
 vocab9.lists.0.rows.60.w	[～が]痛む
 vocab9.lists.0.rows.60.yomi	いたむ
-vocab9.lists.0.rows.60.en	to hurt [vi.]
+vocab9.lists.0.rows.60.en	to hurt [''vi.'']
 vocab9.lists.0.rows.61.w	海面
 vocab9.lists.0.rows.61.yomi	かいめん
 vocab9.lists.0.rows.61.en	sea surface
@@ -8350,7 +8357,7 @@ vocab9.lists.0.rows.63.yomi	うかびあがる
 vocab9.lists.0.rows.63.en	to come to the surface
 vocab9.lists.0.rows.64.w	[～が]__浮__かぶ
 vocab9.lists.0.rows.64.yomi	うかぶ
-vocab9.lists.0.rows.64.en	to float [vi.]
+vocab9.lists.0.rows.64.en	to float [''vi.'']
 vocab9.lists.0.rows.65.w	微かな
 vocab9.lists.0.rows.65.yomi	かすかな
 vocab9.lists.0.rows.65.en	faint; feeble; low
@@ -8439,7 +8446,7 @@ vocab9.lists.1.rows.11.yomi	まくら
 vocab9.lists.1.rows.11.en	pillow
 vocab9.lists.1.rows.12.w	[～に]のせる
 vocab9.lists.1.rows.12.yomi	のせる
-vocab9.lists.1.rows.12.en	to put on [vt.]
+vocab9.lists.1.rows.12.en	to put on [''vt.'']
 vocab9.lists.1.rows.13.w	__翌__朝
 vocab9.lists.1.rows.13.yomi	よくあさ
 vocab9.lists.1.rows.13.en	next morning
@@ -8502,7 +8509,7 @@ vocab9.lists.1.rows.32.yomi	なく
 vocab9.lists.1.rows.32.en	(animals) to cry
 vocab9.lists.1.rows.33.w	[～が]交代（する）
 vocab9.lists.1.rows.33.yomi	こうたい（する）
-vocab9.lists.1.rows.33.en	to take turns [vi.]
+vocab9.lists.1.rows.33.en	to take turns [''vi.'']
 vocab9.lists.1.rows.34.w	あっさりした
 vocab9.lists.1.rows.34.yomi	あっさりした
 vocab9.lists.1.rows.34.en	simple; light
@@ -8532,7 +8539,7 @@ vocab9.lists.1.rows.42.yomi	そうぞうりょく
 vocab9.lists.1.rows.42.en	imagination
 vocab9.lists.1.rows.43.w	[～が]増大（する）
 vocab9.lists.1.rows.43.yomi	ぞうだい（する）
-vocab9.lists.1.rows.43.en	to get larger [vi.]
+vocab9.lists.1.rows.43.en	to get larger [''vi.'']
 vocab9.lists.1.rows.44.w	南部鉄
 vocab9.lists.1.rows.44.yomi	なんぶてつ
 vocab9.lists.1.rows.44.en	Nambu steel
@@ -8592,13 +8599,13 @@ vocab9.lists.1.rows.62.yomi	じしん
 vocab9.lists.1.rows.62.en	earthquake
 vocab9.lists.1.rows.63.w	[～が]__倒__れる
 vocab9.lists.1.rows.63.yomi	たおれる
-vocab9.lists.1.rows.63.en	to fall down [vi.]
+vocab9.lists.1.rows.63.en	to fall down [''vi.'']
 vocab9.lists.1.rows.64.w	__細__工（する）
 vocab9.lists.1.rows.64.yomi	さいく（する）
 vocab9.lists.1.rows.64.en	to devise; to trick
 vocab9.lists.1.rows.65.w	__倒__す
 vocab9.lists.1.rows.65.yomi	たおす
-vocab9.lists.1.rows.65.en	to push down [vt.]
+vocab9.lists.1.rows.65.en	to push down [''vt.'']
 vocab9.lists.1.rows.66.w	世
 vocab9.lists.1.rows.66.yomi	よ
 vocab9.lists.1.rows.66.en	world
@@ -8607,7 +8614,7 @@ vocab9.lists.1.rows.67.yomi	～がた
 vocab9.lists.1.rows.67.en	(honorific pluralizing suffix used for people)
 vocab9.lists.1.rows.68.w	[～が]成長（する）
 vocab9.lists.1.rows.68.yomi	せいちょう（する）
-vocab9.lists.1.rows.68.en	to grow [vi.]
+vocab9.lists.1.rows.68.en	to grow [''vi.'']
 vocab9.lists.1.rows.69.w	おそれる
 vocab9.lists.1.rows.69.yomi	おそれる
 vocab9.lists.1.rows.69.en	to be afraid of
@@ -8640,7 +8647,7 @@ vocab9.lists.1.rows.78.yomi	らくてんてきな
 vocab9.lists.1.rows.78.en	optimistic
 vocab9.lists.1.rows.79.w	[～が]転__倒__（する）
 vocab9.lists.1.rows.79.yomi	てんとう（する）
-vocab9.lists.1.rows.79.en	to fall down [vi.]
+vocab9.lists.1.rows.79.en	to fall down [''vi.'']
 vocab9.lists.1.rows.80.w	思いつく
 vocab9.lists.1.rows.80.yomi	おもいつく
 vocab9.lists.1.rows.80.en	to think of; to come up with
@@ -8721,7 +8728,7 @@ vocab10.lists.0.rows.5.yomi	じっし（する）
 vocab10.lists.0.rows.5.en	to carry out
 vocab10.lists.0.rows.6.w	[～に] 郵送（する）
 vocab10.lists.0.rows.6.yomi	ゆうそう（する）
-vocab10.lists.0.rows.6.en	to mail [vt.]
+vocab10.lists.0.rows.6.en	to mail [''vt.'']
 vocab10.lists.0.rows.7.w	__未__婚者
 vocab10.lists.0.rows.7.yomi	みこんしゃ
 vocab10.lists.0.rows.7.en	unmarried person
@@ -8733,7 +8740,7 @@ vocab10.lists.0.rows.9.yomi	せそう
 vocab10.lists.0.rows.9.en	social conditions; phase of life
 vocab10.lists.0.rows.10.w	[～が] 浮かび上がる
 vocab10.lists.0.rows.10.yomi	うかびあがる
-vocab10.lists.0.rows.10.en	to rise up; to come to the front [vi.]
+vocab10.lists.0.rows.10.en	to rise up; to come to the front [''vi.'']
 vocab10.lists.0.rows.11.w	当然
 vocab10.lists.0.rows.11.yomi	とうぜん
 vocab10.lists.0.rows.11.en	of course
@@ -8862,7 +8869,7 @@ vocab10.lists.0.rows.52.yomi	～たく
 vocab10.lists.0.rows.52.en	~ choices
 vocab10.lists.0.rows.53.w	[～に] __尋__ねる
 vocab10.lists.0.rows.53.yomi	たずねる
-vocab10.lists.0.rows.53.en	to ask [vt.]
+vocab10.lists.0.rows.53.en	to ask [''vt.'']
 vocab10.lists.0.rows.54.w	～に続いて
 vocab10.lists.0.rows.54.yomi	～につづいて
 vocab10.lists.0.rows.54.en	followed by ~
@@ -8886,7 +8893,7 @@ vocab10.lists.0.rows.60.yomi	～りつ
 vocab10.lists.0.rows.60.en	~ rate
 vocab10.lists.0.rows.61.w	[～が] 浮き__彫__りになる
 vocab10.lists.0.rows.61.yomi	うきぼりになる
-vocab10.lists.0.rows.61.en	to come to surface [vi.]
+vocab10.lists.0.rows.61.en	to come to surface [''vi.'']
 vocab10.lists.0.rows.62.w	譲る
 vocab10.lists.0.rows.62.yomi	ゆずる
 vocab10.lists.0.rows.62.en	to give up; to yield up
@@ -9058,7 +9065,7 @@ vocab10.lists.1.rows.15.yomi	かっこく
 vocab10.lists.1.rows.15.en	each country
 vocab10.lists.1.rows.16.w	[～に] 位置づける
 vocab10.lists.1.rows.16.yomi	いちづける
-vocab10.lists.1.rows.16.en	to place [vt.]
+vocab10.lists.1.rows.16.en	to place [''vt.'']
 vocab10.lists.1.rows.17.w	～を中心に
 vocab10.lists.1.rows.17.yomi	～をちゅうしんに
 vocab10.lists.1.rows.17.en	with a focus on ~
@@ -9308,7 +9315,7 @@ vocab11.lists.0.rows.7.yomi	ちじん
 vocab11.lists.0.rows.7.en	acquaintance
 vocab11.lists.0.rows.8.w	[〜に]__依__頼（する）
 vocab11.lists.0.rows.8.yomi	いらい（する）
-vocab11.lists.0.rows.8.en	to request [vt.]
+vocab11.lists.0.rows.8.en	to request [''vt.'']
 vocab11.lists.0.rows.9.w	慣用語
 vocab11.lists.0.rows.9.yomi	かんようご
 vocab11.lists.0.rows.9.en	idiom
@@ -9335,7 +9342,7 @@ vocab11.lists.0.rows.16.yomi	ぐたいてきな
 vocab11.lists.0.rows.16.en	concrete
 vocab11.lists.0.rows.17.w	[〜に]要求（する）
 vocab11.lists.0.rows.17.yomi	ようきゅう（する）
-vocab11.lists.0.rows.17.en	to request; to demand [vt.]
+vocab11.lists.0.rows.17.en	to request; to demand [''vt.'']
 vocab11.lists.0.rows.18.w	明示（する）
 vocab11.lists.0.rows.18.yomi	めいじ（する）
 vocab11.lists.0.rows.18.en	to make explicit
@@ -9350,7 +9357,7 @@ vocab11.lists.0.rows.21.yomi	ちからをかす
 vocab11.lists.0.rows.21.en	to help
 vocab11.lists.0.rows.22.w	[〜に]任せる
 vocab11.lists.0.rows.22.yomi	まかせる
-vocab11.lists.0.rows.22.en	to entrust [vt.]
+vocab11.lists.0.rows.22.en	to entrust [''vt.'']
 vocab11.lists.0.rows.23.w	したがって
 vocab11.lists.0.rows.23.yomi	したがって
 vocab11.lists.0.rows.23.en	therefore
@@ -9362,7 +9369,7 @@ vocab11.lists.0.rows.25.yomi	けっこうな
 vocab11.lists.0.rows.25.en	fine
 vocab11.lists.0.rows.26.w	[〜に]__寄__付（する）
 vocab11.lists.0.rows.26.yomi	きふ（する）
-vocab11.lists.0.rows.26.en	to donate [vt.]
+vocab11.lists.0.rows.26.en	to donate [''vt.'']
 vocab11.lists.0.rows.27.w	__乞__う
 vocab11.lists.0.rows.27.yomi	こう
 vocab11.lists.0.rows.27.en	to ask
@@ -9437,7 +9444,7 @@ vocab11.lists.0.rows.50.yomi	そんちょう（する）
 vocab11.lists.0.rows.50.en	to respect
 vocab11.lists.0.rows.51.w	[〜に]転__嫁__（する）
 vocab11.lists.0.rows.51.yomi	てんか（する）
-vocab11.lists.0.rows.51.en	to pass (the buck) [vt.]
+vocab11.lists.0.rows.51.en	to pass (the buck) [''vt.'']
 vocab11.lists.0.rows.52.w	のがれる
 vocab11.lists.0.rows.52.yomi	のがれる
 vocab11.lists.0.rows.52.en	to avoid
@@ -9458,7 +9465,7 @@ vocab11.lists.0.rows.57.yomi	ほうき（する）
 vocab11.lists.0.rows.57.en	to abandon
 vocab11.lists.0.rows.58.w	[〜に]押しつける
 vocab11.lists.0.rows.58.yomi	おしつける
-vocab11.lists.0.rows.58.en	to push [vt.]
+vocab11.lists.0.rows.58.en	to push [''vt.'']
 vocab11.lists.0.rows.59.w	無礼な
 vocab11.lists.0.rows.59.yomi	ぶれいな
 vocab11.lists.0.rows.59.en	rude
@@ -9476,7 +9483,7 @@ vocab11.lists.0.rows.63.yomi	けらい
 vocab11.lists.0.rows.63.en	retainer
 vocab11.lists.0.rows.64.w	[〜に]命じる
 vocab11.lists.0.rows.64.yomi	めいじる
-vocab11.lists.0.rows.64.en	to order [vt.]
+vocab11.lists.0.rows.64.en	to order [''vt.'']
 vocab11.lists.0.rows.65.w	横__柄__な
 vocab11.lists.0.rows.65.yomi	おうへいな
 vocab11.lists.0.rows.65.en	arrogant
@@ -9542,10 +9549,10 @@ vocab11.lists.1.rows.3.yomi	あやつる
 vocab11.lists.1.rows.3.en	to manipulate; to speak
 vocab11.lists.1.rows.4.w	[〜が]かけめぐる
 vocab11.lists.1.rows.4.yomi	かけめぐる
-vocab11.lists.1.rows.4.en	to go around [vt.]
+vocab11.lists.1.rows.4.en	to go around [''vt.'']
 vocab11.lists.1.rows.5.w	[〜が]交__錯__（する）
 vocab11.lists.1.rows.5.yomi	こうさく（する）
-vocab11.lists.1.rows.5.en	to cross [vi.]
+vocab11.lists.1.rows.5.en	to cross [''vi.'']
 vocab11.lists.1.rows.6.w	おそう
 vocab11.lists.1.rows.6.yomi	おそう
 vocab11.lists.1.rows.6.en	to strike
@@ -9569,10 +9576,10 @@ vocab11.lists.1.rows.12.yomi	しせい
 vocab11.lists.1.rows.12.en	posture; attitude
 vocab11.lists.1.rows.13.w	[〜に]持ちかける
 vocab11.lists.1.rows.13.yomi	もちかける
-vocab11.lists.1.rows.13.en	to start talking [vt.]
+vocab11.lists.1.rows.13.en	to start talking [''vt.'']
 vocab11.lists.1.rows.14.w	[〜が]はっきりする
 vocab11.lists.1.rows.14.yomi	はっきりする
-vocab11.lists.1.rows.14.en	to become clear [vi.]
+vocab11.lists.1.rows.14.en	to become clear [''vi.'']
 vocab11.lists.1.rows.15.w	[〜に]返答（する）
 vocab11.lists.1.rows.15.yomi	へんとう（する）
 vocab11.lists.1.rows.15.en	to respond
@@ -9814,7 +9821,7 @@ vocab12.lists.0.rows.14.yomi	ものいれ
 vocab12.lists.0.rows.14.en	compartment
 vocab12.lists.0.rows.15.w	[〜が]たまる
 vocab12.lists.0.rows.15.yomi	たまる
-vocab12.lists.0.rows.15.en	to build up; to accumulate [vi.]
+vocab12.lists.0.rows.15.en	to build up; to accumulate [''vi.'']
 vocab12.lists.0.rows.16.w	かき集める
 vocab12.lists.0.rows.16.yomi	かきあつめる
 vocab12.lists.0.rows.16.en	to gather up
@@ -9847,7 +9854,7 @@ vocab12.lists.0.rows.25.yomi	かんり（する）
 vocab12.lists.0.rows.25.en	to manage; to administer
 vocab12.lists.0.rows.26.w	[〜が]__壊__れる
 vocab12.lists.0.rows.26.yomi	こわれる
-vocab12.lists.0.rows.26.en	to break [vi.]
+vocab12.lists.0.rows.26.en	to break [''vi.'']
 vocab12.lists.0.rows.27.w	箇所
 vocab12.lists.0.rows.27.yomi	かしょ
 vocab12.lists.0.rows.27.en	part; place
@@ -9883,7 +9890,7 @@ vocab12.lists.0.rows.37.yomi	ぜんせいき
 vocab12.lists.0.rows.37.en	the golden age; heyday
 vocab12.lists.0.rows.38.w	[〜が]流行る
 vocab12.lists.0.rows.38.yomi	はやる
-vocab12.lists.0.rows.38.en	to be popular; to be in fashion [vi.]
+vocab12.lists.0.rows.38.en	to be popular; to be in fashion [''vi.'']
 vocab12.lists.0.rows.39.w	頭文字
 vocab12.lists.0.rows.39.yomi	かしらもじ
 vocab12.lists.0.rows.39.en	the first letter
@@ -9949,7 +9956,7 @@ vocab12.lists.0.rows.59.yomi	しはらう
 vocab12.lists.0.rows.59.en	to pay
 vocab12.lists.0.rows.60.w	増発（する）
 vocab12.lists.0.rows.60.yomi	ぞうはつ（する）
-vocab12.lists.0.rows.60.en	to increase the number of trains [vi.]
+vocab12.lists.0.rows.60.en	to increase the number of trains [''vi.'']
 vocab12.lists.0.rows.61.w	範疇
 vocab12.lists.0.rows.61.yomi	はんちゅう
 vocab12.lists.0.rows.61.en	category
@@ -10000,7 +10007,7 @@ vocab12.lists.0.rows.76.yomi	こうじゅんかん
 vocab12.lists.0.rows.76.en	virtuous circle
 vocab12.lists.0.rows.77.w	[〜が]__循__環（する）
 vocab12.lists.0.rows.77.yomi	じゅんかん（する）
-vocab12.lists.0.rows.77.en	to circulate [vi.]
+vocab12.lists.0.rows.77.en	to circulate [''vi.'']
 vocab12.lists.0.rows.78.w	〜をもとに
 vocab12.lists.0.rows.78.yomi	〜をもとに
 vocab12.lists.0.rows.78.en	based on
@@ -10160,7 +10167,7 @@ vocab12.lists.1.rows.20.yomi	こころがおれる
 vocab12.lists.1.rows.20.en	to lose heart
 vocab12.lists.1.rows.21.w	[〜が]__折__れる
 vocab12.lists.1.rows.21.yomi	おれる
-vocab12.lists.1.rows.21.en	to get broken [vi.]
+vocab12.lists.1.rows.21.en	to get broken [''vi.'']
 vocab12.lists.1.rows.22.w	手を取り合う
 vocab12.lists.1.rows.22.yomi	てをとりあう
 vocab12.lists.1.rows.22.en	to take each other’s hands
@@ -14534,8 +14541,8 @@ c8.blocks.8.items.2.blocks.0.items.0.ja	本日はご協力ありがとうござ�
 c8.blocks.9.text.ja	調査レポートを書く
 c8.blocks.10.items.0.text.ja	インタビューの回答を{分析|ぶんせき}し、結論を考える。
 c8.blocks.10.items.0.blocks.0.label	例）
-c8.blocks.10.items.0.blocks.0.items.0.ja	［論点1］日本の大学生はお弁当を持っていくのか。
-c8.blocks.10.items.0.blocks.0.items.1.ja	［論点2］お弁当についてどう思っているのか。
+c8.blocks.10.items.0.blocks.0.items.0.ja	[#論点1]日本の大学生はお弁当を持っていくのか。
+c8.blocks.10.items.0.blocks.0.items.1.ja	[#論点2]お弁当についてどう思っているのか。
 c8.blocks.10.items.0.blocks.1.items.0.text.ja	回答を見て論点の答えを考え、背景の調査と同じ傾向かどうかを検証する。
 c8.blocks.10.items.0.blocks.1.items.0.blocks.0.label	例）
 c8.blocks.10.items.0.blocks.1.items.0.blocks.0.items.0.ja	持っていく人が2人、持っていかない人が1人だった。
@@ -14548,8 +14555,8 @@ c8.blocks.10.items.1.blocks.0.rows.0.0.text.ja	❶ {序論|じょろん}
 c8.blocks.10.items.1.blocks.0.rows.0.1.ja	・そのトピックに興味を持ったきっかけ
 c8.blocks.10.items.1.blocks.0.rows.0.2	
 c8.blocks.10.items.1.blocks.0.rows.1.0.ja	・この調査の論点
-例）［論点1］__では、__日本の大学生はお弁当を持っていく__のだろうか。__
-［論点2］__そして、__お弁当についてどう思っている__のだろうか。__
+例）[#論点1]__では、__日本の大学生はお弁当を持っていく__のだろうか。__
+[#論点2]__そして、__お弁当についてどう思っている__のだろうか。__
 c8.blocks.10.items.1.blocks.0.rows.1.1	(a)
 c8.blocks.10.items.1.blocks.0.rows.2.0.ja	・レポートの内容について
 例）__このレポートでは、〜に関する〜へのインタビューについて報告する。__
@@ -14561,13 +14568,13 @@ __このことから__……__ことがわかった。__
 c8.blocks.10.items.1.blocks.0.rows.3.2	(c)
 c8.blocks.10.items.1.blocks.0.rows.4.0.text.ja	❸ 調査について
 c8.blocks.10.items.1.blocks.0.rows.4.1.ja	・対象・人数・答えてくれた人についての情報
-例）__今回は__「［論点1］。そして、［論点2］」__を調べるために、〜を対象にインタビューを行った。__……の3__人が答えてくれた。__
+例）__今回は__「[#論点1]。そして、[#論点2]」__を調べるために、〜を対象にインタビューを行った。__……の3__人が答えてくれた。__
 c8.blocks.10.items.1.blocks.0.rows.4.2	(d)
 c8.blocks.10.items.1.blocks.0.rows.5.0.text.ja	❹ 結果
-c8.blocks.10.items.1.blocks.0.rows.5.1.ja	・質問1：［論点1］の答えにつながる質問について書く。
+c8.blocks.10.items.1.blocks.0.rows.5.1.ja	・質問1：[#論点1]の答えにつながる質問について書く。
 例）__まず、__「学校にお弁当を持ってきますか」と聞くと……。
 c8.blocks.10.items.1.blocks.0.rows.5.2	(e)
-c8.blocks.10.items.1.blocks.0.rows.6.0.ja	・質問2：［論点2］の答えにつながる質問について書く。
+c8.blocks.10.items.1.blocks.0.rows.6.0.ja	・質問2：[#論点2]の答えにつながる質問について書く。
 例）__次に、__お弁当を持っていく理由、持っていかない理由を聞いてみた。
 c8.blocks.10.items.1.blocks.0.rows.6.1	(f)
 c8.blocks.10.items.1.blocks.0.rows.7.0.ja	・質問3：論点に関係がある回答の中で、興味深いものを紹介する。
@@ -14575,7 +14582,7 @@ c8.blocks.10.items.1.blocks.0.rows.7.0.ja	・質問3：論点に関係がある�
 c8.blocks.10.items.1.blocks.0.rows.7.1	(g)
 c8.blocks.10.items.1.blocks.0.rows.8.0.text.ja	❺ 結論
 c8.blocks.10.items.1.blocks.0.rows.8.1.ja	・調査の論点、対象をもう一度述べる。
-例）__今回は__「［論点1］。そして、［論点2］」__について、__〜に__インタビュー調査を行った。__
+例）__今回は__「[#論点1]。そして、[#論点2]」__について、__〜に__インタビュー調査を行った。__
 c8.blocks.10.items.1.blocks.0.rows.8.2	(h)
 c8.blocks.10.items.1.blocks.0.rows.9.0.ja	・調査でわかった論点の答え、背景で見た調査との比較をまとめて述べる。
 例）__その結果、__……だった。__また、__〜の__調査と同じように／とは違い、__……__ことがわかった。__

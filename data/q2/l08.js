@@ -346,7 +346,10 @@ TRY.registerLesson({
       "#BERTRAND社長　ベルトラン・トマさん"
      ],
      "titleTr": "Bringing Japan Closer with Bento",
-     "tr": []
+     "tr": [],
+     "headTr": [
+      "Thomas Bertrand, President of BERTRAND"
+     ]
     },
     {
      "t": "reading",
@@ -647,7 +650,7 @@ TRY.registerLesson({
        "mark": "・",
        "items": [
         {
-         "en": "A hypernym is a word with broad meaning that represents a category encompassing other words. The words categorized by a hypernym are called hyponyms. For example, if we consider the words 文字 (character) and ひらがな (hiragana), we would define 文字 as the hypernym, and ひらがな as one of its hyponyms."
+         "en": "A hypernym is a word with broad meaning that represents a category encompassing other words. The words categorized by a hypernym are called hyponyms. For example, if we consider the words 文字 (character) and ひらがな (''hiragana''), we would define 文字 as the hypernym, and ひらがな as one of its hyponyms."
         },
         {
          "en": "A sentence that contains a hyponym is presenting a specific example. In the case of the example passage above, 自然の音 functions as a hypernym, and the more specific words 波の音 and 鳥の鳴き声 are hyponyms for it. Thus, 波の音や鳥の鳴き声を聞くとよく眠れる provides an example of how 自然の音 have a リラックス効果."
@@ -943,7 +946,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "「お疲れさま」って日本語**ならでは**のあいさつだよね。",
-           "en": "“Otsukaresama” is a very uniquely Japanese greeting, don’t you think?"
+           "en": "“''Otsukaresama''” is a very uniquely Japanese greeting, don’t you think?"
           },
           {
            "sp": "B",
@@ -1318,7 +1321,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vたものだ is an expression for stating something that the speaker used to do but no longer does now; it implies that the speaker feels nostalgic about the memory."
+           "en": "[#Vた]ものだ is an expression for stating something that the speaker used to do but no longer does now; it implies that the speaker feels nostalgic about the memory."
           },
           {
            "en": "This expression is somewhat monologue-like, and is not typically used in conversations."
@@ -1815,7 +1818,6 @@ TRY.registerLesson({
       "その{奥深|おくぶか}さが少しわかったような気がします。ワンさんの話し方か",
       "ら茶道への愛を感じました。　（聞き手　サラ・ゴミス）"
      ],
-     "titleTr": "The Tea Ceremony and Wang Meilin",
      "tr": [
       "I asked Wang Meilin, who is in the same Japanese class as me, about the tea ceremony, which she is really into right now.",
       "What got you started in the tea ceremony?",
@@ -1827,6 +1829,10 @@ TRY.registerLesson({
       "What do you think is the greatest appeal of the tea ceremony?",
       "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had been doing the tea ceremony.",
       "I had an image of the tea ceremony as something difficult, but listening to Wang-san, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
+     ],
+     "headTr": [
+      "The Tea Ceremony and Wang Meilin",
+      "After the Interview"
      ],
      "roles": [
       {

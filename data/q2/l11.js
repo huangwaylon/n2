@@ -315,6 +315,9 @@ TRY.registerLesson({
      "titleTr": "Profile",
      "tr": [
       "Critic and former Asahi Shimbun reporter. He traveled around the world and wrote works of cultural criticism, travel writing, and more. He was active in a wide range of roles, including professor at Tokyo Woman's Christian University and host of an information program on TV."
+     ],
+     "headTr": [
+      "Tetsurō Morimoto"
      ]
     },
     {
@@ -397,6 +400,9 @@ TRY.registerLesson({
      "titleTr": "Profile",
      "tr": [
       "Professor in the Faculty of Science and Engineering at Chuo University, where he teaches French, linguistics, and other subjects. His fields of specialization are French literature, contemporary thought, and linguistics."
+     ],
+     "headTr": [
+      "Shūichi Kaganoi"
      ]
     },
     {
@@ -732,7 +738,7 @@ TRY.registerLesson({
            "en": "〜まい can be used in two ways: (a) to express the speaker’s speculation that something is not the case ([#1] through [#4]), and (b) to state the speaker’s determination not to do something ([#5] and [#6])."
           },
           {
-           "en": "Generally, まい is attached to the dictionary form of verbs, but in case of ru-verbs, it can also be used with the stem form (V~~ます~~), as shown in [#3] and [#5]."
+           "en": "Generally, まい is attached to the dictionary form of verbs, but in case of ''ru''-verbs, it can also be used with the stem form ([#V~~ます~~]), as shown in [#3] and [#5]."
           },
           {
            "en": "〜てくれまいか and 〜てもらえまいか are formal, written forms of 〜てくれないだろうか and 〜てもらえないだろうか that are often used to quote a request [#3]."
@@ -1304,7 +1310,13 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "N !!はさておくとして／さておき!!"
+        {
+         "lead": "N !!は!!",
+         "stack": [
+          "!!さておくとして!!",
+          "!!さておき!!"
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1397,7 +1409,14 @@ TRY.registerLesson({
       {
        "t": "conn",
        "forms": [
-        "!!いずれにしても／せよ／しろ!!"
+        {
+         "lead": "!!いずれに!!",
+         "stack": [
+          "!!しても!!",
+          "!!せよ!!",
+          "!!しろ!!"
+         ]
+        }
        ],
        "blocks": [
         {
@@ -1745,12 +1764,14 @@ TRY.registerLesson({
       "¶「難しい」という言葉は初級で習った簡単な日本語だが、異文化間",
       "のコミュニケーションの難しさを実感させられた。"
      ],
-     "titleTr": "\"Muzukashii\" Is Difficult — George Taylor",
      "tr": [
       "When you study Japanese, you notice differences from your native language, which in my case is English. Thinking about the differences is interesting: words that look similar but differ slightly in meaning or usage, words that exist in Japanese but not in English, and so on. For example, muzukashii (\"difficult\") is one of the words whose usage and nuance are different.",
       "I noticed the difference when I proposed a one-week trip as an event for the international exchange club. A senior member told me, \"I think that plan is muzukashii,\" but I thought, \"It's precisely because it's difficult that I want to try it,\" so I revised my proposal and went to talk to the senior member again. But I was told, \"I told you that plan was muzukashii, didn't I? Think of something else,\" and I ended up planning a different event. That was when I finally realized that the Japanese word muzukashii has a meaning that the English word doesn't.",
       "First, in Japanese, if you propose something and are told it is muzukashii, it seems that it often means \"impossible.\" In English, by contrast, if you are told something is \"difficult\" in such a situation, you don't take it to mean \"impossible.\" Rather, you often think, \"If it's difficult, that means it's 'challenging' (achievable with effort), so it's worth trying.\"",
       "Muzukashii is a simple Japanese word I learned at the beginner level, but it made me keenly aware of how difficult communication across cultures is."
+     ],
+     "headTr": [
+      "\"Muzukashii\" Is Difficult"
      ],
      "roles": [
       {

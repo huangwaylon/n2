@@ -302,6 +302,9 @@ TRY.registerLesson({
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
       "\"Let's go to XX over the winter break.\" \"Okay, let's go.\" At that point I felt we had made a promise, and my expectations kept growing, but when winter break actually came, I was told, \"I don't have any money, and there are other things I want to do, so I'm not going.\" To be honest, I thought, \"If you say you're going, isn't it normal to get ready by then?\" But I realized that \"my normal\" wasn't \"normal,\" and that the meaning and weight people give to the words they say, and their sense of responsibility to actually follow through, are fundamentally different.",
       "Japan is a small island nation that has developed its own unique culture and society. With so many people whose ideas, standards, and behavior are alike, it is hard to discover change or new things. And before we know it, we have become complacent. But if you gather a little courage and leap into a different world, you may discover not only how different the outside is, but also something new within yourself."
+     ],
+     "headTr": [
+      "The Thick Walls of Culture and Custom — Morihiro Okada"
      ]
     },
     {
@@ -372,6 +375,9 @@ TRY.registerLesson({
       "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"advances\" and answer questions pleasantly. They eagerly play along with foreign jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
       "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are betrayed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
       "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and sincerely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
+     ],
+     "headTr": [
+      "Raise Young People Who Are at Home in Foreign Cultures"
      ]
     },
     {
@@ -1303,10 +1309,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Vるばかり takes verbs that express change, and is often used in the form 〜ていくばかりだ."
+           "en": "[#Vる]ばかり takes verbs that express change, and is often used in the form 〜ていくばかりだ."
           },
           {
-           "en": "Vるばかり typically connotes that the speaker feels the change occurred is not a desirable one. However, it can also be used to express a positive change (e.g., 期待が膨らむばかりだ)."
+           "en": "[#Vる]ばかり typically connotes that the speaker feels the change occurred is not a desirable one. However, it can also be used to express a positive change (e.g., 期待が膨らむばかりだ)."
           },
           {
            "en": "Verbs that express instantaneous change, such as 死ぬ, 消える, 始まる, 始める or 終わる, cannot be used in this structure."
@@ -1402,10 +1408,10 @@ TRY.registerLesson({
            "en": "When the statement is one that normally takes the particle を, が, は or も after the noun, the particle is replaced by ばかり (see [#5] and [#6]). When the particle is で, に or と, then ばかり is inserted after the particle (see [#7])."
           },
           {
-           "en": "Vてばかりいる and Vてばかりだ mean that the person is always doing the action expressed by V, and does nothing else."
+           "en": "[#Vて]ばかりいる and [#Vて]ばかりだ mean that the person is always doing the action expressed by V, and does nothing else."
           },
           {
-           "en": "Action verbs are used in Vてばかり."
+           "en": "Action verbs are used in [#Vて]ばかり."
           }
          ]
         }
@@ -1484,7 +1490,7 @@ TRY.registerLesson({
            "en": "〜と同時に changes its meaning depending on the context. In [#1] and [#4], it means “at the same time” or “simultaneously,” whereas in [#2] and [#3], it means “as well as.”"
           },
           {
-           "en": "When 〜と同時に takes the noun form of suru-verbs, である is not used ([#4])."
+           "en": "When 〜と同時に takes the noun form of ''suru''-verbs, である is not used ([#4])."
           }
          ]
         }
@@ -1819,12 +1825,14 @@ TRY.registerLesson({
       "には、{違和感|いわかん}や疑問を{隠|かく}さず、違いを理解し、受け入れようとする気",
       "持ちが必要だと感じました。"
      ],
-     "titleTr": "Crossing the Cultural Barrier — George Taylor",
      "tr": [
       "I came to Japan four months ago as an exchange student. At the university I am studying things like the Japanese language and Japanese culture. Living in a foreign culture like Japan's, I make new discoveries every day, and it is stimulating and fun, but there have also been hard times.",
       "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. As this kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
       "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. And I was told, \"It's the same even between Japanese people.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
       "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to not hide your discomfort or your questions, and to be willing to understand and accept differences."
+     ],
+     "headTr": [
+      "Crossing the Cultural Barrier"
      ],
      "roles": [
       {

@@ -317,6 +317,11 @@ TRY.registerLesson({
       "In other words, the age when only \"making money\" was considered a virtue is over. Since it is a business, of course, earning as much money as possible is important, but aren't we reaching an age in which, as a basic premise, an awareness of \"doing something for others\" and \"being useful\" takes on a very important meaning?",
       "I think this is a point that can't be ignored in understanding the times.",
       "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous cycles are born. Isn't it on cycles like that that work, today and in the years to come, will be built?"
+     ],
+     "headTr": [
+      "A Team That Cleans a Shinkansen in Seven Minutes and Keeps It Running on Schedule",
+      "A \"Hard, Dirty, Dangerous\" Workplace Where the Staff Are Full of Motivation",
+      "Finding Joy in \"Work That Doesn't Make Money\""
      ]
     },
     {
@@ -340,6 +345,9 @@ TRY.registerLesson({
       "Advisor to the Omotenashi (Hospitality) Creation Department of JR East Techno Heart TESSEI Co., Ltd.* (*as of 2015)",
       "Joined Japanese National Railways in 1966. Worked for over 40 years thereafter as a specialist in safety measures for trains and passengers.",
       "In 2005, became director and general manager of the corporate planning department at Tetsudo Seibi Co., Ltd. (renamed JR East Techno Heart TESSEI Co., Ltd. in 2012). His efforts to motivate the staff have been recognized in Japan and abroad and have even become teaching material at Harvard Business School."
+     ],
+     "headTr": [
+      "Teruo Yabe"
      ]
     },
     {
@@ -484,6 +492,9 @@ TRY.registerLesson({
       "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is that even a relationship that seems at first glance utterly impossible to change can be changed by the way we choose to feel about it. This is not something only intelligent humans can do.",
       "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have both built a friendly relationship over a long time. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I was charged and injured in the head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
       "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
+     ],
+     "headTr": [
+      "Humans, the Makers of \"Enemies\""
      ]
     },
     {
@@ -503,6 +514,9 @@ TRY.registerLesson({
      ],
      "tr": [
       "Primatologist and anthropologist. After serving as President (Chancellor) of Kyoto University, he has been Director-General of the Research Institute for Humanity and Nature since 2021."
+     ],
+     "headTr": [
+      "Juichi Yamagiwa"
      ]
     },
     {
@@ -601,6 +615,11 @@ TRY.registerLesson({
         "So that every train can run to its destination on schedule, not only the arrival and departure times at the stations where it stops but even the times at which it passes through the stations it doesn't stop at are set in fine detail. While constantly judging the speed myself, I operate the handle, which does the job of the brake and accelerator in a car.",
         "The work is done in shifts: in one day I make one to one and a half round trips between Tokyo and Shin-Osaka. As a rule, I stay at a company facility that night, work on the train again the next day, and then go home. To build up my stamina, I swim on my days off.",
         "The Shinkansen is run by four JR Group companies. At JR Central, it's usual to become a driver after working for years as a station employee or conductor. After passing an examination that checks your eyesight and aptitude as a driver, you spend about a year learning how the trains work, riding along with an instructor to polish your skills, and so on, and then you get the driver's license issued by the national government. Twenty percent of the drivers and conductors working on the Tokaido Shinkansen are women."
+       ],
+       "headTr": [
+        "To the Destination on Time",
+        "Working in Shifts",
+        "A Year of Study After Passing the Exam"
        ]
       },
       {
@@ -1606,7 +1625,7 @@ TRY.registerLesson({
       {
        "t": "sub",
        "n": 1,
-       "pattern": "Vる／Nのうえで",
+       "pattern": "[#Vる]／Nのうえで",
        "gloss": "when ~ing/N"
       },
       {
@@ -1686,7 +1705,7 @@ TRY.registerLesson({
            "en": "X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な , 大切な , 必要な , 難しい , 注意すべき , 問題になる , etc."
           },
           {
-           "en": "As in [#4], N のうえで takes the noun form of suru-verbs."
+           "en": "As in [#4], N のうえで takes the noun form of ''suru''-verbs."
           }
          ]
         }
@@ -1695,7 +1714,7 @@ TRY.registerLesson({
       {
        "t": "sub",
        "n": 2,
-       "pattern": "V₁た／Nのうえで V₂",
+       "pattern": "[#V₁た]／Nのうえで V₂",
        "gloss": "V₂ based on the result of V₁-ing"
       },
       {
@@ -1769,7 +1788,7 @@ TRY.registerLesson({
            "en": "V₂ takes actions that are done as a result of V₁."
           },
           {
-           "en": "As in [#8], N のうえで takes the noun form of suru-verbs."
+           "en": "As in [#8], N のうえで takes the noun form of ''suru''-verbs."
           }
          ]
         }
@@ -2256,13 +2275,16 @@ TRY.registerLesson({
       "__のいく生活が送れない__[[のではないだろうか。|]][[よって、|g]]__仕事を選ぶうえ__",
       "__で重要なのは、「役に立つ」という意識より、収入である__[[と主張する|]]。"
      ],
-     "titleTr": "Which Matters More in Choosing a Job: Income, or a Sense of Being \"Useful\"?",
      "tr": [
       "I read The Miracle Workplace, a book about the management of TESSEI, the company that cleans the Tohoku Shinkansen. TESSEI is a company that has won praise for bringing energy to cleaning, a line of work people tend to shy away from. According to that book, what is becoming important in work is not only \"making money\" but also a sense of \"doing something for others\" and \"being useful.\" On the other hand, though, some people think the purpose of working is to earn an income that makes their lives comfortable. So what matters more in choosing a job: is it income? Or is it being able to feel that you are \"useful\"? I would like to argue from the position that what matters more in choosing a job is income.",
       "First, in many cases, the higher your income, the greater your happiness. According to a survey of Americans conducted in 2009 by Professor Kahneman, a behavioral economist, up to an annual income of $75,000 (about 8 million yen), the more your annual income rises, the happier you become. According to a 2018 report by the National Tax Agency, 90% of people in Japan earn 8 million yen a year or less, so it can be said that for most people, annual income affects happiness.",
       "Next, the higher your income, the higher your job satisfaction. If your pay is high, your sense of responsibility to do work worthy of it grows, and you can approach your work positively. Also, if you feel that the results of your hard work are reflected in your pay, your motivation should rise even further, and you should gain a sense of accomplishment and satisfaction.",
       "Finally, if your income is high, you can save money and ease your anxiety about your future life. Anyone could suddenly lose their job if the company they work for runs into financial trouble. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, there is no need to keep carrying anxieties like these.",
       "As stated above, the higher your income, the greater your happiness, and it seems your job satisfaction rises as well. Also, because you can save money, you can ease your anxiety about the future. Admittedly, without a real sense of \"being useful to others,\" you may lose sight of what working means. However, with a low income, won't you be unable to live a financially satisfying life, with limits on where you can live, what you can eat, and so on, and no room to enjoy hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
+     ],
+     "headTr": [
+      "Which Matters More in Choosing a Job: Income, or a Sense of Being \"Useful\"?",
+      ""
      ],
      "roles": [
       {

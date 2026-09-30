@@ -324,6 +324,9 @@ TRY.registerLesson({
      "titleTr": "Profile",
      "tr": [
       "Japanese novelist and translator of American literature. He made his debut in 1979, when Hear the Wind Sing won the Gunzo New Writers' Prize. Norwegian Wood, published in 1987, became a huge bestseller. His other major works include The Wind-Up Bird Chronicle, Kafka on the Shore, and 1Q84."
+     ],
+     "headTr": [
+      "Haruki Murakami"
      ]
     },
     {
@@ -422,6 +425,9 @@ TRY.registerLesson({
      "titleTr": "Profile",
      "tr": [
       "Japanese novelist, children's author, and translator. She debuted in 1990 with Kōfuku na Yūgi (A Happy Game) and has published many works on the themes of family and romance. Besides fiction, she is also active in essays and in translating picture books. She won the Naoki Prize for Taigan no Kanojo (Woman on the Other Shore). Her other major works include Kidnap Tour, Kūchū Teien (The Floating Garden), and Yōkame no Semi (The Eighth Day)."
+     ],
+     "headTr": [
+      "Mitsuyo Kakuta"
      ]
     },
     {
@@ -740,12 +746,14 @@ TRY.registerLesson({
          "n": 4,
          "lines": [
           {
-           "ja": "a) 日本での留学生活は国に帰りたくない**くらい**楽しい。",
-           "tr": "a) Studying abroad in Japan is so much fun that I don’t want to go back to my country."
+           "sub": "a",
+           "ja": "日本での留学生活は国に帰りたくない**くらい**楽しい。",
+           "tr": "Studying abroad in Japan is so much fun that I don’t want to go back to my country."
           },
           {
-           "ja": "b) 日本での留学生活は楽しくて国に帰りたくない**くらい**だ。",
-           "tr": "b) Studying abroad in Japan is so much fun, I almost don’t want to go back to my country."
+           "sub": "b",
+           "ja": "日本での留学生活は楽しくて国に帰りたくない**くらい**だ。",
+           "tr": "Studying abroad in Japan is so much fun, I almost don’t want to go back to my country."
           }
          ]
         },
@@ -1061,13 +1069,13 @@ TRY.registerLesson({
        "t": "head",
        "style": "sq",
        "text": {
-        "en": "☛ Vたとしても and Vるとしても"
+        "en": "☛ [#Vた]としても and [#Vる]としても"
        }
       },
       {
        "t": "p",
        "text": {
-        "en": "Vるとしても Y means “Y even if V happens.”When this structure is used, Y occurs before or at the same time as V."
+        "en": "[#Vる]としても Y means “Y even if V happens.”When this structure is used, Y occurs before or at the same time as V."
        }
       },
       {
@@ -2171,7 +2179,6 @@ TRY.registerLesson({
       "かを支えてあげたいと思う時。そんな時にこの作品を手に取ってみ",
       "てほしい。"
      ],
-     "titleTr": "On Reading \"On a Train Whistle in the Middle of the Night, or On the Uses of Stories\" (Haruki Murakami)",
      "tr": [
       "\"How much do you love me?\"",
       "To the girl's question, the boy answers like this: \"As much as a whistle in the middle of the night.\"",
@@ -2179,6 +2186,10 @@ TRY.registerLesson({
       "The appeal of this story is, above all, that it expresses love beautifully. If your sweetheart asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This could truly be called \"the uses of stories.\"",
       "Another appeal is the boy's gentle tone. The boy moves the story along, gently asking the girl, \"Do you understand?\" and \"Do you understand that too?\" And the girl listens to the story silently and intently, as if watching over the boy. This exchange connects the boy's \"story of loneliness\" with the \"reality\" of the boy being together with the girl. I think the reason we can feel warmth in a painful story is that we can sense the girl's presence through the boy's gentle tone.",
       "It is short, but it is a story that leaves its readers with a warm feeling. When you feel lonely, when you think of someone who supports you, or when you want to support someone: at times like these, I hope you will pick up this work."
+     ],
+     "headTr": [
+      "On Reading \"On a Train Whistle in the Middle of the Night, or On the Uses of Stories\" (Haruki Murakami)",
+      ""
      ],
      "roles": [
       {

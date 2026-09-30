@@ -191,7 +191,7 @@ TRY.registerVocab({
      "ln": 17,
      "w": "隔てる",
      "yomi": "へだてる",
-     "en": "to part; to separate [vt.]"
+     "en": "to part; to separate [''vt.'']"
     },
     {
      "k": "◇",
@@ -239,7 +239,7 @@ TRY.registerVocab({
      "k": "◆",
      "w": "[～を]__沈__める",
      "yomi": "しずめる",
-     "en": "to sink; to submerge [vt.]"
+     "en": "to sink; to submerge [''vt.'']"
     },
     {
      "k": "◇",
@@ -268,7 +268,7 @@ TRY.registerVocab({
     {
      "w": "[～が]張り裂ける",
      "yomi": "はりさける",
-     "en": "to burst; to break [vi.]"
+     "en": "to burst; to break [''vi.'']"
     },
     {
      "n": 13,
@@ -372,7 +372,7 @@ TRY.registerVocab({
      "ln": 44,
      "w": "[～が]痛む",
      "yomi": "いたむ",
-     "en": "to hurt [vi.]"
+     "en": "to hurt [''vi.'']"
     },
     {
      "ln": 45,
@@ -398,7 +398,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～が]__浮__かぶ",
      "yomi": "うかぶ",
-     "en": "to float [vi.]"
+     "en": "to float [''vi.'']"
     },
     {
      "ln": 47,
@@ -633,7 +633,7 @@ TRY.registerVocab({
     {
      "w": "[～に]のせる",
      "yomi": "のせる",
-     "en": "to put on [vt.]"
+     "en": "to put on [''vt.'']"
     },
     {
      "k": "◇",
@@ -755,7 +755,7 @@ TRY.registerVocab({
     {
      "w": "[～が]交代（する）",
      "yomi": "こうたい（する）",
-     "en": "to take turns [vi.]"
+     "en": "to take turns [''vi.'']"
     },
     {
      "ln": 20,
@@ -812,7 +812,7 @@ TRY.registerVocab({
     {
      "w": "[～が]増大（する）",
      "yomi": "ぞうだい（する）",
-     "en": "to get larger [vi.]"
+     "en": "to get larger [''vi.'']"
     },
     {
      "ln": 28,
@@ -935,7 +935,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～が]__倒__れる",
      "yomi": "たおれる",
-     "en": "to fall down [vi.]"
+     "en": "to fall down [''vi.'']"
     },
     {
      "k": "◇",
@@ -948,7 +948,7 @@ TRY.registerVocab({
      "ln": 37,
      "w": "__倒__す",
      "yomi": "たおす",
-     "en": "to push down [vt.]"
+     "en": "to push down [''vt.'']"
     },
     {
      "ln": 38,
@@ -966,7 +966,7 @@ TRY.registerVocab({
      "ln": 40,
      "w": "[～が]成長（する）",
      "yomi": "せいちょう（する）",
-     "en": "to grow [vi.]"
+     "en": "to grow [''vi.'']"
     },
     {
      "ln": 42,
@@ -1035,7 +1035,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "[～が]転__倒__（する）",
      "yomi": "てんとう（する）",
-     "en": "to fall down [vi.]"
+     "en": "to fall down [''vi.'']"
     },
     {
      "n": 41,

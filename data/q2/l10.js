@@ -571,6 +571,10 @@ TRY.registerLesson({
       "Asked why they want to marry (multiple answers allowed), “being able to live with someone I love” came first at 85%, followed by “having a place where I can feel at peace” and “not wanting to be alone in old age,” both at 77%.",
       "The survey was conducted last December through the online research company Macromill. Responses were received from 1,032 of its registered panel members."
      ],
+     "headTr": [
+      "72% Say It Is Hard to Have and Raise Children; Marriage No Longer a Given",
+      "Ideal Partners and Reality Don't Always Match: 70% of Women Call Income a Non-Negotiable Condition — Internet Survey of Unmarried People Aged 25–34"
+     ],
      "credit": [
       "「朝日新聞」2019年1月13日"
      ]
@@ -1547,6 +1551,15 @@ TRY.registerLesson({
       "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. The relatively high acceptance of surveillance by security cameras may be an expression of a sense of reassurance that the cameras guarantee people's safety in their everyday surroundings.",
       "So far, we have surveyed what roles people expect their governments to play. Although the results vary with the circumstances surrounding each country, it became clear that in many countries expectations of the role the government plays are high."
      ],
+     "headTr": [
+      "Introduction",
+      "What Is Seen as the Government's Responsibility?",
+      "Fewer in Japan Than in Other Countries See Help for the Unemployed and Reducing Inequality as \"the Government's Responsibility\"",
+      "Aid to University Students from Low-Income Families as \"the Government's Responsibility\": Japan Lowest of All Countries",
+      "How Much Government Surveillance Is Acceptable?",
+      "Government Surveillance: \"Security Cameras\" More Accepted Than \"E-mail\"",
+      "Conclusion"
+     ],
      "credit": [
       "『放送研究と調査 2019年7月号』NHK放送文化研究所"
      ]
@@ -2419,7 +2432,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , Vている , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2])."
+           "en": "X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , [#Vて]いる , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2])."
           },
           {
            "en": "X and Y take the same subject."
@@ -2763,7 +2776,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "日本には、12月31日に{健康|けんこう}を願い__つつ__、そばを食べる習慣がある。",
-         "en": "In Japan, there is a traditional custom to eat soba noodles on New Year’s Eve while wishing for good health."
+         "en": "In Japan, there is a traditional custom to eat ''soba'' noodles on New Year’s Eve while wishing for good health."
         }
        ]
       }
@@ -3088,12 +3101,14 @@ TRY.registerLesson({
       "う。そのような結末を{避|さ}けるためにも、今後このイメージを変えて",
       "いく必要があると思う。"
      ],
-     "titleTr": "Men and Women Compared: The Annual Income They Want in a Marriage Partner",
      "tr": [
       "In December 2018, the Asahi Shimbun conducted an online survey of 1,032 unmarried people and asked them about \"the annual income they want in a marriage partner.\" Below, I will describe the results and analyze the trends.",
       "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and the women who want a marriage partner with an annual income of 2 million yen or more came to as much as 80% in total. This shows that women tend to care more about a marriage partner's income than men do.",
       "Could the reason for this trend be that both men and women continue to hold the idea that it is the husband who supports the household financially? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
       "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think we need to change this image from now on."
+     ],
+     "headTr": [
+      "Men and Women Compared: The Annual Income They Want in a Marriage Partner"
      ],
      "roles": [
       {
