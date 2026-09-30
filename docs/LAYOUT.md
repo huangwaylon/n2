@@ -55,6 +55,9 @@ Book greys carry the structure. `--accent` (pink) is used **only** for `**target
 | `--badge-bg` / `--badge-ink` | `#d2d2d2` / `#2b2b2b` | POS badges |
 | `--review-bg` | `#dcdcdc` | まとめの問題 page tint |
 | `--en-book` | `#6b6f75` | English printed in the book |
+| `--ink-3` | `#6a737d` (dark `#8f97a1`) | faint text (counts, captions, footer): ≥4.5:1 on `--bg` / `--panel` in both themes |
+| `--teal` / `--teal-on` | `#0b7a7c` / `#fff` (dark `#3bc9db` / `#0d1b1e`) | links, focus, primary buttons, picked answers; `--teal-on` is the text on a teal fill (white on the dark theme's light teal was 2:1) |
+| `--bk-n2` `--bk-n1` `--bk-q1` `--bk-q2` / `--bk-on` | `#b35c00` `#5b4bb7` `#c2185b` `#0b6fa0` / `#fff` | book hues in the shell only (C31) |
 | `--en` / `--en-soft` | `#2b5c9e` / `#eef4fc` | generated English, active EN buttons |
 | `--top` | 56px (52px ≤600) | topbar height |
 | `--sbw` | 260px (280px ≥1200) | sidebar width |
@@ -412,9 +415,39 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 
 ### C31 Shell and pages
 
-- **Topbar** (`shellHtml`, sticky, `height: calc(var(--top) + safe-area-top)`, translucent `--panel` with blur): ☰ (≤900) · brand "文法" (+ "TRY! companion" hidden ≤1100; brand hidden ≤480) · **N2 | N1 | Q1 | Q2** book switcher (`.book-switch`, current = pill colours; ≤429 only the current book, the others at the top of the drawer, `.sb-books`) · `.topnav` six page links (not shown: every book puts its page links at the top of the sidebar, `body.nav-sb`) (English labels hidden ≤1100, whole nav hidden ≤900) · toggles ふりがな / EN (short labels "ふ" / "EN" via `data-short` at ≤900; labels always visible) · ⚙ popover (theme, speech rate, vertical texts, reset progress; `position: fixed` below the bar at ≤900, closes on outside click and Esc). All controls 44×44.
+**Design (four books, one shell).** The site holds two kinds of book: TRY! N2 / N1 (JLPT grammar, chapter by chapter:
+見本文 → grammar points → practice) and Quartet I / II (an intermediate four-skills course: 読む・書く・話す・聞く per
+lesson). The shell is the same for all four; what differs is the adapter (TRY in `main.js`, Quartet in `q2/nav.js`).
+
+- **Where am I, what else is there:** every book has a hue (`--bk-n2` amber, `--bk-n1` violet, `--bk-q1` magenta,
+  `--bk-q2` blue; Q1/Q2 follow the books' own accents, N2/N1 take the hues between them; white text on each ≥4.7:1, dark
+  text on the lighter dark-theme values). The hue marks the current book in the switcher, the book menu and the shelf, and
+  nowhere in the book content (TRY content stays in the book's greys).
+- **Shelf** (`shelfHtml`, top of every book's home, `.shelf` / `.bk-card`): the four books with code, name, Japanese
+  title, what each is ("JLPT N2 grammar · 14 chapters · 139 points" / "Intermediate, four skills · Lessons 1–6"),
+  progress, and **続きから Continue** with the place the reader left. A card opens its book where the reader left off
+  (the book's home if never opened); the current book's card without a saved place is not a link. Phones: two compact
+  cards a row at every width (code beside the name, no Japanese title). A labelled `section` with a `p` title, not a
+  heading, since it comes before the page's h1.
+- **Continue** (`localStorage["n2.resume"]` = `{ n2: { h, t, done, total }, … }`, written by `trackResume()` 400 ms after
+  a route change, scroll or progress change): `h` is the route of the grammar point / note / strategy / review whose top
+  is in the upper third of the screen (`gp/24`, `gn/8-3`, `st/11`, `ch/3/review`), else the chapter / lesson / list
+  route; `t` is its label ("3. ホテルの仕事 · 24 対応せざるを得ない"). Home and the pages (guide, index …) are not saved.
+  `done / total` let the other books' cards show progress without loading their data (before a book has saved a total,
+  its card shows only the studied count from its progress key). The progress keys themselves are unchanged.
+- **Topbar** (`shellHtml`, sticky, `height: calc(var(--top) + safe-area-top)`, translucent `--panel` with blur): skip link
+  (`.skip`, first tab stop, shown on focus, focuses `main`) · ☰ · brand "日本語" (current book's home; hidden ≤480) ·
+  **book switcher** `.book-switch`: names "TRY! N2 · TRY! N1 · Quartet I · Quartet II" at ≥740, codes N2 · N1 · Q1 · Q2 at
+  430–739, the current book filled with its hue · ≤429: the four do not fit beside ☰ and the switches, so the current
+  code (`.book-menu`, a `details.pop` with ▾) opens the **book menu** (`.book-pop`, fixed under the bar, the shelf's cards
+  as rows `.bk-row`, filled on open so the counts are current) · switches ふりがな / EN (`role="switch"`, off track
+  outlined for 3:1; short label "ふ" ≤900; keys **F** and **E**) · ⚙ popover (theme, speech rate, vertical texts, the
+  keys, reset progress; `position: fixed` below the bar at ≤900). Popovers (`details.pop`) close on outside click and
+  Esc (focus back to their summary). All controls 44×44.
+- **Page links** (`.sb-pages`, every book, `body.nav-sb`): ホーム first, then the book's pages, two columns at the top of
+  the sidebar / drawer. (`.topnav` in the bar is kept in the markup but not shown.)
 - **Sidebar** (`sidebar()`): chapter rows `.sb-ch-link` (number chip, title, progress "3/8" / ✓), the open chapter expands its points `.sb-gps` and review link; the active point is highlighted with a `--band-edge` inset bar. Desktop: sticky, `height: calc(100dvh - var(--top))`, own scroll, `overscroll-behavior: contain`.
-- **Drawer (≤900):** fixed, `width: min(86vw, 320px)`, slides in (`body.sb-open`), scrim closes it, page scroll locked, focus moves in and is trapped (`trapDrawerFocus`), Esc and navigation close it, crossing to ≥901 closes it. Its first block `.sb-pages` holds the six page links as 44px rows in two columns.
+- **Drawer (≤900):** fixed, `width: min(86vw, 320px)`, slides in (`body.sb-open`), scrim closes it, page scroll locked, focus moves in and is trapped (`trapDrawerFocus`), Esc and navigation close it, crossing to ≥901 closes it. Its first block `.sb-pages` holds ホーム and the page links as 44px rows in two columns (the books are in the top bar's book menu, not the drawer).
 - **Pages:** `.tbl` tables; at ≤600 `.tbl.stack` (index, compare, can-do) become stacked cards with `td[data-h]::before` labels. Front matter rows carry an English row `.tbl-en` shown with EN. Index search is a 16px, 44px-tall input.
 - **単語 Vocabulary** (`vocab.js`, web-only, not in the book): chapter chips and level filter wrap as separate chips
   (`.vc-seg`; 15 don't fit one row on a phone), search. 全部 lists every word as a light row `.vc-row` (word · reading ·
@@ -461,12 +494,15 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
 | wide | `min-width: 1200px` | sidebar 280px, fixed side-tab (with `hover: hover`) |
 | desktop | 901–1199 | sidebar 260px, 縦書き in auto mode (`WIDE` in core.js) |
 | — | `max-width: 1100px` | topnav and brand drop their English/sub labels |
+| — | `min-width: 740px` | book switcher shows names (TRY! N2 … Quartet II) instead of codes |
 | tablet | `max-width: 900px` | drawer + ☰, topnav hidden, short switch labels, `--main-pad` 20 |
 | — | `max-width: 700px` | matching and keigo tables collapse to one column |
 | phone | `max-width: 600px` | `--top` 52, `--main-pad` 14; full-bleed banner, 見本文 and review band; scoped EN buttons; stacked tables; mini-TOC collapsed |
 | small phone | `max-width: 390px` | `--main-pad` 12, body 15.5px, the smaller type steps in 0.3 |
 | — | `max-width: 480px` | brand hidden |
-| small phone bar | `max-width: 429px` | book switcher shows only the current book (the others move into the drawer), tighter topbar |
+| small phone bar | `max-width: 429px` | the switcher becomes the current book's code opening the book menu, tighter topbar |
+| landscape phone | `max-height: 500px` and landscape | `--top` 48 (controls stay 44) |
+| reduced motion | `prefers-reduced-motion: reduce` | transitions and animations off |
 | touch | `pointer: coarse` | every target ≥44×44 (padding or `::after` hit extension) |
 | hover | `hover: hover` | hover styles only here (no sticky hover on iOS) |
 
@@ -502,6 +538,7 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
 | `.btn`, `.ex-actions .btn` | 44 | 44 |
 | `.pager a` | ≥56 | ≥56 |
 | `.sb-ch-link`, `.sb-gps a`, `.sb-pages a` | 44 | 44 |
+| `.book-menu summary`, `.bk-row`, `.bk-card` | 44 / ≥60 | same |
 | `.script summary`, `.deep summary` | 44 | 44 |
 
 Inline boxes in running text sit on the text and never enlarge the line box: blanks and write-in inputs are 1.4–1.45em tall with `vertical-align: text-bottom`, badges 1.45em, tap areas come from transparent `::after` / padding.

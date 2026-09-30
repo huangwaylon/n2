@@ -128,7 +128,7 @@ pill, connection formulas with bracket stacks, ①② examples, 📎 clip notes,
 - Theme: `settings.theme` (auto/light/dark); `boot.js` sets `<html data-theme>`; dark tokens in
   `:root[data-theme="dark"]` (base.css). Use tokens, never hard-coded colours that break one theme.
 - Progress per book in `localStorage` (`n2.progress`, `n2.progress.n1`, `n2.progress.q1`, `n2.progress.q2`); settings shared
-  (`n2.settings`, incl. `sidebar` — ☰ hides the sidebar at ≥901). Keep these keys stable.
+  (`n2.settings`, incl. `sidebar` — ☰ hides the sidebar at ≥901). Keep these keys stable. `n2.resume` holds each book's last place and counts for the home shelf's 続きから Continue.
 - The shell (`main.js`) is shared; what differs per book is an adapter (TRY books in `main.js`, Quartet in
   `assets/js/q2/nav.js`). Every book keeps its page links in the sidebar (`body.nav-sb`).
 - Commit and push small, verified checkpoints.

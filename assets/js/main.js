@@ -2,7 +2,7 @@
 // The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
 // data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
 // for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
-import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, chapterPoints, esc, findPoint, isWide, loadProgress, progress, saveProgress, saveSettings, settings, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, loadProgress, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
 import { chapterView, setVertical, vtScrollInit } from "./content.js";
@@ -19,26 +19,48 @@ const needVocab = (h) => (A !== TRY_BOOK || !/^vocab/.test(h) || vocabDone ? nul
   : (vocabLoad = vocabLoad || TRY.load(TRY.chapterFiles("vocab/")).then(() => (vocabDone = true))));
 
 // ---------- shell ----------
+const bookHref = (o, h = "") => new URL(o.dir, SITE).pathname + (h ? `#/${h}` : "");
+// the four books: code, name, what it is; progress and "continue" from n2.resume (the current book: live counts)
+function bookCard(o, cls) {
+  const cur = o.id === BOOK().id, r = resume()[o.id] || {}, st = cur ? stats() : r;
+  const done = st.total ? st.done : studiedIn(o.id), total = st.total;
+  const prog = total ? `<span class="bk-prog"><span class="bar"><span style="width:${(100 * done) / total}%"></span></span><span>${done} / ${total}</span></span>` : "";
+  const go = r.h ? `<span class="bk-go">続きから <span class="en-inline">Continue</span> <b>${esc(r.t || r.h)}</b></span>`
+    : `<span class="bk-go bk-go--new">${cur ? "この本 <span class=\"en-inline\">This book</span>" : "開く <span class=\"en-inline\">Open</span>"}</span>`;
+  const body = `<span class="bk-code">${o.label}</span><span class="bk-b"><span class="bk-name">${esc(o.name)}</span><span class="bk-ja">${esc(o.ja)}</span>
+    <span class="bk-about">${[o.about].concat(o.size.split(" · ")).map((x) => `<span>${esc(x)}</span>`).join(" · ")}</span><span class="bk-foot">${prog}${go}</span></span>`;
+  // the current book without a saved place is this page: not a link
+  return cur && !r.h ? `<div class="${cls}" data-bk="${o.id}" aria-current="page">${body}</div>`
+    : `<a class="${cls}" data-bk="${o.id}" href="${cur ? "#/" + r.h : bookHref(o, r.h)}"${cur ? ' aria-current="page"' : ""}>${body}</a>`;
+}
+// every book's home opens with the shelf: which books there are, what each is for, where the reader left off (a
+// labelled section, not a heading: it comes before the page's h1)
+const shelfHtml = () => `<section class="shelf" aria-labelledby="shelf-h"><p class="shelf-h" id="shelf-h">教科書 <span class="en-inline">Textbooks · TRY! = JLPT grammar, chapter by chapter · Quartet = intermediate reading, writing, speaking and listening</span></p>
+  <div class="shelf-grid">${BOOKS.map((o) => bookCard(o, "bk-card")).join("")}</div></section>`;
 function shellHtml() {
-  const b = BOOK();
-  const pageLinks = A.pages.map(([id, ja, e]) => `<a href="#/${id}">${ja}<span class="en-inline"> ${e}</span></a>`).join("");
+  const b = BOOK(), cur = BOOKS.find((o) => o.id === b.id);
+  const pageLinks = [["", "ホーム", "Home"]].concat(A.pages).map(([id, ja, e]) => `<a href="#/${id}">${ja}<span class="en-inline"> ${e}</span></a>`).join("");
   const select = (id, opts) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}">${l}</option>`).join("")}</select>`;
-  return `<header class="topbar">
-  <button class="sb-toggle" data-act="sb" aria-label="メニュー Menu" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
-  <a class="brand" href="#/" aria-label="日本語 ホーム Home"><span class="brand-t">日本語</span></a>
-  <nav class="book-switch" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.title)}">${o.label}</a>`).join("")}</nav>
+  return `<a class="skip" href="#main" data-act="skip">本文へ <span class="en-inline">Skip to content</span></a>
+<header class="topbar">
+  <button class="sb-toggle" data-act="sb" aria-label="目次 Contents" aria-expanded="false" aria-controls="sidebar"><span class="sb-bars" aria-hidden="true"></span></button>
+  <a class="brand" href="#/" aria-label="${esc(cur.name)} ホーム Home"><span class="brand-t">日本語</span></a>
+  <nav class="book-switch" aria-label="本 Books">${BOOKS.map((o) => `<a href="${bookHref(o)}" data-bk="${o.id}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.name)} ${esc(o.ja)}"><span class="bs-code">${o.label}</span><span class="bs-name">${esc(o.name)}</span></a>`).join("")}</nav>
+  <details class="book-menu pop"><summary data-bk="${b.id}" aria-label="本 Book: ${esc(cur.name)}"><span class="bs-code">${cur.label}</span><span class="bm-caret" aria-hidden="true"></span></summary>
+    <nav class="book-pop" aria-label="本 Books"></nav></details>
   <nav class="topnav" aria-label="ページ Pages">${pageLinks}</nav>
   <div class="toggles">
-    <label class="switch" title="Furigana"><input type="checkbox" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
-    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
-    <details class="settings"><summary title="設定 Settings" aria-label="設定 Settings"><span aria-hidden="true">⚙</span></summary>
+    <label class="switch" title="Furigana (shortcut: F)"><input type="checkbox" role="switch" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
+    <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" role="switch" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
+    <details class="settings pop"><summary title="設定 Settings" aria-label="設定 Settings"><span aria-hidden="true">⚙</span></summary>
       <div class="settings-pop">
         <label class="set-row">画面の色 <span class="en-inline">Theme</span>
           ${select("theme-set", [["auto", "自動 Auto (system)"], ["light", "ライト Light"], ["dark", "ダーク Dark"]])}</label>
         <label class="set-row">音声の速さ <span class="en-inline">Speech rate</span> <span id="rate-v"></span><input type="range" id="rate" min="0.5" max="1.4" step="0.1"></label>
         <label class="set-row">縦書きの文章 <span class="en-inline">Vertical texts</span>
           ${select("vmode-set", [["auto", "自動 Auto"], ["v", "縦 Vertical"], ["h", "横 Horizontal"]])}</label>
-        <button class="btn small" data-act="reset-progress">進度をリセット <span class="en-inline">Reset progress</span></button>
+        <p class="set-keys">キー <span class="en-inline">Keys</span>: <kbd>F</kbd> ふりがな · <kbd>E</kbd> English · <kbd>Esc</kbd> <span class="en-inline">close</span></p>
+        <button class="btn small" data-act="reset-progress">進度をリセット <span class="en-inline">Reset progress (this book)</span></button>
       </div>
     </details>
   </div>
@@ -46,14 +68,49 @@ function shellHtml() {
 <div class="layout">
   <aside class="sidebar" id="sidebar" aria-label="目次 Contents">
     <nav class="sb-pages" aria-label="ページ Pages">${pageLinks}</nav>
-    <nav class="sb-books" aria-label="本 Book">${BOOKS.map((o) => `<a href="${new URL(o.dir, SITE).pathname}"${o.id === b.id ? ' aria-current="page"' : ""}>${o.label}<span class="en-inline"> ${esc(o.title)}</span></a>`).join("")}</nav>
     <div id="sb-nav"></div>
   </aside>
   <div class="sb-scrim" data-act="sb"></div>
-  <main id="main"></main>
+  <main id="main" tabindex="-1"></main>
 </div>
 <footer class="site-foot"><p>${b.footer}</p></footer>`;
 }
+
+// ---------- progress and "continue" (n2.resume) ----------
+let Q = null; // the Quartet module (q2/nav.js), for its notes
+// studied / total: TRY grammar points; Quartet grammar notes (keys n<lesson>-<no>, as q2/nav.js counts them)
+function stats() {
+  if (!TRY.book || (Q && !TRY.lessons.length) || (!Q && !TRY.chapters.length)) return {};
+  const keys = Q ? Q.allNotes().map((x) => `n${x.l.id}-${x.b.no}`) : allPoints().map((x) => x.g.no);
+  return { done: keys.filter((k) => progress.studied[k]).length, total: keys.length };
+}
+const txt = (el) => { if (!el) return ""; const c = el.cloneNode(true); c.querySelectorAll("rt, .sr-only, .en, .en-btn").forEach((x) => x.remove()); return c.textContent.replace(/\s+/g, " ").trim(); };
+// the section the reader is in: the last grammar point / note / strategy / review whose top is in the upper third
+const ANCHORS = '[id^="gp-"], [id^="gn-"], [id^="st-"], [id^="review-"]';
+function place(main) {
+  const lim = innerHeight / 3;
+  return $$(ANCHORS, main).filter((el) => el.getBoundingClientRect().top <= lim).pop() || null;
+}
+function trackResume() {
+  const main = $("#main"), h = main.dataset.view;
+  if (h == null) return;
+  const rec = stats();
+  // chapters, lessons, units and vocabulary lists are places to come back to; home and the other pages are not
+  if (main.dataset.ch || /^vocab\/\d/.test(h)) {
+    const a = place(main), ch = main.dataset.ch, id = a ? a.id : "", n = id.replace(/^\w+-/, "");
+    rec.h = /^gp-/.test(id) ? `gp/${n}` : /^review-/.test(id) ? `ch/${n}/review` : /^gn-/.test(id) ? `gn/${ch}-${n}` : /^st-/.test(id) ? `st/${n}`
+      : /^gp\//.test(h) ? `ch/${ch}` : h;
+    const pre = A.docTitle(main).split(" – "), h1 = txt($("h1 .ja", main) || $("h1", main));
+    let t = pre.length > 1 ? pre[0] : h1;
+    if (h1 && !t.includes(h1)) t += " · " + h1;
+    if (a) t += /^review-/.test(id) ? " · まとめの問題" : ` · ${n} ${txt($("h3", a))}`;
+    rec.t = t;
+  }
+  saveResume(rec);
+}
+let resumeT = 0;
+const queueResume = () => { clearTimeout(resumeT); resumeT = setTimeout(trackResume, 400); };
+ACT.skip = (t, e) => { e.preventDefault(); $("#main").focus(); };
 
 // ---------- TRY books (n2, n1): pages, sidebar, routes ----------
 const TRY_PAGES = [["about", "この本について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"],
@@ -114,7 +171,7 @@ function route(force) {
   if (loading) return loading.then(() => route(true));
   if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
     const html = A.viewHtml(h, t);
-    main.innerHTML = html || notFound();
+    main.innerHTML = (h ? "" : shelfHtml()) + (html || notFound());
     layout(main);
     main.dataset.view = h;
     main.dataset.ch = html && t.ch ? t.ch : "";
@@ -126,6 +183,7 @@ function route(force) {
   if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
   else window.scrollTo(0, 0);
   document.title = A.docTitle(main);
+  queueResume();
 }
 // jumping between the grammar points (or to the review) of the chapter on screen keeps its DOM
 function sameChapterJump() {
@@ -134,6 +192,7 @@ function sameChapterJump() {
   if (!el) return false;
   el.scrollIntoView({ block: "start" });
   markActive(h);
+  queueResume();
   return true;
 }
 // re-render the current view in place (a setting changed how content is built)
@@ -205,14 +264,18 @@ document.addEventListener("try:rerender", () => rerender());
 document.addEventListener("try:setting-vertical", () => { saveSettings(); applySettings(); rerender(); });
 function wireEvents() {
   document.addEventListener("click", (e) => {
-    // close the ⚙ popover on any click outside it
-    const st = $(".settings");
-    if (st && st.open && !st.contains(e.target)) st.open = false;
+    // close the ⚙ / book popovers on any click outside them
+    $$("details.pop[open]").forEach((d) => { if (!d.contains(e.target)) d.open = false; });
     const t = e.target.closest("[data-act]");
     const f = t && ACT[t.dataset.act];
     if (f) { const r = f(t, e); queueFit(); return r; }
   });
-  document.addEventListener("toggle", () => queueFit(), true);
+  document.addEventListener("toggle", (e) => {
+    // the book menu (phones) is filled when it opens, so its counts and places are current
+    if (e.target.classList && e.target.classList.contains("book-menu") && e.target.open) $(".book-pop").innerHTML = BOOKS.map((o) => bookCard(o, "bk-row")).join("");
+    queueFit();
+  }, true);
+  addEventListener("scroll", queueResume, { passive: true });
   window.addEventListener("resize", () => { clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); }, 150); });
   if (document.fonts) document.fonts.ready.then(() => queueFit(true));
   document.addEventListener("change", (e) => {
@@ -235,12 +298,16 @@ function wireEvents() {
     const rb = e.target.closest && e.target.closest('[role="button"][data-act]');
     if (rb && rb.tagName !== "BUTTON" && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); rb.click(); return; }
     if (e.key === "Escape") {
-      const st = $(".settings");
-      if (st && st.open) { st.open = false; $("summary", st).focus(); return; }
+      const st = $("details.pop[open]");
+      if (st) { st.open = false; $("summary", st).focus(); return; }
       if (isDrawerOpen()) { setDrawer(false); return; }
     }
     if (e.key === "Tab" && isDrawerOpen() && !isWide()) trapDrawerFocus(e);
-    if (e.key === "e" && !/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName) && !e.metaKey && !e.ctrlKey) setSetting("english", !settings.english);
+    // single-key shortcuts, except while typing (text fields, selects) or with a modifier
+    const ae = document.activeElement, typing = e.metaKey || e.ctrlKey || e.altKey || ae.isContentEditable
+      || /SELECT|TEXTAREA/.test(ae.tagName) || (ae.tagName === "INPUT" && !/^(checkbox|radio|range)$/.test(ae.type));
+    if (e.key === "e" && !typing) setSetting("english", !settings.english);
+    if (e.key === "f" && !typing) { setSetting("furigana", !settings.furigana); queueFit(true); }
   });
   window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
@@ -248,7 +315,7 @@ function wireEvents() {
 }
 
 async function init() {
-  if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
+  if (BOOK().kind === "quartet") { Q = await import("./q2/nav.js"); A = Q.QUARTET; }
   // a vocab page opened directly: its lists load alongside the book's data
   needVocab(hashRoute());
   document.body.dataset.book = BOOK().id;
@@ -261,7 +328,7 @@ async function init() {
   wireEvents();
   const failed = await TRY.ready;
   A.sidebar();
-  document.addEventListener("try:progress", A.updateProgress);
+  document.addEventListener("try:progress", () => { A.updateProgress(); queueResume(); });
   route();
   if (failed.length) $("#main").insertAdjacentHTML("afterbegin", `<p class="err">${failed.map(esc).join("<br>")}</p>`);
 }

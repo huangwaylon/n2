@@ -7,10 +7,14 @@ export const TRY = window.TRY;
 const BOOK_DEFAULTS = { bookLang: "en", notesFirst: false };
 export const BOOK = () => Object.assign({}, BOOK_DEFAULTS, TRY.book);
 export const bookEnglish = () => BOOK().bookLang === "en";
-// the books of the site: id, top-bar label, page directory under the site root
+// the books of the site: id, top-bar code, page directory under the site root, name, Japanese title, what the book is
+// (kind, en) and its size (shown until the book has been opened; then the saved counts), for the switcher and the shelf
 export const SITE = new URL("../../", import.meta.url); // site root
-export const BOOKS = [{ id: "n2", label: "N2", dir: "", title: "TRY! N2 文法" }, { id: "n1", label: "N1", dir: "n1/", title: "TRY! N1 文法" },
-  { id: "q1", label: "Q1", dir: "q1/", title: "Quartet I 中級日本語カルテット" }, { id: "q2", label: "Q2", dir: "q2/", title: "Quartet II 中級日本語カルテット" }];
+export const BOOKS = [
+  { id: "n2", label: "N2", dir: "", name: "TRY! N2", title: "TRY! N2 文法", ja: "日本語能力試験 N2 文法", kind: "try", about: "JLPT N2 grammar", size: "14 chapters · 139 points" },
+  { id: "n1", label: "N1", dir: "n1/", name: "TRY! N1", title: "TRY! N1 文法", ja: "日本語能力試験 N1 文法", kind: "try", about: "JLPT N1 grammar", size: "10 chapters · 123 points" },
+  { id: "q1", label: "Q1", dir: "q1/", name: "Quartet I", title: "Quartet I 中級日本語カルテット", ja: "中級日本語カルテット\u00a0I", kind: "quartet", about: "Intermediate, four skills", size: "Lessons 1–6" },
+  { id: "q2", label: "Q2", dir: "q2/", name: "Quartet II", title: "Quartet II 中級日本語カルテット", ja: "中級日本語カルテット\u00a0II", kind: "quartet", about: "Intermediate, four skills", size: "Lessons 7–12" }];
 
 // ---------- storage ----------
 // settings are shared by all books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1" / ".q1" / ".q2")
@@ -27,6 +31,12 @@ export const progress = { studied: {}, scores: {} };
 export const loadProgress = () => Object.assign(progress, { studied: {}, scores: {} }, LS.get(progressKey(), {}));
 // listeners (the sidebar) hear about every change through the "try:progress" event
 export const saveProgress = () => { LS.set(progressKey(), progress); document.dispatchEvent(new Event("try:progress")); };
+// where the reader was in each book, for "continue" on every book's home: "n2.resume" = { n2: { h: route, t: label,
+// done, total }, n1: …, q1: …, q2: … } (written by main.js on route changes and while scrolling)
+export const resume = () => LS.get("resume", {});
+export const saveResume = (rec) => { const r = resume(); r[BOOK().id] = Object.assign(r[BOOK().id] || {}, rec); LS.set("resume", r); };
+// studied count of another book (its progress key), shown on the shelf when that book has never saved a total
+export const studiedIn = (id) => Object.values(LS.get(id === "n2" ? "progress" : `progress.${id}`, {}).studied || {}).filter(Boolean).length;
 
 // ---------- helpers ----------
 export const $ = (s, r = document) => r.querySelector(s);

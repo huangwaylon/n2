@@ -78,6 +78,13 @@ export function guideView() {
         ${li("やってみよう！ / Check / まとめの問題", { ja: "練習問題。「答え合わせ」を押すと採点されます。結果はブラウザに保存されます。", en: "Practice. Press “Check answers” to grade; scores are saved in your browser." })}
         ${li("🔊 / ▶", { ja: "ブラウザの音声合成で読み上げます（聴解問題も）。速さは⚙で変えられます。", en: "Read aloud with your browser's Japanese text-to-speech (also used for the listening questions). Adjust the speed in ⚙." })}
       </ul>
+      <h2>画面 <span class="en-inline">Screen</span></h2>
+      <ul class="legend">
+        ${li("TRY! N2 · TRY! N1 · Quartet I · Quartet II", { ja: "上のバーで本を切り替えます（スマホでは本のマークを押します）。ホームの「教科書」に四冊の内容と進み具合があります。", en: "Switch books in the top bar (on a phone, tap the book's code). The Textbooks row on each home page shows what each book is and how far you are." })}
+        ${li("続きから", { ja: "前回読んでいた所に戻ります。本ごとに、このブラウザに保存されます。", en: "Continue: back to where you were reading. Saved per book in this browser." })}
+        ${li("☰", { ja: "目次を表示・非表示にします。", en: "Show or hide the table of contents." })}
+        <li><b>ふりがな / EN</b> — ${ui({ ja: "読み仮名と英語を表示します。キーボードでは F と E。", en: "Show readings and English. Keyboard: F and E." }, "span")}</li>
+      </ul>
       <h2>英語 <span class="en-inline">English</span></h2>
       <ul class="legend">
         ${bookEnglish() ? `<li><span class="en en--book legend-en">Printed in the book</span> — ${ui({ ja: "本に印刷されている英語（使い方・注・できること）。", en: "English the book itself prints (usage explanations, notes, can-do lists)." }, "span")}</li>` : ""}

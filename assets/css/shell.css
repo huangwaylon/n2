@@ -9,25 +9,38 @@
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); font-size: 18px; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
 .brand-sub { font-size: 12px; color: var(--ink-3); font-weight: 400; margin-left: 6px; }
-/* N2 | N1 book switcher next to the brand */
+/* the four books. Each book's hue (--bk-*) marks it in the switcher, the book menu and the shelf */
+[data-bk="n2"] { --bk: var(--bk-n2); } [data-bk="n1"] { --bk: var(--bk-n1); } [data-bk="q1"] { --bk: var(--bk-q1); } [data-bk="q2"] { --bk: var(--bk-q2); }
+/* switcher: names ("TRY! N2" … "Quartet II") from 740px, codes from 430px; the current book filled with its hue */
 .book-switch { display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
-.book-switch a { display: grid; place-items: center; min-width: 40px; min-height: 32px; padding: 0 8px; font: 700 13px/1 var(--goth); color: var(--ink-2); }
+.book-switch a { display: grid; place-items: center; min-width: 40px; min-height: 32px; padding: 0 8px; font: 700 13px/1 var(--goth); color: var(--ink-2); white-space: nowrap; }
 .book-switch a + a { border-left: 1px solid var(--line); }
-.book-switch a[aria-current] { background: var(--pill); color: var(--pill-ink); }
-@media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; } }
+.book-switch a[aria-current] { background: var(--bk); color: var(--bk-on); }
+.bs-name { display: none; }
+@media (min-width: 740px) { .bs-code { display: none; } .bs-name { display: inline; } .book-switch a { padding: 0 11px; } }
+@media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; box-shadow: inset 0 -3px 0 var(--bk); } }
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
-/* phones: the switcher already names the book, so the brand goes; below 430 the bar tightens too */
+/* phones: the brand goes (the book code names the book), and below 430 the four codes do not fit beside ☰ and the
+   switches (they ran 29px past a 390 screen): the current book's code opens the book menu instead */
 @media (max-width: 480px) { .brand { display: none; } }
-.sb-books { display: none; }
-/* phones: only the current book in the bar; the other books move into the drawer (four books with ☰ and the toggles
-   need about 430px: at 390 the bar ran 29px past the screen) */
+.book-menu { display: none; }
+.book-menu summary { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 4px; min-width: 44px; height: 44px; padding: 0 8px 0 10px;
+  border-radius: 8px; background: var(--bk); color: var(--bk-on); font: 700 13px/1 var(--goth); }
+.book-menu summary::-webkit-details-marker { display: none; }
+.bm-caret { width: 0; height: 0; border: 4px solid transparent; border-top: 5px solid currentColor; border-bottom: 0; }
+.book-menu[open] .bm-caret { transform: rotate(180deg); }
+.book-pop { position: fixed; z-index: 40; left: calc(8px + var(--safe-l)); right: calc(8px + var(--safe-r)); top: calc(var(--top) + env(safe-area-inset-top, 0px) + 6px);
+  max-height: calc(100dvh - var(--top) - env(safe-area-inset-top, 0px) - 16px); overflow-y: auto; overscroll-behavior: contain;
+  display: grid; gap: 2px; padding: 6px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 8px 24px rgba(0,0,0,.18); }
 @media (max-width: 429px) {
-  .book-switch a:not([aria-current]) { display: none; }
-  .sb-books { display: grid; gap: 2px; padding: 4px 8px 10px; border-bottom: 1px solid var(--line); margin-bottom: 6px; }
-  .sb-books a { display: flex; align-items: center; gap: .6em; min-height: 44px; padding: 0 10px; border-radius: 8px; color: var(--ink); font-weight: 700; }
-  .sb-books a[aria-current] { background: var(--band); }
+  .book-switch { display: none; }
+  .book-menu { display: block; }
   .topbar { gap: 6px; padding-left: calc(6px + var(--safe-l)); padding-right: calc(6px + var(--safe-r)); }
   .topbar .switch { padding: 0 3px; } }
+/* skip link: first in the tab order, shown only when focused */
+.skip { position: absolute; left: calc(8px + var(--safe-l)); top: 6px; z-index: 50; padding: 10px 14px; border-radius: 8px; background: var(--panel); color: var(--ink);
+  border: 2px solid var(--teal); transform: translateY(-200%); }
+.skip:focus { transform: none; }
 .topnav { display: flex; gap: 2px; flex: 1; min-width: 0; }
 .topnav a { display: inline-block; padding: 6px 10px; line-height: 24px; color: var(--ink-2); border-radius: 8px; white-space: nowrap; font-size: 14px; }
 .topnav a.active { background: var(--band); color: var(--ink); }
@@ -38,7 +51,9 @@
 /* visually hidden but focusable (keyboard toggles the switch) */
 .switch input { position: absolute; width: 1px; height: 1px; opacity: 0; margin: 0; pointer-events: none; }
 .switch input:focus-visible + .sw { outline: 2px solid var(--teal); outline-offset: 2px; }
-.sw { flex: none; width: 38px; height: 22px; background: var(--line); border-radius: 11px; position: relative; transition: 0.2s; }
+/* the off track is outlined: a --line fill alone is 1.2:1 against the bar (UI parts need 3:1) */
+.sw { flex: none; width: 38px; height: 22px; background: var(--line); box-shadow: inset 0 0 0 1px var(--ink-3); border-radius: 11px; position: relative; transition: 0.2s; }
+.switch input:checked + .sw { box-shadow: none; }
 .sw::after { content: ""; position: absolute; width: 18px; height: 18px; top: 2px; left: 2px; background: #fff; border-radius: 50%; transition: 0.2s; box-shadow: 0 1px 2px rgba(0,0,0,.3); }
 .switch input:checked + .sw { background: var(--teal); }
 #tg-en:checked + .sw { background: var(--en); }
@@ -50,6 +65,8 @@
 .settings-pop { position: absolute; right: 0; top: 48px; z-index: 40; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.14); display: grid; gap: 14px; font-size: 14px; line-height: 1.6; }
 .set-row { display: grid; gap: 4px; }
 .settings-pop input[type=range] { width: 100%; min-height: 32px; }
+.set-keys { margin: 0; color: var(--ink-2); font-size: 13px; }
+kbd { display: inline-block; min-width: 1.6em; padding: 0 .35em; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; font: 600 12px/1.5 system-ui, sans-serif; text-align: center; color: var(--ink); background: var(--bg); }
 .settings-pop select { font: inherit; padding: 6px 8px; min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
 .sb-toggle { display: grid; flex: none; width: 44px; height: 44px; margin-left: -8px; background: none; border: 0; border-radius: 8px; color: var(--ink); cursor: pointer; place-items: center; padding: 0; }
 .sb-bars, .sb-bars::before, .sb-bars::after { display: block; width: 20px; height: 2px; border-radius: 1px; background: currentColor; }
@@ -86,7 +103,7 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 .sb-scrim { display: none; }
 
 /* desktop: ☰ hides the sidebar (settings.sidebar); the content column recentres in the full width */
-@media (min-width: 901px) { body.sb-hidden .sidebar { display: none; } }
+@media (min-width: 901px) { body.sb-hidden .sidebar { display: none; } body.sb-hidden .site-foot { margin-left: 0; } }
 /* TRY books (body.nav-sb): the page links sit at the top of the sidebar at every width, not in the top bar */
 body.nav-sb .topnav { display: none; }
 body.nav-sb .sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
@@ -121,6 +138,44 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 @media (max-width: 600px) { .brand { font-size: 17px; } }
 
 /* ---------- home ---------- */
+/* shelf: the four books at the top of every book's home (what each is, progress, continue); the book menu rows (.bk-row) share the parts */
+.shelf { margin: 0 0 22px; }
+.shelf-h { margin: 0 0 8px; font-size: 14px; font-weight: 700; color: var(--ink-2); line-height: 1.5; }
+.shelf-h .en-inline { font-size: 12px; }
+.shelf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(172px, 100%), 1fr)); gap: 10px; }
+.bk-card, .bk-row { display: flex; gap: 10px; min-width: 0; color: var(--ink); line-height: 1.45; }
+/* card: code beside the name, the rest under both at full card width (four cards share the 800px column) */
+.bk-card { display: grid; grid-template-columns: auto minmax(0, 1fr); grid-template-rows: auto auto auto 1fr; align-items: center; gap: 4px 10px;
+  padding: 10px 12px 12px; background: var(--panel); border: 1px solid var(--line); border-top: 4px solid var(--bk); border-radius: 10px; }
+.bk-card .bk-b { display: contents; }
+.bk-card .bk-ja, .bk-card .bk-about, .bk-card .bk-foot { grid-column: 1 / -1; }
+.bk-card .bk-foot { align-self: end; }
+.bk-card[aria-current] { border-color: var(--bk); box-shadow: inset 0 0 0 1px var(--bk); }
+.bk-row { padding: 8px 10px; border-radius: 8px; }
+.bk-row[aria-current] { background: var(--band); }
+.bk-code { flex: none; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 8px; background: var(--bk); color: var(--bk-on); font: 700 14px/1 var(--goth); }
+.bk-b { display: flex; flex-direction: column; gap: 2px; min-width: 0; flex: 1; }
+.bk-foot { display: grid; gap: 2px; margin-top: auto; padding-top: 4px; }
+.bk-name { font-weight: 700; font-size: 15px; }
+.bk-ja { display: block; font-weight: 400; font-size: 12px; color: var(--ink-2); word-break: keep-all; overflow-wrap: anywhere; }
+.bk-about { font-size: 12px; color: var(--ink-3); }
+.bk-about > span { white-space: nowrap; }
+.bk-prog { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--ink-2); }
+.bk-prog .bar { flex: 1; width: auto; }
+.bk-go { font-size: 13px; color: var(--teal); overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.bk-go b { font-weight: 500; }
+.bk-go--new { color: var(--ink-3); }
+div.bk-card .bk-go--new { color: var(--ink-2); }
+@media (hover: hover) { a.bk-card:hover { border-color: var(--bk); text-decoration: none; } a.bk-row:hover { background: var(--band); text-decoration: none; } }
+/* phones: two cards a row down to 340px, then one; the English half of the heading on its own line */
+.bk-about > span:first-child { white-space: normal; }
+/* phones: two compact cards a row at every width (no Japanese title) */
+@media (max-width: 600px) {
+  .shelf-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .bk-card { gap: 4px 8px; padding: 8px 10px 10px; }
+  .bk-card .bk-ja { display: none; }
+  .bk-code { width: 30px; height: 30px; font-size: 13px; }
+  .shelf-h .en-inline { display: block; } }
 .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 28px 30px; margin-bottom: 28px; }
 .hero h1 { margin: 0 0 8px; font-family: var(--serif); font-size: 32px; }
 .hero-sub { display: block; font-family: var(--jp); font-size: 16px; color: var(--ink-2); font-weight: 500; }
