@@ -1,41 +1,53 @@
-# Chapter data schema
+# TRY data schema (N2, N1)
 
-The two TRY books share this schema: `data/n2/` (TRY! N2, root `index.html`) and `data/n1/` (TRY! N1, Chinese
-edition, `n1/index.html`). The Quartet books (`data/q1/`, `data/q2/`) have their own block model:
-`data/Q2-SCHEMA.md`. Every chapter lives in `data/<book>/chNN.js` and calls `TRY.registerChapter({...})`; edit these
-files directly. `compare.js` calls `TRY.registerCompare([...])`, `front.js` `TRY.registerFront([...])`.
-The site renders everything from these objects — there is no build step.
+`data/n2/` (TRY! N2) and `data/n1/` (TRY! N1, Chinese edition) share this schema; the Quartet books use
+`data/Q2-SCHEMA.md`. Files are edited directly (no build step): `book.js` → `TRY.registerBook`, `chNN.js` →
+`TRY.registerChapter` (one per chapter), `compare.js` → `TRY.registerCompare([...])` (similar-pattern groups),
+`front.js` → `TRY.registerFront([...])`, `vocab/chNN.js` → `TRY.registerVocab` ("Vocabulary").
 
 ## Books
 
-`data/<book>/book.js` calls `TRY.registerBook({ id, level, chapters, bookLang, notesFirst, bookTitle, credit, footer })`
-before the chapters load (`chapters` = how many chNN.js files to load). `bookLang` is the language of the translations
-the book itself prints:
+`TRY.registerBook({ id, level, chapters, bookLang, notesFirst, bookTitle, credit, footer })`; `chapters` = how many
+chNN.js files to load. `bookLang` is the language of the translations the book prints:
 
-- `"en"` (N2): the English on usage explanations, ＊ notes, 📎 notes, ＋Plus usage, can-do, titles and the front matter
-  is the book's (rendered grey, `en--book`) and must be verbatim. Where the book prints no English for such a field, our
-  English goes in with `gen: true` on the object (`usage: { ja, en, gen: true }`). All other `en` is ours.
-- `"ja"` (N1, transcribed from the Chinese edition): the book's Chinese translations are **not** reproduced (no `zh`
-  fields anywhere); **every** `en` is our own translation, written for English-speaking learners of Japanese.
-  See `docs/N1-TRANSCRIPTION.md` for the N1 page map and conventions.
+- `"en"` (N2): the English of usage, ＊ formNotes, 📎 notes, ＋Plus usage, can-do, chapter genre/title and front matter
+  is the book's and must be verbatim. Where the book prints none for such a field, ours goes in with `gen: true` on the
+  object (`usage: { ja, en, gen: true }`). All other `en` is ours.
+- `"ja"` (N1): the Chinese is not reproduced (no `zh` fields; `tools/check.js` fails on one); every `en` is ours.
+  N1 page map and conventions: `docs/N1-TRANSCRIPTION.md`.
 
-## Inline markup (usable in any Japanese or English string)
+`notesFirst: true` (N1): 📎 notes print before やってみよう (N2 prints them after); a point printed the other way sets
+`notesFirst` on the point.
 
-| Markup | Renders as | Example |
-|---|---|---|
-| `{漢字\|かんじ}` | ruby / furigana | `{募集\|ぼしゅう}` |
-| `**text**` | highlighted target grammar | `オープン**につき**` |
-| `__text__` | underlined text (a phrase a reading question refers to) | `__{真実|しんじつ}を{包|つつ}み{隠|かく}さず{伝|つた}える{人物|じんぶつ}__` |
-| `[N]` `[V-る]` `[V-て]` `[V-た]` `[V-ない]` `[いA]` `[なA]` `[Pl]` `[V-ば]` `[V-よう]` `[V-られる]` `[V-させる]` `[V-できる]` `[文]` `[数]` | part-of-speech badge (connection formulas); `[文]` = sentence, `[数]` = number (N1) | `[N] + につき` |
-| `~~x~~` inside a badge | struck-through ending (stem) | `[V-~~ます~~]`, `[いA~~い~~]`, `[なA~~な~~]`, `[N~~だ~~]` |
-| `＿＿` | blank line in a question | `会議は＿＿行われます。` |
-| `（　）` | bracket blank in a question | `体力（　）無理のないように` |
-| `\n` | line break | dialogues inside questions |
+## Inline markup
 
-Furigana rule: add `{漢字|よみ}` to kanji words at roughly N3 level and above
-(and to anything with an unusual reading). Leave very common N5/N4 kanji bare
-(日本, 人, 行く, 今日, 大きい, 会社 …). Readings must be correct; split
-okurigana out of the ruby: `{届|とど}ける`, not `{届ける|とどける}`.
+Usable in any Japanese or English string; rendered by `fmt()` (markup.js).
+
+| Markup | Renders as |
+|---|---|
+| `{漢字\|かんじ}` | furigana; okurigana outside: `{届\|とど}ける`, not `{届ける\|とどける}`; the base is never kana |
+| `**text**` | target grammar (bold, accent) |
+| `__text__` | underline (a phrase a question refers to) |
+| `[N]` `[V-る]` `[V-ない]` `[いA]` `[なA]` `[Pl]` `[Po]` `[N₁]` `[文]` `[数]` | part-of-speech badge (`[文]` sentence, `[数]` number) |
+| `~~x~~` inside a badge | struck ending: `[V-~~ます~~]`, `[いA~~い~~]`, `[N~~だ~~]` |
+| `＿＿`, `（　）` | blank in a question |
+| `\n` | line break |
+
+## Transcription rules
+
+Everything the book prints (Japanese, furigana, the N2 book's English, answers) is copied from the scan exactly
+(source of truth: CLAUDE.md). Answers and listening scripts come from the 別冊 (N2: PDF pp.233–252, supplement page N =
+PDF 232 + N; N1: `docs/N1-TRANSCRIPTION.md`), never from our judgement.
+
+- Furigana: exactly the readings the book prints, on exactly those kanji. Our own Japanese (vocab examples) gets
+  readings on words at about N3 level and above and on unusual readings.
+- Characters: full-width Japanese punctuation as printed; `〜` as in the patterns; `……` stays `……`; digits are ASCII
+  (1週間, 20%, 1,000円) even where the scan's glyph is full-width (the vertical renderer sets 1–2 digits upright);
+  letters such as ＡＢＫ as printed.
+- Illustrations are not reproduced; if an exercise needs one, describe it in `prompt.en`.
+- The chain-link mark after an example → `idiom: true` (not a 📎 note). A ※ footnote under an example (N1) →
+  `foot: "※…"` (small, right-aligned, not spoken).
+- English: book English verbatim (see "Books"); our English follows `docs/ENGLISH.md`.
 
 ## Chapter
 
@@ -43,10 +55,10 @@ okurigana out of the ruby: `{届|とど}ける`, not `{届ける|とどける}`.
 TRY.registerChapter({
   id: 1,
   genre: { ja: "お{知|し}らせを{読|よ}む", en: "Reading an Announcement" },
-  title: { ja: "スタッフ{募集|ぼしゅう}のお{知|し}らせ", en: "A Job Ad" },
-  canDo: [ { ja: "…", en: "…" } ],        // chapter-level (shown in header)
-  parts: [ Part, … ],                      // 1 part, or 2 for chapters split (1)/(2)
-  review: [ ReviewSection, … ]             // まとめの問題 (after last part)
+  title: { ja: "スタッフ{募集|ぼしゅう}のお{知|し}らせ", en: "A Job Ad" },   // without the part label
+  canDo: [ { ja, en } ],                  // the first part's できること box
+  parts: [ Part, … ],                     // one, or one per printed (1)/(2)/(3)
+  review: [ ReviewSection, … ]            // まとめの問題
 });
 ```
 
@@ -55,182 +67,113 @@ TRY.registerChapter({
 ```js
 {
   label: "(1)",                           // "" when the chapter isn't split
-  canDo: [ {ja,en} ],                     // optional, part-specific can-do
-  sample: {                               // 見本文 — an ORIGINAL text using the part's grammar in **bold**
+  canDo: [ { ja, en } ],                  // the part's own できること box (later parts)
+  sample: {                               // 見本文
     kind: "notice" | "speech" | "dialogue" | "essay" | "article" | "story" | "news" | "explanation" | "editorial",
-    heading: "…",                         // optional headline (notices, articles)
-    lines: [ { sp: "田中", v: "m", ja: "…", en: "…" } ]   // sp/v only for dialogue; v = "m"|"f" (TTS voice)
+    heading: "…",                         // headline (notices, articles, editorials)
+    lines: [ { sp: "田中", v: "m", ja: "…", en: "…" } ]   // one sentence per line; sp/v for dialogue (v = TTS voice m|f)
   },
   points: [ GrammarPoint, … ],
-  check: Exercise                         // "Check" — normally type "fill" with a word bank
+  check: Exercise | [ Exercise, … ]       // Check: one exercise per word bank
 }
 ```
+
+Layout-only fields (ignored by `tools/text-snapshot.js`; rendering in `docs/LAYOUT.md` C6):
+
+| Field | Meaning |
+|---|---|
+| `sample.vertical: true` | printed in 縦書き (vertical at ≥901 or when the reader picks 縦) |
+| `sample.rings: false` | the frame has no binder-ring holes (`article` never has them) |
+| `line.cont: true` | continues the previous line's paragraph |
+| `line.style` | overrides the heuristics: `lead` / `center`, `right`, `cont`, `contact` (notice); `credit`, `sep`, `note` (small ※ line) |
+
+Without `style`, the notice, credit (`（文：…）`) and separator (a line of only 〜) heuristics in LAYOUT.md C6a–C6b
+apply. A vertical `dialogue` (N1 ch5) heads each column with the speaker; lines without `sp` are stage directions.
 
 ### GrammarPoint
 
 ```js
 {
-  no: 1,                                  // book-wide serial number (1–139)
-  pattern: "〜につき",                     // canonical form shown in headings
-  phrase: "オープン**につき**",            // short phrase lifted from the sample text
-  stars: 2,                               // 1–3 importance
-  marks: ["formal"],                      // any of: casual, formal, polite, regret, praise
-  usage: { ja: "…", en: "…" },            // どう使う？ — when/why it's used
-  forms: [ "[N] + につき" ],               // connection lines (one per alternative)
-  formNotes: [ { ja, en } ],              // ＊ notes on connection
-  examples: [ { ja, en, idiom: false } ], // 3–5 ORIGINAL sentences
-  notes: [ { ja, en, examples: [ {ja,en} ], practice: [Exercise] } ],   // clip notes: extra uses / differences
-  plus:  [ { pattern, stars, marks, usage, forms, formNotes, examples, notes, practice } ],  // ➕Plus related forms
-  deepDive: "…",                          // DETAILED English explanation (hidden by default). Paragraphs separated by \n\n,
-                                          // lines starting "- " become bullets. Cover nuance, register, what it
-                                          // contrasts with, common learner mistakes, JLPT tips.
-  see: [ 3, 104 ],                        // related grammar point numbers (the same grammar in the other books: data/links.js)
-  index: [ "Nにつき" ],                    // extra searchable forms for the index
-  practice: [ Exercise, … ]               // やってみよう！ — ORIGINAL questions
+  no: 1,                                  // book-wide number
+  pattern: "〜につき",                     // canonical form (the book's 文型索引 form)
+  phrase: "オープン**につき**",            // the heading as printed, target in **…**
+  stars: 2,                               // 1–3 as printed
+  marks: ["formal"],                      // scene icons printed: casual, formal, polite, regret, praise
+  usage: { ja, en },                      // どう使う？
+  forms: [ "[N] + につき" ],               // connection lines, one per printed line
+  formNotes: [ { ja: "＊…", en } ],        // ＊ lines under the connection (keep the ＊)
+  examples: [ { ja, en, idiom, foot, nonum } ],
+  notes: [ { ja, en, stars, examples, practice, xref } ],   // 📎 clip notes
+  plus: [ { pattern, stars, marks, usage, forms, formNotes, examples, notes, practice, xref } ],   // ＋Plus
+  xref: "☞ p.223　〜つつ",                 // the book's ☞ line, verbatim; also on an exercise printed before a Plus box
+  see: [ 3, 104 ],                        // related point numbers (other books: data/links.js)
+  index: [ "Nにつき" ],                    // extra searchable forms
+  deepDive: "…",                          // ours, required; \n\n paragraphs, "- " bullets (docs/ENGLISH.md)
+  practice: [ Exercise, … ],              // やってみよう！
+  notesFirst: true                        // only when the point prints notes/practice in the other order
 }
 ```
 
-### Exercise types
+Connection brackets are encoded as printed: `"［[なA]（だ）　[N]（だ）］"`; follow the existing `chNN.js` files for
+stacked alternatives (rendering: LAYOUT.md C10).
 
-All `en` fields are the hidden English supplement. `why` is an optional
-explanation shown after grading.
+### Exercises
+
+`en` is our translation (the sentence with the correct answer filled in); `why: { en }` is shown after grading.
+`prompt: { ja, en }` holds the printed instruction. `labels: "abc" | "ab" | "123" | "ABC"` sets option labels as
+printed (default: numbers for 4+ options, else letters).
 
 ```js
-// multiple choice — use for "(a. … b. …)" style and 問題1 文法形式の判断
-{ type: "choice", prompt: {ja,en}, items: [
-  { q: "{体力|たいりょく}（　）、{無理|むり}のないように。", options: ["に限って","に応じて","にかわり","において"],
-    answer: 1, en: "Please do it without overdoing it, according to your stamina.", why: { en: "…" } } ] }
-
-// matching halves — "1) … ・ ・ a) …"
-{ type: "match", prompt, left: ["…","…"], right: ["…","…"], answer: [3,0,1,2], en: ["full sentence 1 in English", …] }
-//   answer[i] = index into right[] that completes left[i]
-
-// word bank — "Check" boxes
-{ type: "fill", prompt, bank: ["に限り","を問わず"], items: [ { q: "…＿＿…", answer: "を問わず", en: "…" } ] }
-
-// sentence ordering — 問題2 文の組み立て (★ question)
-{ type: "order", prompt, items: [
-  { before: "今回のサミット", after: "と{首相|しゅしょう}は{語|かた}った。",
-    pieces: ["における","である","エネルギー問題","最重要課題は"],
-    order: [0,2,3,1],     // indices of pieces in correct sequence
-    star: 2,              // which slot (0–3) holds the ★
-    en: "…" } ] }
-
-// passage cloze — 問題3 文章の文法; blanks written as [1] [2] … in text
-{ type: "passage", prompt, title: "…", text: ["para with [1] …", "…"], en: ["para translation", …],
-  blanks: [ { options: ["…","…","…","…"], answer: 2, why } ] }
-
-// reading comprehension — 問題3 読解
-{ type: "reading", prompt, title, text: ["…"], en: ["…"], items: [ choice items ] }
-
-// listening — 問題4 聴解 (played with browser TTS)
-{ type: "listening", mode: "task", prompt, items: [
-  { question: "{女|おんな}の{人|ひと}はこのあと{何|なに}をしますか。",   // asked before & after the script
-    questionEn: "What will the woman do next?",                          // our translation of the question
-    script: [ { sp: "女", v: "f", ja: "…" }, { sp: "男", v: "m", ja: "…" } ],
-    en: ["line translations…"], options: ["…","…","…","…"], answer: 2, why } ] }
-
-{ type: "listening", mode: "response", prompt, items: [      // 即時応答: 1 line, 3 spoken replies
-  { script: [ { sp: "男", v: "m", ja: "…" } ], options: ["reply 1","reply 2","reply 3"], answer: 0, en: [...], why } ] }
+{ type: "choice", prompt, items: [ { q: "…（　）…", options: ["…", …], answer: 1, en, why } ] }
+{ q: "…（ a ）…（ b ）…", parts: [ { tag: "a", options, answer }, { tag: "b", options, answer } ] }  // several blanks
+{ type: "match", prompt, left: ["…"], right: ["…"], answer: [3, 0, 1, 2], en: ["…"] }   // answer[i] = right index for left[i]
+{ type: "fill", prompt, bank: ["に限り", "を問わず"], items: [ { q: "…＿＿…", answer: "を問わず", en } ] }
+{ q: "A：…＿＿…\nB：…＿＿…", answer: ["わけ", "はず"] }             // several ＿＿; "やら・やら" fills paired blanks
+{ type: "write", prompt, items: [ { q: "…＿＿…", answer: ["祖父母"] } ] }   // accepted strings; optional bank (shown static)
+{ type: "order", prompt, items: [ { before, after, pieces: [4 pieces], order: [0, 2, 3, 1], star: 2, en } ] }
+{ type: "passage", prompt, title, text: ["…[1]…"], en: ["…"], blanks: [ { options, answer, why } ] }
+{ type: "reading", prompt, title, text: ["…"], en: ["…"], items: [ { q, options, optionsEn, answer, en, why } ] }
+{ type: "listening", mode, prompt, items: [
+  { question, questionEn, script: [ { sp: "女", v: "f", ja } ], en: ["…"], options, optionsEn, answer, why, replyV } ] }
 ```
 
-`mode: "summary"`: the `question` is spoken only after the script and not printed; options are printed
-(the book's "二つの質問を聞いて…問題用紙の1から4の中から" items).
-
-`mode: "gist"` (概要理解, "問題用紙に何も印刷されていません…話の前に質問はありません"): nothing is printed. The `question`
-and then the options are spoken only after the script; the answer buttons are bare numerals as in `response`.
-`en` = script-line translations followed by option translations. Don't put the question in the script as a "質問" line.
-
-`replyV: "m"|"f"` on a `response` / `gist` item sets the voice of the spoken replies/options (default: the opposite of
-the script's first speaker) — e.g. N1 ch3 問題4-2 item 1, where M₂ answers M₁.
-
-`optionsEn: ["…", …]` on a `reading` item or a `task` / `summary` listening item: our translations of the printed
-options, in order (shown in the feedback after grading).
-
-An item with no `script` reuses the previous item's script (one talk → several questions, as in the book).
+- `order`: `order` = piece indices in the correct sequence (pieces not already in order); `star` = the ★ slot (0–3).
+- `passage`: blanks `[1]`, `[2]` … in `text`.
+- Listening `mode` (from the book's instruction): `task` — question before and after the talk; `summary` — question
+  only after, not printed, options printed; `gist` (概要理解) — nothing printed, question then options spoken after
+  the talk, bare numeral buttons; `response` (即時応答) — one line, three spoken replies. `question` is required except
+  for `response` and never goes in the script as a 質問 line. `replyV: "m"|"f"` sets the voice of spoken replies /
+  options (default: opposite of the first speaker). An item without `script` reuses the previous item's.
+- `optionsEn`: our translations of printed options, required on `reading` and `task` / `summary` items (length =
+  options). For `gist`, `en` = script lines, then options.
 
 ### ReviewSection
 
 ```js
-{ title: { ja: "問題1 〈文法形式の判断〉", en: "Question 1: Grammar form" }, ex: Exercise }
+{ title: { ja: "問題1 〈{文法形式|ぶんぽうけいしき}の{判断|はんだん}〉", en: "Question 1: Grammar form" }, ex: Exercise }
 ```
 
-Review structure used by the book (mirror it per chapter):
-問題1 文法形式の判断 (choice, ~6 items) · 問題2 文の組み立て (order, 3–4 items) ·
-問題3 文章の文法 (passage, 5 blanks) **or** 読解 (reading) · 問題4 聴解 (listening: task and/or response).
+Book structure: 問題1 文法形式の判断 (choice) · 問題2 文の組み立て (order) · 問題3 文章の文法 (passage) or 読解
+(reading) · 問題4 聴解 (listening). A title repeating the previous 問題N is rendered as its sub-part.
 
-## Verbatim transcription rules (book content)
+## Vocabulary
 
-The chapter files are a faithful transcription of the book. Everything printed in the book is copied
-exactly — every character, punctuation mark and furigana — from the scan:
-
-- Japanese: sample texts (見本文), usage explanations, connection lines, ＊ notes, 📎 clip notes, ＋Plus boxes,
-  example sentences (①②…, in order), やってみよう！, Check, まとめの問題 (instructions, questions, options, passages),
-  listening scripts and answer keys (from the supplement 別冊, PDF pp. 233–252: supplement page N = PDF page 232+N).
-- Furigana: exactly the readings the book prints, on exactly the kanji it prints them on — no more, no fewer.
-- English printed in the book (chapter titles, can-do, usage explanations, notes, Plus usage) goes verbatim in the
-  corresponding `en` field. English for sentences the book doesn't translate (examples, exercises, scripts) is our own
-  translation and must be accurate. `deepDive` is our own supplementary explanation.
-- Illustrations are not reproduced; if an exercise depends on a picture, describe it in `prompt.en`.
-- A small chain-link mark after an example = idiomatic expression → `idiom: true` (it is not a 📎 note).
-- Order of 📎 notes and やってみよう: N2 prints the practice first; N1 (book meta `notesFirst: true`) prints the clip notes
-  first. A point printed the other way sets `notesFirst: false` / `true`.
-- A small ※ footnote printed under an example (N1) → `foot: "※…"` on that example (rendered small, right-aligned, not read aloud).
-- Answers come from the supplement's answer key, never from our own judgement.
-
-Extra exercise features for book formats:
-
-```js
-{ type: "choice", labels: "abc" | "123" | "ABC", items: [ … ] }                // option labels as printed
-{ q: "…（ a ）…（ b ）…", parts: [ { tag: "a", options: [...], answer: 0 }, { tag: "b", options: [...], answer: 1 } ] }  // several blanks in one item
-{ type: "fill", items: [ { q: "A：…＿＿…\nB：…＿＿…", answer: ["わけ", "はず"] } ] }  // several ＿＿ in one item
-{ type: "write", items: [ { q: "…＿＿…", answer: ["祖父母"] } ] }              // write-in answers (accepted strings)
-check: [ Exercise, Exercise ]                                                   // a Check with several boxes / word banks
-```
-
-## Sample layout hints
-
-Optional, layout-only fields on `sample` and its `lines` (no book text; ignored by `tools/text-snapshot.js`).
-They only change how the 見本文 is laid out (docs/LAYOUT.md C6).
-
-| Field | Where it is set | Meaning |
-|---|---|---|
-| `sample.vertical: true` | 10.0, 10.1, 13.0, 13.1, 14.0 | The book prints the text in 縦書き. Rendered vertically at ≥901 px (or when the reader picks 縦), horizontally otherwise |
-| `sample.rings: false` | 2.1, 5.1, 6.1, 7.1, 9.1, 12.1, 14.0 (`article` is ring-less by default) | The book's frame has no binder-ring holes |
-| `line.cont: true` | 2.0, 2.1, 3.0, 4.0, 7.0, 7.1, 10.0, 11.0, 14.0 (checked against the scans) | This line continues the previous line's paragraph (the data stores one sentence per line; the book groups them) |
-| `line.style` | N1: `note` for ※ footnotes in a frame | Overrides the notice/article heuristics: `lead`, `row`, `cont`, `contact`, `center`, `right`, `credit`, `sep`; `note` = small ※ footnote line |
-
-A `vertical` sample of kind `dialogue` (N1 ch5 drama scenario) prints each speaker name at the head of its column
-with the speech hanging below; lines without `sp` are scene headings / stage directions.
-
-Heuristics used when `style` is absent: notice (`kind:"notice"`) — the first line without ▶ is the centred lead;
-`key▶value` lines are form rows; lines starting ＊ or without ▶ after a row continue it; from the first line with
-☎ / http / E-mail the contact block starts. Article — a line `（文：…）` is the right-aligned credit.
-Story — a line of only 〜 is a scene separator.
-
-Point-level `xref` (string, e.g. `"☞ p.223　〜つつ"`) is the book's own ☞ line and is printed right-aligned at the end of the point. A やってみよう exercise may carry its own `xref` when the book prints the ☞ line right after the exercise but before a following ＋Plus box; it is printed right after that exercise.
-
-## Vocabulary (単語) — `data/<book>/vocab/chNN.js`
-
-Not book content: a study list we compiled of the N2/N1-level words that each chapter's texts use (見本文, examples,
-practice, まとめの問題, listening scripts). All English here is generated. Each file calls:
+`data/<book>/vocab/chNN.js`: our list of the N2/N1-level words each chapter's texts use; not book content, all English
+generated. A word is listed once per book, in the first chapter that uses it. Check: `node tools/vocab-check.js <book>`.
 
 ```js
 TRY.registerVocab({ ch: 1, words: [
-  { w: "{募集|ぼしゅう}",                    // headword: dictionary form; ruby markup gives the reading (kana words: plain)
-    lv: "N2",                               // "N2" | "N1" (usual JLPT level lists; the level the word is normally taught)
-    pos: "noun · する verb",                 // part of speech, short English
-    en: "recruitment; a call for applicants or entries",   // definition: the senses that matter, most common first
-    note: "…",                              // optional nuance: register, collocations, how it differs from look-alikes
-    rx: ["ぼしゅ", "ぼうしゅう", "ほしゅう"],     // kanji words: 3 plausible wrong readings (JLPT 漢字読み style)
-    book: { ja: "…", en: "…", at: "gp/2" },  // a sentence from the chapter using the word, copied verbatim from the data
-                                            //   with the word in **bold** (the chapter's own ** dropped); at = route
-                                            //   of the point (gp/N) or chapter (ch/N, ch/N/review) it comes from;
-                                            //   a line whose English the book prints (N2 title, can-do, usage, note)
-                                            //   keeps the book's English verbatim and adds src: "book"
-    ex: [ { ja: "…**{募集|ぼしゅう}**…", en: "…", alt: ["{応募|おうぼ}", "…", "…"] },   // 1–2 original sentences; the word
-          { ja: "…", en: "…" } ] }           //   in **bold**; ex[0].alt = 3 wrong words in the same form (文脈規定 quiz)
+  { w: "{募集|ぼしゅう}",                  // dictionary form; ruby gives the reading (kana words plain)
+    lv: "N2",                             // "N2" | "N1"
+    pos: "noun · する verb",
+    en: "recruitment; a call for applicants or entries",   // senses that matter, most common first
+    note: "…",                            // optional: register, collocations, look-alikes
+    rx: ["ぼしゅ", "ぼうしゅう", "ほしゅう"],   // kanji words: 3 wrong readings, not homophones of the right one
+    book: { ja: "…**{募集|ぼしゅう}**…", en: "…", at: "gp/2", src: "book" },
+    ex: [ { ja: "…**{募集|ぼしゅう}**…", en: "…", alt: ["{応募|おうぼ}", "…", "…"] }, { ja, en } ] }
 ] });
 ```
 
-A word is listed once per book, in the first chapter that uses it. `node tools/vocab-check.js <book>` validates it.
+- `book`: a sentence from the chapter, verbatim from the data, with the word in `**…**` (the chapter's own `**` dropped);
+  `at` = `gp/N`, `ch/N` or `ch/N/review`. A line whose English the book prints keeps it and adds `src: "book"`.
+- `ex`: 1–2 sentences of ours with the word in `**…**`; `ex[0].alt` = 3 wrong words in the same form (context quiz).
