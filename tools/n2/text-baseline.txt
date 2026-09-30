@@ -1782,11 +1782,11 @@ ch4.parts.0.points.6.pattern	〜{次第|しだい}
 ch4.parts.0.points.6.phrase	{中継|ちゅうけい}がつながり**{次第|しだい}**
 ch4.parts.0.points.6.practice.0.items.0.answer	0
 ch4.parts.0.points.6.practice.0.items.0.options.0	{来|き}{次第|しだい}
-ch4.parts.0.points.6.practice.0.items.0.options.1	{来|き}て{以来|いらい}
+ch4.parts.0.points.6.practice.0.items.0.options.1	来て{以来|いらい}
 ch4.parts.0.points.6.practice.0.items.0.q	{花村|はなむら}さんが（　）、{送別会|そうべつかい}を始めましょう。
 ch4.parts.0.points.6.practice.0.items.1.answer	1
 ch4.parts.0.points.6.practice.0.items.1.options.0	{来|き}{次第|しだい}
-ch4.parts.0.points.6.practice.0.items.1.options.1	{来|き}て{以来|いらい}
+ch4.parts.0.points.6.practice.0.items.1.options.1	来て{以来|いらい}
 ch4.parts.0.points.6.practice.0.items.1.q	{花村|はなむら}さんが（　）、{職場|しょくば}の{雰囲気|ふんいき}が明るくなった。
 ch4.parts.0.points.6.practice.0.items.2.answer	0
 ch4.parts.0.points.6.practice.0.items.2.options.0	でき{次第|しだい}
