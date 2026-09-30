@@ -1,12 +1,14 @@
 // Book meta for Quartet II (served at /q2/, q2/index.html). See data/Q2-SCHEMA.md.
 // kind "quartet": lessons of four skills (読む・書く・話す・聞く) instead of TRY chapters of grammar points; the data files
-// to load are listed here (every file registers itself, so they load in parallel).
+// are listed here (every file registers itself, so they load in parallel): files with the page, lazy when a route needs them.
 TRY.registerBook({
   id: "q2",
   kind: "quartet",
   level: "中級",
   lessons: [7, 8, 9, 10, 11, 12],
-  files: ["front.js", "challenge.js"].concat(["07", "08", "09", "10", "11", "12"].flatMap((n) => [`l${n}.js`, `vocab${n}.js`, `kanji${n}.js`])),
+  files: ["challenge.js"].concat(["07", "08", "09", "10", "11", "12"].map((n) => `l${n}.js`)),
+  // loaded by the routes that show them (assets/js/q2/nav.js needs): the 別冊 lists, the indexes, the drill, about
+  lazy: ["front.js"].concat(["07", "08", "09", "10", "11", "12"].flatMap((n) => [`vocab${n}.js`, `kanji${n}.js`])),
   bookLang: "en",
   // names used by the Quartet renderer (assets/js/q2/): page title, hero, and the ブラッシュアップ unit kinds in book order
   shortTitle: "Quartet II",

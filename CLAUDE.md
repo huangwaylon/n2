@@ -53,7 +53,8 @@ assets/js/
   pages.js      home, guide, about (front matter), index, compare, can-do list, drill
   vocab.js      単語: vocabulary list per chapter (data/<book>/vocab/chNN.js, loaded on the first vocab route) and its drill
   flash.js      flashcard deck shared by the vocab drills (TRY 単語, Quartet 覚える単語・漢字)
-  main.js       awaits the book's data (TRY.ready), builds the shell (topbar/sidebar/footer), router, settings, events
+  main.js       awaits the book's data (TRY.ready), builds the shell (topbar/sidebar/footer), router, settings, events;
+                need(h) loads the files a route needs beyond the first load (adapter needs(h)) before it renders
   q2/           Quartet (Q1 and Q2): nav.js adapter and views, blocks.js block renderer, lists.js 別冊 lists, indexes, drill
 assets/css/     base.css (tokens, light + dark theme, English layer, primitives) · shell.css · content.css · exercises.css
                 · q2.css (both Quartet books; accent tokens --q per book: Q2 cyan, Q1 magenta via body[data-book="q1"])
@@ -67,6 +68,12 @@ docs/Q1-TRANSCRIPTION.md, docs/Q2-TRANSCRIPTION.md  Quartet page maps, conventio
 docs/ENGLISH.md style guide for all generated English (translations, deep-dives, why, cross-book links)
 tools/          validators and layout probes (below); tools/lib/books.js = per-book tool config + Node data loader
 ```
+
+Data loading: the page loads the files that home, lessons and the sidebar need (TRY: chNN.js, compare.js, front.js;
+Quartet: book.js `files` = challenge.js, lNN.js; all: data/links.js). The rest load on the first route that shows them:
+TRY vocab/chNN.js on `vocab…`; Quartet book.js `lazy` (q2/nav.js needs): l/N/vocab → vocabNN.js, l/N/kanji → kanjiNN.js,
+index → every vocabNN.js, kanji → every kanjiNN.js, drill → both, about → front.js. A list route opened directly starts its
+files with the book's. Tools load files + lazy (tools/q2/lib.js allFiles).
 
 ## Running
 

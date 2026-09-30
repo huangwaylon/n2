@@ -91,10 +91,18 @@ function docTitle(main) {
   return (l ? `第${l.id}課 – ` : "") + `${BOOK().shortTitle} 中級日本語 Interactive`;
 }
 const layout = (root, all) => { placeLineNos(root, !!all); placeRefNos(root); wireTracks(root); };
+// the files a route needs from book.js lazy (main.js loads them before the view renders): l/7/vocab → vocab07.js,
+// l/7/kanji → kanji07.js, the indexes every list, the drill the 覚える単語 and kanji, about the front matter; lessons,
+// units and home need none
+function needs(h) {
+  const [p0, p1, p2] = h.split("/"), list = p0 === "l" && (p2 === "vocab" || p2 === "kanji") ? `${p2}${String(+p1).padStart(2, "0")}.js` : "";
+  const re = { index: /^vocab/, kanji: /^kanji/, drill: /^(vocab|kanji)/, about: /^front/ }[p0];
+  return (BOOK().lazy || []).filter((f) => f === list || (re && re.test(f)));
+}
 
 export const QUARTET = {
   pages: [["about", "本書について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"], ["kanji", "漢字", "Kanji"], ["drill", "練習", "Drill"]],
-  sidebar, updateProgress, target, viewHtml, docTitle, layout,
+  sidebar, updateProgress, target, viewHtml, docTitle, layout, needs,
 };
 
 // ---------- views ----------

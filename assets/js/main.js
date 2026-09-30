@@ -12,11 +12,17 @@ import { filterVocab, vocabView } from "./vocab.js";
 
 
 // ---------- data ----------
-// the book's data files are already loading (boot.js, TRY.ready); TRY books: the vocabulary lists
-// (data/<book>/vocab/chNN.js) load on the first visit to a vocab page: needVocab → the pending load, or null once loaded
-let vocabLoad = null, vocabDone = false;
-const needVocab = (h) => (A !== TRY_BOOK || !/^vocab/.test(h) || vocabDone ? null
-  : (vocabLoad = vocabLoad || TRY.load(TRY.chapterFiles("vocab/")).then(() => (vocabDone = true))));
+// the book's data files are already loading (boot.js, TRY.ready); the rest load on the first visit to a route that
+// shows them (A.needs(h) → file names): TRY books the vocabulary lists (data/<book>/vocab/chNN.js) on the vocab pages,
+// Quartet its 別冊 lists and front matter (q2/nav.js). need → the pending load (the messages of failed files), or null
+// once every file the route needs is there
+const loads = new Map(), loaded = new Set();
+function need(h) {
+  const files = A.needs(h).filter((f) => !loaded.has(f));
+  if (!files.length) return null;
+  const one = (f) => loads.get(f) || loads.set(f, TRY.load([f]).then((failed) => (loaded.add(f), failed))).get(f);
+  return Promise.all(files.map(one)).then((fs) => fs.flat());
+}
 
 // ---------- shell ----------
 const bookHref = (o, h = "") => new URL(o.dir, SITE).pathname + (h ? `#/${h}` : "");
@@ -152,7 +158,8 @@ const docTitle = (main) => {
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
 // target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
-const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab };
+const needs = (h) => (/^vocab/.test(h) ? TRY.chapterFiles("vocab/") : []);
+const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab, needs };
 let A = TRY_BOOK;
 
 // ---------- router ----------
@@ -167,8 +174,8 @@ const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollI
 function route(force) {
   TTS.stop();
   const h = hashRoute(), main = $("#main"), t = A.target(h);
-  const loading = needVocab(h);
-  if (loading) return loading.then(() => route(true));
+  const loading = need(h);
+  if (loading) return loading.then((failed) => { route(true); showErrors(failed); });
   if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
     const html = A.viewHtml(h, t);
     main.innerHTML = (h ? "" : shelfHtml()) + (html || notFound());
@@ -316,8 +323,8 @@ function wireEvents() {
 
 async function init() {
   if (BOOK().kind === "quartet") { Q = await import("./q2/nav.js"); A = Q.QUARTET; }
-  // a vocab page opened directly: its lists load alongside the book's data
-  needVocab(hashRoute());
+  // a list page opened directly: its files load alongside the book's data
+  need(hashRoute());
   document.body.dataset.book = BOOK().id;
   // the page links (About, Guide, Index …) sit at the top of the sidebar instead of the top bar
   document.body.classList.add("nav-sb");
@@ -330,6 +337,8 @@ async function init() {
   A.sidebar();
   document.addEventListener("try:progress", () => { A.updateProgress(); queueResume(); });
   route();
-  if (failed.length) $("#main").insertAdjacentHTML("afterbegin", `<p class="err">${failed.map(esc).join("<br>")}</p>`);
+  showErrors(failed);
 }
+// data files that did not load are reported on the page (the rest of the book still renders)
+const showErrors = (failed) => { if (failed.length) $("#main").insertAdjacentHTML("afterbegin", `<p class="err">${failed.map(esc).join("<br>")}</p>`); };
 init();

@@ -81,7 +81,8 @@ The 文型・表現ノート一覧 (PDF 5) goes in front.js as the section `id: 
 patterns against it.
 
 kanjiNN.js has no merge tool: write `TRY.registerKanji(<kanjiNN.json>);` into `data/q1/kanjiNN.js`. **Add every new
-file to `files` in `data/q1/book.js`** (only existing files are listed; a missing one shows a load error on the page).
+file to `data/q1/book.js`**: `files` (lNN.js, challenge.js: loaded with the page) or `lazy` (front.js, vocabNN.js,
+kanjiNN.js: loaded by the routes that show them). Only existing files are listed; a missing one shows a load error on the page.
 
 ## Tools (run after every file)
 

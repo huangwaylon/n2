@@ -4,6 +4,7 @@
      registerUnits (ブラッシュアップ) / registerFront; all books: registerLinks (data/links.js).
    - Data loading: registerBook (data/<book>/book.js, the next script on the page) starts the book's data files at once,
      so they download while the modules (assets/js/main.js and its imports) are still loading; main.js awaits TRY.ready.
+     Files only some routes show (TRY vocab/chNN.js, Quartet book.js lazy) load through TRY.load when a route needs them (main.js need).
    - Colour theme: applied to <html data-theme> before the first paint, so the page never flashes the wrong theme. */
 (function (root) {
   "use strict";

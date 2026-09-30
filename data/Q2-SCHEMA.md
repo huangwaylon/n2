@@ -16,7 +16,7 @@ that file's markup.
 
 | File | Registers | Source (book page = PDF page − 27; 別冊 page = PDF page − 287) |
 |---|---|---|
-| `book.js` | `TRY.registerBook({ id: "q2", kind: "quartet", files, … })` | — |
+| `book.js` | `TRY.registerBook({ id: "q2", kind: "quartet", files, lazy, … })` — `files` load with the page, `lazy` on the routes that show them | — |
 | `front.js` | `TRY.registerFront([Section…])` | はじめに, 本書について, About This Book, 記号 pp.[03]–[20] |
 | `lNN.js` (l07 … l12) | `TRY.registerLesson(Lesson)` | the lesson's pages + its 聴解 解答・スクリプト (pp.238–245) |
 | `vocabNN.js` | `TRY.registerVocab(Vocab)` | 別冊 単語リスト・覚える単語と例文 for the lesson |

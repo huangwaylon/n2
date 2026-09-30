@@ -44,10 +44,11 @@ function load(files, book) {
   for (const f of [boot, path.join(b.dir, "book.js"), ...files]) { delete require.cache[require.resolve(f)]; require(f); }
   return globalThis.TRY;
 }
-// every data file book.js lists that exists
+// every data file book.js lists (files and lazy) that exists
 const allFiles = (b = BOOKS.q2) => {
   delete globalThis.TRY; require(path.join(root, "assets/js/boot.js")); delete require.cache[require.resolve(path.join(b.dir, "book.js"))]; require(path.join(b.dir, "book.js"));
-  return globalThis.TRY.book.files.map((f) => path.join(b.dir, f)).filter((f) => fs.existsSync(f));
+  const B = globalThis.TRY.book;
+  return B.files.concat(B.lazy || []).map((f) => path.join(b.dir, f)).filter((f) => fs.existsSync(f));
 };
 // keys whose strings are ours (generated English) or not text at all
 const OURS = new Set(["tr", "titleTr", "headTr", "desc", "deepDive"]);

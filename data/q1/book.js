@@ -1,13 +1,15 @@
 // Book meta for Quartet I (served at /q1/, q1/index.html). See data/Q2-SCHEMA.md (the schema of both Quartet books)
 // and docs/Q1-TRANSCRIPTION.md. kind "quartet": rendered by assets/js/q2/ like Quartet II.
-// files: only the data files that exist — add each file here as it is merged (a listed file that is missing shows a
+// files + lazy: only the data files that exist — add each file here as it is merged (a listed file that is missing shows a
 // load error on the page). Full set: front.js, challenge.js, lNN.js, vocabNN.js, kanjiNN.js for lessons 01–06.
 TRY.registerBook({
   id: "q1",
   kind: "quartet",
   level: "中級",
   lessons: [1, 2, 3, 4, 5, 6],
-  files: ["front.js", "challenge.js"].concat(["01", "02", "03", "04", "05", "06"].flatMap((n) => [`l${n}.js`, `vocab${n}.js`, `kanji${n}.js`])),
+  files: ["challenge.js"].concat(["01", "02", "03", "04", "05", "06"].map((n) => `l${n}.js`)),
+  // loaded by the routes that show them (assets/js/q2/nav.js needs): the 別冊 lists, the indexes, the drill, about
+  lazy: ["front.js"].concat(["01", "02", "03", "04", "05", "06"].flatMap((n) => [`vocab${n}.js`, `kanji${n}.js`])),
   bookLang: "en",
   shortTitle: "Quartet I",
   titleJa: "中級日本語カルテット I",
