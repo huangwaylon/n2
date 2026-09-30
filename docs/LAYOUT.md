@@ -484,8 +484,8 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
   prints several label-only steps in one bubble (Q1 p.027).
 - Accent fills under white text use `--q-fill` (≥4.5:1: Q2 light is darkened to #0e78ab); `--q` stays the text/rule accent.
 - Connection formulas: the dropped ending is grey under a double accent strike; stack lines never wrap, a join wraps only
-  between phrases. The bullets float round the formula box (text runs on under it, Q2 p.009) unless the conn has
-  `side: true` (a column beside the box, Q1 p.009; ≥601 only).
+  between phrases. The bullets float round the formula box (their lines run on under it, Q1 p.010, Q2 p.009);
+  with `side: true` each bullet is its own formatting context, so one begun beside the box keeps that column (Q1 p.142).
 - A dialogue under a heading with the same track has no CD button of its own (one per モデル会話, as printed).
 - Quartet blanks keep following punctuation on their line (`.nobr`); lesson and section titles set readings at .42em so
   a word like 中国人 has no gap around it.

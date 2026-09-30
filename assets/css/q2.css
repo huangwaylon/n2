@@ -337,7 +337,9 @@ a.ref:hover u { background: var(--q-soft); }
 .gn-conn { background: var(--q-gray); padding: 12px 16px; margin: 6px 0 12px; display: flow-root; }
 .gn-forms { float: left; background: var(--panel); padding: 10px 16px; margin: 0 calc(1.2em + 12px) 8px 0; font: 17px/1.9 var(--goth); max-width: 100%; }
 @media (max-width: 600px) { .gn-forms { float: none; margin-right: 0; } }
-@media (min-width: 601px) { .gn-conn--side { display: flex; align-items: flex-start; } .gn-conn--side > .gn-forms { flex: none; } .gn-conn--side > .gn-conn__b { flex: 1; min-width: 0; } }
+/* side: a bullet that starts beside the formula box keeps its column to its end (its own block formatting context
+   beside the float); bullets that start below the box run full width (Q1 pp.009, 011, 142 …) */
+.gn-conn--side .gn-conn__b .qlist > li { display: flow-root; }
 .fx1 { white-space: nowrap; }
 /* V~~ます~~: the book strikes the dropped ending with a blue rule (p.009) */
 /* the dropped ending (V~~ます~~, なA~~だ~~): grey under a double accent strike, as printed (Q1 p.009, Q2 p.009) */

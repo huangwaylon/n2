@@ -1173,7 +1173,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**〜のではないだろうか** is a question in form and an opinion in effect: *I'd say ~*. It leaves the reader room to disagree, which is why essays and letters to the editor close their argument with it (Reading 1, line 36; the model composition).\n\n- From formal to casual: のではないでしょうか → のではないだろうか (writing) → んじゃないでしょうか → んじゃない？\n- In speech the pitch decides: 雨じゃない？ with a rise means *isn't it raining?*; said flat, 雨じゃない means *it isn't raining*.\n\nIt is less sure than だろう and far less than **〜に違いない** (Quartet II L9-2), *must be*. Pitfall: the negative word is not a denial. 必要ないのではないでしょうか means *I'd say it isn't needed* (例1b)."
@@ -1319,7 +1320,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**〜がる** turns a feeling word into a verb about visible behavior. 痛い is felt from inside; 痛がる is what an observer sees. Japanese reports other people's inner states from the outside, so 弟はとても痛い sounds odd, while 弟はとても痛がっている (*my brother keeps saying it hurts*) is natural.\n\n- The object takes を: 甘いものをほしがる, おみやげを買いたがる.\n- It is not used for the speaker's own present feelings: ✗私はうれしがっている.\n- For someone wanting *you* to do something, use 〜てほしがる (例2).\n\nCompare **〜げ** (TRY! N2 #97), an impression of how someone looks rather than what they do: さびしげに微笑んだ (*smiled sadly*). For a superior, report the words instead: 〜たいとおっしゃっている."
@@ -1523,7 +1525,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Vようとする** has two readings, and context decides: *try to* (effort that may fail: 忘れようとしても忘れられない) and *be about to* (the moment just before: 寝ようとしたら電話がかかってきた). With a subject that has no will, only *about to* works: 電車が出ようとしている (*the train is about to leave*).\n\n- **Vようとしない** reports someone else's refusal as seen from outside, *won't even try*, usually with criticism or worry: 猫が魚を食べようとしない.\n- Compare **〜てみる**, *try and see*: 食べてみた means you did eat it; 食べようとした suggests you didn't manage to.\n\nKeep both apart from **〜ようにする** (L1-8), *make a point of*: 毎日歩くようにしている (*I make a point of walking every day*)."
@@ -1767,7 +1770,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**まま** marks a state left as it was when a change was expected: きれいなまま (*still like new*), 開けたまま (*left open*). The next action happens inside that unchanged state, often one that shouldn't have: くつをはいたまま家に入る (*go into a house with your shoes on*).\n\n- Both actions have the same subject ([#5]).\n- Vたまま needs a verb whose result lasts: 座る, つける, 着る. ✗走ったまま.\n- Vないまま stresses time passing with something undone: 返事をしないまま一週間たった (*a week went by without my replying*). For a plain *without doing*, use Vずに or Vないで.\n\nClose relatives: **〜っぱなし** (会話1, ここにも注目), which adds neglect, and **〜きり** (TRY! N2 #37): 出かけたきり戻らない (*went out and never came back*)."
@@ -1935,7 +1939,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "head",
@@ -2157,7 +2162,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "head",

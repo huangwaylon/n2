@@ -771,7 +771,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (例5), だれに聞いても.\n- 何度／何回 Vても stresses repeated tries with the same result (例3); いくら and どんなに measure degree (例5, 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
@@ -899,7 +900,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**XたびにY** ties Y to every occurrence of X: *every time, whenever*. It suits habits and things that keep happening, often with 〜てしまう or 〜ようにしている: 行くたびに買ってしまう.\n\n- X is an action or event: Vる or Nの (引っ越しのたびに, 例4). States and 〜ない can't be X: ✗わからないたびに.\n- X stays in the dictionary form even for past habits: 子どものころ、祖母の家に行くたびに…, not ✗行ったたびに.\n- たびに needs something that repeats; for a single occasion, use 〜時 or 〜と.\n\n**〜ごとに** is *at every (interval)*: 1時間ごとに. TRY! N2 #94 〜につけ narrows it to seeing or hearing that brings on a feeling: 写真を見るにつけ、故郷を思い出す. Pitfall: Y must be something that happens or is done, not a description: ✗富士山を見るたびに、美しい; say 見るたびに感動する."
@@ -1044,7 +1046,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "head",
@@ -1174,7 +1177,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -1258,7 +1262,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, 例1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (例2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (例5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
@@ -1453,7 +1458,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (例1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (例3, 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, 例4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
@@ -1576,7 +1582,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "head",
@@ -1847,7 +1854,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is status, profession, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (例1). XだけあるY after a compliment adds the reason: さすが高級ホテルだけある (例5).\n- It isn't used about oneself: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."

@@ -733,7 +733,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**XうちにY** means *while X still holds*: X is a state that will end (being in Japan, being young, George being out), and Y is done before the chance is gone. 間に only marks a stretch of time; うちに adds the closing window.\n\n- X is a state: Vている, Vない, ある／いる, adjectives, Nの. A bare action verb doesn't give this meaning.\n- **Vないうちに** is English *before*: 忘れないうちにメモしよう (*let me write it down before I forget*).\n- Y is a deliberate act. For a change that just came about while X went on (話しているうちに好きになった), see Quartet II L8-8.\n\nTRY! N2 #96 〜か〜ないかのうちに is a different pattern: *barely had ~ when*."
@@ -930,7 +931,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**NにとってX** evaluates something from N's standpoint: for N it is hard, important, necessary or handy. N is the one affected; X describes the thing, not N's own taste or opinion.\n\n- ✗私にとって旅行が好きだ: preference and opinion (好き, 賛成) take は: 私は旅行が好きだ.\n- Before a noun: 私にとっての幸せ (*what happiness means to me*).\n- **Nに対して** marks the target of an action or attitude. English *to/for* covers both: 子どもにとって大切 (*important for children*) vs. 子どもに対して優しい (*kind to children*).\n\nIn polite speech it becomes 〜にとりまして (TRY! N2 #77). TRY! N1 #81 〜にすれば imagines how things feel to someone else: 親にすれば心配だろう (*for the parents it must be worrying*)."

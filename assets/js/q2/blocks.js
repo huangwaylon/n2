@@ -207,8 +207,8 @@ const B = {
     return `<ol class="gn-exs ja-book">${(b.items || []).map((it) => `<li class="gn-ex">${it.n != null ? `<span class="exno">${esc(it.n)}</span>` : ""}${exBody(it, "gn-ex__b")}<span class="gn-ex__tools">${speakBtn(it.lines ? it.lines.map((l) => l.ja).join("。") : it.ja, "data-small")}</span></li>`).join("")}</ol>`;
   },
   conn(b, ctx) {
-    // a join that wraps on phones keeps "（だろう）か" together (word joiner; p.180). side: the bullets stay in a column
-    // beside the formula box as printed (Q1 p.009); otherwise they run on under it (Q2 p.009)
+    // a join that wraps on phones keeps "（だろう）か" together (word joiner; p.180). side: a bullet begun beside the formula
+    // box keeps its column below the box (Q1 p.009, p.142); otherwise its lines run on under the box (Q1 p.010, Q2 p.009)
     // a stack: alternatives in a brace, after a shared lead ("N から｛みると／すると／いうと｝", p.179: the brace opens
     // towards the stack) and / or before a shared join ("｛Vる／Nの｝たび（に）": the brace closes towards the join)
     const forms = (b.forms || []).map((f) => (typeof f === "string" ? `<div class="fx1">${posFmt(f)}</div>`

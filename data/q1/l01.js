@@ -727,7 +727,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Nといえば** names N and then the first thing it brings to mind, usually something everyone would agree on, which is why it pairs with やっぱり and だろう: 京都といえば、お寺だろう (*when you think of Kyoto, it's temples*).\n\n- In conversation it picks up a word the other person just used and steers to a related topic: 旅行といえば、来月北海道に行くんだ (*speaking of trips, I'm going to Hokkaido next month*). For a sudden recollection with no word to pick up, say そういえば (*that reminds me*).\n- Compare Nなら (L1-2②): さくら病院なら… also picks up the partner's word, but to give information about it, not to name what comes to mind.\n\nPitfall: XといえばXだが is a concession, *X, I suppose, but*: 高いといえば高いけど (*it's expensive, I guess, but*). Quartet II L12-1 〜といっても also scales X down."
@@ -862,7 +863,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -924,7 +926,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -989,7 +992,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**〜なら** takes up what the listener has just said, or a situation just made clear, and answers it with advice, a request or a judgment (*if that's the case*). It often opens a reply: 行くなら、傘を持って行って (*if you're going, take an umbrella*).\n\n- With Vなら, Y may come first in time: 日本に行くなら、JRパスを買っておくといい (*if you're going to Japan, buy a JR Pass before you go*). 行ったら would mean *once you're there*.\n- Uses ② and ③ attach straight to a noun: 川村先生なら (*if it's Professor Kawamura you want*), ペンならある (*a pen, I do have*), contrasting N with what was asked for.\n\nQuartet I 初級文法チェック⑥ sets なら against たら, と and ば. TRY! N1 #80 AならAで reacts to someone's choice with advice or a complaint: 来るなら来るで連絡してよ (*if you're coming, at least let me know*)."
@@ -1248,7 +1252,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -1467,7 +1472,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -1626,7 +1632,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Xがきっかけで Y** names the event that set off a change in someone's life: a new interest, friendship, decision or habit. X is one event, often small or accidental (Vたの／こと, or a noun such as 飲み会, 旅行); Y is what started: 始めた, 仲よくなった, 思うようになった. It is a pattern of personal stories.\n\n- 何がきっかけで…？ asks *what got you into…?*, and Y often uses 〜ようになる (L1-7) or 〜始める.\n- For a plain cause with no new beginning, use から／ので: ✗雨がきっかけで試合が中止になった.\n\nTRY! N2 #17 teaches the same idea with を: 入学をきっかけに一人暮らしを始めた (*I started living on my own when I entered college*); its Plus, 〜を契機に, is the formal written version."
@@ -1897,7 +1904,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**〜ようにする** is an effort the speaker commits to; 〜ようにしている is one kept up as a habit. Both admit the result isn't fully under control, so the English is *try to* or *make a point of* rather than a flat *will*. That softness makes ようにします the standard promise after a mistake: 次から気をつけるようにします (*I'll be more careful from now on*).\n\n- Vないようにする: *make sure not to*, as in 遅れないようにします.\n- A one-time step you simply decide on takes 〜ことにする (L2-4): サークルに入ることにした (*I decided to join a club*).\n- Close in form: 〜ようになる (L1-7), a change that happens; 〜ように (L5-7), *so that*.\n\nPitfall: 〜ようにしてください asks for ongoing care or a habit (*please make sure to*), a gentler request than a plain 〜てください."
@@ -1969,7 +1977,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**Nによると** names where a piece of information came from, and the sentence then ends in a hearsay form: そうだ, らしい, ということだ, or casual って (天気予報によると、雨だって). Without that ending the sentence sounds unfinished, because によると only introduces the source.\n\n- N is a source of information: a person, the news, a survey, 〜の話. For one's own view, say 私の考えでは (*in my opinion*), not ✗私によると.\n- によれば is the same with a slightly more formal ring.\n- Compare Nによって (L3-6), *depending on N*: 国によって習慣が違う (*customs differ from country to country*).\n\nThe listening script uses it just this way: 友達によると、…ほとんどいないらしいです (*according to a friend, apparently hardly anyone…*)."

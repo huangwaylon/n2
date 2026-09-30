@@ -1455,7 +1455,8 @@ TRY.registerLesson({
          ]
         }
        ],
-       "page": 111
+       "page": 111,
+       "side": true
       }
      ],
      "deepDive": "**Nさえ** picks N as the extreme case: if even N is so, everything else is too. It often carries surprise, criticism or self-deprecation: 自分の名前さえ書けない (*can't even write his own name*).\n\n- は, が, を and も give way to さえ; other particles stay before it (トイレの中でさえ, 両親にさえ). A subject that does the action takes でさえ (子どもでさえ読める).\n- **Xさえ〜ば** is a different use: X is the only condition needed, *as long as, if only*. ば goes on the predicate: 薬さえ飲めば, 寝さえすれば, 休んでさえいれば.\n\nTRY! N2 #43 teaches 〜さえ…ば; TRY! N1 #25 〜すら is a written さえ, mostly in negative sentences. Quartet II L11-4 Nまで piles N on top of what is already there (風まで強くなった). Pitfall: さえ〜ば is not *even if*; that is 〜ても."

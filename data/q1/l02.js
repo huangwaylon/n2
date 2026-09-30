@@ -894,7 +894,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "sub",
@@ -969,7 +970,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**〜てくる／〜ていく** place a change on a time line with the speaker at *now*: くる brings it up to the present (*has been getting, has started to*), いく carries it forward (*will go on, more and more*). English usually needs *getting* or *keep*: 寒くなってきた (*it's getting cold*), 増えていくだろう (*will keep increasing*).\n\n- 慣れた reports the change as done (*I'm used to it*, as student B says in example 2); 慣れてきた keeps it under way.\n- Verbs that are not changes need ようになる first: 話せるようになってきた (*I'm getting to where I can speak*).\n- The same forms also mean movement: 買ってくる (*go buy and come back*), 持っていく (*take along*); context decides.\n\nQuartet II L7-1 〜つつある is the written, report-style *is in the process of changing*. TRY! N2 #65 〜にしたがって and its ＋Plus 〜につれて tie two changes together: *as X, Y*."
@@ -1325,7 +1327,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       },
       {
        "t": "head",
@@ -1616,7 +1619,8 @@ TRY.registerLesson({
           }
          ]
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "The three set phrases use 気 differently. **〜に気がつく** (also 気づく) is noticing something that was there all along: 財布を忘れたのに気がついた (*I realized I'd forgotten my wallet*). **〜に気をつける** is paying attention to avoid trouble; お体にお気をつけください is a standard letter closing (*please take care of yourself*), and 気をつけて alone means *take care* when parting. **〜が気に入る** is a liking one takes to a particular thing, usually as 気に入った or 気に入っている: このかばん、気に入ってる (*I love this bag*).\n\n- 気に入る marks the liked thing with が (を in 〜を気に入る is also common) and does not take whole categories: 甘い物が好きだ.\n\nPitfall: 気にする is *worry about*, not *notice*: 人の目を気にする (*worry what people think*). Quartet I L4-2 〜ような気がする is *have a feeling that*."
@@ -1930,7 +1934,8 @@ TRY.registerLesson({
          ],
          "page": 47
         }
-       ]
+       ],
+       "side": true
       }
      ],
      "deepDive": "**XばXほどY** makes Y grow in step with X: *the more X, the more Y*. X is said twice, the ば form first and the plain form second (話せば話すほど). With する verbs, な-adjectives and nouns, the second X shrinks to する or ある (勉強すればするほど, 大変であればあるほど).\n\n- い-adjectives: 近ければ近いほど. In speech, な-adjectives also use なら: 静かなら静かなほど.\n- The ば half can be dropped with the same meaning: 練習するほど上手になる.\n- A common set phrase: 早ければ早いほどいい (*the sooner the better*).\n\nQuartet I L6-8 〜ほど is *to the extent that*; Quartet II L10-7 Nほど compares cases: 忙しい人ほど (*the busier a person is*). TRY! N2 #65 〜にしたがって and its ＋Plus 〜につれて also pair two changes, as a gradual *as X, Y*."
