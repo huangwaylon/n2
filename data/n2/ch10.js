@@ -100,8 +100,8 @@ TRY.registerChapter({
                   q: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、{支持者|しじしゃ}は安心しているようだ。",
                   options: ["あるまい", "あるわけではない"],
                   answer: 0,
-                  en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.",
-                  why: { en: "The supporters are relieved because they judge his defeat very unlikely → 落選することはあるまい. あるわけではない is a partial denial and doesn't explain their relief." },
+                  en: "The supporters seem relieved, sure that Yamaguchi won't lose in this election.",
+                  why: { en: "The supporters are relieved because they judge a defeat very unlikely → 落選することはあるまい. あるわけではない is a partial denial and doesn't explain their relief." },
                 },
                 {
                   q: "会社に対して特に{不満|ふまん}が（　）が、{通勤|つうきん}に2時間もかかるので{転職|てんしょく}したいと思っている。",
