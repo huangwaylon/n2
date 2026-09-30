@@ -361,7 +361,7 @@ TRY.registerChapter({
       ex: {
         type: "passage",
         labels: "123",
-        prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、[1]から[4]の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider its overall content, and choose the best option (1–4) for each of blanks [1]–[4]." },
+        prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider its overall content, and choose the best option (1–4) for each of blanks [1]–[4]." },
         text: ["お買い上げ{誠|まこと}にありがとうございます。お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には{万全|ばんぜん}を{期|き}して[2]が、{万一|まんいち}{不良品|ふりょうひん}などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。"],
         en: ["Thank you very much for your purchase. We take every care over the quality control of the products we deliver to you, but should any item by chance be defective, we apologize for the trouble and ask that you please contact our company."],
         blanks: [
