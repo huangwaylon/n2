@@ -438,7 +438,7 @@ TRY.registerLesson({
       "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know the names of the toppings, so there's no need to worry.",
       "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
-      "Conveyor-belt sushi restaurants have now spread all over the world, but come and experience the real thing in Japan, which has a flavor all its own."
+      "Conveyor-belt sushi restaurants have now spread all over the world, but come and try the real thing here in Japan: it has a special something you won't find in other countries."
      ],
      "headTr": [
       "What Is Kaitenzushi?",
@@ -904,7 +904,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**XたびにY** ties Y to every occurrence of X: *every time, whenever*. It suits habits and things that keep happening, often with 〜てしまう or 〜ようにしている: 行くたびに買ってしまう.\n\n- X is an action or event: Vる or Nの (引っ越しのたびに, 例4). States and 〜ない can't be X: ✗わからないたびに.\n- X stays in the dictionary form even for past habits: 子どものころ、祖母の家に行くたびに…, not ✗行ったたびに.\n- たびに needs something that repeats; for a single occasion, use 〜時 or 〜と.\n\n**〜ごとに** is *at every (interval)*: 1時間ごとに. TRY! N2 #94 〜につけ narrows it to seeing or hearing that brings on a feeling: 写真を見るにつけ、故郷を思い出す. Pitfall: Y must be something that happens or is done, not a description: ✗富士山を見るたびに、美しい; say 見るたびに感動する."
+     "deepDive": "**XたびにY** ties Y to every occurrence of X: *every time, whenever*. It suits habits and things that keep happening, often with 〜てしまう or 〜ようにしている: 行くたびに買ってしまう.\n\n- X is an action or event: Vる or Nの (引っ越しのたびに, example 4). States and 〜ない can't be X: ✗わからないたびに.\n- X stays in the dictionary form even for past habits: 子どものころ、祖母の家に行くたびに…, not ✗行ったたびに.\n- たびに needs something that repeats; for a single occasion, use 〜時 or 〜と.\n\n**〜ごとに** is *at every (interval)*: 1時間ごとに. TRY! N2 #94 〜につけ narrows it to seeing or hearing that brings on a feeling: 写真を見るにつけ、故郷を思い出す. Pitfall: Y must be something that happens or is done, not a description: ✗富士山を見るたびに、美しい; say 見るたびに感動する."
     },
     {
      "t": "note",
@@ -1266,7 +1266,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, 例1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (example 2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (example 5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
+     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, example 1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (example 2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (example 5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
     },
     {
      "t": "note",
@@ -1462,7 +1462,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (examples 3 and 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, 例4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
+     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (examples 3 and 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, example 4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
     },
     {
      "t": "note",
