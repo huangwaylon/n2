@@ -429,16 +429,16 @@ TRY.registerLesson({
       }
      ],
      "tr": [
-      "Sushi used to have nothing but an upscale image. What changed that image was conveyor-belt sushi. At conveyor-belt sushi restaurants, you can eat sushi at low prices, from 100 yen to several hundred yen a plate. Even though it's cheap, the toppings are fresh and delicious, so popular restaurants are crowded whenever you go. Some people probably can't help going in when they see a sign saying “100 yen a plate.”",
+      "Sushi used to be seen only as an upscale food. What changed that was conveyor-belt sushi. At conveyor-belt sushi restaurants, you can eat sushi at low prices, from 100 yen to several hundred yen a plate. Even though it's cheap, the toppings are fresh and delicious, so popular restaurants are crowded no matter when you go. Some people probably can't help going in when they see a sign saying “100 yen a plate.”",
       "When you enter a conveyor-belt sushi restaurant, the first thing that catches your eye is a big conveyor belt running right beside the tables. From the delicious-looking sushi carried along one after another on that belt, customers freely take whatever they want to eat. There is a wide variety of toppings, including seasonal limited-time toppings and unusual Western-style ones, so you should be able to enjoy yourself every time you go. More and more restaurants are also serving side dishes other than sushi, such as ramen and desserts.",
       "And at conveyor-belt sushi restaurants, the price is usually set by the color of the plate. So unlike upscale sushi restaurants, where there is no menu and you don't know the prices, at a conveyor-belt sushi restaurant you can choose what you like without worrying.",
-      "If you go to a restaurant at lunchtime or dinnertime, there is often a line. While you wait, you write your name and the number of people in your party on a sheet of paper placed at the entrance. At some places, instead of paper, you enter the number on a touch panel. There are also restaurants where you can choose between counter seats and booth seats. When a seat becomes free, you are called in turn and shown inside.",
+      "If you go to a restaurant at lunchtime or dinnertime, there is often a line. If you have to wait, put your name and the number of people in your party down on the sheet of paper at the entrance. At some places, instead of paper, you enter the number on a touch panel. There are also restaurants where you can choose between counter seats and booth seats. When a seat becomes free, you are called in turn and shown inside.",
       "Once you're seated, make your tea. First, take one of the teacups placed near your seat and put in powdered tea or a tea bag from the table. Next, pour hot water from the nozzle attached to the table. When you press the black button under the nozzle with the cup, hot water comes out. It's also a good idea to get soy sauce, wasabi, and gari (vinegar-pickled ginger), which cleanses the palate, ready ahead of time.",
       "The topping you want isn't necessarily going around on the belt when you want to eat it. That's when the touch panel, which lets you order from your seat, comes in handy. Although it differs from restaurant to restaurant, you can usually order in much the same way.",
       "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know the names of the toppings, so there's no need to worry.",
       "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
-      "Conveyor-belt sushi restaurants have now spread all over the world, but try the authentic version here in Japan, which has a character all its own that sets it apart from what you find in other countries."
+      "Conveyor-belt sushi restaurants have now spread all over the world, but come and experience the real thing in Japan, which has a flavor all its own."
      ],
      "headTr": [
       "What Is Kaitenzushi?",
@@ -536,7 +536,7 @@ TRY.registerLesson({
       "Thinly sliced beef: 100 g / Mirin: 2 tablespoons",
       "Vegetable oil: 1 tablespoon / Soy sauce: 3 tablespoons",
       "1. First, cut the ingredients. Peel the potatoes and cut them into bite-size pieces; cut the carrot in half lengthwise and then into 5-millimeter slices; slice the onion thinly; and cut the beef into bite-size pieces as well.",
-      "2. Next, heat the vegetable oil in a pot and stir-fry the beef. When the meat changes color, add the other ingredients you cut in step 1 and stir-fry lightly.",
+      "2. Next, heat the vegetable oil in a pot and stir-fry the beef. When the meat changes color, add the other ingredients you cut earlier in step 1 and stir-fry lightly.",
       "3. Then add the dashi, sake, sugar, and mirin and simmer over medium heat. Scum will rise to the surface, so skim it off as you simmer for about 10 minutes.",
       "4. After that, add the soy sauce, turn the heat down to low, and simmer for 10 minutes. Keep an eye on it and adjust the heat so that it doesn't burn.",
       "5. When the potatoes are soft, it's ready.",
@@ -593,7 +593,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "**まず**、__トップ画面の「お{引|ひき}{出|だ}し」 (withdrawal) をタッチします__。たいてい、画面の上のほうにあります。**次に**、__カードを{機械|きかい}に入れます__。黒いテープのほうを下にして入れてください。**そして**、__{暗証|あんしょう}番号 (PIN) を入れてから、「{確認|かくにん}」を押します__。3回間違えると、ATMが使えなくなるので注意が必要です。**それから**、__引き出したい{金額|きんがく}を入れて、「確認」を押します__。一日にいくらまで引き出せるかが決まっているので、気をつけてください。**最後に**、__利用{明細票|めいさいひょう} (receipt) が必要かどうかを選びます__。すると、すぐに引き出したお金とカードが出てきます。両方とも忘れずに取りましょう。",
-        "tr": "First, touch “Withdrawal” on the top screen. It is usually near the top of the screen. Next, insert your card into the machine. Insert it with the black stripe facing down. Then enter your PIN and press “Confirm.” If you get it wrong three times, you will no longer be able to use the ATM, so be careful. After that, enter the amount you want to withdraw and press “Confirm.” There is a limit on how much you can withdraw in a day, so be careful. Finally, choose whether you need a receipt. Your cash and card will then come out right away. Be sure not to forget either of them."
+        "tr": "First, touch “Withdrawal” on the home screen. It is usually near the top of the screen. Next, insert your card into the machine. Insert it with the black magnetic strip facing down. Then enter your PIN and press “Confirm.” If you get it wrong three times, you will no longer be able to use the ATM, so take care. After that, enter the amount you want to withdraw and press “Confirm.” There is a limit on how much you can withdraw in a day, so be careful. Finally, choose whether you need a receipt. Your cash and card will then come out right away. Be sure not to forget either of them."
        }
       },
       {
@@ -773,7 +773,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (例5), だれに聞いても.\n- 何度／何回 Vても stresses repeated tries with the same result (例3); いくら and どんなに measure degree (例5, 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
     },
     {
      "t": "note",
@@ -900,7 +901,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XたびにY** ties Y to every occurrence of X: *every time, whenever*. It suits habits and things that keep happening, often with 〜てしまう or 〜ようにしている: 行くたびに買ってしまう.\n\n- X is an action or event: Vる or Nの (引っ越しのたびに, 例4). States and 〜ない can't be X: ✗わからないたびに.\n- X stays in the dictionary form even for past habits: 子どものころ、祖母の家に行くたびに…, not ✗行ったたびに.\n- たびに needs something that repeats; for a single occasion, use 〜時 or 〜と.\n\n**〜ごとに** is *at every (interval)*: 1時間ごとに. TRY! N2 #94 〜につけ narrows it to seeing or hearing that brings on a feeling: 写真を見るにつけ、故郷を思い出す. Pitfall: Y must be something that happens or is done, not a description: ✗富士山を見るたびに、美しい; say 見るたびに感動する."
     },
     {
      "t": "note",
@@ -1080,7 +1082,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜はずだ** is a conclusion the speaker reaches by reasoning from facts: *should, ought to, must be*. The grounds usually come first with から: 日曜日だから、閉まっているはずだ (例1).\n\n- Forms: plain form, なAな, Nの (休みのはずだ).\n- Past はずだった is a plan or expectation that fell through: 行くはずだったが、病気で行けなくなった (例5). For one's own future plans, say 予定だ or つもりだ (the × example).\n- Readings 1 and 2 use it to assure the reader: 楽しめるはずだ, 気に入るはずです.\n\n**〜べきだ** (L3-7) is an opinion about what is right: 席を譲るべきだ. **〜わけだ** (L4-8) explains something already observed. Quartet II L9-8 〜はずがない is the strong denial, *there's no way*; L9-2 〜に違いない is a firmer personal conviction. Pitfall: はずだ is never advice; *you should study more* is もっと勉強したほうがいい."
     },
     {
      "t": "note",
@@ -1219,7 +1222,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "今日のランチはホテルの食べ放題に行く予定なので、たくさん食べられるように朝ご飯はあまり食べ**ないでおこう**。",
-         "tr": "Since I'm planning to go to a hotel's all-you-can-eat buffet for lunch today, I won't eat much breakfast so that I can eat a lot."
+         "tr": "Since I'm planning to go to a hotel's all-you-can-eat buffet for lunch today, I'll keep breakfast light so that I can eat a lot."
         },
         {
          "n": 5,
@@ -1231,7 +1234,7 @@ TRY.registerLesson({
           },
           {
            "ja": "今日はバレンタインデーだった。ジョージが「{絵理|えり}からチョコレートをもらった！」とうれしそうに僕に言った。実は、僕も同じチョコレートをもらったが、そのことはジョージに言わ**ないでおいた**。",
-           "tr": "Today was Valentine's Day. George told me happily, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I didn't tell George about it."
+           "tr": "Today was Valentine's Day. George told me happily, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I kept that from George."
           }
          ]
         }
@@ -1257,7 +1260,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, 例1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (例2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (例5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
     },
     {
      "t": "note",
@@ -1338,7 +1342,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**まず, 次に, それから, 最後に** number the steps of a procedure, like *first, next, then, finally*. Each opens its sentence with a comma; recipes and notices end the steps in the ます form (切ります), a magazine article in the plain form (タッチする, Reading 1).\n\n- まずはじめに (Reading 1, line 36) is an emphatic まず. そして and その後 also link steps (the ATM model in Strategy 8; Reading 2, step 4).\n- Inside one step, 〜てから and 〜たら show that one action must finish first (Writing points (b)).\n- すると (*then, at that*) reports what a step makes happen: すると、詳しいメニューが出てくる. It doesn't start a new step.\n\nIn conversation, まず〜。で、次に〜 is common. Pitfall: 最後に is *as the last step*; *at last, after a long wait* is やっと or ついに."
     },
     {
      "t": "note",
@@ -1450,7 +1455,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (例1).\n\n- もし marks X as a supposition the speaker thinks unlikely; たとえ (例3, 5) makes X a pure hypothesis, often an extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, 例4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
     },
     {
      "t": "note",
@@ -1629,7 +1635,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XようにY** does Y hoping that condition X comes about: *so that*. X is something one can't bring about directly by will: a potential form (起きられる), an intransitive or stative verb (わかる, 聞こえる, やわらかくなる), or 〜ない (忘れないように; こげないように, Reading 2, line 22).\n\n- The two subjects may differ: 留学生がわかるように、ゆっくり話す (例4).\n- **Vるために** (L1-5) needs a volitional verb and the same subject, and stresses resolve: 勉強するために来た. Hence ✗行けるために, ✓行けるように.\n- **〜ようにする** (L1-8) is a conscious effort (*make a point of*), and **〜ように言う** (L6-7) reports a request.\n\nPitfall: a volitional verb before ように is wrong: ✗旅行に行くように、お金をためている (the book's × example); say 行けるように or 行くために."
     },
     {
      "t": "note",
@@ -1719,7 +1726,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "パソコンが{欲|ほ}しいんですが、どこのがいいと思いますか。",
-           "tr": "I want a computer. Whose do you think is good?"
+           "tr": "I want a computer. Which maker do you think is good?"
           },
           {
            "sp": "B",
@@ -1747,7 +1754,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Nにする** announces a choice among options: *I'll have, let's make it, I'll go with*. When ordering, it is the everyday way to say what one wants: 焼き肉定食にします. Staff ask 何になさいますか, the honorific form.\n\n- Question words fit: いつにしますか, どこにしましょうか (例1), どれにするか決めたら (Reading 1, line 43).\n- 〜にしたら？／〜にしたらどうですか suggests an option (例2, 3).\n- For deciding to *do* something, use **〜ことにする** (L2-4): 北海道に行くことにした. **Nになる** is a result decided by others or by circumstances: 会議は月曜日になった (*the meeting ended up on Monday*).\n\nPitfall: after an adjective, にする means *make it ~*, not a choice: 部屋をきれいにする (*tidy up the room*); only a noun + にする picks an option."
     },
     {
      "t": "note",
@@ -1841,7 +1849,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is status, profession, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (例1). XだけあるY after a compliment adds the reason: さすが高級ホテルだけある (例5).\n- It isn't used about oneself: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
     }
    ]
   },
@@ -2507,7 +2516,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "回転ずしに行くんだけど、＿＿、一緒に＿＿ない？",
-            "tr": "We're going to a conveyor-belt sushi place, so ＿＿, do you want to ＿＿ with us?"
+            "tr": "I'm going to a conveyor-belt sushi place. ＿＿, do you want to ＿＿ with us?"
            },
            "answer": [
             "よかったら",
@@ -2760,7 +2769,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❷日本語のクラスメートと回転ずしに行く**んだけど、よかったら、一緒に行かない？**",
-       "tr": "I'm going to a conveyor-belt sushi place with my Japanese classmates. If you'd like, do you want to come with us?"
+       "tr": "I'm going to a conveyor-belt sushi place with my Japanese classmates. Would you like to come with us?"
       },
       {
        "sp": "絵",
@@ -2808,7 +2817,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "「{海|うみ}ずし」。{北山|きたやま}駅から{徒歩|とほ}5分ぐらいのところなんだけど……。",
-       "tr": "Umi-zushi. It's about a five-minute walk from Kitayama Station..."
+       "tr": "Umizushi. It's about a five-minute walk from Kitayama Station..."
       },
       {
        "sp": "絵",
@@ -2914,7 +2923,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "日本語のクラスメートと回転ずしに行く**んだけど、**\n**よかったら、一緒に行かない？**",
-        "tr": "I'm going to a conveyor-belt sushi place with my Japanese classmates. If you'd like, do you want to come with us?"
+        "tr": "I'm going to a conveyor-belt sushi place with my Japanese classmates. Would you like to come with us?"
        }
       },
       {
@@ -3041,7 +3050,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❷**〜んだけど、よかったら、一緒に行かない？**",
-         "tr": "I'm (doing something), so if you'd like, do you want to come with us?"
+         "tr": "I'm (doing something). Would you like to come with us?"
         },
         {
          "sp": "友達",
@@ -3302,7 +3311,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "m",
            "ja": "はい。❺先生がいらっしゃるのを**楽しみにしています。**",
-           "tr": "Yes. I'm looking forward to you coming."
+           "tr": "Yes. I'm looking forward to having you there."
           }
          ]
         }
@@ -3347,7 +3356,7 @@ TRY.registerLesson({
      "id": "l5-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3523,7 +3532,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "{区|く}{役所|やくしょ}＿＿が、\n南口{改札|かいさつ}＿＿か。",
-            "tr": "I'd ＿＿ the ward office, but ＿＿ the South Exit ticket gate?"
+            "tr": "I'd ＿＿ the ward office. Is the South Exit ticket gate ＿＿?"
            },
            "answer": [
             "方面に行きたいんです",
@@ -3597,7 +3606,7 @@ TRY.registerLesson({
        "sp": "駅",
        "v": "m",
        "ja": "そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。",
-       "tr": "Go down those stairs and go back down to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
+       "tr": "Go down those stairs and head back to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
       },
       {
        "sp": "ジ",
@@ -3834,7 +3843,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの\n{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です。",
-        "tr": "Go down those stairs and go back down to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
+        "tr": "Go down those stairs and head back to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
        }
       },
       {
@@ -3949,7 +3958,7 @@ TRY.registerLesson({
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
-       "tr": "Try talking using the pattern in the gray box."
+       "tr": "Try having the conversation using the pattern in the gray box."
       }
      ]
     },
@@ -3965,7 +3974,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ {確認|かくにん} (confirmation) のために聞く ➔ ❷ 道を聞く ➔ ❸ 繰り返して (repeat) 確認する ➔ ❹ 繰り返して確認し、お礼を言う",
-        "tr": "1 Ask to confirm → 2 Ask the way → 3 Repeat it back to confirm → 4 Repeat it back to confirm, and say thank you"
+        "tr": "❶ Ask to confirm ➔ ❷ Ask the way ➔ ❸ Repeat it back to confirm ➔ ❹ Repeat it back to confirm, and say thank you"
        }
       }
      ]
@@ -3999,7 +4008,7 @@ TRY.registerLesson({
          "sp": "駅員",
          "v": "m",
          "ja": "{{そちらの{階段|かいだん}を{下|お}りて、いったんホームに{戻|もど}ってください。ホームの{反対|はんたい}の{端|はし}まで歩いて、エスカレーターを{上|あ}がったところが北口です}}。",
-         "tr": "Go down those stairs and go back down to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
+         "tr": "Go down those stairs and head back to the platform first. Walk to the opposite end of the platform, and the North Exit is at the top of the escalator."
         },
         {
          "sp": "あなた",
@@ -4138,7 +4147,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❺ 話しかける ➔ ❻ 道を聞く ➔ ❼ 繰り返して{確認|かくにん}し、お礼を言う",
-        "tr": "5 Start the conversation → 6 Ask the way → 7 Repeat it back to confirm, and say thank you"
+        "tr": "❺ Start the conversation ➔ ❻ Ask the way ➔ ❼ Repeat it back to confirm, and say thank you"
        }
       }
      ]
@@ -4655,7 +4664,7 @@ TRY.registerLesson({
        "sp": "ル",
        "v": "f",
        "ja": "確かとり肉と玉ねぎがあった__はず__……。それで何が作れるかな？",
-       "tr": "I'm pretty sure there should be chicken and onions... What can we make with those?"
+       "tr": "We should have some chicken and onions, if I remember right... What can we make with those?"
       },
       {
        "sp": "ソ",
@@ -4818,7 +4827,7 @@ TRY.registerLesson({
            "n": "④",
            "text": {
             "ja": "他の日本人の友達は、約束をしないで人の家に行ってもいいと考えている。",
-            "tr": "Her other Japanese friend thinks it's fine to go to someone's home without making plans first."
+            "tr": "Another Japanese friend of hers thinks it's fine to go to someone's home without making plans first."
            },
            "answer": "×"
           },
