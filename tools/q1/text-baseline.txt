@@ -625,7 +625,7 @@ l1.sections.2.blocks.8.items.7.en	right now; right away
 l1.sections.2.blocks.9.text.ja	フローチャート
 l1.sections.2.blocks.10.head.0.ja	あなた：{自己|じこ}紹介する
 l1.sections.2.blocks.10.head.1.ja	新しいルームメート：自己紹介する
-l1.sections.2.blocks.10.steps.0.phase.ja	パートA
+l1.sections.2.blocks.10.steps.0.phase.ja	[#パートA]
 l1.sections.2.blocks.10.steps.0.label.ja	名前と出身を言う
 l1.sections.2.blocks.10.steps.0.text.ja	**はじめまして。**ジョージ・テイラー**って言います。**
 ジョージ**って{呼|よ}んでください。**
@@ -640,7 +640,7 @@ l1.sections.2.blocks.10.steps.4.text.ja	研でいいよ。
 l1.sections.2.blocks.10.steps.5.label.ja	質問する
 l1.sections.2.blocks.10.steps.5.text.ja	研は何年生ですか。
 l1.sections.2.blocks.10.steps.6.text.ja	3年生。ちなみに、国際学部です。
-l1.sections.2.blocks.10.steps.7.phase.ja	パートB
+l1.sections.2.blocks.10.steps.7.phase.ja	[#パートB]
 l1.sections.2.blocks.10.steps.7.label.ja	手みやげをわたす (give a small present)
 l1.sections.2.blocks.10.steps.7.text.ja	**あの、これ、たいしたものじゃないんだけど、**
 シアトルで有名なコーヒー{豆|まめ}です。
@@ -650,7 +650,7 @@ l1.sections.2.blocks.10.steps.9.label.ja	{喜|よろこ}んでもらえてうれ
 l1.sections.2.blocks.10.steps.9.text.ja	**喜んでもらえてよかった。**
 l1.sections.2.blocks.11.text.ja	{練習|れんしゅう}しよう
 l1.sections.2.blocks.12.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l1.sections.2.blocks.13.title.ja	パートA
+l1.sections.2.blocks.13.title.ja	[#パートA]
 l1.sections.2.blocks.13.blocks.0.text.ja	❶名前と出身を言う → ❷あいさつをする → ❸{呼|よ}び方を聞く → ❹質問する
 l1.sections.2.blocks.14.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.14.blocks.0.lines.0.ja	❶**はじめまして。**〇〇**って言います。**〇〇**って{呼|よ}んでください。**{{アメリカ}}の{{シアトル}}**{出身|しゅっしん}です。**❷**これから**（1年間）、**お{世話|せわ}になります。よろしくお{願|ねが}いします。**
@@ -666,7 +666,7 @@ l1.sections.2.blocks.14.blocks.0.lines.5.sp	ルームメート
 l1.sections.2.blocks.14.blocks.0.lines.5.ja	［答える］。
 l1.sections.2.blocks.15.items.0.text.ja	新しいルームメートに{自己|じこ}紹介しなさい。
 l1.sections.2.blocks.15.items.1.text.ja	「1-1. やってみよう」の1) ①② (p. 18) で考えたことを使って話してみよう。
-l1.sections.2.blocks.16.title.ja	パートB
+l1.sections.2.blocks.16.title.ja	[#パートB]
 l1.sections.2.blocks.16.blocks.0.text.ja	❺手みやげをわたす (give a small present) → ❻{喜|よろこ}んでもらえてうれしいと言う
 l1.sections.2.blocks.17.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.17.blocks.0.lines.0.ja	❺**あの、これ、たいしたものじゃないんだけど、**{{シアトルで有名なコーヒー{豆|まめ}}}です。
@@ -675,7 +675,7 @@ l1.sections.2.blocks.17.blocks.0.lines.1.ja	ありがとう。〇〇、大好き
 l1.sections.2.blocks.17.blocks.0.lines.2.sp	あなた
 l1.sections.2.blocks.17.blocks.0.lines.2.ja	❻**{喜|よろこ}んでもらえてよかった。**
 l1.sections.2.blocks.18.items.0.text.ja	「1-1. やってみよう」の1) ③ (p. 18) で考えたことを使って話してみよう。
-l1.sections.2.blocks.19.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l1.sections.2.blocks.19.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l1.sections.2.blocks.20.title.ja	フォーマルな会話にチャレンジ！
 l1.sections.2.blocks.20.blocks.0.text.ja	ロールプレイをやってみよう
 l1.sections.2.blocks.20.blocks.1.cards.0.who	あなた
@@ -685,7 +685,7 @@ l1.sections.2.blocks.20.blocks.1.cards.1.who	Aの新しい先生
 l1.sections.2.blocks.20.blocks.1.cards.1.text.ja	Aさんの話を聞いて
 {対応|たいおう}しなさい (respond)。
 l1.sections.2.blocks.20.blocks.2.text.ja	{練習|れんしゅう}しよう
-l1.sections.2.blocks.20.blocks.3.text.ja	パートA
+l1.sections.2.blocks.20.blocks.3.text.ja	[#パートA]
 l1.sections.2.blocks.20.blocks.4.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.20.blocks.4.blocks.0.lines.0.ja	❶**はじめまして。**〇〇**と{申|もう}します。**{{アメリカ}}の{{シアトル}}**からまいりました。**❷**これから**（1年間）、**お{世話|せわ}になります。どうぞよろしくお{願|ねが}いいたします。**
 l1.sections.2.blocks.20.blocks.4.blocks.0.lines.1.sp	先生
@@ -695,7 +695,7 @@ l1.sections.2.blocks.20.blocks.4.blocks.0.lines.2.ja	❹［質問する］。
 l1.sections.2.blocks.20.blocks.4.blocks.0.lines.3.sp	先生
 l1.sections.2.blocks.20.blocks.4.blocks.0.lines.3.ja	［答える］。
 l1.sections.2.blocks.20.blocks.5.items.0.ja	新しい日本語の先生に{自己|じこ}紹介をしなさい。
-l1.sections.2.blocks.20.blocks.6.text.ja	パートB
+l1.sections.2.blocks.20.blocks.6.text.ja	[#パートB]
 l1.sections.2.blocks.20.blocks.7.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.20.blocks.7.blocks.0.lines.0.ja	❺**あの、これ、たいしたものではないんですが、**{{シアトルで有名なコーヒー{豆|まめ}}}です。
 l1.sections.2.blocks.20.blocks.7.blocks.0.lines.1.sp	先生
@@ -703,7 +703,7 @@ l1.sections.2.blocks.20.blocks.7.blocks.0.lines.1.ja	ありがとうございま
 l1.sections.2.blocks.20.blocks.7.blocks.0.lines.2.sp	あなた
 l1.sections.2.blocks.20.blocks.7.blocks.0.lines.2.ja	❻**{喜|よろこ}んでいただけてうれしいです。**
 l1.sections.2.blocks.20.blocks.8.items.0.ja	先生に、あなたの国から持ってきた手みやげ (small present) をわたしなさい。
-l1.sections.2.blocks.20.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l1.sections.2.blocks.20.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l1.sections.2.blocks.21.text.ja	{友達|ともだち}とのおしゃべり
 l1.sections.2.blocks.22.text.ja	やってみよう
 l1.sections.2.blocks.23.items.0.text.ja	休み時間や授業が始まる前に{友達|ともだち}にどのように話しかけますか。下にメモしなさい。
@@ -794,7 +794,7 @@ l1.sections.2.blocks.29.items.4.en	specialized in ~
 l1.sections.2.blocks.30.text.ja	フローチャート
 l1.sections.2.blocks.31.head.0.ja	あなた：話を続ける
 l1.sections.2.blocks.31.head.1.ja	{友達|ともだち}：話を続ける
-l1.sections.2.blocks.31.steps.0.phase.ja	パートA
+l1.sections.2.blocks.31.steps.0.phase.ja	[#パートA]
 l1.sections.2.blocks.31.steps.0.label.ja	天気の話で会話を始める
 l1.sections.2.blocks.31.steps.0.text.ja	今日も**むし{暑|あつ}いね**。
 l1.sections.2.blocks.31.steps.1.text.ja	そうだね。もうすぐ10月なのに、信じられない。
@@ -804,7 +804,7 @@ l1.sections.2.blocks.31.steps.3.text.ja	{友達|ともだち}と{東京|とう�
 ジブリ{美術館|びじゅつかん}に行ったよ。
 l1.sections.2.blocks.31.steps.4.label.ja	コメントをする
 l1.sections.2.blocks.31.steps.4.text.ja	いいなあ。
-l1.sections.2.blocks.31.steps.5.phase.ja	パートB
+l1.sections.2.blocks.31.steps.5.phase.ja	[#パートB]
 l1.sections.2.blocks.31.steps.5.label.ja	くわしく聞く
 l1.sections.2.blocks.31.steps.5.text.ja	**それで**、どうだった？
 l1.sections.2.blocks.31.steps.6.text.ja	{宮崎|みやざき}{監督|かんとく}が{描|か}いた本物の絵があって
@@ -818,7 +818,7 @@ l1.sections.2.blocks.31.steps.11.label.ja	コメントをする
 l1.sections.2.blocks.31.steps.12.label.ja	くわしく聞く
 l1.sections.2.blocks.32.text.ja	{練習|れんしゅう}しよう
 l1.sections.2.blocks.33.text.ja	▶ ［　　　］のパターンを使って話してみましょう。
-l1.sections.2.blocks.34.title.ja	パートA
+l1.sections.2.blocks.34.title.ja	[#パートA]
 l1.sections.2.blocks.34.blocks.0.text.ja	❶ 天気の話で会話を始める ➔ ❷ {話題|わだい} (topic) を変えて質問する ➔ ❸ コメントをする
 l1.sections.2.blocks.35.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.35.blocks.0.lines.0.ja	❶{{今日もむし{暑|あつ}いね}}。
@@ -833,7 +833,7 @@ l1.sections.2.blocks.35.blocks.0.lines.4.ja	❸{{いいなあ}}。
 l1.sections.2.blocks.36.items.0.text.ja	友達に今日の天気の話をした後、{今学期|こんがっき}取っている授業について聞きなさい。
 l1.sections.2.blocks.36.items.1.text.ja	友達に今日の天気の話をした後、{昨日|きのう}授業の後、何をしたかについて聞きなさい。
 l1.sections.2.blocks.36.items.2.text.ja	「2-1. やってみよう」の 1）(p. 24) で考えたことを使って話してみよう。
-l1.sections.2.blocks.37.title.ja	パートB
+l1.sections.2.blocks.37.title.ja	[#パートB]
 l1.sections.2.blocks.37.blocks.0.text.ja	❹ くわしく聞く ➔ ❺（友達が）同じ話題の質問をする
 l1.sections.2.blocks.38.blocks.0.lines.0.sp	あなた
 l1.sections.2.blocks.38.blocks.0.lines.0.ja	❹**それで**、{{どうだった}}？
@@ -845,8 +845,8 @@ l1.sections.2.blocks.38.blocks.0.lines.3.sp	友達
 l1.sections.2.blocks.38.blocks.0.lines.3.ja	［質問に答える］。❺**ところで**、{{メイリンは週末、何をしてたの}}？
 l1.sections.2.blocks.39.items.0.text.ja	今学期取っている授業について、友達の答えを聞いて、もっと質問しなさい。
 l1.sections.2.blocks.39.items.1.text.ja	昨日授業の後、何をしたかについて、友達の答えを聞いて、もっと質問しなさい。
-l1.sections.2.blocks.39.items.2.text.ja	上の［パートA］の 3. の友達の答えを聞いて、もっと質問しなさい。
-l1.sections.2.blocks.40.text.ja	☛ ペアを変えて、［パートA］と［パートB］を続けてやってみましょう！
+l1.sections.2.blocks.39.items.2.text.ja	上の[#パートA]の 3. の友達の答えを聞いて、もっと質問しなさい。
+l1.sections.2.blocks.40.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l1.sections.3.title.ja	アメリカ人留学生から見た日本
 l1.sections.3.blocks.0.text.ja	ジブリ美術館
 l1.sections.3.blocks.1.text.ja	留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。
@@ -1673,7 +1673,7 @@ l2.sections.2.blocks.8.items.3.en	Thank you for your help in advance.
 l2.sections.2.blocks.9.text.ja	フローチャート
 l2.sections.2.blocks.10.head.0.ja	あなた：お願いする
 l2.sections.2.blocks.10.head.1.ja	先生：お願いされる
-l2.sections.2.blocks.10.steps.0.phase.ja	パートA
+l2.sections.2.blocks.10.steps.0.phase.ja	[#パートA]
 l2.sections.2.blocks.10.steps.0.label.ja	話しかける
 l2.sections.2.blocks.10.steps.0.text.ja	先生、**今、少しよろしいでしょうか。**
 **お願いがあるんですが**……。
@@ -1685,7 +1685,7 @@ l2.sections.2.blocks.10.steps.3.text.ja	いいですよ。
 l2.sections.2.blocks.10.steps.4.label.ja	お礼を言う
 l2.sections.2.blocks.10.steps.4.text.ja	**ありがとうございます。**
 **お忙しいところ、申し訳ありません。**
-l2.sections.2.blocks.10.steps.5.phase.ja	パートB
+l2.sections.2.blocks.10.steps.5.phase.ja	[#パートB]
 l2.sections.2.blocks.10.steps.5.label.ja	{前|まえ}{置|お}き (preliminary) をする
 l2.sections.2.blocks.10.steps.5.text.ja	**あの、もう一つお願いがあるんですが**……。
 l2.sections.2.blocks.10.steps.6.text.ja	何ですか。
@@ -1698,7 +1698,7 @@ l2.sections.2.blocks.10.steps.9.text.ja	**ありがとうございます。**
 **よろしくお願いいたします。**
 l2.sections.2.blocks.11.text.ja	{練習|れんしゅう}しよう
 l2.sections.2.blocks.12.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l2.sections.2.blocks.13.title.ja	パートA
+l2.sections.2.blocks.13.title.ja	[#パートA]
 l2.sections.2.blocks.13.blocks.0.text.ja	❶話しかける → ❷お願いする → ❸お礼を言う
 l2.sections.2.blocks.14.blocks.0.lines.0.sp	あなた
 l2.sections.2.blocks.14.blocks.0.lines.0.ja	❶先生、**今、少しよろしいでしょうか。お願いがあるんですが**……。
@@ -1712,7 +1712,7 @@ l2.sections.2.blocks.14.blocks.0.lines.4.sp	あなた
 l2.sections.2.blocks.14.blocks.0.lines.4.ja	❸**ありがとうございます。お忙しいところ、申し訳ありません。**
 l2.sections.2.blocks.15.items.0.text.ja	スピーチコンテストのために書いた{原稿|げんこう} (script) を、先生に直してもらいなさい。
 l2.sections.2.blocks.15.items.1.text.ja	「1-1. やってみよう」の 1) (p. 52) の「お願い①」を使って話してみよう。
-l2.sections.2.blocks.16.title.ja	パートB
+l2.sections.2.blocks.16.title.ja	[#パートB]
 l2.sections.2.blocks.16.blocks.0.text.ja	❹{前|まえ}{置|お}き (preliminary) をする → ❺もう一つお願いをする（許可を求める ask for permission）
 → ❻もう一度お礼を言って会話を終える
 l2.sections.2.blocks.17.blocks.0.lines.0.sp	あなた
@@ -1727,7 +1727,7 @@ l2.sections.2.blocks.17.blocks.0.lines.4.sp	あなた
 l2.sections.2.blocks.17.blocks.0.lines.4.ja	❻**ありがとうございます。（よろしくお願いいたします。）**
 l2.sections.2.blocks.18.items.0.text.ja	来週の金曜日の午後は{奨学金|しょうがくきん}の{面接|めんせつ}があるので、その日は早く帰りたいと思っています。早く帰っていいかどうか、先生に聞きなさい。
 l2.sections.2.blocks.18.items.1.text.ja	「1-1. やってみよう」の 1) (p. 52) の「お願い②」を使って話してみよう。
-l2.sections.2.blocks.19.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l2.sections.2.blocks.19.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l2.sections.2.blocks.20.title.ja	カジュアルな会話にチャレンジ！
 l2.sections.2.blocks.20.blocks.0.text.ja	ロールプレイをやってみよう
 l2.sections.2.blocks.20.blocks.1.cards.0.who	あなた
@@ -1737,7 +1737,7 @@ l2.sections.2.blocks.20.blocks.1.cards.1.who	Aのクラスメート
 l2.sections.2.blocks.20.blocks.1.cards.1.text.ja	Aさんの話を聞いて
 {対応|たいおう}しなさい (respond)。
 l2.sections.2.blocks.20.blocks.2.text.ja	{練習|れんしゅう}しよう
-l2.sections.2.blocks.20.blocks.3.text.ja	パートA
+l2.sections.2.blocks.20.blocks.3.text.ja	[#パートA]
 l2.sections.2.blocks.20.blocks.4.blocks.0.lines.0.sp	あなた
 l2.sections.2.blocks.20.blocks.4.blocks.0.lines.0.ja	❶ねえ、**今、ちょっといい？　お願いがあるんだけど**……。
 l2.sections.2.blocks.20.blocks.4.blocks.0.lines.1.sp	クラスメート
@@ -1749,7 +1749,7 @@ l2.sections.2.blocks.20.blocks.4.blocks.0.lines.3.ja	うん、いいよ。
 l2.sections.2.blocks.20.blocks.4.blocks.0.lines.4.sp	あなた
 l2.sections.2.blocks.20.blocks.4.blocks.0.lines.4.ja	❸**ありがとう。忙しいのにごめんね。**
 l2.sections.2.blocks.20.blocks.5.items.0.ja	あなたは病気でクラスを休みました。クラスメートに授業のノートを見せてもらいなさい。
-l2.sections.2.blocks.20.blocks.6.text.ja	パートB
+l2.sections.2.blocks.20.blocks.6.text.ja	[#パートB]
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.0.sp	あなた
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.0.ja	❹**それから、もう一つお願いがあるんだけど**……。
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.1.sp	クラスメート
@@ -1761,7 +1761,7 @@ l2.sections.2.blocks.20.blocks.7.blocks.0.lines.3.ja	いいよ。
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.4.sp	あなた
 l2.sections.2.blocks.20.blocks.7.blocks.0.lines.4.ja	❻**ありがとう。（じゃあ、よろしくね。）**
 l2.sections.2.blocks.20.blocks.8.items.0.ja	あなたは宿題のプリントをなくしてしまいました。クラスメートのプリントをコピーしていいかどうか聞きなさい。
-l2.sections.2.blocks.20.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l2.sections.2.blocks.20.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l2.sections.2.blocks.21.text.ja	先生へのお礼
 l2.sections.2.blocks.22.text.ja	やってみよう
 l2.sections.2.blocks.23.items.0.text.ja	先生、アルバイト先の{上司|じょうし} (boss)、{事務|じむ}の人 (clerical worker) に、お礼を伝えたいことがありますか。下にメモしなさい。
@@ -1842,7 +1842,7 @@ l2.sections.2.blocks.29.items.1.en	without hesitation
 l2.sections.2.blocks.30.text.ja	フローチャート
 l2.sections.2.blocks.31.head.0.ja	あなた：お礼を言う
 l2.sections.2.blocks.31.head.1.ja	先生：お礼を言われる
-l2.sections.2.blocks.31.steps.0.phase.ja	パートA
+l2.sections.2.blocks.31.steps.0.phase.ja	[#パートA]
 l2.sections.2.blocks.31.steps.0.label.ja	お礼を言う
 l2.sections.2.blocks.31.steps.0.text.ja	**{先日|せんじつ}は**{推薦状|すいせんじょう}を書い**てくださって、
 ありがとうございました。**
@@ -1852,7 +1852,7 @@ l2.sections.2.blocks.31.steps.2.text.ja	**これ、ほんのお礼の気持ち�
 少しですが、{召|め}し{上|あ}がってください／受け取ってください。**
 l2.sections.2.blocks.31.steps.3.text.ja	すみません。
 じゃあ、{遠慮|えんりょ}なく。
-l2.sections.2.blocks.31.steps.4.phase.ja	パートB
+l2.sections.2.blocks.31.steps.4.phase.ja	[#パートB]
 l2.sections.2.blocks.31.steps.4.text.ja	ところで、インターンシップはどうでしたか。
 l2.sections.2.blocks.31.steps.5.label.ja	その後どうなったか話す
 l2.sections.2.blocks.31.steps.5.text.ja	町の人と交流することができた**し**、自分の国について
@@ -1863,7 +1863,7 @@ l2.sections.2.blocks.31.steps.7.text.ja	こんなすばらしい経験ができ�
 本当にありがとうございました。**
 l2.sections.2.blocks.32.text.ja	{練習|れんしゅう}しよう
 l2.sections.2.blocks.33.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l2.sections.2.blocks.34.title.ja	パートA
+l2.sections.2.blocks.34.title.ja	[#パートA]
 l2.sections.2.blocks.34.blocks.0.text.ja	❶ お礼を言う ➔ ❷ お礼をわたす
 l2.sections.2.blocks.35.blocks.0.lines.0.sp	あなた
 l2.sections.2.blocks.35.blocks.0.lines.0.ja	❶**（{先日|せんじつ}は）〜てくださって、ありがとうございました。**
@@ -1875,7 +1875,7 @@ l2.sections.2.blocks.35.blocks.0.lines.3.sp	先生
 l2.sections.2.blocks.35.blocks.0.lines.3.ja	すみません。じゃあ、{遠慮|えんりょ}なく。
 l2.sections.2.blocks.36.items.0.text.ja	あなたは先生にインターンシップを紹介してもらいました。お礼を言いなさい。
 l2.sections.2.blocks.36.items.1.text.ja	「2-1. やってみよう」の 1）①③ (p. 58) で考えたことを使って話してみよう。
-l2.sections.2.blocks.37.title.ja	パートB
+l2.sections.2.blocks.37.title.ja	[#パートB]
 l2.sections.2.blocks.37.blocks.0.text.ja	❸ その後どうなったか話す ➔ ❹ もう一度お礼を言い、会話を終える
 l2.sections.2.blocks.38.blocks.0.lines.0.sp	先生
 l2.sections.2.blocks.38.blocks.0.lines.0.ja	ところで、〜はどうでしたか。
@@ -1887,7 +1887,7 @@ l2.sections.2.blocks.38.blocks.0.lines.3.sp	あなた
 l2.sections.2.blocks.38.blocks.0.lines.3.ja	❹**〜のは、**{{先生}}**のおかげです。本当にありがとうございました。**
 l2.sections.2.blocks.39.items.0.text.ja	あなたはインターンシップをして、日本の会社のことがよくわかりました。インターンシップを紹介してくれた先生にお礼を言いなさい。
 l2.sections.2.blocks.39.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 58) で考えたことを使って話してみよう。
-l2.sections.2.blocks.40.text.ja	☛ ペアを変えて、［パートA］と［パートB］を続けてやってみましょう！
+l2.sections.2.blocks.40.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l2.sections.2.blocks.41.title.ja	カジュアルな会話にチャレンジ！
 l2.sections.2.blocks.41.blocks.0.text.ja	ロールプレイをやってみよう
 l2.sections.2.blocks.41.blocks.1.cards.0.who	あなた
@@ -1898,7 +1898,7 @@ l2.sections.2.blocks.41.blocks.1.cards.1.who	Aの友達
 l2.sections.2.blocks.41.blocks.1.cards.1.text.ja	Aさんの話を聞いて
 {対応|たいおう}しなさい (respond)。
 l2.sections.2.blocks.41.blocks.2.text.ja	{練習|れんしゅう}しよう
-l2.sections.2.blocks.41.blocks.3.text.ja	パートA
+l2.sections.2.blocks.41.blocks.3.text.ja	[#パートA]
 l2.sections.2.blocks.41.blocks.4.blocks.0.lines.0.sp	あなた
 l2.sections.2.blocks.41.blocks.4.blocks.0.lines.0.ja	❶**（この間は）〜てくれて、ありがとう。**
 l2.sections.2.blocks.41.blocks.4.blocks.0.lines.1.sp	友達
@@ -1908,7 +1908,7 @@ l2.sections.2.blocks.41.blocks.4.blocks.0.lines.2.ja	❷**これ、少しだけ�
 l2.sections.2.blocks.41.blocks.4.blocks.0.lines.3.sp	友達
 l2.sections.2.blocks.41.blocks.4.blocks.0.lines.3.ja	えっ、いいの？　ありがとう。
 l2.sections.2.blocks.41.blocks.5.items.0.ja	友達にスピーチコンテストのスクリプトを直してもらいました。お礼を言いなさい。
-l2.sections.2.blocks.41.blocks.6.text.ja	パートB
+l2.sections.2.blocks.41.blocks.6.text.ja	[#パートB]
 l2.sections.2.blocks.41.blocks.7.blocks.0.lines.0.sp	友達
 l2.sections.2.blocks.41.blocks.7.blocks.0.lines.0.ja	で、〜はどうだった？
 l2.sections.2.blocks.41.blocks.7.blocks.0.lines.1.sp	あなた
@@ -1919,7 +1919,7 @@ l2.sections.2.blocks.41.blocks.7.blocks.0.lines.3.sp	あなた
 l2.sections.2.blocks.41.blocks.7.blocks.0.lines.3.ja	❹**〜のは、〜さんのおかげだよ。ほんとにありがとう。**
 l2.sections.2.blocks.41.blocks.8.items.0.ja	あなたは、スピーチコンテストで{優勝|ゆうしょう}しました。友達にお礼を言いなさい。
 （先に友達が、スピーチコンテストはどうだったか聞きなさい。）
-l2.sections.2.blocks.41.blocks.9.text.ja	☛ ペアを変えて、［パートA］と［パートB］を続けてやってみましょう！
+l2.sections.2.blocks.41.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l2.sections.3.title.ja	フランス人留学生から見た日本
 l2.sections.3.blocks.0.text.ja	お花見旅行の{相談|そうだん}
 l2.sections.3.blocks.1.text.ja	留学生のサラと日本人学生の{美希|みき}が「お花見旅行」について話しています。
@@ -2722,7 +2722,7 @@ l3.sections.2.blocks.8.items.5.en	straw and rush mats
 l3.sections.2.blocks.9.text.ja	フローチャート
 l3.sections.2.blocks.10.head.0.ja	あなた：予約の{変更|へんこう}をする
 l3.sections.2.blocks.10.head.1.ja	店員：予約の変更を受ける
-l3.sections.2.blocks.10.steps.0.phase.ja	パートA
+l3.sections.2.blocks.10.steps.0.phase.ja	[#パートA]
 l3.sections.2.blocks.10.steps.0.text.ja	お電話ありがとうございます。
 居酒屋「××」です。
 l3.sections.2.blocks.10.steps.1.label.ja	予約の{変更|へんこう}をしたいと言う
@@ -2734,7 +2734,7 @@ l3.sections.2.blocks.10.steps.3.label.ja	変更したい{内容|ないよう}を
 l3.sections.2.blocks.10.steps.3.text.ja	**申し訳ありませんが、**12人**から**10人**に変更**
 **をお願いしたいんですが。**
 l3.sections.2.blocks.10.steps.4.text.ja	かしこまりました。
-l3.sections.2.blocks.10.steps.5.phase.ja	パートB
+l3.sections.2.blocks.10.steps.5.phase.ja	[#パートB]
 l3.sections.2.blocks.10.steps.5.label.ja	変更したい内容をもう一つ伝える
 l3.sections.2.blocks.10.steps.5.text.ja	あの、**それから、**席**を**個室**に{変|か}えて**
 **いただくことは{可能|かのう}でしょうか。**
@@ -2747,7 +2747,7 @@ l3.sections.2.blocks.10.steps.8.text.ja	それでは、お待ちしておりま�
 お電話ありがとうございました。
 l3.sections.2.blocks.11.text.ja	練習しよう
 l3.sections.2.blocks.12.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l3.sections.2.blocks.13.title.ja	パートA
+l3.sections.2.blocks.13.title.ja	[#パートA]
 l3.sections.2.blocks.13.blocks.0.text.ja	❶予約の{変更|へんこう}をしたいと言う ➔ ❷変更したい{内容|ないよう}を伝える
 l3.sections.2.blocks.14.blocks.0.lines.0.sp	店員
 l3.sections.2.blocks.14.blocks.0.lines.0.ja	お電話ありがとうございます。居酒屋「××」です。
@@ -2768,7 +2768,7 @@ l3.sections.2.blocks.15.items.0.blocks.0.blocks.0.rows.1.1.ja	6時半
 l3.sections.2.blocks.15.items.0.blocks.0.blocks.0.rows.2.0.ja	③ {人数|にんずう}：
 l3.sections.2.blocks.15.items.0.blocks.0.blocks.0.rows.2.1.ja	8人
 l3.sections.2.blocks.15.items.1.text.ja	「1-1. やってみよう」の1）(p.84)で考えた「変更①」を使って話してみよう。
-l3.sections.2.blocks.16.title.ja	パートB
+l3.sections.2.blocks.16.title.ja	[#パートB]
 l3.sections.2.blocks.16.blocks.0.text.ja	❸{変更|へんこう}したい{内容|ないよう}をもう一つ伝える ➔ ❹会話を終える
 l3.sections.2.blocks.17.blocks.0.lines.0.sp	あなた
 l3.sections.2.blocks.17.blocks.0.lines.0.ja	❸あの、**それから、**{{席}}**を**{{個室}}**に変えていただくことは{可能|かのう}でしょうか。**
@@ -2780,7 +2780,7 @@ l3.sections.2.blocks.17.blocks.0.lines.3.sp	店員
 l3.sections.2.blocks.17.blocks.0.lines.3.ja	かしこまりました。それでは、お待ちしております。お電話ありがとうございました。
 l3.sections.2.blocks.18.items.0.text.ja	あなたは3,000円のコース料理を予約をしましたが、2,500円のものに{変更|へんこう}したいと思っています。変更できるかどうか店員に聞きなさい。
 l3.sections.2.blocks.18.items.1.text.ja	「1-1. やってみよう」の1）(p.84)で考えた「変更②」を使って話してみよう。
-l3.sections.2.blocks.19.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l3.sections.2.blocks.19.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l3.sections.2.blocks.20.title	役に立つ表現
 l3.sections.2.blocks.20.blocks.0.items.0.ja	2人キャンセルする ↔ 2人{追加|ついか}する
 l3.sections.2.blocks.20.blocks.0.items.0.en	to cancel a reservation for two people ↔ to add two people
@@ -2931,7 +2931,7 @@ l3.sections.2.blocks.29.items.12.en	That’s it for now.
 l3.sections.2.blocks.30.text.ja	フローチャート
 l3.sections.2.blocks.31.head.0.ja	あなた：注文する
 l3.sections.2.blocks.31.head.1.ja	店員：注文を取る
-l3.sections.2.blocks.31.steps.0.phase.ja	パートA
+l3.sections.2.blocks.31.steps.0.phase.ja	[#パートA]
 l3.sections.2.blocks.31.steps.0.text.ja	お決まりでしょうか。
 l3.sections.2.blocks.31.steps.1.label.ja	メニューについて質問する
 l3.sections.2.blocks.31.steps.1.text.ja	すみません、あの、「ちゃんこなべ」**って、
@@ -2941,7 +2941,7 @@ l3.sections.2.blocks.31.steps.2.text.ja	{鶏肉|とりにく}、{豆腐|とう�
 l3.sections.2.blocks.31.steps.3.label.ja	注文する
 l3.sections.2.blocks.31.steps.3.text.ja	じゃあ、それ**をお願いします。**
 l3.sections.2.blocks.31.steps.4.text.ja	かしこまりました。
-l3.sections.2.blocks.31.steps.5.phase.ja	パートB
+l3.sections.2.blocks.31.steps.5.phase.ja	[#パートB]
 l3.sections.2.blocks.31.steps.5.label.ja	{追加|ついか}の注文 (additional order) をする
 l3.sections.2.blocks.31.steps.5.text.ja	すみません、ビール5本とレモンハイ1つ、
 **{追加|ついか}でお願いします。**
@@ -2955,7 +2955,7 @@ l3.sections.2.blocks.31.steps.9.label.ja	注文を終える
 l3.sections.2.blocks.31.steps.9.text.ja	**（とりあえず、）以上でお願いします。**
 l3.sections.2.blocks.32.text.ja	練習しよう
 l3.sections.2.blocks.33.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l3.sections.2.blocks.34.title.ja	パートA
+l3.sections.2.blocks.34.title.ja	[#パートA]
 l3.sections.2.blocks.34.blocks.0.text.ja	❶ メニューについて質問する ➔ ❷ 注文する
 l3.sections.2.blocks.35.blocks.0.lines.0.sp	店員
 l3.sections.2.blocks.35.blocks.0.lines.0.ja	お決まりでしょうか。
@@ -2989,7 +2989,7 @@ l3.sections.2.blocks.36.items.0.blocks.4.blocks.0.text.ja	Aランチ（{本日|�
 Bランチ（本日のカレー）：{野菜|やさい}カレー
 ※お飲み物：コーヒーか{紅茶|こうちゃ}（アイスかホットが選べる）
 l3.sections.2.blocks.36.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 90) で考えたことを使って話してみよう。
-l3.sections.2.blocks.37.title.ja	パートB
+l3.sections.2.blocks.37.title.ja	[#パートB]
 l3.sections.2.blocks.37.blocks.0.text.ja	❸ {追加|ついか}の注文 (additional order) をする ➔ ❹ {希望|きぼう} (request) を言う ➔ ❺ 注文を終える
 l3.sections.2.blocks.38.blocks.0.lines.0.sp	あなた
 l3.sections.2.blocks.38.blocks.0.lines.0.ja	❸すみません。{{ビールとレモンハイ}}、**{追加|ついか}でお願いします。**
@@ -3018,7 +3018,7 @@ l3.sections.2.blocks.39.items.0.blocks.0.blocks.0.rows.1.1.ja	**シフォンケ�
 ふわふわのケーキに生クリームをつけてお{召|め}し{上|あ}がりください。
 ¥400
 l3.sections.2.blocks.39.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 90) で考えたことを使って話してみよう。
-l3.sections.2.blocks.40.text.ja	☛ ペアを変えて、［パートA］と［パートB］を続けてやってみましょう！
+l3.sections.2.blocks.40.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l3.sections.2.blocks.41.title	役に立つ表現
 l3.sections.2.blocks.41.blocks.0.text.ja	居酒屋のメニューでよく使われる単語・表現
 l3.sections.2.blocks.41.blocks.1.rows.0.0.text.ja	**料理屋　かるてっと**
@@ -3910,7 +3910,7 @@ l4.sections.2.blocks.10.items.9.en	to be convinced to
 l4.sections.2.blocks.11.text.ja	フローチャート
 l4.sections.2.blocks.12.head.0.ja	あなた：アドバイスを求める
 l4.sections.2.blocks.12.head.1.ja	{先輩|せんぱい}：アドバイスをする
-l4.sections.2.blocks.12.steps.0.phase.ja	パートA
+l4.sections.2.blocks.12.steps.0.phase.ja	[#パートA]
 l4.sections.2.blocks.12.steps.0.label.ja	話しかける
 l4.sections.2.blocks.12.steps.0.text.ja	{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。**
 **{悩|なや}んでいることがあって。**
@@ -3927,7 +3927,7 @@ l4.sections.2.blocks.12.steps.4.text.ja	ええと、進学する**なら**、{�
 **もうそろそろ決めないといけないんですが、どちらの**
 **ほうがいいか迷ってしまって**……。
 l4.sections.2.blocks.12.steps.5.text.ja	うーん、難しい問題だよね。
-l4.sections.2.blocks.12.steps.6.phase.ja	パートB
+l4.sections.2.blocks.12.steps.6.phase.ja	[#パートB]
 l4.sections.2.blocks.12.steps.6.label.ja	自分の{立場|たちば}ならどうするか{意見|いけん}を求める
 l4.sections.2.blocks.12.steps.6.text.ja	**先輩が私の立場だったら、どうされますか。**
 l4.sections.2.blocks.12.steps.7.text.ja	そうだなあ。僕なら進学を選ぶかな。一度働き
@@ -3941,7 +3941,7 @@ l4.sections.2.blocks.12.steps.10.text.ja	そのとおりですね。**先輩に�
 **ありがとうございました。**
 l4.sections.2.blocks.13.text.ja	練習しよう
 l4.sections.2.blocks.14.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l4.sections.2.blocks.15.title.ja	パートA
+l4.sections.2.blocks.15.title.ja	[#パートA]
 l4.sections.2.blocks.15.blocks.0.text.ja	❶話しかける ➔ ❷{悩|なや}みを言う ➔ ❸{詳|くわ}しく説明して、アドバイスを求める
 l4.sections.2.blocks.16.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.16.blocks.0.lines.0.ja	❶{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。{悩|なや}んでいることがあって。**
@@ -3957,7 +3957,7 @@ l4.sections.2.blocks.16.blocks.0.lines.5.sp	先輩
 l4.sections.2.blocks.16.blocks.0.lines.5.ja	うーん、難しい問題だよね。
 l4.sections.2.blocks.17.items.0.text.ja	あなたは、夏休みにサマープログラムに参加するかインターンシップをするか、迷っています。先輩にアドバイスを求めなさい。
 l4.sections.2.blocks.17.items.1.text.ja	「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。
-l4.sections.2.blocks.18.title.ja	パートB
+l4.sections.2.blocks.18.title.ja	[#パートB]
 l4.sections.2.blocks.18.blocks.0.text.ja	❹自分の{立場|たちば}ならどうするか{意見|いけん}を求める ➔ ❺お礼を言い、会話を終える
 l4.sections.2.blocks.19.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.19.blocks.0.lines.0.ja	❹**{先輩|せんぱい}が私の{立場|たちば}だったら、どうされますか。**
@@ -3971,7 +3971,7 @@ l4.sections.2.blocks.19.blocks.0.lines.4.sp	あなた
 l4.sections.2.blocks.19.blocks.0.lines.4.ja	❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**
 l4.sections.2.blocks.20.items.0.text.ja	サマープログラムに参加するかインターンシップをするか、先輩ならどちらにするか聞きなさい。
 l4.sections.2.blocks.20.items.1.text.ja	「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。
-l4.sections.2.blocks.21.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.21.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l4.sections.2.blocks.22.title.ja	カジュアルな会話にチャレンジ！
 l4.sections.2.blocks.22.blocks.0.text.ja	ロールプレイをやってみよう
 l4.sections.2.blocks.22.blocks.1.cards.0.who	あなた
@@ -3982,7 +3982,7 @@ l4.sections.2.blocks.22.blocks.1.cards.1.who	Aの友達
 l4.sections.2.blocks.22.blocks.1.cards.1.text.ja	友達に相談されるので、
 アドバイスをしなさい。
 l4.sections.2.blocks.22.blocks.2.text.ja	練習しよう
-l4.sections.2.blocks.22.blocks.3.text.ja	パートA
+l4.sections.2.blocks.22.blocks.3.text.ja	[#パートA]
 l4.sections.2.blocks.22.blocks.4.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.22.blocks.4.blocks.0.lines.0.ja	❶ねえ、**ちょっと相談に乗ってもらえない？ {悩|なや}んでいることがあって。**
 l4.sections.2.blocks.22.blocks.4.blocks.0.lines.1.sp	友達
@@ -3996,7 +3996,7 @@ l4.sections.2.blocks.22.blocks.4.blocks.0.lines.4.ja	❸**〜なら〜と思っ�
 l4.sections.2.blocks.22.blocks.4.blocks.0.lines.5.sp	友達
 l4.sections.2.blocks.22.blocks.4.blocks.0.lines.5.ja	難しい問題だよね。
 l4.sections.2.blocks.22.blocks.5.items.0.ja	あなたは、来学期、寮に住むかホームステイをするか迷っています。友達にアドバイスを求めなさい。
-l4.sections.2.blocks.22.blocks.6.text.ja	パートB
+l4.sections.2.blocks.22.blocks.6.text.ja	[#パートB]
 l4.sections.2.blocks.22.blocks.7.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.22.blocks.7.blocks.0.lines.0.ja	❹**〇〇さんが私の{立場|たちば}だったら、どうする？**
 l4.sections.2.blocks.22.blocks.7.blocks.0.lines.1.sp	友達
@@ -4008,7 +4008,7 @@ l4.sections.2.blocks.22.blocks.7.blocks.0.lines.3.ja	＿＿［もっとアドバ
 l4.sections.2.blocks.22.blocks.7.blocks.0.lines.4.sp	あなた
 l4.sections.2.blocks.22.blocks.7.blocks.0.lines.4.ja	❺そのとおりだね。**{参考|さんこう}になったよ** (be provided with useful information)。**もう少し考えてみる。ありがとう。**
 l4.sections.2.blocks.22.blocks.8.items.0.ja	来学期、寮に住むかホームステイをするか、友達ならどうするか聞きなさい。
-l4.sections.2.blocks.22.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.22.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l4.sections.2.blocks.23.text.ja	私のおすすめ
 l4.sections.2.blocks.24.text.ja	やってみよう
 l4.sections.2.blocks.25.items.0.text.ja	友達があなたの出身の国／町に旅行に行きます。おすすめの場所や店、食べ物やアクティビティなどについてメモしなさい。
@@ -4096,7 +4096,7 @@ l4.sections.2.blocks.33.items.5.en	personally
 l4.sections.2.blocks.34.text.ja	フローチャート
 l4.sections.2.blocks.35.head.0.ja	あなた：おすすめを教える
 l4.sections.2.blocks.35.head.1.ja	友達：おすすめを聞く
-l4.sections.2.blocks.35.steps.0.phase.ja	パートA
+l4.sections.2.blocks.35.steps.0.phase.ja	[#パートA]
 l4.sections.2.blocks.35.steps.0.text.ja	今ちょっといい？
 聞きたいことがあるんだけど……。
 l4.sections.2.blocks.35.steps.1.text.ja	何？
@@ -4112,7 +4112,7 @@ l4.sections.2.blocks.35.steps.6.text.ja	自分の好きな着物や{帯|おび}�
 だ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}っても
 らえる**から**、SNSが好きな人**にぴったりだよ。**
 l4.sections.2.blocks.35.steps.7.text.ja	へえ、よさそうだね。
-l4.sections.2.blocks.35.steps.8.phase.ja	パートB
+l4.sections.2.blocks.35.steps.8.phase.ja	[#パートB]
 l4.sections.2.blocks.35.steps.8.label.ja	もっとすすめる
 l4.sections.2.blocks.35.steps.8.text.ja	ちょっと高いけど、やる**価値あると思うよ。**
 l4.sections.2.blocks.35.steps.9.text.ja	本当？　じゃあ、調べてみる。
@@ -4125,7 +4125,7 @@ l4.sections.2.blocks.35.steps.12.label.ja	会話を終える
 l4.sections.2.blocks.35.steps.12.text.ja	**また、何かあったら、いつでも聞いて。**
 l4.sections.2.blocks.36.text.ja	練習しよう
 l4.sections.2.blocks.37.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l4.sections.2.blocks.38.title.ja	パートA
+l4.sections.2.blocks.38.title.ja	[#パートA]
 l4.sections.2.blocks.38.blocks.0.text.ja	❶ 質問して、相手が興味を持つものを見つける ➔ ❷ おすすめを{提案|ていあん}する (suggest) ➔ ❸ おすすめについて説明する
 l4.sections.2.blocks.39.blocks.0.lines.0.sp	友達
 l4.sections.2.blocks.39.blocks.0.lines.0.ja	今ちょっといい？　聞きたいことがあるんだけど……。
@@ -4141,7 +4141,7 @@ l4.sections.2.blocks.39.blocks.0.lines.4.sp	友達
 l4.sections.2.blocks.39.blocks.0.lines.4.ja	へえ、（〜そう）だね。
 l4.sections.2.blocks.40.items.0.text.ja	友達があなたの好きな店に行きます。おすすめを教えてあげなさい。
 l4.sections.2.blocks.40.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 124) で考えたことを使って話してみよう。
-l4.sections.2.blocks.41.title.ja	パートB
+l4.sections.2.blocks.41.title.ja	[#パートB]
 l4.sections.2.blocks.41.blocks.0.text.ja	❹ もっとすすめる ➔ ❺ 個人的な (personal) おすすめを言う ➔ ❻ 会話を終える
 l4.sections.2.blocks.42.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.42.blocks.0.lines.0.ja	❹{{ちょっと高い}}けど、{{やる／行く／etc.}}**価値あると思うよ。**
@@ -4155,7 +4155,7 @@ l4.sections.2.blocks.42.blocks.0.lines.4.sp	あなた
 l4.sections.2.blocks.42.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いて。**
 l4.sections.2.blocks.43.items.0.text.ja	友達があなたの好きな店に行きます。もう一つ個人的なおすすめを伝えなさい。
 l4.sections.2.blocks.43.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 124) で考えたことを使って話してみよう。
-l4.sections.2.blocks.44.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.44.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l4.sections.2.blocks.45.title.ja	フォーマルな会話にチャレンジ！
 l4.sections.2.blocks.45.blocks.0.text.ja	ロールプレイをやってみよう
 l4.sections.2.blocks.45.blocks.1.cards.0.who	あなた
@@ -4167,7 +4167,7 @@ l4.sections.2.blocks.45.blocks.1.cards.1.text.ja	Aさんの出身の町に
 行こうと思っています。
 おすすめを聞きなさい。
 l4.sections.2.blocks.45.blocks.2.text.ja	練習しよう
-l4.sections.2.blocks.45.blocks.3.text.ja	パートA
+l4.sections.2.blocks.45.blocks.3.text.ja	[#パートA]
 l4.sections.2.blocks.45.blocks.4.blocks.0.lines.0.sp	{上司|じょうし}
 l4.sections.2.blocks.45.blocks.4.blocks.0.lines.0.ja	今、{大丈夫|だいじょうぶ}ですか。ちょっと聞きたいことがあるんですが……。
 実は、〜んですが、何かおすすめを教えてくれませんか。
@@ -4181,7 +4181,7 @@ l4.sections.2.blocks.45.blocks.4.blocks.0.lines.3.ja	❷**それなら、〜は�
 l4.sections.2.blocks.45.blocks.4.blocks.0.lines.4.sp	上司
 l4.sections.2.blocks.45.blocks.4.blocks.0.lines.4.ja	へえ、（〜そう）ですね。
 l4.sections.2.blocks.45.blocks.5.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。おすすめを伝えなさい。
-l4.sections.2.blocks.45.blocks.6.text.ja	パートB
+l4.sections.2.blocks.45.blocks.6.text.ja	[#パートB]
 l4.sections.2.blocks.45.blocks.7.blocks.0.lines.0.sp	あなた
 l4.sections.2.blocks.45.blocks.7.blocks.0.lines.0.ja	❹〜です／ますが、**する価値があると思います。**
 l4.sections.2.blocks.45.blocks.7.blocks.0.lines.1.sp	{上司|じょうし}
@@ -4193,7 +4193,7 @@ l4.sections.2.blocks.45.blocks.7.blocks.0.lines.3.ja	わかりました。いろ
 l4.sections.2.blocks.45.blocks.7.blocks.0.lines.4.sp	あなた
 l4.sections.2.blocks.45.blocks.7.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いてください。**
 l4.sections.2.blocks.45.blocks.8.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。もう一つ個人的なおすすめを伝えなさい。
-l4.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l4.sections.3.title.ja	ドイツ人留学生から見た日本
 l4.sections.3.blocks.0.text.ja	アルバイトの{初日|しょにち}
 l4.sections.3.blocks.1.text.ja	レストランの店長が、今日からアルバイトを始める留学生のレオンに、仕事の内容について説明しています。会話を聞いて、レオンがやることに✓をつけなさい。
@@ -5017,7 +5017,7 @@ l5.sections.2.blocks.9.items.2.en	on foot
 l5.sections.2.blocks.10.text.ja	フローチャート
 l5.sections.2.blocks.11.head.0.ja	あなた：誘う
 l5.sections.2.blocks.11.head.1.ja	友達：誘われる
-l5.sections.2.blocks.11.steps.0.phase.ja	パートA
+l5.sections.2.blocks.11.steps.0.phase.ja	[#パートA]
 l5.sections.2.blocks.11.steps.0.label.ja	話しかけて予定を聞く
 l5.sections.2.blocks.11.steps.0.text.ja	ねえ、〇〇さん、今週の土曜日**って{空|あ}いてる？**
 l5.sections.2.blocks.11.steps.1.text.ja	今週の土曜日？
@@ -5032,7 +5032,7 @@ l5.sections.2.blocks.11.steps.4.text.ja	もちろん！ 〇〇さんが来てく
 ぶと思う**し**。**それに**、{研|けん}も来るって言ってる**し**。
 **予定がないなら、一緒に行こうよ。**
 l5.sections.2.blocks.11.steps.5.text.ja	じゃあ、行こうかな。
-l5.sections.2.blocks.11.steps.6.phase.ja	パートB
+l5.sections.2.blocks.11.steps.6.phase.ja	[#パートB]
 l5.sections.2.blocks.11.steps.6.label.ja	時間と場所を伝える
 l5.sections.2.blocks.11.steps.6.text.ja	じゃあ、12時半**に{現地集合|げんちしゅうごう}なんだけど、いい？**
 l5.sections.2.blocks.11.steps.7.text.ja	オッケー！ じゃあ、土曜日に。
@@ -5040,7 +5040,7 @@ l5.sections.2.blocks.11.steps.8.label.ja	会話を終える
 l5.sections.2.blocks.11.steps.8.text.ja	うん。**楽しみにしてるね。**
 l5.sections.2.blocks.12.text.ja	練習しよう
 l5.sections.2.blocks.13.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l5.sections.2.blocks.14.title.ja	パートA
+l5.sections.2.blocks.14.title.ja	[#パートA]
 l5.sections.2.blocks.14.blocks.0.text.ja	❶話しかけて予定を聞く ➔ ❷理由を言って誘う ➔ ❸もう一度誘ってみる
 l5.sections.2.blocks.15.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.15.blocks.0.lines.0.ja	❶ねえ、〇〇さん、{{今週の土曜日}}**って{空|あ}いてる？**
@@ -5057,7 +5057,7 @@ l5.sections.2.blocks.15.blocks.0.lines.5.sp	友達
 l5.sections.2.blocks.15.blocks.0.lines.5.ja	じゃあ、行こうかな。
 l5.sections.2.blocks.16.items.0.text.ja	友達をバーベキューパーティーに誘いなさい。友達が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
 l5.sections.2.blocks.16.items.1.text.ja	「1-1. やってみよう」の1）①② (p.152) で考えたことを使って話してみよう。
-l5.sections.2.blocks.17.title.ja	パートB
+l5.sections.2.blocks.17.title.ja	[#パートB]
 l5.sections.2.blocks.17.blocks.0.text.ja	❹時間と場所を伝える ➔ ❺会話を終える
 l5.sections.2.blocks.18.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.18.blocks.0.lines.0.ja	❹じゃあ、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんだけど、いい？**
@@ -5067,7 +5067,7 @@ l5.sections.2.blocks.18.blocks.0.lines.2.sp	あなた
 l5.sections.2.blocks.18.blocks.0.lines.2.ja	うん。❺**楽しみにしてるね。**
 l5.sections.2.blocks.19.items.0.text.ja	友達に、バーベキューパーティーの集合時間と場所を伝えなさい。
 l5.sections.2.blocks.19.items.1.text.ja	「1-1. やってみよう」の1）③ (p.152) で考えたことを使って話してみよう。
-l5.sections.2.blocks.20.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l5.sections.2.blocks.20.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l5.sections.2.blocks.21.title.ja	フォーマルな会話にチャレンジ！
 l5.sections.2.blocks.21.blocks.0.text.ja	ロールプレイをやってみよう
 l5.sections.2.blocks.21.blocks.1.cards.0.who	あなた
@@ -5081,7 +5081,7 @@ l5.sections.2.blocks.21.blocks.1.cards.1.text.ja	Aさんにイベントに誘わ
 （初めは行くかどうか{迷|まよ}いますが、
 やはり行くことにします。）
 l5.sections.2.blocks.21.blocks.2.text.ja	練習しよう
-l5.sections.2.blocks.21.blocks.3.text.ja	パートA
+l5.sections.2.blocks.21.blocks.3.text.ja	[#パートA]
 l5.sections.2.blocks.21.blocks.4.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.21.blocks.4.blocks.0.lines.0.ja	❶あの、{{今週の土曜日}}**はお忙しいですか。**
 l5.sections.2.blocks.21.blocks.4.blocks.0.lines.1.sp	先生
@@ -5096,7 +5096,7 @@ l5.sections.2.blocks.21.blocks.4.blocks.0.lines.4.ja	もちろんです。❸＿
 l5.sections.2.blocks.21.blocks.4.blocks.0.lines.5.sp	先生
 l5.sections.2.blocks.21.blocks.4.blocks.0.lines.5.ja	そうですか？ じゃあ、行きます。
 l5.sections.2.blocks.21.blocks.5.items.0.ja	先生をクラスの打ち上げに誘いなさい。先生が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。
-l5.sections.2.blocks.21.blocks.6.text.ja	パートB
+l5.sections.2.blocks.21.blocks.6.text.ja	[#パートB]
 l5.sections.2.blocks.21.blocks.7.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.21.blocks.7.blocks.0.lines.0.ja	❹では、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんですが、よろしいでしょうか。**
 l5.sections.2.blocks.21.blocks.7.blocks.0.lines.1.sp	先生
@@ -5104,7 +5104,7 @@ l5.sections.2.blocks.21.blocks.7.blocks.0.lines.1.ja	わかりました。じゃ
 l5.sections.2.blocks.21.blocks.7.blocks.0.lines.2.sp	あなた
 l5.sections.2.blocks.21.blocks.7.blocks.0.lines.2.ja	はい。❺先生がいらっしゃるのを**楽しみにしています。**
 l5.sections.2.blocks.21.blocks.8.items.0.ja	先生にクラスの打ち上げの集合時間と場所を伝えなさい。
-l5.sections.2.blocks.21.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l5.sections.2.blocks.21.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l5.sections.2.blocks.22.text.ja	店への行き方
 l5.sections.2.blocks.23.text.ja	やってみよう
 l5.sections.2.blocks.24.items.0.text.ja	道がわからなくて人に聞いたことがありますか。その時の経験について教えてください。
@@ -5244,7 +5244,7 @@ l5.sections.2.blocks.30.items.15.en	to turn
 l5.sections.2.blocks.31.text.ja	フローチャート
 l5.sections.2.blocks.32.head.0.ja	あなた：道を聞く
 l5.sections.2.blocks.32.head.1.ja	駅員：道を教える
-l5.sections.2.blocks.32.steps.0.phase.ja	パートA
+l5.sections.2.blocks.32.steps.0.phase.ja	[#パートA]
 l5.sections.2.blocks.32.steps.0.label.ja	{確認|かくにん} (confirmation) のために聞く
 l5.sections.2.blocks.32.steps.0.text.ja	すみません。{区|く}{役所|やくしょ}**{方面|ほうめん}に行きたいんですが、**
 南口**{改札|かいさつ}でいいですか。**
@@ -5260,7 +5260,7 @@ l5.sections.2.blocks.32.steps.6.label.ja	繰り返して確認し、お礼を言
 l5.sections.2.blocks.32.steps.6.text.ja	3番出口**ですね。ありがとうございました。**
 l5.sections.2.blocks.33.head.0.ja	あなた：道を聞く
 l5.sections.2.blocks.33.head.1.ja	通行人：道を教える
-l5.sections.2.blocks.33.steps.0.phase.ja	パートB
+l5.sections.2.blocks.33.steps.0.phase.ja	[#パートB]
 l5.sections.2.blocks.33.steps.0.label.ja	話しかける
 l5.sections.2.blocks.33.steps.0.text.ja	すみません。**ちょっと道を{伺|うかが}いたいんですが。**
 l5.sections.2.blocks.33.steps.1.label.ja	道を聞く
@@ -5274,7 +5274,7 @@ l5.sections.2.blocks.33.steps.3.text.ja	ホテルの先の交差点をわたっ�
 どうもありがとうございました。**
 l5.sections.2.blocks.34.text.ja	練習しよう
 l5.sections.2.blocks.35.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l5.sections.2.blocks.36.title.ja	パートA
+l5.sections.2.blocks.36.title.ja	[#パートA]
 l5.sections.2.blocks.36.blocks.0.text.ja	❶ {確認|かくにん} (confirmation) のために聞く ➔ ❷ 道を聞く ➔ ❸ 繰り返して (repeat) 確認する ➔ ❹ 繰り返して確認し、お礼を言う
 l5.sections.2.blocks.37.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.37.blocks.0.lines.0.ja	❶すみません。{{{区|く}{役所|やくしょ}}}**{方面|ほうめん}に行きたいんですが、**{{南口}}**{改札|かいさつ}でいいですか。**
@@ -5305,7 +5305,7 @@ l5.sections.2.blocks.41.blocks.0.items.0.blocks.0.items.0.ja	「{市民|しみ�
 l5.sections.2.blocks.41.blocks.0.items.0.blocks.0.items.1.ja	西口改札は、階段を{下|お}りてホームに{戻|もど}って、{反対|はんたい}の{端|はし}のエスカレーターを{上|あ}がって、左に{曲|ま}がって少し行ったところです。
 l5.sections.2.blocks.41.blocks.0.items.1.blocks.0.items.0.ja	「みどり公園方面」は新西口改札が近いです。
 l5.sections.2.blocks.41.blocks.0.items.1.blocks.0.items.1.ja	新西口改札は、トイレの横の{階段|かいだん}を下りて、{隣|となり}のホームに行き、ホームの反対の端のエスカレーターを{上|あ}がったところです。
-l5.sections.2.blocks.42.title.ja	パートB
+l5.sections.2.blocks.42.title.ja	[#パートB]
 l5.sections.2.blocks.42.blocks.0.text.ja	❺ 話しかける ➔ ❻ 道を聞く ➔ ❼ 繰り返して{確認|かくにん}し、お礼を言う
 l5.sections.2.blocks.43.blocks.0.lines.0.sp	あなた
 l5.sections.2.blocks.43.blocks.0.lines.0.ja	❺すみません。**ちょっと道を{伺|うかが}いたいんですが。**
@@ -6216,7 +6216,7 @@ l6.sections.2.blocks.10.items.6.en	pair
 l6.sections.2.blocks.11.text.ja	フローチャート
 l6.sections.2.blocks.12.head.0.ja	あなた：{苦情|くじょう} (complaint) を言う
 l6.sections.2.blocks.12.head.1.ja	同じ寮の学生：対応する
-l6.sections.2.blocks.12.steps.0.phase.ja	パートA
+l6.sections.2.blocks.12.steps.0.phase.ja	[#パートA]
 l6.sections.2.blocks.12.steps.0.label.ja	話しかけて、質問する
 l6.sections.2.blocks.12.steps.0.text.ja	ねえ、〇〇さん、**もしかして**、
 今日キッチン使った？
@@ -6225,7 +6225,7 @@ l6.sections.2.blocks.12.steps.2.label.ja	{迷惑|めいわく}に思っている
 l6.sections.2.blocks.12.steps.2.text.ja	**実は**、私も使いたかった**んだけど**、
 汚れたお皿があっ**て**……。
 l6.sections.2.blocks.12.steps.3.text.ja	あ、ごめん。{洗|あら}うの忘れてた。
-l6.sections.2.blocks.12.steps.4.phase.ja	パートB
+l6.sections.2.blocks.12.steps.4.phase.ja	[#パートB]
 l6.sections.2.blocks.12.steps.4.label.ja	相手を怒らせないように、{苦情|くじょう}を言う
 l6.sections.2.blocks.12.steps.4.text.ja	**こんなこと言いたくないんだけど**、〇〇さんは
 使ったものをそのままシンクに置きっぱなしに
@@ -6243,7 +6243,7 @@ l6.sections.2.blocks.12.steps.8.text.ja	うん、**よろしくね。でも、�
 **ことは言えないんだけどね。**
 l6.sections.2.blocks.13.text.ja	練習しよう
 l6.sections.2.blocks.14.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l6.sections.2.blocks.15.title.ja	パートA
+l6.sections.2.blocks.15.title.ja	[#パートA]
 l6.sections.2.blocks.15.blocks.0.text.ja	❶話しかけて、質問する ➔ ❷{迷惑|めいわく}に思っていることを話す
 l6.sections.2.blocks.16.blocks.0.lines.0.sp	あなた
 l6.sections.2.blocks.16.blocks.0.lines.0.ja	❶ねえ、〇〇さん、**もしかして、**{{今日キッチン使った}}？
@@ -6258,7 +6258,7 @@ l6.sections.2.blocks.17.items.0.text.ja	{洗濯|せんたく}をしようと思�
 l6.sections.2.blocks.17.items.1.text.ja	夜、{寝|ね}ようと思ったら、{隣|となり}の部屋の学生が聞いている音楽がうるさくて、寝られません。
 苦情を言いなさい。
 l6.sections.2.blocks.17.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう} (situation) を使って、{迷惑|めいわく}に思っていることを話してみよう。
-l6.sections.2.blocks.19.title.ja	パートB
+l6.sections.2.blocks.19.title.ja	[#パートB]
 l6.sections.2.blocks.19.blocks.0.text.ja	❸相手を怒らせないように、{苦情|くじょう}を言う ➔ ❹{迷惑|めいわく}な理由を言う ➔ ❺会話を終える
 l6.sections.2.blocks.20.blocks.0.lines.0.sp	あなた
 l6.sections.2.blocks.20.blocks.0.lines.0.ja	❸**こんなこと言いたくないんだけど、**{{〇〇さんは、使ったものをそのままシンクに置きっぱなしにする}}**ことが多くない？**
@@ -6273,7 +6273,7 @@ l6.sections.2.blocks.20.blocks.0.lines.4.ja	❺うん、**よろしくね。で�
 l6.sections.2.blocks.21.items.0.text.ja	同じ寮の学生は、{洗濯物|せんたくもの}を洗濯機に入れたままにしていることがよくあります。怒らせないように{苦情|くじょう}を言いなさい。
 l6.sections.2.blocks.21.items.1.text.ja	{隣|となり}の部屋の学生は大きな{音|おと}で音楽を聞いていることがよくあります。怒らせないように苦情を言いなさい。
 l6.sections.2.blocks.21.items.2.text.ja	「1-1. やってみよう」の 1）①② (p.190) で考えた{状況|じょうきょう}を使って、相手を怒らせないように苦情を言ってみよう。
-l6.sections.2.blocks.22.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.22.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l6.sections.2.blocks.23.text.ja	言い訳
 l6.sections.2.blocks.24.text.ja	やってみよう
 l6.sections.2.blocks.25.items.0.text.ja	先生やアパートの{管理人|かんりにん} (caretaker for an apartment) に注意されたことがありますか。その時、あなたは何と言いましたか。2つ考えて下の表にメモしなさい。
@@ -6379,12 +6379,12 @@ l6.sections.2.blocks.33.items.5.en	I'm sorry for causing you trouble.
 l6.sections.2.blocks.34.text.ja	フローチャート
 l6.sections.2.blocks.35.head.0.ja	あなた：あやまる
 l6.sections.2.blocks.35.head.1.ja	{管理人|かんりにん}：注意する
-l6.sections.2.blocks.35.steps.0.phase.ja	パートA
+l6.sections.2.blocks.35.steps.0.phase.ja	[#パートA]
 l6.sections.2.blocks.35.steps.0.text.ja	ちょっと、〇〇さん。ゴミは8時半までに出すことになっていますよね。
 l6.sections.2.blocks.35.steps.1.label.ja	あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
 l6.sections.2.blocks.35.steps.1.text.ja	あっ、**すみません。**{朝寝坊|あさねぼう}してしまった**もので、つい……。これからは、このようなことがないようにします。**
 l6.sections.2.blocks.35.steps.2.text.ja	お願いしますね。
-l6.sections.2.blocks.35.steps.3.phase.ja	パートB
+l6.sections.2.blocks.35.steps.3.phase.ja	[#パートB]
 l6.sections.2.blocks.35.steps.3.text.ja	それと、そこに入っているペットボトルのことですけど。
 l6.sections.2.blocks.35.steps.4.text.ja	はい。
 l6.sections.2.blocks.35.steps.5.text.ja	ちゃんと分別してくれないと{困|こま}ります。
@@ -6397,7 +6397,7 @@ l6.sections.2.blocks.35.steps.8.text.ja	**ご{迷惑|めいわく}をおかけ�
 **本当にすみませんでした。**
 l6.sections.2.blocks.36.text.ja	練習しよう
 l6.sections.2.blocks.37.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l6.sections.2.blocks.38.title.ja	パートA
+l6.sections.2.blocks.38.title.ja	[#パートA]
 l6.sections.2.blocks.38.blocks.0.text.ja	❶ あやまって、言い訳 (excuse) をし、{決意|けつい} (resolution) を伝える
 l6.sections.2.blocks.39.blocks.0.lines.0.sp	{管理人|かんりにん}
 l6.sections.2.blocks.39.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは8時半までに出す}}ことになっていますよね。
@@ -6408,7 +6408,7 @@ l6.sections.2.blocks.39.blocks.0.lines.2.sp	管理人
 l6.sections.2.blocks.39.blocks.0.lines.2.ja	お願いしますね。
 l6.sections.2.blocks.40.items.0.text.ja	漢字の宿題を遅れて出したので、先生に注意されました。先生にあやまりなさい。
 l6.sections.2.blocks.40.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 196) で考えたことを使って話してみよう。
-l6.sections.2.blocks.41.title.ja	パートB
+l6.sections.2.blocks.41.title.ja	[#パートB]
 l6.sections.2.blocks.41.blocks.0.text.ja	❷ かん違い (misunderstanding) をしていたことを伝えてあやまる
 ➔ ❸ もう一度あやまり、{決意|けつい}を伝える
 l6.sections.2.blocks.42.blocks.0.lines.0.sp	管理人
@@ -6427,7 +6427,7 @@ l6.sections.2.blocks.42.blocks.0.lines.5.ja	❸**ご{迷惑|めいわく}をお�
 **これからはちゃんと**{{分ける}}**ようにします。本当にすみませんでした。**
 l6.sections.2.blocks.43.items.0.text.ja	「{昨日|きのう}の作文の宿題を早く出してくれないと{困|こま}る」と先生に言われました。しかし、あなたは明日が{締|し}め{切|き}りだと思っていました。先生に上手にあやまりなさい。
 l6.sections.2.blocks.43.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 196) で考えたことを使って話してみよう。
-l6.sections.2.blocks.44.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.44.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l6.sections.2.blocks.45.title.ja	カジュアルな会話にチャレンジ！
 l6.sections.2.blocks.45.blocks.0.text.ja	ロールプレイをやってみよう
 l6.sections.2.blocks.45.blocks.1.cards.0.who	あなた
@@ -6439,7 +6439,7 @@ l6.sections.2.blocks.45.blocks.1.cards.1.text.ja	Aさんの行動に{困|こま}
 注意しなさい。
 例）貸したノートを返してもらっていない
 l6.sections.2.blocks.45.blocks.2.text.ja	練習しよう
-l6.sections.2.blocks.45.blocks.3.text.ja	パートA
+l6.sections.2.blocks.45.blocks.3.text.ja	[#パートA]
 l6.sections.2.blocks.45.blocks.4.blocks.0.lines.0.sp	ルームメート
 l6.sections.2.blocks.45.blocks.4.blocks.0.lines.0.ja	ちょっと、〇〇さん。{{ゴミは{交替|こうたい}で (in turn) 出す}}ことに決めたよね。
 l6.sections.2.blocks.45.blocks.4.blocks.0.lines.1.sp	あなた
@@ -6447,7 +6447,7 @@ l6.sections.2.blocks.45.blocks.4.blocks.0.lines.1.ja	❶あっ、**ごめん。�
 l6.sections.2.blocks.45.blocks.4.blocks.0.lines.2.sp	ルームメート
 l6.sections.2.blocks.45.blocks.4.blocks.0.lines.2.ja	よろしくね。
 l6.sections.2.blocks.45.blocks.5.items.0.ja	「使ったお皿をすぐに{洗|あら}っていない」とルームメートに言われました。あやまりなさい。
-l6.sections.2.blocks.45.blocks.6.text.ja	パートB
+l6.sections.2.blocks.45.blocks.6.text.ja	[#パートB]
 l6.sections.2.blocks.45.blocks.7.blocks.0.lines.0.sp	ルームメート
 l6.sections.2.blocks.45.blocks.7.blocks.0.lines.0.ja	それから、{{そこに入っているペットボトル}}のことなんだけど……。
 l6.sections.2.blocks.45.blocks.7.blocks.0.lines.1.sp	あなた
@@ -6462,7 +6462,7 @@ l6.sections.2.blocks.45.blocks.7.blocks.0.lines.4.ja	{{分別していないと�
 l6.sections.2.blocks.45.blocks.7.blocks.0.lines.5.sp	あなた
 l6.sections.2.blocks.45.blocks.7.blocks.0.lines.5.ja	❸**{迷惑|めいわく}をかけちゃってごめん。これからはちゃんと**{{分ける}}**ようにするよ。本当にごめん。**
 l6.sections.2.blocks.45.blocks.8.items.0.ja	前に借りたマンガのことで、ルームメートに注意されました。ルームメートは、すぐ返してくれないと困ると言っています。でもあなたは、そのマンガはルームメートがくれたんだと思っていました。上手にあやまりなさい。
-l6.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l6.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！
 l6.sections.3.title.ja	{中|ちゅう}{国|ごく}{人|じん}留学生から見た日本
 l6.sections.3.blocks.0.text.ja	ゴミの分別
 l6.sections.3.blocks.1.text.ja	留学生のメイリンが、寮のルームメートとゴミを出す日について話しています。2人はいつどんなゴミを出しますか。会話を聞いて、内容に合う表に○をつけなさい。

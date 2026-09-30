@@ -42,7 +42,9 @@ const q2Markup = (t) => t
   .replace(/==(.+?)==/g, '<u class="ul2">$1</u>')
   .replace(/\[#(\d+)\]/g, '<span class="exno" aria-label="例$1">$1</span>')
   // [#Vて] a boxed form in the book's English ("[#Vて]おく is used…", p.144): POS letters bold as in the formulas
-  .replace(/\[#([^\]]+)\]/g, (m, t) => `<span class="boxf">${t.replace(/^(いA|なA|V|N|A)(?![A-Za-z])/, '<b>$1</b>')}</span>`)
+  // [#パートA] / [#パートB]: Quartet I's part badges (filled A, outlined B; pp.022, 200)
+  .replace(/\[#([^\]]+)\]/g, (m, t) => /^パート[AB]$/.test(t) ? `<span class="part part--${t.slice(-1).toLowerCase()}">${t}</span>`
+    : `<span class="boxf">${t.replace(/^(いA|なA|V|N|A)(?![A-Za-z])/, '<b>$1</b>')}</span>`)
   // %%text%% grey shading on words (the particle a sentence changes, g4 p.218; the modified noun, g2 p.210)
   .replace(/%%(.+?)%%/g, '<span class="shade">$1</span>')
   // ''text'' italics in the book's English (titles, vt./vi., emphasised words)

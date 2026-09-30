@@ -60,6 +60,7 @@ Everything from `data/SCHEMA.md` ("Inline markup") works: `{漢字|かんじ}` f
 | `!!text!!` | text printed in the accent colour (blue) where the colour means something: the grammar in a connection formula, the radical-part kanji in 漢字チャレンジ | `V~~ます~~ !!つつある!!` |
 | `[#3]` | the boxed example number ③ as printed inside explanations ("see [#1] and [#2]") | |
 | `[#Vて]` | a form or label printed in a box (not a number): forms in the book's English, boxed sub-patterns, ［論点1］ labels (Q2 pp.224–225); POS letters set bold | `[#Vて]くる is often used…` |
+| `[#パートA]` `[#パートB]` | Quartet I's part badges (A filled, B outlined): the 練習しよう part headings and box titles, the ☛ lines, flowchart phases (pp.021–022, 200) | `☛ ペアを変えて、[#パートA]と[#パートB]を…` |
 | `%%text%%` | grey shading on words (the particle a sentence turns on, the noun a clause modifies) | `子ども%%に%%ケーキを作った` |
 | `''text''` | italics in the book's English (titles, vt./vi., stressed words) | `''Spirited Away'' [movie title]` |
 | `❶ … ❿` | the conversation step marks (blue ❶ in モデル会話 / フローチャート), literal characters | `メ：❷ちょっと言いづらいんだけど` |

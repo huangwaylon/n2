@@ -2745,7 +2745,7 @@ TRY.registerLesson({
        "side": "a",
        "n": 1,
        "phase": {
-        "ja": "パートA",
+        "ja": "[#パートA]",
         "tr": "Part A"
        },
        "label": {
@@ -2818,7 +2818,7 @@ TRY.registerLesson({
        "side": "a",
        "n": 5,
        "phase": {
-        "ja": "パートB",
+        "ja": "[#パートB]",
         "tr": "Part B"
        },
        "label": {
@@ -2876,7 +2876,7 @@ TRY.registerLesson({
      "t": "box",
      "style": "blue",
      "title": {
-      "ja": "パートA",
+      "ja": "[#パートA]",
       "tr": "Part A"
      },
      "blocks": [
@@ -2959,7 +2959,7 @@ TRY.registerLesson({
      "t": "box",
      "style": "blue",
      "title": {
-      "ja": "パートB",
+      "ja": "[#パートB]",
       "tr": "Part B"
      },
      "blocks": [
@@ -3017,7 +3017,7 @@ TRY.registerLesson({
      "t": "p",
      "style": "right",
      "text": {
-      "ja": "☛ ペアを変えて、パートAとパートBを続けてやってみましょう！",
+      "ja": "☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！",
       "tr": "☛ Switch partners and try doing Part A and Part B in a row!"
      }
     },
@@ -3074,7 +3074,7 @@ TRY.registerLesson({
        "t": "head",
        "style": "plain",
        "text": {
-        "ja": "パートA",
+        "ja": "[#パートA]",
         "tr": "Part A"
        }
       },
@@ -3127,7 +3127,7 @@ TRY.registerLesson({
        "t": "head",
        "style": "plain",
        "text": {
-        "ja": "パートB",
+        "ja": "[#パートB]",
         "tr": "Part B"
        }
       },
@@ -3174,7 +3174,7 @@ TRY.registerLesson({
        "t": "p",
        "style": "right",
        "text": {
-        "ja": "☛ ペアを変えて、パートAとパートBを続けてやってみましょう！",
+        "ja": "☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！",
         "tr": "☛ Switch partners and try doing Part A and Part B in a row!"
        }
       }
@@ -3624,7 +3624,7 @@ TRY.registerLesson({
       {
        "side": "a",
        "phase": {
-        "ja": "パートA",
+        "ja": "[#パートA]",
         "tr": "Part A"
        },
        "n": 1,
@@ -3678,7 +3678,7 @@ TRY.registerLesson({
       {
        "side": "a",
        "phase": {
-        "ja": "パートB",
+        "ja": "[#パートB]",
         "tr": "Part B"
        },
        "n": 4,
@@ -3771,7 +3771,7 @@ TRY.registerLesson({
      "t": "box",
      "style": "blue",
      "title": {
-      "ja": "パートA",
+      "ja": "[#パートA]",
       "tr": "Part A"
      },
      "blocks": [
@@ -3855,7 +3855,7 @@ TRY.registerLesson({
      "t": "box",
      "style": "blue",
      "title": {
-      "ja": "パートB",
+      "ja": "[#パートB]",
       "tr": "Part B"
      },
      "blocks": [
@@ -3923,7 +3923,7 @@ TRY.registerLesson({
       {
        "n": "3.",
        "text": {
-        "ja": "上の［パートA］の 3. の友達の答えを聞いて、もっと質問しなさい。",
+        "ja": "上の[#パートA]の 3. の友達の答えを聞いて、もっと質問しなさい。",
         "tr": "Listen to your friend's answer in 3. of Part A above, and ask more questions."
        }
       }
@@ -3933,7 +3933,7 @@ TRY.registerLesson({
      "t": "p",
      "style": "right",
      "text": {
-      "ja": "☛ ペアを変えて、［パートA］と［パートB］を続けてやってみましょう！",
+      "ja": "☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！",
       "tr": "☛ Switch partners and try doing Part A and Part B in a row!"
      }
     }

@@ -262,6 +262,8 @@ a.ref:hover u { background: var(--q-soft); }
 .flow__l { margin: 0; color: var(--q); font: 700 14px/1.6 var(--goth); }
 .flow__t .ja { font-family: var(--mincho); }
 @media (max-width: 600px) { .flow__s { max-width: 92%; } .flow__steps { padding: 8px; background: none; } }
+/* phones: the printed line breaks in a bubble (p.161) no longer fit the narrower bubble and leave one-kana lines ("…○○さん／は") */
+@media (max-width: 600px) { .flow__t br { display: none; } }
 .bubbles { margin: 10px 0 16px; }
 .bubble { margin: 10px 0 14px; }
 .bubble__l { margin: 0 0 4px; font: 700 15px/1.6 var(--goth); }
@@ -319,6 +321,8 @@ a.ref:hover u { background: var(--q-soft); }
 .fxs__join { margin-left: 6px; }
 /* a shared lead before the brace (p.179 N から｛みると／すると／いうと｝): the brace opens towards the stack */
 .fxs__lead { white-space: nowrap; line-height: 1.5; }
+/* phones: the lead wraps (p.142 "Question word（prt.）（何／どこ／だれ／…）" is wider than a 320px column); the stack keeps its width */
+@media (max-width: 600px) { .fxs__lead { white-space: normal; min-width: 0; } .fxs--lead .fxs__stack { flex: none; } }
 .fxs__br--open { margin: 4px 4px 4px 12px; border: 1.5px solid var(--q); border-right: 0; border-radius: 6px 0 0 6px; }
 .fxs__br--open::after { right: auto; left: -7px; }
 .gn-conn__b .qlist { margin: 0; }
@@ -473,6 +477,8 @@ a.ref:hover u { background: var(--q-soft); }
   .qtbl:has(tr > :nth-child(8)) th, .qtbl:has(tr > :nth-child(8)) th .ja { overflow-wrap: normal; }
 }
 @media (max-width: 390px) { .qtbl:has(tr > :nth-child(8)) :is(th, td) { padding-inline: 2px; } .qtbl:has(tr > :nth-child(8)) th { font-size: 12.5px; } }
+/* eleven columns ((1)…(11), 漢字チャレンジ ③ p.232): 1px cells and 11.5px headings fit 320 */
+@media (max-width: 390px) { .qtbl:has(tr > :nth-child(11)) :is(th, td) { padding-inline: 1px; } .qtbl:has(tr > :nth-child(11)) th { font-size: 11.5px; letter-spacing: -.02em; } }
 .ref--rb .ref-n { left: auto; right: 100%; margin-right: .1em; }
 /* headings, labels and cells set tighter than text: with a reading under the line they need the text's leading, or a
    reading of a wrapped first line sits on the second (furigana below, as printed) */
@@ -510,3 +516,16 @@ s { text-decoration: line-through var(--q) 2px; }
   .flow__ph { order: -1; width: auto; border: 0; border-bottom: 1px dashed var(--q); border-radius: 0; margin: 0 0 6px; }
   .flow__ph > span { position: static; transform: none; writing-mode: horizontal-tb; background: none; color: var(--q); padding: 0; font-size: 13px; }
 }
+/* Quartet I's part badges [#パートA] (filled) / [#パートB] (outlined), inline in ☛ lines and as the 練習しよう part headings
+   (pp.022, 028, 200–201); a box titled with one is the book's pink band: badge, then the steps on the same line */
+.part { display: inline-block; border: 1.5px solid var(--q); border-radius: .3em; padding: 0 .55em; margin: 0 .15em; background: var(--panel); color: var(--q);
+  font: 700 .78em/1.45 var(--goth); letter-spacing: 0; white-space: nowrap; vertical-align: .08em; text-indent: 0; }
+.part--a { background: var(--q); color: var(--panel); }
+.hd .part, .qbox__title .part { font-size: .9em; padding: .05em .9em; margin: 0; }
+.qbox:has(> .qbox__title .part) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 6px 12px; border-radius: 6px; }
+.qbox:has(> .qbox__title .part) > .qbox__title { margin: 0; }
+.qbox:has(> .qbox__title .part) > :not(.qbox__title) { flex: 1 1 20em; min-width: 0; margin: 0; }
+/* flowchart phases (p.021): the tab is the badge — A filled, B outlined */
+.flow__ph .part { all: unset; }
+.flow__ph > span:has(.part--b) { background: var(--panel); color: var(--q); border: 2px solid var(--q); }
+@media (max-width: 600px) { .flow__ph > span:has(.part--b) { background: none; border: 0; } }
