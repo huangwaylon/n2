@@ -66,6 +66,7 @@
 .set-row { display: grid; gap: 4px; }
 .settings-pop input[type=range] { width: 100%; min-height: 32px; }
 .set-keys { margin: 0; color: var(--ink-2); font-size: 13px; }
+@media (hover: none) { .set-keys { display: none; } }  /* phones and tablets without a keyboard or mouse */
 kbd { display: inline-block; min-width: 1.6em; padding: 0 .35em; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; font: 600 12px/1.5 system-ui, sans-serif; text-align: center; color: var(--ink); background: var(--bg); }
 .settings-pop select { font: inherit; padding: 6px 8px; min-height: 40px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
 .sb-toggle { display: grid; flex: none; width: 44px; height: 44px; margin-left: -8px; background: none; border: 0; border-radius: 8px; color: var(--ink); cursor: pointer; place-items: center; padding: 0; }
