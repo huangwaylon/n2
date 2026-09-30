@@ -78,6 +78,11 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .sk-tabs a[aria-current] { background: var(--q-fill); border-color: var(--q-fill); color: var(--q-on); }
 @media (hover: hover) { .sk-tabs a:not([aria-current]):hover { border-color: var(--q); color: var(--q); text-decoration: none; } }
 @media (pointer: coarse) { .sk-tabs a { min-height: 44px; } }
+/* phones: the four skills in one row (聞く wrapped alone at 320) */
+@media (max-width: 600px) {
+  .sk-tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .sk-tabs a { justify-content: center; gap: 4px; padding: 4px 6px; }
+}
 .mt-gn .mt-gp__n { background: var(--q-fill); color: var(--q-on); }
 .sec-body { position: relative; }
 .pg { display: block; height: 0; }
@@ -89,6 +94,8 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .hd-t { min-width: 0; }
 /* a numbered or stepped heading keeps its title beside the number when the title wraps (the book's 2-line headings, p.041) */
 .hd:has(> .hd-tag) > .hd-t { flex: 1 1 0; }
+/* small phones: a track badge gets its own row, so the title keeps its line (聞いて／みよう broke beside it at 320) */
+@media (max-width: 430px) { .hd > .trk-w { flex-basis: 100%; justify-content: flex-end; } }
 :is(.hd--num, .hd--step):has(> .hd-tag) { align-items: baseline; }
 .hd--band { background: repeating-linear-gradient(-45deg, var(--q-soft) 0 6px, var(--q-hatch) 6px 8px); border-radius: 14px; padding: 10px 14px; font-size: 22px; font-weight: 800; }
 .hd--band .hd-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--panel); border: 2px solid var(--q); color: var(--q); border-radius: 999px; padding: 3px 14px 3px 6px; font-size: 16px; }
