@@ -69,17 +69,18 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
       heading style (both books), multi-label flow step p.027, small title readings (中国人), 53 book-English spaces,
       index glosses from sub-patterns, p.116 flush / p.102 names right, double strike, one CD per モデル会話, blank+。,
       formula wrapping at 390, conn `side` on 30 boxes
-- [ ] (was) Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi`
+- [x] Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi` (layout QA above)
 - [ ] Performance: `tools/perf.mjs` on q1 routes
-- [ ] Docs final: CLAUDE.md, Q1-TRANSCRIPTION.md, README; remove this file
+- [x] Docs final: CLAUDE.md, README, LAYOUT.md (§6 known limitations), both TRANSCRIPTION guides, both schemas, ENGLISH.md;
+      Q2 book-English spaces as Q1 (31 strings). Remove this file once the performance item is done
 
 ## 4. Four-book site layout and UX
 
 Done (22fecb5, 6153cbd, 00f8908): named book switcher (≥740) / codes / book menu (≤429); per-book hues; home shelf
 of the four books with progress and 続きから Continue (`n2.resume`); ホーム link; skip link, F key, switch roles, Esc,
 reduced motion; AA contrast for grey text, teal links, dark-theme buttons; landscape-phone bar; 456 overflow runs clean;
-perf no regression. Quartet sidebar lesson themes and Q2 fill contrast (--q-fill) done (ac4cee7). Open: iOS Safari
-unverified (no simulator); content-visibility deferred (risk to gp/N jumps and ruby fitting).
+perf no regression. Quartet sidebar lesson themes and Q2 fill contrast (--q-fill) done (ac4cee7). iOS Safari
+unverified and content-visibility not taken: see docs/LAYOUT.md §6.
 
 
 - [x] Audit the whole shell for four books: book switcher, home/landing that presents N2 · N1 · Q1 · Q2, top bar,
@@ -90,6 +91,5 @@ unverified (no simulator); content-visibility deferred (risk to gp/N jumps and r
 - [x] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
       light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
 - [x] Quartet underline label after a line wrap (1bfa725, placeRefNos); WebKit unchecked (no simulator)
-- [ ] Candidate: `content-visibility: auto` on grammar points with ruby/option fitting deferred to first view
-      (chapter render ~140 → ~75 ms at 4x CPU); verify gp/N jump positions and no furigana shift
+- [x] Candidate `content-visibility: auto`: not taken (docs/LAYOUT.md §6)
 - [x] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
