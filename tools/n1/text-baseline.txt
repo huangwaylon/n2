@@ -4590,8 +4590,8 @@ ch10.parts.0.points.8.examples.0.ja	{離島|りとう}の生活は不便{極|き
 ch10.parts.0.points.8.examples.1.ja	店員の{不誠実|ふせいじつ}{極|きわ}まりない{態度|たいど}に{納得|なっとく}がいかず、本社のサービスセンターにクレームのメールを送った。
 ch10.parts.0.points.8.examples.2.ja	アルバイトとはいえ、面接中にメールを確認するとは非常識{極|きわ}まる。
 ch10.parts.0.points.8.examples.3.ja	「人間とは何か」などという{難解|なんかい}{極|きわ}まる問いかけに、一体何と答えればいいのだろう。
-ch10.parts.0.points.8.forms.0	[なA~~な~~] + {極|きわ}まりない
-ch10.parts.0.points.8.forms.1	[なA~~な~~] + {極|きわ}まる
+ch10.parts.0.points.8.forms.0	[なA] な + {極|きわ}まりない
+ch10.parts.0.points.8.forms.1	[なA] な + {極|きわ}まる
 ch10.parts.0.points.8.marks.0	regret
 ch10.parts.0.points.8.marks.1	formal
 ch10.parts.0.points.8.no	119

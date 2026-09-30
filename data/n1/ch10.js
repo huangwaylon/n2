@@ -227,7 +227,7 @@ TRY.registerChapter({
             { ja: "＊「〜でなくてなんだろうか」「〜でなくてなんであろうか」の形もある。", en: "The forms “〜でなくてなんだろうか” and “〜でなくてなんであろうか” also exist." },
           ],
           examples: [
-            { ja: "親猫が、子猫のために大きな犬と戦った。これが愛情でなくてなんだろう。", en: "The mother cat fought a big dog for the sake of her kitten. If this isn't love, what is?" },
+            { ja: "親猫が、子猫のために大きな犬と戦った。これが愛情でなくてなんだろう。", en: "The parent cat fought a big dog for the sake of its kitten. If this isn't love, what is?" },
             { ja: "10階から{転落|てんらく}した幼児が無事だったとは、これが{奇跡|きせき}でなくてなんだろう。", en: "A toddler who fell from the tenth floor was unhurt — if that isn't a miracle, what is?" },
             { ja: "{戦火|せんか}の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、これが{運命|うんめい}でなくてなんであろう。", en: "Meeting again, years later, a woman from a foreign land first met in the midst of war — what could this be, if not fate?" },
             { ja: "たとえ{弾圧|だんあつ}されようとも、{真実|しんじつ}を{報道|ほうどう}する。それがジャーナリストの{正義|せいぎ}でなくてなんであろうか。", en: "To report the truth even in the face of oppression — what is that if not a journalist's sense of justice?" },
@@ -243,7 +243,7 @@ TRY.registerChapter({
           stars: 2,
           marks: ["regret", "formal"],
           usage: { ja: "「〜{極|きわ}まりない」は「危険{極|きわ}まりない」「残念{極|きわ}まりない」のように「非常に〜だ」と言いたいときに使われる。「〜{極|きわ}まる」も同じように使う。", en: "“〜極まりない” is used when you want to say “extremely 〜,” as in “危険極まりない (extremely dangerous)” or “残念極まりない (extremely regrettable).” “〜極まる” is used in the same way." },
-          forms: ["[なA~~な~~] + {極|きわ}まりない", "[なA~~な~~] + {極|きわ}まる"],
+          forms: ["[なA] な + {極|きわ}まりない", "[なA] な + {極|きわ}まる"],
           examples: [
             { ja: "{離島|りとう}の生活は不便{極|きわ}まりないと思っていたが、慣れれば気にならないものだ。", en: "I thought life on a remote island would be extremely inconvenient, but once you get used to it, it doesn't bother you." },
             { ja: "店員の{不誠実|ふせいじつ}{極|きわ}まりない{態度|たいど}に{納得|なっとく}がいかず、本社のサービスセンターにクレームのメールを送った。", en: "Unable to accept the clerk's utterly insincere attitude, I sent a complaint email to the head office's service center." },
@@ -267,7 +267,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**極まる** is *to reach the extreme*. **なA stem + 極まりない／極まる** both mean *extremely ~*: 極まりない is *knows no limit*, 極まる *reaches the limit*, so the ない is no negation. 無礼極まりない = 無礼極まる = *extremely rude*. They attach directly to Sino-Japanese な-adjective stems, end a sentence or modify a noun, and mostly carry criticism (危険, 失礼, 退屈, 不愉快); positive uses such as 丁寧極まりない are rarer. Formal and written; 極まりない is the more frequent. 感極まる (*to be overcome with emotion*) is a related set phrase.\n\nThe Plus, **N + の極み**, takes a noun: 光栄の極み (*the greatest honor*), 痛恨の極み (*the deepest regret*, a stock phrase in apologies).\n\nCompare:\n- **〜の至り** (#66): the speaker's own feeling at its height, polite: 光栄の至りです.\n- **〜にもほどがある** (#49): *~ goes too far*, sharp criticism in speech: 冗談にもほどがある.\n- **〜といったらない** (#83): emotional *indescribably ~*, conversational.\n\nPitfall: no な and no い-adjectives (✗危険な極まりない, ✗寒い極まりない).\n\nJLPT cue: a bare な-adjective stem before the blank → 極まりない／極まる; N + の → 極み.",
+          deepDive: "**極まる** is *to reach the extreme*. **なA stem + 極まりない／極まる** both mean *extremely ~*: 極まりない is *knows no limit*, 極まる *reaches the limit*, so the ない is no negation. 無礼極まりない = 無礼極まる = *extremely rude*. They attach directly to Sino-Japanese な-adjective stems, end a sentence or modify a noun, and mostly carry criticism (危険, 失礼, 退屈, 不愉快); positive uses such as 丁寧極まりない are rarer. Formal and written; 極まりない is the more frequent. 感極まる (*to be overcome with emotion*) is a related set phrase.\n\nThe Plus, **N + の極み**, takes a noun: 光栄の極み (*the greatest honor*), 痛恨の極み (*the deepest regret*, a stock phrase in apologies).\n\nCompare:\n- **〜の至り** (#66): the speaker's own feeling at its height, polite: 光栄の至りです.\n- **〜にもほどがある** (#49): *~ goes too far*, sharp criticism in speech: 冗談にもほどがある.\n- **〜といったらない** (#83): emotional *indescribably ~*, conversational.\n\nPitfall: the formula prints な after the badge, but in use the stem takes 極まりない directly, as every example shows (危険極まりない, not 危険な極まりない); い-adjectives don't take it (✗寒い極まりない).\n\nJLPT cue: a bare な-adjective stem before the blank → 極まりない／極まる; N + の → 極み.",
           see: [66, 49, 83],
           index: ["A極まりない", "A極まる", "Nの極み", "〜極まりない", "〜極まる", "〜の極み", "極まりない", "極まる"],
           practice: [

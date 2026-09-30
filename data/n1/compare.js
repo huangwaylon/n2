@@ -44,7 +44,7 @@ TRY.registerCompare([
         ex: { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by someone, causing a huge uproar." },
         note: "Price + からする + N: \"costing as much as\". The form for prices and values (compare 値段がする)." },
       { pattern: "〜からのN", level: "N1", no: 107,
-        ex: { ja: "{伊藤|いとう}氏は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Mr. Ito offered to donate as much as 100 million yen personally." },
+        ex: { ja: "{伊藤|いとう}氏は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered to donate as much as 100 million yen personally." },
         note: "Quantity + からの + N: \"as many / as much as\". Works for any quantity (money, people, weight); the general form of the からある group." }
     ]
   },
