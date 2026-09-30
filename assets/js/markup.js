@@ -65,6 +65,8 @@ export function fmt(s, opts = {}) {
     .replace(/\*\*([^]+?)\*\*/g, "<strong>$1</strong>")   // may span a printed line break (Quartet flowchart bubbles)
     .replace(/__(.+?)__/g, '<u class="ul">$1</u>')
     .replace(/~~(.+?)~~/g, "<s>$1</s>")
+    // Quartet: a blank keeps the punctuation after it on its line (Q1 p.157 at 390: "＿＿。" never starts a line with 。)
+    .replace(/＿＿([。、，？！」』）〕…]+)/g, (m, p) => (TRY.book && TRY.book.kind === "quartet" ? `<span class="nobr">${BLANK_HTML}${p}</span>` : m))
     .replace(/＿＿/g, BLANK_HTML)
     .replace(/\n/g, "<br>");
   return opts.vertical ? tateChuYoko(t) : t;

@@ -74,7 +74,8 @@ export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}
 
 const B = {
   // ----- structure -----
-  head(b) {
+  head(b, ctx) {
+    if (b.audio) (ctx.trks ||= new Set()).add(b.audio);
     const s = b.style === "sq" && /^☛/.test(plain(typeof b.text === "object" && b.text ? b.text.ja || b.text.en : b.text)) ? "sq hd--pt" : b.style || "plain", tag = b.tag ? `<span class="hd-tag">${fmt(b.tag)}</span>` : "";
     const h = s === "band" ? "h2" : s === "label" ? "h4" : "h3";
     // a heading's printed English (p.041 上位語と下位語 Hypernyms and hyponyms) is part of the heading: always shown
@@ -149,12 +150,14 @@ const B = {
 
   // ----- texts -----
   reading: readingHtml,
-  dialogue(b) {
+  dialogue(b, ctx) {
+    // the track label is printed once, on the heading (1-3 モデル会話 3.Kaiwa_L1-1): a dialogue under a heading with the
+    // same track has no second CD button
     const q = sayLines(b.lines);
     if (b.audio) QUEUES.set(b.audio, q);
     const spw = Math.max(1, ...b.lines.map((l) => plain(l.sp || "").length));
     return `<div class="qdlg${b.style ? " qdlg--" + b.style : ""}"${idAttr(b)} data-en-scope>
-      <div class="qdlg__tools">${enScopeBtn()}${b.audio ? cdBadge(q, "会話を聞く") : listenBtn(q, "会話を聞く")}</div>
+      <div class="qdlg__tools">${enScopeBtn()}${!b.audio ? listenBtn(q, "会話を聞く") : ctx.trks && ctx.trks.has(b.audio) ? "" : cdBadge(q, "会話を聞く")}</div>
       ${styleLab(b)}
       ${b.title ? `<h4 class="qdlg__title">${inl(b.title)}</h4>` : ""}
       ${b.setting ? line(b.setting, "qdlg__set") : ""}
@@ -204,10 +207,11 @@ const B = {
     return `<ol class="gn-exs ja-book">${(b.items || []).map((it) => `<li class="gn-ex">${it.n != null ? `<span class="exno">${esc(it.n)}</span>` : ""}${exBody(it, "gn-ex__b")}<span class="gn-ex__tools">${speakBtn(it.lines ? it.lines.map((l) => l.ja).join("。") : it.ja, "data-small")}</span></li>`).join("")}</ol>`;
   },
   conn(b, ctx) {
+    // a join that wraps on phones keeps "（だろう）か" together (word joiner; p.180)
     // a stack: alternatives in a brace, after a shared lead ("N から｛みると／すると／いうと｝", p.179: the brace opens
     // towards the stack) and / or before a shared join ("｛Vる／Nの｝たび（に）": the brace closes towards the join)
     const forms = (b.forms || []).map((f) => (typeof f === "string" ? `<div class="fx1">${posFmt(f)}</div>`
-      : `<div class="fxs${f.lead ? " fxs--lead" : ""}">${f.lead ? `<span class="fxs__lead">${posFmt(f.lead)}</span><span class="fxs__br fxs__br--open" aria-hidden="true"></span>` : ""}<span class="fxs__stack">${f.stack.map((l) => `<span>${posFmt(l)}</span>`).join("")}</span>${f.join || !f.lead ? `<span class="fxs__br" aria-hidden="true"></span><span class="fxs__join">${posFmt(f.join || "")}</span>` : ""}</div>`)).join("");
+      : `<div class="fxs${f.lead ? " fxs--lead" : ""}">${f.lead ? `<span class="fxs__lead">${posFmt(f.lead)}</span><span class="fxs__br fxs__br--open" aria-hidden="true"></span>` : ""}<span class="fxs__stack">${f.stack.map((l) => `<span>${posFmt(l)}</span>`).join("")}</span>${f.join || !f.lead ? `<span class="fxs__br" aria-hidden="true"></span><span class="fxs__join">${posFmt(f.join || "").replace(/）(?=[ぁ-ん])/g, "）\u2060")}</span>` : ""}</div>`)).join("");
     return `<div class="gn-conn">${forms ? `<div class="gn-forms">${forms}</div>` : ""}<div class="gn-conn__b">${blocks(b.blocks, ctx)}</div></div>`;
   },
   strategy(b, ctx) {

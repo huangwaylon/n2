@@ -339,9 +339,13 @@ a.ref:hover u { background: var(--q-soft); }
 @media (max-width: 600px) { .gn-forms { float: none; margin-right: 0; } }
 .fx1 { white-space: nowrap; }
 /* V~~ます~~: the book strikes the dropped ending with a blue rule (p.009) */
-.gn-forms s { text-decoration-color: var(--q); text-decoration-thickness: 2px; }
+/* the dropped ending (V~~ます~~, なA~~だ~~): grey under a double accent strike, as printed (Q1 p.009, Q2 p.009) */
+.gn-forms s { color: var(--ink-2); text-decoration: line-through double var(--q); text-decoration-thickness: 1.5px; }
 .fxs { display: flex; align-items: center; gap: 0; }
 .fxs__stack { display: grid; }
+/* phones: a stack line never breaks (p.180 ＊なAだ → な at 390); a long join breaks only between its phrases
+   (のではない / （だろう）か) */
+.fxs__stack > span { white-space: nowrap; } .fxs__join { word-break: keep-all; }
 .fxs__br { align-self: stretch; width: 10px; margin: 4px 6px 4px 4px; border: 1.5px solid var(--q); border-left: 0; border-radius: 0 6px 6px 0; position: relative; }
 .fxs__br::after { content: ""; position: absolute; right: -7px; top: 50%; width: 6px; border-top: 1.5px solid var(--q); }
 .fxs__join { margin-left: 6px; }
