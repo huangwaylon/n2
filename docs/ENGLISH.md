@@ -1,22 +1,23 @@
 # Generated English — style guide
 
-Rules for every English string we write (translations, `why`, `deepDive`, compare notes, vocab notes, `tr` in
-Quartet I and II). The book's own English (N2 `en` on usage, ＋Plus usage, 📎 notes, ＊ formNotes, can-do, titles; Quartet
-`en`) is copied verbatim and never edited; see CLAUDE.md "English: book vs generated".
+Rules for every English string we write: translations, `why`, `deepDive`, compare notes, vocab entries, Quartet `tr`,
+and all N1 English. The book's own English is copied verbatim and never edited (which fields: CLAUDE.md "English: book
+vs generated").
 
 ## Translations
 
-- Accurate first: the English says what the Japanese says — no added facts, no dropped clauses, same speaker
-  attitude (regret, praise, criticism, politeness) and the same certainty (〜らしい, 〜だろう, 〜かねない).
+- Accurate first: the English says what the Japanese says (no added facts, no dropped clauses), with the same speaker
+  attitude (regret, praise, criticism, politeness) and certainty (〜らしい, 〜だろう, 〜かねない). Claims the book does not
+  make belong in `deepDive`, not in a translated explanation.
 - Natural American English (color, realize, canceled, apartment). Not a gloss: 〜わけにはいかない is *can't very well*,
   not *there is no reason to go*.
 - Show the grammar being taught where English allows it, without breaking English: a sentence built on 〜ものの
   should read *although…*, one built on 〜つつある *is increasingly / is gradually*.
 - Consistent with the answer key: an exercise's translation is the sentence with the correct answer filled in.
+- Japanese quoted inside English keeps its Japanese form ("〜を皮切りに is used when…"), glossed where it helps.
 - Keigo: render the register (*we would be grateful if…*, *may I…*), not a word-for-word humble form.
 - Names: TRY books drop さん (田中さん → Tanaka; 氏 too, unless the text gives the person's gender and English needs
-  a title). Both Quartet
-  books keep their own convention (their printed English writes Yamada-san), so their `tr` does too.
+  a title). Quartet `tr` keeps -san, as the books' printed English does (Yamada-san).
 - Gender: Japanese rarely marks it. Use he / she only where the Japanese does (彼, 彼女, 夫, 母, a character the text
   genders); for 社長, 上司, 先輩, 店員, 〜さん and the like reword, repeat the noun or use singular *they*. Add no
   attitude either: あいつ is *that guy*, not *that jerk*.
@@ -24,7 +25,7 @@ Quartet I and II). The book's own English (N2 `en` on usage, ＋Plus usage, 📎
 ## deepDive (TRY books) and note deep-dives (Quartet)
 
 A supplement to the book's explanation, for an English speaker. It must add what the book leaves implicit, not
-repeat it. Target **100–200 words** (Quartet notes: 60–140), in this order, skipping what doesn't apply:
+repeat it. Target 100–200 words (Quartet notes: 60–140), in this order, skipping what doesn't apply:
 
 1. Core meaning and nuance in one or two sentences — the speaker's attitude, what the pattern implies that a plain
    English gloss misses.
