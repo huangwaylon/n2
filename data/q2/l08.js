@@ -426,7 +426,7 @@ TRY.registerLesson({
       "「朝日新聞」2014年8月2日（一部改）"
      ],
      "tr": [
-      "Selling bento boxes overseas is, for Japanese people, a case of \"it's dark at the foot of the lighthouse\" (not noticing what's right under their noses). Why did you set your sights on it?",
+      "Selling bento boxes overseas is, for Japanese people, a case of \"it's darkest right under the lamp\" (not noticing what's right under their noses). Why did you set your sights on it?",
       "A bento is a small universe. It carries an aesthetic sense unique to Japan, one that expresses concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always an airtight container with no dividers holding just sandwiches, if it's sandwiches, or just pasta, if it's pasta. A Japanese bento, though, is packed colorfully with side dishes, with thought given to the person who will eat it and care taken over nutritional balance.",
       "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",

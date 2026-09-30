@@ -177,7 +177,7 @@ TRY.registerVocab({ lesson: 11, lists: [
       { n: 35, w: "[〜が]落ち着く", ex: "{引|ひ}っ{越|こ}しから3か月が{経|た}ち、生活が落ち着いてきた。", tr: "Three months have passed since I moved, and my life has settled down." },
       { n: 36, w: "製造（する）", ex: "あの工場ではチーズやヨーグルトが製造されています。", tr: "Cheese and yogurt are made at that factory." },
       { n: 37, w: "検証（する）", ex: "大学院の研究ではサプリメントの効果を検証するつもりだ。", tr: "In my graduate research, I plan to test the effectiveness of dietary supplements." },
-      { n: 38, w: "同胞", ex: "海外で生活していると、同胞に助けられることが多い。", tr: "When you live abroad, you are often helped by your fellow countrymen." },
+      { n: 38, w: "同胞", ex: "海外で生活していると、同胞に助けられることが多い。", tr: "When you live abroad, you are often helped by your compatriots." },
       { n: 39, w: "ぼんやりと", ex: "彼女はぼんやりと{窓|まど}から外を見ていた。", tr: "She was gazing absently out the window." },
       { n: 40, w: "喚起（する）", ex: "海でおぼれる人が多いので、{自治体|じちたい}は注意を喚起する看板を立てた。", tr: "Because many people drown in the sea, the local government put up signs urging caution." },
       { n: 41, w: "自己主張（する）", ex: "自己主張が強すぎると、周りの人たちとうまくいかない。", tr: "If you are too assertive, you won't get along with the people around you." },

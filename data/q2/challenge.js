@@ -43,7 +43,7 @@ TRY.registerUnits([
     "items": [
      {
       "ja": "A（＝私）が自分の視点で書く場合",
-      "tr": "When A (= I) writes from her own viewpoint"
+      "tr": "When A (= I) writes from their own viewpoint"
      },
      {
       "ja": "（私は）Bさんにプレゼントをあげた。",
@@ -62,7 +62,7 @@ TRY.registerUnits([
     "items": [
      {
       "ja": "B（＝私）が自分の視点で書く場合",
-      "tr": "When B (= I) writes from his own viewpoint"
+      "tr": "When B (= I) writes from their own viewpoint"
      },
      {
       "ja": "（私は）Aさんにプレゼントを__もらった__。",
@@ -1540,7 +1540,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "文殊＝{仏教|ぶっきょう}に出てくる文殊{菩薩|ぼさつ} (Manjusri Bodhisattva)。人々に{知恵|ちえ} (wisdom) を与えてくれる。",
-         "tr": "Monju = the bodhisattva Manjushri, who appears in Buddhism. He gives people wisdom."
+         "tr": "Monju = the bodhisattva Manjushri, who appears in Buddhism and gives people wisdom."
         }
        },
        {
