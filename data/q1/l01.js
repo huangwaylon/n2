@@ -2720,7 +2720,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l1-1-flow",
      "page": 21,
      "text": {
@@ -3599,8 +3599,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l1-flow2",
      "page": 27,
      "text": {
@@ -3733,19 +3732,22 @@ TRY.registerLesson({
       },
       {
        "side": "b",
-       "n": 3,
-       "label": {
-        "ja": "コメントをする",
-        "tr": "Make a comment"
-       }
-      },
-      {
-       "side": "b",
-       "n": 4,
-       "label": {
-        "ja": "くわしく聞く",
-        "tr": "Ask for details"
-       }
+       "labels": [
+        {
+         "n": 3,
+         "label": {
+          "ja": "コメントをする",
+          "tr": "Make a comment"
+         }
+        },
+        {
+         "n": 4,
+         "label": {
+          "ja": "くわしく聞く",
+          "tr": "Ask for details"
+         }
+        }
+       ]
       }
      ]
     },

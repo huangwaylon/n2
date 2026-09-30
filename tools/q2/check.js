@@ -73,7 +73,7 @@ function block(b, w) {
     if (T === "script" && !(b.key && b.key.length)) E(w, "script without key (■解答)");
   }
   if (T === "roles") (b.cards || []).forEach((c, k) => { if (!c.tag || !c.text) E(`${w}.${k}`, "card needs tag, text"); needTr(c.text, `${w}.${k}`); });
-  if (T === "flow") (b.steps || []).forEach((s, k) => { if (!s.text && !s.label) E(`${w}.${k}`, "empty step"); needTr(s.text, `${w}.${k}`); });
+  if (T === "flow") (b.steps || []).forEach((s, k) => { if (!s.text && !s.label && !(s.labels || []).length) E(`${w}.${k}`, "empty step"); needTr(s.text, `${w}.${k}`); });
   if (T === "bubbles") (b.items || []).forEach((it, k) => {
     const n = (String(norm(it.text).ja).match(/＿＿/g) || []).length;
     if (!Array.isArray(it.answer) || it.answer.length !== n) E(`${w}.${k}`, `${n} blanks but ${(it.answer || []).length} answers`);

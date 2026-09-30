@@ -2957,7 +2957,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l9-1-flow",
      "page": 87,
      "text": {
@@ -3112,71 +3112,71 @@ TRY.registerLesson({
      "t": "box",
      "style": "gray",
      "blocks": [
-    {
-     "t": "dialogue",
-     "lines": [
       {
-       "sp": "あなた",
-       "v": "f",
-       "ja": "❶〜さん、**どうしたの？**　{{｛ため息なんかついて／疲れているみたいだね｝。}}",
-       "tr": "(Name), what's wrong? [You're sighing. / You look tired.]"
-      },
-      {
-       "sp": "友達",
-       "v": "f",
-       "ja": "実は、{{今週の土曜日、親友の{誕生日|たんじょうび}なんだけど、一日中バイトを入れちゃってた}}んだ。",
-       "tr": "Well, this Saturday is my best friend's birthday, but I signed up to work all day."
-      },
-      {
-       "sp": "あなた",
-       "v": "f",
-       "ja": "❷｛**よかったら**／**私でよければ**｝、{{バイトのシフト、{代|か}わろ}}**うか。**",
-       "tr": "[If you like / If you don't mind me], shall I cover your shift?"
-      },
-      {
-       "sp": "友達",
-       "v": "f",
-       "ja": "えっ、でも悪いし、いいよ。",
-       "tr": "Huh? But I'd feel bad, so no, it's okay."
-      },
-      {
-       "sp": "あなた",
-       "v": "f",
-       "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**　{{せっかくの誕生日なんだし、お{祝|いわ}いしてあげて。}}",
-       "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's their birthday, after all, so go celebrate with them."
-      },
-      {
-       "sp": "友達",
-       "v": "f",
-       "ja": "（じゃあ、{{夕方のシフトだけ、代わっ}}てくれる？",
-       "tr": "(Well then, could you cover just the evening shift?"
-      },
-      {
-       "sp": "あなた",
-       "v": "f",
-       "ja": "❹{{（昼のシフトも代われるけど、）夕方だけ}}**でいいの？**　{{夕方だけなんて言わないで。両方代わっ}}**てあげるよ。**）",
-       "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't say just the evening. I'll cover both for you.)"
-      },
-      {
-       "sp": "友達",
-       "v": "f",
-       "ja": "本当にいいの？　なんかごめんね。",
-       "tr": "Are you really sure? I feel kind of bad about this."
-      },
-      {
-       "sp": "あなた",
-       "v": "f",
-       "ja": "ううん。❺**どうせ{暇|ひま}だし、{大|たい}したことじゃないから、気にしないで。**",
-       "tr": "No, it's fine. I'm free anyway, and it's not a big deal, so don't worry about it."
-      },
-      {
-       "sp": "友達",
-       "v": "f",
-       "ja": "ありがとう。本当に助かるよ。",
-       "tr": "Thanks. You're really helping me out."
+       "t": "dialogue",
+       "lines": [
+        {
+         "sp": "あなた",
+         "v": "f",
+         "ja": "❶〜さん、**どうしたの？**　{{｛ため息なんかついて／疲れているみたいだね｝。}}",
+         "tr": "(Name), what's wrong? [You're sighing. / You look tired.]"
+        },
+        {
+         "sp": "友達",
+         "v": "f",
+         "ja": "実は、{{今週の土曜日、親友の{誕生日|たんじょうび}なんだけど、一日中バイトを入れちゃってた}}んだ。",
+         "tr": "Well, this Saturday is my best friend's birthday, but I signed up to work all day."
+        },
+        {
+         "sp": "あなた",
+         "v": "f",
+         "ja": "❷｛**よかったら**／**私でよければ**｝、{{バイトのシフト、{代|か}わろ}}**うか。**",
+         "tr": "[If you like / If you don't mind me], shall I cover your shift?"
+        },
+        {
+         "sp": "友達",
+         "v": "f",
+         "ja": "えっ、でも悪いし、いいよ。",
+         "tr": "Huh? But I'd feel bad, so no, it's okay."
+        },
+        {
+         "sp": "あなた",
+         "v": "f",
+         "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**　{{せっかくの誕生日なんだし、お{祝|いわ}いしてあげて。}}",
+         "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's their birthday, after all, so go celebrate with them."
+        },
+        {
+         "sp": "友達",
+         "v": "f",
+         "ja": "（じゃあ、{{夕方のシフトだけ、代わっ}}てくれる？",
+         "tr": "(Well then, could you cover just the evening shift?"
+        },
+        {
+         "sp": "あなた",
+         "v": "f",
+         "ja": "❹{{（昼のシフトも代われるけど、）夕方だけ}}**でいいの？**　{{夕方だけなんて言わないで。両方代わっ}}**てあげるよ。**）",
+         "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't say just the evening. I'll cover both for you.)"
+        },
+        {
+         "sp": "友達",
+         "v": "f",
+         "ja": "本当にいいの？　なんかごめんね。",
+         "tr": "Are you really sure? I feel kind of bad about this."
+        },
+        {
+         "sp": "あなた",
+         "v": "f",
+         "ja": "ううん。❺**どうせ{暇|ひま}だし、{大|たい}したことじゃないから、気にしないで。**",
+         "tr": "No, it's fine. I'm free anyway, and it's not a big deal, so don't worry about it."
+        },
+        {
+         "sp": "友達",
+         "v": "f",
+         "ja": "ありがとう。本当に助かるよ。",
+         "tr": "Thanks. You're really helping me out."
+        }
+       ]
       }
-     ]
-    }
      ]
     },
     {
@@ -3257,71 +3257,71 @@ TRY.registerLesson({
        "t": "box",
        "style": "gray",
        "blocks": [
-      {
-       "t": "dialogue",
-       "lines": [
         {
-         "sp": "あなた",
-         "v": "f",
-         "ja": "店長、❶{{{引|ひ}っ{越|こ}しされるそうですね。}}",
-         "tr": "Manager, I hear you're moving."
-        },
-        {
-         "sp": "店長",
-         "v": "f",
-         "ja": "実はそうなんだ。{{今週末引っ越すんだけど、もうバタバタで……。}}",
-         "tr": "Yes, actually. I'm moving this weekend, and it's already so hectic..."
-        },
-        {
-         "sp": "あなた",
-         "v": "f",
-         "ja": "❷**（もし）よろしければ、**{{お手伝いし}}**ましょうか。**",
-         "tr": "If it's all right with you, may I help?"
-        },
-        {
-         "sp": "店長",
-         "v": "f",
-         "ja": "えっ、でもせっかくの休みだし、悪いから、いいよ。",
-         "tr": "Oh, but it's your precious day off, and I'd feel bad, so no, it's okay."
-        },
-        {
-         "sp": "あなた",
-         "v": "f",
-         "ja": "❸**そんな{遠慮|えんりょ}なさらないでください。**　{{力仕事は得意なので、}}**私でよろしければ、**{{お手伝いさ}}**せてください。**",
-         "tr": "Please don't hold back like that. I'm good at heavy lifting, so if you don't mind, please let me help."
-        },
-        {
-         "sp": "店長",
-         "v": "f",
-         "ja": "じゃあ、{{午後から少し手伝ってくれる？}}",
-         "tr": "Well then, could you help a little in the afternoon?"
-        },
-        {
-         "sp": "あなた",
-         "v": "f",
-         "ja": "❹{{午後だけ}}**でよろしいんですか。よろしければ、**{{朝からお手伝いできます}}**が。**",
-         "tr": "Is just the afternoon all right? If you'd like, I can help from the morning."
-        },
-        {
-         "sp": "店長",
-         "v": "f",
-         "ja": "本当にいいの？　なんか申し訳ないなあ。",
-         "tr": "Are you really sure? I feel kind of bad about this."
-        },
-        {
-         "sp": "あなた",
-         "v": "f",
-         "ja": "いえ、❺**{大|たい}したことではないので、お気になさらないでください。**",
-         "tr": "Not at all. It's no big deal, so please don't worry about it."
-        },
-        {
-         "sp": "店長",
-         "v": "f",
-         "ja": "ありがとう。本当に助かるよ。",
-         "tr": "Thank you. You're really helping me out."
+         "t": "dialogue",
+         "lines": [
+          {
+           "sp": "あなた",
+           "v": "f",
+           "ja": "店長、❶{{{引|ひ}っ{越|こ}しされるそうですね。}}",
+           "tr": "Manager, I hear you're moving."
+          },
+          {
+           "sp": "店長",
+           "v": "f",
+           "ja": "実はそうなんだ。{{今週末引っ越すんだけど、もうバタバタで……。}}",
+           "tr": "Yes, actually. I'm moving this weekend, and it's already so hectic..."
+          },
+          {
+           "sp": "あなた",
+           "v": "f",
+           "ja": "❷**（もし）よろしければ、**{{お手伝いし}}**ましょうか。**",
+           "tr": "If it's all right with you, may I help?"
+          },
+          {
+           "sp": "店長",
+           "v": "f",
+           "ja": "えっ、でもせっかくの休みだし、悪いから、いいよ。",
+           "tr": "Oh, but it's your precious day off, and I'd feel bad, so no, it's okay."
+          },
+          {
+           "sp": "あなた",
+           "v": "f",
+           "ja": "❸**そんな{遠慮|えんりょ}なさらないでください。**　{{力仕事は得意なので、}}**私でよろしければ、**{{お手伝いさ}}**せてください。**",
+           "tr": "Please don't hold back like that. I'm good at heavy lifting, so if you don't mind, please let me help."
+          },
+          {
+           "sp": "店長",
+           "v": "f",
+           "ja": "じゃあ、{{午後から少し手伝ってくれる？}}",
+           "tr": "Well then, could you help a little in the afternoon?"
+          },
+          {
+           "sp": "あなた",
+           "v": "f",
+           "ja": "❹{{午後だけ}}**でよろしいんですか。よろしければ、**{{朝からお手伝いできます}}**が。**",
+           "tr": "Is just the afternoon all right? If you'd like, I can help from the morning."
+          },
+          {
+           "sp": "店長",
+           "v": "f",
+           "ja": "本当にいいの？　なんか申し訳ないなあ。",
+           "tr": "Are you really sure? I feel kind of bad about this."
+          },
+          {
+           "sp": "あなた",
+           "v": "f",
+           "ja": "いえ、❺**{大|たい}したことではないので、お気になさらないでください。**",
+           "tr": "Not at all. It's no big deal, so please don't worry about it."
+          },
+          {
+           "sp": "店長",
+           "v": "f",
+           "ja": "ありがとう。本当に助かるよ。",
+           "tr": "Thank you. You're really helping me out."
+          }
+         ]
         }
-       ]
-      }
        ]
       },
       {
@@ -3771,8 +3771,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l9-flow2",
      "page": 93,
      "text": {

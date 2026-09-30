@@ -112,10 +112,11 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 ### Structure
 
 ```js
-{ t: "head", text: Text, style: "band" | "num" | "step" | "sq" | "label" | "plain", tag: "1-1", icon, audio, id }
+{ t: "head", text: Text, style: "band" | "num" | "step" | "sq" | "label" | "flow" | "plain", tag: "1-1", icon, audio, id }
 //   band  — the hatched band of 読み物1 / 会話1 / 聴解1 (tag "読み物1", icon read|write|speak|listen)
 //   num   — 1 モデル作文 / 2 タスク (tag "1")          step — 1-1 やってみよう (tag "1-1")
 //   sq    — ■ 段落構成                                  label — 読む前に / 読んだ後で / リスニング / ディスカッション
+//   flow  — the フローチャート heading (icon + accent text)
 //   plain — any other heading (text only)
 { t: "p", text: Text, style: "indent" | "small" | "right" | "center" | "note" }
 { t: "list", mark: "・" | "•" | "▸" | "➤" | "※", items: [ Text | { text: Text, blocks: [Block] } ] }
@@ -193,6 +194,7 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
 { t: "roles", style: "casual" | "formal", cards: [ { tag: "A", who: "あなた", text: Text }, { tag: "B", who: "Aの友達", text: Text } ] }
 { t: "flow", head: [Text, Text], steps: [ { side: "a", n: 1, label: "話しかける", text: "あのさあ、〇〇さん……。" }, { side: "b", text: "何？" } ] }
 //   more than two roles: side "a" = lead, "b" = the others; who / act on each role's first step (name and action as printed);
+//   labels: [{ n, label }, …] instead of n / label: several label-only steps printed in one bubble (Q1 p.027)
 //   phase: { ja, tr } on the first step of a bracketed group of steps (the bracket label beside the chart)
 { t: "bubbles", from: "モデル会話", items: [ { label: "① 実は嫌だと思っているということを伝える時",
     text: "親しくしてくれているのがわかるから、＿＿けど、\n実は私、＿＿。", answer: ["気持ちはうれしいんだ", "ボディータッチがちょっと苦手で……"] } ] }

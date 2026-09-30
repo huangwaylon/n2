@@ -68,6 +68,8 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .sk-banner__ic .sk-ic { width: 34px; height: 34px; }
 .sk-banner__l { margin: 0; font-size: 13px; color: var(--ink-2); font-family: var(--goth); }
 .sk-banner__t { margin: 0; font: 800 28px/1.35 var(--goth); }
+/* the lesson and section titles' readings are small as printed (p.201 中国人: ちゅう・ごく・じん fit under their kanji, no gap around the word) */
+.sk-banner__t rt, .op-sk__t rt { font-size: .42em; }
 @media (max-width: 600px) { .sk-banner { padding: 10px 12px; gap: 10px; } .sk-banner__ic { width: 58px; height: 58px; font-size: 11px; } .sk-banner__ic .sk-ic { width: 24px; height: 24px; } .sk-banner__t { font-size: 21px; } }
 .sk-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
 .sk-tabs a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 4px 12px; border: 1.5px solid var(--line); border-radius: 999px; color: var(--ink-2); font: 700 14px/1 var(--goth); }
@@ -101,6 +103,9 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .hd--label { font-size: 15px; font-weight: 700; color: var(--q); border-bottom: 2px solid var(--q); border-right: 2px solid var(--q); border-radius: 0 0 8px 0; padding: 0 16px 2px 2px; width: fit-content; margin: 22px 0 10px; }
 .hd-en { font: 700 .85em/1.4 var(--goth); color: var(--ink); margin-left: .3em; }
 .hd--plain { font-size: 18px; font-weight: 700; }
+.hd--flow { display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 700; color: var(--q); margin: 22px 0 10px; }
+.hd-flow-ic { flex: none; width: 1.25em; height: 1.25em; }
+.hd-flow-ic rect { fill: var(--q); } .hd-flow-ic path { fill: none; stroke: var(--q-on); stroke-width: 2; stroke-linejoin: round; } .hd-flow-ic circle { fill: var(--q-on); }
 .hd .en-under { flex-basis: 100%; }
 
 /* ---------- paragraphs, lists, questions, boxes ---------- */

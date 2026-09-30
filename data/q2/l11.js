@@ -2401,7 +2401,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l11-1-flow",
      "page": 153,
      "text": {
@@ -3144,8 +3144,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l11-flow2",
      "page": 159,
      "text": {

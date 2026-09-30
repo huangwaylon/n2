@@ -814,8 +814,8 @@ l1.sections.2.blocks.31.steps.8.text.ja	オリジナル映画がすごくよか�
 l1.sections.2.blocks.31.steps.9.label.ja	同じ{話題|わだい}の質問をする
 l1.sections.2.blocks.31.steps.9.text.ja	**ところで**、〇〇さんは週末、何をしてたの？
 l1.sections.2.blocks.31.steps.10.label.ja	質問に答える
-l1.sections.2.blocks.31.steps.11.label.ja	コメントをする
-l1.sections.2.blocks.31.steps.12.label.ja	くわしく聞く
+l1.sections.2.blocks.31.steps.11.labels.0.label.ja	コメントをする
+l1.sections.2.blocks.31.steps.11.labels.1.label.ja	くわしく聞く
 l1.sections.2.blocks.32.text.ja	{練習|れんしゅう}しよう
 l1.sections.2.blocks.33.text.ja	▶ ［　　　］のパターンを使って話してみましょう。
 l1.sections.2.blocks.34.title.ja	[#パートA]

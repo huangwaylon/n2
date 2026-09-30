@@ -2870,7 +2870,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l5-1-flow",
      "page": 155,
      "text": {
@@ -3782,8 +3782,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l5-flow2",
      "page": 161,
      "text": {

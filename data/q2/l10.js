@@ -4077,8 +4077,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l10-flow1",
      "page": 123,
      "text": {
@@ -4862,8 +4861,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l10-flow2",
      "page": 129,
      "text": {

@@ -2478,7 +2478,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l3-1-flow",
      "page": 87,
      "text": {
@@ -3340,8 +3340,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l3-flow2",
      "text": {
       "ja": "フローチャート",

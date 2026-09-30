@@ -68,6 +68,8 @@ export const SKILLS = {
   speak: ["話す", "Speaking", '<path d="M4 5h16v11H10l-4 4v-4H4z"/><path d="M8 9h8M8 12h6"/>'],
   listen: ["聞く", "Listening", '<path d="M7 9a5 5 0 0 1 10 0c0 3-2 4-3 5.5S13 18 11 19a3 3 0 0 1-3-2"/><path d="M10 9.5a2 2 0 0 1 4 0c0 1.2-1.3 1.6-1.3 2.8"/>'],
 };
+// the book's flowchart icon: a zigzag of three nodes on an accent tile
+const FLOW_IC = '<svg class="hd-flow-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="1" width="22" height="22" rx="4"/><path d="M7 17V8l10 8V7"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="7" r="2"/></svg>';
 export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${SKILLS[s][2]}</svg>` : "");
 
 const B = {
@@ -78,7 +80,9 @@ const B = {
     // a heading's printed English (p.041 上位語と下位語 Hypernyms and hyponyms) is part of the heading: always shown
     const o = b.text && typeof b.text === "object" && b.text.ja && b.text.en ? b.text : null;
     const t = o ? `<span class="ja">${fmt(o.ja)}</span> <span class="hd-en">${fmt(o.en)}</span>${o.tr ? en(o.tr, "gen", "span", "en-under") : ""}` : inl(b.text);
-    return `<${h} class="hd hd--${s}"${idAttr(b)}>${b.icon ? skillIcon(b.icon) : ""}${tag}<span class="hd-t">${t}</span>${audioBadge(b.audio)}</${h}>`;
+    // flow: the フローチャート heading, the same in 会話1 and 会話2 of every lesson of both books (Q1 pp.021, 027; Q2 pp.023, 029)
+    const ic = s === "flow" ? FLOW_IC : b.icon ? skillIcon(b.icon) : "";
+    return `<${h} class="hd hd--${s}"${idAttr(b)}>${ic}${tag}<span class="hd-t">${t}</span>${audioBadge(b.audio)}</${h}>`;
   },
   p: (b) => line(b.text, `qp${b.style ? " qp--" + b.style : ""}`),
   hr: () => `<hr class="q-hr">`,
@@ -164,10 +168,11 @@ const B = {
   },
   flow(b) {
     // one bubble per step; a lead's name / action ("あなた：できごとを話す") as a pill above its first bubble; bracketed
-    // phases (話し始める / できごとを話す / 話をまとめる) as a bracket with a vertical tab on the right (p.093)
+    // phases (話し始める / できごとを話す / 話をまとめる) as a bracket with a vertical tab on the right (p.093); labels: several
+    // label-only steps printed in one bubble (Q1 p.027 ❸ コメントをする / ❹ くわしく聞く)
     const one = !(b.steps || []).some((s) => s.side === "b");
     const step = (s) => `${s.who || s.act ? `<li class="flow__pill flow__pill--${s.side === "b" ? "b" : "a"}">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
-        ${s.label ? `<p class="flow__l">${s.n ? `<span class="step">${String.fromCodePoint(0x2775 + s.n)}</span>` : ""}${inl(s.label)}</p>` : ""}${line(s.text, "flow__t")}</li>`;
+        ${(s.labels || (s.label ? [s] : [])).map((x) => `<p class="flow__l">${x.n ? `<span class="step">${String.fromCodePoint(0x2775 + x.n)}</span>` : ""}${inl(x.label)}</p>`).join("")}${line(s.text, "flow__t")}</li>`;
     const groups = [];
     (b.steps || []).forEach((s) => { if (s.phase || !groups.length) groups.push({ phase: s.phase, steps: [] }); groups[groups.length - 1].steps.push(s); });
     const body = groups.some((g) => g.phase)

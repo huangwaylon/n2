@@ -2860,7 +2860,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "label",
+     "style": "flow",
      "id": "l4-1-flow",
      "page": 121,
      "text": {
@@ -3760,8 +3760,7 @@ TRY.registerLesson({
     },
     {
      "t": "head",
-     "style": "plain",
-     "icon": "flow",
+     "style": "flow",
      "id": "l4-flow2",
      "page": 127,
      "text": {
