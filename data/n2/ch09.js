@@ -117,7 +117,7 @@ TRY.registerChapter({
               usage: { ja: "「[N] + ってば」も同じように使う。", en: "\"[N] + ってば\" is used in the same way.", gen: true },
               examples: [
                 { ja: "お母さんってば、いつも{勝手|かって}に私の部屋に入るのよ。", en: "Mom, honestly — she always comes into my room without asking." },
-                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — he says he's going to put up a bronze statue of himself at the front entrance. What a pain." },
+                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — says they're going to put up a bronze statue of themselves at the front entrance. What a pain." },
               ],
             },
           ],
@@ -221,7 +221,7 @@ TRY.registerChapter({
                   options: ["わけ", "はず", "べき"],
                   answer: 1,
                   en: "A: Saito doesn't seem to be in the room.\nB: Yeah. Saito said the job exam was today, so they should have left already.",
-                  why: { en: "B infers from what Saito said that he must have left; it hasn't been confirmed → はず (*he should have*). わけ needs an established fact whose reason you've just understood." },
+                  why: { en: "B infers from what Saito said that Saito must have left; it hasn't been confirmed → はず (*should have*). わけ needs an established fact whose reason you've just understood." },
                 },
                 {
                   q: "{事故|じこ}にあったときは、まず何をする（　）か、{落|お}ち{着|つ}いて考えましょう。",
