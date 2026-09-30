@@ -547,7 +547,7 @@ TRY.registerCompare([
         ex: { ja: "A：{健康|けんこう}のために、少し運動したほうがいいですよ。\nB：じゃ、これから毎日1時間くらい歩く**ようにします**。", en: "A: You should get a little exercise for your health.\nB: Then from now on I'll try to walk for about an hour every day." },
         note: "V-る / V-ない + ようにする: \"try to / make a point of\". A conscious, ongoing effort." },
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Could you, as his mother, also tell him to study?" },
+        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Could you, as the child's mother, also tell them to study?" },
         note: "V-る / V-ない + ように言う: \"tell someone to\". Reports an instruction or request indirectly (also ように頼む / 注意する)." },
       { pattern: "〜ようになる①", level: "N4",
         ex: { ja: "日本へ来たときは、{納豆|なっとう}が食べられませんでしたが、今は食べられる**ようになりました**。", en: "When I came to Japan I couldn't eat natto, but now I can." },
