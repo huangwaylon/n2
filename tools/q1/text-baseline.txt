@@ -3402,12 +3402,12 @@ causative-passive
 l4.sections.0.blocks.18.blocks.4.rows.2.1.ja	私**は**先生に難しい{論文|ろんぶん}を**読まされた**。
 l4.sections.0.blocks.18.blocks.4.rows.2.2	は・が
 l4.sections.0.blocks.18.blocks.4.rows.2.3.ja	!!私!!
-l4.sections.0.blocks.18.blocks.4.rows.3.0.ja	4. Vてもらう
+l4.sections.0.blocks.18.blocks.4.rows.3.0.ja	4. %%V%%てもらう
 l4.sections.0.blocks.18.blocks.4.rows.3.1.ja	子どもの時、私は母**に**絵本を**読んでもらった**。
 l4.sections.0.blocks.18.blocks.4.rows.3.2	に
 l4.sections.0.blocks.18.blocks.4.rows.3.3.ja	!!母!!
-l4.sections.0.blocks.18.blocks.4.rows.4.0.ja	5. V（使役形 causative）
-てもらう
+l4.sections.0.blocks.18.blocks.4.rows.4.0.ja	5. %%V（使役形 causative）%%
+%%てもらう%%
 l4.sections.0.blocks.18.blocks.4.rows.4.1.ja	私**は**友達にマンガを**読ませてもらった**。
 l4.sections.0.blocks.18.blocks.4.rows.4.2	は・が
 l4.sections.0.blocks.18.blocks.4.rows.4.3.ja	!!私!!
@@ -3846,351 +3846,354 @@ l4.sections.2.blocks.2.items.1.blocks.0.cards.0.text.ja	卒業した後の{進�
 l4.sections.2.blocks.2.items.1.blocks.0.cards.1.who	Aの{先輩|せんぱい}
 l4.sections.2.blocks.2.items.1.blocks.0.cards.1.text.ja	{後輩|こうはい}に相談されるので、
 アドバイスをしなさい。
-l4.sections.2.blocks.3.text.ja	聞いてみよう
-l4.sections.2.blocks.4.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
-l4.sections.2.blocks.4.items.0.blocks.0.items.0.text.ja	ジョージの{悩|なや}みは何ですか。
-l4.sections.2.blocks.4.items.0.blocks.0.items.1.text.ja	グエンは、自分がジョージの{立場|たちば} (situation) ならどうすると言っていますか。
-l4.sections.2.blocks.4.items.1.text.ja	ジョージは{先輩|せんぱい}にアドバイスを求めた時、何と言っていましたか。
-l4.sections.2.blocks.4.items.1.blocks.0.items.0.label.ja	① 話しかける時
-l4.sections.2.blocks.4.items.1.blocks.0.items.0.text.ja	{先輩|せんぱい}、ちょっと＿＿てもらえませんか。
+l4.sections.2.blocks.4.text.ja	聞いてみよう
+l4.sections.2.blocks.5.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
+l4.sections.2.blocks.5.items.0.blocks.0.items.0.text.ja	ジョージの{悩|なや}みは何ですか。
+l4.sections.2.blocks.5.items.0.blocks.0.items.1.text.ja	グエンは、自分がジョージの{立場|たちば} (situation) ならどうすると言っていますか。
+l4.sections.2.blocks.5.items.1.text.ja	ジョージは{先輩|せんぱい}にアドバイスを求めた時、何と言っていましたか。
+l4.sections.2.blocks.5.items.1.blocks.0.items.0.label.ja	① 話しかける時
+l4.sections.2.blocks.5.items.1.blocks.0.items.0.text.ja	{先輩|せんぱい}、ちょっと＿＿てもらえませんか。
 {悩|なや}んでいることがあって。
-l4.sections.2.blocks.4.items.1.blocks.0.items.0.answer.0	相談に乗っ
-l4.sections.2.blocks.4.items.1.blocks.0.items.1.label.ja	② アドバイスを聞いた後
-l4.sections.2.blocks.4.items.1.blocks.0.items.1.text.ja	先輩にいただいた＿＿に、
+l4.sections.2.blocks.5.items.1.blocks.0.items.0.answer.0	相談に乗っ
+l4.sections.2.blocks.5.items.1.blocks.0.items.1.label.ja	② アドバイスを聞いた後
+l4.sections.2.blocks.5.items.1.blocks.0.items.1.text.ja	先輩にいただいた＿＿に、
 ＿＿てみます。ありがとうございました。
-l4.sections.2.blocks.4.items.1.blocks.0.items.1.answer.0	アドバイスをもと
-l4.sections.2.blocks.4.items.1.blocks.0.items.1.answer.1	もう少し考え
-l4.sections.2.blocks.5.text.ja	モデル会話
-l4.sections.2.blocks.6.title.ja	ジョージの{悩|なや}み
-l4.sections.2.blocks.6.setting.ja	ジョージ・テイラー（ジ:）が大学院生のグエン・ヴァン・タン（グ:）に話しかける。
-l4.sections.2.blocks.6.lines.0.sp	ジ
-l4.sections.2.blocks.6.lines.0.ja	❶{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。{悩|なや}んでいることがあって。**
-l4.sections.2.blocks.6.lines.1.sp	グ
-l4.sections.2.blocks.6.lines.1.ja	どうしたの？
-l4.sections.2.blocks.6.lines.2.sp	ジ
-l4.sections.2.blocks.6.lines.2.ja	❷**実は**、アメリカの大学を卒業したらまた日本に{戻|もど}ってこようと思っているんですけど、就職する**べきか**、大学院に行く**べきか、{迷|まよ}っているんです。{以前|いぜん}は**{進|しん}{学|がく}しようと思っていた**んですが、最近**、就職**もいいなと思うようになってきて**……。
-l4.sections.2.blocks.6.lines.3.sp	グ
-l4.sections.2.blocks.6.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
-l4.sections.2.blocks.6.lines.4.sp	ジ
-l4.sections.2.blocks.6.lines.4.ja	❸ええと、進学する**なら**、{中村|なかむら}先生の研究室に入りたい**と思っていたんですが**、アルバイトしている会社の仕事**にも興味が出てきたんです。もうそろそろ決めないといけないんですが、どちらのほうがいいか迷ってしまって**……。
-l4.sections.2.blocks.6.lines.5.sp	グ
-l4.sections.2.blocks.6.lines.5.ja	うーん、難しい問題だよね。
-l4.sections.2.blocks.6.lines.6.sp	ジ
-l4.sections.2.blocks.6.lines.6.ja	❹**先輩が私の{立場|たちば}だったら、どうされますか。**
-l4.sections.2.blocks.6.lines.7.sp	グ
-l4.sections.2.blocks.6.lines.7.ja	そうだなあ。僕なら進学を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし。
-l4.sections.2.blocks.6.lines.8.sp	ジ
-l4.sections.2.blocks.6.lines.8.ja	確かにそうですね。
-l4.sections.2.blocks.6.lines.9.sp	グ
-l4.sections.2.blocks.6.lines.9.ja	お金の問題もあるから、ご両親とも相談したほうがいいよ。でも、何と言っても大切なのは、ジョージが本当にやりたいことが何かっていうことだと思うよ。
-l4.sections.2.blocks.6.lines.10.sp	ジ
-l4.sections.2.blocks.6.lines.10.ja	❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**
-l4.sections.2.blocks.6.lines.11.sp	グ
-l4.sections.2.blocks.6.lines.11.ja	{納得|なっとく}できる答えが見つかるといいね。
-l4.sections.2.blocks.7.items.0.ja	{相談|そうだん}に{乗|の}る
-l4.sections.2.blocks.7.items.0.en	to give advice to
-l4.sections.2.blocks.7.items.1.ja	{悩|なや}む
-l4.sections.2.blocks.7.items.1.en	to be worried
-l4.sections.2.blocks.7.items.2.ja	{迷|まよ}う
-l4.sections.2.blocks.7.items.2.en	to be in two minds
-l4.sections.2.blocks.7.items.3.ja	{以前|いぜん}は
-l4.sections.2.blocks.7.items.3.en	back in the day
-l4.sections.2.blocks.7.items.4.ja	{進学|しんがく}する
-l4.sections.2.blocks.7.items.4.en	to go on to higher education
-l4.sections.2.blocks.7.items.5.ja	{詳|くわ}しく
-l4.sections.2.blocks.7.items.5.en	in detail
-l4.sections.2.blocks.7.items.6.ja	〜{先生|せんせい}の{研究室|けんきゅうしつ}に{入|はい}る
-l4.sections.2.blocks.7.items.6.en	to become a member of Prof. ~’s lab
-l4.sections.2.blocks.7.items.7.ja	{立場|たちば}
-l4.sections.2.blocks.7.items.7.en	situation
-l4.sections.2.blocks.7.items.8.ja	〜をもとに
-l4.sections.2.blocks.7.items.8.en	based on ~
-l4.sections.2.blocks.7.items.9.ja	{納得|なっとく}する
-l4.sections.2.blocks.7.items.9.en	to be convinced to
-l4.sections.2.blocks.8.text.ja	フローチャート
-l4.sections.2.blocks.9.head.0.ja	あなた：アドバイスを求める
-l4.sections.2.blocks.9.head.1.ja	{先輩|せんぱい}：アドバイスをする
-l4.sections.2.blocks.9.steps.0.phase.ja	パートA
-l4.sections.2.blocks.9.steps.0.label.ja	話しかける
-l4.sections.2.blocks.9.steps.0.text.ja	{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。**
+l4.sections.2.blocks.5.items.1.blocks.0.items.1.answer.0	アドバイスをもと
+l4.sections.2.blocks.5.items.1.blocks.0.items.1.answer.1	もう少し考え
+l4.sections.2.blocks.7.text.ja	モデル会話
+l4.sections.2.blocks.8.title.ja	ジョージの{悩|なや}み
+l4.sections.2.blocks.8.setting.ja	ジョージ・テイラー（ジ:）が大学院生のグエン・ヴァン・タン（グ:）に話しかける。
+l4.sections.2.blocks.8.lines.0.sp	ジ
+l4.sections.2.blocks.8.lines.0.ja	❶{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。{悩|なや}んでいることがあって。**
+l4.sections.2.blocks.8.lines.1.sp	グ
+l4.sections.2.blocks.8.lines.1.ja	どうしたの？
+l4.sections.2.blocks.8.lines.2.sp	ジ
+l4.sections.2.blocks.8.lines.2.ja	❷**実は**、アメリカの大学を卒業したらまた日本に{戻|もど}ってこようと思っているんですけど、就職する**べきか**、大学院に行く**べきか、{迷|まよ}っているんです。{以前|いぜん}は**{進|しん}{学|がく}しようと思っていた**んですが、最近**、就職**もいいなと思うようになってきて**……。
+l4.sections.2.blocks.8.lines.3.sp	グ
+l4.sections.2.blocks.8.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
+l4.sections.2.blocks.8.lines.4.sp	ジ
+l4.sections.2.blocks.8.lines.4.ja	❸ええと、進学する**なら**、{中村|なかむら}先生の研究室に入りたい**と思っていたんですが**、アルバイトしている会社の仕事**にも興味が出てきたんです。もうそろそろ決めないといけないんですが、どちらのほうがいいか迷ってしまって**……。
+l4.sections.2.blocks.8.lines.5.sp	グ
+l4.sections.2.blocks.8.lines.5.ja	うーん、難しい問題だよね。
+l4.sections.2.blocks.8.lines.6.sp	ジ
+l4.sections.2.blocks.8.lines.6.ja	❹**先輩が私の{立場|たちば}だったら、どうされますか。**
+l4.sections.2.blocks.8.lines.7.sp	グ
+l4.sections.2.blocks.8.lines.7.ja	そうだなあ。僕なら進学を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし。
+l4.sections.2.blocks.8.lines.8.sp	ジ
+l4.sections.2.blocks.8.lines.8.ja	確かにそうですね。
+l4.sections.2.blocks.8.lines.9.sp	グ
+l4.sections.2.blocks.8.lines.9.ja	お金の問題もあるから、ご両親とも相談したほうがいいよ。でも、何と言っても大切なのは、ジョージが本当にやりたいことが何かっていうことだと思うよ。
+l4.sections.2.blocks.8.lines.10.sp	ジ
+l4.sections.2.blocks.8.lines.10.ja	❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**
+l4.sections.2.blocks.8.lines.11.sp	グ
+l4.sections.2.blocks.8.lines.11.ja	{納得|なっとく}できる答えが見つかるといいね。
+l4.sections.2.blocks.10.items.0.ja	{相談|そうだん}に{乗|の}る
+l4.sections.2.blocks.10.items.0.en	to give advice to
+l4.sections.2.blocks.10.items.1.ja	{悩|なや}む
+l4.sections.2.blocks.10.items.1.en	to be worried
+l4.sections.2.blocks.10.items.2.ja	{迷|まよ}う
+l4.sections.2.blocks.10.items.2.en	to be in two minds
+l4.sections.2.blocks.10.items.3.ja	{以前|いぜん}は
+l4.sections.2.blocks.10.items.3.en	back in the day
+l4.sections.2.blocks.10.items.4.ja	{進学|しんがく}する
+l4.sections.2.blocks.10.items.4.en	to go on to higher education
+l4.sections.2.blocks.10.items.5.ja	{詳|くわ}しく
+l4.sections.2.blocks.10.items.5.en	in detail
+l4.sections.2.blocks.10.items.6.ja	〜{先生|せんせい}の{研究室|けんきゅうしつ}に{入|はい}る
+l4.sections.2.blocks.10.items.6.en	to become a member of Prof. ~’s lab
+l4.sections.2.blocks.10.items.7.ja	{立場|たちば}
+l4.sections.2.blocks.10.items.7.en	situation
+l4.sections.2.blocks.10.items.8.ja	〜をもとに
+l4.sections.2.blocks.10.items.8.en	based on ~
+l4.sections.2.blocks.10.items.9.ja	{納得|なっとく}する
+l4.sections.2.blocks.10.items.9.en	to be convinced to
+l4.sections.2.blocks.11.text.ja	フローチャート
+l4.sections.2.blocks.12.head.0.ja	あなた：アドバイスを求める
+l4.sections.2.blocks.12.head.1.ja	{先輩|せんぱい}：アドバイスをする
+l4.sections.2.blocks.12.steps.0.phase.ja	パートA
+l4.sections.2.blocks.12.steps.0.label.ja	話しかける
+l4.sections.2.blocks.12.steps.0.text.ja	{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。**
 **{悩|なや}んでいることがあって。**
-l4.sections.2.blocks.9.steps.1.text.ja	どうしたの？
-l4.sections.2.blocks.9.steps.2.label.ja	悩みを言う
-l4.sections.2.blocks.9.steps.2.text.ja	**実は**、就職する**べきか**、大学院に行く**べきか、{迷|まよ}って**
+l4.sections.2.blocks.12.steps.1.text.ja	どうしたの？
+l4.sections.2.blocks.12.steps.2.label.ja	悩みを言う
+l4.sections.2.blocks.12.steps.2.text.ja	**実は**、就職する**べきか**、大学院に行く**べきか、{迷|まよ}って**
 **いるんです。{以前|いぜん}は**{進学|しんがく}しようと思っていた**んですが、**
 **最近**、就職**もいいなと思うようになってきて**……。
-l4.sections.2.blocks.9.steps.3.text.ja	もう少し{詳|くわ}しく話してくれない？
-l4.sections.2.blocks.9.steps.4.label.ja	詳しく説明して、アドバイスを求める
-l4.sections.2.blocks.9.steps.4.text.ja	ええと、進学する**なら**、{中村|なかむら}先生の研究室に入りたい
+l4.sections.2.blocks.12.steps.3.text.ja	もう少し{詳|くわ}しく話してくれない？
+l4.sections.2.blocks.12.steps.4.label.ja	詳しく説明して、アドバイスを求める
+l4.sections.2.blocks.12.steps.4.text.ja	ええと、進学する**なら**、{中村|なかむら}先生の研究室に入りたい
 **と思っていたんですが**、アルバイトしている会社の仕
 事**にも興味が出てきたんです。**
 **もうそろそろ決めないといけないんですが、どちらの**
 **ほうがいいか迷ってしまって**……。
-l4.sections.2.blocks.9.steps.5.text.ja	うーん、難しい問題だよね。
-l4.sections.2.blocks.9.steps.6.phase.ja	パートB
-l4.sections.2.blocks.9.steps.6.label.ja	自分の{立場|たちば}ならどうするか{意見|いけん}を求める
-l4.sections.2.blocks.9.steps.6.text.ja	**先輩が私の立場だったら、どうされますか。**
-l4.sections.2.blocks.9.steps.7.text.ja	そうだなあ。僕なら進学を選ぶかな。一度働き
+l4.sections.2.blocks.12.steps.5.text.ja	うーん、難しい問題だよね。
+l4.sections.2.blocks.12.steps.6.phase.ja	パートB
+l4.sections.2.blocks.12.steps.6.label.ja	自分の{立場|たちば}ならどうするか{意見|いけん}を求める
+l4.sections.2.blocks.12.steps.6.text.ja	**先輩が私の立場だったら、どうされますか。**
+l4.sections.2.blocks.12.steps.7.text.ja	そうだなあ。僕なら進学を選ぶかな。一度働き
 始めたら、なかなか仕事はやめられないし。
-l4.sections.2.blocks.9.steps.8.text.ja	確かにそうですね。
-l4.sections.2.blocks.9.steps.9.text.ja	でも、大切なのは、〇〇さんがやりた
+l4.sections.2.blocks.12.steps.8.text.ja	確かにそうですね。
+l4.sections.2.blocks.12.steps.9.text.ja	でも、大切なのは、〇〇さんがやりた
 いことが何かっていうことだよ。
-l4.sections.2.blocks.9.steps.10.label.ja	お礼を言い、会話を終える
-l4.sections.2.blocks.9.steps.10.text.ja	そのとおりですね。**先輩にいただいたアドバイスを**
+l4.sections.2.blocks.12.steps.10.label.ja	お礼を言い、会話を終える
+l4.sections.2.blocks.12.steps.10.text.ja	そのとおりですね。**先輩にいただいたアドバイスを**
 **もとに、もう少し考えてみます。**
 **ありがとうございました。**
-l4.sections.2.blocks.10.text.ja	練習しよう
-l4.sections.2.blocks.11.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l4.sections.2.blocks.12.title.ja	パートA
-l4.sections.2.blocks.12.blocks.0.text.ja	❶話しかける ➔ ❷{悩|なや}みを言う ➔ ❸{詳|くわ}しく説明して、アドバイスを求める
-l4.sections.2.blocks.13.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.13.blocks.0.lines.0.ja	❶{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。{悩|なや}んでいることがあって。**
-l4.sections.2.blocks.13.blocks.0.lines.1.sp	先輩
-l4.sections.2.blocks.13.blocks.0.lines.1.ja	どうしたの？
-l4.sections.2.blocks.13.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.13.blocks.0.lines.2.ja	❷**実は、**{{就職する}}**べきか、**{{大学院に行く}}**べきか、{迷|まよ}っているんです。{以前|いぜん}は、**{{{進学|しんがく}しようと思っていた}}**んですが、最近、**{{就職}}**もいいなと思うようになってきて**……。
-l4.sections.2.blocks.13.blocks.0.lines.3.sp	先輩
-l4.sections.2.blocks.13.blocks.0.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
-l4.sections.2.blocks.13.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.13.blocks.0.lines.4.ja	❸ええと、{{進学する}}**なら、**{{{中村|なかむら}先生の研究室に入りたい}}**と思っていたんですが、**{{アルバイトしている会社の仕事}}**にも興味が出てきたんです。もうそろそろ決めないといけないんですが、どちらのほうがいいか迷ってしまって**……。
-l4.sections.2.blocks.13.blocks.0.lines.5.sp	先輩
-l4.sections.2.blocks.13.blocks.0.lines.5.ja	うーん、難しい問題だよね。
-l4.sections.2.blocks.14.items.0.text.ja	あなたは、夏休みにサマープログラムに参加するかインターンシップをするか、迷っています。先輩にアドバイスを求めなさい。
-l4.sections.2.blocks.14.items.1.text.ja	「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。
-l4.sections.2.blocks.15.title.ja	パートB
-l4.sections.2.blocks.15.blocks.0.text.ja	❹自分の{立場|たちば}ならどうするか{意見|いけん}を求める ➔ ❺お礼を言い、会話を終える
+l4.sections.2.blocks.13.text.ja	練習しよう
+l4.sections.2.blocks.14.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l4.sections.2.blocks.15.title.ja	パートA
+l4.sections.2.blocks.15.blocks.0.text.ja	❶話しかける ➔ ❷{悩|なや}みを言う ➔ ❸{詳|くわ}しく説明して、アドバイスを求める
 l4.sections.2.blocks.16.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.16.blocks.0.lines.0.ja	❹**{先輩|せんぱい}が私の{立場|たちば}だったら、どうされますか。**
+l4.sections.2.blocks.16.blocks.0.lines.0.ja	❶{先輩|せんぱい}、**ちょっと相談に乗ってもらえませんか。{悩|なや}んでいることがあって。**
 l4.sections.2.blocks.16.blocks.0.lines.1.sp	先輩
-l4.sections.2.blocks.16.blocks.0.lines.1.ja	そうだなあ。{{僕なら{進学|しんがく}を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし}}。
+l4.sections.2.blocks.16.blocks.0.lines.1.ja	どうしたの？
 l4.sections.2.blocks.16.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.16.blocks.0.lines.2.ja	確かにそうですね。
+l4.sections.2.blocks.16.blocks.0.lines.2.ja	❷**実は、**{{就職する}}**べきか、**{{大学院に行く}}**べきか、{迷|まよ}っているんです。{以前|いぜん}は、**{{{進学|しんがく}しようと思っていた}}**んですが、最近、**{{就職}}**もいいなと思うようになってきて**……。
 l4.sections.2.blocks.16.blocks.0.lines.3.sp	先輩
-l4.sections.2.blocks.16.blocks.0.lines.3.ja	{{でも、大切なのは、〇〇さんがやりたいことが何かっていうことだよ}}。
+l4.sections.2.blocks.16.blocks.0.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
 l4.sections.2.blocks.16.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.16.blocks.0.lines.4.ja	❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**
-l4.sections.2.blocks.17.items.0.text.ja	サマープログラムに参加するかインターンシップをするか、先輩ならどちらにするか聞きなさい。
+l4.sections.2.blocks.16.blocks.0.lines.4.ja	❸ええと、{{進学する}}**なら、**{{{中村|なかむら}先生の研究室に入りたい}}**と思っていたんですが、**{{アルバイトしている会社の仕事}}**にも興味が出てきたんです。もうそろそろ決めないといけないんですが、どちらのほうがいいか迷ってしまって**……。
+l4.sections.2.blocks.16.blocks.0.lines.5.sp	先輩
+l4.sections.2.blocks.16.blocks.0.lines.5.ja	うーん、難しい問題だよね。
+l4.sections.2.blocks.17.items.0.text.ja	あなたは、夏休みにサマープログラムに参加するかインターンシップをするか、迷っています。先輩にアドバイスを求めなさい。
 l4.sections.2.blocks.17.items.1.text.ja	「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。
-l4.sections.2.blocks.18.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l4.sections.2.blocks.19.title.ja	カジュアルな会話にチャレンジ！
-l4.sections.2.blocks.19.blocks.0.text.ja	ロールプレイをやってみよう
-l4.sections.2.blocks.19.blocks.1.cards.0.who	あなた
-l4.sections.2.blocks.19.blocks.1.cards.0.text.ja	今後のことについて
+l4.sections.2.blocks.18.title.ja	パートB
+l4.sections.2.blocks.18.blocks.0.text.ja	❹自分の{立場|たちば}ならどうするか{意見|いけん}を求める ➔ ❺お礼を言い、会話を終える
+l4.sections.2.blocks.19.blocks.0.lines.0.sp	あなた
+l4.sections.2.blocks.19.blocks.0.lines.0.ja	❹**{先輩|せんぱい}が私の{立場|たちば}だったら、どうされますか。**
+l4.sections.2.blocks.19.blocks.0.lines.1.sp	先輩
+l4.sections.2.blocks.19.blocks.0.lines.1.ja	そうだなあ。{{僕なら{進学|しんがく}を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし}}。
+l4.sections.2.blocks.19.blocks.0.lines.2.sp	あなた
+l4.sections.2.blocks.19.blocks.0.lines.2.ja	確かにそうですね。
+l4.sections.2.blocks.19.blocks.0.lines.3.sp	先輩
+l4.sections.2.blocks.19.blocks.0.lines.3.ja	{{でも、大切なのは、〇〇さんがやりたいことが何かっていうことだよ}}。
+l4.sections.2.blocks.19.blocks.0.lines.4.sp	あなた
+l4.sections.2.blocks.19.blocks.0.lines.4.ja	❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**
+l4.sections.2.blocks.20.items.0.text.ja	サマープログラムに参加するかインターンシップをするか、先輩ならどちらにするか聞きなさい。
+l4.sections.2.blocks.20.items.1.text.ja	「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。
+l4.sections.2.blocks.21.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.22.title.ja	カジュアルな会話にチャレンジ！
+l4.sections.2.blocks.22.blocks.0.text.ja	ロールプレイをやってみよう
+l4.sections.2.blocks.22.blocks.1.cards.0.who	あなた
+l4.sections.2.blocks.22.blocks.1.cards.0.text.ja	今後のことについて
 {迷|まよ}っていることがあります。
 友達にアドバイスを求めなさい。
-l4.sections.2.blocks.19.blocks.1.cards.1.who	Aの友達
-l4.sections.2.blocks.19.blocks.1.cards.1.text.ja	友達に相談されるので、
+l4.sections.2.blocks.22.blocks.1.cards.1.who	Aの友達
+l4.sections.2.blocks.22.blocks.1.cards.1.text.ja	友達に相談されるので、
 アドバイスをしなさい。
-l4.sections.2.blocks.19.blocks.2.text.ja	練習しよう
-l4.sections.2.blocks.19.blocks.3.text.ja	パートA
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.0.ja	❶ねえ、**ちょっと相談に乗ってもらえない？ {悩|なや}んでいることがあって。**
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.1.sp	友達
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.1.ja	どうしたの？
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.2.ja	❷**実は、〜べきか、〜べきか、{迷|まよ}ってるんだ。{以前|いぜん}は、〜んだけど、最近、〜もいいなと思うようになってきて**……。
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.3.sp	友達
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.4.ja	❸**〜なら〜と思っていたんだけど、〜にも興味が出てきたんだ。もうそろそろ決めないといけないんだけど、どっちのほうがいいか迷っちゃって**……。
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.5.sp	友達
-l4.sections.2.blocks.19.blocks.4.blocks.0.lines.5.ja	難しい問題だよね。
-l4.sections.2.blocks.19.blocks.5.items.0.ja	あなたは、来学期、寮に住むかホームステイをするか迷っています。友達にアドバイスを求めなさい。
-l4.sections.2.blocks.19.blocks.6.text.ja	パートB
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.0.ja	❹**〇〇さんが私の{立場|たちば}だったら、どうする？**
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.1.sp	友達
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.1.ja	＿＿［答える］＿＿。
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.2.ja	確かにそうだね。
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.3.sp	友達
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.3.ja	＿＿［もっとアドバイスする］＿＿。
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.19.blocks.7.blocks.0.lines.4.ja	❺そのとおりだね。**{参考|さんこう}になったよ** (be provided with useful information)。**もう少し考えてみる。ありがとう。**
-l4.sections.2.blocks.19.blocks.8.items.0.ja	来学期、寮に住むかホームステイをするか、友達ならどうするか聞きなさい。
-l4.sections.2.blocks.19.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l4.sections.2.blocks.20.text.ja	私のおすすめ
-l4.sections.2.blocks.21.text.ja	やってみよう
-l4.sections.2.blocks.22.items.0.text.ja	友達があなたの出身の国／町に旅行に行きます。おすすめの場所や店、食べ物やアクティビティなどについてメモしなさい。
-l4.sections.2.blocks.22.items.0.blocks.0.items.0.text.ja	おすすめの有名な／人気がある場所・物・こと
-l4.sections.2.blocks.22.items.0.blocks.0.items.0.blocks.0.items.0.ja	{浅草|あさくさ}
-l4.sections.2.blocks.22.items.0.blocks.0.items.1.text.ja	①についてあなたが個人的に (personally) おすすめしたいこと
-l4.sections.2.blocks.22.items.0.blocks.0.items.1.blocks.0.items.0.ja	{浅草|せんそう}{寺|じ}には夜行くのがおすすめ。{五重|ごじゅう}の{塔|とう}がライトアップされる。
-l4.sections.2.blocks.22.items.1.text.ja	1）で考えたことを使って、ロールプレイをしなさい。
-l4.sections.2.blocks.22.items.1.blocks.0.cards.0.who	あなた
-l4.sections.2.blocks.22.items.1.blocks.0.cards.0.text.ja	友達があなたの出身の町に
+l4.sections.2.blocks.22.blocks.2.text.ja	練習しよう
+l4.sections.2.blocks.22.blocks.3.text.ja	パートA
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.0.sp	あなた
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.0.ja	❶ねえ、**ちょっと相談に乗ってもらえない？ {悩|なや}んでいることがあって。**
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.1.sp	友達
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.1.ja	どうしたの？
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.2.sp	あなた
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.2.ja	❷**実は、〜べきか、〜べきか、{迷|まよ}ってるんだ。{以前|いぜん}は、〜んだけど、最近、〜もいいなと思うようになってきて**……。
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.3.sp	友達
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.3.ja	もう少し{詳|くわ}しく話してくれない？
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.4.sp	あなた
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.4.ja	❸**〜なら〜と思っていたんだけど、〜にも興味が出てきたんだ。もうそろそろ決めないといけないんだけど、どっちのほうがいいか迷っちゃって**……。
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.5.sp	友達
+l4.sections.2.blocks.22.blocks.4.blocks.0.lines.5.ja	難しい問題だよね。
+l4.sections.2.blocks.22.blocks.5.items.0.ja	あなたは、来学期、寮に住むかホームステイをするか迷っています。友達にアドバイスを求めなさい。
+l4.sections.2.blocks.22.blocks.6.text.ja	パートB
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.0.sp	あなた
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.0.ja	❹**〇〇さんが私の{立場|たちば}だったら、どうする？**
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.1.sp	友達
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.1.ja	＿＿［答える］＿＿。
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.2.sp	あなた
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.2.ja	確かにそうだね。
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.3.sp	友達
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.3.ja	＿＿［もっとアドバイスする］＿＿。
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.4.sp	あなた
+l4.sections.2.blocks.22.blocks.7.blocks.0.lines.4.ja	❺そのとおりだね。**{参考|さんこう}になったよ** (be provided with useful information)。**もう少し考えてみる。ありがとう。**
+l4.sections.2.blocks.22.blocks.8.items.0.ja	来学期、寮に住むかホームステイをするか、友達ならどうするか聞きなさい。
+l4.sections.2.blocks.22.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.23.text.ja	私のおすすめ
+l4.sections.2.blocks.24.text.ja	やってみよう
+l4.sections.2.blocks.25.items.0.text.ja	友達があなたの出身の国／町に旅行に行きます。おすすめの場所や店、食べ物やアクティビティなどについてメモしなさい。
+l4.sections.2.blocks.25.items.0.blocks.0.items.0.text.ja	おすすめの有名な／人気がある場所・物・こと
+l4.sections.2.blocks.25.items.0.blocks.0.items.0.blocks.0.items.0.ja	{浅草|あさくさ}
+l4.sections.2.blocks.25.items.0.blocks.0.items.1.text.ja	①についてあなたが個人的に (personally) おすすめしたいこと
+l4.sections.2.blocks.25.items.0.blocks.0.items.1.blocks.0.items.0.ja	{浅草|せんそう}{寺|じ}には夜行くのがおすすめ。{五重|ごじゅう}の{塔|とう}がライトアップされる。
+l4.sections.2.blocks.25.items.1.text.ja	1）で考えたことを使って、ロールプレイをしなさい。
+l4.sections.2.blocks.25.items.1.blocks.0.cards.0.who	あなた
+l4.sections.2.blocks.25.items.1.blocks.0.cards.0.text.ja	友達があなたの出身の町に
 行きます。
 おすすめを教えなさい。
-l4.sections.2.blocks.22.items.1.blocks.0.cards.1.who	Aの友達
-l4.sections.2.blocks.22.items.1.blocks.0.cards.1.text.ja	Aさんの出身の町に
+l4.sections.2.blocks.25.items.1.blocks.0.cards.1.who	Aの友達
+l4.sections.2.blocks.25.items.1.blocks.0.cards.1.text.ja	Aさんの出身の町に
 行こうと思っています。
 おすすめを聞きなさい。
-l4.sections.2.blocks.23.text.ja	聞いてみよう
-l4.sections.2.blocks.24.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
-l4.sections.2.blocks.24.items.0.blocks.0.items.0.text.ja	サラはメイリンにどんなことを教えてほしいと言いましたか。
-l4.sections.2.blocks.24.items.0.blocks.0.items.1.text.ja	メイリンのおすすめは何ですか。
-l4.sections.2.blocks.25.items.0.text.ja	メイリンはサラにおすすめを教える時、何と言っていましたか。
-l4.sections.2.blocks.25.items.0.blocks.0.items.0.label.ja	① おすすめを{提案|ていあん}する時
-l4.sections.2.blocks.25.items.0.blocks.0.items.0.text.ja	それなら、着物を＿＿？
-l4.sections.2.blocks.25.items.0.blocks.0.items.0.answer.0	レンタルするのはどうかな
-l4.sections.2.blocks.25.items.0.blocks.0.items.1.label.ja	② おすすめについて説明する時
-l4.sections.2.blocks.25.items.0.blocks.0.items.1.text.ja	写真も{撮|と}って＿＿から、
+l4.sections.2.blocks.26.text.ja	聞いてみよう
+l4.sections.2.blocks.27.items.0.text.ja	モデル会話を聞いて、下の質問に答えなさい。
+l4.sections.2.blocks.27.items.0.blocks.0.items.0.text.ja	サラはメイリンにどんなことを教えてほしいと言いましたか。
+l4.sections.2.blocks.27.items.0.blocks.0.items.1.text.ja	メイリンのおすすめは何ですか。
+l4.sections.2.blocks.28.items.0.text.ja	メイリンはサラにおすすめを教える時、何と言っていましたか。
+l4.sections.2.blocks.28.items.0.blocks.0.items.0.label.ja	① おすすめを{提案|ていあん}する時
+l4.sections.2.blocks.28.items.0.blocks.0.items.0.text.ja	それなら、着物を＿＿？
+l4.sections.2.blocks.28.items.0.blocks.0.items.0.answer.0	レンタルするのはどうかな
+l4.sections.2.blocks.28.items.0.blocks.0.items.1.label.ja	② おすすめについて説明する時
+l4.sections.2.blocks.28.items.0.blocks.0.items.1.text.ja	写真も{撮|と}って＿＿から、
 SNSが好きな人に＿＿だよ。
-l4.sections.2.blocks.25.items.0.blocks.0.items.1.answer.0	もらえる
-l4.sections.2.blocks.25.items.0.blocks.0.items.1.answer.1	ぴったり
-l4.sections.2.blocks.25.items.0.blocks.0.items.2.label.ja	③ もっとすすめる時
-l4.sections.2.blocks.25.items.0.blocks.0.items.2.text.ja	ちょっと高いけど、やる＿＿と思うよ。
-l4.sections.2.blocks.25.items.0.blocks.0.items.2.answer.0	価値ある
-l4.sections.2.blocks.25.items.0.blocks.0.items.3.label.ja	④ 具体的にすすめる時
-l4.sections.2.blocks.25.items.0.blocks.0.items.3.text.ja	もしやるんだったら、＿＿には、
+l4.sections.2.blocks.28.items.0.blocks.0.items.1.answer.0	もらえる
+l4.sections.2.blocks.28.items.0.blocks.0.items.1.answer.1	ぴったり
+l4.sections.2.blocks.28.items.0.blocks.0.items.2.label.ja	③ もっとすすめる時
+l4.sections.2.blocks.28.items.0.blocks.0.items.2.text.ja	ちょっと高いけど、やる＿＿と思うよ。
+l4.sections.2.blocks.28.items.0.blocks.0.items.2.answer.0	価値ある
+l4.sections.2.blocks.28.items.0.blocks.0.items.3.label.ja	④ 具体的にすすめる時
+l4.sections.2.blocks.28.items.0.blocks.0.items.3.text.ja	もしやるんだったら、＿＿には、
 神社で写真を撮るプランが＿＿だよ。
-l4.sections.2.blocks.25.items.0.blocks.0.items.3.answer.0	個人的
-l4.sections.2.blocks.25.items.0.blocks.0.items.3.answer.1	おすすめ
-l4.sections.2.blocks.26.text.ja	モデル会話
-l4.sections.2.blocks.27.title.ja	初めての{京都|きょうと}
-l4.sections.2.blocks.27.setting.ja	昼休みにサラ（サ:）がメイリン（メ:）に話しかける。
-l4.sections.2.blocks.27.lines.0.sp	サ
-l4.sections.2.blocks.27.lines.0.ja	メイリン、今ちょっといい？　聞きたいことがあるんだけど……。
-l4.sections.2.blocks.27.lines.1.sp	メ
-l4.sections.2.blocks.27.lines.1.ja	何？
-l4.sections.2.blocks.27.lines.2.sp	サ
-l4.sections.2.blocks.27.lines.2.ja	メイリンは何度も{京都|きょうと}に行ったことがあるよね？
-l4.sections.2.blocks.27.lines.3.sp	メ
-l4.sections.2.blocks.27.lines.3.ja	うん。
-l4.sections.2.blocks.27.lines.4.sp	サ
-l4.sections.2.blocks.27.lines.4.ja	実は、今度の休みに京都に行こうと思ってて。せっかく行くから、そこでしかできないことがしてみたいんだけど、何かおすすめを教えてくれない？
-l4.sections.2.blocks.27.lines.5.sp	メ
-l4.sections.2.blocks.27.lines.5.ja	❶うーん、そうだなあ。サラ、着物**に興味ある？**
-l4.sections.2.blocks.27.lines.6.sp	サ
-l4.sections.2.blocks.27.lines.6.ja	うん。
-l4.sections.2.blocks.27.lines.7.sp	メ
-l4.sections.2.blocks.27.lines.7.ja	❷**それなら**、着物をレンタルするの**はどうかな？**
-l4.sections.2.blocks.27.lines.8.sp	サ
-l4.sections.2.blocks.27.lines.8.ja	えっ、着物のレンタルができるの？
-l4.sections.2.blocks.27.lines.9.sp	メ
-l4.sections.2.blocks.27.lines.9.ja	うん。❸自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるんだ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}ってもらえる**から**、SNSが好きな人**にぴったりだよ。**
-l4.sections.2.blocks.27.lines.10.sp	サ
-l4.sections.2.blocks.27.lines.10.ja	へえ、よさそうだね。
-l4.sections.2.blocks.27.lines.11.sp	メ
-l4.sections.2.blocks.27.lines.11.ja	❹ちょっと高いけど、やる**価値あると思うよ。**
-l4.sections.2.blocks.27.lines.12.sp	サ
-l4.sections.2.blocks.27.lines.12.ja	本当？　じゃあ、調べてみる。
-l4.sections.2.blocks.27.lines.13.sp	メ
-l4.sections.2.blocks.27.lines.13.ja	❺**もしやるんだったら、個人的には、**神社で写真を撮るプラン**がおすすめだよ。**
-l4.sections.2.blocks.27.lines.14.sp	サ
-l4.sections.2.blocks.27.lines.14.ja	わかった。いろいろ教えてくれてありがとう。
-l4.sections.2.blocks.27.lines.15.sp	メ
-l4.sections.2.blocks.27.lines.15.ja	❻**また、何かあったら、いつでも聞いて。**
-l4.sections.2.blocks.28.items.0.ja	{帯|おび}
-l4.sections.2.blocks.28.items.0.en	belt
-l4.sections.2.blocks.28.items.1.ja	{着|き}{付|つ}け
-l4.sections.2.blocks.28.items.1.en	dressing
-l4.sections.2.blocks.28.items.2.ja	{SNS|エスエヌエス}
-l4.sections.2.blocks.28.items.2.en	social networking service; social media
-l4.sections.2.blocks.28.items.3.ja	（Xは［人］）にぴったり
-l4.sections.2.blocks.28.items.3.en	X is perfect for someone
-l4.sections.2.blocks.28.items.4.ja	やる{価値|かち}（が）ある
-l4.sections.2.blocks.28.items.4.en	it is worth doing
-l4.sections.2.blocks.28.items.5.ja	{個人的|こじんてき}には
-l4.sections.2.blocks.28.items.5.en	personally
-l4.sections.2.blocks.29.text.ja	フローチャート
-l4.sections.2.blocks.30.head.0.ja	あなた：おすすめを教える
-l4.sections.2.blocks.30.head.1.ja	友達：おすすめを聞く
-l4.sections.2.blocks.30.steps.0.phase.ja	パートA
-l4.sections.2.blocks.30.steps.0.text.ja	今ちょっといい？
+l4.sections.2.blocks.28.items.0.blocks.0.items.3.answer.0	個人的
+l4.sections.2.blocks.28.items.0.blocks.0.items.3.answer.1	おすすめ
+l4.sections.2.blocks.30.text.ja	モデル会話
+l4.sections.2.blocks.31.title.ja	初めての{京都|きょうと}
+l4.sections.2.blocks.31.setting.ja	昼休みにサラ（サ:）がメイリン（メ:）に話しかける。
+l4.sections.2.blocks.31.lines.0.sp	サ
+l4.sections.2.blocks.31.lines.0.ja	メイリン、今ちょっといい？　聞きたいことがあるんだけど……。
+l4.sections.2.blocks.31.lines.1.sp	メ
+l4.sections.2.blocks.31.lines.1.ja	何？
+l4.sections.2.blocks.31.lines.2.sp	サ
+l4.sections.2.blocks.31.lines.2.ja	メイリンは何度も{京都|きょうと}に行ったことがあるよね？
+l4.sections.2.blocks.31.lines.3.sp	メ
+l4.sections.2.blocks.31.lines.3.ja	うん。
+l4.sections.2.blocks.31.lines.4.sp	サ
+l4.sections.2.blocks.31.lines.4.ja	実は、今度の休みに京都に行こうと思ってて。せっかく行くから、そこでしかできないことがしてみたいんだけど、何かおすすめを教えてくれない？
+l4.sections.2.blocks.31.lines.5.sp	メ
+l4.sections.2.blocks.31.lines.5.ja	❶うーん、そうだなあ。サラ、着物**に興味ある？**
+l4.sections.2.blocks.31.lines.6.sp	サ
+l4.sections.2.blocks.31.lines.6.ja	うん。
+l4.sections.2.blocks.31.lines.7.sp	メ
+l4.sections.2.blocks.31.lines.7.ja	❷**それなら**、着物をレンタルするの**はどうかな？**
+l4.sections.2.blocks.31.lines.8.sp	サ
+l4.sections.2.blocks.31.lines.8.ja	えっ、着物のレンタルができるの？
+l4.sections.2.blocks.31.lines.9.sp	メ
+l4.sections.2.blocks.31.lines.9.ja	うん。❸自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるんだ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}ってもらえる**から**、SNSが好きな人**にぴったりだよ。**
+l4.sections.2.blocks.31.lines.10.sp	サ
+l4.sections.2.blocks.31.lines.10.ja	へえ、よさそうだね。
+l4.sections.2.blocks.31.lines.11.sp	メ
+l4.sections.2.blocks.31.lines.11.ja	❹ちょっと高いけど、やる**価値あると思うよ。**
+l4.sections.2.blocks.31.lines.12.sp	サ
+l4.sections.2.blocks.31.lines.12.ja	本当？　じゃあ、調べてみる。
+l4.sections.2.blocks.31.lines.13.sp	メ
+l4.sections.2.blocks.31.lines.13.ja	❺**もしやるんだったら、個人的には、**神社で写真を撮るプラン**がおすすめだよ。**
+l4.sections.2.blocks.31.lines.14.sp	サ
+l4.sections.2.blocks.31.lines.14.ja	わかった。いろいろ教えてくれてありがとう。
+l4.sections.2.blocks.31.lines.15.sp	メ
+l4.sections.2.blocks.31.lines.15.ja	❻**また、何かあったら、いつでも聞いて。**
+l4.sections.2.blocks.33.items.0.ja	{帯|おび}
+l4.sections.2.blocks.33.items.0.en	belt
+l4.sections.2.blocks.33.items.1.ja	{着|き}{付|つ}け
+l4.sections.2.blocks.33.items.1.en	dressing
+l4.sections.2.blocks.33.items.2.ja	{SNS|エスエヌエス}
+l4.sections.2.blocks.33.items.2.en	social networking service; social media
+l4.sections.2.blocks.33.items.3.ja	（Xは［人］）にぴったり
+l4.sections.2.blocks.33.items.3.en	X is perfect for someone
+l4.sections.2.blocks.33.items.4.ja	やる{価値|かち}（が）ある
+l4.sections.2.blocks.33.items.4.en	it is worth doing
+l4.sections.2.blocks.33.items.5.ja	{個人的|こじんてき}には
+l4.sections.2.blocks.33.items.5.en	personally
+l4.sections.2.blocks.34.text.ja	フローチャート
+l4.sections.2.blocks.35.head.0.ja	あなた：おすすめを教える
+l4.sections.2.blocks.35.head.1.ja	友達：おすすめを聞く
+l4.sections.2.blocks.35.steps.0.phase.ja	パートA
+l4.sections.2.blocks.35.steps.0.text.ja	今ちょっといい？
 聞きたいことがあるんだけど……。
-l4.sections.2.blocks.30.steps.1.text.ja	何？
-l4.sections.2.blocks.30.steps.2.text.ja	実は、今度の休みに{京都|きょうと}に行こうと思っているんだけど、何かおすすめを教えてくれない？
-l4.sections.2.blocks.30.steps.3.label.ja	質問して、相手が興味を持つものを見つける
-l4.sections.2.blocks.30.steps.3.text.ja	うーん、そうだなあ。〇〇さん、着物**に興味ある？**
-l4.sections.2.blocks.30.steps.4.text.ja	うん。
-l4.sections.2.blocks.30.steps.5.label.ja	おすすめを{提案|ていあん}する (suggest)
-l4.sections.2.blocks.30.steps.5.text.ja	**それなら**、着物をレンタルするの**はどうかな？**
-l4.sections.2.blocks.30.steps.6.label.ja	おすすめについて説明する
-l4.sections.2.blocks.30.steps.6.text.ja	自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるんだ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}ってもらえる**から**、SNSが好きな人**にぴったりだよ。**
-l4.sections.2.blocks.30.steps.7.text.ja	へえ、よさそうだね。
-l4.sections.2.blocks.30.steps.8.phase.ja	パートB
-l4.sections.2.blocks.30.steps.8.label.ja	もっとすすめる
-l4.sections.2.blocks.30.steps.8.text.ja	ちょっと高いけど、やる**価値あると思うよ。**
-l4.sections.2.blocks.30.steps.9.text.ja	本当？　じゃあ、調べてみる。
-l4.sections.2.blocks.30.steps.10.label.ja	個人的な (personal) おすすめを言う
-l4.sections.2.blocks.30.steps.10.text.ja	**もしやるんだったら、個人的には、**
+l4.sections.2.blocks.35.steps.1.text.ja	何？
+l4.sections.2.blocks.35.steps.2.text.ja	実は、今度の休みに{京都|きょうと}に行こうと思っている
+んだけど、何かおすすめを教えてくれない？
+l4.sections.2.blocks.35.steps.3.label.ja	質問して、相手が興味を持つものを見つける
+l4.sections.2.blocks.35.steps.3.text.ja	うーん、そうだなあ。〇〇さん、着物**に興味ある？**
+l4.sections.2.blocks.35.steps.4.text.ja	うん。
+l4.sections.2.blocks.35.steps.5.label.ja	おすすめを{提案|ていあん}する (suggest)
+l4.sections.2.blocks.35.steps.5.text.ja	**それなら**、着物をレンタルするの**はどうかな？**
+l4.sections.2.blocks.35.steps.6.label.ja	おすすめについて説明する
+l4.sections.2.blocks.35.steps.6.text.ja	自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるん
+だ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}っても
+らえる**から**、SNSが好きな人**にぴったりだよ。**
+l4.sections.2.blocks.35.steps.7.text.ja	へえ、よさそうだね。
+l4.sections.2.blocks.35.steps.8.phase.ja	パートB
+l4.sections.2.blocks.35.steps.8.label.ja	もっとすすめる
+l4.sections.2.blocks.35.steps.8.text.ja	ちょっと高いけど、やる**価値あると思うよ。**
+l4.sections.2.blocks.35.steps.9.text.ja	本当？　じゃあ、調べてみる。
+l4.sections.2.blocks.35.steps.10.label.ja	個人的な (personal) おすすめを言う
+l4.sections.2.blocks.35.steps.10.text.ja	**もしやるんだったら、個人的には、**
 神社で写真を撮るプラン**がおすすめだよ。**
-l4.sections.2.blocks.30.steps.11.text.ja	わかった。
+l4.sections.2.blocks.35.steps.11.text.ja	わかった。
 いろいろ教えてくれてありがとう。
-l4.sections.2.blocks.30.steps.12.label.ja	会話を終える
-l4.sections.2.blocks.30.steps.12.text.ja	**また、何かあったら、いつでも聞いて。**
-l4.sections.2.blocks.31.text.ja	練習しよう
-l4.sections.2.blocks.32.items.0.ja	［　　　］のパターンを使って話してみましょう。
-l4.sections.2.blocks.33.title.ja	パートA
-l4.sections.2.blocks.33.blocks.0.text.ja	❶ 質問して、相手が興味を持つものを見つける ➔ ❷ おすすめを{提案|ていあん}する (suggest) ➔ ❸ おすすめについて説明する
-l4.sections.2.blocks.34.blocks.0.lines.0.sp	友達
-l4.sections.2.blocks.34.blocks.0.lines.0.ja	今ちょっといい？　聞きたいことがあるんだけど……。
+l4.sections.2.blocks.35.steps.12.label.ja	会話を終える
+l4.sections.2.blocks.35.steps.12.text.ja	**また、何かあったら、いつでも聞いて。**
+l4.sections.2.blocks.36.text.ja	練習しよう
+l4.sections.2.blocks.37.items.0.ja	［　　　］のパターンを使って話してみましょう。
+l4.sections.2.blocks.38.title.ja	パートA
+l4.sections.2.blocks.38.blocks.0.text.ja	❶ 質問して、相手が興味を持つものを見つける ➔ ❷ おすすめを{提案|ていあん}する (suggest) ➔ ❸ おすすめについて説明する
+l4.sections.2.blocks.39.blocks.0.lines.0.sp	友達
+l4.sections.2.blocks.39.blocks.0.lines.0.ja	今ちょっといい？　聞きたいことがあるんだけど……。
 実は、〜んだけど、何かおすすめを教えてくれない？
-l4.sections.2.blocks.34.blocks.0.lines.1.sp	あなた
-l4.sections.2.blocks.34.blocks.0.lines.1.ja	❶〇〇さん、{{着物}}**に興味ある？／〜が好き？／〜たことある？／etc.**
-l4.sections.2.blocks.34.blocks.0.lines.2.sp	友達
-l4.sections.2.blocks.34.blocks.0.lines.2.ja	［答える］。
-l4.sections.2.blocks.34.blocks.0.lines.3.sp	あなた
-l4.sections.2.blocks.34.blocks.0.lines.3.ja	❷**それなら、**{{着物をレンタルするの}}**はどうかな？**❸［説明する］。
+l4.sections.2.blocks.39.blocks.0.lines.1.sp	あなた
+l4.sections.2.blocks.39.blocks.0.lines.1.ja	❶〇〇さん、{{着物}}**に興味ある？／〜が好き？／〜たことある？／etc.**
+l4.sections.2.blocks.39.blocks.0.lines.2.sp	友達
+l4.sections.2.blocks.39.blocks.0.lines.2.ja	［答える］。
+l4.sections.2.blocks.39.blocks.0.lines.3.sp	あなた
+l4.sections.2.blocks.39.blocks.0.lines.3.ja	❷**それなら、**{{着物をレンタルするの}}**はどうかな？**❸［説明する］。
 {{写真も{撮|と}ってもらえる}}**から、**{{SNSが好きな人}}**にぴったりだよ。**
-l4.sections.2.blocks.34.blocks.0.lines.4.sp	友達
-l4.sections.2.blocks.34.blocks.0.lines.4.ja	へえ、（〜そう）だね。
-l4.sections.2.blocks.35.items.0.text.ja	友達があなたの好きな店に行きます。おすすめを教えてあげなさい。
-l4.sections.2.blocks.35.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 124) で考えたことを使って話してみよう。
-l4.sections.2.blocks.36.title.ja	パートB
-l4.sections.2.blocks.36.blocks.0.text.ja	❹ もっとすすめる ➔ ❺ 個人的な (personal) おすすめを言う ➔ ❻ 会話を終える
-l4.sections.2.blocks.37.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.37.blocks.0.lines.0.ja	❹{{ちょっと高い}}けど、{{やる／行く／etc.}}**価値あると思うよ。**
-l4.sections.2.blocks.37.blocks.0.lines.1.sp	友達
-l4.sections.2.blocks.37.blocks.0.lines.1.ja	本当？　じゃあ、調べてみる。
-l4.sections.2.blocks.37.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.37.blocks.0.lines.2.ja	❺**もし**{{やる／行く}}**んだったら、個人的には、**{{神社で写真を{撮|と}るプラン／着物で神社やお寺に行くの}}**がおすすめだよ。**
-l4.sections.2.blocks.37.blocks.0.lines.3.sp	友達
-l4.sections.2.blocks.37.blocks.0.lines.3.ja	わかった。いろいろ教えてくれてありがとう。
-l4.sections.2.blocks.37.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.37.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いて。**
-l4.sections.2.blocks.38.items.0.text.ja	友達があなたの好きな店に行きます。もう一つ個人的なおすすめを伝えなさい。
-l4.sections.2.blocks.38.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 124) で考えたことを使って話してみよう。
-l4.sections.2.blocks.39.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
-l4.sections.2.blocks.40.title.ja	フォーマルな会話にチャレンジ！
-l4.sections.2.blocks.40.blocks.0.text.ja	ロールプレイをやってみよう
-l4.sections.2.blocks.40.blocks.1.cards.0.who	あなた
-l4.sections.2.blocks.40.blocks.1.cards.0.text.ja	インターシップ先の{上司|じょうし}が
+l4.sections.2.blocks.39.blocks.0.lines.4.sp	友達
+l4.sections.2.blocks.39.blocks.0.lines.4.ja	へえ、（〜そう）だね。
+l4.sections.2.blocks.40.items.0.text.ja	友達があなたの好きな店に行きます。おすすめを教えてあげなさい。
+l4.sections.2.blocks.40.items.1.text.ja	「2-1. やってみよう」の 1）① (p. 124) で考えたことを使って話してみよう。
+l4.sections.2.blocks.41.title.ja	パートB
+l4.sections.2.blocks.41.blocks.0.text.ja	❹ もっとすすめる ➔ ❺ 個人的な (personal) おすすめを言う ➔ ❻ 会話を終える
+l4.sections.2.blocks.42.blocks.0.lines.0.sp	あなた
+l4.sections.2.blocks.42.blocks.0.lines.0.ja	❹{{ちょっと高い}}けど、{{やる／行く／etc.}}**価値あると思うよ。**
+l4.sections.2.blocks.42.blocks.0.lines.1.sp	友達
+l4.sections.2.blocks.42.blocks.0.lines.1.ja	本当？　じゃあ、調べてみる。
+l4.sections.2.blocks.42.blocks.0.lines.2.sp	あなた
+l4.sections.2.blocks.42.blocks.0.lines.2.ja	❺**もし**{{やる／行く}}**んだったら、個人的には、**{{神社で写真を{撮|と}るプラン／着物で神社やお寺に行くの}}**がおすすめだよ。**
+l4.sections.2.blocks.42.blocks.0.lines.3.sp	友達
+l4.sections.2.blocks.42.blocks.0.lines.3.ja	わかった。いろいろ教えてくれてありがとう。
+l4.sections.2.blocks.42.blocks.0.lines.4.sp	あなた
+l4.sections.2.blocks.42.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いて。**
+l4.sections.2.blocks.43.items.0.text.ja	友達があなたの好きな店に行きます。もう一つ個人的なおすすめを伝えなさい。
+l4.sections.2.blocks.43.items.1.text.ja	「2-1. やってみよう」の 1）② (p. 124) で考えたことを使って話してみよう。
+l4.sections.2.blocks.44.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.45.title.ja	フォーマルな会話にチャレンジ！
+l4.sections.2.blocks.45.blocks.0.text.ja	ロールプレイをやってみよう
+l4.sections.2.blocks.45.blocks.1.cards.0.who	あなた
+l4.sections.2.blocks.45.blocks.1.cards.0.text.ja	インターシップ先の{上司|じょうし}が
 あなたの出身の町に行きます。
 おすすめを教えなさい。
-l4.sections.2.blocks.40.blocks.1.cards.1.who	Aのインターンシップ先の{上司|じょうし}
-l4.sections.2.blocks.40.blocks.1.cards.1.text.ja	Aさんの出身の町に
+l4.sections.2.blocks.45.blocks.1.cards.1.who	Aのインターンシップ先の{上司|じょうし}
+l4.sections.2.blocks.45.blocks.1.cards.1.text.ja	Aさんの出身の町に
 行こうと思っています。
 おすすめを聞きなさい。
-l4.sections.2.blocks.40.blocks.2.text.ja	練習しよう
-l4.sections.2.blocks.40.blocks.3.text.ja	パートA
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.0.sp	{上司|じょうし}
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.0.ja	今、{大丈夫|だいじょうぶ}ですか。ちょっと聞きたいことがあるんですが……。
+l4.sections.2.blocks.45.blocks.2.text.ja	練習しよう
+l4.sections.2.blocks.45.blocks.3.text.ja	パートA
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.0.sp	{上司|じょうし}
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.0.ja	今、{大丈夫|だいじょうぶ}ですか。ちょっと聞きたいことがあるんですが……。
 実は、〜んですが、何かおすすめを教えてくれませんか。
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.1.sp	あなた
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.1.ja	❶〇〇部長、**〜にご興味ありますか／〜はお好きですか／〜たことはありますか／etc.**。
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.2.sp	上司
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.2.ja	［答える］。
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.3.sp	あなた
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.3.ja	❷**それなら、〜はいかがですか。**❸［説明する］**んです。**
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.1.sp	あなた
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.1.ja	❶〇〇部長、**〜にご興味ありますか／〜はお好きですか／〜たことはありますか／etc.**。
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.2.sp	上司
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.2.ja	［答える］。
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.3.sp	あなた
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.3.ja	❷**それなら、〜はいかがですか。**❸［説明する］**んです。**
 **〜ので、〜にぴったりですよ。**
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.4.sp	上司
-l4.sections.2.blocks.40.blocks.4.blocks.0.lines.4.ja	へえ、（〜そう）ですね。
-l4.sections.2.blocks.40.blocks.5.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。おすすめを伝えなさい。
-l4.sections.2.blocks.40.blocks.6.text.ja	パートB
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.0.sp	あなた
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.0.ja	❹〜です／ますが、**する価値があると思います。**
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.1.sp	{上司|じょうし}
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.1.ja	本当ですか。じゃあ、調べてみますね。
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.2.sp	あなた
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.2.ja	❺**もし**される**んだったら、個人的には、〜がおすすめですよ。**
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.3.sp	上司
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.3.ja	わかりました。いろいろ教えてくれてありがとう。
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.4.sp	あなた
-l4.sections.2.blocks.40.blocks.7.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いてください。**
-l4.sections.2.blocks.40.blocks.8.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。もう一つ個人的なおすすめを伝えなさい。
-l4.sections.2.blocks.40.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.4.sp	上司
+l4.sections.2.blocks.45.blocks.4.blocks.0.lines.4.ja	へえ、（〜そう）ですね。
+l4.sections.2.blocks.45.blocks.5.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。おすすめを伝えなさい。
+l4.sections.2.blocks.45.blocks.6.text.ja	パートB
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.0.sp	あなた
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.0.ja	❹〜です／ますが、**する価値があると思います。**
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.1.sp	{上司|じょうし}
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.1.ja	本当ですか。じゃあ、調べてみますね。
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.2.sp	あなた
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.2.ja	❺**もし**される**んだったら、個人的には、〜がおすすめですよ。**
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.3.sp	上司
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.3.ja	わかりました。いろいろ教えてくれてありがとう。
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.4.sp	あなた
+l4.sections.2.blocks.45.blocks.7.blocks.0.lines.4.ja	❻**また、何かあったら、いつでも聞いてください。**
+l4.sections.2.blocks.45.blocks.8.items.0.ja	インターンシップ先の上司があなたの出身の町に来ます。もう一つ個人的なおすすめを伝えなさい。
+l4.sections.2.blocks.45.blocks.9.text.ja	☛ ペアを変えて、パートAとパートBを続けてやってみましょう！
 l4.sections.3.title.ja	ドイツ人留学生から見た日本
 l4.sections.3.blocks.0.text.ja	アルバイトの{初日|しょにち}
 l4.sections.3.blocks.1.text.ja	レストランの店長が、今日からアルバイトを始める留学生のレオンに、仕事の内容について説明しています。会話を聞いて、レオンがやることに✓をつけなさい。

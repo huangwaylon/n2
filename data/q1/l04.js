@@ -323,7 +323,7 @@ TRY.registerLesson({
       "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I became able, for the first time, to see Japan and myself from the outside.",
       "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. What's more, I feel I've become more self-confident than I was before.",
       "Then what should you be careful about when you study abroad?",
-      "Park: When you study abroad, the problem has to be money, more than anything else. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I don't think the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” is right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
+      "Park: When you study abroad, the problem has to be money, more than anything else. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
       "Gomis: That may be true. But when I had just come to Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I could hardly keep up with my classes, and I was worried about my grades... Of course, it may not be good to talk only with people from your own country, but I think it's also fine to spend time with people from your own country sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
       "Honda: After I studied abroad, I realized that my graduation might be delayed... That's because international students sometimes can't take classes as freely as American students. So I thought you should definitely check in advance whether you'll be able to earn credits according to your plan at the school where you study abroad.",
       "Takahashi: The point Japanese students need to watch out for is that the time you study abroad overlaps with the time of job hunting in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from other countries: companies give priority to hiring students who are still in school. In other words, if you study abroad for a year in your third year, your job-hunting period ends up being shorter. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
@@ -713,7 +713,7 @@ TRY.registerLesson({
         ],
         [
          {
-          "ja": "4. Vてもらう"
+          "ja": "4. %%V%%てもらう"
          },
          {
           "ja": "子どもの時、私は母**に**絵本を**読んでもらった**。",
@@ -727,7 +727,7 @@ TRY.registerLesson({
         ],
         [
          {
-          "ja": "5. V（使役形 causative）\nてもらう"
+          "ja": "5. %%V（使役形 causative）%%\n%%てもらう%%"
          },
          {
           "ja": "私**は**友達にマンガを**読ませてもらった**。",
@@ -911,7 +911,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- Y must be something that continues: 〜ている, 〜ようになった, 〜ない (例1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (例4) opens a new sentence: *since then*.\n- It only looks back from the present; for a starting point in the future, say 〜てからは.\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
     },
     {
      "t": "note",
@@ -1000,7 +1001,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ような気がする** reports a feeling rather than a judgment: *I have a feeling, it seems to me*. The speaker has no clear grounds and doesn't insist, so it is less certain than 〜ようだ or 〜みたいだ, which rest on something observed.\n\n- It also softens an opinion the speaker does hold. The writing section puts it with 〜かもしれません at the weak end, below 〜でしょう and 〜と思います; Reading 1 uses it twice (lines 11, 25).\n- In speech よう often drops: 見られている気がする.\n- Forms: plain form, なAな, Nの (うそのような気がする).\n\nPitfall: 気がする (*feel that*) is not 気がつく (L2-5, *notice*): Reading 2, line 17, 楽ではないことに気がついた (*I realized it wasn't easy*)."
     },
     {
      "t": "note",
@@ -1124,7 +1126,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**せっかく** marks X as a rare chance, or something that took effort, and the sentence says what that should lead to:\n\n- **せっかくXから、Y**: make the most of it. Y is advice, a suggestion or a wish (〜よう, 〜たい, 〜ほうがいい): せっかく京都に来たんだから、着物を着てみよう.\n- **せっかくXのに、Y**: the chance is wasted, with regret: せっかく作ったのに、だれも食べなかった (*I went to the trouble of making it, and nobody ate it*).\n- **せっかくのN**: せっかくの休み (*a day off I'd been looking forward to*).\n- The set phrase **せっかくですが** turns down an offer politely: *that's kind of you, but ~*.\n\n**わざわざ** (L6-9) only notes the extra effort and can sound critical; せっかく values it. Pitfall: after から, Y can't be a plain fact: ✗せっかく日本に来たから、寮に住んでいる."
     },
     {
      "t": "note",
@@ -1446,7 +1449,8 @@ TRY.registerLesson({
        ],
        "page": 111
       }
-     ]
+     ],
+     "deepDive": "**Nさえ** picks N as the extreme case: if even N is so, everything else is too. It often carries surprise, criticism or self-deprecation: 自分の名前さえ書けない (*can't even write his own name*).\n\n- は, が, を and も give way to さえ; other particles stay before it (トイレの中でさえ, 両親にさえ). A subject that does the action takes でさえ (子どもでさえ読める).\n- **Xさえ〜ば** is a different use: X is the only condition needed, *as long as, if only*. ば goes on the predicate: 薬さえ飲めば, 寝さえすれば, 休んでさえいれば.\n\nTRY! N2 #43 teaches 〜さえ…ば; TRY! N1 #25 〜すら is a written さえ, mostly in negative sentences. Quartet II L11-4 Nまで piles N on top of what is already there (風まで強くなった). Pitfall: さえ〜ば is not *even if*; that is 〜ても."
     },
     {
      "t": "note",
@@ -1544,7 +1548,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**Vたばかり** says an action happened only a short time ago, as the speaker feels it, so 先月買ったばかり can be weeks old. It usually explains (〜たばかりだから, *it's new, so*) or complains (〜たばかりなのに, the key example).\n\n- **Vたところだ** is narrower: the action has only just ended, right now: 今帰ってきたところだ (*I've just got back*). ✗先週来たところだ; say 来たばかりだ.\n- Before a noun: 生まれたばかりの子犬 (例3).\n- Keep it apart from Vるばかり (*keep getting worse*) and Vてばかり (*do nothing but*), Quartet II L7-7.\n\nTRY! N2 #79 V-ますたて describes something still fresh from being made or done: 焼きたてのパン (*bread fresh from the oven*)."
     },
     {
      "t": "note",
@@ -1631,7 +1636,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜ないで済む／〜ずに済む** says a burden the speaker expected turned out to be unnecessary, usually with relief: 予約しておいたから、待たないで済んだ (*I'd booked, so I didn't have to wait*). It is mostly past (済んだ, 済みました), with a reason clause naming what spared you.\n\n- 〜ずに is the written, formal form; する becomes せずに (✗しずに).\n- Compare **〜なくてもいい**, which only says something isn't required: 買わなくてもいい (*you don't need to buy it*). 済む adds that it was avoided.\n- Positive **Nで済む** means *get off with just N*: 5,000円で済んだ, 軽いけがで済んだ.\n\nIts opposite is TRY! N1 #117 〜ずにはすまない, *the situation won't let you avoid ~*: 謝らずにはすまない."
     },
     {
      "t": "note",
@@ -1729,7 +1735,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**XはYほど〜ない** says X falls short of Y, the standard: オーストラリアはアメリカほど広くない (例1). It compares degree, so X may still rank high: 昨日ほど寒くありません (key example) implies it is still cold.\n\n- It needs the negative. An affirmative comparison uses より: アメリカはオーストラリアより広い. Affirmative XほどY is degree, *so ~ that* (L6-8).\n- With verbs, Y is limited to expectation or hearsay: 思った, 聞いていた, 言うほど〜ない (Reading 2, line 17: 思ったほど楽ではない, *not as easy as I thought*).\n- **Nほど〜はない** makes a superlative: 健康ほど大切なものはない (*nothing is as important as health*).\n\nKeep it apart from **XばXほど** (L2-7), *the more ~, the more ~*."
     },
     {
      "t": "note",
@@ -1824,7 +1831,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "そうなの？！　どうりで、お金持ちな**わけだ**。",
-           "tr": "Really?! No wonder the family is so rich."
+           "tr": "Really?! No wonder Kim-san is so rich."
           }
          ]
         }
@@ -1996,7 +2003,8 @@ TRY.registerLesson({
         }
        ]
       }
-     ]
+     ],
+     "deepDive": "**〜わけだ** presents a statement as following from what is known. The book teaches two uses:\n\n- ① The reason for something puzzling becomes clear: *so that's why, no wonder*. だから, それで and どうりで lead in: どうりで、ホテルで働く人はみんな礼儀正しいわけだ (Reading 2, line 14).\n- ② The speaker restates or sums up: *so you mean, in other words*, often after つまり (Reading 1, line 49; Reading 2, line 26). As a question, 〜わけ？ can sound like an accusation (例9).\n\n**〜わけではない** (L6-1) denies an inference, and **〜わけがない** (Quartet II L9-9) means *there's no way*. TRY! N2 #82 (*no wonder*) and #134 (*it naturally follows*) split わけだ the same way. Pitfall: N takes な, である or という: 特徴なわけだ, 制服というわけだ; ✗制服だわけだ."
     },
     {
      "t": "note",
@@ -2041,7 +2049,7 @@ TRY.registerLesson({
           {
            "sp": "パク",
            "ja": "うん。リーさんも来られれ**ば**いい**のに**なあ。",
-           "tr": "Yeah. It'd be great if Lee-san could come too."
+           "tr": "Yeah. I wish Lee-san could come too."
           }
          ]
         },
@@ -2158,7 +2166,8 @@ TRY.registerLesson({
        ],
        "page": 115
       }
-     ]
+     ],
+     "deepDive": "**XばYのに** imagines X, which is not the case, and regrets the Y that would follow: もっと近ければ便利なのに (*if only it were closer, it'd be so convenient*). This is the のに of *although*: the wish runs against reality.\n\n- **〜ばいいのに** is a set wish, *I wish ~*, often with なあ. Said about someone else, it can sound critical: 早く寝ればいいのに (*why don't you just go to bed*).\n- 〜たら〜のに works the same way. **〜ばよかった** looks back on one's own choice: 行けばよかった (*I should have gone*).\n- With Y in the past, it describes what could have happened: バイトがなければ、見に行けたのに.\n\nTRY! N1 #75 〜ものを is a written, reproachful のに: 急げば間に合ったものを. Pitfall: the purpose のに of L3-10 (通学するのに便利) is a different word."
     }
    ]
   },
@@ -2215,7 +2224,7 @@ TRY.registerLesson({
       "大切[[かもしれません|b]]。"
      ],
      "tr": [
-      "We asked Nguyen Van Tan of the calligraphy club, Wang Meilin of the tea ceremony club, and Kimura Jun of the baseball club to talk about the good things that came from doing club activities and the points to watch out for when choosing a club.",
+      "We asked Nguyen Van Tan of the calligraphy club, Wang Meilin of the tea ceremony club, and Jun Kimura of the baseball club to talk about the good things that came from doing club activities and the points to watch out for when choosing a club.",
       "What are the good points of club activities?",
       "Nguyen: What I think is the best point is that you can make friends. Everyone is interested in calligraphy, so I feel it's easy to get close.",
       "Wang: I think so too. There are people from all kinds of departments and years in the club, so I've gotten to know a wider range of people. Another good thing was that my understanding of Japanese culture deepened through the tea ceremony club's activities.",
@@ -2586,6 +2595,12 @@ TRY.registerLesson({
      ]
     },
     {
+     "t": "figure",
+     "page": 118,
+     "desc": "Illustration: a worried young man holding his cheeks in both hands, and a smiling man in a shirt and tie beside him, pointing a finger as he gives advice.",
+     "labels": []
+    },
+    {
      "t": "head",
      "style": "step",
      "tag": "1-2",
@@ -2671,6 +2686,12 @@ TRY.registerLesson({
        ]
       }
      ]
+    },
+    {
+     "t": "figure",
+     "page": 119,
+     "desc": "Illustration: George with his arms folded and his eyes closed, looking troubled.",
+     "labels": []
     },
     {
      "t": "head",
@@ -2770,6 +2791,12 @@ TRY.registerLesson({
        "tr": "I hope you find an answer you're happy with."
       }
      ]
+    },
+    {
+     "t": "figure",
+     "page": 120,
+     "desc": "Illustration beside the conversation: George scratching his head with a puzzled look, and Nguyen smiling beside him, hands on his hips.",
+     "labels": []
     },
     {
      "t": "words",
@@ -3512,7 +3539,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "写真も{撮|と}って＿＿から、\nSNSが好きな人に＿＿だよ。",
-            "tr": "They'll ＿＿ take photos of you too, so it's ＿＿ for people who love social media."
+            "tr": "You can ＿＿ them to take photos of you too, so it's ＿＿ for people who love social media."
            },
            "answer": [
             "もらえる",
@@ -3539,7 +3566,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "もしやるんだったら、＿＿には、\n神社で写真を撮るプランが＿＿だよ。",
-            "tr": "If you do it, ＿＿ (personally), I ＿＿ (recommend) the plan where you take photos at a shrine."
+            "tr": "If you do it, ＿＿, the plan where you take photos at a shrine is my ＿＿."
            },
            "answer": [
             "個人的",
@@ -3551,6 +3578,12 @@ TRY.registerLesson({
        ]
       }
      ]
+    },
+    {
+     "t": "figure",
+     "page": 125,
+     "desc": "Photo: three young women in colorful kimono and obi standing on a street in Kyoto, with a five-story pagoda behind them.",
+     "labels": []
     },
     {
      "t": "head",
@@ -3676,6 +3709,12 @@ TRY.registerLesson({
      ]
     },
     {
+     "t": "figure",
+     "page": 126,
+     "desc": "Illustration beside the conversation: Meilin, in glasses, raising a finger as she makes a suggestion, and Sarah clasping her hands, with a thought bubble showing a rack of kimono.",
+     "labels": []
+    },
+    {
      "t": "words",
      "items": [
       {
@@ -3749,7 +3788,7 @@ TRY.registerLesson({
       {
        "side": "b",
        "text": {
-        "ja": "実は、今度の休みに{京都|きょうと}に行こうと思っているんだけど、何かおすすめを教えてくれない？",
+        "ja": "実は、今度の休みに{京都|きょうと}に行こうと思っている\nんだけど、何かおすすめを教えてくれない？",
         "tr": "Actually, I'm thinking of going to Kyoto over the next break. Could you give me some recommendations?"
        }
       },
@@ -3792,7 +3831,7 @@ TRY.registerLesson({
         "tr": "Explain the recommendation"
        },
        "text": {
-        "ja": "自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるんだ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}ってもらえる**から**、SNSが好きな人**にぴったりだよ。**",
+        "ja": "自分の好きな着物や{帯|おび}を選んで{着|き}{付|つ}けをしてもらえるん\nだ。その後、着物を着て{観光|かんこう}できるし、写真も{撮|と}っても\nらえる**から**、SNSが好きな人**にぴったりだよ。**",
         "tr": "You pick the kimono and obi you like, and they dress you in it. After that, you can go sightseeing in the kimono, and they'll take photos of you too, so it's perfect for people who love social media."
        }
       },
@@ -3892,7 +3931,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ 質問して、相手が興味を持つものを見つける ➔ ❷ おすすめを{提案|ていあん}する (suggest) ➔ ❸ おすすめについて説明する",
-        "tr": "1 Ask questions and find out what the other person is interested in → 2 Suggest something → 3 Explain the recommendation"
+        "tr": "❶ Ask questions and find out what the other person is interested in ➔ ❷ Suggest something ➔ ❸ Explain the recommendation"
        }
       }
      ]
@@ -3969,7 +4008,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❹ もっとすすめる ➔ ❺ 個人的な (personal) おすすめを言う ➔ ❻ 会話を終える",
-        "tr": "4 Recommend it more strongly → 5 Give a personal recommendation → 6 End the conversation"
+        "tr": "❹ Recommend it more strongly ➔ ❺ Give a personal recommendation ➔ ❻ End the conversation"
        }
       }
      ]
