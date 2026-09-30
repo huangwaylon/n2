@@ -260,8 +260,9 @@ div.bk-card .bk-go--new { color: var(--ink-2); }
 .lvl { font-size: 12px; font-weight: 700; border-radius: 4px; padding: 0 6px; color: #fff; background: var(--ink-3); white-space: nowrap; }
 .lvl-N2 { background: var(--pill); color: var(--pill-ink); } .lvl-N3 { background: var(--band-edge); } .lvl-N4 { background: var(--ink-3); }
 .cmp-note { font-size: 0.88em; margin-top: 4px; }
-.cd-gp { display: block; color: inherit; }
-.cd-gp b { color: var(--teal); font-weight: 400; margin-right: .3em; }
+/* number in a fixed slot, wrapped lines under the text; one line pitch for lines with and without readings */
+.cd-gp { display: block; color: inherit; padding-left: 1.7em; text-indent: -1.7em; line-height: 1.9; }
+.cd-gp b { display: inline-block; width: 1.7em; text-indent: 0; color: var(--teal); font-weight: 400; }
 .cd-ch-t { display: block; }
 /* touch: table links get a 44px hit box */
 @media (pointer: coarse) {
