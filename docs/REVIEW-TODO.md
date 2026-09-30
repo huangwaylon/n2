@@ -6,8 +6,8 @@ Third independent pass over all four books. Removed when every item is done; ope
 ## Round 1 — content (Japanese vs the scan, generated English quality)
 
 - [x] N2 ch1–7, front.js, compare groups ch1–7 (compare #52 だろ as printed, pp.90/225; whys for all choice items)
-- [ ] N2 ch8–11 (first agent overflowed after pronoun fixes in ch8–10; restarted)
-- [ ] N2 ch12–14 (first agent overflowed after pronoun fixes in ch12–13; restarted)
+- [x] N2 ch8–11 (b17aba2 … bc714ce; no Japanese changes)
+- [x] N2 ch12–14 (b0b7012, 7297543, 6b0d90c; no Japanese changes; whys added)
 - [x] N1 ch1–5
 - [x] N1 ch6–8
 - [x] N1 ch9–10, front.js (970ef9f: #119 p.165 な printed without a strike)
@@ -16,10 +16,12 @@ Third independent pass over all four books. Removed when every item is done; ope
 
 ## Round 2 — cross-cutting
 
-- [ ] Cross-book links (data/links.js) and deep-dive contrasts: related points across chapters and books
-- [ ] Compare pages, guide, home, about (UI English)
-- [ ] Layout at 320 / 390 / 820 (iPad) / 1280, light and dark, with and without EN, furigana probe
-- [ ] Performance (tools/perf.mjs at 4× CPU, slow network) and code/docs organisation
+- [x] Cross-book links (data/links.js): 28 links added (98 groups, 270 links); deep-dive references checked
+- [ ] Compare pages, guide, home, about (UI English): guide form table glossed; compare pages reviewed with each chapter range
+- [ ] Layout at 320 / 390 / 820 (iPad) / 1280, light and dark, with and without EN, furigana probe: note numbers
+  checked on every Quartet read/write/speak route at 320/390/820 (no overlaps); sweep running
+- [x] Performance (tools/perf.mjs at 4× CPU, slow network)
+- [ ] Docs: concise, current, no history (CLAUDE.md, README, LAYOUT, schemas, transcription docs)
 
 ## Findings
 
