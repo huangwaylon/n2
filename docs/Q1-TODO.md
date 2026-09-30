@@ -64,9 +64,11 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
 - [x] Second English pass per lesson (translations of readings, dialogues, scripts, exercises vs answers)
 - [x] Layout QA (a017183, 1bfa725, 33b4cf3): all q1 routes × widths ± EN ± furi clean; パートA/B badges, dark-theme
       text on accent fills, underline numbers after wraps (fixes the Q2 L7 遠慮 item), e-mail window, docs/LAYOUT.md C32
-- [ ] Open items from the QA (agent running): gray/centred cells (pp.049, 118, 097, 107, 196, 202), っけ brace p.085,
-      box styles pp.096/035, flowchart heading consistency, 中国人 reading, spaces before punctuation in book English,
-      index entries without meaning, p.116 flush, bullets beside the formula box (per-note flag)
+- [x] Open items from the QA (5bea678 … a88075f): table align/headAlign/stripe and grey labels (pp.049, 097, 107, 118,
+      196, 202), inline ｛…｝ brace p.085, 役に立つ表現 = attention (pp.096, 165), accent box p.035, one フローチャート
+      heading style (both books), multi-label flow step p.027, small title readings (中国人), 53 book-English spaces,
+      index glosses from sub-patterns, p.116 flush / p.102 names right, double strike, one CD per モデル会話, blank+。,
+      formula wrapping at 390, conn `side` on 30 boxes
 - [ ] (was) Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi`
 - [ ] Performance: `tools/perf.mjs` on q1 routes
 - [ ] Docs final: CLAUDE.md, Q1-TRANSCRIPTION.md, README; remove this file
@@ -76,7 +78,7 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
 Done (22fecb5, 6153cbd, 00f8908): named book switcher (≥740) / codes / book menu (≤429); per-book hues; home shelf
 of the four books with progress and 続きから Continue (`n2.resume`); ホーム link; skip link, F key, switch roles, Esc,
 reduced motion; AA contrast for grey text, teal links, dark-theme buttons; landscape-phone bar; 456 overflow runs clean;
-perf no regression. Open: Quartet sidebar lesson titles, Q2 cyan fill contrast (sent to the Quartet agent); iOS Safari
+perf no regression. Quartet sidebar lesson themes and Q2 fill contrast (--q-fill) done (ac4cee7). Open: iOS Safari
 unverified (no simulator); content-visibility deferred (risk to gp/N jumps and ruby fitting).
 
 
