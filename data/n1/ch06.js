@@ -94,7 +94,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "I am truly honored beyond measure to receive such a prestigious award." },
-            { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at his inauguration party — even now, when I think back on it, I blush with shame." },
+            { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame." },
             { ja: "{私|わたくし}のために、かくも{盛大|せいだい}な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am deeply moved that you have held such a grand gathering for me." },
             { ja: "酒を{一気|いっき}飲みしたうえ、{真冬|まふゆ}の川に飛び込むなんて、本当に{若気|わかげ}の{至|いた}り※だった。", foot: "※{若気|わかげ}の{至|いた}り：「若さのせいでおかした失敗」という意味。", en: "Downing a drink in one go and then jumping into a river in the dead of winter — that really was youthful folly.* (*若気の至り: “a mistake made because one was young”.)", idiom: true },
           ],
@@ -227,7 +227,7 @@ TRY.registerChapter({
           examples: [
             { ja: "努力の{甲斐|かい}あって、日本の{看護師|かんごし}の国家試験に受かって、うれしい限りです。", en: "My efforts paid off: I passed Japan's national nursing exam, and I couldn't be happier." },
             { ja: "たった2点足りなかったばかりに不合格だなんて、{悔|くや}しい限りだ。", en: "To fail just because I was a mere two points short — it's so frustrating!" },
-            { ja: "貴重な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent him a valuable book as a special favor, and he got it dirty. It makes me absolutely furious." },
+            { ja: "貴重な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious." },
             { ja: "何{カ|か}月も前から楽しみにしていたコンサートが台風で中止だなんて、残念な限りだ。", en: "The concert I'd been looking forward to for months has been canceled because of a typhoon — it's such a shame." },
           ],
           deepDive: "**〜限りだ** (*to the limit*) attaches to an adjective of feeling and states the speaker's own emotion at its height: うれしい限りです (*I couldn't be happier*), 心細い限りだった (*I felt utterly helpless*). It works in everyday speech and writing as well as in speeches.\n\nConnection: い-adjective + 限りだ (悔しい, 寂しい, 頼もしい, 情けない, うらやましい) and な-adjective + な + 限りだ (残念な限りだ). It takes only feeling or evaluation words (✗高い限りだ), only the speaker's own feeling (✗彼はうれしい限りだ), and no nouns (✗喜びの限りだ).\n\nCompare:\n- **〜の至り** (#66) and **〜にたえない** (#69): take nouns and are ceremonious.\n- **〜といったらない** (#83): more emotional and colloquial (悔しいといったらない).\n- **Nを限りに** (#106): *as of N, no more* (今日を限りにたばこをやめる), a different 限り.\n\nPitfall: confusing it with 〜限り *as long as* (私が知っている限り *as far as I know*) or 〜ない限り *unless*, both N2-level patterns.\n\nJLPT cue: a feeling adjective + blank + だ / です points to 限り; 至り needs N + の.",
