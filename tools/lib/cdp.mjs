@@ -22,20 +22,25 @@ for (const sig of ["SIGINT", "SIGTERM", "SIGHUP"]) process.on(sig, () => process
 export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch, dpr = 1, furigana = true } = {}) {
   mobile = mobile ?? width < 700; touch = touch ?? mobile;
   // launch Chrome on a random debugging port; retry on a fresh port if it doesn't come up (port clash, slow start)
-  let ch, prof, tabs;
+  let ch, prof, tabs, err = "";
   for (let attempt = 0; attempt < 3 && !tabs; attempt++) {
     const port = 9300 + Math.floor(Math.random() * 600);
     prof = `/tmp/n2-cdp-prof-${port}-${process.pid}`;
     ch = spawn(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", `--remote-debugging-port=${port}`,
-      `--user-data-dir=${prof}`, "about:blank"], { stdio: "ignore" });
-    live.add(ch); ch.once("exit", () => live.delete(ch));
-    for (let i = 0; i < 120; i++) {
+      `--user-data-dir=${prof}`, "about:blank"], { stdio: ["ignore", "ignore", "pipe"] });
+    live.add(ch); let exited = false;
+    ch.once("exit", (c) => { live.delete(ch); exited = true; err += `\n(exit ${c})`; });
+    ch.stderr.on("data", (d) => (err = (err + d).slice(-4000)));
+    for (let i = 0; i < 120 && !exited; i++) {
       try { const t = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); if (t.find(x => x.type === "page")) { tabs = t; break; } } catch (e) {}
       await sleep(250);
     }
     if (!tabs) { ch.kill(); rmSync(prof, { recursive: true, force: true }); }
   }
-  if (!tabs) throw new Error("headless Chrome did not start (tried 3 ports)");
+  // Chrome's own stderr (minus the headless noise) says why it did not come up
+  if (!tabs) throw new Error("headless Chrome did not start (tried 3 ports):\n" +
+    err.split("\n").filter(l => l && !/CVDisplayLink|Keychain|Encryption is not/.test(l)).slice(-12).join("\n"));
+  ch.stderr.removeAllListeners("data"); ch.stderr.resume();
   const ws = new WebSocket(tabs.find(t => t.type === "page").webSocketDebuggerUrl);
   await new Promise(r => (ws.onopen = r));
   let id = 0; const pend = {}; const logs = [];
