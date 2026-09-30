@@ -16,6 +16,9 @@ Quartet I and II). The book's own English (N2 `en` on usage, ＋Plus usage, 📎
 - Keigo: render the register (*we would be grateful if…*, *may I…*), not a word-for-word humble form.
 - Names: TRY books drop さん (田中さん → Tanaka; Mr./Ms. only for 氏 or where English needs a title). Both Quartet
   books keep their own convention (their printed English writes Yamada-san), so their `tr` does too.
+- Gender: Japanese rarely marks it. Use he / she only where the Japanese does (彼, 彼女, 夫, 母, a character the text
+  genders); for 社長, 上司, 先輩, 店員, 〜さん and the like reword, repeat the noun or use singular *they*. Add no
+  attitude either: あいつ is *that guy*, not *that jerk*.
 
 ## deepDive (TRY books) and note deep-dives (Quartet)
 

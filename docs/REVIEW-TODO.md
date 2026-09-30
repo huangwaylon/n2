@@ -24,12 +24,13 @@ Third independent pass over all four books. Removed when every item is done; ope
 ## Findings
 
 - Main English defect across all books: invented he/she for people the Japanese leaves unspecified (社長, 上司,
-  先輩, 〜さん …). Fixed per chapter; docs/ENGLISH.md should state the rule.
+  先輩, 〜さん …). Fixed per chapter; rule added to docs/ENGLISH.md.
 - Book prints, kept as printed: N1 p.16 樽開け/樽明け, p.60 言わる; Q1 p.129 インターシップ; Q2 p.056 見つりました,
   p.093 使っちゃたし.
 - Open: Q2 p.168 (PDF 195) profile after L12 読み物2 has a printed "100" beside it — `numbers: false` now; L9/L11
   profiles continue the numbering. Decide from the scan.
-- Open: deep-dive references to numbered examples — Q1 "(example N)", Q2 "(②)". Pick one.
+- Closed: deep-dive references to numbered examples follow each book's printed marker (Q1 boxed numbers → "(example
+  N)", Q2 ①② → "(②)").
 - Link suggestions (round 2): q2 10-10 たところ ↔ N1 たところで; q2 12-4 分（だけ） ↔ N1 だけに / N2 だけあって;
   q2 9-7 ということは ↔ N2 というものだ; q2 7-5 むしろ ↔ q2 8-7 かえって; Q1 L6-6 まま ↔ N2 #37 きり; Q1 L4-5
   たばかり ↔ N2 #79 たて; Q1 L3-10 のに ↔ N2 #14 上で; N1 #20 しまつだ, #29 わ〜わ, #47 のをいいことに, #53 NがNだけに
