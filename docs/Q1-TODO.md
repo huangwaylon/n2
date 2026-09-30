@@ -71,16 +71,23 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
 - [ ] Performance: `tools/perf.mjs` on q1 routes
 - [ ] Docs final: CLAUDE.md, Q1-TRANSCRIPTION.md, README; remove this file
 
-## 4. Four-book site layout and UX (agent running since 2026-09-30 15:20)
+## 4. Four-book site layout and UX
 
-- [ ] Audit the whole shell for four books: book switcher, home/landing that presents N2 · N1 · Q1 · Q2, top bar,
+Done (22fecb5, 6153cbd, 00f8908): named book switcher (≥740) / codes / book menu (≤429); per-book hues; home shelf
+of the four books with progress and 続きから Continue (`n2.resume`); ホーム link; skip link, F key, switch roles, Esc,
+reduced motion; AA contrast for grey text, teal links, dark-theme buttons; landscape-phone bar; 456 overflow runs clean;
+perf no regression. Open: Quartet sidebar lesson titles, Q2 cyan fill contrast (sent to the Quartet agent); iOS Safari
+unverified (no simulator); content-visibility deferred (risk to gp/N jumps and ruby fitting).
+
+
+- [x] Audit the whole shell for four books: book switcher, home/landing that presents N2 · N1 · Q1 · Q2, top bar,
       sidebar/drawer, page links, footer, settings; consistency between TRY and Quartet views
-- [ ] Design proposal (screenshots before) → redesign where needed: navigation between books and within a book,
+- [x] Design proposal (screenshots before) → redesign where needed: navigation between books and within a book,
       typography scale, spacing, per-book accent, reading comfort, touch ergonomics, keyboard, accessibility (contrast,
       focus, landmarks, reduced motion)
-- [ ] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
+- [x] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
       light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
 - [x] Quartet underline label after a line wrap (1bfa725, placeRefNos); WebKit unchecked (no simulator)
 - [ ] Candidate: `content-visibility: auto` on grammar points with ruby/option fitting deferred to first view
       (chapter render ~140 → ~75 ms at 4x CPU); verify gp/N jump positions and no furigana shift
-- [ ] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
+- [x] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
