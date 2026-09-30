@@ -57,9 +57,10 @@ assets/js/
   q2/           Quartet (Q1 and Q2): nav.js adapter and views, blocks.js block renderer, lists.js 別冊 lists, indexes, drill
 assets/css/     base.css (tokens, light + dark theme, English layer, primitives) · shell.css · content.css · exercises.css
                 · q2.css (both Quartet books; accent tokens --q per book: Q2 cyan, Q1 magenta via body[data-book="q1"])
-data/<book>/    book.js (meta) · chNN.js (one file per chapter) · compare.js · front.js · vocab/chNN.js (our word lists)
+data/<book>/    book.js (meta) · TRY: chNN.js (one file per chapter) · compare.js · front.js · vocab/chNN.js (our word lists)
+                · Quartet: lNN.js (lesson) · vocabNN.js · kanjiNN.js (別冊 lists) · challenge.js (ブラッシュアップ) · front.js
 data/links.js   the same grammar across the books (他の本 Other books under each point / Quartet note)
-data/SCHEMA.md  data format and transcription rules — read before editing data
+data/SCHEMA.md  TRY data format and transcription rules — read before editing data; Quartet: data/Q2-SCHEMA.md
 docs/LAYOUT.md  how each book component looks and is rendered, breakpoints, furigana rules, QA checklist
 docs/N1-TRANSCRIPTION.md  N1 page map and conventions
 docs/Q1-TRANSCRIPTION.md, docs/Q2-TRANSCRIPTION.md  Quartet page maps, conventions, merge tools
@@ -70,11 +71,14 @@ tools/          validators and layout probes (below); tools/lib/books.js = per-b
 ## Running
 
 ```sh
-python3 -m http.server 8765          # then http://localhost:8765/ (N2) and http://localhost:8765/n1/ (N1)
+python3 -m http.server 8765          # then http://localhost:8765/ (N2), /n1/, /q1/, /q2/
 ```
 
 Routes are hash routes: `#/` home, `#/ch/N`, `#/ch/N/review`, `#/gp/N` (grammar point), `#/compare[/i]`, `#/about`,
-`#/guide`, `#/index`, `#/cando`, `#/drill`, `#/vocab[/N]`, `#/vocab/drill`. Module scripts need an HTTP server (not `file://`).
+`#/guide`, `#/index`, `#/cando`, `#/drill`, `#/vocab[/N]`, `#/vocab/drill`. Quartet: `#/l/N` (lesson opener),
+`#/l/N/read|write|speak|listen`, `#/l/N/vocab`, `#/l/N/kanji`, `#/gn/L-N` (grammar note), `#/st/N` (strategy), `#/u/ID`
+(ブラッシュアップ unit: c1, g1, k13 …), `#/about`, `#/guide`, `#/index`, `#/kanji`, `#/drill`. Module scripts need an HTTP
+server (not `file://`).
 
 ## Validation (run after any change)
 
@@ -128,7 +132,8 @@ pill, connection formulas with bracket stacks, ①② examples, 📎 clip notes,
 - Theme: `settings.theme` (auto/light/dark); `boot.js` sets `<html data-theme>`; dark tokens in
   `:root[data-theme="dark"]` (base.css). Use tokens, never hard-coded colours that break one theme.
 - Progress per book in `localStorage` (`n2.progress`, `n2.progress.n1`, `n2.progress.q1`, `n2.progress.q2`); settings shared
-  (`n2.settings`, incl. `sidebar` — ☰ hides the sidebar at ≥901). Keep these keys stable. `n2.resume` holds each book's last place and counts for the home shelf's 続きから Continue.
+  (`n2.settings`, incl. `sidebar` — ☰ hides the sidebar at ≥901); `n2.resume` holds each book's last place and counts
+  for the home shelf's 続きから Continue. Keep these keys stable.
 - The shell (`main.js`) is shared; what differs per book is an adapter (TRY books in `main.js`, Quartet in
   `assets/js/q2/nav.js`). Every book keeps its page links in the sidebar (`body.nav-sb`).
 - Commit and push small, verified checkpoints.
