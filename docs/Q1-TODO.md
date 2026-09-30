@@ -62,11 +62,16 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
 - [x] Deep-dives on every 文型・表現ノート (nuance, register, contrasts; as Q2 L7–12)
 - [x] Cross-book links: Q1 notes into `data/links.js` (9e18217)
 - [x] Second English pass per lesson (translations of readings, dialogues, scripts, exercises vs answers)
-- [ ] Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi`
+- [x] Layout QA (a017183, 1bfa725, 33b4cf3): all q1 routes × widths ± EN ± furi clean; パートA/B badges, dark-theme
+      text on accent fills, underline numbers after wraps (fixes the Q2 L7 遠慮 item), e-mail window, docs/LAYOUT.md C32
+- [ ] Open items from the QA (agent running): gray/centred cells (pp.049, 118, 097, 107, 196, 202), っけ brace p.085,
+      box styles pp.096/035, flowchart heading consistency, 中国人 reading, spaces before punctuation in book English,
+      index entries without meaning, p.116 flush, bullets beside the formula box (per-note flag)
+- [ ] (was) Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi`
 - [ ] Performance: `tools/perf.mjs` on q1 routes
 - [ ] Docs final: CLAUDE.md, Q1-TRANSCRIPTION.md, README; remove this file
 
-## 4. Four-book site layout and UX (after sections 1–3)
+## 4. Four-book site layout and UX (agent running since 2026-09-30 15:20)
 
 - [ ] Audit the whole shell for four books: book switcher, home/landing that presents N2 · N1 · Q1 · Q2, top bar,
       sidebar/drawer, page links, footer, settings; consistency between TRY and Quartet views
@@ -75,8 +80,7 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
       focus, landmarks, reduced motion)
 - [ ] Verify at 320 / 375 / 390 / 430 phones, iPad mini / iPad portrait+landscape (744–1366), desktop 1280–1920;
       light/dark; `--en`; `--furi`; `--touch`; real iOS Safari via `wkshot.mjs`
-- [ ] Quartet lettered/numbered underline label after a line wrap sits under the 2nd line and can hit a reading
-      (Q2 L7 書く 390, 遠慮) — markup.js positioning; needs a WebKit check
+- [x] Quartet underline label after a line wrap (1bfa725, placeRefNos); WebKit unchecked (no simulator)
 - [ ] Candidate: `content-visibility: auto` on grammar points with ruby/option fitting deferred to first view
       (chapter render ~140 → ~75 ms at 4x CPU); verify gp/N jump positions and no furigana shift
 - [ ] Performance unchanged or better (`tools/perf.mjs`); render-dump diffs only intended; docs/LAYOUT.md updated
