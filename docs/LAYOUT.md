@@ -1,8 +1,8 @@
 # Layout: how the site mirrors the book
 
-The site sets two JLPT grammar books (TRY! N2 and N1) the way they are printed, on phones, tablets and desktop. This document is the design reference: what the book looks like, the tokens and type scale, each component (C1–C31) with its book source, markup and responsive behaviour, and the rules and tools that keep the layout correct.
+The site sets four textbooks the way they are printed, on phones, tablets and desktop: two JLPT grammar books (TRY! N2 and N1) and the two Quartet course books (I and II). This document is the design reference: what the books look like, the tokens and type scale, each component (C1–C30 TRY, C31 the shared shell, C32 Quartet) with its book source, markup and responsive behaviour, and the rules and tools that keep the layout correct.
 
-Page references (p.19 …) are **N2 PDF page numbers**, which are also the printed page numbers. Data fields are documented in `data/SCHEMA.md`.
+Page references (p.19 …) in C1–C31 are **N2 PDF page numbers**, which are also the printed page numbers; in C32 they are Quartet book pages. Data fields are documented in `data/SCHEMA.md` (TRY) and `data/Q2-SCHEMA.md` (Quartet).
 
 **Where things live**
 
@@ -15,13 +15,16 @@ Page references (p.19 …) are **N2 PDF page numbers**, which are also the print
 | Chapter content C1–C17 (`chapterView`, `bannerHtml`, `gpCard`, `formulaHtml`, `sampleHtml` …) | `assets/js/content.js` |
 | Exercises, Check, review C18–C29 (`renderExercise`, `optGroup`, `fitOptionCols`, `checkHtml`, `reviewHtml`, grading) | `assets/js/exercises.js` |
 | Home and pages (`homeView`, `guideView`, `aboutView`, `indexView`, `compareView`, `canDoView`, `drillView`) | `assets/js/pages.js` |
-| Shell (`shellHtml`), sidebar, router, drawer, settings, event wiring | `assets/js/main.js` |
+| Shell (`shellHtml`), shelf, sidebar, router, drawer, settings, event wiring, TRY adapter | `assets/js/main.js` |
+| 単語 vocabulary lists and drill; the flashcard deck shared with Quartet | `assets/js/vocab.js`, `assets/js/flash.js` |
+| Quartet adapter and views (routes, sidebar, home, pages) · block renderer · 別冊 lists, indexes, drill | `assets/js/q2/nav.js` · `blocks.js` · `lists.js` |
 | Tokens (light and dark), reset, type, English layer, shared primitives | `assets/css/base.css` |
 | Topbar, drawer, home, pages, tables, pager, footer | `assets/css/shell.css` |
 | C1–C17 | `assets/css/content.css` |
 | C18–C29 | `assets/css/exercises.css` |
+| C32 (both Quartet books; accent tokens per book) | `assets/css/q2.css` |
 
-Every page (`index.html` for N2, `n1/index.html` for N1, `q2/index.html`) loads `boot.js`, `data/<book>/book.js`, then `main.js`, which builds the same shell for either book. The data files (`data/<book>/chNN.js`, `compare.js`, `front.js`, `data/links.js`; Quartet: the list in its `book.js`) are requested by `boot.js` as soon as `book.js` registers the book, in parallel with the modules (`<link rel="modulepreload">` in each page lists them, so they are not fetched one import level at a time); `main.js` awaits `TRY.ready`. A vocab route opened directly also starts `vocab/chNN.js` at once. Load and route timings: `node tools/perf.mjs`.
+Every page (`index.html` for N2, `n1/index.html`, `q1/index.html`, `q2/index.html`) loads `boot.js`, `data/<book>/book.js`, then `main.js`, which builds the same shell for every book. The data files (`data/<book>/chNN.js`, `compare.js`, `front.js`, `data/links.js`; Quartet: the list in its `book.js`) are requested by `boot.js` as soon as `book.js` registers the book, in parallel with the modules (`<link rel="modulepreload">` in each page lists them, so they are not fetched one import level at a time); `main.js` awaits `TRY.ready`. A vocab route opened directly also starts `vocab/chNN.js` at once. Load and route timings: `node tools/perf.mjs`.
 
 ---
 
@@ -101,7 +104,7 @@ Data writes `{漢字|かな}`; `fmt()` → `rubyMarkup()` emits native `<ruby>ba
 
 ### 0.5 Theme: Auto / Light / Dark
 
-- ⚙ → 画面の色 Theme: `settings.theme` = `"auto" | "light" | "dark"` (stored with the other settings in `localStorage["n2.settings"]`, shared by both books).
+- ⚙ → 画面の色 Theme: `settings.theme` = `"auto" | "light" | "dark"` (stored with the other settings in `localStorage["n2.settings"]`, shared by all books).
 - `boot.js` (a classic script in `<head>`) reads the setting and sets `<html data-theme="light|dark">` **before first paint**, so the page never flashes the wrong theme. `data-theme` always holds the effective theme; `auto` follows `prefers-color-scheme` and a `change` listener keeps it in sync. `TRY.applyTheme(pref)` is called again by `applySettings()` when the reader changes the select.
 - CSS: `:root[data-theme="dark"] { color-scheme: dark; …every token… }` in base.css. Components never use `@media (prefers-color-scheme)` directly.
 - Dark check-points: the 見本文 corner curl, Plus and Check tags (they paint `--bg` over their frame line), the review band, the pill gradient (`--pill-top` → `--pill`, light pills with dark ink in dark mode).
@@ -574,7 +577,7 @@ Inline boxes in running text sit on the text and never enlarge the line box: bla
 
 ## 4. QA checklist
 
-**Widths:** 1280, 768, 390 (iPhone 14/15), 375 (iPhone SE/mini), 320. **Modes:** light and dark; EN off and on; furigana on and off; both books (N1 routes take the `n1:` prefix in the tools).
+**Widths:** 1280, 768, 390 (iPhone 14/15), 375 (iPhone SE/mini), 320. **Modes:** light and dark; EN off and on; furigana on and off; all four books (routes take the `n1:` / `q1:` / `q2:` prefix in the tools). The matrix below is the TRY set; for Quartet run every lesson section, list and unit (`render-dump.mjs q1` enumerates them).
 
 ### 4.1 Pass criteria (every route × width)
 
@@ -624,7 +627,7 @@ Inline boxes in running text sit on the text and never enlarge the line box: bla
 
 ## 5. Measurement tools
 
-All need the site served on `:8765` (`python3 -m http.server 8765`) and Node ≥22; routes are hashes without `#/` (`""`, `ch/1`, `ch/2/review`, `gp/73`), prefixed `n1:` for N1.
+All need the site served on `:8765` (`python3 -m http.server 8765`) and Node ≥22; routes are hashes without `#/` (`""`, `ch/1`, `ch/2/review`, `gp/73`), prefixed `n1:` for N1, `q1:` / `q2:` for Quartet (`q2:l/7/read`).
 
 | Tool | Use |
 |---|---|
@@ -633,10 +636,26 @@ All need the site served on `:8765` (`python3 -m http.server 8765`) and Node ≥
 | `node tools/lib/wkshot.mjs DEVICE ROUTE[,ROUTE…] [OUTDIR] [--pages=N] [--probe] [--en] [--nofuri] [--sel=CSS] [--dark]` | real iOS Safari (simulator, via safaridriver / `tools/lib/wd.mjs`) screenshots and furigana probe: Chrome emulation does not reproduce WebKit ruby and line-box behaviour |
 | `tools/simshot.sh DEVICE ROUTE [OUT]` | quick viewport screenshot in simulator Safari |
 | `tools/lib/furi-probe.mjs` | the in-page furigana probe shared by overflow.mjs and wkshot.mjs (off / hit / clip / uneven) |
-| `node tools/render-dump.mjs n1\|n2\|q2 [--html] > /tmp/x.txt` | dump the rendered text (or normalised markup) of every route; diff before and after a renderer or layout change to prove nothing was added, dropped or reordered |
+| `node tools/render-dump.mjs n1\|n2\|q1\|q2 [--html] > /tmp/x.txt` | dump the rendered text (or normalised markup) of every route; diff before and after a renderer or layout change to prove nothing was added, dropped or reordered |
 | `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [ROUTE…]` | cold-cache load of each route (requests, bytes, first paint, content, layout / script time, long tasks, DOM size, CPU in fitRubies and the other measuring passes) and chapter → chapter route changes |
-| `node tools/text-snapshot.js [n1\|n2] \| diff tools/<book>/text-baseline.txt -` | proves no book text changed in the data (layout-only fields ignored) |
-| `node tools/check.js [n1\|n2] [CHAPTER…]` | structural validation of `data/<book>/chNN.js` after data edits (layout hints included) |
-| `tools/zoom.sh [n1\|n2] PAGE [STRIP]` | 300-dpi strips of a book page, for reading the scan's layout and small furigana |
+| `node tools/text-snapshot.js [n1\|n2\|q1\|q2] \| diff tools/<book>/text-baseline.txt -` | proves no book text changed in the data (layout-only fields ignored) |
+| `node tools/check.js [n1\|n2] [CHAPTER…]` | structural validation of `data/<book>/chNN.js` after data edits (layout hints included); Quartet: `tools/q2/check.js q1\|q2` |
+| `tools/zoom.sh [n1\|n2\|q1\|q2] PAGE [STRIP]` | 300-dpi strips of a book page, for reading the scan's layout and small furigana |
 
 `tools/lib/cdp.mjs` is the shared headless-Chrome helper (`open({route, width, height, scheme, wait, mobile, touch})`); `tools/lib/books.js` is the shared Node loader for the data files.
+
+---
+
+## 6. Known limitations and open items
+
+- **iOS Safari unverified**: this machine has no iOS simulator (`xcrun simctl` missing), so `wkshot.mjs` / `simshot.sh`
+  have not run since the four-book shell and the Quartet layout QA; Chrome emulation does not reproduce WebKit ruby and
+  line boxes (0.4). Run `wkshot.mjs --probe` on the Quartet routes and a TRY chapter when a simulator is available.
+- **`content-visibility: auto` not taken**: skipping off-screen grammar points would cut a chapter render at 4× CPU from
+  ~140 to ~75 ms, but `fitRubies()` and `fitOptionCols()` measure every point after render, so they would have to be
+  deferred to each point's first view, and `#/gp/N` jumps land on estimated heights (the page moves as points above are
+  laid out). Not worth the risk to jump positions and furigana at the current timings.
+- **Wide readings in Quartet body text**: at 15px Gothic body a reading wider than its word (ちゅうごくじん over 中国人)
+  still leaves a small gap around the word; lesson and section titles set readings at .42em and have none (C32).
+- **Q2 漢字チャレンジ k20**: the job-ad labels printed white on a dark fill are rendered as plain boxed cells (`frame`).
+- **Decorative tiles** (ornamental backgrounds with no text) are not marked in the data or reproduced.
