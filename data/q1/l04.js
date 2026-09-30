@@ -259,7 +259,7 @@ TRY.registerLesson({
      "page": 102,
      "vertical": false,
      "numbers": true,
-     "speakers": true,
+     "speakers": "right",
      "titleTr": "Roundtable: Talking About Studying Abroad",
      "lines": [
       "¶現在、日本に留学しているフランス人のサラ・ゴミスさん、{韓国人|かんこくじん}のパク・",
@@ -2266,7 +2266,8 @@ TRY.registerLesson({
        "to": 26,
        "label": "❹ 質問2"
       }
-     ]
+     ],
+     "indent": false
     },
     {
      "t": "words",

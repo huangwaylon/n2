@@ -176,7 +176,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .rd-body p { margin: 0; }
 .rd-p .ja { text-indent: 1em; }
 /* (not the interviewer's ── lines or a speaker's turn, which are set flush: p.102 line 5) */
-.rd-p:not(.rd-p--q, .rd-p--sp, .rd-mail .rd-p):has(.ja > .pg:first-child + .ln + .ref, .ja > .ln:first-child) .ja { text-indent: 1em; }
+.rd-p:not(.rd-p--q, .rd-p--sp, .rd-p--flush, .rd-mail .rd-p):has(.ja > .pg:first-child + .ln + .ref, .ja > .ln:first-child) .ja { text-indent: 1em; }
 .rd-title { font: 700 1.2em/1.8 var(--goth); margin: .2em 0 .4em; }
 .rd-by { text-align: right; font: 700 .85em/1.8 var(--goth); }
 .rd-by--in { margin-left: 2em; font-size: .72em; display: inline-block; }
@@ -189,6 +189,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 /* speakers: true — a round-table text (p.102): the speaker's name hangs left of the turn's lines */
 .rd-body .rd-p--sp .ja { padding-inline-start: var(--spw); text-indent: 0; }
 .rd-sp { display: inline-block; width: var(--spw); margin-inline-start: calc(-1 * var(--spw)); text-indent: 0; white-space: nowrap; }
+.rd--sp-r .rd-sp { text-align: right; padding-inline-end: .4em; box-sizing: border-box; }   /* p.102: colons in one column */
 /* phones: the name runs into the turn's text (a hanging column would leave the text too narrow) */
 @media (max-width: 600px) { .rd-body .rd-p--sp .ja { padding-inline-start: 0; } .rd-sp { width: auto; margin-inline-start: 0; } }
 /* モデル作文 (texts with roles): the text on a grey panel, line numbers and brackets outside it; lettered underlines blue
@@ -236,7 +237,7 @@ a.ref:hover u { background: var(--q-soft); }
 .rd--v .ln-no { top: 0; left: auto; width: auto; transform: translateX(-50%); writing-mode: horizontal-tb; line-height: 1; }
 .rd--v .rd-p .ja { text-indent: 1em; }
 /* the interviewer's ── lines and profile boxes are set flush (pp.037–039, 068) */
-.rd-body .rd-p--q .ja, .rd--profile .rd-body .rd-p .ja { text-indent: 0; }
+.rd-body .rd-p--q .ja, .rd-body .rd-p--flush .ja, .rd--profile .rd-body .rd-p .ja { text-indent: 0; }
 .rd--v .rd-title { margin: 0 0 0 .6em; font-size: 1.25em; }
 .rd--v .rd-by { text-align: end; margin-left: .4em; }
 .rd--v .rd-credit { text-align: end; margin: 0 1.5em 0 0; }

@@ -321,7 +321,8 @@ function readingHtml(b, ctx) {
     else if (s[0] === "@") { kind = "by"; s = s.slice(1); }
     else if (s[0] === "=") { kind = "center"; s = s.slice(1); }
     if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); cur.c = centred; } // interviewer's ── line: set flush, no indent
-    // speakers: true — a ¶ line "ゴミス：…" starts a speaker's turn; the name hangs left of the text (p.102)
+    // speakers: true — a ¶ line "ゴミス：…" starts a speaker's turn; the name hangs left of the text, flush left (p.116);
+    // speakers: "right" — the names set flush right, their colons in one column (p.102)
     let sp = "";
     if (b.speakers && kind === "p") { const m = s.match(/^([^：]{1,8})：/); if (m) { cur.sp = true; sp = `<span class="rd-sp">${fmt(m[1])}：</span>`; s = s.slice(m[0].length); } }
     let html;
@@ -353,7 +354,8 @@ function readingHtml(b, ctx) {
     if (p.kind === "by") return `<p class="rd-by">${p.html}</p>`;
     if (p.kind === "center") return `<p class="rd-center">${p.html}</p>`;
     const tr = b.tr && b.tr[pi++];
-    return `<div class="rd-p${p.q ? " rd-p--q" : ""}${p.sp ? " rd-p--sp" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
+    // indent: false — the text's paragraphs start flush as printed (Q1 p.116 座談会 intro)
+    return `<div class="rd-p${p.q ? " rd-p--q" : ""}${p.sp ? " rd-p--sp" : ""}${b.indent === false ? " rd-p--flush" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
   });
   // roles: the bracketed paragraph labels beside a model composition (p.017: a bracket over lines from–to, the label
   // beside it); on phones the label sits above its paragraphs
@@ -380,7 +382,7 @@ function readingHtml(b, ctx) {
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
   const spw = b.speakers ? Math.max(...(b.lines || []).map((l) => (typeof l === "string" && l[0] === "¶" && (l.match(/^¶([^：]{1,8})：/) || [])[1]) || "").map((x) => plain(x).length)) + 1.4 : 0;
-  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}${spw ? " rd--sp" : ""}"${idAttr(b)}${spw ? ` style="--spw:${spw}em"` : ""} data-en-scope>
+  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}${spw ? " rd--sp" : ""}${b.speakers === "right" ? " rd--sp-r" : ""}"${idAttr(b)}${spw ? ` style="--spw:${spw}em"` : ""} data-en-scope>
     ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : b.audio ? cdBadge(say, "音声を聞く") : listenBtn(say)}</div>
     ${V ? `<div class="vt-scroll rd-scroll" tabindex="0" role="region" aria-label="本文（縦書き）">${text}</div>` : text}
     ${V ? "" : credit}

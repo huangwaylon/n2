@@ -21,7 +21,7 @@ const { bookArg, loadBook, isBookEnglish } = require("./lib/books");
 const [book] = bookArg(process.argv.slice(2));
 const TRY = loadBook(book);
 
-const SKIP = new Set(["en", "optionsEn", "questionEn", "deepDive", "why", "see", "index", "v", "kind", "mode", "labels", "vertical", "rings", "cont", "style", "align", "headAlign", "note", "intro"]);
+const SKIP = new Set(["en", "optionsEn", "questionEn", "deepDive", "why", "see", "index", "v", "kind", "mode", "labels", "vertical", "rings", "cont", "style", "align", "headAlign", "speakers", "note", "intro"]);
 const lines = [];
 function walk(o, p) {
   if (typeof o === "string") { lines.push(p + "\t" + o); return; }
