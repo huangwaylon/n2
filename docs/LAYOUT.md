@@ -315,3 +315,8 @@ Widths 1280, 768, 390, 375, 320; light and dark; EN on/off; furigana on/off; all
 - Decorative tiles (ornaments without text) are not marked or reproduced.
 - Quartet `challenge.js` and every `lNN.js` load up front: the sidebar and openers need the unit titles (lazy loading would need a unit index split out), and sidebar, progress and prev/next need every lesson.
 - TRY 単語 全部 renders all ~7 600 rows at once; chunked rendering would need a vocab.js change.
+- Five-column Quartet tables with English on (Q1 L6 聴解 garbage table) scroll sideways inside `.qtbl-wrap` at 320: English
+  words set the column minimum and cannot hyphenate, because English spans inherit `lang="ja"` (a `lang="en"` span would
+  draw the Japanese words inside English lines with Chinese glyph forms on some systems).
+- `overflow.mjs --furi --en` reports uneven line pitch wherever English lines sit between Japanese lines (Quartet
+  dialogues, notes); the Japanese lines themselves are even.
