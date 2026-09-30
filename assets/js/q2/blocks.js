@@ -341,6 +341,14 @@ function readingHtml(b, ctx) {
     for (; i < paras.length; i++) { inner += html[i]; if ((paras[i].last || paras[i].first) >= role.to || roleAt.has(paras[i + 1] && paras[i + 1].first)) break; }
     body += `<div class="rd-grp"><div class="rd-grp__t">${inner}</div><div class="rd-role"><span class="rd-role__l">${fmt(role.label)}</span>${role.sub ? `<span class="rd-role__s">${fmt(role.sub)}</span>` : ""}</div></div>`;
   }
+  // style "email" (pp.034–035): the 差出人／宛先／件名／添付 lines on the window's grey header band, the rest in its framed body
+  if (b.style === "email") {
+    const isH = (p) => p.kind === "p" && /^(差出人|宛先|件名|添付)：/.test(plain(p.html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "")));
+    const first = paras.findIndex(isH);
+    let last = first;
+    while (first >= 0 && last + 1 < paras.length && isH(paras[last + 1])) last++;
+    if (first >= 0) body = html.slice(0, first).join("") + `<div class="rd-mail"><div class="rd-mail__h">${html.slice(first, last + 1).join("")}</div><div class="rd-mail__b">${html.slice(last + 1).join("")}</div></div>`;
+  }
   if (b.audio) QUEUES.set(b.audio, say);
   const credit = (b.credit || []).map((c) => `<p class="rd-credit">${fmt(c, { vertical: V })}</p>`).join("");
   const seg = b.vertical ? `<div class="seg" role="group" aria-label="縦書き・横書き">${[["v", "縦", "Vertical"], ["h", "横", "Horizontal"]].map(([m, j, e]) =>
@@ -389,6 +397,17 @@ function fitBookLines(body) {
   }
 }
 
+// an underline that wraps: its number goes under the start of the first line (p.009), not under the last line — an
+// absolute box in a split inline is placed from the first fragment's left but the whole box's bottom (horizontal only)
+export function placeRefNos(root) {
+  $$(".ref > .ref-n", root).forEach((n) => {
+    n.style.top = "";
+    const u = n.parentElement, rs = u.getClientRects();
+    if (rs.length < 2 || getComputedStyle(u).writingMode.startsWith("vertical")) return;
+    const box = u.getBoundingClientRect();
+    if (rs[0].bottom < box.bottom - 2) n.style.top = `${rs[0].bottom - box.top}px`;
+  });
+}
 // line numbers (every 5th, and 1) and page marks in the gutter, at the height (column) where the book's line starts.
 // all = false (the layout pass after a click, main.js queueFit): a reading whose box has the size it had after its last
 // fit keeps its lines and numbers, since every fit test forces a layout of the whole page (~50 ms a click on a phone)

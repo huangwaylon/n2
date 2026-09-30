@@ -50,7 +50,7 @@ const q2Markup = (t) => t
   // ''text'' italics in the book's English (titles, vt./vi., emphasised words)
   .replace(/''(.+?)''/g, "<i>$1</i>")
   .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
-  .replace(/[❶-❿]/g, '<span class="step">$&</span>')
+  .replace(/[❶-❿]/g, '<span class="step">$&</span>\u2060')   // word joiner: a step mark never ends a line alone
   // "［　　　］のパターンを使って": the book prints a grey swatch, the colour of the practice box below (pp.024, 030)
   .replace(/［　+］(?=の?パターン)/g, '<span class="swatch" role="img" aria-label="灰色の部分"></span>')
   // 書くポイント "…… (a) (b)": the pointer to the model composition's letters, blue as printed (pp.018, 050)
@@ -59,7 +59,7 @@ const q2Markup = (t) => t
 export function fmt(s, opts = {}) {
   if (s == null) return "";
   let t = q2Markup(rubyMarkup(esc(s).replace(BADGE_RE, badgeHtml)))
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*\*([^]+?)\*\*/g, "<strong>$1</strong>")   // may span a printed line break (Quartet flowchart bubbles)
     .replace(/__(.+?)__/g, '<u class="ul">$1</u>')
     .replace(/~~(.+?)~~/g, "<s>$1</s>")
     .replace(/＿＿/g, BLANK_HTML)

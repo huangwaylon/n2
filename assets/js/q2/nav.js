@@ -4,7 +4,7 @@
 // l/7/vocab · l/7/kanji · u/c1 (上級へのチャレンジ ①) · u/k13 (漢字チャレンジ ⑬) · about · guide · index · kanji · drill
 import { ACT, BOOK, TRY, $, esc, progress } from "../core.js";
 import { enScopeBtn, fmt, plain } from "../markup.js";
-import { blocks, circ, inl, line, placeLineNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
+import { blocks, circ, inl, line, placeLineNos, placeRefNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
 import { vocabView, kanjiView, kanjiAllView, drillView, indexView } from "./lists.js";
 
 const SK = ["read", "write", "speak", "listen"];
@@ -87,7 +87,7 @@ function docTitle(main) {
   const l = main.dataset.ch && lessonOf(main.dataset.ch);
   return (l ? `第${l.id}課 – ` : "") + `${BOOK().shortTitle} 中級日本語 Interactive`;
 }
-const layout = (root, all) => { placeLineNos(root, !!all); wireTracks(root); };
+const layout = (root, all) => { placeLineNos(root, !!all); placeRefNos(root); wireTracks(root); };
 
 export const QUARTET = {
   pages: [["about", "本書について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"], ["kanji", "漢字", "Kanji"], ["drill", "練習", "Drill"]],

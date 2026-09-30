@@ -1,11 +1,12 @@
 /* q2.css — Quartet I and II (loaded only by q1/index.html and q2/index.html): the books' design on top of base / shell /
    content / exercises, in Quartet II's cyan or Quartet I's pink (body[data-book], set by main.js). Blocks: assets/js/q2/blocks.js; data/Q2-SCHEMA.md. Breakpoints as elsewhere: ≥901 desktop · ≤900 drawer ·
    ≤600 phone · ≤390 small phone. Tokens only (light + dark). */
-:root { --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
-:root[data-theme="dark"] { --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
+/* --q-on: text on an accent fill — white in light; dark text in dark, where white on the lighter accent is ~2.4:1 */
+:root { --q-on: #fff; --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
+:root[data-theme="dark"] { --q-on: #0e1a21; --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
 /* Quartet I: the book's magenta (#e8186a on the scan, PDF 10, 30) */
 body[data-book="q1"] { --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
-:root[data-theme="dark"] body[data-book="q1"] { --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
+:root[data-theme="dark"] body[data-book="q1"] { --q-on: #230d17; --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
 body[data-book] strong { color: inherit; }
 /* Quartet prints its furigana under the kanji (left of the column in 縦書き), below any underline (pp.009, 068, 082) */
 ruby { -webkit-ruby-position: after; ruby-position: under; }
@@ -46,7 +47,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .op-sk { display: flex; align-items: center; gap: 10px; color: var(--ink); padding: 6px 0; min-height: 44px; }
 .op-sk:hover { text-decoration: none; }
 .op-sk .sk-ic { width: 38px; height: 38px; padding: 6px; border-radius: 50%; border: 3px solid var(--q); color: var(--q); }
-.op-sk__l { background: var(--q); color: #fff; font: 700 15px/1 var(--goth); padding: 7px 12px; border-radius: 0 999px 999px 0; margin-left: -14px; }
+.op-sk__l { background: var(--q); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 12px; border-radius: 0 999px 999px 0; margin-left: -14px; }
 .op-sk__t { font: 800 22px/1.4 var(--goth); }
 @media (hover: hover) { .op-sk:hover .op-sk__t { color: var(--q); } }
 .op-cando { list-style: none; padding: 4px 0 0 4px; margin: 0; }
@@ -56,7 +57,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .q-card .cc-body { display: grid; gap: 2px; }
 .q-card__s { display: flex; gap: 6px; align-items: center; font-size: 14px; line-height: 1.5; }
 .q-card__s .sk-ic { color: var(--q); }
-body[data-book] .cc-num { background: var(--q); color: var(--panel); }
+body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .q-card--na { opacity: .7; } /* home: a lesson not transcribed yet */
 
 /* ---------- section banner + tabs ---------- */
@@ -68,7 +69,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 @media (max-width: 600px) { .sk-banner { padding: 10px 12px; gap: 10px; } .sk-banner__ic { width: 58px; height: 58px; font-size: 11px; } .sk-banner__ic .sk-ic { width: 24px; height: 24px; } .sk-banner__t { font-size: 21px; } }
 .sk-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
 .sk-tabs a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 4px 12px; border: 1.5px solid var(--line); border-radius: 999px; color: var(--ink-2); font: 700 14px/1 var(--goth); }
-.sk-tabs a[aria-current] { background: var(--q); border-color: var(--q); color: #fff; }
+.sk-tabs a[aria-current] { background: var(--q); border-color: var(--q); color: var(--q-on); }
 @media (hover: hover) { .sk-tabs a:not([aria-current]):hover { border-color: var(--q); color: var(--q); text-decoration: none; } }
 @media (pointer: coarse) { .sk-tabs a { min-height: 44px; } }
 .mt-gn .mt-gp__n { background: var(--q); }
@@ -80,12 +81,14 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 /* ---------- headings ---------- */
 .hd { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; margin: 28px 0 12px; font-family: var(--goth); }
 .hd-t { min-width: 0; }
+/* a numbered or stepped heading keeps its title beside the number when the title wraps (the book's 2-line headings, p.041) */
+.hd:has(> .hd-tag) > .hd-t { flex: 1 1 0; }
 .hd--band { background: repeating-linear-gradient(-45deg, var(--q-soft) 0 6px, var(--q-hatch) 6px 8px); border-radius: 14px; padding: 10px 14px; font-size: 22px; font-weight: 800; }
 .hd--band .hd-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--panel); border: 2px solid var(--q); color: var(--q); border-radius: 999px; padding: 3px 14px 3px 6px; font-size: 16px; }
-.hd--band > .sk-ic { color: #fff; background: var(--q); border-radius: 50%; width: 30px; height: 30px; padding: 5px; margin-right: -38px; position: relative; z-index: 1; }
+.hd--band > .sk-ic { color: var(--q-on); background: var(--q); border-radius: 50%; width: 30px; height: 30px; padding: 5px; margin-right: -38px; position: relative; z-index: 1; }
 .hd--band > .sk-ic + .hd-tag { padding-left: 40px; }
 .hd--num { color: var(--q); font-size: 22px; font-weight: 800; }
-.hd--num .hd-tag { display: inline-grid; place-items: center; min-width: 32px; height: 32px; background: var(--q); color: #fff; font-size: 18px; box-shadow: 3px 3px 0 var(--q-2); }
+.hd--num .hd-tag { display: inline-grid; place-items: center; min-width: 32px; height: 32px; background: var(--q); color: var(--q-on); font-size: 18px; box-shadow: 3px 3px 0 var(--q-2); }
 .hd--step { font-size: 21px; color: var(--q); font-weight: 800; }
 .hd--step .hd-tag { background: var(--q-soft); color: var(--ink); border-bottom: 2px solid var(--ink-2); border-right: 2px solid var(--ink-2); border-radius: 0 0 8px 0; padding: 2px 12px; font-size: 17px; }
 .hd--sq { color: var(--q); font-size: 19px; font-weight: 700; }
@@ -136,7 +139,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
-.words__l { flex: none; background: var(--q); color: #fff; font: 700 12px/1 var(--goth); padding: 4px 8px; }
+.words__l { flex: none; background: var(--q); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
 .words__list { display: flex; flex-wrap: wrap; gap: 2px 18px; min-width: 0; }
 .w { white-space: nowrap; }
 .w__ja { font-family: var(--mincho); }
@@ -159,7 +162,8 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .rd-body--nums { padding-left: 2.6em; }
 .rd-body p { margin: 0; }
 .rd-p .ja { text-indent: 1em; }
-.rd-p:has(.ja > .pg:first-child + .ln + .ref, .ja > .ln:first-child) .ja { text-indent: 1em; }
+/* (not the interviewer's ── lines or a speaker's turn, which are set flush: p.102 line 5) */
+.rd-p:not(.rd-p--q, .rd-p--sp, .rd-mail .rd-p):has(.ja > .pg:first-child + .ln + .ref, .ja > .ln:first-child) .ja { text-indent: 1em; }
 .rd-title { font: 700 1.2em/1.8 var(--goth); margin: .2em 0 .4em; }
 .rd-by { text-align: right; font: 700 .85em/1.8 var(--goth); }
 .rd-by--in { margin-left: 2em; font-size: .72em; display: inline-block; }
@@ -167,6 +171,8 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .rd-credit { text-align: right; font: 13px/1.7 var(--goth); color: var(--ink-2); margin: 10px 0 0; }
 .rd-en { margin: .2em 0 .7em; font-size: 14.5px; line-height: 1.6; letter-spacing: 0; }
 .rd-en--t { margin-top: -.2em; }
+/* a title with readings or a lettered underline under it (p.082 高山): its translation clears them */
+.rd-title:is(:has(ruby), :has(.ref-n)) + .rd-en--t { margin-top: .5em; }
 /* speakers: true — a round-table text (p.102): the speaker's name hangs left of the turn's lines */
 .rd-body .rd-p--sp .ja { padding-inline-start: var(--spw); text-indent: 0; }
 .rd-sp { display: inline-block; width: var(--spw); margin-inline-start: calc(-1 * var(--spw)); text-indent: 0; white-space: nowrap; }
@@ -186,11 +192,13 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 /* wide: a bracket beside the paragraphs (top and bottom ticks), the label at its top (p.017) */
 @media (min-width: 901px) {
   .rd--model .rd-body { --side: 8.6em; }
-  .rd--model .rd-body > :is(.rd-title, .rd-t, .rd-by, .rd-p, .rd-fig) { margin-right: var(--side); }  /* ungrouped lines stay on the panel */
+  .rd--model .rd-body > :is(.rd-title, .rd-t, .rd-by, .rd-p, .rd-fig) { margin-inline-end: var(--side); }  /* ungrouped lines stay on the panel */
   .rd-grp { display: grid; grid-template-columns: minmax(0, 1fr) 7.5em; column-gap: 1.1em; }
   .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 13px; line-height: 1.5; }
   .rd-grp .rd-role::before, .rd-grp .rd-role::after { content: ""; position: absolute; left: -12px; width: 12px; border-top: 1.5px solid var(--q); }
   .rd-grp .rd-role::before { top: 0; }
+  /* 縦書き (p.050): the panel runs across every column, from under the line numbers to above the brackets */
+  .rd--v.rd--model .rd-body { background: linear-gradient(to bottom, transparent 2.4em, var(--q-gray) 2.4em, var(--q-gray) calc(100% - var(--side)), transparent calc(100% - var(--side))); }
   .rd-grp .rd-role::after { bottom: 0; }
 }
 .ln { display: inline; }
@@ -201,7 +209,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 /* numbered underline → note (number under the start of the line, blue) */
 .ref { position: relative; color: inherit; text-decoration: none; }
 .ref u, u.ref { text-decoration: underline; text-decoration-color: var(--q); text-decoration-thickness: 2px; text-underline-offset: .28em; }
-.ref-n { position: absolute; left: 0; top: 100%; white-space: nowrap; margin-top: -.35em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
+.ref-n { position: absolute; left: 0; top: 100%; white-space: nowrap; margin-top: .4em; font: 700 .55em/1 var(--goth); color: var(--q); text-indent: 0; letter-spacing: 0; }
 /* lettered underlines (strategies, model compositions; p.008): grey rule, black bold (a) under its start */
 u.ref--let { text-decoration-color: var(--ink-3); }
 .ref--let .ref-n { color: var(--ink); font-size: .62em; margin-top: .55em; }
@@ -220,11 +228,13 @@ a.ref:hover u { background: var(--q-soft); }
 .rd--v .rd-by { text-align: end; margin-left: .4em; }
 .rd--v .rd-credit { text-align: end; margin: 0 1.5em 0 0; }
 .rd--v .ref u, .rd--v u.ref { text-underline-position: right; }
-.rd--v .ref-n { top: 0; left: 100%; margin: 0 0 0 .1em; writing-mode: horizontal-tb; }
+.rd--v .ref-n { top: 0; left: 100%; margin: 0 0 0 .5em; writing-mode: horizontal-tb; }
 .rd--v .rd-en { display: none !important; }
 
 /* ---------- dialogues ---------- */
 .qdlg { position: relative; background: var(--q-gray); border-radius: 4px; padding: 14px 18px; margin: 12px 0 18px; }
+/* a practice dialogue on the book's grey panel (練習しよう, pp.022, 200): the box is the panel, no second one inside */
+.qbox--gray > .qdlg { background: none; padding: 0; margin: 0; }
 .qdlg__tools, .script__tools { display: flex; justify-content: flex-end; gap: 8px; margin-bottom: 4px; }
 .qdlg__style { color: var(--q); font: 700 16px/1.6 var(--goth); margin: 0 0 4px; }
 .qdlg__title { text-align: center; font: 700 18px/1.6 var(--goth); margin: 0 0 8px; }
@@ -263,7 +273,7 @@ a.ref:hover u { background: var(--q-soft); }
 .flow__t .ja { font-family: var(--mincho); }
 @media (max-width: 600px) { .flow__s { max-width: 92%; } .flow__steps { padding: 8px; background: none; } }
 /* phones: the printed line breaks in a bubble (p.161) no longer fit the narrower bubble and leave one-kana lines ("…○○さん／は") */
-@media (max-width: 600px) { .flow__t br { display: none; } }
+@media (max-width: 600px) { .flow__t br { display: none; } .flow__head { gap: 6px; font-size: 13px; } .flow__head > span { padding: 5px 8px; } }
 .bubbles { margin: 10px 0 16px; }
 .bubble { margin: 10px 0 14px; }
 .bubble__l { margin: 0 0 4px; font: 700 15px/1.6 var(--goth); }
@@ -278,7 +288,7 @@ a.ref:hover u { background: var(--q-soft); }
 /* ---------- grammar notes ---------- */
 .gn { position: relative; margin: 30px 0 34px; }
 .gn-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; color: var(--q); font-family: var(--goth); margin-bottom: 10px; }
-.gn-star { position: absolute; left: -30px; top: -12px; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--q); color: #fff; font-size: 15px; }
+.gn-star { position: absolute; left: -30px; top: -12px; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--q); color: var(--q-on); font-size: 15px; }
 @media (max-width: 1100px) { .gn-star { position: static; order: -1; } }
 .gn-no { font: 800 26px/1 var(--goth); }
 .gn-pat { margin: 0; font: 800 26px/1.4 var(--goth); color: var(--q); }
@@ -345,7 +355,7 @@ a.ref:hover u { background: var(--q-soft); }
 /* ---------- strategies, units ---------- */
 .strat { margin: 30px 0; }
 .strat__h { position: relative; margin-bottom: 12px; }
-.strat__tag { display: inline-block; background: var(--q); color: #fff; font: 700 15px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
+.strat__tag { display: inline-block; background: var(--q); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
 .strat__tools { position: absolute; right: 0; top: 0; }
 .strat__t { margin: 0; padding: 10px 16px; background: var(--q-soft-2); border-bottom: 2px solid var(--q); border-radius: 0 8px 8px 8px; font: 800 24px/1.4 var(--goth); }
 .strat__en, .unit-h .strat__en { font: 700 17px/1.4 var(--goth); color: var(--ink); }
@@ -503,13 +513,13 @@ s { text-decoration: line-through var(--q) 2px; }
    bracket down the right edge with the label on a vertical blue tab (pp.023, 093) */
 .flow--one .flow__steps { background: none; }
 .flow--one .flow__s { max-width: none; justify-self: stretch; }
-.flow__pill { justify-self: start; background: var(--q); color: #fff; border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
+.flow__pill { justify-self: start; background: var(--q); color: var(--q-on); border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
 .flow__pill--b { justify-self: end; background: var(--ink-3); }
 .flow__pill b { font-weight: 700; }
 .flow__g { display: grid; grid-template-columns: minmax(0, 1fr) 2.4em; column-gap: 8px; }
 .flow__gs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; align-content: start; }
 .flow__ph { position: relative; border: 2px solid var(--q); border-left: 0; border-radius: 0 8px 8px 0; width: 12px; margin: 4px 0; }
-.flow__ph > span { position: absolute; left: 100%; top: 50%; transform: translate(-50%, -50%); writing-mode: vertical-rl; background: var(--q); color: #fff;
+.flow__ph > span { position: absolute; left: 100%; top: 50%; transform: translate(-50%, -50%); writing-mode: vertical-rl; background: var(--q); color: var(--q-on);
   border-radius: 999px; padding: 10px 3px; font: 700 14px/1.2 var(--goth); white-space: nowrap; }
 @media (max-width: 600px) {
   .flow__g { grid-template-columns: 1fr; }
@@ -520,7 +530,7 @@ s { text-decoration: line-through var(--q) 2px; }
    (pp.022, 028, 200–201); a box titled with one is the book's pink band: badge, then the steps on the same line */
 .part { display: inline-block; border: 1.5px solid var(--q); border-radius: .3em; padding: 0 .55em; margin: 0 .15em; background: var(--panel); color: var(--q);
   font: 700 .78em/1.45 var(--goth); letter-spacing: 0; white-space: nowrap; vertical-align: .08em; text-indent: 0; }
-.part--a { background: var(--q); color: var(--panel); }
+.part--a { background: var(--q); color: var(--q-on); }
 .hd .part, .qbox__title .part { font-size: .9em; padding: .05em .9em; margin: 0; }
 .qbox:has(> .qbox__title .part) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 6px 12px; border-radius: 6px; }
 .qbox:has(> .qbox__title .part) > .qbox__title { margin: 0; }
@@ -529,3 +539,11 @@ s { text-decoration: line-through var(--q) 2px; }
 .flow__ph .part { all: unset; }
 .flow__ph > span:has(.part--b) { background: var(--panel); color: var(--q); border: 2px solid var(--q); }
 @media (max-width: 600px) { .flow__ph > span:has(.part--b) { background: none; border: 0; } }
+/* e-mail window (reading style "email", pp.034–035): grey header band with the address lines, framed body; set in gothic
+   without paragraph indents as printed */
+.rd-mail { border: 1.5px solid var(--ink-3); margin: .3em 0; font-family: var(--goth); }
+.rd-mail__h { background: var(--q-gray); padding: .3em .8em; border-bottom: 1.5px solid var(--ink-3); }
+.rd-mail__b { background: var(--panel); padding: .4em .8em; }
+.rd-mail .rd-p .ja { text-indent: 0; }
+.rd-mail__b .rd-p + .rd-p { margin-top: .45em; }
+@media (max-width: 600px) { .rd-mail__h, .rd-mail__b { padding-inline: .5em; } }

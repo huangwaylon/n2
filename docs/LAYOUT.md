@@ -428,6 +428,24 @@ Badges (`badgeHtml()` in markup.js, `BADGE_RE` accepts N V いA なA A Pl Po 文
 
 ---
 
+### C32 Quartet components (`assets/js/q2/`, `q2.css`; both Quartet books)
+
+Most Quartet layout rules live as comments next to the rules in `q2.css`; the behaviours below are easy to break:
+
+- Accent fills (`--q`) carry `--q-on` text: white in light, dark in dark (white on the dark theme's lighter accent is ~2.4:1).
+- Numbered / lettered underlines (`.ref-n`): the number sits below the rule, under the start of the underline; when an
+  underline wraps, `placeRefNos` (layout pass) moves the number under the first line. 縦書き: right of the rule's top.
+- Headings with a number or step tag keep the title beside the tag when it wraps (`.hd-t { flex: 1 1 0 }`).
+- A practice dialogue inside a grey box has no panel of its own (`.qbox--gray > .qdlg`).
+- Q1 part badges `[#パートA]` (filled) / `[#パートB]` (outlined): inline in ☛ lines; a box titled with one is the book's
+  pink band (badge, then the steps on the same line); in a flowchart the phase tab takes the badge's fill.
+- ❶–❿ step marks are followed by a word joiner, so a mark never ends a line.
+- Reading style `email` (Q1 pp.034–035): the 差出人／宛先／件名／添付 lines on a grey header band, the rest in a framed
+  body, gothic, no paragraph indent.
+- モデル作文 in 縦書き: the grey panel runs across all columns (gradient `to bottom`), the role brackets below it.
+- Phones (≤600): flowchart bubbles drop the printed line breaks; lead+stack leads wrap; ≥8 / ≥11-column tables tighten
+  their cells to fit 320.
+
 ## 3. Responsive rules
 
 ### 3.1 Breakpoints
