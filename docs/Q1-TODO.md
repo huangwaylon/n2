@@ -10,8 +10,9 @@ Page map and conventions: `docs/Q1-TRANSCRIPTION.md`. Remove this file when ever
 - [x] Layout sweep (b00fc4c, 7fd8ebd): 149 routes × 6 widths ± EN ± furi, 0 overflow / clipping / small targets;
       book switcher collapses into the drawer below 430 px. No iOS simulator on this machine (xcrun simctl missing)
 - [x] Performance (cb7d400, ea22bb0): data loads from boot.js in parallel with modules, modulepreload, Quartet line-number
-      refit only for changed readings; FCP −30–50 %. Open: lazy-load Quartet vocab/kanji/challenge files; chunked
-      render of the all-words vocab page (7 600 nodes)
+      refit only for changed readings; FCP −30–50 %. Quartet vocab/kanji/front load on the routes that show them
+      (f80da7b; Q1 lesson page 41 → 28 requests, 1874 → 1545 KB). Open: challenge.js stays eager (sidebar, opener unit
+      buttons); chunked render of the all-words vocab page (7 600 nodes)
 
 ## 1. Setup
 
@@ -70,7 +71,7 @@ Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) ru
       index glosses from sub-patterns, p.116 flush / p.102 names right, double strike, one CD per モデル会話, blank+。,
       formula wrapping at 390, conn `side` on 30 boxes
 - [x] Layout: `overflow.mjs` + screenshots for q1 routes at 320/390/820/1280, light/dark, `--en`, `--furi` (layout QA above)
-- [ ] Performance: `tools/perf.mjs` on q1 routes
+- [x] Performance: `tools/perf.mjs` on q1 routes (f80da7b: lazy vocab/kanji/front; lesson routes 41 → 28 requests)
 - [x] Docs final: CLAUDE.md, README, LAYOUT.md (§6 known limitations), both TRANSCRIPTION guides, both schemas, ENGLISH.md;
       Q2 book-English spaces as Q1 (31 strings). Remove this file once the performance item is done
 
