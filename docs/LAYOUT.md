@@ -659,3 +659,7 @@ All need the site served on `:8765` (`python3 -m http.server 8765`) and Node ≥
   still leaves a small gap around the word; lesson and section titles set readings at .42em and have none (C32).
 - **Q2 漢字チャレンジ k20**: the job-ad labels printed white on a dark fill are rendered as plain boxed cells (`frame`).
 - **Decorative tiles** (ornamental backgrounds with no text) are not marked in the data or reproduced.
+- **Quartet data still loaded up front**: `challenge.js` (the sidebar's ブラッシュアップ list and the lesson openers'
+  unit buttons need the unit titles; lazy loading would need a small unit index split out of it) and the `lNN.js`
+  lesson files (sidebar, progress counts and prev/next need every lesson). Vocab, kanji and front matter are lazy.
+- **TRY 単語 全部** renders all ~7 600 word rows at once; rendering in chunks would need a change to vocab.js.
