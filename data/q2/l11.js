@@ -796,7 +796,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "今回の{選挙|せんきょ}は、接戦の**すえ**、わずかな差で{鈴木|すずき}さんが{田中|たなか}さんに勝った。",
-         "tr": "In this election, after a close race, Suzuki finally beat Tanaka by a narrow margin."
+         "tr": "In this election, after a close race, Suzuki-san beat Tanaka-san by a narrow margin."
         },
         {
          "n": 5,
@@ -979,7 +979,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nまで** marks N as the far end of a range: things have gone so far that they now take in N, which the speaker finds surprising, excessive or annoying. It is close to **さえ** and **も**, with a different focus:\n\n- まで piles N on top of what is already there: 雨に加えて、風まで強くなってきた (*and now even the wind has picked up*).\n- さえ singles out N as the extreme case and is favored in negative sentences: 自分の名前さえ書けない (*can't even write his own name*).\n- も is the neutral *also, even*.\n\nBecause it expresses escalation, 〜だけでなく〜まで (②) is a natural frame. **〜どころか** (L8-1) often ends in まで for the same climbing effect."
+     "deepDive": "**Nまで** marks N as the far end of a range: things have gone so far that they now take in N, which the speaker finds surprising, excessive or annoying. It is close to **さえ** and **も**, with a different focus:\n\n- まで piles N on top of what is already there: 雨に加えて、風まで強くなってきた (*and now even the wind has picked up*).\n- さえ singles out N as the extreme case and is favored in negative sentences: 自分の名前さえ書けない (*can't even write their own name*).\n- も is the neutral *also, even*.\n\nBecause it expresses escalation, 〜だけでなく〜まで (②) is a natural frame. **〜どころか** (L8-1) often ends in まで for the same climbing effect."
     },
     {
      "t": "note",
@@ -1023,7 +1023,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "リーさん、サモスン社に就職が決まったけど、仕事内容が気に入らないんだって。",
-           "tr": "Lee landed a job at Samosun, but I hear he doesn't like the work he'll be doing."
+           "tr": "Lee-san landed a job at Samosun, but I hear Lee-san doesn't like the work involved."
           },
           {
            "sp": "B",
@@ -1257,7 +1257,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜かねない** is a warning: from the present situation the speaker sees a real risk of a bad result. It is used only for undesirable outcomes; for neutral or good possibilities, use かもしれない: ✗合格しかねない.\n\n- It follows the ます-stem, passives included: 誤解されかねない (*could be misunderstood*). Polite かねません is common in advice (key example).\n- A conditional usually sets it up: 〜と／〜ば／〜たら…かねない (①–③).\n- With a person + なら (④), it is a judgment of character: *he's just the type to do it*.\n\nReading 1's 無礼にもなりかねない adds も, *even*: presumption can shade into outright rudeness. TRY! N2 teaches the same 〜かねない next to the more formal **〜おそれがある**, which also follows nouns: 台風のおそれ."
+     "deepDive": "**〜かねない** is a warning: from the present situation the speaker sees a real risk of a bad result. It is used only for undesirable outcomes; for neutral or good possibilities, use かもしれない: ✗合格しかねない.\n\n- It follows the ます-stem, passives included: 誤解されかねない (*could be misunderstood*). Polite かねません is common in advice (key example).\n- A conditional usually sets it up: 〜と／〜ば／〜たら…かねない (①–③).\n- With a person + なら (④), it is a judgment of character: *just the kind of person who would*.\n\nReading 1's 無礼にもなりかねない adds も, *even*: presumption can shade into outright rudeness. TRY! N2 teaches the same 〜かねない next to the more formal **〜おそれがある**, which also follows nouns: 台風のおそれ."
     },
     {
      "t": "note",

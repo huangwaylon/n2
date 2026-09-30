@@ -2471,7 +2471,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "Concessive **ながら** follows a state: 〜ている, ある／いる, である, or a small set of adjectives and nouns. With an action verb it means *while doing* (the ☛ box). The criticism the book mentions comes from the gap between the two halves: 知っていながら、何も言わなかった (*he knew, yet he said nothing*).\n\n- **ながらも** makes the concession unmistakable.\n- **〜のに** is the conversational choice and more openly emotional; **〜ものの** (L10-11) concedes a fact more calmly.\n- One subject for both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った.\n\nTRY! N2 teaches the same use as 〜ながら（も）; TRY! N1's **〜ながら（に）** (涙ながらに *in tears*, 生まれながらに *from birth*) is a different, literary sense."
+     "deepDive": "Concessive **ながら** follows a state: 〜ている, ある／いる, である, or a small set of adjectives and nouns. With an action verb it means *while doing* (the ☛ box). The criticism the book mentions comes from the gap between the two halves: 知っていながら、何も言わなかった (*knew perfectly well, yet said nothing*).\n\n- **ながらも** makes the concession unmistakable.\n- **〜のに** is the conversational choice and more openly emotional; **〜ものの** (L10-11) concedes a fact more calmly.\n- One subject for both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った.\n\nTRY! N2 teaches the same use as 〜ながら（も）; TRY! N1's **〜ながら（に）** (涙ながらに *in tears*, 生まれながらに *from birth*) is a different, literary sense."
     },
     {
      "t": "note",

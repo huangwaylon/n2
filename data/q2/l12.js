@@ -2124,7 +2124,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{山田|やまだ}さんは店を出る**なり**、走り出した。",
-         "tr": "The moment Yamada left the store, he started running."
+         "tr": "Yamada-san broke into a run the moment they left the store."
         },
         {
          "n": 2,
@@ -2196,7 +2196,7 @@ TRY.registerLesson({
           {
            "mark": "×",
            "ja": "山田さんは店を出るなり、__走った__。",
-           "tr": "(Incorrect) Intended: \"Yamada ran as soon as he stepped out of the store.\""
+           "tr": "(Incorrect) Intended: \"Yamada-san ran as soon as they stepped out of the store.\""
           }
          ]
         }
