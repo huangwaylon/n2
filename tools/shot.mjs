@@ -12,6 +12,7 @@
 //   --dpr=N  device pixel ratio (2 or 3 to read furigana as on a phone); --y=PX scroll down before capturing
 //   --drawer open the sidebar drawer (☰) before capturing
 //   --click=SEL click the first element matching the CSS selector (repeatable, in order) before capturing
+//   --sel=SEL capture only the first element matching SEL (its box, up to 4000 px tall)
 //   --nofuri furigana off (the site default; the tools turn furigana on unless this is given)
 // Prints the PNG path; console messages / JS exceptions from the page are printed to stderr.
 //   e.g. node tools/shot.mjs ch/1 390 2400 /tmp/ch1-390.png
@@ -38,6 +39,13 @@ if (flags.includes("--full")) {
   const h = await pg.evaluate("document.documentElement.scrollHeight");
   params.captureBeyondViewport = true;
   params.clip = { x: 0, y: 0, width, height: h, scale: 1 };
+}
+const sel = (flags.find(f => f.startsWith("--sel=")) || "").slice(6);
+if (sel) {
+  const r = JSON.parse(await pg.evaluate(`(() => { const e = document.querySelector(${JSON.stringify(sel)}); if (!e) return "null"; const b = e.getBoundingClientRect(); return JSON.stringify({ x: b.left + scrollX, y: b.top + scrollY, w: b.width, h: b.height }); })()`));
+  if (!r) { console.error("no element " + sel); process.exit(1); }
+  params.captureBeyondViewport = true;
+  params.clip = { x: Math.max(0, r.x - 8), y: Math.max(0, r.y - 8), width: Math.min(width, r.w + 16), height: Math.min(r.h + 16, 4000), scale: 1 };
 }
 const s = await pg.send("Page.captureScreenshot", params);
 mkdirSync(dirname(OUT), { recursive: true });

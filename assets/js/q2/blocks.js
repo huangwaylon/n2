@@ -180,8 +180,10 @@ const B = {
     return `<ol class="gn-exs ja-book">${(b.items || []).map((it) => `<li class="gn-ex">${it.n != null ? `<span class="exno">${esc(it.n)}</span>` : ""}${exBody(it, "gn-ex__b")}<span class="gn-ex__tools">${speakBtn(it.lines ? it.lines.map((l) => l.ja).join("。") : it.ja, "data-small")}</span></li>`).join("")}</ol>`;
   },
   conn(b, ctx) {
+    // a stack: alternatives in a brace, after a shared lead ("N から｛みると／すると／いうと｝", p.179: the brace opens
+    // towards the stack) and / or before a shared join ("｛Vる／Nの｝たび（に）": the brace closes towards the join)
     const forms = (b.forms || []).map((f) => (typeof f === "string" ? `<div class="fx1">${posFmt(f)}</div>`
-      : `<div class="fxs"><span class="fxs__stack">${f.stack.map((l) => `<span>${posFmt(l)}</span>`).join("")}</span><span class="fxs__br" aria-hidden="true"></span><span class="fxs__join">${posFmt(f.join || "")}</span></div>`)).join("");
+      : `<div class="fxs${f.lead ? " fxs--lead" : ""}">${f.lead ? `<span class="fxs__lead">${posFmt(f.lead)}</span><span class="fxs__br fxs__br--open" aria-hidden="true"></span>` : ""}<span class="fxs__stack">${f.stack.map((l) => `<span>${posFmt(l)}</span>`).join("")}</span>${f.join || !f.lead ? `<span class="fxs__br" aria-hidden="true"></span><span class="fxs__join">${posFmt(f.join || "")}</span>` : ""}</div>`)).join("");
     return `<div class="gn-conn">${forms ? `<div class="gn-forms">${forms}</div>` : ""}<div class="gn-conn__b">${blocks(b.blocks, ctx)}</div></div>`;
   },
   strategy(b, ctx) {
@@ -248,7 +250,12 @@ function dlgRows(lines) {
 }
 // an example: one sentence, or lines with speakers
 function exBody(it, cls) {
-  if (it.lines) return `<div class="${cls} exd">${it.lines.map((l) => `<div class="exd__row bi">${l.en || l.tr ? enToggle() : ""}${l.sp ? `<span class="exd__sp">${fmt(l.sp)}</span><span class="exd__c">：</span>` : ""}<div class="exd__say"><span class="ja">${fmt(l.ja)}</span>${enLines(l)}</div></div>`).join("")}</div>`;
+  // sub: the a) b) c) label of a line inside one numbered example (p.047); a speaker continuing with the next sub-label
+  // is printed once (B: a) … / b) … p.111), so a repeated sp keeps its column but not its name
+  if (it.lines) return `<div class="${cls} exd">${it.lines.map((l, i) => {
+    const again = l.sub && i && it.lines[i - 1].sp === l.sp;
+    return `<div class="exd__row bi">${l.en || l.tr ? enToggle() : ""}${l.sp ? `<span class="exd__sp">${again ? "" : fmt(l.sp)}</span><span class="exd__c">${again ? "" : "："}</span>` : ""}${l.sub ? `<span class="exd__sub">${esc(l.sub)})</span>` : ""}<div class="exd__say"><span class="ja">${fmt(l.ja)}</span>${enLines(l)}</div></div>`;
+  }).join("")}</div>`;
   const o = norm(it);
   if (it.sp) return `<div class="${cls} exd"><div class="exd__row bi">${o.en || o.tr ? enToggle() : ""}<span class="exd__sp">${fmt(it.sp)}</span><span class="exd__c">：</span><div class="exd__say"><span class="ja">${fmt(o.ja)}</span>${enLines(o)}</div></div></div>`;
   return `<div class="${cls} bi">${o.en || o.tr ? enToggle() : ""}<span class="ja">${fmt(o.ja)}</span>${enLines(o)}</div>`;
@@ -290,27 +297,39 @@ function readingHtml(b, ctx) {
     else if (s[0] === "@") { kind = "by"; s = s.slice(1); }
     else if (s[0] === "=") { kind = "center"; s = s.slice(1); }
     if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); cur.c = centred; } // interviewer's ── line: set flush, no indent
+    // speakers: true — a ¶ line "ゴミス：…" starts a speaker's turn; the name hangs left of the text (p.102)
+    let sp = "";
+    if (b.speakers && kind === "p") { const m = s.match(/^([^：]{1,8})：/); if (m) { cur.sp = true; sp = `<span class="rd-sp">${fmt(m[1])}：</span>`; s = s.slice(m[0].length); } }
     let html;
     if (kind === "title" && s.includes("@")) { const [t, by] = s.split("@"); html = `${fmt(t, { vertical: V })}<span class="rd-by rd-by--in">${fmt(by, { vertical: V })}</span>`; }
     else html = fmt(s, { vertical: V });
     if (kind === "title") html = html.replace(/^◆/, '<span class="acc">◆</span>'); // the book's blue ◆ heading mark (pp.100–107)
     // each printed line in a .bl span, with a break before continuation lines: kept where the screen holds the book's
     // lines (placeLineNos checks), so lines and line numbers are the book's; phones reflow the paragraph
-    cur.html += (kind || !cur.html ? "" : '<br class="bl-br">') + pm + mark(n) + `<span class="bl">${html}</span>`;
+    cur.html += (kind || !cur.html ? "" : '<br class="bl-br">') + sp + pm + mark(n) + `<span class="bl">${html}</span>`;
     cur.last = n;
   });
   // paragraph translations, one per ¶ paragraph
-  let pi = 0;
+  // headTr: our translation of each # title line, in order ("" = a title's continuation line, translated with the line before)
+  let pi = 0, hi = 0;
   const roleAt = new Map((b.roles || []).map((r) => [r.from, r]));
   const say = [];
-  const html = paras.map((p) => {
+  let tt = "", ttr = ""; // a title and its translation, held while its continuation lines follow
+  const html = paras.map((p, i) => {
     if (p.kind !== "fig") say.push({ text: plain(p.html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "")), v: b.v || "f" });
     if (p.kind === "fig") return `<div class="rd-fig">${p.html}</div>`;
-    if (p.kind === "title") return `<p class="rd-title${p.c ? " rd-title--c" : ""}">${p.html}</p>`;
+    if (p.kind === "title") {
+      const t = `<p class="rd-title${p.c ? " rd-title--c" : ""}">${p.html}</p>`, tr = b.headTr && b.headTr[hi++];
+      if (tr) { tt = t; ttr = tr; } else if (ttr && tr === "") tt += t; else return t;
+      if (paras[i + 1] && paras[i + 1].kind === "title" && b.headTr && b.headTr[hi] === "") return "";
+      const out = `<div class="rd-t bi">${enToggle()}${tt}${en(ttr, "gen", "div", "rd-en rd-en--t")}</div>`;
+      tt = ttr = "";
+      return out;
+    }
     if (p.kind === "by") return `<p class="rd-by">${p.html}</p>`;
     if (p.kind === "center") return `<p class="rd-center">${p.html}</p>`;
     const tr = b.tr && b.tr[pi++];
-    return `<div class="rd-p${p.q ? " rd-p--q" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
+    return `<div class="rd-p${p.q ? " rd-p--q" : ""}${p.sp ? " rd-p--sp" : ""} bi">${tr ? enToggle() : ""}<p class="ja">${p.html}</p>${en(tr, "gen", "div", "rd-en")}</div>`;
   });
   // roles: the bracketed paragraph labels beside a model composition (p.017: a bracket over lines from–to, the label
   // beside it); on phones the label sits above its paragraphs
@@ -328,7 +347,8 @@ function readingHtml(b, ctx) {
     `<button type="button" class="seg__b" data-act="q2vmode" data-v="${m}" aria-pressed="${(m === "v") === V}" title="${e}">${j}</button>`).join("")}</div>` : "";
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
-  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}"${idAttr(b)} data-en-scope>
+  const spw = b.speakers ? Math.max(...(b.lines || []).map((l) => (typeof l === "string" && l[0] === "¶" && (l.match(/^¶([^：]{1,8})：/) || [])[1]) || "").map((x) => plain(x).length)) + 1.4 : 0;
+  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}${spw ? " rd--sp" : ""}"${idAttr(b)}${spw ? ` style="--spw:${spw}em"` : ""} data-en-scope>
     ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : b.audio ? cdBadge(say, "音声を聞く") : listenBtn(say)}</div>
     ${V ? `<div class="vt-scroll rd-scroll" tabindex="0" role="region" aria-label="本文（縦書き）">${text}</div>` : text}
     ${V ? "" : credit}

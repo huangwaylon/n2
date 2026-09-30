@@ -26,7 +26,8 @@ function strings(o, w) {
       if (/[{}]/.test(noRuby)) E(w + p, "bad ruby/braces: " + s.slice(0, 70));
       // a kana base is only allowed for a printed gloss in katakana (the French readings of L11 読み物2: {だめ|ノン})
       if (/\{[ぁ-んー]+\|[^}]*[ぁ-ん]/.test(s)) E(w + p, "ruby base is kana: " + s.slice(0, 50));
-      for (const m of ["**", "__", "~~", "!!"]) if (s.split(m).length % 2 === 0) E(w + p, `unbalanced ${m}: ` + s.slice(0, 70));
+      for (const m of ["**", "__", "~~", "!!", "%%", "''"]) if (s.split(m).length % 2 === 0) E(w + p, `unbalanced ${m}: ` + s.slice(0, 70));
+      if (/\[#(?![^\]\[]+\])/.test(s)) E(w + p, "unclosed [#…]: " + s.slice(0, 70));
       if ((s.match(/\[\[/g) || []).length !== (s.match(/\]\]/g) || []).length) E(w + p, "unbalanced [[ ]]: " + s.slice(0, 70));
       if (/[一-鿿]/.test(s) && /(^|\.)(en|tr)$/.test(p) && /[这们说时对么]/.test(s)) E(w + p, "Chinese?");
       return;
@@ -59,6 +60,12 @@ function block(b, w) {
     const firstBody = lines.findIndex((l) => typeof l === "string" && !/^[#@=]/.test(l));
     if (firstBody >= 0 && lines[firstBody][0] !== "¶") E(w, "first body line must start a paragraph (¶)");
     if (!b.tr || b.tr.length !== paras) E(w, `tr: ${b.tr ? b.tr.length : 0} entries for ${paras} ¶ paragraphs`);
+    // headTr: one entry per # title line; "" only on a line continuing the title line before it
+    const heads = lines.map((l, k) => [l, k]).filter(([l]) => typeof l === "string" && l[0] === "#");
+    if (heads.length && (!b.headTr || b.headTr.length !== heads.length)) E(w, `headTr: ${b.headTr ? b.headTr.length : 0} entries for ${heads.length} # title lines`);
+    (b.headTr || []).forEach((t, k) => { if (!t && !(heads[k] && heads[k - 1] && heads[k - 1][1] === heads[k][1] - 1)) E(w, `headTr ${k} empty but not a continuation`); });
+    if (b.titleTr && !b.title) E(w, "titleTr without title (put the # line's translation in headTr)");
+    if (b.speakers && !lines.some((l) => typeof l === "string" && /^¶[^：]{1,8}：/.test(l))) E(w, "speakers: no ¶name： line");
     if (b.roles) b.roles.forEach((r, k) => { if (!(r.from > 0) || !(r.to >= r.from)) E(`${w}.role${k}`, "bad line range"); });
   }
   if (T === "dialogue" || T === "script") {
@@ -78,8 +85,11 @@ function block(b, w) {
   }
   if (T === "key") (b.items || []).forEach((it, k) => (it.lines || [it]).forEach((l, j) => { if (!l.ja) E(`${w}.${k}.${j}`, "key without ja"); if (!l.en && !l.tr) E(`${w}.${k}.${j}`, "key without en (book) / tr"); }));
   // a sentence marked × or ？ (unnatural) is not translated; its ○ counterpart carries the English
-  if (T === "examples") (b.items || []).forEach((it, k) => (it.lines || [it]).forEach((l, j) => { if (!l.ja) E(`${w}.${k}.${j}`, "example without ja"); if (!/[×？]/.test(it.mark || "")) needTr(l, `${w}.${k}.${j}`); }));
-  if (T === "conn") blockList(b.blocks, w);
+  if (T === "examples") (b.items || []).forEach((it, k) => (it.lines || [it]).forEach((l, j) => { if (!l.ja) E(`${w}.${k}.${j}`, "example without ja"); if (l.sub != null && !/^[a-z]$/.test(l.sub)) E(`${w}.${k}.${j}`, "sub must be one letter"); if (/^[a-e]\) /.test(l.ja) || /^[a-e]\)$/.test(l.sp || "")) E(`${w}.${k}.${j}`, "a) label: use sub"); if (!/[×？]/.test(it.mark || "")) needTr(l, `${w}.${k}.${j}`); }));
+  if (T === "conn") {
+    (b.forms || []).forEach((f, k) => { if (typeof f !== "string" && (!Array.isArray(f.stack) || !f.stack.length || (!f.lead && f.join == null))) E(`${w}.form${k}`, "stack form needs stack and a lead or join"); });
+    blockList(b.blocks, w);
+  }
   if (T === "strategy") { if (b.no == null || !b.title) E(w, "strategy needs no, title"); blockList(b.blocks, `${w}#${b.no}`); }
   if (T === "tf") (b.items || []).forEach((it, k) => { if (!["○", "×"].includes(it.answer)) E(`${w}.${k}`, "tf answer must be ○ or ×"); needTr(it.text, `${w}.${k}`); });
   if (T === "choice") (b.items || []).forEach((it, k) => { if (!Array.isArray(it.options) || !(it.answer >= 0 && it.answer < it.options.length)) E(`${w}.${k}`, "bad answer index"); });

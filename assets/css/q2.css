@@ -1,8 +1,8 @@
 /* q2.css — Quartet I and II (loaded only by q1/index.html and q2/index.html): the books' design on top of base / shell /
    content / exercises, in Quartet II's cyan or Quartet I's pink (body[data-book], set by main.js). Blocks: assets/js/q2/blocks.js; data/Q2-SCHEMA.md. Breakpoints as elsewhere: ≥901 desktop · ≤900 drawer ·
    ≤600 phone · ≤390 small phone. Tokens only (light + dark). */
-:root { --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; }
-:root[data-theme="dark"] { --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; }
+:root { --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
+:root[data-theme="dark"] { --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
 /* Quartet I: the book's magenta (#e8186a on the scan, PDF 10, 30) */
 body[data-book="q1"] { --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
 :root[data-theme="dark"] body[data-book="q1"] { --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
@@ -20,6 +20,11 @@ ruby { -webkit-ruby-position: after; ruby-position: under; }
 .pslot { color: var(--q); border-bottom: 1px solid var(--ink-2); padding: 0 .25em; }
 .exno { display: inline-grid; place-items: center; min-width: 1.35em; height: 1.35em; padding: 0 .15em; border: 1.5px solid currentColor; font: 700 .78em/1 var(--goth); vertical-align: .1em; margin: 0 .15em; }
 .futsu { display: inline-grid; place-items: center; width: 1.5em; height: 1.5em; border-radius: 50%; background: var(--ink); color: var(--panel); font: 700 .8em/1 var(--goth); vertical-align: .05em; }
+/* [#Vて] a boxed form in the book's English (p.144); %%…%% grey shading on words (pp.210, 218); ''…'' italics */
+.boxf { display: inline-block; border: 1.5px solid currentColor; padding: 0 .2em; line-height: 1.25; margin: 0 .1em; }
+.boxf b { font-family: var(--goth); }
+.shade { background: var(--q-shade); padding: 0 .1em; border-radius: 2px; }
+.qbox--gray .shade, .gn-conn .shade { background: var(--panel); }
 b.pos { font-family: var(--goth); font-weight: 700; background: var(--q-gray); padding: 0 .12em; border-radius: 2px; }
 .bk-en { color: var(--en-book); font-family: var(--goth); font-size: 15px; line-height: 1.65; }
 .en-under { display: none; }
@@ -128,7 +133,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .qtbl { border-collapse: collapse; min-width: 100%; font-family: var(--goth); font-size: 15px; }
 .qtbl th, .qtbl td { border: 1px solid var(--line); padding: 6px 10px; vertical-align: middle; line-height: 1.8; text-align: left; }
 .qtbl th { background: var(--q-soft); font-weight: 700; }
-.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
+.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
 .words__l { flex: none; background: var(--q); color: #fff; font: 700 12px/1 var(--goth); padding: 4px 8px; }
@@ -161,6 +166,12 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 .rd-center { text-align: center; }
 .rd-credit { text-align: right; font: 13px/1.7 var(--goth); color: var(--ink-2); margin: 10px 0 0; }
 .rd-en { margin: .2em 0 .7em; font-size: 14.5px; line-height: 1.6; letter-spacing: 0; }
+.rd-en--t { margin-top: -.2em; }
+/* speakers: true — a round-table text (p.102): the speaker's name hangs left of the turn's lines */
+.rd-body .rd-p--sp .ja { padding-inline-start: var(--spw); text-indent: 0; }
+.rd-sp { display: inline-block; width: var(--spw); margin-inline-start: calc(-1 * var(--spw)); text-indent: 0; white-space: nowrap; }
+/* phones: the name runs into the turn's text (a hanging column would leave the text too narrow) */
+@media (max-width: 600px) { .rd-body .rd-p--sp .ja { padding-inline-start: 0; } .rd-sp { width: auto; margin-inline-start: 0; } }
 /* モデル作文 (texts with roles): the text on a grey panel, line numbers and brackets outside it; lettered underlines blue
    (pp.017, 050, 082) where the strategies' are grey */
 .rd--model .rd-body { --gut: 2.2em; --side: 0px; padding-block: .6em; background: linear-gradient(to right, transparent var(--gut), var(--q-gray) var(--gut), var(--q-gray) calc(100% - var(--side)), transparent calc(100% - var(--side))); }
@@ -175,7 +186,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--panel); }
 /* wide: a bracket beside the paragraphs (top and bottom ticks), the label at its top (p.017) */
 @media (min-width: 901px) {
   .rd--model .rd-body { --side: 8.6em; }
-  .rd--model .rd-body > :is(.rd-title, .rd-by, .rd-p, .rd-fig) { margin-right: var(--side); }  /* ungrouped lines stay on the panel */
+  .rd--model .rd-body > :is(.rd-title, .rd-t, .rd-by, .rd-p, .rd-fig) { margin-right: var(--side); }  /* ungrouped lines stay on the panel */
   .rd-grp { display: grid; grid-template-columns: minmax(0, 1fr) 7.5em; column-gap: 1.1em; }
   .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 13px; line-height: 1.5; }
   .rd-grp .rd-role::before, .rd-grp .rd-role::after { content: ""; position: absolute; left: -12px; width: 12px; border-top: 1.5px solid var(--q); }
@@ -284,9 +295,14 @@ a.ref:hover u { background: var(--q-soft); }
 .gn-ex > .exno { margin-top: .45em; font-size: .7em; }
 .gn-ex__b { min-width: 0; line-height: 2; }
 /* A：/ B： lines: one grid for the whole exchange, so the colons line up after names of different lengths (p.009) */
-.exd { display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-content: start; }
+.exd { display: grid; grid-template-columns: auto auto auto minmax(0, 1fr); align-content: start; }
 .exd__row { display: grid; grid-column: 1 / -1; grid-template-columns: subgrid; line-height: 2; }
 .exd__row:not(:has(> .exd__sp)) > .exd__say { grid-column: 1 / -1; }
+/* a) b) c) inside one numbered example (p.047): a column of its own after the speaker */
+.exd__row:has(> .exd__sp):not(:has(> .exd__sub)) > .exd__say { grid-column: 3 / -1; }
+.exd__row:not(:has(> .exd__sp)) > .exd__sub { grid-column: 1 / 4; }
+.exd__row:has(> .exd__sub) > .exd__say { grid-column: 4; }
+.exd__sub { font-family: var(--goth); padding-right: .45em; white-space: nowrap; }
 .exd__sp { font-family: var(--goth); white-space: nowrap; }
 .exd__c { padding: 0 .3em 0 .1em; }
 .exd__say { min-width: 0; }
@@ -301,6 +317,10 @@ a.ref:hover u { background: var(--q-soft); }
 .fxs__br { align-self: stretch; width: 10px; margin: 4px 6px 4px 4px; border: 1.5px solid var(--q); border-left: 0; border-radius: 0 6px 6px 0; position: relative; }
 .fxs__br::after { content: ""; position: absolute; right: -7px; top: 50%; width: 6px; border-top: 1.5px solid var(--q); }
 .fxs__join { margin-left: 6px; }
+/* a shared lead before the brace (p.179 N から｛みると／すると／いうと｝): the brace opens towards the stack */
+.fxs__lead { white-space: nowrap; line-height: 1.5; }
+.fxs__br--open { margin: 4px 4px 4px 12px; border: 1.5px solid var(--q); border-right: 0; border-radius: 6px 0 0 6px; }
+.fxs__br--open::after { right: auto; left: -7px; }
 .gn-conn__b .qlist { margin: 0; }
 /* the bullets flow around the formula box as printed (p.010: a bullet's last line wraps under the box), so the dot is
    inline with a hanging indent — an absolute dot would sit under the float; 例） lines go under the box */

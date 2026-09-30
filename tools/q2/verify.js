@@ -8,7 +8,7 @@ const { load, allFiles, bookArg, ocrText } = require("./lib");
 const [B] = bookArg(process.argv.slice(2));
 const TRY = load(allFiles(B), B);
 const errs = [], warn = [];
-const plain = (s) => String(s || "").replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\*\*|__|!!|~~|\{\{|\}\}/g, "");
+const plain = (s) => String(s || "").replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\[#(\D[^\]]*)\]/g, "$1").replace(/\*\*|__|!!|~~|%%|''|\{\{|\}\}/g, "");
 const core = (s) => plain(s).normalize("NFKC").replace(/[〜～~\s（）()・／/…、。]/g, "");
 const cellText = (c) => (c && typeof c === "object" ? (c.text && (c.text.ja || c.text.en || c.text)) || c.ja || "" : c || "");
 

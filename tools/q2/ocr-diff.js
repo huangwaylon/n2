@@ -10,7 +10,7 @@ for (const r of String(range).split(",")) { const [a, b] = r.split("-").map(Numb
 const TRY = load([path.resolve(file)], B);
 const data = [...TRY.lessons, ...TRY.vocab, ...TRY.kanji, ...TRY.units, ...(TRY.front || [])];
 const plain = (s) => String(s || "").replace(/\{\{|\}\}/g, "").replace(/\{([^{}|]+)\|[^{}]+\}/g, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1")
-  .replace(/\*\*|~~|__|!!/g, "").replace(/\[#\d+\]|\[普\]/g, "").replace(/^[¶#@=]/, "");
+  .replace(/\*\*|~~|__|!!|%%|''/g, "").replace(/\[#\d+\]|\[普\]/g, "").replace(/\[#([^\]]+)\]/g, "$1").replace(/^[¶#@=]/, "");
 const norm = (s) => plain(s).normalize("NFKC").replace(/[\s　「」『』（）()［］\[\]、。・，．,.!！?？:：;；~〜～…‥\-－ー—―/／"“”'’＿_＋+【】〈〉《》★☆*＊→↔◆◇○×△❶-❿①-⑳▶▸•]/g, "").toLowerCase();
 const corpus = norm(pages.map((p) => ocrText(B, p))
   .join("\n").split("\n").filter((l) => !/^[ぁ-ゖー\s]{1,12}$/.test(l.trim())).join(""));

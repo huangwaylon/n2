@@ -22,8 +22,9 @@ function tateChuYoko(html) {
   }).join("");
 }
 export const BLANK_HTML = '<span class="blank">　　　</span>';
-// Quartet II markup (data/Q2-SCHEMA.md): [[text|7]] numbered underline → grammar note 7 ([[text|a]] lettered, [[text|]]
-// continued), {{slot}} practice-pattern slot, !!accent!!, [#3] boxed example number, ❶ step marks, [普] plain-form badge.
+// Quartet markup (data/Q2-SCHEMA.md): [[text|7]] numbered underline → grammar note 7 ([[text|a]] lettered, [[text|]]
+// continued), {{slot}} practice-pattern slot, !!accent!!, [#3] boxed example number, [#Vて] boxed form, %%shaded%%,
+// ''italic'', ❶ step marks, [普] plain-form badge.
 // None of these occur in the TRY data.
 const refHtml = (m, text, tag) => {
   if (!tag) return `<u class="ref">${text}</u>`;
@@ -40,6 +41,12 @@ const q2Markup = (t) => t
   .replace(/\^\^(.+?)\^\^/g, '<em class="bouten">$1</em>')
   .replace(/==(.+?)==/g, '<u class="ul2">$1</u>')
   .replace(/\[#(\d+)\]/g, '<span class="exno" aria-label="例$1">$1</span>')
+  // [#Vて] a boxed form in the book's English ("[#Vて]おく is used…", p.144): POS letters bold as in the formulas
+  .replace(/\[#([^\]]+)\]/g, (m, t) => `<span class="boxf">${t.replace(/^(いA|なA|V|N|A)(?![A-Za-z])/, '<b>$1</b>')}</span>`)
+  // %%text%% grey shading on words (the particle a sentence changes, g4 p.218; the modified noun, g2 p.210)
+  .replace(/%%(.+?)%%/g, '<span class="shade">$1</span>')
+  // ''text'' italics in the book's English (titles, vt./vi., emphasised words)
+  .replace(/''(.+?)''/g, "<i>$1</i>")
   .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
   .replace(/[❶-❿]/g, '<span class="step">$&</span>')
   // "［　　　］のパターンを使って": the book prints a grey swatch, the colour of the practice box below (pp.024, 030)
@@ -58,7 +65,7 @@ export function fmt(s, opts = {}) {
   return opts.vertical ? tateChuYoko(t) : t;
 }
 // plain text: readings, markup and badges dropped (speech, search, titles)
-export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|[❶-❿]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
+export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\[#(\D[^\]]*)\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|%%|''|[❶-❿]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
   .replace(/＿＿|（　）/g, "、なになに、").replace(/\[(\d+)\]/g, "、").replace(/\[[^\]]+\]/g, "");
 // *italic* in our explanations (deepDive, why, vocab notes): a single * not touching a letter on its outer side, so
 // the footnote stars of translations ("* The hourly wage…", "Physicians*.") are left alone

@@ -59,6 +59,9 @@ Everything from `data/SCHEMA.md` ("Inline markup") works: `{漢字|かんじ}` f
 | `{{text}}` | blue replaceable part of a practice pattern (練習しよう) | `{{〇〇さん}}って、` |
 | `!!text!!` | text printed in the accent colour (blue) where the colour means something: the grammar in a connection formula, the radical-part kanji in 漢字チャレンジ | `V~~ます~~ !!つつある!!` |
 | `[#3]` | the boxed example number ③ as printed inside explanations ("see [#1] and [#2]") | |
+| `[#Vて]` | a form or label printed in a box (not a number): forms in the book's English, boxed sub-patterns, ［論点1］ labels (Q2 pp.224–225); POS letters set bold | `[#Vて]くる is often used…` |
+| `%%text%%` | grey shading on words (the particle a sentence turns on, the noun a clause modifies) | `子ども%%に%%ケーキを作った` |
+| `''text''` | italics in the book's English (titles, vt./vi., stressed words) | `''Spirited Away'' [movie title]` |
 | `❶ … ❿` | the conversation step marks (blue ❶ in モデル会話 / フローチャート), literal characters | `メ：❷ちょっと言いづらいんだけど` |
 | `[普]` | the 普 (plain form) badge of connection formulas (black circle) | `[普] !!（の）!!` |
 | `^^text^^` | 傍点 emphasis dots | `^^虫がよすぎる^^` |
@@ -117,6 +120,7 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 { t: "box", style: "gray" | "blue" | "frame" | "attention" | "task" | "strategy" | "challenge", title: Text, icon, ref, blocks: [Block] }
 //   attention — 💡ここにも注目      task — ✎ box (title, ref "（読み物2：行13〜15）")      strategy — ストラテジー box
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"] }   // Cell = Text | { text, colspan, rowspan, style }
+//   Cell style: "hl" shaded cell · "frame" the cell's text in a box (Q1 p.106 私 / 土曜日 / すし) · "center" · "right"
 { t: "words", items: [ { ja: "{悩|なや}む", en: "to worry" } ] }          // 単語 box
 { t: "figure", desc: "…", labels: ["満足度", "時間"] }  // an illustration / graph that matters: desc = our English description,
                                                          // labels = the Japanese printed in it (verbatim)
@@ -153,6 +157,12 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
 - A figure, chart or table printed **between paragraphs** of a text (図1 … in L10) goes into `lines` as an object
   `{ fig: Block }` at its place; it is not a line and doesn't count.
 - Interviews: the interviewer's question lines are bold as printed (`"¶**──…**"`).
+- `headTr`: our translation of each `#` title line, in order (one entry per `#` line; `""` for a line that continues the
+  title line before it, translated in that line's entry). The reading's own heading (`title`, outside `lines`) takes
+  `titleTr`; a reading without `title` has no `titleTr`.
+  `headTr: ["Club Activities Roundtable"]`, `headTr: ["Which Matters More in Choosing a Job: …", ""]`.
+- `speakers: true`: a round-table text whose turns start "name：" (`"¶ゴミス：日本に来て…"`); the name hangs left of
+  the turn's lines as printed (Q1 p.102, p.116).
 
 ### Dialogues
 
@@ -201,10 +211,14 @@ Example sentences in the form "A：… / B：…" are `examples` items with `lin
 - A note with sub-patterns (4. 〜こそ → ① Nこそ Y, ② XからこそY): `{ t: "sub", n: 1, pattern: "Nこそ Y", gloss: "it is N that Y" }`
   blocks followed by that sub-pattern's key / examples / conn. Example numbers continue as printed.
 - `key`: the blue box (one sentence, or dialogue lines with `sp`), with the book's English in `en`.
-- `examples` (the boxed ① ② …): `n` as printed; items may carry `sp` or `lines`; `tr` required. `style: "rei"` = 例） lines
+- `examples` (the boxed ① ② …): `n` as printed; items may carry `sp` or `lines`; `tr` required. A line's `sub: "a"` is
+  the a) b) c) label inside one numbered example (`{ n: 3, lines: [ { sub: "a", ja: "…", tr: "…" }, { sub: "b", … } ] }`,
+  also after `sp`: a speaker repeated on the next sub-label line is printed once). Never type "a) " into `ja` / `tr`. `style: "rei"` = 例） lines
   with `mark` ○ × △; `en` only where the book prints a translation.
 - `conn`: the connection box. `forms`: one entry per formula — a string, or a bracket stack
-  `{ stack: ["Vる", "Vた", "Nの"], join: "!!際（に）!!" }`; stack lines may start with `＊`. Its `blocks` are the English
+  `{ stack: ["Vる", "Vた", "Nの"], join: "!!際（に）!!" }` (the brace closes towards the join), or a shared part before
+  the brace, `{ lead: "N", stack: ["!!からみると!!", "!!からすると!!", "!!からいうと!!"] }` (the brace opens towards the
+  stack; `lead` and `join` may both be present); stack lines may start with `＊`. Never type ｛…／…｝ into a form. Its `blocks` are the English
   bullets and 例） lines printed in the box.
 
 ### Reading strategies (読みのストラテジー)
