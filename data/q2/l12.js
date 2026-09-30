@@ -1401,7 +1401,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N2, with 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
+     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N1; TRY! N2 teaches 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
     },
     {
      "t": "note",
