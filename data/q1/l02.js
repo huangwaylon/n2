@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to a senior colleague who referred me for a job, it's been settled that I can work in Japan."
+         "tr": "Thanks to my senpai, who introduced me to a job, it's been settled that I can work in Japan."
         },
         {
          "n": 2,
@@ -4732,7 +4732,7 @@ TRY.registerLesson({
        "sp": "美",
        "v": "f",
        "ja": "いいね。楽しそう！　あ、そうだ。これ知ってる？「桜の開花{予想|よそう}」。",
-       "tr": "Sounds good. That'll be fun! Oh, I know. Do you know about this? The “cherry blossom blooming forecast.”"
+       "tr": "Sounds good. That'll be fun! Oh, that reminds me. Do you know about this? The “cherry blossom blooming forecast.”"
       },
       {
        "sp": "サ",
@@ -5014,7 +5014,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "そう思ってテレビを見てみると、たとえば料理{番組|ばんぐみ}で料理の先生をほめる時など、「上手」という言葉は使われていません。その代わりに「色がきれいで{華|はな}やかですね」とか「とてもおいしいです」などと言っています。",
-       "tr": "With that in mind, I watched TV and found that when people compliment the chef on a cooking show, for example, they don't use the word 上手. Instead, they say things like “The colors are so pretty and vibrant” or “It's very delicious.”"
+       "tr": "With that in mind, I watched TV and found that when people compliment the chef on a cooking show, for example, they don't use the word 上手. Instead, they say things like “The colors are so pretty and vibrant” or “It's really delicious.”"
       },
       {
        "sp": "",
