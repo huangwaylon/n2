@@ -80,7 +80,7 @@ function optGroup(options, answer, labels, mode = "grid", tag) {
   // option was an unbreakable box that wrapped as a whole and stretched the sentence's line spacing
   if (mode === "inline") {
     return `<span class="opts opts--inline" data-answer="${answer}">（${options
-      .map((o, j) => `<span class="opt opt--inl" role="button" tabindex="0" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}.</span>\u2060${fmt(o)}</span>`)
+      .map((o, j) => `<span class="opt opt--inl${plain(o).length <= 8 ? " opt--nw" : ""}" role="button" tabindex="0" data-act="pick" data-j="${j}"><span class="opt-n">${optLabel(n, j, labels)}.</span>\u2060${fmt(o)}</span>`)
       .join('<span class="opt-sep">　</span>')}）</span>`;
   }
   if (options.every((o) => o === "")) return letterRow(n, (j) => optLabel(n, j, labels), answer, "", tag);

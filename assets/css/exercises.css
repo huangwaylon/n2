@@ -50,6 +50,8 @@
 .opt--inl { display: inline; border: 0; border-radius: 4px; padding: .8em .1em; margin: 0; background: none; background-clip: content-box; cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .opt--inl:focus-visible { outline: 2px solid var(--teal); outline-offset: -.6em; }
 .opt--inl .opt-n { font-size: .9em; margin-right: .15em; }
+/* a short option never breaks inside itself (a.ま／ま at 320); longer ones may wrap */
+.opt--nw { white-space: nowrap; }
 /* a one-kana option ("a.で") is under 44px wide: a centred 44px ::after widens its hit area without moving the text */
 .opt--inl { position: relative; }
 .opt--inl::after { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 44px; margin-left: -22px; }
