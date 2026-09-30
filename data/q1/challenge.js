@@ -1223,7 +1223,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "部下：部長、今朝のニュースを【a. ご{覧|らん}になり　b. {拝見|はいけん}し】ましたか。",
-         "tr": "Subordinate: Did you see the news this morning, sir?"
+         "tr": "Subordinate: Did you see the news this morning?"
         },
         "options": [
          "a. ご覧になり",
@@ -1248,7 +1248,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "社員A：社長が今日何時に【a. いらっしゃる　b. {参|まい}る】か知ってる？\n社員B：9時の{予定|よてい}だよ。",
-         "tr": "Employee A: Do you know what time the president is coming today?\nEmployee B: He's scheduled for nine."
+         "tr": "Employee A: Do you know what time the president is coming today?\nEmployee B: Nine, according to the schedule."
         },
         "options": [
          "a. いらっしゃる",
@@ -1749,7 +1749,7 @@ TRY.registerUnits([
        {
         "sp": "私",
         "ja": "今日は**いらっしゃいません**よ。",
-        "tr": "He isn't in today."
+        "tr": "Manager Kawamura isn't in today."
        }
       ]
      }
@@ -6989,7 +6989,7 @@ TRY.registerUnits([
     "page": 239,
     "text": {
      "ja": "「紙」と「髪」は読み方が同じですが、意味も漢字もまったく違います。このような単語を「{同音|どうおん}{異|い}{義|ぎ}{語|ご}」と言います。漢字を書く時に間違えないように気をつけましょう。",
-     "tr": "紙 (paper) and 髪 (hair) are read the same way, but their meanings and kanji are completely different. Words like these are called dōon igigo (homonyms). Be careful not to mix them up when you write kanji."
+     "tr": "紙 (paper) and 髪 (hair) are read the same way, but their meanings and kanji are completely different. Words like these are called dōon igigo (homophones). Be careful not to mix them up when you write kanji."
     }
    },
    {

@@ -3596,7 +3596,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "あ、管理人さん。おはようございます。",
-       "tr": "Oh, it's you. Good morning."
+       "tr": "Oh, good morning."
       },
       {
        "sp": "管",
