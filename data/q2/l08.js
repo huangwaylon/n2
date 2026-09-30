@@ -1111,7 +1111,7 @@ TRY.registerLesson({
            "en": "Idiomatic phrases are often used in place of X. [#1] and [#3] show such phrases: 〜とは言わないまでも and 〜とは言えないまでも (translated as “I can’t go so far as to call ~” and “You may not be able to call ~”). These idiomatic phrases mean that X may be an overstatement but Y is not."
           },
           {
-           "en": "When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker’s hope, とは言わないまでも is used instead of とは言えないまでも , as shown in [#2]."
+           "en": "When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker’s hope, とは言わないまでも is used instead of とは言えないまでも, as shown in [#2]."
           }
          ]
         }

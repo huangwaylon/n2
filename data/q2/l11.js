@@ -488,10 +488,10 @@ TRY.registerLesson({
          "en": "The words {遠慮|えんりょ} and 発達 appear in this passage six and five times, respectively. Their frequent use tells us that they are keywords tied to the writer’s message."
         },
         {
-         "en": "If we pay attention to the keywords 遠慮 and 発達 , we find that the word {察|さっ}する is related to them because it is used three times with them. At the same time, we can see that the word 自己主張 , which is opposite in meaning, is used in a contrast with 遠慮 and appears twice. Accordingly, we can consider 察する and 自己主張 to also be keywords."
+         "en": "If we pay attention to the keywords 遠慮 and 発達, we find that the word {察|さっ}する is related to them because it is used three times with them. At the same time, we can see that the word 自己主張, which is opposite in meaning, is used in a contrast with 遠慮 and appears twice. Accordingly, we can consider 察する and 自己主張 to also be keywords."
         },
         {
-         "en": "We can then put together the aforementioned keywords to summarize the writer’s message as 日本ではみんなが自己主張せず遠慮するので、察する心が発達する ."
+         "en": "We can then put together the aforementioned keywords to summarize the writer’s message as 日本ではみんなが自己主張せず遠慮するので、察する心が発達する."
         }
        ]
       },
@@ -744,7 +744,7 @@ TRY.registerLesson({
            "en": "〜てくれまいか and 〜てもらえまいか are formal, written forms of 〜てくれないだろうか and 〜てもらえないだろうか that are often used to quote a request [#3]."
           },
           {
-           "en": "〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか ."
+           "en": "〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか."
           },
           {
            "en": "When this structure is used to state the speaker’s determination not to do something, phrases such as 決して and 二度と are often added (examples [#5] and [#6])."
@@ -835,10 +835,10 @@ TRY.registerLesson({
            "en": "X すえに Y indicates that the speaker finally came to do Y after going through a complicated process (X)."
           },
           {
-           "en": "To emphasize that the process (X) was long and complicated, adverbs such as いろいろ , 何度も , {散々|さんざん} and 長い間 are often used."
+           "en": "To emphasize that the process (X) was long and complicated, adverbs such as いろいろ, 何度も, {散々|さんざん} and 長い間 are often used."
           },
           {
-           "en": "Y often includes adverbs such as 結局 , ついに , やっと and 最後には ."
+           "en": "Y often includes adverbs such as 結局, ついに, やっと and 最後には."
           }
          ]
         }
@@ -935,7 +935,7 @@ TRY.registerLesson({
            "en": "N まで connotes that the speaker is surprised that what is being discussed is in a range (N) that is beyond normal expectations."
           },
           {
-           "en": "The particles は , が , を and も are replaced by まで as in [#2] and [#4]."
+           "en": "The particles は, が, を and も are replaced by まで as in [#2] and [#4]."
           }
          ]
         },
@@ -958,7 +958,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "Other particles (e.g., で , に , と , など) precede まで , and take the word order “N + particle + まで,” as shown in [#1] and [#3]."
+           "en": "Other particles (e.g., で, に, と, など) precede まで, and take the word order “N + particle + まで,” as shown in [#1] and [#3]."
           }
          ]
         },
@@ -1069,7 +1069,7 @@ TRY.registerLesson({
            "en": "N であれ X is a written equivalent of N でも X."
           },
           {
-           "en": "N often takes noun phrases that include interrogatives (e.g., 誰 , 何 , どう , いつ , どんな)."
+           "en": "N often takes noun phrases that include interrogatives (e.g., 誰, 何, どう, いつ, どんな)."
           },
           {
            "en": "N₁ であれ N₂ であれ means “regardless of whether it is N₁ or N₂.” N₁ and N₂ are nouns that belong in the same category (see [#3])."
@@ -1078,7 +1078,7 @@ TRY.registerLesson({
            "en": "Using たとえ at the beginning of the sentence emphasizes the whole sentence (i.e., that X stands regardless of N)."
           },
           {
-           "en": "N であろうと is synonymous with N であれ ."
+           "en": "N であろうと is synonymous with N であれ."
           }
          ]
         },

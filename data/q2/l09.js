@@ -1538,7 +1538,7 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "In X ということは Y ということだ , X states the topic in discussion, and Y expresses the speaker’s opinion on the topic."
+           "en": "In X ということは Y ということだ, X states the topic in discussion, and Y expresses the speaker’s opinion on the topic."
           },
           {
            "en": "Y expresses inferences or conclusions based on X."
@@ -1668,7 +1668,7 @@ TRY.registerLesson({
            "en": "X はずがない is used when strongly denying the probability of X being true. The speaker’s belief is based on common sense."
           },
           {
-           "en": "The subject of the sentence (X) often takes the particle が ."
+           "en": "The subject of the sentence (X) often takes the particle が."
           },
           {
            "en": "~ないはずがない is a double negative construction, and it means something must be true, emphasizing the certainty of the statement ([#3])."
@@ -1819,7 +1819,7 @@ TRY.registerLesson({
            "en": "X わけがない expresses the speaker’s strong belief that X is impossible, or there is no reason for X to be true."
           },
           {
-           "en": "The subject of the sentence (X) is often marked by the particle が ."
+           "en": "The subject of the sentence (X) is often marked by the particle が."
           },
           {
            "en": "~ないわけがない is a double negative construction, and it means something must be true, emphasizing the certainty of the statement ([#2])."
@@ -1838,7 +1838,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "はずがない and わけがない mean the same thing, but have slight differences in nuance. Compared to はずがない , わけがない is considered to be a slightly more subjective and emotional negation made by the speaker."
+        "en": "はずがない and わけがない mean the same thing, but have slight differences in nuance. Compared to はずがない, わけがない is considered to be a slightly more subjective and emotional negation made by the speaker."
        }
       },
       {
@@ -1979,13 +1979,13 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "~得る can be pronounced as ~うる when it is in dictionary form; when it is in other forms (~得ない , ~得ます , ~得た , etc.), える is the only acceptable pronunciation. However, when the verb used with 得る is 考える , うる is used (see [#2])."
+           "en": "~得る can be pronounced as ~うる when it is in dictionary form; when it is in other forms (~得ない, ~得ます, ~得た, etc.), える is the only acceptable pronunciation. However, when the verb used with 得る is 考える, うる is used (see [#2])."
           },
           {
            "en": "~得る is generally used in writing, but あり得る and あり得ない are frequently used in speech, as in [#1]."
           },
           {
-           "en": "Not every verb can be used with this structure. Examples of acceptable verbs are: あり得る／あり得ない、起こり得る／起こり得ない、考え得る、予想し得る／予想し得ない、想像し得る／想像し得ない、理解し得る／理解し得ない ."
+           "en": "Not every verb can be used with this structure. Examples of acceptable verbs are: あり得る／あり得ない、起こり得る／起こり得ない、考え得る、予想し得る／予想し得ない、想像し得る／想像し得ない、理解し得る／理解し得ない."
           }
          ]
         }
@@ -2087,7 +2087,7 @@ TRY.registerLesson({
            "en": "V もしない expresses that someone does not do V, and implies that the speaker is discontent with it."
           },
           {
-           "en": "In the case of verbs that are used with する (e.g., 勉強する , 掃除する ), verbal nouns are often used instead of the verbs ([#5])."
+           "en": "In the case of verbs that are used with する (e.g., 勉強する, 掃除する), verbal nouns are often used instead of the verbs ([#5])."
           }
          ]
         },

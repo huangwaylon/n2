@@ -1246,7 +1246,7 @@ l8.sections.0.blocks.24.blocks.1.items.4.lines.1.ja	うん。いろいろなジ�
 l8.sections.0.blocks.24.blocks.2.forms.0	Vない !!までも!!
 l8.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	X ないまでも Y is used to make a statement about Y, which is considered to be a lower standard than X. This structure implies that X is much more desirable than Y. Although Y is considered to be less desirable than X, Y takes a condition that is still good enough.
 l8.sections.0.blocks.24.blocks.2.blocks.0.items.1.en	Idiomatic phrases are often used in place of X. [#1] and [#3] show such phrases: 〜とは言わないまでも and 〜とは言えないまでも (translated as “I can’t go so far as to call ~” and “You may not be able to call ~”). These idiomatic phrases mean that X may be an overstatement but Y is not.
-l8.sections.0.blocks.24.blocks.2.blocks.0.items.2.en	When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker’s hope, とは言わないまでも is used instead of とは言えないまでも , as shown in [#2].
+l8.sections.0.blocks.24.blocks.2.blocks.0.items.2.en	When Y expresses a minimum hope held by the speaker, せめて or 少なくとも is often used with the structure (see [#2], [#4] and [#5]). Additionally, when the above idiomatic phrase is used to express the speaker’s hope, とは言わないまでも is used instead of とは言えないまでも, as shown in [#2].
 l8.sections.0.blocks.25.pattern	〜とともに
 l8.sections.0.blocks.25.blocks.0.pattern	Nとともに
 l8.sections.0.blocks.25.blocks.0.gloss	together with N
@@ -2376,7 +2376,7 @@ l9.sections.0.blocks.24.blocks.1.items.3.lines.0.ja	そろそろ両親の家を�
 l9.sections.0.blocks.24.blocks.1.items.3.lines.1.sp	B
 l9.sections.0.blocks.24.blocks.1.items.3.lines.1.ja	一人暮らしをする**ということは**、経済的に{自立|じりつ}するということだよ。今の給料で生活していけそう？
 l9.sections.0.blocks.24.blocks.2.forms.0	Sentence !!ということは!!
-l9.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	In X ということは Y ということだ , X states the topic in discussion, and Y expresses the speaker’s opinion on the topic.
+l9.sections.0.blocks.24.blocks.2.blocks.0.items.0.en	In X ということは Y ということだ, X states the topic in discussion, and Y expresses the speaker’s opinion on the topic.
 l9.sections.0.blocks.24.blocks.2.blocks.0.items.1.en	Y expresses inferences or conclusions based on X.
 l9.sections.0.blocks.24.blocks.3.text.en	☛ Nというものは
 l9.sections.0.blocks.24.blocks.4.text.en	When stating the speaker’s interpretation on N, N というものは is used.
@@ -2405,7 +2405,7 @@ l9.sections.0.blocks.25.blocks.2.forms.0.stack.1	＊なA~~だ~~ → な／であ
 l9.sections.0.blocks.25.blocks.2.forms.0.stack.2	＊N~~だ~~ → の／である
 l9.sections.0.blocks.25.blocks.2.forms.0.join	!!はずがない!!
 l9.sections.0.blocks.25.blocks.2.blocks.0.items.0.en	X はずがない is used when strongly denying the probability of X being true. The speaker’s belief is based on common sense.
-l9.sections.0.blocks.25.blocks.2.blocks.0.items.1.en	The subject of the sentence (X) often takes the particle が .
+l9.sections.0.blocks.25.blocks.2.blocks.0.items.1.en	The subject of the sentence (X) often takes the particle が.
 l9.sections.0.blocks.25.blocks.2.blocks.0.items.2.en	~ないはずがない is a double negative construction, and it means something must be true, emphasizing the certainty of the statement ([#3]).
 l9.sections.0.blocks.25.blocks.2.blocks.1.rows.0.0	〜ない
 l9.sections.0.blocks.25.blocks.2.blocks.1.rows.0.1	×
@@ -2448,10 +2448,10 @@ l9.sections.0.blocks.26.blocks.2.forms.0.stack.1	＊なA~~だ~~ → な
 l9.sections.0.blocks.26.blocks.2.forms.0.stack.2	＊N~~だ~~ → の／な
 l9.sections.0.blocks.26.blocks.2.forms.0.join	!!わけがない!!
 l9.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	X わけがない expresses the speaker’s strong belief that X is impossible, or there is no reason for X to be true.
-l9.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	The subject of the sentence (X) is often marked by the particle が .
+l9.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	The subject of the sentence (X) is often marked by the particle が.
 l9.sections.0.blocks.26.blocks.2.blocks.0.items.2.en	~ないわけがない is a double negative construction, and it means something must be true, emphasizing the certainty of the statement ([#2]).
 l9.sections.0.blocks.26.blocks.3.text.en	☛ はずがない and わけがない
-l9.sections.0.blocks.26.blocks.4.text.en	はずがない and わけがない mean the same thing, but have slight differences in nuance. Compared to はずがない , わけがない is considered to be a slightly more subjective and emotional negation made by the speaker.
+l9.sections.0.blocks.26.blocks.4.text.en	はずがない and わけがない mean the same thing, but have slight differences in nuance. Compared to はずがない, わけがない is considered to be a slightly more subjective and emotional negation made by the speaker.
 l9.sections.0.blocks.26.blocks.5.label	例1）
 l9.sections.0.blocks.26.blocks.5.items.0.ja	今日は日曜日だから、銀行が開いている__はずがない__。
 l9.sections.0.blocks.26.blocks.5.items.0.en	It’s Sunday today, so the bank shouldn’t be open.
@@ -2483,9 +2483,9 @@ l9.sections.0.blocks.27.blocks.2.blocks.0.items.0.en	V {得|え}る or V {得|�
 l9.sections.0.blocks.27.blocks.2.blocks.0.items.1.en	This structure is not used to discuss a possibility that is based on the person’s ability or credentials. In such cases, potential forms are used.
 l9.sections.0.blocks.27.blocks.2.blocks.1.items.0.ja	車の運転をし__得ない__。
 l9.sections.0.blocks.27.blocks.2.blocks.1.items.1.ja	車が運転__できない__。
-l9.sections.0.blocks.27.blocks.2.blocks.2.items.0.en	~得る can be pronounced as ~うる when it is in dictionary form; when it is in other forms (~得ない , ~得ます , ~得た , etc.), える is the only acceptable pronunciation. However, when the verb used with 得る is 考える , うる is used (see [#2]).
+l9.sections.0.blocks.27.blocks.2.blocks.2.items.0.en	~得る can be pronounced as ~うる when it is in dictionary form; when it is in other forms (~得ない, ~得ます, ~得た, etc.), える is the only acceptable pronunciation. However, when the verb used with 得る is 考える, うる is used (see [#2]).
 l9.sections.0.blocks.27.blocks.2.blocks.2.items.1.en	~得る is generally used in writing, but あり得る and あり得ない are frequently used in speech, as in [#1].
-l9.sections.0.blocks.27.blocks.2.blocks.2.items.2.en	Not every verb can be used with this structure. Examples of acceptable verbs are: あり得る／あり得ない、起こり得る／起こり得ない、考え得る、予想し得る／予想し得ない、想像し得る／想像し得ない、理解し得る／理解し得ない .
+l9.sections.0.blocks.27.blocks.2.blocks.2.items.2.en	Not every verb can be used with this structure. Examples of acceptable verbs are: あり得る／あり得ない、起こり得る／起こり得ない、考え得る、予想し得る／予想し得ない、想像し得る／想像し得ない、理解し得る／理解し得ない.
 l9.sections.0.blocks.28.pattern	〜もしない
 l9.sections.0.blocks.28.gloss	not even ~ing
 l9.sections.0.blocks.28.ref	読み物2-行49
@@ -2508,7 +2508,7 @@ l9.sections.0.blocks.28.blocks.1.items.3.lines.1.ja	自転車で日本一周か�
 l9.sections.0.blocks.28.blocks.1.items.4.ja	自動運転など、50年前には想像**もしていなかった**ことが現実になっている。
 l9.sections.0.blocks.28.blocks.2.forms.0	V~~ます~~ !!もしない!!
 l9.sections.0.blocks.28.blocks.2.blocks.0.items.0.en	V もしない expresses that someone does not do V, and implies that the speaker is discontent with it.
-l9.sections.0.blocks.28.blocks.2.blocks.0.items.1.en	In the case of verbs that are used with する (e.g., 勉強する , 掃除する ), verbal nouns are often used instead of the verbs ([#5]).
+l9.sections.0.blocks.28.blocks.2.blocks.0.items.1.en	In the case of verbs that are used with する (e.g., 勉強する, 掃除する), verbal nouns are often used instead of the verbs ([#5]).
 l9.sections.0.blocks.28.blocks.2.blocks.1.items.0.ja	__勉強し__もしない
 l9.sections.0.blocks.28.blocks.2.blocks.1.items.1.ja	__勉強__もしない
 l9.sections.0.blocks.28.blocks.2.blocks.2.items.0.en	思いつきもしなかった ([#4]), 想像もしなかった ([#5]) and 考えもしなかった are frequently used expressions that mean the subject has never even imagined/thought about something.
@@ -4156,10 +4156,10 @@ l10.sections.0.blocks.21.blocks.3.forms.0.stack.1	いVい
 l10.sections.0.blocks.21.blocks.3.forms.0.stack.2	なA
 l10.sections.0.blocks.21.blocks.3.forms.0.stack.3	N（であり）
 l10.sections.0.blocks.21.blocks.3.forms.0.join	!!ながら!!
-l10.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , [#Vて]いる , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2]).
+l10.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる, [#Vて]いる, N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2]).
 l10.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	X and Y take the same subject.
-l10.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	X takes only certain い-adjectives, な-adjectives and nouns (e.g., 小さい , 若い , 小ぶりな , 子ども , 小学生). When used with those adjectives and nouns, it often conveys a positive impression of the person or thing described regardless of the small size or powerlessness ([#3] and [#4]).
-l10.sections.0.blocks.21.blocks.3.blocks.0.items.3.en	残念ながら , {勝手|かって}ながら and 当然ながら are idioms used as set phrases to introduce a statement. They are synonymous to 〜ですが , and do not mean “although. (see [#5])”
+l10.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	X takes only certain い-adjectives, な-adjectives and nouns (e.g., 小さい, 若い, 小ぶりな, 子ども, 小学生). When used with those adjectives and nouns, it often conveys a positive impression of the person or thing described regardless of the small size or powerlessness ([#3] and [#4]).
+l10.sections.0.blocks.21.blocks.3.blocks.0.items.3.en	残念ながら, {勝手|かって}ながら and 当然ながら are idioms used as set phrases to introduce a statement. They are synonymous to 〜ですが, and do not mean “although. (see [#5])”
 l10.sections.0.blocks.21.blocks.4.text.en	☛ V₁ながら V₂ ⟨do V₁ and V₂ at the same time⟩
 l10.sections.0.blocks.21.blocks.5.text.en	V₁ ながら V₂ means that the subject does two actions (V₁ and V₂) simultaneously. Both V₁ and V₂ are action verbs in this usage.
 l10.sections.0.blocks.21.blocks.6.items.0.ja	音楽を聞き__ながら__勉強します。
@@ -4181,7 +4181,7 @@ l10.sections.0.blocks.22.blocks.1.items.2.ja	学生が多い町**ほど**、安�
 l10.sections.0.blocks.22.blocks.1.items.3.ja	急いでいる時**ほど**、忘れ物がないかちゃんとチェックしたほうがいい。
 l10.sections.0.blocks.22.blocks.2.forms.0	N !!ほど!!
 l10.sections.0.blocks.22.blocks.2.blocks.0.items.0.en	N ほど Y states that the degree of Y increases as N increases. Typically, this relationship between N and Y is a general tendency and not a rule.
-l10.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	Phrases expressing an amount or degree are used before ほど . As such, N includes adjectives or nominal modifiers that describe amount or degree (e.g., 高い , 大きい , 近い , よく〜).
+l10.sections.0.blocks.22.blocks.2.blocks.0.items.1.en	Phrases expressing an amount or degree are used before ほど. As such, N includes adjectives or nominal modifiers that describe amount or degree (e.g., 高い, 大きい, 近い, よく〜).
 l10.sections.0.blocks.22.blocks.2.blocks.1.items.0.ja	駅に近いアパートほど、人気がある。
 l10.sections.0.blocks.22.blocks.2.blocks.1.items.0.en	Apartments closer to a train station are more popular (than the ones far from stations).
 l10.sections.0.blocks.22.blocks.2.blocks.1.items.1.ja	アパートほど、人気がある。
@@ -5092,8 +5092,8 @@ l11.sections.0.blocks.15.blocks.4.items.0.en	to be diffident/reserved
 l11.sections.0.blocks.15.blocks.4.items.1.ja	{察|さっ}する
 l11.sections.0.blocks.15.blocks.4.items.1.en	to guess (someone’s feeling)
 l11.sections.0.blocks.15.blocks.5.items.0.en	The words {遠慮|えんりょ} and 発達 appear in this passage six and five times, respectively. Their frequent use tells us that they are keywords tied to the writer’s message.
-l11.sections.0.blocks.15.blocks.5.items.1.en	If we pay attention to the keywords 遠慮 and 発達 , we find that the word {察|さっ}する is related to them because it is used three times with them. At the same time, we can see that the word 自己主張 , which is opposite in meaning, is used in a contrast with 遠慮 and appears twice. Accordingly, we can consider 察する and 自己主張 to also be keywords.
-l11.sections.0.blocks.15.blocks.5.items.2.en	We can then put together the aforementioned keywords to summarize the writer’s message as 日本ではみんなが自己主張せず遠慮するので、察する心が発達する .
+l11.sections.0.blocks.15.blocks.5.items.1.en	If we pay attention to the keywords 遠慮 and 発達, we find that the word {察|さっ}する is related to them because it is used three times with them. At the same time, we can see that the word 自己主張, which is opposite in meaning, is used in a contrast with 遠慮 and appears twice. Accordingly, we can consider 察する and 自己主張 to also be keywords.
+l11.sections.0.blocks.15.blocks.5.items.2.en	We can then put together the aforementioned keywords to summarize the writer’s message as 日本ではみんなが自己主張せず遠慮するので、察する心が発達する.
 l11.sections.0.blocks.15.blocks.6.title.ja	「よろしく──日本語 表と裏」を読んで、次の質問に答えなさい。
 l11.sections.0.blocks.15.blocks.6.title.en	Read よろしく─日本語 表と裏 and answer the following questions.
 l11.sections.0.blocks.15.blocks.6.ref	（読み物1）
@@ -5149,7 +5149,7 @@ l11.sections.0.blocks.18.blocks.2.forms.0	Vる !!まい!!
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.0.en	〜まい can be used in two ways: (a) to express the speaker’s speculation that something is not the case ([#1] through [#4]), and (b) to state the speaker’s determination not to do something ([#5] and [#6]).
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.1.en	Generally, まい is attached to the dictionary form of verbs, but in case of ''ru''-verbs, it can also be used with the stem form ([#V~~ます~~]), as shown in [#3] and [#5].
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.2.en	〜てくれまいか and 〜てもらえまいか are formal, written forms of 〜てくれないだろうか and 〜てもらえないだろうか that are often used to quote a request [#3].
-l11.sections.0.blocks.18.blocks.2.blocks.0.items.3.en	〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか .
+l11.sections.0.blocks.18.blocks.2.blocks.0.items.3.en	〜(の)ではあるまいか in [#4] is a formal/written equivalent of 〜(の)ではないだろうか.
 l11.sections.0.blocks.18.blocks.2.blocks.0.items.4.en	When this structure is used to state the speaker’s determination not to do something, phrases such as 決して and 二度と are often added (examples [#5] and [#6]).
 l11.sections.0.blocks.19.pattern	〜すえ（に）
 l11.sections.0.blocks.19.gloss	after ~; finally
@@ -5168,8 +5168,8 @@ l11.sections.0.blocks.19.blocks.2.forms.0.stack.0	Vた
 l11.sections.0.blocks.19.blocks.2.forms.0.stack.1	Nの
 l11.sections.0.blocks.19.blocks.2.forms.0.join	!!すえ（に）!!
 l11.sections.0.blocks.19.blocks.2.blocks.0.items.0.en	X すえに Y indicates that the speaker finally came to do Y after going through a complicated process (X).
-l11.sections.0.blocks.19.blocks.2.blocks.0.items.1.en	To emphasize that the process (X) was long and complicated, adverbs such as いろいろ , 何度も , {散々|さんざん} and 長い間 are often used.
-l11.sections.0.blocks.19.blocks.2.blocks.0.items.2.en	Y often includes adverbs such as 結局 , ついに , やっと and 最後には .
+l11.sections.0.blocks.19.blocks.2.blocks.0.items.1.en	To emphasize that the process (X) was long and complicated, adverbs such as いろいろ, 何度も, {散々|さんざん} and 長い間 are often used.
+l11.sections.0.blocks.19.blocks.2.blocks.0.items.2.en	Y often includes adverbs such as 結局, ついに, やっと and 最後には.
 l11.sections.0.blocks.20.pattern	Nまで
 l11.sections.0.blocks.20.gloss	even
 l11.sections.0.blocks.20.ref	読み物1-行31
@@ -5191,10 +5191,10 @@ l11.sections.0.blocks.20.blocks.1.items.2.lines.1.ja	ええ。おふろの中に
 l11.sections.0.blocks.20.blocks.1.items.3.ja	私のピアノの先生はとても{厳|きび}しい。最近、好きだったピアノそのもの**まで**嫌いになってきた。
 l11.sections.0.blocks.20.blocks.2.forms.0	N (prt.) !!まで!!
 l11.sections.0.blocks.20.blocks.2.blocks.0.items.0.en	N まで connotes that the speaker is surprised that what is being discussed is in a range (N) that is beyond normal expectations.
-l11.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	The particles は , が , を and も are replaced by まで as in [#2] and [#4].
+l11.sections.0.blocks.20.blocks.2.blocks.0.items.1.en	The particles は, が, を and も are replaced by まで as in [#2] and [#4].
 l11.sections.0.blocks.20.blocks.2.blocks.1.items.0.ja	お年寄り__が__　　SNSを使っている。
 l11.sections.0.blocks.20.blocks.2.blocks.1.items.1.ja	お年寄り~~が~~**まで**SNSを使っている。
-l11.sections.0.blocks.20.blocks.2.blocks.2.items.0.en	Other particles (e.g., で , に , と , など) precede まで , and take the word order “N + particle + まで,” as shown in [#1] and [#3].
+l11.sections.0.blocks.20.blocks.2.blocks.2.items.0.en	Other particles (e.g., で, に, と, など) precede まで, and take the word order “N + particle + まで,” as shown in [#1] and [#3].
 l11.sections.0.blocks.20.blocks.2.blocks.3.items.0.ja	スマートフォンをおふろの中__に__　　持っていく。
 l11.sections.0.blocks.20.blocks.2.blocks.3.items.1.ja	スマートフォンをおふろの中__に__**まで**持っていく。
 l11.sections.0.blocks.20.blocks.2.blocks.3.items.1.en	I take my smartphone everywhere—even to the bathroom.
@@ -5216,10 +5216,10 @@ l11.sections.0.blocks.21.blocks.2.items.0.ja	たとえどんなに小さな国**
 l11.sections.0.blocks.21.blocks.2.items.1.ja	理由が何**であれ**、人を傷つけることを言うべきではない。
 l11.sections.0.blocks.21.blocks.3.forms.0	N !!であれ!!
 l11.sections.0.blocks.21.blocks.3.blocks.0.items.0.en	N であれ X is a written equivalent of N でも X.
-l11.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	N often takes noun phrases that include interrogatives (e.g., 誰 , 何 , どう , いつ , どんな).
+l11.sections.0.blocks.21.blocks.3.blocks.0.items.1.en	N often takes noun phrases that include interrogatives (e.g., 誰, 何, どう, いつ, どんな).
 l11.sections.0.blocks.21.blocks.3.blocks.0.items.2.en	N₁ であれ N₂ であれ means “regardless of whether it is N₁ or N₂.” N₁ and N₂ are nouns that belong in the same category (see [#3]).
 l11.sections.0.blocks.21.blocks.3.blocks.0.items.3.en	Using たとえ at the beginning of the sentence emphasizes the whole sentence (i.e., that X stands regardless of N).
-l11.sections.0.blocks.21.blocks.3.blocks.0.items.4.en	N であろうと is synonymous with N であれ .
+l11.sections.0.blocks.21.blocks.3.blocks.0.items.4.en	N であろうと is synonymous with N であれ.
 l11.sections.0.blocks.21.blocks.3.blocks.1.items.0.ja	理由が何__であろうと__、人を{傷|きず}つけることを言うべきではない。（＝[#5]）
 l11.sections.0.blocks.22.pattern	〜かねない
 l11.sections.0.blocks.22.gloss	could ~; might ~
@@ -6164,7 +6164,7 @@ l12.sections.0.blocks.18.blocks.2.items.1.lines.1.ja	**一口に**日本**とい
 l12.sections.0.blocks.18.blocks.2.items.2.ja	山の木を見ていると、緑**といっても**自然の中には様々な緑が存在することに気がつく。
 l12.sections.0.blocks.18.blocks.3.forms.0	{一口|ひとくち}に N !!といっても!!
 l12.sections.0.blocks.18.blocks.3.blocks.0.items.0.en	{一口|ひとくち}に is an adverb that means “in one word.” 一口に X といっても Y is used to make a statement (Y) that there are many different types of items even if they are grouped together into one simple category/word.
-l12.sections.0.blocks.18.blocks.3.blocks.0.items.1.en	Words such as いろいろ , 様々 and 多様 are often used in statement Y.
+l12.sections.0.blocks.18.blocks.3.blocks.0.items.1.en	Words such as いろいろ, 様々 and 多様 are often used in statement Y.
 l12.sections.0.blocks.18.blocks.3.blocks.0.items.2.en	一口に can be omitted in this structure, as shown in [#3].
 l12.sections.0.blocks.18.blocks.4.pattern	X といっても Y
 l12.sections.0.blocks.18.blocks.4.gloss	Although X, it is only/just Y
@@ -6192,7 +6192,7 @@ l12.sections.0.blocks.18.blocks.7.forms.0.stack.1	＊なA（だ）
 l12.sections.0.blocks.18.blocks.7.forms.0.stack.2	＊N~~だ~~
 l12.sections.0.blocks.18.blocks.7.forms.0.join	!!といっても!!
 l12.sections.0.blocks.18.blocks.7.blocks.0.items.0.en	X といっても Y means X is true, but technically speaking, Y is more accurate. It is used in a situation where people might expect something (X) that is more extreme than the reality (Y).
-l12.sections.0.blocks.18.blocks.7.blocks.0.items.1.en	X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) 〜だけ , (それ) ほど〜ない , and 〜わけではない” are phrases that are often used with this structure.
+l12.sections.0.blocks.18.blocks.7.blocks.0.items.1.en	X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) 〜だけ, (それ) ほど〜ない, and 〜わけではない” are phrases that are often used with this structure.
 l12.sections.0.blocks.19.pattern	〜がち
 l12.sections.0.blocks.19.gloss	be liable to do
 l12.sections.0.blocks.19.ref	読み物1-行17
@@ -6234,18 +6234,18 @@ l12.sections.0.blocks.20.blocks.2.items.0.lines.1.ja	はい、気をつけます
 l12.sections.0.blocks.20.blocks.2.items.1.ja	〔店のポスター〕「スタッフ{募集|ぼしゅう}！　スキルや経験**に応じて**仕事をお{任|まか}せします」
 l12.sections.0.blocks.20.blocks.3.forms.0	N !!に応じて!!
 l12.sections.0.blocks.20.blocks.3.blocks.0.items.0.en	N に応じて V means “V depending on N.”
-l12.sections.0.blocks.20.blocks.3.blocks.0.items.1.en	N takes nouns that indicate changes or have variability (e.g., 季節 , 状況). V takes verbs that mean to cause a change or to adapt (e.g., 変える).
+l12.sections.0.blocks.20.blocks.3.blocks.0.items.1.en	N takes nouns that indicate changes or have variability (e.g., 季節, 状況). V takes verbs that mean to cause a change or to adapt (e.g., 変える).
 l12.sections.0.blocks.20.blocks.3.blocks.0.items.2.en	When used as a noun modifier, N₁ に応じた precedes the noun that is being modified (N₂). It means “N₂ that is appropriate for N₁.”
 l12.sections.0.blocks.20.blocks.3.blocks.1.items.0.ja	親は子どもの年齢__に応じた__教育をする必要がある。
 l12.sections.0.blocks.20.blocks.4.text.en	☛ 〜に応じて and 〜によって
-l12.sections.0.blocks.20.blocks.5.text.en	As stated above, verbs used in N に応じて X are verbs representing actions that cause a change, whereas N によって X can take intransitive verbs such as 変わる , 違う and 異なる .
+l12.sections.0.blocks.20.blocks.5.text.en	As stated above, verbs used in N に応じて X are verbs representing actions that cause a change, whereas N によって X can take intransitive verbs such as 変わる, 違う and 異なる.
 l12.sections.0.blocks.20.blocks.6.label	例1）
 l12.sections.0.blocks.20.blocks.6.items.0.ja	与える食事の量は、ペットの年齢｛○に応じて／○によって｝__変える__べきだ。
 l12.sections.0.blocks.20.blocks.6.items.0.en	You should adjust the amount of food you give to your pet, depending on its age.
 l12.sections.0.blocks.20.blocks.7.label	例2）
 l12.sections.0.blocks.20.blocks.7.items.0.ja	与える食事の量は、ペットの年齢｛×に応じて／○によって｝__違う__。
 l12.sections.0.blocks.20.blocks.7.items.0.en	The amount of food you should give to your pet is different depending on its age.
-l12.sections.0.blocks.20.blocks.8.text.en	Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, 〜に応じて should be used instead of 〜によって .
+l12.sections.0.blocks.20.blocks.8.text.en	Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, 〜に応じて should be used instead of 〜によって.
 l12.sections.0.blocks.20.blocks.9.label	例3）
 l12.sections.0.blocks.20.blocks.9.items.0.ja	食事の量は年齢｛○に応じて／×によって｝__見直す__べきだ。
 l12.sections.0.blocks.20.blocks.9.items.0.en	You should adjust the amount of food according to your age.
@@ -6338,7 +6338,7 @@ l12.sections.0.blocks.24.blocks.3.forms.0.stack.0	Vる
 l12.sections.0.blocks.24.blocks.3.forms.0.stack.1	Nの
 l12.sections.0.blocks.24.blocks.3.forms.0.join	!!うえで!!
 l12.sections.0.blocks.24.blocks.3.blocks.0.items.0.en	X うえで is used to mention important factors, issues, or considerations for X.
-l12.sections.0.blocks.24.blocks.3.blocks.0.items.1.en	X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な , 大切な , 必要な , 難しい , 注意すべき , 問題になる , etc.
+l12.sections.0.blocks.24.blocks.3.blocks.0.items.1.en	X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な, 大切な, 必要な, 難しい, 注意すべき, 問題になる, etc.
 l12.sections.0.blocks.24.blocks.3.blocks.0.items.2.en	As in [#4], N のうえで takes the noun form of ''suru''-verbs.
 l12.sections.0.blocks.24.blocks.4.pattern	[#V₁た]／Nのうえで V₂
 l12.sections.0.blocks.24.blocks.4.gloss	V₂ based on the result of V₁-ing
@@ -6356,7 +6356,7 @@ l12.sections.0.blocks.24.blocks.7.forms.0.stack.0	V₁た
 l12.sections.0.blocks.24.blocks.7.forms.0.stack.1	Nの
 l12.sections.0.blocks.24.blocks.7.forms.0.join	!!うえで!! V₂
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.0.en	V₁ うえで V₂ describes a sequence of actions or events; the subject does V₁ first, then V₂.
-l12.sections.0.blocks.24.blocks.7.blocks.0.items.1.en	V₁ takes actions done as a preparation for V₂ (e.g., 調べた , 考えた , 相談した).
+l12.sections.0.blocks.24.blocks.7.blocks.0.items.1.en	V₁ takes actions done as a preparation for V₂ (e.g., 調べた, 考えた, 相談した).
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.2.en	V₂ takes actions that are done as a result of V₁.
 l12.sections.0.blocks.24.blocks.7.blocks.0.items.3.en	As in [#8], N のうえで takes the noun form of ''suru''-verbs.
 l12.sections.0.blocks.25.pattern	〜そうになる
@@ -6392,8 +6392,8 @@ l12.sections.0.blocks.26.blocks.1.items.1.ja	失敗を恐れること**なかれ
 l12.sections.0.blocks.26.blocks.1.items.2.ja	小さな虫だと思い、{蚊|か}を{侮|あなど}る**なかれ**。マラリアなどの病気を運んでくるからだ。
 l12.sections.0.blocks.26.blocks.1.items.3.ja	驚くこと**なかれ**。この小さな{田舎|いなか}{町|まち}に、今、全国から観光客が集まっている。
 l12.sections.0.blocks.26.blocks.2.forms.0	Vる（こと） !!なかれ!!
-l12.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	〜なかれ is a command form of ない , and it indicates prohibition (i.e., 〜ないで ).
-l12.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	〜なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ , and they are used as idioms.
+l12.sections.0.blocks.26.blocks.2.blocks.0.items.0.en	〜なかれ is a command form of ない, and it indicates prohibition (i.e., 〜ないで).
+l12.sections.0.blocks.26.blocks.2.blocks.0.items.1.en	〜なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ, and they are used as idioms.
 l12.sections.0.blocks.26.blocks.2.blocks.1.items.0.ja	思う（こと）なかれ
 l12.sections.0.blocks.26.blocks.2.blocks.1.items.1.ja	恐れる（こと）なかれ
 l12.sections.0.blocks.26.blocks.2.blocks.1.items.2.ja	驚く（こと）なかれ
@@ -6440,7 +6440,7 @@ l12.sections.0.blocks.28.blocks.1.items.4.ja	電車のドアが開く**なり**�
 l12.sections.0.blocks.28.blocks.2.forms.0	Vる !!なり!!
 l12.sections.0.blocks.28.blocks.2.blocks.0.items.0.en	X なり Y means that as soon as action X was done, another action or an unexpected event (Y) followed. Regardless of whether Y is an action or an event, the subject of Y is never the speaker.
 l12.sections.0.blocks.28.blocks.2.blocks.0.items.1.en	Y only takes verbs in the past tense. The present tense, future tense, command form, or a request form is not used in Y.
-l12.sections.0.blocks.28.blocks.2.blocks.0.items.2.en	Y often takes expressions that describe a specific moment in time. Examples of such expressions are: 〜てきた / 〜ていった , and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time).
+l12.sections.0.blocks.28.blocks.2.blocks.0.items.2.en	Y often takes expressions that describe a specific moment in time. Examples of such expressions are: 〜てきた / 〜ていった, and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time).
 l12.sections.0.blocks.28.blocks.2.blocks.1.items.0.ja	山田さんは店を出るなり、__走り出した__。
 l12.sections.0.blocks.28.blocks.2.blocks.1.items.0.en	Yamada started running as soon as he stepped out of the store.
 l12.sections.0.blocks.28.blocks.2.blocks.1.items.1.ja	山田さんは店を出るなり、__走っていった__。

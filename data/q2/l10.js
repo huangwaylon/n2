@@ -2432,16 +2432,16 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる , [#Vて]いる , N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2])."
+           "en": "X ながら Y means “Y although X.” X refers to a particular state or situation, and thus expressions describing situations or states are often used for X (e.g., ある / いる, [#Vて]いる, N である). X ながら Y often implies that the speaker holds a critical view towards the statement ([#1] and [#2])."
           },
           {
            "en": "X and Y take the same subject."
           },
           {
-           "en": "X takes only certain い-adjectives, な-adjectives and nouns (e.g., 小さい , 若い , 小ぶりな , 子ども , 小学生). When used with those adjectives and nouns, it often conveys a positive impression of the person or thing described regardless of the small size or powerlessness ([#3] and [#4])."
+           "en": "X takes only certain い-adjectives, な-adjectives and nouns (e.g., 小さい, 若い, 小ぶりな, 子ども, 小学生). When used with those adjectives and nouns, it often conveys a positive impression of the person or thing described regardless of the small size or powerlessness ([#3] and [#4])."
           },
           {
-           "en": "残念ながら , {勝手|かって}ながら and 当然ながら are idioms used as set phrases to introduce a statement. They are synonymous to 〜ですが , and do not mean “although. (see [#5])”"
+           "en": "残念ながら, {勝手|かって}ながら and 当然ながら are idioms used as set phrases to introduce a statement. They are synonymous to 〜ですが, and do not mean “although. (see [#5])”"
           }
          ]
         }
@@ -2552,7 +2552,7 @@ TRY.registerLesson({
            "en": "N ほど Y states that the degree of Y increases as N increases. Typically, this relationship between N and Y is a general tendency and not a rule."
           },
           {
-           "en": "Phrases expressing an amount or degree are used before ほど . As such, N includes adjectives or nominal modifiers that describe amount or degree (e.g., 高い , 大きい , 近い , よく〜)."
+           "en": "Phrases expressing an amount or degree are used before ほど. As such, N includes adjectives or nominal modifiers that describe amount or degree (e.g., 高い, 大きい, 近い, よく〜)."
           }
          ]
         },

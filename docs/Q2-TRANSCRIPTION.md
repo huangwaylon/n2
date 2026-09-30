@@ -65,7 +65,10 @@ Read `data/Q2-SCHEMA.md` first (the data format). **The PDF is the source of tru
 - **Bold** (`**…**`) where the book prints bold: target grammar in note examples, key phrases in model conversations,
   interviewer lines in interviews.
 - **English**: the book's printed English goes in `en`, **verbatim**, American/British spelling and typos included
-  (report a typo, don't fix it). Our translations go in `tr`: accurate, natural American English, faithful to the
+  (report a typo, don't fix it). Spacing is not transcribed from the glyph gaps: the book sets Japanese words in its
+  English with full-width boxes, so a half-width `.` `,` `)` after a Japanese word (and a `(` before one) looks spaced
+  on the scan. Type no space there: `the particle が.`, `(e.g., 季節, 状況)`, `(i.e., 〜ないで)` — not `が .`,
+  `季節 ,`, `〜ないで )`. Keep the spaces between words (`N によって X`, `Y 点は`). Our translations go in `tr`: accurate, natural American English, faithful to the
   Japanese (not to any other translation), consistent with the answer keys. Every Japanese sentence that has no book
   English gets `tr`.
 - Illustrations are not reproduced. When a picture carries information needed for a task (a graph, a map, a situation

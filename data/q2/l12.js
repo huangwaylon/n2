@@ -936,7 +936,7 @@ TRY.registerLesson({
            "en": "{一口|ひとくち}に is an adverb that means “in one word.” 一口に X といっても Y is used to make a statement (Y) that there are many different types of items even if they are grouped together into one simple category/word."
           },
           {
-           "en": "Words such as いろいろ , 様々 and 多様 are often used in statement Y."
+           "en": "Words such as いろいろ, 様々 and 多様 are often used in statement Y."
           },
           {
            "en": "一口に can be omitted in this structure, as shown in [#3]."
@@ -1047,7 +1047,7 @@ TRY.registerLesson({
            "en": "X といっても Y means X is true, but technically speaking, Y is more accurate. It is used in a situation where people might expect something (X) that is more extreme than the reality (Y)."
           },
           {
-           "en": "X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) 〜だけ , (それ) ほど〜ない , and 〜わけではない” are phrases that are often used with this structure."
+           "en": "X is something that was stated previously in the context, or something that is commonly believed to be true. Y is information that is more accurate and closer to reality, which is not as extreme as X. (ただ) 〜だけ, (それ) ほど〜ない, and 〜わけではない” are phrases that are often used with this structure."
           }
          ]
         }
@@ -1240,7 +1240,7 @@ TRY.registerLesson({
            "en": "N に応じて V means “V depending on N.”"
           },
           {
-           "en": "N takes nouns that indicate changes or have variability (e.g., 季節 , 状況). V takes verbs that mean to cause a change or to adapt (e.g., 変える)."
+           "en": "N takes nouns that indicate changes or have variability (e.g., 季節, 状況). V takes verbs that mean to cause a change or to adapt (e.g., 変える)."
           },
           {
            "en": "When used as a noun modifier, N₁ に応じた precedes the noun that is being modified (N₂). It means “N₂ that is appropriate for N₁.”"
@@ -1269,7 +1269,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "As stated above, verbs used in N に応じて X are verbs representing actions that cause a change, whereas N によって X can take intransitive verbs such as 変わる , 違う and 異なる ."
+        "en": "As stated above, verbs used in N に応じて X are verbs representing actions that cause a change, whereas N によって X can take intransitive verbs such as 変わる, 違う and 異なる."
        }
       },
       {
@@ -1297,7 +1297,7 @@ TRY.registerLesson({
       {
        "t": "p",
        "text": {
-        "en": "Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, 〜に応じて should be used instead of 〜によって ."
+        "en": "Aside from verbs representing actions that cause a change, X in N に応じて X can also take verbs that express adaptation to N’s change and variability, whereas N によって X can only take intransitive verbs that express changes and differences. In example 3 below, X is a verb that expresses adaptation of one’s amount of food (見直す) depending on the person’s age. As such, 〜に応じて should be used instead of 〜によって."
        }
       },
       {
@@ -1702,7 +1702,7 @@ TRY.registerLesson({
            "en": "X うえで is used to mention important factors, issues, or considerations for X."
           },
           {
-           "en": "X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な , 大切な , 必要な , 難しい , 注意すべき , 問題になる , etc."
+           "en": "X うえで is often followed by Y ことは / Y のは / Y 点は / Y ものは to state specifically what the topic of the sentence is. Y takes expressions such as 重要な, 大切な, 必要な, 難しい, 注意すべき, 問題になる, etc."
           },
           {
            "en": "As in [#4], N のうえで takes the noun form of ''suru''-verbs."
@@ -1782,7 +1782,7 @@ TRY.registerLesson({
            "en": "V₁ うえで V₂ describes a sequence of actions or events; the subject does V₁ first, then V₂."
           },
           {
-           "en": "V₁ takes actions done as a preparation for V₂ (e.g., 調べた , 考えた , 相談した)."
+           "en": "V₁ takes actions done as a preparation for V₂ (e.g., 調べた, 考えた, 相談した)."
           },
           {
            "en": "V₂ takes actions that are done as a result of V₁."
@@ -1950,10 +1950,10 @@ TRY.registerLesson({
          "mark": "•",
          "items": [
           {
-           "en": "〜なかれ is a command form of ない , and it indicates prohibition (i.e., 〜ないで )."
+           "en": "〜なかれ is a command form of ない, and it indicates prohibition (i.e., 〜ないで)."
           },
           {
-           "en": "〜なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ , and they are used as idioms."
+           "en": "〜なかれ is a somewhat archaic expression only used in writing. There is a limited range of expressions that can be used before なかれ, and they are used as idioms."
           }
          ]
         },
@@ -2175,7 +2175,7 @@ TRY.registerLesson({
            "en": "Y only takes verbs in the past tense. The present tense, future tense, command form, or a request form is not used in Y."
           },
           {
-           "en": "Y often takes expressions that describe a specific moment in time. Examples of such expressions are: 〜てきた / 〜ていった , and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time)."
+           "en": "Y often takes expressions that describe a specific moment in time. Examples of such expressions are: 〜てきた / 〜ていった, and the past tense of instantaneous verbs (i.e., verbs that refer to actions that are completed instantly and don’t continue for a period of time)."
           }
          ]
         },
