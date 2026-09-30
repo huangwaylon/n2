@@ -792,7 +792,7 @@ TRY.registerVocab({
       "n": 30,
       "w": "恐れる",
       "ex": "間違えることを恐れてはいけない。",
-      "tr": "You mustn't be afraid of making mistakes."
+      "tr": "You shouldn't be afraid of making mistakes."
      },
      {
       "n": 31,

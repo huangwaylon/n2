@@ -905,7 +905,7 @@ TRY.registerLesson({
           {
            "sp": "{事務員|じむいん}",
            "ja": "川村先生**なら**、もうお帰りになりましたよ。",
-           "tr": "If it's Professor Kawamura you want, he's already gone home."
+           "tr": "If it's Professor Kawamura you want, the professor has already gone home."
           }
          ]
         }
@@ -1061,7 +1061,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "うん。昨日初めてお話ししたんだけど、うわさで聞いていた**とおり**、優しい先生だったよ。",
-           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and just as I'd heard, a very kind teacher."
+           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and just as I'd heard, the professor was kind."
           }
          ]
         },
@@ -3511,7 +3511,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "え、あの{宮崎|みやざき}{監督|かんとく}の？",
-       "tr": "Wait, the one for Director Miyazaki? That Miyazaki?"
+       "tr": "Wait, you mean the famous Director Miyazaki's museum?"
       },
       {
        "sp": "ジ",

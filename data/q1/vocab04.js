@@ -912,7 +912,7 @@ TRY.registerVocab({
       "n": 28,
       "w": "[～に]あこがれる",
       "ex": "{山中|やまなか}教授にあこがれて医学部に入ることにしました。",
-      "tr": "I looked up to Professor Yamanaka, so I decided to go to medical school."
+      "tr": "Inspired by Professor Yamanaka, I decided to go to medical school."
      },
      {
       "n": 29,
