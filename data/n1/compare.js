@@ -125,7 +125,7 @@ TRY.registerCompare([
         ex: { ja: "A：{蚊|か}に刺されたところ、かいちゃだめだよ。\nB：そう言われても、かゆくてかかずにはいられないんだよ。", en: "A: Don't scratch where the mosquito bit you.\nB: I know, but it itches so much I can't help scratching." },
         note: "V-ない stem + ずにはいられない: \"can't help ~ing\". The speaker's own irresistible urge or feeling." },
       { pattern: "Vずにはおかない①", level: "N1", no: 32,
-        ex: { ja: "「今度こそ犯人を捕まえずにはおかないぞ」と{警部|けいぶ}は心に{誓|ちか}った。", en: "\"This time I won't rest until I catch the culprit,\" the inspector vowed to himself." },
+        ex: { ja: "「今度こそ犯人を捕まえずにはおかないぞ」と{警部|けいぶ}は心に{誓|ちか}った。", en: "\"This time I won't rest until I catch the culprit,\" the inspector silently vowed." },
         note: "V-ない stem + ずにはおかない (する → せずには): \"will definitely ~ / won't rest until ~\". A strong resolve, usually aimed at someone else (catching, punishing); = ないではおかない." },
       { pattern: "Vずにはおかない②", level: "N1", no: 32,
         ex: { ja: "{盲目|もうもく}のピアニストが{奏|かな}でる美しい調べは、{聴衆|ちょうしゅう}の心を{震|ふる}わせずにはおかなかった。", en: "The beautiful melody played by the blind pianist could not fail to move the hearts of the audience." },
