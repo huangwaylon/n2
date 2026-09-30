@@ -5,7 +5,7 @@ Third independent pass over all four books. Removed when every item is done; ope
 
 ## Round 1 — content (Japanese vs the scan, generated English quality)
 
-- [ ] N2 ch1–7 (PDF pp.18–~120 and their 別冊 answers/scripts)
+- [x] N2 ch1–7, front.js, compare groups ch1–7 (compare #52 だろ as printed, pp.90/225; whys for all choice items)
 - [ ] N2 ch8–11 (first agent overflowed after pronoun fixes in ch8–10; restarted)
 - [ ] N2 ch12–14 (first agent overflowed after pronoun fixes in ch12–13; restarted)
 - [x] N1 ch1–5
