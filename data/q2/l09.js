@@ -1697,7 +1697,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜はずがない** is the negative end of はず: judging from what the speaker knows (a schedule, a fact, common sense), X is ruled out: *can't be, there's no way*. It argues from facts and sounds more reasoned than **〜わけがない** (L9-9). Both are blunt, so a speaker being polite hedges, as the hotel guest does with と思うんですが.\n\n- そんなはずはない (with は) is the set reply *that can't be right* when the facts contradict what the speaker believes.\n- Keep it apart from **〜ないはずだ**, a milder expectation: 彼は今日来ないはずだ (*he's not supposed to come today*) vs. 来るはずがない (*he can't possibly come*).\n\nThe affirmative counterparts are Quartet I's **〜はずだ** (L5-3) and **〜に違いない** (L9-2)."
+     "deepDive": "**〜はずがない** is the negative end of はず: judging from what the speaker knows (a schedule, a fact, common sense), X is ruled out: *can't be, there's no way*. It argues from facts and sounds more reasoned than **〜わけがない** (L9-9). Both are blunt, so a speaker being polite hedges, as the hotel guest does with と思うんですが.\n\n- そんなはずはない (with は) is the set reply *that can't be right* when the facts contradict what the speaker believes.\n- Keep it apart from **〜ないはずだ**, a milder expectation: 彼は今日来ないはずだ (*he's not supposed to come today*) vs. 来るはずがない (*he can't possibly come*).\n\nThe affirmative counterparts are Quartet I's **〜はずだ** (L5-3) and **〜に違いない** (L9-2) in this lesson."
     },
     {
      "t": "note",
