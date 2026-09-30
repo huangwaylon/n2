@@ -128,7 +128,7 @@ TRY.registerChapter({
             { ja: "日本カワウソは毛皮が美しいがゆえに{乱獲|らんかく}され、{絶滅|ぜつめつ}してしまった。", en: "Because its fur was beautiful, the Japanese river otter was overhunted and became extinct." },
             { ja: "a＝b、b＝c。ゆえにa＝cである。", en: "a = b and b = c. Therefore a = c." },
           ],
-          deepDive: "**ゆえ（故）** is a classical noun, *reason*, and **〜がゆえ(に)** is a literary *because, precisely because*, often implying that the result follows from the very nature of the cause: 正直であるがゆえに損をする (*he loses out precisely because he is honest*). が here is the classical particle, so nouns and な-adjectives need である before it (学生であるがゆえに), or drop が: 若さゆえ, 不慣れなゆえ (the ＊ note). 〜がゆえの + N modifies a noun: 愛するがゆえの厳しさ (*strictness born of love*). As a conjunction, ゆえに／それゆえ means *therefore*, as in logic and mathematics.\n\nCompare:\n- **〜からこそ**: the everyday way to say *precisely because*.\n- **〜こととて** (#68): old-fashioned *since*, usually to excuse oneself (慣れぬこととて); がゆえ has no apologetic tone.\n- **〜とあって** (#2): *because of a special circumstance*, with a natural, visible result such as crowds.\n\nPitfall: ✗子どもだがゆえに → 子どもであるがゆえに or 子どもゆえに.\n\nJLPT cue: a formal cause and result with no contrast → がゆえに; check that N or なA before it carries である.",
+          deepDive: "**ゆえ（故）** is a classical noun, *reason*, and **〜がゆえ(に)** is a literary *because, precisely because*, often implying that the result follows from the very nature of the cause: 正直であるがゆえに損をする (*one loses out precisely by being honest*). が here is the classical particle, so nouns and な-adjectives need である before it (学生であるがゆえに), or drop が: 若さゆえ, 不慣れなゆえ (the ＊ note). 〜がゆえの + N modifies a noun: 愛するがゆえの厳しさ (*strictness born of love*). As a conjunction, ゆえに／それゆえ means *therefore*, as in logic and mathematics.\n\nCompare:\n- **〜からこそ**: the everyday way to say *precisely because*.\n- **〜こととて** (#68): old-fashioned *since*, usually to excuse oneself (慣れぬこととて); がゆえ has no apologetic tone.\n- **〜とあって** (#2): *because of a special circumstance*, with a natural, visible result such as crowds.\n\nPitfall: ✗子どもだがゆえに → 子どもであるがゆえに or 子どもゆえに.\n\nJLPT cue: a formal cause and result with no contrast → がゆえに; check that N or なA before it carries である.",
           see: [2, 68],
           index: ["〜がゆえ", "〜ゆえ", "Plがゆえ（に）", "Nゆえ", "Nゆえの", "それゆえ", "ゆえに"],
         },
@@ -229,7 +229,7 @@ TRY.registerChapter({
           examples: [
             { ja: "親猫が、子猫のために大きな犬と戦った。これが愛情でなくてなんだろう。", en: "The mother cat fought a big dog for the sake of her kitten. If this isn't love, what is?" },
             { ja: "10階から{転落|てんらく}した幼児が無事だったとは、これが{奇跡|きせき}でなくてなんだろう。", en: "A toddler who fell from the tenth floor was unhurt — if that isn't a miracle, what is?" },
-            { ja: "{戦火|せんか}の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、これが{運命|うんめい}でなくてなんであろう。", en: "Meeting again, years later, the foreign woman he had met in the midst of war — what could this be, if not fate?" },
+            { ja: "{戦火|せんか}の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、これが{運命|うんめい}でなくてなんであろう。", en: "Meeting again, years later, a woman from a foreign land first met in the midst of war — what could this be, if not fate?" },
             { ja: "たとえ{弾圧|だんあつ}されようとも、{真実|しんじつ}を{報道|ほうどう}する。それがジャーナリストの{正義|せいぎ}でなくてなんであろうか。", en: "To report the truth even in the face of oppression — what is that if not a journalist's sense of justice?" },
           ],
           deepDive: "**N + でなくてなんだろう** is a rhetorical question, *if this is not N, what is it?*, which insists that it truly is N. It usually follows これが／それが; N is a weighty, emotional noun (愛, 奇跡, 運命, 悲劇, 裏切り), and the writer is moved, amazed or indignant: 命がけで子を守る。これが母性でなくてなんだろう (*she risks her life to protect her child: if that isn't a mother's love, what is?*). なんであろう(か) is more literary and solemn. Register: essays, editorials, speeches, novels; everyday facts don't qualify. In the sample text it is ironic: the writer says Ueda's 愛 looks like nothing so much as 品.\n\nCompare:\n- **〜にほかならない** (N2): *is nothing other than*, the same claim as a plain assertion.\n- **Rhetorical 〜か** (#48): 誰が信じるだろうか (*who would believe it?*) means *no one*; that か denies, while でなくてなんだろう affirms.\n- **〜というものだ** (N2): *that's what ~ is*: それが親心というものだ.\n\nPitfall: reading it as doubt (*I wonder if this is love*); it is a strong affirmation.\n\nJLPT cue: an emotional noun before the blank, often after これが／それが → でなくてなんだろう.",
@@ -278,7 +278,7 @@ TRY.registerChapter({
               items: [
                 { q: "決勝戦は＿＿{極|きわ}まる結果に終わった。", answer: "{不本意|ふほんい}", en: "The final ended in a result that was utterly contrary to what we had wanted." },
                 { q: "十分な{装備|そうび}もせずに{冬山|ふゆやま}に登るなんて＿＿{極|きわ}まりない。", answer: "危険", en: "Climbing a mountain in winter without proper equipment is extremely dangerous." },
-                { q: "犯人は{自首|じしゅ}したが、どこにも死体がない。＿＿{極|きわ}まりない事件だ。", answer: "{不可解|ふかかい}", en: "The culprit turned himself in, but there is no body anywhere. It is an utterly baffling case." },
+                { q: "犯人は{自首|じしゅ}したが、どこにも死体がない。＿＿{極|きわ}まりない事件だ。", answer: "{不可解|ふかかい}", en: "The culprit turned themselves in, but there is no body anywhere. It is an utterly baffling case." },
                 { q: "値段を上げれば{儲|もう}かると思うのは＿＿{極|きわ}まりない発想だ。", answer: "単純", en: "Thinking that you'll make money just by raising prices is an extremely simplistic idea." },
               ],
             },

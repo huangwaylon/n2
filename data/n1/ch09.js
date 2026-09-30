@@ -29,7 +29,7 @@ TRY.registerChapter({
           forms: ["[数] + （{助数詞|じょすうし}） + ［からいる　からある　からの］ + [N]"],
           examples: [
             { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough hands to get an audience of as many as 3,000 people out safely." },
-            { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all his might to carry a suitcase weighing as much as 10 kg." },
+            { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all their might to carry a suitcase weighing as much as 10 kg." },
             { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered, as a private individual, a donation of no less than 100 million yen." },
           ],
           notes: [
