@@ -204,7 +204,7 @@ TRY.registerChapter({
                   options: ["とても恐ろしかった", "1人でトイレに行けなくなった"],
                   answer: 1,
                   en: "Ever since I saw a ghost, I haven't been able to go to the toilet by myself.",
-                  why: { en: "The answer is the lasting change: since then he can't go to the toilet alone. とても恐ろしかった only describes the fear at that moment, not something that has continued." },
+                  why: { en: "The answer is the lasting change: since then the speaker can't go to the toilet alone. とても恐ろしかった only describes the fear at that moment, not something that has continued." },
                 },
                 {
                   q: "妻を亡くしてからというもの、彼は（　）しまった。",
@@ -338,7 +338,7 @@ TRY.registerChapter({
           examples: [
             { ja: "友人は{予備校|よびこう}で数学を教えるかたわら、小説を書いている。", en: "My friend writes novels while teaching math at a cram school." },
             { ja: "彼は会社を経営するかたわら、スポーツの{振興|しんこう}にも力を{注|そそ}いでいる。", en: "Besides running a company, he also devotes his energy to promoting sports." },
-            { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って{自給自足|じきゅうじそく}の生活をしているそうだ。", en: "I hear that the potter Tanaka, alongside making his works, grows vegetables at home and lives self-sufficiently." },
+            { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って{自給自足|じきゅうじそく}の生活をしているそうだ。", en: "I hear that Tanaka, a potter, grows vegetables at home alongside making pottery and lives self-sufficiently." },
             { ja: "最近は育児のかたわら、インターネットでビジネスをする女性が増えている。", en: "Recently, more and more women are running businesses on the internet while raising children." },
           ],
           deepDive: "**AかたわらB** = *besides A (one's main activity), also doing B on the side*. 傍ら means *beside*: A is an ongoing occupation or role — a job, studies, child-rearing — and B a second activity pursued in parallel over time: 予備校で数学を教えるかたわら、小説を書いている (*he teaches math at a cram school and writes novels on the side*). It takes the dictionary form or a noun, in practice Nのかたわら (育児のかたわら *while raising children*). B often has も, and the subject is a person or organization carrying out both. The tone is formal: profiles, biographies, news.\n\nCompare:\n- **〜ながら**: covers both a single moment and the long term (働きながら大学に通う *attend college while working*); かたわら is only long-term.\n- **〜がてら** #26, its Plus: one outing serving a second purpose (散歩がてらパンを買う *pick up bread on a walk*).\n- **〜かたがた** #26: a visit with a double purpose (お礼かたがた伺う).\n- **〜一方（で）** (N2): two aspects side by side, usable for places and things.\n\nPitfall: a one-time action can't be A (✗テレビを見るかたわらご飯を食べた).\n\nJLPT cue: a job or role + blank + a second ongoing activity with も.",
@@ -481,11 +481,11 @@ TRY.registerChapter({
           usage: { ja: "「〜や{否|いな}や」は「〜とすぐ／〜たとたん」と同じように、「前のことがあった直後に、何かが起きた」と言うときに使われる。", en: "Like \"〜とすぐ / 〜たとたん\", \"〜や否や\" is used to say that something happened immediately after the preceding event." },
           forms: ["[V-る] + や{否|いな}や", "[V-る] + や"],
           examples: [
-            { ja: "電話を切るや{否|いな}や、{刑事|けいじ}は部屋を飛び出して事件{現場|げんば}に向かった。", en: "The moment he hung up the phone, the detective rushed out of the room and headed to the crime scene." },
+            { ja: "電話を切るや{否|いな}や、{刑事|けいじ}は部屋を飛び出して事件{現場|げんば}に向かった。", en: "The detective hung up the phone and in that instant rushed out of the room, heading for the crime scene." },
             { ja: "人気グループのコンサートチケットは発売されるや{否|いな}や、あっという間に{完売|かんばい}となってしまった。", en: "The concert tickets for the popular group sold out in no time, the instant they went on sale." },
             { ja: "{優勝|ゆうしょう}の{瞬間|しゅんかん}、{大川|おおかわ}選手は「やった！」と{叫|さけ}ぶや、{大声|おおごえ}で泣き出した。", en: "At the moment of victory, Okawa shouted \"I did it!\" and immediately burst into loud sobs." },
           ],
-          deepDive: "**V-るや否や / V-るや** = *the moment ~, no sooner had ~ than*: the second event happens immediately after the first. Classically 〜や否や meant *whether or not*, i.e. before one could even tell; the short form 〜や is even more literary. It takes the dictionary form even for past events (電話を切るや否や飛び出した *the moment he hung up, he rushed out*), and passives are common (発売されるや否や完売した *sold out the instant it went on sale*).\n\nThe second half is an actual, observed event, usually past, and the subjects may differ. It can't be the speaker's intention, a request or command, an ongoing state, an evaluation or a guess. The register is written: novels, news.\n\nCompare:\n- **〜たとたん（に）**: the neutral spoken equivalent, often with an unexpected result.\n- **〜か〜ないかのうちに** (N2): *before ~ had even finished*.\n- **Vなり** #28: the same subject does something at once, often surprising.\n- **Vが早いか** #30: stresses astonishing speed.\n- **Vそばから** #31: *no sooner ~ than it is undone, again and again*.\n\nPitfall: ✗家に着くや否や電話してください; for requests use 〜次第 or 〜たらすぐ.\n\nJLPT cue: choose the option that is an instant, factual reaction.",
+          deepDive: "**V-るや否や / V-るや** = *the moment ~, no sooner had ~ than*: the second event happens immediately after the first. Classically 〜や否や meant *whether or not*, i.e. before one could even tell; the short form 〜や is even more literary. It takes the dictionary form even for past events (電話を切るや否や飛び出した *rushed out the moment the call ended*), and passives are common (発売されるや否や完売した *sold out the instant it went on sale*).\n\nThe second half is an actual, observed event, usually past, and the subjects may differ. It can't be the speaker's intention, a request or command, an ongoing state, an evaluation or a guess. The register is written: novels, news.\n\nCompare:\n- **〜たとたん（に）**: the neutral spoken equivalent, often with an unexpected result.\n- **〜か〜ないかのうちに** (N2): *before ~ had even finished*.\n- **Vなり** #28: the same subject does something at once, often surprising.\n- **Vが早いか** #30: stresses astonishing speed.\n- **Vそばから** #31: *no sooner ~ than it is undone, again and again*.\n\nPitfall: ✗家に着くや否や電話してください; for requests use 〜次第 or 〜たらすぐ.\n\nJLPT cue: choose the option that is an instant, factual reaction.",
           see: [28, 30, 31],
           index: ["Vや否や", "Vや"],
           practice: [
@@ -536,10 +536,10 @@ TRY.registerChapter({
           forms: ["[N] + ごとき"],
           examples: [
             { ja: "{我|わ}が{社|しゃ}には{優|すぐ}れた技術があるんだから、{不況|ふきょう}ごときに負けないで、{頑張|がんば}ろう。", en: "Our company has excellent technology, so let's not be beaten by something like a recession — let's hang in there." },
-            { ja: "あいつごときが何を言ってきたって、私たちがついているから、恐れる必要はないよ。", en: "Whatever the likes of him says to you, we're behind you, so there's no need to be afraid." },
+            { ja: "あいつごときが何を言ってきたって、私たちがついているから、恐れる必要はないよ。", en: "Whatever someone like that says to you, we're behind you, so there's no need to be afraid." },
             { ja: "{私|わたくし}ごときにこのような発表の機会をいただき、本当にありがとうございます。", en: "Thank you very much for giving someone as humble as me such an opportunity to present." },
           ],
-          deepDive: "**Nごとき** = *the likes of N, a mere N*: the speaker looks down on N (≈ 〜なんか): 不況ごときに負けないで頑張ろう (*let's not be beaten by a mere recession*), あいつごときが (*the likes of him*). Used about oneself, 私（わたくし）ごとき is humble and leads to thanks or a disclaimer (私ごときにこのような機会をいただき… *giving someone like me such a chance…*). It comes from classical ごとし (*like*), but without の it belittles.\n\nごとき behaves like a noun and takes particles (ごときに, ごときが, ごときで), and たかが often precedes it (たかが風邪ごときで *over a mere cold*). The rest of the sentence must fit the belittling: N doesn't deserve fear, fuss or cost.\n\nCompare:\n- **〜なんか／〜なんて**: the everyday equivalent.\n- **〜くらいで**: minimizes, less contemptuous (風邪くらいで休むな *don't stay home over a little cold*).\n- **Nのごとく** #101: with の it is a simile with no contempt (鉄のごとき信念 *an iron will*).\n\nPitfall: ごとき about someone you respect is an insult (✗社長ごときが…).\n\nJLPT cue: after ごとき, choose the option that treats N as trivial; after 私ごとき, the humble, grateful one.",
+          deepDive: "**Nごとき** = *the likes of N, a mere N*: the speaker looks down on N (≈ 〜なんか): 不況ごときに負けないで頑張ろう (*let's not be beaten by a mere recession*), あいつごときが (*someone like that*). Used about oneself, 私（わたくし）ごとき is humble and leads to thanks or a disclaimer (私ごときにこのような機会をいただき… *giving someone like me such a chance…*). It comes from classical ごとし (*like*), but without の it belittles.\n\nごとき behaves like a noun and takes particles (ごときに, ごときが, ごときで), and たかが often precedes it (たかが風邪ごときで *over a mere cold*). The rest of the sentence must fit the belittling: N doesn't deserve fear, fuss or cost.\n\nCompare:\n- **〜なんか／〜なんて**: the everyday equivalent.\n- **〜くらいで**: minimizes, less contemptuous (風邪くらいで休むな *don't stay home over a little cold*).\n- **Nのごとく** #101: with の it is a simile with no contempt (鉄のごとき信念 *an iron will*).\n\nPitfall: ごとき about someone you respect is an insult (✗社長ごときが…).\n\nJLPT cue: after ごとき, choose the option that treats N as trivial; after 私ごとき, the humble, grateful one.",
           see: [101],
           index: ["Nごとき"],
           practice: [
@@ -593,7 +593,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "なかなか連絡が来ないので落ちたかと思いきや、今日になって合格通知が届いた。", en: "I hadn't heard anything for ages, so I thought I'd failed — but then today the letter of acceptance arrived." },
-            { ja: "アルバイトの人かと思いきや、社長自ら掃除していたので{驚|おどろ}いた。", en: "I assumed it was a part-timer, but it was the president himself doing the cleaning, which surprised me." },
+            { ja: "アルバイトの人かと思いきや、社長自ら掃除していたので{驚|おどろ}いた。", en: "I assumed it was a part-timer, but it was the president in person doing the cleaning, which surprised me." },
             { ja: "住宅{街|がい}のマンションだから静かだと思いきや、遅くまで人通りが多くてうるさかった。", en: "I expected an apartment in a residential area to be quiet, but there were lots of people passing by until late and it was noisy." },
             { ja: "家を建ててやっと落ち着けると思いきや、海外へ{転勤|てんきん}することになってしまった。", en: "Just when I thought I could finally settle down after building a house, I ended up being transferred overseas." },
             { ja: "{年末|ねんまつ}の忙しい時期だから欠席者が多いと思いきや、全員そろっていたので{驚|おどろ}きました。", en: "Since it was the busy end-of-year period, I expected many people to be absent, but everyone was there, which surprised me." },
@@ -666,7 +666,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow." },
-            { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "He won a fortune in the lottery, but he kept spending it like water, and a year later he was back to his old life of poverty." },
+            { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "Someone won a fortune in the lottery but kept spending it like water, and a year later was back to the old life of poverty." },
             { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The will left to the brothers read as follows." },
             { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Mr. Kitazato is working on the development of new drugs with an iron conviction." },
             { ja: "A：日本へ来てから何年経ったっけ。\nB：もう5年だよ。{光陰|こういん}{矢|や}のごとしだね。", en: "A: How many years has it been since you came to Japan?\nB: Five years already. Time flies like an arrow, doesn't it?", idiom: true },
@@ -905,8 +905,8 @@ TRY.registerChapter({
             q: "友人が会社をクビになったというから、さぞかし金に困っているだろう（　）、毎日外車を乗り回して遊んでいるというのだ。",
             options: ["といえども", "とはいえ", "というものの", "と思いきや"],
             answer: 3,
-            en: "I heard my friend got fired from his company, so I thought he must be terribly short of money — but apparently he's out every day driving around in a foreign car, having a good time.",
-            why: { en: "〜と思いきや = “I thought …, but contrary to expectation …”. だろう marks a guess (he must be broke), and what follows overturns it (he drives around in a foreign car). といえども, とはいえ and というものの are concessives: they treat the first half as a fact and then add a contrasting point, which doesn't fit a mere guess ending in だろう." },
+            en: "I heard my friend got fired, so I thought my friend must be terribly short of money — but apparently they're out every day driving around in a foreign car, having a good time.",
+            why: { en: "〜と思いきや = “I thought …, but contrary to expectation …”. だろう marks a guess (the friend must be broke), and what follows overturns it (driving around in a foreign car). といえども, とはいえ and というものの are concessives: they treat the first half as a fact and then add a contrasting point, which doesn't fit a mere guess ending in だろう." },
           },
           {
             q: "大統領の熱のこもった演説が終わる（　）、会場は割れんばかりの{拍手|はくしゅ}と{歓声|かんせい}に包まれました。",
@@ -920,7 +920,7 @@ TRY.registerChapter({
             options: ["を問わず", "を{皮切|かわき}りにして", "をものともせず", "をもとにして"],
             answer: 2,
             en: "This is a documentary depicting the life of a man who, undaunted by discrimination and poverty, became an international businessman within a single generation.",
-            why: { en: "Nをものともせず = undaunted by N: he overcame discrimination and poverty to become an international businessman. を問わず (regardless of), を皮切りにして (starting with) and をもとにして (based on) don't express overcoming hardships." },
+            why: { en: "Nをものともせず = undaunted by N: the man overcame discrimination and poverty to become an international businessman. を問わず (regardless of), を皮切りにして (starting with) and をもとにして (based on) don't express overcoming hardships." },
           },
           {
             q: "この神社の{境内|けいだい}は、{桜|さくら}の{名所|めいしょ}として知られる（　）、{梅雨|つゆ}の季節にはあじさいの花も楽しめます。",
@@ -933,7 +933,7 @@ TRY.registerChapter({
             q: "熱心に{講義|こうぎ}を続ける教授の耳に、（　）からともなく静かな{寝息|ねいき}が聞こえてきた。",
             options: ["後ろ", "何", "外", "どこ"],
             answer: 3,
-            en: "From somewhere or other, the quiet breathing of someone asleep reached the ears of the professor as he carried on lecturing enthusiastically.",
+            en: "From somewhere or other, the quiet breathing of a sleeper reached the ears of the professor, who was lecturing away enthusiastically.",
             why: { en: "どこからともなく = from somewhere or other (the source is unclear), a fixed question-word + ともなく phrase. 何からともなく is not idiomatic, and 後ろ or 外 are not question words, so they can't form this expression." },
           },
           {
