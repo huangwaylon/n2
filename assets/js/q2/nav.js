@@ -31,8 +31,11 @@ export const allNotes = () => TRY.lessons.flatMap((l) => l.sections.flatMap((s) 
 }));
 
 // ---------- sidebar ----------
+// a lesson's theme: the book prints no lesson title, so the row shows the titles its opener leads with (読む・話す,
+// p.001: 日本を代表する有名人・新しい出会い), one line with an ellipsis
+const theme = (l) => (l.opener || []).map((g) => plain(g.skills[0].title)).join("・");
 function sidebar() {
-  const items = TRY.lessons.map((l) => `<li class="sb-ch" data-ch="${l.id}"><a href="#/l/${l.id}" class="sb-ch-link"><span class="sb-num">${l.id}</span><span class="sb-t">第${l.id}課</span><span class="sb-prog" data-prog="${l.id}"></span></a>
+  const items = TRY.lessons.map((l) => `<li class="sb-ch" data-ch="${l.id}"><a href="#/l/${l.id}" class="sb-ch-link"><span class="sb-num">${l.id}</span><span class="sb-t" title="第${l.id}課　${esc(theme(l))}"><span class="sb-t__n">第${l.id}課</span><span class="sb-t__th">${esc(theme(l))}</span></span><span class="sb-prog" data-prog="${l.id}"></span></a>
       <ul class="sb-gps">${l.sections.map((s) => `<li><a href="#/l/${l.id}/${s.skill}"><span class="sb-gpn sb-sk">${skillIcon(s.skill)}</span><span class="sb-gpt">${SKILLS[s.skill][0]}　${esc(plain(s.title.ja || s.title))}</span></a></li>`).join("")}
         <li><a href="#/l/${l.id}/vocab"><span class="sb-gpn sb-sk">語</span><span class="sb-gpt">単語リスト</span></a></li>
         <li><a href="#/l/${l.id}/kanji"><span class="sb-gpn sb-sk">漢</span><span class="sb-gpt">漢字リスト</span></a></li></ul></li>`).join("");

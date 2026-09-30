@@ -1,11 +1,13 @@
 /* q2.css — Quartet I and II (loaded only by q1/index.html and q2/index.html): the books' design on top of base / shell /
    content / exercises, in Quartet II's cyan or Quartet I's pink (body[data-book], set by main.js). Blocks: assets/js/q2/blocks.js; data/Q2-SCHEMA.md. Breakpoints as elsewhere: ≥901 desktop · ≤900 drawer ·
    ≤600 phone · ≤390 small phone. Tokens only (light + dark). */
-/* --q-on: text on an accent fill — white in light; dark text in dark, where white on the lighter accent is ~2.4:1 */
-:root { --q-on: #fff; --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
-:root[data-theme="dark"] { --q-on: #0e1a21; --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
+/* --q-on: text on an accent fill — white in light; dark text in dark, where white on the lighter accent is ~2.4:1.
+   --q-fill: the accent behind --q-on text, darkened for Q2 light (white on #1690c9 is 3.6:1, on #0e78ab 4.9:1; Q1 #e0166a 4.7:1,
+   dark themes 7–8:1) */
+:root { --q-on: #fff; --q-fill: #0e78ab; --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
+:root[data-theme="dark"] { --q-on: #0e1a21; --q-fill: #5ab8e8; --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
 /* Quartet I: the book's magenta (#e8186a on the scan, PDF 10, 30) */
-body[data-book="q1"] { --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
+body[data-book="q1"] { --q-fill: var(--q); --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
 :root[data-theme="dark"] body[data-book="q1"] { --q-on: #230d17; --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
 body[data-book] strong { color: inherit; }
 /* Quartet prints its furigana under the kanji (left of the column in 縦書き), below any underline (pp.009, 068, 082) */
@@ -49,7 +51,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .op-sk { display: flex; align-items: center; gap: 10px; color: var(--ink); padding: 6px 0; min-height: 44px; }
 .op-sk:hover { text-decoration: none; }
 .op-sk .sk-ic { width: 38px; height: 38px; padding: 6px; border-radius: 50%; border: 3px solid var(--q); color: var(--q); }
-.op-sk__l { background: var(--q); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 12px; border-radius: 0 999px 999px 0; margin-left: -14px; }
+.op-sk__l { background: var(--q-fill); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 12px; border-radius: 0 999px 999px 0; margin-left: -14px; }
 .op-sk__t { font: 800 22px/1.4 var(--goth); }
 @media (hover: hover) { .op-sk:hover .op-sk__t { color: var(--q); } }
 .op-cando { list-style: none; padding: 4px 0 0 4px; margin: 0; }
@@ -59,7 +61,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 .q-card .cc-body { display: grid; gap: 2px; }
 .q-card__s { display: flex; gap: 6px; align-items: center; font-size: 14px; line-height: 1.5; }
 .q-card__s .sk-ic { color: var(--q); }
-body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
+body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .q-card--na { opacity: .7; } /* home: a lesson not transcribed yet */
 
 /* ---------- section banner + tabs ---------- */
@@ -73,10 +75,10 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 @media (max-width: 600px) { .sk-banner { padding: 10px 12px; gap: 10px; } .sk-banner__ic { width: 58px; height: 58px; font-size: 11px; } .sk-banner__ic .sk-ic { width: 24px; height: 24px; } .sk-banner__t { font-size: 21px; } }
 .sk-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
 .sk-tabs a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 4px 12px; border: 1.5px solid var(--line); border-radius: 999px; color: var(--ink-2); font: 700 14px/1 var(--goth); }
-.sk-tabs a[aria-current] { background: var(--q); border-color: var(--q); color: var(--q-on); }
+.sk-tabs a[aria-current] { background: var(--q-fill); border-color: var(--q-fill); color: var(--q-on); }
 @media (hover: hover) { .sk-tabs a:not([aria-current]):hover { border-color: var(--q); color: var(--q); text-decoration: none; } }
 @media (pointer: coarse) { .sk-tabs a { min-height: 44px; } }
-.mt-gn .mt-gp__n { background: var(--q); }
+.mt-gn .mt-gp__n { background: var(--q-fill); color: var(--q-on); }
 .sec-body { position: relative; }
 .pg { display: block; height: 0; }
 .pg[data-p]::before { content: "p." attr(data-p); position: absolute; right: 100%; margin-right: 6px; font: 10px/1 system-ui, sans-serif; color: var(--ink-3); opacity: .7; white-space: nowrap; }
@@ -90,10 +92,10 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 :is(.hd--num, .hd--step):has(> .hd-tag) { align-items: baseline; }
 .hd--band { background: repeating-linear-gradient(-45deg, var(--q-soft) 0 6px, var(--q-hatch) 6px 8px); border-radius: 14px; padding: 10px 14px; font-size: 22px; font-weight: 800; }
 .hd--band .hd-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--panel); border: 2px solid var(--q); color: var(--q); border-radius: 999px; padding: 3px 14px 3px 6px; font-size: 16px; }
-.hd--band > .sk-ic { color: var(--q-on); background: var(--q); border-radius: 50%; width: 30px; height: 30px; padding: 5px; margin-right: -38px; position: relative; z-index: 1; }
+.hd--band > .sk-ic { color: var(--q-on); background: var(--q-fill); border-radius: 50%; width: 30px; height: 30px; padding: 5px; margin-right: -38px; position: relative; z-index: 1; }
 .hd--band > .sk-ic + .hd-tag { padding-left: 40px; }
 .hd--num { color: var(--q); font-size: 22px; font-weight: 800; }
-.hd--num .hd-tag { display: inline-grid; place-items: center; min-width: 32px; height: 32px; background: var(--q); color: var(--q-on); font-size: 18px; box-shadow: 3px 3px 0 var(--q-2); }
+.hd--num .hd-tag { display: inline-grid; place-items: center; min-width: 32px; height: 32px; background: var(--q-fill); color: var(--q-on); font-size: 18px; box-shadow: 3px 3px 0 var(--q-2); }
 .hd--step { font-size: 21px; color: var(--q); font-weight: 800; }
 .hd--step .hd-tag { background: var(--q-soft); color: var(--ink); border-bottom: 2px solid var(--ink-2); border-right: 2px solid var(--ink-2); border-radius: 0 0 8px 0; padding: 2px 12px; font-size: 17px; }
 .hd--sq { color: var(--q); font-size: 19px; font-weight: 700; }
@@ -105,7 +107,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .hd--plain { font-size: 18px; font-weight: 700; }
 .hd--flow { display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 700; color: var(--q); margin: 22px 0 10px; }
 .hd-flow-ic { flex: none; width: 1.25em; height: 1.25em; }
-.hd-flow-ic rect { fill: var(--q); } .hd-flow-ic path { fill: none; stroke: var(--q-on); stroke-width: 2; stroke-linejoin: round; } .hd-flow-ic circle { fill: var(--q-on); }
+.hd-flow-ic rect { fill: var(--q-fill); } .hd-flow-ic path { fill: none; stroke: var(--q-on); stroke-width: 2; stroke-linejoin: round; } .hd-flow-ic circle { fill: var(--q-on); }
 .hd .en-under { flex-basis: 100%; }
 
 /* ---------- paragraphs, lists, questions, boxes ---------- */
@@ -152,7 +154,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .qtbl--stripe > tbody > tr:nth-child(even) > td { background: var(--q-gray); }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
-.words__l { flex: none; background: var(--q); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
+.words__l { flex: none; background: var(--q-fill); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
 .words__list { display: flex; flex-wrap: wrap; gap: 2px 18px; min-width: 0; }
 .w { white-space: nowrap; }
 .w__ja { font-family: var(--mincho); }
@@ -302,7 +304,7 @@ a.ref:hover u { background: var(--q-soft); }
 /* ---------- grammar notes ---------- */
 .gn { position: relative; margin: 30px 0 34px; }
 .gn-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; color: var(--q); font-family: var(--goth); margin-bottom: 10px; }
-.gn-star { position: absolute; left: -30px; top: -12px; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--q); color: var(--q-on); font-size: 15px; }
+.gn-star { position: absolute; left: -30px; top: -12px; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--q-fill); color: var(--q-on); font-size: 15px; }
 @media (max-width: 1100px) { .gn-star { position: static; order: -1; } }
 .gn-no { font: 800 26px/1 var(--goth); }
 .gn-pat { margin: 0; font: 800 26px/1.4 var(--goth); color: var(--q); }
@@ -373,7 +375,7 @@ a.ref:hover u { background: var(--q-soft); }
 /* ---------- strategies, units ---------- */
 .strat { margin: 30px 0; }
 .strat__h { position: relative; margin-bottom: 12px; }
-.strat__tag { display: inline-block; background: var(--q); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
+.strat__tag { display: inline-block; background: var(--q-fill); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
 .strat__tools { position: absolute; right: 0; top: 0; }
 .strat__t { margin: 0; padding: 10px 16px; background: var(--q-soft-2); border-bottom: 2px solid var(--q); border-radius: 0 8px 8px 8px; font: 800 24px/1.4 var(--goth); }
 .strat__en, .unit-h .strat__en { font: 700 17px/1.4 var(--goth); color: var(--ink); }
@@ -531,13 +533,13 @@ s { text-decoration: line-through var(--q) 2px; }
    bracket down the right edge with the label on a vertical blue tab (pp.023, 093) */
 .flow--one .flow__steps { background: none; }
 .flow--one .flow__s { max-width: none; justify-self: stretch; }
-.flow__pill { justify-self: start; background: var(--q); color: var(--q-on); border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
+.flow__pill { justify-self: start; background: var(--q-fill); color: var(--q-on); border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
 .flow__pill--b { justify-self: end; background: var(--ink-3); }
 .flow__pill b { font-weight: 700; }
 .flow__g { display: grid; grid-template-columns: minmax(0, 1fr) 2.4em; column-gap: 8px; }
 .flow__gs { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; align-content: start; }
 .flow__ph { position: relative; border: 2px solid var(--q); border-left: 0; border-radius: 0 8px 8px 0; width: 12px; margin: 4px 0; }
-.flow__ph > span { position: absolute; left: 100%; top: 50%; transform: translate(-50%, -50%); writing-mode: vertical-rl; background: var(--q); color: var(--q-on);
+.flow__ph > span { position: absolute; left: 100%; top: 50%; transform: translate(-50%, -50%); writing-mode: vertical-rl; background: var(--q-fill); color: var(--q-on);
   border-radius: 999px; padding: 10px 3px; font: 700 14px/1.2 var(--goth); white-space: nowrap; }
 @media (max-width: 600px) {
   .flow__g { grid-template-columns: 1fr; }
@@ -548,7 +550,7 @@ s { text-decoration: line-through var(--q) 2px; }
    (pp.022, 028, 200–201); a box titled with one is the book's pink band: badge, then the steps on the same line */
 .part { display: inline-block; border: 1.5px solid var(--q); border-radius: .3em; padding: 0 .55em; margin: 0 .15em; background: var(--panel); color: var(--q);
   font: 700 .78em/1.45 var(--goth); letter-spacing: 0; white-space: nowrap; vertical-align: .08em; text-indent: 0; }
-.part--a { background: var(--q); color: var(--q-on); }
+.part--a { background: var(--q-fill); color: var(--q-on); }
 .hd .part, .qbox__title .part { font-size: .9em; padding: .05em .9em; margin: 0; }
 .qbox:has(> .qbox__title .part) { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding: 6px 12px; border-radius: 6px; }
 .qbox:has(> .qbox__title .part) > .qbox__title { margin: 0; }
@@ -565,3 +567,7 @@ s { text-decoration: line-through var(--q) 2px; }
 .rd-mail .rd-p .ja { text-indent: 0; }
 .rd-mail__b .rd-p + .rd-p { margin-top: .45em; }
 @media (max-width: 600px) { .rd-mail__h, .rd-mail__b { padding-inline: .5em; } }
+
+/* Quartet sidebar lesson rows: 第N課 and the lesson's theme on one line, the theme cut with an ellipsis */
+.sb-t:has(> .sb-t__th) { display: flex; gap: .5em; white-space: nowrap; overflow: hidden; }
+.sb-t__n { flex: none; } .sb-t__th { min-width: 0; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
