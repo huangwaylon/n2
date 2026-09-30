@@ -7296,7 +7296,7 @@ compare.23.items.3.level	N2
 compare.23.items.3.no	46
 compare.23.items.3.pattern	〜ものではない
 compare.23.items.4.ex.ja	A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。
-B：困ったときに助け合うのが友達**というものだ**ろう。手伝ってあげなさい。
+B：困ったときに助け合うのが友達**というものだ**ろ。手伝ってあげなさい。
 compare.23.items.4.level	N2
 compare.23.items.4.no	52
 compare.23.items.4.pattern	Nというものだ
