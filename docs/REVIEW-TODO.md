@@ -7,7 +7,7 @@ Third independent pass over all four books. Removed when every item is done; ope
 
 - [ ] N2 ch1–7 (PDF pp.18–~120 and their 別冊 answers/scripts)
 - [ ] N2 ch8–14
-- [ ] N1 ch1–5
+- [x] N1 ch1–5
 - [ ] N1 ch6–10
 - [ ] Q1 lessons 1–6, 初級文法チェック, 漢字チャレンジ, 別冊 lists
 - [ ] Q2 lessons 7–12, ブラッシュアップ, 別冊 lists
