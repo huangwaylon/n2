@@ -387,7 +387,7 @@ function readingHtml(b, ctx) {
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
   const spw = b.speakers ? Math.max(...(b.lines || []).map((l) => (typeof l === "string" && l[0] === "¶" && (l.match(/^¶([^：]{1,8})：/) || [])[1]) || "").map((x) => plain(x).length)) + 1.4 : 0;
-  return `<section class="rd${V ? " rd--v" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}${spw ? " rd--sp" : ""}${b.speakers === "right" ? " rd--sp-r" : ""}"${idAttr(b)}${spw ? ` style="--spw:${spw}em"` : ""} data-en-scope>
+  return `<section class="rd${V ? " rd--v" : ""}${b.vertical ? " rd--tate" : ""}${b.style ? " rd--" + esc(b.style) : ""}${b.roles ? " rd--model" : ""}${spw ? " rd--sp" : ""}${b.speakers === "right" ? " rd--sp-r" : ""}"${idAttr(b)}${spw ? ` style="--spw:${spw}em"` : ""} data-en-scope>
     ${head}<div class="rd-tools">${seg}${enScopeBtn()}${b.audio && head ? "" : b.audio ? cdBadge(say, "音声を聞く") : listenBtn(say)}</div>
     ${V ? `<div class="vt-scroll rd-scroll" tabindex="0" role="region" aria-label="本文（縦書き）">${text}</div>` : text}
     ${V ? "" : credit}
@@ -403,6 +403,8 @@ ACT.q2vmode = (t) => {
 const lineCount = (el, vert) => new Set([...el.getClientRects()].map((r) => Math.round((vert ? r.right : r.top) / 8))).size;
 function fitBookLines(body) {
   const sc = body.closest(".rd-scroll"), vert = getComputedStyle(body).writingMode.startsWith("vertical");
+  // a 縦書き text read 横: its printed lines are columns of ~15 characters, a narrow strip in a wide box, so it reflows
+  if (!vert && body.closest(".rd--tate")) { body.classList.remove("rd-body--book"); body.style.fontSize = ""; return; }
   body.classList.add("rd-body--book");
   body.style.fontSize = "";
   if (sc) sc.style.height = `${Math.max(innerHeight * 0.8, sc.clientHeight)}px`;

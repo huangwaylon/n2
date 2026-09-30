@@ -2547,8 +2547,7 @@ TRY.registerLesson({
        "tr": "Thank you very much."
       },
       {
-       "ja": "＊　＊　＊",
-       "tr": "* * *"
+       "ja": "＊　＊　＊"
       },
       {
        "ja": "翌日。",
@@ -2753,8 +2752,7 @@ TRY.registerLesson({
       {
        "side": "b",
        "phase": {
-        "ja": "＊　＊　＊",
-        "tr": "* * *"
+        "ja": "＊　＊　＊"
        },
        "text": {
         "ja": "お財布が見つかりましたので、ご連絡いたしました。",
@@ -2874,8 +2872,7 @@ TRY.registerLesson({
          "tr": "Then we'll contact you if we find it."
         },
         {
-         "ja": "＊　＊　＊",
-         "tr": "* * *"
+         "ja": "＊　＊　＊"
         },
         {
          "sp": "スタッフ",

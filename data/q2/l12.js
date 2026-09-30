@@ -395,8 +395,7 @@ TRY.registerLesson({
         "t": "p",
         "style": "center",
         "text": {
-         "ja": "＊　＊　＊",
-         "tr": "* * *"
+         "ja": "＊　＊　＊"
         }
        }
       },
@@ -437,8 +436,7 @@ TRY.registerLesson({
         "t": "p",
         "style": "center",
         "text": {
-         "ja": "＊　＊　＊",
-         "tr": "* * *"
+         "ja": "＊　＊　＊"
         }
        }
       },

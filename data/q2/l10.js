@@ -3997,8 +3997,7 @@ TRY.registerLesson({
        "tr": "Well then..."
       },
       {
-       "ja": "＊　＊　＊",
-       "tr": "* * *"
+       "ja": "＊　＊　＊"
       },
       {
        "ja": "数分後。",
@@ -4277,8 +4276,7 @@ TRY.registerLesson({
          "tr": "Well then..."
         },
         {
-         "ja": "＊　＊　＊",
-         "tr": "* * *"
+         "ja": "＊　＊　＊"
         },
         {
          "sp": "面接官",
