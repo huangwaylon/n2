@@ -9,6 +9,12 @@ export const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Con
 export const BASE = process.env.N2_BASE || "http://localhost:8765/";
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Chrome processes still open: killed when the tool exits, throws or is interrupted, so an aborted run leaves no headless
+// Chrome behind (a dozen orphans made new launches time out)
+const live = new Set();
+process.on("exit", () => live.forEach(c => c.kill()));
+for (const sig of ["SIGINT", "SIGTERM", "SIGHUP"]) process.on(sig, () => process.exit(130));
+
 // open({route, width, height, scheme, wait, mobile, touch, furigana}) -> {send, evaluate, logs, close}
 // mobile defaults to width < 700; touch (pointer:coarse, hover:none) defaults to mobile.
 // furigana defaults to true (the site's default is off, but layout checks are about the readings).
@@ -22,6 +28,7 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
     prof = `/tmp/n2-cdp-prof-${port}-${process.pid}`;
     ch = spawn(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", `--remote-debugging-port=${port}`,
       `--user-data-dir=${prof}`, "about:blank"], { stdio: "ignore" });
+    live.add(ch); ch.once("exit", () => live.delete(ch));
     for (let i = 0; i < 120; i++) {
       try { const t = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); if (t.find(x => x.type === "page")) { tabs = t; break; } } catch (e) {}
       await sleep(250);
