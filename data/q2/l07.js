@@ -1119,7 +1119,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**むしろ** corrects an expectation: the speaker grants that X is the obvious view or choice and puts forward Y as the better fit. English renders it as *actually*, *if anything* or *rather*, depending on the sentence.\n\n- It can open a clause after a denial: 迷惑じゃないよ。むしろうれしい (*it's no trouble; if anything, I'm glad*). Reading 1 has this shape: 仲が悪くなったわけでもなく、むしろ….\n- It compares or evaluates; it does not report a result that went against what someone was trying to do.\n\nThat last point separates it from **かえって** (L8-7): 掃除してあげたらかえって怒られた (*I cleaned for my roommate and got yelled at instead*) cannot take むしろ."
+     "deepDive": "**むしろ** corrects an expectation: the speaker grants that X is the obvious view or choice and puts forward Y as the better fit. English renders it as *actually*, *if anything* or *rather*, depending on the sentence.\n\n- It can open a clause after a denial: 迷惑じゃないよ。むしろうれしい (*it's no trouble; if anything, I'm glad*). Reading 1 has this shape: 仲が悪くなったわけでもなく、むしろ….\n- It compares or evaluates; it does not report a result that went against what someone was trying to do.\n\nThat last point separates it from **かえって** (L8-7): 掃除してあげたらかえって怒られた (*I cleaned up for them and got scolded instead*) cannot take むしろ."
     },
     {
      "t": "note",
@@ -1418,7 +1418,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "The two uses limit different things. **Vるばかり** limits the direction of a change: things only move one way, usually for the worse. **Vて／N ばかり** limits what someone does or has, with a note of disapproval: 文句ばかり言っている (*all he does is complain*).\n\n- Vるばかり is close to **〜一方だ** (TRY! N2), which is more formal: 悪化する一方だ (*it keeps getting worse*).\n- For a neutral *only*, use だけ: 水だけ飲んだ states a fact; 水ばかり飲んでいる criticizes.\n\nKeep both apart from **Vたばかり**, *have just done*: the listening script's 日本に来たばかりで means *you've only just arrived in Japan*."
+     "deepDive": "The two uses limit different things. **Vるばかり** limits the direction of a change: things only move one way, usually for the worse. **Vて／N ばかり** limits what someone does or has, with a note of disapproval: 文句ばかり言っている (*is always complaining*).\n\n- Vるばかり is close to **〜一方だ** (TRY! N2), which is more formal: 悪化する一方だ (*it keeps getting worse*).\n- For a neutral *only*, use だけ: 水だけ飲んだ states a fact; 水ばかり飲んでいる criticizes.\n\nKeep both apart from **Vたばかり**, *have just done*: the listening script's 日本に来たばかりで means *you've only just arrived in Japan*."
     },
     {
      "t": "note",
@@ -3813,7 +3813,7 @@ TRY.registerLesson({
            "n": "⑤",
            "text": {
             "ja": "対話と言い合いはだいたい同じことだ。",
-            "tr": "A discussion and an argument are more or less the same thing."
+            "tr": "Dialogue and arguing are more or less the same thing."
            },
            "answer": "×"
           }

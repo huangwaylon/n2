@@ -750,12 +750,12 @@ TRY.registerLesson({
           {
            "sp": "{絵理|えり}",
            "ja": "{前山|まえやま}さんって、お金持ちなんだね。ハワイにも家があるんだって！",
-           "tr": "Maeyama-san is rich, isn't she? I heard she even has a house in Hawaii!"
+           "tr": "Maeyama-san must be rich. I heard there's even a house in Hawaii!"
           },
           {
            "sp": "サラ",
            "ja": "ハワイに家がある**どころか**、ハワイでホテルの{経営|けいえい}**も**しているそうだよ。",
-           "tr": "Not just a house in Hawaii. I hear she even runs a hotel there."
+           "tr": "Not just a house in Hawaii. I hear Maeyama-san even runs a hotel there."
           }
          ]
         },
@@ -782,7 +782,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "{佐藤|さとう}さんはクラスで静か**どころか**、だれと**も**話さない。",
-         "tr": "Sato-san isn't just quiet in class. She doesn't talk to anyone at all."
+         "tr": "Far from just being quiet in class, Sato-san doesn't talk to anyone at all."
         },
         {
          "n": 5,
@@ -795,7 +795,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "まだ書き始めていないよ。それ**どころか**、トピック**さえ**決めてなくて。",
-           "tr": "I haven't even started writing it. Far from it, I haven't even picked a topic."
+           "tr": "I haven't even started writing it. In fact, I haven't even picked a topic."
           }
          ]
         },
@@ -1653,7 +1653,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nなりに** gives credit within limits: N isn't the most capable, but does what it can in its own way. About yourself it sounds modest (私なりに, 自分なりに); about a child or a junior it sounds fair or kind, as with the father defending 将.\n\n- Before a noun it becomes なりの: 私なりの考え (*my own view, for what it's worth*).\n- **それなりに** means *reasonably, to a fair extent*: not what one hoped for, but acceptable (④, and the listening script's それなりに満足できる).\n- **〜らしく**, *as befits a proper ~*, holds N to a standard instead of allowing for its limits.\n\nTRY! N1 teaches the same 〜なりに, adding 〜ば〜なりに: 忙しければ忙しいなりに (*busy as you are, in a way that suits it*)."
+     "deepDive": "**Nなりに** gives credit within limits: N isn't the most capable, but does what it can in its own way. About yourself it sounds modest (私なりに, 自分なりに); about a child or a junior it sounds fair or kind, as with the father defending 将.\n\n- Before a noun it becomes なりの: 私なりの考え (*my own view, for what it's worth*).\n- **それなりに** means *reasonably, to a fair extent*: not what one hoped for, but acceptable (④, and the listening script's それなりに満足できる).\n- **〜らしく**, *as befits a proper ~*, holds N to a standard instead of allowing for its limits.\n\nTRY! N1 teaches the same 〜なりに, adding 〜ば〜なりに: 忙しければ忙しいなりに (*if you're busy, in a way that fits how busy you are*)."
     },
     {
      "t": "note",

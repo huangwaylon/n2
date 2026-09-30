@@ -928,7 +928,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- Put the past inside: 何かあったに違いない (*something must have happened*).\n\nCompare **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
+     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- Put the past inside: 何かあったに違いない (*something must have happened*).\n\nCompare Quartet I's **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
     },
     {
      "t": "note",
@@ -1314,7 +1314,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "卒業して以来、{田中|たなか}さんに全く連絡をしていない。**いったい**今**どこ**で**何**をしているのだろう**か**。",
-         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. I wonder where on earth he is now and what he’s doing."
+         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. I wonder where on earth Tanaka-san is now, and what they’re doing."
         },
         {
          "n": 2,
@@ -1697,7 +1697,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜はずがない** is the negative end of はず: judging from what the speaker knows (a schedule, a fact, common sense), X is ruled out: *can't be, there's no way*. It argues from facts and sounds more reasoned than **〜わけがない** (L9-9). Both are blunt, so a speaker being polite hedges, as the hotel guest does with と思うんですが.\n\n- そんなはずはない (with は) is the set reply *that can't be right* when the facts contradict what the speaker believes.\n- Keep it apart from **〜ないはずだ**, a milder expectation: 彼は今日来ないはずだ (*he's not supposed to come today*) vs. 来るはずがない (*he can't possibly come*).\n\nThe affirmative counterparts are **〜はずだ** (L5-3) and **〜に違いない** (L9-2)."
+     "deepDive": "**〜はずがない** is the negative end of はず: judging from what the speaker knows (a schedule, a fact, common sense), X is ruled out: *can't be, there's no way*. It argues from facts and sounds more reasoned than **〜わけがない** (L9-9). Both are blunt, so a speaker being polite hedges, as the hotel guest does with と思うんですが.\n\n- そんなはずはない (with は) is the set reply *that can't be right* when the facts contradict what the speaker believes.\n- Keep it apart from **〜ないはずだ**, a milder expectation: 彼は今日来ないはずだ (*he's not supposed to come today*) vs. 来るはずがない (*he can't possibly come*).\n\nThe affirmative counterparts are Quartet I's **〜はずだ** (L5-3) and **〜に違いない** (L9-2)."
     },
     {
      "t": "note",
@@ -3340,7 +3340,7 @@ TRY.registerLesson({
          "n": "1.",
          "text": {
           "ja": "国際交流課の{事務員|じむいん} (office worker) の{加藤|かとう}さんが、教室で{机|つくえ}やいすを一人で並べています。何かのイベントの準備をしているようです。手助けを申し出なさい。",
-          "tr": "Kato, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. It looks like Kato is getting ready for some kind of event. Offer to help."
+          "tr": "Kato-san, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. It looks like Kato-san is getting ready for some kind of event. Offer to help."
          }
         },
         {
