@@ -45,7 +45,7 @@ Review error rates found and fixed: lessons 1–10 % (mostly tr wording, bold/un
 
 ## 3. After merge (workflow q1-verify: markup → second pass ×10 files → links → layout)
 
-- [ ] Markup for reported gaps: italics in book English, boxed POS forms in English, grey shading, lead + brace
+- [x] Markup for reported gaps (3 commits; data/Q2-SCHEMA.md; Q1 + Q2 applied, Q2 headTr 37 lines): italics in book English, boxed POS forms in English, grey shading, lead + brace
       connection formulas, speaker labels in readings, tr on reading headings, a)/b) sub-labels, table cell styles
 
 - [x] `check.js q1` OK (flow steps with only a label and ×/？ examples need no text/tr); `verify.js q1` OK — L4 #2
@@ -54,7 +54,8 @@ Review error rates found and fixed: lessons 1–10 % (mostly tr wording, bold/un
 Second pass status (2026-09-30): done and pushed — L1 96e1648, L2 03cd873, L3 f75a457, L6 6a32d25, brush-up eafe42b,
 front 08818aa, kanji 871c8c1, vocab 9427c7e, links 9e18217 (34 Q1 notes in 20 new + 14 existing groups).
 Interrupted (session ended): markup extension (resumed by a new agent from the uncommitted tree), L4 and L5 second
-pass, q1 layout QA — rerun after the markup commit.
+pass, q1 layout QA — L4, L5 and a scan check of the markup gaps (Q1 L6 pp.196–203, Q1 k3–k12, Q2 k13–k24,
+Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) running; q1 layout QA after them.
 
 - [ ] Second pass: every `ocr-diff.js` string < 0.85 checked on the scan (l01 53 · l02 55 · l03 99 · l04 60 · l05 84 · l06 92 · challenge 119 · front 33 · vocab 71–106 each · kanji 6–78 each)
 - [x] `tools/q1/text-baseline.txt` generated (first pass; regenerate after the second pass fixes)
