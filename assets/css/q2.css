@@ -27,6 +27,8 @@ ruby { -webkit-ruby-position: after; ruby-position: under; }
 .shade { background: var(--q-shade); padding: 0 .1em; border-radius: 2px; }
 .qbox--gray .shade, .gn-conn .shade { background: var(--panel); }
 b.pos { font-family: var(--goth); font-weight: 700; background: var(--q-gray); padding: 0 .12em; border-radius: 2px; }
+/* the book's English keeps a Japanese word it quotes on one line ("〜てくださ／い" broke, L6 p.186); overflow-wrap still breaks a run too long for the line */
+.bk-en { word-break: keep-all; }
 .bk-en { color: var(--en-book); font-family: var(--goth); font-size: 15px; line-height: 1.65; }
 .en-under { display: none; }
 body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; }
@@ -83,6 +85,7 @@ body[data-book] .cc-num { background: var(--q); color: var(--q-on); }
 .hd-t { min-width: 0; }
 /* a numbered or stepped heading keeps its title beside the number when the title wraps (the book's 2-line headings, p.041) */
 .hd:has(> .hd-tag) > .hd-t { flex: 1 1 0; }
+:is(.hd--num, .hd--step):has(> .hd-tag) { align-items: baseline; }
 .hd--band { background: repeating-linear-gradient(-45deg, var(--q-soft) 0 6px, var(--q-hatch) 6px 8px); border-radius: 14px; padding: 10px 14px; font-size: 22px; font-weight: 800; }
 .hd--band .hd-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--panel); border: 2px solid var(--q); color: var(--q); border-radius: 999px; padding: 3px 14px 3px 6px; font-size: 16px; }
 .hd--band > .sk-ic { color: var(--q-on); background: var(--q); border-radius: 50%; width: 30px; height: 30px; padding: 5px; margin-right: -38px; position: relative; z-index: 1; }

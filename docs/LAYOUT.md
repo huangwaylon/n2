@@ -440,6 +440,8 @@ Most Quartet layout rules live as comments next to the rules in `q2.css`; the be
 - Q1 part badges `[#パートA]` (filled) / `[#パートB]` (outlined): inline in ☛ lines; a box titled with one is the book's
   pink band (badge, then the steps on the same line); in a flowchart the phase tab takes the badge's fill.
 - ❶–❿ step marks are followed by a word joiner, so a mark never ends a line.
+- The book's English (`.bk-en`) keeps quoted Japanese words on one line (`word-break: keep-all`).
+- Quartet indexes: auto column widths at every width (the meaning column is not the TRY index's 60px 章 column).
 - Reading style `email` (Q1 pp.034–035): the 差出人／宛先／件名／添付 lines on a grey header band, the rest in a framed
   body, gothic, no paragraph indent.
 - モデル作文 in 縦書き: the grey panel runs across all columns (gradient `to bottom`), the role brackets below it.

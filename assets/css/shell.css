@@ -184,11 +184,12 @@ body.nav-sb .sb-pages .en-inline { display: none; }
 @media (min-width: 601px) {
   .tbl.cmp th, .tbl.idx th, .tbl.cmp td:nth-child(n+3), .tbl.idx td:nth-child(n+2):not(.en-col) { white-space: nowrap; }
   .cmp-pat { min-width: 7em; }
-  /* Quartet indexes: columns 2–3 hold meanings (the TRY index's narrow 番号 / 章); only the lesson column stays on one line */
-  .index-page.q2 .tbl.idx td { width: auto; text-align: left; white-space: normal; }
   .index-page.q2 .tbl.idx td:last-child { white-space: nowrap; }
 }
-.index-page.q2 .tbl.idx td { vertical-align: middle; }
+/* Quartet indexes: columns 2–3 hold meanings (the TRY index's narrow 番号 / 章); ≥601 only the lesson column stays on one
+   line (phones too get auto widths: a 60px meaning column broke words, "undenia/bly") */
+.index-page.q2 .tbl.idx td { width: auto; text-align: left; white-space: normal; vertical-align: middle; }
+.index-page.q2 .tbl.idx tr > td:nth-child(3):last-child { white-space: nowrap; }   /* the grammar index's L1-1 */
 .tbl-note { color: var(--ink-2); }
 .legend { padding-left: 18px; }
 .legend li { margin: 6px 0; }
