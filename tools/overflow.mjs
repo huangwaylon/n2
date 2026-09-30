@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Horizontal-overflow / clipping probe (docs/LAYOUT.md Appendix A) with true device emulation.
+// Horizontal-overflow / clipping probe (docs/LAYOUT.md §5) with true device emulation.
 // Needs Node >= 22 and the server on :8765.
 //
 // usage: node tools/overflow.mjs ROUTE [WIDTH=390] [--en] [--touch] [--dark] [--furi]
