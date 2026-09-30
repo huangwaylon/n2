@@ -2011,7 +2011,7 @@ l9.sections.0.blocks.10.items.1.text.ja	ペットを飼うことにはどんな�
 できるだけたくさん考えましょう。
 l9.sections.0.blocks.10.items.2.text.ja	筆者の愛と恐怖についての考えに賛成ですか。反対ですか。どうしてですか。
 l9.sections.0.blocks.11.title	夜中の{汽笛|きてき}について、あるいは物語の効用について
-l9.sections.0.blocks.11.author	{村上|むらかみ}{春樹|はるき}
+l9.sections.0.blocks.11.author	{村上|むらかみ} {春樹|はるき}
 l9.sections.0.blocks.11.lines.0	¶女の子が男の子に質問する。「あなたはどれ[[くらい|1]]私の
 l9.sections.0.blocks.11.lines.1	ことを好き？」
 l9.sections.0.blocks.11.lines.2	¶少年はしばらく考えてから、静かな声で、「夜中の{汽笛|きてき}

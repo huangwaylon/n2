@@ -232,7 +232,7 @@ TRY.registerLesson({
      "id": "l9-r1",
      "n": 1,
      "title": "夜中の{汽笛|きてき}について、あるいは物語の効用について",
-     "author": "{村上|むらかみ}{春樹|はるき}",
+     "author": "{村上|むらかみ} {春樹|はるき}",
      "audio": "1.Yomimono_L9-1",
      "page": 69,
      "vertical": true,
