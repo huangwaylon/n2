@@ -52,9 +52,9 @@ Review error rates found and fixed: lessons 1–10 % (mostly tr wording, bold/un
       ★ removed (not starred on p.108 or in the list); 8 vocab words not found in the noisy index OCR, to check
 
 Second pass status (2026-09-30): done and pushed — L1 96e1648, L2 03cd873, L3 f75a457, L6 6a32d25, brush-up eafe42b,
-front 08818aa, kanji 871c8c1, vocab 9427c7e, links 9e18217 (34 Q1 notes in 20 new + 14 existing groups).
+front 08818aa, kanji 871c8c1, vocab 9427c7e, links 9e18217, L4 fae865f, markup scan check cbe95ce/ce20447/203cd2c (34 Q1 notes in 20 new + 14 existing groups).
 Interrupted (session ended): markup extension (resumed by a new agent from the uncommitted tree), L4 and L5 second
-pass, q1 layout QA — L4, L5 and a scan check of the markup gaps (Q1 L6 pp.196–203, Q1 k3–k12, Q2 k13–k24,
+pass, q1 layout QA — L5 (split in 3 after a context overflow: scan PDF 159–174, scan 175–194 + script, tr + deep-dives) and a scan check of the markup gaps (Q1 L6 pp.196–203, Q1 k3–k12, Q2 k13–k24,
 Q2 vocab PDF 302/318, Q2 L7–L9 notes at strip resolution, grey label cells) running; q1 layout QA after them.
 
 - [ ] Second pass: every `ocr-diff.js` string < 0.85 checked on the scan (l01 53 · l02 55 · l03 99 · l04 60 · l05 84 · l06 92 · challenge 119 · front 33 · vocab 71–106 each · kanji 6–78 each)
