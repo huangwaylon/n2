@@ -175,7 +175,9 @@ small page marker, used by reviewers), `id` (anchor, unique in the lesson).
   `titleTr`; a reading without `title` has no `titleTr`.
   `headTr: ["Club Activities Roundtable"]`, `headTr: ["Which Matters More in Choosing a Job: …", ""]`.
 - `speakers: true`: a round-table text whose turns start "name：" (`"¶ゴミス：日本に来て…"`); the name hangs left of
-  the turn's lines as printed (Q1 p.102, p.116).
+  the turn's lines as printed, flush left (Q1 p.116); `speakers: "right"` sets the names flush right, colons in one column
+  (Q1 p.102).
+- `indent: false`: the text's paragraphs start flush, without the 1-character indent (Q1 p.116 座談会 intro).
 
 ### Dialogues
 
