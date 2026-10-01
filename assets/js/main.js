@@ -323,6 +323,13 @@ function wireEvents() {
     if (e.target.id === "idx-search") {
       const q = e.target.value.trim().toLowerCase();
       $$(".idx tbody tr").forEach((tr) => (tr.style.display = !q || tr.dataset.s.includes(q) ? "" : "none"));
+      // a table with no match goes (header and all, Quartet's heading too); nothing anywhere says so
+      let any = 0;
+      $$("table.idx").forEach((t) => { const n = $$("tbody tr", t).some((tr) => !tr.style.display); any |= n;
+        t.style.display = n ? "" : "none"; const h = t.previousElementSibling; if (h && h.tagName === "H2") h.style.display = t.style.display; });
+      let none = $("#idx-none");
+      if (!none) { e.target.insertAdjacentHTML("afterend", `<p class="dim" id="idx-none" role="status"></p>`); none = $("#idx-none"); }
+      none.textContent = "見つかりません No matches"; none.hidden = !!any;
     }
   });
   document.addEventListener("keydown", (e) => {
