@@ -68,6 +68,8 @@
   background-image: linear-gradient(315deg, var(--bg) 0 21px, transparent 21px); }
 .sample--rings::before { content: ""; position: absolute; left: 18px; right: 170px; top: 14px; height: 16px; pointer-events: none;
   background: radial-gradient(circle at 8px 8px, var(--band) 0 4.5px, var(--rule) 5px 6.5px, transparent 7px) left / 30px 16px space; }
+/* the 縦/横 switch widens the tools: the holes stop short of it (N2 ch13, the last hole sat under 縦) */
+.sample--rings.sample--vertical::before { right: 205px; }
 .sample::after { content: ""; position: absolute; right: -1px; bottom: -1px; width: 30px; height: 30px; pointer-events: none;
   background: linear-gradient(135deg, var(--panel) 0 48%, color-mix(in srgb, var(--rule) 55%, var(--panel)) 50%, var(--band) 100%);
   border-left: 1px solid var(--rule); border-top: 1px solid var(--rule); box-shadow: -2px -2px 3px rgba(0,0,0,.08); clip-path: polygon(0 0, 100% 0, 0 100%); }
@@ -295,6 +297,7 @@
   .sample { padding: 60px 16px 26px; margin-inline: -6px; }
   .nt-heading { margin-top: 0; }
   .sample--rings::before { left: 12px; right: 150px; background-size: 24px 16px; }
+  .sample--rings.sample--vertical::before { right: 214px; }
   .sample__tools { right: 8px; gap: 6px; }
   .prose, .dlg, .exs { font-size: 16.5px; }
   .nt-heading { font-size: 26px; }
