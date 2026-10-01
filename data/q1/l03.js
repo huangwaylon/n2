@@ -2010,7 +2010,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "box",
-         "style": "frame",
+         "style": "sheet",
          "title": {
           "ja": "今の予約の{内容|ないよう} (content)",
           "tr": "Current reservation details"
@@ -2073,7 +2073,8 @@ TRY.registerLesson({
               "tr": "table seating"
              }
             ]
-           ]
+           ],
+           "bare": true
           }
          ]
         },
@@ -3099,7 +3100,9 @@ TRY.registerLesson({
             "ja": "③ 注文について{希望|きぼう} (request) を言う時",
             "tr": "③ When making a request about the order"
            },
-           "turns": [1],
+           "turns": [
+            1
+           ],
            "text": {
             "ja": "ビール5本とレモンハイ1つ、{追加|ついか}でお願いします。\nあの、＿＿ば、レモンハイの{氷|こおり}を\n＿＿ますか。",
             "tr": "(Meilin) We'd like to add five beers and one lemon sour, please.\n(George) Um, if possible, could you leave the ice out of the lemon sour?"
@@ -3579,34 +3582,41 @@ TRY.registerLesson({
          ]
         },
         {
-         "t": "table",
-         "cols": [
-          "1fr",
-          "1fr"
-         ],
-         "head": [
-          [
-           {
-            "ja": "Aランチ（800円）",
-            "tr": "Lunch A (¥800)"
-           },
-           {
-            "ja": "Bランチ（850円）",
-            "tr": "Lunch B (¥850)"
-           }
-          ]
-         ],
-         "rows": [
-          [
-           {
-            "ja": "・{本日|ほんじつ}のパスタ\n・スープ\n・ミニサラダ\n・お飲み物",
-            "tr": "Today's pasta, soup, small salad, drink"
-           },
-           {
-            "ja": "・本日のカレー\n・スープ\n・ミニサラダ\n・お飲み物",
-            "tr": "Today's curry, soup, small salad, drink"
-           }
-          ]
+         "t": "box",
+         "style": "sheet",
+         "blocks": [
+          {
+           "t": "table",
+           "cols": [
+            "1fr",
+            "1fr"
+           ],
+           "head": [
+            [
+             {
+              "ja": "Aランチ（800円）",
+              "tr": "Lunch A (¥800)"
+             },
+             {
+              "ja": "Bランチ（850円）",
+              "tr": "Lunch B (¥850)"
+             }
+            ]
+           ],
+           "rows": [
+            [
+             {
+              "ja": "・{本日|ほんじつ}のパスタ\n・スープ\n・ミニサラダ\n・お飲み物",
+              "tr": "Today's pasta, soup, small salad, drink"
+             },
+             {
+              "ja": "・本日のカレー\n・スープ\n・ミニサラダ\n・お飲み物",
+              "tr": "Today's curry, soup, small salad, drink"
+             }
+            ]
+           ],
+           "bare": true
+          }
          ]
         },
         {
@@ -3622,7 +3632,7 @@ TRY.registerLesson({
         },
         {
          "t": "box",
-         "style": "frame",
+         "style": "sheet",
          "title": {
           "ja": "今日のランチ",
           "tr": "Today's lunch"

@@ -92,7 +92,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 //   n as printed ("1." "(1)" "①" "1）"); words = the [ … ] box under a question; answer = the printed answer (behind 解答)
 //   style: "memo" — prompts on a ruled memo with room to write (「下にメモしなさい」, Q1 pp.024, 090)
 { t: "box", style, title, icon, ref, blocks }
-//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095)
+//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095) · sheet (title centred on a dog-eared sheet; Q1 pp.084, 094)
 //   · task (✎, ref "（読み物2：行13〜15）") · strategy · challenge
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"], caption, align, headAlign, stripe }
 { t: "words", label, items: [ { ja: "{悩|なや}む", en: "to worry" } ] }     // 単語 box (label default 単語)
@@ -105,7 +105,7 @@ Tables: Cell = Text or `{ text, colspan, rowspan, style }`; cell styles (combina
 `gray` row label beside a coloured head row (Q1 pp.084, 097), `frame` text in a box (Q1 p.106), `plain` unfilled head
 cell (Q1 p.049), `center` `right` `left`. `align` / `headAlign`: `"center"` / `"right"` for all body / head cells or one
 entry per column (colspans counted; Q1 p.107; Q1 head rows are centred, pp.049, 097, 107, 118, 196, 202); a cell's own
-alignment wins. `stripe: true` greys every second body row (Q1 p.107). `regular: true`: head cells not bold (Q1 pp.084, 202). Fill-in tables: empty cells `""`, printed
+alignment wins. `stripe: true` greys every second body row (Q1 p.107). `regular: true`: head cells not bold (Q1 pp.084, 202). `bare: true`: no rules or shading (a menu on a sheet, Q1 p.094). Fill-in tables: empty cells `""`, printed
 blanks ①（　） as printed.
 
 ### Reading texts (読み物, モデル作文, strategy examples, brush-up texts)

@@ -2973,13 +2973,13 @@ l3.sections.2.blocks.35.blocks.0.lines.4.ja	かしこまりました。
 l3.sections.2.blocks.36.items.0.text.ja	下のランチメニューを見て、店員に質問しなさい。
 l3.sections.2.blocks.36.items.0.blocks.0.items.0.text.ja	「{本日|ほんじつ}のパスタ」「本日のカレー」は何か。
 l3.sections.2.blocks.36.items.0.blocks.0.items.1.text.ja	「お飲み物」には何があるか。
-l3.sections.2.blocks.36.items.0.blocks.1.head.0.0.ja	Aランチ（800円）
-l3.sections.2.blocks.36.items.0.blocks.1.head.0.1.ja	Bランチ（850円）
-l3.sections.2.blocks.36.items.0.blocks.1.rows.0.0.ja	・{本日|ほんじつ}のパスタ
+l3.sections.2.blocks.36.items.0.blocks.1.blocks.0.head.0.0.ja	Aランチ（800円）
+l3.sections.2.blocks.36.items.0.blocks.1.blocks.0.head.0.1.ja	Bランチ（850円）
+l3.sections.2.blocks.36.items.0.blocks.1.blocks.0.rows.0.0.ja	・{本日|ほんじつ}のパスタ
 ・スープ
 ・ミニサラダ
 ・お飲み物
-l3.sections.2.blocks.36.items.0.blocks.1.rows.0.1.ja	・本日のカレー
+l3.sections.2.blocks.36.items.0.blocks.1.blocks.0.rows.0.1.ja	・本日のカレー
 ・スープ
 ・ミニサラダ
 ・お飲み物
