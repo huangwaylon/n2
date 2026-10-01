@@ -256,7 +256,7 @@ function paragraphs(lines) {
     const last = out[out.length - 1];
     if (isSep(l)) out.push({ sep: true, lines: [l] });
     else if (isCredit(l)) out.push({ credit: true, lines: [l] });
-    else if (l.cont && last && !last.sep && !last.credit) last.lines.push(l);
+    else if (l.cont && last && !last.sep && !last.credit && !isEnd(last.lines[0])) last.lines.push(l);
     else out.push({ lines: [l] });
   });
   return out;
@@ -264,12 +264,14 @@ function paragraphs(lines) {
 const paraEn = (p) => p.lines.map((l) => l.en).filter(Boolean).join(" ");
 const quoteStart = (p) => /^「/.test(plain(p.lines[0].ja));
 const isNote = (l) => l.style === "note";
+// style "right": a line set at the end of the line, （つづく） / （完） closing a story (N1 pp.129, 138)
+const isEnd = (l) => l.style === "right";
 function proseHtml(s) {
   const body = paragraphs(s.lines).map((p) => {
     if (p.sep) return `<p class="prose__sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`;
     const e = paraEn(p), ja = p.lines.map((l) => fmt(l.ja)).join("");
     if (p.credit) return `<p class="credit">${ja}</p>`;
-    return `<div class="prose__para bi">${e ? enToggle() : ""}<p class="ja prose__p${quoteStart(p) ? " prose__p--q" : ""}${isNote(p.lines[0]) ? " prose__p--note" : ""}">${ja}</p>${en(e, "gen", "div", "prose__en")}</div>`;
+    return `<div class="prose__para bi">${e ? enToggle() : ""}<p class="ja prose__p${quoteStart(p) ? " prose__p--q" : ""}${isNote(p.lines[0]) ? " prose__p--note" : ""}${isEnd(p.lines[0]) ? " prose__p--end" : ""}">${ja}</p>${en(e, "gen", "div", "prose__en")}</div>`;
   }).join("");
   return `<div class="prose ja-book">${body}</div>`;
 }
@@ -333,7 +335,7 @@ function verticalHtml(s) {
     ? `<p class="vt-dlg"><span class="vt-sp">${fmt(l.sp, V)}</span><span class="vt-say">${fmt(l.ja, V)}</span></p>`
     : `<p class="vt-dir${isNote(l) ? " vt-note" : ""}">${fmt(l.ja, V)}</p>`).join("")
     : paras.map((p) => p.sep ? `<p class="vt-sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`
-    : `<p class="${quoteStart(p) ? "vt-q" : ""}${isNote(p.lines[0]) ? " vt-note" : ""}">${p.lines.map((l) => fmt(l.ja, V)).join("")}</p>`).join("");
+    : `<p class="${quoteStart(p) ? "vt-q" : ""}${isNote(p.lines[0]) ? " vt-note" : ""}${isEnd(p.lines[0]) ? " vt-end" : ""}">${p.lines.map((l) => fmt(l.ja, V)).join("")}</p>`).join("");
   const enPs = dlg ? s.lines.filter((l) => l.en).map((l) => (l.sp ? `${plain(l.sp)}: ` : "") + l.en) : paras.filter((p) => !p.sep).map(paraEn).filter(Boolean);
   return `<div class="vt-scroll" tabindex="0" role="region" aria-label="見本文（縦書き）"><div class="vt ja-book">${mast}${body}</div></div>
       ${enBlock(enPs, "vt-en")}`;

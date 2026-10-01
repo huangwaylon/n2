@@ -468,7 +468,6 @@ TRY.registerChapter({
           practice: [
             {
               type: "match",
-              labels: "abcd",
               prompt: { ja: "", en: "Match each beginning with the ending that completes it." },
               left: ["新製品の売れ{行|ゆ}きいかんで、", "テストの成績いかんによって、", "台風の今後の{進路|しんろ}いかんでは、", "{受講|じゅこう}希望者の人数いかんによっては、"],
               right: ["飛行機が{欠航|けっこう}になることもあります。", "{次期|じき}のクラスが{開講|かいこう}されないこともあります。", "ボーナスの額が増える可能性がある。", "{奨学金|しょうがくきん}の{受給者|じゅきゅうしゃ}が決まる。"],
