@@ -403,7 +403,6 @@ TRY.registerChapter({
             { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried." },
             { ja: "グローバル{化|か}が進んで、{語学力|ごがくりょく}の{必要性|ひつようせい}は{高|たか}まる{一方|いっぽう}だ。", en: "As globalization advances, the need for language ability just keeps growing." },
           ],
-          xref: "☞ p.220　〜{一方|いっぽう}",
           plus: [
             {
               pattern: "〜ばかり",
@@ -449,6 +448,7 @@ TRY.registerChapter({
                   why: { en: "上がる is a change verb, and the second half is a consequence of the rising prices, not a contrasting fact: \"prices keep rising,\" like example 2 (B)." },
                 },
               ],
+              xref: "☞ p.220　〜{一方|いっぽう}",
             },
           ],
         },

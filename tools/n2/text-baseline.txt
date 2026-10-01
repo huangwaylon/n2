@@ -5675,10 +5675,10 @@ ch12.parts.1.points.2.practice.0.items.2.q	{物価|ぶっか}が上がる__{一�
 ch12.parts.1.points.2.practice.0.prompt.ja	例1）彼女は歌手として{活躍|かつやく}する__{一方|いっぽう}__、最近、映画にも出始めた。　（　A　）
 例2）{不況|ふきょう}で{収入|しゅうにゅう}が{減|へ}る__{一方|いっぽう}__だ。　（　B　）
 ch12.parts.1.points.2.practice.0.type	choice
+ch12.parts.1.points.2.practice.0.xref	☞ p.220　〜{一方|いっぽう}
 ch12.parts.1.points.2.stars	2
 ch12.parts.1.points.2.usage.en	Use "〜{一方|いっぽう}" when you want to say that "situation 〜 is going to continue" as in "{景気|けいき}が悪くなる{一方|いっぽう}だ".
 ch12.parts.1.points.2.usage.ja	「〜{一方|いっぽう}」は、「{景気|けいき}が悪くなる{一方|いっぽう}だ」のように「〜の{状態|じょうたい}がどんどん進んでいく」と言いたいときに使う。
-ch12.parts.1.points.2.xref	☞ p.220　〜{一方|いっぽう}
 ch12.parts.1.points.3.examples.0.ja	レストランの開店に{先立|さきだ}って、{試食会|ししょくかい}が開かれた。
 ch12.parts.1.points.3.examples.1.ja	新しい{機械|きかい}の{導入|どうにゅう}に{先立|さきだ}ち、工場内で説明会が{行|おこな}われた。
 ch12.parts.1.points.3.examples.2.ja	{舞台公演|ぶたいこうえん}に{先立|さきだ}つ{公開|こうかい}リハーサルに多くの{報道関係者|ほうどうかんけいしゃ}が集まった。
