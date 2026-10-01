@@ -250,7 +250,7 @@ Most Quartet rules are commented next to the CSS in `q2.css`. These are easy to 
 - Openers: can-do rows without gaps; Q1 prints readings under 第/課 (`openerRuby` in book.js). Role cards: heads and texts 1.12em. ここにも注目: title set into the top edge, point headings after an accent ▸. 横 readings with a byline: byline on its own line under the title (≥601 px); ◆ section headings 1.05em.
 - ❶–❿ step marks are followed by a word joiner; `.bk-en` keeps quoted Japanese on one line (`keep-all`); indexes use auto column widths.
 - Reading style `email` (Q1 pp.034–035): 差出人／宛先／件名／添付 on a grey header band, framed Gothic body, no indent. モデル作文 in 縦書き: the grey panel runs across all columns, role brackets below.
-- Tables: `align` / `headAlign` per table or column (Q1 head rows centred); grey row labels `c--gray` never break inside a word (p.049); `stripe` greys every second row (p.107).
+- Tables: `align` / `headAlign` per table or column (Q1 head rows centred); grey row labels `c--gray` never break inside a word (p.049); `stripe` greys every second row (p.107); `regular` sets head cells in the body weight (pp.084, 202; the Fuji table p.097 prints them bold).
 - フローチャート `hd--flow`: same icon + accent title in 会話1 and 会話2; a step with `labels` prints several label-only steps in one bubble (Q1 p.027).
 - Connection formulas: dropped ending grey under a double accent strike; stack lines never wrap, a join wraps only between phrases; bullets float round the formula box (Q1 p.010, Q2 p.009); with `side: true` each bullet is its own formatting context (Q1 p.142).
 - A dialogue under a heading with the same track has no CD button of its own (one per モデル会話).

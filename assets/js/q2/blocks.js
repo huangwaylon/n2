@@ -148,7 +148,7 @@ const B = {
       return `<${tag}${o.colspan ? ` colspan="${o.colspan}"` : ""}${o.rowspan ? ` rowspan="${o.rowspan}"` : ""}${st.length ? ` class="${st.map((x) => "c--" + esc(x)).join(" ")}"` : ""}>${inl(o.text)}</${tag}>`;
     };
     const tr = (rows, a, th) => grid(rows, a).map((r) => `<tr>${r.map((c) => cell(c, th)).join("")}</tr>`).join("");
-    return `<div class="qtbl-wrap"><table class="qtbl${b.stripe ? " qtbl--stripe" : ""}">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${tr(b.head, b.headAlign, true)}</thead>` : ""}
+    return `<div class="qtbl-wrap"><table class="qtbl${b.stripe ? " qtbl--stripe" : ""}${b.regular ? " qtbl--reg" : ""}">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${tr(b.head, b.headAlign, true)}</thead>` : ""}
       <tbody>${tr(b.rows || [], b.align)}</tbody></table></div>`;
   },
   words(b) {

@@ -2079,6 +2079,7 @@ TRY.registerLesson({
         },
         {
          "t": "table",
+         "regular": true,
          "cols": [
           "auto",
           "1fr"

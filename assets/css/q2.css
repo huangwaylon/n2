@@ -199,6 +199,8 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
    stripe = every second body row grey (p.107) */
 .qtbl .c--gray, .qtbl .c--gray .ja { word-break: keep-all; overflow-wrap: normal; } .qtbl th.c--plain { background: none; }
 .qtbl--stripe > tbody > tr:nth-child(even) > td { background: var(--q-gray); }
+/* regular: head and row-head cells in the body weight, as printed (Q1 pp.084, 202; the Fuji table p.097 keeps bold) */
+.qtbl--reg th { font-weight: 400; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
 /* 聴解: the 単語 box sits at the right under the instructions (Q1 p.202, Q2 p.031) */
