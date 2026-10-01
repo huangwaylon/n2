@@ -4,8 +4,8 @@
 /* --q-on: text on an accent fill — white in light; dark text in dark, where white on the lighter accent is ~2.4:1.
    --q-fill: the accent behind --q-on text, darkened for Q2 light (white on #1690c9 is 3.6:1, on #0e78ab 4.9:1; Q1 #e0166a 4.7:1,
    dark themes 7–8:1) */
-:root { --q-on: #fff; --q-fill: #0e78ab; --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; }
-:root[data-theme="dark"] { --q-on: #0e1a21; --q-fill: #5ab8e8; --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; }
+:root { --q-on: #fff; --q-fill: #0e78ab; --q: #1690c9; --q-2: #0b6fa0; --q-soft: #e2f1f9; --q-soft-2: #cfe8f5; --q-gray: #ececec; --q-hatch: #d4ebf7; --q-shade: #dcdcdc; --q-navy: #114a69; --q-slate: #d3e2eb; }
+:root[data-theme="dark"] { --q-on: #0e1a21; --q-fill: #5ab8e8; --q: #5ab8e8; --q-2: #8fd0f0; --q-soft: #15303d; --q-soft-2: #1b3b4b; --q-gray: #26292d; --q-hatch: #1c3542; --q-shade: #3d4147; --q-navy: #2f6d90; --q-slate: #1f2f39; }
 /* Quartet I: the book's magenta (#e8186a on the scan, PDF 10, 30) */
 body[data-book="q1"] { --q-fill: var(--q); --q: #e0166a; --q-2: #ad0f4f; --q-soft: #fde6ef; --q-soft-2: #fad2e2; --q-hatch: #f8d6e4; }
 :root[data-theme="dark"] body[data-book="q1"] { --q-on: #230d17; --q: #ff6fa5; --q-2: #ffa6c8; --q-soft: #3b1826; --q-soft-2: #4a1f31; --q-hatch: #43192b; }
@@ -708,6 +708,8 @@ s { text-decoration: line-through var(--q) 2px; }
 .flow--turns .flow__steps { background: none; }
 .flow--turns .flow__s { max-width: 92%; }
 .flow--turns .flow__s > .flow__l:not(:first-child) { margin-top: .5em; }
+/* the debate's other side: a navy pill over blue-grey bubbles (p.193); the two-role charts keep grey (pp.023, 187) */
+.flow--turns .flow__pill--b { background: var(--q-navy); color: #fff; } .flow--turns .flow__s--b { background: var(--q-slate); }
 .flow--bare .flow__steps { border: 0; padding: 0; }
 .flow--one .flow__s { max-width: none; justify-self: stretch; }
 .flow__pill { justify-self: start; background: var(--q-fill); color: var(--q-on); border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
