@@ -107,7 +107,7 @@ let quizSeq = 0;
 function drillView() {
   const scope = `${dr.mode}:${dr.dir}:${dr.ch}:${dr.lv}:${dr.fresh}`, n = pool().length;
   const body = !n ? `<p class="dim">No words in this selection.</p>` : dr.mode === "card" ? flashcards(scope, () => pool().map(cardOf))
-    : renderExercise({ type: "choice", items: quizItems() }, `vquiz-${++quizSeq}`, "10問 <span class='en-inline'>10 questions</span>") + `<p><a class="btn" href="#/vocab/drill" data-act="redrill">もう一度 <span class="en-inline">New set</span></a></p>`;
+    : renderExercise({ type: "choice", items: quizItems() }, `drill-vocab-${++quizSeq}`, "10問 <span class='en-inline'>10 questions</span>") + `<p><a class="btn" href="#/vocab/drill" data-act="redrill">もう一度 <span class="en-inline">New set</span></a></p>`;
   return `<div class="page drill vocab-drill" data-en-scope>
     <div class="page-head"><h1>単語の練習 <span class="en-inline">Vocabulary drill</span></h1><a class="btn" href="#/vocab">単語 <span class="en-inline">Word list</span></a></div>
     <div class="dr-opts">${segBtns("vdr-mode", [["card", "カード"], ["quiz", "4択"]], dr.mode)}

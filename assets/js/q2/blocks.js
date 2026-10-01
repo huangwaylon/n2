@@ -46,8 +46,9 @@ export function wireTracks(root) {
 }
 
 // ---------- block dispatch ----------
-// ctx: { id: unique prefix for interactive items and anchors }
-let seq = 0;
+// ctx: { id: unique prefix for interactive items and anchors }; the exercise number counts per view, so an exercise
+// keeps its id (the key of its saved score) whichever page was shown before
+const seq = (ctx) => (ctx.seq = (ctx.seq || 0) + 1) - 1;
 export function blocks(list, ctx = {}) {
   return (list || []).map((b) => block(b, ctx)).join("");
 }
@@ -87,11 +88,11 @@ const B = {
   },
   p: (b) => line(b.text, `qp${b.style ? " qp--" + b.style : ""}`),
   hr: () => `<hr class="q-hr">`,
-  list(b) {
+  list(b, ctx) {
     const mark = b.mark || "・";
     return `<ul class="qlist" style="--mk:'${esc(mark)}'">${(b.items || []).map((it) => {
       const o = it && it.text !== undefined ? it : { text: it };
-      return `<li>${line(o.text, "qlist__t")}${blocks(o.blocks)}</li>`;
+      return `<li>${line(o.text, "qlist__t")}${blocks(o.blocks, ctx)}</li>`;
     }).join("")}</ul>`;
   },
   qs(b, ctx) {
@@ -185,7 +186,7 @@ const B = {
       <ol class="flow__steps">${body}</ol></div>`;
   },
   bubbles(b, ctx) {
-    const id = `${ctx.id || "q"}-bb${seq++}`;
+    const id = `${ctx.id || "q"}-bb${seq(ctx)}`;
     return `<div class="bubbles" data-ex="${id}">${(b.items || []).map((it, i) => {
       let k = 0;
       const body = fmt(jaOf(it.text)).replace(/<span class="blank">[^<]*<\/span>/g, () => `<input class="bb-in" type="text" data-k="${k++}" aria-label="空欄${k}" autocomplete="off" autocapitalize="off" spellcheck="false">`);
@@ -224,20 +225,20 @@ const B = {
 
   // ----- questions with the book's answers -----
   tf(b, ctx) {
-    const id = `${ctx.id || "q"}-tf${seq++}`;
+    const id = `${ctx.id || "q"}-tf${seq(ctx)}`;
     return exWrap(id, (b.items || []).map((it, i) => `<div class="q tf-q" data-i="${i}">
         <div class="q-line"><span class="qs__n">${fmt(it.n || "")}</span>
           <span class="opts opts--tf" data-answer="${it.answer === "○" ? 0 : 1}"><button class="opt opt--tf" data-act="pick" data-j="0" aria-label="○ 合う">○</button><button class="opt opt--tf" data-act="pick" data-j="1" aria-label="× 合わない">×</button></span>
           ${line(it.text, "q-text")}</div></div>`).join(""));
   },
   choice(b, ctx) {
-    const id = `${ctx.id || "q"}-ch${seq++}`;
+    const id = `${ctx.id || "q"}-ch${seq(ctx)}`;
     return exWrap(id, (b.items || []).map((it, i) => `<div class="q choice-q" data-i="${i}">
         ${it.text || it.n ? `<div class="q-line"><span class="qs__n">${fmt(it.n || "")}</span>${line(it.text, "q-text")}</div>` : ""}
         <div class="opts opts--row" data-answer="${it.answer}">${it.options.map((o, j) => `<button class="opt opt--row" data-act="pick" data-j="${j}">${fmt(o)}</button>`).join("")}</div></div>`).join(""));
   },
   match(b, ctx) {
-    const id = `${ctx.id || "q"}-mt${seq++}`;
+    const id = `${ctx.id || "q"}-mt${seq(ctx)}`;
     const labs = b.rightLabels || b.right.map((_, j) => String(j + 1));
     return exWrap(id, `<ol class="mt-r ja-book">${b.right.map((r, j) => `<li><span class="qs__n">${fmt(labs[j])}</span>${line(r, "q-text")}</li>`).join("")}</ol>` +
       b.left.map((l, i) => `<div class="q choice-q" data-i="${i}"><div class="q-line"><span class="qs__n">${fmt((b.leftLabels || [])[i] || "")}</span>${line(l, "q-text")}</div>
