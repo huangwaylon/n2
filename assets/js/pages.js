@@ -1,11 +1,9 @@
 // The pages outside the chapters: home, guide, about (front matter), index, similar patterns, can-do list, drill.
 import { BOOK, TRY, allPoints, bookEnglish, chapterPoints, esc, pointRange, progress, shuffle } from "./core.js";
-import { bi, biInner, en, enScopeBtn, enToggle, fmt, gpLink, marks, MARKS, plain, stars } from "./markup.js";
+import { bi, biInner, en, enScopeBtn, enToggle, fmt, gpLink, marks, MARKS, pageHead, plain, stars } from "./markup.js";
 import { rubyMarkup } from "./ruby.js";
 import { renderExercise } from "./exercises.js";
 
-// page title row with one container-scoped EN button (per-line EN buttons are hidden at ≤600)
-const pageHead = (h1) => `<div class="page-head"><h1>${h1}</h1>${enScopeBtn()}</div>`;
 // the site's own interface text (not book content): bilingual, but not marked as generated
 const ui = (o, tag = "p", cls = "") => bi(o, tag, cls, { src: "ui" });
 const studiedCount = (pts) => pts.filter((g) => progress.studied[g.no]).length;

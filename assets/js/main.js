@@ -1,7 +1,7 @@
 // Entry point: loads the book's data files, builds the page shell (top bar, sidebar, footer), routes, wires events.
-// The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
-// data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
-// for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
+// Each book's page (index.html = N2, n1/, q1/, q2/) loads assets/js/boot.js and data/<book>/book.js first. What differs
+// per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below for the TRY books, assets/js/q2/nav.js for
+// Quartet I and II (book kind "quartet", loaded only on their pages).
 import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
@@ -137,7 +137,8 @@ function updateSidebarProgress() {
 // routes are hashes: "" home · ch/N · ch/N/review · gp/N · compare[/group] · about · guide · index · cando · drill ·
 // vocab[/N[/i]] · vocab/drill
 const VIEWS = { guide: guideView, about: aboutView, index: indexView, compare: compareView, cando: canDoView, drill: drillView, vocab: vocabView };
-// the chapter a route shows and the element to scroll to
+// target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM) and the
+// element to scroll to
 function target(h) {
   const [p0, p1, p2] = h.split("/");
   if (p0 === "ch") return { ch: +p1, scrollTo: p2 === "review" ? `#review-${+p1}` : null };
@@ -156,7 +157,6 @@ const docTitle = (main) => {
   const ch = main.dataset.ch && TRY.chapters.find((c) => String(c.id) === main.dataset.ch);
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
-// target(h) → { ch, scrollTo }: the chapter a route shows (its sidebar entry opens; jumps inside it keep the DOM)
 const needs = (h) => (/^vocab/.test(h) ? TRY.chapterFiles("vocab/") : []);
 const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab, needs };
 let A = TRY_BOOK;
@@ -310,9 +310,9 @@ ACT["reset-progress"] = () => {
   rerender();
 };
 
-// Quartet readings switch 縦/横 by re-rendering the view (blocks.js ACT.q2vmode)
 // the drills redraw themselves after every card or option change (flash.js)
 document.addEventListener("try:rerender", () => rerender());
+// 縦/横 changed where a view must be re-rendered (Quartet readings, blocks.js ACT.q2vmode; the ⚙ select on such a page).
 // detail: the clicked switch, or { late: true } when a tablet was turned
 document.addEventListener("try:setting-vertical", (e) => {
   const d = e.detail, back = (d && d.late && snap) || keepPlace(d instanceof Element ? d : null);

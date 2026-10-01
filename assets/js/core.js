@@ -55,6 +55,8 @@ export const LETTERS = "abcdefghijklmnop";
 export const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 export const WIDE = "(min-width: 901px)"; // desktop layout; the sidebar is a drawer below it
 export const isWide = () => matchMedia(WIDE).matches;
+// 縦書き texts (TRY sample.vertical, Quartet vertical readings): vertical at ≥901 px, or when the reader chose 縦
+export const verticalOn = () => settings.vertical === "v" || (settings.vertical !== "h" && isWide());
 // the view height for sizing text boxes: iOS browsers change innerHeight (and fire resize) while scrolling, as their
 // toolbars slide in and out; boxes sized from it then changed height under the reader. Taken again when the width changes
 let vw = innerWidth, vh = innerHeight;

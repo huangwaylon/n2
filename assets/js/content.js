@@ -1,6 +1,6 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
-import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace, viewH } from "./core.js";
-import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, otherBooksHtml, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
+import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace, verticalOn, viewH } from "./core.js";
+import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, miniToc, otherBooksHtml, pager, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
 // ---------- chapter ----------
@@ -30,7 +30,6 @@ export function chapterView(id) {
   const chips = ch.parts
     .map((p) => `${p.label && ch.parts.length > 1 ? `<span class="mt-part">${esc(p.label)}</span>` : ""}${p.points.map((g) => `<a href="#/gp/${g.no}" class="mt-gp"><span class="mt-gp__n">${g.no}</span><span class="mt-gp__t">${fmt(g.pattern)}</span></a>`).join("")}`)
     .join("") + (ch.review && ch.review.length ? `<a href="#/ch/${id}/review" class="mt-gp mt-review">まとめの問題</a>` : "");
-  const miniToc = `<details class="mini-toc"${matchMedia("(min-width: 601px)").matches ? " open" : ""}><summary class="mini-toc__sum">この章の文法 ${range}<span class="mini-toc__n">（${pts.length}）</span></summary><nav class="mini-toc__chips" aria-label="この章の文法">${chips}</nav></details>`;
   const parts = ch.parts
     .map((p, pi) => `<section class="part" id="ch${id}-part${pi}">
         ${pi ? bannerHtml(ch, p, pi) : ""}
@@ -40,15 +39,14 @@ export function chapterView(id) {
         ${p.check ? checkHtml(p.check, `ch${id}-part${pi}-check`) : ""}
       </section>`)
     .join("");
-  const pg = (c, dir, cls) => (c ? `<a class="${cls}" href="#/ch/${c.id}"><span class="pager__dir">${dir}</span><span class="pager__t">${c.id} ${fmt(c.title.ja)}</span></a>` : "<span></span>");
   return `<div class="chapter" style="--ch:${id}">
       ${bannerHtml(ch, ch.parts[0], 0, range)}
       ${range ? tocTab(id, range, "ch-tab--edge") : ""}
       ${canDoHtml(ch.canDo)}
-      ${miniToc}
+      ${miniToc(`この章の文法 ${range}`, pts.length, chips, "この章の文法")}
       ${parts}
       ${reviewHtml(ch)}
-      <nav class="pager">${pg(prev, "← 前の章", "pager__prev")}${pg(next, "次の章 →", "pager__next")}</nav>
+      ${pager(prev, next, (c) => [`#/ch/${c.id}`, `${c.id} ${fmt(c.title.ja)}`], ["← 前の章", "次の章 →"])}
     </div>`;
 }
 ACT.toc = (t, e) => {
@@ -319,8 +317,6 @@ function noticeHtml(s) {
       ${enBlock(L.filter((l) => l.en).map((l) => l.en), "sample__en")}
     </div>`;
 }
-// 縦書き texts: vertical at ≥901 (or when the reader chose 縦), horizontal otherwise
-const verticalOn = () => settings.vertical === "v" || (settings.vertical !== "h" && isWide());
 function verticalHtml(s) {
   const v = verticalOn(), V = { vertical: true };
   let label = "", title = s.heading || "";

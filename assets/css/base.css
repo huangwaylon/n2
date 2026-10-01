@@ -148,7 +148,7 @@ body.show-en .en-btn { display: none; }
 .btn.primary .en-inline { color: inherit; opacity: .85; }
 .btn.small { padding: 4px 10px; font-size: 13px; }
 @media (pointer: coarse) { .btn, .btn.small { min-height: 44px; } }
-.btn.play.speaking, .speak.speaking { background: var(--accent); color: #fff; border-color: var(--accent); }
+.speak.speaking { background: var(--accent); color: #fff; border-color: var(--accent); }
 /* 🔊: 32px visual, 44px hit (::after); negative block margin keeps it from growing the line box */
 .speak { position: relative; display: inline-grid; place-items: center; width: 32px; height: 32px; margin: -6px 0; border: 0; background: transparent; cursor: pointer; font-size: 14px; opacity: 0.45; padding: 0; vertical-align: middle; border-radius: 6px; }
 .speak::after { content: ""; position: absolute; left: 50%; top: 50%; width: 44px; height: 44px; transform: translate(-50%, -50%); }

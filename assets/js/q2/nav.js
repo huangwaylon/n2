@@ -3,7 +3,7 @@
 // Routes: "" home · l/7 lesson opener · l/7/read|write|speak|listen · gn/7-12 → note 12 of lesson 7 · st/11 strategy ·
 // l/7/vocab · l/7/kanji · u/c1 (上級へのチャレンジ ①) · u/k13 (漢字チャレンジ ⑬) · about · guide · index · kanji · drill
 import { ACT, BOOK, TRY, $, esc, progress } from "../core.js";
-import { enScopeBtn, fmt, plain } from "../markup.js";
+import { enScopeBtn, fmt, miniToc, pageHead, pager, plain } from "../markup.js";
 import { blocks, circ, inl, line, placeLineNos, placeRefNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
 import { vocabView, kanjiView, kanjiAllView, drillView, indexView } from "./lists.js";
 
@@ -13,7 +13,6 @@ const secOf = (l, s) => l && l.sections.find((x) => x.skill === s);
 const unitOf = (id) => TRY.units.find((u) => u.id === id);
 // the ブラッシュアップ unit kinds in book order (book.js unitKinds): Q1 初級文法チェック, Q2 上級へのチャレンジ; both 漢字チャレンジ
 const unitName = (u) => (BOOK().unitKinds.find(([k]) => k === u.kind) || [u.kind, u.kind])[1];
-const pageHead = (h1) => `<div class="page-head"><h1>${h1}</h1>${enScopeBtn()}</div>`;
 
 // every grammar note / strategy with its lesson (note numbers restart in each lesson; strategies are book-wide)
 function findIn(l, pred) {
@@ -137,16 +136,15 @@ function openerView(l) {
     ${groups}
     <nav class="op-more"><a class="btn" href="#/l/${l.id}/vocab">単語リスト <span class="en-inline">Vocabulary</span></a><a class="btn" href="#/l/${l.id}/kanji">漢字リスト <span class="en-inline">Kanji</span></a>
       ${units.map((u) => `<a class="btn" href="#/u/${u.id}">${unitName(u)} ${circ(u.no)}</a>`).join("")}</nav>
-    ${pager(l, null)}</div>`;
+    ${sectionPager(l, null)}</div>`;
 }
 
 // prev / next section across lessons
-function pager(l, skill) {
+function sectionPager(l, skill) {
   const seq = TRY.lessons.flatMap((x) => [{ l: x, s: null }, ...x.sections.map((s) => ({ l: x, s: s.skill }))]);
   const i = seq.findIndex((x) => x.l === l && x.s === skill);
-  const lab = (x) => (x.s ? `${x.l.id} ${SKILLS[x.s][0]}　${fmt(secOf(x.l, x.s).title.ja || secOf(x.l, x.s).title)}` : `第${x.l.id}課`);
-  const a = (x, dir, cls) => (x ? `<a class="${cls}" href="#/l/${x.l.id}${x.s ? "/" + x.s : ""}"><span class="pager__dir">${dir}</span><span class="pager__t">${lab(x)}</span></a>` : "<span></span>");
-  return `<nav class="pager">${a(seq[i - 1], "← 前へ", "pager__prev")}${a(seq[i + 1], "次へ →", "pager__next")}</nav>`;
+  return pager(seq[i - 1], seq[i + 1], (x) => [`#/l/${x.l.id}${x.s ? "/" + x.s : ""}`,
+    x.s ? `${x.l.id} ${SKILLS[x.s][0]}　${fmt(secOf(x.l, x.s).title.ja || secOf(x.l, x.s).title)}` : `第${x.l.id}課`]);
 }
 
 // headings with an id (and notes, strategies, readings) make the section's mini table of contents
@@ -177,23 +175,21 @@ function sectionView(l, skill) {
       <div class="sk-banner__b"><p class="sk-banner__l">第${l.id}課 · ${SKILLS[skill][1]}</p><h1 class="sk-banner__t">${inl(s.title)}</h1></div>
     </header>
     ${tabs}
-    ${toc.length > 1 ? `<details class="mini-toc"${matchMedia("(min-width: 601px)").matches ? " open" : ""}><summary class="mini-toc__sum">このセクションの内容<span class="mini-toc__n">（${toc.length}）</span></summary><nav class="mini-toc__chips">${toc.join("")}</nav></details>` : ""}
+    ${toc.length > 1 ? miniToc("このセクションの内容", toc.length, toc.join("")) : ""}
     <div class="sec-body" data-en-scope>${blocks(s.blocks, { id: `l${l.id}-${skill}`, lesson: l.id, lastPage: null })}</div>
-    ${pager(l, skill)}</div>`;
+    ${sectionPager(l, skill)}</div>`;
 }
 
 function unitView(id) {
   const u = unitOf(id);
   if (!u) return null;
   const list = TRY.units, i = list.indexOf(u);
-  const lab = (x) => `${unitName(x)} ${circ(x.no)} ${fmt(x.title)}`;
-  const a = (x, dir, cls) => (x ? `<a class="${cls}" href="#/u/${x.id}"><span class="pager__dir">${dir}</span><span class="pager__t">${lab(x)}</span></a>` : "<span></span>");
   return `<div class="lesson q2 unit">
     <header class="unit-h"><span class="unit-h__tag">${unitName(u)} ${circ(u.no)}</span>
       <h1 class="unit-h__t"><span class="ja">${fmt(u.title)}</span> ${u.en ? `<span class="strat__en">${fmt(u.en)}</span>` : ""}</h1>
       ${u.lesson ? `<a class="unit-h__l" href="#/l/${u.lesson}">☛ 第${u.lesson}課</a>` : ""}</header>
     <div class="sec-body" data-en-scope>${blocks(u.blocks, { id: `u-${u.id}` })}</div>
-    <nav class="pager">${a(list[i - 1], "← 前へ", "pager__prev")}${a(list[i + 1], "次へ →", "pager__next")}</nav></div>`;
+    ${pager(list[i - 1], list[i + 1], (x) => [`#/u/${x.id}`, `${unitName(x)} ${circ(x.no)} ${fmt(x.title)}`])}</div>`;
 }
 
 function aboutView() {

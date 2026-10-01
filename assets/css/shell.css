@@ -226,7 +226,6 @@ div.bk-card .bk-go--new { color: var(--ink-2); }
 }
 .page-tools { display: flex; justify-content: flex-end; margin-bottom: -1em; }
 @media (min-width: 601px) { .hero-bi > .en-btn--scope { display: none; } }  /* ≥601 the per-line EN button does the job */
-.legend-mark .mark { margin-right: .3em; }
 .cd-ch { font-family: var(--serif); font-size: 1.6em; font-weight: 700; color: var(--ink); line-height: 1.2; }
 .tbl { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: 10px; overflow: hidden; margin: 10px 0 20px; font-size: 0.95em; }
 .tbl th, .tbl td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; }

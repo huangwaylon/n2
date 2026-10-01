@@ -120,6 +120,15 @@ export const bi = (o, tag = "p", cls = "", opts = {}) => {
 // ---------- small shared pieces ----------
 // dark rounded label (できること / どう使う？ / やってみよう！ / 問題N); html is inserted as-is
 export const pill = (html, cls = "") => `<span class="pill ${cls}">${html}</span>`;
+// page title row with one container-scoped EN button (per-line EN buttons are hidden at ≤600)
+export const pageHead = (h1) => `<div class="page-head"><h1>${h1}</h1>${enScopeBtn()}</div>`;
+// the contents of a chapter / section, open from 601 px. sum: summary HTML; chips: the links; label: the nav's aria-label
+export const miniToc = (sum, n, chips, label) => `<details class="mini-toc"${matchMedia("(min-width: 601px)").matches ? " open" : ""}><summary class="mini-toc__sum">${sum}<span class="mini-toc__n">（${n}）</span></summary><nav class="mini-toc__chips"${label ? ` aria-label="${label}"` : ""}>${chips}</nav></details>`;
+// ← previous · next → at the foot of a chapter, section or unit. link(x) → [href, label HTML]
+export const pager = (prev, next, link, dirs = ["← 前へ", "次へ →"]) => {
+  const a = (x, dir, cls) => { if (!x) return "<span></span>"; const [href, t] = link(x); return `<a class="${cls}" href="${href}"><span class="pager__dir">${dir}</span><span class="pager__t">${t}</span></a>`; };
+  return `<nav class="pager">${a(prev, dirs[0], "pager__prev")}${a(next, dirs[1], "pager__next")}</nav>`;
+};
 // headphone "CD ▶" play button for a speech queue [{ text, v }] (v: "m" | "f")
 export const cdBadge = (queue, label = "音声を聞く") =>
   `<button class="cd-badge" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="${esc(label)}"><span class="cd-badge__cd">CD</span><span class="cd-badge__play">▶</span></button>`;

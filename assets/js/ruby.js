@@ -36,7 +36,7 @@ function overhangRoom(str, i, dir) {
 // What the overhang can't absorb is taken out of the reading itself, as the book does ("{東京|とうきょう}本社" p.98: the
 // reading set tight over its kanji), by up to a fifth of its width; only the rest pushes the neighbours apart.
 const SQUEEZE = 0.2;
-export function rubyHtml(m, base, rd, off, str) {
+function rubyHtml(m, base, rd, off, str) {
   let e = excess(base, rd);
   if (!(e > 0.01) || typeof str !== "string") return `<ruby>${base}<rt>${rd}</rt></ruby>`;
   const r2 = (x) => Math.round(x * 100) / 100;
