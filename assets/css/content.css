@@ -135,8 +135,8 @@
 .vt strong { font-family: var(--goth); }
 .vt .vt-sep { text-indent: 2em; letter-spacing: .05em; margin: 0 .6em; color: var(--ink-2); }
 .vt-mast { margin-left: 1.2em; padding-left: 1em; border-left: 1px solid var(--rule); }
-.vt-label { display: inline-block; font: 700 1.6em/1.2 var(--mincho); border-block: 3px double var(--ink); padding: .3em .1em; margin-bottom: 1.2em; letter-spacing: .3em; }
-.vt-title { margin: 0; font: 700 1.9em/1.3 var(--mincho); }
+.vt-label { display: inline-block; font: 400 1.6em/1.2 var(--mincho); border-block: 3px double var(--ink); padding: .3em .1em; margin-bottom: 1.2em; letter-spacing: .3em; }
+.vt-title { margin: 0; font: 400 1.9em/1.3 var(--mincho); } /* 社説 and the headline in regular Mincho, as printed (p.205) */
 .vt-title strong, .vt-label strong { color: inherit; }
 .vt-en { margin-top: 1em; padding-top: .6em; border-top: 1px dashed var(--rule); }
 .vt-en p { margin: .2em 0 .5em; }
