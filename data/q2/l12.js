@@ -3693,7 +3693,8 @@ TRY.registerLesson({
            },
            ""
           ]
-         ]
+         ],
+         "memo": true
         }
        ]
       },
