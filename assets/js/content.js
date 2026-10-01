@@ -391,5 +391,6 @@ export function vtScrollInit(refit) {
     upd();
   });
 }
-// auto mode follows the width
-matchMedia(WIDE).addEventListener("change", () => { if (settings.vertical === "auto" && $(".sample--vertical")) { const back = keepPlace(); setVertical("auto"); back(true); } });
+// auto mode follows the width; the place read before the turn is restored by the resize pass (main.js: by the time the
+// media query changes the page is already laid out at the new width, and a place taken now is the wrong one)
+matchMedia(WIDE).addEventListener("change", () => { if (settings.vertical === "auto" && $(".sample--vertical")) setVertical("auto"); });

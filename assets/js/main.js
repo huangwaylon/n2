@@ -2,7 +2,7 @@
 // The page (index.html = N2, n1/index.html = N1, q2/index.html = Quartet II) loads assets/js/boot.js and
 // data/<book>/book.js first. What differs per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below
 // for the TRY books, assets/js/q2/nav.js for Quartet II (book kind "quartet", loaded only on that page).
-import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, keepPlace, loadProgress, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
 import { chapterView, setVertical, vtScrollInit } from "./content.js";
@@ -173,12 +173,13 @@ const markActive = (h) => {
 };
 // layout pass after a render: option columns, furigana overhang, vertical scrollers
 const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
-function route(force) {
+// back: a history step or a reload (hashchange, page load), which return to the place last read on that entry
+function route(force, back) {
   TTS.stop();
   if (!force) snap = null; // a new page: the last place read belongs to the old one
   const h = hashRoute(), main = $("#main"), t = A.target(h);
   const loading = need(h);
-  if (loading) return loading.then((failed) => { route(true); showErrors(failed); });
+  if (loading) return loading.then((failed) => { route(true, back); showErrors(failed); });
   if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
     const html = A.viewHtml(h, t);
     main.innerHTML = (h ? "" : shelfHtml()) + (html || notFound());
@@ -190,8 +191,10 @@ function route(force) {
   markActive(h);
   setDrawer(false, false);
   const el = t.scrollTo && $(t.scrollTo);
-  if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
-  else window.scrollTo(0, 0);
+  if (!(back && placeAgain(h))) {
+    if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
+    else window.scrollTo(0, 0);
+  }
   document.title = A.docTitle(main);
   queueResume();
 }
@@ -200,9 +203,19 @@ function sameChapterJump() {
   const h = hashRoute(), t = A.target(h);
   const el = t.ch && t.scrollTo && String(t.ch) === $("#main").dataset.ch && $(t.scrollTo);
   if (!el) return false;
-  el.scrollIntoView({ block: "start" });
+  if (!placeAgain(h)) el.scrollIntoView({ block: "start" });
   markActive(h);
   queueResume();
+  return true;
+}
+// the place last read on this history entry (takeSnap below): back / forward and a reload returned to the top of the page
+// or the grammar point (the page renders after load, so the browser's own scroll restoration found nothing to restore)
+history.scrollRestoration = "manual";
+function placeAgain(h) {
+  const st = history.state;
+  if (!st || st.h !== h || !st.p) return false;
+  scrollTo(0, st.y);
+  placeBack(st.p);
   return true;
 }
 // re-render the current view in place (a setting changed how content is built)
@@ -249,6 +262,8 @@ function applySettings() {
   TRY.applyTheme(settings.theme);
 }
 const setSetting = (k, v) => { settings[k] = v; saveSettings(); applySettings(); };
+// English shown or hidden above the line being read moved it (scroll anchoring keeps an element higher up in place)
+const setEnglish = (on) => { const back = keepPlace(); setSetting("english", on); back(); };
 
 // ---------- events ----------
 let fitQueued = 0;
@@ -258,7 +273,12 @@ const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationF
 // re-fits every text and may re-render the readings, then puts it back. Not taken while a resize settles — the
 // browser has already laid the page out at the new width by the time resize or a media-query change fires
 let snap = null, snapT = 0, resizing = 0;
-const takeSnap = () => { if (!resizing) snap = keepPlace(); };
+const takeSnap = () => {
+  if (resizing || $("#main").dataset.view !== hashRoute()) return; // not before the page is rendered (fonts.ready)
+  const p = placeRec();
+  snap = keepPlace(null, p);
+  try { history.replaceState({ h: hashRoute(), y: scrollY, p }, ""); } catch (e) {} // Safari: ≤ 100 calls in 10 s
+};
 
 ACT.en = (t) => t.closest(".bi").classList.toggle("en-open");
 ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) box.classList.toggle("en-all"); };
@@ -303,6 +323,9 @@ function wireEvents() {
     if (innerWidth === lastW) return;
     lastW = innerWidth;
     clearTimeout(resizing); resizing = setTimeout(() => (resizing = 0), 1200);
+    // the line read before the turn: at once (the browser has reflowed the page; a long grammar point moved it by
+    // 100–300 px for the 150 ms until the re-fit), and again after the re-fit
+    if (snap) snap();
     clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); if (snap) snap(true); }, 150);
   });
   if (document.fonts) document.fonts.ready.then(() => queueFit(true));
@@ -310,7 +333,7 @@ function wireEvents() {
     const t = e.target;
     if (t.dataset.act === "studied") { progress.studied[t.dataset.no] = t.checked; saveProgress(); }
     else if (t.id === "tg-furi") { setSetting("furigana", t.checked); queueFit(true); }
-    else if (t.id === "tg-en") setSetting("english", t.checked);
+    else if (t.id === "tg-en") setEnglish(t.checked);
     else if (t.id === "theme-set") setSetting("theme", t.value);
     else if (t.id === "vmode-set") {
       const back = keepPlace();
@@ -345,10 +368,10 @@ function wireEvents() {
     // single-key shortcuts, except while typing (text fields, selects) or with a modifier
     const ae = document.activeElement, typing = e.metaKey || e.ctrlKey || e.altKey || ae.isContentEditable
       || /SELECT|TEXTAREA/.test(ae.tagName) || (ae.tagName === "INPUT" && !/^(checkbox|radio|range)$/.test(ae.type));
-    if (e.key === "e" && !typing) setSetting("english", !settings.english);
+    if (e.key === "e" && !typing) setEnglish(!settings.english);
     if (e.key === "f" && !typing) { setSetting("furigana", !settings.furigana); queueFit(true); }
   });
-  window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(); });
+  window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(false, true); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
   matchMedia(WIDE).addEventListener("change", (m) => {
@@ -371,7 +394,7 @@ async function init() {
   const failed = await TRY.ready;
   A.sidebar();
   document.addEventListener("try:progress", () => { A.updateProgress(); queueResume(); });
-  route();
+  route(false, true);
   showErrors(failed);
 }
 // data files that did not load are reported on the page (the rest of the book still renders)
