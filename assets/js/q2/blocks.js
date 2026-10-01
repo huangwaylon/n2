@@ -190,8 +190,16 @@ const B = {
     // phases (話し始める / できごとを話す / 話をまとめる) as a bracket with a vertical tab on the right (p.093); labels: several
     // label-only steps printed in one bubble (Q1 p.027 ❸ コメントをする / ❹ くわしく聞く)
     const one = !(b.steps || []).some((s) => s.side === "b");
-    const step = (s) => `${s.who || s.act ? `<li class="flow__pill flow__pill--${s.side === "b" ? "b" : "a"}">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
-        ${(s.labels || (s.label ? [s] : [])).map((x) => `<p class="flow__l">${x.n ? `<span class="step">${String.fromCodePoint(0x2775 + x.n)}</span>\u2060` : ""}${inl(x.label)}</p>`).join("")}${line(s.text, "flow__t")}</li>`;
+    const pill = (s) => (s.who || s.act ? `<li class="flow__pill flow__pill--${s.side === "b" ? "b" : "a"}">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</li>` : "");
+    const inner = (s) => `${(s.labels || (s.label ? [s] : [])).map((x) => `<p class="flow__l">${x.n ? `<span class="step">${String.fromCodePoint(0x2775 + x.n)}</span>\u2060` : ""}${inl(x.label)}</p>`).join("")}${line(s.text, "flow__t")}`;
+    const step = (s) => `${pill(s)}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
+        ${inner(s)}</li>`;
+    // turns: a side's run of steps under one pill is one wide bubble, without the centre line (Q2 p.193 ディベート)
+    if (b.turns) {
+      const runs = [];
+      (b.steps || []).forEach((s, i, a) => { if (!i || s.who || s.act || s.side !== a[i - 1].side) runs.push([]); runs[runs.length - 1].push(s); });
+      return `<div class="flow flow--turns${b.bare ? " flow--bare" : ""}"><ol class="flow__steps">${runs.map((r) => `${pill(r[0])}<li class="flow__s flow__s--${r[0].side === "b" ? "b" : "a"}">${r.map(inner).join("")}</li>`).join("")}</ol></div>`;
+    }
     const groups = [];
     (b.steps || []).forEach((s) => { if (s.phase || !groups.length) groups.push({ phase: s.phase, steps: [] }); groups[groups.length - 1].steps.push(s); });
     const body = groups.some((g) => g.phase)

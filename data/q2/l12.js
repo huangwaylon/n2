@@ -4015,7 +4015,8 @@ TRY.registerLesson({
         "tr": "That's why I think being able to feel a sense of purpose in your work is important."
        }
       }
-     ]
+     ],
+     "turns": true
     },
     {
      "t": "p",
@@ -4068,7 +4069,9 @@ TRY.registerLesson({
         "tr": "Therefore, I maintain that \"in work, money matters more than a sense of purpose.\""
        }
       }
-     ]
+     ],
+     "turns": true,
+     "bare": true
     },
     {
      "t": "p",

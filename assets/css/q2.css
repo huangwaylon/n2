@@ -666,6 +666,11 @@ s { text-decoration: line-through var(--q) 2px; }
 /* flowchart: one-role charts have full-width bubbles and no centre line; the lead's pill sits above; Quartet II phases are a
    bracket down the right edge with the label on a vertical blue tab (pp.023, 093) */
 .flow--one .flow__steps { background: none; }
+/* turns: each side's run of steps one wide bubble, no centre line; bare: no frame (Q2 p.193, the part after the frame) */
+.flow--turns .flow__steps { background: none; }
+.flow--turns .flow__s { max-width: 92%; }
+.flow--turns .flow__s > .flow__l:not(:first-child) { margin-top: .5em; }
+.flow--bare .flow__steps { border: 0; padding: 0; }
 .flow--one .flow__s { max-width: none; justify-self: stretch; }
 .flow__pill { justify-self: start; background: var(--q-fill); color: var(--q-on); border-radius: 999px; padding: 3px 16px; font: 700 14px/1.95 var(--goth); margin-bottom: -4px; }
 .flow__pill--b { justify-self: end; background: var(--ink-3); }

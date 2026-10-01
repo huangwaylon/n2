@@ -145,6 +145,7 @@ blanks ①（　） as printed.
   lines: [ { sp: "メ", v: "f", ja: "❶あのさあ、サラ……。", tr: "…" } ] }
 { t: "roles", style, cards: [ { tag: "A", who: "あなた", text }, { tag: "B", who: "Aの友達", text } ] }
 { t: "flow", head: [Text, Text], steps: [ { side: "a", n: 1, label: "話しかける", text: "…" }, { side: "b", text: "何？" } ] }
+//   turns: true — each side's run of steps one wide bubble, no centre line (Q2 p.193); bare: true — no frame
 { t: "bubbles", from: "モデル会話", items: [ { label: "① …", text: "…＿＿けど、\n実は私、＿＿。", answer: ["…", "…"] } ] }
 //   item turns: [1] — from that line of the text on, the next speaker's own bubble (Q1 pp.025, 091); block alt: true —
 //   every second bubble at the right (p.025)
