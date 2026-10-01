@@ -68,7 +68,10 @@ export const PROBE_FN = String(function probe(opts) {
     }
   }
   // uneven line pitch in blocks that carry furigana (horizontal only)
-  const blocks = new Set(rts.map((rt) => rt.closest("p, li, dd, .ja, .ln, td, h1, h2, h3")).filter(Boolean));
+  // the innermost block box around each reading: a list item or example that holds several paragraphs, English lines or
+  // speaker rows measured the gaps between them as uneven pitch (q1:l/6/speak, 320 --en)
+  const blockOf = (el) => { let e = el.closest("ruby") || el; while ((e = e.parentElement) && !/^(block|list-item|table-cell|flow-root)$/.test(getComputedStyle(e).display)); return e; };
+  const blocks = new Set(rts.map(blockOf).filter(Boolean));
   for (const bl of blocks) {
     if (getComputedStyle(bl).writingMode.startsWith("vertical")) continue;
     const gs = glyphs.filter((g) => !g.rt && bl.contains(g.n) && !g.el.closest(".badge, button, .en, rt, .qn, sup, sub"));
