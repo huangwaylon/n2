@@ -8,7 +8,6 @@
   background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 .brand { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); font-size: 18px; white-space: nowrap; }
 .brand:hover { text-decoration: none; }
-.brand-sub { font-size: 12px; color: var(--ink-3); font-weight: 400; margin-left: 6px; }
 /* the four books. Each book's hue (--bk-*) marks it in the switcher, the book menu and the shelf */
 [data-bk="n2"] { --bk: var(--bk-n2); } [data-bk="n1"] { --bk: var(--bk-n1); } [data-bk="q1"] { --bk: var(--bk-q1); } [data-bk="q2"] { --bk: var(--bk-q2); }
 /* switcher: names ("TRY! N2" … "Quartet II") from 740px, codes from 430px; the current book filled with its hue */
@@ -45,7 +44,7 @@
 .topnav a { display: inline-block; padding: 6px 10px; line-height: 24px; color: var(--ink-2); border-radius: 8px; white-space: nowrap; font-size: 14px; }
 .topnav a.active { background: var(--band); color: var(--ink); }
 @media (hover: hover) { .topnav a:hover { background: var(--band); color: var(--ink); text-decoration: none; } }
-@media (max-width: 1100px) { .topnav .en-inline { display: none; } .brand-sub { display: none; } }
+@media (max-width: 1100px) { .topnav .en-inline { display: none; } }
 .toggles { display: flex; align-items: center; gap: 4px; margin-left: auto; flex: none; }
 .switch { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 6px; cursor: pointer; font-size: 13px; user-select: none; -webkit-user-select: none; white-space: nowrap; }
 /* visually hidden but focusable (keyboard toggles the switch) */
