@@ -339,7 +339,7 @@ function readingHtml(b, ctx) {
     else if (s[0] === "#") { kind = "title"; s = s.slice(1); if (s[0] === "=") { s = s.slice(1); centred = true; } } // #= centred title
     else if (s[0] === "@") { kind = "by"; s = s.slice(1); }
     else if (s[0] === "=") { kind = "center"; s = s.slice(1); }
-    if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); cur.c = centred; } // interviewer's ── line: set flush, no indent
+    if (kind || !cur) { open(kind || "p"); cur.q = /^(\*\*)?──/.test(s); cur.c = centred; cur.sec = /^(\*\*)?◆/.test(s); } // interviewer's ── line: set flush, no indent
     // speakers: true — a ¶ line "ゴミス：…" starts a speaker's turn; the name hangs left of the text, flush left (p.116);
     // speakers: "right" — the names set flush right, their colons in one column (p.102)
     let sp = "";
@@ -363,7 +363,7 @@ function readingHtml(b, ctx) {
     if (p.kind !== "fig") say.push({ text: plain(p.html.replace(/<rt>.*?<\/rt>/g, "").replace(/<[^>]+>/g, "")), v: b.v || "f" });
     if (p.kind === "fig") return `<div class="rd-fig">${p.html}</div>`;
     if (p.kind === "title") {
-      const t = `<p class="rd-title${p.c ? " rd-title--c" : ""}">${p.html}</p>`, tr = b.headTr && b.headTr[hi++];
+      const t = `<p class="rd-title${p.c ? " rd-title--c" : ""}${p.sec ? " rd-title--sec" : ""}">${p.html}</p>`, tr = b.headTr && b.headTr[hi++];
       if (tr) { tt = t; ttr = tr; } else if (ttr && tr === "") tt += t; else return t;
       if (paras[i + 1] && paras[i + 1].kind === "title" && b.headTr && b.headTr[hi] === "") return "";
       const out = `<div class="rd-t bi">${enToggle()}${tt}${en(ttr, "gen", "div", "rd-en rd-en--t")}</div>`;
