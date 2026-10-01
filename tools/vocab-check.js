@@ -31,6 +31,13 @@ T.chapters.filter(Boolean).forEach((c) => (function walk(o, p) {
   Object.entries(o).forEach(([k, v]) => walk(v, p ? `${p}.${k}` : k));
 })(c, ""));
 
+// earlier occurrences a person judged to be another word, where the text gives no reading to tell them apart
+const JUDGED = {
+  n2: { "手数（てすう）": "ch1 has only 手数料 (fee), a word of its own" },
+  n1: { "今日（こんにち）": "ch1 今日 is きょう (今日は夏休み最初の日曜, 今日にもまして)",
+    "人気（ひとけ）": "ch1 人気 is にんき (人気シリーズ)" },
+};
+
 let errs = 0, warns = 0, n = 0;
 const seen = new Map();
 for (const v of T.vocab) {
@@ -82,10 +89,15 @@ for (const v of T.vocab) {
       if (be == null && x.book.src === "book") E(id, "src: \"book\" but the book prints no English for this line");
     }
     // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list; an occurrence
-    // whose furigana gives another reading is a different word (人気 にんき / ひとけ)
-    const stem = w.replace(/[ぁ-ゖ]+$/u, ""), hr = [...x.w.matchAll(RUBY)].map((m) => m[2]).join("");
+    // whose furigana gives another reading is a different word (人気 にんき / ひとけ); so is one where the kana after the
+    // kanji differ from the headword's first okurigana, unless that kana inflects (見合い / 見合わせる, 立ち上げる / 立ち上がる,
+    // 無理やり / 無理は; but 働く / 働いて)
+    const stem = w.replace(/[ぁ-ゖ]+$/u, ""), oku = w.slice(stem.length), hr = [...x.w.matchAll(RUBY)].map((m) => m[2]).join("");
+    const inflects = oku.length === 1 && /godan|ichidan|ru-verb|irregular|い adjective|i-adjective|(^|\()verb/.test(x.pos || "");
+    const key = oku && !inflects ? stem + oku[0] : stem;
     const other = (t) => t.replace(RUBY, (m, b, rd) => (b.includes(stem) && !rd.includes(hr) && !hr.includes(rd) ? "" : m));
-    if (KANJI.test(stem) && stem.length >= 2) for (const [c, s] of chRaw) if (c < v.ch && s.some((t) => bare(other(t)).includes(stem))) { W(id, `appears in ch${c}`); break; }
+    const judged = (JUDGED[B.id] || {})[id];
+    if (KANJI.test(stem) && stem.length >= 2 && !judged) for (const [c, s] of chRaw) if (c < v.ch && s.some((t) => bare(other(t)).includes(key))) { W(id, `appears in ch${c}`); break; }
   });
 }
 console.log(`${B.id}: ${T.vocab.length} files, ${n} words, ${errs} errors, ${warns} warnings`);
