@@ -2240,7 +2240,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "dots",
      "blocks": [
       {
        "t": "list",

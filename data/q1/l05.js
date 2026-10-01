@@ -2104,7 +2104,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "box",
-         "style": "frame",
+         "style": "dots",
          "blocks": [
           {
            "t": "table",
@@ -2313,7 +2313,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "dots",
      "blocks": [
       {
        "t": "list",

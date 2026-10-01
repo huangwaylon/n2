@@ -4812,7 +4812,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "sheet",
      "title": {
       "ja": "グローバル人材に求められる能力",
       "tr": "Abilities Required of Global Talent"

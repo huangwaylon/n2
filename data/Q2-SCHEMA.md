@@ -92,7 +92,8 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 //   n as printed ("1." "(1)" "①" "1）"); words = the [ … ] box under a question; answer = the printed answer (behind 解答)
 //   style: "memo" — prompts on a ruled memo with room to write (「下にメモしなさい」, Q1 pp.024, 090)
 { t: "box", style, title, icon, ref, blocks }
-//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095) · sheet (title centred on a dog-eared sheet; Q1 pp.084, 094)
+//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095) · sheet (title centred on a dog-eared sheet; Q1 pp.084, 094, 130, 172; `rule: true` puts the title at the left over a rule, p.095)
+//   · frame (square thin rule; Q1 pp.162, 231) · dots (dotted, the 書いてみよう grammar list; Q1 p.017) · outline (accent rule, round corners; Q2 p.211) · plain (no frame; a titled figure, Q1 p.071)
 //   · task (✎, ref "（読み物2：行13〜15）") · strategy · challenge
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"], caption, align, headAlign, stripe }
 { t: "words", label, items: [ { ja: "{悩|なや}む", en: "to worry" } ] }     // 単語 box (label default 単語)

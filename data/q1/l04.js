@@ -2446,7 +2446,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "dots",
      "blocks": [
       {
        "t": "list",
@@ -4327,7 +4327,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "sheet",
      "title": {
       "ja": "接客マニュアル",
       "tr": "Customer service manual"

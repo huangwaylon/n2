@@ -2965,7 +2965,7 @@ TRY.registerUnits([
    },
    {
     "t": "box",
-    "style": "frame",
+    "style": "outline",
     "id": "c4-nature",
     "title": {
      "ja": "▸ 自然を表すオノマトペ",

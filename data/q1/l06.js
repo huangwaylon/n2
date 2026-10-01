@@ -242,7 +242,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "sheet",
      "page": 172,
      "id": "l6-kakegami",
      "title": {
@@ -2461,7 +2461,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "dots",
      "blocks": [
       {
        "t": "list",

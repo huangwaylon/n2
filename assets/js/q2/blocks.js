@@ -121,7 +121,8 @@ const B = {
     const title = b.title ? `<div class="qbox__title">${icon}${inl(b.title)}${b.ref ? `<span class="qbox__ref">${fmt(b.ref)}</span>` : ""}</div>` : "";
     // memo: its label a.（　） above a dog-eared sheet (Q2 p.095)
     if (s === "memo") return `<div class="qmemo"${idAttr(b)}>${title}<div class="qmemo__b">${blocks(b.blocks, ctx)}</div></div>`;
-    return `<div class="qbox qbox--${s}"${idAttr(b)}>${title}${blocks(b.blocks, ctx)}</div>`;
+    // rule: the title at the left over a rule (the dessert menu sheet, Q1 p.095)
+    return `<div class="qbox qbox--${s}${b.rule ? " qbox--rule" : ""}"${idAttr(b)}>${title}${blocks(b.blocks, ctx)}</div>`;
   },
   table(b) {
     // align / headAlign: the book's alignment of body / head cells, one value for all or one per column (p.107 centres

@@ -166,7 +166,15 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .ans__t { padding: 6px 10px; border: 1.5px dashed var(--line); border-radius: 8px; }
 .qbox { border-radius: 10px; padding: 12px 16px; margin: 14px 0; background: var(--q-gray); }
 .qbox--blue { background: var(--q-soft); }
-.qbox--frame { background: transparent; border: 1.5px solid var(--line); }
+/* frame: a square thin rule (Q1 pp.162, 164, 231, Q2 pp.127, 233) · dots: the dotted box of 書いてみよう's grammar list
+   (Q1 pp.017, 051, 083, 117, 150) · outline: an accent rule with round corners on the page colour (Q2 p.211) · plain:
+   a titled figure with no frame (Q1 p.071) */
+.qbox--frame { background: transparent; border: 1.5px solid var(--ink-3); border-radius: 0; }
+.qbox--dots { background: transparent; border: 1.5px dotted var(--ink-3); border-radius: 0; }
+.qbox--outline { background: transparent; border: 2px solid var(--q); border-radius: 12px; }
+.qbox--outline > .qbox__title { color: var(--q); }
+.qbox--plain { background: transparent; padding: 0; border-radius: 0; }
+.qbox--plain > .qbox__title { justify-content: center; }
 .qbox--attention { background: var(--q-soft); border: 2px solid var(--q); border-radius: 12px; }
 .qbox--attention > .qbox__title { color: var(--q); font-size: 20px; }
 /* ここにも注目 as printed (Q1 p.191, Q2 p.085): the 💡 title set into the top edge on the page colour, a short stretch of
@@ -194,6 +202,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--sheet { position: relative; width: fit-content; max-width: 100%; margin-inline: auto; border-radius: 0; border: 1.5px solid var(--ink-2); background: var(--bg); padding: 12px 24px 24px; }
 .qbox--sheet::after { content: ""; position: absolute; right: -1.5px; bottom: -1.5px; width: 22px; height: 22px; background: linear-gradient(135deg, transparent 0 calc(50% - 1px), var(--ink-2) calc(50% - 1px) calc(50% + .5px), var(--bg) calc(50% + .5px)); border-left: 1.5px solid var(--ink-2); border-top: 1.5px solid var(--ink-2); }
 .qbox--sheet > .qbox__title { justify-content: center; }
+.qbox--sheet.qbox--rule { width: auto; } .qbox--sheet.qbox--rule > .qbox__title { justify-content: flex-start; padding-bottom: 4px; border-bottom: 1px solid var(--ink-3); font-size: 18px; }
 .qtbl.qtbl--bare { min-width: 0; } .qtbl.qtbl--bare :is(th, td) { border: 0; background: none; padding: 2px 10px; }
 .qtbl.qtbl--bare th { font-size: 1.1em; }
 /* a pattern summary in a blue box: role labels in a column, the steps beside them (Q2 p.194); phones stack them */

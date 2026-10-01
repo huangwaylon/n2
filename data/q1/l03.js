@@ -331,7 +331,7 @@ TRY.registerLesson({
     {
      "t": "box",
      "page": 71,
-     "style": "frame",
+     "style": "plain",
      "title": {
       "ja": "{富士|ふじ}登山の服装と持ち物",
       "tr": "Clothing and Things to Bring for Climbing Mount Fuji"
@@ -1939,7 +1939,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "dots",
      "blocks": [
       {
        "t": "list",
@@ -2687,7 +2687,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "box",
-         "style": "frame",
+         "style": "sheet",
          "title": {
           "ja": "今の予約{内容|ないよう}",
           "tr": "Current reservation details"
@@ -2730,7 +2730,8 @@ TRY.registerLesson({
               "tr": "8 people"
              }
             ]
-           ]
+           ],
+           "bare": true
           }
          ]
         }
@@ -3729,7 +3730,8 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "box",
-         "style": "frame",
+         "style": "sheet",
+         "rule": true,
          "title": {
           "ja": "デザートメニュー",
           "tr": "Dessert menu"
@@ -3762,7 +3764,8 @@ TRY.registerLesson({
               "tr": "Chiffon cake\nPlease enjoy this fluffy cake with whipped cream.\n¥400"
              }
             ]
-           ]
+           ],
+           "bare": true
           }
          ]
         }
