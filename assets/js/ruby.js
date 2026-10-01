@@ -50,6 +50,7 @@ export function rubyHtml(m, base, rd, off, str) {
   if (sq > 0.01) { // negative letter-spacing on every reading character (in rt em), so the reading narrows by sq
     rt = `<rt style="letter-spacing:${-Math.round((sq / RT_K / Array.from(rd).length) * 1000) / 1000}em">${rd}</rt>`;
     e -= sq;
+    if (e < 0.01) return `<ruby>${base}${rt}</ruby>`; // fits over its base once set tight: nothing to fit
   }
   const data = `data-e="${r2(e)}" data-ol="${ol}" data-or="${or}"`;
   if (st) return `<ruby class="r-s" ${data}>${base}${rt}</ruby>`;
@@ -82,7 +83,8 @@ function sideNeighbour(r, dir) {
   let n = r, depth = 0;
   for (;;) {
     let sib = dir < 0 ? n.previousSibling : n.nextSibling;
-    while (sib && sib.nodeType === 3 && !sib.nodeValue.trim()) sib = dir < 0 ? sib.previousSibling : sib.nextSibling;
+    // a space between them (即戦力 adaptable in a 単語 box): not a neighbour the reading may overhang
+    if (sib && sib.nodeType === 3 && !sib.nodeValue.trim()) return null;
     if (sib) {
       while (isInline(sib) && sib.lastChild) sib = dir < 0 ? sib.lastChild : sib.firstChild; // descend into inline wrappers
       if (sib.nodeType === 3) return { text: sib };
