@@ -12,7 +12,6 @@ const E = (w, m) => errs.push(`${w}: ${m}`);
 
 const BLOCKS = new Set(["head", "p", "hr", "list", "qs", "box", "table", "words", "figure", "chart", "reading", "dialogue", "roles", "flow", "bubbles", "note", "sub", "key", "examples", "conn", "strategy", "tf", "choice", "match", "script", "compose"]);
 const norm = (t) => (t == null ? null : typeof t === "string" ? { ja: t } : t);
-const hasJa = (t) => { const o = norm(t); return o && o.ja; };
 // a Japanese sentence needs our translation unless the book prints one
 const needTr = (t, w) => { const o = norm(t); if (o && o.ja && /[ぁ-んァ-ヶ一-龯]/.test(o.ja) && !o.tr && !o.en) E(w, `no tr: ${String(o.ja).slice(0, 40)}`); };
 

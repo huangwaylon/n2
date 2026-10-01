@@ -46,7 +46,7 @@ function load(files, book) {
 }
 // every data file book.js lists (files and lazy) that exists
 const allFiles = (b = BOOKS.q2) => {
-  delete globalThis.TRY; require(path.join(root, "assets/js/boot.js")); delete require.cache[require.resolve(path.join(b.dir, "book.js"))]; require(path.join(b.dir, "book.js"));
+  delete globalThis.TRY; const boot = path.join(root, "assets/js/boot.js"); delete require.cache[require.resolve(boot)]; require(boot); delete require.cache[require.resolve(path.join(b.dir, "book.js"))]; require(path.join(b.dir, "book.js"));
   const B = globalThis.TRY.book;
   return B.files.concat(B.lazy || []).map((f) => path.join(b.dir, f)).filter((f) => fs.existsSync(f));
 };

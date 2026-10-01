@@ -65,7 +65,6 @@ export function kanjiAllView() {
     <input class="search" id="kj-search" type="search" aria-label="検索 Search" placeholder="検索 Search: 似, ジ, resemble …">
     <div class="kj-mini">${all.map(({ k, l }) => `<a class="kj-chip" href="#/l/${l}/kanji" data-kj="${k.no}" data-s="${esc([k.k, ...(k.on || []), ...(k.kun || []), plain(k.meaning || "")].join(" ").toLowerCase())}"><span class="kj-chip__k">${esc(k.k)}</span><span class="kj-chip__n">${k.no}</span></a>`).join("")}</div></div>`;
 }
-ACT.kjgo = () => {};
 
 // ---------- indexes (generated) ----------
 import { allNotes } from "./nav.js";

@@ -15,7 +15,7 @@ const CPU = num("cpu", 4), W = num("width", 390), RUNS = num("runs", 3);
 const NET = (flags.find((f) => f.startsWith("--net=")) || "").slice(6).split(",").filter(Boolean).map(Number);
 const pos = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const ROUTES = pos.length ? pos : ["", "ch/1", "ch/14", "vocab", "n1:ch/1", "q2:", "q2:l/7/read"];
-const HOT = ["fitRubies", "fitOptionCols", "vtScrollInit", "filterVocab", "placeLineNos", "wireTracks", "fitReading", "route", "sidebar", "loadData"];
+const HOT = ["fitRubies", "fitOptionCols", "vtScrollInit", "filterVocab", "placeLineNos", "wireTracks", "fitBookLines", "placeRefNos", "route", "sidebar", "need"];
 const url = (r) => { const m = /^(n\d|q\d):(.*)$/.exec(r); return m ? `${BASE}${m[1]}/#/${m[2]}` : `${BASE}#/${r}`; };
 
 // in the page, before any script: paint / long-task observers and the moment #main first gets content

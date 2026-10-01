@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Screenshot a route of the local site with true device emulation (works at any width, incl. 320–499 px
-// phone widths that tools/shot.sh cannot do). Needs Node >= 22 and the server on :8765.
+// Screenshot a route of the local site with true device emulation (any width, incl. 320–499 px phone widths that
+// desktop Chrome windows cannot do). Needs Node >= 22 and the server on :8765.
 //
 // usage: node tools/shot.mjs ROUTE [WIDTH=1280] [HEIGHT=900] [OUT] [light|dark] [--full] [--en] [--wait=MS]
 //   ROUTE   hash route without "#/", e.g. ""  ch/1  ch/2/review  gp/12  compare   (quote "" for home);

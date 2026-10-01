@@ -39,7 +39,7 @@ function sidebar() {
       <ul class="sb-gps">${l.sections.map((s) => `<li><a href="#/l/${l.id}/${s.skill}"><span class="sb-gpn sb-sk">${skillIcon(s.skill)}</span><span class="sb-gpt">${SKILLS[s.skill][0]}　${esc(plain(s.title.ja || s.title))}</span></a></li>`).join("")}
         <li><a href="#/l/${l.id}/vocab"><span class="sb-gpn sb-sk">語</span><span class="sb-gpt">単語リスト</span></a></li>
         <li><a href="#/l/${l.id}/kanji"><span class="sb-gpn sb-sk">漢</span><span class="sb-gpt">漢字リスト</span></a></li></ul></li>`).join("");
-  const units = (kind, label) => TRY.units.filter((u) => u.kind === kind).map((u) => `<li><a href="#/u/${u.id}"><span class="sb-gpn">${circ(u.no)}</span><span class="sb-gpt">${esc(plain(u.title))}</span></a></li>`).join("");
+  const units = (kind) => TRY.units.filter((u) => u.kind === kind).map((u) => `<li><a href="#/u/${u.id}"><span class="sb-gpn">${circ(u.no)}</span><span class="sb-gpt">${esc(plain(u.title))}</span></a></li>`).join("");
   $("#sb-nav").innerHTML = `<ul class="sb-list">${items}
     ${TRY.units.length ? `<li class="sb-ch sb-bu" data-ch="u"><a href="#/u/${TRY.units[0].id}" class="sb-ch-link"><span class="sb-num">＋</span><span class="sb-t">ブラッシュアップ</span></a>
       <ul class="sb-gps">${BOOK().unitKinds.map(([k, name]) => `<li class="sb-sub">${name}</li>${units(k)}`).join("")}</ul></li>` : ""}</ul>`;
@@ -172,7 +172,7 @@ function sectionView(l, skill) {
   const toc = tocOf(s.blocks);
   const tabs = `<nav class="sk-tabs" aria-label="セクション">${l.sections.map((x) => `<a href="#/l/${l.id}/${x.skill}"${x.skill === skill ? ' aria-current="page"' : ""}>${skillIcon(x.skill)}<span>${SKILLS[x.skill][0]}</span></a>`).join("")}</nav>`;
   return `<div class="lesson q2 sk--${skill}" style="--ch:${l.id}">
-    <header class="sk-banner"${""}>
+    <header class="sk-banner">
       <div class="sk-banner__ic">${skillIcon(skill)}<span>${SKILLS[skill][0]}</span></div>
       <div class="sk-banner__b"><p class="sk-banner__l">第${l.id}課 · ${SKILLS[skill][1]}</p><h1 class="sk-banner__t">${inl(s.title)}</h1></div>
     </header>

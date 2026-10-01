@@ -1,4 +1,4 @@
-// Minimal Chrome DevTools Protocol helper shared by tools/shot.mjs and tools/overflow.mjs.
+// Minimal Chrome DevTools Protocol helper shared by tools/shot.mjs, overflow.mjs, render-dump.mjs and perf.mjs.
 // Launches headless Chrome, opens a page with real device emulation (mobile:true below 700 px,
 // which plain `--window-size` cannot do: desktop Chrome refuses windows narrower than ~500 px).
 // Requires Node >= 22 (global WebSocket/fetch) and the local server on :8765 (python3 -m http.server 8765).

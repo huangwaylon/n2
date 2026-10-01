@@ -1,6 +1,6 @@
 // Inline markup → HTML (data/SCHEMA.md "Inline markup") and the small shared pieces of markup: bilingual lines, EN
 // buttons, pills, play buttons, stars, usage-scene marks, links to grammar points.
-import { BOOK, BOOKS, SITE, TRY, bookEnglish, esc, findPoint } from "./core.js";
+import { BOOKS, SITE, TRY, bookEnglish, esc, findPoint } from "./core.js";
 import { RUBY_RE, rubyMarkup } from "./ruby.js";
 
 // POS badge: [N] [V] [いA] [なA] [A] [Pl] [Po] [文] [数], optional subscript/digit ([N₁] [いA₂]), optional "-form"
