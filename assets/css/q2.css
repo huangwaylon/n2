@@ -154,7 +154,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qs--memo > .qs__i { margin: 0; padding: 8px 0 3em; }
 .qs--memo > .qs__i + .qs__i { border-top: 1px dashed var(--ink-3); }
 .qs__n { color: var(--q); font: 800 1.15em/1.65 var(--goth); min-width: 1.4em; white-space: nowrap; }
-.qs__n--c { color: var(--ink); font-weight: 400; }
+.qs__n--c { color: var(--ink); font-weight: 400; } .qs__n--ink { color: var(--ink); }
 .qs__n--box { justify-self: start; display: grid; place-items: center; min-width: 1.4em; height: 1.4em; margin-top: .3em; border: 1.5px solid currentColor; color: var(--ink); font: 500 .8em/1 var(--goth); }
 .qs__b { min-width: 0; }
 .qs__t .ja { font-family: var(--goth); }
@@ -231,6 +231,10 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qtbl--stripe > tbody > tr:nth-child(even) > td { background: var(--q-gray); }
 /* regular: head and row-head cells in the body weight, as printed (Q1 pp.084, 202; the Fuji table p.097 keeps bold) */
 .qtbl--reg th { font-weight: 400; }
+/* tall: a table to write in, each body row a tall space, the cells' printed prompts at the top, the row labels centred
+   (Q2 p.196); cell style bold for a label printed bold in a table whose head is regular */
+.qtbl--tall td { height: 5.5em; vertical-align: top; } .qtbl--tall td:first-child { vertical-align: middle; }
+.qtbl .c--bold { font-weight: 700; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
 /* 聴解: the 単語 box sits at the right under the instructions (Q1 p.202, Q2 p.031) */

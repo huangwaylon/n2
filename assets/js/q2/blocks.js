@@ -82,7 +82,8 @@ export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}
 
 // question numbers: "1）" "1." in the accent, circled ①–⑳ in ink and regular weight (Q1 p.018, Q2 pp.020–021), a bare
 // "1" in a box (the brush-up units' items, Q2 pp.202, 212, 214)
-const qn = (n) => `<span class="qs__n${/^[\u2460-\u2473]$/.test(n || "") ? " qs__n--c" : /^\d+$/.test(n || "") ? " qs__n--box" : ""}">${fmt(n || "")}</span>`;
+// ① and (1) print in ink, regular (Q1 p.017, Q2 p.196); a capital A. in ink, bold (topics A–D, Q2 p.196); 1. in the accent
+const qn = (n) => `<span class="qs__n${/^([\u2460-\u2473]|[（(]\d+[)）])$/.test(n || "") ? " qs__n--c" : /^[A-Z][.．]$/.test(n || "") ? " qs__n--ink" : /^\d+$/.test(n || "") ? " qs__n--box" : ""}">${fmt(n || "")}</span>`;
 
 const B = {
   // ----- structure -----
@@ -149,7 +150,7 @@ const B = {
       return `<${tag}${o.colspan ? ` colspan="${o.colspan}"` : ""}${o.rowspan ? ` rowspan="${o.rowspan}"` : ""}${st.length ? ` class="${st.map((x) => "c--" + esc(x)).join(" ")}"` : ""}>${inl(o.text)}</${tag}>`;
     };
     const tr = (rows, a, th) => grid(rows, a).map((r) => `<tr>${r.map((c) => cell(c, th)).join("")}</tr>`).join("");
-    return `<div class="qtbl-wrap"><table class="qtbl${b.stripe ? " qtbl--stripe" : ""}${b.regular ? " qtbl--reg" : ""}${b.bare ? " qtbl--bare" : ""}${b.memo ? " qtbl--memo" : ""}">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${tr(b.head, b.headAlign, true)}</thead>` : ""}
+    return `<div class="qtbl-wrap"><table class="qtbl${b.stripe ? " qtbl--stripe" : ""}${b.regular ? " qtbl--reg" : ""}${b.bare ? " qtbl--bare" : ""}${b.memo ? " qtbl--memo" : ""}${b.tall ? " qtbl--tall" : ""}">${b.caption ? `<caption>${inl(b.caption)}</caption>` : ""}${b.head ? `<thead>${tr(b.head, b.headAlign, true)}</thead>` : ""}
       <tbody>${tr(b.rows || [], b.align)}</tbody></table></div>`;
   },
   words(b) {

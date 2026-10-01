@@ -106,7 +106,7 @@ Tables: Cell = Text or `{ text, colspan, rowspan, style }`; cell styles (combina
 `gray` row label beside a coloured head row (Q1 pp.084, 097), `frame` text in a box (Q1 p.106), `plain` unfilled head
 cell (Q1 p.049), `center` `right` `left`, `dash` (the cell's row ruled above with a dashed line, Q1 pp.052, 196, Q2 p.090). `align` / `headAlign`: `"center"` / `"right"` for all body / head cells or one
 entry per column (colspans counted; Q1 p.107; Q1 head rows are centred, pp.049, 097, 107, 118, 196, 202); a cell's own
-alignment wins. `stripe: true` greys every second body row (Q1 p.107). `regular: true`: head cells not bold (Q1 pp.084, 202). `bare: true`: no rules or shading (a menu on a sheet, Q1 p.094). `memo: true`: a writing table, rules across only, tall rows (Q2 p.190). Fill-in tables: empty cells `""`, printed
+alignment wins. `stripe: true` greys every second body row (Q1 p.107). `regular: true`: head cells not bold (Q1 pp.084, 202). `bare: true`: no rules or shading (a menu on a sheet, Q1 p.094). `memo: true`: a writing table, rules across only, tall rows (Q2 p.190). `tall: true`: a ruled table to write in, tall body rows, prompts at the top (Q2 p.196); cell style `bold` for a label printed bold under a regular head. Fill-in tables: empty cells `""`, printed
 blanks ①（　） as printed.
 
 ### Reading texts (読み物, モデル作文, strategy examples, brush-up texts)

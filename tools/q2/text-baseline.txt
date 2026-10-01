@@ -6912,9 +6912,12 @@ l12.sections.2.blocks.34.items.1.text.ja	1.のミニディベートの続きを�
 l12.sections.2.blocks.35.text.ja	もっと練習しよう
 l12.sections.2.blocks.36.items.0.text.ja	（まとめのスピーチと判定 (judge)）
 ディベートは、「2-4. 練習しよう」の❶〜❼の後、以下の❽〜⓫の「まとめのスピーチ」と「判定」が続きます。［　　　］のパターンを使って話してみましょう。まず反対側がまとめのスピーチを行い、次に賛成側がまとめのスピーチをした後に、{司会|しかい}が判定を行います。
-l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.text.ja	反対側【反対のまとめのスピーチ】　❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
-賛成側【賛成のまとめのスピーチ】　❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
-{司会|しかい}【判定】　⓫ 判定する
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.0.0.ja	反対側【反対のまとめのスピーチ】
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.0.1.ja	❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.1.0.ja	賛成側【賛成のまとめのスピーチ】
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.1.1.ja	❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.2.0.ja	{司会|しかい}【判定】
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.2.1.ja	⓫ 判定する
 l12.sections.2.blocks.36.items.0.blocks.1.blocks.0.lines.0.sp	{司会|しかい}
 l12.sections.2.blocks.36.items.0.blocks.1.blocks.0.lines.0.ja	では、反対側のまとめのスピーチをお願いします。
 l12.sections.2.blocks.36.items.0.blocks.1.blocks.0.lines.1.sp	反対側
@@ -6945,29 +6948,29 @@ l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.0.items.2.text.ja	そ�
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.head.0.0	
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.head.0.1.ja	① 自分のチーム
 （　賛成　・　反対　）
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.head.0.2.ja	② 相手のチーム
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.head.0.2.text.ja	② 相手のチーム
 （　賛成　・　反対　）
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.head.0.3.ja	③ 自分のチーム
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.0.0.ja	理由1
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.0.0.text.ja	理由1
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.0.1	
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.0.2.ja	反論の質問の予想
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.0.3.ja	その答え
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.1.0.ja	理由2
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.1.0.text.ja	理由2
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.1.1	
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.1.2.ja	反論の質問の予想
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.1.rows.1.3.ja	その答え
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.2.items.0.text.ja	相手チームはどんな理由を述べるか2つ予想して、下の表に書きなさい。
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.2.items.1.text.ja	理由1・2に対して、どんな反論の質問ができるか考えなさい。
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.head.0.0	
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.head.0.1.ja	④ 相手のチーム
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.head.0.0.text	
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.head.0.1.text.ja	④ 相手のチーム
 （　賛成　・　反対　）
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.head.0.2.ja	⑤ 自分のチーム
 （　賛成　・　反対　）
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.0.0.ja	理由1
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.0.0.text.ja	理由1
 （予想）
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.0.1	
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.0.2.ja	反論の質問
-l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.1.0.ja	理由2
+l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.1.0.text.ja	理由2
 （予想）
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.1.1	
 l12.sections.2.blocks.37.items.0.blocks.0.items.1.blocks.3.rows.1.2.ja	反論の質問

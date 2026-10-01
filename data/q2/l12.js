@@ -4264,11 +4264,44 @@ TRY.registerLesson({
          "style": "blue",
          "blocks": [
           {
-           "t": "p",
-           "text": {
-            "ja": "反対側【反対のまとめのスピーチ】　❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する\n賛成側【賛成のまとめのスピーチ】　❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する\n{司会|しかい}【判定】　⓫ 判定する",
-            "tr": "Against side [closing speech against]: 8 State your position and reasons → 9 Give a counterargument → 10 State your claim\nFor side [closing speech in favor]: 8 State your position and reasons → 9 Give a counterargument → 10 State your claim\nModerator [judgment]: 11 Make the judgment"
-           }
+           "t": "table",
+           "bare": true,
+           "cols": [
+            "auto",
+            "1fr"
+           ],
+           "rows": [
+            [
+             {
+              "ja": "反対側【反対のまとめのスピーチ】",
+              "tr": "Against side [closing speech against]"
+             },
+             {
+              "ja": "❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する",
+              "tr": "8 State your position and reasons → 9 Give a counterargument → 10 State your claim"
+             }
+            ],
+            [
+             {
+              "ja": "賛成側【賛成のまとめのスピーチ】",
+              "tr": "For side [closing speech in favor]"
+             },
+             {
+              "ja": "❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する",
+              "tr": "8 State your position and reasons → 9 Give a counterargument → 10 State your claim"
+             }
+            ],
+            [
+             {
+              "ja": "{司会|しかい}【判定】",
+              "tr": "Moderator [judgment]"
+             },
+             {
+              "ja": "⓫ 判定する",
+              "tr": "11 Make the judgment"
+             }
+            ]
+           ]
           }
          ]
         },
@@ -4420,8 +4453,11 @@ TRY.registerLesson({
                 "tr": "① Your team (for / against)"
                },
                {
-                "ja": "② 相手のチーム\n（　賛成　・　反対　）",
-                "tr": "② The other team (for / against)"
+                "text": {
+                 "ja": "② 相手のチーム\n（　賛成　・　反対　）",
+                 "tr": "② The other team (for / against)"
+                },
+                "style": "gray"
                },
                {
                 "ja": "③ 自分のチーム",
@@ -4432,8 +4468,11 @@ TRY.registerLesson({
              "rows": [
               [
                {
-                "ja": "理由1",
-                "tr": "Reason 1"
+                "text": {
+                 "ja": "理由1",
+                 "tr": "Reason 1"
+                },
+                "style": "hl bold"
                },
                "",
                {
@@ -4447,8 +4486,11 @@ TRY.registerLesson({
               ],
               [
                {
-                "ja": "理由2",
-                "tr": "Reason 2"
+                "text": {
+                 "ja": "理由2",
+                 "tr": "Reason 2"
+                },
+                "style": "hl bold dash"
                },
                "",
                {
@@ -4460,7 +4502,10 @@ TRY.registerLesson({
                 "tr": "Your answer"
                }
               ]
-             ]
+             ],
+             "regular": true,
+             "headAlign": "center",
+             "tall": true
             },
             {
              "t": "qs",
@@ -4490,10 +4535,16 @@ TRY.registerLesson({
              ],
              "head": [
               [
-               "",
                {
-                "ja": "④ 相手のチーム\n（　賛成　・　反対　）",
-                "tr": "④ The other team (for / against)"
+                "text": "",
+                "style": "gray"
+               },
+               {
+                "text": {
+                 "ja": "④ 相手のチーム\n（　賛成　・　反対　）",
+                 "tr": "④ The other team (for / against)"
+                },
+                "style": "gray"
                },
                {
                 "ja": "⑤ 自分のチーム\n（　賛成　・　反対　）",
@@ -4504,8 +4555,11 @@ TRY.registerLesson({
              "rows": [
               [
                {
-                "ja": "理由1\n（予想）",
-                "tr": "Reason 1 (predicted)"
+                "text": {
+                 "ja": "理由1\n（予想）",
+                 "tr": "Reason 1 (predicted)"
+                },
+                "style": "gray bold"
                },
                "",
                {
@@ -4515,8 +4569,11 @@ TRY.registerLesson({
               ],
               [
                {
-                "ja": "理由2\n（予想）",
-                "tr": "Reason 2 (predicted)"
+                "text": {
+                 "ja": "理由2\n（予想）",
+                 "tr": "Reason 2 (predicted)"
+                },
+                "style": "gray bold dash"
                },
                "",
                {
@@ -4524,7 +4581,10 @@ TRY.registerLesson({
                 "tr": "Rebuttal question"
                }
               ]
-             ]
+             ],
+             "regular": true,
+             "headAlign": "center",
+             "tall": true
             }
            ]
           }
