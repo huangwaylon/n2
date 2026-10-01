@@ -73,6 +73,9 @@ export const SKILLS = {
 const FLOW_IC = '<svg class="hd-flow-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="1" width="22" height="22" rx="4"/><path d="M7 17V8l10 8V7"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="7" r="2"/></svg>';
 export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${SKILLS[s][2]}</svg>` : "");
 
+// question numbers: "1）" "1." in the accent, circled ①–⑳ in ink and regular weight (Q1 p.018, Q2 pp.020–021)
+const qn = (n) => `<span class="qs__n${/^[\u2460-\u2473]$/.test(n || "") ? " qs__n--c" : ""}">${fmt(n || "")}</span>`;
+
 const B = {
   // ----- structure -----
   head(b, ctx) {
@@ -97,7 +100,7 @@ const B = {
   },
   qs(b, ctx) {
     return `<ol class="qs">${(b.items || []).map((it) => `<li class="qs__i">
-        <span class="qs__n">${fmt(it.n || "")}</span>
+        ${qn(it.n)}
         <div class="qs__b">${line(it.text, "qs__t")}
           ${it.words ? `<p class="qs__words ja-book">［${it.words.map((w) => `<span>${fmt(w)}</span>`).join("")}］</p>` : ""}
           ${blocks(it.blocks, ctx)}
@@ -227,14 +230,14 @@ const B = {
   tf(b, ctx) {
     const id = `${ctx.id || "q"}-tf${seq(ctx)}`;
     return exWrap(id, (b.items || []).map((it, i) => `<div class="q tf-q" data-i="${i}">
-        <div class="q-line"><span class="qs__n">${fmt(it.n || "")}</span>
+        <div class="q-line">${qn(it.n)}
           <span class="opts opts--tf" data-answer="${it.answer === "○" ? 0 : 1}"><button class="opt opt--tf" data-act="pick" data-j="0" aria-label="○ 合う">○</button><button class="opt opt--tf" data-act="pick" data-j="1" aria-label="× 合わない">×</button></span>
           ${line(it.text, "q-text")}</div></div>`).join(""));
   },
   choice(b, ctx) {
     const id = `${ctx.id || "q"}-ch${seq(ctx)}`;
     return exWrap(id, (b.items || []).map((it, i) => `<div class="q choice-q" data-i="${i}">
-        ${it.text || it.n ? `<div class="q-line"><span class="qs__n">${fmt(it.n || "")}</span>${line(it.text, "q-text")}</div>` : ""}
+        ${it.text || it.n ? `<div class="q-line">${qn(it.n)}${line(it.text, "q-text")}</div>` : ""}
         <div class="opts opts--row" data-answer="${it.answer}">${it.options.map((o, j) => `<button class="opt opt--row" data-act="pick" data-j="${j}">${fmt(o)}</button>`).join("")}</div></div>`).join(""));
   },
   match(b, ctx) {

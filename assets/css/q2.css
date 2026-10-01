@@ -140,6 +140,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qs { list-style: none; padding: 0; margin: 10px 0; }
 .qs__i { display: grid; grid-template-columns: auto 1fr; gap: 0 .5em; margin: 12px 0 18px; }
 .qs__n { color: var(--q); font: 800 1.15em/1.65 var(--goth); min-width: 1.4em; white-space: nowrap; }
+.qs__n--c { color: var(--ink); font-weight: 400; }
 .qs__b { min-width: 0; }
 .qs__t .ja { font-family: var(--goth); }
 .qs__words { display: flex; flex-wrap: wrap; gap: .3em 1.6em; margin: 6px 0 0 1em; font-size: 1.05em; }
