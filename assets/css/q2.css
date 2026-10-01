@@ -77,8 +77,8 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .sk-banner__ic .sk-ic { width: 34px; height: 34px; }
 .sk-banner__l { margin: 0; font-size: 13px; color: var(--ink-2); font-family: var(--goth); }
 .sk-banner__t { margin: 0; font: 800 28px/1.35 var(--goth); }
-/* the lesson and section titles' readings are small as printed (p.201 中国人: ちゅう・ごく・じん fit under their kanji, no gap around the word) */
-.sk-banner__t rt, .op-sk__t rt { font-size: .42em; }
+/* the lesson and section titles' readings are small as printed (p.201 中国人: ちゅう・ごく・じん fit under their kanji, no gap around the word); strategy titles the same (Q2 p.008 省略) */
+.sk-banner__t rt, .op-sk__t rt, .strat__t rt { font-size: .42em; }
 @media (max-width: 600px) { .sk-banner { padding: 10px 12px; gap: 10px; } .sk-banner__ic { width: 58px; height: 58px; font-size: 11px; } .sk-banner__ic .sk-ic { width: 24px; height: 24px; } .sk-banner__t { font-size: 21px; } }
 .sk-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 16px; }
 .sk-tabs a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 4px 12px; border: 1.5px solid var(--line); border-radius: 999px; color: var(--ink-2); font: 700 14px/1 var(--goth); }
@@ -159,6 +159,9 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--accent { background: var(--q-soft); border: 1.5px solid var(--q); border-radius: 10px; }   /* Q1 p.035 */
 .qbox--task { background: var(--q-soft); border: 3px solid var(--q-soft-2); border-radius: 16px; }
 .qbox--strategy { background: var(--q-soft); border-radius: 0; }
+/* its ストラテジー label is a small accent tab hanging over the box's top edge (Q1 p.074, Q2 p.008) */
+.qbox--strategy { margin-top: 22px; }
+.qbox--strategy > .qbox__title { width: fit-content; margin: -12px 0 8px -4px; padding: 0 10px 1px; font-size: 13px; line-height: 1.6; color: var(--q); background: var(--bg); border: 1.5px solid var(--q); border-top: 0; border-radius: 0 0 6px 6px; }
 .qbox--challenge { background: var(--q-soft); border-radius: 16px; }
 .qbox__title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font: 700 16px/1.6 var(--goth); margin-bottom: 6px; }
 .qbox__ic { color: var(--q); font-size: 1.2em; }
@@ -413,6 +416,8 @@ a.ref:hover u { background: var(--q-soft); }
 .strat__tag { display: inline-block; background: var(--q-fill); color: var(--q-on); font: 700 15px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
 .strat__tools { position: absolute; right: 0; top: 0; }
 .strat__t { margin: 0; padding: 10px 16px; background: var(--q-soft-2); border-bottom: 2px solid var(--q); border-radius: 0 8px 8px 8px; font: 800 24px/1.4 var(--goth); }
+/* the strategy's own English (intro, notes under the examples) is set in serif ink, the box's points in Gothic (p.074) */
+.strat > .bk-en.qp, .strat > .qlist .bk-en { font: 16px/1.6 var(--serif); color: var(--ink); }
 .strat__en, .unit-h .strat__en { font: 700 17px/1.4 var(--goth); color: var(--ink); }
 .unit-h { margin-bottom: 18px; }
 .unit-h__tag { display: inline-block; background: var(--ink-2); color: var(--panel); font: 700 14px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
