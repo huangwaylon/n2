@@ -248,7 +248,7 @@ const B = {
   },
   choice(b, ctx) {
     const id = `${ctx.id || "q"}-ch${seq(ctx)}`;
-    return exWrap(id, (b.items || []).map((it, i) => `<div class="q choice-q" data-i="${i}">
+    return exWrap(id, (b.items || []).map((it, i) => inlineChoice(it, i) || `<div class="q choice-q" data-i="${i}">
         ${it.text || it.n ? `<div class="q-line">${qn(it.n)}${line(it.text, "q-text")}</div>` : ""}
         <div class="opts opts--row${b.list ? " opts--list" : ""}${b.list === "grid" ? " opts--2x2" : ""}" data-answer="${it.answer}">${it.options.map((o, j) => `<button class="opt opt--row" data-act="pick" data-j="${j}">${fmt(o)}</button>`).join("")}</div></div>`).join(""));
   },
@@ -496,6 +496,24 @@ export function placeLineNos(root, all = true) {
   todo.forEach((body) => (body.getClientRects().length ? fitSize.set(body, sizeOf(body)) : fitSize.delete(body)));
 }
 
+// "【a. ぺらぺら　b. すらすら　c. ぼそぼそ】" in the sentence (brush-up units, Q1 p.208, Q2 p.210): the printed options
+// are the buttons, tapped in place (spans with role="button" as TRY's inline choices, so the sentence wraps as text);
+// null when the sentence has no such group of as many options, a. b. c. in order
+function inlineChoice(it, i) {
+  const o = norm(it.text), m = o && o.ja && o.ja.match(/【([^】]*)】/);
+  if (!m) return null;
+  const labs = [...m[1].matchAll(/(?:^|[\s　])([a-e])\.\s*/g)];
+  if (labs.length !== it.options.length || labs.some((l, j) => l[1] !== "abcde"[j])) return null;
+  const at = (l) => l.index + (/[\s　]/.test(l[0][0]) ? 1 : 0);
+  const lead = m[1].slice(0, at(labs[0])), tail = m[1].slice(m[1].trimEnd().length);
+  const opts = labs.map((l, j) => {
+    const t = m[1].slice(l.index + l[0].length, j + 1 < labs.length ? labs[j + 1].index : m[1].trimEnd().length).replace(/[\s　]+$/, "");
+    return `<span class="opt opt--inl${plain(t).length <= 8 ? " opt--nw" : ""}" role="button" tabindex="0" data-act="pick" data-j="${j}"><span class="opt-n">${l[1]}.</span>\u2060${fmt(t)}</span>`;
+  });
+  const grp = `【${esc(lead)}<span class="opts opts--inline" data-answer="${it.answer}">${opts.join('<span class="opt-sep">　</span>')}</span>${esc(tail)}】`;
+  const html = line({ ...o, ja: o.ja.replace(m[0], "\uE000") }, "q-text").replace("\uE000", grp);
+  return `<div class="q choice-q" data-i="${i}"><div class="q-line">${qn(it.n)}${html}</div></div>`;
+}
 // ---------- interactive: ○× and choices (graded like the TRY exercises), bubbles, compose ----------
 function exWrap(id, body) {
   const sc = progress.scores[id];

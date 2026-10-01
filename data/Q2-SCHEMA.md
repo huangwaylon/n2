@@ -189,6 +189,7 @@ blanks ①（　） as printed.
 { t: "tf", items: [ { n: "①", text, tr, answer: "○" } ] }
 { t: "choice", items: [ { n: "", text, options: ["❶", "❷", "❸"], answer: 2 } ] }      // answer = index
 //   list: true — the options one per line, as a.（　）吉田ルート lists (Q1 pp.064, 097, 166); list: "grid" — two to a row (Q2 p.131)
+//   a text with 【a. …　b. …】 holding as many options as `options` renders them in place (the labels and text there are shown)
 { t: "script", audio: "4.Chokai_L7-1", page: 238, key: ["③"], intro: Text, lines: [ { sp: "", v: "f", ja, tr } ] }
 { t: "match", leftLabels: ["a", "b"], left: [Text], rightLabels: ["①", "②"], right: [Text], answer: [1, 0] }
 { t: "compose", min: 550, max: 650 }
