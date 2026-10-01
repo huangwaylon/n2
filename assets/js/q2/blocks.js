@@ -179,7 +179,7 @@ const B = {
     // label-only steps printed in one bubble (Q1 p.027 ❸ コメントをする / ❹ くわしく聞く)
     const one = !(b.steps || []).some((s) => s.side === "b");
     const step = (s) => `${s.who || s.act ? `<li class="flow__pill flow__pill--${s.side === "b" ? "b" : "a"}">${s.who ? `<b>${fmt(s.who)}</b>` : ""}${s.act ? `${s.who ? "：" : ""}${inl(s.act)}` : ""}</li>` : ""}<li class="flow__s flow__s--${s.side === "b" ? "b" : "a"}">
-        ${(s.labels || (s.label ? [s] : [])).map((x) => `<p class="flow__l">${x.n ? `<span class="step">${String.fromCodePoint(0x2775 + x.n)}</span>` : ""}${inl(x.label)}</p>`).join("")}${line(s.text, "flow__t")}</li>`;
+        ${(s.labels || (s.label ? [s] : [])).map((x) => `<p class="flow__l">${x.n ? `<span class="step">${String.fromCodePoint(0x2775 + x.n)}</span>\u2060` : ""}${inl(x.label)}</p>`).join("")}${line(s.text, "flow__t")}</li>`;
     const groups = [];
     (b.steps || []).forEach((s) => { if (s.phase || !groups.length) groups.push({ phase: s.phase, steps: [] }); groups[groups.length - 1].steps.push(s); });
     const body = groups.some((g) => g.phase)

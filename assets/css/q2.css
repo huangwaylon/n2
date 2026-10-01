@@ -298,12 +298,14 @@ a.ref:hover u { background: var(--q-soft); }
 .flow__head { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 8px; font: 700 15px/1.5 var(--goth); }
 .flow__head > span { background: var(--q-gray); border-radius: 999px; padding: 6px 14px; text-align: center; }
 .flow__head > span:first-child { background: var(--q-soft); }
-.flow__steps { list-style: none; margin: 0; padding: 12px; border: 2px solid var(--q); border-radius: 8px; display: grid; gap: 10px; background: linear-gradient(90deg, transparent calc(50% - 1px), var(--q-soft-2) calc(50% - 1px) calc(50% + 1px), transparent calc(50% + 1px)); }
+.flow__steps { list-style: none; margin: 0; padding: 12px; border: 2px solid var(--q); border-radius: 8px; display: grid; gap: 10px; background: linear-gradient(var(--q) 50%, transparent 0) center top / 2px 6px repeat-y; }  /* the dotted accent centre line (p.023) */
 .flow__s { border-radius: 14px; padding: 8px 14px; max-width: 78%; }
 .flow__s--a { background: var(--q-soft); justify-self: start; }
 .flow__s--b { background: var(--q-gray); justify-self: end; }
-.flow__l { margin: 0; color: var(--q); font: 700 14px/1.6 var(--goth); }
-.flow__t .ja { font-family: var(--mincho); }
+.flow__l { margin: 0; color: var(--q); font: 500 14px/1.6 var(--goth); }
+/* the step mark at the label's size, a space before the label (p.023 ❶ 話しかける) */
+.flow__l .step { font-size: 1em; vertical-align: 0; padding-right: .3em; }
+.flow__t .ja { font-family: var(--mincho); margin: 0; }
 @media (max-width: 600px) { .flow__s { max-width: 92%; } .flow__steps { padding: 8px; background: none; } }
 /* phones: the printed line breaks in a bubble (p.161) no longer fit the narrower bubble and leave one-kana lines ("…○○さん／は") */
 @media (max-width: 600px) { .flow__t br { display: none; } .flow__head { gap: 6px; font-size: 13px; } .flow__head > span { padding: 5px 8px; } }
