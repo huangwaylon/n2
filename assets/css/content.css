@@ -216,7 +216,8 @@
 .kv th + th { border-left: 2px solid var(--panel); }
 .kv td { border-bottom: 1px solid var(--rule); padding: 4px 8px; vertical-align: top; width: 50%; }
 .kv td + td { border-left: 1px solid var(--rule); }
-.kv-ref { font: 11px var(--goth); margin-left: .6em; vertical-align: .5em; }
+.kv td:first-child { vertical-align: middle; } /* 来る centred beside its two forms (p.123) */
+.kv-ref { font: 12px var(--goth); margin-left: 1em; vertical-align: baseline; } /* "お見えになる　＊1": on the line, set apart (p.123) */
 .kv-notes .fnote:first-child { margin-top: 0; }
 @media (max-width: 700px) { .kv-wrap { grid-template-columns: minmax(0, 1fr); } .kv-notes { margin-bottom: 8px; } }
 
