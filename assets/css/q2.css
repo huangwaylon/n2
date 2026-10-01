@@ -308,12 +308,12 @@ a.ref:hover u { background: var(--q-soft); }
 @media (max-width: 600px) { .roles__cards { grid-template-columns: 1fr; } }
 .role { border: 2px solid var(--line); border-radius: 10px; padding: 10px 14px; font-family: var(--goth); }
 .role--a { border: 3px solid var(--q); }
-.role__h { display: flex; gap: 10px; align-items: center; font-weight: 700; margin-bottom: 6px; }
+.role__h { display: flex; gap: 10px; align-items: center; font-weight: 700; font-size: 1.12em; margin-bottom: 6px; }
 .role__tag { color: var(--q); font: 700 24px/1 var(--goth); border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2); border-radius: 0 0 6px 0; padding: 0 6px 2px 0; }
 .role:not(.role--a) .role__tag { color: var(--ink-3); }
 .role { display: flex; flex-direction: column; }
 .role__t { flex: 1; display: flex; flex-direction: column; justify-content: center; }
-.role__t .ja { text-align: center; }
+.role__t .ja { text-align: center; font-size: 1.12em; }  /* the cards' text a size above the instructions (Q2 p.084, Q1 p.018) */
 .role__t .role__sit { display: block; text-align: left; margin-top: .4em; }
 .role__sh, .role__li { display: block; }
 .role__li { padding-left: 1em; text-indent: -1em; }
