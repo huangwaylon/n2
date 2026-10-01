@@ -653,7 +653,7 @@ s { text-decoration: line-through var(--q) 2px; }
 .swatch { display: inline-block; width: 3.2em; height: 1.1em; vertical-align: -.15em; background: var(--q-gray); margin: 0 .15em; border-radius: 2px; }
 .rd-title--c { text-align: center; }
 .rd-title--sec { font-size: 1.05em; }  /* ◆ section headings inside a text: about the text size (Q2 p.166) */
-/* flowchart: one-role charts have full-width bubbles and no centre line; the lead's pill sits above; phases are a
+/* flowchart: one-role charts have full-width bubbles and no centre line; the lead's pill sits above; Quartet II phases are a
    bracket down the right edge with the label on a vertical blue tab (pp.023, 093) */
 .flow--one .flow__steps { background: none; }
 .flow--one .flow__s { max-width: none; justify-self: stretch; }
@@ -683,6 +683,15 @@ s { text-decoration: line-through var(--q) 2px; }
 .flow__ph .part { all: unset; }
 .flow__ph > span:has(.part--b) { background: var(--panel); color: var(--q); border: 2px solid var(--q); }
 @media (max-width: 600px) { .flow__ph > span:has(.part--b) { background: none; border: 0; } }
+/* Quartet I prints each part as a frame of its own, the badge tab on its right edge, the dotted centre line running
+   through both (pp.021, 027, 093) */
+.flow__steps:has(> .flow__g .part) { border: 0; padding: 0; }
+.flow__g:has(.part) { border: 2px solid var(--q); border-radius: 8px; padding: 12px; }
+@media (min-width: 601px) {
+  .flow__g:has(.part) { position: relative; grid-template-columns: minmax(0, 1fr); padding-right: 2.4em; }
+  .flow__g:has(.part) > .flow__ph { position: absolute; top: 0; bottom: 0; right: -2px; width: 0; margin: 0; border: 0; }
+}
+@media (min-width: 601px) and (max-width: 900px) { .flow__g:has(.part) { margin-right: 1.2em; } }  /* the tab past the edge stays on screen */
 /* e-mail window (reading style "email", pp.034–035): grey header band with the address lines, framed body; set in gothic
    without paragraph indents as printed */
 .rd-mail { border: 1.5px solid var(--ink-3); margin: .3em 0; font-family: var(--goth); }
