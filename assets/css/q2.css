@@ -227,9 +227,11 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
   .rd--model .rd-body { --side: 8.6em; }
   .rd--model .rd-body > :is(.rd-title, .rd-t, .rd-by, .rd-p, .rd-fig) { margin-inline-end: var(--side); }  /* ungrouped lines stay on the panel */
   .rd-grp { display: grid; grid-template-columns: minmax(0, 1fr) 7.5em; column-gap: 1.1em; }
-  .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 13px; line-height: 1.5; }
+  .rd-grp .rd-role { position: relative; flex-direction: column; gap: 2px; margin: .5em 0; padding: 0 0 0 .7em; border-left: 1.5px solid var(--q); font-size: 15px; line-height: 1.5; }  /* labels near the text size, as printed */
   .rd-grp .rd-role::before, .rd-grp .rd-role::after { content: ""; position: absolute; left: -12px; width: 12px; border-top: 1.5px solid var(--q); }
   .rd-grp .rd-role::before { top: 0; }
+  .rd-grp .rd-role__s { font-size: 14px; }  /* そのことへの対応 on one line (p.017) */
+  .rd--v .rd-grp :is(.rd-role, .rd-role__s) { font-size: 13px; }  /* 縦書き: small labels, one column each (Q1 p.050) */
   /* 縦書き (p.050): the panel runs across every column, from under the line numbers to above the brackets */
   .rd--v.rd--model .rd-body { background: linear-gradient(to bottom, transparent 2.4em, var(--q-gray) 2.4em, var(--q-gray) calc(100% - var(--side)), transparent calc(100% - var(--side))); }
   .rd-grp .rd-role::after { bottom: 0; }
