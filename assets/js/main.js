@@ -218,7 +218,8 @@ const isDrawerOpen = () => document.body.classList.contains("sb-open");
 function setDrawer(open, moveFocus = true) {
   const was = isDrawerOpen();
   document.body.classList.toggle("sb-open", open);
-  $(".sb-toggle").setAttribute("aria-expanded", String(open));
+  // ☰ says whether the contents show: the drawer below 901, the sidebar (settings.sidebar) above
+  $(".sb-toggle").setAttribute("aria-expanded", String(isWide() ? settings.sidebar : open));
   if (open && !was) {
     const cur = $(".sb-ch.open") || $(".sb-list a.active");
     if (cur) cur.scrollIntoView({ block: "nearest" });
@@ -344,7 +345,7 @@ function wireEvents() {
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
   matchMedia(WIDE).addEventListener("change", (m) => {
-    if (m.matches) setDrawer(false, false);
+    setDrawer(false, false);
     applySettings();
     if (settings.vertical === "auto" && $("#main .rd--tate")) document.dispatchEvent(new CustomEvent("try:setting-vertical", { detail: { late: true } }));
   });
