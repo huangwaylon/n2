@@ -80,17 +80,18 @@ const sig = (el) => el.tagName + el.textContent.length;
 // a record of the place (plain data: kept in history.state for back / forward and reload, main.js)
 export function placeRec(el) {
   const main = $("#main"), all = $$(PLACE, main), line = el || lineAt($(".topbar").getBoundingClientRect().bottom + 8);
-  const blk = (el && el.closest(PLACE)) || line.closest(PLACE), box = all.includes(blk) ? blk : main;
-  return { i: all.indexOf(box), j: Array.prototype.indexOf.call(box.getElementsByTagName("*"), line), s: sig(line),
-    top: line.getBoundingClientRect().top, btop: box.getBoundingClientRect().top };
+  const blk = (el && el.closest(PLACE)) || line.closest(PLACE), box = all.includes(blk) ? blk : main, d = box.getElementsByTagName("*");
+  const j = Array.prototype.indexOf.call(d, line);
+  return { i: all.indexOf(box), j, k: d.length - j, s: sig(line), top: line.getBoundingClientRect().top, btop: box.getBoundingClientRect().top };
 }
 // a block that now ends above the view (the reader was inside a long 横 text that became a short 縦 scroller) is shown
 // from its top instead
 export function placeBack(p) {
   const main = $("#main"), b = p.i < 0 ? main : $$(PLACE, main)[p.i];
   if (!b) return;
-  const l = p.j >= 0 && b.getElementsByTagName("*")[p.j];
-  if (l && sig(l) === p.s && l.getClientRects().length) return scrollBy(0, l.getBoundingClientRect().top - p.top);
+  // the line by its place in the block, counted from the start, else from the end (a rebuilt text above it in #main)
+  const d = b.getElementsByTagName("*"), l = p.j < 0 ? null : [d[p.j], d[d.length - p.k]].find((x) => x && sig(x) === p.s && x.getClientRects().length);
+  if (l) return scrollBy(0, l.getBoundingClientRect().top - p.top);
   scrollBy(0, b.getBoundingClientRect().top - p.btop);
   if (b !== main && b.getBoundingClientRect().bottom < innerHeight / 3) b.scrollIntoView({ block: "start" });
 }

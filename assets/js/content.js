@@ -385,6 +385,9 @@ export function vtScrollInit(refit) {
       const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(viewH() * 0.8, 44 * fs);
       let h = sc.clientHeight;
       while (sc.scrollWidth > sc.clientWidth + 1 && h + 2 * fs <= max) { h += 2 * fs; sc.style.height = `${h}px`; }
+      // the CSS height is in vh, which in-app iOS browsers may change as their toolbars slide in and out while the page
+      // scrolls (every box below would move): kept until the width changes, like viewH()
+      if (!sc.style.height) sc.style.height = getComputedStyle(sc).height;
     }
     const upd = () => sc.classList.toggle("has-more", sc.scrollWidth - sc.clientWidth + sc.scrollLeft > 4 && Math.abs(sc.scrollLeft) < sc.scrollWidth - sc.clientWidth - 4);
     if (!sc.dataset.hint) { sc.dataset.hint = 1; sc.addEventListener("scroll", upd, { passive: true }); }
