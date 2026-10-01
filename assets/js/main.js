@@ -54,7 +54,6 @@ function shellHtml() {
   <nav class="book-switch" aria-label="本 Books">${BOOKS.map((o) => `<a href="${bookHref(o)}" data-bk="${o.id}"${o.id === b.id ? ' aria-current="page"' : ""} title="${esc(o.name)} ${esc(o.ja)}"><span class="bs-code">${o.label}</span><span class="bs-name">${esc(o.name)}</span></a>`).join("")}</nav>
   <details class="book-menu pop"><summary data-bk="${b.id}" aria-label="本 Book: ${esc(cur.name)}"><span class="bs-code">${cur.label}</span><span class="bm-caret" aria-hidden="true"></span></summary>
     <nav class="book-pop" aria-label="本 Books"></nav></details>
-  <nav class="topnav" aria-label="ページ Pages">${pageLinks}</nav>
   <div class="toggles">
     <label class="switch" title="Furigana (shortcut: F)"><input type="checkbox" role="switch" id="tg-furi"><span class="sw" aria-hidden="true"></span><span class="sw-l" data-short="ふ">ふりがな</span></label>
     <label class="switch" title="English supplement (shortcut: E)"><input type="checkbox" role="switch" id="tg-en"><span class="sw" aria-hidden="true"></span><span class="sw-l">EN</span></label>
@@ -170,7 +169,7 @@ const markActive = (h) => {
   let cur = "#/" + h;
   if (!links.some((a) => a.getAttribute("href") === cur)) { const tab = $("#main .sk-tabs a[aria-current]"); if (tab) cur = tab.getAttribute("href"); }
   links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === cur));
-  $$(".topnav a, .sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
+  $$(".sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
 };
 // layout pass after a render: option columns, furigana overhang, vertical scrollers
 const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
@@ -269,8 +268,9 @@ ACT.redrill = (t, e) => { e.preventDefault(); route(); };
 // ☰: on wide screens it shows / hides the sidebar (remembered); below 901 it opens the drawer
 ACT.sb = () => (isWide() ? setSetting("sidebar", !settings.sidebar) : setDrawer(!isDrawerOpen()));
 ACT["reset-progress"] = () => {
-  if (!confirm("Reset all saved progress and scores?")) return;
-  progress.studied = {}; progress.scores = {};
+  // progress = studied marks, scores and flashcards learned; texts the reader wrote (Quartet 書く, progress.texts) stay
+  if (!confirm("この本の進度をリセットしますか？\nReset this book's progress: studied marks, exercise scores and learned flashcards? Texts you wrote are kept.")) return;
+  progress.studied = {}; progress.scores = {}; progress.known = {};
   saveProgress();
   rerender();
 };
@@ -363,8 +363,6 @@ async function init() {
   // a list page opened directly: its files load alongside the book's data
   need(hashRoute());
   document.body.dataset.book = BOOK().id;
-  // the page links (About, Guide, Index …) sit at the top of the sidebar instead of the top bar
-  document.body.classList.add("nav-sb");
   document.body.innerHTML = shellHtml();
   loadProgress();
   TTS.load();

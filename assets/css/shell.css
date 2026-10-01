@@ -42,11 +42,6 @@
 .skip { position: absolute; left: calc(8px + var(--safe-l)); top: 6px; z-index: 50; padding: 10px 14px; border-radius: 8px; background: var(--panel); color: var(--ink);
   border: 2px solid var(--teal); transform: translateY(-200%); }
 .skip:focus { transform: none; }
-.topnav { display: flex; gap: 2px; flex: 1; min-width: 0; }
-.topnav a { display: inline-block; padding: 6px 10px; line-height: 24px; color: var(--ink-2); border-radius: 8px; white-space: nowrap; font-size: 14px; }
-.topnav a.active { background: var(--band); color: var(--ink); }
-@media (hover: hover) { .topnav a:hover { background: var(--band); color: var(--ink); text-decoration: none; } }
-@media (max-width: 1100px) { .topnav .en-inline { display: none; } }
 .toggles { display: flex; align-items: center; gap: 4px; margin-left: auto; flex: none; }
 .switch { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 6px; cursor: pointer; font-size: 13px; user-select: none; -webkit-user-select: none; white-space: nowrap; }
 /* visually hidden but focusable (keyboard toggles the switch) */
@@ -83,7 +78,6 @@ kbd { display: inline-block; min-width: 1.6em; padding: 0 .35em; border: 1px sol
   width: var(--sbw); flex: none; overflow-y: auto; overscroll-behavior: contain; border-right: 1px solid var(--line); background: var(--panel); padding: 10px 0 40px; }
 /* content column: 800px measure, centred in the area right of the sidebar */
 main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); margin-inline: auto; padding: 28px calc(var(--main-pad) + var(--safe-r)) 80px calc(var(--main-pad) + var(--safe-l)); }
-.sb-pages { display: none; }
 .sb-list, .sb-gps { list-style: none; margin: 0; padding: 0; }
 .sb-ch-link { display: flex; align-items: center; gap: 10px; min-height: 36px; padding: 4px 14px; color: var(--ink); font-size: 14px; }
 .sb-num { flex: none; width: 24px; height: 24px; border-radius: 6px; background: var(--bg); border: 1px solid var(--line); display: grid; place-items: center; font-size: 12px; font-weight: 700; color: var(--ink-2); }
@@ -98,7 +92,7 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 .sb-gps a.done::after { content: " ✓"; color: var(--ok); margin-left: .3em; }
 .sb-gpn { display: inline-block; flex: none; width: 30px; color: var(--ink-3); font-size: 11px; }
 .sb-review { color: var(--teal) !important; }
-@media (hover: hover) { .sb-ch-link:hover, .sb-gps a:hover, .sb-pages a:hover { background: var(--bg); text-decoration: none; } }
+@media (hover: hover) { .sb-ch-link:hover, .sb-gps a:hover { background: var(--bg); text-decoration: none; } }
 @media (pointer: coarse) {
   .sb-ch-link { min-height: 44px; }
   .sb-gps a { min-height: 44px; padding: 8px 14px 8px 48px; }
@@ -107,18 +101,16 @@ main { flex: 1; min-width: 0; max-width: calc(800px + 2 * var(--main-pad)); marg
 
 /* desktop: ☰ hides the sidebar (settings.sidebar); the content column recentres in the full width */
 @media (min-width: 901px) { body.sb-hidden .sidebar { display: none; } body.sb-hidden .site-foot { margin-left: 0; } }
-/* TRY books (body.nav-sb): the page links sit at the top of the sidebar at every width, not in the top bar */
-body.nav-sb .topnav { display: none; }
-body.nav-sb .sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
-body.nav-sb .sb-pages a { display: flex; align-items: center; gap: .35em; min-height: 36px; padding: 0 8px; border-radius: 8px; color: var(--ink); font-size: 14px; line-height: 1.3; }
-body.nav-sb .sb-pages a.active { background: var(--band); }
-@media (hover: hover) { body.nav-sb .sb-pages a:hover { background: var(--band); text-decoration: none; } }
-body.nav-sb .sb-pages .en-inline { display: none; }
-@media (pointer: coarse) { body.nav-sb .sb-pages a { min-height: 44px; } }
+/* page links (Home, About, Guide, Index …): two columns at the top of the sidebar / drawer in every book */
+.sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
+.sb-pages a { display: flex; align-items: center; gap: .35em; min-height: 36px; padding: 0 8px; border-radius: 8px; color: var(--ink); font-size: 14px; line-height: 1.3; }
+.sb-pages a.active { background: var(--band); }
+@media (hover: hover) { .sb-pages a:hover { background: var(--band); text-decoration: none; } }
+.sb-pages .en-inline { display: none; }
+@media (pointer: coarse) { .sb-pages a { min-height: 44px; } }
 
-/* ---------- tablet: sidebar becomes a drawer; the six page links move into it ---------- */
+/* ---------- tablet: sidebar becomes a drawer ---------- */
 @media (max-width: 900px) {
-  .topnav { display: none; }
   .topbar { gap: 6px; padding-left: calc(10px + var(--safe-l)); padding-right: calc(8px + var(--safe-r)); }
   .sidebar { position: fixed; left: 0; top: calc(var(--top) + env(safe-area-inset-top, 0px)); bottom: 0; height: auto; width: min(86vw, 320px); z-index: 25;
     padding-left: var(--safe-l); padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px));
@@ -128,10 +120,6 @@ body.nav-sb .sb-pages .en-inline { display: none; }
      become the scroll container and the sticky top bar would scroll away with the page */
   html:has(body.sb-open) { overflow: hidden; }
   body.sb-open .sb-scrim { display: block; position: fixed; inset: calc(var(--top) + env(safe-area-inset-top, 0px)) 0 0 0; background: rgba(0,0,0,.3); z-index: 20; }
-  .sb-pages { display: grid; grid-template-columns: 1fr 1fr; gap: 0 4px; padding: 2px 8px 10px; margin-bottom: 8px; border-bottom: 1px solid var(--line); }
-  .sb-pages a { display: flex; align-items: center; gap: .35em; min-height: 44px; padding: 0 8px; border-radius: 8px; color: var(--ink); font-size: 14px; line-height: 1.3; }
-  .sb-pages a.active { background: var(--band); }
-  .sb-pages .en-inline { white-space: nowrap; }
   /* short visible switch labels: "ふ" / "EN" */
   .sw-l[data-short] { font-size: 0; }
   .sw-l[data-short]::before { content: attr(data-short); font-size: 13px; }
