@@ -66,7 +66,7 @@ Components use tokens, never literal greys; literal `#fff` only as text on a fil
 |---|---|---|
 | Pill | `pill(html)` → `span.pill` | dark rounded capsule, white bold Gothic, shadow below-left (pp.18–20, 27) |
 | Boxed / paren number | `span.qn.qn--box` / `.qn--paren` "1）" | thin wide rectangle, Mincho (pp.27–28) / plain, hanging (pp.19, 26) |
-| Answer numeral | `.opt-n` | bold Gothic 1–4; "a." in practice, "a）" in matching |
+| Answer numeral | `.opt-n` | bold Gothic 1–4 in the review grids; inline "a．" and matching "a）" in the sentence's regular Mincho (pp.19–20) |
 | CD badge | `cdBadge(queue, label)` → `button.cd-badge[data-act=listen]` | headphone "CD" top-right of 見本文 and listening items (pp.18, 29, 102); `.speaking` inverts |
 | 🔊 | `speakBtn(text)` → `button.speak[data-act=speak]` | web only; negative block margin so it never grows the line |
 | Bilingual line | `bi(o, tag, cls, {book})` → `div.bi > .ja + .en` | English under the Japanese |
@@ -196,7 +196,7 @@ Each entry: book (pages) → web → responsive.
 
 **C18 やってみよう！ header** (pp.19–25). Pill left, "▶答え 別冊P. 1" right, items unframed. `renderExercise()` → `section.exercise.ex-<type>[data-ex=id]`: `.ex-head` (pill; `.ex-ref` score chip + scoped EN), `.ex-prompt`, `.ex-body`, `.ex-actions`; framed only on the drill page. Exercise ids are progress keys and must stay stable: `gpN-pJ`, `gpN-nK-pJ`, `gpN-plusK-pJ`, `chN-partP-check[-k]`, `chN-review-K`.
 
-**C19 Inline choice "（a. … b. …）"** (pp.20–24). Options printed inside the sentence's parentheses, wrapping naturally. `optGroup(…, "inline")` when labels are letters and there is exactly one "（　）" per option group (or "（ a ）" for `parts`), else the grid (C24). Options are `span.opt.opt--inl[role=button][tabindex=0]`, not `<button>` (an atomic inline-block would break the sentence's lines), and keep the 2.0 line-height; a word joiner keeps "b." with its text.
+**C19 Inline choice "（a. … b. …）"** (pp.20–24). Options printed inside the sentence's parentheses, wrapping naturally. `optGroup(…, "inline")` when labels are letters and there is exactly one "（　）" per option group (or "（ a ）" for `parts`), else the grid (C24). Options are `span.opt.opt--inl[role=button][tabindex=0]`, not `<button>` (an atomic inline-block would break the sentence's lines), and keep the 2.0 line-height; a word joiner keeps "b." with its text; a space after the letter, a full-width space between options. The data's "（　）" left in a sentence or instruction prints as a three-character gap (`.ph`, pp.27, 101).
 
 **C20 Matching "1）… ・　・ a）…"** (pp.19, 23–25, 196). Two columns with dots and a 4–6em gutter. `matchBody` → `.match__row`: left `choice-q` with letter buttons · `.match__gap` (echoes the pick) · `.match__r`. ≤700 the right column shows first as `.match__ref`, then the left items.
 
