@@ -214,7 +214,7 @@ Each entry: book (pages) → web → responsive.
 
 **C27 問題3 reading** (pp.57, 101–102, 170). Dashed passage; options stacked, or in columns when short (N1 p.57). `readingBody`: `choiceItem` with `mode: "noinline"` (always the fitted grid).
 
-**C28 問題4 listening** (pp.29, 102). Boxed number, options (list or 2×2), CD badge at the right of the first row; the question is not printed; response items print only "1　2　3", gist items nothing. `listeningBody` → `.lq-row` number · options · CD; response uses `.opts--resp` round numeral buttons. The question opens the `details.script` transcript and shows in the feedback after grading.
+**C28 問題4 listening** (pp.29, 102). Boxed number, options (summary items, one talk and two questions, always one per line, pp.29, 121; else the fitted grid), CD badge at the right of the first row; the question is not printed; response items print only "1　2　3", gist items nothing. `listeningBody` → `.lq-row` number · options · CD; response uses `.opts--resp` round numeral buttons. The question opens the `details.script` transcript and shows in the feedback after grading.
 
 **C29 Grading** (web only). Picked: teal numeral fill (grids) or teal tint + underline (inline). Right `--ok`; wrong `--ng` with the text struck, not the numeral. After grading `.qn` fills green or red and `.feedback` shows the full sentence, our English and `why`. `.score-chip` in `.ex-ref`; scores saved per exercise id.
 

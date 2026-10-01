@@ -237,7 +237,8 @@ function listeningBody(ex, c) {
     const optsForScript = spoken ? `<div class="sline resp"><span></span><div>${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}${tEn(it.script.length + j)}</div>`).join("")}</div></div>` : "";
     const opts = spoken
       ? `<div class="opts opts--resp" data-answer="${it.answer}">${it.options.map((_, j) => `<button class="opt opt--resp" data-act="pick" data-i="${i}" data-j="${j}" aria-label="${j + 1}"><span class="opt-n">${j + 1}</span></button>`).join("")}</div>`
-      : optGroup(it.options, it.answer, "123", "grid");
+      // one talk, two questions: the options are listed one per line whatever their length (pp.29, 121)
+      : optGroup(it.options, it.answer, "123", summary ? "list" : "grid");
     return `<div class="q choice-q listen-q${spoken ? " listen-q--resp" : ""}" data-i="${i}">
           <div class="lq-row${num === "none" ? " lq-row--nonum" : ""}">${qnHtml(c.off + i + 1, num) || "<span></span>"}${opts}${cdBadge(queue, `問題${c.off + i + 1}を聞く`)}</div>
           <details class="script"><summary>スクリプト <span class="en-inline">Transcript</span></summary><div class="dlg ja-book">${summary ? "" : qLine}${script}${summary ? qLine : ""}${optsForScript}</div></details>
