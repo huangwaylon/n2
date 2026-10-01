@@ -181,6 +181,8 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qtbl--stripe > tbody > tr:nth-child(even) > td { background: var(--q-gray); }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
+/* 聴解: the 単語 box sits at the right under the instructions (Q1 p.202, Q2 p.031) */
+@media (min-width: 601px) { .sk--listen .words { width: fit-content; max-width: 66%; margin-left: auto; } }
 .words__l { flex: none; background: var(--q-fill); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
 .words__list { display: flex; flex-wrap: wrap; gap: 2px 18px; min-width: 0; }
 .w { white-space: nowrap; }
