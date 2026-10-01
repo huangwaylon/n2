@@ -159,7 +159,8 @@ function fillBody(ex, c) {
       return `<button class="blank" data-act="blank" data-answer="${ex.bank.indexOf(answers[paired ? 0 : n - 1])}" aria-label="空欄${nBlanks > 1 && !paired ? n : ""}"></button>`;
     });
     // the book sets a blank apart from the words around it, but punctuation follows it closely ("経験　＿＿、広く", p.26)
-    const qp = q.replace(/(<(?:button|span) class="blank[^"]*)("[^>]*><\/(?:button|span)>)(?=[、。，」』）！？])/g, "$1 blank--p$2");
+    // and never starts the next line (Chrome breaks after an inline-block: "、津波が" opened a line, p.68)
+    const qp = q.replace(/(<(?:button|span) class="blank[^"]*)("[^>]*><\/(?:button|span)>)([、。，」』）！？]+)/g, '<span class="nobr">$1 blank--p$2$3</span>');
     (paired ? it.answer.split("・") : answers).forEach((a) => (full = full.replace("＿＿", "**" + a + "**")));
     return `<div class="q fill-q" data-i="${i}"><div class="q-line">${qnHtml(c.off + i + 1, c.num)}<div class="q-text ja-book">${qp}</div></div>
           ${feedback(it, `<p class="full ja-book">${fmt(full)}</p>`)}</div>`;
