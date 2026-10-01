@@ -165,6 +165,12 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--frame { background: transparent; border: 1.5px solid var(--line); }
 .qbox--attention { background: var(--q-soft); border: 2px solid var(--q); border-radius: 12px; }
 .qbox--attention > .qbox__title { color: var(--q); font-size: 20px; }
+/* ここにも注目 as printed (Q1 p.191, Q2 p.085): the 💡 title set into the top edge on the page colour, a short stretch of
+   the edge before it; each point's heading after an accent ▸ */
+.qbox--attention { margin-top: 26px; }
+.qbox--attention > .qbox__title { width: fit-content; margin: -29px 0 4px 2px; padding: 0 8px 0 4px; line-height: 1.6; background: var(--bg); }
+.qbox--attention > .hd--plain { margin-top: 0; }
+.qbox--attention > .hd--plain .ja::before { content: "▸"; margin-right: .2em; color: var(--q); font-size: .8em; }
 .qbox--accent { background: var(--q-soft); border: 1.5px solid var(--q); border-radius: 10px; }   /* Q1 p.035 */
 .qbox--task { background: var(--q-soft); border: 3px solid var(--q-soft-2); border-radius: 16px; }
 .qbox--strategy { background: var(--q-soft); border-radius: 0; }
