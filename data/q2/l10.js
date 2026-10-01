@@ -5239,6 +5239,7 @@ TRY.registerLesson({
     },
     {
      "t": "choice",
+     "list": "grid",
      "items": [
       {
        "n": "",

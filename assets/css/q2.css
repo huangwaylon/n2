@@ -470,6 +470,8 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 /* choice list: options with text (a. 吉田ルート) one per line in the text's size and weight, as printed (Q1 p.097) */
 .opts--list { flex-direction: column; align-items: flex-start; gap: 6px; }
 .opts--list > .opt--row { font-weight: 400; font-size: 16px; line-height: 1.9; padding: 3px 14px 7px; text-align: left; }
+/* list: "grid" — two to a row, a. b. over c. d. (Q2 p.131); phones keep one per line */
+@media (min-width: 601px) { .opts--2x2 { display: grid; grid-template-columns: repeat(2, max-content); column-gap: 3em; } }
 /* touch: 44px targets (docs/LAYOUT.md §3.3); the bubble's inputs keep their line height (2.4em) through negative margins */
 @media (pointer: coarse) {
   .opt--tf, .opt--row { min-height: 44px; }
