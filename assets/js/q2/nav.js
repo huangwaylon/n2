@@ -2,7 +2,7 @@
 // q2.css serve both; per-book names come from data/<book>/book.js): page links, sidebar, routes and the views.
 // Routes: "" home · l/7 lesson opener · l/7/read|write|speak|listen · gn/7-12 → note 12 of lesson 7 · st/11 strategy ·
 // l/7/vocab · l/7/kanji · u/c1 (上級へのチャレンジ ①) · u/k13 (漢字チャレンジ ⑬) · about · guide · index · kanji · drill
-import { ACT, BOOK, TRY, $, esc, progress } from "../core.js";
+import { ACT, BOOK, TRY, $, elText, esc, noteKey, progress, sectionAt, tally } from "../core.js";
 import { enScopeBtn, fmt, miniToc, pageHead, pager, plain } from "../markup.js";
 import { blocks, circ, inl, line, placeLineNos, placeRefNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
 import { vocabView, kanjiView, kanjiAllView, drillView, indexView } from "./lists.js";
@@ -45,8 +45,9 @@ function sidebar() {
   updateProgress();
 }
 function updateProgress() {
+  const all = allNotes();
   TRY.lessons.forEach((l) => {
-    const ns = allNotes().filter((x) => x.l === l), d = ns.filter((x) => progress.studied[`n${l.id}-${x.b.no}`]).length;
+    const ns = all.filter((x) => x.l === l), d = ns.filter((x) => progress.studied[noteKey(l.id, x.b.no)]).length;
     const el = $(`[data-prog="${l.id}"]`);
     if (el) { el.textContent = d ? `${d}/${ns.length}` : ""; el.classList.toggle("done", d === ns.length && d > 0); }
   });
@@ -90,6 +91,18 @@ function docTitle(main) {
   return (l ? `第${l.id}課 – ` : "") + `${BOOK().shortTitle} 中級日本語 Interactive`;
 }
 const layout = (root, all) => { placeLineNos(root, !!all); placeRefNos(root); wireTracks(root); };
+// studied / total grammar notes
+const stats = () => (TRY.lessons.length ? tally(allNotes().map((x) => noteKey(x.l.id, x.b.no))) : {});
+// lessons and units are places to come back to: the grammar note or strategy read, else the route
+function placeAt(h, ch) {
+  if (!ch) return null;
+  const a = sectionAt('[id^="gn-"], [id^="st-"]'), n = a && a.id.replace(/^\w+-/, "");
+  return a ? [/^gn-/.test(a.id) ? `gn/${ch}-${n}` : `st/${n}`, `${n} ${elText($("h3", a))}`] : [h, ""];
+}
+// a note or strategy (gn/8-3, st/11) has no sidebar row: its section's is marked (the section tab on the page)
+const activeRow = () => { const tab = $("#main .sk-tabs a[aria-current]"); return tab && tab.getAttribute("href"); };
+// 縦/横 changed: a view with a vertical reading is re-rendered
+const applyVertical = () => !!$("#main .rd--tate");
 // the files a route needs from book.js lazy (main.js loads them before the view renders): l/7/vocab → vocab07.js,
 // l/7/kanji → kanji07.js, the indexes every list, the drill the 覚える単語 and kanji, about the front matter; lessons,
 // units and home need none
@@ -101,7 +114,7 @@ function needs(h) {
 
 export const QUARTET = {
   pages: [["about", "本書について", "About"], ["guide", "使い方", "Guide"], ["index", "さくいん", "Index"], ["kanji", "漢字", "Kanji"], ["drill", "練習", "Drill"]],
-  sidebar, updateProgress, target, viewHtml, docTitle, layout, needs,
+  sidebar, updateProgress, target, viewHtml, docTitle, layout, needs, stats, placeAt, activeRow, applyVertical,
 };
 
 // ---------- views ----------
@@ -157,7 +170,7 @@ function tocOf(list) {
       else if (b.t === "reading" && b.id && b.n) out.push(`<a href="#${esc(b.id)}" data-act="jump" class="mt-gp"><span class="mt-gp__n">読${b.n}</span><span class="mt-gp__t">${fmt(jaT(b.title))}</span></a>`);
       else if (b.t === "strategy") out.push(`<a href="#st-${b.no}" data-act="jump" class="mt-gp"><span class="mt-gp__n">${circ(b.no)}</span><span class="mt-gp__t">${fmt(b.title)}</span></a>`);
       else if (b.t === "note") out.push(`<a href="#gn-${b.no}" data-act="jump" class="mt-gp mt-gn"><span class="mt-gp__n">${b.no}</span><span class="mt-gp__t">${fmt(b.pattern)}</span></a>`);
-      else if (b.t !== "note") walk(b.blocks);
+      else walk(b.blocks);
     });
   })(list);
   return out;

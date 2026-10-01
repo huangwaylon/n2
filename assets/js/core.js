@@ -32,7 +32,8 @@ export const settings = Object.assign({}, SETTINGS, LS.get("settings", {}));
 const CHOICES = { vertical: ["auto", "v", "h"], theme: ["auto", "light", "dark"] };
 for (const k in SETTINGS) if (typeof settings[k] !== typeof SETTINGS[k] || (CHOICES[k] && !CHOICES[k].includes(settings[k]))) settings[k] = SETTINGS[k];
 export const saveSettings = () => LS.set("settings", settings);
-const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
+// a book's progress key: "progress" (n2), "progress.n1", "progress.q1", "progress.q2"
+const progressKey = (id = BOOK().id) => (id === "n2" ? "progress" : `progress.${id}`);
 export const progress = { studied: {}, scores: {} };
 export const loadProgress = () => {
   Object.assign(progress, { studied: {}, scores: {} }, LS.get(progressKey(), {}));
@@ -45,7 +46,12 @@ export const saveProgress = () => { LS.set(progressKey(), progress); document.di
 export const resume = () => LS.get("resume", {});
 export const saveResume = (rec) => { const r = resume(); r[BOOK().id] = Object.assign(isObj(r[BOOK().id]) ? r[BOOK().id] : {}, rec); LS.set("resume", r); };
 // studied count of another book (its progress key), shown on the shelf when that book has never saved a total
-export const studiedIn = (id) => { const s = LS.get(id === "n2" ? "progress" : `progress.${id}`, {}).studied; return isObj(s) ? Object.values(s).filter(Boolean).length : 0; };
+export const studiedIn = (id) => { const s = LS.get(progressKey(id), {}).studied; return isObj(s) ? Object.values(s).filter(Boolean).length : 0; };
+
+// studied / total of a list of progress.studied keys
+export const tally = (keys) => ({ done: keys.filter((k) => progress.studied[k]).length, total: keys.length });
+// a Quartet grammar note's progress.studied key: lesson 7, note 12 → "n7-12" (note numbers restart in every lesson)
+export const noteKey = (lesson, no) => `n${lesson}-${no}`;
 
 // ---------- helpers ----------
 export const $ = (s, r = document) => r.querySelector(s);
@@ -55,6 +61,10 @@ export const LETTERS = "abcdefghijklmnop";
 export const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 export const WIDE = "(min-width: 901px)"; // desktop layout; the sidebar is a drawer below it
 export const isWide = () => matchMedia(WIDE).matches;
+// an element's text without readings, English and EN buttons (labels of saved places)
+export const elText = (el) => { if (!el) return ""; const c = el.cloneNode(true); c.querySelectorAll("rt, .sr-only, .en, .en-btn").forEach((x) => x.remove()); return c.textContent.replace(/\s+/g, " ").trim(); };
+// the section the reader is in: the last element matching sel whose top is in the upper third of the view
+export const sectionAt = (sel) => $$(sel, $("#main")).filter((el) => el.getBoundingClientRect().top <= innerHeight / 3).pop() || null;
 // 縦書き texts (TRY sample.vertical, Quartet vertical readings): vertical at ≥901 px, or when the reader chose 縦
 export const verticalOn = () => settings.vertical === "v" || (settings.vertical !== "h" && isWide());
 // the view height for sizing text boxes: iOS browsers change innerHeight (and fire resize) while scrolling, as their

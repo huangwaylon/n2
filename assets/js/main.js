@@ -2,10 +2,10 @@
 // Each book's page (index.html = N2, n1/, q1/, q2/) loads assets/js/boot.js and data/<book>/book.js first. What differs
 // per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below for the TRY books, assets/js/q2/nav.js for
 // Quartet I and II (book kind "quartet", loaded only on their pages).
-import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, settings, studiedIn, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, elText, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, sectionAt, settings, studiedIn, tally, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
-import { chapterView, setVertical, vtScrollInit } from "./content.js";
+import { chapterView, rebuildVertical, vtScrollInit } from "./content.js";
 import { fitOptionCols } from "./exercises.js";
 import { aboutView, canDoView, compareView, drillView, guideView, homeView, indexView, notFound } from "./pages.js";
 import { filterVocab, vocabView } from "./vocab.js";
@@ -28,7 +28,7 @@ function need(h) {
 const bookHref = (o, h = "") => new URL(o.dir, SITE).pathname + (h ? `#/${h}` : "");
 // the four books: code, name, what it is; progress and "continue" from n2.resume (the current book: live counts)
 function bookCard(o, cls) {
-  const cur = o.id === BOOK().id, r = resume()[o.id] || {}, st = cur ? stats() : r;
+  const cur = o.id === BOOK().id, r = resume()[o.id] || {}, st = cur ? A.stats() : r;
   const done = st.total ? st.done : studiedIn(o.id), total = st.total;
   const prog = total ? `<span class="bk-prog"><span class="bar"><span style="width:${(100 * done) / total}%"></span></span><span>${done} / ${total}</span></span>` : "";
   const go = r.h ? `<span class="bk-go">続きから <span class="en-inline">Continue</span> <b>${esc(r.t || r.h)}</b></span>`
@@ -82,34 +82,18 @@ function shellHtml() {
 }
 
 // ---------- progress and "continue" (n2.resume) ----------
-let Q = null; // the Quartet module (q2/nav.js), for its notes
-// studied / total: TRY grammar points; Quartet grammar notes (keys n<lesson>-<no>, as q2/nav.js counts them)
-function stats() {
-  if (!TRY.book || (Q && !TRY.lessons.length) || (!Q && !TRY.chapters.length)) return {};
-  const keys = Q ? Q.allNotes().map((x) => `n${x.l.id}-${x.b.no}`) : allPoints().map((x) => x.g.no);
-  return { done: keys.filter((k) => progress.studied[k]).length, total: keys.length };
-}
-const txt = (el) => { if (!el) return ""; const c = el.cloneNode(true); c.querySelectorAll("rt, .sr-only, .en, .en-btn").forEach((x) => x.remove()); return c.textContent.replace(/\s+/g, " ").trim(); };
-// the section the reader is in: the last grammar point / note / strategy / review whose top is in the upper third
-const ANCHORS = '[id^="gp-"], [id^="gn-"], [id^="st-"], [id^="review-"]';
-function place(main) {
-  const lim = innerHeight / 3;
-  return $$(ANCHORS, main).filter((el) => el.getBoundingClientRect().top <= lim).pop() || null;
-}
+// the book's studied / total (A.stats) and the place read (A.placeAt: [route, the section read], null on pages that are
+// not places to come back to)
 function trackResume() {
   const main = $("#main"), h = main.dataset.view;
   if (h == null) return;
-  const rec = stats();
-  // chapters, lessons, units and vocabulary lists are places to come back to; home and the other pages are not
-  if (main.dataset.ch || /^vocab\/\d/.test(h)) {
-    const a = place(main), ch = main.dataset.ch, id = a ? a.id : "", n = id.replace(/^\w+-/, "");
-    rec.h = /^gp-/.test(id) ? `gp/${n}` : /^review-/.test(id) ? `ch/${n}/review` : /^gn-/.test(id) ? `gn/${ch}-${n}` : /^st-/.test(id) ? `st/${n}`
-      : /^gp\//.test(h) ? `ch/${ch}` : h;
-    const pre = A.docTitle(main).split(" – "), h1 = txt($("h1 .ja", main) || $("h1", main));
+  const rec = A.stats(), at = A.placeAt(h, main.dataset.ch);
+  if (at) {
+    const pre = A.docTitle(main).split(" – "), h1 = elText($("h1 .ja", main) || $("h1", main));
     let t = pre.length > 1 ? pre[0] : h1;
     if (h1 && !t.includes(h1)) t += " · " + h1;
-    if (a) t += /^review-/.test(id) ? " · まとめの問題" : ` · ${n} ${txt($("h3", a))}`;
-    rec.t = t;
+    rec.h = at[0];
+    rec.t = at[1] ? `${t} · ${at[1]}` : t;
   }
   saveResume(rec);
 }
@@ -158,16 +142,26 @@ const docTitle = (main) => {
   return (ch ? `${ch.id}. ${plain(ch.title.ja)} – ` : "") + `TRY! ${BOOK().level} 文法 Interactive`;
 };
 const needs = (h) => (/^vocab/.test(h) ? TRY.chapterFiles("vocab/") : []);
-const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab, needs };
+const stats = () => (TRY.chapters.length ? tally(allPoints().map((x) => x.g.no)) : {});
+// chapters and vocabulary lists are places to come back to: the grammar point or review read, else the route
+function placeAt(h, ch) {
+  if (!ch && !/^vocab\/\d/.test(h)) return null;
+  const a = sectionAt('[id^="gp-"], [id^="review-"]'), n = a && a.id.replace(/^\w+-/, "");
+  if (!a) return [/^gp\//.test(h) ? `ch/${ch}` : h, ""];
+  return /^review-/.test(a.id) ? [`ch/${n}/review`, "まとめの問題"] : [`gp/${n}`, `${n} ${elText($("h3", a))}`];
+}
+// 縦/横 changed: the vertical 見本文 are rebuilt in place (no re-render needed)
+const TRY_BOOK = { pages: TRY_PAGES, sidebar, updateProgress: updateSidebarProgress, target, viewHtml, docTitle, layout: filterVocab, needs, stats, placeAt,
+  applyVertical: rebuildVertical };
 let A = TRY_BOOK;
 
 // ---------- router ----------
 const hashRoute = () => location.hash.replace(/^#\/?/, "");
 const markActive = (h) => {
   const p0 = h.split("/")[0], links = $$(".sb-list a");
-  // a Quartet note or strategy (gn/8-3, st/11) has no row of its own: its section's row is marked (the section tab on the page)
+  // a route without a row of its own (Quartet gn/8-3, st/11): the adapter names the row to mark
   let cur = "#/" + h;
-  if (!links.some((a) => a.getAttribute("href") === cur)) { const tab = $("#main .sk-tabs a[aria-current]"); if (tab) cur = tab.getAttribute("href"); }
+  if (!links.some((a) => a.getAttribute("href") === cur) && A.activeRow) cur = A.activeRow() || cur;
   links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === cur));
   $$(".sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
 };
@@ -183,7 +177,9 @@ function route(force, rec) {
   const loading = need(h);
   if (loading) return loading.then((failed) => { route(true, rec); showErrors(failed); });
   if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
-    const html = A.viewHtml(h, t);
+    let html;
+    // a view that throws (a data error) shows the error instead of leaving the old page up
+    try { html = A.viewHtml(h, t); } catch (err) { console.error(err); html = `<p class="err">${esc(err && err.message || err)}</p>`; }
     main.innerHTML = (h ? "" : shelfHtml()) + (html || notFound());
     layout(main);
     main.dataset.view = h;
@@ -312,12 +308,19 @@ ACT["reset-progress"] = () => {
 
 // the drills redraw themselves after every card or option change (flash.js)
 document.addEventListener("try:rerender", () => rerender());
-// 縦/横 changed where a view must be re-rendered (Quartet readings, blocks.js ACT.q2vmode; the ⚙ select on such a page).
-// detail: the clicked switch, or { late: true } when a tablet was turned
-document.addEventListener("try:setting-vertical", (e) => {
-  const d = e.detail, back = (d && d.late && snap) || keepPlace(d instanceof Element ? d : null);
-  saveSettings(); applySettings(); rerender(); back(d && d.late);
-});
+// 縦/横 for the vertical texts (⚙ select, the switch on a text): A.applyVertical() → true when the view must be re-rendered
+// (Quartet readings); TRY rebuilds its 見本文 in place. back: puts the place read back
+function setVertical(mode, back) {
+  settings.vertical = mode;
+  saveSettings(); applySettings();
+  if (A.applyVertical()) rerender(); else queueFit(true);
+  back();
+}
+// pressing the mode that "auto" already gives keeps auto; otherwise the choice is pinned
+const vmodeOf = (t) => ((t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v);
+ACT.vmode = (t) => setVertical(vmodeOf(t), keepPlace(t));
+// Quartet's switch (blocks.js ACT.q2vmode) sets settings.vertical, then sends this event with the clicked switch
+document.addEventListener("try:setting-vertical", (e) => setVertical(settings.vertical, keepPlace(e.detail)));
 function wireEvents() {
   document.addEventListener("click", (e) => {
     // close the ⚙ / book popovers on any click outside them
@@ -350,11 +353,7 @@ function wireEvents() {
     else if (t.id === "tg-furi") { setSetting("furigana", t.checked); queueFit(true); }
     else if (t.id === "tg-en") setEnglish(t.checked);
     else if (t.id === "theme-set") setSetting("theme", t.value);
-    else if (t.id === "vmode-set") {
-      const back = keepPlace();
-      setVertical(t.value);
-      if ($("#main .rd--tate")) document.dispatchEvent(new Event("try:setting-vertical")); else { queueFit(true); back(); }
-    }
+    else if (t.id === "vmode-set") setVertical(t.value, keepPlace());
   });
   document.addEventListener("input", (e) => {
     if (e.target.id === "rate") setSetting("rate", +e.target.value);
@@ -394,17 +393,18 @@ function wireEvents() {
   document.addEventListener("visibilitychange", () => { if (document.hidden && !left) savePlace(); });
   // back to the page from another book: restored from the page cache without its scroll (restoration is manual)
   addEventListener("pageshow", (e) => { left = false; if (e.persisted) placeAgain(hashRoute(), places()[entry]); });
-  // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
-  // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
-  matchMedia(WIDE).addEventListener("change", (m) => {
+  // crossing 901px (a tablet turned): the drawer closes (it must not leave the page scroll-locked), and in auto mode the
+  // vertical texts switch 縦/横. The resize pass above puts back the place read before the turn; a re-rendered view
+  // once more after it (back(true))
+  matchMedia(WIDE).addEventListener("change", () => {
     setDrawer(false, false);
     applySettings();
-    if (settings.vertical === "auto" && $("#main .rd--tate")) document.dispatchEvent(new CustomEvent("try:setting-vertical", { detail: { late: true } }));
+    if (settings.vertical === "auto" && A.applyVertical()) { const back = snap || keepPlace(); rerender(); back(true); }
   });
 }
 
 async function init() {
-  if (BOOK().kind === "quartet") { Q = await import("./q2/nav.js"); A = Q.QUARTET; }
+  if (BOOK().kind === "quartet") A = (await import("./q2/nav.js")).QUARTET;
   // a list page opened directly: its files load alongside the book's data
   need(hashRoute());
   document.body.dataset.book = BOOK().id;

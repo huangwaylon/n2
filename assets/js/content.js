@@ -1,5 +1,5 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
-import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace, verticalOn, viewH } from "./core.js";
+import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, verticalOn, viewH } from "./core.js";
 import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, miniToc, otherBooksHtml, pager, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
@@ -355,10 +355,8 @@ function sampleHtml(s, chId, pi) {
       ${body}
     </section>`;
 }
-// 縦/横: persist the mode, then rebuild every vertical 見本文 on the page in place
-export function setVertical(mode) {
-  settings.vertical = mode;
-  saveSettings();
+// 縦/横 changed (main.js setVertical): every vertical 見本文 on the page is rebuilt in place
+export function rebuildVertical() {
   $$(".sample--vertical").forEach((sec) => {
     const ch = findChapter(+sec.dataset.ch), pi = +sec.dataset.pi, p = ch && ch.parts[pi];
     if (!p) return;
@@ -366,11 +364,8 @@ export function setVertical(mode) {
     sec.outerHTML = sampleHtml(p.sample, ch.id, pi);
     if (enAll) $(`.sample--vertical[data-ch="${ch.id}"][data-pi="${pi}"]`).classList.add("en-all");
   });
-  const sel = $("#vmode-set"); if (sel) sel.value = settings.vertical;
   vtScrollInit();
 }
-// pressing the mode that "auto" already gives keeps auto; otherwise pin the choice
-ACT.vmode = (t) => { const back = keepPlace(t); setVertical((t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v); back(); };
 // vertical scrollers: a text only a little wider than the frame gets taller columns instead of a sideways scroll (up to
 // 80vh / 44em: the last columns were hidden behind the scroll fade, N1 ch4 (2)); the fade shows while more is hidden
 export function vtScrollInit(refit) {
@@ -390,6 +385,3 @@ export function vtScrollInit(refit) {
     upd();
   });
 }
-// auto mode follows the width; the place read before the turn is restored by the resize pass (main.js: by the time the
-// media query changes the page is already laid out at the new width, and a place taken now is the wrong one)
-matchMedia(WIDE).addEventListener("change", () => { if (settings.vertical === "auto" && $(".sample--vertical")) setVertical("auto"); });
