@@ -308,6 +308,8 @@ a.ref:hover u { background: var(--q-soft); }
 /* the step mark at the label's size, a space before the label (p.023 ❶ 話しかける) */
 .flow__l .step { font-size: 1em; vertical-align: 0; padding-right: .3em; }
 .flow__t .ja { font-family: var(--mincho); margin: 0; }
+/* 練習しよう: the pattern summary prints its marks at text size too (p.024 ❶ 話しかける → ❷ …); the dialogue below keeps them small */
+.qbox--blue .step { font-size: 1em; vertical-align: 0; padding-right: .2em; }
 @media (max-width: 600px) { .flow__s { max-width: 92%; } .flow__steps { padding: 8px; background: none; } }
 /* phones: the printed line breaks in a bubble (p.161) no longer fit the narrower bubble and leave one-kana lines ("…○○さん／は") */
 @media (max-width: 600px) { .flow__t br { display: none; } .flow__head { gap: 6px; font-size: 13px; } .flow__head > span { padding: 5px 8px; } }
