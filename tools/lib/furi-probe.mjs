@@ -78,8 +78,14 @@ export const PROBE_FN = String(function probe(opts) {
     const fs = parseFloat(getComputedStyle(bl).fontSize);
     const ys = [...new Set(gs.filter((g) => Math.abs(g.f - fs) < 0.5).map((g) => Math.round((g.box.t + g.box.b) / 2)))].sort((a, b) => a - b);
     const cl = []; for (const y of ys) if (!cl.length || y - cl[cl.length - 1] > fs * 0.6) cl.push(y);
-    if (cl.length < 3) continue;
-    const d = cl.slice(1).map((y, i) => y - cl[i]);
+    // a line between two text lines that holds none of the block's text (only 14px English in a 単語 box, q1:l/1/speak;
+    // only answer slots in an ordering item, n1:ch/1) is not a pitch: the two lines around it are not compared
+    const others = glyphs.filter((g) => !g.rt && bl.contains(g.n) && Math.abs(g.f - fs) >= 0.5).map((g) => g.box)
+      .concat(Array.from(bl.querySelectorAll("button, input, select, img, .blank")).filter(vis).map((el) => el.getBoundingClientRect()));
+    const between = (a, b) => others.some((o) => o.top !== undefined
+      ? o.top > a + fs / 2 && o.bottom < b - fs / 2 : o.t > a + fs / 2 && o.b < b - fs / 2);
+    const d = []; for (let i = 1; i < cl.length; i++) if (!between(cl[i - 1], cl[i])) d.push(cl[i] - cl[i - 1]);
+    if (d.length < 2) continue;
     if (Math.max(...d) - Math.min(...d) > 2) out.uneven.push({ at: ctx(bl.querySelector("rt") || bl), pitch: d });
   }
   return out;
