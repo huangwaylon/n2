@@ -1,7 +1,7 @@
 # Quartet II transcription guide (`Quartet II - Textbook - 1st Edition.pdf`)
 
 Data format: `data/Q2-SCHEMA.md`. The conventions and tools here apply to Quartet I too (`docs/Q1-TRANSCRIPTION.md` has
-its page map). The PDF is the source of truth; never guess, never "fix" the book.
+its page map).
 
 ## Source
 
@@ -58,10 +58,9 @@ its page map). The PDF is the source of truth; never guess, never "fix" the book
 - Furigana: exactly the book's readings on exactly those kanji (read the strips). A reading over a word including
   kana is split per kanji run: `{受|う}け{入|い}れる`.
 - `**bold**` where the book prints bold: targets in note examples, key phrases in model conversations, interviewer lines.
-- `en` = the book's English verbatim, spelling and typos included (report a typo, don't fix it). Glyph gaps are not
+- `en` (Q2-SCHEMA.md "Text and English") keeps spelling and typos (report a typo, don't fix it). Glyph gaps are not
   spacing: the book sets Japanese in its English in full-width boxes, so type no space between a Japanese word and a
   half-width `.` `,` `)` or `(` (`the particle が.`, `(e.g., 季節, 状況)`); keep spaces between words (`N によって X`).
-- `tr` = our translation (`docs/ENGLISH.md`), on every Japanese sentence without book English.
 - Illustrations are not reproduced; a picture needed for a task gets a `figure` (`desc` ours, `labels` the printed
   Japanese); a graph with printed values becomes a `chart` with every value.
 - Voices `v` from the character (メイリン f, サラ f, ジョージ m, 絵理 f …), consistent within a lesson; unnamed

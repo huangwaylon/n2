@@ -1,8 +1,7 @@
 # Quartet I transcription guide (`Quartet1.pdf`)
 
 Data format: `data/Q2-SCHEMA.md`; conventions, checks and the fragment workflow: `docs/Q2-TRANSCRIPTION.md` (they apply
-unchanged; merge tools take `q1` as the first argument). This file is the Quartet I page map. The PDF is the source of
-truth.
+unchanged; merge tools take `q1` as the first argument). This file is the Quartet I page map.
 
 ## Source
 
@@ -17,8 +16,7 @@ truth.
 
 ## Lessons (book pages)
 
-Notes are numbered per lesson (55 in all, 40 with ★). As in Quartet II a 縦書き reading over two pages starts on the
-right-hand page ("037→036").
+Notes are numbered per lesson (55 in all, 40 with ★).
 
 | L | opener | 読む | 読み物1 | 読み物2 | strategies | ノート | 書く | 会話1 | 会話2 | 聴解1 / 2 |
 |---|---|---|---|---|---|---|---|---|---|---|

@@ -1,7 +1,7 @@
 # N1 transcription guide (TRY! N1, `n1.pdf`, Chinese edition)
 
 N1 uses `data/SCHEMA.md` unchanged (format, markup, transcription rules). This file holds the N1 page map and the
-conventions specific to N1. The PDF is the source of truth; zoom in, never guess.
+conventions specific to N1.
 
 ## Source
 
@@ -28,9 +28,7 @@ Point ranges and parts are also in `tools/lib/books.js` (`TOC`, `PARTS`), which 
 
 ## English and Chinese
 
-The book's Chinese is not reproduced (no `zh` fields, no Chinese anywhere); it may be read only to cross-check the
-meaning of the Japanese. Every `en` is ours, translated from the Japanese: usage, notes, Plus usage, can-do, genre/title,
-examples, sample lines, exercises, scripts, `questionEn`, front matter. Style: `docs/ENGLISH.md`. `deepDive` is
+Every `en` is ours, translated from the Japanese (the Chinese only cross-checks meaning; CLAUDE.md). `deepDive` is
 required on every point; `#NN` references point to N1 points 1–123 (checked by `tools/xref.js n1`).
 
 ## Conventions
