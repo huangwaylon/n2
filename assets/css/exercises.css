@@ -33,6 +33,7 @@
 .qn { flex: none; min-width: 2.2em; font: 15px/2.25 var(--goth); color: var(--ink); text-align: left; }
 .qn:empty { display: none; }
 .qn.qn--paren { line-height: 2.25; }
+.q-line > .qn.qn--paren { font-family: var(--mincho); } /* "1）" in the sentences' Mincho (pp.19, 20, 26) */
 .qn.qn--box { margin-top: .55em; margin-right: .6em; }
 .pq-row > .qn.qn--box, .lq-row > .qn.qn--box { margin-top: .5em; }
 .ex--review .q-line { column-gap: 0; }
@@ -49,7 +50,9 @@
 .opts--inline { display: inline; }
 .opt--inl { display: inline; border: 0; border-radius: 4px; padding: .8em .1em; margin: 0; background: none; background-clip: content-box; cursor: pointer; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .opt--inl:focus-visible { outline: 2px solid var(--teal); outline-offset: -.6em; }
-.opt--inl .opt-n { font-size: .9em; margin-right: .15em; }
+/* "（a．ばかりでなく　b．に対して…）": the letters in the sentence's regular Mincho, a space after the dot and a
+   full-width space between options (pp.20, 132) */
+.opt--inl .opt-n { font: inherit; margin-right: .3em; }
 /* a short option never breaks inside itself (a.ま／ま at 320); longer ones may wrap */
 .opt--nw { white-space: nowrap; }
 /* a one-kana option ("a.で") is under 44px wide: a centred 44px ::after widens its hit area without moving the text */
@@ -59,7 +62,7 @@
 .opt--inl.picked { background-color: var(--teal-soft); text-decoration: underline 2px var(--teal); text-underline-offset: .2em; }
 .opt--inl.right { background-color: var(--ok-soft); text-decoration: underline 2px var(--ok); text-underline-offset: .2em; }
 .opt--inl.wrong { background-color: var(--ng-soft); text-decoration: line-through 1px var(--ng); }
-.opt-sep { font-size: .7em; }
+.opt-sep { font-size: 1em; }
 
 /* C24 option grid "1 opt   2 opt   3 opt   4 opt" (4 / 2 / 1 columns by length, set by JS) */
 .opts--grid { --cols: 4; display: grid; grid-template-columns: repeat(var(--cols), minmax(0, 1fr)); gap: .15em 1em; margin: .25em 0 0 2.2em; }
@@ -92,7 +95,7 @@
 .match__gap { grid-column: 2; justify-self: center; margin-top: .6em; min-width: 1.7em; height: 1.7em; border-radius: 50%; display: grid; place-items: center; font: 700 14px/1 var(--goth); color: var(--teal); }
 .match__gap:not(:empty) { border: 1.5px solid var(--teal); }
 .match__r { grid-column: 3; display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: start; padding: 7px 0; font-size: 17px; line-height: 2.0; }
-.match__r .opt-n { font-weight: 400; font-family: var(--goth); font-size: 15px; line-height: 2.25; padding-right: .3em; }
+.match__r .opt-n { font-weight: 400; font-family: var(--mincho); font-size: 15px; line-height: 2.25; padding-right: .3em; } /* "a）" in Mincho, as printed (p.19) */
 .match__rt { min-width: 0; overflow-wrap: anywhere; }
 .match__dot { padding: 0 .3em; font-family: var(--goth); line-height: 2.1; color: var(--ink); }
 .match-q .q-line { grid-template-columns: auto minmax(0, 1fr) auto; }
@@ -108,7 +111,7 @@
 @media (max-width: 700px) {
   .match__ref { display: block; list-style: none; margin: 4px 0 10px; padding: .5em 1em; border: 1px solid var(--ink-2); font-size: 16px; }
   .match__ref li { display: grid; grid-template-columns: auto minmax(0, 1fr); padding: 2px 0; }
-  .match__ref .opt-n { font: 15px/2.1 var(--goth); padding-right: .3em; }
+  .match__ref .opt-n { font: 15px/2.1 var(--mincho); padding-right: .3em; }
   .match__row { display: block; }
   .match__r, .match__gap, .match__dot { display: none; }
   .match__row:empty, .match__row > div:empty { display: none; }
