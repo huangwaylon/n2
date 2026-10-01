@@ -483,11 +483,12 @@ a.ref:hover u { background: var(--q-soft); }
 .vl-sub { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font: 700 16px/1.5 var(--goth); margin: 18px 0 8px; }
 .vl-tools { margin-left: auto; }
 .tw { list-style: none; padding: 0; margin: 0; }
-.tw__i { display: grid; grid-template-columns: 2.4em minmax(7em, 12em) 1fr auto; gap: 0 10px; align-items: start; padding: 4px 0; border-bottom: 1px dashed var(--line); line-height: 2; }
+.tw__i { display: grid; grid-template-columns: 2.4em minmax(7em, 12em) 1fr auto; gap: 0 10px; align-items: start; padding: 4px 0; line-height: 2; }  /* no rules between rows (別冊 p.004) */
 .tw__n { font: 700 14px/2.1 var(--goth); text-align: right; }
 .tw__w { font-family: var(--mincho); }
 .tw__ex { min-width: 0; font-family: var(--mincho); }
-@media (max-width: 600px) { .tw__i { grid-template-columns: 2em 1fr auto; } .tw__ex { grid-column: 2 / 4; } }
+/* phones: the sentence goes under its word, so a dashed rule keeps the entries apart */
+@media (max-width: 600px) { .tw__i { grid-template-columns: 2em 1fr auto; border-bottom: 1px dashed var(--line); } .tw__ex { grid-column: 2 / 4; } }
 .kj-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 12px; }
 .kj-sec { grid-column: 1 / -1; margin: 12px 0 0; font: 700 15px/1 var(--goth); color: var(--panel); background: var(--ink-2); padding: 7px 12px; width: fit-content; border-radius: 0 8px 8px 0; }
 .kj { display: grid; grid-template-columns: 92px 1fr; grid-template-areas: "big m" "big r" "w w" "s s"; gap: 4px 12px; border: 1.5px solid var(--ink-2); padding: 10px 12px; background: var(--panel); }
