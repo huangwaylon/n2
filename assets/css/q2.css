@@ -196,6 +196,9 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--sheet > .qbox__title { justify-content: center; }
 .qtbl.qtbl--bare { min-width: 0; } .qtbl.qtbl--bare :is(th, td) { border: 0; background: none; padding: 2px 10px; }
 .qtbl.qtbl--bare th { font-size: 1.1em; }
+/* a pattern summary in a blue box: role labels in a column, the steps beside them (Q2 p.194); phones stack them */
+.qbox--blue .qtbl--bare td:first-child { white-space: nowrap; padding-left: 0; }
+@media (max-width: 600px) { .qbox--blue .qtbl--bare :is(tr, td) { display: block; } .qbox--blue .qtbl--bare td { padding: 0; } .qbox--blue .qtbl--bare td + td { padding: 0 0 .5em 1em; } }
 /* memo: a ruled writing table, rules across only, each row a tall space to write in under its label (Q2 p.190) */
 .qtbl.qtbl--memo :is(th, td) { border-inline: 0; } .qtbl.qtbl--memo th { font-weight: 400; } .qtbl.qtbl--memo { border-block: 1.5px solid var(--ink-3); }
 .qtbl.qtbl--memo td { height: 6em; vertical-align: top; border-color: var(--ink-3); }

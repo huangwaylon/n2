@@ -4111,11 +4111,44 @@ TRY.registerLesson({
      "style": "blue",
      "blocks": [
       {
-       "t": "p",
-       "text": {
-        "ja": "賛成側【意見のスピーチ】　❶ 立場を述べる ➔ ❷ 理由を2つ述べる ➔ ❸ 主張を述べる\n反対側【反論の質問】　❹ 相手の言葉を{引用|いんよう}し (quote)、反論する ➔ ❺ 例や理由を挙げる\n賛成側【反論の質問への答え】　❻ 一部を認め (admit)、反論に反論する ➔ ❼ まとめる",
-        "tr": "For side [opinion speech]: 1 State your position → 2 Give two reasons → 3 State your claim\nAgainst side [rebuttal question]: 4 Quote the other side's words and argue against them → 5 Give examples or reasons\nFor side [answer to the rebuttal question]: 6 Concede part of the point and counter the rebuttal → 7 Sum up"
-       }
+       "t": "table",
+       "bare": true,
+       "cols": [
+        "auto",
+        "1fr"
+       ],
+       "rows": [
+        [
+         {
+          "ja": "賛成側【意見のスピーチ】",
+          "tr": "For side [opinion speech]"
+         },
+         {
+          "ja": "❶ 立場を述べる ➔ ❷ 理由を2つ述べる ➔ ❸ 主張を述べる",
+          "tr": "1 State your position → 2 Give two reasons → 3 State your claim"
+         }
+        ],
+        [
+         {
+          "ja": "反対側【反論の質問】",
+          "tr": "Against side [rebuttal question]"
+         },
+         {
+          "ja": "❹ 相手の言葉を{引用|いんよう}し (quote)、反論する ➔ ❺ 例や理由を挙げる",
+          "tr": "4 Quote the other side's words and argue against them → 5 Give examples or reasons"
+         }
+        ],
+        [
+         {
+          "ja": "賛成側【反論の質問への答え】",
+          "tr": "For side [answer to the rebuttal question]"
+         },
+         {
+          "ja": "❻ 一部を認め (admit)、反論に反論する ➔ ❼ まとめる",
+          "tr": "6 Concede part of the point and counter the rebuttal → 7 Sum up"
+         }
+        ]
+       ]
       }
      ]
     },
