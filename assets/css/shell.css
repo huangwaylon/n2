@@ -21,6 +21,8 @@
 @media (min-width: 740px) { .bs-code { display: none; } .bs-name { display: inline; } .book-switch a { padding: 0 11px; } }
 @media (hover: hover) { .book-switch a:not([aria-current]):hover { background: var(--band); color: var(--ink); text-decoration: none; box-shadow: inset 0 -3px 0 var(--bk); } }
 @media (pointer: coarse) { .book-switch a { min-height: 44px; min-width: 44px; } }
+/* phones and tablets: an opaque bar — a blurred sticky bar is re-painted on every scroll frame in WebKit (iOS jank) */
+@media (pointer: coarse) { .topbar { background: var(--panel); backdrop-filter: none; -webkit-backdrop-filter: none; } }
 /* phones: the brand goes (the book code names the book), and below 430 the four codes do not fit beside ☰ and the
    switches (they ran 29px past a 390 screen): the current book's code opens the book menu instead */
 @media (max-width: 480px) { .brand { display: none; } }
