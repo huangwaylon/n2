@@ -50,6 +50,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 /* ---------- lesson opener ---------- */
 .op-banner { display: flex; align-items: baseline; gap: .15em; color: var(--q); font: 800 34px/1 var(--goth); padding: 18px 0 16px; border-bottom: 2px dotted var(--line); margin-bottom: 18px; }
 .op-n { font-size: 2.6em; line-height: .9; }
+.op-banner rt { font-size: .3em; font-weight: 500; }  /* だい under 第 (Q1 p.001) */
 .op-tools { margin-left: auto; align-self: center; }
 .op-g { padding: 6px 0 18px; border-bottom: 2px dotted var(--line); margin-bottom: 18px; }
 .op-sk { display: flex; align-items: center; gap: 10px; color: var(--ink); padding: 6px 0; min-height: 44px; }
@@ -63,6 +64,7 @@ body.show-en .en-under, .en-all .en-under, .en-open .en-under { display: block; 
 @media (hover: hover) { .op-sk:hover .op-sk__t { color: var(--q); } }
 .op-cando { list-style: none; padding: 4px 0 0 4px; margin: 0; }
 .op-cando li { position: relative; padding-left: 1.6em; font-family: var(--goth); }
+.op-cando li > .bi > .ja { margin: 0; line-height: 2; }  /* one row per printed line, no gap between them (Q2 p.065, Q1 p.001) */
 .op-cando li::before { content: "➤"; position: absolute; left: 0; top: .1em; color: var(--ink-2); }
 .op-more { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 24px; }
 .q-card .cc-body { display: grid; gap: 2px; }

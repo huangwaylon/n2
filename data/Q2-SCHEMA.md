@@ -5,7 +5,7 @@ so the model differs from the TRY books (`data/SCHEMA.md`): a lesson is a list o
 section a list of blocks rendered in book order (`assets/js/q2/blocks.js`). Page numbers below are Quartet II's unless
 marked Q1; page maps and transcription conventions: `docs/Q2-TRANSCRIPTION.md`, `docs/Q1-TRANSCRIPTION.md`. Per-book
 names the renderer shows (`shortTitle`, `titleJa`, `unitKinds`, `accent`) are in each `book.js` (Q1 also `toc`: section
-titles shown for a lesson whose file is missing).
+titles shown for a lesson whose file is missing; `openerRuby`: the readings printed under 第 and 課 on each opener).
 
 ## Files
 

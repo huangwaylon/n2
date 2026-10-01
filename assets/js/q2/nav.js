@@ -131,9 +131,9 @@ function openerView(l) {
   const groups = (l.opener || []).map((g) => `<div class="op-g">
       ${g.skills.map((s) => `<a class="op-sk" href="#/l/${l.id}/${s.skill}">${skillIcon(s.skill)}<span class="op-sk__l">${SKILLS[s.skill][0]}</span><span class="op-sk__t">${fmt(s.title)}</span></a>`).join("")}
       <ul class="op-cando">${(g.canDo || []).map((c) => `<li>${line(c)}</li>`).join("")}</ul></div>`).join("");
-  const units = TRY.units.filter((u) => u.lesson === l.id);
+  const units = TRY.units.filter((u) => u.lesson === l.id), rb = (BOOK().openerRuby || {})[l.id] || [];
   return `<div class="lesson q2" data-en-scope>
-    <header class="op-banner"><span class="op-dai">第</span><span class="op-n">${l.id}</span><span class="op-ka">課</span><span class="op-tools">${enScopeBtn()}</span></header>
+    <header class="op-banner"><span class="op-dai">${fmt(rb[0] ? `{第|${rb[0]}}` : "第")}</span><span class="op-n">${l.id}</span><span class="op-ka">${fmt(rb[1] ? `{課|${rb[1]}}` : "課")}</span><span class="op-tools">${enScopeBtn()}</span></header>
     ${groups}
     <nav class="op-more"><a class="btn" href="#/l/${l.id}/vocab">単語リスト <span class="en-inline">Vocabulary</span></a><a class="btn" href="#/l/${l.id}/kanji">漢字リスト <span class="en-inline">Kanji</span></a>
       ${units.map((u) => `<a class="btn" href="#/u/${u.id}">${unitName(u)} ${circ(u.no)}</a>`).join("")}</nav>

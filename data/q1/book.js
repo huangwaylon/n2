@@ -15,6 +15,8 @@ TRY.registerBook({
   titleJa: "中級日本語カルテット I",
   accent: ["ピンクの", "pink"], // the colour of the book's grammar-note underlines (使い方)
   unitKinds: [["grammar", "初級文法チェック"], ["kanji", "漢字チャレンジ"]],
+  // the readings printed under 第 and 課 on each lesson opener (pp.001, 031: だい, か; pp.067, 099, 133, 169: だい only)
+  openerRuby: { 1: ["だい", "か"], 2: ["だい", "か"], 3: ["だい"], 4: ["だい"], 5: ["だい"], 6: ["だい"] },
   // the section titles of each lesson (もくじ, PDF 10–13; read · write · speak · listen), shown on the home page while
   // the lesson's file is not there yet
   toc: {
