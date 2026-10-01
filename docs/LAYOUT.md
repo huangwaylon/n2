@@ -147,6 +147,7 @@ Inline boxes in running text never enlarge the line box: blanks and inputs are 1
 | `.opt--inl` | vertical padding with `background-clip: content-box`; centred 44px `::after` for one-kana options |
 | `.slot`, `button.blank` | `::after` inset −10px (blank ≥44 tall) |
 | `input.write` | padding cancelled by negative margins; the rule is a content-box background |
+| Quartet bubble `.bb-in` | input its text's height inside `label.bb-w`, whose absolute `::after` is a 44px band across the line (a 44px input made Chrome lift a reading beside it, Q2 p.191) |
 | `.studied` | transparent native checkbox over a 22px drawn box |
 | `.gp-link`, table links | padding; table links inline-block (never inline-flex) so ruby keeps its overhang |
 | `.pager a`, `.bk-card` | ≥56 / ≥60 |

@@ -522,12 +522,15 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 .opts--list > .opt--row { font-weight: 400; font-size: 16px; line-height: 1.9; padding: 3px 14px 7px; text-align: left; }
 /* list: "grid" — two to a row, a. b. over c. d. (Q2 p.131); phones keep one per line */
 @media (min-width: 601px) { .opts--2x2 { display: grid; grid-template-columns: repeat(2, max-content); column-gap: 3em; } }
-/* touch: 44px targets (docs/LAYOUT.md §3.3); the bubble's inputs keep their line height (2.4em) through negative margins */
+/* touch: 44px targets (docs/LAYOUT.md §3.3); a bubble's input keeps its height and its label carries a 44px band across the
+   line (a 44px input, even with negative margins, made Chrome lift a reading beside it: the line 5px taller, Q2 p.191) */
 @media (pointer: coarse) {
   .opt--tf, .opt--row { min-height: 44px; }
   .ans summary { min-height: 44px; }
   .unit-h__l { padding-block: 15px; margin-block: -9px -15px; }
-  .bb-in { height: 44px; margin-block: calc((2.4em - 44px) / 2); }
+  .bb-w { position: relative; }
+  .bb-w::after { content: ""; position: absolute; inset-inline: 0; inset-block: calc((100% - 44px) / 2); }
+  .bb-in { position: relative; z-index: 1; }
   /* numbered underlines in running text: a 44px band across the line (block axis, so 縦書き too), no line growth */
   a.ref::after { content: ""; position: absolute; inset-inline: min(0px, calc((100% - 45px) / 2)); inset-block: calc((100% - 45px) / 2); }
   .compose__l { padding-block: 11px; margin-block: -11px -7px; }

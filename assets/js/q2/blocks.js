@@ -224,7 +224,9 @@ const B = {
     const id = `${ctx.id || "q"}-bb${seq(ctx)}`;
     return `<div class="bubbles" data-ex="${id}">${(b.items || []).map((it, i) => {
       let k = 0;
-      const body = fmt(jaOf(it.text)).replace(/<span class="blank">[^<]*<\/span>/g, () => `<input class="bb-in" type="text" data-k="${k++}" aria-label="空欄${k}" autocomplete="off" autocapitalize="off" spellcheck="false">`);
+      // the label carries the 44px touch band (q2.css), so the input stays its text's height and a reading beside it
+      // does not push the line taller
+      const body = fmt(jaOf(it.text)).replace(/<span class="blank">[^<]*<\/span>/g, () => `<label class="bb-w"><input class="bb-in" type="text" data-k="${k++}" aria-label="空欄${k}" autocomplete="off" autocapitalize="off" spellcheck="false"></label>`);
       return `<div class="bubble" data-i="${i}" data-answer="${esc(JSON.stringify(it.answer || []))}">
         ${it.label ? `<p class="bubble__l">${inl(it.label)}</p>` : ""}${bubbleTurns(body, it.turns, b.alt)}${it.text && it.text.tr ? en(it.text.tr, "gen") : ""}
         <p class="bubble__ans" hidden>${(it.answer || []).map((a) => `<span>${fmt(a)}</span>`).join(" ／ ")}${it.choice ? `　｛${fmt(it.choice)}｝` : ""}</p></div>`;

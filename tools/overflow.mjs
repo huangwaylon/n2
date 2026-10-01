@@ -10,7 +10,8 @@
 //                    counted even when the frame hides the overflow
 //   --en     turn on the global English layer first (English lines are longer)
 //   --touch  emulate a touch screen (pointer:coarse) and report visible tap targets smaller than 44×44
-//            (box, widened by an absolute ::after). Widths < 700 are always emulated as touch phones.
+//            (box, widened by an absolute ::after; a control inside a <label> counts as the label). Widths < 700 are
+//            always emulated as touch phones.
 //   --nofuri furigana off (the site default; otherwise the tools turn furigana on)
 //   --furi   also run the furigana probe (tools/lib/furi-probe.mjs: readings off-centre, covering text/boxes, clipped,
 //            uneven line pitch) -> "furi": {n, off, hit, clip, uneven}. Same probe in real iOS Safari: tools/lib/wkshot.mjs --probe
@@ -43,10 +44,13 @@ const PROBE = `(() => {
   if (${flags.includes("--touch")}) {
     const small = [];
     document.querySelectorAll("button, a, summary, label, input, select, [data-act]").forEach(el => {
-      const r = el.getBoundingClientRect();
+      let r = el.getBoundingClientRect();
       if (!r.width || !r.height || r.right <= 0 || r.left >= vw || getComputedStyle(el).visibility === "hidden") return; // skip closed drawer
       if (r.width <= 1 && r.height <= 1) return;   // visually hidden control (its <label> is the target)
       const d = el.closest("details:not([open])"); if (d && !el.closest("summary")) return;   // collapsed <details> content
+      // a control inside a label is tapped through the label: the label's box and band count (Quartet bubble inputs)
+      const lb = el.closest("label");
+      if (lb && lb !== el) { const lr = lb.getBoundingClientRect(); if (lr.width && lr.height) { el = lb; r = lr; } }
       let w = r.width, h = r.height;
       const a = getComputedStyle(el, "::after");
       if (a.content !== "none" && a.position === "absolute") { w = Math.max(w, parseFloat(a.width) || 0); h = Math.max(h, parseFloat(a.height) || 0); }
