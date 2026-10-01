@@ -158,8 +158,10 @@ function fillBody(ex, c) {
       const n = paired ? 1 : ++k;
       return `<button class="blank" data-act="blank" data-answer="${ex.bank.indexOf(answers[paired ? 0 : n - 1])}" aria-label="空欄${nBlanks > 1 && !paired ? n : ""}"></button>`;
     });
+    // the book sets a blank apart from the words around it, but punctuation follows it closely ("経験　＿＿、広く", p.26)
+    const qp = q.replace(/(<(?:button|span) class="blank[^"]*)("[^>]*><\/(?:button|span)>)(?=[、。，」』）！？])/g, "$1 blank--p$2");
     (paired ? it.answer.split("・") : answers).forEach((a) => (full = full.replace("＿＿", "**" + a + "**")));
-    return `<div class="q fill-q" data-i="${i}"><div class="q-line">${qnHtml(c.off + i + 1, c.num)}<div class="q-text ja-book">${q}</div></div>
+    return `<div class="q fill-q" data-i="${i}"><div class="q-line">${qnHtml(c.off + i + 1, c.num)}<div class="q-text ja-book">${qp}</div></div>
           ${feedback(it, `<p class="full ja-book">${fmt(full)}</p>`)}</div>`;
   }).join("");
   return items + bank;
