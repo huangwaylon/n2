@@ -90,6 +90,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 { t: "list", mark: "・", items: [ Text | { text, blocks } ] }        // mark as printed (・ • ▸ ▶ ■ □ ＊)
 { t: "qs", items: [ { n: "1.", text, words: ["友達"], blocks, answer } ] }
 //   n as printed ("1." "(1)" "①" "1）"); words = the [ … ] box under a question; answer = the printed answer (behind 解答)
+//   style: "memo" — prompts on a ruled memo with room to write (「下にメモしなさい」, Q1 pp.024, 090)
 { t: "box", style, title, icon, ref, blocks }
 //   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095)
 //   · task (✎, ref "（読み物2：行13〜15）") · strategy · challenge
@@ -145,6 +146,8 @@ blanks ①（　） as printed.
 { t: "roles", style, cards: [ { tag: "A", who: "あなた", text }, { tag: "B", who: "Aの友達", text } ] }
 { t: "flow", head: [Text, Text], steps: [ { side: "a", n: 1, label: "話しかける", text: "…" }, { side: "b", text: "何？" } ] }
 { t: "bubbles", from: "モデル会話", items: [ { label: "① …", text: "…＿＿けど、\n実は私、＿＿。", answer: ["…", "…"] } ] }
+//   item turns: [1] — from that line of the text on, the next speaker's own bubble (Q1 pp.025, 091); block alt: true —
+//   every second bubble at the right (p.025)
 ```
 
 - `sp` as printed (`メ`, `サラ`, `社員`, `A`); `v: "m" | "f"` from the character (check.js requires `v` with `sp`); a line

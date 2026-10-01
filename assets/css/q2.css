@@ -149,6 +149,10 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qlist .bk-en { line-height: 1.7; }
 .qs { list-style: none; padding: 0; margin: 10px 0; }
 .qs__i { display: grid; grid-template-columns: auto 1fr; gap: 0 .5em; margin: 12px 0 18px; }
+/* style memo: the prompts on a ruled memo, a rule above and below, dashed between, room to write under each (Q1 pp.024, 090) */
+.qs--memo { border-block: 1px solid var(--ink-3); }
+.qs--memo > .qs__i { margin: 0; padding: 8px 0 3em; }
+.qs--memo > .qs__i + .qs__i { border-top: 1px dashed var(--ink-3); }
 .qs__n { color: var(--q); font: 800 1.15em/1.65 var(--goth); min-width: 1.4em; white-space: nowrap; }
 .qs__n--c { color: var(--ink); font-weight: 400; }
 .qs__n--box { justify-self: start; display: grid; place-items: center; min-width: 1.4em; height: 1.4em; margin-top: .3em; border: 1.5px solid currentColor; color: var(--ink); font: 500 .8em/1 var(--goth); }
@@ -328,6 +332,9 @@ a.ref:hover u { background: var(--q-soft); }
 .role { display: flex; flex-direction: column; }
 .role__t { flex: 1; display: flex; flex-direction: column; justify-content: center; }
 .role__t .ja { text-align: center; font-size: 1.12em; }  /* the cards' text a size above the instructions (Q2 p.084, Q1 p.018) */
+/* the EN button in the card's top corner, beside the head: the text centred in the card (Q1 p.024) */
+.role { position: relative; } .role__t.bi { position: static; padding-right: 0; } .role__t > .en-btn { top: 12px; right: 12px; }
+.role:has(.role__t > .en-btn) .role__h { padding-right: 2.4em; }
 .role__t .role__sit { display: block; text-align: left; margin-top: .4em; }
 .role__sh, .role__li { display: block; }
 .role__li { padding-left: 1em; text-indent: -1em; }
@@ -352,6 +359,9 @@ a.ref:hover u { background: var(--q-soft); }
 .bubble { margin: 10px 0 14px; }
 .bubble__l { margin: 0 0 4px; font: 700 15px/1.6 var(--goth); }
 .bubble__b { border: 2px solid var(--line); border-radius: 16px; padding: 10px 16px; line-height: 2.4; }
+/* turns: each line a speaker's own bubble, the first at the left, the reply at the right (Q1 p.025) */
+.bubble__b--turn { width: fit-content; max-width: 85%; margin: 8px auto 8px 0; }
+.bubble__b--turn.bubble__b--r { margin: 8px 0 8px auto; }
 .bb-in { font: inherit; width: 11em; max-width: 100%; border: 0; border-bottom: 1.5px solid var(--ink-2); background: transparent; color: var(--ink); padding: 0 .2em; }
 .bb-in:focus { outline: none; border-bottom-color: var(--q); background: var(--q-soft); }
 .bb-in.ok { border-bottom-color: var(--ok); background: var(--ok-soft); } .bb-in.ng { border-bottom-color: var(--ng); background: var(--ng-soft); }

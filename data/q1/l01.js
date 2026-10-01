@@ -3223,6 +3223,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "qs",
+         "style": "memo",
          "items": [
           {
            "n": "①",
@@ -3334,6 +3335,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "bubbles",
+         "alt": true,
          "from": "モデル会話",
          "items": [
           {
@@ -3341,6 +3343,7 @@ TRY.registerLesson({
             "ja": "① メイリンが話題を「天気」から「週末」に変える時",
             "tr": "① When Meilin changes the topic from “the weather” to “the weekend”"
            },
+           "turns": [1],
            "text": {
             "ja": "……もうすぐ10月なのに、信じられない。\n本当。＿＿、週末は何してたの？",
             "tr": "(George) ...It's almost October, and it's still this hot. Hard to believe.\n(Meilin) I know. ＿＿, what were you up to this weekend?"
@@ -3354,6 +3357,7 @@ TRY.registerLesson({
             "ja": "② メイリンがジョージの答えについて、もっとくわしく聞いた時",
             "tr": "② When Meilin asked for more details about George's answer"
            },
+           "turns": [1],
            "text": {
             "ja": "そうそう。\nいいなあ。＿＿、どうだった？",
             "tr": "(George) Yeah, that's right.\n(Meilin) Lucky you. ＿＿, how was it?"

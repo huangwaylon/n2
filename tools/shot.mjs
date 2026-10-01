@@ -10,6 +10,7 @@
 //   --en    turn the global English layer on (body.show-en) before capturing
 //   --touch emulate a touch screen (pointer:coarse) at any width (always on below 700 px)
 //   --dpr=N  device pixel ratio (2 or 3 to read furigana as on a phone); --y=PX scroll down before capturing
+//   --to=SEL scroll the first element matching SEL to the top (after --en)
 //   --drawer open the sidebar drawer (☰) before capturing
 //   --click=SEL click the first element matching the CSS selector (repeatable, in order) before capturing
 //   --sel=SEL capture only the first element matching SEL (its box, up to 4000 px tall)
@@ -32,6 +33,8 @@ const num = k => +((flags.find(f => f.startsWith(`--${k}=`)) || "").split("=")[1
 const pg = await open({ route, width, height, scheme, wait, touch: flags.includes("--touch") || undefined, furigana: !flags.includes("--nofuri"), dpr: num("dpr") || 1 });
 if (num("y")) { await pg.evaluate(`window.scrollTo(0, ${num("y")})`); await sleep(400); }
 if (flags.includes("--en")) { await pg.evaluate("document.body.classList.add('show-en')"); await sleep(300); }
+const to = flags.find(f => f.startsWith("--to="));
+if (to) { await pg.evaluate(`document.querySelector(${JSON.stringify(to.slice(5))}).scrollIntoView()`); await sleep(400); }
 if (flags.includes("--drawer")) { await pg.evaluate("document.querySelector('.sb-toggle').click()"); await sleep(400); }
 for (const f of flags.filter(f => f.startsWith("--click="))) { await pg.evaluate(`document.querySelector(${JSON.stringify(f.slice(8))}).click()`); await sleep(400); }
 const params = { format: "png" };

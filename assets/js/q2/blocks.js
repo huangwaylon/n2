@@ -107,7 +107,7 @@ const B = {
     }).join("")}</ul>`;
   },
   qs(b, ctx) {
-    return `<ol class="qs">${(b.items || []).map((it) => `<li class="qs__i">
+    return `<ol class="qs${b.style === "memo" ? " qs--memo" : ""}">${(b.items || []).map((it) => `<li class="qs__i">
         ${qn(it.n)}
         <div class="qs__b">${line(it.text, "qs__t")}
           ${it.words ? `<p class="qs__words ja-book">［${it.words.map((w) => `<span>${fmt(w)}</span>`).join("")}］</p>` : ""}
@@ -201,12 +201,19 @@ const B = {
       <ol class="flow__steps">${body}</ol></div>`;
   },
   bubbles(b, ctx) {
+    // turns: [1] — a later speaker's own bubble from that line on (Q1 pp.025, 091); alt: every second bubble at the right,
+    // where the book draws the reply from the right (p.025)
+    const bubbleTurns = (body, turns, alt) => {
+      if (!turns) return `<div class="bubble__b ja-book">${body}</div>`;
+      const ls = body.split("<br>"), at = [0, ...turns, ls.length];
+      return at.slice(1).map((e, j) => `<div class="bubble__b bubble__b--turn${alt && j % 2 ? " bubble__b--r" : ""} ja-book">${ls.slice(at[j], e).join("<br>")}</div>`).join("");
+    };
     const id = `${ctx.id || "q"}-bb${seq(ctx)}`;
     return `<div class="bubbles" data-ex="${id}">${(b.items || []).map((it, i) => {
       let k = 0;
       const body = fmt(jaOf(it.text)).replace(/<span class="blank">[^<]*<\/span>/g, () => `<input class="bb-in" type="text" data-k="${k++}" aria-label="空欄${k}" autocomplete="off" autocapitalize="off" spellcheck="false">`);
       return `<div class="bubble" data-i="${i}" data-answer="${esc(JSON.stringify(it.answer || []))}">
-        ${it.label ? `<p class="bubble__l">${inl(it.label)}</p>` : ""}<div class="bubble__b ja-book">${body}</div>${it.text && it.text.tr ? en(it.text.tr, "gen") : ""}
+        ${it.label ? `<p class="bubble__l">${inl(it.label)}</p>` : ""}${bubbleTurns(body, it.turns, b.alt)}${it.text && it.text.tr ? en(it.text.tr, "gen") : ""}
         <p class="bubble__ans" hidden>${(it.answer || []).map((a) => `<span>${fmt(a)}</span>`).join(" ／ ")}${it.choice ? `　｛${fmt(it.choice)}｝` : ""}</p></div>`;
     }).join("")}
       <div class="ex-actions"><button class="btn primary" data-act="bb-check">答え合わせ <span class="en-inline">Check</span></button><button class="btn" data-act="bb-show">答えを見る <span class="en-inline">Show answers</span></button>${b.from ? `<span class="dim small">（${fmt(b.from)}より）</span>` : ""}</div></div>`;

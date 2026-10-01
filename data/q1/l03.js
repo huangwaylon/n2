@@ -2927,6 +2927,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "qs",
+         "style": "memo",
          "items": [
           {
            "n": "①",
@@ -3098,6 +3099,7 @@ TRY.registerLesson({
             "ja": "③ 注文について{希望|きぼう} (request) を言う時",
             "tr": "③ When making a request about the order"
            },
+           "turns": [1],
            "text": {
             "ja": "ビール5本とレモンハイ1つ、{追加|ついか}でお願いします。\nあの、＿＿ば、レモンハイの{氷|こおり}を\n＿＿ますか。",
             "tr": "(Meilin) We'd like to add five beers and one lemon sour, please.\n(George) Um, if possible, could you leave the ice out of the lemon sour?"
