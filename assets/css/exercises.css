@@ -227,7 +227,7 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 .script summary::-webkit-details-marker { display: none; }
 .script summary::before { content: "▸"; font-size: 11px; }
 .script[open] summary::before { content: "▾"; }
-.dlg { border-left: 2px solid var(--line); padding: .2em 0 .4em .8em; line-height: 1.9; }
+.script .dlg { border-left: 2px solid var(--line); padding: .2em 0 .4em .8em; line-height: 1.9; }
 .dlg .sline { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: .2em; padding: 1px 0; }
 .dlg .sline > span:last-child, .dlg .sline > div { min-width: 0; overflow-wrap: anywhere; }
 .dlg .sp { font-family: var(--goth); font-weight: 700; color: var(--ink-2); white-space: nowrap; }
