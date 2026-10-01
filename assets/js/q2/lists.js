@@ -70,9 +70,10 @@ export function kanjiAllView() {
 import { allNotes } from "./nav.js";
 import { circ } from "./blocks.js";
 export function indexView() {
+  // ★ and the note's page as in the book's 文型・表現さくいん (Q2 p.246: ★〜つつある L7-1 2-009)
   // a note with sub-patterns prints its glosses on the subs (Q1 p.008 〜なら ① ② ③): the index lists them in order
   const gloss = (b) => b.gloss || (b.blocks || []).filter((x) => x.t === "sub" && x.gloss).map((x) => `${circ(+x.n) || x.n} ${x.gloss}`).join("　");
-  const notes = allNotes().map(({ l, b }) => `<tr data-s="${esc((plain(b.pattern) + " " + gloss(b)).toLowerCase())}"><td><a href="#/gn/${l.id}-${b.no}">${fmt(b.pattern)}</a></td><td class="bk-en">${fmt(gloss(b))}</td><td>L${l.id}-${b.no}</td></tr>`).join("");
+  const notes = allNotes().map(({ l, b }) => `<tr data-s="${esc((plain(b.pattern) + " " + gloss(b)).toLowerCase())}"><td><a href="#/gn/${l.id}-${b.no}">${b.star ? '<span class="idx-star" title="★ 使えるようになるべき文型・表現 (items to master for output)">★</span>' : ""}${fmt(b.pattern)}</a></td><td class="bk-en">${fmt(gloss(b))}</td><td class="idx-n">L${l.id}-${b.no}</td><td class="idx-n idx-p">${b.page ? String(b.page).padStart(3, "0") : ""}</td></tr>`).join("");
   const words = TRY.vocab.flatMap((v) => v.lists.flatMap((L) => L.rows.map((r) => ({ r, v, L }))));
   words.sort((a, b) => plain(a.r.yomi).localeCompare(plain(b.r.yomi), "ja"));
   const wrows = words.map(({ r, v, L }) => `<tr data-s="${esc((plain(r.w) + " " + plain(r.yomi) + " " + plain(r.en)).toLowerCase())}"><td class="ja">${esc(r.k || "")}${fmt(r.w)}</td><td class="ja">${fmt(r.yomi)}</td><td>${fmt(r.en || "")}</td><td><a href="#/l/${v.lesson}/vocab">L${v.lesson}-${fmt(L.sec)}</a></td></tr>`).join("");
@@ -80,7 +81,7 @@ export function indexView() {
     <h1>さくいん <span class="en-inline">Index</span></h1>
     <input class="search" id="idx-search" type="search" enterkeyhint="search" aria-label="検索 Search" placeholder="検索 Search: 〜つつある, 壁, barrier …">
     <h2>文型・表現さくいん <span class="en-inline">Sentence patterns &amp; expressions</span></h2>
-    <table class="tbl idx"><thead><tr><th>文型・表現</th><th>Meaning</th><th>課</th></tr></thead><tbody>${notes}</tbody></table>
+    <table class="tbl idx"><thead><tr><th>文型・表現</th><th>Meaning</th><th>課</th><th class="idx-p">ページ</th></tr></thead><tbody>${notes}</tbody></table>
     <h2>単語さくいん <span class="en-inline">Words (${words.length})</span></h2>
     <table class="tbl idx"><thead><tr><th>単語</th><th>読み</th><th>意味</th><th>課</th></tr></thead><tbody>${wrows}</tbody></table></div>`;
 }

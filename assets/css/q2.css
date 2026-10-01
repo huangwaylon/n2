@@ -628,3 +628,7 @@ s { text-decoration: line-through var(--q) 2px; }
 /* Quartet sidebar lesson rows: 第N課 and the lesson's theme on one line, the theme cut with an ellipsis */
 .sb-t:has(> .sb-t__th) { display: flex; gap: .5em; white-space: nowrap; overflow: hidden; }
 .sb-t__n { flex: none; } .sb-t__th { min-width: 0; overflow: hidden; text-overflow: ellipsis; color: var(--ink-2); }
+/* 文型・表現さくいん: ★ on a filled circle before the pattern, 課 and page on one line (Q2 p.246) */
+.idx-star { display: inline-grid; place-items: center; width: 1.6em; height: 1.6em; margin-right: .4em; border-radius: 50%; background: var(--q-fill); color: var(--q-on); font-size: .7em; line-height: 1; vertical-align: .15em; }
+.index-page.q2 .tbl.idx td.idx-n { white-space: nowrap; }
+@media (max-width: 600px) { .index-page.q2 .tbl.idx .idx-p { display: none; } }  /* phones: the meaning keeps the width */
