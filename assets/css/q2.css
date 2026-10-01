@@ -501,6 +501,20 @@ a.ref:hover u { background: var(--q-soft); }
 .kj__mk { margin-right: .2em; }
 .kj__en { font-family: var(--serif); color: var(--ink-2); margin-left: .4em; font-size: 14px; }
 .kj__s { grid-area: s; font: 12px/1.4 var(--goth); color: var(--ink-3); }
+/* wide: one kanji per row as printed (別冊 p.034): the kanji, meaning, readings (音 above 訓) and words side by side, the
+   stroke count on a strip under them; neighbouring rows share their rule */
+@media (min-width: 700px) {
+  .kj-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .kj-sec { margin: 18px 0 8px; }
+  .kj { grid-template-columns: 104px 8.5em 6.5em minmax(0, 1fr); grid-template-areas: "big m r w" "big s s s"; gap: 0; padding: 0; }
+  .kj + .kj { margin-top: -1.5px; }
+  .kj__big { border-right: 1.5px solid var(--ink-2); min-height: 104px; }
+  .kj__m, .kj__r, .kj__w { padding: 6px 10px; }
+  .kj__m { border-right: 1px solid var(--ink-2); }
+  .kj__r { flex-direction: column; gap: 0; border-right: 1.5px dotted var(--ink-2); }
+  .kj__w { margin: 0; border-top: 0; }
+  .kj__s { border-top: 1px solid var(--ink-2); padding: 3px 10px; }
+}
 .kj-mini { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .kj-chip { display: grid; place-items: center; width: 56px; height: 60px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); }
 .kj-chip__k { font: 28px/1 var(--mincho); }
