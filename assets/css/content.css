@@ -18,6 +18,9 @@
 .ch-banner__en { display: inline-block; font: 500 13px/1.4 var(--goth); opacity: .92; margin-left: .5em; letter-spacing: .01em; }
 .ch-banner__title { margin: 0; padding-top: .3em; font: 700 32px/1.45 var(--goth); text-wrap: pretty; }
 .ch-banner__title > .ja { margin-right: .5em; }
+/* the title's readings are small against the 32px title, about as wide as it (就職活動 p.72, 転任 p.30); from 600 down
+   the title shrinks and the readings keep the usual .5em */
+@media (min-width: 601px) { .ch-banner__title rt { font-size: .4em; } }
 .ch-banner__part { font-weight: 700; }
 .ch-banner__en--title { display: inline-block; margin-left: 0; font-size: 18px; font-weight: 500; }
 .ch-banner strong { color: inherit; }
