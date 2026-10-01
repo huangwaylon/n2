@@ -390,8 +390,13 @@ function wireEvents() {
     if (e.key === "f" && !typing) { setSetting("furigana", !settings.furigana); queueFit(true); }
   });
   window.addEventListener("hashchange", () => { savePlace(); const rec = enter(); if (sameChapterJump(rec)) setDrawer(false, false); else route(false, rec); });
-  addEventListener("pagehide", savePlace);
-  document.addEventListener("visibilitychange", () => { if (document.hidden) savePlace(); });
+  // once the page is left, nothing more is saved: Safari scrolls a page it keeps in its page cache to the top and fires
+  // visibilitychange again, which saved that top as the place
+  let left = false;
+  addEventListener("pagehide", () => { savePlace(); left = true; });
+  document.addEventListener("visibilitychange", () => { if (document.hidden && !left) savePlace(); });
+  // back to the page from another book: restored from the page cache without its scroll (restoration is manual)
+  addEventListener("pageshow", (e) => { left = false; if (e.persisted) placeAgain(hashRoute(), places()[entry]); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
   matchMedia(WIDE).addEventListener("change", (m) => {
