@@ -73,8 +73,9 @@ export const SKILLS = {
 const FLOW_IC = '<svg class="hd-flow-ic" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="1" width="22" height="22" rx="4"/><path d="M7 17V8l10 8V7"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="7" r="2"/></svg>';
 export const skillIcon = (s, cls = "") => (SKILLS[s] ? `<svg class="sk-ic ${cls}" viewBox="0 0 24 24" aria-hidden="true" focusable="false">${SKILLS[s][2]}</svg>` : "");
 
-// question numbers: "1）" "1." in the accent, circled ①–⑳ in ink and regular weight (Q1 p.018, Q2 pp.020–021)
-const qn = (n) => `<span class="qs__n${/^[\u2460-\u2473]$/.test(n || "") ? " qs__n--c" : ""}">${fmt(n || "")}</span>`;
+// question numbers: "1）" "1." in the accent, circled ①–⑳ in ink and regular weight (Q1 p.018, Q2 pp.020–021), a bare
+// "1" in a box (the brush-up units' items, Q2 pp.202, 212, 214)
+const qn = (n) => `<span class="qs__n${/^[\u2460-\u2473]$/.test(n || "") ? " qs__n--c" : /^\d+$/.test(n || "") ? " qs__n--box" : ""}">${fmt(n || "")}</span>`;
 
 const B = {
   // ----- structure -----

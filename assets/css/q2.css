@@ -148,6 +148,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qs__i { display: grid; grid-template-columns: auto 1fr; gap: 0 .5em; margin: 12px 0 18px; }
 .qs__n { color: var(--q); font: 800 1.15em/1.65 var(--goth); min-width: 1.4em; white-space: nowrap; }
 .qs__n--c { color: var(--ink); font-weight: 400; }
+.qs__n--box { justify-self: start; display: grid; place-items: center; min-width: 1.4em; height: 1.4em; margin-top: .3em; border: 1.5px solid currentColor; color: var(--ink); font: 500 .8em/1 var(--goth); }
 .qs__b { min-width: 0; }
 .qs__t .ja { font-family: var(--goth); }
 .qs__words { display: flex; flex-wrap: wrap; gap: .3em 1.6em; margin: 6px 0 0 1em; font-size: 1.05em; }
@@ -428,6 +429,16 @@ a.ref:hover u { background: var(--q-soft); }
 .unit-h__tag { display: inline-block; background: var(--ink-2); color: var(--panel); font: 700 14px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
 .unit-h__t { margin: 0; padding: 10px 16px; background: var(--q-soft-2); border-bottom: 2px solid var(--q); border-radius: 0 8px 8px 8px; font: 800 24px/1.4 var(--goth); }
 .unit-h__l { display: inline-block; margin-top: 6px; font: 700 14px/1 var(--goth); }
+/* ☛ 第N課 at the right end of the title band (Q2 p.200) */
+@media (min-width: 601px) { .unit-h { position: relative; } .unit-h:has(.unit-h__l) .unit-h__t { padding-right: 6.5em; } .unit-h__l { position: absolute; right: 16px; bottom: 14px; margin: 0; color: var(--ink); } }
+/* a unit's numbered headings print a plain accent "1." (Q1 p.206, Q2 pp.200, 202), not the lessons' boxed number */
+.unit .hd--num .hd-tag { display: inline-block; min-width: 0; height: auto; background: none; color: var(--q); box-shadow: none; font-size: inherit; }
+/* a unit's English explanations in serif ink (Q1 p.206, Q2 p.200); Quartet II's opening paragraph in Gothic (p.200) */
+.unit .sec-body > .bk-en.qp { font: 16px/1.65 var(--serif); color: var(--ink); }
+body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family: var(--goth); }
+/* …and their lettered sub-headings an ink title after a letter on a dark grey square (Q1 p.208 Ⓐ 伝聞, Q2 p.202) */
+.unit .hd--step { color: var(--ink); font-size: 19px; }
+.unit .hd--step .hd-tag { background: var(--ink-2); color: var(--panel); border: 0; border-radius: 4px; padding: 0 .35em; font-size: 16px; font-weight: 500; }
 
 /* ---------- listening: ○×, choices, script ---------- */
 .q2ex .q-line { display: flex; align-items: flex-start; gap: .5em; }

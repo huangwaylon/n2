@@ -23,7 +23,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "1",
+    "tag": "1.",
     "id": "c1-1",
     "text": {
      "ja": "自分（私）の視点で書く時",
@@ -197,7 +197,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "2",
+    "tag": "2.",
     "id": "c1-2",
     "text": {
      "ja": "ナレーターとして書く時",
@@ -314,7 +314,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "1",
+    "tag": "1.",
     "id": "c2-1",
     "text": {
      "ja": "漢字に注目しよう",
@@ -608,7 +608,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "2",
+    "tag": "2.",
     "id": "c2-2",
     "text": {
      "ja": "意味に注目しよう",
@@ -1183,7 +1183,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "1",
+    "tag": "1.",
     "id": "c3-1",
     "text": {
      "ja": "キーワードに注目しよう",
@@ -1693,7 +1693,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "2",
+    "tag": "2.",
     "id": "c3-2",
     "text": {
      "ja": "意味に注目しよう",
@@ -4563,7 +4563,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "1",
+    "tag": "1.",
     "id": "c7-1",
     "text": {
      "ja": "「頭」を使った{慣用句|かんようく}",
@@ -4805,7 +4805,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "2",
+    "tag": "2.",
     "id": "c7-2",
     "text": {
      "ja": "「手」を使った{慣用句|かんようく}",
@@ -5100,7 +5100,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "3",
+    "tag": "3.",
     "id": "c7-3",
     "text": {
      "ja": "「足」を使った{慣用句|かんようく}",
@@ -5318,7 +5318,7 @@ TRY.registerUnits([
    {
     "t": "head",
     "style": "num",
-    "tag": "4",
+    "tag": "4.",
     "id": "c7-4",
     "text": {
      "ja": "「顔」を使った{慣用句|かんようく}",
