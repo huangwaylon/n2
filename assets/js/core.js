@@ -18,25 +18,33 @@ export const BOOKS = [
 
 // ---------- storage ----------
 // settings are shared by all books ("n2.settings"); progress is per book ("n2.progress" / "n2.progress.n1" / ".q1" / ".q2")
+// every stored value is an object; anything else (a damaged or hand-edited entry) reads as the default — a null or a
+// string here left the page blank on every load
+const isObj = (v) => !!v && typeof v === "object" && !Array.isArray(v);
 const LS = {
-  get(k, d) { try { const v = localStorage.getItem("n2." + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+  get(k, d) { try { const v = JSON.parse(localStorage.getItem("n2." + k)); return isObj(v) ? v : d; } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem("n2." + k, JSON.stringify(v)); } catch (e) {} },
 };
 // vertical: "auto" | "v" | "h" — 縦書き for sample.vertical texts (auto = 縦 at ≥901 px); theme: "auto" | "light" | "dark"
 // sidebar: the table of contents shown beside the page at ≥901 (☰ hides it; below 901 it is a drawer either way)
-export const settings = Object.assign({ furigana: false, english: false, rate: 0.9, vertical: "auto", theme: "auto", sidebar: true }, LS.get("settings", {}));
+const SETTINGS = { furigana: false, english: false, rate: 0.9, vertical: "auto", theme: "auto", sidebar: true };
+export const settings = Object.assign({}, SETTINGS, LS.get("settings", {}));
+for (const k in SETTINGS) if (typeof settings[k] !== typeof SETTINGS[k]) settings[k] = SETTINGS[k];
 export const saveSettings = () => LS.set("settings", settings);
 const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
 export const progress = { studied: {}, scores: {} };
-export const loadProgress = () => Object.assign(progress, { studied: {}, scores: {} }, LS.get(progressKey(), {}));
+export const loadProgress = () => {
+  Object.assign(progress, { studied: {}, scores: {} }, LS.get(progressKey(), {}));
+  for (const k of ["studied", "scores", "known", "texts"]) if (k in progress && !isObj(progress[k])) progress[k] = {};
+};
 // listeners (the sidebar) hear about every change through the "try:progress" event
 export const saveProgress = () => { LS.set(progressKey(), progress); document.dispatchEvent(new Event("try:progress")); };
 // where the reader was in each book, for "continue" on every book's home: "n2.resume" = { n2: { h: route, t: label,
 // done, total }, n1: …, q1: …, q2: … } (written by main.js on route changes and while scrolling)
 export const resume = () => LS.get("resume", {});
-export const saveResume = (rec) => { const r = resume(); r[BOOK().id] = Object.assign(r[BOOK().id] || {}, rec); LS.set("resume", r); };
+export const saveResume = (rec) => { const r = resume(); r[BOOK().id] = Object.assign(isObj(r[BOOK().id]) ? r[BOOK().id] : {}, rec); LS.set("resume", r); };
 // studied count of another book (its progress key), shown on the shelf when that book has never saved a total
-export const studiedIn = (id) => Object.values(LS.get(id === "n2" ? "progress" : `progress.${id}`, {}).studied || {}).filter(Boolean).length;
+export const studiedIn = (id) => { const s = LS.get(id === "n2" ? "progress" : `progress.${id}`, {}).studied; return isObj(s) ? Object.values(s).filter(Boolean).length : 0; };
 
 // ---------- helpers ----------
 export const $ = (s, r = document) => r.querySelector(s);
