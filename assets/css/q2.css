@@ -212,8 +212,11 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qtbl.qtbl--memo :is(th, td) { border-inline: 0; } .qtbl.qtbl--memo th { font-weight: 400; } .qtbl.qtbl--memo { border-block: 1.5px solid var(--ink-3); }
 .qtbl.qtbl--memo td { height: 6em; vertical-align: top; border-color: var(--ink-3); }
 /* a row whose cell has style dash is ruled above with a dashed line, the label column included (Q2 p.090); the row
-   above gets the same bottom so the collapsed border stays dashed (solid would win) */
-.qtbl tr:has(> .c--dash) > * { border-top-style: dashed; } .qtbl tr:has(+ tr > .c--dash) > :not([rowspan]) { border-bottom-style: dashed; }
+   above gets the same bottom so the collapsed border stays dashed (solid would win); darker than --line, which vanished on
+   the grey label column (Q1 p.196) */
+.qtbl tr:has(> .c--dash) > * { border-top-style: dashed; border-top-color: var(--q-dash); }
+.qtbl tr:has(+ tr > .c--dash) > :not([rowspan]) { border-bottom-style: dashed; border-bottom-color: var(--q-dash); }
+.qtbl { --q-dash: color-mix(in srgb, var(--ink-3) 50%, var(--line)); }
 .qtbl.qtbl--memo th.c--gray { width: 1%; background: var(--q-gray); border-color: var(--ink-3); }   /* the label column as narrow as its lines */
 .qbox--sheet > .qtbl-wrap { margin: 0; }
 .qbox__title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font: 700 16px/1.6 var(--goth); margin-bottom: 6px; }
@@ -234,6 +237,10 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 /* tall: a table to write in, each body row a tall space, the cells' printed prompts at the top, the row labels centred
    (Q2 p.196); cell style bold for a label printed bold in a table whose head is regular */
 .qtbl--tall td { height: 5.5em; vertical-align: top; } .qtbl--tall td:first-child { vertical-align: middle; }
+/* as printed: no outer left / right rules, heavier rules above and below, the label column narrow and the others equal */
+.qtbl.qtbl--tall { width: 100%; border-block: 2px solid var(--ink-3); }
+.qtbl--tall tr > :first-child { white-space: nowrap; border-left: 0; } .qtbl--tall tr > :last-child { border-right: 0; }
+.qtbl--tall tr > :not(:first-child) { width: 50%; } .qtbl--tall:has(tr > :nth-child(4)) tr > :not(:first-child) { width: 33.3%; } .qtbl--tall :is(.c--gray, .c--gray .ja) { word-break: normal; }
 .qtbl .c--bold { font-weight: 700; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
 .words { display: flex; gap: 10px; align-items: baseline; margin: 10px 0; font-size: 15px; }
