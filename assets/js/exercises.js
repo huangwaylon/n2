@@ -15,14 +15,16 @@ const feedback = (it, before = "") => `<div class="feedback">${before}${en(it.en
 // option-grid columns (the book's 4 / 2 / 1) from the real width, so a short option never breaks inside a word
 // ("にあるまじ／き"): data-w is the widest option in em
 const optW = (options) => Math.round(Math.max(0, ...options.map((o) => cw(plain(o)))) * 100) / 100;
+// all measured before any is set: a write between reads would lay the page out again for every grid
 export function fitOptionCols(root) {
-  $$(".opts--grid[data-w]:not(.opts--list)", root).forEach((g) => {
+  const cols = $$(".opts--grid[data-w]:not(.opts--list)", root).map((g) => {
     const o = g.querySelector(".opt--grid"), t = o && o.querySelector(".opt-t");
-    if (!t || !g.clientWidth) return;
+    if (!t || !g.clientWidth) return 0;
     const fs = parseFloat(getComputedStyle(t).fontSize), gap = parseFloat(getComputedStyle(g).columnGap) || 0;
     const need = +g.dataset.w * fs + o.getBoundingClientRect().width - t.getBoundingClientRect().width + 2;
-    g.style.setProperty("--cols", [4, 2].find((c) => c * need + (c - 1) * gap <= g.clientWidth) || 1);
+    return [g, [4, 2].find((c) => c * need + (c - 1) * gap <= g.clientWidth) || 1];
   });
+  cols.forEach((x) => x && x[0].style.setProperty("--cols", x[1]));
 }
 
 // id: the key of the saved score. title: HTML for the pill (null = no header). opts: bare (no frame; inside Check /

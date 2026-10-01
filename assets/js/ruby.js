@@ -99,12 +99,12 @@ export function fitRubies(root, all, depth = 0) {
   if (all) $$("ruby[data-ls]", root).forEach((r) => { r.classList.remove("r-s"); delete r.dataset.ls; });
   const rs = $$(all ? "ruby[data-e]" : "ruby[data-e]:not([data-fit])", root).filter((r) => r.getClientRects().length);
   if (!rs.length) return;
-  const lineStart = [];
+  const lineStart = [], fss = [];
   // correct from the current margins (the first guess or the last fit): resetting them first would move line breaks
-  const plan = rs.map((r) => {
+  const plan = rs.map((r, i) => {
     const rt = r.querySelector("rt"), T = rt.getBoundingClientRect(), B = r.getBoundingClientRect();
     if (!T.width) return null;
-    const cs = getComputedStyle(r), fs = parseFloat(cs.fontSize), vert = cs.writingMode.startsWith("vertical");
+    const cs = getComputedStyle(r), fs = (fss[i] = parseFloat(cs.fontSize)), vert = cs.writingMode.startsWith("vertical");
     // inline axis start/end and the cross-axis centre of the base line
     const s0 = (q) => (vert ? q.top : q.left), s1 = (q) => (vert ? q.bottom : q.right), cross = (q) => (vert ? (q.left + q.right) / 2 : (q.top + q.bottom) / 2);
     const e = +r.dataset.e * fs, st = r.classList.contains("r-s");
@@ -139,7 +139,7 @@ export function fitRubies(root, all, depth = 0) {
     r.dataset.fit = 1;
     if (!m) return;
     // a margin only ever absorbs part of the excess (or keeps two readings apart): anything beyond is a bad measurement
-    const fs = parseFloat(getComputedStyle(r).fontSize), e = +r.dataset.e * fs;
+    const fs = fss[i], e = +r.dataset.e * fs; // read in the pass above: a style read between writes recomputes styles
     m[0] = Math.max(-RT_K * fs, Math.min(e, m[0])); m[1] = Math.max(-RT_K * fs, Math.min(e, m[1]));
     r.style.marginInlineStart = `${Math.round(m[0] * 10) / 10}px`;
     r.style.marginInlineEnd = `${Math.round(m[1] * 10) / 10}px`;
