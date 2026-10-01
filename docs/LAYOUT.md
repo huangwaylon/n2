@@ -243,6 +243,8 @@ Most Quartet rules are commented next to the CSS in `q2.css`. These are easy to 
 - Numbered underlines `.ref-n`: number below the rule at the underline's start; `placeRefNos` (layout pass) moves it under the first line when the underline wraps; 縦書き: right of the rule's top.
 - Headings with a number or step tag keep the title beside the tag when wrapping (`.hd-t { flex: 1 1 0 }`). A practice dialogue in a grey box has no panel of its own (`.qbox--gray > .qdlg`).
 - Q1 part badges `[#パートA]` (filled) / `[#パートB]` (outlined): inline in ☛ lines; a box titled with one is the book's band; in a flowchart the phase tab takes the badge's fill.
+- Head styles `rule` (読む前に・読んだ後で, 文型・表現ノート: centred between accent rules, track at the right) and `tag` (読み物1/2 on the 読む前に page, no band), Q1/Q2 pp.002, 009.
+- ❶–❿ at text size except before a dialogue line (small, raised); ink inside instructions and questions. ○ × in ink. Circled ①② in question numbers ink, bare digits boxed (units). Units: ☛ 第N課 in the title band, "1." headings plain accent, Ⓐ sub-headings ink on a grey square.
 - ❶–❿ step marks are followed by a word joiner; `.bk-en` keeps quoted Japanese on one line (`keep-all`); indexes use auto column widths.
 - Reading style `email` (Q1 pp.034–035): 差出人／宛先／件名／添付 on a grey header band, framed Gothic body, no indent. モデル作文 in 縦書き: the grey panel runs across all columns, role brackets below.
 - Tables: `align` / `headAlign` per table or column (Q1 head rows centred); grey row labels `c--gray` never break inside a word (p.049); `stripe` greys every second row (p.107).
