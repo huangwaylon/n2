@@ -171,8 +171,10 @@ const markActive = (h) => {
   links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === cur));
   $$(".sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
 };
-// layout pass after a render: option columns, furigana overhang, vertical scrollers
-const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
+// layout pass after a render: option columns, vertical scrollers, furigana overhang. The scrollers first: their height
+// sets the column breaks, and a reading fitted before them could end up centred at the top of a column, its overhang cut
+// off by the scroller (飲料 N1 ch1, 同僚 ch4 at 1024/1280, whenever no later full fit happened to follow)
+const layout = (root) => { fitOptionCols(root); vtScrollInit(true); fitRubies(root, true); vtScrollInit(); A.layout(root, true); };
 // rec: the place saved on the history entry (back / forward, reload: enter() below)
 function route(force, rec) {
   TTS.stop();
@@ -344,7 +346,7 @@ function wireEvents() {
     if (snap) snap();
     clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); if (snap) snap(true); }, 150);
   });
-  if (document.fonts) document.fonts.ready.then(() => queueFit(true));
+  if (document.fonts) document.fonts.ready.then(() => { vtScrollInit(true); queueFit(true); });
   document.addEventListener("change", (e) => {
     const t = e.target;
     if (t.dataset.act === "studied") { progress.studied[t.dataset.no] = t.checked; saveProgress(); }
