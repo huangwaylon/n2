@@ -374,7 +374,10 @@
 .vc__note { margin: 4px 0; color: var(--ink-2); font: 14.5px/1.6 system-ui, -apple-system, sans-serif; }
 .vc__exs { list-style: none; margin: 6px 0 0; padding: 0; }
 .vc-ex { position: relative; margin: 4px 0; line-height: 2; }
-.vc-ex .speak { margin-left: .3em; }
+/* 🔊 in a fixed slot beside the sentence's first line: inline after it, it wrapped alone when the sentence filled the line */
+.vc-ex:has(> .speak) { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: .3em; align-items: start; }
+.vc-ex > :not(.speak, .en-btn) { grid-column: 1; }
+.vc-ex > .speak { grid-column: 2; grid-row: 1; margin: 1px 0 0; }
 .vc-ex--book { padding-left: 10px; border-left: 3px solid var(--band-edge); }
 .vc__at { display: block; text-align: right; font-size: 13px; color: var(--ink-3); }
 /* flashcard extras for the vocabulary drill */
