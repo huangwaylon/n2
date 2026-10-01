@@ -142,6 +142,9 @@ button.blank.wrong { color: var(--ng); border-bottom-color: var(--ng); backgroun
 @media (max-width: 390px) { .check__tag { font-size: 19px; } }
 /* fmt()'s static ＿＿ blank */
 span.blank { display: inline-block; min-width: 5em; border-bottom: 1px solid var(--ink); line-height: 1.15; }
+/* "（　）" in sentences and instructions: a three-character gap, never split across lines (pp.27, 101; N1 p.23) */
+.ph { white-space: nowrap; }
+.ph__g { display: inline-block; width: 3em; }
 
 /* ---------- C22 write-in ---------- */
 input.write { font: max(16px, 1em) var(--mincho); border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0; background: transparent; color: var(--ink); width: 7em; height: 1.45em; line-height: 1.4; vertical-align: text-bottom; margin: 0 4px; padding: 0 4px; }

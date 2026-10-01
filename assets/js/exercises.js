@@ -60,8 +60,8 @@ export function renderExercise(ex, id, title, opts = {}) {
 }
 
 // instruction line; its English is shown by the container's EN button (no per-line button)
-const promptHtml = (p) => (typeof p === "string" ? `<div class="ex-prompt"><p class="ja">${fmt(p)}</p></div>`
-  : `<div class="ex-prompt">${p.ja ? `<p class="ja">${fmt(p.ja)}</p>` : ""}${en(p.en)}</div>`);
+const promptHtml = (p) => (typeof p === "string" ? `<div class="ex-prompt"><p class="ja">${gaps(fmt(p))}</p></div>`
+  : `<div class="ex-prompt">${p.ja ? `<p class="ja">${gaps(fmt(p.ja))}</p>` : ""}${en(p.en)}</div>`);
 
 // labels: "abc" | "ab" | "123" | "ABC" | undefined (auto: 4+ options → numbers, else letters)
 function optLabel(n, j, labels) {
@@ -96,6 +96,8 @@ function optGroup(options, answer, labels, mode = "grid", tag) {
 }
 const reEsc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const PH_RE = /（[ 　]+）/g;
+// the data's "（　）" is printed as a wide gap, about three characters, kept on one line (pp.27, 101; N1 p.23)
+const gaps = (h) => h.replace(PH_RE, '<span class="ph">（<span class="ph__g"></span>）</span>');
 // c: { labels, num, off, mode } — mode "list" forces one column, "noinline" keeps the options out of the sentence
 function choiceItem(it, i, c) {
   const labels = it.labels || c.labels; // an item drawn into the drill carries its own labels
@@ -114,6 +116,7 @@ function choiceItem(it, i, c) {
       inline = true;
     }
   }
+  if (!inline) qHtml = gaps(qHtml);
   const mode = c.mode === "list" ? "list" : "grid";
   const groups = inline ? "" : it.parts ? it.parts.map((p, k) => optGroup(p.options, p.answer, labels, mode, p.tag || `(${k + 1})`)).join("") : optGroup(it.options, it.answer, labels, mode);
   const n = c.off + i + 1;
@@ -256,7 +259,7 @@ export function checkHtml(checks, idBase) {
 }
 
 // review instruction: fmt() plus the book's inline visuals — boxed [1] and the ＿★＿ blank
-const fmtInstr = (s) => fmt(s).replace(/[\[［](\d+)[\]］]/g, '<span class="pblank">$1</span>').replace(/(?:＿|__)★(?:＿|__)/g, '<span class="star-blank">★</span>');
+const fmtInstr = (s) => gaps(fmt(s)).replace(/[\[［](\d+)[\]］]/g, '<span class="pblank">$1</span>').replace(/(?:＿|__)★(?:＿|__)/g, '<span class="star-blank">★</span>');
 function instrHtml(p) {
   const o = typeof p === "string" ? { ja: p } : p || {};
   if (!o.ja && !o.en) return "";
@@ -291,7 +294,7 @@ export function reviewHtml(ch) {
 
 // ---------- grading ----------
 function gradeItem(q) {
-  if (q.classList.contains("choice-q")) {
+  if (q.classList.contains("choice-q") || q.classList.contains("tf-q")) { // tf-q: Quartet ○×
     return $$(".opts", q).map((g) => {
       const ans = g.dataset.answer, p = $(".opt.picked", g);
       $$(".opt", g).forEach((o) => {
