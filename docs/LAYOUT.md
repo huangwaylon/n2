@@ -16,7 +16,7 @@ Design reference: the books' visual language, tokens, furigana, responsive rules
 | C32: Quartet adapter and views · blocks · 別冊 lists, indexes, drill | `assets/js/q2/nav.js` · `blocks.js` · `lists.js`, `assets/css/q2.css` |
 | Tokens (light, dark), reset, type, English layer, primitives | `assets/css/base.css` |
 
-Which files each route loads is in CLAUDE.md ("Data loading"). `route()` calls `need(h)`, which loads the files the adapter's `needs(h)` names and are not yet loaded, then renders; a failed file is reported on the page. After every render `layout()` (main.js) runs `fitOptionCols()`, `fitRubies()`, `vtScrollInit()` and the adapter's layout pass; they run again on resize, after `data-act` clicks, `<details>` toggles and font load.
+Which files each route loads is in CLAUDE.md ("Data loading"). `route()` calls `need(h)`, which loads the files the adapter's `needs(h)` names and are not yet loaded, then renders; a failed file is reported on the page. After every render `layout()` (main.js) runs `fitOptionCols()`, `fitRubies()`, `vtScrollInit()` and the adapter's layout pass. `fitOptionCols()`, `fitRubies()` and the adapter pass run again after `data-act` clicks, `<details>` toggles, font load and width changes (a height-only resize is skipped); `vtScrollInit()` again only on width changes.
 
 ## 0. Design language
 
@@ -38,7 +38,7 @@ Components use tokens, never literal greys; literal `#fff` only as text on a fil
 | `--band`, `--band-edge`, `--banner` | grammar-point band, table header tint, active nav row; its thick left bar, keigo header; chapter opener |
 | `--pill` `--pill-top` `--pill-ink` `--pill-shadow` | pill gradient, text, offset shadow |
 | `--rule`, `--note-bg`, `--badge-bg`/`--badge-ink`, `--review-bg` | frames and rules, 📎 fill, POS badges, まとめの問題 tint |
-| `--accent` | `**target**` highlighting only |
+| `--accent` | `**target**` highlighting and the playing 🔊 (`.speak`, `.btn.play`) |
 | `--teal` / `--teal-on` | links, focus, primary buttons, picked answers / text on a teal fill |
 | `--ok` `--ng` (+ `-soft`) | grading |
 | `--en-book`, `--en` / `--en-soft` | book English; generated English, active EN buttons |
@@ -111,7 +111,7 @@ Data `{漢字|かな}` → `rubyMarkup()` → native `<ruby>base<rt>reading</rt>
 |---|---|
 | ≥1200 | sidebar 280px; fixed side-tab (with `hover: hover`) |
 | ≥901 (`WIDE`) | desktop: sticky sidebar; 縦書き in auto mode |
-| ≤1100 | topnav and brand drop their sub labels |
+| ≤1100 | Quartet page markers hidden, note ★ inline |
 | ≥740 / 430–739 / ≤429 | book switcher: names / codes / the current code opening the book menu |
 | ≤900 | drawer + ☰, short switch labels |
 | ≤700 | matching and keigo tables one column |
@@ -133,7 +133,7 @@ Data `{漢字|かな}` → `rubyMarkup()` → native `<ruby>base<rt>reading</rt>
 
 ### 3.2 Sticky and fixed
 
-Sticky: topbar (all widths), sidebar (≥901); nothing else, since sticky bars eat phone height. `html { scroll-padding-top }` lands `#/gp/N` and review jumps below the bar; jumps within the chapter on screen keep the DOM (`sameChapterJump()`). Fixed: side-tab (≥1200, hover), drawer and scrim (≤900), ⚙ popover (≤900). `viewport-fit=cover`; topbar, main, drawer and footer pad with `env(safe-area-inset-*)`.
+Sticky: topbar (all widths), sidebar (≥901); nothing else, since sticky bars eat phone height. `scroll-margin-top` on `main *` lands `#/gp/N` and review jumps below the bar; jumps within the chapter on screen keep the DOM (`sameChapterJump()`). Fixed: side-tab (≥1200, hover), drawer and scrim (≤900), ⚙ popover (≤900). `viewport-fit=cover`; topbar, main, drawer and footer pad with `env(safe-area-inset-*)`.
 
 ### 3.3 Touch targets (≥44px under `pointer: coarse`)
 
@@ -170,7 +170,7 @@ Each entry: book (pages) → web → responsive.
 - **C6b prose** (pp.30, 38, 62, 103). Mincho paragraphs, 1em indent, no blank lines. `paragraphs()` groups the data's one-sentence lines (`cont`), separators (`〜〜〜` / `style: sep`) and credits (`（文：…）` / `style: credit`); one English block per paragraph; a paragraph opening with 「 is not indented (`.prose__p--q`); `style: note` → small ※ line.
 - **C6c dialogue** (pp.72, 122). Names right-aligned so the full-width colons line up; turns hang after the colon. `.dlg` grid name · colon · body, `--spw` = longest name (min 2em); narration rows span; `.dlg--wide` (names >4em) stacks at ≤390.
 - **C6d article** (p.160). Centred bold headline (`text-wrap: balance`), prose as C6b, credit right-aligned.
-- **C6e vertical** (essay pp.148, 153; story pp.188, 195; editorial p.205; N1 ch4, drama ch5). 縦書き Mincho, right to left, furigana right, 2-digit numbers upright; editorial masthead "社説" ruled above and below with a large vertical headline; story "〜〜〜〜" scene breaks. Web (`verticalHtml`, `sample.vertical`): vertical when `verticalOn()` (`settings.vertical` "v", or "auto" at ≥901), else horizontal (`.vt--h`, `.is-h`; C6b/C6c, masthead as a centred row). `div.vt-scroll > div.vt.ja-book` in `vertical-rl`; the editorial heading splits at the first full-width space into `.vt-label` and `h3.vt-title` (`header.vt-mast`) and is set in one tier (multi-column in `vertical-rl` is unreliable). Drama: `.vt-dlg > .vt-sp + .vt-say`, lines without a speaker `.vt-dir`. English is one horizontal `.vt-en` block below (no per-line EN/🔊). `.vt-scroll` opens at its right edge without JS; `vtScrollInit()` grows the columns in 2em steps (to 80vh / 44em) when the text is a little too wide, and sets `.has-more` (left-edge fade). The 縦/横 control (`.seg__b[data-act=vmode]`) and ⚙ → 縦書きの文章 call `setVertical()`, which persists and rebuilds in place (keeping `.en-all`); in auto, crossing 901 rebuilds. Place: `keepPlace()` (core.js) puts the clicked text, else the block being read, back where it was on screen after the rebuild and after the fit pass; a resize restores the block recorded when scrolling last stopped (main.js `snap`), since the browser has already relaid the page when resize fires. Quartet (C32) the same, re-rendering the view; a 縦書き text read 横 reflows to the box width.
+- **C6e vertical** (essay pp.148, 153; story pp.188, 195; editorial p.205; N1 ch1, 3, 4, 5 (drama), 8). 縦書き Mincho, right to left, furigana right, 2-digit numbers upright; editorial masthead "社説" ruled above and below with a large vertical headline; story "〜〜〜〜" scene breaks. Web (`verticalHtml`, `sample.vertical`): vertical when `verticalOn()` (`settings.vertical` "v", or "auto" at ≥901), else horizontal (`.vt--h`, `.is-h`; C6b/C6c, masthead as a centred row). `div.vt-scroll > div.vt.ja-book` in `vertical-rl`; the editorial heading splits at the first full-width space into `.vt-label` and `h3.vt-title` (`header.vt-mast`) and is set in one tier (multi-column in `vertical-rl` is unreliable). Drama: `.vt-dlg > .vt-sp + .vt-say`, lines without a speaker `.vt-dir`. English is one horizontal `.vt-en` block below (no per-line EN/🔊). `.vt-scroll` opens at its right edge without JS; `vtScrollInit()` grows the columns in 2em steps (to 80vh / 44em) when the text is a little too wide, and sets `.has-more` (left-edge fade). The 縦/横 control (`.seg__b[data-act=vmode]`) and ⚙ → 縦書きの文章 call `setVertical()`, which persists and rebuilds in place (keeping `.en-all`); in auto, crossing 901 rebuilds. Place: `keepPlace()` (core.js) puts the clicked text, else the block being read, back where it was on screen after the rebuild and after the fit pass; a resize restores the block recorded when scrolling last stopped (main.js `snap`), since the browser has already relaid the page when resize fires. Quartet (C32) the same, re-rendering the view; a 縦書き text read 横 reflows to the box width.
 
 **C7 Grammar-point band** (pp.19–25, 30, 72, 123, 148). Light-grey band, lighter to the right, thick dark left bar, darker bottom rule; number in heavy serif, the heading phrase from the 見本文 in bold Gothic with furigana, solid stars at the right. The generic pattern is not printed; points are not boxed. `gpCard` → `article.gp#gp-N > header.gp-bar` (number · `h3` `g.phrase || g.pattern` · stars), web-only `.gp-pattern` under it when a phrase is shown; `minmax(0,1fr)` + `overflow-wrap: anywhere` keep the stars in place.
 
@@ -239,7 +239,7 @@ One shell for all four books; the per-book part is an adapter (TRY in `main.js`,
 
 Most Quartet rules are commented next to the CSS in `q2.css`. These are easy to break:
 
-- Accent `--q` for text and rules, `--q-fill` (≥4.5:1) under white text, `--q-on` as text on accent fills (dark in the dark theme). Q1 magenta via `body[data-book="q1"]`, Q2 cyan.
+- Accent `--q` for text and rules, `--q-fill` (≥4.5:1) under white text, `--q-on` as text on accent fills (dark in the dark theme). Q1 magenta via `body[data-book="q1"]`, Q2 blue.
 - Numbered underlines `.ref-n`: number below the rule at the underline's start; `placeRefNos` (layout pass) moves it under the first line when the underline wraps; 縦書き: right of the rule's top.
 - Headings with a number or step tag keep the title beside the tag when wrapping (`.hd-t { flex: 1 1 0 }`). A practice dialogue in a grey box has no panel of its own (`.qbox--gray > .qdlg`).
 - Q1 part badges `[#パートA]` (filled) / `[#パートB]` (outlined): inline in ☛ lines; a box titled with one is the book's band; in a flowchart the phase tab takes the badge's fill.
@@ -261,15 +261,15 @@ Server on :8765, Node ≥22, Google Chrome. Routes are hashes without `#/` (`""`
 
 | Tool | Use |
 |---|---|
-| `node tools/shot.mjs ROUTE [W] [H] [OUT] [light\|dark] [--full] [--en] [--touch] [--dpr=N] [--y=PX] [--drawer]` | screenshot with device emulation (`mobile` below 700px) |
-| `node tools/overflow.mjs ROUTE [W] [--en] [--touch] [--dark] [--furi]` | `{vw, docW, vp, clip}`: `docW > vw` = sideways scroll; `vp` elements past the viewport; `clip` elements poking out of a component frame; `--touch` targets under 44; `--furi` furigana probe |
+| `node tools/shot.mjs ROUTE [W] [H] [OUT] [light\|dark] [--full] [--en] [--touch] [--dpr=N] [--y=PX] [--drawer] [--click=CSS] [--sel=CSS] [--wait=MS] [--nofuri]` | screenshot with device emulation (`mobile` below 700px) |
+| `node tools/overflow.mjs ROUTE [W] [--en] [--touch] [--dark] [--furi] [--nofuri]` | `{vw, docW, vp, clip}`: `docW > vw` = sideways scroll; `vp` elements past the viewport; `clip` elements poking out of a component frame; `--touch` targets under 44; `--furi` furigana probe |
 | `node tools/lib/wkshot.mjs DEVICE ROUTE[,…] [OUTDIR] [--pages=N] [--probe] [--en] [--nofuri] [--sel=CSS] [--dark]` | real iOS Safari (simulator, safaridriver via `tools/lib/wd.mjs`); Chrome does not reproduce WebKit ruby and line boxes |
-| `tools/simshot.sh DEVICE ROUTE [OUT]` | simulator Safari screenshot |
+| `tools/simshot.sh DEVICE ROUTE [OUT]` | simulator Safari screenshot (N2 and N1 routes only) |
 | `node tools/render-dump.mjs n2\|n1\|q1\|q2 [--html]` | rendered text (or markup) of every route; diff before and after renderer changes |
-| `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [ROUTE…]` | cold load and route-change timings, requests, DOM size, CPU in the measuring passes |
+| `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [--width=390] [--runs=3] [--files] [ROUTE…]` | cold load and route-change timings, requests, DOM size, CPU in the measuring passes |
 | `tools/zoom.sh BOOK PAGE [1\|2\|3\|page]` | 300-dpi strips or the whole page of the scan |
 
-`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper.
+`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper. The screenshot and probe tools turn furigana on unless `--nofuri` is given (the site default is off).
 
 ### 5.1 Pass criteria (every route × width)
 
@@ -308,13 +308,13 @@ Widths 1280, 768, 390, 375, 320; light and dark; EN on/off; furigana on/off; all
 
 ## 6. Known limitations
 
-- Real iOS Safari not re-checked since the four-book shell and the Quartet layout: this machine has no simulator (`xcrun simctl` missing). Run `wkshot.mjs --probe` on Quartet routes and a TRY chapter when one is available.
+- Real iOS Safari unchecked for the four-book shell and the Quartet layout: this machine has no simulator (`xcrun simctl` missing). Run `wkshot.mjs --probe` on Quartet routes and a TRY chapter when one is available.
 - `content-visibility: auto` not used: it would cut a chapter render at 4× CPU from ~140 to ~75 ms, but `fitRubies()` and `fitOptionCols()` measure every point after render, and `#/gp/N` jumps would land on estimated heights.
 - Quartet body text at 15px: a reading wider than its word (ちゅうごくじん over 中国人) leaves a small gap; titles (.42em readings) do not.
 - Q2 漢字チャレンジ k20: the job-ad labels printed white on dark are plain boxed cells (`frame`).
 - Decorative tiles (ornaments without text) are not marked or reproduced.
 - Quartet `challenge.js` and every `lNN.js` load up front: the sidebar and openers need the unit titles (lazy loading would need a unit index split out), and sidebar, progress and prev/next need every lesson.
-- TRY 単語 全部 renders all ~7 600 rows at once; chunked rendering would need a vocab.js change.
+- TRY 単語 全部 renders all ~1 100 rows (N1 ~900; ~7 700 DOM nodes) at once; chunked rendering would need a vocab.js change.
 - Five-column Quartet tables with English on (Q1 L6 聴解 garbage table) scroll sideways inside `.qtbl-wrap` at 320: English
   words set the column minimum and cannot hyphenate, because English spans inherit `lang="ja"` (a `lang="en"` span would
   draw the Japanese words inside English lines with Chinese glyph forms on some systems).

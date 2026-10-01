@@ -4,7 +4,8 @@ Both Quartet books: Quartet II (`data/q2/`, lessons 7–12) and Quartet I (`data
 so the model differs from the TRY books (`data/SCHEMA.md`): a lesson is a list of sections (読む・書く・話す・聞く), a
 section a list of blocks rendered in book order (`assets/js/q2/blocks.js`). Page numbers below are Quartet II's unless
 marked Q1; page maps and transcription conventions: `docs/Q2-TRANSCRIPTION.md`, `docs/Q1-TRANSCRIPTION.md`. Per-book
-names the renderer shows (`shortTitle`, `titleJa`, `unitKinds`, `accent`, `toc`) are in each `book.js`.
+names the renderer shows (`shortTitle`, `titleJa`, `unitKinds`, `accent`) are in each `book.js` (Q1 also `toc`: section
+titles shown for a lesson whose file is missing).
 
 ## Files
 
@@ -95,7 +96,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"], caption, align, headAlign, stripe }
 { t: "words", label, items: [ { ja: "{悩|なや}む", en: "to worry" } ] }     // 単語 box (label default 単語)
 { t: "figure", desc: "…", labels: ["満足度"] }   // a picture that matters: desc ours, labels the printed Japanese
-{ t: "chart", title, kind: "bar" | "line" | "pie" | "table", unit, head, rows, note }   // a graph with printed values
+{ t: "chart", title, kind: "bar" | "line" | "pie" | "table", unit, head, rows, note, desc }   // a graph with printed values; desc ours
 { t: "hr" }
 ```
 
@@ -168,7 +169,7 @@ blanks ①（　） as printed.
 
 - `star`: the ★ badge; `ref`: the bracketed source as printed; `pattern` / `gloss` as printed (gloss without ⟨ ⟩).
 - `deepDive`: ours (docs/ENGLISH.md), closed under the note. Counterparts in the TRY books: `data/links.js`.
-- Sub-patterns (4. 〜こそ → ① Nこそ Y): `{ t: "sub", n: 1, pattern, gloss }` followed by its key / examples / conn;
+- Sub-patterns (4. 〜こそ → ① Nこそ Y): `{ t: "sub", n: 1, pattern, gloss, ref }` followed by its key / examples / conn;
   example numbers continue as printed.
 - `key`: the accent box, book English in `en`.
 - `examples`: `n` as printed; items may carry `sp` or `lines`; `tr` required except on × / ？ sentences. `sub: "a"` on
@@ -226,12 +227,13 @@ Stroke-order diagrams are not reproduced.
 
 ```js
 TRY.registerUnits([
-  { id: "c1", kind: "challenge", no: 1, title: "{視点|してん}", en: "Viewpoint", lesson: 7, page: 200, blocks },
+  { id: "c1", kind: "challenge", no: 1, title: "{視点|してん}", en: "Viewpoint", lesson: 7, lessons: [7], page: 200, blocks },
   { id: "k13", kind: "kanji", no: 13, title: "{部首|ぶしゅ}「さんずい（氵）」", lesson: 7, page: 226, blocks } ]);
 ```
 
 `kind` is one of the book's `unitKinds` (book.js, sidebar order): Q2 `challenge` (上級へのチャレンジ, `c1`–`c8`), Q1
-`grammar` (初級文法チェック, `g1`–`g7`, same blocks), both `kanji` (漢字チャレンジ, Q2 `k13`–`k24`, Q1 `k1`–`k12`).
+`grammar` (初級文法チェック, `g1`–`g7`, same blocks), both `kanji` (漢字チャレンジ, Q2 `k13`–`k24`, Q1 `k1`–`k12`). `lessons`: the lessons a unit goes with as printed (Q2 c8
+`[8, 10, 12]` with `lesson: null`; Q1 g1, g4, g7 have neither); no renderer reads it yet.
 
 ## Front matter (`front.js`)
 

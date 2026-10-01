@@ -110,7 +110,7 @@ apply. A vertical `dialogue` (N1 ch5) heads each column with the speaker; lines 
   index: [ "Nにつき" ],                    // extra searchable forms
   deepDive: "…",                          // ours, required; \n\n paragraphs, "- " bullets (docs/ENGLISH.md)
   practice: [ Exercise, … ],              // やってみよう！
-  notesFirst: true                        // only when the point prints notes/practice in the other order
+  notesFirst: false                       // only when the point prints notes/practice in the other order than book.js
 }
 ```
 
