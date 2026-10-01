@@ -173,13 +173,13 @@ const markActive = (h) => {
 };
 // layout pass after a render: option columns, furigana overhang, vertical scrollers
 const layout = (root) => { fitOptionCols(root); fitRubies(root, true); vtScrollInit(true); A.layout(root, true); };
-// back: a history step or a reload (hashchange, page load), which return to the place last read on that entry
-function route(force, back) {
+// rec: the place saved on the history entry (back / forward, reload: enter() below)
+function route(force, rec) {
   TTS.stop();
   if (!force) snap = null; // a new page: the last place read belongs to the old one
   const h = hashRoute(), main = $("#main"), t = A.target(h);
   const loading = need(h);
-  if (loading) return loading.then((failed) => { route(true, back); showErrors(failed); });
+  if (loading) return loading.then((failed) => { route(true, rec); showErrors(failed); });
   if (force || main.dataset.view !== h || /(^|\/)drill$/.test(h)) {
     const html = A.viewHtml(h, t);
     main.innerHTML = (h ? "" : shelfHtml()) + (html || notFound());
@@ -191,7 +191,7 @@ function route(force, back) {
   markActive(h);
   setDrawer(false, false);
   const el = t.scrollTo && $(t.scrollTo);
-  if (!(back && placeAgain(h))) {
+  if (!placeAgain(h, rec)) {
     if (el) requestAnimationFrame(() => el.scrollIntoView({ behavior: "instant", block: "start" }));
     else window.scrollTo(0, 0);
   }
@@ -199,23 +199,44 @@ function route(force, back) {
   queueResume();
 }
 // jumping between the grammar points (or to the review) of the chapter on screen keeps its DOM
-function sameChapterJump() {
+function sameChapterJump(rec) {
   const h = hashRoute(), t = A.target(h);
   const el = t.ch && t.scrollTo && String(t.ch) === $("#main").dataset.ch && $(t.scrollTo);
   if (!el) return false;
-  if (!placeAgain(h)) el.scrollIntoView({ block: "start" });
+  if (!placeAgain(h, rec)) el.scrollIntoView({ block: "start" });
   markActive(h);
   queueResume();
   return true;
 }
-// the place last read on this history entry (takeSnap below): back / forward and a reload returned to the top of the page
-// or the grammar point (the page renders after load, so the browser's own scroll restoration found nothing to restore)
+// the place last read on each history entry, for back / forward and reload (they went to the top of the page or the
+// grammar point: the page renders after load, so the browser's own scroll restoration had nothing to restore). An entry
+// gets an id once (history.state); its place is saved in sessionStorage when the reader leaves it (hashchange, page
+// hidden), not while scrolling: iOS browsers built on WKWebView (Brave, Chrome) hear every history.replaceState
 history.scrollRestoration = "manual";
-function placeAgain(h) {
+const places = () => { try { return JSON.parse(sessionStorage.getItem("n2.places")) || {}; } catch (e) { return {}; } };
+let entry = "", entryH = "";
+function savePlace() {
+  if (!entry || $("#main").dataset.view == null) return;
+  const m = places();
+  delete m[entry]; // the newest last: the oldest of 50 go
+  const ks = Object.keys(m);
+  if (ks.length >= 50) delete m[ks[0]];
+  m[entry] = { h: entryH, y: scrollY, p: placeRec() };
+  try { sessionStorage.setItem("n2.places", JSON.stringify(m)); } catch (e) {}
+}
+// the entry now shown (a link followed: a new one) → its saved place, if any
+function enter() {
   const st = history.state;
-  if (!st || st.h !== h || !st.p) return false;
-  scrollTo(0, st.y);
-  placeBack(st.p);
+  entryH = hashRoute();
+  if (st && st.n2) return (entry = st.n2), places()[entry];
+  entry = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  try { history.replaceState(Object.assign({}, st, { n2: entry }), ""); } catch (e) {}
+  return null;
+}
+function placeAgain(h, rec) {
+  if (!rec || rec.h !== h) return false;
+  scrollTo(0, rec.y);
+  placeBack(rec.p);
   return true;
 }
 // re-render the current view in place (a setting changed how content is built)
@@ -273,12 +294,7 @@ const queueFit = (all) => { if (fitQueued) return; fitQueued = requestAnimationF
 // re-fits every text and may re-render the readings, then puts it back. Not taken while a resize settles — the
 // browser has already laid the page out at the new width by the time resize or a media-query change fires
 let snap = null, snapT = 0, resizing = 0;
-const takeSnap = () => {
-  if (resizing || $("#main").dataset.view !== hashRoute()) return; // not before the page is rendered (fonts.ready)
-  const p = placeRec();
-  snap = keepPlace(null, p);
-  try { history.replaceState({ h: hashRoute(), y: scrollY, p }, ""); } catch (e) {} // Safari: ≤ 100 calls in 10 s
-};
+const takeSnap = () => { if (!resizing) snap = keepPlace(); };
 
 ACT.en = (t) => t.closest(".bi").classList.toggle("en-open");
 ACT["en-scope"] = (t) => { const box = t.closest("[data-en-scope]"); if (box) box.classList.toggle("en-all"); };
@@ -371,7 +387,9 @@ function wireEvents() {
     if (e.key === "e" && !typing) setEnglish(!settings.english);
     if (e.key === "f" && !typing) { setSetting("furigana", !settings.furigana); queueFit(true); }
   });
-  window.addEventListener("hashchange", () => { if (sameChapterJump()) setDrawer(false, false); else route(false, true); });
+  window.addEventListener("hashchange", () => { savePlace(); const rec = enter(); if (sameChapterJump(rec)) setDrawer(false, false); else route(false, rec); });
+  addEventListener("pagehide", savePlace);
+  document.addEventListener("visibilitychange", () => { if (document.hidden) savePlace(); });
   // leaving drawer mode (rotate / resize wider) must not leave the page scroll-locked
   // crossing 901px (a tablet turned): Quartet readings in auto mode switch 縦/横 like the TRY 見本文 (content.js)
   matchMedia(WIDE).addEventListener("change", (m) => {
@@ -394,7 +412,7 @@ async function init() {
   const failed = await TRY.ready;
   A.sidebar();
   document.addEventListener("try:progress", () => { A.updateProgress(); queueResume(); });
-  route(false, true);
+  route(false, enter());
   showErrors(failed);
 }
 // data files that did not load are reported on the page (the rest of the book still renders)
