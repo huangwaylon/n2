@@ -42,6 +42,8 @@ const HTML = `(() => {
 })()`;
 for (const r of routes) {
   await pg.evaluate(`location.hash = "#/${r}"`);
+  // a route with lazy files (Quartet index, lists) renders once they have loaded
+  for (let i = 0; i < 50 && !(await pg.evaluate(`document.querySelector("#main").dataset.view === ${JSON.stringify(r)}`)); i++) await sleep(100);
   await sleep(/^(ch|l|u)\//.test(r) ? 700 : 300);
   console.log("=== " + (r || "home"));
   console.log(await pg.evaluate(html ? HTML : TEXT));

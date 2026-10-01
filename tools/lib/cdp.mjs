@@ -3,7 +3,7 @@
 // which plain `--window-size` cannot do: desktop Chrome refuses windows narrower than ~500 px).
 // Requires Node >= 22 (global WebSocket/fetch) and the local server on :8765 (python3 -m http.server 8765).
 import { spawn } from "node:child_process";
-import { rmSync } from "node:fs";
+import { readFileSync, rmSync } from "node:fs";
 
 export const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 export const BASE = process.env.N2_BASE || "http://localhost:8765/";
@@ -21,24 +21,28 @@ for (const sig of ["SIGINT", "SIGTERM", "SIGHUP"]) process.on(sig, () => process
 // logs collects console messages, uncaught exceptions and failed-load log entries.
 export async function open({ route = "", width = 1280, height = 900, scheme = "light", wait = 2500, mobile, touch, dpr = 1, furigana = true } = {}) {
   mobile = mobile ?? width < 700; touch = touch ?? mobile;
-  // launch Chrome on a random debugging port; retry on a fresh port if it doesn't come up (port clash, slow start)
+  // launch Chrome on a debugging port it picks itself (written to DevToolsActivePort in its profile): a port chosen here
+  // could belong to another tool's Chrome, whose page this one then drove. Retried if it doesn't come up (slow start)
   let ch, prof, tabs, err = "";
   for (let attempt = 0; attempt < 3 && !tabs; attempt++) {
-    const port = 9300 + Math.floor(Math.random() * 600);
-    prof = `/tmp/n2-cdp-prof-${port}-${process.pid}`;
-    ch = spawn(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", `--remote-debugging-port=${port}`,
+    prof = `/tmp/n2-cdp-prof-${process.pid}-${attempt}`;
+    rmSync(prof, { recursive: true, force: true });
+    ch = spawn(CHROME, ["--headless=new", "--disable-gpu", "--hide-scrollbars", "--remote-debugging-port=0",
       `--user-data-dir=${prof}`, "about:blank"], { stdio: ["ignore", "ignore", "pipe"] });
     live.add(ch); let exited = false;
     ch.once("exit", (c) => { live.delete(ch); exited = true; err += `\n(exit ${c})`; });
     ch.stderr.on("data", (d) => (err = (err + d).slice(-4000)));
     for (let i = 0; i < 120 && !exited; i++) {
-      try { const t = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); if (t.find(x => x.type === "page")) { tabs = t; break; } } catch (e) {}
+      try {
+        const port = readFileSync(`${prof}/DevToolsActivePort`, "utf8").split("\n")[0];
+        const t = await (await fetch(`http://127.0.0.1:${port}/json`)).json(); if (t.find(x => x.type === "page")) { tabs = t; break; }
+      } catch (e) {}
       await sleep(250);
     }
     if (!tabs) { ch.kill(); rmSync(prof, { recursive: true, force: true }); }
   }
   // Chrome's own stderr (minus the headless noise) says why it did not come up
-  if (!tabs) throw new Error("headless Chrome did not start (tried 3 ports):\n" +
+  if (!tabs) throw new Error("headless Chrome did not start (3 tries):\n" +
     err.split("\n").filter(l => l && !/CVDisplayLink|Keychain|Encryption is not/.test(l)).slice(-12).join("\n"));
   ch.stderr.removeAllListeners("data"); ch.stderr.resume();
   const ws = new WebSocket(tabs.find(t => t.type === "page").webSocketDebuggerUrl);
