@@ -14,7 +14,15 @@ export function flashcards(key, build) {
     <p class="dim dr-count">${fc.i + 1} / ${fc.cards.length} · 覚えた ${fc.cards.filter((x) => known[x.key]).length}</p>`;
 }
 // the drill pages keep their state here and in their modules, so a redraw is a re-render of the route (main.js)
-export const redraw = () => document.dispatchEvent(new Event("try:rerender"));
+// The control that had focus gets it back in the new markup (same data-* attributes): keyboard users kept losing their
+// place to <body> after every card, so Enter flipped a card once and Space then scrolled the page
+const sel = (el) => el && el.dataset && el.dataset.act ? Object.entries(el.dataset).map(([k, v]) => `[data-${k.replace(/[A-Z]/g, (c) => "-" + c.toLowerCase())}="${CSS.escape(v)}"]`).join("") : "";
+export const redraw = () => {
+  const s = sel(document.activeElement);
+  document.dispatchEvent(new Event("try:rerender"));
+  const el = s && document.querySelector("#main " + s);
+  if (el) el.focus({ preventScroll: true });
+};
 ACT["dr-flip"] = () => { fc.show = !fc.show; redraw(); };
 ACT["dr-next"] = (t) => {
   const c = fc.cards[fc.i];
