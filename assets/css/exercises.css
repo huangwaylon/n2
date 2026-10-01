@@ -162,8 +162,8 @@ input.write:focus { outline: none; border-bottom-color: var(--teal); background:
 
 /* ---------- C25 ★ ordering ---------- */
 .order-line { line-height: 2.8; }
-.slots { white-space: normal; }
-.slot { display: inline-flex; align-items: flex-end; justify-content: center; gap: .2em; position: relative; min-width: 3.8em; min-height: 1.9em; border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0; background: none; margin: 0 .25em; padding: 0 .25em; font: 14px/1.6 var(--mincho); color: var(--ink); vertical-align: baseline; cursor: pointer; }
+.slots { white-space: normal; margin: 0 .4em; } /* the book sets the four blanks apart from the words on both sides (pp.27, 101) */
+.slot { display: inline-flex; align-items: flex-end; justify-content: center; gap: .2em; position: relative; min-width: 3.8em; min-height: 1.9em; border: 0; border-bottom: 1.5px solid var(--ink); border-radius: 0; background: none; margin: 0 .35em; padding: 0 .25em; font: 14px/1.6 var(--mincho); color: var(--ink); vertical-align: baseline; cursor: pointer; }
 .slot::after { content: ""; position: absolute; inset: -10px 0; }
 .slot--star:not(.filled)::before { content: "★"; font: 15px/1.6 var(--goth); }
 .slot--star.filled::before { content: "★"; position: absolute; top: -1.05em; left: 50%; transform: translateX(-50%); font: 11px/1 var(--goth); }
