@@ -29,7 +29,8 @@ const LS = {
 // sidebar: the table of contents shown beside the page at ≥901 (☰ hides it; below 901 it is a drawer either way)
 const SETTINGS = { furigana: false, english: false, rate: 0.9, vertical: "auto", theme: "auto", sidebar: true };
 export const settings = Object.assign({}, SETTINGS, LS.get("settings", {}));
-for (const k in SETTINGS) if (typeof settings[k] !== typeof SETTINGS[k]) settings[k] = SETTINGS[k];
+const CHOICES = { vertical: ["auto", "v", "h"], theme: ["auto", "light", "dark"] };
+for (const k in SETTINGS) if (typeof settings[k] !== typeof SETTINGS[k] || (CHOICES[k] && !CHOICES[k].includes(settings[k]))) settings[k] = SETTINGS[k];
 export const saveSettings = () => LS.set("settings", settings);
 const progressKey = () => (BOOK().id === "n2" ? "progress" : `progress.${BOOK().id}`);
 export const progress = { studied: {}, scores: {} };

@@ -61,8 +61,9 @@ export const PROBE_FN = String(function probe(opts) {
       const s = getComputedStyle(a);
       if (s.overflowX !== "visible" || s.overflowY !== "visible") {
         const ar = a.getBoundingClientRect();
-        const sx = a.scrollWidth > a.clientWidth + 1 || a.scrollHeight > a.clientHeight + 1; // scrollers: content may be out of view by design
-        if (!sx && (rr.top < ar.top - 0.5 || rr.bottom > ar.bottom + 0.5 || rr.left < ar.left - 0.5 || rr.right > ar.right + 0.5)) { out.clip.push({ at: ctx(rt), why: "overflow of " + (a.className || a.tagName) }); break; }
+        // a scroller may hide content along its scrolling axis by design; across it (a 縦 scroller's height) it must not
+        const sx = a.scrollWidth > a.clientWidth + 1, sy = a.scrollHeight > a.clientHeight + 1;
+        if ((!sy && (rr.top < ar.top - 0.5 || rr.bottom > ar.bottom + 0.5)) || (!sx && (rr.left < ar.left - 0.5 || rr.right > ar.right + 0.5))) { out.clip.push({ at: ctx(rt), why: "overflow of " + (a.className || a.tagName) }); break; }
       }
     }
   }
