@@ -165,8 +165,11 @@ let A = TRY_BOOK;
 // ---------- router ----------
 const hashRoute = () => location.hash.replace(/^#\/?/, "");
 const markActive = (h) => {
-  const p0 = h.split("/")[0];
-  $$(".sb-list a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + h));
+  const p0 = h.split("/")[0], links = $$(".sb-list a");
+  // a Quartet note or strategy (gn/8-3, st/11) has no row of its own: its section's row is marked (the section tab on the page)
+  let cur = "#/" + h;
+  if (!links.some((a) => a.getAttribute("href") === cur)) { const tab = $("#main .sk-tabs a[aria-current]"); if (tab) cur = tab.getAttribute("href"); }
+  links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === cur));
   $$(".topnav a, .sb-pages a").forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#/" + p0));
 };
 // layout pass after a render: option columns, furigana overhang, vertical scrollers
