@@ -3401,6 +3401,7 @@ TRY.registerLesson({
        "blocks": [
         {
          "t": "qs",
+         "style": "memo",
          "items": [
           {
            "n": "①",
