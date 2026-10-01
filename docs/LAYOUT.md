@@ -246,6 +246,8 @@ Most Quartet rules are commented next to the CSS in `q2.css`. These are easy to 
 - Q1 part badges `[#パートA]` (filled) / `[#パートB]` (outlined): inline in ☛ lines; a box titled with one is the book's band; in a flowchart the phase tab takes the badge's fill.
 - Head styles `rule` (読む前に・読んだ後で, 文型・表現ノート: centred between accent rules, track at the right) and `tag` (読み物1/2 on the 読む前に page, no band), Q1/Q2 pp.002, 009.
 - ❶–❿ at text size except before a dialogue line (small, raised); ink inside instructions and questions. ○ × in ink. Circled ①② in question numbers ink, bare digits boxed (units). Units: ☛ 第N課 in the title band, "1." headings plain accent, Ⓐ sub-headings ink on a grey square.
+- 聴解 outlines / notices a–d: box style `memo`, a run two to a row, label above a dog-eared ink sheet (Q1 p.029, Q2 p.095). Choices with text `list: true`, one per line (Q1 pp.064, 097, 166). Figure item labels "a.　…" one per line (Q2 p.197). 出典 lines `p` style `source`.
+- Openers: can-do rows without gaps; Q1 prints readings under 第/課 (`openerRuby` in book.js). Role cards: heads and texts 1.12em. ここにも注目: title set into the top edge, point headings after an accent ▸. 横 readings with a byline: byline on its own line under the title (≥601 px); ◆ section headings 1.05em.
 - ❶–❿ step marks are followed by a word joiner; `.bk-en` keeps quoted Japanese on one line (`keep-all`); indexes use auto column widths.
 - Reading style `email` (Q1 pp.034–035): 差出人／宛先／件名／添付 on a grey header band, framed Gothic body, no indent. モデル作文 in 縦書き: the grey panel runs across all columns, role brackets below.
 - Tables: `align` / `headAlign` per table or column (Q1 head rows centred); grey row labels `c--gray` never break inside a word (p.049); `stripe` greys every second row (p.107).
