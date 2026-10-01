@@ -76,6 +76,7 @@ for b in n2 n1 q1 q2; do node tools/text-snapshot.js $b | diff tools/$b/text-bas
 for b in q1 q2; do node tools/q2/check.js $b && node tools/q2/verify.js $b; done    # Quartet structure, markup, lists
 for b in n2 n1; do node tools/xref.js $b; node tools/vocab-check.js $b; done        # #N references, vocabulary
 node tools/links.js                                                                 # cross-book links
+node tools/render-smoke.mjs                                                         # every route renders (Node, no browser)
 node tools/ocr-diff.js data/n2/ch01.js 18-29        # transcription vs OCR (Quartet: tools/q2/ocr-diff.js); check < 0.9 (Quartet 0.85) on the scan
 ```
 
