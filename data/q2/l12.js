@@ -4283,7 +4283,7 @@ TRY.registerLesson({
             ],
             [
              {
-              "ja": "賛成側【賛成のまとめのスピーチ】",
+              "ja": "!!賛成側【賛成のまとめのスピーチ】!!",
               "tr": "For side [closing speech in favor]"
              },
              {

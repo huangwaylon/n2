@@ -6914,7 +6914,7 @@ l12.sections.2.blocks.36.items.0.text.ja	（まとめのスピーチと判定 (j
 ディベートは、「2-4. 練習しよう」の❶〜❼の後、以下の❽〜⓫の「まとめのスピーチ」と「判定」が続きます。［　　　］のパターンを使って話してみましょう。まず反対側がまとめのスピーチを行い、次に賛成側がまとめのスピーチをした後に、{司会|しかい}が判定を行います。
 l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.0.0.ja	反対側【反対のまとめのスピーチ】
 l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.0.1.ja	❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
-l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.1.0.ja	賛成側【賛成のまとめのスピーチ】
+l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.1.0.ja	!!賛成側【賛成のまとめのスピーチ】!!
 l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.1.1.ja	❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する
 l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.2.0.ja	{司会|しかい}【判定】
 l12.sections.2.blocks.36.items.0.blocks.0.blocks.0.rows.2.1.ja	⓫ 判定する
