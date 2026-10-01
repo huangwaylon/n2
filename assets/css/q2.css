@@ -458,12 +458,16 @@ a.ref:hover u { background: var(--q-soft); }
 .vl { margin: 18px 0 30px; }
 .vl-h { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; font: 800 20px/1.4 var(--goth); border-left: 6px double var(--line); padding-left: 10px; }
 .vl-h__l { color: var(--ink-2); font-size: 16px; }
-.vl-h__s { color: var(--q); }
+.vl-h__s { color: var(--ink); }  /* the section tag in ink, as printed (p.004) */
 .vl-legend { font: 13px/1.7 var(--goth); color: var(--ink-2); }
 .vl-t { border-collapse: collapse; width: 100%; font-size: 15px; }
-.vl-t th { font: 700 12px/1.6 var(--goth); border-bottom: 2px solid var(--ink-2); text-align: left; padding: 2px 8px; }
-.vl-t td { padding: 3px 8px; border-bottom: 1px solid var(--line); line-height: 1.7; vertical-align: top; }
-.vl-t tr:nth-child(odd) td { background: color-mix(in srgb, var(--q-gray) 60%, transparent); }
+/* 別冊 p.004: the head between a heavy and a thin rule, centred labels split by short bars; grey stripes without rules,
+   the numbers outside the stripes in the margin */
+.vl-t th { font: 700 12px/1.6 var(--goth); border-block: 2px solid var(--ink-2); border-bottom-width: 1px; text-align: center; padding: 2px 8px; }
+.vl-t th:first-child { border-color: transparent; }
+.vl-t th + th + th { background: linear-gradient(var(--ink-2), var(--ink-2)) left center / 1.5px 70% no-repeat; }
+.vl-t td { padding: 3px 8px; line-height: 1.7; vertical-align: top; }
+.vl-t tr:nth-child(odd) td:not(.vl-n) { background: color-mix(in srgb, var(--q-gray) 60%, transparent); }
 .vl-n { font: 700 14px/1.9 var(--goth); white-space: nowrap; text-align: right; }
 .vl-k, .vl-ln { text-align: center; white-space: nowrap; font: 13px/1.9 var(--goth); color: var(--ink-2); }
 .vl-w { font-family: var(--mincho); }
