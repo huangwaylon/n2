@@ -3061,7 +3061,8 @@ TRY.registerLesson({
             "text": {
              "ja": "おすすめしたい物の名前",
              "tr": "Name of the thing you want to recommend"
-            }
+            },
+            "style": "gray"
            },
            ""
           ],
@@ -3071,7 +3072,8 @@ TRY.registerLesson({
             "text": {
              "ja": "どんなものか\n・見た目\n・使い方　など",
              "tr": "What kind of thing it is\n・How it looks\n・How to use it, etc."
-            }
+            },
+            "style": "gray dash"
            },
            ""
           ],
@@ -3081,11 +3083,13 @@ TRY.registerLesson({
             "text": {
              "ja": "それの{魅|み}{力|りょく}\n・何がいいのか",
              "tr": "Its appeal\n・What is good about it"
-            }
+            },
+            "style": "gray dash"
            },
            "・\n・\n・"
           ]
-         ]
+         ],
+         "memo": true
         }
        ]
       },

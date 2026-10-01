@@ -214,7 +214,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 /* a row whose cell has style dash is ruled above with a dashed line, the label column included (Q2 p.090); the row
    above gets the same bottom so the collapsed border stays dashed (solid would win) */
 .qtbl tr:has(> .c--dash) > * { border-top-style: dashed; } .qtbl tr:has(+ tr > .c--dash) > :not([rowspan]) { border-bottom-style: dashed; }
-.qtbl.qtbl--memo th.c--gray { background: var(--q-gray); border-color: var(--ink-3); }
+.qtbl.qtbl--memo th.c--gray { width: 1%; background: var(--q-gray); border-color: var(--ink-3); }   /* the label column as narrow as its lines */
 .qbox--sheet > .qtbl-wrap { margin: 0; }
 .qbox__title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font: 700 16px/1.6 var(--goth); margin-bottom: 6px; }
 .qbox__ic { color: var(--q); font-size: 1.2em; }
