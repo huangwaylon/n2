@@ -154,7 +154,9 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qs__n--box { justify-self: start; display: grid; place-items: center; min-width: 1.4em; height: 1.4em; margin-top: .3em; border: 1.5px solid currentColor; color: var(--ink); font: 500 .8em/1 var(--goth); }
 .qs__b { min-width: 0; }
 .qs__t .ja { font-family: var(--goth); }
-.qs__words { display: flex; flex-wrap: wrap; gap: .3em 1.6em; margin: 6px 0 0 1em; font-size: 1.05em; }
+.qs__words { display: flex; flex-wrap: wrap; gap: .3em 0; margin: 6px 0 0 1em; font-size: 1.05em; }
+/* the words spaced wide apart, the brackets close to the first and last word (Q1 p.068) */
+.qs__words > span { padding: 0 .9em; } .qs__words > span:first-child { padding-left: .4em; } .qs__words > span:last-child { padding-right: .4em; }
 .ans { margin-top: 6px; }
 .ans summary { cursor: pointer; color: var(--q); font: 700 14px/1 var(--goth); min-height: 32px; display: inline-flex; align-items: center; }
 .ans__t { padding: 6px 10px; border: 1.5px dashed var(--line); border-radius: 8px; }
