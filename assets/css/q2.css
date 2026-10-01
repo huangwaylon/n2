@@ -18,7 +18,11 @@ ruby { -webkit-ruby-position: after; ruby-position: under; }
 .sk-ic { width: 1.25em; height: 1.25em; flex: none; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; vertical-align: -.2em; }
 .sb-sk { display: inline-grid; place-items: center; color: var(--q); font-size: 12px; font-weight: 700; }
 .sb-sub { padding: 6px 14px 2px 22px; font-size: 12px; color: var(--ink-3); list-style: none; }
-.step { color: var(--q); font-family: var(--goth); font-size: .8em; vertical-align: .35em; margin-right: .1em; }
+/* ❶–❿ at text size (labels, tables, figures, instructions: Q2 pp.017, 023, 031); in instructions and questions in ink (p.031
+   図の❶〜❺); small and raised before a dialogue line (p.022) */
+.step { color: var(--q); font-family: var(--goth); padding-right: .15em; }
+:is(.qp, .qs__t) .step { color: inherit; }
+.qdlg__say .step { font-size: .8em; vertical-align: .35em; padding-right: 0; margin-right: .1em; }
 .acc { color: var(--q); }
 .pslot { color: var(--q); border-bottom: 1px solid var(--ink-2); padding: 0 .25em; }
 .exno { display: inline-grid; place-items: center; min-width: 1.35em; height: 1.35em; padding: 0 .15em; border: 1.5px solid currentColor; font: 700 .78em/1 var(--goth); vertical-align: .1em; margin: 0 .15em; }
@@ -306,10 +310,10 @@ a.ref:hover u { background: var(--q-soft); }
 .flow__s--b { background: var(--q-gray); justify-self: end; }
 .flow__l { margin: 0; color: var(--q); font: 500 14px/1.6 var(--goth); }
 /* the step mark at the label's size, a space before the label (p.023 ❶ 話しかける) */
-.flow__l .step { font-size: 1em; vertical-align: 0; padding-right: .3em; }
+.flow__l .step { padding-right: .3em; }
 .flow__t .ja { font-family: var(--mincho); margin: 0; }
-/* 練習しよう: the pattern summary prints its marks at text size too (p.024 ❶ 話しかける → ❷ …); the dialogue below keeps them small */
-.qbox--blue .step { font-size: 1em; vertical-align: 0; padding-right: .2em; }
+/* 練習しよう: the pattern summary's marks in the accent (p.024 ❶ 話しかける → ❷ …) */
+.qbox--blue .step { color: var(--q); padding-right: .2em; }
 @media (max-width: 600px) { .flow__s { max-width: 92%; } .flow__steps { padding: 8px; background: none; } }
 /* phones: the printed line breaks in a bubble (p.161) no longer fit the narrower bubble and leave one-kana lines ("…○○さん／は") */
 @media (max-width: 600px) { .flow__t br { display: none; } .flow__head { gap: 6px; font-size: 13px; } .flow__head > span { padding: 5px 8px; } }
