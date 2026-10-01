@@ -241,12 +241,9 @@ function placeAgain(h, rec) {
   placeBack(rec.p);
   return true;
 }
-// re-render the current view in place (a setting changed how content is built)
-function rerender() {
-  const y = scrollY;
-  route(true);
-  window.scrollTo(0, y);
-}
+// re-render the current view in place (a setting changed how content is built), keeping the place read: a route with a
+// target (gp/5, gn/8-3) went back to it
+const rerender = () => route(true, { h: hashRoute(), y: scrollY, p: placeRec() });
 
 // ---------- drawer (≤900 the sidebar slides in over the page) ----------
 const isDrawerOpen = () => document.body.classList.contains("sb-open");
