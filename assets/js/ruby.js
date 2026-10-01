@@ -33,19 +33,30 @@ function overhangRoom(str, i, dir) {
   return j >= 0 && str[j] === (dir > 0 ? "{" : "}") ? 0.75 * RT_K : RT_K;
 }
 // String.replace callback for RUBY_RE: (match, base, reading, offset, whole string)
+// What the overhang can't absorb is taken out of the reading itself, as the book does ("{東京|とうきょう}本社" p.98: the
+// reading set tight over its kanji), by up to a fifth of its width; only the rest pushes the neighbours apart.
+const SQUEEZE = 0.2;
 export function rubyHtml(m, base, rd, off, str) {
-  const e = excess(base, rd);
+  let e = excess(base, rd);
   if (!(e > 0.01) || typeof str !== "string") return `<ruby>${base}<rt>${rd}</rt></ruby>`;
   const r2 = (x) => Math.round(x * 100) / 100;
   const ol = overhangRoom(str, neighbourAt(str, off - 1, -1), -1), or = overhangRoom(str, neighbourAt(str, off + m.length, 1), 1);
-  const data = `data-e="${r2(e)}" data-ol="${ol}" data-or="${or}"`;
   // nothing to overhang on the left (another reading "ご{観覧}{誠}に", a kanji "来月{初旬}に", the start of the text):
   // a centred reading would leave a gap there, so it starts at the base and overhangs the kana on the right instead
-  if (ol === 0 && or > 0) return `<ruby class="r-s" ${data}>${base}<rt>${rd}</rt></ruby>`;
+  const st = ol === 0 && or > 0;
+  // a centred reading overhangs both sides alike, so the narrower room sets how much of it must go
+  const sq = Math.min(e - (st ? Math.min(e, or) : 2 * Math.min(e / 2, ol, or)), SQUEEZE * cw(rd) * RT_K);
+  let rt = `<rt>${rd}</rt>`;
+  if (sq > 0.01) { // negative letter-spacing on every reading character (in rt em), so the reading narrows by sq
+    rt = `<rt style="letter-spacing:${-Math.round((sq / RT_K / Array.from(rd).length) * 1000) / 1000}em">${rd}</rt>`;
+    e -= sq;
+  }
+  const data = `data-e="${r2(e)}" data-ol="${ol}" data-or="${or}"`;
+  if (st) return `<ruby class="r-s" ${data}>${base}${rt}</ruby>`;
   // WebKit and Blink usually let a centred reading overhang both neighbours by half a furigana character (.25em)
   const side = (room) => r2(Math.max(0, Math.min(e / 2, room) - RT_K / 2));
   const l = side(ol), r = side(or);
-  return `<ruby ${data}${l || r ? ` style="margin-inline:${-l}em ${-r}em"` : ""}>${base}<rt>${rd}</rt></ruby>`;
+  return `<ruby ${data}${l || r ? ` style="margin-inline:${-l}em ${-r}em"` : ""}>${base}${rt}</ruby>`;
 }
 // a compound written as adjacent readings ("{国際|こくさい}{交流|こうりゅう}{会|かい}") where one reading is wider than its
 // kanji can't overhang the neighbouring kanji, so its base would be spaced apart ("国際 交流 会"). The book sets such a

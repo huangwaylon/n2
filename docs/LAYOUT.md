@@ -92,6 +92,7 @@ Data `{漢字|かな}` → `rubyMarkup()` → native `<ruby>base<rt>reading</rt>
 
 - Line-height ≥1.9 on any block with ruby (2.0 for book text) so readings sit in the leading. With Noto's tall ascent WebKit makes ruby lines ~4px taller, hence Hiragino first.
 - Overhang (JIS X 4051): a reading wider than its base may overhang a kana or punctuation neighbour, never a kanji or another reading, by up to .5em (.375em when that kana also takes another overhang). `rubyHtml()` writes `data-e`, `data-ol`/`data-or` and first-guess margins; `fitRubies()` measures against the neighbouring glyph on the same line and corrects them in px, since engines differ. Only glyphs in the same inline formatting context count.
+- Squeeze: what the overhang can't take (a centred reading by the narrower side's room; `.r-s` by the right) comes out of the reading as negative `letter-spacing` on its `rt`, by up to a fifth of its width (`SQUEEZE`), as the book sets とうきょう tight over 東京 before 本 (N1 p.98); only the rest pushes the neighbours apart.
 - Start-aligned `ruby.r-s` right after another reading and for the first ruby on a line (`data-ls`, set by `fitRubies()`): the reading starts at its base and overhangs to the right.
 - Group reading (熟語ルビ): adjacent readings where one is wider than its kanji merge into one ruby over the compound.
 - `ruby { white-space: nowrap }`: Blink would otherwise split a base across lines with a slice of the reading each.
