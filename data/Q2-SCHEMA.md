@@ -86,7 +86,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 //   band: hatched band of 読み物1 / 会話1 / 聴解1 (tag "読み物1", icon read|write|speak|listen) · num: 1 モデル作文 (tag "1")
 //   step: 1-1 やってみよう (tag "1-1") · sq: ■ heading · label: 読む前に / リスニング … · flow: フローチャート · plain
 //   rule: 読む前に・読んだ後で, 文型・表現ノート (centred between accent rules) · tag: 読み物1 / 読み物2 under it (tag and icon, no band)
-{ t: "p", text, style: "indent" | "small" | "right" | "center" | "note" }
+{ t: "p", text, style: "indent" | "small" | "right" | "center" | "note" | "source" }
 { t: "list", mark: "・", items: [ Text | { text, blocks } ] }        // mark as printed (・ • ▸ ▶ ■ □ ＊)
 { t: "qs", items: [ { n: "1.", text, words: ["友達"], blocks, answer } ] }
 //   n as printed ("1." "(1)" "①" "1）"); words = the [ … ] box under a question; answer = the printed answer (behind 解答)
@@ -188,6 +188,7 @@ blanks ①（　） as printed.
 { t: "strategy", no: 11, title: "{省略|しょうりゃく}された言葉", en: "Word omission in sentences", page: 8, blocks }
 { t: "tf", items: [ { n: "①", text, tr, answer: "○" } ] }
 { t: "choice", items: [ { n: "", text, options: ["❶", "❷", "❸"], answer: 2 } ] }      // answer = index
+//   list: true — the options one per line, as a.（　）吉田ルート lists (Q1 pp.064, 097, 166)
 { t: "script", audio: "4.Chokai_L7-1", page: 238, key: ["③"], intro: Text, lines: [ { sp: "", v: "f", ja, tr } ] }
 { t: "match", leftLabels: ["a", "b"], left: [Text], rightLabels: ["①", "②"], right: [Text], answer: [1, 0] }
 { t: "compose", min: 550, max: 650 }

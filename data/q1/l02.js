@@ -4474,6 +4474,7 @@ TRY.registerLesson({
     },
     {
      "t": "choice",
+     "list": true,
      "items": [
       {
        "n": "",

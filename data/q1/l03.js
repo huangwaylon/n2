@@ -4146,7 +4146,7 @@ TRY.registerLesson({
     },
     {
      "t": "p",
-     "style": "right",
+     "style": "source",
      "text": {
       "ja": "（出典：ウェブサイト「初心者のための登山とキャンプ入門」）",
       "tr": "(Source: the website “An Introduction to Mountain Climbing and Camping for Beginners”)"
@@ -4154,6 +4154,7 @@ TRY.registerLesson({
     },
     {
      "t": "choice",
+     "list": true,
      "items": [
       {
        "n": "",

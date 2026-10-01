@@ -141,6 +141,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qp--indent .ja { text-indent: 1em; }
 .qp--small .ja { font-size: .88em; color: var(--ink-2); }
 .qp--right { text-align: right; }
+.qp--source { text-align: right; } .qp--source .ja { font-size: .8em; }  /* a source under a table, small (Q1 p.097) */
 .qp--center { text-align: center; }
 .qlist { list-style: none; padding: 0; margin: 8px 0; }
 .qlist > li { position: relative; padding-left: 1.3em; margin: 4px 0; }
@@ -457,6 +458,9 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 .opts--tf { display: inline-flex; gap: 6px; flex: none; }
 .opt--tf, .opt--row { min-width: 44px; min-height: 40px; font: 700 18px/1 var(--goth); }
 .opts--row { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
+/* choice list: options with text (a. 吉田ルート) one per line in the text's size and weight, as printed (Q1 p.097) */
+.opts--list { flex-direction: column; align-items: flex-start; gap: 6px; }
+.opts--list > .opt--row { font-weight: 400; font-size: 16px; line-height: 1.9; padding: 3px 14px 7px; text-align: left; }
 /* touch: 44px targets (docs/LAYOUT.md §3.3); the bubble's inputs keep their line height (2.4em) through negative margins */
 @media (pointer: coarse) {
   .opt--tf, .opt--row { min-height: 44px; }

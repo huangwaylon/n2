@@ -248,7 +248,7 @@ const B = {
     const id = `${ctx.id || "q"}-ch${seq(ctx)}`;
     return exWrap(id, (b.items || []).map((it, i) => `<div class="q choice-q" data-i="${i}">
         ${it.text || it.n ? `<div class="q-line">${qn(it.n)}${line(it.text, "q-text")}</div>` : ""}
-        <div class="opts opts--row" data-answer="${it.answer}">${it.options.map((o, j) => `<button class="opt opt--row" data-act="pick" data-j="${j}">${fmt(o)}</button>`).join("")}</div></div>`).join(""));
+        <div class="opts opts--row${b.list ? " opts--list" : ""}" data-answer="${it.answer}">${it.options.map((o, j) => `<button class="opt opt--row" data-act="pick" data-j="${j}">${fmt(o)}</button>`).join("")}</div></div>`).join(""));
   },
   match(b, ctx) {
     const id = `${ctx.id || "q"}-mt${seq(ctx)}`;
