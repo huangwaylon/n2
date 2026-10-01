@@ -851,116 +851,116 @@ l1.sections.3.title.ja	アメリカ人留学生から見た日本
 l1.sections.3.blocks.0.text.ja	ジブリ美術館
 l1.sections.3.blocks.1.text.ja	留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。
 会話を聞いて{内容|ないよう}と{合|あ}うものに○をつけなさい。
-l1.sections.3.blocks.2.rows.0.0.text	a.（　　）
-l1.sections.3.blocks.2.rows.0.1.text	b.（　　）
-l1.sections.3.blocks.2.rows.1.0.ja	休館日：火曜日
+l1.sections.3.blocks.2.title	a.（　　）
+l1.sections.3.blocks.2.blocks.0.text.ja	休館日：火曜日
 入場時間：
 　10時・12時・14時・16時
 　（{予約|よやく}が必要です）
 入場料金：
 　大人・大学生　1,000円
 　高校・中学生　700円
-l1.sections.3.blocks.2.rows.1.1.ja	休館日：火曜日
+l1.sections.3.blocks.3.title	b.（　　）
+l1.sections.3.blocks.3.blocks.0.text.ja	休館日：火曜日
 入場時間：
 　10時・12時・14時・16時
 　（{予約|よやく}できません）
 入場料金：
 　大人・大学生　1,200円
 　高校・中学生　800円
-l1.sections.3.blocks.2.rows.2.0.text	c.（　　）
-l1.sections.3.blocks.2.rows.2.1.text	d.（　　）
-l1.sections.3.blocks.2.rows.3.0.ja	休館日：火曜日
+l1.sections.3.blocks.4.title	c.（　　）
+l1.sections.3.blocks.4.blocks.0.text.ja	休館日：火曜日
 入場時間：
 　10時・12時・14時・16時・18時
 　（{予約|よやく}が必要です）
 入場料金：
 　大人・大学生　1,000円
 　高校・中学生　700円
-l1.sections.3.blocks.2.rows.3.1.ja	休館日：火曜日
+l1.sections.3.blocks.5.title	d.（　　）
+l1.sections.3.blocks.5.blocks.0.text.ja	休館日：火曜日
 入場時間：
 　10時・12時・14時・16時・18時
 　（{予約|よやく}できません）
 入場料金：
 　大人・大学生　1,200円
 　高校・中学生　800円
-l1.sections.3.blocks.3.items.0.options.0	a.
-l1.sections.3.blocks.3.items.0.options.1	b.
-l1.sections.3.blocks.3.items.0.options.2	c.
-l1.sections.3.blocks.3.items.0.options.3	d.
-l1.sections.3.blocks.4.key.0	a
-l1.sections.3.blocks.4.intro.ja	留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。会話を聞いて、{内容|ないよう}と{合|あ}うものに○をつけなさい。
-l1.sections.3.blocks.4.lines.0.sp	ジョージ
-l1.sections.3.blocks.4.lines.0.ja	ねえ、{研|けん}。{東京|とうきょう}にジブリの美術館があるの知ってる？
-l1.sections.3.blocks.4.lines.1.sp	研
-l1.sections.3.blocks.4.lines.1.ja	うん、たしか、東京の{三鷹|みたか}っていうところにある__らしい__よ。{僕|ぼく}もずっと行きたいと思ってるんだけど、まだ行ったことない。
-l1.sections.3.blocks.4.lines.2.sp	ジ
-l1.sections.3.blocks.4.lines.2.ja	え、本当？　じゃあ、今度行ってみない？
-l1.sections.3.blocks.4.lines.3.sp	研
-l1.sections.3.blocks.4.lines.3.ja	いいね。ちょっとネットで調べてみる？
-l1.sections.3.blocks.4.lines.4.sp	ジ
-l1.sections.3.blocks.4.lines.4.ja	うん。
-l1.sections.3.blocks.4.lines.5.sp	研
-l1.sections.3.blocks.4.lines.5.ja	……えーと、休みは火曜日か。
-l1.sections.3.blocks.4.lines.6.sp	ジ
-l1.sections.3.blocks.4.lines.6.ja	週末なら{大丈夫|だいじょうぶ}だね。
-l1.sections.3.blocks.4.lines.7.sp	研
-l1.sections.3.blocks.4.lines.7.ja	時間は……朝10時から夕方6時まで{開|あ}いてるね。
-l1.sections.3.blocks.4.lines.8.sp	ジ
-l1.sections.3.blocks.4.lines.8.ja	あっ、でも{入|はい}れる時間が決まってるよ。
-l1.sections.3.blocks.4.lines.9.sp	研
-l1.sections.3.blocks.4.lines.9.ja	ほんとだ。1日4回で、最後は4時か…。
-l1.sections.3.blocks.4.lines.10.sp	ジ
-l1.sections.3.blocks.4.lines.10.ja	入場料はいくら？
-l1.sections.3.blocks.4.lines.11.sp	研
-l1.sections.3.blocks.4.lines.11.ja	えーと、大人と大学生は1,000円。そんなに高くないんだね。
+l1.sections.3.blocks.6.items.0.options.0	a.
+l1.sections.3.blocks.6.items.0.options.1	b.
+l1.sections.3.blocks.6.items.0.options.2	c.
+l1.sections.3.blocks.6.items.0.options.3	d.
+l1.sections.3.blocks.7.key.0	a
+l1.sections.3.blocks.7.intro.ja	留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。会話を聞いて、{内容|ないよう}と{合|あ}うものに○をつけなさい。
+l1.sections.3.blocks.7.lines.0.sp	ジョージ
+l1.sections.3.blocks.7.lines.0.ja	ねえ、{研|けん}。{東京|とうきょう}にジブリの美術館があるの知ってる？
+l1.sections.3.blocks.7.lines.1.sp	研
+l1.sections.3.blocks.7.lines.1.ja	うん、たしか、東京の{三鷹|みたか}っていうところにある__らしい__よ。{僕|ぼく}もずっと行きたいと思ってるんだけど、まだ行ったことない。
+l1.sections.3.blocks.7.lines.2.sp	ジ
+l1.sections.3.blocks.7.lines.2.ja	え、本当？　じゃあ、今度行ってみない？
+l1.sections.3.blocks.7.lines.3.sp	研
+l1.sections.3.blocks.7.lines.3.ja	いいね。ちょっとネットで調べてみる？
+l1.sections.3.blocks.7.lines.4.sp	ジ
+l1.sections.3.blocks.7.lines.4.ja	うん。
+l1.sections.3.blocks.7.lines.5.sp	研
+l1.sections.3.blocks.7.lines.5.ja	……えーと、休みは火曜日か。
+l1.sections.3.blocks.7.lines.6.sp	ジ
+l1.sections.3.blocks.7.lines.6.ja	週末なら{大丈夫|だいじょうぶ}だね。
+l1.sections.3.blocks.7.lines.7.sp	研
+l1.sections.3.blocks.7.lines.7.ja	時間は……朝10時から夕方6時まで{開|あ}いてるね。
+l1.sections.3.blocks.7.lines.8.sp	ジ
+l1.sections.3.blocks.7.lines.8.ja	あっ、でも{入|はい}れる時間が決まってるよ。
+l1.sections.3.blocks.7.lines.9.sp	研
+l1.sections.3.blocks.7.lines.9.ja	ほんとだ。1日4回で、最後は4時か…。
+l1.sections.3.blocks.7.lines.10.sp	ジ
+l1.sections.3.blocks.7.lines.10.ja	入場料はいくら？
+l1.sections.3.blocks.7.lines.11.sp	研
+l1.sections.3.blocks.7.lines.11.ja	えーと、大人と大学生は1,000円。そんなに高くないんだね。
 ……ああ、チケットは{予約|よやく}しなきゃいけないのか。
-l1.sections.3.blocks.4.lines.12.sp	ジ
-l1.sections.3.blocks.4.lines.12.ja	えー、どうやって予約するの？
-l1.sections.3.blocks.4.lines.13.sp	研
-l1.sections.3.blocks.4.lines.13.ja	コンビニとか、それからネットや電話でもできるみたいだよ。
-l1.sections.3.blocks.4.lines.14.sp	ジ
-l1.sections.3.blocks.4.lines.14.ja	じゃあ、今ネットで予約しちゃおうよ。
-l1.sections.3.blocks.4.lines.15.sp	研
-l1.sections.3.blocks.4.lines.15.ja	そうしようか。じゃあ、いつにするか決めよう。
-l1.sections.3.blocks.5.text.ja	店員へのあいさつ
-l1.sections.3.blocks.6.text.ja	聞く前に
-l1.sections.3.blocks.7.text.ja	あなたはスーパーのレジで、店員にあいさつをしたり、店員と話したりしますか。
-l1.sections.3.blocks.8.text.ja	リスニング
-l1.sections.3.blocks.9.text.ja	アメリカ人留学生のジョージが、クラスで「店員へのあいさつ」というタイトルでスピーチをしています。スピーチを聞いて質問に答えなさい。
-l1.sections.3.blocks.10.items.0.ja	{変|へん}な{顔|かお}をする
-l1.sections.3.blocks.10.items.0.en	to have a puzzled look
-l1.sections.3.blocks.10.items.1.ja	{不思議|ふしぎ}に{思|おも}う
-l1.sections.3.blocks.10.items.1.en	to wonder
-l1.sections.3.blocks.10.items.2.ja	{様子|ようす}を{見|み}る
-l1.sections.3.blocks.10.items.2.en	to watch
-l1.sections.3.blocks.11.items.0.text.ja	スピーチの{内容|ないよう}に{合|あ}うものに○、合わないものに×をつけなさい。
-l1.sections.3.blocks.11.items.0.blocks.0.items.0.text.ja	店員はジョージにあいさつしなかった。
-l1.sections.3.blocks.11.items.0.blocks.0.items.0.answer	×
-l1.sections.3.blocks.11.items.0.blocks.0.items.1.text.ja	ジョージは店員にあいさつしなかった。
-l1.sections.3.blocks.11.items.0.blocks.0.items.1.answer	×
-l1.sections.3.blocks.11.items.0.blocks.0.items.2.text.ja	ジョージはスーパーで「こんにちは」と言われた。
-l1.sections.3.blocks.11.items.0.blocks.0.items.2.answer	×
-l1.sections.3.blocks.11.items.0.blocks.0.items.3.text.ja	{他|ほか}の日本人は、店員に返事をしない。
-l1.sections.3.blocks.11.items.0.blocks.0.items.3.answer	○
-l1.sections.3.blocks.11.items.0.blocks.0.items.4.text.ja	コンビニの店員の「こんにちは」にはあまり意味がないらしい。
-l1.sections.3.blocks.11.items.0.blocks.0.items.4.answer	○
-l1.sections.3.blocks.11.items.1.text.ja	ジョージがコンビニに行った時に、店員が変な顔をしたのはどうしてですか。
-l1.sections.3.blocks.11.items.1.answer.ja	店員さんに「こんにちは」と言われて、「こんにちは」と{返|かえ}したからです。
-l1.sections.3.blocks.11.items.2.text.ja	ジョージは、どうして店員にあいさつを返したほうがいいと思っていますか。
-l1.sections.3.blocks.11.items.2.answer.ja	あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思っているからです。
-l1.sections.3.blocks.12.text.ja	ディスカッション
-l1.sections.3.blocks.13.items.0.text.ja	あなたの国では、{衣料品店|いりょうひんてん} (clothing store)、スーパー、レストランなどの店員に、あいさつをしますか。
-l1.sections.3.blocks.13.items.1.text.ja	ジョージの意見に{賛成|さんせい}ですか。{反対|はんたい}ですか。
-l1.sections.3.blocks.14.key.0	1. ① ×　② ×　③ ×　④ ○　⑤ ○
-l1.sections.3.blocks.14.key.1	2. 店員さんに「こんにちは」と言われて、「こんにちは」と{返|かえ}したからです。
-l1.sections.3.blocks.14.key.2	3. あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思っているからです。
-l1.sections.3.blocks.14.intro.ja	アメリカ人留学生のジョージが、クラスで「店員へのあいさつ」というタイトルでスピーチをしています。スピーチを聞いて質問に答えなさい。
-l1.sections.3.blocks.14.lines.0.sp	
-l1.sections.3.blocks.14.lines.0.ja	日本に着いた日、飲み物を買う__ために__コンビニに行きました。店に入ると店員さんが笑顔で「いらっしゃいませ、こんにちは」とあいさつをしてくれたので、私も笑顔で「こんにちは」と{返|かえ}したら、なぜか店員さんに変な顔をされてしまいました。
-l1.sections.3.blocks.14.lines.1.sp	
-l1.sections.3.blocks.14.lines.1.ja	次の日、スーパーのレジでも同じようなことがありました。「お待たせしました」と言われたので「いえいえ、{大丈夫|だいじょうぶ}です」と返したのですが、また変な顔をされてしまいました。
-l1.sections.3.blocks.14.lines.2.sp	
-l1.sections.3.blocks.14.lines.2.ja	{不思議|ふしぎ}に思って{他|ほか}のお{客|きゃく}さんの{様子|ようす}を見てみると、店員さんに{返事|へんじ}をする人はあまりいません。コンビニでアルバイトをしている日本人の{友達|ともだち}__によると__、レジで店員さんに「こんにちは」などとあいさつするお客さんはほとんどいない__らしい__です。「いらっしゃいませ、こんにちは」はマニュアル__どおり__のあいさつで、意味がないのかもしれません。でも、店員さんにあいさつしてもらったら、あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思います。みなさんはどう思いますか。
+l1.sections.3.blocks.7.lines.12.sp	ジ
+l1.sections.3.blocks.7.lines.12.ja	えー、どうやって予約するの？
+l1.sections.3.blocks.7.lines.13.sp	研
+l1.sections.3.blocks.7.lines.13.ja	コンビニとか、それからネットや電話でもできるみたいだよ。
+l1.sections.3.blocks.7.lines.14.sp	ジ
+l1.sections.3.blocks.7.lines.14.ja	じゃあ、今ネットで予約しちゃおうよ。
+l1.sections.3.blocks.7.lines.15.sp	研
+l1.sections.3.blocks.7.lines.15.ja	そうしようか。じゃあ、いつにするか決めよう。
+l1.sections.3.blocks.8.text.ja	店員へのあいさつ
+l1.sections.3.blocks.9.text.ja	聞く前に
+l1.sections.3.blocks.10.text.ja	あなたはスーパーのレジで、店員にあいさつをしたり、店員と話したりしますか。
+l1.sections.3.blocks.11.text.ja	リスニング
+l1.sections.3.blocks.12.text.ja	アメリカ人留学生のジョージが、クラスで「店員へのあいさつ」というタイトルでスピーチをしています。スピーチを聞いて質問に答えなさい。
+l1.sections.3.blocks.13.items.0.ja	{変|へん}な{顔|かお}をする
+l1.sections.3.blocks.13.items.0.en	to have a puzzled look
+l1.sections.3.blocks.13.items.1.ja	{不思議|ふしぎ}に{思|おも}う
+l1.sections.3.blocks.13.items.1.en	to wonder
+l1.sections.3.blocks.13.items.2.ja	{様子|ようす}を{見|み}る
+l1.sections.3.blocks.13.items.2.en	to watch
+l1.sections.3.blocks.14.items.0.text.ja	スピーチの{内容|ないよう}に{合|あ}うものに○、合わないものに×をつけなさい。
+l1.sections.3.blocks.14.items.0.blocks.0.items.0.text.ja	店員はジョージにあいさつしなかった。
+l1.sections.3.blocks.14.items.0.blocks.0.items.0.answer	×
+l1.sections.3.blocks.14.items.0.blocks.0.items.1.text.ja	ジョージは店員にあいさつしなかった。
+l1.sections.3.blocks.14.items.0.blocks.0.items.1.answer	×
+l1.sections.3.blocks.14.items.0.blocks.0.items.2.text.ja	ジョージはスーパーで「こんにちは」と言われた。
+l1.sections.3.blocks.14.items.0.blocks.0.items.2.answer	×
+l1.sections.3.blocks.14.items.0.blocks.0.items.3.text.ja	{他|ほか}の日本人は、店員に返事をしない。
+l1.sections.3.blocks.14.items.0.blocks.0.items.3.answer	○
+l1.sections.3.blocks.14.items.0.blocks.0.items.4.text.ja	コンビニの店員の「こんにちは」にはあまり意味がないらしい。
+l1.sections.3.blocks.14.items.0.blocks.0.items.4.answer	○
+l1.sections.3.blocks.14.items.1.text.ja	ジョージがコンビニに行った時に、店員が変な顔をしたのはどうしてですか。
+l1.sections.3.blocks.14.items.1.answer.ja	店員さんに「こんにちは」と言われて、「こんにちは」と{返|かえ}したからです。
+l1.sections.3.blocks.14.items.2.text.ja	ジョージは、どうして店員にあいさつを返したほうがいいと思っていますか。
+l1.sections.3.blocks.14.items.2.answer.ja	あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思っているからです。
+l1.sections.3.blocks.15.text.ja	ディスカッション
+l1.sections.3.blocks.16.items.0.text.ja	あなたの国では、{衣料品店|いりょうひんてん} (clothing store)、スーパー、レストランなどの店員に、あいさつをしますか。
+l1.sections.3.blocks.16.items.1.text.ja	ジョージの意見に{賛成|さんせい}ですか。{反対|はんたい}ですか。
+l1.sections.3.blocks.17.key.0	1. ① ×　② ×　③ ×　④ ○　⑤ ○
+l1.sections.3.blocks.17.key.1	2. 店員さんに「こんにちは」と言われて、「こんにちは」と{返|かえ}したからです。
+l1.sections.3.blocks.17.key.2	3. あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思っているからです。
+l1.sections.3.blocks.17.intro.ja	アメリカ人留学生のジョージが、クラスで「店員へのあいさつ」というタイトルでスピーチをしています。スピーチを聞いて質問に答えなさい。
+l1.sections.3.blocks.17.lines.0.sp	
+l1.sections.3.blocks.17.lines.0.ja	日本に着いた日、飲み物を買う__ために__コンビニに行きました。店に入ると店員さんが笑顔で「いらっしゃいませ、こんにちは」とあいさつをしてくれたので、私も笑顔で「こんにちは」と{返|かえ}したら、なぜか店員さんに変な顔をされてしまいました。
+l1.sections.3.blocks.17.lines.1.sp	
+l1.sections.3.blocks.17.lines.1.ja	次の日、スーパーのレジでも同じようなことがありました。「お待たせしました」と言われたので「いえいえ、{大丈夫|だいじょうぶ}です」と返したのですが、また変な顔をされてしまいました。
+l1.sections.3.blocks.17.lines.2.sp	
+l1.sections.3.blocks.17.lines.2.ja	{不思議|ふしぎ}に思って{他|ほか}のお{客|きゃく}さんの{様子|ようす}を見てみると、店員さんに{返事|へんじ}をする人はあまりいません。コンビニでアルバイトをしている日本人の{友達|ともだち}__によると__、レジで店員さんに「こんにちは」などとあいさつするお客さんはほとんどいない__らしい__です。「いらっしゃいませ、こんにちは」はマニュアル__どおり__のあいさつで、意味がないのかもしれません。でも、店員さんにあいさつしてもらったら、あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思います。みなさんはどう思いますか。
 l2.opener.0.skills.0.title	メールと手紙
 l2.opener.0.skills.1.title	お{礼|れい}の手紙
 l2.opener.0.canDo.0.ja	メールや手紙が書かれた目的がわかる

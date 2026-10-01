@@ -3979,52 +3979,59 @@ TRY.registerLesson({
      }
     },
     {
-     "t": "table",
-     "cols": [
-      "1fr",
-      "1fr"
-     ],
-     "rows": [
-      [
-       {
-        "head": true,
-        "text": "a.（　　）"
-       },
-       {
-        "head": true,
-        "text": "b.（　　）"
-       }
-      ],
-      [
-       {
+     "t": "box",
+     "style": "memo",
+     "title": "a.（　　）",
+     "blocks": [
+      {
+       "t": "p",
+       "text": {
         "ja": "休館日：火曜日\n入場時間：\n　10時・12時・14時・16時\n　（{予約|よやく}が必要です）\n入場料金：\n　大人・大学生　1,000円\n　高校・中学生　700円",
         "tr": "Closed: Tuesdays\nEntry times: 10:00, 12:00, 14:00, 16:00 (reservations required)\nAdmission: adults and university students ¥1,000; high school and junior high school students ¥700"
-       },
-       {
+       }
+      }
+     ]
+    },
+    {
+     "t": "box",
+     "style": "memo",
+     "title": "b.（　　）",
+     "blocks": [
+      {
+       "t": "p",
+       "text": {
         "ja": "休館日：火曜日\n入場時間：\n　10時・12時・14時・16時\n　（{予約|よやく}できません）\n入場料金：\n　大人・大学生　1,200円\n　高校・中学生　800円",
         "tr": "Closed: Tuesdays\nEntry times: 10:00, 12:00, 14:00, 16:00 (no reservations)\nAdmission: adults and university students ¥1,200; high school and junior high school students ¥800"
        }
-      ],
-      [
-       {
-        "head": true,
-        "text": "c.（　　）"
-       },
-       {
-        "head": true,
-        "text": "d.（　　）"
-       }
-      ],
-      [
-       {
+      }
+     ]
+    },
+    {
+     "t": "box",
+     "style": "memo",
+     "title": "c.（　　）",
+     "blocks": [
+      {
+       "t": "p",
+       "text": {
         "ja": "休館日：火曜日\n入場時間：\n　10時・12時・14時・16時・18時\n　（{予約|よやく}が必要です）\n入場料金：\n　大人・大学生　1,000円\n　高校・中学生　700円",
         "tr": "Closed: Tuesdays\nEntry times: 10:00, 12:00, 14:00, 16:00, 18:00 (reservations required)\nAdmission: adults and university students ¥1,000; high school and junior high school students ¥700"
-       },
-       {
+       }
+      }
+     ]
+    },
+    {
+     "t": "box",
+     "style": "memo",
+     "title": "d.（　　）",
+     "blocks": [
+      {
+       "t": "p",
+       "text": {
         "ja": "休館日：火曜日\n入場時間：\n　10時・12時・14時・16時・18時\n　（{予約|よやく}できません）\n入場料金：\n　大人・大学生　1,200円\n　高校・中学生　800円",
         "tr": "Closed: Tuesdays\nEntry times: 10:00, 12:00, 14:00, 16:00, 18:00 (no reservations)\nAdmission: adults and university students ¥1,200; high school and junior high school students ¥800"
        }
-      ]
+      }
      ]
     },
     {
