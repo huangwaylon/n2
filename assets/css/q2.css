@@ -392,8 +392,8 @@ a.ref:hover u { background: var(--q-soft); }
 .rei__l { font: 16px/2 var(--goth); }
 .rei__i { display: grid; grid-template-columns: 1.4em minmax(0, 1fr); line-height: 2; }
 .rei__b { min-width: 0; }
-.rei__m { font-family: var(--goth); }
-.rei__m.ok { color: var(--ok); } .rei__m.ng { color: var(--ng); }
+.rei__m { font-family: var(--goth); }  /* ○ × △ in ink, as printed (Q1 p.012, Q2 p.009); × as large as ○ */
+.rei__m.ng { display: inline-block; transform: scale(1.4); }
 .rei .en--book { font-family: var(--serif); color: var(--ink); font-size: 14px; }
 
 /* ---------- strategies, units ---------- */
@@ -548,6 +548,9 @@ s { text-decoration: line-through var(--q) 2px; }
 /* an underline sits between the text and its readings (p.082 孤独): close under the glyphs, so a reading under the
    line never crosses it (WebKit ignores offsets on rt, so the rule moves, not the reading) */
 :is(.ref u, u.ref, u.ul, u.ul2) { text-underline-offset: .1em; }
+/* the lessons' __marked__ words (note examples, strategies, scripts): a heavier grey rule (Q2 pp.008–009, Q1 p.012); the
+   別冊 lists keep the thin ink rule of their 新出漢字 (supp p.004) */
+.sec-body u.ul { text-decoration-color: var(--ink-3); text-decoration-thickness: 2px; }
 /* ＊　＊　＊ scene breaks in dialogues: centred (pp.028, 030, 122) */
 .qdlg__row--sep { text-align: center; font-size: .9em; }
 .qdlg__row--sep .qdlg__say { grid-column: 1 / -1; }
