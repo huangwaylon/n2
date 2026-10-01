@@ -50,7 +50,14 @@ export function wireTracks(root) {
 // keeps its id (the key of its saved score) whichever page was shown before
 const seq = (ctx) => (ctx.seq = (ctx.seq || 0) + 1) - 1;
 export function blocks(list, ctx = {}) {
-  return (list || []).map((b) => block(b, ctx)).join("");
+  // a run of memo boxes (the outlines a–d of Q2 p.095) sits two to a row as printed
+  let out = "", memo = "";
+  for (const b of list || []) {
+    if (b && b.t === "box" && b.style === "memo") { memo += block(b, ctx); continue; }
+    if (memo) out += `<div class="qmemos">${memo}</div>`, memo = "";
+    out += block(b, ctx);
+  }
+  return memo ? out + `<div class="qmemos">${memo}</div>` : out;
 }
 function block(b, ctx) {
   const f = B[b && b.t];
@@ -112,6 +119,8 @@ const B = {
     const s = b.style || "gray";
     const icon = s === "attention" ? '<span class="qbox__ic" aria-hidden="true">💡</span>' : s === "task" ? '<span class="qbox__ic" aria-hidden="true">✎</span>' : "";
     const title = b.title ? `<div class="qbox__title">${icon}${inl(b.title)}${b.ref ? `<span class="qbox__ref">${fmt(b.ref)}</span>` : ""}</div>` : "";
+    // memo: its label a.（　） above a dog-eared sheet (Q2 p.095)
+    if (s === "memo") return `<div class="qmemo"${idAttr(b)}>${title}<div class="qmemo__b">${blocks(b.blocks, ctx)}</div></div>`;
     return `<div class="qbox qbox--${s}"${idAttr(b)}>${title}${blocks(b.blocks, ctx)}</div>`;
   },
   table(b) {

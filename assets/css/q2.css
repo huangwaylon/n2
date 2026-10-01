@@ -167,6 +167,14 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--strategy { margin-top: 22px; }
 .qbox--strategy > .qbox__title { width: fit-content; margin: -12px 0 8px -4px; padding: 0 10px 1px; font-size: 13px; line-height: 1.6; color: var(--q); background: var(--bg); border: 1.5px solid var(--q); border-top: 0; border-radius: 0 0 6px 6px; }
 .qbox--challenge { background: var(--q-soft); border-radius: 16px; }
+/* memo: the outlines a–d of Q2 p.095, two to a row, each label a.（　） above an ink-framed sheet with a turned-up corner
+   at the bottom right, the numbered lines indented under the sheet's heading */
+.qmemos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px 32px; margin: 18px 0; padding: 0 2%; }
+.qmemo > .qbox__title { font-weight: 500; margin-bottom: 4px; }
+.qmemo__b { position: relative; padding: 14px 18px 26px; border: 1.5px solid var(--ink-2); background: var(--bg); }
+.qmemo__b::after { content: ""; position: absolute; right: -1.5px; bottom: -1.5px; width: 22px; height: 22px; background: linear-gradient(135deg, transparent 0 calc(50% - 1px), var(--ink-2) calc(50% - 1px) calc(50% + .5px), var(--bg) calc(50% + .5px)); border-left: 1.5px solid var(--ink-2); border-top: 1.5px solid var(--ink-2); }
+.qmemo__b > :first-child { margin-top: 0; }
+.qmemo__b > .bi + .bi > .ja { padding-left: .6em; }
 .qbox__title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; font: 700 16px/1.6 var(--goth); margin-bottom: 6px; }
 .qbox__ic { color: var(--q); font-size: 1.2em; }
 .qbox__ref { font-weight: 400; color: var(--ink-2); font-size: 14px; }

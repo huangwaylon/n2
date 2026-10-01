@@ -91,7 +91,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 { t: "qs", items: [ { n: "1.", text, words: ["友達"], blocks, answer } ] }
 //   n as printed ("1." "(1)" "①" "1）"); words = the [ … ] box under a question; answer = the printed answer (behind 解答)
 { t: "box", style, title, icon, ref, blocks }
-//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目)
+//   gray · blue (accent fill, no border) · accent (fill in an accent frame, Q1 p.035) · frame · attention (💡ここにも注目) · memo (title above a dog-eared sheet, a run two to a row; Q2 p.095)
 //   · task (✎, ref "（読み物2：行13〜15）") · strategy · challenge
 { t: "table", head: [[Cell]], rows: [[Cell]], cols: ["auto", "1fr"], caption, align, headAlign, stripe }
 { t: "words", label, items: [ { ja: "{悩|なや}む", en: "to worry" } ] }     // 単語 box (label default 単語)

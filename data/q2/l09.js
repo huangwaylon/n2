@@ -4105,7 +4105,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "memo",
      "title": "a.（　　）",
      "blocks": [
       {
@@ -4126,7 +4126,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "memo",
      "title": "b.（　　）",
      "blocks": [
       {
@@ -4147,7 +4147,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "memo",
      "title": "c.（　　）",
      "blocks": [
       {
@@ -4168,7 +4168,7 @@ TRY.registerLesson({
     },
     {
      "t": "box",
-     "style": "frame",
+     "style": "memo",
      "title": "d.（　　）",
      "blocks": [
       {
