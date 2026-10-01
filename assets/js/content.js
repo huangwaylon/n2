@@ -1,5 +1,5 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
-import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace } from "./core.js";
+import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, settings, saveSettings, WIDE, isWide, keepPlace, viewH } from "./core.js";
 import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, otherBooksHtml, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
@@ -380,7 +380,7 @@ export function vtScrollInit(refit) {
     if (refit) { delete sc.dataset.fitH; sc.style.height = ""; }
     if (!sc.dataset.fitH && sc.clientWidth) {
       sc.dataset.fitH = 1;
-      const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(innerHeight * 0.8, 44 * fs);
+      const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(viewH() * 0.8, 44 * fs);
       let h = sc.clientHeight;
       while (sc.scrollWidth > sc.clientWidth + 1 && h + 2 * fs <= max) { h += 2 * fs; sc.style.height = `${h}px`; }
     }

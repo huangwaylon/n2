@@ -1,6 +1,6 @@
 // Quartet blocks, both books (q1, q2; data/Q2-SCHEMA.md "Blocks"): every lesson section, brush-up unit and front-matter section is a list
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
-import { ACT, BOOK, $, $$, esc, isWide, progress, saveProgress, settings } from "../core.js";
+import { ACT, BOOK, $, $$, esc, isWide, progress, saveProgress, settings, viewH } from "../core.js";
 import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, otherBooksHtml, plain, speakBtn } from "../markup.js";
 import { deepHtml, vtScrollInit } from "../content.js";
 
@@ -407,7 +407,7 @@ function fitBookLines(body) {
   if (!vert && body.closest(".rd--tate")) { body.classList.remove("rd-body--book"); body.style.fontSize = ""; return; }
   body.classList.add("rd-body--book");
   body.style.fontSize = "";
-  if (sc) sc.style.height = `${Math.max(innerHeight * 0.8, sc.clientHeight)}px`;
+  if (sc) sc.style.height = `${Math.max(viewH() * 0.8, sc.clientHeight)}px`;
   const lines = $$(".bl", body), fits = () => lines.length && !lines.some((l) => lineCount(l, vert) > 1);
   // a text printed in small type (interviews) may need a slightly smaller size to keep the book's lines (not below 15px)
   for (let fs = parseFloat(getComputedStyle(body).fontSize); !fits() && !vert && fs * 0.95 >= 15; ) body.style.fontSize = `${(fs *= 0.95)}px`;

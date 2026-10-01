@@ -293,7 +293,11 @@ function wireEvents() {
     queueFit();
   }, true);
   addEventListener("scroll", () => { queueResume(); clearTimeout(snapT); snapT = setTimeout(takeSnap, 150); }, { passive: true });
+  // a height-only resize is an iOS toolbar sliding in or out while scrolling (or the keyboard): nothing to re-fit
+  let lastW = innerWidth;
   window.addEventListener("resize", () => {
+    if (innerWidth === lastW) return;
+    lastW = innerWidth;
     clearTimeout(resizing); resizing = setTimeout(() => (resizing = 0), 1200);
     clearTimeout(queueFit.t); queueFit.t = setTimeout(() => { vtScrollInit(true); queueFit(true); if (snap) snap(true); }, 150);
   });

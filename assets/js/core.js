@@ -46,6 +46,10 @@ export const LETTERS = "abcdefghijklmnop";
 export const CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮";
 export const WIDE = "(min-width: 901px)"; // desktop layout; the sidebar is a drawer below it
 export const isWide = () => matchMedia(WIDE).matches;
+// the view height for sizing text boxes: iOS browsers change innerHeight (and fire resize) while scrolling, as their
+// toolbars slide in and out; boxes sized from it then changed height under the reader. Taken again when the width changes
+let vw = innerWidth, vh = innerHeight;
+export const viewH = () => { if (innerWidth !== vw) { vw = innerWidth; vh = innerHeight; } return vh; };
 
 // keep a block where it is on screen while a setting rebuilds the page (縦/横: every vertical text above it changes
 // height, and the fit passes after the re-render change it again): the clicked block, else the one being read (across
