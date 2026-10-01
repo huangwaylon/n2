@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Interactive editions of four Japanese textbooks for **English-speaking** learners: a static site (GitHub Pages from
+Interactive editions of four Japanese textbooks for English-speaking learners: a static site (GitHub Pages from
 `main`, no build step, no dependencies).
 
 | Book | Source | Page | Notes |
@@ -15,13 +15,13 @@ names in `data/<book>/book.js`, page ranges in `tools/q2/lib.js`.
 
 ## Source of truth
 
-The scans are the **absolute** source of truth for all book content: Japanese text, furigana, answers, the English the
+The scans are the source of truth for all book content: Japanese text, furigana, answers, the English the
 N2 book prints, and the layout the site imitates. Never "fix" the book; never guess — read the page (`Read n2.pdf
 pages:"18"`; `tools/zoom.sh <book> PDFPAGE` for 300-dpi strips, `… PDFPAGE page` for the whole page).
 
 - OCR of every page (noisy, for grep): `tools/<book>/ocr/NNN.txt`.
-- **No Chinese anywhere** on the site or in the data (no `zh` fields). N1's Chinese may be read only to cross-check meaning.
-- Look at no more than ~8 page images per batch; an agent reading ~35 at once overflowed its context.
+- No Chinese on the site or in the data (no `zh` fields). N1's Chinese may be read only to cross-check meaning.
+- Look at no more than ~8 page images per batch (more overflows an agent's context).
 
 ## English: book vs generated
 
@@ -76,7 +76,7 @@ for b in n2 n1 q1 q2; do node tools/text-snapshot.js $b | diff tools/$b/text-bas
 for b in q1 q2; do node tools/q2/check.js $b && node tools/q2/verify.js $b; done    # Quartet structure, markup, lists
 for b in n2 n1; do node tools/xref.js $b; node tools/vocab-check.js $b; done        # #N references, vocabulary
 node tools/links.js                                                                 # cross-book links
-node tools/ocr-diff.js data/n2/ch01.js 18-29        # transcription vs OCR (Quartet: tools/q2/ocr-diff.js); check < 0.9 on the scan
+node tools/ocr-diff.js data/n2/ch01.js 18-29        # transcription vs OCR (Quartet: tools/q2/ocr-diff.js); check < 0.9 (Quartet 0.85) on the scan
 ```
 
 - A text-snapshot diff must be an intended, verified fix; then regenerate the baseline
@@ -103,7 +103,7 @@ phone. Touch targets ≥ 44 px under `(pointer: coarse)`. No horizontal overflow
 
 Furigana are native `<ruby>`; blocks with readings need line-height ≥ 1.9. A reading wider than its kanji may overhang
 neighbouring kana/punctuation (never kanji or another reading); adjacent over-wide readings become one group reading,
-which never breaks across lines. Quartet prints readings **under** the text (left of the column in 縦書き). Check with
+which never breaks across lines. Quartet prints readings under the text (left of the column in 縦書き). Check with
 `overflow.mjs ROUTE W --furi` at 320/390/820/1280, with and without `--en`.
 
 Follow the books' layout as closely as the screen allows (`docs/LAYOUT.md`): grammar-point bands, どう使う？ pill,
