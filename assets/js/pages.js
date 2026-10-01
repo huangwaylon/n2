@@ -172,8 +172,8 @@ export function drillView() {
   allPoints().forEach(({ g, ch }) => (g.practice || []).concat((g.plus || []).flatMap((p) => p.practice || []), (g.notes || []).flatMap((n) => n.practice || [])).forEach((ex) => add(ex, g, ch)));
   TRY.chapters.forEach((ch) => (ch.review || []).forEach((r) => add(r.ex, null, ch)));
   shuffle(pool);
-  const ex = { type: "choice", items: pool.slice(0, 10).map((p) => Object.assign({}, p.it, { why: Object.assign({}, p.it.why, { ja: ((p.it.why && p.it.why.ja) || "") + (p.g ? ` ☞ [#${p.g.no}]` : ` ☞ 第${p.ch.id}章`) }) })) };
-  const html = renderExercise(ex, "drill-" + ++drillSeq, "ランダム10問 <span class='en-inline'>10 random questions</span>").replace(/☞ \[#(\d+)\]/g, (m, n) => "☞ " + gpLink(+n));
+  const ex = { type: "choice", items: pool.slice(0, 10).map((p) => Object.assign({}, p.it, { why: Object.assign({}, p.it.why, { ja: ((p.it.why && p.it.why.ja) || "") + (p.g ? ` ☞ \uE000${p.g.no}\uE000` : ` ☞ 第${p.ch.id}章`) }) })) };
+  const html = renderExercise(ex, "drill-" + ++drillSeq, "ランダム10問 <span class='en-inline'>10 random questions</span>").replace(/☞ \uE000(\d+)\uE000/g, (m, n) => "☞ " + gpLink(+n)); // a mark fmt() leaves alone ([#N] became a boxed number)
   return `<div class="page drill" data-en-scope>${pageHead("ランダム練習 <span class=\"en-inline\">Random drill</span>")}
       ${ui({ ja: "全章の選択問題からランダムに10問出題します。", en: "Ten multiple-choice questions drawn at random from every chapter." })}
       ${pool.length ? html : "<p>No questions yet.</p>"}<p><a class="btn" href="#/drill" data-act="redrill">もう一度 <span class="en-inline">New set</span></a></p></div>`;
