@@ -1,5 +1,5 @@
-// Flashcards shared by the vocabulary drills (Quartet II 覚える単語・漢字, TRY 単語): a shuffled deck; "again" puts the
-// card back at the end, "got it" marks it known (progress.known, per book).
+// Flashcards shared by the vocabulary drills (Quartet II 覚える単語・漢字, TRY 単語): a shuffled deck; "again" moves the
+// card to the end (the deck keeps its size), "got it" marks it known (progress.known, per book).
 import { ACT, progress, saveProgress, shuffle } from "./core.js";
 
 const fc = { key: null, cards: [], i: 0, show: false };
@@ -27,6 +27,8 @@ ACT["dr-flip"] = () => { fc.show = !fc.show; redraw(); };
 ACT["dr-next"] = (t) => {
   const c = fc.cards[fc.i];
   progress.known = progress.known || {};
-  if (c) { if (t.dataset.k === "1") progress.known[c.key] = 1; else { delete progress.known[c.key]; fc.cards.push(c); } saveProgress(); }
-  fc.i = (fc.i + 1) % Math.max(1, fc.cards.length); fc.show = false; redraw();
+  const again = c && t.dataset.k !== "1";
+  if (c) { if (again) { delete progress.known[c.key]; fc.cards.splice(fc.i, 1); fc.cards.push(c); } else progress.known[c.key] = 1; saveProgress(); }
+  if (!again) fc.i = (fc.i + 1) % Math.max(1, fc.cards.length);
+  fc.show = false; redraw();
 };
