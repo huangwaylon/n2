@@ -275,7 +275,7 @@ Server on :8765, Node ≥22, Google Chrome. Routes are hashes without `#/` (`""`
 | `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [--width=390] [--runs=3] [--files] [ROUTE…]` | cold load and route-change timings, requests, DOM size, CPU in the measuring passes |
 | `tools/zoom.sh BOOK PAGE [1\|2\|3\|page]` | 300-dpi strips or the whole page of the scan |
 
-`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper. The screenshot and probe tools turn furigana on unless `--nofuri` is given (the site default is off).
+`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven, the last within the innermost block around each reading) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper. The screenshot and probe tools turn furigana on unless `--nofuri` is given (the site default is off).
 
 ### 5.1 Pass criteria (every route × width)
 
@@ -324,5 +324,3 @@ Widths 1280, 768, 390, 375, 320; light and dark; EN on/off; furigana on/off; all
 - Five-column Quartet tables with English on (Q1 L6 聴解 garbage table) scroll sideways inside `.qtbl-wrap` at 320: English
   words set the column minimum and cannot hyphenate, because English spans inherit `lang="ja"` (a `lang="en"` span would
   draw the Japanese words inside English lines with Chinese glyph forms on some systems).
-- `overflow.mjs --furi --en` reports uneven line pitch wherever English lines sit between Japanese lines (Quartet
-  dialogues, notes); the Japanese lines themselves are even.
