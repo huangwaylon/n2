@@ -69,7 +69,7 @@ TRY.registerLesson({
      "t": "head",
      "page": 164,
      "id": "l12-maeato",
-     "style": "plain",
+     "style": "rule",
      "text": {
       "ja": "読む前に・読んだ後で",
       "tr": "Before Reading / After Reading"
@@ -78,7 +78,7 @@ TRY.registerLesson({
     {
      "t": "head",
      "id": "l12-maeato-1",
-     "style": "band",
+     "style": "tag",
      "tag": "読み物1",
      "icon": "read",
      "text": {
@@ -161,7 +161,7 @@ TRY.registerLesson({
      "t": "head",
      "page": 165,
      "id": "l12-maeato-2",
-     "style": "band",
+     "style": "tag",
      "tag": "読み物2",
      "icon": "read",
      "text": {

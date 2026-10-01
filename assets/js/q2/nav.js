@@ -155,7 +155,7 @@ function tocOf(list) {
   (function walk(bs) {
     (bs || []).forEach((b) => {
       if (!b) return;
-      if (b.t === "head" && b.id && (b.style === "band" || b.style === "num" || b.style === "step")) out.push(`<a href="#${esc(b.id)}" data-act="jump" class="mt-gp">${b.tag ? `<span class="mt-gp__n">${fmt(b.tag)}</span>` : ""}<span class="mt-gp__t">${fmt(jaT(b.text))}</span></a>`);
+      if (b.t === "head" && b.id && (b.style === "band" || b.style === "rule" || b.style === "num" || b.style === "step")) out.push(`<a href="#${esc(b.id)}" data-act="jump" class="mt-gp">${b.tag ? `<span class="mt-gp__n">${fmt(b.tag)}</span>` : ""}<span class="mt-gp__t">${fmt(jaT(b.text))}</span></a>`);
       else if (b.t === "reading" && b.id && b.n) out.push(`<a href="#${esc(b.id)}" data-act="jump" class="mt-gp"><span class="mt-gp__n">読${b.n}</span><span class="mt-gp__t">${fmt(jaT(b.title))}</span></a>`);
       else if (b.t === "strategy") out.push(`<a href="#st-${b.no}" data-act="jump" class="mt-gp"><span class="mt-gp__n">${circ(b.no)}</span><span class="mt-gp__t">${fmt(b.title)}</span></a>`);
       else if (b.t === "note") out.push(`<a href="#gn-${b.no}" data-act="jump" class="mt-gp mt-gn"><span class="mt-gp__n">${b.no}</span><span class="mt-gp__t">${fmt(b.pattern)}</span></a>`);

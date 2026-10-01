@@ -115,6 +115,12 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .hd--label { font-size: 15px; font-weight: 700; color: var(--q); border-bottom: 2px solid var(--q); border-right: 2px solid var(--q); border-radius: 0 0 8px 0; padding: 0 16px 2px 2px; width: fit-content; margin: 22px 0 10px; }
 .hd-en { font: 700 .85em/1.4 var(--goth); color: var(--ink); margin-left: .3em; }
 .hd--plain { font-size: 18px; font-weight: 700; }
+/* rule: 読む前に・読んだ後で, centred in the accent between two accent rules (Q1 p.002, Q2 p.002) */
+.hd--rule { justify-content: center; text-align: center; color: var(--q); font-size: 20px; font-weight: 700; border-block: 2px solid var(--q); padding: 6px 0 7px; }
+/* tag: 読み物1 / 読み物2 on that page, no band: a filled icon, the tag in the accent, the title in ink (Q2 p.002) */
+.hd--tag { font-size: 18px; font-weight: 700; gap: 4px 12px; align-items: flex-start; line-height: 1.6; }
+.hd--tag > .sk-ic { color: var(--q-on); background: var(--q-fill); border-radius: 50%; width: 28px; height: 28px; padding: 5px; margin-right: -6px; }
+.hd--tag .hd-tag { color: var(--q); }
 .hd--flow { display: flex; align-items: center; gap: 6px; font-size: 18px; font-weight: 700; color: var(--q); margin: 22px 0 10px; }
 .hd-flow-ic { flex: none; width: 1.25em; height: 1.25em; }
 .hd-flow-ic rect { fill: var(--q-fill); } .hd-flow-ic path { fill: none; stroke: var(--q-on); stroke-width: 2; stroke-linejoin: round; } .hd-flow-ic circle { fill: var(--q-on); }
