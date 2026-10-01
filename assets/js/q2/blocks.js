@@ -18,6 +18,9 @@ export function line(t, cls = "", jaTag = "p") {
   const has = o.en || o.tr;
   return `<div class="bi ${cls}">${has ? enToggle() : ""}<${jaTag} class="ja">${fmt(o.ja)}</${jaTag}>${enLines(o)}</div>`;
 }
+// a cast list "司会＝サラ・ゴミス（サ:）　賛成側＝…" breaks only at the spaces between its entries (Q2 p.192; テイラー
+// wrapped on its own at 1024 px)
+const castLine = (h) => h.replace(/(<p class="ja">)(.*?)(<\/p>)/, (m, a, body, c) => a + body.split(/(　|<br>)/).map((p) => (p.includes("＝") ? `<span class="nobr">${p}</span>` : p)).join("") + c);
 // inline Text (headings, labels, cells): Japanese, then its English hidden until EN; English-only shows as is
 export function inl(t) {
   const o = norm(t);
@@ -178,7 +181,7 @@ const B = {
       <div class="qdlg__tools">${enScopeBtn()}${!b.audio ? listenBtn(q, "会話を聞く") : ctx.trks && ctx.trks.has(b.audio) ? "" : cdBadge(q, "会話を聞く")}</div>
       ${styleLab(b)}
       ${b.title ? `<h4 class="qdlg__title">${inl(b.title)}</h4>` : ""}
-      ${b.setting ? line(b.setting, "qdlg__set") : ""}
+      ${b.setting ? castLine(line(b.setting, "qdlg__set")) : ""}
       <div class="qdlg__rows ja-book" style="--spw:${spw + 0.5}em">${dlgRows(b.lines)}</div></div>`;
   },
 

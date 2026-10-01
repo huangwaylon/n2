@@ -240,8 +240,11 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 /* 聴解: the 単語 box sits at the right under the instructions (Q1 p.202, Q2 p.031) */
 @media (min-width: 601px) { .sk--listen .words { width: fit-content; max-width: 66%; margin-left: auto; } }
 .words__l { flex: none; background: var(--q-fill); color: var(--q-on); font: 700 12px/1 var(--goth); padding: 4px 8px; }
-.words__list { display: flex; flex-wrap: wrap; gap: 2px 18px; min-width: 0; }
-.w { white-space: nowrap; }
+/* entries run on as printed, a long one wrapping its English onto the next line (Q1 p.026: ジブリ美術館's note; as flex
+   items each long entry took a line of its own and pushed the short one before it onto its own line too) */
+.words__list { display: block; min-width: 0; line-height: 2.1; }
+.w { margin-right: 18px; } .w:last-child { margin-right: 0; }
+.w__ja { white-space: nowrap; }
 .w__ja { font-family: var(--mincho); }
 .w__en { font-family: var(--serif); color: var(--ink-2); font-size: 14px; white-space: normal; }
 .qfig { margin: 12px 0; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
@@ -341,9 +344,14 @@ a.ref:hover u { background: var(--q-soft); }
 .qbox--gray > .qdlg { background: none; padding: 0; margin: 0; }
 .qdlg__tools, .script__tools { display: flex; justify-content: flex-end; gap: 8px; margin-bottom: 4px; }
 .qdlg__style { color: var(--q); font: 700 16px/1.6 var(--goth); margin: 0 0 4px; }
+/* the EN / CD tools beside the カジュアルな会話 label, which opens the box as printed (Q1 p.026; on a row of their own
+   they left a blank band at the top) */
+.qdlg__tools:has(+ .qdlg__style) { float: right; margin: 0 0 0 8px; }
+.qdlg__tools:has(+ .qdlg__style) + .qdlg__style { min-height: 30px; }
+@media (pointer: coarse) { .qdlg__tools:has(+ .qdlg__style) + .qdlg__style { min-height: 44px; } }
 .qdlg__title { text-align: center; font: 700 18px/1.6 var(--goth); margin: 0 0 8px; }
 .qdlg__set { margin-bottom: 8px; }
-.qdlg__set .ja { font-family: var(--goth); }
+.qdlg__set .ja { font-family: var(--goth); } .qdlg__set .nobr { white-space: nowrap; }
 .qdlg__row { display: grid; grid-template-columns: var(--spw, 3em) auto 1fr; margin: 4px 0; line-height: 2.1; }
 .qdlg__row--narr { grid-template-columns: 1fr; font-family: var(--goth); }
 .qdlg__sp { text-align: right; font-family: var(--goth); white-space: nowrap; }
