@@ -155,7 +155,9 @@ const B = {
     return `<div class="words"><span class="words__l">${fmt(b.label || "単語")}</span><span class="words__list">${(b.items || []).map((w) => `<span class="w"><span class="w__ja">${fmt(w.ja)}</span> <span class="w__en">${fmt(w.en || "")}</span></span>`).join("")}</span></div>`;
   },
   figure(b) {
-    return `<figure class="qfig"><span class="qfig__tag">図 <span class="en-inline">figure</span></span>${b.labels && b.labels.length ? `<p class="qfig__labels ja">${b.labels.map((l) => `<span>${fmt(l)}</span>`).join("")}</p>` : ""}${b.desc ? `<figcaption class="gen-note">${fmt(b.desc)}<span class="gen-tag">generated</span></figcaption>` : ""}</figure>`;
+    // a run of item labels "a.　チームワークを…" (a bar chart's rows, Q2 p.197) one per line; the other labels run on
+    const item = (l) => /^[a-z][.．]　/.test(l), labs = (b.labels || []).map((l, i, a) => item(l) ? `${item(a[i - 1] || "") ? "" : '<span class="qfig__items">'}<span>${fmt(l)}</span>${item(a[i + 1] || "") ? "" : "</span>"}` : `<span>${fmt(l)}</span>`).join("");
+    return `<figure class="qfig"><span class="qfig__tag">図 <span class="en-inline">figure</span></span>${labs ? `<p class="qfig__labels ja">${labs}</p>` : ""}${b.desc ? `<figcaption class="gen-note">${fmt(b.desc)}<span class="gen-tag">generated</span></figcaption>` : ""}</figure>`;
   },
   chart(b) {
     return `<figure class="qchart">${b.title ? `<figcaption class="qchart__t">${inl(b.title)}${b.unit ? ` <span class="qchart__u">（${fmt(b.unit)}）</span>` : ""}</figcaption>` : ""}
