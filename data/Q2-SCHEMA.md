@@ -85,7 +85,7 @@ Every block has a type `t`; any block may carry `page` (book page where it start
 { t: "head", text, style, tag, icon, audio, id }
 //   band: hatched band of 読み物1 / 会話1 / 聴解1 (tag "読み物1", icon read|write|speak|listen) · num: 1 モデル作文 (tag "1")
 //   step: 1-1 やってみよう (tag "1-1") · sq: ■ heading · label: 読む前に / リスニング … · flow: フローチャート · plain
-//   rule: 読む前に・読んだ後で (centred between accent rules) · tag: 読み物1 / 読み物2 under it (tag and icon, no band)
+//   rule: 読む前に・読んだ後で, 文型・表現ノート (centred between accent rules) · tag: 読み物1 / 読み物2 under it (tag and icon, no band)
 { t: "p", text, style: "indent" | "small" | "right" | "center" | "note" }
 { t: "list", mark: "・", items: [ Text | { text, blocks } ] }        // mark as printed (・ • ▸ ▶ ■ □ ＊)
 { t: "qs", items: [ { n: "1.", text, words: ["友達"], blocks, answer } ] }

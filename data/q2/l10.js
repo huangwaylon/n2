@@ -1946,7 +1946,7 @@ TRY.registerLesson({
     {
      "t": "head",
      "text": "文型・表現ノート",
-     "style": "band",
+     "style": "rule",
      "audio": "2.Bunkei_L10",
      "id": "l10-notes",
      "page": 110
