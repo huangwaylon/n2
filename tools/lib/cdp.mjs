@@ -4,9 +4,9 @@
 // Requires Node >= 22 (global WebSocket/fetch) and the local server on :8765 (python3 -m http.server 8765).
 import { spawn } from "node:child_process";
 import { readFileSync, rmSync } from "node:fs";
+import { routeUrl } from "./route.mjs";
 
 export const CHROME = process.env.CHROME || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
-export const BASE = process.env.N2_BASE || "http://localhost:8765/";
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // Chrome processes still open: killed when the tool exits, throws or is interrupted, so an aborted run leaves no headless
@@ -64,9 +64,7 @@ export async function open({ route = "", width = 1280, height = 900, scheme = "l
   await send("Runtime.enable"); await send("Log.enable"); await send("Page.enable");
   await send("Page.addScriptToEvaluateOnNewDocument", { source: `try { const s = JSON.parse(localStorage.getItem("n2.settings") || "{}");
     s.furigana = ${!!furigana}; localStorage.setItem("n2.settings", JSON.stringify(s)); } catch (e) {}` });
-  // "n1:ch/1" → the N1 book page (BASE + "n1/#/ch/1"), "q2:l/7/read" → Quartet II ("q1:" Quartet I); plain routes are the N2 book at the root
-  const bm = /^(n\d|q\d):(.*)$/.exec(route);
-  await send("Page.navigate", { url: bm && bm[1] !== "n2" ? `${BASE}${bm[1]}/#/${bm[2]}` : BASE + "#/" + (bm ? bm[2] : route) });
+  await send("Page.navigate", { url: routeUrl(route) });
   await sleep(wait);
   const evaluate = async expr => (await send("Runtime.evaluate", { expression: expr, returnByValue: true, awaitPromise: true })).result?.value;
   const close = async () => {

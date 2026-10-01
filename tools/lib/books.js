@@ -38,7 +38,7 @@ function bookArg(argv) {
 
 const dataDir = (b) => path.join(root, "data", b.id);
 const chapterFiles = (b) => fs.readdirSync(dataDir(b)).filter((f) => /^ch\d\d\.js$/.test(f)).sort().map((f) => path.join(dataDir(b), f));
-// run data files through a fresh registry → { book, chapters, compare, front }
+// run data files (any book's) through a fresh registry → TRY: { book, chapters, compare, front, … }
 function load(files) {
   delete globalThis.TRY;
   const boot = path.join(root, "assets/js/boot.js");
@@ -54,4 +54,4 @@ const loadFile = (file) => load([path.join(dataDir(bookOf(path.resolve(file))), 
 const BOOK_EN_PATH = /(^|\.)(usage|formNotes\.\d+|notes\.\d+|canDo\.\d+|title|genre)$/;
 const isBookEnglish = (TRY, parentPath, parent) => TRY.book.bookLang === "en" && BOOK_EN_PATH.test(parentPath) && !parent.gen;
 
-module.exports = { BOOKS, bookOf, bookArg, root, dataDir, chapterFiles, loadBook, loadFile, isBookEnglish };
+module.exports = { BOOKS, bookOf, bookArg, root, dataDir, load, loadBook, loadFile, isBookEnglish };

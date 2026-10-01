@@ -7,7 +7,8 @@
 //   routes as in shot.mjs ("", ch/1, n1:ch/1, q2:l/7/read); --net emulates a network (e.g. --net=150,10000: 150 ms round
 //   trip, 10 Mbit/s). python3 -m http.server speaks HTTP/1.0 without compression, GitHub Pages HTTP/2 with gzip: with
 //   --net the waterfall (how many round trips before the data arrives) is what carries over, not the absolute times.
-import { open, sleep, BASE } from "./lib/cdp.mjs";
+import { open, sleep } from "./lib/cdp.mjs";
+import { BASE, routeUrl } from "./lib/route.mjs";
 
 const flags = process.argv.slice(2).filter((a) => a.startsWith("--"));
 const num = (k, d) => +((flags.find((f) => f.startsWith(`--${k}=`)) || "").split("=")[1] || d);
@@ -16,7 +17,6 @@ const NET = (flags.find((f) => f.startsWith("--net=")) || "").slice(6).split(","
 const pos = process.argv.slice(2).filter((a) => !a.startsWith("--"));
 const ROUTES = pos.length ? pos : ["", "ch/1", "ch/14", "vocab", "n1:ch/1", "q2:", "q2:l/7/read"];
 const HOT = ["fitRubies", "fitOptionCols", "vtScrollInit", "filterVocab", "placeLineNos", "wireTracks", "fitBookLines", "placeRefNos", "route", "sidebar", "need"];
-const url = (r) => { const m = /^(n\d|q\d):(.*)$/.exec(r); return m ? `${BASE}${m[1]}/#/${m[2]}` : `${BASE}#/${r}`; };
 
 // in the page, before any script: paint / long-task observers and the moment #main first gets content
 const PROBE = `(() => {
@@ -72,7 +72,7 @@ async function load(r) {
   ws.addEventListener("message", on);
   const m0 = await metrics(pg);
   await pg.send("Profiler.start");
-  await pg.send("Page.navigate", { url: url(r) });
+  await pg.send("Page.navigate", { url: routeUrl(r) });
   for (let i = 0; i < 600 && !(await pg.evaluate("window.__perf && __perf.frame")); i++) await sleep(50);
   await sleep(1500); // fonts.ready refit, late tasks
   const prof = (await pg.send("Profiler.stop")).profile;

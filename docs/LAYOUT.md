@@ -270,7 +270,6 @@ Server on :8765, Node ≥22, Google Chrome. Routes are hashes without `#/` (`""`
 | `node tools/shot.mjs ROUTE [W] [H] [OUT] [light\|dark] [--full] [--en] [--touch] [--dpr=N] [--y=PX] [--drawer] [--click=CSS] [--sel=CSS] [--wait=MS] [--nofuri]` | screenshot with device emulation (`mobile` below 700px) |
 | `node tools/overflow.mjs ROUTE [W] [--en] [--touch] [--dark] [--furi] [--nofuri]` | `{vw, docW, vp, clip}`: `docW > vw` = sideways scroll; `vp` elements past the viewport; `clip` elements poking out of a component frame; `--touch` targets under 44; `--furi` furigana probe |
 | `node tools/lib/wkshot.mjs DEVICE ROUTE[,…] [OUTDIR] [--pages=N] [--probe] [--en] [--nofuri] [--sel=CSS] [--dark]` | real iOS Safari (simulator, safaridriver via `tools/lib/wd.mjs`); Chrome does not reproduce WebKit ruby and line boxes |
-| `tools/simshot.sh DEVICE ROUTE [OUT]` | simulator Safari screenshot (N2 and N1 routes only) |
 | `node tools/render-dump.mjs n2\|n1\|q1\|q2 [--html]` | rendered text (or markup) of every route; diff before and after renderer changes |
 | `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [--width=390] [--runs=3] [--files] [ROUTE…]` | cold load and route-change timings, requests, DOM size, CPU in the measuring passes |
 | `tools/zoom.sh BOOK PAGE [1\|2\|3\|page]` | 300-dpi strips or the whole page of the scan |

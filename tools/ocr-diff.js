@@ -5,15 +5,12 @@
 // scores below the threshold are listed — each must be re-checked against the scan by eye.
 const fs = require("fs"), path = require("path");
 const { bookOf, root, loadFile, isBookEnglish } = require("./lib/books");
+const { pageList, ocrCorpus, bestScore } = require("./lib/fuzzy");
 const [file, range, thr = "0.9"] = process.argv.slice(2);
 const book = bookOf(path.resolve(file));
 const threshold = +thr;
 // range: "18-29" or several comma-separated ranges/pages, e.g. "55-57,202"
-const pages = [];
-for (const r of String(range).split(",")) {
-  const [a, b] = r.split("-").map(Number);
-  for (let p = a; p <= (b || a); p++) if (!pages.includes(p)) pages.push(p);
-}
+const pages = pageList(range);
 for (let p = book.supplement[0]; p <= book.supplement[1]; p++) if (!pages.includes(p)) pages.push(p);
 
 const TRY = loadFile(file);
@@ -27,47 +24,8 @@ const norm = (s) => plain(s).normalize("NFKC")
   .replace(/[\s　「」『』（）()、。・，．,.!！?？:：;；~〜～…‥\-－ー—―/／"“”'’＿_＋+\[\]【】〈〉《》★☆*＊→↔①-⑳]/g, "")
   .toLowerCase();
 
-function loadCorpus(dir) {
-  const corpus = pages.map((p) => {
-    const f = path.join(root, dir, String(p).padStart(3, "0") + ".txt");
-    return fs.existsSync(f) ? fs.readFileSync(f, "utf8") : "";
-  }).join("\n");
-  // OCR puts furigana on their own short all-kana lines; drop those so kanji lines join cleanly
-  return norm(corpus.split("\n").filter((l) => !/^[ぁ-ゖー\s]{1,12}$/.test(l.trim())).join(""));
-}
-const CORPUS = { ja: loadCorpus(process.env.OCR_DIR || book.ocr) };
-
-// best similarity of needle against any window of the corpus (edit distance, banded search)
-function bestScore(needle, corpusNorm) {
-  if (!needle) return 1;
-  if (corpusNorm.includes(needle)) return 1;
-  const n = needle.length;
-  // seed candidate positions from 3-gram hits to keep this fast
-  const cand = new Set();
-  for (let i = 0; i + 3 <= n; i += 2) {
-    const g = needle.slice(i, i + 3);
-    let pos = corpusNorm.indexOf(g);
-    let guard = 0;
-    while (pos !== -1 && guard++ < 40) { cand.add(Math.max(0, pos - i)); pos = corpusNorm.indexOf(g, pos + 1); }
-  }
-  let best = 0;
-  for (const st of cand) {
-    const hay = corpusNorm.slice(Math.max(0, st - 4), st + n + 4);
-    best = Math.max(best, 1 - editWindow(needle, hay) / n);
-    if (best === 1) break;
-  }
-  return best;
-}
-// min edit distance of needle vs any substring of hay (semi-global alignment)
-function editWindow(nd, hay) {
-  let prev = new Array(hay.length + 1).fill(0);
-  for (let i = 1; i <= nd.length; i++) {
-    const cur = [i];
-    for (let j = 1; j <= hay.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (nd[i - 1] === hay[j - 1] ? 0 : 1));
-    prev = cur;
-  }
-  return Math.min(...prev);
-}
+const ocr = (dir) => pages.map((p) => { const f = path.join(root, dir, String(p).padStart(3, "0") + ".txt"); return fs.existsSync(f) ? fs.readFileSync(f, "utf8") : ""; });
+const CORPUS = { ja: ocrCorpus(ocr(process.env.OCR_DIR || book.ocr), norm) };
 
 // collect strings with their location; skip our own English translations and deepDives
 const out = [];

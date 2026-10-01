@@ -2,7 +2,7 @@
 // load data/<book> files through the page's registry, walk every string with its path, and tell book text (Japanese,
 // the book's English `en`) from ours (`tr`, figure descriptions). See data/Q2-SCHEMA.md.
 const fs = require("fs"), path = require("path");
-const root = path.resolve(__dirname, "../..");
+const { root, load: loadFiles } = require("../lib/books");
 
 // PDF page ranges are the scan's (book page = PDF − offset, 別冊 page = PDF − suppOffset)
 const BOOKS = {
@@ -39,15 +39,11 @@ const ocrText = (b, p) => { const f = path.join(b.ocr, String(p).padStart(3, "0"
 // book: a BOOKS entry; default the book of the first file, else q2
 function load(files, book) {
   const b = book || bookOfPath(files[0]) || BOOKS.q2;
-  delete globalThis.TRY;
-  const boot = path.join(root, "assets/js/boot.js");
-  for (const f of [boot, path.join(b.dir, "book.js"), ...files]) { delete require.cache[require.resolve(f)]; require(f); }
-  return globalThis.TRY;
+  return loadFiles([path.join(b.dir, "book.js"), ...files]);
 }
 // every data file book.js lists (files and lazy) that exists
 const allFiles = (b = BOOKS.q2) => {
-  delete globalThis.TRY; const boot = path.join(root, "assets/js/boot.js"); delete require.cache[require.resolve(boot)]; require(boot); delete require.cache[require.resolve(path.join(b.dir, "book.js"))]; require(path.join(b.dir, "book.js"));
-  const B = globalThis.TRY.book;
+  const B = load([], b).book;
   return B.files.concat(B.lazy || []).map((f) => path.join(b.dir, f)).filter((f) => fs.existsSync(f));
 };
 // keys whose strings are ours (generated English) or not text at all
@@ -62,4 +58,4 @@ function walkBook(o, visit, p = "", key = "", parent = null) {
     walkBook(v, visit, p ? `${p}.${k}` : k, k, o);
   }
 }
-module.exports = { BOOKS, root, bookArg, bookOfPath, ocrText, load, allFiles, walkBook, OURS, META };
+module.exports = { BOOKS, root, bookArg, ocrText, load, allFiles, walkBook };

@@ -1,6 +1,6 @@
 /* Classic script loaded first by every book page (and required by the Node tools, tools/lib/books.js).
    - TRY: the data registry that data/<book>/*.js call — TRY books (n2, n1): registerBook / registerChapter /
-     registerCompare / registerFront / registerVocab (単語); Quartet II (q2, data/Q2-SCHEMA.md): registerLesson / registerVocab / registerKanji /
+     registerCompare / registerFront / registerVocab (単語); Quartet (q1, q2, data/Q2-SCHEMA.md): registerLesson / registerVocab / registerKanji /
      registerUnits (ブラッシュアップ) / registerFront; all books: registerLinks (data/links.js).
    - Data loading: registerBook (data/<book>/book.js, the next script on the page) starts the book's data files at once,
      so they download while the modules (assets/js/main.js and its imports) are still loading; main.js awaits TRY.ready.
@@ -18,9 +18,9 @@
   TRY.registerLesson = (l) => add(TRY.lessons, l, (x) => x.id);
   TRY.registerVocab = (v) => add(TRY.vocab, v, (x) => x.lesson || x.ch); // Quartet: lesson; TRY books: ch (vocab/chNN.js)
   TRY.registerKanji = (k) => add(TRY.kanji, k, (x) => x.lesson);
-  // units: ブラッシュアップ pages (上級へのチャレンジ c1–c8, 漢字チャレンジ k13–k24), sorted by book page
-  // links: groups of the same grammar in the three books (data/links.js, loaded by every book page)
+  // links: groups of the same grammar in the four books (data/links.js, loaded by every book page)
   TRY.registerLinks = (groups) => (TRY.links = groups);
+  // units: Quartet ブラッシュアップ pages (Q1 g1–g7, Q2 c1–c8; 漢字チャレンジ k1–k24), sorted by book page
   TRY.registerUnits = (list) => list.forEach((u) => add(TRY.units, u, (x) => x.page));
   if (!root.document) return;
 
@@ -38,7 +38,7 @@
   };
   // chapter files ch01.js … (TRY books; dir "vocab/" for the vocabulary lists)
   TRY.chapterFiles = (dir = "") => Array.from({ length: TRY.book.chapters }, (_, i) => `${dir}ch${String(i + 1).padStart(2, "0")}.js`);
-  // the book's own files (Quartet lists them in book.js), and the cross-book links shared by all three books
+  // the book's own files (Quartet lists them in book.js), and the cross-book links shared by all books
   TRY.loadBook = () => TRY.load((TRY.book.files || TRY.chapterFiles().concat("compare.js", "front.js")).concat("../links.js"));
 
   // settings.theme: "auto" (follow the system) | "light" | "dark"; data-theme always holds the effective "light" | "dark"

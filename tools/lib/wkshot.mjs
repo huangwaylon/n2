@@ -32,7 +32,6 @@ for (const r of routes) {
   else await pg.evaluate("window.scrollTo(0, 0)");
   await sleep(300);
   if (flag("probe")) report[r] = await pg.evaluate(`return (${PROBE_FN})(arguments[0])`, {});
-  const vh = await pg.evaluate("return innerHeight");
   for (let k = 1; k <= pages; k++) {
     const f = `${outDir}/${tag}-${k}.png`;
     await pg.screenshot(f); console.log(f);
@@ -40,7 +39,6 @@ for (const r of routes) {
     if (done) break;
     await sleep(350);
   }
-  void vh;
 }
 if (flag("probe")) console.log(JSON.stringify(report, null, 1));
 await pg.close();
