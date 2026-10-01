@@ -3403,6 +3403,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray",
             "text": {
              "ja": "いつ？\nどんな時に？",
              "tr": "When? On what occasion?"
@@ -3413,6 +3414,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray dash",
             "text": {
              "ja": "どんなことが\nあった？",
              "tr": "What happened?"
@@ -3426,6 +3428,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray",
             "text": {
              "ja": "その時の状況は？\nどこで？　etc.",
              "tr": "What was the situation at the time? Where? etc."
@@ -3436,6 +3439,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray dash",
             "text": {
              "ja": "何が起こった？",
              "tr": "What happened next?"
@@ -3446,6 +3450,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray dash",
             "text": {
              "ja": "{結末|けつまつ} (ending)",
              "tr": "Ending"
@@ -3456,6 +3461,7 @@ TRY.registerLesson({
           [
            {
             "head": true,
+             "style": "gray",
             "text": {
              "ja": "その経験を通して\n考えたこと",
              "tr": "What you thought about through that experience"
@@ -3463,7 +3469,8 @@ TRY.registerLesson({
            },
            ""
           ]
-         ]
+         ],
+         "memo": true
         }
        ]
       },

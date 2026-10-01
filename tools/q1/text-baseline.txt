@@ -1582,14 +1582,14 @@ l2.sections.2.blocks.2.items.0.blocks.0.head.0.2.ja	b. どうして？
 l2.sections.2.blocks.2.items.0.blocks.0.rows.0.0.text.ja	お願い①
 l2.sections.2.blocks.2.items.0.blocks.0.rows.0.1.ja	例　__{推薦状|すいせんじょう}を書いて__もらいたい
 l2.sections.2.blocks.2.items.0.blocks.0.rows.0.2.ja	大学院に入りたいから
-l2.sections.2.blocks.2.items.0.blocks.0.rows.1.0.ja	＿＿
+l2.sections.2.blocks.2.items.0.blocks.0.rows.1.0.text.ja	＿＿
 もらいたい
 l2.sections.2.blocks.2.items.0.blocks.0.rows.1.1	
 l2.sections.2.blocks.2.items.0.blocks.0.rows.2.0.text.ja	お願い②
 l2.sections.2.blocks.2.items.0.blocks.0.rows.2.1.ja	例　__宿題を明日出したい__ので、
 {許可|きょか}がほしい
 l2.sections.2.blocks.2.items.0.blocks.0.rows.2.2.ja	{昨日|きのう}まで{熱|ねつ}があってできなかったから
-l2.sections.2.blocks.2.items.0.blocks.0.rows.3.0.ja	＿＿ので、
+l2.sections.2.blocks.2.items.0.blocks.0.rows.3.0.text.ja	＿＿ので、
 許可がほしい
 l2.sections.2.blocks.2.items.0.blocks.0.rows.3.1	
 l2.sections.2.blocks.2.items.1.text.ja	1）で考えたことを使って、ロールプレイをしなさい。

@@ -2740,7 +2740,8 @@ TRY.registerLesson({
              "ja": "お願い①",
              "tr": "Request ①"
             },
-            "rowspan": 2
+            "rowspan": 2,
+            "style": "gray"
            },
            {
             "ja": "例　__{推薦状|すいせんじょう}を書いて__もらいたい",
@@ -2753,8 +2754,11 @@ TRY.registerLesson({
           ],
           [
            {
-            "ja": "＿＿\nもらいたい",
-            "tr": "I'd like you to ＿＿"
+            "text": {
+             "ja": "＿＿\nもらいたい",
+             "tr": "I'd like you to ＿＿"
+            },
+            "style": "dash"
            },
            ""
           ],
@@ -2764,7 +2768,8 @@ TRY.registerLesson({
              "ja": "お願い②",
              "tr": "Request ②"
             },
-            "rowspan": 2
+            "rowspan": 2,
+            "style": "gray"
            },
            {
             "ja": "例　__宿題を明日出したい__ので、\n{許可|きょか}がほしい",
@@ -2777,12 +2782,17 @@ TRY.registerLesson({
           ],
           [
            {
-            "ja": "＿＿ので、\n許可がほしい",
-            "tr": "I'd like permission to ＿＿"
+            "text": {
+             "ja": "＿＿ので、\n許可がほしい",
+             "tr": "I'd like permission to ＿＿"
+            },
+            "style": "dash"
            },
            ""
           ]
-         ]
+         ],
+         "headAlign": "center",
+         "regular": true
         }
        ]
       },

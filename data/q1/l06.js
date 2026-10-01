@@ -3306,13 +3306,14 @@ TRY.registerLesson({
           [
            {
             "text": "②",
-            "style": "gray center"
+            "style": "gray center dash"
            },
            "",
            ""
           ]
          ],
-         "headAlign": "center"
+         "headAlign": "center",
+         "regular": true
         }
        ]
       },
