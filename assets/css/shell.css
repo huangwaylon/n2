@@ -61,7 +61,8 @@
 .settings summary { list-style: none; cursor: pointer; font-size: 19px; color: var(--ink-2); width: 44px; height: 44px; display: grid; place-items: center; border-radius: 8px; }
 .settings summary::-webkit-details-marker { display: none; }
 .settings[open] summary { background: var(--band); color: var(--ink); }
-.settings-pop { position: absolute; right: 0; top: 48px; z-index: 40; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.14); display: grid; gap: 14px; font-size: 14px; line-height: 1.6; }
+.settings-pop { position: absolute; right: 0; top: 48px; z-index: 40; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.14); display: grid; gap: 14px; font-size: 14px; line-height: 1.6;
+  max-height: calc(100dvh - var(--top) - env(safe-area-inset-top, 0px) - 12px); overflow-y: auto; overscroll-behavior: contain; }  /* a landscape phone is ~390px tall: the pop scrolls */
 .set-row { display: grid; gap: 4px; }
 .settings-pop input[type=range] { width: 100%; min-height: 32px; }
 .set-keys { margin: 0; color: var(--ink-2); font-size: 13px; }
