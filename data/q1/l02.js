@@ -2190,7 +2190,7 @@ TRY.registerLesson({
           {
            "sp": "{秘書|ひしょ}",
            "ja": "3時にT社の{山田|やまだ}社長と会う**ことになっています**。〔予定〕",
-           "tr": "You're scheduled to meet with Mr. Yamada, the president of T Company, at three. [plan]"
+           "tr": "You're scheduled to meet with President Yamada of T Company at three. [plan]"
           }
          ]
         }
@@ -5026,7 +5026,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "そう思ってテレビを見てみると、たとえば料理{番組|ばんぐみ}で料理の先生をほめる時など、「上手」という言葉は使われていません。その代わりに「色がきれいで{華|はな}やかですね」とか「とてもおいしいです」などと言っています。",
-       "tr": "With that in mind, I watched TV and found that when people compliment the chef on a cooking show, for example, they don't use the word 上手. Instead, they say things like “The colors are so pretty and vibrant” or “It's really delicious.”"
+       "tr": "With that in mind, I watched TV and found that when people compliment the cooking teacher on a cooking show, for example, they don't use the word 上手. Instead, they say things like “The colors are so pretty and vibrant” or “It's really delicious.”"
       },
       {
        "sp": "",

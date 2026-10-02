@@ -736,7 +736,7 @@ TRY.registerVocab({
       "n": 28,
       "w": "準備（する）",
       "ex": "リーさんが今晩のパーティーの準備をしてくれた。",
-      "tr": "Lee kindly got everything ready for tonight's party."
+      "tr": "Lee-san kindly got everything ready for tonight's party."
      },
      {
       "n": 29,
@@ -814,7 +814,7 @@ TRY.registerVocab({
       "n": 41,
       "w": "[～に]伝える",
       "ex": "「ありがとう」とリーさんに伝えてください。",
-      "tr": "Please tell Lee \"thank you\" for me."
+      "tr": "Please tell Lee-san \"thank you\" for me."
      },
      {
       "n": 42,

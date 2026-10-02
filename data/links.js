@@ -102,7 +102,8 @@ TRY.registerLinks([
   { k: "まま", ids: ["q1:6-6 〜まま", "n2:37 〜きり"], en: "A state left as it was: Vたまま (開けたまま); N2's Vたきり, and nothing followed (出かけたきり戻らない)." },
   { k: "ほど・くらい", ids: ["q1:6-8 〜ほど", "q2:9-1 〜くらい", "n2:90 〜くらいなら"], en: "Extent, \"so ~ that\": ほど and くらい overlap (涙が出るほど); only くらい also belittles (それくらい自分でやって), and くらいなら builds on that: \"rather than ~\" (謝るくらいなら最初からするな)." },
   { k: "ということは", ids: ["q2:9-7 〜ということは", "n2:52 〜というものだ"], en: "A judgment put as a general truth: XということはYということだ, \"X means Y\"; というものだ, \"that's what ~ is\" (助け合うのが友達というものだ)." },
-  { k: "らしい", ids: ["q1:1-4 〜らしい", "n2:107 〜とか"], en: "Passing on what one heard: らしい, \"apparently\"; N2's とか, less sure, often in polite small talk (結婚なさるとか)." },
+  { k: "らしい", ids: ["q1:1-4 〜らしい", "q1:1-9 Nによると", "n2:107 〜とか"], en: "Passing on what one heard: らしい, \"apparently\"; Nによると names the source (天気予報によると); N2's とか, less sure, often in polite small talk (結婚なさるとか)." },
+  { k: "なら", ids: ["q1:1-2 〜なら", "n1:80 〜なら〜で"], en: "Responding to what was just said: Xなら, advice about X (行くなら傘を持って); N1's AならAで, accepting X with a complaint (来るなら来るで連絡して)." },
   { k: "に関する", ids: ["n2:68 〜に{関|かん}して／〜に{関|かん}する", "n1:108 〜にかかわる"], en: "\"About, concerning\": に関する, a neutral topic label (環境に関する本); N1's にかかわる, related to a field (医療にかかわる仕事) or seriously affecting it (命にかかわるけが)." },
   { k: "ことか", ids: ["n2:42 〜ことか", "n1:71 〜限りだ"], en: "The speaker's own strong feeling: どんなに〜ことか exclaims over how much (どれほど心配したことか); N1's 〜限りだ, more formal, \"I feel so ~\" (うれしい限りです)." },
 ]);

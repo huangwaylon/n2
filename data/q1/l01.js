@@ -2210,7 +2210,7 @@ TRY.registerLesson({
        "n": "(2)",
        "text": {
         "ja": "その人はどんな人ですか。",
-        "tr": "What kind of person is he or she?"
+        "tr": "What is that person like?"
        }
       },
       {
