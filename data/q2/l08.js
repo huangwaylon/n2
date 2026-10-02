@@ -308,7 +308,7 @@ TRY.registerLesson({
       "ほしいことをし、してほしくないことはしないこと、そ",
       "して日々自分を磨き上げることが必要かと思います。"
      ],
-     "titleTr": "An Interview with the Okami of Kagaya, \"Japan's Best Ryokan\"",
+     "titleTr": "Talking with the Proprietress of Kagaya, “Japan's Best Ryokan”",
      "tr": [
       "We asked the okami (proprietress) of Kagaya, which has held first place overall for many years in the \"Top 100 Hotels and Ryokan in Japan Chosen by Professionals,\" about ryokan hospitality.",
       "First of all, what kind of place is a ryokan?",
@@ -837,7 +837,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and conversational, and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal, negative-only counterpart."
+     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal, negative-only counterpart."
     },
     {
      "t": "note",
@@ -3723,7 +3723,7 @@ TRY.registerLesson({
        "sp": "社",
        "v": "f",
        "ja": "最後にご紹介するのは、{有馬|ありま}のプランです。有馬は、最も古い温泉地の一つで、歴史的な建物が多く、日本__ならでは__の古い{町|まち}{並|な}みから、日本の伝統と歴史を感じていただけます。こちらはワンランク上のお部屋となり、お部屋にも小さい温泉風呂がついておりますので、プライベートでゆっくりと過ごしていただけます。一泊二食付きでご夕食は高級{懐石|かいせき}料理となります。お客様、いかがでしょうか。",
-       "tr": "The last one I'd like to introduce is the Arima plan. Arima is one of the oldest hot spring towns and has many historic buildings, and in its old streets, found only in Japan, you can feel Japan's traditions and history. This plan comes with a higher-grade room, and the room has its own small hot spring bath, so you can relax in private. Two meals are included for one night, and dinner is a high-end kaiseki meal. What do you think?"
+       "tr": "The last one I'd like to introduce is the Arima plan. Arima is one of the oldest hot spring towns and has many historic buildings, and its old streets, of a kind found only in Japan, let you feel Japan's traditions and history. This plan comes with a higher-grade room, and the room has its own small hot spring bath, so you can relax in private. Two meals are included for one night, and dinner is a high-end kaiseki meal. What do you think?"
       },
       {
        "sp": "絵",

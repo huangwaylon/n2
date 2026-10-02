@@ -17,7 +17,7 @@ Quartet tr) for accuracy, nuance and brevity (docs/ENGLISH.md); cross-references
 | Q1 L1–2 | | |
 | Q1 L3–4 | | |
 | Q1 L5–6, 別冊, front | | |
-| Q2 L7–8 | | |
+| Q2 L7–8 | done | Japanese vs scans: 縦書き readings pp.006–007, 036–037, p.031, p.238, p.056 practice (no changes; p.056 お財布が見つりました is the book's typo, kept). 5 English fixes (L7 ¶4 だから/からこそ, ことに deep-dive vs 腹が立つことに, L8 reading title one wording, どころか register, 有馬 ならでは). vocab/kanji en are book English; target tr checked. Links complete (まさに, こだわる have no counterparts). |
 | Q2 L9–10 | | |
 | Q2 L11–12, 別冊, challenge, front | | |
 | Vocab lists (TRY vocab/, Quartet vocab/kanji) English | | |
