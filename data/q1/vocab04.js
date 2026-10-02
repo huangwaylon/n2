@@ -502,7 +502,7 @@ TRY.registerVocab({
       "n": 3,
       "w": "気軽に",
       "ex": "サラさんは何でも気軽に話せる友達だ。",
-      "tr": "Sarah is a friend I can comfortably talk to about anything."
+      "tr": "Sarah-san is a friend I can comfortably talk to about anything."
      },
      {
       "n": 4,
@@ -526,7 +526,7 @@ TRY.registerVocab({
       "n": 7,
       "w": "意見",
       "ex": "リーさんの意見はキムさんのとは違います。",
-      "tr": "Lee's opinion is different from Kim's."
+      "tr": "Lee-san's opinion is different from Kim-san's."
      },
      {
       "n": 8,
@@ -646,7 +646,7 @@ TRY.registerVocab({
       "n": 27,
       "w": "[〜に]帰国（する）",
       "ex": "留学中の{山|やま}{田|だ}さんが日本に帰国するのは、来年の3月だそうです。",
-      "tr": "I hear Yamada, who's studying abroad, is coming back to Japan next March."
+      "tr": "I hear Yamada-san, who's studying abroad, is coming back to Japan next March."
      }
     ]
    }

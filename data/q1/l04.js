@@ -2978,7 +2978,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "でも、大切なのは、〇〇さんがやりた\nいことが何かっていうことだよ。",
-        "tr": "But what matters is what you really want to do, (name)."
+        "tr": "But what matters is what you want to do, (name)."
        }
       },
       {
@@ -3145,7 +3145,7 @@ TRY.registerLesson({
          "sp": "先輩",
          "v": "m",
          "ja": "{{でも、大切なのは、〇〇さんがやりたいことが何かっていうことだよ}}。",
-         "tr": "But what matters is what you really want to do, (name)."
+         "tr": "But what matters is what you want to do, (name)."
         },
         {
          "sp": "あなた",
@@ -3584,7 +3584,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "もしやるんだったら、＿＿には、\n神社で写真を撮るプランが＿＿だよ。",
-            "tr": "If you do it, ＿＿, the plan where you take photos at a shrine is my ＿＿."
+            "tr": "If you do it, ＿＿, I ＿＿ the plan where you take photos at a shrine."
            },
            "answer": [
             "個人的",
@@ -4769,7 +4769,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "インターンシップ先の社員の人にどうして長い休みを取らないのか聞いたら、「自分だけ休むのは{同僚|どうりょう}に申し訳ない」とか、「自分がいないとできない仕事があるから、{周|まわ}りに{迷惑|めいわく}がかかる」と言っていました。昔と比べたらずいぶん休みが取りやすくなったそうですが、たいていの人は1日の休みを時々取るだけだそうです。長い休みを取れ__ば__家族とゆっくり__旅行できるのに__、と思いますが、日本ではプライベートより仕事を優先する人が多いようです。",
-       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I can't help thinking that if they just took a long vacation, they could take a relaxing trip with their families, but it seems that in Japan many people put work ahead of their private lives."
+       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think that if only they took long vacations, they could travel with their families at a relaxed pace, but it seems that in Japan many people put work ahead of their private lives."
       },
       {
        "sp": "",
