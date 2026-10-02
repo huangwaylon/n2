@@ -153,7 +153,7 @@ TRY.registerChapter({
               left: ["彼は{暗算|あんざん}が{苦手|にがて}だったことから", "台所の{窓|まど}が{割|わ}れていることから、", "{沖縄|おきなわ}は昔、{独立|どくりつ}した1つの国だったことから", "お{隣|となり}の{田中|たなか}さんはいろいろなものを{発明|はつめい}していることから"],
               right: ["{犯人|はんにん}はそこから{侵入|しんにゅう}したと思われます。", "{下町|したまち}のエジソンと呼ばれている。", "{電卓|でんたく}を作ろうと思ったそうだ。", "{独自|どくじ}の文化や言葉が今でも{残|のこ}っている。"],
               answer: [2, 0, 3, 1],
-              en: ["Apparently he thought of making an electronic calculator because he was bad at mental arithmetic.", "Since the kitchen window is broken, it is thought that the culprit got in through there.", "Because Okinawa was once an independent country, its own culture and language still survive today.", "Our neighbor Tanaka is called the Edison of the old town because Tanaka has invented all sorts of things."],
+              en: ["Apparently he thought of making an electronic calculator because he was bad at mental arithmetic.", "Since the kitchen window is broken, it is thought that the culprit got in through there.", "Because Okinawa was once an independent country, its own culture and language still survive today.", "Our neighbor Tanaka has invented all sorts of things and so is known as the Edison of the old town."],
             },
           ],
         },
@@ -322,7 +322,7 @@ TRY.registerChapter({
           { ja: "20年以上の時間をかけて話し合いを続けた{結果|けっか}、1995年、ついにオオカミが{放|はな}された。", en: "As a result of more than 20 years of continued discussion, wolves were finally released in 1995." },
           { cont: true, ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}し**つつある**ことが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing." },
           { ja: "同じような取り組みはアメリカ**に{限|かぎ}らず**、ヨーロッパでも{検討|けんとう}されている。", en: "Similar efforts are being considered not only in America but in Europe as well." },
-          { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "They will probably go on keeping nature in balance while carefully continuing to exchange views." },
+          { cont: true, ja: "{慎重|しんちょう}に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "Through continued, careful exchanges of views, people will probably work to keep nature in balance." },
           { ja: "こうした{意識|いしき}の{変化|へんか}にともない、オオカミに対する悪いイメージも{過去|かこ}のものになっていくかもしれない。", en: "Along with this change in awareness, the bad image of wolves may also become a thing of the past." },
         ],
       },
@@ -516,7 +516,7 @@ TRY.registerChapter({
             { ja: "日本銀行は、国内の{景気|けいき}について、{緩|ゆる}やかに{回復|かいふく}しつつあると発表した。", en: "The Bank of Japan announced that the domestic economy is gradually recovering." },
           ],
           xref: "☞ p.223　〜つつ",
-          deepDive: "**V-ます stem + つつある** describes a change **under way**: *is gradually ~ing, is in the process of ~ing*: 日本の人口は減りつつある (*Japan's population is shrinking*). It stresses that the change is in progress and not finished, and it is formal: news, reports, essays.\n\nOnly change verbs take it: 増える, 減る, 広がる, 進む, 回復する, 失われる, 明らかになる. Ordinary actions use ている: ✗走りつつある → ✓走っている. With change verbs, ている often means the resulting state, so the two differ: 失われている自然 (*nature that has been lost*) vs 失われつつある自然 (*nature that is being lost*). Passives are common: 見直されつつある (*is being reevaluated*).\n\nCompare:\n- **〜てきている**: the neutral, conversational way to say the same: 増えてきている (*has been increasing*).\n- **V-る一方だ** (#115): *just keeps ~ing*, usually for the worse.\n- **Vつつ** (#30): *while ~ing*, two actions at once: 景色を楽しみつつ歩く (*walk while enjoying the scenery*).\n\nPitfall: 回復している suggests the recovery is complete; 回復しつつある says it isn't yet.\n\nJLPT cue: 徐々に, 次第に, 少しずつ or 緩やかに before the verb.",
+          deepDive: "**V-ます stem + つつある** describes a change **under way**: *is gradually ~ing, is in the process of ~ing*: 日本の人口は減りつつある (*Japan's population is gradually shrinking*). It stresses that the change is in progress and not finished, and it is formal: news, reports, essays.\n\nOnly change verbs take it: 増える, 減る, 広がる, 進む, 回復する, 失われる, 明らかになる. Ordinary actions use ている: ✗走りつつある → ✓走っている. With change verbs, ている often means the resulting state, so the two differ: 失われている自然 (*nature that has been lost*) vs 失われつつある自然 (*nature that is being lost*). Passives are common: 見直されつつある (*is being reevaluated*).\n\nCompare:\n- **〜てきている**: the neutral, conversational way to say the same: 増えてきている (*has been increasing*).\n- **V-る一方だ** (#115): *just keeps ~ing*, usually for the worse.\n- **Vつつ** (#30): *while ~ing*, two actions at once: 景色を楽しみつつ歩く (*walk while enjoying the scenery*).\n\nPitfall: 回復している suggests the recovery is complete; 回復しつつある says it isn't yet.\n\nJLPT cue: 徐々に, 次第に, 少しずつ or 緩やかに before the verb.",
           see: [30, 112, 115],
           index: ["Vつつある"],
           practice: [
@@ -611,7 +611,7 @@ TRY.registerChapter({
         prompt: { ja: "", en: "Choose the word that fills each blank from the box." },
         bank: ["つつある", "{得|う}る", "に{限|かぎ}らず", "に{関|かん}する", "{上|じょう}", "{反面|はんめん}", "に{反|はん}して"],
         items: [
-          { q: "「今年こそ{優勝|ゆうしょう}を」という{関係者|かんけいしゃ}の{期待|きたい}＿＿、チームは1{回戦|かいせん}で{負|ま}けてしまった。", answer: "に{反|はん}して", en: "Contrary to the hopes of those involved, who said \"This year we'll win the championship,\" the team lost in the first round." },
+          { q: "「今年こそ{優勝|ゆうしょう}を」という{関係者|かんけいしゃ}の{期待|きたい}＿＿、チームは1{回戦|かいせん}で{負|ま}けてしまった。", answer: "に{反|はん}して", en: "Contrary to the hopes of those involved that this would finally be the year they won the championship, the team lost in the first round." },
           { q: "{契約|けいやく}＿＿、{引|ひ}っ{越|こ}す場合は1か月前までに伝えることになっている。", answer: "{上|じょう}", en: "Under the contract, if you move out you are required to give notice at least one month in advance." },
           { q: "{野外|やがい}イベントは{天候|てんこう}によっては中止もあり＿＿。", answer: "{得|う}る", en: "Depending on the weather, outdoor events may be canceled." },
           { q: "{警察|けいさつ}は{連続放火事件|れんぞくほうかじけん}＿＿{有力|ゆうりょく}な{情報|じょうほう}をつかんだ。", answer: "に{関|かん}する", en: "The police obtained a promising lead concerning the serial arson cases." },
@@ -648,7 +648,7 @@ TRY.registerChapter({
             q: "{立場|たちば}（　）、{寮長|りょうちょう}の私が{当番|とうばん}をサボるわけにはいかないんです。",
             options: ["において", "に{反|はん}して", "{上|じょう}", "に{関|かん}して"],
             answer: 2,
-            en: "Because of my position, I, as the dorm leader, can't skip my turn on duty.",
+            en: "Given my position as dorm leader, I can't very well skip my turn on duty.",
             why: { en: "立場上 = *because of my position*: the viewpoint that gives the reason the speaker can't skip a turn. において (*in*), に反して (*contrary to*) and に関して (*about*) don't make 立場 a reason." },
           },
           {
@@ -752,7 +752,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［6］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 6." },
         title: "",
         text: ["{科学技術|かがくぎじゅつ}が進み、{知識|ちしき}という{側面|そくめん}[1]、昔よりはるかに多くのことがわかるようになった。{宇宙|うちゅう}[2]{様々|さまざま}な{事実|じじつ}が{明|あき}らかになってきた。", "例えば、昔はブラックホールの{存在|そんざい}さえわからなかったが、{天体観測|てんたいかんそく}などの{技術|ぎじゅつ}が進んだ[3]、その{存在|そんざい}がわかった。さらに、{調査|ちょうさ}が進む[4]、ブラックホールはただそこに{存在|そんざい}する[5]、{膨張|ぼうちょう}していることも、{明|あき}らかになってきた。", "しかし、{様々|さまざま}な{事実|じじつ}が{明|あき}らかになる[6]、ブラックホールとは何なのか、なぜ{存在|そんざい}するのか、{膨張|ぼうちょう}し続けたらどうなるのか、さらなる{疑問|ぎもん}がわいてくる。", "これまでは{知識|ちしき}を{得|え}ることによって、すべてがわかると{期待|きたい}されていた。しかし{科学者|かがくしゃ}たちが{日々|ひび}研究を続けているにもかかわらず、{宇宙|うちゅう}の{謎|なぞ}は{深|ふか}まるばかりである。"],
-        en: ["As science and technology have advanced, from the standpoint of knowledge, we have come to understand far more than in the past. Regarding the universe, too, various facts have become clear.", "For example, in the past we didn't even know black holes existed, but because technologies such as astronomical observation advanced, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.", "However, while various facts are becoming clear, at the same time further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?", "Until now, it was expected that by gaining knowledge we would understand everything. But even though scientists continue their research day after day, the mysteries of the universe only keep deepening."],
+        en: ["With advances in science and technology, we have come to understand far more than in the past, at least in terms of knowledge. Regarding the universe, too, many facts have come to light.", "For example, in the past we didn't even know black holes existed, but because technologies such as astronomical observation advanced, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.", "However, while various facts are becoming clear, at the same time further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?", "Until now, it was expected that by gaining knowledge we would understand everything. But even though scientists continue their research day after day, the mysteries of the universe only keep deepening."],
         blanks: [
           { options: ["から見ると", "からといって", "につれて", "に{応|おう}じて"], answer: 0, why: { en: "知識という側面から見ると = *from the standpoint of knowledge*: 側面 names the viewpoint. からといって (*just because*) needs a clause and a denial, につれて a process, and に応じて something to adjust to." } },
           { options: ["につれて", "ばかりで", "に{関|かん}しても", "のみならず"], answer: 2, why: { en: "*Regarding the universe, too,* many facts have become clear: 宇宙に関しても adds the universe as a further topic. につれて needs a process, ばかりで (*nothing but*) makes no sense here, and のみならず would need the added item after it (宇宙のみならず…も)." } },
@@ -846,7 +846,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "{今朝|けさ}の新聞には{景気|けいき}が{回復|かいふく}しつつあるって書いてあったけど、どう思う？" },
             ],
-            en: ["This morning's paper said the economy is recovering. What do you think?", "I think so too. Orders are increasing at our company as well.", "I think so too. Orders are decreasing at our company as well.", "I think so too. Work isn't increasing at all."],
+            en: ["This morning's paper said the economy is gradually recovering. What do you think?", "I think so too. Orders are increasing at our company as well.", "I think so too. Orders are decreasing at our company as well.", "I think so too. Work isn't increasing at all."],
             options: ["ぼくもそう思うよ。うちの会社も{注文|ちゅうもん}が増えているしね。", "ぼくもそう思うよ。うちの会社も{注文|ちゅうもん}が{減|へ}っているしね。", "ぼくもそう思うよ。仕事が{全然|ぜんぜん}増えないもん。"],
             answer: 0,
             why: { en: "回復しつつある — the economy is gradually recovering; agreeing with it fits only with evidence of growth (orders increasing)." },
