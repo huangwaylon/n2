@@ -5,7 +5,7 @@ Quartet tr) for accuracy, nuance and brevity (docs/ENGLISH.md); cross-references
 
 | Unit | Status | Commits / notes |
 |---|---|---|
-| N2 ch1–3 | | |
+| N2 ch1–3 | done | Japanese and book English match the scans (spot-checked pp.18, 25, 29, 30, 38, 50, 61; rest via OCR); 5 generated-English fixes; links: n2:3 → のみ group, n2:8 → なかれ group |
 | N2 ch4–6 | | |
 | N2 ch7–9 | | |
 | N2 ch10–12 | | |

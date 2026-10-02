@@ -119,7 +119,7 @@ TRY.registerChapter({
             { ja: "{子育|こそだ}ては{夫婦|ふうふ}の{協力|きょうりょく}のもとで{行|おこな}われるべきだ。", en: "Child-rearing should be done with the cooperation of husband and wife." },
             { ja: "{合理化|ごうりか}の{名|な}のもとに{多数|たすう}の{従業員|じゅうぎょういん}が{解雇|かいこ}された。", en: "A large number of employees were dismissed in the name of rationalization." },
           ],
-          deepDive: "**〜のもとで** is a formal *under ~*: under the guidance, protection or control of someone, or under certain conditions. もと (下 / 元) means *at the base of*, and the sense is always abstract or atmospheric.\n\nNouns that fit:\n- A person with authority or influence: 教授のもとで研究する (*do research under a professor*), 祖父母のもとで育てられた (*was brought up by grandparents*).\n- A condition or agreement: 協力のもとで (*with the cooperation of*), 両親の同意のもとに (*with parental consent*).\n- Something overhead (literary): 明るい太陽のもとで (*under the bright sun*).\n\nのもとに is still more written and often goes with passive or formal verbs; 〜の名のもとに (*in the name of ~*) is often critical. In farewell speeches, ご指導のもとで is the standard way to credit superiors.\n\nPitfalls: for a physical position use 下（した）: 机の下に猫がいる, not ✗机のもとで. And don't confuse it with **〜をもとに** (#138), *based on*: 実話をもとにした映画 (*a film based on a true story*).\n\nJLPT cue: ask who or what is above, a person or a condition. If there is no second item with も, はもとより is out.",
+          deepDive: "**〜のもとで** is a formal *under ~*: under the guidance, protection or control of someone, or under certain conditions. もと (下 / 元) means *at the base of*, and the sense is always abstract or atmospheric.\n\nNouns that fit:\n- A person with authority or influence: 教授のもとで研究する (*do research under a professor*), 祖父母のもとで育てられた (*was brought up by grandparents*).\n- A condition or agreement: 協力のもとで (*with the cooperation of*), 両親の同意のもとに (*with parental consent*).\n- Something overhead (literary): 明るい太陽のもとで (*under the bright sun*).\n\nのもとに is still more written and often goes with passive or formal verbs; 〜の名のもとに (*in the name of ~*) is often critical. In farewell speeches, ご指導のもとで is the standard way to credit superiors.\n\nPitfalls: for a physical position use 下（した）: 机の下に猫がいる, not ✗机のもとで. And don't confuse it with **〜をもとに** (#138), *based on*: 実話をもとにした映画 (*a film based on a true story*).\n\nJLPT cue: when のもとで and はもとより are both offered, look for a second item with も after the blank; without one, はもとより is out: 家族のもとで生活する (*live in the care of one's family*).",
           see: [138],
           index: ["Nのもとで", "Nのもとに", "Nのもと", "〜の名のもとに"],
           practice: [
@@ -930,7 +930,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "何遊んでるのよ。ちょっと手伝ってくれない？" },
             ],
-            en: ["What are you doing, goofing off? Could you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "You won't help me?"],
+            en: ["Why are you goofing off? Could you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "You won't help me?"],
             why: { en: "Accused of goofing off, B softly denies it: 別に遊んでるわけじゃないよ, “it's not like I'm goofing off.”" },
             options: ["じゃ、一緒に遊ぼうよ。", "別に遊んでるわけじゃないよ。", "手伝ってくれないの？"],
             answer: 1,
