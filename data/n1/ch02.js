@@ -646,7 +646,7 @@ TRY.registerChapter({
       },
     },
     {
-      title: { ja: "問題4 〈{聴解|ちょうかい}〉", en: "Question 4: Listening — integrated comprehension" },
+      title: { ja: "問題4 〈{聴解|ちょうかい}〉", en: "Question 4: Listening — two questions" },
       ex: {
         type: "listening",
         mode: "summary",
