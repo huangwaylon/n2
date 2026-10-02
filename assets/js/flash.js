@@ -8,9 +8,9 @@ export function flashcards(key, build) {
   if (fc.key !== key) Object.assign(fc, { key, cards: shuffle(build()), i: 0, show: false });
   const c = fc.cards[fc.i], known = progress.known || {};
   if (!c) return `<p class="dim">No cards yet.</p>`;
-  return `<div class="card-fc${fc.show ? " is-open" : ""}" data-act="dr-flip" role="button" tabindex="0" aria-label="カードをめくる Flip">
+  return `<div class="card-fc${fc.show ? " is-open" : ""}" data-act="fc-flip" role="button" tabindex="0" aria-label="カードをめくる Flip">
       <div class="card-fc__f ja">${c.front}</div>${fc.show ? `<div class="card-fc__b ja">${c.back}</div>${c.sub ? `<div class="card-fc__s ja">${c.sub}</div>` : ""}` : `<div class="card-fc__hint dim">タップして答えを見る <span class="en-inline">tap to reveal</span></div>`}</div>
-    <div class="dr-act"><button class="btn" data-act="dr-next" data-k="0">もう一度 <span class="en-inline">Again</span></button><button class="btn primary" data-act="dr-next" data-k="1">覚えた <span class="en-inline">Got it</span></button></div>
+    <div class="dr-act"><button class="btn" data-act="fc-next" data-k="0">もう一度 <span class="en-inline">Again</span></button><button class="btn primary" data-act="fc-next" data-k="1">覚えた <span class="en-inline">Got it</span></button></div>
     <p class="dim dr-count">${fc.i + 1} / ${fc.cards.length} · 覚えた ${fc.cards.filter((x) => known[x.key]).length}</p>`;
 }
 // the drill pages keep their state here and in their modules, so a redraw is a re-render of the route (main.js)
@@ -23,8 +23,8 @@ export const redraw = () => {
   const el = s && document.querySelector("#main " + s);
   if (el) el.focus({ preventScroll: true });
 };
-ACT["dr-flip"] = () => { fc.show = !fc.show; redraw(); };
-ACT["dr-next"] = (t) => {
+ACT["fc-flip"] = () => { fc.show = !fc.show; redraw(); };
+ACT["fc-next"] = (t) => {
   const c = fc.cards[fc.i];
   progress.known = progress.known || {};
   const again = c && t.dataset.k !== "1";

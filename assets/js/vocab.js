@@ -73,12 +73,12 @@ document.addEventListener("input", (e) => { if (e.target.id === "vc-search") { v
 // ---------- drill ----------
 // mode: card (flashcards; dir je = Japanese → English, ej = English → Japanese) | quiz (10 four-way questions: meaning,
 // reading, and the word that fits a sentence). Scope: chapter, level, and optionally only the words not yet known.
-const dr = { mode: "card", dir: "je", ch: null, lv: null, fresh: false };
-const pool = () => words().filter((x) => (!dr.ch || x.ch === dr.ch) && (!dr.lv || x.lv === dr.lv) && (!dr.fresh || !known()[x.key]));
+const drill = { mode: "card", dir: "je", ch: null, lv: null, fresh: false };
+const pool = () => words().filter((x) => (!drill.ch || x.ch === drill.ch) && (!drill.lv || x.lv === drill.lv) && (!drill.fresh || !known()[x.key]));
 const cardOf = (x) => {
   const jp = `${esc(plain(x.w))}<span class="card-fc__r">${esc(reading(x.w))}</span>`, def = `<span class="card-fc__def">${fmt(x.en)}</span>`;
   const sub = x.ex && x.ex[0] ? fmt(x.ex[0].ja) : "";
-  return dr.dir === "je" ? { key: x.key, front: esc(plain(x.w)), back: `${esc(reading(x.w))}<br>${def}`, sub } : { key: x.key, front: def, back: jp, sub };
+  return drill.dir === "je" ? { key: x.key, front: esc(plain(x.w)), back: `${esc(reading(x.w))}<br>${def}`, sub } : { key: x.key, front: def, back: jp, sub };
 };
 // three wrong answers drawn from the other words (same part of speech first)
 const others = (x, all, f) => {
@@ -105,17 +105,17 @@ function quizItems() {
 }
 let quizSeq = 0;
 function drillView() {
-  const scope = `${dr.mode}:${dr.dir}:${dr.ch}:${dr.lv}:${dr.fresh}`, n = pool().length;
-  const body = !n ? `<p class="dim">No words in this selection.</p>` : dr.mode === "card" ? flashcards(scope, () => pool().map(cardOf))
+  const scope = `${drill.mode}:${drill.dir}:${drill.ch}:${drill.lv}:${drill.fresh}`, n = pool().length;
+  const body = !n ? `<p class="dim">No words in this selection.</p>` : drill.mode === "card" ? flashcards(scope, () => pool().map(cardOf))
     : renderExercise({ type: "choice", items: quizItems() }, `drill-vocab-${++quizSeq}`, "10問 <span class='en-inline'>10 questions</span>") + `<p><a class="btn" href="#/vocab/drill" data-act="redrill">もう一度 <span class="en-inline">New set</span></a></p>`;
   return `<div class="page drill vocab-drill" data-en-scope>
     <div class="page-head"><h1>単語の練習 <span class="en-inline">Vocabulary drill</span></h1><a class="btn" href="#/vocab">単語 <span class="en-inline">Word list</span></a></div>
-    <div class="dr-opts">${segBtns("vdr-mode", [["card", "カード"], ["quiz", "4択"]], dr.mode)}
-      ${dr.mode === "card" ? segBtns("vdr-dir", [["je", "日→英"], ["ej", "英→日"]], dr.dir) : ""}
-      ${segBtns("vdr-lv", LEVELS, dr.lv)}${segBtns("vdr-fresh", [[false, "全部"], [true, "未習のみ"]], dr.fresh)}
-      ${segBtns("vdr-ch", [[null, "全章"], ...TRY.chapters.map((c) => [c.id, c.id])], dr.ch)}</div>
-    <p class="dim">${n} words <span class="en-inline">${dr.fresh ? "not yet marked known" : "in this selection"}</span></p>
+    <div class="dr-opts">${segBtns("vdr-mode", [["card", "カード"], ["quiz", "4択"]], drill.mode)}
+      ${drill.mode === "card" ? segBtns("vdr-dir", [["je", "日→英"], ["ej", "英→日"]], drill.dir) : ""}
+      ${segBtns("vdr-lv", LEVELS, drill.lv)}${segBtns("vdr-fresh", [[false, "全部"], [true, "未習のみ"]], drill.fresh)}
+      ${segBtns("vdr-ch", [[null, "全章"], ...TRY.chapters.map((c) => [c.id, c.id])], drill.ch)}</div>
+    <p class="dim">${n} words <span class="en-inline">${drill.fresh ? "not yet marked known" : "in this selection"}</span></p>
     ${body}</div>`;
 }
-const set = (k, f) => (ACT[`vdr-${k}`] = (t) => { dr[k] = f(t.dataset.v); redraw(); });
+const set = (k, f) => (ACT[`vdr-${k}`] = (t) => { drill[k] = f(t.dataset.v); redraw(); });
 set("mode", (v) => v); set("dir", (v) => v); set("lv", (v) => v || null); set("fresh", (v) => v === "true"); set("ch", (v) => (v ? +v : null));
