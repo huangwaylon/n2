@@ -48,7 +48,7 @@ const allFiles = (b = BOOKS.q2) => {
 };
 // keys whose strings are ours (generated English) or not text at all
 const OURS = new Set(["tr", "titleTr", "headTr", "desc", "deepDive"]);
-const META = new Set(["t", "style", "id", "icon", "audio", "v", "mark", "side", "kind", "skill", "sec", "k", "m", "hl", "page", "pages", "no", "n", "ln", "lesson", "star", "strokes", "numbers", "vertical", "from", "to", "answer", "cols", "colspan", "rowspan", "tag", "unit", "start", "min", "max", "nopage", "align", "headAlign", "stripe", "speakers", "indent", "list"]);
+const META = new Set(["t", "style", "id", "icon", "audio", "v", "mark", "side", "kind", "skill", "sec", "k", "m", "hl", "page", "pages", "no", "n", "ln", "lesson", "star", "strokes", "numbers", "vertical", "from", "to", "answer", "cols", "colspan", "rowspan", "tag", "unit", "start", "min", "max", "align", "headAlign", "stripe", "speakers", "indent", "list"]);
 // visit(str, path, key, parent) for every string that is book text
 function walkBook(o, visit, p = "", key = "", parent = null) {
   if (typeof o === "string") { if (!OURS.has(key)) visit(o, p, key, parent); return; }
