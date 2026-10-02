@@ -841,7 +841,7 @@ TRY.registerChapter({
             en: ["Whether you can become a good player depends on your effort.", "Yes, I became a good player.", "Yes, it's your effort.", "Yes, I'll do my best."],
             options: ["はい、いい{選手|せんしゅ}になりました。", "はい、{君|きみ}の{努力|どりょく}です。", "はい、がんばります。"],
             answer: 2,
-            why: { en: "〜次第だ = \"depends on ~\": since it's up to the listener's effort, the natural reply is a promise to try hard. Option 1 talks as if it already happened, and option 2 repeats 君 (\"your\") as if the listener were talking about the speaker." },
+            why: { en: "〜次第だ = \"depends on ~\": since it's up to the listener's effort, the natural reply is a promise to try hard. Option 1 talks as if it had already happened, and option 2 (\"yes, it's your effort\") throws 君 back at the speaker, which makes no sense." },
           },
           {
             script: [
