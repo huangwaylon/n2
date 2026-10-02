@@ -3470,12 +3470,14 @@ ch7.review.2.ex.items.0.options.2	子どもでも大人でも夢中でレゴ遊�
 ch7.review.2.ex.items.0.options.3	子どもではないから、夜遅くまで自由にレゴ遊びをしてもかまわない。
 ch7.review.2.ex.items.0.q	母親はどんな気持ちで__①「子どもじゃあるまいし、またレゴ遊び。」__と言っているか。
 ch7.review.2.ex.items.1.answer	0
+ch7.review.2.ex.items.1.layout	list
 ch7.review.2.ex.items.1.options.0	レゴの世界の{魅力|みりょく}
 ch7.review.2.ex.items.1.options.1	レゴの作り方
 ch7.review.2.ex.items.1.options.2	今何を作っているか
 ch7.review.2.ex.items.1.options.3	姉が心配していること
 ch7.review.2.ex.items.1.q	__②「母さんにはわからないよ。」__とあるが、母親に何がわからないと思っているか。
 ch7.review.2.ex.items.2.answer	3
+ch7.review.2.ex.items.2.layout	list
 ch7.review.2.ex.items.2.options.0	親子関係が{悪化|あっか}すること
 ch7.review.2.ex.items.2.options.1	レゴばかりして働かないこと
 ch7.review.2.ex.items.2.options.2	ストレスで自分が病気になること
@@ -4370,6 +4372,7 @@ ch9.review.1.ex.prompt.ja	次の文の＿★＿に入る最もよいものを、
 ch9.review.1.ex.type	order
 ch9.review.1.title.ja	問題2 〈文の組み立て〉
 ch9.review.2.ex.items.0.answer	1
+ch9.review.2.ex.items.0.layout	list
 ch9.review.2.ex.items.0.options.0	{平常時|へいじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力
 ch9.review.2.ex.items.0.options.1	{非常時|ひじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力
 ch9.review.2.ex.items.0.options.2	{平常時|へいじょうじ}に出すと非難される{特殊|とくしゅ}な力
@@ -4389,6 +4392,7 @@ ch9.review.2.ex.title
 ch9.review.2.ex.type	reading
 ch9.review.2.title.ja	問題3 〈読解〉
 ch9.review.3.ex.items.0.answer	2
+ch9.review.3.ex.items.0.layout	grid
 ch9.review.3.ex.items.0.options.0	{太陽光|たいようこう}
 ch9.review.3.ex.items.0.options.1	{風力|ふうりょく}
 ch9.review.3.ex.items.0.options.2	メタンハイドレート

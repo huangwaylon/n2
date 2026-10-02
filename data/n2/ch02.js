@@ -866,6 +866,7 @@ TRY.registerChapter({
           },
           {
             q: "この会で、{誰|だれ}が{誰|だれ}に話していますか。",
+            layout: "list",
             options: ["選手がコーチに話している。", "コーチが選手に話している。", "コーチが会の{参加者|さんかしゃ}に話している。", "選手が会の{参加者|さんかしゃ}に話している。"],
             optionsEn: ["A runner is speaking to the coach.", "The coach is speaking to the runners.", "The coach is speaking to the people at the gathering.", "A runner is speaking to the people at the gathering."],
             answer: 3,

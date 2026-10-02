@@ -932,6 +932,7 @@ TRY.registerChapter({
           },
           {
             q: "__②「母さんにはわからないよ。」__とあるが、母親に何がわからないと思っているか。",
+            layout: "list",
             options: ["レゴの世界の{魅力|みりょく}", "レゴの作り方", "今何を作っているか", "姉が心配していること"],
             optionsEn: ["The appeal of the world of LEGO", "How to build with LEGO", "What he's building now", "That his sister is worried"],
             answer: 0,
@@ -940,6 +941,7 @@ TRY.registerChapter({
           },
           {
             q: "相談者は、どんなことを一番心配しているか。",
+            layout: "list",
             options: ["親子関係が{悪化|あっか}すること", "レゴばかりして働かないこと", "ストレスで自分が病気になること", "弟の健康や将来のこと"],
             optionsEn: ["That the parent–child relationship will get worse", "That he'll do nothing but LEGO and not work", "That she herself will get sick from stress", "Her brother's health and future"],
             answer: 3,

@@ -1050,6 +1050,7 @@ ch2.review.2.ex.items.0.options.2	{駅伝部|えきでんぶ}は{箱根駅伝|�
 ch2.review.2.ex.items.0.options.3	{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}するという{夢|ゆめ}を{実現|じつげん}したいと思っている。
 ch2.review.2.ex.items.0.q	ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。
 ch2.review.2.ex.items.1.answer	3
+ch2.review.2.ex.items.1.layout	list
 ch2.review.2.ex.items.1.options.0	選手がコーチに話している。
 ch2.review.2.ex.items.1.options.1	コーチが選手に話している。
 ch2.review.2.ex.items.1.options.2	コーチが会の{参加者|さんかしゃ}に話している。

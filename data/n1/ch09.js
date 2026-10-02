@@ -277,6 +277,7 @@ TRY.registerChapter({
         items: [
           {
             q: "「{火事場|かじば}の{馬鹿力|ばかぢから}」とはどういうことか。",
+            layout: "list",
             options: ["{平常時|へいじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力", "{非常時|ひじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力", "{平常時|へいじょうじ}に出すと非難される{特殊|とくしゅ}な力", "{非常時|ひじょうじ}に出すと非難される{特殊|とくしゅ}な力"],
             optionsEn: ["A special strength shown in normal times", "A special strength shown in an emergency", "A special strength that is criticized if shown in normal times", "A special strength that is criticized if shown in an emergency"],
             answer: 1,
@@ -313,6 +314,7 @@ TRY.registerChapter({
               { sp: "M2", v: "m", ja: "まあ、そうかもしれないけど、こういう問題は、なかなか難しいよね。" },
             ],
             en: ["On television, a scientist is talking about energy problems.", "Securing energy is an important issue that bears on our future. In an age when energy to replace oil is being sought, the development of new energy sources is urgent.\nIn Japan too, following Europe's example, solar power and wind power have been introduced, but in Japan, where both the climate and the terrain are different, there are limits.\nAs for an energy source suited to Japan, what I am paying the most attention to now is methane hydrate. It is called “burning ice,” and there is enough of it to cover as much as roughly 96 years of the natural gas used in Japan. We would be foolish not to make use of it.", "“Burning ice,” huh... Sounds good. If it works out, we won't need oil, will we?", "Hmm. But that's only if it works out, right? I wonder how it would actually turn out.", "Oh, come on. Still, I think it's worth trying.", "Well, maybe so, but this kind of problem is pretty difficult, isn't it."],
+            layout: "grid",
             options: ["{太陽光|たいようこう}", "{風力|ふうりょく}", "メタンハイドレート", "{天然|てんねん}ガス"],
             optionsEn: ["Solar power", "Wind power", "Methane hydrate", "Natural gas"],
             answer: 2,

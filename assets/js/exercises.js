@@ -196,12 +196,17 @@ function orderItem(it, i, c) {
 }
 
 // passage in a dashed frame; [n] blanks become boxed numbers
-function textBlock(title, paras, enParas) {
+// trailing ※ footnotes print under the dashed box in small type (N2 p.48)
+function textBlock(title, paras0, en0) {
+  let n = paras0.length;
+  while (n > 1 && /^※/.test(plain(paras0[n - 1]))) n--;
+  const paras = paras0.slice(0, n), enParas = en0 && en0.slice(0, n);
+  const notes = paras0.slice(n).map((p, k) => `<p class="ja">${fmt(p)}</p>${en0 && en0[n + k] ? `<p class="en en--gen">${fmt(en0[n + k])}</p>` : ""}`).join("");
   return `<div class="passage ja-book" data-en-scope>
       <div class="passage__tools">${speakBtn(paras.join("\n"))}${enParas ? enScopeBtn("passage__en") : ""}</div>
       ${title ? `<h4 class="passage__title">${fmt(title)}</h4>` : ""}
       <div class="ja">${paras.map((p) => `<p${/^[「『]/.test(plain(p)) ? ' class="p--q"' : ""}>${fmt(p).replace(/[\[［](\d+)[\]］]([、。，．」』）！？…]*)/g, (m, n, pu) => `${pu ? '<span class="nobr">' : ""}<span class="pblank" data-b="${n}">${n}</span>${pu ? pu + "</span>" : ""}`)}</p>`).join("")}</div>
-      ${enParas ? `<div class="en en--gen">${enParas.map((p) => `<p>${fmt(p)}</p>`).join("")}</div>` : ""}</div>`;
+      ${enParas ? `<div class="en en--gen">${enParas.map((p) => `<p>${fmt(p)}</p>`).join("")}</div>` : ""}</div>${notes ? `<div class="passage-note">${notes}</div>` : ""}`;
 }
 function passageBody(ex, c) {
   const num = c.num === "paren" ? "box" : c.num;
@@ -221,7 +226,8 @@ function listeningBody(ex, c) {
   let lastScript = [], lastEn = [];
   const resp = ex.mode === "response", gist = ex.mode === "gist";
   const spoken = resp || gist, summary = ex.mode === "summary" || gist;
-  const num = ex.items.length === 1 && spoken ? "none" : c.num === "paren" ? "box" : c.num;
+  // a single item has no number, and a single task item lists its options one per line (N2 pp.61, 85, 147, 159; N1 p.106)
+  const one = ex.items.length === 1, num = one ? "none" : c.num === "paren" ? "box" : c.num;
   return ex.items.map((it0, i) => {
     // an item without its own script reuses the previous one (one talk → several questions)
     const it = Object.assign({}, it0, { script: it0.script || lastScript, en: it0.script ? it0.en : it0.en || lastEn });
@@ -243,7 +249,7 @@ function listeningBody(ex, c) {
       ? `<div class="opts opts--resp" data-answer="${it.answer}">${it.options.map((_, j) => `<button class="opt opt--resp" data-act="pick" data-i="${i}" data-j="${j}" aria-label="${j + 1}"><span class="opt-n">${j + 1}</span></button>`).join("")}</div>`
       // one talk, two questions: the options are listed one per line whatever their length (pp.29, 121); an item's
       // layout overrides (N1 p.159 prints such a pair 2×2)
-      : optGroup(it.options, it.answer, "123", it.layout || (summary ? "list" : "grid"));
+      : optGroup(it.options, it.answer, "123", it.layout || (summary || one ? "list" : "grid"));
     return `<div class="q choice-q listen-q${spoken ? " listen-q--resp" : ""}" data-i="${i}">
           <div class="lq-row${num === "none" ? " lq-row--nonum" : ""}">${qnHtml(c.off + i + 1, num) || "<span></span>"}${opts}${cdBadge(queue, `問題${c.off + i + 1}を聞く`)}</div>
           <details class="script"><summary>スクリプト <span class="en-inline">Transcript</span></summary><div class="dlg ja-book">${summary ? "" : qLine}${script}${summary ? qLine : ""}${optsForScript}</div></details>
