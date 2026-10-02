@@ -229,7 +229,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["がくかい", "がっがい", "がくえ"],
     book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、**{学会|がっかい}**{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations — Dr. Sato is attending an academic conference.", at: "gp/1" },
     ex: [
-      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present her research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
+      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present new research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
     ] },
   { w: "{休診|きゅうしん}", lv: "N1", pos: "noun · する verb",
     en: "(a clinic) being closed; no consultations",
@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["てとうて", "しゅあて", "てあって"],
     book: { ja: "この会社では、{給料|きゅうりょう}のほかに仕事の内容（　）**{手当|てあ}て**が{支払|しはら}われます。", en: "At this company, in addition to salary, allowances are paid according to the nature of the work.", at: "gp/4" },
     ex: [
-      { ja: "{転|ころ}んだ{子|こ}どものけがを、{保健室|ほけんしつ}の{先生|せんせい}がすぐに**{手当|てあ}て**してくれた。", en: "The school nurse immediately treated the child who had fallen and hurt himself.", alt: ["{手入|てい}れ", "{手配|てはい}", "{手続|てつづ}き"] },
+      { ja: "{転|ころ}んだ{子|こ}どものけがを、{保健室|ほけんしつ}の{先生|せんせい}がすぐに**{手当|てあ}て**してくれた。", en: "The school nurse immediately treated the injuries of a child who had fallen.", alt: ["{手入|てい}れ", "{手配|てはい}", "{手続|てつづ}き"] },
     ] },
   { w: "{善悪|ぜんあく}", lv: "N1", pos: "noun",
     en: "good and evil; right and wrong",
@@ -633,7 +633,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{承|うけたまわ}る", lv: "N1", pos: "verb (godan, humble)",
     en: "to receive, accept or take (an order, request); to hear (humble)",
-    note: "Humble 謙譲語 used by staff to customers: ご注文を承ります (we take orders), ご予約を承りました, お話を承る (hear what you have to say). The long reading of the single kanji 承 is a favorite 漢字読み question.",
+    note: "Humble 謙譲語 used by staff to customers: ご注文を承ります (we take orders), ご予約を承りました, お話を承る (hear what you have to say). Note the long kun reading on a single kanji: うけたまわる.",
     rx: ["うけたまる", "うけわたる", "うけとまわる"],
     book: { ja: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で{配送|はいそう}を**{承|うけたまわ}ります**。", en: "At the moment, for this product only, we will deliver anywhere in the country for 210 yen.", at: "ch/1/review" },
     ex: [

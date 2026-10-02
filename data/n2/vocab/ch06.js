@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["どうぎ", "とうき", "どき"],
     book: { ja: "初めは**{同期|どうき}**の人に{比|くら}べて、{知識|ちしき}も{技術|ぎじゅつ}も足りなかったからね。", en: "At first I was short on both knowledge and skills compared with the people who joined the same year as me.", at: "ch/6" },
     ex: [
-      { ja: "{彼|かれ}とは**{同期|どうき}**で{入社|にゅうしゃ}して、もう十{年|ねん}の{付|つ}き{合|あ}いだ。", en: "He and I joined the company in the same intake, so we've known each other for ten years now.", alt: ["{動機|どうき}", "{同居|どうきょ}", "{時期|じき}"] },
+      { ja: "{彼|かれ}とは**{同期|どうき}**で{入社|にゅうしゃ}して、もう十{年|ねん}の{付|つ}き{合|あ}いだ。", en: "He and I joined the company the same year, so we've known each other for ten years now.", alt: ["{動機|どうき}", "{同居|どうきょ}", "{時期|じき}"] },
     ] },
   { w: "{上司|じょうし}", lv: "N2", pos: "noun",
     en: "boss; superior (at work)",
@@ -33,7 +33,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{市場|しじょう}", lv: "N2", pos: "noun",
     en: "market (in the economic sense)",
-    note: "Read しじょう for the abstract market: 市場価値 (market value), 国際市場, 株式市場 (stock market). Read いちば it is a physical marketplace (魚市場, うおいちば).",
+    note: "Read しじょう for the abstract market: 市場価値 (market value), 国際市場, 株式市場 (stock market). Read いちば, it is a physical marketplace (魚市場, うおいちば).",
     rx: ["しば", "いちじょう", "しっじょう"],
     book: { ja: "{消費者|しょうひしゃ}のニーズを{追求|ついきゅう}することが、世界**{市場|しじょう}**で{勝|か}つということ", en: "That pursuing consumer needs is how you win in the world market", at: "ch/6/review" },
     ex: [
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 6, words: [
       { ja: "{言葉|ことば}が{足|た}りなくて、{友人|ゆうじん}に**{誤解|ごかい}**されてしまった。", en: "I didn't explain myself well enough, and my friend misunderstood me.", alt: ["{理解|りかい}", "{分解|ぶんかい}", "{後悔|こうかい}"] },
     ] },
   { w: "{例年|れいねん}", lv: "N1", pos: "noun · adverb",
-    en: "an average year; usually (every year)",
+    en: "an average year; as in other years",
     note: "Common in weather news: 例年並み (about the same as usual), 例年より早い / 遅い, 例年通り (as in other years). 毎年 is the everyday “every year”.",
     rx: ["れいとし", "りねん", "れんねん"],
     book: { ja: "今年は**{例年|れいねん}**＿＿雨が少ないので、{水不足|みずぶそく}が{心配|しんぱい}だ。", en: "There's been less rain this year than in an average year, so I'm worried about a water shortage.", at: "ch/6" },
@@ -312,7 +312,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ちゅうや", "ちゅしゃ", "じゅうしゃ"],
     book: { ja: "**{注射|ちゅうしゃ}**だから痛くないことはないでしょうけど、{看護師|かんごし}さんによって痛さが{全然|ぜんぜん}違うんですよ。", en: "It's an injection, so I suppose it can't be completely painless, but how much it hurts depends completely on the nurse.", at: "gp/54" },
     ex: [
-      { ja: "{子|こ}どもは**{注射|ちゅうしゃ}**が{怖|こわ}くて{泣|な}き{出|だ}した。", en: "The child was so scared of the shot that he burst into tears.", alt: ["{駐車|ちゅうしゃ}", "{発射|はっしゃ}", "{注文|ちゅうもん}"] },
+      { ja: "{子|こ}どもは**{注射|ちゅうしゃ}**が{怖|こわ}くて{泣|な}き{出|だ}した。", en: "Scared of the shot, the child burst into tears.", alt: ["{駐車|ちゅうしゃ}", "{発射|はっしゃ}", "{注文|ちゅうもん}"] },
     ] },
   { w: "{派手|はで}", lv: "N2", pos: "な adjective",
     en: "flashy; showy; loud (colors)",
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{後悔|こうかい}", lv: "N2", pos: "noun · する verb",
     en: "regret",
-    note: "後悔する, 後悔しても遅い (it's too late for regrets), and the proverb 後悔先に立たず (regret never comes first). It is regretting one's own actions; 反省 is reflecting in order to improve.",
+    note: "後悔する, 後悔しても遅い (it's too late for regrets), and the proverb 後悔先に立たず (regret always comes too late). It is regretting one's own actions; 反省 is reflecting in order to improve.",
     rx: ["ごかい", "こうけい", "こかい"],
     book: { ja: "「セキュリティーがしっかりしていなかったばかりに、大きな{被害|ひがい}に{遭|あ}った」と**{後悔|こうかい}**するより、", en: "Rather than regretting, “We suffered major damage just because our security wasn't solid,”", at: "ch/6/review" },
     ex: [

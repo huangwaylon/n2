@@ -2,14 +2,14 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "{同士|どうし}", lv: "N2", pos: "noun · suffix",
     en: "fellow (people of the same kind); among themselves, with each other",
     note: "Added after a noun for people or things of the same kind that relate to each other: 友達同士 (between friends), 恋人同士 (a couple), 隣同士 (next to each other), 似た者同士 (birds of a feather). お互い stresses the mutual action; 同士 names the group itself. 同志 (same reading) means comrades who share a cause.",
-    rx: ["どうじ", "とうし", "どうじ"],
+    rx: ["どうじ", "とうし", "どし"],
     book: { ja: "友達**{同士|どうし}**の会話", en: "A Conversation with a Friend", at: "ch/5", src: "book" },
     ex: [
       { ja: "{隣|となり}の{席|せき}の{人|ひと}**{同士|どうし}**で{話|はな}し{合|あ}ってください。", en: "Please discuss it with the person sitting next to you.", alt: ["{同時|どうじ}", "{同様|どうよう}", "{同一|どういつ}"] },
     ] },
   { w: "{若干|じゃっかん}", lv: "N1", pos: "noun · adverb",
     en: "a few; some; a small number or amount; slightly",
-    note: "A formal word: job ads say 若干名 (“a small number of positions”), notices say 若干の変更 (some changes), and 若干高い means “a bit pricey”. In conversation people say 少し or ちょっと. The reading じゃっかん is irregular, so it is a favorite 漢字読み question.",
+    note: "A formal word: job ads say 若干名 (“a small number of positions”), notices say 若干の変更 (some changes), and 若干高い means “a bit pricey”. In conversation people say 少し or ちょっと. Note the reading じゃっかん (not じゃくかん).",
     rx: ["じゃくかん", "じゃっけん", "わかほし"],
     book: { ja: "困ったことにこの{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「**{若干名|じゃっかんめい}**」なんだよ。", en: "The annoying thing is that in this industry, every company's job ad just says they're hiring “a small number of people.”", at: "ch/5" },
     ex: [

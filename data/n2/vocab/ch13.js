@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["いんだい", "いんたえ", "ひきたい"],
     book: { ja: "家族ともよく話し合った{末|すえ}、今年度{限|かぎ}りで**{引退|いんたい}**することに決めました。", en: "After talking it over thoroughly with my family, I decided to retire at the end of this fiscal year.", at: "gp/124" },
     ex: [
-      { ja: "その{選手|せんしゅ}は{今|こん}シーズン{限|かぎ}りで**{引退|いんたい}**すると{発表|はっぴょう}した。", en: "That player announced he would retire at the end of this season.", alt: ["{退院|たいいん}", "{後退|こうたい}", "{引率|いんそつ}"] },
+      { ja: "その{選手|せんしゅ}は{今|こん}シーズン{限|かぎ}りで**{引退|いんたい}**すると{発表|はっぴょう}した。", en: "That player announced their retirement at the end of this season.", alt: ["{退院|たいいん}", "{後退|こうたい}", "{引率|いんそつ}"] },
     ] },
   { w: "{天職|てんしょく}", lv: "N1", pos: "noun",
     en: "one's calling; vocation; the perfect job for someone",
@@ -233,7 +233,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "early childhood; one's early years",
     note: "A written word for the period of being a small child: 幼少期を過ごす, 幼少期の体験. 幼い頃 or 子どもの頃 is the everyday way to say it. Related: 幼児 (small child), 幼稚園 (kindergarten).",
     rx: ["ようしょき", "よしょうき", "ようしょうご"],
-    book: { ja: "ここは、**{幼少期|ようしょうき}**から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを{築|きず}いた{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Mr. Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
+    book: { ja: "ここは、**{幼少期|ようしょうき}**から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを{築|きず}いた{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
     ex: [
       { ja: "{彼|かれ}は**{幼少期|ようしょうき}**を{海外|かいがい}で{過|す}ごしたので、{英語|えいご}が{得意|とくい}だ。", en: "He spent his early childhood abroad, so he's good at English.", alt: ["{幼稚園|ようちえん}", "{少子化|しょうしか}", "{期限|きげん}"] },
     ] },
@@ -241,7 +241,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to build (up); to establish (a relationship, fortune, position)",
     note: "Originally building walls or castles (城を築く); now mostly abstract: 信頼関係を築く, 財産を築く (amass a fortune), 地位を築く, 幸せな家庭を築く. Don't confuse it with 気づく (notice), which sounds similar.",
     rx: ["ちくく", "きぞく", "つくく"],
-    book: { ja: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを**{築|きず}いた**{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Mr. Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
+    book: { ja: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを**{築|きず}いた**{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
     ex: [
       { ja: "お{客様|きゃくさま}との{信頼関係|しんらいかんけい}を**{築|きず}く**には{時間|じかん}がかかる。", en: "It takes time to build a relationship of trust with customers.", alt: ["{気|き}づく", "{近|ちか}づく", "{片|かた}づく"] },
     ] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to run away; to escape; to flee",
     note: "Getting out of a place or situation you want to leave: 家から逃げ出す, 仕事から逃げ出したい. 逃げる alone is to run away; 〜出す adds the sense of breaking out. 脱出する is a formal word for escaping from danger.",
     rx: ["のげだす", "にげいだす", "にげたす"],
-    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "I was so embarrassed I wanted to run away, but the man with the low voice asked me:", at: "ch/13" },
+    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "As I stood there, so embarrassed I wanted to run away, the man with the low voice asked me:", at: "ch/13" },
     ex: [
       { ja: "{飼|か}っていた{鳥|とり}がかごから**{逃|に}げ{出|だ}した**。", en: "Our pet bird escaped from its cage.", alt: ["{取|と}り{出|だ}した", "{言|い}い{出|だ}した", "{思|おも}い{出|だ}した"] },
     ] },
@@ -448,7 +448,7 @@ TRY.registerVocab({ ch: 13, words: [
     ] },
   { w: "{映像|えいぞう}", lv: "N2", pos: "noun",
     en: "footage; video; image (on a screen)",
-    note: "Moving pictures on TV, film or video: ニュース映像, 映像が流れる, 映像作品. 画像 is a still image (a photo or picture file). 影像 is not common; the word is 映像.",
+    note: "Moving pictures on TV, film or video: ニュース映像, 映像が流れる, 映像作品. 画像 is a still image (a photo or picture file).",
     rx: ["えいしょう", "えいそう", "えいぞ"],
     book: { ja: "{衝撃的|しょうげきてき}な**{映像|えいぞう}**がテレビに{映|うつ}し{出|だ}され、彼は{驚|おどろ}きのあまり（　）。", en: "Shocking footage was shown on TV, and he was so startled that he dropped the cup he was holding.", at: "gp/128" },
     ex: [
@@ -562,7 +562,7 @@ TRY.registerVocab({ ch: 13, words: [
     note: "Stresses that someone came or went a long way, often with gratitude: 遠いところをはるばる来てくれてありがとう, 海外からはるばる. Usually with 来る / 訪ねる / 行く.",
     book: { ja: "**はるばる**{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", en: "I wholeheartedly entertained the old friend who had come all that way to visit me.", at: "ch/13" },
     ex: [
-      { ja: "{祖父母|そふぼ}が{田舎|いなか}から**はるばる**{孫|まご}の{結婚式|けっこんしき}に{来|き}てくれた。", en: "My grandparents came all the way from the countryside for their grandson's wedding.", alt: ["ばらばら", "ぎりぎり", "ぐるぐる"] },
+      { ja: "{祖父母|そふぼ}が{田舎|いなか}から**はるばる**{孫|まご}の{結婚式|けっこんしき}に{来|き}てくれた。", en: "My grandparents came all the way from the countryside for their grandchild's wedding.", alt: ["ばらばら", "ぎりぎり", "ぐるぐる"] },
     ] },
   { w: "{旧友|きゅうゆう}", lv: "N1", pos: "noun",
     en: "old friend; friend from long ago",
@@ -701,7 +701,7 @@ TRY.registerVocab({ ch: 13, words: [
     ] },
   { w: "{引|ひ}き{離|はな}す", lv: "N1", pos: "verb (godan, transitive)",
     en: "to separate; to pull apart; to pull ahead of (a rival)",
-    note: "Forcing people or things apart: 親子を引き離す, けんかしている二人を引き離す. In races and competitions it means opening a lead: 2位を大きく引き離してゴールした. The intransitive is 引き離される (be left behind).",
+    note: "Forcing people or things apart: 親子を引き離す, けんかしている二人を引き離す. In races and competitions it means opening a lead: 2位を大きく引き離してゴールした. The passive 引き離される means to be left behind.",
     rx: ["ひきはなつ", "いんはなす", "ひきばなす"],
     book: { ja: "この話が{報道|ほうどう}されると、多くの{視聴者|しちょうしゃ}から「[4]どんなことがあっても2{匹|ひき}を**{引|ひ}き{離|はな}さ**ないで」といったコメントがいくつも{寄|よ}せられた。", en: "When this story was reported, many viewers sent in comments such as \"Whatever happens, please don't separate the two.\"", at: "ch/13/review" },
     ex: [

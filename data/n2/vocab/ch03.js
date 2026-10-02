@@ -298,7 +298,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{才能|さいのう}", lv: "N2", pos: "noun",
     en: "talent; gift; natural ability",
     note: "Inborn ability in a field: 才能がある, 才能に恵まれる, 才能を伸ばす (develop a talent), 音楽の才能. 能力 is ability in general (including learned skills); 素質 is aptitude or potential.",
-    rx: ["ざいのう", "ざいのう", "さいのうう"],
+    rx: ["ざいのう", "さいどう", "せいのう"],
     book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり**{才能|さいのう}**がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.", at: "gp/25" },
     ex: [
       { ja: "{彼女|かのじょ}には{子|こ}どもの{頃|ころ}から{音楽|おんがく}の**{才能|さいのう}**があった。", en: "She has had a talent for music since she was a child.", alt: ["{性能|せいのう}", "{機能|きのう}", "{芸能|げいのう}"] },
@@ -618,9 +618,9 @@ TRY.registerVocab({ ch: 3, words: [
     en: "being in charge (of); the person in charge",
     note: "〜を担当する (be responsible for ~), 担当者 (the person in charge), 担当の者 (on the phone: “the person handling this”), 営業担当. 担任 is specifically a homeroom teacher.",
     rx: ["たんどう", "だんとう", "たんと"],
-    book: { ja: "えっ!? **{担当|たんとう}**は{後藤|ごとう}君だよね。今出張中だったっけ。", en: "What!? Goto is in charge of that, right? Is he away on a business trip now?", at: "ch/3/review" },
+    book: { ja: "えっ!? **{担当|たんとう}**は{後藤|ごとう}君だよね。今出張中だったっけ。", en: "What!? Goto is in charge of that, right? He's away on a business trip right now, isn't he?", at: "ch/3/review" },
     ex: [
-      { ja: "この{件|けん}の**{担当|たんとう}**は{田中|たなか}さんなので、{田中|たなか}さんに{聞|き}いてください。", en: "Mr. Tanaka is handling this matter, so please ask him.", alt: ["{相当|そうとう}", "{担任|たんにん}", "{当番|とうばん}"] },
+      { ja: "この{件|けん}の**{担当|たんとう}**は{田中|たなか}さんなので、{田中|たなか}さんに{聞|き}いてください。", en: "Tanaka is handling this matter, so please ask Tanaka.", alt: ["{相当|そうとう}", "{担任|たんにん}", "{当番|とうばん}"] },
     ] },
   { w: "{取|と}り{引|ひ}き", lv: "N2", pos: "noun · する verb",
     en: "business dealings; transaction; trade; a deal",

@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{栄養|えいよう}", lv: "N2", pos: "noun",
     en: "nutrition; nourishment",
     note: "栄養がある (nutritious), 栄養バランス, 栄養をとる, 栄養補助食品 (dietary supplement). 養分 is nutrients for plants.",
-    rx: ["えいやう", "えよう", "えいりょう"],
+    rx: ["えいゆう", "えよう", "えいりょう"],
     book: { ja: "{外食|がいしょく}では**{栄養|えいよう}**が{偏|かたよ}りがちなので、", en: "Since your nutrition tends to be unbalanced when you eat out,", at: "gp/111" },
     ex: [
       { ja: "{野菜|やさい}には**{栄養|えいよう}**がたっぷり{含|ふく}まれている。", en: "Vegetables are packed with nutrients.", alt: ["{休養|きゅうよう}", "{教養|きょうよう}", "{栄光|えいこう}"] },
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "publication; publishing; to publish",
     note: "本を出版する, 出版社 (publisher), 出版記念パーティー. 発行 is issuing (newspapers, certificates), and 刊行 is a formal word for publishing a series.",
     rx: ["しゅつはん", "しゅっはん", "でばん"],
-    book: { ja: "A：{山田|やまだ}さん、来週は出張で{講英社|こうえいしゃ}の**{出版|しゅっぱん}**{記念|きねん}パーティーに出られないんだって。", en: "A: I hear Yamada can't come to Koeisha's publication party next week because of a business trip.", at: "gp/113" },
+    book: { ja: "A：{山田|やまだ}さん、来週は出張で{講英社|こうえいしゃ}の**{出版|しゅっぱん}**{記念|きねん}パーティーに出られないんだって。", en: "A: I hear Yamada can't come to Koeisha's book launch party next week because of a business trip.", at: "gp/113" },
     ex: [
       { ja: "{彼女|かのじょ}は{去年|きょねん}、{初|はじ}めての{小説|しょうせつ}を**{出版|しゅっぱん}**した。", en: "Last year she published her first novel.", alt: ["{出発|しゅっぱつ}", "{出張|しゅっちょう}", "{出場|しゅつじょう}"] },
     ] },
@@ -609,7 +609,7 @@ TRY.registerVocab({ ch: 12, words: [
   { w: "{遠|とお}ざかる", lv: "N1", pos: "verb (intransitive)",
     en: "to move away; to recede; to grow distant",
     note: "足音が遠ざかる, 夢が遠ざかる, 優勝から遠ざかる (go a long time without a title). The transitive partner is 遠ざける, and the opposite is 近づく.",
-    rx: ["えんざかる", "えんざかる", "とおさかる"],
+    rx: ["えんざかる", "おんざかる", "とおさかる"],
     book: { ja: "{就職|しゅうしょく}したらお金を{貯|た}めて海外旅行に行きたいと思ったが、長い休みが取れず、{夢|ゆめ}は**{遠|とお}ざかる**＿＿だ。", en: "I thought that once I got a job I'd save money and travel abroad, but I can't get any long vacations, and my dream just keeps slipping further away.", at: "ch/12" },
     ex: [
       { ja: "{電車|でんしゃ}の{音|おと}がだんだん**{遠|とお}ざかって**いった。", en: "The sound of the train gradually faded into the distance.", alt: ["{預|あず}かって", "{助|たす}かって", "{見|み}つかって"] },

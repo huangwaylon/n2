@@ -336,7 +336,7 @@ TRY.registerVocab({ ch: 11, words: [
   { w: "{安定|あんてい}", lv: "N2", pos: "noun · する verb",
     en: "stability; to be stable",
     note: "安定した収入 (a steady income), 安定感 (a sense of stability), 気持ちが安定する. The opposite is 不安定. 安心 is peace of mind, a feeling.",
-    rx: ["あんじょう", "あんてえ", "やすてい"],
+    rx: ["あんじょう", "あんでい", "やすてい"],
     book: { ja: "ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの**安定**感はすばらしい。", en: "As you'd expect of a German luxury car, its stability on the expressway is superb.", at: "gp/105" },
     ex: [
       { ja: "{父|ちち}は{私|わたし}に**{安定|あんてい}**した{仕事|しごと}に{就|つ}いてほしいと{言|い}う。", en: "My father says he wants me to get a stable job.", alt: ["{安心|あんしん}", "{否定|ひてい}", "{鑑定|かんてい}"] },
@@ -494,7 +494,7 @@ TRY.registerVocab({ ch: 11, words: [
     ] },
   { w: "{抜群|ばつぐん}", lv: "N1", pos: "な adjective · noun",
     en: "outstanding; exceptional",
-    note: "Standing out far above the rest: 抜群の成績, 効果抜群, 味は抜群だ, 機能性抜群. It is used for qualities and results, not for people's rank.",
+    note: "Standing out far above the rest: 抜群の成績, 効果抜群, 味は抜群だ, 運動神経抜群 (superb athletic ability).",
     rx: ["ばっぐん", "ばつぐみ", "はつぐん"],
     book: { ja: "このりんごは{生産者|せいさんしゃ}の皆さんが{自慢|じまん}する（　）、味も{香|かお}りも**{抜群|ばつぐん}**ですね。", en: "As you'd expect from apples the growers are so proud of, both the taste and the aroma are outstanding.", at: "ch/11/review" },
     ex: [
@@ -582,7 +582,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "the real thing; the actual performance or event (not a rehearsal)",
     note: "練習 / リハーサル vs 本番: 本番に強い / 弱い (perform well / badly under pressure), 本番前, ぶっつけ本番 (with no rehearsal).",
     rx: ["ほんぱん", "もとばん", "ほうばん"],
-    book: { ja: "先生、自信がないです。**本番**は全部忘れてしまいそうで。それに人気校だけに、{競争率|きょうそうりつ}も高いし。", en: "Sir, I'm not confident. I feel like I'll forget everything when it's for real. And since it's a popular school, the competition is fierce too.", at: "ch/11/review" },
+    book: { ja: "先生、自信がないです。**本番**は全部忘れてしまいそうで。それに人気校だけに、{競争率|きょうそうりつ}も高いし。", en: "I'm not confident. I feel like I'll forget everything when it's for real. And since it's a popular school, the competition is fierce too.", at: "ch/11/review" },
     ex: [
       { ja: "{練習|れんしゅう}ではうまくいったのに、**{本番|ほんばん}**で{失敗|しっぱい}してしまった。", en: "It went well in practice, but I messed up on the day itself.", alt: ["{番号|ばんごう}", "{本物|ほんもの}", "{順番|じゅんばん}"] },
     ] },

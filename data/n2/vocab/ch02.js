@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["てんじん", "でんにん", "てんいん"],
     book: { ja: "**{転任|てんにん}**のあいさつ", en: "Addressing Co-workers after Receiving a Transfer Order", at: "ch/2", src: "book" },
     ex: [
-      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Ms. Yamada is being transferred to a different high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
+      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Our teacher, Yamada, is being transferred to a different high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
     ] },
   { w: "{改|あらた}まる", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be formal; to become ceremonious; to be renewed or changed",
@@ -18,7 +18,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{指導|しどう}", lv: "N2", pos: "noun · する verb",
     en: "guidance; instruction; coaching; leadership",
     note: "Teaching and guiding someone over time: 部下を指導する, ご指導ください (please guide me — a set phrase to superiors), 指導者 (leader, coach), 生活指導 (student guidance). 教える is plain “teach”; 指導 implies an ongoing mentor role.",
-    rx: ["しとう", "しとう", "じどう"],
+    rx: ["しとう", "じどう", "ちどう"],
     book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my senior colleagues.", at: "ch/2" },
     ex: [
       { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指紋|しもん}", "{誘導|ゆうどう}"] },
@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["いのちじる", "みょうじる", "めいしる"],
     book: { ja: "仕事をする{上|うえ}で大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を**{命|めい}じられ**、{残念|ざんねん}ながらこの{職場|しょくば}を{離|はな}れることになりました。", en: "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace.", at: "ch/2" },
     ex: [
-      { ja: "{社長|しゃちょう}は{部下|ぶか}に、{事故|じこ}の{原因|げんいん}を{調|しら}べるよう**{命|めい}じた**。", en: "The president ordered his subordinates to look into the cause of the accident.", alt: ["{応|おう}じた", "{信|しん}じた", "{感|かん}じた"] },
+      { ja: "{社長|しゃちょう}は{部下|ぶか}に、{事故|じこ}の{原因|げんいん}を{調|しら}べるよう**{命|めい}じた**。", en: "The president ordered staff to look into the cause of the accident.", alt: ["{応|おう}じた", "{信|しん}じた", "{感|かん}じた"] },
     ] },
   { w: "{職場|しょくば}", lv: "N2", pos: "noun",
     en: "workplace; one's place of work",
@@ -386,7 +386,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{芸能|げいのう}", lv: "N1", pos: "noun",
     en: "performing arts; entertainment (industry)",
     note: "Traditional performing arts (伝統芸能 such as kabuki and noh) and show business: 芸能人 (celebrity), 芸能界 (entertainment world), 芸能ニュース. 芸術 is art in general.",
-    rx: ["げいの", "けいのう", "げいの"],
+    rx: ["げいの", "けいのう", "げのう"],
     book: { ja: "今回のシンポジウムは日本の{伝統|でんとう}**{芸能|げいのう}**をテーマとして{行|おこな}われます。", en: "This symposium will be held on the theme of Japan's traditional performing arts.", at: "gp/16" },
     ex: [
       { ja: "{彼女|かのじょ}は{高校|こうこう}{時代|じだい}に**{芸能|げいのう}**{事務所|じむしょ}にスカウトされた。", en: "She was scouted by a talent agency when she was in high school.", alt: ["{芸術|げいじゅつ}", "{機能|きのう}", "{才能|さいのう}"] },
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["じゅうにん", "しゅにん", "しゅうじん"],
     book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
-      { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**して{最初|さいしょ}の{会見|かいけん}で{抱負|ほうふ}を{述|の}べた。", en: "At her first press conference after taking office, the new mayor set out her goals.", alt: ["{就職|しゅうしょく}", "{責任|せきにん}", "{担任|たんにん}"] },
+      { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**して{最初|さいしょ}の{会見|かいけん}で{抱負|ほうふ}を{述|の}べた。", en: "At the first press conference after taking office, the new mayor set out goals for the term.", alt: ["{就職|しゅうしょく}", "{責任|せきにん}", "{担任|たんにん}"] },
     ] },
   { w: "{発展|はってん}", lv: "N2", pos: "noun · する verb",
     en: "development; growth; expansion",
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 2, words: [
   { w: "{催|もよお}し{物|もの}", lv: "N1", pos: "noun",
     en: "event; attraction; entertainment (put on for the public)",
     note: "Events organized for visitors: 催し物会場 (event hall in a department store), 夏の催し物. 催し alone also works. 開催 (holding an event) shares the kanji 催.",
-    rx: ["さいしもの", "さいしもの", "もよしもの"],
+    rx: ["さいしもの", "もよしもの", "もよおしぶつ"],
     book: { ja: "この{港|みなと}では、{開港|かいこう}100{周年|しゅうねん}を{契機|けいき}に今年1年さまざまな**{催|もよお}し{物|もの}**が{企画|きかく}されている。", en: "To mark the 100th anniversary of its opening, all kinds of events have been planned at this port throughout the year.", at: "gp/17" },
     ex: [
       { ja: "デパートの{最上階|さいじょうかい}では、{北海道|ほっかいどう}{物産展|ぶっさんてん}などの**{催|もよお}し{物|もの}**が{開|ひら}かれる。", en: "Events such as Hokkaido product fairs are held on the top floor of the department store.", alt: ["{落|お}とし{物|もの}", "{贈|おく}り{物|もの}", "{飲|の}み{物|もの}"] },
@@ -549,7 +549,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["じんくす", "づくす", "つきす"],
     book: { ja: "プロジェクトのリーダーを引き受けた{以上|いじょう}、{全力|ぜんりょく}を**{尽|つ}くします**。", en: "Now that I've taken on the role of project leader, I will do my utmost.", at: "gp/18" },
     ex: [
-      { ja: "{医者|いしゃ}たちはあらゆる{手|て}を**{尽|つ}くした**が、{患者|かんじゃ}を{救|すく}えなかった。", en: "The doctors tried everything, but they couldn't save the patient.", alt: ["{付|つ}くした", "{振|ふ}った", "{突|つ}いた"] },
+      { ja: "{医者|いしゃ}たちはあらゆる{手|て}を**{尽|つ}くした**が、{患者|かんじゃ}を{救|すく}えなかった。", en: "The doctors tried everything, but they couldn't save the patient.", alt: ["{果|は}たした", "{振|ふ}った", "{突|つ}いた"] },
     ] },
   { w: "{争|あらそ}う", lv: "N2", pos: "verb (godan)",
     en: "to fight; to compete (for); to dispute",
@@ -637,7 +637,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["らんれ", "みだり", "みたれ"],
     book: { ja: "{現在|げんざい}、{強風|きょうふう}のため、{首都圏|しゅとけん}を中心＿＿、JR{各線|かくせん}にダイヤの**{乱|みだ}れ**が出ています。", en: "Currently, due to strong winds, JR lines, mainly in the Tokyo metropolitan area, are experiencing schedule disruptions.", at: "ch/2" },
     ex: [
-      { ja: "{夜|よる}{遅|おそ}くまでゲームをするなど、{生活|せいかつ}の**{乱|みだ}れ**が{体調|たいちょう}に{影響|えいきょう}している。", en: "His irregular lifestyle, like gaming till late at night, is affecting his health.", alt: ["{汚|よご}れ", "{恐|おそ}れ", "{憧|あこが}れ"] },
+      { ja: "{夜|よる}{遅|おそ}くまでゲームをするなど、{生活|せいかつ}の**{乱|みだ}れ**が{体調|たいちょう}に{影響|えいきょう}している。", en: "An irregular lifestyle, like gaming till late at night, is affecting my health.", alt: ["{汚|よご}れ", "{恐|おそ}れ", "{憧|あこが}れ"] },
     ] },
   { w: "{足|あし}を{運|はこ}ぶ", lv: "N1", pos: "expression (godan verb)",
     en: "to go (somewhere) in person; to make a visit (often repeatedly)",
@@ -693,7 +693,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["てっせつ", "てきさい", "てきぜつ"],
     book: { ja: "{警備|けいび}を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が**{適切|てきせつ}**だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and whether the security was adequate has become an issue.", at: "ch/2/review" },
     ex: [
-      { ja: "{医師|いし}の**{適切|てきせつ}**な{処置|しょち}のおかげで、{命|いのち}が{助|たす}かった。", en: "Thanks to the doctor's appropriate treatment, her life was saved.", alt: ["{大切|たいせつ}", "{親切|しんせつ}", "{切実|せつじつ}"] },
+      { ja: "{医師|いし}の**{適切|てきせつ}**な{処置|しょち}のおかげで、{命|いのち}が{助|たす}かった。", en: "Thanks to the doctor's appropriate treatment, the patient's life was saved.", alt: ["{大切|たいせつ}", "{親切|しんせつ}", "{切実|せつじつ}"] },
     ] },
   { w: "{有利|ゆうり}", lv: "N2", pos: "な adjective",
     en: "advantageous; favorable; profitable",

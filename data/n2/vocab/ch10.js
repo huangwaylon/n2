@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "losing an election; being rejected (in a contest)",
     note: "選挙で落選する; the opposite is 当選 (being elected). Also for contests and prize draws: コンクールで落選. Failing an exam is 不合格.",
     rx: ["らっせん", "おちせん", "らくぜん"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "Yamaguchi's supporters seem relieved, confident their candidate won't lose this election.", at: "gp/93" },
     ex: [
       { ja: "{人気|にんき}のあった{候補者|こうほしゃ}が、まさかの**{落選|らくせん}**となった。", en: "The popular candidate unexpectedly lost the election.", alt: ["{落下|らっか}", "{脱線|だっせん}", "{選択|せんたく}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "support; backing (of a person, party or opinion)",
     note: "支持する, 支持者 (supporters), 支持率 (approval rating), 支持を得る. 支援 is support as aid or assistance; 応援 is cheering someone on. Don't confuse it with 指示 (instructions), same reading.",
     rx: ["しし", "しじい", "ささじ"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "His supporters seem relieved, sure that Mr. Yamaguchi won't lose in this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "Yamaguchi's supporters seem relieved, confident their candidate won't lose this election.", at: "gp/93" },
     ex: [
       { ja: "{新|あたら}しい{政策|せいさく}は、{若者|わかもの}の{間|あいだ}で{強|つよ}い**{支持|しじ}**を{得|え}ている。", en: "The new policy has strong support among young people.", alt: ["{指示|しじ}", "{支給|しきゅう}", "{維持|いじ}"] },
     ] },
@@ -432,7 +432,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["がいす", "そとす", "はずず"],
     book: { ja: "プロジェクトメンバーから**{外|はず}されて**、彼女は{不満|ふまん}（　）だった。", en: "Having been taken off the project team, she looked dissatisfied.", at: "gp/97" },
     ex: [
-      { ja: "{部長|ぶちょう}は、ただいま{席|せき}を**{外|はず}して**おります。", en: "The manager is away from his desk at the moment.", alt: ["{外|はず}れて", "{譲|ゆず}って", "{移|うつ}して"] },
+      { ja: "{部長|ぶちょう}は、ただいま{席|せき}を**{外|はず}して**おります。", en: "The manager is away from the desk at the moment.", alt: ["{外|はず}れて", "{譲|ゆず}って", "{移|うつ}して"] },
     ] },
   { w: "{酔|よ}う", lv: "N2", pos: "godan verb",
     en: "to get drunk; to get (motion) sick",
@@ -447,7 +447,7 @@ TRY.registerVocab({ ch: 10, words: [
     note: "泣きわめく (cry and scream), 大声でわめく. 叫ぶ is to shout (neutral); わめく implies loud, unruly noise. Kanji 喚く, usually written in kana.",
     book: { ja: "{酔|よ}った彼女は、{泣|な}くやら、**わめく**やら、手がつけられない{状態|じょうたい}だった。", en: "Drunk, she was crying, screaming and carrying on — there was no handling her.", at: "gp/98" },
     ex: [
-      { ja: "おもちゃを{買|か}ってもらえず、{子|こ}どもが{床|ゆか}に{寝|ね}ころんで**わめいて**いる。", en: "Refused the toy he wanted, the child is lying on the floor screaming.", alt: ["ささやいて", "うなずいて", "ほほえんで"] },
+      { ja: "おもちゃを{買|か}ってもらえず、{子|こ}どもが{床|ゆか}に{寝|ね}ころんで**わめいて**いる。", en: "The child didn't get the toy and is lying on the floor screaming.", alt: ["ささやいて", "うなずいて", "ほほえんで"] },
     ] },
   { w: "{手|て}がつけられない", lv: "N1", pos: "expression",
     en: "out of control; unmanageable; impossible to handle",
@@ -566,7 +566,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["いそと", "いかい", "いげ"],
     book: { ja: "と思っていたが、きちんとした方法は**意外**に知らない人が多くて{驚|おどろ}いた。", en: "…but I was surprised that, unexpectedly, many people don't know the proper way.", at: "ch/10/review" },
     ex: [
-      { ja: "{怖|こわ}そうな{先生|せんせい}だったが、{話|はな}してみると**{意外|いがい}**に{優|やさ}しかった。", en: "The teacher looked scary, but when I talked to him, he was surprisingly kind.", alt: ["{以外|いがい}", "{案内|あんない}", "{意識|いしき}"] },
+      { ja: "{怖|こわ}そうな{先生|せんせい}だったが、{話|はな}してみると**{意外|いがい}**に{優|やさ}しかった。", en: "The teacher looked scary but turned out to be surprisingly kind once I talked to them.", alt: ["{以外|いがい}", "{案内|あんない}", "{意識|いしき}"] },
     ] },
   { w: "{新米|しんまい}", lv: "N1", pos: "noun",
     en: "novice, newbie, rookie; new rice (this year's harvest)",
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 10, words: [
     note: "まさにその通り (exactly right), まさに天才 (a genius, no less), まさに〜しようとしていた (was just about to). Emphatic and a little formal; kanji 正に. Casual equivalents: 本当に, ちょうど.",
     book: { ja: "**まさに**{有能|ゆうのう}な{秘書|ひしょ}だ。", en: "It's truly a capable secretary.", at: "ch/10/review" },
     ex: [
-      { ja: "{彼|かれ}のプレーは、**まさに**プロそのものだった。", en: "His play was every bit that of a pro.", alt: ["せめて", "たとえ", "いよいよ"] },
+      { ja: "{彼|かれ}のプレーは、**まさに**プロそのものだった。", en: "His play was professional through and through.", alt: ["せめて", "たとえ", "いよいよ"] },
     ] },
   { w: "{有能|ゆうのう}", lv: "N1", pos: "な adjective",
     en: "capable; competent; able",
@@ -715,7 +715,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["きょうかす", "おどらかす", "おどろがす"],
     book: { ja: "子どもを**おどろかそう**として、{突然|とつぜん}{近寄|ちかよ}ってくることがありますから…。", en: "It sometimes suddenly comes up close, trying to startle children...", at: "ch/10/review" },
     ex: [
-      { ja: "{後|うし}ろから{急|きゅう}に{声|こえ}をかけて、{友達|ともだち}を**{驚|おどろ}かした**。", en: "I startled my friend by calling out to him suddenly from behind.", alt: ["{散|ち}らかした", "{溶|と}かした", "{乾|かわ}かした"] },
+      { ja: "{後|うし}ろから{急|きゅう}に{声|こえ}をかけて、{友達|ともだち}を**{驚|おどろ}かした**。", en: "I startled my friend by suddenly calling out from behind.", alt: ["{散|ち}らかした", "{溶|と}かした", "{乾|かわ}かした"] },
     ] },
   { w: "{近寄|ちかよ}る", lv: "N2", pos: "godan verb",
     en: "to approach; to go near; to come close",

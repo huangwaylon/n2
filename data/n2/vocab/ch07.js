@@ -101,7 +101,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["てきじん", "てきいん", "てっきにん"],
     book: { ja: "彼は、{能力|のうりょく}、{人柄|ひとがら}、その{他|た}すべての点から見て、プロジェクトリーダーに**{適任|てきにん}**だ。", en: "In terms of ability, personality and every other respect, he is the right person to be project leader.", at: "gp/60" },
     ex: [
-      { ja: "{英語|えいご}も{中国語|ちゅうごくご}も{話|はな}せる{田村|たむら}さんが、{通訳|つうやく}には**{適任|てきにん}**だ。", en: "Ms. Tamura, who speaks both English and Chinese, is the right person to interpret.", alt: ["{適度|てきど}", "{担任|たんにん}", "{責任|せきにん}"] },
+      { ja: "{英語|えいご}も{中国語|ちゅうごくご}も{話|はな}せる{田村|たむら}さんが、{通訳|つうやく}には**{適任|てきにん}**だ。", en: "Tamura, who speaks both English and Chinese, is the right person to interpret.", alt: ["{適度|てきど}", "{担任|たんにん}", "{責任|せきにん}"] },
     ] },
   { w: "{要求|ようきゅう}", lv: "N2", pos: "noun · する verb",
     en: "demand; requirement; to demand",
@@ -365,7 +365,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ふくかつ", "ふっがつ", "ふかつ"],
     book: { ja: "オオカミの**{復活|ふっかつ}**により{生態系|せいたいけい}を{回復|かいふく}させ{得|う}ると考えたのだ。", en: "The idea was that the return of the wolf could restore the ecosystem.", at: "ch/7" },
     ex: [
-      { ja: "{十年|じゅうねん}ぶりに、{町|まち}の{夏祭|なつまつ}りが**{復活|ふっかつ}**した。", en: "The town's summer festival was revived for the first time in ten years.", alt: ["{復習|ふくしゅう}", "{活躍|かつやく}", "{生活|せいかつ}"] },
+      { ja: "{十年|じゅうねん}ぶりに、{町|まち}の{夏祭|なつまつ}りが**{復活|ふっかつ}**した。", en: "The town's summer festival was revived after a ten-year break.", alt: ["{復習|ふくしゅう}", "{活躍|かつやく}", "{生活|せいかつ}"] },
     ] },
   { w: "{回復|かいふく}", lv: "N2", pos: "noun · する verb",
     en: "recovery; restoration; to recover",
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いきょう", "いごう", "いむこう"],
     book: { ja: "彼は、親の**{意向|いこう}**に{反|はん}して、{戦場|せんじょう}カメラマンになった。", en: "Against his parents' wishes, he became a war photographer.", at: "gp/67" },
     ex: [
-      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president made clear his intention to retire next year.", alt: ["{方角|ほうがく}", "{意外|いがい}", "{傾向|けいこう}"] },
+      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president announced an intention to retire next year.", alt: ["{方角|ほうがく}", "{意外|いがい}", "{傾向|けいこう}"] },
     ] },
   { w: "{政策|せいさく}", lv: "N1", pos: "noun",
     en: "(government) policy",

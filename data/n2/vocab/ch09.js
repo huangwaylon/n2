@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(someone else's) daughter; young lady",
     note: "The polite word for another person's daughter (お宅のお嬢さん); for your own, say 娘. お嬢様 is even more polite and also suggests a sheltered, well-off girl (お嬢様育ち).",
     rx: ["おじょさん", "おしょうさん", "おむすめさん"],
-    book: { ja: "部長の**お{嬢|じょう}さん**と{見合|みあ}いしないかって。", en: "(He asked) whether I'd have an arranged-marriage meeting with his daughter.", at: "gp/78" },
+    book: { ja: "部長の**お{嬢|じょう}さん**と{見合|みあ}いしないかって。", en: "(I was asked) whether I'd do an arranged-marriage meeting with the department head's daughter.", at: "gp/78" },
     ex: [
       { ja: "{先生|せんせい}の**お{嬢|じょう}さん**は、{今年|ことし}{大学|だいがく}に{入学|にゅうがく}されたそうです。", en: "I hear the teacher's daughter started university this year.", alt: ["お{坊|ぼう}さん", "お{巡|まわ}りさん", "お{医者|いしゃ}さん"] },
     ] },
@@ -122,7 +122,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "kindergarten; preschool",
     note: "For ages 3–5 and run as a school; 保育園 (daycare) also takes babies and serves working parents. 幼稚 alone means childish (幼稚な考え).",
     rx: ["ようちいえん", "ゆうちえん", "ようじえん"],
-    book: { ja: "うちの姉の子がね、**{幼稚園|ようちえん}**で習った覚えたての歌と{踊|おど}りを見せてくれたんだ。", en: "My sister's kid showed me a song and dance she just learned at kindergarten.", at: "gp/79" },
+    book: { ja: "うちの姉の子がね、**{幼稚園|ようちえん}**で習った覚えたての歌と{踊|おど}りを見せてくれたんだ。", en: "My sister's kid showed me a song and dance they'd just learned at kindergarten.", at: "gp/79" },
     ex: [
       { ja: "{毎朝|まいあさ}{娘|むすめ}を**{幼稚園|ようちえん}**に{送|おく}ってから、{会社|かいしゃ}へ{行|い}く。", en: "Every morning I drop my daughter off at kindergarten and then go to work.", alt: ["{遊園地|ゆうえんち}", "{動物園|どうぶつえん}", "{植物園|しょくぶつえん}"] },
     ] },
@@ -177,7 +177,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "front; facade; directly opposite",
     note: "正面玄関 (main entrance), 駅の正面 (right across from the station), 正面から (head-on; directly), 正面衝突. 前 is the general “front”; 表 is the front side of a surface.",
     rx: ["せいめん", "しょうめい", "じょうめん"],
-    book: { ja: "うちの社長ってば、**{正面|しょうめん}**{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。", en: "Our company president, I swear — he says he's going to put up a bronze statue of himself at the front entrance.", at: "gp/80" },
+    book: { ja: "うちの社長ってば、**{正面|しょうめん}**{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。", en: "Our company president, I swear, says they're going to put up a bronze statue of themselves at the front entrance.", at: "gp/80" },
     ex: [
       { ja: "{駅|えき}の**{正面|しょうめん}**に{大|おお}きな{本屋|ほんや}ができた。", en: "A big bookstore opened right across from the station.", alt: ["{表面|ひょうめん}", "{場面|ばめん}", "{画面|がめん}"] },
     ] },
@@ -185,9 +185,9 @@ TRY.registerVocab({ ch: 9, words: [
     en: "bronze statue",
     note: "銅像を建てる / 立てる (put up a statue); the best known is the Hachikō statue at Shibuya. 像 alone is a statue or image; 仏像 is a Buddhist statue, 石像 a stone one.",
     rx: ["どうそう", "とうぞう", "どうしょう"],
-    book: { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の**{銅像|どうぞう}**立てるって言うんだ。", en: "Our company president, I swear — he says he's going to put up a bronze statue of himself at the front entrance.", at: "gp/80" },
+    book: { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の**{銅像|どうぞう}**立てるって言うんだ。", en: "Our company president, I swear, says they're going to put up a bronze statue of themselves at the front entrance.", at: "gp/80" },
     ex: [
-      { ja: "{公園|こうえん}の{入|い}り{口|ぐち}に、{町|まち}を{作|つく}った{人物|じんぶつ}の**{銅像|どうぞう}**が{立|た}っている。", en: "At the park entrance stands a bronze statue of the man who founded the town.", alt: ["{想像|そうぞう}", "{映像|えいぞう}", "{画像|がぞう}"] },
+      { ja: "{公園|こうえん}の{入|い}り{口|ぐち}に、{町|まち}を{作|つく}った{人物|じんぶつ}の**{銅像|どうぞう}**が{立|た}っている。", en: "At the park entrance stands a bronze statue of the person who founded the town.", alt: ["{想像|そうぞう}", "{映像|えいぞう}", "{画像|がぞう}"] },
     ] },
   { w: "{自動的|じどうてき}", lv: "N2", pos: "な adjective",
     en: "automatic",
@@ -269,7 +269,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "{見通|みとお}し", lv: "N1", pos: "noun",
     en: "visibility, view; outlook, prospects; forecast",
     note: "見通しが悪い (poor visibility, e.g. on a curvy road), 見通しが立つ (can foresee how things will go), 今後の見通し (the outlook). Verb 見通す (see through; foresee). 見込み (expectation, likelihood) overlaps in the prospects sense.",
-    rx: ["みどおし", "けんとおし", "みどおし"],
+    rx: ["みどおし", "けんとおし", "けんつうし"],
     book: { ja: "この道、カーブが多くて**{見通|みとお}し**が悪いし、{街灯|がいとう}は少ないし…。", en: "This road has lots of curves and poor visibility, and there are hardly any streetlights...", at: "gp/82" },
     ex: [
       { ja: "{工事|こうじ}が{終|お}わる**{見通|みとお}し**は、まだ{立|た}っていない。", en: "There's still no telling when the construction will be finished.", alt: ["{見出|みだ}し", "{見舞|みま}い", "{見本|みほん}"] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ふりこうる", "しんしぼる", "ふりしまる"],
     book: { ja: "最後の力を**ふりしぼって**、私が食べたわよ。", en: "I summoned the last of my strength and ate it myself.", at: "ch/9" },
     ex: [
-      { ja: "{彼|かれ}は{勇気|ゆうき}を**{振|ふ}り{絞|しぼ}って**、{好|す}きな{人|ひと}に{声|こえ}をかけた。", en: "He mustered all his courage and spoke to the girl he liked.", alt: ["{振|ふ}り{返|かえ}って", "{振|ふ}り{向|む}いて", "{絞|しぼ}り{込|こ}んで"] },
+      { ja: "{彼|かれ}は{勇気|ゆうき}を**{振|ふ}り{絞|しぼ}って**、{好|す}きな{人|ひと}に{声|こえ}をかけた。", en: "He mustered all his courage and spoke to the person he liked.", alt: ["{振|ふ}り{返|かえ}って", "{振|ふ}り{向|む}いて", "{絞|しぼ}り{込|こ}んで"] },
     ] },
   { w: "{心強|こころづよ}い", lv: "N1", pos: "い adjective",
     en: "reassuring; encouraging; heartening",
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ゆうとうしょう", "ゆうどうせい", "ようとうせい"],
     book: { ja: "「**{優等生|ゆうとうせい}**・{悪者|わるもの}・大人・{上品|じょうひん}・いい子・{偉|えら}い」などの言葉と一緒に使う。", en: "Used with words such as 優等生 (honor student), 悪者 (bad guy), 大人 (adult), 上品 (refined), いい子 (good child), 偉い (important).", at: "gp/85" },
     ex: [
-      { ja: "{兄|あに}は{子|こ}どものころから、{成績|せいせき}も{態度|たいど}もよい**{優等生|ゆうとうせい}**だった。", en: "Ever since he was a kid, my older brother was a model student with good grades and good behavior.", alt: ["{下級生|かきゅうせい}", "{卒業生|そつぎょうせい}", "{新入生|しんにゅうせい}"] },
+      { ja: "{兄|あに}は{子|こ}どものころから、{成績|せいせき}も{態度|たいど}もよい**{優等生|ゆうとうせい}**だった。", en: "From childhood on, my older brother was a model student, with good grades and good behavior.", alt: ["{下級生|かきゅうせい}", "{卒業生|そつぎょうせい}", "{新入生|しんにゅうせい}"] },
     ] },
   { w: "{悪者|わるもの}", lv: "N2", pos: "noun",
     en: "bad guy; villain; wrongdoer",
@@ -438,7 +438,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["とうにくる", "あたまにきる", "ずにくる"],
     book: { ja: "まったく、**頭に来る**よな。", en: "Seriously, it makes me so mad.", at: "gp/85" },
     ex: [
-      { ja: "{約束|やくそく}を3{回|かい}も{破|やぶ}られて、さすがに**{頭|あたま}に{来|き}た**。", en: "He broke his promise three times, and that really made me mad.", alt: ["{頭|あたま}が{下|さ}がった", "{気|き}に{入|い}った", "{目|め}に{入|はい}った"] },
+      { ja: "{約束|やくそく}を3{回|かい}も{破|やぶ}られて、さすがに**{頭|あたま}に{来|き}た**。", en: "After the third broken promise, I really got mad.", alt: ["{頭|あたま}が{下|さ}がった", "{気|き}に{入|い}った", "{目|め}に{入|はい}った"] },
     ] },
   { w: "けち", lv: "N2", pos: "noun · な adjective",
     en: "stingy; cheap; a tightwad",

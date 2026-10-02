@@ -312,7 +312,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "joint-stock company; corporation (Co., Ltd.; Inc.)",
     note: "Part of company names, before or after the name: 株式会社〇〇 / 〇〇株式会社, abbreviated (株). 株 alone is a share of stock, and 株主 is a shareholder. 会社 is read がいしゃ in this compound.",
     rx: ["かぶしきがしゃ", "しゅしきがいしゃ", "かぶじきがいしゃ"],
-    book: { ja: "部長、トニー**{株式会社|かぶしきがいしゃ}**の{山本|やまもと}様が{受付|うけつけ}にお見えです。", en: "Sir, Mr. Yamamoto from Tony Corporation has arrived at reception.", at: "ch/8/review" },
+    book: { ja: "部長、トニー**{株式会社|かぶしきがいしゃ}**の{山本|やまもと}様が{受付|うけつけ}にお見えです。", en: "Excuse me, Yamamoto from Tony Corporation has arrived at reception.", at: "ch/8/review" },
     ex: [
       { ja: "{父|ちち}は{小|ちい}さな**{株式会社|かぶしきがいしゃ}**を{経営|けいえい}している。", en: "My father runs a small corporation.", alt: ["{株主|かぶぬし}", "{形式|けいしき}", "{入社式|にゅうしゃしき}"] },
     ] },
