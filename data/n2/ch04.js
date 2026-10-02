@@ -20,7 +20,7 @@ TRY.registerChapter({
           { ja: "{台風|たいふう}の{接近|せっきん}**にともない**、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}{洪水|こうずい}{注意報|ちゅういほう}が出されています。", en: "With the approach of the typhoon, heavy-rain and flood advisories have been issued in various areas, starting with southern Kyushu." },
           { cont: true, ja: "これから{明日|あす}の{明|あ}け{方|がた}にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降る**おそれがあります**。", en: "From now until dawn tomorrow, heavy rain of 70 mm per hour may fall locally." },
           { cont: true, ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}**とともに**{河川|かせん}の{増水|ぞうすい}にもご注意ください。", en: "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds." },
-          { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We plan to show you the situation in Okinawa, which is now in the storm zone, during the program as soon as the live link is connected." },
+          { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は{中継|ちゅうけい}がつながり**{次第|しだい}**、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We will report on the situation in Okinawa, now in the storm zone, later in the program as soon as the live link is up." },
         ],
       },
       points: [
@@ -34,7 +34,7 @@ TRY.registerChapter({
           forms: ["[V-~~ます~~] + つつ"],
           examples: [
             { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべつつ、プレゼントを選ぶお父さんの{姿|すがた}が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces." },
-            { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators warmly applauded Suzuki, who had hurt a leg in a fall but kept running, favoring it, and finished the race." },
+            { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators." },
             { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department." },
             { ja: "{趣味|しゅみ}の{園芸|えんげい}教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At the gardening class I take as a hobby, I enjoy chatting with my friends while learning how to grow flowers." },
           ],
@@ -291,7 +291,7 @@ TRY.registerChapter({
             { ja: "{現在|げんざい}{移動|いどう}中ですが、{現地|げんち}に{到着|とうちゃく}{次第|しだい}、{連絡|れんらく}を入れます。", en: "I'm on my way now, but I'll get in touch as soon as I arrive there." },
           ],
           xref: "☞ p.222　〜{次第|しだい}",
-          deepDive: "**V-ます stem／N + 次第** means *as soon as ~, (I'll) right away*: it announces a future action waiting on something that hasn't happened yet. 決まり次第お知らせします (*we'll let you know as soon as it's decided*). It is the stock phrase of business email, customer service and news desks, and also fine in ordinary speech. The nouns are mostly する-nouns: 到着次第, 確認次第, 完成次第.\n\nConstraints the test checks:\n- The main clause is the speaker's intention, request or plan (〜します, 〜してください), not a past fact: ✗着き次第電話した → ✓着いてすぐ電話した (*I called right after I arrived*).\n- It must be a deliberate action, not something that just happens: ✗春になり次第、桜が咲く.\n\nCompare:\n- **N次第だ／で** (#114): *depends on*: 結果は努力次第だ (*the result depends on your effort*). An action after it means *as soon as*; a varying result means *depends on*.\n- **〜以来** (#9): *ever since*, a state continuing from a past point.\n- **〜際** (#7): *on the occasion of*, a formal *when*.\n\nPitfall: 次第 needs the ます-stem; ✗決まる次第.\n\nJLPT cue: a ます-stem before the blank and a polite future action (いたします, ご連絡します) after it.",
+          deepDive: "**V-ます stem／N + 次第** means *as soon as ~, (I'll) right away*: it announces a future action waiting on something that hasn't happened yet. 決まり次第お知らせします (*we'll let you know as soon as it's decided*). It is the stock phrase of business email, customer service and news desks, and also fine in ordinary speech. The nouns are mostly する-nouns: 到着次第, 確認次第, 完成次第.\n\nConstraints the test checks:\n- The main clause is the speaker's intention, request or plan (〜します, 〜してください), not a past fact: ✗着き次第電話した → ✓着いてすぐ電話した (*I called right after I arrived*).\n- It must be a deliberate action, not something that just happens: ✗春になり次第、桜が咲く.\n\nCompare:\n- **N次第だ／で** (#114): *depends on*: 結果は努力次第だ (*the result depends on your effort*). An action after it means *as soon as*; a varying result means *depends on*.\n- **〜以来** (#9): *ever since*, a state continuing from a past point.\n- **〜際** (#7): *on the occasion of*, a formal *when*.\n- **〜か〜ないかのうちに** (#96): *no sooner had … than*; it narrates two events in quick succession, often past: ベルが鳴るか鳴らないかのうちに教室を出た (*was out of the room almost before the bell rang*).\n\nPitfall: 次第 needs the ます-stem; ✗決まる次第.\n\nJLPT cue: a ます-stem before the blank and a polite future action (いたします, ご連絡します) after it.",
           see: [114, 9, 7, 96],
           index: ["V-ます次第", "N次第", "〜次第、…します"],
           practice: [
