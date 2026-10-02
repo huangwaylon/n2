@@ -184,7 +184,7 @@ TRY.registerChapter({
             { ja: "お寺まで歩いて行けなくもないですが、{山道|やまみち}だし、ちょっと大変ですよ。", en: "It's not impossible to walk to the temple, but it's a mountain path, so it's rather hard going." },
           ],
           deepDive: "**〜ないでもない** is a double negative, *it's not that I don't ~*, used to keep a statement deliberately soft. It hedges a feeling or judgment: そう言われると、寂しい気がしないでもない (*now that you mention it, I do feel a little lonely*). Or it grants a grudging, conditional yes, the chance isn't zero if the conditions are right: 頼まれれば手伝わないでもない (*if I'm asked, I might help*). The second use can sound reluctant or condescending, so it is not a polite way to accept a request.\n\nIt attaches to the ない-form stem: 行かないでもない, 考えないでもない. **〜なくもない** is the everyday variant; **〜ないものでもない** is stiffer and more written. A condition often comes before it (〜ば, 〜なら) and a reservation after it (〜が, 〜けど).\n\nCompare:\n- **〜ないことはない／〜ないこともない** (N2): nearly the same, a little more direct: 行けないことはない (*I could go*).\n- **〜ずにはおかない** (#32): *will definitely*, certainty rather than a hedge.\n\nPitfall: reading it as a negative; できないものでもない means it *can* be done.\n\nJLPT cue: in paraphrase questions it matches 〜てもいい (willingness) or 可能性がある (possibility).",
-          see: [43],
+          see: [43, 32],
           index: ["Vないでもない", "Vないものでもない", "Vなくもない", "〜ないでもない"],
           practice: [
             {
@@ -517,7 +517,7 @@ TRY.registerChapter({
             { ja: "あの優しそうな老人が、{強盗|ごうとう}事件の犯人だったとは。", en: "To think that kind-looking old man was the culprit in the robbery!" },
           ],
           deepDive: "**〜とは** voices surprise, admiration or exasperation at an unexpected fact: *to think that ~!* The surprising fact comes first, then the reaction (驚いた, 思わなかった, 信じられない, あきれた): 10年ぶりに会った友人が社長になっていたとは、驚いた (*to think the friend I hadn't seen in ten years had become a company president!*). まさか often comes before it, and the reaction can be left out, leaving the feeling hanging: まさか彼が犯人だったとは。\n\nIt attaches to plain forms; after な-adjectives and nouns, だ is optional.\n\nDon't confuse it with **XとはYのことだ** (N3), the definition *X means Y*, which carries no surprise; **〜とは限らない** and **〜とはいえ** (#61) are separate patterns too.\n\nCompare **〜なんて** (N3), the colloquial equivalent: こんなに高いなんて！ とは sounds more adult and written, though it is common in speech as well.\n\nPitfall: using it for something you expected (✗やっぱり彼が来るとは).\n\nJLPT cue (★★★): a surprising fact + blank + 驚いた, 思わなかった or 非常識だ points to とは; in listening, まさか…とは means the speaker didn't see it coming.",
-          see: [],
+          see: [61],
           index: ["〜とは", "〜とは。", "まさか〜とは"],
           practice: [
             {
@@ -544,7 +544,7 @@ TRY.registerChapter({
             { ja: "王子はシンデレラを{一目|ひとめ}見るなり、恋に落ちてしまった。", en: "The prince fell in love with Cinderella the instant he laid eyes on her." },
           ],
           deepDive: "**V-るなり** means *the moment ~, (something unexpected) followed*. It narrates a past event, usually about a third person, and the second half is a sudden new action or reaction that often surprises the speaker: 息子は帰ってくるなり、自分の部屋に閉じこもった (*the moment my son got home, he shut himself up in his room*).\n\nIt always takes the dictionary form, even for the past (✗帰ってきたなり). The second half can't be a plan, request or order (✗着くなり電話してください → ✓着いたらすぐ電話してください), and it isn't an ongoing state.\n\nCompare:\n- **〜が早いか** (#30): very close; it stresses how short the gap was, and the two subjects easily differ.\n- **〜や否や** (#97): the literary *no sooner than*.\n- **〜たとたん（に）** (N3): often something that happens to the subject outside their control: 立ち上がったとたん、めまいがした (*the moment I stood up, I felt dizzy*).\n\nLook-alikes: **V-たなり**, *and has stayed that way* (出ていったなり戻らない); **AなりBなり** (#21); **〜なりに** (#18).\n\nJLPT cue: a past narrative with an abrupt reaction in the second half (飛び出した, 泣き出した, 怒鳴った) points to なり.",
-          see: [21, 30, 97],
+          see: [21, 30, 97, 18],
           index: ["Vなり", "V-るなり", "〜なり"],
           practice: [
             {

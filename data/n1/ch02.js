@@ -45,7 +45,7 @@ TRY.registerChapter({
             { ja: "彼は{侍|さむらい}の家に生まれたが、読書好きで、{剣|けん}もちょっと習った程度で、{弓|ゆみ}や{槍|やり}に{至|いた}っては触ったことさえないという男だった。", en: "He was born into a samurai family, but he loved reading, had only studied swordsmanship a little, and as for the bow and the spear, he had never so much as touched them." },
           ],
           deepDive: "**Nに至っては** adds the most extreme case at the end of a comparison: *and when it comes to N, it goes even further*. 至る is *to reach*, so literally *when we get as far as N*: 全国平均で8%程度、さいわい市に至ってはわずか5% (*about 8% nationally, and in Saiwai City a mere 5%*).\n\nIt needs a preceding comparison of the same kind (the book: まず比較する例を挙げて) and cannot open a statement cold (✗田中さんに至っては遅刻した). The last item goes furthest in the same direction, usually a negative or surprising one, so わずか, 〜さえない or 全く〜ない often follow: 弓や槍に至っては触ったことさえない. A positive extreme works too: 限定100個のどら焼きに至っては連日行列ができる. The register is formal; conversation uses 〜なんか.\n\nCompare:\n- **〜に至るまで** (#5): *all the way to*; it covers a whole range instead of singling out its extreme.\n- **〜はもとより／〜はもちろん**: name the obvious case first; に至っては puts the extreme case last.\n- **〜すら** (#25): an extreme example inside one sentence, with no list before it.\n\nJLPT cue: a list of comparable figures or cases (40代は41%、30代は23%) followed by the most extreme one → に至っては.",
-          see: [5],
+          see: [5, 25],
           index: ["Nに至っては", "〜に至っては"],
           practice: [
             {

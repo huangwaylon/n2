@@ -462,7 +462,7 @@ TRY.registerChapter({
             },
           ],
           deepDive: "**いかん** (如何, *how, what state*) is a formal word for the content or state of something. **N（の）いかんで / いかんによって（は） / いかんにかかっている** means *depending on what N turns out to be*: 戦争を回避できるかどうかは、今回の会談の結果いかんにかかっている (*whether war can be avoided depends on the outcome of these talks*). N is something that can vary: 結果, 天候, 情勢, 対応.\n\nThe clip note reverses it: **Nのいかんにかかわらず／によらず／を問わず** = *regardless of N*, the standard wording of official notices: 理由のいかんにかかわらず、キャンセルできません (*no cancellations for any reason*). The Plus phrases **いかんせん** (*unfortunately, there's nothing to be done*) and **いかんともしがたい** (*nothing can be done about it*) are fixed expressions of resignation.\n\nCompare:\n- **〜次第で** (N2 level): the same *depending on*, less formal. Don't confuse it with **〜次第だ** (#12), which explains how something came about.\n- **〜ようによって（は）** (#110): *depending on how one ~*: 考えようによっては (*depending on how you look at it*).\n\nPitfall: mixing up the directions: いかんで means the outcome changes with N; のいかんにかかわらず means it doesn't.\n\nJLPT cue: decide whether the result varies with N before choosing among the いかん options.",
-          see: [110],
+          see: [110, 12],
           notesFirst: false,
           index: ["N（の）いかん", "Nいかん", "いかんせん〜", "いかんせん", "いかんともしがたい", "Nのいかんにかかわらず", "Nのいかんによらず", "Nのいかんを問わず", "いかんによって"],
           practice: [

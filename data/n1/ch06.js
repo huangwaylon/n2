@@ -189,7 +189,7 @@ TRY.registerChapter({
             { ja: "この{不況下|ふきょうか}、経営努力を重ねたうえでの{倒産|とうさん}は{同業者|どうぎょうしゃ}として{同情|どうじょう}にたえない。", en: "In this recession, as someone in the same industry, I feel the deepest sympathy for a company that went bankrupt despite every effort to keep it going." },
           ],
           deepDive: "**N + にたえない** (堪えない, *cannot contain*) after an emotion noun means the feeling is too strong to hold in: 感謝にたえません (*I cannot thank you enough*), 同情にたえない (*I feel the deepest sympathy*). It states the speaker's own feeling, usually after a reason in 〜て, 〜り or 〜まして, and belongs to speeches, official statements and letters; 遺憾にたえない is typical of formal statements of regret.\n\nConnection: N + にたえない, polite にたえません; the nouns are 感謝, 感激, 同情, 遺憾, 後悔, 喜び and 〜の念 (感謝の念, 自責の念).\n\nThe ☞ points to **聞くにたえない** (#56): after 聞く, 見る or 読む the same ending means *too awful to ~*. The word in front decides.\n\nCompare:\n- **〜の至り** (#66): only 光栄, 感激, 恐縮, 赤面.\n- **〜限りだ** (#71): feeling adjectives (うれしい限り); nouns take にたえない, adjectives take 限りだ.\n- **〜てやまない** (#15): a lasting wish or hope (願ってやまない), not a momentary emotion.\n\nPitfall: using it in casual talk, where it sounds pompous.\n\nJLPT cue: 喜び / 感謝の念 / 同情 + blank points to にたえない.",
-          see: [56, 66, 71, 121],
+          see: [56, 66, 71, 121, 15],
           xref: "☞ 56. 聞く**にたえない**",
           index: ["Nにたえない①", "Nにたえない", "〜にたえません", "感謝にたえない"],
           practice: [],

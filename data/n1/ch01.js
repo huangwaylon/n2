@@ -137,7 +137,7 @@ TRY.registerChapter({
             { ja: "{初詣|はつもうで}は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "Plenty of people make their New Year's visit at a shrine, marry in a church and hold funerals at a temple — something I think you'd only find in Japan, with its tolerance of different religions." },
           ],
           deepDive: "**N₁ならではのN₂** names something that only N₁ has or offers: *an N₂ you can find only in or with N₁*. It carries admiration (the book's praise icon): 北国ならではの遊び (*a pastime only the snowy north offers*), 専門店ならではの味. The best paraphrase is 〜でしか〜ない: 専門店でしか出せない独特の味.\n\nForms: ならではの before a noun; 〜はNならではだ as a predicate (the ＊ note). N₁ is a noun for a place, season, profession or kind of organization; a verb can't precede it.\n\nCompare:\n- **〜らしい**: what is typical, not necessarily unique: 子どもらしい絵 (*a childlike picture*).\n- **〜特有の／〜独特の**: neutral or negative *peculiar to*: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*). ならではの is normally kept for merits.\n- **〜とあって** (#2) presents a special status as a reason; ならではの describes the special thing itself.\n\nPitfall: reading ならでは as the conditional なら. これは専門店ならどこでも似ている味 says the opposite of 専門店ならではの味.\n\nJLPT cue: when の is already printed after the blank (日本の春（　）の光景), the answer is ならでは, not ならではの.",
-          see: [],
+          see: [2],
           index: ["N₁ならではのN₂", "Nならではだ", "NならではのN"],
           practice: [
             {

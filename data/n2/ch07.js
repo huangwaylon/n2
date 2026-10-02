@@ -569,7 +569,7 @@ TRY.registerChapter({
           ],
           xref: "☞ p.223　〜に{限|かぎ}る／{限|かぎ}り",
           deepDive: "**Nに限らず** is the negative of 〜に限る *to be limited to*: *not only N*. It **widens** the scope: N is one case, and the rest says the same holds more broadly, usually with も／でも／あらゆる〜／どんな〜でも: 夏に限らず、年間を通して節電を心がけるべきだ (*we should save electricity all year round, not just in summer*). It follows nouns only; for clauses use 〜のみならず (#63) or 〜だけでなく.\n\nCompare:\n- **〜を問わず** (#2): *regardless of*, with a noun that spans a range: 年齢を問わず, 男女を問わず. ✗人間を問わず: 人間 isn't a range.\n- **〜に限り** (#3): the opposite: 会員に限り (*members only*) vs 会員に限らず (*not only members*).\n- **〜はもとより** (#12): *not to mention*; the first item is the obvious one.\n\nPitfall: に限らず adds members to a group; when the second clause goes against the first, the pattern is 〜にもかかわらず (#21) or が.\n\nJLPT cue: a second clause with も or でも that extends the group, often with どのような or あらゆる.",
-          see: [3, 23, 86, 104, 63, 2],
+          see: [3, 23, 86, 104, 63, 2, 12, 21],
           index: ["Nに限らず"],
           practice: [
             {

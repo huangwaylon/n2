@@ -152,7 +152,7 @@ TRY.registerChapter({
             { ja: "{時代|じだい}の{変化|へんか}にともなって、{人々|ひとびと}の考え方も変わってきた。", en: "As the times have changed, people's way of thinking has changed too." },
           ],
           deepDive: "**XにともなってY** (from 伴う *to accompany*) says Y comes along with X as its consequence: X is a main event or change, Y what it brings. Two typical uses: an event and its side effect (道路工事にともなう通行止め, *road closures due to construction*), and one change linked to another (人口の増加にともなって, *as the population grows*). It is formal, the language of notices and news; conversation uses 〜で or 〜から.\n\nForms: **にともなって**, **にともない** (written) and **にともなう + N**. As with **にわたって** (#31), choose by what it modifies: the next noun takes にともなう, the verb にともなって. **それにともない** (*along with that*) links sentences.\n\nCompare:\n- **〜とともに** (#35): also links changes, but only とともに takes a person as partner: 家族とともに暮らす (*live with my family*), ✗家族にともなって.\n- **〜にしたがって** (#65): proportional change on both sides; にともなって can also mark a one-off event: 移転にともない、電話番号が変わる (*with the move, the phone number will change*).\n- **〜に応じて** (#4): deliberate matching to a condition: 収入に応じて (*according to income*).\n\nPitfall: a simple cause such as weather takes ため or で: ✗雨にともなって試合が中止になった.\n\nJLPT cue: a change or event noun (移転, 増加, 普及, 変化) before the blank and a resulting change after it.",
-          see: [35, 65, 4],
+          see: [35, 65, 4, 31],
           index: ["Nにともなって", "Nにともない", "Nにともなう", "それにともない", "伴って"],
           practice: [
             {
