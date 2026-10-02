@@ -40,7 +40,7 @@ TRY.registerChapter({
           forms: ["[Pl] + ものだ\n［[なA~~だ~~]な　~~[N]だ~~］"],
           examples: [
             { ja: "昔はよく友達と近くの川で{泳|およ}いだものだ。", en: "I often used to swim in the nearby river with my friends." },
-            { ja: "{娘|むすめ}も昔は「パパ、大好き！」と言ってくれて、かわいかったものだが…。", en: "My daughter used to say \"Daddy, I love you!\" too, and she was so sweet back then, but..." },
+            { ja: "{娘|むすめ}も昔は「パパ、大好き！」と言ってくれて、かわいかったものだが…。", en: "My daughter used to say \"Daddy, I love you!\" and she was so sweet back then, but..." },
             { ja: "10年前はこのあたりも静かだったものだが、今ではすっかり変わってしまった。", en: "Ten years ago this area used to be quiet too, but now it has completely changed." },
             { ja: "あんな高いところから落ちて、よくけがをしなかったものだ。", en: "It's amazing that you didn't get hurt falling from such a high place." },
             { ja: "あの子がもう{成人式|せいじんしき}ですか。時間がたつのは早いものですね。", en: "That kid is already old enough for the coming-of-age ceremony? Time really flies, doesn't it?" },
@@ -250,7 +250,7 @@ TRY.registerChapter({
                   q: "A：先生、{電子|でんし}レンジって、いくらぐらいしますか。\nB：{温|あたた}めるだけなら、{高|たか}い（　）10,000円以下で買えるでしょう。",
                   options: ["としても", "とすれば"],
                   answer: 0,
-                  en: "A: Sir, about how much does a microwave cost?\nB: If it's just for heating things up, even an expensive one should cost less than 10,000 yen.", why: { en: "The conclusion holds despite the supposition: 高いとしても (*even an expensive one*) costs under 10,000 yen. とすれば would make being expensive the reason it's cheap." },
+                  en: "A: About how much does a microwave cost?\nB: If it's just for heating things up, even an expensive one should cost less than 10,000 yen.", why: { en: "The conclusion holds despite the supposition: 高いとしても (*even an expensive one*) costs under 10,000 yen. とすれば would make being expensive the reason it's cheap." },
                 },
                 {
                   q: "A：夏休みに旅行する（　）、どこがいい？\nB：私、ソウルへ行きたい。",
