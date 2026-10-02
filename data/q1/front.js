@@ -35,21 +35,21 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "本書の作成には本当に多くの方々にお世話になりました。南山大学外国人留学生別科には本書を試用する機会を与えていただき、終始温かく見守っていただきました。同僚や常葉大学の坂本勝信先生からは適切な助言を、また試用版の翻訳に協力してくれた修了生の Dan Bentley さんをはじめ、常に私たちの原動力の源であり続けてくれた別科の留学生からは、率直な意見とともに励ましの言葉もいただきました。ここに深く感謝の意を表します。また、本書に準拠した単語・漢字アプリ制作のためのクラウドファンディングに多額のご寄付をいただきましたすべての皆様、緻密かつ丁寧な翻訳で多大な貢献をいただきました増本朱華さんにも心よりお礼を申し上げます。",
-     "tr": "A great many people helped us in making this book. Nanzan University's Center for Japanese Studies gave us the opportunity to trial this book and warmly supported us from start to finish. Our colleagues and Professor Katsunobu Sakamoto of Tokoha University gave us sound advice, and the Center's international students, including program graduate Dan Bentley, who helped translate the trial edition, were a constant source of drive for us and gave us frank opinions along with words of encouragement. We express our deep gratitude to them here. We also extend our heartfelt thanks to everyone who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, who made a great contribution with her meticulous and careful translation."
+     "tr": "A great many people helped us in making this book. Nanzan University's Center for Japanese Studies gave us the opportunity to trial this book and warmly supported us from start to finish. Our colleagues and Professor Katsunobu Sakamoto of Tokoha University gave us sound advice, and the Center's international students, including program graduate Dan Bentley, who helped translate the trial edition, were a constant source of drive for us and gave us frank opinions along with words of encouragement. We express our deep gratitude to them here. We also extend our heartfelt thanks to everyone who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, whose meticulous and careful translation was a great contribution."
     }
    },
    {
     "t": "p",
     "text": {
      "ja": "最後に、気の遠くなるような膨大な作業量にとまどい、幾度となく道を見失いそうになった私たちを叱咤激励し、出版まで支え続けてくださったジャパンタイムズ日本語出版編集部の関戸千明さんにはひとかたならぬお世話になりました。深謝申し上げます。",
-     "tr": "Finally, we owe an immense debt to Chiaki Sekido of the Japanese Language Publishing Department of The Japan Times, who spurred us on when we were bewildered by the staggering amount of work and nearly lost our way time and again, and who kept supporting us all the way to publication. We thank her deeply."
+     "tr": "Finally, we owe an immense debt to Chiaki Sekido of the Japanese Language Publishing Department of The Japan Times, who spurred us on when we were bewildered by the staggering amount of work and nearly lost our way time and again, and who kept supporting us all the way to publication. Our deepest thanks."
     }
    },
    {
     "t": "p",
     "text": {
      "ja": "学習者が楽しみながらも一歩一歩着実に中級の日本語力を伸ばしていく──本書がその一助になることを心から願っております。",
-     "tr": "Learners enjoying themselves while steadily building their intermediate Japanese, one step at a time: we sincerely hope that this book will help them do so."
+     "tr": "We sincerely hope that this book will help learners steadily build their intermediate Japanese, one step at a time, while enjoying themselves."
     }
    },
    {

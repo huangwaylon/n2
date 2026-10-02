@@ -490,7 +490,7 @@ TRY.registerUnits([
        {
         "sp": "A",
         "ja": "サラさんが言っていたけど、この本は{難|むずか}しい**そうだ**よ。",
-        "tr": "Sara was saying that this book is supposed to be hard."
+        "tr": "Sarah was saying that this book is supposed to be hard."
        },
        {
         "sp": "B",
@@ -512,13 +512,13 @@ TRY.registerUnits([
      {
       "n": 4,
       "ja": "サラさんはフランス人だ**そうだ**。",
-      "tr": "I hear Sara is French."
+      "tr": "I hear Sarah is French."
      }
     ]
    },
    {
     "t": "figure",
-    "desc": "Illustration for [#1]: a woman tells a man about a book, and a thought bubble above them shows Sara holding up the book and talking.",
+    "desc": "Illustration for [#1]: a woman tells a man about a book, and a thought bubble above them shows Sarah holding up the book and talking.",
     "labels": [
      "1"
     ]
@@ -781,7 +781,7 @@ TRY.registerUnits([
      {
       "n": 3,
       "ja": "うちの犬はさんぽが{嫌|きら}いで、犬**らしくない**。",
-      "tr": "Our dog hates walks. He's not very doglike."
+      "tr": "Our dog hates walks, which isn't very doglike."
      },
      {
       "n": 4,
@@ -977,7 +977,7 @@ TRY.registerUnits([
       "n": 1,
       "ja": "{田中|たなか}さんは50歳だが、子どもの**ような**人だ。",
       "en": "(Tanaka is ''not'' a child.)",
-      "tr": "Tanaka-san is 50, but he's like a child."
+      "tr": "Tanaka-san is 50 but acts like a child."
      },
      {
       "n": 2,
@@ -2240,7 +2240,7 @@ TRY.registerUnits([
    },
    {
     "t": "figure",
-    "desc": "Illustration for [#1]: Sara hands a wrapped present to \"me\" (seen from behind); an arrow points from Sara toward me. The caption 「サラは」 has は underlined.",
+    "desc": "Illustration for [#1]: Sarah hands a wrapped present to \"me\" (seen from behind); an arrow points from Sarah toward me. The caption 「サラは」 has は underlined.",
     "labels": [
      "1",
      "サラ",
@@ -2296,7 +2296,7 @@ TRY.registerUnits([
    },
    {
     "t": "figure",
-    "desc": "Illustration for [#1]: the same scene of Sara handing a present to \"me\"; the caption 「サラに」 has に underlined.",
+    "desc": "Illustration for [#1]: the same scene of Sarah handing a present to \"me\"; the caption 「サラに」 has に underlined.",
     "labels": [
      "1",
      "サラ",
@@ -4449,17 +4449,17 @@ TRY.registerUnits([
        {
         "sp": "A",
         "ja": "{昨日|きのう}のパーティーにリーさん**が**来ましたよ。",
-        "tr": "Lee came to the party yesterday, you know."
+        "tr": "Lee-san came to the party yesterday, you know."
        },
        {
         "sp": "B",
         "ja": "ああ、リーさん**は**元気でしたか。",
-        "tr": "Oh, how was Lee doing?"
+        "tr": "Oh, how was Lee-san doing?"
        },
        {
         "sp": "A",
         "ja": "はい。（リーさん**は**）元気でしたよ。",
-        "tr": "Yes. (Lee) was doing well."
+        "tr": "Yes. (Lee-san) was doing well."
        }
       ]
      }
@@ -4733,7 +4733,7 @@ TRY.registerUnits([
      {
       "n": 2,
       "ja": "リーさん**が**住んでいるアパートは学校の近くにある。",
-      "tr": "The apartment Lee lives in is near the school."
+      "tr": "The apartment Lee-san lives in is near the school."
      },
      {
       "n": 3,

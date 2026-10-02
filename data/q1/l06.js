@@ -2694,7 +2694,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "僕も{洗|あら}い{物|もの}は好きじゃないから研の＿＿、\nキッチンは寮のみんなが使うところだから……。",
-            "tr": "I don't like doing the dishes either, so Ken, I ＿＿ the kitchen is a place everyone in the dorm uses, so..."
+            "tr": "I don't like doing the dishes either, so Ken, I ＿＿, the kitchen is a place everyone in the dorm uses, so..."
            },
            "answer": [
             "気持ちはわかるけど"
@@ -4953,7 +4953,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "注意する時は少し言いにくくても、はっきり言ってくれたほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせると思います。みなさんだったら、ルームメートにどのように注意しますか。",
-       "tr": "I think that when you point something out, even if it's a little hard to say, it's better to say it clearly, because then there are no misunderstandings and both people can get along comfortably. If it were you, how would you tell your roommate?"
+       "tr": "When pointing something out, even if it's a little hard to say, I think it's better if people say it clearly, because then there are no misunderstandings and both sides can get along comfortably. What about all of you? How would you tell your roommate?"
       }
      ]
     }
