@@ -79,7 +79,7 @@ TRY.registerVocab({ ch: 8, words: [
     ex: [
       { ja: "{部長|ぶちょう}は{外出中|がいしゅつちゅう}ですので、よろしければご**{伝言|でんごん}**を{承|うけたまわ}ります。", en: "The manager is out, so if you like, I can take a message.", alt: ["{宣言|せんげん}", "{発言|はつげん}", "{伝統|でんとう}"] },
     ] },
-  { w: "{申|もう}し{伝|つた}える", lv: "N1", pos: "verb (ru-verb, humble)",
+  { w: "{申|もう}し{伝|つた}える", lv: "N1", pos: "verb (ichidan, humble)",
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
@@ -300,7 +300,7 @@ TRY.registerVocab({ ch: 8, words: [
     ex: [
       { ja: "{玄関|げんかん}の**{花瓶|かびん}**に、{庭|にわ}で{咲|さ}いたバラを{生|い}けた。", en: "I put roses from the garden in the vase in the entryway.", alt: ["{花束|はなたば}", "{花壇|かだん}", "{瓶詰|びんづ}め"] },
     ] },
-  { w: "{買|か}い{求|もと}める", lv: "N1", pos: "verb (ru-verb, transitive)",
+  { w: "{買|か}い{求|もと}める", lv: "N1", pos: "verb (ichidan, transitive)",
     en: "to buy; to purchase (formal)",
     note: "A formal 買う that suggests seeking out an item: 記念に買い求める, and in shops お買い求めいただけます (available for purchase), お買い求めの際は (when purchasing).",
     rx: ["ばいもとめる", "かいきゅうめる", "かいぼとめる"],

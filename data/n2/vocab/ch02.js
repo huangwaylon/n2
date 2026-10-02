@@ -31,7 +31,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{部長|ぶちょう}は{今日|きょう}、**{取引先|とりひきさき}**との{会議|かいぎ}で{大阪|おおさか}に{出張|しゅっちょう}している。", en: "The manager is on a business trip to Osaka today for a meeting with a client.", alt: ["{行|い}き{先|さき}", "{勤|つと}め{先|さき}", "{宛先|あてさき}"] },
     ] },
-  { w: "{命|めい}じる", lv: "N2", pos: "verb (ru-verb, transitive)",
+  { w: "{命|めい}じる", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to order; to command; to appoint (someone) to a post",
     note: "Formal: an authority orders something: 部下に調査を命じる, 転勤を命じられる (be ordered to transfer), 大阪支社勤務を命じる. Also 命ずる (more literary). The noun is 命令.",
     rx: ["いのちじる", "みょうじる", "めいしる"],
@@ -231,7 +231,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{好|す}きな{人|ひと}に{告白|こくはく}して{断|ことわ}られ、{生|う}まれて{初|はじ}めて**{失恋|しつれん}**した。", en: "I confessed my feelings to the person I liked, got turned down, and had my heart broken for the first time in my life.", alt: ["{失業|しつぎょう}", "{失礼|しつれい}", "{失格|しっかく}"] },
     ] },
-  { w: "{避|さ}ける", lv: "N2", pos: "verb (ru-verb, transitive)",
+  { w: "{避|さ}ける", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to avoid; to keep away from; to evade",
     note: "Keep away from something unwanted: 混雑を避ける, 人目を避ける, 避けられない (unavoidable). よける is to dodge physically (車をよける); 避ける also covers topics and situations.",
     rx: ["ざける", "ひける", "さげる"],
@@ -511,7 +511,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{私|わたし}たちの{高校|こうこう}は、{初|はじ}めて{全国|ぜんこく}{大会|たいかい}に**{出場|しゅつじょう}**した。", en: "Our high school competed in the national tournament for the first time.", alt: ["{出演|しゅつえん}", "{出身|しゅっしん}", "{入場|にゅうじょう}"] },
     ] },
-  { w: "{身|み}につける", lv: "N2", pos: "expression (ru-verb)",
+  { w: "{身|み}につける", lv: "N2", pos: "expression (ichidan)",
     en: "to acquire, master (a skill or knowledge); to wear, carry on one's person",
     note: "Most often: gain lasting skills or habits — 技術を身につける, 教養を身につける, 習慣を身につける. Also literally put on or carry: アクセサリーを身につける. Intransitive: 身につく (be learned).",
     rx: ["しんにつける", "みにづける", "からだにつける"],
@@ -583,7 +583,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{料理|りょうり}が{遅|おそ}いと、{客|きゃく}が{店員|てんいん}に**{文句|もんく}**を{言|い}っていた。", en: "A customer was complaining to the staff that the food was slow.", alt: ["{文章|ぶんしょう}", "{文法|ぶんぽう}", "{伝言|でんごん}"] },
     ] },
-  { w: "{訪|おとず}れる", lv: "N2", pos: "verb (ru-verb)",
+  { w: "{訪|おとず}れる", lv: "N2", pos: "verb (ichidan)",
     en: "to visit (a place); to arrive, come (of a season or time)",
     note: "A written verb: 京都を訪れる, 観光客が訪れる, 春が訪れる (spring comes), チャンスが訪れる. In speech 行く / 来る / 訪ねる (visit a person).",
     rx: ["たずれる", "ほうれる", "おとされる"],
@@ -615,7 +615,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{少子化|しょうしか}で、{小学生|しょうがくせい}の{数|かず}が**{減少|げんしょう}**している。", en: "Because of the falling birthrate, the number of elementary school students is decreasing.", alt: ["{現象|げんしょう}", "{減点|げんてん}", "{症状|しょうじょう}"] },
     ] },
-  { w: "{優|すぐ}れる", lv: "N2", pos: "verb (ru-verb, intransitive)",
+  { w: "{優|すぐ}れる", lv: "N2", pos: "verb (ichidan, intransitive)",
     en: "to be excellent; to surpass; to be superior",
     note: "Usually 優れた + noun or 優れている: 優れた機能 / 才能 / 作品. It is a stative verb, so 優れる alone at the end of a sentence is rare. The same kanji read やさしい means “kind”.",
     rx: ["ゆうれる", "やされる", "すくれる"],
@@ -767,7 +767,7 @@ TRY.registerVocab({ ch: 2, words: [
     ex: [
       { ja: "{高校|こうこう}の{同級生|どうきゅうせい}とロックバンドを**{結成|けっせい}**した。", en: "I formed a rock band with my high school classmates.", alt: ["{結論|けつろん}", "{完成|かんせい}", "{賛成|さんせい}"] },
     ] },
-  { w: "{整|ととの}える", lv: "N2", pos: "verb (ru-verb, transitive)",
+  { w: "{整|ととの}える", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to put in order; to arrange; to prepare; to improve (conditions)",
     note: "Getting something into proper shape: 環境を整える, 準備を整える, 体調を整える (get in good condition), 髪を整える. Intransitive: 整う. 片づける is tidying up by putting things away.",
     rx: ["せいえる", "ととなえる", "とどのえる"],

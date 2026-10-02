@@ -135,7 +135,7 @@ TRY.registerVocab({ ch: 7, words: [
     ex: [
       { ja: "この{問題|もんだい}には、**{複数|ふくすう}**の{解決方法|かいけつほうほう}が{考|かんが}えられる。", en: "Several ways of solving this problem can be imagined.", alt: ["{複雑|ふくざつ}", "{多数決|たすうけつ}", "{重複|ちょうふく}"] },
     ] },
-  { w: "{買|か}い{換|か}える", lv: "N2", pos: "verb (ru-verb, transitive)",
+  { w: "{買|か}い{換|か}える", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to replace (something) by buying a new one",
     note: "車を買い換える, スマホの買い換え. Also written 買い替える, which is now the more common spelling. 取り替える is swapping or exchanging without necessarily buying.",
     rx: ["かいがえる", "ばいかえる", "かいかわる"],
@@ -295,7 +295,7 @@ TRY.registerVocab({ ch: 7, words: [
     ex: [
       { ja: "{就職|しゅうしょく}したら、{親|おや}から**{自立|じりつ}**して{一人|ひとり}で{暮|く}らしたい。", en: "Once I get a job, I want to become independent from my parents and live on my own.", alt: ["{自習|じしゅう}", "{自慢|じまん}", "{起立|きりつ}"] },
     ] },
-  { w: "{耳|みみ}を{傾|かたむ}ける", lv: "N1", pos: "expression (ru-verb)",
+  { w: "{耳|みみ}を{傾|かたむ}ける", lv: "N1", pos: "expression (ichidan)",
     en: "to listen attentively; to lend an ear (to)",
     note: "Listening seriously to what others say: 意見に耳を傾ける, 話に耳を傾ける. 傾ける alone means “tilt” or “devote” (情熱を傾ける). 耳を疑う means “can't believe one's ears.”",
     rx: ["みみをけいむける", "みみをかたむかける", "じをかたむける"],

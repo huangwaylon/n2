@@ -60,7 +60,7 @@ for (const v of T.vocab) {
       if ((a.every((k) => b.includes(k)) || b.every((k) => a.includes(k))) && a.length && b.length) E(id, `same word as ${o} in ch${c}?`);
     }
     if (KANJI.test(w)) {
-      if (!x.rx || x.rx.length !== 3) E(id, "rx needs 3 wrong readings");
+      if (!x.rx || x.rx.length !== 3 || new Set(x.rx).size !== 3) E(id, "rx needs 3 different wrong readings");
       // a wrong reading that is only another spelling of the same sound (きづく / きずく) can't be told apart by ear
       else x.rx.forEach((y) => { if (y === r || same(y) === same(r) || !KANA.test(y)) E(id, `bad rx ${y}`); });
     }

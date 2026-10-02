@@ -159,7 +159,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{年齢|ねんれい}による**{差別|さべつ}**をなくすため、{法律|ほうりつ}が{改正|かいせい}された。", en: "The law was amended to eliminate age discrimination.", alt: ["{分別|ぶんべつ}", "{送別|そうべつ}", "{特別|とくべつ}"] },
     ] },
-  { w: "{適度|てきど}", lv: "N1", pos: "noun · na-adjective",
+  { w: "{適度|てきど}", lv: "N1", pos: "noun · ãª adjective",
     en: "moderate; proper amount; in moderation",
     note: "Just the right degree, not too much or too little: 適度な運動 (moderate exercise), 適度な休憩, 適度に飲む. 過度 is excessive. 適当 can mean suitable but in speech often means 'half-hearted', so 適度 is safer for 'moderate'.",
     rx: ["てきと", "てきたび", "てっど"],
@@ -287,7 +287,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{工場|こうじょう}から{出|で}る**{廃棄物|はいきぶつ}**は、{決|き}められた{方法|ほうほう}で{処理|しょり}しなければならない。", en: "Waste from the factory has to be disposed of in the prescribed way.", alt: ["{建築物|けんちくぶつ}", "{農作物|のうさくもつ}", "{印刷物|いんさつぶつ}"] },
     ] },
-  { w: "{適正|てきせい}", lv: "N1", pos: "noun · na-adjective",
+  { w: "{適正|てきせい}", lv: "N1", pos: "noun · ãª adjective",
     en: "proper; appropriate; fair (by the standards)",
     note: "Correct and appropriate according to rules or standards: 適正な価格 (a fair price), 適正に処理する, 適正体重. Its homophone 適性 means aptitude (適性検査 aptitude test).",
     rx: ["てきしょう", "てっせい", "てきじょう"],
@@ -439,7 +439,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{高速道路|こうそくどうろ}でトラックと{乗用車|じょうようしゃ}が**{衝突|しょうとつ}**した。", en: "A truck and a car collided on the expressway.", alt: ["{衝撃|しょうげき}", "{突破|とっぱ}", "{突然|とつぜん}"] },
     ] },
-  { w: "{重大|じゅうだい}", lv: "N2", pos: "na-adjective",
+  { w: "{重大|じゅうだい}", lv: "N2", pos: "ãª adjective",
     en: "serious; grave; momentous",
     note: "Of great seriousness, often with bad consequences: 重大な事故 / ミス / 責任, 重大ニュース. 重要 is 'important' in a neutral sense (重要な会議); 重大 stresses weight and seriousness. 重体 (じゅうたい) is being in critical condition.",
     rx: ["じゅうたい", "ちょうだい", "じゅだい"],

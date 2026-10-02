@@ -383,7 +383,7 @@ TRY.registerVocab({ ch: 1, words: [
     ex: [
       { ja: "{事故|じこ}の**{状況|じょうきょう}**を、{警察|けいさつ}に{詳|くわ}しく{説明|せつめい}した。", en: "I explained the circumstances of the accident to the police in detail.", alt: ["{好況|こうきょう}", "{近況|きんきょう}", "{実況|じっきょう}"] },
     ] },
-  { w: "{心|こころ}がける", lv: "N1", pos: "verb (ru-verb, transitive)",
+  { w: "{心|こころ}がける", lv: "N1", pos: "verb (ichidan, transitive)",
     en: "to make a point of (doing); to try to keep in mind",
     note: "Consciously keep up a good habit: 早寝早起きを心がける, 安全運転を心がけている. The noun is 心がけ (attitude, habit). 気をつける is “be careful”; 心がける is steadily aiming at something good.",
     rx: ["しんがける", "こころかける", "ここがける"],
