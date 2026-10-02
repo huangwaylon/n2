@@ -2679,8 +2679,12 @@ ch6.parts.1.points.1.examples.1.ja	カラオケは行かないこともないん
 ch6.parts.1.points.1.examples.2.ja	{注射|ちゅうしゃ}だから痛くないことはないでしょうけど、{看護師|かんごし}さんによって痛さが{全然|ぜんぜん}違うんですよ。
 ch6.parts.1.points.1.examples.3.ja	A：このメイク、ちょっと{派手|はで}すぎる？
 B：うーん。{派手|はで}じゃないこともないけど、パーティーなんだから、いいんじゃない？
-ch6.parts.1.points.1.forms.0	[V-~~ない~~]／[いA~~い~~] く／[なA] で + ないことはない
-ch6.parts.1.points.1.forms.1	[V-~~ない~~]／[いA~~い~~] く／[なA] で + ないこともない
+ch6.parts.1.points.1.forms.0	[V-~~ない~~] + ないことはない
+ch6.parts.1.points.1.forms.1	[V-~~ない~~] + ないこともない
+ch6.parts.1.points.1.forms.2	[いA~~い~~] く + ないことはない
+ch6.parts.1.points.1.forms.3	[いA~~い~~] く + ないこともない
+ch6.parts.1.points.1.forms.4	[なA] で + ないことはない
+ch6.parts.1.points.1.forms.5	[なA] で + ないこともない
 ch6.parts.1.points.1.no	54
 ch6.parts.1.points.1.pattern	〜ないことはない
 ch6.parts.1.points.1.phrase	わから**ないことはなかった**

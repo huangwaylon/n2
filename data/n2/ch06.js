@@ -299,7 +299,7 @@ TRY.registerChapter({
           stars: 3,
           marks: [],
           usage: { ja: "「〜ないことはない」は、「{絶対|ぜったい}〜だ」とはっきり言えない、{自信|じしん}がなくてはっきり言いたくないときに使う。", en: "Use \"〜ないことはない\" when you cannot say flat out that something \"absolutely is 〜\" or are not confident and do not want to say something flat out." },
-          forms: ["[V-~~ない~~]／[いA~~い~~] く／[なA] で + ないことはない", "[V-~~ない~~]／[いA~~い~~] く／[なA] で + ないこともない"],
+          forms: ["[V-~~ない~~] + ないことはない", "[V-~~ない~~] + ないこともない", "[いA~~い~~] く + ないことはない", "[いA~~い~~] く + ないこともない", "[なA] で + ないことはない", "[なA] で + ないこともない"],
           examples: [
             { ja: "A：お酒、お好きですか。\nB：そんなに好きではありませんが、飲めないことはありません。", en: "A: Do you like alcohol?\nB: I'm not that fond of it, but it's not that I can't drink." },
             { ja: "カラオケは行かないこともないんですが、{誘|さそ}われたときにお付き合いで行くぐらいです。", en: "It's not that I never go to karaoke, but I only go to keep people company when I'm invited." },
