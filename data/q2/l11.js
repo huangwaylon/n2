@@ -294,7 +294,7 @@ TRY.registerLesson({
      "tr": [
       "Japanese people say yoroshiku everywhere they go. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you no longer know what yoroshiku means.",
       "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within the limits of what the other person can do and leave those limits up to that person. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
-      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, Mr. So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean he wanted me to meet the man at the airport? That he wanted me to book a hotel for him? That I should show him around Paris? Or that I might perhaps have a meal with him at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
+      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or would I perhaps be kind enough to have a meal with them at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
       "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person can at times even be rude. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
      ]
     },
@@ -1013,7 +1013,7 @@ TRY.registerLesson({
           {
            "sp": "選手",
            "ja": "はい！",
-           "tr": "Yes, Coach!"
+           "tr": "Yes!"
           }
          ]
         },
@@ -1023,7 +1023,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "リーさん、サモスン社に就職が決まったけど、仕事内容が気に入らないんだって。",
-           "tr": "Lee-san landed a job at Samosun, but I hear Lee-san doesn't like the work involved."
+           "tr": "Lee-san got a job at Samosun but apparently doesn't like the work."
           },
           {
            "sp": "B",
