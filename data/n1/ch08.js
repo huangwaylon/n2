@@ -13,7 +13,7 @@ TRY.registerChapter({
         vertical: true,
         lines: [
           { ja: "何か考え込んでいる表情で{萌花|もえか}は先ほどから庭を行き**つ**戻り**つ**している。", en: "With a look of deep thought, Moeka has been pacing back and forth in the garden for a while now." },
-          { cont: true, ja: "{優斗|ゆうと}はその様子を見る**ともなく**見ている。", en: "Yuto is idly watching her, without really meaning to." },
+          { cont: true, ja: "{優斗|ゆうと}はその様子を見る**ともなく**見ている。", en: "Yuto is watching her, without really watching." },
           { ja: "{萌花|もえか}は十六歳。", en: "Moeka is sixteen." },
           { cont: true, ja: "年よりもずっと大人っぽい印象だ。", en: "She gives the impression of being far more grown-up than her age." },
           { cont: true, ja: "この神社の娘として生まれ、町を{異界|いかい}のものたちから守る**べく**育てられてきたのだから、普通の十六歳と同じはずがない。", en: "Born the daughter of this shrine and raised to protect the town from the beings of the other world, she could hardly be the same as an ordinary sixteen-year-old." },
@@ -21,7 +21,7 @@ TRY.registerChapter({
           { cont: true, ja: "この家に生まれたばかりに、普通の子どものように遊んだこともない。", en: "Simply because she was born into this family, she has never even played the way ordinary children do." },
           { cont: true, ja: "それは、生まれ**ながらに**決められていたことだった。", en: "That was something decided from the moment she was born." },
           { cont: true, ja: "とはいえ、それを不満に思っているわけでもない。", en: "That said, it's not as if she resents it." },
-          { cont: true, ja: "{萌花|もえか}にしてみれば、当たり前のことをしてき**たまでのことである**。", en: "As far as Moeka is concerned, she has merely been doing what was only natural — nothing more." },
+          { cont: true, ja: "{萌花|もえか}にしてみれば、当たり前のことをしてき**たまでのことである**。", en: "As far as Moeka is concerned, she has merely done what was expected of her." },
           { cont: true, ja: "{厳|きび}しい{修行|しゅぎょう}**をものともせず**、母親をも超える力を身につけてきた。", en: "Undaunted by the harsh training, she has acquired powers that surpass even her mother's." },
           { ja: "{優斗|ゆうと}は十七歳、高校2年生である。", en: "Yuto is seventeen, a second-year high school student." },
           { cont: true, ja: "{赤|あか}ん{坊|ぼう}のころに事故で両親を失い、この神社に引き取られた。", en: "He lost his parents in an accident when he was a baby and was taken in by this shrine." },
@@ -481,7 +481,7 @@ TRY.registerChapter({
           usage: { ja: "「〜や{否|いな}や」は「〜とすぐ／〜たとたん」と同じように、「前のことがあった直後に、何かが起きた」と言うときに使われる。", en: "Like \"〜とすぐ / 〜たとたん\", \"〜や否や\" is used to say that something happened immediately after the preceding event." },
           forms: ["[V-る] + や{否|いな}や", "[V-る] + や"],
           examples: [
-            { ja: "電話を切るや{否|いな}や、{刑事|けいじ}は部屋を飛び出して事件{現場|げんば}に向かった。", en: "The detective hung up the phone and in that instant rushed out of the room, heading for the crime scene." },
+            { ja: "電話を切るや{否|いな}や、{刑事|けいじ}は部屋を飛び出して事件{現場|げんば}に向かった。", en: "The moment the call ended, the detective rushed out of the room and headed for the crime scene." },
             { ja: "人気グループのコンサートチケットは発売されるや{否|いな}や、あっという間に{完売|かんばい}となってしまった。", en: "The concert tickets for the popular group sold out in no time, the instant they went on sale." },
             { ja: "{優勝|ゆうしょう}の{瞬間|しゅんかん}、{大川|おおかわ}選手は「やった！」と{叫|さけ}ぶや、{大声|おおごえ}で泣き出した。", en: "At the moment of victory, Okawa shouted \"I did it!\" and immediately burst into loud sobs." },
           ],
@@ -505,7 +505,7 @@ TRY.registerChapter({
                   q: "そのワインを{一口|ひとくち}飲むや{否|いな}や、（　）。",
                   options: ["とてもおいしかった", "{山野氏|やまのし}はばったり倒れた"],
                   answer: 1,
-                  en: "No sooner had Mr. Yamano taken a sip of the wine than he collapsed on the spot.",
+                  en: "Yamano took one sip of the wine and instantly collapsed on the spot.",
                   why: { en: "The second half must be an instant event (he collapsed). とてもおいしかった is an evaluation of the taste, not something that happened right after." },
                 },
                 {
@@ -536,7 +536,7 @@ TRY.registerChapter({
           forms: ["[N] + ごとき"],
           examples: [
             { ja: "{我|わ}が{社|しゃ}には{優|すぐ}れた技術があるんだから、{不況|ふきょう}ごときに負けないで、{頑張|がんば}ろう。", en: "Our company has excellent technology, so let's not be beaten by something like a recession — let's hang in there." },
-            { ja: "あいつごときが何を言ってきたって、私たちがついているから、恐れる必要はないよ。", en: "Whatever someone like that says to you, we're behind you, so there's no need to be afraid." },
+            { ja: "あいつごときが何を言ってきたって、私たちがついているから、恐れる必要はないよ。", en: "Whatever the likes of that guy says to you, we're behind you, so there's no need to be afraid." },
             { ja: "{私|わたくし}ごときにこのような発表の機会をいただき、本当にありがとうございます。", en: "Thank you very much for giving someone as humble as me such an opportunity to present." },
           ],
           deepDive: "**Nごとき** = *the likes of N, a mere N*: the speaker looks down on N (≈ 〜なんか): 不況ごときに負けないで頑張ろう (*let's not be beaten by a mere recession*), あいつごときが (*someone like that*). Used about oneself, 私（わたくし）ごとき is humble and leads to thanks or a disclaimer (私ごときにこのような機会をいただき… *giving someone like me such a chance…*). It comes from classical ごとし (*like*), but without の it belittles.\n\nごとき behaves like a noun and takes particles (ごときに, ごときが, ごときで), and たかが often precedes it (たかが風邪ごときで *over a mere cold*). The rest of the sentence must fit the belittling: N doesn't deserve fear, fuss or cost.\n\nCompare:\n- **〜なんか／〜なんて**: the everyday equivalent.\n- **〜くらいで**: minimizes, less contemptuous (風邪くらいで休むな *don't stay home over a little cold*).\n- **Nのごとく** #101: with の it is a simile with no contempt (鉄のごとき信念 *an iron will*).\n\nPitfall: ごとき about someone you respect is an insult (✗社長ごときが…).\n\nJLPT cue: after ごとき, choose the option that treats N as trivial; after 私ごとき, the humble, grateful one.",
@@ -668,7 +668,7 @@ TRY.registerChapter({
             { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow." },
             { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "Someone won a fortune in the lottery but kept spending it like water, and a year later was back to the old life of poverty." },
             { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The will left to the brothers read as follows." },
-            { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Mr. Kitazato is working on the development of new drugs with an iron conviction." },
+            { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on the development of new drugs with an iron conviction." },
             { ja: "A：日本へ来てから何年経ったっけ。\nB：もう5年だよ。{光陰|こういん}{矢|や}のごとしだね。", en: "A: How many years has it been since you came to Japan?\nB: Five years already. Time flies like an arrow, doesn't it?", idiom: true },
           ],
           notes: [
@@ -709,7 +709,7 @@ TRY.registerChapter({
           forms: ["[N] + にして"],
           examples: [
             { ja: "砂に描いた絵は、{強風|きょうふう}により、{一瞬|いっしゅん}にして消え去った。", en: "The picture drawn in the sand vanished in an instant, blown away by the strong wind." },
-            { ja: "{志|こころざし}{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled." },
+            { ja: "{志|こころざし}{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitter it must have been for the painter to be struck down by illness with ambitions only half fulfilled." },
             { ja: "40歳を「{不惑|ふわく}」というが、これは{孔子|こうし}の「四十にして{惑|まど}わず」という言葉が元になっている。", en: "Age forty is called fuwaku (\"without doubts\"); this comes from Confucius's words \"At forty, I had no more doubts.\"" },
             { ja: "妹は交通事故に{遭|あ}ったが、幸いにして軽いけがだったので入院せずにすんだ。", en: "My younger sister was in a traffic accident, but fortunately her injuries were light, so she didn't have to be hospitalized." },
           ],
@@ -884,7 +884,7 @@ TRY.registerChapter({
           bank: ["かねる", "めいた", "んがため", "ごときに", "を限りに"],
           items: [
             { q: "{今年度|こんねんど}＿＿、{本学部|ほんがくぶ}は学生募集を停止し、来年度より経済学部に{統合|とうごう}されることになりました。", answer: "を限りに", en: "As of the end of this academic year, this faculty will stop recruiting students and, from next year, will be merged into the Faculty of Economics." },
-            { q: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な{公約|こうやく}を{掲|かか}げていると批判された。", answer: "んがため", en: "Mr. A was criticized for making unrealistic campaign promises just to win the election." },
+            { q: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な{公約|こうやく}を{掲|かか}げていると批判された。", answer: "んがため", en: "Candidate A was criticized for making unrealistic campaign promises just to win the election." },
             { q: "都会の{片隅|かたすみ}にたたずむ1軒の何やら秘密＿＿バー。ここが小説の舞台だ。", answer: "めいた", en: "A somehow secretive-looking bar standing quietly in a corner of the city. This is where the novel is set." },
             { q: "夏の暑さ＿＿負けてたまるかとばかりに、セミは鳴き続けた。", answer: "ごときに", en: "As if to say they weren't going to be beaten by something like the summer heat, the cicadas kept on singing." },
             { q: "ここで値上げに{踏|ふ}み{切|き}るべきかどうか、私には判断がつき＿＿問題です。", answer: "かねる", en: "Whether we should go ahead with a price increase now is a question I find hard to decide." },
@@ -905,7 +905,7 @@ TRY.registerChapter({
             q: "友人が会社をクビになったというから、さぞかし金に困っているだろう（　）、毎日外車を乗り回して遊んでいるというのだ。",
             options: ["といえども", "とはいえ", "というものの", "と思いきや"],
             answer: 3,
-            en: "I heard my friend got fired, so I thought my friend must be terribly short of money — but apparently they're out every day driving around in a foreign car, having a good time.",
+            en: "I heard my friend got fired, so I figured they must be terribly short of money — but apparently they're out every day driving around in a foreign car, having a good time.",
             why: { en: "〜と思いきや = “I thought …, but contrary to expectation …”. だろう marks a guess (the friend must be broke), and what follows overturns it (driving around in a foreign car). といえども, とはいえ and というものの are concessives: they treat the first half as a fact and then add a contrasting point, which doesn't fit a mere guess ending in だろう." },
           },
           {
@@ -1069,7 +1069,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "もしもし、試験の結果を教えていただきたいんですが……。" },
             ],
-            en: ["Hello, I'd like you to tell me my exam results...", "We'll ask you to answer by phone.", "I merely answered by phone.", "I'm afraid we cannot give that information over the phone."],
+            en: ["Hello, I'd like to find out my exam results...", "We'll ask you to answer by phone.", "I merely answered by phone.", "I'm afraid we cannot give that information over the phone."],
             options: ["電話でお答えいただきます。", "電話でお答えしたまでです。", "電話ではお答えしかねます。"],
             answer: 2,
             why: { en: "お答えしかねます (〜かねる) is the polite way to refuse: “we are unable to answer by phone.”" },

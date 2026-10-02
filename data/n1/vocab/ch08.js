@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "belief, conviction, principle",
     note: "信念を貫く (stick to one's convictions), 信念を持つ, 固い信念. 信仰 is religious faith; 信頼 is trust in someone.",
     rx: ["しんねい", "しんれん", "しねん"],
-    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Mr. Kitazato is working on the development of new drugs with an iron conviction.", at: "gp/101" },
+    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on the development of new drugs with an iron conviction.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
@@ -688,7 +688,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "campaign promise, public pledge",
     note: "Politics: 公約を掲げる (put forward pledges), 公約を守る／破る, 選挙公約. マニフェスト is a party's formal platform. 約束 is an ordinary promise.",
     rx: ["こうやっく", "おおやく", "くやく"],
-    book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な**{公約|こうやく}**を{掲|かか}げていると批判された。", en: "Mr. A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
+    book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な**{公約|こうやく}**を{掲|かか}げていると批判された。", en: "Candidate A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
     ex: [
       { ja: "{新|しん}{市長|しちょう}は**{公約|こうやく}**{通|どお}り、{給食費|きゅうしょくひ}を{無料|むりょう}にした。", en: "As he had pledged, the new mayor made school lunches free.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条約|じょうやく}"] },
     ] },
@@ -696,7 +696,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to put forward, hold up (a goal, slogan); to hoist, put up (a flag, sign); to publish",
     note: "目標を掲げる, スローガンを掲げる, 旗を掲げる, 看板を掲げる. The noun 掲示 (bulletin) and 掲載 (publication) share the kanji.",
     rx: ["かがげる", "けいげる", "かかける"],
-    book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な{公約|こうやく}を**{掲|かか}げて**いると批判された。", en: "Mr. A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
+    book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な{公約|こうやく}を**{掲|かか}げて**いると批判された。", en: "Candidate A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
     ex: [
       { ja: "{会社|かいしゃ}は「{売上|うりあげ}2{倍|ばい}」という{目標|もくひょう}を**{掲|かか}げた**。", en: "The company set itself the goal of doubling sales.", alt: ["{抱|かか}えた", "{揚|あ}がった", "{捧|ささ}げた"] },
     ] },
