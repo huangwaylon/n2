@@ -35,7 +35,7 @@ const posFmt = (s) => fmt(String(s).replace(POS_RE, "$1⟦$2⟧")).replace(/⟦(
 // ---------- speech queues ----------
 // a track label ("1.Yomimono_L7-1") plays, with the browser's voice, the text that carries the same label
 const QUEUES = new Map();
-const sayLines = (lines, dv = "f") => lines.filter((l) => l && jaOf(l)).map((l) => ({ text: plain(jaOf(l)).replace(/[❶-❿]/g, ""), v: l.v || dv }));
+const sayLines = (lines, dv = "f") => lines.filter((l) => l && jaOf(l)).map((l) => ({ text: plain(jaOf(l)).replace(/[❶-❿⓫-⓴]/g, ""), v: l.v || dv }));
 const audioBadge = (label) => (label ? `<span class="trk" data-trk="${esc(label)}"><span class="trk__i" aria-hidden="true">🎧</span>${esc(label)}</span>` : "");
 // after a render: turn every track label whose text is on the page into a play button
 export function wireTracks(root) {

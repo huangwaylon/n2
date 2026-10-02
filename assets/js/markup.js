@@ -53,7 +53,7 @@ const q2Markup = (t) => t
   // ''text'' italics in the book's English (titles, vt./vi., emphasised words)
   .replace(/''(.+?)''/g, "<i>$1</i>")
   .replace(/\[普\]/g, '<span class="futsu" title="普通形 plain form">普</span>')
-  .replace(/[❶-❿]/g, '<span class="step">$&</span>\u2060')   // word joiner: a step mark never ends a line alone
+  .replace(/[❶-❿⓫-⓴]/g, '<span class="step">$&</span>\u2060')   // word joiner: a step mark never ends a line alone
   // "［　　　］のパターンを使って": the book prints a grey swatch, the colour of the practice box below (pp.024, 030)
   .replace(/［　+］(?=の?パターン)/g, '<span class="swatch" role="img" aria-label="灰色の部分"></span>')
   // 書くポイント "…… (a) (b)": the pointer to the model composition's letters, blue as printed (pp.018, 050)
@@ -72,7 +72,7 @@ export function fmt(s, opts = {}) {
   return opts.vertical ? tateChuYoko(t) : t;
 }
 // plain text: readings, markup and badges dropped (speech, search, titles)
-export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\[#(\D[^\]]*)\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|%%|''|[❶-❿]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
+export const plain = (s) => String(s || "").replace(RUBY_RE, "$1").replace(/\[\[(.+?)\|[0-9a-z]*\]\]/g, "$1").replace(/\[#(\D[^\]]*)\]/g, "$1").replace(/\{\{|\}\}|!!|\^\^|==|%%|''|[❶-❿⓫-⓴]/g, "").replace(/\[普\]/g, "普").replace(/\*\*|__/g, "").replace(/~~.+?~~/g, "")
   .replace(/＿＿|（　）/g, "、なになに、").replace(/\[(\d+)\]/g, "、").replace(/\[[^\]]+\]/g, "");
 // *italic* in our explanations (deepDive, why, vocab notes): a single * not touching a letter on its outer side, so
 // the footnote stars of translations ("* The hourly wage…", "Physicians*.") are left alone
