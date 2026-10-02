@@ -129,12 +129,13 @@ export const pager = (prev, next, link, dirs = ["← 前へ", "次へ →"]) => 
   const a = (x, dir, cls) => { if (!x) return "<span></span>"; const [href, t] = link(x); return `<a class="${cls}" href="${href}"><span class="pager__dir">${dir}</span><span class="pager__t">${t}</span></a>`; };
   return `<nav class="pager">${a(prev, dirs[0], "pager__prev")}${a(next, dirs[1], "pager__next")}</nav>`;
 };
-// headphone "CD ▶" play button for a speech queue [{ text, v }] (v: "m" | "f")
+// a button that speaks a queue [{ text, v }] (v: "m" | "f"; main.js ACT.listen)
+const listenAttrs = (queue, label) => `data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}"`;
+// headphone "CD ▶" play button
 export const cdBadge = (queue, label = "音声を聞く") =>
-  `<button class="cd-badge" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="${esc(label)}"><span class="cd-badge__cd">CD</span><span class="cd-badge__play">▶</span></button>`;
-// the same speech queue as cdBadge, as a plain 🔊 button: for texts the book has no recording of (no CD mark to imitate)
-export const listenBtn = (queue, label = "音声を聞く") =>
-  `<button class="speak" data-act="listen" data-q='${esc(JSON.stringify(queue)).replace(/'/g, "&#39;")}' aria-label="${esc(label)}" title="Listen">🔊</button>`;
+  `<button class="cd-badge" ${listenAttrs(queue, label)} title="${esc(label)}"><span class="cd-badge__cd">CD</span><span class="cd-badge__play">▶</span></button>`;
+// the same as a plain 🔊 button: for texts the book has no recording of (no CD mark to imitate)
+export const listenBtn = (queue, label = "音声を聞く") => `<button class="speak" ${listenAttrs(queue, label)} title="Listen">🔊</button>`;
 export const speakBtn = (text, extra = "") => `<button class="speak" data-act="speak" data-text="${esc(plain(text))}" ${extra} title="Listen">🔊</button>`;
 // the book prints only filled stars, in black
 export const stars = (n) => (!n ? "" : `<span class="stars gp-bar__stars" role="img" aria-label="重要度 ${n}/3" title="Importance ${n}/3">${"★".repeat(n)}</span>`);
