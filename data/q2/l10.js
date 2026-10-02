@@ -2064,7 +2064,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "彼は昼間は高校で歴史を教えている**一方で**、夜はミュージシャンとしても活躍している。",
-         "tr": "He teaches history at a high school during the day, and at the same time he is also active as a musician at night."
+         "tr": "He teaches history at a high school during the day, while at night he is also active as a musician."
         },
         {
          "n": 5,
@@ -2508,7 +2508,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "よく食べ、よく運動する人**ほど**{長|なが}{生|い}きするそうだ。",
-         "tr": "They say that the more people eat well and exercise, the longer they live."
+         "tr": "They say the better people eat and the more they exercise, the longer they live."
         },
         {
          "n": 2,
@@ -4980,7 +4980,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**以上で、発表を終わります。ご質問やご意見をお願いいたします。**",
-        "tr": "This concludes my presentation. I would appreciate your questions and comments."
+        "tr": "This concludes my presentation. I welcome your questions and comments."
        }
       }
      ]

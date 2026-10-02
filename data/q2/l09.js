@@ -399,7 +399,7 @@ TRY.registerLesson({
       "The other day, a kitten came to live with us. I had never kept an animal bigger than a parakeet. For someone like me, who had never had a cat, this was quite an event. What if it doesn't get used to us? What if I can't take care of it properly? What if we can't get along? Every day until the cat arrived, I trembled with anxiety.",
       "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on someone's lap, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead, knead, knead, knead, and pestered me for food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
       "I was surprised. Of course each cat has its own personality, but is this how casually a cat slips into people's lives?",
-      "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, even that turned into a casual attitude, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
+      "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, that stopped too, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my imagination in the fear department has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
       "And so I wonder: when their children are small, how many imagined fears must mothers everywhere tremble at? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
@@ -1619,7 +1619,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "働きながら大学に行くのは大変じゃない**はずがない**。",
-         "tr": "There's no way going to college while working isn't hard."
+         "tr": "There's no way going to college while working could be easy."
         },
         {
          "n": 4,
@@ -3823,7 +3823,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**その日は**{絵|え}{理|り}の{誕生|たんじょう}{日|び}で、お{祝|いわ}いしようと思って、準備しておいた**んだ。**\nそれで、{景色|けしき}がいいカフェを探しておいた**んだけど……。**",
-        "tr": "That day was Eri's birthday, and I wanted to celebrate, so I got everything ready. So I found a café with a nice view, but..."
+        "tr": "That day was Eri's birthday, and I wanted to celebrate, so I got everything ready. And I'd found a café with a nice view, but..."
        }
       },
       {
@@ -3997,7 +3997,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❻＿＿**し**＿＿**し、本当に**＿＿**たよ。**\n❼＿＿**時は、**＿＿｛ってことを学んだよ／と思ったよ｝。",
-         "tr": "＿＿, ＿＿, and it was really ＿＿.\nWhen ＿＿, ＿＿ (, I learned / , I thought)."
+         "tr": "＿＿, ＿＿, and it was really ＿＿.\n(I learned / I thought) that when ＿＿, ＿＿."
         }
        ]
       }
