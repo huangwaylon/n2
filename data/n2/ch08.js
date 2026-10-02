@@ -11,7 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "{加藤|かとう}", v: "f", ja: "{田中|たなか}さん、{安田|やすだ}{製作所|せいさくしょ}の{佐々木|ささき}様が**お見えになりました**。", en: "Mr. Tanaka, Mr. Sasaki from Yasuda Manufacturing has arrived." },
+          { sp: "{加藤|かとう}", v: "f", ja: "{田中|たなか}さん、{安田|やすだ}{製作所|せいさくしょ}の{佐々木|ささき}様が**お見えになりました**。", en: "Tanaka, Sasaki from Yasuda Manufacturing has arrived." },
           { sp: "佐々木", v: "m", ja: "本日はご{依頼|いらい}のサンプルを持ってまいりました。", en: "Today I've brought the samples you requested." },
           { sp: "田中", v: "m", ja: "あ、わざわざありがとうございます。", en: "Oh, thank you for taking the trouble." },
           { sp: "佐々木", v: "m", ja: "前回、ご{希望|きぼう}を{承|うけたまわ}りましたので、それに合わせて作り直しをさせていただきました。**ご**{確認|かくにん}**{願|ねが}えます**でしょうか。", en: "Last time we received your requests, so we remade the samples to match them. Could I ask you to check them?" },
@@ -44,7 +44,7 @@ TRY.registerChapter({
             { ja: "この{資料|しりょう}、長い間{拝借|はいしゃく}したままお返しもせず、たいへん{申|もう}し{訳|わけ}ありませんでした。", en: "I'm terribly sorry for borrowing these materials for so long without returning them." },
             { ja: "A：こちらまで、お{車|くるま}でおいでになりましたか。\nB：いいえ、電車でまいりました。", en: "A: Did you come here by car?\nB: No, I came by train." },
             { ja: "A：休みの日はいつも何をしておいでになりますか。\nB：{趣味|しゅみ}のゴルフをしております。", en: "A: What do you usually do on your days off?\nB: I play golf, which is my hobby." },
-            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment; I'll pass on the message to get back to you later." },
+            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll ask Tanaka to get back to you later." },
           ],
           deepDive: "Point 73 is vocabulary: keigo verbs that **replace** an ordinary verb instead of being built by rule (お〜になる／お〜する). The skill is direction: **尊敬語** raises the person who acts (a client, guest or superior); **謙譲語** lowers your own side when its action affects them.\n\nHonorific (the other person acts):\n- **お見えになる／お越しになる** (来る): polished alternatives to いらっしゃる; お見えです and お越しください are everyday office and shop forms.\n- **おいでになる** (行く・来る・いる), so read the context: お宅においでになりますか (*will you be at home?*). **Vておいでになる** = Vていらっしゃる.\n\nHumble (my side acts):\n- **ご覧に入れる** (見せる), **承る** (聞く・引き受ける: ご注文を承りました *we have received your order*), **拝借する** (借りる), **存じる** (思う・知っている), **申し伝える** (pass a message on to someone on your side), **Vてまいる** (Vていく／Vてくる).\n\nPitfalls: honoring your own colleague to an outsider (✗部長がお見えになります → ✓部長の山田がまいります *our manager Yamada will come*), and the look-alike pairs: ご覧になる (*you look*), ご覧に入れる (*I show*), 拝見する (*I look*); ご存じ (*you know*), 存じる (*I think, I know*).\n\nJLPT cue: decide who performs the action before reading the options; the distractors are usually the opposite-direction twin.",
           see: [74, 75, 77],
@@ -59,7 +59,7 @@ TRY.registerChapter({
                   q: "ただ今から皆様に（　）のは、イルカのショーでございます。",
                   options: ["ご{覧|らん}に{入|い}れます", "お目にかかります"],
                   answer: 0,
-                  en: "What we will now show you all is the dolphin show.",
+                  en: "We will now present to you all the dolphin show.",
                   why: { en: "We show it to you → humble ご覧に入れる (= 見せる). お目にかかる is humble 会う (meet)." },
                 },
                 {
@@ -202,7 +202,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "こちらはアンケート結果をまとめました資料でございます。", en: "This is a document summarizing the results of the questionnaire." },
                 { ja: "ご質問などがありましたら、いつでもお{問|と}い{合|あ}わせください。", en: "If you have any questions, please feel free to contact us at any time." },
-                { ja: "1日も早くお元気になられますよう、お{祈|いの}りしております。", en: "I'm hoping you will get well as soon as possible." },
+                { ja: "1日も早くお元気になられますよう、お{祈|いの}りしております。", en: "I am praying for your speedy recovery." },
                 { ja: "こちらの{商品|しょうひん}は{品質|ひんしつ}は最高で、お{値段|ねだん}も{手|て}ごろですし、きっとご{満足|まんぞく}いただけると思います。", en: "This product is of the highest quality and reasonably priced, so I'm sure you will be satisfied." },
               ],
             },
@@ -408,7 +408,7 @@ TRY.registerChapter({
               { sp: "F", v: "f", ja: "いいえ、どうぞお気になさらず…。" },
               { sp: "M", v: "m", ja: "いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば買い{求|もと}めてお返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。" },
             ],
-            en: ["A man and a woman are talking on the phone.", "Hello, is this the Takahashi residence?", "Yes.", "My name is Kobayashi.", "Oh, Mr. Kobayashi. Thank you for taking the trouble to come the other day.", "Not at all. You were kind enough to invite me, and then I did such a terrible thing. I'm truly sorry.", "No, please don't worry about it...", "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...", "To thank her for inviting him the other day", "To tell her that he broke the vase", "To return a vase he bought", "To ask which shop the vase was bought at"],
+            en: ["A man and a woman are talking on the phone.", "Hello, is this the Takahashi residence?", "Yes.", "My name is Kobayashi.", "Oh, it's you, Kobayashi. Thank you for taking the trouble to come the other day.", "Not at all. You were kind enough to invite me, and then I did such a terrible thing. I'm truly sorry.", "No, please don't worry about it...", "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...", "To thank her for inviting him the other day", "To tell her that he broke the vase", "To return a vase he bought", "To ask which shop the vase was bought at"],
             options: ["先日{招待|しょうたい}してもらったお礼を言うこと", "{花瓶|かびん}を{割|わ}ったことを伝えること", "買った{花瓶|かびん}を返すこと", "{花瓶|かびん}を買った店を聞くこと"],
             answer: 3,
             why: { en: "He apologizes for breaking the vase (とんだこと), but his real purpose is the last line: ぜひお店を教えていただきたい — he wants to find out where the vase was bought so he can replace it." },
