@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "violence; force",
     note: "暴力を振るう (use violence, be violent) is the fixed verb. Compounds: 家庭内暴力 (domestic violence), 暴力団 (organized crime group), 言葉の暴力 (verbal abuse). 暴 also appears in 暴れる (go wild) and 乱暴 (rough).",
     rx: ["ぼうりき", "ぼりょく", "ばくりょく"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男２人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
     ex: [
       { ja: "どんな{理由|りゆう}があっても、**{暴力|ぼうりょく}**は{許|ゆる}されない。", en: "Whatever the reason, violence is not acceptable.", alt: ["{暴風|ぼうふう}", "{能力|のうりょく}", "{努力|どりょく}"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to use (violence, power); to wield; to exercise (a skill)",
     note: "Fixed pairs: 暴力を振るう (be violent), 腕を振るう (show one's skill, e.g. cooking), 権力を振るう (wield power), 猛威を振るう (rage, of a disease or storm). 振る is to wave or shake; don't say 暴力を振る.",
     rx: ["ふくう", "ぶるう", "しんるう"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男２人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
     ex: [
       { ja: "{男|おとこ}は{妻|つま}に{暴力|ぼうりょく}を**{振|ふ}るった**として{逮捕|たいほ}された。", en: "The man was arrested for being violent toward his wife.", alt: ["{振|ふ}った", "{触|ふ}れた", "{震|ふる}えた"] },
       { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father showed off his cooking skills for us." },
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "quitting a salaried job (to start one's own business)",
     note: "Short for 脱サラリーマン: leaving life as an office worker to become self-employed, open a shop, farm and so on. 脱 means 'escape from' (脱出, 脱線). Casual journalistic word.",
     rx: ["だっさら", "ぜいさら", "たつさら"],
-    book: { ja: "**{脱|だつ}サラ**して会社を始めてもう３年が{過|す}ぎたが、まだ{経営|けいえい}が安定しているとは言いがたい{状況|じょうきょう}だ。", en: "Three years have already passed since I quit salaried work and started a company, but the business can hardly be called stable yet.", at: "gp/126" },
+    book: { ja: "**{脱|だつ}サラ**して会社を始めてもう3年が{過|す}ぎたが、まだ{経営|けいえい}が安定しているとは言いがたい{状況|じょうきょう}だ。", en: "Three years have already passed since I quit salaried work and started a company, but the business can hardly be called stable yet.", at: "gp/126" },
     ex: [
       { ja: "{父|ちち}は50{歳|さい}で**{脱|だつ}サラ**して、そば{屋|や}を{開|ひら}いた。", en: "My father quit his office job at fifty and opened a soba restaurant.", alt: ["{脱線|だっせん}", "{脱出|だっしゅつ}", "{脱帽|だつぼう}"] },
     ] },
@@ -615,7 +615,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "chilly; a bit cold (felt on the skin)",
     note: "Slightly cold, especially in early spring, autumn or on a cool morning: 肌寒い日, 朝晩は肌寒い. Milder than 寒い. Its opposite in feeling is 蒸し暑い (muggy).",
     rx: ["きさむい", "はだかん", "はださぶい"],
-    book: { ja: "５月は{気温|きおん}が25度以上になる日もあれば、20度以下で**{肌寒|はださむ}い**日もある。", en: "In May, there are days when the temperature rises above 25 degrees, and also chilly days when it's below 20.", at: "gp/130" },
+    book: { ja: "5月は{気温|きおん}が25度以上になる日もあれば、20度以下で**{肌寒|はださむ}い**日もある。", en: "In May, there are days when the temperature rises above 25 degrees, and also chilly days when it's below 20.", at: "gp/130" },
     ex: [
       { ja: "{朝晩|あさばん}は**{肌寒|はださむ}い**ので、{上着|うわぎ}を{持|も}って{行|い}ったほうがいい。", en: "It gets chilly in the mornings and evenings, so you'd better take a jacket.", alt: ["{蒸|む}し{暑|あつ}い", "{暖|あたた}かい", "{心細|こころぼそ}い"] },
     ] },
