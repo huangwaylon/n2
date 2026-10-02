@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "awareness (of one's position, duties or condition); self-awareness",
     note: "Knowing, and taking to heart, what you are or what your situation is: 社会人としての自覚 (awareness that you're a working adult now), 自覚が足りない, 自覚症状 (symptoms you notice yourself). Unlike 意識, it carries a sense of responsibility.",
     rx: ["じがく", "じこく", "じかっく"],
-    book: { ja: "**{自覚|じかく}**がないにもほどがありますよ。", en: "This lack of any sense of responsibility goes beyond all limits.", at: "ch/5" },
+    book: { ja: "**{自覚|じかく}**がないにもほどがありますよ。", en: "Your people's lack of any sense of responsibility is beyond belief.", at: "ch/5" },
     ex: [
       { ja: "{彼|かれ}にはチームのリーダーとしての**{自覚|じかく}**が{足|た}りない。", en: "He doesn't have enough awareness of his responsibilities as team leader.", alt: ["{自在|じざい}", "{自首|じしゅ}", "{視覚|しかく}"] },
       { ja: "{本人|ほんにん}に**{自覚|じかく}**はなくても、{周|まわ}りは{迷惑|めいわく}しているものだ。", en: "Even if the person isn't aware of it, the people around them are often put out." },
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "the point (of an argument); the gist of a paper or speech",
     note: "The main line of reasoning of an essay, speech or debate: 論旨が明快だ (the argument is clear), 論旨がずれる (drift off the point). Academic and written. 要旨 is a summary of the content; 論旨 is the argument it makes.",
     rx: ["ろんじ", "りんし", "ろんむね"],
-    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "Your paper has an interesting theme, but the analysis is — how shall I put it — weak, or the argument is vague… (　)?", at: "gp/46" },
+    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "The theme of your thesis is interesting, but the analysis is — how shall I put it — weak, or the argument is vague… wouldn't it be better to rethink the overall structure?", at: "gp/46" },
     ex: [
       { ja: "{彼|かれ}の{文章|ぶんしょう}は**{論旨|ろんし}**が{明快|めいかい}で、とても{読|よ}みやすい。", en: "His writing makes its argument clearly and is very easy to read.", alt: ["{論争|ろんそう}", "{論外|ろんがい}", "{旨味|うまみ}"] },
     ] },
@@ -180,7 +180,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "tasting (a free sample); a food sample",
     note: "Tasting food before buying it or to judge it: 試食コーナー (a sampling stand in a supermarket), 試食会 (a tasting event). The drink equivalent is 試飲, and for clothes 試着.",
     rx: ["しじき", "ししょう", "しっしょく"],
-    book: { ja: "**{試食|ししょく}**のチョコレートを3つも食べたんだよ。", en: "She ate three of the free-sample chocolates!", at: "gp/47" },
+    book: { ja: "**{試食|ししょく}**のチョコレートを3つも食べたんだよ。", en: "…ate three of the chocolate samples!", at: "gp/47" },
     ex: [
       { ja: "デパートの{食品|しょくひん}{売|う}り{場|ば}で、{新商品|しんしょうひん}のパンを**{試食|ししょく}**した。", en: "I tried a sample of a new bread in the department store's food section.", alt: ["{試着|しちゃく}", "{試験|しけん}", "{飲食|いんしょく}"] },
     ] },
@@ -190,7 +190,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ぜんえ", "せんい", "ぜんいい"],
     book: { ja: "**{善意|ぜんい}**の寄付金を{着服|ちゃくふく}するなんて、そんな政治家、許すことができますか。", en: "Pocketing donations given in good faith — how could anyone forgive a politician like that?", at: "gp/48" },
     ex: [
-      { ja: "{被災地|ひさいち}には、{全国|ぜんこく}から**{善意|ぜんい}**の{品|しな}が{次々|つぎつぎ}と{届|とど}けられた。", en: "Donated goods from people's goodwill arrived one after another from all over the country.", alt: ["{悪意|あくい}", "{善悪|ぜんあく}", "{決意|けつい}"] },
+      { ja: "{被災地|ひさいち}には、{全国|ぜんこく}から**{善意|ぜんい}**の{品|しな}が{次々|つぎつぎ}と{届|とど}けられた。", en: "Goods donated in goodwill poured into the disaster area from all over the country.", alt: ["{悪意|あくい}", "{善悪|ぜんあく}", "{決意|けつい}"] },
     ] },
   { w: "{着服|ちゃくふく}", lv: "N1", pos: "noun · する verb",
     en: "embezzlement; pocketing (money one is entrusted with)",
@@ -222,7 +222,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ずずしい", "ずうずしい", "とうとうしい"],
     book: { ja: "**{図々|ずうずう}しい**にもほどがある。", en: "That's the height of nerve.", at: "gp/49" },
     ex: [
-      { ja: "{招待|しょうたい}もされていないのに{家族|かぞく}{全員|ぜんいん}で{来|く}るなんて、**{図々|ずうずう}しい**{人|ひと}だ。", en: "Showing up with the whole family when he wasn't even invited — he's got some nerve.", alt: ["{若々|わかわか}しい", "{初々|ういうい}しい", "{頼|たの}もしい"] },
+      { ja: "{招待|しょうたい}もされていないのに{家族|かぞく}{全員|ぜんいん}で{来|く}るなんて、**{図々|ずうずう}しい**{人|ひと}だ。", en: "Showing up with the whole family without even being invited — what nerve.", alt: ["{若々|わかわか}しい", "{初々|ういうい}しい", "{頼|たの}もしい"] },
     ] },
   { w: "{過保護|かほご}", lv: "N1", pos: "な adjective · noun",
     en: "overprotective; overprotection",
@@ -236,7 +236,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "typos and missing characters; typographical errors",
     note: "A set phrase for mistakes in writing: 誤字 (a wrong character) plus 脱字 (a missing character). Common in instructions for proofreading: 誤字脱字がないか確認する.",
     rx: ["ごじだっじ", "ごうじだつじ", "ごじたつじ"],
-    book: { ja: "うーん。（　）以前に、**{誤字脱字|ごじだつじ}**が多すぎるよ。", en: "Hmm. Before (　), there are way too many typos.", at: "gp/51" },
+    book: { ja: "うーん。（　）以前に、**{誤字脱字|ごじだつじ}**が多すぎるよ。", en: "Hmm. Before we even get to the content, there are far too many typos and missing characters.", at: "gp/51" },
     ex: [
       { ja: "{提出|ていしゅつ}する{前|まえ}に、**{誤字脱字|ごじだつじ}**がないかもう{一度|いちど}{確認|かくにん}してください。", en: "Before you submit it, please check once more for typos.", alt: ["{四字熟語|よじじゅくご}", "{脱線|だっせん}", "{赤字|あかじ}"] },
     ] },
@@ -292,7 +292,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "constitution (of the body); (an organization's) culture or makeup",
     note: "First a person's physical makeup: アレルギー体質, 太りやすい体質. Extended to the ingrained character of an organization, usually a bad one: 経営体質, 古い体質の会社, 体質改善 (fundamental reform).",
     rx: ["たいじつ", "たいしち", "ていしつ"],
-    book: { ja: "あの会社の（　）経営**{体質|たいしつ}**を考えると、今回の問題は出るべくして出たと言わざるを得ないだろう。", en: "Considering that company's (　) management culture, you would have to say this problem was bound to come up.", at: "gp/52" },
+    book: { ja: "あの会社の（　）経営**{体質|たいしつ}**を考えると、今回の問題は出るべくして出たと言わざるを得ないだろう。", en: "Considering that company's sloppy management culture, we have to say this problem was bound to come up.", at: "gp/52" },
     ex: [
       { ja: "{私|わたし}はお{酒|さけ}に{弱|よわ}い**{体質|たいしつ}**なので、{少|すこ}し{飲|の}んだだけで{顔|かお}が{赤|あか}くなる。", en: "My body doesn't handle alcohol well, so my face turns red after just a little.", alt: ["{体格|たいかく}", "{体制|たいせい}", "{物質|ぶっしつ}"] },
     ] },
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "tension; being tense (of a situation)",
     note: "Used for situations, not people: 緊迫した空気, 緊迫した試合, 情勢が緊迫する. 緊張 is the word for a person feeling nervous; 緊迫 describes an atmosphere where something could happen any moment.",
     rx: ["きんはく", "きんばく", "けんぱく"],
-    book: { ja: "__相手が相手だけに__、**{緊迫|きんぱく}**した試合になるだろう。", en: "Given who the opponent is, it will probably be a tense match.", at: "gp/53" },
+    book: { ja: "__相手が相手だけに__、**{緊迫|きんぱく}**した試合になるだろう。", en: "Given who our opponent is, it will probably be a tense match.", at: "gp/53" },
     ex: [
       { ja: "{国境|こっきょう}をめぐり、{両国|りょうこく}の{間|あいだ}では**{緊迫|きんぱく}した**{状態|じょうたい}が{続|つづ}いている。", en: "Tension continues between the two countries over the border.", alt: ["{圧迫|あっぱく}した", "{脅迫|きょうはく}した", "{束縛|そくばく}した"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "anonymity; anonymous",
     note: "Hiding one's name: 匿名の手紙, 匿名で寄付する, 匿名希望 (wishing to remain anonymous), ネットの匿名性. 無名 means 'unknown, not famous', not anonymous.",
     rx: ["じゃくめい", "とくみょう", "とくな"],
-    book: { ja: "**{匿名|とくめい}**＿＿、ネット上で知り合いを{中傷|ちゅうしょう}していた男が{訴|うった}えられたそうだ。", en: "I heard a man who used his anonymity (＿＿) to slander an acquaintance online has been sued.", at: "ch/5" },
+    book: { ja: "**{匿名|とくめい}**＿＿、ネット上で知り合いを{中傷|ちゅうしょう}していた男が{訴|うった}えられたそうだ。", en: "I hear a man who took advantage of anonymity to slander an acquaintance online has been sued.", at: "ch/5" },
     ex: [
       { ja: "{番組|ばんぐみ}には、{視聴者|しちょうしゃ}から**{匿名|とくめい}**の{投書|とうしょ}が{多数|たすう}{寄|よ}せられた。", en: "The program received many anonymous letters from viewers.", alt: ["{指名|しめい}", "{除名|じょめい}", "{題名|だいめい}"] },
     ] },
@@ -339,15 +339,15 @@ TRY.registerVocab({ ch: 5, words: [
     en: "slander; defamation; smear",
     note: "Hurting someone's reputation with false or malicious claims: 誹謗中傷 (slander and abuse, the usual set phrase for online attacks), 中傷ビラ. 悪口 is ordinary bad-mouthing; 中傷 implies the claims are baseless.",
     rx: ["ちゅうきず", "なかしょう", "ちゅうじょう"],
-    book: { ja: "{匿名|とくめい}＿＿、ネット上で知り合いを**{中傷|ちゅうしょう}**していた男が{訴|うった}えられたそうだ。", en: "I heard a man who used his anonymity (＿＿) to slander an acquaintance online has been sued.", at: "ch/5" },
+    book: { ja: "{匿名|とくめい}＿＿、ネット上で知り合いを**{中傷|ちゅうしょう}**していた男が{訴|うった}えられたそうだ。", en: "I hear a man who took advantage of anonymity to slander an acquaintance online has been sued.", at: "ch/5" },
     ex: [
-      { ja: "SNSでの**{中傷|ちゅうしょう}**に{悩|なや}む{有名人|ゆうめいじん}は{少|すく}なくない。", en: "Quite a few celebrities suffer from abuse on social media.", alt: ["{負傷|ふしょう}", "{中継|ちゅうけい}", "{感傷|かんしょう}"] },
+      { ja: "SNSでの**{中傷|ちゅうしょう}**に{悩|なや}む{有名人|ゆうめいじん}は{少|すく}なくない。", en: "Quite a few celebrities are tormented by smears on social media.", alt: ["{負傷|ふしょう}", "{中継|ちゅうけい}", "{感傷|かんしょう}"] },
     ] },
   { w: "{悪影響|あくえいきょう}", lv: "N1", pos: "noun",
     en: "bad influence; harmful effect",
     note: "Usually 〜に悪影響を与える／及ぼす (have a harmful effect on ~) or 悪影響がある. The opposite is 好影響 or いい影響.",
     rx: ["わるえいきょう", "あくえいこう", "あっえいきょう"],
-    book: { ja: "自分だけ＿＿、家族にも**{悪影響|あくえいきょう}**があるわけですから、たばこはやめたほうがいいですよ。", en: "If it were only you, (＿＿), but it has a bad effect on your family too, so you'd better quit smoking.", at: "ch/5" },
+    book: { ja: "自分だけ＿＿、家族にも**{悪影響|あくえいきょう}**があるわけですから、たばこはやめたほうがいいですよ。", en: "If it only affected you it would be one thing, but it's bad for your family too, so you should quit smoking.", at: "ch/5" },
     ex: [
       { ja: "{睡眠|すいみん}{不足|ぶそく}は、{子|こ}どもの{成長|せいちょう}に**{悪影響|あくえいきょう}**を{与|あた}える。", en: "Lack of sleep has a harmful effect on children's growth.", alt: ["{悪天候|あくてんこう}", "{悪循環|あくじゅんかん}", "{悪条件|あくじょうけん}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "benefactor; someone to whom one owes a great debt",
     note: "A person who did you a great kindness: 命の恩人 (the person who saved one's life), 人生の恩人. 恩師 is specifically a teacher to whom one is grateful.",
     rx: ["おんにん", "いんじん", "おうじん"],
-    book: { ja: "あの人は{俺|おれ}の命の**{恩人|おんじん}**だ。", en: "That man saved my life.", at: "ch/5" },
+    book: { ja: "あの人は{俺|おれ}の命の**{恩人|おんじん}**だ。", en: "That person saved my life.", at: "ch/5" },
     ex: [
       { ja: "{苦|くる}しいときに{仕事|しごと}を{紹介|しょうかい}してくれた{彼|かれ}は、{私|わたし}の**{恩人|おんじん}**です。", en: "He found me work when I was struggling; I owe him a great deal.", alt: ["{犯人|はんにん}", "{故人|こじん}", "{恩恵|おんけい}"] },
     ] },
@@ -389,7 +389,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["せいえ", "じょうい", "せいいい"],
     book: { ja: "こっちは**{誠意|せいい}**をもって対応しているのに……。", en: "And here we are dealing with it in good faith…", at: "ch/5" },
     ex: [
-      { ja: "{謝罪|しゃざい}の{言葉|ことば}からは、まったく**{誠意|せいい}**が{感|かん}じられなかった。", en: "I couldn't feel any sincerity at all in his apology.", alt: ["{誠実|せいじつ}", "{同意|どうい}", "{注意|ちゅうい}"] },
+      { ja: "{謝罪|しゃざい}の{言葉|ことば}からは、まったく**{誠意|せいい}**が{感|かん}じられなかった。", en: "I couldn't feel any sincerity at all in the apology.", alt: ["{誠実|せいじつ}", "{同意|どうい}", "{注意|ちゅうい}"] },
     ] },
   { w: "{連中|れんちゅう}", lv: "N1", pos: "noun",
     en: "those people; that lot; the gang (often disparaging)",
@@ -561,15 +561,15 @@ TRY.registerVocab({ ch: 5, words: [
     en: "barrier; hurdle; a difficult exam or school to get into",
     note: "An obstacle that is hard to get past, especially a tough exam or school: 難関大学, 難関を突破する (break through a barrier), 最大の難関. 関 is a checkpoint.",
     rx: ["なんせき", "なんがん", "むずかん"],
-    book: { ja: "{天才|てんさい}＿＿、**{難関|なんかん}**の国家試験に普通の人間が努力もせずに受かるわけがない。", en: "(＿＿: a genius might), but there's no way an ordinary person could pass a tough national exam without even trying.", at: "ch/5" },
+    book: { ja: "{天才|てんさい}＿＿、**{難関|なんかん}**の国家試験に普通の人間が努力もせずに受かるわけがない。", en: "A genius might be a different matter, but there's no way an ordinary person could pass a tough national exam without making any effort.", at: "ch/5" },
     ex: [
-      { ja: "{倍率|ばいりつ}20{倍|ばい}の**{難関|なんかん}**を{突破|とっぱ}して、{見事|みごと}{合格|ごうかく}した。", en: "She got past a hurdle with twenty applicants per place and passed with flying colors.", alt: ["{難民|なんみん}", "{税関|ぜいかん}", "{難点|なんてん}"] },
+      { ja: "{倍率|ばいりつ}20{倍|ばい}の**{難関|なんかん}**を{突破|とっぱ}して、{見事|みごと}{合格|ごうかく}した。", en: "I beat odds of twenty applicants per place and passed with flying colors.", alt: ["{難民|なんみん}", "{税関|ぜいかん}", "{難点|なんてん}"] },
     ] },
   { w: "{知|し}れ{渡|わた}る", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to become widely known; to spread (of news or a rumor)",
     note: "News reaching everyone in a group or place: 学校中に知れ渡る, 世間に知れ渡る, 名前が知れ渡っている. 広まる is similar; 知れ渡る stresses that everyone ends up knowing.",
     rx: ["ちれわたる", "しれとる", "しれわだる"],
-    book: { ja: "あいつに知られ＿＿、その日のうちに学校中に**知れ渡っちゃう**から。", en: "If he finds out (＿＿), the whole school will know by the end of the day.", at: "ch/5" },
+    book: { ja: "あいつに知られ＿＿、その日のうちに学校中に**知れ渡っちゃう**から。", en: "If Nakamura finds out, the whole school will know by the end of the day.", at: "ch/5" },
     ex: [
       { ja: "その{俳優|はいゆう}の{結婚|けっこん}は、あっという{間|ま}に{世間|せけん}に**{知|し}れ{渡|わた}った**。", en: "The actor's marriage became known to everyone in no time.", alt: ["{受|う}け{渡|わた}した", "{見渡|みわた}した", "{譲|ゆず}り{渡|わた}した"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ようきしゃ", "よぎしゃ", "ようぎじゃ"],
     book: { ja: "**{容疑者|ようぎしゃ}**が{逮捕|たいほ}されたとはいえ、事件の全面解決までには、まだ時間がかかるだろう。", en: "Although a suspect has been arrested, it will probably still take time before the case is fully solved.", at: "gp/61" },
     ex: [
-      { ja: "{警察|けいさつ}は**{容疑者|ようぎしゃ}**を{逮捕|たいほ}し、{取|と}り{調|しら}べを{進|すす}めている。", en: "The police have arrested a suspect and are questioning him.", alt: ["{被害者|ひがいしゃ}", "{候補者|こうほしゃ}", "{保護者|ほごしゃ}"] },
+      { ja: "{警察|けいさつ}は**{容疑者|ようぎしゃ}**を{逮捕|たいほ}し、{取|と}り{調|しら}べを{進|すす}めている。", en: "The police have arrested a suspect and are now questioning the suspect.", alt: ["{被害者|ひがいしゃ}", "{候補者|こうほしゃ}", "{保護者|ほごしゃ}"] },
     ] },
   { w: "{衛生|えいせい}", lv: "N2", pos: "noun",
     en: "hygiene; sanitation",
@@ -635,13 +635,13 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ふくき", "ふっけ", "ふっぎ"],
     book: { ja: "職場への**{復帰|ふっき}**が急がれます", en: "a return to work is urgently needed", at: "gp/61" },
     ex: [
-      { ja: "けがから{回復|かいふく}した{選手|せんしゅ}が、3か{月|げつ}ぶりにチームに**{復帰|ふっき}**した。", en: "The player, recovered from his injury, rejoined the team for the first time in three months.", alt: ["{帰省|きせい}", "{復旧|ふっきゅう}", "{回帰|かいき}"] },
+      { ja: "けがから{回復|かいふく}した{選手|せんしゅ}が、3か{月|げつ}ぶりにチームに**{復帰|ふっき}**した。", en: "Having recovered from injury, the player rejoined the team for the first time in three months.", alt: ["{帰省|きせい}", "{復旧|ふっきゅう}", "{回帰|かいき}"] },
     ] },
   { w: "{静養|せいよう}", lv: "N1", pos: "noun · する verb",
     en: "rest (to recover one's health); convalescence",
     note: "Resting quietly to restore health, often after illness or overwork: 自宅で静養する, 温泉で静養する. Formal; 休養 is similar but broader (any rest from work).",
     rx: ["じょうよう", "せいよ", "しずよう"],
-    book: { ja: "しばらくは自宅で**{静養|せいよう}**が必要です", en: "(he) needs to rest at home for a while", at: "gp/61" },
+    book: { ja: "しばらくは自宅で**{静養|せいよう}**が必要です", en: "needs to rest at home for a while", at: "gp/61" },
     ex: [
       { ja: "{医者|いしゃ}に{勧|すす}められて、{温泉地|おんせんち}でしばらく**{静養|せいよう}**することにした。", en: "On my doctor's advice, I decided to spend some time recuperating at a hot-spring resort.", alt: ["{栄養|えいよう}", "{教養|きょうよう}", "{静止|せいし}"] },
     ] },
@@ -649,7 +649,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "tragic; miserable; terrible (to see)",
     note: "So terrible it is painful to see: 悲惨な事故, 悲惨な光景, 戦争の悲惨さ. Also casual exaggeration (テストの結果が悲惨だった). Stronger than かわいそう.",
     rx: ["ひざん", "ひしゃん", "びさん"],
-    book: { ja: "**{悲惨|ひさん}**な事故{現場|げんば}を目にして、予想していたこととはいえ、（　）。", en: "Seeing the scene of the terrible accident — even though I had expected it — (　).", at: "gp/61" },
+    book: { ja: "**{悲惨|ひさん}**な事故{現場|げんば}を目にして、予想していたこととはいえ、（　）。", en: "Seeing the scene of the terrible accident, even though I had expected it, I couldn't help being shocked.", at: "gp/61" },
     ex: [
       { ja: "{戦争|せんそう}の**{悲惨|ひさん}さ**を{次|つぎ}の{世代|せだい}に{伝|つた}えなければならない。", en: "We must pass on the horrors of war to the next generation.", alt: ["{慎重|しんちょう}さ", "{気楽|きらく}さ", "{豊|ゆた}かさ"] },
     ] },
@@ -713,7 +713,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "scandal; disgraceful incident (in an organization)",
     note: "Misconduct that damages an organization's reputation, typical of news: 不祥事を起こす, 相次ぐ不祥事, 不祥事の責任を取って辞任する. スキャンダル is the loanword, often used for celebrities' private lives.",
     rx: ["ふしょうごと", "ぶしょうじ", "ふしょじ"],
-    book: { ja: "社長は**{不祥事|ふしょうじ}**を起こして以来、＿＿にかこつけてマスコミから逃げているらしいよ。", en: "Ever since the scandal, the president has apparently been using (＿＿) as an excuse to avoid the press.", at: "gp/64" },
+    book: { ja: "社長は**{不祥事|ふしょうじ}**を起こして以来、＿＿にかこつけてマスコミから逃げているらしいよ。", en: "Ever since the scandal, the president has apparently been avoiding the media on the pretext of being ill.", at: "gp/64" },
     ex: [
       { ja: "{社員|しゃいん}の**{不祥事|ふしょうじ}**が{相次|あいつ}ぎ、{社長|しゃちょう}が{辞任|じにん}に{追|お}い{込|こ}まれた。", en: "After a string of scandals involving employees, the president was forced to resign.", alt: ["{不景気|ふけいき}", "{不器用|ぶきよう}", "{祝|いわ}い{事|ごと}"] },
     ] },
@@ -721,7 +721,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "remaining life; life expectancy (of a sick person)",
     note: "How long someone with a serious illness is expected to live: 余命3か月, 余命宣告 (telling a patient how long they have left). 寿命 is one's whole natural lifespan (also of machines).",
     rx: ["よみょう", "よいのち", "あまめい"],
-    book: { ja: "＿＿、{患者|かんじゃ}の家族に**{余命宣告|よめいせんこく}**をするのはつらいものだ。", en: "(＿＿), having to tell a patient's family how long the patient has left to live is painful.", at: "ch/5" },
+    book: { ja: "＿＿、{患者|かんじゃ}の家族に**{余命宣告|よめいせんこく}**をするのはつらいものだ。", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is hard.", at: "ch/5" },
     ex: [
       { ja: "{父|ちち}は{医者|いしゃ}から**{余命|よめい}**{半年|はんとし}と{告|つ}げられた。", en: "My father was told by his doctor that he had six months to live.", alt: ["{余談|よだん}", "{余白|よはく}", "{運命|うんめい}"] },
     ] },
@@ -729,7 +729,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "poverty; (figuratively) poverty of ideas or policy",
     note: "Being too poor to live decently, a written and social-issue word: 貧困層, 子どもの貧困, 貧困に苦しむ. Also 発想の貧困 (poverty of imagination). 貧乏 is the everyday, more personal word.",
     rx: ["びんこん", "ひんごん", "ひんくん"],
-    book: { ja: "マザー・テレサは、**{貧困|ひんこん}**に苦しむ人々を{黙|だま}って（　）のです。", en: "Mother Teresa (　) silently at people suffering from poverty.", at: "ch/5/review" },
+    book: { ja: "マザー・テレサは、**{貧困|ひんこん}**に苦しむ人々を{黙|だま}って（　）のです。", en: "Mother Teresa could not just stand by in silence and watch people suffering from poverty.", at: "ch/5/review" },
     ex: [
       { ja: "{教育|きょういく}の{機会|きかい}を{広|ひろ}げることは、**{貧困|ひんこん}**から{抜|ぬ}け{出|だ}す{第一歩|だいいっぽ}だ。", en: "Widening access to education is the first step out of poverty.", alt: ["{貧血|ひんけつ}", "{貧弱|ひんじゃく}", "{頻繁|ひんぱん}"] },
     ] },

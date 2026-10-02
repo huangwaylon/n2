@@ -120,7 +120,7 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{猶予|ゆうよ}", lv: "N1", pos: "noun · する verb",
     en: "grace period; postponement; time allowed (before acting)",
-    note: "猶予はない (there's no time to lose), 支払いを猶予する (defer payment), 執行猶予 (a suspended sentence). Formal; the look-alike 余裕 is spare time or room in general.",
+    note: "猶予はない (there's no time to lose), 支払いを猶予する (defer payment), 執行猶予 (a suspended sentence). Formal; don't confuse it with 余裕 (spare time or room in general).",
     rx: ["ゆよ", "ゆうよう", "ゆうしゃ"],
     book: { ja: "もはや{一刻|いっこく}たりとも**{猶予|ゆうよ}**はできません。", en: "We can no longer afford to delay even a single moment.", at: "ch/2" },
     ex: [
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 2, words: [
     note: "Failing to give something the attention it deserves: 勉強がおろそかになる, 〜をおろそかにする. Usually written in kana (疎か). いい加減 is sloppy in general; おろそか is about neglecting a duty.",
     book: { ja: "働き{盛|ざか}りの人たちは仕事を{重視|じゅうし}しすぎて、健康管理が**おろそか**になるきらいがあります。", en: "People in the prime of their working lives put too much weight on their work and have an unfortunate tendency to neglect their health.", at: "ch/2" },
     ex: [
-      { ja: "アルバイトに{夢中|むちゅう}で、{学業|がくぎょう}が**おろそか**になっている。", en: "He's so wrapped up in his part-time job that he's neglecting his studies.", alt: ["おおらか", "すこやか", "なめらか"] },
+      { ja: "アルバイトに{夢中|むちゅう}で、{学業|がくぎょう}が**おろそか**になっている。", en: "I'm so absorbed in my part-time job that I'm neglecting my studies.", alt: ["おおらか", "すこやか", "なめらか"] },
     ] },
   { w: "{行政|ぎょうせい}", lv: "N1", pos: "noun",
     en: "administration; government (the executive branch)",
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["そうつぐ", "あいじぐ", "あいしぐ"],
     book: { ja: "**{相次|あいつ}ぐ**事故の{報告|ほうこく}により、製品の販売（　）を{余儀|よぎ}なくされた。", en: "Following a series of accident reports, the company was forced to stop selling the product.", at: "gp/9" },
     ex: [
-      { ja: "{今月|こんげつ}に{入|はい}って、{食品|しょくひん}の{値上|ねあ}げが**{相次|あいつ}いで**いる。", en: "Food prices have been going up one after another since the start of this month.", alt: ["{急|いそ}いで", "{防|ふせ}いで", "{注|そそ}いで"] },
+      { ja: "{今月|こんげつ}に{入|はい}って、{食品|しょくひん}の{値上|ねあ}げが**{相次|あいつ}いで**いる。", en: "Since the start of this month there has been one food price hike after another.", alt: ["{急|いそ}いで", "{防|ふせ}いで", "{注|そそ}いで"] },
     ] },
   { w: "{不適切|ふてきせつ}", lv: "N1", pos: "な-adjective",
     en: "inappropriate; unsuitable",
@@ -390,9 +390,9 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{外科|げか}", lv: "N2", pos: "noun",
     en: "surgery (as a medical department)",
-    note: "外科医 (surgeon), 外科手術, 整形外科 (orthopedics). 内科 is internal medicine. 外 is read げ here, as in 外道; don't read it がいか.",
+    note: "外科医 (surgeon), 外科手術, 整形外科 (orthopedics). 内科 is internal medicine. Here 外 is read げ; don't read it がいか.",
     rx: ["がいか", "そとか", "げいか"],
-    book: { ja: "{林|はやし}さんは優秀な**外科**医だが、{患者|かんじゃ}の気持ちを（　）きらいがある。", en: "Dr. Hayashi is an excellent surgeon, but he tends to disregard his patients' feelings.", at: "gp/11" },
+    book: { ja: "{林|はやし}さんは優秀な**外科**医だが、{患者|かんじゃ}の気持ちを（　）きらいがある。", en: "Dr. Hayashi is an excellent surgeon, but tends to disregard patients' feelings.", at: "gp/11" },
     ex: [
       { ja: "{手|て}をけがしたので、{近|ちか}くの**{外科|げか}**で{傷|きず}を{縫|ぬ}ってもらった。", en: "I hurt my hand, so I had the cut stitched up at a nearby surgical clinic.", alt: ["{内科|ないか}", "{眼科|がんか}", "{外見|がいけん}"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(formal) apology",
     note: "A formal apology, typical of companies and officials: 謝罪する, 謝罪会見 (a press conference to apologize), 謝罪を求める (demand an apology). In conversation 謝る.",
     rx: ["しゃさい", "じゃざい", "あやまざい"],
-    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "With a heartfelt apology, we must ask the customers we have inconvenienced to forgive us.", at: "ch/2" },
+    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "We must win the forgiveness of the customers we have inconvenienced with a heartfelt apology.", at: "ch/2" },
     ex: [
       { ja: "{社長|しゃちょう}は{記者|きしゃ}{会見|かいけん}を{開|ひら}いて{正式|せいしき}に**{謝罪|しゃざい}**した。", en: "The company president held a press conference and formally apologized.", alt: ["{感謝|かんしゃ}", "{犯罪|はんざい}", "{謝礼|しゃれい}"] },
     ] },
@@ -641,7 +641,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["けんりき", "けんりょ", "ごんりょく"],
     book: { ja: "歴史上、恐怖（　）国民を支配しようとする**権力**者は少なくない。", en: "Throughout history, there has been no shortage of rulers who try to control their people by means of fear.", at: "ch/2/review" },
     ex: [
-      { ja: "{独裁者|どくさいしゃ}は{長年|ながねん}**{権力|けんりょく}**を{握|にぎ}り{続|つづ}けた。", en: "The dictator kept his grip on power for many years.", alt: ["{権利|けんり}", "{協力|きょうりょく}", "{圧力|あつりょく}"] },
+      { ja: "{独裁者|どくさいしゃ}は{長年|ながねん}**{権力|けんりょく}**を{握|にぎ}り{続|つづ}けた。", en: "The dictator held on to power for many years.", alt: ["{権利|けんり}", "{協力|きょうりょく}", "{圧力|あつりょく}"] },
     ] },
   { w: "{保証人|ほしょうにん}", lv: "N1", pos: "noun",
     en: "guarantor (for a loan or lease)",
@@ -702,7 +702,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "the place itself; the site; the local area",
     note: "The actual place where something is happening or located: 現地時間 (local time), 現地の人 (locals), 現地調査 (field survey). 現場 is the scene of an incident or a work site.",
     rx: ["げんじ", "けんち", "げんぢ"],
-    book: { ja: "**{現地|げんち}**の方との{関|かか}わり方については資料に書いてある通りです。", en: "as for how to interact with the local people … that is all as set out in your materials.", at: "ch/2/review" },
+    book: { ja: "**{現地|げんち}**の方との{関|かか}わり方については資料に書いてある通りです。", en: "How to interact with the local people is as set out in your materials.", at: "ch/2/review" },
     ex: [
       { ja: "{出発|しゅっぱつ}の{前|まえ}に**{現地|げんち}**の{天気|てんき}を{調|しら}べておこう。", en: "Let's check the weather at our destination before we leave.", alt: ["{現金|げんきん}", "{現象|げんしょう}", "{実地|じっち}"] },
     ] },

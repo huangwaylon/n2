@@ -207,7 +207,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{殺到|さっとう}", lv: "N1", pos: "noun · する verb",
     en: "rush; flood (of people, orders or inquiries)",
-    note: "Many people or things pouring in at the same moment: 注文が殺到する, 問い合わせが殺到, 客が出口に殺到する. It is never used of a single person; the look-alike 殺 has nothing to do with killing here.",
+    note: "Many people or things pouring in at the same moment: 注文が殺到する, 問い合わせが殺到, 客が出口に殺到する. It is never used of a single person; here 殺 has nothing to do with killing.",
     rx: ["さつとう", "さっどう", "せっとう"],
     book: { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が**{殺到|さっとう}**している。", en: "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in.", at: "gp/2" },
     ex: [
@@ -225,17 +225,17 @@ TRY.registerVocab({ ch: 1, words: [
     en: "intention to resign",
     note: "A news word: 辞意を表明する / 固める / 漏らす (announce / settle on / hint at one's resignation). 辞任 is the resignation itself.",
     rx: ["じいい", "しい", "じぎ"],
-    book: { ja: "突然、首相が**{辞意|じい}**を{表明|ひょうめい}したとあって、（　）。", en: "Because the prime minister had suddenly announced his intention to resign, the media all started covering the story at once.", at: "gp/2" },
+    book: { ja: "突然、首相が**{辞意|じい}**を{表明|ひょうめい}したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, the media all started covering the story at once.", at: "gp/2" },
     ex: [
-      { ja: "{監督|かんとく}は{成績|せいせき}{不振|ふしん}の{責任|せきにん}を{取|と}って**{辞意|じい}**を{固|かた}めた。", en: "Taking responsibility for the poor results, the manager made up his mind to resign.", alt: ["{辞書|じしょ}", "{同意|どうい}", "{誠意|せいい}"] },
+      { ja: "{監督|かんとく}は{成績|せいせき}{不振|ふしん}の{責任|せきにん}を{取|と}って**{辞意|じい}**を{固|かた}めた。", en: "Taking responsibility for the poor results, the manager decided to resign.", alt: ["{辞書|じしょ}", "{同意|どうい}", "{誠意|せいい}"] },
     ] },
   { w: "{表明|ひょうめい}", lv: "N1", pos: "noun · する verb",
     en: "(public) declaration; statement (of an intention or position)",
     note: "Making one's position known officially: 支持を表明する, 立候補を表明する, 反対の意思を表明. 表現 is expressing something in words or art; 表明 is declaring a stance.",
     rx: ["ひょうみょう", "ひょめい", "おもてめい"],
-    book: { ja: "突然、首相が{辞意|じい}を**{表明|ひょうめい}**したとあって、（　）。", en: "Because the prime minister had suddenly announced his intention to resign, the media all started covering the story at once.", at: "gp/2" },
+    book: { ja: "突然、首相が{辞意|じい}を**{表明|ひょうめい}**したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, the media all started covering the story at once.", at: "gp/2" },
     ex: [
-      { ja: "{市長|しちょう}は{次|つぎ}の{選挙|せんきょ}に{立候補|りっこうほ}すると**{表明|ひょうめい}**した。", en: "The mayor announced that he would run in the next election.", alt: ["{表現|ひょうげん}", "{証明|しょうめい}", "{発明|はつめい}"] },
+      { ja: "{市長|しちょう}は{次|つぎ}の{選挙|せんきょ}に{立候補|りっこうほ}すると**{表明|ひょうめい}**した。", en: "The mayor announced plans to run in the next election.", alt: ["{表現|ひょうげん}", "{証明|しょうめい}", "{発明|はつめい}"] },
     ] },
   { w: "{一斉|いっせい}に", lv: "N1", pos: "adverb",
     en: "all at once; simultaneously; in unison",
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "our company; this company (said by the company itself)",
     note: "Used in formal statements, notices and business documents: 当社の製品, 当社では〜. When speaking to a client, the humble 弊社 is preferred; the client's company is 御社 (spoken) or 貴社 (written).",
     rx: ["とうじゃ", "あたりしゃ", "とうしょ"],
-    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone the prospect of a richer life.", at: "gp/5" },
+    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ways to live a richer life.", at: "gp/5" },
     ex: [
       { ja: "**{当社|とうしゃ}**の{製品|せいひん}は{全|すべ}て{国内|こくない}で{製造|せいぞう}しております。", en: "All of our company's products are manufactured in Japan.", alt: ["{当日|とうじつ}", "{神社|じんじゃ}", "{当番|とうばん}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "power supply; power source; power switch",
     note: "電源を入れる / 切る (turn on / off), 電源コード, 電源プラグ, 電源が入らない (won't turn on). It can also mean a source of electric power, as in 電源開発 (power development).",
     rx: ["でんけん", "てんげん", "でんがん"],
-    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone the prospect of a richer life.", at: "gp/5" },
+    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ways to live a richer life.", at: "gp/5" },
     ex: [
       { ja: "{映画館|えいがかん}では{携帯|けいたい}{電話|でんわ}の**{電源|でんげん}**をお{切|き}りください。", en: "Please turn off your cell phone in the movie theater.", alt: ["{電池|でんち}", "{電波|でんぱ}", "{電球|でんきゅう}"] },
     ] },
@@ -653,7 +653,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{大国|たいこく}", lv: "N1", pos: "noun",
     en: "major power; great nation; (a) superpower (in some field)",
-    note: "A country that is large or powerful in some respect: 経済大国, 軍事大国, 観光大国, and in the passage ゲーム大国. The reading is たいこく, with an unvoiced た.",
+    note: "A country that is large or powerful in some respect: 経済大国, 軍事大国, 観光大国, and in the passage ゲーム大国. Read たいこく, not だいこく.",
     rx: ["たいごく", "おおこく", "だいごく"],
     book: { ja: "ゲーム**{大国|たいこく}**日本[4]のこのイベントは、会場の設備やサービスにも{趣向|しゅこう}が{凝|こ}らされていて、{飽|あ}きることがない。", en: "This event, one that only Japan, the gaming superpower, could put on, is full of creative touches even in the venue's facilities and services, so there is never a dull moment.", at: "ch/1/review" },
     ex: [

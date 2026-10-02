@@ -28,7 +28,7 @@ TRY.registerVocab({ ch: 3, words: [
     note: "Casual and always critical: けちな人, けちけちする (pinch pennies). The verb けちる means to skimp, and けちをつける is a different idiom: to find fault. The positive way to say it is 倹約家 (a thrifty person).",
     book: { ja: "男は、**けち**なうえに{怠|なま}け{者|もの}で、掃除や洗濯もしなかった。", en: "He was stingy and lazy to boot, and he never did any cleaning or washing.", at: "ch/3" },
     ex: [
-      { ja: "あの人は**けち**だから、{割|わ}り{勘|かん}でも1円{単位|たんい}まで計算する。", en: "He's so stingy that even when we split the bill, he works it out to the last yen.", alt: ["{贅沢|ぜいたく}", "{派手|はで}", "{陽気|ようき}"] },
+      { ja: "あの人は**けち**だから、{割|わ}り{勘|かん}でも1円{単位|たんい}まで計算する。", en: "That person is so stingy that even when we split the bill, they work it out to the last yen.", alt: ["{贅沢|ぜいたく}", "{派手|はで}", "{陽気|ようき}"] },
     ] },
   { w: "{怠|なま}け{者|もの}", lv: "N2", pos: "noun",
     en: "lazy person; idler, slacker",
@@ -41,14 +41,14 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "たいそう", lv: "N1", pos: "adverb · な adjective",
     en: "very, greatly (old-fashioned); exaggerated, grand (as 大層な)",
     note: "Written 大層. As an adverb (たいそう汚い, たいそう喜ぶ) it sounds old-fashioned or storybook-like; everyday speech uses とても. As 大層な it means exaggerated or pompous: 大層なことを言う (talk big).",
-    book: { ja: "だから、部屋は**たいそう**汚く、中に入れば体中ほこりまみれになるほどで、どろぼうも逃げ出すありさまだった。", en: "So his room was terribly filthy — so filthy that you'd end up covered in dust if you went inside — and it was in such a state that even a burglar would have fled.", at: "ch/3" },
+    book: { ja: "だから、部屋は**たいそう**汚く、中に入れば体中ほこりまみれになるほどで、どろぼうも逃げ出すありさまだった。", en: "So his room was terribly filthy — so filthy that if you went inside you'd end up covered in dust from head to toe — and it was in such a state that even a burglar would have fled.", at: "ch/3" },
     ex: [
       { ja: "{殿様|とのさま}はその{贈|おく}り物を**たいそう**{喜|よろこ}ばれた。", en: "The lord was greatly pleased with the gift.", alt: ["せっかく", "せめて", "わざわざ"] },
     ] },
   { w: "ありさま", lv: "N1", pos: "noun",
     en: "state, condition, sight (usually a sorry one)",
     note: "Written 有様. Usually a bad or shameful state: ひどいありさま, このありさまだ (look at the state of this). 〜ありさまだ at the end of a sentence reports a deplorable result, close to 〜しまつだ. 様子 is the neutral word for how things look.",
-    book: { ja: "だから、部屋はたいそう汚く、中に入れば体中ほこりまみれになるほどで、どろぼうも逃げ出す**ありさま**だった。", en: "So his room was terribly filthy — so filthy that you'd end up covered in dust if you went inside — and it was in such a state that even a burglar would have fled.", at: "ch/3" },
+    book: { ja: "だから、部屋はたいそう汚く、中に入れば体中ほこりまみれになるほどで、どろぼうも逃げ出す**ありさま**だった。", en: "So his room was terribly filthy — so filthy that if you went inside you'd end up covered in dust from head to toe — and it was in such a state that even a burglar would have fled.", at: "ch/3" },
     ex: [
       { ja: "{台風|たいふう}の後、{畑|はたけ}は目も{当|あ}てられない**ありさま**だった。", en: "After the typhoon, the fields were a sight too awful to look at.", alt: ["ありか", "しぐさ", "けはい"] },
     ] },
@@ -89,7 +89,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["みちかえる", "みまちがえる", "けんちがえる"],
     book: { ja: "おかげで男の身なりも家も、**{見違|みちが}える**ようにきれいになった。", en: "Thanks to her, the man's appearance and his house both became so clean you'd hardly recognize them.", at: "ch/3" },
     ex: [
-      { ja: "{数年|すうねん}ぶりに会ったいとこは、**{見違|みちが}える**ほど大人っぽくなっていた。", en: "My cousin, whom I hadn't seen in years, had grown up so much I hardly recognized her.", alt: ["{見慣|みな}れる", "{見送|みおく}る", "{見上|みあ}げる"] },
+      { ja: "{数年|すうねん}ぶりに会ったいとこは、**{見違|みちが}える**ほど大人っぽくなっていた。", en: "My cousin, whom I hadn't seen in years, had grown up so much I hardly recognized them.", alt: ["{見慣|みな}れる", "{見送|みおく}る", "{見上|みあ}げる"] },
     ] },
   { w: "{不快|ふかい}", lv: "N2", pos: "な adjective · noun",
     en: "unpleasant, disagreeable; displeasure, discomfort",
@@ -102,7 +102,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "{健闘|けんとう}", lv: "N1", pos: "noun · する verb",
     en: "a good fight; a strong effort (in a contest), even in defeat",
     note: "Sports, elections and competitions: 健闘をたたえる (praise someone's effort), ご健闘をお祈りします (best of luck — before a match or exam). It often means 'fought well against the odds', so it softens a loss. 奮闘 is a desperate struggle.",
-    rx: ["けんどう", "けんどう", "げんとう"],
+    rx: ["けんどう", "けんちょう", "げんとう"],
     book: { ja: "試合終了のホイッスルが{響|ひび}き、泥まみれの選手たちは雨の中でお互いの**{健闘|けんとう}**をたたえ合った。", en: "The final whistle sounded, and in the rain the mud-covered players praised one another for a hard-fought game.", at: "gp/16" },
     ex: [
       { ja: "{初出場|はつしゅつじょう}で{準決勝|じゅんけっしょう}まで進んだチームの**{健闘|けんとう}**に、{観客|かんきゃく}から大きな{拍手|はくしゅ}が送られた。", en: "The crowd gave a big round of applause to the team for its strong showing in reaching the semifinals in its first appearance.", alt: ["{健康|けんこう}", "{検討|けんとう}", "{格闘|かくとう}"] },
@@ -143,7 +143,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["いんきとめる", "びきとめる", "ひっきとめる"],
     book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Paying no heed to his girlfriend's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
-      { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "The manager tried again and again to talk his subordinate out of quitting.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
+      { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "The department head tried again and again to talk the subordinate out of quitting.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
     ] },
   { w: "{携|たずさ}える", lv: "N1", pos: "verb",
     en: "to carry (with one), to take along; (手を携える) to join hands, cooperate",
@@ -181,7 +181,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "advice or a recommendation offered to a superior",
     note: "Used only upward: 部下が社長に進言する. Advising an equal or a junior is 助言 / アドバイス; 忠告 is a warning.",
     rx: ["しんごん", "しんげ", "じんげん"],
-    book: { ja: "社長は部下の**{進言|しんげん}**をよそに、", en: "The company president, disregarding his subordinates' advice, …", at: "gp/17" },
+    book: { ja: "社長は部下の**{進言|しんげん}**をよそに、", en: "The company president, disregarding subordinates' advice, …", at: "gp/17" },
     ex: [
       { ja: "{秘書|ひしょ}は社長に、計画を{見直|みなお}すよう**{進言|しんげん}**した。", en: "The secretary advised the president to reconsider the plan.", alt: ["{宣言|せんげん}", "{伝言|でんごん}", "{発言|はつげん}"] },
     ] },
@@ -205,7 +205,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to state flatly, to declare definitively",
     note: "Very common in the negative: 絶対とは言い切れない (can't say for certain). 断言する is the formal equivalent. Also 'to finish saying': 最後まで言い切る.",
     rx: ["いいぎる", "ことぎる", "いいせつる"],
-    book: { ja: "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり**{言|い}い{切|き}り**たくないときに使われる。", en: "As in 高い気がしないでもない (it's not that it doesn't feel a bit expensive), 〜ないでもない is used when you don't want to state flatly that something is so ('I feel it's expensive').", at: "gp/19" },
+    book: { ja: "「〜ないでもない」は「高い気がしないでもない」のように「〜だ（高い気がする）」とはっきり**{言|い}い{切|き}り**たくないときに使われる。", en: "As in 高い気がしないでもない (I can't help feeling it's a bit expensive), 〜ないでもない is used when you don't want to state flatly that something is so ('I feel it's expensive').", at: "gp/19" },
     ex: [
       { ja: "この薬が{誰|だれ}にでも{効|き}くとは**{言|い}い{切|き}れ**ない。", en: "You can't say for sure that this medicine works for everyone.", alt: ["{言|い}い{返|かえ}せ", "{言|い}い{直|なお}せ", "{言|い}い{残|のこ}せ"] },
     ] },
@@ -294,7 +294,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["そくがつまる", "いきがづまる", "いきがちまる"],
     book: { ja: "私の学校は規則ずくめで、**息がつまり**そうだ。", en: "My school is rules, rules, rules — I feel like I'm suffocating.", at: "gp/22" },
     ex: [
-      { ja: "上司と二人きりの{会議室|かいぎしつ}では、**{息|いき}が{詰|つ}まる**ような{沈黙|ちんもく}が続いた。", en: "Alone with my boss in the meeting room, a suffocating silence dragged on.", alt: ["{息|いき}が{合|あ}う", "{息|いき}が{長|なが}い", "{息|いき}が{切|き}れる"] },
+      { ja: "上司と二人きりの{会議室|かいぎしつ}では、**{息|いき}が{詰|つ}まる**ような{沈黙|ちんもく}が続いた。", en: "In the meeting room with just my boss and me, a suffocating silence dragged on.", alt: ["{息|いき}が{合|あ}う", "{息|いき}が{長|なが}い", "{息|いき}が{切|き}れる"] },
     ] },
   { w: "{目撃者|もくげきしゃ}", lv: "N1", pos: "noun",
     en: "eyewitness",
@@ -326,7 +326,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["じょうひょう", "ていひょ", "ていびょう"],
     book: { ja: "彼女のデザインする服は、どれも{個性的|こせいてき}にして{実用的|じつようてき}だと**{定評|ていひょう}**がある。", en: "The clothes she designs are well known for being both distinctive and practical.", at: "gp/23" },
     ex: [
-      { ja: "この店のパンは味のよさに**{定評|ていひょう}**がある。", en: "This bakery has a solid reputation for how good its bread tastes.", alt: ["{定価|ていか}", "{評論|ひょうろん}", "{定員|ていいん}"] },
+      { ja: "この店のパンは味のよさに**{定評|ていひょう}**がある。", en: "This bakery is well known for the taste of its bread.", alt: ["{定価|ていか}", "{評論|ひょうろん}", "{定員|ていいん}"] },
     ] },
   { w: "{手口|てぐち}", lv: "N1", pos: "noun",
     en: "method, trick, modus operandi (of a crime)",
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "curiosity",
     note: "好奇心が強い / 旺盛だ (very curious), 好奇心をそそる (arouse curiosity). 興味 is interest in a particular thing; 好奇心 is the general urge to know.",
     rx: ["こうきしい", "こうぎしん", "こきしん"],
-    book: { ja: "80歳の祖母は**{好奇心|こうきしん}**が強く、来年は（　）へすら出かけかねないと家族は心配している。", en: "My 80-year-old grandmother is so curious that the family worries she might even set off for (　) next year.", at: "gp/25" },
+    book: { ja: "80歳の祖母は**{好奇心|こうきしん}**が強く、来年は（　）へすら出かけかねないと家族は心配している。", en: "My 80-year-old grandmother is so curious that the family worries she might even set off for Antarctica next year.", at: "gp/25" },
     ex: [
       { ja: "子どもは**{好奇心|こうきしん}**が強く、何でも{触|さわ}りたがる。", en: "Children are very curious and want to touch everything.", alt: ["{向上心|こうじょうしん}", "{警戒心|けいかいしん}", "{自尊心|じそんしん}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "unprecedented, exceptional; out of the ordinary",
     note: "Formal, news-style: 異例の早さ (unusually fast), 異例の人事 (an unusual appointment). 例外 is an exception to a rule; 異例 is something without precedent.",
     rx: ["いれ", "いりょう", "ことれい"],
-    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は**{異例|いれい}**＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", en: "The president's conduct during this visit to Japan was unconventional ＿＿, which left Foreign Ministry officials at a loss.", at: "ch/3" },
+    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は**{異例|いれい}**＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", en: "The president's conduct during this visit to Japan was unprecedented from start to finish, and it bewildered the staff of the Foreign Ministry.", at: "ch/3" },
     ex: [
       { ja: "{新人|しんじん}が{入社|にゅうしゃ}1年目で部長に{抜擢|ばってき}されるのは**{異例|いれい}**のことだ。", en: "It's unheard of for a newcomer to be picked as a department head in their first year.", alt: ["{恒例|こうれい}", "{異動|いどう}", "{実例|じつれい}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "bewilderment, perplexity; being at a loss",
     note: "A formal word for 困る / 戸惑う: 困惑した表情, 困惑を隠せない. 戸惑う is being unsure how to act in an unfamiliar situation.",
     rx: ["こんわ", "こまわく", "こんなく"],
-    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は{異例|いれい}＿＿で、{外務省|がいむしょう}の職員を**{困惑|こんわく}**させた。", en: "The president's conduct during this visit to Japan was unconventional ＿＿, which left Foreign Ministry officials at a loss.", at: "ch/3" },
+    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は{異例|いれい}＿＿で、{外務省|がいむしょう}の職員を**{困惑|こんわく}**させた。", en: "The president's conduct during this visit to Japan was unprecedented from start to finish, and it bewildered the staff of the Foreign Ministry.", at: "ch/3" },
     ex: [
       { ja: "{突然|とつぜん}の質問に、彼は**{困惑|こんわく}**した{表情|ひょうじょう}を{浮|う}かべた。", en: "At the sudden question, a puzzled look came over his face.", alt: ["{迷惑|めいわく}", "{誘惑|ゆうわく}", "{疑惑|ぎわく}"] },
     ] },
@@ -387,7 +387,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "candidacy; to run for (office), to stand as a candidate",
     note: "選挙に立候補する, 市長に立候補する; also volunteering for a role: 学級委員に立候補する. 候補 alone is 'candidate'; 当選 is winning the election.",
     rx: ["りつこうほ", "たちこうほ", "りっこうほう"],
-    book: { ja: "100年前の女性たちには、{選挙|せんきょ}に**{立候補|りっこうほ}**する権利＿＿、{投票|とうひょう}する権利さえなかった。", en: "A hundred years ago, women didn't even have the right to vote, ＿＿ the right to run for office.", at: "ch/3" },
+    book: { ja: "100年前の女性たちには、{選挙|せんきょ}に**{立候補|りっこうほ}**する権利＿＿、{投票|とうひょう}する権利さえなかった。", en: "A hundred years ago, women didn't even have the right to vote, let alone the right to stand for election.", at: "ch/3" },
     ex: [
       { ja: "彼女は次の{市長|しちょう}選挙に**{立候補|りっこうほ}**することを{表明|ひょうめい}した。", en: "She announced that she would run in the next mayoral election.", alt: ["{推薦|すいせん}", "{当選|とうせん}", "{就任|しゅうにん}"] },
     ] },
@@ -395,7 +395,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "the business world, financial circles (big business as a force in society)",
     note: "A news word for major business leaders as a group: 財界の要望, 政界と財界. 経済界 is a close synonym; 業界 is a single industry.",
     rx: ["さいかい", "ざいがい", "ぜいかい"],
-    book: { ja: "{少子化|しょうしか}による労働人口減少に対する**{財界|ざいかい}**の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を打ち出そうとしない。", en: "＿＿ the business community's concerns about the shrinking workforce caused by the falling birthrate, the government shows no sign of putting forward any effective policy.", at: "ch/3" },
+    book: { ja: "{少子化|しょうしか}による労働人口減少に対する**{財界|ざいかい}**の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を打ち出そうとしない。", en: "Ignoring the business world's concern about the shrinking workforce caused by the falling birthrate, the government isn't trying to come up with any effective policy.", at: "ch/3" },
     ex: [
       { ja: "新しい経済{政策|せいさく}は、**{財界|ざいかい}**から高く{評価|ひょうか}されている。", en: "The new economic policy has been highly praised by the business community.", alt: ["{限界|げんかい}", "{境界|きょうかい}", "{視界|しかい}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "concern, apprehension (about what may happen)",
     note: "Formal: 懸念がある, 懸念を示す, 〜が懸念される (it is feared that …). 心配 is the everyday word; 懸念 is typical of news and reports.",
     rx: ["けんえん", "けねい", "かんねん"],
-    book: { ja: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の**{懸念|けねん}**＿＿、政府は何も効果的な{政策|せいさく}を打ち出そうとしない。", en: "＿＿ the business community's concerns about the shrinking workforce caused by the falling birthrate, the government shows no sign of putting forward any effective policy.", at: "ch/3" },
+    book: { ja: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の**{懸念|けねん}**＿＿、政府は何も効果的な{政策|せいさく}を打ち出そうとしない。", en: "Ignoring the business world's concern about the shrinking workforce caused by the falling birthrate, the government isn't trying to come up with any effective policy.", at: "ch/3" },
     ex: [
       { ja: "大雨による{土砂崩|どしゃくず}れが**{懸念|けねん}**されている。", en: "There are fears of landslides caused by the heavy rain.", alt: ["{記念|きねん}", "{断念|だんねん}", "{専念|せんねん}"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to put forward, to announce (a policy, plan or principle)",
     note: "Used with 方針・政策・方向性: 新しい方針を打ち出す. 発表する is to announce in general; 打ち出す stresses presenting a clear stance.",
     rx: ["うちだず", "だちだす", "うちいだす"],
-    book: { ja: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を**打ち出そ**うとしない。", en: "＿＿ the business community's concerns about the shrinking workforce caused by the falling birthrate, the government shows no sign of putting forward any effective policy.", at: "ch/3" },
+    book: { ja: "{少子化|しょうしか}による労働人口減少に対する{財界|ざいかい}の{懸念|けねん}＿＿、政府は何も効果的な{政策|せいさく}を**打ち出そ**うとしない。", en: "Ignoring the business world's concern about the shrinking workforce caused by the falling birthrate, the government isn't trying to come up with any effective policy.", at: "ch/3" },
     ex: [
       { ja: "政府は観光客を増やすための新たな{方針|ほうしん}を**{打|う}ち{出|だ}した**。", en: "The government put forward a new policy to attract more tourists.", alt: ["{打|う}ち{明|あ}けた", "{打|う}ち{消|け}した", "{打|う}ち{寄|よ}せた"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "benefit, blessing (received from something)",
     note: "恩恵を受ける / 被る, 自然の恩恵, 科学技術の恩恵. Formal. 利益 is profit; 恩恵 is a benefit one enjoys thanks to something larger.",
     rx: ["おんえ", "おんけ", "いんけい"],
-    book: { ja: "{極|きわ}めて少数だが、情報技術の**{恩恵|おんけい}**を自ら{絶|た}って生活する人がいない＿＿。", en: "Though they are extremely few, there are ＿＿ people who choose to live cut off from the benefits of information technology.", at: "ch/3" },
+    book: { ja: "{極|きわ}めて少数だが、情報技術の**{恩恵|おんけい}**を自ら{絶|た}って生活する人がいない＿＿。", en: "They are extremely few, but it's not that there's nobody who chooses to live cut off from the benefits of information technology.", at: "ch/3" },
     ex: [
       { ja: "{円安|えんやす}の**{恩恵|おんけい}**を受けて、{輸出|ゆしゅつ}{企業|きぎょう}の{業績|ぎょうせき}が伸びた。", en: "Benefiting from the weak yen, exporters saw their earnings grow.", alt: ["{恩師|おんし}", "{恩人|おんじん}", "{恩返|おんがえ}し"] },
     ] },
@@ -483,7 +483,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "firing (a gun), shooting",
     note: "A news word: 警官が発砲する, 発砲事件 (a shooting incident). 射撃 is shooting as an activity or sport; 発射 is firing or launching anything (missiles, rockets).",
     rx: ["はつほう", "はっぽ", "はっほう"],
-    book: { ja: "**{発砲|はっぽう}**した", en: "fired (his gun)", at: "gp/28" },
+    book: { ja: "**{発砲|はっぽう}**した", en: "fired (a gun)", at: "gp/28" },
     ex: [
       { ja: "犯人が{警官|けいかん}に向けて**{発砲|はっぽう}**したが、けが人は出なかった。", en: "The suspect fired at the police officers, but no one was hurt.", alt: ["{発送|はっそう}", "{発表|はっぴょう}", "{発泡|はっぽう}"] },
     ] },
@@ -491,7 +491,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "vessel, dish (especially fine tableware); caliber, capacity (of a person)",
     note: "Tableware in cooking and craft contexts: 料理を器に盛る. Figuratively, 器が大きい (big-hearted) and 社長の器ではない (not cut out to be president). 容器 is a plain container.",
     rx: ["き", "うつは", "うつろ"],
-    book: { ja: "彼は、名人が作った**{器|うつわ}**を手に取るなり、（　）。", en: "The moment he picked up the vessel made by the master craftsman, he (　).", at: "gp/28" },
+    book: { ja: "彼は、名人が作った**{器|うつわ}**を手に取るなり、（　）。", en: "The moment he picked up the bowl made by the master, he said it was magnificent.", at: "gp/28" },
     ex: [
       { ja: "この店は料理だけでなく、料理を{盛|も}る**{器|うつわ}**にもこだわっている。", en: "This restaurant is particular not only about its food but also about the dishes it's served in.", alt: ["{枠|わく}", "{額|がく}", "{型|かた}"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to wait (ready) for, to lie in wait for",
     note: "Waiting prepared and eager, or ready to pounce: 記者が待ち構える, 待ち構えていたように (as if they had been waiting for it). 待ち受ける is similar; 待ち合わせる is meeting by arrangement.",
     rx: ["まちがまえる", "まちこうえる", "たいかまえる"],
-    book: { ja: "受付時間になるが早いか、**{待|ま}ち{構|かま}え**ていたように電話が鳴り出した。", en: "The moment reception hours began, the phone started ringing as if people had been lying in wait.", at: "gp/30" },
+    book: { ja: "受付時間になるが早いか、**{待|ま}ち{構|かま}え**ていたように電話が鳴り出した。", en: "The moment reception hours began, the phone started ringing, as if people had been lying in wait.", at: "gp/30" },
     ex: [
       { ja: "{猫|ねこ}は{獲物|えもの}が近づくのを、身を低くして**{待|ま}ち{構|かま}えて**いた。", en: "The cat crouched low, lying in wait for its prey to come closer.", alt: ["{待|ま}ち{合|あ}わせて", "{立|た}て{替|か}えて", "{呼|よ}び{止|と}めて"] },
     ] },
@@ -547,7 +547,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "short supply, low stock",
     note: "Retail and news: 品薄になる, 品薄状態が続く. 品切れ means already sold out; 品薄 means running low.",
     rx: ["ひんうす", "しなはく", "しなうず"],
-    book: { ja: "この商品は{入荷|にゅうか}するそばから（　）ので、常に**{品薄|しなうす}**だ。", en: "As soon as this product comes in, it (　), so it's always in short supply.", at: "gp/31" },
+    book: { ja: "この商品は{入荷|にゅうか}するそばから（　）ので、常に**{品薄|しなうす}**だ。", en: "This product sells out as soon as it comes in, so it's always in short supply.", at: "gp/31" },
     ex: [
       { ja: "人気のゲーム機は発売{以来|いらい}ずっと**{品薄|しなうす}**が続いている。", en: "The popular game console has been in short supply ever since its release.", alt: ["{品質|ひんしつ}", "{手薄|てうす}", "{品目|ひんもく}"] },
     ] },
@@ -573,7 +573,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["かしち", "がしつ", "かしつう"],
     book: { ja: "彼の**{過失|かしつ}**となれば、会社は損害{賠償|ばいしょう}を{請求|せいきゅう}しないではおかないだろう。", en: "If it turns out to be his fault, the company will surely demand compensation for damages.", at: "gp/32" },
     ex: [
-      { ja: "運転手は自分の**{過失|かしつ}**を{認|みと}め、{被害者|ひがいしゃ}に{謝罪|しゃざい}した。", en: "The driver admitted he was at fault and apologized to the victim.", alt: ["{損失|そんしつ}", "{過去|かこ}", "{紛失|ふんしつ}"] },
+      { ja: "運転手は自分の**{過失|かしつ}**を{認|みと}め、{被害者|ひがいしゃ}に{謝罪|しゃざい}した。", en: "The driver admitted being at fault and apologized to the victim.", alt: ["{損失|そんしつ}", "{過去|かこ}", "{紛失|ふんしつ}"] },
     ] },
   { w: "{賠償|ばいしょう}", lv: "N1", pos: "noun · する verb",
     en: "compensation, reparation (for damage caused)",
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["しょうけき", "しょうげい", "どうげき"],
     book: { ja: "{地球外生命体|ちきゅうがいせいめいたい}の{異様|いよう}な{映像|えいぞう}は、見る人に**{衝撃|しょうげき}**を与えずにはおかないだろう。", en: "The bizarre footage of an extraterrestrial life form is bound to shock anyone who sees it.", at: "gp/32" },
     ex: [
-      { ja: "人気歌手の{突然|とつぜん}の{引退|いんたい}は、ファンに**{衝撃|しょうげき}**を与えた。", en: "The popular singer's sudden retirement came as a shock to her fans.", alt: ["{攻撃|こうげき}", "{目撃|もくげき}", "{衝突|しょうとつ}"] },
+      { ja: "人気歌手の{突然|とつぜん}の{引退|いんたい}は、ファンに**{衝撃|しょうげき}**を与えた。", en: "The popular singer's sudden retirement came as a shock to fans.", alt: ["{攻撃|こうげき}", "{目撃|もくげき}", "{衝突|しょうとつ}"] },
     ] },
   { w: "{寝食|しんしょく}", lv: "N1", pos: "noun",
     en: "eating and sleeping; daily life",
@@ -643,7 +643,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "waste (of money or resources); wasteful spending",
     note: "お金の無駄遣い, 時間の無駄遣い, 税金の無駄遣い. 浪費 is the formal word.",
     rx: ["むだつかい", "むたづかい", "ぶだづかい"],
-    book: { ja: "お前、**{無駄遣|むだづか}い**はやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", en: "You said you'd stop wasting money, and ＿＿ you go and buy two new bags — what's that about?", at: "ch/3" },
+    book: { ja: "お前、**{無駄遣|むだづか}い**はやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", en: "You said you'd stop wasting money, and right after that you buy two new bags? What's the meaning of this?", at: "ch/3" },
     ex: [
       { ja: "毎月{家計簿|かけいぼ}をつけて、**{無駄遣|むだづか}い**を減らすようにしている。", en: "I keep a household budget every month to cut down on wasteful spending.", alt: ["{心遣|こころづか}い", "{気遣|きづか}い", "{言葉遣|ことばづか}い"] },
     ] },
@@ -651,7 +651,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "defendant (in court)",
     note: "Legal: 被告人 (criminal defendant, formal), 原告 (plaintiff). The news often puts 〜被告 after a name. 容疑者 is a suspect before indictment.",
     rx: ["ひごく", "びこく", "ひこう"],
-    book: { ja: "{裁判|さいばん}で犯罪被害者が、何としても**{被告|ひこく}**に罪を{償|つぐな}わせず＿＿と思うのは当然である。", en: "It is only natural that crime victims in court feel they ＿＿ make the defendant pay for the crime, no matter what.", at: "ch/3" },
+    book: { ja: "{裁判|さいばん}で犯罪被害者が、何としても**{被告|ひこく}**に罪を{償|つぐな}わせず＿＿と思うのは当然である。", en: "It is only natural that crime victims in a trial should be determined to make the defendant pay for the crime, whatever it takes.", at: "ch/3" },
     ex: [
       { ja: "{裁判官|さいばんかん}は**{被告|ひこく}**に{懲役|ちょうえき}5年の{判決|はんけつ}を{言|い}い{渡|わた}した。", en: "The judge sentenced the defendant to five years in prison.", alt: ["{原告|げんこく}", "{被害|ひがい}", "{報告|ほうこく}"] },
     ] },
@@ -659,7 +659,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to atone for, to make up for; to compensate",
     note: "罪を償う (atone for a crime), 損失を償う. Formal. 償い is the noun (atonement); 弁償する is paying for damage.",
     rx: ["しょうう", "つくなう", "つぐのう"],
-    book: { ja: "{裁判|さいばん}で犯罪被害者が、何としても{被告|ひこく}に罪を**{償|つぐな}わ**せず＿＿と思うのは当然である。", en: "It is only natural that crime victims in court feel they ＿＿ make the defendant pay for the crime, no matter what.", at: "ch/3" },
+    book: { ja: "{裁判|さいばん}で犯罪被害者が、何としても{被告|ひこく}に罪を**{償|つぐな}わ**せず＿＿と思うのは当然である。", en: "It is only natural that crime victims in a trial should be determined to make the defendant pay for the crime, whatever it takes.", at: "ch/3" },
     ex: [
       { ja: "彼は一生をかけて自分の罪を**{償|つぐな}う**つもりだ。", en: "He intends to spend the rest of his life atoning for his crime.", alt: ["{補|おぎな}う", "{賄|まかな}う", "{養|やしな}う"] },
     ] },
@@ -667,7 +667,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "vulgar, lowbrow, in poor taste",
     note: "Criticism of entertainment and media: 低俗な番組, 低俗な趣味. The opposite is 高尚 (lofty, refined). 下品 also covers manners and appearance.",
     rx: ["ていそく", "ていしょく", "てぞく"],
-    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "(　) heavy criticism that its content is vulgar, this program still draws high ratings.", at: "ch/3/review" },
+    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "Paying no heed to widespread criticism that its content is vulgar, this program is still getting high ratings.", at: "ch/3/review" },
     ex: [
       { ja: "子どもに**{低俗|ていぞく}**な番組を見せたくないという親は多い。", en: "Many parents don't want their children watching lowbrow TV shows.", alt: ["{低調|ていちょう}", "{高尚|こうしょう}", "{風俗|ふうぞく}"] },
     ] },
@@ -675,7 +675,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "unavoidable, can't be helped",
     note: "Formal: やむを得ない事情 (unavoidable circumstances), やむを得ず (reluctantly, having no choice). やむを得ぬ is the literary form. 仕方がない is the everyday equivalent.",
     rx: ["やむをうない", "やむをとない", "やむをえれない"],
-    book: { ja: "大変{申|もう}し{訳|わけ}ありませんが、**やむを得ぬ**事情により、今回は欠席させていただく（　）です。", en: "We are very sorry, but due to unavoidable circumstances, we will (　) be absent this time.", at: "ch/3/review" },
+    book: { ja: "大変{申|もう}し{訳|わけ}ありませんが、**やむを得ぬ**事情により、今回は欠席させていただく（　）です。", en: "I am terribly sorry, but owing to unavoidable circumstances, I must ask to be excused this time.", at: "ch/3/review" },
     ex: [
       { ja: "{悪天候|あくてんこう}のため、**やむを{得|え}ず**試合を中止した。", en: "Because of the bad weather, we had no choice but to cancel the game.", alt: ["{思|おも}わず", "{相変|あいか}わらず", "{少|すく}なからず"] },
     ] },

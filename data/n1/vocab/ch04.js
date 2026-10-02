@@ -178,7 +178,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "to cram, to stuff (into)",
     note: "かばんに荷物を詰め込む, 知識を詰め込む; 詰め込み教育 (cram-style education). 詰める alone is 'to pack, to fill'; 詰め込む adds 'too much, forcibly'.",
     rx: ["つめごむ", "きつめこむ", "づめこむ"],
-    book: { ja: "初めての海外旅行でカップラーメン（ 1 ）パーティードレス（ 2 ）いろいろスーツケースに**{詰|つ}め{込|こ}ん**だが、結局必要なかった。", en: "On my first overseas trip I crammed all sorts of things into my suitcase — cup noodles ( 1 ) a party dress ( 2 ) — but in the end I didn't need any of it.", at: "gp/38" },
+    book: { ja: "初めての海外旅行でカップラーメン（ 1 ）パーティードレス（ 2 ）いろいろスーツケースに**{詰|つ}め{込|こ}ん**だが、結局必要なかった。", en: "On my first trip abroad I stuffed all sorts of things into my suitcase — cup noodles, a party dress and so on — but in the end I didn't need them.", at: "gp/38" },
     ex: [
       { ja: "試験の前の{晩|ばん}に知識を**{詰|つ}め{込|こ}んで**も、すぐ忘れてしまう。", en: "Even if you cram knowledge into your head the night before an exam, you soon forget it.", alt: ["{落|お}ち{込|こ}んで", "{飛|と}び{込|こ}んで", "{割|わ}り{込|こ}んで"] },
     ] },
@@ -284,7 +284,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["せいいっぱ", "しょういっぱい", "せいいちはい"],
     book: { ja: "B：はい、**{精一杯|せいいっぱい}**やらせていただきます。", en: "B: Yes, I'll do my very best.", at: "gp/40" },
     ex: [
-      { ja: "今の{給料|きゅうりょう}では、{家賃|やちん}を払うのが**{精一杯|せいいっぱい}**だ。", en: "On my current salary, paying the rent is all I can manage.", alt: ["{満腹|まんぷく}", "{一杯|いっぱい}", "{精密|せいみつ}"] },
+      { ja: "今の{給料|きゅうりょう}では、{家賃|やちん}を払うのが**{精一杯|せいいっぱい}**だ。", en: "On my current salary, paying the rent is all I can manage.", alt: ["{満腹|まんぷく}", "{精算|せいさん}", "{精密|せいみつ}"] },
     ] },
   { w: "ちらつく", lv: "N1", pos: "verb",
     en: "(of snow) to fall lightly; to flicker; to keep coming to mind",
@@ -297,7 +297,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "one's former teacher (to whom one feels indebted)",
     note: "A respectful word for a teacher who made a difference in one's life: 恩師に会う, 高校時代の恩師. 師匠 is a master in an art or craft; 恩人 is anyone who helped you greatly.",
     rx: ["おんじ", "いんし", "おんしい"],
-    book: { ja: "{同窓会|どうそうかい}は**{恩師|おんし}**（　）開くことはできないだろう。", en: "We probably couldn't hold the class reunion (　) our old teacher.", at: "gp/40" },
+    book: { ja: "{同窓会|どうそうかい}は**{恩師|おんし}**（　）開くことはできないだろう。", en: "We probably can't hold the class reunion without our old teacher.", at: "gp/40" },
     ex: [
       { ja: "結婚式に、中学時代の**{恩師|おんし}**を{招|まね}いた。", en: "I invited my old middle-school teacher to my wedding.", alt: ["{恩恵|おんけい}", "{医師|いし}", "{漁師|りょうし}"] },
     ] },
@@ -305,7 +305,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "sickly, in poor health (by constitution)",
     note: "About one's constitution: 病弱な子ども, 生まれつき病弱. The opposite is 丈夫 / 健康. 病気がち means 'often ill'.",
     rx: ["びょうじゃ", "やまいじゃく", "ひょうじゃく"],
-    book: { ja: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい**{病弱|びょうじゃく}**だ。", en: "＿＿ his sturdy older brother, the younger one is so sickly that even a cold puts him in the hospital.", at: "ch/4" },
+    book: { ja: "{丈夫|じょうぶ}な兄＿＿、弟は風邪をひいても入院するくらい**{病弱|びょうじゃく}**だ。", en: "In contrast to his robust older brother, the younger brother is so sickly that he ends up in the hospital even with a cold.", at: "ch/4" },
     ex: [
       { ja: "幼いころは**{病弱|びょうじゃく}**で、よく学校を休んでいた。", en: "I was a sickly child and often missed school.", alt: ["{丈夫|じょうぶ}", "{強力|きょうりょく}", "{強引|ごういん}"] },
     ] },
@@ -313,7 +313,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "emergency, crisis (especially war or a disaster)",
     note: "Formal and political: 有事の際 (in an emergency), 有事に備える. The opposite is 平時 (peacetime). 非常時 is similar and less military.",
     rx: ["うじ", "ゆうごと", "ゆじ"],
-    book: { ja: "{武士|ぶし}たちは、**{有事|ゆうじ}**の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", en: "Samurai had to rush to the scene ＿＿ in an emergency, so it seems they couldn't leave their land as they pleased.", at: "ch/4" },
+    book: { ja: "{武士|ぶし}たちは、**{有事|ゆうじ}**の際は何＿＿{駆|か}けつけなければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", en: "Because samurai had to drop everything and rush to report for duty in an emergency, they apparently couldn't leave their land as they pleased.", at: "ch/4" },
     ex: [
       { ja: "{自衛隊|じえいたい}は**{有事|ゆうじ}**に{備|そな}えて{訓練|くんれん}を重ねている。", en: "The Self-Defense Forces train continually to be ready for an emergency.", alt: ["{有無|うむ}", "{用事|ようじ}", "{無事|ぶじ}"] },
     ] },
@@ -321,7 +321,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "to rush (to a place), to hurry to the scene",
     note: "Hurrying to where one is needed: 現場に駆けつける, 病院に駆けつける, 応援に駆けつける. Also written 駆け付ける. 駆け込む is rushing into (a train, a shop).",
     rx: ["かけずける", "くけつける", "かけづける"],
-    book: { ja: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿**{駆|か}けつけ**なければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", en: "Samurai had to rush to the scene ＿＿ in an emergency, so it seems they couldn't leave their land as they pleased.", at: "ch/4" },
+    book: { ja: "{武士|ぶし}たちは、{有事|ゆうじ}の際は何＿＿**{駆|か}けつけ**なければならないので、勝手にその土地を{離|はな}れることはできなかったそうだ。", en: "Because samurai had to drop everything and rush to report for duty in an emergency, they apparently couldn't leave their land as they pleased.", at: "ch/4" },
     ex: [
       { ja: "事故の知らせを聞いて、家族が病院に**{駆|か}けつけた**。", en: "Hearing the news of the accident, the family rushed to the hospital.", alt: ["{片|かた}づけた", "{見|み}つけた", "{呼|よ}びつけた"] },
     ] },
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["そなお", "すじき", "そちょく"],
     book: { ja: "それは**{素直|すなお}**な人だと多くのベテラン社員が言います。", en: "Many veteran employees say it is someone who is open and willing to listen.", at: "ch/4" },
     ex: [
-      { ja: "自分が悪いと思ったら、**{素直|すなお}**に{謝|あやま}るべきだ。", en: "If you think you're in the wrong, you should just apologize.", alt: ["{素朴|そぼく}", "{正確|せいかく}", "{素敵|すてき}"] },
+      { ja: "自分が悪いと思ったら、**{素直|すなお}**に{謝|あやま}るべきだ。", en: "If you think you're in the wrong, you should apologize without making excuses.", alt: ["{素朴|そぼく}", "{正確|せいかく}", "{素敵|すてき}"] },
     ] },
   { w: "とりあえず", lv: "N2", pos: "adverb",
     en: "for now, for the time being; first of all",
@@ -384,7 +384,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ぎょし", "こうし", "ぎょうじ"],
     book: { ja: "これは「美的**{凝視|ぎょうし}**」という方法です。", en: "This is a method known as “aesthetic gazing” (looking for what is admirable).", at: "ch/4" },
     ex: [
-      { ja: "彼は{黙|だま}ったまま、相手の顔を**{凝視|ぎょうし}**した。", en: "Without a word, he stared hard at the other man's face.", alt: ["{視力|しりょく}", "{軽視|けいし}", "{重視|じゅうし}"] },
+      { ja: "彼は{黙|だま}ったまま、相手の顔を**{凝視|ぎょうし}**した。", en: "Without a word, he stared hard at the other person's face.", alt: ["{視力|しりょく}", "{軽視|けいし}", "{重視|じゅうし}"] },
     ] },
   { w: "{指摘|してき}", lv: "N2", pos: "noun · する verb",
     en: "pointing out (a problem or fact)",
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["めんどうけん", "めんとうみ", "めんどみ"],
     book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is.", at: "ch/4" },
     ex: [
-      { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka takes good care of the people under him, and the new hires adore him.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
+      { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka is good at looking after people and is much loved by the new hires.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
     ] },
   { w: "{緻密|ちみつ}", lv: "N1", pos: "な adjective",
     en: "meticulous, precise, detailed",
@@ -448,7 +448,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["とくざんひん", "とくさんびん", "とっさんひん"],
     book: { ja: "{遠方|えんぽう}に足を運ぶまでもなく、ネットを通じて地方の**{特産品|とくさんひん}**が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the internet without having to travel far.", at: "gp/41" },
     ex: [
-      { ja: "この町の**{特産品|とくさんひん}**といえば、甘いメロンだ。", en: "When it comes to this town's local specialty, it's sweet melons.", alt: ["{不良品|ふりょうひん}", "{日用品|にちようひん}", "{遺失物|いしつぶつ}"] },
+      { ja: "この町の**{特産品|とくさんひん}**といえば、甘いメロンだ。", en: "This town's best-known local specialty is its sweet melons.", alt: ["{不良品|ふりょうひん}", "{日用品|にちようひん}", "{遺失物|いしつぶつ}"] },
     ] },
   { w: "{世論|よろん}", lv: "N1", pos: "noun",
     en: "public opinion",
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "わざわざ", lv: "N2", pos: "adverb",
     en: "going out of one's way; taking the trouble (to); specially",
     note: "Grateful when someone else does it: わざわざありがとう. Critical when it's unnecessary: わざわざ行くまでもない. わざと means 'on purpose', often with bad intent.",
-    book: { ja: "この程度の{契約|けいやく}であれば、**わざわざ**君が行く＿＿よ。", en: "For a contract of this size, there's ＿＿ for you to go all that way yourself.", at: "ch/4" },
+    book: { ja: "この程度の{契約|けいやく}であれば、**わざわざ**君が行く＿＿よ。", en: "For a contract of this size, there's no need for you to go in person.", at: "ch/4" },
     ex: [
       { ja: "雨の中、**わざわざ**駅まで{迎|むか}えに来てくれて、ありがとう。", en: "Thank you for going to the trouble of coming to the station for me in the rain.", alt: ["わざと", "まさか", "いっそ"] },
     ] },
@@ -596,7 +596,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "collateral, security (for a loan)",
     note: "担保にする / 入れる, 無担保融資 (an unsecured loan). In newer business usage it can mean 'guarantee': 品質を担保する.",
     rx: ["たんぼ", "だんぽ", "たんぽう"],
-    book: { ja: "**{担保|たんぽ}**がなくても、経営{状態|じょうたい}（　）、{融資|ゆうし}が受けられる場合もあるらしいよ。", en: "Apparently, even without collateral, you can sometimes get a loan (　) the state of your business.", at: "ch/4/review" },
+    book: { ja: "**{担保|たんぽ}**がなくても、経営{状態|じょうたい}（　）、{融資|ゆうし}が受けられる場合もあるらしいよ。", en: "Apparently, even without collateral, you can sometimes get a loan, depending on the state of your business.", at: "ch/4/review" },
     ex: [
       { ja: "家を**{担保|たんぽ}**にして、銀行からお金を借りた。", en: "I borrowed money from the bank, putting up my house as collateral.", alt: ["{担当|たんとう}", "{保険|ほけん}", "{保管|ほかん}"] },
     ] },
@@ -604,7 +604,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "loan, financing (from a bank or institution)",
     note: "銀行から融資を受ける, 融資を申し込む. A business word; 借金 is debt seen from the borrower's side, and ローン is a consumer loan.",
     rx: ["ゆし", "りゅうし", "ゆうじ"],
-    book: { ja: "{担保|たんぽ}がなくても、経営{状態|じょうたい}（　）、**{融資|ゆうし}**が受けられる場合もあるらしいよ。", en: "Apparently, even without collateral, you can sometimes get a loan (　) the state of your business.", at: "ch/4/review" },
+    book: { ja: "{担保|たんぽ}がなくても、経営{状態|じょうたい}（　）、**{融資|ゆうし}**が受けられる場合もあるらしいよ。", en: "Apparently, even without collateral, you can sometimes get a loan, depending on the state of your business.", at: "ch/4/review" },
     ex: [
       { ja: "新しい工場を建てるため、銀行に**{融資|ゆうし}**を申し込んだ。", en: "We applied to the bank for a loan to build a new factory.", alt: ["{融解|ゆうかい}", "{資格|しかく}", "{融合|ゆうごう}"] },
     ] },
@@ -652,7 +652,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "(managerial) post, position with a title",
     note: "役職に就く, 役職名 (titles like 課長, 部長). 役職 is a titled position in an organization; 職業 is one's occupation; 地位 is social standing.",
     rx: ["やくしき", "えきしょく", "やくじょく"],
-    book: { ja: "**{役職|やくしょく}**や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", en: "… all of them positive-minded employees, [3] their position or years of experience.", at: "ch/4/review" },
+    book: { ja: "**{役職|やくしょく}**や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", en: "… everyone is forward-looking regardless of their position or years of experience.", at: "ch/4/review" },
     ex: [
       { ja: "彼は若くして部長という**{役職|やくしょく}**に{就|つ}いた。", en: "He took up the post of department head at a young age.", alt: ["{就職|しゅうしょく}", "{職員|しょくいん}", "{役者|やくしゃ}"] },
     ] },
@@ -660,7 +660,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "positive, forward-looking, constructive",
     note: "前向きな姿勢, 前向きに考える. In business, 前向きに検討します can be a polite non-committal reply. The opposite is 後ろ向き.",
     rx: ["ぜんむき", "まえむけ", "まえこうき"],
-    book: { ja: "{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]**{前向|まえむ}き**な社員ばかりです。", en: "… all of them positive-minded employees, [3] their position or years of experience.", at: "ch/4/review" },
+    book: { ja: "{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]**{前向|まえむ}き**な社員ばかりです。", en: "… everyone is forward-looking regardless of their position or years of experience.", at: "ch/4/review" },
     ex: [
       { ja: "失敗しても、彼女はいつも**{前向|まえむ}き**に考えるようにしている。", en: "Even when she fails, she always tries to look on the bright side.", alt: ["{横向|よこむ}き", "{表向|おもてむ}き", "{上向|うわむ}き"] },
     ] },
@@ -668,7 +668,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "to lament, to grieve; to deplore, to complain about",
     note: "Written and formal: 不況を嘆く, 若者の読書離れを嘆く. 悲しむ is 'to feel sad'; 嘆く adds voicing one's dismay.",
     rx: ["たんく", "なけく", "なじく"],
-    book: { ja: "また、社員がなかなか{定着|ていちゃく}しないと**{嘆|なげ}い**ている会社が多いのにひきかえ、{我|わ}が{社|しゃ}は[4]。", en: "Also, whereas many companies lament that their employees don't stay, our company [4].", at: "ch/4/review" },
+    book: { ja: "また、社員がなかなか{定着|ていちゃく}しないと**{嘆|なげ}い**ている会社が多いのにひきかえ、{我|わ}が{社|しゃ}は[4]。", en: "Also, whereas many companies complain that their employees don't stay long, at our company hardly anyone leaves partway through their career.", at: "ch/4/review" },
     ex: [
       { ja: "{祖父|そふ}は、最近の若者は本を読まないと**{嘆|なげ}いて**いる。", en: "My grandfather laments that young people these days don't read books.", alt: ["{憧|あこが}れて", "{慰|なぐさ}めて", "{誇|ほこ}って"] },
     ] },
