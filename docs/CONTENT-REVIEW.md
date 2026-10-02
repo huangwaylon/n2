@@ -6,7 +6,7 @@ Quartet tr) for accuracy, nuance and brevity (docs/ENGLISH.md); cross-references
 | Unit | Status | Commits / notes |
 |---|---|---|
 | N2 ch1–3 | done | Japanese and book English match the scans (spot-checked pp.18, 25, 29, 30, 38, 50, 61; rest via OCR); 5 generated-English fixes; links: n2:3 → のみ group, n2:8 → なかれ group |
-| N2 ch4–6 | done | Japanese, furigana and book English checked by eye on pp.62–69, 72–79, 83–84, 86–101 (rest and 別冊 answers via OCR); 1 Japanese fix (p.74 #39 ＊ note underline); 9 generated-English fixes (no gendered sir/boss assumptions, tighter translations, #36 vs #96); links: n2:42 ことか with n1:71 限りだ. No partner found for n2:38, 41, 47, 55, 56, 59 |
+| N2 ch4–6 | done | Japanese, furigana and book English checked by eye on pp.62–69, 72–79, 83–84, 86–101 (rest via OCR; 別冊 p.13 answers for ch5–6 checked on the scan); 1 Japanese fix (p.74 #39 ＊ note underline); 10 generated-English fixes (no gendered sir/boss assumptions, tighter translations, #36 vs #96); links: n2:42 ことか with n1:71 限りだ. No partner found for n2:38, 41, 47, 55, 56, 59 |
 | N2 ch7–9 | | |
 | N2 ch10–12 | | |
 | N2 ch13–14, compare, front | | |
