@@ -74,10 +74,11 @@ export const PROBE_FN = String(function probe(opts) {
   const blocks = new Set(rts.map(blockOf).filter(Boolean));
   for (const bl of blocks) {
     if (getComputedStyle(bl).writingMode.startsWith("vertical")) continue;
-    const gs = glyphs.filter((g) => !g.rt && bl.contains(g.n) && !g.el.closest(".badge, button, .en, rt, .qn, sup, sub"));
+    const gs = glyphs.filter((g) => !g.rt && bl.contains(g.n) && !g.el.closest(".badge, button, .en, rt, .qn, sup, sub, .ibr-s"));
     const fs = parseFloat(getComputedStyle(bl).fontSize);
     const ys = [...new Set(gs.filter((g) => Math.abs(g.f - fs) < 0.5).map((g) => Math.round((g.box.t + g.box.b) / 2)))].sort((a, b) => a - b);
     const cl = []; for (const y of ys) if (!cl.length || y - cl[cl.length - 1] > fs * 0.6) cl.push(y);
+    // (.ibr-s: alternatives stacked inside one line, Q1 p.085, are not lines of their own)
     // a line between two text lines that holds none of the block's text (only 14px English in a 単語 box, q1:l/1/speak;
     // only answer slots in an ordering item, n1:ch/1) is not a pitch: the two lines around it are not compared
     const others = glyphs.filter((g) => !g.rt && bl.contains(g.n) && Math.abs(g.f - fs) >= 0.5).map((g) => g.box)

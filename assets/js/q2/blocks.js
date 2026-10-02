@@ -542,7 +542,7 @@ function inlineChoice(it, i) {
     const t = m[1].slice(l.index + l[0].length, j + 1 < labs.length ? labs[j + 1].index : m[1].trimEnd().length).replace(/[\s　]+$/, "");
     return `<span class="opt opt--inl${plain(t).length <= 8 ? " opt--nw" : ""}" role="button" tabindex="0" data-act="pick" data-j="${j}"><span class="opt-n">${l[1]}.</span>\u2060${fmt(t)}</span>`;
   });
-  const grp = `【${esc(lead)}<span class="opts opts--inline" data-answer="${it.answer}">${opts.join('<span class="opt-sep">　</span>')}</span>${esc(tail)}】`;
+  const grp = `【${esc(lead)}<span class="opts opts--inline" data-answer="${it.answer}">${opts.join('<span class="opt-sep"> </span>')}</span>${esc(tail)}】`;
   const html = line({ ...o, ja: o.ja.replace(m[0], "\uE000") }, "q-text").replace("\uE000", grp);
   return `<div class="q choice-q" data-i="${i}"><div class="q-line">${qn(it.n)}${html}</div></div>`;
 }

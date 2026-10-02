@@ -244,7 +244,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qtbl--tall td { height: 5.5em; vertical-align: top; } .qtbl--tall td:first-child { vertical-align: middle; }
 /* as printed: no outer left / right rules, heavier rules above and below, the label column narrow and the others equal */
 .qtbl.qtbl--tall { width: 100%; border-block: 2px solid var(--ink-3); }
-.qtbl--tall tr > :first-child { white-space: nowrap; border-left: 0; } .qtbl--tall tr > :last-child { border-right: 0; }
+.qtbl--tall tr > :first-child { border-left: 0; } .qtbl--tall tr > :first-child > .ja { white-space: nowrap; } .qtbl--tall tr > :last-child { border-right: 0; }
 .qtbl--tall tr > :not(:first-child) { width: 50%; } .qtbl--tall:has(tr > :nth-child(4)) tr > :not(:first-child) { width: 33.3%; } .qtbl--tall :is(.c--gray, .c--gray .ja) { word-break: normal; }
 .qtbl .c--bold { font-weight: 700; }
 .qtbl caption { text-align: left; font-weight: 700; padding-bottom: 4px; }
@@ -256,7 +256,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
    items each long entry took a line of its own and pushed the short one before it onto its own line too) */
 .words__list { display: block; min-width: 0; line-height: 2.1; }
 .w { margin-right: 18px; } .w:last-child { margin-right: 0; }
-.w__ja { white-space: nowrap; }
+.w__ja { display: inline-block; max-width: 100%; }   /* whole on its line; one longer than the line wraps (Q2 L11 at 320) */
 .w__ja { font-family: var(--mincho); }
 .w__en { font-family: var(--serif); color: var(--ink-2); font-size: 14px; white-space: normal; }
 .qfig { margin: 12px 0; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
@@ -528,6 +528,9 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 .q2ex .q-text .ja { margin: 0; }
 .opts--tf { display: inline-flex; gap: 6px; flex: none; }
 .opt--tf, .opt--row { min-width: 44px; min-height: 40px; font: 700 18px/1 var(--goth); }
+/* between inline options a collapsible space widened to about 1em: at a line end it goes (a full-width space hung past the
+   frame, 17px at 320) */
+.opt-sep { word-spacing: .75em; }
 .opts--row { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; }
 /* choice list: options with text (a. 吉田ルート) one per line in the text's size and weight, as printed (Q1 p.097) */
 .opts--list { flex-direction: column; align-items: flex-start; gap: 6px; }
