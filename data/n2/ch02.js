@@ -460,7 +460,7 @@ TRY.registerChapter({
               marks: ["praise", "formal"],
               usage: { ja: "同じ意味・用法で社会的、{歴史的|れきしてき}に大きいことを言う場合は「{契機|けいき}」という言葉を使うこともある。プラスの意味の文に使うことが多い。", en: "You can also use the word \"{契機|けいき}\" the same way to mean the same thing about something important socially or historically. It is often used in sentences with a positive meaning." },
               examples: [
-                { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it." },
+                { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it." },
                 { ja: "この大学は卒業生がノーベル{賞|しょう}を{受賞|じゅしょう}したことを{契機|けいき}として{受験生|じゅけんせい}が増えたと言われている。", en: "It is said that applicants to this university increased after one of its graduates won a Nobel Prize." },
                 { ja: "今回の事件を{契機|けいき}に、{地域|ちいき}ぐるみで子どもを{犯罪|はんざい}から{守|まも}ろうということになった。", en: "This incident prompted the whole community to decide to protect children from crime." },
                 { ja: "この{港|みなと}では、{開港|かいこう}100{周年|しゅうねん}を{契機|けいき}に今年1年さまざまな{催|もよお}し{物|もの}が{企画|きかく}されている。", en: "To mark the 100th anniversary of its opening, all kinds of events have been planned at this port throughout the year." },

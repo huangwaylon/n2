@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "turning point; occasion; trigger (for a change)",
     note: "The written counterpart of きっかけ, used for significant social or historical events: 〜を契機に(して) / 〜を契機として. 景気 (the economy, same reading) is a common homophone trap.",
     rx: ["けいぎ", "けき", "かいき"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "オリンピックを**{契機|けいき}**に、{街|まち}の{交通|こうつう}{網|もう}が{整備|せいび}された。", en: "The Olympics prompted an upgrade of the city's transportation network.", alt: ["{景気|けいき}", "{時期|じき}", "{契約|けいやく}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "taking office; assuming a post",
     note: "Becoming president, chairperson, minister etc.: 社長に就任する, 就任式 (inauguration), 就任のあいさつ. The opposite is 辞任 (resignation) or 退任 (leaving the post).",
     rx: ["じゅうにん", "しゅにん", "しゅうじん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**して{最初|さいしょ}の{会見|かいけん}で{抱負|ほうふ}を{述|の}べた。", en: "At the first press conference after taking office, the new mayor set out goals for the term.", alt: ["{就職|しゅうしょく}", "{責任|せきにん}", "{担任|たんにん}"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "development; growth; expansion",
     note: "Growing bigger or more advanced: 経済が発展する, 発展途上国 (developing country), 大きな問題に発展する (develop into a big problem). 開発 is actively developing something (products, land).",
     rx: ["はつてん", "はってい", "ほってん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "{鉄道|てつどう}が{通|とお}ってから、この{町|まち}は{急速|きゅうそく}に**{発展|はってん}**した。", en: "After the railroad came through, this town developed rapidly.", alt: ["{発表|はっぴょう}", "{発明|はつめい}", "{展示|てんじ}"] },
     ] },

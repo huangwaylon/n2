@@ -126,4 +126,4 @@ connection formulas, ①② examples, 📎 notes, ＋Plus boxes, Check frame, �
   (incl. `sidebar`), `n2.resume` (each book's last place, for 続きから Continue).
 - The shell (main.js) is shared; per-book behaviour is an adapter (TRY in main.js, Quartet in q2/nav.js).
 - Commit and push small, verified checkpoints. With several agents editing at once: `git add <paths>` only, then
-  `git pull --rebase --autostash origin main && git push` (a bare `git pull` fails with "Cannot rebase onto multiple branches" while another agent fetches).
+  `git fetch origin && git rebase --autostash origin/main && git push` (`git pull` fails with "Cannot rebase onto multiple branches" when fetches overlap).

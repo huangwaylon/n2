@@ -116,7 +116,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。", en: "Our shop will close its doors as of today. Thank you very much for your patronage over the years." },
-            { ja: "{鈴木二郎殿|すずきじろうどの}。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Mr. Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2." },
+            { ja: "{鈴木二郎殿|すずきじろうどの}。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2." },
             { ja: "第22回卒業式は、これをもちまして、終了いたします。", en: "With this, the 22nd graduation ceremony is concluded." },
             { ja: "以上をもちまして、{私|わたくし}のスピーチを終わらせていただきます。", en: "With that, I will bring my speech to a close." },
           ],
