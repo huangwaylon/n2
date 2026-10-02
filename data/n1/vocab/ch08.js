@@ -148,7 +148,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["おきょう", "おども", "おぐ"],
     book: { ja: "昔、地位の高い人が亡くなると、**お{供|とも}**の人を{墓|はか}の周りに生きながら{埋|う}めるという習慣があったそうだ。", en: "In the old days, it is said, when a person of high rank died, there was a custom of burying their attendants alive around the tomb.", at: "gp/92" },
     ex: [
-      { ja: "{部長|ぶちょう}の{出張|しゅっちょう}に**お{供|とも}**することになった。", en: "I'm going to accompany the department manager on his business trip.", alt: ["お{世話|せわ}", "お{見合|みあ}い", "お{見舞|みま}い"] },
+      { ja: "{部長|ぶちょう}の{出張|しゅっちょう}に**お{供|とも}**することになった。", en: "I'm going to accompany the department manager on a business trip.", alt: ["お{世話|せわ}", "お{見合|みあ}い", "お{見舞|みま}い"] },
     ] },
   { w: "{製法|せいほう}", lv: "N1", pos: "noun",
     en: "manufacturing method, recipe, process",
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to run, operate (a business); to lead (a life); to hold (a ceremony)",
     note: "旅館を営む (run an inn), 生活を営む, 法事を営む (hold a Buddhist memorial service). 経営する is the Sino-Japanese business word; 営む often implies a small or family business.",
     rx: ["えいむ", "いとまむ", "いとなぐ"],
-    book: { ja: "{橋本|はしもと}さんは{靴屋|くつや}を**{営|いとな}む**かたわら、", en: "Mr. Hashimoto, while running a shoe store,", at: "gp/95" },
+    book: { ja: "{橋本|はしもと}さんは{靴屋|くつや}を**{営|いとな}む**かたわら、", en: "Hashimoto, while running a shoe shop,", at: "gp/95" },
     ex: [
       { ja: "{祖父母|そふぼ}は{海辺|うみべ}の{町|まち}で{小|ちい}さな{民宿|みんしゅく}を**{営|いとな}んで**いる。", en: "My grandparents run a small guesthouse in a seaside town.", alt: ["{務|つと}めて", "{勤|つと}めて", "{働|はたら}いて"] },
     ] },
@@ -297,7 +297,7 @@ TRY.registerVocab({ ch: 8, words: [
   { w: "まつわる", lv: "N1", pos: "verb (intransitive)",
     en: "to be connected with, relate to (stories, legends); to cling to",
     note: "Written: 〜にまつわる話／伝説 (stories surrounding …). Similar to 〜に関する but suggests stories, lore or episodes rather than facts. Also written 纏わる.",
-    book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食に**まつわる**エッセーも{執筆|しっぴつ}されています。", en: "Ms. Nishiyama ＿＿ researches food cultures around the world and also writes essays related to food.", at: "ch/8" },
+    book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食に**まつわる**エッセーも{執筆|しっぴつ}されています。", en: "＿＿ researching the food cultures of various countries, Nishiyama also writes essays about food.", at: "ch/8" },
     ex: [
       { ja: "この{城|しろ}には、{悲|かな}しい{恋|こい}に**まつわる**{伝説|でんせつ}が{残|のこ}っている。", en: "A legend about a tragic love affair is handed down at this castle.", alt: ["さわる", "こだわる", "いたわる"] },
     ] },
@@ -305,7 +305,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "writing (a book, article, manuscript)",
     note: "Used of authors and scholars: 小説を執筆する, 執筆活動, 執筆者 (contributor). 書く is everyday; 執筆 is professional writing.",
     rx: ["しつひつ", "しっぴ", "しゅっぴつ"],
-    book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食にまつわるエッセーも**{執筆|しっぴつ}**されています。", en: "Ms. Nishiyama ＿＿ researches food cultures around the world and also writes essays related to food.", at: "ch/8" },
+    book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食にまつわるエッセーも**{執筆|しっぴつ}**されています。", en: "＿＿ researching the food cultures of various countries, Nishiyama also writes essays about food.", at: "ch/8" },
     ex: [
       { ja: "{先生|せんせい}は{今|いま}、{新|あたら}しい{小説|しょうせつ}を**{執筆|しっぴつ}**{中|ちゅう}だ。", en: "The author is currently writing a new novel.", alt: ["{筆記|ひっき}", "{執行|しっこう}", "{鉛筆|えんぴつ}"] },
     ] },
@@ -634,7 +634,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["けんかねる", "みがねる", "みかける"],
     book: { ja: "1人で山のような仕事を{抱|かか}えている私を見るに**見かねて**※、{同僚|どうりょう}が手伝ってくれた。", en: "Unable to stand by and watch me struggling alone with a mountain of work, a colleague helped me out.", at: "gp/105" },
     ex: [
-      { ja: "{重|おも}い{荷物|にもつ}を{運|はこ}ぶお{年寄|としよ}りを{見|み}るに**{見|み}かねて**、{手|て}を{貸|か}した。", en: "I couldn't bear to watch the elderly woman carrying her heavy bags, so I gave her a hand.", alt: ["{見|み}かけて", "{見|み}{慣|な}れて", "{見|み}{逃|のが}して"] },
+      { ja: "{重|おも}い{荷物|にもつ}を{運|はこ}ぶお{年寄|としよ}りを{見|み}るに**{見|み}かねて**、{手|て}を{貸|か}した。", en: "I couldn't bear to watch an elderly person struggling with heavy bags, so I lent a hand.", alt: ["{見|み}かけて", "{見|み}{慣|な}れて", "{見|み}{逃|のが}して"] },
     ] },
   { w: "{相応|ふさわ}しい", lv: "N1", pos: "い adjective",
     en: "suitable, appropriate, worthy of; befitting",
@@ -690,7 +690,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こうやっく", "おおやく", "くやく"],
     book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な**{公約|こうやく}**を{掲|かか}げていると批判された。", en: "Candidate A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
     ex: [
-      { ja: "{新|しん}{市長|しちょう}は**{公約|こうやく}**{通|どお}り、{給食費|きゅうしょくひ}を{無料|むりょう}にした。", en: "As he had pledged, the new mayor made school lunches free.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条約|じょうやく}"] },
+      { ja: "{新|しん}{市長|しちょう}は**{公約|こうやく}**{通|どお}り、{給食費|きゅうしょくひ}を{無料|むりょう}にした。", en: "True to the campaign pledge, the new mayor made school lunches free.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条約|じょうやく}"] },
     ] },
   { w: "{掲|かか}げる", lv: "N1", pos: "verb (transitive)",
     en: "to put forward, hold up (a goal, slogan); to hoist, put up (a flag, sign); to publish",
@@ -718,7 +718,7 @@ TRY.registerVocab({ ch: 8, words: [
   { w: "さぞかし", lv: "N1", pos: "adverb",
     en: "surely, no doubt, must be (imagining someone's situation)",
     note: "An emphatic さぞ, used with だろう／でしょう: さぞかしお疲れでしょう (you must be exhausted). For imagining others' feelings; not used about oneself.",
-    book: { ja: "友人が会社をクビになったというから、**さぞかし**金に困っているだろう（　）、毎日外車を乗り回して遊んでいるというのだ。", en: "My friend was fired from his company, so (　) he must be really hard up for money — but they say he's driving around in a foreign car every day, having fun.", at: "ch/8/review" },
+    book: { ja: "友人が会社をクビになったというから、**さぞかし**金に困っているだろう（　）、毎日外車を乗り回して遊んでいるというのだ。", en: "A friend of mine got fired, so (　) you'd think they'd be really hard up for money — but apparently they drive around in a foreign car every day, having fun.", at: "ch/8/review" },
     ex: [
       { ja: "{長旅|ながたび}で、**さぞかし**お{疲|つか}れのことでしょう。", en: "You must be exhausted after such a long trip.", alt: ["せめて", "なにしろ", "いっそ"] },
     ] },
@@ -752,7 +752,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["しんね", "まい", "しんじ"],
     book: { ja: "突然{契約|けいやく}を結ぼうと言ってくるなんて、私には{先方|せんぽう}の**{真意|しんい}**がはかり（　）んです。", en: "Suddenly saying they want to sign a contract — I (　) figure out what the other party's real intention is.", at: "ch/8/review" },
     ex: [
-      { ja: "{大臣|だいじん}の{発言|はつげん}の**{真意|しんい}**を{確|たし}かめる{必要|ひつよう}がある。", en: "We need to confirm what the minister really meant by his remarks.", alt: ["{真珠|しんじゅ}", "{真剣|しんけん}", "{得意|とくい}"] },
+      { ja: "{大臣|だいじん}の{発言|はつげん}の**{真意|しんい}**を{確|たし}かめる{必要|ひつよう}がある。", en: "We need to confirm what the minister really meant by those remarks.", alt: ["{真珠|しんじゅ}", "{真剣|しんけん}", "{得意|とくい}"] },
     ] },
   { w: "{精巧|せいこう}", lv: "N1", pos: "な adjective",
     en: "elaborate, finely crafted, precise (workmanship)",

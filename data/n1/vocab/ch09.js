@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "serious injury; severe wound",
     note: "A news and medical word: 重傷を負う (suffer serious injuries), 重傷者 (the seriously injured). Its opposite is 軽傷 (minor injury); 重症 (also じゅうしょう) is a severe illness or condition, a different word with the same reading.",
     rx: ["じゅうそう", "ちょうしょう", "じゅしょう"],
-    book: { ja: "100人からいるけが{人|にん}の中には、命にかかわる**{重傷者|じゅうしょうしゃ}**もいます。", en: "Among injured people numbering as many as a hundred, some will be seriously hurt, with their lives at stake.", at: "ch/9" },
+    book: { ja: "100人からいるけが{人|にん}の中には、命にかかわる**{重傷者|じゅうしょうしゃ}**もいます。", en: "Among as many as a hundred injured people, some will have life-threatening injuries.", at: "ch/9" },
     ex: [
       { ja: "{交通事故|こうつうじこ}で、{運転手|うんてんしゅ}が**{重傷|じゅうしょう}**を{負|お}った。", en: "The driver was seriously injured in the traffic accident.", alt: ["{重箱|じゅうばこ}", "{重力|じゅうりょく}", "{重視|じゅうし}"] },
     ] },

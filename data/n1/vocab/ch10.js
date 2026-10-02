@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["すうおおい", "かずたい", "かずおい"],
     book: { ja: "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをするべからず{等|とう}、**{数多|かずおお}く**の決まりがある。", en: "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”", at: "ch/10" },
     ex: [
-      { ja: "この{監督|かんとく}は、{国際的|こくさいてき}な{映画祭|えいがさい}で**{数多|かずおお}く**の{賞|しょう}を{受|う}けている。", en: "This director has won a great many awards at international film festivals.", alt: ["{数少|かずすく}な", "{数字|すうじ}", "{数値|すうち}"] },
+      { ja: "この{監督|かんとく}は、{国際的|こくさいてき}な{映画祭|えいがさい}で**{数多|かずおお}く**の{賞|しょう}を{受|う}けている。", en: "This director has won a great many awards at international film festivals.", alt: ["{数少|かずすく}なく", "{数字|すうじ}", "{数値|すうち}"] },
     ] },
   { w: "{縛|しば}る", lv: "N2", pos: "godan verb",
     en: "to tie up, bind; to restrict, constrain",
@@ -309,7 +309,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ねっい", "ねつき", "ねい"],
     book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This splendid achievement of everyone passing was accomplished only through the combination of the students' efforts and the teachers' enthusiasm.", at: "gp/114" },
     ex: [
-      { ja: "{面接|めんせつ}では、{経験|けいけん}よりも{仕事|しごと}への**{熱意|ねつい}**が{評価|ひょうか}された。", en: "In the interview, it was her enthusiasm for the job, more than her experience, that won her points.", alt: ["{悪意|あくい}", "{熱湯|ねっとう}", "{用意|ようい}"] },
+      { ja: "{面接|めんせつ}では、{経験|けいけん}よりも{仕事|しごと}への**{熱意|ねつい}**が{評価|ひょうか}された。", en: "In the interview, enthusiasm for the job counted for more than experience.", alt: ["{悪意|あくい}", "{熱湯|ねっとう}", "{用意|ようい}"] },
     ] },
   { w: "{成|な}し{遂|と}げる", lv: "N1", pos: "ichidan verb",
     en: "to accomplish; to achieve; to carry through",
@@ -507,7 +507,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "turning oneself in (to the police); surrender",
     note: "A criminal voluntarily going to the police before being identified: 警察に自首する. In law it can reduce the sentence. 出頭 is appearing before the police or court when summoned.",
     rx: ["じくび", "じしゅう", "しじゅ"],
-    book: { ja: "犯人は**{自首|じしゅ}**したが、どこにも死体がない。", en: "The culprit turned himself in, but there is no body anywhere.", at: "gp/119" },
+    book: { ja: "犯人は**{自首|じしゅ}**したが、どこにも死体がない。", en: "The culprit turned themselves in, but there is no body anywhere.", at: "gp/119" },
     ex: [
       { ja: "ひき{逃|に}げをした{男|おとこ}が、{翌日|よくじつ}{警察|けいさつ}に**{自首|じしゅ}**した。", en: "The hit-and-run driver turned himself in to the police the next day.", alt: ["{自慢|じまん}", "{自習|じしゅう}", "{自炊|じすい}"] },
     ] },
@@ -693,7 +693,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ついきょう", "ついぎゅう", "ずいきゅう"],
     book: { ja: "{法廷|ほうてい}では個人的なことまで**{追及|ついきゅう}**されずには（　）だろう。", en: "In court, you will surely not escape being questioned even about personal matters.", at: "ch/10/review" },
     ex: [
-      { ja: "{野党|やとう}は、{国会|こっかい}で{大臣|だいじん}の{責任|せきにん}を{厳|きび}しく**{追及|ついきゅう}**した。", en: "The opposition parties grilled the minister in the Diet over his responsibility.", alt: ["{追加|ついか}", "{普及|ふきゅう}", "{追放|ついほう}"] },
+      { ja: "{野党|やとう}は、{国会|こっかい}で{大臣|だいじん}の{責任|せきにん}を{厳|きび}しく**{追及|ついきゅう}**した。", en: "In the Diet, the opposition grilled the minister, demanding accountability.", alt: ["{追加|ついか}", "{普及|ふきゅう}", "{追放|ついほう}"] },
     ] },
   { w: "{重|おも}んじる", lv: "N1", pos: "ichidan verb",
     en: "to value; to respect, attach importance to",
@@ -739,7 +739,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "praise; admiration; acclaim",
     note: "High praise, formal: 称賛を浴びる (receive acclaim), 称賛に値する (deserve praise), 称賛の声. Also written 賞賛. 絶賛 is rave praise.",
     rx: ["しょうざん", "そうさん", "しょさん"],
-    book: { ja: "はずだ」と**{称賛|しょうさん}**した。", en: "“... surely,” he said in praise.", at: "ch/10/review" },
+    book: { ja: "はずだ」と**{称賛|しょうさん}**した。", en: "“… surely,” Nakamura said in praise.", at: "ch/10/review" },
     ex: [
       { ja: "{川|かわ}に{落|お}ちた{子|こ}どもを{助|たす}けた{少年|しょうねん}の{勇気|ゆうき}は、{多|おお}くの{人|ひと}から**{称賛|しょうさん}**された。", en: "The boy's courage in saving a child who fell into the river was praised by many people.", alt: ["{賛成|さんせい}", "{計算|けいさん}", "{非難|ひなん}"] },
     ] },

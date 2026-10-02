@@ -13,7 +13,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ほうぶ", "ほふ", "だいふ"],
     book: { ja: "送別会などで、関係者に対し、お礼や**{抱負|ほうふ}**を含む{改|あらた}まったスピーチができる。", en: "At a farewell party or similar occasion, give a formal speech to the people involved that includes words of thanks and your aspirations for the future.", at: "ch/6" },
     ex: [
-      { ja: "{新|あたら}しいキャプテンが、{今年|ことし}の**{抱負|ほうふ}**を{力強|ちからづよ}く{語|かた}った。", en: "The new captain spoke forcefully about his ambitions for this year.", alt: ["{抱擁|ほうよう}", "{豊富|ほうふ}", "{負担|ふたん}"] },
+      { ja: "{新|あたら}しいキャプテンが、{今年|ことし}の**{抱負|ほうふ}**を{力強|ちからづよ}く{語|かた}った。", en: "The new captain spoke with conviction about their goals for this year.", alt: ["{抱擁|ほうよう}", "{豊富|ほうふ}", "{負担|ふたん}"] },
     ] },
   { w: "{誠|まこと}に", lv: "N2", pos: "adverb",
     en: "truly; sincerely; very (formal)",
@@ -197,7 +197,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["せきうえ", "せっじょう", "しゃくじょう"],
     book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
     ex: [
-      { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced his intention to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
+      { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced an intention to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
     ] },
   { w: "{赤面|せきめん}", lv: "N1", pos: "noun · する verb",
     en: "blushing (with shame or embarrassment)",
@@ -247,12 +247,12 @@ TRY.registerVocab({ ch: 6, words: [
       { ja: "{今後|こんご}とも{当社|とうしゃ}の{製品|せいひん}をご**{愛顧|あいこ}**くださいますよう、お{願|ねが}い{申|もう}し{上|あ}げます。", en: "We hope you will continue to favor our products with your patronage.", alt: ["{回顧|かいこ}", "{愛想|あいそ}", "{顧問|こもん}"] },
     ] },
   { w: "{殿|どの}", lv: "N1", pos: "suffix",
-    en: "Mr./Ms. (formal title after a name on official documents)",
+    en: "(formal title after a name on official documents and certificates; ≈ Mr./Ms.)",
     note: "Used after a name in official documents such as certificates, notices of appointment and awards: 山田太郎殿. Stiffer and more bureaucratic than 様; in ordinary business letters 様 is now preferred.",
     rx: ["とん", "でん", "てん"],
-    book: { ja: "**{鈴木二郎殿|すずきじろうどの}**。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Mr. Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2.", at: "gp/67" },
+    book: { ja: "**{鈴木二郎殿|すずきじろうどの}**。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2.", at: "gp/67" },
     ex: [
-      { ja: "{賞状|しょうじょう}には「{田中花子|たなかはなこ}**{殿|どの}**」と{書|か}かれていた。", en: "The certificate was made out to \"Ms. Hanako Tanaka.\"", alt: ["{御中|おんちゅう}", "{各位|かくい}", "{先輩|せんぱい}"] },
+      { ja: "{賞状|しょうじょう}には「{田中花子|たなかはなこ}**{殿|どの}**」と{書|か}かれていた。", en: "The certificate was made out to \"Hanako Tanaka.\"", alt: ["{御中|おんちゅう}", "{各位|かくい}", "{先輩|せんぱい}"] },
     ] },
   { w: "{解散|かいさん}", lv: "N2", pos: "noun · する verb",
     en: "breaking up; disbanding; dissolution (of a group or parliament)",
@@ -396,7 +396,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ふくだたしい", "はらたたしい", "はらだちしい"],
     book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
-      { ja: "{約束|やくそく}を{何度|なんど}も{破|やぶ}られて、{本当|ほんとう}に**{腹立|はらだ}たしい**。", en: "He's broken his promise so many times — it's really infuriating.", alt: ["{慌|あわ}ただしい", "{喜|よろこ}ばしい", "{頼|たの}もしい"] },
+      { ja: "{約束|やくそく}を{何度|なんど}も{破|やぶ}られて、{本当|ほんとう}に**{腹立|はらだ}たしい**。", en: "They've broken their promises to me so many times — it's really infuriating.", alt: ["{慌|あわ}ただしい", "{喜|よろこ}ばしい", "{頼|たの}もしい"] },
     ] },
   { w: "{貴重|きちょう}", lv: "N2", pos: "な adjective",
     en: "valuable; precious",
@@ -428,7 +428,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["らいもしい", "たのしい", "たよもしい"],
     book: { ja: "**頼もしい**", en: "dependable", at: "gp/71" },
     ex: [
-      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "He's only a new hire but keeps landing contracts one after another — a very dependable junior colleague.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
+      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "Only a new hire, yet this junior colleague keeps landing one contract after another — very dependable.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
     ] },
   { w: "{公正|こうせい}", lv: "N1", pos: "な adjective · noun",
     en: "fair; impartial; just",
@@ -488,7 +488,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "いつになく", lv: "N1", pos: "adverb",
     en: "unusually; more than usual; unlike one's usual self",
     note: "Something differs from how it normally is: いつになく静かだ, いつになく真剣な顔. Formal-ish, and neutral in tone; 珍しく is the everyday equivalent.",
-    book: { ja: "（{拍手|はくしゅ}）……いやあ、**いつになく**出席者が多いですね……。（会場から笑い）", en: "(Applause) … Well, well, there are more people here than usual… (Laughter from the audience)", at: "ch/6/review" },
+    book: { ja: "（{拍手|はくしゅ}）……いやあ、**いつになく**出席者が多いですね……。（会場から笑い）", en: "(Applause) …Well now, there are more people here than usual…. (Laughter from the audience)", at: "ch/6/review" },
     ex: [
       { ja: "{今朝|けさ}の{父|ちち}は、**いつになく**{機嫌|きげん}がよかった。", en: "My father was in an unusually good mood this morning.", alt: ["いつまでも", "いつぞや", "いつなんどき"] },
     ] },
@@ -496,7 +496,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (applaud), 大きな拍手, 拍手喝采 (applause and cheers). In speeches and minutes, （拍手） marks audience applause.",
     rx: ["はくて", "はっしゅ", "ばくしゅ"],
-    book: { ja: "（**{拍手|はくしゅ}**）……いやあ、いつになく出席者が多いですね……。（会場から笑い）", en: "(Applause) … Well, well, there are more people here than usual… (Laughter from the audience)", at: "ch/6/review" },
+    book: { ja: "（**{拍手|はくしゅ}**）……いやあ、いつになく出席者が多いですね……。（会場から笑い）", en: "(Applause) …Well now, there are more people here than usual…. (Laughter from the audience)", at: "ch/6/review" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**がわき{起|お}こった。", en: "When the performance ended, loud applause rose from the hall.", alt: ["{握手|あくしゅ}", "{拍子|ひょうし}", "{拍車|はくしゃ}"] },
     ] },
