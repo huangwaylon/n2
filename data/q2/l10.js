@@ -586,7 +586,7 @@ TRY.registerLesson({
      "page": 104,
      "vertical": false,
      "numbers": true,
-     "title": "日本人が政府に期待するもの\n～ISSP国際比較調査「政府の役割」から～",
+     "title": "日本人が政府に期待するもの\n〜ISSP国際比較調査「政府の役割」から〜",
      "titleTr": "What the Japanese Expect of Their Government: From the ISSP International Comparative Survey \"Role of Government\"",
      "audio": "1.Yomimono_L10-2",
      "lines": [

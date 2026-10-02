@@ -71,7 +71,7 @@ TRY.registerVocab({
      "n": 5,
      "k": "◆",
      "ln": 8,
-     "w": "[～が]__燃__える",
+     "w": "[〜が]__燃__える",
      "yomi": "もえる",
      "en": "to burn [''vi.'']"
     },
@@ -82,7 +82,7 @@ TRY.registerVocab({
      "en": "burnable waste"
     },
     {
-     "w": "[～が]分かれる",
+     "w": "[〜が]分かれる",
      "yomi": "わかれる",
      "en": "to get separated [''vi.'']"
     },
@@ -96,7 +96,7 @@ TRY.registerVocab({
     {
      "n": 7,
      "ln": 10,
-     "w": "[～が]気になる",
+     "w": "[〜が]気になる",
      "yomi": "きになる",
      "en": "to be on one’s mind; to worry"
     },
@@ -127,8 +127,8 @@ TRY.registerVocab({
     },
     {
      "ln": 14,
-     "w": "～ずつ",
-     "yomi": "～ずつ",
+     "w": "〜ずつ",
+     "yomi": "〜ずつ",
      "en": "each ~ (e.g., 一つずつ one by one)"
     },
     {
@@ -183,7 +183,7 @@ TRY.registerVocab({
     },
     {
      "ln": 26,
-     "w": "[～が]ぬれる",
+     "w": "[〜が]ぬれる",
      "yomi": "ぬれる",
      "en": "to get wet [''vi.'']"
     },
@@ -209,8 +209,8 @@ TRY.registerVocab({
     },
     {
      "ln": 29,
-     "w": "～に対する",
-     "yomi": "～にたいする",
+     "w": "〜に対する",
+     "yomi": "〜にたいする",
      "en": "to; toward; for; concerning"
     },
     {
@@ -262,7 +262,7 @@ TRY.registerVocab({
      },
      {
       "n": 5,
-      "w": "[～が]燃える",
+      "w": "[〜が]燃える",
       "ex": "山火事で近所の家が燃えてしまった。",
       "tr": "A house in my neighborhood burned down in a forest fire."
      },
@@ -274,7 +274,7 @@ TRY.registerVocab({
      },
      {
       "n": 7,
-      "w": "[～が]気になる",
+      "w": "[〜が]気になる",
       "ex": "期末試験のことが気になって{寝|ね}られない。",
       "tr": "I'm so worried about my finals that I can't sleep."
      },
@@ -337,14 +337,14 @@ TRY.registerVocab({
     {
      "n": 15,
      "k": "◆",
-     "w": "[～に]__賛__成（する）",
+     "w": "[〜に]__賛__成（する）",
      "yomi": "さんせい（する）",
      "en": "to approve; to agree"
     },
     {
      "n": 16,
      "k": "◆",
-     "w": "[～に]__反__対（する）",
+     "w": "[〜に]__反__対（する）",
      "yomi": "はんたい（する）",
      "en": "to oppose; to disagree"
     },
@@ -380,14 +380,14 @@ TRY.registerVocab({
      "en": "from now; hereafter"
     },
     {
-     "w": "～化",
-     "yomi": "～か",
+     "w": "〜化",
+     "yomi": "〜か",
      "en": "change to ~; ~ization"
     },
     {
      "n": 18,
      "k": "◆",
-     "w": "[～が]__進__む",
+     "w": "[〜が]__進__む",
      "yomi": "すすむ",
      "en": "to proceed; to advance [''vi.'']"
     },
@@ -475,7 +475,7 @@ TRY.registerVocab({
      "n": 26,
      "k": "◆",
      "ln": 15,
-     "w": "[～に]__効__果的な",
+     "w": "[〜に]__効__果的な",
      "yomi": "こうかてきな",
      "en": "effective"
     },
@@ -561,7 +561,7 @@ TRY.registerVocab({
      "en": "possibility"
     },
     {
-     "w": "[～が]広がる",
+     "w": "[〜が]広がる",
      "yomi": "ひろがる",
      "en": "to spread; to open [''vi.'']"
     },
@@ -576,14 +576,14 @@ TRY.registerVocab({
     {
      "n": 34,
      "ln": 37,
-     "w": "[～が]発達（する）",
+     "w": "[〜が]発達（する）",
      "yomi": "はったつ（する）",
      "en": "to develop"
     },
     {
      "n": 35,
      "k": "◇",
-     "w": "[～に]__影響__（する）",
+     "w": "[〜に]__影響__（する）",
      "yomi": "えいきょう（する）",
      "en": "to influence; to affect"
     },
@@ -681,7 +681,7 @@ TRY.registerVocab({
     {
      "n": 41,
      "ln": 56,
-     "w": "[～が]上達（する）",
+     "w": "[〜が]上達（する）",
      "yomi": "じょうたつ（する）",
      "en": "to improve [''vi.'']"
     },
@@ -700,13 +700,13 @@ TRY.registerVocab({
     "items": [
      {
       "n": 15,
-      "w": "[～に]賛成（する）",
+      "w": "[〜に]賛成（する）",
       "ex": "「宿題は必要ない」という意見には賛成できない。",
       "tr": "I can't agree with the opinion that homework is unnecessary."
      },
      {
       "n": 16,
-      "w": "[～に]反対（する）",
+      "w": "[〜に]反対（する）",
       "ex": "{税金|ぜいきん}を上げることには反対だ。",
       "tr": "I'm against raising taxes."
      },
@@ -718,7 +718,7 @@ TRY.registerVocab({
      },
      {
       "n": 18,
-      "w": "[～が]進む",
+      "w": "[〜が]進む",
       "ex": "今後、情報化社会がさらに進むだろう。",
       "tr": "From now on, society will probably become even more information-driven."
      },
@@ -766,7 +766,7 @@ TRY.registerVocab({
      },
      {
       "n": 26,
-      "w": "[～に]効果的な",
+      "w": "[〜に]効果的な",
       "ex": "ダイエットに一番効果的なのは運動だろう。",
       "tr": "The most effective way to lose weight is probably exercise."
      },
@@ -814,13 +814,13 @@ TRY.registerVocab({
      },
      {
       "n": 34,
-      "w": "[～が]発達（する）",
+      "w": "[〜が]発達（する）",
       "ex": "科学が発達したおかげで、私たちの生活は便利になっている。",
       "tr": "Thanks to advances in science, our lives have become more convenient."
      },
      {
       "n": 35,
-      "w": "[～に]影響（する）",
+      "w": "[〜に]影響（する）",
       "ex": "私に最も影響をあたえたのは、中学の時の先生です。",
       "tr": "The person who influenced me most was my teacher in middle school."
      },
@@ -856,7 +856,7 @@ TRY.registerVocab({
      },
      {
       "n": 41,
-      "w": "[～が]上達（する）",
+      "w": "[〜が]上達（する）",
       "ex": "日本人の友達のおかげで、日本語が上達した。",
       "tr": "Thanks to my Japanese friends, my Japanese has improved."
      },

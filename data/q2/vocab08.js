@@ -51,7 +51,7 @@ TRY.registerVocab({
      "n": 2,
      "k": "◆",
      "ln": 8,
-     "w": "[～に]__到__着（する）",
+     "w": "[〜に]__到__着（する）",
      "yomi": "とうちゃく（する）",
      "en": "to arrive"
     },
@@ -116,7 +116,7 @@ TRY.registerVocab({
      "en": "at least"
     },
     {
-     "w": "[～に]出入り（する）",
+     "w": "[〜に]出入り（する）",
      "yomi": "でいり（する）",
      "en": "to go in and out"
     },
@@ -226,7 +226,7 @@ TRY.registerVocab({
     {
      "n": 12,
      "k": "◆",
-     "w": "[～に]__提__供（する）",
+     "w": "[〜に]__提__供（する）",
      "yomi": "ていきょう（する）",
      "en": "to provide [''vt.'']"
     },
@@ -266,13 +266,13 @@ TRY.registerVocab({
     {
      "n": 15,
      "ln": 37,
-     "w": "[～に]満足（する）",
+     "w": "[〜に]満足（する）",
      "yomi": "まんぞく（する）",
      "en": "to satisfy"
     },
     {
-     "w": "満足のいく～",
-     "yomi": "まんぞくのいく～",
+     "w": "満足のいく〜",
+     "yomi": "まんぞくのいく〜",
      "en": "satisfying ~"
     },
     {
@@ -317,7 +317,7 @@ TRY.registerVocab({
     {
      "n": 16,
      "ln": 45,
-     "w": "[～に]感激（する）",
+     "w": "[〜に]感激（する）",
      "yomi": "かんげき（する）",
      "en": "to be deeply moved"
     },
@@ -407,7 +407,7 @@ TRY.registerVocab({
      },
      {
       "n": 2,
-      "w": "[～に]到着（する）",
+      "w": "[〜に]到着（する）",
       "ex": "飛行機が時間通りに空港に到着した。",
       "tr": "The plane arrived at the airport on time."
      },
@@ -467,7 +467,7 @@ TRY.registerVocab({
      },
      {
       "n": 12,
-      "w": "[～に]提供（する）",
+      "w": "[〜に]提供（する）",
       "ex": "{警察|けいさつ}に{犯人|はんにん}の情報を提供した。",
       "tr": "I provided the police with information about the culprit."
      },
@@ -485,13 +485,13 @@ TRY.registerVocab({
      },
      {
       "n": 15,
-      "w": "[～に]満足（する）",
+      "w": "[〜に]満足（する）",
       "ex": "今の生活に満足しています。",
       "tr": "I'm satisfied with my current life."
      },
      {
       "n": 16,
-      "w": "[～に]感激（する）",
+      "w": "[〜に]感激（する）",
       "ex": "友人の優しさに感激しました。",
       "tr": "I was deeply moved by my friend's kindness."
      },
@@ -650,7 +650,7 @@ TRY.registerVocab({
     },
     {
      "n": 24,
-     "w": "[～に]目をつける",
+     "w": "[〜に]目をつける",
      "yomi": "めをつける",
      "en": "to have an eye on"
     },
@@ -689,7 +689,7 @@ TRY.registerVocab({
      "en": "sense of beauty"
     },
     {
-     "w": "[～に]息づく",
+     "w": "[〜に]息づく",
      "yomi": "いきづく",
      "en": "to be alive"
     },
@@ -729,7 +729,7 @@ TRY.registerVocab({
     {
      "n": 29,
      "k": "◇",
-     "w": "[～に]配__慮__（する）",
+     "w": "[〜に]配__慮__（する）",
      "yomi": "はいりょ（する）",
      "en": "to consider"
     },
@@ -747,7 +747,7 @@ TRY.registerVocab({
     {
      "n": 30,
      "k": "◇",
-     "w": "[～に]__詰__める",
+     "w": "[〜に]__詰__める",
      "yomi": "つめる",
      "en": "to fill; to stuff [''vt.'']"
     },
@@ -861,8 +861,8 @@ TRY.registerVocab({
      "en": "kokeshi doll"
     },
     {
-     "w": "～風",
-     "yomi": "～ふう",
+     "w": "〜風",
+     "yomi": "〜ふう",
      "en": "~ style; ~ type"
     },
     {
@@ -880,8 +880,8 @@ TRY.registerVocab({
     {
      "n": 37,
      "k": "◇",
-     "w": "～__型__",
-     "yomi": "～がた",
+     "w": "〜__型__",
+     "yomi": "〜がた",
      "en": "~ type; ~ model"
     },
     {
@@ -954,7 +954,7 @@ TRY.registerVocab({
     },
     {
      "n": 40,
-     "w": "[～に]こだわる",
+     "w": "[〜に]こだわる",
      "yomi": "こだわる",
      "en": "to be particular about; to stick to"
     },
@@ -1017,7 +1017,7 @@ TRY.registerVocab({
      "en": "techniques"
     },
     {
-     "w": "[～に]取り入れる",
+     "w": "[〜に]取り入れる",
      "yomi": "とりいれる",
      "en": "to adopt [''vt.'']"
     },
@@ -1093,7 +1093,7 @@ TRY.registerVocab({
      },
      {
       "n": 24,
-      "w": "[～に]目をつける",
+      "w": "[〜に]目をつける",
       "ex": "日本の「カワイイ文化」に目をつけて、ビジネスを始めた。",
       "tr": "I saw potential in Japan's \"kawaii culture\" and started a business."
      },
@@ -1123,13 +1123,13 @@ TRY.registerVocab({
      },
      {
       "n": 29,
-      "w": "[～に]配慮（する）",
+      "w": "[〜に]配慮（する）",
       "ex": "バリアフリー社会で大切なのは、体が不自由な人に配慮することだ。",
       "tr": "What matters in a barrier-free society is being considerate of people with physical disabilities."
      },
      {
       "n": 30,
-      "w": "[～に]詰める",
+      "w": "[〜に]詰める",
       "ex": "スーツケースに{荷物|にもつ}を詰めた。",
       "tr": "I packed my things into the suitcase."
      },
@@ -1171,13 +1171,13 @@ TRY.registerVocab({
      },
      {
       "n": 37,
-      "w": "～型",
+      "w": "〜型",
       "ex": "星型のクッキーをたくさん作った。",
       "tr": "I made a lot of star-shaped cookies."
      },
      {
       "n": 38,
-      "w": "[～に]並べる",
+      "w": "[〜に]並べる",
       "ex": "コンビニ店員の仕事は店に商品を並べるだけではありません。",
       "tr": "A convenience store clerk's job isn't just putting products out on the shelves."
      },
@@ -1189,7 +1189,7 @@ TRY.registerVocab({
      },
      {
       "n": 40,
-      "w": "[～に]こだわる",
+      "w": "[〜に]こだわる",
       "ex": "彼女は食べ物にこだわっていてオーガニックのものしか食べない。",
       "tr": "She's particular about food and eats only organic things."
      },

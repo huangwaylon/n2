@@ -49,7 +49,7 @@ TRY.registerVocab({
     {
      "n": 4,
      "k": "◇",
-     "w": "[～が]__吹__く",
+     "w": "[〜が]__吹__く",
      "yomi": "ふく",
      "en": "to blow"
     },
@@ -76,7 +76,7 @@ TRY.registerVocab({
     {
      "n": 7,
      "k": "◇",
-     "w": "[～に]__慣__れる",
+     "w": "[〜に]__慣__れる",
      "yomi": "なれる",
      "en": "to get used to"
     },
@@ -115,8 +115,8 @@ TRY.registerVocab({
     },
     {
      "ln": 11,
-     "w": "～市",
-     "yomi": "～し",
+     "w": "〜市",
+     "yomi": "〜し",
      "en": "~ City"
     },
     {
@@ -133,14 +133,14 @@ TRY.registerVocab({
      "n": 11,
      "k": "◇",
      "ln": 12,
-     "w": "[～と]__交流__（する）",
+     "w": "[〜と]__交流__（する）",
      "yomi": "こうりゅう（する）",
      "en": "to exchange; to interact"
     },
     {
      "k": "◇",
-     "w": "～__課__",
-     "yomi": "～か",
+     "w": "〜__課__",
+     "yomi": "〜か",
      "en": "division; department; section"
     },
     {
@@ -182,7 +182,7 @@ TRY.registerVocab({
     {
      "n": 14,
      "k": "◆",
-     "w": "[～に]__役__に立つ",
+     "w": "[〜に]__役__に立つ",
      "yomi": "やくにたつ",
      "en": "to be useful"
     },
@@ -190,7 +190,7 @@ TRY.registerVocab({
      "n": 15,
      "k": "◇",
      "ln": 16,
-     "w": "[～に]__申__し__込__む",
+     "w": "[〜に]__申__し__込__む",
      "yomi": "もうしこむ",
      "en": "to apply for"
     },
@@ -214,8 +214,8 @@ TRY.registerVocab({
      "en": "deadline"
     },
     {
-     "w": "～カ月",
-     "yomi": "～かげつ",
+     "w": "〜カ月",
+     "yomi": "〜かげつ",
      "en": "~ month(s)"
     },
     {
@@ -256,7 +256,7 @@ TRY.registerVocab({
     },
     {
      "n": 21,
-     "w": "[～に]気をつける",
+     "w": "[〜に]気をつける",
      "yomi": "きをつける",
      "en": "to take care; to be careful"
     }
@@ -285,7 +285,7 @@ TRY.registerVocab({
      },
      {
       "n": 4,
-      "w": "[～が]吹く",
+      "w": "[〜が]吹く",
       "ex": "台風の時は、強い風が吹きます。",
       "tr": "During a typhoon, strong winds blow."
      },
@@ -303,7 +303,7 @@ TRY.registerVocab({
      },
      {
       "n": 7,
-      "w": "[～に]慣れる",
+      "w": "[〜に]慣れる",
       "ex": "もう大学生活に慣れましたか。",
       "tr": "Have you gotten used to college life yet?"
      },
@@ -327,7 +327,7 @@ TRY.registerVocab({
      },
      {
       "n": 11,
-      "w": "[～と]交流（する）",
+      "w": "[〜と]交流（する）",
       "ex": "私の大学はドイツの大学と交流がある。",
       "tr": "My university has an exchange relationship with a German university."
      },
@@ -345,13 +345,13 @@ TRY.registerVocab({
      },
      {
       "n": 14,
-      "w": "[～に]役に立つ",
+      "w": "[〜に]役に立つ",
       "ex": "スマートフォンは留学生活にとても役に立つだろう。",
       "tr": "A smartphone will probably be very useful while studying abroad."
      },
      {
       "n": 15,
-      "w": "[～に]申し込む",
+      "w": "[〜に]申し込む",
       "ex": "図書館のアルバイトに申し込むつもりだ。",
       "tr": "I'm planning to apply for a part-time job at the library."
      },
@@ -387,7 +387,7 @@ TRY.registerVocab({
      },
      {
       "n": 21,
-      "w": "[～に]気をつける",
+      "w": "[〜に]気をつける",
       "ex": "道を歩く時は車に気をつけてください。",
       "tr": "Please watch out for cars when you're walking on the street."
      }
@@ -548,7 +548,7 @@ TRY.registerVocab({
     {
      "n": 32,
      "k": "◇",
-     "w": "[～が]__深__まる",
+     "w": "[〜が]__深__まる",
      "yomi": "ふかまる",
      "en": "to deepen [''vi.'']"
     },
@@ -573,14 +573,14 @@ TRY.registerVocab({
     {
      "n": 34,
      "ln": 11,
-     "w": "[～に]気がつく",
+     "w": "[〜に]気がつく",
      "yomi": "きがつく",
      "en": "to notice"
     },
     {
      "n": 35,
      "ln": 12,
-     "w": "[～が]集まる",
+     "w": "[〜が]集まる",
      "yomi": "あつまる",
      "en": "to gather [''vi.'']"
     },
@@ -628,7 +628,7 @@ TRY.registerVocab({
     {
      "n": 37,
      "k": "◇",
-     "w": "[～に]__誘__う",
+     "w": "[〜に]__誘__う",
      "yomi": "さそう",
      "en": "to invite (someone) to"
     },
@@ -655,7 +655,7 @@ TRY.registerVocab({
     },
     {
      "n": 40,
-     "w": "[～が]気に入る",
+     "w": "[〜が]気に入る",
      "yomi": "きにいる",
      "en": "to like; to be pleased with"
     },
@@ -679,7 +679,7 @@ TRY.registerVocab({
     {
      "n": 41,
      "k": "◆",
-     "w": "[～に]__伝__える",
+     "w": "[〜に]__伝__える",
      "yomi": "つたえる",
      "en": "to convey (a message) to ~ [''vt.'']"
     },
@@ -758,7 +758,7 @@ TRY.registerVocab({
      },
      {
       "n": 32,
-      "w": "[～が]深まる",
+      "w": "[〜が]深まる",
       "ex": "日本語の勉強を続けると、日本への興味が深まる。",
       "tr": "As you keep studying Japanese, your interest in Japan deepens."
      },
@@ -770,13 +770,13 @@ TRY.registerVocab({
      },
      {
       "n": 34,
-      "w": "[～に]気がつく",
+      "w": "[〜に]気がつく",
       "ex": "彼女が{髪|かみ}を切ったことに気がついた。",
       "tr": "I noticed that she had cut her hair."
      },
      {
       "n": 35,
-      "w": "[～が]集まる",
+      "w": "[〜が]集まる",
       "ex": "週末には多くの人がこの公園に集まります。",
       "tr": "On weekends, a lot of people gather in this park."
      },
@@ -788,7 +788,7 @@ TRY.registerVocab({
      },
      {
       "n": 37,
-      "w": "[～に]誘う",
+      "w": "[〜に]誘う",
       "ex": "クラスの友達をカラオケに誘った。",
       "tr": "I invited a friend from class to go to karaoke."
      },
@@ -806,13 +806,13 @@ TRY.registerVocab({
      },
      {
       "n": 40,
-      "w": "[～が]気に入る",
+      "w": "[〜が]気に入る",
       "ex": "書きやすいので、T社のペンが気に入っている。",
       "tr": "I like Company T's pens because they're easy to write with."
      },
      {
       "n": 41,
-      "w": "[～に]伝える",
+      "w": "[〜に]伝える",
       "ex": "「ありがとう」とリーさんに伝えてください。",
       "tr": "Please tell Lee-san \"thank you\" for me."
      },

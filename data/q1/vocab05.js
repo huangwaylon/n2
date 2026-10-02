@@ -62,7 +62,7 @@ TRY.registerVocab({
     {
      "n": 5,
      "ln": 8,
-     "w": "[～が]回る",
+     "w": "[〜が]回る",
      "yomi": "まわる",
      "en": "to turn around; to go around [''vi.'']"
     },
@@ -73,7 +73,7 @@ TRY.registerVocab({
     },
     {
      "ln": 9,
-     "w": "[～が]目に入る",
+     "w": "[〜が]目に入る",
      "yomi": "めにはいる",
      "en": "to come into view [''vi.'']"
     },
@@ -95,8 +95,8 @@ TRY.registerVocab({
      "n": 7,
      "k": "◆",
      "ln": 13,
-     "w": "～限__定__",
-     "yomi": "～げんてい",
+     "w": "〜限__定__",
+     "yomi": "〜げんてい",
      "en": "limited; ~ only"
     },
     {
@@ -113,8 +113,8 @@ TRY.registerVocab({
     {
      "n": 9,
      "ln": 14,
-     "w": "～以外",
-     "yomi": "～いがい",
+     "w": "〜以外",
+     "yomi": "〜いがい",
      "en": "except ~"
     },
     {
@@ -125,7 +125,7 @@ TRY.registerVocab({
     {
      "n": 10,
      "k": "◆",
-     "w": "[～が]__増__える",
+     "w": "[〜が]__増__える",
      "yomi": "ふえる",
      "en": "to increase [''vi.'']"
     },
@@ -136,8 +136,8 @@ TRY.registerVocab({
      "en": "usually; normally"
     },
     {
-     "w": "～ごとに",
-     "yomi": "～ごとに",
+     "w": "〜ごとに",
+     "yomi": "〜ごとに",
      "en": "every ~"
     },
     {
@@ -192,7 +192,7 @@ TRY.registerVocab({
     },
     {
      "ln": 25,
-     "w": "[～が]空く",
+     "w": "[〜が]空く",
      "yomi": "あく",
      "en": "to become available; to become vacant [''vi.'']"
     },
@@ -233,7 +233,7 @@ TRY.registerVocab({
     {
      "n": 16,
      "k": "◇",
-     "w": "[～に]__付__く",
+     "w": "[〜に]__付__く",
      "yomi": "つく",
      "en": "to be attached to; to be connected to [''vi.'']"
     },
@@ -362,7 +362,7 @@ TRY.registerVocab({
     },
     {
      "ln": 49,
-     "w": "[～に]のる",
+     "w": "[〜に]のる",
      "yomi": "のる",
      "en": "to be put on [''vi.'']"
     },
@@ -418,7 +418,7 @@ TRY.registerVocab({
      },
      {
       "n": 5,
-      "w": "[～が]回る",
+      "w": "[〜が]回る",
       "ex": "自転車に乗った人たちが{湖|みずうみ}の{周|まわ}りを回っていた。",
       "tr": "People on bicycles were riding around the lake."
      },
@@ -430,7 +430,7 @@ TRY.registerVocab({
      },
      {
       "n": 7,
-      "w": "～限定",
+      "w": "〜限定",
       "ex": "このレストランは季節限定のメニューがたくさんある。",
       "tr": "This restaurant has lots of seasonal, limited-time dishes."
      },
@@ -442,13 +442,13 @@ TRY.registerVocab({
      },
      {
       "n": 9,
-      "w": "～以外",
+      "w": "〜以外",
       "ex": "日本語以外にどんな外国語が話せますか。",
       "tr": "What foreign languages can you speak besides Japanese?"
      },
      {
       "n": 10,
-      "w": "[～が]増える",
+      "w": "[〜が]増える",
       "ex": "{中国|ちゅうごく}{語|ご}を勉強する人が増えているそうだ。",
       "tr": "I hear the number of people studying Chinese is growing."
      },
@@ -484,7 +484,7 @@ TRY.registerVocab({
      },
      {
       "n": 16,
-      "w": "[～に]付く",
+      "w": "[〜に]付く",
       "ex": "コートに付いていたボタンがなくなってしまった。",
       "tr": "A button that was on my coat has gone missing."
      },
@@ -574,8 +574,8 @@ TRY.registerVocab({
      "en": "ingredients; materials"
     },
     {
-     "w": "～分",
-     "yomi": "～ぶん",
+     "w": "〜分",
+     "yomi": "〜ぶん",
      "en": "for ~ people"
     },
     {
@@ -756,7 +756,7 @@ TRY.registerVocab({
     {
      "n": 38,
      "ln": 22,
-     "w": "[～が]こげる",
+     "w": "[〜が]こげる",
      "yomi": "こげる",
      "en": "to get burned [''vi.'']"
     },
@@ -799,7 +799,7 @@ TRY.registerVocab({
     },
     {
      "k": "◇",
-     "w": "[～を]__煮__出す",
+     "w": "[〜を]__煮__出す",
      "yomi": "にだす",
      "en": "to extract the flavor of ~ by boiling"
     },
@@ -951,7 +951,7 @@ TRY.registerVocab({
      },
      {
       "n": 38,
-      "w": "[～が]こげる",
+      "w": "[〜が]こげる",
       "ex": "肉がこげて黒くなってしまった。",
       "tr": "The meat burned and turned black."
      },

@@ -29,7 +29,7 @@ TRY.registerVocab({
      "n": 2,
      "k": "◆",
      "ln": 1,
-     "w": "[～を]__訪__れる",
+     "w": "[〜を]__訪__れる",
      "yomi": "おとずれる",
      "en": "to visit (a place)"
     },
@@ -47,8 +47,8 @@ TRY.registerVocab({
     },
     {
      "k": "◆",
-     "w": "～__県__",
-     "yomi": "～けん",
+     "w": "〜__県__",
+     "yomi": "〜けん",
      "en": "~ Prefecture"
     },
     {
@@ -91,7 +91,7 @@ TRY.registerVocab({
     {
      "n": 4,
      "k": "◇",
-     "w": "[～に]__登録__（する）",
+     "w": "[〜に]__登録__（する）",
      "yomi": "とうろく（する）",
      "en": "to register"
     },
@@ -103,7 +103,7 @@ TRY.registerVocab({
     },
     {
      "ln": 9,
-     "w": "[～に]役立つ",
+     "w": "[〜に]役立つ",
      "yomi": "やくだつ",
      "en": "to be useful"
     },
@@ -161,7 +161,7 @@ TRY.registerVocab({
     },
     {
      "ln": 14,
-     "w": "[～に]合う",
+     "w": "[〜に]合う",
      "yomi": "あう",
      "en": "to match; to be suitable"
     },
@@ -201,7 +201,7 @@ TRY.registerVocab({
      "n": 11,
      "k": "◆",
      "ln": 22,
-     "w": "[～に]__泊__まる",
+     "w": "[〜に]__泊__まる",
      "yomi": "とまる",
      "en": "to stay [''vi.'']"
     },
@@ -237,7 +237,7 @@ TRY.registerVocab({
     {
      "n": 12,
      "k": "◇",
-     "w": "[～に]__参加__（する）",
+     "w": "[〜に]__参加__（する）",
      "yomi": "さんか（する）",
      "en": "to participate; to join"
     },
@@ -275,7 +275,7 @@ TRY.registerVocab({
      "ln": 30,
      "w": "__限__る",
      "yomi": "かぎる",
-     "en": "to limit (See 文型・表現 9「～とは限らない」)"
+     "en": "to limit (See 文型・表現 9「〜とは限らない」)"
     },
     {
      "w": "0度",
@@ -283,8 +283,8 @@ TRY.registerVocab({
      "en": "zero degrees"
     },
     {
-     "w": "～以下",
-     "yomi": "～いか",
+     "w": "〜以下",
+     "yomi": "〜いか",
      "en": "~ or less"
     },
     {
@@ -384,7 +384,7 @@ TRY.registerVocab({
      },
      {
       "n": 2,
-      "w": "[～を]訪れる",
+      "w": "[〜を]訪れる",
       "ex": "多くの外国人が{京|きょう}{都|と}を訪れる。",
       "tr": "Many foreigners visit Kyoto."
      },
@@ -396,7 +396,7 @@ TRY.registerVocab({
      },
      {
       "n": 4,
-      "w": "[～に]登録（する）",
+      "w": "[〜に]登録（する）",
       "ex": "日本語が学べるウェブサイトに登録した。",
       "tr": "I signed up for a website where you can learn Japanese."
      },
@@ -438,13 +438,13 @@ TRY.registerVocab({
      },
      {
       "n": 11,
-      "w": "[～に]泊まる",
+      "w": "[〜に]泊まる",
       "ex": "日本の旅館に泊まってみたい。",
       "tr": "I'd like to stay at a Japanese inn."
      },
      {
       "n": 12,
-      "w": "[～に]参加（する）",
+      "w": "[〜に]参加（する）",
       "ex": "夏休みはボランティア活動に参加しようと思っている。",
       "tr": "I'm thinking of taking part in volunteer work over summer vacation."
      },
@@ -529,7 +529,7 @@ TRY.registerVocab({
      "n": 24,
      "k": "◇",
      "ln": 2,
-     "w": "[～と]__仲__よくなる",
+     "w": "[〜と]__仲__よくなる",
      "yomi": "なかよくなる",
      "en": "to make friends with"
     },
@@ -630,7 +630,7 @@ TRY.registerVocab({
      "en": "restaurant"
     },
     {
-     "w": "[～と]変わらない",
+     "w": "[〜と]変わらない",
      "yomi": "かわらない",
      "en": "to be no different"
     },
@@ -686,7 +686,7 @@ TRY.registerVocab({
     {
      "n": 33,
      "ln": 18,
-     "w": "[～を]気にする",
+     "w": "[〜を]気にする",
      "yomi": "きにする",
      "en": "to mind; to worry"
     },
@@ -849,7 +849,7 @@ TRY.registerVocab({
     {
      "n": 40,
      "ln": 32,
-     "w": "[～と]親しい",
+     "w": "[〜と]親しい",
      "yomi": "したしい",
      "en": "close; intimate"
     },
@@ -861,7 +861,7 @@ TRY.registerVocab({
     },
     {
      "ln": 35,
-     "w": "[～に]足を運ぶ",
+     "w": "[〜に]足を運ぶ",
      "yomi": "あしをはこぶ",
      "en": "to go to; to visit"
     },
@@ -897,7 +897,7 @@ TRY.registerVocab({
      },
      {
       "n": 24,
-      "w": "[～と]仲よくなる",
+      "w": "[〜と]仲よくなる",
       "ex": "{趣|しゅ}{味|み}が同じだったので、彼と仲よくなりました。",
       "tr": "We had the same hobbies, so he and I became friends."
      },
@@ -951,7 +951,7 @@ TRY.registerVocab({
      },
      {
       "n": 33,
-      "w": "[～を]気にする",
+      "w": "[〜を]気にする",
       "ex": "彼は来週のテストのことをずっと気にしている。",
       "tr": "He's been worrying about next week's test the whole time."
      },
@@ -993,7 +993,7 @@ TRY.registerVocab({
      },
      {
       "n": 40,
-      "w": "[～と]親しい",
+      "w": "[〜と]親しい",
       "ex": "外国語のクラスではよく話すので、クラスメートと親しくなれる。",
       "tr": "You talk a lot in foreign-language classes, so you can get close to your classmates."
      },

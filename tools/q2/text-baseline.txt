@@ -3298,7 +3298,7 @@ l10.sections.0.blocks.11.lines.65.fig.rows.5.1	1%
 l10.sections.0.blocks.11.lines.65.fig.rows.5.2	3%
 l10.sections.0.blocks.11.credit.0	「朝日新聞」2019年1月13日
 l10.sections.0.blocks.12.title	日本人が政府に期待するもの
-～ISSP国際比較調査「政府の役割」から～
+〜ISSP国際比較調査「政府の役割」から〜
 l10.sections.0.blocks.12.lines.0	#◆**はじめに**
 l10.sections.0.blocks.12.lines.1	¶NHK放送文化研究所が{加盟|かめい}している国際比較調査グループISSP (International
 l10.sections.0.blocks.12.lines.2	Social Survey Programme)が2016年に実施した「政府の役割」の結果から、35の国・
@@ -7136,8 +7136,8 @@ vocab7.lists.0.rows.5.en	choice
 vocab7.lists.0.rows.6.w	オリエンテーション
 vocab7.lists.0.rows.6.yomi	おりえんてーしょん
 vocab7.lists.0.rows.6.en	orientation
-vocab7.lists.0.rows.7.w	～近く
-vocab7.lists.0.rows.7.yomi	～ちかく
+vocab7.lists.0.rows.7.w	〜近く
+vocab7.lists.0.rows.7.yomi	〜ちかく
 vocab7.lists.0.rows.7.en	nearly ~
 vocab7.lists.0.rows.8.w	合間
 vocab7.lists.0.rows.8.yomi	あいま
@@ -7145,11 +7145,11 @@ vocab7.lists.0.rows.8.en	interval
 vocab7.lists.0.rows.9.w	余__裕__
 vocab7.lists.0.rows.9.yomi	よゆう
 vocab7.lists.0.rows.9.en	room; (emotional) leeway
-vocab7.lists.0.rows.10.w	～の半面
-vocab7.lists.0.rows.10.yomi	～のはんめん
+vocab7.lists.0.rows.10.w	〜の半面
+vocab7.lists.0.rows.10.yomi	〜のはんめん
 vocab7.lists.0.rows.10.en	in contrast to ~; on the other side of ~
-vocab7.lists.0.rows.11.w	まったく～ない
-vocab7.lists.0.rows.11.yomi	まったく～ない
+vocab7.lists.0.rows.11.w	まったく〜ない
+vocab7.lists.0.rows.11.yomi	まったく〜ない
 vocab7.lists.0.rows.11.en	not at all
 vocab7.lists.0.rows.12.w	__差__
 vocab7.lists.0.rows.12.yomi	さ
@@ -7178,17 +7178,17 @@ vocab7.lists.0.rows.19.en	to stimulate; to motivate
 vocab7.lists.0.rows.20.w	試練
 vocab7.lists.0.rows.20.yomi	しれん
 vocab7.lists.0.rows.20.en	trial; test
-vocab7.lists.0.rows.21.w	[～が]変化（する）
+vocab7.lists.0.rows.21.w	[〜が]変化（する）
 vocab7.lists.0.rows.21.yomi	へんか（する）
 vocab7.lists.0.rows.21.en	to change [''vi.'']
 vocab7.lists.0.rows.22.w	新たな
 vocab7.lists.0.rows.22.yomi	あらたな
 vocab7.lists.0.rows.22.en	new
-vocab7.lists.0.rows.23.w	[～に]__与__える
+vocab7.lists.0.rows.23.w	[〜に]__与__える
 vocab7.lists.0.rows.23.yomi	あたえる
 vocab7.lists.0.rows.23.en	to give; to provide [''vt.'']
-vocab7.lists.0.rows.24.w	～なんて
-vocab7.lists.0.rows.24.yomi	～なんて
+vocab7.lists.0.rows.24.w	〜なんて
+vocab7.lists.0.rows.24.yomi	〜なんて
 vocab7.lists.0.rows.24.en	such as ~; like ~
 vocab7.lists.0.rows.25.w	目まぐるしい
 vocab7.lists.0.rows.25.yomi	めまぐるしい
@@ -7211,8 +7211,8 @@ vocab7.lists.0.rows.30.en	to pat; to tap
 vocab7.lists.0.rows.31.w	ボディータッチ
 vocab7.lists.0.rows.31.yomi	ぼでぃーたっち
 vocab7.lists.0.rows.31.en	touching
-vocab7.lists.0.rows.32.w	～に対して
-vocab7.lists.0.rows.32.yomi	～にたいして
+vocab7.lists.0.rows.32.w	〜に対して
+vocab7.lists.0.rows.32.yomi	〜にたいして
 vocab7.lists.0.rows.32.en	against ~; toward ~
 vocab7.lists.0.rows.33.w	不快な
 vocab7.lists.0.rows.33.yomi	ふかいな
@@ -7259,7 +7259,7 @@ vocab7.lists.0.rows.46.en	point in time
 vocab7.lists.0.rows.47.w	約__束__を交わす
 vocab7.lists.0.rows.47.yomi	やくそくをかわす
 vocab7.lists.0.rows.47.en	to make a promise
-vocab7.lists.0.rows.48.w	[～が]__膨__らむ
+vocab7.lists.0.rows.48.w	[〜が]__膨__らむ
 vocab7.lists.0.rows.48.yomi	ふくらむ
 vocab7.lists.0.rows.48.en	to expand; to swell [''vi.'']
 vocab7.lists.0.rows.49.w	正直
@@ -7283,13 +7283,13 @@ vocab7.lists.0.rows.54.en	island country
 vocab7.lists.0.rows.55.w	独自
 vocab7.lists.0.rows.55.yomi	どくじ
 vocab7.lists.0.rows.55.en	original; unique
-vocab7.lists.0.rows.56.w	[～が]発__展__（する）
+vocab7.lists.0.rows.56.w	[〜が]発__展__（する）
 vocab7.lists.0.rows.56.yomi	はってん（する）
 vocab7.lists.0.rows.56.en	to develop [''vi.'']
 vocab7.lists.0.rows.57.w	基準
 vocab7.lists.0.rows.57.yomi	きじゅん
 vocab7.lists.0.rows.57.en	standard
-vocab7.lists.0.rows.58.w	[～に]__似__る
+vocab7.lists.0.rows.58.w	[〜に]__似__る
 vocab7.lists.0.rows.58.yomi	にる
 vocab7.lists.0.rows.58.en	to resemble
 vocab7.lists.0.rows.59.w	知らぬ間に
@@ -7298,7 +7298,7 @@ vocab7.lists.0.rows.59.en	unconsciously; without noticing
 vocab7.lists.0.rows.60.w	__勇__気
 vocab7.lists.0.rows.60.yomi	ゆうき
 vocab7.lists.0.rows.60.en	courage
-vocab7.lists.0.rows.61.w	[～に]__飛__びだす
+vocab7.lists.0.rows.61.w	[〜に]__飛__びだす
 vocab7.lists.0.rows.61.yomi	とびだす
 vocab7.lists.0.rows.61.en	to jump out
 vocab7.lists.0.rows.62.w	うち
@@ -7322,7 +7322,7 @@ vocab7.lists.0.targets.items.7.w	多国籍な
 vocab7.lists.0.targets.items.7.ex	いろいろな国の人がいる多国籍な大学に行きたい。
 vocab7.lists.0.targets.items.8.w	刺激（する）
 vocab7.lists.0.targets.items.8.ex	そのホラー映画は子どもには刺激が強すぎる。
-vocab7.lists.0.targets.items.9.w	[～に]与える
+vocab7.lists.0.targets.items.9.w	[〜に]与える
 vocab7.lists.0.targets.items.9.ex	彼は私に大きな影響を与えてくれた人です。
 vocab7.lists.0.targets.items.10.w	逆に
 vocab7.lists.0.targets.items.10.ex	1月の日本は冬で寒いが、逆にオーストラリアは夏で暑い。
@@ -7338,16 +7338,16 @@ vocab7.lists.0.targets.items.15.w	単に
 vocab7.lists.0.targets.items.15.ex	彼は病気なのではなく、ただ単に疲れているだけだそうだ。
 vocab7.lists.0.targets.items.16.w	{正直|しょうじき}
 vocab7.lists.0.targets.items.16.ex	{正直|しょうじき}言って、彼女はあまり親切ではない。
-vocab7.lists.0.targets.items.17.w	[～が]発展（する）
+vocab7.lists.0.targets.items.17.w	[〜が]発展（する）
 vocab7.lists.0.targets.items.17.ex	1960年代、日本経済は大きく発展した。
 vocab7.lists.0.targets.items.18.w	{基|き}{準|じゅん}
 vocab7.lists.0.targets.items.18.ex	食べ物の安全{基|き}{準|じゅん}は、国によって異なる。
-vocab7.lists.0.targets.items.19.w	[～に]似る
+vocab7.lists.0.targets.items.19.w	[〜に]似る
 vocab7.lists.0.targets.items.19.ex	私は母にとても似ているらしい。
 vocab7.lists.0.targets.items.20.w	勇気
 vocab7.lists.0.targets.items.20.ex	新しいビジネスを始めるのには勇気がいる。
 vocab7.lists.1.title	外国人留学生の思い
-vocab7.lists.1.rows.0.w	[～に]親しむ
+vocab7.lists.1.rows.0.w	[〜に]親しむ
 vocab7.lists.1.rows.0.yomi	したしむ
 vocab7.lists.1.rows.0.en	to be intimate
 vocab7.lists.1.rows.1.w	若者
@@ -7365,8 +7365,8 @@ vocab7.lists.1.rows.4.en	a word
 vocab7.lists.1.rows.5.w	彼ら
 vocab7.lists.1.rows.5.yomi	かれら
 vocab7.lists.1.rows.5.en	they
-vocab7.lists.1.rows.6.w	～ら
-vocab7.lists.1.rows.6.yomi	～ら
+vocab7.lists.1.rows.6.w	〜ら
+vocab7.lists.1.rows.6.yomi	〜ら
 vocab7.lists.1.rows.6.en	(a plural word or form)
 vocab7.lists.1.rows.7.w	不__満__
 vocab7.lists.1.rows.7.yomi	ふまん
@@ -7419,7 +7419,7 @@ vocab7.lists.1.rows.22.en	to share
 vocab7.lists.1.rows.23.w	だが
 vocab7.lists.1.rows.23.yomi	だが
 vocab7.lists.1.rows.23.en	however
-vocab7.lists.1.rows.24.w	[～に]__没頭__（する）
+vocab7.lists.1.rows.24.w	[〜に]__没頭__（する）
 vocab7.lists.1.rows.24.yomi	ぼっとう（する）
 vocab7.lists.1.rows.24.en	to lose oneself in
 vocab7.lists.1.rows.25.w	つぶやき
@@ -7449,7 +7449,7 @@ vocab7.lists.1.rows.32.en	community
 vocab7.lists.1.rows.33.w	__脱__出（する）
 vocab7.lists.1.rows.33.yomi	だっしゅつ（する）
 vocab7.lists.1.rows.33.en	to escape
-vocab7.lists.1.rows.34.w	[～と／～に]接触（する）
+vocab7.lists.1.rows.34.w	[〜と／〜に]接触（する）
 vocab7.lists.1.rows.34.yomi	せっしょく（する）
 vocab7.lists.1.rows.34.en	to contact
 vocab7.lists.1.rows.35.w	熱意
@@ -7461,13 +7461,13 @@ vocab7.lists.1.rows.36.en	to talk
 vocab7.lists.1.rows.37.w	建前
 vocab7.lists.1.rows.37.yomi	たてまえ
 vocab7.lists.1.rows.37.en	public stance
-vocab7.lists.1.rows.38.w	～的
-vocab7.lists.1.rows.38.yomi	～てき
+vocab7.lists.1.rows.38.w	〜的
+vocab7.lists.1.rows.38.yomi	〜てき
 vocab7.lists.1.rows.38.en	-ish; -tic
 vocab7.lists.1.rows.39.w	ポジティブな
 vocab7.lists.1.rows.39.yomi	ぽじてぃぶな
 vocab7.lists.1.rows.39.en	positive
-vocab7.lists.1.rows.40.w	[～に]反応（する）
+vocab7.lists.1.rows.40.w	[〜に]反応（する）
 vocab7.lists.1.rows.40.yomi	はんのう（する）
 vocab7.lists.1.rows.40.en	to react
 vocab7.lists.1.rows.41.w	__攻__め
@@ -7476,7 +7476,7 @@ vocab7.lists.1.rows.41.en	attack
 vocab7.lists.1.rows.42.w	さわやかに
 vocab7.lists.1.rows.42.yomi	さわやかに
 vocab7.lists.1.rows.42.en	breezy
-vocab7.lists.1.rows.43.w	[～に]回答（する）
+vocab7.lists.1.rows.43.w	[〜に]回答（する）
 vocab7.lists.1.rows.43.yomi	かいとう（する）
 vocab7.lists.1.rows.43.en	to answer
 vocab7.lists.1.rows.44.w	フォロー（する）
@@ -7485,7 +7485,7 @@ vocab7.lists.1.rows.44.en	to follow up
 vocab7.lists.1.rows.45.w	__素__早く
 vocab7.lists.1.rows.45.yomi	すばやく
 vocab7.lists.1.rows.45.en	quickly
-vocab7.lists.1.rows.46.w	[～に]応える
+vocab7.lists.1.rows.46.w	[〜に]応える
 vocab7.lists.1.rows.46.yomi	こたえる
 vocab7.lists.1.rows.46.en	to answer
 vocab7.lists.1.rows.47.w	__望__む
@@ -7497,16 +7497,16 @@ vocab7.lists.1.rows.48.en	open hearted
 vocab7.lists.1.rows.49.w	__珍__しく
 vocab7.lists.1.rows.49.yomi	めずらしく
 vocab7.lists.1.rows.49.en	unusually
-vocab7.lists.1.rows.50.w	[～に]感心（する）
+vocab7.lists.1.rows.50.w	[〜に]感心（する）
 vocab7.lists.1.rows.50.yomi	かんしん（する）
 vocab7.lists.1.rows.50.en	to admire
-vocab7.lists.1.rows.51.w	[～に]__戻__る
+vocab7.lists.1.rows.51.w	[〜に]__戻__る
 vocab7.lists.1.rows.51.yomi	もどる
 vocab7.lists.1.rows.51.en	to return
 vocab7.lists.1.rows.52.w	早__速__
 vocab7.lists.1.rows.52.yomi	さっそく
 vocab7.lists.1.rows.52.en	immediately
-vocab7.lists.1.rows.53.w	[～に]示す
+vocab7.lists.1.rows.53.w	[〜に]示す
 vocab7.lists.1.rows.53.yomi	しめす
 vocab7.lists.1.rows.53.en	to show
 vocab7.lists.1.rows.54.w	礼儀
@@ -7515,7 +7515,7 @@ vocab7.lists.1.rows.54.en	courtesy
 vocab7.lists.1.rows.55.w	長期
 vocab7.lists.1.rows.55.yomi	ちょうき
 vocab7.lists.1.rows.55.en	long term
-vocab7.lists.1.rows.56.w	[～に]返信（する）
+vocab7.lists.1.rows.56.w	[〜に]返信（する）
 vocab7.lists.1.rows.56.yomi	へんしん（する）
 vocab7.lists.1.rows.56.en	to reply
 vocab7.lists.1.rows.57.w	友情
@@ -7527,10 +7527,10 @@ vocab7.lists.1.rows.58.en	to betray
 vocab7.lists.1.rows.59.w	怒り
 vocab7.lists.1.rows.59.yomi	いかり
 vocab7.lists.1.rows.59.en	anger
-vocab7.lists.1.rows.60.w	[～に]失__望__（する）
+vocab7.lists.1.rows.60.w	[〜に]失__望__（する）
 vocab7.lists.1.rows.60.yomi	しつぼう（する）
 vocab7.lists.1.rows.60.en	to be disappointed
-vocab7.lists.1.rows.61.w	[～が]増す
+vocab7.lists.1.rows.61.w	[〜が]増す
 vocab7.lists.1.rows.61.yomi	ます
 vocab7.lists.1.rows.61.en	to increase [''vi.'']
 vocab7.lists.1.rows.62.w	期待外れ
@@ -7542,8 +7542,8 @@ vocab7.lists.1.rows.63.en	beginning
 vocab7.lists.1.rows.64.w	状__況__
 vocab7.lists.1.rows.64.yomi	じょうきょう
 vocab7.lists.1.rows.64.en	situation
-vocab7.lists.1.rows.65.w	__各__～
-vocab7.lists.1.rows.65.yomi	かく～
+vocab7.lists.1.rows.65.w	__各__〜
+vocab7.lists.1.rows.65.yomi	かく〜
 vocab7.lists.1.rows.65.en	each ~
 vocab7.lists.1.rows.66.w	自治体
 vocab7.lists.1.rows.66.yomi	じちたい
@@ -7551,8 +7551,8 @@ vocab7.lists.1.rows.66.en	local government
 vocab7.lists.1.rows.67.w	政__策__
 vocab7.lists.1.rows.67.yomi	せいさく
 vocab7.lists.1.rows.67.en	political measures
-vocab7.lists.1.rows.68.w	～によって
-vocab7.lists.1.rows.68.yomi	～によって
+vocab7.lists.1.rows.68.w	〜によって
+vocab7.lists.1.rows.68.yomi	〜によって
 vocab7.lists.1.rows.68.en	by ~
 vocab7.lists.1.rows.69.w	国際性
 vocab7.lists.1.rows.69.yomi	こくさいせい
@@ -7566,7 +7566,7 @@ vocab7.lists.1.rows.71.en	mind; way of thinking
 vocab7.lists.1.rows.72.w	__徐__々に
 vocab7.lists.1.rows.72.yomi	じょじょに
 vocab7.lists.1.rows.72.en	gradually
-vocab7.lists.1.rows.73.w	[～に]なじむ
+vocab7.lists.1.rows.73.w	[〜に]なじむ
 vocab7.lists.1.rows.73.yomi	なじむ
 vocab7.lists.1.rows.73.en	to be familiar
 vocab7.lists.1.rows.74.w	__築__く
@@ -7591,13 +7591,13 @@ vocab7.lists.1.targets.items.6.w	共有（する）
 vocab7.lists.1.targets.items.6.ex	寮ではキッチンをみんなで共有して使っている。
 vocab7.lists.1.targets.items.7.w	現実
 vocab7.lists.1.targets.items.7.ex	夢は歌手になることだが、現実は{厳|きび}しい。
-vocab7.lists.1.targets.items.8.w	[～と／～に]接触（する）
+vocab7.lists.1.targets.items.8.w	[〜と／〜に]接触（する）
 vocab7.lists.1.targets.items.8.ex	インフルエンザの時は、お{年|とし}{寄|よ}りと接触しないようにすべきだ。
 vocab7.lists.1.targets.items.9.w	熱意
 vocab7.lists.1.targets.items.9.ex	店長は彼の熱意を感じて、社員として採用することにした。
-vocab7.lists.1.targets.items.10.w	[～に]反応（する）
+vocab7.lists.1.targets.items.10.w	[〜に]反応（する）
 vocab7.lists.1.targets.items.10.ex	私が飼っている犬は「{散|さん}{歩|ぽ}」という言葉に反応する。
-vocab7.lists.1.targets.items.11.w	[～に]回答（する）
+vocab7.lists.1.targets.items.11.w	[〜に]回答（する）
 vocab7.lists.1.targets.items.11.ex	金曜日までにこのアンケートに回答してください。
 vocab7.lists.1.targets.items.12.w	素早く
 vocab7.lists.1.targets.items.12.ex	ホテルに忘れ物をした時、スタッフが素早く対応してくれて、助かった。
@@ -7605,13 +7605,13 @@ vocab7.lists.1.targets.items.13.w	望む
 vocab7.lists.1.targets.items.13.ex	幸せを望まない人はいないだろう。
 vocab7.lists.1.targets.items.14.w	早速
 vocab7.lists.1.targets.items.14.ex	友達からすすめられたアプリを早速ダウンロードしてみた。
-vocab7.lists.1.targets.items.15.w	[～に]示す
+vocab7.lists.1.targets.items.15.w	[〜に]示す
 vocab7.lists.1.targets.items.15.ex	先輩は後輩の私たちに進むべき道を示してくれた。
-vocab7.lists.1.targets.items.16.w	[～に]返信（する）
+vocab7.lists.1.targets.items.16.w	[〜に]返信（する）
 vocab7.lists.1.targets.items.16.ex	彼は私が送ったメールにすぐ返信してくれる。
 vocab7.lists.1.targets.items.17.w	裏切る
 vocab7.lists.1.targets.items.17.ex	友達だと思っていた人に裏切られた経験があります。
-vocab7.lists.1.targets.items.18.w	[～に]失望（する）
+vocab7.lists.1.targets.items.18.w	[〜に]失望（する）
 vocab7.lists.1.targets.items.18.ex	就職活動に失敗して、自分自身に失望した。
 vocab7.lists.1.targets.items.19.w	状況
 vocab7.lists.1.targets.items.19.ex	食べ物も十分に買えない状況で、本を買うのは無理だ。
@@ -7643,7 +7643,7 @@ vocab8.lists.0.rows.5.en	the first place
 vocab8.lists.0.rows.6.w	おもてなし
 vocab8.lists.0.rows.6.yomi	おもてなし
 vocab8.lists.0.rows.6.en	hospitality; service
-vocab8.lists.0.rows.7.w	[～に]__到__着（する）
+vocab8.lists.0.rows.7.w	[〜に]__到__着（する）
 vocab8.lists.0.rows.7.yomi	とうちゃく（する）
 vocab8.lists.0.rows.7.en	to arrive
 vocab8.lists.0.rows.8.w	お__迎__え
@@ -7676,7 +7676,7 @@ vocab8.lists.0.rows.16.en	powdered green tea
 vocab8.lists.0.rows.17.w	少なくとも
 vocab8.lists.0.rows.17.yomi	すくなくとも
 vocab8.lists.0.rows.17.en	at least
-vocab8.lists.0.rows.18.w	[～に]出入り（する）
+vocab8.lists.0.rows.18.w	[〜に]出入り（する）
 vocab8.lists.0.rows.18.yomi	でいり（する）
 vocab8.lists.0.rows.18.en	to go in and out
 vocab8.lists.0.rows.19.w	状__態__
@@ -7727,7 +7727,7 @@ vocab8.lists.0.rows.33.en	always
 vocab8.lists.0.rows.34.w	先回り（する）
 vocab8.lists.0.rows.34.yomi	さきまわり（する）
 vocab8.lists.0.rows.34.en	to anticipate
-vocab8.lists.0.rows.35.w	[～に]__提__供（する）
+vocab8.lists.0.rows.35.w	[〜に]__提__供（する）
 vocab8.lists.0.rows.35.yomi	ていきょう（する）
 vocab8.lists.0.rows.35.en	to provide [''vt.'']
 vocab8.lists.0.rows.36.w	策を練る
@@ -7745,11 +7745,11 @@ vocab8.lists.0.rows.39.en	truth
 vocab8.lists.0.rows.40.w	先代
 vocab8.lists.0.rows.40.yomi	せんだい
 vocab8.lists.0.rows.40.en	predecessor
-vocab8.lists.0.rows.41.w	[～に]満足（する）
+vocab8.lists.0.rows.41.w	[〜に]満足（する）
 vocab8.lists.0.rows.41.yomi	まんぞく（する）
 vocab8.lists.0.rows.41.en	to satisfy
-vocab8.lists.0.rows.42.w	満足のいく～
-vocab8.lists.0.rows.42.yomi	まんぞくのいく～
+vocab8.lists.0.rows.42.w	満足のいく〜
+vocab8.lists.0.rows.42.yomi	まんぞくのいく〜
 vocab8.lists.0.rows.42.en	satisfying ~
 vocab8.lists.0.rows.43.w	近年
 vocab8.lists.0.rows.43.yomi	きんねん
@@ -7772,7 +7772,7 @@ vocab8.lists.0.rows.48.en	lavatory; washroom
 vocab8.lists.0.rows.49.w	枕
 vocab8.lists.0.rows.49.yomi	まくら
 vocab8.lists.0.rows.49.en	pillow
-vocab8.lists.0.rows.50.w	[～に]感激（する）
+vocab8.lists.0.rows.50.w	[〜に]感激（する）
 vocab8.lists.0.rows.50.yomi	かんげき（する）
 vocab8.lists.0.rows.50.en	to be deeply moved
 vocab8.lists.0.rows.51.w	満点
@@ -7810,7 +7810,7 @@ vocab8.lists.0.rows.61.yomi	みがきあげる
 vocab8.lists.0.rows.61.en	to polish up
 vocab8.lists.0.targets.items.0.w	おもてなし
 vocab8.lists.0.targets.items.0.ex	家に来た客にお茶とお{菓子|かし}を出すのは「おもてなし」の一つだ。
-vocab8.lists.0.targets.items.1.w	[～に]到着（する）
+vocab8.lists.0.targets.items.1.w	[〜に]到着（する）
 vocab8.lists.0.targets.items.1.ex	飛行機が時間通りに空港に到着した。
 vocab8.lists.0.targets.items.2.w	肩
 vocab8.lists.0.targets.items.2.ex	{息子|むすこ}は私の肩ぐらいの{背|せ}の高さだ。
@@ -7830,15 +7830,15 @@ vocab8.lists.0.targets.items.9.w	基本
 vocab8.lists.0.targets.items.9.ex	どんなことでも、まず基本から始めるべきだ。
 vocab8.lists.0.targets.items.10.w	常に
 vocab8.lists.0.targets.items.10.ex	常に笑顔でお客様に接することが大切だ。
-vocab8.lists.0.targets.items.11.w	[～に]提供（する）
+vocab8.lists.0.targets.items.11.w	[〜に]提供（する）
 vocab8.lists.0.targets.items.11.ex	{警察|けいさつ}に{犯人|はんにん}の情報を提供した。
 vocab8.lists.0.targets.items.12.w	策を{練|ね}る
 vocab8.lists.0.targets.items.12.ex	サッカーの試合で{勝|か}てるように策を{練|ね}った。
 vocab8.lists.0.targets.items.13.w	喜ぶ
 vocab8.lists.0.targets.items.13.ex	母にプレゼントを{渡|わた}したら、とても喜んでくれた。
-vocab8.lists.0.targets.items.14.w	[～に]満足（する）
+vocab8.lists.0.targets.items.14.w	[〜に]満足（する）
 vocab8.lists.0.targets.items.14.ex	今の生活に満足しています。
-vocab8.lists.0.targets.items.15.w	[～に]感激（する）
+vocab8.lists.0.targets.items.15.w	[〜に]感激（する）
 vocab8.lists.0.targets.items.15.ex	友人の優しさに感激しました。
 vocab8.lists.0.targets.items.16.w	形
 vocab8.lists.0.targets.items.16.ex	りんごをウサギの形に切ってみました。
@@ -7911,7 +7911,7 @@ vocab8.lists.1.rows.18.en	The darkest place is under the candlestick
 vocab8.lists.1.rows.19.w	灯台
 vocab8.lists.1.rows.19.yomi	とうだい
 vocab8.lists.1.rows.19.en	lighthouse
-vocab8.lists.1.rows.20.w	[～に]目をつける
+vocab8.lists.1.rows.20.w	[〜に]目をつける
 vocab8.lists.1.rows.20.yomi	めをつける
 vocab8.lists.1.rows.20.en	to have an eye on
 vocab8.lists.1.rows.21.w	__宇宙__
@@ -7932,7 +7932,7 @@ vocab8.lists.1.rows.25.en	beauty
 vocab8.lists.1.rows.26.w	美意識
 vocab8.lists.1.rows.26.yomi	びいしき
 vocab8.lists.1.rows.26.en	sense of beauty
-vocab8.lists.1.rows.27.w	[～に]息づく
+vocab8.lists.1.rows.27.w	[〜に]息づく
 vocab8.lists.1.rows.27.yomi	いきづく
 vocab8.lists.1.rows.27.en	to be alive
 vocab8.lists.1.rows.28.w	お昼
@@ -7950,7 +7950,7 @@ vocab8.lists.1.rows.31.en	container
 vocab8.lists.1.rows.32.w	__栄養__
 vocab8.lists.1.rows.32.yomi	えいよう
 vocab8.lists.1.rows.32.en	nutrition
-vocab8.lists.1.rows.33.w	[～に]配__慮__（する）
+vocab8.lists.1.rows.33.w	[〜に]配__慮__（する）
 vocab8.lists.1.rows.33.yomi	はいりょ（する）
 vocab8.lists.1.rows.33.en	to consider
 vocab8.lists.1.rows.34.w	彩り
@@ -7959,7 +7959,7 @@ vocab8.lists.1.rows.34.en	coloring
 vocab8.lists.1.rows.35.w	おかず
 vocab8.lists.1.rows.35.yomi	おかず
 vocab8.lists.1.rows.35.en	side dish
-vocab8.lists.1.rows.36.w	[～に]__詰__める
+vocab8.lists.1.rows.36.w	[〜に]__詰__める
 vocab8.lists.1.rows.36.yomi	つめる
 vocab8.lists.1.rows.36.en	to fill; to stuff [''vt.'']
 vocab8.lists.1.rows.37.w	待ちきれない
@@ -8016,8 +8016,8 @@ vocab8.lists.1.rows.53.en	to develop
 vocab8.lists.1.rows.54.w	こけし
 vocab8.lists.1.rows.54.yomi	こけし
 vocab8.lists.1.rows.54.en	kokeshi doll
-vocab8.lists.1.rows.55.w	～風
-vocab8.lists.1.rows.55.yomi	～ふう
+vocab8.lists.1.rows.55.w	〜風
+vocab8.lists.1.rows.55.yomi	〜ふう
 vocab8.lists.1.rows.55.en	~ style; ~ type
 vocab8.lists.1.rows.56.w	雑__貨__
 vocab8.lists.1.rows.56.yomi	ざっか
@@ -8025,8 +8025,8 @@ vocab8.lists.1.rows.56.en	miscellaneous goods
 vocab8.lists.1.rows.57.w	お椀
 vocab8.lists.1.rows.57.yomi	おわん
 vocab8.lists.1.rows.57.en	bowl
-vocab8.lists.1.rows.58.w	～__型__
-vocab8.lists.1.rows.58.yomi	～がた
+vocab8.lists.1.rows.58.w	〜__型__
+vocab8.lists.1.rows.58.yomi	〜がた
 vocab8.lists.1.rows.58.en	~ type; ~ model
 vocab8.lists.1.rows.59.w	発案（する）
 vocab8.lists.1.rows.59.yomi	はつあん（する）
@@ -8061,7 +8061,7 @@ vocab8.lists.1.rows.68.en	to line up; to put in order [''vt.'']
 vocab8.lists.1.rows.69.w	伝__統__的な
 vocab8.lists.1.rows.69.yomi	でんとうてきな
 vocab8.lists.1.rows.69.en	traditional
-vocab8.lists.1.rows.70.w	[～に]こだわる
+vocab8.lists.1.rows.70.w	[〜に]こだわる
 vocab8.lists.1.rows.70.yomi	こだわる
 vocab8.lists.1.rows.70.en	to be particular about; to stick to
 vocab8.lists.1.rows.71.w	杉
@@ -8094,7 +8094,7 @@ vocab8.lists.1.rows.79.en	screen printing; silk screen
 vocab8.lists.1.rows.80.w	技法
 vocab8.lists.1.rows.80.yomi	ぎほう
 vocab8.lists.1.rows.80.en	techniques
-vocab8.lists.1.rows.81.w	[～に]取り入れる
+vocab8.lists.1.rows.81.w	[〜に]取り入れる
 vocab8.lists.1.rows.81.yomi	とりいれる
 vocab8.lists.1.rows.81.en	to adopt [''vt.'']
 vocab8.lists.1.rows.82.w	職人
@@ -8128,7 +8128,7 @@ vocab8.lists.1.targets.items.0.w	温める
 vocab8.lists.1.targets.items.0.ex	コンビニで買った弁当を温めた。
 vocab8.lists.1.targets.items.1.w	弁当箱
 vocab8.lists.1.targets.items.1.ex	あの店では様々な種類の弁当箱が売られている。
-vocab8.lists.1.targets.items.2.w	[～に]目をつける
+vocab8.lists.1.targets.items.2.w	[〜に]目をつける
 vocab8.lists.1.targets.items.2.ex	日本の「カワイイ文化」に目をつけて、ビジネスを始めた。
 vocab8.lists.1.targets.items.3.w	限られた
 vocab8.lists.1.targets.items.3.ex	限られた時間の中で何ができるだろうか。
@@ -8138,9 +8138,9 @@ vocab8.lists.1.targets.items.5.w	容器
 vocab8.lists.1.targets.items.5.ex	プラスチック容器にサンドイッチを入れました。
 vocab8.lists.1.targets.items.6.w	栄養
 vocab8.lists.1.targets.items.6.ex	栄養のバランスを考えながら食べてください。
-vocab8.lists.1.targets.items.7.w	[～に]配慮（する）
+vocab8.lists.1.targets.items.7.w	[〜に]配慮（する）
 vocab8.lists.1.targets.items.7.ex	バリアフリー社会で大切なのは、体が不自由な人に配慮することだ。
-vocab8.lists.1.targets.items.8.w	[～に]詰める
+vocab8.lists.1.targets.items.8.w	[〜に]詰める
 vocab8.lists.1.targets.items.8.ex	スーツケースに{荷物|にもつ}を詰めた。
 vocab8.lists.1.targets.items.9.w	瞬間
 vocab8.lists.1.targets.items.9.ex	彼が話し始めた瞬間、会場が{静|しず}かになった。
@@ -8154,13 +8154,13 @@ vocab8.lists.1.targets.items.13.w	共同
 vocab8.lists.1.targets.items.13.ex	寮ではシャワーを共同で使っています。
 vocab8.lists.1.targets.items.14.w	開発（する）
 vocab8.lists.1.targets.items.14.ex	私の夢は新しいタイプの車を開発することです。
-vocab8.lists.1.targets.items.15.w	～型
+vocab8.lists.1.targets.items.15.w	〜型
 vocab8.lists.1.targets.items.15.ex	星型のクッキーをたくさん作った。
-vocab8.lists.1.targets.items.16.w	[～に]並べる
+vocab8.lists.1.targets.items.16.w	[〜に]並べる
 vocab8.lists.1.targets.items.16.ex	コンビニ店員の仕事は店に商品を並べるだけではありません。
 vocab8.lists.1.targets.items.17.w	伝統的な
 vocab8.lists.1.targets.items.17.ex	日本の伝統的なスポーツと言えば、すもうだ。
-vocab8.lists.1.targets.items.18.w	[～に]こだわる
+vocab8.lists.1.targets.items.18.w	[〜に]こだわる
 vocab8.lists.1.targets.items.18.ex	彼女は食べ物にこだわっていてオーガニックのものしか食べない。
 vocab8.lists.1.targets.items.19.w	職人
 vocab8.lists.1.targets.items.19.ex	すし職人になるためには、様々な技術を習得する必要がある。
@@ -8217,8 +8217,8 @@ vocab9.lists.0.rows.14.en	time
 vocab9.lists.0.rows.15.w	そんなもの
 vocab9.lists.0.rows.15.yomi	そんなもの
 vocab9.lists.0.rows.15.en	things like that
-vocab9.lists.0.rows.16.w	それほど～ない
-vocab9.lists.0.rows.16.yomi	それほど～ない
+vocab9.lists.0.rows.16.w	それほど〜ない
+vocab9.lists.0.rows.16.yomi	それほど〜ない
 vocab9.lists.0.rows.16.en	not so ~
 vocab9.lists.0.rows.17.w	とにかく
 vocab9.lists.0.rows.17.yomi	とにかく
@@ -8232,11 +8232,11 @@ vocab9.lists.0.rows.19.en	entire; complete
 vocab9.lists.0.rows.20.w	ひとりぼっち
 vocab9.lists.0.rows.20.yomi	ひとりぼっち
 vocab9.lists.0.rows.20.en	loneliness; solitude
-vocab9.lists.0.rows.21.w	__誰__も～ない
-vocab9.lists.0.rows.21.yomi	だれも～ない
+vocab9.lists.0.rows.21.w	__誰__も〜ない
+vocab9.lists.0.rows.21.yomi	だれも〜ない
 vocab9.lists.0.rows.21.en	nobody ~
-vocab9.lists.0.rows.22.w	～かい
-vocab9.lists.0.rows.22.yomi	～かい
+vocab9.lists.0.rows.22.w	〜かい
+vocab9.lists.0.rows.22.yomi	〜かい
 vocab9.lists.0.rows.22.en	(marks yes-no question)
 vocab9.lists.0.rows.23.w	__想像__（する）
 vocab9.lists.0.rows.23.yomi	そうぞう（する）
@@ -8250,8 +8250,8 @@ vocab9.lists.0.rows.25.en	completely dark
 vocab9.lists.0.rows.26.w	物音
 vocab9.lists.0.rows.26.yomi	ものおと
 vocab9.lists.0.rows.26.en	noise; sound
-vocab9.lists.0.rows.27.w	ひとつ～ない
-vocab9.lists.0.rows.27.yomi	ひとつ～ない
+vocab9.lists.0.rows.27.w	ひとつ〜ない
+vocab9.lists.0.rows.27.yomi	ひとつ〜ない
 vocab9.lists.0.rows.27.en	no ~
 vocab9.lists.0.rows.28.w	__針__
 vocab9.lists.0.rows.28.yomi	はり
@@ -8259,8 +8259,8 @@ vocab9.lists.0.rows.28.en	clock hand; needle
 vocab9.lists.0.rows.29.w	__刻__む
 vocab9.lists.0.rows.29.yomi	きざむ
 vocab9.lists.0.rows.29.en	to tick
-vocab9.lists.0.rows.30.w	～だって
-vocab9.lists.0.rows.30.yomi	～だって
+vocab9.lists.0.rows.30.w	〜だって
+vocab9.lists.0.rows.30.yomi	〜だって
 vocab9.lists.0.rows.30.en	even
 vocab9.lists.0.rows.31.w	隔てる
 vocab9.lists.0.rows.31.yomi	へだてる
@@ -8268,7 +8268,7 @@ vocab9.lists.0.rows.31.en	to part; to separate [''vt.'']
 vocab9.lists.0.rows.32.w	__引__き離す
 vocab9.lists.0.rows.32.yomi	ひきはなす
 vocab9.lists.0.rows.32.en	to pull apart; to separate
-vocab9.lists.0.rows.33.w	[～に]声をかける
+vocab9.lists.0.rows.33.w	[〜に]声をかける
 vocab9.lists.0.rows.33.yomi	こえをかける
 vocab9.lists.0.rows.33.en	to call to
 vocab9.lists.0.rows.34.w	思い出す
@@ -8283,14 +8283,14 @@ vocab9.lists.0.rows.36.en	iron
 vocab9.lists.0.rows.37.w	__底__
 vocab9.lists.0.rows.37.yomi	そこ
 vocab9.lists.0.rows.37.en	bottom
-vocab9.lists.0.rows.38.w	[～を]__沈__める
+vocab9.lists.0.rows.38.w	[〜を]__沈__める
 vocab9.lists.0.rows.38.yomi	しずめる
 vocab9.lists.0.rows.38.en	to sink; to submerge [''vt.'']
 vocab9.lists.0.rows.39.w	気__圧__
 vocab9.lists.0.rows.39.yomi	きあつ
 vocab9.lists.0.rows.39.en	atmospheric pressure
-vocab9.lists.0.rows.40.w	～せいで
-vocab9.lists.0.rows.40.yomi	～せいで
+vocab9.lists.0.rows.40.w	〜せいで
+vocab9.lists.0.rows.40.yomi	〜せいで
 vocab9.lists.0.rows.40.en	because of ~
 vocab9.lists.0.rows.41.w	心__臓__
 vocab9.lists.0.rows.41.yomi	しんぞう
@@ -8298,7 +8298,7 @@ vocab9.lists.0.rows.41.en	heart
 vocab9.lists.0.rows.42.w	びりびり（と）
 vocab9.lists.0.rows.42.yomi	びりびり（と）
 vocab9.lists.0.rows.42.en	(sound of tearing up)
-vocab9.lists.0.rows.43.w	[～が]張り裂ける
+vocab9.lists.0.rows.43.w	[〜が]張り裂ける
 vocab9.lists.0.rows.43.yomi	はりさける
 vocab9.lists.0.rows.43.en	to burst; to break [''vi.'']
 vocab9.lists.0.rows.44.w	うなずく
@@ -8349,19 +8349,19 @@ vocab9.lists.0.rows.58.en	fixedly
 vocab9.lists.0.rows.59.w	耳を澄ます
 vocab9.lists.0.rows.59.yomi	みみをすます
 vocab9.lists.0.rows.59.en	to listen carefully
-vocab9.lists.0.rows.60.w	[～が]痛む
+vocab9.lists.0.rows.60.w	[〜が]痛む
 vocab9.lists.0.rows.60.yomi	いたむ
 vocab9.lists.0.rows.60.en	to hurt [''vi.'']
 vocab9.lists.0.rows.61.w	海面
 vocab9.lists.0.rows.61.yomi	かいめん
 vocab9.lists.0.rows.61.en	sea surface
-vocab9.lists.0.rows.62.w	[～へ／～に]__向__けて
+vocab9.lists.0.rows.62.w	[〜へ／〜に]__向__けて
 vocab9.lists.0.rows.62.yomi	むけて
 vocab9.lists.0.rows.62.en	toward ~
-vocab9.lists.0.rows.63.w	[～が]__浮__かび上がる
+vocab9.lists.0.rows.63.w	[〜が]__浮__かび上がる
 vocab9.lists.0.rows.63.yomi	うかびあがる
 vocab9.lists.0.rows.63.en	to come to the surface
-vocab9.lists.0.rows.64.w	[～が]__浮__かぶ
+vocab9.lists.0.rows.64.w	[〜が]__浮__かぶ
 vocab9.lists.0.rows.64.yomi	うかぶ
 vocab9.lists.0.rows.64.en	to float [''vi.'']
 vocab9.lists.0.rows.65.w	微かな
@@ -8385,9 +8385,9 @@ vocab9.lists.0.targets.items.4.w	正確な
 vocab9.lists.0.targets.items.4.ex	インターネットで調べた情報は正確かどうかわからない。
 vocab9.lists.0.targets.items.5.w	時刻
 vocab9.lists.0.targets.items.5.ex	日本の地下鉄は時刻表通りに来る。
-vocab9.lists.0.targets.items.6.w	誰も～ない
+vocab9.lists.0.targets.items.6.w	誰も〜ない
 vocab9.lists.0.targets.items.6.ex	そのパーティーには知っている人が誰もいなかった。
-vocab9.lists.0.targets.items.7.w	[～に]声をかける
+vocab9.lists.0.targets.items.7.w	[〜に]声をかける
 vocab9.lists.0.targets.items.7.ex	落ち込んでいる友達に声をかけた。
 vocab9.lists.0.targets.items.8.w	思い出す
 vocab9.lists.0.targets.items.8.ex	メールアカウントのパスワードが思い出せなくて{困|こま}った。
@@ -8395,7 +8395,7 @@ vocab9.lists.0.targets.items.9.w	存在（する）
 vocab9.lists.0.targets.items.9.ex	UFOの存在を信じますか。
 vocab9.lists.0.targets.items.10.w	底
 vocab9.lists.0.targets.items.10.ex	探していたペンはかばんの底にあった。
-vocab9.lists.0.targets.items.11.w	[～を]沈める
+vocab9.lists.0.targets.items.11.w	[〜を]沈める
 vocab9.lists.0.targets.items.11.ex	5歳の{息子|むすこ}はお{風呂|ふろ}でおもちゃを沈めて遊んでいた。
 vocab9.lists.0.targets.items.12.w	うなずく
 vocab9.lists.0.targets.items.12.ex	彼は時々うなずきながら私の話を聞いてくれた。
@@ -8409,9 +8409,9 @@ vocab9.lists.0.targets.items.16.w	間を置く
 vocab9.lists.0.targets.items.16.ex	重要なことは少し間を置いてから話すようにしている。
 vocab9.lists.0.targets.items.17.w	じっと
 vocab9.lists.0.targets.items.17.ex	子どもはじっと人の話を聞くのが苦手だ。
-vocab9.lists.0.targets.items.18.w	[～へ／～に]向けて
+vocab9.lists.0.targets.items.18.w	[〜へ／〜に]向けて
 vocab9.lists.0.targets.items.18.ex	バスは目的地の{京都|きょうと}へ向けて出発した。
-vocab9.lists.0.targets.items.19.w	[～が]浮かぶ
+vocab9.lists.0.targets.items.19.w	[〜が]浮かぶ
 vocab9.lists.0.targets.items.19.ex	海にボートがたくさん浮かんでいる。
 vocab9.lists.1.title	愛と{恐怖|きょうふ}
 vocab9.lists.1.rows.0.w	恐__怖__
@@ -8450,14 +8450,14 @@ vocab9.lists.1.rows.10.en	to sleep
 vocab9.lists.1.rows.11.w	__枕__
 vocab9.lists.1.rows.11.yomi	まくら
 vocab9.lists.1.rows.11.en	pillow
-vocab9.lists.1.rows.12.w	[～に]のせる
+vocab9.lists.1.rows.12.w	[〜に]のせる
 vocab9.lists.1.rows.12.yomi	のせる
 vocab9.lists.1.rows.12.en	to put on [''vt.'']
 vocab9.lists.1.rows.13.w	__翌__朝
 vocab9.lists.1.rows.13.yomi	よくあさ
 vocab9.lists.1.rows.13.en	next morning
-vocab9.lists.1.rows.14.w	～だの
-vocab9.lists.1.rows.14.yomi	～だの
+vocab9.lists.1.rows.14.w	〜だの
+vocab9.lists.1.rows.14.yomi	〜だの
 vocab9.lists.1.rows.14.en	and the like
 vocab9.lists.1.rows.15.w	__腕__
 vocab9.lists.1.rows.15.yomi	うで
@@ -8483,17 +8483,17 @@ vocab9.lists.1.rows.21.en	to be hesitate; to get scared
 vocab9.lists.1.rows.22.w	さりげなく
 vocab9.lists.1.rows.22.yomi	さりげなく
 vocab9.lists.1.rows.22.en	in a casual manner
-vocab9.lists.1.rows.23.w	[～に]入りこむ
+vocab9.lists.1.rows.23.w	[〜に]入りこむ
 vocab9.lists.1.rows.23.yomi	はいりこむ
 vocab9.lists.1.rows.23.en	to get into
-vocab9.lists.1.rows.24.w	～__暮__らし
-vocab9.lists.1.rows.24.yomi	～ぐらし
+vocab9.lists.1.rows.24.w	〜__暮__らし
+vocab9.lists.1.rows.24.yomi	〜ぐらし
 vocab9.lists.1.rows.24.en	~ life
 vocab9.lists.1.rows.25.w	日中
 vocab9.lists.1.rows.25.yomi	にっちゅう
 vocab9.lists.1.rows.25.en	during the daytime
-vocab9.lists.1.rows.26.w	～とも
-vocab9.lists.1.rows.26.yomi	～とも
+vocab9.lists.1.rows.26.w	〜とも
+vocab9.lists.1.rows.26.yomi	〜とも
 vocab9.lists.1.rows.26.en	all ~; all of the ~
 vocab9.lists.1.rows.27.w	それぞれの
 vocab9.lists.1.rows.27.yomi	それぞれの
@@ -8513,7 +8513,7 @@ vocab9.lists.1.rows.31.en	to wrench (one’s heart)
 vocab9.lists.1.rows.32.w	鳴く
 vocab9.lists.1.rows.32.yomi	なく
 vocab9.lists.1.rows.32.en	(animals) to cry
-vocab9.lists.1.rows.33.w	[～が]交代（する）
+vocab9.lists.1.rows.33.w	[〜が]交代（する）
 vocab9.lists.1.rows.33.yomi	こうたい（する）
 vocab9.lists.1.rows.33.en	to take turns [''vi.'']
 vocab9.lists.1.rows.34.w	あっさりした
@@ -8543,7 +8543,7 @@ vocab9.lists.1.rows.41.en	direction; field
 vocab9.lists.1.rows.42.w	想像力
 vocab9.lists.1.rows.42.yomi	そうぞうりょく
 vocab9.lists.1.rows.42.en	imagination
-vocab9.lists.1.rows.43.w	[～が]増大（する）
+vocab9.lists.1.rows.43.w	[〜が]増大（する）
 vocab9.lists.1.rows.43.yomi	ぞうだい（する）
 vocab9.lists.1.rows.43.en	to get larger [''vi.'']
 vocab9.lists.1.rows.44.w	南部鉄
@@ -8579,7 +8579,7 @@ vocab9.lists.1.rows.53.en	bookshelf
 vocab9.lists.1.rows.54.w	崩れかかる
 vocab9.lists.1.rows.54.yomi	くずれかかる
 vocab9.lists.1.rows.54.en	to collapse onto
-vocab9.lists.1.rows.55.w	[～に]__埋__もれる
+vocab9.lists.1.rows.55.w	[〜に]__埋__もれる
 vocab9.lists.1.rows.55.yomi	うもれる
 vocab9.lists.1.rows.55.en	to be buried
 vocab9.lists.1.rows.56.w	やけど（する）
@@ -8603,7 +8603,7 @@ vocab9.lists.1.rows.61.en	to put back
 vocab9.lists.1.rows.62.w	地__震__
 vocab9.lists.1.rows.62.yomi	じしん
 vocab9.lists.1.rows.62.en	earthquake
-vocab9.lists.1.rows.63.w	[～が]__倒__れる
+vocab9.lists.1.rows.63.w	[〜が]__倒__れる
 vocab9.lists.1.rows.63.yomi	たおれる
 vocab9.lists.1.rows.63.en	to fall down [''vi.'']
 vocab9.lists.1.rows.64.w	__細__工（する）
@@ -8615,10 +8615,10 @@ vocab9.lists.1.rows.65.en	to push down [''vt.'']
 vocab9.lists.1.rows.66.w	世
 vocab9.lists.1.rows.66.yomi	よ
 vocab9.lists.1.rows.66.en	world
-vocab9.lists.1.rows.67.w	～がた
-vocab9.lists.1.rows.67.yomi	～がた
+vocab9.lists.1.rows.67.w	〜がた
+vocab9.lists.1.rows.67.yomi	〜がた
 vocab9.lists.1.rows.67.en	(honorific pluralizing suffix used for people)
-vocab9.lists.1.rows.68.w	[～が]成長（する）
+vocab9.lists.1.rows.68.w	[〜が]成長（する）
 vocab9.lists.1.rows.68.yomi	せいちょう（する）
 vocab9.lists.1.rows.68.en	to grow [''vi.'']
 vocab9.lists.1.rows.69.w	おそれる
@@ -8639,8 +8639,8 @@ vocab9.lists.1.rows.73.en	laundry
 vocab9.lists.1.rows.74.w	とりこむ
 vocab9.lists.1.rows.74.yomi	とりこむ
 vocab9.lists.1.rows.74.en	to bring in
-vocab9.lists.1.rows.75.w	～とか
-vocab9.lists.1.rows.75.yomi	～とか
+vocab9.lists.1.rows.75.w	〜とか
+vocab9.lists.1.rows.75.yomi	〜とか
 vocab9.lists.1.rows.75.en	~ or
 vocab9.lists.1.rows.76.w	ぴかぴか（に）
 vocab9.lists.1.rows.76.yomi	ぴかぴか（に）
@@ -8651,7 +8651,7 @@ vocab9.lists.1.rows.77.en	to clean
 vocab9.lists.1.rows.78.w	楽天的な
 vocab9.lists.1.rows.78.yomi	らくてんてきな
 vocab9.lists.1.rows.78.en	optimistic
-vocab9.lists.1.rows.79.w	[～が]転__倒__（する）
+vocab9.lists.1.rows.79.w	[〜が]転__倒__（する）
 vocab9.lists.1.rows.79.yomi	てんとう（する）
 vocab9.lists.1.rows.79.en	to fall down [''vi.'']
 vocab9.lists.1.rows.80.w	思いつく
@@ -8660,7 +8660,7 @@ vocab9.lists.1.rows.80.en	to think of; to come up with
 vocab9.lists.1.rows.81.w	悲観（する）
 vocab9.lists.1.rows.81.yomi	ひかん（する）
 vocab9.lists.1.rows.81.en	pessimism; disappointment
-vocab9.lists.1.rows.82.w	[～に]属する
+vocab9.lists.1.rows.82.w	[〜に]属する
 vocab9.lists.1.rows.82.yomi	ぞくする
 vocab9.lists.1.rows.82.en	to belong to
 vocab9.lists.1.rows.83.w	児童
@@ -8677,7 +8677,7 @@ vocab9.lists.1.targets.items.2.w	事件
 vocab9.lists.1.targets.items.2.ex	{殺人|さつじん}のような怖い事件が起きないといいんですが。
 vocab9.lists.1.targets.items.3.w	腕
 vocab9.lists.1.targets.items.3.ex	運動をしすぎたせいか、腕が痛い。
-vocab9.lists.1.targets.items.4.w	～暮らし
+vocab9.lists.1.targets.items.4.w	〜暮らし
 vocab9.lists.1.targets.items.4.ex	大学に入って以来、一人暮らしをしています。
 vocab9.lists.1.targets.items.5.w	胸
 vocab9.lists.1.targets.items.5.ex	悲しいニュースを聞くたびに胸が痛くなります。
@@ -8689,7 +8689,7 @@ vocab9.lists.1.targets.items.8.w	引く
 vocab9.lists.1.targets.items.8.ex	そのドアは押すのではなく引いてください。
 vocab9.lists.1.targets.items.9.w	おぼれる
 vocab9.lists.1.targets.items.9.ex	海でおぼれないように気をつけて。
-vocab9.lists.1.targets.items.10.w	[～に]埋もれる
+vocab9.lists.1.targets.items.10.w	[〜に]埋もれる
 vocab9.lists.1.targets.items.10.ex	大雪が降って、車が雪に埋もれてしまった。
 vocab9.lists.1.targets.items.11.w	やけど（する）
 vocab9.lists.1.targets.items.11.ex	料理中にやけどをしてしまった。
@@ -8697,9 +8697,9 @@ vocab9.lists.1.targets.items.12.w	事態
 vocab9.lists.1.targets.items.12.ex	水も食べ物もないような非常事態が想像できますか。
 vocab9.lists.1.targets.items.13.w	地震
 vocab9.lists.1.targets.items.13.ex	日本は地震が多い国です。
-vocab9.lists.1.targets.items.14.w	[～が]倒れる
+vocab9.lists.1.targets.items.14.w	[〜が]倒れる
 vocab9.lists.1.targets.items.14.ex	台風で木が倒れてしまった。
-vocab9.lists.1.targets.items.15.w	[～が]成長（する）
+vocab9.lists.1.targets.items.15.w	[〜が]成長（する）
 vocab9.lists.1.targets.items.15.ex	子どもの成長は驚くほど早い。
 vocab9.lists.1.targets.items.16.w	奇跡
 vocab9.lists.1.targets.items.16.ex	{階段|かいだん}から落ちてもけがをしなかったのは奇跡だ。
@@ -8707,7 +8707,7 @@ vocab9.lists.1.targets.items.17.w	不思議な
 vocab9.lists.1.targets.items.17.ex	言葉では説明できない不思議な経験をしたことがある。
 vocab9.lists.1.targets.items.18.w	楽天的な
 vocab9.lists.1.targets.items.18.ex	彼女は楽天的なので、あまり落ち込まないそうです。
-vocab9.lists.1.targets.items.19.w	[～が]転倒（する）
+vocab9.lists.1.targets.items.19.w	[〜が]転倒（する）
 vocab9.lists.1.targets.items.19.ex	けがをしやすい高齢者にとって、転倒は非常に{危|あぶ}ないものだ。
 vocab9.lists.1.targets.items.20.w	思いつく
 vocab9.lists.1.targets.items.20.ex	何かいいアイデアを思いついたら、教えてください。
@@ -8732,7 +8732,7 @@ vocab10.lists.0.rows.4.en	to support at the same time; to go together
 vocab10.lists.0.rows.5.w	実__施__（する）
 vocab10.lists.0.rows.5.yomi	じっし（する）
 vocab10.lists.0.rows.5.en	to carry out
-vocab10.lists.0.rows.6.w	[～に] 郵送（する）
+vocab10.lists.0.rows.6.w	[〜に] 郵送（する）
 vocab10.lists.0.rows.6.yomi	ゆうそう（する）
 vocab10.lists.0.rows.6.en	to mail [''vt.'']
 vocab10.lists.0.rows.7.w	__未__婚者
@@ -8744,7 +8744,7 @@ vocab10.lists.0.rows.8.en	future
 vocab10.lists.0.rows.9.w	世相
 vocab10.lists.0.rows.9.yomi	せそう
 vocab10.lists.0.rows.9.en	social conditions; phase of life
-vocab10.lists.0.rows.10.w	[～が] 浮かび上がる
+vocab10.lists.0.rows.10.w	[〜が] 浮かび上がる
 vocab10.lists.0.rows.10.yomi	うかびあがる
 vocab10.lists.0.rows.10.en	to rise up; to come to the front [''vi.'']
 vocab10.lists.0.rows.11.w	当然
@@ -8756,14 +8756,14 @@ vocab10.lists.0.rows.12.en	usual; common
 vocab10.lists.0.rows.13.w	男女
 vocab10.lists.0.rows.13.yomi	だんじょ
 vocab10.lists.0.rows.13.en	men and women
-vocab10.lists.0.rows.14.w	～別
-vocab10.lists.0.rows.14.yomi	～べつ
+vocab10.lists.0.rows.14.w	〜別
+vocab10.lists.0.rows.14.yomi	〜べつ
 vocab10.lists.0.rows.14.en	by ~
 vocab10.lists.0.rows.15.w	若年__層__
 vocab10.lists.0.rows.15.yomi	じゃくねんそう
 vocab10.lists.0.rows.15.en	young people
-vocab10.lists.0.rows.16.w	～__層__
-vocab10.lists.0.rows.16.yomi	～そう
+vocab10.lists.0.rows.16.w	〜__層__
+vocab10.lists.0.rows.16.yomi	〜そう
 vocab10.lists.0.rows.16.en	(specific group of people)
 vocab10.lists.0.rows.17.w	高め
 vocab10.lists.0.rows.17.yomi	たかめ
@@ -8771,8 +8771,8 @@ vocab10.lists.0.rows.17.en	on the high side
 vocab10.lists.0.rows.18.w	女性
 vocab10.lists.0.rows.18.yomi	じょせい
 vocab10.lists.0.rows.18.en	female
-vocab10.lists.0.rows.19.w	～代
-vocab10.lists.0.rows.19.yomi	～だい
+vocab10.lists.0.rows.19.w	〜代
+vocab10.lists.0.rows.19.yomi	〜だい
 vocab10.lists.0.rows.19.en	~ generation
 vocab10.lists.0.rows.20.w	半数
 vocab10.lists.0.rows.20.yomi	はんすう
@@ -8858,7 +8858,7 @@ vocab10.lists.0.rows.46.en	unstable
 vocab10.lists.0.rows.47.w	収入
 vocab10.lists.0.rows.47.yomi	しゅうにゅう
 vocab10.lists.0.rows.47.en	income
-vocab10.lists.0.rows.48.w	[～に] つながる
+vocab10.lists.0.rows.48.w	[〜に] つながる
 vocab10.lists.0.rows.48.yomi	つながる
 vocab10.lists.0.rows.48.en	to connect
 vocab10.lists.0.rows.49.w	晩婚化
@@ -8870,14 +8870,14 @@ vocab10.lists.0.rows.50.en	tendency to remain unmarried
 vocab10.lists.0.rows.51.w	要__因__
 vocab10.lists.0.rows.51.yomi	よういん
 vocab10.lists.0.rows.51.en	factor
-vocab10.lists.0.rows.52.w	～択
-vocab10.lists.0.rows.52.yomi	～たく
+vocab10.lists.0.rows.52.w	〜択
+vocab10.lists.0.rows.52.yomi	〜たく
 vocab10.lists.0.rows.52.en	~ choices
-vocab10.lists.0.rows.53.w	[～に] __尋__ねる
+vocab10.lists.0.rows.53.w	[〜に] __尋__ねる
 vocab10.lists.0.rows.53.yomi	たずねる
 vocab10.lists.0.rows.53.en	to ask [''vt.'']
-vocab10.lists.0.rows.54.w	～に続いて
-vocab10.lists.0.rows.54.yomi	～につづいて
+vocab10.lists.0.rows.54.w	〜に続いて
+vocab10.lists.0.rows.54.yomi	〜につづいて
 vocab10.lists.0.rows.54.en	followed by ~
 vocab10.lists.0.rows.55.w	__挙__げる
 vocab10.lists.0.rows.55.yomi	あげる
@@ -8894,10 +8894,10 @@ vocab10.lists.0.rows.58.en	acquisition rate
 vocab10.lists.0.rows.59.w	取得（する）
 vocab10.lists.0.rows.59.yomi	しゅとく（する）
 vocab10.lists.0.rows.59.en	to obtain
-vocab10.lists.0.rows.60.w	～__率__
-vocab10.lists.0.rows.60.yomi	～りつ
+vocab10.lists.0.rows.60.w	〜__率__
+vocab10.lists.0.rows.60.yomi	〜りつ
 vocab10.lists.0.rows.60.en	~ rate
-vocab10.lists.0.rows.61.w	[～が] 浮き__彫__りになる
+vocab10.lists.0.rows.61.w	[〜が] 浮き__彫__りになる
 vocab10.lists.0.rows.61.yomi	うきぼりになる
 vocab10.lists.0.rows.61.en	to come to surface [''vi.'']
 vocab10.lists.0.rows.62.w	譲る
@@ -8921,7 +8921,7 @@ vocab10.lists.0.rows.67.en	desire; wish
 vocab10.lists.0.rows.68.w	年収
 vocab10.lists.0.rows.68.yomi	ねんしゅう
 vocab10.lists.0.rows.68.en	annual income
-vocab10.lists.0.rows.69.w	[～が] うかがえる
+vocab10.lists.0.rows.69.w	[〜が] うかがえる
 vocab10.lists.0.rows.69.yomi	うかがえる
 vocab10.lists.0.rows.69.en	can see
 vocab10.lists.0.rows.70.w	いずれ
@@ -8933,8 +8933,8 @@ vocab10.lists.0.rows.71.en	to combine
 vocab10.lists.0.rows.72.w	交際
 vocab10.lists.0.rows.72.yomi	こうさい
 vocab10.lists.0.rows.72.en	company
-vocab10.lists.0.rows.73.w	計～
-vocab10.lists.0.rows.73.yomi	けい～
+vocab10.lists.0.rows.73.w	計〜
+vocab10.lists.0.rows.73.yomi	けい〜
 vocab10.lists.0.rows.73.en	~ in total
 vocab10.lists.0.rows.74.w	正__規__
 vocab10.lists.0.rows.74.yomi	せいき
@@ -8978,7 +8978,7 @@ vocab10.lists.0.targets.items.1.w	実施（する）
 vocab10.lists.0.targets.items.1.ex	明日から3日間、大学の入学試験が実施される。
 vocab10.lists.0.targets.items.2.w	当然
 vocab10.lists.0.targets.items.2.ex	{困|こま}っている人を助けるのは当然だ。
-vocab10.lists.0.targets.items.3.w	～層
+vocab10.lists.0.targets.items.3.w	〜層
 vocab10.lists.0.targets.items.3.ex	この本は幅広い年齢層の人に読まれている。
 vocab10.lists.0.targets.items.4.w	役割
 vocab10.lists.0.targets.items.4.ex	{上司|じょうし}の重要な役割の一つは、部下の教育だ。
@@ -8990,7 +8990,7 @@ vocab10.lists.0.targets.items.7.w	主に
 vocab10.lists.0.targets.items.7.ex	この本は主に「夢を持つ大切さ」について書かれている。
 vocab10.lists.0.targets.items.8.w	妻
 vocab10.lists.0.targets.items.8.ex	男性の多数が結婚後も妻とデートしたいと答えた。
-vocab10.lists.0.targets.items.9.w	～割
+vocab10.lists.0.targets.items.9.w	〜割
 vocab10.lists.0.targets.items.9.ex	この大学では女子学生が7割を占めている。
 vocab10.lists.0.targets.items.10.w	育児
 vocab10.lists.0.targets.items.10.ex	母によると、育児は24時間休みがない仕事だそうだ。
@@ -9004,13 +9004,13 @@ vocab10.lists.0.targets.items.14.w	収入
 vocab10.lists.0.targets.items.14.ex	毎月20万円の収入で家族4人が生活するのは苦しい。
 vocab10.lists.0.targets.items.15.w	要因
 vocab10.lists.0.targets.items.15.ex	その会社が{成功|せいこう}した要因の一つは、海外から新しい社長を迎えたことだ。
-vocab10.lists.0.targets.items.16.w	[～に] 尋ねる
+vocab10.lists.0.targets.items.16.w	[〜に] 尋ねる
 vocab10.lists.0.targets.items.16.ex	旅行先で道がわからなくなって、人に尋ねた。
 vocab10.lists.0.targets.items.17.w	挙げる
 vocab10.lists.0.targets.items.17.ex	日本に興味を持ったきっかけとして「アニメ」を挙げる人は多い。
-vocab10.lists.0.targets.items.18.w	～率
+vocab10.lists.0.targets.items.18.w	〜率
 vocab10.lists.0.targets.items.18.ex	その国の離婚率は50%を超えるらしい。
-vocab10.lists.0.targets.items.19.w	[～が] 浮き彫りになる
+vocab10.lists.0.targets.items.19.w	[〜が] 浮き彫りになる
 vocab10.lists.0.targets.items.19.ex	調査の結果、多くの人が仕事でストレスを感じていることが浮き彫りになった。
 vocab10.lists.0.targets.items.20.w	条件
 vocab10.lists.0.targets.items.20.ex	1週間だけという条件で兄から車を借りた。
@@ -9024,7 +9024,7 @@ vocab10.lists.1.title	日本人が政府に期待するもの
 vocab10.lists.1.rows.0.w	政__府__
 vocab10.lists.1.rows.0.yomi	せいふ
 vocab10.lists.1.rows.0.en	government
-vocab10.lists.1.rows.1.w	[～と] 比__較__（する）
+vocab10.lists.1.rows.1.w	[〜と] 比__較__（する）
 vocab10.lists.1.rows.1.yomi	ひかく（する）
 vocab10.lists.1.rows.1.en	to compare
 vocab10.lists.1.rows.2.w	NHK
@@ -9036,7 +9036,7 @@ vocab10.lists.1.rows.3.en	to broadcast
 vocab10.lists.1.rows.4.w	研究所
 vocab10.lists.1.rows.4.yomi	けんきゅうじょ
 vocab10.lists.1.rows.4.en	research institute
-vocab10.lists.1.rows.5.w	[～に] 加盟（する）
+vocab10.lists.1.rows.5.w	[〜に] 加盟（する）
 vocab10.lists.1.rows.5.yomi	かめい（する）
 vocab10.lists.1.rows.5.en	to join
 vocab10.lists.1.rows.6.w	地域
@@ -9051,7 +9051,7 @@ vocab10.lists.1.rows.8.en	way
 vocab10.lists.1.rows.9.w	とらえる
 vocab10.lists.1.rows.9.yomi	とらえる
 vocab10.lists.1.rows.9.en	to catch
-vocab10.lists.1.rows.10.w	[～に] 報告（する）
+vocab10.lists.1.rows.10.w	[〜に] 報告（する）
 vocab10.lists.1.rows.10.yomi	ほうこく（する）
 vocab10.lists.1.rows.10.en	to report
 vocab10.lists.1.rows.11.w	格差
@@ -9069,11 +9069,11 @@ vocab10.lists.1.rows.14.en	this article
 vocab10.lists.1.rows.15.w	各国
 vocab10.lists.1.rows.15.yomi	かっこく
 vocab10.lists.1.rows.15.en	each country
-vocab10.lists.1.rows.16.w	[～に] 位置づける
+vocab10.lists.1.rows.16.w	[〜に] 位置づける
 vocab10.lists.1.rows.16.yomi	いちづける
 vocab10.lists.1.rows.16.en	to place [''vt.'']
-vocab10.lists.1.rows.17.w	～を中心に
-vocab10.lists.1.rows.17.yomi	～をちゅうしんに
+vocab10.lists.1.rows.17.w	〜を中心に
+vocab10.lists.1.rows.17.yomi	〜をちゅうしんに
 vocab10.lists.1.rows.17.en	with a focus on ~
 vocab10.lists.1.rows.18.w	__責任__
 vocab10.lists.1.rows.18.yomi	せきにん
@@ -9144,13 +9144,13 @@ vocab10.lists.1.rows.39.en	to spend
 vocab10.lists.1.rows.40.w	教育観
 vocab10.lists.1.rows.40.yomi	きょういくかん
 vocab10.lists.1.rows.40.en	educational philosophy
-vocab10.lists.1.rows.41.w	[～が] 根づく
+vocab10.lists.1.rows.41.w	[〜が] 根づく
 vocab10.lists.1.rows.41.yomi	ねづく
 vocab10.lists.1.rows.41.en	to take root
-vocab10.lists.1.rows.42.w	～主__義__
-vocab10.lists.1.rows.42.yomi	～しゅぎ
+vocab10.lists.1.rows.42.w	〜主__義__
+vocab10.lists.1.rows.42.yomi	〜しゅぎ
 vocab10.lists.1.rows.42.en	principle; -ism
-vocab10.lists.1.rows.43.w	[～が] 浸透（する）
+vocab10.lists.1.rows.43.w	[〜が] 浸透（する）
 vocab10.lists.1.rows.43.yomi	しんとう（する）
 vocab10.lists.1.rows.43.en	to become widespread
 vocab10.lists.1.rows.44.w	無理（を）する
@@ -9165,7 +9165,7 @@ vocab10.lists.1.rows.46.en	to make
 vocab10.lists.1.rows.47.w	公的__負__担
 vocab10.lists.1.rows.47.yomi	こうてきふたん
 vocab10.lists.1.rows.47.en	public expenditure
-vocab10.lists.1.rows.48.w	[～が] 顕在化（する）
+vocab10.lists.1.rows.48.w	[〜が] 顕在化（する）
 vocab10.lists.1.rows.48.yomi	けんざいか（する）
 vocab10.lists.1.rows.48.en	to become obvious
 vocab10.lists.1.rows.49.w	__指摘__（する）
@@ -9201,7 +9201,7 @@ vocab10.lists.1.rows.58.en	middle
 vocab10.lists.1.rows.59.w	位置（する）
 vocab10.lists.1.rows.59.yomi	いち（する）
 vocab10.lists.1.rows.59.en	to position
-vocab10.lists.1.rows.60.w	[～に] __設__置（する）
+vocab10.lists.1.rows.60.w	[〜に] __設__置（する）
 vocab10.lists.1.rows.60.yomi	せっち（する）
 vocab10.lists.1.rows.60.en	to install
 vocab10.lists.1.rows.61.w	費用
@@ -9225,7 +9225,7 @@ vocab10.lists.1.rows.66.en	crime
 vocab10.lists.1.rows.67.w	__捜__査（する）
 vocab10.lists.1.rows.67.yomi	そうさ（する）
 vocab10.lists.1.rows.67.en	to investigate
-vocab10.lists.1.rows.68.w	[～が] __欠__かせない
+vocab10.lists.1.rows.68.w	[〜が] __欠__かせない
 vocab10.lists.1.rows.68.yomi	かかせない
 vocab10.lists.1.rows.68.en	indispensable
 vocab10.lists.1.rows.69.w	比__較__的
@@ -9252,9 +9252,9 @@ vocab10.lists.1.rows.75.en	variation
 vocab10.lists.1.rows.76.w	果たす
 vocab10.lists.1.rows.76.yomi	はたす
 vocab10.lists.1.rows.76.en	to fulfill; to accomplish
-vocab10.lists.1.targets.items.0.w	[～と] 比較（する）
+vocab10.lists.1.targets.items.0.w	[〜と] 比較（する）
 vocab10.lists.1.targets.items.0.ex	日本と比較しながら母国の習慣を説明した。
-vocab10.lists.1.targets.items.1.w	[～に] 報告（する）
+vocab10.lists.1.targets.items.1.w	[〜に] 報告（する）
 vocab10.lists.1.targets.items.1.ex	部長に{東京|とうきょう}出張の報告をした。
 vocab10.lists.1.targets.items.2.w	背景
 vocab10.lists.1.targets.items.2.ex	少子化の背景には、非婚化などの価値観の変化がある。
@@ -9276,7 +9276,7 @@ vocab10.lists.1.targets.items.10.w	公的な
 vocab10.lists.1.targets.items.10.ex	申し込みには運転{免許証|めんきょしょう}など公的な書類が必要です。
 vocab10.lists.1.targets.items.11.w	支出（する）
 vocab10.lists.1.targets.items.11.ex	一人暮らしの大学生の支出で一番大きいのは、{家賃|やちん}だ。
-vocab10.lists.1.targets.items.12.w	～主義
+vocab10.lists.1.targets.items.12.w	〜主義
 vocab10.lists.1.targets.items.12.ex	{完璧|かんぺき}主義の人は、目標や理想が高く、すべて完璧にやりたいと考える。
 vocab10.lists.1.targets.items.13.w	指摘（する）
 vocab10.lists.1.targets.items.13.ex	クラスメートに、みんなの前で漢字の間違いを指摘されてしまった。
@@ -9284,11 +9284,11 @@ vocab10.lists.1.targets.items.14.w	防犯
 vocab10.lists.1.targets.items.14.ex	防犯対策として、{玄関|げんかん}にカメラを設置した。
 vocab10.lists.1.targets.items.15.w	許す
 vocab10.lists.1.targets.items.15.ex	彼女のうそをどうしても許すことができません。
-vocab10.lists.1.targets.items.16.w	[～に] 設置（する）
+vocab10.lists.1.targets.items.16.w	[〜に] 設置（する）
 vocab10.lists.1.targets.items.16.ex	この部屋にはエアコンが設置されていない。
 vocab10.lists.1.targets.items.17.w	犯罪
 vocab10.lists.1.targets.items.17.ex	人が多い都市部は犯罪が多い。
-vocab10.lists.1.targets.items.18.w	[～が] 欠かせない
+vocab10.lists.1.targets.items.18.w	[〜が] 欠かせない
 vocab10.lists.1.targets.items.18.ex	水は人間にとって欠かせないものの一つだ。
 vocab10.lists.1.targets.items.19.w	身近な
 vocab10.lists.1.targets.items.19.ex	「いじめ」は身近な社会問題の一つだろう。
@@ -15538,7 +15538,7 @@ front.1.blocks.31.rows.6.5.en	hospitality; service
 front.1.blocks.31.rows.7.0	2.
 front.1.blocks.31.rows.7.1	◆
 front.1.blocks.31.rows.7.2	8
-front.1.blocks.31.rows.7.3	[～に]__到__着（する）
+front.1.blocks.31.rows.7.3	[〜に]__到__着（する）
 front.1.blocks.31.rows.7.4	とうちゃく（する）
 front.1.blocks.31.rows.7.5.en	to arrive
 front.1.blocks.31.rows.8.0	
@@ -15558,7 +15558,7 @@ front.1.blocks.33.rows.0.0	1.
 front.1.blocks.33.rows.0.1	おもてなし
 front.1.blocks.33.rows.0.2.ja	家に来た客にお茶とお{菓子|かし}を出すのは「おもてなし」の一つだ。
 front.1.blocks.33.rows.1.0	2.
-front.1.blocks.33.rows.1.1	[～に]到着（する）
+front.1.blocks.33.rows.1.1	[〜に]到着（する）
 front.1.blocks.33.rows.1.2.ja	飛行機が時間通りに空港に到着した。
 front.1.blocks.33.rows.2.0	3.
 front.1.blocks.33.rows.2.1	肩

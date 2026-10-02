@@ -53,8 +53,8 @@ TRY.registerVocab({
     },
     {
      "ln": 9,
-     "w": "～以来",
-     "yomi": "～いらい",
+     "w": "〜以来",
+     "yomi": "〜いらい",
      "en": "since ~"
     },
     {
@@ -179,7 +179,7 @@ TRY.registerVocab({
     },
     {
      "k": "◇",
-     "w": "[～に]__触__れる",
+     "w": "[〜に]__触__れる",
      "yomi": "ふれる",
      "en": "to touch; to encounter"
     },
@@ -205,7 +205,7 @@ TRY.registerVocab({
      "en": "to experience"
     },
     {
-     "w": "[～を]通じて",
+     "w": "[〜を]通じて",
      "yomi": "つうじて",
      "en": "through; via"
     },
@@ -237,13 +237,13 @@ TRY.registerVocab({
      "en": "past; previous time"
     },
     {
-     "w": "[～と／に]比べる",
+     "w": "[〜と／に]比べる",
      "yomi": "くらべる",
      "en": "to compare with/to"
     },
     {
      "n": 15,
-     "w": "[～に]自信がつく",
+     "w": "[〜に]自信がつく",
      "yomi": "じしんがつく",
      "en": "to gain confidence in"
     },
@@ -313,12 +313,12 @@ TRY.registerVocab({
     {
      "n": 19,
      "ln": 35,
-     "w": "なかなか～ない",
-     "yomi": "なかなか～ない",
+     "w": "なかなか〜ない",
+     "yomi": "なかなか〜ない",
      "en": "cannot easily ~"
     },
     {
-     "w": "[～に]ついていく",
+     "w": "[〜に]ついていく",
      "yomi": "ついていく",
      "en": "to keep up with"
     },
@@ -337,7 +337,7 @@ TRY.registerVocab({
     },
     {
      "k": "◆",
-     "w": "[～と]一__緒__に",
+     "w": "[〜と]一__緒__に",
      "yomi": "いっしょに",
      "en": "together with"
     },
@@ -361,9 +361,9 @@ TRY.registerVocab({
     },
     {
      "k": "◆",
-     "w": "[～が]__済__む",
+     "w": "[〜が]__済__む",
      "yomi": "すむ",
-     "en": "to finish; to end [''vi.''] (See 文型・表現 6「～ないで済む／～ずに済む」)"
+     "en": "to finish; to end [''vi.''] (See 文型・表現 6「〜ないで済む／〜ずに済む」)"
     },
     {
      "ln": 40,
@@ -384,8 +384,8 @@ TRY.registerVocab({
      "en": "case; circumstance"
     },
     {
-     "w": "～先",
-     "yomi": "～さき",
+     "w": "〜先",
+     "yomi": "〜さき",
      "en": "one’s destination"
     },
     {
@@ -414,7 +414,7 @@ TRY.registerVocab({
     },
     {
      "ln": 45,
-     "w": "[～が]重なる",
+     "w": "[〜が]重なる",
      "yomi": "かさなる",
      "en": "to overlap [''vi.'']"
     },
@@ -452,7 +452,7 @@ TRY.registerVocab({
     {
      "n": 25,
      "k": "◇",
-     "w": "[～に]__在__学（する）",
+     "w": "[〜に]__在__学（する）",
      "yomi": "ざいがく（する）",
      "en": "to be in school"
     },
@@ -477,7 +477,7 @@ TRY.registerVocab({
     },
     {
      "n": 27,
-     "w": "[～に]帰国（する）",
+     "w": "[〜に]帰国（する）",
      "yomi": "きこく（する）",
      "en": "to return to one’s country"
     }
@@ -572,7 +572,7 @@ TRY.registerVocab({
      },
      {
       "n": 15,
-      "w": "[～に]自信がつく",
+      "w": "[〜に]自信がつく",
       "ex": "アメリカに留学すれば、自分の英語力に自信がつくでしょう。",
       "tr": "If you study abroad in America, you'll probably gain confidence in your English."
      },
@@ -596,7 +596,7 @@ TRY.registerVocab({
      },
      {
       "n": 19,
-      "w": "なかなか～ない",
+      "w": "なかなか〜ない",
       "ex": "日本語がなかなか上手にならない。",
       "tr": "My Japanese just isn't getting any better."
      },
@@ -632,7 +632,7 @@ TRY.registerVocab({
      },
      {
       "n": 25,
-      "w": "[～に]在学（する）",
+      "w": "[〜に]在学（する）",
       "ex": "弟はイギリスの大学に在学中です。",
       "tr": "My younger brother is currently enrolled at a university in Britain."
      },
@@ -644,7 +644,7 @@ TRY.registerVocab({
      },
      {
       "n": 27,
-      "w": "[～に]帰国（する）",
+      "w": "[〜に]帰国（する）",
       "ex": "留学中の{山|やま}{田|だ}さんが日本に帰国するのは、来年の3月だそうです。",
       "tr": "I hear Yamada, who's studying abroad, is coming back to Japan next March."
      }
@@ -659,7 +659,7 @@ TRY.registerVocab({
     {
      "n": 28,
      "ln": 5,
-     "w": "[～に]あこがれる",
+     "w": "[〜に]あこがれる",
      "yomi": "あこがれる",
      "en": "to long for"
     },
@@ -721,7 +721,7 @@ TRY.registerVocab({
     {
      "n": 32,
      "k": "◆",
-     "w": "[～に／と]__接__する",
+     "w": "[〜に／と]__接__する",
      "yomi": "せっする",
      "en": "to attend to"
     },
@@ -774,7 +774,7 @@ TRY.registerVocab({
      "n": 36,
      "k": "◇",
      "ln": 18,
-     "w": "[～に]苦__労__（する）",
+     "w": "[〜に]苦__労__（する）",
      "yomi": "くろう（する）",
      "en": "to have trouble; to have a hard time"
     },
@@ -787,7 +787,7 @@ TRY.registerVocab({
     {
      "n": 37,
      "k": "◇",
-     "w": "[～に]対__応__（する）",
+     "w": "[〜に]対__応__（する）",
      "yomi": "たいおう（する）",
      "en": "to serve; to respond"
     },
@@ -801,7 +801,7 @@ TRY.registerVocab({
     },
     {
      "ln": 22,
-     "w": "[～が]残る",
+     "w": "[〜が]残る",
      "yomi": "のこる",
      "en": "to remain; to be left [''vi.'']"
     },
@@ -842,7 +842,7 @@ TRY.registerVocab({
     {
      "n": 41,
      "k": "◇",
-     "w": "[～に]__驚__く",
+     "w": "[〜に]__驚__く",
      "yomi": "おどろく",
      "en": "to get surprised"
     },
@@ -880,8 +880,8 @@ TRY.registerVocab({
     },
     {
      "ln": 36,
-     "w": "～を通して",
-     "yomi": "～をとおして",
+     "w": "〜を通して",
+     "yomi": "〜をとおして",
      "en": "through ~"
     },
     {
@@ -910,7 +910,7 @@ TRY.registerVocab({
     "items": [
      {
       "n": 28,
-      "w": "[～に]あこがれる",
+      "w": "[〜に]あこがれる",
       "ex": "{山中|やまなか}教授にあこがれて医学部に入ることにしました。",
       "tr": "Inspired by Professor Yamanaka, I decided to go to medical school."
      },
@@ -934,7 +934,7 @@ TRY.registerVocab({
      },
      {
       "n": 32,
-      "w": "[～に／と]接する",
+      "w": "[〜に／と]接する",
       "ex": "人と接することができるアルバイトがしたい。",
       "tr": "I want a part-time job where I get to deal with people."
      },
@@ -958,13 +958,13 @@ TRY.registerVocab({
      },
      {
       "n": 36,
-      "w": "[～に]苦労（する）",
+      "w": "[〜に]苦労（する）",
       "ex": "大学1年生の時は、友達をつくるのに苦労しました。",
       "tr": "When I was a college freshman, I had a hard time making friends."
      },
      {
       "n": 37,
-      "w": "[～に]対応（する）",
+      "w": "[〜に]対応（する）",
       "ex": "国際化に対応するため、この会社では社員に語学留学をさせている。",
       "tr": "To keep up with globalization, this company sends its employees abroad to study languages."
      },
@@ -988,7 +988,7 @@ TRY.registerVocab({
      },
      {
       "n": 41,
-      "w": "[～に]驚く",
+      "w": "[〜に]驚く",
       "ex": "日本に来て、コンビニが多いことに驚いた。",
       "tr": "When I came to Japan, I was surprised at how many convenience stores there are."
      },

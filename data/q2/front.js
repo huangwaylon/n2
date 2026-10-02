@@ -590,7 +590,7 @@ TRY.registerFront([
       "2.",
       "◆",
       "8",
-      "[～に]__到__着（する）",
+      "[〜に]__到__着（する）",
       "とうちゃく（する）",
       {
        "en": "to arrive"
@@ -644,7 +644,7 @@ TRY.registerFront([
      ],
      [
       "2.",
-      "[～に]到着（する）",
+      "[〜に]到着（する）",
       {
        "ja": "飛行機が時間通りに空港に到着した。",
        "tr": "The plane arrived at the airport on time."

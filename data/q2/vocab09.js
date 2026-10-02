@@ -103,8 +103,8 @@ TRY.registerVocab({
     },
     {
      "ln": 9,
-     "w": "それほど～ない",
-     "yomi": "それほど～ない",
+     "w": "それほど〜ない",
+     "yomi": "それほど〜ない",
      "en": "not so ~"
     },
     {
@@ -132,13 +132,13 @@ TRY.registerVocab({
     {
      "n": 7,
      "k": "◇",
-     "w": "__誰__も～ない",
-     "yomi": "だれも～ない",
+     "w": "__誰__も〜ない",
+     "yomi": "だれも〜ない",
      "en": "nobody ~"
     },
     {
-     "w": "～かい",
-     "yomi": "～かい",
+     "w": "〜かい",
+     "yomi": "〜かい",
      "en": "(marks yes-no question)"
     },
     {
@@ -166,8 +166,8 @@ TRY.registerVocab({
      "en": "noise; sound"
     },
     {
-     "w": "ひとつ～ない",
-     "yomi": "ひとつ～ない",
+     "w": "ひとつ〜ない",
+     "yomi": "ひとつ〜ない",
      "en": "no ~"
     },
     {
@@ -183,8 +183,8 @@ TRY.registerVocab({
      "en": "to tick"
     },
     {
-     "w": "～だって",
-     "yomi": "～だって",
+     "w": "〜だって",
+     "yomi": "〜だって",
      "en": "even"
     },
     {
@@ -202,7 +202,7 @@ TRY.registerVocab({
     {
      "n": 8,
      "ln": 18,
-     "w": "[～に]声をかける",
+     "w": "[〜に]声をかける",
      "yomi": "こえをかける",
      "en": "to call to"
     },
@@ -237,7 +237,7 @@ TRY.registerVocab({
     {
      "n": 12,
      "k": "◆",
-     "w": "[～を]__沈__める",
+     "w": "[〜を]__沈__める",
      "yomi": "しずめる",
      "en": "to sink; to submerge [''vt.'']"
     },
@@ -249,8 +249,8 @@ TRY.registerVocab({
      "en": "atmospheric pressure"
     },
     {
-     "w": "～せいで",
-     "yomi": "～せいで",
+     "w": "〜せいで",
+     "yomi": "〜せいで",
      "en": "because of ~"
     },
     {
@@ -266,7 +266,7 @@ TRY.registerVocab({
      "en": "(sound of tearing up)"
     },
     {
-     "w": "[～が]張り裂ける",
+     "w": "[〜が]張り裂ける",
      "yomi": "はりさける",
      "en": "to burst; to break [''vi.'']"
     },
@@ -370,7 +370,7 @@ TRY.registerVocab({
     },
     {
      "ln": 44,
-     "w": "[～が]痛む",
+     "w": "[〜が]痛む",
      "yomi": "いたむ",
      "en": "to hurt [''vi.'']"
     },
@@ -383,20 +383,20 @@ TRY.registerVocab({
     {
      "n": 19,
      "k": "◆",
-     "w": "[～へ／～に]__向__けて",
+     "w": "[〜へ／〜に]__向__けて",
      "yomi": "むけて",
      "en": "toward ~"
     },
     {
      "k": "◇",
-     "w": "[～が]__浮__かび上がる",
+     "w": "[〜が]__浮__かび上がる",
      "yomi": "うかびあがる",
      "en": "to come to the surface"
     },
     {
      "n": 20,
      "k": "◇",
-     "w": "[～が]__浮__かぶ",
+     "w": "[〜が]__浮__かぶ",
      "yomi": "うかぶ",
      "en": "to float [''vi.'']"
     },
@@ -462,13 +462,13 @@ TRY.registerVocab({
      },
      {
       "n": 7,
-      "w": "誰も～ない",
+      "w": "誰も〜ない",
       "ex": "そのパーティーには知っている人が誰もいなかった。",
       "tr": "There was nobody I knew at that party."
      },
      {
       "n": 8,
-      "w": "[～に]声をかける",
+      "w": "[〜に]声をかける",
       "ex": "落ち込んでいる友達に声をかけた。",
       "tr": "I went up and talked to a friend who was feeling down."
      },
@@ -492,7 +492,7 @@ TRY.registerVocab({
      },
      {
       "n": 12,
-      "w": "[～を]沈める",
+      "w": "[〜を]沈める",
       "ex": "5歳の{息子|むすこ}はお{風呂|ふろ}でおもちゃを沈めて遊んでいた。",
       "tr": "My five-year-old son was playing in the bath, sinking his toys."
      },
@@ -534,13 +534,13 @@ TRY.registerVocab({
      },
      {
       "n": 19,
-      "w": "[～へ／～に]向けて",
+      "w": "[〜へ／〜に]向けて",
       "ex": "バスは目的地の{京都|きょうと}へ向けて出発した。",
       "tr": "The bus set off toward its destination, Kyoto."
      },
      {
       "n": 20,
-      "w": "[～が]浮かぶ",
+      "w": "[〜が]浮かぶ",
       "ex": "海にボートがたくさん浮かんでいる。",
       "tr": "There are lots of boats floating on the sea."
      }
@@ -631,7 +631,7 @@ TRY.registerVocab({
      "en": "pillow"
     },
     {
-     "w": "[～に]のせる",
+     "w": "[〜に]のせる",
      "yomi": "のせる",
      "en": "to put on [''vt.'']"
     },
@@ -643,8 +643,8 @@ TRY.registerVocab({
      "en": "next morning"
     },
     {
-     "w": "～だの",
-     "yomi": "～だの",
+     "w": "〜だの",
+     "yomi": "〜だの",
      "en": "and the like"
     },
     {
@@ -693,7 +693,7 @@ TRY.registerVocab({
      "en": "in a casual manner"
     },
     {
-     "w": "[～に]入りこむ",
+     "w": "[〜に]入りこむ",
      "yomi": "はいりこむ",
      "en": "to get into"
     },
@@ -701,8 +701,8 @@ TRY.registerVocab({
      "n": 25,
      "k": "◆",
      "ln": 15,
-     "w": "～__暮__らし",
-     "yomi": "～ぐらし",
+     "w": "〜__暮__らし",
+     "yomi": "〜ぐらし",
      "en": "~ life"
     },
     {
@@ -711,8 +711,8 @@ TRY.registerVocab({
      "en": "during the daytime"
     },
     {
-     "w": "～とも",
-     "yomi": "～とも",
+     "w": "〜とも",
+     "yomi": "〜とも",
      "en": "all ~; all of the ~"
     },
     {
@@ -753,7 +753,7 @@ TRY.registerVocab({
      "en": "(animals) to cry"
     },
     {
-     "w": "[～が]交代（する）",
+     "w": "[〜が]交代（する）",
      "yomi": "こうたい（する）",
      "en": "to take turns [''vi.'']"
     },
@@ -810,7 +810,7 @@ TRY.registerVocab({
      "en": "imagination"
     },
     {
-     "w": "[～が]増大（する）",
+     "w": "[〜が]増大（する）",
      "yomi": "ぞうだい（する）",
      "en": "to get larger [''vi.'']"
     },
@@ -881,7 +881,7 @@ TRY.registerVocab({
     {
      "n": 31,
      "k": "◇",
-     "w": "[～に]__埋__もれる",
+     "w": "[〜に]__埋__もれる",
      "yomi": "うもれる",
      "en": "to be buried"
     },
@@ -933,7 +933,7 @@ TRY.registerVocab({
     {
      "n": 35,
      "k": "◇",
-     "w": "[～が]__倒__れる",
+     "w": "[〜が]__倒__れる",
      "yomi": "たおれる",
      "en": "to fall down [''vi.'']"
     },
@@ -957,14 +957,14 @@ TRY.registerVocab({
      "en": "world"
     },
     {
-     "w": "～がた",
-     "yomi": "～がた",
+     "w": "〜がた",
+     "yomi": "〜がた",
      "en": "(honorific pluralizing suffix used for people)"
     },
     {
      "n": 36,
      "ln": 40,
-     "w": "[～が]成長（する）",
+     "w": "[〜が]成長（する）",
      "yomi": "せいちょう（する）",
      "en": "to grow [''vi.'']"
     },
@@ -1008,8 +1008,8 @@ TRY.registerVocab({
     },
     {
      "ln": 46,
-     "w": "～とか",
-     "yomi": "～とか",
+     "w": "〜とか",
+     "yomi": "〜とか",
      "en": "~ or"
     },
     {
@@ -1033,7 +1033,7 @@ TRY.registerVocab({
     {
      "n": 40,
      "k": "◇",
-     "w": "[～が]転__倒__（する）",
+     "w": "[〜が]転__倒__（する）",
      "yomi": "てんとう（する）",
      "en": "to fall down [''vi.'']"
     },
@@ -1052,7 +1052,7 @@ TRY.registerVocab({
      "en": "pessimism; disappointment"
     },
     {
-     "w": "[～に]属する",
+     "w": "[〜に]属する",
      "yomi": "ぞくする",
      "en": "to belong to"
     },
@@ -1099,7 +1099,7 @@ TRY.registerVocab({
      },
      {
       "n": 25,
-      "w": "～暮らし",
+      "w": "〜暮らし",
       "ex": "大学に入って以来、一人暮らしをしています。",
       "tr": "I've been living on my own ever since I started college."
      },
@@ -1135,7 +1135,7 @@ TRY.registerVocab({
      },
      {
       "n": 31,
-      "w": "[～に]埋もれる",
+      "w": "[〜に]埋もれる",
       "ex": "大雪が降って、車が雪に埋もれてしまった。",
       "tr": "It snowed heavily, and the car got buried in snow."
      },
@@ -1159,13 +1159,13 @@ TRY.registerVocab({
      },
      {
       "n": 35,
-      "w": "[～が]倒れる",
+      "w": "[〜が]倒れる",
       "ex": "台風で木が倒れてしまった。",
       "tr": "A tree fell down in the typhoon."
      },
      {
       "n": 36,
-      "w": "[～が]成長（する）",
+      "w": "[〜が]成長（する）",
       "ex": "子どもの成長は驚くほど早い。",
       "tr": "Children grow up amazingly fast."
      },
@@ -1189,7 +1189,7 @@ TRY.registerVocab({
      },
      {
       "n": 40,
-      "w": "[～が]転倒（する）",
+      "w": "[〜が]転倒（する）",
       "ex": "けがをしやすい高齢者にとって、転倒は非常に{危|あぶ}ないものだ。",
       "tr": "For elderly people, who are easily injured, falling is extremely dangerous."
      },

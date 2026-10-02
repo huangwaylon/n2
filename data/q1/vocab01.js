@@ -214,8 +214,8 @@ TRY.registerVocab({
      "en": "evening; night"
     },
     {
-     "w": "ほとんど～ない",
-     "yomi": "ほとんど～ない",
+     "w": "ほとんど〜ない",
+     "yomi": "ほとんど〜ない",
      "en": "rarely; hardly"
     },
     {
@@ -283,14 +283,14 @@ TRY.registerVocab({
     },
     {
      "ln": 20,
-     "w": "～生まれ",
-     "yomi": "～うまれ",
+     "w": "〜生まれ",
+     "yomi": "〜うまれ",
      "en": "born in ~"
     },
     {
      "n": 17,
      "k": "◆",
-     "w": "[～が]__得__意な",
+     "w": "[〜が]__得__意な",
      "yomi": "とくいな",
      "en": "good at"
     },
@@ -309,7 +309,7 @@ TRY.registerVocab({
     {
      "n": 18,
      "k": "◇",
-     "w": "[～に]__就職__（する）",
+     "w": "[〜に]__就職__（する）",
      "yomi": "しゅうしょく（する）",
      "en": "to get employed"
     },
@@ -339,7 +339,7 @@ TRY.registerVocab({
      "en": "film festival"
     },
     {
-     "w": "[～に]出品（する）",
+     "w": "[〜に]出品（する）",
      "yomi": "しゅっぴん（する）",
      "en": "to submit (one’s work to ~)"
     },
@@ -457,13 +457,13 @@ TRY.registerVocab({
      },
      {
       "n": 17,
-      "w": "[～が]得意な",
+      "w": "[〜が]得意な",
       "ex": "外国からお{客|きゃく}さんが来るのですが、英語が得意な人はいませんか。",
       "tr": "We have a guest coming from abroad. Is there anyone here who's good at English?"
      },
      {
       "n": 18,
-      "w": "[～に]就職（する）",
+      "w": "[〜に]就職（する）",
       "ex": "大学を卒業したら、日本の会社に就職したい。",
       "tr": "After I graduate from college, I want to get a job at a Japanese company."
      },
@@ -682,8 +682,8 @@ TRY.registerVocab({
      "en": "friend"
     },
     {
-     "w": "～ほど",
-     "yomi": "～ほど",
+     "w": "〜ほど",
+     "yomi": "〜ほど",
      "en": "about ~"
     },
     {
@@ -697,7 +697,7 @@ TRY.registerVocab({
      "n": 35,
      "k": "◇",
      "ln": 20,
-     "w": "[～が]__苦__手な",
+     "w": "[〜が]__苦__手な",
      "yomi": "にがてな",
      "en": "poor at"
     },
@@ -745,7 +745,7 @@ TRY.registerVocab({
     },
     {
      "ln": 25,
-     "w": "[～に]届ける",
+     "w": "[〜に]届ける",
      "yomi": "とどける",
      "en": "to deliver (something) to [''vt.'']"
     },
@@ -784,7 +784,7 @@ TRY.registerVocab({
      "n": 41,
      "k": "◆",
      "ln": 29,
-     "w": "[～が]__必要__な",
+     "w": "[〜が]__必要__な",
      "yomi": "ひつような",
      "en": "necessary"
     },
@@ -797,8 +797,8 @@ TRY.registerVocab({
     {
      "k": "◆",
      "ln": 32,
-     "w": "__決__して～ない",
-     "yomi": "けっして～ない",
+     "w": "__決__して〜ない",
+     "yomi": "けっして〜ない",
      "en": "never; definitely not"
     },
     {
@@ -900,7 +900,7 @@ TRY.registerVocab({
      },
      {
       "n": 35,
-      "w": "[～が]苦手な",
+      "w": "[〜が]苦手な",
       "ex": "私は料理が苦手なので、あまり作りません。",
       "tr": "I'm not good at cooking, so I don't cook much."
      },
@@ -936,7 +936,7 @@ TRY.registerVocab({
      },
      {
       "n": 41,
-      "w": "[～が]必要な",
+      "w": "[〜が]必要な",
       "ex": "外国に行く時には、パスポートが必要です。",
       "tr": "You need a passport when you go abroad."
      },
