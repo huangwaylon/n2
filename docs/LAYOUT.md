@@ -2,21 +2,7 @@
 
 Design reference: the books' visual language, tokens, furigana, responsive rules, each component with its book source (C1–C30 TRY chapter content, C31 the shared shell, C32 Quartet), QA and measurement tools. Page references in C1–C31 are N2 printed pages (= PDF pages); in C32 Quartet book pages. Data fields: `data/SCHEMA.md` (TRY), `data/Q2-SCHEMA.md` (Quartet). Exact CSS values live in the stylesheets.
 
-| Concern | File |
-|---|---|
-| Data registry, theme before first paint | `assets/js/boot.js` (classic script) |
-| Book meta, settings, progress, `$`/`$$`/`esc`, `ACT` registry, `TTS`, `WIDE` | `assets/js/core.js` |
-| Furigana: `rubyMarkup()`, `rubyHtml()`, `fitRubies()` | `assets/js/ruby.js` |
-| `fmt()`, badges, English layer (`en`, `bi`, `biInner`, `enSrc`, `enScopeBtn`), `pill`, `cdBadge`, `speakBtn`, `stars`, `marks`/`scenes`, `gpLink` | `assets/js/markup.js` |
-| C1–C17 (`chapterView`, `bannerHtml`, `gpCard`, `formulaHtml`, `sampleHtml` …) | `assets/js/content.js`, `assets/css/content.css` |
-| C18–C29 (`renderExercise`, `optGroup`, `fitOptionCols`, `checkHtml`, `reviewHtml`, grading) | `assets/js/exercises.js`, `assets/css/exercises.css` |
-| Home and pages (`homeView`, `guideView`, `aboutView`, `indexView`, `compareView`, `canDoView`, `drillView`) | `assets/js/pages.js` |
-| C30–C31: shell (`shellHtml`, `shelfHtml`, `sidebar`), router, drawer, settings, events, TRY adapter | `assets/js/main.js`, `assets/css/shell.css` |
-| 単語 lists and drill; flashcards shared with Quartet | `assets/js/vocab.js`, `assets/js/flash.js` |
-| C32: Quartet adapter and views · blocks · 別冊 lists, indexes, drill | `assets/js/q2/nav.js` · `blocks.js` · `lists.js`, `assets/css/q2.css` |
-| Tokens (light, dark), reset, type, English layer, primitives | `assets/css/base.css` |
-
-Which files each route loads is in CLAUDE.md ("Data loading"). `route()` calls `need(h)`, which loads the files the adapter's `needs(h)` names and are not yet loaded, then renders; a failed file is reported on the page. After every render `layout()` (main.js) runs `fitOptionCols()`, `fitRubies()`, `vtScrollInit()` and the adapter's layout pass. `fitOptionCols()`, `fitRubies()` and the adapter pass run again after `data-act` clicks, `<details>` toggles, font load and width changes (a height-only resize is skipped); `vtScrollInit()` again only on width changes.
+The file map and which files each route loads are in CLAUDE.md ("Files", "Data loading"). `route()` calls `need(h)`, which loads the files the adapter's `needs(h)` names and are not yet loaded, then renders; a failed file is reported on the page. After every render `layout()` (main.js) runs `fitOptionCols()`, `fitRubies()`, `vtScrollInit()` and the adapter's layout pass. `fitOptionCols()`, `fitRubies()` and the adapter pass run again after `data-act` clicks, `<details>` toggles, font load and width changes (a height-only resize is skipped); `vtScrollInit()` again only on width changes.
 
 ## 0. Design language
 
@@ -34,11 +20,11 @@ Components use tokens, never literal greys; literal `#fff` only as text on a fil
 | Token | Use |
 |---|---|
 | `--bg` `--panel` `--ink` `--ink-2` `--ink-3` `--line` | page, frames, text levels, hairlines; `--ink-3` ≥4.5:1 on `--bg`/`--panel` in both themes |
-| `--goth` (= `--jp`), `--mincho` (= `--serif`) | Hiragino first, then the Noto webfonts (loaded non-blocking) |
+| `--goth`, `--mincho` | Hiragino first, then the Noto webfonts (loaded non-blocking) |
 | `--band`, `--band-edge`, `--banner` | grammar-point band, table header tint, active nav row; its thick left bar, keigo header; chapter opener |
 | `--pill` `--pill-top` `--pill-ink` `--pill-shadow` | pill gradient, text, offset shadow |
 | `--rule`, `--note-bg`, `--badge-bg`/`--badge-ink`, `--review-bg` | frames and rules, 📎 fill, POS badges, まとめの問題 tint |
-| `--accent` | `**target**` highlighting and the playing 🔊 (`.speak`, `.btn.play`) |
+| `--accent` | `**target**` highlighting and the playing 🔊 (`.speak.speaking`) |
 | `--teal` / `--teal-on` | links, focus, primary buttons, picked answers / text on a teal fill |
 | `--ok` `--ng` (+ `-soft`) | grading |
 | `--en-book`, `--en` / `--en-soft` | book English; generated English, active EN buttons |
@@ -228,7 +214,7 @@ One shell for all four books; the per-book part is an adapter (TRY in `main.js`,
 
 - Book hues (`--bk-*`: N2 amber, N1 violet, Q1 magenta, Q2 blue; Q1/Q2 follow the books' accents) mark the current book in the switcher, book menu and shelf only, never in TRY content.
 - Shelf (`shelfHtml`, top of each home): the four books with code, name, Japanese title, description, progress and 続きから Continue. A card opens its book where the reader left off (home if never opened); the current book's card without a saved place is not a link. Phones: two compact cards a row. A labelled `section` with a `p` title, since it precedes the page's h1.
-- Continue: `n2.resume` = `{ n2: { h, t, done, total }, … }`, written by `trackResume()` 400 ms after a route change, scroll or progress change. `h` = the point / note / strategy / review whose top is in the upper third of the screen (`gp/24`, `gn/8-3`, `st/11`, `ch/3/review`), else the chapter / lesson / list route; `t` its label. Home and pages are not saved. `done/total` let other books' cards show progress without loading their data.
+- Continue: `n2.resume` = `{ n2: { h, t, done, total }, … }`, written by `trackResume()` 400 ms after a route change, scroll or progress change. `h` = the point / note / strategy / review whose top is in the upper third of the screen (`gp/24`, `gn/8-3`, `st/11`, `ch/3/review`; the adapter's `placeAt`), else the chapter / lesson / list route; `t` its label; `done/total` from the adapter's `stats`. Home and pages are not saved. `done/total` let other books' cards show progress without loading their data.
 - Topbar (`shellHtml`, sticky, translucent): skip link · ☰ · brand · book switcher (≤429 a `details.pop` opening `.book-pop` with `.bk-row` rows, filled on open) · ふりがな / EN switches (`role=switch`, keys F and E) · ⚙ popover (theme, speech rate, vertical texts, keys, reset). Popovers close on outside click and Esc (focus returns to the summary).
 - Page links `.sb-pages` (every book): ホーム then the book's pages, two columns at the top of the sidebar / drawer.
 - Sidebar (`sidebar()`): chapter rows `.sb-ch-link` with progress; the open chapter lists its points `.sb-gps` and review; the active point has a `--band-edge` inset bar; own scroll at ≥901.
@@ -272,10 +258,11 @@ Server on :8765, Node ≥22, Google Chrome. Routes are hashes without `#/` (`""`
 | `node tools/overflow.mjs ROUTE [W] [--en] [--touch] [--dark] [--furi] [--nofuri]` | `{vw, docW, vp, clip}`: `docW > vw` = sideways scroll; `vp` elements past the viewport; `clip` elements poking out of a component frame; `--touch` targets under 44; `--furi` furigana probe |
 | `node tools/lib/wkshot.mjs DEVICE ROUTE[,…] [OUTDIR] [--pages=N] [--probe] [--en] [--nofuri] [--sel=CSS] [--dark]` | real iOS Safari (simulator, safaridriver via `tools/lib/wd.mjs`); Chrome does not reproduce WebKit ruby and line boxes |
 | `node tools/render-dump.mjs n2\|n1\|q1\|q2 [--html]` | rendered text (or markup) of every route; diff before and after renderer changes |
+| `node tools/render-smoke.mjs [BOOK…]` | every route rendered in Node without a browser (incl. drill and vocab routes): throws, empty views, `undefined` / `NaN` in the markup |
 | `node tools/perf.mjs [--cpu=4] [--net=RTT,KBPS] [--width=390] [--runs=3] [--files] [ROUTE…]` | cold load and route-change timings, requests, DOM size, CPU in the measuring passes |
 | `tools/zoom.sh BOOK PAGE [1\|2\|3\|page]` | 300-dpi strips or the whole page of the scan |
 
-`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven, the last within the innermost block around each reading) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper. The screenshot and probe tools turn furigana on unless `--nofuri` is given (the site default is off).
+`tools/lib/furi-probe.mjs` is the furigana probe (off / hit / clip / uneven, the last within the innermost block around each reading) shared by overflow.mjs and wkshot.mjs; `tools/lib/cdp.mjs` the headless-Chrome helper (Chrome picks its own debugging port), `tools/lib/route.mjs` the route → URL mapping shared with `wd.mjs`. The screenshot and probe tools turn furigana on unless `--nofuri` is given (the site default is off).
 
 ### 5.1 Pass criteria (every route × width)
 
@@ -314,13 +301,10 @@ Widths 1280, 768, 390, 375, 320; light and dark; EN on/off; furigana on/off; all
 
 ## 6. Known limitations
 
-- Real iOS Safari unchecked for the four-book shell and the Quartet layout: this machine has no simulator (`xcrun simctl` missing). Run `wkshot.mjs --probe` on Quartet routes and a TRY chapter when one is available.
-- `content-visibility: auto` not used: it would cut a chapter render at 4× CPU from ~140 to ~75 ms, but `fitRubies()` and `fitOptionCols()` measure every point after render, and `#/gp/N` jumps would land on estimated heights.
-- Quartet body text at 15px: a reading wider than its word (ちゅうごくじん over 中国人) leaves a small gap; titles (.42em readings) do not.
-- Q2 漢字チャレンジ k20: the job-ad labels printed white on dark are plain boxed cells (`frame`).
-- Decorative tiles (ornaments without text) are not marked or reproduced.
-- Quartet `challenge.js` and every `lNN.js` load up front: the sidebar and openers need the unit titles (lazy loading would need a unit index split out), and sidebar, progress and prev/next need every lesson.
-- TRY 単語 全部 renders all ~1 100 rows (N1 ~900; ~7 700 DOM nodes) at once; chunked rendering would need a vocab.js change.
-- Five-column Quartet tables with English on (Q1 L6 聴解 garbage table) scroll sideways inside `.qtbl-wrap` at 320: English
-  words set the column minimum and cannot hyphenate, because English spans inherit `lang="ja"` (a `lang="en"` span would
-  draw the Japanese words inside English lines with Chinese glyph forms on some systems).
+- Real iOS Safari not checked for the four-book shell and the Quartet layout (no iOS simulator on this machine). Run `wkshot.mjs --probe` on Quartet routes and a TRY chapter where one is available.
+- No `content-visibility: auto`: `fitRubies()` and `fitOptionCols()` measure every point after render, and `#/gp/N` jumps would land on estimated heights.
+- Quartet body text (15px): a reading wider than its word (ちゅうごくじん over 中国人) leaves a small gap.
+- Q2 k20: the job-ad labels printed white on dark are plain boxed cells. Decorative ornaments without text are not reproduced.
+- Quartet `challenge.js` and every `lNN.js` load up front (the sidebar, openers, progress and prev/next need them).
+- TRY 単語 全部 renders every row at once (N2 ~1 100, ~7 700 DOM nodes).
+- Q1 L6 聴解 five-column table with English on scrolls sideways inside `.qtbl-wrap` at 320: English spans inherit `lang="ja"` and cannot hyphenate (`lang="en"` would set the Japanese inside them in Chinese glyph forms on some systems).

@@ -38,12 +38,14 @@ pages:"18"`; `tools/zoom.sh <book> PDFPAGE` for 300-dpi strips, `… PDFPAGE pag
 index.html, n1/, q1/, q2/   one page per book: CSS, boot.js, data/<book>/book.js, module main.js (+ modulepreload)
 assets/js/
   boot.js      classic script: data registry (TRY.register*), theme before first paint, starts loading the book's data
-  core.js      book meta, settings/progress (localStorage), $/$$/esc, ACT click registry, TTS
+  core.js      book meta, settings/progress (localStorage), place keeping (keepPlace), $/$$/esc, ACT click registry, TTS
   ruby.js      furigana: {漢字|かな} → <ruby>, overhang margins and measured correction (fitRubies)
-  markup.js    fmt() inline markup, plain(), bilingual helpers, pills, buttons
+  markup.js    fmt() inline markup, plain(), bilingual helpers, pills, buttons, pageHead, miniToc, pager
   content.js   TRY chapter view · exercises.js all exercise types and grading · pages.js home, guide, about, index,
                compare, can-do, drill · vocab.js 単語 lists · flash.js flashcards
-  main.js      shell (topbar, sidebar, footer), router, settings, events; need(h) loads a route's lazy files
+  main.js      shell (topbar, sidebar, footer), router, settings, 縦/横, events; need(h) loads a route's lazy files.
+               Per-book adapter: TRY_BOOK here, QUARTET in q2/nav.js (pages, sidebar, target, viewHtml, needs, layout,
+               stats, placeAt, applyVertical)
   q2/          Quartet: nav.js adapter and views, blocks.js block renderer, lists.js 別冊 lists, indexes, drill
 assets/css/    base.css (tokens, themes, English layer) · shell.css · content.css · exercises.css · q2.css (--q accent per book)
 data/<book>/   TRY: book.js, chNN.js, compare.js, front.js, vocab/chNN.js
@@ -51,7 +53,10 @@ data/<book>/   TRY: book.js, chNN.js, compare.js, front.js, vocab/chNN.js
 data/links.js  the same grammar across the books (他の本 Other books)
 data/SCHEMA.md, data/Q2-SCHEMA.md   data formats and transcription rules — read before editing data
 docs/          LAYOUT.md (design, components, QA, limitations) · ENGLISH.md · *-TRANSCRIPTION.md (page maps)
-tools/         validators, layout probes; tools/lib/books.js per-book config and Node data loader
+tools/         validators, layout probes, OCR (tools/<book>/ocr, made with tools/ocr/ocr.swift), text baselines;
+               tools/lib: books.js per-book config and Node data loader, cdp.mjs headless Chrome, wd.mjs Safari,
+               route.mjs tool route → URL, fuzzy.js OCR matching. tools/q2/merge-*.js assembled the Quartet data
+               from transcription chunks (docs/Q2-TRANSCRIPTION.md); the data files are edited directly now
 ```
 
 Data loading: the page loads what home, lessons and the sidebar need (TRY chNN.js, compare.js, front.js; Quartet book.js
