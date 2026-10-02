@@ -49,7 +49,7 @@ TRY.registerLinks([
   { k: "ないことはない", ids: ["n2:54 〜ないことはない", "n1:19 〜ないでもない"], en: "Same hesitant yes, \"it's not that ~ not\"; N2's ないことはない is slightly more direct." },
   { k: "あげく", ids: ["n2:45 〜あげく（に）", "n1:20 〜しまつだ"], en: "Both end a trying story with a bad result; しまつだ adds the speaker's criticism of how bad things have become." },
   { k: "やら〜やら", ids: ["n2:98 〜やら〜やら", "n1:29 〜わ〜わ"], en: "Both list things with feeling; わ〜わ piles up troubles or delights, やら〜やら can also mix emotions and take nouns." },
-  { k: "もとより", ids: ["n2:12 〜はもとより", "n2:63 〜のみならず", "n2:72 〜に{限|かぎ}らず", "n1:37 〜もさることながら"], en: "\"A of course, and B too\": はもとより; written のみならず and Nに限らず (夏に限らず), \"not only\"; もさることながら: B may matter even more." },
+  { k: "もとより", ids: ["n2:12 〜はもとより", "n2:63 〜のみならず", "n2:72 〜に{限|かぎ}らず", "n2:136 〜に{加|くわ}えて", "n1:37 〜もさることながら"], en: "\"A of course, and B too\": はもとより; written のみならず and Nに限らず (夏に限らず), \"not only\"; Nに加えて adds a second item of the same kind (資金に加えて); もさることながら: B may matter even more." },
   { k: "に即して", ids: ["n2:108 〜にそって", "n2:138 〜に{基|もと}づいて", "n2:138+1 〜をもとに／〜をもとにして", "n1:39 〜に{即|そく}して"], en: "\"In line with / based on\": をもとに, N as the source (調査結果をもとに); に即して, formal, closely fitting the actual situation or rules." },
   { k: "ことはない", ids: ["n2:49 〜ことはない", "n1:41 〜までもない"], en: "Both say there's no need; ことはない advises the listener, までもない says it's unnecessary because the matter is obvious." },
   { k: "次第", ids: ["n2:114 〜{次第|しだい}", "q1:3-6 Nによって", "n1:42 〜いかん", "n1:110 〜ようによって（は）"], en: "\"Depending on N\": によって with 違う (国によって違う); 次第, what N decides; formal いかん; Vようによっては, depending on how (考えようによっては)." },
@@ -103,5 +103,6 @@ TRY.registerLinks([
   { k: "ほど・くらい", ids: ["q1:6-8 〜ほど", "q2:9-1 〜くらい", "n2:90 〜くらいなら"], en: "Extent, \"so ~ that\": ほど and くらい overlap (涙が出るほど); only くらい also belittles (それくらい自分でやって), and くらいなら builds on that: \"rather than ~\" (謝るくらいなら最初からするな)." },
   { k: "ということは", ids: ["q2:9-7 〜ということは", "n2:52 〜というものだ"], en: "A judgment put as a general truth: XということはYということだ, \"X means Y\"; というものだ, \"that's what ~ is\" (助け合うのが友達というものだ)." },
   { k: "らしい", ids: ["q1:1-4 〜らしい", "n2:107 〜とか"], en: "Passing on what one heard: らしい, \"apparently\"; N2's とか, less sure, often in polite small talk (結婚なさるとか)." },
+  { k: "に関する", ids: ["n2:68 〜に{関|かん}して／〜に{関|かん}する", "n1:108 〜にかかわる"], en: "\"About, concerning\": に関する, a neutral topic label (環境に関する本); N1's にかかわる, related to a field (医療にかかわる仕事) or seriously affecting it (命にかかわるけが)." },
   { k: "ことか", ids: ["n2:42 〜ことか", "n1:71 〜限りだ"], en: "The speaker's own strong feeling: どんなに〜ことか exclaims over how much (どれほど心配したことか); N1's 〜限りだ, more formal, \"I feel so ~\" (うれしい限りです)." },
 ]);

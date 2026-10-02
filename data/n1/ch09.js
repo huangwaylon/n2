@@ -163,7 +163,7 @@ TRY.registerChapter({
           {
             q: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。",
             answer: "からある",
-            en: "The dog traveled a long way — 200 km or more — and made it back to its owner.",
+            en: "The dog traveled a long way, a good 200 km, and made it back to its owner.",
             why: { en: "Number + km + からある + N stresses that the distance is remarkably long (#107); ある is used for distances and weights." },
           },
           {
@@ -296,7 +296,7 @@ TRY.registerChapter({
       },
     },
     {
-      title: { ja: "問題4 〈{聴解|ちょうかい}〉", en: "Question 4: Listening — integrated comprehension" },
+      title: { ja: "問題4 〈{聴解|ちょうかい}〉", en: "Question 4: Listening — two questions" },
       ex: {
         type: "listening",
         mode: "summary",

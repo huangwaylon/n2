@@ -430,7 +430,7 @@ TRY.registerChapter({
           items: [
             { q: "建てたばかりの家が{洪水|こうずい}で流されてしまったときの彼のショックは想像＿＿。", answer: "にかたくない", en: "It is easy to imagine his shock when the house he had just built was washed away by the flood.", why: { en: "想像 right before the blank → 想像にかたくない (#115), “easy to imagine”." } },
             { q: "会社のために今まで{頑張|がんば}ってきたのに、リストラなんて、{裏切|うらぎ}り＿＿。", answer: "でなくてなんだろう", en: "I've worked hard for the company all this time, and now they're laying me off — if that isn't betrayal, what is?", why: { en: "N (裏切り) + でなくてなんだろう (#118): a rhetorical question insisting that this truly is betrayal. 極まりない needs a な-adjective stem, and 裏切り is a plain noun." } },
-            { q: "せっかくの海外旅行で財布を盗まれたとは、{同情|どうじょう}を＿＿。", answer: "禁じえない", en: "I can't help feeling sorry for you, having your wallet stolen on your long-awaited trip abroad.", why: { en: "Feeling noun + を + 禁じえない (#120): 同情を禁じえない, “I can't help feeling sympathy”. The を before the blank rules out the other options." } },
+            { q: "せっかくの海外旅行で財布を盗まれたとは、{同情|どうじょう}を＿＿。", answer: "禁じえない", en: "Having your wallet stolen on a long-awaited trip abroad: one can't help feeling sympathy.", why: { en: "Feeling noun + を + 禁じえない (#120): 同情を禁じえない, “I can't help feeling sympathy”. The を before the blank rules out the other options." } },
             { q: "{初対面|しょたいめん}の人に借金を申し込むなんて、非常識＿＿。", answer: "{極|きわ}まりない", en: "Asking someone you've only just met to lend you money shows an utter lack of common sense.", why: { en: "非常識 is a な-adjective stem, which takes 極まりない directly (#119): “utterly lacking in common sense”." } },
             { q: "危険につき、この橋渡る＿＿。", answer: "べからず", en: "Danger. Do not cross this bridge.", why: { en: "A notice (危険につき) + dictionary form 渡る + べからず (#111), a sign-style prohibition. べくもない after 渡る would mean “there's no way to cross”, not a warning." } },
             { q: "住宅{密集地|みっしゅうち}で{火災|かさい}が起こったら、大きな被害を出さ＿＿。", answer: "ずにはすまない", en: "If a fire breaks out in a densely built-up residential area, it is bound to cause great damage.", why: { en: "出さ is the ない-stem of 出す, and stem + ずにはすまない (#117) predicts an unavoidable bad outcome given the situation." } },
@@ -518,7 +518,7 @@ TRY.registerChapter({
             pieces: ["を禁じえない", "{素晴|すば}らしい", "演技に", "感動"],
             order: [1, 2, 3, 0],
             star: 2,
-            en: "The critic Nakamura praised it, saying, “Every member of the audience will surely be unable to hold back their emotion at the great actor's wonderful performance.”",
+            en: "The critic Nakamura praised it, saying, “Surely no one in the audience could help being moved by the great actor's wonderful performance.”",
             why: { en: "名優の素晴らしい演技に感動を禁じえない (#120): 演技に names the cause, and 感動 is the feeling that を禁じえない takes." },
           },
           {
