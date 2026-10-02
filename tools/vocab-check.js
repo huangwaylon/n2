@@ -24,10 +24,11 @@ const gpText = new Map();
 T.chapters.filter(Boolean).forEach((c) => c.parts.forEach((p) => p.points.forEach((g) => gpText.set(g.no, { ch: c.id, s: strings(g).map(bare) }))));
 
 // lines whose English the book prints (N2 titles, can-do, usage, notes): a book sentence quoted from one keeps it
-const bookEn = new Map();
+// and our translations of the other lines: a quoted line keeps the chapter's English (copies drifted as it was revised)
+const bookEn = new Map(), lineEn = new Map();
 T.chapters.filter(Boolean).forEach((c) => (function walk(o, p) {
   if (!o || typeof o !== "object") return;
-  if (typeof o.ja === "string" && o.en && isBookEnglish(T, p, o)) bookEn.set(bare(o.ja), o.en);
+  if (typeof o.ja === "string" && o.en) (isBookEnglish(T, p, o) ? bookEn : lineEn).set(bare(o.ja), o.en);
   Object.entries(o).forEach(([k, v]) => walk(v, p ? `${p}.${k}` : k));
 })(c, ""));
 
@@ -86,6 +87,8 @@ for (const v of T.vocab) {
       else if (!pool.some((s) => s.includes(plainJa))) E(id, `book sentence not found verbatim at ${x.book.at}: ${plainJa.slice(0, 40)}`);
       const be = bookEn.get(plainJa);
       if (be != null && (x.book.src !== "book" || x.book.en !== be)) E(id, `book sentence is a line the book translates: src: "book", en: ${JSON.stringify(be)}`);
+      const le = lineEn.get(plainJa);
+      if (le != null && x.book.en !== le.replace(/\*\*/g, "")) E(id, `book.en differs from the chapter's translation: ${JSON.stringify(le)}`);
       if (be == null && x.book.src === "book") E(id, "src: \"book\" but the book prints no English for this line");
     }
     // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list; an occurrence
