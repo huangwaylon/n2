@@ -144,6 +144,8 @@ blanks ①（　） as printed.
 ```js
 { t: "dialogue", title, style: "casual" | "formal", styleLabel, setting, audio: "3.Kaiwa_L7-1",
   lines: [ { sp: "メ", v: "f", ja: "❶あのさあ、サラ……。", tr: "…" } ] }
+//   line brace: [1, 3] — printed lines 1–3 of that turn's ja (0-based, inclusive) grouped by a left brace, the (例1)–(例3)
+//   choices (Q1 p.094, Q2 p.194)
 { t: "roles", style, cards: [ { tag: "A", who: "あなた", text }, { tag: "B", who: "Aの友達", text } ] }
 { t: "flow", head: [Text, Text], steps: [ { side: "a", n: 1, label: "話しかける", text: "…" }, { side: "b", text: "何？" } ] }
 //   turns: true — each side's run of steps one wide bubble, no centre line (Q2 p.193); bare: true — no frame

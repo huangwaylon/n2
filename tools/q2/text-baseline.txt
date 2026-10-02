@@ -6879,11 +6879,11 @@ l12.sections.2.blocks.28.text.ja	この後、賛成側がまとめのスピー�
 l12.sections.2.blocks.29.text.ja	→「2-5. もっと練習しよう」(p. 195)
 l12.sections.2.blocks.30.text.ja	練習しよう
 l12.sections.2.blocks.31.text.ja	▶ ［　　　］のパターンを使って話してみましょう。
-l12.sections.2.blocks.32.blocks.0.rows.0.0.ja	賛成側【意見のスピーチ】
+l12.sections.2.blocks.32.blocks.0.rows.0.0.ja	!!賛成側【意見のスピーチ】!!
 l12.sections.2.blocks.32.blocks.0.rows.0.1.ja	❶ 立場を述べる ➔ ❷ 理由を2つ述べる ➔ ❸ 主張を述べる
 l12.sections.2.blocks.32.blocks.0.rows.1.0.ja	反対側【反論の質問】
 l12.sections.2.blocks.32.blocks.0.rows.1.1.ja	❹ 相手の言葉を{引用|いんよう}し (quote)、反論する ➔ ❺ 例や理由を挙げる
-l12.sections.2.blocks.32.blocks.0.rows.2.0.ja	賛成側【反論の質問への答え】
+l12.sections.2.blocks.32.blocks.0.rows.2.0.ja	!!賛成側【反論の質問への答え】!!
 l12.sections.2.blocks.32.blocks.0.rows.2.1.ja	❻ 一部を認め (admit)、反論に反論する ➔ ❼ まとめる
 l12.sections.2.blocks.33.blocks.0.lines.0.sp	{司会|しかい}
 l12.sections.2.blocks.33.blocks.0.lines.0.ja	これから「＿＿」というテーマで、ミニディベートを行いたいと思います。まず、賛成側の意見のスピーチをお願いします。

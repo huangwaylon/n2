@@ -698,6 +698,10 @@ s { text-decoration: line-through var(--q) 2px; }
 /* ＊　＊　＊ scene breaks in dialogues: centred (pp.028, 030, 122) */
 .qdlg__row--sep { text-align: center; font-size: .9em; }
 .qdlg__row--sep .qdlg__say { grid-column: 1 / -1; }
+/* brace: lines grouped by a left brace, its point at mid-height (Q1 p.094, Q2 p.194) */
+.qbrace { display: block; position: relative; padding-left: 1em; }
+.qbrace::before { content: ""; position: absolute; left: .1em; top: .35em; bottom: .35em; width: .45em; border: 1.5px solid var(--ink-2); border-right: 0; border-radius: .45em 0 0 .45em; }
+.qbrace::after { content: ""; position: absolute; left: -.12em; top: calc(50% - .2em); width: .4em; height: .4em; border: solid var(--ink-2); border-width: 0 0 1.5px 1.5px; transform: rotate(45deg); background: var(--bg-box, transparent); }
 .swatch { display: inline-block; width: 3.2em; height: 1.1em; vertical-align: -.15em; background: var(--q-gray); margin: 0 .15em; border-radius: 2px; }
 .rd-title--c { text-align: center; }
 .rd-title--sec { font-size: 1.05em; }  /* ◆ section headings inside a text: about the text size (Q2 p.166) */

@@ -307,10 +307,18 @@ const styleLab = (b) => (b.style || b.styleLabel ? `<p class="qdlg__style">${b.s
 // a role card's instructions are centred; a ［状況］ part after them is set flush left, its ・ items with a hanging indent (p.084)
 const roleText = (t) => line(t, "role__t").replace(/<br>(［状況］)(.*?)<\/(span|p)>/s, (m, h, rest, tag) =>
   `</${tag}><${tag} class="ja role__sit"><span class="role__sh">${h}</span>${rest.split("<br>").filter(Boolean).map((x) => `<span class="role__li">${x}</span>`).join("")}</${tag}>`);
+// brace: [first, last] printed lines of a turn (0-based, inclusive) grouped by a left brace, the (例1)–(例3) choices
+// (Q1 p.094, Q2 p.194)
+const braced = (ja, br) => {
+  if (!br) return fmt(ja);
+  const ls = String(ja).split("\n").map((x) => fmt(x)), [a, z] = br;
+  return [...ls.slice(0, a), `<span class="qbrace">${ls.slice(a, z + 1).join("<br>")}</span>`, ...ls.slice(z + 1)]
+    .map((x, i, all) => (i && !x.startsWith('<span class="qbrace">') && !all[i - 1].startsWith('<span class="qbrace">') ? "<br>" : "") + x).join("");
+};
 function dlgRows(lines) {
   return (lines || []).map((l) => {
     const o = norm(l) || {};
-    const body = `<div class="qdlg__say"><span class="ja">${fmt(o.ja)}</span>${enLines(o)}</div>`;
+    const body = `<div class="qdlg__say"><span class="ja">${braced(o.ja, l.brace)}</span>${enLines(o)}</div>`;
     return l.sp ? `<div class="qdlg__row bi">${o.en || o.tr ? enToggle() : ""}<span class="qdlg__sp">${fmt(l.sp)}</span><span class="qdlg__c" aria-hidden="true">：</span>${body}</div>`
       : `<div class="qdlg__row qdlg__row--narr${/^＊[　 ]?＊/.test(o.ja || "") ? " qdlg__row--sep" : ""} bi">${o.en || o.tr ? enToggle() : ""}${body}</div>`;
   }).join("");

@@ -4120,7 +4120,7 @@ TRY.registerLesson({
        "rows": [
         [
          {
-          "ja": "賛成側【意見のスピーチ】",
+          "ja": "!!賛成側【意見のスピーチ】!!",
           "tr": "For side [opinion speech]"
          },
          {
@@ -4140,7 +4140,7 @@ TRY.registerLesson({
         ],
         [
          {
-          "ja": "賛成側【反論の質問への答え】",
+          "ja": "!!賛成側【反論の質問への答え】!!",
           "tr": "For side [answer to the rebuttal question]"
          },
          {
@@ -4180,6 +4180,7 @@ TRY.registerLesson({
         {
          "sp": "反対側",
          "v": "m",
+         "brace": [1, 4],
          "ja": "❹＿＿**とおっしゃいましたが、**\n（例1）＿＿**とは限らないと思います。**\n　❺**例えば**＿＿**のではないでしょうか。**\n（例2）＿＿{{（わけではない）}}**のではないでしょうか。**\n　❺**なぜなら**＿＿**からです。**",
          "tr": "You said …, but\n(Example 1) I don't think … necessarily ….\n For example, wouldn't …?\n(Example 2) Isn't it the case that … (it isn't that …)?\n Because …."
         },

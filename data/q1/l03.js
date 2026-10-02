@@ -3528,6 +3528,7 @@ TRY.registerLesson({
         {
          "sp": "あなた",
          "v": "f",
+         "brace": [1, 3],
          "ja": "❶すみません、あの、\n（例1）{{このコース／セット／〇〇ランチ}}**ってどんな料理が出るんですか。**\n（例2）「{{ちゃんこなべ}}」**って何が入っているんですか。**\n（例3）「{{ちゃんこなべ}}」**って何ですか。**",
          "tr": "Excuse me, um,\n(Ex. 1) what kind of dishes come with this course / this set / the (name) lunch?\n(Ex. 2) what goes into chanko nabe?\n(Ex. 3) what is chanko nabe?"
         },
