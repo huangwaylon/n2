@@ -1,4 +1,4 @@
-/* content.css — [B] chapter content: banner, side-tab, can-do, mini-toc, 見本文, grammar point. Owned by implementer B.
+/* content.css — TRY chapter content: banner, side-tab, can-do, mini-toc, 見本文, grammar point, vocabulary lists.
    Spec: docs/LAYOUT.md C1–C17. Book greys come from the tokens in base.css. */
 
 .chapter .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

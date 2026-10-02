@@ -1,4 +1,4 @@
-/* exercises.css — [C] exercises, Check, まとめの問題. Owned by implementer C. (docs/LAYOUT.md C18–C29) */
+/* exercises.css — exercises, Check, まとめの問題, the drills (docs/LAYOUT.md C18–C29). */
 
 /* ---------- exercise shell (C18) ---------- */
 /* the book prints exercises without a frame */
@@ -31,10 +31,11 @@
 .q-text > .speak, .q-line > .speak { margin-top: 2px; }
 .q-line > .speak { align-self: start; }
 .qn { flex: none; min-width: 2.2em; font: 15px/2.25 var(--goth); color: var(--ink); text-align: left; }
+/* "1）" in practice and Check, a boxed "1" in まとめの問題 */
+.qn.qn--paren { min-width: 2.2em; height: auto; border: 0; border-radius: 0; display: inline-block; font: 15px/2.25 var(--goth); color: var(--ink); background: none; }
+.qn.qn--box { min-width: 2.6em; height: 1.5em; border: 1px solid var(--ink-2); border-radius: 0; display: inline-grid; place-items: center; font: 15px var(--mincho); color: var(--ink); background: none; margin-top: .55em; margin-right: .6em; }
 .qn:empty { display: none; }
-.qn.qn--paren { line-height: 2.25; }
 .q-line > .qn.qn--paren { font-family: var(--mincho); } /* "1）" in the sentences' Mincho (pp.19, 20, 26) */
-.qn.qn--box { margin-top: .55em; margin-right: .6em; }
 .pq-row > .qn.qn--box, .lq-row > .qn.qn--box { margin-top: .5em; }
 .ex--review .q-line { column-gap: 0; }
 
