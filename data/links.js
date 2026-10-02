@@ -102,4 +102,5 @@ TRY.registerLinks([
   { k: "ほど・くらい", ids: ["q1:6-8 〜ほど", "q2:9-1 〜くらい"], en: "Extent, \"so ~ that\": ほど and くらい overlap (涙が出るほど); only くらい also belittles (それくらい自分でやって)." },
   { k: "ということは", ids: ["q2:9-7 〜ということは", "n2:52 〜というものだ"], en: "A judgment put as a general truth: XということはYということだ, \"X means Y\"; というものだ, \"that's what ~ is\" (助け合うのが友達というものだ)." },
   { k: "らしい", ids: ["q1:1-4 〜らしい", "n2:107 〜とか"], en: "Passing on what one heard: らしい, \"apparently\"; N2's とか, less sure, often in polite small talk (結婚なさるとか)." },
+  { k: "ことか", ids: ["n2:42 〜ことか", "n1:71 〜限りだ"], en: "The speaker's own strong feeling: どんなに〜ことか exclaims over how much (どれほど心配したことか); N1's 〜限りだ, more formal, \"I feel so ~\" (うれしい限りです)." },
 ]);

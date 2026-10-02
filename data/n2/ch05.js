@@ -105,7 +105,7 @@ TRY.registerChapter({
           examples: [
             { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: I don't have time for karaoke! I have to write my report. It's due tomorrow." },
             { ja: "A：{海水浴|かいすいよく}どうだった？　楽しかった？\nB：人が多くて、ゆっくり泳ぐどころじゃなかったよ。", en: "A: How was the beach? Did you have fun?\nB: There were so many people that swimming in peace was out of the question." },
-            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Sir, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation." },
+            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Excuse me, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation." },
           ],
           deepDive: "**〜どころではない** says circumstances are so pressing that an activity is out of the question right now: *this is no time for ~, I'm in no position to ~*. It carries frustration (the book's worried-face mark). Among friends it is **どころじゃない**, and それどころじゃない (*I've got no time for that*) is very common on its own.\n\nConnection: N / V-る + どころではない. The noun is an activity (旅行, 花見, 勉強). The usual shape is trouble + て／ので, then the activity that is ruled out: 引っ越しの準備で忙しくて、花見どころじゃない (*I'm so busy getting ready to move that cherry-blossom viewing is out of the question*). Addressed to someone else with だろう, it scolds (example ③).\n\nCompare:\n- **〜どころか** (#83): *far from ~*, contradicting an expectation: 楽しいどころか、疲れただけだった (*far from being fun, it just wore me out*).\n- **〜てはいられない** (#29): *can't afford to keep ~ing*: のんびりしてはいられない (*I can't just sit around*).\n\nPitfall: the word before どころ is the activity you can't do, not the cause.\n\nJLPT cue: a problem in the first half and an ordinary pleasure or duty right before the blank.",
           see: [83, 29, 89, 57],
@@ -152,7 +152,7 @@ TRY.registerChapter({
           forms: ["[Pl] + ものの\n［[なA~~だ~~]な　~~[N]だ~~］"],
           formNotes: [
             { ja: "「[なA]／[N]で（は）ある + ものの」の形もある。", en: "There is also the form \"[なA]／[N]で(は)ある + ものの\".", gen: true },
-            { ja: "「〜ている・〜てみる」などは「〜てはいる」のように「は」が入ることが多い。", en: "With forms such as 〜ている and 〜てみる, は is often inserted, as in 〜てはいる.", gen: true },
+            { ja: "「〜ている・〜てみる」などは「〜て__は__いる」のように「は」が入ることが多い。", en: "With forms such as 〜ている and 〜てみる, は is often inserted, as in 〜てはいる.", gen: true },
           ],
           examples: [
             { ja: "水泳教室に通ってはいるものの、いまだに25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can only swim 25 meters." },
@@ -687,7 +687,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "君、こんなレポートじゃ、直しようがないよ。" },
             ],
-            en: ["Look, a report like this is beyond fixing.", "Yes, I suppose there's no way to fix it.", "Well then, let's fix it together, sir.", "I'm sorry. I'll rewrite it and bring it back."],
+            en: ["Look, a report like this is beyond fixing.", "Yes, I suppose there's no way to fix it.", "Well then, let's fix it, boss.", "I'm sorry. I'll rewrite it and bring it back."],
             options: ["ええ、直しようがないでしょう。", "じゃ、部長、直しましょうよ。", "すみません。もう一度書いてきます。"],
             answer: 2,
             why: { en: "直しようがない means the report is beyond fixing, so the natural reply is to apologize and rewrite it." },

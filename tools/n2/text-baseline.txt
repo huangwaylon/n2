@@ -2070,7 +2070,7 @@ ch5.parts.0.points.2.examples.3.ja	{両国間|りょうこくかん}の{関係�
 ch5.parts.0.points.2.formNotes.0.gen	true
 ch5.parts.0.points.2.formNotes.0.ja	「[なA]／[N]で（は）ある + ものの」の形もある。
 ch5.parts.0.points.2.formNotes.1.gen	true
-ch5.parts.0.points.2.formNotes.1.ja	「〜ている・〜てみる」などは「〜てはいる」のように「は」が入ることが多い。
+ch5.parts.0.points.2.formNotes.1.ja	「〜ている・〜てみる」などは「〜て__は__いる」のように「は」が入ることが多い。
 ch5.parts.0.points.2.forms.0	[Pl] + ものの
 ［[なA~~だ~~]な　~~[N]だ~~］
 ch5.parts.0.points.2.no	39
