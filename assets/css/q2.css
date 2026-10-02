@@ -202,6 +202,11 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qbox--sheet { position: relative; width: fit-content; max-width: 100%; margin-inline: auto; border-radius: 0; border: 1.5px solid var(--ink-2); background: var(--bg); padding: 12px 24px 24px; }
 .qbox--sheet::after { content: ""; position: absolute; right: -1.5px; bottom: -1.5px; width: 22px; height: 22px; background: linear-gradient(135deg, transparent 0 calc(50% - 1px), var(--ink-2) calc(50% - 1px) calc(50% + .5px), var(--bg) calc(50% + .5px)); border-left: 1.5px solid var(--ink-2); border-top: 1.5px solid var(--ink-2); }
 .qbox--sheet > .qbox__title { justify-content: center; }
+/* rings: binder rings down the left edge, a bar through the frame into a ring, spaced to fill the height (Q1 p.130, Q2 p.198) */
+.qbox--rings::before { content: ""; position: absolute; left: -12px; top: 10px; bottom: 10px; width: 28px; pointer-events: none;
+  background: radial-gradient(circle at 18px 50%, transparent 0 5px, var(--ink-2) 5.5px 7px, transparent 7.5px) 0 0 / 28px 52px no-repeat space,
+    linear-gradient(transparent 24.5px, var(--ink-2) 24.5px 27.5px, transparent 27.5px) 0 0 / 18px 52px no-repeat space; }
+.qbox--rings { padding-left: 30px; }
 .qbox--sheet.qbox--rule { width: auto; } .qbox--sheet.qbox--rule > .qbox__title { justify-content: flex-start; padding-bottom: 4px; border-bottom: 1px solid var(--ink-3); font-size: 18px; }
 .qtbl.qtbl--bare { min-width: 0; } .qtbl.qtbl--bare :is(th, td) { border: 0; background: none; padding: 2px 10px; }
 .qtbl.qtbl--bare th { font-size: 1.1em; }

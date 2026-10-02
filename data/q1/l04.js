@@ -4329,6 +4329,7 @@ TRY.registerLesson({
     {
      "t": "box",
      "style": "sheet",
+     "rings": true,
      "title": {
       "ja": "接客マニュアル",
       "tr": "Customer service manual"
