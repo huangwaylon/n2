@@ -97,7 +97,7 @@ TRY.registerKanji({ lesson: 8, page: 39, kanji: [
     words: [ { w: "香水", yomi: "こうすい", en: "perfume" }, { m: "◇", w: "香り", yomi: "かおり", en: "scent; odor" } ] },
   { no: 415, k: "曲", sec: "読み物2", meaning: "bend; wrong; song", on: ["キョク"], kun: ["ま"], strokes: 6,
     words: [ { w: "作曲", yomi: "さっきょく", en: "musical composition" }, { m: "◇", w: "曲げる", yomi: "まげる", en: "to bend" },
-      { m: "◇", w: "曲げわっぱ", yomi: "まげわっぱ", en: "mage-wappa; bentwood box" } ] },
+      { m: "◇", w: "曲げわっぱ", yomi: "まげわっぱ", en: "''mage-wappa''; bentwood box" } ] },
   { no: 416, k: "師", sec: "読み物2", meaning: "teacher; missionary", on: ["シ"], strokes: 10,
     words: [ { m: "◇", w: "伝道師", yomi: "でんどうし", en: "evangelist; missionary" }, { w: "教師", yomi: "きょうし", en: "teacher" } ] },
   { no: 417, k: "橋", sec: "読み物2", meaning: "bridge", on: ["キョウ"], kun: ["はし"], strokes: 16,

@@ -85,7 +85,7 @@ TRY.registerVocab({
      "ln": 11,
      "w": "浴衣",
      "yomi": "ゆかた",
-     "en": "yukata; informal cotton kimono"
+     "en": "''yukata''; informal cotton kimono"
     },
     {
      "w": "後ほど",
@@ -858,7 +858,7 @@ TRY.registerVocab({
     {
      "w": "こけし",
      "yomi": "こけし",
-     "en": "kokeshi doll"
+     "en": "''kokeshi'' doll"
     },
     {
      "w": "〜風",
@@ -980,7 +980,7 @@ TRY.registerVocab({
      "k": "◇",
      "w": "__曲__げわっぱ",
      "yomi": "まげわっぱ",
-     "en": "mage-wappa; bentwood box"
+     "en": "''mage-wappa''; bentwood box"
     },
     {
      "k": "◆",

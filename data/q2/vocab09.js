@@ -470,7 +470,7 @@ TRY.registerVocab({
       "n": 8,
       "w": "[〜に]声をかける",
       "ex": "落ち込んでいる友達に声をかけた。",
-      "tr": "I went up and talked to a friend who was feeling down."
+      "tr": "I spoke to a friend who was feeling down."
      },
      {
       "n": 9,

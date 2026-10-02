@@ -15,7 +15,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { w: "まったく〜ない", yomi: "まったく〜ない", en: "not at all" },
     { n: 7, k: "◆", w: "__差__", yomi: "さ", en: "difference" },
     { k: "◆", ln: 7, w: "__落__ち込む", yomi: "おちこむ", en: "to get depressed" },
-    { ln: 8, w: "翌週", yomi: "よくしゅう", en: "next week" },
+    { ln: 8, w: "__翌__週", yomi: "よくしゅう", en: "next week" },
     { w: "学部", yomi: "がくぶ", en: "department of a university" },
     { ln: 9, w: "中東", yomi: "ちゅうとう", en: "Middle East" },
     { n: 8, ln: 10, w: "多国籍な", yomi: "たこくせきな", en: "multinational" },

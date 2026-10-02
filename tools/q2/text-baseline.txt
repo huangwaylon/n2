@@ -7157,7 +7157,7 @@ vocab7.lists.0.rows.12.en	difference
 vocab7.lists.0.rows.13.w	__落__ち込む
 vocab7.lists.0.rows.13.yomi	おちこむ
 vocab7.lists.0.rows.13.en	to get depressed
-vocab7.lists.0.rows.14.w	翌週
+vocab7.lists.0.rows.14.w	__翌__週
 vocab7.lists.0.rows.14.yomi	よくしゅう
 vocab7.lists.0.rows.14.en	next week
 vocab7.lists.0.rows.15.w	学部
@@ -7660,7 +7660,7 @@ vocab8.lists.0.rows.11.yomi	せん
 vocab8.lists.0.rows.11.en	line
 vocab8.lists.0.rows.12.w	浴衣
 vocab8.lists.0.rows.12.yomi	ゆかた
-vocab8.lists.0.rows.12.en	yukata; informal cotton kimono
+vocab8.lists.0.rows.12.en	''yukata''; informal cotton kimono
 vocab8.lists.0.rows.13.w	後ほど
 vocab8.lists.0.rows.13.yomi	のちほど
 vocab8.lists.0.rows.13.en	later
@@ -8015,7 +8015,7 @@ vocab8.lists.1.rows.53.yomi	かいはつ（する）
 vocab8.lists.1.rows.53.en	to develop
 vocab8.lists.1.rows.54.w	こけし
 vocab8.lists.1.rows.54.yomi	こけし
-vocab8.lists.1.rows.54.en	kokeshi doll
+vocab8.lists.1.rows.54.en	''kokeshi'' doll
 vocab8.lists.1.rows.55.w	〜風
 vocab8.lists.1.rows.55.yomi	〜ふう
 vocab8.lists.1.rows.55.en	~ style; ~ type
@@ -8075,7 +8075,7 @@ vocab8.lists.1.rows.73.yomi	まげる
 vocab8.lists.1.rows.73.en	to bend [''vt.'']
 vocab8.lists.1.rows.74.w	__曲__げわっぱ
 vocab8.lists.1.rows.74.yomi	まげわっぱ
-vocab8.lists.1.rows.74.en	mage-wappa; bentwood box
+vocab8.lists.1.rows.74.en	''mage-wappa''; bentwood box
 vocab8.lists.1.rows.75.w	伝__統__工芸
 vocab8.lists.1.rows.75.yomi	でんとうこうげい
 vocab8.lists.1.rows.75.en	traditional crafts
@@ -8732,7 +8732,7 @@ vocab10.lists.0.rows.4.en	to support at the same time; to go together
 vocab10.lists.0.rows.5.w	実__施__（する）
 vocab10.lists.0.rows.5.yomi	じっし（する）
 vocab10.lists.0.rows.5.en	to carry out
-vocab10.lists.0.rows.6.w	[〜に] 郵送（する）
+vocab10.lists.0.rows.6.w	[〜に]郵送（する）
 vocab10.lists.0.rows.6.yomi	ゆうそう（する）
 vocab10.lists.0.rows.6.en	to mail [''vt.'']
 vocab10.lists.0.rows.7.w	__未__婚者
@@ -8744,7 +8744,7 @@ vocab10.lists.0.rows.8.en	future
 vocab10.lists.0.rows.9.w	世相
 vocab10.lists.0.rows.9.yomi	せそう
 vocab10.lists.0.rows.9.en	social conditions; phase of life
-vocab10.lists.0.rows.10.w	[〜が] 浮かび上がる
+vocab10.lists.0.rows.10.w	[〜が]浮かび上がる
 vocab10.lists.0.rows.10.yomi	うかびあがる
 vocab10.lists.0.rows.10.en	to rise up; to come to the front [''vi.'']
 vocab10.lists.0.rows.11.w	当然
@@ -8858,7 +8858,7 @@ vocab10.lists.0.rows.46.en	unstable
 vocab10.lists.0.rows.47.w	収入
 vocab10.lists.0.rows.47.yomi	しゅうにゅう
 vocab10.lists.0.rows.47.en	income
-vocab10.lists.0.rows.48.w	[〜に] つながる
+vocab10.lists.0.rows.48.w	[〜に]つながる
 vocab10.lists.0.rows.48.yomi	つながる
 vocab10.lists.0.rows.48.en	to connect
 vocab10.lists.0.rows.49.w	晩婚化
@@ -8873,7 +8873,7 @@ vocab10.lists.0.rows.51.en	factor
 vocab10.lists.0.rows.52.w	〜択
 vocab10.lists.0.rows.52.yomi	〜たく
 vocab10.lists.0.rows.52.en	~ choices
-vocab10.lists.0.rows.53.w	[〜に] __尋__ねる
+vocab10.lists.0.rows.53.w	[〜に]__尋__ねる
 vocab10.lists.0.rows.53.yomi	たずねる
 vocab10.lists.0.rows.53.en	to ask [''vt.'']
 vocab10.lists.0.rows.54.w	〜に続いて
@@ -8897,7 +8897,7 @@ vocab10.lists.0.rows.59.en	to obtain
 vocab10.lists.0.rows.60.w	〜__率__
 vocab10.lists.0.rows.60.yomi	〜りつ
 vocab10.lists.0.rows.60.en	~ rate
-vocab10.lists.0.rows.61.w	[〜が] 浮き__彫__りになる
+vocab10.lists.0.rows.61.w	[〜が]浮き__彫__りになる
 vocab10.lists.0.rows.61.yomi	うきぼりになる
 vocab10.lists.0.rows.61.en	to come to surface [''vi.'']
 vocab10.lists.0.rows.62.w	譲る
@@ -8921,7 +8921,7 @@ vocab10.lists.0.rows.67.en	desire; wish
 vocab10.lists.0.rows.68.w	年収
 vocab10.lists.0.rows.68.yomi	ねんしゅう
 vocab10.lists.0.rows.68.en	annual income
-vocab10.lists.0.rows.69.w	[〜が] うかがえる
+vocab10.lists.0.rows.69.w	[〜が]うかがえる
 vocab10.lists.0.rows.69.yomi	うかがえる
 vocab10.lists.0.rows.69.en	can see
 vocab10.lists.0.rows.70.w	いずれ
@@ -9004,13 +9004,13 @@ vocab10.lists.0.targets.items.14.w	収入
 vocab10.lists.0.targets.items.14.ex	毎月20万円の収入で家族4人が生活するのは苦しい。
 vocab10.lists.0.targets.items.15.w	要因
 vocab10.lists.0.targets.items.15.ex	その会社が{成功|せいこう}した要因の一つは、海外から新しい社長を迎えたことだ。
-vocab10.lists.0.targets.items.16.w	[〜に] 尋ねる
+vocab10.lists.0.targets.items.16.w	[〜に]尋ねる
 vocab10.lists.0.targets.items.16.ex	旅行先で道がわからなくなって、人に尋ねた。
 vocab10.lists.0.targets.items.17.w	挙げる
 vocab10.lists.0.targets.items.17.ex	日本に興味を持ったきっかけとして「アニメ」を挙げる人は多い。
 vocab10.lists.0.targets.items.18.w	〜率
 vocab10.lists.0.targets.items.18.ex	その国の離婚率は50%を超えるらしい。
-vocab10.lists.0.targets.items.19.w	[〜が] 浮き彫りになる
+vocab10.lists.0.targets.items.19.w	[〜が]浮き彫りになる
 vocab10.lists.0.targets.items.19.ex	調査の結果、多くの人が仕事でストレスを感じていることが浮き彫りになった。
 vocab10.lists.0.targets.items.20.w	条件
 vocab10.lists.0.targets.items.20.ex	1週間だけという条件で兄から車を借りた。
@@ -9024,7 +9024,7 @@ vocab10.lists.1.title	日本人が政府に期待するもの
 vocab10.lists.1.rows.0.w	政__府__
 vocab10.lists.1.rows.0.yomi	せいふ
 vocab10.lists.1.rows.0.en	government
-vocab10.lists.1.rows.1.w	[〜と] 比__較__（する）
+vocab10.lists.1.rows.1.w	[〜と]比__較__（する）
 vocab10.lists.1.rows.1.yomi	ひかく（する）
 vocab10.lists.1.rows.1.en	to compare
 vocab10.lists.1.rows.2.w	NHK
@@ -9036,7 +9036,7 @@ vocab10.lists.1.rows.3.en	to broadcast
 vocab10.lists.1.rows.4.w	研究所
 vocab10.lists.1.rows.4.yomi	けんきゅうじょ
 vocab10.lists.1.rows.4.en	research institute
-vocab10.lists.1.rows.5.w	[〜に] 加盟（する）
+vocab10.lists.1.rows.5.w	[〜に]加盟（する）
 vocab10.lists.1.rows.5.yomi	かめい（する）
 vocab10.lists.1.rows.5.en	to join
 vocab10.lists.1.rows.6.w	地域
@@ -9051,7 +9051,7 @@ vocab10.lists.1.rows.8.en	way
 vocab10.lists.1.rows.9.w	とらえる
 vocab10.lists.1.rows.9.yomi	とらえる
 vocab10.lists.1.rows.9.en	to catch
-vocab10.lists.1.rows.10.w	[〜に] 報告（する）
+vocab10.lists.1.rows.10.w	[〜に]報告（する）
 vocab10.lists.1.rows.10.yomi	ほうこく（する）
 vocab10.lists.1.rows.10.en	to report
 vocab10.lists.1.rows.11.w	格差
@@ -9069,7 +9069,7 @@ vocab10.lists.1.rows.14.en	this article
 vocab10.lists.1.rows.15.w	各国
 vocab10.lists.1.rows.15.yomi	かっこく
 vocab10.lists.1.rows.15.en	each country
-vocab10.lists.1.rows.16.w	[〜に] 位置づける
+vocab10.lists.1.rows.16.w	[〜に]位置づける
 vocab10.lists.1.rows.16.yomi	いちづける
 vocab10.lists.1.rows.16.en	to place [''vt.'']
 vocab10.lists.1.rows.17.w	〜を中心に
@@ -9144,13 +9144,13 @@ vocab10.lists.1.rows.39.en	to spend
 vocab10.lists.1.rows.40.w	教育観
 vocab10.lists.1.rows.40.yomi	きょういくかん
 vocab10.lists.1.rows.40.en	educational philosophy
-vocab10.lists.1.rows.41.w	[〜が] 根づく
+vocab10.lists.1.rows.41.w	[〜が]根づく
 vocab10.lists.1.rows.41.yomi	ねづく
 vocab10.lists.1.rows.41.en	to take root
 vocab10.lists.1.rows.42.w	〜主__義__
 vocab10.lists.1.rows.42.yomi	〜しゅぎ
 vocab10.lists.1.rows.42.en	principle; -ism
-vocab10.lists.1.rows.43.w	[〜が] 浸透（する）
+vocab10.lists.1.rows.43.w	[〜が]浸透（する）
 vocab10.lists.1.rows.43.yomi	しんとう（する）
 vocab10.lists.1.rows.43.en	to become widespread
 vocab10.lists.1.rows.44.w	無理（を）する
@@ -9165,7 +9165,7 @@ vocab10.lists.1.rows.46.en	to make
 vocab10.lists.1.rows.47.w	公的__負__担
 vocab10.lists.1.rows.47.yomi	こうてきふたん
 vocab10.lists.1.rows.47.en	public expenditure
-vocab10.lists.1.rows.48.w	[〜が] 顕在化（する）
+vocab10.lists.1.rows.48.w	[〜が]顕在化（する）
 vocab10.lists.1.rows.48.yomi	けんざいか（する）
 vocab10.lists.1.rows.48.en	to become obvious
 vocab10.lists.1.rows.49.w	__指摘__（する）
@@ -9201,7 +9201,7 @@ vocab10.lists.1.rows.58.en	middle
 vocab10.lists.1.rows.59.w	位置（する）
 vocab10.lists.1.rows.59.yomi	いち（する）
 vocab10.lists.1.rows.59.en	to position
-vocab10.lists.1.rows.60.w	[〜に] __設__置（する）
+vocab10.lists.1.rows.60.w	[〜に]__設__置（する）
 vocab10.lists.1.rows.60.yomi	せっち（する）
 vocab10.lists.1.rows.60.en	to install
 vocab10.lists.1.rows.61.w	費用
@@ -9225,7 +9225,7 @@ vocab10.lists.1.rows.66.en	crime
 vocab10.lists.1.rows.67.w	__捜__査（する）
 vocab10.lists.1.rows.67.yomi	そうさ（する）
 vocab10.lists.1.rows.67.en	to investigate
-vocab10.lists.1.rows.68.w	[〜が] __欠__かせない
+vocab10.lists.1.rows.68.w	[〜が]__欠__かせない
 vocab10.lists.1.rows.68.yomi	かかせない
 vocab10.lists.1.rows.68.en	indispensable
 vocab10.lists.1.rows.69.w	比__較__的
@@ -9252,9 +9252,9 @@ vocab10.lists.1.rows.75.en	variation
 vocab10.lists.1.rows.76.w	果たす
 vocab10.lists.1.rows.76.yomi	はたす
 vocab10.lists.1.rows.76.en	to fulfill; to accomplish
-vocab10.lists.1.targets.items.0.w	[〜と] 比較（する）
+vocab10.lists.1.targets.items.0.w	[〜と]比較（する）
 vocab10.lists.1.targets.items.0.ex	日本と比較しながら母国の習慣を説明した。
-vocab10.lists.1.targets.items.1.w	[〜に] 報告（する）
+vocab10.lists.1.targets.items.1.w	[〜に]報告（する）
 vocab10.lists.1.targets.items.1.ex	部長に{東京|とうきょう}出張の報告をした。
 vocab10.lists.1.targets.items.2.w	背景
 vocab10.lists.1.targets.items.2.ex	少子化の背景には、非婚化などの価値観の変化がある。
@@ -9284,11 +9284,11 @@ vocab10.lists.1.targets.items.14.w	防犯
 vocab10.lists.1.targets.items.14.ex	防犯対策として、{玄関|げんかん}にカメラを設置した。
 vocab10.lists.1.targets.items.15.w	許す
 vocab10.lists.1.targets.items.15.ex	彼女のうそをどうしても許すことができません。
-vocab10.lists.1.targets.items.16.w	[〜に] 設置（する）
+vocab10.lists.1.targets.items.16.w	[〜に]設置（する）
 vocab10.lists.1.targets.items.16.ex	この部屋にはエアコンが設置されていない。
 vocab10.lists.1.targets.items.17.w	犯罪
 vocab10.lists.1.targets.items.17.ex	人が多い都市部は犯罪が多い。
-vocab10.lists.1.targets.items.18.w	[〜が] 欠かせない
+vocab10.lists.1.targets.items.18.w	[〜が]欠かせない
 vocab10.lists.1.targets.items.18.ex	水は人間にとって欠かせないものの一つだ。
 vocab10.lists.1.targets.items.19.w	身近な
 vocab10.lists.1.targets.items.19.ex	「いじめ」は身近な社会問題の一つだろう。
@@ -11392,7 +11392,7 @@ kanji8.kanji.42.words.1.yomi	まげる
 kanji8.kanji.42.words.1.en	to bend
 kanji8.kanji.42.words.2.w	曲げわっぱ
 kanji8.kanji.42.words.2.yomi	まげわっぱ
-kanji8.kanji.42.words.2.en	mage-wappa; bentwood box
+kanji8.kanji.42.words.2.en	''mage-wappa''; bentwood box
 kanji8.kanji.43.meaning	teacher; missionary
 kanji8.kanji.43.on.0	シ
 kanji8.kanji.43.words.0.w	伝道師
