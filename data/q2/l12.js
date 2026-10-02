@@ -842,7 +842,7 @@ TRY.registerLesson({
           "ることではないだろうか。ぜひ「あらしのよる」を体験してほしいと思う。"
          ],
          "tr": [
-          "This is the only group in this region that has come to have such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that the day will come when that changes. Couldn't the same be said of human society? I truly hope you will experience a “stormy night” of your own."
+          "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a “stormy night” of your own."
          ]
         }
        ]
