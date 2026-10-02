@@ -1,6 +1,6 @@
 // Quartet blocks, both books (q1, q2; data/Q2-SCHEMA.md "Blocks"): every lesson section, brush-up unit and front-matter section is a list
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
-import { ACT, BOOK, $, $$, esc, isWide, progress, saveProgress, settings, viewH } from "../core.js";
+import { ACT, BOOK, $, $$, esc, isWide, progress, saveProgress, settings, verticalOn, viewH } from "../core.js";
 import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, otherBooksHtml, plain, speakBtn } from "../markup.js";
 import { deepHtml, vtScrollInit } from "../content.js";
 
@@ -35,7 +35,7 @@ const posFmt = (s) => fmt(String(s).replace(POS_RE, "$1⟦$2⟧")).replace(/⟦(
 
 // ---------- speech queues ----------
 // a track label ("1.Yomimono_L7-1") plays, with the browser's voice, the text that carries the same label
-export const QUEUES = new Map();
+const QUEUES = new Map();
 const sayLines = (lines, dv = "f") => lines.filter((l) => l && jaOf(l)).map((l) => ({ text: plain(jaOf(l)).replace(/[❶-❿]/g, ""), v: l.v || dv }));
 const audioBadge = (label) => (label ? `<span class="trk" data-trk="${esc(label)}"><span class="trk__i" aria-hidden="true">🎧</span>${esc(label)}</span>` : "");
 // after a render: turn every track label whose text is on the page into a play button
@@ -66,9 +66,11 @@ function block(b, ctx) {
   const f = B[b && b.t];
   if (!f) return `<p class="err">Unknown block ${esc(b && b.t)}</p>`;
   // a page marker where a block starts a new book page (once per page)
-  const mark = b.page != null && !b.nopage && ctx.lastPage !== b.page;
+  const mark = b.page != null && ctx.lastPage !== b.page;
   if (mark) ctx.lastPage = b.page;
-  const html = f(b, ctx);
+  // one block that throws (bad data) shows an error in its place instead of blanking the whole view
+  let html;
+  try { html = f(b, ctx); } catch (e) { console.error("block", b.t, b.id || b.page || "", e); html = `<p class="err">Block ${esc(b.t)} failed: ${esc(e.message)}</p>`; }
   return mark ? `<span class="pg" aria-hidden="true" data-p="${esc(b.page)}"></span>${html}` : html;
 }
 const idAttr = (b) => (b.id ? ` id="${esc(b.id)}"` : "");
@@ -285,7 +287,7 @@ const B = {
   script(b) {
     const q = sayLines(b.lines, b.v || "f");
     if (b.audio) QUEUES.set(b.audio, q);
-    return `<details class="script"${idAttr(b)} data-en-scope><summary><span class="script__t">解答・スクリプト <span class="en-inline">Answers &amp; script</span></span>${b.audio ? `<span class="trk trk--l">${esc(b.audio)}</span>` : ""}</summary>
+    return `<details class="qscript"${idAttr(b)} data-en-scope><summary><span class="script__t">解答・スクリプト <span class="en-inline">Answers &amp; script</span></span>${b.audio ? `<span class="trk trk--l">${esc(b.audio)}</span>` : ""}</summary>
       <div class="script__tools">${enScopeBtn()}${cdBadge(q, "スクリプトを聞く")}</div>
       ${b.key ? `<div class="script__key"><p class="script__kh">■解答</p>${b.key.map((k) => `<p class="ja">${fmt(k)}</p>`).join("")}</div>` : ""}
       ${b.intro ? line(b.intro, "script__intro") : ""}
@@ -353,7 +355,6 @@ function noteHtml(b, ctx) {
 
 // ---------- reading texts ----------
 // lines: one string per printed line (column); ¶ paragraph start, # title, @ byline, = centred; a number = page break
-const verticalOn = () => settings.vertical === "v" || (settings.vertical !== "h" && isWide());
 function readingHtml(b, ctx) {
   const nums = b.numbers !== false, V = !!b.vertical && verticalOn();
   const paras = [];
