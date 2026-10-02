@@ -481,7 +481,7 @@ TRY.registerCompare([
         ex: { ja: "{楽|らく}をしてお金をもうけようなんて考える**もんじゃない**。", en: "You shouldn't think about making money the easy way." },
         note: "V-る + ものではない (もんじゃない): \"one shouldn't\". A warning grounded in common sense or social norms — the negative of ものだ①." },
       { pattern: "Nというものだ", level: "N2", no: 52,
-        ex: { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。\nB：困ったときに助け合うのが友達**というものだ**ろ。手伝ってあげなさい。", en: "A: Teacher, because of Yamashita, our group is the only one that hasn't finished its project.\nB: Helping each other out when someone's in trouble — that's what friends are for, isn't it? Go and help out." },
+        ex: { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。\nB：困ったときに助け合うのが友達**というものだ**ろ。手伝ってあげなさい。", en: "A: Because of Yamashita, our group is the only one that hasn't finished its project.\nB: Helping each other out when someone's in trouble — that's what friends are for, isn't it? Go and help out." },
         note: "N + というものだ: \"that's what N is (really about)\". Presents the speaker's view as common sense or the essence of N (それが友達というものだ), not a personal opinion." },
       { pattern: "〜というものではない", level: "N2", no: 25,
         ex: { ja: "勉強は今日やれば明日やらなくていい**というものではない**。", en: "Studying isn't the kind of thing where doing it today means you don't have to do it tomorrow." },
