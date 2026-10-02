@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "under; less than (not including the number itself)",
     note: "18歳未満 means under 18, with 18 itself excluded; 18歳以下 includes 18. Common on signs and forms: 20歳未満の飲酒は禁止されています.",
     rx: ["みばん", "びまん", "みみつ"],
-    book: { ja: "さいわい市には50人**未満**の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but among workplaces of this size the national average of those that have appointed an occupational physician is only about 8% — and in Saiwai City it is lower still, a mere 5%.", at: "ch/2" },
+    book: { ja: "さいわい市には50人**未満**の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but nationally only about 8% of workplaces this size have appointed an occupational physician, and in Saiwai City the figure is a mere 5%.", at: "ch/2" },
     ex: [
       { ja: "6{歳|さい}**{未満|みまん}**のお{子様|こさま}は{入場|にゅうじょう}{無料|むりょう}です。", en: "Admission is free for children under six.", alt: ["{未来|みらい}", "{不満|ふまん}", "{満期|まんき}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "scale; size; extent",
     note: "大規模 / 小規模 (large- / small-scale), 規模を拡大する (expand), 世界規模 (on a global scale). Note the short reading きぼ, not きぼう (希望).",
     rx: ["きも", "きぼう", "きばく"],
-    book: { ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この**{規模|きぼ}**では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but among workplaces of this size the national average of those that have appointed an occupational physician is only about 8% — and in Saiwai City it is lower still, a mere 5%.", at: "ch/2" },
+    book: { ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この**{規模|きぼ}**では産業医を{選任|せんにん}しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but nationally only about 8% of workplaces this size have appointed an occupational physician, and in Saiwai City the figure is a mere 5%.", at: "ch/2" },
     ex: [
       { ja: "{地震|じしん}の{被害|ひがい}は{予想|よそう}{以上|いじょう}の**{規模|きぼ}**だった。", en: "The earthquake damage was on a larger scale than expected.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "appointment; selecting and appointing (someone to a post)",
     note: "Formal and legal: 役員を選任する, 産業医の選任. 任命 is appointment by a higher authority, and 選出 is being chosen by election. Don't confuse it with the homophone 専任 (full-time, exclusively assigned).",
     rx: ["せんじん", "せにん", "ぜんにん"],
-    book: { ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を**{選任|せんにん}**しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but among workplaces of this size the national average of those that have appointed an occupational physician is only about 8% — and in Saiwai City it is lower still, a mere 5%.", at: "ch/2" },
+    book: { ja: "さいわい市には50人未満の{事業所|じぎょうしょ}が多いのですが、この{規模|きぼ}では産業医を**{選任|せんにん}**しているのは全国平均で8%程度、さいわい市に{至|いた}ってはわずか5%です。", en: "Saiwai City has many workplaces with fewer than 50 employees, but nationally only about 8% of workplaces this size have appointed an occupational physician, and in Saiwai City the figure is a mere 5%.", at: "ch/2" },
     ex: [
       { ja: "{株主|かぶぬし}{総会|そうかい}で{新|あたら}しい{取締役|とりしまりやく}が**{選任|せんにん}**された。", en: "New directors were appointed at the shareholders' meeting.", alt: ["{責任|せきにん}", "{担任|たんにん}", "{先人|せんじん}"] },
     ] },
@@ -376,7 +376,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "meddling; nosiness; a busybody",
     note: "Unwanted interference in other people's affairs: お節介を焼く (meddle), 余計なお節介 (none of your business). Usually a mild criticism; 世話を焼く (fuss over someone) is kinder.",
     rx: ["おせつかい", "おふしかい", "おせっけい"],
-    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but he tends to be a busybody.", at: "gp/11" },
+    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but has a tendency to be a busybody.", at: "gp/11" },
     ex: [
       { ja: "**お{節介|せっかい}**かもしれないけど、{早|はや}く{病院|びょういん}に{行|い}ったほうがいいよ。", en: "It may be none of my business, but you'd better see a doctor soon.", alt: ["お{世辞|せじ}", "お{節|せち}", "お{世話|せわ}"] },
     ] },

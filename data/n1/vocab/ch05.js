@@ -108,7 +108,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "ordinary people; the common people; the masses",
     note: "Ordinary people as opposed to the rich or powerful: 庶民の味 (everyday food), 庶民的 (unpretentious, down-to-earth), 庶民感覚 (an ordinary person's sense of money). 市民 means citizens of a city or state; 庶民 is about social class.",
     rx: ["しょうみん", "しょみょう", "じょみん"],
-    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk recommending a 50,000-yen toner to me — what would you call it — she has no feel for how ordinary people live…", at: "gp/46" },
+    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk recommending a 50,000-yen toner to me — what would you call it — no feel at all for how ordinary people live…", at: "gp/46" },
     ex: [
       { ja: "この{辺|あた}りのマンションは{高級|こうきゅう}すぎて、{私|わたし}たち**{庶民|しょみん}**にはとても{手|て}が{出|で}ない。", en: "The condos around here are so upscale that ordinary folks like us could never afford one.", alt: ["{庶務|しょむ}", "{民意|みんい}", "{民法|みんぽう}"] },
     ] },
@@ -260,7 +260,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "pursuit (of a goal such as profit or happiness)",
     note: "Three homophones: 追求 is pursuing something you want (利益・幸福・理想を追求する); 追究 is investigating a truth in depth (真理を追究する); 追及 is pressing someone about their responsibility (責任を追及する).",
     rx: ["ついく", "ついぎゅう", "すいきゅう"],
-    book: { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を**{追求|ついきゅう}**したこのスーパーは、成功するべくして成功したと言えよう。", en: "This supermarket, which pursued both its employees' happiness and its customers' satisfaction, could be said to have been bound to succeed — and it did.", at: "gp/52" },
+    book: { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を**{追求|ついきゅう}**したこのスーパーは、成功するべくして成功したと言えよう。", en: "You could say this supermarket, which pursued both its employees' happiness and its customers' satisfaction, was bound to succeed, and it did.", at: "gp/52" },
     ex: [
       { ja: "{企業|きぎょう}は{利益|りえき}の**{追求|ついきゅう}**だけでなく、{社会的|しゃかいてき}な{責任|せきにん}も{果|は}たすべきだ。", en: "Companies should not only pursue profit but also meet their social responsibilities.", alt: ["{追放|ついほう}", "{追跡|ついせき}", "{追突|ついとつ}"] },
     ] },

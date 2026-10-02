@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "live broadcast (from a location); relay",
     note: "Broadcasting from the scene: 生中継 (live coverage), 現地から中継する, 中継がつながる (the live feed comes through). Also relaying in general: 中継地点 (relay point). 放送 is broadcasting in general.",
     rx: ["ちゅうけ", "じゅうけい", "ちゅけい"],
-    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We plan to show you the situation in Okinawa, which is now in the storm zone, during the program as soon as the live link is connected.", at: "ch/4" },
+    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We will report on the situation in Okinawa, now in the storm zone, later in the program as soon as the live link is up.", at: "ch/4" },
     ex: [
       { ja: "{決勝戦|けっしょうせん}はテレビで{生|なま}**{中継|ちゅうけい}**される。", en: "The final will be broadcast live on TV.", alt: ["{継続|けいぞく}", "{中止|ちゅうし}", "{中断|ちゅうだん}"] },
     ] },
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
     note: "Kanji 庇う, usually written in kana. Protecting someone from harm or blame (部下をかばう “cover for a subordinate”), or sparing an injured body part (痛めた足をかばって歩く). 守る is the general “protect”.",
-    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators gave warm applause to Suzuki, who kept running while favoring the leg he had injured in a fall, and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{先輩|せんぱい}は、{失敗|しっぱい}した{私|わたし}を{上司|じょうし}の{前|まえ}で**かばって**くれた。", en: "My senior colleague stuck up for me in front of the boss when I made a mistake.", alt: ["{責|せ}めて", "{疑|うたが}って", "{避|さ}けて"] },
     ] },
@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "running the full distance; finishing (a race)",
     note: "完 (complete) + 走 (run): マラソンを完走する, 完走者 (finishers). Similar 完-words: 完成 (completion of a thing), 完了 (finishing a process), 完売 (selling out).",
     rx: ["かんぞう", "かんそ", "かんしょう"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators gave warm applause to Suzuki, who kept running while favoring the leg he had injured in a fall, and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{初|はじ}めてのフルマラソンで、なんとか**{完走|かんそう}**できた。", en: "I managed to finish my first full marathon.", alt: ["{完成|かんせい}", "{逃走|とうそう}", "{完売|かんばい}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (give a round of applause), 大きな拍手が起こる, 拍手喝采 (cheers and applause). 握手 (handshake) is a common mix-up.",
     rx: ["はくしゅう", "ばくしゅ", "はくて"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "The spectators gave warm applause to Suzuki, who kept running while favoring the leg he had injured in a fall, and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**が{起|お}こった。", en: "When the performance ended, the hall broke into loud applause.", alt: ["{握手|あくしゅ}", "{歌手|かしゅ}", "{拍子|ひょうし}"] },
     ] },
@@ -242,7 +242,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the whole area; the entire region",
     note: "Formal: 市内全域 (the whole city), 県全域, 全域にわたって. 域 means area or zone, as in 地域 (region) and 流域 (river basin).",
     rx: ["ぜんいく", "ぜんえき", "ぜいき"],
-    book: { ja: "{台風|たいふう}で{電線|でんせん}が切れ、この町は**{全域|ぜんいき}**にわたって{停電|ていでん}した。", en: "Power lines were cut in the typhoon, and the whole town lost power.", at: "gp/31" },
+    book: { ja: "{台風|たいふう}で{電線|でんせん}が切れ、この町は**{全域|ぜんいき}**にわたって{停電|ていでん}した。", en: "Power lines were cut in the typhoon, and power went out throughout the entire town.", at: "gp/31" },
     ex: [
       { ja: "{県内|けんない}**{全域|ぜんいき}**に{大雨|おおあめ}{警報|けいほう}が{出|だ}された。", en: "A heavy-rain warning was issued for the entire prefecture.", alt: ["{全員|ぜんいん}", "{全額|ぜんがく}", "{全力|ぜんりょく}"] },
     ] },

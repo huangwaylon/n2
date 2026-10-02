@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "just; legitimate; justified; proper",
     note: "Right by reason or by law: 正当な理由 (a valid reason), 正当な評価 (fair assessment), 正当防衛 (self-defense), 正当化する (justify). 適当 means suitable (or, casually, half-hearted); 妥当 means reasonable or appropriate.",
     rx: ["せいどう", "しょうとう", "せいと"],
-    book: { ja: "そのクレームが**{正当|せいとう}**なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
+    book: { ja: "そのクレームが**{正当|せいとう}**なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
     ex: [
       { ja: "**{正当|せいとう}**な{理由|りゆう}がなければ、{会社|かいしゃ}は{社員|しゃいん}を{解雇|かいこ}できない。", en: "A company cannot dismiss an employee without a legitimate reason.", alt: ["{正直|しょうじき}", "{正面|しょうめん}", "{弁当|べんとう}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "unpleasant; uncomfortable; displeasure",
     note: "Formal: 不快な思いをさせる (make someone feel bad — common in apologies), 不快感 (a feeling of discomfort), 不快指数 (discomfort index). It is stronger and more formal than 嫌な; opposite 快適 / 愉快.",
     rx: ["ふかいい", "ぶかい", "ふけ"],
-    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は**{不快|ふかい}**な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
+    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は**{不快|ふかい}**な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
     ex: [
       { ja: "{他人|たにん}に**{不快|ふかい}**な{思|おも}いをさせないよう、{言葉|ことば}{遣|づか}いに{気|き}をつけている。", en: "I'm careful with my language so as not to make others uncomfortable.", alt: ["{愉快|ゆかい}", "{不振|ふしん}", "{不足|ふそく}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "trust; confidence; reliance",
     note: "Trusting someone's ability or character and relying on them: 信頼を得る / 失う (gain / lose trust), 信頼関係, 信頼できる人. 信用 is trust in someone's honesty or creditworthiness (often business or money); 信頼 also implies relying on them.",
     rx: ["しんたい", "じんらい", "しんれい"],
-    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの**{信頼|しんらい}**を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, the hotel could well lose their trust.", at: "ch/3" },
+    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの**{信頼|しんらい}**を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
     ex: [
       { ja: "{彼|かれ}は{約束|やくそく}を{必|かなら}ず{守|まも}るので、{周|まわ}りから**{信頼|しんらい}**されている。", en: "He always keeps his promises, so the people around him trust him.", alt: ["{以来|いらい}", "{信仰|しんこう}", "{申請|しんせい}"] },
     ] },

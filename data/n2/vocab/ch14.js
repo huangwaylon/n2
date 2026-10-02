@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to raise (a hand); to give (an example); to hold (a ceremony); to do with all one's strength",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
-    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "When it came to hosting the Olympics, the whole nation used to rejoice in the old days.", at: "ch/14" },
+    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "When it comes to hosting the Olympics, in the old days the whole nation used to rejoice.", at: "ch/14" },
     ex: [
       { ja: "{具体的|ぐたいてき}な{例|れい}を**{挙|あ}げて**{説明|せつめい}してください。", en: "Please explain with a concrete example.", alt: ["{下|さ}げて", "{投|な}げて", "{広|ひろ}げて"] },
       { ja: "{二人|ふたり}は{来月|らいげつ}、ハワイで{結婚式|けっこんしき}を**{挙|あ}げる**そうだ。", en: "I hear the two of them are having their wedding in Hawaii next month." },

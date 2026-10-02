@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "home (of something); the place where something originated or is done authentically",
     note: "The place known for the genuine article: 本場のフランス料理, 本場で英語を学ぶ, 本場仕込み (learned at the source). It implies authenticity compared with imitations elsewhere. Don't confuse it with 本番 (the real performance, as opposed to a rehearsal).",
     rx: ["ほんじょう", "もとば", "ほんぱ"],
-    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "Because this is, as you would expect, the world's number-one home of beer, more than six million tourists come from countries all over the world every year.", at: "ch/1" },
+    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "Fittingly for the world's foremost home of beer, it draws more than six million tourists from countries all over the world every year.", at: "ch/1" },
     ex: [
       { ja: "イタリアで**{本場|ほんば}**のピザを{食|た}べてみたい。", en: "I'd like to try authentic pizza in Italy.", alt: ["{本番|ほんばん}", "{現場|げんば}", "{本部|ほんぶ}"] },
     ] },
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to escape; to get away from; to evade (responsibility)",
     note: "Getting out of danger or out of something unpleasant: 危険から逃れる, 責任を逃れる / 責任逃れ (dodging responsibility). More formal and often more figurative than 逃げる; 免れる (to be spared) takes を.",
     rx: ["にがれる", "のかれる", "とうれる"],
-    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, he'll have no choice but to resign.", at: "gp/5" },
+    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, there will probably be no choice but to resign.", at: "gp/5" },
     ex: [
       { ja: "{都会|とかい}の{暑|あつ}さから**{逃|のが}れる**ため、{週末|しゅうまつ}は{山|やま}で{過|す}ごしている。", en: "To escape the city heat, I spend my weekends in the mountains.", alt: ["{外|はず}れる", "{崩|くず}れる", "{遅|おく}れる"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "resignation (from a post)",
     note: "Stepping down from a position such as minister, chairman or coach: 大臣を辞任する, 辞任に追い込まれる (be forced to resign). 辞職 is leaving one's job altogether; 退職 is leaving or retiring from a company.",
     rx: ["じいん", "しにん", "じにい"],
-    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, he'll have no choice but to resign.", at: "gp/5" },
+    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, there will probably be no choice but to resign.", at: "gp/5" },
     ex: [
       { ja: "{会長|かいちょう}は{健康上|けんこうじょう}の{理由|りゆう}で**{辞任|じにん}**した。", en: "The chairman stepped down for health reasons.", alt: ["{就任|しゅうにん}", "{担任|たんにん}", "{信任|しんにん}"] },
     ] },

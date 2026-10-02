@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to offer; to volunteer; to come forward (with a request or report)",
     note: "To state one's wish, offer or report to someone, usually an organization or superior: 協力を申し出る (offer to help), 寄付を申し出る, 辞退を申し出る. The noun is 申し出 (an offer, request). 申し込む is to apply or sign up.",
     rx: ["しんしでる", "もうしだる", "もうしいでる"],
-    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Mr. Ito offered, as a private individual, a donation of no less than 100 million yen.", at: "gp/107" },
+    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Ito offered, as a private individual, a donation of no less than 100 million yen.", at: "gp/107" },
     ex: [
       { ja: "{近所|きんじょ}の{人|ひと}たちが、{片付|かたづ}けの{手伝|てつだ}いを**{申|もう}し{出|で}て**くれた。", en: "The neighbors offered to help with the cleanup.", alt: ["{申|もう}し{込|こ}んで", "{申|もう}し{付|つ}けて", "{差|さ}し{出|だ}して"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(one's) circumstances; situation in life; lot",
     note: "The circumstances of a person's life, especially family, wealth and upbringing: 恵まれた境遇 (fortunate circumstances), 同じ境遇の人, 苦しい境遇に育つ. 環境 is surroundings in general; 境遇 is one's personal lot.",
     rx: ["きょうぐ", "けいぐう", "きょうこう"],
-    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, depending on how you look at things, you can feel happy — that's how it is.", at: "gp/110" },
+    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, you can feel happy, depending on how you look at things.", at: "gp/110" },
     ex: [
       { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started working to support children who are in the same circumstances he was.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
     ] },

@@ -106,7 +106,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "ペンキ", lv: "N2", pos: "noun",
     en: "paint (house paint)",
     note: "From Dutch pek. ペンキを塗る, ペンキ塗りたて (“wet paint” sign). Paints for art are 絵の具; ペイント is also used.",
-    book: { ja: "このベンチ、**ペンキ**ぬりたてだって。", en: "They say this bench has just been painted (wet paint).", at: "gp/79" },
+    book: { ja: "このベンチ、**ペンキ**ぬりたてだって。", en: "The sign says this bench has just been painted.", at: "gp/79" },
     ex: [
       { ja: "{古|ふる}い{壁|かべ}に{白|しろ}い**ペンキ**を{塗|ぬ}ったら、{部屋|へや}が{明|あか}るくなった。", en: "When I painted the old wall white, the room got brighter.", alt: ["ホース", "レンガ", "テープ"] },
     ] },
@@ -114,7 +114,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to paint; to coat; to apply (cream, ointment); to spread (butter)",
     note: "ペンキを塗る, パンにバターを塗る, 薬 / 日焼け止めを塗る. Drawing or painting a picture is 描く (かく / えがく). 塗り絵 is a coloring book.",
     rx: ["とる", "ぬう", "のる"],
-    book: { ja: "このベンチ、ペンキ**ぬり**たてだって。", en: "They say this bench has just been painted (wet paint).", at: "gp/79" },
+    book: { ja: "このベンチ、ペンキ**ぬり**たてだって。", en: "The sign says this bench has just been painted.", at: "gp/79" },
     ex: [
       { ja: "{焼|や}いたパンにバターを**{塗|ぬ}って**{食|た}べる。", en: "I spread butter on toast and eat it.", alt: ["{縫|ぬ}って", "{注|そそ}いで", "{刺|さ}して"] },
     ] },
@@ -200,14 +200,14 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "ほこり", lv: "N2", pos: "noun",
     en: "dust",
     note: "ほこりがたまる / つく / 立つ, ほこりを払う; 砂ぼこり (clouds of dust). Written 埃 — not to be confused with 誇り (pride), also ほこり.",
-    book: { ja: "**ほこり**が{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze, and that naturally expels it.", at: "gp/81" },
+    book: { ja: "**ほこり**が{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it.", at: "gp/81" },
     ex: [
       { ja: "{長|なが}い{間|あいだ}{使|つか}っていない{棚|たな}に、**ほこり**がたまっていた。", en: "Dust had built up on the shelf that hadn't been used in a long time.", alt: ["しわ", "ひび", "あわ"] },
     ] },
   { w: "くしゃみ", lv: "N2", pos: "noun · する verb",
     en: "sneeze",
     note: "くしゃみが出る / をする; the sound is ハクション. Folk belief says a sneeze means someone is talking about you.",
-    book: { ja: "ほこりが{鼻|はな}に入ると**くしゃみ**が出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze, and that naturally expels it.", at: "gp/81" },
+    book: { ja: "ほこりが{鼻|はな}に入ると**くしゃみ**が出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it.", at: "gp/81" },
     ex: [
       { ja: "{花粉症|かふんしょう}で、{朝|あさ}から**くしゃみ**が{止|と}まらない。", en: "Because of my hay fever, I haven't stopped sneezing since morning.", alt: ["あくび", "いびき", "ため{息|いき}"] },
     ] },

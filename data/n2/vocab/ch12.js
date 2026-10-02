@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "heatstroke; heat exhaustion",
     note: "熱中症になる / にかかる, 熱中症対策. 熱中 alone means being absorbed in something (ゲームに熱中する); 症 marks a medical condition (花粉症).",
     rx: ["ねつちゅうしょう", "ねっちゅしょう", "ねっちゅうしょ"],
-    book: { ja: "天気{予報|よほう}によると、来週は暑さが{厳|きび}しいとか。**{熱中症|ねっちゅうしょう}**に注意が{必要|ひつよう}ですね。", en: "According to the weather forecast, it's supposed to be severely hot next week. We'll need to watch out for heatstroke.", at: "gp/107" },
+    book: { ja: "天気{予報|よほう}によると、来週は暑さが{厳|きび}しいとか。**{熱中症|ねっちゅうしょう}**に注意が{必要|ひつよう}ですね。", en: "According to the weather forecast, next week is supposed to be brutally hot. We'll need to watch out for heatstroke.", at: "gp/107" },
     ex: [
       { ja: "{暑|あつ}い{日|ひ}は、**{熱中症|ねっちゅうしょう}**にならないように{水|みず}をたくさん{飲|の}もう。", en: "On hot days, drink plenty of water so you don't get heatstroke.", alt: ["{花粉症|かふんしょう}", "{熱帯|ねったい}", "{集中|しゅうちゅう}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to hold out; to offer; to present; to submit",
     note: "手を差し出す, 名刺を差し出す (present your business card), 書類を差し出す. 差出人 is the sender of a letter.",
     rx: ["さしだず", "さじだす", "さしでる"],
-    book: { ja: "彼は**{差|さ}し{出|だ}された**手紙を{戸惑|とまど}いがちに受け取った。", en: "He took the letter that was held out to him with some bewilderment.", at: "gp/111" },
+    book: { ja: "彼は**{差|さ}し{出|だ}された**手紙を{戸惑|とまど}いがちに受け取った。", en: "He took the letter held out to him, looking somewhat bewildered.", at: "gp/111" },
     ex: [
       { ja: "{彼|かれ}は{笑顔|えがお}で{右手|みぎて}を**{差|さ}し{出|だ}した**。", en: "He held out his right hand with a smile.", alt: ["{追|お}い{出|だ}した", "{逃|に}げ{出|だ}した", "{思|おも}い{出|だ}した"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to be puzzled; to be at a loss; to be bewildered",
     note: "Not knowing how to react to something new or unexpected: 突然の質問に戸惑う, 文化の違いに戸惑う. The noun is 戸惑い (戸惑いを感じる). 迷う is being unable to decide or losing your way.",
     rx: ["ともどう", "とまよう", "こまどう"],
-    book: { ja: "彼は{差|さ}し{出|だ}された手紙を**{戸惑|とまど}い**がちに受け取った。", en: "He took the letter that was held out to him with some bewilderment.", at: "gp/111" },
+    book: { ja: "彼は{差|さ}し{出|だ}された手紙を**{戸惑|とまど}い**がちに受け取った。", en: "He took the letter held out to him, looking somewhat bewildered.", at: "gp/111" },
     ex: [
       { ja: "{初|はじ}めての{海外生活|かいがいせいかつ}で、{文化|ぶんか}の{違|ちが}いに**{戸惑|とまど}った**。", en: "Living abroad for the first time, I was bewildered by the cultural differences.", alt: ["{間|ま}に{合|あ}った", "{見舞|みま}った", "{整|ととの}った"] },
     ] },
@@ -330,7 +330,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "funds; capital",
     note: "Money set aside for a purpose: 資金を集める, 研究資金, 資金不足. 資本 is capital in the economic sense, and 費用 the cost of something.",
     rx: ["しかね", "じきん", "しいきん"],
-    book: { ja: "今度の{審査|しんさ}の{結果次第|けっかしだい}で、国から研究**{資金|しきん}**がもらえるかどうか決まる。", en: "Whether we can get research funding from the government will be decided by the results of this review.", at: "gp/114" },
+    book: { ja: "今度の{審査|しんさ}の{結果次第|けっかしだい}で、国から研究**{資金|しきん}**がもらえるかどうか決まる。", en: "Whether we get research funding from the government depends on the results of this review.", at: "gp/114" },
     ex: [
       { ja: "{会社|かいしゃ}を{始|はじ}めるための**{資金|しきん}**を{銀行|ぎんこう}から{借|か}りた。", en: "I borrowed the funds to start a company from the bank.", alt: ["{資格|しかく}", "{料金|りょうきん}", "{資源|しげん}"] },
     ] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "cheering; shouts of encouragement",
     note: "声援を送る, 声援にこたえる (#118), 大きな声援. 応援 is support in general, including cheering; 声援 is specifically cheering with your voice.",
     rx: ["こええん", "せいいん", "しょうえん"],
-    book: { ja: "ワールドカップで{大川選手|おおかわせんしゅ}はサポーターの**{声援|せいえん}**にこたえて{大活躍|だいかつやく}した。", en: "At the World Cup, Okawa lived up to the supporters' cheers and played brilliantly.", at: "gp/118" },
+    book: { ja: "ワールドカップで{大川選手|おおかわせんしゅ}はサポーターの**{声援|せいえん}**にこたえて{大活躍|だいかつやく}した。", en: "At the World Cup, Okawa answered the supporters' cheers with a brilliant performance.", at: "gp/118" },
     ex: [
       { ja: "{観客|かんきゃく}の**{声援|せいえん}**が{選手|せんしゅ}たちの{力|ちから}になった。", en: "The crowd's cheering gave the players strength.", alt: ["{救援|きゅうえん}", "{声優|せいゆう}", "{名声|めいせい}"] },
     ] },

@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "academic society; academic conference",
     note: "Both the scholarly association and its meeting: 学会に出席する / 学会で発表する (present at a conference). Not a school event; a school club is 部 or サークル.",
     rx: ["がくかい", "がっがい", "がくえ"],
-    book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、**{学会|がっかい}**{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations with Dr. Sato, who is attending an academic conference.", at: "gp/1" },
+    book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、**{学会|がっかい}**{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations — Dr. Sato is attending an academic conference.", at: "gp/1" },
     ex: [
       { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present her research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "(a clinic) being closed; no consultations",
     note: "Used by clinics and hospitals: 本日休診 (closed today), 休診日 (the day the clinic is closed). Shops use 定休日 / 休業 instead.",
     rx: ["きゅうじん", "きゅうしい", "やすしん"],
-    book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき**{休診|きゅうしん}**。", en: "April 15 (Thu.): no consultations with Dr. Sato, who is attending an academic conference.", at: "gp/1" },
+    book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき**{休診|きゅうしん}**。", en: "April 15 (Thu.): no consultations — Dr. Sato is attending an academic conference.", at: "gp/1" },
     ex: [
       { ja: "あの{歯医者|はいしゃ}は{木曜日|もくようび}が**{休診|きゅうしん}**だ。", en: "That dentist is closed on Thursdays.", alt: ["{診断|しんだん}", "{休憩|きゅうけい}", "{受診|じゅしん}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "cheating (on a partner); an affair; fickleness",
     note: "Being unfaithful to a boyfriend, girlfriend or spouse: 浮気する, 浮気がばれる (get found out). 不倫 specifically means an affair involving a married person. As a な adjective, 浮気な人 means someone fickle.",
     rx: ["うきき", "ふき", "うわけ"],
-    book: { ja: "彼に{限|かぎ}って**{浮気|うわき}**なんてするはずがない。", en: "He of all people would never cheat on me.", at: "gp/3" },
+    book: { ja: "彼に{限|かぎ}って**{浮気|うわき}**なんてするはずがない。", en: "He of all people would never cheat.", at: "gp/3" },
     ex: [
       { ja: "{夫|おっと}の**{浮気|うわき}**が{原因|げんいん}で、二人は{離婚|りこん}した。", en: "The couple divorced because of the husband's affair.", alt: ["{雰囲気|ふんいき}", "{陽気|ようき}", "{本気|ほんき}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, when the products were shipped, some items were sent out late.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping your order, some of the items were sent out late.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },

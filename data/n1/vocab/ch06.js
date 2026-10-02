@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "taking office; assuming a post; inauguration",
     note: "Taking up an important position: 社長に就任する, 就任式, 就任あいさつ. The opposite is 辞任 (resignation) or 退任. 就職 is getting a job in general.",
     rx: ["しゅうじん", "じゅうにん", "しゅにん"],
-    book: { ja: "**{就任|しゅうにん}**パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at his inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
+    book: { ja: "**{就任|しゅうにん}**パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**{後|ご}すぐに{市役所|しやくしょ}の{改革|かいかく}に{着手|ちゃくしゅ}した。", en: "The new mayor began reforming city hall right after taking office.", alt: ["{就職|しゅうしょく}", "{担任|たんにん}", "{責任|せきにん}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "at (a meeting or gathering); on the occasion of",
     note: "Formal word for 'at' a meeting or party: 会議の席上で, 記者会見の席上. Written and news style; in conversation 〜の席で or 〜で is usual.",
     rx: ["せきうえ", "せっじょう", "しゃくじょう"],
-    book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at his inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
+    book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced his intention to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
     ] },
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "blushing (with shame or embarrassment)",
     note: "Turning red from embarrassment, a written word: 赤面する, 赤面の至り (utterly ashamed), 赤面ものだ (casual: it's embarrassing). 恥ずかしい is the everyday word.",
     rx: ["あかめん", "せっめん", "しゃくめん"],
-    book: { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても**{赤面|せきめん}**の{至|いた}りだ。", en: "Getting the new president's name wrong at his inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
+    book: { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても**{赤面|せきめん}**の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{若|わか}いころに{書|か}いた{日記|にっき}を{読|よ}み{返|かえ}すと、**{赤面|せきめん}**してしまう。", en: "When I reread the diary I wrote when I was young, I blush.", alt: ["{赤字|あかじ}", "{正面|しょうめん}", "{洗面|せんめん}"] },
     ] },
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "infuriating; irritating; maddening",
     note: "Describes something that makes one angry: 腹立たしい気持ち, 腹立たしい限りだ. The verb is 腹が立つ. More written than むかつく and more about the situation than the speaker's outburst.",
     rx: ["ふくだたしい", "はらたたしい", "はらだちしい"],
-    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I lent him a valuable book as a special favor, and he got it dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{約束|やくそく}を{何度|なんど}も{破|やぶ}られて、{本当|ほんとう}に**{腹立|はらだ}たしい**。", en: "He's broken his promise so many times — it's really infuriating.", alt: ["{慌|あわ}ただしい", "{喜|よろこ}ばしい", "{頼|たの}もしい"] },
     ] },
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "valuable; precious",
     note: "Rare and therefore highly valuable: 貴重な経験, 貴重品 (valuables), 貴重な時間, 貴重なご意見. 高価 means simply 'expensive'.",
     rx: ["きじゅう", "ぎちょう", "きちょ"],
-    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent him a valuable book as a special favor, and he got it dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{留学|りゅうがく}は、{私|わたし}にとって{本当|ほんとう}に**{貴重|きちょう}な**{経験|けいけん}になった。", en: "Studying abroad turned out to be a truly valuable experience for me.", alt: ["{不器用|ぶきよう}な", "{慎重|しんちょう}な", "{丁重|ていちょう}な"] },
     ] },

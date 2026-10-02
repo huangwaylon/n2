@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "all-you-can-eat",
     note: "〜放題 means “as much as one likes”: 飲み放題 (all-you-can-drink), 使い放題. With other verbs it is often critical: 言いたい放題 (saying whatever one pleases), 散らかし放題 (left in a total mess).",
     rx: ["たべほうたい", "たべほだい", "たべぼうだい"],
-    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say, “It's all-you-can-eat, so not eating would be a waste,” he came back with a mountain of food on his plate.", at: "gp/73" },
+    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say, “It's all-you-can-eat, so not eating would be a waste,” they came back with a mountain of food on their plate.", at: "gp/73" },
     ex: [
       { ja: "この店は2,000円でケーキが**{食|た}べ{放題|ほうだい}**だ。", en: "At this shop, it's all-you-can-eat cake for 2,000 yen.", alt: ["{食|た}べ{歩|ある}き", "{食|た}べ{残|のこ}し", "{食|た}べ{頃|ごろ}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to master, handle with skill, make full use of",
     note: "Using a tool or skill to its full potential: パソコンを使いこなす, 敬語を使いこなす. Also written 使い熟す. Compare 使い慣れる (get used to using) and 使い果たす (use up entirely).",
     rx: ["しいこなす", "つかいごなす", "つかいこなう"],
-    book: { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、**使いこなせる**技術者がいなければそれまでだ。", en: "Even if you equip yourself with the latest medical equipment, it's useless without technicians who can operate it.", at: "gp/74" },
+    book: { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、**使いこなせる**技術者がいなければそれまでだ。", en: "Even if you install the latest medical equipment, it's useless without technicians who can operate it.", at: "gp/74" },
     ex: [
       { ja: "祖母は{最新|さいしん}のスマホを**{使|つか}いこなして**いる。", en: "My grandmother has mastered the latest smartphone.", alt: ["{使|つか}い{果|は}たして", "{使|つか}い{捨|す}てて", "{使|つか}い{古|ふる}して"] },
     ] },
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to miss, go without (usually in the negative: never fail to)",
     note: "Mostly negative: 毎朝の散歩を欠かさない (never miss my morning walk), 欠かしたことがない. 欠かせない means “indispensable”: 生活に欠かせない. The intransitive is 欠ける (be lacking, chipped).",
     rx: ["けかす", "かけす", "きかす"],
-    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that, whether he has time or not, he has never once skipped his after-meal coffee.", at: "gp/79" },
+    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that, whether they have time or not, they have never once skipped their after-meal coffee.", at: "gp/79" },
     ex: [
       { ja: "運動は健康{維持|いじ}に**{欠|か}かせない**。", en: "Exercise is indispensable for staying healthy.", alt: ["{欠|か}けない", "{抜|ぬ}かせない", "{任|まか}せない"] },
     ] },
@@ -503,7 +503,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "gentle, mild-mannered, even-tempered",
     note: "Describes character: 温厚な人柄, 温厚な性格. Warmer and more dignified than おとなしい (quiet, meek). 穏やか also describes calm manner, weather or the sea.",
     rx: ["おんこ", "おんごう", "うんこう"],
-    book: { ja: "**{温厚|おんこう}**な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even the easygoing Mr. Tanaka would surely get angry if he were kept waiting for a whole hour.", at: "gp/86" },
+    book: { ja: "**{温厚|おんこう}**な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely lose patience after being kept waiting a whole hour.", at: "gp/86" },
     ex: [
       { ja: "{祖父|そふ}は**{温厚|おんこう}**な人で、声を{荒|あら}げたことがない。", en: "My grandfather is a gentle man who has never raised his voice.", alt: ["{濃厚|のうこう}", "{温暖|おんだん}", "{厚手|あつで}"] },
     ] },

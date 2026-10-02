@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "private land; private property",
     note: "Land owned by an individual or company, typical of signs: 私有地につき立入禁止 (Private property: keep out), 私有地につき駐車禁止. The opposite is 公有地 or 国有地.",
     rx: ["しゆうじ", "わたくしゆうち", "しうち"],
-    book: { ja: "**{私有地|しゆうち}**につき駐車するべからず。", en: "This is private property, so parking is prohibited.", at: "gp/111" },
+    book: { ja: "**{私有地|しゆうち}**につき駐車するべからず。", en: "Private property. Do not park here.", at: "gp/111" },
     ex: [
       { ja: "ここは**{私有地|しゆうち}**なので、{許可|きょか}なく{入|はい}ることはできません。", en: "This is private land, so you can't enter without permission.", alt: ["{植民地|しょくみんち}", "{観光地|かんこうち}", "{遊園地|ゆうえんち}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "No open flames; fire strictly prohibited",
     note: "A four-character warning on signs at gas stations, warehouses and labs: 火気 (fire, flame) + 厳禁 (strictly prohibited). Another 厳禁 sign is 土足厳禁 (no outdoor shoes); 天地無用 (this side up) is a packaging warning.",
     rx: ["ひきげんきん", "かけげんきん", "かきごんきん"],
-    book: { ja: "**{火気厳禁|かきげんきん}**。ここでたばこを吸うべからず。", en: "No open flames. Smoking here is forbidden.", at: "gp/111" },
+    book: { ja: "**{火気厳禁|かきげんきん}**。ここでたばこを吸うべからず。", en: "No open flames. Do not smoke here.", at: "gp/111" },
     ex: [
       { ja: "{倉庫|そうこ}には{燃|も}えやすい{物|もの}があるため、**{火気厳禁|かきげんきん}**となっている。", en: "The warehouse holds flammable materials, so open flames are strictly prohibited.", alt: ["{天地無用|てんちむよう}", "{油断大敵|ゆだんたいてき}", "{一方通行|いっぽうつうこう}"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "deep knowledge (of an art or field); expertise",
     note: "Used almost only in the set phrase 〜に造詣が深い (be deeply versed in ~): 美術に造詣が深い, 日本文化に造詣が深い. Respectful and formal, used to praise someone's learning. Not the same word as 造形 (ぞうけい, form, modeling).",
     rx: ["そうけい", "ぞうし", "ぞうけ"],
-    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Mr. Ohara had a deep knowledge of works of art.", at: "gp/115" },
+    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara had a deep knowledge of works of art.", at: "gp/115" },
     ex: [
       { ja: "{先生|せんせい}は{日本|にほん}の{古典|こてん}{文学|ぶんがく}に**{造詣|ぞうけい}**が{深|ふか}い。", en: "The professor is deeply versed in classical Japanese literature.", alt: ["{欲|よく}", "{奥行|おくゆ}き", "{眠|ねむ}り"] },
     ] },
@@ -395,7 +395,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "logging; felling (trees)",
     note: "Cutting down trees, especially on a large scale: 森林伐採 (deforestation), 木を伐採する. A written word; in speech 木を切る.",
     rx: ["ばつさい", "はっさい", "ばっざい"],
-    book: { ja: "このまま森林**{伐採|ばっさい}**を続けていたら、自然{災害|さいがい}を引き起こさずにはすまないだろう。", en: "If deforestation continues like this, it cannot fail to cause natural disasters.", at: "gp/117" },
+    book: { ja: "このまま森林**{伐採|ばっさい}**を続けていたら、自然{災害|さいがい}を引き起こさずにはすまないだろう。", en: "If deforestation continues like this, it will surely end up causing natural disasters.", at: "gp/117" },
     ex: [
       { ja: "{道路|どうろ}{建設|けんせつ}のため、{山|やま}の{木|き}が**{伐採|ばっさい}**された。", en: "Trees on the mountain were cut down to build the road.", alt: ["{栽培|さいばい}", "{採用|さいよう}", "{掲載|けいさい}"] },
     ] },

@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to become completely absorbed in, to get hooked on",
     note: "Stronger than 夢中になる, often with a hint of excess: ギャンブルにのめり込む, 研究にのめり込む. 打ち込む (devote oneself to) is purely positive; のめり込む can be neutral or worrying.",
     rx: ["のめりごむ", "のめりいむ", "のめりかむ"],
-    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "While his friends are starting to look for jobs, Yamada, quite unconcerned, is completely absorbed in his club activities.", at: "gp/17" },
+    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "While friends are starting to look for jobs, Yamada, quite unconcerned, is completely absorbed in club activities.", at: "gp/17" },
     ex: [
       { ja: "彼は大学時代に{演劇|えんげき}に**のめり{込|こ}み**、授業にほとんど出なかった。", en: "In college he got so wrapped up in theater that he hardly went to class.", alt: ["{割|わ}り{込|こ}み", "{申|もう}し{込|こ}み", "{冷|ひ}え{込|こ}み"] },
     ] },
@@ -284,7 +284,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "promotion (to a higher rank)",
     note: "課長に昇進する. 昇格 is moving up a grade or class (also for teams and leagues); 出世 is getting ahead in one's career or in life. The opposite is 降格 (demotion).",
     rx: ["しょしん", "じょうしん", "しょうじん"],
-    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's marriage, it's been nothing but good things for the Yamada household.", at: "gp/22" },
+    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with the husband's promotion and the daughter's marriage, it's been nothing but good things for the Yamada household.", at: "gp/22" },
     ex: [
       { ja: "{入社|にゅうしゃ}10年目で、彼は{課長|かちょう}に**{昇進|しょうしん}**した。", en: "In his tenth year at the company, he was promoted to section chief.", alt: ["{前進|ぜんしん}", "{進学|しんがく}", "{上昇|じょうしょう}"] },
     ] },
@@ -555,7 +555,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to vow, to swear, to pledge",
     note: "心に誓う (vow to oneself), 愛を誓う, 二度としないと誓う. 約束する is an everyday promise; 誓う is solemn.",
     rx: ["せいう", "ちかふ", "ちがう"],
-    book: { ja: "「今度こそ犯人を捕まえずにはおかないぞ」と{警部|けいぶ}は心に**{誓|ちか}った**。", en: "\"This time I'll catch the culprit, no matter what,\" the inspector vowed to himself.", at: "gp/32" },
+    book: { ja: "「今度こそ犯人を捕まえずにはおかないぞ」と{警部|けいぶ}は心に**{誓|ちか}った**。", en: "\"This time I'll catch the culprit, no matter what,\" the inspector silently vowed.", at: "gp/32" },
     ex: [
       { ja: "彼は{亡|な}き父の{墓前|ぼぜん}で、必ず店を{再建|さいけん}すると**{誓|ちか}った**。", en: "At his late father's grave, he vowed that he would rebuild the shop without fail.", alt: ["{匂|にお}った", "{伺|うかが}った", "{逆|さか}らった"] },
     ] },
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "removal, elimination, exclusion",
     note: "Formal: 障害を排除する, 反対派を排除する, 暴力団排除. 除外 is leaving something out of a list or scope; 排除 is actively pushing it out.",
     rx: ["はいぞ", "ひじょ", "はいじょう"],
-    book: { ja: "当時の大統領は、自分の意見に反対する者を**{排除|はいじょ}**せずにはおかない人間だった。", en: "The president at that time was a man who would not rest until he had eliminated anyone who opposed his views.", at: "gp/32" },
+    book: { ja: "当時の大統領は、自分の意見に反対する者を**{排除|はいじょ}**せずにはおかない人間だった。", en: "The president at that time was the kind of person who would stop at nothing to eliminate anyone who disagreed.", at: "gp/32" },
     ex: [
       { ja: "新しい法律は、{市場|しじょう}から{不正|ふせい}な{業者|ぎょうしゃ}を**{排除|はいじょ}**することを目的としている。", en: "The new law aims to drive dishonest businesses out of the market.", alt: ["{排出|はいしゅつ}", "{解除|かいじょ}", "{掃除|そうじ}"] },
     ] },

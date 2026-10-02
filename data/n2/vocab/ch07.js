@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "careful; cautious; prudent",
     note: "Thinking things through before acting: 慎重に検討する, 慎重な態度. The opposite is 軽率 (rash). 丁寧 is care in manner or workmanship rather than caution.",
     rx: ["しんじゅう", "ちんちょう", "しんちょ"],
-    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "They will probably go on keeping nature in balance while carefully continuing to exchange views.", at: "ch/7" },
+    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "Through continued, careful exchanges of views, people will probably work to keep nature in balance.", at: "ch/7" },
     ex: [
       { ja: "{大切|たいせつ}な{契約|けいやく}なので、**{慎重|しんちょう}**に{内容|ないよう}を{確認|かくにん}してください。", en: "It's an important contract, so please check its contents carefully.", alt: ["{貴重|きちょう}", "{尊重|そんちょう}", "{重大|じゅうだい}"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "picking up and dropping off; transportation to and from",
     note: "Formal equivalent of 送り迎え: 送迎バス (shuttle bus), 無料送迎, 子どもの送迎. 歓迎 means welcoming, and 運送 is moving freight.",
     rx: ["そうけい", "そうごう", "そげい"],
-    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because there are many steep roads and it is difficult for elderly people to go out shopping, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
+    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because there are many hills and it is difficult for elderly people to go out shopping, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
     ex: [
       { ja: "このホテルには、{駅|えき}からの**{送迎|そうげい}**サービスがある。", en: "This hotel offers a shuttle service from the station.", alt: ["{歓迎|かんげい}", "{運送|うんそう}", "{迎撃|げいげき}"] },
     ] },
@@ -475,7 +475,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "reduction; cut (in costs, staff, emissions)",
     note: "A deliberate cut, so it is transitive: 経費 / 人員 / CO2を削減する, 人件費削減. 減少 is intransitive (the number goes down on its own). 削除 means deleting text or data.",
     rx: ["しょうげん", "さっげん", "さくけん"],
-    book: { ja: "{手作|てづく}りにこだわってきた{店主|てんしゅ}の{意|い}に{反|はん}することだが、{人件費|じんけんひ}**{削減|さくげん}**のため、{機械化|きかいか}せざるを{得|え}ない{状況|じょうきょう}になってきた。", en: "It goes against the wishes of the owner, who has always insisted on handmade products, but to cut labor costs we've reached a point where we have no choice but to mechanize.", at: "gp/67" },
+    book: { ja: "{手作|てづく}りにこだわってきた{店主|てんしゅ}の{意|い}に{反|はん}することだが、{人件費|じんけんひ}**{削減|さくげん}**のため、{機械化|きかいか}せざるを{得|え}ない{状況|じょうきょう}になってきた。", en: "It goes against the wishes of the owner, who has always insisted on handmade products, but to cut labor costs, it has come to the point where there is no choice but to mechanize.", at: "gp/67" },
     ex: [
       { ja: "{会社|かいしゃ}は{残業|ざんぎょう}を**{削減|さくげん}**するため、{新|あたら}しいルールを{作|つく}った。", en: "The company made new rules to cut overtime.", alt: ["{減少|げんしょう}", "{削除|さくじょ}", "{加減|かげん}"] },
     ] },
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "aging (of a population or group)",
     note: "高齢化社会, 少子高齢化 (fewer children and more elderly people), 高齢化が進む. 高齢者 are elderly people, and 高齢 is advanced age.",
     rx: ["こうれいけ", "こうりょうか", "こうれか"],
-    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "Along with the aging of society, criminals are also getting older.", at: "gp/71" },
+    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, the criminal population is gradually aging too.", at: "gp/71" },
     ex: [
       { ja: "{地方|ちほう}の{村|むら}では**{高齢化|こうれいか}**が{進|すす}み、{若|わか}い{人|ひと}がほとんどいない。", en: "The population of rural villages is aging, and there are hardly any young people left.", alt: ["{高級化|こうきゅうか}", "{近代化|きんだいか}", "{国際化|こくさいか}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that population movement on a global scale is advancing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that population movement on a global scale is advancing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },

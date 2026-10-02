@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "ingredients; toppings or fillings (in a dish)",
     note: "The solid bits in soup, noodles, sushi rolls or rice balls: ラーメンの具, みそ汁の具, 具だくさん (packed with ingredients). As a standalone word it is read ぐ; the same kanji appears in 道具 and 具体的.",
     rx: ["く", "ぐう", "こ"],
-    book: { ja: "ラーメンはめんやスープの作り方に{工夫|くふう}ができる{上|うえ}に、めんにのせる**{具|ぐ}**にもバリエーションがつけやすいのです。", en: "With ramen, not only can you get creative with how the noodles and soup are made, but on top of that it is easy to vary the toppings you put on the noodles.", at: "ch/11" },
+    book: { ja: "ラーメンはめんやスープの作り方に{工夫|くふう}ができる{上|うえ}に、めんにのせる**{具|ぐ}**にもバリエーションがつけやすいのです。", en: "Ramen leaves room for creativity in how the noodles and soup are made, and on top of that, it is easy to vary the toppings.", at: "ch/11" },
     ex: [
       { ja: "{今日|きょう}のみそ{汁|しる}の**{具|ぐ}**は{豆腐|とうふ}とわかめだ。", en: "Today's miso soup has tofu and wakame in it.", alt: ["{具合|ぐあい}", "{道具|どうぐ}", "{器具|きぐ}"] },
     ] },
@@ -185,7 +185,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "diarrhea",
     note: "下痢をする, 下痢が止まらない. The opposite is 便秘 (constipation). The colloquial expression お腹を壊す (upset your stomach) is often used instead.",
     rx: ["かり", "げい", "しもり"],
-    book: { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、**{下痢|げり}**が止まらず、本当に大変でした。", en: "Last week I had a fever of as much as 40 degrees, and on top of that my diarrhea wouldn't stop — it was really awful.", at: "gp/102" },
+    book: { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、**{下痢|げり}**が止まらず、本当に大変でした。", en: "Last week I had a fever as high as 40°C, and on top of that I had diarrhea that wouldn't stop — it was really awful.", at: "gp/102" },
     ex: [
       { ja: "{古|ふる}い{牛乳|ぎゅうにゅう}を{飲|の}んで**{下痢|げり}**をしてしまった。", en: "I drank some old milk and got diarrhea.", alt: ["{下車|げしゃ}", "{下旬|げじゅん}", "{下品|げひん}"] },
     ] },
@@ -193,7 +193,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "downhill slope; decline (of fortunes or conditions)",
     note: "The opposite is 上り坂 (uphill). Figuratively something getting worse: 景気は下り坂だ, 天気は下り坂 (the weather is turning bad). 坂 becomes ざか in compounds.",
     rx: ["したりざか", "くだりさか", "おりざか"],
-    book: { ja: "この道は**{下|くだ}り{坂|ざか}**でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill so it's easy to pick up speed, and there is also a lot of traffic at night, so please be very careful.", at: "gp/102" },
+    book: { ja: "この道は**{下|くだ}り{坂|ざか}**でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road runs downhill, so it's easy to pick up speed, and on top of that there is heavy traffic even at night, so please be very careful.", at: "gp/102" },
     ex: [
       { ja: "{天気|てんき}は{午後|ごご}から**{下|くだ}り{坂|ざか}**になるでしょう。", en: "The weather will probably take a turn for the worse from the afternoon.", alt: ["{坂道|さかみち}", "{下書|したが}き", "{下着|したぎ}"] },
     ] },
@@ -201,7 +201,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "nighttime; at night",
     note: "A formal word used on signs and in notices: 夜間の外出, 夜間営業 (open at night), 夜間学校 (night school). The opposite is 昼間 (ひるま, daytime).",
     rx: ["よるま", "よかん", "やげん"],
-    book: { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、**{夜間|やかん}**も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill so it's easy to pick up speed, and there is also a lot of traffic at night, so please be very careful.", at: "gp/102" },
+    book: { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、**{夜間|やかん}**も交通{量|りょう}が多いので、十分注意してください。", en: "This road runs downhill, so it's easy to pick up speed, and on top of that there is heavy traffic even at night, so please be very careful.", at: "gp/102" },
     ex: [
       { ja: "この{病院|びょういん}は**{夜間|やかん}**も{救急|きゅうきゅう}の{患者|かんじゃ}を{受|う}け{付|つ}けている。", en: "This hospital accepts emergency patients at night as well.", alt: ["{期間|きかん}", "{年間|ねんかん}", "{夜景|やけい}"] },
     ] },
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "hard physical labor; heavy work",
     note: "Exhausting, physically demanding work. 労働 (ch. 7) is labor in general; 肉体労働 is manual labor. Informally people just say きつい仕事.",
     rx: ["おもろうどう", "じゅうろうど", "ちょうろうどう"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう**{重労働|じゅうろうどう}**である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう**{重労働|じゅうろうどう}**である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
     ex: [
       { ja: "{介護|かいご}の{仕事|しごと}は{体力|たいりょく}が{必要|ひつよう}な**{重労働|じゅうろうどう}**だ。", en: "Caregiving is hard physical work that takes a lot of stamina.", alt: ["{重量|じゅうりょう}", "{重体|じゅうたい}", "{重役|じゅうやく}"] },
     ] },
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "wages; pay",
     note: "The economic and legal word: 賃金が低い, 最低賃金 (minimum wage), 賃上げ (a pay raise). In everyday talk 給料 (salary) is more common. The 賃 is the one in 家賃 (rent).",
     rx: ["ちんきん", "じんぎん", "ちんかね"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に**{賃金|ちんぎん}**も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に**{賃金|ちんぎん}**も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
     ex: [
       { ja: "{最低|さいてい}**{賃金|ちんぎん}**が{来年|らいねん}から{引|ひ}き{上|あ}げられる。", en: "The minimum wage will be raised starting next year.", alt: ["{税金|ぜいきん}", "{貯金|ちょきん}", "{送金|そうきん}"] },
     ] },
@@ -225,7 +225,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "labor shortage; being shorthanded",
     note: "人手 means workers or hands: 人手が足りない. 人手不足 is a standard news phrase (人手不足が深刻だ). Don't confuse 人手 with 人出 (ひとで, the crowds that turn out for an event).",
     rx: ["じんしゅぶそく", "ひとてぶそく", "ひとでふそく"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも**{人手不足|ひとでぶそく}**になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short of hands.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも**{人手不足|ひとでぶそく}**になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
     ex: [
       { ja: "{飲食店|いんしょくてん}の**{人手不足|ひとでぶそく}**が{深刻|しんこく}になっている。", en: "The labor shortage at restaurants has become serious.", alt: ["{寝不足|ねぶそく}", "{運動不足|うんどうぶそく}", "{人通|ひとどお}り"] },
     ] },

@@ -374,7 +374,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "せめて", lv: "N2", pos: "adverb",
     en: "at least (the minimum one hopes for)",
     note: "Expresses a minimum wish or demand: せめて一日だけでも休みたい, せめてもの (the least one can do). 少なくとも states a factual minimum; せめて carries the speaker's hope.",
-    book: { ja: "それより、**せめて**、「{嫌|きら}い」を「好きとは言えないまでも{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, at least make an effort to move from “I dislike him” to the level of “I can't say I like him, but I don't dislike him.”", at: "ch/4" },
+    book: { ja: "それより、**せめて**、「{嫌|きら}い」を「好きとは言えないまでも{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, at least make an effort to move from “I dislike this person” to the level of “I can't say I like them, but I don't dislike them.”", at: "ch/4" },
     ex: [
       { ja: "全部は{無理|むり}でも、**せめて**半分は今日中に終わらせたい。", en: "Even if I can't do it all, I'd like to finish at least half of it today.", alt: ["まして", "むしろ", "あえて"] },
     ] },
@@ -390,7 +390,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "pointing out (a problem or fact)",
     note: "ミスを指摘する, ご指摘ありがとうございます (thank you for pointing that out). 指示 is an instruction; 指定 is designation.",
     rx: ["していき", "しさく", "しちゃく"],
-    book: { ja: "例えば、細かいミスばかり**{指摘|してき}**する{嫌|いや}な上司に対しても、その長所に目を向けるように努力するのです。", en: "For example, even with an unpleasant boss who does nothing but point out your small mistakes, you make an effort to look at his strengths.", at: "ch/4" },
+    book: { ja: "例えば、細かいミスばかり**{指摘|してき}**する{嫌|いや}な上司に対しても、その長所に目を向けるように努力するのです。", en: "For example, even with an unpleasant boss who does nothing but point out your small mistakes, you make an effort to focus on that person's strengths.", at: "ch/4" },
     ex: [
       { ja: "先生に**{指摘|してき}**されて、初めて計算の{間違|まちが}いに気づいた。", en: "I didn't notice the error in my calculations until my teacher pointed it out.", alt: ["{指紋|しもん}", "{摘出|てきしゅつ}", "{摘発|てきはつ}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "looking after others; being caring and helpful (toward juniors, etc.)",
     note: "Almost always 面倒見がいい (good at looking after people): 面倒見のいい先輩. From 面倒を見る (to look after).",
     rx: ["めんどうけん", "めんとうみ", "めんどみ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is.", at: "ch/4" },
     ex: [
       { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka takes good care of the people under him, and the new hires adore him.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "meticulous, precise, detailed",
     note: "Praise for careful thinking or work: 緻密な計画, 緻密な作業. 精密 is used for machines and measurements; 細かい is the everyday 'detailed' (and can be negative: petty).",
     rx: ["ちみ", "ちひつ", "しみつ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, although he is harsh when he tells you off, he is actually a surprisingly capable boss — just look at how well he looks after you afterwards, and how meticulous and accurate his work is.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is.", at: "ch/4" },
     ex: [
       { ja: "彼の**{緻密|ちみつ}**な計画のおかげで、工事は予定{通|どお}りに終わった。", en: "Thanks to his meticulous planning, the construction was finished on schedule.", alt: ["{密接|みっせつ}", "{秘密|ひみつ}", "{親密|しんみつ}"] },
     ] },

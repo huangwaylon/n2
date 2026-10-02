@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "guidance; instruction; coaching; leadership",
     note: "Teaching and guiding someone over time: 部下を指導する, ご指導ください (please guide me — a set phrase to superiors), 指導者 (leader, coach), 生活指導 (student guidance). 教える is plain “teach”; 指導 implies an ongoing mentor role.",
     rx: ["しとう", "しとう", "じどう"],
-    book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my seniors.", at: "ch/2" },
+    book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my senior colleagues.", at: "ch/2" },
     ex: [
       { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指紋|しもん}", "{誘導|ゆうどう}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "raising children; child-rearing; parenting",
     note: "Everyday word for bringing up children: 子育て中の親, 子育て支援 (childcare support), 子育てと仕事を両立する. 育児 is more formal and centers on infant care (育児休業).",
     rx: ["こいくて", "こそだって", "しそだて"],
-    book: { ja: "**{子育|こそだ}て**は{夫婦|ふうふ}の{協力|きょうりょく}のもとで{行|おこな}われるべきだ。", en: "Child-rearing should be done with husband and wife cooperating.", at: "gp/11" },
+    book: { ja: "**{子育|こそだ}て**は{夫婦|ふうふ}の{協力|きょうりょく}のもとで{行|おこな}われるべきだ。", en: "Child-rearing should be done with the cooperation of husband and wife.", at: "gp/11" },
     ex: [
       { ja: "{働|はたら}きながらの**{子育|こそだ}て**は{大変|たいへん}だが、{家族|かぞく}が{助|たす}けてくれる。", en: "Raising children while working is hard, but my family helps me.", alt: ["{仕立|した}て", "{見立|みた}て", "{組|く}み{立|た}て"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "turning point; occasion; trigger (for a change)",
     note: "The written counterpart of きっかけ, used for significant social or historical events: 〜を契機に(して) / 〜を契機として. 景気 (the economy, same reading) is a common homophone trap.",
     rx: ["けいぎ", "けき", "かいき"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president marked a turning point, and our company grew greatly.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "オリンピックを**{契機|けいき}**に、{街|まち}の{交通|こうつう}{網|もう}が{整備|せいび}された。", en: "The Olympics prompted an upgrade of the city's transportation network.", alt: ["{景気|けいき}", "{時期|じき}", "{契約|けいやく}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "taking office; assuming a post",
     note: "Becoming president, chairperson, minister etc.: 社長に就任する, 就任式 (inauguration), 就任のあいさつ. The opposite is 辞任 (resignation) or 退任 (leaving the post).",
     rx: ["じゅうにん", "しゅにん", "しゅうじん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president marked a turning point, and our company grew greatly.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**して{最初|さいしょ}の{会見|かいけん}で{抱負|ほうふ}を{述|の}べた。", en: "At her first press conference after taking office, the new mayor set out her goals.", alt: ["{就職|しゅうしょく}", "{責任|せきにん}", "{担任|たんにん}"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "development; growth; expansion",
     note: "Growing bigger or more advanced: 経済が発展する, 発展途上国 (developing country), 大きな問題に発展する (develop into a big problem). 開発 is actively developing something (products, land).",
     rx: ["はつてん", "はってい", "ほってん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Mr. Aoki's appointment as president marked a turning point, and our company grew greatly.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Mr. Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
     ex: [
       { ja: "{鉄道|てつどう}が{通|とお}ってから、この{町|まち}は{急速|きゅうそく}に**{発展|はってん}**した。", en: "After the railroad came through, this town developed rapidly.", alt: ["{発表|はっぴょう}", "{発明|はつめい}", "{展示|てんじ}"] },
     ] },

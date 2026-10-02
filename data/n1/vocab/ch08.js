@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to build, establish (relationships, a fortune, a position); to construct (a castle, wall)",
     note: "Mostly figurative today: 信頼関係を築く, 財産を築く, 地位を築く, 家庭を築く. For actual buildings, 建てる is normal; 築く is used for castles, embankments and the like.",
     rx: ["きずぐ", "ちくく", "つずく"],
-    book: { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を**{築|きず}き**たいものです。", en: "Neighbors should build relationships in which they can help each other out on a give-and-take basis.", at: "gp/88" },
+    book: { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を**{築|きず}き**たいものです。", en: "Ideally, neighbors should build give-and-take relationships in which they help each other out.", at: "gp/88" },
     ex: [
       { ja: "{取引先|とりひきさき}との{信頼|しんらい}{関係|かんけい}を**{築|きず}く**には{時間|じかん}がかかる。", en: "It takes time to build a relationship of trust with business partners.", alt: ["{建|た}てる", "{組|く}む", "{積|つ}む"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "self-sufficiency, living off what one produces",
     note: "自給自足の生活 (a self-sufficient life), エネルギーを自給自足する. A yojijukugo; 自給率 is the self-sufficiency rate.",
     rx: ["じっきゅうじそく", "じきゅうじぞく", "じきゅじそく"],
-    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear that the potter Mr. Tanaka, alongside making his works, grows vegetables at home and lives self-sufficiently.", at: "gp/95" },
+    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear that Tanaka, a potter, grows vegetables at home alongside making pottery and lives self-sufficiently.", at: "gp/95" },
     ex: [
       { ja: "{山奥|やまおく}に{移|うつ}り{住|す}み、**{自給自足|じきゅうじそく}**に{近|ちか}い{暮|く}らしを{送|おく}っている。", en: "I moved deep into the mountains and live a nearly self-sufficient life.", alt: ["{自業自得|じごうじとく}", "{自画自賛|じがじさん}", "{自問自答|じもんじとう}"] },
     ] },
@@ -361,7 +361,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "gradually, little by little, step by step",
     note: "A bit formal: 徐々に回復する, 徐々に慣れる. だんだん and 少しずつ are everyday equivalents. Often in letters and speeches.",
     rx: ["じょうじょうに", "しょしょに", "じょうじょに"],
-    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool and it is gradually beginning to feel like autumn; how are you getting along?", at: "gp/96" },
+    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and autumn is gradually in the air. How have you been?", at: "gp/96" },
     ex: [
       { ja: "{手術|しゅじゅつ}の{後|あと}、{父|ちち}の{体力|たいりょく}は**{徐々|じょじょ}に**{回復|かいふく}している。", en: "Since the operation, my father's strength has been gradually coming back.", alt: ["{直|ただ}ちに", "{無性|むしょう}に", "{一向|いっこう}に"] },
     ] },
@@ -369,7 +369,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "tone (of voice), manner of speaking",
     note: "強い口調で (in a strong tone), 冗談めいた口調, 丁寧な口調. 語調 is similar but more literary; 口癖 is a pet phrase.",
     rx: ["こうちょう", "くちちょう", "くっちょう"],
-    book: { ja: "{冗談|じょうだん}めいた**{口調|くちょう}**だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, “In ten years I might be the president,” his eyes were deadly serious.", at: "gp/96" },
+    book: { ja: "{冗談|じょうだん}めいた**{口調|くちょう}**だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, \"In ten years I might be the president,\" his eyes were deadly serious.", at: "gp/96" },
     ex: [
       { ja: "{先生|せんせい}は{珍|めずら}しく{厳|きび}しい**{口調|くちょう}**で{生徒|せいと}を{叱|しか}った。", en: "The teacher scolded the students in an unusually stern tone.", alt: ["{口癖|くちぐせ}", "{順調|じゅんちょう}", "{口実|こうじつ}"] },
     ] },
@@ -544,7 +544,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "ambition, aspiration, will; kind intention; (small) token of gratitude",
     note: "志を立てる (set one's goal in life), 志半ばで (with one's goal unachieved), 志を同じくする仲間. On gifts, 志 means “a small token.” The verb 志す is to aspire to.",
     rx: ["こころざ", "ここざし", "こころさし"],
-    book: { ja: "**{志|こころざし}**{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled.", at: "gp/102" },
+    book: { ja: "**{志|こころざし}**{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitter it must have been for the painter to be struck down by illness with ambitions only half fulfilled.", at: "gp/102" },
     ex: [
       { ja: "{医者|いしゃ}になるという**{志|こころざし}**を{胸|むね}に、{彼|かれ}は{上京|じょうきょう}した。", en: "With his ambition to become a doctor in his heart, he moved to Tokyo.", alt: ["{心地|ここち}", "{心当|こころあ}たり", "{気配|けはい}"] },
     ] },
@@ -552,7 +552,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "middle, halfway (point); partly, half",
     note: "月の半ば (the middle of the month), 志半ばにして (before achieving one's goal), 30代半ば (mid-thirties); as an adverb, 半ばあきらめている (have half given up). 半分 is simply half.",
     rx: ["はんば", "なかぱ", "はんぶ"],
-    book: { ja: "{志|こころざし}**{半|なか}ば**にして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled.", at: "gp/102" },
+    book: { ja: "{志|こころざし}**{半|なか}ば**にして{病|やまい}に倒れた画家は、どれほど{無念|むねん}だったであろう。", en: "How bitter it must have been for the painter to be struck down by illness with ambitions only half fulfilled.", at: "gp/102" },
     ex: [
       { ja: "{来月|らいげつ}の**{半|なか}ば**に、{引|ひ}っ{越|こ}しをする{予定|よてい}だ。", en: "I'm planning to move in the middle of next month.", alt: ["{半分|はんぶん}", "{片方|かたほう}", "{半端|はんぱ}"] },
     ] },
@@ -560,7 +560,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "regret, chagrin, bitter disappointment",
     note: "Deep regret at being unable to do what one wanted: 無念の涙, 残念無念. Much stronger and more dignified than 残念. 無念無想 (a different sense) is a mind free of thought.",
     rx: ["むね", "ぶねん", "むにん"],
-    book: { ja: "{志|こころざし}{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど**{無念|むねん}**だったであろう。", en: "How bitterly disappointed the painter must have been to fall ill with his ambitions only half fulfilled.", at: "gp/102" },
+    book: { ja: "{志|こころざし}{半|なか}ばにして{病|やまい}に倒れた画家は、どれほど**{無念|むねん}**だったであろう。", en: "How bitter it must have been for the painter to be struck down by illness with ambitions only half fulfilled.", at: "gp/102" },
     ex: [
       { ja: "{決勝|けっしょう}で{敗|やぶ}れた{選手|せんしゅ}は、**{無念|むねん}**の{涙|なみだ}を{流|なが}した。", en: "The athlete who lost in the final shed tears of bitter disappointment.", alt: ["{記念|きねん}", "{理念|りねん}", "{専念|せんねん}"] },
     ] },

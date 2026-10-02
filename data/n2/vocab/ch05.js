@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "bedridden; confined to bed",
     note: "The 〜きり pattern turned into a word: 寝たきりになる (become bedridden), 寝たきりの高齢者 (bedridden elderly people). It implies being unable to get up for a long time because of illness or old age; 寝込む is being laid up for a few days.",
     rx: ["しんたきり", "ねったきり", "いねたきり"],
-    book: { ja: "うちの犬は体がすっかり弱って、毎日ほとんど**寝たきり**だ。", en: "Our dog has grown very weak and spends almost the whole day lying down.", at: "gp/37" },
+    book: { ja: "うちの犬は体がすっかり弱って、毎日ほとんど**寝たきり**だ。", en: "Our dog has grown very weak and is almost completely bedridden.", at: "gp/37" },
     ex: [
       { ja: "{祖母|そぼ}は{骨折|こっせつ}してから**{寝|ね}たきり**になってしまった。", en: "My grandmother has been bedridden since she broke a bone.", alt: ["{寝言|ねごと}", "{寝坊|ねぼう}", "{昼寝|ひるね}"] },
     ] },
@@ -311,7 +311,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "convenience; circumstances; (one's) schedule",
     note: "Often about whether a time works: 都合がいい / 悪い, ご都合はいかがですか (would that suit you?), 一身上の都合で (for personal reasons). 便利 is about things being handy; 都合 is about one's situation.",
     rx: ["とごう", "つあい", "つがう"],
-    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'll come and visit tomorrow.", at: "gp/43" },
+    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "If it's convenient for you, I'd like to come by tomorrow.", at: "gp/43" },
     ex: [
       { ja: "{急|きゅう}な{仕事|しごと}が{入|はい}って、{土曜日|どようび}は**{都合|つごう}**が{悪|わる}くなった。", en: "Some urgent work came up, so Saturday no longer works for me.", alt: ["{場合|ばあい}", "{合図|あいず}", "{都会|とかい}"] },
     ] },

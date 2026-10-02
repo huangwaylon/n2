@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(railway) car; vehicle",
     note: "One car of a train: 女性専用車両 (women-only car), 先頭車両 (front car). In formal notices it means any vehicle (車両通行止め, closed to vehicles).",
     rx: ["くるまりょう", "しゃりょ", "しゃれい"],
-    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So even though this car is crowded, you have a better chance of getting a seat than you'd expect.", at: "ch/10" },
+    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So for how crowded this car is, you have a decent chance of getting a seat.", at: "ch/10" },
     ex: [
       { ja: "{朝|あさ}のラッシュ{時|じ}には、{女性専用|じょせいせんよう}**{車両|しゃりょう}**がある。", en: "During the morning rush, there are women-only cars.", alt: ["{車庫|しゃこ}", "{車掌|しゃしょう}", "{両親|りょうしん}"] },
     ] },
@@ -274,7 +274,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "luxurious; gorgeous; lavish",
     note: "豪華な料理 / ホテル / 景品, 豪華客船 (luxury cruise ship), 豪華メンバー (star-studded lineup). 贅沢 is extravagant (can be critical); 高級 is high-end.",
     rx: ["ごうが", "こうか", "ごか"],
-    book: { ja: "この料理は{簡単|かんたん}なわりに**{豪華|ごうか}**に見えるので{来客|らいきゃく}のときによく作るんです。", en: "This dish is simple to make but looks impressive, so I often make it when I have guests.", at: "gp/95" },
+    book: { ja: "この料理は{簡単|かんたん}なわりに**{豪華|ごうか}**に見えるので{来客|らいきゃく}のときによく作るんです。", en: "This dish looks impressive for how simple it is, so I often make it when I have guests.", at: "gp/95" },
     ex: [
       { ja: "{誕生日|たんじょうび}に、**{豪華|ごうか}**なホテルでディナーを{楽|たの}しんだ。", en: "On my birthday, I enjoyed dinner at a luxurious hotel.", alt: ["{強力|きょうりょく}", "{有効|ゆうこう}", "{正確|せいかく}"] },
     ] },
@@ -282,7 +282,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "visitor; guest (to one's home or office)",
     note: "来客がある, 来客中 (with a visitor), 来客用 (for guests: 来客用のスリッパ). In conversation: お客さん.",
     rx: ["らいかく", "くるきゃく", "らっきゃく"],
-    book: { ja: "この料理は{簡単|かんたん}なわりに{豪華|ごうか}に見えるので**{来客|らいきゃく}**のときによく作るんです。", en: "This dish is simple to make but looks impressive, so I often make it when I have guests.", at: "gp/95" },
+    book: { ja: "この料理は{簡単|かんたん}なわりに{豪華|ごうか}に見えるので**{来客|らいきゃく}**のときによく作るんです。", en: "This dish looks impressive for how simple it is, so I often make it when I have guests.", at: "gp/95" },
     ex: [
       { ja: "{部長|ぶちょう}は、ただいま**{来客|らいきゃく}**{中|ちゅう}です。", en: "The manager is with a visitor at the moment.", alt: ["{来年|らいねん}", "{観客|かんきゃく}", "{乗客|じょうきゃく}"] },
     ] },

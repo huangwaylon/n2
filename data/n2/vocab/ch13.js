@@ -116,7 +116,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "ささやく", lv: "N1", pos: "verb (godan, intransitive/transitive)",
     en: "to whisper",
     note: "Kanji 囁く, usually written in kana. 耳元でささやく (whisper in someone's ear). The noun is ささやき. つぶやく is muttering to yourself (and also posting on social media); ささやく is speaking softly to someone.",
-    book: { ja: "会議中にちょっと**ささやいた**つもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "During the meeting I meant to just whisper, but everyone heard me, and it was so embarrassing.", at: "gp/120" },
+    book: { ja: "会議中にちょっと**ささやいた**つもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "During the meeting I thought I was only whispering, but everyone heard me, and it was so embarrassing.", at: "gp/120" },
     ex: [
       { ja: "{彼女|かのじょ}は{私|わたし}の{耳元|みみもと}で「ありがとう」と**ささやいた**。", en: "She whispered \"thank you\" in my ear.", alt: ["うなずいた", "ふくらんだ", "ためらった"] },
     ] },
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "dozing off; nodding off (while sitting)",
     note: "Falling asleep where you shouldn't, such as in class, at a meeting or on the train: 授業中に居眠りする, 居眠り運転 (falling asleep at the wheel). 昼寝 is a deliberate nap; 寝坊 is oversleeping.",
     rx: ["きょねむり", "いみん", "いねぶり"],
-    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "The department head dozed off during the meeting, and I agonized over whether to wake him or not; in the end I didn't. What should I have done?", at: "gp/123" },
+    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "Our department head dozed off during the meeting, and I agonized over whether to wake them or not; in the end I didn't. What should I have done?", at: "gp/123" },
     ex: [
       { ja: "{授業中|じゅぎょうちゅう}に**{居眠|いねむ}り**をして、{先生|せんせい}に{注意|ちゅうい}された。", en: "I dozed off in class and got scolded by the teacher.", alt: ["{寝袋|ねぶくろ}", "{居留守|いるす}", "{寝相|ねぞう}"] },
     ] },
@@ -370,7 +370,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to go against; to defy; to disobey",
     note: "Takes に: 親に逆らう, 命令に逆らう, 流れに逆らう (go against the current), 時代に逆らう. The opposite is 従う (obey). 反抗する is similar but stresses a rebellious attitude.",
     rx: ["ぎゃくらう", "さかなう", "さがらう"],
-    book: { ja: "信じがたいことだが、あのおとなしい{高橋|たかはし}さんが{上司|じょうし}の{命令|めいれい}に**{逆|さか}らった**というのは{事実|じじつ}らしい。", en: "It's hard to believe, but it seems to be true that quiet Mr. Takahashi defied his boss's orders.", at: "gp/126" },
+    book: { ja: "信じがたいことだが、あのおとなしい{高橋|たかはし}さんが{上司|じょうし}の{命令|めいれい}に**{逆|さか}らった**というのは{事実|じじつ}らしい。", en: "It's hard to believe, but it seems to be true that mild-mannered Takahashi defied their boss's orders.", at: "gp/126" },
     ex: [
       { ja: "{子|こ}どものころ、{私|わたし}は{親|おや}に**{逆|さか}らって**ばかりいた。", en: "As a child, I was always defying my parents.", alt: ["{払|はら}って", "{誘|さそ}って", "{祝|いわ}って"] },
     ] },
@@ -418,7 +418,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "appetite",
     note: "食欲がある / ない, 食欲が出る / 落ちる, 食欲の秋 (autumn, the season of good appetite). 欲 means desire, as in 意欲 (motivation) and 欲しい.",
     rx: ["しょくよう", "しょっよく", "たべよく"],
-    book: { ja: "弟の病気を{心配|しんぱい}するあまり母は**{食欲|しょくよく}**がなくなり、すっかりやせてしまった。", en: "My mother worried so much about my younger brother's illness that she lost her appetite and became terribly thin.", at: "gp/128" },
+    book: { ja: "弟の病気を{心配|しんぱい}するあまり母は**{食欲|しょくよく}**がなくなり、すっかりやせてしまった。", en: "My mother worried so much about my younger brother's illness that she lost her appetite and lost a lot of weight.", at: "gp/128" },
     ex: [
       { ja: "{暑|あつ}さのせいで、{最近|さいきん}あまり**{食欲|しょくよく}**がない。", en: "Because of the heat, I haven't had much of an appetite lately.", alt: ["{食器|しょっき}", "{食料|しょくりょう}", "{食品|しょくひん}"] },
     ] },
@@ -426,7 +426,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to lose (someone) to death",
     note: "Used when a family member or loved one dies: 父を亡くす, 事故で息子を亡くした. Written with 亡 (death), unlike 無くす / なくす, which is losing an object. The intransitive is 亡くなる (pass away, polite for 死ぬ).",
     rx: ["ぼくす", "なぐす", "もうくす"],
-    book: { ja: "{恋人|こいびと}を**{亡|な}くした**彼女は{悲|かな}しみのあまり{部屋|へや}に{閉|と}じこもってしまった。", en: "Having lost her boyfriend, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
+    book: { ja: "{恋人|こいびと}を**{亡|な}くした**彼女は{悲|かな}しみのあまり{部屋|へや}に{閉|と}じこもってしまった。", en: "Having lost the person she loved, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
     ex: [
       { ja: "{彼|かれ}は{幼|おさな}いころに{交通事故|こうつうじこ}で{父親|ちちおや}を**{亡|な}くした**。", en: "He lost his father in a traffic accident when he was little.", alt: ["{落|お}とした", "{忘|わす}れた", "{逃|のが}した"] },
     ] },
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to shut oneself up (in a room); to stay indoors",
     note: "Staying inside and refusing to come out: 部屋に閉じこもる, 家に閉じこもる. Figuratively 自分の殻に閉じこもる (withdraw into one's shell). 引きこもる is used for long-term social withdrawal (引きこもり).",
     rx: ["しじこもる", "とうじこもる", "へいこもる"],
-    book: { ja: "{恋人|こいびと}を{亡|な}くした彼女は{悲|かな}しみのあまり{部屋|へや}に**{閉|と}じこもって**しまった。", en: "Having lost her boyfriend, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
+    book: { ja: "{恋人|こいびと}を{亡|な}くした彼女は{悲|かな}しみのあまり{部屋|へや}に**{閉|と}じこもって**しまった。", en: "Having lost the person she loved, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
     ex: [
       { ja: "{彼|かれ}は{試験|しけん}に{落|お}ちて、{一週間|いっしゅうかん}{部屋|へや}に**{閉|と}じこもって**いた。", en: "After failing the exam, he stayed shut up in his room for a week.", alt: ["{持|も}ち{込|こ}んで", "{申|もう}し{込|こ}んで", "{閉|と}じて"] },
     ] },
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "a thousand origami cranes (strung together)",
     note: "A string of a thousand folded paper cranes, made as a prayer for someone's recovery or for peace: 千羽鶴を折る / 贈る. 羽 is the counter for birds, and 羽 + つる becomes ばづる here.",
     rx: ["せんわづる", "せんばつる", "ちばづる"],
-    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "Hoping our friend in the hospital would get well soon, we all folded a thousand paper cranes for him.", at: "gp/129" },
+    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "Hoping our friend in the hospital would get well soon, we all folded a thousand paper cranes.", at: "gp/129" },
     ex: [
       { ja: "{平和|へいわ}への{願|ねが}いを{込|こ}めて、{子|こ}どもたちが**{千羽鶴|せんばづる}**を{折|お}った。", en: "The children folded a thousand paper cranes as a prayer for peace.", alt: ["{羽子板|はごいた}", "{千秋楽|せんしゅうらく}", "{花束|はなたば}"] },
     ] },

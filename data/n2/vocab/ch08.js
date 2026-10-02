@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "manufacturing works; factory (often in company names)",
     note: "Common in the names of manufacturers (日立製作所, 〇〇製作所). 製作 is manufacturing things; its homophone 制作 is creating works such as films and TV programs.",
     rx: ["せいさっしょ", "せいざくしょ", "せいさくどころ"],
-    book: { ja: "{田中|たなか}さん、{安田|やすだ}**{製作所|せいさくしょ}**の{佐々木|ささき}様がお見えになりました。", en: "Mr. Tanaka, Mr. Sasaki from Yasuda Manufacturing has arrived.", at: "ch/8" },
+    book: { ja: "{田中|たなか}さん、{安田|やすだ}**{製作所|せいさくしょ}**の{佐々木|ささき}様がお見えになりました。", en: "Tanaka, Sasaki from Yasuda Manufacturing has arrived.", at: "ch/8" },
     ex: [
       { ja: "{父|ちち}は{町|まち}の{小|ちい}さな**{製作所|せいさくしょ}**で{部品|ぶひん}を{作|つく}っている。", en: "My father makes parts at a small manufacturing shop in town.", alt: ["{案内所|あんないじょ}", "{事務所|じむしょ}", "{停留所|ていりゅうじょ}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "trouble; bother (caused to someone)",
     note: "Almost always polite お手数: お手数をおかけしました (sorry to have troubled you), お手数ですが〜 (sorry to trouble you, but …). 手数料 (てすうりょう) is a handling fee or commission. 手間 is the time and effort something takes.",
     rx: ["しゅすう", "てずう", "てかす"],
-    book: { ja: "ああ、どうも。お**{手数|てすう}**をおかけしました。", en: "Ah, thanks. Sorry for the trouble.", at: "ch/8" },
+    book: { ja: "ああ、どうも。お**{手数|てすう}**をおかけしました。", en: "Ah, thank you. Sorry to have put you to the trouble.", at: "ch/8" },
     ex: [
       { ja: "お**{手数|てすう}**ですが、こちらの{用紙|ようし}にご{記入|きにゅう}ください。", en: "Sorry to trouble you, but please fill in this form.", alt: ["{手段|しゅだん}", "{手本|てほん}", "{手当|てあ}て"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
-    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from his desk at the moment, so I'll tell him to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from the desk at the moment, so I'll ask Tanaka to get back to you later.", at: "gp/73" },
     ex: [
       { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "reception (desk); accepting (applications)",
     note: "The front desk (受付で名前を書く, 受付の人) and the act of accepting (受付時間 “hours applications are taken,” 受付終了). The verb is 受け付ける (受付 is the noun spelling).",
     rx: ["じゅふ", "うけづけ", "うけつき"],
-    book: { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の**{受付|うけつけ}**までお{越|こ}しください。", en: "Mr. Oyama from Yokohama, Mr. Sato is waiting for you, so please come to the reception desk on the first floor.", at: "gp/73" },
+    book: { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の**{受付|うけつけ}**までお{越|こ}しください。", en: "Would Oyama, visiting from Yokohama, please come to the reception desk on the first floor? Sato is waiting for you.", at: "gp/73" },
     ex: [
       { ja: "{病院|びょういん}に{着|つ}いたら、まず**{受付|うけつけ}**で{保険証|ほけんしょう}を{出|だ}してください。", en: "When you arrive at the hospital, first hand in your insurance card at the reception desk.", alt: ["{受験|じゅけん}", "{受信|じゅしん}", "{受話器|じゅわき}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be away from one's desk; to step out (of a room)",
     note: "The standard phone phrase ただ今席を外しております (they're away from their desk right now). It can also mean leaving a room so others can talk: 少し席を外していただけますか.",
     rx: ["せきをそとす", "せきをがいす", "せきをはなす"],
-    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from his desk at the moment, so I'll tell him to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll ask Tanaka to get back to you later.", at: "gp/73" },
     ex: [
       { ja: "{担当|たんとう}の{者|もの}はただ今**{席|せき}を{外|はず}して**おります。", en: "The person in charge is away from their desk at the moment.", alt: ["{席|せき}を{譲|ゆず}って", "{席|せき}を{取|と}って", "{席|せき}を{詰|つ}めて"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pray; to wish (for someone's health or success)",
     note: "神に祈る, 合格を祈る, and the letter phrases ご健康をお祈りします / お祈り申し上げます. 願う is to hope or ask for something. 祝う (celebrate) is a look-alike.",
     rx: ["きる", "いのう", "いわる"],
-    book: { ja: "1日も早くお元気になられますよう、お**{祈|いの}り**しております。", en: "I'm praying that you get well as soon as possible.", at: "gp/77" },
+    book: { ja: "1日も早くお元気になられますよう、お**{祈|いの}り**しております。", en: "I am praying for your speedy recovery.", at: "gp/77" },
     ex: [
       { ja: "{試験|しけん}に{合格|ごうかく}するよう、{神社|じんじゃ}で**{祈|いの}った**。", en: "I prayed at a shrine that I would pass the exam.", alt: ["{祝|いわ}った", "{呪|のろ}った", "{払|はら}った"] },
     ] },
