@@ -11,6 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "story",
         vertical: true,
+        rings: false,
         lines: [
           { ja: "昔、あるところに一人の男がいた。男は、けちなうえに{怠|なま}け{者|もの}で、掃除や洗濯もしなかった。だから、部屋はたいそう汚く、中に入れば体中ほこり**まみれ**になるほどで、どろぼうも逃げ出すありさまだった。", en: "Once upon a time, in a certain place, there lived a man. He was stingy and lazy to boot, and he never did any cleaning or washing. So his room was terribly filthy — so filthy that if you went inside you'd end up covered in dust from head to toe — and it was in such a state that even a burglar would have fled." },
           { ja: "友達は「いつまでもそんな暮らしを続けるのはよくない。早くお{嫁|よめ}さんをもらえ。」と言うのだが、男は友達の心配**をよそに**、「確かに家は汚いけれど、{俺|おれ}は{俺|おれ}**なりに**楽しく暮らしているよ。一人なら余計な金もかからないし。」と全く気にしていない。「まあ、何も食べない{嫁|よめ}ならもらわ**ないでもない**がね。」などと言う**しまつ**で、友達もあきれてそれ以上は何も言わなかった。", en: "His friend told him, \"You can't go on living like this forever. Hurry up and get yourself a wife,\" but the man paid no heed to his friend's concern: \"Sure, my house is dirty, but I'm enjoying life in my own way. And living alone, I don't have to spend any extra money.\" He didn't care in the least. He even went so far as to say, \"Well, if it were a wife who didn't eat anything, I might not say no,\" and his friend, exasperated, said nothing more." },
@@ -450,6 +451,7 @@ TRY.registerChapter({
       sample: {
         kind: "story",
         vertical: true,
+        rings: false,
         lines: [
           { ja: "あるとき、「お{前様|まえさま}がいるとゆっくり掃除ができません。昼間は外で遊んできてください。」と{嫁|よめ}が言うので、男は久しぶりに外へ出た。", en: "One day, his wife said, \"With you around, I can't take my time over the cleaning. Please go out and enjoy yourself during the day,\" so the man went out for the first time in ages." },
           { ja: "男が歩いていると、道の向こうから友達がやって来た。友達は男が{嫁|よめ}をもらったと聞いて、お祝い**かたがた**{嫁|よめ}の顔を見に来たのだった。うれしくなった男は、友達に{嫁|よめ}の{自慢話|じまんばなし}をした。", en: "As the man was walking along, a friend came toward him from the other end of the road. The friend had heard that the man had taken a wife and had come to congratulate him, and at the same time to get a look at her. Delighted, the man boasted to his friend about his wife." },

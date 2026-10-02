@@ -715,7 +715,7 @@ TRY.registerChapter({
           { sp: "社員A", v: "m", ja: "「ねえ、今日何時に終わんの？　{俺|おれ}、営業部の{山田|やまだ}っていうんだけど、よかったら、30分だけ、お茶とかどう？」", en: "\"Hey, what time do you finish today? I'm Yamada from Sales — if you like, how about tea or something, just for thirty minutes?\"" },
           { sp: "社員B", v: "m", ja: "「お{前|まえ}、注文**にかこつけて**、何聞いてるんだよ。」", en: "\"Hey, you're using the order as an excuse — what are you asking her?\"" },
           { sp: "ウェイトレス", v: "f", ja: "「〝ヨカッタラ、30分ダケ、オ茶トカドウ〟……ソノ注文ハ、{職務範囲|しょくむはんい}ニ、存在シマセン。」", en: "\"'If you like, just thirty minutes, how about tea or something'… That order does not exist within my scope of duties.\"" },
-          { ja: "―　終わり　―", en: "— The End —" },
+          { ja: "―　終わり　―", style: "right", en: "— The End —" },
         ],
       },
       points: [

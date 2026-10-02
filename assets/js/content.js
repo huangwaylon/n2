@@ -278,7 +278,7 @@ function dialogueHtml(s) {
   const body = (l) => `<div class="dlg__body"><span class="ja">${fmt(l.ja)}</span>${en(l.en)}</div>`;
   return `<div class="dlg ja-book${spw > 4 ? " dlg--wide" : ""}" style="--spw:${spw}em">${s.lines.map((l) => l.sp
     ? `<div class="dlg__row bi">${l.en ? enToggle() : ""}<span class="dlg__sp">${fmt(l.sp)}</span><span class="dlg__colon" aria-hidden="true">：</span>${body(l)}</div>`
-    : `<div class="dlg__row dlg__row--narr${isNote(l) ? " dlg__row--note" : ""} bi">${l.en ? enToggle() : ""}${body(l)}</div>`).join("")}</div>`;
+    : `<div class="dlg__row dlg__row--narr${isNote(l) ? " dlg__row--note" : ""}${isEnd(l) ? " dlg__row--end" : ""} bi">${l.en ? enToggle() : ""}${body(l)}</div>`).join("")}</div>`;
 }
 // English of a whole sample in one block, one paragraph per entry
 const enBlock = (list, cls) => (list.length ? `<div class="en en--gen ${cls}">${list.map((e) => `<p>${fmt(e)}</p>`).join("")}</div>` : "");
@@ -327,13 +327,15 @@ function verticalHtml(s) {
   if (!v) return `<div class="vt vt--h">${mast}${dlg ? dialogueHtml(s) : proseHtml(s)}</div>`;
   // drama script (N1 ch5): the speaker name heads each column, the lines hang under it; lines without sp are
   // scene headings / stage directions
+  // the name column as wide as the longest name (ガードマン, ウェイトレス wrapped in a fixed 4.5em, N1 p.89)
+  const spw = dlg ? Math.max(4.5, ...s.lines.filter((l) => l.sp).map((l) => plain(l.sp).length + 0.5)) : 0;
   const body = dlg ? s.lines.map((l) => l.sp
     ? `<p class="vt-dlg"><span class="vt-sp">${fmt(l.sp, V)}</span><span class="vt-say">${fmt(l.ja, V)}</span></p>`
-    : `<p class="vt-dir${isNote(l) ? " vt-note" : ""}">${fmt(l.ja, V)}</p>`).join("")
+    : `<p class="vt-dir${/^【/.test(plain(l.ja)) ? " vt-dir--top" : ""}${isNote(l) ? " vt-note" : ""}${isEnd(l) ? " vt-end" : ""}">${fmt(l.ja, V)}</p>`).join("")
     : paras.map((p) => p.sep ? `<p class="vt-sep" aria-hidden="true">${fmt(p.lines[0].ja)}</p>`
     : `<p class="${quoteStart(p) ? "vt-q" : ""}${isNote(p.lines[0]) ? " vt-note" : ""}${isEnd(p.lines[0]) ? " vt-end" : ""}">${p.lines.map((l) => fmt(l.ja, V)).join("")}</p>`).join("");
   const enPs = dlg ? s.lines.filter((l) => l.en).map((l) => (l.sp ? `${plain(l.sp)}: ` : "") + l.en) : paras.filter((p) => !p.sep).map(paraEn).filter(Boolean);
-  return `<div class="vt-scroll" tabindex="0" role="region" aria-label="見本文（縦書き）"><div class="vt ja-book">${mast}${body}</div></div>
+  return `<div class="vt-scroll" tabindex="0" role="region" aria-label="見本文（縦書き）"><div class="vt ja-book"${spw ? ` style="--vsp:${spw}em"` : ""}>${mast}${body}</div></div>
       ${enBlock(enPs, "vt-en")}`;
 }
 function sampleHtml(s, chId, pi) {
