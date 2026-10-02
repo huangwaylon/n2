@@ -121,7 +121,9 @@ stacked alternatives (rendering: LAYOUT.md C10).
 
 `en` is our translation (the sentence with the correct answer filled in); `why: { en }` is shown after grading.
 `prompt: { ja, en }` holds the printed instruction. `labels: "abc" | "ab" | "123" | "ABC"` sets option labels as
-printed (default: numbers for 4+ options, else letters).
+printed (default: numbers for 4+ options, else letters). `layout: "list"` (on a choice or listening exercise, or one
+item): the options printed one per line under the sentence, the （　） left in it (N2 p.31), instead of inline a./b. in
+the parentheses or the fitted 4 / 2 / 1 grid; `layout: "grid"` on a listening item overrides the one-per-line pair.
 
 ```js
 { type: "choice", prompt, items: [ { q: "…（　）…", options: ["…", …], answer: 1, en, why } ] }

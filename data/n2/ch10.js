@@ -310,6 +310,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the correct ending." },
               items: [

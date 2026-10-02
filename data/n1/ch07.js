@@ -48,6 +48,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the phrase that best completes each sentence." },
               items: [
@@ -267,6 +268,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the phrase that best completes each sentence." },
               items: [
@@ -405,6 +407,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the phrase that best completes each sentence." },
               items: [
@@ -464,6 +467,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the phrase that best completes each sentence. (Item 1 has a picture of a bulldog dressed in frilly clothes.)" },
               items: [

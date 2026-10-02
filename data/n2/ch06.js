@@ -46,6 +46,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the correct option." },
               items: [
@@ -312,6 +313,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the correct option." },
               items: [

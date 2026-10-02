@@ -35,7 +35,7 @@ export function renderExercise(ex, id, title, opts = {}) {
   const o = Object.assign({ bare: false, numOffset: 0, review: false }, opts);
   const sc = progress.scores[id];
   const score = sc ? `<span class="score-chip ${sc.c === sc.t ? "full" : ""}">${sc.c}/${sc.t}</span>` : `<span class="score-chip" hidden></span>`;
-  const c = { labels: ex.labels, num: o.review ? "box" : "paren", off: o.numOffset };
+  const c = { labels: ex.labels, num: o.review ? "box" : "paren", off: o.numOffset, layout: ex.layout };
   const BODY = {
     choice: () => ex.items.map((it, i) => choiceItem(it, i, c)).join(""),
     write: () => ex.items.map((it, i) => writeItem(it, i, c)).join("") + (ex.bank ? `<div class="bank bank--static ja-book" aria-label="語群">${ex.bank.map((b) => `<span class="chip">${fmt(b)}</span>`).join("")}</div>` : ""),
@@ -98,8 +98,11 @@ const reEsc = (s) => String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 const PH_RE = /（[ 　]+）/g;
 // the data's "（　）" is printed as a wide gap, about three characters, kept on one line (pp.27, 101; N1 p.23)
 const gaps = (h) => h.replace(PH_RE, '<span class="ph">（<span class="ph__g"></span>）</span>');
-// c: { labels, num, off, mode } — mode "list" forces one column, "noinline" keeps the options out of the sentence
-function choiceItem(it, i, c) {
+// c: { labels, num, off, mode, layout } — mode "list" forces one column, "noinline" keeps the options out of the sentence;
+// layout "list" (the exercise's or the item's): the book prints the options one per line under the sentence, the gap
+// left in it (N2 p.31 a./b.; N1 p.127 reading options 1–4)
+function choiceItem(it, i, c0) {
+  const c = (it.layout || c0.layout) === "list" ? Object.assign({}, c0, { mode: "list" }) : c0;
   const labels = it.labels || c.labels; // an item drawn into the drill carries its own labels
   let qHtml = fmt(it.q || "");
   let inline = false;
@@ -238,8 +241,9 @@ function listeningBody(ex, c) {
     const optsForScript = spoken ? `<div class="sline resp"><span></span><div>${it.options.map((o, j) => `<div>${j + 1}. ${fmt(o)}${tEn(it.script.length + j)}</div>`).join("")}</div></div>` : "";
     const opts = spoken
       ? `<div class="opts opts--resp" data-answer="${it.answer}">${it.options.map((_, j) => `<button class="opt opt--resp" data-act="pick" data-i="${i}" data-j="${j}" aria-label="${j + 1}"><span class="opt-n">${j + 1}</span></button>`).join("")}</div>`
-      // one talk, two questions: the options are listed one per line whatever their length (pp.29, 121)
-      : optGroup(it.options, it.answer, "123", summary ? "list" : "grid");
+      // one talk, two questions: the options are listed one per line whatever their length (pp.29, 121); an item's
+      // layout overrides (N1 p.159 prints such a pair 2×2)
+      : optGroup(it.options, it.answer, "123", it.layout || (summary ? "list" : "grid"));
     return `<div class="q choice-q listen-q${spoken ? " listen-q--resp" : ""}" data-i="${i}">
           <div class="lq-row${num === "none" ? " lq-row--nonum" : ""}">${qnHtml(c.off + i + 1, num) || "<span></span>"}${opts}${cdBadge(queue, `問題${c.off + i + 1}を聞く`)}</div>
           <details class="script"><summary>スクリプト <span class="en-inline">Transcript</span></summary><div class="dlg ja-book">${summary ? "" : qLine}${script}${summary ? qLine : ""}${optsForScript}</div></details>

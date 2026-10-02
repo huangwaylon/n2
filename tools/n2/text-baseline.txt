@@ -523,6 +523,7 @@ ch2.parts.0.points.0.practice.0.items.3.answer	0
 ch2.parts.0.points.0.practice.0.items.3.options.0	水が{怖|こわ}くて今も泳げない
 ch2.parts.0.points.0.practice.0.items.3.options.1	大けがをした
 ch2.parts.0.points.0.practice.0.items.3.q	子どものとき川に落ちて{以来|いらい}、（　）。
+ch2.parts.0.points.0.practice.0.layout	list
 ch2.parts.0.points.0.practice.0.prompt.ja	
 ch2.parts.0.points.0.practice.0.type	choice
 ch2.parts.0.points.0.stars	3
@@ -656,6 +657,7 @@ ch2.parts.0.points.5.practice.0.items.3.answer	1
 ch2.parts.0.points.5.practice.0.items.3.options.0	{農村|のうそん}に見学に行くつもりだ
 ch2.parts.0.points.5.practice.0.items.3.options.1	{気候|きこう}や{地形|ちけい}に対する{理解|りかい}も{必要|ひつよう}だ
 ch2.parts.0.points.5.practice.0.items.3.q	日本の{農業|のうぎょう}を{理解|りかい}する{上|うえ}で（　）。
+ch2.parts.0.points.5.practice.0.layout	list
 ch2.parts.0.points.5.practice.0.prompt.ja	
 ch2.parts.0.points.5.practice.0.type	choice
 ch2.parts.0.points.5.stars	3
@@ -692,6 +694,7 @@ ch2.parts.0.points.6.practice.0.items.3.answer	1
 ch2.parts.0.points.6.practice.0.items.3.options.0	使いにくい
 ch2.parts.0.points.6.practice.0.items.3.options.1	使いやすい
 ch2.parts.0.points.6.practice.0.items.3.q	この{洗濯機|せんたくき}は、{旧型|きゅうがた}ながらとても（　）。
+ch2.parts.0.points.6.practice.0.layout	list
 ch2.parts.0.points.6.practice.0.prompt.ja	
 ch2.parts.0.points.6.practice.0.type	choice
 ch2.parts.0.points.6.stars	2
@@ -891,6 +894,7 @@ ch2.parts.1.points.4.practice.0.items.3.answer	1
 ch2.parts.1.points.4.practice.0.items.3.options.0	もう終わってしまった
 ch2.parts.1.points.4.practice.0.items.3.options.1	続いている
 ch2.parts.1.points.4.practice.0.items.3.q	中学{時代|じだい}に{出会|であ}った{親友|しんゆう}との{友情|ゆうじょう}は、20年間変わることなく、（　）。
+ch2.parts.1.points.4.practice.0.layout	list
 ch2.parts.1.points.4.practice.0.prompt.ja	
 ch2.parts.1.points.4.practice.0.type	choice
 ch2.parts.1.points.4.stars	2
@@ -2083,6 +2087,7 @@ ch5.parts.0.points.2.practice.0.items.2.answer	1
 ch5.parts.0.points.2.practice.0.items.2.options.0	海外旅行に行こうと思う
 ch5.parts.0.points.2.practice.0.items.2.options.1	{実際|じっさい}に20日も休んだことはない
 ch5.parts.0.points.2.practice.0.items.2.q	私の場合、年間20日の{有給休暇|ゆうきゅうきゅうか}が取れることになっているものの、（　）。
+ch5.parts.0.points.2.practice.0.layout	list
 ch5.parts.0.points.2.practice.0.prompt.ja	
 ch5.parts.0.points.2.practice.0.type	choice
 ch5.parts.0.points.2.stars	2
@@ -2506,6 +2511,7 @@ ch6.parts.0.points.0.practice.0.items.3.answer	0
 ch6.parts.0.points.0.practice.0.items.3.options.0	{退場|たいじょう}させられてしまった
 ch6.parts.0.points.0.practice.0.items.3.options.1	{審判|しんぱん}に{謝|あやま}ってしまった
 ch6.parts.0.points.0.practice.0.items.3.q	{審判|しんぱん}に{抗議|こうぎ}したばかりに、（　）。
+ch6.parts.0.points.0.practice.0.layout	list
 ch6.parts.0.points.0.practice.0.prompt.ja	
 ch6.parts.0.points.0.practice.0.type	choice
 ch6.parts.0.points.0.stars	2
@@ -2692,6 +2698,7 @@ ch6.parts.1.points.1.practice.0.items.2.options.0	もうちょっと後でもい
 ch6.parts.1.points.1.practice.0.items.2.options.1	たくさん食べたいよ
 ch6.parts.1.points.1.practice.0.items.2.q	A：そろそろ12時だけど、{昼飯|ひるめし}、どうする？
 B：{腹|はら}、{減|へ}ってないこともないけど（　）。
+ch6.parts.1.points.1.practice.0.layout	list
 ch6.parts.1.points.1.practice.0.prompt.ja	
 ch6.parts.1.points.1.practice.0.type	choice
 ch6.parts.1.points.1.stars	3
@@ -3152,6 +3159,7 @@ ch7.parts.0.points.3.practice.0.items.3.answer	0
 ch7.parts.0.points.3.practice.0.items.3.options.0	海外からも多くの{支援|しえん}が{寄|よ}せられた
 ch7.parts.0.points.3.practice.0.items.3.options.1	まだ{危険|きけん}があると言われている
 ch7.parts.0.points.3.practice.0.items.3.q	{被災地|ひさいち}には、国内のみならず（　）。
+ch7.parts.0.points.3.practice.0.layout	list
 ch7.parts.0.points.3.practice.0.prompt.ja	
 ch7.parts.0.points.3.practice.0.type	choice
 ch7.parts.0.points.3.stars	2
@@ -4810,6 +4818,7 @@ ch10.parts.1.points.3.practice.0.items.3.answer	0
 ch10.parts.1.points.3.practice.0.items.3.options.0	あっという間に売り切れてしまった
 ch10.parts.1.points.3.practice.0.items.3.options.1	おもしろいゲームだといいなあ
 ch10.parts.1.points.3.practice.0.items.3.q	楽しみにしていたゲームソフトがやっと{発売|はつばい}されたかと思ったら、（　）。
+ch10.parts.1.points.3.practice.0.layout	list
 ch10.parts.1.points.3.practice.0.prompt.ja	
 ch10.parts.1.points.3.practice.0.type	choice
 ch10.parts.1.points.3.stars	3
@@ -5090,6 +5099,7 @@ ch11.parts.0.points.3.practice.0.items.2.options.1	学校を休んだから
 ch11.parts.0.points.3.practice.0.items.2.options.2	{熱|ねつ}はないんだから
 ch11.parts.0.points.3.practice.0.items.2.q	A：{風邪|かぜ}だって？　大丈夫？
 B：大丈夫だよ。{風邪|かぜ}っていっても（　）。
+ch11.parts.0.points.3.practice.0.layout	list
 ch11.parts.0.points.3.practice.0.prompt.ja	
 ch11.parts.0.points.3.practice.0.type	choice
 ch11.parts.0.points.3.stars	3
@@ -5462,6 +5472,7 @@ ch12.parts.0.points.1.practice.0.items.2.answer	0
 ch12.parts.0.points.1.practice.0.items.2.options.0	まず1ページ目をご{覧|らん}ください
 ch12.parts.0.points.1.practice.0.items.2.options.1	ご自由にご意見をおっしゃってください
 ch12.parts.0.points.1.practice.0.items.2.q	お{配|くば}りした{資料|しりょう}にそって、ただ今からご説明いたします。それでは（　）。
+ch12.parts.0.points.1.practice.0.layout	list
 ch12.parts.0.points.1.practice.0.prompt.ja	
 ch12.parts.0.points.1.practice.0.type	choice
 ch12.parts.0.points.1.stars	2
@@ -5491,6 +5502,7 @@ ch12.parts.0.points.2.practice.0.items.3.answer	0
 ch12.parts.0.points.2.practice.0.items.3.options.0	{山田|やまだ}君がクラスで一番だ
 ch12.parts.0.points.2.practice.0.items.3.options.1	声の大きさが大切だ
 ch12.parts.0.points.2.practice.0.items.3.q	歌のうまさにかけては、（　）。
+ch12.parts.0.points.2.practice.0.layout	list
 ch12.parts.0.points.2.practice.0.prompt.ja	
 ch12.parts.0.points.2.practice.0.type	choice
 ch12.parts.0.points.2.stars	2
@@ -6293,6 +6305,7 @@ ch13.parts.1.points.3.practice.0.items.3.answer	1
 ch13.parts.1.points.3.practice.0.items.3.options.0	新しいことに{挑戦|ちょうせん}する
 ch13.parts.1.points.3.practice.0.items.3.options.1	何も{改革|かいかく}をしない
 ch13.parts.1.points.3.practice.0.items.3.q	２{代目|だいめ}社長は{失敗|しっぱい}を{恐|おそ}れるあまり（　）ので、このままでは会社がだめになってしまうと社員は{心配|しんぱい}している。
+ch13.parts.1.points.3.practice.0.layout	list
 ch13.parts.1.points.3.practice.0.prompt.ja	
 ch13.parts.1.points.3.practice.0.type	choice
 ch13.parts.1.points.3.stars	2

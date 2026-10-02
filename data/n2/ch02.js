@@ -40,6 +40,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
               items: [
@@ -238,6 +239,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the option that correctly completes each sentence." },
               items: [
@@ -297,6 +299,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the option that correctly completes each sentence. (Item 2 is illustrated with a hiker walking toward a mountain peak.)" },
               items: [
@@ -627,6 +630,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "ab",
               prompt: { ja: "", en: "Choose the correct option." },
               items: [

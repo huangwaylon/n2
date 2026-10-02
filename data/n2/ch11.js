@@ -187,6 +187,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the correct option to complete the sentence." },
               items: [

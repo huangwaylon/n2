@@ -107,6 +107,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the correct option." },
               items: [
@@ -155,6 +156,7 @@ TRY.registerChapter({
           practice: [
             {
               type: "choice",
+              layout: "list",
               labels: "abc",
               prompt: { ja: "", en: "Choose the correct option." },
               items: [

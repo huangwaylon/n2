@@ -2967,6 +2967,7 @@ ch7.parts.0.points.0.practice.0.items.2.options.0	大学生にしてはレベル
 ch7.parts.0.points.0.practice.0.items.2.options.1	とても立派でどこに出しても恥ずかしくない{履歴書|りれきしょ}だね
 ch7.parts.0.points.0.practice.0.items.2.options.2	こんな{履歴書|りれきしょ}じゃどこにも採用してもらえないよ
 ch7.parts.0.points.0.practice.0.items.2.q	子どもが書いたんじゃあるまいし、（　）。
+ch7.parts.0.points.0.practice.0.layout	list
 ch7.parts.0.points.0.practice.0.prompt.ja	
 ch7.parts.0.points.0.practice.0.type	choice
 ch7.parts.0.points.0.stars	3
@@ -3096,6 +3097,7 @@ ch7.parts.0.points.5.practice.0.items.2.options.0	財産も得られたら{嬉|�
 ch7.parts.0.points.5.practice.0.items.2.options.1	健康を害したら何にもならないよ
 ch7.parts.0.points.5.practice.0.items.2.options.2	家族も喜んでくれるに違いないね
 ch7.parts.0.points.5.practice.0.items.2.q	地位や{名誉|めいよ}を得たところで、（　）。
+ch7.parts.0.points.5.practice.0.layout	list
 ch7.parts.0.points.5.practice.0.prompt.ja	
 ch7.parts.0.points.5.practice.0.type	choice
 ch7.parts.0.points.5.stars	3
@@ -3181,6 +3183,7 @@ ch7.parts.0.points.8.practice.0.items.2.answer	0
 ch7.parts.0.points.8.practice.0.items.2.options.0	お世話になった皆さんにきちんと{挨拶|あいさつ}してから帰りなさい
 ch7.parts.0.points.8.practice.0.items.2.options.1	お世話になった皆さんに{挨拶|あいさつ}できてよかった
 ch7.parts.0.points.8.practice.0.items.2.q	帰国するなら帰国するで、（　）。
+ch7.parts.0.points.8.practice.0.layout	list
 ch7.parts.0.points.8.practice.0.prompt.ja	
 ch7.parts.0.points.8.practice.0.type	choice
 ch7.parts.0.points.8.stars	2
@@ -3211,6 +3214,7 @@ ch7.parts.0.points.9.practice.0.items.2.answer	1
 ch7.parts.0.points.9.practice.0.items.2.options.0	漢字はたくさん書いて覚えてください
 ch7.parts.0.points.9.practice.0.items.2.options.1	漢字を書くのは難しいんです
 ch7.parts.0.points.9.practice.0.items.2.q	最近は字を書くことが少なくなったので、外国人だけでなく、日本人にしても（　）。
+ch7.parts.0.points.9.practice.0.layout	list
 ch7.parts.0.points.9.practice.0.prompt.ja	
 ch7.parts.0.points.9.practice.0.type	choice
 ch7.parts.0.points.9.stars	2
