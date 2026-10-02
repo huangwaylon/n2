@@ -146,7 +146,7 @@ TRY.registerChapter({
           forms: ["[Pl] + にもほどがある\n［現在形のみ］［[なA~~だ~~]　[N~~だ~~]］"],
           examples: [
             { ja: "両親が苦労して送ってくれたお金を遊びに使うなんて、{親不孝|おやふこう}にもほどがある。", en: "Spending the money your parents worked so hard to send you on having fun — that's the height of ingratitude to your parents." },
-            { ja: "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。", en: "Riding a bicycle without a light and texting on top of that — that's thoughtless beyond all limits." },
+            { ja: "{無灯火|むとうか}の上にメールをしながら自転車に乗るなんて、非常識にもほどがありますよ。", en: "Riding a bicycle without a light and texting on top of that — that shows a shocking lack of common sense." },
             { ja: "中身を減らして、2割引きと言って売るなんて、客を{馬鹿|ばか}にするにもほどがある。", en: "Reducing the contents and then selling it as '20% off' — that's treating customers like complete fools." },
             { ja: "A：政治のことを全く知らない君が国会議員になろうなんて、{冗談|じょうだん}にもほどがある。\nB：{僕|ぼく}は本気だよ。もっと市民の{視点|してん}で政治を行う人間が必要だと思うんだ。", en: "A: You, who know nothing at all about politics, want to become a member of the Diet? That's taking a joke too far.\nB: I'm serious. I think we need people who do politics more from the citizens' point of view." },
             { ja: "A：あの人、友だちの結婚式に白いドレス着て行ったんだって。\nB：え?!　物を知らないにもほどがあるよね。", en: "A: I heard that person wore a white dress to a friend's wedding.\nB: What?! That's ignorant beyond belief, isn't it." },
@@ -293,7 +293,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "この車は{燃費|ねんぴ}も良く、{洗練|せんれん}されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },
-            { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。", en: "You could say this supermarket, which pursued both its employees' happiness and its customers' satisfaction, succeeded because it was bound to." },
+            { ja: "{従業員|じゅうぎょういん}の幸福と{顧客|こきゃく}の満足を{追求|ついきゅう}したこのスーパーは、成功するべくして成功したと言えよう。", en: "You could say this supermarket, which pursued both its employees' happiness and its customers' satisfaction, was bound to succeed, and it did." },
             { ja: "{指摘|してき}された{欠陥|けっかん}を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen." },
             { ja: "70億の人間の中で、私たち2人はめぐり会うべくしてめぐり会ったのだと思います。", en: "Among seven billion people, I believe the two of us were destined to meet." },
           ],
@@ -346,7 +346,7 @@ TRY.registerChapter({
             { ja: "＊[N₁]・[N₂]は同じ{名詞|めいし}を使う。", en: "The same noun is used for N₁ and N₂." },
           ],
           examples: [
-            { ja: "A：部長に連絡しなきゃいけないんだけど、時間が時間なだけに電話はまずいよね。\nB：そうね。とりあえずメールだけ送っておいて、明日の朝報告したら？", en: "A: I need to contact the manager, but given what time it is, phoning would be a bad idea, wouldn't it?\nB: Right. Why not just send an email for now and report in person tomorrow morning?" },
+            { ja: "A：部長に連絡しなきゃいけないんだけど、時間が時間なだけに電話はまずいよね。\nB：そうね。とりあえずメールだけ送っておいて、明日の朝報告したら？", en: "A: I need to contact the manager, but given what time it is, phoning would be a bad idea, wouldn't it?\nB: Right. Why not just send an email for now and report tomorrow morning?" },
             { ja: "A：上司の{悪口|わるくち}を間違えて社内に{一斉送信|いっせいそうしん}しちゃったんだって？\nB：うん。内容が内容だけに、会社に行けないよ。どうしよう……。", en: "A: I heard you accidentally sent something bad-mouthing your boss to everyone in the company?\nB: Yeah. Given what it said, I can't face going to work. What am I going to do…" },
             { ja: "日帰りの予定だったが、天候が天候なだけに、今日の{下山|げざん}はあきらめるしかない。", en: "We had planned a day trip, but with the weather being what it is, we have no choice but to give up on descending the mountain today." },
             { ja: "これは{国宝級|こくほうきゅう}の{仏像|ぶつぞう}なのです。物が物なだけに、普通の{運送業者|うんそうぎょうしゃ}には頼めません。", en: "This is a Buddhist statue of national-treasure class. Given what it is, we can't entrust it to an ordinary transport company." },
@@ -904,7 +904,7 @@ TRY.registerChapter({
             options: ["ならまだしも", "をいいことに", "といわず", "にかこつけて"],
             answer: 0,
             en: "One or two would have been fine, but I was given ten watermelons all at once and didn't know what to do with them.",
-            why: { en: "〜ならまだしも (#50): one or two would be acceptable, but ten is too much. The sentence complains (困ってしまった) that ten was too many, so a “would be fine, but” contrast is needed; といわず (#54) means “not just / every one”, and をいいことに (#47) and にかこつけて (#64) mean exploiting a situation or using it as a pretext." },
+            why: { en: "〜ならまだしも (#50): one or two would be acceptable, but ten is too many (困ってしまった). といわず (#54) means “A, B, all of them”, and をいいことに (#47) and にかこつけて (#64) mean exploiting a situation or using it as a pretext." },
           },
           {
             q: "旅行中のトラブルは、ない（　）が、案外それがいい思い出になることもある。",
