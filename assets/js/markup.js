@@ -144,8 +144,9 @@ export const gpLink = (no) => {
   return f ? `<a class="gp-link" href="#/gp/${no}">${no} ${fmt(f.g.pattern)}</a>` : `<span class="gp-link">${no}</span>`;
 };
 // 他の本: the same grammar in the other books (data/links.js). key: "n2:12" (a point, with its Plus boxes) or "q2:7-3", "q1:1-3"
-// (a Quartet note); an id is "book:no pattern", no = point number, N+ for its Plus, lesson-note for Quartet
-const linkId = (id) => { const [, b, no, pat] = id.match(/^(\w+):(\S+?)\+? (.+)$/); return { b, no, pat }; };
+// (a Quartet note); an id is "book:no pattern", no = point number (N+i, a Plus, shows and links as point N), lesson-note
+// for Quartet
+const linkId = (id) => { const [, b, no, pat] = id.match(/^(\w+):([^\s+]+)(?:\+\d*)? (.+)$/); return { b, no, pat }; };
 export const otherBooksHtml = (key) => {
   const [kb, kno] = key.split(":");
   const groups = (TRY.links || []).filter((g) => g.ids.some((id) => { const x = linkId(id); return x.b === kb && x.no === kno; }));
