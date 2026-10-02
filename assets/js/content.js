@@ -1,6 +1,6 @@
 // Chapter content (docs/LAYOUT.md C1–C17): chapter opener, can-do, mini table of contents, 見本文, grammar points.
-import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, verticalOn, viewH } from "./core.js";
-import { bi, biInner, cdBadge, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, miniToc, otherBooksHtml, pager, pill, plain, prose, scenes, speakBtn, stars } from "./markup.js";
+import { ACT, BOOK, CIRCLED, TRY, $, $$, chapterPoints, esc, findChapter, pointRange, progress, verticalOn, vtScrollInit } from "./core.js";
+import { bi, biInner, cdBadge, deepHtml, en, enScopeBtn, enSrc, enToggle, fmt, gpLink, miniToc, otherBooksHtml, pager, pill, plain, scenes, speakBtn, stars } from "./markup.js";
 import { checkHtml, renderExercise, reviewHtml } from "./exercises.js";
 
 // ---------- chapter ----------
@@ -65,7 +65,6 @@ const TRY_IT = "やってみよう！";
 // points, the similar-pattern group) go on a separate small "関連 Related" line so they don't pass for book text.
 const cmpGroupOf = (no) => TRY.compare.findIndex((gr) => (gr.items || []).some((it) => it.no === no));
 // 📘 our English deep-dive on a grammar point (also on Quartet II notes), closed by default
-export const deepHtml = (s) => (s ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span><span class="gen-tag">generated</span></summary><div class="deep-body">${prose(s)}</div></details>` : "");
 function xrefHtml(book, see, no) {
   const gi = no != null ? cmpGroupOf(no) : -1;
   const links = (see || []).map(gpLink).join("");
@@ -367,23 +366,4 @@ export function rebuildVertical() {
     if (enAll) $(`.sample--vertical[data-ch="${ch.id}"][data-pi="${pi}"]`).classList.add("en-all");
   });
   vtScrollInit();
-}
-// vertical scrollers: a text only a little wider than the frame gets taller columns instead of a sideways scroll (up to
-// 80vh / 44em: the last columns were hidden behind the scroll fade, N1 ch4 (2)); the fade shows while more is hidden
-export function vtScrollInit(refit) {
-  $$(".vt-scroll").forEach((sc) => {
-    if (refit) { delete sc.dataset.fitH; sc.style.height = ""; }
-    if (!sc.dataset.fitH && sc.clientWidth) {
-      sc.dataset.fitH = 1;
-      const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(viewH() * 0.8, 44 * fs);
-      let h = sc.clientHeight;
-      while (sc.scrollWidth > sc.clientWidth + 1 && h + 2 * fs <= max) { h += 2 * fs; sc.style.height = `${h}px`; }
-      // the CSS height is in vh, which in-app iOS browsers may change as their toolbars slide in and out while the page
-      // scrolls (every box below would move): kept until the width changes, like viewH()
-      if (!sc.style.height) sc.style.height = getComputedStyle(sc).height;
-    }
-    const upd = () => sc.classList.toggle("has-more", sc.scrollWidth - sc.clientWidth + sc.scrollLeft > 4 && Math.abs(sc.scrollLeft) < sc.scrollWidth - sc.clientWidth - 4);
-    if (!sc.dataset.hint) { sc.dataset.hint = 1; sc.addEventListener("scroll", upd, { passive: true }); }
-    upd();
-  });
 }

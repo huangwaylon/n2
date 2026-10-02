@@ -90,6 +90,9 @@ export const prose = (s) => (!s ? "" : String(s).split(/\n\s*\n/).map((block) =>
     : "<p>" + r.lines.map(fmtEm).join("<br>") + "</p>")).join("");
 }).join(""));
 
+// a grammar point's English deep-dive (generated), closed by default
+export const deepHtml = (s) => (s ? `<details class="deep"><summary>📘 English deep-dive <span class="dim">nuance · comparisons · pitfalls</span><span class="gen-tag">generated</span></summary><div class="deep-body">${prose(s)}</div></details>` : "");
+
 // ---------- English layer ----------
 // Three kinds of English, told apart by class:
 //   en--book  English the book itself prints (N2 usage, notes, can-do, titles, front matter): grey Gothic

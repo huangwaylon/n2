@@ -71,6 +71,25 @@ export const verticalOn = () => settings.vertical === "v" || (settings.vertical 
 // toolbars slide in and out; boxes sized from it then changed height under the reader. Taken again when the width changes
 let vw = innerWidth, vh = innerHeight;
 export const viewH = () => { if (innerWidth !== vw) { vw = innerWidth; vh = innerHeight; } return vh; };
+// vertical scrollers: a text only a little wider than the frame gets taller columns instead of a sideways scroll (up to
+// 80vh / 44em: the last columns were hidden behind the scroll fade, N1 ch4 (2)); the fade shows while more is hidden
+export function vtScrollInit(refit) {
+  $$(".vt-scroll").forEach((sc) => {
+    if (refit) { delete sc.dataset.fitH; sc.style.height = ""; }
+    if (!sc.dataset.fitH && sc.clientWidth) {
+      sc.dataset.fitH = 1;
+      const fs = parseFloat(getComputedStyle(sc).fontSize), max = Math.min(viewH() * 0.8, 44 * fs);
+      let h = sc.clientHeight;
+      while (sc.scrollWidth > sc.clientWidth + 1 && h + 2 * fs <= max) { h += 2 * fs; sc.style.height = `${h}px`; }
+      // the CSS height is in vh, which in-app iOS browsers may change as their toolbars slide in and out while the page
+      // scrolls (every box below would move): kept until the width changes, like viewH()
+      if (!sc.style.height) sc.style.height = getComputedStyle(sc).height;
+    }
+    const upd = () => sc.classList.toggle("has-more", sc.scrollWidth - sc.clientWidth + sc.scrollLeft > 4 && Math.abs(sc.scrollLeft) < sc.scrollWidth - sc.clientWidth - 4);
+    if (!sc.dataset.hint) { sc.dataset.hint = 1; sc.addEventListener("scroll", upd, { passive: true }); }
+    upd();
+  });
+}
 
 // keep the reader's place while a setting changes the page: the line being read (the innermost box across the top of
 // the view, under the top bar) stays where it was on screen. Keeping the top of the enclosing block instead moved the

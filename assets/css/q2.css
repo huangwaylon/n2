@@ -232,7 +232,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .qtbl { border-collapse: collapse; min-width: 100%; font-family: var(--goth); font-size: 15px; }
 .qtbl th, .qtbl td { border: 1px solid var(--line); padding: 6px 10px; vertical-align: middle; line-height: 1.8; text-align: left; }
 .qtbl th { background: var(--q-soft); font-weight: 700; }
-.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--right { text-align: right; } .qtbl .c--left { text-align: left; }
+.qtbl .c--hl { background: var(--q-soft); } .qtbl .c--gray { background: var(--q-gray); } .qtbl .c--frame > :is(.ja, .bk-en) { border: 1.5px solid currentColor; padding: 0 .3em; } .qtbl .c--center { text-align: center; } .qtbl .c--left { text-align: left; }
 /* grey row labels keep their words whole (p.049 ように / ことに); plain = the unfilled corner of a coloured head row (p.049);
    stripe = every second body row grey (p.107) */
 .qtbl .c--gray, .qtbl .c--gray .ja { word-break: keep-all; overflow-wrap: normal; } .qtbl th.c--plain { background: none; }
@@ -258,7 +258,7 @@ body[data-book] .cc-num { background: var(--q-fill); color: var(--q-on); }
 .w { margin-right: 18px; } .w:last-child { margin-right: 0; }
 .w__ja { display: inline-block; max-width: 100%; }   /* whole on its line; one longer than the line wraps (Q2 L11 at 320) */
 .w__ja { font-family: var(--mincho); }
-.w__en { font-family: var(--serif); color: var(--ink-2); font-size: 14px; white-space: normal; }
+.w__en { font-family: var(--mincho); color: var(--ink-2); font-size: 14px; white-space: normal; }
 .qfig { margin: 12px 0; padding: 10px 14px; border: 1.5px dashed var(--line); border-radius: 10px; }
 .qfig__tag { font: 700 12px/1 var(--goth); color: var(--ink-3); }
 .qfig__labels { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 6px 0; }
@@ -435,7 +435,7 @@ a.ref:hover u { background: var(--q-soft); }
 .gn-sub__n { display: inline-grid; place-items: center; min-width: 28px; height: 28px; background: var(--ink-2); color: var(--panel); border-radius: 4px; font-size: 16px; }
 .gn-key { background: var(--q-soft); padding: 10px 18px; margin: 0 0 12px; }
 .gn-key__i, .gn-key .exd__row { margin: 4px 0; }
-.gn-key .en--book { font-family: var(--serif); font-size: 14.5px; color: var(--ink); }
+.gn-key .en--book { font-family: var(--mincho); font-size: 14.5px; color: var(--ink); }
 .gn-exs { list-style: none; padding: 0; margin: 0 0 12px; }
 .gn-ex { display: grid; grid-template-columns: auto 1fr auto; gap: 0 .5em; margin: 6px 0; align-items: start; }
 .gn-ex > .exno { margin-top: .45em; font-size: .7em; }
@@ -496,7 +496,7 @@ a.ref:hover u { background: var(--q-soft); }
 .rei__b { min-width: 0; }
 .rei__m { font-family: var(--goth); }  /* ○ × △ in ink, as printed (Q1 p.012, Q2 p.009); × as large as ○ */
 .rei__m.ng { display: inline-block; transform: scale(1.4); }
-.rei .en--book { font-family: var(--serif); color: var(--ink); font-size: 14px; }
+.rei .en--book { font-family: var(--mincho); color: var(--ink); font-size: 14px; }
 
 /* ---------- strategies, units ---------- */
 .strat { margin: 30px 0; }
@@ -505,7 +505,7 @@ a.ref:hover u { background: var(--q-soft); }
 .strat__tools { position: absolute; right: 0; top: 0; }
 .strat__t { margin: 0; padding: 10px 16px; background: var(--q-soft-2); border-bottom: 2px solid var(--q); border-radius: 0 8px 8px 8px; font: 800 24px/1.4 var(--goth); }
 /* the strategy's own English (intro, notes under the examples) is set in serif ink, the box's points in Gothic (p.074) */
-.strat > .bk-en.qp, .strat > .qlist .bk-en { font: 16px/1.6 var(--serif); color: var(--ink); }
+.strat > .bk-en.qp, .strat > .qlist .bk-en { font: 16px/1.6 var(--mincho); color: var(--ink); }
 .strat__en, .unit-h .strat__en { font: 700 17px/1.4 var(--goth); color: var(--ink); }
 .unit-h { margin-bottom: 18px; }
 .unit-h__tag { display: inline-block; background: var(--ink-2); color: var(--panel); font: 700 14px/1 var(--goth); padding: 7px 16px; border-radius: 8px 8px 0 0; }
@@ -516,7 +516,7 @@ a.ref:hover u { background: var(--q-soft); }
 /* a unit's numbered headings print a plain accent "1." (Q1 p.206, Q2 pp.200, 202), not the lessons' boxed number */
 .unit .hd--num .hd-tag { display: inline-block; min-width: 0; height: auto; background: none; color: var(--q); box-shadow: none; font-size: inherit; }
 /* a unit's English explanations in serif ink (Q1 p.206, Q2 p.200); Quartet II's opening paragraph in Gothic (p.200) */
-.unit .sec-body > .bk-en.qp { font: 16px/1.65 var(--serif); color: var(--ink); }
+.unit .sec-body > .bk-en.qp { font: 16px/1.65 var(--mincho); color: var(--ink); }
 body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family: var(--goth); }
 /* …and their lettered sub-headings an ink title after a letter on a dark grey square (Q1 p.208 Ⓐ 伝聞, Q2 p.202) */
 .unit .hd--step { color: var(--ink); font-size: 19px; }
@@ -589,7 +589,7 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 .vl-k, .vl-ln { text-align: center; white-space: nowrap; font: 13px/1.9 var(--goth); color: var(--ink-2); }
 .vl-w { font-family: var(--mincho); }
 .vl-y { font-family: var(--mincho); color: var(--ink-2); }
-.vl-en { font-family: var(--serif); }
+.vl-en { font-family: var(--mincho); }
 @media (max-width: 600px) {
   .vl-t thead { display: none; }
   .vl-t tr { display: grid; grid-template-columns: 2.2em 1.4em 1.8em 1fr; padding: 4px 0; border-bottom: 1px solid var(--line); }
@@ -613,11 +613,11 @@ body[data-book="q2"] .unit .sec-body > .pg:first-child + .bk-en.qp { font-family
 .kj--hl .kj__big { background: var(--q-gray); outline: 3px solid var(--ink); }
 .kj__no { position: absolute; left: 4px; top: 2px; font: 12px/1 var(--goth); color: var(--ink-2); }
 .kj__k { font: 400 64px/1 var(--mincho); }
-.kj__m { grid-area: m; font: 15px/1.4 var(--serif); }
+.kj__m { grid-area: m; font: 15px/1.4 var(--mincho); }
 .kj__r { grid-area: r; display: flex; gap: 18px; font-size: 16px; line-height: 1.6; }
 .kj__w { grid-area: w; list-style: none; margin: 4px 0 0; padding: 6px 0 0; border-top: 1px dashed var(--line); font-size: 15px; line-height: 1.7; }
 .kj__mk { margin-right: .2em; }
-.kj__en { font-family: var(--serif); color: var(--ink-2); margin-left: .4em; font-size: 14px; }
+.kj__en { font-family: var(--mincho); color: var(--ink-2); margin-left: .4em; font-size: 14px; }
 .kj__s { grid-area: s; font: 12px/1.4 var(--goth); color: var(--ink-3); }
 /* wide: one kanji per row as printed (別冊 p.034): the kanji, meaning, readings (音 above 訓) and words side by side, the
    stroke count on a strip under them; neighbouring rows share their rule */

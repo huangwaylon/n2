@@ -28,7 +28,6 @@
      ascent every line with ruby grows in iOS Safari); Noto webfonts elsewhere (only downloaded where Hiragino is missing) */
   --goth: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, system-ui, sans-serif;
   --mincho: "Hiragino Mincho ProN", "Noto Serif JP", "Yu Mincho", serif;
-  --serif: var(--mincho); /* the old name, still used by q2.css */
   /* book design tokens (docs/LAYOUT.md §0.2) */
   --band: #e6e4e1;        /* grammar-point header band, table header tint */
   --band-edge: #6d7075;   /* thick left bar of the header band, chapter banner */

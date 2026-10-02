@@ -4,6 +4,7 @@
 import { ACT, TRY, $$, esc } from "../core.js";
 import { flashcards, redraw } from "../flash.js";
 import { en, enScopeBtn, enToggle, fmt, plain, speakBtn } from "../markup.js";
+import { allNotes, circ } from "./blocks.js";
 
 const vocabOf = (id) => TRY.vocab.find((v) => v.lesson === +id);
 const kanjiOf = (id) => TRY.kanji.find((k) => k.lesson === +id);
@@ -63,12 +64,10 @@ export function kanjiAllView() {
   return `<div class="page q2 kanji">
     <div class="page-head"><h1>漢字 <span class="en-inline">All kanji (${all.length})</span></h1></div>
     <input class="search" id="kj-search" type="search" aria-label="検索 Search" placeholder="検索 Search: 似, ジ, resemble …">
-    <div class="kj-mini">${all.map(({ k, l }) => `<a class="kj-chip" href="#/l/${l}/kanji" data-kj="${k.no}" data-s="${esc([k.k, ...(k.on || []), ...(k.kun || []), plain(k.meaning || "")].join(" ").toLowerCase())}"><span class="kj-chip__k">${esc(k.k)}</span><span class="kj-chip__n">${k.no}</span></a>`).join("")}</div></div>`;
+    <div class="kj-mini">${all.map(({ k, l }) => `<a class="kj-chip" href="#/l/${l}/kanji" data-s="${esc([k.k, ...(k.on || []), ...(k.kun || []), plain(k.meaning || "")].join(" ").toLowerCase())}"><span class="kj-chip__k">${esc(k.k)}</span><span class="kj-chip__n">${k.no}</span></a>`).join("")}</div></div>`;
 }
 
 // ---------- indexes (generated) ----------
-import { allNotes } from "./nav.js";
-import { circ } from "./blocks.js";
 export function indexView() {
   // ★ and the note's page as in the book's 文型・表現さくいん (Q2 p.246: ★〜つつある L7-1 2-009)
   // a note with sub-patterns prints its glosses on the subs (Q1 p.008 〜なら ① ② ③): the index lists them in order

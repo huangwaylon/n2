@@ -1,8 +1,7 @@
 // Quartet blocks, both books (q1, q2; data/Q2-SCHEMA.md "Blocks"): every lesson section, brush-up unit and front-matter section is a list
 // of typed blocks, rendered in book order. Interactive pieces (○×, choices, fill-in bubbles, compose) grade and save here.
-import { ACT, BOOK, $, $$, esc, isWide, progress, saveProgress, settings, verticalOn, viewH } from "../core.js";
-import { cdBadge, en, enScopeBtn, enToggle, fmt, listenBtn, otherBooksHtml, plain, speakBtn } from "../markup.js";
-import { deepHtml, vtScrollInit } from "../content.js";
+import { ACT, BOOK, TRY, $, $$, esc, noteKey, progress, saveProgress, verticalOn, viewH, vtScrollInit } from "../core.js";
+import { cdBadge, deepHtml, en, enScopeBtn, enToggle, fmt, listenBtn, otherBooksHtml, plain, speakBtn } from "../markup.js";
 
 // ---------- text ----------
 const norm = (t) => (t == null || t === "" ? null : typeof t === "string" ? { ja: t } : t);
@@ -52,6 +51,12 @@ export function wireTracks(root) {
 // ctx: { id: unique prefix for interactive items and anchors }; the exercise number counts per view, so an exercise
 // keeps its id (the key of its saved score) whichever page was shown before
 const seq = (ctx) => (ctx.seq = (ctx.seq || 0) + 1) - 1;
+// every 文型・表現ノート of the book with its lesson and section (nav.js sidebar counts and gn/ routes, lists.js index)
+export const allNotes = () => TRY.lessons.flatMap((l) => l.sections.flatMap((s) => {
+  const out = [];
+  (function walk(list) { (list || []).forEach((b) => { if (b && b.t === "note") out.push({ l, s, b }); else if (b) walk(b.blocks); }); })(s.blocks);
+  return out;
+}));
 export function blocks(list, ctx = {}) {
   // a run of memo boxes (the outlines a–d of Q2 p.095) sits two to a row as printed
   let out = "", memo = "";
@@ -341,7 +346,7 @@ function exBody(it, cls) {
 
 // ---------- grammar note ----------
 function noteHtml(b, ctx) {
-  const k = `n${ctx.lesson}-${b.no}`;
+  const k = noteKey(ctx.lesson, b.no);
   return `<article class="gn" id="gn-${esc(b.no)}" data-en-scope>
     <header class="gn-h">${b.star ? '<span class="gn-star" title="★ 使えるようになるべき文型・表現 (items to master for output)" aria-label="★">★</span>' : ""}<span class="gn-no">${esc(b.no)}.</span>
       <h3 class="gn-pat">${fmt(b.pattern)}</h3>${b.gloss ? `<span class="gn-gloss">〈${fmt(b.gloss)}〉</span>` : ""}
@@ -431,7 +436,7 @@ function readingHtml(b, ctx) {
   if (b.audio) QUEUES.set(b.audio, say);
   const credit = (b.credit || []).map((c) => `<p class="rd-credit">${fmt(c, { vertical: V })}</p>`).join("");
   const seg = b.vertical ? `<div class="seg" role="group" aria-label="縦書き・横書き">${[["v", "縦", "Vertical"], ["h", "横", "Horizontal"]].map(([m, j, e]) =>
-    `<button type="button" class="seg__b" data-act="q2vmode" data-v="${m}" aria-pressed="${(m === "v") === V}" title="${e}">${j}</button>`).join("")}</div>` : "";
+    `<button type="button" class="seg__b" data-act="vmode" data-v="${m}" aria-pressed="${(m === "v") === V}" title="${e}">${j}</button>`).join("")}</div>` : "";
   const head = b.style === "profile" ? (b.title ? `<header class="rd-h rd-h--profile"><span class="rd-h__t">${inl(b.title)}</span></header>` : "") : b.title || b.tag ? `<header class="rd-h">${b.tag !== false && b.n ? `<span class="rd-h__tag">${skillIcon("read")}読み物${esc(b.n)}</span>` : ""}${b.title ? `<span class="rd-h__t">${inl(b.title)}${b.titleTr ? en(b.titleTr, "gen", "span", "en-under") : ""}</span>` : ""}${b.author ? `<span class="rd-h__by">${fmt(b.author)}</span>` : ""}${audioBadge(b.audio)}</header>` : "";
   const text = `<div class="rd-body ja-book${nums ? " rd-body--nums" : ""}">${body}${V ? credit : ""}</div>`;
   const spw = b.speakers ? Math.max(...(b.lines || []).map((l) => (typeof l === "string" && l[0] === "¶" && (l.match(/^¶([^：]{1,8})：/) || [])[1]) || "").map((x) => plain(x).length)) + 1.4 : 0;
@@ -441,10 +446,6 @@ function readingHtml(b, ctx) {
     ${V ? "" : credit}
   </section>`;
 }
-ACT.q2vmode = (t) => {
-  settings.vertical = (t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v;
-  document.dispatchEvent(new CustomEvent("try:setting-vertical", { detail: t }));
-};
 
 // book line breaks where they fit: every printed line on one line (one column in 縦書き) → .rd-body--book; a 縦書き text
 // then gets a scroller exactly as tall as its longest column. Otherwise (narrow screens) the paragraphs reflow.

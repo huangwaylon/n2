@@ -4,7 +4,7 @@
 // l/7/vocab · l/7/kanji · u/c1 (上級へのチャレンジ ①) · u/k13 (漢字チャレンジ ⑬) · about · guide · index · kanji · drill
 import { ACT, BOOK, TRY, $, elText, esc, noteKey, progress, sectionAt, tally } from "../core.js";
 import { enScopeBtn, fmt, miniToc, pageHead, pager, plain } from "../markup.js";
-import { blocks, circ, inl, line, placeLineNos, placeRefNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
+import { allNotes, blocks, circ, inl, line, placeLineNos, placeRefNos, SKILLS, skillIcon, wireTracks } from "./blocks.js";
 import { vocabView, kanjiView, kanjiAllView, drillView, indexView } from "./lists.js";
 
 const SK = ["read", "write", "speak", "listen"];
@@ -23,11 +23,6 @@ function findIn(l, pred) {
   }
   return null;
 }
-export const allNotes = () => TRY.lessons.flatMap((l) => l.sections.flatMap((s) => {
-  const out = [];
-  (function walk(list) { (list || []).forEach((b) => { if (b && b.t === "note") out.push({ l, s, b }); else if (b) walk(b.blocks); }); })(s.blocks);
-  return out;
-}));
 
 // ---------- sidebar ----------
 // a lesson's theme: the book prints no lesson title, so the row shows the titles its opener leads with (読む・話す,

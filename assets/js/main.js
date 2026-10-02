@@ -2,10 +2,10 @@
 // Each book's page (index.html = N2, n1/, q1/, q2/) loads assets/js/boot.js and data/<book>/book.js first. What differs
 // per book (page links, sidebar, routes, views) is an adapter: TRY_BOOK below for the TRY books, assets/js/q2/nav.js for
 // Quartet I and II (book kind "quartet", loaded only on their pages).
-import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, elText, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, sectionAt, settings, studiedIn, tally, WIDE } from "./core.js";
+import { ACT, BOOK, BOOKS, SITE, TRY, TTS, $, $$, allPoints, chapterPoints, elText, esc, findPoint, isWide, keepPlace, loadProgress, placeBack, placeRec, progress, resume, saveProgress, saveResume, saveSettings, sectionAt, settings, studiedIn, tally, vtScrollInit, WIDE } from "./core.js";
 import { plain } from "./markup.js";
 import { fitRubies } from "./ruby.js";
-import { chapterView, rebuildVertical, vtScrollInit } from "./content.js";
+import { chapterView, rebuildVertical } from "./content.js";
 import { fitOptionCols } from "./exercises.js";
 import { aboutView, canDoView, compareView, drillView, guideView, homeView, indexView, notFound } from "./pages.js";
 import { filterVocab, vocabView } from "./vocab.js";
@@ -319,8 +319,6 @@ function setVertical(mode, back) {
 // pressing the mode that "auto" already gives keeps auto; otherwise the choice is pinned
 const vmodeOf = (t) => ((t.dataset.v === "v") === isWide() ? "auto" : t.dataset.v);
 ACT.vmode = (t) => setVertical(vmodeOf(t), keepPlace(t));
-// Quartet's switch (blocks.js ACT.q2vmode) sets settings.vertical, then sends this event with the clicked switch
-document.addEventListener("try:setting-vertical", (e) => setVertical(settings.vertical, keepPlace(e.detail)));
 function wireEvents() {
   document.addEventListener("click", (e) => {
     // close the ⚙ / book popovers on any click outside them
