@@ -4886,7 +4886,7 @@ compare.1.items.8.ex.ja	2,000万円からする宝石が{何者|なにもの}か
 compare.1.items.8.level	N1
 compare.1.items.8.no	107
 compare.1.items.8.pattern	〜からするN
-compare.1.items.9.ex.ja	{伊藤|いとう}氏は、個人で1億円からの{寄付|きふ}を申し出た。
+compare.1.items.9.ex.ja	{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。
 compare.1.items.9.level	N1
 compare.1.items.9.no	107
 compare.1.items.9.pattern	〜からのN
