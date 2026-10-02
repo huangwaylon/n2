@@ -3094,7 +3094,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。",
-        "tr": "Ask a senior student for advice about the two paths you thought about in 1) of \"1-1 Let's try\" (p.118)."
+        "tr": "Ask a senior student for advice about the two paths you thought about in 1) of “1-1. Let's try” (p. 118)."
        }
       }
      ]
@@ -3171,7 +3171,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.118) で考えた2つの{進路|しんろ}について、先輩に相談してみよう。",
-        "tr": "Ask a senior student for advice about the two paths you thought about in 1) of \"1-1 Let's try\" (p.118)."
+        "tr": "Ask a senior student for advice about the two paths you thought about in 1) of “1-1. Let's try” (p. 118)."
        }
       }
      ]
@@ -3386,7 +3386,7 @@ TRY.registerLesson({
      "id": "l4-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -4008,7 +4008,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）① (p. 124) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try it” (p. 124)."
+        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try” (p. 124)."
        }
       }
      ]
@@ -4085,7 +4085,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）② (p. 124) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try it” (p. 124)."
+        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try” (p. 124)."
        }
       }
      ]

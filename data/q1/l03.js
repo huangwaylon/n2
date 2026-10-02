@@ -2741,7 +2741,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.84)で考えた「変更①」を使って話してみよう。",
-        "tr": "Try talking using \"Change ①\" that you thought about in 1) of \"1-1 Let's try\" (p.84)."
+        "tr": "Try talking using “Change ①,” which you thought about in 1) of “1-1. Let's try” (p. 84)."
        }
       }
      ]
@@ -2813,7 +2813,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.84)で考えた「変更②」を使って話してみよう。",
-        "tr": "Try talking using \"Change ②\" that you thought about in 1) of \"1-1 Let's try\" (p.84)."
+        "tr": "Try talking using “Change ②,” which you thought about in 1) of “1-1. Let's try” (p. 84)."
        }
       }
      ]
@@ -2914,7 +2914,7 @@ TRY.registerLesson({
      "id": "l3-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3655,7 +3655,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）① (p. 90) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try it” (p. 90)."
+        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try” (p. 90)."
        }
       }
      ]
@@ -3776,7 +3776,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）② (p. 90) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try it” (p. 90)."
+        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try” (p. 90)."
        }
       }
      ]
@@ -4012,7 +4012,7 @@ TRY.registerLesson({
      "icon": "listen",
      "text": {
       "ja": "{富士|ふじ}登山の計画",
-      "tr": "Planning a Mt. Fuji climb"
+      "tr": "Planning a Mount Fuji climb"
      },
      "audio": "4.Chokai_L3-1",
      "id": "l3-c1",
@@ -4022,7 +4022,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "登山サークルのアンドレアと{研|けん}が、{富士山|ふじさん}のパンフレットを見ながら登山イベントの計画を立てています。会話を聞いて、この人たちが登るルートに○をつけなさい。",
-      "tr": "Andrea and Ken from the mountain-climbing club are planning a climbing event while looking at a pamphlet about Mt. Fuji. Listen to the conversation and mark the route they will climb with ○."
+      "tr": "Andrea and Ken from the mountain-climbing club are planning a climbing event while looking at a pamphlet about Mount Fuji. Listen to the conversation and mark the route they will climb with ○."
      }
     },
     {
@@ -4187,7 +4187,7 @@ TRY.registerLesson({
     },
     {
      "t": "figure",
-     "desc": "Diagram of Mt. Fuji with its four climbing routes to the summit: the Fujinomiya route on the upper left, the Gotemba route starting lowest on the left, the Subashiri route in the middle, and the Yoshida route on the right.",
+     "desc": "Diagram of Mount Fuji with its four climbing routes to the summit: the Fujinomiya route on the upper left, the Gotemba route starting lowest on the left, the Subashiri route in the middle, and the Yoshida route on the right.",
      "labels": [
       "{富士山|ふじさん}登山ルート",
       "{富士宮|ふじのみや}ルート",
@@ -4205,14 +4205,14 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "登山サークルのアンドレアと{研|けん}が、{富士山|ふじさん}のパンフレットを見ながら登山イベントの計画を立てています。会話を聞いて、この人たちが登るルートに○をつけなさい。",
-      "tr": "Andrea and Ken from the mountain-climbing club are planning a climbing event while looking at a pamphlet about Mt. Fuji. Listen to the conversation and mark the route they will climb with ○."
+      "tr": "Andrea and Ken from the mountain-climbing club are planning a climbing event while looking at a pamphlet about Mount Fuji. Listen to the conversation and mark the route they will climb with ○."
      },
      "lines": [
       {
        "sp": "{研|けん}",
        "v": "m",
        "ja": "そろそろ{富士|ふじ}登山のイベントの計画を立てないとね。",
-       "tr": "We'd better start planning the Mt. Fuji climbing event soon."
+       "tr": "We'd better start planning the Mount Fuji climbing event soon."
       },
       {
        "sp": "アンドレア",
