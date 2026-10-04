@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to my senpai, who introduced me to a job, it's been arranged for me to work in Japan."
+         "tr": "Thanks to my senpai introducing me to a job, it's been settled that I'll be able to work in Japan."
         },
         {
          "n": 2,

@@ -781,7 +781,7 @@ TRY.registerLesson({
           {
            "sp": "{青山|あおやま}",
            "ja": "日本で働きたい**なら**、敬語を勉強しておいたほうがいいよ。",
-           "tr": "If you want to work in Japan, you should study keigo (honorific language) beforehand."
+           "tr": "If you want to work in Japan, you'd better learn keigo (honorific language) ahead of time."
           }
          ]
         },
@@ -1061,7 +1061,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "うん。昨日初めてお話ししたんだけど、うわさで聞いていた**とおり**、優しい先生だったよ。",
-           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and the professor was just as kind as I'd heard."
+           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and they're just as kind as I'd heard."
           }
          ]
         },
@@ -1514,7 +1514,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "デザイナーになる**ための**学校に行くつもりです。",
-           "tr": "I'm planning to go to a school for becoming a designer."
+           "tr": "I'm planning to go to a school that trains people to become designers."
           }
          ]
         },

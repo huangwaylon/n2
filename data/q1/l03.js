@@ -792,7 +792,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "世界で有名な日本人の特徴は何でしょうか。",
-           "tr": "What trait of the Japanese people is famous around the world?"
+           "tr": "What trait are Japanese people known for around the world?"
           },
           {
            "sp": "B",
@@ -873,7 +873,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "体**にとって**重要なものの一つは、水だ。",
-         "tr": "One of the things that is important for the body is water."
+         "tr": "One thing that's important for the body is water."
         },
         {
          "n": 3,
@@ -1408,7 +1408,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{山田|やまだ}さんはまだ20歳だから、店長の仕事をさせることはできませんよね。",
-           "tr": "Yamada-san is only 20, so we can't really have Yamada-san do the store manager's job, can we?"
+           "tr": "Yamada-san is only 20, so we can't really give them the store manager's job, can we?"
           },
           {
            "sp": "B",
