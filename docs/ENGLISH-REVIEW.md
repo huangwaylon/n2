@@ -16,5 +16,5 @@ then explanations and deep-dives. Rules: `docs/ENGLISH.md`. Book English is neve
 | Q1 L3–4 | done (30 strings + 1 vocab) | |
 | Q1 L5–6, challenge, front | | |
 | Q2 L7–8 | | |
-| Q2 L9–10 | | |
+| Q2 L9–10 | done (~38 strings + 4 vocab) | |
 | Q2 L11–12, challenge, front | | |
