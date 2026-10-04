@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
     note: "Kanji 庇う, usually written in kana. Protecting someone from harm or blame (部下をかばう “cover for a subordinate”), or sparing an injured body part (痛めた足をかばって歩く). 守る is the general “protect”.",
-    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish.", at: "gp/30" },
     ex: [
       { ja: "{先輩|せんぱい}は、{失敗|しっぱい}した{私|わたし}を{上司|じょうし}の{前|まえ}で**かばって**くれた。", en: "My senior colleague stuck up for me in front of the boss when I made a mistake.", alt: ["{責|せ}めて", "{疑|うたが}って", "{避|さ}けて"] },
     ] },
@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "running the full distance; finishing (a race)",
     note: "完 (complete) + 走 (run): マラソンを完走する, 完走者 (finishers). Similar 完-words: 完成 (completion of a thing), 完了 (finishing a process), 完売 (selling out).",
     rx: ["かんぞう", "かんそ", "かんしょう"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish.", at: "gp/30" },
     ex: [
       { ja: "{初|はじ}めてのフルマラソンで、なんとか**{完走|かんそう}**できた。", en: "I managed to finish my first full marathon.", alt: ["{完成|かんせい}", "{逃走|とうそう}", "{完売|かんばい}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (give a round of applause), 大きな拍手が起こる, 拍手喝采 (cheers and applause). 握手 (handshake) is a common mix-up.",
     rx: ["はくしゅう", "ばくしゅ", "はくて"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running, favoring it, all the way to the finish.", at: "gp/30" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**が{起|お}こった。", en: "When the performance ended, the hall broke into loud applause.", alt: ["{握手|あくしゅ}", "{歌手|かしゅ}", "{拍子|ひょうし}"] },
     ] },
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "relocation; moving (of an office, shop or facility)",
     note: "An organization moving premises: 本社を移転する, 移転先 (new location), 店舗移転のお知らせ. A household move is 引っ越し; 移動 is moving from place to place.",
     rx: ["いでん", "いてんん", "うつてん"],
-    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the relocation of the head office, it has been decided that the latest computer system will be introduced.", at: "gp/33" },
+    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "Along with the relocation of the head office, the latest computer system is to be introduced.", at: "gp/33" },
     ex: [
       { ja: "{来月|らいげつ}、{当店|とうてん}は{駅前|えきまえ}に**{移転|いてん}**いたします。", en: "Next month our store will move to a location in front of the station.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移民|いみん}"] },
     ] },
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "collection; recovery; recall (of products)",
     note: "Gathering things back in: ごみ / アンケートを回収する, 製品の回収 (a product recall), 資金を回収する (recoup an investment). 収集 is collecting (as a hobby or of garbage by the city: ごみ収集).",
     rx: ["かいしゅ", "かいじゅう", "えしゅう"],
-    book: { ja: "工場などの{事業活動|じぎょうかつどう}（　）出るごみは、市では**{回収|かいしゅう}**しません。", en: "The city does not collect waste produced by business activities such as those of factories.", at: "gp/33" },
+    book: { ja: "工場などの{事業活動|じぎょうかつどう}（　）出るごみは、市では**{回収|かいしゅう}**しません。", en: "The city does not collect waste produced by factories and other business activities.", at: "gp/33" },
     ex: [
       { ja: "{欠陥|けっかん}が{見|み}つかったため、メーカーは{製品|せいひん}を**{回収|かいしゅう}**している。", en: "A defect was found, so the manufacturer is recalling the product.", alt: ["{回復|かいふく}", "{吸収|きゅうしゅう}", "{回転|かいてん}"] },
     ] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "large; substantial; drastic (change or amount)",
     note: "Mostly 大幅に + verb or 大幅な + noun: 大幅に遅れる (be badly delayed), 大幅に増える, 大幅な値下げ. Note the reading おおはば (kun-reading), not だいはば.",
     rx: ["だいはば", "おおはぱ", "たいふく"],
-    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the long delay to this flight's departure, which was caused by a safety check of the emergency doors at the time of departure.", at: "gp/36" },
+    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize that this flight's departure has been significantly delayed by a safety check of the emergency doors carried out at departure.", at: "gp/36" },
     ex: [
       { ja: "{事故|じこ}の{影響|えいきょう}で、{電車|でんしゃ}のダイヤが**{大幅|おおはば}**に{乱|みだ}れている。", en: "Because of the accident, the train schedule is badly disrupted.", alt: ["{大量|たいりょう}", "{大声|おおごえ}", "{大型|おおがた}"] },
     ] },
@@ -626,7 +626,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "reform; transformation; fundamental change",
     note: "A sweeping change to a system or society: 変革を迫られる (be pressed to change), 社会の変革, 意識変革. 改革 is reform of a system by deliberate action (政治改革); 変化 is change in general.",
     rx: ["へんが", "へんかっく", "へんかわ"],
-    book: { ja: "{時代|じだい}の{変化|へんか}[1]、大学も大きく**{変革|へんかく}**を{迫|せま}られております。", en: "Along with the changes of the times, universities too are being pressed to transform greatly.", at: "ch/4/review" },
+    book: { ja: "{時代|じだい}の{変化|へんか}[1]、大学も大きく**{変革|へんかく}**を{迫|せま}られております。", en: "As the times change, universities too are under pressure to undergo major reform.", at: "ch/4/review" },
     ex: [
       { ja: "インターネットは、{私|わたし}たちの{働|はたら}き{方|かた}に{大|おお}きな**{変革|へんかく}**をもたらした。", en: "The internet brought about a major transformation in the way we work.", alt: ["{変装|へんそう}", "{返却|へんきゃく}", "{変身|へんしん}"] },
     ] },
@@ -634,7 +634,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "press (for); urge; approach, draw near",
     note: "Two main uses: pressing someone (〜を迫る / 迫られる “be pressed to ~”: 決断を迫られる) and time or danger closing in (締め切りが迫る, 危険が迫る). 近づく is the neutral “approach”.",
     rx: ["はくる", "せまい", "せめる"],
-    book: { ja: "{時代|じだい}の{変化|へんか}[1]、大学も大きく{変革|へんかく}を**{迫|せま}られ**ております。", en: "Along with the changes of the times, universities too are being pressed to transform greatly.", at: "ch/4/review" },
+    book: { ja: "{時代|じだい}の{変化|へんか}[1]、大学も大きく{変革|へんかく}を**{迫|せま}られ**ております。", en: "As the times change, universities too are under pressure to undergo major reform.", at: "ch/4/review" },
     ex: [
       { ja: "{締|し}め{切|き}りが**{迫|せま}って**いるので、{週末|しゅうまつ}も{仕事|しごと}をした。", en: "The deadline was closing in, so I worked over the weekend too.", alt: ["{攻|せ}めて", "{責|せ}めて", "{縮|ちぢ}んで"] },
     ] },
@@ -642,7 +642,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "discussion; debate; argument (exchange of views)",
     note: "Exchanging opinions to reach a conclusion: 議論する, 議論を重ねる (hold repeated discussions), 議論になる, 活発な議論. 討論 is a formal debate; 口論 is a quarrel; 結論 is a conclusion.",
     rx: ["ぎろう", "ぎりん", "きろん"],
-    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]**{議論|ぎろん}**を{重|かさ}ねてまいりました。", en: "At our school as well, we have held discussions over many years toward opening a new faculty.", at: "ch/4/review" },
+    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]**{議論|ぎろん}**を{重|かさ}ねてまいりました。", en: "Here at our school, too, we have held discussions over many years with a view to opening a new faculty.", at: "ch/4/review" },
     ex: [
       { ja: "{会議|かいぎ}では、{新|あたら}しい{制度|せいど}について{活発|かっぱつ}な**{議論|ぎろん}**が{交|か}わされた。", en: "At the meeting there was a lively discussion about the new system.", alt: ["{理論|りろん}", "{結論|けつろん}", "{会議|かいぎ}"] },
     ] },
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "pile up; stack; repeat; accumulate",
     note: "Transitive (the intransitive is 重なる): 本を重ねる (stack books), 議論 / 努力 / 経験を重ねる (discuss / work / gain experience again and again), 年を重ねる (grow older).",
     rx: ["じゅうねる", "かさぬる", "かせねる"],
-    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を**{重|かさ}ね**てまいりました。", en: "At our school as well, we have held discussions over many years toward opening a new faculty.", at: "ch/4/review" },
+    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を**{重|かさ}ね**てまいりました。", en: "Here at our school, too, we have held discussions over many years with a view to opening a new faculty.", at: "ch/4/review" },
     ex: [
       { ja: "{何度|なんど}も{失敗|しっぱい}を**{重|かさ}ねて**、ようやく{成功|せいこう}した。", en: "After failing again and again, I finally succeeded.", alt: ["{重|おも}んじて", "{積|つ}もって", "{抱|だ}えて"] },
     ] },
@@ -658,7 +658,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "conviction; firm belief; confidence (that something is so)",
     note: "Being sure that something is true or will happen: 〜と確信する, 確信を持つ, 確信がある. 自信 is confidence in oneself; 確認 is checking or confirming.",
     rx: ["かくしんん", "かっしん", "かくじん"],
-    book: { ja: "その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと**{確信|かくしん}**しています。", en: "I am confident that you, who have entered as its very first class, will grow greatly together with the newly born Faculty of International Studies.", at: "ch/4/review" },
+    book: { ja: "その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと**{確信|かくしん}**しています。", en: "I am confident that you, who have entered as its very first class, will grow a great deal together with the newly founded Faculty of International Studies.", at: "ch/4/review" },
     ex: [
       { ja: "{彼|かれ}の{話|はなし}を{聞|き}いて、{彼|かれ}は{犯人|はんにん}ではないと**{確信|かくしん}**した。", en: "After hearing his story, I was convinced that he was not the culprit.", alt: ["{自信|じしん}", "{革新|かくしん}", "{確保|かくほ}"] },
     ] },
@@ -666,7 +666,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "regret; remorse",
     note: "Mostly in set phrases: 悔いのない〜 (with no regrets), 悔いが残る (leave regrets), 悔いはない. From 悔いる (to repent). 後悔 is the usual noun / する verb; 悔しい means frustrated or vexed.",
     rx: ["かい", "くやい", "ぐい"],
-    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "Everyone, please spend your student days in a way you will not regret.", at: "ch/4/review" },
+    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "Everyone, please make your student life one you will not regret.", at: "ch/4/review" },
     ex: [
       { ja: "{最後|さいご}まで{全力|ぜんりょく}を{尽|つ}くしたので、**{悔|く}い**はない。", en: "I gave it everything I had right to the end, so I have no regrets.", alt: ["{恐|おそ}れ", "{痛|いた}み", "{望|のぞ}み"] },
     ] },
