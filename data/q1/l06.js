@@ -484,7 +484,7 @@ TRY.registerLesson({
       "I am against early English education. I will give three reasons.",
       "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may be unable to express their thoughts well in either language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
       "Also, few children study English of their own free will. In my case too, when I was a child my parents told me to go to an English cram school, and I was made to study against my will. Speaking from that experience, there is no point in forcing children who don't want to learn English to do it. It only increases the number of children who dislike English. I think it's better to wait until children start to become interested in English.",
-      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but after it was decided that they would go to Canada for work, they started studying in earnest and improved amazingly. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
+      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but after learning they would be going to Canada for work, they started studying in earnest and improved to an astonishing degree. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
       "For the reasons above, I maintain that early English education is not necessarily needed."
      ],
      "headTr": [
@@ -647,7 +647,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "私は大学生はアルバイトをしたほうがいいと思う。==理由は2つある==。**まず**、__アルバイトをすると、学生以外の人と知り合う機会が増える__。違う年代の人や様々な経験を持つ人と付き合うことで、視野が広がるのではないだろうか。**また**、__時間の使い方も学ぶことができる__。勉強と仕事のバランスを取るのは難しいが、うまく時間が使えるようになれば、社会に出てからきっと役に立つだろう。",
-        "tr": "I think university students should work part-time jobs. There are two reasons. First, working part-time increases your opportunities to get to know people other than students. Wouldn't spending time with people of different ages and with various experiences broaden your horizons? Also, you can learn how to manage your time. Balancing study and work is difficult, but if you become able to use your time well, it will surely be useful once you go out into the working world."
+        "tr": "I think university students should work part-time jobs. There are two reasons. First, working part-time increases your opportunities to get to know people other than students. Wouldn't spending time with people of different ages and with various experiences broaden your horizons? Also, you can learn how to manage your time. Balancing study and work is difficult, but if you learn to use your time well, it will surely be useful once you start working."
        }
       },
       {
@@ -1229,7 +1229,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "母親は嫌**がって**いる子どもに{野菜|やさい}を食べさせた。",
-         "tr": "The mother made her child eat vegetables despite the child's protests."
+         "tr": "The mother made her reluctant child eat vegetables."
         },
         {
          "n": 3,
@@ -1396,7 +1396,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "高いところに置いてあった物を取ろ**うとして**、いすから{落|お}ちてしまった。",
-         "tr": "I tried to get something that had been put up high, and I fell off the chair."
+         "tr": "I tried to get down something that had been put up high and ended up falling off the chair."
         },
         {
          "n": 4,
@@ -1910,7 +1910,7 @@ TRY.registerLesson({
           {
            "sp": "妹",
            "ja": "あっ、お姉ちゃん、またお皿を{洗|あら}っていないよ！",
-           "tr": "Hey, sis, you didn't wash your dishes again!"
+           "tr": "Oh no, my sister didn't wash her dishes again!"
           },
           {
            "sp": "母",
@@ -2220,7 +2220,7 @@ TRY.registerLesson({
         {
          "mark": "×",
          "ja": "友達に服を貸したら、__せっかく__クリーニングをして返してくれた。",
-         "tr": "(Incorrect) Intended: \"When I lent some clothes to a friend, she took the trouble to get them dry-cleaned before returning them to me.\""
+         "tr": "(Incorrect) Intended: \"When I lent some clothes to a friend, the friend took the trouble to have them dry-cleaned before giving them back.\""
         }
        ]
       }
@@ -2279,7 +2279,7 @@ TRY.registerLesson({
      ],
      "tr": [
       "It has been three months since I came to Japan. Now that I am actually living here, I notice all kinds of differences between Japan and Korea. Of these, the one that bothers me most is disposable chopsticks.",
-      "At restaurants in Korea, people wash metal chopsticks and use them over and over. In Japan, however, I noticed that restaurants often use wooden disposable chopsticks. Izakayas, ramen shops, Japanese restaurants — disposable chopsticks are set out in all kinds of places. Japan cares about the environment, so why does it still use disposable chopsticks? A Japanese friend of mine said, \"Disposable chopsticks are good because they're new and clean.\" It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can be thrown away as they are without washing, they may be convenient for the restaurant as well. However, isn't it wasteful to throw away chopsticks made from wood after using them just once?",
+      "At restaurants in Korea, people wash metal chopsticks and use them over and over. In Japan, however, I noticed that restaurants often use wooden disposable chopsticks. Izakayas, ramen shops, Japanese restaurants — disposable chopsticks are set out in all kinds of places. Japan values the environment, so why does it use disposable chopsticks? A Japanese friend of mine said, \"Disposable chopsticks are good because they're new and clean.\" It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can be thrown away as they are without washing, they may be convenient for the restaurant as well. However, isn't it wasteful to throw away chopsticks made from wood after using them just once?",
       "Disposable chopsticks are a waste of resources, so I think we should use chopsticks that can be washed and used again and again."
      ],
      "headTr": [
@@ -2855,7 +2855,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❺うん。**よろしくね。でも、僕も**{窓|まど}をよく開けっぱなしで出かけちゃうことがあるから、**人のことは言えないんだけどね。**",
-       "tr": "Okay, I'd appreciate it. But I often go out and leave the window open myself, so I'm in no position to criticize."
+       "tr": "Okay, I'd appreciate it. But I often go out and leave the window open myself, so I'm not one to talk."
       },
       {
        "sp": "研",
@@ -3031,7 +3031,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "うん、**よろしくね。でも、私も**{窓|まど}をよく\n開けっぱなしで出かけちゃうから、**人の**\n**ことは言えないんだけどね。**",
-        "tr": "Okay, I'd appreciate it. But I often go out and leave the window open myself, so I'm in no position to criticize."
+        "tr": "Okay, I'd appreciate it. But I often go out and leave the window open myself, so I'm not one to talk."
        }
       }
      ]
@@ -3193,7 +3193,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❺うん、**よろしくね。でも、私も人のことは言えないんだけどね。**",
-         "tr": "Okay, I'd appreciate it. But I'm in no position to criticize either."
+         "tr": "Okay, I'd appreciate it. But I'm not one to talk either."
         }
        ]
       }
@@ -4863,7 +4863,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "はっきり言ったほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせるからです。",
-        "tr": "Because if people say things clearly, there are no misunderstandings, and everyone can get along comfortably."
+        "tr": "Because if people say things clearly, there are no misunderstandings, and everyone can feel at ease with each other."
        }
       }
      ]
@@ -4941,7 +4941,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "この間、日本人のルームメートの言いたいことがわからなくて、少し嫌な思いをしました。その日は暑かったので、私は{窓|まど}を開けて出かけました。部屋に帰った時、ルームメートに「出かける時は窓を{閉|し}めたほうがいい__んじゃない__？」と言われたのですが、私はただのアドバイスだと思い、あまり気にしていませんでした。そして、次の日も暑かったので、窓を開けた__まま__出かけました。その晩ルームメートは少し怒って「{昨日|きのう}、窓を閉めてから出かける__ように頼んだ__のに、なんで窓を開けた__まま__出かけたの？」と言いました。ルームメートの「閉めたほうがいい__んじゃない__？」というのは「閉めて」という注意の意味だったのです。",
-       "tr": "The other day, I didn't understand what my Japanese roommate was trying to say, which made for a slightly unpleasant experience. It was hot that day, so I went out with the window open. When I got back to our room, my roommate said to me, “Shouldn't you close the window when you go out?” But I thought it was just advice and didn't pay much attention to it. Then, since it was hot the next day too, I went out leaving the window open. That night my roommate got a little angry and said, “I asked you yesterday to close the window before going out, so why did you go out leaving it open?” When my roommate said “Shouldn't you close it?”, it was actually a warning that meant “Close it.”"
+       "tr": "The other day, I had a slightly unpleasant experience because I didn't understand what my Japanese roommate meant. It was hot that day, so I went out with the window open. When I got back to our room, my roommate said to me, “Shouldn't you close the window when you go out?” But I thought it was just advice and didn't pay much attention to it. Then, since it was hot the next day too, I went out leaving the window open. That night my roommate got a little angry and said, “I asked you yesterday to close the window before going out. Why did you go out and leave it open anyway?” When my roommate said “Shouldn't you close it?”, it was actually a warning that meant “Close it.”"
       },
       {
        "sp": "",
@@ -4953,7 +4953,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "注意する時は少し言いにくくても、はっきり言ってくれたほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせると思います。みなさんだったら、ルームメートにどのように注意しますか。",
-       "tr": "When pointing something out, even if it's a little hard to say, I think it's better if people say it clearly, because then there are no misunderstandings and both sides can get along comfortably. What about all of you? How would you tell your roommate?"
+       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and everyone can feel at ease with each other. What about all of you? How would you tell your roommate?"
       }
      ]
     }
