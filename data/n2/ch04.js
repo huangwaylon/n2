@@ -484,7 +484,7 @@ TRY.registerChapter({
               { sp: "", ja: "男の人が話しています。{東西線|とうざいせん}について、正しい{情報|じょうほう}はどれですか。" },
               { sp: "M", v: "m", ja: "皆様、ご{迷惑|めいわく}をおかけいたしまして、{誠|まこと}に{申|もう}し{訳|わけ}ございません。ただ今{東西線|とうざいせん}は{信号故障|しんごうこしょう}のため、{全線|ぜんせん}にわたって運転を{見合|みあ}わせております。安全が{確認|かくにん}され{次第|しだい}、運転を{再開|さいかい}いたしますので、しばらくお待ちください。" },
             ],
-            en: ["A man is speaking. Which information about the Tozai Line is correct?", "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, service on the Tozai Line is currently suspended along the entire line. Service will resume as soon as safety has been confirmed, so please wait a while."],
+            en: ["A man is speaking. Which information about the Tozai Line is correct?", "Ladies and gentlemen, we sincerely apologize for the inconvenience. Due to a signal failure, service on the Tozai Line is currently suspended along the entire line. Service will resume as soon as safety has been confirmed, so please wait a little while."],
             options: ["{地震|じしん}で{故障|こしょう}した", "{今|いま}、{動|うご}いていない", "{安全|あんぜん}が{確認|かくにん}された", "{運転|うんてん}を{再開|さいかい}した"],
             optionsEn: ["It broke down because of an earthquake", "It isn't running right now", "Its safety has been confirmed", "Service has resumed"],
             answer: 1,

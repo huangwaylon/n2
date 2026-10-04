@@ -289,7 +289,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows how hard I worked." },
-            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to say goodbye to my best friend because one of my parents was transferred. I can't tell you how sad I was." },
+            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to say goodbye to my best friend because of a parent's job transfer. I can't tell you how sad I was." },
             { ja: "言葉が通じない外国で病気になって、どれほど{心細|こころぼそ}かったことか。あのときの{看護師|かんごし}さんには今でも{感謝|かんしゃ}しています。", en: "I can't tell you how helpless I felt when I got sick in a foreign country where I couldn't make myself understood. I'm still grateful to the nurse who looked after me then." },
             { ja: "{週末|しゅうまつ}、台風が来そうで{心配|しんぱい}だ。運動会が中止になったら、楽しみにしている{娘|むすめ}がどんなにがっかりすることか。", en: "I'm worried a typhoon might hit this weekend. If sports day is canceled, I can't imagine how disappointed my daughter will be. She's been so looking forward to it." },
           ],

@@ -180,7 +180,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "It's not as if studying today means you don't have to study tomorrow." },
-            { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "Nor is marriage simply a matter of being in love." },
+            { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "It's not as if love is all a marriage needs, either." },
             { ja: "{泥棒|どろぼう}の{被害|ひがい}は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "It's not as if locking your door is enough to prevent burglary." },
             { ja: "日本での{就職|しゅうしょく}には日本語能力試験N1{合格|ごうかく}が{必要|ひつよう}だと思われているが、なければだめだというものでもない。", en: "People think you need to pass JLPT N1 to get a job in Japan, but it's not as if you can't get one without it." },
           ],

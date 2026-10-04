@@ -144,7 +144,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "fond of looking after others; helpful (sometimes meddlesome)",
     note: "Someone who loves taking care of people and doing things for them: 世話好きなおばさん. From 世話 (care) + 好き, with 好き voiced to ずき as in 話し好き (talkative). お節介 is the negative “busybody”.",
     rx: ["せわこのみ", "せわすき", "よわずき"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "My impression is that in any country, compared with people in the city, people in the countryside are more often kind and happy to look after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "My impression is that in any country, people in the countryside, compared with city people, tend to be kinder and more willing to look after others.", at: "gp/50" },
     ex: [
       { ja: "{隣|となり}のおばさんは**{世話|せわ}{好|ず}き**で、よくおかずを{分|わ}けてくれる。", en: "The lady next door loves looking after people and often shares her side dishes with us.", alt: ["{物|もの}{好|ず}き", "{不器用|ぶきよう}", "{意地悪|いじわる}"] },
     ] },
@@ -152,7 +152,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "impression",
     note: "印象がいい / 悪い, 第一印象 (first impression), 印象に残る (be memorable), 印象的 (striking). 〜という印象がある = “I have the impression that ~”.",
     rx: ["いんぞう", "いんしょ", "いんじょう"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "My impression is that in any country, compared with people in the city, people in the countryside are more often kind and happy to look after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "My impression is that in any country, people in the countryside, compared with city people, tend to be kinder and more willing to look after others.", at: "gp/50" },
     ex: [
       { ja: "{面接|めんせつ}では{第一|だいいち}**{印象|いんしょう}**がとても{大切|たいせつ}だ。", en: "In an interview, first impressions are very important.", alt: ["{現象|げんしょう}", "{対象|たいしょう}", "{印刷|いんさつ}"] },
     ] },
@@ -246,7 +246,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "misunderstanding",
     note: "誤解する, 誤解される, 誤解を招く (invite misunderstanding), 誤解を解く (clear it up). 勘違い is a casual “mistaken idea” in one's own head; 誤解 is often about someone's words or intentions.",
     rx: ["ごげ", "ごうかい", "こかい"],
-    book: { ja: "それは**{誤解|ごかい}**というものですよ。", en: "That's a misunderstanding.", at: "gp/52" },
+    book: { ja: "それは**{誤解|ごかい}**というものですよ。", en: "That's simply a misunderstanding.", at: "gp/52" },
     ex: [
       { ja: "{言葉|ことば}が{足|た}りなくて、{友人|ゆうじん}に**{誤解|ごかい}**されてしまった。", en: "I didn't explain myself well enough, and my friend misunderstood me.", alt: ["{理解|りかい}", "{分解|ぶんかい}", "{後悔|こうかい}"] },
     ] },
