@@ -6,7 +6,7 @@ then explanations and deep-dives. Rules: `docs/ENGLISH.md`. Book English is neve
 
 | Unit | Round 1 (rewrite) | Round 2 (cross-review) |
 |---|---|---|
-| N2 ch01–05 | | |
+| N2 ch01–05 | done (52 strings + 3 vocab; book typos noted: #10, #34 usage, #37 note) | |
 | N2 ch06–10 | | |
 | N2 ch11–14, compare | done (35 strings + 11 vocab; compare 2) | |
 | N1 ch01–04 | done (38 strings; deepDives read, not rewritten) | |
