@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "full (of people); packed; filled to capacity",
     note: "満員電車 (a packed train), 満員になる, 満員御礼 (a full house, in sumo and theater). 満席 means every seat is taken; 混雑 is crowding in general.",
     rx: ["まんえん", "まいん", "もういん"],
-    book: { ja: "**{満員|まんいん}**電車にストレスを感じない人はいるまい。", en: "Surely there is no one who doesn't feel stressed on a packed train.", at: "ch/10" },
+    book: { ja: "**{満員|まんいん}**電車にストレスを感じない人はいるまい。", en: "Surely no one rides a packed train without feeling stressed.", at: "ch/10" },
     ex: [
       { ja: "{人気|にんき}の{映画|えいが}で、{映画館|えいがかん}は**{満員|まんいん}**だった。", en: "It was a popular movie, so the theater was packed.", alt: ["{全員|ぜんいん}", "{満点|まんてん}", "{満月|まんげつ}"] },
     ] },
@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "commuting (to work)",
     note: "通勤電車, 通勤時間, 電車で通勤する, 通勤ラッシュ. Students 通学; 出勤 is reporting for work (出勤日, 出勤時間).",
     rx: ["つうぎん", "とうきん", "つきん"],
-    book: { ja: "朝の**通勤**電車の{混雑|こんざつ}はつらいものがある。", en: "There is something hard about the crush of the morning commuter train.", at: "ch/10" },
+    book: { ja: "朝の**通勤**電車の{混雑|こんざつ}はつらいものがある。", en: "There is something hard to bear about the crush on the morning commuter train.", at: "ch/10" },
     ex: [
       { ja: "{家|いえ}から{会社|かいしゃ}まで、**{通勤|つうきん}**に1{時間|じかん}かかる。", en: "My commute from home to the office takes an hour.", alt: ["{転勤|てんきん}", "{勤務|きんむ}", "{通訳|つうやく}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "congestion; crowding; crush (of people)",
     note: "駅が混雑する, 混雑を避ける, 混雑時 / 混雑状況. Formal and used in announcements; in conversation 混む / 混んでいる. 渋滞 is specifically a traffic jam.",
     rx: ["こんさつ", "こんざい", "こうざつ"],
-    book: { ja: "朝の通勤電車の**{混雑|こんざつ}**はつらいものがある。", en: "There is something hard about the crush of the morning commuter train.", at: "ch/10" },
+    book: { ja: "朝の通勤電車の**{混雑|こんざつ}**はつらいものがある。", en: "There is something hard to bear about the crush on the morning commuter train.", at: "ch/10" },
     ex: [
       { ja: "{連休中|れんきゅうちゅう}の{観光地|かんこうち}は、どこも**{混雑|こんざつ}**している。", en: "Tourist spots are crowded everywhere during the long weekend.", alt: ["{複雑|ふくざつ}", "{雑談|ざつだん}", "{混合|こんごう}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to resonate; to echo; to ring out; to affect (have repercussions)",
     note: "音 / 声が響く (echo, ring out), 心に響く (strike a chord), 体に響く (take a toll on the body). The noun is 響き; the kanji also appears in 影響 (influence).",
     rx: ["ひびつく", "きょうく", "ひひく"],
-    book: { ja: "世界中で{大|だい}ヒットした歌には、{世代|せだい}を{超|こ}えて{人々|ひとびと}の心に**{響|ひび}く**ものがある。", en: "Songs that became huge hits around the world have something that resonates in people's hearts across generations.", at: "gp/92" },
+    book: { ja: "世界中で{大|だい}ヒットした歌には、{世代|せだい}を{超|こ}えて{人々|ひとびと}の心に**{響|ひび}く**ものがある。", en: "Songs that become huge hits around the world have something about them that touches people's hearts across generations.", at: "gp/92" },
     ex: [
       { ja: "{静|しず}かな{教会|きょうかい}に、パイプオルガンの{音|おと}が**{響|ひび}いた**。", en: "The sound of the pipe organ echoed through the quiet church.", alt: ["{輝|かがや}いた", "{叩|たた}いた", "{描|えが}いた"] },
     ] },
@@ -343,7 +343,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "さっさと", lv: "N2", pos: "adverb",
     en: "quickly; promptly; without wasting time (sometimes curtly)",
     note: "さっさと帰る / 片付ける; as a command, さっさとしなさい (hurry up!). Suggests briskness or impatience, unlike neutral 早く.",
-    book: { ja: "5時になるかならないかのうちに、彼は**さっさと**帰り{仕度|じたく}を始めた。", en: "It had barely turned five o'clock when he briskly started getting ready to go home.", at: "gp/96" },
+    book: { ja: "5時になるかならないかのうちに、彼は**さっさと**帰り{仕度|じたく}を始めた。", en: "It had barely turned five when he promptly started packing up to go home.", at: "gp/96" },
     ex: [
       { ja: "{文句|もんく}ばかり{言|い}っていないで、**さっさと**{宿題|しゅくだい}を{終|お}わらせなさい。", en: "Stop complaining and hurry up and finish your homework.", alt: ["ぞっと", "じっと", "ほっと"] },
     ] },
@@ -351,7 +351,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "preparation; getting ready",
     note: "More often written 支度. 帰り仕度 (getting ready to leave; じたく by sound change), 身支度 (getting dressed), 夕飯の支度 (getting dinner ready). 準備 is more general and formal.",
     rx: ["しど", "しだく", "しったく"],
-    book: { ja: "5時になるかならないかのうちに、彼はさっさと帰り**{仕度|じたく}**を始めた。", en: "It had barely turned five o'clock when he briskly started getting ready to go home.", at: "gp/96" },
+    book: { ja: "5時になるかならないかのうちに、彼はさっさと帰り**{仕度|じたく}**を始めた。", en: "It had barely turned five when he promptly started packing up to go home.", at: "gp/96" },
     ex: [
       { ja: "{早|はや}く**{仕度|したく}**しないと、{学校|がっこう}に{遅|おく}れるよ。", en: "If you don't hurry up and get ready, you'll be late for school.", alt: ["{仕事|しごと}", "{支持|しじ}", "{仕方|しかた}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "main character; protagonist; hero(ine)",
     note: "物語 / 映画 / 小説の主人公. 主役 is the leading role or actor; 主人 alone means husband or master.",
     rx: ["しゅうじんこう", "しゅじんおう", "しゅにんこう"],
-    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
     ex: [
       { ja: "この{小説|しょうせつ}の**{主人公|しゅじんこう}**は、{東京|とうきょう}に{住|す}む{高校生|こうこうせい}だ。", en: "The main character of this novel is a high school student living in Tokyo.", alt: ["{主催者|しゅさいしゃ}", "{出版社|しゅっぱんしゃ}", "{著作権|ちょさくけん}"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to smile (gently)",
     note: "Written/literary; in conversation にっこりする or 笑う. Noun 微笑み (also 微笑, びしょう). 笑う also covers laughing out loud.",
     rx: ["びしょうむ", "ほほむ", "ほおえむ"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
     ex: [
       { ja: "{赤|あか}ちゃんが{母親|ははおや}を{見|み}て、にっこり**{微笑|ほほえ}んだ**。", en: "The baby looked at its mother and gave a sweet smile.", alt: ["{励|はげ}んだ", "{悩|なや}んだ", "{睨|にら}んだ"] },
     ] },
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "memorable; striking; impressive",
     note: "印象的な場面 / 言葉 / 目. 印象 is an impression (第一印象, first impression; 印象に残る, stay in one's mind). 感動的 is moving, touching.",
     rx: ["いんぞうてき", "いんしょうでき", "いんしょてき"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
     ex: [
       { ja: "{彼女|かのじょ}の{大|おお}きな{瞳|ひとみ}が、とても**{印象的|いんしょうてき}**だった。", en: "Her big eyes were very striking.", alt: ["{一時的|いちじてき}", "{部分的|ぶぶんてき}", "{経済的|けいざいてき}"] },
     ] },
@@ -492,7 +492,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(fire) to spread",
     note: "火が燃え広がる; 延焼 is the formal term for a fire spreading to other buildings. 燃える (burn) + 広がる (spread).",
     rx: ["もえびろがる", "ねんえひろがる", "もえこうがる"],
-    book: { ja: "工場でドンと大きな音がしたかと思うと、{真|ま}っ{赤|か}な火が**{燃|も}え{広|ひろ}がった**。", en: "There was a loud bang at the factory, and immediately bright red flames spread.", at: "gp/99" },
+    book: { ja: "工場でドンと大きな音がしたかと思うと、{真|ま}っ{赤|か}な火が**{燃|も}え{広|ひろ}がった**。", en: "A loud boom came from the factory, and the next moment bright red flames were spreading.", at: "gp/99" },
     ex: [
       { ja: "{強|つよ}い{風|かぜ}のため、{火|ひ}はあっという{間|ま}に{周|まわ}りの{家|いえ}に**{燃|も}え{広|ひろ}がった**。", en: "Because of the strong wind, the fire quickly spread to the surrounding houses.", alt: ["{燃|も}え{尽|つ}きた", "{立|た}ち{上|あ}がった", "{盛|も}り{上|あ}がった"] },
     ] },
@@ -556,7 +556,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "Japanese plum (apricot); plum blossoms",
     note: "梅の花 blooms in February–March, before the cherry blossoms; 梅干し (pickled plum), 梅酒 (plum wine), 梅見. The kanji also appears in 梅雨 (つゆ, the rainy season).",
     rx: ["うま", "うね", "まい"],
-    book: { ja: "**{梅|うめ}**を見に行ったが、{名所|めいしょ}と言われている（　）、{梅|うめ}の木が少なくてがっかりした。", en: "I went to see the plum blossoms, but for a place said to be famous for them, there were few plum trees, and I was disappointed.", at: "ch/10/review" },
+    book: { ja: "**{梅|うめ}**を見に行ったが、{名所|めいしょ}と言われている（　）、{梅|うめ}の木が少なくてがっかりした。", en: "I went to see the plum blossoms, but for a place said to be famous for them, there weren't many plum trees, which was disappointing.", at: "ch/10/review" },
     ex: [
       { ja: "{祖母|そぼ}は{毎年|まいとし}、{庭|にわ}でとれた**{梅|うめ}**で{梅酒|うめしゅ}を{作|つく}る。", en: "Every year my grandmother makes plum wine from the plums in her garden.", alt: ["{桃|もも}", "{松|まつ}", "{竹|たけ}"] },
     ] },
