@@ -57,7 +57,7 @@ TRY.registerVocab({ ch: 13, words: [
     ex: [
       { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{損害|そんがい}**が{出|で}た。", en: "The typhoon caused heavy damage to the crops.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
-  { w: "{蒸|む}し{暑|あつ}い", lv: "N2", pos: "ã adjective",
+  { w: "{蒸|む}し{暑|あつ}い", lv: "N2", pos: "い adjective",
     en: "hot and humid; muggy",
     note: "Heat with high humidity, typical of the Japanese summer and the rainy season: 蒸し暑い夜. 蒸す alone also means it's muggy (今日は蒸すね). 暑苦しい is stuffy, oppressively hot, and can describe people or clothes that feel hot to look at.",
     rx: ["じょうしあつい", "むしあたい", "もしあつい"],
@@ -81,7 +81,7 @@ TRY.registerVocab({ ch: 13, words: [
     ex: [
       { ja: "{地方|ちほう}では**{空家|あきや}**が{増|ふ}えて{問題|もんだい}になっている。", en: "In rural areas, the growing number of empty houses has become a problem.", alt: ["{空席|くうせき}", "{空港|くうこう}", "{空気|くうき}"] },
     ] },
-  { w: "{不審|ふしん}", lv: "N1", pos: "noun · ãª adjective",
+  { w: "{不審|ふしん}", lv: "N1", pos: "noun · な adjective",
     en: "suspicious; doubtful; questionable",
     note: "Something that seems wrong and makes you wary: 不審な人物 / 不審者 (a suspicious person), 不審に思う, 挙動不審 (acting suspiciously). Common in notices and news. 疑問 is a question you have; 不審 is suspicion that something is not right.",
     rx: ["ふじん", "ぶしん", "ふしむ"],
@@ -268,7 +268,7 @@ TRY.registerVocab({ ch: 13, words: [
     book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
     ex: [
       { ja: "{男|おとこ}は{妻|つま}に{暴力|ぼうりょく}を**{振|ふ}るった**として{逮捕|たいほ}された。", en: "The man was arrested for being violent toward his wife.", alt: ["{振|ふ}った", "{触|ふ}れた", "{震|ふる}えた"] },
-      { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father showed off his cooking skills for us." },
+      { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father put his cooking skills to work for us." },
     ] },
   { w: "{突|つ}き{当|あ}たり", lv: "N2", pos: "noun",
     en: "the end (of a street or hallway); where a road ends",
@@ -294,7 +294,7 @@ TRY.registerVocab({ ch: 13, words: [
     ex: [
       { ja: "{彼|かれ}は「{火事|かじ}だ！」と{大声|おおごえ}で**{叫|さけ}んだ**。", en: "He shouted at the top of his voice, \"Fire!\"", alt: ["{盗|ぬす}んだ", "{包|つつ}んだ", "{悩|なや}んだ"] },
     ] },
-  { w: "{眩|まぶ}しい", lv: "N2", pos: "ã adjective",
+  { w: "{眩|まぶ}しい", lv: "N2", pos: "い adjective",
     en: "dazzling; glaring; too bright to look at",
     note: "Light so strong it's hard to see: 日差しが眩しい, 眩しくて目を開けていられない. Figuratively also 'radiant': 眩しい笑顔. Usually written in kana (まぶしい).",
     rx: ["げんしい", "まばしい", "まぶい"],
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 13, words: [
     ex: [
       { ja: "{母|はは}の{趣味|しゅみ}は**{手芸|しゅげい}**で、よく{布|ぬの}のバッグを{作|つく}っている。", en: "My mother's hobby is handicrafts; she often makes cloth bags.", alt: ["{手品|てじな}", "{園芸|えんげい}", "{手術|しゅじゅつ}"] },
     ] },
-  { w: "{不正|ふせい}", lv: "N1", pos: "noun · ãª adjective",
+  { w: "{不正|ふせい}", lv: "N1", pos: "noun · な adjective",
     en: "wrongdoing; dishonesty; fraud; illegal",
     note: "Acts that break rules or laws: 不正をする / 働く, 不正行為 (cheating, misconduct), 不正アクセス (unauthorized access), 不正に入手する. 違反 is breaking a specific rule; 不正 stresses dishonesty.",
     rx: ["ふしょう", "ぶせい", "ふぜい"],
@@ -611,7 +611,7 @@ TRY.registerVocab({ ch: 13, words: [
     ex: [
       { ja: "この{店|みせ}は**{品数|しなかず}**が{豊富|ほうふ}で、{必要|ひつよう}なものが{何|なん}でもそろう。", en: "This store has a wide range of goods, so you can get everything you need.", alt: ["{品質|ひんしつ}", "{人数|にんずう}", "{回数|かいすう}"] },
     ] },
-  { w: "{肌寒|はださむ}い", lv: "N1", pos: "ã adjective",
+  { w: "{肌寒|はださむ}い", lv: "N1", pos: "い adjective",
     en: "chilly; a bit cold (felt on the skin)",
     note: "Slightly cold, especially in early spring, autumn or on a cool morning: 肌寒い日, 朝晩は肌寒い. Milder than 寒い. Its opposite in feeling is 蒸し暑い (muggy).",
     rx: ["きさむい", "はだかん", "はださぶい"],
@@ -681,7 +681,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["きつかう", "けづかう", "きがかう"],
     book: { ja: "そんなリリーのためにマディソンは「{盲導犬|もうどうけん}」を引き受けて、いつもリリーを**{気遣|きづか}い**[1]歩いていた。", en: "For Lily's sake, Madison took on the role of \"guide dog\" and always walked with her while looking out for her.", at: "ch/13/review" },
     ex: [
-      { ja: "{彼|かれ}はいつも{周|まわ}りの{人|ひと}の{体調|たいちょう}を**{気遣|きづか}って**いる。", en: "He is always concerned about how the people around him are feeling.", alt: ["{気付|きづ}いて", "{気取|きど}って", "{気負|きお}って"] },
+      { ja: "{彼|かれ}はいつも{周|まわ}りの{人|ひと}の{体調|たいちょう}を**{気遣|きづか}って**いる。", en: "He always looks out for the health of the people around him.", alt: ["{気付|きづ}いて", "{気取|きど}って", "{気負|きお}って"] },
     ] },
   { w: "{見守|みまも}る", lv: "N1", pos: "verb (godan, transitive)",
     en: "to watch over; to keep a (caring) eye on",

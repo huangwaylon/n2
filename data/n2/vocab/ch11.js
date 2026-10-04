@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["りかい", "りいけい", "りげい"],
     book: { ja: "大学院で研究しようと思ったら、**{理系|りけい}**にしても{文系|ぶんけい}にしても、{英語力|えいごりょく}は{絶対必要|ぜったいひつよう}だよ。", en: "If you want to do research at graduate school, whether in the sciences or the humanities, English ability is absolutely essential.", at: "gp/106" },
     ex: [
-      { ja: "{数学|すうがく}が{得意|とくい}なので、**{理系|りけい}**の{学部|がくぶ}に{進|すす}みたい。", en: "I'm good at math, so I want to go into a science department.", alt: ["{体系|たいけい}", "{家系|かけい}", "{系列|けいれつ}"] },
+      { ja: "{数学|すうがく}が{得意|とくい}なので、**{理系|りけい}**の{学部|がくぶ}に{進|すす}みたい。", en: "I'm good at math, so I want to study science at university.", alt: ["{体系|たいけい}", "{家系|かけい}", "{系列|けいれつ}"] },
     ] },
   { w: "{文系|ぶんけい}", lv: "N1", pos: "noun",
     en: "the humanities and social sciences (as a field of study)",

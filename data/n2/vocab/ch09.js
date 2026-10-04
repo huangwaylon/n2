@@ -461,7 +461,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["なまむ", "のうむ", "なやぶ"],
     book: { ja: "仕事でも何でも自分一人で**{悩|なや}まない**で、{誰|だれ}かに{相談|そうだん}することですよ。", en: "Whether it's work or anything else, don't agonize over it alone — you should talk it over with someone.", at: "gp/87" },
     ex: [
-      { ja: "{進路|しんろ}のことで**{悩|なや}んで**いたとき、{先生|せんせい}が{話|はなし}を{聞|き}いてくれた。", en: "When I was worrying about my future path, my teacher listened to me.", alt: ["{恨|うら}んで", "{望|のぞ}んで", "{励|はげ}んで"] },
+      { ja: "{進路|しんろ}のことで**{悩|なや}んで**いたとき、{先生|せんせい}が{話|はなし}を{聞|き}いてくれた。", en: "When I was agonizing over what to do after graduation, my teacher listened to me.", alt: ["{恨|うら}んで", "{望|のぞ}んで", "{励|はげ}んで"] },
     ] },
   { w: "{長所|ちょうしょ}", lv: "N2", pos: "noun",
     en: "strong point; strength; merit",

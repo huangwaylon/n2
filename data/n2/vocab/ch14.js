@@ -16,7 +16,7 @@ TRY.registerVocab({ ch: 14, words: [
       { ja: "{死刑制度|しけいせいど}の**{是非|ぜひ}**をめぐって、{議論|ぎろん}が{続|つづ}いている。", en: "Debate continues over whether the death penalty is right or wrong.", alt: ["{非番|ひばん}", "{非常|ひじょう}", "{非売品|ひばいひん}"] },
     ] },
   { w: "{挙|あ}げる", lv: "N2", pos: "verb (ichidan, transitive)",
-    en: "to raise (a hand); to give (an example); to hold (a ceremony); to do with all one's strength",
+    en: "to raise (a hand); to give (an example); to hold (a ceremony); to put in (every effort), involve (a whole nation)",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
     book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "In the old days, the prospect of hosting the Olympics would have the whole nation rejoicing.", at: "ch/14" },
@@ -159,7 +159,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{年齢|ねんれい}による**{差別|さべつ}**をなくすため、{法律|ほうりつ}が{改正|かいせい}された。", en: "The law was amended to eliminate age discrimination.", alt: ["{分別|ぶんべつ}", "{送別|そうべつ}", "{特別|とくべつ}"] },
     ] },
-  { w: "{適度|てきど}", lv: "N1", pos: "noun · ãª adjective",
+  { w: "{適度|てきど}", lv: "N1", pos: "noun · な adjective",
     en: "moderate; proper amount; in moderation",
     note: "Just the right degree, not too much or too little: 適度な運動 (moderate exercise), 適度な休憩, 適度に飲む. 過度 is excessive. 適当 can mean suitable but in speech often means 'half-hearted', so 適度 is safer for 'moderate'.",
     rx: ["てきと", "てきたび", "てっど"],
@@ -287,7 +287,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{工場|こうじょう}から{出|で}る**{廃棄物|はいきぶつ}**は、{決|き}められた{方法|ほうほう}で{処理|しょり}しなければならない。", en: "Waste from the factory has to be disposed of in the prescribed way.", alt: ["{建築物|けんちくぶつ}", "{農作物|のうさくもつ}", "{印刷物|いんさつぶつ}"] },
     ] },
-  { w: "{適正|てきせい}", lv: "N1", pos: "noun · ãª adjective",
+  { w: "{適正|てきせい}", lv: "N1", pos: "noun · な adjective",
     en: "proper; appropriate; fair (by the standards)",
     note: "Correct and appropriate according to rules or standards: 適正な価格 (a fair price), 適正に処理する, 適正体重. Its homophone 適性 means aptitude (適性検査 aptitude test).",
     rx: ["てきしょう", "てっせい", "てきじょう"],
@@ -309,7 +309,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["りごん", "りこい", "はなこん"],
     book: { ja: "**{離婚|りこん}**の{際|さい}に、子どもの{親権|しんけん}（　）{争|あらそ}うケースが増えている。", en: "More and more divorcing couples are fighting over custody of their children.", at: "gp/138" },
     ex: [
-      { ja: "{性格|せいかく}の{違|ちが}いが{原因|げんいん}で、{二人|ふたり}は**{離婚|りこん}**した。", en: "The two of them divorced because they weren't compatible.", alt: ["{結婚|けっこん}", "{離陸|りりく}", "{再婚|さいこん}"] },
+      { ja: "{性格|せいかく}の{違|ちが}いが{原因|げんいん}で、{二人|ふたり}は**{離婚|りこん}**した。", en: "The two of them divorced over differences in personality.", alt: ["{結婚|けっこん}", "{離陸|りりく}", "{再婚|さいこん}"] },
     ] },
   { w: "{親権|しんけん}", lv: "N1", pos: "noun",
     en: "parental authority; custody (of a child)",
@@ -439,7 +439,7 @@ TRY.registerVocab({ ch: 14, words: [
     ex: [
       { ja: "{高速道路|こうそくどうろ}でトラックと{乗用車|じょうようしゃ}が**{衝突|しょうとつ}**した。", en: "A truck and a car collided on the expressway.", alt: ["{衝撃|しょうげき}", "{突破|とっぱ}", "{突然|とつぜん}"] },
     ] },
-  { w: "{重大|じゅうだい}", lv: "N2", pos: "ãª adjective",
+  { w: "{重大|じゅうだい}", lv: "N2", pos: "な adjective",
     en: "serious; grave; momentous",
     note: "Of great seriousness, often with bad consequences: 重大な事故 / ミス / 責任, 重大ニュース. 重要 is 'important' in a neutral sense (重要な会議); 重大 stresses weight and seriousness. 重体 (じゅうたい) is being in critical condition.",
     rx: ["じゅうたい", "ちょうだい", "じゅだい"],
@@ -461,6 +461,6 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["はんけち", "ばんけつ", "はんげつ"],
     book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
+      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court handed down a verdict of not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
     ] },
 ] });

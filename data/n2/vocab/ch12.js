@@ -332,7 +332,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しかね", "じきん", "しいきん"],
     book: { ja: "今度の{審査|しんさ}の{結果次第|けっかしだい}で、国から研究**{資金|しきん}**がもらえるかどうか決まる。", en: "Whether we get research funding from the government depends on the results of this review.", at: "gp/114" },
     ex: [
-      { ja: "{会社|かいしゃ}を{始|はじ}めるための**{資金|しきん}**を{銀行|ぎんこう}から{借|か}りた。", en: "I borrowed the money to start a business from the bank.", alt: ["{資格|しかく}", "{料金|りょうきん}", "{資源|しげん}"] },
+      { ja: "{会社|かいしゃ}を{始|はじ}めるための**{資金|しきん}**を{銀行|ぎんこう}から{借|か}りた。", en: "I borrowed the startup funds for my business from the bank.", alt: ["{資格|しかく}", "{料金|りょうきん}", "{資源|しげん}"] },
     ] },
   { w: "{世|よ}の{中|なか}", lv: "N2", pos: "noun",
     en: "the world; society; life",
@@ -596,7 +596,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しょうかく", "やききゃく", "しょきゃく"],
     book: { ja: "ごみ**{焼却場|しょうきゃくじょう}**の{移転|いてん}については、十分に{議論|ぎろん}した＿＿決めていただきたい。", en: "Regarding the relocation of the waste incineration plant, we'd like you to decide after thorough discussion.", at: "ch/12" },
     ex: [
-      { ja: "{古|ふる}い{書類|しょるい}はまとめて**{焼却|しょうきゃく}**{処分|しょぶん}した。", en: "We incinerated all the old documents together.", alt: ["{返却|へんきゃく}", "{退却|たいきゃく}", "{焼香|しょうこう}"] },
+      { ja: "{古|ふる}い{書類|しょるい}はまとめて**{焼却|しょうきゃく}**{処分|しょぶん}した。", en: "We gathered up the old documents and incinerated them.", alt: ["{返却|へんきゃく}", "{退却|たいきゃく}", "{焼香|しょうこう}"] },
     ] },
   { w: "{解体|かいたい}", lv: "N1", pos: "noun · する verb",
     en: "demolition; dismantling; breaking up (an organization)",
