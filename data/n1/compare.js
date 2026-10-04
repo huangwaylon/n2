@@ -18,7 +18,7 @@ TRY.registerCompare([
     items: [
       { pattern: "〜からこそ", level: "N3",
         ex: { ja: "大変なときだからこそ、協力することが大切なんです。", en: "It is precisely because times are hard that cooperating is so important." },
-        note: "Plain form + からこそ: \"precisely because\". Insists that this is the real reason, often one that seems to point the other way." },
+        note: "Plain form + からこそ: \"precisely because\". Insists that this is the real reason, sometimes one that might seem to point the other way." },
       { pattern: "〜からといって", level: "N3",
         ex: { ja: "A：あんなにがんばって練習したんだから、今度の大会は絶対優勝ですね。\nB：練習したからといって、簡単には優勝できませんよ。", en: "A: After all that hard practice, you're sure to win the next tournament.\nB: Just because I practiced doesn't mean I can win that easily." },
         note: "Plain form + からといって: \"just because ~ doesn't mean\". Rejects the conclusion one would draw from the reason; followed by a negative (〜とは限らない, 〜わけではない) or a prohibition." },
@@ -33,7 +33,7 @@ TRY.registerCompare([
         note: "N + から見て / から見ると / から見れば: \"judging from / from the viewpoint of N\". N is the vantage point or evidence for a judgment, not a reason." },
       { pattern: "Nからして", level: "N1", no: 6,
         ex: { ja: "有名デパートの店員は、言葉{遣|づか}いからして{丁寧|ていねい}だ。", en: "Staff at well-known department stores are polite in everything, starting with the way they speak." },
-        note: "N + からして: \"starting with N / even N alone\". Picks one small or first-noticed feature to suggest the whole is the same (good or bad); not a reason or a viewpoint like から見て." },
+        note: "N + からして: \"starting with N / even N alone\". Picks one small or first-noticed feature to suggest the whole is the same (good or bad); not a reason. It can also mean \"judging from\" (あの態度からして), close to から見て." },
       { pattern: "〜からあるN", level: "N1", no: 107,
         ex: { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all their might to carry a suitcase weighing as much as 10 kg." },
         note: "Quantity + からある + N: \"a good ~ / as much as ~\". Stresses that a size, weight, length or distance is large (things that ある)." },
@@ -152,7 +152,7 @@ TRY.registerCompare([
         note: "Person or animal + ったら: a casual topic marker with exasperation, surprise or affectionate criticism (\"honestly, that ~!\")." },
       { pattern: "〜といったらない", level: "N1", no: 83,
         ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbearably hot. I wish autumn would hurry up and come." },
-        note: "Adjective + といったらない (colloquial といったらありゃしない): \"indescribably ~ / ~ beyond words\". States an extreme degree at the end of the sentence." }
+        note: "Adjective, feeling noun or verb + といったらない (colloquial といったらありゃしない): \"indescribably ~ / ~ beyond words\". States an extreme degree at the end of the sentence." }
     ]
   },
   {
@@ -208,7 +208,7 @@ TRY.registerCompare([
         note: "N + といったら: \"speaking of N / when it comes to N\". Raises a topic and the typical thing associated with it (= といえば)." },
       { pattern: "〜といったらない", level: "N1", no: 83,
         ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbearably hot. I wish autumn would hurry up and come." },
-        note: "Adjective + といったらない: \"indescribably ~\". An extreme degree; it follows an adjective and ends the sentence, unlike topic-raising Nといったら." }
+        note: "Adjective + といったらない: \"indescribably ~\". An extreme degree; it follows a word of feeling or degree and ends the sentence, unlike topic-raising Nといったら." }
     ]
   },
   {
@@ -434,7 +434,7 @@ TRY.registerCompare([
         note: "V-る + べきだ (する → すべき / するべき): \"should / ought to\". The speaker's view of what is right or proper." },
       { pattern: "Vべく", level: "N1", no: 90,
         ex: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business." },
-        note: "V-る + べく (する → すべく): \"in order to ~\". A formal, written purpose; the first verb is a goal the subject chooses, and the second clause a deliberate effort (no negative form)." },
+        note: "V-る + べく (する → すべく): \"in order to ~\". A formal, written purpose; the first verb is a goal the subject chooses, and the second clause a deliberate action or effort (no negative form)." },
       { pattern: "VべくしてVた", level: "N1", no: 52,
         ex: { ja: "この車は{燃費|ねんぴ}も良く、洗練されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },
         note: "V-る + べくして + the same V-た: \"happened as it was bound to\". The result, good or bad, was inevitable given the circumstances (起こるべくして起こった事故)." },
