@@ -345,14 +345,14 @@ TRY.registerVocab({ ch: 11, words: [
     en: "intense heat; a heat wave",
     note: "A news and weather word: 今年は猛暑だ, 猛暑が続く, 猛暑日 (a day of 35°C or more). 猛 means fierce (猛スピード). The opposite kind of year is 冷夏 (a cool summer).",
     rx: ["もうじょ", "もしょ", "もうしょう"],
-    book: { ja: "今年は**{猛暑|もうしょ}**なだけに、ビールがいっそうおいしく感じられる。", en: "Because this year's summer is so scorchingly hot, beer tastes all the better.", at: "gp/105" },
+    book: { ja: "今年は**{猛暑|もうしょ}**なだけに、ビールがいっそうおいしく感じられる。", en: "With such a scorching summer this year, beer tastes all the better.", at: "gp/105" },
     ex: [
       { ja: "**{猛暑|もうしょ}**が{続|つづ}き、{熱中症|ねっちゅうしょう}で{病院|びょういん}に{運|はこ}ばれる{人|ひと}が{増|ふ}えている。", en: "With the heat wave continuing, more and more people are being taken to the hospital with heatstroke.", alt: ["{暑中|しょちゅう}", "{猛獣|もうじゅう}", "{避暑|ひしょ}"] },
     ] },
   { w: "いっそう", lv: "N2", pos: "adverb",
     en: "even more; all the more",
     note: "Written 一層. It raises the degree of something that is already true: いっそう寒くなった, いっそう努力する. より一層 is a formal set phrase (より一層のご支援を). Don't confuse it with いっそ (rather, might as well).",
-    book: { ja: "今年は{猛暑|もうしょ}なだけに、ビールが**いっそう**おいしく感じられる。", en: "Because this year's summer is so scorchingly hot, beer tastes all the better.", at: "gp/105" },
+    book: { ja: "今年は{猛暑|もうしょ}なだけに、ビールが**いっそう**おいしく感じられる。", en: "With such a scorching summer this year, beer tastes all the better.", at: "gp/105" },
     ex: [
       { ja: "{雨|あめ}が{降|ふ}って、{寒|さむ}さが**いっそう**{厳|きび}しくなった。", en: "It rained, and the cold became even more severe.", alt: ["せっかく", "とっくに", "たしか"] },
     ] },
