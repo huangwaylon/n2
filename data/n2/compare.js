@@ -271,7 +271,7 @@ TRY.registerCompare([
         ex: { ja: "チョコレートを食べたらにきびが増えると知り**つつも**、つい手が{伸|の}びてしまうんです。", en: "Even though I know eating chocolate gives me more pimples, I can't help reaching for it." },
         note: "V-ます stem + つつも: \"although / even while\". Concessive: typically 思う / 知る followed by an action that goes against it (つい〜てしまう); も can be dropped, leaving つつ with this meaning." },
       { pattern: "Vつつある", level: "N2", no: 71,
-        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are spreading around the world." },
+        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are gradually spreading around the world." },
         note: "V-ます stem + つつある: \"is in the process of ~ing\". Only with change verbs, for a change that is under way but not complete; not for ordinary actions (✗食べつつある)." }
     ]
   },
@@ -547,7 +547,7 @@ TRY.registerCompare([
         ex: { ja: "A：{健康|けんこう}のために、少し運動したほうがいいですよ。\nB：じゃ、これから毎日1時間くらい歩く**ようにします**。", en: "A: You should get a little exercise for your health.\nB: Then from now on I'll try to walk for about an hour every day." },
         note: "V-る / V-ない + ようにする: \"try to / make a point of\". A conscious, ongoing effort." },
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Could you, as the child's mother, also tell them to study?" },
+        ex: { ja: "お母さんからも勉強する**ように言って**ください。", en: "Could you please also tell your child to study?" },
         note: "V-る / V-ない + ように言う: \"tell someone to\". Reports an instruction or request indirectly (also ように頼む / 注意する)." },
       { pattern: "〜ようになる①", level: "N4",
         ex: { ja: "日本へ来たときは、{納豆|なっとう}が食べられませんでしたが、今は食べられる**ようになりました**。", en: "When I came to Japan I couldn't eat natto, but now I can." },
