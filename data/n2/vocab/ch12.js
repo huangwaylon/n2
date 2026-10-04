@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "lottery (ticket)",
     note: "宝くじを買う, 宝くじが当たる (win the lottery). くじ is a lot or draw (くじ引き, drawing lots).",
     rx: ["ほうくじ", "たからぐじ", "だからくじ"],
-    book: { ja: "買っても当たらないと思い＿＿、毎回**{宝|たから}くじ**を買っている。", en: "Even though I think I won't win anyway, I buy lottery tickets every time.", at: "ch/12" },
+    book: { ja: "買っても当たらないと思い＿＿、毎回**{宝|たから}くじ**を買っている。", en: "Even though I figure I won't win, I buy lottery tickets every time anyway.", at: "ch/12" },
     ex: [
       { ja: "**{宝|たから}くじ**で1{億円|おくえん}{当|あ}たったら、{何|なに}をしたい？", en: "What would you do if you won 100 million yen in the lottery?", alt: ["{宝物|たからもの}", "{宝石|ほうせき}", "{宝庫|ほうこ}"] },
     ] },
