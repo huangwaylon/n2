@@ -292,7 +292,7 @@ TRY.registerLesson({
      ],
      "titleTr": "Yoroshiku: The Surface of Japanese and What Lies Beneath",
      "tr": [
-      "Japanese people say yoroshiku everywhere they go. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you no longer know what yoroshiku means.",
+      "Japanese people use yoroshiku constantly, everywhere. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you find you can't tell what yoroshiku means.",
       "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within the limits of what the other person can do and leave those limits up to that person. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
       "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or was it asking whether I might be kind enough to have a meal with them at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
       "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person could at times even amount to rudeness. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
@@ -376,9 +376,9 @@ TRY.registerLesson({
      "titleTr": "Conversations Between People with Split Personalities: The Restoration of the Japanese Language",
      "tr": [
       "A friend of mine is a Frenchwoman who speaks superb Japanese. When I talk with her, our conversation whirls back and forth between French and Japanese, and amid this interweaving of two languages I am always struck by a strange sensation. Somehow it begins to feel as though each of us has become a person with two personalities, so that altogether a conversation among four people is taking place.",
-      "For example, when she takes a stance of refusal, she almost always uses French, going \"Non, non\" and \"C'est impossible\" (\"No, no\" and \"That's impossible\"). On the other hand, when she has a favor to ask, she approaches me in Japanese: \"Actually, I have a little favor to ask....\" As for me, when I want a clear answer, I ask in French, \"Qu'est-ce que tu penses?\" (\"What do you think?\"), and when I want to be vague and noncommittal, I end up answering in Japanese: \"Well, let me think about it.\"",
+      "For example, when she wants to turn something down, she almost always uses French, going \"Non, non\" and \"C'est impossible\" (\"No, no\" and \"That's impossible\"). On the other hand, when she has a favor to ask, she approaches me in Japanese: \"Actually, I have a little favor to ask....\" As for me, when I want a clear answer, I ask in French, \"Qu'est-ce que tu penses?\" (\"What do you think?\"), and when I want to be vague and noncommittal, I end up answering in Japanese: \"Well, let me think about it.\"",
       "Setting aside the finer details, perhaps we could say that, broadly speaking, we have this in common: we use French for logical, straightforward expressions and Japanese for emotional, ambiguous ones. In any case, it seems certain that, without realizing it, each of us skillfully switches between two personalities, each easier to express in its own language. Perhaps it is just my imagination, but to me she seems \"gentle\" when she uses Japanese and \"formidable\" when she uses French.",
-      "These facts probably show that our personalities, too, differ greatly depending on the language we use. As is often said, Italian, spoken with plenty of gestures and full, ringing vowels, makes Italians cheerful, and the restrained King's English makes the English composed; such claims cannot necessarily be dismissed as mere popular opinion. From that standpoint, Japanese seems to produce a relatively gentle, flat people.",
+      "These facts probably show that our personalities, too, differ greatly depending on the language we use. As is often said, Italian, spoken with plenty of gestures and full, ringing vowels, makes Italians cheerful, and the restrained King's English makes the English composed; such claims probably cannot be entirely dismissed as mere popular opinion. From that standpoint, Japanese seems to produce a relatively gentle, flat people.",
       "Furthermore, if straightforward expressions and ambiguous expressions lead directly to straightforward personalities and ambiguous personalities, then isn't Japanese, after all, producing rather ambiguous Japanese people? If we want to test this, there is nothing better than to consider, for example, the lines a fellow Japanese man uses when he asks a woman out on a date.",
       "\"Um, if it's all right with you, would you like to go have some tea or something somewhere around here?\"",
       "First of all, he does not call out to her firmly; with \"Um\" he vaguely draws her attention. Next, by saying \"if it's all right with you,\" he makes his assertion vague. Then he adds \"a little\" (chotto) to make his wording light, and blurs things by saying \"somewhere around here\" instead of \"there,\" and \"tea or something\" instead of \"tea.\" Naturally, the woman, too, can only reply with a vague answer such as \"Yes, well then\" or \"Hmm, well, okay,\" which, to people like my Italian friends, must surely be terribly exasperating."
@@ -715,12 +715,12 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "彼には何度もうそをつかれた。この前、もう決して彼のことを信じ**まい**と決めたのに、まただまされてしまった。",
-         "tr": "He has lied to me many times. Just the other day I decided I would never trust him again, and yet I was fooled once more."
+         "tr": "He has lied to me many times. Just the other day I made up my mind never to trust him again, and yet I got taken in again."
         },
         {
          "n": 6,
          "ja": "この店は料理がまずいだけでなくサービスも悪い。もう二度とこんな店に来る**まい**。",
-         "tr": "Not only is the food at this restaurant bad, but the service is poor too. I will never come to a place like this again."
+         "tr": "Not only is the food at this restaurant bad, but the service is poor too. I'm never coming to a place like this again."
         }
        ]
       },
@@ -781,7 +781,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "どれを買おうかいろいろ迷った**すえ**、少し高いが機能がいいものにした。",
-         "tr": "After a lot of hesitation over which one to buy, I went with one that was a little expensive but had good features."
+         "tr": "After going back and forth over which one to buy, I went with one that was a little expensive but had good features."
         },
         {
          "n": 2,
@@ -1155,7 +1155,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "えっ、本当？！　でも、トムなら言い**かねない**ね。彼はうそがつけない性格だから。",
-           "tr": "What, really?! Well, Tom just might say something like that. He's the type who can't tell a lie."
+           "tr": "What, really?! Well, that's just the kind of thing Tom would say. He's the type who can't tell a lie."
           }
          ]
         }
@@ -1466,7 +1466,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "大学の勉強で大切なことは知識を得ることである**とばかりは言えない**だろう。得た知識をどのように使うかも大切だ。",
-         "tr": "It probably can’t be said that gaining knowledge is all that matters in college study. How you use the knowledge you gain matters too."
+         "tr": "Gaining knowledge probably isn’t the only thing that matters in college studies. How you use the knowledge you gain matters too."
         },
         {
          "n": 2,
@@ -1657,7 +1657,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "今度の{三連休|さんれんきゅう}、久しぶりにどこかに行きたいなあ。",
-           "tr": "This coming three-day weekend, I’d like to go somewhere for the first time in a while."
+           "tr": "I’d love to go somewhere this coming three-day weekend. It’s been a while."
           },
           {
            "sp": "B",
@@ -2494,7 +2494,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "うーん、でも、やっぱり難しいですね。",
-        "tr": "Hmm, but it's still difficult."
+        "tr": "Hmm, but I'm afraid that's still difficult."
        }
       },
       {
@@ -2613,7 +2613,7 @@ TRY.registerLesson({
        "sp": "先生",
        "v": "m",
        "ja": "うーん、でも、やっぱり難しいですね。",
-       "tr": "Hmm, but it's still difficult."
+       "tr": "Hmm, but I'm afraid that's still difficult."
       },
       {
        "sp": "あなた",
