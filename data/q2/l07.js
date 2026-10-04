@@ -293,12 +293,12 @@ TRY.registerLesson({
       "『星の王子・王女たちの留学物語 2』中日新聞社（一部改）"
      ],
      "tr": [
-      "Those nine months, packed with fun times and hard times, were the most intense of my life, and they greatly broadened my options and possibilities in life.",
+      "Those nine months, packed with good times and hard times, were the most intense of my life, and they greatly broadened the choices and possibilities open to me.",
       "On orientation day, nearly a hundred international students from all over the world had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
       "The following week, classes called the English Language Program began, designed to give us enough English to take regular undergraduate courses. I got multinational classmates from Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
-      "But my life as an international student, which had finally been getting on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the back every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
+      "But my life as an international student, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the back every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
       "Because they were close friends, and precisely because our cultures were different, I wanted to tell them the truth and have them understand, so I worked up the courage and told them that it made me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
-      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If you don't follow through even though you made a yakusoku to hang out, that means you \"broke your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
+      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If, despite having made a yakusoku to hang out, you don't follow through, you have \"broken your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
       "\"Let's go to XX over the winter break.\" \"Okay, let's go.\" At that point I felt we had made a promise, and my expectations kept growing, but when winter break actually came, I was told, \"I don't have any money, and there are other things I want to do, so I'm not going.\" To be honest, I thought, \"If you say you're going, isn't it normal to get ready by then?\" But I realized that \"my normal\" wasn't \"normal,\" and that the meaning and weight people give to the words they say, and their sense of responsibility to actually follow through, are fundamentally different.",
       "Japan is a small island nation that has developed its own unique culture and society. With so many people whose ideas, standards, and behavior are alike, it is hard to discover change or new things. And before we know it, we have become complacent. But if you gather a little courage and leap into a different world, you may discover not only how different the outside is, but also something new within yourself."
@@ -377,7 +377,7 @@ TRY.registerLesson({
       "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and sincerely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
      ],
      "headTr": [
-      "Raise Young People Who Are at Home in Foreign Cultures"
+      "Japan Should Raise Young People Who Embrace Foreign Cultures"
      ]
     },
     {
@@ -478,7 +478,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "外国人らはイベントで日本人と連絡先を交換する。今後も一緒に仲間になって、いろんな趣味を__共有したがる__のだ。",
-          "tr": "The foreigners exchange contact information with Japanese people at the event. They want to go on being friends with them from now on and to share all kinds of hobbies."
+          "tr": "At the events, the foreigners exchange contact information with Japanese people. They want to go on being friends with them afterward and share all kinds of hobbies."
          }
         }
        ]
@@ -733,7 +733,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "{寝|ね}ないで勉強したのに、病気で試験が受けられなかった。残念**でしかたがない**。",
-         "tr": "I studied without sleeping, but I got sick and couldn't take the exam. It's terribly disappointing."
+         "tr": "I studied without sleeping, but I got sick and couldn't take the exam. I'm so disappointed I can't stand it."
         }
        ]
       },
@@ -1376,7 +1376,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "彼女、好きな人のことを考えて**ばかり**で、他のことは何もできないみたいだよ。",
-           "tr": "She seems to do nothing but think about the person she likes, and can’t do anything else."
+           "tr": "All she does is think about the person she likes. She can't seem to do anything else."
           }
          ]
         }
@@ -1828,8 +1828,8 @@ TRY.registerLesson({
      "tr": [
       "I came to Japan four months ago as an exchange student. At the university I am studying things like the Japanese language and Japanese culture. Living in a foreign culture like Japan's, I make new discoveries every day, and it is stimulating and fun, but there have also been hard times.",
       "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. As this kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
-      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. And I was told, \"It's the same even between Japanese people.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
-      "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to not hide your discomfort or your questions, and to be willing to understand and accept differences."
+      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. I was told, \"It's the same between Japanese people, too.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
+      "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to be open about whatever feels strange or puzzling to you, and be willing to understand and accept the differences."
      ],
      "headTr": [
       "Crossing the Cultural Barrier"
@@ -2201,7 +2201,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "［私は］ルームメートの日本人に思い切って相談してみました。すると、「それは日本人{同士|どうし}でも同じだよ」と［私はルームメートに］**言われました**。",
-               "tr": "[I] worked up the courage to talk it over with my Japanese roommate. And [I] was told [by my roommate], \"It's the same even between Japanese people.\""
+               "tr": "[I] worked up the courage to talk it over with my Japanese roommate. [I] was told [by my roommate], \"It's the same between Japanese people, too.\""
               },
               {
                "mark": "×",

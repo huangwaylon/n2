@@ -187,7 +187,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { n: 39, w: "裏切る", ex: "友達だと思っていた人に裏切られた経験があります。", tr: "I've been betrayed by someone I thought was a friend." },
     { n: 40, w: "[〜に]失望（する）", ex: "就職活動に失敗して、自分自身に失望した。", tr: "I failed at job hunting and was disappointed in myself." },
     { n: 41, w: "状況", ex: "食べ物も十分に買えない状況で、本を買うのは無理だ。", tr: "When you can't even afford enough food, buying books is out of the question." },
-    { n: 42, w: "努力（する）", ex: "努力しなければ{成功|せいこう}しないはずだ。", tr: "Surely you won't succeed unless you make an effort." },
+    { n: 42, w: "努力（する）", ex: "努力しなければ{成功|せいこう}しないはずだ。", tr: "If you don't make an effort, you can't expect to succeed." },
     { n: 43, w: "徐々に", ex: "クラスメートたちと徐々に仲良くなってきました。", tr: "I've gradually become friends with my classmates." },
     { n: 44, w: "築く", ex: "いい人間関係を築くのは簡単なことではない。", tr: "Building good relationships with people isn't easy." },
   ] } },
