@@ -44,7 +44,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to tell; to inform; to announce",
     note: "A written, slightly formal verb for telling someone something important: 別れを告げる (say goodbye), 名前を告げる, 医者に病名を告げられる. It also appears in set phrases like 春の訪れを告げる (herald the coming of spring). In conversation 言う or 伝える is normal.",
     rx: ["こげる", "つぐる", "しげる"],
-    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"We're going to treat the talk of your promotion to section chief as if it never happened,\" the department head told me three months ago.", at: "ch/13" },
+    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"Let's just say that talk of promoting you to section chief never happened,\" the department head told me three months ago.", at: "ch/13" },
     ex: [
       { ja: "{医者|いしゃ}は{家族|かぞく}に{病名|びょうめい}を**{告|つ}げた**。", en: "The doctor told the family the name of the illness.", alt: ["{届|とど}けた", "{渡|わた}した", "{伝|つた}わった"] },
       { ja: "{彼女|かのじょ}は{何|なに}も**{告|つ}げず**に{町|まち}を{出|で}て{行|い}った。", en: "She left town without telling anyone." },
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "damage; loss (usually financial)",
     note: "Loss of money or property: 損害を与える / 受ける, 損害を出す, 損害賠償 (compensation for damages). 被害 is harm suffered by victims of a disaster or crime (被害者); 損害 focuses on the monetary loss.",
     rx: ["そんかい", "そうがい", "ぞんがい"],
-    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I thought I had done my very best, but the project failed and caused a huge loss — that was why.", at: "ch/13" },
+    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason.", at: "ch/13" },
     ex: [
       { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{損害|そんがい}**が{出|で}た。", en: "The typhoon caused heavy damage to the crops.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
@@ -132,7 +132,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "in front of others; in public",
     note: "人前で話す (speak in front of people), 人前で泣く. Note the reading ひとまえ; 一人前 (いちにんまえ) is a different word meaning 'full-fledged' or 'one serving'.",
     rx: ["にんまえ", "ひとぜん", "じんまえ"],
-    book: { ja: "昔は**{人前|ひとまえ}**で話すのが{嫌|いや}でならなかったんですが、最近はあまり{抵抗|ていこう}を感じなくなりました。", en: "I used to absolutely hate speaking in front of people, but lately I don't feel much resistance to it.", at: "gp/121" },
+    book: { ja: "昔は**{人前|ひとまえ}**で話すのが{嫌|いや}でならなかったんですが、最近はあまり{抵抗|ていこう}を感じなくなりました。", en: "I used to absolutely hate speaking in front of people, but these days it doesn't bother me much anymore.", at: "gp/121" },
     ex: [
       { ja: "{彼|かれ}は{恥|は}ずかしがり{屋|や}で、**{人前|ひとまえ}**で{話|はな}すのが{苦手|にがて}だ。", en: "He's shy and not good at speaking in front of people.", alt: ["{一人前|いちにんまえ}", "{午前|ごぜん}", "{名前|なまえ}"] },
     ] },
@@ -140,7 +140,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "resistance; reluctance; to resist",
     note: "Physical resistance (犯人が抵抗する, 空気の抵抗 air resistance) and psychological reluctance: 〜に抵抗がある / 抵抗を感じる (feel uneasy about doing something). 反抗 is defiance toward authority, like a teenager toward parents.",
     rx: ["ていごう", "てこう", "たいこう"],
-    book: { ja: "昔は{人前|ひとまえ}で話すのが{嫌|いや}でならなかったんですが、最近はあまり**{抵抗|ていこう}**を感じなくなりました。", en: "I used to absolutely hate speaking in front of people, but lately I don't feel much resistance to it.", at: "gp/121" },
+    book: { ja: "昔は{人前|ひとまえ}で話すのが{嫌|いや}でならなかったんですが、最近はあまり**{抵抗|ていこう}**を感じなくなりました。", en: "I used to absolutely hate speaking in front of people, but these days it doesn't bother me much anymore.", at: "gp/121" },
     ex: [
       { ja: "{初対面|しょたいめん}の{人|ひと}と{食事|しょくじ}をするのは、まだ{少|すこ}し**{抵抗|ていこう}**がある。", en: "I still feel a little uneasy about eating with people I've just met.", alt: ["{抵当|ていとう}", "{対抗|たいこう}", "{反抗|はんこう}"] },
     ] },
@@ -148,7 +148,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "forest fire; wildfire",
     note: "A fire in the mountains or woods, a common news word in dry seasons: 山火事が発生する / 広がる. The general word for a fire is 火事; 火災 is the formal, written equivalent (森林火災).",
     rx: ["さんかじ", "やまびごと", "やまがじ"],
-    book: { ja: "こんなに{乾燥|かんそう}していると、**{山火事|やまかじ}**が（　）と{関|かん}{係者|けいしゃ}は{心配|しんぱい}している。", en: "The people concerned are worried that with it this dry, a forest fire could break out.", at: "gp/121" },
+    book: { ja: "こんなに{乾燥|かんそう}していると、**{山火事|やまかじ}**が（　）と{関|かん}{係者|けいしゃ}は{心配|しんぱい}している。", en: "Officials are worried that with it this dry, a forest fire could break out.", at: "gp/121" },
     ex: [
       { ja: "{雨|あめ}の{降|ふ}らない{日|ひ}が{続|つづ}き、{各地|かくち}で**{山火事|やまかじ}**が{起|お}きている。", en: "With day after day of no rain, wildfires are breaking out in various places.", alt: ["{山登|やまのぼ}り", "{山小屋|やまごや}", "{山分|やまわ}け"] },
     ] },
@@ -189,7 +189,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["ふろうふじ", "ぶろうふし", "ふろふし"],
     book: { ja: "**{不老不死|ふろうふし}**の願いがかなうものなら、私はいくらでも金を出す。", en: "If my wish to never age and never die could come true, I'd pay any amount of money.", at: "gp/122" },
     ex: [
-      { ja: "{昔|むかし}の{王|おう}は**{不老不死|ふろうふし}**の{薬|くすり}を{探|さが}し{求|もと}めたという。", en: "It is said that an ancient king searched for an elixir of immortality.", alt: ["{不眠不休|ふみんふきゅう}", "{一石二鳥|いっせきにちょう}", "{自給自足|じきゅうじそく}"] },
+      { ja: "{昔|むかし}の{王|おう}は**{不老不死|ふろうふし}**の{薬|くすり}を{探|さが}し{求|もと}めたという。", en: "Kings of old are said to have searched for an elixir of eternal youth and immortality.", alt: ["{不眠不休|ふみんふきゅう}", "{一石二鳥|いっせきにちょう}", "{自給自足|じきゅうじそく}"] },
     ] },
   { w: "ライバル", lv: "N2", pos: "noun",
     en: "rival; competitor",
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["てんしき", "でんしょく", "てんじょく"],
     book: { ja: "すぐに**{天職|てんしょく}**と思える仕事につける人もいるが、何回かの{転職|てんしょく}の{末|すえ}、やりがいのある仕事を見つける人もいる。", en: "Some people immediately land a job that feels like their calling, while others find rewarding work only after changing jobs several times.", at: "gp/124" },
     ex: [
-      { ja: "{子|こ}どもが{大好|だいす}きな{彼女|かのじょ}にとって、{保育士|ほいくし}は**{天職|てんしょく}**だ。", en: "For her, since she loves children, being a nursery teacher is her true calling.", alt: ["{転職|てんしょく}", "{天才|てんさい}", "{就職|しゅうしょく}"] },
+      { ja: "{子|こ}どもが{大好|だいす}きな{彼女|かのじょ}にとって、{保育士|ほいくし}は**{天職|てんしょく}**だ。", en: "She loves children, so being a nursery school teacher is her true calling.", alt: ["{転職|てんしょく}", "{天才|てんさい}", "{就職|しゅうしょく}"] },
     ] },
   { w: "{幼少期|ようしょうき}", lv: "N1", pos: "noun",
     en: "early childhood; one's early years",
@@ -249,7 +249,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "transformation; changing one's appearance completely",
     note: "Becoming a different-looking person or thing: ヒーローに変身する, 大変身 (a makeover). 変化 is change in general; 変身 is a change of the body or look. 返信 (a reply) has the same reading.",
     rx: ["へんみ", "へんじん", "へんし"],
-    book: { ja: "ヘアスタイルを変えて、**{変身|へんしん}**した＿＿なのに、{誰|だれ}も気づいてくれなかった。", en: "I changed my hairstyle and thought I'd transformed myself, but nobody noticed.", at: "ch/13" },
+    book: { ja: "ヘアスタイルを変えて、**{変身|へんしん}**した＿＿なのに、{誰|だれ}も気づいてくれなかった。", en: "I changed my hairstyle and thought I looked like a whole new person, but nobody noticed.", at: "ch/13" },
     ex: [
       { ja: "{少年|しょうねん}はマスクをつけて、テレビのヒーローに**{変身|へんしん}**した。", en: "The boy put on a mask and turned into the TV hero.", alt: ["{変更|へんこう}", "{返信|へんしん}", "{変動|へんどう}"] },
     ] },
@@ -284,7 +284,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["ろれる", "もられる", "ぬれる"],
     book: { ja: "{突|つ}き{当|あた}りの部屋のドアから光が**{漏|も}れて**いる。", en: "Light was leaking from the door of the room at the end of the hall.", at: "ch/13" },
     ex: [
-      { ja: "{隣|となり}の{部屋|へや}から{話|はな}し{声|ごえ}が**{漏|も}れて**くる。", en: "Voices are leaking through from the room next door.", alt: ["{触|ふ}れて", "{取|と}れて", "{汚|よご}れて"] },
+      { ja: "{隣|となり}の{部屋|へや}から{話|はな}し{声|ごえ}が**{漏|も}れて**くる。", en: "Voices are coming through from the room next door.", alt: ["{触|ふ}れて", "{取|と}れて", "{汚|よご}れて"] },
     ] },
   { w: "{叫|さけ}ぶ", lv: "N2", pos: "verb (godan, intransitive/transitive)",
     en: "to shout; to cry out; to call loudly for (a cause)",
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "quitting a salaried job (to start one's own business)",
     note: "Short for 脱サラリーマン: leaving life as an office worker to become self-employed, open a shop, farm and so on. 脱 means 'escape from' (脱出, 脱線). Casual journalistic word.",
     rx: ["だっさら", "ぜいさら", "たつさら"],
-    book: { ja: "**{脱|だつ}サラ**して会社を始めてもう3年が{過|す}ぎたが、まだ{経営|けいえい}が安定しているとは言いがたい{状況|じょうきょう}だ。", en: "Three years have already passed since I quit salaried work and started a company, but the business can hardly be called stable yet.", at: "gp/126" },
+    book: { ja: "**{脱|だつ}サラ**して会社を始めてもう3年が{過|す}ぎたが、まだ{経営|けいえい}が安定しているとは言いがたい{状況|じょうきょう}だ。", en: "Three years have already passed since I quit my office job and started my own company, but the business can hardly be called stable yet.", at: "gp/126" },
     ex: [
       { ja: "{父|ちち}は50{歳|さい}で**{脱|だつ}サラ**して、そば{屋|や}を{開|ひら}いた。", en: "My father quit his office job at fifty and opened a soba restaurant.", alt: ["{脱線|だっせん}", "{脱出|だっしゅつ}", "{脱帽|だつぼう}"] },
     ] },
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "work history; employment record",
     note: "The jobs you have held, as written on a 履歴書 (résumé): 学歴・職歴 (education and work history). 経歴 is one's whole career background; 職歴 is only employment.",
     rx: ["しょくりき", "しきれき", "しょくれつ"],
-    book: { ja: "{履歴書|りれきしょ}に**{職歴|しょくれき}**を書く{欄|らん}があるが、アルバイトしかしたことがないので（　）。", en: "The résumé has a section for work history, but I've only ever done part-time jobs, so there's nothing I can write.", at: "gp/126" },
+    book: { ja: "{履歴書|りれきしょ}に**{職歴|しょくれき}**を書く{欄|らん}があるが、アルバイトしかしたことがないので（　）。", en: "The résumé has a section for work history, but I've only ever done part-time jobs, so there's no way to fill it in.", at: "gp/126" },
     ex: [
       { ja: "{履歴書|りれきしょ}の**{職歴|しょくれき}**の{欄|らん}には、これまで{勤|つと}めた{会社|かいしゃ}を{書|か}く。", en: "In the work history section of the résumé, you write the companies you've worked for.", alt: ["{学歴|がくれき}", "{住所|じゅうしょ}", "{趣味|しゅみ}"] },
     ] },
@@ -410,7 +410,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "public eye; other people's attention",
     note: "Almost always in set phrases: 人目を気にする (worry what people think), 人目につく (catch people's eye), 人目を避ける, 人目もかまわず (not caring who is watching). 一目 (ひとめ, 'a glance') has the same reading.",
     rx: ["じんもく", "ひとみ", "にんめ"],
-    book: { ja: "電車の中で**{人目|ひとめ}**もかまわず、お{化粧|けしょう}するのはどうかと私は思う。", en: "Personally, I question putting on makeup on the train without caring who's watching.", at: "gp/127" },
+    book: { ja: "電車の中で**{人目|ひとめ}**もかまわず、お{化粧|けしょう}するのはどうかと私は思う。", en: "Personally, I don't think much of people putting on makeup on the train without caring who's watching.", at: "gp/127" },
     ex: [
       { ja: "{二人|ふたり}は**{人目|ひとめ}**を{気|き}にせず、{手|て}をつないで{歩|ある}いていた。", en: "The two of them walked hand in hand, not caring who saw.", alt: ["{一目|ひとめ}", "{人柄|ひとがら}", "{役目|やくめ}"] },
     ] },
@@ -476,13 +476,13 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["しんしみ", "おやしみ", "したじみ"],
     book: { ja: "クラスメートはお{互|たが}いに**{親|した}しみ**を{込|こ}めてニックネームで呼び合っている。", en: "The classmates affectionately call each other by nicknames.", at: "gp/129" },
     ex: [
-      { ja: "{彼|かれ}の{笑顔|えがお}には、{誰|だれ}もが**{親|した}しみ**を{感|かん}じる。", en: "Everyone feels a sense of warmth from his smile.", alt: ["{悲|かな}しみ", "{苦|くる}しみ", "{憎|にく}しみ"] },
+      { ja: "{彼|かれ}の{笑顔|えがお}には、{誰|だれ}もが**{親|した}しみ**を{感|かん}じる。", en: "His smile makes everyone feel close to him.", alt: ["{悲|かな}しみ", "{苦|くる}しみ", "{憎|にく}しみ"] },
     ] },
   { w: "{千羽鶴|せんばづる}", lv: "N1", pos: "noun",
     en: "a thousand origami cranes (strung together)",
     note: "A string of a thousand folded paper cranes, made as a prayer for someone's recovery or for peace: 千羽鶴を折る / 贈る. 羽 is the counter for birds, and 羽 + つる becomes ばづる here.",
     rx: ["せんわづる", "せんばつる", "ちばづる"],
-    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "We all folded a thousand paper cranes for our friend in the hospital, putting into them our wish for a quick recovery.", at: "gp/129" },
+    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "We all folded a thousand paper cranes for our friend in the hospital, putting our hopes for a quick recovery into them.", at: "gp/129" },
     ex: [
       { ja: "{平和|へいわ}への{願|ねが}いを{込|こ}めて、{子|こ}どもたちが**{千羽鶴|せんばづる}**を{折|お}った。", en: "The children folded a thousand paper cranes as a prayer for peace.", alt: ["{羽子板|はごいた}", "{千秋楽|せんしゅうらく}", "{花束|はなたば}"] },
     ] },
@@ -513,7 +513,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to inherit; to take over; to carry on (a tradition, business)",
     note: "Receiving something from the previous generation and continuing it: 店を受け継ぐ, 伝統を受け継ぐ, 父の才能を受け継ぐ. 引き継ぐ is taking over a job or task from a predecessor (仕事を引き継ぐ). 相続 is legal inheritance of property.",
     rx: ["うけけい", "じゅけい", "うけづぐ"],
-    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I intend to grow this shop — which my father inherited from my grandfather and kept going through everything — into something bigger.", at: "gp/131" },
+    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I intend to grow this shop — which my father inherited from my grandfather and kept going through thick and thin — into something bigger.", at: "gp/131" },
     ex: [
       { ja: "{祖母|そぼ}から**{受|う}け{継|つ}いだ**{着物|きもの}を{大切|たいせつ}にしている。", en: "I treasure the kimono I inherited from my grandmother.", alt: ["{泳|およ}いだ", "{急|いそ}いだ", "{防|ふせ}いだ"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "number of items; range of goods (on offer)",
     note: "How many kinds of goods a store has or dishes a meal has: 品数が多い / 豊富, 品数をそろえる. Note the kun reading しなかず (not ひんすう). 品ぞろえ is the selection or assortment.",
     rx: ["ひんすう", "しなすう", "ひんかず"],
-    book: { ja: "今度できたスーパーは**{品数|しなかず}**も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection and low prices too, so it's hugely popular.", at: "gp/130" },
+    book: { ja: "今度できたスーパーは**{品数|しなかず}**も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection, and its prices are low too, so it's hugely popular.", at: "gp/130" },
     ex: [
       { ja: "この{店|みせ}は**{品数|しなかず}**が{豊富|ほうふ}で、{必要|ひつよう}なものが{何|なん}でもそろう。", en: "This store has a wide range of goods, so you can get everything you need.", alt: ["{品質|ひんしつ}", "{人数|にんずう}", "{回数|かいすう}"] },
     ] },
@@ -687,7 +687,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to watch over; to keep a (caring) eye on",
     note: "Watching someone protectively, usually without interfering: 子どもの成長を見守る, 温かく見守る, 地域の見守り活動. It can also mean watching closely how something turns out: 事態を見守る.",
     rx: ["みもる", "けんまもる", "みまわる"],
-    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく**{見守|みまも}って**いた{飼|か}い{主|ぬし}だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter.", at: "ch/13/review" },
+    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく**{見守|みまも}って**いた{飼|か}い{主|ぬし}だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but family circumstances meant they had to be left at a dog shelter.", at: "ch/13/review" },
     ex: [
       { ja: "{親|おや}は{子|こ}どもの{成長|せいちょう}を{温|あたた}かく**{見守|みまも}って**いる。", en: "The parents are lovingly watching over their child's growth.", alt: ["{見送|みおく}って", "{見舞|みま}って", "{見張|みは}って"] },
     ] },
@@ -695,7 +695,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "(pet) owner; keeper (of an animal)",
     note: "The person who keeps an animal: 犬の飼い主, 飼い主を探す. From 飼う (keep an animal). For objects, the owner is 持ち主; a landlord is 家主 or 大家.",
     rx: ["かいしゅ", "しいぬし", "かいおも"],
-    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく{見守|みまも}っていた**{飼|か}い{主|ぬし}**だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had been watching over the two warmly, but because of family circumstances had to leave them at a dog shelter.", at: "ch/13/review" },
+    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく{見守|みまも}っていた**{飼|か}い{主|ぬし}**だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but family circumstances meant they had to be left at a dog shelter.", at: "ch/13/review" },
     ex: [
       { ja: "{犬|いぬ}が{玄関|げんかん}で**{飼|か}い{主|ぬし}**の{帰|かえ}りを{待|ま}っている。", en: "The dog is waiting at the front door for its owner to come home.", alt: ["{株主|かぶぬし}", "{主語|しゅご}", "{主食|しゅしょく}"] },
     ] },
