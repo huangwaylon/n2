@@ -30,7 +30,7 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | N1 ch01–03 | done (52 strings incl. 7 deepDive/why fixes; 50 vocab) |
 | N1 ch04–06 | running |
 | N1 ch07–10, compare | running |
-| Q1 L1–3 | running |
+| Q1 L1–3 | done (24 strings + 2 vocab; L2 おかげさまで deepDive) |
 | Q1 L4–6, challenge, front | running |
 | Q2 L7–9 | running |
-| Q2 L10–12, challenge, front | |
+| Q2 L10–12, challenge, front | running |
