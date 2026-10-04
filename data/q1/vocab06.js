@@ -756,7 +756,7 @@ TRY.registerVocab({
       "n": 24,
       "w": "関係",
       "ex": "彼と彼女の関係は、これからどうなるのだろう。",
-      "tr": "I wonder what will happen to the relationship between him and her."
+      "tr": "I wonder where things will go between him and her from here."
      },
      {
       "n": 25,
@@ -774,7 +774,7 @@ TRY.registerVocab({
       "n": 27,
       "w": "抵抗感",
       "ex": "若者は変化や新しいものに抵抗感がない。",
-      "tr": "Young people have no resistance to change or new things."
+      "tr": "Young people aren't resistant to change or new things."
      },
      {
       "n": 28,
@@ -834,7 +834,7 @@ TRY.registerVocab({
       "n": 37,
       "w": "混乱（する）",
       "ex": "{頭|あたま}が混乱していて、何も考えられません。",
-      "tr": "My head is so muddled that I can't think about anything."
+      "tr": "My head is so jumbled that I can't think at all."
      },
      {
       "n": 38,

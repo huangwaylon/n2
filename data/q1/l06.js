@@ -375,7 +375,7 @@ TRY.registerLesson({
       "The first thing I noticed after coming to Japan is that many Japanese people are mindful of the environment. For example, the trash bins at train stations are divided into “recyclable waste,” such as plastic bottles, newspapers, and magazines, and “burnable waste,” and you have to sort your trash properly.",
       "Recently, however, something has been bothering me: excessive packaging. For example, when I bought a box of cookies, not only was the box wrapped in paper, but each cookie inside was also wrapped individually in plastic. It's true that when each one is in its own bag, your hands don't get dirty when you take them out of the box, and it's convenient because you don't have to eat them all at once. But it definitely increases the amount of trash. Besides, it's not that the box's wrapping paper can't be used again later, but most people end up throwing it away, so it's a waste of resources.",
       "Besides product packaging, I also have doubts about store bags. The other day, when I went shopping at a department store on a rainy day, I was surprised when they carefully put a plastic cover over the usual paper bag so it wouldn't get wet in the rain. I think this kind of consideration for customers is very Japanese, but from the point of view of a foreigner like me, I can't help feeling that it may be going a little too far.",
-      "If we really care about the environment, shouldn't Japanese people rethink excessive packaging?"
+      "If Japanese people really care about the environment, shouldn't they rethink excessive packaging?"
      ],
      "headTr": [
       "Is All That Packaging Really Necessary?"
@@ -478,11 +478,11 @@ TRY.registerLesson({
       "Japan's system of English education has begun to change dramatically, with the aim of raising Japanese people who can communicate in English. English classes in elementary schools have already begun nationwide, and since English education is expected to start even earlier from now on, people are becoming more and more interested in early English education. What do today's university students think about this situation?",
       "I am in favor of early English education. There are three reasons.",
       "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language while you are a child and can absorb anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?",
-      "Second, children don't feel any resistance toward English. If they learn through games and songs in elementary school, children can speak English without being embarrassed. Also, because they try to use the new words they've learned right away, they can get used to them quickly. In general, the older people get, the more conscious they become of how others see them and the more they fear making mistakes. That's why I think it's important to start learning English before those feelings develop.",
+      "Second, children aren't resistant to English. If they learn through games and songs in elementary school, children can speak English without being embarrassed. Also, because they try to use the new words they've learned right away, they can get used to them quickly. In general, the older people get, the more conscious they become of how others see them and the more they fear making mistakes. That's why I think it's important to start learning English before those feelings develop.",
       "Third, children can develop an international outlook early. It is said that learning a foreign language as a child and realizing that there are cultures different from your own makes it easier to accept different values. I think that if children come into contact with foreign cultures and customs through English while they're in elementary school and broaden their horizons, it could widen their chances of working on the international stage in the future.",
       "For these reasons, early English education has many advantages, so we should actively promote it.",
       "I am against early English education. I will give three reasons.",
-      "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may be unable to express their thoughts well in either language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
+      "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may also be unable to express their thoughts fully in any one language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
       "Also, few children study English of their own free will. In my case too, when I was a child my parents told me to go to an English cram school, and I was made to study against my will. Speaking from that experience, there is no point in forcing children who don't want to learn English to do it. It only increases the number of children who dislike English. I think it's better to wait until children start to become interested in English.",
       "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but after learning they would be going to Canada for work, they started studying in earnest and improved to an astonishing degree. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
       "For the reasons above, I maintain that early English education is not necessarily needed."
@@ -686,7 +686,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "第二に、子どもは英語に対する抵抗感を持たないからだ。……",
-          "tr": "Second, children don't feel any resistance toward English. …"
+          "tr": "Second, children aren't resistant to English. …"
          }
         },
         {
@@ -1066,12 +1066,12 @@ TRY.registerLesson({
           {
            "sub": "a",
            "ja": "期末試験は必要な**のではないでしょうか**。（＝必要だ）",
-           "tr": "I'd say final exams are necessary, wouldn't you? (= They are necessary.)"
+           "tr": "Final exams are necessary, wouldn't you say? (= They are necessary.)"
           },
           {
            "sub": "b",
            "ja": "期末試験は必要ない**のではないでしょうか**。（＝必要ない）",
-           "tr": "I'd say final exams aren't necessary, wouldn't you? (= They aren't necessary.)"
+           "tr": "Final exams aren't necessary, wouldn't you say? (= They aren't necessary.)"
           }
          ]
         },
@@ -1081,12 +1081,12 @@ TRY.registerLesson({
           {
            "sub": "a",
            "ja": "大学生はアルバイトをすべきな**のではないでしょうか**。（＝するべきだ）",
-           "tr": "I'd say college students ought to work part-time, wouldn't you? (= They should.)"
+           "tr": "College students ought to work part-time, wouldn't you say? (= They should.)"
           },
           {
            "sub": "b",
            "ja": "大学生はアルバイトをすべきではない**のではないでしょうか**。（＝するべきではない）",
-           "tr": "I'd say college students shouldn't work part-time, wouldn't you? (= They shouldn't.)"
+           "tr": "College students shouldn't work part-time, wouldn't you say? (= They shouldn't.)"
           }
          ]
         },
@@ -1222,7 +1222,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "友達を作りたかったら、恥ずかし**がらない**で積極的に話しかけたほうがいいよ。",
-           "tr": "If you want to make friends, you should go up and talk to people without acting shy."
+           "tr": "If you want to make friends, don't be shy. You should go up and talk to people."
           }
          ]
         },
@@ -1490,7 +1490,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "ルームメートがゴミをゴミ捨て場に持っていこ**うとしない**んだ。",
-           "tr": "My roommate never even tries to take the garbage out to the garbage collection area."
+           "tr": "My roommate just won't take the garbage out to the collection area."
           },
           {
            "sp": "B",
@@ -1715,7 +1715,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "本当に全部が金色で、写真で見**たまま**だったから感動したよ。",
-           "tr": "It really was all gold, just like I'd seen in photos, so I was moved."
+           "tr": "It really was all gold, just like in the photos. I was so impressed."
           }
          ]
         }
@@ -4863,7 +4863,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "はっきり言ったほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせるからです。",
-        "tr": "Because if people say things clearly, there are no misunderstandings, and everyone can feel at ease with each other."
+        "tr": "Because if people say things clearly, there are no misunderstandings, and everyone can live together comfortably."
        }
       }
      ]
@@ -4953,7 +4953,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "注意する時は少し言いにくくても、はっきり言ってくれたほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせると思います。みなさんだったら、ルームメートにどのように注意しますか。",
-       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and everyone can feel at ease with each other. What about all of you? How would you tell your roommate?"
+       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and everyone can live together comfortably. What about all of you? How would you tell your roommate?"
       }
      ]
     }
