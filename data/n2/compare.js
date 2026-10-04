@@ -7,7 +7,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "〜{一方|いっぽう}①", level: "N2", no: 61,
-        ex: { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる**{一方|いっぽう}**、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While there are young people who go to the city looking for work, there are also young people who return to their hometowns to find jobs." },
+        ex: { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる**{一方|いっぽう}**、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While some young people move to the city in search of work, others return to their hometowns to find jobs." },
         note: "A一方（で）B: \"while A, (on the other hand) B\". Sets two contrasting situations side by side; attaches to the plain form (なA + な, N + の, or formal である) and says nothing about change over time." },
       { pattern: "V{一方|いっぽう}②", level: "N2", no: 115,
         ex: { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える**{一方|いっぽう}だ**。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists has just kept increasing." },
@@ -34,7 +34,7 @@ TRY.registerCompare([
         ex: { ja: "先週は{熱|ねつ}が40度も出た**{上|うえ}に**、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever as high as 40°C, and on top of that I had diarrhea that wouldn't stop. It was really awful." },
         note: "Plain form (なA + な, N + の) + 上（に）: \"on top of / not only A but also B\". Adds a second circumstance pointing the same way (both good or both bad), often with も; never a contrast (✗安い上にまずい)." },
       { pattern: "N{上|じょう}", level: "N2", no: 70,
-        ex: { ja: "お{札|さつ}にはその国の{歴史|れきし}**{上|じょう}**の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "Banknotes often depict the faces of historical figures from that country." },
+        ex: { ja: "お{札|さつ}にはその国の{歴史|れきし}**{上|じょう}**の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "Banknotes often bear the faces of historical figures from that country." },
         note: "N + 上 (read じょう), directly after a Sino-Japanese noun: \"from the standpoint of N / in terms of N\" (歴史上, 法律上, 健康上). A written-style suffix, not a clause connector like the うえ patterns; 上の + N modifies a noun." }
     ]
   },
@@ -64,7 +64,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "V{得|う}る", level: "N2", no: 66,
-        ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the murder weapon, but we couldn't find a single clue." },
+        ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the weapon, but couldn't find a single clue." },
         note: "V-ます stem + 得る (うる or える): \"can / could conceivably\". Logical possibility (考え得る, あり得る), not personal ability; formal and written. Only the dictionary form can be read うる; the negative 得ない (えない) means \"cannot / impossible\"." },
       { pattern: "Vざるを{得|え}ない", level: "N2", no: 24,
         ex: { ja: "{台風接近|たいふうせっきん}のため、{野外|やがい}コンサートは中止せ**ざるを{得|え}なく**なった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert." },
@@ -91,7 +91,7 @@ TRY.registerCompare([
         ex: { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}する**からには**、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "Since you want to find a job in Japan, you had better research companies thoroughly." },
         note: "V-る / V-た + からには: \"now that / since (it's decided or done)\". The second half must carry resolve, duty, advice or a command (〜べきだ, 〜つもりだ, 〜ほうがいい), not a neutral fact; 上は is its formal Plus variant." },
       { pattern: "〜から見て", level: "N2", no: 60,
-        ex: { ja: "便利さという点**から見ると**、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, cities are, as you'd expect, easier places to live than the countryside." },
+        ex: { ja: "便利さという点**から見ると**、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, the city is easier to live in than the countryside after all." },
         note: "N + から見て / から見ると / から見れば: \"judging from / from the viewpoint of N\". N is the vantage point or evidence for a judgment (〜という点から見ると, as here), not a reason." }
     ]
   },
@@ -106,7 +106,7 @@ TRY.registerCompare([
         ex: { ja: "この{目薬|めぐすり}は2週間で使い**きって**ください。{残|のこ}ったら使わないで{捨|す}ててください。", en: "Please use up these eye drops within two weeks. If any is left over, throw it away without using it." },
         note: "V-ます stem + きる: \"do completely / to the end\" (使いきる, 食べきる, 読みきる). The focus is on finishing all of it; not about what happens afterward." },
       { pattern: "Vたきり", level: "N2", no: 37,
-        ex: { ja: "彼は「ごめん」と言った**きり**、{黙|だま}ってしまった。", en: "He said \"Sorry\" and then fell silent." },
+        ex: { ja: "彼は「ごめん」と言った**きり**、{黙|だま}ってしまった。", en: "He said “sorry” and then fell silent." },
         note: "V-た + きり (casual っきり): \"did V, and that was the last of it\". Nothing further followed, so the rest is usually negative or an unchanged state (〜ていない, 〜ままだ)." }
     ]
   },
@@ -136,7 +136,7 @@ TRY.registerCompare([
         ex: { ja: "大変なときだ**からこそ**、{協力|きょうりょく}することが大切なんです。", en: "It is precisely because times are hard that working together is so important." },
         note: "Plain form + からこそ: \"precisely because\". The everyday way to insist that this is the real reason." },
       { pattern: "〜ばこそ", level: "N2", no: 53,
-        ex: { ja: "この山の{自然|しぜん}を{愛|あい}すれ**ばこそ**、{観光客|かんこうきゃく}の数を{厳|きび}しく{制限|せいげん}しているのです。", en: "It is precisely because we love this mountain's nature that we strictly limit the number of tourists." },
+        ex: { ja: "この山の{自然|しぜん}を{愛|あい}すれ**ばこそ**、{観光客|かんこうきゃく}の数を{厳|きび}しく{制限|せいげん}しているのです。", en: "It is precisely because we love the nature of this mountain that we strictly limit the number of tourists." },
         note: "V-ば / なA・N + であれば + こそ: \"precisely because\", but formal and somewhat literary. Often explains a motive behind an action that might seem harsh; usually ends in 〜のだ." },
       { pattern: "Vてこそ", level: "N2", no: 139,
         ex: { ja: "どんな{健康法|けんこうほう}も、続け**てこそ**{効果|こうか}がある。", en: "Any health regimen only works if you keep it up." },
@@ -169,10 +169,10 @@ TRY.registerCompare([
         ex: { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}の**こと**。{窓口|まどぐち}での受け付けは{行|おこな}っておりません。", en: "Applications must arrive by January 28. We do not accept them at the counter." },
         note: "Sentence-final V-る / V-ない / Nの + こと: \"must / do not\". An impersonal written rule or instruction on notices, application guidelines and regulations; not used in conversation." },
       { pattern: "〜ことか", level: "N2", no: 42,
-        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
+        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows how hard I worked." },
         note: "どれだけ / どんなに / なんと + plain form + ことか: \"you have no idea how ~!\". An emotional exclamation about the degree of what the speaker did or felt; somewhat literary." },
       { pattern: "〜ことから", level: "N2", no: 62,
-        ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "Because this sweet potato is red inside, it's called beni-imo (\"crimson potato\")." },
+        ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "This sweet potato is called a beni-imo (\"crimson potato\") because it is red inside." },
         note: "Plain form + ことから: \"from the fact that\". An objective, written reason based on an observable fact, typically the origin of a name (〜と呼ばれている), grounds for a judgment, or a cause." },
       { pattern: "〜ということだ", level: "N3",
         ex: { ja: "ニュースでは、今回の{地震|じしん}による{津波|つなみ}の{心配|しんぱい}はない**ということです**。", en: "According to the news, there is no danger of a tsunami from this earthquake." },
@@ -193,7 +193,7 @@ TRY.registerCompare([
         ex: { ja: "来週の月曜日、友達と映画を見る**ことになっています**。", en: "I'm supposed to see a movie with a friend next Monday." },
         note: "V-る / V-ない + ことになっている: \"be scheduled to / be the rule that\". An arrangement, plan or rule already in place." },
       { pattern: "〜ことに", level: "N2", no: 40,
-        ex: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いた**ことに**、バラの{花束|はなたば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I entered my hotel room, to my surprise, there was a bouquet of roses and a welcome message from the hotel manager on the table." },
+        ex: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いた**ことに**、バラの{花束|はなたば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I walked into my hotel room, to my surprise, there was a bouquet of roses and a welcome message from the hotel manager on the table." },
         note: "V-た / いA / なAな + ことに: \"surprisingly / fortunately / sadly\". Leads with the speaker's own feeling, then states the fact that caused it; the main clause is a statement of fact, not a request or intention." },
       { pattern: "Vことなく", level: "N2", no: 20,
         ex: { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}する**ことなく**、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "We were able to win this time, but we won't rest on that; we'll keep working even harder. Please continue to support us." },
@@ -202,7 +202,7 @@ TRY.registerCompare([
         ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a few people,\" but I wonder roughly how many they'll actually take on.\nB: Unless you ask them, you won't know the details." },
         note: "V-ない + ことには: \"unless (you) ~, (you can't)\". Stresses an indispensable first step; the second half must be negative or impossible (わからない, できない)." },
       { pattern: "Vことはない", level: "N2", no: 49,
-        ex: { ja: "{君|きみ}が{謝|あやま}る**ことはない**よ。悪いのは{向|む}こうなんだから。", en: "There's no need for you to apologize. They're the ones at fault." },
+        ex: { ja: "{君|きみ}が{謝|あやま}る**ことはない**よ。悪いのは{向|む}こうなんだから。", en: "There's no need for you to apologize. They're the ones in the wrong." },
         note: "V-る + ことはない: \"there's no need to\". Advice or reassurance to the listener, warmer than 〜なくてもいい." },
       { pattern: "〜ないことはない", level: "N2", no: 54,
         ex: { ja: "A：お酒、お好きですか。\nB：そんなに好きではありませんが、飲め**ないことはありません**。", en: "A: Do you like alcohol?\nB: I'm not that fond of it, but it's not that I can't drink." },
@@ -250,7 +250,7 @@ TRY.registerCompare([
         ex: { ja: "今から行っても間に合わないかもしれないけど、行く**だけ**行ってみようよ。", en: "We might not make it even if we go now, but let's at least go and see." },
         note: "V-る + だけ + the same V (usually 〜てみる): \"at least do V anyway\". The speaker admits it may not work out, but trying costs little." },
       { pattern: "Vだけ②", level: "N2", no: 55,
-        ex: { ja: "{春節|しゅんせつ}を前にリンさんはお{土産|みやげ}を持てる**だけ**持って、帰国した。", en: "Ahead of the Lunar New Year, Lin went back home carrying as many souvenirs as possible." },
+        ex: { ja: "{春節|しゅんせつ}を前にリンさんはお{土産|みやげ}を持てる**だけ**持って、帰国した。", en: "Ahead of Chinese New Year, Lin went home carrying as many souvenirs as they could manage." },
         note: "Potential verb (or V-たい / 好きな) + だけ + V: \"as much as one can (or wants)\". だけ marks the full extent, not \"only\"." },
       { pattern: "〜だけに", level: "N2", no: 105,
         ex: { ja: "この町は文化{遺産|いさん}に{登録|とうろく}されている**だけあって**、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As you'd expect of a town registered as a cultural heritage site, its residents are also highly conscious of environmental protection." },
@@ -271,7 +271,7 @@ TRY.registerCompare([
         ex: { ja: "チョコレートを食べたらにきびが増えると知り**つつも**、つい手が{伸|の}びてしまうんです。", en: "Even though I know I'll get more pimples if I eat chocolate, I just can't help reaching for it." },
         note: "V-ます stem + つつも: \"although / even while\". Concessive: typically 思う / 知る followed by an action that goes against it (つい〜てしまう); も can be dropped, leaving つつ with this meaning." },
       { pattern: "Vつつある", level: "N2", no: 71,
-        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are gradually spreading around the world." },
+        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are gradually spreading to all parts of the world." },
         note: "V-ます stem + つつある: \"is in the process of ~ing\". Only with change verbs, for a change that is under way but not complete; not for ordinary actions (✗食べつつある)." }
     ]
   },
@@ -286,7 +286,7 @@ TRY.registerCompare([
         ex: { ja: "私は来年日本に留学する**つもりです**。", en: "I plan to go to Japan to study next year." },
         note: "V-る / V-ない + つもりだ: \"intend / plan to\"." },
       { pattern: "〜つもり①", level: "N2", no: 59,
-        ex: { ja: "旅行に行った**つもりで**、この「{列車|れっしゃ}の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy this \"Train Journeys\" DVD as though we'd actually gone on a trip." },
+        ex: { ja: "旅行に行った**つもりで**、この「{列車|れっしゃ}の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy this \"Train Journey\" DVD as though we'd actually gone on a trip." },
         note: "V-た / Nの + つもりで: \"imagining that / in the frame of mind of\". The speaker knows it isn't true but deliberately adopts that attitude (旅行に行ったつもりで, 本番のつもりで)." },
       { pattern: "〜つもり②", level: "N2", no: 120,
         ex: { ja: "説明書通りにやっている**つもり**なのに、どうしてもうまくできない。", en: "I think I'm doing it exactly as the instructions say, but I just can't get it to work." },
@@ -364,7 +364,7 @@ TRY.registerCompare([
         ex: { ja: "{高齢者|こうれいしゃ}でも、働ける**{限|かぎ}り**は働きたいと思っている人が多い。", en: "Even among the elderly, many people want to keep working as long as they can." },
         note: "V-る / V-ている + 限り: \"as long as\". The result holds while the condition lasts (V-ない限り = \"unless\"); also 知る限り, \"as far as I know\"." },
       { pattern: "Nに{限|かぎ}らず", level: "N2", no: 72, printedNo: 71, // the book prints 71 here (misprint); #72 is Nに限らず
-        ex: { ja: "{環境対策|かんきょうたいさく}のためにも、夏**に{限|かぎ}らず**、{年間|ねんかん}を通して{節電|せつでん}を心がけるべきだ。", en: "For the sake of the environment as well, we should make a point of saving electricity not just in summer but all year round." },
+        ex: { ja: "{環境対策|かんきょうたいさく}のためにも、夏**に{限|かぎ}らず**、{年間|ねんかん}を通して{節電|せつでん}を心がけるべきだ。", en: "For the environment's sake as well, we should make a point of saving electricity all year round, not just in summer." },
         note: "N + に限らず: \"not only N (but others too)\". Widens the scope, usually with も / でも / あらゆる in the second half; the opposite of Nに限り." },
       { pattern: "Nに{限|かぎ}って", level: "N2", no: 86,
         ex: { ja: "よく知らないやつ**に{限|かぎ}って**、{偉|えら}そうなことを言う。", en: "It's precisely the guys who don't know much who talk as if they're so important." },
@@ -415,7 +415,7 @@ TRY.registerCompare([
         ex: { ja: "お薬**のみ**ご{希望|きぼう}の方は、こちらの{箱|はこ}に{診察券|しんさつけん}をお入れください。", en: "If you only need your medication, please put your patient card in this box." },
         note: "N / V-る + のみ: \"only\". The formal, written だけ, common in notices (会員のみ, 現金のみ); also V-るのみだ, \"all that's left is to\"." },
       { pattern: "〜のみならず", level: "N2", no: 63,
-        ex: { ja: "{現在|げんざい}、日本のコンビニは{若者|わかもの}**のみならず**、あらゆる{世代|せだい}の{人々|ひとびと}に{様々|さまざま}な{目的|もくてき}で利用されている。", en: "Today, Japanese convenience stores are used not only by young people but by people of every generation for all kinds of purposes." },
+        ex: { ja: "{現在|げんざい}、日本のコンビニは{若者|わかもの}**のみならず**、あらゆる{世代|せだい}の{人々|ひとびと}に{様々|さまざま}な{目的|もくてき}で利用されている。", en: "Today, convenience stores in Japan are used not only by young people but by people of every generation, for all sorts of purposes." },
         note: "Plain form (なA / N + である) + のみならず: \"not only ~ (but also)\". The formal だけでなく: widens the scope rather than restricting it, with も in the second half." }
     ]
   },
@@ -490,13 +490,13 @@ TRY.registerCompare([
         ex: { ja: "A：この町、ずいぶん変わりましたね。\nB：ええ、便利にはなったんですが、違う町になってしまったみたいで、さびしい**ものがあります**よ。", en: "A: This town has really changed, hasn't it?\nB: Yes. It's become more convenient, but it feels like it's turned into a different town, and there's something sad about that." },
         note: "Plain form (present only) + ものがある: \"there's something ~ about it\". The speaker's strong impression, without pinning down its cause (さびしいものがある)." },
       { pattern: "〜ものの", level: "N2", no: 39,
-        ex: { ja: "水泳教室に通ってはいる**ものの**、いまだに25メートルしか泳げない。", en: "Although I do go to swimming lessons, I still can only swim 25 meters." },
+        ex: { ja: "水泳教室に通ってはいる**ものの**、いまだに25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can't swim more than 25 meters." },
         note: "Plain form + ものの: \"although / it's true that ~, but\". Admits a fact, then says the expected follow-up didn't happen; more written and emphatic than けど, often with は (通ってはいるものの)." },
       { pattern: "Vものなら", level: "N2", no: 122,
         ex: { ja: "子どものころから{星|ほし}が好きだったので、行ける**ものなら**{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I possibly could, I'd love to go on a trip into space." },
         note: "Potential verb + ものなら: \"if I possibly could\". A longing for something the speaker thinks is nearly impossible, followed by 〜たい (often the same verb: 行けるものなら行きたい)." },
       { pattern: "〜ものか", level: "N2", no: 51,
-        ex: { ja: "こんなサービスの悪い店には二度と来る**もんか**。", en: "I'll never come back to a store with service this bad!" },
+        ex: { ja: "こんなサービスの悪い店には二度と来る**もんか**。", en: "I'm never coming back to a store with service this bad!" },
         note: "V-る / いA / なAな + ものか (casual もんか): \"never! / as if!\". A rhetorical question used as a fierce refusal or flat denial." },
       { pattern: "〜もん", level: "N2", no: 56,
         ex: { ja: "A：そんなにたくさんお{土産|みやげ}買うの？\nB：だって、この{人形|にんぎょう}もこのお{菓子|かし}も日本じゃなきゃ、買えないんだ**もん**。", en: "A: You're buying that many souvenirs?\nB: Well, you can't buy these dolls or these sweets anywhere but Japan!" },
@@ -529,7 +529,7 @@ TRY.registerCompare([
         ex: { ja: "おしゃれに{全然|ぜんぜん}気を使わない**ようじゃ**、社会人としてまずいんじゃない？", en: "If you don't pay any attention to how you dress, that's a problem for a working adult, isn't it?" },
         note: "V-る / V-ない + ようでは (casual ようじゃ): \"if you're (still) the kind who ~\". Criticizes a current state by predicting a bad result (まずい, やっていけない)." },
       { pattern: "Vようがない", level: "N2", no: 44,
-        ex: { ja: "出張の予定だったが、{大雪|おおゆき}で{飛行機|ひこうき}が{欠航|けっこう}してしまったので行き**ようがない**。", en: "I was supposed to go on a business trip, but my flight was canceled due to heavy snow, so there's no way for me to go." },
+        ex: { ja: "出張の予定だったが、{大雪|おおゆき}で{飛行機|ひこうき}が{欠航|けっこう}してしまったので行き**ようがない**。", en: "I was supposed to go on a business trip, but the flight was canceled because of heavy snow, so there's no way I can go." },
         note: "V-ます stem + ようがない: \"there's no way to\". The means (information, transportation, contact) are missing, so the action is impossible." }
     ]
   },

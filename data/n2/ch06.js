@@ -173,7 +173,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ものか」は、{独|ひと}り{言|ごと}などで、「{決|けっ}して〜しない」と自分の気持ちを強く言いたいときに使う。相手の言ったことを、「{絶対|ぜったい}〜ではない・〜は違う」と否定するときにも使う。話し言葉では「〜もんか」「〜もんですか」を使う。", en: "Use \"〜ものか\" when you want to strongly state, to yourself or someone else, a feeling you have that \"it's definitely not 〜\". You can also use it to refute what another person has said, as in \"it's absolutely not 〜; 〜 is wrong.\" In colloquial speech use \"〜もんか\" or \"〜もんですか\"." },
           forms: ["[V-る]／[いA]／[なA] な／[N] な + ものか／もんか", "[V-る]／[いA]／[なA] な／[N] な + ものですか／もんですか"],
           examples: [
-            { ja: "こんなサービスの悪い店には二度と来るもんか。", en: "I'm never coming back to a shop with such bad service." },
+            { ja: "こんなサービスの悪い店には二度と来るもんか。", en: "I'm never coming back to a store with service this bad!" },
             { ja: "会社が{業績|ぎょうせき}{不振|ふしん}で{給料|きゅうりょう}が30%カットされるなんて、そんなばかなことがあるものか。", en: "A 30% pay cut because the company's doing badly? How can something that absurd even happen?" },
             { ja: "A：ちゃんと{断|ことわ}ったから、もう金貸してくれなんて言ってこないよね。\nB：一度{断|ことわ}られたぐらいで、あいつがあきらめるものか。きっとまた来るに決まってるよ。", en: "A: I turned him down clearly, so he won't come asking to borrow money again, right?\nB: As if that guy would give up after being turned down just once. He's sure to come back." },
             { ja: "A：本当ですか。そんな話とても信じられませんよ。\nB：本当ですよ。うそなんかつくもんですか。", en: "A: Really? I just can't believe a story like that.\nB: It's true. Why would I lie?" },
@@ -468,7 +468,7 @@ TRY.registerChapter({
             { ja: "「ただ〜のみ」という言い方もある。", en: "The expression ただ〜のみ is also used.", gen: true },
           ],
           examples: [
-            { ja: "お薬のみご{希望|きぼう}の方は、こちらの{箱|はこ}に{診察券|しんさつけん}をお入れください。", en: "Patients who only need their medicine, please put your patient card in this box." },
+            { ja: "お薬のみご{希望|きぼう}の方は、こちらの{箱|はこ}に{診察券|しんさつけん}をお入れください。", en: "If you only need your medication, please put your patient card in this box." },
             { ja: "申し込みは{郵送|ゆうそう}のみの受け付けとなります。", en: "Applications are accepted by mail only." },
             { ja: "{太枠内|ふとわくない}のみご{記入|きにゅう}ください。", en: "Please fill in only the area inside the bold frame." },
             { ja: "するべきことはすべてした。あとはただ{結果|けっか}を待つのみだ。", en: "I've done everything I should. All that's left is simply to wait for the result." },
@@ -487,7 +487,7 @@ TRY.registerChapter({
           usage: { ja: "「本当はそうではないが、そのような気持ちになって」と言いたいときに使う。", en: "Use this when you want to say \"it's not really like that, but I've come to feel it is.\"" },
           forms: ["[V-た]／[いA]／[なA] な／[N] の + つもり"],
           examples: [
-            { ja: "旅行に行ったつもりで、この「{列車|れっしゃ}の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy watching this \"Train Journey\" DVD and imagine we've gone on a trip." },
+            { ja: "旅行に行ったつもりで、この「{列車|れっしゃ}の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy this \"Train Journey\" DVD as though we'd actually gone on a trip." },
             { ja: "{娘|むすめ}は{体験学習|たいけんがくしゅう}の{際|さい}に、お母さんになったつもりで赤ちゃんのお{世話|せわ}をしたそうだ。", en: "I hear that during a hands-on learning activity, my daughter looked after a baby as if she were its mother." },
             { ja: "いつまでも若いつもりで{徹夜|てつや}してると体を{壊|こわ}すよ。", en: "If you keep pulling all-nighters thinking you're as young as ever, you'll ruin your health." },
             { ja: "ヘルパーさんは、本当の家族のつもりでお{年寄|としよ}りの{世話|せわ}をしていると言っていた。", en: "The caregiver said they look after their elderly clients as if they were their own family." },

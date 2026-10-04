@@ -340,7 +340,7 @@ TRY.registerChapter({
             { ja: "「ありえない」は信じられないという気持ちで、会話でよく使われる。", en: "\"ありえない\" is often used in conversation to say that something is unbelievable." },
           ],
           examples: [
-            { ja: "{凶器|きょうき}がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place where the weapon might be, but couldn't find a single clue." },
+            { ja: "{凶器|きょうき}がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the weapon, but couldn't find a single clue." },
             { ja: "{普通|ふつう}の人が{宇宙|うちゅう}へ行ける日が来るなんて、100年前には{想像|そうぞう}し{得|え}なかったことだ。", en: "A hundred years ago, no one could have imagined that a day would come when ordinary people could go to space." },
             { ja: "マーケティング{調査|ちょうさ}の{結果|けっか}によっては、{発売時期|はつばいじき}の{変更|へんこう}もあり{得|う}る。", en: "Depending on the results of the marketing research, a change in the release date is also possible." },
             { ja: "{犯人|はんにん}しか知り{得|え}ない{情報|じょうほう}を、彼は知っていた。", en: "He knew information that only the culprit could have known." },

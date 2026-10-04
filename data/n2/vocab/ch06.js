@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "train",
     note: "A more formal or technical word, used for long-distance and named trains: 夜行列車 (night train), 特急列車, 列車の旅. 電車 is the everyday word for (electric) trains.",
     rx: ["れつしゃ", "れっくるま", "れいしゃ"],
-    book: { ja: "旅行に行ったつもりで、この「**{列車|れっしゃ}**の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy watching this \"Train Journey\" DVD and imagine we've gone on a trip.", at: "gp/59" },
+    book: { ja: "旅行に行ったつもりで、この「**{列車|れっしゃ}**の旅」のDVDを見て、楽しみましょう。", en: "Let's enjoy this \"Train Journey\" DVD as though we'd actually gone on a trip.", at: "gp/59" },
     ex: [
       { ja: "{大雪|おおゆき}のため、{夜行|やこう}**{列車|れっしゃ}**は{運休|うんきゅう}となった。", en: "Because of heavy snow, the night train was canceled.", alt: ["{行列|ぎょうれつ}", "{駐車|ちゅうしゃ}", "{車庫|しゃこ}"] },
     ] },

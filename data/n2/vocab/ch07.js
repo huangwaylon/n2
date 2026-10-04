@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "weapon (used in a crime)",
     note: "A crime-news word for the object used to hurt someone: 凶器を捨てる, 凶器が見つかる. 武器 is a weapon in general (war, fighting). Homophones: 狂気 (madness), 驚喜 (delight).",
     rx: ["きょき", "きょうぎ", "こうき"],
-    book: { ja: "**{凶器|きょうき}**がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place where the weapon might be, but couldn't find a single clue.", at: "gp/66" },
+    book: { ja: "**{凶器|きょうき}**がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the weapon, but couldn't find a single clue.", at: "gp/66" },
     ex: [
       { ja: "{警察|けいさつ}は、{現場|げんば}{近|ちか}くの{川|かわ}から**{凶器|きょうき}**のナイフを{見|み}つけた。", en: "Police found the knife used in the crime in a river near the scene.", alt: ["{凶暴|きょうぼう}", "{楽器|がっき}", "{容器|ようき}"] },
     ] },
