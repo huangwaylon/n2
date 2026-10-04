@@ -93,7 +93,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["たいひょうてき", "だいひょてき", "だいびょうてき"],
     book: { ja: "「〜をはじめ」は、**{代表的|だいひょうてき}**な例を出して、「〜だけでなくほかにもたくさん」と言いたいときに使う。", en: "Use \"〜をはじめ\" when you want to say \"not just 〜, but many others\" by giving a typical examples.", at: "gp/10", src: "book" },
     ex: [
-      { ja: "すしは{日本|にほん}の**{代表的|だいひょうてき}**な{料理|りょうり}の一つだ。", en: "Sushi is one of Japan's representative dishes.", alt: ["{積極的|せっきょくてき}", "{一時的|いちじてき}", "{部分的|ぶぶんてき}"] },
+      { ja: "すしは{日本|にほん}の**{代表的|だいひょうてき}**な{料理|りょうり}の一つだ。", en: "Sushi is one of Japan's signature dishes.", alt: ["{積極的|せっきょくてき}", "{一時的|いちじてき}", "{部分的|ぶぶんてき}"] },
     ] },
   { w: "{見直|みなお}し", lv: "N1", pos: "noun",
     en: "review; reexamination; revision (of a plan, system or habits)",
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lively; active; brisk",
     note: "Full of energy and activity: 活発な子ども, 活発な議論 (a lively discussion), 交流が活発になる. 積極的 is “proactive” (willing to act); 活発 describes energetic movement or activity.",
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
-    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably become active not only in the economy but in culture as well.", at: "gp/12" },
+    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably grow more active in culture, as well as in the economy, of course.", at: "gp/12" },
     ex: [
       { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees offered lively opinions.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
@@ -267,7 +267,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "course (of lectures); class; university chair",
     note: "An organized series of lessons: 英会話講座, 公開講座, オンライン講座, 講座を受ける / 開く. 講義 is a single lecture at university; 授業 is a class period at school.",
     rx: ["こうさ", "こうざい", "こざ"],
-    book: { ja: "この**{講座|こうざ}**はボランティア{活動|かつどう}をする{上|うえ}で（　）。", en: "In this course you learn (　) to do volunteer work.", at: "gp/14" },
+    book: { ja: "この**{講座|こうざ}**はボランティア{活動|かつどう}をする{上|うえ}で（　）。", en: "In this course, you learn (　) to do volunteer work.", at: "gp/14" },
     ex: [
       { ja: "{市民|しみん}センターで{週|しゅう}に{一度|いちど}、{料理|りょうり}の**{講座|こうざ}**を{受|う}けている。", en: "I take a cooking course once a week at the community center.", alt: ["{口座|こうざ}", "{講演|こうえん}", "{座席|ざせき}"] },
     ] },
@@ -667,7 +667,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "results; fruit (of one's efforts); outcome",
     note: "Good results earned by effort: 成果が出る / 表れる / 上がる, 研究成果, 成果主義 (performance-based pay). 結果 is any result, good or bad.",
     rx: ["せいが", "じょうか", "せか"],
-    book: { ja: "あきらめる（　）、{努力|どりょく}を続ければ、{必|かなら}ず**{成果|せいか}**は表れると信じている。", en: "I believe that if you keep making an effort without giving up, results will surely appear.", at: "ch/2/review" },
+    book: { ja: "あきらめる（　）、{努力|どりょく}を続ければ、{必|かなら}ず**{成果|せいか}**は表れると信じている。", en: "I believe that if you keep making an effort without giving up, you will definitely see results.", at: "ch/2/review" },
     ex: [
       { ja: "{毎日|まいにち}の{練習|れんしゅう}の**{成果|せいか}**が、{試合|しあい}で{出|で}た。", en: "The fruits of daily practice showed in the match.", alt: ["{青果|せいか}", "{成分|せいぶん}", "{成人|せいじん}"] },
     ] },
@@ -675,7 +675,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "security; guarding; patrol",
     note: "Guarding a place or event: 警備員 (security guard), 警備を強化する (tighten security), 厳重な警備. 警察 is the police; 防犯 is crime prevention in general.",
     rx: ["けいひ", "きょうび", "けび"],
-    book: { ja: "**{警備|けいび}**を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が{適切|てきせつ}だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and whether the security was adequate has become an issue.", at: "ch/2/review" },
+    book: { ja: "**{警備|けいび}**を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が{適切|てきせつ}だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and questions are being raised about whether the security was adequate.", at: "ch/2/review" },
     ex: [
       { ja: "{首相|しゅしょう}が{来|く}るので、{駅|えき}の**{警備|けいび}**がいつもより{厳|きび}しい。", en: "Because the prime minister is coming, security at the station is tighter than usual.", alt: ["{準備|じゅんび}", "{警告|けいこく}", "{整備|せいび}"] },
     ] },
@@ -683,7 +683,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "strengthening; reinforcement; intensification",
     note: "Making something stronger or tighter: 警備を強化する, チームの強化, 取り締まりの強化 (crackdown). The opposite is 弱化 (rare) / 緩和 (easing).",
     rx: ["きょか", "ごうか", "きょうが"],
-    book: { ja: "{警備|けいび}を**{強化|きょうか}**した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が{適切|てきせつ}だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and whether the security was adequate has become an issue.", at: "ch/2/review" },
+    book: { ja: "{警備|けいび}を**{強化|きょうか}**した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が{適切|てきせつ}だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and questions are being raised about whether the security was adequate.", at: "ch/2/review" },
     ex: [
       { ja: "{飲酒|いんしゅ}{運転|うんてん}の{取|と}り{締|し}まりが**{強化|きょうか}**された。", en: "The crackdown on drunk driving was stepped up.", alt: ["{強調|きょうちょう}", "{文化|ぶんか}", "{消化|しょうか}"] },
     ] },
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "appropriate; suitable; proper",
     note: "Right for the situation: 適切な判断 / 処置 / 表現, 不適切な発言 (inappropriate remark). 適当 can also mean “half-hearted, sloppy” in speech, so 適切 is safer for “appropriate”.",
     rx: ["てっせつ", "てきさい", "てきぜつ"],
-    book: { ja: "{警備|けいび}を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が**{適切|てきせつ}**だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and whether the security was adequate has become an issue.", at: "ch/2/review" },
+    book: { ja: "{警備|けいび}を{強化|きょうか}した（　）、3{億|おく}円のダイヤが{盗|ぬす}まれ、{警備|けいび}が**{適切|てきせつ}**だったか問題になっている。", en: "Despite the tightened security, a 300-million-yen diamond was stolen, and questions are being raised about whether the security was adequate.", at: "ch/2/review" },
     ex: [
       { ja: "{医師|いし}の**{適切|てきせつ}**な{処置|しょち}のおかげで、{命|いのち}が{助|たす}かった。", en: "Thanks to the doctor's appropriate treatment, the patient's life was saved.", alt: ["{大切|たいせつ}", "{親切|しんせつ}", "{切実|せつじつ}"] },
     ] },
