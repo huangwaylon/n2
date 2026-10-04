@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "qualification; eligibility; license or certificate",
     note: "Both the requirements for something (応募資格 “eligibility to apply”) and an official certification you earn: 資格を取る (get qualified), 教員の資格. 免許 is specifically a license such as a driver's license.",
     rx: ["しっかく", "しかっく", "じかく"],
-    book: { ja: "**{資格|しかく}**▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Qualifications: regardless of age, experience or nationality, motivated people are very welcome!", at: "ch/1" },
+    book: { ja: "**{資格|しかく}**▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "{仕事|しごと}に{役立|やくだ}つので、{会計|かいけい}の**{資格|しかく}**を取ろうと思っている。", en: "I'm thinking of getting an accounting qualification because it will help at work.", alt: ["{資源|しげん}", "{性格|せいかく}", "{価格|かかく}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "nationality; citizenship",
     note: "The legal nationality of a person (or registry of a ship/aircraft): 日本国籍を取得する (acquire Japanese citizenship), 国籍を問わず (regardless of nationality). Forms ask 国籍 where English forms say “Nationality”.",
     rx: ["こくせつ", "こうせき", "くにせき"],
-    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・**{国籍|こくせき}**を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Qualifications: regardless of age, experience or nationality, motivated people are very welcome!", at: "ch/1" },
+    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・**{国籍|こくせき}**を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "このチームには、さまざまな**{国籍|こくせき}**の{選手|せんしゅ}がいる。", en: "This team has players of many different nationalities.", alt: ["{戸籍|こせき}", "{書籍|しょせき}", "{国境|こっきょう}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "a very warm welcome; (…) very welcome",
     note: "大 + 歓迎 (welcome). Ads and notices use it as a slogan: 初心者大歓迎 (beginners very welcome), 未経験者大歓迎. 歓迎 itself is also used for people and ideas: 歓迎会 (welcome party), 意見を歓迎する.",
     rx: ["だいかんぎょう", "たいかんげい", "だいかんけい"],
-    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、**{大歓迎|だいかんげい}**！", en: "Qualifications: regardless of age, experience or nationality, motivated people are very welcome!", at: "ch/1" },
+    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、**{大歓迎|だいかんげい}**！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "{料理|りょうり}{教室|きょうしつ}は{初心者|しょしんしゃ}**{大歓迎|だいかんげい}**です。", en: "Beginners are very welcome at the cooking class.", alt: ["{大成功|だいせいこう}", "{大反対|だいはんたい}", "{大混乱|だいこんらん}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "designated; prescribed; fixed (by the rules)",
     note: "Always as 所定の + noun in official writing: 所定の用紙 (the prescribed form), 所定の位置 (the designated place), 所定の手続き. It means “the one laid down by the organization”, not merely “fixed” in general (決まった).",
     rx: ["しょじょう", "しょうてい", "ところてい"],
-    book: { ja: "{応募|おうぼ}▶{当店|とうてん}**{所定|しょてい}**のフォームに{記入|きにゅう}し、{下記|かき}のメールアドレスまでお送りください。", en: "How to apply: fill in our store's designated form and send it to the email address below.", at: "ch/1" },
+    book: { ja: "{応募|おうぼ}▶{当店|とうてん}**{所定|しょてい}**のフォームに{記入|きにゅう}し、{下記|かき}のメールアドレスまでお送りください。", en: "How to apply: fill out our store's application form and send it to the email address below.", at: "ch/1" },
     ex: [
       { ja: "{使|つか}い{終|お}わった{自転車|じてんしゃ}は、**{所定|しょてい}**の{場所|ばしょ}に{戻|もど}してください。", en: "Please return the bicycles to the designated area when you have finished using them.", alt: ["{否定|ひてい}", "{安定|あんてい}", "{限定|げんてい}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "filling in (a form); writing in, entering (information)",
     note: "Writing information into set spaces: 用紙に記入する, 記入例 (sample entry), 記入漏れ (a blank left unfilled). Typing into a computer is 入力; writing a memo freely is 書く or 記録する.",
     rx: ["きにゅ", "きいり", "けにゅう"],
-    book: { ja: "{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに**{記入|きにゅう}**し、{下記|かき}のメールアドレスまでお送りください。", en: "How to apply: fill in our store's designated form and send it to the email address below.", at: "ch/1" },
+    book: { ja: "{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに**{記入|きにゅう}**し、{下記|かき}のメールアドレスまでお送りください。", en: "How to apply: fill out our store's application form and send it to the email address below.", at: "ch/1" },
     ex: [
       { ja: "{申込書|もうしこみしょ}に{名前|なまえ}と{住所|じゅうしょ}を**{記入|きにゅう}**してください。", en: "Please write your name and address on the application form.", alt: ["{記念|きねん}", "{輸入|ゆにゅう}", "{介入|かいにゅう}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "the following; (given) below",
     note: "Used in notices and business mail to point to details listed below: 下記の通り (as follows), 下記までご連絡ください. Its pair is 上記 (the above). In speech you would say 下に書いてある.",
     rx: ["したき", "げき", "かぎ"],
-    book: { ja: "{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに{記入|きにゅう}し、**{下記|かき}**のメールアドレスまでお送りください。", en: "How to apply: fill in our store's designated form and send it to the email address below.", at: "ch/1" },
+    book: { ja: "{応募|おうぼ}▶{当店|とうてん}{所定|しょてい}のフォームに{記入|きにゅう}し、**{下記|かき}**のメールアドレスまでお送りください。", en: "How to apply: fill out our store's application form and send it to the email address below.", at: "ch/1" },
     ex: [
       { ja: "{説明会|せつめいかい}の{日程|にってい}は**{下記|かき}**の{通|とお}りです。", en: "The schedule for the information session is as follows.", alt: ["{下旬|げじゅん}", "{日記|にっき}", "{書記|しょき}"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "inquiry; asking (an organization) for information",
     note: "Usually with お: お問い合わせ先 (contact), お問い合わせはこちら. The verb is 問い合わせる (〜に…を問い合わせる). It is the polite, formal way to “ask” a company or office; asking a friend is just 聞く.",
     rx: ["とうあわせ", "もんあわせ", "といごうわせ"],
-    book: { ja: "電話でのお**{問|と}い{合|あ}わせ**は10時〜18時。", en: "Telephone inquiries: 10:00–18:00.", at: "ch/1" },
+    book: { ja: "電話でのお**{問|と}い{合|あ}わせ**は10時〜18時。", en: "Phone inquiries: 10:00–18:00.", at: "ch/1" },
     ex: [
       { ja: "{商品|しょうひん}についてのお**{問|と}い{合|あ}わせ**は、こちらの{番号|ばんごう}までお{願|ねが}いします。", en: "For inquiries about our products, please call this number.", alt: ["{組|く}み{合|あ}わせ", "{待|ま}ち{合|あ}わせ", "{詰|つ}め{合|あ}わせ"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "renovation; remodeling (of a store or building interior)",
     note: "Redoing the interior or appearance of a shop or building: 改装工事, 改装中, 改装オープン. リフォーム is the usual word for homes; 改築 means rebuilding part of the structure.",
     rx: ["かいしょう", "がいそう", "かいぞう"],
-    book: { ja: "ただ今、**{改装|かいそう}**工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left.", at: "gp/1" },
+    book: { ja: "ただ今、**{改装|かいそう}**工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
     ex: [
       { ja: "{駅前|えきまえ}のカフェは**{改装|かいそう}**のため、{今月|こんげつ}いっぱい{休|やす}みだ。", en: "The café in front of the station is closed for the rest of the month for renovation.", alt: ["{改正|かいせい}", "{変装|へんそう}", "{包装|ほうそう}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "store; shop (as premises or a business location)",
     note: "A business word: 店舗数 (number of stores), 新店舗 (new outlet), 仮店舗 (temporary store). It sounds more formal than 店 and treats the store as a unit or building.",
     rx: ["てんほ", "てんぼ", "みせぽ"],
-    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}**{店舗|てんぽ}**で{営業|えいぎょう}いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left.", at: "gp/1" },
+    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}**{店舗|てんぽ}**で{営業|えいぎょう}いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
     ex: [
       { ja: "そのコンビニチェーンは、{全国|ぜんこく}に{五千|ごせん}以上の**{店舗|てんぽ}**を持っている。", en: "That convenience store chain has more than 5,000 stores nationwide.", alt: ["{店頭|てんとう}", "{舗装|ほそう}", "{商品|しょうひん}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "being open for business; business operations; sales (department/work)",
     note: "Two main uses: a business being open (営業時間 “business hours”, 営業中 “open”) and selling to clients (営業部 “sales department”, 営業の仕事). 営業する with a shop as subject means it is open.",
     rx: ["えいごう", "えいぎょ", "えいきょう"],
-    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で**{営業|えいぎょう}**いたしております。", en: "We are currently under renovation, so we are doing business at the temporary store shown on the left.", at: "gp/1" },
+    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で**{営業|えいぎょう}**いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
     ex: [
       { ja: "この{店|みせ}は{年中無休|ねんじゅうむきゅう}で、{朝|あさ}7時から**{営業|えいぎょう}**している。", en: "This shop is open every day of the year, from 7 a.m.", alt: ["{経営|けいえい}", "{作業|さぎょう}", "{職業|しょくぎょう}"] },
     ] },
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "bank transfer; payment into an account",
     note: "Paying by sending money to someone's account: 振り込み手数料, 銀行振り込み. The verb is 振り込む (〜に振り込む). A related crime word is 振り込め詐欺 (phone scam demanding a transfer).",
     rx: ["ふりごみ", "しんこみ", "ぶりこみ"],
-    book: { ja: "**{振|ふ}り{込|こ}み**に{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "When making a bank transfer, the handling fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "**{振|ふ}り{込|こ}み**に{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
     ex: [
       { ja: "{授業料|じゅぎょうりょう}の**{振|ふ}り{込|こ}み**は、{今月|こんげつ}{末|まつ}までにお{願|ねが}いします。", en: "Please pay the tuition by bank transfer by the end of this month.", alt: ["{打|う}ち{込|こ}み", "{書|か}き{込|こ}み", "{思|おも}い{込|こ}み"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "handling fee; service charge; commission",
     note: "A fee for a transaction or service: 振り込み手数料, 手数料がかかる, 手数料無料. 料金 is a general charge for use; 手数料 is specifically for the trouble of processing something.",
     rx: ["てかずりょう", "しゅすうりょう", "てすりょう"],
-    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、**{手数料|てすうりょう}**はお客様のご{負担|ふたん}となります。", en: "When making a bank transfer, the handling fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、**{手数料|てすうりょう}**はお客様のご{負担|ふたん}となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
     ex: [
       { ja: "{夜間|やかん}にATMを{使|つか}うと、**{手数料|てすうりょう}**がかかる。", en: "If you use an ATM at night, there's a service charge.", alt: ["{授業料|じゅぎょうりょう}", "{入場料|にゅうじょうりょう}", "{材料|ざいりょう}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "burden; bearing (a cost or responsibility); strain",
     note: "Taking on costs, work or stress: 費用を負担する (bear the cost), 送料はお客様のご負担 (shipping paid by the customer), 体に負担がかかる (put strain on the body), 負担が大きい.",
     rx: ["ふだん", "ぶたん", "ふうたん"],
-    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご**{負担|ふたん}**となります。", en: "When making a bank transfer, the handling fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご**{負担|ふたん}**となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
     ex: [
       { ja: "{重|おも}い{荷物|にもつ}を{毎日|まいにち}{運|はこ}ぶのは、{腰|こし}に**{負担|ふたん}**がかかる。", en: "Carrying heavy loads every day puts a strain on your lower back.", alt: ["{担当|たんとう}", "{勝負|しょうぶ}", "{分担|ぶんたん}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping your order, some of the items were sent out late.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping orders, some items were sent out late.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },
