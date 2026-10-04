@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "a few; some; a small number or amount; slightly",
     note: "A formal word: job ads say 若干名 (“a small number of positions”), notices say 若干の変更 (some changes), and 若干高い means “a bit pricey”. In conversation people say 少し or ちょっと. Note the reading じゃっかん (not じゃくかん).",
     rx: ["じゃくかん", "じゃっけん", "わかほし"],
-    book: { ja: "困ったことにこの{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「**{若干名|じゃっかんめい}**」なんだよ。", en: "The annoying thing is that in this industry, every company's job ad just says they're hiring “a small number of people.”", at: "ch/5" },
+    book: { ja: "困ったことにこの{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「**{若干名|じゃっかんめい}**」なんだよ。", en: "Annoyingly, in this industry every company's job listing just says they're hiring “a small number of people.”", at: "ch/5" },
     ex: [
       { ja: "{説明会|せつめいかい}の{日程|にってい}に**{若干|じゃっかん}**の{変更|へんこう}があります。", en: "There are some slight changes to the schedule of the information session.", alt: ["{若年|じゃくねん}", "{弱点|じゃくてん}", "{若者|わかもの}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "self; oneself",
     note: "Mostly in compounds: 自己紹介 (self-introduction), 自己PR (self-promotion, a standard part of Japanese job applications), 自己責任 (one's own responsibility), 自己中 (casual: self-centered). On its own it is formal; the everyday word for “oneself” is 自分. Don't confuse it with 事故 (accident), also read じこ.",
     rx: ["じこう", "じご", "じっこ"],
-    book: { ja: "{求人|きゅうじん}があるところは全部{応募|おうぼ}して、**{自己|じこ}**{ＰＲ|ピーアール}何回書いたことか。", en: "I've applied to every place that's hiring — I can't tell you how many self-promotion statements I've written.", at: "ch/5" },
+    book: { ja: "{求人|きゅうじん}があるところは全部{応募|おうぼ}して、**{自己|じこ}**{ＰＲ|ピーアール}何回書いたことか。", en: "I've applied to every place that's hiring — I can't tell you how many personal statements I've written.", at: "ch/5" },
     ex: [
       { ja: "{面接|めんせつ}の{最初|さいしょ}に、一{分|ぷん}で**{自己|じこ}**{紹介|しょうかい}をしてください。", en: "At the start of the interview, please introduce yourself in one minute.", alt: ["{自身|じしん}", "{自主|じしゅ}", "{自由|じゆう}"] },
     ] },
@@ -121,7 +121,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "いまだに", lv: "N1", pos: "adverb",
     en: "still (even now); to this day",
     note: "A more written, emphatic まだ with the sense “even after all this time”, often with surprise or frustration: いまだに信じられない, いまだに見つからない. Usually with a negative or a continuing state. 今でも is the neutral equivalent. Written 未だに.",
-    book: { ja: "水泳教室に通ってはいるものの、**いまだに**25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can only swim 25 meters.", at: "gp/39" },
+    book: { ja: "水泳教室に通ってはいるものの、**いまだに**25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can't swim more than 25 meters.", at: "gp/39" },
     ex: [
       { ja: "十{年|ねん}{前|まえ}の{事件|じけん}の{犯人|はんにん}は、**いまだに**{見|み}つかっていない。", en: "The culprit in the case from ten years ago has still not been found.", alt: ["ついに", "すでに", "とっくに"] },
     ] },
@@ -161,7 +161,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to knit; to braid; to compile (a book)",
     note: "セーターを編む, 髪を編む (braid hair), 手編み (hand-knitted), 編み物 (knitting). The on-reading ヘン appears in 編集 (editing).",
     rx: ["へむ", "くむ", "あやむ"],
-    book: { ja: "今年こそ{手|て}**{編|あ}み**のセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。", en: "I made up my mind that this year I would definitely finish a hand-knitted sweater, but…", at: "gp/39" },
+    book: { ja: "今年こそ{手|て}**{編|あ}み**のセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。", en: "I was determined that this year, for sure, I'd finish knitting a sweater by hand, but…", at: "gp/39" },
     ex: [
       { ja: "{祖母|そぼ}が{孫|まご}のためにマフラーを**{編|あ}んで**くれた。", en: "My grandmother knitted a scarf for her grandchild.", alt: ["{組|く}んで", "{刻|きざ}んで", "{積|つ}んで"] },
     ] },
@@ -177,7 +177,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "bouquet",
     note: "花束を贈る / 渡す (give a bouquet) — for weddings, birthdays and send-offs. 束 (たば) is a bundle: 一束 (one bundle).",
     rx: ["はなそく", "かたば", "はなだば"],
-    book: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いたことに、バラの**{花束|はなたば}**とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I entered my hotel room, to my surprise, a bouquet of roses and a welcome message from the hotel manager had been placed on the table.", at: "gp/40" },
+    book: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いたことに、バラの**{花束|はなたば}**とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I walked into my hotel room, to my surprise, there was a bouquet of roses and a welcome message from the hotel manager on the table.", at: "gp/40" },
     ex: [
       { ja: "{退職|たいしょく}する{先輩|せんぱい}に、みんなで**{花束|はなたば}**を{贈|おく}った。", en: "We all gave a bouquet to our senior colleague who was retiring.", alt: ["{花火|はなび}", "{花見|はなみ}", "{花壇|かだん}"] },
     ] },
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to state; to express; to mention",
     note: "Formal: 意見を述べる (state one's opinion), 感想を述べる, 感謝の言葉を述べる, and in writing 前に述べたように (as stated above). In conversation people say 言う or 話す.",
     rx: ["じゅつべる", "のぺる", "しべる"],
-    book: { ja: "{青木|あおき}さんは卒業生{代表|だいひょう}（　）校長先生に{感謝|かんしゃ}の言葉を**{述|の}べた**。", en: "As the representative of the graduates, Aoki expressed words of thanks to the principal.", at: "gp/41" },
+    book: { ja: "{青木|あおき}さんは卒業生{代表|だいひょう}（　）校長先生に{感謝|かんしゃ}の言葉を**{述|の}べた**。", en: "As the graduates' representative, Aoki gave a speech of thanks to the principal.", at: "gp/41" },
     ex: [
       { ja: "{会議|かいぎ}では一{人|り}ずつ{自分|じぶん}の{意見|いけん}を**{述|の}べた**。", en: "At the meeting each person stated their opinion in turn.", alt: ["{比|くら}べた", "{食|た}べた", "{調|しら}べた"] },
     ] },
@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "helpless; uneasy and lonely; forlorn",
     note: "The anxious feeling of having no one or nothing to rely on: 一人で心細い, 心細い気持ち. 寂しい is loneliness; 心細い adds insecurity. Its opposite is 心強い (reassuring).",
     rx: ["しんぼそい", "こころほそい", "こころさい"],
-    book: { ja: "言葉が通じない外国で病気になって、どれほど**{心細|こころぼそ}かった**ことか。", en: "How helpless I felt falling ill in a foreign country where I couldn't make myself understood!", at: "gp/42" },
+    book: { ja: "言葉が通じない外国で病気になって、どれほど**{心細|こころぼそ}かった**ことか。", en: "I can't tell you how helpless I felt when I got sick in a foreign country where I couldn't make myself understood.", at: "gp/42" },
     ex: [
       { ja: "{初|はじ}めての{一人暮|ひとりぐ}らしで、{夜|よる}は{少|すこ}し**{心細|こころぼそ}い**。", en: "Living alone for the first time, I feel a little uneasy at night.", alt: ["{心強|こころづよ}い", "{細|こま}かい", "{細長|ほそなが}い"] },
     ] },
@@ -288,14 +288,14 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "こだわる", lv: "N1", pos: "godan verb (intransitive)",
     en: "to be particular (about); to stick to; to be hung up on",
     note: "〜にこだわる. Positive when it means insisting on quality (素材にこだわる, often in ads; こだわりのラーメン), negative when it means clinging to something one should let go (過去にこだわる, 勝ち負けにこだわる). こだわり is one's particular standard.",
-    book: { ja: "このままゲーム{会社|がいしゃ}に**こだわって**、さんざん{苦労|くろう}したあげく、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Sometimes I think, what if I keep sticking to game companies, go through all that trouble, and in the end can't get a job anywhere…", at: "ch/5" },
+    book: { ja: "このままゲーム{会社|がいしゃ}に**こだわって**、さんざん{苦労|くろう}したあげく、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Sometimes I wonder, what if I keep holding out for a game company, struggle and struggle, and end up not getting a job anywhere…", at: "ch/5" },
     ex: [
       { ja: "この{店|みせ}は{材料|ざいりょう}に**こだわって**いて、{野菜|やさい}はすべて{有機|ゆうき}{栽培|さいばい}だ。", en: "This restaurant is particular about its ingredients; all the vegetables are organically grown.", alt: ["かかわって", "さからって", "ためらって"] },
     ] },
   { w: "さんざん", lv: "N1", pos: "adverb · な adjective",
     en: "no end; thoroughly (in a bad way); terrible",
     note: "Written 散々. Stresses how much, usually of something unpleasant: さんざん待たされる (be kept waiting forever), さんざん迷う, さんざんな目にあう (have an awful time). It often pairs with 〜たあげく.",
-    book: { ja: "わざわざ大学病院へ行ったのに、**さんざん**待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes.", at: "ch/5" },
+    book: { ja: "わざわざ大学病院へ行ったのに、**さんざん**待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", en: "I went all the way to the university hospital, only to be kept waiting forever and then examined for just two minutes.", at: "ch/5" },
     ex: [
       { ja: "{雨|あめ}の{中|なか}で{道|みち}に{迷|まよ}って、**さんざん**な一{日|にち}だった。", en: "I got lost in the rain — it was a miserable day.", alt: ["さまざま", "ぎりぎり", "ばらばら"] },
     ] },
@@ -311,7 +311,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "convenience; circumstances; (one's) schedule",
     note: "Often about whether a time works: 都合がいい / 悪い, ご都合はいかがですか (would that suit you?), 一身上の都合で (for personal reasons). 便利 is about things being handy; 都合 is about one's situation.",
     rx: ["とごう", "つあい", "つがう"],
-    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "If it's convenient for you, I'd like to come by tomorrow.", at: "gp/43" },
+    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'll come by tomorrow.", at: "gp/43" },
     ex: [
       { ja: "{急|きゅう}な{仕事|しごと}が{入|はい}って、{土曜日|どようび}は**{都合|つごう}**が{悪|わる}くなった。", en: "Some urgent work came up, so Saturday no longer works for me.", alt: ["{場合|ばあい}", "{合図|あいず}", "{都会|とかい}"] },
     ] },
@@ -391,7 +391,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "(course) credit; unit",
     note: "At university: 単位を取る (earn credits), 単位を落とす (fail a course), 単位が足りない. Also units of measure (メートル is a 単位) and groupings: 家族単位で (per family).",
     rx: ["だんい", "たんえ", "たにい"],
-    book: { ja: "お父さん、私、**{単位|たんい}**落としちゃって、もう一度2年生をやることになっちゃったんだ。", en: "Dad, I failed some courses, and now I have to do second year over again.", at: "gp/45" },
+    book: { ja: "お父さん、私、**{単位|たんい}**落としちゃって、もう一度2年生をやることになっちゃったんだ。", en: "Dad, I failed some courses, so I have to do second year all over again.", at: "gp/45" },
     ex: [
       { ja: "{卒業|そつぎょう}に{必要|ひつよう}な**{単位|たんい}**は、もう{全部|ぜんぶ}{取|と}った。", en: "I've already earned all the credits I need to graduate.", alt: ["{単語|たんご}", "{地位|ちい}", "{順位|じゅんい}"] },
     ] },
@@ -431,7 +431,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "waste (of money or resources); squandering",
     note: "お金の無駄遣い, 税金の無駄遣い (waste of taxpayers' money), 無駄遣いをやめる. From 無駄 (waste) + 遣う (spend). The formal equivalent is 浪費.",
     rx: ["むだつかい", "ぶだづかい", "むだけんい"],
-    book: { ja: "ぼくも…**{無駄遣|むだづか}い**は気をつけなくちゃと思うものの、コンビニオリジナルの{新商品|しんしょうひん}とかあると、つい…。", en: "Me too… I know I should watch out for wasting money, but when there's some new convenience-store original product, I just can't help it…", at: "ch/5/review" },
+    book: { ja: "ぼくも…**{無駄遣|むだづか}い**は気をつけなくちゃと思うものの、コンビニオリジナルの{新商品|しんしょうひん}とかあると、つい…。", en: "Me too... I know I should be careful not to waste money, but when there's some new convenience-store exclusive, I just can't help myself...", at: "ch/5/review" },
     ex: [
       { ja: "{欲|ほ}しくもない{物|もの}を{買|か}うのは、お{金|かね}の**{無駄遣|むだづか}い**だ。", en: "Buying things you don't even want is a waste of money.", alt: ["{気遣|きづか}い", "{言葉遣|ことばづか}い", "{小遣|こづか}い"] },
     ] },
@@ -439,7 +439,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "consumption tax (Japan's sales tax)",
     note: "Added to most purchases (10%, with 8% on most food): 消費税を引き上げる (raise the consumption tax). On price tags, 税込 means tax included and 税抜 tax excluded.",
     rx: ["しょうひせい", "しょひぜい", "しょうびぜい"],
-    book: { ja: "{税金|ぜいきん}を{無駄遣|むだづか}いした（　）、**{消費税|しょうひぜい}**を引き上げるなんて{許|ゆる}せない。", en: "Wasting tax money and then, on top of that, raising the consumption tax is unforgivable.", at: "gp/45" },
+    book: { ja: "{税金|ぜいきん}を{無駄遣|むだづか}いした（　）、**{消費税|しょうひぜい}**を引き上げるなんて{許|ゆる}せない。", en: "They waste our tax money and then, to top it all off, raise the consumption tax? That's unforgivable.", at: "gp/45" },
     ex: [
       { ja: "この{値段|ねだん}には**{消費税|しょうひぜい}**が{含|ふく}まれていますか。", en: "Does this price include consumption tax?", alt: ["{所得税|しょとくぜい}", "{消費者|しょうひしゃ}", "{消費量|しょうひりょう}"] },
     ] },
@@ -447,7 +447,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to raise (prices, rates); to pull up; to withdraw",
     note: "税率 / 料金 / 給料を引き上げる (raise); the opposite is 引き下げる. It also means pulling something up (船を引き上げる) and withdrawing from a place. 値上げ is the noun for a price rise.",
     rx: ["いんきあげる", "ひきうえる", "ひきじょうげる"],
-    book: { ja: "{税金|ぜいきん}を{無駄遣|むだづか}いした（　）、{消費税|しょうひぜい}を**引き上げる**なんて{許|ゆる}せない。", en: "Wasting tax money and then, on top of that, raising the consumption tax is unforgivable.", at: "gp/45" },
+    book: { ja: "{税金|ぜいきん}を{無駄遣|むだづか}いした（　）、{消費税|しょうひぜい}を**引き上げる**なんて{許|ゆる}せない。", en: "They waste our tax money and then, to top it all off, raise the consumption tax? That's unforgivable.", at: "gp/45" },
     ex: [
       { ja: "{来年|らいねん}から{電気|でんき}{料金|りょうきん}が**{引|ひ}き{上|あ}げられる**そうだ。", en: "I hear electricity rates are going to be raised starting next year.", alt: ["{引|ひ}き{受|う}けられる", "{引|ひ}き{出|だ}される", "{引|ひ}き{止|と}められる"] },
     ] },
@@ -470,7 +470,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "outsider; someone not involved",
     note: "A person outside a group or organization: 部外者立ち入り禁止 (no unauthorized entry), 部外者には話せない. The opposite is 関係者 (persons concerned; staff).",
     rx: ["ぶかいしゃ", "ぶがいじゃ", "ぶげしゃ"],
-    book: { ja: "社内のことは小さいことでも、**{部外者|ぶがいしゃ}**に話すものではない。", en: "You should not talk to outsiders about company matters, however small.", at: "gp/46" },
+    book: { ja: "社内のことは小さいことでも、**{部外者|ぶがいしゃ}**に話すものではない。", en: "You shouldn't discuss company matters with outsiders, however small.", at: "gp/46" },
     ex: [
       { ja: "**{部外者|ぶがいしゃ}**の{立|た}ち{入|い}りは{固|かた}くお{断|ことわ}りします。", en: "Entry by unauthorized persons is strictly prohibited.", alt: ["{関係者|かんけいしゃ}", "{担当者|たんとうしゃ}", "{外来語|がいらいご}"] },
     ] },
@@ -493,7 +493,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "medical examination; (doctor's) consultation",
     note: "A doctor seeing a patient: 診察を受ける (see a doctor), 診察室 (consulting room), 診察券 (patient card). 検査 is a test (blood test, X-ray); 診断 is the diagnosis.",
     rx: ["しんさい", "しんざつ", "けんさつ"],
-    book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes.", at: "ch/5" },
+    book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, only to be kept waiting forever and then examined for just two minutes.", at: "ch/5" },
     ex: [
       { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I got examined at the hospital.", alt: ["{視察|しさつ}", "{偵察|ていさつ}", "{警察|けいさつ}"] },
     ] },
@@ -541,7 +541,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "suburbs; outskirts",
     note: "The area around a city: 郊外に住む, 郊外の住宅地, 郊外型の店 (a suburban big-box store). 田舎 is the countryside. 公害 (pollution) is also こうがい.",
     rx: ["こうそと", "こがい", "こうかい"],
-    book: { ja: "**{郊外|こうがい}**に新しくできたスーパーに、一度行ってみたいと思っている（　）、車がないから、行きようがない。", en: "Although I'd like to try going to the new supermarket that opened in the suburbs, I have no car, so there's no way to get there.", at: "ch/5/review" },
+    book: { ja: "**{郊外|こうがい}**に新しくできたスーパーに、一度行ってみたいと思っている（　）、車がないから、行きようがない。", en: "Although I've been wanting to check out the new supermarket that opened in the suburbs, I don't have a car, so there's no way to get there.", at: "ch/5/review" },
     ex: [
       { ja: "{子|こ}どもが{生|う}まれてから、{広|ひろ}い{家|いえ}を{求|もと}めて**{郊外|こうがい}**に{引|ひ}っ{越|こ}した。", en: "After our child was born, we moved to the suburbs to get a bigger house.", alt: ["{公害|こうがい}", "{意外|いがい}", "{以外|いがい}"] },
     ] },
