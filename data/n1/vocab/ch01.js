@@ -96,7 +96,7 @@ TRY.registerVocab({ ch: 1, words: [
       { ja: "{市民|しみん}マラソン{大会|たいかい}は、{雨|あめ}のため**{開催|かいさい}**が{延期|えんき}された。", en: "The citizens' marathon was postponed because of rain.", alt: ["{開業|かいぎょう}", "{開発|かいはつ}", "{催促|さいそく}"] },
     ] },
   { w: "{例年|れいねん}", lv: "N1", pos: "noun · adverb",
-    en: "an average year; (in) other years, usually",
+    en: "a normal year; usually (compared with other years)",
     note: "Refers to what happens in a normal year: 例年より早い (earlier than usual), 例年通り (as in other years), 例年並み (about normal for the season). 毎年 simply means every year and is not used as a standard of comparison in the same way.",
     rx: ["れいどし", "れいねい", "りょうねん"],
     book: { ja: "今年は雨が少なく、**{例年|れいねん}**（　）暑さが{厳|きび}しい。", en: "There has been little rain this year, and the heat is even more intense than usual.", at: "ch/1/review" },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["しゅうざい", "とりざい", "しゅさい"],
     book: { ja: "マスコミは{一斉|いっせい}に**{取材|しゅざい}**を開始した", en: "the media all started covering the story at once", at: "gp/2" },
     ex: [
-      { ja: "{記者|きしゃ}たちは{事故|じこ}の{現場|げんば}で**{取材|しゅざい}**を{続|つづ}けている。", en: "Reporters are still gathering information at the scene of the accident.", alt: ["{材料|ざいりょう}", "{取引|とりひき}", "{素材|そざい}"] },
+      { ja: "{記者|きしゃ}たちは{事故|じこ}の{現場|げんば}で**{取材|しゅざい}**を{続|つづ}けている。", en: "Reporters are still covering the story at the scene of the accident.", alt: ["{材料|ざいりょう}", "{取引|とりひき}", "{素材|そざい}"] },
     ] },
   { w: "{中小企業|ちゅうしょうきぎょう}", lv: "N1", pos: "noun",
     en: "small and medium-sized businesses",
@@ -267,7 +267,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["はつけい", "しょもうで", "はつもで"],
     book: { ja: "**{初詣|はつもうで}**は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "Plenty of people make their New Year's visit at a shrine, marry in a church and hold funerals at a temple — something I think you'd only find in Japan, with its tolerance of different religions.", at: "gp/3" },
     ex: [
-      { ja: "{元日|がんじつ}に{家族|かぞく}で{近|ちか}くの{神社|じんじゃ}へ**{初詣|はつもうで}**に{行|い}った。", en: "On New Year's Day I went with my family to a nearby shrine for our first visit of the year.", alt: ["{初耳|はつみみ}", "{墓参|はかまい}り", "{初恋|はつこい}"] },
+      { ja: "{元日|がんじつ}に{家族|かぞく}で{近|ちか}くの{神社|じんじゃ}へ**{初詣|はつもうで}**に{行|い}った。", en: "On New Year's Day my family and I paid our first visit of the year to a nearby shrine.", alt: ["{初耳|はつみみ}", "{墓参|はかまい}り", "{初恋|はつこい}"] },
     ] },
   { w: "{寛容|かんよう}", lv: "N1", pos: "な-adjective · noun",
     en: "tolerant; broad-minded; forgiving",
@@ -585,7 +585,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ねんりょ", "もえりょう", "ぜんりょう"],
     book: { ja: "石油は**{燃料|ねんりょう}**としてはもちろん", en: "Oil, not only as fuel, of course, …", at: "ch/1/review" },
     ex: [
-      { ja: "{飛行機|ひこうき}の**{燃料|ねんりょう}**{代|だい}が{上|あ}がり、{航空|こうくう}{運賃|うんちん}も{値上|ねあ}げされた。", en: "Aircraft fuel costs rose, and air fares went up too.", alt: ["{原料|げんりょう}", "{材料|ざいりょう}", "{飲料|いんりょう}"] },
+      { ja: "{飛行機|ひこうき}の**{燃料|ねんりょう}**{代|だい}が{上|あ}がり、{航空|こうくう}{運賃|うんちん}も{値上|ねあ}げされた。", en: "Jet fuel costs went up, and airfares were raised as well.", alt: ["{原料|げんりょう}", "{材料|ざいりょう}", "{飲料|いんりょう}"] },
     ] },
   { w: "{公演|こうえん}", lv: "N1", pos: "noun · する verb",
     en: "public performance (of a play, concert or show)",
@@ -593,7 +593,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["こうえい", "くえん", "こうでん"],
     book: { ja: "での**{公演|こうえん}**が予定されている。", en: "… performances are scheduled.", at: "ch/1/review" },
     ex: [
-      { ja: "その{劇団|げきだん}は{来月|らいげつ}から{海外|かいがい}**{公演|こうえん}**を{行|おこな}う。", en: "The theater company will go on an overseas tour starting next month.", alt: ["{講演|こうえん}", "{後援|こうえん}", "{公開|こうかい}"] },
+      { ja: "その{劇団|げきだん}は{来月|らいげつ}から{海外|かいがい}**{公演|こうえん}**を{行|おこな}う。", en: "The theater company will perform abroad starting next month.", alt: ["{講演|こうえん}", "{後援|こうえん}", "{公開|こうかい}"] },
     ] },
   { w: "{励|はげ}む", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to work hard (at); to strive; to devote oneself (to)",

@@ -373,7 +373,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["いれ", "いりょう", "ことれい"],
     book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は**{異例|いれい}**＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", en: "The president's conduct during this visit to Japan broke with precedent at every turn, bewildering the staff of the Foreign Ministry.", at: "ch/3" },
     ex: [
-      { ja: "{新人|しんじん}が{入社|にゅうしゃ}1年目で部長に{抜擢|ばってき}されるのは**{異例|いれい}**のことだ。", en: "It's unheard of for a newcomer to be picked as a department head in their first year.", alt: ["{恒例|こうれい}", "{異動|いどう}", "{実例|じつれい}"] },
+      { ja: "{新人|しんじん}が{入社|にゅうしゃ}1年目で部長に{抜擢|ばってき}されるのは**{異例|いれい}**のことだ。", en: "It's highly unusual for a new hire to be picked as a department head in their first year.", alt: ["{恒例|こうれい}", "{異動|いどう}", "{実例|じつれい}"] },
     ] },
   { w: "{困惑|こんわく}", lv: "N1", pos: "noun · する verb",
     en: "bewilderment, perplexity; being at a loss",
@@ -685,7 +685,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ひじょしき", "ひつねしき", "ひじょうしょく"],
     book: { ja: "**非常識**", en: "lacking in common sense", at: "ch/3/review" },
     ex: [
-      { ja: "夜中の2時に電話をかけてくるなんて、**{非常識|ひじょうしき}**にもほどがある。", en: "Calling at two in the morning — that's thoughtless beyond belief.", alt: ["{非常口|ひじょうぐち}", "{不思議|ふしぎ}", "{非公式|ひこうしき}"] },
+      { ja: "夜中の2時に電話をかけてくるなんて、**{非常識|ひじょうしき}**にもほどがある。", en: "Calling at two in the morning? Have you no common sense at all?", alt: ["{非常口|ひじょうぐち}", "{不思議|ふしぎ}", "{非公式|ひこうしき}"] },
     ] },
   { w: "{逆転|ぎゃくてん}", lv: "N1", pos: "noun · する verb",
     en: "reversal, turnaround; coming from behind (to win)",

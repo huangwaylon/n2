@@ -37,7 +37,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["そういん", "ぞうえん", "ぞういい"],
     book: { ja: "今から「産業医※**{増員|ぞういん}**3{カ|か}年計画」についてお話しさせていただきます。", en: "I would now like to speak to you about the “Three-Year Plan to Increase Occupational Physicians*.”", at: "ch/2" },
     ex: [
-      { ja: "{夏休|なつやす}みの{混雑|こんざつ}に{備|そな}えて、{駅員|えきいん}を**{増員|ぞういん}**することになった。", en: "The station decided to add staff to prepare for the summer-vacation crowds.", alt: ["{満員|まんいん}", "{増税|ぞうぜい}", "{全員|ぜんいん}"] },
+      { ja: "{夏休|なつやす}みの{混雑|こんざつ}に{備|そな}えて、{駅員|えきいん}を**{増員|ぞういん}**することになった。", en: "More station staff are to be added to handle the summer-vacation crowds.", alt: ["{満員|まんいん}", "{増税|ぞうぜい}", "{全員|ぜんいん}"] },
     ] },
   { w: "{事業所|じぎょうしょ}", lv: "N1", pos: "noun",
     en: "place of business; business establishment; workplace",
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["こうせい", "ぎょせい", "ぎょうしょう"],
     book: { ja: "{私|わたくし}たちは**{行政|ぎょうせい}**の立場から、働く人の健康に対してもっと関心を持ち、さらにサポート体制を{充実|じゅうじつ}させていく必要があります。", en: "We, as the administration, need to take a greater interest in the health of working people and further strengthen our support system.", at: "ch/2" },
     ex: [
-      { ja: "{住民|じゅうみん}の{声|こえ}を**{行政|ぎょうせい}**に{反映|はんえい}させる{仕組|しく}みが{必要|ひつよう}だ。", en: "We need a system for reflecting residents' voices in administration.", alt: ["{行列|ぎょうれつ}", "{行事|ぎょうじ}", "{修行|しゅぎょう}"] },
+      { ja: "{住民|じゅうみん}の{声|こえ}を**{行政|ぎょうせい}**に{反映|はんえい}させる{仕組|しく}みが{必要|ひつよう}だ。", en: "We need a system that ensures residents' views are reflected in local government.", alt: ["{行列|ぎょうれつ}", "{行事|ぎょうじ}", "{修行|しゅぎょう}"] },
     ] },
   { w: "{体制|たいせい}", lv: "N1", pos: "noun",
     en: "system; setup; structure (of an organization or society)",
@@ -174,7 +174,7 @@ TRY.registerVocab({ ch: 2, words: [
       { ja: "{留学|りゅうがく}{生活|せいかつ}は{大変|たいへん}だったが、とても**{充実|じゅうじつ}**していた。", en: "Life as a student abroad was tough but very fulfilling.", alt: ["{充電|じゅうでん}", "{事実|じじつ}", "{誠実|せいじつ}"] },
     ] },
   { w: "{方々|かたがた}", lv: "N1", pos: "noun",
-    en: "(honorific) people; ladies and gentlemen",
+    en: "people (respectful plural of 方); persons",
     note: "The respectful plural of 方 (person): 関係者の方々, ご来場の方々. The same characters read ほうぼう mean “here and there, everywhere”.",
     rx: ["ほうがた", "かたかた", "ほうほう"],
     book: { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の**{方々|かたがた}**のご指導をもって、「住みたい町ベストテン」入りなど、多くの{実績|じっせき}をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has achieved a great deal, including making the list of the “Top Ten Towns to Live In.”", at: "ch/2" },
@@ -250,7 +250,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["じぶ", "じふう", "じおう"],
     book: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると**{自負|じふ}**している。", en: "Though we are only a tiny business, we pride ourselves on having technology that is a match for any large corporation.", at: "gp/8" },
     ex: [
-      { ja: "{彼|かれ}はこの{分野|ぶんや}では{誰|だれ}にも{負|ま}けないと**{自負|じふ}**している。", en: "He is confident that no one can beat him in this field.", alt: ["{勝負|しょうぶ}", "{負担|ふたん}", "{自立|じりつ}"] },
+      { ja: "{彼|かれ}はこの{分野|ぶんや}では{誰|だれ}にも{負|ま}けないと**{自負|じふ}**している。", en: "He prides himself on being second to none in this field.", alt: ["{勝負|しょうぶ}", "{負担|ふたん}", "{自立|じりつ}"] },
     ] },
   { w: "{野生|やせい}", lv: "N1", pos: "noun",
     en: "wild; (living) in the wild",
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しめ", "むな", "もね"],
     book: { ja: "{退会|たいかい}を希望する場合は{書面|しょめん}（　）その**{旨|むね}**を届け出なければならない。", en: "If you wish to leave the association, you must notify us to that effect in writing.", at: "gp/13" },
     ex: [
-      { ja: "{欠席|けっせき}する{場合|ばあい}は、その**{旨|むね}**を{事前|じぜん}に{担当者|たんとうしゃ}にお{知|し}らせください。", en: "If you will be absent, please let the person in charge know in advance.", alt: ["{胸|むね}", "{棟|むね}", "{趣味|しゅみ}"] },
+      { ja: "{欠席|けっせき}する{場合|ばあい}は、その**{旨|むね}**を{事前|じぜん}に{担当者|たんとうしゃ}にお{知|し}らせください。", en: "If you are going to be absent, please notify the person in charge to that effect in advance.", alt: ["{胸|むね}", "{棟|むね}", "{趣味|しゅみ}"] },
     ] },
   { w: "{届|とど}け{出|で}る", lv: "N1", pos: "verb (ichidan, transitive)",
     en: "to notify (an authority); to report; to file",

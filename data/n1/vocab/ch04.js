@@ -192,7 +192,7 @@ TRY.registerVocab({ ch: 4, words: [
     ] },
   { w: "{弊社|へいしゃ}", lv: "N1", pos: "noun",
     en: "our company (humble)",
-    note: "Business keigo for one's own company. The other party's company is 御社 (in speech) or 貴社 (in writing). Among colleagues, just 当社 or うちの会社.",
+    note: "Business keigo for one's own company, used to clients and outsiders. The other party's company is 御社 (in speech) or 貴社 (in writing). Neutral formal statements use 当社; among colleagues people say うちの会社.",
     rx: ["へいじゃ", "ひしゃ", "べいしゃ"],
     book: { ja: "**{弊社|へいしゃ}**は、時代に{即|そく}した経営によって、常に{業界|ぎょうかい}をリードしてまいりました。", en: "By managing in step with the times, our company has consistently led the industry.", at: "gp/39" },
     ex: [
