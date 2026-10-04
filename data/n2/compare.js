@@ -203,7 +203,7 @@ TRY.registerCompare([
         note: "V-ない + ことには: \"unless (you) ~, (you can't)\". Stresses an indispensable first step; the second half must be negative or impossible (わからない, できない)." },
       { pattern: "Vことはない", level: "N2", no: 49,
         ex: { ja: "{君|きみ}が{謝|あやま}る**ことはない**よ。悪いのは{向|む}こうなんだから。", en: "There's no need for you to apologize. They're the ones in the wrong." },
-        note: "V-る + ことはない: \"there's no need to\". Advice or reassurance to the listener, warmer than 〜なくてもいい." },
+        note: "V-る + ことはない: \"there's no need to\". Advice or reassurance to the listener, close to 〜なくてもいい." },
       { pattern: "〜ないことはない", level: "N2", no: 54,
         ex: { ja: "A：お酒、お好きですか。\nB：そんなに好きではありませんが、飲め**ないことはありません**。", en: "A: Do you like alcohol?\nB: I'm not that fond of it, but it's not that I can't drink." },
         note: "V-ない + ことはない: \"it's not that ~ not\". A double negative giving a hesitant, partial yes; unlike ことはない, it is not advice." }
@@ -443,7 +443,7 @@ TRY.registerCompare([
         note: "〜ばかりでなく…も: \"not only ~ but also\". A neutral addition, like だけでなく." },
       { pattern: "〜ばかりに", level: "N2", no: 48,
         ex: { ja: "本当のことを言った**ばかりに**、彼を{怒|おこ}らせてしまった。", en: "Just because I told the truth, I ended up making him angry." },
-        note: "Plain form (なA + な, N + である) + ばかりに: \"just because (of that one thing)\". Singles out one cause, often a small one, for a bad, regrettable result; never for good outcomes." }
+        note: "Plain form (なA + な, N + である) + ばかりに: \"just because (of that one thing)\". Singles out one cause, often a small one, for a bad, regrettable result; a good result takes おかげで. V-たいばかりに (*just because one wanted ~ so badly*) is the exception, followed by the lengths someone went to." }
     ]
   },
   {
