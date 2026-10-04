@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "just; legitimate; justified; proper",
     note: "Right by reason or by law: 正当な理由 (a valid reason), 正当な評価 (fair assessment), 正当防衛 (self-defense), 正当化する (justify). 適当 means suitable (or, casually, half-hearted); 妥当 means reasonable or appropriate.",
     rx: ["せいどう", "しょうとう", "せいと"],
-    book: { ja: "そのクレームが**{正当|せいとう}**なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
+    book: { ja: "そのクレームが**{正当|せいとう}**なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is upset, so handling it badly could cost the hotel their trust.", at: "ch/3" },
     ex: [
       { ja: "**{正当|せいとう}**な{理由|りゆう}がなければ、{会社|かいしゃ}は{社員|しゃいん}を{解雇|かいこ}できない。", en: "A company cannot dismiss an employee without a legitimate reason.", alt: ["{正直|しょうじき}", "{正面|しょうめん}", "{弁当|べんとう}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "unpleasant; uncomfortable; displeasure",
     note: "Formal: 不快な思いをさせる (make someone feel bad — common in apologies), 不快感 (a feeling of discomfort), 不快指数 (discomfort index). It is stronger and more formal than 嫌な; opposite 快適 / 愉快.",
     rx: ["ふかいい", "ぶかい", "ふけ"],
-    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は**{不快|ふかい}**な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
+    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は**{不快|ふかい}**な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is upset, so handling it badly could cost the hotel their trust.", at: "ch/3" },
     ex: [
       { ja: "{他人|たにん}に**{不快|ふかい}**な{思|おも}いをさせないよう、{言葉|ことば}{遣|づか}いに{気|き}をつけている。", en: "I'm careful with my language so as not to make others uncomfortable.", alt: ["{愉快|ゆかい}", "{不振|ふしん}", "{不足|ふそく}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "trust; confidence; reliance",
     note: "Trusting someone's ability or character and relying on them: 信頼を得る / 失う (gain / lose trust), 信頼関係, 信頼できる人. 信用 is trust in someone's honesty or creditworthiness (often business or money); 信頼 also implies relying on them.",
     rx: ["しんたい", "じんらい", "しんれい"],
-    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの**{信頼|しんらい}**を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is feeling unhappy, so if you handle it wrongly, they could well lose their trust in the hotel.", at: "ch/3" },
+    book: { ja: "そのクレームが{正当|せいとう}なものかどうかはともかくとして、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの**{信頼|しんらい}**を{失|うしな}いかねません。", en: "Whether or not the complaint is justified, the guest is upset, so handling it badly could cost the hotel their trust.", at: "ch/3" },
     ex: [
       { ja: "{彼|かれ}は{約束|やくそく}を{必|かなら}ず{守|まも}るので、{周|まわ}りから**{信頼|しんらい}**されている。", en: "He always keeps his promises, so the people around him trust him.", alt: ["{以来|いらい}", "{信仰|しんこう}", "{申請|しんせい}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "elderly person; senior citizen",
     note: "The neutral, official term used in news and public services: 高齢者向けの住宅, 高齢化社会 (aging society). お年寄り is the warm everyday word; 老人 can sound blunt.",
     rx: ["こうれしゃ", "こうりょうしゃ", "こうれいじゃ"],
-    book: { ja: "**{高齢者|こうれいしゃ}**でも、働ける{限|かぎ}りは働きたいと思っている人が多い。", en: "Even among elderly people, many want to keep working as long as they are able to.", at: "gp/23" },
+    book: { ja: "**{高齢者|こうれいしゃ}**でも、働ける{限|かぎ}りは働きたいと思っている人が多い。", en: "Even among the elderly, many people want to keep working as long as they can.", at: "gp/23" },
     ex: [
       { ja: "この{村|むら}は{人口|じんこう}の{半分|はんぶん}{近|ちか}くが**{高齢者|こうれいしゃ}**だ。", en: "Nearly half of this village's population is elderly.", alt: ["{関係者|かんけいしゃ}", "{年齢|ねんれい}", "{保護者|ほごしゃ}"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "carrying out; putting into practice; execution",
     note: "Actually doing what was planned or decided: 計画を実行する, 実行に移す (put into action), 実行力 (ability to get things done). 実施 is an organization officially carrying out an event or policy; 実現 is a goal becoming reality.",
     rx: ["じつこう", "じっこ", "しっこう"],
-    book: { ja: "社長が{同意|どうい}（　）{限|かぎ}り、どんな{計画|けいかく}も**{実行|じっこう}**に{移|うつ}せない。", en: "Unless the president agrees, no plan whatsoever can be put into action.", at: "gp/23" },
+    book: { ja: "社長が{同意|どうい}（　）{限|かぎ}り、どんな{計画|けいかく}も**{実行|じっこう}**に{移|うつ}せない。", en: "Unless the president agrees, no plan of any kind can be put into action.", at: "gp/23" },
     ex: [
       { ja: "{計画|けいかく}を{立|た}てるのは{簡単|かんたん}だが、それを**{実行|じっこう}**するのは{難|むずか}しい。", en: "Making a plan is easy, but carrying it out is hard.", alt: ["{実感|じっかん}", "{実家|じっか}", "{発行|はっこう}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "approach; drawing near",
     note: "A formal word, typical of news, for something moving closer: 台風の接近, 〜に接近する. In everyday speech, 近づく. It can also describe people getting close to someone (often with suspicion).",
     rx: ["せつきん", "しょうきん", "せっこん"],
-    book: { ja: "{台風|たいふう}**{接近|せっきん}**のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, there was no choice but to cancel the open-air concert.", at: "gp/24" },
+    book: { ja: "{台風|たいふう}**{接近|せっきん}**のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert.", at: "gp/24" },
     ex: [
       { ja: "{大型|おおがた}の{台風|たいふう}が{九州|きゅうしゅう}に**{接近|せっきん}**している。", en: "A large typhoon is approaching Kyushu.", alt: ["{接触|せっしょく}", "{直接|ちょくせつ}", "{最近|さいきん}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "outdoors; open-air; out in the fields",
     note: "Outside, in the open: 野外コンサート, 野外活動 (outdoor activities), 野外で. 屋外 is simply “outside a building” (opposite 屋内); 野外 suggests open ground or nature. 郊外 is the suburbs.",
     rx: ["のがい", "やそと", "やかい"],
-    book: { ja: "{台風|たいふう}{接近|せっきん}のため、**{野外|やがい}**コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, there was no choice but to cancel the open-air concert.", at: "gp/24" },
+    book: { ja: "{台風|たいふう}{接近|せっきん}のため、**{野外|やがい}**コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert.", at: "gp/24" },
     ex: [
       { ja: "{夏|なつ}には{公園|こうえん}で**{野外|やがい}**{映画|えいが}{会|かい}が{開|ひら}かれる。", en: "In summer, open-air movie screenings are held in the park.", alt: ["{郊外|こうがい}", "{意外|いがい}", "{例外|れいがい}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "damage; harm; loss (suffered)",
     note: "Harm that someone or something suffers: 被害を受ける / にあう, 被害が出る, 被害者 (victim; the one who causes harm is 加害者). 損害 focuses on material or financial loss.",
     rx: ["ひがいい", "ひかい", "びがい"],
-    book: { ja: "{泥棒|どろぼう}の**{被害|ひがい}**は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "Burglary can't necessarily be prevented just by locking your door.", at: "gp/25" },
+    book: { ja: "{泥棒|どろぼう}の**{被害|ひがい}**は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "It's not as if locking your door is enough to prevent burglary.", at: "gp/25" },
     ex: [
       { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{被害|ひがい}**が{出|で}た。", en: "The typhoon caused heavy damage to crops.", alt: ["{利害|りがい}", "{被告|ひこく}", "{妨害|ぼうがい}"] },
     ] },
@@ -267,7 +267,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "recently; these days; nowadays (formal)",
     note: "A written, somewhat stiff word, typically 昨今の〜 (today's ~): 昨今の情勢 (the current situation), 昨今の若者. 最近 is the everyday word; 近年 means “in recent years”.",
     rx: ["さくこん", "さっきん", "ざっこん"],
-    book: { ja: "**{昨今|さっこん}**の{就職難|しゅうしょくなん}を見ると、{資格|しかく}を取れば、仕事に{就|つ}ける（　）という{気|き}がする。", en: "Looking at how hard it is to find a job these days, I feel it's not simply the case that getting a qualification will land you a job.", at: "gp/25" },
+    book: { ja: "**{昨今|さっこん}**の{就職難|しゅうしょくなん}を見ると、{資格|しかく}を取れば、仕事に{就|つ}ける（　）という{気|き}がする。", en: "Looking at how hard it is to find a job these days, I feel that getting a qualification doesn't automatically land you a job.", at: "gp/25" },
     ex: [
       { ja: "**{昨今|さっこん}**の{物価|ぶっか}{高|だか}で、{家計|かけい}が{苦|くる}しい。", en: "With prices so high these days, household budgets are tight.", alt: ["{昨夜|さくや}", "{只今|ただいま}", "{今後|こんご}"] },
     ] },
@@ -275,7 +275,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "difficulty finding a job; a tight job market",
     note: "就職 (getting a job) + 難 (difficulty, shortage). The same suffix appears in 住宅難 (housing shortage) and 財政難 (financial difficulties). The opposite situation is 売り手市場 (a job seekers' market).",
     rx: ["しゅしょくなん", "しゅうしょうなん", "しゅうしょくがん"],
-    book: { ja: "{昨今|さっこん}の**{就職難|しゅうしょくなん}**を見ると、{資格|しかく}を取れば、仕事に{就|つ}ける（　）という{気|き}がする。", en: "Looking at how hard it is to find a job these days, I feel it's not simply the case that getting a qualification will land you a job.", at: "gp/25" },
+    book: { ja: "{昨今|さっこん}の**{就職難|しゅうしょくなん}**を見ると、{資格|しかく}を取れば、仕事に{就|つ}ける（　）という{気|き}がする。", en: "Looking at how hard it is to find a job these days, I feel that getting a qualification doesn't automatically land you a job.", at: "gp/25" },
     ex: [
       { ja: "**{就職難|しゅうしょくなん}**の{時代|じだい}に{卒業|そつぎょう}した{世代|せだい}は、{苦労|くろう}が{多|おお}かった。", en: "The generation that graduated during the tight job market had a hard time.", alt: ["{就職先|しゅうしょくさき}", "{求人|きゅうじん}", "{転職|てんしょく}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "bone fracture; breaking a bone",
     note: "足を骨折する (break one's leg), 骨折で入院する. The idiom 骨を折る means “take pains, make an effort” (骨折り “trouble, effort”), not a literal fracture.",
     rx: ["こつせつ", "ほねせつ", "こっさつ"],
-    book: { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも**{骨折|こっせつ}**しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people can break a bone from even a small fall, so care is needed.", at: "gp/27" },
+    book: { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも**{骨折|こっせつ}**しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people could break a bone from even a small fall, so you have to be careful.", at: "gp/27" },
     ex: [
       { ja: "スキーで{転|ころ}んで、{右足|みぎあし}を**{骨折|こっせつ}**した。", en: "I fell while skiing and broke my right leg.", alt: ["{挫折|ざせつ}", "{右折|うせつ}", "{骨格|こっかく}"] },
     ] },
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["あくよ", "わるよう", "およう"],
     book: { ja: "{情報|じょうほう}{管理|かんり}をきちんとしないと、{個人|こじん}{情報|じょうほう}を**{悪用|あくよう}**されかねない。", en: "If information isn't managed properly, personal data could be misused.", at: "gp/27" },
     ex: [
-      { ja: "{他人|たにん}のカード{番号|ばんごう}を**{悪用|あくよう}**して{買|か}い{物|もの}をした{男|おとこ}が{逮捕|たいほ}された。", en: "A man who used other people's card numbers to go shopping was arrested.", alt: ["{採用|さいよう}", "{応用|おうよう}", "{愛用|あいよう}"] },
+      { ja: "{他人|たにん}のカード{番号|ばんごう}を**{悪用|あくよう}**して{買|か}い{物|もの}をした{男|おとこ}が{逮捕|たいほ}された。", en: "A man who misused other people's card numbers to make purchases was arrested.", alt: ["{採用|さいよう}", "{応用|おうよう}", "{愛用|あいよう}"] },
     ] },
   { w: "{詐欺|さぎ}", lv: "N1", pos: "noun",
     en: "fraud; scam; swindle",
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["かつよう", "かっやく", "かつやっく"],
     book: { ja: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として**{活躍|かつやく}**しています。", en: "She debuted as a singer, but lately she's been doing more TV dramas and is active as an actress rather than a singer.", at: "gp/28" },
     ex: [
-      { ja: "{日本人|にほんじん}{選手|せんしゅ}が{海外|かいがい}のリーグで**{活躍|かつやく}**している。", en: "Japanese players are doing great things in leagues overseas.", alt: ["{活用|かつよう}", "{活気|かっき}", "{跳躍|ちょうやく}"] },
+      { ja: "{日本人|にほんじん}{選手|せんしゅ}が{海外|かいがい}のリーグで**{活躍|かつやく}**している。", en: "Japanese players are thriving in leagues overseas.", alt: ["{活用|かつよう}", "{活気|かっき}", "{跳躍|ちょうやく}"] },
     ] },
   { w: "{仕上|しあ}げる", lv: "N2", pos: "ichidan verb",
     en: "finish; complete; put the finishing touches on",
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "sense; sensation; feeling; a feel (for something)",
     note: "Physical sensation (指の感覚がない “my fingers are numb”) and a sense or feel for something (金銭感覚 “sense of money”, 〜ような感覚 “a feeling like ~”). 感情 is emotion. Don't confuse with the homophone 間隔 (interval).",
     rx: ["かんがく", "かんこう", "かんかくう"],
-    book: { ja: "バイオリンは{弾|ひ}く（　）歌うような**{感覚|かんかく}**が大事です。なぜなら、バイオリンの{音色|ねいろ}は人の声に近いと言われていますから。", en: "With the violin, the feeling of singing rather than playing is what matters. That's because the violin's tone is said to be close to the human voice.", at: "ch/3/review" },
+    book: { ja: "バイオリンは{弾|ひ}く（　）歌うような**{感覚|かんかく}**が大事です。なぜなら、バイオリンの{音色|ねいろ}は人の声に近いと言われていますから。", en: "With the violin, what matters is feeling as if you're singing rather than playing. That's because the violin's tone is said to be close to the human voice.", at: "ch/3/review" },
     ex: [
       { ja: "{寒|さむ}さで{指|ゆび}の**{感覚|かんかく}**がなくなった。", en: "My fingers went numb from the cold.", alt: ["{感情|かんじょう}", "{間隔|かんかく}", "{感想|かんそう}"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "tone; timbre (of an instrument or voice)",
     note: "The quality of a sound: 美しい音色, ピアノの音色, 音色がする. 音 is sound in general; 音色 is its character. The reading ねいろ uses 音's kun reading ね.",
     rx: ["おとしょく", "ねいろう", "おんいろ"],
-    book: { ja: "バイオリンは{弾|ひ}く（　）歌うような{感覚|かんかく}が大事です。なぜなら、バイオリンの**{音色|ねいろ}**は人の声に近いと言われていますから。", en: "With the violin, the feeling of singing rather than playing is what matters. That's because the violin's tone is said to be close to the human voice.", at: "ch/3/review" },
+    book: { ja: "バイオリンは{弾|ひ}く（　）歌うような{感覚|かんかく}が大事です。なぜなら、バイオリンの**{音色|ねいろ}**は人の声に近いと言われていますから。", en: "With the violin, what matters is feeling as if you're singing rather than playing. That's because the violin's tone is said to be close to the human voice.", at: "ch/3/review" },
     ex: [
       { ja: "この{古|ふる}いピアノは、やわらかい**{音色|ねいろ}**がする。", en: "This old piano has a soft tone.", alt: ["{顔色|かおいろ}", "{景色|けしき}", "{音楽|おんがく}"] },
     ] },
@@ -644,6 +644,6 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ぞん", "そうん", "そく"],
     book: { ja: "何なの、この映画。お金払って**{損|そん}**した。", en: "What was that movie? What a waste of money.", at: "ch/3/review" },
     ex: [
-      { ja: "{安|やす}いと{思|おも}って{買|か}ったのに、すぐ{壊|こわ}れて**{損|そん}**をした。", en: "I bought it thinking it was a bargain, but it broke right away, so I lost money on it.", alt: ["{得|とく}", "{損害|そんがい}", "{損傷|そんしょう}"] },
+      { ja: "{安|やす}いと{思|おも}って{買|か}ったのに、すぐ{壊|こわ}れて**{損|そん}**をした。", en: "I bought it thinking it was a bargain, but it broke right away, so it was a waste of money.", alt: ["{得|とく}", "{損害|そんがい}", "{損傷|そんしょう}"] },
     ] },
 ] });
