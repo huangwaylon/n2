@@ -172,7 +172,7 @@ TRY.registerChapter({
               stars: 2,
               examples: [
                 { ja: "たとえどんな理由であれ、{暴力|ぼうりょく}は許されない。", en: "Whatever the reason, violence cannot be tolerated." },
-                { ja: "どこであれ、あなたの行くところへ私もついて行きたい。", en: "No matter where it is, I want to go wherever you go." },
+                { ja: "どこであれ、あなたの行くところへ私もついて行きたい。", en: "Wherever it may be, I want to follow you there." },
               ],
             },
           ],
@@ -285,7 +285,7 @@ TRY.registerChapter({
             { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it." },
             { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only place." },
             { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
-            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president." },
+            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president." },
           ],
           notes: [
             {
@@ -367,14 +367,14 @@ TRY.registerChapter({
           { cont: true, ja: "それは{素直|すなお}な人だと多くのベテラン社員が言います。", en: "Many veteran employees say it is someone who is open and willing to listen." },
           { cont: true, ja: "上司から言われたことは、とりあえず聞いて、その通りやってみましょう。", en: "Whatever your boss tells you, listen for a start, and try doing it exactly as you were told." },
           { cont: true, ja: "それがあなたの今後の成長につながるはずです。", en: "That should help you grow from here on." },
-          { cont: true, ja: "あなたの今後のキャリアライフは、言う**までもなく**上司との関係**いかん**にかかっているのです。", en: "Needless to say, your working life from now on depends on what your relationship with your boss is like." },
+          { cont: true, ja: "あなたの今後のキャリアライフは、言う**までもなく**上司との関係**いかん**にかかっているのです。", en: "Needless to say, your career from here on depends on how your relationship with your boss turns out." },
           { ja: "そうは言っても、上司も人間ですから、いろいろなタイプの人がいます。", en: "Even so, bosses are human too, so there are all types." },
           { cont: true, ja: "もし、どうしても好きになれない上司についてしまったら、どうしたらよいのでしょうか。", en: "If you end up working under a boss you just can't bring yourself to like, what should you do?" },
           { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に{定着|ていちゃく}させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only fixes the bad feelings more firmly in your own mind." },
           { cont: true, ja: "それより、せめて、「{嫌|きら}い」を「好きとは言え**ないまでも**{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, at least make an effort to move from “I dislike this person” to the level of “I can't say I like them, but I don't dislike them.”" },
           { cont: true, ja: "これは「美的{凝視|ぎょうし}」という方法です。", en: "This is a method known as “aesthetic gazing” (looking for what is admirable)." },
           { cont: true, ja: "例えば、細かいミスばかり{指摘|してき}する{嫌|いや}な上司に対しても、その長所に目を向けるように努力するのです。", en: "For example, even with an unpleasant boss who does nothing but point out your small mistakes, you make an effort to focus on that person's strengths." },
-          { cont: true, ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさ**といい**、{緻密|ちみつ}で正確な仕事ぶり**といい**、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is." },
+          { cont: true, ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさ**といい**、{緻密|ちみつ}で正確な仕事ぶり**といい**、実は意外にデキる上司だと気づくこともあります。", en: "Then you may come to see that, though strict when scolding, this boss is in fact surprisingly capable, what with the care taken of you afterward and the meticulous, accurate work." },
           { ja: "長所を見つけたら、{同僚|どうりょう}の前で話題にしましょう。", en: "Once you have found those good points, talk about them in front of your colleagues." },
           { cont: true, ja: "あなたが高く評価していることが{同僚|どうりょう}を通じて上司に伝われば、直接伝える以上に{真実味|しんじつみ}を持つこともあります。", en: "If your high opinion reaches your boss through your colleagues, it can sound even more genuine than if you said so directly." },
           { cont: true, ja: "よい人間関係は、いわば思いやりのギブ・アンド・テイク**といったところ**ではないでしょうか。", en: "Good relationships are, you might say, something like a give-and-take of consideration, aren't they?" },
@@ -713,7 +713,7 @@ TRY.registerChapter({
             pieces: ["良さといい", "{治安|ちあん}の", "をおいて", "ここ"],
             order: [1, 0, 3, 2],
             star: 2,
-            en: "For our new location, what with the convenient transportation and the safe neighborhood, there seems to be nowhere but here.",
+            en: "For our new location, what with the convenient transportation and the safe neighborhood, this seems to be the only choice.",
             why: { en: "交通の便といい、治安の良さといい、ここをおいて他にない: といい…といい pairs 交通の便 with 治安の良さ, and ここ + をおいて precedes 他にない." },
           },
           {
@@ -745,7 +745,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["社員数が1,000人を超える会社[1]管理職だけが{頑張|がんば}ってどうにかなるものではありません。一人一人の社員の意識が大切です。私の{部署|ぶしょ}でも、{余暇|よか}を上手に使って、{資格|しかく}を{取得|しゅとく}する{者|もの}や、{資格|しかく}は[2]専門書をよく読んでいる{者|もの}など、{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", "また、社員がなかなか{定着|ていちゃく}しないと{嘆|なげ}いている会社が多いのにひきかえ、{我|わ}が{社|しゃ}は[4]。社員{同士|どうし}のコミュニケーションもとれ、{効率|こうりつ}の良い仕事の仕方が工夫されているからだと{自負|じふ}しています。"],
-        en: ["Once a company has more than 1,000 employees, it's not something that can be managed just by the managers working hard. The awareness of each individual employee is what matters. In my department too, everyone is forward-looking regardless of their position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, at our company hardly anyone leaves partway through their career. I take pride in the fact that this is because employees communicate well with one another and we have devised efficient ways of working."],
+        en: ["Once a company has more than 1,000 employees, it can't be kept running just by its managers working hard. The awareness of each individual employee is what matters. In my department too, everyone is forward-looking regardless of their position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, at our company hardly anyone leaves partway through their career. I take pride in the fact that this is because employees communicate well with one another and we have devised efficient ways of working."],
         blanks: [
           {
             options: ["に{即|そく}して", "をもって", "ともなると", "あっての"],

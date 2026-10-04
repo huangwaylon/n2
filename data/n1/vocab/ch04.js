@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "next term; the next (holder of an office, model, period)",
     note: "次期社長, 次期大統領, 次期モデル. Formal; the everyday word is 次の. Don't confuse it with 時期 (period, season), also read じき.",
     rx: ["つぎき", "じご", "しき"],
-    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president.", at: "gp/40" },
+    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president.", at: "gp/40" },
     ex: [
       { ja: "彼は**{次期|じき}**会長の{有力|ゆうりょく}{候補|こうほ}だ。", en: "He is a leading candidate to be the next chairman.", alt: ["{時期|じき}", "{次第|しだい}", "{早期|そうき}"] },
     ] },
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "career history, background",
     note: "経歴を偽る (lie about one's background), 華やかな経歴. 履歴 is a record (履歴書 résumé, 閲覧履歴 browsing history); 学歴 is educational background only.",
     rx: ["けいりゃく", "きょうれき", "けいれい"],
-    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there is probably no one but him for the next president.", at: "gp/40" },
+    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president.", at: "gp/40" },
     ex: [
       { ja: "彼女は{弁護士|べんごし}から作家になった{異色|いしょく}の**{経歴|けいれき}**の持ち主だ。", en: "She has an unusual background: she went from being a lawyer to being a writer.", alt: ["{経過|けいか}", "{経費|けいひ}", "{歴史|れきし}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "looking after others; being caring and helpful (toward juniors, etc.)",
     note: "Almost always 面倒見がいい (good at looking after people): 面倒見のいい先輩. From 面倒を見る (to look after).",
     rx: ["めんどうけん", "めんとうみ", "めんどみ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may come to see that, though strict when scolding, this boss is in fact surprisingly capable, what with the care taken of you afterward and the meticulous, accurate work.", at: "ch/4" },
     ex: [
       { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka is good at looking after people and is much loved by the new hires.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "meticulous, precise, detailed",
     note: "Praise for careful thinking or work: 緻密な計画, 緻密な作業. 精密 is used for machines and measurements; 細かい is the everyday 'detailed' (and can be negative: petty).",
     rx: ["ちみ", "ちひつ", "しみつ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, harsh as the scoldings are, this is actually a surprisingly capable boss — just look at how well you are looked after afterwards, and how meticulous and accurate the work is.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may come to see that, though strict when scolding, this boss is in fact surprisingly capable, what with the care taken of you afterward and the meticulous, accurate work.", at: "ch/4" },
     ex: [
       { ja: "彼の**{緻密|ちみつ}**な計画のおかげで、工事は予定{通|どお}りに終わった。", en: "Thanks to his meticulous planning, the construction was finished on schedule.", alt: ["{密接|みっせつ}", "{秘密|ひみつ}", "{親密|しんみつ}"] },
     ] },
