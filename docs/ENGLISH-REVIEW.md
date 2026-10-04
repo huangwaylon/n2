@@ -33,4 +33,4 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | Q1 L1–3 | running |
 | Q1 L4–6, challenge, front | running |
 | Q2 L7–9 | running |
-
+| Q2 L10–12, challenge, front | |
