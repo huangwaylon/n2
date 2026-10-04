@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "mental attitude; readiness; the frame of mind a role or situation calls for",
     note: "What you should keep in mind before starting something: 〜としての心構え (the attitude needed as ~), 心構えができている (be mentally prepared). 覚悟 is resolve to face something hard; 心得 is know-how or the rules one should follow.",
     rx: ["こころかまえ", "しんがまえ", "こころがまい"],
-    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "To all of you who are now becoming members of this hotel, I'm going to talk about the attitude you need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "For all of you who are now joining this hotel, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{入社|にゅうしゃ}{前|まえ}に、{社会人|しゃかいじん}としての**{心構|こころがま}え**について{先輩|せんぱい}に{話|はなし}を{聞|き}いた。", en: "Before joining the company, I asked a senior colleague about the attitude you need as a working adult.", alt: ["{心当|こころあ}たり", "{心細|こころぼそ}さ", "{構造|こうぞう}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "a member (of a group, team or family)",
     note: "Usually in 〜の一員 (a member of ~), 〜の一員となる / として: チームの一員, 社会の一員. It stresses belonging to the whole; メンバー is the casual loanword. Pets are often called 家族の一員.",
     rx: ["いちえん", "いっいん", "ひといん"],
-    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "To all of you who are now becoming members of this hotel, I'm going to talk about the attitude you need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "For all of you who are now joining this hotel, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{我|わ}が{家|や}では、{犬|いぬ}も{大切|たいせつ}な{家族|かぞく}の**{一員|いちいん}**だ。", en: "In our house, the dog is an important member of the family too.", alt: ["{一面|いちめん}", "{一同|いちどう}", "{一種|いっしゅ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "evaluation; assessment; (high) regard, recognition",
     note: "Judging the value of something, often positively: 高く評価する (think highly of), 評価が高い, 評価を受ける, 人事評価 (performance review). 評判 is reputation — what people say about someone.",
     rx: ["ひょうが", "ひょか", "へいか"],
-    book: { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを**{評価|ひょうか}**され、{愛|あい}されてきました。", en: "Our ABK Hotel has been highly rated by many guests for the quality of its service, and has long been loved by them.", at: "ch/3" },
+    book: { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを**{評価|ひょうか}**され、{愛|あい}されてきました。", en: "Here at ABK Hotel, we have long been loved by many guests, who value the high quality of our service.", at: "ch/3" },
     ex: [
       { ja: "{彼女|かのじょ}の{研究|けんきゅう}は{海外|かいがい}でも{高|たか}く**{評価|ひょうか}**されている。", en: "Her research is highly regarded abroad as well.", alt: ["{評判|ひょうばん}", "{批判|ひはん}", "{価値|かち}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "acting for someone; proxy; substitute; agent",
     note: "Doing something in someone's place with their authority: 〜の代理で / として (on behalf of ~), 代理人 (agent, proxy), 代理店 (agency, e.g. 旅行代理店). 代わり is the everyday “instead”; 代表 is a representative of a group.",
     rx: ["たいり", "だいい", "かわり"],
-    book: { ja: "シンガポール{支社|ししゃ}に{部長|ぶちょう}の**{代理|だいり}**として行くことになったんだ。", en: "It's been decided that I'll go to the Singapore branch on behalf of the department manager.", at: "gp/22" },
+    book: { ja: "シンガポール{支社|ししゃ}に{部長|ぶちょう}の**{代理|だいり}**として行くことになったんだ。", en: "I'm going to the Singapore branch as the department manager's stand-in.", at: "gp/22" },
     ex: [
       { ja: "{父|ちち}が{入院|にゅういん}しているので、{私|わたし}が**{代理|だいり}**で{会合|かいごう}に{出席|しゅっせき}した。", en: "My father is in the hospital, so I attended the meeting in his place.", alt: ["{代金|だいきん}", "{整理|せいり}", "{時代|じだい}"] },
     ] },
@@ -205,7 +205,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["くにみん", "こくびん", "こうみん"],
     book: { ja: "{首相|しゅしょう}の{発言|はつげん}は**{国民|こくみん}**{感情|かんじょう}を{無視|むし}したものと言わざるを{得|え}ない。", en: "I have to say that the prime minister's remarks ignored the feelings of the public.", at: "gp/24" },
     ex: [
-      { ja: "{新|あたら}しい{税|ぜい}には、**{国民|こくみん}**の{多|おお}くが{反対|はんたい}している。", en: "Many of the country's people are against the new tax.", alt: ["{国籍|こくせき}", "{国境|こっきょう}", "{国土|こくど}"] },
+      { ja: "{新|あたら}しい{税|ぜい}には、**{国民|こくみん}**の{多|おお}くが{反対|はんたい}している。", en: "Many citizens are against the new tax.", alt: ["{国籍|こくせき}", "{国境|こっきょう}", "{国土|こくど}"] },
     ] },
   { w: "{感情|かんじょう}", lv: "N2", pos: "noun",
     en: "emotion; feelings",
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "performer; cast member (of a show, film or event)",
     note: "From 出演する (appear in a film, play or TV program): 出演者一同 (the whole cast), テレビに出演する. For sports competitors, 出場する / 出場者; for attendees at a meeting, 出席者.",
     rx: ["しゅつえいしゃ", "でえんしゃ", "しゅうえんしゃ"],
-    book: { ja: "あの映画は内容はともかくとして、**{出演者|しゅつえんしゃ}**が有名だから{話題|わだい}になっている。", en: "Whatever you think of its content, that film is getting a lot of attention because its cast is famous.", at: "gp/26" },
+    book: { ja: "あの映画は内容はともかくとして、**{出演者|しゅつえんしゃ}**が有名だから{話題|わだい}になっている。", en: "Its content aside, that film is getting a lot of attention because its cast is famous.", at: "gp/26" },
     ex: [
       { ja: "コンサートの{最後|さいご}に、**{出演者|しゅつえんしゃ}**{全員|ぜんいん}が{舞台|ぶたい}に{並|なら}んであいさつした。", en: "At the end of the concert, all the performers lined up on stage and took a bow.", alt: ["{出身者|しゅっしんしゃ}", "{出張者|しゅっちょうしゃ}", "{応募者|おうぼしゃ}"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "topic (of conversation); subject; talk of the town",
     note: "話題になる (become a hot topic), 話題の店 / 映画 (a much-talked-about shop / film), 話題を変える (change the subject). 問題 is a problem or question; 題名 is a title.",
     rx: ["はなだい", "わたい", "わだいい"],
-    book: { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから**{話題|わだい}**になっている。", en: "Whatever you think of its content, that film is getting a lot of attention because its cast is famous.", at: "gp/26" },
+    book: { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから**{話題|わだい}**になっている。", en: "Its content aside, that film is getting a lot of attention because its cast is famous.", at: "gp/26" },
     ex: [
       { ja: "{駅前|えきまえ}にできた**{話題|わだい}**のパン{屋|や}に{行|い}ってみた。", en: "I tried the much-talked-about bakery that opened by the station.", alt: ["{主題|しゅだい}", "{課題|かだい}", "{題名|だいめい}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "efficiency",
     note: "効率がいい / 悪い, 効率よく (efficiently), 効率的な, 効率化 (streamlining). 能率 is close (the rate at which work gets done); 効果 is effect or effectiveness.",
     rx: ["こうりち", "こりつ", "こうそつ"],
-    book: { ja: "仕事は長い時間働けばいい（　）。時間をかけないで**{効率|こうりつ}**よく進めることを考える{必要|ひつよう}がある。", en: "It's not the case that working long hours is all that matters in a job. You need to think about getting things done efficiently without taking too much time.", at: "ch/3/review" },
+    book: { ja: "仕事は長い時間働けばいい（　）。時間をかけないで**{効率|こうりつ}**よく進めることを考える{必要|ひつよう}がある。", en: "With work, it's not simply a matter of putting in long hours. You need to think about getting things done efficiently without taking too much time.", at: "ch/3/review" },
     ex: [
       { ja: "{家事|かじ}を**{効率|こうりつ}**よく{片付|かたづ}ける{方法|ほうほう}を{考|かんが}えている。", en: "I'm thinking about ways to get the housework done efficiently.", alt: ["{比率|ひりつ}", "{確率|かくりつ}", "{効力|こうりょく}"] },
     ] },
@@ -642,8 +642,8 @@ TRY.registerVocab({ ch: 3, words: [
     en: "loss; disadvantage; losing out",
     note: "損する / 損をする (lose out, waste money), 損な役 (a thankless role), 損をしないように. The opposite is 得 (とく, gain, advantage). 損害 is formal for damage or loss suffered.",
     rx: ["ぞん", "そうん", "そく"],
-    book: { ja: "何なの、この映画。お金払って**{損|そん}**した。", en: "What is this movie? I wasted my money paying for it.", at: "ch/3/review" },
+    book: { ja: "何なの、この映画。お金払って**{損|そん}**した。", en: "What was that movie? What a waste of money.", at: "ch/3/review" },
     ex: [
-      { ja: "{安|やす}いと{思|おも}って{買|か}ったのに、すぐ{壊|こわ}れて**{損|そん}**をした。", en: "I bought it because it was cheap, but it broke right away, so I lost out.", alt: ["{得|とく}", "{損害|そんがい}", "{損傷|そんしょう}"] },
+      { ja: "{安|やす}いと{思|おも}って{買|か}ったのに、すぐ{壊|こわ}れて**{損|そん}**をした。", en: "I bought it thinking it was a bargain, but it broke right away, so I lost money on it.", alt: ["{得|とく}", "{損害|そんがい}", "{損傷|そんしょう}"] },
     ] },
 ] });

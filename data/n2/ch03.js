@@ -12,7 +12,7 @@ TRY.registerChapter({
       sample: {
         kind: "speech",
         lines: [
-          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "To all of you who are now becoming members of this hotel, I'm going to talk about the attitude you need as hotel staff." },
+          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "For all of you who are now joining this hotel, I'd like to talk about the mindset you need as hotel staff." },
           { cont: true, ja: "いちばん難しいのは、{苦情|くじょう}{処理|しょり}です。", en: "The hardest part is handling complaints." },
           { cont: true, ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける**{限|かぎ}り**、お客様からのクレームに{対応|たいおう}せ**ざるを{得|え}ない**場面に{必|かなら}ず{出合|であ}います。", en: "You probably think you'd rather not do it, but as long as you keep working at a hotel, you will certainly run into situations where you have no choice but to deal with complaints from guests." },
           { cont: true, ja: "お客様が{苦情|くじょう}をおっしゃったときは、ただ{謝|あやま}ればいい**というものではありません**。", en: "When a guest makes a complaint, it isn't simply a matter of apologizing." },
@@ -20,7 +20,7 @@ TRY.registerChapter({
           { cont: true, ja: "では、どうすればいいのでしょうか。", en: "So what should you do?" },
           { cont: true, ja: "そのときはお客様のお話を聞くことがいちばん大切です。", en: "In that situation, the most important thing is to listen to what the guest has to say." },
           { cont: true, ja: "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them not so much as guests who are only staying for a few days, but as your own family, and listen properly right to the end." },
-          { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Our ABK Hotel has been highly rated by many guests for the quality of its service, and has long been loved by them." },
+          { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Here at ABK Hotel, we have long been loved by many guests, who value the high quality of our service." },
           { cont: true, ja: "しかし、今後ホテル{業界|ぎょうかい}はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心し**てはいられません**。", en: "However, competition in the hotel industry is going to get tougher and tougher from now on, so we can't afford to be complacent." },
           { cont: true, ja: "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。", en: "In the times ahead, we need to pursue even better service than before." },
           { cont: true, ja: "ホテルのために、お客様のために、力を合わせて、がんばりましょう。", en: "For the hotel and for our guests, let's work together and do our best." },
@@ -36,7 +36,7 @@ TRY.registerChapter({
           usage: { ja: "「留学生として」「旅行用として」のように、{資格|しかく}・{用途|ようと}などを言うときに使う。", en: "Use this when you state a qualification, use or the like, as in “留学生として” and “旅行用として”." },
           forms: ["[N] + として"],
           examples: [
-            { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you're going on a business trip next week?\nB: Yeah. It's been decided that I'll go to the Singapore branch on behalf of the department manager." },
+            { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you're going on a business trip next week?\nB: Yeah. I'm going to the Singapore branch as the department manager's stand-in." },
             { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "After joining the company, please act with an awareness of your responsibilities as a company employee." },
             { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of about one night, so it's very convenient." },
             { ja: "{当|とう}ホテルではお{支払|しはら}いのときにサービス料として10%いただきます。", en: "At this hotel, we charge 10% as a service fee at the time of payment." },
@@ -241,7 +241,7 @@ TRY.registerChapter({
             { ja: "今の仕事は、{給料|きゅうりょう}はともかく、やりがいがあるいい仕事だと思っています。", en: "Salary aside, I think my current job is a good, rewarding one." },
             { ja: "この魚、{見|み}た{目|め}はともかく、味は最高ですから、ぜひ食べてみてください。", en: "Never mind how this fish looks — the taste is superb, so please do try it." },
             { ja: "試合の{結果|けっか}はともかくとして、最後まで{全力|ぜんりょく}で{戦|たたか}うことができたので{満足|まんぞく}だ。", en: "Whatever the result of the match, I was able to fight with everything I had right to the end, so I'm satisfied." },
-            { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから{話題|わだい}になっている。", en: "Whatever you think of its content, that film is getting a lot of attention because its cast is famous." },
+            { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから{話題|わだい}になっている。", en: "Its content aside, that film is getting a lot of attention because its cast is famous." },
             { ja: "昨日見た{UFO|ユーフォー}{特集|とくしゅう}は本当かどうかはともかく、たいへん{興味深|きょうみぶか}い{番組|ばんぐみ}だった。", en: "Whether or not it was true, the UFO special I watched yesterday was a very interesting program." },
           ],
           deepDive: "**Xはともかく（として）** sets X aside for now so the main clause can make the point that matters: *X aside, never mind X*. 見た目はともかく、味はいい (*never mind the looks, it tastes good*). What gets shelved is secondary, uncertain or not worth arguing about. The two halves usually contrast, with the more important or more favorable point last. として makes it slightly fuller and more formal.\n\nBesides nouns, it follows **〜かどうか** (本当かどうかはともかく, *whether or not it's true*) and a **question word + か** (誰がやったかはともかく, *never mind who did it*).\n\nCompare:\n- **〜を問わず** (#2): *regardless of*; X doesn't matter to a rule that covers every case: 国籍を問わず応募できる (*anyone can apply, whatever their nationality*).\n- **〜はもとより** (#12): *not to mention X*; X is taken for granted as included, the opposite of setting it aside.\n- **〜はさておき**: very close, often used to change the subject: 冗談はさておき (*joking aside*).\n\nPitfall: はともかく doesn't mean *regardless of*, so it can't introduce a rule: ✗年齢はともかく、だれでも参加できます.\n\nJLPT cue: a noun or 〜かどうか before the blank and a contrasting evaluation after it.",
@@ -264,7 +264,7 @@ TRY.registerChapter({
                   q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。",
                   options: ["はともかく", "を{問|と}わず"],
                   answer: 0,
-                  en: "Even at a cheap hotel, never mind a bathtub, it's a problem if there isn't at least a shower.",
+                  en: "Even at a cheap hotel, I can do without a bathtub, but no shower is a problem.",
                   why: { en: "A bathtub is set aside as not essential; the point is the shower: お風呂はともかく. を問わず needs a noun covering a range." },
                 },
                 {
@@ -323,7 +323,7 @@ TRY.registerChapter({
           forms: ["[Pl] + というより\n［[なA~~だ~~]　[N~~だ~~]］"],
           examples: [
             { ja: "{姉|あね}はぼくより10歳年上で、小さいときからいろいろ{世話|せわ}をしてくれたので、姉というより母親のような{存在|そんざい}だ。", en: "My sister is ten years older than me and has looked after me in all sorts of ways since I was little, so she's more like a mother than a sister." },
-            { ja: "『{星|ほし}の{王子|おうじ}さま』は子ども{向|む}けというより、大人のための本だ。", en: "The Little Prince is a book for adults rather than one for children." },
+            { ja: "『{星|ほし}の{王子|おうじ}さま』は子ども{向|む}けというより、大人のための本だ。", en: "The Little Prince is not so much a children's book as a book for adults." },
             { ja: "この絵は絵というより、まるで写真のようだ。", en: "This picture is less like a painting and more like a photograph." },
             { ja: "この町は昔はにぎわっていたが、今は{訪|おとず}れる人も少なく、静かというよりさびしい町になってしまった感じがする。", en: "This town used to be lively, but now few people visit, and it feels like it has become not so much quiet as lonely." },
           ],
@@ -463,7 +463,7 @@ TRY.registerChapter({
             q: "仕事は長い時間働けばいい（　）。時間をかけないで{効率|こうりつ}よく進めることを考える{必要|ひつよう}がある。",
             options: ["に{限|かぎ}る", "ということだ", "というものではない", "に決まっている"],
             answer: 2,
-            en: "It's not the case that working long hours is all that matters in a job. You need to think about getting things done efficiently without taking too much time.",
+            en: "With work, it's not simply a matter of putting in long hours. You need to think about getting things done efficiently without taking too much time.",
             why: { en: "The next sentence rejects the formula 長い時間働けばいい, so というものではない. に限る (*is the best*) and に決まっている (*is bound to be*) affirm it, and ということだ is hearsay." },
           },
           {
@@ -484,7 +484,7 @@ TRY.registerChapter({
             q: "A：部長、パソコンの本、ずいぶん{熱心|ねっしん}に読んでますね。\nB：うん。パソコンが使えなかったら何もできないんだから、できないと（　）からね。",
             options: ["言うというものではない", "言いかねない", "言わざるを{得|え}ない", "言ってはいられない"],
             answer: 3,
-            en: "A: You're really engrossed in that computer book.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it.",
+            en: "A: Manager, you're really engrossed in that computer book.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it.",
             why: { en: "The situation doesn't allow B to keep saying できない, hence the studying: 言ってはいられない. 言わざるを得ない would mean being *forced* to say it, 言いかねない that B *might* say it, and 言うというものではない doesn't fit." },
           },
         ],
@@ -502,7 +502,7 @@ TRY.registerChapter({
             pieces: ["{雰囲気|ふんいき}が", "というより", "好き", "お酒が"],
             order: [3, 2, 1, 0],
             star: 2,
-            en: "A: B, you like drinking, don't you? You go out drinking at least three times a week, don't you?\nB: No, that's not it. It's not so much the drinking I like as the atmosphere.",
+            en: "A: You like drinking, don't you, B? I bet you go out drinking at least three times a week.\nB: No, that's not it. It's not so much the drinking I like as the atmosphere.",
           },
           {
             before: "A：新しいアルバイト、ちゃんとやってる？\nB：もちろんだよ。まじめに",
@@ -583,7 +583,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "何なの、この映画。お金払って{損|そん}した。" },
             ],
-            en: ["What is this movie? I wasted my money paying for it.", "Yeah, we have no choice but to watch it.", "Right, we shouldn't have watched it.", "Yeah. Let's watch it next time."],
+            en: ["What was that movie? What a waste of money.", "Yeah, we have no choice but to watch it.", "Right, we shouldn't have watched it.", "Yeah. Let's watch it next time."],
             options: ["ほんと、見ざるを{得|え}ないよ。", "そうだね、見るんじゃなかった。", "うん。今度見ようよ。"],
             answer: 1,
             why: { en: "〜んじゃなかった expresses regret: \"We shouldn't have watched it.\"" },
