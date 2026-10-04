@@ -28,9 +28,10 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | N2 ch09–11 | done (82 strings + 24 vocab; #93 まいか deepDive contradiction fixed) |
 | N2 ch12–14, compare | done (75 strings + 9 vocab; compare 10) |
 | N1 ch01–03 | done (52 strings incl. 7 deepDive/why fixes; 50 vocab) |
-| N1 ch04–06 | running |
+| N1 ch04–06 | done (90 strings incl. deepDive fixes; #37 ③ 言わる looks like a book misprint, kept) |
 | N1 ch07–10, compare | running |
 | Q1 L1–3 | done (24 strings + 2 vocab; L2 おかげさまで deepDive) |
-| Q1 L4–6, challenge, front | running |
+| Q1 L4–6, challenge, front | done (35 strings + 5 vocab) |
 | Q2 L7–9 | running |
 | Q2 L10–12, challenge, front | running |
+| N2 audit (round 3: consistency + sample) | running |
