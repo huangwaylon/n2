@@ -304,7 +304,7 @@ TRY.registerLesson({
       "『奇跡の職場──新幹線清掃チームの“働く誇り”』あさ出版"
      ],
      "tr": [
-      "We at TESSEI, formally JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. The greatest feature of TESSEI's shinkansen cleaning lies in its \"speed.\" As a CNN program put it when it called this a \"7 minute miracle,\" we clean an entire shinkansen in just seven minutes.",
+      "We at TESSEI, formally JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. What sets TESSEI's shinkansen cleaning apart most is its \"speed.\" As a CNN program put it when it called this a \"7 minute miracle,\" we clean an entire shinkansen in just seven minutes.",
       "\"Cleaning\" may sound simple, but the tasks are many and varied: we gather up the trash that has collected under the seats and in the storage spaces, turn the seats back to face the direction of travel, wipe all 100 tables, raise the window blinds, wipe the window frames, change the seat covers, check for lost items and, if there are any, keep careful track of them so they don't go missing, contact JR and deal with it if we find anything broken, bundle up the trash we've collected and take it out, and so on.",
       "During the height of the bubble economy in the 1980s, the term \"3K\" became popular. It was made from the initial letters of kitsui, kitanai, kiken (\"hard, dirty, dangerous\") and was used for jobs that people tended to shy away from. Cleaning shinkansen is exactly that kind of \"3K\" job.",
       "Yet the staff working on-site all have cheerful faces and are full of motivation.",
@@ -314,9 +314,9 @@ TRY.registerLesson({
       "So the more extra trains are added, the more our income goes up. On the other hand, services such as bowing or giving directions don't bring in any income.",
       "But for our staff they are very important. That's because when they provide a service to a customer and receive, say, a single word of \"thank you,\" it leads to a sense of self-worth and confidence.",
       "From my point of view, that is no more than \"just how things turned out,\" but when I look around, it also seems to me that society as a whole is now moving in that direction.",
-      "In other words, the age when only \"making money\" was considered a virtue is over. Since it is a business, of course, earning as much money as possible is important, but aren't we reaching an age in which, as a basic premise, an awareness of \"doing something for others\" and \"being useful\" takes on a very important meaning?",
+      "In other words, the age when only \"making money\" was considered a virtue is over. Since it is a business, of course it's important to earn as much money as we can, but aren't we now entering an age in which the premise underlying all that, an awareness of \"doing something for others\" and \"being useful,\" carries great weight?",
       "I think this is a point that can't be ignored in understanding the times.",
-      "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous cycles are born. Isn't it on cycles like that that work, today and in the years to come, will be built?"
+      "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous cycles are born. Isn't that kind of cycle what work, today and in the years to come, will be built on?"
      ],
      "headTr": [
       "A Team That Cleans a Shinkansen in Seven Minutes and Keeps It Running on Schedule",
@@ -484,9 +484,9 @@ TRY.registerLesson({
      "tr": [
       "This fall, at the Minamiza theater in Kyoto, I saw a new kabuki play called \"Arashi no Yoru ni\" (One Stormy Night). Nakamura Shidō plays Gabu the wolf, and Onoe Matsuya plays Mei the goat.",
       "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is argued down by its companions and nearly loses heart. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
-      "Don't dismiss it as a silly fantasy. It depicts a surprising truth and a possibility. Who on earth decided the common belief that goats are something to be eaten by wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
+      "Don't dismiss it as a silly fantasy. It depicts a surprising truth and a possibility. Who on earth decided the common wisdom that goats are food for wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
       "In fact, it is humans who have arbitrarily created, and then just as arbitrarily dissolved, such absolute hostile relationships that seem at first glance to be common sense. The gorillas I have studied for so long have been at the mercy of humans' selfish common sense. After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took seriously stories that they attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once the peaceful life of gorillas became clear, that view changed completely, and now they have become a major tourist attraction as important neighbors of humans. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
-      "The same can be said of relationships between humans. In the Edo period, white people were seen by the Japanese as demons who ate human beings. And what on earth was the fear and hatred we harbored during World War II, when we called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
+      "The same can be said of relationships between humans. In the Edo period, the Japanese saw white people as man-eating demons. And what on earth was the fear and hatred we harbored during World War II, when we called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
       "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is this: even a relationship that seems at first glance impossible to change can be changed by the attitude we take toward it. This is not something only intelligent humans can do.",
       "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have spent a long time building a friendly relationship. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I too was charged, and suffered injuries to my head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
       "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
@@ -1665,7 +1665,7 @@ TRY.registerLesson({
           {
            "sp": "後輩",
            "ja": "今の会社で仕事を続けていく**うえで**大切にしている点は、何ですか。",
-           "tr": "What do you consider important in continuing to work at your current company?"
+           "tr": "What do you think is important as you keep working at your current company?"
           },
           {
            "sp": "先輩",
@@ -1677,7 +1677,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "外国語習得**のうえで**必要なものは、あきらめない心だ。",
-         "tr": "What you need in learning a foreign language is a spirit that never gives up."
+         "tr": "What you need to learn a foreign language is the determination never to give up."
         }
        ]
       },
@@ -1919,7 +1919,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "宇宙旅行は遠い未来の話だと思う**なかれ**。実際、多くの計画が進められている。",
-         "tr": "Do not think of space travel as something of the distant future. In fact, many projects are already underway."
+         "tr": "Do not think space travel belongs to the distant future. In fact, many projects are already underway."
         },
         {
          "n": 2,
@@ -5067,7 +5067,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "でも、日本人の多くはただ{争|あらそ}いを{避|さ}けるために相手の意見に同意している__にすぎない__んじゃないかな。ここで言う「協調性」って、相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力ってことでしょ？",
-       "tr": "But I wonder if a lot of Japanese people aren't merely agreeing with the other person's opinion to avoid conflict. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
+       "tr": "But I suspect a lot of Japanese people are merely going along with the other person's opinion to avoid conflict. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
       },
       {
        "sp": "サ",
