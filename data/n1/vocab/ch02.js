@@ -256,7 +256,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "wild; (living) in the wild",
     note: "Living or growing naturally, not kept by people: 野生動物, 野生の花, 野生に返す (release into the wild). The homophone 野性 means wild nature or instinct (野性的な = rugged).",
     rx: ["のせい", "やしょう", "やぜい"],
-    book: { ja: "{保護|ほご}のためといえども、**{野生|やせい}**動物に{発信機|はっしんき}を取り付けるべきではないという意見もある。", en: "There is also the opinion that, even if it is for their protection, transmitters should not be attached to wild animals.", at: "gp/8" },
+    book: { ja: "{保護|ほご}のためといえども、**{野生|やせい}**動物に{発信機|はっしんき}を取り付けるべきではないという意見もある。", en: "Some argue that wild animals should not be fitted with transmitters, even if it is for their own protection.", at: "gp/8" },
     ex: [
       { ja: "この{島|しま}では**{野生|やせい}**のサルを{見|み}ることができる。", en: "You can see wild monkeys on this island.", alt: ["{野菜|やさい}", "{野球|やきゅう}", "{生活|せいかつ}"] },
     ] },
@@ -336,7 +336,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "reduction; cut (in costs, staff or emissions)",
     note: "Deliberately cutting an amount: 経費 / 人員 / CO2を削減する. 減少 is a decrease that simply happens; 削減 is a cut someone makes.",
     rx: ["しょうげん", "さっげん", "さくかん"],
-    book: { ja: "コスト**{削減|さくげん}**という{企業|きぎょう}のニーズが工場の海外移転を{余儀|よぎ}なくさせたと言えるだろう。", en: "It could be said that companies' need to cut costs forced factories to relocate overseas.", at: "gp/9" },
+    book: { ja: "コスト**{削減|さくげん}**という{企業|きぎょう}のニーズが工場の海外移転を{余儀|よぎ}なくさせたと言えるだろう。", en: "Arguably, it was companies' need to cut costs that forced factories to move overseas.", at: "gp/9" },
     ex: [
       { ja: "{会社|かいしゃ}は{残業|ざんぎょう}{代|だい}の**{削減|さくげん}**に{取|と}り{組|く}んでいる。", en: "The company is working on cutting overtime costs.", alt: ["{削除|さくじょ}", "{増減|ぞうげん}", "{加減|かげん}"] },
     ] },
@@ -344,7 +344,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "relocation; moving (of an office, shop or facility); transfer",
     note: "For organizations and facilities: 本社を移転する, 店舗移転のお知らせ (notice of store relocation). Also 技術移転 (technology transfer). People 引っ越す or 移住する instead.",
     rx: ["いでん", "いてい", "うつてん"],
-    book: { ja: "コスト{削減|さくげん}という{企業|きぎょう}のニーズが工場の海外**移転**を{余儀|よぎ}なくさせたと言えるだろう。", en: "It could be said that companies' need to cut costs forced factories to relocate overseas.", at: "gp/9" },
+    book: { ja: "コスト{削減|さくげん}という{企業|きぎょう}のニーズが工場の海外**移転**を{余儀|よぎ}なくさせたと言えるだろう。", en: "Arguably, it was companies' need to cut costs that forced factories to move overseas.", at: "gp/9" },
     ex: [
       { ja: "{本社|ほんしゃ}が{大阪|おおさか}に**{移転|いてん}**することになった。", en: "The head office is going to relocate to Osaka.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移植|いしょく}"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "being elected; winning (a prize draw)",
     note: "Both winning an election (選挙に当選する) and winning a lottery or drawing (宝くじに当選する, 当選者). 入選 is having a work accepted in a contest.",
     rx: ["とうぜん", "あたりせん", "とせん"],
-    book: { ja: "**{当選者|とうせんしゃ}**の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "The shipment of the prizes will serve as the announcement of the winners.", at: "gp/13" },
+    book: { ja: "**{当選者|とうせんしゃ}**の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "In lieu of a separate announcement, winners will be notified by the shipment of their prizes.", at: "gp/13" },
     ex: [
       { ja: "{応募|おうぼ}したコンサートのチケットが**{当選|とうせん}**した。", en: "I won the concert tickets I'd entered the draw for.", alt: ["{当然|とうぜん}", "{選択|せんたく}", "{発送|はっそう}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "shipping; sending out (goods or mail)",
     note: "商品を発送する, 発送日, 発送元 (sender). 送付 is sending documents, and 配送 is delivery to the recipient. The homophone 発想 means an idea or way of thinking.",
     rx: ["はつそう", "ほっそう", "はっそ"],
-    book: { ja: "{当選者|とうせんしゃ}の発表は賞品の**{発送|はっそう}**をもってかえさせていただきます。", en: "The shipment of the prizes will serve as the announcement of the winners.", at: "gp/13" },
+    book: { ja: "{当選者|とうせんしゃ}の発表は賞品の**{発送|はっそう}**をもってかえさせていただきます。", en: "In lieu of a separate announcement, winners will be notified by the shipment of their prizes.", at: "gp/13" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{商品|しょうひん}は{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発想|はっそう}", "{発生|はっせい}", "{放送|ほうそう}"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(formal) apology",
     note: "A formal apology, typical of companies and officials: 謝罪する, 謝罪会見 (a press conference to apologize), 謝罪を求める (demand an apology). In conversation 謝る.",
     rx: ["しゃさい", "じゃざい", "あやまざい"],
-    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "We must win the forgiveness of the customers we have inconvenienced with a heartfelt apology.", at: "ch/2" },
+    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "With a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced.", at: "ch/2" },
     ex: [
       { ja: "{社長|しゃちょう}は{記者|きしゃ}{会見|かいけん}を{開|ひら}いて{正式|せいしき}に**{謝罪|しゃざい}**した。", en: "The company president held a press conference and formally apologized.", alt: ["{感謝|かんしゃ}", "{犯罪|はんざい}", "{謝礼|しゃれい}"] },
     ] },
@@ -615,7 +615,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(TV) ratings; audience share",
     note: "The share of households watching a program: 視聴率が高い / 低い, 視聴率を取る (pull in ratings). 視聴者 means viewers.",
     rx: ["しちょりつ", "しちょうそつ", "じちょうりつ"],
-    book: { ja: "このドラマは初回の**{視聴率|しちょうりつ}**が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", en: "This drama's first episode had a 31.5% rating, and its peak rating was higher still, apparently close to 40%.", at: "ch/2" },
+    book: { ja: "このドラマは初回の**{視聴率|しちょうりつ}**が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", en: "This drama drew a 31.5% rating for its first episode, and at its peak it apparently came close to 40%.", at: "ch/2" },
     ex: [
       { ja: "その{番組|ばんぐみ}は**{視聴率|しちょうりつ}**が{低|ひく}く、{半年|はんとし}で{終|お}わった。", en: "The show had low ratings and ended after six months.", alt: ["{確率|かくりつ}", "{比率|ひりつ}", "{効率|こうりつ}"] },
     ] },
@@ -655,7 +655,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "interval; spare moment (between activities); break",
     note: "A gap between things one is doing: 仕事の合間に, 雨の合間, 〜の合間を縫って (squeezing time out between ~). 隙間 is a physical gap.",
     rx: ["ごうま", "あいかん", "かいま"],
-    book: { ja: "「豊かな海（　）{漁師|りょうし}だ」と言って、彼らは仕事の**{合間|あいま}**に環境{保護|ほご}の活動をしている。", en: "Saying “Fishermen exist only because there is a rich sea,” they do environmental protection work in between their jobs.", at: "ch/2/review" },
+    book: { ja: "「豊かな海（　）{漁師|りょうし}だ」と言って、彼らは仕事の**{合間|あいま}**に環境{保護|ほご}の活動をしている。", en: "“Without a rich sea there would be no fishermen,” they say, and in between their work they take part in environmental protection.", at: "ch/2/review" },
     ex: [
       { ja: "{彼女|かのじょ}は{子育|こそだ}ての**{合間|あいま}**に{資格|しかく}の{勉強|べんきょう}をしている。", en: "She studies for a qualification in between looking after her kids.", alt: ["{隙間|すきま}", "{仲間|なかま}", "{居間|いま}"] },
     ] },
