@@ -56,7 +56,7 @@ TRY.registerChapter({
             { ja: "{動詞|どうし}のⅡグループとⅢグループには、{複数|ふくすう}の{接続|せつぞく}のし方がある。\n食べる　→　食べるまい／食べまい\nする　→　するまい／すまい／しまい\n来る　→　来るまい／{来|こ}まい／{来|き}まい", en: "Group II and Group III verbs have more than one way of connecting:\n食べる → 食べるまい / 食べまい\nする → するまい / すまい / しまい\n来る → くるまい / こまい / きまい", gen: true },
           ],
           examples: [
-            { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはあるまい。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to turn around any time soon. We as a company must also come up with countermeasures right away." },
+            { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはあるまい。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to turn around any time soon. Our company, too, must come up with countermeasures right away." },
             { ja: "どんなに生活{習慣|しゅうかん}が変わっても、日本から{畳|たたみ}の部屋がなくなることはあるまい。", en: "However much lifestyles change, tatami rooms will surely never disappear from Japan." },
             { ja: "{双方|そうほう}の{利害|りがい}が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は{容易|ようい}には{解決|かいけつ}するまい。", en: "Because the two sides' interests are in conflict, the trade problem with Country A is unlikely to be resolved easily." },
             { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but alternative energy is unlikely to catch on easily." },

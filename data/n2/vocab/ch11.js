@@ -74,7 +74,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "victory; win",
     note: "A formal, news-style word: 勝利を収める (win a victory), 選挙で勝利する, チームワークの勝利. In conversation people say 勝ち / 勝つ. The opposite is 敗北 (defeat).",
     rx: ["しょり", "しょうい", "かつり"],
-    book: { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの**{勝利|しょうり}**にほかなりません。", en: "The success of this project is nothing less than a victory for teamwork.", at: "gp/100" },
+    book: { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの**{勝利|しょうり}**にほかなりません。", en: "The success of this project is nothing other than a victory for teamwork.", at: "gp/100" },
     ex: [
       { ja: "{選挙|せんきょ}で{新人|しんじん}の{候補者|こうほしゃ}が**{勝利|しょうり}**した。", en: "A first-time candidate won the election.", alt: ["{処理|しょり}", "{修理|しゅうり}", "{受理|じゅり}"] },
     ] },

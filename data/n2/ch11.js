@@ -38,7 +38,7 @@ TRY.registerChapter({
             { ja: "理由を表す「から・ため」にもついて、{原因|げんいん}・理由・{根拠|こんきょ}を{強調|きょうちょう}する言い方になる。", en: "You can also say it with \"から・ため\", which emphasizes a cause, reason or basis." },
           ],
           examples: [
-            { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの{勝利|しょうり}にほかなりません。", en: "The success of this project is nothing less than a victory for teamwork." },
+            { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの{勝利|しょうり}にほかなりません。", en: "The success of this project is nothing other than a victory for teamwork." },
             { ja: "{政治|せいじ}の{目的|もくてき}は国民の{幸福|こうふく}にほかならない。", en: "The purpose of politics is none other than the happiness of the people." },
             { ja: "{事故|じこ}を起こしたのは{労働条件|ろうどうじょうけん}が{厳|きび}しかったからにほかならないと、彼は{裁判|さいばん}で{主張|しゅちょう}した。", en: "He argued in court that the accident happened precisely because the working conditions were harsh." },
             { ja: "この国の{人々|ひとびと}が{貧|まず}しくても{笑顔|えがお}で{暮|く}らしているのは、心の{豊|ゆた}かさを大切にしているからにほかならない。", en: "The reason the people of this country live with smiles on their faces even though they are poor is, quite simply, that they value richness of heart." },

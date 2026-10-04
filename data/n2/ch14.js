@@ -41,7 +41,7 @@ TRY.registerChapter({
           examples: [
             { ja: "昔はよく友達と近くの川で{泳|およ}いだものだ。", en: "I often used to swim in the nearby river with my friends." },
             { ja: "{娘|むすめ}も昔は「パパ、大好き！」と言ってくれて、かわいかったものだが…。", en: "My daughter used to say \"Daddy, I love you!\" and she was so sweet back then, but..." },
-            { ja: "10年前はこのあたりも静かだったものだが、今ではすっかり変わってしまった。", en: "This area was quiet too, ten years ago, but now it has completely changed." },
+            { ja: "10年前はこのあたりも静かだったものだが、今ではすっかり変わってしまった。", en: "Ten years ago this area used to be quiet too, but now it has completely changed." },
             { ja: "あんな高いところから落ちて、よくけがをしなかったものだ。", en: "It's amazing that you didn't get hurt falling from such a high place." },
             { ja: "あの子がもう{成人式|せいじんしき}ですか。時間がたつのは早いものですね。", en: "That kid is already old enough for the coming-of-age ceremony? Time really flies, doesn't it?" },
             { ja: "うちの{猫|ねこ}はちっとも家に帰ってこない。困ったものだ。", en: "Our cat hardly ever comes home. It's a real headache." },
