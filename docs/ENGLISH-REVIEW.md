@@ -10,7 +10,7 @@ then explanations and deep-dives. Rules: `docs/ENGLISH.md`. Book English is neve
 | N2 ch06–10 | | |
 | N2 ch11–14, compare | | |
 | N1 ch01–04 | done (38 strings; deepDives read, not rewritten) | |
-| N1 ch05–07 | | |
+| N1 ch05–07 | done (43 strings + 16 vocab) | |
 | N1 ch08–10, compare | | |
 | Q1 L1–2 | | |
 | Q1 L3–4 | | |
