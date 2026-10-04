@@ -257,10 +257,10 @@ TRY.registerLesson({
       "To: Professor Reiko Suzuki <r.suzuki@nau.edu>",
       "Subject: Request for a letter of recommendation",
       "Professor Suzuki,",
-      "Here in Japan, cold winds are blowing and it is cold every day. I imagine it is still snowing day after day there; I hope you are doing well. I am finally getting used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
+      "Here in Japan, cold winds are blowing and it is cold every day. I imagine you are still having one snowy day after another there. Are you keeping well? I am finally getting used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
       "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Exchange Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
       "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much.",
-      "Colds are easy to catch this time of year, so please take care of yourself.",
+      "It is the time of year when colds are easy to catch, so please take good care of yourself.",
       "George Taylor",
       "georgetaylor@abcde.com"
      ]
@@ -419,9 +419,9 @@ TRY.registerLesson({
       "George writes a thank-you letter to Professor Suzuki.",
       "Dear Professor Suzuki,",
       "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. I imagine it is starting to get hot there by now. How are you? It will soon be summer vacation. Will you be teaching the summer course again this year?",
-      "The other day, my two-month internship program came to a successful end. Thank you for writing me a letter of recommendation back then when you were so busy. It was a short time, but thanks to you, I had a wonderful experience of a kind no textbook could teach. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
+      "The other day, my two-month internship program came to a successful end. Thank you again for taking the time, busy as you were, to write me a letter of recommendation. It was a short time, but thanks to you, I had a wonderful experience of a kind no textbook could teach. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
       "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Exchange Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that isn't all it is. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
-      "The internship is over now, but actually, it has been arranged for me to start another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
+      "The internship is over now, but as it turns out, I will be starting another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
       "It is only a small gift, but I am sending you a pen from the university here along with this letter. I would be happy if you like it.",
       "Well then, I am looking forward to seeing you again and talking about many things when I go back there for summer vacation.",
       "I know you are busy, but please take good care of yourself. Please give my regards to Professor Sato as well.",
@@ -493,7 +493,7 @@ TRY.registerLesson({
        "tr": [
         "Professor Tanaka,",
         "The rainy season has started here, and it has been raining almost every day. How are things there? What will you be doing over summer vacation?",
-        "Now, I am writing today because I have some news I'd like to share. Actually, it has been settled that I will work in Japan after my study abroad ends. The job is …",
+        "Now, I am writing today because I have some news I'd like to share. As it turns out, I will be working in Japan after my study abroad ends. The job is …",
         "Well then, I will be in touch again. Please be careful not to catch a summer cold. Please give my regards to Professor Yamashita as well.",
         "Sarah Gomis"
        ]
@@ -535,7 +535,7 @@ TRY.registerLesson({
          "tr": [
           "Dear Professor Suzuki,",
           "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. There, … Will you be teaching the summer course again this year?",
-          "The other day, my two-month internship program came to a successful end. Thank you for writing me a letter of recommendation back then when you were so busy. It was a short time …",
+          "The other day, my two-month internship program came to a successful end. Thank you again for taking the time, busy as you were, to write me a letter of recommendation. It was a short time …",
           "Well then, when I go back there for summer vacation, I'll see you again and we can talk about many things …"
          ]
         }
@@ -864,7 +864,7 @@ TRY.registerLesson({
           {
            "sp": "ジョージ",
            "ja": "ありがとう。最近やっと日本語だけで話せるようになっ**てきた**よ。",
-           "tr": "Thanks. Lately I've finally gotten to where I can talk using only Japanese."
+           "tr": "Thanks. Lately I've finally been getting to where I can talk only in Japanese."
           }
          ]
         },
@@ -936,14 +936,14 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ええ。でも、これから{増|ふ}え**ていく**と思いますよ。",
-           "tr": "That's right. But I think their number will grow from now on."
+           "tr": "That's right. But I think their numbers will keep growing from here on."
           }
          ]
         },
         {
          "n": 6,
          "ja": "今後、ロボットが増えると、仕事の仕方は変わっ**ていく**でしょう。",
-         "tr": "As robots increase in the future, the way we work will probably change."
+         "tr": "As robots increase in the future, the way we work will probably change over time."
         },
         {
          "n": 7,
@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to my senpai, who introduced me to a job, it's been settled that I can work in Japan."
+         "tr": "Thanks to my senpai, who introduced me to a job, it's now settled that I'll be able to work in Japan."
         },
         {
          "n": 2,
@@ -2117,7 +2117,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "来月結婚する**ことになりました**。",
-         "tr": "It's been decided that I'm getting married next month."
+         "tr": "I'm going to be getting married next month."
         }
        ]
       },
@@ -3967,7 +3967,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❸町の人と交流することができた**し**、自分の国について知ってもらえた**し**、とてもおもしろかったです。",
-       "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
+       "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
       },
       {
        "sp": "中",
@@ -4093,7 +4093,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "町の人と交流することができた**し**、自分の国について\n知ってもらえた**し**、とてもおもしろかったです。",
-        "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
+        "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
        }
       },
       {
@@ -4243,7 +4243,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{町の人と交流することができた}}**し**、{{自分の国について知ってもらえた}}**し**、{{とてもおもしろかったです}}。",
-         "tr": "I got to interact with people in the town and have them learn about my country, so it was really interesting."
+         "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
         },
         {
          "sp": "先生",
@@ -4368,7 +4368,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❷**これ、少しだけど、食べて／受け取って。**",
-           "tr": "This is just a little something. Eat it / Take it."
+           "tr": "It's not much, but here, eat it / take it."
           },
           {
            "sp": "友達",
@@ -4732,7 +4732,7 @@ TRY.registerLesson({
        "sp": "美",
        "v": "f",
        "ja": "このごろ少し{暖|あたた}かくなっ__てきた__ね。",
-       "tr": "It's gotten a little warmer lately, hasn't it?"
+       "tr": "It's been getting a little warmer lately, hasn't it?"
       },
       {
        "sp": "サ",
