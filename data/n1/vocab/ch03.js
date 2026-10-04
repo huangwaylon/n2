@@ -228,7 +228,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "ルーズ", lv: "N1", pos: "な adjective",
     en: "careless, sloppy, lax (about time, money or rules)",
     note: "From English 'loose' but used of behavior: 時間にルーズ (always late), お金にルーズ. Loose-fitting clothes are ゆったりした服. だらしない is similar and broader.",
-    book: { ja: "彼は金に**ルーズ**で、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money, ran up debts all over the place, and in the end he embezzled company money and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金に**ルーズ**で、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "彼女は時間に**ルーズ**で、{約束|やくそく}の時間に来たためしがない。", en: "She's hopeless about time — she has never once shown up when she said she would.", alt: ["タイト", "シビア", "クール"] },
     ] },
@@ -236,7 +236,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "(ほうぼう) everywhere, all over, here and there",
     note: "Read ほうぼう it means 'in various places': 方々を探す, 方々で借金する. Read かたがた it is a respectful plural for people (関係者の方々). Context decides the reading.",
     rx: ["ほうほう", "ほうぼ", "ほぼう"],
-    book: { ja: "彼は金にルーズで、**{方々|ほうぼう}**で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money, ran up debts all over the place, and in the end he embezzled company money and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、**{方々|ほうぼう}**で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "なくした{鍵|かぎ}を{家中|いえじゅう}**{方々|ほうぼう}**探したが、見つからなかった。", en: "I searched all over the house for the key I'd lost, but couldn't find it.", alt: ["{方法|ほうほう}", "{方角|ほうがく}", "{方面|ほうめん}"] },
     ] },
@@ -244,7 +244,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "in the end (after a string of bad things); to top it all off",
     note: "An emphatic form of あげく (挙げ句): after one trouble after another, the worst outcome. Always negative and usually あげくの果てに(は). 結局 is neutral 'in the end'.",
     rx: ["あげくのかて", "あげくのはって", "あげくのはたて"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、**あげくの{果|は}て**に会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money, ran up debts all over the place, and in the end he embezzled company money and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、**あげくの{果|は}て**に会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "道に{迷|まよ}い、雨に{降|ふ}られ、**あげくの{果|は}て**に{財布|さいふ}まで落としてしまった。", en: "I got lost, got caught in the rain, and to top it all off I dropped my wallet.", alt: ["{何|なに}よりの{証拠|しょうこ}", "{不幸中|ふこうちゅう}の{幸|さいわ}い", "{一石二鳥|いっせきにちょう}"] },
     ] },
@@ -252,7 +252,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to embezzle, misappropriate (money); to use something for years (until well-worn)",
     note: "With money it means spending funds entrusted to you on yourself: 会社の金を使い込む. With objects it is positive: 使い込んだ鞄 (a well-used bag). 横領 is the legal term for embezzlement.",
     rx: ["しこむ", "つかいごむ", "つかいかむ"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を**使い込ん**で{解雇|かいこ}されるしまつだ。", en: "He's careless with money, ran up debts all over the place, and in the end he embezzled company money and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を**使い込ん**で{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "{経理|けいり}の{担当者|たんとうしゃ}が{会費|かいひ}を**{使|つか}い{込|こ}んで**いたことが{発覚|はっかく}した。", en: "It came to light that the person in charge of the accounts had been embezzling the membership fees.", alt: ["{売|う}り{込|こ}んで", "{書|か}き{込|こ}んで", "{飛|と}び{込|こ}んで"] },
     ] },
@@ -260,7 +260,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "dismissal, firing (from a job)",
     note: "Formal and legal: 解雇される, 不当解雇 (unfair dismissal). Casually people say クビになる. リストラ is layoffs for restructuring.",
     rx: ["かいご", "げこ", "かいごう"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで**{解雇|かいこ}**されるしまつだ。", en: "He's careless with money, ran up debts all over the place, and in the end he embezzled company money and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで**{解雇|かいこ}**されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "{不況|ふきょう}で工場の{従業員|じゅうぎょういん}の{半数|はんすう}が**{解雇|かいこ}**された。", en: "Because of the recession, half of the factory's workers were let go.", alt: ["{解散|かいさん}", "{解除|かいじょ}", "{回顧|かいこ}"] },
     ] },
@@ -276,7 +276,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "fraud, swindle, scam",
     note: "詐欺に遭う (be scammed), 詐欺師 (a con artist), 振り込め詐欺 (a phone scam demanding bank transfers). The everyday verb is だます (to deceive).",
     rx: ["さき", "さぎい", "しゃぎ"],
-    book: { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には**{詐欺|さぎ}**で捕まるしまつだ。", en: "That woman told nothing but lies from childhood, and in the end she was arrested for fraud.", at: "gp/20" },
+    book: { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には**{詐欺|さぎ}**で捕まるしまつだ。", en: "That woman has told nothing but lies since she was a child, and in the end she got herself arrested for fraud.", at: "gp/20" },
     ex: [
       { ja: "{高齢者|こうれいしゃ}を{狙|ねら}った**{詐欺|さぎ}**の{被害|ひがい}が増えている。", en: "Scams targeting elderly people are on the rise.", alt: ["{詐称|さしょう}", "{偽造|ぎぞう}", "{作業|さぎょう}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "unprecedented, exceptional; out of the ordinary",
     note: "Formal, news-style: 異例の早さ (unusually fast), 異例の人事 (an unusual appointment). 例外 is an exception to a rule; 異例 is something without precedent.",
     rx: ["いれ", "いりょう", "ことれい"],
-    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は**{異例|いれい}**＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", en: "The president's conduct during this visit to Japan was unprecedented from start to finish, and it bewildered the staff of the Foreign Ministry.", at: "ch/3" },
+    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は**{異例|いれい}**＿＿で、{外務省|がいむしょう}の職員を{困惑|こんわく}させた。", en: "The president's conduct during this visit to Japan broke with precedent at every turn, bewildering the staff of the Foreign Ministry.", at: "ch/3" },
     ex: [
       { ja: "{新人|しんじん}が{入社|にゅうしゃ}1年目で部長に{抜擢|ばってき}されるのは**{異例|いれい}**のことだ。", en: "It's unheard of for a newcomer to be picked as a department head in their first year.", alt: ["{恒例|こうれい}", "{異動|いどう}", "{実例|じつれい}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "bewilderment, perplexity; being at a loss",
     note: "A formal word for 困る / 戸惑う: 困惑した表情, 困惑を隠せない. 戸惑う is being unsure how to act in an unfamiliar situation.",
     rx: ["こんわ", "こまわく", "こんなく"],
-    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は{異例|いれい}＿＿で、{外務省|がいむしょう}の職員を**{困惑|こんわく}**させた。", en: "The president's conduct during this visit to Japan was unprecedented from start to finish, and it bewildered the staff of the Foreign Ministry.", at: "ch/3" },
+    book: { ja: "今回の大統領の{訪日|ほうにち}中の行動は{異例|いれい}＿＿で、{外務省|がいむしょう}の職員を**{困惑|こんわく}**させた。", en: "The president's conduct during this visit to Japan broke with precedent at every turn, bewildering the staff of the Foreign Ministry.", at: "ch/3" },
     ex: [
       { ja: "{突然|とつぜん}の質問に、彼は**{困惑|こんわく}**した{表情|ひょうじょう}を{浮|う}かべた。", en: "At the sudden question, a puzzled look came over his face.", alt: ["{迷惑|めいわく}", "{誘惑|ゆうわく}", "{疑惑|ぎわく}"] },
     ] },
@@ -667,7 +667,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "vulgar, lowbrow, in poor taste",
     note: "Criticism of entertainment and media: 低俗な番組, 低俗な趣味. The opposite is 高尚 (lofty, refined). 下品 also covers manners and appearance.",
     rx: ["ていそく", "ていしょく", "てぞく"],
-    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "Paying no heed to widespread criticism that its content is vulgar, this program is still getting high ratings.", at: "ch/3/review" },
+    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "Widespread criticism of its vulgar content notwithstanding, this program is still getting high ratings.", at: "ch/3/review" },
     ex: [
       { ja: "子どもに**{低俗|ていぞく}**な番組を見せたくないという親は多い。", en: "Many parents don't want their children watching lowbrow TV shows.", alt: ["{低調|ていちょう}", "{高尚|こうしょう}", "{風俗|ふうぞく}"] },
     ] },
