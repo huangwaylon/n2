@@ -260,7 +260,7 @@ TRY.registerLesson({
       "Here in Japan, cold winds are blowing and it is cold every day. I imagine you are still having one snowy day after another there. Are you keeping well? I am finally getting used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
       "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Exchange Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
       "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much.",
-      "It is the time of year when colds are easy to catch, so please take good care of yourself.",
+      "It's the season when colds are going around, so please take good care of yourself.",
       "George Taylor",
       "georgetaylor@abcde.com"
      ]
@@ -943,7 +943,7 @@ TRY.registerLesson({
         {
          "n": 6,
          "ja": "今後、ロボットが増えると、仕事の仕方は変わっ**ていく**でしょう。",
-         "tr": "As robots increase in the future, the way we work will probably change over time."
+         "tr": "As robots become more common, the way we work will probably keep changing."
         },
         {
          "n": 7,
@@ -1818,7 +1818,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**おかげで** credits a good result to its cause and carries gratitude, even when the cause is a thing: 家が近いおかげで (*thanks to living close by*). Its negative counterpart **〜せいで** blames: 雨のせいで試合が中止になった (*the game was canceled because of the rain*). Said of a bad result, おかげで turns sarcastic: 君のおかげで遅刻したよ (*thanks to you, I was late*).\n\n- To thank a person, name the favor: 〜てくれた／てくださったおかげで, or 〜のは先生のおかげです.\n- **おかげさまで** answers *how are you* or congratulations. It thanks the listener without saying they caused anything, so *thanks to you* over-translates it; *I'm fine, thank you* or *things went well* fits.\n\nQuartet I L3-5 〜ため（に） states a cause neutrally. TRY! N2 #48 〜ばかりに blames one small cause for a bad result."
+     "deepDive": "**おかげで** credits a good result to its cause and carries gratitude, even when the cause is a thing: 家が近いおかげで (*thanks to living close by*). Its negative counterpart **〜せいで** blames: 雨のせいで試合が中止になった (*the game was canceled because of the rain*). Said of a bad result, おかげで turns sarcastic: 君のおかげで遅刻したよ (*thanks to you, I was late*).\n\n- To thank a person, name the favor: 〜てくれた／てくださったおかげで, or 〜のは先生のおかげです.\n- **おかげさまで** answers *how are you* or congratulations. As a greeting formula it thanks the listener without claiming they caused anything, so *thanks to you* over-translates it; *I'm fine, thank you* or *things worked out* fits. After a real favor, as in George's letter (おかげさまで、…すばらしい経験ができました), *thanks to you* is right.\n\nQuartet I L3-5 〜ため（に） states a cause neutrally. TRY! N2 #48 〜ばかりに blames one small cause for a bad result."
     },
     {
      "t": "note",
@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to my senpai, who introduced me to a job, it's now settled that I'll be able to work in Japan."
+         "tr": "Thanks to my senpai, who introduced me to a job, it's been arranged for me to work in Japan."
         },
         {
          "n": 2,
@@ -4816,7 +4816,7 @@ TRY.registerLesson({
        "sp": "美",
        "v": "f",
        "ja": "じゃあ、満開の桜が見たかったら、ここ__しかない__ね。",
-       "tr": "Then if we want to see the cherry blossoms in full bloom, this is the only choice."
+       "tr": "Then if we want to see the cherry blossoms in full bloom, this is the only option."
       },
       {
        "sp": "サ",
@@ -5032,7 +5032,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "目上の人と話す時は敬語だけではなく言い方にも__気をつけ__なければいけないので、日本語は難しいと思いました。",
-       "tr": "When talking with people of higher status, you have to be careful not only about honorific language but also about how you phrase things, so I found Japanese difficult."
+       "tr": "When talking with people of higher status, you have to be careful not only about honorific language but also about how you phrase things, so it struck me how difficult Japanese is."
       }
      ]
     }
