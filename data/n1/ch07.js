@@ -11,15 +11,15 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "部長", v: "m", ja: "{本田|ほんだ}君、子どものお{遣|つか}い**じゃあるまいし**、カタログだけ置いて帰ってくる{奴|やつ}があるか。", en: "Honda, you're not a kid running an errand. Who just drops off a catalog and comes back?" },
+          { sp: "部長", v: "m", ja: "{本田|ほんだ}君、子どものお{遣|つか}い**じゃあるまいし**、カタログだけ置いて帰ってくる{奴|やつ}があるか。", en: "Honda, you're not a kid running an errand. Nobody just drops off a catalog and comes back!" },
           { sp: "{本田|ほんだ}", v: "m", ja: "すみません。", en: "I'm sorry." },
-          { sp: "部長", v: "m", ja: "それじゃ、{商談|しょうだん}はどうでもいいと言わ**んばかり**じゃないか。ぐずぐずしているうちにライバル社に{先|さき}を{越|こ}され**たらそれまでだ**ぞ。", en: "That's practically saying you don't care about the deal. If a rival company beats us to it while we dawdle, that's the end of it." },
+          { sp: "部長", v: "m", ja: "それじゃ、{商談|しょうだん}はどうでもいいと言わ**んばかり**じゃないか。ぐずぐずしているうちにライバル社に{先|さき}を{越|こ}され**たらそれまでだ**ぞ。", en: "That's practically saying you don't care about the deal. If a rival beats us to it while we're dragging our feet, that's the end of it." },
           { sp: "{本田|ほんだ}", v: "m", ja: "わかってますよ。でも……。", en: "I know. But…" },
           { sp: "部長", v: "m", ja: "{先方|せんぽう}から問い合わせがあったんだぞ。うちの商品の良さをわかってもらえる{絶好|ぜっこう}のチャンスだった**ものを**……。", en: "They were the ones who contacted us. It was the perfect chance to get them to see how good our products are, and yet…" },
           { sp: "{本田|ほんだ}", v: "m", ja: "はあ。でも、あちらの担当者**ときたら**、価格のことしか言わないんです。だから説明し**たところで**{無駄|むだ}だと思ったんですよ。", en: "Well… But their person in charge — honestly, all they talk about is price. So I figured that even if I explained, it would be pointless." },
           { sp: "部長", v: "m", ja: "相手が何を言**おうが**、気にしないで、{我|わ}が{社|しゃ}の技術をどんどん{宣伝|せんでん}しなきゃだめじゃないか。", en: "No matter what the other side says, you have to ignore it and keep promoting our company's technology!" },
           { sp: "{本田|ほんだ}", v: "m", ja: "でも、部長。「毎年新製品が出るんだから、今年は新製品でも来年は古くなる。だから1年ごとにリース料を10%ずつ安くしろ。」と言われたんです。こちらが{赤字|あかじ}にな**ろうが**なる**まいが**、自分の会社さえよければいいんですよ。安くしてほしい**なら**ほしい**で**、{納得|なっとく}できる条件を{提示|ていじ}すべきですよね。", en: "But, boss, I was told: “New products come out every year, so even if it's new this year, it'll be old next year. So lower the lease fee by 10% every year.” Whether we end up in the red or not, all they care about is their own company. If they want it cheaper, fine, but then they should offer terms we can accept." },
-          { sp: "部長", v: "m", ja: "う〜ん、すごい担当者だな。相手**にすれば**、{経費|けいひ}は安ければ安いほどいいわけだからなあ。仕方がない。あちらの条件を聞いてみるか。{採算|さいさん}が取れなければあきらめる**までのことだ**が……。\nとにかく、次は私も{同行|どうこう}するからな。", en: "Hmm, quite a character. Well, from their point of view, the lower the costs the better. It can't be helped. Let's hear their terms. If it doesn't pay, we'll simply give up, but…\nAnyway, next time I'm coming with you." },
+          { sp: "部長", v: "m", ja: "う〜ん、すごい担当者だな。相手**にすれば**、{経費|けいひ}は安ければ安いほどいいわけだからなあ。仕方がない。あちらの条件を聞いてみるか。{採算|さいさん}が取れなければあきらめる**までのことだ**が……。\nとにかく、次は私も{同行|どうこう}するからな。", en: "Hmm, that rep is something else. Well, from their side, the lower the costs the better, after all. It can't be helped. Let's hear their terms. If it doesn't pay, we'll just give up, but…\nAnyway, next time I'm coming with you." },
           { sp: "{本田|ほんだ}", v: "m", ja: "はい。", en: "Yes." },
         ],
       },
@@ -231,7 +231,7 @@ TRY.registerChapter({
           examples: [
             { ja: "うちの子ときたら、いつもゲームばかりやっていて、声をかけても返事もしない。", en: "My kid, honestly — always playing games, and won't even answer when I call." },
             { ja: "まったくこのシャツときたら、いくつボタンがついているんだ。時間がないのに……。", en: "This shirt, honestly! How many buttons does it have? And I'm in a hurry…" },
-            { ja: "最近の若い人ときたら、電車の中で床に座り込んだりして、恥ずかしくないのかしら。", en: "Young people these days — sitting on the floor of the train and so on. Aren't they ashamed?" },
+            { ja: "最近の若い人ときたら、電車の中で床に座り込んだりして、恥ずかしくないのかしら。", en: "Young people these days, honestly — plopping down on the floor of the train. Don't they have any shame?" },
           ],
           deepDive: "**Nときたら** raises a person or thing close to the speaker as the topic in order to complain about it: *honestly, ~…*. It works like は with an exasperated sigh built in, and the rest of the sentence must be a grievance, often exaggerated (いつも〜ばかり, 全然〜ない, 〜んだから): うちの子ときたら、声をかけても返事もしない (*that kid of mine doesn't even answer when I call*). まったく or もう often come first.\n\nThe topic is typically family, colleagues, one's own things or one's surroundings (このパソコン, 今年の夏), so it sounds like grumbling rather than formal criticism. It is conversational.\n\nCompare:\n- **〜ったら** (N2): the same complaining topic marker, even more casual (あの子ったら… *honestly, that kid…*).\n- **〜といったら** (N2): *speaking of ~*, neutral or positive (京都といったら寺だ *Kyoto means temples*).\n- **〜といったらない** #83: follows an adjective and means *extremely ~*; ときたら follows a noun and introduces the target of a complaint.\n\nPitfall: praise doesn't fit (✗うちの子ときたら、成績がよくて自慢です).\n\nJLPT cue: a noun + blank followed by grumbling about someone's habits or a thing's defects.",
           see: [83],
@@ -308,9 +308,9 @@ TRY.registerChapter({
           examples: [
             { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
             { ja: "{誰|だれ}が何と言おうが、一度決めたことを変えるわけにはいかないよ。", en: "Whatever anyone says, I can't change something I've already decided." },
-            { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, what do I care? Do what you want!" },
+            { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Go wherever you like — what do I care? Suit yourself!" },
             { ja: "医者に止められようが、たばこはやめられないよ。", en: "Even if the doctor tells me to stop, I can't quit smoking." },
-            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Come rain or wind, I can't very well skip the dog's walk." },
+            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Rain or wind, I can't very well skip walking the dog." },
           ],
           deepDive: "**V-（よ）うが / V-（よ）うと** is an emphatic *no matter ~, even if ~*. The volitional form + が or と (interchangeable here) introduces a condition, and the main clause states a resolve that won't bend (何年かかろうが、必ず開発します *however many years it takes, we will develop it*) or a fact that can't change. It usually comes with a question word or いくら／どんなに／たとえ: 誰が何と言おうが (*whatever anyone says*). い-adjectives use 〜かろう, nouns and な-adjectives だろう (高かろうが, 雨だろうと).\n\nIt is stronger than 〜ても and suits determined speech and writing; with お前 and 俺 it sounds rough.\n\nCompare:\n- **たとえ〜ても** (N2): the plain emphatic *even if*.\n- **〜（よ）うが〜まいが** #79: an affirmative–negative pair, *whether or not*.\n- **〜であれ〜であれ** #38: noun-based *be it A or B*, formal.\n- **〜（よ）うにも〜ない** #84: the same volitional form, but *want to ~ and can't*.\n\nPitfall: the main clause must hold in spite of the condition, not because of it (✗いくら頼もうが、手伝ってくれるだろう).\n\nJLPT cue: a question word or いくら before the blank.",
           see: [79, 38, 84],
@@ -362,9 +362,9 @@ TRY.registerChapter({
               ja: "「[V₁-よう]が／と＋[V₂-よう]が／と」「[いA₁~~い~~]かろう＋が／と＋[いA₂~~い~~]かろう＋が／と」「[N₁]／[なA₁]だろう＋が／と＋[N₂]／[なA₂]だろう＋が／と」などの形も同じように使われる。",
               en: "Forms such as “[V₁-よう]が／と + [V₂-よう]が／と”, “[いA₁~~い~~]かろう + が／と + [いA₂~~い~~]かろう + が／と” and “[N₁]／[なA₁]だろう + が／と + [N₂]／[なA₂]だろう + が／と” are used in the same way.",
               examples: [
-                { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは{欠|か}かしたことがないそうですよ。", en: "I hear that, whether they have time or not, they have never once skipped their after-meal coffee." },
+                { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは{欠|か}かしたことがないそうですよ。", en: "I hear that person has never once skipped their after-meal coffee, whether they have time or not." },
                 { ja: "高かろうが安かろうが、必要なものは買わねばならない。", en: "Expensive or cheap, you have to buy what you need." },
-                { ja: "有名店だろうとそうじゃなかろうと、この地方のそばは、とにかくおいしいんですよ。", en: "Famous shop or not, the soba in this region is just delicious." },
+                { ja: "有名店だろうとそうじゃなかろうと、この地方のそばは、とにかくおいしいんですよ。", en: "Whether it's a famous restaurant or not, the soba around here is just delicious." },
               ],
             },
           ],
@@ -397,11 +397,11 @@ TRY.registerChapter({
           examples: [
             { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: I'd like to leave the company at the end of this month…\nB: If you're quitting, fine, but finish your current work properly first." },
             { ja: "仕事が忙しいなら忙しいで、{誰|だれ}かに手伝ってもらうとか、断るとか、何か方法を考えたほうがいいですよ。", en: "If you're busy with work, fine, but then you should find some way to deal with it — get someone to help, or say no." },
-            { ja: "A：すみません。今日の飲み会、やっぱり行けなくなってしまって……。\nB：来られないなら来られないで、早く連絡してくれればよかったのに……。もう予約取り消しできないんだよ。", en: "A: Sorry. It turns out I can't make it to tonight's drinks after all…\nB: If you couldn't come, you should have told me sooner… It's too late to cancel the reservation now." },
-            { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお{見合|みあ}いさせられることになっちゃって……。\nB：{嫌|いや}なら{嫌|いや}で、はっきり言えばよかったのに……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…\nB: If you didn't want to, you should have said so clearly…" },
+            { ja: "A：すみません。今日の飲み会、やっぱり行けなくなってしまって……。\nB：来られないなら来られないで、早く連絡してくれればよかったのに……。もう予約取り消しできないんだよ。", en: "A: Sorry. It turns out I can't make it to tonight's drinks after all…\nB: If you can't come, fine, but you should have told me sooner… It's too late to cancel the reservation now." },
+            { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお{見合|みあ}いさせられることになっちゃって……。\nB：{嫌|いや}なら{嫌|いや}で、はっきり言えばよかったのに……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…\nB: If you didn't want to, fine, but you should have said so clearly…" },
             { ja: "病気なら病気で、おとなしく寝てなきゃだめじゃない。", en: "If you're sick, then you have to stay in bed and rest!" },
           ],
-          deepDive: "**AならAで** repeats the same word (辞めるなら辞めるで, 嫌なら嫌で): the speaker accepts someone else's situation A — *if that's how it is, fine* — and then says what they ought to do given A, or complains that they didn't: 来られないなら来られないで、早く連絡してくれればよかったのに (*if you couldn't come, you should have told me sooner*).\n\nVerbs and い-adjectives take the present form only; な-adjectives and nouns drop だ (病気なら病気で). The second half is advice, a demand or a のに complaint, never a satisfied report. The tone is a little impatient and conversational.\n\nCompare:\n- **〜たら〜たで** #55 (and its Plus 〜ば〜で): *if it does happen, that brings its own issues* (車はあったらあったで維持費がかかる *even if you have a car, it costs money to keep*); it describes consequences, not advice to someone.\n- **〜なら** alone: 辞めるなら、仕事を片付けてから. The repetition adds *(I accept that, but) at least…*.\n- **〜は〜で**: *A, for its part* (私は私で忙しい *I'm busy myself*).\n\nPitfall: past forms aren't used (✗辞めたなら辞めたで).\n\nJLPT cue: after AならAで, pick the option that gives advice or a reproach.",
+          deepDive: "**AならAで** repeats the same word (辞めるなら辞めるで, 嫌なら嫌で): the speaker accepts someone else's situation A — *if that's how it is, fine* — and then says what they ought to do given A, or complains that they didn't: 来られないなら来られないで、早く連絡してくれればよかったのに (*if you can't come, fine, but you should have told me sooner*).\n\nVerbs and い-adjectives take the present form only; な-adjectives and nouns drop だ (病気なら病気で). The second half is advice, a demand or a のに complaint, never a satisfied report. The tone is a little impatient and conversational.\n\nCompare:\n- **〜たら〜たで** #55 (and its Plus 〜ば〜で): *if it does happen, that brings its own issues* (車はあったらあったで維持費がかかる *even if you have a car, it costs money to keep*); it describes consequences, not advice to someone.\n- **〜なら** alone: 辞めるなら、仕事を片付けてから. The repetition adds *(I accept that, but) at least…*.\n- **〜は〜で**: *A, for its part* (私は私で忙しい *I'm busy myself*).\n\nPitfall: past forms aren't used (✗辞めたなら辞めたで).\n\nJLPT cue: after AならAで, pick the option that gives advice or a reproach.",
           see: [55],
           index: ["〜なら〜で"],
           practice: [
@@ -447,7 +447,7 @@ TRY.registerChapter({
           examples: [
             { ja: "おにぎりを作るのは簡単だと思うかもしれませんが、作ったことがない人にすれば、{結|けっ}{構|こう}難しいことなんですよ。", en: "You may think making rice balls is easy, but for someone who has never made them, it's actually quite hard." },
             { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept." },
-            { ja: "人員{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts can hardly be said to bring nothing but benefits." },
+            { ja: "人員{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts are hardly all upside." },
           ],
           plus: [
             {
@@ -457,7 +457,7 @@ TRY.registerChapter({
               usage: { ja: "「[N] + にしてみれば」も同じように使われる。", en: "“[N] + にしてみれば” is used in the same way." },
               examples: [
                 { ja: "私のような考え方は若い人にしてみれば、古いと思われるでしょう。", en: "To young people, a way of thinking like mine probably seems old-fashioned." },
-                { ja: "「Ｒ」と「Ｌ」の発音は、英語が苦手な私にしてみれば同じ音としか思えない。", en: "To me, being bad at English, “R” and “L” sound like exactly the same sound." },
+                { ja: "「Ｒ」と「Ｌ」の発音は、英語が苦手な私にしてみれば同じ音としか思えない。", en: "To someone like me who's bad at English, “R” and “L” just sound the same." },
               ],
             },
           ],
@@ -545,7 +545,7 @@ TRY.registerChapter({
           bank: ["ものを", "までのことだ", "ときたら", "じゃあるまいし", "それまでだ", "にすれば"],
           items: [
             { q: "{高橋|たかはし}君＿＿、新婚旅行先で結婚指輪をなくしちゃったんだって。", answer: "ときたら", en: "Honestly, that Takahashi — lost the wedding ring on the honeymoon, I hear." },
-            { q: "歴史学者＿＿、こんな専門的な問題が大学の受験生にわかるわけないじゃないか。", answer: "じゃあるまいし", en: "It's not as if they were historians — how could university applicants be expected to answer such a specialized question?" },
+            { q: "歴史学者＿＿、こんな専門的な問題が大学の受験生にわかるわけないじゃないか。", answer: "じゃあるまいし", en: "University applicants aren't historians — how could they be expected to answer such a specialized question?" },
             { q: "テレビドラマを勝手にインターネットにアップロードする人がいるが、作った側の人間＿＿、許しがたい{行為|こうい}だ。", answer: "にすれば", en: "Some people upload TV dramas to the internet without permission, but from the point of view of the people who made them, it's unforgivable." },
             { q: "消火器があっても使い方を知らなければ＿＿。", answer: "それまでだ", en: "Even if you have a fire extinguisher, it's useless if you don't know how to use it." },
             { q: "道がないなら、自分で道を作る＿＿。", answer: "までのことだ", en: "If there's no path, I'll simply make my own." },
@@ -592,11 +592,11 @@ TRY.registerChapter({
         kind: "dialogue",
         rings: false,
         lines: [
-          { sp: "部長", v: "m", ja: "{悔|くや}しい**といったらない**な。たった{半日|はんにち}の差でライバル社に{契約|けいやく}を持っていかれるとは。", en: "It's so frustrating I can't stand it. To think a rival company beat us to the contract by just half a day." },
+          { sp: "部長", v: "m", ja: "{悔|くや}しい**といったらない**な。たった{半日|はんにち}の差でライバル社に{契約|けいやく}を持っていかれるとは。", en: "I can't tell you how frustrating this is. To think we lost the contract to a rival by just half a day." },
           { sp: "{本田|ほんだ}", v: "m", ja: "すみません、部長。{僕|ぼく}があのとき商品の説明をしっかりしていれば……。", en: "I'm sorry. If only I had explained the product properly back then…" },
           { sp: "部長", v: "m", ja: "いや、君のせいじゃないよ。アポが取れなかったんだから、{契約|けいやく}を取**ろうにも**取れ**ない**じゃないか。", en: "No, it's not your fault. We couldn't get an appointment, so even if we'd wanted to win the contract, we couldn't have." },
           { sp: "{本田|ほんだ}", v: "m", ja: "でも、ほんとに{悔|くや}しいっす※。", en: "But it's really frustrating.*" },
-          { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "In that case, maybe we should try handing out pamphlets like crazy, to anyone and everyone." },
+          { sp: "部長", v: "m", ja: "こうなったら{片|かた}っ{端|ぱし}からパンフレットを配り**まくって**みるか。", en: "Now that it's come to this, maybe we should hand out pamphlets like crazy to anyone and everyone." },
           { sp: "{本田|ほんだ}", v: "m", ja: "そうですね。カプテック社**にしたところで**あの条件では、そんなに{儲|もう}かるはずないですよね。毎年リース料を下げ続けるなんて。", en: "Right. Even Captec can't be making much money on those terms, can they? Lowering the lease fee every single year." },
           { sp: "部長", v: "m", ja: "そうだよ。{契約|けいやく}しなくて{正解|せいかい}だったんだよ。どんな条件で{契約|けいやく}したか知らないが、{仮|かり}に本当に10%ずつ下げ続けたら……。", en: "That's right. Not signing that contract was the right call. I don't know what terms they signed on, but if they really keep cutting it by 10% a year…" },
           { sp: "{本田|ほんだ}", v: "m", ja: "10年後はリース料ただですよ。カプテック社も{馬鹿|ばか}だな。ははははははは。元気出てきた。部長、{僕|ぼく}、次こそいい条件で{契約|けいやく}を取っ**てみせます**よ。", en: "In ten years the lease will be free! How dumb can Captec be? Hahahahaha. I feel better now. Next time I'll win us a contract on good terms — just watch." },
@@ -667,7 +667,7 @@ TRY.registerChapter({
             { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "My huge blunder at the speech contest — I can't forget it even if I try." },
             { ja: "成績が悪いので、{奨学金|しょうがくきん}に{応募|おうぼ}しようにも{応募|おうぼ}できない。", en: "My grades are bad, so even though I'd like to apply for a scholarship, I can't." },
             { ja: "彼女に{告白|こくはく}しようにも、チャンスがなくてなかなかできない。", en: "I want to tell her how I feel, but I never get the chance." },
-            { ja: "{真実|しんじつ}を確かめようにも、犯人は死亡しているので不可能だ。", en: "Even if we want to find out the truth, it's impossible because the culprit is dead." },
+            { ja: "{真実|しんじつ}を確かめようにも、犯人は死亡しているので不可能だ。", en: "We'd like to find out the truth, but that's impossible because the culprit is dead." },
           ],
           notes: [
             {
@@ -772,7 +772,7 @@ TRY.registerChapter({
                   q: "{携帯|けいたい}電話なんてどこの会社にしたところで、{大|たい}した差は（　）。",
                   options: ["ある", "ない"],
                   answer: 1,
-                  en: "When it comes to cell phones, whichever company you choose, there's no big difference.",
+                  en: "With cell phones, it doesn't matter which company you go with — there's not much difference.",
                   why: { en: "Whichever company it is, there's no big difference: 大した差はない (b). にしたところで says every company is the same." },
                 },
               ],
@@ -806,7 +806,7 @@ TRY.registerChapter({
           { q: "{新入|しんにゅう}社員は物を知らないというが、君たち＿＿{大|たい}して変わりはないよ。", answer: "にしたところで", en: "People say new employees don't know anything, but you're not much different yourselves." },
           { q: "{佐藤|さとう}さん、バーゲンセールで好きなブランドの洋服を買い＿＿んだって。", answer: "まくった", en: "I heard Sato went wild at the sale, buying up clothes from a favorite brand." },
           { q: "ネット環境がないから、調べ＿＿調べられないんだよ。", answer: "ようにも", en: "There's no internet connection, so I can't look it up even if I want to." },
-          { q: "A：駅の階段で転んじゃったんだって？\nB：うん。みんなに見られて恥ずかしい＿＿よ。", answer: "ったらありゃしない", en: "A: I heard you fell on the station stairs?\nB: Yeah. Everyone saw me — it was so embarrassing I can't tell you." },
+          { q: "A：駅の階段で転んじゃったんだって？\nB：うん。みんなに見られて恥ずかしい＿＿よ。", answer: "ったらありゃしない", en: "A: I heard you fell on the station stairs?\nB: Yeah. Everyone saw me — I've never been so embarrassed." },
           { q: "{僕|ぼく}たち1年生が{頑張|がんば}って、来年は優勝できるチームを作りあげて＿＿。", answer: "みせます", en: "We first-years will work hard and build a team that can win the championship next year — just you watch." },
         ],
       },
@@ -873,7 +873,7 @@ TRY.registerChapter({
             q: "電車の中でお年寄りが立っていても、周りの{若者|わかもの}はそれを{無視|むし}してゲームや{携帯|けいたい}に夢中だ。{嘆|なげ}かわしい（　）。",
             options: ["とは言い切れない", "というものでもない", "といったらない", "というに決まっている"],
             answer: 2,
-            en: "Even when elderly people are standing on the train, the young people around them ignore it and are absorbed in their games and phones. It's utterly deplorable.",
+            en: "Even when elderly people are standing on the train, the young people around them ignore them, absorbed in their games and phones. It's utterly deplorable.",
             why: { en: "嘆かわしいといったらない = deplorable beyond words (#83), an emphatic statement of the speaker's feeling. とは言い切れない (can't say for sure), というものでもない (it's not necessarily so) and というに決まっている don't express a strong feeling." },
           },
         ],
@@ -965,7 +965,7 @@ TRY.registerChapter({
             en: ["Do you know the way on your own? Shall I take you?", "I'm not a child — I'll be fine.", "It's not as if I were alone — I'll be fine.", "It's not as if I were an adult — I'll be fine."],
             options: ["子どもじゃあるまいし、{大丈夫|だいじょうぶ}よ。", "1人じゃあるまいし、{大丈夫|だいじょうぶ}よ。", "大人じゃあるまいし、{大丈夫|だいじょうぶ}よ。"],
             answer: 0,
-            why: { en: "〜じゃあるまいし = “it's not as if …”: she isn't a child, so she can find the way alone." },
+            why: { en: "〜じゃあるまいし = “it's not as if …”: the speaker isn't a child and can find the way alone." },
           },
           {
             script: [
@@ -974,13 +974,13 @@ TRY.registerChapter({
             en: ["Wow, a new machine. I'd love you to show me how to use it.", "Huh? You want to teach me how to use it?", "But I wanted to teach you, didn't I.", "Even if I teach you, won't you just forget?"],
             options: ["え？　使い方を教えたいの？", "でも、教えたかったよねえ。", "教えたところで、忘れるんじゃないの？"],
             answer: 2,
-            why: { en: "She asks to be taught; the fitting (teasing) reply uses V-たところで: “even if I teach you, it's no use — you'll forget.”" },
+            why: { en: "The speaker asks to be taught; the fitting (teasing) reply uses V-たところで: “even if I teach you, it's no use — you'll forget.”" },
           },
           {
             script: [
               { sp: "M", v: "m", ja: "うちの会社ときたら、まったくもう〜。" },
             ],
-            en: ["Honestly, this company of mine — really, I've had it...", "Huh? What time did you come?", "Wow, good for you.", "Huh? What happened?"],
+            en: ["Honestly, my company — I've really had it with them...", "Huh? What time did you come?", "Wow, good for you.", "Huh? What happened?"],
             options: ["え？　何時に来たの？", "へえ、よかったね。", "え？　どうしたの？"],
             answer: 2,
             why: { en: "N + ときたら introduces a complaint, so the natural reply asks what went wrong." },
@@ -992,7 +992,7 @@ TRY.registerChapter({
             en: ["With this snow, I can't get to work even if I try.", "Well then, why not take the day off?", "Yeah, let's go.", "Huh? You managed to go?"],
             options: ["じゃあ、休んだら？", "うん、行こう。", "え？　行けた？"],
             answer: 0,
-            why: { en: "V-ようにもV-ない: he wants to go but can't because of the snow, so the natural reply suggests taking the day off." },
+            why: { en: "V-ようにもV-ない: the speaker wants to go but can't because of the snow, so the natural reply suggests taking the day off." },
           },
         ],
       },

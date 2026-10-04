@@ -12,7 +12,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "guy, fellow (casual, often rough); thing, one (casual)",
     note: "Very casual, used among friends or when speaking down: いい奴 (a good guy), 変な奴, 奴ら (those guys). It can also stand for things: もっと大きい奴ある？ Never use it about superiors or in polite speech; 人 or 方 are the neutral and polite words.",
     rx: ["やす", "やち", "よつ"],
-    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, you're not a kid running an errand. Who just drops off a catalog and comes back?", at: "ch/7" },
+    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, you're not a kid running an errand. Nobody just drops off a catalog and comes back!", at: "ch/7" },
     ex: [
       { ja: "{口|くち}は悪いけど、あいつは本当にいい**{奴|やつ}**なんだ。", en: "He has a sharp tongue, but he's a really good guy.", alt: ["{訳|わけ}", "{役|やく}", "{物|もの}"] },
     ] },
@@ -22,7 +22,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しょうたん", "そうだん", "しょだん"],
     book: { ja: "それじゃ、**{商談|しょうだん}**はどうでもいいと言わんばかりじゃないか。", en: "That's practically saying you don't care about the deal.", at: "ch/7" },
     ex: [
-      { ja: "{取引先|とりひきさき}との**{商談|しょうだん}**がまとまり、来月から{輸出|ゆしゅつ}が始まる。", en: "The deal with our business partner was struck, and exports start next month.", alt: ["{冗談|じょうだん}", "{雑談|ざつだん}", "{談話|だんわ}"] },
+      { ja: "{取引先|とりひきさき}との**{商談|しょうだん}**がまとまり、来月から{輸出|ゆしゅつ}が始まる。", en: "We closed the deal with our client, and exports start next month.", alt: ["{冗談|じょうだん}", "{雑談|ざつだん}", "{談話|だんわ}"] },
     ] },
   { w: "ぐずぐず", lv: "N2", pos: "adverb · する verb",
     en: "slowly, sluggishly; dawdling, dragging one's feet; complaining (grumbling)",
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to sit down (and stay put); to plop down; to stage a sit-in",
     note: "Sitting down heavily or refusing to move: 床に座り込む, 疲れて道に座り込む. As a noun, 座り込み is a sit-in protest.",
     rx: ["すわりごむ", "ざりこむ", "すわりいむ"],
-    book: { ja: "最近の若い人ときたら、電車の中で床に**座り込ん**だりして、恥ずかしくないのかしら。", en: "Young people these days — sitting on the floor of the train and so on. Aren't they ashamed?", at: "gp/76" },
+    book: { ja: "最近の若い人ときたら、電車の中で床に**座り込ん**だりして、恥ずかしくないのかしら。", en: "Young people these days, honestly — plopping down on the floor of the train. Don't they have any shame?", at: "gp/76" },
     ex: [
       { ja: "{疲|つか}れ{果|は}てた子どもは、道の{真|ま}ん{中|なか}に**{座|すわ}り{込|こ}んで**しまった。", en: "The worn-out child plopped down in the middle of the road.", alt: ["{座|すわ}り{直|なお}して", "{申|もう}し{込|こ}んで", "{割|わ}り{込|こ}んで"] },
     ] },
@@ -282,7 +282,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["しんらく", "あらやく", "しんがく"],
     book: { ja: "「何年かかろうが、必ず**{新薬|しんやく}**を開発します」", en: "“However many years it takes, we will definitely develop a new drug.”", at: "gp/78" },
     ex: [
-      { ja: "この病気に{効|き}く**{新薬|しんやく}**の{臨床|りんしょう}{試験|しけん}が始まった。", en: "Clinical trials have begun for a new drug that works on this disease.", alt: ["{新人|しんじん}", "{新型|しんがた}", "{火薬|かやく}"] },
+      { ja: "この病気に{効|き}く**{新薬|しんやく}**の{臨床|りんしょう}{試験|しけん}が始まった。", en: "Clinical trials have begun for a new drug to treat this disease.", alt: ["{新人|しんじん}", "{新型|しんがた}", "{火薬|かやく}"] },
     ] },
   { w: "{上陸|じょうりく}", lv: "N2", pos: "noun · する verb",
     en: "landing (on shore); making landfall (a typhoon); arrival (of a product in a market)",
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to miss, go without (usually in the negative: never fail to)",
     note: "Mostly negative: 毎朝の散歩を欠かさない (never miss my morning walk), 欠かしたことがない. 欠かせない means “indispensable”: 生活に欠かせない. The intransitive is 欠ける (be lacking, chipped).",
     rx: ["けかす", "かけす", "きかす"],
-    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that, whether they have time or not, they have never once skipped their after-meal coffee.", at: "gp/79" },
+    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that person has never once skipped their after-meal coffee, whether they have time or not.", at: "gp/79" },
     ex: [
       { ja: "運動は健康{維持|いじ}に**{欠|か}かせない**。", en: "Exercise is indispensable for staying healthy.", alt: ["{欠|か}けない", "{抜|ぬ}かせない", "{任|まか}せない"] },
     ] },
@@ -346,13 +346,13 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はんげつ", "ばんけつ", "はんけち"],
     book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept.", at: "gp/81" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court handed down a verdict of not guilty for the defendant.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
+      { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
     ] },
   { w: "{人員|じんいん}", lv: "N1", pos: "noun",
     en: "personnel, staff; number of people",
     note: "Business and official: 人員削減 (staff cuts), 人員を配置する, 人員不足. 人数 is simply the number of people; 人員 implies people assigned to a job.",
     rx: ["にんいん", "じんにん", "ひといん"],
-    book: { ja: "**人員**{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts can hardly be said to bring nothing but benefits.", at: "gp/81" },
+    book: { ja: "**人員**{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts are hardly all upside.", at: "gp/81" },
     ex: [
       { ja: "{繁忙期|はんぼうき}に{備|そな}えて、**{人員|じんいん}**を{増|ふ}やすことになった。", en: "We decided to increase staff in preparation for the busy season.", alt: ["{人格|じんかく}", "{人口|じんこう}", "{人生|じんせい}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "one after another without exception; indiscriminately, from one end to the other",
     note: "Casual: 片っ端から電話をかける (call everyone on the list), 本を片っ端から読む. Emphasizes working through everything without choosing. 手当たり次第 is similar but stresses randomness.",
     rx: ["かたっはしから", "へんっぱしから", "かたっばしから"],
-    book: { ja: "こうなったら**{片|かた}っ{端|ぱし}から**パンフレットを配りまくってみるか。", en: "In that case, maybe we should try handing out pamphlets like crazy, to anyone and everyone.", at: "ch/7" },
+    book: { ja: "こうなったら**{片|かた}っ{端|ぱし}から**パンフレットを配りまくってみるか。", en: "Now that it's come to this, maybe we should hand out pamphlets like crazy to anyone and everyone.", at: "ch/7" },
     ex: [
       { ja: "{求人|きゅうじん}{情報|じょうほう}を見て、**{片|かた}っ{端|ぱし}から**{応募|おうぼ}した。", en: "I looked through the job listings and applied to every single one.", alt: ["{片道|かたみち}で", "{片隅|かたすみ}に", "{端|はし}っこに"] },
     ] },
