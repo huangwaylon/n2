@@ -93,7 +93,7 @@ TRY.registerChapter({
             { ja: "たくさんの花をつけた{山百合|やまゆり}が、風に吹かれて折れんばかりに{揺|ゆ}れている。", en: "Covered in blossoms, the mountain lilies are swaying in the wind as if they're about to snap." },
             { ja: "彼女は、今にも泣き出さんばかりの顔をして、部屋を飛び出していった。", en: "She ran out of the room looking as if she would burst into tears at any moment." },
             { ja: "店員は、「早く帰れ」と言わんばかりに{空|あ}いた皿を片付けはじめた。", en: "The waiter started clearing the empty plates as if to say, “Hurry up and leave.”" },
-            { ja: "この作品からは、画家のあふれんばかりの情熱が伝わってくる。", en: "This work conveys the painter's overflowing passion." },
+            { ja: "この作品からは、画家のあふれんばかりの情熱が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work." },
             { ja: "アクロバット飛行の飛行機が、今にも{墜落|ついらく}せんばかりの勢いで{急降下|きゅうこうか}した。", en: "The aerobatic plane dived so steeply it looked as if it would crash at any moment." },
           ],
           notes: [
@@ -189,7 +189,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "早く来れば{空|す}いていたものを、この様子じゃチケットを買うだけで1時間はかかりそうだ。", en: "If we'd come early it would have been empty, but at this rate it looks like it'll take an hour just to buy tickets." },
-            { ja: "散歩は朝の涼しいときにすればいいものを、暑い{盛|さか}りに出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You should take your walk in the cool of the morning, but you go out in the heat of the day — that's why you get heatstroke." },
+            { ja: "散歩は朝の涼しいときにすればいいものを、暑い{盛|さか}りに出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You could just take your walk in the cool of the morning, but no, you go out in the heat of the day — no wonder you get heatstroke." },
             { ja: "もっと早く健康{診断|しんだん}を受けていれば手術をしないですんだものを……。", en: "If only I'd had a checkup sooner, I wouldn't have needed surgery…" },
             { ja: "{内緒|ないしょ}にしておけばお互いハッピーなものを、どうしてしゃべっちゃったんだよ。", en: "If you'd kept it secret we'd both be happy — why did you blab?" },
           ],
@@ -310,7 +310,7 @@ TRY.registerChapter({
             { ja: "{誰|だれ}が何と言おうが、一度決めたことを変えるわけにはいかないよ。", en: "Whatever anyone says, I can't change something I've already decided." },
             { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, what do I care? Do what you want!" },
             { ja: "医者に止められようが、たばこはやめられないよ。", en: "Even if the doctor tells me to stop, I can't quit smoking." },
-            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Rain or wind, I have to take the dog for a walk." },
+            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Come rain or wind, I can't very well skip the dog's walk." },
           ],
           deepDive: "**V-（よ）うが / V-（よ）うと** is an emphatic *no matter ~, even if ~*. The volitional form + が or と (interchangeable here) introduces a condition, and the main clause states a resolve that won't bend (何年かかろうが、必ず開発します *however many years it takes, we will develop it*) or a fact that can't change. It usually comes with a question word or いくら／どんなに／たとえ: 誰が何と言おうが (*whatever anyone says*). い-adjectives use 〜かろう, nouns and な-adjectives だろう (高かろうが, 雨だろうと).\n\nIt is stronger than 〜ても and suits determined speech and writing; with お前 and 俺 it sounds rough.\n\nCompare:\n- **たとえ〜ても** (N2): the plain emphatic *even if*.\n- **〜（よ）うが〜まいが** #79: an affirmative–negative pair, *whether or not*.\n- **〜であれ〜であれ** #38: noun-based *be it A or B*, formal.\n- **〜（よ）うにも〜ない** #84: the same volitional form, but *want to ~ and can't*.\n\nPitfall: the main clause must hold in spite of the condition, not because of it (✗いくら頼もうが、手伝ってくれるだろう).\n\nJLPT cue: a question word or いくら before the blank.",
           see: [79, 38, 84],
@@ -396,7 +396,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: I'd like to leave the company at the end of this month…\nB: If you're quitting, fine, but finish your current work properly first." },
-            { ja: "仕事が忙しいなら忙しいで、{誰|だれ}かに手伝ってもらうとか、断るとか、何か方法を考えたほうがいいですよ。", en: "If you're busy with work, then you should think of something — get someone to help, or turn things down." },
+            { ja: "仕事が忙しいなら忙しいで、{誰|だれ}かに手伝ってもらうとか、断るとか、何か方法を考えたほうがいいですよ。", en: "If you're busy with work, fine, but then you should find some way to deal with it — get someone to help, or say no." },
             { ja: "A：すみません。今日の飲み会、やっぱり行けなくなってしまって……。\nB：来られないなら来られないで、早く連絡してくれればよかったのに……。もう予約取り消しできないんだよ。", en: "A: Sorry. It turns out I can't make it to tonight's drinks after all…\nB: If you couldn't come, you should have told me sooner… It's too late to cancel the reservation now." },
             { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお{見合|みあ}いさせられることになっちゃって……。\nB：{嫌|いや}なら{嫌|いや}で、はっきり言えばよかったのに……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…\nB: If you didn't want to, you should have said so clearly…" },
             { ja: "病気なら病気で、おとなしく寝てなきゃだめじゃない。", en: "If you're sick, then you have to stay in bed and rest!" },
@@ -721,7 +721,7 @@ TRY.registerChapter({
           examples: [
             { ja: "3時間もカラオケで歌いまくって、声が出なくなった。", en: "I sang my heart out at karaoke for three hours and lost my voice." },
             { ja: "失恋したぐらいで、やけになって食べまくる{奴|やつ}の気がしれないよ。", en: "I don't understand people who go on an eating binge out of despair just because they got dumped." },
-            { ja: "あいつ、車を買うって、バイトしまくってるらしいよ。", en: "I hear they've been working part-time like crazy to buy a car." },
+            { ja: "あいつ、車を買うって、バイトしまくってるらしいよ。", en: "I hear that guy's been working part-time like crazy to buy a car." },
           ],
           deepDive: "**V-ますstem + まくる** = *do ~ like crazy, nonstop*. The book stresses three features: the action is repeated many times, with great force, and without much thought: 歌いまくる (*sing and sing*), 食べまくる (*eat everything in sight*), 配りまくる (*hand out to anyone and everyone*). まくる conjugates as a Group 1 verb (まくって, まくった, まくってる), and する-verbs work too (バイトしまくる *work part-time like mad*).\n\nIt is casual and colloquial; in formal speech say 何度も〜 or 次々に〜. It often implies excess (やけになって食べまくる *binge-eat out of despair*) but can be neutral or admiring (勝ちまくる *win game after game*). The verb must be a repeatable, volitional action: ✗いまくる, ✗死にまくる.\n\nCompare:\n- **〜続ける**: *keep on ~*, duration without the frenzy.\n- **〜てばかりいる**: *do nothing but ~*, criticizing monotony.\n- **〜放題**: *as much as one likes* (食べ放題 *all-you-can-eat*).\n- **〜っぱなし**: a state left running (開けっぱなし *left open*).\n\nPitfall: a single, one-off action can't take まくる (✗その本を一回読みまくった).\n\nJLPT cue: more likely in listening than in grammar items; understand it as *a lot, wildly*.",
           see: [],
@@ -804,7 +804,7 @@ TRY.registerChapter({
         bank: ["ったらありゃしない", "まくった", "にしたところで", "みせます", "ようにも"],
         items: [
           { q: "{新入|しんにゅう}社員は物を知らないというが、君たち＿＿{大|たい}して変わりはないよ。", answer: "にしたところで", en: "People say new employees don't know anything, but you're not much different yourselves." },
-          { q: "{佐藤|さとう}さん、バーゲンセールで好きなブランドの洋服を買い＿＿んだって。", answer: "まくった", en: "I heard Sato went on a shopping spree for clothes from a favorite brand at the sale." },
+          { q: "{佐藤|さとう}さん、バーゲンセールで好きなブランドの洋服を買い＿＿んだって。", answer: "まくった", en: "I heard Sato went wild at the sale, buying up clothes from a favorite brand." },
           { q: "ネット環境がないから、調べ＿＿調べられないんだよ。", answer: "ようにも", en: "There's no internet connection, so I can't look it up even if I want to." },
           { q: "A：駅の階段で転んじゃったんだって？\nB：うん。みんなに見られて恥ずかしい＿＿よ。", answer: "ったらありゃしない", en: "A: I heard you fell on the station stairs?\nB: Yeah. Everyone saw me — it was so embarrassing I can't tell you." },
           { q: "{僕|ぼく}たち1年生が{頑張|がんば}って、来年は優勝できるチームを作りあげて＿＿。", answer: "みせます", en: "We first-years will work hard and build a team that can win the championship next year — just you watch." },
@@ -838,7 +838,7 @@ TRY.registerChapter({
             q: "運動は健康{維持|いじ}に{欠|か}かせない。{高齢者|こうれいしゃ}に限らず、{若者|わかもの}（　）同じことだ。",
             options: ["にすれば", "にしたところで", "に{先立|さきだ}って", "に対して"],
             answer: 1,
-            en: "Exercise is indispensable for staying healthy. Not only for the elderly — even for young people, it's just the same.",
+            en: "Exercise is indispensable for staying healthy. That goes not only for the elderly; young people are no exception.",
             why: { en: "高齢者に限らず、若者（にしたところで）同じことだ: even young people are no exception (#86). にすれば (#81) would give the young people's point of view, which doesn't match 同じことだ; に先立って (before) and に対して (toward / in contrast to) don't fit." },
           },
           {

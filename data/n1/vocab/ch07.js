@@ -107,9 +107,9 @@ TRY.registerVocab({ ch: 7, words: [
     en: "passion, enthusiasm, ardor",
     note: "Strong inner drive: 情熱を注ぐ／傾ける (pour one's passion into), 情熱的な (passionate). 熱意 is earnest zeal for a task and sounds more businesslike; 熱心 is the adjective “keen.”",
     rx: ["じょねつ", "せいねつ", "じょうねち"],
-    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "This work conveys the painter's overflowing passion.", at: "gp/73" },
+    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work.", at: "gp/73" },
     ex: [
-      { ja: "彼は{残|のこ}りの人生のすべての**{情熱|じょうねつ}**を{教育|きょういく}に{注|そそ}いだ。", en: "He poured all his passion for the rest of his life into education.", alt: ["{情報|じょうほう}", "{感情|かんじょう}", "{熱湯|ねっとう}"] },
+      { ja: "彼は{残|のこ}りの人生のすべての**{情熱|じょうねつ}**を{教育|きょういく}に{注|そそ}いだ。", en: "For the rest of his life, he poured all his passion into education.", alt: ["{情報|じょうほう}", "{感情|かんじょう}", "{熱湯|ねっとう}"] },
     ] },
   { w: "{墜落|ついらく}", lv: "N1", pos: "noun · する verb",
     en: "falling from a height; crash (of an aircraft)",
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "the height, peak (of a season, of life); prime; being in full bloom",
     note: "暑い盛り (the hottest part of the day or year), 桜の盛り (full bloom), 食べ盛り (the age when kids eat a lot), 働き盛り (the prime of one's working life). With the voiced reading ざかり in compounds. Not the same word as 盛り (もり, a serving: 大盛り).",
     rx: ["さかい", "せいり", "さがり"],
-    book: { ja: "散歩は朝の涼しいときにすればいいものを、暑い**{盛|さか}り**に出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You should take your walk in the cool of the morning, but you go out in the heat of the day — that's why you get heatstroke.", at: "gp/75" },
+    book: { ja: "散歩は朝の涼しいときにすればいいものを、暑い**{盛|さか}り**に出て行くから、{熱中症|ねっちゅうしょう}なんかになるんだよ。", en: "You could just take your walk in the cool of the morning, but no, you go out in the heat of the day — no wonder you get heatstroke.", at: "gp/75" },
     ex: [
       { ja: "{桜|さくら}の花は今が**{盛|さか}り**で、公園は花見客でいっぱいだ。", en: "The cherry blossoms are at their peak now, and the park is packed with people viewing them.", alt: ["{限|かぎ}り", "{残|のこ}り", "{便|たよ}り"] },
     ] },
@@ -466,7 +466,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["こうはく", "こくばく", "こくひゃく"],
     book: { ja: "彼女に**{告白|こくはく}**しようにも、チャンスがなくてなかなかできない。", en: "I want to tell her how I feel, but I never get the chance.", at: "gp/84" },
     ex: [
-      { ja: "{卒業式|そつぎょうしき}の日、{勇気|ゆうき}を出して{先輩|せんぱい}に**{告白|こくはく}**した。", en: "On graduation day, I worked up the courage to tell my senior how I felt.", alt: ["{被告|ひこく}", "{広告|こうこく}", "{申告|しんこく}"] },
+      { ja: "{卒業式|そつぎょうしき}の日、{勇気|ゆうき}を出して{先輩|せんぱい}に**{告白|こくはく}**した。", en: "On graduation day, I worked up the courage to confess my feelings to an older student.", alt: ["{被告|ひこく}", "{広告|こうこく}", "{申告|しんこく}"] },
     ] },
   { w: "{物理的|ぶつりてき}", lv: "N1", pos: "な adjective",
     en: "physical, material (as opposed to mental or emotional)",
@@ -521,7 +521,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はえ", "ばかい", "はかえ"],
     book: { ja: "人間にしたところで、自然が**{破壊|はかい}**されれば生きられないのは{野生|やせい}動物と変わらない。", en: "Even humans are no different from wild animals in that they can't survive if nature is destroyed.", at: "gp/86" },
     ex: [
-      { ja: "{森林|しんりん}の**{破壊|はかい}**が進み、多くの動物がすみかを{失|うしな}った。", en: "As forest destruction advances, many animals have lost their homes.", alt: ["{破格|はかく}", "{破産|はさん}", "{破片|はへん}"] },
+      { ja: "{森林|しんりん}の**{破壊|はかい}**が進み、多くの動物がすみかを{失|うしな}った。", en: "As the destruction of the forests has advanced, many animals have lost their homes.", alt: ["{破格|はかく}", "{破産|はさん}", "{破片|はへん}"] },
     ] },
   { w: "いずれ", lv: "N2", pos: "adverb · pronoun",
     en: "either, whichever (of several); sooner or later, eventually; some day",
