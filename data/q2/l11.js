@@ -294,8 +294,8 @@ TRY.registerLesson({
      "tr": [
       "Japanese people say yoroshiku everywhere they go. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you no longer know what yoroshiku means.",
       "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within the limits of what the other person can do and leave those limits up to that person. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
-      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or would I perhaps be kind enough to have a meal with them at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
-      "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person can at times even be rude. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
+      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or was it asking whether I might be kind enough to have a meal with them at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
+      "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person could at times even amount to rudeness. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
      ]
     },
     {
@@ -2229,7 +2229,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "では、＿＿を＿＿を見つけてきますので、\nなんとか＿＿いただけないでしょうか。",
-            "tr": "Well then, (for) ＿＿, I'll find ＿＿, so is there any way you could ＿＿?"
+            "tr": "Well then, I'll find ＿＿ to swap ＿＿ with me, so is there any way you could ＿＿?"
            },
            "answer": [
             "発表の日",
@@ -2244,7 +2244,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "＿＿を言って、＿＿。",
-            "tr": "For asking something so ＿＿, ＿＿."
+            "tr": "I'm ＿＿ for making such a ＿＿ request."
            },
            "answer": [
             "勝手",
@@ -3737,7 +3737,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "そっか。でも、内容は__さておき__、SNSのおかげでやりとりする相手は増えているわけだから、SNSがコミュニケーションに悪い影響を与えている__とばかりは言えない__んじゃないかな。",
-       "tr": "I see. But setting aside what we actually say, thanks to social media we're interacting with more people, so you can't necessarily say social media is having a bad influence on communication, can you?"
+       "tr": "I see. But setting aside what we actually say, thanks to social media we're interacting with more people, so I don't think you can say social media is purely a bad influence on communication."
       },
       {
        "sp": "サ",

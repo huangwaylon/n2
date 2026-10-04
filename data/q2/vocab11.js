@@ -181,6 +181,6 @@ TRY.registerVocab({ lesson: 11, lists: [
       { n: 39, w: "ぼんやりと", ex: "彼女はぼんやりと{窓|まど}から外を見ていた。", tr: "She was gazing absently out the window." },
       { n: 40, w: "喚起（する）", ex: "海でおぼれる人が多いので、{自治体|じちたい}は注意を喚起する看板を立てた。", tr: "Because many people drown in the sea, the local government put up signs urging caution." },
       { n: 41, w: "自己主張（する）", ex: "自己主張が強すぎると、周りの人たちとうまくいかない。", tr: "If you are too assertive, you won't get along with the people around you." },
-      { n: 42, w: "歯がゆい", ex: "積極的に行動できない自分の弱さが歯がゆいです。", tr: "I'm frustrated with my own weakness in not being able to act proactively." },
+      { n: 42, w: "歯がゆい", ex: "積極的に行動できない自分の弱さが歯がゆいです。", tr: "It frustrates me that I'm too weak to take the initiative." },
     ] } },
 ] });
