@@ -18,3 +18,17 @@ then explanations and deep-dives. Rules: `docs/ENGLISH.md`. Book English is neve
 | Q2 L7–8 | done (28 strings + 2 vocab; p.56 練習しよう 見つりました is the book’s misprint, kept) | |
 | Q2 L9–10 | done (~38 strings + 4 vocab) | |
 | Q2 L11–12, challenge, front | | |
+
+Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
+
+| Unit | Round 2 |
+|---|---|
+| N2 ch01–04 | done (97 strings + 11 vocab; 17 compare copies synced) |
+| N2 ch05–08 | running |
+| N2 ch09–11 | running |
+| N2 ch12–14, compare | running |
+| N1 ch01–03 | running |
+| N1 ch04–06 | running |
+| N1 ch07–10, compare | |
+| Q1 L1–6 | |
+| Q2 L7–12 | |
