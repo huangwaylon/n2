@@ -1135,7 +1135,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "いえ、{大丈夫|だいじょうぶ}です。ちょっと暑かったから、私が開け**ておいた**んです。",
-           "tr": "No, it's fine. It was a little hot, so I left it open."
+           "tr": "No, it's fine. It was a little hot, so I opened it myself."
           }
          ]
         },
@@ -1934,7 +1934,7 @@ TRY.registerLesson({
       "ふわっとしたおいしいお好み焼きになります。"
      ],
      "tr": [
-      "Okonomiyaki: adults and kids alike love it. All you do is cut the ingredients, mix them, and cook them, so it's easy to make.",
+      "Okonomiyaki, a favorite of adults and kids alike. All you do is cut the ingredients, mix them, and cook them, so it's easy to make.",
       "Ingredients (serves two)",
       "Dashi stock 100 cc | Green onions 10 g | Sauce, to taste",
       "Flour 80 g | Tenkasu (tempura bits) 10 g | Aonori (green seaweed flakes), to taste",
@@ -2832,7 +2832,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "ああ、そこなら、たぶんわかると思う。",
-       "tr": "Oh, if it's that one, I think I probably know where it is."
+       "tr": "Oh, if it's that one, I think I know where it is."
       },
       {
        "sp": "ジ",
@@ -4938,7 +4938,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "約束をし__ておかない__と家に遊びに行けないのは{面倒|めんどう}だと思うのですが、日本では約束をし__ておいた__ほうがいいのでしょうか。みなさんの国ではどうですか。",
-       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it really better to make plans ahead of time? What is it like in your countries?"
+       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it better to make plans ahead of time? What is it like in your countries?"
       }
      ]
     }

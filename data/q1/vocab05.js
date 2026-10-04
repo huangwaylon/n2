@@ -486,7 +486,7 @@ TRY.registerVocab({
       "n": 16,
       "w": "[〜に]付く",
       "ex": "コートに付いていたボタンがなくなってしまった。",
-      "tr": "I lost one of the buttons that was on my coat."
+      "tr": "One of the buttons on my coat has gone missing."
      },
      {
       "n": 17,
@@ -869,7 +869,7 @@ TRY.registerVocab({
       "n": 24,
       "w": "甘辛い",
       "ex": "子どもたちは甘辛いソースが好きだ。",
-      "tr": "Kids like sweet and salty sauces."
+      "tr": "Kids like sweet and savory sauces."
      },
      {
       "n": 25,
