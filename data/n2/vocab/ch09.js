@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ignition; lighting; catching fire",
     note: "Technical/written: 着火する, 着火剤 (fire starter), 着火部分. 点火 is deliberately igniting (点火装置); 発火 is catching fire, often spontaneously. Everyday: 火がつく / 火をつける.",
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
-    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter's ignition part has been made stiff, so that it won't light even if a child plays with it.", at: "gp/81" },
+    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "On this lighter, the ignition is made stiff so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood is hard to get lit.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },
@@ -467,7 +467,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "strong point; strength; merit",
     note: "長所と短所 (strengths and weaknesses), 長所を伸ばす / 生かす. 利点 is the advantage of a thing or method; 特長 a distinctive merit.",
     rx: ["ながしょ", "ちょうじょ", "ちょうしょう"],
-    book: { ja: "強くなりたかったら、自分の**{長所|ちょうしょ}**を{伸|の}ばすことだ。", en: "If you want to become strong, you should develop your strengths.", at: "gp/87" },
+    book: { ja: "強くなりたかったら、自分の**{長所|ちょうしょ}**を{伸|の}ばすことだ。", en: "If you want to get stronger, the thing to do is build on your strengths.", at: "gp/87" },
     ex: [
       { ja: "{面接|めんせつ}で「あなたの**{長所|ちょうしょ}**は{何|なん}ですか」と{聞|き}かれた。", en: "In the interview I was asked, “What are your strengths?”", alt: ["{長男|ちょうなん}", "{場所|ばしょ}", "{近所|きんじょ}"] },
     ] },
