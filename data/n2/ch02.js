@@ -573,7 +573,7 @@ TRY.registerChapter({
           usage: { ja: "「〜わけではない」は、「〜の{状況|じょうきょう}や気持ち・理由ではない」と{否定|ひてい}するときに使う。「病気が治ったわけではない」のように、相手の考えや{一般的|いっぱんてき}な{判断|はんだん}を{否定|ひてい}するときに使う。「嫌いなわけではない」のように、100%そうだと言いたくないときにも使う。", en: "Use \"〜わけではない\" when you make a denial as in \"that's not the situation; it doesn't feel like that; not for that reason.\" Use it when you refute another person's idea or a typical judgment as in \"病気が治ったわけではない\". You can also use it when you do not want to say that something is 100% for sure, as in \"嫌いなわけではない\"." },
           forms: ["[Pl] + わけではない", "[Pl] + わけじゃない", "［[なA~~だ~~]な　[N~~だ~~]の］"],
           examples: [
-            { ja: "退院しても、病気が{完全|かんぜん}に治ったわけではありませんから、{無理|むり}をしないでください。", en: "Even though you've been discharged, you haven't fully recovered, so please don't overdo it." },
+            { ja: "退院しても、病気が{完全|かんぜん}に治ったわけではありませんから、{無理|むり}をしないでください。", en: "Even though you've been discharged, that doesn't mean you're completely cured, so please don't overdo it." },
             { ja: "{通信|つうしん}{販売|はんばい}は便利だが、{実際|じっさい}に見て買うわけではないので、{品物|しなもの}が届くまでちょっと心配だ。", en: "Mail order is convenient, but since you don't actually see the item before buying it, I always worry a little until it arrives." },
             { ja: "歌が下手なわけではないが、カラオケで歌うことはほとんどない。", en: "It's not that I'm bad at singing, but I hardly ever sing karaoke." },
             { ja: "あのレストランはおいしいわけでもないのに、いつも{混|こ}んでいる。", en: "That restaurant isn't particularly good, yet it's always crowded." },
@@ -618,7 +618,7 @@ TRY.registerChapter({
           usage: { ja: "「休むことなく働き続けている」のように、何かをしない{状態|じょうたい}で後ろの{動作|どうさ}が続いたり、{完了|かんりょう}したりするときに使う。", en: "Use this when something happens or is completed even though some action has not been done, as in \"休むことなく働き続けている\"." },
           forms: ["[V-る] + ことなく"],
           examples: [
-            { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}することなく、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "We were able to win this time, but we won't be satisfied with that; we'll keep working even harder. Please continue to support us." },
+            { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}することなく、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "We were able to win this time, but we won't rest on that; we'll keep working even harder. Please continue to support us." },
             { ja: "彼は{一言|ひとこと}も{文句|もんく}を言うことなく、重い荷物を運んでいった。", en: "He carried the heavy luggage away without a single word of complaint." },
             { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の{生涯|しょうがい}を{終|お}えた。", en: "After that, she died at eighty without ever once visiting her hometown again." },
             { ja: "私たちが乗った{新幹線|しんかんせん}は遅れることなく{京都|きょうと}についた。", en: "The shinkansen we took arrived in Kyoto without any delay." },
