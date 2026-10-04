@@ -302,7 +302,7 @@ TRY.registerChapter({
           usage: { ja: "「〜{次第|しだい}です」は「〜んです」と同じように、事情や理由を説明するときに使われる。会議やビジネスなどの場面で使われることが多い。", en: "Like “〜んです,” “〜次第です” is used when explaining circumstances or reasons. It is often used in settings such as meetings and business." },
           forms: ["[V-Pl] + {次第|しだい}だ"],
           examples: [
-            { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be difficult with our company's technical capabilities, and that is why we declined it." },
+            { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be too difficult given our company's technical capabilities, and that is why we declined it." },
             { ja: "出張と重なってしまったために、会議を中止させていただいた{次第|しだい}です。", en: "The meeting conflicted with a business trip, which is why we have canceled it." },
             { ja: "国際交流イベントの成功のために、広く皆様にご協力をお願い申し上げる{次第|しだい}です。", en: "We therefore humbly ask all of you for your cooperation in making the international exchange event a success." },
             { ja: "調査結果がまだまとまっていないために、会議でご報告できなかった{次第|しだい}です。", en: "The survey results have not been compiled yet, which is why we were unable to report on them at the meeting." },

@@ -114,7 +114,7 @@ TRY.registerCompare([
         ex: { ja: "登山ルートは天候{次第|しだい}で変更する場合もありますので、ご{了承|りょうしょう}ください。", en: "Please note that the climbing route may be changed depending on the weather." },
         note: "N + 次第だ / 次第で（は）: \"depends on N / is up to N\". N determines the outcome." },
       { pattern: "〜{次第|しだい}だ", level: "N1", no: 12,
-        ex: { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be difficult with our company's technical capabilities, and that is why we declined it." },
+        ex: { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be too difficult given our company's technical capabilities, and that is why we declined it." },
         note: "Plain V (often V-た) + 次第です: \"that is how / why (I did) ~\". A formal, business-style account of the circumstances behind the speaker's own action (≈ 〜んです); unlike ① and ②, it ends the sentence after a verb." }
     ]
   },
@@ -318,7 +318,7 @@ TRY.registerCompare([
         ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and among those in their twenties it was down to 13%." },
         note: "N + に至っては: \"and as for N, it goes even further\". After one or more examples, singles out the most extreme case, usually in a negative direction." },
       { pattern: "Nの{至|いた}り", level: "N1", no: 66,
-        ex: { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "I am truly honored beyond measure to receive such a prestigious award." },
+        ex: { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "To receive such a prestigious award is truly the greatest of honors." },
         note: "N + の至り: \"the utmost ~\" (光栄の至り, 感激の至り, 恐縮の至り). A formal set phrase for the speaker's own extreme feeling; only with a few Sino-Japanese nouns, unlike the range patterns above." }
     ]
   },

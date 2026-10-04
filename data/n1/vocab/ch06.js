@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "authority; prestige; (a leading) authority, expert",
     note: "Power or prestige that commands respect: 権威ある賞 (a prestigious award), 権威を失う, and a leading expert: 心臓外科の権威. 権力 is political or coercive power; 権威 is respect-based.",
     rx: ["けんえい", "げんい", "けんいい"],
-    book: { ja: "このような**{権威|けんい}**ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "I am truly honored beyond measure to receive such a prestigious award.", at: "gp/66" },
+    book: { ja: "このような**{権威|けんい}**ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "To receive such a prestigious award is truly the greatest of honors.", at: "gp/66" },
     ex: [
       { ja: "{彼|かれ}は{脳|のう}{科学|かがく}の**{権威|けんい}**として、{世界的|せかいてき}に{知|し}られている。", en: "He is known worldwide as a leading authority on brain science.", alt: ["{権利|けんり}", "{威力|いりょく}", "{脅威|きょうい}"] },
     ] },

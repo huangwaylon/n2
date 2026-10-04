@@ -93,7 +93,7 @@ TRY.registerChapter({
             { ja: "＊「{光栄|こうえい}・{赤面|せきめん}・{感激|かんげき}・{恐縮|きょうしゅく}」などの言葉と一緒に使われる。", en: "Used with words such as 光栄 (honor), 赤面 (blushing with shame), 感激 (being deeply moved) and 恐縮 (feeling deeply obliged or apologetic)." },
           ],
           examples: [
-            { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "I am truly honored beyond measure to receive such a prestigious award." },
+            { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "To receive such a prestigious award is truly the greatest of honors." },
             { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame." },
             { ja: "{私|わたくし}のために、かくも{盛大|せいだい}な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am deeply moved that you have held such a grand gathering for me." },
             { ja: "酒を{一気|いっき}飲みしたうえ、{真冬|まふゆ}の川に飛び込むなんて、本当に{若気|わかげ}の{至|いた}り※だった。", foot: "※{若気|わかげ}の{至|いた}り：「若さのせいでおかした失敗」という意味。", en: "Downing a drink in one go and then jumping into a river in the dead of winter — that really was youthful folly.* (*若気の至り: “a mistake made because one was young”.)", idiom: true },
@@ -257,7 +257,7 @@ TRY.registerChapter({
             { q: "初級で習った漢字なのに読めないなんて、恥ずかしい＿＿だ。", answer: "限り", en: "Not being able to read kanji I learned at beginner level — how utterly embarrassing." },
             { q: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", answer: "にたえません", en: "Having safely reached our 100th anniversary like this today, all of us employees are filled with joy." },
             { q: "お電話でのお問い合わせは{本日|ほんじつ}6時＿＿終了させていただきました。", answer: "をもちまして", en: "We stopped taking telephone inquiries as of 6 o'clock today." },
-            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone who would be a hotel manager must be able to handle even difficult guests properly; otherwise they aren't up to the job." },
+            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone who is a hotel manager has to be able to handle even difficult guests properly, or they aren't up to the job." },
           ],
         },
         {
