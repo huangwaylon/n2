@@ -483,12 +483,12 @@ TRY.registerLesson({
      "titleTr": "One Stormy Night",
      "tr": [
       "This fall, at the Minamiza theater in Kyoto, I saw a new kabuki play called \"Arashi no Yoru ni\" (One Stormy Night). Nakamura Shidō plays Gabu the wolf, and Onoe Matsuya plays Mei the goat.",
-      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is lectured by its companions and nearly gives in. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
+      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is argued down by its companions and nearly loses heart. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
       "Don't dismiss it as a silly fantasy. It depicts a surprising truth and a possibility. Who on earth decided the common belief that goats are something to be eaten by wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
       "In fact, it is humans who have arbitrarily created, and then just as arbitrarily dissolved, such absolute hostile relationships that seem at first glance to be common sense. The gorillas I have studied for so long have been at the mercy of humans' selfish common sense. After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took seriously stories that they attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once the peaceful life of gorillas became clear, that view changed completely, and now they have become a major tourist attraction as important neighbors of humans. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
       "The same can be said of relationships between humans. In the Edo period, white people were seen by the Japanese as demons who ate human beings. And what on earth was the fear and hatred we harbored during World War II, when we called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
-      "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is that even a relationship that seems at first glance utterly impossible to change can be changed by the way we choose to feel about it. This is not something only intelligent humans can do.",
-      "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have both built a friendly relationship over a long time. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I was charged and injured in the head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
+      "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is this: even a relationship that seems at first glance impossible to change can be changed by the attitude we take toward it. This is not something only intelligent humans can do.",
+      "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have spent a long time building a friendly relationship. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I too was charged, and suffered injuries to my head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
       "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
      ],
      "headTr": [
@@ -3059,7 +3059,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "20日に帰国する＿＿ので、帰国前に＿＿を\n＿＿したくて、ごあいさつに＿＿ました。",
-            "tr": "Since ＿＿ go back to my country on the 20th, I wanted to ＿＿ before I leave, so I've ＿＿ to say goodbye."
+            "tr": "Since it's been ＿＿ that I'll go back to my country on the 20th, I wanted to ＿＿ ＿＿ before I leave, so I've ＿＿ to say goodbye."
            },
            "answer": [
             "ことになった",
@@ -3144,7 +3144,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❷20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-       "tr": "I'm going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+       "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
       },
       {
        "sp": "中",
@@ -3280,7 +3280,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-        "tr": "I'm going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+        "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
        }
       },
       {
@@ -3413,7 +3413,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❷{{20日に帰国する}}**ことになったので、**{{帰国前に}}**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-       "tr": "I'm going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+       "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
       },
       {
        "sp": "先生",
@@ -3558,7 +3558,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{この一年間}}**、お世話になりっぱなしだったね。**",
-         "tr": "You've done so much for me this whole past year."
+         "tr": "I've done nothing but rely on you this whole past year."
         },
         {
          "sp": "絵理",
