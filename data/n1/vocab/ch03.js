@@ -73,7 +73,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["きたて", "けだて", "きだち"],
     book: { ja: "**{気立|きだ}て**も良く、{文句|もんく}も言わずに男のために食事を作り、掃除や洗濯をした。", en: "She was good-natured too, and without a word of complaint she cooked the man's meals and did the cleaning and washing.", at: "ch/3" },
     ex: [
-      { ja: "{隣|となり}の{娘|むすめ}さんは**{気立|きだ}て**がよくて、{誰|だれ}からも好かれている。", en: "The girl next door is so good-natured that everyone likes her.", alt: ["{仕立|した}て", "{気配|けはい}", "{気候|きこう}"] },
+      { ja: "{隣|となり}の{娘|むすめ}さんは**{気立|きだ}て**がよくて、{誰|だれ}からも好かれている。", en: "The daughter of the family next door is so good-natured that everyone likes her.", alt: ["{仕立|した}て", "{気配|けはい}", "{気候|きこう}"] },
     ] },
   { w: "{身|み}なり", lv: "N1", pos: "noun",
     en: "appearance, the way one is dressed; attire",
@@ -118,7 +118,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "escape (from a dangerous place or a bad situation)",
     note: "Getting out of an enclosed place or a plight: 燃える建物から脱出する, 不況から脱出する, 脱出ゲーム. 逃げる is the general 'run away'; 脱走 is escaping from custody (prison, the army).",
     rx: ["だつしゅつ", "たっしゅつ", "だっしゅう"],
-    book: { ja: "借金まみれの生活から**{脱出|だっしゅつ}**するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To escape from a life drowning in debt, I decided to go and consult a lawyer.", at: "gp/16" },
+    book: { ja: "借金まみれの生活から**{脱出|だっしゅつ}**するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To escape a life buried in debt, I decided to go and consult a lawyer.", at: "gp/16" },
     ex: [
       { ja: "{乗客|じょうきゃく}は{非常口|ひじょうぐち}から{無事|ぶじ}に**{脱出|だっしゅつ}**した。", en: "The passengers got out safely through the emergency exit.", alt: ["{脱退|だったい}", "{輸出|ゆしゅつ}", "{脱線|だっせん}"] },
     ] },
@@ -141,7 +141,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to hold someone back; to persuade someone to stay; to detain",
     note: "Also written 引き止める / 引き留める. Used when someone is about to leave or quit: 帰ろうとする客を引きとめる, 辞めたいという社員を引きとめる. 止める alone stops any action; 引きとめる keeps a person from going.",
     rx: ["いんきとめる", "びきとめる", "ひっきとめる"],
-    book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Paying no heed to his girlfriend's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "The department head tried again and again to talk the subordinate out of quitting.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
     ] },
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to carry (with one), to take along; (手を携える) to join hands, cooperate",
     note: "Formal and literary: 花束を携えて訪れる, 手を携えて (hand in hand, in cooperation). Everyday speech says 持って行く. Don't confuse it with 携わる (たずさわる, to be engaged in work), which shares the kanji.",
     rx: ["たすさえる", "たずさわる", "けいえる"],
-    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを**{携|たずさ}えて**{戦場|せんじょう}に向かった。", en: "Paying no heed to his girlfriend's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを**{携|たずさ}えて**{戦場|せんじょう}に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{使節団|しせつだん}は国王の{親書|しんしょ}を**{携|たずさ}えて**{来日|らいにち}した。", en: "The delegation came to Japan bearing a personal letter from the king.", alt: ["{携|たずさ}わって", "{支|ささ}えて", "{備|そな}えて"] },
     ] },
@@ -157,7 +157,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "battlefield; (figuratively) a scene of frantic activity",
     note: "Literal (戦場カメラマン, a war photographer) and figurative: 昼どきの厨房はまるで戦場だ (the kitchen at lunchtime is a war zone). 戦地 is the war zone in general.",
     rx: ["せんば", "せんしょう", "ぜんじょう"],
-    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを{携|たずさ}えて**{戦場|せんじょう}**に向かった。", en: "Paying no heed to his girlfriend's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを{携|たずさ}えて**{戦場|せんじょう}**に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{年末|ねんまつ}の{郵便局|ゆうびんきょく}は、まるで**{戦場|せんじょう}**のような忙しさだ。", en: "At the end of the year, the post office is as hectic as a battlefield.", alt: ["{会場|かいじょう}", "{広場|ひろば}", "{牧場|ぼくじょう}"] },
     ] },
@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to become completely absorbed in, to get hooked on",
     note: "Stronger than 夢中になる, often with a hint of excess: ギャンブルにのめり込む, 研究にのめり込む. 打ち込む (devote oneself to) is purely positive; のめり込む can be neutral or worrying.",
     rx: ["のめりごむ", "のめりいむ", "のめりかむ"],
-    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "While friends are starting to look for jobs, Yamada, quite unconcerned, is completely absorbed in club activities.", at: "gp/17" },
+    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "While Yamada's friends are starting to look for jobs, Yamada, unconcerned, is completely absorbed in club activities.", at: "gp/17" },
     ex: [
       { ja: "彼は大学時代に{演劇|えんげき}に**のめり{込|こ}み**、授業にほとんど出なかった。", en: "In college he got so wrapped up in theater that he hardly went to class.", alt: ["{割|わ}り{込|こ}み", "{申|もう}し{込|こ}み", "{冷|ひ}え{込|こ}み"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "benefit, blessing (received from something)",
     note: "恩恵を受ける / 被る, 自然の恩恵, 科学技術の恩恵. Formal. 利益 is profit; 恩恵 is a benefit one enjoys thanks to something larger.",
     rx: ["おんえ", "おんけ", "いんけい"],
-    book: { ja: "{極|きわ}めて少数だが、情報技術の**{恩恵|おんけい}**を自ら{絶|た}って生活する人がいない＿＿。", en: "They are extremely few, but it's not that there's nobody who chooses to live cut off from the benefits of information technology.", at: "ch/3" },
+    book: { ja: "{極|きわ}めて少数だが、情報技術の**{恩恵|おんけい}**を自ら{絶|た}って生活する人がいない＿＿。", en: "They are extremely few, but there are in fact people who choose to live cut off from the benefits of information technology.", at: "ch/3" },
     ex: [
       { ja: "{円安|えんやす}の**{恩恵|おんけい}**を受けて、{輸出|ゆしゅつ}{企業|きぎょう}の{業績|ぎょうせき}が伸びた。", en: "Benefiting from the weak yen, exporters saw their earnings grow.", alt: ["{恩師|おんし}", "{恩人|おんじん}", "{恩返|おんがえ}し"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "scream, shriek; (figuratively) a cry of distress",
     note: "悲鳴を上げる = to scream. Figuratively: うれしい悲鳴 (a nice problem to have, e.g. too many orders), 財布が悲鳴を上げる. 叫び声 is any shout.",
     rx: ["ひめ", "びめい", "ひなり"],
-    book: { ja: "びっくりした男は、つい「ひゃあ！」と**悲鳴**を上げてしまった。", en: "The man was so startled that he couldn't help letting out a shriek: \"Eek!\"", at: "ch/3" },
+    book: { ja: "びっくりした男は、つい「ひゃあ！」と**悲鳴**を上げてしまった。", en: "Startled, the man let out a shriek before he could stop himself: \"Eek!\"", at: "ch/3" },
     ex: [
       { ja: "{夜中|よなか}に隣の部屋から**{悲鳴|ひめい}**が聞こえて、飛び起きた。", en: "I heard a scream from the next room in the middle of the night and jumped out of bed.", alt: ["{悲劇|ひげき}", "{悲観|ひかん}", "{共鳴|きょうめい}"] },
     ] },
@@ -517,7 +517,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["となる", "しょうえる", "うたえる"],
     book: { ja: "{魔法|まほう}使いが{呪文|じゅもん}を**{唱|とな}える**が早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "No sooner had the wizard chanted the spell than the prince turned into a frog.", at: "gp/30" },
     ex: [
-      { ja: "彼はその計画に{真|ま}っ{向|こう}から{異議|いぎ}を**{唱|とな}えた**。", en: "He raised a head-on objection to the plan.", alt: ["{称|たた}えた", "{整|ととの}えた", "{与|あた}えた"] },
+      { ja: "彼はその計画に{真|ま}っ{向|こう}から{異議|いぎ}を**{唱|とな}えた**。", en: "He flatly objected to the plan.", alt: ["{称|たた}えた", "{整|ととの}えた", "{与|あた}えた"] },
     ] },
   { w: "{待|ま}ち{構|かま}える", lv: "N1", pos: "verb",
     en: "to wait (ready) for, to lie in wait for",
@@ -643,7 +643,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "waste (of money or resources); wasteful spending",
     note: "お金の無駄遣い, 時間の無駄遣い, 税金の無駄遣い. 浪費 is the formal word.",
     rx: ["むだつかい", "むたづかい", "ぶだづかい"],
-    book: { ja: "お前、**{無駄遣|むだづか}い**はやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", en: "You said you'd stop wasting money, and right after that you buy two new bags? What's the meaning of this?", at: "ch/3" },
+    book: { ja: "お前、**{無駄遣|むだづか}い**はやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", en: "You said you'd stop wasting money, and the minute you say it you go and buy two new bags? What's the idea?", at: "ch/3" },
     ex: [
       { ja: "毎月{家計簿|かけいぼ}をつけて、**{無駄遣|むだづか}い**を減らすようにしている。", en: "I keep a household budget every month to cut down on wasteful spending.", alt: ["{心遣|こころづか}い", "{気遣|きづか}い", "{言葉遣|ことばづか}い"] },
     ] },
@@ -667,7 +667,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "vulgar, lowbrow, in poor taste",
     note: "Criticism of entertainment and media: 低俗な番組, 低俗な趣味. The opposite is 高尚 (lofty, refined). 下品 also covers manners and appearance.",
     rx: ["ていそく", "ていしょく", "てぞく"],
-    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "Widespread criticism of its vulgar content notwithstanding, this program is still getting high ratings.", at: "ch/3/review" },
+    book: { ja: "内容が**{低俗|ていぞく}**であるという多くの批判（　）、この番組は今も{高視聴率|こうしちょうりつ}を上げている。", en: "Despite widespread criticism that its content is vulgar, this program is still getting high ratings.", at: "ch/3/review" },
     ex: [
       { ja: "子どもに**{低俗|ていぞく}**な番組を見せたくないという親は多い。", en: "Many parents don't want their children watching lowbrow TV shows.", alt: ["{低調|ていちょう}", "{高尚|こうしょう}", "{風俗|ふうぞく}"] },
     ] },
