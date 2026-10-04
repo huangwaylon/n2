@@ -669,7 +669,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**AなりBなり** names two sample options and leaves the rest open: *A or B or something like that*. The speaker cares that some step is taken, not which one, so it suits advice, suggestions and instructions (〜ばいい, 〜ほうがいい, 〜てください). With verbs the pair ends in する: 買うなり作るなりして (①).\n\n- Past facts take 〜たり〜たり instead: 薬を飲んだり病院に行ったりした (*I took medicine and went to the doctor*).\n- 何なり leaves the list fully open: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nTRY! N1 teaches the same pattern and warns against the look-alike **V-るなり**, *as soon as*. Compare **Nであれ** (L11-5), which says the choice makes no difference to the outcome."
+     "deepDive": "**AなりBなり** names two sample options and leaves the rest open: *A or B or something like that*. The speaker cares that some step is taken, not which one, so it suits advice, suggestions and instructions (〜ばいい, 〜ほうがいい, 〜てください). With verbs the pair ends in する: 買うなり作るなりして (①).\n\n- Past facts take 〜たり〜たり instead: 薬を飲んだり病院に行ったりした (*I took medicine and went to the doctor*).\n- 何なり leaves the list fully open: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nTRY! N1 teaches the same pattern and warns against the look-alike **V-るなり**, *as soon as* (L12-11). Compare **Nであれ** (L11-5), which says the choice makes no difference to the outcome."
     },
     {
      "t": "note",
@@ -754,7 +754,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜まい** is the negative partner of 〜う／〜よう and belongs to writing, speeches and old-fashioned speech; in conversation people say 〜ないだろう, or もう〜ない for a resolution.\n\n- Conjecture sounds confident but is still a guess, usually drawn from reasoning (〜のだから, いくら〜ても ②).\n- Resolution is first person and usually framed by と思う／と決める／と誓う (⑤).\n- Set phrases: 〜ことはあるまい (*there's surely no need to ~*), 〜しかあるまい (*there's probably no choice but ~*), 〜のではあるまいか (Reading 2).\n\nまい already negates: ✗行かないまい. Reading 2's 言いきれまい combines it with L11-9: *can hardly be dismissed as*. TRY! N2 teaches the same two uses, plus 〜（よ）うか〜まいか, *whether or not to ~*."
+     "deepDive": "**〜まい** is the negative partner of 〜う／〜よう and belongs to writing, speeches and old-fashioned speech; in conversation people say 〜ないだろう, or もう〜ない for a resolution.\n\n- Conjecture sounds confident but is still a guess, usually drawn from reasoning (〜のだから, いくら〜としても ②).\n- Resolution is first person and usually framed by と思う／と決める／と誓う (⑤).\n- Set phrases: 〜ことはあるまい (*there's surely no need to ~*), 〜しかあるまい (*there's probably no choice but ~*), 〜のではあるまいか (Reading 2).\n\nまい already negates: ✗行かないまい. Reading 2's 言いきれまい combines it with L11-9: *can hardly be dismissed as*. TRY! N2 teaches the same two uses, plus 〜（よ）うか〜まいか, *whether or not to ~*."
     },
     {
      "t": "note",
@@ -1557,7 +1557,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "卒業パーティーに参加する場合は、返信をお願いします。返信がない場合は、参加しないもの**とします**。",
-         "tr": "If you will attend the graduation party, please reply. If we do not receive a reply, we will assume you are not attending."
+         "tr": "If you plan to attend the graduation party, please reply. If we do not receive a reply, we will assume you are not attending."
         },
         {
          "n": 3,
