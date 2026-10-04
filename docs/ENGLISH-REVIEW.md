@@ -38,7 +38,7 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | Q1 audit (round 3: notes consistency + sample) | done (55 notes: 12 strings incl. からして deepDive; sample 3/83 = 3.6%; no further full pass) |
 | N1 audit (round 3: consistency + sample) | done (123 points: 17 strings, mostly usage glosses; sample 5/80 = 6%; no further full pass) |
 | vocab-check: quotes from exercises compared | done (13 drifted copies fixed) |
-| Q2 audit (round 3: notes, gender/names, sample) | running |
+| Q2 audit (round 3: notes, gender/names, sample) | done (66 notes: 21 strings incl. 9 deepDive fixes; George is male in the book; sample 1/80; no further full pass) |
 | N2+N1 exercise options / questionEn | done (106 items, 11 strings; N1 ch08 options no longer say "he" for worries about the woman) |
 | N2 vocab lists: glosses, notes, ex | running |
 | N1 vocab lists: glosses, notes, ex | running |
