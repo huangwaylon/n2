@@ -2167,21 +2167,21 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "ラストオーダーの時間__ぎりぎり__に回転ずし店に入った。",
-         "tr": "I went into the conveyor-belt sushi restaurant just before last order."
+         "tr": "He made it into the conveyor-belt sushi restaurant just before last orders."
         }
        },
        {
         "n": "(3)",
         "text": {
          "ja": "すしを何個も__ぱくぱく__食べて、水を__ごくごく__飲んだ。",
-         "tr": "I gobbled down piece after piece of sushi and gulped down water."
+         "tr": "He gobbled down piece after piece of sushi and gulped down water."
         }
        },
        {
         "n": "(4)",
         "text": {
          "ja": "お金を払う時、__うっかり__さいふを家に忘れてきたことに気がついた。",
-         "tr": "When I went to pay, I realized I'd absent-mindedly left my wallet at home."
+         "tr": "When he went to pay, he realized he'd absent-mindedly left his wallet at home."
         }
        }
       ]
@@ -5965,7 +5965,7 @@ TRY.registerUnits([
         "items": [
          {
           "ja": "本日はお忙しいところ、ありがとうございます。「大学生はお弁当についてどう思っているか」というテーマでお話を{伺|うかが}いたいと思います。答えにくい場合は、お答えいただかなくても{結構|けっこう}です。よろしくお願いします。",
-          "tr": "Thank you for taking time out of your busy schedule today. I'd like to ask you about the theme \"What do university students think about bento?\" If there's anything that's hard to answer, you don't have to answer it. Thank you very much."
+          "tr": "Thank you for taking time out of your busy schedule today. I'd like to ask you about the theme \"What do university students think about bento?\" If there's anything that's hard to answer, you don't have to answer it. Thank you in advance for your help."
          }
         ]
        }
