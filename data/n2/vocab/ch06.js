@@ -184,7 +184,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "slump; poor performance",
     note: "Mostly after a noun, in business and news: 業績不振 (poor business results), 食欲不振 (loss of appetite), 成績不振, 打撃不振 (a batting slump). 不審 (suspicious) has the same reading.",
     rx: ["ぶしん", "ふじん", "ふしい"],
-    book: { ja: "会社が{業績|ぎょうせき}**{不振|ふしん}**で{給料|きゅうりょう}が30%カットされるなんて、そんなばかなことがあるものか。", en: "Our pay cut by 30% because the company's business is doing poorly? How could anything so absurd happen!", at: "gp/51" },
+    book: { ja: "会社が{業績|ぎょうせき}**{不振|ふしん}**で{給料|きゅうりょう}が30%カットされるなんて、そんなばかなことがあるものか。", en: "A 30% pay cut because the company's doing badly? Something that absurd can't be allowed to happen!", at: "gp/51" },
     ex: [
       { ja: "{暑|あつ}さのせいで{食欲|しょくよく}**{不振|ふしん}**が{続|つづ}いている。", en: "I've had a poor appetite for a while because of the heat.", alt: ["{不審|ふしん}", "{不満|ふまん}", "{不便|ふべん}"] },
     ] },
