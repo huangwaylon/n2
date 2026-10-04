@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(railway) car; vehicle",
     note: "One car of a train: 女性専用車両 (women-only car), 先頭車両 (front car). In formal notices it means any vehicle (車両通行止め, closed to vehicles).",
     rx: ["くるまりょう", "しゃりょ", "しゃれい"],
-    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So for how crowded this car is, you have a decent chance of getting a seat.", at: "ch/10" },
+    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So considering how crowded it is, this car gives you a fair chance of getting a seat.", at: "ch/10" },
     ex: [
       { ja: "{朝|あさ}のラッシュ{時|じ}には、{女性専用|じょせいせんよう}**{車両|しゃりょう}**がある。", en: "During the morning rush, there are women-only cars.", alt: ["{車庫|しゃこ}", "{車掌|しゃしょう}", "{両親|りょうしん}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to rise; to grow; to heighten (interest, tension, expectations)",
     note: "関心 / 期待 / 人気 / 緊張が高まる; the transitive is 高める. 上がる is for prices, temperatures and other measurable things; 高まる for abstract things.",
     rx: ["こうまる", "たかばる", "だかまる"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but the spread of alternative energy probably won't progress easily.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but alternative energy is unlikely to catch on easily.", at: "gp/93" },
     ex: [
       { ja: "オリンピックが{近|ちか}づき、{国民|こくみん}の{期待|きたい}が**{高|たか}まって**いる。", en: "With the Olympics approaching, the public's expectations are rising.", alt: ["{固|かた}まって", "{収|おさ}まって", "{縮|ちぢ}まって"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "substitute; alternative; replacement",
     note: "代替エネルギー (alternative energy), 代替案 (an alternative plan), 代替品 (a substitute). だいがえ is also heard, but だいたい is the standard reading. Everyday speech uses 代わり.",
     rx: ["たいたい", "だいたえ", "だいてい"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but the spread of alternative energy probably won't progress easily.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but alternative energy is unlikely to catch on easily.", at: "gp/93" },
     ex: [
       { ja: "{部品|ぶひん}が{手|て}に{入|はい}らないため、**{代替|だいたい}**{品|ひん}を{使|つか}うことにした。", en: "The part wasn't available, so we decided to use a substitute.", alt: ["{大体|だいたい}", "{交代|こうたい}", "{現代|げんだい}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "main character; protagonist; hero(ine)",
     note: "物語 / 映画 / 小説の主人公. 主役 is the leading role or actor; 主人 alone means husband or master.",
     rx: ["しゅうじんこう", "しゅじんおう", "しゅにんこう"],
-    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "In the last scene of the movie, the way the main character smiled sadly was striking.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "この{小説|しょうせつ}の**{主人公|しゅじんこう}**は、{東京|とうきょう}に{住|す}む{高校生|こうこうせい}だ。", en: "The main character of this novel is a high school student living in Tokyo.", alt: ["{主催者|しゅさいしゃ}", "{出版社|しゅっぱんしゃ}", "{著作権|ちょさくけん}"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to smile (gently)",
     note: "Written/literary; in conversation にっこりする or 笑う. Noun 微笑み (also 微笑, びしょう). 笑う also covers laughing out loud.",
     rx: ["びしょうむ", "ほほむ", "ほおえむ"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "In the last scene of the movie, the way the main character smiled sadly was striking.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "{赤|あか}ちゃんが{母親|ははおや}を{見|み}て、にっこり**{微笑|ほほえ}んだ**。", en: "The baby looked at its mother and gave a sweet smile.", alt: ["{励|はげ}んだ", "{悩|なや}んだ", "{睨|にら}んだ"] },
     ] },
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "memorable; striking; impressive",
     note: "印象的な場面 / 言葉 / 目. 印象 is an impression (第一印象, first impression; 印象に残る, stay in one's mind). 感動的 is moving, touching.",
     rx: ["いんぞうてき", "いんしょうでき", "いんしょてき"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "In the last scene of the movie, the way the main character smiled sadly was striking.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "The main character's lonely smile in the movie's last scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "{彼女|かのじょ}の{大|おお}きな{瞳|ひとみ}が、とても**{印象的|いんしょうてき}**だった。", en: "Her big eyes were very striking.", alt: ["{一時的|いちじてき}", "{部分的|ぶぶんてき}", "{経済的|けいざいてき}"] },
     ] },
