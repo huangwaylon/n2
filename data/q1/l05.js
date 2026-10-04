@@ -438,11 +438,11 @@ TRY.registerLesson({
       "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know the names of the toppings, so there's no need to worry.",
       "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
-      "Conveyor-belt sushi restaurants have now spread all over the world, but come and try the real thing here in Japan: it has a special something you won't find in other countries."
+      "Conveyor-belt sushi restaurants have now spread all over the world, but why not try the authentic version here in Japan? It has a little something extra you won't find in other countries."
      ],
      "headTr": [
-      "What Is Kaitenzushi?",
-      "When You Go to a Kaitenzushi Restaurant",
+      "What Is Conveyor-Belt Sushi?",
+      "When You Go to a Conveyor-Belt Sushi Restaurant",
       "How to Use the Touch Panel"
      ]
     },
@@ -725,7 +725,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "来週はレポートの{締|し}め{切|き}りが3つもあるんだ。全部は書けないかも……。",
-           "tr": "I have as many as three report deadlines next week. I might not be able to write them all..."
+           "tr": "I've got three report deadlines next week! I might not be able to write them all..."
           },
           {
            "sp": "B",
@@ -1135,7 +1135,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "いえ、{大丈夫|だいじょうぶ}です。ちょっと暑かったから、私が開け**ておいた**んです。",
-           "tr": "No, that's fine. It was a little hot, so I opened it (and left it open)."
+           "tr": "No, it's fine. It was a little hot, so I left it open."
           }
          ]
         },
@@ -1150,7 +1150,7 @@ TRY.registerLesson({
           {
            "sp": "メイリン",
            "ja": "うん。じゃあ、私はケーキを{焼|や}い**とく**ね。",
-           "tr": "Sure. Then I'll bake a cake beforehand."
+           "tr": "Sure. Then I'll bake a cake for it."
           }
          ]
         }
@@ -1266,7 +1266,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, example 1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's let him sleep*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (example 2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (example 5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
+     "deepDive": "**Vておく** does V now with a later purpose in mind: preparing (予約しておく), leaving a result in place (窓を開けておいた, example 1), or taking care of something beforehand. **Vないでおく** is a deliberate choice not to act, with the same forward look: 起こさないでおきましょう (*let's not wake them*).\n\n- Casual speech contracts ておく to とく and でおく to どく: 焼いとく (example 2), 飲んどいた.\n- Both need a volitional verb.\n- 〜ておけばよかった, *I should have ~*, regrets missing preparation: 買っておけばよかった (Listening 1).\n\nContrast **〜てある**, the state that someone's preparation has left: 予約してある (*a reservation has been made*). 〜ておく names the action; 〜てある reports the result. Pitfall: ないでおく is more than ない: 言わないでおいた (example 5) is *kept it to myself on purpose*, not *didn't get around to saying it*."
     },
     {
      "t": "note",
@@ -1321,7 +1321,7 @@ TRY.registerLesson({
           },
           {
            "ja": "みなさま、{東京|とうきょう}1日ツアーにようこそ。今日はこれから、**まず**、東京スカイツリーにみなさまをご案内いたします。**次に**、ホテル「TOKYO」で{昼食|ちゅうしょく}を{召|め}し{上|あ}がっていただきます。{本日|ほんじつ}は{中華|ちゅうか}料理をご用意しております。**それから**、{銀座|ぎんざ}でお買い物をお楽しみください。**最後に**、東京ドームで{野球|やきゅう}の試合をご{覧|らん}いただきます。以上です。何かご質問がありましたら、{遠慮|えんりょ}なくおたずねください。",
-           "tr": "Welcome, everyone, to our one-day Tokyo tour. First, I will take you all to Tokyo Skytree. Next, you will have lunch at Hotel TOKYO. Today we have prepared Chinese food for you. Then, please enjoy shopping in Ginza. Finally, you will watch a baseball game at Tokyo Dome. That's all. If you have any questions, please don't hesitate to ask."
+           "tr": "Welcome, everyone, to our one-day Tokyo tour. First, I will be taking you all to Tokyo Skytree. Next, you will enjoy lunch at Hotel TOKYO; today we have prepared Chinese cuisine for you. Then, please enjoy shopping in Ginza. Finally, you will watch a baseball game at Tokyo Dome. That concludes today's itinerary. If you have any questions, please don't hesitate to ask."
           }
          ]
         }
@@ -1348,7 +1348,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**まず, 次に, それから, 最後に** number the steps of a procedure, like *first, next, then, finally*. Each opens its sentence with a comma; recipes and notices end the steps in the ます form (切ります), a magazine article in the plain form (タッチする, Reading 1).\n\n- まずはじめに (Reading 1, line 36) is an emphatic まず. そして and その後 also link steps (the ATM model in Strategy 8; Reading 2, step 4).\n- Inside one step, 〜てから and 〜たら show that one action must finish first (Writing points (b)).\n- すると (*then, at that*) reports what a step makes happen: すると、詳しいメニューが出てくる. It doesn't start a new step.\n\nIn conversation, まず〜。で、次に〜 is common. Pitfall: 最後に is *as the last step*; *at last, after a long wait* is やっと or ついに."
+     "deepDive": "**まず, 次に, それから, 最後に** number the steps of a procedure, like *first, next, then, finally*. Each starts its sentence and is followed by a comma; recipes and notices end the steps in the ます form (切ります), a magazine article in the plain form (タッチする, Reading 1).\n\n- まずはじめに (Reading 1, line 36) is an emphatic まず. そして and その後 also link steps (the ATM model in Strategy 8; Reading 2, step 4).\n- Inside one step, 〜てから and 〜たら show that one action must finish first (Writing points (b)).\n- すると (*then, at that*) reports what a step makes happen: すると、詳しいメニューが出てくる. It doesn't start a new step.\n\nIn conversation, まず〜。で、次に〜 is common. Pitfall: 最後に is *as the last step*; *at last, after a long wait* is やっと or ついに."
     },
     {
      "t": "note",
@@ -1413,7 +1413,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "あの店のケーキって、高いのに全然おいしくないよね。",
-           "tr": "That shop's cakes are expensive, but they're not good at all, are they?"
+           "tr": "That shop's cakes are expensive, and yet they're not good at all, are they?"
           },
           {
            "sp": "B",
@@ -1762,7 +1762,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nにする** announces a choice among options: *I'll have, let's make it, I'll go with*. When ordering, it is the everyday way to say what one wants: 焼き肉定食にします. Staff ask 何になさいますか, the honorific form.\n\n- Question words fit: いつにしますか, どこにしましょうか (example 1), どれにするか決めたら (Reading 1, line 43).\n- 〜にしたら？／〜にしたらどうですか suggests an option (examples 2 and 3).\n- For deciding to *do* something, use **〜ことにする** (L2-4): 北海道に行くことにした. **Nになる** is a result decided by others or by circumstances: 会議は月曜日になった (*the meeting ended up on Monday*).\n\nPitfall: after an adjective, にする means *make it ~*, not a choice: 部屋をきれいにする (*tidy up the room*); only a noun + にする picks an option."
+     "deepDive": "**Nにする** announces a choice among options: *I'll have, let's make it, I'll go with*. When ordering, it is the everyday way to say what one wants: 焼き肉定食にします. Staff ask 何になさいますか, the honorific form.\n\n- Question words fit: いつにしますか, どこにしましょうか (example 1), どれにするか決めたら (Reading 1, line 43).\n- 〜にしたら？／〜にしたらどうですか suggests an option (examples 2 and 3).\n- For deciding to *do* something, use **〜ことにする** (L2-4): 北海道に行くことにした. **Nになる** is a result decided by others or by circumstances: 会議は月曜日になった (*the meeting ended up on Monday*).\n\nPitfall: after a な-adjective, にする means *make it ~*, not a choice: 部屋をきれいにする (*tidy up the room*); only a noun + にする picks an option."
     },
     {
      "t": "note",
@@ -1789,7 +1789,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{原宿|はらじゅく}は若者に人気の{街|まち}だと言われる**だけあって**、さすがに安くておしゃれな店が多い。",
-         "tr": "Harajuku is said to be popular with young people, and sure enough, it has lots of cheap, stylish shops."
+         "tr": "Just as you'd expect of a neighborhood said to be popular with young people, Harajuku has lots of cheap, stylish shops."
         },
         {
          "n": 2,
@@ -3424,7 +3424,7 @@ TRY.registerLesson({
           },
           {
            "ja": "「道なりに行くとホテルがあるから、その先の{交差点|こうさてん} (intersection) をわたって (cross) まっすぐ行ってください。しばらく行くと、左手に見えますよ。」",
-           "tr": "“If you follow the road, there's a hotel, so cross the intersection past it and go straight. After a while, you'll see it on your left.”"
+           "tr": "“Follow the road and you'll come to a hotel. Cross the intersection just past it and go straight. After a while, you'll see it on your left.”"
           }
          ]
         },
@@ -3694,7 +3694,7 @@ TRY.registerLesson({
        "sp": "通",
        "v": "f",
        "ja": "えっと、貼り紙の地図によると、この先の{交差点|こうさてん}をわたって少し歩いたところにあるみたいですよ。道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の交差点をわたったら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。",
-       "tr": "Um, according to the map on the notice, it looks like it's a short walk past the intersection up ahead. If you follow the road, there's a hotel called “Yoruton” on your left, so after you cross the intersection past it, turn left right away. You should see it on your right."
+       "tr": "Um, according to the map on the notice, it looks like it's a short walk past the intersection up ahead. Follow the road and you'll see a hotel called “Yoruton” on your left. Cross the intersection just past it and turn left right away. You should see it on your right."
       },
       {
        "sp": "ジ",
@@ -3931,7 +3931,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "「海ずし」なら、{移転|いてん}したみたいですよ。道なりに行くと左手に\n「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたっ\nたら、すぐ左に{曲|ま}がってください。右手に見えるはずですよ。",
-        "tr": "If it's Umizushi you want, it looks like they've moved. If you follow the road, there's a hotel called “Yoruton” on your left, so after you cross the intersection past it, turn left right away. You should see it on your right."
+        "tr": "If it's Umizushi you want, it looks like they've moved. Follow the road and you'll see a hotel called “Yoruton” on your left. Cross the intersection just past it and turn left right away. You should see it on your right."
        }
       },
       {
@@ -4188,7 +4188,7 @@ TRY.registerLesson({
          "sp": "通行人",
          "v": "f",
          "ja": "{{「海ずし」}}なら、{移転|いてん}したみたいですよ。{{道なりに行くと左手に「ヨルトン」というホテルがあるから、その先の{交差点|こうさてん}をわたって、左に{曲|ま}がっ}}てください。すぐ見えるはずですよ。",
-         "tr": "If it's Umizushi you want, it looks like they've moved. If you follow the road, there's a hotel called “Yoruton” on your left, so cross the intersection past it and turn left. You should see it right away."
+         "tr": "If it's Umizushi you want, it looks like they've moved. Follow the road and you'll see a hotel called “Yoruton” on your left. Cross the intersection just past it and turn left. You should see it right away."
         },
         {
          "sp": "あなた",
@@ -4361,7 +4361,7 @@ TRY.registerLesson({
            "t": "p",
            "text": {
             "ja": "「喫茶店『山』」は{移転|いてん}しました。少し行くと{交差点|こうさてん}に出るから、その交差点をパン屋の{方|ほう}にわたってください。それから、その{方向|ほうこう}に{向|む}かってまっすぐ行くと、道の{右側|みぎがわ}に見えますよ。",
-            "tr": "Café Yama has moved. If you go a little way, you'll come to an intersection, so cross it toward the bakery. Then, if you go straight in that direction, you'll see it on the right side of the road."
+            "tr": "Café Yama has moved. Go a little way and you'll come to an intersection. Cross it toward the bakery, then keep going straight in that direction, and you'll see it on the right side of the road."
            }
           }
          ]
@@ -4377,7 +4377,7 @@ TRY.registerLesson({
            "t": "p",
            "text": {
             "ja": "「カラオケ『ファン』」は{移転|いてん}しました。少し行くと、左手に本屋があるから、その{角|かど}を左に{曲|ま}がって、{突|つ}き{当|あ}たりまで道なりにまっすぐ行ってください。そして突き当たりに出たら、右に曲がってください。しばらく行くと、見えますよ。",
-            "tr": "Karaoke Fan has moved. If you go a little way, there's a bookstore on your left, so turn left at that corner and follow the road straight to the end. When you reach the end of the road, turn right. After a while, you'll see it."
+            "tr": "Karaoke Fan has moved. Go a little way and you'll see a bookstore on your left. Turn left at that corner and follow the road straight to the end. When you reach the end, turn right. After a while, you'll see it."
            }
           }
          ]
@@ -4932,13 +4932,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "授業の後で遊ぶ時は前もって{約束|やくそく}しなくてもいいのに、どうして家に遊びに行く時は約束が必要なのかわかりませんでした。それで、他の日本人の友達に聞いてみたら、「その時忙しかっただけかもしれないけど、人の家に行く時は、約束し__ておいた__ほうがいいよ。お客さんが来る前にそうじしたい人もいるし」と言われました。",
-       "tr": "We don't have to make plans in advance when we hang out after class, so I didn't understand why you need to make plans when you visit someone's home. So I asked another Japanese friend, and I was told, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
+       "tr": "I couldn't understand why you need to make plans in advance to visit someone's home when you don't need to when you hang out after class. So I asked another Japanese friend, who told me, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
       },
       {
        "sp": "",
        "v": "f",
        "ja": "約束をし__ておかない__と家に遊びに行けないのは{面倒|めんどう}だと思うのですが、日本では約束をし__ておいた__ほうがいいのでしょうか。みなさんの国ではどうですか。",
-       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it better to make plans ahead of time? What is it like in your countries?"
+       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it really better to make plans ahead of time? What is it like in your countries?"
       }
      ]
     }
