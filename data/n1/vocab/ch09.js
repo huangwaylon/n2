@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "limit; limitation; the breaking point",
     note: "The point beyond which one cannot go: 限界がある (there are limits), 限界に達する (reach the limit), 体力の限界 (the limit of one's stamina), もう限界だ (I can't take any more). 限度 is a set maximum (限度額, a credit limit); 限界 is the natural limit of ability or endurance.",
     rx: ["げんがい", "けんかい", "げんけい"],
-    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "Just judging from the medical equipment and the number of staff, there will be limits to what can be done.", at: "ch/9" },
+    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "Given the medical equipment and the number of staff alone, there will be limits to what can be done.", at: "ch/9" },
     ex: [
       { ja: "{三日|みっか}{連続|れんぞく}の{徹夜|てつや}で、{体力|たいりょく}はもう**{限界|げんかい}**だ。", en: "After staying up all night three nights in a row, I'm at the end of my strength.", alt: ["{限定|げんてい}", "{境界|きょうかい}", "{世界|せかい}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "leaving (a room, venue or meeting); exit",
     note: "Formal: leaving a place one has been in, such as a hall, office or courtroom: 会場から退出する, 退出を命じられる. 退場 is leaving a stage, stadium or game (sent off); 退室 is leaving a room.",
     rx: ["たいしゅっ", "たいでる", "だいしゅつ"],
-    book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に**{退出|たいしゅつ}**させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough hands to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
+    book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に**{退出|たいしゅつ}**させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
     ex: [
       { ja: "{会議|かいぎ}の{途中|とちゅう}で{部長|ぶちょう}に{呼|よ}ばれ、{静|しず}かに**{退出|たいしゅつ}**した。", en: "I was called by the department head partway through the meeting and quietly left the room.", alt: ["{提出|ていしゅつ}", "{輸出|ゆしゅつ}", "{退化|たいか}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "workers; hands, manpower; (someone else's) hands",
     note: "The people available to do a job: 人手が足りない (be short-handed), 人手不足 (labor shortage). 人手に渡る means to pass into someone else's hands. Don't confuse it with 人出 (ひとで, the crowds turning out for an event).",
     rx: ["にんて", "じんしゅ", "ひとて"],
-    book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには**{人手|ひとで}**が足りない。", en: "In a disaster, there aren't enough hands to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
+    book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには**{人手|ひとで}**が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
     ex: [
       { ja: "{年末|ねんまつ}は{注文|ちゅうもん}が{多|おお}く、{店|みせ}はいつも**{人手|ひとで}**が{足|た}りない。", en: "Orders pile up at the end of the year, and the shop is always short-handed.", alt: ["{人出|ひとで}", "{人目|ひとめ}", "{人柄|ひとがら}"] },
     ] },
@@ -147,9 +147,9 @@ TRY.registerVocab({ ch: 9, words: [
     en: "who (on earth); someone unknown; what sort of person",
     note: "Asks about or refers to a person whose identity is unknown: 何者かに盗まれた (stolen by someone unknown), 彼は何者だ？ (Who is he, really?). Stronger and more dramatic than 誰; common in news reports of crimes. 何者でもない means “nobody special.”",
     rx: ["なにしゃ", "なんもの", "かもの"],
-    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel costing as much as 20 million yen has been stolen by someone, causing a huge uproar.", at: "gp/107" },
+    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen, and it's caused a huge uproar.", at: "gp/107" },
     ex: [
-      { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, a shop in front of the station was ransacked by an unknown person.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何度|なんど}"] },
+      { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, someone ransacked a shop in front of the station.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何度|なんど}"] },
     ] },
   { w: "{発行|はっこう}", lv: "N2", pos: "noun · する verb",
     en: "issue; publication (of books, stamps, certificates, etc.)",
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fire (a destructive one); conflagration",
     note: "The formal word for 火事, used in news, notices and insurance: 火災が発生する, 火災報知器 (fire alarm), 火災保険. In conversation people say 火事.",
     rx: ["かざい", "ひさい", "かしゃ"],
-    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first important thing is to act calmly.", at: "gp/109" },
+    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the most important thing is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "{昨夜|さくや}、{駅前|えきまえ}のビルで**{火災|かさい}**が{発生|はっせい}した。", en: "Last night a fire broke out in a building in front of the station.", alt: ["{火星|かせい}", "{火山|かざん}", "{被災|ひさい}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(time of) emergency; crisis",
     note: "A time of crisis such as a fire, disaster or war: 非常時に備える (prepare for emergencies), 非常時の連絡先. Its opposite is 平常時 (normal times). Related: 非常口 (emergency exit), 非常食 (emergency rations).",
     rx: ["ひじょうし", "ひしょうじ", "ひじょじ"],
-    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first important thing is to act calmly.", at: "gp/109" },
+    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the most important thing is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "**{非常時|ひじょうじ}**に{備|そな}えて、{水|みず}と{食料|しょくりょう}を{三日分|みっかぶん}{用意|ようい}しておこう。", en: "Let's keep three days' worth of water and food ready in case of emergency.", alt: ["{平常時|へいじょうじ}", "{日常|にちじょう}", "{臨時|りんじ}"] },
     ] },
@@ -267,7 +267,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "deep-rooted; persistent; enduring",
     note: "Firmly rooted and hard to shake: 根強い人気 (enduring popularity), 根強い反対／不信 (persistent opposition, distrust), 根強い偏見. It describes feelings, beliefs or support that last, not physical strength.",
     rx: ["こんづよい", "ねつよい", "ねいづよい"],
-    book: { ja: "キャラクターグッズは、消費が{低迷|ていめい}している中（　）、なお**{根強|ねづよ}い**人気を保っている。", en: "Even amid sluggish consumer spending, character goods still keep their enduring popularity.", at: "gp/109" },
+    book: { ja: "キャラクターグッズは、消費が{低迷|ていめい}している中（　）、なお**{根強|ねづよ}い**人気を保っている。", en: "Even amid sluggish consumer spending, character goods remain as popular as ever.", at: "gp/109" },
     ex: [
       { ja: "{新|あたら}しい{空港|くうこう}の{建設|けんせつ}には、{地元|じもと}で**{根強|ねづよ}い**{反対|はんたい}がある。", en: "There is deep-rooted local opposition to building the new airport.", alt: ["{欲深|よくぶか}い", "{辛抱強|しんぼうづよ}い", "{心強|こころづよ}い"] },
     ] },
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ふみごむ", "とうみこむ", "ふみいむ"],
     book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
     ex: [
-      { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion went so far as to get into the budget issue.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{踏|ふ}み{切|き}った"] },
+      { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion even got into the budget issue.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{踏|ふ}み{切|き}った"] },
     ] },
   { w: "{常時|じょうじ}", lv: "N1", pos: "noun · adverb",
     en: "always; at all times; constantly",
