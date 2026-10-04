@@ -105,7 +105,7 @@ TRY.registerChapter({
           examples: [
             { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: I don't have time for karaoke! I have to write my report. It's due tomorrow." },
             { ja: "A：{海水浴|かいすいよく}どうだった？　楽しかった？\nB：人が多くて、ゆっくり泳ぐどころじゃなかったよ。", en: "A: How was the beach? Did you have fun?\nB: There were so many people that swimming in peace was out of the question." },
-            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Excuse me, a friend is coming to Tokyo, so I'd like to take a week off next week...\nB: At a busy time like this? This is no time for a vacation. Think about the situation." },
+            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Manager, a friend of mine is coming to Tokyo, so I'd like to take next week off...\nB: At a busy time like this? This is no time for a vacation. Think about the situation." },
           ],
           deepDive: "**〜どころではない** says circumstances are so pressing that an activity is out of the question right now: *this is no time for ~, I'm in no position to ~*. It carries frustration (the book's worried-face mark). Among friends it is **どころじゃない**, and それどころじゃない (*I've got no time for that*) is very common on its own.\n\nConnection: N / V-る + どころではない. The noun is an activity (旅行, 花見, 勉強). The usual shape is trouble + て／ので, then the activity that is ruled out: 引っ越しの準備で忙しくて、花見どころじゃない (*I'm so busy getting ready to move that cherry-blossom viewing is out of the question*). Addressed to someone else with だろう, it scolds (example ③).\n\nCompare:\n- **〜どころか** (#83): *far from ~*, contradicting an expectation: 楽しいどころか、疲れただけだった (*far from being fun, it just wore me out*).\n- **〜てはいられない** (#29): *can't afford to keep ~ing*: のんびりしてはいられない (*I can't just sit around*).\n\nPitfall: the word before どころ is the activity you can't do, not the cause.\n\nJLPT cue: a problem in the first half and an ordinary pleasure or duty right before the blank.",
           see: [83, 29, 89, 57],
@@ -262,7 +262,7 @@ TRY.registerChapter({
                   q: "フレックスタイム{制度|せいど}は自分の{希望|きぼう}（　）{時間帯|じかんたい}で働ける{制度|せいど}だ。",
                   options: ["に{応|おう}じた", "にしては"],
                   answer: 0,
-                  en: "The flextime system is a system that lets you work during hours that suit your own wishes.",
+                  en: "Flextime is a system that lets you work at hours that suit your own preferences.",
                   why: { en: "The noun 時間帯 follows, and the hours are matched to one's wishes: に応じた + N." },
                 },
                 {
@@ -323,7 +323,7 @@ TRY.registerChapter({
         kind: "dialogue",
         rings: false,
         lines: [
-          { sp: "{渡辺|わたなべ}", v: "f", ja: "難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。", en: "That's tough. It's probably not the case that they'll hire you just because you're motivated." },
+          { sp: "{渡辺|わたなべ}", v: "f", ja: "難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。", en: "That's tough. I guess it's not as if motivation alone will get you hired." },
           { sp: "{木山|きやま}", v: "m", ja: "そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Exactly. If there are no openings, there's no way I can even try… Sometimes I think, what if I keep sticking to game companies, go through all that trouble, and in the end can't get a job anywhere…" },
           { sp: "渡辺", v: "f", ja: "そんなこと考える**もんじゃない**よ。{成功|せいこう}するって信じなきゃ。ゼミの{先輩|せんぱい}も、{絶対|ぜったい}だめだと思ったけど出す**だけ**出してみるって言って、{結局|けっきょく}その会社に入れたんだって。", en: "You shouldn't think like that. You have to believe you'll succeed. I heard an upperclassman from my seminar was also sure it was hopeless but said they'd at least send in an application, and in the end got into that company." },
           { sp: "木山", v: "m", ja: "へえ、そうなんだ。", en: "Wow, really?" },
@@ -578,7 +578,7 @@ TRY.registerChapter({
             q: "この本は子どものころ一度読んだ（　）、ストーリーも忘れてしまいました。",
             options: ["ことに", "きりで", "あげく", "{限|かぎ}り"],
             answer: 1,
-            en: "I read this book just once as a child and never again, and I've even forgotten the story.",
+            en: "I read this book only once, as a child, and I've even forgotten the story.",
             why: { en: "V-たきりで = *did ~ once and nothing since*: 一度読んだきりで、忘れてしまった. ことに needs an emotion word, あげく a long struggle, and 限り a lasting condition." },
           },
         ],
@@ -624,7 +624,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{引|ひ}っ{越|こ}しのために荷物を{整理|せいり}することになったが、{祖父母|そふぼ}も両親も物が{捨|す}てられない{性格|せいかく}で、荷物が山のようにある。私たち{姉妹|しまい}の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", "両親は古い荷物の中から思い出の{品|しな}を手に取ってながめ、{引|ひ}っ{越|こ}し[1]。さんざん{昔話|むかしばなし}をした[2]、父はすべて{捨|す}てないと言い出した。思い出の{品|しな}とはいう[3]、しまっておく場所もないので[4]。{結局|けっきょく}トラック1{杯|ぱい}分の{品|しな}を{捨|す}てた。父はさびしいかもしれないが、また新しい家で新しい思い出を作ってほしいと思う。"],
-        en: ["We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Not only things from when my sisters and I were children turned up, but even the schoolbooks my parents and grandparents used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and the move was the last thing on their minds. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
+        en: ["We ended up sorting through our belongings for the move, but my grandparents and my parents both have the kind of personality that can't throw things away, so we have mountains of stuff. Out came not only our things from when my sisters and I were children, but even the schoolbooks my parents and grandparents had used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and the move was the last thing on their minds. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
         blanks: [
           { options: ["どころではない", "さえすればいい", "かねない", "ということだ"], answer: 0, why: { en: "Absorbed in their keepsakes, the parents were in no state to get on with packing: 引っ越しどころではない. かねない needs a bad result, and さえすればいい／ということだ don't fit the situation." } },
           { options: ["ばかりで", "くせに", "あげく", "わけではなく"], answer: 2, why: { en: "A long process (さんざん昔話をした) and a let-down result (すべて捨てないと言い出した): あげく. くせに criticizes a contradiction, ばかりで means *only ~ing*, and わけではなく is a denial." } },
@@ -658,7 +658,7 @@ TRY.registerChapter({
               { sp: "F", v: "f", ja: "そうそう。お金を使ったという{感覚|かんかく}がないのが一番いけないんだよね。気をつけなきゃね。" },
               { sp: "", ja: "女の人は何が一番問題だと思っていますか。" },
             ],
-            en: ["A woman and a man are talking. What does the woman think is the biggest problem?", "Hey, the other day I checked how much I'd spent with electronic money, and I was surprised that it had gone up compared to before.", "Me too... Although I think I need to be careful about wasting money, when there are new original convenience-store products, I just end up...", "Yeah, you buy them without really thinking, right?", "It's convenient, too. You don't have to dig around in your wallet for 1-yen and 5-yen coins.", "True, but spending money without realizing it is bad, isn't it?", "Yeah. With electronic money, you don't take the money directly out of your wallet. And you don't check how much you've spent.", "Exactly. Not having the sense that you've spent money is the worst thing. We have to be careful.", "What does the woman think is the biggest problem?"],
+            en: ["A woman and a man are talking. What does the woman think is the biggest problem?", "Hey, the other day I checked how much I'd spent with electronic money, and I was shocked at how much it had gone up.", "Me too... I know I should be careful not to waste money, but when the convenience store has some new product of its own, I just can't help it...", "Yeah, you buy them without really thinking, right?", "It's convenient, too. You don't have to dig around in your wallet for 1-yen and 5-yen coins.", "True, but spending money without realizing it is bad, isn't it?", "Yeah. With electronic money, you don't take the money directly out of your wallet. And you don't check how much you've spent.", "Exactly. Not having the sense that you've spent money is the worst thing. We have to be careful.", "What does the woman think is the biggest problem?"],
             options: ["コンビニなどで{新商品|しんしょうひん}を{買|か}うこと", "1{円玉|えんだま}や5{円玉|えんだま}を{使|つか}わないこと", "お{金|かね}を{使|つか}ったという{感覚|かんかく}がないこと", "{使|つか}った{金額|きんがく}をチェックしないこと"],
             optionsEn: ["Buying new products at convenience stores and such", "Not using 1-yen and 5-yen coins", "Not feeling like you've spent money", "Not checking how much you've spent"],
             answer: 2,
