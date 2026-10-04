@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "borrowing (humble form of 借りる)",
     note: "Humble 借りる (#73): 資料を拝借する, and the set phrase お知恵を拝借したい (I'd like to borrow your wisdom). It shares 拝 with 拝見 (humble 見る). Use it for your own action, never for the other person's.",
     rx: ["はいしゃっく", "はいせき", "はいじゃく"],
-    book: { ja: "よろしくお願いいたします。それから、これは前回**{拝借|はいしゃく}**した{資料|しりょう}と、サンプルに{関|かん}する{資料|しりょう}でございます。", en: "Thank you. Also, these are the materials I borrowed from you last time, and some materials about the samples.", at: "ch/8" },
+    book: { ja: "よろしくお願いいたします。それから、これは前回**{拝借|はいしゃく}**した{資料|しりょう}と、サンプルに{関|かん}する{資料|しりょう}でございます。", en: "Thank you. And here are the materials I borrowed from you last time, along with some documentation on the samples.", at: "ch/8" },
     ex: [
       { ja: "{先生|せんせい}、この{本|ほん}を{少|すこ}し**{拝借|はいしゃく}**してもよろしいでしょうか。", en: "Professor, may I borrow this book for a little while?", alt: ["{借金|しゃっきん}", "{貸借|たいしゃく}", "{拝啓|はいけい}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pray; to wish (for someone's health or success)",
     note: "神に祈る, 合格を祈る, and the letter phrases ご健康をお祈りします / お祈り申し上げます. 願う is to hope or ask for something. 祝う (celebrate) is a look-alike.",
     rx: ["きる", "いのう", "いわる"],
-    book: { ja: "1日も早くお元気になられますよう、お**{祈|いの}り**しております。", en: "I am praying for your speedy recovery.", at: "gp/77" },
+    book: { ja: "1日も早くお元気になられますよう、お**{祈|いの}り**しております。", en: "I wish you a speedy recovery.", at: "gp/77" },
     ex: [
       { ja: "{試験|しけん}に{合格|ごうかく}するよう、{神社|じんじゃ}で**{祈|いの}った**。", en: "I prayed at a shrine that I would pass the exam.", alt: ["{祝|いわ}った", "{呪|のろ}った", "{払|はら}った"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "visit to a sick or injured person; expression of sympathy",
     note: "Usually お見舞い: 入院した友人のお見舞いに行く (visit a friend in the hospital), お見舞いの品. The formal phrase お見舞い申し上げます offers sympathy after a disaster. 暑中見舞い is a summer greeting card.",
     rx: ["けんまい", "みもうい", "みまわい"],
-    book: { ja: "{被害|ひがい}に{遭|あ}われた方に心からお**{見舞|みま}い**{申|もう}し{上|あ}げます。", en: "We offer our heartfelt sympathy to those who have suffered damage.", at: "gp/75" },
+    book: { ja: "{被害|ひがい}に{遭|あ}われた方に心からお**{見舞|みま}い**{申|もう}し{上|あ}げます。", en: "We offer our heartfelt sympathy to all those affected.", at: "gp/75" },
     ex: [
       { ja: "{入院|にゅういん}している{友達|ともだち}のお**{見舞|みま}い**に{花|はな}を{持|も}っていった。", en: "I took flowers when I visited my friend in the hospital.", alt: ["{見合|みあ}い", "{見送|みおく}り", "{見学|けんがく}"] },
     ] },
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["ばいもとめる", "かいきゅうめる", "かいぼとめる"],
     book: { ja: "いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば**買い{求|もと}めて**お返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。", en: "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...", at: "ch/8/review" },
     ex: [
-      { ja: "{限定品|げんていひん}を**{買|か}い{求|もと}める**{客|きゃく}で、{店|みせ}の{前|まえ}に{行列|ぎょうれつ}ができた。", en: "A line formed outside the store of customers wanting to buy the limited-edition item.", alt: ["{呼|よ}び{止|と}める", "{受|う}け{止|と}める", "{引|ひ}き{止|と}める"] },
+      { ja: "{限定品|げんていひん}を**{買|か}い{求|もと}める**{客|きゃく}で、{店|みせ}の{前|まえ}に{行列|ぎょうれつ}ができた。", en: "A line of customers hoping to buy the limited-edition item formed outside the store.", alt: ["{呼|よ}び{止|と}める", "{受|う}け{止|と}める", "{引|ひ}き{止|と}める"] },
     ] },
   { w: "{株式会社|かぶしきがいしゃ}", lv: "N2", pos: "noun",
     en: "joint-stock company; corporation (Co., Ltd.; Inc.)",
