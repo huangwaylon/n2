@@ -4789,11 +4789,11 @@ TRY.registerUnits([
       "items": [
        {
         "ja": "ジョージ「日本のコンビニ**は**{便利|べんり}だね。」",
-        "tr": "George: \"Convenience stores in Japan are convenient, aren't they?\""
+        "tr": "George: \"Convenience stores in Japan are really handy, aren't they?\""
        },
        {
         "ja": "→ ジョージは日本のコンビニ**は**便利だと言いました。",
-        "tr": "→ George said that convenience stores in Japan are convenient."
+        "tr": "→ George said that convenience stores in Japan are handy."
        }
       ]
      }
