@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "wound; scratch; flaw, blemish; emotional hurt",
     note: "For people (傷が痛む), objects (車に傷がつく, a scratch or dent) and feelings (心の傷). 傷つく / 傷つける = be hurt / hurt someone. けが is an injury as an event.",
     rx: ["しょう", "きす", "くず"],
-    book: { ja: "今年のリンゴは{台風|たいふう}で**{傷|きず}**がついたばかりに、{市場|しじょう}{価値|かち}が下がってしまった。", en: "Just because this year's apples were scarred by the typhoon, their market value dropped.", at: "gp/48" },
+    book: { ja: "今年のリンゴは{台風|たいふう}で**{傷|きず}**がついたばかりに、{市場|しじょう}{価値|かち}が下がってしまった。", en: "Just because the typhoon left marks on this year's apples, their market value dropped.", at: "gp/48" },
     ex: [
       { ja: "{新|あたら}しいスマホを{落|お}として、{画面|がめん}に**{傷|きず}**がついてしまった。", en: "I dropped my new phone and scratched the screen.", alt: ["{癖|くせ}", "{穴|あな}", "{罪|つみ}"] },
     ] },
@@ -43,14 +43,14 @@ TRY.registerVocab({ ch: 6, words: [
     en: "value; worth",
     note: "価値がある (be valuable), 〜する価値がある (be worth doing), 市場価値, 価値観 (one's values). 価格 and 値段 are price; 価値 is worth.",
     rx: ["かあたい", "かじ", "がち"],
-    book: { ja: "今年のリンゴは{台風|たいふう}で{傷|きず}がついたばかりに、{市場|しじょう}**{価値|かち}**が下がってしまった。", en: "Just because this year's apples were scarred by the typhoon, their market value dropped.", at: "gp/48" },
+    book: { ja: "今年のリンゴは{台風|たいふう}で{傷|きず}がついたばかりに、{市場|しじょう}**{価値|かち}**が下がってしまった。", en: "Just because the typhoon left marks on this year's apples, their market value dropped.", at: "gp/48" },
     ex: [
       { ja: "この{映画|えいが}は一{度|ど}{見|み}る**{価値|かち}**がある。", en: "This movie is worth seeing at least once.", alt: ["{価格|かかく}", "{値段|ねだん}", "{物価|ぶっか}"] },
     ] },
   { w: "からかう", lv: "N2", pos: "godan verb (transitive)",
     en: "to tease; to make fun of",
     note: "人をからかう, からかわれる (be teased) — usually playful, but it can hurt. いじめる is bullying; ばかにする is looking down on someone.",
-    book: { ja: "彼は両親が有名人であるばかりに、いつも**からかわれて**かわいそうだ。", en: "Just because his parents are celebrities, he's always teased. I feel sorry for him.", at: "gp/48" },
+    book: { ja: "彼は両親が有名人であるばかりに、いつも**からかわれて**かわいそうだ。", en: "Just because his parents are celebrities, he always gets teased. I feel sorry for him.", at: "gp/48" },
     ex: [
       { ja: "{兄|あに}はいつも{私|わたし}の{失敗|しっぱい}を**からかって**{笑|わら}う。", en: "My brother always teases me about my mistakes and laughs.", alt: ["かばって", "うやまって", "かまって"] },
     ] },
@@ -144,7 +144,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "fond of looking after others; helpful (sometimes meddlesome)",
     note: "Someone who loves taking care of people and doing things for them: 世話好きなおばさん. From 世話 (care) + 好き, with 好き voiced to ずき as in 話し好き (talkative). お節介 is the negative “busybody”.",
     rx: ["せわこのみ", "せわすき", "よわずき"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "I get the impression that in every country, compared with people in the city, more people in the countryside are kind and like looking after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "My impression is that in any country, compared with people in the city, people in the countryside are more often kind and happy to look after others.", at: "gp/50" },
     ex: [
       { ja: "{隣|となり}のおばさんは**{世話|せわ}{好|ず}き**で、よくおかずを{分|わ}けてくれる。", en: "The lady next door loves looking after people and often shares her side dishes with us.", alt: ["{物|もの}{好|ず}き", "{不器用|ぶきよう}", "{意地悪|いじわる}"] },
     ] },
@@ -152,7 +152,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "impression",
     note: "印象がいい / 悪い, 第一印象 (first impression), 印象に残る (be memorable), 印象的 (striking). 〜という印象がある = “I have the impression that ~”.",
     rx: ["いんぞう", "いんしょ", "いんじょう"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "I get the impression that in every country, compared with people in the city, more people in the countryside are kind and like looking after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "My impression is that in any country, compared with people in the city, people in the countryside are more often kind and happy to look after others.", at: "gp/50" },
     ex: [
       { ja: "{面接|めんせつ}では{第一|だいいち}**{印象|いんしょう}**がとても{大切|たいせつ}だ。", en: "In an interview, first impressions are very important.", alt: ["{現象|げんしょう}", "{対象|たいしょう}", "{印刷|いんさつ}"] },
     ] },
@@ -160,7 +160,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "sunshine; sunlight (hours of sun)",
     note: "Mostly in weather reports and technical writing: 日照時間 (hours of sunshine), 日照不足 (lack of sun). 日照り (ひでり) is a drought.",
     rx: ["にちしょう", "にっしょ", "ひしょう"],
-    book: { ja: "日本では冬は夏に{比|くら}べ、2時間以上**{日照|にっしょう}**時間が短い。", en: "In Japan, hours of sunshine are more than two hours shorter in winter than in summer.", at: "gp/50" },
+    book: { ja: "日本では冬は夏に{比|くら}べ、2時間以上**{日照|にっしょう}**時間が短い。", en: "In Japan, winter gets over two hours less sunshine a day compared with summer.", at: "gp/50" },
     ex: [
       { ja: "{今年|ことし}の{夏|なつ}は**{日照|にっしょう}**{不足|ぶそく}で、{野菜|やさい}の{値段|ねだん}が{上|あ}がっている。", en: "Due to a lack of sunshine this summer, vegetable prices are going up.", alt: ["{日課|にっか}", "{参照|さんしょう}", "{日常|にちじょう}"] },
     ] },
@@ -184,7 +184,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "slump; poor performance",
     note: "Mostly after a noun, in business and news: 業績不振 (poor business results), 食欲不振 (loss of appetite), 成績不振, 打撃不振 (a batting slump). 不審 (suspicious) has the same reading.",
     rx: ["ぶしん", "ふじん", "ふしい"],
-    book: { ja: "会社が{業績|ぎょうせき}**{不振|ふしん}**で{給料|きゅうりょう}が30%カットされるなんて、そんなばかなことがあるものか。", en: "A 30% pay cut because the company's doing badly? Something that absurd can't be allowed to happen!", at: "gp/51" },
+    book: { ja: "会社が{業績|ぎょうせき}**{不振|ふしん}**で{給料|きゅうりょう}が30%カットされるなんて、そんなばかなことがあるものか。", en: "A 30% pay cut because the company's doing badly? How can something that absurd even happen?", at: "gp/51" },
     ex: [
       { ja: "{暑|あつ}さのせいで{食欲|しょくよく}**{不振|ふしん}**が{続|つづ}いている。", en: "I've had a poor appetite for a while because of the heat.", alt: ["{不審|ふしん}", "{不満|ふまん}", "{不便|ふべん}"] },
     ] },
@@ -199,7 +199,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "newcomer; new employee; rookie",
     note: "新人研修 (training for new hires), 新人賞 (rookie award), 新人歌手. A new student is 新入生; 新入社員 is the standard term for new employees.",
     rx: ["しんにん", "あらひと", "しんじ"],
-    book: { ja: "**{新人|しんじん}**の{木村|きむら}、男のくせにちょっとしかっただけですぐ{泣|な}くんですよ。", en: "Kimura, the new guy, bursts into tears the moment I scold him even a little, even though he's a man.", at: "gp/51" },
+    book: { ja: "**{新人|しんじん}**の{木村|きむら}、男のくせにちょっとしかっただけですぐ{泣|な}くんですよ。", en: "Kimura, the new guy, bursts into tears the moment I scold him even a little — and he's a man!", at: "gp/51" },
     ex: [
       { ja: "{今年|ことし}の**{新人|しんじん}**{賞|しょう}は、十八{歳|さい}の{歌手|かしゅ}が{受賞|じゅしょう}した。", en: "This year's best newcomer award went to an 18-year-old singer.", alt: ["{新年|しんねん}", "{新聞|しんぶん}", "{本人|ほんにん}"] },
     ] },
@@ -559,7 +559,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["とうたりまえ", "あたりぜん", "あたりさき"],
     book: { ja: "日本では**{当|あ}たり{前|まえ}**のこのサービスがヨーロッパで高く{評価|ひょうか}されているという。", en: "This service, taken for granted in Japan, is said to be highly valued in Europe.", at: "ch/6/review" },
     ex: [
-      { ja: "{約束|やくそく}を{守|まも}るのは**{当|あ}たり{前|まえ}**のことだ。", en: "Keeping your promises is a matter of course.", alt: ["{当日|とうじつ}", "{手前|てまえ}", "{名前|なまえ}"] },
+      { ja: "{約束|やくそく}を{守|まも}るのは**{当|あ}たり{前|まえ}**のことだ。", en: "Keeping your promises is only natural.", alt: ["{当日|とうじつ}", "{手前|てまえ}", "{名前|なまえ}"] },
     ] },
   { w: "{遭|あ}う", lv: "N2", pos: "godan verb (intransitive)",
     en: "to meet with (misfortune); to encounter (an accident, disaster)",
