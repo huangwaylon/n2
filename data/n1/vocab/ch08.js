@@ -496,7 +496,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "a note or letter left by the deceased; suicide note; (informal) will",
     note: "A message written before death: 遺書を残す. The legal will is 遺言書 (ゆいごんしょ／いごんしょ). 遺産 is the inheritance itself.",
     rx: ["いしょう", "ゆいしょ", "いじょ"],
-    book: { ja: "兄弟に残された**{遺書|いしょ}**には次のごとく{記|しる}されていた。", en: "The will left to the brothers read as follows.", at: "gp/101" },
+    book: { ja: "兄弟に残された**{遺書|いしょ}**には次のごとく{記|しる}されていた。", en: "The farewell letter left to the brothers read as follows.", at: "gp/101" },
     ex: [
       { ja: "{祖父|そふ}の**{遺書|いしょ}**には、{家族|かぞく}への{感謝|かんしゃ}の{言葉|ことば}が{並|なら}んでいた。", en: "My grandfather's farewell letter was full of words of thanks to his family.", alt: ["{遺跡|いせき}", "{辞書|じしょ}", "{遺産|いさん}"] },
     ] },
@@ -504,7 +504,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to write down, record, note",
     note: "Written style for 書く: 日記に記す, 以下に記す (as noted below), 名を記す. Also figurative: 歴史に名を記す. The on-reading き is in 記録, 記入.",
     rx: ["きす", "しす", "しるしす"],
-    book: { ja: "兄弟に残された{遺書|いしょ}には次のごとく**{記|しる}されて**いた。", en: "The will left to the brothers read as follows.", at: "gp/101" },
+    book: { ja: "兄弟に残された{遺書|いしょ}には次のごとく**{記|しる}されて**いた。", en: "The farewell letter left to the brothers read as follows.", at: "gp/101" },
     ex: [
       { ja: "{申込書|もうしこみしょ}には、{氏名|しめい}と{住所|じゅうしょ}を**{記|しる}して**ください。", en: "Please write your name and address on the application form.", alt: ["{測|はか}って", "{描|えが}いて", "{刻|きざ}んで"] },
     ] },

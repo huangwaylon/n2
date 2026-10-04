@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "who (on earth); someone unknown; what sort of person",
     note: "Asks about or refers to a person whose identity is unknown: 何者かに盗まれた (stolen by someone unknown), 彼は何者だ？ (Who is he, really?). Stronger and more dramatic than 誰; common in news reports of crimes. 何者でもない means “nobody special.”",
     rx: ["なにしゃ", "なんもの", "かもの"],
-    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen, and it's caused a huge uproar.", at: "gp/107" },
+    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by an unknown thief, and it's caused a huge uproar.", at: "gp/107" },
     ex: [
       { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, someone ransacked a shop in front of the station.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何度|なんど}"] },
     ] },

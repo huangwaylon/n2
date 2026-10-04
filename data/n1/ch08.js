@@ -667,7 +667,7 @@ TRY.registerChapter({
           examples: [
             { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Throughout her glittering career as a star, her mother was always at her side, sticking close like a shadow." },
             { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "Someone won a fortune in the lottery but kept spending it like water, and a year later was back to the old life of poverty." },
-            { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The will left to the brothers read as follows." },
+            { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The farewell letter left to the brothers read as follows." },
             { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on developing new drugs with a conviction as firm as iron." },
             { ja: "A：日本へ来てから何年経ったっけ。\nB：もう5年だよ。{光陰|こういん}{矢|や}のごとしだね。", en: "A: How many years has it been since you came to Japan?\nB: Five years already. Time flies like an arrow, doesn't it?", idiom: true },
           ],

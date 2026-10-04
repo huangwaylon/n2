@@ -37,7 +37,7 @@ TRY.registerChapter({
               ja: "「〜からする」は、値段が非常に高いということを表す。",
               en: "“〜からする” expresses that a price is extremely high.",
               examples: [
-                { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen, and it's caused a huge uproar." },
+                { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by an unknown thief, and it's caused a huge uproar." },
                 { ja: "この切手は{発行|はっこう}枚数が少なかったこともあり、今では1枚50万円からの{値|ね}がついているそうだ。", en: "Partly because so few of these stamps were issued, I hear they now fetch as much as 500,000 yen apiece." },
               ],
             },
