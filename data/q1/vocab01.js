@@ -363,7 +363,7 @@ TRY.registerVocab({
       "n": 1,
       "w": "やはり",
       "ex": "日本はやはり{東京|とうきょう}が一番おもしろいと思います。",
-      "tr": "In Japan, I think Tokyo really is the most interesting place."
+      "tr": "In Japan, I think Tokyo is the most interesting place after all."
      },
      {
       "n": 2,

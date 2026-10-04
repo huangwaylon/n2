@@ -262,7 +262,7 @@ TRY.registerLesson({
      "tr": [
       "When it comes to directors of Japanese animated films, it has to be Hayao Miyazaki. Spirited Away is especially popular among his works; it won an Academy Award in 2003. If you are interested in anime, you may also have seen Princess Mononoke or My Neighbor Totoro. Many of his anime stories carry a message about environmental problems and give adults something to think about, too.",
       "Director Miyazaki has white hair and a white beard and wears black-rimmed glasses. When he smiles he looks gentle, but when he is making a film he becomes very strict. For example, he has his staff redo their drawings again and again until they can draw exactly the way he tells them. Apparently, he once looked at a drawing of meat by a staff member and got angry, saying, “This meat looks like rubber. Think about whether it's tough or tender, and then draw it.” He is also said to have once spent more than a year making a scene just four seconds long.",
-      "“I don't want to make work I'd be ashamed of,” the director says. So, in order to make good work, he works from morning to night with hardly any rest. He eats lunch and dinner in five minutes. He doesn't spend his precious time on TV or hobbies. When he was young, he reportedly worked from 9 in the morning until 5 the next morning. It is because he is just as strict with himself that he is able to make such beautiful, artistic anime.",
+      "“I don't want to make work I'd be ashamed of,” the director says. So, in order to make good work, he works from morning to night with hardly any rest. He eats lunch and dinner in five minutes. He doesn't spend his precious time on TV or hobbies. When he was young, he reportedly worked from 9 in the morning until 5 the next morning. Because he is this hard on himself, too, he is able to make such beautiful, artistic anime.",
       "His works, wonderful in both their art and their stories, will surely go on being loved all over the world for years to come."
      ]
     },
@@ -392,14 +392,14 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "(a) {田中|たなか}さんは　パーティーで　日本語を　**__勉強している__**　%%人%%に会った。",
-        "tr": "Tanaka-san met a person who was studying Japanese at the party."
+        "tr": "At the party, Tanaka-san met a person who was studying Japanese."
        }
       },
       {
        "t": "p",
        "text": {
         "ja": "(b) 田中さんは　パーティーで　**__日本語を__**　**__勉強している__**　%%人%%に会った。",
-        "tr": "Tanaka-san met a person who was studying Japanese at the party."
+        "tr": "At the party, Tanaka-san met a person who was studying Japanese."
        }
       },
       {
@@ -905,7 +905,7 @@ TRY.registerLesson({
           {
            "sp": "{事務員|じむいん}",
            "ja": "川村先生**なら**、もうお帰りになりましたよ。",
-           "tr": "If you're looking for Professor Kawamura, the professor has already gone home."
+           "tr": "If you're looking for Professor Kawamura, they've already left for the day."
           }
          ]
         }
@@ -996,7 +996,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**〜なら** takes up what the listener has just said, or a situation just made clear, and answers it with advice, a request or a judgment (*if that's the case*). It often opens a reply: 行くなら、傘を持って行って (*if you're going, take an umbrella*).\n\n- With Vなら, Y may come first in time: 日本に行くなら、JRパスを買っておくといい (*if you're going to Japan, buy a JR Pass before you go*). 行ったら would mean *once you're there*.\n- Uses ② and ③ attach straight to a noun: 川村先生なら (*if it's Professor Kawamura you want*), ペンならある (*a pen, I do have*), contrasting N with what was asked for.\n\nQuartet I 初級文法チェック⑥ sets なら against たら, と and ば. TRY! N1 #80 AならAで reacts to someone's choice with advice or a complaint: 来るなら来るで連絡してよ (*if you're coming, at least let me know*)."
+     "deepDive": "**〜なら** takes up what the listener has just said, or a situation just made clear, and answers it with advice, a request or a judgment (*if that's the case*). It often opens a reply: 行くなら、傘を持って行って (*if you're going, take an umbrella*).\n\n- With Vなら, Y may come first in time: 日本に行くなら、JRパスを買っておくといい (*if you're going to Japan, buy a JR Pass before you go*). 行ったら would mean *once you're there*.\n- Uses ② and ③ attach straight to a noun. ② picks up the noun just mentioned: 川村先生なら (*if it's Professor Kawamura you're looking for*). ③ offers N in place of what was asked for: ペンならある (*I do have a pen, though*).\n\nQuartet I 初級文法チェック⑥ sets なら against たら, と and ば. TRY! N1 #80 AならAで reacts to someone's choice with advice or a complaint: 来るなら来るで連絡してよ (*if you're coming, at least let me know*)."
     },
     {
      "t": "note",
@@ -1046,7 +1046,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{先輩|せんぱい}が教えてくれた**とおりに**{準備|じゅんび}すれば、{大丈夫|だいじょうぶ}だよ。",
-           "tr": "If you prepare the way your senpai showed you, you'll be fine."
+           "tr": "If you prepare exactly the way your senpai told you, you'll be fine."
           }
          ]
         },
@@ -1155,7 +1155,7 @@ TRY.registerLesson({
           {
            "sp": "ジフン",
            "ja": "うん。うわさによると、文学部の3年生**らしい**よ。",
-           "tr": "Yeah. Rumor has it the student is a third-year in the literature department."
+           "tr": "Yeah. Rumor has it they're a third-year in the literature department."
           }
          ]
         },
@@ -1298,7 +1298,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "本当に{全然|ぜんぜん}梅雨**らしくない**よね。毎年、この{季節|きせつ}は雨の日が続くのに。",
-           "tr": "It really doesn't feel like the rainy season at all, does it? Every year it rains day after day at this time of year."
+           "tr": "It really doesn't feel like the rainy season at all, does it? Usually it rains day after day this time of year."
           }
          ]
         },
@@ -1411,7 +1411,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ええ、漢字を{覚|おぼ}える**ために**は、毎日少しずつ勉強するのが一番なんです。",
-           "tr": "Yes. In order to memorize kanji, the best thing is to study a little every day."
+           "tr": "Yes. To memorize kanji, the best thing is to study a little every day."
           }
          ]
         }
@@ -1514,7 +1514,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "デザイナーになる**ための**学校に行くつもりです。",
-           "tr": "I'm planning to go to a school that trains designers."
+           "tr": "I'm planning to go to a school for becoming a designer."
           }
          ]
         },
@@ -1706,7 +1706,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ええ。きれいな字が書ける**ようになり**たかったので。",
-           "tr": "Yes. I wanted to be able to write nice-looking characters."
+           "tr": "Yes. I wanted to be able to write neatly."
           }
          ]
         },
@@ -1945,7 +1945,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "天気{予報|よほう}**によると**、明日は雨が{降|ふ}らないそうだ。",
-         "tr": "According to the weather forecast, it isn't going to rain tomorrow."
+         "tr": "According to the weather forecast, it's not supposed to rain tomorrow."
         },
         {
          "n": 2,
@@ -3570,7 +3570,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "えー！　今度、{僕|ぼく}も行ってもいい？",
-       "tr": "No way! Can I come next time too?"
+       "tr": "Oh, wow! Can I come next time too?"
       },
       {
        "sp": "メ",
@@ -4362,7 +4362,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "{不思議|ふしぎ}に思って{他|ほか}のお{客|きゃく}さんの{様子|ようす}を見てみると、店員さんに{返事|へんじ}をする人はあまりいません。コンビニでアルバイトをしている日本人の{友達|ともだち}__によると__、レジで店員さんに「こんにちは」などとあいさつするお客さんはほとんどいない__らしい__です。「いらっしゃいませ、こんにちは」はマニュアル__どおり__のあいさつで、意味がないのかもしれません。でも、店員さんにあいさつしてもらったら、あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思います。みなさんはどう思いますか。",
-       "tr": "Wondering about this, I watched the other customers and saw that hardly anyone responds to the clerks. According to a Japanese friend who works part-time at a convenience store, apparently almost no customers greet the clerk at the register with “Hello” or anything like that. “Welcome, hello” is a greeting straight out of the manual, so maybe it doesn't mean anything. But when a clerk greets me, I think returning the greeting makes shopping more pleasant, and lets the clerks enjoy their work too. What do you all think?"
+       "tr": "Wondering about this, I watched the other customers and saw that hardly anyone responded to the clerks. According to a Japanese friend who works part-time at a convenience store, apparently almost no customers greet the clerk at the register with “Hello” or anything like that. “Welcome, hello” is a greeting straight out of the manual, so maybe it doesn't mean anything. But when a clerk greets me, I think returning the greeting makes shopping more pleasant, and lets the clerks enjoy their work too. What do you all think?"
       }
      ]
     }
