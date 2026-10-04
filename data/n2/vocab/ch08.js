@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
-    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from the desk at the moment, so I'll ask Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from the desk at the moment, so I'll have Tanaka get back to you later.", at: "gp/73" },
     ex: [
       { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "reception (desk); accepting (applications)",
     note: "The front desk (受付で名前を書く, 受付の人) and the act of accepting (受付時間 “hours applications are taken,” 受付終了). The verb is 受け付ける (受付 is the noun spelling).",
     rx: ["じゅふ", "うけづけ", "うけつき"],
-    book: { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の**{受付|うけつけ}**までお{越|こ}しください。", en: "Would Oyama, visiting from Yokohama, please come to the reception desk on the first floor? Sato is waiting for you.", at: "gp/73" },
+    book: { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の**{受付|うけつけ}**までお{越|こ}しください。", en: "Paging Oyama, visiting from Yokohama: Sato is waiting for you, so please come to the reception desk on the first floor.", at: "gp/73" },
     ex: [
       { ja: "{病院|びょういん}に{着|つ}いたら、まず**{受付|うけつけ}**で{保険証|ほけんしょう}を{出|だ}してください。", en: "When you arrive at the hospital, first hand in your insurance card at the reception desk.", alt: ["{受験|じゅけん}", "{受信|じゅしん}", "{受話器|じゅわき}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be away from one's desk; to step out (of a room)",
     note: "The standard phone phrase ただ今席を外しております (they're away from their desk right now). It can also mean leaving a room so others can talk: 少し席を外していただけますか.",
     rx: ["せきをそとす", "せきをがいす", "せきをはなす"],
-    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll ask Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll have Tanaka get back to you later.", at: "gp/73" },
     ex: [
       { ja: "{担当|たんとう}の{者|もの}はただ今**{席|せき}を{外|はず}して**おります。", en: "The person in charge is away from their desk at the moment.", alt: ["{席|せき}を{譲|ゆず}って", "{席|せき}を{取|と}って", "{席|せき}を{詰|つ}めて"] },
     ] },
@@ -204,12 +204,12 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["うちかく", "ないがく", "ないかっく"],
     book: { ja: "先生は{新|しん}**{内閣|ないかく}**についてどう（　）か。", en: "What do you think about the new cabinet, professor?", at: "ch/8/review" },
     ex: [
-      { ja: "{首相|しゅしょう}が{交代|こうたい}し、{新|あたら}しい**{内閣|ないかく}**が{発足|ほっそく}した。", en: "The prime minister changed and a new cabinet was formed.", alt: ["{内容|ないよう}", "{内科|ないか}", "{内側|うちがわ}"] },
+      { ja: "{首相|しゅしょう}が{交代|こうたい}し、{新|あたら}しい**{内閣|ないかく}**が{発足|ほっそく}した。", en: "A new prime minister took over, and a new cabinet was formed.", alt: ["{内容|ないよう}", "{内科|ないか}", "{内側|うちがわ}"] },
     ] },
   { w: "あいにく", lv: "N2", pos: "adverb · な adjective",
     en: "unfortunately; I'm afraid (…)",
     note: "Polite regret that something is inconvenient for the listener: あいにく田中は留守にしております, あいにくの雨 (unfortunate rain). It's softer and more formal than 残念ながら, and often used when declining.",
-    book: { ja: "**あいにく**日曜日はちょっと…。", en: "Unfortunately, Sunday is a bit...", at: "ch/8/review" },
+    book: { ja: "**あいにく**日曜日はちょっと…。", en: "Unfortunately, Sunday's a little difficult...", at: "ch/8/review" },
     ex: [
       { ja: "**あいにく**{部長|ぶちょう}は{出張中|しゅっちょうちゅう}でございます。", en: "I'm afraid the manager is away on a business trip.", alt: ["せっかく", "さっそく", "わざわざ"] },
     ] },
@@ -296,7 +296,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "(flower) vase",
     note: "花瓶に花を生ける / 挿す (arrange / put flowers in a vase). 瓶 alone (びん) is a bottle or jar. 花束 is a bouquet, and 花壇 is a flower bed.",
     rx: ["はなびん", "かへい", "かびょう"],
-    book: { ja: "いえ、あのー、たいへん失礼ですが、あの**{花瓶|かびん}**と同じ物があれば買い{求|もと}めてお返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。", en: "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...", at: "ch/8/review" },
+    book: { ja: "いえ、あのー、たいへん失礼ですが、あの**{花瓶|かびん}**と同じ物があれば買い{求|もと}めてお返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。", en: "No, um, forgive me for asking, but if I can find the same vase, I'd like to buy one to replace it, so I was hoping you could tell me which shop it came from...", at: "ch/8/review" },
     ex: [
       { ja: "{玄関|げんかん}の**{花瓶|かびん}**に、{庭|にわ}で{咲|さ}いたバラを{生|い}けた。", en: "I put roses from the garden in the vase in the entryway.", alt: ["{花束|はなたば}", "{花壇|かだん}", "{瓶詰|びんづ}め"] },
     ] },
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to buy; to purchase (formal)",
     note: "A formal 買う that suggests seeking out an item: 記念に買い求める, and in shops お買い求めいただけます (available for purchase), お買い求めの際は (when purchasing).",
     rx: ["ばいもとめる", "かいきゅうめる", "かいぼとめる"],
-    book: { ja: "いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば**買い{求|もと}めて**お返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。", en: "No, um, this is very rude of me, but if I can find the same vase, I would like to buy it and give it back to you, so I'd really like you to tell me the name of the shop...", at: "ch/8/review" },
+    book: { ja: "いえ、あのー、たいへん失礼ですが、あの{花瓶|かびん}と同じ物があれば**買い{求|もと}めて**お返しさせていただきたいと{存|ぞん}じますので、ぜひお店を教えていただきたいと思いまして…。", en: "No, um, forgive me for asking, but if I can find the same vase, I'd like to buy one to replace it, so I was hoping you could tell me which shop it came from...", at: "ch/8/review" },
     ex: [
       { ja: "{限定品|げんていひん}を**{買|か}い{求|もと}める**{客|きゃく}で、{店|みせ}の{前|まえ}に{行列|ぎょうれつ}ができた。", en: "A line of customers hoping to buy the limited-edition item formed outside the store.", alt: ["{呼|よ}び{止|と}める", "{受|う}け{止|と}める", "{引|ひ}き{止|と}める"] },
     ] },
