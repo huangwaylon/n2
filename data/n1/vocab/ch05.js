@@ -100,7 +100,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "comfort; consolation; solace",
     note: "Something that eases sadness or hardship: 慰めの言葉, 慰めになる, 何よりの慰め (the greatest comfort). The verb is 慰める. 励まし (encouragement) urges someone on; 慰め soothes pain that is already there.",
     rx: ["いさめ", "なごさめ", "なぐなめ"],
-    book: { ja: "彼女の存在は、{砂漠|さばく}のオアシスといおうか、{嵐|あらし}の夜の灯台といおうか、辛い毎日の中の大きな**{慰|なぐさ}め**だ。", en: "Her presence is — what should I call it — an oasis in the desert, a lighthouse on a stormy night; a great comfort in my hard daily life.", at: "gp/46" },
+    book: { ja: "彼女の存在は、{砂漠|さばく}のオアシスといおうか、{嵐|あらし}の夜の灯台といおうか、辛い毎日の中の大きな**{慰|なぐさ}め**だ。", en: "Her presence is — what should I call it — an oasis in the desert, or a lighthouse on a stormy night: a great comfort through my hard days.", at: "gp/46" },
     ex: [
       { ja: "{落|お}ち{込|こ}んでいたとき、{友人|ゆうじん}の{優|やさ}しい{言葉|ことば}が{何|なに}よりの**{慰|なぐさ}め**になった。", en: "When I was down, my friend's kind words were the greatest comfort.", alt: ["{戒|いまし}め", "{攻|せ}め", "{改|あらた}め"] },
     ] },
@@ -108,7 +108,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "ordinary people; the common people; the masses",
     note: "Ordinary people as opposed to the rich or powerful: 庶民の味 (everyday food), 庶民的 (unpretentious, down-to-earth), 庶民感覚 (an ordinary person's sense of money). 市民 means citizens of a city or state; 庶民 is about social class.",
     rx: ["しょうみん", "しょみょう", "じょみん"],
-    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk recommending a 50,000-yen toner to me — what would you call it — no feel at all for how ordinary people live…", at: "gp/46" },
+    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk, recommending a 50,000-yen toner — how shall I put it — completely out of touch with ordinary people…", at: "gp/46" },
     ex: [
       { ja: "この{辺|あた}りのマンションは{高級|こうきゅう}すぎて、{私|わたし}たち**{庶民|しょみん}**にはとても{手|て}が{出|で}ない。", en: "The condos around here are so upscale that ordinary folks like us could never afford one.", alt: ["{庶務|しょむ}", "{民意|みんい}", "{民法|みんぽう}"] },
     ] },
@@ -460,7 +460,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["せいたい", "しょたい", "しょうてい"],
     book: { ja: "一般の人間ならいざしらず、警察の取り調べにも**{正体|しょうたい}**がバレなかったのなら、まだ使い道はある。", en: "Ordinary people are one thing, but if even the police interrogation didn't expose what it really is, it still has its uses.", at: "ch/5" },
     ex: [
-      { ja: "{謎|なぞ}の{作家|さっか}の**{正体|しょうたい}**は、{意外|いがい}な{人物|じんぶつ}だった。", en: "The mysterious author turned out to be a surprising person.", alt: ["{正解|せいかい}", "{本体|ほんたい}", "{字体|じたい}"] },
+      { ja: "{謎|なぞ}の{作家|さっか}の**{正体|しょうたい}**は、{意外|いがい}な{人物|じんぶつ}だった。", en: "The mysterious author's true identity came as a surprise.", alt: ["{正解|せいかい}", "{本体|ほんたい}", "{字体|じたい}"] },
     ] },
   { w: "ばれる", lv: "N1", pos: "verb (ichidan, intransitive)",
     en: "to be found out; to come to light (a secret, lie or wrongdoing)",
@@ -513,7 +513,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "clumsy; crude; childish (of skill or expression)",
     note: "Unskilled like a child's work, used for writing, drawing or technique: 稚拙な文章, 稚拙な言い訳. Written and critical. 幼稚 is about childish behavior or thinking; 稚拙 is about lack of skill.",
     rx: ["ちぜつ", "ざせつ", "じせつ"],
-    book: { ja: "この小説は内容も{低俗|ていぞく}で、表現も**{稚拙|ちせつ}**で、読むにたえない。", en: "This novel is vulgar in content and clumsy in expression; it isn't fit to be read.", at: "gp/56" },
+    book: { ja: "この小説は内容も{低俗|ていぞく}で、表現も**{稚拙|ちせつ}**で、読むにたえない。", en: "This novel is vulgar in content and clumsy in expression; it's painful to read.", at: "gp/56" },
     ex: [
       { ja: "{彼|かれ}の{文章|ぶんしょう}は**{稚拙|ちせつ}**だが、{伝|つた}えたいという{熱意|ねつい}は{十分|じゅうぶん}に{感|かん}じられる。", en: "His writing is clumsy, but you can really feel his passion to get his message across.", alt: ["{誠実|せいじつ}", "{親切|しんせつ}", "{熱心|ねっしん}"] },
     ] },
