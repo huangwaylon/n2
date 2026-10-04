@@ -151,7 +151,7 @@ TRY.registerCompare([
         ex: { ja: "うちの犬ったら、私が{浴衣|ゆかた}着てたら、よその人と間違えてほえたのよ。", en: "That dog of ours! When I was wearing a yukata, it mistook me for a stranger and barked at me." },
         note: "Person or animal + ったら: a casual topic marker with exasperation, surprise or affectionate criticism (\"honestly, that ~!\")." },
       { pattern: "〜といったらない", level: "N1", no: 83,
-        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbelievably hot. I want autumn to come soon." },
+        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbearably hot. I wish autumn would hurry up and come." },
         note: "Adjective + といったらない (colloquial といったらありゃしない): \"indescribably ~ / ~ beyond words\". States an extreme degree at the end of the sentence." }
     ]
   },
@@ -207,7 +207,7 @@ TRY.registerCompare([
         ex: { ja: "冬のスポーツといったら、やっぱりスキーだよね。", en: "When it comes to winter sports, it's got to be skiing." },
         note: "N + といったら: \"speaking of N / when it comes to N\". Raises a topic and the typical thing associated with it (= といえば)." },
       { pattern: "〜といったらない", level: "N1", no: 83,
-        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbelievably hot. I want autumn to come soon." },
+        ex: { ja: "今年の夏は暑いといったらない。早く秋になってほしい。", en: "This summer is unbearably hot. I wish autumn would hurry up and come." },
         note: "Adjective + といったらない: \"indescribably ~\". An extreme degree; it follows an adjective and ends the sentence, unlike topic-raising Nといったら." }
     ]
   },
@@ -397,7 +397,7 @@ TRY.registerCompare([
         note: "Plain form (なA / N + である) + のみならず: \"not only ~ (but also)\". The formal だけでなく: widens the scope, with も in the second half." },
       { pattern: "(ただ)〜のみ", level: "N1", no: 112,
         ex: { ja: "聞こえてくるのは{草原|そうげん}を渡る風の音のみだった。", en: "All that could be heard was the sound of the wind crossing the grassland." },
-        note: "ただ + N / V-る + のみ（だ）: \"nothing but / solely\". ただ doubles the limitation for emphasis; V-るのみだ means \"all that's left is to ~\"." }
+        note: "ただ + N / V-る + のみ（だ）: \"nothing but / solely\". ただ reinforces the limitation for emphasis; V-るのみだ means \"all that's left is to ~\"." }
     ]
   },
   {
@@ -419,8 +419,8 @@ TRY.registerCompare([
         ex: { ja: "{落語|らくご}は最近、お年寄りばかりでなく若い女性にも人気が出てきた。", en: "Recently rakugo has become popular not only with elderly people but with young women too." },
         note: "〜ばかりでなく…も: \"not only ~ but also\". A neutral addition (= だけでなく…も)." },
       { pattern: "〜ばかりに", level: "N2",
-        ex: { ja: "本当のことを言ったばかりに、彼を怒らせてしまった。", en: "Just because I told the truth, I ended up making him angry." },
-        note: "Plain form + ばかりに: \"just because (of that one thing)\". A single cause leads to a bad, regrettable result." },
+        ex: { ja: "本当のことを言ったばかりに、彼を怒らせてしまった。", en: "Simply because I told the truth, I ended up making him angry." },
+        note: "Plain form + ばかりに: \"simply because (of that one thing)\". A single cause leads to a bad, regrettable result." },
       { pattern: "〜とばかりに", level: "N1", no: 73,
         ex: { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "Called on by the coach at a key moment, Nakata jumped up as if to say, “I've been waiting for this!”" },
         note: "Quote + とばかりに: \"as if to say ~\". Nobody actually says it, but their manner makes the feeling unmistakable (an index form of #73 〜んばかり)." }
