@@ -296,7 +296,7 @@ TRY.registerLesson({
       "Those nine months, packed with good times and hard times, were the most intense of my life, and they greatly broadened the choices and possibilities open to me.",
       "On orientation day, nearly a hundred international students from all over the world had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
       "The following week, classes called the English Language Program began, designed to give us enough English to take regular undergraduate courses. I got multinational classmates from Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
-      "But my life as an international student, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the back every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
+      "But my life as an international student, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the shoulder every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
       "Because they were close friends, and precisely because our cultures were different, I wanted to tell them the truth and have them understand, so I worked up the courage and told them that it made me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
       "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If, despite having made a yakusoku to hang out, you don't follow through, you have \"broken your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
@@ -370,7 +370,7 @@ TRY.registerLesson({
       "This remark, which comes out along with a wry smile, reflects their dissatisfaction with international exchange and conveys the loneliness of foreign residents in Japan, and at the same time it shows the \"cultural wall\" between them and Japanese people.",
       "Interestingly, I hear these words most often not when I am giving foreigners advice, but right in the middle of lively social events. These events bring together dozens of Japanese and foreign people so that they can get to know one another through free mingling. At the events, the foreigners exchange contact information with Japanese people. They want to go on being friends with them afterward and share all kinds of hobbies.",
       "Yet even though the foreigners throw themselves into \"collecting friends\" at the events, the grumbling \"I can't make friends\" never stops. The reason they can't make friends is not that they have few chances to meet people.",
-      "The foreigners' failure lies, in the first place, in the gap between their eagerness and reality.",
+      "Where the foreigners go wrong, to begin with, is the gap between their eagerness and reality.",
       "They believe the only way to escape the \"foreigner community\" in Japan is to get in touch with as many Japanese people as they can. With that in mind, they talk passionately to lots of Japanese people about how much they want to make connections.",
       "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"advances\" and answer questions pleasantly. They eagerly play along with foreign jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
       "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are betrayed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
@@ -733,7 +733,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "{寝|ね}ないで勉強したのに、病気で試験が受けられなかった。残念**でしかたがない**。",
-         "tr": "I studied without sleeping, but I got sick and couldn't take the exam. I'm so disappointed I can't stand it."
+         "tr": "I stayed up all night studying, but I got sick and couldn't take the exam. I'm so disappointed I can't stand it."
         }
        ]
       },
@@ -771,7 +771,7 @@ TRY.registerLesson({
           {
            "mark": "×",
            "ja": "読ん__で__しょうがない。",
-           "tr": "(Incorrect) Intended: \"I can't help reading it.\""
+           "tr": "(Incorrect) Intended: \"I'm dying to read it.\""
           }
          ]
         },
@@ -1082,7 +1082,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "私はあまり知らないんですよ。**むしろ**留学生のほうが詳しいと思いますよ。",
-           "tr": "I don't really know many. I think international students actually know more about them than I do."
+           "tr": "I don't really know any. If anything, I think the international students know more about them than I do."
           }
          ]
         },
@@ -1156,7 +1156,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "遠くて大変なの**にもかかわらず**、先生は私たちの結婚式に来てくださった。",
-         "tr": "Even though it was far and a lot of trouble, our teacher was kind enough to come to our wedding."
+         "tr": "Even though it was a long and difficult trip, our teacher was kind enough to come to our wedding."
         },
         {
          "n": 4,
@@ -1276,7 +1276,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "最近ストレスでつい食べすぎちゃうんだ。",
-           "tr": "Lately I keep overeating because of stress."
+           "tr": "Lately I can't help overeating because of stress."
           },
           {
            "sp": "B",
@@ -1358,12 +1358,12 @@ TRY.registerLesson({
         {
          "n": 7,
          "ja": "{田中|たなか}さんはパーティーに**ばかり**行って、あまり勉強しないようだ。",
-         "tr": "Tanaka-san seems to go to nothing but parties and hardly studies."
+         "tr": "Tanaka-san seems to do nothing but go to parties and hardly ever studies."
         },
         {
          "n": 8,
          "ja": "子どもの頃に絵を{描|か}いて**ばかり**いたのが、今はなつかしいです。",
-         "tr": "I now look back fondly on how I did nothing but draw pictures as a child."
+         "tr": "I look back fondly now on how I was always drawing pictures as a child."
         },
         {
          "n": 9,
@@ -1376,7 +1376,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "彼女、好きな人のことを考えて**ばかり**で、他のことは何もできないみたいだよ。",
-           "tr": "All she does is think about the person she likes. She can't seem to do anything else."
+           "tr": "All she does is think about her crush. She can't seem to do anything else."
           }
          ]
         }
@@ -1455,12 +1455,12 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "スマートフォンは便利である**と同時に**、勉強のじゃまになってしまうこともある。",
-         "tr": "As well as being convenient, smartphones can also get in the way of studying."
+         "tr": "Smartphones are convenient, but at the same time they can get in the way of studying."
         },
         {
          "n": 3,
          "ja": "彼は先生である**と同時に**、会社の社長もしている。",
-         "tr": "As well as being a teacher, he is also the president of a company."
+         "tr": "He is a teacher and, at the same time, the president of a company."
         },
         {
          "n": 4,
@@ -1524,7 +1524,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "悲しい**ことに**、パソコンが突然{壊|こわ}れてしまった。",
-         "tr": "Sadly, my computer suddenly broke."
+         "tr": "Sadly, my computer suddenly died on me."
         },
         {
          "n": 2,
@@ -1681,7 +1681,7 @@ TRY.registerLesson({
           {
            "mark": "×",
            "ja": "じゃあ、明日の2時に映画館の入り口__において__会いましょう。",
-           "tr": "So, let’s meet at the entrance of the movie theater at 2 p.m. tomorrow."
+           "tr": "(Incorrect) Intended: \"So, let’s meet at the entrance of the movie theater at 2 p.m. tomorrow.\""
           }
          ]
         }
@@ -3195,7 +3195,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "❺**確かに、**いろいろな国のゲームをするのは楽し**そうですね。**❽ワンさん**の意見に{付|つ}け{加|くわ}えるなら、**日本人と留学生を{混|ま}ぜたグループを作って、グループ{対抗|たいこう}にするという**のはどうでしょうか。**❸**というのは、**{競争|きょうそう}があったほうがグループ{内|ない}のきずなが強くなると思う**からです。**❹**他のみなさんはいかがですか。**",
-       "tr": "It certainly sounds fun to play games from various countries. To add to Wang-san's idea, how about making groups that mix Japanese and international students and turning it into a competition between the groups? The reason is that I think a little competition would strengthen the bonds within each group. What does everyone else think?"
+       "tr": "It certainly sounds fun to play games from various countries. To add to Wang-san's idea, how about making groups that mix Japanese and international students and turning it into a competition between the groups? The reason is that I think competition would strengthen the bonds within each group. What does everyone else think?"
       },
       {
        "ja": "＊　＊　＊"
