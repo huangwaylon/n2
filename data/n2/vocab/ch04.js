@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["しゅんけん", "しゅうかん", "しゅんま"],
     book: { ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大**{瞬間|しゅんかん}**{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second.", at: "ch/4" },
     ex: [
-      { ja: "ドアを{開|あ}けた**{瞬間|しゅんかん}**、{猫|ねこ}が{外|そと}に{飛|と}び{出|だ}した。", en: "The moment I opened the door, the cat shot outside.", alt: ["{時間|じかん}", "{期間|きかん}", "{空間|くうかん}"] },
+      { ja: "ドアを{開|あ}けた**{瞬間|しゅんかん}**、{猫|ねこ}が{外|そと}に{飛|と}び{出|だ}した。", en: "The moment I opened the door, the cat dashed outside.", alt: ["{時間|じかん}", "{期間|きかん}", "{空間|くうかん}"] },
     ] },
   { w: "{風速|ふうそく}", lv: "N1", pos: "noun",
     en: "wind speed",
@@ -324,7 +324,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["せきゆき", "つもゆき", "しゃくせつ"],
     book: { ja: "雪が降り、**{積雪|せきせつ}**は3メートルになることもある。", en: "…it snows, and the snow can pile up to three meters.", at: "gp/32" },
     ex: [
-      { ja: "{昨夜|さくや}からの{大雪|おおゆき}で、**{積雪|せきせつ}**は50センチに{達|たっ}した。", en: "With the heavy snow since last night, the snow has reached 50 centimeters deep.", alt: ["{降雨|こうう}", "{雪崩|なだれ}", "{除雪|じょせつ}"] },
+      { ja: "{昨夜|さくや}からの{大雪|おおゆき}で、**{積雪|せきせつ}**は50センチに{達|たっ}した。", en: "After heavy snow since last night, the snow on the ground is now 50 centimeters deep.", alt: ["{降雨|こうう}", "{雪崩|なだれ}", "{除雪|じょせつ}"] },
     ] },
   { w: "{通行止|つうこうど}め", lv: "N2", pos: "noun",
     en: "road closure; closed to traffic",

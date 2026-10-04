@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["てんじん", "でんにん", "てんいん"],
     book: { ja: "**{転任|てんにん}**のあいさつ", en: "Addressing Co-workers after Receiving a Transfer Order", at: "ch/2", src: "book" },
     ex: [
-      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Our teacher, Yamada, is being transferred to a different high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
+      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Our teacher, Yamada, is going to be transferred to another high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
     ] },
   { w: "{改|あらた}まる", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be formal; to become ceremonious; to be renewed or changed",
@@ -97,7 +97,7 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{見直|みなお}し", lv: "N1", pos: "noun",
     en: "review; reexamination; revision (of a plan, system or habits)",
-    note: "From 見直す (look at again; reconsider; think better of): 計画の見直し, 制度を見直す, 生活習慣の見直し. 見直す can also mean “see someone in a better light” (彼を見直した).",
+    note: "From 見直す (look at again, reconsider): 計画の見直し, 制度を見直す, 生活習慣の見直し. 見直す can also mean “see someone in a better light” (彼を見直した).",
     rx: ["けんなおし", "みじかし", "みなほし"],
     book: { ja: "{健康|けんこう}のためには{食生活|しょくせいかつ}をはじめとする生活{習慣|しゅうかん}の**{見直|みなお}し**が{必要|ひつよう}です。", en: "For your health, you need to review your lifestyle habits, starting with your diet.", at: "gp/10" },
     ex: [
@@ -197,7 +197,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
     book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably become more active in culture as well as, of course, in the economy.", at: "gp/12" },
     ex: [
-      { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees offered lively opinions.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
+      { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees joined actively in the discussion.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
   { w: "{話者|わしゃ}", lv: "N1", pos: "noun",
     en: "speaker (in linguistics or grammar explanations)",
@@ -517,7 +517,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しんにつける", "みにづける", "からだにつける"],
     book: { ja: "この専門学校に入ったからには、しっかり{技術|ぎじゅつ}を**{身|み}につけて**、いつか自分の店を持てるようになってください。", en: "Now that you've entered this vocational school, master the skills properly so that one day you can have a shop of your own.", at: "gp/18" },
     ex: [
-      { ja: "{留学|りゅうがく}して、{生|い}きた{英語|えいご}を**{身|み}につけたい**。", en: "I want to study abroad and acquire real, living English.", alt: ["{気|き}につけたい", "{手|て}につけたい", "{目|め}につけたい"] },
+      { ja: "{留学|りゅうがく}して、{生|い}きた{英語|えいご}を**{身|み}につけたい**。", en: "I want to study abroad and pick up English as it's really spoken.", alt: ["{気|き}につけたい", "{手|て}につけたい", "{目|め}につけたい"] },
     ] },
   { w: "{期日|きじつ}", lv: "N1", pos: "noun",
     en: "fixed date; due date; deadline",

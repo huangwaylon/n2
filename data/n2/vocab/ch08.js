@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["あとほど", "ごほど", "こうほど"],
     book: { ja: "ありがとうございます。じゃ、{日程|にってい}につきましては、**{後|のち}ほど**…。", en: "Thank you. Well then, about the schedule, I'll get back to you later...", at: "ch/8" },
     ex: [
-      { ja: "{担当者|たんとうしゃ}が{戻|もど}りましたら、**{後|のち}ほど**お{電話|でんわ}いたします。", en: "When the person in charge returns, we'll call you back.", alt: ["{先|さき}ほど", "{中|なか}ほど", "よほど"] },
+      { ja: "{担当者|たんとうしゃ}が{戻|もど}りましたら、**{後|のち}ほど**お{電話|でんわ}いたします。", en: "We'll call you back later, when the person in charge returns.", alt: ["{先|さき}ほど", "{中|なか}ほど", "よほど"] },
     ] },
   { w: "{尊敬語|そんけいご}", lv: "N2", pos: "noun",
     en: "honorific language (respectful forms)",

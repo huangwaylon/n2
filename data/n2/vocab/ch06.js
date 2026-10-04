@@ -264,7 +264,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["けっい", "げつい", "けつえ"],
     book: { ja: "自分の{状況|じょうきょう}や**{決意|けつい}**したことを友達に話せる。", en: "Talk to a friend about your situation or resolve.", at: "ch/6", src: "book" },
     ex: [
-      { ja: "{彼|かれ}は{会社|かいしゃ}を{辞|や}めて{独立|どくりつ}する**{決意|けつい}**を{固|かた}めた。", en: "He made up his mind to quit his company and go independent.", alt: ["{決算|けっさん}", "{得意|とくい}", "{誠意|せいい}"] },
+      { ja: "{彼|かれ}は{会社|かいしゃ}を{辞|や}めて{独立|どくりつ}する**{決意|けつい}**を{固|かた}めた。", en: "He made up his mind to quit his company and strike out on his own.", alt: ["{決算|けっさん}", "{得意|とくい}", "{誠意|せいい}"] },
     ] },
   { w: "{制限|せいげん}", lv: "N2", pos: "noun · する verb",
     en: "limit; restriction",
@@ -479,7 +479,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["ごうしゅく", "がっしゅう", "かっしゅく"],
     book: { ja: "ごめん。ゼミの**{合宿|がっしゅく}**があって、休む（　）んだ。", en: "Sorry. I have a seminar retreat, and I can't skip it.", at: "ch/6/review" },
     ex: [
-      { ja: "{夏休|なつやす}みにテニス{部|ぶ}の**{合宿|がっしゅく}**で{山|やま}へ{行|い}く。", en: "Over summer vacation, I'm going to the mountains for tennis club training camp.", alt: ["{下宿|げしゅく}", "{宿題|しゅくだい}", "{合格|ごうかく}"] },
+      { ja: "{夏休|なつやす}みにテニス{部|ぶ}の**{合宿|がっしゅく}**で{山|やま}へ{行|い}く。", en: "Over summer vacation, I'm going to the mountains for the tennis club's training camp.", alt: ["{下宿|げしゅく}", "{宿題|しゅくだい}", "{合格|ごうかく}"] },
     ] },
   { w: "{見落|みお}とす", lv: "N1", pos: "godan verb (transitive)",
     en: "to overlook; to miss (by not noticing)",

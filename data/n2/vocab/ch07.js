@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["いきょう", "いごう", "いむこう"],
     book: { ja: "彼は、親の**{意向|いこう}**に{反|はん}して、{戦場|せんじょう}カメラマンになった。", en: "Against his parents' wishes, he became a war photographer.", at: "gp/67" },
     ex: [
-      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president announced an intention to retire next year.", alt: ["{方角|ほうがく}", "{意外|いがい}", "{傾向|けいこう}"] },
+      { ja: "{社長|しゃちょう}は、{来年|らいねん}{引退|いんたい}する**{意向|いこう}**を{明|あき}らかにした。", en: "The company president announced plans to retire next year.", alt: ["{方角|ほうがく}", "{意外|いがい}", "{傾向|けいこう}"] },
     ] },
   { w: "{政策|せいさく}", lv: "N1", pos: "noun",
     en: "(government) policy",

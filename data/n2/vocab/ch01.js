@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["さいぴ", "さいふ", "しゅひ"],
     book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は**{採否|さいひ}**にかかわらず、{通知|つうち}します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
-      { ja: "{面接|めんせつ}の**{採否|さいひ}**は、一週間{以内|いない}にメールでお知らせします。", en: "We will let you know the result of your interview by email within a week.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
+      { ja: "{面接|めんせつ}の**{採否|さいひ}**は、一週間{以内|いない}にメールでお知らせします。", en: "We will let you know by email within a week whether you have been accepted.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
     ] },
   { w: "{通知|つうち}", lv: "N2", pos: "noun · する verb",
     en: "notification; official notice",
@@ -269,7 +269,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["けんしゅ", "げんしゅう", "けんしょう"],
     book: { ja: "10月20日は社員**{研修|けんしゅう}**につき、", en: "Because of employee training on October 20,", at: "gp/1" },
     ex: [
-      { ja: "{入社|にゅうしゃ}してから{一|いっ}か{月間|げつかん}、{工場|こうじょう}で**{研修|けんしゅう}**を受けた。", en: "For a month after joining the company, I underwent training at the factory.", alt: ["{研究|けんきゅう}", "{修理|しゅうり}", "{見学|けんがく}"] },
+      { ja: "{入社|にゅうしゃ}してから{一|いっ}か{月間|げつかん}、{工場|こうじょう}で**{研修|けんしゅう}**を受けた。", en: "For a month after joining the company, I trained at the factory.", alt: ["{研究|けんきゅう}", "{修理|しゅうり}", "{見学|けんがく}"] },
     ] },
   { w: "{点検|てんけん}", lv: "N2", pos: "noun · する verb",
     en: "inspection; checkup (of equipment, one item at a time)",
@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["てとうて", "しゅあて", "てあって"],
     book: { ja: "この会社では、{給料|きゅうりょう}のほかに仕事の内容（　）**{手当|てあ}て**が{支払|しはら}われます。", en: "At this company, in addition to salary, allowances are paid according to the nature of the work.", at: "gp/4" },
     ex: [
-      { ja: "{転|ころ}んだ{子|こ}どものけがを、{保健室|ほけんしつ}の{先生|せんせい}がすぐに**{手当|てあ}て**してくれた。", en: "The school nurse immediately treated the injuries of a child who had fallen.", alt: ["{手入|てい}れ", "{手配|てはい}", "{手続|てつづ}き"] },
+      { ja: "{転|ころ}んだ{子|こ}どものけがを、{保健室|ほけんしつ}の{先生|せんせい}がすぐに**{手当|てあ}て**してくれた。", en: "When the child fell and got hurt, the school nurse treated the injury right away.", alt: ["{手入|てい}れ", "{手配|てはい}", "{手続|てつづ}き"] },
     ] },
   { w: "{善悪|ぜんあく}", lv: "N1", pos: "noun",
     en: "good and evil; right and wrong",
@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["じつし", "じっせ", "しっし"],
     book: { ja: "今回の旅行は{晴雨|せいう}にかかわらず、**{実施|じっし}**します。", en: "This trip will go ahead rain or shine.", at: "gp/5" },
     ex: [
-      { ja: "{来月|らいげつ}から{新|あたら}しい{料金|りょうきん}{制度|せいど}が**{実施|じっし}**される。", en: "The new fee system will be put into effect from next month.", alt: ["{実習|じっしゅう}", "{施設|しせつ}", "{実感|じっかん}"] },
+      { ja: "{来月|らいげつ}から{新|あたら}しい{料金|りょうきん}{制度|せいど}が**{実施|じっし}**される。", en: "The new fee system will be put into effect next month.", alt: ["{実習|じっしゅう}", "{施設|しせつ}", "{実感|じっかん}"] },
     ] },
   { w: "{寄付|きふ}", lv: "N2", pos: "noun · する verb",
     en: "donation; contribution",

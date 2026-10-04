@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["そんさい", "ぞんざい", "そんざ"],
     book: { ja: "{姉|あね}はぼくより10歳年上で、小さいときからいろいろ{世話|せわ}をしてくれたので、姉というより母親のような**{存在|そんざい}**だ。", en: "My sister is ten years older than me and has looked after me in all sorts of ways since I was little, so she's more like a mother than a sister.", at: "gp/28" },
     ex: [
-      { ja: "{宇宙|うちゅう}に{生物|せいぶつ}が**{存在|そんざい}**するかどうかは、まだわかっていない。", en: "Whether life exists elsewhere in the universe is still unknown.", alt: ["{滞在|たいざい}", "{現在|げんざい}", "{所在|しょざい}"] },
+      { ja: "{宇宙|うちゅう}に{生物|せいぶつ}が**{存在|そんざい}**するかどうかは、まだわかっていない。", en: "Whether there is life out in space is still unknown.", alt: ["{滞在|たいざい}", "{現在|げんざい}", "{所在|しょざい}"] },
     ] },
   { w: "{在庫|ざいこ}", lv: "N1", pos: "noun",
     en: "stock; inventory; goods on hand",

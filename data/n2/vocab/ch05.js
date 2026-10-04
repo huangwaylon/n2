@@ -369,7 +369,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["さんごう", "さんこ", "ざんこう"],
     book: { ja: "日本の{少数民族|しょうすうみんぞく}について{論文|ろんぶん}を書きたいと思ったが、**{参考|さんこう}**資料が少なすぎて、（　）。", en: "I wanted to write a thesis on Japan's ethnic minorities, but there are too few reference materials, so…", at: "gp/44" },
     ex: [
-      { ja: "{先輩|せんぱい}のアドバイスを**{参考|さんこう}**にして、{計画|けいかく}を{立|た}て{直|なお}した。", en: "I redid my plan using my senior's advice as a guide.", alt: ["{参加|さんか}", "{思考|しこう}", "{考慮|こうりょ}"] },
+      { ja: "{先輩|せんぱい}のアドバイスを**{参考|さんこう}**にして、{計画|けいかく}を{立|た}て{直|なお}した。", en: "I redid my plan, taking a senior colleague's advice into account.", alt: ["{参加|さんか}", "{思考|しこう}", "{考慮|こうりょ}"] },
     ] },
   { w: "{片付|かたづ}ける", lv: "N2", pos: "ichidan verb (transitive)",
     en: "to tidy up; to put away; to finish off (a task)",
@@ -495,7 +495,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["しんさい", "しんざつ", "けんさつ"],
     book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, only to be kept waiting forever and then examined for just two minutes.", at: "ch/5" },
     ex: [
-      { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I got examined at the hospital.", alt: ["{視察|しさつ}", "{偵察|ていさつ}", "{警察|けいさつ}"] },
+      { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I went to the hospital to see a doctor.", alt: ["{視察|しさつ}", "{偵察|ていさつ}", "{警察|けいさつ}"] },
     ] },
   { w: "{部品|ぶひん}", lv: "N2", pos: "noun",
     en: "part; component",
@@ -527,7 +527,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ほんじょう", "もとば", "ほんぱ"],
     book: { ja: "**{本場|ほんば}**のタイ料理を作ってほしいと{頼|たの}まれたが、{材料|ざいりょう}がないので（　）。", en: "I was asked to make authentic Thai food, but since I don't have the ingredients, there's no way I can make it.", at: "ch/5/review" },
     ex: [
-      { ja: "一{度|ど}、**{本場|ほんば}**のフランスでワインを{飲|の}んでみたい。", en: "Just once, I'd like to drink wine in France, where it really comes from.", alt: ["{本番|ほんばん}", "{本部|ほんぶ}", "{売|う}り{場|ば}"] },
+      { ja: "一{度|ど}、**{本場|ほんば}**のフランスでワインを{飲|の}んでみたい。", en: "Someday I'd like to drink wine in France, the home of wine.", alt: ["{本番|ほんばん}", "{本部|ほんぶ}", "{売|う}り{場|ば}"] },
     ] },
   { w: "{一流|いちりゅう}", lv: "N2", pos: "noun · の adjective",
     en: "first-class; top-rate; leading",
