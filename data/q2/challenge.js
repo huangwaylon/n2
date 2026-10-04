@@ -273,7 +273,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "絵理a. ＿＿ジョージb. ＿＿パソコンを貸して\nc. ＿＿た。\nでも、そのパソコンをd. 壊＿＿てしまった。",
-         "tr": "Eri lent George her computer (a., b., c.). But she ended up having it broken on her (d.)."
+         "tr": "Eri lent George her computer (a., b., c.). But then it got broken on her (d.)."
         },
         "answer": "a. は　b. に　c. __あげ__た　d. 壊__され__て"
        }
@@ -4470,7 +4470,7 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "この授業はすぐ{眠|ねむ}くなる。__要するに__、おもしろくないということだ。",
-      "tr": "This class makes me sleepy right away. In short, that means it's boring."
+      "tr": "This class puts me to sleep right away. In short, it's boring."
      },
      {
       "n": 2,
