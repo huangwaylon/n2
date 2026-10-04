@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "manufacturing method, recipe, process",
     note: "How something is made, especially food and crafts: 伝統的な製法, 独自の製法, 製法特許. 作り方 is the everyday word; 製造 is the act of manufacturing.",
     rx: ["せいぼう", "せほう", "そうほう"],
-    book: { ja: "この店では、__昔ながらの__**{製法|せいほう}**で作られたお菓子を売っている。", en: "This shop sells sweets made by traditional methods.", at: "gp/92" },
+    book: { ja: "この店では、__昔ながらの__**{製法|せいほう}**で作られたお菓子を売っている。", en: "This shop sells sweets made by traditional, time-honored methods.", at: "gp/92" },
     ex: [
       { ja: "この{酒|さけ}は、200{年前|ねんまえ}と{同|おな}じ**{製法|せいほう}**で{造|つく}られている。", en: "This sake is brewed using the same process as two hundred years ago.", alt: ["{製品|せいひん}", "{法律|ほうりつ}", "{憲法|けんぽう}"] },
     ] },
@@ -218,7 +218,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "bad weather, foul weather",
     note: "Formal, common in announcements: 悪天候のため欠航 (flight canceled due to bad weather), 悪天候が続く. The everyday phrase is 天気が悪い.",
     rx: ["あっくてんこう", "わるてんこう", "あくでんこう"],
-    book: { ja: "{登山隊|とざんたい}は、__**{悪天候|あくてんこう}**をものともせず__、ついに{登頂|とうちょう}に成功した。", en: "Undeterred by the bad weather, the climbing party finally reached the summit.", at: "gp/94" },
+    book: { ja: "{登山隊|とざんたい}は、__**{悪天候|あくてんこう}**をものともせず__、ついに{登頂|とうちょう}に成功した。", en: "Undaunted by the bad weather, the climbing party finally succeeded in reaching the summit.", at: "gp/94" },
     ex: [
       { ja: "**{悪天候|あくてんこう}**のため、{本日|ほんじつ}の{花火大会|はなびたいかい}は{中止|ちゅうし}です。", en: "Due to bad weather, today's fireworks display is canceled.", alt: ["{悪循環|あくじゅんかん}", "{悪趣味|あくしゅみ}", "{好天|こうてん}"] },
     ] },
@@ -226,7 +226,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "harsh, severe, grueling",
     note: "Conditions too hard to bear: 過酷な環境, 過酷な労働, 過酷なレース. 苛酷 is an alternative spelling. 厳しい is the everyday word; 残酷 is cruel (to living things).",
     rx: ["かごく", "かこう", "かっこく"],
-    book: { ja: "__{砂漠|さばく}の**{過酷|かこく}**な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。", en: "Undeterred by the desert's harsh environment and mechanical trouble, they drove all 12,000 km.", at: "gp/94" },
+    book: { ja: "__{砂漠|さばく}の**{過酷|かこく}**な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。", en: "Braving the harsh desert environment and mechanical trouble, they drove the full 12,000 km.", at: "gp/94" },
     ex: [
       { ja: "{工場|こうじょう}の{労働者|ろうどうしゃ}たちは、**{過酷|かこく}**な{条件|じょうけん}で{働|はたら}かされていた。", en: "The factory workers were made to work under grueling conditions.", alt: ["{過去|かこ}", "{過剰|かじょう}", "{酷似|こくじ}"] },
     ] },
@@ -640,7 +640,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "suitable, appropriate, worthy of; befitting",
     note: "〜に相応しい: 値段に相応しい味, 社長に相応しい人物, この場に相応しくない服装. Usually written in kana (ふさわしい). 相応 (そうおう) alone means “commensurate”: 年相応.",
     rx: ["そうおうしい", "あいおうしい", "ふさはしい"],
-    book: { ja: "この料理は__値段に**{相応|ふさわ}しい**味とは言いかねる__。", en: "It would be hard to say this dish tastes as good as its price.", at: "gp/105" },
+    book: { ja: "この料理は__値段に**{相応|ふさわ}しい**味とは言いかねる__。", en: "I can hardly say this dish tastes good enough to justify its price.", at: "gp/105" },
     ex: [
       { ja: "{面接|めんせつ}には、その{場|ば}に**{相応|ふさわ}しい**{服装|ふくそう}で{行|い}きましょう。", en: "Go to the interview dressed appropriately for the occasion.", alt: ["{騒|さわ}がしい", "{紛|まぎ}らわしい", "{慌|あわ}ただしい"] },
     ] },
@@ -843,7 +843,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "managing both, balancing (two things); compatibility",
     note: "仕事と育児を両立させる (balance work and child-rearing), 勉強と部活の両立, 両立しない (incompatible). Takes と: AとBを両立する.",
     rx: ["りょうたち", "りょりつ", "りょうりゅう"],
-    book: { ja: "{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の**{両立|りょうりつ}**が{難|むずか}しいこと", en: "That it is hard to balance studying at university and at the vocational school", at: "ch/8/review" },
+    book: { ja: "{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の**{両立|りょうりつ}**が{難|むずか}しいこと", en: "Balancing university and vocational-school studies", at: "ch/8/review" },
     ex: [
       { ja: "{仕事|しごと}と{子育|こそだ}ての**{両立|りょうりつ}**は、{簡単|かんたん}なことではない。", en: "Balancing work and raising children is not easy.", alt: ["{独立|どくりつ}", "{起立|きりつ}", "{両替|りょうがえ}"] },
     ] },

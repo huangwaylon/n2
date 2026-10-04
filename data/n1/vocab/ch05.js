@@ -769,7 +769,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "sharing (of work or costs); division of labor; one's share",
     note: "Splitting a job or expense among people: 家事の分担, 役割分担 (division of roles), 費用を分担する. 担当 is being in charge of something; 分担 is dividing it up.",
     rx: ["ふんたん", "ぶんだん", "ぶんたい"],
-    book: { ja: "忙しさにかこつけて、家事の**{分担|ぶんたん}**、さぼらないでよ。", en: "Don't use being busy as an excuse to skip your share of the housework.", at: "ch/5/review" },
+    book: { ja: "忙しさにかこつけて、家事の**{分担|ぶんたん}**、さぼらないでよ。", en: "Don't use being busy as an excuse to get out of your share of the housework.", at: "ch/5/review" },
     ex: [
       { ja: "{共働|ともばたら}きの{夫婦|ふうふ}が{家事|かじ}を**{分担|ぶんたん}**するのは、{当|あ}たり{前|まえ}になってきた。", en: "It has become normal for dual-income couples to share the housework.", alt: ["{分解|ぶんかい}", "{分類|ぶんるい}", "{分析|ぶんせき}"] },
     ] },

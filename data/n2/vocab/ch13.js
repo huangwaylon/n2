@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "development (of a story or situation); plot; to unfold",
     note: "How a story, argument or situation moves forward: 話の展開 (the plot), 意外な展開 (an unexpected turn), 試合が有利に展開する. In business it also means rolling something out: 全国に店舗を展開する (expand stores nationwide). Don't confuse it with 発展 (growth).",
     rx: ["てんがい", "でんかい", "てんけい"],
-    book: { ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に{同情|どうじょう}しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある**{展開|てんかい}**をお楽しみいただけると思います。", en: "In the first half, I'd like you to watch while sympathizing with the main character, and from the second half on, I think you'll enjoy a fast-paced plot with both mystery and action scenes.", at: "ch/13/review" },
+    book: { ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に{同情|どうじょう}しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある**{展開|てんかい}**をお楽しみいただけると思います。", en: "In the first half, I'd like viewers to watch while sympathizing with the main character, and from the second half on, I think they'll enjoy a fast-paced story with both mystery and action scenes.", at: "ch/13/review" },
     ex: [
       { ja: "{話|はなし}は{最後|さいご}に{意外|いがい}な**{展開|てんかい}**を{見|み}せた。", en: "The story took an unexpected turn at the end.", alt: ["{開店|かいてん}", "{展示|てんじ}", "{開発|かいはつ}"] },
       { ja: "その{会社|かいしゃ}はアジア{各地|かくち}に{店舗|てんぽ}を**{展開|てんかい}**している。", en: "That company has expanded its stores across Asia." },
@@ -711,7 +711,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "sympathy; compassion; to feel sorry for",
     note: "〜に同情する (sympathize with), 同情を買う / 集める (win sympathy). It can sound condescending: 同情なんかいらない (I don't need your pity). 共感 is agreeing with or sharing someone's feelings.",
     rx: ["どうせい", "とうじょう", "どうじょ"],
-    book: { ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に**{同情|どうじょう}**しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある{展開|てんかい}をお楽しみいただけると思います。", en: "In the first half, I'd like you to watch while sympathizing with the main character, and from the second half on, I think you'll enjoy a fast-paced plot with both mystery and action scenes.", at: "ch/13/review" },
+    book: { ja: "{前半|ぜんはん}は{主人公|しゅじんこう}に**{同情|どうじょう}**しつつ見ていただいて、{後半|こうはん}からはミステリーもあれば、アクション{場面|ばめん}も出てくるようなスピード感のある{展開|てんかい}をお楽しみいただけると思います。", en: "In the first half, I'd like viewers to watch while sympathizing with the main character, and from the second half on, I think they'll enjoy a fast-paced story with both mystery and action scenes.", at: "ch/13/review" },
     ex: [
       { ja: "{被災者|ひさいしゃ}に**{同情|どうじょう}**して、{寄付|きふ}をする{人|ひと}が{多|おお}かった。", en: "Many people felt for the disaster victims and made donations.", alt: ["{友情|ゆうじょう}", "{同意|どうい}", "{事情|じじょう}"] },
     ] },

@@ -598,7 +598,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "to switch; to change over (one's mindset, a setting)",
     note: "気持ちを切り替える (put something behind you and refocus), 電源を切り替える, 頭を切り替える. The noun is 切り替え (気持ちの切り替えが早い).",
     rx: ["きりかわる", "せつりかえる", "きりがえる"],
-    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "Yes, I understand. I'll change my mindset starting now.", at: "ch/11/review" },
+    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "Yes, I understand. I'll get myself into the right frame of mind starting now.", at: "ch/11/review" },
     ex: [
       { ja: "{失敗|しっぱい}したことは{忘|わす}れて、{気持|きも}ちを**{切|き}り{替|か}えよう**。", en: "Let's forget about the mistake and move on.", alt: ["{取|と}り{替|か}えよう", "{切|き}り{捨|す}てよう", "{切|き}り{抜|ぬ}けよう"] },
     ] },

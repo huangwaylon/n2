@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "reversal, turnaround; coming from behind (to win)",
     note: "Sports and fortunes: 逆転勝ち (a come-from-behind win), 逆転される (have one's lead overturned), 立場が逆転する (the roles are reversed).",
     rx: ["ぎゃくでん", "ぎゃっくてん", "さかてん"],
-    book: { ja: "きのうの試合見た？　まさかあんなところで**{逆転|ぎゃくてん}**されるとはなあ……。", en: "Did you see yesterday's game? Who'd have thought they'd get overtaken at a point like that...", at: "ch/3/review" },
+    book: { ja: "きのうの試合見た？　まさかあんなところで**{逆転|ぎゃくてん}**されるとはなあ……。", en: "Did you see yesterday's game? Who'd have thought they'd get overtaken at a point like that…", at: "ch/3/review" },
     ex: [
       { ja: "{最終回|さいしゅうかい}にホームランが出て、チームは**{逆転|ぎゃくてん}**勝ちした。", en: "A home run in the final inning gave the team a come-from-behind win.", alt: ["{回転|かいてん}", "{反転|はんてん}", "{運転|うんてん}"] },
     ] },

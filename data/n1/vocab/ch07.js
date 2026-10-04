@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "こじれる", lv: "N1", pos: "verb (intransitive)",
     en: "to get complicated, go wrong, turn sour (a problem, relationship); to linger and worsen (an illness)",
     note: "話がこじれる (talks break down), 関係がこじれる, 風邪をこじらせる (let a cold get worse — the transitive こじらせる). Always negative in tone; 複雑になる is the neutral “become complicated.”",
-    book: { ja: "すぐ{謝|あやま}ればすんだものを、問題が**こじれ**てしまったじゃないか。", en: "If you had apologized right away that would have been the end of it — now the problem has gotten messy, hasn't it?", at: "gp/75" },
+    book: { ja: "すぐ{謝|あやま}ればすんだものを、問題が**こじれ**てしまったじゃないか。", en: "If you'd apologized right away that would have been the end of it — now the problem has gotten complicated!", at: "gp/75" },
     ex: [
       { ja: "{遺産|いさん}の問題で兄弟の関係が**こじれ**てしまった。", en: "The siblings' relationship turned sour over the inheritance.", alt: ["ほぐれ", "まとまっ", "おさまっ"] },
     ] },
@@ -448,7 +448,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "(the view) below one's eyes; beneath one",
     note: "Literary and descriptive, for views from a height: 眼下に広がる街並み, 眼下に海を見下ろす. Not to be confused with 眼科 (がんか, ophthalmology), which sounds the same.",
     rx: ["めした", "がんげ", "げんか"],
-    book: { ja: "**{眼下|がんか}**に広がる{紅葉|こうよう}の美しいことといったらないね。", en: "The autumn leaves spreading out below us are indescribably beautiful.", at: "gp/83" },
+    book: { ja: "**{眼下|がんか}**に広がる{紅葉|こうよう}の美しいことといったらないね。", en: "The autumn leaves spread out below us are beautiful beyond words.", at: "gp/83" },
     ex: [
       { ja: "{展望台|てんぼうだい}からは、**{眼下|がんか}**に{港|みなと}の{夜景|やけい}が広がっていた。", en: "From the observation deck, the night view of the harbor spread out below us.", alt: ["{眼科|がんか}", "{目下|もっか}", "{真上|まうえ}"] },
     ] },

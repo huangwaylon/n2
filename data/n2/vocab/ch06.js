@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "market (in the economic sense)",
     note: "Read しじょう for the abstract market: 市場価値 (market value), 国際市場, 株式市場 (stock market). Read いちば, it is a physical marketplace (魚市場, うおいちば).",
     rx: ["しば", "いちじょう", "しっじょう"],
-    book: { ja: "{消費者|しょうひしゃ}のニーズを{追求|ついきゅう}することが、世界**{市場|しじょう}**で{勝|か}つということ", en: "That pursuing consumer needs is how you win in the world market", at: "ch/6/review" },
+    book: { ja: "{消費者|しょうひしゃ}のニーズを{追求|ついきゅう}することが、世界**{市場|しじょう}**で{勝|か}つということ", en: "That pursuing consumers' needs is how you win in the global market", at: "ch/6/review" },
     ex: [
       { ja: "{海外|かいがい}の**{市場|しじょう}**に{進出|しんしゅつ}する{日本|にほん}{企業|きぎょう}が{増|ふ}えている。", en: "More and more Japanese companies are expanding into overseas markets.", alt: ["{立場|たちば}", "{市民|しみん}", "{登場|とうじょう}"] },
     ] },

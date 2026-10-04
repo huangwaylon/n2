@@ -24,11 +24,47 @@ const gpText = new Map();
 T.chapters.filter(Boolean).forEach((c) => c.parts.forEach((p) => p.points.forEach((g) => gpText.set(g.no, { ch: c.id, s: strings(g).map(bare) }))));
 
 // lines whose English the book prints (N2 titles, can-do, usage, notes): a book sentence quoted from one keeps it
-// and our translations of the other lines: a quoted line keeps the chapter's English (copies drifted as it was revised)
+// and our translations of the other lines: a quoted line keeps the chapter's English (copies drifted as it was revised).
+// Exercise lines are rebuilt the way the page shows them answered (data/SCHEMA.md "Exercises"): （　）/＿＿ filled with the
+// answer, match left + right[answer], order before + pieces + after, passage [n] filled, text / script / options ↔ en
 const bookEn = new Map(), lineEn = new Map();
+const addEn = (ja, en) => { if (typeof ja !== "string" || typeof en !== "string" || !ja) return; const k = bare(ja); if (!lineEn.has(k)) lineEn.set(k, new Set()); lineEn.get(k).add(en.replace(/\*\*/g, "").replace(OPTS_EN, "")); };
+// a meaning-choice item's English ends with its options glossed, "… (a. … b. … c. …)" (N1 ch7): the line is what precedes
+const SP = "[ 　]*", OPTS_EN = /\s*\((?:a|1)\. [^]*\)$/;
+const fillAll = (q, re, list) => { let k = 0; return list.length ? q.replace(re, (m) => (k < list.length ? list[k++] : m)) : q; };
+const opt = (p) => (p && p.options && Number.isInteger(p.answer) ? p.options[p.answer] : null);
+function answered(it, type) {
+  let q = it.q;
+  if (typeof q !== "string") return null;
+  if (it.parts) {
+    for (const p of it.parts) { const a = opt(p); if (a == null) return null; q = q.replace(new RegExp(`${SP}（${SP}${p.tag}${SP}）${SP}`), a); }
+    return q;
+  }
+  if (/（[ 　]+）/.test(q)) { const a = opt(it); return a == null ? null : q.replace(new RegExp(`${SP}（[ 　]+）${SP}`, "g"), a); }
+  const n = (q.match(/＿＿/g) || []).length;
+  if (!n) return q;
+  let a = it.answer;
+  if (type === "write") a = String([].concat(a)[0]).split(n > 1 ? /[／・]/ : /$^/);
+  else if (!Array.isArray(a)) a = n > 1 ? String(a).split("・") : [a];
+  return a.length === n ? fillAll(q, new RegExp(`${SP}＿＿${SP}`, "g"), a) : null;
+}
 T.chapters.filter(Boolean).forEach((c) => (function walk(o, p) {
   if (!o || typeof o !== "object") return;
-  if (typeof o.ja === "string" && o.en) (isBookEnglish(T, p, o) ? bookEn : lineEn).set(bare(o.ja), o.en);
+  if (typeof o.ja === "string" && o.en) {
+    if (isBookEnglish(T, p, o)) bookEn.set(bare(o.ja), o.en); else addEn(o.ja, o.en);
+  }
+  const t = o.type;
+  if (typeof t === "string" && Array.isArray(o.items) || t === "match" || t === "passage") {
+    (o.items || []).forEach((it) => {
+      if (t === "order" && it.pieces && it.order) addEn((it.before || "") + it.order.map((j) => it.pieces[j]).join("") + (it.after || ""), it.en);
+      else addEn(answered(it, t), it.en);
+      if (it.question) addEn(it.question, it.questionEn);
+      (it.options || []).forEach((x, j) => addEn(x, (it.optionsEn || [])[j]));
+      if (Array.isArray(it.script) && Array.isArray(it.en)) it.script.forEach((l, j) => addEn(l.ja, it.en[j]));
+    });
+    if (t === "match") (o.left || []).forEach((l, i) => addEn(l + (o.right || [])[(o.answer || [])[i]], (o.en || [])[i]));
+    if (Array.isArray(o.text) && Array.isArray(o.en)) o.text.forEach((s, i) => addEn(t === "passage" ? s.replace(/\[(\d+)\]/g, (m, d) => opt((o.blanks || [])[d - 1]) ?? m) : s, o.en[i]));
+  }
   Object.entries(o).forEach(([k, v]) => walk(v, p ? `${p}.${k}` : k));
 })(c, ""));
 
@@ -88,7 +124,7 @@ for (const v of T.vocab) {
       const be = bookEn.get(plainJa);
       if (be != null && (x.book.src !== "book" || x.book.en !== be)) E(id, `book sentence is a line the book translates: src: "book", en: ${JSON.stringify(be)}`);
       const le = lineEn.get(plainJa);
-      if (le != null && x.book.en !== le.replace(/\*\*/g, "")) E(id, `book.en differs from the chapter's translation: ${JSON.stringify(le)}`);
+      if (be == null && le != null && !le.has(x.book.en)) E(id, `book.en differs from the chapter's translation: ${[...le].map((e) => JSON.stringify(e)).join(" or ")}`);
       if (be == null && x.book.src === "book") E(id, "src: \"book\" but the book prints no English for this line");
     }
     // the kanji part of the headword in an earlier chapter's text → it belongs to that chapter's list; an occurrence
