@@ -24,7 +24,7 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | Unit | Round 2 |
 |---|---|
 | N2 ch01–04 | done (97 strings + 11 vocab; 17 compare copies synced) |
-| N2 ch05–08 | running |
+| N2 ch05–08 | done (86 strings + 12 vocab; compare 18 synced; ch06 reading why named the wrong option) |
 | N2 ch09–11 | done (82 strings + 24 vocab; #93 まいか deepDive contradiction fixed) |
 | N2 ch12–14, compare | done (75 strings + 9 vocab; compare 10) |
 | N1 ch01–03 | done (52 strings incl. 7 deepDive/why fixes; 50 vocab) |
@@ -32,4 +32,5 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | N1 ch07–10, compare | running |
 | Q1 L1–3 | running |
 | Q1 L4–6, challenge, front | running |
-| Q2 L7–12 | |
+| Q2 L7–9 | running |
+
