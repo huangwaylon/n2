@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "herbivorous; plant-eating",
     note: "Mostly in 草食動物 (herbivore), contrasted with 肉食 (carnivorous) and 雑食 (omnivorous). The slang 草食系男子 describes young men who are passive about romance.",
     rx: ["くさしょく", "そうじき", "そうしょっく"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "On the other hand, however, wolves have also played the role of preventing herbivores such as deer from becoming too numerous, and so protecting the balance of nature.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a part in keeping herbivores such as deer from multiplying too much, and so in protecting the balance of nature.", at: "ch/7" },
     ex: [
       { ja: "ウサギや{馬|うま}は**{草食|そうしょく}**の{動物|どうぶつ}だ。", en: "Rabbits and horses are plant-eating animals.", alt: ["{主食|しゅしょく}", "{和食|わしょく}", "{草原|そうげん}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "role; part; function",
     note: "Usually with 果たす: 役割を果たす (play a role, fulfill a function). 役割分担 is the division of roles. 役目 is close but feels more like a personal duty, and 役 is also a part in a play.",
     rx: ["やくかつ", "えきわり", "やくわれ"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "On the other hand, however, wolves have also played the role of preventing herbivores such as deer from becoming too numerous, and so protecting the balance of nature.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a part in keeping herbivores such as deer from multiplying too much, and so in protecting the balance of nature.", at: "ch/7" },
     ex: [
       { ja: "{家庭|かてい}での{父親|ちちおや}の**{役割|やくわり}**は、{昔|むかし}とはずいぶん{変|か}わった。", en: "The father's role in the home has changed a lot from the past.", alt: ["{割合|わりあい}", "{役所|やくしょ}", "{割引|わりびき}"] },
     ] },
@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["もくけきしゃ", "めげきしゃ", "もくげきじゃ"],
     book: { ja: "**{目撃者|もくげきしゃ}**の{証言|しょうげん}からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
     ex: [
-      { ja: "**{目撃者|もくげきしゃ}**の{話|はなし}によると、{車|くるま}は{赤信号|あかしんごう}を{無視|むし}して{走|はし}ってきたそうだ。", en: "According to an eyewitness, the car came through ignoring a red light.", alt: ["{視聴者|しちょうしゃ}", "{利用者|りようしゃ}", "{経営者|けいえいしゃ}"] },
+      { ja: "**{目撃者|もくげきしゃ}**の{話|はなし}によると、{車|くるま}は{赤信号|あかしんごう}を{無視|むし}して{走|はし}ってきたそうだ。", en: "According to an eyewitness, the car ran a red light.", alt: ["{視聴者|しちょうしゃ}", "{利用者|りようしゃ}", "{経営者|けいえいしゃ}"] },
     ] },
   { w: "{証言|しょうげん}", lv: "N1", pos: "noun · する verb",
     en: "testimony; statement (of a witness); to testify",
@@ -133,7 +133,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ふくすい", "ふくかず", "ほくすう"],
     book: { ja: "{目撃者|もくげきしゃ}の{証言|しょうげん}からすると、{犯人|はんにん}は**{複数|ふくすう}**のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
     ex: [
-      { ja: "この{問題|もんだい}には、**{複数|ふくすう}**の{解決方法|かいけつほうほう}が{考|かんが}えられる。", en: "Several ways of solving this problem can be imagined.", alt: ["{複雑|ふくざつ}", "{多数決|たすうけつ}", "{重複|ちょうふく}"] },
+      { ja: "この{問題|もんだい}には、**{複数|ふくすう}**の{解決方法|かいけつほうほう}が{考|かんが}えられる。", en: "There are several possible ways to solve this problem.", alt: ["{複雑|ふくざつ}", "{多数決|たすうけつ}", "{重複|ちょうふく}"] },
     ] },
   { w: "{買|か}い{換|か}える", lv: "N2", pos: "verb (ichidan, transitive)",
     en: "to replace (something) by buying a new one",
@@ -277,7 +277,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["そっめん", "がわめん", "そくめい"],
     book: { ja: "{難民問題|なんみんもんだい}は{人道的|じんどうてき}な問題であるのみならず、{近隣諸国|きんりんしょこく}にも{影響|えいきょう}を{及|およ}ぼす{政治的|せいじてき}な**{側面|そくめん}**もある。", en: "The refugee problem is not only a humanitarian issue; it also has a political side that affects neighboring countries.", at: "gp/63" },
     ex: [
-      { ja: "{観光|かんこう}には、{地域|ちいき}の{経済|けいざい}を{支|ささ}えるという**{側面|そくめん}**もある。", en: "Tourism also has the aspect of supporting the local economy.", alt: ["{正面|しょうめん}", "{画面|がめん}", "{側近|そっきん}"] },
+      { ja: "{観光|かんこう}には、{地域|ちいき}の{経済|けいざい}を{支|ささ}えるという**{側面|そくめん}**もある。", en: "Tourism also has another side: it supports the local economy.", alt: ["{正面|しょうめん}", "{画面|がめん}", "{側近|そっきん}"] },
     ] },
   { w: "{引|ひ}き{取|と}る", lv: "N1", pos: "verb (godan, transitive)",
     en: "to take in (a person or animal); to take back or collect (goods)",
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "going smoothly; favorable; without problems",
     note: "Things proceeding as planned: 順調に進む, 仕事は順調だ, 経過は順調です (the patient is doing well). 快調 means “in excellent shape,” and 単調 means “monotonous.”",
     rx: ["じゅんちょ", "じゅうちょう", "しゅんちょう"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として**{順調|じゅんちょう}**に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として**{順調|じゅんちょう}**に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{工事|こうじ}は**{順調|じゅんちょう}**に{進|すす}んでおり、{来月|らいげつ}には{完成|かんせい}する{予定|よてい}だ。", en: "Construction is progressing smoothly and is scheduled to be finished next month.", alt: ["{順番|じゅんばん}", "{強調|きょうちょう}", "{単調|たんちょう}"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "sharp decrease; plunge",
     note: "A written and news word: 人口 / 売り上げが激減する. The opposite is 激増 (sharp rise, like 急増). 削減 is a deliberate cut, and 激減 is a drop that just happens.",
     rx: ["げきけん", "きょくげん", "げっげん"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は**{激減|げきげん}**したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は**{激減|げきげん}**したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{不漁|ふりょう}が{続|つづ}き、この{港|みなと}の{水揚|みずあ}げは**{激減|げきげん}**した。", en: "After a run of poor catches, the amount of fish landed at this port plunged.", alt: ["{激増|げきぞう}", "{削減|さくげん}", "{加減|かげん}"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "gradually; little by little",
     note: "A slightly formal 少しずつ: 徐々に回復する / 増える / 慣れる. だんだん is more casual, and 次第に is similar but more literary. It describes slow, steady change, never sudden change.",
     rx: ["じょうじょに", "しょしょに", "じょじょうに"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、**{徐々|じょじょ}に**{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, as the wolves steadily increased in number by feeding on deer, it has been reported that other animals and plants, which had once declined sharply, are also gradually increasing.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、**{徐々|じょじょ}に**{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{薬|くすり}を{飲|の}み{始|はじ}めてから、{熱|ねつ}は**{徐々|じょじょ}に**{下|さ}がってきた。", en: "Since I started taking the medicine, my fever has gradually come down.", alt: ["{共|とも}に", "{特|とく}に", "{直|じか}に"] },
     ] },
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "abnormal weather; extreme weather",
     note: "A fixed news term. 異常 (abnormal) also appears in 異常な暑さ and 異常事態. The look-alike 異状 is used in 異状なし (nothing wrong).",
     rx: ["いじょうけしょう", "いしょうきしょう", "いじょうきそう"],
-    book: { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}が世界{各地|かくち}に広がりつつある。", en: "The effects of abnormal weather are spreading to all parts of the world.", at: "gp/71" },
+    book: { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}が世界{各地|かくち}に広がりつつある。", en: "The effects of abnormal weather are gradually spreading to all parts of the world.", at: "gp/71" },
     ex: [
       { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}で、{野菜|やさい}の{値段|ねだん}が{上|あ}がっている。", en: "Vegetable prices are rising because of the abnormal weather.", alt: ["{天気予報|てんきよほう}", "{気象庁|きしょうちょう}", "{異文化|いぶんか}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily growing, a sense of coexistence is more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, an awareness of living together is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily growing, a sense of coexistence is more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
@@ -611,7 +611,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "saving electricity; cutting power use",
     note: "節電する, 節電を心がける. Related 節水 (saving water), 節約 (saving in general). 停電 is a power outage.",
     rx: ["せっでん", "せつてん", "ふしでん"],
-    book: { ja: "{環境対策|かんきょうたいさく}のためにも、夏に{限|かぎ}らず、{年間|ねんかん}を通して**{節電|せつでん}**を心がけるべきだ。", en: "For the sake of environmental measures too, we should try to save electricity throughout the year, not just in summer.", at: "gp/72" },
+    book: { ja: "{環境対策|かんきょうたいさく}のためにも、夏に{限|かぎ}らず、{年間|ねんかん}を通して**{節電|せつでん}**を心がけるべきだ。", en: "For the environment's sake as well, we should make a point of saving electricity all year round, not just in summer.", at: "gp/72" },
     ex: [
       { ja: "{夏|なつ}はエアコンの{温度|おんど}を{上|あ}げて**{節電|せつでん}**しよう。", en: "In summer, let's save electricity by setting the air conditioner a little warmer.", alt: ["{停電|ていでん}", "{充電|じゅうでん}", "{感電|かんでん}"] },
     ] },
