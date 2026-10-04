@@ -618,7 +618,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["いっそん", "いちそん", "いちぞう"],
     book: { ja: "私の**{一存|いちぞん}**ではお答えいたしかねますので、店長を呼んでまいります。", en: "I'm afraid I can't answer that on my own authority, so I'll go and get the store manager.", at: "gp/105" },
     ex: [
-      { ja: "{値引|ねび}きについては、{私|わたし}の**{一存|いちぞん}**では{決|き}められません。", en: "I can't decide on a discount at my own discretion.", alt: ["{一因|いちいん}", "{保存|ほぞん}", "{一任|いちにん}"] },
+      { ja: "{値引|ねび}きについては、{私|わたし}の**{一存|いちぞん}**では{決|き}められません。", en: "I can't decide on a discount on my own authority.", alt: ["{一因|いちいん}", "{保存|ほぞん}", "{一任|いちにん}"] },
     ] },
   { w: "{里|さと}", lv: "N1", pos: "noun",
     en: "village, countryside; one's family home (esp. a wife's parents' home)",
