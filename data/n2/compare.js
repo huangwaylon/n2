@@ -322,7 +322,7 @@ TRY.registerCompare([
         ex: { ja: "あくびした**ところ**を写真に{撮|と}られたって、{佐藤|さとう}さん、{怒|おこ}ってたよ。", en: "Sato was mad that someone snapped a photo of them mid-yawn." },
         note: "V-ている / V-た + ところを + 見る, 撮る, 見つかる, etc.: the moment in which someone is seen or caught doing something." },
       { pattern: "Vところだった", level: "N2", no: 89,
-        ex: { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、{危|あや}うく{遅刻|ちこく}する**ところだった**よ。", en: "I overslept by a whole 30 minutes this morning and very nearly ended up late." },
+        ex: { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、{危|あや}うく{遅刻|ちこく}する**ところだった**よ。", en: "I overslept by a whole 30 minutes this morning and was very nearly late." },
         note: "V-る + ところだった: \"almost / very nearly\" (but it didn't happen). Usually something bad narrowly escaped, often with 危うく or もう少しで." },
       { pattern: "〜どころじゃない", level: "N2", no: 38,
         ex: { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケ**どころじゃない**よ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: Karaoke's out of the question! I have to write my report. It's due tomorrow." },

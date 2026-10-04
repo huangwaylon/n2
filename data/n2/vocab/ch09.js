@@ -193,7 +193,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "automatic",
     note: "Mostly as 自動的に (automatically). 自動 is the noun (自動ドア, 自動車); 機械的に means “mechanically, without thinking.”",
     rx: ["じどうでき", "しどうてき", "じとうてき"],
-    book: { ja: "このホテルのドアは閉めると**{自動的|じどうてき}**にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。", en: "The doors in this hotel lock automatically when closed, so please be sure to take this card key with you when you go out.", at: "gp/81" },
+    book: { ja: "このホテルのドアは閉めると**{自動的|じどうてき}**にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。", en: "The doors in this hotel are designed to lock automatically when closed, so please be sure to take this card key with you whenever you go out.", at: "gp/81" },
     ex: [
       { ja: "{毎月|まいつき}の{家賃|やちん}は、{口座|こうざ}から**{自動的|じどうてき}**に{引|ひ}き{落|お}とされる。", en: "The monthly rent is automatically debited from my bank account.", alt: ["{積極的|せっきょくてき}", "{個人的|こじんてき}", "{具体的|ぐたいてき}"] },
     ] },
@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ignition; lighting; catching fire",
     note: "Technical/written: 着火する, 着火剤 (fire starter), 着火部分. 点火 is deliberately igniting (点火装置); 発火 is catching fire, often spontaneously. Everyday: 火がつく / 火をつける.",
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
-    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "On this lighter, the ignition is made stiff so that it won't light even if a child plays with it.", at: "gp/81" },
+    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood is hard to get lit.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },
@@ -238,7 +238,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "shaking; tremor; swaying",
     note: "From 揺れる: 地震の揺れ, 大きな揺れ, 揺れを感じる; 横揺れ / 縦揺れ (side-to-side / up-and-down shaking). Transitive verbs: 揺らす, 揺する.",
     rx: ["ようれ", "ゆうれ", "ふれ"],
-    book: { ja: "このストーブは少しの**{揺|ゆ}れ**でも、{自動的|じどうてき}に火が消える（　）。", en: "This heater is designed so that the flame goes out automatically at even the slightest shaking.", at: "gp/81" },
+    book: { ja: "このストーブは少しの**{揺|ゆ}れ**でも、{自動的|じどうてき}に火が消える（　）。", en: "This heater is designed so that the flame goes out automatically at even the slightest jolt.", at: "gp/81" },
     ex: [
       { ja: "{昨夜|さくや}の{地震|じしん}では、{東京|とうきょう}でも{強|つよ}い**{揺|ゆ}れ**を{感|かん}じた。", en: "Strong shaking from last night's earthquake was felt even in Tokyo.", alt: ["{崩|くず}れ", "{汚|よご}れ", "{流|なが}れ"] },
     ] },
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "local area; one's hometown; the locals",
     note: "地元の人 (locals), 地元の野菜, 地元に帰る (go back to one's hometown). 故郷 / ふるさと is more emotional; 現地 is “the place in question, on site.”",
     rx: ["ちげん", "じもど", "ちもと"],
-    book: { ja: "{桜|さくら}の{季節|きせつ}には道という道に{観光客|かんこうきゃく}があふれ、**{地元|じもと}**の人間にとっては{迷惑|めいわく}な話だ。", en: "In cherry blossom season every street overflows with tourists, which is a real nuisance for the locals.", at: "gp/88" },
+    book: { ja: "{桜|さくら}の{季節|きせつ}には道という道に{観光客|かんこうきゃく}があふれ、**{地元|じもと}**の人間にとっては{迷惑|めいわく}な話だ。", en: "In cherry blossom season every single street is packed with tourists, which is a real nuisance for the locals.", at: "gp/88" },
     ex: [
       { ja: "この{店|みせ}では、**{地元|じもと}**でとれた{野菜|やさい}を{使|つか}っている。", en: "This restaurant uses vegetables grown locally.", alt: ["{足元|あしもと}", "{手元|てもと}", "{地下|ちか}"] },
     ] },
