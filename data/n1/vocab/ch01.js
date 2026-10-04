@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to drift, float; (of a smell or mood) to hang in the air",
     note: "Literally drifting on water or in the air (波に漂う); very often figurative for smells and atmospheres: いい香りが漂う, 緊張感が漂う. 〜の漂う + noun (a place where ~ hangs in the air) is a set written pattern.",
     rx: ["たたよう", "ひょうう", "ひたよう"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
     ex: [
       { ja: "{台所|だいどころ}からカレーのいい{香|かお}りが**{漂|ただよ}って**きた。", en: "A nice smell of curry drifted in from the kitchen.", alt: ["{迷|まよ}って", "{浮|う}かんで", "{揺|ゆ}れて"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "day after day; every day (for a run of days)",
     note: "Common in news: 連日の猛暑 (heat day after day), 連日満員 (sold out every day). It refers to a stretch of consecutive days, while 毎日 is simply every day. The night version is 連夜.",
     rx: ["れんにち", "れいじつ", "れんび"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
     ex: [
       { ja: "{猛暑|もうしょ}が{続|つづ}き、**{連日|れんじつ}**35{度|ど}を{超|こ}える{暑|あつ}さとなっている。", en: "The heat wave continues, with temperatures above 35 degrees day after day.", alt: ["{翌日|よくじつ}", "{祝日|しゅくじつ}", "{先日|せんじつ}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "holding (a meeting, event or exhibition)",
     note: "The formal verb for hosting events: 大会を開催する, 開催地 (host city), 開催中 (now on). In conversation people say 開く, 行う or やる.",
     rx: ["かいざい", "がいさい", "かいさく"],
-    book: { ja: "今回のコンサートツアーは、{名古屋|なごや}で**{開催|かいさい}**されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "Kicking off with a concert in Nagoya, this tour is scheduled to go on to 20 cities across the country.", at: "gp/1" },
+    book: { ja: "今回のコンサートツアーは、{名古屋|なごや}で**{開催|かいさい}**されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "This concert tour is scheduled to kick off in Nagoya and go on to visit 20 cities across the country.", at: "gp/1" },
     ex: [
       { ja: "{市民|しみん}マラソン{大会|たいかい}は、{雨|あめ}のため**{開催|かいさい}**が{延期|えんき}された。", en: "The citizens' marathon was postponed because of rain.", alt: ["{開業|かいぎょう}", "{開発|かいはつ}", "{催促|さいそく}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "an average year; (in) other years, usually",
     note: "Refers to what happens in a normal year: 例年より早い (earlier than usual), 例年通り (as in other years), 例年並み (about normal for the season). 毎年 simply means every year and is not used as a standard of comparison in the same way.",
     rx: ["れいどし", "れいねい", "りょうねん"],
-    book: { ja: "今年は雨が少なく、**{例年|れいねん}**（　）暑さが{厳|きび}しい。", en: "There has been little rain this year, and the heat is even more severe than in an ordinary year.", at: "ch/1/review" },
+    book: { ja: "今年は雨が少なく、**{例年|れいねん}**（　）暑さが{厳|きび}しい。", en: "There has been little rain this year, and the heat is even more intense than usual.", at: "ch/1/review" },
     ex: [
       { ja: "{今年|ことし}の{梅雨|つゆ}{明|あ}けは**{例年|れいねん}**より1{週間|しゅうかん}ほど{早|はや}かった。", en: "The rainy season ended about a week earlier than usual this year.", alt: ["{定年|ていねん}", "{晩年|ばんねん}", "{周年|しゅうねん}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "attracting customers or visitors; drawing crowds",
     note: "A business and marketing word: 集客力 (pulling power), 集客数 (number of visitors), 集客イベント. In the sample 多くの集客 stands for the many visitors drawn in. 来客 is visitors arriving; 集客 is the act of drawing them.",
     rx: ["しゅきゃく", "しゅうかく", "じゅうきゃく"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
     ex: [
       { ja: "SNSを{活用|かつよう}して**{集客|しゅうきゃく}**に{成功|せいこう}した{店|みせ}も{多|おお}い。", en: "Many shops have succeeded in attracting customers by making use of social media.", alt: ["{乗客|じょうきゃく}", "{集会|しゅうかい}", "{観客|かんきゃく}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to expect, anticipate; to count on (someone's ability); to allow for",
     note: "Forecasting a result: 増収が見込まれる (an increase in revenue is expected); the noun is 見込み (prospect, estimate). It can also mean trusting someone's ability: 君を見込んで頼む (I'm asking you because I believe in you). The passive 見込まれる is typical of news.",
     rx: ["みごむ", "けんこむ", "みくむ"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
     ex: [
       { ja: "{来年度|らいねんど}は{売上|うりあげ}が1{割|わり}ほど{増|ふ}えると**{見込|みこ}まれて**いる。", en: "Sales are expected to rise by about 10 percent next fiscal year.", alt: ["{見逃|みのが}されて", "{見送|みおく}られて", "{見直|みなお}されて"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to create, produce; to give rise to",
     note: "Bringing something new into existence: 新しい技術 / 利益 / 名作を生み出す. It is more vivid than 作る and is used above all for ideas, value, works and results.",
     rx: ["なまみだす", "うみでだす", "せいみだす"],
-    book: { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを**生み出して**いった。", en: "Beginning with this novel becoming a bestseller, he went on to produce one popular series after another.", at: "gp/1" },
+    book: { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを**生み出して**いった。", en: "Starting with this novel, which became a bestseller, he went on to create one popular series after another.", at: "gp/1" },
     ex: [
       { ja: "{新|あたら}しいアイデアを**{生|う}み{出|だ}す**には、{自由|じゆう}な{環境|かんきょう}が{必要|ひつよう}だ。", en: "A free environment is needed to come up with new ideas.", alt: ["{飛|と}び{出|だ}す", "{逃|に}げ{出|だ}す", "{追|お}い{出|だ}す"] },
     ] },
@@ -185,7 +185,7 @@ TRY.registerVocab({ ch: 1, words: [
   { w: "にぎわう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be crowded and lively; to bustle; to thrive",
     note: "A place full of people and activity; the crowd takes で: 観光客でにぎわう. The noun is にぎわい. The kanji 賑わう is rarely required. Compare ごった返す, which adds a sense of chaotic crush.",
-    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "Today being the first Sunday of the summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
+    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "With today being the first Sunday of summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
     ex: [
       { ja: "{週末|しゅうまつ}の{商店街|しょうてんがい}は{買|か}い{物|もの}{客|きゃく}で**にぎわって**いた。", en: "On the weekend the shopping street was bustling with shoppers.", alt: ["にぎって", "ふるって", "なごんで"] },
     ] },
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to escape; to get away from; to evade (responsibility)",
     note: "Getting out of danger or out of something unpleasant: 危険から逃れる, 責任を逃れる / 責任逃れ (dodging responsibility). More formal and often more figurative than 逃げる; 免れる (to be spared) takes を.",
     rx: ["にがれる", "のかれる", "とうれる"],
-    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, there will probably be no choice but to resign.", at: "gp/5" },
+    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, the president will probably have no choice but to resign.", at: "gp/5" },
     ex: [
       { ja: "{都会|とかい}の{暑|あつ}さから**{逃|のが}れる**ため、{週末|しゅうまつ}は{山|やま}で{過|す}ごしている。", en: "To escape the city heat, I spend my weekends in the mountains.", alt: ["{外|はず}れる", "{崩|くず}れる", "{遅|おく}れる"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "resignation (from a post)",
     note: "Stepping down from a position such as minister, chairman or coach: 大臣を辞任する, 辞任に追い込まれる (be forced to resign). 辞職 is leaving one's job altogether; 退職 is leaving or retiring from a company.",
     rx: ["じいん", "しにん", "じにい"],
-    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, there will probably be no choice but to resign.", at: "gp/5" },
+    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, the president will probably have no choice but to resign.", at: "gp/5" },
     ex: [
       { ja: "{会長|かいちょう}は{健康上|けんこうじょう}の{理由|りゆう}で**{辞任|じにん}**した。", en: "The chairman stepped down for health reasons.", alt: ["{就任|しゅうにん}", "{担任|たんにん}", "{信任|しんにん}"] },
     ] },
@@ -480,7 +480,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "dim; gloomy; dusky",
     note: "Not completely dark but lacking light: 薄暗い部屋 / 路地, 夕方の薄暗い時間. 薄 (thin, light) also appears in 薄味 and 薄着; note the voiced ぐらい.",
     rx: ["はくぐらい", "うすくらい", "うすあんい"],
-    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "Starting with the lobby, this hotel is dim and smells musty.", at: "gp/6" },
+    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "This hotel is dim and smells musty, starting with the lobby.", at: "gp/6" },
     ex: [
       { ja: "**{薄暗|うすぐら}い**{部屋|へや}で{本|ほん}を{読|よ}むと{目|め}が{疲|つか}れる。", en: "Reading in a dim room strains your eyes.", alt: ["{薄|うす}っぺらい", "{心細|こころぼそ}い", "{腹黒|はらぐろ}い"] },
     ] },

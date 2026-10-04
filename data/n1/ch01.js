@@ -18,7 +18,7 @@ TRY.registerChapter({
           { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」**を{皮切|かわき}りに**、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の{敷地|しきち}で{繰|く}り{広|ひろ}げられる。", en: "Kicking off with the mayor of Munich tapping the first barrel, the world's largest beer festival will unfold over 16 days on a 42-hectare site (about nine times the size of Tokyo Dome)." },
           { cont: true, ja: "さすが世界一のビールの{本場|ほんば}**とあって**、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "Fittingly for the world's foremost home of beer, it draws more than six million tourists from countries all over the world every year." },
           { ja: "今年は、二〇〇周年という歴史的{節目|ふしめ}にあたることから、二〇〇年前のお祭りムードを{再現|さいげん}するヒストリーテントも特別に{設置|せっち}された。", en: "Since this year marks the historic milestone of the festival's 200th anniversary, a special History Tent recreating the festive mood of 200 years ago has also been set up." },
-          { cont: true, ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方**ならではの**ダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}**にもまして**、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races that you can only see in Bavaria are each scheduled to be held twice a day, every day, and even bigger crowds than in an ordinary year are expected." },
+          { cont: true, ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方**ならではの**ダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}**にもまして**、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected." },
           { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール{飲料|いんりょう}のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、家族{連|づ}れの{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling carnival with a merry-go-round and roller coasters, so many families can be seen there too." },
           { cont: true, ja: "今やビール{好|ず}きの大人はもとより小さな子ども**に{至|いた}るまで**、あらゆる人々が楽しめる国際的なイベントとなっている。", en: "It has now become an international event that everyone can enjoy — beer-loving adults, of course, and even small children." },
           { ja: "日本から来たという観光客の一人は、「さすが、{本場|ほんば}は{雰囲気|ふんいき}**からして**全く違う」と{興奮気味|こうふんぎみ}に語っていた。", en: "One tourist, who said they had come from Japan, remarked excitedly: “Just what you'd expect — the real home of beer is completely different, starting with the atmosphere.”" },
@@ -35,8 +35,8 @@ TRY.registerChapter({
           forms: ["[V-る]／[V-た] + の + を{皮切|かわき}りに（して）", "[V-る]／[V-た] + の + を{皮切|かわき}りとして", "[N] + を{皮切|かわき}りに（して）", "[N] + を{皮切|かわき}りとして"],
           examples: [
             { ja: "{中村監督|なかむらかんとく}の{新作|しんさく}映画は、来月{初旬|しょじゅん}にパリで行われる海外ロケを{皮切|かわき}りに、{本格的|ほんかくてき}な{撮影|さつえい}に入る。", en: "Director Nakamura's new film will begin full-scale shooting, starting with location work abroad in Paris early next month." },
-            { ja: "今回のコンサートツアーは、{名古屋|なごや}で{開催|かいさい}されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "Kicking off with a concert in Nagoya, this tour is scheduled to go on to 20 cities across the country." },
-            { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを生み出していった。", en: "Beginning with this novel becoming a bestseller, he went on to produce one popular series after another." },
+            { ja: "今回のコンサートツアーは、{名古屋|なごや}で{開催|かいさい}されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "This concert tour is scheduled to kick off in Nagoya and go on to visit 20 cities across the country." },
+            { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを生み出していった。", en: "Starting with this novel, which became a bestseller, he went on to create one popular series after another." },
           ],
           deepDive: "**〜を皮切りに** marks the first event in a series of similar events that follow one after another: *starting with ~*. 皮切り was originally the first moxa burn in moxibustion, hence *the very first of a sequence*. The series usually grows or spreads — a tour moving on to more cities, branches opening worldwide — which gives the pattern its upbeat, formal news-report tone.\n\nA verb clause needs の: 名古屋で開催される**の**を皮切りにして. を皮切りとして is stiffer still.\n\nCompare:\n- **〜をきっかけに** (N2): the first event triggers something of a different kind. 車椅子の学生の入学をきっかけに、ボランティアが組織された (*a wheelchair user's enrollment prompted the forming of a volunteer group*); the enrollment is not itself a volunteer activity, so を皮切りに fails.\n- **〜に至るまで** (#5) marks the far end of a range, and the two pair naturally: 東京を皮切りに新潟、秋田に至るまで (*from Tokyo all the way to Niigata and Akita*).\n- **Nを限りに** (#106) is the opposite end: *with N as the last time*.\n\nPitfall: using it for a one-off cause (✗この事故を皮切りに法律が変わった → ✓この事故をきっかけに).\n\nJLPT cue: a first event followed by 次々と, 各地で or 全国◯都市を回る points to を皮切りに.",
           see: [5, 106],
@@ -88,7 +88,7 @@ TRY.registerChapter({
           usage: { ja: "「〜とあって」は「特別な〜なので、普通と違う／他と違う状況になる」と言いたいときに使われる。社会的な現象や{客観的|きゃっかんてき}な事実について言うときに使う。", en: "〜とあって is used when you want to say “because it is a special ~, the situation is different from usual / different from elsewhere.” It is used when talking about social phenomena or objective facts." },
           forms: ["[Pl] + とあって\n［[なA]（だ）　[N]（だ）］"],
           examples: [
-            { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "Today being the first Sunday of the summer vacation, beaches all over the country were packed with people." },
+            { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "With today being the first Sunday of summer vacation, beaches all over the country were packed with people." },
             { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in." },
             { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、{遺伝学|いでんがく}の研究対象として注目されている。", en: "Because the shape of the panda's front paw is so unusual, it is attracting attention as a subject of genetic research." },
             { ja: "あのダ・ヴィンチのモナリザが見られるとあって、開館前から長い列ができたという。", en: "Since this was a chance to see none other than da Vinci's Mona Lisa, a long line reportedly formed even before the museum opened." },
@@ -242,7 +242,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from monkeys all the way to humans." },
                 { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の{介護靴|かいごぐつ}を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes for people needing nursing care." },
-                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, there will probably be no choice but to resign.", idiom: true },
+                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, the president will probably have no choice but to resign.", idiom: true },
               ],
             },
           ],
@@ -307,7 +307,7 @@ TRY.registerChapter({
                   q: "このホテルはロビー（　）{薄暗|うすぐら}くてかび{臭|くさ}い。",
                   options: ["からして", "からすると"],
                   answer: 0,
-                  en: "Starting with the lobby, this hotel is dim and smells musty.",
+                  en: "This hotel is dim and smells musty, starting with the lobby.",
                   why: { en: "The lobby is one example standing for the whole hotel (からして). からすると (judging from) would need an inference in the second half." },
                 },
                 {
@@ -363,7 +363,7 @@ TRY.registerChapter({
             q: "今年は雨が少なく、{例年|れいねん}（　）暑さが{厳|きび}しい。",
             options: ["を{皮切|かわき}りに", "に{至|いた}るまで", "ならでは", "にもまして"],
             answer: 3,
-            en: "There has been little rain this year, and the heat is even more severe than in an ordinary year.",
+            en: "There has been little rain this year, and the heat is even more intense than usual.",
             why: { en: "例年にもまして = even more than in an ordinary year; the heat is always severe, but this year more so." },
           },
           {
