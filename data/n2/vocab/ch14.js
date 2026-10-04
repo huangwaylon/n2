@@ -68,7 +68,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "philosophy; guiding principle; ideal",
     note: "The basic idea behind an organization or activity: 企業理念 (corporate philosophy), 基本理念, 建学の理念 (a school's founding principles). 理想 is the perfect state you aim for; 信念 is a personal conviction.",
     rx: ["りねい", "りにん", "りぜん"],
-    book: { ja: "この**{理念|りねん}**に{基|もと}づいて、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。", en: "Aiming for peace in the international community based on this ideal is a wonderful thing.", at: "ch/14" },
+    book: { ja: "この**{理念|りねん}**に{基|もと}づいて、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。", en: "It is a wonderful thing to work toward international peace based on this ideal.", at: "ch/14" },
     ex: [
       { ja: "{創業者|そうぎょうしゃ}の**{理念|りねん}**は、{今|いま}も{社員|しゃいん}に{受|う}け{継|つ}がれている。", en: "The founder's philosophy is still carried on by the employees today.", alt: ["{記念|きねん}", "{理由|りゆう}", "{残念|ざんねん}"] },
     ] },
@@ -140,14 +140,14 @@ TRY.registerVocab({ ch: 14, words: [
     en: "renovation; repair and improvement (of buildings, roads)",
     note: "Repairing and improving a structure: 改修工事, 校舎を改修する, 道路の改修. リフォーム is used for homes; 修理 is repairing a machine or object. 回収 (collection, recall) is a homophone.",
     rx: ["かいしゅ", "かいじゅう", "がいしゅう"],
-    book: { ja: "どこのマンションでも、**{改修|かいしゅう}**工事をめぐる話し合いは、なかなかまとまらないものだ。", en: "In any apartment building, discussions about renovation work are always hard to bring to agreement.", at: "gp/133" },
+    book: { ja: "どこのマンションでも、**{改修|かいしゅう}**工事をめぐる話し合いは、なかなかまとまらないものだ。", en: "In any apartment building, discussions over renovation work never seem to reach agreement easily.", at: "gp/133" },
     ex: [
       { ja: "{古|ふる}い{橋|はし}の**{改修|かいしゅう}**{工事|こうじ}が、{来月|らいげつ}から{始|はじ}まる。", en: "Repair work on the old bridge will start next month.", alt: ["{改正|かいせい}", "{修学|しゅうがく}", "{回転|かいてん}"] },
     ] },
   { w: "まとまる", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be settled; to come together; to be organized",
     note: "Opinions, talks or plans reaching agreement (話がまとまる, 意見がまとまらない); things being gathered into one (クラスがまとまる). The transitive is まとめる (summarize, put together). まとまった also means 'a sizable': まとまったお金.",
-    book: { ja: "どこのマンションでも、{改修|かいしゅう}工事をめぐる話し合いは、なかなか**まとまらない**ものだ。", en: "In any apartment building, discussions about renovation work are always hard to bring to agreement.", at: "gp/133" },
+    book: { ja: "どこのマンションでも、{改修|かいしゅう}工事をめぐる話し合いは、なかなか**まとまらない**ものだ。", en: "In any apartment building, discussions over renovation work never seem to reach agreement easily.", at: "gp/133" },
     ex: [
       { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、ようやく{意見|いけん}が**まとまった**。", en: "After long discussions, opinions finally came together.", alt: ["ちぢまった", "はじまった", "おさまった"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "moderate; proper amount; in moderation",
     note: "Just the right degree, not too much or too little: 適度な運動 (moderate exercise), 適度な休憩, 適度に飲む. 過度 is excessive. 適当 can mean suitable but in speech often means 'half-hearted', so 適度 is safer for 'moderate'.",
     rx: ["てきと", "てきたび", "てっど"],
-    book: { ja: "食生活の{改善|かいぜん}と**{適度|てきど}**な運動によって{免疫力|めんえきりょく}が高まり、病気にかかりにくくなるわけです。", en: "Improving your diet and getting moderate exercise raises your immunity, and so you become less likely to fall ill.", at: "gp/134" },
+    book: { ja: "食生活の{改善|かいぜん}と**{適度|てきど}**な運動によって{免疫力|めんえきりょく}が高まり、病気にかかりにくくなるわけです。", en: "Improving your diet and getting moderate exercise strengthens your immune system, which is why you become less likely to get sick.", at: "gp/134" },
     ex: [
       { ja: "{健康|けんこう}のためには、**{適度|てきど}**な{運動|うんどう}と{十分|じゅうぶん}な{睡眠|すいみん}が{大切|たいせつ}だ。", en: "For your health, moderate exercise and enough sleep are important.", alt: ["{程度|ていど}", "{過度|かど}", "{温度|おんど}"] },
     ] },
@@ -171,15 +171,15 @@ TRY.registerVocab({ ch: 14, words: [
     en: "immunity; the body's immune strength",
     note: "免疫力が高まる / 下がる / 落ちる, 免疫力を高める食べ物. 免疫 alone is immunity (免疫がつく means develop immunity, also figuratively 'get used to'). 抵抗力 (resistance to illness) is close in meaning.",
     rx: ["めんやくりょく", "めんえきりき", "べんえきりょく"],
-    book: { ja: "食生活の{改善|かいぜん}と{適度|てきど}な運動によって**{免疫力|めんえきりょく}**が高まり、病気にかかりにくくなるわけです。", en: "Improving your diet and getting moderate exercise raises your immunity, and so you become less likely to fall ill.", at: "gp/134" },
+    book: { ja: "食生活の{改善|かいぜん}と{適度|てきど}な運動によって**{免疫力|めんえきりょく}**が高まり、病気にかかりにくくなるわけです。", en: "Improving your diet and getting moderate exercise strengthens your immune system, which is why you become less likely to get sick.", at: "gp/134" },
     ex: [
-      { ja: "{睡眠不足|すいみんぶそく}が{続|つづ}くと、**{免疫力|めんえきりょく}**が{下|さ}がって{風邪|かぜ}をひきやすくなる。", en: "If you keep not getting enough sleep, your immunity drops and you catch colds more easily.", alt: ["{協力|きょうりょく}", "{迫力|はくりょく}", "{魅力|みりょく}"] },
+      { ja: "{睡眠不足|すいみんぶそく}が{続|つづ}くと、**{免疫力|めんえきりょく}**が{下|さ}がって{風邪|かぜ}をひきやすくなる。", en: "If you keep not getting enough sleep, your immune system weakens and you catch colds more easily.", alt: ["{協力|きょうりょく}", "{迫力|はくりょく}", "{魅力|みりょく}"] },
     ] },
   { w: "{少子高齢化|しょうしこうれいか}", lv: "N1", pos: "noun",
     en: "declining birthrate and aging population",
     note: "A key social-issues term: 少子化 (fewer children being born) + 高齢化 (population aging). Common in news and essays: 少子高齢化が進む, 少子高齢化社会. 高齢者 is the polite word for elderly people.",
     rx: ["しょうしこうれか", "しょうじこうれいか", "しょうしこうりょうか"],
-    book: { ja: "**{少子高齢化|しょうしこうれいか}**が進めば、{労働人口|ろうどうじんこう}が{減|へ}ってしまうわけですから、{経済構造|けいざいこうぞう}にも{当然|とうぜん}{影響|えいきょう}が出てきます。", en: "If the declining birthrate and aging population progress, the working population will shrink, so naturally the economic structure will be affected too.", at: "gp/134" },
+    book: { ja: "**{少子高齢化|しょうしこうれいか}**が進めば、{労働人口|ろうどうじんこう}が{減|へ}ってしまうわけですから、{経済構造|けいざいこうぞう}にも{当然|とうぜん}{影響|えいきょう}が出てきます。", en: "If the birthrate keeps falling and the population keeps aging, the working population will shrink, so naturally the economic structure will be affected too.", at: "gp/134" },
     ex: [
       { ja: "**{少子高齢化|しょうしこうれいか}**が{進|すす}み、{働|はたら}く{世代|せだい}の{負担|ふたん}が{増|ふ}えている。", en: "As the population ages and the birthrate falls, the burden on the working generation is growing.", alt: ["{液状化|えきじょうか}", "{自由化|じゆうか}", "{緑化|りょっか}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "supposing; if, for argument's sake; temporarily",
     note: "Introduces a hypothesis, often with 〜ても / 〜としても / 〜たら: 仮に失敗したとしても. It can also mean 'provisionally': 仮に決めておく. 仮 alone means temporary (仮免許 learner's permit, 仮の住まい).",
     rx: ["かいに", "けりに", "がりに"],
-    book: { ja: "**{仮|かり}に**私を{悲|かな}しませないためのうそだとしたって、私は{絶対|ぜったい}{許|ゆる}せない。", en: "Even supposing it was a lie told so as not to make me sad, I absolutely cannot forgive it.", at: "gp/137" },
+    book: { ja: "**{仮|かり}に**私を{悲|かな}しませないためのうそだとしたって、私は{絶対|ぜったい}{許|ゆる}せない。", en: "Even supposing it was a lie meant to spare my feelings, I can never forgive it.", at: "gp/137" },
     ex: [
       { ja: "**{仮|かり}に**{明日|あした}{雨|あめ}が{降|ふ}っても、{試合|しあい}は{予定|よてい}どおり{行|おこな}われる。", en: "Even if it rains tomorrow, the game will be held as scheduled.", alt: ["{特|とく}に", "{急|きゅう}に", "{既|すで}に"] },
     ] },
@@ -275,7 +275,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "training; development; fostering (people, talent)",
     note: "Raising people or organizations to maturity over time: 人材育成 (human resource development), 若手の育成, 選手を育成する. Also for plants and industries. 教育 is education in general; 養成 is training for a specific profession.",
     rx: ["いっせい", "そだせい", "いくしょう"],
-    book: { ja: "この会社では、社員の{教育計画|きょういくけいかく}に{基|もと}づいた{人材|じんざい}の**{育成|いくせい}**が{行|おこな}われている。", en: "At this company, staff development is carried out based on an employee training plan.", at: "gp/138" },
+    book: { ja: "この会社では、社員の{教育計画|きょういくけいかく}に{基|もと}づいた{人材|じんざい}の**{育成|いくせい}**が{行|おこな}われている。", en: "At this company, staff development is based on an employee training plan.", at: "gp/138" },
     ex: [
       { ja: "{当社|とうしゃ}は{若手社員|わかてしゃいん}の**{育成|いくせい}**に{力|ちから}を{入|い}れている。", en: "Our company puts a lot of effort into developing young employees.", alt: ["{育児|いくじ}", "{作成|さくせい}", "{賛成|さんせい}"] },
     ] },
@@ -309,7 +309,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["りごん", "りこい", "はなこん"],
     book: { ja: "**{離婚|りこん}**の{際|さい}に、子どもの{親権|しんけん}（　）{争|あらそ}うケースが増えている。", en: "More and more divorcing couples are fighting over custody of their children.", at: "gp/138" },
     ex: [
-      { ja: "{性格|せいかく}の{違|ちが}いが{原因|げんいん}で、{二人|ふたり}は**{離婚|りこん}**した。", en: "The two of them divorced because their personalities didn't match.", alt: ["{結婚|けっこん}", "{離陸|りりく}", "{再婚|さいこん}"] },
+      { ja: "{性格|せいかく}の{違|ちが}いが{原因|げんいん}で、{二人|ふたり}は**{離婚|りこん}**した。", en: "The two of them divorced because they weren't compatible.", alt: ["{結婚|けっこん}", "{離陸|りりく}", "{再婚|さいこん}"] },
     ] },
   { w: "{親権|しんけん}", lv: "N1", pos: "noun",
     en: "parental authority; custody (of a child)",
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "authorization; official approval; accreditation",
     note: "Approval by a government body: 国の認可を受ける, 認可保育園 (a licensed daycare), 認可が下りる. 許可 is permission in general (外出許可); 認可 is formal authorization of an institution or business.",
     rx: ["にんが", "みとか", "にんかい"],
-    book: { ja: "本校は学校{教育法|きょういくほう}（　）**{認可|にんか}**された学校です。", en: "Our school is a school accredited under the School Education Act.", at: "gp/138" },
+    book: { ja: "本校は学校{教育法|きょういくほう}（　）**{認可|にんか}**された学校です。", en: "Our school is accredited under the School Education Act.", at: "gp/138" },
     ex: [
       { ja: "この{保育園|ほいくえん}は、{国|くに}の**{認可|にんか}**を{受|う}けている。", en: "This daycare center is licensed by the government.", alt: ["{認識|にんしき}", "{可決|かけつ}", "{可能|かのう}"] },
     ] },
@@ -427,7 +427,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "nuclear power plant",
     note: "Often shortened to 原発 in news. 原子力 is nuclear power (原子力エネルギー); 発電所 is a power station (火力発電所 thermal, 水力発電所 hydroelectric). 発電 means generating electricity.",
     rx: ["げんしりきはつでんしょ", "げんしりょくはつでんじょ", "げんしりょくほつでんしょ"],
-    book: { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の安全性（　）、世界{各地|かくち}で{議論|ぎろん}が{行|おこな}われている。", en: "Debates are being held all over the world over the safety of nuclear power plants.", at: "ch/14/review" },
+    book: { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の安全性（　）、世界{各地|かくち}で{議論|ぎろん}が{行|おこな}われている。", en: "The safety of nuclear power plants is being debated all over the world.", at: "ch/14/review" },
     ex: [
       { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の{事故|じこ}で、{多|おお}くの{住民|じゅうみん}が{避難|ひなん}した。", en: "Many residents evacuated because of the accident at the nuclear power plant.", alt: ["{郵便局|ゆうびんきょく}", "{図書館|としょかん}", "{美術館|びじゅつかん}"] },
     ] },
@@ -461,6 +461,6 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["はんけち", "ばんけつ", "はんげつ"],
     book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court handed down a verdict of not guilty for the defendant.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
+      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
     ] },
 ] });
