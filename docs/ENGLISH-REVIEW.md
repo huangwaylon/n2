@@ -35,5 +35,5 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | Q2 L7–9 | done (33 strings; L7 wrong-usage example labels unified) |
 | Q2 L10–12, challenge, front | running |
 | N2 audit (round 3: consistency + sample) | running |
-| Q1 audit (round 3: notes consistency + sample) | running |
+| Q1 audit (round 3: notes consistency + sample) | done (55 notes: 12 strings incl. からして deepDive; sample 3/83 = 3.6%; no further full pass) |
 | N1 audit (round 3: consistency + sample) | running |
