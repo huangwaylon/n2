@@ -35,15 +35,15 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to order; to command; to appoint (someone) to a post",
     note: "Formal: an authority orders something: 部下に調査を命じる, 転勤を命じられる (be ordered to transfer), 大阪支社勤務を命じる. Also 命ずる (more literary). The noun is 命令.",
     rx: ["いのちじる", "みょうじる", "めいしる"],
-    book: { ja: "仕事をする{上|うえ}で大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を**{命|めい}じられ**、{残念|ざんねん}ながらこの{職場|しょくば}を{離|はな}れることになりました。", en: "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace.", at: "ch/2" },
+    book: { ja: "仕事をする{上|うえ}で大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を**{命|めい}じられ**、{残念|ざんねん}ながらこの{職場|しょくば}を{離|はな}れることになりました。", en: "There was still so much I wanted to learn about what matters in this work, but I have now been assigned to the Osaka branch, and unfortunately I will be leaving this workplace.", at: "ch/2" },
     ex: [
-      { ja: "{社長|しゃちょう}は{部下|ぶか}に、{事故|じこ}の{原因|げんいん}を{調|しら}べるよう**{命|めい}じた**。", en: "The president ordered staff to look into the cause of the accident.", alt: ["{応|おう}じた", "{信|しん}じた", "{感|かん}じた"] },
+      { ja: "{社長|しゃちょう}は{部下|ぶか}に、{事故|じこ}の{原因|げんいん}を{調|しら}べるよう**{命|めい}じた**。", en: "The president ordered the staff to look into the cause of the accident.", alt: ["{応|おう}じた", "{信|しん}じた", "{感|かん}じた"] },
     ] },
   { w: "{職場|しょくば}", lv: "N2", pos: "noun",
     en: "workplace; one's place of work",
     note: "Where one works, including the people and atmosphere: 職場の人間関係, 職場を離れる, 職場結婚. 会社 is the company as an organization; 現場 is the site where the actual work happens.",
     rx: ["しょっば", "しょくじょう", "しきば"],
-    book: { ja: "仕事をする{上|うえ}で大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を{命|めい}じられ、{残念|ざんねん}ながらこの**{職場|しょくば}**を{離|はな}れることになりました。", en: "I wanted to learn many more of the things that matter in doing this job, but I have now been ordered to work at the Osaka branch, and unfortunately I will be leaving this workplace.", at: "ch/2" },
+    book: { ja: "仕事をする{上|うえ}で大切なことを、まだまだたくさん学びたかったのですが、このたび{大阪支社勤務|おおさかししゃきんむ}を{命|めい}じられ、{残念|ざんねん}ながらこの**{職場|しょくば}**を{離|はな}れることになりました。", en: "There was still so much I wanted to learn about what matters in this work, but I have now been assigned to the Osaka branch, and unfortunately I will be leaving this workplace.", at: "ch/2" },
     ex: [
       { ja: "{今|いま}の**{職場|しょくば}**は{雰囲気|ふんいき}がよく、{毎日|まいにち}{楽|たの}しく{働|はたら}いている。", en: "My current workplace has a good atmosphere, and I enjoy working every day.", alt: ["{職業|しょくぎょう}", "{市場|しじょう}", "{広場|ひろば}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "daily routine; something one does every day",
     note: "A habit done daily: 散歩を日課にする, 毎朝のジョギングが日課だ. 習慣 is any habit, not necessarily daily; 日程 is a schedule of dates.",
     rx: ["にちか", "ひか", "にっが"],
-    book: { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を**{日課|にっか}**にしているんです。", en: "Ever since I moved here, I've made a walk part of my daily routine.", at: "gp/9" },
+    book: { ja: "こちらに{引|ひ}っ{越|こ}して{以来|いらい}、{散歩|さんぽ}を**{日課|にっか}**にしているんです。", en: "Ever since I moved here, I've made walking part of my daily routine.", at: "gp/9" },
     ex: [
       { ja: "{寝|ね}る{前|まえ}に{日記|にっき}をつけるのが、{祖父|そふ}の**{日課|にっか}**だ。", en: "Writing in his diary before bed is my grandfather's daily routine.", alt: ["{日程|にってい}", "{課長|かちょう}", "{日中|にっちゅう}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "securing; ensuring; reserving",
     note: "Making sure you have something you need: 人材の確保, 席を確保する, 安全を確保する, 予算を確保する. 保証 is guaranteeing; 予約 is booking.",
     rx: ["かっほ", "かくぼ", "かくほう"],
-    book: { ja: "{優秀|ゆうしゅう}な{人材|じんざい}の**{確保|かくほ}**は{中小企業|ちゅうしょうきぎょう}はもとより、{大企業|だいきぎょう}にとっても大きな問題です。", en: "Securing talented staff is a major issue not only for small and medium-sized businesses but for large companies as well.", at: "gp/12" },
+    book: { ja: "{優秀|ゆうしゅう}な{人材|じんざい}の**{確保|かくほ}**は{中小企業|ちゅうしょうきぎょう}はもとより、{大企業|だいきぎょう}にとっても大きな問題です。", en: "Securing talented staff is a major issue for small and medium-sized businesses, of course, but for large companies as well.", at: "gp/12" },
     ex: [
       { ja: "{花見|はなみ}の{場所|ばしょ}を**{確保|かくほ}**するため、{朝|あさ}{早|はや}く{公園|こうえん}へ{行|い}った。", en: "I went to the park early in the morning to secure a spot for cherry blossom viewing.", alt: ["{確信|かくしん}", "{保存|ほぞん}", "{確率|かくりつ}"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "small and medium-sized businesses",
     note: "A fixed economic term, contrasted with 大企業 (large corporations). Often in news: 中小企業の経営者, 中小企業支援. 企業 alone is “company, enterprise”.",
     rx: ["ちゅうしょうきごう", "ちゅうこきぎょう", "なかこきぎょう"],
-    book: { ja: "{優秀|ゆうしゅう}な{人材|じんざい}の{確保|かくほ}は**{中小企業|ちゅうしょうきぎょう}**はもとより、{大企業|だいきぎょう}にとっても大きな問題です。", en: "Securing talented staff is a major issue not only for small and medium-sized businesses but for large companies as well.", at: "gp/12" },
+    book: { ja: "{優秀|ゆうしゅう}な{人材|じんざい}の{確保|かくほ}は**{中小企業|ちゅうしょうきぎょう}**はもとより、{大企業|だいきぎょう}にとっても大きな問題です。", en: "Securing talented staff is a major issue for small and medium-sized businesses, of course, but for large companies as well.", at: "gp/12" },
     ex: [
       { ja: "{日本|にほん}の{会社|かいしゃ}の{大部分|だいぶぶん}は**{中小企業|ちゅうしょうきぎょう}**だ。", en: "Most companies in Japan are small and medium-sized businesses.", alt: ["{中間層|ちゅうかんそう}", "{中心街|ちゅうしんがい}", "{中学校|ちゅうがっこう}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lively; active; brisk",
     note: "Full of energy and activity: 活発な子ども, 活発な議論 (a lively discussion), 交流が活発になる. 積極的 is “proactive” (willing to act); 活発 describes energetic movement or activity.",
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
-    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably grow more active in culture, as well as in the economy, of course.", at: "gp/12" },
+    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably become more active in culture as well as, of course, in the economy.", at: "gp/12" },
     ex: [
       { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees offered lively opinions.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
@@ -221,7 +221,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["はんごう", "ほんこう", "はんこ"],
     book: { ja: "子どもは親に**{反抗|はんこう}**するものですから、それも{成長|せいちょう}のひとつですよ。", en: "Children do rebel against their parents, so that's just part of growing up.", at: "gp/13" },
     ex: [
-      { ja: "{中学生|ちゅうがくせい}になった{息子|むすこ}は、{何|なに}かと{親|おや}に**{反抗|はんこう}**するようになった。", en: "Now that he's in junior high, my son has started defying us over everything.", alt: ["{反省|はんせい}", "{反映|はんえい}", "{反響|はんきょう}"] },
+      { ja: "{中学生|ちゅうがくせい}になった{息子|むすこ}は、{何|なに}かと{親|おや}に**{反抗|はんこう}**するようになった。", en: "Now that he's in junior high, my son has started rebelling against us over every little thing.", alt: ["{反省|はんせい}", "{反映|はんえい}", "{反響|はんきょう}"] },
     ] },
   { w: "{失恋|しつれん}", lv: "N2", pos: "noun · する verb",
     en: "heartbreak; being disappointed in love",
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "opening; establishing (an office, account, website, etc.)",
     note: "Setting up a facility or service: 口座を開設する (open a bank account), 支店を開設する, ホームページの開設. 開店 is a shop opening its doors; 設立 is founding an organization.",
     rx: ["かいせっつ", "かいぜつ", "がいせつ"],
-    book: { ja: "{新店舗|しんてんぽ}を**{開設|かいせつ}**する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は{欠|か}かせない。", en: "When opening a new store, marketing research of the surrounding area is indispensable.", at: "gp/14" },
+    book: { ja: "{新店舗|しんてんぽ}を**{開設|かいせつ}**する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は{欠|か}かせない。", en: "When opening a new store, a marketing survey of the surrounding area is essential.", at: "gp/14" },
     ex: [
       { ja: "{給料|きゅうりょう}の{振|ふ}り{込|こ}みのため、{銀行|ぎんこう}で{口座|こうざ}を**{開設|かいせつ}**した。", en: "I opened a bank account so my salary could be paid into it.", alt: ["{解説|かいせつ}", "{建設|けんせつ}", "{開発|かいはつ}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "surrounding area; vicinity; periphery",
     note: "The area around a place: 駅の周辺, 周辺地域, 周辺機器 (computer peripherals). 周り / 付近 are close; 周辺 is more formal and common in news and reports.",
     rx: ["しゅへん", "しゅうべん", "じゅうへん"],
-    book: { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、**{周辺|しゅうへん}**のマーケティング{調査|ちょうさ}は{欠|か}かせない。", en: "When opening a new store, marketing research of the surrounding area is indispensable.", at: "gp/14" },
+    book: { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、**{周辺|しゅうへん}**のマーケティング{調査|ちょうさ}は{欠|か}かせない。", en: "When opening a new store, a marketing survey of the surrounding area is essential.", at: "gp/14" },
     ex: [
       { ja: "{駅|えき}の**{周辺|しゅうへん}**には、{飲食店|いんしょくてん}がたくさんある。", en: "There are lots of restaurants around the station.", alt: ["{周期|しゅうき}", "{辺境|へんきょう}", "{一周|いっしゅう}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to miss; to go without (usually in the negative: 欠かせない “indispensable”)",
     note: "Mostly negative: 欠かせない (essential, can't do without), 毎日欠かさず (without missing a day). 欠かす alone means “skip, fail to do”. Related: 欠ける (be missing, lacking).",
     rx: ["けかす", "かけかす", "かがす"],
-    book: { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は**{欠|か}かせない**。", en: "When opening a new store, marketing research of the surrounding area is indispensable.", at: "gp/14" },
+    book: { ja: "{新店舗|しんてんぽ}を{開設|かいせつ}する{上|うえ}で、{周辺|しゅうへん}のマーケティング{調査|ちょうさ}は**{欠|か}かせない**。", en: "When opening a new store, a marketing survey of the surrounding area is essential.", at: "gp/14" },
     ex: [
       { ja: "{祖母|そぼ}は{毎朝|まいあさ}の{散歩|さんぽ}を**{欠|か}かさない**。", en: "My grandmother never misses her morning walk.", alt: ["{乾|かわ}かさない", "{渡|わた}さない", "{貸|か}さない"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "turning point; occasion; trigger (for a change)",
     note: "The written counterpart of きっかけ, used for significant social or historical events: 〜を契機に(して) / 〜を契機として. 景気 (the economy, same reading) is a common homophone trap.",
     rx: ["けいぎ", "けき", "かいき"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を**{契機|けいき}**にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president marked the start of our company's dramatic growth.", at: "gp/17" },
     ex: [
       { ja: "オリンピックを**{契機|けいき}**に、{街|まち}の{交通|こうつう}{網|もう}が{整備|せいび}された。", en: "The Olympics prompted an upgrade of the city's transportation network.", alt: ["{景気|けいき}", "{時期|じき}", "{契約|けいやく}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "taking office; assuming a post",
     note: "Becoming president, chairperson, minister etc.: 社長に就任する, 就任式 (inauguration), 就任のあいさつ. The opposite is 辞任 (resignation) or 退任 (leaving the post).",
     rx: ["じゅうにん", "しゅにん", "しゅうじん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長**{就任|しゅうにん}**を{契機|けいき}にして、わが社は大きく{発展|はってん}した。", en: "Aoki's appointment as president marked the start of our company's dramatic growth.", at: "gp/17" },
     ex: [
       { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**して{最初|さいしょ}の{会見|かいけん}で{抱負|ほうふ}を{述|の}べた。", en: "At the first press conference after taking office, the new mayor set out goals for the term.", alt: ["{就職|しゅうしょく}", "{責任|せきにん}", "{担任|たんにん}"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "development; growth; expansion",
     note: "Growing bigger or more advanced: 経済が発展する, 発展途上国 (developing country), 大きな問題に発展する (develop into a big problem). 開発 is actively developing something (products, land).",
     rx: ["はつてん", "はってい", "ほってん"],
-    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Aoki's appointment as president was a turning point, and our company grew dramatically after it.", at: "gp/17" },
+    book: { ja: "{青木|あおき}{氏|し}の社長{就任|しゅうにん}を{契機|けいき}にして、わが社は大きく**{発展|はってん}**した。", en: "Aoki's appointment as president marked the start of our company's dramatic growth.", at: "gp/17" },
     ex: [
       { ja: "{鉄道|てつどう}が{通|とお}ってから、この{町|まち}は{急速|きゅうそく}に**{発展|はってん}**した。", en: "After the railroad came through, this town developed rapidly.", alt: ["{発表|はっぴょう}", "{発明|はつめい}", "{展示|てんじ}"] },
     ] },
@@ -467,7 +467,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "winning a prize or award",
     note: "賞を受ける: ノーベル賞を受賞する, 受賞者, 受賞作. Giving the award is 授賞 (same reading) — a well-known homophone pair. 入賞 means placing among the winners.",
     rx: ["じゅうしょう", "うけしょう", "しゅしょう"],
-    book: { ja: "この大学は卒業生がノーベル{賞|しょう}を**{受賞|じゅしょう}**したことを{契機|けいき}として{受験生|じゅけんせい}が増えたと言われている。", en: "It is said that applicants to this university increased after one of its graduates won a Nobel Prize.", at: "gp/17" },
+    book: { ja: "この大学は卒業生がノーベル{賞|しょう}を**{受賞|じゅしょう}**したことを{契機|けいき}として{受験生|じゅけんせい}が増えたと言われている。", en: "Applications to this university reportedly increased after one of its graduates won a Nobel Prize.", at: "gp/17" },
     ex: [
       { ja: "{彼|かれ}の{映画|えいが}は{国際|こくさい}{映画祭|えいがさい}で{最優秀賞|さいゆうしゅうしょう}を**{受賞|じゅしょう}**した。", en: "His film won the top prize at an international film festival.", alt: ["{受験|じゅけん}", "{受信|じゅしん}", "{鑑賞|かんしょう}"] },
     ] },
@@ -507,7 +507,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "participating (in a competition); appearing (in a contest or match)",
     note: "Taking part as a competitor: 大会に出場する, 出場権 (right to compete), 初出場. 参加 is general participation; 出演 is appearing on stage or TV.",
     rx: ["しゅっじょう", "でば", "しゅつば"],
-    book: { ja: "世界パティシエコンテストに**{出場|しゅつじょう}**するからには、{優勝|ゆうしょう}を{目指|めざ}してがんばります。", en: "Since I'm competing in the World Pâtissier Contest, I'll do my best and aim to win.", at: "gp/18" },
+    book: { ja: "世界パティシエコンテストに**{出場|しゅつじょう}**するからには、{優勝|ゆうしょう}を{目指|めざ}してがんばります。", en: "Now that I'm competing in the World Pâtissier Contest, I'll give it my all and aim to win.", at: "gp/18" },
     ex: [
       { ja: "{私|わたし}たちの{高校|こうこう}は、{初|はじ}めて{全国|ぜんこく}{大会|たいかい}に**{出場|しゅつじょう}**した。", en: "Our high school competed in the national tournament for the first time.", alt: ["{出演|しゅつえん}", "{出身|しゅっしん}", "{入場|にゅうじょう}"] },
     ] },
@@ -555,7 +555,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to fight; to compete (for); to dispute",
     note: "Fighting or competing over something: 優勝を争う, 裁判で争う, 首位を争う (vie for first place), 一刻を争う (every second counts). けんかする is a personal quarrel; 戦う is to fight a battle or opponent.",
     rx: ["あらかう", "そうう", "あらそる"],
-    book: { ja: "かくなる{上|うえ}は{裁判|さいばん}で**{争|あらそ}う**以外に道はない。", en: "Things having come to this, there is no way left but to fight it out in court.", at: "gp/18" },
+    book: { ja: "かくなる{上|うえ}は{裁判|さいばん}で**{争|あらそ}う**以外に道はない。", en: "Now that it has come to this, there's no choice left but to fight it out in court.", at: "gp/18" },
     ex: [
       { ja: "{二|ふた}つのチームが{最後|さいご}まで{優勝|ゆうしょう}を**{争|あらそ}った**。", en: "The two teams battled for the championship to the very end.", alt: ["{失|うしな}った", "{奪|うば}った", "{払|はら}った"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to visit (a place); to arrive, come (of a season or time)",
     note: "A written verb: 京都を訪れる, 観光客が訪れる, 春が訪れる (spring comes), チャンスが訪れる. In speech 行く / 来る / 訪ねる (visit a person).",
     rx: ["たずれる", "ほうれる", "おとされる"],
-    book: { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を**{訪|おとず}れる**ことなく、80年の{生涯|しょうがい}を{終|お}えた。", en: "After that, she ended her eighty-year life without ever once visiting her hometown again.", at: "gp/20" },
+    book: { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を**{訪|おとず}れる**ことなく、80年の{生涯|しょうがい}を{終|お}えた。", en: "After that, she died at eighty without ever once visiting her hometown again.", at: "gp/20" },
     ex: [
       { ja: "{毎年|まいとし}{多|おお}くの{外国人|がいこくじん}{観光客|かんこうきゃく}がこの{寺|てら}を**{訪|おとず}れる**。", en: "Every year many foreign tourists visit this temple.", alt: ["{迎|むか}える", "{見送|みおく}る", "{招|まね}く"] },
     ] },
@@ -595,7 +595,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "life; lifetime; one's whole life",
     note: "A formal word for the span of a life: 生涯を終える (die), 生涯忘れない (never forget as long as I live), 生涯学習 (lifelong learning). 一生 is the everyday equivalent.",
     rx: ["せいがい", "しょうかい", "しょうがいい"],
-    book: { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の**{生涯|しょうがい}**を{終|お}えた。", en: "After that, she ended her eighty-year life without ever once visiting her hometown again.", at: "gp/20" },
+    book: { ja: "その{後|ご}、彼女は一度もふるさとの{地|ち}を{訪|おとず}れることなく、80年の**{生涯|しょうがい}**を{終|お}えた。", en: "After that, she died at eighty without ever once visiting her hometown again.", at: "gp/20" },
     ex: [
       { ja: "{彼|かれ}は**{生涯|しょうがい}**を{貧|まず}しい{人々|ひとびと}の{医療|いりょう}にささげた。", en: "He devoted his life to medical care for the poor.", alt: ["{障害|しょうがい}", "{災害|さいがい}", "{生産|せいさん}"] },
     ] },
