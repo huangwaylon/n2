@@ -1582,7 +1582,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ことに** works like an English sentence adverb (*sadly*, *to my surprise*, *fortunately*): the speaker's evaluation comes first and the fact follows. It is slightly formal and common in essays and narration, as in reading 2's 興味深いことに.\n\n- The feeling is the speaker's: ✗彼はうれしいことに合格した for *he was happy to pass*; say 彼は合格して喜んでいる.\n- The main clause is a statement of fact, not a request, intention or question: ✗困ったことに、手伝ってください.\n- Verbs take the た form (驚いたことに); the idiom 腹が立つことに is the exception the book notes.\n\nKeep it apart from **〜ことにする** (*decide to*) and **〜ことになる** (*it has been decided that*), where こと carries no feeling. TRY! N2 teaches the same 〜ことに."
+     "deepDive": "**〜ことに** works like an English sentence adverb (*sadly*, *to my surprise*, *fortunately*): the speaker's evaluation comes first and the fact follows. It is slightly formal and common in essays and narration, as in reading 2's 興味深いことに.\n\n- The feeling is the speaker's: うれしいことに、彼は合格した means *to my delight, he passed*. For *he was happy to pass*, say 彼は合格して喜んでいる.\n- The main clause is a statement of fact, not a request, intention or question: ✗困ったことに、手伝ってください.\n- Verbs usually take the た form (驚いたことに, 困ったことに); the idiom 腹が立つことに keeps the dictionary form.\n\nKeep it apart from **〜ことにする** (*decide to*) and **〜ことになる** (*it has been decided that*), where こと carries no feeling. TRY! N2 teaches the same 〜ことに."
     },
     {
      "t": "note",
