@@ -522,7 +522,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the entire line (of a railway or route)",
     note: "Train-announcement word: 全線で運転見合わせ (service suspended on the whole line), 全線開通 (the whole line opens). Not to be confused with 前線 (a weather front; the front line).",
     rx: ["ぜんぜん", "ぜいせん", "せんせん"],
-    book: { ja: "ただ今、**{全線|ぜんせん}**で運転を{見|み}{合|あ}わせておりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Services are currently suspended on all lines; we will let you know as soon as we receive information.", at: "gp/36" },
+    book: { ja: "ただ今、**{全線|ぜんせん}**で運転を{見|み}{合|あ}わせておりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Service is currently suspended along the entire line; we will let you know as soon as we receive information.", at: "gp/36" },
     ex: [
       { ja: "{大雪|おおゆき}の{影響|えいきょう}で、{新幹線|しんかんせん}は**{全線|ぜんせん}**で{運転|うんてん}を{中止|ちゅうし}した。", en: "Because of the heavy snow, the Shinkansen suspended service along its entire line.", alt: ["{前線|ぜんせん}", "{全身|ぜんしん}", "{全員|ぜんいん}"] },
     ] },
@@ -530,7 +530,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "suspend; put off; hold off on; (顔を〜) exchange glances",
     note: "Holding off on something for now, typical of announcements: 運転を見合わせる (suspend train service), 出発 / 計画を見合わせる. Literally also “look at each other”: 顔を見合わせる. 延期 is a formal postponement to a later date.",
     rx: ["けんあわせる", "みごうわせる", "みあいわせる"],
-    book: { ja: "ただ今、{全線|ぜんせん}で運転を**{見|み}{合|あ}わせて**おりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Services are currently suspended on all lines; we will let you know as soon as we receive information.", at: "gp/36" },
+    book: { ja: "ただ今、{全線|ぜんせん}で運転を**{見|み}{合|あ}わせて**おりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Service is currently suspended along the entire line; we will let you know as soon as we receive information.", at: "gp/36" },
     ex: [
       { ja: "{台風|たいふう}が{近|ちか}づいているため、{旅行|りょこう}を**{見合|みあ}わせる**ことにした。", en: "A typhoon is approaching, so we decided to put off our trip.", alt: ["{詰|つ}め{合|あ}わせる", "{待|ま}ち{合|あ}わせる", "{組|く}み{合|あ}わせる"] },
     ] },

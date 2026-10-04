@@ -683,7 +683,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "original; creative; inventive",
     note: "独創 is originality: 独創的なアイデア / 作品 / デザイン. 独特 means peculiar or distinctive, and 創造的 is “creative” in a more general sense.",
     rx: ["どくそうでき", "とくそうてき", "どくしょうてき"],
-    book: { ja: "料理研究家の{栗林|くりばやし}さんは**{独創的|どくそうてき}**な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な{郷土|きょうど}料理の研究もされています。", en: "While culinary researcher Kuribayashi presents original creative dishes, she also researches traditional local cuisine from around the country.", at: "ch/7/review" },
+    book: { ja: "料理研究家の{栗林|くりばやし}さんは**{独創的|どくそうてき}**な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な{郷土|きょうど}料理の研究もされています。", en: "Culinary researcher Kuribayashi presents original creations while also studying traditional local cuisine from all over the country.", at: "ch/7/review" },
     ex: [
       { ja: "{彼女|かのじょ}の**{独創的|どくそうてき}**なデザインは、{海外|かいがい}でも{高|たか}く{評価|ひょうか}されている。", en: "Her original designs are highly regarded abroad too.", alt: ["{独占的|どくせんてき}", "{消極的|しょうきょくてき}", "{一方的|いっぽうてき}"] },
     ] },
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "one's native region; local area",
     note: "Mostly in compounds: 郷土料理 (regional dishes), 郷土史 (local history), 郷土愛 (love of one's home region). 故郷 / ふるさと is one's hometown in a personal, emotional sense.",
     rx: ["ごうど", "きょうと", "きょうつち"],
-    book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "While culinary researcher Kuribayashi presents original creative dishes, she also researches traditional local cuisine from around the country.", at: "ch/7/review" },
+    book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "Culinary researcher Kuribayashi presents original creations while also studying traditional local cuisine from all over the country.", at: "ch/7/review" },
     ex: [
       { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the famous one.", alt: ["{国土|こくど}", "{土地|とち}", "{領土|りょうど}"] },
     ] },

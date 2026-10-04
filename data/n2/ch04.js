@@ -285,7 +285,7 @@ TRY.registerChapter({
           usage: { ja: "「〜{次第|しだい}…」は、「（今はまだできないが）〜たら、すぐ…する」と言うときに使う。", en: "Use “〜{次第|しだい}…” when you say “when something (that I can't do yet) happens, I'll do … right away.”" },
           forms: ["[V-~~ます~~] + {次第|しだい}", "[N] + {次第|しだい}"],
           examples: [
-            { ja: "ただ今、{全線|ぜんせん}で運転を{見|み}{合|あ}わせておりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Services are currently suspended on all lines; we will let you know as soon as we receive information." },
+            { ja: "ただ今、{全線|ぜんせん}で運転を{見|み}{合|あ}わせておりますが、{情報|じょうほう}が入り{次第|しだい}、お伝えいたします。", en: "Service is currently suspended along the entire line; we will let you know as soon as we receive information." },
             { ja: "サンプルができ{次第|しだい}、お持ちしますので、ぜひご{検討|けんとう}ください。", en: "I'll bring you a sample as soon as it's ready, so please do consider it." },
             { ja: "ご{注文|ちゅうもん}の{品|しな}が{入荷|にゅうか}{次第|しだい}、お届けいたしますので、しばらくお待ちください。", en: "We will deliver the item you ordered as soon as it comes in, so please wait a little while." },
             { ja: "{現在|げんざい}{移動|いどう}中ですが、{現地|げんち}に{到着|とうちゃく}{次第|しだい}、{連絡|れんらく}を入れます。", en: "I'm on my way now, but I'll get in touch as soon as I arrive there." },

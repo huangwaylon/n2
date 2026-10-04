@@ -232,7 +232,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "〜{次第|しだい}①", level: "N2", no: 36,
-        ex: { ja: "ただ今、{全線|ぜんせん}で運転を{見合|みあ}わせておりますが、{情報|じょうほう}が入り**{次第|しだい}**、お伝えいたします。", en: "Services are currently suspended on all lines; we will let you know as soon as we receive information." },
+        ex: { ja: "ただ今、{全線|ぜんせん}で運転を{見合|みあ}わせておりますが、{情報|じょうほう}が入り**{次第|しだい}**、お伝えいたします。", en: "Service is currently suspended along the entire line; we will let you know as soon as we receive information." },
         note: "V-ます stem / する-noun + 次第: \"as soon as\". Formal; the main clause is a future action, request or plan (お伝えいたします), never a past fact (✗着き次第電話した)." },
       { pattern: "N{次第|しだい}②", level: "N2", no: 114,
         ex: { ja: "{登山|とざん}ルートは{天候|てんこう}**{次第|しだい}**で{変更|へんこう}する場合もありますので、ご{了承|りょうしょう}ください。", en: "Please note that the climbing route may be changed depending on the weather." },
