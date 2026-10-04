@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "mistake; error; fault, transgression",
     note: "A moral or serious mistake one regrets: 過ちを犯す (commit a wrong), 過ちを認める, 若気の過ち. 間違い is any error, even a trivial one; 過ち suggests blame. 過失 is the legal term (negligence).",
     rx: ["すぎち", "かち", "あやまりち"],
-    book: { ja: "若さゆえの**{過|あやま}ち**を、人はなかなか認めたがらないものだ。", en: "People are rarely willing to admit the mistakes they make because of their youth.", at: "gp/113" },
+    book: { ja: "若さゆえの**{過|あやま}ち**を、人はなかなか認めたがらないものだ。", en: "People are rarely willing to admit mistakes born of youth.", at: "gp/113" },
     ex: [
       { ja: "{二度|にど}と{同|おな}じ**{過|あやま}ち**を{繰|く}り{返|かえ}さないと{誓|ちか}った。", en: "I swore never to repeat the same mistake.", alt: ["{思|おも}い{出|で}", "{決|き}まり", "{喜|よろこ}び"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "lead role; leading actor; the main figure",
     note: "The central role in a play or film, or figuratively the central person or thing: 主役を演じる, 今日の主役 (the guest of honor), 主役の座. The opposite is 脇役 (supporting role). 主人公 is the main character in the story itself.",
     rx: ["しゅえき", "おもやく", "しゅうやく"],
-    book: { ja: "**主役**の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, won the drama great popularity, and it took the top ratings.", at: "gp/114" },
+    book: { ja: "**主役**の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, made the drama a hit, and it topped the ratings.", at: "gp/114" },
     ex: [
       { ja: "{今日|きょう}の**{主役|しゅやく}**は{新郎新婦|しんろうしんぷ}なので、{私|わたし}たちは{目立|めだ}たない{服|ふく}で{行|い}こう。", en: "The bride and groom are the stars today, so let's wear something low-key.", alt: ["{役所|やくしょ}", "{役目|やくめ}", "{主義|しゅぎ}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "skillful; clever; deft",
     note: "Showing skill or ingenuity: 巧みな話術 (a way with words), 巧みに操る (handle deftly), 言葉巧みに (with smooth talk, often to deceive). 上手 is the everyday word; 巧み is written and can hint at cunning.",
     rx: ["こうみ", "たくいみ", "うまみ"],
-    book: { ja: "主役の演技が**{巧|たく}み**なストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, won the drama great popularity, and it took the top ratings.", at: "gp/114" },
+    book: { ja: "主役の演技が**{巧|たく}み**なストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, made the drama a hit, and it topped the ratings.", at: "gp/114" },
     ex: [
       { ja: "{犯人|はんにん}は{言葉|ことば}**{巧|たく}み**に{高齢者|こうれいしゃ}に{近|ちか}づき、お{金|かね}をだまし{取|と}った。", en: "The culprit approached elderly people with smooth talk and swindled them out of their money.", alt: ["{不器用|ぶきよう}", "{素直|すなお}", "{正直|しょうじき}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "acquisition; winning, gaining (a prize, rights, votes)",
     note: "Obtaining something through effort or competition: メダルを獲得する, 賞金／権利／支持を獲得する, 新規顧客の獲得. 取得 is obtaining a license or qualification; 獲得 stresses winning out over others.",
     rx: ["かくどく", "がくとく", "かくえ"],
-    book: { ja: "主役の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを**{獲得|かくとく}**した。", en: "The lead actor's performance, combined with the skillfully developed plot, won the drama great popularity, and it took the top ratings.", at: "gp/114" },
+    book: { ja: "主役の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを**{獲得|かくとく}**した。", en: "The lead actor's performance, combined with the skillfully developed plot, made the drama a hit, and it topped the ratings.", at: "gp/114" },
     ex: [
       { ja: "{日本|にほん}{代表|だいひょう}は、この{大会|たいかい}で{金|きん}メダルを3つ**{獲得|かくとく}**した。", en: "Japan's team won three gold medals at this tournament.", alt: ["{納得|なっとく}", "{習得|しゅうとく}", "{説得|せっとく}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "remarkable achievement; brilliant feat",
     note: "An admirable, heartening accomplishment, typical of news: 快挙を成し遂げる, 史上初の快挙, 快挙に沸く (be jubilant at the feat). Positive only; 偉業 is a great, historic achievement.",
     rx: ["かいこ", "かいきょう", "けきょ"],
-    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{地方|ちほう}の{小|ちい}さな{高校|こうこう}が{全国大会|ぜんこくたいかい}で{優勝|ゆうしょう}する**{快挙|かいきょ}**を{成|な}し{遂|と}げた。", en: "A small high school from the provinces achieved the remarkable feat of winning the national championship.", alt: ["{快適|かいてき}", "{選挙|せんきょ}", "{暴挙|ぼうきょ}"] },
     ] },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "enthusiasm; zeal; ardor",
     note: "Strong eagerness toward a goal or task: 熱意を持って取り組む, 熱意が伝わる, 熱意に負ける (give in to someone's persistence). 情熱 is passion in general; 熱意 is earnest commitment to a particular aim.",
     rx: ["ねっい", "ねつき", "ねい"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{面接|めんせつ}では、{経験|けいけん}よりも{仕事|しごと}への**{熱意|ねつい}**が{評価|ひょうか}された。", en: "In the interview, enthusiasm for the job counted for more than experience.", alt: ["{悪意|あくい}", "{熱湯|ねっとう}", "{用意|ようい}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to accomplish; to achieve; to carry through",
     note: "To see a difficult undertaking through to success: 偉業を成し遂げる, 目標を成し遂げる, 改革を成し遂げる. Weightier than やり遂げる (see a task through); both stress finishing despite difficulty.",
     rx: ["せいしとげる", "なしつげる", "なしどげる"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{彼|かれ}は{十年|じゅうねん}かけて、{世界一周|せかいいっしゅう}の{夢|ゆめ}を**{成|な}し{遂|と}げた**。", en: "Over ten years, he achieved his dream of traveling around the world.", alt: ["{取|と}り{上|あ}げた", "{成|な}り{立|た}った", "{見|み}{上|あ}げた"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "side effect (of a drug); adverse effect",
     note: "An unwanted effect of a medicine: 副作用が出る, 副作用の少ない薬. Figuratively, an unintended bad consequence of a policy: 政策の副作用. 後遺症 is an aftereffect of an illness or injury.",
     rx: ["ふくさくよう", "ふくざよう", "ふうさよう"],
-    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "この{薬|くすり}は**{副作用|ふくさよう}**で{眠|ねむ}くなることがあるので、{運転|うんてん}{前|まえ}には{飲|の}まないでください。", en: "This medicine can make you drowsy as a side effect, so please don't take it before driving.", alt: ["{副業|ふくぎょう}", "{作業|さぎょう}", "{副詞|ふくし}"] },
     ] },
@@ -339,7 +339,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "careful; cautious; prudent",
     note: "Taking care to avoid mistakes or risk: 慎重に検討する (consider carefully), 慎重な態度, 慎重を期す (exercise great caution). The opposite is 軽率 (rash). 丁寧 is about thoroughness and politeness; 慎重 is about caution.",
     rx: ["しんじゅう", "じんちょう", "しんちょ"],
-    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "{家|いえ}を{買|か}うのは{大|おお}きな{決断|けつだん}なので、**{慎重|しんちょう}**に{考|かんが}えたほうがいい。", en: "Buying a house is a big decision, so you'd better think it over carefully.", alt: ["{軽率|けいそつ}", "{貴重|きちょう}", "{乱暴|らんぼう}"] },
     ] },
@@ -461,7 +461,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["りじま", "はなれとう", "りいとう"],
     book: { ja: "**{離島|りとう}**の生活は不便{極|きわ}まりないと思っていたが、慣れれば気にならないものだ。", en: "I thought life on a remote island would be extremely inconvenient, but once you get used to it, it doesn't bother you.", at: "gp/119" },
     ex: [
-      { ja: "**{離島|りとう}**には{病院|びょういん}がないため、{急病人|きゅうびょうにん}はヘリコプターで{運|はこ}ばれる。", en: "There are no hospitals on the remote islands, so sudden emergencies are flown out by helicopter.", alt: ["{離陸|りりく}", "{離乳|りにゅう}", "{離婚|りこん}"] },
+      { ja: "**{離島|りとう}**には{病院|びょういん}がないため、{急病人|きゅうびょうにん}はヘリコプターで{運|はこ}ばれる。", en: "There are no hospitals on the remote islands, so people who suddenly fall ill are flown out by helicopter.", alt: ["{離陸|りりく}", "{離乳|りにゅう}", "{離婚|りこん}"] },
     ] },
   { w: "{建造物|けんぞうぶつ}", lv: "N1", pos: "noun",
     en: "structure; building; edifice",
@@ -485,7 +485,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["つうごん", "いたこん", "つうかん"],
     book: { ja: "{誠|まこと}に**{痛恨|つうこん}**の{極|きわ}みでございます。", en: "is truly a matter of the deepest regret.", at: "gp/119" },
     ex: [
-      { ja: "{試合|しあい}{終了|しゅうりょう}{直前|ちょくぜん}の**{痛恨|つうこん}**のミスで、{優勝|ゆうしょう}を{逃|のが}した。", en: "A costly blunder just before the final whistle cost them the title.", alt: ["{痛快|つうかい}", "{根性|こんじょう}", "{苦痛|くつう}"] },
+      { ja: "{試合|しあい}{終了|しゅうりょう}{直前|ちょくぜん}の**{痛恨|つうこん}**のミスで、{優勝|ゆうしょう}を{逃|のが}した。", en: "A painful blunder just before the final whistle cost them the title.", alt: ["{痛快|つうかい}", "{根性|こんじょう}", "{苦痛|くつう}"] },
     ] },
   { w: "{不本意|ふほんい}", lv: "N1", pos: "な adjective",
     en: "unwilling; reluctant; contrary to one's wishes",
@@ -773,7 +773,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["えんばん", "まるまん", "えいまん"],
     book: { ja: "全く{嘘|うそ}をつくことなしに**{円満|えんまん}**な人間関係は{築|きず}けないのではないか。", en: "isn't it impossible to build harmonious human relationships without ever telling a lie?", at: "ch/10/review" },
     ex: [
-      { ja: "{話|はな}し{合|あ}いの{結果|けっか}、{問題|もんだい}は**{円満|えんまん}**に{解決|かいけつ}した。", en: "After talking it over, the problem was resolved amicably.", alt: ["{満員|まんいん}", "{不満|ふまん}", "{円高|えんだか}"] },
+      { ja: "{話|はな}し{合|あ}いの{結果|けっか}、{問題|もんだい}は**{円満|えんまん}**に{解決|かいけつ}した。", en: "After talks, the problem was resolved amicably.", alt: ["{満員|まんいん}", "{不満|ふまん}", "{円高|えんだか}"] },
     ] },
   { w: "{包|つつ}み{隠|かく}す", lv: "N1", pos: "godan verb",
     en: "to conceal, cover up, keep secret",
