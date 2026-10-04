@@ -13,7 +13,7 @@ then explanations and deep-dives. Rules: `docs/ENGLISH.md`. Book English is neve
 | N1 ch05–07 | done (43 strings + 16 vocab) | |
 | N1 ch08–10, compare | done (43 strings; compare 58 synced to chapters) | |
 | Q1 L1–2 | done (29 strings + 2 vocab) | |
-| Q1 L3–4 | | |
+| Q1 L3–4 | done (30 strings + 1 vocab) | |
 | Q1 L5–6, challenge, front | | |
 | Q2 L7–8 | | |
 | Q2 L9–10 | | |
