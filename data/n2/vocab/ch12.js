@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "track record; (proven) results; achievements",
     note: "Past results that prove ability, a key business word: 実績がある / を上げる / を積む, 販売実績. 成績 is grades or scores, and 業績 a company's business results.",
     rx: ["じつせき", "じっさい", "みせき"],
-    book: { ja: "わが社もウォーキングシューズにかけては、**{実績|じっせき}**がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは{獲得|かくとく}できないですよね。", en: "Our company has a proven track record when it comes to walking shoes, but unless we develop them from a different perspective, we won't be able to win new customers.", at: "ch/12" },
+    book: { ja: "わが社もウォーキングシューズにかけては、**{実績|じっせき}**がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは{獲得|かくとく}できないですよね。", en: "Our company has a proven track record too when it comes to walking shoes, but unless we develop them from a different angle, we won't win any new customers.", at: "ch/12" },
     ex: [
       { ja: "{彼女|かのじょ}はこの{分野|ぶんや}で10{年|ねん}{以上|いじょう}の**{実績|じっせき}**がある。", en: "She has more than ten years of proven experience in this field.", alt: ["{成績|せいせき}", "{実物|じつぶつ}", "{面積|めんせき}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "acquisition; winning; to gain; to obtain",
     note: "Getting something through effort or competition: 顧客を獲得する (win customers), 金メダルを獲得する, 権利の獲得. Stronger and more formal than 得る or 手に入れる. 習得 is acquiring a skill.",
     rx: ["かくどく", "えとく", "かいとく"],
-    book: { ja: "わが社もウォーキングシューズにかけては、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは**{獲得|かくとく}**できないですよね。", en: "Our company has a proven track record when it comes to walking shoes, but unless we develop them from a different perspective, we won't be able to win new customers.", at: "ch/12" },
+    book: { ja: "わが社もウォーキングシューズにかけては、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは**{獲得|かくとく}**できないですよね。", en: "Our company has a proven track record too when it comes to walking shoes, but unless we develop them from a different angle, we won't win any new customers.", at: "ch/12" },
     ex: [
       { ja: "{日本|にほん}はこの{大会|たいかい}で{金|きん}メダルを5{個|こ}**{獲得|かくとく}**した。", en: "Japan won five gold medals at this tournament.", alt: ["{習得|しゅうとく}", "{納得|なっとく}", "{説得|せっとく}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "attaching importance to; placing emphasis on; to value highly",
     note: "〜を重視する: 経験を重視する, デザインを重視する. The opposite is 軽視 (make light of). 重要視 means the same. 優先 is putting something first in order.",
     rx: ["じゅうじ", "ちょうし", "おもし"],
-    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを**{重視|じゅうし}**しがちですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, the deciding factor when buying is design, after all.", at: "ch/12" },
+    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを**{重視|じゅうし}**しがちですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but as a woman, I'd say the deciding factor when buying is still the design.", at: "ch/12" },
     ex: [
       { ja: "この{会社|かいしゃ}は{学歴|がくれき}より{経験|けいけん}を**{重視|じゅうし}**している。", en: "This company values experience more than academic background.", alt: ["{無視|むし}", "{重複|ちょうふく}", "{視察|しさつ}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "deciding factor; clincher",
     note: "What finally settles a choice or a case: 買う決め手, 決め手になる, 決め手に欠ける (lack anything decisive), 事件解決の決め手.",
     rx: ["きめしゅ", "けっめて", "きめで"],
-    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}しがちですけど、女性としては、やっぱり買うときの**{決|き}め{手|て}**はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, the deciding factor when buying is design, after all.", at: "ch/12" },
+    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}しがちですけど、女性としては、やっぱり買うときの**{決|き}め{手|て}**はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but as a woman, I'd say the deciding factor when buying is still the design.", at: "ch/12" },
     ex: [
       { ja: "{家賃|やちん}の{安|やす}さが、この{部屋|へや}を{選|えら}んだ**{決|き}め{手|て}**だった。", en: "The low rent was the deciding factor in choosing this apartment.", alt: ["{決|き}まり", "{相手|あいて}", "{担|にな}い{手|て}"] },
     ] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "tableware; dishes",
     note: "All the dishes, bowls and cutlery you eat with: 食器を洗う, 食器棚 (cupboard). 皿 is a plate. Note the small っ: しょっき.",
     rx: ["しょくき", "しょき", "たべき"],
-    book: { ja: "B：何でもいいんじゃない？　私はデパートで見つけたかわいい**{食器|しょっき}**を送ったけど…。", en: "B: Anything's fine, isn't it? I sent some cute tableware I found at a department store…", at: "gp/113" },
+    book: { ja: "B：何でもいいんじゃない？　私はデパートで見つけたかわいい**{食器|しょっき}**を送ったけど…。", en: "B: Anything would be fine, wouldn't it? I sent some cute tableware I found at a department store…", at: "gp/113" },
     ex: [
       { ja: "{食事|しょくじ}のあと、{家族|かぞく}で**{食器|しょっき}**を{洗|あら}った。", en: "After the meal, the family washed the dishes together.", alt: ["{食欲|しょくよく}", "{楽器|がっき}", "{食費|しょくひ}"] },
     ] },
@@ -332,7 +332,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しかね", "じきん", "しいきん"],
     book: { ja: "今度の{審査|しんさ}の{結果次第|けっかしだい}で、国から研究**{資金|しきん}**がもらえるかどうか決まる。", en: "Whether we get research funding from the government depends on the results of this review.", at: "gp/114" },
     ex: [
-      { ja: "{会社|かいしゃ}を{始|はじ}めるための**{資金|しきん}**を{銀行|ぎんこう}から{借|か}りた。", en: "I borrowed the funds to start a company from the bank.", alt: ["{資格|しかく}", "{料金|りょうきん}", "{資源|しげん}"] },
+      { ja: "{会社|かいしゃ}を{始|はじ}めるための**{資金|しきん}**を{銀行|ぎんこう}から{借|か}りた。", en: "I borrowed the money to start a business from the bank.", alt: ["{資格|しかく}", "{料金|りょうきん}", "{資源|しげん}"] },
     ] },
   { w: "{世|よ}の{中|なか}", lv: "N2", pos: "noun",
     en: "the world; society; life",
@@ -522,7 +522,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "conclusion",
     note: "結論を出す / が出る, 結論に達する, 結論から言うと (to get to the point). 結果 is the result or outcome of something.",
     rx: ["けっろん", "けつりん", "けちろん"],
-    book: { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で**{結論|けつろん}**を出したいと思います。", en: "Regarding the acceptance of international students next year, we'd like to reach a conclusion after thorough consideration.", at: "gp/117" },
+    book: { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で**{結論|けつろん}**を出したいと思います。", en: "On the question of accepting international students next year, we'd like to reach a conclusion after thorough consideration.", at: "gp/117" },
     ex: [
       { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、やっと**{結論|けつろん}**が{出|で}た。", en: "After a long discussion, we finally reached a conclusion.", alt: ["{結婚|けっこん}", "{理論|りろん}", "{結局|けっきょく}"] },
     ] },
@@ -530,7 +530,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "structure; construction",
     note: "建物の構造, 構造上の欠陥 (a structural defect), 社会構造, 文の構造. 構成 is how parts are arranged into a whole (a composition or lineup).",
     rx: ["こうぞ", "こうそう", "かまぞう"],
-    book: { ja: "調べた（　）{当社|とうしゃ}の{製品|せいひん}には**{構造上|こうぞうじょう}**の{欠陥|けっかん}はありませんでした。", en: "As far as we have investigated, our company's products had no structural defects.", at: "gp/117" },
+    book: { ja: "調べた（　）{当社|とうしゃ}の{製品|せいひん}には**{構造上|こうぞうじょう}**の{欠陥|けっかん}はありませんでした。", en: "As far as we could determine, our products had no structural defects.", at: "gp/117" },
     ex: [
       { ja: "この{建物|たてもの}は{地震|じしん}に{強|つよ}い**{構造|こうぞう}**になっている。", en: "This building has an earthquake-resistant structure.", alt: ["{製造|せいぞう}", "{想像|そうぞう}", "{創造|そうぞう}"] },
     ] },
@@ -538,7 +538,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "defect; flaw",
     note: "Usually a structural or manufacturing fault: 欠陥商品, 欠陥住宅, 欠陥が見つかる. 欠点 is a weakness or shortcoming, including in people. Its homophone 血管 means blood vessel.",
     rx: ["けつかん", "けっかい", "かけかん"],
-    book: { ja: "調べた（　）{当社|とうしゃ}の{製品|せいひん}には{構造上|こうぞうじょう}の**{欠陥|けっかん}**はありませんでした。", en: "As far as we have investigated, our company's products had no structural defects.", at: "gp/117" },
+    book: { ja: "調べた（　）{当社|とうしゃ}の{製品|せいひん}には{構造上|こうぞうじょう}の**{欠陥|けっかん}**はありませんでした。", en: "As far as we could determine, our products had no structural defects.", at: "gp/117" },
     ex: [
       { ja: "ブレーキに**{欠陥|けっかん}**が{見|み}つかり、{車|くるま}が{回収|かいしゅう}された。", en: "A defect was found in the brakes, and the cars were recalled.", alt: ["{血管|けっかん}", "{欠席|けっせき}", "{結果|けっか}"] },
     ] },
@@ -636,7 +636,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["ほうじょ", "ほぞ", "ほしょ"],
     book: { ja: "最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や**{栄養補助食品|えいようほじょしょくひん}**だけを食べる「{偏食症|へんしょくしょう}」が{急増|きゅうぞう}しています。", en: "Recently, \"selective eating disorder\", in which people eat only foods and nutritional supplements said to be good for their health, has been increasing rapidly.", at: "ch/12/review" },
     ex: [
-      { ja: "{市|し}から**{補助|ほじょ}**{金|きん}が{出|で}ることになった。", en: "It was decided that the city would provide a subsidy.", alt: ["{補足|ほそく}", "{救助|きゅうじょ}", "{助言|じょげん}"] },
+      { ja: "{市|し}から**{補助|ほじょ}**{金|きん}が{出|で}ることになった。", en: "We're going to get a subsidy from the city.", alt: ["{補足|ほそく}", "{救助|きゅうじょ}", "{助言|じょげん}"] },
     ] },
   { w: "{偏食|へんしょく}", lv: "N1", pos: "noun · する verb",
     en: "unbalanced diet; picky eating",
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "sense of crisis; sense of urgency",
     note: "危機感がない / を持つ / を抱く. 危機 is a crisis (経済危機); 危険 is danger in general.",
     rx: ["きけんかん", "ききがん", "きっきかん"],
-    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "A characteristic is that the people themselves think they are eating things that are good for them, so they have no sense of danger at all.", at: "ch/12/review" },
+    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "What characterizes it is that those affected believe they are eating things that are good for them, so they feel no sense of danger at all.", at: "ch/12/review" },
     ex: [
       { ja: "{社員|しゃいん}に**{危機感|ききかん}**がなければ、{会社|かいしゃ}は{変|か}われない。", en: "If employees have no sense of urgency, the company can't change.", alt: ["{季節感|きせつかん}", "{危険物|きけんぶつ}", "{器官|きかん}"] },
     ] },
@@ -658,7 +658,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to collapse; to crumble; to be thrown off (balance); (of weather) to turn bad",
     note: "Intransitive; the transitive partner is 崩す. 建物が崩れる, バランスが崩れる, 天気が崩れる, 形が崩れる. 壊れる is for things that break and stop working.",
     rx: ["ほうれる", "くずされる", "くぞれる"],
-    book: { ja: "そうそう。それでマグロのえさになる小さい魚が増えすぎて、海の生き物のバランスが**くずれて**るっていうことなんだよ。", en: "Right, right. And so the small fish that tuna feed on are increasing too much, and the balance of sea life is being thrown off.", at: "ch/12/review" },
+    book: { ja: "そうそう。それでマグロのえさになる小さい魚が増えすぎて、海の生き物のバランスが**くずれて**るっていうことなんだよ。", en: "Exactly. So the small fish that tuna feed on are multiplying too much, and that's throwing off the balance of sea life.", at: "ch/12/review" },
     ex: [
       { ja: "{地震|じしん}で{古|ふる}い{壁|かべ}が**{崩|くず}れた**。", en: "The old wall collapsed in the earthquake.", alt: ["{崩|くず}した", "{溶|と}けた", "{破|やぶ}れた"] },
     ] },
