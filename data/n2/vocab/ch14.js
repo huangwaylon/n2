@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to raise (a hand); to give (an example); to hold (a ceremony); to do with all one's strength",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
-    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "When it comes to hosting the Olympics, in the old days the whole nation used to rejoice.", at: "ch/14" },
+    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "In the old days, the prospect of hosting the Olympics would have the whole nation rejoicing.", at: "ch/14" },
     ex: [
       { ja: "{具体的|ぐたいてき}な{例|れい}を**{挙|あ}げて**{説明|せつめい}してください。", en: "Please explain with a concrete example.", alt: ["{下|さ}げて", "{投|な}げて", "{広|ひろ}げて"] },
       { ja: "{二人|ふたり}は{来月|らいげつ}、ハワイで{結婚式|けっこんしき}を**{挙|あ}げる**そうだ。", en: "I hear the two of them are having their wedding in Hawaii next month." },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "divorce",
     note: "離婚する, 離婚届 (divorce papers), 離婚率. The opposite is 結婚; remarrying is 再婚. 別居 is living apart without divorcing.",
     rx: ["りごん", "りこい", "はなこん"],
-    book: { ja: "**{離婚|りこん}**の{際|さい}に、子どもの{親権|しんけん}（　）{争|あらそ}うケースが増えている。", en: "Cases of fighting over child custody at the time of divorce are increasing.", at: "gp/138" },
+    book: { ja: "**{離婚|りこん}**の{際|さい}に、子どもの{親権|しんけん}（　）{争|あらそ}うケースが増えている。", en: "More and more divorcing couples are fighting over custody of their children.", at: "gp/138" },
     ex: [
       { ja: "{性格|せいかく}の{違|ちが}いが{原因|げんいん}で、{二人|ふたり}は**{離婚|りこん}**した。", en: "The two of them divorced because their personalities didn't match.", alt: ["{結婚|けっこん}", "{離陸|りりく}", "{再婚|さいこん}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "parental authority; custody (of a child)",
     note: "A legal term: 親権を持つ / 争う, 親権者 (the parent with custody). Japan has traditionally given custody to only one parent after divorce. 人権 (human rights) and 真剣 (serious) look or sound similar.",
     rx: ["しんげん", "おやけん", "しんこん"],
-    book: { ja: "{離婚|りこん}の{際|さい}に、子どもの**{親権|しんけん}**（　）{争|あらそ}うケースが増えている。", en: "Cases of fighting over child custody at the time of divorce are increasing.", at: "gp/138" },
+    book: { ja: "{離婚|りこん}の{際|さい}に、子どもの**{親権|しんけん}**（　）{争|あらそ}うケースが増えている。", en: "More and more divorcing couples are fighting over custody of their children.", at: "gp/138" },
     ex: [
       { ja: "{離婚|りこん}した{後|あと}、{母親|ははおや}が{子|こ}どもの**{親権|しんけん}**を{持|も}つことになった。", en: "After the divorce, the mother was given custody of the children.", alt: ["{人権|じんけん}", "{真剣|しんけん}", "{特権|とっけん}"] },
     ] },

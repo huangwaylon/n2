@@ -14,11 +14,11 @@ TRY.registerChapter({
         rings: false,
         heading: "{社説|しゃせつ}　{問|と}われる{五輪招致|ごりんしょうち}の{是非|ぜひ}",
         lines: [
-          { ja: "オリンピック{開催|かいさい}といえば、昔は国を{挙|あ}げて{喜|よろこ}んだ**ものだ**。", en: "When it comes to hosting the Olympics, in the old days the whole nation used to rejoice." },
+          { ja: "オリンピック{開催|かいさい}といえば、昔は国を{挙|あ}げて{喜|よろこ}んだ**ものだ**。", en: "In the old days, the prospect of hosting the Olympics would have the whole nation rejoicing." },
           { cont: true, ja: "しかし{今日|こんにち}ではどこの国でも、オリンピック{開催|かいさい}**をめぐって**意見が{対|たい}{立|りつ}する。", en: "Today, however, in every country opinions clash over hosting the Olympics." },
           { cont: true, ja: "{開催国|かいさいこく}はオリンピックを{契機|けいき}として、国の{発|はっ}{展|てん}を願う。", en: "The host country hopes to use the Olympics as an opportunity for national development." },
           { cont: true, ja: "しかし、オリンピック{開催|かいさい}には多くの{費用|ひよう}がかかる。", en: "But hosting the Olympics costs a great deal of money." },
-          { cont: true, ja: "それで{政府|せいふ}に対する{抗議|こうぎ}の声が上がることになる**わけだ**。", en: "Naturally, then, voices of protest against the government are raised." },
+          { cont: true, ja: "それで{政府|せいふ}に対する{抗議|こうぎ}の声が上がることになる**わけだ**。", en: "That is why voices of protest against the government end up being raised." },
           { ja: "また、オリンピック{開催|かいさい}**にあたって**は、{資金|しきん}**に{加|くわ}えて**、{競技場|きょうぎじょう}などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Also, when hosting the Olympics, in addition to funding, securing land for building stadiums and other facilities becomes an important issue." },
           { cont: true, ja: "そのために住民の{移|い}{転|てん}問題も{出|で}てくる。", en: "Because of that, the problem of relocating residents also arises." },
           { cont: true, ja: "住み{慣|な}れた土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意された**としても**、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Leaving the land where one has long lived is probably not something one can easily accept, even if compensation or replacement housing is provided." },
@@ -44,7 +44,7 @@ TRY.registerChapter({
             { ja: "10年前はこのあたりも静かだったものだが、今ではすっかり変わってしまった。", en: "Ten years ago this area used to be quiet too, but now it has completely changed." },
             { ja: "あんな高いところから落ちて、よくけがをしなかったものだ。", en: "It's amazing that you didn't get hurt falling from such a high place." },
             { ja: "あの子がもう{成人式|せいじんしき}ですか。時間がたつのは早いものですね。", en: "That kid is already old enough for the coming-of-age ceremony? Time really flies, doesn't it?" },
-            { ja: "うちの{猫|ねこ}はちっとも家に帰ってこない。困ったものだ。", en: "Our cat never comes home. What a nuisance." },
+            { ja: "うちの{猫|ねこ}はちっとも家に帰ってこない。困ったものだ。", en: "Our cat hardly ever comes home. It's a real headache." },
           ],
           deepDive: "This **〜ものだ** is emotional, with two uses:\n- nostalgia for something that happened repeatedly or lasted in the past: 昔はよく川で泳いだものだ (*I used to swim in the river a lot*), often with よく / 昔は and a が… contrast with the present;\n- a deeply felt reaction: 時間がたつのは早いものですね, 困ったものだ, よく + past (よくけがをしなかったものだ, *it's amazing you weren't hurt*), and 〜たいものだ, a heartfelt wish.\n\nConnection: plain form + ものだ, なA-な; a noun can't attach directly. Nostalgia takes a past predicate. Spoken: もんだ.\n\nCompare:\n- **〜ものだ** (#13): a general truth or norm, impersonal: 子どもは親に反抗するものだ, 人に会ったら挨拶するものだ. 時間がたつのは早いものだ sits between the two.\n- V-たことがある (N4): a single experience. ✗去年一度京都へ行ったものだ — たものだ needs repetition or duration.\n- V-たところだ (N4): *have just done*.\n\nJLPT cue: 昔は / よく / 学生時代は + a past verb + 懐かしい → ものだ.",
           see: [13],
@@ -313,7 +313,7 @@ TRY.registerChapter({
                   q: "{離婚|りこん}の{際|さい}に、子どもの{親権|しんけん}（　）{争|あらそ}うケースが増えている。",
                   options: ["に{基|もと}づいて", "をめぐって"],
                   answer: 1,
-                  en: "Cases of fighting over child custody at the time of divorce are increasing.", why: { en: "Custody is the issue the parents fight over: 親権をめぐって争う (#133). A basis (に基づいて) isn't something you fight over." },
+                  en: "More and more divorcing couples are fighting over custody of their children.", why: { en: "Custody is the issue the parents fight over: 親権をめぐって争う (#133). A basis (に基づいて) isn't something you fight over." },
                 },
                 {
                   q: "本校は学校{教育法|きょういくほう}（　）{認可|にんか}された学校です。",
@@ -407,7 +407,7 @@ TRY.registerChapter({
             q: "新しい生活を始める（　）、大学の近くに部屋を探すことにした。",
             options: ["において", "にしたがって", "に{基|もと}づいて", "にあたって"],
             answer: 3,
-            en: "As I was about to start a new life, I decided to look for a room near the university.",
+            en: "In preparation for starting a new life, I decided to look for a room near the university.",
             why: { en: "Starting a new life is an important undertaking, and looking for a room is the preparation: 始めるにあたって (#135). において (#6) marks a place or field, にしたがって (#65) means *as ~ changes*, and に基づいて (#138) *based on* — none marks an occasion." },
           },
           {
@@ -514,7 +514,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで問題に答えなさい。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and answer the question. Choose the best answer from 1, 2, 3 and 4." },
         title: "",
         text: ["{新|あら}たな高速道路{建設|けんせつ}をめぐって、{現在様々|げんざいさまざま}な{議論|ぎろん}が{行|おこな}われている。新しい高速道路ができれば、{地域経済|ちいきけいざい}が{活発|かっぱつ}になると{期待|きたい}する人も多い。しかし、国民の{幸福|こうふく}という{基本理念|きほんりねん}に{基|もと}づいて{建設計画|けんせつけいかく}が作られたとしても、まずその{費用|ひよう}をどうするのかが問題だ。{資金|しきん}問題に{加|くわ}えて、{周辺地域|しゅうへんちいき}への{騒音|そうおん}や{大気汚染|たいきおせん}をどうするかも{検討|けんとう}しなければなるまい。{建設|けんせつ}にあたって、クリアしなければならない問題はまだ{数多|かずおお}く、{決定|けってい}には時間がかかるものと思われる。"],
-        en: ["Various debates are currently taking place over the construction of a new expressway. Many people expect that if a new expressway is built, the regional economy will become more active. However, even if the construction plan is drawn up based on the fundamental principle of the people's happiness, the first problem is what to do about its cost. In addition to the funding problem, we must also consider what to do about noise and air pollution in the surrounding areas. There are still many problems that must be resolved before construction can go ahead, and it seems a decision will take some time."],
+        en: ["Various debates are currently taking place over the construction of a new expressway. Many people expect that if a new expressway is built, the regional economy will become more active. However, even if the construction plan is drawn up based on the fundamental principle of the people's happiness, the first problem is what to do about its cost. In addition to the funding problem, how to deal with noise and air pollution in the surrounding areas will no doubt also have to be considered. Many problems must still be cleared before construction can go ahead, and a decision is likely to take some time."],
         items: [
           {
             q: "{筆者|ひっしゃ}が一番言いたいことは何ですか。",
