@@ -302,7 +302,7 @@ TRY.registerLesson({
       "The girl nods. She thinks she probably does.",
       "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's a feeling so sad and painful that you really want to just die. No, that's not it. It's not that you want to die; if you just left it like that, the air in the box would get thinner and you would actually die. That's not a figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
       "The girl nods silently again. The boy pauses for a moment.",
-      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Where on earth there could be railroad tracks out there, even I don't know. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I listen hard in the darkness. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
+      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Where on earth there could even be railroad tracks out there, I have no idea myself. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I listen hard in the darkness. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
       "With that, the boy's short story ends. Now the girl begins to tell her own story."
      ]
     },
@@ -397,10 +397,10 @@ TRY.registerLesson({
      "titleTr": "Love and Fear",
      "tr": [
       "The other day, a kitten came to live with us. I had never kept an animal bigger than a parakeet. For someone like me, who had never had a cat, this was quite an event. What if it doesn't get used to us? What if I can't take care of it properly? What if we can't get along? Every day until the cat arrived, I trembled with anxiety.",
-      "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on our laps, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead, knead, knead, knead, and pestered me for food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
+      "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on our laps, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead knead knead knead, and pestered me: food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
       "I was surprised. Of course each cat has its own personality, but do cats really slip into people's lives this casually?",
       "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, that stopped too, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
-      "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my imagination in the fear department has been growing.",
+      "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my capacity for imagining frightening things has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
       "And so I wonder: when their children are small, how many imagined fears must mothers everywhere tremble at? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
       "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs to pessimism."
@@ -1160,7 +1160,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "実は、歌が下手でみんなに笑われちゃって……。もうカラオケ**になんか**行きたくないよ。",
-           "tr": "Actually, I’m a bad singer, and everyone laughed at me… I never want to go to karaoke or anything like that again."
+           "tr": "Actually, I’m a bad singer, and everyone laughed at me… I never want to go to karaoke again."
           }
          ]
         },
@@ -1405,7 +1405,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "パクさんって、いつも聞こえる**か**聞こえ**ないか**くらいの声で話すよね。",
-           "tr": "Park-san always talks so quietly you can barely hear, right?"
+           "tr": "Park-san always talks in a voice you can barely hear, right?"
           },
           {
            "sp": "B",
@@ -1747,7 +1747,7 @@ TRY.registerLesson({
           {
            "sp": "父",
            "ja": "一生{懸命|けんめい}描いたんだから、喜んでくれない**わけがない**よ。",
-           "tr": "You worked so hard on it, so there's no way she won't love it."
+           "tr": "You worked so hard on it. There's no way she won't love it."
           }
          ]
         },
@@ -2856,7 +2856,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❶ジョージ、**どうしたの？**　ため息なんかついて。",
-       "tr": "George, what's wrong? You're sighing."
+       "tr": "George, what's wrong? What's with the sighing?"
       },
       {
        "sp": "ジ",
@@ -2892,7 +2892,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❹昼のシフトも代われるけど、夕方だけ**でいいの？**　夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-       "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
+       "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you."
       },
       {
        "sp": "ジ",
@@ -2987,7 +2987,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "〜さん、**どうしたの？**　ため息なんかついて。",
-        "tr": "(Name), what's wrong? You're sighing."
+        "tr": "(Name), what's wrong? What's with the sighing?"
        }
       },
       {
@@ -3043,7 +3043,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "昼のシフトも代われるけど、夕方だけ**でいいの？**\n夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-        "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't say just the evening. I'll cover both for you."
+        "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you."
        }
       },
       {
@@ -3119,7 +3119,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶〜さん、**どうしたの？**　{{｛ため息なんかついて／疲れているみたいだね｝。}}",
-         "tr": "(Name), what's wrong? [You're sighing. / You look tired.]"
+         "tr": "(Name), what's wrong? [What's with the sighing? / You look tired.]"
         },
         {
          "sp": "友達",
@@ -3155,7 +3155,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❹{{（昼のシフトも代われるけど、）夕方だけ}}**でいいの？**　{{夕方だけなんて言わないで。両方代わっ}}**てあげるよ。**）",
-         "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't say just the evening. I'll cover both for you.)"
+         "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you.)"
         },
         {
          "sp": "友達",
@@ -4231,7 +4231,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "__いったい__どうして殺処分数が減っているのでしょうか。まず、「ペットがかわいくなくなったから」、「{引|ひ}っ{越|こ}しするから」という理由では、保健所が引きとりを{断|ことわ}れるようになったからです。それから、動物{愛護団体|あいごだんたい}が飼えなくなったペットを直接引きとって、次の飼い主を{探|さが}すようになったことも減少の理由の一つになっています。",
-       "tr": "So why on earth is the number of animals euthanized going down? First, it's because public health centers are now allowed to refuse to take in animals for reasons like “my pet isn't cute anymore” or “I'm moving.” Another reason for the decrease is that animal welfare organizations have started taking in pets directly from owners who can no longer keep them and looking for new owners for them."
+       "tr": "So why exactly has the number of animals euthanized been going down? First, it's because public health centers are now allowed to refuse to take in animals for reasons like “my pet isn't cute anymore” or “I'm moving.” Another reason for the decrease is that animal welfare organizations have started taking in pets directly from owners who can no longer keep them and looking for new owners for them."
       },
       {
        "sp": "",
