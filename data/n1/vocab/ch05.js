@@ -302,7 +302,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["けんせん", "けいぜん", "けんぜい"],
     book: { ja: "**{健全|けんぜん}**な", en: "sound", at: "gp/52" },
     ex: [
-      { ja: "{子|こ}どもの**{健全|けんぜん}な**{成長|せいちょう}のためには、{家庭|かてい}の{環境|かんきょう}が{大切|たいせつ}だ。", en: "A good home environment is important for children to grow up sound in body and mind.", alt: ["{完全|かんぜん}な", "{頑丈|がんじょう}な", "{穏健|おんけん}な"] },
+      { ja: "{子|こ}どもの**{健全|けんぜん}な**{成長|せいちょう}のためには、{家庭|かてい}の{環境|かんきょう}が{大切|たいせつ}だ。", en: "A good home environment is important for children's healthy development.", alt: ["{完全|かんぜん}な", "{頑丈|がんじょう}な", "{穏健|おんけん}な"] },
     ] },
   { w: "ずさん", lv: "N1", pos: "な adjective",
     en: "sloppy; slipshod; careless (of management, planning or work)",
@@ -460,7 +460,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["せいたい", "しょたい", "しょうてい"],
     book: { ja: "一般の人間ならいざしらず、警察の取り調べにも**{正体|しょうたい}**がバレなかったのなら、まだ使い道はある。", en: "Ordinary people are one thing, but if even the police interrogation didn't expose what it really is, it still has its uses.", at: "ch/5" },
     ex: [
-      { ja: "{謎|なぞ}の{作家|さっか}の**{正体|しょうたい}**は、{意外|いがい}な{人物|じんぶつ}だった。", en: "The mysterious author's true identity came as a surprise.", alt: ["{正解|せいかい}", "{本体|ほんたい}", "{字体|じたい}"] },
+      { ja: "{謎|なぞ}の{作家|さっか}の**{正体|しょうたい}**は、{意外|いがい}な{人物|じんぶつ}だった。", en: "The mysterious author turned out to be someone nobody expected.", alt: ["{正解|せいかい}", "{本体|ほんたい}", "{字体|じたい}"] },
     ] },
   { w: "ばれる", lv: "N1", pos: "verb (ichidan, intransitive)",
     en: "to be found out; to come to light (a secret, lie or wrongdoing)",
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["なんせき", "なんがん", "むずかん"],
     book: { ja: "{天才|てんさい}＿＿、**{難関|なんかん}**の国家試験に普通の人間が努力もせずに受かるわけがない。", en: "A genius might be a different matter, but there's no way an ordinary person could pass a tough national exam without making any effort.", at: "ch/5" },
     ex: [
-      { ja: "{倍率|ばいりつ}20{倍|ばい}の**{難関|なんかん}**を{突破|とっぱ}して、{見事|みごと}{合格|ごうかく}した。", en: "I beat odds of twenty applicants per place and passed with flying colors.", alt: ["{難民|なんみん}", "{税関|ぜいかん}", "{難点|なんてん}"] },
+      { ja: "{倍率|ばいりつ}20{倍|ばい}の**{難関|なんかん}**を{突破|とっぱ}して、{見事|みごと}{合格|ごうかく}した。", en: "I got through a 20-to-1 competition and passed with flying colors.", alt: ["{難民|なんみん}", "{税関|ぜいかん}", "{難点|なんてん}"] },
     ] },
   { w: "{知|し}れ{渡|わた}る", lv: "N1", pos: "verb (godan, intransitive)",
     en: "to become widely known; to spread (of news or a rumor)",

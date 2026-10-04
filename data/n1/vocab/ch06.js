@@ -324,7 +324,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["じんりき", "しんりょく", "じりょく"],
     book: { ja: "{長年|ながねん}にわたり{弊社|へいしゃ}の発展にご**{尽力|じんりょく}**を{賜|たまわ}り、感謝にたえません。", en: "We cannot thank you enough for all you have done for our company's growth over so many years.", at: "gp/69" },
     ex: [
-      { ja: "{彼|かれ}は{生涯|しょうがい}を{通|つう}じて、{地域|ちいき}{医療|いりょう}の{発展|はってん}に**{尽力|じんりょく}**した。", en: "Throughout his life, he worked hard to develop community medicine.", alt: ["{実力|じつりょく}", "{迫力|はくりょく}", "{重力|じゅうりょく}"] },
+      { ja: "{彼|かれ}は{生涯|しょうがい}を{通|つう}じて、{地域|ちいき}{医療|いりょう}の{発展|はってん}に**{尽力|じんりょく}**した。", en: "Throughout his life, he devoted himself to developing community medicine.", alt: ["{実力|じつりょく}", "{迫力|はくりょく}", "{重力|じゅうりょく}"] },
     ] },
   { w: "{賜|たまわ}る", lv: "N1", pos: "verb (godan)",
     en: "to receive (humble); to grant, bestow (honorific)",
@@ -428,7 +428,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["らいもしい", "たのしい", "たよもしい"],
     book: { ja: "**頼もしい**", en: "dependable", at: "gp/71" },
     ex: [
-      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "A dependable junior colleague: new to the job, yet bringing in one contract after another.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
+      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "Still new to the job, yet landing one contract after another: a junior colleague we can really count on.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
     ] },
   { w: "{公正|こうせい}", lv: "N1", pos: "な adjective · noun",
     en: "fair; impartial; just",
