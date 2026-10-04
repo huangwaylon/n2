@@ -883,7 +883,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "家族と過ごす時間は、私**にとって**一番必要なものです。",
-         "tr": "Time spent with my family is what I need most."
+         "tr": "For me, time spent with my family is what I need most."
         }
        ]
       },
@@ -1059,7 +1059,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "道が込んでいた**ために**、{約束|やくそく}の時間に遅れてしまいました。",
-         "tr": "Because the roads were crowded, I was late for my appointment."
+         "tr": "Because traffic was heavy, I ended up being late for my appointment."
         },
         {
          "n": 2,
@@ -1425,7 +1425,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "お金持ちだ**からといって**、幸せとは限らない。",
-         "tr": "Just because someone is rich doesn't mean they're happy."
+         "tr": "Just because someone is rich doesn't necessarily mean they're happy."
         }
        ]
       },
@@ -1537,7 +1537,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "車を持っていないからといって、運転{免許|めんきょ}を持っていない**とは限らない**。",
-         "tr": "Just because someone doesn't own a car doesn't mean they don't have a driver's license."
+         "tr": "Just because someone doesn't own a car doesn't necessarily mean they don't have a driver's license."
         }
        ]
       },
@@ -4507,7 +4507,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "週末、日本人の友達と晩ご飯を食べに行きました。その友達が「食べたいラーメンがある」と言うのでそのお店に行ったのですが、私たちが行った時には、もうたくさんの人が{並|なら}んでいました。お店の人に聞いたら、「1時間ほどかかります」と言うのです。そんなに待ちたくなかったので、私は「別の店に行こう」と言ったのですが、友達が「絶対にここで食べたい」と言うので、{結局|けっきょく}{行列|ぎょうれつ}に並ぶことになりました。",
-       "tr": "Over the weekend, I went out to dinner with a Japanese friend. My friend said, “There's a ramen place I want to try,” so we went there, but by the time we arrived, lots of people were already lined up. When we asked the staff, they said, “It'll take about an hour.” I didn't want to wait that long, so I said, “Let's go somewhere else,” but my friend said, “I absolutely want to eat here,” so in the end we got in line."
+       "tr": "Over the weekend, I went out to dinner with a Japanese friend. My friend said, “There's a ramen place I want to try,” so we went there, but by the time we arrived, lots of people were already lined up. When we asked the staff, they said, “It'll take about an hour.” I didn't want to wait that long, so I said, “Let's go somewhere else,” but my friend said, “I absolutely want to eat here,” so in the end we wound up getting in line."
       },
       {
        "sp": "",

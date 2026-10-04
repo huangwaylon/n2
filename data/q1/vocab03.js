@@ -953,7 +953,7 @@ TRY.registerVocab({
       "n": 33,
       "w": "[〜を]気にする",
       "ex": "彼は来週のテストのことをずっと気にしている。",
-      "tr": "He's been worrying about next week's test the whole time."
+      "tr": "He keeps worrying about next week's test."
      },
      {
       "n": 34,
