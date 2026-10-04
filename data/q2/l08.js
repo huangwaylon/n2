@@ -314,15 +314,15 @@ TRY.registerLesson({
       "First of all, what kind of place is a ryokan?",
       "I think the ryokan is part of a culture found only in Japan, one that represents Japan. It begins with welcoming guests when they arrive, and then we show them to their room while telling them about the inn. Meanwhile, I figure out their yukata size from how much their shoulder line differs from mine, and keep it in mind so I can bring one later. Then we bring a hot towel, matcha, and sweets to the room and greet the guests. At mealtimes, too, we go in and out of the room at least seven or eight times, making sure guests can enjoy each dish when it tastes its best. Being waited on hand and foot like this, with every need taken care of, is what ryokan service is all about. A ryokan is a place apart from everyday life; in other words, it is also a place where guests can shake off the fatigue of working in the city and relax.",
       "Kagaya is also called \"the inn of omotenashi.\" Please tell us about the spirit of that omotenashi.",
-      "Omotenashi means understanding how guests feel and serving them accordingly. In the past, people said \"ten people, ten colors,\" meaning everyone is different, but now we live in an age when people say one person has not just ten colors but a hundred. In other words, not only does each guest want different service, but even the same guest's wishes can change depending on the occasion. If you just provide service by the book, that only earns you 60 points. We always make plans so that we can anticipate what guests are thinking and actually deliver it. Unless you feel that your guests' heartfelt delight is your own joy as well, you cannot offer hospitality in the true sense.",
-      "What kind of omotenashi can only be found at Kagaya?",
+      "Omotenashi means understanding how guests feel and serving them accordingly. In the past, people said \"ten people, ten colors,\" meaning everyone is different, but now we live in an age when people say one person has not just ten colors but a hundred. In other words, not only does each guest want different service, but even the same guest's wishes can change depending on the occasion. If you just provide service by the book, that only earns you 60 points. We are always working out ways to anticipate what guests have in mind and make it a reality for them. Unless you feel that your guests' heartfelt delight is your own joy as well, you cannot offer hospitality in the true sense.",
+      "What kind of omotenashi is unique to Kagaya?",
       "We never say \"no\" or \"we can't.\" Our predecessor taught us that if we don't know something, we should look it up and give an answer. Even if we can't reply right away, we make sure to give an answer the guest will be fully satisfied with.",
       "I see. By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
       "First, we research all kinds of things about the guest's country, such as its culture and customs. What guests especially appreciate is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
       "Then what about the language barrier?",
       "We have staff members who can speak English and Chinese, but in other languages we communicate with gestures. We also carry around papers with simple greetings and necessary expressions like \"Is there anything I can do for you?\" written in the guest's language.",
       "Finally, is there anything you would like to change at Kagaya in the future, and anything you want to keep?",
-      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that this is a kind of inn found only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and sometimes, far from appreciating it, guests actually scold us, saying, \"Please don't keep coming in and out.\" I think what's necessary is to do what guests want, not to do what they don't want, and to keep polishing ourselves every day."
+      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that this is a kind of inn found only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and sometimes we actually get scolded instead: \"Please don't keep coming in and out.\" I think what's necessary is to do what guests want, not to do what they don't want, and to keep polishing ourselves every day."
      ]
     },
     {
@@ -373,7 +373,7 @@ TRY.registerLesson({
       "立ち上げ、12年に京都に弁当箱{専門|せんもん}店をオープン。"
      ],
      "tr": [
-      "Born in 1981 in Lyon, France. His childhood coincided with an unprecedented boom in Japanese anime: \"I watched Dragon Ball and played on the Super Famicom.\" He studied politics at Sciences Po Grenoble, but \"the Japanese history classes taught by a teacher who loved Japan were so interesting\" that he nurtured a dream of going \"to Japan someday.\" In 2003, he went to Kyoto University. After studying there, he went back home for a while but soon returned to Kyoto. While writing a blog introducing Japanese culture, he began to think, \"Maybe there's something I can do myself.\" Prompted by hearing from his mother that Japanese bento were being featured in a French magazine, he started the online shop Bento&co in 2008. In 2010 he founded BERTRAND Co., Ltd. together with his Japanese wife, and in 2012 he opened a specialty bento box shop in Kyoto."
+      "Born in 1981 in Lyon, France. His childhood coincided with an unprecedented boom in Japanese anime: \"I watched Dragon Ball and played on the Super Famicom.\" He studied politics at Sciences Po Grenoble, but \"the Japanese history classes taught by a teacher who loved Japan were so interesting\" that he nurtured a dream of going \"to Japan someday.\" In 2003, he went to Kyoto University. After studying there, he went back home for a while but soon returned to Kyoto. As he kept writing a blog introducing Japanese culture, he came to think, \"Maybe there's something I can do myself.\" Prompted by hearing from his mother that Japanese bento were being featured in a French magazine, he started the online shop Bento&co in 2008. In 2010 he founded BERTRAND Co., Ltd. together with his Japanese wife, and in 2012 he opened a specialty bento box shop in Kyoto."
      ]
     },
     {
@@ -430,9 +430,9 @@ TRY.registerLesson({
       "A bento is a small universe. It carries an aesthetic sense unique to Japan, one that expresses concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always an airtight container with no dividers holding just sandwiches, if it's sandwiches, or just pasta, if it's pasta. A Japanese bento, though, is packed colorfully with side dishes, with thought given to the person who will eat it and care taken over nutritional balance.",
       "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",
-      "Back then, they had no thought yet of actively selling overseas; instead, they asked me, \"Why?\" But now I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, I came up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
+      "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" But now I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, I came up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
-      "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others are the kind that make people say \"Wow! How cute!\" the moment their owner just takes them out.",
+      "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others make people say \"Wow! How cute!\" the moment you take them out.",
       "You're also very particular about traditional Japanese products, aren't you?",
       "For example, magewappa (bentwood boxes) with a lovely cedar scent. Some cost nearly 10,000 yen, but they're popular with people interested in traditional Japanese crafts, and apparently they're also used as interior decor. Also, the lacquerware bento boxes made in Ishikawa Prefecture are made of plastic and use new techniques such as silk-screen printing, yet their patterns, which look as if a craftsman had painted them stroke by stroke, have won universal acceptance.",
       "You're a real evangelist for Japan, aren't you?",
@@ -554,7 +554,7 @@ TRY.registerLesson({
          ],
          "tr": [
           "I hear that at first the manufacturers gave you puzzled looks.",
-          "Back then, they had no thought yet of actively selling overseas; instead, they asked me, \"Why?\" (…) Those products have now become popular all over the world."
+          "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" (…) These have now become popular products all over the world."
          ]
         }
        ]
@@ -679,8 +679,8 @@ TRY.registerLesson({
           "いただきました。"
          ],
          "tr": [
-          "By the way, the number of foreign tourists visiting Japan has been growing in recent years. How do you go about offering hospitality to foreign guests?",
-          "First, we research all sorts of things about their country, such as its culture and customs. What guests especially appreciate is their national flower. When members of the Swedish royal family came, we made about 20 little bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were deeply moved and told me how happy it made them."
+          "By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
+          "First, we research all kinds of things about the guest's country, such as its culture and customs. What guests especially appreciate is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved."
          ]
         },
         {
@@ -750,7 +750,7 @@ TRY.registerLesson({
           {
            "sp": "{絵理|えり}",
            "ja": "{前山|まえやま}さんって、お金持ちなんだね。ハワイにも家があるんだって！",
-           "tr": "Maeyama-san must be rich. I heard there's even a house in Hawaii!"
+           "tr": "So Maeyama-san is rich! I heard there's a house in Hawaii, too!"
           },
           {
            "sp": "サラ",
@@ -782,7 +782,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "{佐藤|さとう}さんはクラスで静か**どころか**、だれと**も**話さない。",
-         "tr": "Far from just being quiet in class, Sato-san doesn't talk to anyone at all."
+         "tr": "In class, Sato-san isn't just quiet; Sato-san doesn't talk to anyone at all."
         },
         {
          "n": 5,
@@ -1386,7 +1386,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ううん……。{親戚|しんせき}が遊びに来てたから、**かえって**疲れちゃったよ。",
-           "tr": "No… Some relatives came over to visit, so I actually ended up more tired."
+           "tr": "No… Some relatives were visiting, so it actually wore me out."
           }
          ]
         },
@@ -1518,7 +1518,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "毎日書いている**うちに**きっと上手になるから、大丈夫ですよ。",
-           "tr": "As you keep writing every day, you’ll get better before you know it, so don’t worry."
+           "tr": "As you keep writing every day, you're sure to get better, so don't worry."
           }
          ]
         },
@@ -1827,7 +1827,7 @@ TRY.registerLesson({
       "That sounds tough. What changed between before and after you started the tea ceremony? If the tea ceremony has influenced you in some way, please tell me.",
       "I think I've become calmer and better at concentrating. I've always been restless, but as I kept practicing the tea ceremony, I feel that my mind, along with my movements, has calmed down.",
       "What do you think is the greatest appeal of the tea ceremony?",
-      "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had been doing the tea ceremony.",
+      "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had taken up the tea ceremony.",
       "I had an image of the tea ceremony as something difficult, but listening to Wang-san, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
      ],
      "headTr": [
@@ -2502,7 +2502,7 @@ TRY.registerLesson({
        "sp": "ス",
        "v": "m",
        "ja": "ジョージ・テイラー様ですね。{確認|かくにん}いたしますので、少々お待ちください。……お待たせいたしました。{清掃|せいそう}時には{見|み}{当|あ}たらなかったようですが。",
-       "tr": "Mr. George Taylor. I'll check, so please wait a moment. ... Thank you for waiting. It seems it wasn't found when the room was cleaned, though."
+       "tr": "Mr. George Taylor. Let me check; one moment, please. ... Thank you for waiting. It seems nothing was found when the room was cleaned, I'm afraid."
       },
       {
        "sp": "ジ",
@@ -2569,7 +2569,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "そうですか！❻**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで送っ**ていただけませんか。**",
-       "tr": "Really? I'm sorry to trouble you, but could you send it cash on delivery to the address I gave when I made the reservation?"
+       "tr": "Really? I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, with the shipping paid on delivery?"
       },
       {
        "sp": "ス",
@@ -2768,7 +2768,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで\n送っ**ていただけませんか。**",
-        "tr": "I'm sorry to trouble you, but could you send it cash on delivery to the address I gave when I made the reservation?"
+        "tr": "I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, with the shipping paid on delivery?"
        }
       },
       {
@@ -2884,7 +2884,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❻**申し訳ありませんが、**{{｛予約した時の住所に{着払|ちゃくばら}いで送っ／取りにうかがうので{預|あず}かってい｝}}**ていただけませんか。**❼**お{手数|てすう}をおかけしてすみません。よろしくお願いします。**",
-         "tr": "I'm sorry to trouble you, but could you [send it cash on delivery to the address I gave when I made the reservation / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
+         "tr": "I'm sorry to trouble you, but could you [send it to the address I gave when I made the reservation, with the shipping paid on delivery / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
         }
        ]
       }

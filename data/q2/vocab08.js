@@ -505,7 +505,7 @@ TRY.registerVocab({
       "n": 18,
       "w": "身振り手振り",
       "ex": "言葉が通じず、身振り手振りで駅までの道を教えた。",
-      "tr": "We couldn't understand each other's language, so I used gestures to show the way to the station."
+      "tr": "We didn't share a language, so I used gestures to show them the way to the station."
      },
      {
       "n": 19,
