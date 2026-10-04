@@ -532,7 +532,7 @@ TRY.registerChapter({
             ],
             options: ["はい、{問|と}い{合|あ}わせをしております。", "ただ今調べておりますので、わかり{次第|しだい}ご{連絡|れんらく}いたします。", "はい、どういたしましょうか。"],
             answer: 1,
-            en: ["About the matter I inquired about the other day — have there been any developments?", "Yes, we are making inquiries.", "We are looking into it right now, so we will contact you as soon as we know.", "Yes, what shall we do?"],
+            en: ["About the matter I inquired about the other day — have there been any developments?", "Yes, we are making inquiries.", "We are looking into it right now, so we will contact you as soon as we know.", "Yes, how shall we proceed?"],
             why: { en: "〜次第 = as soon as: the staff member promises to get back once they find out." },
           },
         ],

@@ -859,7 +859,7 @@ TRY.registerChapter({
           {
             q: "ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。",
             options: ["初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}し、{精一杯|せいいっぱい}がんばった。", "初めて{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}できることになった。", "{駅伝部|えきでんぶ}は{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}して、大きく{成長|せいちょう}した。", "{箱根駅伝|はこねえきでん}に{出場|しゅつじょう}するという{夢|ゆめ}を{実現|じつげん}したいと思っている。"],
-            optionsEn: ["They took part in the Hakone Ekiden for the first time and did their very best.", "They will be taking part in the Hakone Ekiden for the first time.", "The team took part in the Hakone Ekiden and grew a great deal.", "They hope to make their dream of taking part in the Hakone Ekiden come true."],
+            optionsEn: ["They took part in the Hakone Ekiden for the first time and did their very best.", "They have earned a place in the Hakone Ekiden for the first time.", "The team took part in the Hakone Ekiden and grew a great deal.", "They hope to make their dream of taking part in the Hakone Ekiden come true."],
             answer: 1,
             en: "Which statement about the ABK University ekiden team is correct?",
             why: { en: "The school had never qualified before (出場権を得ることはありませんでした) and this year finally did (ついに夢を実現することができました) — the race itself hasn't been run yet." },
@@ -921,7 +921,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "よう、元気そうだね。こうやって集まるの、大学卒業以来だね。" },
             ],
-            en: ["Hey, you look well. This is the first time we've gotten together like this since we graduated, huh.", "It really brings back memories.", "Did we graduate from university?", "When are you planning to get together?"],
+            en: ["Hey, you look well. This is the first time we've gotten together like this since we graduated, huh.", "It really brings back memories.", "Wait, did we graduate from university?", "When are you planning to get together?"],
             why: { en: "〜のは大学卒業以来だ means this is the first get-together since graduation, so the natural reply is how nostalgic it is." },
             options: ["ほんとに{懐|なつ}かしいね。", "大学卒業したっけ？", "いつ集まるつもり？"],
             answer: 0,
@@ -930,7 +930,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "何遊んでるのよ。ちょっと手伝ってくれない？" },
             ],
-            en: ["What are you doing goofing off? Could you give me a hand?", "Then let's play together.", "It's not like I'm goofing off.", "Aren't you going to help me?"],
+            en: ["What are you doing goofing off? Could you give me a hand?", "OK, then let's goof off together.", "It's not like I'm goofing off.", "Aren't you going to help me?"],
             why: { en: "Accused of goofing off, B softly denies it: 別に遊んでるわけじゃないよ, “it's not like I'm goofing off.”" },
             options: ["じゃ、一緒に遊ぼうよ。", "別に遊んでるわけじゃないよ。", "手伝ってくれないの？"],
             answer: 1,
