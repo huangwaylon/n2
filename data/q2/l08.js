@@ -750,7 +750,7 @@ TRY.registerLesson({
           {
            "sp": "{絵理|えり}",
            "ja": "{前山|まえやま}さんって、お金持ちなんだね。ハワイにも家があるんだって！",
-           "tr": "So Maeyama-san is rich! I heard there's a house in Hawaii, too!"
+           "tr": "So Maeyama-san is rich! I heard they even have a house in Hawaii!"
           },
           {
            "sp": "サラ",
@@ -1055,7 +1055,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "海外旅行とは言わ**ないまでも**、せめて国内旅行には行きたい。",
-         "tr": "I won't ask for a trip abroad, but I'd at least like to travel somewhere in Japan."
+         "tr": "Maybe not a trip abroad, but I'd at least like to take a trip somewhere in Japan."
         },
         {
          "n": 3,
@@ -1296,7 +1296,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "{東京|とうきょう}に来たばかりの時は、人の多さに驚い**たものです**。",
-         "tr": "When I had just come to Tokyo, I used to be amazed at how many people there were."
+         "tr": "When I first came to Tokyo, I was always amazed at how many people there were."
         },
         {
          "n": 3,
@@ -1386,7 +1386,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ううん……。{親戚|しんせき}が遊びに来てたから、**かえって**疲れちゃったよ。",
-           "tr": "No… Some relatives were visiting, so it actually wore me out."
+           "tr": "No… Some relatives were visiting, so I actually came back more tired."
           }
          ]
         },
@@ -1540,7 +1540,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "毎日ニュースを見続けている**うちに**、社会問題に詳しくなってきた。",
-         "tr": "As I kept watching the news every day, I became well informed about social issues."
+         "tr": "As I kept watching the news every day, I've gradually become well informed about social issues."
         }
        ]
       },
@@ -3723,7 +3723,7 @@ TRY.registerLesson({
        "sp": "社",
        "v": "f",
        "ja": "最後にご紹介するのは、{有馬|ありま}のプランです。有馬は、最も古い温泉地の一つで、歴史的な建物が多く、日本__ならでは__の古い{町|まち}{並|な}みから、日本の伝統と歴史を感じていただけます。こちらはワンランク上のお部屋となり、お部屋にも小さい温泉風呂がついておりますので、プライベートでゆっくりと過ごしていただけます。一泊二食付きでご夕食は高級{懐石|かいせき}料理となります。お客様、いかがでしょうか。",
-       "tr": "The last one I'd like to introduce is the Arima plan. Arima is one of the oldest hot spring towns and has many historic buildings, and its old streets, of a kind found only in Japan, let you feel Japan's traditions and history. This plan comes with a higher-grade room, and the room has its own small hot spring bath, so you can relax in private. Two meals are included for one night, and dinner is a high-end kaiseki meal. What do you think?"
+       "tr": "The last one I'd like to introduce is the Arima plan. Arima is one of the oldest hot spring towns and has many historic buildings, and in its old streets, the kind you can only find in Japan, you can feel Japan's traditions and history. This plan comes with a higher-grade room, and the room has its own small hot spring bath, so you can relax in private. Two meals are included for one night, and dinner is a high-end kaiseki meal. What do you think?"
       },
       {
        "sp": "絵",
@@ -4000,7 +4000,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "でも、タトゥーのせいで入れない人がいるのは、残念だな。温泉で日本__ならでは__の雰囲気を味わいたいっていう外国人観光客は多いと思うから……。",
-       "tr": "Still, it's a shame that some people can't get in because of their tattoos. I think a lot of foreign tourists want to experience the atmosphere you can only find in Japan at a hot spring..."
+       "tr": "Still, it's a shame that some people can't get in because of their tattoos. I think a lot of foreign tourists want to soak up an atmosphere at the hot springs that you can only get in Japan..."
       },
       {
        "sp": "研",

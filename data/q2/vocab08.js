@@ -1185,7 +1185,7 @@ TRY.registerVocab({
       "n": 39,
       "w": "伝統的な",
       "ex": "日本の伝統的なスポーツと言えば、すもうだ。",
-      "tr": "When it comes to traditional Japanese sports, sumo is the one."
+      "tr": "When it comes to traditional Japanese sports, sumo is the first that comes to mind."
      },
      {
       "n": 40,
