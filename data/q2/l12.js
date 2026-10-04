@@ -1352,12 +1352,12 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "ネットで簡単に連絡が取れるようになった**分**、手紙をもらうとうれしい。",
-         "tr": "Precisely because it’s become so easy to get in touch online, I’m all the happier when I get a letter."
+         "tr": "Now that it’s so easy to get in touch online, getting a letter makes me all the happier."
         },
         {
          "n": 3,
          "ja": "{山口|やまぐち}先生はいつも優しい**分だけ**、怒ると怖い。",
-         "tr": "Professor Yamaguchi is always so kind that it’s all the scarier when they do get angry."
+         "tr": "Because Professor Yamaguchi is always so kind, it’s all the scarier when they do get angry."
         },
         {
          "n": 4,
@@ -1665,7 +1665,7 @@ TRY.registerLesson({
           {
            "sp": "後輩",
            "ja": "今の会社で仕事を続けていく**うえで**大切にしている点は、何ですか。",
-           "tr": "What do you think is important as you keep working at your current company?"
+           "tr": "What do you place importance on as you keep working at your current company?"
           },
           {
            "sp": "先輩",
