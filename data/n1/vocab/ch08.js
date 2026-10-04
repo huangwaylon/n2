@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "close contest, neck-and-neck race; close game",
     note: "接戦を制する (win a close game), 接戦の末 (after a close fight), 大接戦. Used for sports and elections. 激戦 is a fierce battle; 熱戦 is a heated, exciting game.",
     rx: ["せつせん", "せっぜん", "しょうせん"],
-    book: { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの**{接戦|せっせん}**が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners passing and being passed by each other.", at: "gp/88" },
+    book: { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの**{接戦|せっせん}**が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners overtaking one another again and again.", at: "gp/88" },
     ex: [
       { ja: "{選挙|せんきょ}は**{接戦|せっせん}**となり、{結果|けっか}が{出|で}たのは{深夜|しんや}だった。", en: "The election turned into a close race, and the result didn't come out until late at night.", alt: ["{接近|せっきん}", "{接待|せったい}", "{作戦|さくせん}"] },
     ] },

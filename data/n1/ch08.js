@@ -43,7 +43,7 @@ TRY.registerChapter({
             { ja: "＊「押しつ押されつ・抜きつ抜かれつ・浮きつ沈みつ・組んずほぐれつ・差しつ差されつ・持ちつ持たれつ」などが使われる。", en: "Set phrases such as 押しつ押されつ, 抜きつ抜かれつ, 浮きつ沈みつ, 組んずほぐれつ, 差しつ差されつ and 持ちつ持たれつ are used." },
           ],
           examples: [
-            { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの{接戦|せっせん}が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners passing and being passed by each other." },
+            { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの{接戦|せっせん}が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners overtaking one another again and again." },
             { ja: "花火大会は押しつ押されつで、すごい人ごみだったが、楽しかった。", en: "The fireworks festival was all pushing and shoving, with terrible crowds, but it was fun." },
             { ja: "{川面|かわも}に落ちた{紅葉|もみじ}が浮きつ沈みつ流れて行くのを2人で見ていた。", en: "The two of us watched the autumn leaves that had fallen on the river drift away, bobbing up and sinking down." },
             { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を{築|きず}きたいものです。", en: "Ideally, neighbors should build give-and-take relationships in which they help each other out." },
@@ -659,7 +659,7 @@ TRY.registerChapter({
           phrase: "{薄紙|うすがみ}**のごとく**",
           stars: 2,
           marks: ["formal"],
-          usage: { ja: "「〜のごとく」は「〜のように」と同じ意味で、「風のごとく走り去った」のように例えたり、「{下記|かき}のごとく決定した」のように例や内容を{挙|あ}げたりするときに使われる。", en: "\"〜のごとく\" means the same as \"〜のように.\" It is used to make a comparison, as in \"風のごとく走り去った,\" or to give an example or state the content of something, as in \"下記のごとく決定した.\"" },
+          usage: { ja: "「〜のごとく」は「〜のように」と同じ意味で、「風のごとく走り去った」のように例えたり、「{下記|かき}のごとく決定した」のように例や内容を{挙|あ}げたりするときに使われる。", en: "\"〜のごとく\" means the same as \"〜のように.\" It is used to make a comparison, as in \"風のごとく走り去った\" (ran off like the wind), or to give an example or state the content of something, as in \"下記のごとく決定した\" (it was decided as follows)." },
           forms: ["[N] + の + ごとく"],
           formNotes: [
             { ja: "＊「[N]のごとし」「[N₁]のごとき[N₂]」の形もある。", en: "The forms \"Nのごとし\" and \"N₁のごときN₂\" also exist." },

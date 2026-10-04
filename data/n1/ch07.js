@@ -303,7 +303,7 @@ TRY.registerChapter({
           phrase: "相手が何を言**おうが**",
           stars: 3,
           marks: [],
-          usage: { ja: "「〜（よ）うが」は「〜ても」と強く言いたいときに使う。「何年かかろうが、必ず{新薬|しんやく}を開発します」のように、{影響|えいきょう}を受けない強い気持ちや、「たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない」のように、変えられない事実があると言いたいときに使われる。{疑問詞|ぎもんし}と一緒に使われることが多い。", en: "“〜（よ）うが” is used to say “even if 〜” emphatically. It expresses a strong feeling of not being influenced, as in “何年かかろうが、必ず{新薬|しんやく}を開発します”, or that there is a fact that cannot be changed, as in “たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない”. It is often used together with question words." },
+          usage: { ja: "「〜（よ）うが」は「〜ても」と強く言いたいときに使う。「何年かかろうが、必ず{新薬|しんやく}を開発します」のように、{影響|えいきょう}を受けない強い気持ちや、「たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない」のように、変えられない事実があると言いたいときに使われる。{疑問詞|ぎもんし}と一緒に使われることが多い。", en: "“〜（よ）うが” is used to say “even if 〜” emphatically. It expresses a strong feeling of not being influenced, as in “何年かかろうが、必ず{新薬|しんやく}を開発します” (however many years it takes, we will develop the new drug), or that there is a fact that cannot be changed, as in “たとえ台風が{上陸|じょうりく}しようが、仕事を休むわけにはいかない” (even if a typhoon hits, I can't very well take the day off). It is often used together with question words." },
           forms: ["[V-よう] + が", "[V-よう] + と"],
           examples: [
             { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
@@ -346,7 +346,7 @@ TRY.registerChapter({
           stars: 3,
           marks: [],
           notesFirst: false,
-          usage: { ja: "「A（よ）うがAまいが」は「AてもAなくても」という意味で、「{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ」のように、{影響|えいきょう}を受けない強い気持ちや、「信じようが信じまいが、これは本当にあった話です」のように変えられない事実があると言いたいときに使われる。", en: "“A（よ）うがAまいが” means “whether A or not A”. It is used to express a strong feeling of not being influenced, as in “{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ”, or that there is a fact that cannot be changed, as in “信じようが信じまいが、これは本当にあった話です”." },
+          usage: { ja: "「A（よ）うがAまいが」は「AてもAなくても」という意味で、「{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ」のように、{影響|えいきょう}を受けない強い気持ちや、「信じようが信じまいが、これは本当にあった話です」のように変えられない事実があると言いたいときに使われる。", en: "“A（よ）うがAまいが” means “whether A or not A”. It is used to express a strong feeling of not being influenced, as in “{田中|たなか}さんが行こうが行くまいが、私は行くつもりだ” (whether Tanaka goes or not, I intend to go), or that there is a fact that cannot be changed, as in “信じようが信じまいが、これは本当にあった話です” (believe it or not, this really happened)." },
           forms: ["[V-よう] + ［が　と］ + [V-る] + ［まいが　まいと］"],
           formNotes: [
             { ja: "＊[V-よう]・[V-る] には同じ{動詞|どうし}が使われる。", en: "The same verb is used in [V-よう] and [V-る]." },
@@ -389,7 +389,7 @@ TRY.registerChapter({
           phrase: "安くしてほしい**なら**ほしい**で**",
           stars: 2,
           marks: [],
-          usage: { ja: "「AならAで…」は「来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに」のように、他の人のAという状況に対する気持ち（…）を表す。アドバイスしたり不満を言ったりするときに使われることが多い。", en: "“AならAで…” expresses one's feelings (…) about another person's situation A, as in “来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに”. It is often used when giving advice or complaining." },
+          usage: { ja: "「AならAで…」は「来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに」のように、他の人のAという状況に対する気持ち（…）を表す。アドバイスしたり不満を言ったりするときに使われることが多い。", en: "“AならAで…” expresses one's feelings (…) about another person's situation A, as in “来るなら来るで連絡してくれれば食事ぐらい用意しておいたのに” (if you were coming, you could have told me, and I'd at least have had a meal ready). It is often used when giving advice or complaining." },
           forms: ["[Pl₁] + なら + [Pl₂] + で\n［現在形のみ］　［現在形のみ］\n［[なA~~だ~~]　[N~~だ~~]］［[なA~~だ~~]　[N~~だ~~]］"],
           formNotes: [
             { ja: "＊[Pl₁]・[Pl₂] には同じ言葉が使われる。", en: "The same word is used in [Pl₁] and [Pl₂]." },
@@ -502,7 +502,7 @@ TRY.registerChapter({
           phrase: "あきらめる**までのことだ**",
           stars: 2,
           marks: [],
-          usage: { ja: "「〜までのことだ」は「事業に失敗したら、またやり直すまでのことだ」のように「だめなら〜すればいいのだから、それは大きな問題ではない」と言いたいときに使われる。何でもいいと言いながら、本当はそれを気にしているときに使われることも多い。自分について使うことが多い。", en: "“〜までのことだ” is used to say “if it doesn't work out I can just do 〜, so it's not a big problem”, as in “事業に失敗したら、またやり直すまでのことだ”. It is also often used when you say you don't mind, but you actually do care about it. It is usually used about oneself." },
+          usage: { ja: "「〜までのことだ」は「事業に失敗したら、またやり直すまでのことだ」のように「だめなら〜すればいいのだから、それは大きな問題ではない」と言いたいときに使われる。何でもいいと言いながら、本当はそれを気にしているときに使われることも多い。自分について使うことが多い。", en: "“〜までのことだ” is used to say “if it doesn't work out I can just do 〜, so it's not a big problem”, as in “事業に失敗したら、またやり直すまでのことだ” (if the business fails, I'll simply start over). It is also often used when you say you don't mind, but you actually do care about it. It is usually used about oneself." },
           forms: ["[V-る] + までのことだ", "[V-る] + までだ"],
           examples: [
             { ja: "地下鉄が止まっていたら、バスで行くまでのことだ。心配はいらないよ。", en: "If the subway isn't running, I'll just take the bus. No need to worry." },
@@ -733,7 +733,7 @@ TRY.registerChapter({
           phrase: "カプテック社**にしたところで**",
           stars: 2,
           marks: [],
-          usage: { ja: "「〜にしたところで」は「{大金持|おおがねも}ちにしたところで悩みはある」のように「他とは違うと思われている〜も、実は他と同じだ」と言いたいときに使われる。", en: "“〜にしたところで” is used when you want to say “〜, which people think is different from the others, is actually the same as the others,” as in “{大金持|おおがねも}ちにしたところで悩みはある”." },
+          usage: { ja: "「〜にしたところで」は「{大金持|おおがねも}ちにしたところで悩みはある」のように「他とは違うと思われている〜も、実は他と同じだ」と言いたいときに使われる。", en: "“〜にしたところで” is used when you want to say “〜, which people think is different from the others, is actually the same as the others,” as in “{大金持|おおがねも}ちにしたところで悩みはある” (even the very rich have their worries)." },
           forms: ["[N] + にしたところで", "[N] + にしたって"],
           formNotes: [
             { ja: "＊「いずれにしたところで」「いずれにしたって」の形も使われる。", en: "The forms いずれにしたところで and いずれにしたって are also used." },
@@ -920,7 +920,7 @@ TRY.registerChapter({
         prompt: { ja: "次の話は、新聞の「お悩み相談」に寄せられた読者の悩みです。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "The following is a reader's problem sent in to a newspaper's advice column. Choose the best answer to each question from 1, 2, 3 and 4." },
         title: "",
         text: ["相談者（会社員、女性、43歳）：", "弟のことで心配しています。私の弟ときたら今年40歳になるというのに、「{趣味|しゅみ}はレゴ（LEGO）」と{公言|こうげん}しています。", "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば{小言|こごと}が{絶|た}えません。{当|とう}の本人は、__②「母さんにはわからないよ。」__と言わんばかりの顔で、複雑な{立体|りったい}の{創作|そうさく}に{没頭|ぼっとう}し、食事の時間だろうが、深夜だろうが、作り続けています。", "仕事は{真面目|まじめ}にやっているようですが、姉の私としては、弟の体も心配ですし、結婚もできないのではないかと気がかりです。どうしたらよいでしょうか。", "回答者（映画{監督|かんとく}、男性、65歳）：", "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の{源|みなもと}であり、明日への{活力|かつりょく}となっているのでしょう。弟さんは「レゴ・アーティスト」の道を進もうとしているのかもしれません。いずれにしても{一人前|いちにんまえ}の男性として弟さんを信じてあげるべきではありませんか。"],
-        en: ["Person seeking advice (office worker, female, 43):", "I'm worried about my younger brother. That brother of mine — even though he turns 40 this year, he openly declares that his hobby is LEGO.", "Our mother is exasperated — “You're not a child, and yet it's LEGO again” — and whenever she sees him she never stops nagging. The man himself, with a look that all but says “You wouldn't understand, Mom,” is absorbed in creating complex three-dimensional pieces and keeps on building, whether it's mealtime or the middle of the night.", "He seems to be doing his job conscientiously, but as his older sister I'm worried about his health, and I'm afraid he may never be able to get married. What should I do?", "Respondent (film director, male, 65):", "LEGO is surely already a part of your brother's life, a source of creativity and the energy that carries him into tomorrow. Perhaps he is trying to pursue the path of a “LEGO artist.” In any case, shouldn't you trust him as a grown man?"],
+        en: ["Person seeking advice (office worker, female, 43):", "I'm worried about my younger brother. That brother of mine — even though he turns 40 this year, he openly declares that his hobby is LEGO.", "Our mother is exasperated — “It's not as if you were a child, and here you are playing LEGO again” — and whenever she sees him she never stops nagging. The man himself, with a look that all but says “You wouldn't understand, Mom,” is absorbed in creating complex three-dimensional pieces and keeps on building, whether it's mealtime or the middle of the night.", "He seems to be doing his job conscientiously, but as his older sister I'm worried about his health, and I'm afraid he may never be able to get married. What should I do?", "Respondent (film director, male, 65):", "LEGO is surely already a part of your brother's life, a source of creativity and the energy that carries him into tomorrow. Perhaps he is trying to pursue the path of a “LEGO artist.” In any case, shouldn't you trust him as a grown man?"],
         items: [
           {
             q: "母親はどんな気持ちで__①「子どもじゃあるまいし、またレゴ遊び。」__と言っているか。",
@@ -971,7 +971,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "わあ、新しい機械ね。使い方、教えてほしいなあ。" },
             ],
-            en: ["Wow, a new machine. I'd love you to show me how to use it.", "Huh? You want to teach me how to use it?", "But I wanted to teach you, didn't I.", "Even if I teach you, won't you just forget?"],
+            en: ["Wow, a new machine. I'd love you to show me how to use it.", "Huh? You want to teach me how to use it?", "But I wanted to teach you, didn't I?", "Even if I teach you, won't you just forget?"],
             options: ["え？　使い方を教えたいの？", "でも、教えたかったよねえ。", "教えたところで、忘れるんじゃないの？"],
             answer: 2,
             why: { en: "The speaker asks to be taught; the fitting (teasing) reply uses V-たところで: “even if I teach you, it's no use — you'll forget.”" },

@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scolding, nagging, lecture; grumbling",
     note: "Repeated small complaints, usually from a parent or superior: 小言を言う, 母の小言. お説教 is a longer lecture; 文句 is a complaint in general.",
     rx: ["しょうげん", "こごん", "おごと"],
-    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば**{小言|こごと}**が{絶|た}えません。", en: "Our mother is exasperated — “You're not a child, and yet it's LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
+    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば**{小言|こごと}**が{絶|た}えません。", en: "Our mother is exasperated — “It's not as if you were a child, and here you are playing LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
     ex: [
       { ja: "{帰|かえ}りが{遅|おそ}いと、{母|はは}に**{小言|こごと}**を言われる。", en: "When I come home late, my mother nags me.", alt: ["{独|ひと}り{言|ごと}", "{寝言|ねごと}", "{小話|こばなし}"] },
     ] },
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to cease, die out, come to an end (mostly in the negative: never stop)",
     note: "Mostly negative: 笑顔が絶えない家庭 (a home always full of smiles), 事故が絶えない (accidents keep happening), 小言が絶えない. 息が絶える is to die. Don't confuse with 耐える／堪える (たえる, endure).",
     rx: ["ぜつえる", "たいえる", "たたえる"],
-    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば{小言|こごと}が**{絶|た}えません**。", en: "Our mother is exasperated — “You're not a child, and yet it's LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
+    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば{小言|こごと}が**{絶|た}えません**。", en: "Our mother is exasperated — “It's not as if you were a child, and here you are playing LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
     ex: [
       { ja: "この{交差点|こうさてん}では、{交通事故|こうつうじこ}が**{絶|た}えない**。", en: "Traffic accidents never stop happening at this intersection.", alt: ["{耐|た}えない", "{足|た}りない", "{保|たも}たない"] },
     ] },

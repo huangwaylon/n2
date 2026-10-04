@@ -15,7 +15,7 @@ TRY.registerChapter({
           { cont: true, ja: "昭和30年代以降急速に発展し、現在では、現代芸術の一分野としての地位を{確立|かくりつ}している。", en: "It developed rapidly from the Showa 30s (1955–64) onward, and today it has established itself as a branch of contemporary art." },
           { ja: "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをする**べからず**{等|とう}、{数多|かずおお}くの決まりがある。", en: "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”" },
           { cont: true, ja: "{前衛|ぜんえい}書道家はこうした決まりに{縛|しば}られずに、自由な表現を目指すものである。", en: "Avant-garde calligraphers are not bound by such rules and aim for free expression." },
-          { cont: true, ja: "彼らは文字を書こうとさえ考えていない。", en: "They do not even intend to write characters." },
+          { cont: true, ja: "彼らは文字を書こうとさえ考えていない。", en: "They are not even trying to write characters." },
           { cont: true, ja: "**ただ**自分の心を表現すること**のみ**を目指す。", en: "Their sole aim is to express what is in their hearts." },
           { cont: true, ja: "文字として読めない**がゆえ**に、その筆の線が{余白|よはく}**と{相|あい}まって**作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper." },
           { ja: "{前衛|ぜんえい}書道で、よく語られるのが{上田桑鳩|うえだそうきゅう}（1899-1968年）の「愛」（1951年、第7回日本美術{展覧会|てんらんかい}に{出展|しゅってん}）である。", en: "A work often talked about in avant-garde calligraphy is Ueda Sōkyū's (1899–1968) “Ai” (Love), exhibited at the 7th Japan Art Exhibition in 1951." },
@@ -138,7 +138,7 @@ TRY.registerChapter({
           phrase: "筆の線が{余白|よはく}**と{相|あい}まって**",
           stars: 1,
           marks: ["formal"],
-          usage: { ja: "「〜と／が{相|あい}まって」は「このスープは{酸味|さんみ}と{辛|から}みが{相|あい}まって、{絶妙|ぜつみょう}な味わいだ」のように「複数の{要素|ようそ}が一緒になって、程度が高くなる」と言いたいときに使う。", en: "Use “〜と／が相まって” when you want to say that “several elements come together and the effect becomes stronger,” as in “In this soup, the sourness and the spiciness combine to give an exquisite flavor.”" },
+          usage: { ja: "「〜と／が{相|あい}まって」は「このスープは{酸味|さんみ}と{辛|から}みが{相|あい}まって、{絶妙|ぜつみょう}な味わいだ」のように「複数の{要素|ようそ}が一緒になって、程度が高くなる」と言いたいときに使う。", en: "Use “〜と／が相まって” when you want to say that “several elements come together and the effect becomes stronger,” as in “このスープは酸味と辛みが相まって、絶妙な味わいだ” (in this soup, the sourness and the spiciness combine to give an exquisite flavor)." },
           forms: ["[N] + と{相|あい}まって", "[N] + が{相|あい}まって"],
           examples: [
             { ja: "主役の演技が{巧|たく}みなストーリー展開と{相|あい}まって人気を呼び、このドラマは{視聴率|しちょうりつ}トップを{獲得|かくとく}した。", en: "The lead actor's performance, combined with the skillfully developed plot, made the drama a hit, and it topped the ratings." },
@@ -178,7 +178,7 @@ TRY.registerChapter({
           phrase: "書**としてあるまじき**もの",
           stars: 1,
           marks: ["formal"],
-          usage: { ja: "「〜として／にあるまじき」は「{賄賂|わいろ}は政治家にあるまじき{行為|こうい}だ」のように「〜という立場（政治家）では、絶対に許されない」という強い気持ちを表す。", en: "“〜として／にあるまじき” expresses a strong feeling that something is “absolutely unacceptable for someone in the position of 〜 (a politician),” as in “Bribery is conduct unworthy of a politician.”" },
+          usage: { ja: "「〜として／にあるまじき」は「{賄賂|わいろ}は政治家にあるまじき{行為|こうい}だ」のように「〜という立場（政治家）では、絶対に許されない」という強い気持ちを表す。", en: "“〜として／にあるまじき” expresses a strong feeling that something is “absolutely unacceptable for someone in the position of 〜 (a politician),” as in “賄賂は政治家にあるまじき行為だ” (bribery is conduct unworthy of a politician)." },
           forms: ["[N₁] + ［としてあるまじき　にあるまじき］ + [N₂]"],
           formNotes: [
             { ja: "＊「許すまじき」と言うこともある。", en: "“許すまじき” (that must not be forgiven) is also used." },
