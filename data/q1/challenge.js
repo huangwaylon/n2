@@ -2839,7 +2839,7 @@ TRY.registerUnits([
         "a.",
         {
          "ja": "{森|もり}さんに写真を__{撮|と}られた__。",
-         "tr": "I had my picture taken by Mori."
+         "tr": "I had my picture taken by Mori (and didn't like it)."
         },
         "（　　）",
         "［私・森］",
@@ -3124,7 +3124,7 @@ TRY.registerUnits([
      {
       "n": 1,
       "ja": "先生に作文を__ほめられました__。",
-      "tr": "My essay was praised by my teacher."
+      "tr": "I was praised by my teacher for my essay."
      },
      {
       "n": 2,
@@ -3503,7 +3503,7 @@ TRY.registerUnits([
        },
        {
         "ja": "→ 私はホストマザーにパソコンを__使わせてもらいました__。",
-        "tr": "→ I got my host mother to let me use the computer."
+        "tr": "→ I got permission from my host mother to use the computer."
        }
       ]
      }

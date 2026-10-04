@@ -312,7 +312,7 @@ TRY.registerVocab({
       "n": 13,
       "w": "丁寧に",
       "ex": "あの先生はいつも丁寧に教えてくださる。",
-      "tr": "That teacher always explains things carefully."
+      "tr": "That teacher always teaches us so carefully."
      },
      {
       "n": 14,
@@ -756,7 +756,7 @@ TRY.registerVocab({
       "n": 24,
       "w": "関係",
       "ex": "彼と彼女の関係は、これからどうなるのだろう。",
-      "tr": "I wonder what will become of his relationship with her."
+      "tr": "I wonder what will happen to the relationship between him and her."
      },
      {
       "n": 25,

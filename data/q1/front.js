@@ -107,7 +107,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "学習内容は、Ⅰは日本語能力試験のN3レベル、ⅡはN2レベルを中心に、各課、文型・表現を約10項目ずつ、漢字は約45字ずつ、読みのストラテジーを1〜2項目を学びます。第Ⅰ巻全体では、文型・表現55項目、漢字327字、読みのストラテジー10項目になります。",
-     "tr": "As for the content, I centers on the N3 level of the Japanese-Language Proficiency Test and II on the N2 level; in each lesson, students learn about 10 sentence patterns and expressions, about 45 kanji, and one or two reading strategies. Volume I as a whole covers 55 sentence patterns and expressions, 327 kanji, and 10 reading strategies."
+     "tr": "Volume I centers on the N3 level of the Japanese-Language Proficiency Test and Volume II on the N2 level; each lesson covers about 10 sentence patterns and expressions, about 45 kanji, and one or two reading strategies. Volume I as a whole covers 55 sentence patterns and expressions, 327 kanji, and 10 reading strategies."
     }
    },
    {
@@ -980,7 +980,7 @@ TRY.registerFront([
      },
      {
       "ja": "**文型・表現ワーク**　「文型・表現ノート」の項目に関する練習問題にも3タイプあり、Aはアウトプットまで求める項目（テキストで★がついているもの）に関する基本問題、Bはその課で出ているすべての文型・表現を網羅したまとめの問題、そしてCはその課の文型・表現を使って口頭で答える練習問題です。",
-      "tr": "Sentence pattern and expression work: The exercises on the items of the sentence pattern and expression notes also come in three types: A is basic exercises on the items learners should be able to produce (those marked with ★ in the textbook), B is review exercises covering all the sentence patterns and expressions that appear in that lesson, and C is exercises in which learners answer orally using that lesson's sentence patterns and expressions."
+      "tr": "Sentence pattern and expression work: The exercises on the items of the sentence pattern and expression notes also come in three types: A consists of basic exercises on the items learners should be able to produce (those marked with ★ in the textbook), B of review exercises covering all the sentence patterns and expressions in that lesson, and C of exercises in which learners answer orally using that lesson's sentence patterns and expressions."
      }
     ]
    },

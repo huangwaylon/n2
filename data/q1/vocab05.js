@@ -486,7 +486,7 @@ TRY.registerVocab({
       "n": 16,
       "w": "[〜に]付く",
       "ex": "コートに付いていたボタンがなくなってしまった。",
-      "tr": "A button that was on my coat has gone missing."
+      "tr": "I lost one of the buttons that was on my coat."
      },
      {
       "n": 17,
