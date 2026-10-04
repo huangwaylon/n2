@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "place of business; business establishment; workplace",
     note: "An administrative and legal term for any site where business is carried on — office, factory or shop: 事業所の数, 小規模事業所. 事業 alone means a business or undertaking (新規事業 = a new line of business).",
     rx: ["じぎょうどころ", "じごうしょ", "しぎょうしょ"],
-    book: { ja: "これは{小規模|しょうきぼ}**{事業所|じぎょうしょ}**に対して産業医を置くために、市が{補助|ほじょ}をする制度です。", en: "This is a scheme under which the city provides subsidies so that small workplaces can have an occupational physician.", at: "ch/2" },
+    book: { ja: "これは{小規模|しょうきぼ}**{事業所|じぎょうしょ}**に対して産業医を置くために、市が{補助|ほじょ}をする制度です。", en: "This is a program under which the city provides subsidies to help small workplaces take on an occupational physician.", at: "ch/2" },
     ex: [
       { ja: "この{地域|ちいき}には{従業員|じゅうぎょういん}10{人|にん}{以下|いか}の**{事業所|じぎょうしょ}**が{多|おお}い。", en: "There are many business establishments in this area with ten or fewer employees.", alt: ["{避難所|ひなんじょ}", "{停留所|ていりゅうじょ}", "{台所|だいどころ}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "assistance; subsidy; supplementary help",
     note: "Helping by making up part of what is lacking: 費用を補助する, 補助金 (subsidy), 補助的な役割 (a supporting role). 援助 is broader aid, often financial or humanitarian.",
     rx: ["ほうじょ", "ほじょう", "ぼじょ"],
-    book: { ja: "これは{小規模|しょうきぼ}{事業所|じぎょうしょ}に対して産業医を置くために、市が**{補助|ほじょ}**をする制度です。", en: "This is a scheme under which the city provides subsidies so that small workplaces can have an occupational physician.", at: "ch/2" },
+    book: { ja: "これは{小規模|しょうきぼ}{事業所|じぎょうしょ}に対して産業医を置くために、市が**{補助|ほじょ}**をする制度です。", en: "This is a program under which the city provides subsidies to help small workplaces take on an occupational physician.", at: "ch/2" },
     ex: [
       { ja: "{市|し}は{高齢者|こうれいしゃ}のタクシー{代|だい}の{一部|いちぶ}を**{補助|ほじょ}**している。", en: "The city covers part of elderly residents' taxi fares.", alt: ["{補充|ほじゅう}", "{保存|ほぞん}", "{補習|ほしゅう}"] },
     ] },
@@ -376,7 +376,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "meddling; nosiness; a busybody",
     note: "Unwanted interference in other people's affairs: お節介を焼く (meddle), 余計なお節介 (none of your business). Usually a mild criticism; 世話を焼く (fuss over someone) is kinder.",
     rx: ["おせつかい", "おふしかい", "おせっけい"],
-    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but has a tendency to be a busybody.", at: "gp/11" },
+    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is a kind, nice person, but has a tendency to meddle.", at: "gp/11" },
     ex: [
       { ja: "**お{節介|せっかい}**かもしれないけど、{早|はや}く{病院|びょういん}に{行|い}ったほうがいいよ。", en: "It may be none of my business, but you'd better see a doctor soon.", alt: ["お{世辞|せじ}", "お{節|せち}", "お{世話|せわ}"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "being elected; winning (a prize draw)",
     note: "Both winning an election (選挙に当選する) and winning a lottery or drawing (宝くじに当選する, 当選者). 入選 is having a work accepted in a contest.",
     rx: ["とうぜん", "あたりせん", "とせん"],
-    book: { ja: "**{当選者|とうせんしゃ}**の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "In lieu of a separate announcement, winners will be notified by the shipment of their prizes.", at: "gp/13" },
+    book: { ja: "**{当選者|とうせんしゃ}**の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "Winners will not be announced separately; the shipment of prizes will serve as notification.", at: "gp/13" },
     ex: [
       { ja: "{応募|おうぼ}したコンサートのチケットが**{当選|とうせん}**した。", en: "I won the concert tickets I'd entered the draw for.", alt: ["{当然|とうぜん}", "{選択|せんたく}", "{発送|はっそう}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "shipping; sending out (goods or mail)",
     note: "商品を発送する, 発送日, 発送元 (sender). 送付 is sending documents, and 配送 is delivery to the recipient. The homophone 発想 means an idea or way of thinking.",
     rx: ["はつそう", "ほっそう", "はっそ"],
-    book: { ja: "{当選者|とうせんしゃ}の発表は賞品の**{発送|はっそう}**をもってかえさせていただきます。", en: "In lieu of a separate announcement, winners will be notified by the shipment of their prizes.", at: "gp/13" },
+    book: { ja: "{当選者|とうせんしゃ}の発表は賞品の**{発送|はっそう}**をもってかえさせていただきます。", en: "Winners will not be announced separately; the shipment of prizes will serve as notification.", at: "gp/13" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{商品|しょうひん}は{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発想|はっそう}", "{発生|はっせい}", "{放送|ほうそう}"] },
     ] },
@@ -426,7 +426,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["さいする", "ぜいする", "せっする"],
     book: { ja: "「毒をもって毒を**{制|せい}す**」というのは、{悪|あく}を倒すために別の悪を利用することだ。", en: "“Fight poison with poison” means using one evil to defeat another.", at: "gp/13" },
     ex: [
-      { ja: "{延長戦|えんちょうせん}の{末|すえ}、{地元|じもと}チームが{試合|しあい}を**{制|せい}した**。", en: "After extra time, the home team won the match.", alt: ["{接|せっ}した", "{発|はっ}した", "{属|ぞく}した"] },
+      { ja: "{延長戦|えんちょうせん}の{末|すえ}、{地元|じもと}チームが{試合|しあい}を**{制|せい}した**。", en: "After going into overtime, the home team won the game.", alt: ["{接|せっ}した", "{発|はっ}した", "{属|ぞく}した"] },
     ] },
   { w: "{当事者|とうじしゃ}", lv: "N1", pos: "noun",
     en: "the party concerned; the person directly involved",
@@ -576,7 +576,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lifetime; (all) one's life",
     note: "生涯を通じて (throughout one's life), 生涯学習 (lifelong learning), 生涯忘れない. Written and weightier than 一生. The homophone 障害 means obstacle or disability.",
     rx: ["せいがい", "しょうかい", "しょうがえ"],
-    book: { ja: "医学者シュバイツァーは**{生涯|しょうがい}**、音楽を愛し（　）。", en: "Albert Schweitzer, the medical scholar, loved music deeply all his life.", at: "gp/15" },
+    book: { ja: "医学者シュバイツァーは**{生涯|しょうがい}**、音楽を愛し（　）。", en: "The physician Albert Schweitzer loved music deeply all his life.", at: "gp/15" },
     ex: [
       { ja: "{彼女|かのじょ}は**{生涯|しょうがい}**を{貧|まず}しい{人々|ひとびと}のために{捧|ささ}げた。", en: "She devoted her life to the poor.", alt: ["{障害|しょうがい}", "{一生懸命|いっしょうけんめい}", "{生存|せいぞん}"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(formal) apology",
     note: "A formal apology, typical of companies and officials: 謝罪する, 謝罪会見 (a press conference to apologize), 謝罪を求める (demand an apology). In conversation 謝る.",
     rx: ["しゃさい", "じゃざい", "あやまざい"],
-    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "With a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced.", at: "ch/2" },
+    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "We must seek the forgiveness of the customers we have inconvenienced by offering a heartfelt apology.", at: "ch/2" },
     ex: [
       { ja: "{社長|しゃちょう}は{記者|きしゃ}{会見|かいけん}を{開|ひら}いて{正式|せいしき}に**{謝罪|しゃざい}**した。", en: "The company president held a press conference and formally apologized.", alt: ["{感謝|かんしゃ}", "{犯罪|はんざい}", "{謝礼|しゃれい}"] },
     ] },
@@ -655,7 +655,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "interval; spare moment (between activities); break",
     note: "A gap between things one is doing: 仕事の合間に, 雨の合間, 〜の合間を縫って (squeezing time out between ~). 隙間 is a physical gap.",
     rx: ["ごうま", "あいかん", "かいま"],
-    book: { ja: "「豊かな海（　）{漁師|りょうし}だ」と言って、彼らは仕事の**{合間|あいま}**に環境{保護|ほご}の活動をしている。", en: "“Without a rich sea there would be no fishermen,” they say, and in between their work they take part in environmental protection.", at: "ch/2/review" },
+    book: { ja: "「豊かな海（　）{漁師|りょうし}だ」と言って、彼らは仕事の**{合間|あいま}**に環境{保護|ほご}の活動をしている。", en: "“Without a rich sea there would be no fishermen,” they say, and in their spare time from fishing they work to protect the environment.", at: "ch/2/review" },
     ex: [
       { ja: "{彼女|かのじょ}は{子育|こそだ}ての**{合間|あいま}**に{資格|しかく}の{勉強|べんきょう}をしている。", en: "She studies for a qualification in between looking after her kids.", alt: ["{隙間|すきま}", "{仲間|なかま}", "{居間|いま}"] },
     ] },
@@ -671,7 +671,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to leave the nest; to go out into the world (after graduating)",
     note: "Literally young birds leaving the nest; figuratively graduates leaving school or children leaving home: 母校を巣立つ, 社会へ巣立つ. A favorite of graduation speeches.",
     rx: ["そうだつ", "すたつ", "すだちつ"],
-    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am very happy that all 208 of you who entered two years ago are leaving our school without a single one missing.", at: "ch/2/review" },
+    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am very happy that all 208 of you who entered two years ago are graduating from our school without a single one missing.", at: "ch/2/review" },
     ex: [
       { ja: "{今年|ことし}も{多|おお}くの{卒業生|そつぎょうせい}が{社会|しゃかい}へ**{巣立|すだ}って**いった。", en: "Once again this year, many graduates have gone out into the world.", alt: ["{目立|めだ}って", "{役立|やくだ}って", "{泡立|あわだ}って"] },
     ] },
@@ -710,8 +710,8 @@ TRY.registerVocab({ ch: 2, words: [
     en: "support; assistance; backing",
     note: "被災地を支援する, 支援物資 (relief supplies), 経済支援, 子育て支援. 援助 is similar but often means money or goods; 応援 is cheering someone on or lending a hand.",
     rx: ["しいん", "しゅえん", "ささえん"],
-    book: { ja: "**{支援|しえん}**する側、される側ではなく、仲間として一緒に活動する気持ちがあれば、うまくいくと思います。", en: "If you have the attitude of working together as fellow members, rather than as the side that gives support and the side that receives it, I think things will go well.", at: "ch/2/review" },
+    book: { ja: "**{支援|しえん}**する側、される側ではなく、仲間として一緒に活動する気持ちがあれば、うまくいくと思います。", en: "If you see yourselves as partners working alongside them, rather than as helpers and the people being helped, I think things will go well.", at: "ch/2/review" },
     ex: [
-      { ja: "{被災地|ひさいち}には{全国|ぜんこく}から{多|おお}くの**{支援|しえん}**{物資|ぶっし}が{届|とど}いた。", en: "A great deal of relief supplies reached the disaster area from all over the country.", alt: ["{支店|してん}", "{支持|しじ}", "{声援|せいえん}"] },
+      { ja: "{被災地|ひさいち}には{全国|ぜんこく}から{多|おお}くの**{支援|しえん}**{物資|ぶっし}が{届|とど}いた。", en: "Large amounts of relief supplies reached the disaster area from all over the country.", alt: ["{支店|してん}", "{支持|しじ}", "{声援|せいえん}"] },
     ] },
 ] });
