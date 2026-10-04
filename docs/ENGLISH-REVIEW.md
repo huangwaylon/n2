@@ -26,9 +26,10 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | N2 ch01–04 | done (97 strings + 11 vocab; 17 compare copies synced) |
 | N2 ch05–08 | running |
 | N2 ch09–11 | running |
-| N2 ch12–14, compare | running |
+| N2 ch12–14, compare | done (75 strings + 9 vocab; compare 10) |
 | N1 ch01–03 | done (52 strings incl. 7 deepDive/why fixes; 50 vocab) |
 | N1 ch04–06 | running |
 | N1 ch07–10, compare | running |
-| Q1 L1–6 | |
+| Q1 L1–3 | running |
+| Q1 L4–6 | |
 | Q2 L7–12 | |
