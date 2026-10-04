@@ -318,15 +318,15 @@ TRY.registerLesson({
      "tr": [
       "We asked four people to talk about what was good about studying abroad and what you should be careful about when you study abroad: Sarah Gomis from France and Park Ji-hoon from Korea, who are currently studying in Japan, and Ken Honda and Miki Takahashi, Japanese college students who have studied in the United States.",
       "What are the good points of studying abroad?",
-      "Gomis: I'd say it's that your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to speaking and listening especially quickly. Another attraction is being able to interact casually with Japanese people.",
+      "Gomis: I'd have to say it's the way your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to speaking and listening especially quickly. Another attraction is being able to interact casually with Japanese people.",
       "Park: I think so too. When you learn another country's language and culture, the most important thing, above all, is to actually experience it. I'm interested in Japanese politics and history, so I've gone to the Atomic Bomb Dome in Hiroshima and listened to Japanese people's opinions. The more you take the initiative and get out and do things, the more deeply you can get to know Japan, and I've seen firsthand that this is what makes studying abroad so appealing.",
       "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I was able to see Japan and myself from the outside for the first time.",
       "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. I also feel like I've gained more confidence in myself than I had before.",
       "Then what should you be careful about when you study abroad?",
-      "Park: When you study abroad, the biggest issue, without a doubt, is money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
+      "Park: When you study abroad, the biggest issue has to be money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
       "Gomis: That may be true. But when I had only just come to Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I had a hard time keeping up with my classes, and I was worried about my grades... Of course, it may not be good to talk only with people from your own country, but I think it's also fine to spend time with people from your own country sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
       "Honda: After I studied abroad, I realized that my graduation might be delayed... That's because international students sometimes can't take classes as freely as American students. So I thought you should definitely check in advance whether you'll be able to earn credits according to your plan at the school where you study abroad.",
-      "Takahashi: One thing Japanese students need to watch out for is that the time you study abroad overlaps with job-hunting season in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from job hunting overseas: companies give priority to hiring students who are still in school. In other words, what this means is that if you spend a year abroad in your third year, you end up with less time for job hunting. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
+      "Takahashi: One thing Japanese students need to watch out for is that the time you study abroad overlaps with job-hunting season in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from job hunting overseas: companies give priority to hiring students who are still in school. In other words, if you spend a year abroad in your third year, you end up with less time for job hunting. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
      ]
     },
     {
@@ -1067,7 +1067,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "**せっかく**天気がいいのに、熱があって出かけられません。",
-         "tr": "It's such a nice day, and I have a fever and can't go out."
+         "tr": "It's such a nice day, but I have a fever and can't go out."
         },
         {
          "n": 4,
@@ -1367,7 +1367,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "うん。あとはちゃんとシャワーのお{湯|ゆ}**さえ**出れ**ば**、問題ないよね。",
-           "tr": "Yeah. As long as the shower actually gives hot water, we're all set."
+           "tr": "Yeah. Now, as long as the shower actually has hot water, we're all set."
           }
          ]
         },
@@ -1693,7 +1693,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "今の学生は昔の学生**ほど**本を読ま**なく**なった。",
-         "tr": "Students today no longer read as many books as students did in the past."
+         "tr": "Students today don't read as much as students used to."
         },
         {
          "n": 4,
@@ -1928,7 +1928,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "じゃあ、15匹もいる**というわけです**ね。にぎやかそう！",
-           "tr": "So you mean you have fifteen of them! That must be lively!"
+           "tr": "So that makes fifteen in all! Your place must be lively!"
           }
          ]
         },
@@ -1959,7 +1959,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "今日は宿題が多いから、ごめん。",
-           "tr": "I have a lot of homework today, so sorry."
+           "tr": "Sorry, I have a lot of homework today."
           },
           {
            "sp": "A",
@@ -1969,7 +1969,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "明日はレポートを書かなきゃいけないし、あさってもちょっと……。",
-           "tr": "Tomorrow I have to write a paper, and the day after is a bit..."
+           "tr": "Tomorrow I have to write a paper, and the day after isn't great either..."
           },
           {
            "sp": "A",
@@ -2083,7 +2083,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "ううん。日本語{力|りょく}が{足|た}りなくて…。\nもっと日本語が上手なら（**ば**）採用してもらえる**のに**。",
-           "tr": "No. My Japanese isn't good enough... If only my Japanese were better, a company would hire me."
+           "tr": "No. My Japanese isn't good enough... If only my Japanese were better, I could get hired."
           }
          ]
         },
@@ -2098,7 +2098,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "わあ、きれいな人だね。あーあ、僕たちの先生なら（**ば**）いい**のに**。",
-           "tr": "Wow, what a beautiful person. Man, I wish we had that teacher."
+           "tr": "Wow, so good-looking. Man, I wish that were our teacher."
           }
          ]
         }
@@ -2241,7 +2241,7 @@ TRY.registerLesson({
       "What are the points you should watch out for when choosing a club?",
       "Wang: What you should pay the most attention to when choosing a club is time. The number of meetings and the length of practices differ from club to club. You should probably look at the club's schedule and think about how to balance it with your studies and part-time job.",
       "Kimura: There's also the issue of money. In the case of the baseball club, money goes to all kinds of things, like equipment and games. I think you also need to find out ahead of time roughly how much it will cost for a year.",
-      "Nguyen: Another thing that becomes an issue is relationships. There are clubs where the hierarchy between seniors and juniors is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
+      "Nguyen: Another thing that can be an issue is relationships. There are clubs where the hierarchy between seniors and juniors is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
      ],
      "headTr": [
       "Club Activities Roundtable"
@@ -2328,7 +2328,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "他に問題になる**のは**人間関係**です**。",
-           "tr": "Another thing that becomes an issue is relationships."
+           "tr": "Another thing that can be an issue is relationships."
           }
          ]
         }
