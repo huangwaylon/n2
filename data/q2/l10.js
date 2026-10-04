@@ -2521,7 +2521,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "空いている時間に少しずつ勉強してるらしいよ。忙しい人**ほど**時間の使い方がうまいって本当だね。",
-           "tr": "I hear Suzuki-san studies a little at a time in spare moments. It's true what they say: the busier people are, the better they are at using their time."
+           "tr": "Apparently they study a little at a time in their spare moments. It's true what they say: the busier people are, the better they are at using their time."
           }
          ]
         },
@@ -2585,7 +2585,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nほど** is a compressed **〜ば〜ほど**: 忙しい人ほど means 忙しければ忙しいほど, *the busier someone is*. The scale lives in the modifier, so the noun must be described by something that varies in degree (駅に近い, よく本を読む); a bare noun fails, as the book's ✗ examples show.\n\n- It states a tendency, so sentences often end in 〜そうだ, 〜傾向がある or 〜って本当だね (②).\n- Different patterns: comparative **NほどY…ない**, *not as Y as N* (東京ほど寒くない *not as cold as Tokyo*), and 3日ほど, *about three days*.\n\nReading 1 uses it for survey data: 年収の低い層ほど「結婚しないと思う」率が高く (*the lower the income bracket, the higher the share who think they won't marry*)."
+     "deepDive": "**Nほど** is a compressed **〜ば〜ほど** (Quartet I L2-7): 忙しい人ほど means 忙しければ忙しいほど, *the busier someone is*. The scale lives in the modifier, so the noun must be described by something that varies in degree (駅に近い, よく本を読む); a bare noun fails, as the book's ✗ examples show.\n\n- It states a tendency, so sentences often end in 〜そうだ, 〜傾向がある or 〜って本当だね (②).\n- Different patterns: comparative **NほどY…ない**, *not as Y as N* (東京ほど寒くない *not as cold as Tokyo*), and 3日ほど, *about three days*.\n\nReading 1 uses it for survey data: 年収の低い層ほど「結婚しないと思う」率が高く (*the lower the income bracket, the higher the share who think they won't marry*)."
     },
     {
      "t": "note",
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I went back to a shop I used to go to a lot, for the first time in ages, I was disappointed to find it closed."
+         "tr": "When I went back to a shop I used to go to a lot after a long time away, I was disappointed to find it closed."
         },
         {
          "n": 5,
