@@ -556,14 +556,14 @@ TRY.registerLesson({
      "tr": [
       "It's better to have children once you're married. But raising children costs money, and balancing work and family is hard, too. An opinion poll the Asahi Shimbun conducted by mail, together with an online survey of unmarried people, has brought to light a social climate in which people can't picture a bright future for marriage and child-rearing.",
       "Marriage is no longer taken for granted. In the mail poll, 48% of people thought one \"should marry if at all possible,\" a large drop from 59% in the 2012 survey.",
-      "\"Not necessarily\" was the answer of 50%, and it was higher among women by gender and among young people by age group. Among women, 78% of those aged 18–29 and half of those in their 50s and 60s answered \"not necessarily\" (Figure 1).",
+      "Fifty percent said one \"doesn't necessarily have to,\" a share that was higher among women and, by age group, among younger people. Among women, 78% of those aged 18–29 and half of those in their 50s and 60s answered \"not necessarily\" (Figure 1).",
       "Attitudes toward the division of roles between husband and wife are also changing: only 32% think it is better for \"the husband to mainly work and earn the living and the wife to mainly do the housework and raise the children.\" And 69% think it would be good if \"more women worked.\"",
       "On the other hand, the idea that marriage equals children is deeply rooted. 77% think it is better to \"have children once you're married.\" The figure was 82% among men and reached 74% among women, too. By age group, people in their 40s were somewhat lower at 67%, but among young people in their 30s and under it exceeded 70%.",
-      "As for child care, too, the answer \"While children are small, it's better for the mother to look after them at home\" accounted for 63%. It was lower among those in their 30s and under, but even so, more than half of them were positive about \"child care by the mother at home\" (Figure 2).",
+      "On child care as well, the answer \"While children are small, it's better for the mother to look after them at home\" accounted for 63%. The share was lower among those in their 30s and under, but even so, more than half of them were in favor of \"the mother caring for the children at home\" (Figure 2).",
       "Perhaps reflecting the burden felt by women who raise children while working, only 36% said \"women gain a lot from marriage,\" fewer than the 43% who think \"men gain a lot from marriage.\" Among women, only 31% answered that \"women gain a lot from marriage\" (Figure 3).",
       "Unstable employment and income, typified by non-regular employment, also seem to be feeding anxiety about marriage. When people were asked to choose from four options the social factors behind people marrying later or not marrying at all, the most common answer, at 36%, was \"values regarding marriage have changed,\" followed by \"young people's employment and income are unstable\" at 30%. Among those in their 30s and under, however, \"employment and income\" was the most common, accounting for nearly 40% (Figure 4).",
       "When asked about the environment for raising children, 72% answered that “Japan today is a society in which it is hard to have and raise children.” Asked what the biggest problem is, many named the difficulty of balancing work and child-rearing, second only to the financial burden of raising children.",
-      "Sixty percent think “it would be better to become a society in which putting family before work is the norm.” Asked about childcare leave for men, the share saying “it would be better to become a society in which taking it is the norm” reached 69%. According to the Ministry of Health, Labour and Welfare, the rate at which men take childcare leave only just passed 5% in fiscal 2017. The gap with reality has been thrown into sharp relief (Figure 5).",
+      "Sixty percent think “it would be better if society came to take it for granted that people can put family before work.” Asked about childcare leave for men, the share saying “it would be better if society came to take it for granted that men take it” reached 69%. According to the Ministry of Health, Labour and Welfare, the share of men taking childcare leave only just topped 5% in fiscal 2017. The gap with reality has been thrown into sharp relief (Figure 5).",
       "To explore young people's “views on marriage,” the internet survey targeted unmarried people aged 25 to 34. While 80% want to get married, only 60% think that they themselves will marry in the future. As for the annual income they want in a spouse, 60% of women named an amount of 4 million yen or more, which suggests a gap with reality.",
       "Among those who want to marry, 27% said “as soon as possible” and 50% said “someday,” for a combined 77% (75% of men, 80% of women). On the other hand, the share who think they themselves “will get married someday” was lower than the desire: 59% of men and 64% of women. The lower the annual income bracket, the higher the share who “don't think they will marry,” and the higher the share who “don't have a partner” as well (Figure 6).",
       "Meanwhile, 72% of women answered that “income” is a “non-negotiable condition” when choosing a spouse. Asked what annual income they want in a partner, “4 million yen” was the most common answer at 41%, and together with “6 million yen,” “8 million yen,” and “10 million yen,” the total came to 63%. In addition, as many as 85% of women said they are “conscious of” employment status, such as regular or non-regular, when choosing a partner (Figure 7).",
@@ -1548,8 +1548,8 @@ TRY.registerLesson({
       "In the 2006 survey, 58% of Japanese answered that aid for university students from low-income families was \"the government's responsibility,\" which was also considerably lower than in other countries. South Korea, though not to the same degree as Japan, was also low among the countries. Looking at the change over time, in Japan the share saying \"the government's responsibility\" rose from 58% to 67%, the largest increase of any country. Even so, Japan remains the lowest of all the countries (Table 1).",
       "The low share of \"the government's responsibility\" answers in Japan and South Korea may be due to low public spending on higher education and a view, widely rooted in society, that \"paying for education is the family's role.\" The education scholar Masayuki Kobayashi points out that in Japan the \"parents-pay principle\" for education costs has taken hold, and that this has produced \"households that overstretch themselves\" while keeping the small public share of education costs in Japan from surfacing as a problem.",
       "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries fewer than half of the respondents answered \"acceptable\" (\"definitely\" + \"probably,\" here and below) (Figure 3). In Japan, too, it was only 30%, on the low side among the countries.",
-      "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. The relatively high acceptance of surveillance by security cameras may be an expression of a sense of reassurance that the cameras guarantee people's safety in their everyday surroundings.",
-      "So far, we have surveyed what roles people expect their governments to play. Although the results vary with the circumstances surrounding each country, it has become clear that in many countries people have high expectations of the role their government plays."
+      "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. Perhaps the relatively high acceptance of surveillance by security cameras reflects a sense of reassurance that the cameras keep people safe in their everyday lives.",
+      "So far, we have given an overview of what roles people expect their governments to play. Although the results vary depending on each country's circumstances, it has become clear that in many countries people have high expectations of the role their government plays."
      ],
      "headTr": [
       "Introduction",
@@ -2064,7 +2064,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "彼は昼間は高校で歴史を教えている**一方で**、夜はミュージシャンとしても活躍している。",
-         "tr": "He teaches history at a high school during the day, while at night he is also active as a musician."
+         "tr": "He teaches history at a high school during the day, while at night he also performs as a musician."
         },
         {
          "n": 5,
@@ -2508,7 +2508,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "よく食べ、よく運動する人**ほど**{長|なが}{生|い}きするそうだ。",
-         "tr": "They say the more people eat well and exercise, the longer they live."
+         "tr": "They say that the better people eat and the more they exercise, the longer they live."
         },
         {
          "n": 2,
@@ -2516,7 +2516,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{鈴木|すずき}さん、アルバイトもサークル活動もやっているのに、成績もいいんだ。いつ勉強しているんだろう。",
-           "tr": "Suzuki-san has a part-time job and does club activities, and still gets good grades. I wonder when Suzuki-san finds time to study."
+           "tr": "Suzuki-san has a part-time job and does club activities, and still gets good grades. When do they even find time to study?"
           },
           {
            "sp": "B",
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I went back to a shop I used to go to a lot for the first time in ages, I was disappointed to find it closed."
+         "tr": "When I went back to a shop I used to go to a lot, for the first time in ages, I was disappointed to find it closed."
         },
         {
          "n": 5,
@@ -3812,7 +3812,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "何事も＿＿まで＿＿、{改善策|かいぜんさく}を考えて\n＿＿ところ。",
-            "tr": "Not … in anything until …, thinking of ways to improve and …."
+            "tr": "Never … on anything until …; thinks of ways to improve and …."
            },
            "answer": [
             "成功する",
@@ -5281,7 +5281,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "1970年代の日本は「自分は中流である」と考える人が9割を占め、格差があまりない{平等|びょうどう}な社会だと思われていました。この傾向は80年代まで強く見られましたが、その後、資本主義経済の発展により一部の{富裕|ふゆう}層に資産が集まるようになりました。2018年の調査を見てみましょう。ここでは富裕層を所得が1000万円以上の世帯とします。グラフを見ると、富裕層は全体の12.2%__にとどまって__いることがわかります。{一方|いっぽう}、その時の平均所得以下の世帯は全体の62.4%__を占めて__います。また、{貧困|ひんこん}層を所得が200万円以下の世帯とすると、日本の貧困層の世帯は約20%__にのぼって__いることがわかります。このことから、日本は、富裕層より貧困層の割合が高い格差社会であると言えます。",
-       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households in Japan amount to as much as about 20 percent. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
+       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households make up as much as 20 percent or so of the total in Japan. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
       },
       {
        "sp": "",
@@ -5513,7 +5513,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "なるほど。あとアメリカでは{奨学金|しょうがくきん}がもらえなくて学費のローンを組んだ__ものの__、学費が高すぎて就職してもお金が返せないって問題があるんだけど、日本はどう？",
-       "tr": "I see. Also, in America there's the problem that people who can't get scholarships take out student loans, but tuition is so high that they can't pay the money back even after they get a job. What about Japan?"
+       "tr": "I see. Also, in America there's this problem where people who can't get scholarships take out student loans, but tuition is so high that they can't pay them back even after they get a job. What about Japan?"
       },
       {
        "sp": "絵",
