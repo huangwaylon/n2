@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "awareness (of one's position, duties or condition); self-awareness",
     note: "Knowing, and taking to heart, what you are or what your situation is: 社会人としての自覚 (awareness that you're a working adult now), 自覚が足りない, 自覚症状 (symptoms you notice yourself). Unlike 意識, it carries a sense of responsibility.",
     rx: ["じがく", "じこく", "じかっく"],
-    book: { ja: "**{自覚|じかく}**がないにもほどがありますよ。", en: "Your people's lack of any sense of responsibility is beyond belief.", at: "ch/5" },
+    book: { ja: "**{自覚|じかく}**がないにもほどがありますよ。", en: "Your people have no sense of their responsibilities at all; it's beyond belief.", at: "ch/5" },
     ex: [
       { ja: "{彼|かれ}にはチームのリーダーとしての**{自覚|じかく}**が{足|た}りない。", en: "He doesn't have enough awareness of his responsibilities as team leader.", alt: ["{自在|じざい}", "{自首|じしゅ}", "{視覚|しかく}"] },
       { ja: "{本人|ほんにん}に**{自覚|じかく}**はなくても、{周|まわ}りは{迷惑|めいわく}しているものだ。", en: "Even if the person isn't aware of it, the people around them are often put out." },
@@ -60,7 +60,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "surveillance; watch; monitoring",
     note: "Keeping watch to catch wrongdoing or danger: 監視カメラ, 監視の目, 厳しい監視. It suggests control or suspicion; for simply keeping an eye on a child, 見守る is the warmer word. 観察 is observing in order to study.",
     rx: ["かんじ", "けんし", "かんみ"],
-    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this is a problem that comes before security even enters the picture, isn't it?", at: "ch/5" },
+    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this is a problem that comes before security even enters into it, isn't it?", at: "ch/5" },
     ex: [
       { ja: "{倉庫|そうこ}の{入|い}り{口|ぐち}は、{防犯|ぼうはん}カメラで24{時間|じかん}**{監視|かんし}**されている。", en: "The warehouse entrance is monitored around the clock by security cameras.", alt: ["{看護|かんご}", "{監督|かんとく}", "{診察|しんさつ}"] },
     ] },
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "the point (of an argument); the gist of a paper or speech",
     note: "The main line of reasoning of an essay, speech or debate: 論旨が明快だ (the argument is clear), 論旨がずれる (drift off the point). Academic and written. 要旨 is a summary of the content; 論旨 is the argument it makes.",
     rx: ["ろんじ", "りんし", "ろんむね"],
-    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "The theme of your thesis is interesting, but the analysis is — how shall I put it — weak, or the argument is vague… wouldn't it be better to rethink the overall structure?", at: "gp/46" },
+    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "The topic of your paper is interesting, but the analysis is — how shall I put it — weak, or the argument is vague… wouldn't it be better to rethink the overall structure?", at: "gp/46" },
     ex: [
       { ja: "{彼|かれ}の{文章|ぶんしょう}は**{論旨|ろんし}**が{明快|めいかい}で、とても{読|よ}みやすい。", en: "His writing makes its argument clearly and is very easy to read.", alt: ["{論争|ろんそう}", "{論外|ろんがい}", "{旨味|うまみ}"] },
     ] },
@@ -190,7 +190,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ぜんえ", "せんい", "ぜんいい"],
     book: { ja: "**{善意|ぜんい}**の寄付金を{着服|ちゃくふく}するなんて、そんな政治家、許すことができますか。", en: "Pocketing donations given in good faith — how could anyone forgive a politician like that?", at: "gp/48" },
     ex: [
-      { ja: "{被災地|ひさいち}には、{全国|ぜんこく}から**{善意|ぜんい}**の{品|しな}が{次々|つぎつぎ}と{届|とど}けられた。", en: "Goods donated in goodwill poured into the disaster area from all over the country.", alt: ["{悪意|あくい}", "{善悪|ぜんあく}", "{決意|けつい}"] },
+      { ja: "{被災地|ひさいち}には、{全国|ぜんこく}から**{善意|ぜんい}**の{品|しな}が{次々|つぎつぎ}と{届|とど}けられた。", en: "Goods donated out of goodwill poured into the disaster area from all over the country.", alt: ["{悪意|あくい}", "{善悪|ぜんあく}", "{決意|けつい}"] },
     ] },
   { w: "{着服|ちゃくふく}", lv: "N1", pos: "noun · する verb",
     en: "embezzlement; pocketing (money one is entrusted with)",
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "personnel costs; labor costs",
     note: "What a company spends on its people: wages, bonuses, benefits. Typical verbs: 人件費を削減する／抑える (cut / hold down), 人件費がかさむ (pile up).",
     rx: ["にんけんひ", "じんけんぴ", "じんげんひ"],
-    book: { ja: "**{人件費|じんけんひ}**を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。", en: "I took your advice and boldly brought it in to keep labor costs down, but it's backfired, hasn't it.", at: "ch/5" },
+    book: { ja: "**{人件費|じんけんひ}**を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。", en: "I took your advice and took the plunge on bringing it in to keep labor costs down, but it's backfired, hasn't it?", at: "ch/5" },
     ex: [
       { ja: "{工場|こうじょう}の{自動化|じどうか}によって、**{人件費|じんけんひ}**を{大幅|おおはば}に{削減|さくげん}できた。", en: "Automating the factory let us cut labor costs substantially.", alt: ["{会費|かいひ}", "{生活費|せいかつひ}", "{学費|がくひ}"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to backfire; to have the opposite effect from what was intended",
     note: "From dice: the side you didn't want comes up. An action meant to help produces a bad result: 作戦が裏目に出る, 親切が裏目に出る. Often with かえって.",
     rx: ["りめにでる", "うらもくにでる", "うらまにでる"],
-    book: { ja: "{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、**{裏目|うらめ}に出て**しまったな。", en: "I took your advice and boldly brought it in to keep labor costs down, but it's backfired, hasn't it.", at: "ch/5" },
+    book: { ja: "{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、**{裏目|うらめ}に出て**しまったな。", en: "I took your advice and took the plunge on bringing it in to keep labor costs down, but it's backfired, hasn't it?", at: "ch/5" },
     ex: [
       { ja: "{慎重|しんちょう}に{行動|こうどう}したつもりが、かえって**{裏目|うらめ}に{出|で}た**。", en: "I meant to act carefully, but it backfired on me.", alt: ["{右|みぎ}に{出|で}た", "{芽|め}が{出|で}た", "{足|あし}が{出|で}た"] },
     ] },
@@ -537,7 +537,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "one and all; across the board; one after another",
     note: "Literally 'a row of eaves' (every house in the row), so 'all of them without exception', usually for something bad or striking: 軒並み値上がりする, 軒並み欠航, 軒並みつぶれる. 月並み (commonplace) and 人並み (average) look similar but mean different things.",
     rx: ["けんなみ", "のきならみ", "のきみなみ"],
-    book: { ja: "このまま不景気が続こうものなら、{我々|われわれ}のような{零細企業|れいさいきぎょう}は**{軒並|のきな}み**つぶれてしまう。", en: "If this recession goes on, tiny businesses like ours will go under one after another.", at: "gp/57" },
+    book: { ja: "このまま不景気が続こうものなら、{我々|われわれ}のような{零細企業|れいさいきぎょう}は**{軒並|のきな}み**つぶれてしまう。", en: "If this recession drags on, tiny businesses like ours will go under one after another.", at: "gp/57" },
     ex: [
       { ja: "{台風|たいふう}の{影響|えいきょう}で、{今日|きょう}の{飛行機|ひこうき}は**{軒並|のきな}み**{欠航|けっこう}となった。", en: "Because of the typhoon, today's flights were canceled across the board.", alt: ["{月並|つきな}み", "{足並|あしな}み", "{人並|ひとな}み"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ようきしゃ", "よぎしゃ", "ようぎじゃ"],
     book: { ja: "**{容疑者|ようぎしゃ}**が{逮捕|たいほ}されたとはいえ、事件の全面解決までには、まだ時間がかかるだろう。", en: "Although a suspect has been arrested, it will probably still take time before the case is fully solved.", at: "gp/61" },
     ex: [
-      { ja: "{警察|けいさつ}は**{容疑者|ようぎしゃ}**を{逮捕|たいほ}し、{取|と}り{調|しら}べを{進|すす}めている。", en: "The police have arrested a suspect and are now questioning the suspect.", alt: ["{被害者|ひがいしゃ}", "{候補者|こうほしゃ}", "{保護者|ほごしゃ}"] },
+      { ja: "{警察|けいさつ}は**{容疑者|ようぎしゃ}**を{逮捕|たいほ}し、{取|と}り{調|しら}べを{進|すす}めている。", en: "The police have arrested a suspect, and questioning is under way.", alt: ["{被害者|ひがいしゃ}", "{候補者|こうほしゃ}", "{保護者|ほごしゃ}"] },
     ] },
   { w: "{衛生|えいせい}", lv: "N2", pos: "noun",
     en: "hygiene; sanitation",

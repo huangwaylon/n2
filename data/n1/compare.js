@@ -187,7 +187,7 @@ TRY.registerCompare([
         ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "Though we are only a tiny business, we pride ourselves on having technology that is a match for any large corporation." },
         note: "N + といえども: \"even though it is N / even N\". Concedes a status or category and then denies what it would lead one to expect; formal and literary, often with いかに / たとえ." },
       { pattern: "〜とはいえ", level: "N1", no: 61,
-        ex: { ja: "親子とはいえ、触れてはならないプライバシーというものがある。", en: "Even between parent and child, some privacy must not be intruded upon." },
+        ex: { ja: "親子とはいえ、触れてはならないプライバシーというものがある。", en: "Even between parents and children, there is such a thing as privacy that must not be intruded on." },
         note: "Plain form + とはいえ: \"it's true that ~, but\". Accepts a fact, then says reality differs from what it suggests; less stiff than といえども, and also usable at the start of a sentence (とはいえ、…)." }
     ]
   },
@@ -201,7 +201,7 @@ TRY.registerCompare([
         ex: { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like photos of pop idols." },
         note: "N + といったところだ ①: \"it's something like ~ / you might call it ~\". Rephrases with an analogy or gives typical examples to make something easy to grasp." },
       { pattern: "〜といったところだ②", level: "N1", no: 62,
-        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "Even if they say the hourly wage is going up, you'd better not expect much. It'll be fifty yen at most." },
+        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "They may say the hourly wage is going up, but don't get your hopes up. Fifty yen at most, I'd say." },
         note: "Number or level + といったところだ ②: \"~ at most / about ~\". A rough estimate that implies it's not much, often with せいぜい." },
       { pattern: "Nといったら", level: "N3",
         ex: { ja: "冬のスポーツといったら、やっぱりスキーだよね。", en: "When it comes to winter sports, it's got to be skiing." },
@@ -250,7 +250,7 @@ TRY.registerCompare([
         ex: { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like photos of pop idols." },
         note: "N + といったところだ ①: \"it's something like ~\". Rephrases with an analogy or gives typical examples." },
       { pattern: "〜といったところだ②", level: "N1", no: 62,
-        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "Even if they say the hourly wage is going up, you'd better not expect much. It'll be fifty yen at most." },
+        ex: { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "They may say the hourly wage is going up, but don't get your hopes up. Fifty yen at most, I'd say." },
         note: "Number or level + といったところだ ②: \"~ at most / about ~\". A rough estimate that implies it's not much." },
       { pattern: "〜どころじゃない", level: "N2",
         ex: { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: Karaoke? No way! I have to write my report. It's due tomorrow." },
