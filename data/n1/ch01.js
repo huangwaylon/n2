@@ -3,7 +3,7 @@ TRY.registerChapter({
   genre: { ja: "ニュースを読む", en: "Reading the News" },
   title: { ja: "オクトーバーフェスト", en: "Oktoberfest" },
   canDo: [
-    { ja: "イベントなどに関する記事を読んで、その特色や様子が理解できる。", en: "Read a news article about an event or the like, and understand what makes it distinctive and what it is like." },
+    { ja: "イベントなどに関する記事を読んで、その特色や様子が理解できる。", en: "Read news articles about events and similar topics, and understand what makes each one distinctive and what it is like." },
   ],
   parts: [
     {
@@ -15,10 +15,10 @@ TRY.registerChapter({
         lines: [
           { ja: "ABK新聞　2010年9月20日", en: "ABK Shimbun, September 20, 2010" },
           { ja: "18日、ドイツのミュンヘンで「オクトーバーフェスト」が{開幕|かいまく}した。", en: "On the 18th, Oktoberfest opened in Munich, Germany." },
-          { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」**を{皮切|かわき}りに**、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の{敷地|しきち}で{繰|く}り{広|ひろ}げられる。", en: "Kicking off with the mayor of Munich tapping the first barrel, the world's largest beer festival will unfold over 16 days on a 42-hectare site (about nine times the size of Tokyo Dome)." },
-          { cont: true, ja: "さすが世界一のビールの{本場|ほんば}**とあって**、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "Fittingly for the world's foremost home of beer, it draws more than six million tourists from countries all over the world every year." },
+          { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」**を{皮切|かわき}りに**、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の{敷地|しきち}で{繰|く}り{広|ひろ}げられる。", en: "Starting with the mayor of Munich tapping the first keg, the world's largest beer festival will unfold over 16 days on a 42-hectare site (about nine times the size of Tokyo Dome)." },
+          { cont: true, ja: "さすが世界一のビールの{本場|ほんば}**とあって**、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "As you'd expect of the world's foremost home of beer, the festival draws more than six million tourists from all over the world every year." },
           { ja: "今年は、二〇〇周年という歴史的{節目|ふしめ}にあたることから、二〇〇年前のお祭りムードを{再現|さいげん}するヒストリーテントも特別に{設置|せっち}された。", en: "Since this year marks the historic milestone of the festival's 200th anniversary, a special History Tent recreating the festive mood of 200 years ago has also been set up." },
-          { cont: true, ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方**ならではの**ダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}**にもまして**、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected." },
+          { cont: true, ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方**ならではの**ダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}**にもまして**、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected." },
           { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール{飲料|いんりょう}のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、家族{連|づ}れの{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling carnival with a merry-go-round and roller coasters, so many families can be seen there too." },
           { cont: true, ja: "今やビール{好|ず}きの大人はもとより小さな子ども**に{至|いた}るまで**、あらゆる人々が楽しめる国際的なイベントとなっている。", en: "It has now become an international event that everyone can enjoy — beer-loving adults, of course, and even small children." },
           { ja: "日本から来たという観光客の一人は、「さすが、{本場|ほんば}は{雰囲気|ふんいき}**からして**全く違う」と{興奮気味|こうふんぎみ}に語っていた。", en: "One tourist, who said they had come from Japan, remarked excitedly: “Just what you'd expect — the real home of beer is completely different, starting with the atmosphere.”" },
@@ -89,7 +89,7 @@ TRY.registerChapter({
           forms: ["[Pl] + とあって\n［[なA]（だ）　[N]（だ）］"],
           examples: [
             { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "With today being the first Sunday of summer vacation, beaches all over the country were packed with people." },
-            { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and well served by public transport, it has been flooded with applications from people wanting to move in." },
+            { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and convenient to public transportation, it has been flooded with applications from people wanting to move in." },
             { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、{遺伝学|いでんがく}の研究対象として注目されている。", en: "Because the shape of the panda's front paw is so unusual, it is attracting attention as a subject of genetic research." },
             { ja: "あのダ・ヴィンチのモナリザが見られるとあって、開館前から長い列ができたという。", en: "Since this was a chance to see none other than da Vinci's Mona Lisa, a long line reportedly formed even before the museum opened." },
           ],
@@ -136,7 +136,7 @@ TRY.registerChapter({
             { ja: "{大企業|だいきぎょう}にはない、{中小企業|ちゅうしょうきぎょう}ならではの良さについて考える。", en: "We will look at the strengths that only small and medium-sized companies have — ones that large corporations lack." },
             { ja: "{初詣|はつもうで}は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "Plenty of people make their New Year's visit at a shrine, marry in a church and hold funerals at a temple — something I think you'd only find in Japan, with its tolerance of different religions." },
           ],
-          deepDive: "**N₁ならではのN₂** names something that only N₁ has or offers: *an N₂ you can find only in or with N₁*. It carries admiration (the book's praise icon): 北国ならではの遊び (*a pastime only the snowy north offers*), 専門店ならではの味. The best paraphrase is 〜でしか〜ない: 専門店でしか出せない独特の味.\n\nForms: ならではの before a noun; 〜はNならではだ as a predicate (the ＊ note). N₁ is a noun for a place, season, profession or kind of organization; a verb can't precede it.\n\nCompare:\n- **〜らしい**: what is typical, not necessarily unique: 子どもらしい絵 (*a childlike picture*).\n- **〜特有の／〜独特の**: neutral or negative *peculiar to*: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*). ならではの is normally kept for merits.\n- **〜とあって** (#2) presents a special status as a reason; ならではの describes the special thing itself.\n\nPitfall: reading ならでは as the conditional なら. これは専門店ならどこでも似ている味 says the opposite of 専門店ならではの味.\n\nJLPT cue: when の is already printed after the blank (日本の春（　）の光景), the answer is ならでは, not ならではの.",
+          deepDive: "**N₁ならではのN₂** names something that only N₁ has or offers: *an N₂ you can find only in or with N₁*. It carries admiration (the book's praise icon): 北国ならではの遊び (*a pastime only the snowy north offers*), 専門店ならではの味. The best paraphrase is 〜でしか〜ない: 専門店でしか出せない独特の味.\n\nForms: ならではの before a noun; 〜はNならではだ as a predicate (the ＊ note). N₁ is a noun for a place, season, person, profession or kind of organization; a verb can't precede it.\n\nCompare:\n- **〜らしい**: what is typical, not necessarily unique: 子どもらしい絵 (*a childlike picture*).\n- **〜特有の／〜独特の**: neutral or negative *peculiar to*: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*). ならではの is normally kept for merits.\n- **〜とあって** (#2) presents a special status as a reason; ならではの describes the special thing itself.\n\nPitfall: reading ならでは as the conditional なら. これは専門店ならどこでも似ている味 says the opposite of 専門店ならではの味.\n\nJLPT cue: when の is already printed after the blank (日本の春（　）の光景), the answer is ならでは, not ならではの.",
           see: [2],
           index: ["N₁ならではのN₂", "Nならではだ", "NならではのN"],
           practice: [
@@ -242,7 +242,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from monkeys all the way to humans." },
                 { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の{介護靴|かいごぐつ}を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes for people needing nursing care." },
-                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, the president will probably have no choice but to resign.", idiom: true },
+                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, resigning is probably the only option left.", idiom: true },
               ],
             },
           ],
