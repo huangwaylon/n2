@@ -397,8 +397,8 @@ TRY.registerLesson({
      "titleTr": "Love and Fear",
      "tr": [
       "The other day, a kitten came to live with us. I had never kept an animal bigger than a parakeet. For someone like me, who had never had a cat, this was quite an event. What if it doesn't get used to us? What if I can't take care of it properly? What if we can't get along? Every day until the cat arrived, I trembled with anxiety.",
-      "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on someone's lap, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead, knead, knead, knead, and pestered me for food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
-      "I was surprised. Of course each cat has its own personality, but is this how casually a cat slips into people's lives?",
+      "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on our laps, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead, knead, knead, knead, and pestered me for food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
+      "I was surprised. Of course each cat has its own personality, but do cats really slip into people's lives this casually?",
       "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, that stopped too, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my imagination in the fear department has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
@@ -765,7 +765,7 @@ TRY.registerLesson({
         {
          "n": 6,
          "ja": "日本に留学できるとわかった時は、{涙|なみだ}が出る**くらい**うれしかった。",
-         "tr": "When I found out I could study abroad in Japan, I was so happy I could have cried."
+         "tr": "When I found out I could study abroad in Japan, I was so happy that tears came to my eyes."
         }
        ]
       },
@@ -810,7 +810,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜くらい** measures a feeling or state by how far it goes, and the yardstick is usually a vivid, not literal, picture: 泣きそうになるくらいうれしかった (*I was so happy I nearly cried*). It is the everyday word; **ほど** says the same in more formal or written Japanese.\n\n- After a noun it sets a standard: ジョージくらい上手になりたい (*as good as George*). With a negative, Nくらい〜はない means *nothing is as ~ as N*: 彼くらい優しい人はいない (*there's no one as kind as him*).\n- After a number it means *about*: 30分くらい (*about 30 minutes*).\n- A dismissive くらい, *at least*, is a different use: 電話くらいしてよ (*you could at least call*). TRY! N2's **〜くらいなら** (*rather than ~*) builds on it."
+     "deepDive": "**〜くらい** measures a feeling or state by how far it goes, and the yardstick is often an exaggerated picture: 泣きそうになるくらいうれしかった (*I was so happy I nearly cried*). It is the everyday word; **ほど** says the same in more formal or written Japanese.\n\n- After a noun it sets a standard: ジョージくらい上手になりたい (*as good as George*). With a negative, Nくらい〜はない means *nothing is as ~ as N*: 彼くらい優しい人はいない (*there's no one as kind as him*).\n- After a number it means *about*: 30分くらい (*about 30 minutes*).\n- A dismissive くらい, *at least*, is a different use: 電話くらいしてよ (*you could at least call*). TRY! N2's **〜くらいなら** (*rather than ~*) builds on it."
     },
     {
      "t": "note",
@@ -928,7 +928,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- Put the past inside: 何かあったに違いない (*something must have happened*).\n\nCompare Quartet I's **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
+     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- A past event takes the past form before it: 何かあったに違いない (*something must have happened*).\n\nCompare Quartet I's **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
     },
     {
      "t": "note",
@@ -1992,7 +1992,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**V-ます + 得る** is a written word for possibility, whether something can happen or be the case, not whether someone is able to do it. Reports and analysis use it: 起こり得るリスク (*risks that could arise*), 想像し得ない変化 (*unimaginable change*).\n\n- あり得る／あり得ない are the forms heard in everyday speech; ありえない！ on its own means *no way! / that's ridiculous*.\n- Before a noun it often means *every possible*: 考え得る方法 (*every conceivable method*).\n\nKeep it apart from **〜ざるを得ない** (*have no choice but to*), where 得ない expresses necessity. TRY! N2 teaches the same 〜得る／得ない; **〜かねない** (L11-6) adds that the possible outcome is a bad one."
+     "deepDive": "**V-ます + 得る** is a written word for possibility, whether something can happen or be the case, not whether someone is able to do it. Reports and analysis use it: 起こり得るリスク (*risks that could arise*), 想像し得ない変化 (*unimaginable change*).\n\n- あり得る／あり得ない are the forms heard in everyday speech; ありえない！ on its own means *no way! / that's ridiculous*.\n- Before a noun it works like English *-able*: 考え得る方法 (*every conceivable method*).\n\nKeep it apart from **〜ざるを得ない** (*have no choice but to*), where 得ない expresses necessity. TRY! N2 teaches the same 〜得る／得ない; **〜かねない** (L11-6) adds that the possible outcome is a bad one."
     },
     {
      "t": "note",
@@ -2181,9 +2181,9 @@ TRY.registerLesson({
      ],
      "tr": [
       "\"How much do you love me?\"",
-      "To the girl's question, the boy answers like this: \"As much as a whistle in the middle of the night.\"",
+      "The boy answers the girl's question like this: \"As much as a whistle in the middle of the night.\"",
       "The boy turns what the midnight whistle means to him into a story and tells it, and the girl quietly listens to his story. This work is an ultra-short love story that expresses the boy's love for the girl who rescued him from loneliness.",
-      "The appeal of this story is, above all, that it expresses love beautifully. If your sweetheart asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This could truly be called \"the uses of stories.\"",
+      "The greatest appeal of this story is surely that it expresses love beautifully. If your sweetheart asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This, you could say, is exactly what \"the uses of stories\" means.",
       "Another appeal is the boy's gentle tone. The boy moves the story along, gently asking the girl, \"Do you understand?\" and \"Do you understand that too?\" And the girl listens to the story silently and intently, as if watching over the boy. This exchange connects the boy's \"story of loneliness\" with the \"reality\" of the boy being together with the girl. I think the reason we can feel warmth in a painful story is that we can sense the girl's presence through the boy's gentle tone.",
       "It is short, but it is a story that leaves its readers with a warm feeling. When you feel lonely, when you think of someone who supports you, or when you want to support someone: at times like these, I hope you will pick up this work."
      ],
@@ -2406,7 +2406,7 @@ TRY.registerLesson({
           },
           {
            "ja": "少女の質問に少年はこう答える。**「夜中の{汽笛|きてき}くらい」**",
-           "tr": "To the girl's question, the boy answers like this: \"As much as a whistle in the middle of the night.\""
+           "tr": "The boy answers the girl's question like this: \"As much as a whistle in the middle of the night.\""
           }
          ]
         }
@@ -2880,7 +2880,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**せっかくの誕生日なんだし、お祝いしてあげて。",
-       "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
+       "tr": "Come on, don't hold back. Everyone needs help sometimes. It's her birthday, after all, so go celebrate with her."
       },
       {
        "sp": "ジ",
@@ -3025,7 +3025,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**\nせっかくの誕生日なんだし、お{祝|いわ}いしてあげて。",
-        "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's her birthday, after all, so go celebrate with her."
+        "tr": "Come on, don't hold back. Everyone needs help sometimes. It's her birthday, after all, so go celebrate with her."
        }
       },
       {
@@ -3143,7 +3143,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**　{{せっかくの誕生日なんだし、お{祝|いわ}いしてあげて。}}",
-         "tr": "Come on, don't hold back. We should help each other out when we're in a bind. It's their birthday, after all, so go celebrate with them."
+         "tr": "Come on, don't hold back. Everyone needs help sometimes. It's their birthday, after all, so go celebrate with them."
         },
         {
          "sp": "友達",
@@ -3464,7 +3464,7 @@ TRY.registerLesson({
              "style": "gray",
             "text": {
              "ja": "その経験を通して\n考えたこと",
-             "tr": "What you thought about through that experience"
+             "tr": "What the experience made you think"
             }
            },
            ""
@@ -3555,7 +3555,7 @@ TRY.registerLesson({
       {
        "label": {
         "ja": "④ その経験を通して考えたこと",
-        "tr": "④ What he thought about through that experience"
+        "tr": "④ What the experience made him think"
        },
        "text": {
         "ja": "大切なデートの時は、＿＿と＿＿を忘れては\nいけないってことを学んだよ。",
@@ -3737,7 +3737,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "でも、ある意味、絵理にとって一生忘れられない誕生日の思い出になったんじゃない？",
-       "tr": "But in a way, didn't it turn into a birthday memory Eri will never forget as long as she lives?"
+       "tr": "But in a way, didn't it end up being a birthday Eri will never forget?"
       },
       {
        "sp": "ジ",
@@ -3871,7 +3871,7 @@ TRY.registerLesson({
        "n": 6,
        "label": {
         "ja": "話した内容をまとめる",
-        "tr": "Sum up what you told"
+        "tr": "Sum up what you've said"
        },
        "text": {
         "ja": "すてきなカフェには行けなかった**し、**雨に降られてびしょびしょに\nなった**し、**予想以上にお金を使っちゃた**し、本当に最悪だったよ。**",
@@ -3883,7 +3883,7 @@ TRY.registerLesson({
        "n": 7,
        "label": {
         "ja": "その経験を通して考えたことを述べる",
-        "tr": "Say what you thought about through that experience"
+        "tr": "Say what the experience made you think"
        },
        "text": {
         "ja": "大切なデートの**時は、**お店の予約とかさを忘れては\nいけない**ってことを学んだよ。**",
@@ -3921,7 +3921,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ 相手の注意を引き、どんなできごとについて話すかを{一言|ひとこと}で言う\n➔ ❷ 話したいできごとが起こる前の状況を説明する\n➔ ❸ 状況の変化を述べ、そのできごとを{導入|どうにゅう}する\n➔ ❹ 結末に向けて話を進める ➔ ❺ 結末を話す\n➔ ❻ 話した内容をまとめる ➔ ❼ その経験を通して考えたことを述べる",
-        "tr": "1 Get the other person's attention and say in a word what kind of incident you're going to talk about\n→ 2 Explain the situation before the incident you want to talk about\n→ 3 Describe how the situation changed and introduce the incident\n→ 4 Move the story toward the ending → 5 Tell the ending\n→ 6 Sum up what you told → 7 Say what you thought about through that experience"
+        "tr": "1 Get the other person's attention and say in a word what kind of incident you're going to talk about\n→ 2 Explain the situation before the incident you want to talk about\n→ 3 Describe how the situation changed and introduce the incident\n→ 4 Move the story toward the ending → 5 Tell the ending\n→ 6 Sum up what you've said → 7 Say what the experience made you think"
        }
       }
      ]
@@ -4237,7 +4237,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "このように殺処分の数は減っているのですが、ゼロにすることは難しいようです。では、殺処分をゼロに近づけるためにはどうすればいいでしょうか。日本ではペットショップなどで気軽に犬や猫を買うことができます。しかし、ペットを飼う__ということは__、そのペットが死ぬまで世話をするということで、簡単なことではありません。ペットを飼い始める前に、飼い主としての{責任|せきにん}をよく理解してもらう必要があるでしょう。",
-       "tr": "So the number of animals euthanized is going down, but it seems that bringing it down to zero is difficult. Then what should we do to bring euthanasia closer to zero? In Japan, you can casually buy a dog or cat at a pet shop or the like. But having a pet means looking after it until it dies, and that's not a simple thing. Before people start keeping a pet, we probably need to make sure they fully understand their responsibilities as owners."
+       "tr": "So the number of animals euthanized is going down, but it seems that bringing it down to zero is difficult. Then what should we do to bring euthanasia closer to zero? In Japan, you can buy a dog or cat at a pet shop or the like without much thought. But having a pet means looking after it until it dies, and that's not a simple thing. Before people start keeping a pet, we probably need to make sure they fully understand their responsibilities as owners."
       }
      ]
     },
@@ -4505,7 +4505,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "うち__なんか__、{健康|けんこう}を考えてオーガニックのペットフードを食べさせているから、お金がかかって。毎月、トリミング代や洋服、えさ代、{保険|ほけん}料なんかを入れると2万円近くかかるんだ。",
-       "tr": "At our place, for example, we feed her organic pet food with her health in mind, so it gets expensive. Every month, if you add up trimming, clothes, food, insurance and so on, it comes to almost 20,000 yen."
+       "tr": "At our place, for example, we feed her organic pet food with her health in mind, so it gets expensive. Every month, if you add up grooming, clothes, food, insurance and so on, it comes to almost 20,000 yen."
       },
       {
        "sp": "ジ",

@@ -458,7 +458,7 @@ TRY.registerVocab({
       "n": 6,
       "w": "時刻",
       "ex": "日本の地下鉄は時刻表通りに来る。",
-      "tr": "Subways in Japan run on schedule."
+      "tr": "Subways in Japan arrive right on schedule."
      },
      {
       "n": 7,
@@ -512,7 +512,7 @@ TRY.registerVocab({
       "n": 15,
       "w": "生きる",
       "ex": "「生きる」というのは、実はとても大変なことだ。",
-      "tr": "\"Living\" is actually a very hard thing."
+      "tr": "\"Living\" is actually very hard."
      },
      {
       "n": 16,
@@ -1185,7 +1185,7 @@ TRY.registerVocab({
       "n": 39,
       "w": "楽天的な",
       "ex": "彼女は楽天的なので、あまり落ち込まないそうです。",
-      "tr": "She's optimistic, so I hear she doesn't get down very often."
+      "tr": "I hear she's optimistic, so she rarely gets down."
      },
      {
       "n": 40,
