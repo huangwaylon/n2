@@ -810,7 +810,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜くらい** measures a feeling or state by how far it goes, and the yardstick is often an exaggerated picture: 泣きそうになるくらいうれしかった (*I was so happy I nearly cried*). It is the everyday word; **ほど** says the same in more formal or written Japanese.\n\n- After a noun it sets a standard: ジョージくらい上手になりたい (*as good as George*). With a negative, Nくらい〜はない means *nothing is as ~ as N*: 彼くらい優しい人はいない (*there's no one as kind as him*).\n- After a number it means *about*: 30分くらい (*about 30 minutes*).\n- A dismissive くらい, *at least*, is a different use: 電話くらいしてよ (*you could at least call*). TRY! N2's **〜くらいなら** (*rather than ~*) builds on it."
+     "deepDive": "**〜くらい** measures a feeling or state by how far it goes, and the yardstick is often an exaggerated picture: 泣きそうになるくらいうれしかった (*I was so happy I nearly cried*). It is the everyday word; **ほど** (Quartet I L6-8) says the same in more formal or written Japanese.\n\n- After a noun it sets a standard: ジョージくらい上手になりたい (*as good as George*). With a negative, Nくらい〜はない means *nothing is as ~ as N*: 彼くらい優しい人はいない (*there's no one as kind as him*).\n- After a number it means *about*: 30分くらい (*about 30 minutes*).\n- A dismissive くらい, *at least*, is a different use: 電話くらいしてよ (*you could at least call*). TRY! N2's **〜くらいなら** (*rather than ~*) builds on it."
     },
     {
      "t": "note",
@@ -1101,7 +1101,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜たとしても** supposes a case, often an unlikely one, and says the outcome stays the same. The た does not mean past time: 月に住めるようになったとしても (*even if it became possible to live on the moon*) is about the future; the た presents the case as if it were already settled.\n\n- たとえ or 仮に in front underlines the supposition; どんなに／いくら turn it into *no matter how*.\n- **〜ても** is the neutral *even if / even though* and can state real facts: 雨が降っても行った (*I went even though it rained*). 〜としても stays hypothetical.\n\nTRY! N2 teaches plain-form **〜としても** with casual **〜としたって**; TRY! N1's **〜たところで** adds that the action would be pointless (今さら急いだところで間に合わない *hurrying now won't get us there in time*)."
+     "deepDive": "**〜たとしても** supposes a case, often an unlikely one, and says the outcome stays the same. The た does not mean past time: 月に住めるようになったとしても (*even if it became possible to live on the moon*) is about the future; the た presents the case as if it were already settled.\n\n- たとえ or 仮に in front underlines the supposition; どんなに／いくら turn it into *no matter how*.\n- **〜ても** (Quartet I L5-6) is the neutral *even if / even though* and can state real facts: 雨が降っても行った (*I went even though it rained*). 〜としても stays hypothetical.\n\nTRY! N2 teaches plain-form **〜としても** with casual **〜としたって**; TRY! N1's **〜たところで** adds that the action would be pointless (今さら急いだところで間に合わない *hurrying now won't get us there in time*)."
     },
     {
      "t": "note",
@@ -1314,7 +1314,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "卒業して以来、{田中|たなか}さんに全く連絡をしていない。**いったい**今**どこ**で**何**をしているのだろう**か**。",
-         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. I wonder where on earth Tanaka-san is now, and what they’re doing."
+         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. Where on earth could they be now, and what are they doing?"
         },
         {
          "n": 2,
@@ -1410,7 +1410,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "うん。だから、何を言っているのかよくわからないよ。",
-           "tr": "Yeah. That's why I can never really tell what Park-san is saying."
+           "tr": "Yeah. So I can never really tell what they're saying."
           }
          ]
         },
@@ -3340,7 +3340,7 @@ TRY.registerLesson({
          "n": "1.",
          "text": {
           "ja": "国際交流課の{事務員|じむいん} (office worker) の{加藤|かとう}さんが、教室で{机|つくえ}やいすを一人で並べています。何かのイベントの準備をしているようです。手助けを申し出なさい。",
-          "tr": "Kato-san, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. It looks like Kato-san is getting ready for some kind of event. Offer to help."
+          "tr": "Kato-san, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. They seem to be getting ready for some kind of event. Offer to help."
          }
         },
         {
