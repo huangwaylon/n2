@@ -38,7 +38,7 @@ Node ≥ 22. After any change, run the validators listed in `CLAUDE.md` (structu
 Quartet checks, cross-references, vocabulary, cross-book links). Layout tools (screenshots, overflow and furigana probes,
 timings) need Google Chrome and the server on :8765; see `CLAUDE.md` and `docs/LAYOUT.md` §5.
 
-## Where things are
+## Where things are:
 
 | Path | What |
 |---|---|
