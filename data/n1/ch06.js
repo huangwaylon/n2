@@ -15,8 +15,8 @@ TRY.registerChapter({
           { ja: "皆様、{本日|ほんじつ}はお忙しい**ところを**お集まりいただき、{誠|まこと}にありがとうございます。", en: "Everyone, thank you very much for gathering here today, busy as you are." },
           { cont: true, ja: "先ほどは、社長より{激励|げきれい}のお言葉をいただき、{感激|かんげき}**の{至|いた}り**です。", en: "Just now I received words of encouragement from the President, and I am moved beyond words." },
           { ja: "{私|わたくし}、{本日|ほんじつ}3月31日**をもって**、本社での研修を終了し、来週ベトナムへ帰ります。", en: "As of today, March 31, I complete my training at the head office, and next week I return to Vietnam." },
-          { cont: true, ja: "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。", en: "During my training, being new to everything, I caused you all a good deal of trouble, yet you guided me so warmly that my gratitude is beyond words." },
-          { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned how anyone who is a company employee ought to conduct themselves." },
+          { cont: true, ja: "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。", en: "Being new to everything, I caused you all a great deal of trouble during my training, and I cannot thank you enough for guiding me so warmly." },
+          { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned what anyone worthy of the name \"company employee\" ought to be." },
           { cont: true, ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい**限りです**。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has just been launched, and I am truly delighted that I will be able to go on working with all of you." },
           { cont: true, ja: "まだまだ皆様に助けていただくことも多いと思いますので、今後ともどうぞよろしくお願いいたします。", en: "I am sure there will still be many times when I need your help, so I humbly ask for your continued support in the future." },
         ],
@@ -204,7 +204,7 @@ TRY.registerChapter({
           forms: ["[N₁] + たる + [N₂]", "[N₁] + たるに"],
           examples: [
             { ja: "{企業|きぎょう}の経営者たる{者|もの}は、働く人たちが能力を{発揮|はっき}できるよう環境を整えるべきである。", en: "Anyone who runs a company ought to create an environment in which employees can make full use of their abilities." },
-            { ja: "プロであれアマチュアであれ、スポーツ選手たる{者|もの}、{正々堂々|せいせいどうどう}と戦うことを常に忘れてはならない。", en: "Professional or amateur, anyone who is an athlete must never forget to compete fairly and squarely." },
+            { ja: "プロであれアマチュアであれ、スポーツ選手たる{者|もの}、{正々堂々|せいせいどうどう}と戦うことを常に忘れてはならない。", en: "Professional or amateur, anyone who calls themselves an athlete must always remember to compete fairly and squarely." },
             { ja: "国民の安全を{確保|かくほ}できなければ、国家のリーダーたるに{値|あたい}しない。", en: "Anyone who cannot ensure the safety of the people is not worthy of being the nation's leader." },
             { ja: "学生の気持ちを理解しようとしない人間には教育者たる{資格|しかく}はない。", en: "A person who makes no effort to understand students' feelings is not fit to be an educator." },
           ],
@@ -227,7 +227,7 @@ TRY.registerChapter({
           examples: [
             { ja: "努力の{甲斐|かい}あって、日本の{看護師|かんごし}の国家試験に受かって、うれしい限りです。", en: "My efforts paid off: I passed Japan's national nursing exam, and I couldn't be happier." },
             { ja: "たった2点足りなかったばかりに不合格だなんて、{悔|くや}しい限りだ。", en: "To fail just because I was a mere two points short — it's so frustrating!" },
-            { ja: "貴重な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious." },
+            { ja: "貴重な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent out a valuable book as a special favor, and it came back dirty. It makes me absolutely furious." },
             { ja: "何{カ|か}月も前から楽しみにしていたコンサートが台風で中止だなんて、残念な限りだ。", en: "The concert I'd been looking forward to for months has been canceled because of a typhoon — it's such a shame." },
           ],
           deepDive: "**〜限りだ** (*to the limit*) attaches to an adjective of feeling and states the speaker's own emotion at its height: うれしい限りです (*I couldn't be happier*), 心細い限りだった (*I felt utterly helpless*). It works in everyday speech and writing as well as in speeches.\n\nConnection: い-adjective + 限りだ (悔しい, 寂しい, 頼もしい, 情けない, うらやましい) and な-adjective + な + 限りだ (残念な限りだ). It takes only feeling or evaluation words (✗高い限りだ), only the speaker's own feeling (✗彼はうれしい限りだ), and no nouns (✗喜びの限りだ).\n\nCompare:\n- **〜の至り** (#66) and **〜にたえない** (#69): take nouns and are ceremonious.\n- **〜といったらない** (#83): more emotional and colloquial (悔しいといったらない).\n- **Nを限りに** (#106): *as of N, no more* (今日を限りにたばこをやめる), a different 限り.\n\nPitfall: confusing it with 〜限り *as long as* (私が知っている限り *as far as I know*) or 〜ない限り *unless*, both N2-level patterns.\n\nJLPT cue: a feeling adjective + blank + だ / です points to 限り; 至り needs N + の.",
@@ -257,7 +257,7 @@ TRY.registerChapter({
             { q: "初級で習った漢字なのに読めないなんて、恥ずかしい＿＿だ。", answer: "限り", en: "Not being able to read kanji I learned at beginner level — how utterly embarrassing." },
             { q: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", answer: "にたえません", en: "Having safely reached our 100th anniversary like this today, all of us employees are filled with joy." },
             { q: "お電話でのお問い合わせは{本日|ほんじつ}6時＿＿終了させていただきました。", answer: "をもちまして", en: "We stopped taking telephone inquiries as of 6 o'clock today." },
-            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone who is a hotel manager cannot do the job without being able to deal properly even with difficult guests." },
+            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone worthy of the title of hotel manager has to be able to deal properly even with difficult guests, or they can't do the job." },
           ],
         },
         {
@@ -292,7 +292,7 @@ TRY.registerChapter({
             q: "{裁判官|さいばんかん}（　）{者|もの}、常に公正な立場で真実を{追求|ついきゅう}することを忘れてはならない。",
             options: ["あっての", "たる", "ならではの", "なりの"],
             answer: 1,
-            en: "Anyone who is a judge must never forget to pursue the truth from a position of fairness.",
+            en: "Anyone who holds the office of judge must never forget to pursue the truth from a position of fairness.",
             why: { en: "A status noun + たる者 + てはならない states what anyone in that role must do (#70). あっての (only possible thanks to), ならではの (unique to) and なりの (in one's own way) don't lead into 者 + an obligation." },
           },
           {
@@ -405,7 +405,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "えー、{本日|ほんじつ}をもちまして、社長に{就任|しゅうにん}いたしました{上田|うえだ}です。{我|わ}が{社|しゃ}は今、経営が{厳|きび}しい{状態|じょうたい}です。今は{我|わ}が{社|しゃ}の得意分野に集中し、経営を安定させなければなりません。広げすぎた{事業|じぎょう}は整理しますが、社員を減らすことは考えていません。大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。" },
             ],
-            en: ["Er, as of today I have taken office as president; my name is Ueda. Our company is currently in a difficult position. For now we must concentrate on our areas of strength and put the business on a stable footing. We will rationalize the operations we have overextended, but we are not considering reducing staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."],
+            en: ["Er, as of today I have taken office as president; my name is Ueda. Our company is currently in a difficult position. For now we must concentrate on our areas of strength and put the business on a stable footing. We will scale back the operations we have expanded too far, but we are not considering reducing staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."],
             options: ["{社員|しゃいん}を{集|あつ}める", "{経営|けいえい}を{安定|あんてい}させる", "{事業|じぎょう}を{広|ひろ}げる", "{社員|しゃいん}を{減|へ}らす"],
             optionsEn: ["Gather employees", "Stabilize the business", "Expand operations", "Reduce staff"],
             answer: 1,

@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "feeling; sense (of gratitude, respect, etc.); (also) care, attention",
     note: "Formal word for a deep feeling, in 〜の念: 感謝の念, 尊敬の念, 後悔の念, 自責の念. Also 'attention to detail' in 念のため (just to be sure), 念を入れる, 念を押す (make sure).",
     rx: ["ねい", "めん", "なん"],
-    book: { ja: "研修期間中は慣れないこととて皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の**{念|ねん}**にたえません。", en: "During my training, being new to everything, I caused you all a good deal of trouble, yet you guided me so warmly that my gratitude is beyond words.", at: "ch/6" },
+    book: { ja: "研修期間中は慣れないこととて皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の**{念|ねん}**にたえません。", en: "Being new to everything, I caused you all a great deal of trouble during my training, and I cannot thank you enough for guiding me so warmly.", at: "ch/6" },
     ex: [
       { ja: "{命|いのち}を{救|すく}ってくれた{医師|いし}に、{深|ふか}い{感謝|かんしゃ}の**{念|ねん}**を{抱|いだ}いている。", en: "I feel deep gratitude toward the doctor who saved my life.", alt: ["{値|あたい}", "{札|ふだ}", "{数|かず}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "sincere; honest; faithful",
     note: "Describes a person or their conduct as honest and conscientious: 誠実な人柄, 誠実に対応する, 誠実さ. 誠意 is the noun for sincerity shown toward someone; 正直 is simply not lying.",
     rx: ["せいじち", "しんじつ", "せいしつ"],
-    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned how anyone who is a company employee ought to conduct themselves.", at: "ch/6" },
+    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned what anyone worthy of the name \"company employee\" ought to be.", at: "ch/6" },
     ex: [
       { ja: "{彼|かれ}は{口下手|くちべた}だが、**{誠実|せいじつ}**な{人柄|ひとがら}で{客|きゃく}から{信頼|しんらい}されている。", en: "He isn't a smooth talker, but customers trust him because he's honest.", alt: ["{切実|せつじつ}", "{確実|かくじつ}", "{充実|じゅうじつ}"] },
     ] },
@@ -205,7 +205,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["あかめん", "せっめん", "しゃくめん"],
     book: { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても**{赤面|せきめん}**の{至|いた}りだ。", en: "Getting the new president's name wrong at the inauguration party — even now, when I think back on it, I blush with shame.", at: "gp/66" },
     ex: [
-      { ja: "{若|わか}いころに{書|か}いた{日記|にっき}を{読|よ}み{返|かえ}すと、**{赤面|せきめん}**してしまう。", en: "When I reread the diary I wrote when I was young, I blush.", alt: ["{赤字|あかじ}", "{正面|しょうめん}", "{洗面|せんめん}"] },
+      { ja: "{若|わか}いころに{書|か}いた{日記|にっき}を{読|よ}み{返|かえ}すと、**{赤面|せきめん}**してしまう。", en: "Rereading the diary I kept when I was young makes me blush.", alt: ["{赤字|あかじ}", "{正面|しょうめん}", "{洗面|せんめん}"] },
     ] },
   { w: "{盛大|せいだい}", lv: "N1", pos: "な adjective",
     en: "grand; lavish; magnificent (of a gathering)",
@@ -370,7 +370,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "fair and square; openly and honorably",
     note: "Acting fairly and openly, without tricks: 正々堂々と戦う (the classic phrase of an athletes' oath), 正々堂々とした態度. Always positive, unlike plain 堂々と, which can also mean 'brazenly'.",
     rx: ["せいぜいどうどう", "しょうしょうどうどう", "せいせいとうとう"],
-    book: { ja: "プロであれアマチュアであれ、スポーツ選手たる{者|もの}、**{正々堂々|せいせいどうどう}**と戦うことを常に忘れてはならない。", en: "Professional or amateur, anyone who is an athlete must never forget to compete fairly and squarely.", at: "gp/70" },
+    book: { ja: "プロであれアマチュアであれ、スポーツ選手たる{者|もの}、**{正々堂々|せいせいどうどう}**と戦うことを常に忘れてはならない。", en: "Professional or amateur, anyone who calls themselves an athlete must always remember to compete fairly and squarely.", at: "gp/70" },
     ex: [
       { ja: "{選手|せんしゅ}{代表|だいひょう}が「スポーツマンシップにのっとり、**{正々堂々|せいせいどうどう}**{戦|たたか}うことを{誓|ちか}います」と{宣誓|せんせい}した。", en: "The athletes' representative took the oath: \"We swear to compete fair and square, in the spirit of sportsmanship.\"", alt: ["{右往左往|うおうさおう}", "{半信半疑|はんしんはんぎ}", "{自業自得|じごうじとく}"] },
     ] },
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "infuriating; irritating; maddening",
     note: "Describes something that makes one angry: 腹立たしい気持ち, 腹立たしい限りだ. The verb is 腹が立つ. More written than むかつく and more about the situation than the speaker's outburst.",
     rx: ["ふくだたしい", "はらたたしい", "はらだちしい"],
-    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I lent out a valuable book as a special favor, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{約束|やくそく}を{何度|なんど}も{破|やぶ}られて、{本当|ほんとう}に**{腹立|はらだ}たしい**。", en: "They've broken their promises to me so many times — it's really infuriating.", alt: ["{慌|あわ}ただしい", "{喜|よろこ}ばしい", "{頼|たの}もしい"] },
     ] },
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "valuable; precious",
     note: "Rare and therefore highly valuable: 貴重な経験, 貴重品 (valuables), 貴重な時間, 貴重なご意見. 高価 means simply 'expensive'.",
     rx: ["きじゅう", "ぎちょう", "きちょ"],
-    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I went out of my way to lend out a valuable book, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent out a valuable book as a special favor, and it came back dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{留学|りゅうがく}は、{私|わたし}にとって{本当|ほんとう}に**{貴重|きちょう}な**{経験|けいけん}になった。", en: "Studying abroad turned out to be a truly valuable experience for me.", alt: ["{不器用|ぶきよう}な", "{慎重|しんちょう}な", "{丁重|ていちょう}な"] },
     ] },
@@ -428,7 +428,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["らいもしい", "たのしい", "たよもしい"],
     book: { ja: "**頼もしい**", en: "dependable", at: "gp/71" },
     ex: [
-      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "Only a new hire, yet this junior colleague keeps landing one contract after another — very dependable.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
+      { ja: "{新人|しんじん}ながら{次々|つぎつぎ}と{契約|けいやく}を{取|と}ってくる、**{頼|たの}もしい**{後輩|こうはい}だ。", en: "A dependable junior colleague: new to the job, yet bringing in one contract after another.", alt: ["{頼|たよ}りない", "{心細|こころぼそ}い", "{情|なさ}けない"] },
     ] },
   { w: "{公正|こうせい}", lv: "N1", pos: "な adjective · noun",
     en: "fair; impartial; just",
