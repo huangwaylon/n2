@@ -10,7 +10,7 @@ TRY.registerCompare([
         ex: { ja: "仕事を{求|もと}めて{都会|とかい}に出る{若者|わかもの}がいる**{一方|いっぽう}**、{故郷|こきょう}に{戻|もど}って{就職|しゅうしょく}する{若者|わかもの}もいる。", en: "While there are young people who go to the city looking for work, there are also young people who return to their hometowns to find jobs." },
         note: "A一方（で）B: \"while A, (on the other hand) B\". Sets two contrasting situations side by side; attaches to the plain form (なA + な, N + の, or formal である) and says nothing about change over time." },
       { pattern: "V{一方|いっぽう}②", level: "N2", no: 115,
-        ex: { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える**{一方|いっぽう}だ**。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists just keeps increasing." },
+        ex: { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える**{一方|いっぽう}だ**。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists has just kept increasing." },
         note: "V-る + 一方だ: \"just keeps ~ing / only gets more and more ~\". Only with change verbs (増える, 減る, 悪くなる; ✗食べる一方だ), mostly for an unwelcome trend with no sign of stopping; same as V-るばかりだ." }
     ]
   },
@@ -25,7 +25,7 @@ TRY.registerCompare([
         ex: { ja: "この本は{就職活動|しゅうしょくかつどう}をする**{上|うえ}で**の{重要|じゅうよう}なポイントが書かれています。", en: "This book covers the key points to keep in mind when job hunting." },
         note: "V-る + 上で: \"in doing V / when it comes to V\". The rest of the sentence says what is important, necessary or a problem for that activity (重要だ, 必要だ, 欠かせない); 上での + N modifies a noun, as here." },
       { pattern: "〜{上|うえ}で②", level: "N2", no: 117,
-        ex: { ja: "駅前の{再開発|さいかいはつ}については、住民の皆さんの意見をまとめた**{上|うえ}で**、市に{要望書|ようぼうしょ}を{提出|ていしゅつ}したいと思います。", en: "Regarding the redevelopment in front of the station, we would like to submit a written request to the city after compiling the opinions of all the residents." },
+        ex: { ja: "駅前の{再開発|さいかいはつ}については、住民の皆さんの意見をまとめた**{上|うえ}で**、市に{要望書|ようぼうしょ}を{提出|ていしゅつ}したいと思います。", en: "Regarding the redevelopment in front of the station, we'd like to compile the opinions of all the residents and then submit a written request to the city." },
         note: "V-た / Nの + 上で: \"after (first) doing V, and on that basis\". A necessary step (checking, compiling) comes before a decision or action; formal, not for everyday sequences (✗映画を見た上で食事しよう). The V-た form separates it from ①." },
       { pattern: "〜{上|うえ}は", level: "N2", no: 18,
         ex: { ja: "{税金|ぜいきん}を使って研究を{行|おこな}う**{上|うえ}は**、社会に役立つ研究をしなければならない。", en: "Since we are doing research with taxpayers' money, it must be research that benefits society." },
@@ -199,7 +199,7 @@ TRY.registerCompare([
         ex: { ja: "今回は{優勝|ゆうしょう}することができましたが、これで{満足|まんぞく}する**ことなく**、さらに{努力|どりょく}を続けます。これからも、{応援|おうえん}よろしくお願いします。", en: "We were able to win this time, but we won't rest on that; we'll keep working even harder. Please continue to support us." },
         note: "V-る + ことなく: \"without doing V\". The formal, written counterpart of 〜ないで / 〜ずに, used for something continuing uninterrupted, a feared event not happening, or a resolution (満足することなく)." },
       { pattern: "〜ないことには", level: "N2", no: 110,
-        ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder roughly how many they'll hire.\nB: Unless you ask them, you won't know the details." },
+        ex: { ja: "A：ここに{若干名募集|じゃっかんめいぼしゅう}って書いてあるけど、何人ぐらい{採用|さいよう}するのかなあ。\nB：{問|と}い{合|あ}わせてみ**ないことには**、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a few people,\" but I wonder roughly how many they'll actually take on.\nB: Unless you ask them, you won't know the details." },
         note: "V-ない + ことには: \"unless (you) ~, (you can't)\". Stresses an indispensable first step; the second half must be negative or impossible (わからない, できない)." },
       { pattern: "Vことはない", level: "N2", no: 49,
         ex: { ja: "{君|きみ}が{謝|あやま}る**ことはない**よ。悪いのは{向|む}こうなんだから。", en: "There's no need for you to apologize. They're the ones at fault." },
@@ -228,7 +228,7 @@ TRY.registerCompare([
     key: "〜{次第|しだい}",
     intro: {
       ja: "「{次第|しだい}」は、{動詞|どうし}につくと「〜したらすぐ」、{名詞|めいし}につくと「〜によって{決|き}まる」という{意味|いみ}になります。",
-      en: "Attached to a verb, 次第 means \"as soon as ~\"; attached to a noun, it means \"is decided by ~\"."
+      en: "Attached to a verb stem, 次第 means \"as soon as ~\"; attached to a noun, it means \"depending on ~\" or \"it's up to ~\"."
     },
     items: [
       { pattern: "〜{次第|しだい}①", level: "N2", no: 36,
@@ -268,7 +268,7 @@ TRY.registerCompare([
         ex: { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべ**つつ**、プレゼントを選ぶお父さんの{姿|すがた}が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces." },
         note: "V-ます stem + つつ: \"while\". A written, formal equivalent of ながら for two actions by the same subject; no noun or adjective forms." },
       { pattern: "Vつつも", level: "N2", no: 112,
-        ex: { ja: "チョコレートを食べたらにきびが増えると知り**つつも**、つい手が{伸|の}びてしまうんです。", en: "Even though I know eating chocolate gives me more pimples, I can't help reaching for it." },
+        ex: { ja: "チョコレートを食べたらにきびが増えると知り**つつも**、つい手が{伸|の}びてしまうんです。", en: "Even though I know I'll get more pimples if I eat chocolate, I just can't help reaching for it." },
         note: "V-ます stem + つつも: \"although / even while\". Concessive: typically 思う / 知る followed by an action that goes against it (つい〜てしまう); も can be dropped, leaving つつ with this meaning." },
       { pattern: "Vつつある", level: "N2", no: 71,
         ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are gradually spreading around the world." },
@@ -433,7 +433,7 @@ TRY.registerCompare([
         ex: { ja: "最近雨**ばかり**で、{洗濯物|せんたくもの}が{乾|かわ}かなくて困っています。", en: "It's been nothing but rain lately, and it's a pain because the laundry won't dry." },
         note: "N / V-て + ばかり: \"nothing but / only\". Implies too much of one thing, often as a complaint." },
       { pattern: "〜ばかり", level: "N2", no: 115,
-        ex: { ja: "{円高|えんだか}が進んで、{景気|けいき}が悪くなる**ばかりだ**。", en: "The yen keeps getting stronger, and the economy just keeps getting worse." },
+        ex: { ja: "{円高|えんだか}が進んで、{景気|けいき}が悪くなる**ばかりだ**。", en: "With the yen getting stronger, the economy just keeps getting worse." },
         note: "V-る + ばかりだ: \"just keeps getting ~\". A change moving steadily in one (usually bad) direction; the Plus of #115, same meaning as V-る一方だ." },
       { pattern: "〜ばかりか", level: "N3",
         ex: { ja: "今日は電車で足を{踏|ふ}まれた**ばかりか**、かばんに入れておいたサンドイッチもつぶされてしまった。", en: "Today on the train, not only did someone step on my foot, but the sandwich I had in my bag got squashed, too." },
@@ -457,7 +457,7 @@ TRY.registerCompare([
         ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはある**まい**。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to take a turn for the better any time soon. Our company, too, must urgently think of countermeasures." },
         note: "V-る + まい: \"surely won't / there's little chance that\". A formal negative conjecture based on the situation (≈ 〜ないだろう), often 〜ことはあるまい; the same form also expresses firm negative resolve (\"I will never\")." },
       { pattern: "VかVまいか", level: "N2", no: 123,
-        ex: { ja: "彼は夏休みに国へ**帰ろうか帰るまいか**と{悩|なや}んでいるらしい。", en: "Apparently he's agonizing over whether or not to go back to his country for the summer vacation." },
+        ex: { ja: "彼は夏休みに国へ**帰ろうか帰るまいか**と{悩|なや}んでいるらしい。", en: "Apparently he's agonizing over whether or not to go back to his country for summer vacation." },
         note: "V-（よ）う + か + V-る + まいか: \"whether to do it or not\". The same verb twice, followed by 迷う / 悩む; literary (in speech, 〜しようかどうか)." }
     ]
   },
@@ -475,7 +475,7 @@ TRY.registerCompare([
         ex: { ja: "A：うちの{息子|むすこ}は最近{口答|くちごた}えばかりして、ちっとも言うことを聞かないんですよ。\nB：子どもは親に{反抗|はんこう}する**ものです**から、それも{成長|せいちょう}のひとつですよ。", en: "A: My son keeps talking back lately and never listens to a word I say.\nB: Kids naturally rebel against their parents, so that's just part of growing up." },
         note: "V-る / V-ない + ものだ: \"that's how people are / one should\". A general truth about human nature or a common-sense norm; can sound preachy to superiors." },
       { pattern: "〜ものだ②", level: "N2", no: 132,
-        ex: { ja: "昔はよく友達と近くの川で{泳|およ}いだ**ものだ**。", en: "I used to swim in the nearby river with my friends a lot." },
+        ex: { ja: "昔はよく友達と近くの川で{泳|およ}いだ**ものだ**。", en: "I often used to swim in the nearby river with my friends." },
         note: "V-た + ものだ: \"used to (fondly)\". Nostalgic recollection of a repeated past habit (with よく, 昔は); unlike ①, it's about the speaker's own past." },
       { pattern: "〜ものではない", level: "N2", no: 46,
         ex: { ja: "{楽|らく}をしてお金をもうけようなんて考える**もんじゃない**。", en: "You shouldn't think about making money the easy way." },
@@ -493,7 +493,7 @@ TRY.registerCompare([
         ex: { ja: "水泳教室に通ってはいる**ものの**、いまだに25メートルしか泳げない。", en: "Although I do go to swimming lessons, I still can only swim 25 meters." },
         note: "Plain form + ものの: \"although / it's true that ~, but\". Admits a fact, then says the expected follow-up didn't happen; more written and emphatic than けど, often with は (通ってはいるものの)." },
       { pattern: "Vものなら", level: "N2", no: 122,
-        ex: { ja: "子どものころから{星|ほし}が好きだったので、行ける**ものなら**{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I possibly could, I'd like to travel to space." },
+        ex: { ja: "子どものころから{星|ほし}が好きだったので、行ける**ものなら**{宇宙|うちゅう}旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if I possibly could, I'd love to go on a trip into space." },
         note: "Potential verb + ものなら: \"if I possibly could\". A longing for something the speaker thinks is nearly impossible, followed by 〜たい (often the same verb: 行けるものなら行きたい)." },
       { pattern: "〜ものか", level: "N2", no: 51,
         ex: { ja: "こんなサービスの悪い店には二度と来る**もんか**。", en: "I'll never come back to a store with service this bad!" },
@@ -580,7 +580,7 @@ TRY.registerCompare([
         ex: { ja: "A：このチョコ、1{粒|つぶ}1,000円もするんだよ。\nB：え！　本当？　じゃあ、おいしい**わけ**よね。", en: "A: This chocolate costs 1,000 yen per piece.\nB: What? Really? No wonder it's delicious, then." },
         note: "Plain form + わけだ: \"no wonder / so that's why\". The speaker learns the reason for something already known and is convinced (often with どうりで, なるほど)." },
       { pattern: "〜わけだ②", level: "N2", no: 134,
-        ex: { ja: "食生活の{改善|かいぜん}と{適度|てきど}な運動によって{免疫力|めんえきりょく}が高まり、病気にかかりにくくなる**わけです**。", en: "Improving your diet and getting moderate exercise strengthens your immune system, which means you become less likely to get sick." },
+        ex: { ja: "食生活の{改善|かいぜん}と{適度|てきど}な運動によって{免疫力|めんえきりょく}が高まり、病気にかかりにくくなる**わけです**。", en: "Improving your diet and getting moderate exercise strengthens your immune system, which is why you become less likely to get sick." },
         note: "Plain form + わけだ: \"which means / so naturally\". Explains to others that a result follows logically from the stated causes; common in explanations and essays, with no sudden realization as in ①." }
     ]
   }
