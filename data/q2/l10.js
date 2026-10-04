@@ -1549,7 +1549,7 @@ TRY.registerLesson({
       "The low share of \"the government's responsibility\" answers in Japan and South Korea may be due to low public spending on higher education and a view, widely rooted in society, that \"paying for education is the family's role.\" The education scholar Masayuki Kobayashi points out that in Japan the \"parents-pay principle\" for education costs has taken hold, and that this has produced \"households that overstretch themselves\" while keeping the small public share of education costs in Japan from surfacing as a problem.",
       "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries fewer than half of the respondents answered \"acceptable\" (\"definitely\" + \"probably,\" here and below) (Figure 3). In Japan, too, it was only 30%, on the low side among the countries.",
       "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. The relatively high acceptance of surveillance by security cameras may be an expression of a sense of reassurance that the cameras guarantee people's safety in their everyday surroundings.",
-      "So far, we have surveyed what roles people expect their governments to play. Although the results vary with the circumstances surrounding each country, it became clear that in many countries expectations of the role the government plays are high."
+      "So far, we have surveyed what roles people expect their governments to play. Although the results vary with the circumstances surrounding each country, it has become clear that in many countries people have high expectations of the role their government plays."
      ],
      "headTr": [
       "Introduction",
@@ -2508,7 +2508,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "よく食べ、よく運動する人**ほど**{長|なが}{生|い}きするそうだ。",
-         "tr": "They say the better people eat and the more they exercise, the longer they live."
+         "tr": "They say the more people eat well and exercise, the longer they live."
         },
         {
          "n": 2,
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I went back to a shop I used to go to a lot, for the first time in ages, it turned out to be closed, which was disappointing."
+         "tr": "When I went back to a shop I used to go to a lot for the first time in ages, I was disappointed to find it closed."
         },
         {
          "n": 5,
@@ -3103,9 +3103,9 @@ TRY.registerLesson({
      ],
      "tr": [
       "In December 2018, the Asahi Shimbun conducted an online survey of 1,032 unmarried people and asked them about \"the annual income they want in a marriage partner.\" Below, I will describe the results and analyze the trends.",
-      "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and the women who want a marriage partner with an annual income of 2 million yen or more came to as much as 80% in total. This shows that women tend to care more about a marriage partner's income than men do.",
+      "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and in total as many as 80% of women want a marriage partner with an annual income of 2 million yen or more. This shows that women tend to care more about a marriage partner's income than men do.",
       "Could the reason for this trend be that both men and women continue to hold the idea that it is the husband who supports the household financially? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
-      "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think we need to change this image from now on."
+      "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think this image needs to change."
      ],
      "headTr": [
       "Men and Women Compared: The Annual Income They Want in a Marriage Partner"
@@ -3480,7 +3480,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "結婚相手に……合計で80%**にのぼっている**。",
-               "tr": "The women who want a marriage partner … came to as much as 80% in total."
+               "tr": "In total, as many as 80% of women want a marriage partner …."
               }
              ]
             }
@@ -3988,7 +3988,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "はい。❸①**私の長所は、**{何事|なにごと}も{成功|せいこう}するまであきらめず、{改善策|かいぜんさく}を考えて努力し続ける**ところです。**②私は漢字が苦手で日本語能力試験のN2に3回も落ちたという経験があります。{不合格|ふごうかく}の知らせがくるたびにあきらめそうになりましたが、そのたびに、今回はなぜ失敗したのかを考え、勉強計画を見直しました。{自己分析|じこぶんせき}した結果、新しい問題集ばかりして{復習|ふくしゅう}が{十分|じゅうぶん}にできていなかったことや、すき{間|ま}時間を上手に使えていなかったことがわかりました。そこで、復習用のノートを作り、すき間時間に勉強するようにしたところ、日本語能力試験のN2だけではなく、N1にも合格することができました。③**この経験から、**苦手なことでもあきらめず改善策を考え努力を続けることで、{克服|こくふく}できるという**ことを学びました。**④**この長所は、**これから研究を進める**際に役立つものだと考えております。**",
-       "tr": "Yes. My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I once failed the N2 level of the Japanese-Language Proficiency Test three times. Every time I got the news that I had failed, I almost gave up, but each time I thought about why I had failed and revised my study plan. When I analyzed myself, I realized that I had only been doing new workbooks and hadn't been reviewing enough, and that I hadn't been making good use of my spare moments. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass not only N2 but also N1 of the Japanese-Language Proficiency Test. From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard. I believe this strong point will be useful as I pursue my research from now on."
+       "tr": "Yes. My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the N2 level of the Japanese-Language Proficiency Test no fewer than three times. Every time I got the news that I had failed, I almost gave up, but each time I thought about why I had failed and revised my study plan. After analyzing my own study habits, I realized that I had only been doing new workbooks and hadn't been reviewing enough, and that I hadn't been making good use of my spare moments. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass not only N2 but also N1 of the Japanese-Language Proficiency Test. From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard. I believe this strong point will be useful as I pursue my research from now on."
       },
       {
        "sp": "面",
@@ -4155,7 +4155,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "私は漢字が苦手で日本語能力試験に3回も落ちたという経験があります。しかし、自己{分析|ぶんせき}した結果、{復習|ふくしゅう}が{十分|じゅうぶん}にできていなかったことがわかりました。そこで、復習用のノートを作り、すき{間|ま}時間に勉強するようにしたところ、{合格|ごうかく}することができました。",
-        "tr": "I'm bad at kanji, and I once failed the Japanese-Language Proficiency Test three times. However, when I analyzed myself, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass."
+        "tr": "I'm bad at kanji, and I failed the Japanese-Language Proficiency Test no fewer than three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass."
        }
       },
       {
@@ -4267,7 +4267,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❸①**私の長所は、**{{{何事|なにごと}も{成功|せいこう}するまであきらめず、{改善策|かいぜんさく}を考えて努力し続ける}}**ところです。**\n②{{私は漢字が苦手で日本語能力試験に3回も落ちたという経験があります。しかし、{自己分析|じこぶんせき}した結果、{復習|ふくしゅう}が{十分|じゅうぶん}できていなかったことがわかりました。そこで、復習用のノートを作り、すき{間|ま}時間に勉強するようにしたところ、{合格|ごうかく}することができました。}}\n（③**この経験から、**{{苦手なことでもあきらめず改善策を考え努力を続けることで、{克服|こくふく}できる}}という**ことを学びました。**）\n④**この長所は、**{{これから研究を進める}}**際に役立つものだと考えております。**",
-         "tr": "My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I once failed the Japanese-Language Proficiency Test three times. However, when I analyzed myself, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass. (From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard.) I believe this strong point will be useful as I pursue my research from now on."
+         "tr": "My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the Japanese-Language Proficiency Test no fewer than three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass. (From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard.) I believe this strong point will be useful as I pursue my research from now on."
         },
         {
          "sp": "面接官",
@@ -5287,7 +5287,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "格差社会では、一度貧困層になると努力しても富裕層になることは非常に難しいです。今後、このような不平等な状況を{改善|かいぜん}するための対策を考えていく必要があるでしょう。",
-       "tr": "In an unequal society, once you fall into poverty, it is extremely difficult to become wealthy, however hard you work. From now on, we will probably need to think about measures to improve this kind of unequal situation."
+       "tr": "In an unequal society, once you fall into poverty, it is extremely difficult to become wealthy, however hard you work. Going forward, we will probably need to consider measures to correct this kind of inequality."
       }
      ]
     },
