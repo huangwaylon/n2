@@ -300,12 +300,12 @@ TRY.registerLesson({
       "い、マナーを守って、日本一の山に登る感動を味わってください。"
      ],
      "tr": [
-      "The place I'd most like you to visit at least once while you're in Japan is, without a doubt, Mount Fuji. At 3,776 meters, Mount Fuji is the highest mountain in Japan, and it sits on the border between Yamanashi and Shizuoka Prefectures. To the Japanese it is a special mountain: it is loved as a symbol of Japan and even appears on the 1,000-yen bill. Because it was registered as a World Cultural Heritage Site in 2013, more and more climbers have been coming from abroad.",
-      "Here we introduce information that will help you, as international students, climb Mount Fuji.",
+      "The place I'd most like you to visit at least once while you're in Japan is, without a doubt, Mount Fuji. At 3,776 meters, Mount Fuji is the highest mountain in Japan, and it sits on the border between Yamanashi and Shizuoka Prefectures. For Japanese people it is a special mountain: it is loved as a symbol of Japan and even appears on the 1,000-yen bill. Because it was registered as a World Cultural Heritage Site in 2013, more and more climbers have been coming from abroad.",
+      "Below is some information for international students that will come in handy for climbing Mount Fuji.",
       "First, when should you climb, and by which route? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open and climbers' buses run. There are four climbing routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the route that suits you.",
-      "Next, how long does the climb take? On the Yoshida Route, for example, which more people climb than any other, it takes about six hours to reach the summit. For that reason, it is common to stay the first night at a mountain hut near the summit, watch the sunrise from the summit the next morning, and then go down. This sunrise is called goraikō. If you see a beautiful goraikō from the summit, it will be a memory for a lifetime.",
+      "Next, how long does the climb take? On the Yoshida Route, for example, which more people climb than any other, it takes about six hours to reach the summit. For that reason, it is common to stay the first night at a mountain hut near the summit, watch the sunrise from the summit the next morning, and then go down. This sunrise is called goraikō. Seeing a beautiful goraikō from the summit will give you a memory that lasts a lifetime.",
       "Also, if you join a climbing tour run by a travel agency, a guide will lead you, so even first-time climbers can feel at ease. Climbing Mount Fuji is popular, so book your tour and your mountain hut as early as possible.",
-      "Once you have planned your climb, the next thing is clothing. What kind of clothes should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below zero, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking near the rocky summit. Be sure to get them ready for your safety.",
+      "Once you have planned your climb, the next thing is clothing. What kind of clothes should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below zero, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking near the rocky summit. For your safety, be sure to have them ready.",
       "What else should you be careful about? There are few toilets on Mount Fuji, so it's best to go when you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Keeping the mountain clean is a rule every climber should follow.",
       "People come to Mount Fuji not only from all over Japan but from all over the world. Prepare well, follow the rules of etiquette, and enjoy the thrill of climbing Japan's highest mountain."
      ],
@@ -447,7 +447,7 @@ TRY.registerLesson({
       "てほしい。"
      ],
      "tr": [
-      "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What do people look for when they go to an izakaya? I would like to consider the appeal of izakaya by looking at their characteristics.",
+      "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What are people looking for when they go to an izakaya? Let us consider the appeal of izakaya through their characteristics.",
       "The first characteristic is the wide variety of both food and drinks. Once you sit down and look at the menu, you will notice this right away. Having salads and desserts is no different from ordinary restaurants, but izakaya have many dishes that go well with drinks, called otsumami, such as edamame and karaage (fried chicken). Another difference is that you can order all kinds of alcohol besides beer and wine, such as sake and chūhai. There are also soft drinks such as juice and tea, so even people who don't drink alcohol can have a good time.",
       "A second characteristic that comes to mind is how inexpensive they are. Because both the food and the drinks are inexpensive, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worry. Also, people who drink a lot should know about the system called nomihōdai (all-you-can-drink). With nomihōdai, if you pay a fixed price, you can drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
       "But without a doubt the biggest characteristic is that izakaya are places for socializing. Most of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings is a way to take a break when you're tired and to relieve stress. It is also a chance to become close to people you haven't talked with much.",
@@ -1408,7 +1408,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{山田|やまだ}さんはまだ20歳だから、店長の仕事をさせることはできませんよね。",
-           "tr": "Yamada-san is only 20, so we can't let them do the store manager's job, can we?"
+           "tr": "Yamada-san is only 20, so we can't really have Yamada-san do the store manager's job, can we?"
           },
           {
            "sp": "B",
@@ -1517,7 +1517,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "必ずしも外国人がみんな{納豆|なっとう}が{嫌|きら}いだ**とは限りません**。",
-         "tr": "It's not necessarily the case that all foreigners dislike natto."
+         "tr": "Not all foreigners necessarily dislike natto."
         },
         {
          "n": 4,
@@ -2429,7 +2429,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "じゃあ、それでお願いします。",
-       "tr": "Then we'll take that, please."
+       "tr": "Okay, we'll go with that, then."
       },
       {
        "sp": "店",
@@ -3886,7 +3886,7 @@ TRY.registerLesson({
          {
           "text": {
            "ja": "＊すべて税込価格となっております。\n＊お通し代として、おひとり様200円頂戴しております。",
-           "tr": "* All prices include tax.\n* We charge a cover charge of ¥200 per person."
+           "tr": "* All prices include tax.\n* There is an otoshi charge of ¥200 per person."
           },
           "colspan": 2
          }
@@ -3984,7 +3984,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "居酒屋に入ると、注文する前に「お通し」という料理が出されます。これは、注文した料理が来るのを待っている間に食べるもので、{小鉢|こばち}に入った小さな料理であることが多いです。また、お通し代はたいてい席料の意味もあるため、全員払うのが一般的です。",
-          "tr": "When you go into an izakaya, you are served a dish called otoshi before you order. It is something to eat while you wait for the food you ordered to arrive, and it is often a small dish served in a small bowl. Also, since the otoshi charge usually doubles as a seating charge, everyone generally pays it."
+          "tr": "When you go into an izakaya, you are served a dish called otoshi before you order. It is something to eat while you wait for the food you ordered, and it is usually a small portion served in a little bowl. Also, since the otoshi charge usually doubles as a seating charge, everyone generally pays it."
          }
         },
         {
@@ -4519,7 +4519,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "{確|たし}かに日本人だけが長い行列に並ぶ__とは限りません__。でも、日本人__にとって__行列に並ぶことは、あまり大変なことではないようだと感じます。みなさんは何のためなら並んでもいいですか。どのぐらいの時間なら待てますか。",
-       "tr": "It's true that it isn't necessarily only Japanese people who wait in long lines. But I feel that, for Japanese people, waiting in line doesn't seem to be much of a hardship. What would you be willing to line up for? How long could you wait?"
+       "tr": "It's true that Japanese people aren't necessarily the only ones who wait in long lines. But it seems to me that, for Japanese people, waiting in line isn't much of a hardship. What would you be willing to line up for? How long could you wait?"
       }
      ]
     }
