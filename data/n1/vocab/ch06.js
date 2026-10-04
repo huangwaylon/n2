@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "truly; sincerely; very (formal)",
     note: "The formal counterpart of 本当に, used in speeches, apologies and business: 誠にありがとうございます, 誠に申し訳ございません. Too stiff for casual talk.",
     rx: ["せいに", "しんに", "まことうに"],
-    book: { ja: "皆様、{本日|ほんじつ}はお忙しいところをお集まりいただき、**{誠|まこと}に**ありがとうございます。", en: "Everyone, thank you very much for gathering here today, busy as you are.", at: "ch/6" },
+    book: { ja: "皆様、{本日|ほんじつ}はお忙しいところをお集まりいただき、**{誠|まこと}に**ありがとうございます。", en: "Thank you all very much for taking time out of your busy schedules to be here today.", at: "ch/6" },
     ex: [
       { ja: "{電車|でんしゃ}が{遅|おく}れまして、**{誠|まこと}に**{申|もう}し{訳|わけ}ございません。", en: "We sincerely apologize for the delay to this train.", alt: ["{共|とも}に", "{直|じか}に", "{次|つぎ}に"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "encouragement; words of support (formal)",
     note: "Strongly urging someone on, typically from a superior or at a send-off: 激励の言葉, 激励会, 選手を激励する. More formal and forceful than 励まし.",
     rx: ["げきれ", "けきれい", "げきりょう"],
-    book: { ja: "先ほどは、社長より**{激励|げきれい}**のお言葉をいただき、{感激|かんげき}の{至|いた}りです。", en: "Just now I received words of encouragement from the President, and I am moved beyond words.", at: "ch/6" },
+    book: { ja: "先ほどは、社長より**{激励|げきれい}**のお言葉をいただき、{感激|かんげき}の{至|いた}りです。", en: "I am deeply moved by the words of encouragement the president gave me just now.", at: "ch/6" },
     ex: [
       { ja: "{大会|たいかい}{前|まえ}に、{市長|しちょう}が{選手|せんしゅ}たちを**{激励|げきれい}**に{訪|おとず}れた。", en: "Before the tournament, the mayor came to cheer the athletes on.", alt: ["{激怒|げきど}", "{奨励|しょうれい}", "{激突|げきとつ}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "being deeply moved; strong emotion; delight",
     note: "Being moved to the point of excitement by kindness, a performance or good fortune: 感激する, 感激の涙, 感激の至り. 感動 is being moved by something beautiful or impressive; 感激 is warmer, often toward what someone did for you.",
     rx: ["かんけき", "がんげき", "かんげい"],
-    book: { ja: "先ほどは、社長より{激励|げきれい}のお言葉をいただき、**{感激|かんげき}**の{至|いた}りです。", en: "Just now I received words of encouragement from the President, and I am moved beyond words.", at: "ch/6" },
+    book: { ja: "先ほどは、社長より{激励|げきれい}のお言葉をいただき、**{感激|かんげき}**の{至|いた}りです。", en: "I am deeply moved by the words of encouragement the president gave me just now.", at: "ch/6" },
     ex: [
       { ja: "{憧|あこが}れの{歌手|かしゅ}と{握手|あくしゅ}ができて、{思|おも}わず**{感激|かんげき}**の{涙|なみだ}を{流|なが}した。", en: "I got to shake hands with the singer I idolize and couldn't help shedding tears of joy.", alt: ["{感覚|かんかく}", "{刺激|しげき}", "{感触|かんしょく}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "sincere; honest; faithful",
     note: "Describes a person or their conduct as honest and conscientious: 誠実な人柄, 誠実に対応する, 誠実さ. 誠意 is the noun for sincerity shown toward someone; 正直 is simply not lying.",
     rx: ["せいじち", "しんじつ", "せいしつ"],
-    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned what anyone worthy of the name \"company employee\" ought to be.", at: "ch/6" },
+    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From your sincere and meticulous way of working, I learned what a true company employee should be.", at: "ch/6" },
     ex: [
       { ja: "{彼|かれ}は{口下手|くちべた}だが、**{誠実|せいじつ}**な{人柄|ひとがら}で{客|きゃく}から{信頼|しんらい}されている。", en: "He isn't a smooth talker, but customers trust him because he's honest.", alt: ["{切実|せつじつ}", "{確実|かくじつ}", "{充実|じゅうじつ}"] },
     ] },
@@ -242,7 +242,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "patronage; custom (of loyal customers)",
     note: "Only in business: ご愛顧いただき (thank you for your patronage), 長らくのご愛顧, 今後ともご愛顧のほど. Always with ご and used by the business toward its customers.",
     rx: ["あいご", "あいきょ", "あいこう"],
-    book: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご**{愛顧|あいこ}**、{誠|まこと}にありがとうございました。", en: "Our shop will close its doors as of today. Thank you very much for your patronage over the years.", at: "gp/67" },
+    book: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご**{愛顧|あいこ}**、{誠|まこと}にありがとうございました。", en: "Our shop will close for good as of today. Thank you very much for your patronage over the years.", at: "gp/67" },
     ex: [
       { ja: "{今後|こんご}とも{当社|とうしゃ}の{製品|せいひん}をご**{愛顧|あいこ}**くださいますよう、お{願|ねが}い{申|もう}し{上|あ}げます。", en: "We hope you will continue to favor our products with your patronage.", alt: ["{回顧|かいこ}", "{愛想|あいそ}", "{顧問|こもん}"] },
     ] },

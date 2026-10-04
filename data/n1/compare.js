@@ -609,7 +609,7 @@ TRY.registerCompare([
         ex: { ja: "{当選者|とうせんしゃ}の発表は賞品の{発送|はっそう}をもってかえさせていただきます。", en: "Winners will not be announced separately; the shipment of prizes will serve as notification." },
         note: "N + をもって ①: \"by means of N\". A formal, ceremonial で for official means (書面, 多数決), not everyday ones; 〜をもって…にかえる = \"let ~ serve in place of …\"." },
       { pattern: "Nをもって②", level: "N1", no: 67,
-        ex: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。", en: "Our shop will close its doors as of today. Thank you very much for your patronage over the years." },
+        ex: { ja: "{当店|とうてん}は{本日|ほんじつ}をもって閉店いたします。{長|なが}らくのご{愛顧|あいこ}、{誠|まこと}にありがとうございました。", en: "Our shop will close for good as of today. Thank you very much for your patronage over the years." },
         note: "Time + をもって ② (polite をもちまして): \"as of / effective N\". Marks the point at which something ends or changes, in notices and announcements." }
     ]
   }
