@@ -170,7 +170,7 @@ TRY.registerCompare([
     key: "〜といい／といわず",
     items: [
       { pattern: "N₁といいN₂といい", level: "N1", no: 44,
-        ex: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich broth, the perfectly firm noodles — this really is Japan's best ramen, isn't it?" },
+        ex: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "What with the rich broth and the noodles cooked just right, it's no wonder this is the best ramen in Japan." },
         note: "N₁といいN₂といい: \"what with N₁ and N₂\". Picks two aspects of one subject as evidence for the speaker's overall evaluation (praise or criticism)." },
       { pattern: "N₁といわずN₂といわず", level: "N1", no: 54,
         ex: { ja: "昼といわず、夜といわず、{大型|おおがた}のダンプカーが通るのでうちが{揺|ゆ}れて困る。", en: "Day and night alike, big dump trucks go by and shake our house, which is a real nuisance." },

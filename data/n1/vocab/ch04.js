@@ -19,15 +19,15 @@ TRY.registerVocab({ ch: 4, words: [
     en: "full-fledged, grown-up, competent (as an adult or professional); one serving (of food)",
     note: "一人前になる (become fully qualified or independent), 一人前の口をきく (talk as if one were an adult — said critically of kids). On menus, 一人前 is one portion.",
     rx: ["いちにんぜん", "ひとりぜん", "いちにまえ"],
-    book: { ja: "会社では、さまざまな人が働いていますが、**{一人前|いちにんまえ}**の社会人ともなると、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work in a company, and once you are a fully fledged working adult, you naturally have to get along even with people you dislike.", at: "ch/4" },
+    book: { ja: "会社では、さまざまな人が働いていますが、**{一人前|いちにんまえ}**の社会人ともなると、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work in a company, and once you're a full-fledged working adult, you naturally have to deal even with people you don't like.", at: "ch/4" },
     ex: [
-      { ja: "{職人|しょくにん}として**{一人前|いちにんまえ}**になるには、10年はかかると言われる。", en: "They say it takes at least ten years to become a full-fledged craftsman.", alt: ["{一人|ひとり}きり", "{一人|ひとり}ぼっち", "{人前|ひとまえ}"] },
+      { ja: "{職人|しょくにん}として**{一人前|いちにんまえ}**になるには、10年はかかると言われる。", en: "They say it takes at least ten years to become a fully qualified artisan.", alt: ["{一人|ひとり}きり", "{一人|ひとり}ぼっち", "{人前|ひとまえ}"] },
     ] },
   { w: "{気楽|きらく}", lv: "N2", pos: "な adjective",
     en: "carefree, easygoing, relaxed",
     note: "Free from worry or responsibility: 気楽な生活, 気楽に考える (take it easy); お気楽 is a bit dismissive (happy-go-lucky). 気軽 is 'casual, without hesitation': 気軽に声をかける.",
     rx: ["きがく", "けらく", "きらっく"],
-    book: { ja: "そのため**{気楽|きらく}**な学生時代にひきかえ、多くのストレスを{抱|かか}えることになるでしょう。", en: "So, in contrast to your carefree student days, you will probably end up carrying a lot of stress.", at: "ch/4" },
+    book: { ja: "そのため**{気楽|きらく}**な学生時代にひきかえ、多くのストレスを{抱|かか}えることになるでしょう。", en: "That is why, unlike in your carefree student days, you are likely to find yourself under a lot of stress.", at: "ch/4" },
     ex: [
       { ja: "{定年|ていねん}後は{田舎|いなか}で**{気楽|きらく}**に暮らしたい。", en: "After I retire, I want to live a carefree life in the countryside.", alt: ["{気重|きおも}", "{気味|きみ}", "{気短|きみじか}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "treatment; pay and working conditions",
     note: "At work, 待遇がいい means good pay and benefits; 待遇改善 is improving them. Also how guests are treated: 特別待遇, VIP待遇. 扱い is the more general 'handling, treatment'.",
     rx: ["たいぐ", "だいぐう", "たいごう"],
-    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, problems with the work itself or with pay and conditions are of course cited, but “human relationships” always rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, the work itself and pay and conditions certainly play a part, but “relationships with people” consistently rank near the top.", at: "ch/4" },
     ex: [
       { ja: "**{待遇|たいぐう}**のいい会社に{転職|てんしょく}したい。", en: "I want to switch to a company with better pay and conditions.", alt: ["{境遇|きょうぐう}", "{待機|たいき}", "{遭遇|そうぐう}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "higher rank, top positions",
     note: "上位に入る (make the top ranks), 上位3社 (the top three companies), 上位に挙がる (rank high on a list). The opposite is 下位. 上級 is about level of skill or grade.",
     rx: ["じょい", "うわい", "しょうい"],
-    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, problems with the work itself or with pay and conditions are of course cited, but “human relationships” always rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, the work itself and pay and conditions certainly play a part, but “relationships with people” consistently rank near the top.", at: "ch/4" },
     ex: [
       { ja: "彼はマラソン大会で毎年**{上位|じょうい}**に入っている。", en: "He places near the top in the marathon every year.", alt: ["{上級|じょうきゅう}", "{上司|じょうし}", "{地位|ちい}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "at first glance, apparently; a look",
     note: "一見〜だが… (looks ~ at first, but actually …) sets up a contrast. 一見の価値がある = worth a look. 一見さん (いちげん) is a first-time customer — a different word.",
     rx: ["いちみ", "ひとみ", "いっけい"],
-    book: { ja: "そこは**{一見|いっけん}**目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It looks like an unremarkable shop at first glance, but it's a famous ramen place where, come lunchtime, crowds of customers line up.", at: "gp/35" },
+    book: { ja: "そこは**{一見|いっけん}**目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It doesn't look like much at first glance, but it's a famous ramen shop, and come lunchtime, crowds of customers line up outside.", at: "gp/35" },
     ex: [
       { ja: "この問題は**{一見|いっけん}**簡単そうだが、実はかなり難しい。", en: "This problem looks easy at first glance, but it's actually quite hard.", alt: ["{一斉|いっせい}", "{一気|いっき}", "{一層|いっそう}"] },
     ] },
@@ -122,7 +122,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "quick, swift, prompt",
     note: "Formal: 迅速な対応, 迅速に処理する, often 迅速かつ丁寧に. Everyday words are 素早い and 早い.",
     rx: ["じんそっく", "しんそく", "じんぞく"],
-    book: { ja: "{災害時|さいがいじ}、**{迅速|じんそく}**に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "During the disaster, in contrast to the private groups, which responded swiftly, the government was conspicuously slow to respond.", at: "gp/36" },
+    book: { ja: "{災害時|さいがいじ}、**{迅速|じんそく}**に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "During the disaster, private organizations responded swiftly; the government, by contrast, was conspicuously slow to act.", at: "gp/36" },
     ex: [
       { ja: "お客様からの{苦情|くじょう}には、**{迅速|じんそく}**に対応することが大切だ。", en: "It's important to respond promptly to customer complaints.", alt: ["{速達|そくたつ}", "{風速|ふうそく}", "{時速|じそく}"] },
     ] },
@@ -130,7 +130,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "original, creative, inventive",
     note: "Praise for ideas and works: 独創的なアイデア / デザイン. 独特 is 'peculiar, unique to'; 個性的 is 'distinctive, full of personality'.",
     rx: ["どくしょうてき", "とくそうてき", "どっそうてき"],
-    book: { ja: "{佐藤|さとう}君の作品が**{独創的|どくそうてき}**であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and rather dull.", at: "gp/36" },
+    book: { ja: "{佐藤|さとう}君の作品が**{独創的|どくそうてき}**であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and uninspired.", at: "gp/36" },
     ex: [
       { ja: "彼の**{独創的|どくそうてき}**なアイデアが、{新製品|しんせいひん}の開発につながった。", en: "His original idea led to the development of a new product.", alt: ["{独裁的|どくさいてき}", "{一方的|いっぽうてき}", "{消極的|しょうきょくてき}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "copyright",
     note: "著作権を侵害する (infringe copyright), 著作権法. 著作 is a written work; 著作物 is a copyrighted work of any kind.",
     rx: ["ちょうさくけん", "しょさくけん", "ちょさっけん"],
-    book: { ja: "論文であれ手紙であれ、**{著作権|ちょさくけん}**に{配慮|はいりょ}して引用しなければならない。", en: "Whether it's a thesis or a letter, you must quote with due regard for copyright.", at: "gp/38" },
+    book: { ja: "論文であれ手紙であれ、**{著作権|ちょさくけん}**に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're quoting from a paper or a letter, you must take copyright into account.", at: "gp/38" },
     ex: [
       { ja: "他人の写真を{無断|むだん}で使うと、**{著作権|ちょさくけん}**の{侵害|しんがい}になる。", en: "Using someone else's photos without permission is a copyright infringement.", alt: ["{選挙権|せんきょけん}", "{主導権|しゅどうけん}", "{特権|とっけん}"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "quotation, citation",
     note: "Academic: 引用する, 引用文, and you must give the source (出典を明記する). 引用 reproduces someone's words; 参照 is referring to them.",
     rx: ["いんよ", "ひきよう", "いんにょう"],
-    book: { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して**引用**しなければならない。", en: "Whether it's a thesis or a letter, you must quote with due regard for copyright.", at: "gp/38" },
+    book: { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して**引用**しなければならない。", en: "Whether you're quoting from a paper or a letter, you must take copyright into account.", at: "gp/38" },
     ex: [
       { ja: "論文でほかの研究を**{引用|いんよう}**する場合は、{出典|しゅってん}を{明記|めいき}すること。", en: "When citing other studies in a paper, be sure to give the source.", alt: ["{信用|しんよう}", "{引退|いんたい}", "{飲用|いんよう}"] },
     ] },
@@ -186,7 +186,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the actual situation, the real state of affairs",
     note: "Formal: 地域の実情, 実情に合わない, 実情を把握する. 実態 is close (the actual condition, often hidden); 事情 is 'circumstances, reasons'.",
     rx: ["じつじょ", "じっせい", "じつなさけ"],
-    book: { ja: "{地形|ちけい}や産業{構造|こうぞう}など地域の**{実情|じつじょう}**に{即|そく}して、{災害対策|さいがいたいさく}を急がなくてはならない。", en: "We must hurry to put disaster countermeasures in place that match the actual conditions of each area, such as its terrain and industrial structure.", at: "gp/39" },
+    book: { ja: "{地形|ちけい}や産業{構造|こうぞう}など地域の**{実情|じつじょう}**に{即|そく}して、{災害対策|さいがいたいさく}を急がなくてはならない。", en: "We must urgently put in place disaster measures suited to the actual conditions of each area, such as its terrain and industrial makeup.", at: "gp/39" },
     ex: [
       { ja: "現場の**{実情|じつじょう}**を知らずに、{規則|きそく}ばかり作っても意味がない。", en: "There's no point in making rule after rule without knowing the real situation on the ground.", alt: ["{実用|じつよう}", "{同情|どうじょう}", "{感情|かんじょう}"] },
     ] },
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "our company (humble)",
     note: "Business keigo for one's own company. The other party's company is 御社 (in speech) or 貴社 (in writing). Among colleagues, just 当社 or うちの会社.",
     rx: ["へいじゃ", "ひしゃ", "べいしゃ"],
-    book: { ja: "**{弊社|へいしゃ}**は、時代に{即|そく}した経営によって、常に{業界|ぎょうかい}をリードしてまいりました。", en: "Through management suited to the times, our company has always led the industry.", at: "gp/39" },
+    book: { ja: "**{弊社|へいしゃ}**は、時代に{即|そく}した経営によって、常に{業界|ぎょうかい}をリードしてまいりました。", en: "By managing in step with the times, our company has consistently led the industry.", at: "gp/39" },
     ex: [
       { ja: "**{弊社|へいしゃ}**の新製品について、ご説明させていただきます。", en: "Allow me to tell you about our company's new product.", alt: ["{社宅|しゃたく}", "{社説|しゃせつ}", "{入社|にゅうしゃ}"] },
     ] },
@@ -234,7 +234,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "strategy",
     note: "経営戦略, 販売戦略, 戦略を立てる / 練る. 戦術 is tactics — the concrete methods used within a strategy.",
     rx: ["せんりゃ", "せんりょく", "ぜんりゃく"],
-    book: { ja: "経営**{戦略論|せんりゃくろん}**を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I think this university's business school is the only place.", at: "gp/40" },
+    book: { ja: "経営**{戦略論|せんりゃくろん}**を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I'd say this university's business school is the only place to do it.", at: "gp/40" },
     ex: [
       { ja: "海外{市場|しじょう}に進出するための**{戦略|せんりゃく}**を{練|ね}る。", en: "We're working out a strategy for expanding into overseas markets.", alt: ["{省略|しょうりゃく}", "{侵略|しんりゃく}", "{戦争|せんそう}"] },
     ] },
@@ -328,7 +328,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "ちなみに", lv: "N1", pos: "conjunction",
     en: "incidentally, by the way (adding related information)",
     note: "Adds a related side note: ちなみに、明日は休みです. Unlike ところで, which changes the subject, ちなみに stays on the topic. Common in speech and writing.",
-    book: { ja: "**ちなみに**、伸びる{新人|しんじん}とは、どんな人なのでしょうか。", en: "Incidentally, what kind of person is a newcomer who goes far?", at: "ch/4" },
+    book: { ja: "**ちなみに**、伸びる{新人|しんじん}とは、どんな人なのでしょうか。", en: "By the way, what kind of newcomer goes on to grow and do well?", at: "ch/4" },
     ex: [
       { ja: "会議は3時からです。**ちなみに**、場所は第二会議室です。", en: "The meeting starts at three. By the way, it's in Conference Room 2.", alt: ["すなわち", "ところが", "なぜなら"] },
     ] },
@@ -343,7 +343,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "とりあえず", lv: "N2", pos: "adverb",
     en: "for now, for the time being; first of all",
     note: "Doing something provisionally before anything else: とりあえずビール (a beer to start), とりあえず聞いてみる. ひとまず is close and slightly more formal.",
-    book: { ja: "上司から言われたことは、**とりあえず**聞いて、その通りやってみましょう。", en: "Whatever your boss tells you, listen for a start, and try doing it exactly as you were told.", at: "ch/4" },
+    book: { ja: "上司から言われたことは、**とりあえず**聞いて、その通りやってみましょう。", en: "Whatever your boss tells you, first just listen, and then try doing it exactly as you were told.", at: "ch/4" },
     ex: [
       { ja: "{詳|くわ}しいことは後で決めるとして、**とりあえず**{会場|かいじょう}だけ予約しておこう。", en: "We can decide the details later — for now, let's just book the venue.", alt: ["あいにく", "いきなり", "あくまで"] },
     ] },
@@ -351,7 +351,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "(いっとき) a moment, a short while; temporarily",
     note: "Read いっとき in this text: 一時の気晴らし (a momentary distraction). いちじ is 'temporarily, for a time' (一時停止) or one o'clock, and ひととき is a pleasant spell (楽しいひととき). いっとき sounds slightly literary.",
     rx: ["いっどき", "いちとき", "ひとじ"],
-    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、**{一時|いっとき}**の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に{定着|ていちゃく}させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only fixes the bad feelings more firmly in your own mind.", at: "ch/4" },
+    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、**{一時|いっとき}**の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に{定着|ていちゃく}させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only makes the bad feelings take root in your own mind.", at: "ch/4" },
     ex: [
       { ja: "{人気|にんき}は**{一時|いっとき}**のもので、ブームはすぐに去った。", en: "The popularity was only fleeting, and the boom was soon over.", alt: ["{一面|いちめん}", "{一因|いちいん}", "{一族|いちぞく}"] },
     ] },
@@ -359,7 +359,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "distraction, diversion; something to cheer oneself up",
     note: "気晴らしに散歩する, いい気晴らしになる. 気分転換 (a change of pace) is close; 暇つぶし is just killing time.",
     rx: ["きはらし", "けばらし", "きばれし"],
-    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の**{気晴|きば}らし**にはなりますが、結局{嫌|いや}な思いを自分の心に{定着|ていちゃく}させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only fixes the bad feelings more firmly in your own mind.", at: "ch/4" },
+    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の**{気晴|きば}らし**にはなりますが、結局{嫌|いや}な思いを自分の心に{定着|ていちゃく}させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only makes the bad feelings take root in your own mind.", at: "ch/4" },
     ex: [
       { ja: "勉強に{疲|つか}れたので、**{気晴|きば}らし**に近所を{散歩|さんぽ}した。", en: "I was tired of studying, so I took a walk around the neighborhood to clear my head.", alt: ["{見晴|みは}らし", "{気配|きくば}り", "{気遣|きづか}い"] },
     ] },
@@ -367,14 +367,14 @@ TRY.registerVocab({ ch: 4, words: [
     en: "taking root, becoming established; (of staff) staying on",
     note: "習慣 / 言葉が定着する (become established), 知識を定着させる (make knowledge stick), 社員が定着しない (staff don't stay). 普及 is spreading widely; 定着 is settling in to stay.",
     rx: ["ていじゃく", "じょうちゃく", "ていちゃっく"],
-    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に**{定着|ていちゃく}**させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only fixes the bad feelings more firmly in your own mind.", at: "ch/4" },
+    book: { ja: "飲み会などで上司の{悪口|わるくち}を言っても、{一時|いっとき}の{気晴|きば}らしにはなりますが、結局{嫌|いや}な思いを自分の心に**{定着|ていちゃく}**させてしまいます。", en: "Badmouthing your boss at drinking parties and the like may make you feel better for a moment, but in the end it only makes the bad feelings take root in your own mind.", at: "ch/4" },
     ex: [
       { ja: "{在宅|ざいたく}{勤務|きんむ}という働き方は、すっかり社会に**{定着|ていちゃく}**した。", en: "Working from home has become firmly established in society.", alt: ["{到着|とうちゃく}", "{執着|しゅうちゃく}", "{着席|ちゃくせき}"] },
     ] },
   { w: "せめて", lv: "N2", pos: "adverb",
     en: "at least (the minimum one hopes for)",
     note: "Expresses a minimum wish or demand: せめて一日だけでも休みたい, せめてもの (the least one can do). 少なくとも states a factual minimum; せめて carries the speaker's hope.",
-    book: { ja: "それより、**せめて**、「{嫌|きら}い」を「好きとは言えないまでも{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, at least make an effort to move from “I dislike this person” to the level of “I can't say I like them, but I don't dislike them.”", at: "ch/4" },
+    book: { ja: "それより、**せめて**、「{嫌|きら}い」を「好きとは言えないまでも{嫌|きら}いではない」レベルまで持っていく努力をしてみましょう。", en: "Instead, try at least to bring “I dislike this person” up to the level of “I can't say I like them, but I don't dislike them.”", at: "ch/4" },
     ex: [
       { ja: "全部は{無理|むり}でも、**せめて**半分は今日中に終わらせたい。", en: "Even if I can't do it all, I'd like to finish at least half of it today.", alt: ["まして", "むしろ", "あえて"] },
     ] },
@@ -382,7 +382,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "a fixed stare; to gaze intently",
     note: "Literary and formal: 画面を凝視する, 一点を凝視する. 見つめる is the everyday word; 注視 is watching closely (often officials: 動向を注視する).",
     rx: ["ぎょし", "こうし", "ぎょうじ"],
-    book: { ja: "これは「美的**{凝視|ぎょうし}**」という方法です。", en: "This is a method known as “aesthetic gazing” (looking for what is admirable).", at: "ch/4" },
+    book: { ja: "これは「美的**{凝視|ぎょうし}**」という方法です。", en: "This is a method known as “aesthetic gazing.”", at: "ch/4" },
     ex: [
       { ja: "彼は{黙|だま}ったまま、相手の顔を**{凝視|ぎょうし}**した。", en: "Without a word, he stared hard at the other person's face.", alt: ["{視力|しりょく}", "{軽視|けいし}", "{重視|じゅうし}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "looking after others; being caring and helpful (toward juniors, etc.)",
     note: "Almost always 面倒見がいい (good at looking after people): 面倒見のいい先輩. From 面倒を見る (to look after).",
     rx: ["めんどうけん", "めんとうみ", "めんどみ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may come to see that, though strict when scolding, this boss is in fact surprisingly capable, what with the care taken of you afterward and the meticulous, accurate work.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may notice that although this boss is strict when scolding you, what with the way they look after you afterward and their meticulous, accurate work, they are in fact surprisingly capable.", at: "ch/4" },
     ex: [
       { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka is good at looking after people and is much loved by the new hires.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "meticulous, precise, detailed",
     note: "Praise for careful thinking or work: 緻密な計画, 緻密な作業. 精密 is used for machines and measurements; 細かい is the everyday 'detailed' (and can be negative: petty).",
     rx: ["ちみ", "ちひつ", "しみつ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may come to see that, though strict when scolding, this boss is in fact surprisingly capable, what with the care taken of you afterward and the meticulous, accurate work.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may notice that although this boss is strict when scolding you, what with the way they look after you afterward and their meticulous, accurate work, they are in fact surprisingly capable.", at: "ch/4" },
     ex: [
       { ja: "彼の**{緻密|ちみつ}**な計画のおかげで、工事は予定{通|どお}りに終わった。", en: "Thanks to his meticulous planning, the construction was finished on schedule.", alt: ["{密接|みっせつ}", "{秘密|ひみつ}", "{親密|しんみつ}"] },
     ] },
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "consideration, thoughtfulness, compassion for others",
     note: "思いやりがある, 思いやりのある人, 思いやりの心. From 思いやる (to imagine how others feel). 気遣い / 気配り are practical attentiveness; 思いやり is warmth of heart.",
     rx: ["しいやり", "おもいかり", "おぼいやり"],
-    book: { ja: "よい人間関係は、いわば**思いやり**のギブ・アンド・テイクといったところではないでしょうか。", en: "Good relationships are, you might say, something like a give-and-take of consideration, aren't they?", at: "ch/4" },
+    book: { ja: "よい人間関係は、いわば**思いやり**のギブ・アンド・テイクといったところではないでしょうか。", en: "Good relationships are, so to speak, something of a give-and-take of consideration, wouldn't you say?", at: "ch/4" },
     ex: [
       { ja: "相手の立場に立って考えることが、**{思|おも}いやり**の第一歩だ。", en: "Putting yourself in someone else's shoes is the first step toward being considerate.", alt: ["{思|おも}い{込|こ}み", "{思|おも}い{出|で}", "{思|おも}いつき"] },
     ] },
@@ -454,7 +454,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "public opinion",
     note: "Usually read よろん; せろん is also accepted. 世論調査 (opinion poll), 世論に問う (put a question to the public). 世間 is 'society, people around you'.",
     rx: ["せいろん", "よろう", "せいろ"],
-    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "The need to protect the environment is not something we need to ask the public about all over again.", at: "gp/41" },
+    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "There's no need to ask the public yet again whether the environment needs protecting.", at: "gp/41" },
     ex: [
       { ja: "最新の**{世論|よろん}**調査では、{内閣|ないかく}の{支持率|しじりつ}が下がった。", en: "In the latest opinion poll, the cabinet's approval rating fell.", alt: ["{世間|せけん}", "{理論|りろん}", "{世代|せだい}"] },
     ] },
@@ -502,7 +502,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "originality, inventiveness, creative ideas",
     note: "Mainly in 創意工夫 (ingenuity and resourcefulness) and 創意に富む (full of originality). Written style; アイデア and 独創性 are nearby words.",
     rx: ["しょうい", "そうき", "そい"],
-    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities should open up depending on the originality and ingenuity you bring.", at: "gp/42" },
+    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities can open up, depending on the creativity and ingenuity you bring to bear.", at: "gp/42" },
     ex: [
       { ja: "限られた予算の中でも、**{創意|そうい}**工夫{次第|しだい}でいい商品は作れる。", en: "Even on a limited budget, you can make good products if you're inventive and resourceful.", alt: ["{故意|こい}", "{善意|ぜんい}", "{決意|けつい}"] },
     ] },
@@ -550,14 +550,14 @@ TRY.registerVocab({ ch: 4, words: [
     en: "rich, thick (flavor); strong (likelihood)",
     note: "Of food: 濃厚なスープ / チーズケーキ. Of likelihood: 敗色濃厚 (defeat looks certain), 可能性が濃厚だ. 濃い is the everyday 'strong, thick, dark'.",
     rx: ["のうこ", "こうこう", "のうごう"],
-    book: { ja: "**{濃厚|のうこう}**なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich broth, the perfectly firm noodles — this really is Japan's best ramen, isn't it?", at: "gp/44" },
+    book: { ja: "**{濃厚|のうこう}**なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "What with the rich broth and the noodles cooked just right, it's no wonder this is the best ramen in Japan.", at: "gp/44" },
     ex: [
       { ja: "この店のチーズケーキは**{濃厚|のうこう}**な味で人気がある。", en: "This shop's cheesecake is popular for its rich flavor.", alt: ["{濃度|のうど}", "{温厚|おんこう}", "{厚着|あつぎ}"] },
     ] },
   { w: "ほどよい", lv: "N1", pos: "い adjective",
     en: "just right, moderate",
     note: "Also written 程よい: ほどよい甘さ / 硬さ / 距離. It stresses pleasant balance and is a little more literary than ちょうどいい.",
-    book: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}の**ほどよい**{硬|かた}さといい、さすが日本一のラーメンだね。", en: "The rich broth, the perfectly firm noodles — this really is Japan's best ramen, isn't it?", at: "gp/44" },
+    book: { ja: "{濃厚|のうこう}なスープといい、{麺|めん}の**ほどよい**{硬|かた}さといい、さすが日本一のラーメンだね。", en: "What with the rich broth and the noodles cooked just right, it's no wonder this is the best ramen in Japan.", at: "gp/44" },
     ex: [
       { ja: "この紅茶は**ほどよい**甘さで、とても飲みやすい。", en: "This tea is just sweet enough and very easy to drink.", alt: ["ほど{遠|とお}い", "あくどい", "{心細|こころぼそ}い"] },
     ] },
