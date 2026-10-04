@@ -319,14 +319,14 @@ TRY.registerLesson({
       "We asked four people to talk about what was good about studying abroad and what you should be careful about when you study abroad: Sarah Gomis from France and Park Ji-hoon from Korea, who are currently studying in Japan, and Ken Honda and Miki Takahashi, Japanese college students who have studied in the United States.",
       "What are the good points of studying abroad?",
       "Gomis: I'd say it's that your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to speaking and listening especially quickly. Another attraction is being able to interact casually with Japanese people.",
-      "Park: I think so too. When you learn another country's language and culture, the most important thing, above all, is to actually experience it. I'm interested in Japanese politics and history, so I've gone to the Atomic Bomb Dome in Hiroshima and listened to Japanese people's opinions. The more actively you take action on your own, the more deeply you can get to know Japan, and I've come to feel firsthand that that is what makes studying abroad so appealing.",
-      "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I became able, for the first time, to see Japan and myself from the outside.",
-      "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. What's more, I feel I've become more self-confident than I was before.",
+      "Park: I think so too. When you learn another country's language and culture, the most important thing, above all, is to actually experience it. I'm interested in Japanese politics and history, so I've gone to the Atomic Bomb Dome in Hiroshima and listened to Japanese people's opinions. The more you take the initiative and get out and do things, the more deeply you can get to know Japan, and I've seen firsthand that this is what makes studying abroad so appealing.",
+      "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I was able to see Japan and myself from the outside for the first time.",
+      "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. I also feel like I've gained more confidence in myself than I had before.",
       "Then what should you be careful about when you study abroad?",
-      "Park: When you study abroad, the problem has to be money, more than anything else. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
-      "Gomis: That may be true. But when I had just come to Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I could hardly keep up with my classes, and I was worried about my grades... Of course, it may not be good to talk only with people from your own country, but I think it's also fine to spend time with people from your own country sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
+      "Park: When you study abroad, the biggest issue, without a doubt, is money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
+      "Gomis: That may be true. But when I had only just come to Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I had a hard time keeping up with my classes, and I was worried about my grades... Of course, it may not be good to talk only with people from your own country, but I think it's also fine to spend time with people from your own country sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
       "Honda: After I studied abroad, I realized that my graduation might be delayed... That's because international students sometimes can't take classes as freely as American students. So I thought you should definitely check in advance whether you'll be able to earn credits according to your plan at the school where you study abroad.",
-      "Takahashi: The point Japanese students need to watch out for is that the time you study abroad overlaps with the time of job hunting in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from other countries: companies give priority to hiring students who are still in school. In other words, if you study abroad for a year in your third year, your job-hunting period ends up being shorter. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
+      "Takahashi: One thing Japanese students need to watch out for is that the time you study abroad overlaps with job-hunting season in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from job hunting overseas: companies give priority to hiring students who are still in school. In other words, what this means is that if you spend a year abroad in your third year, you end up with less time for job hunting. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
      ]
     },
     {
@@ -389,11 +389,11 @@ TRY.registerLesson({
       "{有意義|ゆういぎ}な経験となった。"
      ],
      "tr": [
-      "Since I had gone to the trouble of coming to Japan, I wanted to try a part-time job. So I decided to work at a hotel restaurant. I had always dreamed of working at a hotel, and I thought it would be good practice for keigo.",
+      "Having come all the way to Japan, I wanted to make the most of it by trying a part-time job. So I decided to work at a hotel restaurant. I had always dreamed of working at a hotel, and I thought it would be good practice for keigo.",
       "On the first day, I received training all day long. I was made to practice over and over until I could properly bow and say greetings such as irasshaimase (“welcome”) and kashikomarimashita (“certainly”). I thought, “Why, when it's only a part-time job?” but I soon understood the reason. It was because part-timers, just like regular employees, have to deal with guests as members of the staff who represent the hotel. No wonder everyone who works at a hotel is so polite, I thought.",
       "The next day, after they explained the day's work to me, I was finally allowed out onto the dining floor. Once I actually started working, I realized that the floor work wasn't as easy as I had thought. What was especially hard was that, whether I was busy or tired, I always had to watch the guests closely and serve them with a smile. For example, if a guest's glass of water was getting low, I had to go and refill it before being asked. There was also a rule that even after closing time, if even one guest was still there, we couldn't start cleaning up the restaurant. In my heart I thought, “I wish they'd hurry up and leave...,” but thinking of the guests first and acting accordingly, even at times like that, is what first-class service is all about.",
       "I also came to understand how hardworking Japanese people are. The employees come in 30 minutes before work starts to get ready, and even when it's time to go home, they stay behind to help the other staff if it's busy. Even the students working part-time found things to do on their own initiative and worked hard. But what surprised me more than anything was that even when there were few guests and things were slow, no one was chatting. I felt that in Japan even the part-time staff are properly trained, and each and every one of them works with a professional attitude.",
-      "Through this part-time job, I was able to learn about Japanese people's politeness and diligence, and about how they think about service. It was a hotel job I had started because I'd always longed to do it, but I was able to learn a side of Japanese people I hadn't known before, and it turned out to be a more meaningful experience than I had expected."
+      "Through this part-time job, I was able to learn about Japanese people's politeness and diligence, and about how they think about service. I had started the hotel job because I'd always dreamed of working at one, but it showed me a side of Japanese people I hadn't known before, and it turned out to be an even more meaningful experience than I had expected."
      ],
      "headTr": [
       "My Experience Working Part-Time in Japan"
@@ -1067,7 +1067,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "**せっかく**天気がいいのに、熱があって出かけられません。",
-         "tr": "It's such nice weather, but I have a fever and can't go out."
+         "tr": "It's such a nice day, and I have a fever and can't go out."
         },
         {
          "n": 4,
@@ -2239,7 +2239,7 @@ TRY.registerLesson({
       "Wang: I think so too. There are people from all kinds of departments and years in the club, so I've gotten to know a wider range of people. Another good thing was that my understanding of Japanese culture deepened through the tea ceremony club's activities.",
       "Kimura: Being able to get management experience is also one of the good points. In the baseball club, we all think up training menus and practice methods together in order to win games. I think the experience of managing a group in club activities will be useful when I get a job in the future, too.",
       "What are the points you should watch out for when choosing a club?",
-      "Wang: What you should pay the most attention to when choosing a club is time. The number of meetings and the length of practices differ from club to club. You should probably look at the club's schedule and think about the balance with your studies and part-time job.",
+      "Wang: What you should pay the most attention to when choosing a club is time. The number of meetings and the length of practices differ from club to club. You should probably look at the club's schedule and think about how to balance it with your studies and part-time job.",
       "Kimura: There's also the issue of money. In the case of the baseball club, money goes to all kinds of things, like equipment and games. I think you also need to find out ahead of time roughly how much it will cost for a year.",
       "Nguyen: Another thing that becomes an issue is relationships. There are clubs where the hierarchy between seniors and juniors is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
      ],
@@ -3710,7 +3710,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❺**もしやるんだったら、個人的には、**神社で写真を撮るプラン**がおすすめだよ。**",
-       "tr": "If you do it, personally, I recommend the plan where you take photos at a shrine."
+       "tr": "If you do it, I'd personally recommend the plan where you take photos at a shrine."
       },
       {
        "sp": "サ",
@@ -3891,7 +3891,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**もしやるんだったら、個人的には、**\n神社で写真を撮るプラン**がおすすめだよ。**",
-        "tr": "If you do it, personally, I recommend the plan where you take photos at a shrine."
+        "tr": "If you do it, I'd personally recommend the plan where you take photos at a shrine."
        }
       },
       {
@@ -4053,7 +4053,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❺**もし**{{やる／行く}}**んだったら、個人的には、**{{神社で写真を{撮|と}るプラン／着物で神社やお寺に行くの}}**がおすすめだよ。**",
-         "tr": "If you do it / go, personally, I recommend the plan where you take photos at a shrine / going to shrines and temples in a kimono."
+         "tr": "If you do it / go, I'd personally recommend the plan where you take photos at a shrine / going to shrines and temples in a kimono."
         },
         {
          "sp": "友達",
@@ -4237,7 +4237,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❺**もし**される**んだったら、個人的には、〜がおすすめですよ。**",
-           "tr": "If you do it, personally, I recommend ~."
+           "tr": "If you do it, I'd personally recommend ~."
           },
           {
            "sp": "上司",
@@ -4696,7 +4696,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "自分だけ休むのは{同僚|どうりょう}に申し訳ないし、自分がいないとできない仕事があるから、休むと{周|まわ}りに{迷惑|めいわく}がかかると考えるからです。",
-        "tr": "Because they feel bad toward their coworkers about being the only one taking time off, and because there is work that can't be done without them, they think taking time off would cause trouble for the people around them."
+        "tr": "Because they feel bad toward their coworkers about being the only one taking time off, and they think that since some work can't get done without them, being away would cause trouble for the people around them."
        }
       },
       {
@@ -4727,7 +4727,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "あなたの国では、会社で2〜3週間の長い休みを取ることができますか。",
-        "tr": "In your country, can people take a long vacation of two to three weeks from their companies?"
+        "tr": "In your country, can people take a long vacation of two or three weeks off from work?"
        }
       },
       {
@@ -4763,13 +4763,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "それは、日本人が長い休みをあまり取らないことです。ドイツでは、7月から8月までの間に2〜3週間の長い休みを取って、家族と旅行するのが一般的です。週2回のアルバイトで__さえ__、ちゃんと休みを取ります。日本では8月15日ごろの「お{盆|ぼん}」という時期に1週間ぐらいの休みがありますが、2〜3週間の休みを取るのは難しいそうです。",
-       "tr": "It was that Japanese people hardly ever take long vacations. In Germany, it's common to take a long vacation of two to three weeks sometime between July and August and travel with your family. Even people with a part-time job two days a week properly take time off. In Japan, there's about a week off around August 15, during the period called Obon, but I hear it's hard to take two or three weeks off."
+       "tr": "It was that Japanese people hardly ever take long vacations. In Germany, it's common to take a long vacation of two to three weeks sometime between July and August and travel with your family. Even people who work part-time just two days a week make sure to take time off. In Japan, there's about a week off around August 15, during the period called Obon, but I hear it's hard to take two or three weeks off."
       },
       {
        "sp": "",
        "v": "m",
        "ja": "インターンシップ先の社員の人にどうして長い休みを取らないのか聞いたら、「自分だけ休むのは{同僚|どうりょう}に申し訳ない」とか、「自分がいないとできない仕事があるから、{周|まわ}りに{迷惑|めいわく}がかかる」と言っていました。昔と比べたらずいぶん休みが取りやすくなったそうですが、たいていの人は1日の休みを時々取るだけだそうです。長い休みを取れ__ば__家族とゆっくり__旅行できるのに__、と思いますが、日本ではプライベートより仕事を優先する人が多いようです。",
-       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think that if only they took long vacations, they could travel with their families at a relaxed pace, but it seems that in Japan many people put work ahead of their private lives."
+       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
       },
       {
        "sp": "",

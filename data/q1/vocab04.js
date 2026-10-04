@@ -604,7 +604,7 @@ TRY.registerVocab({
       "n": 20,
       "w": "成績",
       "ex": "毎日がんばって勉強したら成績が上がった。",
-      "tr": "When I studied hard every day, my grades went up."
+      "tr": "I studied hard every day, and my grades went up."
      },
      {
       "n": 21,
