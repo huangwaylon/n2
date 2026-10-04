@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "remarkable achievement; brilliant feat",
     note: "An admirable, heartening accomplishment, typical of news: 快挙を成し遂げる, 史上初の快挙, 快挙に沸く (be jubilant at the feat). Positive only; 偉業 is a great, historic achievement.",
     rx: ["かいこ", "かいきょう", "けきょ"],
-    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This splendid achievement of everyone passing was accomplished only through the combination of the students' efforts and the teachers' enthusiasm.", at: "gp/114" },
+    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{地方|ちほう}の{小|ちい}さな{高校|こうこう}が{全国大会|ぜんこくたいかい}で{優勝|ゆうしょう}する**{快挙|かいきょ}**を{成|な}し{遂|と}げた。", en: "A small high school from the provinces achieved the remarkable feat of winning the national championship.", alt: ["{快適|かいてき}", "{選挙|せんきょ}", "{暴挙|ぼうきょ}"] },
     ] },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "enthusiasm; zeal; ardor",
     note: "Strong eagerness toward a goal or task: 熱意を持って取り組む, 熱意が伝わる, 熱意に負ける (give in to someone's persistence). 情熱 is passion in general; 熱意 is earnest commitment to a particular aim.",
     rx: ["ねっい", "ねつき", "ねい"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This splendid achievement of everyone passing was accomplished only through the combination of the students' efforts and the teachers' enthusiasm.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{面接|めんせつ}では、{経験|けいけん}よりも{仕事|しごと}への**{熱意|ねつい}**が{評価|ひょうか}された。", en: "In the interview, enthusiasm for the job counted for more than experience.", alt: ["{悪意|あくい}", "{熱湯|ねっとう}", "{用意|ようい}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to accomplish; to achieve; to carry through",
     note: "To see a difficult undertaking through to success: 偉業を成し遂げる, 目標を成し遂げる, 改革を成し遂げる. Weightier than やり遂げる (see a task through); both stress finishing despite difficulty.",
     rx: ["せいしとげる", "なしつげる", "なしどげる"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This splendid achievement of everyone passing was accomplished only through the combination of the students' efforts and the teachers' enthusiasm.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This remarkable feat, every student passing, was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
     ex: [
       { ja: "{彼|かれ}は{十年|じゅうねん}かけて、{世界一周|せかいいっしゅう}の{夢|ゆめ}を**{成|な}し{遂|と}げた**。", en: "Over ten years, he achieved his dream of traveling around the world.", alt: ["{取|と}り{上|あ}げた", "{成|な}り{立|た}った", "{見|み}{上|あ}げた"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "disappointment; despair",
     note: "Losing hope or confidence in someone or something: 失望する, 失望を招く, 〜に失望した. Stronger and more formal than がっかり; 絶望 is complete despair with no hope left.",
     rx: ["しつもう", "しっぼう", "しつぽう"],
-    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに**失望**と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation at the lack of ability to deliver shown by the politician I trusted and cast my vote for.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに**失望**と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
     ex: [
       { ja: "{期待|きたい}していた{新作|しんさく}の{内容|ないよう}に、{多|おお}くのファンが**{失望|しつぼう}**した。", en: "Many fans were disappointed by the content of the much-anticipated new work.", alt: ["{希望|きぼう}", "{展望|てんぼう}", "{志望|しぼう}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "indignation; resentment; righteous anger",
     note: "Anger at injustice or wrongdoing, formal and written: 憤りを感じる, 憤りを覚える, 深い憤り. The verb is 憤る. 怒り is general anger; 憤り suggests moral outrage.",
     rx: ["いきとり", "いきとおり", "ふんどおり"],
-    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに失望と**{憤|いきどお}り**を禁じえない。", en: "I cannot suppress my disappointment and indignation at the lack of ability to deliver shown by the politician I trusted and cast my vote for.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに失望と**{憤|いきどお}り**を禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
     ex: [
       { ja: "{弱|よわ}い{立場|たちば}の{人|ひと}を{利用|りよう}するやり{方|かた}に、{強|つよ}い**{憤|いきどお}り**を{感|かん}じる。", en: "I feel strong indignation at methods that exploit people in weak positions.", alt: ["{喜|よろこ}び", "{憧|あこが}れ", "{安|やす}らぎ"] },
     ] },
@@ -547,7 +547,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to cast (a vote); to invest (money, resources); to throw (oneself into)",
     note: "A formal verb: 一票を投じる (cast a vote), 私財を投じる (invest one's own fortune), 疑問を投じる (raise a question), 身を投じる (throw oneself into a cause). Also written 投ずる. In everyday speech 投票する, お金をかける.",
     rx: ["なげじる", "とじる", "どうじる"],
-    book: { ja: "信頼して1{票|ぴょう}を**{投|とう}じた**政治家の{実行力|じっこうりょく}のなさに失望と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation at the lack of ability to deliver shown by the politician I trusted and cast my vote for.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を**{投|とう}じた**政治家の{実行力|じっこうりょく}のなさに失望と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
     ex: [
       { ja: "{彼|かれ}は{私財|しざい}を**{投|とう}じて**、{故郷|こきょう}に{図書館|としょかん}を{建|た}てた。", en: "He used his personal fortune to build a library in his hometown.", alt: ["{信|しん}じて", "{応|おう}じて", "{論|ろん}じて"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "high-quality; fine; good-quality",
     note: "Of good quality, written: 良質な素材, 良質のたんぱく質, 良質な睡眠. 上質 is similar but suggests luxury (上質な紙); 良質 is about sound, wholesome quality. The opposite is 悪質 (malicious; poor quality).",
     rx: ["りょうしち", "よしつ", "りょうじつ"],
-    book: { ja: "この酒は**{良質|りょうしつ}**の米と{名水|めいすい}なくしては生まれなかった。", en: "This sake could never have been made without fine rice and famous spring water.", at: "gp/123" },
+    book: { ja: "この酒は**{良質|りょうしつ}**の米と{名水|めいすい}なくしては生まれなかった。", en: "This sake could never have been made without fine rice and renowned spring water.", at: "gp/123" },
     ex: [
       { ja: "{健康|けんこう}のためには、**{良質|りょうしつ}**な{睡眠|すいみん}をとることが{大切|たいせつ}だ。", en: "For your health, it's important to get good-quality sleep.", alt: ["{悪質|あくしつ}", "{性質|せいしつ}", "{体質|たいしつ}"] },
     ] },
