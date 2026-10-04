@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "public relations, PR; publicity, public information",
     note: "広報活動, 広報部 (PR department), 市の広報誌 (the city's newsletter). 宣伝 is advertising to sell; 広報 is informing the public about an organization's activities.",
     rx: ["こうほ", "ひろほう", "こうぼう"],
-    book: { ja: "国民の理解と協力を{得|え}るべく、**{広報|こうほう}**活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Public relations activities were stepped up in order to gain the understanding and cooperation of the people, but no significant results were obtained.", at: "gp/90" },
+    book: { ja: "国民の理解と協力を{得|え}るべく、**{広報|こうほう}**活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "PR efforts were stepped up in order to win the public's understanding and cooperation, but they produced no real results.", at: "gp/90" },
     ex: [
       { ja: "{新製品|しんせいひん}の{発表会|はっぴょうかい}は、**{広報|こうほう}**{部|ぶ}が{担当|たんとう}している。", en: "The PR department is in charge of the new product launch.", alt: ["{電報|でんぽう}", "{予報|よほう}", "{警報|けいほう}"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "accusation, (criminal) complaint; exposure, whistleblowing",
     note: "内部告発 (whistleblowing from inside an organization), 不正を告発する, 告発状. Legally, 告訴 is a complaint by the victim, while 告発 is by a third party.",
     rx: ["こくほつ", "こうはつ", "こくばつ"],
-    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "I blew the whistle inside the company simply because I was following my own conscience — nothing more.", at: "gp/93" },
+    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "I blew the whistle simply because I was following my own conscience. That's all.", at: "gp/93" },
     ex: [
       { ja: "{社員|しゃいん}の{内部|ないぶ}**{告発|こくはつ}**によって、{会社|かいしゃ}の{不正|ふせい}が{明|あき}らかになった。", en: "The company's wrongdoing came to light through an employee blowing the whistle.", alt: ["{告白|こくはく}", "{発表|はっぴょう}", "{開発|かいはつ}"] },
     ] },
@@ -178,7 +178,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "conscience",
     note: "良心が痛む／とがめる (one's conscience pricks), 良心的な店 (an honest, fairly priced shop). Same sound as 両親 (parents) — context tells them apart.",
     rx: ["りょうじん", "よしん", "りょしん"],
-    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "I blew the whistle inside the company simply because I was following my own conscience — nothing more.", at: "gp/93" },
+    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "I blew the whistle simply because I was following my own conscience. That's all.", at: "gp/93" },
     ex: [
       { ja: "{嘘|うそ}をついて{友達|ともだち}を{困|こま}らせ、**{良心|りょうしん}**が{痛|いた}んだ。", en: "I lied and caused my friend trouble, and my conscience hurt.", alt: ["{両親|りょうしん}", "{本心|ほんしん}", "{安心|あんしん}"] },
     ] },
@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "belief, conviction, principle",
     note: "信念を貫く (stick to one's convictions), 信念を持つ, 固い信念. 信仰 is religious faith; 信頼 is trust in someone.",
     rx: ["しんねい", "しんれん", "しねん"],
-    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on the development of new drugs with an iron conviction.", at: "gp/101" },
+    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on developing new drugs with iron conviction.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
@@ -576,7 +576,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to feel down, be depressed or reluctant (about something ahead)",
     note: "A heavy heart about something one has to do: 明日の会議を思うと気が重い. The opposite is 気が軽い. 憂鬱 (ゆううつ) is the stronger, more literary word.",
     rx: ["きがかさい", "きがじゅうい", "けがおもい"],
-    book: { ja: "卒業試験のことは、考えるだに**気が重く**なる。", en: "Just thinking about the graduation exam makes me feel depressed.", at: "gp/103" },
+    book: { ja: "卒業試験のことは、考えるだに**気が重く**なる。", en: "Just thinking about the graduation exam fills me with dread.", at: "gp/103" },
     ex: [
       { ja: "{上司|じょうし}にミスを{報告|ほうこく}しなければならず、**{気|き}が{重|おも}い**。", en: "I have to report my mistake to my boss, and I'm dreading it.", alt: ["{気|き}が{早|はや}い", "{気|き}が{長|なが}い", "{気|き}が{多|おお}い"] },
     ] },
