@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "vacant house; empty house",
     note: "A house nobody lives in. More often written 空き家. Empty houses in the countryside are a social issue in Japan (空き家問題). 空き alone is used for vacancies in general: 空き部屋, 空き地 (vacant lot), 空き缶.",
     rx: ["からや", "くうか", "そらや"],
-    book: { ja: "「あれ？　{確|たし}かあそこは**{空家|あきや}**のはずだ」", en: "\"Huh? That place is supposed to be empty, I'm sure.\"", at: "ch/13" },
+    book: { ja: "「あれ？　{確|たし}かあそこは**{空家|あきや}**のはずだ」", en: "\"Huh? I'm sure that place is supposed to be empty.\"", at: "ch/13" },
     ex: [
       { ja: "{地方|ちほう}では**{空家|あきや}**が{増|ふ}えて{問題|もんだい}になっている。", en: "In rural areas, the growing number of empty houses has become a problem.", alt: ["{空席|くうせき}", "{空港|くうこう}", "{空気|くうき}"] },
     ] },
@@ -322,7 +322,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "independent production; self-produced (film, music)",
     note: "Made by the creators themselves without a big company: 自主製作映画 (an indie film), 自主製作のCD. 自主 means doing something on one's own initiative (自主練習, 自主的). 製作 is producing things; 制作 (same reading) is more for artistic works.",
     rx: ["じしゅせいざく", "じしゅうせいさく", "じぬしせいさく"],
-    book: { ja: "{俺|おれ}は会社を{辞|や}めて、今は**{自主製作|じしゅせいさく}**映画の{主役|しゅやく}だ。", en: "I quit my company, and now I'm the lead actor in an independent film.", at: "ch/13" },
+    book: { ja: "{俺|おれ}は会社を{辞|や}めて、今は**{自主製作|じしゅせいさく}**映画の{主役|しゅやく}だ。", en: "I quit my job, and now I'm the lead actor in an independent film.", at: "ch/13" },
     ex: [
       { ja: "{大学|だいがく}の{仲間|なかま}と**{自主製作|じしゅせいさく}**の{映画|えいが}を{撮|と}った。", en: "I shot an independent film with my university friends.", alt: ["{自己紹介|じこしょうかい}", "{大量生産|たいりょうせいさん}", "{自動販売|じどうはんばい}"] },
     ] },
@@ -330,7 +330,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "leading role; lead actor; the central figure",
     note: "主役を演じる (play the lead), 主役を務める. Figuratively the star or main person of an event: 今日の主役は新郎新婦だ. The opposite is 脇役 (supporting role). 主人公 is the main character in the story itself.",
     rx: ["しゅうやく", "おもやく", "しゅえき"],
-    book: { ja: "{俺|おれ}は会社を{辞|や}めて、今は{自主製作|じしゅせいさく}映画の**{主役|しゅやく}**だ。", en: "I quit my company, and now I'm the lead actor in an independent film.", at: "ch/13" },
+    book: { ja: "{俺|おれ}は会社を{辞|や}めて、今は{自主製作|じしゅせいさく}映画の**{主役|しゅやく}**だ。", en: "I quit my job, and now I'm the lead actor in an independent film.", at: "ch/13" },
     ex: [
       { ja: "{妹|いもうと}は{学校|がっこう}の{劇|げき}で**{主役|しゅやく}**を{演|えん}じた。", en: "My younger sister played the lead in the school play.", alt: ["{主張|しゅちょう}", "{主食|しゅしょく}", "{主催|しゅさい}"] },
     ] },
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "a thousand origami cranes (strung together)",
     note: "A string of a thousand folded paper cranes, made as a prayer for someone's recovery or for peace: 千羽鶴を折る / 贈る. 羽 is the counter for birds, and 羽 + つる becomes ばづる here.",
     rx: ["せんわづる", "せんばつる", "ちばづる"],
-    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "Hoping our friend in the hospital would get well soon, we all folded a thousand paper cranes.", at: "gp/129" },
+    book: { ja: "早く病気が治るように願いを{込|こ}めて、入院している友達のためにみんなで**{千羽鶴|せんばづる}**を{折|お}った。", en: "We all folded a thousand paper cranes for our friend in the hospital, putting into them our wish for a quick recovery.", at: "gp/129" },
     ex: [
       { ja: "{平和|へいわ}への{願|ねが}いを{込|こ}めて、{子|こ}どもたちが**{千羽鶴|せんばづる}**を{折|お}った。", en: "The children folded a thousand paper cranes as a prayer for peace.", alt: ["{羽子板|はごいた}", "{千秋楽|せんしゅうらく}", "{花束|はなたば}"] },
     ] },
@@ -560,7 +560,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "はるばる", lv: "N1", pos: "adverb",
     en: "all the way (from far away); over a long distance",
     note: "Stresses that someone came or went a long way, often with gratitude: 遠いところをはるばる来てくれてありがとう, 海外からはるばる. Usually with 来る / 訪ねる / 行く.",
-    book: { ja: "**はるばる**{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", en: "I wholeheartedly entertained the old friend who had come all that way to visit me.", at: "ch/13" },
+    book: { ja: "**はるばる**{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
     ex: [
       { ja: "{祖父母|そふぼ}が{田舎|いなか}から**はるばる**{孫|まご}の{結婚式|けっこんしき}に{来|き}てくれた。", en: "My grandparents came all the way from the countryside for their grandchild's wedding.", alt: ["ばらばら", "ぎりぎり", "ぐるぐる"] },
     ] },
@@ -568,14 +568,14 @@ TRY.registerVocab({ ch: 13, words: [
     en: "old friend; friend from long ago",
     note: "A friend you knew long ago, written and slightly literary: 旧友と再会する. In speech 昔の友達 or 古い友達 is common. 旧 means old or former (旧姓 maiden name, 旧式 old-fashioned). 親友 is a best friend.",
     rx: ["きゅゆう", "くゆう", "きゅうとも"],
-    book: { ja: "はるばる{訪|たず}ねて来てくれた**{旧友|きゅうゆう}**を心＿＿もてなした。", en: "I wholeheartedly entertained the old friend who had come all that way to visit me.", at: "ch/13" },
+    book: { ja: "はるばる{訪|たず}ねて来てくれた**{旧友|きゅうゆう}**を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
     ex: [
       { ja: "{同窓会|どうそうかい}で、二十{年|ねん}ぶりに**{旧友|きゅうゆう}**と{再会|さいかい}した。", en: "At the reunion, I met an old friend again for the first time in twenty years.", alt: ["{旧式|きゅうしき}", "{旧館|きゅうかん}", "{友好|ゆうこう}"] },
     ] },
   { w: "もてなす", lv: "N1", pos: "verb (godan, transitive)",
     en: "to entertain (guests); to treat hospitably",
     note: "Welcoming guests warmly with food and care: 客を手料理でもてなす. The noun おもてなし (hospitality) is a famous keyword of Japanese service culture. Kanji 持て成す is rare.",
-    book: { ja: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿**もてなした**。", en: "I wholeheartedly entertained the old friend who had come all that way to visit me.", at: "ch/13" },
+    book: { ja: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿**もてなした**。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
     ex: [
       { ja: "{遠|とお}くから{来|き}たお{客|きゃく}さんを、{母|はは}は{手料理|てりょうり}で**もてなした**。", en: "My mother entertained the guests who had come from far away with her home cooking.", alt: ["もたらした", "みなした", "もよおした"] },
     ] },
