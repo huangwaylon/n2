@@ -281,7 +281,7 @@ TRY.registerChapter({
             options: ["{平常時|へいじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力", "{非常時|ひじょうじ}に{発揮|はっき}される{特殊|とくしゅ}な力", "{平常時|へいじょうじ}に出すと非難される{特殊|とくしゅ}な力", "{非常時|ひじょうじ}に出すと非難される{特殊|とくしゅ}な力"],
             optionsEn: ["A special strength shown in normal times", "A special strength shown in an emergency", "A special strength that is criticized if shown in normal times", "A special strength that is criticized if shown in an emergency"],
             answer: 1,
-            en: "What does 火事場の馬鹿力 (“superhuman strength in an emergency”) mean?",
+            en: "What does 火事場の馬鹿力 (literally “the crazy strength of the fire scene”) mean?",
             why: { en: "The passage says it is strength that can be summoned 命なり会社の存続なりにかかわるような非常時にあって — i.e. option 2, special strength displayed in an emergency (非常時に発揮される特殊な力). Nothing says it is criticized (3, 4) or shown in normal times (1)." },
           },
           {

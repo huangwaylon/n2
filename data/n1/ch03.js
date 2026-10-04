@@ -909,7 +909,7 @@ TRY.registerChapter({
           {
             q: "この人が怒っている理由は何か。",
             options: ["相手が{休憩|きゅうけい}時間が終わっても戻らなかったから", "相手が{休憩|きゅうけい}時間に帰宅して戻ってこなかったから", "相手が{携帯|けいたい}電話で話しているから", "相手が遅れた理由をまだ言わないから"],
-            optionsEn: ["Because the other person didn't come back even after the break was over", "Because the other person went home during the break and didn't come back", "Because the other person is talking on the phone", "Because the other person still won't say why he was late"],
+            optionsEn: ["Because the other person didn't come back even after the break was over", "Because the other person went home during the break and didn't come back", "Because the other person is talking on the phone", "Because the other person still hasn't said why he was late"],
             answer: 0,
             en: "Why is this person angry?",
             why: { en: "The part-timer left at the 2 o'clock break and still hadn't come back at 3:30 or 4 (出てったが最後…帰ってこない). He went to the hospital, not home." },

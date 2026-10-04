@@ -206,7 +206,7 @@ TRY.registerChapter({
                   q: "もっと早く知らせてくれればよかったものを……。",
                   options: ["知らせてくれたからよかった。", "知らせてくれなかったので困った。", "今すぐ知らせてほしい。"],
                   answer: 1,
-                  en: "You should have told me sooner… (a. It was good that you told me. b. You didn't tell me, so I was in trouble. c. I want you to tell me right now.)",
+                  en: "You should have told me sooner… (a. It's a good thing you told me. b. You didn't tell me, and it caused me trouble. c. I want you to tell me right now.)",
                   why: { en: "〜ばよかったものを implies it didn't happen: you didn't tell me, and it caused me trouble (b)." },
                 },
                 {

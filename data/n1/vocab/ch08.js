@@ -843,7 +843,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "managing both, balancing (two things); compatibility",
     note: "仕事と育児を両立させる (balance work and child-rearing), 勉強と部活の両立, 両立しない (incompatible). Takes と: AとBを両立する.",
     rx: ["りょうたち", "りょりつ", "りょうりゅう"],
-    book: { ja: "{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の**{両立|りょうりつ}**が{難|むずか}しいこと", en: "That it's hard to balance university and vocational-school studies", at: "ch/8/review" },
+    book: { ja: "{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の**{両立|りょうりつ}**が{難|むずか}しいこと", en: "Finding it hard to balance university and vocational-school studies", at: "ch/8/review" },
     ex: [
       { ja: "{仕事|しごと}と{子育|こそだ}ての**{両立|りょうりつ}**は、{簡単|かんたん}なことではない。", en: "Balancing work and raising children is not easy.", alt: ["{独立|どくりつ}", "{起立|きりつ}", "{両替|りょうがえ}"] },
     ] },

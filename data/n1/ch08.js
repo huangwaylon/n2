@@ -1051,7 +1051,7 @@ TRY.registerChapter({
             question: "男の人がこの専門学校の勉強に不安を持っているのはどんなことですか。",
             questionEn: "What is the man worried about regarding study at this vocational school?",
             options: ["{大学|だいがく}と{専門学校|せんもんがっこう}の{勉強|べんきょう}の{両立|りょうりつ}が{難|むずか}しいこと", "{生|なま}の{魚|さかな}が{調理|ちょうり}できないこと", "{勉強|べんきょう}の{期間|きかん}が{短|みじか}いこと", "フランス{語|ご}ができないこと"],
-            optionsEn: ["That it's hard to balance university and vocational-school studies", "That he can't prepare raw fish", "That the study period is short", "That he can't speak French"],
+            optionsEn: ["Finding it hard to balance university and vocational-school studies", "Not being able to prepare raw fish", "Having only a short study period", "Not being able to speak French"],
             answer: 2,
             why: { en: "What he doubts about the school's course itself is its length: 今まで何年も修業が必要だったのが、本当に1年で大丈夫かな. His remarks about raw fish and language are about the woman, not about the course." },
           },
