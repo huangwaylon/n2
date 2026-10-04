@@ -14,14 +14,14 @@ TRY.registerFront([
     "page": 3,
     "text": {
      "ja": "中級レベルの日本語学習者が「読む」「書く」「話す」「聞く」の4技能をバランスよく伸ばすことを目標とした『4技能でひろがる 中級日本語 カルテットⅠ』が出版されたのは、2019年の夏。その年の冬から世界は激変しました。未曾有のコロナ禍で、これまで全く経験がなかったオンライン授業や在宅勤務をはじめとした数々のチャレンジを多くの方が現在も余儀なくされている状況です。そのような中で、ようやく『カルテットⅡ』の出版の日が迎えられる運びとなり、大変感慨深く思います。",
-     "tr": "Quartet I: Intermediate Japanese Across the Four Language Skills, which aims to help intermediate learners of Japanese develop the four skills of reading, writing, speaking, and listening in a balanced way, was published in the summer of 2019. From that winter on, the world changed dramatically. In the unprecedented COVID-19 pandemic, many people are still being forced to take on numerous challenges they had never experienced before, starting with online classes and working from home. Under these circumstances, we are deeply moved that the day of publication of Quartet II has finally come."
+     "tr": "Quartet I: Intermediate Japanese Across the Four Language Skills, which aims to help intermediate learners of Japanese develop the four skills of reading, writing, speaking, and listening in a balanced way, was published in the summer of 2019. From that winter on, the world changed dramatically. In the unprecedented COVID-19 pandemic, many people are still being forced to take on numerous challenges they had never experienced before, starting with online classes and working from home. Under these circumstances, we are deeply moved that Quartet II has finally reached publication."
     }
    },
    {
     "t": "p",
     "text": {
      "ja": "本書は、初級が終わっても中級レベルへの移行がスムーズにいかない数多くの学生たちを微力ながらも助けたいという私たちの思いから始まりました。「読む」の読み物のトピックで「書く」の作文を書き、「話す」の会話や「聞く」の聴解へとつながることを目指しました。また同時に、授業内での使用のみならず学習者が独学もできるよう丁寧な説明とともに豊富な例文やモデル作文・会話を提示し、大学で留学生が学ぶ日本語の授業で試用を何度も繰り返しながら改訂を重ねてきました。",
-     "tr": "This book grew out of our wish to help, in whatever small way we could, the many students who do not make a smooth transition to the intermediate level even after finishing the beginner level. We aimed for learners to write the Writing composition on the topic of the Reading texts, and for this to lead on into the Speaking conversations and the Listening tasks. At the same time, so that the book can be used not only in class but also by learners studying on their own, we provide careful explanations together with plenty of example sentences, model compositions, and model conversations, and we revised the book again and again while trialing it repeatedly in Japanese classes for international students at a university."
+     "tr": "This book grew out of our wish to help, in whatever small way we could, the many students who do not make a smooth transition to the intermediate level even after finishing the beginner level. Our aim was for learners to write the Writing compositions on the topics of the Reading texts and carry those topics on into the Speaking conversations and the Listening tasks. At the same time, so that the book can be used not only in class but also by learners studying on their own, we provide careful explanations together with plenty of example sentences, model compositions, and model conversations, and we revised the book again and again while trialing it repeatedly in Japanese classes for international students at a university."
     }
    },
    {
@@ -42,7 +42,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "現在の困難な状況下でも、独学の方を含め、『カルテットⅠ』から続く「学び」を決してあきらめることがない学習者の皆様が世界中に大勢います。私たちはそんな皆様を心から応援しています。楽しみながら着実に中級から上級への階段を登っていく──本書がその学びの一助になることを願ってやみません。",
-     "tr": "Even in the present difficult circumstances, there are many learners all over the world, including those studying on their own, who never give up on the learning that continues from Quartet I. We are cheering all of you on with all our hearts. Enjoying yourselves as you steadily climb the stairs from the intermediate to the advanced level: we sincerely hope that this book will help you in that learning."
+     "tr": "Even in the present difficult circumstances, there are many learners all over the world, including those studying on their own, who never give up on the learning that continues from Quartet I. We are cheering all of you on with all our hearts. We sincerely hope that this book will help you as you enjoy climbing, steadily and step by step, from the intermediate to the advanced level."
     }
    },
    {
@@ -100,7 +100,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "学習内容は、Ⅰは日本語能力試験のN3レベル、ⅡはN2・N1レベルを中心に、各課、文型・表現を約10項目ずつ、漢字は約45字ずつ、読みのストラテジーを1〜2項目を学びます。第Ⅱ巻全体では、文型・表現65項目、漢字330字、読みのストラテジー10項目になります。",
-     "tr": "As for the content, I centers on the N3 level of the Japanese-Language Proficiency Test and II on the N2 and N1 levels; in each lesson, students learn about 10 sentence patterns and expressions, about 45 kanji, and one or two reading strategies. Volume II as a whole covers 65 sentence patterns and expressions, 330 kanji, and 10 reading strategies."
+     "tr": "In terms of content, I centers on the N3 level of the Japanese-Language Proficiency Test and II on the N2 and N1 levels; in each lesson, students learn about 10 sentence patterns and expressions, about 45 kanji, and one or two reading strategies. Volume II as a whole covers 65 sentence patterns and expressions, 330 kanji, and 10 reading strategies."
     }
    },
    {
@@ -173,7 +173,7 @@ TRY.registerFront([
      },
      {
       "ja": "**読み物**　各課に「**読み物1**」「**読み物2**」の2つがあり、課が進むにつれて少しずつ難易度を上げてあります。トピックには、多くの学習者が興味を持っている日本文化や社会に関するものを中心に取り上げています。テキストⅡでは、第8課の読み物1を除くすべての読み物が生教材で、学習者向けにコントロールされていない読み物です。学習者が「読める」達成感を感じながら学習を進められることを目指しました。",
-      "tr": "Readings: Each lesson has two readings, Reading 1 and Reading 2, and the difficulty rises little by little as the lessons progress. The topics center on Japanese culture and society, which many learners are interested in. In Textbook II, every reading except Reading 1 of Lesson 8 is authentic material, not controlled for learners. We aimed for learners to progress while feeling the sense of achievement of being able to read."
+      "tr": "Readings: Each lesson has two readings, Reading 1 and Reading 2, and the difficulty rises little by little as the lessons progress. The topics center on Japanese culture and society, which many learners are interested in. In Textbook II, every reading except Reading 1 of Lesson 8 is authentic material, not controlled for learners. Our aim is for learners to move forward with a sense of achievement at being able to read them."
      },
      {
       "ja": "**読みのストラテジー**　その課の読み物を理解するのに有効なだけでなく、読解全般に広く応用が利くストラテジーを学習します。テキストⅠ同様、テキストⅡでも、文の読み方に関わるものと文章構成を理解するためのストラテジーを取り上げています。",
