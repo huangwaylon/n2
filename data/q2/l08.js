@@ -204,7 +204,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "ベルトランさんが海外で弁当箱を売ろうと思った理由について、記事を読んでわかったことを下の単語を使って話しましょう。",
-        "tr": "Using the words below, talk about what you learned from the article about why Bertrand decided to sell bento boxes overseas."
+        "tr": "Using the words below, talk about what you learned from the article about why Bertrand-san decided to sell bento boxes overseas."
        },
        "words": [
         "フランス",
@@ -430,7 +430,7 @@ TRY.registerLesson({
       "A bento is a small universe. It carries an aesthetic sense unique to Japan, one that expresses concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always an airtight container with no dividers holding just sandwiches, if it's sandwiches, or just pasta, if it's pasta. A Japanese bento, though, is packed colorfully with side dishes, with thought given to the person who will eat it and care taken over nutritional balance.",
       "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",
-      "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" But now I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, I came up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
+      "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" But since then I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, come up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
       "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others make people say \"Wow! How cute!\" the moment you take them out.",
       "You're also very particular about traditional Japanese products, aren't you?",
@@ -782,7 +782,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "{佐藤|さとう}さんはクラスで静か**どころか**、だれと**も**話さない。",
-         "tr": "In class, Sato-san isn't just quiet; Sato-san doesn't talk to anyone at all."
+         "tr": "Sato-san isn't just quiet in class; they don't talk to anyone at all."
         },
         {
          "n": 5,
@@ -795,7 +795,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "まだ書き始めていないよ。それ**どころか**、トピック**さえ**決めてなくて。",
-           "tr": "I haven't even started writing it. In fact, I haven't even picked a topic."
+           "tr": "I haven't started writing it yet. In fact, I haven't even picked a topic."
           }
          ]
         },
@@ -1540,7 +1540,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "毎日ニュースを見続けている**うちに**、社会問題に詳しくなってきた。",
-         "tr": "As I kept watching the news every day, I've gradually become well informed about social issues."
+         "tr": "As I've kept watching the news every day, I've become well informed about social issues."
         }
        ]
       },
@@ -1568,7 +1568,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**VているうちにY** says Y came about gradually, without anyone planning it, while X went on. Y is typically a change (〜てきた, 〜ようになった, 〜てしまった), often with いつの間にか; English needs *before I knew it* or *as I kept ~ing*.\n\n- Y is not a deliberate act. For something done on purpose during X, use 〜間に: 待っている間に本を読んだ (*I read a book while I waited*).\n- Keep it apart from the other **うちに**, *while it's still ~, before it's too late*: 温かいうちに食べて (*eat it while it's hot*), 忘れないうちに (*before I forget*). That one takes a state (い-adjective, 〜ない, Nの) and a deliberate action.\n\nReading 2: ブログを書いているうちに「何か自分でできるのではないか」と思うようになる, the idea grew on him as he blogged."
+     "deepDive": "**VているうちにY** says Y came about gradually, without anyone planning it, while X went on. Y is typically a change (〜てきた, 〜ようになった, 〜てしまった), often with いつの間にか; English needs *before I knew it* or *as I kept ~ing*.\n\n- Y is not a deliberate act. For something done on purpose during X, use 〜間に: 待っている間に本を読んだ (*I read a book while I waited*).\n- Keep it apart from the other **うちに** (Quartet I L3-1), *while it's still ~, before it's too late*: 温かいうちに食べて (*eat it while it's hot*), 忘れないうちに (*before I forget*). That one takes a state (い-adjective, 〜ない, Nの) and a deliberate action.\n\nReading 2: ブログを書いているうちに「何か自分でできるのではないか」と思うようになる, the idea grew on him as he blogged."
     },
     {
      "t": "note",
@@ -1722,7 +1722,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "うん。いつも高級ブランドのスーツを着ていておしゃれだよね。",
-           "tr": "Yeah. The manager always wears high-end designer suits and looks really stylish."
+           "tr": "Yeah. Always in high-end designer suits, and really stylish."
           }
          ]
         }
