@@ -43,7 +43,7 @@ TRY.registerLesson({
    "canDo": [
     {
      "ja": "これからお世話になる人に{自己|じこ}紹介ができる",
-     "tr": "Can introduce oneself to people who will be looking after one from now on"
+     "tr": "Can introduce yourself to people who will be looking after you from now on"
     },
     {
      "ja": "話が続けられる（{雑談|ざつだん}ができる）",
@@ -342,7 +342,7 @@ TRY.registerLesson({
       "Have you ever heard the term “iPS cells”? iPS cells are cells that can become many different parts of the body. It is thought that in the near future iPS cells will make it possible to help people with hard-to-treat illnesses, and they are also called “dream cells.” The person who created these cells is the researcher Professor Shinya Yamanaka. In 2012, at the age of 50, he received the Nobel Prize for his research on iPS cells.",
       "Professor Yamanaka was born in 1962 and comes from Osaka. As a student he did judo and rugby and got injured many times. That experience led him to decide to become a doctor who could help injured people. But when he started working at a hospital, he was shocked to learn that there were many people suffering because there was no way to cure their illnesses. That was apparently one of the reasons he decided to give up being a doctor and do research.",
       "Professor Yamanaka has a cheerful personality and is a funny person. In his lectures, he reportedly always makes a point of getting at least one laugh. For example, there is his story about an operation he performed when he was a doctor. The patient was a friend of Professor Yamanaka's. It was a simple operation of about 15 minutes, but Professor Yamanaka was bad at surgery, so it ended up taking more than an hour. So in the middle of the operation he apologized to his friend: “Sorry.” Hearing that, the friend apparently got nervous: “What do you mean, ‘sorry’…?”",
-      "According to the professor, his goal in life is “to bring iPS technology to the bedside and save many patients.” There is a phrase, “VW,” that he learned while studying in America and that he holds dear. It means that to get results in research you need V (Vision) and W (Work hard), in other words, you need to “set a goal and work hard.” True to the words “You won't succeed once unless you fail nine times. There's nothing shameful about failing,” Professor Yamanaka never gave up his research until he had created iPS cells. This may be why he is respected by so many people."
+      "According to the professor, his goal in life is “to bring iPS technology to the bedside and save many patients.” There is a phrase, “VW,” that he learned while studying in America and that he holds dear. It means that to get results in research you need V (Vision) and W (Work hard), in other words, you need to “set a goal and work hard.” True to his words, “You have to fail nine times to succeed once. There's nothing shameful about failing,” Professor Yamanaka never gave up his research until he had created iPS cells. This may be why he is respected by so many people."
      ]
     },
     {
@@ -436,14 +436,14 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "(a) **母は**　%%作ったケーキ%%　を__食べた__。　!!➡「食べた」人＝母。「作った」人は？!!",
-        "tr": "My mother ate the cake she made. → The one who ate = my mother. And the one who made it?"
+        "tr": "My mother ate the cake [someone] made. → The one who ate it = my mother. And the one who made it?"
        }
       },
       {
        "t": "p",
        "text": {
         "ja": "(b) %%**母が**　__作った__ケーキ%%　を食べた。　!!➡「作った」人＝母。「食べた」人は？!!",
-        "tr": "I ate the cake my mother made. → The one who made it = my mother. And the one who ate it?"
+        "tr": "[Someone] ate the cake my mother made. → The one who made it = my mother. And the one who ate it?"
        }
       },
       {
@@ -905,7 +905,7 @@ TRY.registerLesson({
           {
            "sp": "{事務員|じむいん}",
            "ja": "川村先生**なら**、もうお帰りになりましたよ。",
-           "tr": "If it's Professor Kawamura you want, the professor has already gone home."
+           "tr": "If you're looking for Professor Kawamura, the professor has already gone home."
           }
          ]
         }
@@ -968,7 +968,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "えーと、午前は{忙|いそが}しいんですが、午後**なら**{大丈夫|だいじょうぶ}です。",
-           "tr": "Um, I'm busy in the morning, but the afternoon is fine."
+           "tr": "Um, I'm busy in the morning, but the afternoon would be fine."
           }
          ]
         }
@@ -1061,7 +1061,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "うん。昨日初めてお話ししたんだけど、うわさで聞いていた**とおり**、優しい先生だったよ。",
-           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and just as I'd heard, the professor was kind."
+           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and the professor was just as kind as I'd heard."
           }
          ]
         },
@@ -1196,7 +1196,7 @@ TRY.registerLesson({
           {
            "sp": "→ C",
            "ja": "（上の会話を聞いて、心の中で）　Bさんはホラー映画が{嫌|きら}い**らしい**。",
-           "tr": "(Hearing the conversation above, thinking to themselves) It seems B doesn't like horror movies."
+           "tr": "(Hearing the conversation above, thinking to themselves) It seems B-san doesn't like horror movies."
           }
          ]
         }
@@ -1312,12 +1312,12 @@ TRY.registerLesson({
           {
            "sub": "a",
            "ja": "{将|しょう}くんはいつも元気に遊んでいて、子ども**らしい**。",
-           "tr": "Sho is always playing energetically. He's a typical kid."
+           "tr": "Sho is always out playing energetically, just like a kid should."
           },
           {
            "sub": "b",
            "ja": "{愛|あい}ちゃんはいつも一人で難しい本を読んでいて、あまり子ども**らしくない**。",
-           "tr": "Ai is always reading difficult books by herself. She's not very childlike."
+           "tr": "Ai is always reading difficult books by herself. She doesn't act much like a kid."
           }
          ]
         }
@@ -1396,7 +1396,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "いいね。今度聞かせて。",
-           "tr": "Nice. Let me listen sometime."
+           "tr": "Nice. Let me hear them sometime."
           }
          ]
         },
@@ -1829,14 +1829,14 @@ TRY.registerLesson({
           {
            "sp": "学生",
            "ja": "すみません。明日から遅れない**ようにします**。",
-           "tr": "I'm sorry. I'll make sure not to be late starting tomorrow."
+           "tr": "I'm sorry. From tomorrow on, I'll make sure not to be late."
           }
          ]
         },
         {
          "n": 2,
          "ja": "また電車にかさを忘れてしまった。今日で5回目なので、もう忘れない**ようにし**たい。",
-         "tr": "I left my umbrella on the train again. That's the fifth time now, so I want to make sure I don't forget it anymore."
+         "tr": "I left my umbrella on the train again. That's the fifth time now, so I want to make sure I never forget it again."
         },
         {
          "n": 3,
@@ -3516,7 +3516,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "え、あの{宮崎|みやざき}{監督|かんとく}の？",
-       "tr": "Wait, you mean the famous Director Miyazaki's museum?"
+       "tr": "Wait, you mean Director Miyazaki's museum?"
       },
       {
        "sp": "ジ",
