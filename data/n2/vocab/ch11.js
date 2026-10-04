@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "origin; beginnings (of something)",
     note: "The historical starting point of a custom, species, word or civilization: 〜を起源とする / 〜に起源がある, 文明の起源. 原因 is the cause of an event, and 由来 is where a name or custom comes from. Don't confuse it with its homophones 期限 (deadline) and 機嫌 (mood).",
     rx: ["きけん", "きいげん", "おきげん"],
-    book: { ja: "ラーメンは中国のめん料理を**{起源|きげん}**にしていると言われますが、外国人にとってラーメンは日本料理にほかならないのです。", en: "Ramen is said to have originated from Chinese noodle dishes, but for foreigners ramen is nothing other than Japanese cuisine.", at: "ch/11" },
+    book: { ja: "ラーメンは中国のめん料理を**{起源|きげん}**にしていると言われますが、外国人にとってラーメンは日本料理にほかならないのです。", en: "Ramen is said to have originated from Chinese noodle dishes, but to foreigners ramen is Japanese food, pure and simple.", at: "ch/11" },
     ex: [
       { ja: "オリンピックの**{起源|きげん}**は{古代|こだい}ギリシャにあると{言|い}われている。", en: "The origins of the Olympics are said to lie in ancient Greece.", alt: ["{期限|きげん}", "{機嫌|きげん}", "{起床|きしょう}"] },
     ] },
@@ -42,7 +42,7 @@ TRY.registerVocab({ ch: 11, words: [
   { w: "さすが", lv: "N2", pos: "adverb",
     en: "as expected (of); just what you'd expect",
     note: "Admiration that something lives up to its reputation: さすがプロだ, さすが〜だけあって (#105). さすがに can also mean \"even so, understandably\": さすがに疲れた (even I got tired). Don't use it for bad results you expected; that is やっぱり.",
-    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but true to its reputation, that ramen — whether the soup or the toppings — had the shop's own original touches, and it was something new, unlike anything I'd had before.", at: "ch/11" },
+    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, be it the soup or the toppings, that ramen had the shop's own original touches throughout; it was something new, unlike anything I'd had before.", at: "ch/11" },
     ex: [
       { ja: "**さすが**プロの{料理人|りょうりにん}だ。{味|あじ}が{全然|ぜんぜん}{違|ちが}う。", en: "Just what you'd expect of a professional chef. The taste is completely different.", alt: ["せめて", "まさか", "たとえ"] },
     ] },
@@ -50,7 +50,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "weekly (publication)",
     note: "Published once a week: 週刊誌 (weekly magazine). The series is 日刊 (daily), 週刊, 月刊 (monthly), 季刊 (quarterly). Don't confuse it with 週間 (a week's time: 1週間, 読書週間), which sounds the same.",
     rx: ["しゅかん", "しゅうが", "しゅうけん"],
-    book: { ja: "（文：**{週刊|しゅうかん}**ABK{編集部|へんしゅうぶ}）", en: "(Text: Weekly ABK editorial department)", at: "ch/11" },
+    book: { ja: "（文：**{週刊|しゅうかん}**ABK{編集部|へんしゅうぶ}）", en: "(Text: Weekly ABK editorial staff)", at: "ch/11" },
     ex: [
       { ja: "{駅|えき}の{売店|ばいてん}で**{週刊|しゅうかん}**{誌|し}を{買|か}った。", en: "I bought a weekly magazine at the station kiosk.", alt: ["{週間|しゅうかん}", "{習慣|しゅうかん}", "{週末|しゅうまつ}"] },
     ] },
@@ -58,7 +58,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "editing; compiling (a publication, video, etc.)",
     note: "Putting together a book, magazine, film or video: 編集部 (editorial department), 編集者 (editor), 動画を編集する. 編成 is organizing people or units (番組の編成, a TV schedule).",
     rx: ["へんしゅ", "へんじゅう", "べんしゅう"],
-    book: { ja: "（文：{週刊|しゅうかん}ABK**{編集部|へんしゅうぶ}**）", en: "(Text: Weekly ABK editorial department)", at: "ch/11" },
+    book: { ja: "（文：{週刊|しゅうかん}ABK**{編集部|へんしゅうぶ}**）", en: "(Text: Weekly ABK editorial staff)", at: "ch/11" },
     ex: [
       { ja: "{撮|と}った{動画|どうが}を**{編集|へんしゅう}**して、{友達|ともだち}に{送|おく}った。", en: "I edited the video I'd shot and sent it to a friend.", alt: ["{募集|ぼしゅう}", "{編成|へんせい}", "{集中|しゅうちゅう}"] },
     ] },
@@ -74,7 +74,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "victory; win",
     note: "A formal, news-style word: 勝利を収める (win a victory), 選挙で勝利する, チームワークの勝利. In conversation people say 勝ち / 勝つ. The opposite is 敗北 (defeat).",
     rx: ["しょり", "しょうい", "かつり"],
-    book: { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの**{勝利|しょうり}**にほかなりません。", en: "The success of this project is nothing other than a victory for teamwork.", at: "gp/100" },
+    book: { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの**{勝利|しょうり}**にほかなりません。", en: "The success of this project is nothing less than a victory for teamwork.", at: "gp/100" },
     ex: [
       { ja: "{選挙|せんきょ}で{新人|しんじん}の{候補者|こうほしゃ}が**{勝利|しょうり}**した。", en: "A first-time candidate won the election.", alt: ["{処理|しょり}", "{修理|しゅうり}", "{受理|じゅり}"] },
     ] },
@@ -82,7 +82,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "happiness; well-being",
     note: "More formal and abstract than 幸せ: 国民の幸福, 幸福な人生, 幸福感. 幸運 is good luck, not happiness.",
     rx: ["こうぶく", "こふく", "さちふく"],
-    book: { ja: "{政治|せいじ}の{目的|もくてき}は国民の**{幸福|こうふく}**にほかならない。", en: "The purpose of politics is nothing other than the happiness of the people.", at: "gp/100" },
+    book: { ja: "{政治|せいじ}の{目的|もくてき}は国民の**{幸福|こうふく}**にほかならない。", en: "The purpose of politics is none other than the happiness of the people.", at: "gp/100" },
     ex: [
       { ja: "{親|おや}はいつも{子|こ}どもの**{幸福|こうふく}**を{願|ねが}っている。", en: "Parents always wish for their children's happiness.", alt: ["{裕福|ゆうふく}", "{満腹|まんぷく}", "{往復|おうふく}"] },
     ] },
@@ -249,7 +249,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "guarantor; cosigner",
     note: "In Japan you usually need one to rent an apartment or take out a loan: 保証人になる / を頼む. 保証 is a guarantee (品質保証); don't confuse it with 保障 (security, as in 社会保障) or 補償 (compensation).",
     rx: ["ほうしょうにん", "ほしょうじん", "ほじょうにん"],
-    book: { ja: "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）**{保証人|ほしょうにん}**にもなってくれた。", en: "My boss at work introduced me to an apartment and, on top of that, became my guarantor.", at: "gp/102" },
+    book: { ja: "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）**{保証人|ほしょうにん}**にもなってくれた。", en: "My boss at work found me an apartment and, on top of that, agreed to be my guarantor.", at: "gp/102" },
     ex: [
       { ja: "アパートを{借|か}りるとき、{父|ちち}に**{保証人|ほしょうにん}**になってもらった。", en: "When I rented an apartment, I had my father act as my guarantor.", alt: ["{主人|しゅじん}", "{保健室|ほけんしつ}", "{商人|しょうにん}"] },
     ] },
@@ -273,7 +273,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "household",
     note: "The official and statistical word: 世帯数, 単身世帯 (one-person household), 二世帯住宅 (a house for two generations). 家庭 is home and family life; 家族 is the family members. Read せたい, not せいたい.",
     rx: ["せいたい", "よたい", "せだい"],
-    book: { ja: "1**{世帯|せたい}**といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We may say \"one household\", but households range from people living alone to large families of ten or more.", at: "gp/103" },
+    book: { ja: "1**{世帯|せたい}**といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We say \"one household\", but that covers everything from people living alone to large families of ten or more.", at: "gp/103" },
     ex: [
       { ja: "この{町|まち}では{高齢者|こうれいしゃ}だけの**{世帯|せたい}**が{増|ふ}えている。", en: "In this town, the number of households made up only of elderly people is rising.", alt: ["{世代|せだい}", "{世間|せけん}", "{地帯|ちたい}"] },
     ] },
@@ -305,7 +305,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "heritage; inheritance; legacy",
     note: "世界遺産 (World Heritage Site), 文化遺産 (cultural heritage), and property left by someone who has died: 遺産を相続する (inherit an estate). 財産 is property or assets in general.",
     rx: ["いざん", "ゆいさん", "いさ"],
-    book: { ja: "この町は文化**{遺産|いさん}**に{登録|とうろく}されているだけあって、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As befits a town registered as a cultural heritage site, the residents are also highly conscious of environmental protection.", at: "gp/105" },
+    book: { ja: "この町は文化**{遺産|いさん}**に{登録|とうろく}されているだけあって、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As you'd expect of a town listed as a cultural heritage site, its residents are also very conscious of protecting the environment.", at: "gp/105" },
     ex: [
       { ja: "{祖父|そふ}の**{遺産|いさん}**は{家族|かぞく}で{分|わ}けることになった。", en: "It was decided that my grandfather's estate would be divided among the family.", alt: ["{出産|しゅっさん}", "{遺跡|いせき}", "{予算|よさん}"] },
     ] },
@@ -313,7 +313,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "registration; to register",
     note: "Putting a name or item on an official list: 会員登録, 住民登録, 世界遺産に登録される. 記録 is a record of what happened.",
     rx: ["とうりょく", "とろく", "どうろく"],
-    book: { ja: "この町は文化{遺産|いさん}に**{登録|とうろく}**されているだけあって、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As befits a town registered as a cultural heritage site, the residents are also highly conscious of environmental protection.", at: "gp/105" },
+    book: { ja: "この町は文化{遺産|いさん}に**{登録|とうろく}**されているだけあって、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As you'd expect of a town listed as a cultural heritage site, its residents are also very conscious of protecting the environment.", at: "gp/105" },
     ex: [
       { ja: "このサイトを{使|つか}うには、まず{会員|かいいん}**{登録|とうろく}**が{必要|ひつよう}だ。", en: "To use this site, you first need to register as a member.", alt: ["{記録|きろく}", "{登山|とざん}", "{目録|もくろく}"] },
     ] },
@@ -329,7 +329,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "to take pride in; to boast (of)",
     note: "Often used of institutions and records, not just people: 国が誇る美術館 (a museum the nation is proud of), 世界一の高さを誇る (boasts being the tallest in the world). The noun is 誇り (ch. 2).",
     rx: ["おごる", "ほごる", "こる"],
-    book: { ja: "さすが国が**{誇|ほこ}る**{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。", en: "As you'd expect of a museum that is the nation's pride, it has many works by world-famous painters.", at: "gp/105" },
+    book: { ja: "さすが国が**{誇|ほこ}る**{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。", en: "As you'd expect of the museum the nation is so proud of, it has many works by world-famous painters.", at: "gp/105" },
     ex: [
       { ja: "この{寺|てら}は1300{年|ねん}の{歴史|れきし}を**{誇|ほこ}る**。", en: "This temple boasts a 1,300-year history.", alt: ["{祈|いの}る", "{誤|あやま}る", "{削|けず}る"] },
     ] },
@@ -360,7 +360,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "nervousness; tension; to be nervous",
     note: "緊張する (get nervous), 緊張がほぐれる / 解ける (tension eases), and tension between groups: 両国の緊張が高まる. あがる is the casual word for stage fright.",
     rx: ["きんちょ", "けんちょう", "きんじょう"],
-    book: { ja: "新しいクラスに入って**{緊張|きんちょう}**していただけに、{隣|となり}の人の親切がうれしかった。", en: "I was nervous about joining a new class, so the kindness of the person next to me made me all the happier.", at: "gp/105" },
+    book: { ja: "新しいクラスに入って**{緊張|きんちょう}**していただけに、{隣|となり}の人の親切がうれしかった。", en: "I'd been nervous about joining a new class, so I was all the more grateful for the kindness of the person next to me.", at: "gp/105" },
     ex: [
       { ja: "{初|はじ}めてのスピーチで**{緊張|きんちょう}**して、{声|こえ}が{震|ふる}えた。", en: "I was nervous giving my first speech, and my voice shook.", alt: ["{主張|しゅちょう}", "{拡張|かくちょう}", "{緊急|きんきゅう}"] },
     ] },
@@ -368,7 +368,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "considerably; quite; (to be) equivalent to",
     note: "As an adverb it is stronger than かなり: 相当疲れている, 相当ショックだった. 相当な金額 (a considerable sum). 〜に相当する means to correspond to (1万円に相当する品).",
     rx: ["そうどう", "あいとう", "そうと"],
-    book: { ja: "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が**{相当|そうとう}**ショックだったようだ。", en: "Sato had been working so earnestly that this failure seems to have come as quite a shock.", at: "gp/105" },
+    book: { ja: "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が**{相当|そうとう}**ショックだったようだ。", en: "Sato had been working so earnestly that this failure seems to have come as all the more of a shock.", at: "gp/105" },
     ex: [
       { ja: "{彼|かれ}は{朝|あさ}からずっと{働|はたら}いていて、**{相当|そうとう}**{疲|つか}れているようだ。", en: "He's been working since morning and seems to be pretty exhausted.", alt: ["{適当|てきとう}", "{担当|たんとう}", "{相談|そうだん}"] },
     ] },
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "manners; courtesy; etiquette",
     note: "礼儀正しい (polite, well-mannered), 礼儀を守る, 礼儀知らず (rude person). マナー is the loanword for specific rules of etiquette; 行儀 is how someone behaves, often of children (行儀が悪い).",
     rx: ["れいき", "れぎ", "らいぎ"],
-    book: { ja: "{招待状|しょうたいじょう}をもらったら、{出席|しゅっせき}するにせよ、{欠席|けっせき}するにせよ、{必|かなら}ず{期日|きじつ}までに返事を出すのが**{礼儀|れいぎ}**だ。", en: "When you receive an invitation, whether you attend or not, it is good manners to be sure to reply by the deadline.", at: "gp/106" },
+    book: { ja: "{招待状|しょうたいじょう}をもらったら、{出席|しゅっせき}するにせよ、{欠席|けっせき}するにせよ、{必|かなら}ず{期日|きじつ}までに返事を出すのが**{礼儀|れいぎ}**だ。", en: "When you receive an invitation, whether you attend or not, it's only polite to reply by the deadline without fail.", at: "gp/106" },
     ex: [
       { ja: "{彼|かれ}はまだ{若|わか}いが、とても**{礼儀|れいぎ}**{正|ただ}しい。", en: "He's still young, but he's very polite.", alt: ["{儀式|ぎしき}", "{礼金|れいきん}", "{義理|ぎり}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "image; picture (esp. digital)",
     note: "画像を保存する / 送る / 加工する, 画像データ. 映像 is moving images or video, and 写真 a photograph.",
     rx: ["かぞう", "がしょう", "えぞう"],
-    book: { ja: "ネットで見つけた**{画像|がぞう}**を{無断|むだん}で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing other than a criminal act.", at: "ch/11" },
+    book: { ja: "ネットで見つけた**{画像|がぞう}**を{無断|むだん}で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing less than a crime.", at: "ch/11" },
     ex: [
       { ja: "スマホで{撮|と}った**{画像|がぞう}**をパソコンに{保存|ほぞん}した。", en: "I saved the pictures I'd taken with my phone onto my computer.", alt: ["{画家|がか}", "{想像|そうぞう}", "{銅像|どうぞう}"] },
     ] },
@@ -424,7 +424,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "without permission; without notice",
     note: "Mostly 無断で〜する or in compounds: 無断欠席 (absence without notice), 無断駐車, 無断転載禁止. In conversation 勝手に is the everyday equivalent.",
     rx: ["ぶだん", "むたん", "むだ"],
-    book: { ja: "ネットで見つけた{画像|がぞう}を**{無断|むだん}**で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing other than a criminal act.", at: "ch/11" },
+    book: { ja: "ネットで見つけた{画像|がぞう}を**{無断|むだん}**で{転載|てんさい}するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing less than a crime.", at: "ch/11" },
     ex: [
       { ja: "{会社|かいしゃ}を**{無断|むだん}**で{休|やす}んではいけない。", en: "You must not take a day off work without notice.", alt: ["{無料|むりょう}", "{無事|ぶじ}", "{油断|ゆだん}"] },
     ] },
@@ -432,7 +432,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "reprinting; reposting (from another source)",
     note: "Copying an article or image into another publication or site: 無断転載禁止 (no reproduction without permission). 掲載 is printing or posting something in the first place.",
     rx: ["てんざい", "でんさい", "てんさ"],
-    book: { ja: "ネットで見つけた{画像|がぞう}を{無断|むだん}で**{転載|てんさい}**するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing other than a criminal act.", at: "ch/11" },
+    book: { ja: "ネットで見つけた{画像|がぞう}を{無断|むだん}で**{転載|てんさい}**するのは{犯罪行為|はんざいこうい}＿＿。", en: "Reposting images found online without permission is nothing less than a crime.", at: "ch/11" },
     ex: [
       { ja: "このサイトの{記事|きじ}の**{転載|てんさい}**を{禁止|きんし}します。", en: "Reproduction of the articles on this site is prohibited.", alt: ["{天才|てんさい}", "{転勤|てんきん}", "{満載|まんさい}"] },
     ] },
@@ -440,7 +440,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "act; deed; conduct",
     note: "A formal word for a specific act, often judged morally or legally: 犯罪行為, 迷惑行為 (nuisance behavior), 親切な行為. 行動 is action or behavior in general. Its homophone 好意 means goodwill.",
     rx: ["ぎょうい", "こうため", "こい"],
-    book: { ja: "ネットで見つけた{画像|がぞう}を{無断|むだん}で{転載|てんさい}するのは**{犯罪行為|はんざいこうい}**＿＿。", en: "Reposting images found online without permission is nothing other than a criminal act.", at: "ch/11" },
+    book: { ja: "ネットで見つけた{画像|がぞう}を{無断|むだん}で{転載|てんさい}するのは**{犯罪行為|はんざいこうい}**＿＿。", en: "Reposting images found online without permission is nothing less than a crime.", at: "ch/11" },
     ex: [
       { ja: "{電車|でんしゃ}の{中|なか}での{迷惑|めいわく}**{行為|こうい}**はやめましょう。", en: "Please refrain from annoying behavior on the train.", alt: ["{好意|こうい}", "{行事|ぎょうじ}", "{行列|ぎょうれつ}"] },
     ] },
