@@ -2839,7 +2839,7 @@ TRY.registerUnits([
         "a.",
         {
          "ja": "{森|もり}さんに写真を__{撮|と}られた__。",
-         "tr": "I had my picture taken by Mori (and didn't like it)."
+         "tr": "I had my picture taken by Mori-san (and didn't like it)."
         },
         "（　　）",
         "［私・森］",
@@ -2849,7 +2849,7 @@ TRY.registerUnits([
         "b.",
         {
          "ja": "森さんに写真を__撮ってもらった__。",
-         "tr": "I had Mori take my picture."
+         "tr": "I had Mori-san take my picture."
         },
         "（　　）",
         "［私・森］",
@@ -2859,7 +2859,7 @@ TRY.registerUnits([
         "c.",
         {
          "ja": "森さんに写真を__撮らせた__。",
-         "tr": "I made Mori take a picture."
+         "tr": "I made Mori-san take a picture."
         },
         "（　　）",
         "［私・森］",
@@ -2869,7 +2869,7 @@ TRY.registerUnits([
         "d.",
         {
          "ja": "森さんに写真を__撮らせてあげた__。",
-         "tr": "I let Mori take a picture."
+         "tr": "I let Mori-san take a picture."
         },
         "（　　）",
         "［私・森］",
@@ -2879,7 +2879,7 @@ TRY.registerUnits([
         "e.",
         {
          "ja": "森さんに写真を__撮らされた__。",
-         "tr": "I was made to take a picture by Mori."
+         "tr": "I was made to take a picture by Mori-san."
         },
         "（　　）",
         "［私・森］",
@@ -2889,7 +2889,7 @@ TRY.registerUnits([
         "f.",
         {
          "ja": "森さんが写真を__撮らせてくれた__。",
-         "tr": "Mori let me take a picture."
+         "tr": "Mori-san let me take a picture."
         },
         "（　　）",
         "［私・森］",
@@ -3242,7 +3242,7 @@ TRY.registerUnits([
     "style": "small",
     "text": {
      "ja": "✎答え▶ (1) a. ②　b. ①　c. ③　d. ④　e. ⑤　f. ④\n(2) a. 森　b. 森　c. 森　d. 森　e. 私　f. 私\n(3) a. ☹　b. ☺　e. ☹　f. ☺",
-     "tr": "Answers: (1) a. ② b. ① c. ③ d. ④ e. ⑤ f. ④ (2) a. Mori b. Mori c. Mori d. Mori e. me f. me (3) a. ☹ b. ☺ e. ☹ f. ☺"
+     "tr": "Answers: (1) a. ② b. ① c. ③ d. ④ e. ⑤ f. ④ (2) a. Mori-san b. Mori-san c. Mori-san d. Mori-san e. me f. me (3) a. ☹ b. ☺ e. ☹ f. ☺"
     }
    },
    {
@@ -3340,12 +3340,12 @@ TRY.registerUnits([
        {
         "sp": "部長",
         "ja": "来週の{出張|しゅっちょう}に{森|もり}が行きたがっていますが、どうしましょう？",
-        "tr": "Mori wants to go on next week's business trip. What should we do?"
+        "tr": "Mori-san wants to go on next week's business trip. What should we do?"
        },
        {
         "sp": "社長",
         "ja": "じゃあ、今回は森**に**__行かせよう__。",
-        "tr": "Well then, let's let Mori go this time."
+        "tr": "Well then, let's let Mori-san go this time."
        }
       ]
      }

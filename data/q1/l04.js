@@ -1795,7 +1795,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "だから、がっかりしていた**わけだ**。",
-           "tr": "So that's why Kimura-san looked so disappointed."
+           "tr": "So that's why they looked so disappointed."
           }
          ]
         },
@@ -2093,7 +2093,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "あ、あの人。となりのクラスの新しい先生だって。",
-           "tr": "Oh, that's the new teacher for the class next door, I hear."
+           "tr": "Oh, that person over there. I hear they're the new teacher for the class next door."
           },
           {
            "sp": "B",

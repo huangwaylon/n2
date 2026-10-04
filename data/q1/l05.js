@@ -435,7 +435,7 @@ TRY.registerLesson({
       "If you go to a restaurant at lunchtime or dinnertime, there is often a line. If you have to wait, put your name and the number of people in your party down on the sheet of paper at the entrance. At some places, instead of paper, you enter the number on a touch panel. There are also restaurants where you can choose between counter seats and booth seats. When a seat becomes free, you are called in turn and shown inside.",
       "Once you're seated, make your tea. First, take one of the teacups placed near your seat and put in powdered tea or a tea bag from the table. Next, pour hot water from the nozzle attached to the table. When you press the black button under the nozzle with the cup, hot water comes out. It's also a good idea to get soy sauce, wasabi, and gari (vinegar-pickled ginger), which cleanses the palate, ready ahead of time.",
       "The topping you want isn't necessarily going around on the belt when you want to eat it. That's when the touch panel, which lets you order from your seat, comes in handy. Although it differs from restaurant to restaurant, you can usually order in much the same way.",
-      "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know the names of the toppings, so there's no need to worry.",
+      "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are shown so that you can order even if you don't know what the toppings are called, so there's nothing to worry about.",
       "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
       "Conveyor-belt sushi restaurants have now spread all over the world, but why not try the authentic version here in Japan? It has a little something extra you won't find in other countries."
@@ -635,7 +635,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "まずはじめに、画面の「にぎり」「巻物」「おすすめ」などのカテゴリーの中から見たいものを選んでタッチする。すると、詳しいメニューが出てくるので、その中から注文したいものを決めよう。ネタの名前がわからなくても注文できるように、写真が表示されているから安心だ。",
-          "tr": "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen. A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know the names of the toppings, so there's no need to worry."
+          "tr": "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen. A more detailed menu then appears, so decide what you want to order from it. Photos are shown so that you can order even if you don't know what the toppings are called, so there's nothing to worry about."
          }
         },
         {
@@ -964,7 +964,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{青木|あおき}さんは？ スペイン語{専攻|せんこう}で留学の経験もあるから、話せる**はずだ**よ。",
-           "tr": "How about Aoki-san? With a Spanish major and study-abroad experience, Aoki-san should be able to speak it."
+           "tr": "How about Aoki-san? They majored in Spanish and studied abroad, so they should be able to speak it."
           }
          ]
         },
@@ -1135,7 +1135,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "いえ、{大丈夫|だいじょうぶ}です。ちょっと暑かったから、私が開け**ておいた**んです。",
-           "tr": "No, it's fine. It was a little hot, so I opened it myself."
+           "tr": "No, it's fine. It was a little hot, so I opened it on purpose."
           }
          ]
         },

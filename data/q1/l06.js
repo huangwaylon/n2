@@ -1026,7 +1026,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*to a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば and て forms (からみれば, からして). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
+     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*to a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば forms (からみれば, からすれば). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
     },
     {
      "t": "note",
@@ -1910,7 +1910,7 @@ TRY.registerLesson({
           {
            "sp": "妹",
            "ja": "あっ、お姉ちゃん、またお皿を{洗|あら}っていないよ！",
-           "tr": "Oh no, my sister didn't wash her dishes again!"
+           "tr": "Oh! Sis didn't wash her dishes again!"
           },
           {
            "sp": "母",
