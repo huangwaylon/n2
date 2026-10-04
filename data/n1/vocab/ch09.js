@@ -109,7 +109,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["れいじょう", "れせい", "りょうせい"],
     book: { ja: "私たちも**{冷静|れいせい}**に受け止めなければならないことがよくわかりました。", en: "I now understand well that this is something we, too, must accept calmly.", at: "ch/9" },
     ex: [
-      { ja: "{火事|かじ}のときこそ、**{冷静|れいせい}**に{行動|こうどう}することが{大切|たいせつ}だ。", en: "It is precisely in a fire that it's important to act calmly.", alt: ["{冷淡|れいたん}", "{安静|あんせい}", "{静止|せいし}"] },
+      { ja: "{火事|かじ}のときこそ、**{冷静|れいせい}**に{行動|こうどう}することが{大切|たいせつ}だ。", en: "In a fire, of all times, it's important to act calmly.", alt: ["{冷淡|れいたん}", "{安静|あんせい}", "{静止|せいし}"] },
     ] },
   { w: "{受|う}け{止|と}める", lv: "N2", pos: "ichidan verb",
     en: "to accept (and come to terms with); to take (something a certain way); to catch",
@@ -309,7 +309,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["かたい", "かだ", "がだい"],
     book: { ja: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な**{課題|かだい}**の1つとなっている。", en: "In the present age, with information technology spreading ever further, how to protect personal information has become one of the important issues.", at: "ch/9" },
     ex: [
-      { ja: "{新製品|しんせいひん}はよく{売|う}れているが、{価格|かかく}の{高|たか}さが{今後|こんご}の**{課題|かだい}**だ。", en: "The new product is selling well, but its high price is a challenge to tackle from here on.", alt: ["{話題|わだい}", "{題名|だいめい}", "{主題|しゅだい}"] },
+      { ja: "{新製品|しんせいひん}はよく{売|う}れているが、{価格|かかく}の{高|たか}さが{今後|こんご}の**{課題|かだい}**だ。", en: "The new product is selling well, but its high price is the next issue to tackle.", alt: ["{話題|わだい}", "{題名|だいめい}", "{主題|しゅだい}"] },
     ] },
   { w: "たどり{着|つ}く", lv: "N1", pos: "godan verb",
     en: "to (finally) reach, arrive at (after a hard journey)",
@@ -333,7 +333,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ひょうはん", "へいばん", "ひょうぱん"],
     book: { ja: "このスキャンダルは、会社の**評判**＿＿から、適切な対応が必要です。", en: "This scandal puts the company's reputation at stake, so it needs to be handled appropriately.", at: "ch/9" },
     ex: [
-      { ja: "{駅前|えきまえ}に{新|あたら}しくできたパン{屋|や}は、おいしいと**{評判|ひょうばん}**だ。", en: "The new bakery in front of the station is said to be very good.", alt: ["{評価|ひょうか}", "{批判|ひはん}", "{判断|はんだん}"] },
+      { ja: "{駅前|えきまえ}に{新|あたら}しくできたパン{屋|や}は、おいしいと**{評判|ひょうばん}**だ。", en: "The new bakery in front of the station has a reputation for being delicious.", alt: ["{評価|ひょうか}", "{批判|ひはん}", "{判断|はんだん}"] },
     ] },
   { w: "{買|か}い{手|て}", lv: "N1", pos: "noun",
     en: "buyer; purchaser",

@@ -169,7 +169,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{過|あやま}ち", lv: "N2", pos: "noun",
     en: "mistake; error; fault, transgression",
-    note: "A moral or serious mistake one regrets: 過ちを犯す (commit a wrong), 過ちを認める, 若気の過ち. 間違い is any error, even a trivial one; 過ち suggests blame. 過失 is the legal term (negligence).",
+    note: "A moral or serious mistake one regrets: 過ちを犯す (commit a wrong), 過ちを認める, 若さゆえの過ち (a youthful mistake). 間違い is any error, even a trivial one; 過ち suggests blame. 過失 is the legal term (negligence).",
     rx: ["すぎち", "かち", "あやまりち"],
     book: { ja: "若さゆえの**{過|あやま}ち**を、人はなかなか認めたがらないものだ。", en: "People are rarely willing to admit mistakes born of youth.", at: "gp/113" },
     ex: [
@@ -757,7 +757,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しわく", "おもまど", "おもいわく"],
     book: { ja: "さまざまな立場の人間がいて、その利害や**{思惑|おもわく}**が{絡|から}まり合う社会において、", en: "In a society where people in all kinds of positions live together and their interests and intentions are entangled with one another,", at: "ch/10/review" },
     ex: [
-      { ja: "{値上|ねあ}げで{利益|りえき}を{増|ふ}やそうとした{会社|かいしゃ}の**{思惑|おもわく}**は{外|はず}れ、{客|きゃく}が{離|はな}れていった。", en: "The company's plan to boost profits by raising prices backfired, and customers drifted away.", alt: ["{思想|しそう}", "{迷惑|めいわく}", "{思|おも}い{出|で}"] },
+      { ja: "{値上|ねあ}げで{利益|りえき}を{増|ふ}やそうとした{会社|かいしゃ}の**{思惑|おもわく}**は{外|はず}れ、{客|きゃく}が{離|はな}れていった。", en: "The company's hopes of boosting profits by raising prices came to nothing, and customers drifted away.", alt: ["{思想|しそう}", "{迷惑|めいわく}", "{思|おも}い{出|で}"] },
     ] },
   { w: "{絡|から}まる", lv: "N1", pos: "godan verb",
     en: "to get tangled; to be entwined; to be involved, intertwined",

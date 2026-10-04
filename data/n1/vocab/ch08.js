@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 8, words: [
     note: "Written: 〜にまつわる話／伝説 (stories surrounding …). Similar to 〜に関する but suggests stories, lore or episodes rather than facts. Also written 纏わる.",
     book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食に**まつわる**エッセーも{執筆|しっぴつ}されています。", en: "＿＿ researching the food cultures of various countries, Nishiyama also writes essays about food.", at: "ch/8" },
     ex: [
-      { ja: "この{城|しろ}には、{悲|かな}しい{恋|こい}に**まつわる**{伝説|でんせつ}が{残|のこ}っている。", en: "This castle has a legend about a tragic love affair.", alt: ["さわる", "こだわる", "いたわる"] },
+      { ja: "この{城|しろ}には、{悲|かな}しい{恋|こい}に**まつわる**{伝説|でんせつ}が{残|のこ}っている。", en: "A legend about a tragic love affair has been handed down at this castle.", alt: ["さわる", "こだわる", "いたわる"] },
     ] },
   { w: "{執筆|しっぴつ}", lv: "N1", pos: "noun · する verb",
     en: "writing (a book, article, manuscript)",
@@ -622,7 +622,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{里|さと}", lv: "N1", pos: "noun",
     en: "village, countryside; one's family home (esp. a wife's parents' home)",
-    note: "Literary and nostalgic: 山の里, ふるさと (故郷). お里 is one's family home or background: お里帰り (a wife visiting her parents), お里が知れる (one's upbringing shows).",
+    note: "Literary and nostalgic: 山の里 (a mountain village), 里山 (wooded hills near a village). 里帰り is a visit to one's family home, especially a married woman's to her parents'; お里が知れる means one's upbringing shows (critical).",
     rx: ["さど", "さとう", "しと"],
     book: { ja: "{雪深|ゆきぶか}いこの**{里|さと}**では皆が春の{訪|おとず}れを待ちかねている※。", en: "In this snowbound village, everyone is waiting impatiently for spring to arrive.", at: "gp/105" },
     ex: [
@@ -690,7 +690,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["こうやっく", "おおやく", "くやく"],
     book: { ja: "A{氏|し}は、{選挙|せんきょ}に勝た＿＿、無理な**{公約|こうやく}**を{掲|かか}げていると批判された。", en: "Candidate A was criticized for putting forward unrealistic campaign promises ＿＿ win the election.", at: "ch/8" },
     ex: [
-      { ja: "{新|しん}{市長|しちょう}は**{公約|こうやく}**{通|どお}り、{給食費|きゅうしょくひ}を{無料|むりょう}にした。", en: "True to the campaign pledge, the new mayor made school lunches free.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条約|じょうやく}"] },
+      { ja: "{新|しん}{市長|しちょう}は**{公約|こうやく}**{通|どお}り、{給食費|きゅうしょくひ}を{無料|むりょう}にした。", en: "Keeping a campaign promise, the new mayor made school lunches free.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条約|じょうやく}"] },
     ] },
   { w: "{掲|かか}げる", lv: "N1", pos: "verb (transitive)",
     en: "to put forward, hold up (a goal, slogan); to hoist, put up (a flag, sign); to publish",

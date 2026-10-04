@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["かいする", "がいさする", "ごうする"],
     book: { ja: "健康を**害したら**何にもならないよ", en: "It's all for nothing if you ruin your health.", at: "gp/77" },
     ex: [
-      { ja: "{働|はたら}きすぎて健康を**{害|がい}して**は元も子もない。", en: "If you work too hard and ruin your health, you lose everything.", alt: ["{保|たも}って", "{守|まも}って", "{養|やしな}って"] },
+      { ja: "{働|はたら}きすぎて健康を**{害|がい}して**は元も子もない。", en: "If you work so hard that you ruin your health, you'll lose everything you've worked for.", alt: ["{保|たも}って", "{守|まも}って", "{養|やしな}って"] },
     ] },
   { w: "{財産|ざいさん}", lv: "N2", pos: "noun",
     en: "property, assets, fortune; (a valuable) asset",
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["こうごん", "くげん", "おおやけごと"],
     book: { ja: "私の弟ときたら今年40歳になるというのに、「{趣味|しゅみ}はレゴ（LEGO）」と**{公言|こうげん}**しています。", en: "That brother of mine — even though he turns 40 this year, he openly declares that his hobby is LEGO.", at: "ch/7/review" },
     ex: [
-      { ja: "{彼|かれ}は「次の{選挙|せんきょ}には出ない」と**{公言|こうげん}**している。", en: "He has publicly said he won't run in the next election.", alt: ["{公開|こうかい}", "{方言|ほうげん}", "{伝言|でんごん}"] },
+      { ja: "{彼|かれ}は「次の{選挙|せんきょ}には出ない」と**{公言|こうげん}**している。", en: "He has openly declared that he won't run in the next election.", alt: ["{公開|こうかい}", "{方言|ほうげん}", "{伝言|でんごん}"] },
     ] },
   { w: "{小言|こごと}", lv: "N1", pos: "noun",
     en: "scolding, nagging, lecture; grumbling",
