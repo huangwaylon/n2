@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "capable people; talent; personnel (seen as a resource an organization needs)",
     note: "A business and news word: 人材を求める / 育てる / 確保する (seek / train / secure talent), 人材不足 (labor shortage). It looks at people as an asset, so you wouldn't call a friend 人材. 人手 is the everyday word for “hands, workers”.",
     rx: ["じんさい", "にんざい", "ひとざい"],
-    book: { ja: "さいわい駅前店オープンにつき、**{人材|じんざい}**を{求|もと}めています", en: "With the opening of our Saiwai Station-front store, we are looking for staff.", at: "ch/1" },
+    book: { ja: "さいわい駅前店オープンにつき、**{人材|じんざい}**を{求|もと}めています", en: "Now hiring for the opening of our Saiwai Station store.", at: "ch/1" },
     ex: [
       { ja: "{地方|ちほう}の{中小|ちゅうしょう}{企業|きぎょう}では、{若|わか}い**{人材|じんざい}**が{不足|ふそく}している。", en: "Small and medium-sized companies in rural areas are short of young talent.", alt: ["{人生|じんせい}", "{人格|じんかく}", "{人類|じんるい}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "consideration; taking (something) into account",
     note: "Formal: 〜を考慮する / 〜を考慮に入れる (take into account), 考慮の上 (after due consideration). It means weighing a factor when deciding, not “thinking about” in general (that is 考える / 検討する).",
     rx: ["こうろ", "こうりょう", "こりょ"],
-    book: { ja: "＊{経験|けいけん}{年数|ねんすう}に{応|おう}じ、{時給|じきゅう}は**{考慮|こうりょ}**します。", en: "* The hourly wage will be adjusted according to your years of experience.", at: "ch/1" },
+    book: { ja: "＊{経験|けいけん}{年数|ねんすう}に{応|おう}じ、{時給|じきゅう}は**{考慮|こうりょ}**します。", en: "* Hourly wages take years of experience into account.", at: "ch/1" },
     ex: [
       { ja: "{参加者|さんかしゃ}の{年齢|ねんれい}を**{考慮|こうりょ}**して、ハイキングのコースを決めた。", en: "We chose the hiking route taking the participants' ages into account.", alt: ["{遠慮|えんりょ}", "{苦労|くろう}", "{反省|はんせい}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "payment or provision (of money or goods, by an employer or authority)",
     note: "An organization giving money or items to people it is responsible for: 交通費を支給する, ボーナスの支給, 制服支給 (uniform provided). Contrast 支払う (pay for something you bought) and 提供 (offer to customers or the public).",
     rx: ["しっきゅう", "しきゅ", "ちきゅう"],
-    book: { ja: "交通費▶{往復|おうふく}1,000円まで**{支給|しきゅう}**", en: "Transportation: up to ¥1,000 round trip paid", at: "ch/1" },
+    book: { ja: "交通費▶{往復|おうふく}1,000円まで**{支給|しきゅう}**", en: "Transportation: paid up to ¥1,000 round trip", at: "ch/1" },
     ex: [
       { ja: "この会社では、{社員|しゃいん}に{作業服|さぎょうふく}が**{支給|しきゅう}**される。", en: "At this company, employees are issued work clothes.", alt: ["{請求|せいきゅう}", "{需要|じゅよう}", "{要求|ようきゅう}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "documents; papers; paperwork",
     note: "Papers for official or business purposes: 書類を提出する (submit documents), 必要書類, 書類審査 (screening of application papers). 資料 is material for reference or a presentation, not forms to submit.",
     rx: ["しょうるい", "しょるいい", "しょうい"],
-    book: { ja: "**{書類|しょるい}**{審査|しんさ}の{結果|けっか}は{採否|さいひ}にかかわらず、{通知|つうち}します。", en: "We will notify you of the result of the document screening whether you are accepted or not.", at: "ch/1" },
+    book: { ja: "**{書類|しょるい}**{審査|しんさ}の{結果|けっか}は{採否|さいひ}にかかわらず、{通知|つうち}します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
       { ja: "ビザの{申請|しんせい}には、たくさんの**{書類|しょるい}**が{必要|ひつよう}だ。", en: "A visa application requires a lot of paperwork.", alt: ["{親類|しんるい}", "{分類|ぶんるい}", "{人類|じんるい}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "screening; examination; judging (to decide on approval or ranking)",
     note: "Officially examining applicants, works or applications against standards: 書類審査, 入国審査 (immigration), ローンの審査, 審査員 (judge of a contest). 検査 is inspecting things for defects; 調査 is investigating facts.",
     rx: ["しんざ", "じんさ", "しんしゃ"],
-    book: { ja: "{書類|しょるい}**{審査|しんさ}**の{結果|けっか}は{採否|さいひ}にかかわらず、{通知|つうち}します。", en: "We will notify you of the result of the document screening whether you are accepted or not.", at: "ch/1" },
+    book: { ja: "{書類|しょるい}**{審査|しんさ}**の{結果|けっか}は{採否|さいひ}にかかわらず、{通知|つうち}します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
       { ja: "コンテストの**{審査|しんさ}**には、{有名|ゆうめい}な{作家|さっか}も{加|くわ}わった。", en: "A well-known writer also took part in judging the contest.", alt: ["{検査|けんさ}", "{捜査|そうさ}", "{操作|そうさ}"] },
     ] },
@@ -171,15 +171,15 @@ TRY.registerVocab({ ch: 1, words: [
     en: "acceptance or rejection (of an applicant, proposal, etc.); whether someone is hired",
     note: "A formal two-kanji compound of 採（用） “adopt, hire” + 否 “no”. It appears almost only in hiring and selection notices: 採否の結果, 採否を通知する. In conversation people say 受かったかどうか or 合否 (pass or fail, for exams).",
     rx: ["さいぴ", "さいふ", "しゅひ"],
-    book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は**{採否|さいひ}**にかかわらず、{通知|つうち}します。", en: "We will notify you of the result of the document screening whether you are accepted or not.", at: "ch/1" },
+    book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は**{採否|さいひ}**にかかわらず、{通知|つうち}します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
-      { ja: "{面接|めんせつ}の**{採否|さいひ}**は、一週間{以内|いない}にメールでお知らせします。", en: "We will let you know by email within a week whether you have been accepted after the interview.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
+      { ja: "{面接|めんせつ}の**{採否|さいひ}**は、一週間{以内|いない}にメールでお知らせします。", en: "We will let you know the result of your interview by email within a week.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
     ] },
   { w: "{通知|つうち}", lv: "N2", pos: "noun · する verb",
     en: "notification; official notice",
     note: "Formally informing someone, usually in writing: 合格通知 (letter of acceptance), 通知が届く, 通知表 (school report card). Also a phone “notification”. 連絡 is more everyday and two-way.",
     rx: ["つち", "つうじ", "とうち"],
-    book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は{採否|さいひ}にかかわらず、**{通知|つうち}**します。", en: "We will notify you of the result of the document screening whether you are accepted or not.", at: "ch/1" },
+    book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は{採否|さいひ}にかかわらず、**{通知|つうち}**します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
       { ja: "{大学|だいがく}から{合格|ごうかく}の**{通知|つうち}**が{届|とど}いた。", en: "A letter of acceptance arrived from the university.", alt: ["{通過|つうか}", "{承知|しょうち}", "{知識|ちしき}"] },
     ] },
@@ -229,7 +229,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["がくかい", "がっがい", "がくえ"],
     book: { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、**{学会|がっかい}**{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations — Dr. Sato is attending an academic conference.", at: "gp/1" },
     ex: [
-      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present new research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
+      { ja: "{教授|きょうじゅ}は来月、アメリカの**{学会|がっかい}**で{研究|けんきゅう}{成果|せいか}を{発表|はっぴょう}する。", en: "Next month the professor will present research findings at a conference in the U.S.", alt: ["{学期|がっき}", "{学費|がくひ}", "{学歴|がくれき}"] },
     ] },
   { w: "{休診|きゅうしん}", lv: "N1", pos: "noun · する verb",
     en: "(a clinic) being closed; no consultations",
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "renovation; remodeling (of a store or building interior)",
     note: "Redoing the interior or appearance of a shop or building: 改装工事, 改装中, 改装オープン. リフォーム is the usual word for homes; 改築 means rebuilding part of the structure.",
     rx: ["かいしょう", "がいそう", "かいぞう"],
-    book: { ja: "ただ今、**{改装|かいそう}**工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
+    book: { ja: "ただ今、**{改装|かいそう}**工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "Because our store is currently under renovation, we are operating out of the temporary location shown at left.", at: "gp/1" },
     ex: [
       { ja: "{駅前|えきまえ}のカフェは**{改装|かいそう}**のため、{今月|こんげつ}いっぱい{休|やす}みだ。", en: "The café in front of the station is closed for the rest of the month for renovation.", alt: ["{改正|かいせい}", "{変装|へんそう}", "{包装|ほうそう}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "store; shop (as premises or a business location)",
     note: "A business word: 店舗数 (number of stores), 新店舗 (new outlet), 仮店舗 (temporary store). It sounds more formal than 店 and treats the store as a unit or building.",
     rx: ["てんほ", "てんぼ", "みせぽ"],
-    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}**{店舗|てんぽ}**で{営業|えいぎょう}いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
+    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}**{店舗|てんぽ}**で{営業|えいぎょう}いたしております。", en: "Because our store is currently under renovation, we are operating out of the temporary location shown at left.", at: "gp/1" },
     ex: [
       { ja: "そのコンビニチェーンは、{全国|ぜんこく}に{五千|ごせん}以上の**{店舗|てんぽ}**を持っている。", en: "That convenience store chain has more than 5,000 stores nationwide.", alt: ["{店頭|てんとう}", "{舗装|ほそう}", "{商品|しょうひん}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "being open for business; business operations; sales (department/work)",
     note: "Two main uses: a business being open (営業時間 “business hours”, 営業中 “open”) and selling to clients (営業部 “sales department”, 営業の仕事). 営業する with a shop as subject means it is open.",
     rx: ["えいごう", "えいぎょ", "えいきょう"],
-    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で**{営業|えいぎょう}**いたしております。", en: "We are currently closed for renovation, so we are operating out of the temporary store shown at left.", at: "gp/1" },
+    book: { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で**{営業|えいぎょう}**いたしております。", en: "Because our store is currently under renovation, we are operating out of the temporary location shown at left.", at: "gp/1" },
     ex: [
       { ja: "この{店|みせ}は{年中無休|ねんじゅうむきゅう}で、{朝|あさ}7時から**{営業|えいぎょう}**している。", en: "This shop is open every day of the year, from 7 a.m.", alt: ["{経営|けいえい}", "{作業|さぎょう}", "{職業|しょくぎょう}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "day and night",
     note: "Written style: 昼夜を問わず (day and night alike), 昼夜兼行 (working around the clock), 昼夜の温度差 (day–night temperature difference). Everyday speech says 昼も夜も.",
     rx: ["ひるや", "ちゅうよ", "じゅうや"],
-    book: { ja: "このスーパーは**{昼夜|ちゅうや}**を{問|と}わず、{営業|えいぎょう}しているので、{深夜|しんや}も働く人にとってありがたい。", en: "This supermarket is open day and night, which is a blessing for people who work late at night.", at: "gp/2" },
+    book: { ja: "このスーパーは**{昼夜|ちゅうや}**を{問|と}わず、{営業|えいぎょう}しているので、{深夜|しんや}も働く人にとってありがたい。", en: "This supermarket is open day and night, which is a big help for people who work late at night.", at: "gp/2" },
     ex: [
       { ja: "{砂漠|さばく}では**{昼夜|ちゅうや}**の{気温|きおん}の{差|さ}がとても{大|おお}きい。", en: "In the desert, the difference in temperature between day and night is very large.", alt: ["{徹夜|てつや}", "{昼食|ちゅうしょく}", "{前夜|ぜんや}"] },
     ] },
@@ -325,7 +325,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["ろうじゃくだんじょ", "ろうにゃくだんじょ", "ろうじゃくなんにょ"],
     book: { ja: "私の国では、**{老若男女|ろうにゃくなんにょ}**を{問|と}わず、みんな、サッカーが好きだ。", en: "In my country, everyone, young and old, men and women alike, loves soccer.", at: "gp/2" },
     ex: [
-      { ja: "この{祭|まつ}りは、**{老若男女|ろうにゃくなんにょ}**が{一緒|いっしょ}に{踊|おど}れるのが{魅力|みりょく}だ。", en: "The appeal of this festival is that people of all ages and both sexes can dance together.", alt: ["{一石二鳥|いっせきにちょう}", "{自業自得|じごうじとく}", "{十人十色|じゅうにんといろ}"] },
+      { ja: "この{祭|まつ}りは、**{老若男女|ろうにゃくなんにょ}**が{一緒|いっしょ}に{踊|おど}れるのが{魅力|みりょく}だ。", en: "The appeal of this festival is that everyone, young and old, men and women alike, can dance together.", alt: ["{一石二鳥|いっせきにちょう}", "{自業自得|じごうじとく}", "{十人十色|じゅうにんといろ}"] },
     ] },
   { w: "{学歴|がくれき}", lv: "N1", pos: "noun",
     en: "educational background; academic record",
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shoplifting",
     note: "Stealing goods from a shop: 万引きをする, 万引きで捕まる (get caught shoplifting). The general words for stealing are 盗む / 泥棒; pickpocketing is すり.",
     rx: ["まんぴき", "ばんびき", "まんいんき"],
-    book: { ja: "うちの子に{限|かぎ}って、**{万引|まんび}き**なんてするはずがありません。", en: "My child, of all children, would never shoplift.", at: "gp/3" },
+    book: { ja: "うちの子に{限|かぎ}って、**{万引|まんび}き**なんてするはずがありません。", en: "My child, of all people, would never shoplift.", at: "gp/3" },
     ex: [
       { ja: "{店|みせ}は**{万引|まんび}き**を{防|ふせ}ぐために{防犯|ぼうはん}カメラを{設置|せっち}した。", en: "The shop installed security cameras to prevent shoplifting.", alt: ["{値引|ねび}き", "{割引|わりび}き", "{取|と}り{引|ひ}き"] },
     ] },
@@ -493,7 +493,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["かくじゅ", "かっしゅ", "かくしゅう"],
     book: { ja: "**{各種|かくしゅ}**{書類|しょるい}の{提出|ていしゅつ}に{際|さい}しては、{期限|きげん}を{厳守|げんしゅ}してください。", en: "When submitting the various documents, please strictly observe the deadline.", at: "gp/7" },
     ex: [
-      { ja: "{当店|とうてん}では、**{各種|かくしゅ}**クレジットカードがご{利用|りよう}いただけます。", en: "All major credit cards are accepted at our store.", alt: ["{各自|かくじ}", "{人種|じんしゅ}", "{各地|かくち}"] },
+      { ja: "{当店|とうてん}では、**{各種|かくしゅ}**クレジットカードがご{利用|りよう}いただけます。", en: "We accept various credit cards at our store.", alt: ["{各自|かくじ}", "{人種|じんしゅ}", "{各地|かくち}"] },
     ] },
   { w: "{期限|きげん}", lv: "N2", pos: "noun",
     en: "deadline; time limit; expiration date",
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "bank transfer; payment into an account",
     note: "Paying by sending money to someone's account: 振り込み手数料, 銀行振り込み. The verb is 振り込む (〜に振り込む). A related crime word is 振り込め詐欺 (phone scam demanding a transfer).",
     rx: ["ふりごみ", "しんこみ", "ぶりこみ"],
-    book: { ja: "**{振|ふ}り{込|こ}み**に{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "**{振|ふ}り{込|こ}み**に{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "When paying by bank transfer, the customer is responsible for the transfer fee.", at: "gp/7" },
     ex: [
       { ja: "{授業料|じゅぎょうりょう}の**{振|ふ}り{込|こ}み**は、{今月|こんげつ}{末|まつ}までにお{願|ねが}いします。", en: "Please pay the tuition by bank transfer by the end of this month.", alt: ["{打|う}ち{込|こ}み", "{書|か}き{込|こ}み", "{思|おも}い{込|こ}み"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "handling fee; service charge; commission",
     note: "A fee for a transaction or service: 振り込み手数料, 手数料がかかる, 手数料無料. 料金 is a general charge for use; 手数料 is specifically for the trouble of processing something.",
     rx: ["てかずりょう", "しゅすうりょう", "てすりょう"],
-    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、**{手数料|てすうりょう}**はお客様のご{負担|ふたん}となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、**{手数料|てすうりょう}**はお客様のご{負担|ふたん}となります。", en: "When paying by bank transfer, the customer is responsible for the transfer fee.", at: "gp/7" },
     ex: [
       { ja: "{夜間|やかん}にATMを{使|つか}うと、**{手数料|てすうりょう}**がかかる。", en: "If you use an ATM at night, there's a service charge.", alt: ["{授業料|じゅぎょうりょう}", "{入場料|にゅうじょうりょう}", "{材料|ざいりょう}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "burden; bearing (a cost or responsibility); strain",
     note: "Taking on costs, work or stress: 費用を負担する (bear the cost), 送料はお客様のご負担 (shipping paid by the customer), 体に負担がかかる (put strain on the body), 負担が大きい.",
     rx: ["ふだん", "ぶたん", "ふうたん"],
-    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご**{負担|ふたん}**となります。", en: "For payment by bank transfer, the transfer fee is to be paid by the customer.", at: "gp/7" },
+    book: { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご**{負担|ふたん}**となります。", en: "When paying by bank transfer, the customer is responsible for the transfer fee.", at: "gp/7" },
     ex: [
       { ja: "{重|おも}い{荷物|にもつ}を{毎日|まいにち}{運|はこ}ぶのは、{腰|こし}に**{負担|ふたん}**がかかる。", en: "Carrying heavy loads every day puts a strain on your lower back.", alt: ["{担当|たんとう}", "{勝負|しょうぶ}", "{分担|ぶんたん}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping orders, some items were sent out late.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that some items were shipped late when we sent out your orders.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },
@@ -573,7 +573,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["がんじょ", "ねがいしょ", "がんしょう"],
     book: { ja: "**{願書|がんしょ}**は1月28日{必着|ひっちゃく}のこと。", en: "Applications must arrive by January 28.", at: "gp/8" },
     ex: [
-      { ja: "{受験|じゅけん}する{大学|だいがく}に**{願書|がんしょ}**を{郵送|ゆうそう}した。", en: "I mailed my application to the university I'm taking the exam for.", alt: ["{辞書|じしょ}", "{領収書|りょうしゅうしょ}", "{図書|としょ}"] },
+      { ja: "{受験|じゅけん}する{大学|だいがく}に**{願書|がんしょ}**を{郵送|ゆうそう}した。", en: "I mailed my application to the university whose entrance exam I'm taking.", alt: ["{辞書|じしょ}", "{領収書|りょうしゅうしょ}", "{図書|としょ}"] },
     ] },
   { w: "{必着|ひっちゃく}", lv: "N1", pos: "noun",
     en: "must arrive by (a date)",
@@ -643,7 +643,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "labor costs; personnel expenses",
     note: "What a business spends on wages and benefits: 人件費を削る / 抑える (cut labor costs), 人件費が高い. Pairs with 家賃, 光熱費, 材料費 in talk about running costs.",
     rx: ["にんけんひ", "じんげんひ", "じんけんぴ"],
-    book: { ja: "店を{経営|けいえい}するなら、{家賃|やちん}や**{人件費|じんけんひ}**など、売り上げの多い少ない（　）毎月{費用|ひよう}がかかることを考えなければならない。", en: "If you run a shop, you have to keep in mind that costs such as rent and labor are incurred every month, regardless of whether sales are high or low.", at: "ch/1/review" },
+    book: { ja: "店を{経営|けいえい}するなら、{家賃|やちん}や**{人件費|じんけんひ}**など、売り上げの多い少ない（　）毎月{費用|ひよう}がかかることを考えなければならない。", en: "If you run a shop, you have to keep in mind that, whether sales are high or low, you'll have costs like rent and labor every month.", at: "ch/1/review" },
     ex: [
       { ja: "{会社|かいしゃ}は**{人件費|じんけんひ}**を{減|へ}らすため、{機械化|きかいか}を{進|すす}めている。", en: "The company is pushing mechanization to cut labor costs.", alt: ["{交通費|こうつうひ}", "{生活費|せいかつひ}", "{会費|かいひ}"] },
     ] },
