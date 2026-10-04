@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "close contest, neck-and-neck race; close game",
     note: "接戦を制する (win a close game), 接戦の末 (after a close fight), 大接戦. Used for sports and elections. 激戦 is a fierce battle; 熱戦 is a heated, exciting game.",
     rx: ["せつせん", "せっぜん", "しょうせん"],
-    book: { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの**{接戦|せっせん}**が{繰|く}り{広|ひろ}げられた。", en: "In yesterday's marathon, a close race unfolded right to the end, with the runners overtaking and being overtaken by each other.", at: "gp/88" },
+    book: { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの**{接戦|せっせん}**が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners passing and being passed by each other.", at: "gp/88" },
     ex: [
       { ja: "{選挙|せんきょ}は**{接戦|せっせん}**となり、{結果|けっか}が{出|で}たのは{深夜|しんや}だった。", en: "The election turned into a close race, and the result didn't come out until late at night.", alt: ["{接近|せっきん}", "{接待|せったい}", "{作戦|さくせん}"] },
     ] },
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "attendant, companion; accompanying (a superior)",
     note: "Humble: 社長のお供をする (accompany the president). Historically the retinue of a lord. Also playful: ビールのお供 (a snack to go with beer). 同行 is the neutral business word.",
     rx: ["おきょう", "おども", "おぐ"],
-    book: { ja: "昔、地位の高い人が亡くなると、**お{供|とも}**の人を{墓|はか}の周りに生きながら{埋|う}めるという習慣があったそうだ。", en: "In the old days, it is said, when a person of high rank died, there was a custom of burying their attendants alive around the tomb.", at: "gp/92" },
+    book: { ja: "昔、地位の高い人が亡くなると、**お{供|とも}**の人を{墓|はか}の周りに生きながら{埋|う}めるという習慣があったそうだ。", en: "It is said that in the old days, when a person of high rank died, it was the custom to bury their attendants alive around the tomb.", at: "gp/92" },
     ex: [
       { ja: "{部長|ぶちょう}の{出張|しゅっちょう}に**お{供|とも}**することになった。", en: "I'm going to accompany the department manager on a business trip.", alt: ["お{世話|せわ}", "お{見合|みあ}い", "お{見舞|みま}い"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "accusation, (criminal) complaint; exposure, whistleblowing",
     note: "内部告発 (whistleblowing from inside an organization), 不正を告発する, 告発状. Legally, 告訴 is a complaint by the victim, while 告発 is by a third party.",
     rx: ["こくほつ", "こうはつ", "こくばつ"],
-    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "I blew the whistle simply because I was following my own conscience. That's all.", at: "gp/93" },
+    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "In blowing the whistle, I was simply following my own conscience.", at: "gp/93" },
     ex: [
       { ja: "{社員|しゃいん}の{内部|ないぶ}**{告発|こくはつ}**によって、{会社|かいしゃ}の{不正|ふせい}が{明|あき}らかになった。", en: "The company's wrongdoing came to light through an employee blowing the whistle.", alt: ["{告白|こくはく}", "{発表|はっぴょう}", "{開発|かいはつ}"] },
     ] },
@@ -178,9 +178,9 @@ TRY.registerVocab({ ch: 8, words: [
     en: "conscience",
     note: "良心が痛む／とがめる (one's conscience pricks), 良心的な店 (an honest, fairly priced shop). Same sound as 両親 (parents) — context tells them apart.",
     rx: ["りょうじん", "よしん", "りょしん"],
-    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "I blew the whistle simply because I was following my own conscience. That's all.", at: "gp/93" },
+    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "In blowing the whistle, I was simply following my own conscience.", at: "gp/93" },
     ex: [
-      { ja: "{嘘|うそ}をついて{友達|ともだち}を{困|こま}らせ、**{良心|りょうしん}**が{痛|いた}んだ。", en: "I lied and caused my friend trouble, and my conscience hurt.", alt: ["{両親|りょうしん}", "{本心|ほんしん}", "{安心|あんしん}"] },
+      { ja: "{嘘|うそ}をついて{友達|ともだち}を{困|こま}らせ、**{良心|りょうしん}**が{痛|いた}んだ。", en: "I lied and got my friend into trouble, and my conscience bothered me.", alt: ["{両親|りょうしん}", "{本心|ほんしん}", "{安心|あんしん}"] },
     ] },
   { w: "{激流|げきりゅう}", lv: "N1", pos: "noun",
     en: "rapids, raging current, torrent",
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "repeated, successive (of misfortunes, failures)",
     note: "Mostly before a noun: 度重なる失敗, 度重なる不祥事, 度重なる警告. Written style. 相次ぐ is similar (one after another) and common in news.",
     rx: ["どかさなる", "たびがさなる", "とじゅうなる"],
-    book: { ja: "**{度重|たびかさ}なる**{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "In spite of repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
+    book: { ja: "**{度重|たびかさ}なる**{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Undaunted by repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
     ex: [
       { ja: "**{度重|たびかさ}なる**{遅刻|ちこく}で、{彼|かれ}は{上司|じょうし}に{厳|きび}しく{注意|ちゅうい}された。", en: "Because of his repeated lateness, he was sternly warned by his boss.", alt: ["{積|つ}み{重|かさ}ねる", "{重|おも}んじる", "{折|お}り{重|かさ}なった"] },
     ] },
@@ -202,7 +202,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "return (home, to base, from space or war)",
     note: "Formal, for a return after a dangerous or long mission: 地球に帰還する, 無事帰還, 宇宙飛行士の帰還. 帰国 is returning to one's country; 帰宅 is getting home.",
     rx: ["きがん", "きかい", "かえかん"],
-    book: { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に**{帰還|きかん}**した。", en: "In spite of repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
+    book: { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に**{帰還|きかん}**した。", en: "Undaunted by repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
     ex: [
       { ja: "{宇宙飛行士|うちゅうひこうし}たちは、{半年|はんとし}ぶりに{地球|ちきゅう}へ**{帰還|きかん}**した。", en: "The astronauts returned to Earth after half a year away.", alt: ["{返還|へんかん}", "{帰省|きせい}", "{還元|かんげん}"] },
     ] },
@@ -210,7 +210,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "rough seas, stormy waves; hardships (of life, society)",
     note: "Literal and figurative: 荒波にもまれる (be tossed about by hardship), 社会の荒波 (the harsh realities of the working world).",
     rx: ["こうなみ", "あれなみ", "あらば"],
-    book: { ja: "**{荒波|あらなみ}**をものともせず、ヨットは力強く進んでいった。", en: "Braving the rough waves, the yacht pressed powerfully onward.", at: "gp/94" },
+    book: { ja: "**{荒波|あらなみ}**をものともせず、ヨットは力強く進んでいった。", en: "Braving the rough waves, the yacht pushed boldly onward.", at: "gp/94" },
     ex: [
       { ja: "{新入社員|しんにゅうしゃいん}は、{社会|しゃかい}の**{荒波|あらなみ}**にもまれて{成長|せいちょう}していく。", en: "New employees grow as they are tossed about by the harsh realities of the working world.", alt: ["{波長|はちょう}", "{電波|でんぱ}", "{荒野|こうや}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "self-sufficiency, living off what one produces",
     note: "自給自足の生活 (a self-sufficient life), エネルギーを自給自足する. A yojijukugo; 自給率 is the self-sufficiency rate.",
     rx: ["じっきゅうじそく", "じきゅうじぞく", "じきゅじそく"],
-    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear that Tanaka, a potter, grows vegetables at home alongside making pottery and lives self-sufficiently.", at: "gp/95" },
+    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear the potter Tanaka grows vegetables at home alongside making pottery, living self-sufficiently.", at: "gp/95" },
     ex: [
       { ja: "{山奥|やまおく}に{移|うつ}り{住|す}み、**{自給自足|じきゅうじそく}**に{近|ちか}い{暮|く}らしを{送|おく}っている。", en: "I moved deep into the mountains and live a nearly self-sufficient life.", alt: ["{自業自得|じごうじとく}", "{自画自賛|じがじさん}", "{自問自答|じもんじとう}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 8, words: [
     note: "Written: 〜にまつわる話／伝説 (stories surrounding …). Similar to 〜に関する but suggests stories, lore or episodes rather than facts. Also written 纏わる.",
     book: { ja: "{西山|にしやま}さんは{各国|かっこく}の食文化を調査する＿＿、食に**まつわる**エッセーも{執筆|しっぴつ}されています。", en: "＿＿ researching the food cultures of various countries, Nishiyama also writes essays about food.", at: "ch/8" },
     ex: [
-      { ja: "この{城|しろ}には、{悲|かな}しい{恋|こい}に**まつわる**{伝説|でんせつ}が{残|のこ}っている。", en: "A legend about a tragic love affair is handed down at this castle.", alt: ["さわる", "こだわる", "いたわる"] },
+      { ja: "この{城|しろ}には、{悲|かな}しい{恋|こい}に**まつわる**{伝説|でんせつ}が{残|のこ}っている。", en: "This castle has a legend about a tragic love affair.", alt: ["さわる", "こだわる", "いたわる"] },
     ] },
   { w: "{執筆|しっぴつ}", lv: "N1", pos: "noun · する verb",
     en: "writing (a book, article, manuscript)",
@@ -353,7 +353,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "left and right; to influence, control, decide (an outcome)",
     note: "As a verb it means to sway or determine: 運命を左右する, 天候に左右される (depend on the weather). 影響する is to affect; 左右する is stronger — to be decisive for.",
     rx: ["さう", "ざゆう", "さよう"],
-    book: { ja: "しかし、自分が戦いの結果を**{左右|さゆう}**したことは覚えているまい。", en: "But he surely would not remember that it was he who had decided the outcome of the battle.", at: "ch/8" },
+    book: { ja: "しかし、自分が戦いの結果を**{左右|さゆう}**したことは覚えているまい。", en: "But he probably would not remember that it was he who had decided the outcome of the battle.", at: "ch/8" },
     ex: [
       { ja: "{第一印象|だいいちいんしょう}が{面接|めんせつ}の{結果|けっか}を**{左右|さゆう}**することもある。", en: "First impressions can sometimes decide the outcome of an interview.", alt: ["{左折|させつ}", "{相談|そうだん}", "{上下|じょうげ}"] },
     ] },
@@ -385,14 +385,14 @@ TRY.registerVocab({ ch: 8, words: [
     en: "a heartwarming or admirable story; a story of a good deed",
     note: "A story of someone's good deed, usually told with approval: 美談として語られる (be told as an inspiring story). 美談に仕立てる (dress something up as a feel-good story) hints that the story has been idealized.",
     rx: ["みだん", "びたん", "びだい"],
-    book: { ja: "歴史上の人物の{生涯|しょうがい}には、とかく{作|つく}り{話|ばなし}めいた**{美談|びだん}**が存在しているものだ。", en: "The lives of historical figures tend to come with admirable anecdotes that have the ring of fabrication.", at: "gp/96" },
+    book: { ja: "歴史上の人物の{生涯|しょうがい}には、とかく{作|つく}り{話|ばなし}めいた**{美談|びだん}**が存在しているものだ。", en: "The lives of historical figures tend to come with inspiring anecdotes that sound made up.", at: "gp/96" },
     ex: [
       { ja: "{落|お}とし{物|もの}を{届|とど}けた{少年|しょうねん}の**{美談|びだん}**が{新聞|しんぶん}に{載|の}った。", en: "The heartwarming story of a boy who turned in a lost item appeared in the paper.", alt: ["{冗談|じょうだん}", "{美容|びよう}", "{相談|そうだん}"] },
     ] },
   { w: "とかく", lv: "N1", pos: "adverb",
     en: "apt to, tend to (usually of undesirable tendencies); one way or another",
     note: "Written: 人はとかく他人の欠点が目につく (people tend to notice others' faults), とかくのうわさがある (there are all sorts of rumors). Similar to ともすると／ややもすると; つい describes a single slip.",
-    book: { ja: "歴史上の人物の{生涯|しょうがい}には、**とかく**{作|つく}り{話|ばなし}めいた{美談|びだん}が存在しているものだ。", en: "The lives of historical figures tend to come with admirable anecdotes that have the ring of fabrication.", at: "gp/96" },
+    book: { ja: "歴史上の人物の{生涯|しょうがい}には、**とかく**{作|つく}り{話|ばなし}めいた{美談|びだん}が存在しているものだ。", en: "The lives of historical figures tend to come with inspiring anecdotes that sound made up.", at: "gp/96" },
     ex: [
       { ja: "{忙|いそが}しいと、{食事|しょくじ}は**とかく**{簡単|かんたん}に{済|す}ませがちだ。", en: "When you're busy, you tend to make do with quick meals.", alt: ["せめて", "あえて", "かえって"] },
     ] },
@@ -480,7 +480,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "brilliant, glorious, spectacular",
     note: "華々しい活躍 (a brilliant career), 華々しいデビュー, 華々しく登場する. Emphasizes being showy and eye-catching. 華やか (ch1) is gorgeous or glamorous in appearance or atmosphere.",
     rx: ["かかしい", "はなはなしい", "はでばでしい"],
-    book: { ja: "スターとして**{華々|はなばな}しく**{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow.", at: "gp/101" },
+    book: { ja: "スターとして**{華々|はなばな}しく**{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Throughout her glittering career as a star, her mother was always at her side, sticking close like a shadow.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{新人|しんじん}ながら、**{華々|はなばな}しい**デビューを{飾|かざ}った。", en: "Though a newcomer, he made a spectacular debut.", alt: ["{騒々|そうぞう}しい", "{痛々|いたいた}しい", "{図々|ずうずう}しい"] },
     ] },
@@ -488,7 +488,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to snuggle up to, stay close to; to be there for (someone), stand by",
     note: "Physically: 寄り添って歩く. Figuratively and very common today: 被災者に寄り添う (stand by disaster victims), 患者の気持ちに寄り添う (empathize with patients).",
     rx: ["よりぞう", "きりそう", "よりすう"],
-    book: { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく**{寄|よ}り{添|そ}う**母の{姿|すがた}があった。", en: "Beside her, as she enjoyed a glittering career as a star, there was always her mother, sticking close to her like a shadow.", at: "gp/101" },
+    book: { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく**{寄|よ}り{添|そ}う**母の{姿|すがた}があった。", en: "Throughout her glittering career as a star, her mother was always at her side, sticking close like a shadow.", at: "gp/101" },
     ex: [
       { ja: "{看護師|かんごし}は{患者|かんじゃ}の{気持|きも}ちに**{寄|よ}り{添|そ}う**ことが{大切|たいせつ}だ。", en: "It's important for nurses to be attuned to their patients' feelings.", alt: ["{付|つ}き{添|そ}う", "{寄|よ}り{道|みち}する", "{立|た}ち{寄|よ}る"] },
     ] },
@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "belief, conviction, principle",
     note: "信念を貫く (stick to one's convictions), 信念を持つ, 固い信念. 信仰 is religious faith; 信頼 is trust in someone.",
     rx: ["しんねい", "しんれん", "しねん"],
-    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on developing new drugs with iron conviction.", at: "gp/101" },
+    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on developing new drugs with a conviction as firm as iron.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
@@ -760,7 +760,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["せいこ", "しょうこう", "せいごう"],
     book: { ja: "これだけ**{精巧|せいこう}**にできていると、", en: "When something is made this elaborately,", at: "ch/8/review" },
     ex: [
-      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills so elaborate they can't be told from the real thing were found.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{精算|せいさん}"] },
+      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills so finely made they can't be told from the real thing were found.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{精算|せいさん}"] },
     ] },
   { w: "{見通|みとお}し", lv: "N1", pos: "noun",
     en: "outlook, prospects, forecast; visibility; insight (into)",
@@ -776,7 +776,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["はだをくくる", "ふくをくくる", "はらをぐくる"],
     book: { ja: "{俺|おれ}は、**腹をくくった**。", en: "I steeled myself.", at: "ch/8/review" },
     ex: [
-      { ja: "{失敗|しっぱい}しても{構|かま}わないと**{腹|はら}をくくって**、{社長|しゃちょう}に{意見|いけん}を{言|い}った。", en: "I made up my mind that it didn't matter if I failed and gave the president my opinion.", alt: ["{腹|はら}を{立|た}てて", "{腹|はら}を{壊|こわ}して", "{腹|はら}を{抱|かか}えて"] },
+      { ja: "{失敗|しっぱい}しても{構|かま}わないと**{腹|はら}をくくって**、{社長|しゃちょう}に{意見|いけん}を{言|い}った。", en: "Ready to accept failure if it came to that, I steeled myself and gave the president my opinion.", alt: ["{腹|はら}を{立|た}てて", "{腹|はら}を{壊|こわ}して", "{腹|はら}を{抱|かか}えて"] },
     ] },
   { w: "なめる", lv: "N1", pos: "verb (transitive)",
     en: "to underestimate, look down on, not take seriously; to lick",
