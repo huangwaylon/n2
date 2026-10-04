@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["やくかつ", "えきわり", "やくわれ"],
     book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a part in keeping herbivores such as deer from multiplying too much, and so in protecting the balance of nature.", at: "ch/7" },
     ex: [
-      { ja: "{家庭|かてい}での{父親|ちちおや}の**{役割|やくわり}**は、{昔|むかし}とはずいぶん{変|か}わった。", en: "The father's role in the home has changed a lot from the past.", alt: ["{割合|わりあい}", "{役所|やくしょ}", "{割引|わりびき}"] },
+      { ja: "{家庭|かてい}での{父親|ちちおや}の**{役割|やくわり}**は、{昔|むかし}とはずいぶん{変|か}わった。", en: "The father's role in the home has changed a lot since the old days.", alt: ["{割合|わりあい}", "{役所|やくしょ}", "{割引|わりびき}"] },
     ] },
   { w: "{視点|してん}", lv: "N1", pos: "noun",
     en: "point of view; perspective; viewpoint",
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "careful; cautious; prudent",
     note: "Thinking things through before acting: 慎重に検討する, 慎重な態度. The opposite is 軽率 (rash). 丁寧 is care in manner or workmanship rather than caution.",
     rx: ["しんじゅう", "ちんちょう", "しんちょ"],
-    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "Through continued, careful exchanges of views, people will probably work to keep nature in balance.", at: "ch/7" },
+    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "People will probably go on exchanging views carefully as they work to keep nature in balance.", at: "ch/7" },
     ex: [
       { ja: "{大切|たいせつ}な{契約|けいやく}なので、**{慎重|しんちょう}**に{内容|ないよう}を{確認|かくにん}してください。", en: "It's an important contract, so please check its contents carefully.", alt: ["{貴重|きちょう}", "{尊重|そんちょう}", "{重大|じゅうだい}"] },
     ] },
@@ -475,7 +475,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "reduction; cut (in costs, staff, emissions)",
     note: "A deliberate cut, so it is transitive: 経費 / 人員 / CO2を削減する, 人件費削減. 減少 is intransitive (the number goes down on its own). 削除 means deleting text or data.",
     rx: ["しょうげん", "さっげん", "さくけん"],
-    book: { ja: "{手作|てづく}りにこだわってきた{店主|てんしゅ}の{意|い}に{反|はん}することだが、{人件費|じんけんひ}**{削減|さくげん}**のため、{機械化|きかいか}せざるを{得|え}ない{状況|じょうきょう}になってきた。", en: "It goes against the wishes of the owner, who has always insisted on handmade products, but to cut labor costs, it has come to the point where there is no choice but to mechanize.", at: "gp/67" },
+    book: { ja: "{手作|てづく}りにこだわってきた{店主|てんしゅ}の{意|い}に{反|はん}することだが、{人件費|じんけんひ}**{削減|さくげん}**のため、{機械化|きかいか}せざるを{得|え}ない{状況|じょうきょう}になってきた。", en: "It goes against the wishes of the owner, who has always insisted on making things by hand, but to cut labor costs, the shop has reached the point where it has no choice but to mechanize.", at: "gp/67" },
     ex: [
       { ja: "{会社|かいしゃ}は{残業|ざんぎょう}を**{削減|さくげん}**するため、{新|あたら}しいルールを{作|つく}った。", en: "The company made new rules to cut overtime.", alt: ["{減少|げんしょう}", "{削除|さくじょ}", "{加減|かげん}"] },
     ] },
@@ -507,7 +507,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "meticulous; utmost (care)",
     note: "Almost always 細心の注意を払う (pay the closest attention), a formal set phrase. Don't confuse it with the homophone 最新 (latest).",
     rx: ["ほそしん", "さいじん", "せいしん"],
-    book: { ja: "{危険物|きけんぶつ}の{取|と}り{扱|あつか}いに{関|かん}しては**{細心|さいしん}**の注意を{払|はら}う{必要|ひつよう}がある。", en: "When it comes to handling hazardous materials, you need to pay the utmost attention.", at: "gp/68" },
+    book: { ja: "{危険物|きけんぶつ}の{取|と}り{扱|あつか}いに{関|かん}しては**{細心|さいしん}**の注意を{払|はら}う{必要|ひつよう}がある。", en: "When it comes to handling hazardous materials, you need to take the utmost care.", at: "gp/68" },
     ex: [
       { ja: "{手術|しゅじゅつ}は**{細心|さいしん}**の{注意|ちゅうい}を{払|はら}って{行|おこな}われた。", en: "The surgery was performed with the utmost care.", alt: ["{最新|さいしん}", "{細工|さいく}", "{中心|ちゅうしん}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "operation (of a machine or device); manipulation",
     note: "パソコン / スマホの操作, 操作が簡単, 遠隔操作 (remote control). Negative sense: 情報操作 (manipulating information). Driving a vehicle is 運転, and 捜査 (a police investigation) is a homophone.",
     rx: ["そうさく", "しょうさ", "そさ"],
-    book: { ja: "IT{機器|きき}は{多機能化|たきのうか}が進んで、便利な{反面|はんめん}、**{操作|そうさ}**が{複雑|ふくざつ}すぎて使いこなせない人が増えている。", en: "IT devices have become more and more multifunctional; while this is convenient, a growing number of people can't make full use of them because operating them is too complicated.", at: "gp/69" },
+    book: { ja: "IT{機器|きき}は{多機能化|たきのうか}が進んで、便利な{反面|はんめん}、**{操作|そうさ}**が{複雑|ふくざつ}すぎて使いこなせない人が増えている。", en: "As IT devices pack in more and more functions, they've become convenient, but on the other hand, more and more people find them too complicated to use fully.", at: "gp/69" },
     ex: [
       { ja: "この{機械|きかい}は**{操作|そうさ}**が{簡単|かんたん}なので、{初心者|しょしんしゃ}でもすぐ{使|つか}える。", en: "This machine is simple to operate, so even beginners can use it right away.", alt: ["{捜査|そうさ}", "{作戦|さくせん}", "{体操|たいそう}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "longevity; long life",
     note: "長寿国, 長寿を祝う, and 長寿番組 (a long-running TV show). The everyday word is 長生き. 寿命 is lifespan.",
     rx: ["ちょうじゅう", "ながじゅ", "ちょうず"],
-    book: { ja: "国民の**{長寿|ちょうじゅ}**は{喜|よろこ}ばしい{反面|はんめん}、国の{財政負担|ざいせいふたん}が増えるという問題もある。", en: "The longevity of the population is something to be happy about, but it also brings the problem of an increased financial burden on the state.", at: "gp/69" },
+    book: { ja: "国民の**{長寿|ちょうじゅ}**は{喜|よろこ}ばしい{反面|はんめん}、国の{財政負担|ざいせいふたん}が増えるという問題もある。", en: "People living longer is a welcome thing, but on the other hand it also creates the problem of a heavier financial burden on the state.", at: "gp/69" },
     ex: [
       { ja: "{沖縄|おきなわ}は**{長寿|ちょうじゅ}**の{人|ひと}が{多|おお}いことで{知|し}られている。", en: "Okinawa is known for having many long-lived people.", alt: ["{長所|ちょうしょ}", "{長男|ちょうなん}", "{寿命|じゅみょう}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily growing, a sense of coexistence is more and more necessary.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly on the move on a global scale, a spirit of coexistence is more necessary than ever.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily growing, a sense of coexistence is more and more necessary.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly on the move on a global scale, a spirit of coexistence is more necessary than ever.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
