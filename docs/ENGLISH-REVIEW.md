@@ -36,6 +36,7 @@ Round 2 (critical cross-review, `/tmp/eng-brief2.md`), regrouped:
 | Q2 L10–12, challenge, front | done (48 strings incl. 8 vocab) |
 | N2 audit (round 3: consistency + sample) | running |
 | Q1 audit (round 3: notes consistency + sample) | done (55 notes: 12 strings incl. からして deepDive; sample 3/83 = 3.6%; no further full pass) |
-| N1 audit (round 3: consistency + sample) | running |
+| N1 audit (round 3: consistency + sample) | done (123 points: 17 strings, mostly usage glosses; sample 5/80 = 6%; no further full pass) |
 | vocab-check: quotes from exercises compared | done (13 drifted copies fixed) |
 | Q2 audit (round 3: notes, gender/names, sample) | running |
+| N2+N1 exercise options / questionEn | running |
