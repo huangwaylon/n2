@@ -454,12 +454,12 @@ TRY.registerChapter({
           usage: { ja: "「〜めく」は「だんだん春めいてきた」のように「〜（春）と感じられる部分がある」ときに使われる。「完全に〜（春）」であるときには使わない。", en: "\"〜めく\" is used when something has aspects that make it feel like ~ (e.g. spring), as in だんだん春めいてきた (\"it has gradually started to feel like spring\"). It is not used when something is completely ~ (spring)." },
           forms: ["[N₁] + めく", "[N₁] + めいた + [N₂]"],
           examples: [
-            { ja: "風も涼しくなり、{徐々|じょじょ}に秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and there is a growing feel of autumn in the air. How have you been keeping?" },
+            { ja: "風も涼しくなり、{徐々|じょじょ}に秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and there is a growing feel of autumn in the air. I hope this finds you well." },
             { ja: "{冗談|じょうだん}めいた{口調|くちょう}だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, \"In ten years I might be running this company,\" his eyes were deadly serious." },
             { ja: "彼は上司のせいで苦労したが、非難めいたことは{一言|ひとこと}も言わず、{黙々|もくもく}と働いていた。", en: "He had a hard time because of his boss, but he never said a single word that sounded like criticism and just kept working in silence." },
             { ja: "歴史上の人物の{生涯|しょうがい}には、とかく{作|つく}り{話|ばなし}めいた{美談|びだん}が存在しているものだ。", en: "The lives of historical figures tend to come with inspiring anecdotes that sound made up." },
           ],
-          deepDive: "**Nめく** turns a noun into a Group 1 verb meaning *to take on the air of N, to seem like N*. The thing is not fully N; part of it makes you feel N, and if it really is N, めく isn't used: 春めいてきた (*it's starting to feel like spring*), 謎めいた言葉 (*cryptic words*). As a predicate it usually appears as めいてくる／めいてまいりました (a set phrase in letters); before a noun it takes the た-form: 冗談めいた口調 (*a half-joking tone*), 非難めいたこと (*anything that sounds like criticism*). The nouns are limited: seasons (春, 秋), 謎, 秘密, 冗談, 皮肉, 言い訳, 脅迫, 説教, 作り話.\n\nCompare:\n- **〜らしい** (男らしい *manly*): having the typical qualities of N, often praise; めく is only an impression.\n- **〜っぽい**: casual (子どもっぽい *childish*).\n- **〜じみる** (子どもじみた): clearly negative.\n- **〜気味**: a slight tendency, mostly unwelcome (風邪気味 *a touch of a cold*).\n\nPitfall: ✗謎めく言葉; before a noun, use めいた.\n\nJLPT cue: a noun + blank + another noun (説教＿＿話 *a lecture-like talk*).",
+          deepDive: "**Nめく** turns a noun into a Group 1 verb meaning *to take on the air of N, to seem like N*. The thing is not fully N; part of it makes you feel N, and if it really is N, めく isn't used: 春めいてきた (*it's starting to feel like spring*), 謎めいた言葉 (*cryptic words*). As a predicate it usually appears as めいてくる／めいてまいりました (a set phrase in letters); before a noun it takes the た-form: 冗談めいた口調 (*a half-joking tone*), 非難めいたこと (*anything that sounds like criticism*). The nouns are limited: seasons (春, 秋), 謎, 秘密, 冗談, 皮肉, 言い訳, 脅迫, 説教, 作り話.\n\nCompare:\n- **〜らしい** (男らしい *manly*): having the typical qualities of N, often praise; めく is only an impression.\n- **〜っぽい**: casual (子どもっぽい *childish*).\n- **〜じみる** (子どもじみた): clearly negative.\n- **〜気味**: a slight tendency, mostly unwelcome (風邪気味 *a touch of a cold*).\n\nPitfall: ?謎めく言葉; before a noun, use めいた.\n\nJLPT cue: a noun + blank + another noun (説教＿＿話 *a lecture-like talk*).",
           see: [],
           index: ["Nめく", "N₁めいたN₂"],
           practice: [
@@ -543,7 +543,7 @@ TRY.registerChapter({
             { ja: "あいつごときが何を言ってきたって、私たちがついているから、恐れる必要はないよ。", en: "Whatever the likes of that guy says to you, we're behind you, so there's no need to be afraid." },
             { ja: "{私|わたくし}ごときにこのような発表の機会をいただき、本当にありがとうございます。", en: "Thank you very much for giving someone like me such an opportunity to present." },
           ],
-          deepDive: "**Nごとき** = *the likes of N, a mere N*: the speaker looks down on N (≈ 〜なんか): 不況ごときに負けないで頑張ろう (*let's not be beaten by a mere recession*), あいつごときが (*someone like that*). Used about oneself, 私（わたくし）ごとき is humble and leads to thanks or a disclaimer (私ごときにこのような機会をいただき… *giving someone like me such a chance…*). It comes from classical ごとし (*like*), but without の it belittles.\n\nごとき behaves like a noun and takes particles (ごときに, ごときが, ごときで), and たかが often precedes it (たかが風邪ごときで *over a mere cold*). The rest of the sentence must fit the belittling: N doesn't deserve fear, fuss or cost.\n\nCompare:\n- **〜なんか／〜なんて**: the everyday equivalent.\n- **〜くらいで**: minimizes, less contemptuous (風邪くらいで休むな *don't stay home over a little cold*).\n- **Nのごとく** #101: with の it is a simile with no contempt (鉄のごとき信念 *an iron will*).\n\nPitfall: ごとき about someone you respect is an insult (✗社長ごときが…).\n\nJLPT cue: after ごとき, choose the option that treats N as trivial; after 私ごとき, the humble, grateful one.",
+          deepDive: "**Nごとき** = *the likes of N, a mere N*: the speaker looks down on N (≈ 〜なんか): 不況ごときに負けないで頑張ろう (*let's not be beaten by a mere recession*), あいつごときが (*someone like that*). Used about oneself, 私（わたくし）ごとき is humble and leads to thanks or a disclaimer (私ごときにこのような機会をいただき… *giving someone like me such a chance…*). It comes from classical ごとし (*like*), but without の it belittles.\n\nごとき behaves like a noun and takes particles (ごときに, ごときが, ごときで), and たかが often precedes it (たかが風邪ごときで *over a mere cold*). The rest of the sentence must fit the belittling: N doesn't deserve fear, fuss or cost.\n\nCompare:\n- **〜なんか／〜なんて**: the everyday equivalent.\n- **〜くらいで**: minimizes, less contemptuous (風邪くらいで休むな *don't stay home over a little cold*).\n- **Nのごとく** #101: with の it is a simile with no contempt (鉄のごとき信念 *an iron will*).\n\nPitfall: ごとき about someone you respect is an insult: 社長ごときが… sneers at the president.\n\nJLPT cue: after ごとき, choose the option that treats N as trivial; after 私ごとき, the humble, grateful one.",
           see: [101],
           index: ["Nごとき"],
           practice: [
@@ -648,7 +648,7 @@ TRY.registerChapter({
             { ja: "＊「する」は「せんがため」になる。", en: "する becomes せんがため." },
           ],
           examples: [
-            { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger." },
+            { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "Determined to protect the lives of the nation's people, he deliberately took on a mission fraught with danger." },
             { ja: "売らんがためとはいえ、安全性を{無視|むし}して価格を下げるやり方は問題だ。", en: "Even if the whole point is to sell, cutting prices with no regard for safety is the wrong way to go about it." },
             { ja: "全宇宙を{征服|せいふく}せんがため、彼は{大|だい}宇宙{船団|せんだん}を{率|ひき}いて飛び立った。", en: "Bent on conquering the entire universe, he took off at the head of a great space fleet." },
             { ja: "「うそも{方便|ほうべん}」と言うが、人を救わんがためのうそは許されると、私は思う。", en: "As the saying goes, a lie can serve a purpose, and I think a lie told in order to save someone can be forgiven." },
@@ -672,7 +672,7 @@ TRY.registerChapter({
             { ja: "スターとして{華々|はなばな}しく{活躍|かつやく}する彼女のそばには、いつも{影|かげ}のごとく{寄|よ}り{添|そ}う母の{姿|すがた}があった。", en: "Throughout her glittering career as a star, her mother was always at her side, sticking close like a shadow." },
             { ja: "宝くじで{大金|たいきん}を手に入れたが、{湯水|ゆみず}のごとく使い続け、1年後には元の{貧乏|びんぼう}生活に戻ってしまった。", en: "After winning a fortune in the lottery, they spent money like water, and a year later they were back to their old life of poverty." },
             { ja: "兄弟に残された{遺書|いしょ}には次のごとく{記|しる}されていた。", en: "The farewell letter left to the brothers read as follows." },
-            { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with iron conviction." },
+            { ja: "{北里|きたざと}{氏|し}は鉄のごとき{信念|しんねん}をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with a conviction as firm as iron." },
             { ja: "A：日本へ来てから何年経ったっけ。\nB：もう5年だよ。{光陰|こういん}{矢|や}のごとしだね。", en: "A: How many years has it been since you came to Japan?\nB: Five years already. Time flies like an arrow, doesn't it?", idiom: true },
           ],
           notes: [
@@ -699,7 +699,7 @@ TRY.registerChapter({
               left: ["彼女は昨年{彗星|すいせい}のごとく現れ、", "{老|お}いて{後|のち}も健康に暮らし、{安|やす}らかに眠るがごとく", "その黒い{人影|ひとかげ}は猫のごとく", "{騒|さわ}ぎの後、人々は{何事|なにごと}もなかったかのごとく"],
               right: ["一生を終えることこそ、幸福だと言えよう。", "わずか1年で世界中の多くのファンを{魅了|みりょう}する大スターとなった。", "{平然|へいぜん}と食事を続けた。", "{足音|あしおと}も立てずに{塀|へい}を{越|こ}えて{闇|やみ}の中に消えていった。"],
               answer: [1, 0, 3, 2],
-              en: ["She appeared like a comet last year and, in just one year, became a huge star who captivates fans all over the world.", "Staying healthy even in old age and ending one's life as peacefully as falling asleep: that, surely, is what happiness is.", "Like a cat, the dark figure went over the wall without making a footstep and vanished into the darkness.", "After the commotion, people went on eating calmly as if nothing had happened."],
+              en: ["She appeared like a comet last year and, in just one year, became a huge star who captivates fans all over the world.", "Staying healthy even in old age and ending one's life as peacefully as falling asleep: that, surely, is what happiness is.", "Like a cat, the dark figure slipped over the wall without a sound and vanished into the darkness.", "After the commotion, people went on eating calmly as if nothing had happened."],
             },
           ],
         },
@@ -737,7 +737,7 @@ TRY.registerChapter({
             { ja: "卒業試験のことは、考えるだに気が重くなる。", en: "Just thinking about the graduation exam fills me with dread." },
             { ja: "その{山寺|やまでら}は見るだに{不気味|ぶきみ}な{雰囲気|ふんいき}に包まれていた。", en: "The mountain temple was shrouded in an atmosphere that was eerie just to look at." },
           ],
-          deepDive: "**V-るだに** = *just ~ing is enough (to feel …), even to ~*. だに is a classical particle close to さえ／だけでも: 考えるだに恐ろしい = 考えるだけでも恐ろしい (*it's frightening even to think about*). You don't need to experience the thing; merely imagining, hearing or seeing it produces the feeling. The verbs are verbs of thinking or perceiving — 考える, 想像する, 思い出す, 聞く, 見る, 口にする — and they stay in the dictionary form even in a past narrative. The second half is a negative feeling or unease: 恐ろしい, つらい, 気が重くなる, 不気味だ.\n\nIt is literary and stiff; in speech, 〜だけで（も） is normal.\n\nCompare:\n- **Nだにしない** #104: the same particle after a noun, with a negated verb (想像だにしなかった *never even imagined*).\n- **Nすら** #25: *even N*, free with any noun and any sentence.\n- **〜だけで（も）**: the neutral version, fine with positive feelings.\n\nPitfall: positive feelings don't fit (✗考えるだに楽しい → 考えるだけで楽しい).\n\nJLPT cue: 考える／想像する／聞く + blank + 恐ろしい.",
+          deepDive: "**V-るだに** = *just ~ing is enough (to feel …), even to ~*. だに is a classical particle close to さえ／だけでも: 考えるだに恐ろしい = 考えるだけでも恐ろしい (*it's frightening even to think about*). You don't need to experience the thing; merely imagining, hearing or seeing it produces the feeling. The verbs are verbs of thinking or perceiving — 考える, 想像する, 思い出す, 聞く, 見る, 口にする — and they stay in the dictionary form even in a past narrative. The second half is a negative feeling or unease: 恐ろしい, つらい, 気が重くなる, 不気味だ.\n\nIt is literary and stiff; in speech, 〜だけで（も） is normal.\n\nCompare:\n- **Nだにしない** #104: the same particle after a noun, with a negated verb (想像だにしなかった *never even imagined*).\n- **Nすら** #25: *even N*, free with any noun and any sentence.\n- **〜だけで（も）**: the neutral version, fine with positive feelings.\n\nPitfall: positive feelings don't fit (?考えるだに楽しい → 考えるだけで楽しい).\n\nJLPT cue: 考える／想像する／聞く + blank + 恐ろしい.",
           see: [104, 25],
           index: ["Vだに", "考えるだに恐ろしい", "想像するだに恐ろしい"],
         },
@@ -847,7 +847,7 @@ TRY.registerChapter({
                   q: "{長年|ながねん}通ったこの学校とも今日を限りにお別れです。",
                   options: ["明日も学校へ行く。", "明日からは学校へ行かない。"],
                   answer: 1,
-                  en: "Today is the day I say goodbye to this school I've attended for so many years.",
+                  en: "As of today, I say goodbye to this school I've attended for so many years.",
                   why: { en: "今日を限りに = today is the last day, so from tomorrow I won't go to the school. Today itself is still included." },
                 },
                 {
@@ -937,7 +937,7 @@ TRY.registerChapter({
             q: "熱心に{講義|こうぎ}を続ける教授の耳に、（　）からともなく静かな{寝息|ねいき}が聞こえてきた。",
             options: ["後ろ", "何", "外", "どこ"],
             answer: 3,
-            en: "The professor was lecturing away enthusiastically when, from somewhere or other, the soft breathing of someone asleep reached the professor's ears.",
+            en: "The professor was lecturing away enthusiastically when, from somewhere or other, came the soft breathing of someone fast asleep.",
             why: { en: "どこからともなく = from somewhere or other (the source is unclear), a fixed question-word + ともなく phrase. 何からともなく is not idiomatic, and 後ろ or 外 are not question words, so they can't form this expression." },
           },
           {

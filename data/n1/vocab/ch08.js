@@ -361,7 +361,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "gradually, little by little, step by step",
     note: "A bit formal: 徐々に回復する, 徐々に慣れる. だんだん and 少しずつ are everyday equivalents. Often in letters and speeches.",
     rx: ["じょうじょうに", "しょしょに", "じょうじょに"],
-    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and there is a growing feel of autumn in the air. How have you been keeping?", at: "gp/96" },
+    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and there is a growing feel of autumn in the air. I hope this finds you well.", at: "gp/96" },
     ex: [
       { ja: "{手術|しゅじゅつ}の{後|あと}、{父|ちち}の{体力|たいりょく}は**{徐々|じょじょ}に**{回復|かいふく}している。", en: "Since the operation, my father's strength has been gradually coming back.", alt: ["{直|ただ}ちに", "{無性|むしょう}に", "{一向|いっこう}に"] },
     ] },
@@ -448,7 +448,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "deliberately, dare to (do something unpleasant or risky); (not) necessarily",
     note: "Choosing to do something despite difficulty: あえて反対する, あえて言わせてもらえば (if I may be so bold). With negatives: あえて〜ない (no need to …). Often written in kana.",
     rx: ["かんえて", "かえて", "あいて"],
-    book: { ja: "国民の生命を守らんがため、彼は**{敢|あ}えて**危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
+    book: { ja: "国民の生命を守らんがため、彼は**{敢|あ}えて**危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "Determined to protect the lives of the nation's people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
     ex: [
       { ja: "{楽|らく}な{道|みち}ではなく、**{敢|あ}えて**{難|むずか}しい{道|みち}を{選|えら}んだ。", en: "Rather than the easy path, I deliberately chose the difficult one.", alt: ["{決|けっ}して", "{到底|とうてい}", "{一向|いっこう}に"] },
     ] },
@@ -456,7 +456,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "duty, mission, assignment",
     note: "Formal: 任務を果たす (carry out one's duty), 任務に就く, 重大な任務. Military and official contexts. 職務 is the duties of one's job; 役目 is the everyday “role.”",
     rx: ["にんぶ", "じんむ", "にむ"],
-    book: { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う**{任務|にんむ}**を引き受けた。", en: "In order to protect the lives of the people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
+    book: { ja: "国民の生命を守らんがため、彼は{敢|あ}えて危険を{伴|ともな}う**{任務|にんむ}**を引き受けた。", en: "Determined to protect the lives of the nation's people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
     ex: [
       { ja: "{隊員|たいいん}たちは{無事|ぶじ}に**{任務|にんむ}**を{果|は}たして{帰国|きこく}した。", en: "The team members carried out their mission safely and returned home.", alt: ["{任意|にんい}", "{任命|にんめい}", "{事務|じむ}"] },
     ] },
@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "belief, conviction, principle",
     note: "信念を貫く (stick to one's convictions), 信念を持つ, 固い信念. 信仰 is religious faith; 信頼 is trust in someone.",
     rx: ["しんねい", "しんれん", "しねん"],
-    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with iron conviction.", at: "gp/101" },
+    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with a conviction as firm as iron.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
