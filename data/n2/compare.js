@@ -184,7 +184,7 @@ TRY.registerCompare([
         ex: { ja: "最近、目が悪くなったので、めがねをかける**ことにしました**。", en: "My eyesight has gotten worse lately, so I've decided to wear glasses." },
         note: "V-る / V-ない + ことにする: \"decide to\". The speaker's own decision (ことにした once it is made; ことにしている for a standing personal rule)." },
       { pattern: "Vたことにする", level: "N2", no: 119,
-        ex: { ja: "私が日本にいる間に、家族がドイツへ旅行に行ったなんて、聞かなかった**ことにしたい**なあ。", en: "My family went on a trip to Germany while I was in Japan? I'd rather pretend I never heard that." },
+        ex: { ja: "私が日本にいる間に、家族がドイツへ旅行に行ったなんて、聞かなかった**ことにしたい**なあ。", en: "My family went on a trip to Germany while I was in Japan? I wish I could just pretend I never heard that." },
         note: "V-た / V-なかった + ことにする: \"pretend / treat it as if\" something did (not) happen. A deliberate fiction, usually for convenience; the past tense is what separates it from ことにする \"decide\"." },
       { pattern: "〜ことになる", level: "N4",
         ex: { ja: "来月ニューヨークへ行く**ことになりました**。", en: "It's been decided that I'll go to New York next month." },

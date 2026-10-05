@@ -76,7 +76,7 @@ TRY.registerCompare([
         ex: { ja: "仕事でも何でも自分一人で悩まないで、{誰|だれ}かに相談することですよ。", en: "Whether it's work or anything else, don't agonize over it alone; the thing to do is talk to someone." },
         note: "V-る / V-ない + ことだ: \"the thing to do is / you should (not)\". Confident, slightly authoritative advice to the listener, never about the speaker's own plans." },
       { pattern: "Vことにする", level: "N2",
-        ex: { ja: "私が日本にいる間に、家族がドイツへ旅行に行ったなんて、聞かなかったことにしたいなあ。", en: "My family went on a trip to Germany while I was in Japan? I'd rather pretend I never heard that." },
+        ex: { ja: "私が日本にいる間に、家族がドイツへ旅行に行ったなんて、聞かなかったことにしたいなあ。", en: "My family went on a trip to Germany while I was in Japan? I wish I could just pretend I never heard that." },
         note: "V-た / V-なかった + ことにする: \"pretend / treat it as if\" something did (not) happen, as in this example. With V-る it is the N4 \"decide to\"; the tense makes the difference." },
       { pattern: "〜ことに", level: "N2",
         ex: { ja: "ホテルの部屋に入ったら、{驚|おどろ}いたことに、バラの{花|はな}{束|たば}とホテルマネージャーからの{歓迎|かんげい}メッセージがテーブルの上に置いてあった。", en: "When I entered my hotel room, to my surprise there was a bouquet of roses and a welcome message from the hotel manager on the table." },

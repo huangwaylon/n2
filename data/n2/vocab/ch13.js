@@ -44,7 +44,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to tell; to inform; to announce",
     note: "A written, slightly formal verb for telling someone something important: 別れを告げる (say goodbye), 名前を告げる, 医者に病名を告げられる. It also appears in set phrases like 春の訪れを告げる (herald the coming of spring). In conversation 言う or 伝える is normal.",
     rx: ["こげる", "つぐる", "しげる"],
-    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"Forget the talk about promoting you to section chief. As far as we're concerned, it never happened.\" That's what the department head told me three months ago.", at: "ch/13" },
+    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"We're going to act as if the talk of promoting you to section chief never happened.\" That's what the department head told me three months ago.", at: "ch/13" },
     ex: [
       { ja: "{医者|いしゃ}は{家族|かぞく}に{病名|びょうめい}を**{告|つ}げた**。", en: "The doctor told the family the name of the illness.", alt: ["{届|とど}けた", "{渡|わた}した", "{伝|つた}わった"] },
       { ja: "{彼女|かのじょ}は{何|なに}も**{告|つ}げず**に{町|まち}を{出|で}て{行|い}った。", en: "She left town without telling anyone." },
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "damage; loss (usually financial)",
     note: "Loss of money or property: 損害を与える / 受ける, 損害を出す, 損害賠償 (compensation for damages). 被害 is harm suffered by victims of a disaster or crime (被害者); 損害 focuses on the monetary loss.",
     rx: ["そんかい", "そうがい", "ぞんがい"],
-    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but the project failed and caused heavy losses, and that was why.", at: "ch/13" },
+    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but I'd failed on a project and caused heavy losses, and that was why.", at: "ch/13" },
     ex: [
       { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{損害|そんがい}**が{出|で}た。", en: "The typhoon caused heavy damage to the crops.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to run away; to escape; to flee",
     note: "Getting out of a place or situation you want to leave: 家から逃げ出す, 仕事から逃げ出したい. 逃げる alone is to run away; 〜出す adds the sense of breaking out. 脱出する is a formal word for escaping from danger.",
     rx: ["のげだす", "にげいだす", "にげたす"],
-    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "I was so embarrassed I wanted to run away, but the man with the low voice asked me:", at: "ch/13" },
+    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "I was so embarrassed I wanted to run away. The man with the low voice asked me:", at: "ch/13" },
     ex: [
       { ja: "{飼|か}っていた{鳥|とり}がかごから**{逃|に}げ{出|だ}した**。", en: "Our pet bird escaped from its cage.", alt: ["{取|と}り{出|だ}した", "{言|い}い{出|だ}した", "{思|おも}い{出|だ}した"] },
     ] },
@@ -687,7 +687,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to watch over; to keep a (caring) eye on",
     note: "Watching someone protectively, usually without interfering: 子どもの成長を見守る, 温かく見守る, 地域の見守り活動. It can also mean watching closely how something turns out: 事態を見守る.",
     rx: ["みもる", "けんまもる", "みまわる"],
-    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく**{見守|みまも}って**いた{飼|か}い{主|ぬし}だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but family circumstances meant they had to be left at a dog shelter.", at: "ch/13/review" },
+    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく**{見守|みまも}って**いた{飼|か}い{主|ぬし}だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but because of family circumstances had to leave them at a dog shelter.", at: "ch/13/review" },
     ex: [
       { ja: "{親|おや}は{子|こ}どもの{成長|せいちょう}を{温|あたた}かく**{見守|みまも}って**いる。", en: "The parents are lovingly watching over their child's growth.", alt: ["{見送|みおく}って", "{見舞|みま}って", "{見張|みは}って"] },
     ] },
@@ -695,7 +695,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "(pet) owner; keeper (of an animal)",
     note: "The person who keeps an animal: 犬の飼い主, 飼い主を探す. From 飼う (keep an animal). For objects, the owner is 持ち主; a landlord is 家主 or 大家.",
     rx: ["かいしゅ", "しいぬし", "かいおも"],
-    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく{見守|みまも}っていた**{飼|か}い{主|ぬし}**だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but family circumstances meant they had to be left at a dog shelter.", at: "ch/13/review" },
+    book: { ja: "そんな2{匹|ひき}を{温|あたた}かく{見守|みまも}っていた**{飼|か}い{主|ぬし}**だったが、家の{事情|じじょう}で2{匹|ひき}を犬の{保護|ほご}センターに{預|あず}けなければならなくなった。", en: "Their owner had lovingly watched over the pair, but because of family circumstances had to leave them at a dog shelter.", at: "ch/13/review" },
     ex: [
       { ja: "{犬|いぬ}が{玄関|げんかん}で**{飼|か}い{主|ぬし}**の{帰|かえ}りを{待|ま}っている。", en: "The dog is waiting at the front door for its owner to come home.", alt: ["{株主|かぶぬし}", "{主語|しゅご}", "{主食|しゅしょく}"] },
     ] },
