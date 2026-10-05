@@ -12,11 +12,11 @@ TRY.registerChapter({
         kind: "story",
         vertical: true,
         lines: [
-          { ja: "何か考え込んでいる表情で{萌花|もえか}は先ほどから庭を行き**つ**戻り**つ**している。", en: "Lost in thought about something, Moeka has been pacing back and forth in the garden for some time now." },
+          { ja: "何か考え込んでいる表情で{萌花|もえか}は先ほどから庭を行き**つ**戻り**つ**している。", en: "With a look of deep thought on her face, Moeka has been pacing back and forth in the garden for some time now." },
           { cont: true, ja: "{優斗|ゆうと}はその様子を見る**ともなく**見ている。", en: "Yuto watches her idly, without really meaning to." },
           { ja: "{萌花|もえか}は十六歳。", en: "Moeka is sixteen." },
           { cont: true, ja: "年よりもずっと大人っぽい印象だ。", en: "She seems far more grown-up than her age." },
-          { cont: true, ja: "この神社の娘として生まれ、町を{異界|いかい}のものたちから守る**べく**育てられてきたのだから、普通の十六歳と同じはずがない。", en: "Born the daughter of this shrine and brought up for the purpose of protecting the town from creatures of the other world, she can hardly be like any ordinary sixteen-year-old." },
+          { cont: true, ja: "この神社の娘として生まれ、町を{異界|いかい}のものたちから守る**べく**育てられてきたのだから、普通の十六歳と同じはずがない。", en: "Born the daughter of this shrine and raised expressly to protect the town from creatures of the other world, she can hardly be like any ordinary sixteen-year-old." },
           { cont: true, ja: "{物心|ものごころ}つい**てからというもの**、{修行|しゅぎょう}ずくめの毎日だった。", en: "Ever since she was old enough to remember, her days had been filled with nothing but spiritual training." },
           { cont: true, ja: "この家に生まれたばかりに、普通の子どものように遊んだこともない。", en: "Simply because she was born into this family, she has never even played the way ordinary children do." },
           { cont: true, ja: "それは、生まれ**ながらに**決められていたことだった。", en: "That had been decided for her from the day she was born." },
@@ -82,7 +82,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**V-るともなく** = *(do ~) without really meaning to, idly*. The action does happen, but without clear intention or focus. The hallmark is the same or a similar verb repeated: 見るともなく見る (*look without really looking*), 聞くともなくラジオを聞いていたら (*I was half-listening to the radio when…*). The verbs are ones done half-consciously — 見る, 聞く, 考える, 待つ — and the sentence often continues with 〜ていたら／〜ているうちに and a discovery.\n\nThe clip note adds **question word (+ particle) + ともなく**, *who knows where, when or to whom*: どこからともなく (*from somewhere or other*), 誰に言うともなく (*to no one in particular*), いつ終わるともなく (*seemingly without end*).\n\nCompare:\n- **なんとなく**: the everyday *for no particular reason*.\n- **〜ともなしに**: a more literary synonym.\n- **〜ことなく**: *without doing*; the action doesn't happen (休むことなく働いた *worked without a break*).\n- **〜ともなると** #35 only looks similar: *once one becomes ~*.\n\nPitfall: purposeful acts sound odd (✗宿題をするともなくした).\n\nJLPT cue: a verb, a blank and the same verb again; or a question word + から／に before the blank.",
+          deepDive: "**V-るともなく** = *(do ~) without really meaning to, idly*. The action does happen, but without clear intention or focus. The hallmark is the same or a similar verb repeated: 見るともなく見る (*look without really looking*), 聞くともなくラジオを聞いていたら (*I was half-listening to the radio when…*). The verbs are ones done half-consciously — 見る, 聞く, 考える, 待つ — and the sentence often continues with 〜ていたら／〜ているうちに and a discovery.\n\nThe clip note adds **question word (+ particle) + ともなく**, *who knows where, when or to whom*: どこからともなく (*from somewhere or other*), 誰に言うともなく (*to no one in particular*), いつ終わるともなく (*seemingly without end*).\n\nCompare:\n- **なんとなく**: the everyday *for no particular reason*.\n- **〜ともなしに**: a more literary synonym.\n- **〜ことなく**: *without doing*; the action doesn't happen (休むことなく働いた *worked without a break*).\n- **〜ともなると** #35 only looks similar: *once one becomes ~*.\n\nPitfall: purposeful acts sound odd (?宿題をするともなくした).\n\nJLPT cue: a verb, a blank and the same verb again; or a question word + から／に before the blank.",
           see: [35],
           index: ["Vともなく", "疑問詞＋ともなく", "Vるともなく", "見るともなく見る", "どこからともなく", "誰に言うともなく", "いつ終わるともなく"],
           practice: [
@@ -132,11 +132,11 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "I'm pressing ahead with preparations in order to launch a business of my own that draws on my experience studying abroad." },
-            { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな取り組みをしている。", en: "The islanders are taking various steps in order to improve living conditions on the island." },
+            { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな取り組みをしている。", en: "The islanders are taking all sorts of measures aimed at improving living conditions on the island." },
             { ja: "今年こそロケットを完成させるべく、研究者たちは努力を続けている。", en: "Determined to complete the rocket this year at last, the researchers are keeping up their efforts." },
-            { ja: "国民の理解と協力を{得|え}るべく、{広報|こうほう}活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "PR efforts were stepped up in order to win the public's understanding and cooperation, but they produced no real results." },
+            { ja: "国民の理解と協力を{得|え}るべく、{広報|こうほう}活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Publicity was stepped up with the aim of winning the public's understanding and cooperation, but it produced no real results." },
           ],
-          deepDive: "**V-るべく** = *in order to ~, with the aim of ~*, the adverbial form of classical べし. The subject acts deliberately toward a goal: 優勝すべく練習を重ねた (*practiced hard in order to win*). With する both すべく and するべく are used. It is formal and written — news, reports, corporate statements — and 〜べく努めてまいります (*we will strive to ~*) is a standard business phrase.\n\nThe first clause needs a volitional goal of the subject (✗風邪が治るべく → 治るように), and there is no negative (✗失敗しないべく). The main clause is a deliberate action or effort (タクシーで病院へ向かった, 広報活動を強化した), not a request or command (✗合格すべく勉強しなさい → 合格するために).\n\nCompare:\n- **〜んがため** #100: also *in order to*, older and more emphatic, often *at any cost*.\n- **VべくしてVた** #52: *happened as it was bound to*.\n- **〜べくもない** #122: *there's no way ~*.\n- **〜べからず** #111: prohibition, *must not*.\n\nPitfall: べく is not べき (*should*): 準備すべきだ is an opinion, 準備すべく a purpose.\n\nJLPT cue: a goal verb + blank + comma + an effort (努める, 努力する, 準備を進める).",
+          deepDive: "**V-るべく** = *in order to ~, with the aim of ~*, the adverbial form of classical べし. The subject acts deliberately toward a goal: 優勝すべく練習を重ねた (*practiced hard in order to win*). With する both すべく and するべく are used. It is formal and written — news, reports, corporate statements — and 〜べく努めてまいります (*we will strive to ~*) is a standard business phrase.\n\nThe first clause needs a volitional goal of the subject (✗風邪が治るべく → 治るように), and a negative sounds wrong (?失敗しないべく → 失敗しないように). The main clause is a deliberate action or effort (タクシーで病院へ向かった, 広報活動を強化した), not a request or command (✗合格すべく勉強しなさい → 合格するために).\n\nCompare:\n- **〜んがため** #100: also *in order to*, older and more emphatic, often *at any cost*.\n- **VべくしてVた** #52: *happened as it was bound to*.\n- **〜べくもない** #122: *there's no way ~*.\n- **〜べからず** #111: prohibition, *must not*.\n\nPitfall: べく is not べき (*should*): 準備すべきだ is an opinion, 準備すべく a purpose.\n\nJLPT cue: a goal verb + blank + comma + an effort (努める, 努力する, 準備を進める).",
           see: [100, 52, 122, 111],
           index: ["Vべく", "Vるべく", "すべく", "するべく"],
           practice: [
@@ -167,7 +167,7 @@ TRY.registerChapter({
             { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he's been going straight home as soon as work is over." },
             { ja: "その歌を聞いてからというもの、メロディーが頭から{離|はな}れない。", en: "Ever since I heard that song, I can't get the melody out of my head." },
             { ja: "{大型|おおがた}スーパーができてからというもの、駅前の商店{街|がい}は売り上げが30%以上減ってしまったという。", en: "Apparently, ever since the big supermarket opened, sales on the shopping street in front of the station have fallen by more than 30%." },
-            { ja: "兄は去年{就職|しゅうしょく}した。それからというもの、家で家族と食事をする{暇|ひま}もなくなった。", en: "My older brother started working last year. Ever since then, he hasn't even had time to eat with the family at home." },
+            { ja: "兄は去年{就職|しゅうしょく}した。それからというもの、家で家族と食事をする{暇|ひま}もなくなった。", en: "My older brother started working last year. Ever since then, he no longer even has time to eat at home with the family." },
           ],
           notes: [
             {
@@ -193,7 +193,7 @@ TRY.registerChapter({
                   q: "12月に入ってからというもの、（　）。",
                   options: ["{連日|れんじつ}{厳|きび}しい寒さが続いている", "旅行に行ったほうがいい"],
                   answer: 0,
-                  en: "Ever since December came in, it's been bitterly cold day after day.",
+                  en: "Ever since December started, it's been bitterly cold day after day.",
                   why: { en: "からというもの needs a state that has continued since the turning point: severe cold day after day. ほうがいい is advice, not a lasting change." },
                 },
                 {
@@ -235,7 +235,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{仏陀|ぶっだ}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talents from the moment he was born." },
             { ja: "ゲーム機しか知らない子どもたちにも、昔ながらの遊びを伝えたい。", en: "I want to pass on traditional games even to children who know nothing but game consoles." },
-            { ja: "彼の{手品|てじな}はいつもながら、期待を{裏切|うらぎ}らない{見事|みごと}なものだった。", en: "As always, his magic was superb and didn't disappoint." },
+            { ja: "彼の{手品|てじな}はいつもながら、期待を{裏切|うらぎ}らない{見事|みごと}なものだった。", en: "As always, his magic act was superb and lived up to everyone's expectations." },
             { ja: "昔、地位の高い人が亡くなると、お{供|とも}の人を{墓|はか}の周りに生きながら{埋|う}めるという習慣があったそうだ。", en: "It is said that in the old days, when a person of high rank died, it was the custom to bury their attendants alive around the tomb." },
           ],
           deepDive: "**〜ながら（に）** here means *in the state of ~, unchanged since ~* — neither the *while* ながら nor the concessive *although* ながら. It follows a ます-stem or a noun (ながら（に） adverbially, ながらの + noun) and lives mostly in fixed expressions: 生まれながらに (*from birth*), 生まれながらの芸術家 (*a born artist*), 昔ながらの (*time-honored*), 涙ながらに (*in tears*), いつもながら (*as always*), 生きながら (*alive*), いながらにして (*without leaving one's seat*). It is formal and literary, though 昔ながらの and いつもながら are everyday phrases.\n\nCompare:\n- Simultaneous **〜ながら**: 音楽を聞きながら勉強する (*study while listening to music*), two actions at once.\n- **〜ながら（も）** (N2): *although* (狭いながらも楽しい我が家 *our small but happy home*).\n- **Nにして** #102: formal *in / at*; いながらにして combines both.\n\nPitfall: ✗生まれるながらに — it takes the ます-stem.\n\nJLPT cue: 生まれ, 昔, 涙, いつも or いる before the blank; in paraphrases, the option meaning *in that state, unchanged*.",
@@ -300,8 +300,8 @@ TRY.registerChapter({
           forms: ["[N] + をものともせず（に）"],
           examples: [
             { ja: "{激流|げきりゅう}をものともせず、彼はカヌーで川を{下|くだ}っていった。", en: "Undaunted by the raging current, he went down the river in a canoe." },
-            { ja: "子どもたちは、{連日|れんじつ}の暑さをものともせず、元気に遊びまわっている。", en: "Unfazed by the heat that has gone on day after day, the children are running around playing energetically." },
-            { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Undaunted by repeated breakdowns, the planetary probe Hayabusa made it back to Earth." },
+            { ja: "子どもたちは、{連日|れんじつ}の暑さをものともせず、元気に遊びまわっている。", en: "Unfazed by the relentless daily heat, the children are running around, playing full of energy." },
+            { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Shrugging off breakdown after breakdown, the planetary probe Hayabusa made it back to Earth." },
             { ja: "{荒波|あらなみ}をものともせず、ヨットは力強く進んでいった。", en: "Braving the rough waves, the yacht pushed boldly onward." },
           ],
           deepDive: "**Nをものともせず（に）** = *undaunted by N, braving N*: a real hardship is there, but the person treats it as nothing and presses on powerfully (ものともしない, *not count it as anything*): 激流をものともせず、カヌーで川を下っていった (*undaunted by the raging current, he canoed down the river*). The noun is an obstacle — 荒波, 暑さ, 悪天候, 度重なる故障, 周囲の反対 — and the second half is a vigorous action or success stated as fact.\n\nBecause it expresses admiration, it describes others or personified things (a probe, a yacht), not oneself, and it isn't followed by requests or wishes (✗困難をものともせず頑張ってください → 困難に負けずに). It is written and somewhat dramatic: news, documentaries, biographies.\n\nCompare:\n- **〜をよそに** #17: *heedless of* other people's worry, critical (親の心配をよそに遊び歩く *go out partying, heedless of his parents' worry*).\n- **〜にもかかわらず** (N2): a neutral *despite*, usable about anyone.\n- **〜に負けず**: everyday, and fine about oneself.\n\nPitfall: a failure contradicts it (✗暑さをものともせず倒れてしまった).\n\nJLPT cue: a hardship noun before the blank and an admirable achievement after it.",
@@ -340,7 +340,7 @@ TRY.registerChapter({
           usage: { ja: "「AかたわらB」は「Aをしながら、他のこと（B）もしている」と言いたいときに使う。", en: "\"AかたわらB\" is used when you want to say \"while doing A, (someone) is also doing something else (B).\"" },
           forms: ["[V-る] + かたわら", "[N] + かたわら"],
           examples: [
-            { ja: "友人は{予備校|よびこう}で数学を教えるかたわら、小説を書いている。", en: "My friend writes novels while teaching math at a cram school." },
+            { ja: "友人は{予備校|よびこう}で数学を教えるかたわら、小説を書いている。", en: "My friend teaches math at a cram school and writes novels on the side." },
             { ja: "彼は会社を経営するかたわら、スポーツの{振興|しんこう}にも力を{注|そそ}いでいる。", en: "Besides running a company, he also devotes his energy to promoting sports." },
             { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って{自給自足|じきゅうじそく}の生活をしているそうだ。", en: "I hear that alongside making pottery, the potter Tanaka grows vegetables at home and lives self-sufficiently." },
             { ja: "最近は育児のかたわら、インターネットでビジネスをする女性が増えている。", en: "Recently, more and more women are running businesses on the internet while raising children." },

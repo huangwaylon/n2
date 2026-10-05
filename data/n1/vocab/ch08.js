@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be lost in thought, brood over, ponder deeply",
     note: "Thinking hard and long, often with a troubled look: 何か考え込んでいる, 深く考え込む. 悩む adds the sense of worrying over a problem; 考え直す is to reconsider.",
     rx: ["こうえこむ", "かんがえごむ", "かんがいこむ"],
-    book: { ja: "何か**考え込ん**でいる表情で{萌花|もえか}は先ほどから庭を行きつ戻りつしている。", en: "Lost in thought about something, Moeka has been pacing back and forth in the garden for some time now.", at: "ch/8" },
+    book: { ja: "何か**考え込ん**でいる表情で{萌花|もえか}は先ほどから庭を行きつ戻りつしている。", en: "With a look of deep thought on her face, Moeka has been pacing back and forth in the garden for some time now.", at: "ch/8" },
     ex: [
       { ja: "{父|ちち}は{手紙|てがみ}を{読|よ}むと、{黙|だま}って**{考|かんが}え{込|こ}んで**しまった。", en: "After reading the letter, my father fell silent, lost in thought.", alt: ["{考|かんが}え{出|だ}して", "{払|はら}い{込|こ}んで", "{見|み}{込|こ}んで"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "effort, initiative, measures (to tackle something); a bout (in sumo)",
     note: "From 取り組む (to tackle, work on): 環境問題への取り組み, 新たな取り組みを始める. Very common in news and official writing. In sumo, 取組 is a match.",
     rx: ["とりぐみ", "しゅそみ", "とりくいみ"],
-    book: { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな**取り組み**をしている。", en: "The islanders are taking various steps in order to improve living conditions on the island.", at: "gp/90" },
+    book: { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな**取り組み**をしている。", en: "The islanders are taking all sorts of measures aimed at improving living conditions on the island.", at: "gp/90" },
     ex: [
       { ja: "{市|し}はごみを{減|へ}らすための**{取|と}り{組|く}み**を{始|はじ}めた。", en: "The city has launched an initiative to reduce waste.", alt: ["{取|と}り{扱|あつか}い", "{取|と}り{消|け}し", "{取|と}り{柄|え}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "public relations, PR; publicity, public information",
     note: "広報活動, 広報部 (PR department), 市の広報誌 (the city's newsletter). 宣伝 is advertising to sell; 広報 is informing the public about an organization's activities.",
     rx: ["こうほ", "ひろほう", "こうぼう"],
-    book: { ja: "国民の理解と協力を{得|え}るべく、**{広報|こうほう}**活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "PR efforts were stepped up in order to win the public's understanding and cooperation, but they produced no real results.", at: "gp/90" },
+    book: { ja: "国民の理解と協力を{得|え}るべく、**{広報|こうほう}**活動を強化したが、これといった{成果|せいか}は得られなかった。", en: "Publicity was stepped up with the aim of winning the public's understanding and cooperation, but it produced no real results.", at: "gp/90" },
     ex: [
       { ja: "{新製品|しんせいひん}の{発表会|はっぴょうかい}は、**{広報|こうほう}**{部|ぶ}が{担当|たんとう}している。", en: "The PR department is in charge of the new product launch.", alt: ["{電報|でんぽう}", "{予報|よほう}", "{警報|けいほう}"] },
     ] },
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "repeated, successive (of misfortunes, failures)",
     note: "Mostly before a noun: 度重なる失敗, 度重なる不祥事, 度重なる警告. Written style. 相次ぐ is similar (one after another) and common in news.",
     rx: ["どかさなる", "たびがさなる", "とじゅうなる"],
-    book: { ja: "**{度重|たびかさ}なる**{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Undaunted by repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
+    book: { ja: "**{度重|たびかさ}なる**{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Shrugging off breakdown after breakdown, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
     ex: [
       { ja: "**{度重|たびかさ}なる**{遅刻|ちこく}で、{彼|かれ}は{上司|じょうし}に{厳|きび}しく{注意|ちゅうい}された。", en: "Because of his repeated lateness, he was sternly warned by his boss.", alt: ["{積|つ}み{重|かさ}ねる", "{重|おも}んじる", "{折|お}り{重|かさ}なった"] },
     ] },
@@ -202,7 +202,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "return (home, to base, from space or war)",
     note: "Formal, for a return after a dangerous or long mission: 地球に帰還する, 無事帰還, 宇宙飛行士の帰還. 帰国 is returning to one's country; 帰宅 is getting home.",
     rx: ["きがん", "きかい", "かえかん"],
-    book: { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に**{帰還|きかん}**した。", en: "Undaunted by repeated breakdowns, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
+    book: { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に**{帰還|きかん}**した。", en: "Shrugging off breakdown after breakdown, the planetary probe Hayabusa made it back to Earth.", at: "gp/94" },
     ex: [
       { ja: "{宇宙飛行士|うちゅうひこうし}たちは、{半年|はんとし}ぶりに{地球|ちきゅう}へ**{帰還|きかん}**した。", en: "The astronauts returned to Earth after half a year away.", alt: ["{返還|へんかん}", "{帰省|きせい}", "{還元|かんげん}"] },
     ] },
