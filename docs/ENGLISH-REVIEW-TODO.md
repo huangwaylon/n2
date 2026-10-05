@@ -54,6 +54,16 @@ why: test each claim against your own knowledge and the book's examples; any ✗
 odd) or marked "?"; each contrast must be correct; remove what you can't defend. Same rules, validation and commit
 procedure as the brief above.
 
+## Vocab units (TRY vocab/chNN.js, Quartet vocabNN.js)
+
+TRY vocab lists are ours entirely (data/SCHEMA.md "Vocabulary"): check each word's `en` gloss (accurate senses, most
+common first, natural English), `note` (every claim about register, collocation and look-alikes correct; examples
+glossed correctly), `pos`, and each `ex` — the Japanese is ours too, so it must be natural, correct and use the word
+in its listed sense; its `en` must be an exact, idiomatic translation; `alt` distractors must be clearly wrong in
+that sentence. `book` quotes the chapter verbatim: never edit `book.ja`/`book.en` except to match the chapter.
+Quartet vocab: the `en` glosses are the book's (verbatim); review our `tr` of example sentences. Validate with
+`node tools/vocab-check.js <book>` (TRY) or the q2 check/verify (Quartet), plus render-smoke.
+
 ## Units
 
 N2 chapters: ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 ch11 ch12 ch13 ch14 · compare
