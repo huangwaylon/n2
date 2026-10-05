@@ -529,7 +529,7 @@ TRY.registerLesson({
       }
      ],
      "tr": [
-      "As you'd expect of a dish called “a classic of Japanese home cooking,” nikujaga is loved by everyone. Today, let's make nikujaga. If you like Japanese food, you're sure to love it. Its sweet and savory flavor goes great with rice.",
+      "As you'd expect of a dish called “a classic of Japanese home cooking,” nikujaga is loved by everyone. Today, let's try making it. If you like Japanese food, you're sure to love it. Its sweet-and-salty flavor goes great with rice.",
       "Potatoes: 3 / Dashi: 400 ml",
       "Carrot: 1/2 / Sake: 3 tablespoons",
       "Onion: 1/2 / Sugar: 2 tablespoons",
@@ -1238,7 +1238,7 @@ TRY.registerLesson({
           },
           {
            "ja": "今日はバレンタインデーだった。ジョージが「{絵理|えり}からチョコレートをもらった！」とうれしそうに僕に言った。実は、僕も同じチョコレートをもらったが、そのことはジョージに言わ**ないでおいた**。",
-           "tr": "Today was Valentine's Day. George happily told me, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I didn't tell George that."
+           "tr": "Today was Valentine's Day. George happily told me, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I decided not to tell George."
           }
          ]
         }
@@ -1348,7 +1348,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**まず, 次に, それから, 最後に** number the steps of a procedure, like *first, next, then, finally*. Each starts its sentence and is followed by a comma; recipes and notices end the steps in the ます form (切ります), a magazine article in the plain form (タッチする, Reading 1).\n\n- まずはじめに (Reading 1, line 36) is an emphatic まず. そして and その後 also link steps (the ATM model in Strategy 8; Reading 2, step 4).\n- Inside one step, 〜てから and 〜たら show that one action must finish first (Writing points (b)).\n- すると (*then, at that*) reports what a step makes happen: すると、詳しいメニューが出てくる. It doesn't start a new step.\n\nIn conversation, まず〜。で、次に〜 is common. Pitfall: 最後に is *as the last step*; *at last, after a long wait* is やっと or ついに."
+     "deepDive": "**まず, 次に, それから, 最後に** number the steps of a procedure, like *first, next, then, finally*. Each starts its sentence, usually followed by a comma; recipes and notices end the steps in the ます form (切ります), a magazine article in the plain form (タッチする, Reading 1).\n\n- まずはじめに (Reading 1, line 36) is an emphatic まず. そして and その後 also link steps (the ATM model in Strategy 8; Reading 2, step 4).\n- Inside one step, 〜てから and 〜たら show that one action must finish first (Writing points (b)).\n- すると (*then, at that*) reports what a step makes happen: すると、詳しいメニューが出てくる. It doesn't start a new step.\n\nIn conversation, まず〜。で、次に〜 is common. Pitfall: 最後に is *as the last step*; *at last, after a long wait* is やっと or ついに."
     },
     {
      "t": "note",
@@ -1462,7 +1462,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**（もし）XてもY** says Y holds even if X is the case, although X would normally lead the other way: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし (examples 1 and 4) flags X as a supposition; たとえ (examples 3 and 5) pushes it to a hypothetical, often extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, example 4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
+     "deepDive": "**（もし）XてもY** says Y holds even if X is the case, although X would normally lead the other way: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし (examples 1 and 4) flags X as a supposition; たとえ (examples 3 and 5) pushes it to a hypothetical, often extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, example 4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても frames X as a pure supposition, *even supposing*. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
     },
     {
      "t": "note",
@@ -1643,7 +1643,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XようにY** does Y hoping that condition X comes about: *so that*. X is something one can't bring about directly by will: a potential form (起きられる), an intransitive or stative verb (わかる, 聞こえる, やわらかくなる), or 〜ない (忘れないように; こげないように, Reading 2, line 22).\n\n- The two subjects may differ: 留学生がわかるように、ゆっくり話す (example 4).\n- **Vるために** (L1-5) needs a volitional verb and the same subject, and stresses resolve: 勉強するために来た. Hence ✗行けるために, ✓行けるように.\n- **〜ようにする** (L1-8) is a conscious effort (*make a point of*), and **〜ように言う** (L6-7) reports a request.\n\nPitfall: a volitional verb before ように is wrong: ✗旅行に行くように、お金をためている (the book's × example); say 行けるように or 行くために."
+     "deepDive": "**XようにY** does Y hoping that condition X comes about: *so that*. X is something one can't bring about directly by will: a potential form (起きられる), an intransitive or stative verb (わかる, 聞こえる, やわらかくなる), or 〜ない (忘れないように; こげないように, Reading 2, line 22).\n\n- The two subjects may differ: 留学生がわかるように、ゆっくり話す (example 4).\n- **Vるために** (L1-5) needs a volitional verb and the same subject: 勉強するために来た. Hence ✗行けるために, ✓行けるように.\n- **〜ようにする** (L1-8) is a conscious effort (*make a point of*), and **〜ように言う** (L6-7) reports a request.\n\nPitfall: with one subject, an affirmative volitional verb before ように is wrong: ✗旅行に行くように、お金をためている (the book's × example); say 行けるように or 行くために."
     },
     {
      "t": "note",
@@ -1858,7 +1858,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is a status, reputation, trait, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (example 1). Sentence-final だけある gives the same verdict as a closing comment: さすが高級ホテルだけある (example 5).\n- It isn't used about oneself, where it would sound like self-praise: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
+     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is a status, reputation, trait, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (example 1). Sentence-final だけある gives the same verdict as a closing comment: さすが高級ホテルだけある (example 5).\n- It isn't used about oneself, where it would sound like self-praise: ?私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
     }
    ]
   },
@@ -4932,13 +4932,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "授業の後で遊ぶ時は前もって{約束|やくそく}しなくてもいいのに、どうして家に遊びに行く時は約束が必要なのかわかりませんでした。それで、他の日本人の友達に聞いてみたら、「その時忙しかっただけかもしれないけど、人の家に行く時は、約束し__ておいた__ほうがいいよ。お客さんが来る前にそうじしたい人もいるし」と言われました。",
-       "tr": "We don't need to make plans in advance to hang out after class, so I couldn't understand why we need them to visit someone's home. So I asked another Japanese friend, who told me, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
+       "tr": "I couldn't understand why we need to make plans to visit someone's home when we don't need them to hang out after class. So I asked another Japanese friend, who told me, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
       },
       {
        "sp": "",
        "v": "f",
        "ja": "約束をし__ておかない__と家に遊びに行けないのは{面倒|めんどう}だと思うのですが、日本では約束をし__ておいた__ほうがいいのでしょうか。みなさんの国ではどうですか。",
-       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it better to make plans ahead of time? What is it like in your countries?"
+       "tr": "I think it's a hassle that you can't visit someone's home without making plans in advance, but in Japan, is it really better to make plans ahead of time? What is it like in your countries?"
       }
      ]
     }
