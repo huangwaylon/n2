@@ -720,7 +720,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "snowy landscape; a world of white",
     note: "Literary/descriptive: 一面の銀世界 (everything blanketed in snow). 雪景色 is the plain word for a snowy scene.",
     rx: ["ぎんせいかい", "きんせかい", "ぎんよかい"],
-    book: { ja: "{今朝|けさ}起きたら、びっくりした[1]、{一面|いちめん}の**{銀世界|ぎんせかい}**。", en: "When I woke up this morning, I was so surprised, you wouldn't believe it — everything was blanketed in white snow.", at: "ch/9/review" },
+    book: { ja: "{今朝|けさ}起きたら、びっくりした[1]、{一面|いちめん}の**{銀世界|ぎんせかい}**。", en: "When I woke up this morning, I was so surprised, you wouldn't believe it: everything was white with snow as far as the eye could see.", at: "ch/9/review" },
     ex: [
       { ja: "{夜|よる}の{間|あいだ}に{雪|ゆき}が{降|ふ}り{続|つづ}き、{朝|あさ}には{町|まち}が**{銀世界|ぎんせかい}**になっていた。", en: "It snowed all night, and by morning the town had turned into a world of white.", alt: ["{全世界|ぜんせかい}", "{銀行員|ぎんこういん}", "{金曜日|きんようび}"] },
     ] },
