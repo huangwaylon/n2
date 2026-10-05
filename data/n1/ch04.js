@@ -14,7 +14,7 @@ TRY.registerChapter({
         lines: [
           { ja: "会社では、さまざまな人が働いていますが、{一人前|いちにんまえ}の社会人**ともなると**、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work at a company, and once you're a full-fledged working adult, you naturally have to deal with people you don't like as well." },
           { cont: true, ja: "そのため気楽な学生時代**にひきかえ**、多くのストレスを{抱|かか}えることになるでしょう。", en: "That is why, unlike in your carefree student days, you are likely to find yourself under a lot of stress." },
-          { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list." },
+          { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the work itself and issues like pay and benefits play a part, of course, but “personal relationships” always rank near the top." },
           { cont: true, ja: "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**、仕事を進めるうえでは人間関係は非常に大切です。", en: "Whether it is your relationship with your boss or with your colleagues and juniors, getting along with people is extremely important in getting your work done." },
           { ja: "特に{新人|しんじん}のみなさんにとって、上司との関係をよくしておくことは重要です。", en: "For those of you who are new to the company in particular, it is important to build a good relationship with your boss." },
           { cont: true, ja: "仕事上、何か問題が起これば、現状**に{即|そく}した**対応が求められます。", en: "When a problem comes up at work, you are expected to respond in a way that fits the situation at hand." },
@@ -68,7 +68,7 @@ TRY.registerChapter({
                   q: "キャンプ場は（　）ともなると親子{連|づ}れでにぎわう。",
                   options: ["夏休み", "{平日|へいじつ}"],
                   answer: 0,
-                  en: "Come summer vacation, the campground is bustling with families with children.",
+                  en: "Come summer vacation, the campground is bustling with parents and kids.",
                   why: { en: "ともなると needs a time a notch above the ordinary, and summer vacation is when families fill campgrounds. 平日 is the ordinary case." },
                 },
                 {
@@ -296,7 +296,7 @@ TRY.registerChapter({
             { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it." },
             { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I'd say this university's business school is the only place to do it." },
             { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
-            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president." },
+            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him to be the next president." },
           ],
           notes: [
             {
@@ -308,7 +308,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**〜をおいて他にない** (置いて, *setting aside*) says *apart from ~, there is nothing else*: N is the one and only choice, and usually the best by comparison, so the tone is praise: 次期社長は…彼をおいて他にいないだろう (*there's probably no one but him for the next president*). For people it is 他にいない; polite forms are 他にありません／おりません, and 他に can be dropped.\n\nIt is formal and emphatic, suited to recommendations and speeches. Because of the praise, it sounds odd for a bad candidate: for a culprit, say 犯人は彼しか考えられない (*he's the only one who could have done it*). The clip note's **何をおいても** is a fixed phrase: *before anything else, first of all*.\n\nCompare:\n- **〜ならではの** (#3): a feature only A has, not the sole candidate: この店ならではの味 (*a flavor you'll find only here*).\n- **〜をぬきにして（は）**: *without ~*, a necessary element: 彼をぬきにして話は進まない (*nothing moves forward without him*).\n- **〜しかない / 〜以外にない**: everyday equivalents, without the praise.\n\nPitfall: reading おいて as 置いていく, *leave behind*.\n\nJLPT cue: 他に + ない／いない at the end and a noun before the blank → をおいて.",
+          deepDive: "**〜をおいて他にない** (置いて, *setting aside*) says *apart from ~, there is nothing else*: N is the one and only choice, and usually the best by comparison, so the tone is praise: 次期社長は…彼をおいて他にいないだろう (*there's probably no one but him to be the next president*). For people it is 他にいない; polite forms are 他にありません／おりません, and 他に can be dropped.\n\nIt is formal and emphatic, suited to recommendations and speeches. Because of the praise, it sounds odd for a bad candidate: for a culprit, say 犯人は彼しか考えられない (*he's the only one who could have done it*). The clip note's **何をおいても** is a fixed phrase: *before anything else, first of all*.\n\nCompare:\n- **〜ならではの** (#3): a feature only A has, not the sole candidate: この店ならではの味 (*a flavor you'll find only here*).\n- **〜をぬきにして（は）**: *without ~*, a necessary element: 彼をぬきにして話は進まない (*nothing moves forward without him*).\n- **〜しかない / 〜以外にない**: everyday equivalents, without the praise.\n\nPitfall: reading おいて as 置いていく, *leave behind*.\n\nJLPT cue: 他に + ない／いない at the end and a noun before the blank → をおいて.",
           see: [3, 17, 112, 123],
           index: ["Nをおいて他にない", "Nをおいて他にいない", "何をおいても", "をおいて"],
           practice: [
@@ -406,7 +406,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{遠方|えんぽう}に足を運ぶまでもなく、ネットを通じて地方の{特産品|とくさんひん}が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the internet without having to travel far." },
             { ja: "この程度のことなら、社長の指示を{仰|あお}ぐまでもないだろう。", en: "For a matter this small, there's probably no need to ask the president for instructions." },
-            { ja: "環境{保護|ほご}の必要性は、改めて{世論|よろん}に問うまでもないことだ。", en: "The need to protect the environment hardly needs to be put to the public as a question." },
+            { ja: "環境{保護|ほご}の必要性は、改めて{世論|よろん}に問うまでもないことだ。", en: "There's no need to ask the public all over again whether the environment needs protecting." },
             { ja: "彼が何を言いたいかは聞くまでもないよ。", en: "I don't even need to ask what he's trying to say." },
           ],
           deepDive: "**〜までもない / 〜までもなく** means *there's no need to go as far as ~*: the action is unnecessary because the answer is already obvious or the matter is too minor. 言うまでもなく (*needless to say*) works almost as a set adverb; 見るまでもない, 考えるまでもない and 説明するまでもない are also common. この程度のことなら、社長の指示を仰ぐまでもないだろう (*for something this minor, there's no need to ask the president*).\n\nConnection: V-る only. The なく form links to a main clause that states what is clear anyway or what happens instead: 遠方に足を運ぶまでもなく、ネットを通じて地方の特産品が手に入る (*you can get regional specialties online without traveling far*). The tone is confident and slightly formal.\n\nCompare:\n- **〜ことはない** (N2 level): advice to the listener, *you don't need to*: 心配することはない (*there's nothing to worry about*). までもない judges the action itself pointless.\n- **〜には及ばない**: polite *there's no need*: お礼には及びません (*no need to thank me*).\n- **〜ないまでも** (#43): *even if not ~, at least*, built on V-ない; a different pattern.\n\nPitfall: ✗説明までもない; it needs a verb: 説明するまでもない.\n\nJLPT cue: a sign that the matter is obvious or trivial (この程度, 明らか, 大した〜じゃない) points to までもない.",
@@ -458,7 +458,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "お申し込み後は、理由のいかんにかかわらず、キャンセルできませんのでご{了承|りょうしょう}ください。", en: "Please note that once you have applied, you cannot cancel for any reason whatsoever." },
                 { ja: "{履歴書|りれきしょ}などの{応募|おうぼ}書類は、結果のいかんにかかわらずご{返却|へんきゃく}いたしません。", en: "Application documents such as résumés will not be returned, regardless of the result." },
-                { ja: "この{保険|ほけん}は、{国籍|こくせき}のいかんにかかわらず、国内で働く全ての人に{加入|かにゅう}が義務づけられています。", en: "Everyone working in the country, regardless of nationality, is required to join this insurance scheme." },
+                { ja: "この{保険|ほけん}は、{国籍|こくせき}のいかんにかかわらず、国内で働く全ての人に{加入|かにゅう}が義務づけられています。", en: "Everyone working in the country, regardless of nationality, is required to enroll in this insurance plan." },
               ],
             },
           ],
@@ -470,7 +470,7 @@ TRY.registerChapter({
               usage: { ja: "「いかんせん〜／いかんともしがたい」は「残念だが、どうにもならない／どうすることもできない」という意味で使われる。", en: "“いかんせん〜／いかんともしがたい” is used to mean “it is a pity, but there is no way around it / nothing can be done about it.”" },
               examples: [
                 { ja: "彼女の{誕生日|たんじょうび}だというのに、いかんせん{給料日|きゅうりょうび}前で財布の中はからっぽだ。", en: "It's her birthday, but there's nothing I can do: it's right before payday, and my wallet is empty." },
-                { ja: "大学生チームも{健闘|けんとう}しているが、やはりプロとの{実力差|じつりょくさ}はいかんともしがたい。", en: "The university team is putting up a good fight, but as you'd expect, there's nothing they can do about the gap in ability between them and the pros." },
+                { ja: "大学生チームも{健闘|けんとう}しているが、やはりプロとの{実力差|じつりょくさ}はいかんともしがたい。", en: "The college team is putting up a good fight, but as you'd expect, there's nothing they can do about the gap in ability between them and the pros." },
               ],
             },
           ],
@@ -583,7 +583,7 @@ TRY.registerChapter({
                     { tag: "1", options: ["といい", "であれ"], answer: 0 },
                     { tag: "2", options: ["といい", "であれ"], answer: 0 },
                   ],
-                  en: "The manager's ties are tasteful in both color and pattern — I wonder if the manager picks them out personally.",
+                  en: "The manager's ties are tasteful in both color and pattern — I wonder if they pick them out themselves.",
                   why: { en: "Color and pattern are two features of the ties behind the verdict センスがいい: といい…といい. であれ…であれ would state something that holds either way." },
                 },
               ],
@@ -686,7 +686,7 @@ TRY.registerChapter({
             q: "仕事{疲|づか}れのストレス{解消|かいしょう}方法は、仕事を少し忘れてみること、それ（　）でしょう。散歩や旅行などで気分{転換|てんかん}を{図|はか}りましょう。",
             options: ["をはじめとする", "をおいてない", "を問わない", "をもとにした"],
             answer: 1,
-            en: "The only way to relieve the stress of being worn out by work is probably to try forgetting about work for a while. Refresh yourself with a walk or a trip.",
+            en: "The only way to relieve the stress of being worn out by work is probably to try forgetting about work for a while. Get a change of pace with a walk or a trip.",
             why: { en: "それをおいてない = there is nothing but that (〜をおいて他にない without 他に). をはじめとする (starting with), を問わない (regardless of) and をもとにした (based on) can't express “that and only that”." },
           },
           {
@@ -732,7 +732,7 @@ TRY.registerChapter({
             pieces: ["良さといい", "{治安|ちあん}の", "をおいて", "ここ"],
             order: [1, 0, 3, 2],
             star: 2,
-            en: "For our new location, what with the convenient transportation and the safe neighborhood, this seems to be the only choice.",
+            en: "As for where to relocate, what with the convenient transportation and the safe neighborhood, this seems to be the only choice.",
             why: { en: "交通の便といい、治安の良さといい、ここをおいて他にない: といい…といい pairs 交通の便 with 治安の良さ, and ここ + をおいて precedes 他にない." },
           },
           {
@@ -764,7 +764,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["社員数が1,000人を超える会社[1]管理職だけが{頑張|がんば}ってどうにかなるものではありません。一人一人の社員の意識が大切です。私の{部署|ぶしょ}でも、{余暇|よか}を上手に使って、{資格|しかく}を{取得|しゅとく}する{者|もの}や、{資格|しかく}は[2]専門書をよく読んでいる{者|もの}など、{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", "また、社員がなかなか{定着|ていちゃく}しないと{嘆|なげ}いている会社が多いのにひきかえ、{我|わ}が{社|しゃ}は[4]。社員{同士|どうし}のコミュニケーションもとれ、{効率|こうりつ}の良い仕事の仕方が工夫されているからだと{自負|じふ}しています。"],
-        en: ["Once a company has more than 1,000 employees, the managers' hard work alone isn't enough to keep it going. What matters is the attitude of each individual employee. In my department too, everyone is forward-looking regardless of position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, hardly anyone at our company quits before retirement. I'm proud to say this is because employees communicate well with one another and we have devised efficient ways of working."],
+        en: ["Once a company has more than 1,000 employees, the managers' hard work alone isn't enough to keep it going. What matters is the attitude of each individual employee. In my department too, everyone is proactive regardless of position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, hardly anyone at our company quits before retirement. I'm proud to say this is because employees communicate well with one another and we have devised efficient ways of working."],
         blanks: [
           {
             options: ["に{即|そく}して", "をもって", "ともなると", "あっての"],
@@ -779,7 +779,7 @@ TRY.registerChapter({
           {
             options: ["いかんともしがたく", "いかんにかかわらず", "いかんで", "いかんによって"],
             answer: 1,
-            why: { en: "役職や仕事の経験年数のいかんにかかわらず: everyone is forward-looking regardless of rank or experience. いかんで／いかんによって (depending on) would make the attitude vary with rank, and いかんともしがたく (there's nothing to be done) makes no sense here." },
+            why: { en: "役職や仕事の経験年数のいかんにかかわらず: everyone is proactive regardless of rank or experience. いかんで／いかんによって (depending on) would make the attitude vary with rank, and いかんともしがたく (there's nothing to be done) makes no sense here." },
           },
           {
             options: ["{中途退職者|ちゅうとたいしょくしゃ}がほとんどいません", "{中途退職者|ちゅうとたいしょくしゃ}がほとんどです", "{新入|しんにゅう}社員が毎年入ってきます", "{新入|しんにゅう}社員が毎年辞めていきます"],

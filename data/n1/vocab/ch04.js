@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "treatment; pay and working conditions",
     note: "At work, 待遇がいい means good pay and benefits; 待遇改善 is improving them. Also how guests are treated: 特別待遇, VIP待遇. 扱い is the more general 'handling, treatment'.",
     rx: ["たいぐ", "だいぐう", "たいごう"],
-    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the work itself and issues like pay and benefits play a part, of course, but “personal relationships” always rank near the top.", at: "ch/4" },
     ex: [
       { ja: "**{待遇|たいぐう}**のいい会社に{転職|てんしょく}したい。", en: "I want to switch to a company with better pay and conditions.", alt: ["{境遇|きょうぐう}", "{待機|たいき}", "{遭遇|そうぐう}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "higher rank, top positions",
     note: "上位に入る (make the top ranks), 上位3社 (the top three companies), 上位に挙がる (rank high on a list). The opposite is 下位. 上級 is about level of skill or grade.",
     rx: ["じょい", "うわい", "しょうい"],
-    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the work itself and issues like pay and benefits play a part, of course, but “personal relationships” always rank near the top.", at: "ch/4" },
     ex: [
       { ja: "彼はマラソン大会で毎年**{上位|じょうい}**に入っている。", en: "He places near the top in the marathon every year.", alt: ["{上級|じょうきゅう}", "{上司|じょうし}", "{地位|ちい}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "next term; the next (holder of an office, model, period)",
     note: "次期社長, 次期大統領, 次期モデル. Formal; the everyday word is 次の. Don't confuse it with 時期 (period, season), also read じき.",
     rx: ["つぎき", "じご", "しき"],
-    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president.", at: "gp/40" },
+    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him to be the next president.", at: "gp/40" },
     ex: [
       { ja: "彼は**{次期|じき}**会長の{有力|ゆうりょく}{候補|こうほ}だ。", en: "He is a leading candidate to be the next chairman.", alt: ["{時期|じき}", "{次第|しだい}", "{早期|そうき}"] },
     ] },
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "career history, background",
     note: "経歴を偽る (lie about one's background), 華やかな経歴. 履歴 is a record (履歴書 résumé, 閲覧履歴 browsing history); 学歴 is educational background only.",
     rx: ["けいりゃく", "きょうれき", "けいれい"],
-    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president.", at: "gp/40" },
+    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him to be the next president.", at: "gp/40" },
     ex: [
       { ja: "彼女は{弁護士|べんごし}から作家になった{異色|いしょく}の**{経歴|けいれき}**の持ち主だ。", en: "She has an unusual background: she went from being a lawyer to being a writer.", alt: ["{経過|けいか}", "{経費|けいひ}", "{歴史|れきし}"] },
     ] },
@@ -454,7 +454,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "public opinion",
     note: "Usually read よろん; せろん is also accepted. 世論調査 (opinion poll), 世論に問う (put a question to the public). 世間 is 'society, people around you'.",
     rx: ["せいろん", "よろう", "せいろ"],
-    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "The need to protect the environment hardly needs to be put to the public as a question.", at: "gp/41" },
+    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "There's no need to ask the public all over again whether the environment needs protecting.", at: "gp/41" },
     ex: [
       { ja: "最新の**{世論|よろん}**調査では、{内閣|ないかく}の{支持率|しじりつ}が下がった。", en: "In the latest opinion poll, the cabinet's approval rating fell.", alt: ["{世間|せけん}", "{理論|りろん}", "{世代|せだい}"] },
     ] },
@@ -518,7 +518,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "joining, enrollment (in an insurance plan, union or organization)",
     note: "保険に加入する, 組合への加入. 加盟 is for organizations or countries joining an alliance; 入会 is joining a club.",
     rx: ["かにゅ", "かいり", "くわにゅう"],
-    book: { ja: "この{保険|ほけん}は、{国籍|こくせき}のいかんにかかわらず、国内で働く全ての人に**{加入|かにゅう}**が義務づけられています。", en: "Everyone working in the country, regardless of nationality, is required to join this insurance scheme.", at: "gp/42" },
+    book: { ja: "この{保険|ほけん}は、{国籍|こくせき}のいかんにかかわらず、国内で働く全ての人に**{加入|かにゅう}**が義務づけられています。", en: "Everyone working in the country, regardless of nationality, is required to enroll in this insurance plan.", at: "gp/42" },
     ex: [
       { ja: "車を買ったら、まず自動車保険に**{加入|かにゅう}**しよう。", en: "Once you buy a car, the first thing to do is sign up for car insurance.", alt: ["{介入|かいにゅう}", "{加工|かこう}", "{記入|きにゅう}"] },
     ] },
@@ -652,7 +652,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "(managerial) post, position with a title",
     note: "役職に就く, 役職名 (titles like 課長, 部長). 役職 is a titled position in an organization; 職業 is one's occupation; 地位 is social standing.",
     rx: ["やくしき", "えきしょく", "やくじょく"],
-    book: { ja: "**{役職|やくしょく}**や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", en: "… everyone is forward-looking regardless of their position or years of experience.", at: "ch/4/review" },
+    book: { ja: "**{役職|やくしょく}**や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", en: "… everyone is proactive regardless of their position or years of experience.", at: "ch/4/review" },
     ex: [
       { ja: "彼は若くして部長という**{役職|やくしょく}**に{就|つ}いた。", en: "He took up the post of department head at a young age.", alt: ["{就職|しゅうしょく}", "{職員|しょくいん}", "{役者|やくしゃ}"] },
     ] },
@@ -660,7 +660,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "positive, forward-looking, constructive",
     note: "前向きな姿勢, 前向きに考える. In business, 前向きに検討します can be a polite non-committal reply. The opposite is 後ろ向き.",
     rx: ["ぜんむき", "まえむけ", "まえこうき"],
-    book: { ja: "{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]**{前向|まえむ}き**な社員ばかりです。", en: "… everyone is forward-looking regardless of their position or years of experience.", at: "ch/4/review" },
+    book: { ja: "{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]**{前向|まえむ}き**な社員ばかりです。", en: "… everyone is proactive regardless of their position or years of experience.", at: "ch/4/review" },
     ex: [
       { ja: "失敗しても、彼女はいつも**{前向|まえむ}き**に考えるようにしている。", en: "Even when she fails, she always tries to look on the bright side.", alt: ["{横向|よこむ}き", "{表向|おもてむ}き", "{上向|うわむ}き"] },
     ] },
