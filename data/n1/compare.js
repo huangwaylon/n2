@@ -35,7 +35,7 @@ TRY.registerCompare([
         ex: { ja: "有名デパートの店員は、言葉{遣|づか}いからして{丁寧|ていねい}だ。", en: "Staff at well-known department stores are polite in everything, starting with the way they speak." },
         note: "N + からして: \"starting with N / even N alone\". Picks one small or first-noticed feature to suggest the whole is the same (good or bad); not a reason. It can also mean \"judging from\" (あの態度からして), close to から見て." },
       { pattern: "〜からあるN", level: "N1", no: 107,
-        ex: { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all their might to carry a suitcase weighing as much as 10 kg." },
+        ex: { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all their might to carry a suitcase that weighs a good 10 kg." },
         note: "Quantity + からある + N: \"a good ~ / as much as ~\". Stresses that a size, weight, length or distance is large (things that ある)." },
       { pattern: "〜からいるN", level: "N1", no: 107,
         ex: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely." },
@@ -44,7 +44,7 @@ TRY.registerCompare([
         ex: { ja: "2,000万円からする宝石が{何者|なにもの}かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by an unknown thief, and it's caused a huge uproar." },
         note: "Price + からする + N: \"costing as much as\". The form for prices and values (compare 値段がする)." },
       { pattern: "〜からのN", level: "N1", no: 107,
-        ex: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered a personal donation of no less than 100 million yen." },
+        ex: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered to donate no less than 100 million yen out of his own pocket." },
         note: "Quantity + からの + N: \"as many / as much as\". Works for any quantity (money, people, weight); the general form of the からある group." }
     ]
   },
@@ -595,10 +595,10 @@ TRY.registerCompare([
         ex: { ja: "ほこりが鼻に入るとくしゃみが出て、自然にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; the body is built to expel it naturally that way." },
         note: "V-る / V-ない + ようになっている: \"is designed so that\". How a machine, system or the body works automatically." },
       { pattern: "VようにもVない", level: "N1", no: 84,
-        ex: { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "I'll never forget my huge blunder at the speech contest, however hard I try." },
+        ex: { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "I couldn't forget my huge blunder at the speech contest if I tried." },
         note: "V-（よ）う + にも + the same V in the negative potential: \"even if one tries to ~, one can't\". Some circumstance makes the wished-for action impossible." },
       { pattern: "Vようによって（は）", level: "N1", no: 110,
-        ex: { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you approach that proposal, couldn't you make an interesting program out of it?" },
+        ex: { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "That proposal — depending on how you handle it, couldn't you get an interesting show out of it?" },
         note: "V-ます stem + ようによって（は）: \"depending on how one ~\" (考えようによっては, 見ようによっては). A different way of doing or seeing it can lead to a different, often unexpected, result." }
     ]
   },
