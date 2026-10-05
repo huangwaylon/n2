@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to raise (a hand); to give (an example); to hold (a ceremony); to put in (every effort), involve (a whole nation)",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
-    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "In the old days, the prospect of hosting the Olympics would have the whole nation rejoicing.", at: "ch/14" },
+    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "Hosting the Olympics used to be cause for nationwide celebration.", at: "ch/14" },
     ex: [
       { ja: "{具体的|ぐたいてき}な{例|れい}を**{挙|あ}げて**{説明|せつめい}してください。", en: "Please explain with a concrete example.", alt: ["{下|さ}げて", "{投|な}げて", "{広|ひろ}げて"] },
       { ja: "{二人|ふたり}は{来月|らいげつ}、ハワイで{結婚式|けっこんしき}を**{挙|あ}げる**そうだ。", en: "I hear the two of them are having their wedding in Hawaii next month." },
@@ -28,7 +28,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "stadium; sports ground; arena",
     note: "A venue for sports competitions, especially track and field: 陸上競技場, 国立競技場. 競技 means a sporting event or competition (競技に出る). スタジアム is the loanword; 球場 is a baseball stadium.",
     rx: ["きょうぎば", "きょぎじょう", "けいぎじょう"],
-    book: { ja: "また、オリンピック{開催|かいさい}にあたっては、{資金|しきん}に{加|くわ}えて、**{競技場|きょうぎじょう}**などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Also, when hosting the Olympics, in addition to funding, securing land for building stadiums and other facilities becomes an important issue.", at: "ch/14" },
+    book: { ja: "また、オリンピック{開催|かいさい}にあたっては、{資金|しきん}に{加|くわ}えて、**{競技場|きょうぎじょう}**などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Also, in hosting the Olympics, securing land to build stadiums and other facilities becomes a major challenge in addition to funding.", at: "ch/14" },
     ex: [
       { ja: "{新|あたら}しい**{競技場|きょうぎじょう}**で{陸上|りくじょう}の{全国大会|ぜんこくたいかい}が{行|おこな}われた。", en: "The national track and field championships were held at the new stadium.", alt: ["{駐車場|ちゅうしゃじょう}", "{会議場|かいぎじょう}", "{飛行場|ひこうじょう}"] },
     ] },
@@ -36,7 +36,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to get used to living (somewhere); to be at home in a place",
     note: "Almost always as 住み慣れた + place: 住み慣れた町 / 家 / 土地 (the town you've lived in for years). 〜慣れる attaches to verb stems: 使い慣れた (well-used), 見慣れた (familiar), 聞き慣れない (unfamiliar-sounding).",
     rx: ["すみかんれる", "じゅうみなれる", "すみなられる"],
-    book: { ja: "**住み{慣|な}れた**土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意されたとしても、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Leaving the land where one has long lived is probably not something one can easily accept, even if compensation or replacement housing is provided.", at: "ch/14" },
+    book: { ja: "**住み{慣|な}れた**土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意されたとしても、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Even if compensation or replacement housing is provided, leaving a place you have long called home is probably not something people can easily accept.", at: "ch/14" },
     ex: [
       { ja: "**{住|す}み{慣|な}れた**{町|まち}を{離|はな}れるのは、やはり{寂|さび}しい。", en: "Leaving the town where you've lived so long really is sad.", alt: ["{使|つか}い{慣|な}れた", "{住|す}み{込|こ}んだ", "{書|か}き{慣|な}れた"] },
     ] },
@@ -100,7 +100,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "the way something should be; the ideal form; the current state",
     note: "Used when questioning how an institution or practice ought to be: 教育のあり方, 家族のあり方を考える, 今後のあり方. Also written 在り方. やり方 is simply the method of doing something.",
     rx: ["ありほう", "ありがた", "ありけた"],
-    book: { ja: "今、世界{規模|きぼ}でオリンピックの**あり方**を、{改|あらた}めて考えるときが来ているのではないだろうか。", en: "Hasn't the time come now to rethink, on a global scale, what the Olympics should be?", at: "ch/14" },
+    book: { ja: "今、世界{規模|きぼ}でオリンピックの**あり方**を、{改|あらた}めて考えるときが来ているのではないだろうか。", en: "Hasn't the time come for the world to rethink what the Olympics should be?", at: "ch/14" },
     ex: [
       { ja: "これからの{教育|きょういく}の**あり{方|かた}**について、{専門家|せんもんか}が{話|はな}し{合|あ}った。", en: "Experts discussed what education should be like in the future.", alt: ["{味方|みかた}", "{夕方|ゆうがた}", "{大方|おおかた}"] },
     ] },
@@ -108,7 +108,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "coming-of-age ceremony",
     note: "Held by local governments in January (on 成人の日, Coming-of-Age Day) for young people who have turned adult. 成人 means an adult (成人する, come of age). Many women wear 振袖 (long-sleeved kimono) to it.",
     rx: ["せいにんしき", "せいじんしょく", "しょうじんしき"],
-    book: { ja: "あの子がもう**{成人式|せいじんしき}**ですか。", en: "That kid is already old enough for the coming-of-age ceremony?", at: "gp/132" },
+    book: { ja: "あの子がもう**{成人式|せいじんしき}**ですか。", en: "That kid is already celebrating Coming of Age Day?", at: "gp/132" },
     ex: [
       { ja: "1{月|がつ}の**{成人式|せいじんしき}**に{出席|しゅっせき}するため、{実家|じっか}に{帰|かえ}った。", en: "I went back to my parents' home to attend the coming-of-age ceremony in January.", alt: ["{方程式|ほうていしき}", "{株式|かぶしき}", "{形式|けいしき}"] },
     ] },
@@ -116,7 +116,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "being in a (mountain or sea) accident; getting lost or stranded",
     note: "Getting into life-threatening trouble in the mountains or at sea: 山で遭難する, 遭難者 (people in distress), 遭難救助. 遭 means to meet with (遭遇 encounter). 避難 is evacuating to safety.",
     rx: ["そうだん", "そなん", "ぞうなん"],
-    book: { ja: "A：昔、この山で**{遭難|そうなん}**しかけて{焦|あせ}った（　）があるんだ。", en: "A: Once, a long time ago, I nearly got lost on this mountain and panicked.", at: "gp/132" },
+    book: { ja: "A：昔、この山で**{遭難|そうなん}**しかけて{焦|あせ}った（　）があるんだ。", en: "A: Years ago, I nearly got lost on this mountain, and I really panicked.", at: "gp/132" },
     ex: [
       { ja: "{冬山|ふゆやま}で**{遭難|そうなん}**した{登山者|とざんしゃ}が、{無事|ぶじ}{救助|きゅうじょ}された。", en: "The climbers who got stranded on the winter mountain were rescued safely.", alt: ["{災難|さいなん}", "{非難|ひなん}", "{困難|こんなん}"] },
     ] },
@@ -132,7 +132,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to carry over; to postpone (to a later time)",
     note: "Leaving something undecided or unfinished until next time: 結論を来週に持ち越す, 決着は次回に持ち越された. Often passive. The noun is 持ち越し. 延期 is postponing an event to a later date.",
     rx: ["もちえつ", "じこす", "もちごす"],
-    book: { ja: "スポーツ大会のやり方をめぐって、意見が分かれ、{結論|けつろん}は来週に**{持|も}ち{越|こ}された**。", en: "Opinions were split over how to run the sports tournament, and the decision was carried over to next week.", at: "gp/133" },
+    book: { ja: "スポーツ大会のやり方をめぐって、意見が分かれ、{結論|けつろん}は来週に**{持|も}ち{越|こ}された**。", en: "Opinions were divided over how to run the sports meet, and the decision was put off until next week.", at: "gp/133" },
     ex: [
       { ja: "{時間|じかん}が{足|た}りず、{残|のこ}りの{議題|ぎだい}は{次|つぎ}の{会議|かいぎ}に**{持|も}ち{越|こ}された**。", en: "We ran out of time, so the remaining items were carried over to the next meeting.", alt: ["{追|お}い{越|こ}された", "{乗|の}り{越|こ}された", "{見逃|みのが}された"] },
     ] },
@@ -140,14 +140,14 @@ TRY.registerVocab({ ch: 14, words: [
     en: "renovation; repair and improvement (of buildings, roads)",
     note: "Repairing and improving a structure: 改修工事, 校舎を改修する, 道路の改修. リフォーム is used for homes; 修理 is repairing a machine or object. 回収 (collection, recall) is a homophone.",
     rx: ["かいしゅ", "かいじゅう", "がいしゅう"],
-    book: { ja: "どこのマンションでも、**{改修|かいしゅう}**工事をめぐる話し合いは、なかなかまとまらないものだ。", en: "In any apartment building, discussions over renovation work never seem to reach agreement easily.", at: "gp/133" },
+    book: { ja: "どこのマンションでも、**{改修|かいしゅう}**工事をめぐる話し合いは、なかなかまとまらないものだ。", en: "In any apartment building, discussions over renovation work always seem to drag on without agreement.", at: "gp/133" },
     ex: [
       { ja: "{古|ふる}い{橋|はし}の**{改修|かいしゅう}**{工事|こうじ}が、{来月|らいげつ}から{始|はじ}まる。", en: "Repair work on the old bridge will start next month.", alt: ["{改正|かいせい}", "{修学|しゅうがく}", "{回転|かいてん}"] },
     ] },
   { w: "まとまる", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be settled; to come together; to be organized",
     note: "Opinions, talks or plans reaching agreement (話がまとまる, 意見がまとまらない); things being gathered into one (クラスがまとまる). The transitive is まとめる (summarize, put together). まとまった also means 'a sizable': まとまったお金.",
-    book: { ja: "どこのマンションでも、{改修|かいしゅう}工事をめぐる話し合いは、なかなか**まとまらない**ものだ。", en: "In any apartment building, discussions over renovation work never seem to reach agreement easily.", at: "gp/133" },
+    book: { ja: "どこのマンションでも、{改修|かいしゅう}工事をめぐる話し合いは、なかなか**まとまらない**ものだ。", en: "In any apartment building, discussions over renovation work always seem to drag on without agreement.", at: "gp/133" },
     ex: [
       { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、ようやく{意見|いけん}が**まとまった**。", en: "After long discussions, opinions finally came together.", alt: ["ちぢまった", "はじまった", "おさまった"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "reconstruction; recovery (after a disaster or war)",
     note: "Rebuilding a town, region or economy after a disaster: 震災からの復興, 復興支援. 復旧 is restoring services such as power or trains to working order; 復興 is the longer process of revitalizing a community.",
     rx: ["ふくこう", "ふっきょう", "ふうこう"],
-    book: { ja: "**{復興|ふっこう}**にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。", en: "In our reconstruction efforts, we received all kinds of support from people around the world.", at: "gp/135" },
+    book: { ja: "**{復興|ふっこう}**にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。", en: "In rebuilding, we received many kinds of support from people all over the world.", at: "gp/135" },
     ex: [
       { ja: "{地震|じしん}で{被害|ひがい}を{受|う}けた{町|まち}の**{復興|ふっこう}**が、{少|すこ}しずつ{進|すす}んでいる。", en: "The reconstruction of the town damaged by the earthquake is progressing little by little.", alt: ["{復習|ふくしゅう}", "{興奮|こうふん}", "{復帰|ふっき}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "ability to cooperate; team spirit",
     note: "Getting along and working well with others, a quality often listed in job ads and school reports: 協調性がある / ない. 協調 is cooperation between parties (国際協調). 協力 is helping out on a specific task.",
     rx: ["きょうちょせい", "きょうちょうしょう", "こうちょうせい"],
-    book: { ja: "{優|すぐ}れたサッカー{選手|せんしゅ}になるには、{運動能力|うんどうのうりょく}に{加|くわ}えて、{判断力|はんだんりょく}や**{協調性|きょうちょうせい}**が{求|もと}められる。", en: "To become an excellent soccer player, you need not only athletic ability but also judgment and the ability to cooperate with others.", at: "gp/136" },
+    book: { ja: "{優|すぐ}れたサッカー{選手|せんしゅ}になるには、{運動能力|うんどうのうりょく}に{加|くわ}えて、{判断力|はんだんりょく}や**{協調性|きょうちょうせい}**が{求|もと}められる。", en: "To become an excellent soccer player, you need not only athletic ability but also good judgment and teamwork.", at: "gp/136" },
     ex: [
       { ja: "チームで{働|はたら}くには、**{協調性|きょうちょうせい}**が{欠|か}かせない。", en: "The ability to cooperate is essential for working in a team.", alt: ["{酸性|さんせい}", "{危険性|きけんせい}", "{重要性|じゅうようせい}"] },
     ] },
