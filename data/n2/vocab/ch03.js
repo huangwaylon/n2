@@ -5,10 +5,10 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["こころかまえ", "しんがまえ", "こころがまい"],
     book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
-      { ja: "{入社|にゅうしゃ}{前|まえ}に、{社会人|しゃかいじん}としての**{心構|こころがま}え**について{先輩|せんぱい}に{話|はなし}を{聞|き}いた。", en: "Before joining the company, I asked a senior colleague about the attitude you need as a working adult.", alt: ["{心当|こころあ}たり", "{心細|こころぼそ}さ", "{構造|こうぞう}"] },
+      { ja: "{入社|にゅうしゃ}{前|まえ}に、{社会人|しゃかいじん}としての**{心構|こころがま}え**について{先輩|せんぱい}に{話|はなし}を{聞|き}いた。", en: "Before joining the company, I asked someone a few years ahead of me about the attitude you need as a working adult.", alt: ["{心当|こころあ}たり", "{心細|こころぼそ}さ", "{構造|こうぞう}"] },
     ] },
   { w: "{対応|たいおう}", lv: "N2", pos: "noun · する verb",
-    en: "dealing with; handling; response (to a situation or request); correspondence",
+    en: "dealing with; handling; response (to a situation or request); correspondence (between two things)",
     note: "Responding appropriately to a situation, problem or request: 〜に対応する, クレーム対応 (handling complaints), 対応が早い (quick to respond). It also means “to correspond to / be compatible with” (英語に対応している). 応対 is narrower — dealing with a person in front of you or on the phone.",
     rx: ["たいよう", "たいのう", "ついおう"],
     book: { ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける{限|かぎ}り、お客様からのクレームに**{対応|たいおう}**せざるを{得|え}ない場面に{必|かなら}ず{出合|であ}います。", en: "You probably don't want to, but as long as you keep working at a hotel, you're bound to run into situations where you have no choice but to deal with complaints from guests.", at: "ch/3" },
@@ -25,7 +25,7 @@ TRY.registerVocab({ ch: 3, words: [
     ] },
   { w: "{苦情|くじょう}", lv: "N2", pos: "noun",
     en: "complaint (about service, noise, a product, etc.)",
-    note: "A formal complaint made to someone responsible: 苦情を言う / 受ける, 苦情が来る, 苦情処理 (complaint handling). クレーム is the common business loanword; 文句 is a casual grumble or objection.",
+    note: "A complaint made to the person or body responsible: 苦情を言う / 受ける, 苦情が来る, 苦情処理 (complaint handling). クレーム is the common business loanword; 文句 is a casual grumble or objection.",
     rx: ["くうじょう", "くじょ", "にがじょう"],
     book: { ja: "いちばん難しいのは、**{苦情|くじょう}**{処理|しょり}です。", en: "The hardest part is handling complaints.", at: "ch/3" },
     ex: [
@@ -177,7 +177,7 @@ TRY.registerVocab({ ch: 3, words: [
     ] },
   { w: "{接近|せっきん}", lv: "N2", pos: "noun · する verb",
     en: "approach; drawing near",
-    note: "A formal word, typical of news, for something moving closer: 台風の接近, 〜に接近する. In everyday speech, 近づく. It can also describe people getting close to someone (often with suspicion).",
+    note: "A formal word, typical of news, for something moving closer: 台風の接近, 〜に接近する. In everyday speech, 近づく. It can also describe a person approaching someone, often with an ulterior motive.",
     rx: ["せつきん", "しょうきん", "せっこん"],
     book: { ja: "{台風|たいふう}**{接近|せっきん}**のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert.", at: "gp/24" },
     ex: [
@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 3, words: [
     ] },
   { w: "{快適|かいてき}", lv: "N2", pos: "な adjective",
     en: "comfortable; pleasant (of conditions or surroundings)",
-    note: "Describes an environment or experience that feels good: 快適な部屋 / 旅 / 生活, 快適に過ごす. It is not used for people (a comfortable person is 気楽な or 楽な). Opposite: 不快.",
+    note: "Describes an environment or experience that feels good: 快適な部屋 / 旅 / 生活, 快適に過ごす. It is not used for people (someone you are at ease with is 気楽な相手, or 一緒にいて楽な人). Opposite: 不快.",
     rx: ["かいてい", "けいてき", "かいでき"],
     book: { ja: "{山奥|やまおく}の{自然|しぜん}に{恵|めぐ}まれた{友人宅|ゆうじんたく}で1週間{暮|く}らしてみて、{必|かなら}ずしも{都会|とかい}の便利で**{快適|かいてき}**な生活がいい（　）ことを知った。", en: "After living for a week at a friend's house deep in the mountains, surrounded by nature, I learned that a convenient, comfortable city life isn't necessarily better.", at: "gp/25" },
     ex: [
@@ -301,7 +301,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ざいのう", "さいどう", "せいのう"],
     book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり**{才能|さいのう}**がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you run up against your limits, after all.", at: "gp/25" },
     ex: [
-      { ja: "{彼女|かのじょ}には{子|こ}どもの{頃|ころ}から{音楽|おんがく}の**{才能|さいのう}**があった。", en: "She has had a talent for music since she was a child.", alt: ["{性能|せいのう}", "{機能|きのう}", "{芸能|げいのう}"] },
+      { ja: "{彼女|かのじょ}には{子|こ}どもの{頃|ころ}から{音楽|おんがく}の**{才能|さいのう}**があった。", en: "She had a talent for music even as a child.", alt: ["{性能|せいのう}", "{機能|きのう}", "{芸能|げいのう}"] },
     ] },
   { w: "{限界|げんかい}", lv: "N2", pos: "noun",
     en: "limit; limitation; the most one can do",
@@ -381,7 +381,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["かっかんてき", "きゃくかんてき", "きゃっけんてき"],
     book: { ja: "「今の{状況|じょうきょう}から{判断|はんだん}すると、悪い{結果|けっか}が{予想|よそう}される」と言いたいときに使う。**{客観的|きゃっかんてき}**に見るとという{判断|はんだん}が入っていることが多い。", en: "Use this when you want to say that “judging from the current situation, a bad result is expected.” It often includes a judgment based on an objective view.", at: "gp/27", src: "book" },
     ex: [
-      { ja: "{感情|かんじょう}{的|てき}にならず、**{客観的|きゃっかんてき}**に{状況|じょうきょう}を{判断|はんだん}することが{大切|たいせつ}だ。", en: "It's important not to get emotional and to judge the situation objectively.", alt: ["{積極的|せっきょくてき}", "{主観的|しゅかんてき}", "{感動的|かんどうてき}"] },
+      { ja: "{感情|かんじょう}{的|てき}にならず、**{客観的|きゃっかんてき}**に{状況|じょうきょう}を{判断|はんだん}することが{大切|たいせつ}だ。", en: "It's important not to get emotional and to judge the situation objectively.", alt: ["{劇的|げきてき}", "{主観的|しゅかんてき}", "{感動的|かんどうてき}"] },
     ] },
   { w: "{倒産|とうさん}", lv: "N1", pos: "noun · する verb",
     en: "bankruptcy (of a company); going under",
@@ -389,7 +389,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["どうさん", "とうざん", "たおさん"],
     book: { ja: "今のような{経営|けいえい}方法では、2、3年のうちに**{倒産|とうさん}**しかねない。", en: "If the business keeps being run the way it is now, it could go bankrupt within two or three years.", at: "gp/27" },
     ex: [
-      { ja: "{不況|ふきょう}の{影響|えいきょう}で、{取引先|とりひきさき}の{会社|かいしゃ}が**{倒産|とうさん}**した。", en: "Because of the recession, one of our client companies went bankrupt.", alt: ["{出産|しゅっさん}", "{生産|せいさん}", "{倒壊|とうかい}"] },
+      { ja: "{不況|ふきょう}の{影響|えいきょう}で、{取引先|とりひきさき}の{会社|かいしゃ}が**{倒産|とうさん}**した。", en: "Because of the recession, a company we do business with went bankrupt.", alt: ["{出産|しゅっさん}", "{生産|せいさん}", "{倒壊|とうかい}"] },
     ] },
   { w: "{寝不足|ねぶそく}", lv: "N2", pos: "noun · な adjective",
     en: "lack of sleep; sleep-deprived",
@@ -413,7 +413,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["あくよ", "わるよう", "およう"],
     book: { ja: "{情報|じょうほう}{管理|かんり}をきちんとしないと、{個人|こじん}{情報|じょうほう}を**{悪用|あくよう}**されかねない。", en: "If information isn't managed properly, personal data could end up being misused.", at: "gp/27" },
     ex: [
-      { ja: "{他人|たにん}のカード{番号|ばんごう}を**{悪用|あくよう}**して{買|か}い{物|もの}をした{男|おとこ}が{逮捕|たいほ}された。", en: "A man who misused other people's card numbers to make purchases was arrested.", alt: ["{採用|さいよう}", "{応用|おうよう}", "{愛用|あいよう}"] },
+      { ja: "{他人|たにん}のカード{番号|ばんごう}を**{悪用|あくよう}**して{買|か}い{物|もの}をした{男|おとこ}が{逮捕|たいほ}された。", en: "A man was arrested for fraudulently using other people's card numbers to make purchases.", alt: ["{採用|さいよう}", "{応用|おうよう}", "{愛用|あいよう}"] },
     ] },
   { w: "{詐欺|さぎ}", lv: "N1", pos: "noun",
     en: "fraud; scam; swindle",
@@ -600,7 +600,7 @@ TRY.registerVocab({ ch: 3, words: [
     ] },
   { w: "{眠気|ねむけ}", lv: "N2", pos: "noun",
     en: "sleepiness; drowsiness",
-    note: "眠気がする / 襲う (drowsiness comes over you), 眠気を覚ます (shake off sleepiness), 眠気覚まし (something to keep you awake). The 気 here is read け, as in 寒気 (a chill) and 湿気 (humidity).",
+    note: "眠気がさす / 眠気に襲われる (drowsiness comes over you), 眠気を覚ます (shake off sleepiness), 眠気覚まし (something to keep you awake). The 気 here is read け, as in 寒気 (a chill) and 湿気 (humidity).",
     rx: ["ねむき", "みんけ", "ねむっけ"],
     book: { ja: "利用者の話では、**{眠気|ねむけ}**を{解消|かいしょう}するには、深く{眠|ねむ}らないで15分{程度|ていど}軽く寝るのがいいということだ。", en: "According to its users, the best way to get rid of drowsiness is to sleep lightly for about 15 minutes without falling into a deep sleep.", at: "ch/3/review" },
     ex: [
