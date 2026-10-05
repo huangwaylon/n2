@@ -4557,7 +4557,7 @@ TRY.registerUnits([
     "page": 218,
     "text": {
      "ja": "「{慣用句|かんようく}」とは、二つ以上の言葉がまとまって特別な意味を表すものです。例えば、第12課の読み物2に出てくる「心が折れる」は、「心」が「気持ち」を、「折れる」が{固|かた}い物が曲がる (bend) ことを表し、「その人を{支|ささ}えていた (support) ものがなくなり、意欲 (motivation) がなくなる」という意味になります。慣用句には体の{部位|ぶい} (parts) がよく使われます。",
-     "tr": "Kan'yōku (idioms) are expressions in which two or more words come together to express a special meaning. For example, in 心が折れる (\"one's heart breaks\"), which appears in Reading 2 of Lesson 12, 心 (heart) stands for \"feelings\" and 折れる stands for a hard object bending, and the whole means \"the thing that had been supporting a person is gone, and they lose their motivation.\" Idioms often use parts of the body."
+     "tr": "慣用句 (idioms) are expressions in which two or more words come together to express a special meaning. For example, in 心が折れる (\"one's spirit breaks\"), which appears in Reading 2 of Lesson 12, 心 (heart) stands for \"feelings\" and 折れる stands for a hard object bending, and the whole means \"the thing that had been supporting a person is gone, and they lose their motivation.\" Idioms often use parts of the body."
     }
    },
    {
@@ -4778,7 +4778,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "ちゃんと寝ないと、【a. 頭にきて　b. 頭が回らず】、何も考えられなくなる。",
-         "tr": "If I don't get enough sleep, my head stops working, and I can't think about anything."
+         "tr": "If I don't get enough sleep, my head stops working and I can't think at all."
         },
         "options": [
          "a. 頭にきて",
@@ -5303,7 +5303,7 @@ TRY.registerUnits([
         "n": "(9)",
         "text": {
          "ja": "生魚は【a. 足を引っ張る　b. 足が早い】から、{冷蔵庫|れいぞうこ}にいれておきましょう。",
-         "tr": "Raw fish spoils quickly, so let's put it in the refrigerator."
+         "tr": "Raw fish spoils quickly, so keep it in the refrigerator."
         },
         "options": [
          "a. 足を引っ張る",
@@ -5470,7 +5470,7 @@ TRY.registerUnits([
         "n": "(11)",
         "text": {
          "ja": "先輩の案に反対だったが、先輩の【a. 顔を立てて　b. 顔に{泥|どろ}を{塗|ぬ}って】賛成した。",
-         "tr": "I was against my senior's proposal, but I agreed to it so that my senior wouldn't lose face."
+         "tr": "I was against my senior's proposal, but I agreed to it to save their face."
         },
         "options": [
          "a. 顔を立てて",
@@ -5597,10 +5597,10 @@ TRY.registerUnits([
      "生活の中に根付いている[[と感じた|]]。"
     ],
     "tr": [
-     "In Japanese anime, you often see junior high and high school students eating a colorfully packed bento of side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present the results of interviews with Japanese students about bento.",
+     "In Japanese anime, you often see junior high and high school students eating a bento colorfully packed with side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present the results of interviews with Japanese students about bento.",
      "According to a survey conducted by Quartet Research in 20XX, 43.1% answered \"yes\" to the question \"Do you bring a bento to college?\" and 56.9% answered \"no.\" The reasons given for bringing a bento included \"to save money,\" \"it's nutritionally better,\" and \"the cafeteria is crowded / expensive and the food is bad.\" The reasons for not bringing one included \"making it is a lot of work,\" \"I don't have time in the morning,\" and \"the cafeteria is convenient.\" This shows that, although many university students don't bring a bento because it's a hassle, it is not unusual for university students to bring a bento to school for economic and health reasons.",
      "For this study, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M (second-year, female), H (third-year, male), and Y (third-year, female).",
-     "First, when I asked, \"Do you bring a bento to school?\", M answered \"every day,\" H \"sometimes,\" and Y \"never.\" M lives with her parents, and apparently her mother makes it for her. H, on the other hand, seems to make a bento only when he has time. Y said she eats lunch at the cafeteria or buys it at a convenience store.",
+     "First, when I asked, \"Do you bring a bento to school?\", M answered \"every day,\" H \"sometimes,\" and Y \"never.\" M lives with her parents, and apparently her mother makes it for her. As for H, it seems he makes a bento only when he has time. Y said she eats lunch at the cafeteria or buys it at a convenience store.",
      "Next, I asked about their reasons for bringing or not bringing a bento. M told me, \"I bring one because a homemade bento saves money and is good for your health, too.\" H answered, \"Getting up early to prepare it is hard, so when I don't have time, I can't. But a bento saves money, and at the cafeteria and convenience stores you have to wait in line, so I'd like to bring one if I can.\" Y explained, \"Bento are a hassle, so I don't bring one. By comparison, the cafeteria is cheap and convenient because it has lots of menu options, and it's fun because I can see my friends.\"",
      "Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" All three mentioned the words \"homemade,\" \"saving money,\" and \"healthy.\" Besides these, M named standard side dishes such as \"rolled omelet\" and \"fried chicken,\" and H answered \"frozen foods.\" Y's answer was \"the elementary school sports day.\" Apparently she has memories of her family coming to sports day and everyone eating bento together at lunchtime.",
      "For this study, I conducted an interview survey of three Japanese students on the question \"Do Japanese university students bring a bento? And what do they think about bento?\" As a result, two people bring one, including the one who said \"sometimes,\" and one person does not. I also found that, just as in Quartet Research's 20XX survey, bento are considered economical and healthy.",
@@ -6266,7 +6266,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「{部首|ぶしゅ}」とは、いろいろな漢字に使われているパーツです。部首にはそれぞれ意味があります。",
-       "tr": "Radicals (bushu) are parts used in many different kanji. Each radical has its own meaning."
+       "tr": "部首 (radicals) are parts used in many different kanji. Each radical has its own meaning."
       }
      },
      {
@@ -6282,7 +6282,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「さんずい（氵）」は「水」の意味を表す部首です。",
-     "tr": "Sanzui (氵) is a radical that means \"water.\""
+     "tr": "さんずい (氵) is a radical that means \"water.\""
     }
    },
    {
@@ -6292,7 +6292,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「さんずい」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with sanzui."
+       "tr": "Read these words that use kanji with さんずい."
       },
       "blocks": [
        {
@@ -6387,7 +6387,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「さんずい」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with sanzui."
+       "tr": "Let's study more kanji with さんずい."
       }
      },
      {
@@ -6458,7 +6458,7 @@ TRY.registerUnits([
     "page": 227,
     "text": {
      "ja": "「てへん（扌）」は「手」の意味を表す部首です。",
-     "tr": "Tehen (扌) is a radical that means \"hand.\""
+     "tr": "てへん (扌) is a radical that means \"hand.\""
     }
    },
    {
@@ -6468,7 +6468,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「てへん」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with tehen."
+       "tr": "Read these words that use kanji with てへん."
       },
       "blocks": [
        {
@@ -6512,7 +6512,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "(例)　!!A↓!!…息!!抜!!き（いきぬき）　!!B→!!…!!抜!!く（ぬく）",
-         "tr": "(Example) A↓: 息抜き (ikinuki, a break); B→: 抜く (nuku, to pull out)"
+         "tr": "(Example) A↓: 息抜き (いきぬき, a break); B→: 抜く (ぬく, to pull out)"
         }
        },
        {
@@ -6694,7 +6694,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「てへん」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with tehen."
+       "tr": "Let's study more kanji with てへん."
       }
      },
      {
@@ -6766,7 +6766,7 @@ TRY.registerUnits([
     "page": 228,
     "text": {
      "ja": "「生」（学__生__）と「性」（女__性__ female）という漢字は、同じ「生」というパーツが使われていて、どちらも音読みは「せい」です。このように音読みを表すパーツを「{音符|おんぷ}」と言い、漢字の音読みがわからない時のヒントになります。",
-     "tr": "The kanji 生 (as in 学生, \"student\") and 性 (as in 女性, \"female\") both use the same part, 生, and both have the on-reading sei. A part like this that shows the on-reading is called a phonetic indicator (onpu), and it can give you a hint when you don't know a kanji's on-reading."
+     "tr": "The kanji 生 (as in 学生, \"student\") and 性 (as in 女性, \"female\") both use the same part, 生, and both have the on-reading せい. A part like this that shows the on-reading is called a phonetic indicator (音符), and it can give you a hint when you don't know a kanji's on-reading."
     }
    },
    {
@@ -7148,7 +7148,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「部首」とは、いろいろな漢字に使われているパーツです。部首にはそれぞれ意味があります。",
-       "tr": "Radicals (bushu) are parts used in many different kanji. Each radical has its own meaning."
+       "tr": "部首 (radicals) are parts used in many different kanji. Each radical has its own meaning."
       }
      },
      {
@@ -7167,7 +7167,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「いとへん」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with itohen."
+       "tr": "Read these words that use kanji with いとへん."
       },
       "blocks": [
        {
@@ -7262,7 +7262,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「いとへん」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with itohen."
+       "tr": "Let's study more kanji with いとへん."
       }
      },
      {
@@ -7333,7 +7333,7 @@ TRY.registerUnits([
     "page": 231,
     "text": {
      "ja": "「りっしんべん（忄）」は「心」の意味を表す部首です。",
-     "tr": "Risshinben (忄) is a radical that means \"heart.\""
+     "tr": "りっしんべん (忄) is a radical that means \"heart.\""
     }
    },
    {
@@ -7343,7 +7343,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「りっしんべん」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with risshinben."
+       "tr": "Read these words that use kanji with りっしんべん."
       },
       "blocks": [
        {
@@ -7552,7 +7552,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「りっしんべん」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with risshinben."
+       "tr": "Let's study more kanji with りっしんべん."
       }
      },
      {
@@ -7887,7 +7887,7 @@ TRY.registerUnits([
         {
          "text": {
           "ja": "18歳〜50歳位　男女不問",
-          "tr": "About 18 to 50; men or women"
+          "tr": "Ages about 18 to 50; men and women both welcome"
          }
         }
        ],
@@ -7902,7 +7902,7 @@ TRY.registerUnits([
         {
          "text": {
           "ja": "**900円〜**　※ 昇給制度有り",
-          "tr": "From 900 yen; raises available"
+          "tr": "From 900 yen; pay raises available"
          }
         }
        ],
@@ -8047,7 +8047,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「{部首|ぶしゅ}」とは、いろいろな漢字に使われているパーツです。部首にはそれぞれ意味があります。",
-       "tr": "Radicals (bushu) are parts used in many different kanji. Each radical has its own meaning."
+       "tr": "部首 (radicals) are parts used in many different kanji. Each radical has its own meaning."
       }
      },
      {
@@ -8063,7 +8063,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「うかんむり（宀）」は「家」「屋根 (roof)」の意味を表す部首です。",
-     "tr": "Ukanmuri (宀) is a radical that means \"house\" or \"roof.\""
+     "tr": "うかんむり (宀) is a radical that means \"house\" or \"roof.\""
     }
    },
    {
@@ -8073,7 +8073,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「うかんむり」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with ukanmuri."
+       "tr": "Read these words that use kanji with うかんむり."
       },
       "blocks": [
        {
@@ -8168,7 +8168,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「うかんむり」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with ukanmuri."
+       "tr": "Let's study more kanji with うかんむり."
       }
      },
      {
@@ -8239,7 +8239,7 @@ TRY.registerUnits([
     "page": 235,
     "text": {
      "ja": "「かいへん・かい（貝）」は「お金」の意味を表す部首です。",
-     "tr": "Kaihen / kai (貝) is a radical that means \"money.\""
+     "tr": "かいへん / かい (貝) is a radical that means \"money.\""
     }
    },
    {
@@ -8249,7 +8249,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "「かいへん・かい」の漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji with kaihen / kai."
+       "tr": "Read these words that use kanji with かいへん / かい."
       },
       "blocks": [
        {
@@ -8450,7 +8450,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "「かいへん」と「かい」の漢字をもっと勉強しよう。",
-       "tr": "Let's study more kanji with kaihen and kai."
+       "tr": "Let's study more kanji with かいへん and かい."
       }
      },
      {
@@ -8703,7 +8703,7 @@ TRY.registerUnits([
     "page": 237,
     "text": {
      "ja": "「つちへん・つち（土）」「ぎょうにんべん（彳）」「のぎへん（禾）」「しめすへん（礻）」「こざとへん（阝）」の漢字を勉強しましょう。",
-     "tr": "Let's study kanji with tsuchihen / tsuchi (土), gyōninben (彳), nogihen (禾), shimesuhen (礻), and kozatohen (阝)."
+     "tr": "Let's study kanji with つちへん / つち (土), ぎょうにんべん (彳), のぎへん (禾), しめすへん (礻), and こざとへん (阝)."
     }
    },
    {
