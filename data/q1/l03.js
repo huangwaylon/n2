@@ -1679,7 +1679,7 @@ TRY.registerLesson({
    "skill": "write",
    "title": {
     "ja": "私の好きな町",
-    "tr": "A Town I Like"
+    "tr": "My Favorite Town"
    },
    "page": 82,
    "blocks": [
@@ -1698,7 +1698,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "自分の好きな町を紹介するコラムを書く。",
-      "tr": "Write a column introducing a town you like."
+      "tr": "Write a column introducing your favorite town."
      }
     },
     {
@@ -1725,13 +1725,13 @@ TRY.registerLesson({
       "・{東京|とうきょう}から……{新幹線|しんかんせん}と電車で約4時間"
      ],
      "tr": [
-      "Takayama, in Gifu Prefecture, is an old and beautiful town. Many historic buildings remain there, and it is called a \"Little Kyoto.\"",
-      "If you go to Takayama, I'd like you to first try walking along the streets with old buildings. You will probably feel as if you were taking a stroll through the Edo period. Along those old streets there are many shops selling traditional crafts and the like, so it might be fun to look for chopsticks, dolls, or other things you like.",
-      "It would also be nice to tour a house built more than 100 years ago. There you can actually experience what country life was like long ago, and try your hand at making traditional crafts. When you want to forget the busy life of today, why not visit Takayama and feel the Japan of the past?",
+      "Takayama, in Gifu Prefecture, is an old and beautiful town. Many historic buildings remain there, and it is known as \"Little Kyoto.\"",
+      "If you go to Takayama, I'd like you to first try walking along the streets with old buildings. You will probably feel as if you were strolling through the Edo period. Along those old streets there are many shops selling traditional crafts and the like, so it might be fun to hunt for chopsticks, dolls, or other things that catch your eye.",
+      "It would also be nice to tour a house built more than 100 years ago. There you can actually experience what country life was like long ago, and try your hand at making traditional crafts. When you want to forget the busy life of today, why not visit Takayama and get a feel for old Japan?",
       "Getting to Takayama\n・From Nagoya: about 2 and a half hours by train / about 2 hours by car\n・From Osaka: about 4 hours by train / about 4 hours by car\n・From Tokyo: about 4 hours by Shinkansen and train"
      ],
      "headTr": [
-      "Takayama, a Town Where You Can Feel the Japan of the Past"
+      "Takayama: A Town Where You Can Feel Old Japan"
      ],
      "roles": [
       {
@@ -1826,7 +1826,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "「昔の日本が感じられる町 {高山|たかやま}」 → !!トピック＝ 高山!!",
-           "tr": "\"Takayama, a Town Where You Can Feel the Japan of the Past\" → Topic = Takayama"
+           "tr": "\"Takayama: A Town Where You Can Feel Old Japan\" → Topic = Takayama"
           }
          ]
         }
@@ -1836,7 +1836,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "紹介したい特徴を中心文にして、段落のはじめに書く。その後に例や説明を書く。……(b)",
-        "tr": "Make the feature you want to introduce the topic sentence and write it at the beginning of the paragraph. After it, write examples and explanations. ……(b)"
+        "tr": "Put the feature you want to introduce in a topic sentence at the beginning of the paragraph. Then add examples and explanations. ……(b)"
        },
        "blocks": [
         {
@@ -1857,7 +1857,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "高山に行ったら、まず古い{建物|たてもの}がある通りを歩いてみてほしい。",
-           "tr": "If you go to Takayama, I'd like you to first try walking along the streets with old buildings."
+           "tr": "If you go to Takayama, I hope you'll start by taking a walk along the streets lined with old buildings."
           }
          ]
         },
@@ -1916,7 +1916,7 @@ TRY.registerLesson({
        "n": "(3)",
        "text": {
         "ja": "その特徴を楽しむ方法を2つ教えてください。",
-        "tr": "Tell us two ways to enjoy those features."
+        "tr": "Give two ways to enjoy those features."
        }
       }
      ]
@@ -1934,7 +1934,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "下の3つを使って、自分が一番好きな町の紹介文を書きなさい。（300〜400字）",
-      "tr": "Using the three things below, write a piece introducing the town you like best. (300–400 characters)"
+      "tr": "Using the three items below, write an introduction to your favorite town. (300–400 characters)"
      }
     },
     {
@@ -2208,7 +2208,7 @@ TRY.registerLesson({
        "n": "2）",
        "text": {
         "ja": "ジョージは{変更|へんこう}の{希望|きぼう} (request) を言う時、何と言っていましたか。",
-        "tr": "What did George say when he made his requests for changes?"
+        "tr": "What did George say when he asked for the changes?"
        },
        "blocks": [
         {
@@ -2369,7 +2369,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❶すみません、明日の7時**に予約をしている**テイラー**と申しますが、予約の{変更|へんこう}をしたいんですが。**",
-       "tr": "Excuse me, my name is Taylor, and I have a reservation for 7:00 tomorrow. I'd like to change the reservation."
+       "tr": "Excuse me, my name is Taylor. I have a reservation for 7:00 tomorrow, and I'd like to make a change to it."
       },
       {
        "sp": "店",
@@ -2399,7 +2399,7 @@ TRY.registerLesson({
        "sp": "店",
        "v": "f",
        "ja": "お二人様キャンセルですね。かしこまりました。",
-       "tr": "So that's a cancellation for two people. Certainly."
+       "tr": "So two people are canceling. Certainly."
       },
       {
        "sp": "ジ",
@@ -2417,7 +2417,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "座敷って、たたみの部屋でしたっけ？",
-       "tr": "Zashiki... that's a tatami room, isn't it?"
+       "tr": "Zashiki... that's a tatami room, right?"
       },
       {
        "sp": "店",
@@ -2499,7 +2499,7 @@ TRY.registerLesson({
       },
       {
        "ja": "店員：予約の変更を受ける",
-       "tr": "Restaurant staff: take a reservation change"
+       "tr": "Restaurant staff: handle a change to a reservation"
       }
      ],
      "steps": [
@@ -2523,7 +2523,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "すみません、明日7時**に予約をしている**〇〇\n**と申しますが、予約の変更をしたいんですが。**",
-        "tr": "Excuse me, my name is (name), and I have a reservation for 7:00 tomorrow. I'd like to change the reservation."
+        "tr": "Excuse me, my name is (name). I have a reservation for 7:00 tomorrow, and I'd like to make a change to it."
        }
       },
       {
@@ -2651,7 +2651,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❶すみません、{{明日の7時}}**に予約をしている**〇〇**と申しますが、予約の{変更|へんこう}をしたいんですが。**",
-         "tr": "Excuse me, my name is (name), and I have a reservation for 7:00 tomorrow. I'd like to change the reservation."
+         "tr": "Excuse me, my name is (name). I have a reservation for 7:00 tomorrow, and I'd like to make a change to it."
         },
         {
          "sp": "店員",
@@ -2741,7 +2741,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.84)で考えた「変更①」を使って話してみよう。",
-        "tr": "Try talking using “Change ①,” which you thought about in 1) of “1-1. Let's try” (p. 84)."
+        "tr": "Have the conversation using “Change ①,” which you came up with in 1) of “1-1. Let's try” (p. 84)."
        }
       }
      ]
@@ -2813,7 +2813,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「1-1. やってみよう」の1）(p.84)で考えた「変更②」を使って話してみよう。",
-        "tr": "Try talking using “Change ②,” which you thought about in 1) of “1-1. Let's try” (p. 84)."
+        "tr": "Have the conversation using “Change ②,” which you came up with in 1) of “1-1. Let's try” (p. 84)."
        }
       }
      ]
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
      "style": "right",
      "text": {
       "ja": "☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！",
-      "tr": "☛ Switch partners and try doing Part A and Part B in a row!"
+      "tr": "☛ Switch partners and try Part A and Part B straight through!"
      }
     },
     {
@@ -2977,7 +2977,7 @@ TRY.registerLesson({
            "who": "あなた",
            "text": {
             "ja": "レストランでセットメニューを注文しようと思います。\nセットの{内容|ないよう}を店員さんに質問してから注文しなさい。\n食後に飲み物が飲みたくなりました。\n{追加|ついか}の注文 (additional order) をしなさい。",
-            "tr": "You're about to order a set menu at a restaurant. Ask the server what comes with the set, and then order.\nAfter your meal, you feel like having a drink. Place an additional order."
+            "tr": "You want to order a set meal at a restaurant. Ask the server what comes with the set, and then order.\nAfter your meal, you feel like having a drink. Place an additional order."
            }
           },
           {
@@ -3209,13 +3209,13 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "みんな、とりあえずビールでいい？",
-       "tr": "Everyone, is beer okay to start with?"
+       "tr": "Is everyone okay with beer to start?"
       },
       {
        "sp": "絵",
        "v": "f",
        "ja": "うん。10人だから、5本で{足|た}りるかな。",
-       "tr": "Yeah. There are ten of us, so I wonder if five bottles will be enough."
+       "tr": "Yeah. There are ten of us, though. Will five bottles be enough?"
       },
       {
        "sp": "メ",
@@ -3491,7 +3491,7 @@ TRY.registerLesson({
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
-       "tr": "Try talking using the pattern in the gray box."
+       "tr": "Try having the conversation using the pattern in the gray box."
       }
      ]
     },
@@ -3629,7 +3629,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "※店員は下のメモを見て答えなさい。",
-          "tr": "* The server should look at the memo below to answer."
+          "tr": "* Servers: answer using the memo below."
          }
         },
         {
@@ -3655,7 +3655,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）① (p. 90) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try” (p. 90)."
+        "tr": "Have the conversation using what you came up with in 1) ① of “2-1. Let's try” (p. 90)."
        }
       }
      ]
@@ -3726,7 +3726,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "① 下のメニューを見て、デザートを追加で注文しなさい。\n② あなたは、そのデザートに入っているもの（例：ミント [mint]）が{苦手|にがて}です。店員に{希望|きぼう}を言いなさい。",
-        "tr": "① Look at the menu below and order a dessert as an additional order.\n② You don't like something that's in that dessert (e.g., mint). Tell the server your request."
+        "tr": "① Look at the menu below and order a dessert in addition.\n② You don't like something that's in that dessert (e.g., mint). Tell the server your request."
        },
        "blocks": [
         {
@@ -3776,7 +3776,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）② (p. 90) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try” (p. 90)."
+        "tr": "Have the conversation using what you came up with in 1) ② of “2-1. Let's try” (p. 90)."
        }
       }
      ]
@@ -3786,7 +3786,7 @@ TRY.registerLesson({
      "style": "right",
      "text": {
       "ja": "☛ ペアを変えて、[#パートA]と[#パートB]を続けてやってみましょう！",
-      "tr": "☛ Switch partners and try doing Part A and Part B in a row!"
+      "tr": "☛ Switch partners and try Part A and Part B straight through!"
      }
     },
     {
@@ -3847,7 +3847,7 @@ TRY.registerLesson({
          {
           "text": {
            "ja": "夜の日替わり定食（ご飯・味噌汁・小鉢付き）",
-           "tr": "Evening daily set meals (with rice, miso soup, and a small side dish)"
+           "tr": "Evening daily special set meals (with rice, miso soup, and a small side dish)"
           },
           "colspan": 2
          }
@@ -3877,7 +3877,7 @@ TRY.registerLesson({
          {
           "text": {
            "ja": "＊ご飯の大盛り無料です。\n・おかわり　100円\n・少なめ　50円引",
-           "tr": "* Large servings of rice are free.\n- Refill: ¥100\n- Small serving: ¥50 off"
+           "tr": "* Large servings of rice at no extra charge.\n- Refill: ¥100\n- Small serving: ¥50 off"
           },
           "colspan": 2
          }
@@ -4048,19 +4048,19 @@ TRY.registerLesson({
        "",
        {
         "ja": "{吉田|よしだ}ルート",
-        "tr": "Yoshida route"
+        "tr": "Yoshida Route"
        },
        {
         "ja": "{富士宮|ふじのみや}ルート",
-        "tr": "Fujinomiya route"
+        "tr": "Fujinomiya Route"
        },
        {
         "ja": "{須走|すばしり}ルート",
-        "tr": "Subashiri route"
+        "tr": "Subashiri Route"
        },
        {
         "ja": "{御殿場|ごてんば}ルート",
-        "tr": "Gotemba route"
+        "tr": "Gotemba Route"
        }
       ]
      ],
@@ -4085,7 +4085,7 @@ TRY.registerLesson({
         "style": "gray left",
         "text": {
          "ja": "登り時間",
-         "tr": "Time up"
+         "tr": "Ascent"
         }
        },
        {
@@ -4111,7 +4111,7 @@ TRY.registerLesson({
         "style": "gray left",
         "text": {
          "ja": "下り時間",
-         "tr": "Time down"
+         "tr": "Descent"
         }
        },
        {
@@ -4142,7 +4142,7 @@ TRY.registerLesson({
        },
        {
         "ja": "多い",
-        "tr": "Many people"
+        "tr": "Many"
        },
        {
         "ja": "ふつう",
@@ -4150,11 +4150,11 @@ TRY.registerLesson({
        },
        {
         "ja": "少ない",
-        "tr": "Few people"
+        "tr": "Few"
        },
        {
         "ja": "少ない",
-        "tr": "Few people"
+        "tr": "Few"
        }
       ]
      ],
@@ -4236,7 +4236,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "今年は初めて登る人もいるんだよね？　でも、何度も登ってる人もいるし、人__によって__登りたいルートが違うかもしれないね。",
-       "tr": "This year some people will be climbing for the first time, right? But there are also people who've climbed many times, so the route people want to take might differ depending on the person."
+       "tr": "This year some people will be climbing for the first time, right? But there are also people who've climbed many times, so which route people want to take might vary from person to person."
       },
       {
        "sp": "ア",
@@ -4278,13 +4278,13 @@ TRY.registerLesson({
        "sp": "ア",
        "v": "m",
        "ja": "そっか。じゃあ、人気の「{吉田|よしだ}ルート」はどう？　道が安全で歩きやすいって聞いたけど……。",
-       "tr": "I see. Then what about the popular Yoshida route? I heard the trail is safe and easy to walk..."
+       "tr": "I see. Then what about the popular Yoshida Route? I heard the trail is safe and easy to walk..."
       },
       {
        "sp": "研",
        "v": "m",
        "ja": "うーん。人気があるルートは人が多いから、ゆっくり歩かないといけないことがあるんだよね。登るスピードがゆっくりだと、登山経験が長い4年生はいらいらしたり、疲れたりするかも。",
-       "tr": "Hmm. Popular routes are crowded, so sometimes you have to walk slowly. If the climbing pace is slow, the fourth-year students with a lot of climbing experience might get irritated or tired."
+       "tr": "Hmm. Popular routes are crowded, so sometimes you have to walk slowly. If the pace is slow, the seniors, who have lots of climbing experience, might get irritated or worn out."
       },
       {
        "sp": "ア",
@@ -4426,11 +4426,11 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "アンドレアの考えによると、日本人は{行列|ぎょうれつ}に並ぶことをどのように思っていますか。",
-        "tr": "According to Andrea, how do Japanese people feel about waiting in line?"
+        "tr": "In Andrea's view, how do Japanese people feel about waiting in line?"
        },
        "answer": {
         "ja": "あまり大変なことではないと思っています。",
-        "tr": "They don't think it's much of a hardship."
+        "tr": "They don't see it as much of a hardship."
        }
       }
      ]
@@ -4507,13 +4507,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "週末、日本人の友達と晩ご飯を食べに行きました。その友達が「食べたいラーメンがある」と言うのでそのお店に行ったのですが、私たちが行った時には、もうたくさんの人が{並|なら}んでいました。お店の人に聞いたら、「1時間ほどかかります」と言うのです。そんなに待ちたくなかったので、私は「別の店に行こう」と言ったのですが、友達が「絶対にここで食べたい」と言うので、{結局|けっきょく}{行列|ぎょうれつ}に並ぶことになりました。",
-       "tr": "Over the weekend, I went out to dinner with a Japanese friend. My friend said, “There's a ramen place I want to try,” so we went there, but by the time we arrived, lots of people were already lined up. When we asked the staff, they said, “It'll take about an hour.” I didn't want to wait that long, so I said, “Let's go somewhere else,” but my friend said, “I absolutely want to eat here,” so in the end we wound up getting in line."
+       "tr": "Over the weekend, I went out to dinner with a Japanese friend. My friend said, “There's a ramen place I want to try,” so we went there, but by the time we arrived, lots of people were already lined up. When we asked the staff, they said, “It'll take about an hour.” I didn't want to wait that long, so I said, “Let's go somewhere else,” but my friend said, “I really want to eat here,” so in the end we got in line."
       },
       {
        "sp": "",
        "v": "m",
        "ja": "待っている間に、友達に、「日本人は待つのが好きだよね。本当によく行列を見るよ」と言ったら、「外国の人も並んでるよ。何か新しいものが発売される時は、どこでもたくさん並んでるでしょう？　例えば、スマートフォンとか、テレビゲームとか。それに、イタリアに旅行に行った時、ピザの店で{結構|けっこう}待たされたよ」と言われました。",
-       "tr": "While we were waiting, I said to my friend, “Japanese people sure like waiting. I see lines all the time.” My friend replied, “People in other countries line up too. When something new comes out, there are long lines everywhere, right? Like for smartphones or video games. Besides, when I went to Italy on a trip, I had to wait quite a while at a pizza place.”"
+       "tr": "While we were waiting, I said to my friend, “Japanese people sure like waiting. I see lines all the time.” My friend replied, “People in other countries line up too. When something new comes out, there are long lines everywhere, right? Like for smartphones or video games. And when I went on a trip to Italy, I had to wait quite a while at a pizza place.”"
       },
       {
        "sp": "",
