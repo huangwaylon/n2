@@ -16,7 +16,7 @@ TRY.registerVocab({ ch: 14, words: [
       { ja: "{死刑制度|しけいせいど}の**{是非|ぜひ}**をめぐって、{議論|ぎろん}が{続|つづ}いている。", en: "Debate continues over whether the death penalty is right or wrong.", alt: ["{非番|ひばん}", "{非常|ひじょう}", "{非売品|ひばいひん}"] },
     ] },
   { w: "{挙|あ}げる", lv: "N2", pos: "verb (ichidan, transitive)",
-    en: "to raise (a hand); to give (an example); to hold (a ceremony); to put in (every effort), involve (a whole nation)",
+    en: "to raise (a hand); to give (an example); to hold (a ceremony); to put forth (all one's effort)",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
     book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "There was a time when hosting the Olympics was cause for nationwide rejoicing.", at: "ch/14" },
@@ -46,7 +46,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["ほうしょう", "ほしょ", "ぼしょう"],
     book: { ja: "{無理|むり}して働いて病気になったとしても、会社は**{補償|ほしょう}**してくれないよ。", en: "Even if you overwork yourself and get sick, the company won't compensate you.", at: "gp/137" },
     ex: [
-      { ja: "{工事|こうじ}で{店|みせ}を{休|やす}んだ{分|ぶん}は、{市|し}が**{補償|ほしょう}**することになった。", en: "The city has agreed to compensate us for the days the shop was closed because of the construction.", alt: ["{補充|ほじゅう}", "{補足|ほそく}", "{保存|ほぞん}"] },
+      { ja: "{工事|こうじ}で{店|みせ}を{休|やす}んだ{分|ぶん}は、{市|し}が**{補償|ほしょう}**することになった。", en: "The city will compensate the shop for the days it was closed because of the construction.", alt: ["{補充|ほじゅう}", "{補足|ほそく}", "{保存|ほぞん}"] },
     ] },
   { w: "{憲章|けんしょう}", lv: "N1", pos: "noun",
     en: "charter (a founding statement of principles)",
@@ -106,7 +106,7 @@ TRY.registerVocab({ ch: 14, words: [
     ] },
   { w: "{成人式|せいじんしき}", lv: "N2", pos: "noun",
     en: "coming-of-age ceremony",
-    note: "Held by local governments in January (on 成人の日, Coming-of-Age Day) for young people who have turned adult. 成人 means an adult (成人する, come of age). Many women wear 振袖 (long-sleeved kimono) to it.",
+    note: "Held by local governments in January (around 成人の日, Coming-of-Age Day) for young people turning twenty; the legal age of adulthood dropped to 18 in 2022, but most towns still hold it at 20. 成人 means an adult (成人する, come of age). Many women wear 振袖 (long-sleeved kimono) to it.",
     rx: ["せいにんしき", "せいじんしょく", "しょうじんしき"],
     book: { ja: "あの子がもう**{成人式|せいじんしき}**ですか。", en: "That kid is already celebrating Coming of Age Day?", at: "gp/132" },
     ex: [
@@ -118,7 +118,7 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["そうだん", "そなん", "ぞうなん"],
     book: { ja: "A：昔、この山で**{遭難|そうなん}**しかけて{焦|あせ}った（　）があるんだ。", en: "A: Years ago I once nearly got lost on this mountain, and I really panicked.", at: "gp/132" },
     ex: [
-      { ja: "{冬山|ふゆやま}で**{遭難|そうなん}**した{登山者|とざんしゃ}が、{無事|ぶじ}{救助|きゅうじょ}された。", en: "The climbers who got stranded on the winter mountain were rescued safely.", alt: ["{災難|さいなん}", "{非難|ひなん}", "{困難|こんなん}"] },
+      { ja: "{冬山|ふゆやま}で**{遭難|そうなん}**した{登山者|とざんしゃ}が、{無事|ぶじ}{救助|きゅうじょ}された。", en: "The climbers stranded in the snowbound mountains were rescued unharmed.", alt: ["{災難|さいなん}", "{非難|ひなん}", "{困難|こんなん}"] },
     ] },
   { w: "{紛争|ふんそう}", lv: "N1", pos: "noun",
     en: "conflict; dispute (between groups or nations)",
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 14, words: [
     note: "Opinions, talks or plans reaching agreement (話がまとまる, 意見がまとまらない); things being gathered into one (クラスがまとまる). The transitive is まとめる (summarize, put together). まとまった also means 'a sizable': まとまったお金.",
     book: { ja: "どこのマンションでも、{改修|かいしゅう}工事をめぐる話し合いは、なかなか**まとまらない**ものだ。", en: "In any apartment building, discussions over renovation work always seem to drag on without agreement.", at: "gp/133" },
     ex: [
-      { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、ようやく{意見|いけん}が**まとまった**。", en: "After long discussions, opinions finally came together.", alt: ["ちぢまった", "はじまった", "おさまった"] },
+      { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、ようやく{意見|いけん}が**まとまった**。", en: "After a long discussion, we finally reached a consensus.", alt: ["ちぢまった", "はじまった", "おさまった"] },
     ] },
   { w: "{差別|さべつ}", lv: "N2", pos: "noun · する verb",
     en: "discrimination; to discriminate",
@@ -313,7 +313,7 @@ TRY.registerVocab({ ch: 14, words: [
     ] },
   { w: "{親権|しんけん}", lv: "N1", pos: "noun",
     en: "parental authority; custody (of a child)",
-    note: "A legal term: 親権を持つ / 争う, 親権者 (the parent with custody). Japan has traditionally given custody to only one parent after divorce. 人権 (human rights) and 真剣 (serious) look or sound similar.",
+    note: "A legal term: 親権を持つ / 争う, 親権者 (the parent with custody). Until 2026, custody after a divorce went to only one parent; a 2024 reform of the Civil Code allows joint custody. 人権 (human rights) and 真剣 (serious) look or sound similar.",
     rx: ["しんげん", "おやけん", "しんこん"],
     book: { ja: "{離婚|りこん}の{際|さい}に、子どもの**{親権|しんけん}**（　）{争|あらそ}うケースが増えている。", en: "More and more divorcing couples are fighting over custody of their children.", at: "gp/138" },
     ex: [
@@ -409,7 +409,7 @@ TRY.registerVocab({ ch: 14, words: [
     ] },
   { w: "{加熱殺菌|かねつさっきん}", lv: "N1", pos: "noun · する verb",
     en: "heat sterilization; pasteurization",
-    note: "Killing germs by heating, common on food labels. 加熱 is heating (加熱する, 加熱してお召し上がりください 'heat before eating'); 殺菌 is sterilization (殺菌作用). 消毒 is disinfecting with chemicals.",
+    note: "Killing germs by heating, common on food labels. 加熱 is heating (加熱する, 加熱してお召し上がりください 'heat before eating'); 殺菌 is sterilization (殺菌作用). 消毒 is disinfecting in general (with alcohol, boiling and so on).",
     rx: ["かねつさつきん", "かねっさっきん", "かれつさっきん"],
     book: { ja: "{缶詰|かんづめ}は中の空気が{抜|ぬ}かれ、**{加熱殺菌|かねつさっきん}**されているので、{長期間保存|ちょうきかんほぞん}できる＿＿。", en: "Canned food has the air removed and is heat-sterilized, which is why it can be stored for a long time.", at: "ch/14" },
     ex: [
@@ -461,6 +461,6 @@ TRY.registerVocab({ ch: 14, words: [
     rx: ["はんけち", "ばんけつ", "はんげつ"],
     book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court handed down a verdict of not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
+      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
     ] },
 ] });
