@@ -537,7 +537,7 @@ TRY.registerCompare([
         ex: { ja: "この1週間というもの、カップラーメン以外のものを口にしていない。", en: "For this entire week, I haven't eaten anything but cup noodles." },
         note: "Period + というもの: \"for the whole of ~\". Stresses that a state has continued throughout that long stretch (an index form of #91)." },
       { pattern: "〜ものを", level: "N1", no: 75,
-        ex: { ja: "早く来れば{空|す}いていたものを、この様子じゃチケットを買うだけで1時間はかかりそうだ。", en: "If we'd come early it would have been empty, but at this rate it looks like it'll take an hour just to buy tickets." },
+        ex: { ja: "早く来れば{空|す}いていたものを、この様子じゃチケットを買うだけで1時間はかかりそうだ。", en: "If we'd come early, it wouldn't have been crowded, but at this rate it looks like it'll take an hour just to buy tickets." },
         note: "Plain form + ものを (often AばBものを): \"if only ~, (but)\". Regret or reproach that a better outcome was possible but didn't happen (≈ 〜のに)." },
       { pattern: "〜ものか", level: "N2",
         ex: { ja: "こんなサービスの悪い店には二度と来るもんか。", en: "I'll never come back to a store with service this bad!" },

@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "passion, enthusiasm, ardor",
     note: "Strong inner drive: 情熱を注ぐ／傾ける (pour one's passion into), 情熱的な (passionate). 熱意 is earnest zeal for a task and sounds more businesslike; 熱心 is the adjective “keen.”",
     rx: ["じょねつ", "せいねつ", "じょうねち"],
-    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work.", at: "gp/73" },
+    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's brimming passion comes through in this work.", at: "gp/73" },
     ex: [
       { ja: "彼は{残|のこ}りの人生のすべての**{情熱|じょうねつ}**を{教育|きょういく}に{注|そそ}いだ。", en: "For the rest of his life, he poured all his passion into education.", alt: ["{情報|じょうほう}", "{感情|かんじょう}", "{熱湯|ねっとう}"] },
     ] },
