@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["いんきつづき", "ひきづつき", "ひきぞくき"],
     book: { ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、**引き続き**皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but with the launch of a joint project with the head office, I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
     ex: [
-      { ja: "{来年度|らいねんど}も**{引|ひ}き{続|つづ}き**、{同|おな}じメンバーで{活動|かつどう}する{予定|よてい}です。", en: "Next year, too, we plan to carry on our activities with the same members.", alt: ["{引|ひ}き{換|か}え", "{立|た}て{続|つづ}け", "{差|さ}し{支|つか}え"] },
+      { ja: "{来年度|らいねんど}も**{引|ひ}き{続|つづ}き**、{同|おな}じメンバーで{活動|かつどう}する{予定|よてい}です。", en: "We plan to keep going next year with the same members.", alt: ["{引|ひ}き{換|か}え", "{立|た}て{続|つづ}け", "{差|さ}し{支|つか}え"] },
     ] },
   { w: "{創立|そうりつ}", lv: "N1", pos: "noun · する verb",
     en: "founding; establishment (of a school or company)",
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["そうりゅう", "そりつ", "しょうりつ"],
     book: { ja: "{本日|ほんじつ}このように無事に**{創立|そうりつ}**100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", en: "Today we have safely reached the 100th anniversary of our founding, and all of us at the company (＿＿) with joy.", at: "ch/6" },
     ex: [
-      { ja: "この{学校|がっこう}は、**{創立|そうりつ}**{以来|いらい}150{年|ねん}の{歴史|れきし}を{持|も}っている。", en: "This school has a history of 150 years since its founding.", alt: ["{起立|きりつ}", "{創造|そうぞう}", "{自立|じりつ}"] },
+      { ja: "この{学校|がっこう}は、**{創立|そうりつ}**{以来|いらい}150{年|ねん}の{歴史|れきし}を{持|も}っている。", en: "This school has a 150-year history dating back to its founding.", alt: ["{起立|きりつ}", "{創造|そうぞう}", "{自立|じりつ}"] },
     ] },
   { w: "{一同|いちどう}", lv: "N1", pos: "noun",
     en: "all (the members); everyone concerned",
@@ -137,7 +137,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{光栄|こうえい}", lv: "N1", pos: "noun · な adjective",
     en: "honor; privilege",
-    note: "Humble expression of feeling honored by recognition from others: 光栄です, 光栄に思う, 光栄の至り. Used of oneself; to praise someone else's honor, 名誉 is used.",
+    note: "Humble expression of feeling honored by recognition from others: 光栄です, 光栄に思う, 光栄の至り. Used about one's own feeling of being honored; 名誉 is honor as a status or reputation (名誉ある賞, 名誉を傷つける).",
     rx: ["こうよう", "こえい", "ひかりえい"],
     book: { ja: "このたびは{親善大使|しんぜんたいし}に{任命|にんめい}していただき、**{光栄|こうえい}**の＿＿でございます。", en: "I am (＿＿) honored to have been appointed goodwill ambassador on this occasion.", at: "ch/6" },
     ex: [
@@ -197,7 +197,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["せきうえ", "せっじょう", "しゃくじょう"],
     book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating their appointment! Even now, thinking back on it, I blush with shame.", at: "gp/66" },
     ex: [
-      { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced an intention to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
+      { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced that they intended to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
     ] },
   { w: "{赤面|せきめん}", lv: "N1", pos: "noun · する verb",
     en: "blushing (with shame or embarrassment)",
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{盛大|せいだい}", lv: "N1", pos: "な adjective",
     en: "grand; lavish; magnificent (of a gathering)",
-    note: "Of events on a large and lively scale: 盛大なパーティー, 盛大に祝う, 盛大な拍手. Casually also 'a lot' (盛大に転ぶ). 豪華 is about luxury; 盛大 is about scale and liveliness.",
+    note: "Of events on a large and lively scale: 盛大なパーティー, 盛大に祝う, 盛大な拍手. Casually also 'spectacularly' (盛大に転ぶ, take a spectacular fall). 豪華 is about luxury; 盛大 is about scale and liveliness.",
     rx: ["せいたい", "じょうだい", "もりだい"],
     book: { ja: "{私|わたくし}のために、かくも**{盛大|せいだい}**な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am moved beyond words that you have held so grand a gathering in my honor.", at: "gp/66" },
     ex: [
@@ -308,7 +308,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["おかいやみ", "おぐやみ", "おくいやみ"],
     book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "Not having known, I never even offered my condolences; it was very remiss of me.", at: "gp/68" },
     ex: [
-      { ja: "このたびはご{愁傷|しゅうしょう}さまでした。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{土産|みやげ}", "お{礼|れい}"] },
+      { ja: "このたびはご{愁傷|しゅうしょう}さまでございます。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{土産|みやげ}", "お{礼|れい}"] },
     ] },
   { w: "{遺憾|いかん}", lv: "N1", pos: "noun · な adjective",
     en: "regret; regrettable (formal, often official)",
@@ -366,7 +366,7 @@ TRY.registerVocab({ ch: 6, words: [
     ex: [
       { ja: "{本番|ほんばん}で{緊張|きんちょう}して、{実力|じつりょく}を{十分|じゅうぶん}に**{発揮|はっき}**できなかった。", en: "I got nervous on the day and couldn't show what I was really capable of.", alt: ["{発揚|はつよう}", "{指揮|しき}", "{発行|はっこう}"] },
     ] },
-  { w: "{正々堂々|せいせいどうどう}", lv: "N1", pos: "adverb (〜と) · な adjective",
+  { w: "{正々堂々|せいせいどうどう}", lv: "N1", pos: "adverb (〜と) · たる adjective (正々堂々とした)",
     en: "fair and square; openly and honorably",
     note: "Acting fairly and openly, without tricks: 正々堂々と戦う (the classic phrase of an athletes' oath), 正々堂々とした態度. Always positive, unlike plain 堂々と, which can also mean 'brazenly'.",
     rx: ["せいぜいどうどう", "しょうしょうどうどう", "せいせいとうとう"],
@@ -457,7 +457,7 @@ TRY.registerVocab({ ch: 6, words: [
   { w: "{肌寒|はだざむ}い", lv: "N1", pos: "い adjective",
     en: "chilly; a bit cold (felt on the skin)",
     note: "Slightly cold in a way you feel on your skin, typically in spring or autumn: 肌寒い朝, 肌寒く感じる. Milder than 寒い; 冷える is for a noticeable drop in temperature.",
-    rx: ["はださむい", "きさむい", "はだかむい"],
+    rx: ["はだかんい", "きさむい", "はだかむい"],
     book: { ja: "{陽|ひ}ざしは暖かさを{増|ま}してきたが、{早春|そうしゅん}の（　）、{朝夕|あさゆう}はまだ**{肌寒|はだざむ}い**。", en: "The sunshine has grown warmer, but (　) early spring, mornings and evenings are still chilly.", at: "ch/6/review" },
     ex: [
       { ja: "{雨|あめ}のせいか、{今日|きょう}は{少|すこ}し**{肌寒|はだざむ}い**ので、{上着|うわぎ}を{持|も}って{行|い}こう。", en: "Maybe it's the rain, but it's a bit chilly today, so I'll take a jacket.", alt: ["{蒸|む}し{暑|あつ}い", "{息苦|いきぐる}しい", "{暖|あたた}かい"] },
@@ -472,7 +472,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{末日|まつじつ}", lv: "N1", pos: "noun",
     en: "last day (of a month or period)",
-    note: "Formal word used in deadlines and notices: 3月末日まで (by the end of March), 月末日. Note the reading まつじつ, not すえび. 月末 (げつまつ) is the end of the month in general.",
+    note: "Formal word used in deadlines and notices: 3月末日まで (by the end of March), 毎月末日 (the last day of every month). Note the reading まつじつ, not すえび. 月末 (げつまつ) is the end of the month in general.",
     rx: ["すえび", "まつにち", "まっじつ"],
     book: { ja: "この入口は{改修|かいしゅう}工事のため、今月**{末日|まつじつ}**（　）{閉鎖|へいさ}させていただきます。", en: "Due to renovation work, this entrance will be closed (　) the last day of this month.", at: "ch/6/review" },
     ex: [
@@ -487,7 +487,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "いつになく", lv: "N1", pos: "adverb",
     en: "unusually; more than usual; unlike one's usual self",
-    note: "Something differs from how it normally is: いつになく静かだ, いつになく真剣な顔. Formal-ish, and neutral in tone; 珍しく is the everyday equivalent.",
+    note: "Something differs from how it normally is: いつになく静かだ, いつになく真剣な顔. Neutral in tone and common in speech as well as writing; 珍しく is close in meaning.",
     book: { ja: "（{拍手|はくしゅ}）……いやあ、**いつになく**出席者が多いですね……。（会場から笑い）", en: "(Applause) …My, there are certainly more people here than usual…. (Laughter from the audience)", at: "ch/6/review" },
     ex: [
       { ja: "{今朝|けさ}の{父|ちち}は、**いつになく**{機嫌|きげん}がよかった。", en: "My father was in an unusually good mood this morning.", alt: ["いつまでも", "いつぞや", "いつなんどき"] },
