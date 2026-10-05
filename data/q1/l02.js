@@ -2745,7 +2745,7 @@ TRY.registerLesson({
            },
            {
             "ja": "例　__{推薦状|すいせんじょう}を書いて__もらいたい",
-            "tr": "Example: I'd like you to write me a letter of recommendation"
+            "tr": "Example: I want my teacher to write me a letter of recommendation"
            },
            {
             "ja": "大学院に入りたいから",
@@ -2756,7 +2756,7 @@ TRY.registerLesson({
            {
             "text": {
              "ja": "＿＿\nもらいたい",
-             "tr": "I'd like you to ＿＿"
+             "tr": "I want my teacher to ＿＿"
             },
             "style": "dash"
            },
@@ -2865,7 +2865,7 @@ TRY.registerLesson({
            "n": "②",
            "text": {
             "ja": "メイリンはどんなお願いをしましたか。何をしてもらいたいか／したいかを2つ答えなさい。",
-            "tr": "What favors did Meilin ask? Give the two things: what she wants done for her and what she wants to do."
+            "tr": "What did Meilin ask for? Give both: what she wants the teacher to do and what she wants to do herself."
            }
           },
           {
@@ -2897,7 +2897,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "{実|じつ}は、{南山市|みなみやまし}の{国際交流課|こくさいこうりゅうか}のインターンシップに＿＿\nんですが、＿＿ないでしょうか。",
-            "tr": "Actually, I'd ＿＿ for the internship at the International Exchange Office of Minamiyama City. ＿＿?"
+            "tr": "Actually, I'd ＿＿ for the internship at the International Exchange Office of Minamiyama City. Could you possibly ＿＿?"
            },
            "answer": [
             "申し込みたい",
@@ -2976,7 +2976,7 @@ TRY.registerLesson({
                "sp": "学生",
                "v": "f",
                "ja": "先生、リスニングの問題をもう一度聞かせていただけないでしょうか。",
-               "tr": "Could you possibly let me listen to the listening question one more time?"
+               "tr": "Professor, could you possibly let me hear the listening question one more time?"
               },
               {
                "sp": "先生",
@@ -3042,7 +3042,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❶{中村|なかむら}先生、**今、少しよろしいでしょうか。お願いがあるんですが**……。",
-       "tr": "Professor Nakamura, do you have a moment now? I have a favor to ask..."
+       "tr": "Professor Nakamura, may I have a moment? I have a favor to ask..."
       },
       {
        "sp": "中",
@@ -3054,7 +3054,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❷**実は**、{南山市|みなみやまし}の国際交流課のインターンシップに申し込みたい**んですが**、{推薦状|すいせんじょう}を書い**ていただけないでしょうか**。ぜひやってみたいんです。",
-       "tr": "Actually, I'd like to apply for the internship at the International Exchange Office of Minamiyama City. Could you possibly write me a letter of recommendation? I'd really like to do it."
+       "tr": "Actually, I'd like to apply for the internship at the International Exchange Office of Minamiyama City. Could you possibly write me a letter of recommendation? I'd really like to give it a try."
       },
       {
        "sp": "中",
@@ -3158,7 +3158,7 @@ TRY.registerLesson({
       },
       {
        "ja": "先生：お願いされる",
-       "tr": "Teacher: receive a request"
+       "tr": "Teacher: is asked a favor"
       }
      ],
      "steps": [
@@ -3175,7 +3175,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "先生、**今、少しよろしいでしょうか。**\n**お願いがあるんですが**……。",
-        "tr": "Professor, do you have a moment now? I have a favor to ask..."
+        "tr": "Professor, may I have a moment? I have a favor to ask..."
        }
       },
       {
@@ -3321,7 +3321,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶先生、**今、少しよろしいでしょうか。お願いがあるんですが**……。",
-         "tr": "Professor, do you have a moment now? I have a favor to ask..."
+         "tr": "Professor, may I have a moment? I have a favor to ask..."
         },
         {
          "sp": "先生",
@@ -3529,7 +3529,7 @@ TRY.registerLesson({
            "sp": "クラスメート",
            "v": "m",
            "ja": "何？",
-           "tr": "What?"
+           "tr": "What's up?"
           },
           {
            "sp": "あなた",
@@ -3582,13 +3582,13 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❹**それから、もう一つお願いがあるんだけど**……。",
-           "tr": "And I have one more favor to ask..."
+           "tr": "Oh, and I have one more favor to ask..."
           },
           {
            "sp": "クラスメート",
            "v": "m",
            "ja": "何？",
-           "tr": "What?"
+           "tr": "What's up?"
           },
           {
            "sp": "あなた",
@@ -3831,7 +3831,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "こんなすばらしい＿＿のは、\n＿＿。＿＿ありがとうございました。",
-            "tr": "Being able to ＿＿ something so wonderful ＿＿. Thank you ＿＿."
+            "tr": "Being able to have such a wonderful ＿＿ is ＿＿. Thank you ＿＿."
            },
            "answer": [
             "経験ができた",
@@ -3879,7 +3879,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "すし__とか__天ぷら__とか__、日本の食べ物なら何でも好き。",
-           "tr": "Sushi, tempura, that kind of thing. I like anything Japanese."
+           "tr": "Stuff like sushi or tempura. I like any kind of Japanese food."
           }
          ]
         },
@@ -3961,7 +3961,7 @@ TRY.registerLesson({
        "sp": "中",
        "v": "m",
        "ja": "そうですか。すみません。じゃあ、{遠慮|えんりょ}なく。\nところで、インターンシップはどうでしたか。",
-       "tr": "Well, if you insist. Thank you, I'll gladly accept it. By the way, how was the internship?"
+       "tr": "Oh, are you sure? Thank you. Well then, I'll gladly accept it. By the way, how was the internship?"
       },
       {
        "sp": "メ",
@@ -3979,7 +3979,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "国の料理とか、言葉とかを教えたんです。大変でしたが、いい経験になりました。",
-       "tr": "I taught them things like our food and our language. It was hard work, but it was a good experience."
+       "tr": "I taught them about things like the food and language of my country. It was hard work, but it was a good experience."
       },
       {
        "sp": "中",
@@ -4027,7 +4027,7 @@ TRY.registerLesson({
       },
       {
        "ja": "先生：お礼を言われる",
-       "tr": "Teacher: receives thanks"
+       "tr": "Teacher: is thanked"
       }
      ],
      "steps": [
@@ -4368,7 +4368,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❷**これ、少しだけど、食べて／受け取って。**",
-           "tr": "It's not much, but here, eat it / take it."
+           "tr": "It's not much, but here, have some / take it."
           },
           {
            "sp": "友達",
@@ -4439,7 +4439,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "あなたは、スピーチコンテストで{優勝|ゆうしょう}しました。友達にお礼を言いなさい。\n（先に友達が、スピーチコンテストはどうだったか聞きなさい。）",
-         "tr": "You won the speech contest. Thank your friend.\n(The friend asks first how the speech contest went.)"
+         "tr": "You won the speech contest. Thank your friend.\n(The friend should first ask how the speech contest went.)"
         }
        ]
       },
@@ -4816,7 +4816,7 @@ TRY.registerLesson({
        "sp": "美",
        "v": "f",
        "ja": "じゃあ、満開の桜が見たかったら、ここ__しかない__ね。",
-       "tr": "Then if we want to see the cherry blossoms in full bloom, this is the only option."
+       "tr": "Then if we want to see the cherry blossoms in full bloom, this is the only place."
       },
       {
        "sp": "サ",
