@@ -106,7 +106,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "ペンキ", lv: "N2", pos: "noun",
     en: "paint (house paint)",
     note: "From Dutch pek. ペンキを塗る, ペンキ塗りたて (“wet paint” sign). Paints for art are 絵の具; ペイント is also used.",
-    book: { ja: "このベンチ、**ペンキ**ぬりたてだって。", en: "The sign says this bench has just been painted.", at: "gp/79" },
+    book: { ja: "このベンチ、**ペンキ**ぬりたてだって。", en: "Apparently this bench was just painted.", at: "gp/79" },
     ex: [
       { ja: "{古|ふる}い{壁|かべ}に{白|しろ}い**ペンキ**を{塗|ぬ}ったら、{部屋|へや}が{明|あか}るくなった。", en: "When I painted the old wall white, the room got brighter.", alt: ["ホース", "レンガ", "テープ"] },
     ] },
@@ -114,7 +114,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to paint; to coat; to apply (cream, ointment); to spread (butter)",
     note: "ペンキを塗る, パンにバターを塗る, 薬 / 日焼け止めを塗る. Drawing or painting a picture is 描く (かく / えがく). 塗り絵 is a coloring book.",
     rx: ["とる", "ぬう", "のる"],
-    book: { ja: "このベンチ、ペンキ**ぬり**たてだって。", en: "The sign says this bench has just been painted.", at: "gp/79" },
+    book: { ja: "このベンチ、ペンキ**ぬり**たてだって。", en: "Apparently this bench was just painted.", at: "gp/79" },
     ex: [
       { ja: "{焼|や}いたパンにバターを**{塗|ぬ}って**{食|た}べる。", en: "I spread butter on toast and eat it.", alt: ["{縫|ぬ}って", "{注|そそ}いで", "{刺|さ}して"] },
     ] },
@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ignition; lighting; catching fire",
     note: "Technical/written: 着火する, 着火剤 (fire starter), 着火部分. 点火 is deliberately igniting (点火装置); 発火 is catching fire, often spontaneously. Everyday: 火がつく / 火をつける.",
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
-    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it.", at: "gp/81" },
+    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood is hard to get lit.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },

@@ -11,7 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "{小林|こばやし}", v: "m", ja: "この食べ{放題|ほうだい}、すごくよかったよ。この前、行ったんだけど、とにかくメニューが多い**のなんのって**、ピザやスパゲティから{肉|にく}じゃが、{焼|や}き{魚|ざかな}、{北京|ぺきん}ダックまで、{和|わ}、{洋|よう}、{中|ちゅう}なんでもあるんだ。それに全部でき**たて**。", en: "This all-you-can-eat place was really great. I went the other day, and the menu — you wouldn't believe how big it is. Everything from pizza and spaghetti to nikujaga, grilled fish and Peking duck; Japanese, Western, Chinese, they have it all. And it's all freshly made." },
+          { sp: "{小林|こばやし}", v: "m", ja: "この食べ{放題|ほうだい}、すごくよかったよ。この前、行ったんだけど、とにかくメニューが多い**のなんのって**、ピザやスパゲティから{肉|にく}じゃが、{焼|や}き{魚|ざかな}、{北京|ぺきん}ダックまで、{和|わ}、{洋|よう}、{中|ちゅう}なんでもあるんだ。それに全部でき**たて**。", en: "This all-you-can-eat place was really great. I went the other day, and the menu was huge, you wouldn't believe it. Everything from pizza and spaghetti to nikujaga, grilled fish and Peking duck — Japanese, Western, Chinese, they have it all. And it's all freshly made." },
           { sp: "{大田|おおた}", v: "f", ja: "あ、ここ今人気だよね。ステーキもけっこうおいしいし…。", en: "Oh, this place is popular right now, isn't it? The steak's pretty good too..." },
           { sp: "小林", v: "m", ja: "だから、みんなで行こうよ。ぼくは1{食|しょく}{抜|ぬ}いて行くつもりなんだ。", en: "So let's all go together. I'm planning to skip a meal before going." },
           { sp: "大田", v: "f", ja: "{小林|こばやし}君**ったら**何言ってるの。{胃|い}の大きさは食事の{量|りょう}によって変わる**ようになっている**のよ。", en: "Honestly, Kobayashi, what are you talking about? The stomach is built so that its size changes depending on how much you eat." },
@@ -33,7 +33,7 @@ TRY.registerChapter({
             { ja: "A：あくびばっかりして、{寝不足|ねぶそく}？\nB：{隣|となり}の部屋の人がテレビでサッカー見ていて、うるさいのなんのって、{全然|ぜんぜん}寝られなかったんだ。", en: "A: You keep yawning — didn't you get enough sleep?\nB: The person in the next room was watching soccer on TV, and it was unbelievably noisy. I couldn't sleep at all." },
             { ja: "A：{突然|とつぜん}部長に呼ばれてさ、部長のお{嬢|じょう}さんと{見合|みあ}いしないかって。びっくりしたのなんのって。\nB：で、{見合|みあ}いするの？", en: "A: The department head suddenly called me in and asked if I'd be willing to have an arranged-marriage meeting with their daughter. I was so shocked, you wouldn't believe it.\nB: So, are you going to meet her?" },
             { ja: "午前中、忙しかったのなんのって、トイレに行くひまもないくらいだった。", en: "I was so busy this morning, you wouldn't believe it — I didn't even have time to go to the bathroom." },
-            { ja: "A：昨日のハイキング、思いのほか大変だったね。\nB：ほんと、ぶっ続けで5時間歩きっぱなし。疲れたのなんのって、最後はもう一歩も歩けないっていう感じだったよね。", en: "A: Yesterday's hike was a lot harder than expected, wasn't it?\nB: Really. Five hours of walking nonstop. I was so exhausted — by the end it felt like I couldn't take another step." },
+            { ja: "A：昨日のハイキング、思いのほか大変だったね。\nB：ほんと、ぶっ続けで5時間歩きっぱなし。疲れたのなんのって、最後はもう一歩も歩けないっていう感じだったよね。", en: "A: Yesterday's hike was a lot harder than expected, wasn't it?\nB: Seriously. Five straight hours of walking without a break. I was so tired, you wouldn't believe it. By the end it felt like we couldn't take another step, didn't it?" },
           ],
           deepDive: "**〜のなんのって** is a chatty exaggeration: the speaker names a quality and gives up looking for a word big enough, *so ~ you wouldn't believe it*. It reports the speaker's own experience, usually something overwhelming or unpleasant (痛い, うるさい, 疲れた), though good things work too: メニューが多いのなんのって (*the menu was just enormous*).\n\nConnection: plain form; な-adjectives keep な (静かなのなんのって). The book crosses out N＋だ, so rephrase a noun: ✗雨なのなんのって → ✓雨がひどいのなんのって. The sentence either stops there (痛いのなんのって。) or goes on to the proof: 寒いのなんのって、手が動かなかった (*it was freezing; my hands wouldn't move*).\n\nCompare:\n- **〜ことか** (#42): どれほど心配したことか (*how worried I was!*), an emotional exclamation that also appears in writing; のなんのって is casual speech and usually followed by evidence.\n- **〜てならない** (#121): a feeling that wells up inside (心配でならない), not an outside experience such as noise or crowds.\nN1's 〜といったらない makes the same exaggeration.\n\nPitfall: it looks back on something experienced; it can't describe plans, and it is too casual for a superior.\n\nJLPT cue: a casual text with an adjective or emotion before the blank and a vivid scene after it.",
           see: [42, 121],
@@ -52,8 +52,8 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "{炊|た}きたてのご飯ってほんといいね。{何杯|なんばい}でも食べられそう。", en: "Freshly cooked rice is so good, isn't it? I feel like I could eat bowl after bowl." },
-            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. I bought them just after they were made." },
-            { ja: "このベンチ、ペンキぬりたてだって。", en: "The sign says this bench has just been painted." },
+            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. I bought them freshly made." },
+            { ja: "このベンチ、ペンキぬりたてだって。", en: "Apparently this bench was just painted." },
             { ja: "A：ねえ、うちの姉の子がね、{幼稚園|ようちえん}で習った覚えたての歌と{踊|おど}りを見せてくれたんだ。\nB：そりゃ、かわいかっただろうね。", en: "A: Hey, my sister's kid showed me a song and dance they'd just learned at kindergarten.\nB: That must have been adorable." },
           ],
           deepDive: "**V-stem + たて** = *freshly ~ed, just ~ed*: the action has just been completed and its result is still new. The result works like a noun: 焼きたてのパン (*bread fresh from the oven*), ペンキ塗りたて (*wet paint*), 社会人になりたてだ (*I've only just started working*).\n\nIt lives in a small set of collocations: food (炊きたて, 揚げたて, とれたて *freshly picked*, いれたて *freshly brewed*), a new status (入社したて, 覚えたて) and the wet-paint sign. With food it praises freshness; with people it notes that they are still new, sometimes inexperienced. It doesn't combine freely: ✗読みたて, ✗食べたて.\n\nCompare:\n- **〜かけ**: *half-done*: 書きかけの手紙 (*a half-written letter*). たて = just completed; かけ = not yet completed.\n- **V-たばかり**: works with any verb and focuses on time: 昨日買ったばかりの傘 (*an umbrella I bought just yesterday*).\n\nPitfall: the base is the ます-stem: ✗焼くたて, ✗焼いたて.\n\nJLPT cue: after a stem, choose たて when the text praises freshness (いいにおい, 新鮮) and かけ when something is left unfinished.",
@@ -117,7 +117,7 @@ TRY.registerChapter({
               usage: { ja: "「[N] + ってば」も同じように使う。", en: "\"[N] + ってば\" is used in the same way.", gen: true },
               examples: [
                 { ja: "お母さんってば、いつも{勝手|かって}に私の部屋に入るのよ。", en: "Mom, honestly — she always comes into my room without asking." },
-                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — now they say they're putting up a bronze statue of themselves at the main entrance. What a pain." },
+                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — says they're going to put up a bronze statue of themselves at the main entrance. What are we supposed to do?" },
               ],
             },
           ],
@@ -135,10 +135,10 @@ TRY.registerChapter({
           forms: ["[V-る]／[V-ない] + ようになっている"],
           examples: [
             { ja: "ほこりが{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it." },
-            { ja: "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。", en: "Apparently conveyor-belt sushi restaurants these days are set up so that sensors on the plates automatically calculate how much you've eaten." },
+            { ja: "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。", en: "Apparently conveyor-belt sushi restaurants these days are set up so that sensors on the plates automatically calculate the cost of what you've eaten." },
             { ja: "このホテルのドアは閉めると{自動的|じどうてき}にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。", en: "The doors in this hotel are designed to lock automatically when closed, so please be sure to take this card key with you whenever you go out." },
             { ja: "世界{初|はつ}の{自動販売機|じどうはんばいき}はエジプトで2000年以上前に作られ、お金を入れると水が出るようになっていたそうだ。", en: "They say the world's first vending machine was made in Egypt over 2,000 years ago, and it was designed so that water came out when you put in money." },
-            { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it." },
+            { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter so that it won't light even if a child plays with it." },
           ],
           deepDive: "**V-る／V-ない + ようになっている** explains how something is designed or set up to work: when A happens, B follows automatically. The subject is a machine, facility, system or the body, never a person's decision: ボタンを押すと、お湯が出るようになっている (*it's set up so that hot water comes out when you press the button*). The negative describes safety features (子どもが触っても開かないようになっている *it won't open even if a child touches it*); a potential verb, what the thing lets you do (〜できるようになっている).\n\nTypical frame: [A]と／たら／ても, [B]ようになっている, often with 自動的に or 自然に.\n\nCompare:\n- **〜ようにしている**: a person's conscious habit: 毎朝野菜ジュースを飲むようにしている (*I make a point of drinking vegetable juice every morning*).\n- **〜ようになる**: a change over time: 泳げるようになった (*I learned to swim*).\n- **〜ことになっている**: a rule or arrangement: 社員は8時に出社することになっている (*employees are supposed to be at work by 8*).\n\nPitfall: if a human is deliberately doing it, it is ようにしている, not ようになっている.\n\nJLPT cue: a product or system as the subject and 自動的に or できる before the blank.",
           see: [],
@@ -256,7 +256,7 @@ TRY.registerChapter({
             { ja: "初めはネットで人とチャットするどころかインターネットにつなぐ方法もわからなかった。", en: "At first, forget chatting with people online — I didn't even know how to connect to the internet." },
             { ja: "日本へ来たばかりのころは道がわからなくて、自転車でスーパーへ行くどころか{寮|りょう}の周りを1人で歩くことさえできませんでした。", en: "When I first came to Japan, I didn't know my way around, so I couldn't even walk around the dorm on my own, let alone bike to the supermarket." },
           ],
-          deepDive: "**AどころかB** says reality is far from A, in one of two directions:\n- **Opposite**: *far from A, actually B*: 褒められるどころか、叱られた (*far from being praised, I got scolded*).\n- **Even more**: B goes beyond A, with も／さえ. With a negative it is *let alone A, not even B*: 漢字どころかひらがなも書けない (*I can't even write hiragana, let alone kanji*); with a positive, *not just A, even B*: 詳しいどころか、自分で作ることさえできる (*it's not just that I know about them; I can even build one*).\n\nA is often the listener's words or the speaker's first assumption, so it is common in replies: 暇どころか、寝る時間もないよ (*free time? I don't even have time to sleep*).\n\nConnection: plain form; なA and N attach without だ (静かどころか, 海外旅行どころか). B is a fact or firm statement, not a request.\n\nCompare:\n- **〜どころではない** (#38): *this is no time for ~*; it ends the sentence.\n- **〜はもとより** (#12): *not to mention A*, formal and same-direction only.\n- **〜ばかりか** (N3): *not only A but also B*, never the opposite reading.\nQuartet II teaches the same どころか with も／さえ; N1's 〜はおろか is the formal \"let alone\".\n\nPitfall: in the \"not even\" use, B is the easier, more basic thing that still failed.\n\nJLPT cue: an expected change in the first clause and its reverse in the second.",
+          deepDive: "**AどころかB** says reality is far from A, in one of two directions:\n- **Opposite**: *far from A, actually B*: 褒められるどころか、叱られた (*far from being praised, I got scolded*).\n- **Even more**: B goes beyond A, with も／さえ. With a negative it is *let alone A, not even B*: 漢字どころかひらがなも書けない (*I can't even write hiragana, let alone kanji*); with a positive, *not just A, even B*: 詳しいどころか、自分で作ることさえできる (*it's not just that I know about them; I can even build one*).\n\nA is often the listener's words or the speaker's first assumption, so it is common in replies: 暇どころか、寝る時間もないよ (*free time? I don't even have time to sleep*).\n\nConnection: plain form; なA and N attach without だ (静かどころか, 海外旅行どころか). B is a fact or firm statement, not a request.\n\nCompare:\n- **〜どころではない** (#38): *this is no time for ~*; it ends the sentence.\n- **〜はもとより** (#12): *not to mention A*, formal and same-direction only.\n- **〜ばかりか**: *not only A but also B*, never the opposite reading.\nQuartet II teaches the same どころか with も／さえ; N1's 〜はおろか is the formal \"let alone\".\n\nPitfall: in the \"not even\" use, B is the easier, more basic thing that still failed.\n\nJLPT cue: an expected change in the first clause and its reverse in the second.",
           see: [38, 12],
           index: ["〜どころか", "NどころかNも〜ない"],
           xref: "☞ p.223　〜ところ／どころ",
@@ -300,7 +300,7 @@ TRY.registerChapter({
           usage: { ja: "今の{状態|じょうたい}を続けているといい{結果|けっか}にならない、と{批判|ひはん}する気持ちを表す。", en: "This expresses the feeling that your judgment is that the result will not be good if the current situation continues." },
           forms: ["[V-る]／[V-ない] + ようでは", "[V-る]／[V-ない] + ようじゃ"],
           examples: [
-            { ja: "おしゃれに{全然|ぜんぜん}気を使わないようじゃ、社会人としてまずいんじゃない？", en: "If you don't care at all about how you look, that won't do for a working adult, will it?" },
+            { ja: "おしゃれに{全然|ぜんぜん}気を使わないようじゃ、社会人としてまずいんじゃない？", en: "If you don't put any effort at all into how you dress, that's not good for a working adult, is it?" },
             { ja: "A：料理1つ作るのにこんなに時間がかかるようじゃ、一人{暮|ぐ}らしは{無理|むり}かな？\nB：{慣|な}れれば早くできるようになるから、大丈夫だよ。", en: "A: If it takes me this long to make one dish, I guess there's no way I can live on my own, huh?\nB: You'll get faster once you get used to it, so don't worry." },
             { ja: "{締|し}め{切|き}りを{守|まも}れないようじゃ、{漫画家|まんがか}としてやっていけないよ。", en: "If you can't meet deadlines, you won't make it as a manga artist." },
             { ja: "{上級|じょうきゅう}になっても、知らない言葉をいちいち{辞書|じしょ}で調べているようでは、{読解|どっかい}はうまくならないと先生に言われた。", en: "My teacher told me that if I keep looking up every unknown word in the dictionary even at the advanced level, my reading won't improve." },
@@ -327,7 +327,7 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
           bank: ["どころか", "ったら", "たて", "ようじゃ"],
           items: [
-            { q: "お父さん＿＿、部屋の電気つけっぱなしにしないでよ。", answer: "ったら", en: "Dad, honestly — don't leave the lights on in your room." },
+            { q: "お父さん＿＿、部屋の電気つけっぱなしにしないでよ。", answer: "ったら", en: "Honestly, Dad, don't leave the lights on in the room!" },
             { q: "A：さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。\nB：えー！　10{個|こ}も!?", answer: "たて", en: "A: When I passed the butcher's in the shopping street just now, there was a lovely smell of freshly fried croquettes, so I bought some.\nB: What! Ten of them!?" },
             { q: "「{縁|えん}があれば」なんて言っている＿＿、{恋人|こいびと}なんかできないよ。", answer: "ようじゃ", en: "If you keep saying things like \"if it's meant to be,\" you'll never get a boyfriend or girlfriend." },
             { q: "A：ドイツ工場へ見学に行くんだって？　ドイツ語できるんだ、すごいね。\nB：とんでもない。ドイツ語＿＿英語さえちゃんと話せないよ。どうしよう。", answer: "どころか", en: "A: I hear you're going to tour the plant in Germany. You speak German? That's amazing.\nB: Are you kidding? I can't even speak English properly, let alone German. What am I going to do?" },
