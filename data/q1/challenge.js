@@ -3152,7 +3152,7 @@ TRY.registerUnits([
      {
       "n": 4,
       "ja": "コンサートは7時からAホールで__{行|おこな}われます__。",
-      "tr": "The concert will be held in Hall A from 7:00."
+      "tr": "The concert will be held in Hall A, starting at 7:00."
      },
      {
       "n": 5,
@@ -3340,12 +3340,12 @@ TRY.registerUnits([
        {
         "sp": "部長",
         "ja": "来週の{出張|しゅっちょう}に{森|もり}が行きたがっていますが、どうしましょう？",
-        "tr": "Mori-san wants to go on next week's business trip. What should we do?"
+        "tr": "Mori wants to go on next week's business trip. What should we do?"
        },
        {
         "sp": "社長",
         "ja": "じゃあ、今回は森**に**__行かせよう__。",
-        "tr": "Well then, let's let Mori-san go this time."
+        "tr": "Well then, let's let Mori go this time."
        }
       ]
      }
@@ -3858,13 +3858,13 @@ TRY.registerUnits([
      {
       "n": 2,
       "ja": "図書館に行っ**たら**、{閉|し}まっていました。",
-      "tr": "When I went to the library, it was closed."
+      "tr": "When I went to the library, I found it closed."
      }
     ]
    },
    {
     "t": "figure",
-    "desc": "[1] A woman sits up in bed and looks in surprise at a window through which snow is falling on the mountains.",
+    "desc": "[1] A woman sits up in bed and looks in surprise at a window, where snow is falling outside.",
     "labels": [
      "1"
     ]
@@ -4008,7 +4008,7 @@ TRY.registerUnits([
      {
       "n": 3,
       "ja": "薬を飲ま**なければ**、風邪がよくなりません。",
-      "tr": "If you don't take medicine, your cold won't get better."
+      "tr": "Your cold won't get better unless you take medicine."
      }
     ]
    },
@@ -4366,7 +4366,7 @@ TRY.registerUnits([
         "n": "(1)",
         "text": {
          "ja": "A：テスト　a.【は・が】いつですか。\nB：金曜日です。\nA：何　b.【は・が】出ますか。\nB：6{課|か}の文法と{助詞|じょし}の問題が出ます。漢字　c.【は・が】出ません。",
-         "tr": "A: When is the test?\nB: It's on Friday.\nA: What's going to be on it?\nB: There will be questions on the grammar and particles from Lesson 6. There won't be any kanji."
+         "tr": "A: When is the test?\nB: It's on Friday.\nA: What's going to be on it?\nB: There will be questions on the grammar and particles from Lesson 6. Kanji won't be on it, though."
         },
         "answer": "a. は　b. が　c. は"
        },
@@ -4454,7 +4454,7 @@ TRY.registerUnits([
        {
         "sp": "B",
         "ja": "ああ、リーさん**は**元気でしたか。",
-        "tr": "Oh, how was Lee-san doing?"
+        "tr": "Oh, was Lee-san doing well?"
        },
        {
         "sp": "A",
@@ -4762,7 +4762,7 @@ TRY.registerUnits([
        {
         "n": "(a)",
         "ja": "母は家族の{誕生日|たんじょうび}にケーキを作る。その%%ケーキ%%はおいしい。",
-        "tr": "My mother makes a cake for family birthdays. That cake is delicious."
+        "tr": "My mother makes cakes for family birthdays. Those cakes are delicious."
        },
        {
         "n": "(b)",
@@ -4886,7 +4886,7 @@ TRY.registerUnits([
       "n": "1.",
       "text": {
        "ja": "{似|に}ている漢字を使った単語を読んでみよう。",
-       "tr": "Read these words that use kanji that look alike."
+       "tr": "Read these words, which use look-alike kanji."
       },
       "blocks": [
        {
@@ -4914,7 +4914,7 @@ TRY.registerUnits([
       "n": "2.",
       "text": {
        "ja": "似ている漢字を使った単語を考えよう。",
-       "tr": "Think of words that use kanji that look alike."
+       "tr": "Think of words that use each of these look-alike kanji."
       },
       "blocks": [
        {
@@ -5888,7 +5888,7 @@ TRY.registerUnits([
        },
        {
         "t": "figure",
-        "desc": "A young man points to his speech bubble, which answers the example.",
+        "desc": "A young man points to his speech bubble, which answers the example: 1. 新 = あたらしい (new); 2. a. しんじん, a new person (newcomer); b. しんにゅうせい, a student who has newly entered (new student); c. しんぴん, a new thing (new item).",
         "labels": [
          "1. 新＝あたらしい",
          "2. a. しんじん（新しい人）",
@@ -6130,7 +6130,7 @@ TRY.registerUnits([
        },
        {
         "t": "figure",
-        "desc": "A young woman, hand on her cheek, answers the example in her speech bubble.",
+        "desc": "A young woman, hand to her chin and eyes closed, answers the example in her speech bubble: 1. 館 = 建物 (building); 2. a. としょかん, a place where you borrow and read books (library); b. えいがかん, a place where you watch movies (movie theater); c. びじゅつかん, a place where you look at paintings and such (art museum).",
         "labels": [
          "1. 館＝建物",
          "2. a. としょかん（本を借りたり、読んだりするところ）",
