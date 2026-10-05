@@ -329,7 +329,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "bosom, the inside breast of one's clothing; one's purse, finances",
     note: "Literally the fold of a kimono at the chest: 懐から取り出す. Figuratively money on hand: 懐が寒い／さびしい (be short of cash), 懐が深い (broad-minded). In compounds it is かい: 懐中電灯.",
     rx: ["ふとろこ", "ふところお", "ふくろ"],
-    book: { ja: "{小鬼|こおに}が現れるや{否|いな}や、{萌花|もえか}は**{懐|ふところ}**から短い{刀|かたな}を出した。", en: "The moment the little demon appeared, Moeka drew a short sword from the fold of her robe.", at: "ch/8" },
+    book: { ja: "{小鬼|こおに}が現れるや{否|いな}や、{萌花|もえか}は**{懐|ふところ}**から短い{刀|かたな}を出した。", en: "The moment the little demon appeared, Moeka drew a short sword from the breast of her robe.", at: "ch/8" },
     ex: [
       { ja: "{給料日|きゅうりょうび}の{前|まえ}で、**{懐|ふところ}**が{寂|さび}しい。", en: "It's just before payday, and I'm short on cash.", alt: ["{袖|そで}", "{腹|はら}", "{胸|むね}"] },
     ] },
@@ -361,7 +361,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "gradually, little by little, step by step",
     note: "A bit formal: 徐々に回復する, 徐々に慣れる. だんだん and 少しずつ are everyday equivalents. Often in letters and speeches.",
     rx: ["じょうじょうに", "しょしょに", "じょうじょに"],
-    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and autumn is gradually in the air. How have you been?", at: "gp/96" },
+    book: { ja: "風も涼しくなり、**{徐々|じょじょ}に**秋めいてまいりましたが、いかがお過ごしでしょうか。", en: "The breeze has turned cool, and there is a growing feel of autumn in the air. How have you been keeping?", at: "gp/96" },
     ex: [
       { ja: "{手術|しゅじゅつ}の{後|あと}、{父|ちち}の{体力|たいりょく}は**{徐々|じょじょ}に**{回復|かいふく}している。", en: "Since the operation, my father's strength has been gradually coming back.", alt: ["{直|ただ}ちに", "{無性|むしょう}に", "{一向|いっこう}に"] },
     ] },
@@ -369,7 +369,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "tone (of voice), manner of speaking",
     note: "強い口調で (in a strong tone), 冗談めいた口調, 丁寧な口調. 語調 is similar but more literary; 口癖 is a pet phrase.",
     rx: ["こうちょう", "くちちょう", "くっちょう"],
-    book: { ja: "{冗談|じょうだん}めいた**{口調|くちょう}**だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, \"In ten years I might be the president,\" his eyes were deadly serious.", at: "gp/96" },
+    book: { ja: "{冗談|じょうだん}めいた**{口調|くちょう}**だったが、「10年後は{俺|おれ}が社長かもね」と言った彼の目は{真剣|しんけん}そのものだった。", en: "His tone was half-joking, but when he said, \"In ten years I might be running this company,\" his eyes were deadly serious.", at: "gp/96" },
     ex: [
       { ja: "{先生|せんせい}は{珍|めずら}しく{厳|きび}しい**{口調|くちょう}**で{生徒|せいと}を{叱|しか}った。", en: "The teacher scolded the students in an unusually stern tone.", alt: ["{口癖|くちぐせ}", "{順調|じゅんちょう}", "{口実|こうじつ}"] },
     ] },
@@ -424,7 +424,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "selling out, being sold out",
     note: "チケットが完売する, 即日完売 (sold out on the first day), 完売御礼 (“sold out — thank you”). 売り切れ is the everyday word.",
     rx: ["かんばいい", "かんまい", "がんばい"],
-    book: { ja: "人気グループのコンサートチケットは発売されるや{否|いな}や、あっという間に**{完売|かんばい}**となってしまった。", en: "The concert tickets for the popular group sold out in no time, the instant they went on sale.", at: "gp/97" },
+    book: { ja: "人気グループのコンサートチケットは発売されるや{否|いな}や、あっという間に**{完売|かんばい}**となってしまった。", en: "The instant they went on sale, tickets for the popular group's concert sold out in no time.", at: "gp/97" },
     ex: [
       { ja: "{限定|げんてい}のケーキは、{開店|かいてん}から1{時間|じかん}で**{完売|かんばい}**した。", en: "The limited-edition cakes sold out within an hour of opening.", alt: ["{販売|はんばい}", "{完成|かんせい}", "{発売|はつばい}"] },
     ] },
@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "belief, conviction, principle",
     note: "信念を貫く (stick to one's convictions), 信念を持つ, 固い信念. 信仰 is religious faith; 信頼 is trust in someone.",
     rx: ["しんねい", "しんれん", "しねん"],
-    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working on developing new drugs with a conviction as firm as iron.", at: "gp/101" },
+    book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with iron conviction.", at: "gp/101" },
     ex: [
       { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
@@ -528,7 +528,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to behave, act (in a certain way); to treat (someone) to (food, drink)",
     note: "明るく振る舞う, 大人のように振る舞う; also お酒を振る舞う (treat guests to sake). The noun 振る舞い is behavior; 行動 is action in general.",
     rx: ["ふるぶう", "しんるまう", "ぶるまう"],
-    book: { ja: "彼は怖いものなど何もないかのごとく**{振|ふ}る{舞|ま}って**いるが、実はかなりの{小心|しょうしん}{者|もの}だ。", en: "He acts as though he had nothing in the world to fear, but in fact he is quite a coward.", at: "gp/101" },
+    book: { ja: "彼は怖いものなど何もないかのごとく**{振|ふ}る{舞|ま}って**いるが、実はかなりの{小心|しょうしん}{者|もの}だ。", en: "He acts as though he had nothing in the world to fear, but in fact he is quite timid.", at: "gp/101" },
     ex: [
       { ja: "{悲|かな}しいはずなのに、{彼女|かのじょ}は{明|あか}るく**{振|ふ}る{舞|ま}って**いた。", en: "She must have been sad, but she acted cheerful.", alt: ["{振|ふ}り{払|はら}って", "{見舞|みま}って", "{振|ふ}り{込|こ}んで"] },
     ] },
@@ -584,7 +584,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "eerie, creepy, ominous",
     note: "An uncanny, unsettling feeling: 不気味な静けさ, 不気味な笑い. 気味が悪い is the same meaning in phrase form; 怖い is plainly “scary.” Note the reading ぶ, not ふ.",
     rx: ["ふきみ", "ぶけみ", "ふぎみ"],
-    book: { ja: "その{山寺|やまでら}は見るだに**{不気味|ぶきみ}**な{雰囲気|ふんいき}に包まれていた。", en: "The mountain temple was wrapped in an atmosphere so eerie that just looking at it was unsettling.", at: "gp/103" },
+    book: { ja: "その{山寺|やまでら}は見るだに**{不気味|ぶきみ}**な{雰囲気|ふんいき}に包まれていた。", en: "The mountain temple was shrouded in an atmosphere that was eerie just to look at.", at: "gp/103" },
     ex: [
       { ja: "{夜|よる}の{学校|がっこう}は{誰|だれ}もいなくて**{不気味|ぶきみ}**だ。", en: "The school at night is empty and creepy.", alt: ["{不器用|ぶきよう}", "{無気力|むきりょく}", "{不景気|ふけいき}"] },
     ] },

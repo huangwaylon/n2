@@ -9,7 +9,7 @@ TRY.registerCompare([
         ex: { ja: "今のような経営方法では、2、3年のうちに{倒産|とうさん}しかねない。", en: "With the way the company is run now, it could well go bankrupt within two or three years." },
         note: "V-ます stem + かねない: \"could well ~ / there's a risk that ~\". Despite the negative form, it means something bad might happen; used only for undesirable outcomes." },
       { pattern: "Vかねる", level: "N1", no: 105,
-        ex: { ja: "どうして君が仕事をやめたいと言いだしたのか、理解しかねるんだけどね。", en: "I'm at a loss to understand why you suddenly said you want to quit your job." },
+        ex: { ja: "どうして君が仕事をやめたいと言いだしたのか、理解しかねるんだけどね。", en: "I just can't quite understand why you suddenly told me you want to quit your job." },
         note: "V-ます stem + かねる: \"can't (bring oneself to) ~\". A polite, indirect way of saying できない, typical of refusals and disagreement (理解しかねる, お答えしかねます). The polarity is the reverse of かねない: かねる = can't, かねない = might." }
     ]
   },
