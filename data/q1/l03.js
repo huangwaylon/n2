@@ -21,11 +21,11 @@ TRY.registerLesson({
    "canDo": [
     {
      "ja": "ガイドやコラムを読んで、必要な{情報|じょうほう}がわかる",
-     "tr": "Can read a guide or a column and find the information one needs"
+     "tr": "Can read guides and columns and understand the information you need"
     },
     {
      "ja": "ある場所の{特徴|とくちょう}についての説明文が書ける",
-     "tr": "Can write an explanatory text about the characteristics of a place"
+     "tr": "Can write a description of a place's distinctive features"
     }
    ]
   },
@@ -138,7 +138,7 @@ TRY.registerLesson({
        "n": "4.",
        "text": {
         "ja": "あなたの国の「{象徴|しょうちょう}」と言われるものは何ですか。\nどうしてそれが「象徴」と言われるのだと思いますか。",
-        "tr": "What is said to be the “symbol” of your country? Why do you think it is called a “symbol”?"
+        "tr": "What is called a “symbol” of your country? Why do you think it's called that?"
        }
       },
       {
@@ -159,7 +159,7 @@ TRY.registerLesson({
      "icon": "read",
      "text": {
       "ja": "居酒屋 〜日本らしさが感じられる場所〜",
-      "tr": "Izakaya: Places Where You Can Feel Something Distinctly Japanese"
+      "tr": "Izakaya: Places with a Distinctly Japanese Feel"
      }
     },
     {
@@ -184,7 +184,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "あなたの国には、「あなたの国らしさ」が感じられるレストランがありますか。\nそこはどんなところですか。",
-        "tr": "Are there restaurants in your country where you can feel “the character of your country”? What are they like?"
+        "tr": "Are there restaurants in your country where you can feel “what makes your country your country”? What are they like?"
        }
       }
      ]
@@ -301,13 +301,13 @@ TRY.registerLesson({
      ],
      "tr": [
       "The place I'd most like you to visit at least once while you're in Japan is, without a doubt, Mount Fuji. At 3,776 meters, Mount Fuji is the highest mountain in Japan, and it sits on the border between Yamanashi and Shizuoka Prefectures. For Japanese people it is a special mountain: it is loved as a symbol of Japan and even appears on the 1,000-yen bill. Because it was registered as a World Cultural Heritage Site in 2013, more and more climbers have been coming from abroad.",
-      "Below is some information for international students that will come in handy for climbing Mount Fuji.",
-      "First, when should you climb, and by which route? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open and climbers' buses run. There are four climbing routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the route that suits you.",
-      "Next, how long does the climb take? On the Yoshida Route, for example, which more people climb than any other, it takes about six hours to reach the summit. For that reason, it is common to stay the first night at a mountain hut near the summit, watch the sunrise from the summit the next morning, and then go down. This sunrise is called goraikō. Seeing a beautiful goraikō from the summit will give you a memory that lasts a lifetime.",
+      "Here is some information for international students that will come in handy when you climb Mount Fuji.",
+      "First, when should you climb, and which route should you take? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open, and buses run to the trailheads. There are four routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the one that suits you.",
+      "Next, how long does the climb take? On the Yoshida Route, for example, the route most people take, it takes about six hours to reach the summit. For that reason, most people stay the first night at a mountain hut near the summit, watch the sunrise from the top the next morning, and then descend. This sunrise is called goraikō. If you see a beautiful goraikō from the summit, it will be a memory you'll keep for the rest of your life.",
       "Also, if you join a climbing tour run by a travel agency, a guide will lead you, so even first-time climbers can feel at ease. Climbing Mount Fuji is popular, so book your tour and your mountain hut as early as possible.",
-      "Once you have planned your climb, the next thing is clothing. What kind of clothes should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below zero, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking near the rocky summit. For your safety, be sure to have them ready.",
+      "Once you have planned your climb, the next thing to think about is clothing. What should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below freezing, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking on the rocky ground near the summit. For your safety, be sure to have them ready.",
       "What else should you be careful about? There are few toilets on Mount Fuji, so it's best to go when you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Keeping the mountain clean is a rule every climber should follow.",
-      "People come to Mount Fuji not only from all over Japan but from all over the world. Prepare well, follow the rules of etiquette, and enjoy the thrill of climbing Japan's highest mountain."
+      "People come to Mount Fuji not only from all over Japan but from all over the world. Prepare thoroughly, mind your manners, and enjoy the thrill of climbing Japan's highest mountain."
      ],
      "headTr": [
       "Climbing Season and Routes",
@@ -406,7 +406,7 @@ TRY.registerLesson({
      "page": 73,
      "vertical": true,
      "numbers": true,
-     "titleTr": "Izakaya: Places Where You Can Feel Something Distinctly Japanese",
+     "titleTr": "Izakaya: Places with a Distinctly Japanese Feel",
      "lines": [
       "¶「安い値段でおいしい料理やお酒を楽しみたい」「友達",
       "と仲よくなる機会を作りたい」、そして「日本らしさを感",
@@ -447,11 +447,11 @@ TRY.registerLesson({
       "てほしい。"
      ],
      "tr": [
-      "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What are people looking for when they go to an izakaya? Let us consider the appeal of izakaya through their characteristics.",
-      "The first characteristic is the wide variety of both food and drinks. Once you sit down and look at the menu, you will notice this right away. Having salads and desserts is no different from ordinary restaurants, but izakaya have many dishes that go well with drinks, called otsumami, such as edamame and karaage (fried chicken). Another difference is that you can order all kinds of alcohol besides beer and wine, such as sake and chūhai. There are also soft drinks such as juice and tea, so even people who don't drink alcohol can have a good time.",
-      "A second characteristic that comes to mind is how inexpensive they are. Because both the food and the drinks are inexpensive, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worry. Also, people who drink a lot should know about the system called nomihōdai (all-you-can-drink). With nomihōdai, if you pay a fixed price, you can drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
-      "But without a doubt the biggest characteristic is that izakaya are places for socializing. Most of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings is a way to take a break when you're tired and to relieve stress. It is also a chance to become close to people you haven't talked with much.",
-      "A place where you can enjoy good food and drinks at low prices and get to know people better: that, in short, is the izakaya. I hope you, too, will make your way to an izakaya at least once and experience its unique atmosphere."
+      "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What are people looking for when they go to an izakaya? I would like to explore what makes izakaya appealing by looking at their characteristics.",
+      "The first characteristic is the wide variety of both food and drinks. Once you sit down and look at the menu, you will notice this right away. Like ordinary restaurants, they have salads and desserts, but they also have many dishes called otsumami that go well with drinks, such as edamame and karaage (fried chicken). Another difference is that you can order all kinds of alcohol besides beer and wine, such as sake and chūhai. There are also soft drinks such as juice and tea, so even people who can't drink alcohol can have a good time.",
+      "A second characteristic we can point to is their low prices. Because both the food and the drinks are cheap, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worrying. And people who drink a lot would do well to know about the system called nomihōdai (all-you-can-drink). With nomihōdai, you pay a fixed price and can then drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
+      "But above all, the biggest characteristic is that izakaya serve as places for socializing. Almost all of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings gives you a breather when you're tired and helps relieve stress. It is also a chance to get close to people you haven't talked with much.",
+      "In short, a place where you can enjoy good food and drinks at low prices and deepen your ties with others: that is the izakaya. I hope you, too, will make a point of going to an izakaya at least once and experiencing its unique atmosphere for yourself."
      ]
     },
     {
@@ -561,7 +561,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "Kyoto is a city that is very popular with tourists. Here I would like to introduce what makes Kyoto special.",
-        "Kyoto's greatest feature is that you can feel Japan's history there. Thanks to having been Japan's capital for more than 1,000 years, it has many old temples and shrines. You can also enjoy traditional Japanese culture, such as Japanese cuisine and age-old festivals."
+        "Kyoto's greatest feature is that you can feel Japan's history there. Because it was Japan's capital for more than 1,000 years, it has many old temples and shrines. You can also enjoy traditional Japanese culture, such as Japanese cuisine and age-old festivals."
        ]
       },
       {
@@ -586,7 +586,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "まず、いつ、どんなルートを登るのがいいのでしょうか。一般的な登山期間は7月{上旬|じょうじゅん}から9月上旬までの約2カ月です。この間は山小屋が開いていて、登山バスも走っています。登山ルートは全部で4つあり、歩く{距離|きょり}や難しさなどがルートによって違います。よく調べて自分に合ったルートを選びましょう。",
-          "tr": "First, when should you climb, and by which route? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open and climbers' buses run. There are four climbing routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the route that suits you."
+          "tr": "First, when should you climb, and which route should you take? The usual climbing season is about two months, from early July to early September. During this period the mountain huts are open, and buses run to the trailheads. There are four routes in all, and the walking distance, difficulty, and so on differ depending on the route. Look into them carefully and choose the one that suits you."
          }
         }
        ]
@@ -639,7 +639,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "今日はジョージの{誕生日|たんじょうび}だから、サプライズパーティーをしようよ。",
-           "tr": "Today's George's birthday, so let's throw him a surprise party."
+           "tr": "It's George's birthday today, so let's throw him a surprise party."
           },
           {
            "sp": "B",
@@ -664,7 +664,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "ぜひいろいろな本を読んでみてください。",
-           "tr": "By all means, try reading lots of different books."
+           "tr": "I'd really encourage you to read lots of different kinds of books."
           }
          ]
         },
@@ -773,7 +773,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "春の楽しみといえば、**何と言っても**お花見だろう。",
-         "tr": "When it comes to the pleasures of spring, it has to be cherry blossom viewing, no question."
+         "tr": "When it comes to the joys of spring, cherry blossom viewing would have to be number one."
         },
         {
          "n": 2,
@@ -792,7 +792,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "世界で有名な日本人の特徴は何でしょうか。",
-           "tr": "What trait are Japanese people known for around the world?"
+           "tr": "What trait of Japanese people is famous around the world?"
           },
           {
            "sp": "B",
@@ -935,7 +935,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**NにとってX** evaluates something from N's standpoint: for N it is hard, important, necessary or handy. N is the one affected; X describes the thing, not N's own taste or opinion.\n\n- ✗私にとって旅行が好きだ: preference and opinion (好き, 賛成) take は: 私は旅行が好きだ.\n- Before a noun: 私にとっての幸せ (*what happiness means to me*).\n- **Nに対して** marks the target of an action or attitude. English *to/for* covers both: 子どもにとって大切 (*important for children*) vs. 子どもに対して優しい (*kind to children*).\n\nIn polite speech it becomes 〜にとりまして (TRY! N2 #77). TRY! N1 #81 〜にすれば imagines how things feel to someone else: 親にすれば心配だろう (*for the parents it must be worrying*)."
+     "deepDive": "**NにとってX** evaluates something from N's standpoint: for N it is hard, important, necessary or handy. N is the one affected; X describes the thing, not N's own taste or opinion.\n\n- ✗私にとって旅行が好きだ: preference and opinion (好き, 賛成) take は: 私は旅行が好きだ.\n- Before a noun: 私にとっての幸せ (*what happiness means to me*).\n- **Nに対して** marks the target of an action or attitude. English *to/for* covers both: 子どもにとって大切 (*important for children*) vs. 子どもに対して優しい (*kind to children*).\n\nIn formal speech it becomes 〜にとりまして (TRY! N2 #77). TRY! N1 #81 〜にすれば imagines how things feel to someone else: 親にすれば心配だろう (*for the parents it must be worrying*)."
     },
     {
      "t": "note",
@@ -985,12 +985,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "ビジネススキル**として**必要なものは、何ですか。",
-           "tr": "What is essential as a business skill?"
+           "tr": "What do you need as a business skill?"
           },
           {
            "sp": "B",
            "ja": "そうですね。やっぱり英語は必要だと思います。",
-           "tr": "Let me see. I'd say English is a must, after all."
+           "tr": "Let me see. I'd say English is a must, as you might expect."
           }
          ]
         },
@@ -1155,7 +1155,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "おもしろかったよ。人**によって**感じ方は違うかもしれないけど。",
-           "tr": "It was good. Though how you feel about it might depend on the person."
+           "tr": "It was good. Though how people feel about it probably depends on the person."
           }
          ]
         },
@@ -1199,7 +1199,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**NによってX** says that X varies with N: 国によって違う (*differs from country to country*). X is a word of difference (違う, 異なる, 変わる, さまざまだ), so English says *vary by, depend on*.\n\n- Short answer: 人によります (*it depends on the person*). 場合によっては means *in some cases*.\n- N can be an embedded question: どれだけ働くかによって (example 4).\n- Other によって uses: the agent of a passive (〜によって建てられた, *built by*) and a cause or means in writing.\n- **Nに応じて** (TRY! N2 #4, Quartet II L12-3) adds deliberate adjustment: 人数に応じて部屋を選ぶ (*choose a room to suit the group*). With 違う or 異なる, use によって.\n\nDon't confuse it with **Nによると** (L1-9), *according to N*."
+     "deepDive": "**NによってX** says that X varies with N: 国によって違う (*differs from country to country*). X is a word of difference (違う, 異なる, 変わる, さまざまだ), so English says *vary by, depend on*.\n\n- Short answer: 人によります (*it depends on the person*). 場合によっては means *in some cases*.\n- N can be an embedded question: どれだけ働くかによって (example 4).\n- Other によって uses: the agent of a passive (〜によって建てられた, *built by*) and a cause or means in writing.\n- **Nに応じて** (TRY! N2 #4, Quartet II L12-3) adds deliberate adjustment: 人数に応じて部屋を選ぶ (*choose a room to suit the group*). With 違う or 異なる, によって is the usual choice.\n\nDon't confuse it with **Nによると** (L1-9), *according to N*."
     },
     {
      "t": "note",
@@ -1263,7 +1263,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{嫌|いや}なら、「{静|しず}かにして！」とはっきり言う**べきだ**よ。",
-           "tr": "If it bothers you, you should tell them clearly, \"Please be quiet!\""
+           "tr": "If it bothers you, you should tell them straight out, \"Keep it down!\""
           }
          ]
         }
@@ -1393,7 +1393,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{剣道|けんどう}の{練習|れんしゅう}を毎日しているのに、全然試合に{勝|か}てないんだ。もうやめたい…。",
-           "tr": "I practice kendo every day, but I can't win a match at all. I want to quit..."
+           "tr": "I practice kendo every day, and I still can't win a single match. I want to quit..."
           },
           {
            "sp": "B",
@@ -1408,12 +1408,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "{山田|やまだ}さんはまだ20歳だから、店長の仕事をさせることはできませんよね。",
-           "tr": "Yamada-san is only 20, so we can't really give them the store manager's job, can we?"
+           "tr": "Yamada-san is only 20, so we can't really have them do the store manager's job, can we?"
           },
           {
            "sp": "B",
            "ja": "いえいえ。若い**からといって**、できないとは限りませんよ。",
-           "tr": "Oh, no. Just because someone is young doesn't necessarily mean they can't do it."
+           "tr": "Not at all. Just because someone is young doesn't necessarily mean they can't do it."
           }
          ]
         },
@@ -1500,12 +1500,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "日本人はみんな着物を着たことがありますか。",
-           "tr": "Have all Japanese people worn a kimono?"
+           "tr": "Has every Japanese person worn a kimono?"
           },
           {
            "sp": "B",
            "ja": "いいえ、必ずしも着たことがある**とは限りません**。",
-           "tr": "No, not everyone has necessarily worn one."
+           "tr": "No, not necessarily."
           }
          ]
         },
@@ -1517,7 +1517,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "必ずしも外国人がみんな{納豆|なっとう}が{嫌|きら}いだ**とは限りません**。",
-         "tr": "Not all foreigners necessarily dislike natto."
+         "tr": "It's not necessarily true that all foreigners dislike natto."
         },
         {
          "n": 4,
@@ -1569,7 +1569,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Xとは限らない** is partial negation: X is often true, but not always, so the speaker won't commit to it. English *not necessarily, not always, not every*. It corrects an overgeneralization instead of flatly denying it.\n\n- It goes with words of totality in X: 必ずしも, いつも, みんな, どの店でも (example 4).\n- Compare a flat denial: 高い店はおいしくない (*expensive places aren't good*) vs. おいしいとは限らない (*aren't always good*).\n- **〜わけではない** (L6-1, TRY! N2 #19) denies an inference or reading: 嫌いなわけではない (*it's not that I dislike it*). とは限らない is about how generally something holds.\n\nQuartet II L11-9 〜とばかりは言えない (*can't always be said*) is its written relative."
+     "deepDive": "**Xとは限らない** is partial negation: X is often true, but not always, so the speaker won't commit to it. English *not necessarily, not always, not every*. It corrects an overgeneralization instead of flatly denying it.\n\n- It often pairs with 必ずしも and with words of totality: いつも, みんな, どの店でも (example 4).\n- Compare a flat denial: 高い店はおいしくない (*expensive places aren't good*) vs. おいしいとは限らない (*aren't always good*).\n- **〜わけではない** (L6-1, TRY! N2 #19) denies an inference or reading: 嫌いなわけではない (*it's not that I dislike it*). とは限らない is about how generally something holds.\n\nQuartet II L11-9 〜とばかりは言えない (*can't always be said*) is its written relative."
     },
     {
      "t": "note",
@@ -1629,7 +1629,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "やっぱりこのタブレットです。\n写真を{撮|と}ったりネットで道を調べたりする**のに**役に立つので。",
-           "tr": "This tablet, of course. It's useful for taking pictures and looking up directions online."
+           "tr": "This tablet, for sure. It's useful for taking pictures and looking up directions online."
           }
          ]
         },
@@ -1671,7 +1671,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**VるのにX** names the purpose something serves, and X evaluates it: 使う, 必要だ, 便利だ, 役に立つ, いい, or a cost with かかる. English *for ~ing, to do*.\n\n- X is limited to such words. For going somewhere or acting with a goal, use ために (L1-5): ✗パンを買うのにスーパーへ行った → 買うために.\n- With a noun, Nに works the same way: 通学に便利 (*convenient for commuting*).\n- The のに of *although* is a different word: 雨なのに出かけた (*went out even though it was raining*); 〜ば〜のに (L4-9) uses that one. The purpose のに follows only a plain Vる.\n\nTRY! N2 #14 V-る上で (*in doing ~*) is a formal relative: 生活する上で必要なこと (*what you need to get by*)."
+     "deepDive": "**VるのにX** names the purpose something serves, and X evaluates it: 使う, 必要だ, 便利だ, 役に立つ, いい, or a cost with かかる. English *for ~ing, to do*.\n\n- X is limited to such words. For going somewhere or acting with a goal, use ために (L1-5): ✗パンを買うのにスーパーへ行った → 買うために.\n- With a noun, Nに works the same way: 通学に便利 (*convenient for commuting*).\n- The のに of *although* is a different word: 雨なのに出かけた (*went out even though it was raining*); 〜ば〜のに (L4-9) uses that one. The purpose のに follows only a plain Vる.\n\nTRY! N2 #14 V-る上で (*in doing ~*) is a formal relative: 生活する上で必要なこと (*what you need in daily life*)."
     }
    ]
   },
