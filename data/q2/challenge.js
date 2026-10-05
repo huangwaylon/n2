@@ -2667,7 +2667,7 @@ TRY.registerUnits([
         "n": "(5)",
         "text": {
          "ja": "いつもはおとなしい{研|けん}だが、クラスメートにひどいことを言われて、急に【a. ぷんぷん　b. かっと】なってクラスメートを{殴|なぐ}ってしまったらしい。",
-         "tr": "Ken is usually quiet, but apparently when a classmate said something awful to him, he suddenly lost his temper and hit the classmate."
+         "tr": "Ken is usually quiet, but apparently when a classmate said something awful to him, he suddenly lost his temper and ended up hitting the classmate."
         },
         "options": [
          "a. ぷんぷん",
@@ -2727,7 +2727,7 @@ TRY.registerUnits([
       {
        "text": {
         "ja": "__はらはら__する",
-        "tr": "to be on edge, to feel anxious"
+        "tr": "to watch anxiously, to be on the edge of one's seat"
        }
       },
       {
@@ -3131,7 +3131,7 @@ TRY.registerUnits([
         "items": [
          {
           "ja": "彼は**マイペース**なので、他の人に合わせることはないだろう。",
-          "tr": "He does things at his own pace, so he probably won't adjust to other people."
+          "tr": "He does things at his own pace, so he probably won't go along with everyone else."
          }
         ]
        }
@@ -3725,7 +3725,7 @@ TRY.registerUnits([
      {
       "n": 2,
       "ja": "来週は期末試験だ。__だから__、今週末は{遊|あそ}ばず勉強しようと思う。",
-      "tr": "Final exams are next week. So I'm going to study this weekend instead of having fun."
+      "tr": "Final exams are next week. So I think I'll spend this weekend studying instead of going out."
      },
      {
       "n": 3,
@@ -4242,7 +4242,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "{寝坊|ねぼう}したし、__さらに__、道が込んでいたので、1時間も{遅刻|ちこく}してしまった。",
-     "tr": "I overslept, and on top of that, the roads were crowded, so I ended up being a whole hour late."
+     "tr": "I overslept, and what's more, traffic was heavy, so I ended up a whole hour late."
     }
    },
    {
