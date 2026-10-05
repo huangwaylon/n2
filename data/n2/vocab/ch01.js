@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "cheating (on a partner); an affair; fickleness",
     note: "Being unfaithful to a boyfriend, girlfriend or spouse: 浮気する, 浮気がばれる (get found out). 不倫 specifically means an affair involving a married person. As a な adjective, 浮気な人 means someone fickle.",
     rx: ["うきき", "ふき", "うわけ"],
-    book: { ja: "彼に{限|かぎ}って**{浮気|うわき}**なんてするはずがない。", en: "He of all people would never cheat.", at: "gp/3" },
+    book: { ja: "彼に{限|かぎ}って**{浮気|うわき}**なんてするはずがない。", en: "He of all people would never be unfaithful.", at: "gp/3" },
     ex: [
       { ja: "{夫|おっと}の**{浮気|うわき}**が{原因|げんいん}で、二人は{離婚|りこん}した。", en: "The couple divorced because of the husband's affair.", alt: ["{雰囲気|ふんいき}", "{陽気|ようき}", "{本気|ほんき}"] },
     ] },
@@ -427,7 +427,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "returning goods (for a refund); a returned item",
     note: "Sending a purchase back to the seller: 返品する, 返品不可 (no returns), 返品・交換. Returning money is 返金; exchanging for another item is 交換.",
     rx: ["へんひん", "はんぴん", "へんしな"],
-    book: { ja: "セール{品|ひん}のため、理由のいかんにかかわらず、**{返品|へんぴん}**はお受けできません。", en: "Because these are sale items, we cannot accept returns for any reason whatsoever.", at: "gp/5" },
+    book: { ja: "セール{品|ひん}のため、理由のいかんにかかわらず、**{返品|へんぴん}**はお受けできません。", en: "Because these are sale items, we cannot accept returns, whatever the reason.", at: "gp/5" },
     ex: [
       { ja: "サイズが合わなかったので、ネットで{買|か}ったくつを**{返品|へんぴん}**した。", en: "The shoes I bought online didn't fit, so I returned them.", alt: ["{返事|へんじ}", "{返済|へんさい}", "{商品|しょうひん}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping your orders, some items were sent out late.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping our products, some items went out late.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },

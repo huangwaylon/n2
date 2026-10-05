@@ -42,7 +42,7 @@ TRY.registerChapter({
           forms: ["[N] + につき"],
           examples: [
             { ja: "{清掃|せいそう}中につき、お{足元|あしもと}にご注意ください。", en: "Cleaning in progress — please watch your step." },
-            { ja: "会場内は{禁煙|きんえん}につき、おたばこはご{遠慮|えんりょ}ください。", en: "Smoking is prohibited inside the venue, so please refrain from smoking." },
+            { ja: "会場内は{禁煙|きんえん}につき、おたばこはご{遠慮|えんりょ}ください。", en: "This is a non-smoking venue, so please refrain from smoking." },
             { ja: "4月15日（木）：{佐藤|さとう}{医師|いし}、{学会|がっかい}{出席|しゅっせき}につき{休診|きゅうしん}。", en: "April 15 (Thu.): no consultations — Dr. Sato is attending an academic conference." },
             { ja: "ただ今、{改装|かいそう}工事中につき、{左記|さき}の{仮|かり}{店舗|てんぽ}で{営業|えいぎょう}いたしております。", en: "Because our store is currently under renovation, we are operating out of the temporary location shown at left." },
           ],
@@ -57,7 +57,7 @@ TRY.registerChapter({
               left: ["10月20日は社員{研修|けんしゅう}につき、", "キャンペーン{期間|きかん}中につき、", "{生|なま}ものにつき、", "エレベーター{点検|てんけん}中につき、"],
               right: ["{階段|かいだん}をご{利用|りよう}ください。", "お早めにお{召|め}し{上|あ}がりください。", "{入会金|にゅうかいきん}{無料|むりょう}。", "{臨時|りんじ}{休業|きゅうぎょう}させていただきます。"],
               answer: [3, 2, 1, 0],
-              en: ["We will be closed on October 20 due to staff training.", "Because our campaign is under way, there is no joining fee.", "This item is perishable, so please eat it as soon as possible.", "The elevator is being inspected, so please use the stairs."],
+              en: ["We will be closed on October 20 due to staff training.", "As our campaign is under way, the joining fee is waived.", "This item is perishable, so please eat it as soon as possible.", "The elevator is being inspected, so please use the stairs."],
             },
           ],
         },
@@ -107,7 +107,7 @@ TRY.registerChapter({
                   q: "{通信|つうしん}{販売|はんばい}センターでは{昼間|ひるま}（　）夜も10時まで受け付けています。",
                   options: ["はもちろん", "によって", "を{問|と}わず"],
                   answer: 0,
-                  en: "The mail-order center takes orders during the day, of course, and also in the evening until 10 p.m.",
+                  en: "The mail-order center takes orders not only during the day but also in the evening, until 10 p.m.",
                   why: { en: "昼間 and 夜も are two separate items — “not only in the daytime but at night too” — so はもちろん. を問わず would need a noun with a range, such as 昼夜, and によって (“depending on”) leaves 夜も unexplained." },
                 },
                 {
@@ -149,8 +149,8 @@ TRY.registerChapter({
               en: "Use the “[N] + に{限|かぎ}って〜ない” form when you want to make a strong denial and say that you cannot believe a rumor, some bad occurrence that you did not expect, and so on.",
               examples: [
                 { ja: "うちの子に{限|かぎ}って、{万引|まんび}きなんてするはずがありません。", en: "My child, of all people, would never shoplift." },
-                { ja: "彼に{限|かぎ}って{浮気|うわき}なんてするはずがない。", en: "He of all people would never cheat." },
-                { ja: "彼に{限|かぎ}って、そんな{単純|たんじゅん}なミスをするわけがない。", en: "He of all people would never make such a simple mistake." },
+                { ja: "彼に{限|かぎ}って{浮気|うわき}なんてするはずがない。", en: "He of all people would never be unfaithful." },
+                { ja: "彼に{限|かぎ}って、そんな{単純|たんじゅん}なミスをするわけがない。", en: "There's no way he, of all people, would make such a simple mistake." },
                 { ja: "にせものを売るなんて、あの店に{限|かぎ}って、そんなことは{絶対|ぜったい}にない。", en: "Selling fakes? That shop, of all places, would never do anything like that." },
               ],
             },
@@ -183,7 +183,7 @@ TRY.registerChapter({
                   q: "お一人様1回（　）レッスンを{無料|むりょう}で{体験|たいけん}できます。",
                   options: ["に{限|かぎ}り", "につき"],
                   answer: 0,
-                  en: "You can try a lesson for free, limited to one time per person.",
+                  en: "You can try a lesson for free (limit one per person).",
                   why: { en: "The free trial is a privilege with a limit, one lesson per person: に限り. につき (“per”) would need a rate that follows, such as 500円, not a free lesson." },
                 },
                 {
@@ -266,7 +266,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "{区民|くみん}センターの利用料金が{変更|へんこう}になりました。{和室|わしつ}は、{人数|にんずう}にかかわらず、2時間1,000円になります。", en: "The fees for the ward community center have changed. The Japanese-style room is now ¥1,000 for two hours, regardless of the number of people." },
-            { ja: "セール{品|ひん}のため、理由のいかんにかかわらず、{返品|へんぴん}はお受けできません。", en: "Because these are sale items, we cannot accept returns for any reason whatsoever." },
+            { ja: "セール{品|ひん}のため、理由のいかんにかかわらず、{返品|へんぴん}はお受けできません。", en: "Because these are sale items, we cannot accept returns, whatever the reason." },
             { ja: "会議で{発言|はつげん}するしないにかかわらず、自分の意見はまとめておくべきです。", en: "Whether or not you speak up at the meeting, you should get your thoughts in order beforehand." },
             { ja: "今回の旅行は{晴雨|せいう}にかかわらず、{実施|じっし}します。", en: "This trip will go ahead rain or shine." },
           ],
@@ -280,7 +280,7 @@ TRY.registerChapter({
               left: ["内容がわかるわからないにかかわらず、", "お荷物の{大小|だいしょう}にかかわらず、", "{金額|きんがく}の{多少|たしょう}にかかわらず、", "{故障|こしょう}の{有無|うむ}にかかわらず、"],
               right: ["1つ100円でお{預|あず}かりします。", "{寄付|きふ}をしていただけるとありがたいです。", "1年に1回は{点検|てんけん}をすることをおすすめします。", "毎日聞き続ければ、3か月後には{必|かなら}ず{効果|こうか}が表れます。"],
               answer: [3, 0, 1, 2],
-              en: ["Whether or not you understand what you hear, keep listening every day and you are sure to see results in three months.", "Regardless of size, we will store your bags for ¥100 each.", "No matter how large or small the amount, we would be grateful for a donation.", "Whether or not anything is wrong with it, we recommend having it inspected once a year."],
+              en: ["Whether or not you understand the content, if you keep listening every day you are sure to see results in three months.", "Regardless of size, we will store your bags for ¥100 each.", "No matter how large or small the amount, we would be grateful for a donation.", "Whether or not anything is wrong with it, we recommend having it inspected once a year."],
             },
           ],
         },
@@ -355,7 +355,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "{各種|かくしゅ}{書類|しょるい}の{提出|ていしゅつ}に{際|さい}しては、{期限|きげん}を{厳守|げんしゅ}してください。", en: "When submitting the various documents, please strictly observe the deadline." },
                 { ja: "{振|ふ}り{込|こ}みに{際|さい}して、{手数料|てすうりょう}はお客様のご{負担|ふたん}となります。", en: "When paying by bank transfer, the customer is responsible for the transfer fee." },
-                { ja: "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping your orders, some items were sent out late." },
+                { ja: "{商品|しょうひん}{発送|はっそう}に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping our products, some items went out late." },
               ],
             },
           ],
@@ -449,7 +449,7 @@ TRY.registerChapter({
             options: ["ばかりでなく", "に{限|かぎ}って", "を{問|と}わず", "とおりに"],
             answer: 2,
             en: "Swimming is said to be a sport that everyone from children to the elderly can enjoy, regardless of generation.",
-            why: { en: "世代 (generation) is a range — from children to the elderly — and everyone can enjoy it: を問わず. ばかりでなく would need a も-phrase, に限って (“only / of all times”) contradicts 子どもからお年寄りまで, and とおりに (“just as”) needs something to follow." },
+            why: { en: "世代 (generation) is a range — from children to the elderly — and everyone can enjoy it: を問わず. ばかりでなく would need a も-phrase, に限って (“only / of all times”) contradicts 子どもからお年寄りまで, and とおりに (“just as”) doesn't attach to a bare noun (that would be どおりに) and makes no sense here." },
           },
           {
             q: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で{配送|はいそう}を{承|うけたまわ}ります。",
@@ -494,7 +494,7 @@ TRY.registerChapter({
             pieces: ["における", "である", "エネルギー問題", "{最重要課題|さいじゅうようかだい}は"],
             order: [0, 3, 2, 1],
             star: 2,
-            en: "The prime minister said that the most important issue at this summit is energy.",
+            en: "The prime minister said that the most important issue at this summit is the energy problem.",
           },
           {
             before: "",
@@ -530,7 +530,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［5］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 5." },
         title: "",
         text: ["日本で映画を見るのに、{通常|つうじょう}1,800円ぐらいかかりますが、映画館では、{通常|つうじょう}料金のほかに、特別なサービスがあります。", "毎月1日の「映画の日」は、{年齢|ねんれい}・{性別|せいべつ}[1]{誰|だれ}でも1,000円です。水曜日は女性[2]、1,000円になる映画館もあります。", "[3]{夫婦|ふうふ}のどちらかが50歳以上の場合は、いつでも2人で2,000円です。[4]、チケットを買う[5]は、{身分証明書|みぶんしょうめいしょ}の{提示|ていじ}が{必要|ひつよう}です。", "そのほか、館内では、{毛布|もうふ}やクッションを貸し出すサービスもあります。"],
-        en: ["Seeing a film in Japan usually costs about 1,800 yen, but cinemas offer special deals besides the regular price.", "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. At some cinemas, tickets are also 1,000 yen on Wednesdays for women only.", "Also, when either member of a married couple is 50 or older, the two of them can get in for 2,000 yen at any time. Note, however, that you must show ID when buying the tickets.", "Some cinemas also lend out blankets and cushions for use inside."],
+        en: ["Seeing a film in Japan usually costs about 1,800 yen, but cinemas offer special deals besides the regular price.", "On \"Movie Day,\" the 1st of every month, it is 1,000 yen for anyone, regardless of age or gender. At some cinemas, Wednesdays are 1,000 yen for women only.", "Also, when either member of a married couple is 50 or older, the two of them can get in for 2,000 yen at any time. Note, however, that you must show ID when buying the tickets.", "Some cinemas also lend out blankets and cushions for use inside."],
         blanks: [
           { options: ["によって", "に{限|かぎ}り", "を{問|と}わず", "に{応|おう}じ"], answer: 2, why: { en: "年齢・性別 are categories that vary, and 誰でも follows: “regardless of age or gender” — を問わず. に限り would limit the offer, contradicting 誰でも; によって and に応じ would make the price vary." } },
           { options: ["にかわって", "において", "に{限|かぎ}り", "を{問|と}わず"], answer: 2, why: { en: "The ¥1,000 price on Wednesdays is for women only: 女性に限り. を問わず would open it to everyone, and にかわって (“in place of”) and において (“at, in”) don't fit." } },
