@@ -47,11 +47,11 @@ TRY.registerUnits([
      },
      {
       "ja": "（私は）Bさんにプレゼントをあげた。",
-      "tr": "(I) gave B a present."
+      "tr": "(I) gave B-san a present."
      },
      {
       "ja": "Bさんは__うれしそう__だった。",
-      "tr": "B looked happy."
+      "tr": "B-san looked happy."
      }
     ]
    },
@@ -66,7 +66,7 @@ TRY.registerUnits([
      },
      {
       "ja": "（私は）Aさんにプレゼントを__もらった__。",
-      "tr": "(I) got a present from A."
+      "tr": "(I) got a present from A-san."
      },
      {
       "ja": "（私は）__うれしかった__。",
@@ -120,7 +120,7 @@ TRY.registerUnits([
      {
       "n": "(4)",
       "ja": "すると絵理は悪かったと__思ったようで__、（僕が）ずっと食べたかったカレーを（僕のために）__作ってくれた__。",
-      "tr": "Then Eri seemed to feel bad, and she made the curry (I)'d been wanting to eat for ages (for me)."
+      "tr": "Then Eri seemed to feel bad, and she made (me) the curry (I)'d been wanting to eat for ages."
      },
      {
       "n": "(5)",
@@ -144,7 +144,7 @@ TRY.registerUnits([
     "page": 201,
     "title": {
      "ja": "絵理（＝私）の視点から、例3の「ある日のできごと」を書いてください。",
-     "tr": "Write \"Something That Happened One Day\" from Example 3 from Eri's (= my) viewpoint."
+     "tr": "Write Example 3's \"Something That Happened One Day\" from Eri's (= my) viewpoint."
     },
     "blocks": [
      {
@@ -178,7 +178,7 @@ TRY.registerUnits([
         "n": "(4)",
         "text": {
          "ja": "だから（私は）悪かったと思って、ジョージがa. 食べ＿＿\nカレーを（ジョージのために）b. 作＿＿。",
-         "tr": "So (I) felt bad and (b.) made the curry George (a.) had been wanting to eat (for him)."
+         "tr": "So (I) felt bad and (b.) made (him) the curry George (a.) had been wanting to eat."
         },
         "answer": "a. 食べ__たがっていた__　b. 作__ってあげた__"
        },
@@ -307,7 +307,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「{一所懸命|いっしょけんめい}」や第8課の読み物1に出てきた「{十人|じゅうにん}{十|と}{色|いろ}」などのように、4つの漢字から作られていて{慣用句|かんようく} (idiom) のように使われるものを「{四字熟語|よじじゅくご}」といいます。四字熟語を知っていると、説明が長くなってしまうことや難しいことを、簡単に言うことができます。",
-     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"everyone is different,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called 四字熟語 (four-character idioms). If you know four-character idioms, you can say simply things that would otherwise take a long explanation or be hard to put into words."
+     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"everyone is different,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called 四字熟語 (four-character idioms). If you know four-character idioms, you can say in a few words things that would otherwise take a long explanation, or that are hard to explain."
     },
     "page": 202
    },
@@ -840,7 +840,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "体や{命|いのち} (life) がなくなるほど{追|お}いつめられている (driven into a corner) 様子",
-         "tr": "Being driven into such a corner that you might lose life and limb"
+         "tr": "Being so cornered that you could lose your body and your life"
         }
        },
        {
@@ -1845,7 +1845,7 @@ TRY.registerUnits([
           },
           {
            "ja": "人生は楽しいことだけや、苦しいことだけが続くわけではない。楽ばかりしていれば、後で苦労する。苦労しておけば、後で楽になる。",
-           "tr": "Life isn't nothing but good times, or nothing but hard times. If you always take it easy, you'll struggle later. If you put in the hard work now, things will be easier later."
+           "tr": "Life isn't all good times, or all hard times. If you always take it easy, you'll struggle later. If you put in the hard work now, things will be easier later."
           }
          ]
         ]
