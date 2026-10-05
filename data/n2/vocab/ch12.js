@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "weight reduction; making (a product) lighter",
     note: "Product and engineering talk: 車体の軽量化, 軽量化を図る. 軽量 alone means light in weight (軽量の素材, 軽量級 lightweight class). The opposite trend is 大型化 (getting bigger).",
     rx: ["けいりょか", "けいりょうけ", "かるりょうか"],
-    book: { ja: "**{軽量化|けいりょうか}**という{業界|ぎょうかい}の{流|なが}れにそって、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。", en: "New products are being developed in line with the industry trend toward lighter weight, after all.", at: "ch/12" },
+    book: { ja: "**{軽量化|けいりょうか}**という{業界|ぎょうかい}の{流|なが}れにそって、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。", en: "Well, new products are being developed in line with the industry-wide trend toward lighter shoes.", at: "ch/12" },
     ex: [
       { ja: "{自動車|じどうしゃ}メーカーは{燃費|ねんぴ}をよくするため、{車体|しゃたい}の**{軽量化|けいりょうか}**を{進|すす}めている。", en: "To improve fuel economy, carmakers are working on making car bodies lighter.", alt: ["{計量|けいりょう}", "{大型化|おおがたか}", "{高齢化|こうれいか}"] },
     ] },
@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "flow; current; trend; course (of events)",
     note: "Literal and figurative: 川の流れ, 時代の流れ (the trend of the times), 話の流れ (the flow of a conversation), 仕事の流れ (workflow). 流行 is a fashion or craze.",
     rx: ["りゅうれ", "るれ", "ながり"],
-    book: { ja: "{軽量化|けいりょうか}という{業界|ぎょうかい}の**{流|なが}れ**にそって、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。", en: "New products are being developed in line with the industry trend toward lighter weight, after all.", at: "ch/12" },
+    book: { ja: "{軽量化|けいりょうか}という{業界|ぎょうかい}の**{流|なが}れ**にそって、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。", en: "Well, new products are being developed in line with the industry-wide trend toward lighter shoes.", at: "ch/12" },
     ex: [
       { ja: "{時代|じだい}の**{流|なが}れ**に{合|あ}わせて、{店|みせ}のサービスも{変|か}えていくべきだ。", en: "We should change the store's services to keep up with the times.", alt: ["{流|なが}し", "{外|はず}れ", "{別|わか}れ"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "track record; (proven) results; achievements",
     note: "Past results that prove ability, a key business word: 実績がある / を上げる / を積む, 販売実績. 成績 is grades or scores, and 業績 a company's business results.",
     rx: ["じつせき", "じっさい", "みせき"],
-    book: { ja: "わが社もウォーキングシューズにかけては、**{実績|じっせき}**がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは{獲得|かくとく}できないですよね。", en: "Our company has a proven track record too when it comes to walking shoes, but unless we develop them from a different angle, we won't win any new customers.", at: "ch/12" },
+    book: { ja: "わが社もウォーキングシューズにかけては、**{実績|じっせき}**がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは{獲得|かくとく}できないですよね。", en: "We have a proven track record when it comes to walking shoes too, but unless we approach development from a different angle, we won't win new customers.", at: "ch/12" },
     ex: [
       { ja: "{彼女|かのじょ}はこの{分野|ぶんや}で10{年|ねん}{以上|いじょう}の**{実績|じっせき}**がある。", en: "She has more than ten years of proven experience in this field.", alt: ["{成績|せいせき}", "{実物|じつぶつ}", "{面積|めんせき}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "acquisition; winning; to gain; to obtain",
     note: "Getting something through effort or competition: 顧客を獲得する (win customers), 金メダルを獲得する, 権利の獲得. Stronger and more formal than 得る or 手に入れる. 習得 is acquiring a skill.",
     rx: ["かくどく", "えとく", "かいとく"],
-    book: { ja: "わが社もウォーキングシューズにかけては、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは**{獲得|かくとく}**できないですよね。", en: "Our company has a proven track record too when it comes to walking shoes, but unless we develop them from a different angle, we won't win any new customers.", at: "ch/12" },
+    book: { ja: "わが社もウォーキングシューズにかけては、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは**{獲得|かくとく}**できないですよね。", en: "We have a proven track record when it comes to walking shoes too, but unless we approach development from a different angle, we won't win new customers.", at: "ch/12" },
     ex: [
       { ja: "{日本|にほん}はこの{大会|たいかい}で{金|きん}メダルを5{個|こ}**{獲得|かくとく}**した。", en: "Japan won five gold medals at this tournament.", alt: ["{習得|しゅうとく}", "{納得|なっとく}", "{説得|せっとく}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "attaching importance to; placing emphasis on; to value highly",
     note: "〜を重視する: 経験を重視する, デザインを重視する. The opposite is 軽視 (make light of). 重要視 means the same. 優先 is putting something first in order.",
     rx: ["じゅうじ", "ちょうし", "おもし"],
-    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを**{重視|じゅうし}**しがちですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but as a woman, I'd say the deciding factor when buying is still the design.", at: "ch/12" },
+    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを**{重視|じゅうし}**しがちですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。", en: "With walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, when it comes to actually buying them, the deciding factor is still the design.", at: "ch/12" },
     ex: [
       { ja: "この{会社|かいしゃ}は{学歴|がくれき}より{経験|けいけん}を**{重視|じゅうし}**している。", en: "This company values experience more than academic background.", alt: ["{無視|むし}", "{重複|ちょうふく}", "{視察|しさつ}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "deciding factor; clincher",
     note: "What finally settles a choice or a case: 買う決め手, 決め手になる, 決め手に欠ける (lack anything decisive), 事件解決の決め手.",
     rx: ["きめしゅ", "けっめて", "きめで"],
-    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}しがちですけど、女性としては、やっぱり買うときの**{決|き}め{手|て}**はデザインですね。", en: "When it comes to walking shoes, people tend to put comfort ahead of looks, but as a woman, I'd say the deciding factor when buying is still the design.", at: "ch/12" },
+    book: { ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}しがちですけど、女性としては、やっぱり買うときの**{決|き}め{手|て}**はデザインですね。", en: "With walking shoes, people tend to put comfort ahead of looks, but speaking as a woman, when it comes to actually buying them, the deciding factor is still the design.", at: "ch/12" },
     ex: [
       { ja: "{家賃|やちん}の{安|やす}さが、この{部屋|へや}を{選|えら}んだ**{決|き}め{手|て}**だった。", en: "The low rent was the deciding factor in choosing this apartment.", alt: ["{決|き}まり", "{相手|あいて}", "{担|にな}い{手|て}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "musical performance; to play (an instrument)",
     note: "ピアノを演奏する, 演奏会 (recital, concert), 生演奏 (live music). 弾く is the everyday verb for keyboard and string instruments; 演技 is acting.",
     rx: ["えんしょう", "えんぞう", "いんそう"],
-    book: { ja: "彼は映画{俳優|はいゆう}だが、ピアノの**{演奏|えんそう}**にかけても（　）。", en: "He's a film actor, but when it comes to playing the piano, he also has a wonderful talent.", at: "gp/109" },
+    book: { ja: "彼は映画{俳優|はいゆう}だが、ピアノの**{演奏|えんそう}**にかけても（　）。", en: "He's a film actor, but when it comes to playing the piano, he has a remarkable talent too.", at: "gp/109" },
     ex: [
       { ja: "{彼女|かのじょ}のバイオリンの**{演奏|えんそう}**に{観客|かんきゃく}は{感動|かんどう}した。", en: "The audience was moved by her violin performance.", alt: ["{演技|えんぎ}", "{演説|えんぜつ}", "{演出|えんしゅつ}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "accommodating (people); capacity; to hold; to take in",
     note: "5万人を収容できるスタジアム, 収容人数 (seating capacity), and taking people into a facility (病院に収容される). 収納 is storing things away.",
     rx: ["しゅよう", "しゅうおう", "じゅうよう"],
-    book: { ja: "もっと広い会場を借りないことには、{観客|かんきゃく}を**{収容|しゅうよう}**しきれないだろう。", en: "Unless we rent a bigger venue, we probably won't be able to fit all the audience in.", at: "gp/110" },
+    book: { ja: "もっと広い会場を借りないことには、{観客|かんきゃく}を**{収容|しゅうよう}**しきれないだろう。", en: "Unless we rent a bigger venue, we probably won't be able to fit the whole audience in.", at: "gp/110" },
     ex: [
       { ja: "このホールは2,000{人|にん}を**{収容|しゅうよう}**できる。", en: "This hall can hold 2,000 people.", alt: ["{収納|しゅうのう}", "{内容|ないよう}", "{収穫|しゅうかく}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to butt in; to interfere; to put in one's two cents",
     note: "Commenting on something that isn't your business: 人のことに口を出す. The noun is 口出し (余計な口出し). 口を挟む is to cut into a conversation.",
     rx: ["こうをだす", "くちをでる", "くちをいだす"],
-    book: { ja: "親は子どものすることに**口を出し**がちだが、", en: "Parents tend to interfere in what their children do, but", at: "gp/111" },
+    book: { ja: "親は子どものすることに**口を出し**がちだが、", en: "Parents tend to meddle in what their children do, but", at: "gp/111" },
     ex: [
       { ja: "{他人|たにん}の{家庭|かてい}の{問題|もんだい}に**{口|くち}を{出|だ}す**べきではない。", en: "You shouldn't meddle in other families' problems.", alt: ["{口|くち}を{揃|そろ}える", "{口|くち}に{合|あ}う", "{顔|かお}を{出|だ}す"] },
     ] },
@@ -211,7 +211,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "desert",
     note: "サハラ砂漠, 砂漠化 (desertification). Don't confuse it with 砂浜 (sandy beach) or 砂利 (gravel).",
     rx: ["すなばく", "さまく", "しゃばく"],
-    book: { ja: "私は**{砂漠|さばく}**へ行って、{改|あらた}めてその大切さに気づいた。", en: "I went to the desert and realized anew how precious it is.", at: "gp/111" },
+    book: { ja: "私は**{砂漠|さばく}**へ行って、{改|あらた}めてその大切さに気づいた。", en: "Going to the desert made me realize all over again how important it is.", at: "gp/111" },
     ex: [
       { ja: "**{砂漠|さばく}**では{昼|ひる}と{夜|よる}の{気温差|きおんさ}がとても{大|おお}きい。", en: "In the desert, the temperature difference between day and night is very large.", alt: ["{砂糖|さとう}", "{芝生|しばふ}", "{砂利|じゃり}"] },
     ] },
@@ -234,7 +234,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "day breaks; dawn comes",
     note: "夜 is read よ in this phrase. The noun is 夜明け (dawn). Compare 年が明ける (the new year begins) and 梅雨が明ける (the rainy season ends).",
     rx: ["やがあける", "よがめいける", "よがあかる"],
-    book: { ja: "早く寝ようと思いつつ、ゲームがやめられなくて、**{夜|よ}が{明|あ}けて**しまった。", en: "Although I meant to go to bed early, I couldn't stop playing the game, and before I knew it, dawn had broken.", at: "gp/112" },
+    book: { ja: "早く寝ようと思いつつ、ゲームがやめられなくて、**{夜|よ}が{明|あ}けて**しまった。", en: "Although I kept meaning to go to bed early, I couldn't stop playing the game, and before I knew it, the sun was coming up.", at: "gp/112" },
     ex: [
       { ja: "{話|はな}しているうちに、いつの{間|ま}にか**{夜|よ}が{明|あ}けて**いた。", en: "While we were talking, dawn broke before we knew it.", alt: ["{目|め}が{覚|さ}めて", "{夜|よ}が{開|ひら}いて", "{雨|あめ}が{明|あ}けて"] },
     ] },
