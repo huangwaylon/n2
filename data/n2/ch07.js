@@ -13,8 +13,8 @@ TRY.registerChapter({
         lines: [
           { ja: "皆さんはオオカミに対してどんなイメージを持っているだろうか。", en: "What comes to mind when you think of wolves?" },
           { cont: true, ja: "人間の{立場|たちば}**から見ると**、オオカミは牛などの{家畜|かちく}を{襲|おそ}う{敵|てき}だ。", en: "From a human point of view, the wolf is an enemy that attacks cattle and other livestock." },
-          { cont: true, ja: "このイメージから、物語などでもオオカミは悪く書かれることが多かった。", en: "Because of this image, wolves have often been cast as villains in stories and elsewhere." },
-          { ja: "しかし、その**{一方|いっぽう}**で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "On the other hand, though, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous." },
+          { cont: true, ja: "このイメージから、物語などでもオオカミは悪く書かれることが多かった。", en: "Because of this image, wolves have often been portrayed in a bad light in stories and elsewhere." },
+          { ja: "しかし、その**{一方|いっぽう}**で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous." },
           { cont: true, ja: "アメリカのイエローストーン国立公園では、オオカミが{殺|ころ}され、{絶滅|ぜつめつ}した**ことから**、その{食料|しょくりょう}となっていた{大型|おおがた}のシカが{急増|きゅうぞう}した。", en: "In Yellowstone National Park in the United States, the wolves were killed until none were left, and because of this, the large deer they had fed on increased rapidly." },
           { cont: true, ja: "増えすぎたシカは、{植物|しょくぶつ}に大きな{被害|ひがい}を{与|あた}えた**のみならず**、ネズミやビーバー**といった**{小動物|しょうどうぶつ}の数も{減少|げんしょう}させた。", en: "The deer, now too numerous, not only did serious damage to plant life but also reduced the numbers of small animals such as mice and beavers." },
           { cont: true, ja: "シカの数が増える**にしたがって**、食べ物や住む場所が{減|へ}り、生きていけなくなったからだ。", en: "This is because, as the number of deer grew, the small animals were left with less food and fewer places to live, until they could no longer survive." },
@@ -43,7 +43,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が{要求|ようきゅう}されることを忘れてはいけない。", en: "From an employee's point of view, the higher the salary the better, but you mustn't forget that a high salary comes with the expectation of results to match." },
                 { ja: "{品質|ひんしつ}からいえばオレンジ社の{製品|せいひん}がいいんですが、{値段|ねだん}からいうとイルスン社のほうがリーズナブルですね。", en: "In terms of quality, Orange's products are better, but in terms of price, Ilsun's are more reasonable." },
-                { ja: "{実力|じつりょく}からいって今回もアメリカが{優勝|ゆうしょう}するでしょう。", en: "Going by ability, America will probably win again this time." },
+                { ja: "{実力|じつりょく}からいって今回もアメリカが{優勝|ゆうしょう}するでしょう。", en: "Given how strong the team is, America will probably win again this time." },
               ],
             },
             {
@@ -301,7 +301,7 @@ TRY.registerChapter({
           { q: "{事故|じこ}の{調査|ちょうさ}が進む＿＿多くの問題点があったことがわかってきた。", answer: "にしたがって", en: "As the investigation into the accident progressed, it became clear that there had been many problems." },
           { q: "{山本|やまもと}選手のファインプレーに、彼のファン＿＿相手チームのファンからも{拍手|はくしゅ}が送られた。", answer: "のみならず", en: "Yamamoto's fine play drew applause not only from his own fans but from the opposing team's fans as well." },
           { q: "この場所は映画の{撮影|さつえい}で使われた＿＿、{記念撮影|きねんさつえい}の人気スポットとなった。", answer: "ことから", en: "Because this place was used as a movie location, it has become a popular spot for taking commemorative photos." },
-          { q: "日本人が冷たいお{弁当|べんとう}をおいしそうに食べているのは、外国人の私＿＿信じられないことだ。", answer: "から見ると", en: "To me, as a foreigner, it's unbelievable that Japanese people eat cold boxed lunches and look like they're enjoying them." },
+          { q: "日本人が冷たいお{弁当|べんとう}をおいしそうに食べているのは、外国人の私＿＿信じられないことだ。", answer: "から見ると", en: "To me, as a foreigner, it's hard to believe that Japanese people eat cold boxed lunches with such obvious enjoyment." },
           { q: "電車やバス、フェリー＿＿交通{機関|きかん}では、{学割|がくわり}を利用することで{切符|きっぷ}や{定期券|ていきけん}を安く買うことができる。", answer: "といった", en: "On means of transport such as trains, buses and ferries, you can buy tickets and commuter passes cheaply by using a student discount." },
         ],
       },
@@ -413,7 +413,7 @@ TRY.registerChapter({
             { ja: "今回は子どもたちの{学力|がくりょく}だけでなく{体力|たいりょく}に{関|かん}しても{調査|ちょうさ}が{行|おこな}われることになった。", en: "It has been decided that this time the survey will cover not only the children's academic ability but their physical fitness as well." },
             { ja: "{友人|ゆうじん}は{地震|じしん}の{予知|よち}に{関|かん}して研究{論文|ろんぶん}を書いたそうだ。", en: "I hear my friend wrote a research paper on earthquake prediction." },
           ],
-          deepDive: "**Nに関して** = *about, concerning, regarding*. It works like 〜について but sounds more official and slightly broader (*matters related to*), so it is at home in surveys, research and notices: 修理に関するお問い合わせ (*inquiries about repairs*). In polite speech it becomes に関しまして (#77).\n\nForms: **に関して（は／も）** links to the predicate; **に関する + N** modifies a noun directly; に関しての + N also occurs, less formally. **に関しては** marks a topic, often in contrast: その件に関しては後日ご案内いたします (*as for that matter, we'll let you know later*).\n\nCompare:\n- **〜について**: more direct and conversational: 日本の歴史について話す (*talk about Japanese history*).\n- **〜をめぐって** (#133): *over*, a topic of dispute: 予算をめぐって議論が続く (*the argument over the budget continues*).\n- **〜に対して**: the target of an action or attitude: 質問に対して答える (*answer a question*).\n\nPitfall: a noun right after the blank doesn't always mean に関する. In 利用に関して大学でアンケートを行った, に関して links to 行った, not to 大学.\n\nJLPT cue: お問い合わせ, 情報, 資料 or 調査 right after the blank calls for に関する.",
+          deepDive: "**Nに関して** = *about, concerning, regarding*. It works like 〜について but sounds more official and slightly broader (*matters related to*), so it is at home in surveys, research and notices: 修理に関するお問い合わせ (*inquiries about repairs*). In polite speech it becomes に関しまして (#77).\n\nForms: **に関して（は／も）** links to the predicate; **に関する + N** modifies a noun directly; に関しての + N also occurs. **に関しては** marks a topic, often in contrast: その件に関しては後日ご案内いたします (*as for that matter, we'll let you know later*).\n\nCompare:\n- **〜について**: more direct and conversational: 日本の歴史について話す (*talk about Japanese history*).\n- **〜をめぐって** (#133): *over*, a topic of dispute: 予算をめぐって議論が続く (*the argument over the budget continues*).\n- **〜に対して**: the target of an action or attitude: 質問に対して答える (*answer a question*).\n\nPitfall: a noun right after the blank doesn't always mean に関する. In 利用に関して大学でアンケートを行った, に関して links to 行った, not to 大学.\n\nJLPT cue: お問い合わせ, 情報, 資料 or 調査 right after the blank calls for に関する.",
           see: [133, 77],
           index: ["Nに関して", "Nに関する", "Nに関しては", "Nに関しての"],
           practice: [
@@ -432,7 +432,7 @@ TRY.registerChapter({
                   q: "{若者|わかもの}のインターネットの利用（　）大学でアンケートを{行|おこな}った。",
                   options: ["に{関|かん}して", "に{関|かん}する"],
                   answer: 0,
-                  en: "We conducted a survey at the university on young people's internet use.", why: { en: "The survey topic links to the verb 行った; 大学 is where it was held, not information about the topic. So に関して, not に関する (*a university about internet use*)." },
+                  en: "A survey on young people's internet use was conducted at the university.", why: { en: "The survey topic links to the verb 行った; 大学 is where it was held, not information about the topic. So に関して, not に関する (*a university about internet use*)." },
                 },
                 {
                   q: "その{件|けん}（　）{後日|ごじつ}メールでご案内いたします。",
@@ -479,7 +479,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "お{札|さつ}にはその国の{歴史上|れきしじょう}の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "A country's banknotes often bear the faces of figures from its history." },
-            { ja: "スポーツは、子どもにとって{健康上|けんこうじょう}はもちろん、{教育上|きょういくじょう}もいい点がたくさんある。", en: "For children, sports have many benefits, educational as well as, of course, for their health." },
+            { ja: "スポーツは、子どもにとって{健康上|けんこうじょう}はもちろん、{教育上|きょういくじょう}もいい点がたくさんある。", en: "Sports have many benefits for children, for their health, of course, but for their education as well." },
             { ja: "あの2人は{表面上|ひょうめんじょう}は{親|した}しそうに見えるけど、本当はあまり{仲|なか}がよくないんだ。", en: "Those two look close on the surface, but actually they don't get along very well." },
             { ja: "「ペーパーカンパニー」とは、{書類上|しょるいじょう}は{存在|そんざい}するが{経営実態|けいえいじったい}のない会社のことである。", en: "A \"paper company\" is a company that exists on paper but has no actual business operations." },
           ],
@@ -512,7 +512,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がりつつある。", en: "The effects of extreme weather are gradually spreading around the world." },
             { ja: "社会の{高齢化|こうれいか}にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, its offenders are gradually getting older too." },
-            { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly moving around the globe, a spirit of living together is needed more than ever." },
+            { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary." },
             { ja: "日本銀行は、国内の{景気|けいき}について、{緩|ゆる}やかに{回復|かいふく}しつつあると発表した。", en: "The Bank of Japan announced that the domestic economy is gradually recovering." },
           ],
           xref: "☞ p.223　〜つつ",
@@ -563,7 +563,7 @@ TRY.registerChapter({
           forms: ["[N] + に{限|かぎ}らず"],
           examples: [
             { ja: "{環境対策|かんきょうたいさく}のためにも、夏に{限|かぎ}らず、{年間|ねんかん}を通して{節電|せつでん}を心がけるべきだ。", en: "For the environment's sake as well, we should make a point of saving electricity all year round, not just in summer." },
-            { ja: "水の問題は{特定|とくてい}の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably spread beyond particular regions and become a global issue." },
+            { ja: "水の問題は{特定|とくてい}の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably become a global issue, not one confined to particular regions." },
             { ja: "車に{限|かぎ}らず、自転車でもぶつかったら{大|おお}けがをしますから注意してください。", en: "It's not just cars: a collision with a bicycle can cause serious injury too, so please be careful." },
             { ja: "{電化製品|でんかせいひん}に{限|かぎ}らず、あらゆる{分野|ぶんや}で{新製品|しんせいひん}の{開発競争|かいはつきょうそう}が{行|おこな}われています。", en: "Not just in home appliances but in every field, companies are competing to develop new products." },
           ],
@@ -613,7 +613,7 @@ TRY.registerChapter({
         items: [
           { q: "「今年こそ{優勝|ゆうしょう}を」という{関係者|かんけいしゃ}の{期待|きたい}＿＿、チームは1{回戦|かいせん}で{負|ま}けてしまった。", answer: "に{反|はん}して", en: "Contrary to the hopes of those involved that this would finally be the year they won the championship, the team lost in the first round." },
           { q: "{契約|けいやく}＿＿、{引|ひ}っ{越|こ}す場合は1か月前までに伝えることになっている。", answer: "{上|じょう}", en: "Under the contract, if you move out you are required to give notice at least one month in advance." },
-          { q: "{野外|やがい}イベントは{天候|てんこう}によっては中止もあり＿＿。", answer: "{得|う}る", en: "Depending on the weather, outdoor events may be canceled." },
+          { q: "{野外|やがい}イベントは{天候|てんこう}によっては中止もあり＿＿。", answer: "{得|う}る", en: "Depending on the weather, outdoor events could even be canceled." },
           { q: "{警察|けいさつ}は{連続放火事件|れんぞくほうかじけん}＿＿{有力|ゆうりょく}な{情報|じょうほう}をつかんだ。", answer: "に{関|かん}する", en: "The police obtained a solid lead concerning the serial arson cases." },
           { q: "わが{国|くに}の{産業|さんぎょう}は{現在発展|げんざいはってん}し＿＿。10年後が楽しみだ。", answer: "つつある", en: "Our country's industry is steadily developing. I'm looking forward to seeing where it will be in ten years." },
           { q: "アクリルはガラスと{比|くら}べて軽く{衝撃|しょうげき}に強い＿＿、{表面|ひょうめん}に{傷|きず}がついて{透明度|とうめいど}が下がりやすい。", answer: "{反面|はんめん}", en: "Compared with glass, acrylic is light and resistant to impact, but on the other hand its surface scratches easily and its transparency tends to decrease." },
@@ -752,7 +752,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［6］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 6." },
         title: "",
         text: ["{科学技術|かがくぎじゅつ}が進み、{知識|ちしき}という{側面|そくめん}[1]、昔よりはるかに多くのことがわかるようになった。{宇宙|うちゅう}[2]{様々|さまざま}な{事実|じじつ}が{明|あき}らかになってきた。", "例えば、昔はブラックホールの{存在|そんざい}さえわからなかったが、{天体観測|てんたいかんそく}などの{技術|ぎじゅつ}が進んだ[3]、その{存在|そんざい}がわかった。さらに、{調査|ちょうさ}が進む[4]、ブラックホールはただそこに{存在|そんざい}する[5]、{膨張|ぼうちょう}していることも、{明|あき}らかになってきた。", "しかし、{様々|さまざま}な{事実|じじつ}が{明|あき}らかになる[6]、ブラックホールとは何なのか、なぜ{存在|そんざい}するのか、{膨張|ぼうちょう}し続けたらどうなるのか、さらなる{疑問|ぎもん}がわいてくる。", "これまでは{知識|ちしき}を{得|え}ることによって、すべてがわかると{期待|きたい}されていた。しかし{科学者|かがくしゃ}たちが{日々|ひび}研究を続けているにもかかわらず、{宇宙|うちゅう}の{謎|なぞ}は{深|ふか}まるばかりである。"],
-        en: ["With advances in science and technology, we have come to understand far more than in the past, at least in terms of knowledge. Regarding the universe, too, many facts have come to light.", "For example, in the past we didn't even know black holes existed, but because technologies such as astronomical observation advanced, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.", "However, while various facts are becoming clear, at the same time further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?", "Until now, it was expected that by gaining knowledge we would understand everything. But even though scientists continue their research day after day, the mysteries of the universe only keep deepening."],
+        en: ["With advances in science and technology, we have come to understand far more than in the past from the standpoint of knowledge. Regarding the universe, too, many facts have come to light.", "For example, in the past we didn't even know black holes existed, but because technologies such as astronomical observation advanced, their existence became known. Furthermore, as research progressed, it also became clear that black holes do not merely exist there, but are expanding.", "However, while various facts are becoming clear, at the same time further questions spring up: what exactly is a black hole, why does it exist, and what will happen if it keeps expanding?", "Until now, it was expected that by gaining knowledge we would understand everything. But even though scientists continue their research day after day, the mysteries of the universe only keep deepening."],
         blanks: [
           { options: ["から見ると", "からといって", "につれて", "に{応|おう}じて"], answer: 0, why: { en: "知識という側面から見ると = *from the standpoint of knowledge*: 側面 names the viewpoint. からといって (*just because*) needs a clause and a denial, につれて a process, and に応じて something to adjust to." } },
           { options: ["につれて", "ばかりで", "に{関|かん}しても", "のみならず"], answer: 2, why: { en: "*Regarding the universe, too,* many facts have become clear: 宇宙に関しても adds the universe as a further topic. につれて needs a process, ばかりで (*nothing but*) makes no sense here, and のみならず would need the added item after it (宇宙のみならず…も)." } },
@@ -798,7 +798,7 @@ TRY.registerChapter({
         items: [
           {
             question: "この先生はいつ勉強したらよく覚えられると言っていますか。",
-            questionEn: "According to this teacher, when should you study to remember things well?",
+            questionEn: "According to this professor, when should you study to remember things well?",
             script: [
               { sp: "", ja: "{講演会|こうえんかい}で、先生が勉強する時間について話しています。" },
               { sp: "F", v: "f", ja: "最近は朝{早起|はやお}きして勉強する人も増えていますが、{実際|じっさい}にはいつ勉強したら{効果的|こうかてき}なのでしょうか。{本日|ほんじつ}は{脳科学|のうかがく}がご{専門|せんもん}の{本田|ほんだ}先生にお話を{伺|うかが}います。" },
@@ -809,7 +809,7 @@ TRY.registerChapter({
               { sp: "F", v: "f", ja: "まあね。{朝型|あさがた}生活は続けるとして、夜寝る前にもう一度{復習|ふくしゅう}しよう。そうすれば、もっと覚えられるということだよね。" },
               { sp: "M", v: "m", ja: "{中田|なかた}さん、まじめだねえ。" },
             ],
-            en: ["At a lecture, a teacher is talking about when to study.", "These days more and more people are getting up early to study, but when is studying actually most effective? Today we'll hear from Professor Honda, a specialist in brain science.", "It's certainly true that concentration is higher in the morning. However, in terms of memory, we know that while we sleep, the human brain replays what it experienced that day and strengthens the memories. What it replays in particular is information from the period just before going to sleep. From this, we can say that study that requires memorization is more effective if done at night before bed. Even just getting into bed and closing your eyes helps the brain organize information.", "So this means studying before bed makes things sink in better, right? So night is the time to study for exams after all. I wasn't wrong.", "But I like getting up early to study. My head's clear and I can concentrate...", "I'll keep studying the way I always have. But there's no need for you to force yourself to change, is there?", "I guess. I'll keep up my morning routine, and then review once more at night before going to bed. That way I'll be able to remember even more, right?", "Nakata, you're so diligent."],
+            en: ["At a lecture, a professor is talking about when to study.", "These days more and more people are getting up early to study, but when is studying actually most effective? Today we'll hear from Professor Honda, a specialist in brain science.", "It's certainly true that concentration is higher in the morning. However, in terms of memory, we know that while we sleep, the human brain replays what it experienced that day and strengthens the memories. What it replays in particular is information from the period just before going to sleep. From this, we can say that study that requires memorization is more effective if done at night before bed. Even just getting into bed and closing your eyes helps the brain organize information.", "So this means studying before bed makes things sink in better, right? So night is the time to study for exams after all. I wasn't wrong.", "But I like getting up early to study. My head's clear and I can concentrate...", "I'll keep studying the way I always have. But there's no need for you to force yourself to change, is there?", "I guess. I'll keep up my morning routine, and then review once more at night before going to bed. That way I'll be able to remember even more, right?", "Nakata, you're so diligent."],
             options: ["{朝|あさ}、ベッドの{中|なか}で", "{朝|あさ}、{起|お}きてすぐ", "{夜|よる}、{寝|ね}る{前|まえ}", "{夜|よる}、{寝|ね}ている{間|あいだ}"],
             optionsEn: ["In bed in the morning", "Right after getting up in the morning", "At night, before going to sleep", "At night, while asleep"],
             answer: 2,

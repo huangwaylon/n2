@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "herbivorous; plant-eating",
     note: "Mostly in 草食動物 (herbivore), contrasted with 肉食 (carnivorous) and 雑食 (omnivorous). The slang 草食系男子 describes young men who are passive about romance.",
     rx: ["くさしょく", "そうじき", "そうしょっく"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "On the other hand, though, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
     ex: [
       { ja: "ウサギや{馬|うま}は**{草食|そうしょく}**の{動物|どうぶつ}だ。", en: "Rabbits and horses are plant-eating animals.", alt: ["{主食|しゅしょく}", "{和食|わしょく}", "{草原|そうげん}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "role; part; function",
     note: "Usually with 果たす: 役割を果たす (play a role, fulfill a function). 役割分担 is the division of roles. 役目 is close but feels more like a personal duty, and 役 is also a part in a play.",
     rx: ["やくかつ", "えきわり", "やくわれ"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "On the other hand, though, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
     ex: [
       { ja: "{家庭|かてい}での{父親|ちちおや}の**{役割|やくわり}**は、{昔|むかし}とはずいぶん{変|か}わった。", en: "The father's role in the home has changed a lot since the old days.", alt: ["{割合|わりあい}", "{役所|やくしょ}", "{割引|わりびき}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly moving around the globe, a spirit of living together is needed more than ever.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly moving around the globe, a spirit of living together is needed more than ever.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
@@ -619,7 +619,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "specific; particular; to identify (pin down)",
     note: "As 特定の (a specific, particular): 特定の地域. As a verb, identifying exactly who or what: 犯人を特定する, 原因を特定する. 不特定多数 means “an unspecified number of people; the general public.”",
     rx: ["どくてい", "とくじょう", "とくてん"],
-    book: { ja: "水の問題は**{特定|とくてい}**の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably spread beyond particular regions and become a global issue.", at: "gp/72" },
+    book: { ja: "水の問題は**{特定|とくてい}**の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably become a global issue, not one confined to particular regions.", at: "gp/72" },
     ex: [
       { ja: "{防犯|ぼうはん}カメラの{映像|えいぞう}から、{犯人|はんにん}が**{特定|とくてい}**された。", en: "The culprit was identified from the security-camera footage.", alt: ["{特別|とくべつ}", "{指定|してい}", "{予定|よてい}"] },
     ] },
