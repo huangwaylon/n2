@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "violence; force",
     note: "暴力を振るう (use violence, be violent) is the fixed verb. Compounds: 家庭内暴力 (domestic violence), 暴力団 (organized crime group), 言葉の暴力 (verbal abuse). 暴 also appears in 暴れる (go wild) and 乱暴 (rough).",
     rx: ["ぼうりき", "ぼりょく", "ばくりょく"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are beyond forgiving.", at: "ch/13" },
     ex: [
       { ja: "どんな{理由|りゆう}があっても、**{暴力|ぼうりょく}**は{許|ゆる}されない。", en: "Whatever the reason, violence is not acceptable.", alt: ["{暴風|ぼうふう}", "{能力|のうりょく}", "{努力|どりょく}"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to use (violence, power); to wield; to exercise (a skill)",
     note: "Fixed pairs: 暴力を振るう (be violent), 腕を振るう (show one's skill, e.g. cooking), 権力を振るう (wield power), 猛威を振るう (rage, of a disease or storm). 振る is to wave or shake; don't say 暴力を振る.",
     rx: ["ふくう", "ぶるう", "しんるう"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons, two men using violence on a woman — they're unforgivable.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are beyond forgiving.", at: "ch/13" },
     ex: [
       { ja: "{男|おとこ}は{妻|つま}に{暴力|ぼうりょく}を**{振|ふ}るった**として{逮捕|たいほ}された。", en: "The man was arrested for being violent toward his wife.", alt: ["{振|ふ}った", "{触|ふ}れた", "{震|ふる}えた"] },
       { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father put his cooking skills to work for us." },
@@ -274,7 +274,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "the end (of a street or hallway); where a road ends",
     note: "Common in directions: 突き当たりを右に曲がる (turn right at the end of the street), 廊下の突き当たりの部屋. The verb 突き当たる means to run into something or reach a dead end. 行き止まり is a dead end you cannot go past.",
     rx: ["とつきあたり", "つきとうり", "つきあいたり"],
-    book: { ja: "**{突|つ}き{当|あた}り**の部屋のドアから光が{漏|も}れている。", en: "Light was leaking from the door of the room at the end of the hall.", at: "ch/13" },
+    book: { ja: "**{突|つ}き{当|あた}り**の部屋のドアから光が{漏|も}れている。", en: "Light was spilling from the door of the room at the end of the hall.", at: "ch/13" },
     ex: [
       { ja: "この{道|みち}をまっすぐ{行|い}って、**{突|つ}き{当|あ}たり**を{右|みぎ}に{曲|ま}がってください。", en: "Go straight along this road and turn right at the end.", alt: ["{付|つ}き{合|あ}い", "{当|あ}たり{前|まえ}", "{見当|けんとう}"] },
     ] },
@@ -282,7 +282,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to leak (out); to escape; (of secrets) to get out",
     note: "Light, water, gas and sound 漏れる: 水が漏れる, ガス漏れ. Also information: 秘密が漏れる, 情報漏れ. The transitive is 漏らす (let slip, leak). 流れる is to flow normally, not escape through a gap.",
     rx: ["ろれる", "もられる", "ぬれる"],
-    book: { ja: "{突|つ}き{当|あた}りの部屋のドアから光が**{漏|も}れて**いる。", en: "Light was leaking from the door of the room at the end of the hall.", at: "ch/13" },
+    book: { ja: "{突|つ}き{当|あた}りの部屋のドアから光が**{漏|も}れて**いる。", en: "Light was spilling from the door of the room at the end of the hall.", at: "ch/13" },
     ex: [
       { ja: "{隣|となり}の{部屋|へや}から{話|はな}し{声|ごえ}が**{漏|も}れて**くる。", en: "Voices are coming through from the room next door.", alt: ["{触|ふ}れて", "{取|と}れて", "{汚|よご}れて"] },
     ] },
@@ -298,7 +298,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "dazzling; glaring; too bright to look at",
     note: "Light so strong it's hard to see: 日差しが眩しい, 眩しくて目を開けていられない. Figuratively also 'radiant': 眩しい笑顔. Usually written in kana (まぶしい).",
     rx: ["げんしい", "まばしい", "まぶい"],
-    book: { ja: "**{眩|まぶ}しい**光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。", en: "In the dazzling light, a man with a low voice demanded, \"Who are you!?\"", at: "ch/13" },
+    book: { ja: "**{眩|まぶ}しい**光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に{問|と}いかけた。", en: "In the dazzling light, the man with the low voice demanded, \"Who are you!?\"", at: "ch/13" },
     ex: [
       { ja: "{夏|なつ}の{日差|ひざ}しが**{眩|まぶ}しくて**、{目|め}を{開|あ}けていられない。", en: "The summer sunlight is so bright I can't keep my eyes open.", alt: ["{騒|さわ}がしくて", "{恥|は}ずかしくて", "{懐|なつ}かしくて"] },
     ] },
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to ask; to put a question to; to raise a question",
     note: "Asking someone a question directly, or raising an issue for people to think about: 読者に問いかける, 社会に問いかける映画. The noun is 問いかけ. More formal and thoughtful than 聞く or 質問する.",
     rx: ["もんいかける", "といがける", "とうかける"],
-    book: { ja: "{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に**{問|と}いかけた**。", en: "In the dazzling light, a man with a low voice demanded, \"Who are you!?\"", at: "ch/13" },
+    book: { ja: "{眩|まぶ}しい光の{中|なか}で「{誰|だれ}だ、お前は!?」と低い声の男が{俺|おれ}に**{問|と}いかけた**。", en: "In the dazzling light, the man with the low voice demanded, \"Who are you!?\"", at: "ch/13" },
     ex: [
       { ja: "{先生|せんせい}は{学生|がくせい}たちに「{幸|しあわ}せとは{何|なに}か」と**{問|と}いかけた**。", en: "The teacher asked the students, \"What is happiness?\"", alt: ["{見|み}かけた", "{出|で}かけた", "{腰|こし}かけた"] },
     ] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to run away; to escape; to flee",
     note: "Getting out of a place or situation you want to leave: 家から逃げ出す, 仕事から逃げ出したい. 逃げる alone is to run away; 〜出す adds the sense of breaking out. 脱出する is a formal word for escaping from danger.",
     rx: ["のげだす", "にげいだす", "にげたす"],
-    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "As I stood there, so embarrassed I wanted to run away, the man with the low voice asked me:", at: "ch/13" },
+    book: { ja: "{恥|は}ずかしさのあまり、**{逃|に}げ{出|だ}し**たくなった{俺|おれ}に、低い声の男が聞いた。", en: "I was so embarrassed I wanted to run away, but the man with the low voice asked me:", at: "ch/13" },
     ex: [
       { ja: "{飼|か}っていた{鳥|とり}がかごから**{逃|に}げ{出|だ}した**。", en: "Our pet bird escaped from its cage.", alt: ["{取|と}り{出|だ}した", "{言|い}い{出|だ}した", "{思|おも}い{出|だ}した"] },
     ] },
@@ -346,7 +346,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "flattery; compliment (not sincerely meant)",
     note: "お世辞を言う (flatter someone), お世辞がうまい. お世辞にも〜とは言えない means 'even to be kind, you can't call it 〜' (お世辞にも上手とは言えない). A sincere compliment is 褒め言葉.",
     rx: ["おせいじ", "およじ", "おせし"],
-    book: { ja: "たとえ**お{世辞|せじ}**だとわかっていても、", en: "Even when you know it's just flattery,", at: "gp/125" },
+    book: { ja: "たとえ**お{世辞|せじ}**だとわかっていても、", en: "Even when you know it's only flattery,", at: "gp/125" },
     ex: [
       { ja: "{彼|かれ}の{言葉|ことば}は**お{世辞|せじ}**ではなく、{本心|ほんしん}だと{思|おも}う。", en: "I think what he said wasn't flattery but what he really feels.", alt: ["お{釣|つ}り", "お{辞儀|じぎ}", "お{土産|みやげ}"] },
     ] },
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "merger; amalgamation",
     note: "Two or more companies, towns or organizations becoming one: 会社が合併する, 市町村合併. In economics news it pairs with 買収 (acquisition): 合併・買収 (M&A). 合同 is doing something jointly while staying separate.",
     rx: ["ごうへい", "がっへい", "がっぺ"],
-    book: { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの**{合併|がっぺい}**の{申|もう}し{出|で}は受け入れがたい。", en: "Under these conditions, we find it hard to accept the merger offer from Suzuki Trading.", at: "gp/126" },
+    book: { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの**{合併|がっぺい}**の{申|もう}し{出|で}は受け入れがたい。", en: "On these terms, the merger proposal from Suzuki Trading is difficult for us to accept.", at: "gp/126" },
     ex: [
       { ja: "{二|ふた}つの{銀行|ぎんこう}が**{合併|がっぺい}**して、{国内最大|こくないさいだい}の{銀行|ぎんこう}が{誕生|たんじょう}した。", en: "Two banks merged, creating the largest bank in the country.", alt: ["{合格|ごうかく}", "{併用|へいよう}", "{合唱|がっしょう}"] },
     ] },
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "offer; proposal; request (made to someone)",
     note: "Something you formally offer or ask for: 援助の申し出, 申し出を受ける / 断る. The verb is 申し出る (offer, come forward): 協力を申し出る. 申し込み is an application or sign-up.",
     rx: ["もうしだし", "しんしゅつ", "もうしいで"],
-    book: { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの{合併|がっぺい}の**{申|もう}し{出|で}**は受け入れがたい。", en: "Under these conditions, we find it hard to accept the merger offer from Suzuki Trading.", at: "gp/126" },
+    book: { ja: "この{条件|じょうけん}では、{鈴木商事|すずきしょうじ}からの{合併|がっぺい}の**{申|もう}し{出|で}**は受け入れがたい。", en: "On these terms, the merger proposal from Suzuki Trading is difficult for us to accept.", at: "gp/126" },
     ex: [
       { ja: "{友人|ゆうじん}からの{援助|えんじょ}の**{申|もう}し{出|で}**を、{丁寧|ていねい}に{断|ことわ}った。", en: "I politely declined my friend's offer of help.", alt: ["{申|もう}し{分|ぶん}", "{申|もう}し{訳|わけ}", "{思|おも}い{出|で}"] },
     ] },
@@ -426,7 +426,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to lose (someone) to death",
     note: "Used when a family member or loved one dies: 父を亡くす, 事故で息子を亡くした. Written with 亡 (death), unlike 無くす / なくす, which is losing an object. The intransitive is 亡くなる (pass away, polite for 死ぬ).",
     rx: ["ぼくす", "なぐす", "もうくす"],
-    book: { ja: "{恋人|こいびと}を**{亡|な}くした**彼女は{悲|かな}しみのあまり{部屋|へや}に{閉|と}じこもってしまった。", en: "Having lost the person she loved, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
+    book: { ja: "{恋人|こいびと}を**{亡|な}くした**彼女は{悲|かな}しみのあまり{部屋|へや}に{閉|と}じこもってしまった。", en: "After losing the one she loved, she was so overcome with grief that she shut herself away in her room.", at: "gp/128" },
     ex: [
       { ja: "{彼|かれ}は{幼|おさな}いころに{交通事故|こうつうじこ}で{父親|ちちおや}を**{亡|な}くした**。", en: "He lost his father in a traffic accident when he was little.", alt: ["{落|お}とした", "{忘|わす}れた", "{逃|のが}した"] },
     ] },
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to shut oneself up (in a room); to stay indoors",
     note: "Staying inside and refusing to come out: 部屋に閉じこもる, 家に閉じこもる. Figuratively 自分の殻に閉じこもる (withdraw into one's shell). 引きこもる is used for long-term social withdrawal (引きこもり).",
     rx: ["しじこもる", "とうじこもる", "へいこもる"],
-    book: { ja: "{恋人|こいびと}を{亡|な}くした彼女は{悲|かな}しみのあまり{部屋|へや}に**{閉|と}じこもって**しまった。", en: "Having lost the person she loved, she was so overcome with grief that she shut herself up in her room.", at: "gp/128" },
+    book: { ja: "{恋人|こいびと}を{亡|な}くした彼女は{悲|かな}しみのあまり{部屋|へや}に**{閉|と}じこもって**しまった。", en: "After losing the one she loved, she was so overcome with grief that she shut herself away in her room.", at: "gp/128" },
     ex: [
       { ja: "{彼|かれ}は{試験|しけん}に{落|お}ちて、{一週間|いっしゅうかん}{部屋|へや}に**{閉|と}じこもって**いた。", en: "After failing the exam, he stayed shut up in his room for a week.", alt: ["{持|も}ち{込|こ}んで", "{申|もう}し{込|こ}んで", "{閉|と}じて"] },
     ] },
@@ -442,7 +442,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to step on; to tread on",
     note: "足を踏む (step on someone's foot), ブレーキを踏む (hit the brakes). Idioms: 手続きを踏む (go through the proper steps), 二の足を踏む (hesitate), 初舞台を踏む (make one's debut).",
     rx: ["とうむ", "ふまむ", "ぶむ"],
-    book: { ja: "電車の中で足を**{踏|ふ}まれて**、痛さのあまり声も出なかった。", en: "Someone stepped on my foot on the train, and it hurt so much I couldn't even make a sound.", at: "gp/128" },
+    book: { ja: "電車の中で足を**{踏|ふ}まれて**、痛さのあまり声も出なかった。", en: "Someone stepped on my foot on the train, and it hurt so much I couldn't even cry out.", at: "gp/128" },
     ex: [
       { ja: "{子|こ}どもが{飛|と}び{出|だ}してきたので、{急|いそ}いでブレーキを**{踏|ふ}んだ**。", en: "A child ran out, so I quickly hit the brakes.", alt: ["{積|つ}んだ", "{包|つつ}んだ", "{組|く}んだ"] },
     ] },
@@ -450,7 +450,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "footage; video; image (on a screen)",
     note: "Moving pictures on TV, film or video: ニュース映像, 映像が流れる, 映像作品. 画像 is a still image (a photo or picture file).",
     rx: ["えいしょう", "えいそう", "えいぞ"],
-    book: { ja: "{衝撃的|しょうげきてき}な**{映像|えいぞう}**がテレビに{映|うつ}し{出|だ}され、彼は{驚|おどろ}きのあまり（　）。", en: "Shocking footage was shown on TV, and he was so startled that he dropped the cup he was holding.", at: "gp/128" },
+    book: { ja: "{衝撃的|しょうげきてき}な**{映像|えいぞう}**がテレビに{映|うつ}し{出|だ}され、彼は{驚|おどろ}きのあまり（　）。", en: "Shocking footage came on TV, and he was so startled he dropped the cup he was holding.", at: "gp/128" },
     ex: [
       { ja: "{事故|じこ}の{瞬間|しゅんかん}の**{映像|えいぞう}**が、{何度|なんど}もニュースで{流|なが}れた。", en: "Footage of the moment of the accident was shown on the news again and again.", alt: ["{想像|そうぞう}", "{銅像|どうぞう}", "{映写|えいしゃ}"] },
     ] },
@@ -458,7 +458,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to project; to show (on a screen); to reflect",
     note: "Showing an image on a screen or surface (スクリーンに映し出す) and, figuratively, reflecting a reality: 社会を映し出す小説. Often passive: 映し出される. 映す is to show or reflect; 写す is to copy or take a photo.",
     rx: ["えいしだす", "うつしでだす", "はえしだす"],
-    book: { ja: "{衝撃的|しょうげきてき}な{映像|えいぞう}がテレビに**{映|うつ}し{出|だ}され**、彼は{驚|おどろ}きのあまり（　）。", en: "Shocking footage was shown on TV, and he was so startled that he dropped the cup he was holding.", at: "gp/128" },
+    book: { ja: "{衝撃的|しょうげきてき}な{映像|えいぞう}がテレビに**{映|うつ}し{出|だ}され**、彼は{驚|おどろ}きのあまり（　）。", en: "Shocking footage came on TV, and he was so startled he dropped the cup he was holding.", at: "gp/128" },
     ex: [
       { ja: "{会場|かいじょう}のスクリーンに{古|ふる}い{写真|しゃしん}が**{映|うつ}し{出|だ}された**。", en: "Old photographs were projected onto the screen in the hall.", alt: ["{引|ひ}き{出|だ}された", "{貸|か}し{出|だ}された", "{呼|よ}び{出|だ}された"] },
     ] },
@@ -513,7 +513,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to inherit; to take over; to carry on (a tradition, business)",
     note: "Receiving something from the previous generation and continuing it: 店を受け継ぐ, 伝統を受け継ぐ, 父の才能を受け継ぐ. 引き継ぐ is taking over a job or task from a predecessor (仕事を引き継ぐ). 相続 is legal inheritance of property.",
     rx: ["うけけい", "じゅけい", "うけづぐ"],
-    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I intend to grow this shop — which my father inherited from my grandfather and kept going through thick and thin — into something bigger.", at: "gp/131" },
+    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I plan to build this shop, which my father inherited from my grandfather and held on to through thick and thin, into something even bigger.", at: "gp/131" },
     ex: [
       { ja: "{祖母|そぼ}から**{受|う}け{継|つ}いだ**{着物|きもの}を{大切|たいせつ}にしている。", en: "I treasure the kimono I inherited from my grandmother.", alt: ["{泳|およ}いだ", "{急|いそ}いだ", "{防|ふせ}いだ"] },
     ] },
@@ -560,7 +560,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "はるばる", lv: "N1", pos: "adverb",
     en: "all the way (from far away); over a long distance",
     note: "Stresses that someone came or went a long way, often with gratitude: 遠いところをはるばる来てくれてありがとう, 海外からはるばる. Usually with 来る / 訪ねる / 行く.",
-    book: { ja: "**はるばる**{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
+    book: { ja: "**はるばる**{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to see me, with all my heart.", at: "ch/13" },
     ex: [
       { ja: "{祖父母|そふぼ}が{田舎|いなか}から**はるばる**{孫|まご}の{結婚式|けっこんしき}に{来|き}てくれた。", en: "My grandparents came all the way from the countryside for their grandchild's wedding.", alt: ["ばらばら", "ぎりぎり", "ぐるぐる"] },
     ] },
@@ -568,14 +568,14 @@ TRY.registerVocab({ ch: 13, words: [
     en: "old friend; friend from long ago",
     note: "A friend you knew long ago, written and slightly literary: 旧友と再会する. In speech 昔の友達 or 古い友達 is common. 旧 means old or former (旧姓 maiden name, 旧式 old-fashioned). 親友 is a best friend.",
     rx: ["きゅゆう", "くゆう", "きゅうとも"],
-    book: { ja: "はるばる{訪|たず}ねて来てくれた**{旧友|きゅうゆう}**を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
+    book: { ja: "はるばる{訪|たず}ねて来てくれた**{旧友|きゅうゆう}**を心＿＿もてなした。", en: "I welcomed my old friend, who had come all that way to see me, with all my heart.", at: "ch/13" },
     ex: [
       { ja: "{同窓会|どうそうかい}で、二十{年|ねん}ぶりに**{旧友|きゅうゆう}**と{再会|さいかい}した。", en: "At the reunion, I met an old friend again for the first time in twenty years.", alt: ["{旧式|きゅうしき}", "{旧館|きゅうかん}", "{友好|ゆうこう}"] },
     ] },
   { w: "もてなす", lv: "N1", pos: "verb (godan, transitive)",
     en: "to entertain (guests); to treat hospitably",
     note: "Welcoming guests warmly with food and care: 客を手料理でもてなす. The noun おもてなし (hospitality) is a famous keyword of Japanese service culture. Kanji 持て成す is rare.",
-    book: { ja: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿**もてなした**。", en: "I welcomed my old friend, who had come all that way to visit, with heartfelt hospitality.", at: "ch/13" },
+    book: { ja: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿**もてなした**。", en: "I welcomed my old friend, who had come all that way to see me, with all my heart.", at: "ch/13" },
     ex: [
       { ja: "{遠|とお}くから{来|き}たお{客|きゃく}さんを、{母|はは}は{手料理|てりょうり}で**もてなした**。", en: "My mother entertained the guests who had come from far away with her home cooking.", alt: ["もたらした", "みなした", "もよおした"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "number of items; range of goods (on offer)",
     note: "How many kinds of goods a store has or dishes a meal has: 品数が多い / 豊富, 品数をそろえる. Note the kun reading しなかず (not ひんすう). 品ぞろえ is the selection or assortment.",
     rx: ["ひんすう", "しなすう", "ひんかず"],
-    book: { ja: "今度できたスーパーは**{品数|しなかず}**も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection, and its prices are low too, so it's hugely popular.", at: "gp/130" },
+    book: { ja: "今度できたスーパーは**{品数|しなかず}**も多ければ{値段|ねだん}も安いので、大人気だ。", en: "The new supermarket has a wide selection and low prices too, so it's hugely popular.", at: "gp/130" },
     ex: [
       { ja: "この{店|みせ}は**{品数|しなかず}**が{豊富|ほうふ}で、{必要|ひつよう}なものが{何|なん}でもそろう。", en: "This store has a wide range of goods, so you can get everything you need.", alt: ["{品質|ひんしつ}", "{人数|にんずう}", "{回数|かいすう}"] },
     ] },
@@ -615,7 +615,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "chilly; a bit cold (felt on the skin)",
     note: "Slightly cold, especially in early spring, autumn or on a cool morning: 肌寒い日, 朝晩は肌寒い. Milder than 寒い. Its opposite in feeling is 蒸し暑い (muggy).",
     rx: ["きさむい", "はだかん", "はださぶい"],
-    book: { ja: "5月は{気温|きおん}が25度以上になる日もあれば、20度以下で**{肌寒|はださむ}い**日もある。", en: "In May, there are days when the temperature rises above 25 degrees, and also chilly days when it's below 20.", at: "gp/130" },
+    book: { ja: "5月は{気温|きおん}が25度以上になる日もあれば、20度以下で**{肌寒|はださむ}い**日もある。", en: "In May, some days climb above 25°C, and others are chilly, below 20°C.", at: "gp/130" },
     ex: [
       { ja: "{朝晩|あさばん}は**{肌寒|はださむ}い**ので、{上着|うわぎ}を{持|も}って{行|い}ったほうがいい。", en: "It gets chilly in the mornings and evenings, so you'd better take a jacket.", alt: ["{蒸|む}し{暑|あつ}い", "{暖|あたた}かい", "{心細|こころぼそ}い"] },
     ] },
@@ -663,7 +663,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "the Antarctic; the South Pole",
     note: "南極大陸 (Antarctica), 南極観測 (Antarctic research). The opposite is 北極 (the Arctic, North Pole). 極 means pole or extreme, as in 積極的 and 極端.",
     rx: ["なんごく", "みなみきょく", "なんぎょく"],
-    book: { ja: "このドキュメンタリーは**{南極|なんきょく}**の{厳|きび}しい{自然|しぜん}の中を生き（　）2{匹|ひき}の犬の{物語|ものがたり}である。", en: "This documentary is the story of two dogs that made it through the harsh natural conditions of the Antarctic.", at: "ch/13/review" },
+    book: { ja: "このドキュメンタリーは**{南極|なんきょく}**の{厳|きび}しい{自然|しぜん}の中を生き（　）2{匹|ひき}の犬の{物語|ものがたり}である。", en: "This documentary is the story of two dogs that survived the harsh natural environment of Antarctica.", at: "ch/13/review" },
     ex: [
       { ja: "**{南極|なんきょく}**には{多|おお}くのペンギンが{住|す}んでいる。", en: "Many penguins live in the Antarctic.", alt: ["{北極|ほっきょく}", "{積極|せっきょく}", "{南北|なんぼく}"] },
     ] },
