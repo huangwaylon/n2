@@ -14,7 +14,7 @@ TRY.registerChapter({
           { sp: "{川口|かわぐち}", v: "f", ja: "今度、ミズノから「{軽|かる}くて{疲|つか}れない{靴|くつ}」が{発売|はつばい}される**とか**…。", en: "I hear Mizuno is going to release \"light shoes that don't tire you out\"..." },
           { sp: "{山下|やました}", v: "m", ja: "{軽量化|けいりょうか}という{業界|ぎょうかい}の{流|なが}れ**にそって**、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。わが社もウォーキングシューズ**にかけては**、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}し**ないことには**新しいお客さんは{獲得|かくとく}できないですよね。", en: "Well, new products are being developed in line with the industry-wide trend toward lighter shoes. We have a proven track record of our own when it comes to walking shoes, but unless we approach development from a different angle, we won't be able to win new customers." },
           { sp: "川口", v: "f", ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}し**がち**ですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。歩きやすい{靴|くつ}がほしいと思い**つつも**、デザインを{優先|ゆうせん}してしまう人が多いと思うんです。", en: "With walking shoes, the tendency is to put comfort ahead of looks, but speaking as a woman, when it comes to actually buying them, the deciding factor is still the design. I think a lot of people want shoes that are easy to walk in, yet end up putting design first anyway." },
-          { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, they're women, after all." },
+          { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, you're talking about women, after all." },
         ],
       },
       points: [
