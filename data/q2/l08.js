@@ -316,7 +316,7 @@ TRY.registerLesson({
       "Kagaya is also called \"the inn of omotenashi.\" Please tell us about the spirit of that omotenashi.",
       "Omotenashi means understanding how guests feel and serving them accordingly. In the past, people said \"ten people, ten colors,\" meaning everyone is different, but now we live in an age when people say one person has not just ten colors but a hundred. In other words, not only does each guest want different service, but even the same guest's wishes can change depending on the occasion. If you just provide service by the book, that only earns you 60 points. We are always working out ways to anticipate what guests have in mind and make it a reality for them. Unless you feel that your guests' heartfelt delight is your own joy as well, you cannot offer hospitality in the true sense.",
       "What kind of omotenashi is unique to Kagaya?",
-      "We never say \"no\" or \"we can't.\" Our predecessor taught us that if we don't know something, we should look it up and give an answer. Even if we can't reply right away, we make sure to give an answer the guest will be fully satisfied with.",
+      "We never say \"no\" or \"we can't.\" It's a rule handed down from the previous okami: if you don't know, look it up and then answer. Even if we can't reply right away, we make sure to give an answer the guest will be fully satisfied with.",
       "I see. By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
       "First, we research all kinds of things about the guest's country, such as its culture and customs. One thing guests love is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were overjoyed and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
       "Then what about the language barrier?",
@@ -430,7 +430,7 @@ TRY.registerLesson({
       "A bento is a small universe. A uniquely Japanese aesthetic lives in it: expressing concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always just sandwiches or just pasta in an airtight container with no dividers. With a Japanese bento, though, you think about the person who will eat it, pay attention to nutritional balance, and pack the side dishes so they look colorful.",
       "It takes only about 20 minutes to eat, but when you're so hungry you can hardly wait, you start picturing the moment you'll lift the lid (\"I wonder what's in it today?\") a whole hour beforehand, all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",
-      "Back then, they hadn't yet thought of actively selling overseas, so instead it was they who asked me, \"Why?\" But now I've developed colorful bento boxes with an ice pack built into the lid together with Japanese manufacturers, and, taking a hint from the kokeshi-style knickknacks that were all the rage in France a little while ago, come up with a kokeshi-shaped bento box whose head doubles as a bowl. These have now become popular products all over the world.",
+      "Back then, they hadn't yet thought of actively selling overseas, so instead it was they who asked me, \"Why?\" But now, together with Japanese manufacturers, I've developed colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were all the rage in France a little while ago, come up with a kokeshi-shaped bento box whose head doubles as a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
       "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others make people go \"Wow! So cute!\" the moment their owner takes them out.",
       "You're also very particular about traditional Japanese products, aren't you?",
@@ -837,7 +837,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal counterpart, taught with a negative Y."
+     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it pushes further the same way: *not even Y, let alone X* (③–⑥). It is emphatic and often corrects what the other person just said (①③).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*, where Y is the opposite of X: 静かどころか、毎晩うるさい (*far from quiet, it's noisy every night*). TRY! N1's **AはおろかB…ない** is its formal counterpart, taught with a negative Y."
     },
     {
      "t": "note",
@@ -1014,7 +1014,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nならでは** is praise: something is special because only N could offer it. N is typically a place, a material, a kind of establishment or a person with a special skill (その場所, 日本, 木, 旅館, プロ); only a noun can precede it.\n\n- Before a noun it takes の (日本ならではの美意識, reading 2); at the end of a sentence it is 〜ならではだ (④).\n- For what is merely typical, use 〜らしい. For neutral or negative traits, use 〜特有の: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*).\n- It has nothing to do with the conditional なら; ならでは is a fixed expression.\n\nTRY! N1 teaches the same pattern as 〜ならではの."
+     "deepDive": "**Nならでは** is praise: something is special because only N could offer it. N is typically a place, a material, a kind of establishment or a person with a special skill (その場所, 日本, 木, 旅館, プロ); only a noun can precede it.\n\n- Before a noun it takes の (日本ならではの美意識, reading 2); at the end of a sentence it is 〜ならではだ (④).\n- For what is merely typical, use 〜らしい. For neutral or negative traits, use 〜特有の: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*).\n- Though it comes from the copula なら, it works as a fixed expression; don't read it as *if it is N*.\n\nTRY! N1 teaches the same pattern as 〜ならではの."
     },
     {
      "t": "note",
@@ -1118,7 +1118,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XないまでもY** puts two levels on one scale: X is the ideal and Y the lower level the speaker settles for or has reached. The tone is a compromise, *maybe not X, but at least Y*, so せめて, 少なくとも or 〜くらいは usually turn up in Y.\n\n- The higher level always comes first: ✗月に1回とは言わないまでも、週に1回 reverses the logic.\n- It is slightly formal; in conversation 〜とまではいかなくても is also common.\n- Don't confuse it with **〜までもない**, *there's no need to*: 言うまでもない (*it goes without saying*).\n\nReading 1 uses it for a standard the inn can't always meet: いつも100点満点のことはできないまでも. TRY! N1 teaches the same pattern."
+     "deepDive": "**XないまでもY** puts two levels on one scale: X is the ideal and Y the lower level the speaker settles for or has reached. The tone is a compromise, *maybe not X, but at least Y*, so せめて, 少なくとも or 〜くらいは usually turn up in Y.\n\n- The higher level always comes first: ?月に1回とは言わないまでも、週に1回 reverses the scale and makes no sense.\n- It is slightly formal; in conversation 〜とまではいかなくても is also common.\n- Don't confuse it with **〜までもない**, *there's no need to*: 言うまでもない (*it goes without saying*).\n\nReading 1 uses it for a standard the inn can't always meet: いつも100点満点のことはできないまでも. TRY! N1 teaches the same pattern."
     },
     {
      "t": "note",
@@ -1265,7 +1265,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**とともに** belongs to formal, written Japanese. In conversation *together with* is 〜といっしょに, and a linked change is usually 〜につれて.\n\n- ① With a person or group, Nとともに means doing something jointly (日本人の妻とともに立ち上げ, reading 2); with a thing, *along with* (③).\n- ② A change verb or a time noun (時代, 年齢) comes before it and a change after it: 時代とともに変えていきたい (reading 1).\n- With two actions it lists them as done together, the formal *and at the same time* of the 例.\n\n**〜と同時に** (L7-8) stresses the single moment rather than a gradual link. TRY! N2 has the same 〜とともに; its **〜にともなって** and **〜にしたがって** cover only the change use."
+     "deepDive": "**とともに** belongs to formal, written Japanese. In conversation *together with* is 〜といっしょに, and a linked change is usually 〜につれて.\n\n- ① With a person or group, Nとともに means doing something jointly (日本人の妻とともに立ち上げ, reading 2); with a thing, *along with* (③).\n- ② A change verb or a time noun (時代, 年齢) comes before it and a change after it: 時代とともに変えていきたい (reading 1).\n- With two actions it lists them as done together, the formal *and at the same time* of the 例.\n\n**〜と同時に** (L7-8) stresses the single moment rather than a gradual link. TRY! N2 has the same 〜とともに; its **〜にともなって** and **〜にしたがって** share only the linked-change use."
     },
     {
      "t": "note",
@@ -1331,7 +1331,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vたものだ** looks back on something that happened regularly, or a state that lasted, and savors the memory: *I used to ~ (those were the days)*. It suits reminiscing rather than a quick answer, which is why the book calls it monologue-like; in speech it is often **〜たもんだ**.\n\n- The past event is repeated or ongoing. A single event takes 〜たことがある: ✗去年一度京都へ行ったものだ.\n- よく, 毎日, 昔は and 〜頃は are frequent companions.\n- Plain 〜ていた reports a past habit neutrally; たものだ adds the nostalgia.\n\nReading 1 contrasts then and now: 10回はお茶を出していたものですが、今は…. TRY! N2 teaches it with the other **ものだ** uses, a general truth (人は変わるものだ) and a heartfelt reaction (時間がたつのは早いものだ)."
+     "deepDive": "**Vたものだ** looks back on something that happened regularly, or a state that lasted, and savors the memory: *I used to ~ (those were the days)*. It reads as reminiscing to oneself rather than telling the listener something, hence the book's *monologue-like*; in speech it is often **〜たもんだ**.\n\n- The past event is repeated or ongoing. A single event takes 〜たことがある: ✗去年一度京都へ行ったものだ.\n- よく, 毎日, 昔は and 〜頃は are frequent companions.\n- Plain 〜ていた reports a past habit neutrally; たものだ adds the nostalgia.\n\nReading 1 contrasts then and now: 10回はお茶を出していたものですが、今は…. TRY! N2 teaches it with the other **ものだ** uses, a general truth (人は変わるものだ) and a heartfelt reaction (時間がたつのは早いものだ)."
     },
     {
      "t": "note",
@@ -1471,7 +1471,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**かえって** (却って) says an action backfired: it produced the opposite of its purpose, *actually, instead, only made it worse*. The first half is usually a step taken for a reason (薬を飲んだ, 安い車を買った, 高いワインを持っていく) and the second half the unwanted result.\n\n- It reports an outcome, so the second half is a result or a prediction, not a request.\n- It does not compare two descriptions; for *more B than A*, use **むしろ** (L7-5), as the ☛ note shows.\n- A polite set phrase: かえってご迷惑をおかけしました (*I'm afraid I only caused you more trouble*).\n\nIn reading 1, the frequent visits meant as service かえってお叱りを受ける: they *actually draw complaints*."
+     "deepDive": "**かえって** (却って) says an action backfired: it produced the opposite of its purpose, *actually, instead, only made it worse*. The first half is usually a step taken for a reason (薬を飲んだ, 安い車を買った, 高いワインを持っていく) and the second half the unwanted result.\n\n- It reports an outcome, so the second half is a result or a prediction, not a request.\n- It needs an expectation to overturn; in a plain choice of description, *more B than A* (〜というよりむしろ), only **むしろ** (L7-5) works, as the ☛ note shows.\n- A polite set phrase: かえってご迷惑をおかけしました (*I'm afraid I only caused you more trouble*).\n\nIn reading 1, the frequent visits meant as service かえってお叱りを受ける: they *actually draw complaints*."
     },
     {
      "t": "note",
@@ -1746,7 +1746,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**こだわる** can praise or criticize. As praise it means caring about quality and refusing to compromise: 素材にこだわった料理 (*dishes made with carefully chosen ingredients*), a favorite phrase of ads and menus. As criticism it means being hung up on something that doesn't deserve it: 勝ち負けにこだわらないで (③).\n\n- Context decides: a product or craft usually gets praise (伝統的な商品にもこだわって, reading 2); a person's fixation on a job, a result or the past usually gets criticism (②).\n- The noun **こだわり** is common: 店主のこだわり (*the owner's personal touch*).\n- 〜にこだわらず means *without sticking to*: 形式にこだわらず (*without standing on formality*).\n\nListening 1 uses the positive side: 露天風呂にこだわった和風旅館."
+     "deepDive": "**こだわる** can praise or criticize. As praise it means caring about quality and refusing to compromise: 素材にこだわった料理 (*dishes made with carefully chosen ingredients*), a favorite phrase of ads and menus. As criticism it means being hung up on something that doesn't deserve it: 勝ち負けにこだわらないで (③).\n\n- Context decides: a product or craft usually gets praise (伝統的な商品にもこだわって, reading 2); a person's fixation on a job, a result or the past usually gets criticism (②).\n- The noun **こだわり** is common: 店主のこだわり (*what the owner insists on*).\n- 〜にこだわらず means *without sticking to*: 形式にこだわらず (*without standing on formality*).\n\nListening 1 uses the positive side: 露天風呂にこだわった和風旅館."
     }
    ]
   },
@@ -2441,7 +2441,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "そうですか！＿＿が、予約した時の住所に、\n＿＿ていただけませんか。\n＿＿すみません。よろしくお願いします。",
-            "tr": "Really? ＿＿, but could you ＿＿ to the address I gave when I made the reservation? I'm sorry ＿＿. Thank you very much."
+            "tr": "Oh, great! ＿＿, but could you ＿＿ to the address I gave when I made the reservation? I'm sorry ＿＿. Thank you very much."
            },
            "answer": [
             "申し訳ありません",
@@ -2569,7 +2569,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "そうですか！❻**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで送っ**ていただけませんか。**",
-       "tr": "Really? I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, cash on delivery?"
+       "tr": "Oh, great! I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation? I'll pay the shipping when it arrives."
       },
       {
        "sp": "ス",
@@ -2768,7 +2768,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで\n送っ**ていただけませんか。**",
-        "tr": "I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, cash on delivery?"
+        "tr": "I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation? I'll pay the shipping when it arrives."
        }
       },
       {
@@ -2884,7 +2884,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❻**申し訳ありませんが、**{{｛予約した時の住所に{着払|ちゃくばら}いで送っ／取りにうかがうので{預|あず}かってい｝}}**ていただけませんか。**❼**お{手数|てすう}をおかけしてすみません。よろしくお願いします。**",
-         "tr": "I'm sorry to trouble you, but could you [send it cash on delivery to the address I gave when I made the reservation / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
+         "tr": "I'm sorry to trouble you, but could you [send it, shipping paid on delivery, to the address I gave when I made the reservation / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
         }
        ]
       }
@@ -3982,7 +3982,7 @@ TRY.registerLesson({
        "sp": "{研|けん}",
        "v": "m",
        "ja": "うーん。{入|い}れ{墨|ずみ}にヤクザのイメージがあるから、それに近いタトゥーも{怖|こわ}がられるんだと思う。",
-       "tr": "Hmm. Irezumi, the traditional tattoos, are associated with the yakuza, so I think tattoos, which look similar, are feared too."
+       "tr": "Hmm. Irezumi, the traditional tattoos, are associated with the yakuza, so I think people are afraid of tattoos that look like them, too."
       },
       {
        "sp": "サ",
