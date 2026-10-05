@@ -433,7 +433,7 @@ TRY.registerCompare([
         ex: { ja: "人にお金を借りたらすぐに返すべきだ。", en: "If you borrow money from someone, you should pay it back right away." },
         note: "V-る + べきだ (する → すべき / するべき): \"should / ought to\". The speaker's view of what is right or proper." },
       { pattern: "Vべく", level: "N1", no: 90,
-        ex: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business." },
+        ex: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを立ち上げるべく、準備を進めている。", en: "I'm pressing ahead with preparations in order to launch a business of my own that draws on my experience studying abroad." },
         note: "V-る + べく (する → すべく): \"in order to ~\". A formal, written purpose; the first verb is a goal the subject chooses, and the second clause a deliberate action or effort (no negative form)." },
       { pattern: "VべくしてVた", level: "N1", no: 52,
         ex: { ja: "この車は{燃費|ねんぴ}も良く、洗練されたデザインで、売れるべくして売れたと言える。", en: "This car has good fuel economy and a refined design; you could say it was bound to sell well, and it did." },

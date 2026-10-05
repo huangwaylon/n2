@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be lost in thought, brood over, ponder deeply",
     note: "Thinking hard and long, often with a troubled look: 何か考え込んでいる, 深く考え込む. 悩む adds the sense of worrying over a problem; 考え直す is to reconsider.",
     rx: ["こうえこむ", "かんがえごむ", "かんがいこむ"],
-    book: { ja: "何か**考え込ん**でいる表情で{萌花|もえか}は先ほどから庭を行きつ戻りつしている。", en: "With a look of deep thought, Moeka has been pacing back and forth in the garden for a while now.", at: "ch/8" },
+    book: { ja: "何か**考え込ん**でいる表情で{萌花|もえか}は先ほどから庭を行きつ戻りつしている。", en: "Lost in thought about something, Moeka has been pacing back and forth in the garden for some time now.", at: "ch/8" },
     ex: [
       { ja: "{父|ちち}は{手紙|てがみ}を{読|よ}むと、{黙|だま}って**{考|かんが}え{込|こ}んで**しまった。", en: "After reading the letter, my father fell silent, lost in thought.", alt: ["{考|かんが}え{出|だ}して", "{払|はら}い{込|こ}んで", "{見|み}{込|こ}んで"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to become old enough to understand things (in early childhood)",
     note: "Usually 物心がつく／物心ついた頃から (for as long as I can remember). 物心 is the dawning awareness of the world around one; not related to 物心両面 (ぶっしん, material and spiritual).",
     rx: ["ぶっしんつく", "ものこころつく", "ぶつしんつく"],
-    book: { ja: "**{物心|ものごころ}つい**てからというもの、{修行|しゅぎょう}ずくめの毎日だった。", en: "Ever since she was old enough to understand the world, her days had been nothing but spiritual training.", at: "ch/8" },
+    book: { ja: "**{物心|ものごころ}つい**てからというもの、{修行|しゅぎょう}ずくめの毎日だった。", en: "Ever since she was old enough to remember, her days had been filled with nothing but spiritual training.", at: "ch/8" },
     ex: [
       { ja: "**{物心|ものごころ}ついた**{頃|ころ}から、{家|いえ}にはいつも犬がいた。", en: "For as long as I can remember, we always had a dog at home.", alt: ["{物|もの}ともしなかった", "{心|こころ}{残|のこ}りだった", "{物|もの}{足|た}りなかった"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to build, establish (relationships, a fortune, a position); to construct (a castle, wall)",
     note: "Mostly figurative today: 信頼関係を築く, 財産を築く, 地位を築く, 家庭を築く. For actual buildings, 建てる is normal; 築く is used for castles, embankments and the like.",
     rx: ["きずぐ", "ちくく", "つずく"],
-    book: { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を**{築|きず}き**たいものです。", en: "Ideally, neighbors should build give-and-take relationships in which they help each other out.", at: "gp/88" },
+    book: { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を**{築|きず}き**たいものです。", en: "Neighbors should try to build a give-and-take relationship in which they can help each other out.", at: "gp/88" },
     ex: [
       { ja: "{取引先|とりひきさき}との{信頼|しんらい}{関係|かんけい}を**{築|きず}く**には{時間|じかん}がかかる。", en: "It takes time to build a relationship of trust with business partners.", alt: ["{建|た}てる", "{組|く}む", "{積|つ}む"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "original, unique, one's own; independent",
     note: "独自の技術 (proprietary technology), 独自に調査する (investigate independently), 独自性. 独特 stresses peculiar or distinctive character (独特の味); 独自 stresses being one's own, not borrowed.",
     rx: ["とくじ", "どくし", "どくじい"],
-    book: { ja: "留学経験を{生|い}かして、**{独自|どくじ}**のビジネスを立ち上げるべく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business.", at: "gp/90" },
+    book: { ja: "留学経験を{生|い}かして、**{独自|どくじ}**のビジネスを立ち上げるべく、準備を進めている。", en: "I'm pressing ahead with preparations in order to launch a business of my own that draws on my experience studying abroad.", at: "gp/90" },
     ex: [
       { ja: "この{会社|かいしゃ}は**{独自|どくじ}**の技術で{小型|こがた}{電池|でんち}を{開発|かいはつ}した。", en: "This company developed a compact battery using its own proprietary technology.", alt: ["{独身|どくしん}", "{独裁|どくさい}", "{独立|どくりつ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to launch, start up (a business, project); to boot up (a computer)",
     note: "会社を立ち上げる (found a company), プロジェクトを立ち上げる, パソコンを立ち上げる. The intransitive 立ち上がる is to stand up or to get going. 設立する is the formal word for founding an organization.",
     rx: ["たちのぼげる", "りつあげる", "たちあがげる"],
-    book: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを**立ち上げる**べく、準備を進めている。", en: "Making use of my experience studying abroad, I'm pressing ahead with preparations in order to launch my own business.", at: "gp/90" },
+    book: { ja: "留学経験を{生|い}かして、{独自|どくじ}のビジネスを**立ち上げる**べく、準備を進めている。", en: "I'm pressing ahead with preparations in order to launch a business of my own that draws on my experience studying abroad.", at: "gp/90" },
     ex: [
       { ja: "{大学|だいがく}の{仲間|なかま}と{新|あたら}しい{会社|かいしゃ}を**{立|た}ち{上|あ}げた**。", en: "I started up a new company with friends from college.", alt: ["{立|た}ち{直|なお}った", "{持|も}ち{上|あ}げた", "{取|と}り{上|あ}げた"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "effort, initiative, measures (to tackle something); a bout (in sumo)",
     note: "From 取り組む (to tackle, work on): 環境問題への取り組み, 新たな取り組みを始める. Very common in news and official writing. In sumo, 取組 is a match.",
     rx: ["とりぐみ", "しゅそみ", "とりくいみ"],
-    book: { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな**取り組み**をしている。", en: "In order to improve living conditions on the island, the islanders are undertaking various initiatives.", at: "gp/90" },
+    book: { ja: "島の生活環境を改善するべく、{島民|とうみん}はさまざまな**取り組み**をしている。", en: "The islanders are taking various steps in order to improve living conditions on the island.", at: "gp/90" },
     ex: [
       { ja: "{市|し}はごみを{減|へ}らすための**{取|と}り{組|く}み**を{始|はじ}めた。", en: "The city has launched an initiative to reduce waste.", alt: ["{取|と}り{扱|あつか}い", "{取|と}り{消|け}し", "{取|と}り{柄|え}"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "accusation, (criminal) complaint; exposure, whistleblowing",
     note: "内部告発 (whistleblowing from inside an organization), 不正を告発する, 告発状. Legally, 告訴 is a complaint by the victim, while 告発 is by a third party.",
     rx: ["こくほつ", "こうはつ", "こくばつ"],
-    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "In blowing the whistle, I was simply following my own conscience.", at: "gp/93" },
+    book: { ja: "私が内部**{告発|こくはつ}**したのは、自らの{良心|りょうしん}に{従|したが}ったまでのことです。", en: "I blew the whistle for no other reason than that I was following my own conscience.", at: "gp/93" },
     ex: [
       { ja: "{社員|しゃいん}の{内部|ないぶ}**{告発|こくはつ}**によって、{会社|かいしゃ}の{不正|ふせい}が{明|あき}らかになった。", en: "The company's wrongdoing came to light through an employee blowing the whistle.", alt: ["{告白|こくはく}", "{発表|はっぴょう}", "{開発|かいはつ}"] },
     ] },
@@ -178,7 +178,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "conscience",
     note: "良心が痛む／とがめる (one's conscience pricks), 良心的な店 (an honest, fairly priced shop). Same sound as 両親 (parents) — context tells them apart.",
     rx: ["りょうじん", "よしん", "りょしん"],
-    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "In blowing the whistle, I was simply following my own conscience.", at: "gp/93" },
+    book: { ja: "私が内部{告発|こくはつ}したのは、自らの**{良心|りょうしん}**に{従|したが}ったまでのことです。", en: "I blew the whistle for no other reason than that I was following my own conscience.", at: "gp/93" },
     ex: [
       { ja: "{嘘|うそ}をついて{友達|ともだち}を{困|こま}らせ、**{良心|りょうしん}**が{痛|いた}んだ。", en: "I lied and got my friend into trouble, and my conscience bothered me.", alt: ["{両親|りょうしん}", "{本心|ほんしん}", "{安心|あんしん}"] },
     ] },
@@ -226,7 +226,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "harsh, severe, grueling",
     note: "Conditions too hard to bear: 過酷な環境, 過酷な労働, 過酷なレース. 苛酷 is an alternative spelling. 厳しい is the everyday word; 残酷 is cruel (to living things).",
     rx: ["かごく", "かこう", "かっこく"],
-    book: { ja: "__{砂漠|さばく}の**{過酷|かこく}**な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。", en: "Braving the harsh desert environment and mechanical trouble, they drove the full 12,000 km.", at: "gp/94" },
+    book: { ja: "__{砂漠|さばく}の**{過酷|かこく}**な環境やマシントラブルをものともせず__、彼らは1万2千kmを走りぬいた。", en: "Braving the harsh desert conditions and mechanical trouble, they drove the full 12,000 km.", at: "gp/94" },
     ex: [
       { ja: "{工場|こうじょう}の{労働者|ろうどうしゃ}たちは、**{過酷|かこく}**な{条件|じょうけん}で{働|はたら}かされていた。", en: "The factory workers were made to work under grueling conditions.", alt: ["{過去|かこ}", "{過剰|かじょう}", "{酷似|こくじ}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "self-sufficiency, living off what one produces",
     note: "自給自足の生活 (a self-sufficient life), エネルギーを自給自足する. A yojijukugo; 自給率 is the self-sufficiency rate.",
     rx: ["じっきゅうじそく", "じきゅうじぞく", "じきゅじそく"],
-    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear the potter Tanaka grows vegetables at home alongside making pottery, living self-sufficiently.", at: "gp/95" },
+    book: { ja: "{陶芸家|とうげいか}の{田中|たなか}さんは作品{作|づく}りのかたわら、自宅で野菜を作って**{自給自足|じきゅうじそく}**の生活をしているそうだ。", en: "I hear that alongside making pottery, the potter Tanaka grows vegetables at home and lives self-sufficiently.", at: "gp/95" },
     ex: [
       { ja: "{山奥|やまおく}に{移|うつ}り{住|す}み、**{自給自足|じきゅうじそく}**に{近|ちか}い{暮|く}らしを{送|おく}っている。", en: "I moved deep into the mountains and live a nearly self-sufficient life.", alt: ["{自業自得|じごうじとく}", "{自画自賛|じがじさん}", "{自問自答|じもんじとう}"] },
     ] },
