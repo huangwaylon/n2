@@ -41,7 +41,7 @@ TRY.registerVocab({ ch: 11, words: [
     ] },
   { w: "さすが", lv: "N2", pos: "adverb",
     en: "as expected (of); just what you'd expect",
-    note: "Admiration that something lives up to its reputation: さすがプロだ, さすが〜だけあって (#105). さすがに can also mean \"even so, understandably\": さすがに疲れた (even I got tired). Don't use it for bad results you expected; that is やっぱり.",
+    note: "Admiration that something lives up to its reputation: さすがプロだ, さすが〜だけあって (#105). さすがに also marks a point where even the expected limit is reached: 10時間も歩いてさすがに疲れた (after ten hours of walking, I was tired, as anyone would be). Don't use it for bad results you expected; that is やっぱり.",
     book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, whether in the soup or in the toppings, the shop had added its own original touches, and the ramen was something new, unlike anything I'd had before.", at: "ch/11" },
     ex: [
       { ja: "**さすが**プロの{料理人|りょうりにん}だ。{味|あじ}が{全然|ぜんぜん}{違|ちが}う。", en: "Just what you'd expect of a professional chef. The taste is completely different.", alt: ["せめて", "まさか", "たとえ"] },
@@ -63,12 +63,12 @@ TRY.registerVocab({ ch: 11, words: [
       { ja: "{撮|と}った{動画|どうが}を**{編集|へんしゅう}**して、{友達|ともだち}に{送|おく}った。", en: "I edited the video I'd shot and sent it to a friend.", alt: ["{募集|ぼしゅう}", "{編成|へんせい}", "{集中|しゅうちゅう}"] },
     ] },
   { w: "{根拠|こんきょ}", lv: "N1", pos: "noun",
-    en: "grounds; basis; evidence (for a claim)",
-    note: "What a claim or judgment rests on: 根拠がない (groundless), 根拠を示す, 〜を根拠に. 理由 is the reason itself; 根拠 is the support behind it. 証拠 is proof, especially in a legal sense.",
+    en: "grounds; basis (for a claim or judgment)",
+    note: "What a claim or judgment rests on: 根拠がない (groundless), 根拠を示す, 〜を根拠に. 理由 is the reason itself; 根拠 is the support behind it. 証拠 is evidence or proof that something happened (犯罪の証拠).",
     rx: ["こんこ", "ねきょ", "こんきょう"],
     book: { ja: "理由を表す「から・ため」にもついて、{原因|げんいん}・理由・**{根拠|こんきょ}**を{強調|きょうちょう}する言い方になる。", en: "You can also say it with \"から・ため\", which emphasizes a cause, reason or basis.", at: "gp/100", src: "book" },
     ex: [
-      { ja: "その{話|はなし}には{科学的|かがくてき}な**{根拠|こんきょ}**がない。", en: "There is no scientific basis for that story.", alt: ["{根性|こんじょう}", "{根気|こんき}", "{本拠|ほんきょ}"] },
+      { ja: "その{話|はなし}には{科学的|かがくてき}な**{根拠|こんきょ}**がない。", en: "There's no scientific basis for that claim.", alt: ["{根性|こんじょう}", "{根気|こんき}", "{本拠|ほんきょ}"] },
     ] },
   { w: "{勝利|しょうり}", lv: "N2", pos: "noun · する verb",
     en: "victory; win",
@@ -140,7 +140,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["にんるい", "じんりゅう", "ひとるい"],
     book: { ja: "**{人類|じんるい}**は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての生物を{確認|かくにん}、{分類|ぶんるい}するのは{不可能|ふかのう}だと言われているそうだ。", en: "Apparently humankind has discovered a mere 2% of the living things on Earth, and it is said to be impossible to identify and classify them all.", at: "gp/101" },
     ex: [
-      { ja: "**{人類|じんるい}**が{初|はじ}めて{月|つき}に{立|た}ったのは1969{年|ねん}だ。", en: "It was in 1969 that humankind first stood on the moon.", alt: ["{人種|じんしゅ}", "{親類|しんるい}", "{人口|じんこう}"] },
+      { ja: "**{人類|じんるい}**が{初|はじ}めて{月|つき}に{立|た}ったのは1969{年|ねん}だ。", en: "It was in 1969 that humans first set foot on the moon.", alt: ["{人種|じんしゅ}", "{親類|しんるい}", "{人口|じんこう}"] },
     ] },
   { w: "わずか", lv: "N2", pos: "adverb · な adjective",
     en: "only; a mere; slight",
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["ぶかのう", "ふかの", "ふがのう"],
     book: { ja: "{人類|じんるい}は{地球上|ちきゅうじょう}の{生物|せいぶつ}のわずか2％を{発見|はっけん}したにすぎず、{全|すべ}ての生物を{確認|かくにん}、{分類|ぶんるい}するのは**{不可能|ふかのう}**だと言われているそうだ。", en: "Apparently humankind has discovered a mere 2% of the living things on Earth, and it is said to be impossible to identify and classify them all.", at: "gp/101" },
     ex: [
-      { ja: "この{量|りょう}の{仕事|しごと}を{一日|いちにち}で{終|お}わらせるのは**{不可能|ふかのう}**だ。", en: "It's impossible to finish this much work in one day.", alt: ["{不可欠|ふかけつ}", "{不自由|ふじゆう}", "{不器用|ぶきよう}"] },
+      { ja: "この{量|りょう}の{仕事|しごと}を{一日|いちにち}で{終|お}わらせるのは**{不可能|ふかのう}**だ。", en: "It's impossible to finish this much work in one day.", alt: ["{不注意|ふちゅうい}", "{不自由|ふじゆう}", "{不器用|ぶきよう}"] },
     ] },
   { w: "{応用|おうよう}", lv: "N2", pos: "noun · する verb",
     en: "application (of knowledge or a technique); to apply; to put to practical use",
@@ -195,11 +195,11 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["したりざか", "くだりさか", "おりざか"],
     book: { ja: "この道は**{下|くだ}り{坂|ざか}**でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill, which makes it easy to pick up speed, and on top of that, traffic is heavy even at night, so please be very careful.", at: "gp/102" },
     ex: [
-      { ja: "{天気|てんき}は{午後|ごご}から**{下|くだ}り{坂|ざか}**になるでしょう。", en: "The weather will probably take a turn for the worse from the afternoon.", alt: ["{坂道|さかみち}", "{下書|したが}き", "{下着|したぎ}"] },
+      { ja: "{天気|てんき}は{午後|ごご}から**{下|くだ}り{坂|ざか}**になるでしょう。", en: "The weather will probably take a turn for the worse in the afternoon.", alt: ["{坂道|さかみち}", "{下書|したが}き", "{下着|したぎ}"] },
     ] },
   { w: "{夜間|やかん}", lv: "N2", pos: "noun",
     en: "nighttime; at night",
-    note: "A formal word used on signs and in notices: 夜間の外出, 夜間営業 (open at night), 夜間学校 (night school). The opposite is 昼間 (ひるま, daytime).",
+    note: "A formal word used on signs and in notices: 夜間の外出, 夜間営業 (open at night), 夜間学校 (night school). The opposite is 昼間 or 日中 (daytime).",
     rx: ["よるま", "よかん", "やげん"],
     book: { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、**{夜間|やかん}**も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill, which makes it easy to pick up speed, and on top of that, traffic is heavy even at night, so please be very careful.", at: "gp/102" },
     ex: [
@@ -323,9 +323,9 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["き", "はた", "ひふ"],
     book: { ja: "こちらは新しい{化粧品|けしょうひん}で、これ（　）お**{肌|はだ}**が美しくなります。", en: "This is a new cosmetic product. This alone will make your skin beautiful.", at: "gp/105" },
     ex: [
-      { ja: "{冬|ふゆ}は{空気|くうき}が{乾燥|かんそう}して、**{肌|はだ}**が{荒|あ}れやすい。", en: "In winter the air is dry, and your skin easily gets rough.", alt: ["{胸|むね}", "{膝|ひざ}", "{肩|かた}"] },
+      { ja: "{冬|ふゆ}は{空気|くうき}が{乾燥|かんそう}して、**{肌|はだ}**が{荒|あ}れやすい。", en: "In winter the air is dry, and skin tends to get rough.", alt: ["{胸|むね}", "{膝|ひざ}", "{肩|かた}"] },
     ] },
-  { w: "{誇|ほこ}る", lv: "N1", pos: "verb",
+  { w: "{誇|ほこ}る", lv: "N1", pos: "verb (transitive)",
     en: "to take pride in; to boast (of)",
     note: "Often used of institutions and records, not just people: 国が誇る美術館 (a museum the nation is proud of), 世界一の高さを誇る (boasts being the tallest in the world). The noun is 誇り (ch. 2).",
     rx: ["おごる", "ほごる", "こる"],
@@ -410,7 +410,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["ものか", "ぶつか", "ぶっけ"],
     book: { ja: "日本は**{物価|ぶっか}**が高い＿＿、全部高いわけではなくて、安いものもありますよ。", en: "Prices in Japan may be high, but not everything is expensive — there are cheap things too.", at: "ch/11" },
     ex: [
-      { ja: "{都会|とかい}は**{物価|ぶっか}**が{高|たか}いので、{生活|せいかつ}が{大変|たいへん}だ。", en: "Prices in the city are high, so life is hard.", alt: ["{価値|かち}", "{物置|ものおき}", "{物質|ぶっしつ}"] },
+      { ja: "{都会|とかい}は**{物価|ぶっか}**が{高|たか}いので、{生活|せいかつ}が{大変|たいへん}だ。", en: "Prices are high in big cities, so living there is tough.", alt: ["{価値|かち}", "{物置|ものおき}", "{物質|ぶっしつ}"] },
     ] },
   { w: "{画像|がぞう}", lv: "N2", pos: "noun",
     en: "image; picture (esp. digital)",
@@ -462,7 +462,7 @@ TRY.registerVocab({ ch: 11, words: [
     ] },
   { w: "{海|うみ}の{幸|さち}", lv: "N1", pos: "expression (noun)",
     en: "seafood; the bounty of the sea",
-    note: "A set phrase, often paired with 山の幸 (mountain vegetables, mushrooms and game). 幸 is read さち only in phrases like these; elsewhere it is こう (幸福) or しあわせ.",
+    note: "A set phrase, often paired with 山の幸 (mountain vegetables, mushrooms and game). 幸 is read さち only in phrases like these and in names; elsewhere it is こう (幸福), さいわい (幸い) or しあわせ (幸せ).",
     rx: ["うみのこう", "うみのしあわせ", "うみのさいわい"],
     book: { ja: "私の町は{気候|きこう}が{温暖|おんだん}な（　）、**{海|うみ}の{幸|さち}**も山の{幸|さち}も{豊富|ほうふ}で{暮|く}らしやすい。", en: "My town has a mild climate, and on top of that, it's rich in food from both the sea and the mountains, so it's easy to live in.", at: "ch/11/review" },
     ex: [
@@ -478,7 +478,7 @@ TRY.registerVocab({ ch: 11, words: [
     ] },
   { w: "{自慢|じまん}", lv: "N2", pos: "noun · する verb",
     en: "pride; boasting; to show off",
-    note: "自慢する often sounds like bragging (息子の自慢ばかりする), but compounds can be neutral: 自慢の料理 (a signature dish), 自慢話 (boastful story). 誇る is more formal and positive.",
+    note: "自慢する often sounds like bragging (息子の自慢ばかりする), and 自慢話 is a bragging story, but 自慢の〜 is neutral: 自慢の料理 (a dish someone is proud of, a signature dish). 誇る is more formal and positive.",
     rx: ["じばん", "しまん", "じまい"],
     book: { ja: "このりんごは{生産者|せいさんしゃ}の皆さんが**{自慢|じまん}**する（　）、味も{香|かお}りも{抜群|ばつぐん}ですね。", en: "As you'd expect from apples the growers are so proud of, both the taste and the aroma are outstanding.", at: "ch/11/review" },
     ex: [
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 11, words: [
     ex: [
       { ja: "{知|し}らない{人|ひと}に**いきなり**{話|はな}しかけられて、びっくりした。", en: "A stranger suddenly started talking to me, and I was startled.", alt: ["すっかり", "ぎっしり", "うっかり"] },
     ] },
-  { w: "{勧|すす}める", lv: "N2", pos: "verb",
+  { w: "{勧|すす}める", lv: "N2", pos: "verb (transitive)",
     en: "to recommend; to encourage; to urge; to offer (food, a seat)",
     note: "運動を勧める, 入会を勧める, お茶を勧める. 薦める (recommend a person or thing for a role) and 進める (move forward) sound the same; 勧 also looks like 勤 (つとめる).",
     rx: ["かんめる", "つとめる", "すずめる"],
@@ -570,13 +570,13 @@ TRY.registerVocab({ ch: 11, words: [
     ex: [
       { ja: "{会議|かいぎ}は**{和|なご}やか**な{雰囲気|ふんいき}の{中|なか}で{行|おこな}われた。", en: "The meeting was held in a friendly atmosphere.", alt: ["{鮮|あざ}やか", "{細|こま}やか", "{速|すみ}やか"] },
     ] },
-  { w: "{取|と}り{入|い}れる", lv: "N2", pos: "verb",
+  { w: "{取|と}り{入|い}れる", lv: "N2", pos: "verb (transitive)",
     en: "to adopt; to incorporate; to take in",
     note: "Bringing ideas or methods into what you do: 意見を取り入れる, 新しい技術を取り入れる, and literally 洗濯物を取り入れる (bring in the laundry). 受け入れる is to accept people or requests.",
     rx: ["とりはいれる", "しゅいれる", "とりいりる"],
     book: { ja: "最近{話題|わだい}の{企業|きぎょう}コンサルティング{会社|がいしゃ}の{研修|けんしゅう}だけあって、「おやつ」をうまく**取り入れて**いると思った。", en: "It was just what you'd expect from a training session run by a consulting company that has been in the news lately — I thought they were making clever use of \"snacks.\"", at: "ch/11/review" },
     ex: [
-      { ja: "{社員|しゃいん}の{意見|いけん}を**{取|と}り{入|い}れて**、{新|あたら}しい{制度|せいど}を{作|つく}った。", en: "We took employees' opinions on board and created a new system.", alt: ["{取|と}り{消|け}して", "{取|と}り{出|だ}して", "{取|と}り{替|か}えて"] },
+      { ja: "{社員|しゃいん}の{意見|いけん}を**{取|と}り{入|い}れて**、{新|あたら}しい{制度|せいど}を{作|つく}った。", en: "We incorporated employees' suggestions and created a new system.", alt: ["{取|と}り{消|け}して", "{取|と}り{出|だ}して", "{取|と}り{替|か}えて"] },
     ] },
   { w: "{本番|ほんばん}", lv: "N2", pos: "noun",
     en: "the real thing; the actual performance or event (not a rehearsal)",
@@ -584,7 +584,7 @@ TRY.registerVocab({ ch: 11, words: [
     rx: ["ほんぱん", "もとばん", "ほうばん"],
     book: { ja: "先生、自信がないです。**本番**は全部忘れてしまいそうで。それに人気校だけに、{競争率|きょうそうりつ}も高いし。", en: "I'm not confident. I feel like I'll forget everything when it's for real. And it's a popular school, so naturally the competition is fierce too.", at: "ch/11/review" },
     ex: [
-      { ja: "{練習|れんしゅう}ではうまくいったのに、**{本番|ほんばん}**で{失敗|しっぱい}してしまった。", en: "It went well in practice, but I messed up on the day itself.", alt: ["{番号|ばんごう}", "{本物|ほんもの}", "{順番|じゅんばん}"] },
+      { ja: "{練習|れんしゅう}ではうまくいったのに、**{本番|ほんばん}**で{失敗|しっぱい}してしまった。", en: "It went well in practice, but I messed up when it was for real.", alt: ["{番号|ばんごう}", "{本物|ほんもの}", "{順番|じゅんばん}"] },
     ] },
   { w: "{堂々|どうどう}", lv: "N1", pos: "adverb (と) · な adjective",
     en: "confidently; boldly; with dignity",
@@ -594,7 +594,7 @@ TRY.registerVocab({ ch: 11, words: [
     ex: [
       { ja: "{彼|かれ}は{大勢|おおぜい}の{前|まえ}でも**{堂々|どうどう}**と{話|はな}す。", en: "He speaks confidently even in front of a large crowd.", alt: ["{転々|てんてん}", "{点々|てんてん}", "{黙々|もくもく}"] },
     ] },
-  { w: "{切|き}り{替|か}える", lv: "N2", pos: "verb",
+  { w: "{切|き}り{替|か}える", lv: "N2", pos: "verb (transitive)",
     en: "to switch; to change over (one's mindset, a setting)",
     note: "気持ちを切り替える (put something behind you and refocus), 電源を切り替える, 頭を切り替える. The noun is 切り替え (気持ちの切り替えが早い).",
     rx: ["きりかわる", "せつりかえる", "きりがえる"],
