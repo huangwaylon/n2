@@ -304,7 +304,7 @@ TRY.registerLesson({
       "『奇跡の職場──新幹線清掃チームの“働く誇り”』あさ出版"
      ],
      "tr": [
-      "We at TESSEI, formally JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. The most distinctive feature of TESSEI's shinkansen cleaning is \"how fast we clean.\" As a CNN program put it, calling it a \"7 minute miracle,\" we get a whole shinkansen clean in just seven minutes.",
+      "We at TESSEI, officially JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. The most distinctive feature of TESSEI's shinkansen cleaning is \"how fast we clean.\" As a CNN program described it, calling it a \"7 minute miracle,\" we get an entire shinkansen clean in just seven minutes.",
       "When we say \"cleaning,\" though, there is a wide variety of things we have to do: we gather up the trash that has collected under the seats and in the storage spaces, turn the seats back to face the direction of travel, wipe all 100 tables, raise the window blinds, wipe the window frames, change the seat covers, check for lost items and, if there are any, keep careful track of them so they don't go missing, report anything we find broken to JR and deal with it, bundle up the trash we've collected and take it out, and so on.",
       "At the peak of the bubble economy in the 1980s, the term \"3K\" was in vogue for a time. It was made from the initial letters of kitsui, kitanai, kiken (\"hard, dirty, dangerous\") and was used for jobs that people tended to shy away from. Cleaning shinkansen is the very definition of a \"3K\" job.",
       "Yet the staff working on-site all have cheerful faces and are full of motivation.",
@@ -314,7 +314,7 @@ TRY.registerLesson({
       "So the more trains are added to the schedule, the more our income rises in proportion. On the other hand, services such as bowing or giving directions aren't something we earn any income from.",
       "But for our staff they are very important. That's because when they provide a service to a customer and receive, say, a single word of \"thank you,\" it leads to a sense of self-worth and confidence.",
       "As I see it, this is merely \"how things happened to turn out,\" but when I look around, it also seems to me that society as a whole is now moving in that direction.",
-      "That is, the age when only \"making money\" was considered a virtue is over. Since we are a business, of course it's important to earn as much money as we can, but aren't we now entering an age in which, as the basic premise for that, an awareness of \"doing something for others\" and \"being useful,\" carries great weight?",
+      "That is, the age when only \"making money\" was considered a virtue is over. Since we are a business, of course it's important to earn as much money as we can, but aren't we now entering an age in which, as the basic premise for that, an awareness of \"doing something for others\" and \"being useful\" carries great weight?",
       "I think this is a point that can't be ignored when it comes to understanding the times.",
       "That attitude on the part of those doing the work turns into gratitude from those who receive the service, and from there all sorts of virtuous cycles are born. Isn't it that kind of cycle that will drive work, today and in the years to come?"
      ],
@@ -483,7 +483,7 @@ TRY.registerLesson({
      "titleTr": "One Stormy Night",
      "tr": [
       "This fall, at the Minamiza theater in Kyoto, I saw a new kabuki play called \"Arashi no Yoru ni\" (One Stormy Night). Nakamura Shidō plays Gabu the wolf, and Onoe Matsuya plays Mei the goat.",
-      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. Back in their own animal worlds, the two of them are torn with anguish. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is talked around by its companions and very nearly gives in. But in the end, they put the friendship they formed on that stormy night ahead of the relationship their kinds have always had, and walk on together hand in hand. That is the story.",
+      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. Back in their own animal worlds, the two of them are torn with anguish. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is argued down by its companions, and their resolve nearly breaks. But in the end, they put the friendship they formed on that stormy night ahead of the relationship their kinds have always had, and walk on together hand in hand. That is the story.",
       "Don't dismiss it as a silly fantasy. It shows us an unexpected truth and possibility. Who on earth decided the common-sense notion that goats are there to be eaten by wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
       "In fact, humans have created these relationships of absolute hostility, which at first glance look like common sense, as it suited them, and then dissolved them again just as it suited them. The gorillas I have studied for so long have been at the mercy of humans' self-serving \"common sense.\" After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took at face value stories that gorillas attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once it became clear how peacefully gorillas live, that view was turned on its head, and they became a major tourist attraction, now seen as humans' cherished neighbors. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
       "The same can be said of relationships between humans. In the Edo period, the Japanese saw white people as man-eating demons. And what on earth was the fear and hatred the Japanese harbored during World War II, when they called the Americans and British \"demonic brutes\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
@@ -1144,7 +1144,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜がち** describes a habit or recurring tendency, nearly always one the speaker regrets: 忘れがち, 遅れがち, 休みがち. It isn't used for a single event (✗昨日は財布を忘れがちだった) or for a welcome habit (✗よく勉強しがちだ).\n\n- It behaves like a な-adjective: がちだ, がちな／がちの + N (ありがちな間違い, 病気がちの母), がちになる.\n- Set phrases: ありがち (*all too common*), 遠慮がちに (*hesitantly*), and the weather report's 曇りがち (*mostly cloudy*).\n\nCompare **〜気味**, a slight present state: 風邪気味だ (*I have a touch of a cold*) vs. 風邪をひきがちだ (*I often catch colds*); and **〜っぽい**, a casual character trait: 忘れっぽい (*forgetful*). TRY! N2 teaches the same 〜がち."
+     "deepDive": "**〜がち** describes a habit or recurring tendency, nearly always one the speaker regrets: 忘れがち, 遅れがち, 休みがち. It isn't used for a single event (✗昨日は財布を忘れがちだった) and sounds odd for a welcome habit (?よく勉強しがちだ).\n\n- It behaves like a な-adjective: がちだ, がちな／がちの + N (ありがちな間違い, 病気がちの母), がちになる.\n- Set phrases: ありがち (*all too common*), 遠慮がちに (*hesitantly*), and the weather report's 曇りがち (*mostly cloudy*).\n\nCompare **〜気味**, a slight present state: 風邪気味だ (*I have a touch of a cold*) vs. 風邪をひきがちだ (*I often catch colds*); and **〜っぽい**, a casual character trait: 忘れっぽい (*forgetful*). TRY! N2 teaches the same 〜がち."
     },
     {
      "t": "note",
@@ -1400,7 +1400,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N2, with 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
+     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** in its *all the more because* sense, which stresses a feeling rather than a trade-off (TRY! N2 teaches だけに with 〜だけあって, *as you'd expect of*)."
     },
     {
      "t": "note",
@@ -1665,7 +1665,7 @@ TRY.registerLesson({
           {
            "sp": "後輩",
            "ja": "今の会社で仕事を続けていく**うえで**大切にしている点は、何ですか。",
-           "tr": "What do you consider most important as you go on working at your current company?"
+           "tr": "What do you make a priority as you keep working at your current company?"
           },
           {
            "sp": "先輩",
@@ -3558,7 +3558,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{この一年間}}**、お世話になりっぱなしだったね。**",
-         "tr": "You've been looking after me this whole past year."
+         "tr": "This whole past year, I've done nothing but lean on you."
         },
         {
          "sp": "絵理",
@@ -4769,7 +4769,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "しかし、今ではどの企業も{即戦力|そくせんりょく}を求めています。即戦力というと、具体的なスキル、{専門|せんもん}的知識、業務経験といったものをイメージし__がち__ですが、企業が求めているのは「自分でものを考え、行動できる力、主体性」です。会社に入ると、自分で{判断|はんだん}しなければならないことがたくさんあります。仕事を任されている__以上__、「上司がそう言ったから」といった態度では{困|こま}ります。その点に関して言えば、「リーダーシップが取れること」も同様に大切なスキルだと言えます。",
-       "tr": "Today, however, every company is looking for people who can hit the ground running. When people hear that, they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is \"the ability to think and act for yourself: initiative.\" Once you join a company, there are many things you have to decide on your own. Once you've been entrusted with a job, an attitude of \"I did it because my boss said so\" won't do. In that respect, you could say that \"being able to show leadership\" is an equally important skill."
+       "tr": "Today, however, every company is looking for people who can hit the ground running. When people hear that, they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is \"the ability to think and act for yourself: initiative.\" Once you join a company, there are many things you have to decide on your own. Since you've been entrusted with the work, an attitude of \"I did it because my boss said so\" won't do. In that respect, you could say that \"being able to show leadership\" is an equally important skill."
       },
       {
        "sp": "",
