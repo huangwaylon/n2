@@ -1942,8 +1942,8 @@ TRY.registerLesson({
       "Cabbage 300 g | Pork 60 g",
       "How to make it",
       "1. First, put the flour and yam powder into the dashi stock and mix. Then add the finely chopped cabbage, the green onions, the tenkasu, and the eggs, and mix once more.",
-      "2. Next, pour the mixture from step 1 into a frying pan heated to 200 degrees and shape it into a circle. After cooking it for about three minutes, lay the pork on top and flip it over right away.",
-      "3. Then, cover it with a lid and cook it at 240 degrees for four minutes. After four minutes, take off the lid, flip it over once more, and cook it for about another three minutes.",
+      "2. Next, pour the mixture from step 1 into a frying pan heated to 200°C and shape it into a circle. After cooking it for about three minutes, lay the pork on top and flip it over right away.",
+      "3. Then, cover it with a lid and cook it at 240°C for four minutes. After four minutes, take off the lid, flip it over once more, and cook it for about another three minutes.",
       "4. Finally, once you've topped it with sauce and aonori, it's done. If you like, it's also tasty with mayonnaise on it.",
       "Tips for making it delicious",
       "When you mix the ingredients, try to get air into the batter. That makes a fluffy, delicious okonomiyaki."
@@ -2029,7 +2029,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "作り方の説明では、文の初めに「順番を表す{接続詞|せつぞくし}」を置く。……(a)",
-        "tr": "When explaining how to make something, put a \"conjunction that shows order\" at the start of each sentence. ……(a)"
+        "tr": "When explaining how to make something, start each sentence with a \"conjunction that shows order.\" ……(a)"
        },
        "blocks": [
         {
@@ -2099,7 +2099,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "料理の方法を表す{動詞|どうし}を正しく使う。",
-        "tr": "Use verbs for cooking methods correctly."
+        "tr": "Use the right verbs for each cooking method."
        },
        "blocks": [
         {
@@ -2308,7 +2308,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "下の文法や表現を使って、「私の得意な〇〇料理の作り方」を書きなさい。",
-      "tr": "Using the grammar and expressions below, write \"How to Make My Specialty, (dish name).\""
+      "tr": "Using the grammar and expressions below, write \"How to Make My Specialty: A ○○ Dish.\""
      }
     },
     {
@@ -3130,7 +3130,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❹じゃあ、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんだけど、いい？**",
-         "tr": "So we're meeting there / meeting at (place) / meeting up at (place) at (time). Is that OK?"
+         "tr": "So at (time), we're meeting there / meeting at (place) / meeting up at (place). Is that OK?"
         },
         {
          "sp": "友達",
@@ -3255,7 +3255,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "m",
            "ja": "❷**〜んですが、よろしければ、**先生**もいらっしゃいませんか。**",
-           "tr": "We're (doing something), and if it's all right with you, would you like to come too?"
+           "tr": "We're (doing something). If it's all right with you, would you care to join us?"
           },
           {
            "sp": "先生",
@@ -3285,7 +3285,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "先生をクラスの打ち上げに誘いなさい。先生が{遠慮|えんりょ}して (hesitate) も、もう一度誘いなさい。",
-         "tr": "Invite your teacher to the class's wrap-up party. Even if your teacher hesitates, invite them again."
+         "tr": "Invite your teacher to the class's end-of-term party. Even if your teacher hesitates, invite them again."
         }
        ]
       },
@@ -3308,7 +3308,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "m",
            "ja": "❹では、〇時**に**{{{現地集合|げんちしゅうごう}／［場所］に集合／［場所］で待ち合わせ}}**なんですが、よろしいでしょうか。**",
-           "tr": "Well then, we're meeting there / meeting at (place) / meeting up at (place) at (time). Would that be all right?"
+           "tr": "Well then, at (time), we're meeting there / meeting at (place) / meeting up at (place). Would that be all right?"
           },
           {
            "sp": "先生",
@@ -3332,7 +3332,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "先生にクラスの打ち上げの集合時間と場所を伝えなさい。",
-         "tr": "Tell your teacher the time and place to meet for the class's wrap-up party."
+         "tr": "Tell your teacher the time and place to meet for the class's end-of-term party."
         }
        ]
       },
@@ -3485,7 +3485,7 @@ TRY.registerLesson({
            "n": "②",
            "text": {
             "ja": "何番出口から出ればいいですか。",
-            "tr": "Which exit number should you go out of?"
+            "tr": "Which numbered exit should you take?"
            }
           },
           {
@@ -3590,7 +3590,7 @@ TRY.registerLesson({
      },
      "setting": {
       "ja": "回転ずしの店に行くため、ジョージ（ジ:）が駅で駅員（駅:）に{尋|たず}ねて (ask) いる。",
-      "tr": "To get to a conveyor-belt sushi restaurant, George (ジ) is asking a station attendant (駅) at the station."
+      "tr": "On his way to a conveyor-belt sushi restaurant, George (ジ) asks a station attendant (駅) for help at the station."
      },
      "lines": [
       {
@@ -3627,7 +3627,7 @@ TRY.registerLesson({
        "sp": "駅",
        "v": "m",
        "ja": "はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。",
-       "tr": "Yes. When you go out Exit 3 at the North Exit, you'll see the ward office right there on your right."
+       "tr": "Yes. Take Exit 3 at the North Exit, and you'll see the ward office right there on your right."
       },
       {
        "sp": "ジ",
@@ -3670,7 +3670,7 @@ TRY.registerLesson({
        "sp": "通",
        "v": "f",
        "ja": "ちょっと、見せてください。確かにこのビルのはずですね。変ですね……。",
-       "tr": "Let me see. You're right, it should be this building. That's strange..."
+       "tr": "Let me see. It should be this building, all right. That's strange..."
       },
       {
        "sp": "ジ",
@@ -3803,11 +3803,11 @@ TRY.registerLesson({
      "head": [
       {
        "ja": "あなた：道を聞く",
-       "tr": "You: ask for directions"
+       "tr": "You: asking for directions"
       },
       {
        "ja": "駅員：道を教える",
-       "tr": "Station attendant: gives directions"
+       "tr": "Station attendant: giving directions"
       }
      ],
      "steps": [
@@ -3869,7 +3869,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "はい。北口の3番出口を出ると、右手にすぐ区役所が見えますよ。",
-        "tr": "Yes. When you go out Exit 3 at the North Exit, you'll see the ward office right there on your right."
+        "tr": "Yes. Take Exit 3 at the North Exit, and you'll see the ward office right there on your right."
        }
       },
       {
@@ -3891,11 +3891,11 @@ TRY.registerLesson({
      "head": [
       {
        "ja": "あなた：道を聞く",
-       "tr": "You: ask for directions"
+       "tr": "You: asking for directions"
       },
       {
        "ja": "通行人：道を教える",
-       "tr": "Passerby: gives directions"
+       "tr": "Passerby: giving directions"
       }
      ],
      "steps": [
@@ -4027,7 +4027,7 @@ TRY.registerLesson({
          "sp": "駅員",
          "v": "m",
          "ja": "はい。{{北口の3番出口を出ると、右手に}}すぐ{{区役所}}が見えますよ。",
-         "tr": "Yes. When you go out Exit 3 at the North Exit, you'll see the ward office right there on your right."
+         "tr": "Yes. Take Exit 3 at the North Exit, and you'll see the ward office right there on your right."
         },
         {
          "sp": "あなた",
@@ -4056,14 +4056,14 @@ TRY.registerLesson({
            "n": "①",
            "text": {
             "ja": "「{市民|しみん}病院{方面|ほうめん}」に行きたいです。",
-            "tr": "I want to go toward “Municipal Hospital.”"
+            "tr": "I want to head toward “Municipal Hospital.”"
            }
           },
           {
            "n": "②",
            "text": {
             "ja": "「みどり公園方面」に行きたいです。",
-            "tr": "I want to go toward “Midori Park.”"
+            "tr": "I want to head toward “Midori Park.”"
            }
           }
          ]
@@ -4112,7 +4112,7 @@ TRY.registerLesson({
             },
             {
              "ja": "西口改札は、階段を{下|お}りてホームに{戻|もど}って、{反対|はんたい}の{端|はし}のエスカレーターを{上|あ}がって、左に{曲|ま}がって少し行ったところです。",
-             "tr": "The West Exit ticket gate is where you go down the stairs back to the platform, take the escalator up at the opposite end, turn left, and go a little way."
+             "tr": "To get to the West Exit ticket gate, go down the stairs back to the platform, take the escalator up at the opposite end, turn left, and go a little way."
             }
            ]
           }
@@ -4131,7 +4131,7 @@ TRY.registerLesson({
             },
             {
              "ja": "新西口改札は、トイレの横の{階段|かいだん}を下りて、{隣|となり}のホームに行き、ホームの反対の端のエスカレーターを{上|あ}がったところです。",
-             "tr": "The New West Exit ticket gate is where you go down the stairs next to the restroom to the next platform and take the escalator up at the opposite end of that platform."
+             "tr": "To get to the New West Exit ticket gate, go down the stairs next to the restroom to the next platform and take the escalator up at the opposite end of that platform."
             }
            ]
           }
@@ -4207,7 +4207,7 @@ TRY.registerLesson({
       {
        "text": {
         "ja": "あなたは、下の①〜④の場所に行こうと思っています。地図アプリによると、①〜④はそれぞれ !!📍①!! 〜 !!📍④!! の場所にあるようですが、行ってみるとその場所にはありませんでした。通行人に聞いて、正しい場所を下の地図の !!A!! 〜 !!H!! から選びなさい。あなたは地図の !!📍①!! 〜 !!📍④!! にいます。",
-        "tr": "You are planning to go to places ① to ④ below. According to your map app, ① to ④ are at pins ① to ④, but when you went there, they weren't there. Ask a passerby and choose the correct places from A to H on the map below. You are at pins ① to ④ on the map."
+        "tr": "You are planning to go to places ① to ④ below. According to your map app, ① to ④ are at pins ① to ④, but when you got there, they weren't there. Ask a passerby and choose the correct places from A to H on the map below. You are at pins ① to ④ on the map."
        },
        "blocks": [
         {
@@ -4393,7 +4393,7 @@ TRY.registerLesson({
            "t": "p",
            "text": {
             "ja": "「十八銀行」は{移転|いてん}しました。あそこに花屋が見えるでしょ？ このまま花屋に{向|む}かってまっすぐ{進|すす}んでください。それから、花屋の次の{交差点|こうさてん}をわたってから左に{曲|ま}がってください。ここから2つ目の交差点です。しばらく行くと、右手に見えますよ。",
-            "tr": "Juhachi Bank has moved. You can see the flower shop over there, right? Go straight on toward the flower shop. Then, after you cross the intersection past the flower shop, turn left. It's the second intersection from here. After a while, you'll see it on your right."
+            "tr": "Juhachi Bank has moved. You can see the flower shop over there, right? Keep going straight toward the flower shop. Then, after you cross the intersection past the flower shop, turn left. It's the second intersection from here. After a while, you'll see it on your right."
            }
           }
          ]
@@ -4520,7 +4520,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "留学生のソヨンが、寮のルームメートと今日の晩ご飯について話しています。\n会話を聞いて、2人が作るものに○をつけなさい。",
-      "tr": "So-yeon, an international student, is talking with her dorm roommate about tonight's dinner.\nListen to the conversation and mark what the two of them will make with ○."
+      "tr": "So-yeon, an international student, is talking with her dorm roommate about tonight's dinner.\nListen to the conversation and circle what the two of them will make."
      }
     },
     {
@@ -4653,7 +4653,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "留学生のソヨンが、寮のルームメートと今日の晩ご飯について話しています。会話を聞いて、2人が作るものに○をつけなさい。",
-      "tr": "So-yeon, an international student, is talking with her dorm roommate about tonight's dinner. Listen to the conversation and mark what the two of them will make with ○."
+      "tr": "So-yeon, an international student, is talking with her dorm roommate about tonight's dinner. Listen to the conversation and circle what the two of them will make."
      },
      "lines": [
       {
@@ -4666,7 +4666,7 @@ TRY.registerLesson({
        "sp": "ソヨン",
        "v": "f",
        "ja": "出かけるのは{嫌|いや}だから、今あるもので作ろうよ。{冷蔵庫|れいぞうこ}に何が残ってたっけ？",
-       "tr": "I don't feel like going out, so let's make something with what we have. What was left in the fridge again?"
+       "tr": "I don't feel like going out, so let's make something with what we have. What's left in the fridge again?"
       },
       {
        "sp": "ル",
@@ -4714,13 +4714,13 @@ TRY.registerLesson({
        "sp": "ソ",
        "v": "f",
        "ja": "冷蔵庫、見てみる。……あ、あと少ししかない！ 買っ__ておけば__よかった……。",
-       "tr": "I'll check the fridge. ...Oh, there's only a little left! I should have bought some..."
+       "tr": "I'll check the fridge. ...Oh, there's only a little left! I should've bought more..."
       },
       {
        "sp": "ル",
        "v": "f",
        "ja": "じゃあ、やっぱりこれ__にしよう__よ。とり肉も玉ねぎもたまごも調味料も全部あるし、簡単そうだし。",
-       "tr": "Then let's go with this one after all. We have the chicken, onions, eggs, and seasonings, all of it, and it looks easy."
+       "tr": "Then let's go with this one after all. We have everything, the chicken, onions, eggs, and seasonings, and it looks easy."
       },
       {
        "sp": "ソ",
@@ -4932,7 +4932,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "授業の後で遊ぶ時は前もって{約束|やくそく}しなくてもいいのに、どうして家に遊びに行く時は約束が必要なのかわかりませんでした。それで、他の日本人の友達に聞いてみたら、「その時忙しかっただけかもしれないけど、人の家に行く時は、約束し__ておいた__ほうがいいよ。お客さんが来る前にそうじしたい人もいるし」と言われました。",
-       "tr": "I couldn't understand why you need to make plans in advance to visit someone's home when you don't need to when you hang out after class. So I asked another Japanese friend, who told me, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
+       "tr": "We don't need to make plans in advance to hang out after class, so I couldn't understand why we need them to visit someone's home. So I asked another Japanese friend, who told me, “Maybe your friend was just busy at the time, but when you go to someone's home, it's better to make plans ahead of time. Some people want to clean up before guests come.”"
       },
       {
        "sp": "",
