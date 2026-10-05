@@ -522,7 +522,7 @@ TRY.registerCompare([
         ex: { ja: "子どものころから星が好きだったので、行けるものなら宇宙旅行に行ってみたいと思っています。", en: "I've loved the stars since I was a child, so if it were at all possible I'd love to travel into space." },
         note: "Potential verb + ものなら: \"if I possibly could\". A longing for something nearly impossible, followed by 〜たい; not a warning like Vようものなら." },
       { pattern: "Vないものか", level: "N1", no: 59,
-        ex: { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
+        ex: { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season is here. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
         note: "V-ない + ものか (ものだろうか): \"isn't there some way to ~?\". A longing wish for something hard to achieve, often with 何とか; not a denial like 〜ものか." },
       { pattern: "Vないものでもない", level: "N1", no: 19,
         ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're going to plead like that, I suppose I could make a special exception and allow it, just this once." },

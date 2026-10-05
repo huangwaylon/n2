@@ -60,7 +60,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "surveillance; watch; monitoring",
     note: "Keeping watch to catch wrongdoing or danger: 監視カメラ, 監視の目, 厳しい監視. It suggests control or suspicion; for simply keeping an eye on a child, 見守る is the warmer word. 観察 is observing in order to study.",
     rx: ["かんじ", "けんし", "かんみ"],
-    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If the thieves had slipped past tight surveillance, that would be one thing, but this is a more basic problem than security, isn't it?", at: "ch/5" },
+    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this problem comes before security even enters into it, wouldn't you say?", at: "ch/5" },
     ex: [
       { ja: "{倉庫|そうこ}の{入|い}り{口|ぐち}は、{防犯|ぼうはん}カメラで24{時間|じかん}**{監視|かんし}**されている。", en: "The warehouse entrance is monitored around the clock by security cameras.", alt: ["{看護|かんご}", "{監督|かんとく}", "{診察|しんさつ}"] },
     ] },
@@ -76,7 +76,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "harsh; cruel; too much to ask (of someone)",
     note: "Used for a demand or remark that is unfair or too hard on someone: 〜のは酷だ, 酷な話, 酷な要求. Stronger than 厳しい and close to かわいそう. The same kanji is read ひどい in 酷い.",
     rx: ["ごく", "こっく", "きょく"],
-    book: { ja: "「まあ、被害者の方にこんなこと言うのも**{酷|こく}**だけど、これは起こるべくして起こった事件と言ってもいい。", en: "\"Well, it's harsh to say this to the victim, but you could say this incident was bound to happen, and it did.", at: "ch/5" },
+    book: { ja: "「まあ、被害者の方にこんなこと言うのも**{酷|こく}**だけど、これは起こるべくして起こった事件と言ってもいい。", en: "\"Well, I know it's harsh to say this to the victim, but you could call this an incident that was bound to happen.", at: "ch/5" },
     ex: [
       { ja: "{入社|にゅうしゃ}したばかりの{新人|しんじん}にそこまで{求|もと}めるのは**{酷|こく}**だよ。", en: "It's too much to expect that of someone who's only just joined the company.", alt: ["{格別|かくべつ}", "{無難|ぶなん}", "{濃厚|のうこう}"] },
     ] },
@@ -116,7 +116,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "unsatisfying; not quite enough; leaving something to be desired",
     note: "Something is lacking, so you're left wanting more — food that is too bland, a story that ends too quickly, a partner who is too passive. It is milder than 不満 (dissatisfied). Also 物足りなさを感じる.",
     rx: ["ぶつたりない", "ものだりない", "もつたりない"],
-    book: { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく**{物足|ものた}りない**んだよ。", en: "This boxed lunch — the portions are small, or the flavor is bland, or something — anyway, it just isn't satisfying.", at: "gp/46" },
+    book: { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく**{物足|ものた}りない**んだよ。", en: "This boxed lunch — I don't know if it's that the portions are small or that the flavor's bland, but it just doesn't hit the spot.", at: "gp/46" },
     ex: [
       { ja: "{話題|わだい}の{映画|えいが}だったが、{結末|けつまつ}が{少|すこ}し**{物足|ものた}りなかった**。", en: "It was a much-talked-about movie, but the ending left something to be desired.", alt: ["{物珍|ものめずら}しかった", "{待|ま}ち{遠|どお}しかった", "{心強|こころづよ}かった"] },
     ] },
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "the point (of an argument); the gist of a paper or speech",
     note: "The main line of reasoning of an essay, speech or debate: 論旨が明快だ (the argument is clear), 論旨がずれる (drift off the point). Academic and written. 要旨 is a summary of the content; 論旨 is the argument it makes.",
     rx: ["ろんじ", "りんし", "ろんむね"],
-    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "Your paper's topic is interesting, but — how should I put it — the analysis is weak, or the argument is vague… Wouldn't it be a good idea to rethink the overall structure?", at: "gp/46" },
+    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "Your paper's topic is interesting, but — how should I put it — the analysis is weak, or the argument is vague… Don't you think you should rethink the overall structure?", at: "gp/46" },
     ex: [
       { ja: "{彼|かれ}の{文章|ぶんしょう}は**{論旨|ろんし}**が{明快|めいかい}で、とても{読|よ}みやすい。", en: "His writing makes its argument clearly and is very easy to read.", alt: ["{論争|ろんそう}", "{論外|ろんがい}", "{旨味|うまみ}"] },
     ] },
@@ -236,7 +236,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "typos and missing characters; typographical errors",
     note: "A set phrase for mistakes in writing: 誤字 (a wrong character) plus 脱字 (a missing character). Common in instructions for proofreading: 誤字脱字がないか確認する.",
     rx: ["ごじだっじ", "ごうじだつじ", "ごじたつじ"],
-    book: { ja: "うーん。（　）以前に、**{誤字脱字|ごじだつじ}**が多すぎるよ。", en: "Hmm. Before we even get to the content, there are far too many typos and missing characters.", at: "gp/51" },
+    book: { ja: "うーん。（　）以前に、**{誤字脱字|ごじだつじ}**が多すぎるよ。", en: "Hmm. Before we even get to the content, there are way too many typos and missing words.", at: "gp/51" },
     ex: [
       { ja: "{提出|ていしゅつ}する{前|まえ}に、**{誤字脱字|ごじだつじ}**がないかもう{一度|いちど}{確認|かくにん}してください。", en: "Before you submit it, please check once more for typos.", alt: ["{四字熟語|よじじゅくご}", "{脱線|だっせん}", "{赤字|あかじ}"] },
     ] },
@@ -649,7 +649,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "tragic; miserable; terrible (to see)",
     note: "So terrible it is painful to see: 悲惨な事故, 悲惨な光景, 戦争の悲惨さ. Also casual exaggeration (テストの結果が悲惨だった). Stronger than かわいそう.",
     rx: ["ひざん", "ひしゃん", "びさん"],
-    book: { ja: "**{悲惨|ひさん}**な事故{現場|げんば}を目にして、予想していたこととはいえ、（　）。", en: "Seeing the scene of the terrible accident, even though I had expected it, I couldn't help being shocked.", at: "gp/61" },
+    book: { ja: "**{悲惨|ひさん}**な事故{現場|げんば}を目にして、予想していたこととはいえ、（　）。", en: "It was what I had expected, but seeing the horrific scene of the accident still came as a shock.", at: "gp/61" },
     ex: [
       { ja: "{戦争|せんそう}の**{悲惨|ひさん}さ**を{次|つぎ}の{世代|せだい}に{伝|つた}えなければならない。", en: "We must pass on the horrors of war to the next generation.", alt: ["{慎重|しんちょう}さ", "{気楽|きらく}さ", "{豊|ゆた}かさ"] },
     ] },

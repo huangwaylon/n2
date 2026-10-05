@@ -21,9 +21,9 @@ TRY.registerChapter({
           { sp: "{阿部|あべ}", v: "m", ja: "「はあ……。」", en: "\"Well…\"" },
           { sp: "{刑事|けいじ}", v: "m", ja: "「本当に{間|ま}が抜けている**といおうか**、無責任**といおうか**。{宿直|しゅくちょく}がですよ、{誰|だれ}も見ていない**のをいいことに**、ぐっすり{寝|ね}込んでいたなんて……。」", en: "\"Honestly, I don't know whether to call it idiotic or irresponsible. The employee on night duty, of all people, took advantage of nobody watching and fell sound asleep…\"" },
           { sp: "{阿部|あべ}", v: "m", ja: "「いやあ……。」", en: "\"Er, well…\"" },
-          { sp: "{刑事|けいじ}", v: "m", ja: "「何度聞いても『私は寝ていました。{記憶|きおく}にありません』を{繰|く}り{返|かえ}すだけだ。おたくは{警備会社|けいびがいしゃ}なんでしょう。そんな言い{訳|わけ}、{誰|だれ}が{納得|なっとく}するんです**か**。{自覚|じかく}がない**にもほどがあります**よ。{厳|きび}しい{監視|かんし}をくぐり抜けてやられた**ならまだしも**、これは{警備|けいび}**以前**の問題じゃないですかね。」", en: "\"No matter how many times I ask, all I get is the same thing over and over: 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? Your people have no sense of their responsibilities at all; it's beyond belief. If the thieves had slipped past tight surveillance, that would be one thing, but this is a more basic problem than security, isn't it?\"" },
+          { sp: "{刑事|けいじ}", v: "m", ja: "「何度聞いても『私は寝ていました。{記憶|きおく}にありません』を{繰|く}り{返|かえ}すだけだ。おたくは{警備会社|けいびがいしゃ}なんでしょう。そんな言い{訳|わけ}、{誰|だれ}が{納得|なっとく}するんです**か**。{自覚|じかく}がない**にもほどがあります**よ。{厳|きび}しい{監視|かんし}をくぐり抜けてやられた**ならまだしも**、これは{警備|けいび}**以前**の問題じゃないですかね。」", en: "\"No matter how many times I ask, all I get is the same thing over and over: 'I was asleep. I don't remember anything.' You're a security company, aren't you? Who on earth is going to accept an excuse like that? Your people have no sense of their responsibilities at all; it's beyond belief. If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this problem comes before security even enters into it, wouldn't you say?\"" },
           { sp: "{阿部|あべ}", v: "m", ja: "「う〜ん……。」", en: "\"Hmm…\"" },
-          { sp: "{刑事|けいじ}", v: "m", ja: "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」", en: "\"Well, it's harsh to say this to you as the victim, but you could call this an incident that was bound to happen. Given the kind of business you're in, the media will probably start making a fuss, too. You'd better brace yourself…\"" },
+          { sp: "{刑事|けいじ}", v: "m", ja: "「まあ、被害者の方にこんなこと言うのも{酷|こく}だけど、これは起こる**べくして**起こった事件と言ってもいい。{業種|ぎょうしゅ}**が**{業種|ぎょうしゅ}な**だけに**、これからマスコミも{騒|さわ}ぎ出すでしょう。あなたも{覚悟|かくご}しないと……。」", en: "\"Well, I know it's harsh to say this to the victim, but you could call this an incident that was bound to happen. Given the kind of business you're in, the media will probably start making a fuss, too. You'd better brace yourself…\"" },
           { ja: "（{阿部|あべ}を見る{刑事|けいじ}の目、鋭い）", en: "(The detective eyes Abe sharply.)" },
         ],
       },
@@ -45,7 +45,7 @@ TRY.registerChapter({
             { ja: "やる気があるのはいいのだが、積極的すぎるといおうか、言い方がストレートといおうか、もう少しチームのメンバーの気持ちも考えたほうが……。", en: "It's good that you're motivated, but you're — how shall I put it — too pushy, or too blunt in the way you say things; you might want to think a bit more about how the team members feel…" },
             { ja: "入社して2年も経つのに社長の名前さえ言えないとは、上司として{情|なさ}けないといおうか何といおうか、全く言葉もないよ。", en: "Two whole years at the company and you can't even name the president? As your boss, I don't know whether to call it pathetic or what — I'm simply speechless." },
             { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、{庶民|しょみん}感覚を知らないといおうか……。", en: "Recommending a 50,000-yen toner — that salesclerk is, how should I put it, out of touch with what ordinary people can afford…" },
-            { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく{物足|ものた}りないんだよ。", en: "This boxed lunch — the portions are small, or the flavor is bland, or something — anyway, it just isn't satisfying." },
+            { ja: "このお弁当、量が少ないというか、味が薄いというか、とにかく{物足|ものた}りないんだよ。", en: "This boxed lunch — I don't know if it's that the portions are small or that the flavor's bland, but it just doesn't hit the spot." },
             { ja: "電車で財布を盗まれたんですが、運がよかったというべきか悪かったというべきか、中には100円しか入っていなかったんです。", en: "My wallet was stolen on the train, but — should I call it good luck or bad luck? — there was only 100 yen in it." },
           ],
           deepDive: "**AといおうかBといおうか** (いおう is the volitional of 言う: *shall I call it A, or B?*) is the speaker thinking aloud for the right label. Neither label is fully committed to, and the sentence usually closes with a summary (とにかく〜, 全く言葉もない) or trails off. Naming a fault vaguely also softens it; in the sample the detective uses it in exasperation, and both labels are insults.\n\nConnection: plain forms, with な-adjectives and nouns dropping だ (無責任といおうか). 〜というか…というか is the everyday spoken version, 〜というべきか is more deliberate (運がよかったというべきか悪かったというべきか *should I call it good luck or bad?*), and 〜といおうか何といおうか means *or whatever you'd call it*.\n\nCompare:\n- **AといいBといい** (#44): two separate features as evidence for one verdict (味といい値段といい、満足だ *the taste, the price: I'm satisfied*); といおうか offers two names for one thing.\n- **〜やら〜やら**: lists several things, with no search for the word.\n\nPitfall: the conclusion must match the labels; negative labels lead to a negative verdict or to advice.\n\nJLPT cue: read past the second といおうか; the blank is the summary the labels point to.",
@@ -61,7 +61,7 @@ TRY.registerChapter({
                   q: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、{論旨|ろんし}があいまいといおうか、（　）？",
                   options: ["字を大きくして読みやすくしたらどう", "全体の構成を見直したほうがいいんじゃない"],
                   answer: 1,
-                  en: "Your paper's topic is interesting, but — how should I put it — the analysis is weak, or the argument is vague… Wouldn't it be a good idea to rethink the overall structure?",
+                  en: "Your paper's topic is interesting, but — how should I put it — the analysis is weak, or the argument is vague… Don't you think you should rethink the overall structure?",
                   why: { en: "Weak analysis and a vague argument are faults in the paper's content, so the summary is advice to rethink its structure. Bigger lettering doesn't address what the labels describe." },
                 },
                 {
@@ -103,7 +103,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{夜間|やかん}、{人気|ひとけ}がないのをいいことに、トンネル内の{落書|らくが}きはエスカレートする一方です。", en: "People are taking advantage of there being nobody around at night, and the graffiti in the tunnel just keeps getting worse." },
             { ja: "{山本|やまもと}君は電車が遅れたのをいいことに、テストが終わる{頃|ころ}、{堂々|どうどう}とやってきた。", en: "Yamamoto took advantage of the train being late and strolled in brazenly just as the test was ending." },
-            { ja: "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。", en: "It seems our cat took advantage of its owners being out to get up to mischief — the room is a total mess." },
+            { ja: "どうやらうちの猫、{飼|か}い{主|ぬし}の留守をいいことにいたずらをしたらしく、部屋がめちゃくちゃだ。", en: "It looks like our cat took advantage of us being out to get into mischief — the room is a total mess." },
             { ja: "表現の自由は守るべき権利の1つだが、それをいいことに他人を{傷|きず}つけるような作品を{面白|おもしろ}半分に作る人たちを認めるべきではない。", en: "Freedom of expression is one of the rights we must protect, but we shouldn't accept people who exploit it to create works that hurt others just for fun." },
           ],
           deepDive: "**〜のをいいことに** is literally *treating ~ as a good thing*: someone sees a circumstance as a convenient chance and exploits it to do something bad or selfish. It is always critical, and the person exploiting it is usually someone else: 誰も見ていないのをいいことに、ぐっすり寝込んでいた (*taking advantage of nobody watching, the guard fell fast asleep*).\n\nConnection: a clause takes の (電車が遅れたのをいいことに); a noun attaches directly (留守をいいことに, 匿名をいいことに); な-adjectives and nouns can also take である + の. The first half is typically something that removes a restraint: nobody watching, parents who don't scold, anonymity.\n\nCompare:\n- **Nにかこつけて** (#64): hides behind a stated pretext (出張にかこつけて恋人に会う *seeing a lover under cover of business trips*); のをいいことに exploits a situation.\n- **〜に乗じて**: *taking advantage of (confusion, darkness)*, written and not always critical: 混乱に乗じて逃げる (*escape in the confusion*).\n- **〜を機に**: a neutral or welcome opportunity (退職を機に趣味を始めた *I took up a hobby when I retired*).\n\nPitfall: a harmless second half (?天気がいいのをいいことに散歩した).\n\nJLPT cue: a missing restraint followed by misbehavior points to のをいいことに.",
@@ -280,7 +280,7 @@ TRY.registerChapter({
                   q: "A：このレポート、ちょっと読んでみてくれない？\nB：うーん。（　）以前に、{誤字脱字|ごじだつじ}が多すぎるよ。",
                   options: ["{締切|しめきり}", "内容"],
                   answer: 1,
-                  en: "A: Could you have a quick read of this report?\nB: Hmm. Before we even get to the content, there are far too many typos and missing characters.",
+                  en: "A: Could you take a quick look at this report for me?\nB: Hmm. Before we even get to the content, there are way too many typos and missing words.",
                   why: { en: "B was asked to read the report, i.e., judge its content (内容). Too many typos is a more basic problem than the content; the deadline has nothing to do with it." },
                 },
               ],
@@ -424,7 +424,7 @@ TRY.registerChapter({
           bank: ["以前に", "といおうか", "べくして", "か"],
           items: [
             { q: "今日の試合は負ける＿＿負けたと思います。自分たちの力を{過信|かしん}していたのが{敗因|はいいん}です。", answer: "べくして", en: "I think today's match was one we were bound to lose, and we did. The cause of our defeat was overconfidence in our own ability." },
-            { q: "出発は来週だというのに、のんびりしている＿＿、まだ飛行機の予約をしていないそうだ。", answer: "といおうか", en: "They're leaving next week, and yet — laid-back, or what should I call it? — apparently they still haven't booked their flight." },
+            { q: "出発は来週だというのに、のんびりしている＿＿、まだ飛行機の予約をしていないそうだ。", answer: "といおうか", en: "They leave next week, and yet — call it laid-back, or whatever — apparently they still haven't booked their flights." },
             { q: "当時は、{治療|ちりょう}法＿＿、それが病気なのかどうかさえわからなかった。", answer: "以前に", en: "At the time, never mind a treatment, nobody even knew whether it was an illness." },
             { q: "A：自分のせいで困ってるんだから、放っておけば？\nB：あの人は{俺|おれ}の命の{恩人|おんじん}だ。放っておける＿＿。", answer: "か", en: "A: It's their own fault they're in trouble, so why not just leave them be?\nB: That person saved my life. How could I leave them be?" },
           ],
@@ -488,7 +488,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "部屋にほこりがたまれば文句を言うし、掃除をしたらしたで、「勝手に入った」と怒るし、全く高校生の息子は{扱|あつか}いにくい。", en: "If dust piles up in his room he complains, and if I do clean it, he gets angry that I went in without asking — my high-school son is really hard to deal with." },
-            { ja: "家賃が高いのも困るけど、安かったら安かったで何か問題がありそうで不安だよね。", en: "High rent is a problem, but if it's cheap, that's worrying too, because there might be something wrong with the place." },
+            { ja: "家賃が高いのも困るけど、安かったら安かったで何か問題がありそうで不安だよね。", en: "High rent is a problem, but if it's cheap, that's worrying in its own way — there might be something wrong with the place." },
             { ja: "A：傘、持って行く？\nB：{邪魔|じゃま}だよ。雨が降ったら降ったで、買えばいいよ。", en: "A: Are you taking an umbrella?\nB: It just gets in the way. If it rains, it rains — I can buy one." },
             { ja: "A：運動会、{嫌|いや}だな。ビリだったら恥ずかしいし……。\nB：ビリだったらビリだったで、また練習して速く走れるようになればいいんだよ。", en: "A: I hate field day. It'd be embarrassing if I came last…\nB: If you come last, so be it — you just have to practice more and learn to run faster." },
             { ja: "彼女ったら、メールの{返信|へんしん}が遅いと文句を言うし、早かったら早いで「ちゃんと読んでないんじゃない？」って疑うんだ。", en: "Honestly, she complains if I'm slow to reply to her emails, and if I reply quickly, she gets suspicious: \"You didn't read it properly, did you?\"" },
@@ -515,7 +515,7 @@ TRY.registerChapter({
               usage: { ja: "「〜ば〜で」も同じように使われる。", en: "\"〜ば〜で\" is also used in the same way." },
               examples: [
                 { ja: "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。", en: "A: I envy you having such a big garden.\nB: Oh, no. If you have a garden, then that has its own problems — looking after it takes both time and money, so…" },
-                { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Weddings? Some people say that if you don't have one, you don't, and it really doesn't matter." },
+                { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Some people feel that if you don't have a wedding, you don't, and that's perfectly fine." },
                 { ja: "小さければ小さいで不便だし、大きければ大きいで{邪魔|じゃま}になる。", en: "If it's small, it's inconvenient; if it's big, it gets in the way." },
               ],
             },
@@ -588,7 +588,7 @@ TRY.registerChapter({
             { ja: "{加藤|かとう}さんのように英語が上手ならいざしらず、{僕|ぼく}に会議の{通訳|つうやく}なんて無理ですよ。", en: "If I were good at English like Kato, it might be a different story, but there's no way I could interpret at a meeting." },
             { ja: "学生時代ならいざしらず、君ももう社会人になったのだから、少しは大人としての{自覚|じかく}を持つべきじゃないのか。", en: "Your student days were one thing, but now that you're a working adult, shouldn't you be a little more aware that you're a grown-up?" },
             { ja: "自分が{不愉快|ふゆかい}な思いをしたならいざしらず、ネットの情報だけで{駄目|だめ}な店だと言いふらすのはおかしい。", en: "If you'd had an unpleasant experience yourself, that would be another matter, but going around saying it's a terrible shop based only on what you read online isn't right." },
-            { ja: "20年前ならいざしらず、今は世界中の人と{瞬時|しゅんじ}にコンタクトがとれる時代ですよ。わざわざ出張しなくてもテレビ会議ですむんじゃないですか。", en: "Twenty years ago it would have been different, but these days you can contact people all over the world in an instant. Couldn't a video conference do instead of going to the trouble of a business trip?" },
+            { ja: "20年前ならいざしらず、今は世界中の人と{瞬時|しゅんじ}にコンタクトがとれる時代ですよ。わざわざ出張しなくてもテレビ会議ですむんじゃないですか。", en: "Twenty years ago it would have been different, but these days you can contact people all over the world in an instant. Couldn't you just hold a video conference instead of going to the trouble of a business trip?" },
           ],
           deepDive: "**AならいざしらずB** uses いざ知らず, *I don't know about that*: if it were A, it might be understandable, but B is another matter. A is a special or hypothetical case (another era, a genius, a different condition); B is the real one, judged unreasonable: 20年前ならいざしらず、今は世界中の人と瞬時にコンタクトがとれる (*twenty years ago, maybe, but now you can reach anyone instantly*). The president in the sample uses it the same way: ordinary people not noticing would prove little, but if even the police didn't see through the robot, it is still useful.\n\nConnection: plain forms, な-adjectives and nouns without だ (学生時代ならいざしらず); N + はいざしらず also occurs (他の人はいざしらず *I don't know about the others*). The second half is a firm judgment (無理だ, 〜わけがない, 〜べきじゃないのか). The register is formal and literary.\n\nCompare:\n- **〜ならまだしも** (#50): calls A *tolerable* rather than setting it aside; more conversational.\n- **〜じゃあるまいし** (#72): denies A to scold (子どもじゃあるまいし).\n\nPitfall: putting the actual situation in the A slot.\n\nJLPT cue: a contrasting time, person or condition before the blank, then a sharp judgment, points to ならいざしらず.",
           see: [50, 72],
@@ -606,7 +606,7 @@ TRY.registerChapter({
             { ja: "＊「〜ものだろうか」「〜ものでしょうか」の形も使われる。", en: "The forms \"〜ものだろうか\" and \"〜ものでしょうか\" are also used." },
           ],
           examples: [
-            { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
+            { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season is here. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
             { ja: "ラッシュアワーの{殺人的|さつじんてき}な混雑は何とかならないものか。", en: "Can't something be done about the brutal crush at rush hour?" },
             { ja: "学校に行けない子どもたちのために、何か{支援|しえん}はできないものだろうか。", en: "Isn't there some kind of support we could give children who can't go to school?" },
             { ja: "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。", en: "I know how busy you are, but would it be at all possible for you to hear me out, just once?" },
@@ -672,7 +672,7 @@ TRY.registerChapter({
           bank: ["ようものなら", "ならいざしらず", "にたえない", "ないものか", "に{越|こ}したことはない"],
           items: [
             { q: "ホテルで働くなら外国語ができる＿＿が、お客様への応対がきちんとできることのほうが大切だ。", answer: "に{越|こ}したことはない", en: "If you work in a hotel, being able to speak foreign languages is ideal, but being able to deal with guests properly is more important." },
-            { q: "最近、{隣|となり}の人がバイオリンの練習を始めたんだけど、ほとんど{騒音|そうおん}で聞く＿＿んだ。", answer: "にたえない", en: "Recently my neighbor started practicing the violin, but it's practically just noise — unbearable to listen to." },
+            { q: "最近、{隣|となり}の人がバイオリンの練習を始めたんだけど、ほとんど{騒音|そうおん}で聞く＿＿んだ。", answer: "にたえない", en: "My neighbor recently took up the violin, but it's practically just noise — it's unbearable to listen to." },
             { q: "{天才|てんさい}＿＿、{難関|なんかん}の国家試験に普通の人間が努力もせずに受かるわけがない。", answer: "ならいざしらず", en: "A genius might be a different matter, but there's no way an ordinary person could pass a tough national exam without making any effort." },
             { q: "{中村|なかむら}には言うな。あいつに知られ＿＿、その日のうちに学校中に知れ渡っちゃうから。", answer: "ようものなら", en: "Don't tell Nakamura. If that guy so much as hears about it, the whole school will know by the end of the day." },
             { q: "A：{鈴木|すずき}さんと{加藤|かとう}さん、けんかしたんだって？\nB：うん。あの2人は親友だったんだから、何とか仲直りでき＿＿と思っているんだけど……。", answer: "ないものか", en: "A: I heard Suzuki and Kato had a fight?\nB: Yeah. They were best friends, so I'm hoping there's some way they can make up…" },
@@ -764,7 +764,7 @@ TRY.registerChapter({
                   q: "無事に退院したとはいえ、（　）。",
                   options: ["職場への{復帰|ふっき}が急がれます", "しばらくは自宅で{静養|せいよう}が必要です"],
                   answer: 1,
-                  en: "You may have been discharged from the hospital safely, but you need to rest at home for a while.",
+                  en: "You may be safely out of the hospital, but you still need to rest at home for a while.",
                   why: { en: "Being discharged suggests a return to normal life; とはいえ introduces the contrary reality: rest at home is still needed. Hurrying back to work follows from the discharge instead of contrasting with it." },
                 },
                 {
@@ -778,7 +778,7 @@ TRY.registerChapter({
                   q: "{悲惨|ひさん}な事故{現場|げんば}を目にして、予想していたこととはいえ、（　）。",
                   options: ["{驚|おどろ}くほどのことはなかった", "さすがにショックを受けた"],
                   answer: 1,
-                  en: "Seeing the scene of the terrible accident, even though I had expected it, I couldn't help being shocked.",
+                  en: "It was what I had expected, but seeing the horrific scene of the accident still came as a shock.",
                   why: { en: "Something foreseen shouldn't shock you, but this did (さすがにショックを受けた). Not being surprised follows naturally from expecting it, so it can't follow とはいえ." },
                 },
                 {
@@ -803,7 +803,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{時給|じきゅう}が上がるといっても期待しないほうがいいよ。せいぜい50円といったところだよ。", en: "They may say the hourly wage is going up, but don't get your hopes up. Fifty yen at most, I'd say." },
             { ja: "{桜|さくら}はまだ{五分|ごぶ}{咲|ざ}きといったところで、{見頃|みごろ}になるまであと{数日|すうじつ}です。", en: "The cherry blossoms are only about half open, so it will be a few more days before they're at their best." },
-            { ja: "A：ご{趣味|しゅみ}はピアノだと{伺|うかが}いましたが……。\nB：いやいや、やっと右手でドレミが{弾|ひ}けるといったところですよ。", en: "A: I heard that your hobby is the piano…\nB: Oh no, no. I can just about play do-re-mi with my right hand, that's all." },
+            { ja: "A：ご{趣味|しゅみ}はピアノだと{伺|うかが}いましたが……。\nB：いやいや、やっと右手でドレミが{弾|ひ}けるといったところですよ。", en: "A: I heard that your hobby is the piano…\nB: Oh no, no. I can barely manage do-re-mi with my right hand, that's all." },
           ],
           xref: "☞ 45. ギブ・アンド・テイク**といったところ**",
           deepDive: "**V-る / N + といったところだ** gives a rough estimate of a degree or amount and usually adds *only about that much*: この会社もせいぜいあと半年といったところだろう (*this company has half a year left at most, I'd say*). せいぜい, やっと, なんとか and まだ often come with it.\n\nConnection: a number, a level or V-る + といったところだ; casual 〜ってとこかな. It suits modest self-assessment, as in a humble reply to a compliment (やっと右手でドレミが弾けるといったところです *I can barely play do-re-mi with my right hand*), and sober predictions.\n\nThe ☞ points to use ①, **〜といったところだ** (#45): characterizing something by an analogy or typical examples (ギブ・アンド・テイクといったところ), with no *not enough* feeling. A quantity with せいぜい or やっと means this use; an analogy means use ①.\n\nCompare:\n- **〜程度だ / 〜くらいだ**: neutral approximations.\n- **〜にすぎない** (N2 level): explicit belittling, *no more than*.\n- **〜からある** (#107): the opposite feeling, a surprisingly large number (10キロからある荷物 *a load of ten kilos or more*).\n\nPitfall: choosing the larger figure when the context implies a limit.\n\nJLPT cue: pick the option that keeps the amount small or modest.",
@@ -819,8 +819,8 @@ TRY.registerChapter({
                   q: "A：スワヒリ語がおできになるそうですね。\nB：できるなんて、とんでもない。何とか（　）ができるといったところですよ。",
                   options: ["買い物", "{通訳|つうやく}"],
                   answer: 0,
-                  en: "A: I hear you can speak Swahili.\nB: Speak it? Far from it. I can just about manage shopping, that's all.",
-                  why: { en: "B plays the ability down (できるなんて、とんでもない), so the modest level fits: just about managing shopping. Interpreting is a high level." },
+                  en: "A: I hear you can speak Swahili.\nB: Speak it? Far from it. I can get by when I'm shopping, that's all.",
+                  why: { en: "B plays the ability down (できるなんて、とんでもない), so the modest level fits: getting by when shopping. Interpreting is a high level." },
                 },
                 {
                   q: "A：来週までに1,000個{納品|のうひん}してもらいたいんだが……。\nB：この機械で作れるのは1日にせいぜい80個ぐらいなので、週末をつぶしても{納品|のうひん}できるのは（　）といったところなんですが……。",
@@ -854,8 +854,8 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "A：田中さん、どうしたんだろう？　何か知ってる？\nB：{僕|ぼく}も心配なんだけど、あまりに落ち込んでいるんで、聞くに聞けなかったよ。", en: "A: I wonder what's wrong with Tanaka. Do you know anything?\nB: I'm worried too, but Tanaka was so down that I couldn't bring myself to ask." },
-            { ja: "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、1時間後ということで……。", en: "A: It's raining so hard that I can't get out even if I want to. Could we push back our appointment?\nB: In this rain, it can't be helped. Let's say an hour later, then…" },
-            { ja: "娘が私に寄りかかって寝てしまったので、動くに動けず肩が{凝|こ}ってしまった。", en: "My daughter fell asleep leaning against me, so I couldn't move even though I wanted to, and my shoulders got stiff." },
+            { ja: "A：雨がひどくて出るに出られないので、約束の時間を遅らせてもらえませんか。\nB：この雨じゃ、仕方ありませんね。では、1時間後ということで……。", en: "A: It's raining so hard that I can't get out, much as I'd like to. Could we push back our appointment?\nB: In this rain, it can't be helped. Let's say an hour later, then…" },
+            { ja: "娘が私に寄りかかって寝てしまったので、動くに動けず肩が{凝|こ}ってしまった。", en: "My daughter fell asleep leaning against me, so I couldn't move, much as I wanted to, and I ended up with stiff shoulders." },
             { ja: "雑誌の間に10万円を{隠|かく}しておいたが、何も知らない妻がゴミに出してしまって、泣くに泣けない。", en: "I'd hidden 100,000 yen between the pages of a magazine, but my wife, knowing nothing, put it out with the trash — it's too awful even to cry about.", idiom: true },
             { ja: "人間{誰|だれ}でも言うに言えない悩みがあるものだ。", en: "Everyone has worries they can't bring themselves to talk about.", idiom: true },
           ],
@@ -929,7 +929,7 @@ TRY.registerChapter({
             q: "旅行中のトラブルは、ない（　）が、案外それがいい思い出になることもある。",
             options: ["きらいがある", "ほかしかたがない", "にもほどがある", "に{越|こ}したことはない"],
             answer: 3,
-            en: "Of course it's best to have no trouble while traveling, but surprisingly that trouble can sometimes turn into a good memory.",
+            en: "Of course it's best to have no trouble while traveling, but sometimes, surprisingly, the trouble turns into a good memory.",
             why: { en: "ないに越したことはない (#60): having no trouble would be best. The が that follows (“but…”) fits a general recommendation, not きらいがある (a bad tendency, #11) or にもほどがある (criticism of excess, #49); ないほかしかたがない (“there's no choice but not to have”) makes no sense." },
           },
           {
@@ -991,7 +991,7 @@ TRY.registerChapter({
             pieces: ["なんとか", "なかったら", "なるものだ", "なかったで"],
             order: [1, 3, 0, 2],
             star: 2,
-            en: "Whether it's a TV or a computer, if you don't have one, you somehow manage without it anyway.",
+            en: "Whether it's a TV or a computer, if you don't have one, you find a way to get by.",
             why: { en: "なかったらなかったで (#55) + なんとかなるものだ: even if you don't have one, you get by. Order 2→4→1→3, so ★ = なんとか." },
           },
           {
@@ -1014,7 +1014,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["あーあ、ついに出発しちゃった。島がだんだん小さくなっていく。はぁ、仕事[1]、あんなに遠くまで、砂やら土やらを取りに行くのか。それも、[2]ならまだしも、{僕|ぼく}だけで……。", "まあ、{愚痴|ぐち}ばかり言ってはいられない。{距離|きょり}が{距離|きょり}だけに{誰|だれ}でもいい[3]。だから能力からいって、一番{優秀|ゆうしゅう}な{僕|ぼく}が[4]んだ。", "よし、{針路|しんろ}とエンジンの確認だ。どちらも異常なし。", "{先輩|せんぱい}のはやぶささんもかっこよかったなあ。最後は{流|なが}れ{星|ぼし}になって。{僕|ぼく}も、{小惑星探査|しょうわくせいたんさ}、{成功|せいこう}させてみせるぞ。"],
-        en: ["Oh man, I've finally set off. The island is getting smaller and smaller. Sigh... I know it's my job, but am I really going all that way just to fetch sand and soil and stuff? And going with a companion would be one thing, but all on my own...", "Well, I can't just sit here grumbling. The distance being what it is, it can't be just anyone. So, going by ability, I, the most capable of all, was bound to be chosen, and I was.", "Right, time to check my course and my engines. No problems with either.", "My predecessor Hayabusa was so cool, too, becoming a shooting star at the end. I'm going to make this asteroid mission a success, too — just you watch."],
+        en: ["Oh man, I've finally set off. The island is getting smaller and smaller. Sigh... I know it's my job, but am I really going all that way just to fetch sand and soil and stuff? And if I were going with friends, it'd be one thing, but all on my own...", "Well, I can't just sit here grumbling. The distance being what it is, it can't be just anyone. So, going by ability, I, the most capable of all, was bound to be chosen, and I was.", "Right, time to check my course and my engines. No problems with either.", "My predecessor Hayabusa was so cool, too, becoming a shooting star at the end. I'm going to make this asteroid mission a success, too — just you watch."],
         blanks: [
           {
             options: ["とはいえ", "をいいことに", "以前に", "に違いなく"],
@@ -1106,7 +1106,7 @@ TRY.registerChapter({
             script: [
               { sp: "F", v: "f", ja: "うわっ、この部屋、汚いにもほどがあるんじゃないの？" },
             ],
-            en: ["Ugh, this room is filthy beyond belief, isn't it?", "Well, I cleaned it yesterday.", "There's a room, if that's what you mean.", "I'll clean it on Sunday."],
+            en: ["Ugh, isn't this room filthy beyond belief?", "Well, I cleaned it yesterday.", "There's a room, if that's what you mean.", "I'll clean it on Sunday."],
             options: ["昨日掃除したからね。", "部屋ならあるけど。", "日曜に掃除するよ。"],
             answer: 2,
             why: { en: "汚いにもほどがある (#49): the room is unacceptably dirty. The fitting reply promises to clean it. Option 1 doesn't fit a room that is still filthy, and 2 misses the point." },
