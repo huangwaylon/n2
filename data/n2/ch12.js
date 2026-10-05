@@ -307,11 +307,11 @@ TRY.registerChapter({
         lines: [
           { sp: "{川口|かわぐち}", v: "f", ja: "ええ。だから{新商品|しんしょうひん}を作る**としたら**、ファッション性も{重視|じゅうし}しないと。", en: "Yes. So if we're going to make a new product, we'll have to emphasize style as well." },
           { sp: "{山下|やました}", v: "m", ja: "おしゃれで、疲れない{靴|くつ}ということですよね。", en: "So you mean shoes that are stylish and don't tire you out." },
-          { sp: "川口", v: "f", ja: "ええ。作る以上は、今までにないものを作りたいですね。", en: "Yes. As long as we're making them, I'd like to make something that's never been done before." },
+          { sp: "川口", v: "f", ja: "ええ。作る以上は、今までにないものを作りたいですね。", en: "Yes. If we're going to make them at all, I'd like to make something nobody has made before." },
           { sp: "山下", v: "m", ja: "デザイン**{次第|しだい}**で、ヒット{商品|しょうひん}になりますよ。", en: "Depending on the design, it could be a big hit." },
-          { sp: "川口", v: "f", ja: "この{業界|ぎょうかい}も{競争|きょうそう}が{厳|きび}しくなる**{一方|いっぽう}**ですけど、ニーズに合った{商品|しょうひん}なら{絶対|ぜったい}売れますよね。", en: "Competition in this industry just keeps getting tougher, but a product that meets people's needs will definitely sell, won't it?" },
-          { sp: "山下", v: "m", ja: "それじゃ、{新製品|しんせいひん}の{開発|かいはつ}**に{先立|さきだ}って**、アンケート{調査|ちょうさ}が{必要|ひつよう}になりますね。", en: "In that case, before developing the new product, we'll need to do a questionnaire survey." },
-          { sp: "川口", v: "f", ja: "そうですね。{市場調査|しじょうちょうさ}をした**{上|うえ}で**、若い社会人の声**にこたえた**「{見|み}た{目|め}もよくて{機能性抜群|きのうせいばつぐん}」の{商品|しょうひん}を{考|かんが}えましょう。", en: "That's right. After doing market research, let's come up with a product that responds to what young working people are asking for: \"good-looking and outstandingly functional.\"" },
+          { sp: "川口", v: "f", ja: "この{業界|ぎょうかい}も{競争|きょうそう}が{厳|きび}しくなる**{一方|いっぽう}**ですけど、ニーズに合った{商品|しょうひん}なら{絶対|ぜったい}売れますよね。", en: "Competition in this industry just keeps getting tougher, but a product that meets people's needs is sure to sell, right?" },
+          { sp: "山下", v: "m", ja: "それじゃ、{新製品|しんせいひん}の{開発|かいはつ}**に{先立|さきだ}って**、アンケート{調査|ちょうさ}が{必要|ひつよう}になりますね。", en: "In that case, we'll need to run a survey prior to developing the new product." },
+          { sp: "川口", v: "f", ja: "そうですね。{市場調査|しじょうちょうさ}をした**{上|うえ}で**、若い社会人の声**にこたえた**「{見|み}た{目|め}もよくて{機能性抜群|きのうせいばつぐん}」の{商品|しょうひん}を{考|かんが}えましょう。", en: "Right. Let's do market research first and then, based on that, come up with a product that answers young working people's call for something \"good-looking and highly functional.\"" },
         ],
       },
       points: [
@@ -326,8 +326,8 @@ TRY.registerChapter({
           examples: [
             { ja: "もし、生まれ変われるとしたら、私は鳥になりたい。", en: "If I could be reborn, I'd want to be a bird." },
             { ja: "家を買うとしたら、{郊外|こうがい}の{庭|にわ}付きの{一戸建|いっこだ}てがいい。", en: "If I were to buy a house, I'd want a detached house with a garden in the suburbs." },
-            { ja: "A：{警部|けいぶ}、{犯人|はんにん}が持っていた絵はにせものだったそうですよ。\nB：うーん。{盗|ぬす}まれた絵がにせものだったとすれば、本物は{誰|だれ}が持っているのだろう？", en: "A: Inspector, apparently the painting the culprit had was a fake.\nB: Hmm. If the stolen painting was a fake, then who has the real one?" },
-            { ja: "A：{山田|やまだ}さん、来週は出張で{講英社|こうえいしゃ}の{出版|しゅっぱん}{記念|きねん}パーティーに出られないんだって。\nB：困ったな。{山田|やまだ}さんが{出席|しゅっせき}できないとすると、{誰|だれ}かに代わりに行ってもらわなきゃ。", en: "A: I hear Yamada can't come to Koeisha's book launch party next week because of a business trip.\nB: That's a problem. If Yamada can't attend, we'll have to get someone to go in Yamada's place." },
+            { ja: "A：{警部|けいぶ}、{犯人|はんにん}が持っていた絵はにせものだったそうですよ。\nB：うーん。{盗|ぬす}まれた絵がにせものだったとすれば、本物は{誰|だれ}が持っているのだろう？", en: "A: Inspector, apparently the painting the thief had was a fake.\nB: Hmm. If the stolen painting was a fake, then who has the real one?" },
+            { ja: "A：{山田|やまだ}さん、来週は出張で{講英社|こうえいしゃ}の{出版|しゅっぱん}{記念|きねん}パーティーに出られないんだって。\nB：困ったな。{山田|やまだ}さんが{出席|しゅっせき}できないとすると、{誰|だれ}かに代わりに行ってもらわなきゃ。", en: "A: I hear Yamada can't come to Koeisha's book launch party next week because of a business trip.\nB: That's a problem. If Yamada can't attend, we'll have to get someone else to go instead." },
           ],
           deepDive: "**〜としたら／〜とすると／〜とすれば** mean *if we suppose ~, assuming ~*: the speaker sets up an assumption and states an opinion or prediction based on it. It can be pure hypothesis, often with もし: もし生まれ変われるとしたら、鳥になりたい (*if I could be reborn, I'd be a bird*). It can also draw an inference from news just heard: 絵がにせものだったとすれば、本物は誰が持っているのだろう (*if the painting was a fake, who has the real one?*); とすると often has this *in that case* feel.\n\nAll three follow the plain form (本当だとしたら), and だとしたら can open a sentence. としたら is the most conversational, とすれば the most logical in tone.\n\nCompare:\n- **〜たら**: can report a real past event (映画に行ったら先生がいた) and suits practical conditions leading to a plan (来なかったら先に出発する). としたら is always a supposition and suits deliberating: あげるとしたら何がいいかな.\n- **〜としても** (#137): *even if ~*; the conclusion holds despite the assumption.\n- **〜ものなら** (#122): *if one could possibly ~*, a wish for something hard to achieve.\n\nJLPT cue: もし before the blank and a question about what you would do after it.",
           see: [137, 122],
@@ -342,14 +342,14 @@ TRY.registerChapter({
                   q: "A：{伊藤|いとう}さんの{結婚祝|けっこんいわ}い、（　）何がいいかな？\nB：何でもいいんじゃない？　私はデパートで見つけたかわいい{食器|しょっき}を送ったけど…。",
                   options: ["あげるとしたら", "あげたら"],
                   answer: 0,
-                  en: "A: If we were to give Ito a wedding present, what would be good?\nB: Anything would be fine, wouldn't it? I sent some cute tableware I found at a department store…",
+                  en: "A: If I were to get Ito a wedding present, what would be good?\nB: Wouldn't anything be fine? I sent some cute dishes I found at a department store…",
                   why: { en: "The speaker deliberates under a supposition (\"if we were to give one, what would be good?\"): あげるとしたら. あげたら would sound like a concrete plan to give it, then something happens." },
                 },
                 {
                   q: "先週の日曜日、映画を見に（　）先生も来ていて、びっくりした。",
                   options: ["行くとしたら", "行ったら"],
                   answer: 1,
-                  en: "Last Sunday, when I went to see a movie, my teacher was there too, and I was surprised.",
+                  en: "When I went to see a movie last Sunday, I was surprised to find my teacher there too.",
                   why: { en: "This is a real past event (先週の日曜日): 行ったら, \"when I went.\" としたら is only for suppositions and can't describe something that actually happened." },
                 },
                 {
@@ -402,7 +402,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える{一方|いっぽう}だ。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists has just kept increasing." },
-            { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried." },
+            { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried." },
             { ja: "グローバル{化|か}が進んで、{語学力|ごがくりょく}の{必要性|ひつようせい}は{高|たか}まる{一方|いっぽう}だ。", en: "As globalization advances, the need for language ability just keeps growing." },
           ],
           plus: [
@@ -419,7 +419,7 @@ TRY.registerChapter({
               xref: "☞ p.224　〜ばかり",
             },
           ],
-          deepDive: "**V-る + 一方だ** says a change keeps moving in one direction with no sign of stopping: *just keeps ~ing, more and more*: 景気が悪くなる一方だ (*the economy just keeps getting worse*). 一方 means *one direction*, and the verb must express change: 増える, 減る, 高まる, 悪くなる, 進む. ✗食べる一方だ.\n\nIt is mostly used for unwelcome trends (the regret mark); neutral and even welcome ones occur too (必要性は高まる一方だ, 人気は高まる一方だ *it just keeps getting more popular*). Mid-sentence it becomes 一方で. The Plus **V-るばかりだ** has the same meaning and the same negative coloring: 出費は増えるばかりだ.\n\nCompare:\n- **〜一方（で）** (#61): *while, on the other hand*, linking two parallel facts: 歌手として活躍する一方、映画にも出ている. A change verb with a sentence-final 一方だ is this point; a non-change verb with 一方で (#61) and も in the second clause is the other.\n- **〜つつある** (#71): a change under way, neutral and formal: 回復しつつある. 一方だ adds *and it won't stop*.\n- **〜ばかりに** (#48): *simply because*, leading to a bad result; unrelated to this ばかり.\n\nJLPT cue: a change verb right before a sentence-final blank.",
+          deepDive: "**V-る + 一方だ** says a change keeps moving in one direction with no sign of stopping: *just keeps ~ing, more and more*: 景気が悪くなる一方だ (*the economy just keeps getting worse*). 一方 means *one direction*, and the verb must express change: 増える, 減る, 高まる, 悪くなる, 進む. ✗食べる一方だ.\n\nIt is mostly used for unwelcome trends (the regret mark); neutral and even welcome ones occur too (必要性は高まる一方だ, 人気は高まる一方だ *it just keeps getting more popular*). Mid-sentence it becomes 一方で. The Plus **V-るばかりだ** has the same meaning and the same negative coloring: 出費は増えるばかりだ.\n\nCompare:\n- **〜一方（で）** (#61): *while, on the other hand*, linking two parallel facts: 歌手として活躍する一方、映画にも出ている. A change verb before 一方だ (or mid-sentence 一方で) is this point; a non-change verb with 一方で (#61) and も in the second clause is the other.\n- **〜つつある** (#71): a change under way, neutral and formal: 回復しつつある. 一方だ adds *and it won't stop*.\n- **〜ばかりに** (#48): *simply because*, leading to a bad result; unrelated to this ばかり.\n\nJLPT cue: a change verb right before a sentence-final blank.",
           see: [61, 71, 48],
           index: ["V一方だ", "Vばかりだ"],
           practice: [
@@ -501,7 +501,7 @@ TRY.registerChapter({
                   q: "交通{機関|きかん}の{発達|はったつ}（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。",
                   options: ["に{先立|さきだ}って", "とともに"],
                   answer: 1,
-                  en: "Along with the development of transportation, the range of people's activities also expanded.",
+                  en: "Along with the development of transportation, the range of places people go gradually widened too.",
                   why: { en: "One change goes hand in hand with another (発達 → 広がっていった): とともに. に先立って would mean the expansion happened before the development, and it isn't a planned action." },
                 },
               ],
@@ -520,10 +520,10 @@ TRY.registerChapter({
             { ja: "駅前の{再開発|さいかいはつ}については、住民の皆さんの意見をまとめた{上|うえ}で、市に{要望書|ようぼうしょ}を{提出|ていしゅつ}したいと思います。", en: "Regarding the redevelopment in front of the station, we'd like to compile the opinions of all the residents and then submit a written request to the city." },
             { ja: "卒業後の{進路|しんろ}は家族とよく{相談|そうだん}した{上|うえ}で、決めたいと思います。", en: "I'd like to decide what to do after graduation once I've talked it over carefully with my family." },
             { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに{署名|しょめい}と{印鑑|いんかん}をお願いいたします。", en: "Please check the contents of the contract, then sign and stamp your seal here." },
-            { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で{結論|けつろん}を出したいと思います。", en: "On the question of accepting international students next year, we'd like to reach a conclusion after thorough consideration." },
+            { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で{結論|けつろん}を出したいと思います。", en: "On the question of accepting international students next academic year, we'd like to reach a conclusion after thorough consideration." },
           ],
           xref: "☞ p.220　〜{上|うえ}／{上|じょう}",
-          deepDive: "**V-た上で / Nの上で** means *after ~, and on that basis*. The first step is a necessary one (checking, discussing, considering), and the second (a decision, submission or signature) is taken on its result: 十分検討した上で結論を出したい (*we'd like to decide after careful consideration*). It isn't used for everyday sequences: ✗映画を見た上で食事しよう → ✓見た後で.\n\nForms: V-た + 上で; N + の + 上で with する-nouns (相談の上で); polite requests use **ご〜の上** without で: ご確認の上、ご署名ください. As a modifier: 話し合った上での決定 (*a decision reached after discussion*).\n\nCompare:\n- **V-る上で** (#14): *in doing ~, for ~*, with V-る: 就職活動をする上で大切なこと.\n- **〜上は** (#18): *now that ~*, followed by resolve: 決めた上は最後までやる.\n- **〜あげく** (#45): *after much ~*, reporting an outcome, usually a bad one: 迷ったあげく、やめた.\n\nPitfall: 調べた限り (*as far as we checked*) reports a finding; 調べた上で must lead to a decision or action.\n\nJLPT cue: a V-た form before the blank and 決める, 申請する or 提出する after it.",
+          deepDive: "**V-た上で / Nの上で** means *after ~, and on that basis*. The first step is a necessary one (checking, discussing, considering), and the second (a decision, submission or signature) is taken on its result: 十分検討した上で結論を出したい (*we'd like to decide after careful consideration*). It isn't used for everyday sequences: ✗映画を見た上で食事しよう → ✓見た後で.\n\nForms: V-た + 上で; N + の + 上で with する-nouns (相談の上で); polite requests use **ご〜の上** without で: ご確認の上、ご署名ください. As a modifier: 話し合った上での決定 (*a decision reached after discussion*).\n\nCompare:\n- **V-る上で** (#14): *in doing ~, for ~*, with V-る: 就職活動をする上で大切なこと.\n- **〜上は** (#18, like からには): *now that ~*, followed by resolve: 決めた上は最後までやる.\n- **〜あげく** (#45): *after much ~*, reporting an outcome, usually a bad one: 迷ったあげく、やめた.\n\nPitfall: 調べた限り (*as far as we checked*) reports a finding; 調べた上で must lead to a decision or action.\n\nJLPT cue: a V-た form before the blank and 決める, 申請する or 提出する after it.",
           see: [14, 18, 102, 70, 45],
           index: ["Vた上で", "Nの上で", "ご〜の上", "上での"],
           practice: [
@@ -536,7 +536,7 @@ TRY.registerChapter({
                   q: "A：食事、どうする？\nB：ゆっくり食べたいから、映画を見た（　）食事しようよ。",
                   options: ["{上|うえ}で", "{後|あと}で"],
                   answer: 1,
-                  en: "A: What should we do about food?\nB: I want to take my time eating, so let's eat after we've seen the movie.",
+                  en: "A: What do you want to do about eating?\nB: I'd like to take my time over the meal, so let's eat after the movie.",
                   why: { en: "Watching a movie and then eating is an everyday sequence, so 後で. 上で is for formal matters where the first step is the basis for a decision." },
                 },
                 {
@@ -580,7 +580,7 @@ TRY.registerChapter({
             { ja: "そのアイドルはコンサートの最後にアンコールにこたえてもう1{曲|きょく}歌った。", en: "At the end of the concert, the idol answered the call for an encore and sang one more song." },
             { ja: "{地域|ちいき}住民の{要望|ようぼう}にこたえて、{循環|じゅんかん}バスの{経路|けいろ}を{変更|へんこう}することにした。", en: "In response to requests from local residents, we decided to change the route of the loop bus." },
             { ja: "ワールドカップで{大川選手|おおかわせんしゅ}はサポーターの{声援|せいえん}にこたえて{大活躍|だいかつやく}した。", en: "At the World Cup, Okawa answered the supporters' cheers with a brilliant performance." },
-            { ja: "皆様のご{要望|ようぼう}におこたえして、{営業|えいぎょう}時間を午後11時までといたしました。", en: "In response to your requests, we have extended our business hours until 11 p.m." },
+            { ja: "皆様のご{要望|ようぼう}におこたえして、{営業|えいぎょう}時間を午後11時までといたしました。", en: "In response to your requests, we are now open until 11 p.m." },
           ],
           deepDive: "**〜にこたえて** (応えて) means *in response to ~, and fulfilling it*. The noun is something other people ask or hope for: 期待, 要望, 要請, リクエスト, アンコール, 声援, 声, ニーズ. The subject delivers: アンコールにこたえてもう1曲歌った (*answered the call for an encore with one more song*).\n\nIt follows a noun; **にこたえた + N** modifies (社会人の声にこたえた商品), and shops and ads use the humble **ご〜におこたえして**: ご要望におこたえして、営業時間を延長しました. The kanji is 応える (respond to wishes), not 答える (answer a question). The tone is positive and service-minded.\n\nCompare:\n- **〜に応じて** (#4): *adjusting to* a variable: 仕入れ値に応じて値段を決める. ✗期待に応じて業績を上げた → ✓期待にこたえて. Both can take 要望, so decide by the noun: 期待, 声援 and 声 take にこたえて; quantity, season and price take に応じて.\n- **〜にそって** (#108): following a plan or wish faithfully rather than answering it.\n\nPitfall: a noun that isn't a wish doesn't work: ✗天気にこたえて.\n\nJLPT cue: ニーズ, 声 or 期待 before the blank, and something provided after it.",
           see: [4, 108, 138],
@@ -595,7 +595,7 @@ TRY.registerChapter({
                   q: "このドラマは、もう一度見たいという{視聴者|しちょうしゃ}の声（　）{再放送|さいほうそう}されることになった。",
                   options: ["にこたえて", "に{応|おう}じて"],
                   answer: 0,
-                  en: "In response to viewers who said they wanted to see it again, this drama is going to be rebroadcast.",
+                  en: "In response to viewers asking to see it again, this drama is going to be rebroadcast.",
                   why: { en: "視聴者の声 is a request from others that is being satisfied: にこたえて. に応じて is for adjusting to a variable condition such as size, level or price." },
                 },
                 {
@@ -623,7 +623,7 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
           bank: ["に{先立|さきだ}って", "{次第|しだい}", "{一方|いっぽう}", "としたら", "{上|うえ}で", "にこたえて"],
           items: [
-            { q: "ごみ{焼却場|しょうきゃくじょう}の{移転|いてん}については、十分に{議論|ぎろん}した＿＿決めていただきたい。", answer: "{上|うえ}で", en: "Regarding the relocation of the waste incineration plant, we'd like you to decide after thorough discussion." },
+            { q: "ごみ{焼却場|しょうきゃくじょう}の{移転|いてん}については、十分に{議論|ぎろん}した＿＿決めていただきたい。", answer: "{上|うえ}で", en: "Regarding the relocation of the waste incineration plant, we'd like you to make a decision only after thorough discussion." },
             { q: "こちらの{商品|しょうひん}は、「{品質|ひんしつ}のよいものをできるだけ安く」という{消費者|しょうひしゃ}のニーズ＿＿、{開発|かいはつ}された{新製品|しんせいひん}です。", answer: "にこたえて", en: "This product is a new item developed in response to consumers' need for \"good quality at the lowest possible price.\"" },
             { q: "ビルの{解体|かいたい}工事＿＿、{近隣|きんりん}住民への説明会が開かれた。", answer: "に{先立|さきだ}って", en: "Prior to the demolition of the building, a briefing was held for neighboring residents." },
             { q: "A：時間があれば、そちらに{伺|うかが}いたいと思っているんですが…。\nB：いらっしゃる＿＿何時ごろになりますか。", answer: "としたら", en: "A: If I have time, I'm thinking of coming over to see you…\nB: If you do come, around what time would it be?" },
@@ -646,7 +646,7 @@ TRY.registerChapter({
             q: "{甘|あま}いものはつい食べすぎてしまい（　）ですが、{健康|けんこう}を考えるとあまり食べないほうがいいでしょう。",
             options: ["がち", "げ", "しだい", "たい"],
             answer: 0,
-            en: "We tend to end up eating too many sweets, but considering our health, it's probably better not to eat them much.",
+            en: "We tend to end up eating too many sweets, but for the sake of our health, it's probably best not to eat too many.",
             why: { en: "ます-stem + がち for an undesirable habit (つい食べすぎてしまいがち). げ (#97) follows adjectives for an outward look, しだい after a ます-stem means \"as soon as\" (#36), and たい is desire — none describes a tendency." },
           },
           {
@@ -681,7 +681,7 @@ TRY.registerChapter({
             q: "卒業式はこのプログラム（　）{行|おこな}いますので、よろしくお願いします。",
             options: ["に{先立|さきだ}って", "とともに", "にそって", "に{関|かん}して"],
             answer: 2,
-            en: "The graduation ceremony will be conducted according to this program, so thank you for your cooperation.",
+            en: "The graduation ceremony will be conducted according to this program. Thank you for your cooperation.",
             why: { en: "The ceremony is carried out following the program: にそって. に先立って would mean \"before the program,\" とともに \"together with,\" and に関して \"concerning,\" none of which fits 行います." },
           },
           {
@@ -695,7 +695,7 @@ TRY.registerChapter({
             q: "この{地域|ちいき}は{水不足|みずぶそく}で、{砂漠化|さばくか}が進む（　）。",
             options: ["ことはない", "というものだ", "{一方|いっぽう}だ", "わけにはいかない"],
             answer: 2,
-            en: "This region is short of water, and desertification just keeps advancing.",
+            en: "Because of water shortages, desertification in this region just keeps advancing.",
             why: { en: "A change verb (進む) + 一方だ at the end: the trend keeps worsening. ことはない means \"there's no need to,\" というものだ \"that's what ~ is,\" and わけにはいかない \"can't very well\" — none describes a continuing change." },
           },
         ],
@@ -741,7 +741,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider the content of the whole text, and choose the best option from 1, 2, 3 and 4 for each of the blanks [1] to [4]." },
         title: "",
         text: ["最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や{栄養補助食品|えいようほじょしょくひん}だけを食べる「{偏食症|へんしょくしょう}」が{急増|きゅうぞう}しています。{本人|ほんにん}は体にいいものを食べていると思っているので、まったく{危機感|ききかん}がないのが{特徴|とくちょう}です。野菜ジュースや{納豆|なっとう}は「体にいい」から、それさえ食べれば{健康|けんこう}に生活できると思い[1]です。でも「体にいい」と信じてそれだけを食べている[2]、大きな間違いです。", "{健康|けんこう}を気にする人のニーズ[3]{様々|さまざま}な{栄養補助食品|えいようほじょしょくひん}が売られたりしていることもその{原因|げんいん}の1つかもしれませんが、{栄養|えいよう}のバランスを考えた[4]本当に体によい食事をとるようにしましょう。"],
-        en: ["Recently, \"selective eating disorder\", in which people eat only foods and nutritional supplements said to be good for their health, has been increasing rapidly. What characterizes it is that those affected believe they are eating things that are good for them, so they feel no sense of danger at all. They tend to think that because vegetable juice and natto are \"good for the body\", as long as they eat those they can live healthily. But if they eat only that because they believe it is \"good for the body,\" that is a big mistake.", "One cause may be that all sorts of nutritional supplements are sold in response to the needs of health-conscious people, but let's think about nutritional balance first and then make sure to eat meals that are truly good for the body."],
+        en: ["Recently, there has been a sharp rise in \"unbalanced-eating syndrome,\" in which people eat nothing but foods and nutritional supplements said to be good for their health. Its hallmark is that because those affected believe they are eating things that are good for them, they feel no sense of danger at all. They tend to think that since vegetable juice and natto are \"good for you,\" they can stay healthy as long as they eat those. But if you believe something is \"good for you\" and eat only that, you are making a big mistake.", "One cause may be that all sorts of nutritional supplements are being sold in response to the needs of health-conscious people, but let's consider nutritional balance and, on that basis, make a point of eating meals that are truly good for us."],
         blanks: [
           {
             options: ["きり", "げ", "がち", "かけ"],
@@ -751,7 +751,7 @@ TRY.registerChapter({
           {
             options: ["ばかりで", "かのように", "だけあって", "としたら"],
             answer: 3,
-            why: { en: "\"If (it's the case that) you eat only that, it's a big mistake\": としたら sets up the assumption for the judgment. ばかりで (\"doing nothing but\") can't lead to a judgment of the person, かのように means \"as if,\" and だけあって would need praise." },
+            why: { en: "\"If (it's the case that) you eat only that, it's a big mistake\": としたら sets up the assumption for the judgment. ばかりで (\"doing nothing but ~, and\") only links clauses and can't set up a condition, かのように means \"as if,\" and だけあって (\"as you'd expect from\") needs a fitting result, usually praise." },
           },
           {
             options: ["にこたえて", "に{先立|さきだ}って", "としたら", "にかけては"],

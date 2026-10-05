@@ -290,7 +290,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "police inspector",
     note: "A police rank, above 警部補 and below 警視; familiar from detective dramas (〇〇警部). 刑事 is a detective, and 警察官 a police officer in general.",
     rx: ["けいふ", "きょうぶ", "けぶ"],
-    book: { ja: "A：**{警部|けいぶ}**、{犯人|はんにん}が持っていた絵はにせものだったそうですよ。", en: "A: Inspector, apparently the painting the culprit had was a fake.", at: "gp/113" },
+    book: { ja: "A：**{警部|けいぶ}**、{犯人|はんにん}が持っていた絵はにせものだったそうですよ。", en: "A: Inspector, apparently the painting the thief had was a fake.", at: "gp/113" },
     ex: [
       { ja: "{事件|じけん}の{捜査|そうさ}は{田中|たなか}**{警部|けいぶ}**が{担当|たんとう}することになった。", en: "Inspector Tanaka was put in charge of investigating the case.", alt: ["{警備|けいび}", "{警報|けいほう}", "{全部|ぜんぶ}"] },
     ] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "tableware; dishes",
     note: "All the dishes, bowls and cutlery you eat with: 食器を洗う, 食器棚 (cupboard). 皿 is a plate. Note the small っ: しょっき.",
     rx: ["しょくき", "しょき", "たべき"],
-    book: { ja: "B：何でもいいんじゃない？　私はデパートで見つけたかわいい**{食器|しょっき}**を送ったけど…。", en: "B: Anything would be fine, wouldn't it? I sent some cute tableware I found at a department store…", at: "gp/113" },
+    book: { ja: "B：何でもいいんじゃない？　私はデパートで見つけたかわいい**{食器|しょっき}**を送ったけど…。", en: "B: Wouldn't anything be fine? I sent some cute dishes I found at a department store…", at: "gp/113" },
     ex: [
       { ja: "{食事|しょくじ}のあと、{家族|かぞく}で**{食器|しょっき}**を{洗|あら}った。", en: "After the meal, the family washed the dishes together.", alt: ["{食欲|しょくよく}", "{楽器|がっき}", "{食費|しょくひ}"] },
     ] },
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "wind and rain; storm",
     note: "A written and news word: 風雨が強まる, 風雨に耐える, 暴風雨 (rainstorm). Note the reading ふうう.",
     rx: ["かぜあめ", "ふうあめ", "ふうゆう"],
-    book: { ja: "**{風雨|ふうう}**は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried.", at: "gp/115" },
+    book: { ja: "**{風雨|ふうう}**は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
     ex: [
       { ja: "{台風|たいふう}の{影響|えいきょう}で、{夜|よる}には**{風雨|ふうう}**が{激|はげ}しくなるでしょう。", en: "Because of the typhoon, the wind and rain will probably grow fierce tonight.", alt: ["{梅雨|つゆ}", "{雨具|あまぐ}", "{風景|ふうけい}"] },
     ] },
@@ -370,7 +370,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to grow stronger; to intensify",
     note: "Intransitive; the transitive partner is 強める. 風が強まる, 批判が強まる, 傾向が強まる. The opposite is 弱まる.",
     rx: ["きょうまる", "つよまう", "こわまる"],
-    book: { ja: "{風雨|ふうう}は**{強|つよ}まる**{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は**{強|つよ}まる**{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
     ex: [
       { ja: "{政府|せいふ}への{批判|ひはん}が{日|ひ}に{日|ひ}に**{強|つよ}まって**いる。", en: "Criticism of the government is growing stronger day by day.", alt: ["{固|かた}まって", "{縮|ちぢ}まって", "{早|はや}まって"] },
     ] },
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "fishing (as work); a catch",
     note: "漁に出る (go out fishing), 漁師 (fisherman). Alone the kanji is read りょう, but in compounds usually ぎょ: 漁業 (fishing industry), 漁船, 漁港.",
     rx: ["ぎょ", "りょ", "ろう"],
-    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、**{漁|りょう}**に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、**{漁|りょう}**に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
     ex: [
       { ja: "{父|ちち}は{毎朝|まいあさ}{早|はや}く**{漁|りょう}**に{出|で}る。", en: "My father goes out fishing early every morning.", alt: ["{量|りょう}", "{寮|りょう}", "{例|れい}"] },
     ] },
@@ -386,7 +386,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "fishing boat",
     note: "漁 is read ぎょ here, as in 漁業 and 漁港. 船 becomes せん in compounds (客船, 造船).",
     rx: ["りょうせん", "ぎょうせん", "ぎょぶね"],
-    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た**{漁船|ぎょせん}**がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain keep getting stronger, and the fishing boats that went out haven't returned yet, so the people concerned are worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た**{漁船|ぎょせん}**がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
     ex: [
       { ja: "{港|みなと}には{小|ちい}さな**{漁船|ぎょせん}**がたくさん{並|なら}んでいる。", en: "Lots of small fishing boats are lined up in the harbor.", alt: ["{風船|ふうせん}", "{造船|ぞうせん}", "{漁業|ぎょぎょう}"] },
     ] },
@@ -498,7 +498,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "development; growth; advancement",
     note: "交通機関の発達, 医学の発達, 子どもの心身の発達, 台風が発達する (a typhoon strengthens). 発展 is growth of a city or economy; 発育 is physical growth.",
     rx: ["はつたつ", "はったち", "ほったつ"],
-    book: { ja: "交通{機関|きかん}の**{発達|はったつ}**（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。", en: "Along with the development of transportation, the range of people's activities also expanded.", at: "gp/116" },
+    book: { ja: "交通{機関|きかん}の**{発達|はったつ}**（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。", en: "Along with the development of transportation, the range of places people go gradually widened too.", at: "gp/116" },
     ex: [
       { ja: "{医学|いがく}の**{発達|はったつ}**によって、{多|おお}くの{病気|びょうき}が{治|なお}るようになった。", en: "Thanks to advances in medicine, many diseases have become curable.", alt: ["{配達|はいたつ}", "{友達|ともだち}", "{発表|はっぴょう}"] },
     ] },
@@ -522,7 +522,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "conclusion",
     note: "結論を出す / が出る, 結論に達する, 結論から言うと (to get to the point). 結果 is the result or outcome of something.",
     rx: ["けっろん", "けつりん", "けちろん"],
-    book: { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で**{結論|けつろん}**を出したいと思います。", en: "On the question of accepting international students next year, we'd like to reach a conclusion after thorough consideration.", at: "gp/117" },
+    book: { ja: "来年度の留学生の受け入れに{関|かん}しては、十分{検討|けんとう}した{上|うえ}で**{結論|けつろん}**を出したいと思います。", en: "On the question of accepting international students next academic year, we'd like to reach a conclusion after thorough consideration.", at: "gp/117" },
     ex: [
       { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、やっと**{結論|けつろん}**が{出|で}た。", en: "After a long discussion, we finally reached a conclusion.", alt: ["{結婚|けっこん}", "{理論|りろん}", "{結局|けっきょく}"] },
     ] },
@@ -570,7 +570,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "(TV) viewers; audience",
     note: "視聴 means watching and listening: 視聴率 (TV ratings), 視聴者の声. A live audience is 観客, and readers are 読者.",
     rx: ["しちょしゃ", "じちょうしゃ", "しちょうじゃ"],
-    book: { ja: "このドラマは、もう一度見たいという**{視聴者|しちょうしゃ}**の声（　）{再放送|さいほうそう}されることになった。", en: "In response to viewers who said they wanted to see it again, this drama is going to be rebroadcast.", at: "gp/118" },
+    book: { ja: "このドラマは、もう一度見たいという**{視聴者|しちょうしゃ}**の声（　）{再放送|さいほうそう}されることになった。", en: "In response to viewers asking to see it again, this drama is going to be rebroadcast.", at: "gp/118" },
     ex: [
       { ja: "この{番組|ばんぐみ}は{若|わか}い**{視聴者|しちょうしゃ}**に{人気|にんき}がある。", en: "This program is popular with young viewers.", alt: ["{司会者|しかいしゃ}", "{志願者|しがんしゃ}", "{視察|しさつ}"] },
     ] },
@@ -578,7 +578,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "rerun; rebroadcast",
     note: "再 means again (再開, 再発行). 生放送 is a live broadcast. Online you'd more often say 見逃し配信 (catch-up streaming).",
     rx: ["さいほうそ", "ざいほうそう", "さいはなそう"],
-    book: { ja: "このドラマは、もう一度見たいという{視聴者|しちょうしゃ}の声（　）**{再放送|さいほうそう}**されることになった。", en: "In response to viewers who said they wanted to see it again, this drama is going to be rebroadcast.", at: "gp/118" },
+    book: { ja: "このドラマは、もう一度見たいという{視聴者|しちょうしゃ}の声（　）**{再放送|さいほうそう}**されることになった。", en: "In response to viewers asking to see it again, this drama is going to be rebroadcast.", at: "gp/118" },
     ex: [
       { ja: "{見逃|みのが}したドラマを**{再放送|さいほうそう}**で{見|み}た。", en: "I watched the drama I'd missed when it was rerun.", alt: ["{生放送|なまほうそう}", "{放送局|ほうそうきょく}", "{再会|さいかい}"] },
     ] },
@@ -594,7 +594,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "incineration; burning (of waste)",
     note: "ごみ焼却場 / 焼却炉 (incinerator), 書類を焼却する. 燃やす is the everyday verb. 返却 (returning something) shares 却.",
     rx: ["しょうかく", "やききゃく", "しょきゃく"],
-    book: { ja: "ごみ**{焼却場|しょうきゃくじょう}**の{移転|いてん}については、十分に{議論|ぎろん}した＿＿決めていただきたい。", en: "Regarding the relocation of the waste incineration plant, we'd like you to decide after thorough discussion.", at: "ch/12" },
+    book: { ja: "ごみ**{焼却場|しょうきゃくじょう}**の{移転|いてん}については、十分に{議論|ぎろん}した＿＿決めていただきたい。", en: "Regarding the relocation of the waste incineration plant, we'd like you to make a decision only after thorough discussion.", at: "ch/12" },
     ex: [
       { ja: "{古|ふる}い{書類|しょるい}はまとめて**{焼却|しょうきゃく}**{処分|しょぶん}した。", en: "We gathered up the old documents and incinerated them.", alt: ["{返却|へんきゃく}", "{退却|たいきゃく}", "{焼香|しょうこう}"] },
     ] },
@@ -634,7 +634,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "assistance; subsidy; supplement",
     note: "補助金 (subsidy), 補助を受ける, 栄養補助食品 (dietary supplement), 補助的な役割. 援助 is aid, often financial, and 補足 a supplementary explanation.",
     rx: ["ほうじょ", "ほぞ", "ほしょ"],
-    book: { ja: "最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や**{栄養補助食品|えいようほじょしょくひん}**だけを食べる「{偏食症|へんしょくしょう}」が{急増|きゅうぞう}しています。", en: "Recently, \"selective eating disorder\", in which people eat only foods and nutritional supplements said to be good for their health, has been increasing rapidly.", at: "ch/12/review" },
+    book: { ja: "最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や**{栄養補助食品|えいようほじょしょくひん}**だけを食べる「{偏食症|へんしょくしょう}」が{急増|きゅうぞう}しています。", en: "Recently, there has been a sharp rise in \"unbalanced-eating syndrome,\" in which people eat nothing but foods and nutritional supplements said to be good for their health.", at: "ch/12/review" },
     ex: [
       { ja: "{市|し}から**{補助|ほじょ}**{金|きん}が{出|で}ることになった。", en: "We're going to get a subsidy from the city.", alt: ["{補足|ほそく}", "{救助|きゅうじょ}", "{助言|じょげん}"] },
     ] },
@@ -642,7 +642,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "unbalanced diet; picky eating",
     note: "Eating only certain foods: 偏食が激しい, 子どもの偏食. 好き嫌い (likes and dislikes) is the everyday way to say it. 偏 is the kanji of 偏る.",
     rx: ["へんじき", "かたしょく", "へいしょく"],
-    book: { ja: "最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や{栄養補助食品|えいようほじょしょくひん}だけを食べる「**{偏食症|へんしょくしょう}**」が{急増|きゅうぞう}しています。", en: "Recently, \"selective eating disorder\", in which people eat only foods and nutritional supplements said to be good for their health, has been increasing rapidly.", at: "ch/12/review" },
+    book: { ja: "最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や{栄養補助食品|えいようほじょしょくひん}だけを食べる「**{偏食症|へんしょくしょう}**」が{急増|きゅうぞう}しています。", en: "Recently, there has been a sharp rise in \"unbalanced-eating syndrome,\" in which people eat nothing but foods and nutritional supplements said to be good for their health.", at: "ch/12/review" },
     ex: [
       { ja: "{子|こ}どもの**{偏食|へんしょく}**に{悩|なや}む{親|おや}は{多|おお}い。", en: "Many parents worry about their children's picky eating.", alt: ["{変色|へんしょく}", "{返品|へんぴん}", "{編集|へんしゅう}"] },
     ] },
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "sense of crisis; sense of urgency",
     note: "危機感がない / を持つ / を抱く. 危機 is a crisis (経済危機); 危険 is danger in general.",
     rx: ["きけんかん", "ききがん", "きっきかん"],
-    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "What characterizes it is that those affected believe they are eating things that are good for them, so they feel no sense of danger at all.", at: "ch/12/review" },
+    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "Its hallmark is that because those affected believe they are eating things that are good for them, they feel no sense of danger at all.", at: "ch/12/review" },
     ex: [
       { ja: "{社員|しゃいん}に**{危機感|ききかん}**がなければ、{会社|かいしゃ}は{変|か}われない。", en: "If employees have no sense of urgency, the company can't change.", alt: ["{季節感|きせつかん}", "{危険物|きけんぶつ}", "{器官|きかん}"] },
     ] },
