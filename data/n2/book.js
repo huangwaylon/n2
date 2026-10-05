@@ -6,5 +6,5 @@ TRY.registerBook({
   bookLang: "en",
   bookTitle: "TRY! 日本語能力試験 N2",
   credit: "ABK / ASK",
-  footer: "Personal study edition of <em>TRY! 日本語能力試験 N2 文法から伸ばす日本語［改訂版］</em> (ABK, ASK Publishing, 2014). Book content is transcribed for private use; English translations of example sentences and the “deep-dive” explanations are supplementary. Not for distribution.",
+  footer: "Personal study edition of <em>TRY! 日本語能力試験 N2 文法から伸ばす日本語［改訂版］</em> (ABK, ASK Publishing, 2014). Book content is transcribed for private use; English marked “generated” (translations of example sentences and exercises, and the “deep-dive” explanations) is supplementary. Not for distribution.",
 });

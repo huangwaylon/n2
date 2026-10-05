@@ -21,21 +21,21 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "初級が終わっても中級レベルへの移行がスムーズにいかない学生たちを、これまで私たちは数多く見てきました。初級レベルで学んだはずの文法がきちんと定着していない学生、漢字が多くて長い読み物を一瞥しただけであきらめてしまう学生、日本や母国について豊富な知識があるにもかかわらず、それを日本語でうまく表現できない学生……彼らみんなが本書の出発点となっています。",
-     "tr": "Over the years we have seen many students who, even after finishing the beginner level, do not make a smooth transition to the intermediate level: students who have not properly absorbed the grammar they were supposed to have learned at the beginner level, students who give up after a single glance at a long reading full of kanji, students who know a great deal about Japan and their home countries but cannot express it well in Japanese... They are all the starting point of this book."
+     "tr": "Over the years we have seen many students who, even after finishing the beginner level, do not make a smooth transition to the intermediate level: students who have not properly absorbed the grammar they were supposed to have learned at the beginner level, students who give up after a single glance at a long reading full of kanji, students who know a great deal about Japan and their home countries but cannot express it well in Japanese... All of them were the starting point for this book."
     }
    },
    {
     "t": "p",
     "text": {
      "ja": "教材開発にあたっては、「読む」の読み物のトピックで「書く」の作文を書き、「話す」の会話や「聞く」の聴解へとつながることを目指し、現場での試用を繰り返しながら改訂を重ねてきました。構想から出版まで気づけば6年余りの長い年月を要してしまいましたが、やっと私たちなりに満足できるものが完成したと感じています。",
-     "tr": "In developing the material, we aimed for learners to write the Writing composition on the topic of the Reading texts, and for this to lead on into the Speaking conversations and the Listening tasks, and we revised it again and again while trialing it repeatedly in the classroom. Before we knew it, more than six long years had passed from the initial concept to publication, but we feel that we have at last completed something we can be satisfied with in our own way."
+     "tr": "In developing the material, we aimed for a flow in which learners write the Writing composition on the topic of the Reading texts and carry it on into the Speaking conversations and the Listening tasks, and we revised the material again and again while trialing it repeatedly in actual classes. Before we knew it, more than six long years had passed from the initial concept to publication, but we feel that we have at last completed something we can be satisfied with in our own way."
     }
    },
    {
     "t": "p",
     "text": {
      "ja": "本書の作成には本当に多くの方々にお世話になりました。南山大学外国人留学生別科には本書を試用する機会を与えていただき、終始温かく見守っていただきました。同僚や常葉大学の坂本勝信先生からは適切な助言を、また試用版の翻訳に協力してくれた修了生の Dan Bentley さんをはじめ、常に私たちの原動力の源であり続けてくれた別科の留学生からは、率直な意見とともに励ましの言葉もいただきました。ここに深く感謝の意を表します。また、本書に準拠した単語・漢字アプリ制作のためのクラウドファンディングに多額のご寄付をいただきましたすべての皆様、緻密かつ丁寧な翻訳で多大な貢献をいただきました増本朱華さんにも心よりお礼を申し上げます。",
-     "tr": "A great many people helped us in making this book. Nanzan University's Center for Japanese Studies gave us the opportunity to trial this book and warmly supported us from start to finish. Our colleagues and Professor Katsunobu Sakamoto of Tokoha University gave us sound advice, and the Center's international students, including program graduate Dan Bentley, who helped translate the trial edition, were a constant source of drive for us and gave us frank opinions along with words of encouragement. We express our deep gratitude to them here. We also extend our heartfelt thanks to everyone who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, whose meticulous and careful translation was a great contribution."
+     "tr": "A great many people helped us in making this book. Nanzan University's Center for Japanese Studies gave us the opportunity to trial this book and warmly supported us from start to finish. Our colleagues and Professor Katsunobu Sakamoto of Tokoha University gave us sound advice, and the Center's international students, including program graduate Dan Bentley, who helped translate the trial edition, have always been our driving force, gave us frank opinions along with words of encouragement. We express our deep gratitude to them here. We also extend our heartfelt thanks to everyone who made generous donations to the crowdfunding campaign to create a vocabulary and kanji app based on this book, and to Ayaka Masumoto, whose meticulous and careful translation was a great contribution."
     }
    },
    {
@@ -296,7 +296,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "第1課〜第6課の学習とは別に、初級文法の復習や漢字学習の役に立つストラテジーを課の後ろにまとめました。",
-     "tr": "Separately from the study of Lessons 1–6, a review of beginner-level grammar and strategies useful for studying kanji are collected after the lessons."
+     "tr": "Apart from Lessons 1–6, a review of beginner-level grammar and strategies that help with kanji study are gathered after the lessons."
     }
    },
    {
@@ -311,7 +311,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "初級文法の中でも特に身に付きにくい文法7項目が復習できるようになっています。以下の項目については、その該当課の関連箇所と同時に学習すると効果的です。",
-     "tr": "Learners can review seven grammar items that are especially hard to master among beginner-level grammar. The items below are most effective when studied together with the related part of the corresponding lesson."
+     "tr": "Learners can review seven beginner-level grammar items that are especially hard to master. The items below are most effective when studied together with the related part of the corresponding lesson."
     }
    },
    {
@@ -665,7 +665,7 @@ TRY.registerFront([
       "n": "❸",
       "text": {
        "ja": "「覚える単語と例文」の番号。",
-       "tr": "The number in Words to Remember and Example Sentences."
+       "tr": "The word's number in Words to Remember and Example Sentences."
       }
      }
     ]
@@ -2132,7 +2132,7 @@ TRY.registerFront([
   "id": "notelist",
   "title": {
    "ja": "{文型|ぶんけい}・{表現|ひょうげん}ノート　{一覧|いちらん}",
-   "tr": "List of Grammar and Expression Notes"
+   "tr": "List of Sentence Pattern and Expression Notes"
   },
   "page": null,
   "blocks": [

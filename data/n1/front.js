@@ -27,7 +27,7 @@ TRY.registerFront([
       } },
       { p: {
         ja: "「TRY!」という名前には、{気軽|きがる}にやってみようという意味と、ラグビーのトライのようにがんばったことが{得点|とくてん}につながるという意味を込めました。皆さんがこの本で勉強して、日本語能力試験N1に合格し、さらに日本語を使って楽しく{自己|じこ}表現ができるようになりますよう、お祈りしています。",
-        en: "The name \"TRY!\" carries two meanings: \"just give it a go\", and, like a try in rugby, the idea that your hard work turns into points. We hope that you will study with this book, pass level N1 of the Japanese-Language Proficiency Test, and go on to enjoy expressing yourself in Japanese."
+        en: "The name \"TRY!\" carries two meanings: \"just give it a try\", and, like a try in rugby, the idea that your hard work turns into points. We hope that you will study with this book, pass level N1 of the Japanese-Language Proficiency Test, and go on to enjoy expressing yourself in Japanese."
       } },
       { p: { en: "The Authors\nMay 2013" } }
     ]
@@ -92,7 +92,7 @@ TRY.registerFront([
       { h: { ja: "★★★" }, level: 3 },
       { p: {
         ja: "文法{項目|こうもく}の{右端|みぎはし}に、★のマークがあります。★が多いほど、重要な{項目|こうもく}という意味です。★は理解できればいい{項目|こうもく}なので、基本的に練習問題はありません。まとめの問題にも入っていないものがあります。",
-        en: "At the right-hand end of each grammar point there are ★ marks. The more ★ marks, the more important the point. A one-★ point only needs to be understood, so as a rule it has no practice questions. Some of them do not appear in the review questions either."
+        en: "Each grammar point has ★ marks at its right-hand end. The more ★ marks, the more important the point. A one-★ point only needs to be understood, so as a rule it has no practice questions. Some of them do not appear in the review questions either."
       } },
       { h: { ja: "使う場面のマーク", en: "Usage-situation marks" }, level: 3 },
       { mark: "casual", p: {
@@ -147,19 +147,19 @@ TRY.registerFront([
       { h: { ja: "やってみよう！" }, level: 3 },
       { p: {
         ja: "その文法{項目|こうもく}を確認するための練習問題です。「どう使う？」と例文で勉強したことができるかどうか、実際に問題に答える形でチェックしてみてください。",
-        en: "Practice questions for checking the grammar point. By actually answering questions, check whether you can do what you learned in \"How is it used?\" and the example sentences."
+        en: "Practice questions on the grammar point. Answer them to check whether you can actually use what you learned in \"How is it used?\" and the example sentences."
       } },
 
       { h: { ja: "📎" }, level: 3 },
       { p: {
         ja: "ほかの言葉との使い方の違いや追加で説明が必要なことなどが書いてあります。練習が必要なものは「やってみよう！」がついています。",
-        en: "This covers differences in usage from other expressions and anything that needs further explanation. Where practice is needed, a \"Let's try!\" exercise is attached."
+        en: "This covers how the point differs in use from other expressions, and anything else that needs further explanation. Where practice is needed, a \"Let's try!\" exercise is attached."
       } },
 
       { h: { ja: "＋Plus" }, level: 3 },
       { p: {
         ja: "違う言葉で、同じような意味で使われるものが書いてあります。練習が必要なものは「やってみよう！」がついています。",
-        en: "This gives different expressions used with a similar meaning. Where practice is needed, a \"Let's try!\" exercise is attached."
+        en: "This gives other expressions with a similar meaning. Where practice is needed, a \"Let's try!\" exercise is attached."
       } },
 
       { h: { ja: "☞" }, level: 3 },
@@ -256,7 +256,7 @@ TRY.registerFront([
     blocks: [
       { p: { en: "First of all, thank you for choosing this book." } },
       { p: {
-        en: "The aim of this book is to place learners in the various situations they meet in everyday life, let them see and feel for themselves how Japanese is used, and then have them master the grammar on that basis. We believe that through this process learners will naturally become familiar with the grammar points that appear in conversations, speeches and reading passages, prepare smoothly for the Japanese-Language Proficiency Test, and go on to apply them in their own speaking and writing."
+        en: "The aim of this book is to place learners in the various situations they meet in everyday life, let them see and feel for themselves how Japanese is used, and then have them master the grammar on that basis. We believe that through this process learners will naturally become familiar with the grammar points that appear in conversations, speeches and reading passages, prepare smoothly for the new Japanese-Language Proficiency Test, and go on to apply them in their own speaking and writing."
       } },
       { p: {
         en: "With the spread of the internet, learners outside Japan have more and more opportunities to come into direct contact with Japanese, and these opportunities no doubt help them acquire natural Japanese. We feel that, as Japanese-language teaching increasingly emphasizes practical ability, the place of grammar is gradually changing too."

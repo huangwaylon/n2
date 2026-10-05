@@ -21,7 +21,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "本書は、初級が終わっても中級レベルへの移行がスムーズにいかない数多くの学生たちを微力ながらも助けたいという私たちの思いから始まりました。「読む」の読み物のトピックで「書く」の作文を書き、「話す」の会話や「聞く」の聴解へとつながることを目指しました。また同時に、授業内での使用のみならず学習者が独学もできるよう丁寧な説明とともに豊富な例文やモデル作文・会話を提示し、大学で留学生が学ぶ日本語の授業で試用を何度も繰り返しながら改訂を重ねてきました。",
-     "tr": "This book grew out of our wish to help, in whatever small way we could, the many students who do not make a smooth transition to the intermediate level even after finishing the beginner level. Our aim was for learners to write the Writing compositions on the topics of the Reading texts and carry those topics on into the Speaking conversations and the Listening tasks. At the same time, so that the book can be used not only in class but also by learners studying on their own, we provide careful explanations together with plenty of example sentences, model compositions, and model conversations, and we revised the book again and again while trialing it repeatedly in Japanese classes for international students at a university."
+     "tr": "This book grew out of our wish to help, in whatever small way we could, the many students who do not make a smooth transition to the intermediate level even after finishing the beginner level. Our aim was for learners to write the Writing compositions on the topics of the Reading texts and carry those topics on into the Speaking conversations and the Listening tasks. At the same time, so that the book could be used not only in class but also by learners studying on their own, we included careful explanations along with plenty of example sentences, model compositions, and model conversations, and we revised the book again and again while trialing it repeatedly in Japanese classes for international students at a university."
     }
    },
    {
@@ -42,7 +42,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "現在の困難な状況下でも、独学の方を含め、『カルテットⅠ』から続く「学び」を決してあきらめることがない学習者の皆様が世界中に大勢います。私たちはそんな皆様を心から応援しています。楽しみながら着実に中級から上級への階段を登っていく──本書がその学びの一助になることを願ってやみません。",
-     "tr": "Even in the present difficult circumstances, there are many learners all over the world, including those studying on their own, who never give up on the learning that continues from Quartet I. We are cheering all of you on with all our hearts. We sincerely hope that this book will help you as you enjoy climbing, steadily and step by step, from the intermediate to the advanced level."
+     "tr": "Even in the present difficult circumstances, there are many learners all over the world, including those studying on their own, who will never give up the learning they began with Quartet I. We are cheering all of you on with all our hearts. We sincerely hope that this book will help you enjoy climbing, steadily and one step at a time, from the intermediate to the advanced level."
     }
    },
    {
@@ -173,7 +173,7 @@ TRY.registerFront([
      },
      {
       "ja": "**読み物**　各課に「**読み物1**」「**読み物2**」の2つがあり、課が進むにつれて少しずつ難易度を上げてあります。トピックには、多くの学習者が興味を持っている日本文化や社会に関するものを中心に取り上げています。テキストⅡでは、第8課の読み物1を除くすべての読み物が生教材で、学習者向けにコントロールされていない読み物です。学習者が「読める」達成感を感じながら学習を進められることを目指しました。",
-      "tr": "Readings: Each lesson has two readings, Reading 1 and Reading 2, and the difficulty rises little by little as the lessons progress. The topics center on Japanese culture and society, which many learners are interested in. In Textbook II, every reading except Reading 1 of Lesson 8 is authentic material, not controlled for learners. Our aim is for learners to move forward with a sense of achievement at being able to read them."
+      "tr": "Readings: Each lesson has two readings, Reading 1 and Reading 2, and the difficulty rises little by little as the lessons progress. The topics center on Japanese culture and society, which many learners are interested in. In Textbook II, every reading except Reading 1 of Lesson 8 is authentic material, not adapted for learners. Our aim is for learners to move forward with a sense of achievement at being able to read them."
      },
      {
       "ja": "**読みのストラテジー**　その課の読み物を理解するのに有効なだけでなく、読解全般に広く応用が利くストラテジーを学習します。テキストⅠ同様、テキストⅡでも、文の読み方に関わるものと文章構成を理解するためのストラテジーを取り上げています。",
@@ -289,7 +289,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "第7課〜第12課の学習とは別に、語彙や表現を広げる活動や漢字学習の役に立つストラテジーを課の後ろにまとめました。",
-     "tr": "Separately from the study of Lessons 7–12, activities that expand vocabulary and expressions and strategies useful for studying kanji are collected after the lessons."
+     "tr": "Apart from Lessons 7–12, activities that expand vocabulary and expressions and strategies that help with kanji study are gathered after the lessons."
     }
    },
    {
@@ -297,7 +297,7 @@ TRY.registerFront([
     "style": "label",
     "text": {
      "ja": "上級へのチャレンジ",
-     "tr": "Challenge to the advanced level"
+     "tr": "Challenge to the Advanced Level"
     }
    },
    {
@@ -321,7 +321,7 @@ TRY.registerFront([
        [
         {
          "ja": "上級へのチャレンジ",
-         "tr": "Challenge to the advanced level"
+         "tr": "Challenge to the Advanced Level"
         },
         {
          "ja": "関連する本文の部分",
@@ -690,7 +690,7 @@ TRY.registerFront([
       "n": "❸",
       "text": {
        "ja": "「覚える単語と例文」の番号。",
-       "tr": "The number in Words to Remember and Example Sentences."
+       "tr": "The word's number in Words to Remember and Example Sentences."
       }
      }
     ]
@@ -977,7 +977,7 @@ TRY.registerFront([
      },
      {
       "ja": "**文型・表現ワーク**　「文型・表現ノート」の項目に関する練習問題には2タイプあり、Aはアウトプットまで求める項目（テキストで★がついているもの）に関する基本問題、Bはその課で出ているすべての文型・表現を網羅したまとめの問題です。",
-      "tr": "Sentence pattern and expression work: The exercises on the items of the sentence pattern and expression notes come in two types: A is basic exercises on the items learners should be able to produce (those marked with ★ in the textbook), and B is review exercises covering all the sentence patterns and expressions that appear in that lesson."
+      "tr": "Sentence pattern and expression work: The exercises on the items of the sentence pattern and expression notes come in two types: A consists of basic exercises on the items learners should be able to produce (those marked with ★ in the textbook), and B of review exercises covering all the sentence patterns and expressions that appear in that lesson."
      }
     ]
    },
@@ -985,7 +985,7 @@ TRY.registerFront([
     "t": "p",
     "text": {
      "ja": "また、テキストの「ブラッシュアップ」にある「上級へのチャレンジ」と「漢字チャレンジ」の練習問題も用意しました。「**上級へのチャレンジ ワーク**」と「**漢字チャレンジ ワーク**」は、テキストで学んだ後にその確認として行ってください。",
-     "tr": "There are also exercises for Challenge to the Advanced Level and Kanji Challenge in the Brush-up part of the textbook. Do the Challenge to the Advanced Level Work and the Kanji Challenge Work after studying them in the textbook, as a check of what you have learned."
+     "tr": "There are also exercises for Challenge to the Advanced Level and Kanji Challenge in the Brush-up part of the textbook. Do the Challenge to the Advanced Level and Kanji Challenge worksheets after studying the corresponding part of the textbook, as a check of what you have learned."
     }
    }
   ]
@@ -2129,7 +2129,7 @@ TRY.registerFront([
   "id": "notelist",
   "title": {
    "ja": "{文型|ぶんけい}・表現ノート　{一覧|いちらん}",
-   "tr": "List of Grammar and Expression Notes"
+   "tr": "List of Sentence Pattern and Expression Notes"
   },
   "page": null,
   "blocks": [
