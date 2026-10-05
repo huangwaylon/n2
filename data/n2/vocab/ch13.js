@@ -26,7 +26,7 @@ TRY.registerVocab({ ch: 13, words: [
     ] },
   { w: "{心情|しんじょう}", lv: "N1", pos: "noun",
     en: "feelings; state of mind; sentiment",
-    note: "A written word for what someone feels inside, common in literature and reading questions: 主人公の心情, 心情を察する (imagine how someone feels), 心情的には理解できる (emotionally I understand). 感情 is emotion in general; 心情 is the feelings of a particular person in a particular situation.",
+    note: "A written word for what someone feels inside, common in literature and reading questions: 主人公の心情, 心情を察する (imagine how someone feels), 心情的には理解できる (I can understand how they feel). 感情 is emotion in general; 心情 is the feelings of a particular person in a particular situation.",
     rx: ["しんせい", "こころじょう", "しんぞう"],
     book: { ja: "{登場人物|とうじょうじんぶつ}の**{心情|しんじょう}**が{理解|りかい}できる。", en: "Understand how the characters feel.", at: "ch/13", src: "book" },
     ex: [
@@ -47,7 +47,7 @@ TRY.registerVocab({ ch: 13, words: [
     book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"We're going to act as if the talk of promoting you to section chief never happened.\" That's what the department head told me three months ago.", at: "ch/13" },
     ex: [
       { ja: "{医者|いしゃ}は{家族|かぞく}に{病名|びょうめい}を**{告|つ}げた**。", en: "The doctor told the family the name of the illness.", alt: ["{届|とど}けた", "{渡|わた}した", "{伝|つた}わった"] },
-      { ja: "{彼女|かのじょ}は{何|なに}も**{告|つ}げず**に{町|まち}を{出|で}て{行|い}った。", en: "She left town without telling anyone." },
+      { ja: "{彼女|かのじょ}は{何|なに}も**{告|つ}げず**に{町|まち}を{出|で}て{行|い}った。", en: "She left town without a word to anyone." },
     ] },
   { w: "{損害|そんがい}", lv: "N2", pos: "noun",
     en: "damage; loss (usually financial)",
@@ -55,7 +55,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["そんかい", "そうがい", "ぞんがい"],
     book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but I'd failed on a project and caused heavy losses, and that was why.", at: "ch/13" },
     ex: [
-      { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{損害|そんがい}**が{出|で}た。", en: "The typhoon caused heavy damage to the crops.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
+      { ja: "{大雨|おおあめ}で{工場|こうじょう}が{止|と}まり、{会社|かいしゃ}は{数億円|すうおくえん}の**{損害|そんがい}**を{受|う}けた。", en: "Heavy rain shut down the factory, and the company suffered losses of several hundred million yen.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
   { w: "{蒸|む}し{暑|あつ}い", lv: "N2", pos: "い adjective",
     en: "hot and humid; muggy",
@@ -71,7 +71,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["いちけんや", "いっけんか", "いっけんおく"],
     book: { ja: "{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの**{一軒屋|いっけんや}**の2階の{窓|まど}に{明|あ}かりが見えた。", en: "As I walked along a pitch-dark road with hardly a house on it, I saw a light in a second-floor window of a lone house up ahead.", at: "ch/13" },
     ex: [
-      { ja: "{将来|しょうらい}は{庭|にわ}のある**{一軒屋|いっけんや}**に{住|す}みたい。", en: "Someday I'd like to live in a house of my own with a yard.", alt: ["{八百屋|やおや}", "{一人前|いちにんまえ}", "{本屋|ほんや}"] },
+      { ja: "{将来|しょうらい}は{庭|にわ}のある**{一軒屋|いっけんや}**に{住|す}みたい。", en: "Someday I'd like to live in a house with a yard.", alt: ["{八百屋|やおや}", "{一人前|いちにんまえ}", "{本屋|ほんや}"] },
     ] },
   { w: "{空家|あきや}", lv: "N2", pos: "noun",
     en: "vacant house; empty house",
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["いんだい", "いんたえ", "ひきたい"],
     book: { ja: "家族ともよく話し合った{末|すえ}、今年度{限|かぎ}りで**{引退|いんたい}**することに決めました。", en: "After talking it over thoroughly with my family, I decided to retire at the end of this fiscal year.", at: "gp/124" },
     ex: [
-      { ja: "その{選手|せんしゅ}は{今|こん}シーズン{限|かぎ}りで**{引退|いんたい}**すると{発表|はっぴょう}した。", en: "That player announced their retirement at the end of this season.", alt: ["{退院|たいいん}", "{後退|こうたい}", "{引率|いんそつ}"] },
+      { ja: "その{選手|せんしゅ}は{今|こん}シーズン{限|かぎ}りで**{引退|いんたい}**すると{発表|はっぴょう}した。", en: "That player announced they would retire at the end of this season.", alt: ["{退院|たいいん}", "{後退|こうたい}", "{引率|いんそつ}"] },
     ] },
   { w: "{天職|てんしょく}", lv: "N1", pos: "noun",
     en: "one's calling; vocation; the perfect job for someone",
@@ -268,7 +268,7 @@ TRY.registerVocab({ ch: 13, words: [
     book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are beyond forgiving.", at: "ch/13" },
     ex: [
       { ja: "{男|おとこ}は{妻|つま}に{暴力|ぼうりょく}を**{振|ふ}るった**として{逮捕|たいほ}された。", en: "The man was arrested for being violent toward his wife.", alt: ["{振|ふ}った", "{触|ふ}れた", "{震|ふる}えた"] },
-      { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father put his cooking skills to work for us." },
+      { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father showed off his cooking skills for us." },
     ] },
   { w: "{突|つ}き{当|あ}たり", lv: "N2", pos: "noun",
     en: "the end (of a street or hallway); where a road ends",
@@ -396,7 +396,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["せいじん", "しょうしん", "せいかみ"],
     book: { ja: "いい{記録|きろく}を出すために{薬物|やくぶつ}を使用するのは、フェアプレイの**{精神|せいしん}**に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to set a good record is an unforgivable act that goes against the spirit of fair play.", at: "gp/126" },
     ex: [
-      { ja: "{地域|ちいき}の{人|ひと}たちの{助|たす}け{合|あ}いの**{精神|せいしん}**を{大切|たいせつ}にしたい。", en: "I want to value the local people's spirit of helping one another.", alt: ["{神経|しんけい}", "{精算|せいさん}", "{成人|せいじん}"] },
+      { ja: "{地域|ちいき}の{人|ひと}たちの{助|たす}け{合|あ}いの**{精神|せいしん}**を{大切|たいせつ}にしたい。", en: "I want to cherish the spirit of mutual help among the people in our community.", alt: ["{神経|しんけい}", "{精算|せいさん}", "{成人|せいじん}"] },
     ] },
   { w: "{職歴|しょくれき}", lv: "N1", pos: "noun",
     en: "work history; employment record",
@@ -488,7 +488,7 @@ TRY.registerVocab({ ch: 13, words: [
     ] },
   { w: "{恨|うら}み", lv: "N1", pos: "noun",
     en: "grudge; resentment; hatred",
-    note: "Lasting ill feeling toward someone who hurt you: 恨みを持つ / 抱く (hold a grudge), 恨みを買う (make enemies), 恨みを晴らす (get revenge). The verb is 恨む. 憎しみ is hatred; 恨み stresses the grievance behind it.",
+    note: "Lasting ill feeling toward someone who hurt you: 恨みを持つ / 抱く (hold a grudge), 恨みを買う (earn someone's resentment), 恨みを晴らす (get revenge). The verb is 恨む. 憎しみ is hatred; 恨み stresses the grievance behind it.",
     rx: ["こんみ", "うらめ", "うかみ"],
     book: { ja: "両親を{殺|ころ}された男は**{恨|うら}み**（　）{犯人|はんにん}をにらみつけた。", en: "The man whose parents had been murdered glared at the culprit with hatred.", at: "gp/129" },
     ex: [
@@ -577,7 +577,7 @@ TRY.registerVocab({ ch: 13, words: [
     note: "Welcoming guests warmly with food and care: 客を手料理でもてなす. The noun おもてなし (hospitality) is a famous keyword of Japanese service culture. Kanji 持て成す is rare.",
     book: { ja: "はるばる{訪|たず}ねて来てくれた{旧友|きゅうゆう}を心＿＿**もてなした**。", en: "I welcomed my old friend, who had come all that way to see me, with all my heart.", at: "ch/13" },
     ex: [
-      { ja: "{遠|とお}くから{来|き}たお{客|きゃく}さんを、{母|はは}は{手料理|てりょうり}で**もてなした**。", en: "My mother entertained the guests who had come from far away with her home cooking.", alt: ["もたらした", "みなした", "もよおした"] },
+      { ja: "{遠|とお}くから{来|き}たお{客|きゃく}さんを、{母|はは}は{手料理|てりょうり}で**もてなした**。", en: "My mother treated our guests from far away to her home cooking.", alt: ["もたらした", "みなした", "もよおした"] },
     ] },
   { w: "{手芸|しゅげい}", lv: "N1", pos: "noun",
     en: "handicrafts (knitting, embroidery, sewing)",
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 13, words: [
       { ja: "{母|はは}の{趣味|しゅみ}は**{手芸|しゅげい}**で、よく{布|ぬの}のバッグを{作|つく}っている。", en: "My mother's hobby is handicrafts; she often makes cloth bags.", alt: ["{手品|てじな}", "{園芸|えんげい}", "{手術|しゅじゅつ}"] },
     ] },
   { w: "{不正|ふせい}", lv: "N1", pos: "noun · な adjective",
-    en: "wrongdoing; dishonesty; fraud; illegal",
+    en: "wrongdoing; fraud; cheating; dishonest, illicit",
     note: "Acts that break rules or laws: 不正をする / 働く, 不正行為 (cheating, misconduct), 不正アクセス (unauthorized access), 不正に入手する. 違反 is breaking a specific rule; 不正 stresses dishonesty.",
     rx: ["ふしょう", "ぶせい", "ふぜい"],
     book: { ja: "たとえ会社をクビに（　）、**{不正|ふせい}**を{告発|こくはつ}しなければならないと思った。", en: "I felt I had to blow the whistle on the wrongdoing, even if it meant getting fired.", at: "ch/13" },
@@ -641,7 +641,7 @@ TRY.registerVocab({ ch: 13, words: [
     rx: ["げんじつはなれ", "げんじつりれ", "げんじちばなれ"],
     book: { ja: "彼の{理想|りそう}はわかるが、あまりに**{現実離|げんじつばな}れ**しているので、{賛成|さんせい}し（　）。", en: "I understand his ideals, but they are so far removed from reality that I find it hard to agree.", at: "ch/13/review" },
     ex: [
-      { ja: "その{映画|えいが}の{話|はなし}は**{現実離|げんじつばな}れ**しているが、とても{面白|おもしろ}い。", en: "That film's story is completely unrealistic, but it's very entertaining.", alt: ["{親離|おやばな}れ", "{子離|こばな}れ", "{乳離|ちばな}れ"] },
+      { ja: "その{映画|えいが}の{話|はなし}は**{現実離|げんじつばな}れ**しているが、とても{面白|おもしろ}い。", en: "That movie's story is far-fetched, but it's very entertaining.", alt: ["{親離|おやばな}れ", "{子離|こばな}れ", "{乳離|ちばな}れ"] },
     ] },
   { w: "{興奮|こうふん}", lv: "N2", pos: "noun · する verb",
     en: "excitement; agitation; to get excited",
