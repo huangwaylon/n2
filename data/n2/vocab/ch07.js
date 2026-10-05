@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "demand; requirement; to demand",
     note: "Asking for something as a right or requirement, so it is stronger than 要望 (a request) or 依頼 (asking a favor): 賃上げを要求する, 要求に応じる (meet demands). In the passive, 〜が要求される means “〜 is required.”",
     rx: ["ようきゅ", "ようぎゅう", "よっきゅう"],
-    book: { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が**{要求|ようきゅう}**されることを忘れてはいけない。", en: "From an employee's point of view, the higher the salary the better, but you mustn't forget that a high salary comes with the expectation of results to match.", at: "gp/60" },
+    book: { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が**{要求|ようきゅう}**されることを忘れてはいけない。", en: "From an employee's point of view, the higher the salary the better, but don't forget that a high salary means you're expected to deliver results to match.", at: "gp/60" },
     ex: [
       { ja: "{労働組合|ろうどうくみあい}は{会社|かいしゃ}に{給料|きゅうりょう}の{引|ひ}き{上|あ}げを**{要求|ようきゅう}**した。", en: "The labor union demanded that the company raise wages.", alt: ["{追求|ついきゅう}", "{探求|たんきゅう}", "{要約|ようやく}"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "picking up and dropping off; transportation to and from",
     note: "Formal equivalent of 送り迎え: 送迎バス (shuttle bus), 無料送迎, 子どもの送迎. 歓迎 means welcoming, and 運送 is moving freight.",
     rx: ["そうけい", "そうごう", "そげい"],
-    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because the roads are hilly and it's hard for elderly people to get out to shop, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
+    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because there are so many hills and it's hard for elderly people to get out to the shops, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
     ex: [
       { ja: "このホテルには、{駅|えき}からの**{送迎|そうげい}**サービスがある。", en: "This hotel offers a shuttle service from the station.", alt: ["{歓迎|かんげい}", "{運送|うんそう}", "{迎撃|げいげき}"] },
     ] },
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "aging (of a population or group)",
     note: "高齢化社会, 少子高齢化 (fewer children and more elderly people), 高齢化が進む. 高齢者 are elderly people, and 高齢 is advanced age.",
     rx: ["こうれいけ", "こうりょうか", "こうれか"],
-    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, its offenders are gradually getting older too.", at: "gp/71" },
+    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, the offender population is gradually aging as well.", at: "gp/71" },
     ex: [
       { ja: "{地方|ちほう}の{村|むら}では**{高齢化|こうれいか}**が{進|すす}み、{若|わか}い{人|ひと}がほとんどいない。", en: "The population of rural villages is aging, and there are hardly any young people left.", alt: ["{高級化|こうきゅうか}", "{近代化|きんだいか}", "{国際化|こくさいか}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, a spirit of coexistence is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that migration on a global scale is steadily increasing, a spirit of coexistence is becoming more and more necessary.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town is working toward coexistence with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "emergency; urgent",
     note: "緊急の用事 (urgent business), 緊急事態 (state of emergency), 緊急時 / 緊急の際 (in an emergency). 至急 is an adverb-like word asking for speed (至急ご連絡ください); 緊急 describes the situation itself.",
     rx: ["きんきゅ", "けんきゅう", "きんぎゅう"],
-    book: { ja: "私が{弁当|べんとう}を（　）ところへ{上司|じょうし}が来て、**{緊急|きんきゅう}**の仕事を{頼|たの}まれた。", en: "Just as I was eating my lunch, my boss came over and gave me an urgent job to do.", at: "gp/71" },
+    book: { ja: "私が{弁当|べんとう}を（　）ところへ{上司|じょうし}が来て、**{緊急|きんきゅう}**の仕事を{頼|たの}まれた。", en: "While I was eating my lunch, my boss came over and asked me to do an urgent job.", at: "gp/71" },
     ex: [
       { ja: "{地震|じしん}などの**{緊急|きんきゅう}**の{場合|ばあい}は、この{階段|かいだん}を{使|つか}ってください。", en: "In an emergency such as an earthquake, please use these stairs.", alt: ["{緊張|きんちょう}", "{急行|きゅうこう}", "{早急|さっきゅう}"] },
     ] },
@@ -643,7 +643,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "impact; shock",
     note: "Physical (衝撃に強い “shock-resistant,” 衝撃を吸収する) and emotional (衝撃を受ける, 衝撃的なニュース). ショック is the casual word for emotional shock.",
     rx: ["しょうけき", "しょげき", "ちょうげき"],
-    book: { ja: "アクリルはガラスと{比|くら}べて軽く**{衝撃|しょうげき}**に強い＿＿、{表面|ひょうめん}に{傷|きず}がついて{透明度|とうめいど}が下がりやすい。", en: "Compared with glass, acrylic is light and resistant to impact, but on the other hand its surface scratches easily and its transparency tends to decrease.", at: "ch/7" },
+    book: { ja: "アクリルはガラスと{比|くら}べて軽く**{衝撃|しょうげき}**に強い＿＿、{表面|ひょうめん}に{傷|きず}がついて{透明度|とうめいど}が下がりやすい。", en: "Compared with glass, acrylic is light and resistant to impact, but on the other hand its surface scratches easily, which makes it lose its clarity.", at: "ch/7" },
     ex: [
       { ja: "{突然|とつぜん}の{引退|いんたい}{発表|はっぴょう}に、ファンは**{衝撃|しょうげき}**を{受|う}けた。", en: "Fans were shocked by the sudden retirement announcement.", alt: ["{攻撃|こうげき}", "{衝突|しょうとつ}", "{目撃|もくげき}"] },
     ] },
