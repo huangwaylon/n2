@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "full-fledged, grown-up, competent (as an adult or professional); one serving (of food)",
     note: "一人前になる (become fully qualified or independent), 一人前の口をきく (talk as if one were an adult — said critically of kids). On menus, 一人前 is one portion.",
     rx: ["いちにんぜん", "ひとりぜん", "いちにまえ"],
-    book: { ja: "会社では、さまざまな人が働いていますが、**{一人前|いちにんまえ}**の社会人ともなると、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work in a company, and once you're a full-fledged working adult, you naturally have to deal even with people you don't like.", at: "ch/4" },
+    book: { ja: "会社では、さまざまな人が働いていますが、**{一人前|いちにんまえ}**の社会人ともなると、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work at a company, and once you're a full-fledged working adult, you naturally have to deal with people you don't like as well.", at: "ch/4" },
     ex: [
       { ja: "{職人|しょくにん}として**{一人前|いちにんまえ}**になるには、10年はかかると言われる。", en: "They say it takes at least ten years to become a fully qualified artisan.", alt: ["{一人|ひとり}きり", "{一人|ひとり}ぼっち", "{人前|ひとまえ}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "treatment; pay and working conditions",
     note: "At work, 待遇がいい means good pay and benefits; 待遇改善 is improving them. Also how guests are treated: 特別待遇, VIP待遇. 扱い is the more general 'handling, treatment'.",
     rx: ["たいぐ", "だいぐう", "たいごう"],
-    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, the work itself and pay and conditions certainly play a part, but “relationships with people” consistently rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among people's reasons for quitting a company, the nature of the work and issues of pay and conditions certainly play a part, but “relationships with people” always rank near the top.", at: "ch/4" },
     ex: [
       { ja: "**{待遇|たいぐう}**のいい会社に{転職|てんしょく}したい。", en: "I want to switch to a company with better pay and conditions.", alt: ["{境遇|きょうぐう}", "{待機|たいき}", "{遭遇|そうぐう}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "higher rank, top positions",
     note: "上位に入る (make the top ranks), 上位3社 (the top three companies), 上位に挙がる (rank high on a list). The opposite is 下位. 上級 is about level of skill or grade.",
     rx: ["じょい", "うわい", "しょうい"],
-    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people give for quitting a company, the work itself and pay and conditions certainly play a part, but “relationships with people” consistently rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among people's reasons for quitting a company, the nature of the work and issues of pay and conditions certainly play a part, but “relationships with people” always rank near the top.", at: "ch/4" },
     ex: [
       { ja: "彼はマラソン大会で毎年**{上位|じょうい}**に入っている。", en: "He places near the top in the marathon every year.", alt: ["{上級|じょうきゅう}", "{上司|じょうし}", "{地位|ちい}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "to conform to, to be in line with (reality, circumstances)",
     note: "Always に即して / に即した: 現状に即した対応, 実態に即して考える. With laws and rules the kanji 則する is used: 条例に則して. 沿う is a softer synonym.",
     rx: ["しょくする", "そっする", "ぞくする"],
-    book: { ja: "仕事上、何か問題が起これば、現状に**{即|そく}した**対応が求められます。", en: "When some problem comes up at work, you are expected to respond in a way that fits the actual situation.", at: "ch/4" },
+    book: { ja: "仕事上、何か問題が起これば、現状に**{即|そく}した**対応が求められます。", en: "When a problem comes up at work, you are expected to respond in a way that fits the situation at hand.", at: "ch/4" },
     ex: [
       { ja: "{机上|きじょう}の{空論|くうろん}ではなく、現実に**{即|そく}した**計画を立てるべきだ。", en: "Rather than armchair theories, we should make a plan that's grounded in reality.", alt: ["{反|はん}した", "{属|ぞく}した", "{即位|そくい}した"] },
     ] },
@@ -114,7 +114,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "sequel",
     note: "続編が作られる, 映画の続編. Its counterparts are 前作 (the previous work) and 本編 (the main story). 続き is the everyday word for 'continuation'.",
     rx: ["ぞっぺん", "しょくへん", "ぞくべん"],
-    book: { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、**{続編|ぞくへん}**は100万人にも届かなかったそうだ。", en: "Whereas the previous film drew more than 2.5 million viewers, I hear the sequel didn't even reach one million.", at: "gp/36" },
+    book: { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、**{続編|ぞくへん}**は100万人にも届かなかったそうだ。", en: "With that movie, whereas the original drew more than 2.5 million viewers, I hear the sequel didn't even reach one million.", at: "gp/36" },
     ex: [
       { ja: "大ヒットした映画の**{続編|ぞくへん}**が、来年{公開|こうかい}される。", en: "The sequel to the smash-hit movie comes out next year.", alt: ["{短編|たんぺん}", "{編集|へんしゅう}", "{続出|ぞくしゅつ}"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "looking after others; being caring and helpful (toward juniors, etc.)",
     note: "Almost always 面倒見がいい (good at looking after people): 面倒見のいい先輩. From 面倒を見る (to look after).",
     rx: ["めんどうけん", "めんとうみ", "めんどみ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may notice that although this boss is strict when scolding you, what with the way they look after you afterward and their meticulous, accurate work, they are in fact surprisingly capable.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の**{面倒見|めんどうみ}**のよさといい、{緻密|ちみつ}で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, although this boss is strict when scolding you, they are in fact surprisingly capable, what with how well they look after you afterward and how meticulous and accurate their work is.", at: "ch/4" },
     ex: [
       { ja: "{田中|たなか}さんは**{面倒見|めんどうみ}**がよくて、{新人|しんじん}からとても{慕|した}われている。", en: "Tanaka is good at looking after people and is much loved by the new hires.", alt: ["{見晴|みは}らし", "{見|み}{栄|ば}え", "{日当|ひあ}たり"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "meticulous, precise, detailed",
     note: "Praise for careful thinking or work: 緻密な計画, 緻密な作業. 精密 is used for machines and measurements; 細かい is the everyday 'detailed' (and can be negative: petty).",
     rx: ["ちみ", "ちひつ", "しみつ"],
-    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may notice that although this boss is strict when scolding you, what with the way they look after you afterward and their meticulous, accurate work, they are in fact surprisingly capable.", at: "ch/4" },
+    book: { ja: "すると、{叱|しか}るときは{厳|きび}しいけれども、その後の{面倒見|めんどうみ}のよさといい、**{緻密|ちみつ}**で正確な仕事ぶりといい、実は意外にデキる上司だと気づくこともあります。", en: "Then you may realize that, although this boss is strict when scolding you, they are in fact surprisingly capable, what with how well they look after you afterward and how meticulous and accurate their work is.", at: "ch/4" },
     ex: [
       { ja: "彼の**{緻密|ちみつ}**な計画のおかげで、工事は予定{通|どお}りに終わった。", en: "Thanks to his meticulous planning, the construction was finished on schedule.", alt: ["{密接|みっせつ}", "{秘密|ひみつ}", "{親密|しんみつ}"] },
     ] },
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "consideration, thoughtfulness, compassion for others",
     note: "思いやりがある, 思いやりのある人, 思いやりの心. From 思いやる (to imagine how others feel). 気遣い / 気配り are practical attentiveness; 思いやり is warmth of heart.",
     rx: ["しいやり", "おもいかり", "おぼいやり"],
-    book: { ja: "よい人間関係は、いわば**思いやり**のギブ・アンド・テイクといったところではないでしょうか。", en: "Good relationships are, so to speak, something of a give-and-take of consideration, wouldn't you say?", at: "ch/4" },
+    book: { ja: "よい人間関係は、いわば**思いやり**のギブ・アンド・テイクといったところではないでしょうか。", en: "Good relationships are, so to speak, something like a give-and-take of thoughtfulness, wouldn't you say?", at: "ch/4" },
     ex: [
       { ja: "相手の立場に立って考えることが、**{思|おも}いやり**の第一歩だ。", en: "Putting yourself in someone else's shoes is the first step toward being considerate.", alt: ["{思|おも}い{込|こ}み", "{思|おも}い{出|で}", "{思|おも}いつき"] },
     ] },
@@ -502,7 +502,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "originality, inventiveness, creative ideas",
     note: "Mainly in 創意工夫 (ingenuity and resourcefulness) and 創意に富む (full of originality). Written style; アイデア and 独創性 are nearby words.",
     rx: ["しょうい", "そうき", "そい"],
-    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities can open up, depending on the creativity and ingenuity you bring to bear.", at: "gp/42" },
+    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, depending on the creativity and ingenuity people bring to bear, new business possibilities should open up.", at: "gp/42" },
     ex: [
       { ja: "限られた予算の中でも、**{創意|そうい}**工夫{次第|しだい}でいい商品は作れる。", en: "Even on a limited budget, you can make good products if you're inventive and resourceful.", alt: ["{故意|こい}", "{善意|ぜんい}", "{決意|けつい}"] },
     ] },
