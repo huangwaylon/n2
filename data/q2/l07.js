@@ -225,7 +225,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "国際性を持つ、外国文化に本気で親しむ人を育てるためには、何が必要だと思いますか。",
-        "tr": "What do you think is needed to raise people who have an international outlook and who genuinely engage with foreign cultures?"
+        "tr": "What do you think is needed to raise people who have an international outlook and who genuinely embrace foreign cultures?"
        }
       }
      ]
@@ -293,12 +293,12 @@ TRY.registerLesson({
       "『星の王子・王女たちの留学物語 2』中日新聞社（一部改）"
      ],
      "tr": [
-      "Those nine months, packed with good times and hard times, were the most intense of my life, and they greatly broadened the choices and possibilities open to me.",
-      "On orientation day, nearly a hundred international students from many different countries had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
+      "The most intense nine months of my life, packed with good times and hard times alike, greatly broadened my options and possibilities in life.",
+      "On orientation day, nearly a hundred international students from many different countries had gathered there. The other international students looked relaxed enough to laugh even at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
       "The following week, the English Language Program began, a set of classes meant to give us enough English to take regular undergraduate courses. I had classmates from many countries across Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
       "But even my life abroad, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the shoulder every time you say hello. I knew that this was how they treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
-      "Precisely because we were good friends, and because our cultures were different, I wanted to tell them how I really felt so they would understand, so I worked up the courage and told them what was making me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
-      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If you made a yakusoku to hang out and then, despite that, it doesn't happen, you have \"broken your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
+      "It was precisely because we were good friends, and because our cultures were different, that I wanted to tell them the truth and have them understand, so I worked up the courage and told them what was making me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
+      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If the plan falls through even though you made a yakusoku to hang out, that counts as \"breaking your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
       "\"Let's go to ○○ over the winter break.\" \"Okay, let's go.\" At that point I believed we had made a promise, and my expectations just kept growing, but when winter break actually came, I was told, \"I don't have any money, and there are other things I want to do, so I'm not going.\" To be honest, I thought, \"If you say you're going, isn't it normal to get ready by then?\" But I realized that \"my normal\" wasn't \"normal,\" and that the meaning and weight people give to the words they say, and their sense of responsibility to actually follow through, are fundamentally different.",
       "Japan is a small island nation that has developed its own unique culture and society. With so many people whose ideas, standards, and behavior are alike, it is hard to discover change or new things. And without realizing it, we've grown complacent. But if you gather a little courage and leap into a different world, you may discover not only how different the outside world is, but also something new within yourself."
@@ -372,9 +372,9 @@ TRY.registerLesson({
       "Yet even though the foreigners throw themselves into \"collecting friends\" at the events, the grumbling \"I can't make friends\" never stops. The reason they can't make friends is not that they have few chances to meet people.",
       "At root, the foreigners' failure lies in the gap between their eagerness and reality.",
       "They believe the only way to escape the \"foreigner community\" in Japan is to get in touch with as many Japanese people as they can. With that in mind, they talk passionately to lots of Japanese people about how much they want to make connections.",
-      "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"offensive\" and answer questions pleasantly. They gamely keep up with the foreigners' jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
+      "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully when the foreigners go on the \"offensive\" and answer questions pleasantly. They gamely keep up with the foreigners' jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
       "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are dashed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
-      "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and sincerely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
+      "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and genuinely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
      ],
      "headTr": [
       "I Hope Japan Will Raise Young People Who Embrace Foreign Cultures"
@@ -437,7 +437,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "Today, at a department store, I used a Japanese high-tech toilet for the first time. It was one surprise after another.",
-        "First, I was startled when the lid opened automatically. Then, as soon as I sat down, I suddenly heard the sound of running water. When I asked a friend about it later, they told me it was there so that the sound of someone relieving themselves can't be heard.",
+        "First, I was startled when the lid opened automatically. Then, as soon as I sat down, I suddenly heard the sound of running water. When I asked a friend about it later, they told me it's there so that no one can hear you relieving yourself.",
         "But what surprised me most was that the seat was warm. Apparently the temperature can be adjusted so that the seat isn't cold even when you sit on it in cold weather. And when I stood up from the seat, the water flushed automatically and the lid closed. It was my first time experiencing one, but from the moment I went in until I came out, everything really was like magic."
        ]
       },
@@ -617,7 +617,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "先日、先生にお目にかかった**際**に、卒業論文のアドバイスをいただいた。",
-         "tr": "When I met my professor the other day, I received some advice on my graduation thesis."
+         "tr": "When I saw my professor the other day, I received some advice on my senior thesis."
         },
         {
          "n": 2,
@@ -728,7 +728,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "頭が痛く**てしかたがない**ので、今日は授業を休んだ。",
-         "tr": "My head hurt so badly that I skipped class today."
+         "tr": "My head hurts so much that I missed class today."
         },
         {
          "n": 5,
@@ -1358,7 +1358,7 @@ TRY.registerLesson({
         {
          "n": 7,
          "ja": "{田中|たなか}さんはパーティーに**ばかり**行って、あまり勉強しないようだ。",
-         "tr": "Tanaka-san seems to do nothing but go to parties and hardly ever studies."
+         "tr": "Tanaka-san seems to do nothing but go to parties and hardly ever study."
         },
         {
          "n": 8,
@@ -1764,7 +1764,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**まさに** says that something fits a description exactly: *exactly, truly, the very*. It adds the speaker's conviction rather than a degree, so it goes with nouns and judgments (まさに天才だ, *a true genius*) rather than plain adjectives (✗まさに大きい).\n\n- まさに〜ようだ and まさに〜と言える are common frames.\n- **まさに〜ようとしている** is a separate time use, *just about to*: まさに出かけようとしていた (*I was just about to leave*).\n- **ちょうど** is the neutral, spoken *exactly*; **これこそ** (L7-4) singles out one item in the same spirit.\n\nIn reading 2, まさに…「オープンな日本人」だ is ironic: the Japanese look exactly like what the foreigners want, but only on the surface."
+     "deepDive": "**まさに** says that something fits a description exactly: *exactly, truly, the very*. It adds the speaker's conviction rather than a degree, so it goes with nouns and judgments (まさに天才だ, *a true genius*) rather than plain adjectives of degree (?まさに大きい).\n\n- まさに〜ようだ and まさに〜と言える are common frames.\n- **まさに〜ようとしている** is a separate time use, *just about to*: まさに出かけようとしていた (*I was just about to leave*).\n- **ちょうど** is the neutral, spoken *exactly*; **これこそ** (L7-4) singles out one item in the same spirit.\n\nIn reading 2, まさに…「オープンな日本人」だ follows 建前的には: the Japanese match the foreigners' hopes exactly, but only on the surface, as the next paragraph shows."
     }
    ]
   },
@@ -1827,7 +1827,7 @@ TRY.registerLesson({
      ],
      "tr": [
       "I came to Japan four months ago as an exchange student. At the university I am studying things like the Japanese language and Japanese culture. Living in a foreign culture like Japan's, I make new discoveries every day, and it is stimulating and fun, but there have also been hard times.",
-      "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. As this kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
+      "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. After repeated experiences like this, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
       "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. I was told, \"It's the same among Japanese people, too.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
       "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to be open about whatever feels strange or puzzling to you, and be willing to understand and accept the differences."
      ],
@@ -2116,7 +2116,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "例えば、……実際に行くことはありません。**このような**経験を繰り返し、私は日本人に嫌われることを無意識にしているのではないかと思うようになりました。",
-               "tr": "For example, …… but we never actually went. As this kind of experience kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me."
+               "tr": "For example, …… but we never actually went. After repeated experiences like this, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me."
               }
              ]
             },
@@ -2623,7 +2623,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "うん。❹相手との{距離|きょり}が近い文化もあるってことはわかるし、絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**昔からハグされたり、肩や{腕|うで}を組まれたりするのに抵抗があっ**て**……。ボディータッチが多い文化の人と友達になっても、やっぱりまだ慣れなく**て**……。",
-       "tr": "Yeah. I know there are cultures where people stand close to each other, and it's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
+       "tr": "Yeah. I know there are cultures where people stand close to each other, and it's not that I never want to be touched at all, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me... Even after making friends with people from cultures with a lot of physical contact, I'm still just not used to it..."
       },
       {
        "sp": "サ",
@@ -2761,7 +2761,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "絶対に{触|さわ}られたくない**っていうわけじゃないんだけど、**\n昔からハグされたり、肩や{腕|うで}を組まれたりするのに\n抵抗があっ**て**……。",
-        "tr": "It's not that I absolutely don't want to be touched, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me..."
+        "tr": "It's not that I never want to be touched at all, but I've always felt uncomfortable being hugged or having people put their arm around my shoulders or link arms with me..."
        }
       },
       {
@@ -2881,7 +2881,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❹{{絶対に{触|さわ}られたくない}}**っていうわけじゃないんだけど、**{{昔からハグされたり、肩や{腕|うで}を組まれたりするの}}｛**が苦手で**／**に慣れなくて**／**に抵抗があって**｝……。",
-       "tr": "It's not that I absolutely don't want to be touched, but I've always [disliked / not been used to / felt uncomfortable with] being hugged or having people put their arm around my shoulders or link arms with me..."
+       "tr": "It's not that I never want to be touched at all, but I've always [disliked / not been used to / felt uncomfortable with] being hugged or having people put their arm around my shoulders or link arms with me..."
       },
       {
        "sp": "友達",
@@ -3183,7 +3183,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❷たこやきパーティー**はどうでしょうか。**❸**なぜかというと、**たこやきなら簡単に作れるし、留学生も日本人学生も好きな人が多い**からです。それに、僕の経験から言うと、**何か一緒にしながらのほうが{緊張|きんちょう}せずに話せて、会話がはずむ**ような気がします。**❹ワンさん**はどう思いますか。**",
-       "tr": "How about a takoyaki party? The reason is that takoyaki are easy to make, and a lot of people, both international and Japanese students, like them. Also, from my experience, I feel that when you're doing something together, you can talk without getting nervous and the conversation really gets going. What do you think, Wang-san?"
+       "tr": "How about a takoyaki party? The reason is that takoyaki are easy to make, and a lot of people, both international and Japanese students, like them. Also, from my experience, I feel that when you're doing something together, it's easier to talk without getting nervous, and the conversation flows better. What do you think, Wang-san?"
       },
       {
        "sp": "メ",
@@ -3932,7 +3932,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "そうだね。どうして肉や魚を食べないのか、その人の考えを知ったら、「肉も」なんて言わないかも。",
-       "tr": "That's true. If you knew how that person thinks, why they don't eat meat or fish, you probably wouldn't say something like “eat meat too.”"
+       "tr": "That's true. If you knew how that person thinks, why they don't eat meat or fish, you might not say something like “eat meat too.”"
       },
       {
        "sp": "ジ",
@@ -3968,7 +3968,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "なるほど。共生には絶対に必要だね。",
-       "tr": "I see. That's essential for living together."
+       "tr": "I see. That's absolutely essential for living together."
       }
      ]
     }
