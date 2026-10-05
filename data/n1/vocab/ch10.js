@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "blank space; margin (of a page)",
     note: "The empty part of a page or picture: 余白にメモする (write notes in the margin), 余白を生かしたデザイン. In Japanese art, the empty space is valued as part of the composition (余白の美).",
     rx: ["よばく", "あまはく", "よひゃく"],
-    book: { ja: "文字として読めないがゆえに、その筆の線が**{余白|よはく}**と{相|あい}まって作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper.", at: "ch/10" },
+    book: { ja: "文字として読めないがゆえに、その筆の線が**{余白|よはく}**と{相|あい}まって作り出す{空間|くうかん}の美を{純粋|じゅんすい}に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, purely for its own sake, the beauty of the space that the brush lines create in combination with the white of the paper.", at: "ch/10" },
     ex: [
       { ja: "{答|こた}えが{書|か}ききれなかったら、{用紙|ようし}の**{余白|よはく}**を{使|つか}ってもかまいません。", en: "If you can't fit your answer, you may use the blank space on the sheet.", alt: ["{余暇|よか}", "{余談|よだん}", "{明白|めいはく}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "pure; genuine; innocent",
     note: "Unmixed, or free of ulterior motives: 純粋な水, 純粋な気持ち, 純粋に楽しむ (enjoy purely for its own sake). Of people, it can mean naive: 純粋すぎる. 純真 stresses childlike innocence; 純粋 is also used of motives and substances.",
     rx: ["じゅんすう", "しゅんすい", "じゅんさい"],
-    book: { ja: "文字として読めないがゆえに、その筆の線が{余白|よはく}と{相|あい}まって作り出す{空間|くうかん}の美を**{純粋|じゅんすい}**に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper.", at: "ch/10" },
+    book: { ja: "文字として読めないがゆえに、その筆の線が{余白|よはく}と{相|あい}まって作り出す{空間|くうかん}の美を**{純粋|じゅんすい}**に{鑑賞|かんしょう}できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, purely for its own sake, the beauty of the space that the brush lines create in combination with the white of the paper.", at: "ch/10" },
     ex: [
       { ja: "{賞金|しょうきん}のためではなく、**{純粋|じゅんすい}**に{走|はし}ることが{好|す}きで{大会|たいかい}に{出|で}ている。", en: "I don't race for the prize money; I enter competitions purely because I love running.", alt: ["{粗末|そまつ}", "{単調|たんちょう}", "{不純|ふじゅん}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "appreciation (of art, music, film); viewing",
     note: "Enjoying and appreciating works of art: 映画鑑賞, 音楽鑑賞, 絵画を鑑賞する. Three homophones to keep apart: 観賞 (enjoying looking at nature, fish or flowers), 干渉 (interference) and 感傷 (sentimentality).",
     rx: ["がんしょう", "かんそう", "かんしょ"],
-    book: { ja: "文字として読めないがゆえに、その筆の線が{余白|よはく}と{相|あい}まって作り出す{空間|くうかん}の美を{純粋|じゅんすい}に**{鑑賞|かんしょう}**できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, in its pure form, the beauty of the space that the brush lines create together with the white of the paper.", at: "ch/10" },
+    book: { ja: "文字として読めないがゆえに、その筆の線が{余白|よはく}と{相|あい}まって作り出す{空間|くうかん}の美を{純粋|じゅんすい}に**{鑑賞|かんしょう}**できるのである。", en: "Precisely because the works cannot be read as characters, we can appreciate, purely for its own sake, the beauty of the space that the brush lines create in combination with the white of the paper.", at: "ch/10" },
     ex: [
       { ja: "{趣味|しゅみ}は{映画|えいが}**{鑑賞|かんしょう}**で、{週末|しゅうまつ}はよく{映画館|えいがかん}に{行|い}く。", en: "My hobby is watching films, and I often go to the movies on weekends.", alt: ["{鑑定|かんてい}", "{感想|かんそう}", "{観光|かんこう}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "loss (financial or otherwise)",
     note: "A formal word for money or value lost: 損失を出す／被る (incur a loss), 大きな損失, 国家的損失. 損 is the casual word (損をする); 損害 is damage caused to property by an accident or disaster.",
     rx: ["そんじつ", "そんしち", "ぞんしつ"],
-    book: { ja: "{市場|しじょう}調査が不十分であったがゆえに、大きな**{損失|そんしつ}**を出してしまった。", en: "Because the market research was insufficient, we ended up incurring a large loss.", at: "gp/113" },
+    book: { ja: "{市場|しじょう}調査が不十分であったがゆえに、大きな**{損失|そんしつ}**を出してしまった。", en: "It was because our market research was inadequate that we ended up taking such a heavy loss.", at: "gp/113" },
     ex: [
       { ja: "{彼|かれ}のような{優秀|ゆうしゅう}な{人材|じんざい}を{失|うしな}うのは、{会社|かいしゃ}にとって{大|おお}きな**{損失|そんしつ}**だ。", en: "Losing someone as capable as him is a great loss for the company.", alt: ["{消失|しょうしつ}", "{損傷|そんしょう}", "{利益|りえき}"] },
     ] },
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "guess; inference; conjecture",
     note: "Judging from available clues: 推測にすぎない (it's only a guess), 推測がつく, 理由を推測する. 推理 is reasoning out an answer, as in mysteries; 予測 is predicting the future; 推測 is inferring what is unknown now.",
     rx: ["すいぞく", "すいそ", "ついそく"],
-    book: { ja: "新しいタイプの芸術に対して、評価が分かれるのは**{推測|すいそく}**にかたくない。", en: "One can readily guess that opinions will be divided about a new type of art.", at: "gp/115" },
+    book: { ja: "新しいタイプの芸術に対して、評価が分かれるのは**{推測|すいそく}**にかたくない。", en: "It is not hard to guess that a new type of art will divide opinion.", at: "gp/115" },
     ex: [
       { ja: "{証拠|しょうこ}がない{以上|いじょう}、それはあなたの**{推測|すいそく}**にすぎない。", en: "As long as there's no evidence, that's nothing more than your guess.", alt: ["{推薦|すいせん}", "{測量|そくりょう}", "{推進|すいしん}"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "side effect (of a drug); adverse effect",
     note: "An unwanted effect of a medicine: 副作用が出る, 副作用の少ない薬. Figuratively, an unintended bad consequence of a policy: 政策の副作用. 後遺症 is an aftereffect of an illness or injury.",
     rx: ["ふくさくよう", "ふくざよう", "ふうさよう"],
-    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "この{薬|くすり}は**{副作用|ふくさよう}**で{眠|ねむ}くなることがあるので、{運転|うんてん}{前|まえ}には{飲|の}まないでください。", en: "This medicine can make you drowsy as a side effect, so please don't take it before driving.", alt: ["{副業|ふくぎょう}", "{作業|さぎょう}", "{副詞|ふくし}"] },
     ] },
@@ -339,7 +339,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "careful; cautious; prudent",
     note: "Taking care to avoid mistakes or risk: 慎重に検討する (consider carefully), 慎重な態度, 慎重を期す (exercise great caution). The opposite is 軽率 (rash). 丁寧 is about thoroughness and politeness; 慎重 is about caution.",
     rx: ["しんじゅう", "じんちょう", "しんちょ"],
-    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "{家|いえ}を{買|か}うのは{大|おお}きな{決断|けつだん}なので、**{慎重|しんちょう}**に{考|かんが}えたほうがいい。", en: "Buying a house is a big decision, so you'd better think it over carefully.", alt: ["{軽率|けいそつ}", "{貴重|きちょう}", "{乱暴|らんぼう}"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "deep knowledge (of an art or field); expertise",
     note: "Used almost only in the set phrase 〜に造詣が深い (be deeply versed in ~): 美術に造詣が深い, 日本文化に造詣が深い. Respectful and formal, used to praise someone's learning. Not the same word as 造形 (ぞうけい, form, modeling).",
     rx: ["そうけい", "ぞうし", "ぞうけ"],
-    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara was a deep connoisseur of art.", at: "gp/115" },
+    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara had a deep knowledge of fine art.", at: "gp/115" },
     ex: [
       { ja: "{先生|せんせい}は{日本|にほん}の{古典|こてん}{文学|ぶんがく}に**{造詣|ぞうけい}**が{深|ふか}い。", en: "The professor is deeply versed in classical Japanese literature.", alt: ["{欲|よく}", "{奥行|おくゆ}き", "{眠|ねむ}り"] },
     ] },
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "the very first; the very beginning",
     note: "First of all, before anyone or anything else, usually as 真っ先に: 真っ先に駆けつける (be the first to rush over), 真っ先に思い浮かぶ. More emphatic than 最初に.",
     rx: ["しんさき", "まっせん", "まさき"],
-    book: { ja: "**{真|ま}っ{先|さき}**に{救命|きゅうめい}ボートに乗るとは船長としてあるまじき{行為|こうい}だ。", en: "Getting into the lifeboat first is conduct unworthy of a captain.", at: "gp/116" },
+    book: { ja: "**{真|ま}っ{先|さき}**に{救命|きゅうめい}ボートに乗るとは船長としてあるまじき{行為|こうい}だ。", en: "To be the very first into the lifeboat — that is conduct unworthy of a captain.", at: "gp/116" },
     ex: [
       { ja: "{地震|じしん}の{後|あと}、**{真|ま}っ{先|さき}**に{家族|かぞく}の{安否|あんぴ}を{確|たし}かめた。", en: "After the earthquake, the very first thing I did was check that my family was safe.", alt: ["{真|ま}っ{最中|さいちゅう}", "{真|ま}っ{暗|くら}", "{真|ま}っ{白|しろ}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "unforeseen; unexpected; beyond what was anticipated",
     note: "Outside the scenarios one planned for: 想定外の事態, 想定外の結果. Common in news, sometimes as an excuse by officials, as in the book's example. 想定する means to assume or anticipate a scenario; 予想外 is simply unexpected.",
     rx: ["そうじょうがい", "そうていそと", "そうていかい"],
-    book: { ja: "「**{想定外|そうていがい}**のことで対応できなかった」など、責任者にあるまじき{発言|はつげん}ではないだろうか。", en: "Saying something like “It was unforeseen, so we couldn't respond” — isn't that a remark unworthy of the person in charge?", at: "gp/116" },
+    book: { ja: "「**{想定外|そうていがい}**のことで対応できなかった」など、責任者にあるまじき{発言|はつげん}ではないだろうか。", en: "Saying something like “It was unforeseen, so we couldn't respond” — isn't that a remark unworthy of someone in charge?", at: "gp/116" },
     ex: [
       { ja: "{台風|たいふう}の{被害|ひがい}は、**{想定外|そうていがい}**の{大|おお}きさだった。", en: "The typhoon damage was greater than anyone had anticipated.", alt: ["{時間外|じかんがい}", "{郊外|こうがい}", "{海外|かいがい}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "embezzlement; misappropriation",
     note: "Illegally taking money or goods one has been entrusted with: 会社の金を横領する, 公金横領 (embezzling public funds). 着服 is pocketing money, a near-synonym; 横領 is the legal term.",
     rx: ["よこりょう", "おうりょ", "こうりょう"],
-    book: { ja: "会社の金を**{横領|おうりょう}**したのだから、彼は首にならずにはすまないはずだ。", en: "He embezzled company money, so he is surely bound to be fired.", at: "gp/117" },
+    book: { ja: "会社の金を**{横領|おうりょう}**したのだから、彼は首にならずにはすまないはずだ。", en: "He embezzled company money, so there's no way he'll get away without being fired.", at: "gp/117" },
     ex: [
       { ja: "{経理|けいり}{担当|たんとう}の{社員|しゃいん}が、3{年間|ねんかん}で1{億円|おくえん}を**{横領|おうりょう}**していた。", en: "An employee in charge of accounting had embezzled 100 million yen over three years.", alt: ["{占領|せんりょう}", "{要領|ようりょう}", "{横断|おうだん}"] },
     ] },
@@ -387,7 +387,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to be fired; to get sacked",
     note: "Casual idiom for being dismissed from one's job: 会社を首になる. The active form is 首にする (fire someone). Often written クビになる. The formal word is 解雇される.",
     rx: ["しゅになる", "こうべになる", "くぶになる"],
-    book: { ja: "会社の金を{横領|おうりょう}したのだから、彼は**首になら**ずにはすまないはずだ。", en: "He embezzled company money, so he is surely bound to be fired.", at: "gp/117" },
+    book: { ja: "会社の金を{横領|おうりょう}したのだから、彼は**首になら**ずにはすまないはずだ。", en: "He embezzled company money, so there's no way he'll get away without being fired.", at: "gp/117" },
     ex: [
       { ja: "{遅刻|ちこく}ばかりしていたら、アルバイトを**{首|くび}になった**。", en: "I kept showing up late and got fired from my part-time job.", alt: ["{手|て}になった", "{顔|かお}になった", "{足|あし}になった"] },
     ] },
@@ -611,7 +611,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "others; other people",
     note: "A written, somewhat philosophical word for people other than oneself: 他者を思いやる, 他者との関係, 他者の視点. 他人 is the everyday word and can sound colder (他人事, 赤の他人).",
     rx: ["ほかしゃ", "たもの", "たじゃ"],
-    book: { ja: "**{他者|たしゃ}**を思いやることなくして、暮らしやすい社会は作れないはずだ。", en: "Without caring about others, we surely cannot build a society that is pleasant to live in.", at: "gp/123" },
+    book: { ja: "**{他者|たしゃ}**を思いやることなくして、暮らしやすい社会は作れないはずだ。", en: "Without consideration for others, we surely cannot build a society that is pleasant to live in.", at: "gp/123" },
     ex: [
       { ja: "{子|こ}どもは、{遊|あそ}びを{通|とお}して**{他者|たしゃ}**との{関|かか}わり{方|かた}を{学|まな}ぶ。", en: "Children learn how to relate to others through play.", alt: ["{他方|たほう}", "{筆者|ひっしゃ}", "{他界|たかい}"] },
     ] },
