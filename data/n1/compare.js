@@ -315,7 +315,7 @@ TRY.registerCompare([
         ex: { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from monkeys all the way to humans." },
         note: "N + に至る: \"reach / lead to N\". Marks the end point of a range or process (here に至るまでの + N); written style." },
       { pattern: "Nに{至|いた}っては", level: "N1", no: 7,
-        ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and for those in their twenties it was as low as 13%." },
+        ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of men in their thirties did, and among men in their twenties the figure was as low as 13%." },
         note: "N + に至っては: \"and as for N, it goes even further\". After one or more examples, singles out the most extreme case, usually in a negative direction." },
       { pattern: "Nの{至|いた}り", level: "N1", no: 66,
         ex: { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "It is truly the greatest honor to receive such a prestigious award." },

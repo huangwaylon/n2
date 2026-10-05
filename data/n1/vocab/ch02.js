@@ -376,7 +376,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "meddling; nosiness; a busybody",
     note: "Unwanted interference in other people's affairs: お節介を焼く (meddle), 余計なお節介 (none of your business). Usually a mild criticism; 世話を焼く (fuss over someone) is kinder.",
     rx: ["おせつかい", "おふしかい", "おせっけい"],
-    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is a kind, nice person, but is a little too eager to meddle in other people's business.", at: "gp/11" },
+    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is kind and a good person, but tends to want to poke their nose into other people's business.", at: "gp/11" },
     ex: [
       { ja: "**お{節介|せっかい}**かもしれないけど、{早|はや}く{病院|びょういん}に{行|い}ったほうがいいよ。", en: "It may be none of my business, but you'd better see a doctor soon.", alt: ["お{世辞|せじ}", "お{節|せち}", "お{世話|せわ}"] },
     ] },
@@ -671,7 +671,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to leave the nest; to go out into the world (after graduating)",
     note: "Literally young birds leaving the nest; figuratively graduates leaving school or children leaving home: 母校を巣立つ, 社会へ巣立つ. A favorite of graduation speeches.",
     rx: ["そうだつ", "すたつ", "すだちつ"],
-    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am delighted that all 208 of you who entered two years ago are now going out into the world from this school, without a single one missing.", at: "ch/2/review" },
+    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am delighted that all 208 of you who entered two years ago are now leaving this school to make your way in the world, without a single one missing.", at: "ch/2/review" },
     ex: [
       { ja: "{今年|ことし}も{多|おお}くの{卒業生|そつぎょうせい}が{社会|しゃかい}へ**{巣立|すだ}って**いった。", en: "Once again this year, many graduates have gone out into the world.", alt: ["{目立|めだ}って", "{役立|やくだ}って", "{泡立|あわだ}って"] },
     ] },
@@ -710,7 +710,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "support; assistance; backing",
     note: "被災地を支援する, 支援物資 (relief supplies), 経済支援, 子育て支援. 援助 is similar but often means money or goods; 応援 is cheering someone on or lending a hand.",
     rx: ["しいん", "しゅえん", "ささえん"],
-    book: { ja: "**{支援|しえん}**する側、される側ではなく、仲間として一緒に活動する気持ちがあれば、うまくいくと思います。", en: "If you see yourselves as partners working alongside them, rather than as helpers and the people being helped, I think things will go well.", at: "ch/2/review" },
+    book: { ja: "**{支援|しえん}**する側、される側ではなく、仲間として一緒に活動する気持ちがあれば、うまくいくと思います。", en: "If you think of yourselves as partners working alongside them, rather than as the ones helping and the ones being helped, I think things will go well.", at: "ch/2/review" },
     ex: [
       { ja: "{被災地|ひさいち}には{全国|ぜんこく}から{多|おお}くの**{支援|しえん}**{物資|ぶっし}が{届|とど}いた。", en: "Large amounts of relief supplies reached the disaster area from all over the country.", alt: ["{支店|してん}", "{支持|しじ}", "{声援|せいえん}"] },
     ] },
