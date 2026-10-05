@@ -11,7 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "部長", v: "m", ja: "{本田|ほんだ}君、子どものお{遣|つか}い**じゃあるまいし**、カタログだけ置いて帰ってくる{奴|やつ}があるか。", en: "Honda, you're not some kid running an errand! Who just drops off a catalog and comes straight back?" },
+          { sp: "部長", v: "m", ja: "{本田|ほんだ}君、子どものお{遣|つか}い**じゃあるまいし**、カタログだけ置いて帰ってくる{奴|やつ}があるか。", en: "Honda, this isn't some kid's errand! Who just leaves a catalog and comes straight back?" },
           { sp: "{本田|ほんだ}", v: "m", ja: "すみません。", en: "I'm sorry." },
           { sp: "部長", v: "m", ja: "それじゃ、{商談|しょうだん}はどうでもいいと言わ**んばかり**じゃないか。ぐずぐずしているうちにライバル社に{先|さき}を{越|こ}され**たらそれまでだ**ぞ。", en: "That's practically saying you don't care about the deal. If a rival beats us to it while we're dragging our feet, it's all over." },
           { sp: "{本田|ほんだ}", v: "m", ja: "わかってますよ。でも……。", en: "I know. But…" },
@@ -40,7 +40,7 @@ TRY.registerChapter({
             { ja: "A：減るもんじゃあるまいし、貸してくれてもいいでしょう。\nB：{嫌|いや}だよ。大切なMP3なんだから。", en: "A: Come on, it's not like it'll wear out. Why not lend it to me?\nB: No way. It's my precious MP3 player." },
             { ja: "南極へ行くんじゃあるまいし、そんなに{厚着|あつぎ}しなくても{大丈夫|だいじょうぶ}だよ。", en: "It's not as if you're going to the South Pole. You don't need to bundle up that much." },
             { ja: "留学するだけなんだから、そんなに心配しないでよ。もう一生会えないわけじゃあるまいし……。", en: "I'm only going to study abroad, so don't worry so much. It's not like we'll never see each other again…" },
-            { ja: "{厳|きび}しいと言っても、社長も{鬼|おに}ではあるまいし、ちゃんと話せばわかってもらえるはずだよ。", en: "The president may be strict, but it's not as if they're a monster. If you explain things properly, they're sure to understand." },
+            { ja: "{厳|きび}しいと言っても、社長も{鬼|おに}ではあるまいし、ちゃんと話せばわかってもらえるはずだよ。", en: "The president may be strict, but it's not as if they're a monster. If you explain things properly, they should understand." },
           ],
           deepDive: "**〜じゃあるまいし** (ある + the negative-conjecture まい + し) means *it's not as if ~, so…*. The speaker names a situation that would excuse the listener, dismisses it as obviously untrue, and uses that as the reason for a criticism, advice or a request: 子どもじゃあるまいし、一人で行けるよ (*I'm not a child — I can go on my own*).\n\nNouns take じゃあるまいし or the slightly stiffer ではあるまいし; clauses need ん or わけ: 南極へ行くんじゃあるまいし (*it's not as if you're off to the South Pole*), 一生会えないわけじゃあるまいし. It is conversational and sounds exasperated or teasing, so it is risky toward superiors.\n\nCompare:\n- **〜ならまだしも** #50 and **〜ならいざしらず** #58 treat the excusable case as a real possibility and then contrast the actual one (子どもならまだしも、大人が… *a child, maybe, but an adult…*); じゃあるまいし dismisses the excuse outright.\n- **〜わけではないのだから**: the neutral equivalent, without the *come on* tone.\n\nPitfall: the premise must be clearly false; 学生じゃあるまいし said to an actual student makes no sense.\n\nJLPT cue: an absurd comparison (子ども, 新人, VIP, ドラマ) before the blank and a scolding or advice after it.",
           see: [50, 58],
@@ -93,7 +93,7 @@ TRY.registerChapter({
             { ja: "たくさんの花をつけた{山百合|やまゆり}が、風に吹かれて折れんばかりに{揺|ゆ}れている。", en: "Heavy with blossoms, the mountain lilies are swaying in the wind as if about to snap." },
             { ja: "彼女は、今にも泣き出さんばかりの顔をして、部屋を飛び出していった。", en: "She ran out of the room looking as if she would burst into tears at any moment." },
             { ja: "店員は、「早く帰れ」と言わんばかりに{空|あ}いた皿を片付けはじめた。", en: "The server started clearing away the empty plates as if to say, “Hurry up and leave.”" },
-            { ja: "この作品からは、画家のあふれんばかりの情熱が伝わってくる。", en: "The painter's brimming passion comes through in this work." },
+            { ja: "この作品からは、画家のあふれんばかりの情熱が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work." },
             { ja: "アクロバット飛行の飛行機が、今にも{墜落|ついらく}せんばかりの勢いで{急降下|きゅうこうか}した。", en: "The stunt plane went into a dive so steep it looked as if it would crash at any moment." },
           ],
           notes: [
@@ -102,12 +102,12 @@ TRY.registerChapter({
               en: "“〜と言わんばかりに” is also used in the form “〜とばかりに”, dropping 言わん.",
               examples: [
                 { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "When the coach called on him with a scoring chance at stake, Nakata leaped up as if to say, “I've been waiting for this!”" },
-                { ja: "食べ{放題|ほうだい}なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say it was all-you-can-eat, so not eating would be a waste, they came back with their plate piled high." },
+                { ja: "食べ{放題|ほうだい}なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "They came back with their plate piled high, as if to say, “It's all-you-can-eat — not eating would be a waste.”" },
                 { ja: "商品の{入|い}れ{替|か}えで{全品|ぜんぴん}半額だったので、このときとばかりにたくさん買い込んだ。", en: "Everything was half off for a stock changeover, so I seized the chance and stocked up." },
               ],
             },
           ],
-          deepDive: "**〜んばかり** combines the classical volitional ん (from む) with ばかり: *all but ~, as if about to ~*. Nothing actually happens; the verb describes what something looks ready to do, which paints an extreme degree: 折れんばかりに揺れる (*sway as if about to snap*), 泣き出さんばかりの顔 (*a face on the verge of tears*).\n\nIt follows the ない-stem (する → せん) and appears as んばかりに + verb, んばかりの + noun, or んばかりだ. It describes what the speaker observes in someone or something else, and is literary. 言わんばかり (*as if to say*) is by far the most frequent; the clip note's 〜とばかりに drops 言わん: 待ってましたとばかりに (*as if to say \"at last!\"*).\n\nCompare:\n- **今にも〜そうだ**: the neutral *look about to*, with no sense of extremity.\n- **Vんがため** #100: the same classical ん, but *in order to*.\n- **〜かのごとく** #101: *as if*, a comparison with something unreal rather than an imminent action.\n\nPitfall: ✗言うばかりに; without the ん it becomes a different ばかり (*only, just because*).\n\nJLPT cue: a ない-stem + ん before ばかり, often with 今にも or 勢いで nearby.",
+          deepDive: "**〜んばかり** combines the classical volitional ん (from む) with ばかり: *all but ~, as if about to ~*. Nothing actually happens; the verb describes what something looks ready to do, which paints an extreme degree: 折れんばかりに揺れる (*sway as if about to snap*), 泣き出さんばかりの顔 (*a face on the verge of tears*).\n\nIt follows the ない-stem (する → せん) and appears as んばかりに + verb, んばかりの + noun, or んばかりだ. It describes what the speaker observes in someone or something else, and is literary. 言わんばかり (*as if to say*) is by far the most frequent; the clip note's 〜とばかりに drops 言わん: 待ってましたとばかりに (*as if to say \"at last!\"*).\n\nCompare:\n- **今にも〜そうだ**: the neutral *look about to*, with no sense of extremity.\n- **Vんがため** #100: the same classical ん, but *in order to*.\n- **〜かのごとく** #101: *as if*, a comparison with something unreal rather than an imminent action.\n\nPitfall: without ん the meaning changes: 言うばかりで (*only talks*) and 言ったばかりに (*just because one said*) are different uses of ばかり.\n\nJLPT cue: a ない-stem + ん before ばかり, often with 今にも or 勢いで nearby.",
           see: [100, 101],
           index: ["Vんばかり", "〜とばかりに", "〜と言わんばかりに"],
           practice: [
@@ -130,7 +130,7 @@ TRY.registerChapter({
                   en: "The last runner finally crossed the finish line looking ready to collapse.",
                   why: { en: "倒れんばかりの状態 = looking ready to collapse, a vivid picture of the runner's exhaustion. 走らんばかり (about to run) says nothing about the runner's condition." },
                 },
-                { q: "絶対に許さないと（　）んばかりの顔でにらんでいる。", options: ["思わ", "言わ"], answer: 1, en: "They're glaring with a look that says, “I'll never forgive you.”", why: { en: "The fixed expression is 〜と言わんばかり (as if to say). The look conveys what the person seems to be saying; 思わんばかり isn't used." } },
+                { q: "絶対に許さないと（　）んばかりの顔でにらんでいる。", options: ["思わ", "言わ"], answer: 1, en: "They're glaring with a look that says, “I'll never forgive you.”", why: { en: "The fixed expression is 〜と言わんばかり (as if to say). The look conveys what the person seems to be saying; 思わんばかり isn't a set expression." } },
               ],
             },
           ],
@@ -146,7 +146,7 @@ TRY.registerChapter({
           examples: [
             { ja: "仕事を{頑張|がんば}るのもいいが、無理して病気になったらそれまでだ。", en: "Working hard is fine, but if you overdo it and get sick, it's all over." },
             { ja: "いくら有名{企業|きぎょう}に{就職|しゅうしょく}しても、経営が{破|は}たんすればそれまでだ。", en: "No matter how famous the company you join, if it goes bankrupt, that's the end of that." },
-            { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、使いこなせる技術者がいなければそれまでだ。", en: "Even if you install the latest medical equipment, it's useless without technicians who can operate it." },
+            { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、使いこなせる技術者がいなければそれまでだ。", en: "Even if you install the latest medical equipment, it's all for nothing without technicians who can make full use of it." },
             { ja: "あきらめたらそれまでだ。努力し続ければ夢は必ずかなう。", en: "If you give up, it's over. If you keep making the effort, your dream will surely come true." },
           ],
           deepDive: "**〜たら／〜ばそれまでだ** says that if a certain thing happens, everything invested so far — effort, money, preparation — is wasted: *once ~, that's the end of it*. それまで is *up to that point*: the condition is where it all stops. The first half usually names something valuable (有名企業に就職しても, 最新の設備をそろえても), and the condition is what would make it worthless. It also works as grim encouragement: あきらめたらそれまでだ (*give up, and it's over*).\n\nCompare:\n- **〜たら終わりだ**: the same idea, more colloquial.\n- **〜たが最後** #33: once ~ happens, a bad state inevitably follows (彼に話したが最後、会社中に広まる *tell him, and the whole company will know*); それまでだ says everything stops and is wasted.\n- **〜までのことだ** #82: dictionary form + a calm fallback (だめなら別の方法でやるまでのことだ *if it fails, I'll just try another way*); それまでだ follows a conditional and leaves no fallback.\n\nPitfall: それまで here is not *until then*.\n\nJLPT cue: in paraphrase items the matching option says nothing more is possible once the condition is met (使えない, 出られない).",
@@ -193,7 +193,7 @@ TRY.registerChapter({
             { ja: "もっと早く健康{診断|しんだん}を受けていれば手術をしないですんだものを……。", en: "If only I'd had a checkup sooner, I wouldn't have needed surgery…" },
             { ja: "{内緒|ないしょ}にしておけばお互いハッピーなものを、どうしてしゃべっちゃったんだよ。", en: "If you'd kept it a secret, we'd both be happy. Why did you have to blab?" },
           ],
-          deepDive: "**〜ものを** is a literary relative of のに: *if only…, and yet*. It reproaches someone, often the listener, for a missed chance: a better outcome was available but didn't happen. The typical shape is **AばBものを**, *if A had been done, B would have followed — why didn't you?*: 急げば間に合ったものを (*if you'd hurried, you'd have made it*).\n\nPlain form + ものを; in the non-past, な-adjectives and nouns take な (お互いハッピーなものを). The first half is counterfactual (〜ば, 〜ていれば, 〜ばいい／よかった), and the second is the unwelcome reality or a reproach (どうしてしゃべっちゃったんだよ *why did you blab?*), or is left out: 〜ものを……。 Aimed at oneself or at fate, it expresses regret.\n\nCompare:\n- **〜のに**: everyday; it can also express plain surprise (雨なのに出かけた *went out even though it was raining*), while ものを always implies a missed chance.\n- **〜ものの** (N2): *although*, a neutral concession with no blame (買ったものの使っていない *bought it but haven't used it*).\n\nPitfall: it can't follow a result that actually happened (✗早く来たので空いていたものを).\n\nJLPT cue: a counterfactual 〜ば／〜ていれば before the blank and a bad outcome, a why-question or …… after it.",
+          deepDive: "**〜ものを** is a literary relative of のに: *if only…, and yet*. It reproaches someone, often the listener, for a missed chance: a better outcome was available but didn't happen. The typical shape is **AばBものを**, *if A had been done, B would have followed — why didn't you?*: 急げば間に合ったものを (*if you'd hurried, you'd have made it*).\n\nPlain form + ものを; in the non-past, な-adjectives and nouns take な (お互いハッピーなものを). The first half is usually counterfactual (〜ば, 〜ていれば, 〜ばいい／よかった), and the second is the unwelcome reality or a reproach (どうしてしゃべっちゃったんだよ *why did you blab?*), or is left out: 〜ものを……。 Aimed at oneself or at fate, it expresses regret.\n\nCompare:\n- **〜のに**: everyday; it can also express plain surprise (雨なのに出かけた *went out even though it was raining*), while ものを always carries reproach or regret.\n- **〜ものの** (N2): *although*, a neutral concession with no blame (買ったものの使っていない *bought it but haven't used it*).\n\nPitfall: the first half need not be counterfactual (せっかく教えてやったものを *I went to the trouble of telling you, and yet…*), but the tone is never neutral; a neutral *but* is が or けれど.\n\nJLPT cue: a counterfactual 〜ば／〜ていれば before the blank and a bad outcome, a why-question or …… after it.",
           see: [],
           index: ["〜ものを", "〜ものを。"],
           practice: [
@@ -233,7 +233,7 @@ TRY.registerChapter({
             { ja: "まったくこのシャツときたら、いくつボタンがついているんだ。時間がないのに……。", en: "Honestly, this shirt! How many buttons does it have? And I'm in a rush…" },
             { ja: "最近の若い人ときたら、電車の中で床に座り込んだりして、恥ずかしくないのかしら。", en: "Honestly, young people these days — plopping down on the floor of the train. Aren't they embarrassed?" },
           ],
-          deepDive: "**Nときたら** raises a person or thing close to the speaker as the topic in order to complain about it: *honestly, ~…*. It works like は with an exasperated sigh built in, and the rest of the sentence must be a grievance, often exaggerated (いつも〜ばかり, 全然〜ない, 〜んだから): うちの子ときたら、声をかけても返事もしない (*that kid of mine doesn't even answer when I call*). まったく or もう often come first.\n\nThe topic is typically family, colleagues, one's own things or one's surroundings (このパソコン, 今年の夏), so it sounds like grumbling rather than formal criticism. It is conversational.\n\nCompare:\n- **〜ったら** (N2): the same complaining topic marker, even more casual (あの子ったら… *honestly, that kid…*).\n- **〜といったら**: *speaking of ~*, neutral or positive (京都といったら寺だ *Kyoto means temples*).\n- **〜といったらない** #83: follows an adjective and means *extremely ~*; ときたら follows a noun and introduces the target of a complaint.\n\nPitfall: praise doesn't fit (✗うちの子ときたら、成績がよくて自慢です).\n\nJLPT cue: a noun + blank followed by grumbling about someone's habits or a thing's defects.",
+          deepDive: "**Nときたら** raises a person or thing close to the speaker as the topic in order to complain about it: *honestly, ~…*. It works like は with an exasperated sigh built in, and the rest of the sentence must be a grievance, often exaggerated (いつも〜ばかり, 全然〜ない, 〜んだから): うちの子ときたら、声をかけても返事もしない (*that kid of mine doesn't even answer when I call*). まったく or もう often come first.\n\nThe topic is typically family, colleagues, one's own things or one's surroundings (このパソコン, 今年の夏), so it sounds like grumbling rather than formal criticism. It is conversational.\n\nCompare:\n- **〜ったら** (N2): the same complaining topic marker, even more casual (あの子ったら… *honestly, that kid…*).\n- **〜といったら**: *speaking of ~*, neutral or positive (京都といったら寺だ *Kyoto means temples*).\n- **〜といったらない** #83: follows a feeling adjective or noun and means *extremely ~*; ときたら follows a noun and introduces the target of a complaint.\n\nPitfall: praise doesn't fit (?うちの子ときたら、成績がよくて自慢です).\n\nJLPT cue: a noun + blank followed by grumbling about someone's habits or a thing's defects.",
           see: [83],
           index: ["Nときたら"],
           practice: [
@@ -258,7 +258,7 @@ TRY.registerChapter({
           forms: ["[V-た] + ところで"],
           examples: [
             { ja: "今から急いだところで、間に合うわけがないよ。", en: "Even if we hurry now, there's no way we'll make it." },
-            { ja: "国内のコンクールで優勝したところで、海外でも通用するとは限らないさ。", en: "Even if you win a competition at home, that doesn't mean you'll make it abroad." },
+            { ja: "国内のコンクールで優勝したところで、海外でも通用するとは限らないさ。", en: "Even if you win a competition at home, that doesn't mean you'll hold your own abroad." },
             { ja: "私が言ったところで、彼の気持ちは変わらないだろう。", en: "Even if I tell him, he probably won't change his mind." },
             { ja: "国のトップが変わったところで、国民の政治{不信|ふしん}は簡単には解決できない。", en: "Even if the country's leader changes, the public's distrust of politics won't easily go away." },
           ],
@@ -308,11 +308,11 @@ TRY.registerChapter({
           examples: [
             { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
             { ja: "{誰|だれ}が何と言おうが、一度決めたことを変えるわけにはいかないよ。", en: "Whatever anyone says, I can't change something I've already decided." },
-            { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, what do I care? Do what you want!" },
+            { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Go wherever you like — like I care! Suit yourself!" },
             { ja: "医者に止められようが、たばこはやめられないよ。", en: "Even if the doctor tells me to stop, I can't quit smoking." },
-            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Come rain or wind, I can't very well skip the dog's walk." },
+            { ja: "雨が降ろうが風が吹こうが、犬の散歩は行かないわけにはいかないんです。", en: "Rain or wind, I can't very well skip walking the dog." },
           ],
-          deepDive: "**V-（よ）うが / V-（よ）うと** is an emphatic *no matter ~, even if ~*. The volitional form + が or と (interchangeable here) introduces a condition, and the main clause states a resolve that won't bend (何年かかろうが、必ず開発します *however many years it takes, we will develop it*) or a fact that can't change. It usually comes with a question word or いくら／どんなに／たとえ: 誰が何と言おうが (*whatever anyone says*). い-adjectives use 〜かろう, nouns and な-adjectives だろう (高かろうが, 雨だろうと).\n\nIt is stronger than 〜ても and suits determined speech and writing; with お前 and 俺 it sounds rough.\n\nCompare:\n- **たとえ〜ても** (N2): the plain emphatic *even if*.\n- **〜（よ）うが〜まいが** #79: an affirmative–negative pair, *whether or not*.\n- **〜であれ〜であれ** #38: noun-based *be it A or B*, formal.\n- **〜（よ）うにも〜ない** #84: the same volitional form, but *want to ~ and can't*.\n\nPitfall: the main clause must hold in spite of the condition, not because of it (✗いくら頼もうが、手伝ってくれるだろう).\n\nJLPT cue: a question word or いくら before the blank.",
+          deepDive: "**V-（よ）うが / V-（よ）うと** is an emphatic *no matter ~, even if ~*. The volitional form + が or と (interchangeable here) introduces a condition, and the main clause states a resolve that won't bend (何年かかろうが、必ず開発します *however many years it takes, we will develop it*) or a fact that can't change. It usually comes with a question word or いくら／どんなに／たとえ: 誰が何と言おうが (*whatever anyone says*). い-adjectives use 〜かろう, nouns and な-adjectives だろう (高かろうが, 雨だろうと).\n\nIt is stronger than 〜ても and suits determined speech and writing; with お前 and 俺 it sounds rough.\n\nCompare:\n- **たとえ〜ても** (N2): the plain emphatic *even if*.\n- **〜（よ）うが〜まいが** #79: an affirmative–negative pair, *whether or not*.\n- **〜であれ〜であれ** #38: noun-based *be it A or B*, formal.\n- **〜（よ）うにも〜ない** #84: the same volitional form, but *want to ~ and can't*.\n\nPitfall: the main clause must hold in spite of the condition, not because of it (?いくら頼もうが、手伝ってくれるだろう).\n\nJLPT cue: a question word or いくら before the blank.",
           see: [79, 38, 84],
           index: ["Vようが", "Vようと"],
           practice: [
@@ -379,7 +379,7 @@ TRY.registerChapter({
               left: ["聞く人がいようがいまいが、", "責任のある地位に{就|つ}こうが{就|つ}くまいが、", "{桜|さくら}が咲こうが咲くまいが、", "使おうと使うまいと、"],
               right: ["今度の土曜はみんなで花見だ。", "水道や電気の基本料金は払わなければなりません。", "彼は日曜日のたびにギターを手に駅前で歌い続けた。", "自分の仕事は{誠意|せいい}をもってやらなければならない。"],
               answer: [2, 3, 0, 1],
-              en: ["Whether or not anyone was listening, every Sunday he went on singing in front of the station, guitar in hand.", "Whether or not you hold a position of responsibility, you must do your own work sincerely.", "Whether the cherry blossoms are out or not, this Saturday we're all going flower viewing.", "Whether you use them or not, you have to pay the basic charges for water and electricity."],
+              en: ["Whether or not anyone was listening, every Sunday he went on singing in front of the station, guitar in hand.", "Whether or not you hold a position of responsibility, you have to do your own job conscientiously.", "Whether the cherry blossoms are out or not, this Saturday we're all going flower viewing.", "Whether you use them or not, you have to pay the basic charges for water and electricity."],
             },
           ],
         },
@@ -399,9 +399,9 @@ TRY.registerChapter({
             { ja: "仕事が忙しいなら忙しいで、{誰|だれ}かに手伝ってもらうとか、断るとか、何か方法を考えたほうがいいですよ。", en: "If you're busy with work, fine, but then you should figure out some way to deal with it — get someone to help, or turn things down." },
             { ja: "A：すみません。今日の飲み会、やっぱり行けなくなってしまって……。\nB：来られないなら来られないで、早く連絡してくれればよかったのに……。もう予約取り消しできないんだよ。", en: "A: Sorry. It turns out I can't make it to tonight's drinks after all…\nB: If you can't come, fine, but you should have told me sooner… It's too late to cancel the reservation now." },
             { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお{見合|みあ}いさせられることになっちゃって……。\nB：{嫌|いや}なら{嫌|いや}で、はっきり言えばよかったのに……。", en: "A: I think it's too early for me to get married, but I've been roped into an arranged-marriage meeting…\nB: If you didn't want to, fine, but then you should have said so clearly…" },
-            { ja: "病気なら病気で、おとなしく寝てなきゃだめじゃない。", en: "If you're sick, then you should be resting quietly in bed!" },
+            { ja: "病気なら病気で、おとなしく寝てなきゃだめじゃない。", en: "If you're sick, then act like it — you should be resting quietly in bed!" },
           ],
-          deepDive: "**AならAで** repeats the same word (辞めるなら辞めるで, 嫌なら嫌で): the speaker accepts someone else's situation A — *if that's how it is, fine* — and then says what they ought to do given A, or complains that they didn't: 来られないなら来られないで、早く連絡してくれればよかったのに (*if you can't come, fine, but you should have told me sooner*).\n\nVerbs and い-adjectives take the present form only; な-adjectives and nouns drop だ (病気なら病気で). The second half is advice, a demand or a のに complaint, never a satisfied report. The tone is a little impatient and conversational.\n\nCompare:\n- **〜たら〜たで** #55 (and its Plus 〜ば〜で): *if it does happen, that brings its own issues* (車はあったらあったで維持費がかかる *even if you have a car, it costs money to keep*); it describes consequences, not advice to someone.\n- **〜なら** alone: 辞めるなら、仕事を片付けてから. The repetition adds *(I accept that, but) at least…*.\n- **〜は〜で**: *A, for its part* (私は私で忙しい *I'm busy myself*).\n\nPitfall: past forms aren't used (✗辞めたなら辞めたで).\n\nJLPT cue: after AならAで, pick the option that gives advice or a reproach.",
+          deepDive: "**AならAで** repeats the same word (辞めるなら辞めるで, 嫌なら嫌で): the speaker accepts someone else's situation A — *if that's how it is, fine* — and then says what they ought to do given A, or complains that they didn't: 来られないなら来られないで、早く連絡してくれればよかったのに (*if you can't come, fine, but you should have told me sooner*).\n\nVerbs and い-adjectives take the present form only; な-adjectives and nouns drop だ (病気なら病気で). The second half is advice, a demand or a のに complaint, never a satisfied report. The tone is a little impatient and conversational.\n\nCompare:\n- **〜たら〜たで** #55 (and its Plus 〜ば〜で): *if it does happen, that brings its own issues* (車はあったらあったで維持費がかかる *even if you have a car, it costs money to keep*); it describes consequences, not advice to someone.\n- **〜なら** alone: 辞めるなら、仕事を片付けてから. The repetition adds *(I accept that, but) at least…*.\n- **〜は〜で**: *A, for its part* (私は私で忙しい *I'm busy myself*).\n\nPitfall: the book allows the present form only (辞めるなら辞めるで, not 辞めたなら辞めたで).\n\nJLPT cue: after AならAで, pick the option that gives advice or a reproach.",
           see: [55],
           index: ["〜なら〜で"],
           practice: [
@@ -446,7 +446,7 @@ TRY.registerChapter({
           forms: ["[N] + にすれば", "[N] + にしたら", "[N] + にしても"],
           examples: [
             { ja: "おにぎりを作るのは簡単だと思うかもしれませんが、作ったことがない人にすれば、{結|けっ}{構|こう}難しいことなんですよ。", en: "You may think making rice balls is easy, but for someone who has never made them, it's actually quite hard." },
-            { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can ever accept." },
+            { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept." },
             { ja: "人員{削減|さくげん}は会社側にしてもメリットばかりとは言えまい。", en: "Even for the company, staff cuts are hardly all upside." },
           ],
           plus: [
@@ -461,7 +461,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**Nにすれば / Nにしたら / Nにしても** (and the Plus **Nにしてみれば**) = *from N's point of view*. The speaker imagines how things look to another person or group, usually against a different view: 親は反対するが、本人にすれば真剣な夢なのだ (*the parents object, but to the person concerned it's a serious dream*). N is a person, group or even an animal (ペットにしたら), and the rest of the sentence is that party's feeling or interest, often softened with だろう or のではないか. にしても adds *for N too*; にしてみれば is the most empathetic and can also set the speaker's own view against others' (英語が苦手な私にしてみれば *to me, bad at English as I am*).\n\nCompare:\n- **〜からすれば** (N2): can also mean *from N's standpoint* (親からすれば), but has a second use, *judging from* a piece of evidence (この成績からすれば合格だろう *judging from these grades, you'll pass*); にすれば has only the viewpoint use.\n- **〜にとって**: a neutral *for N* (私にとって大切だ *it matters to me*).\n- **Nにしたところで** #86: *even N is no exception* — N is like everyone else, not a viewpoint.\n\nPitfall: after にしたら, the clause must be N's feeling, not the speaker's own opinion.\n\nJLPT cue: a contrast between what one side says and what the other would feel.",
+          deepDive: "**Nにすれば / Nにしたら / Nにしても** (and the Plus **Nにしてみれば**) = *from N's point of view*. The speaker imagines how things look to another person or group, usually against a different view: 親は反対するが、本人にすれば真剣な夢なのだ (*the parents object, but to the person concerned it's a serious dream*). N is a person, group or even an animal (ペットにしたら), and the rest of the sentence is that party's feeling or interest, often softened with だろう or のではないか. にしても adds *for N too*; にしてみれば is the most empathetic and can also set the speaker's own view against others' (英語が苦手な私にしてみれば *to me, bad at English as I am*).\n\nCompare:\n- **〜からすれば** (N2): can also mean *from N's standpoint* (親からすれば), but has a second use, *judging from* a piece of evidence (この成績からすれば合格だろう *judging from these grades, you'll pass*); にすれば has only the viewpoint use.\n- **〜にとって**: a neutral *for N* (私にとって大切だ *it matters to me*).\n- **Nにしたところで** #86: *even N is no exception* — N is like everyone else, not a viewpoint.\n\nPitfall: when N is someone else, the clause must be N's feeling or interest, not the speaker's own opinion about it.\n\nJLPT cue: a contrast between what one side says and what the other would feel.",
           see: [86],
           index: ["Nにすれば", "Nにしたら", "Nにしても", "Nにしてみれば"],
           practice: [
@@ -545,7 +545,7 @@ TRY.registerChapter({
           bank: ["ものを", "までのことだ", "ときたら", "じゃあるまいし", "それまでだ", "にすれば"],
           items: [
             { q: "{高橋|たかはし}君＿＿、新婚旅行先で結婚指輪をなくしちゃったんだって。", answer: "ときたら", en: "Honestly, that Takahashi — went and lost the wedding ring on the honeymoon, I hear.", why: { en: "N + ときたら introduces someone the speaker is complaining about (#76); losing the wedding ring on the honeymoon is the grievance." } },
-            { q: "歴史学者＿＿、こんな専門的な問題が大学の受験生にわかるわけないじゃないか。", answer: "じゃあるまいし", en: "It's not as if they were historians — how could college applicants be expected to answer such a specialized question?", why: { en: "The applicants obviously aren't historians, so 歴史学者じゃあるまいし dismisses that premise before the criticism わかるわけない (#72)." } },
+            { q: "歴史学者＿＿、こんな専門的な問題が大学の受験生にわかるわけないじゃないか。", answer: "じゃあるまいし", en: "It's not as if they're historians. There's no way college applicants could answer such a specialized question!", why: { en: "The applicants obviously aren't historians, so 歴史学者じゃあるまいし dismisses that premise before the criticism わかるわけない (#72)." } },
             { q: "テレビドラマを勝手にインターネットにアップロードする人がいるが、作った側の人間＿＿、許しがたい{行為|こうい}だ。", answer: "にすれば", en: "Some people upload TV dramas to the internet without permission, but from the point of view of the people who made them, it's unforgivable.", why: { en: "作った側の人間にすれば takes the creators' point of view, set against the uploaders' (#81)." } },
             { q: "消火器があっても使い方を知らなければ＿＿。", answer: "それまでだ", en: "Even if you have a fire extinguisher, it's useless if you don't know how to use it.", why: { en: "〜ば + それまでだ: if you don't know how to use it, the extinguisher is worthless (#74)." } },
             { q: "道がないなら、自分で道を作る＿＿。", answer: "までのことだ", en: "If there's no path, I'll simply make my own.", why: { en: "A condition (道がないなら) + V-る + までのことだ presents a simple fallback, *I'll just make my own* (#82)." } },

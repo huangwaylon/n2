@@ -12,7 +12,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "guy, fellow (casual, often rough); thing, one (casual)",
     note: "Very casual, used among friends or when speaking down: いい奴 (a good guy), 変な奴, 奴ら (those guys). It can also stand for things: もっと大きい奴ある？ Never use it about superiors or in polite speech; 人 or 方 are the neutral and polite words.",
     rx: ["やす", "やち", "よつ"],
-    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, you're not some kid running an errand! Who just drops off a catalog and comes straight back?", at: "ch/7" },
+    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, this isn't some kid's errand! Who just leaves a catalog and comes straight back?", at: "ch/7" },
     ex: [
       { ja: "{口|くち}は悪いけど、あいつは本当にいい**{奴|やつ}**なんだ。", en: "He has a sharp tongue, but he's a really good guy.", alt: ["{訳|わけ}", "{役|やく}", "{物|もの}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "passion, enthusiasm, ardor",
     note: "Strong inner drive: 情熱を注ぐ／傾ける (pour one's passion into), 情熱的な (passionate). 熱意 is earnest zeal for a task and sounds more businesslike; 熱心 is the adjective “keen.”",
     rx: ["じょねつ", "せいねつ", "じょうねち"],
-    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's brimming passion comes through in this work.", at: "gp/73" },
+    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work.", at: "gp/73" },
     ex: [
       { ja: "彼は{残|のこ}りの人生のすべての**{情熱|じょうねつ}**を{教育|きょういく}に{注|そそ}いだ。", en: "For the rest of his life, he poured all his passion into education.", alt: ["{情報|じょうほう}", "{感情|かんじょう}", "{熱湯|ねっとう}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "all-you-can-eat",
     note: "〜放題 means “as much as one likes”: 飲み放題 (all-you-can-drink), 使い放題. With other verbs it is often critical: 言いたい放題 (saying whatever one pleases), 散らかし放題 (left in a total mess).",
     rx: ["たべほうたい", "たべほだい", "たべぼうだい"],
-    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say it was all-you-can-eat, so not eating would be a waste, they came back with their plate piled high.", at: "gp/73" },
+    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "They came back with their plate piled high, as if to say, “It's all-you-can-eat — not eating would be a waste.”", at: "gp/73" },
     ex: [
       { ja: "この店は2,000円でケーキが**{食|た}べ{放題|ほうだい}**だ。", en: "At this shop, it's all-you-can-eat cake for 2,000 yen.", alt: ["{食|た}べ{歩|ある}き", "{食|た}べ{残|のこ}し", "{食|た}べ{頃|ごろ}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to master, handle with skill, make full use of",
     note: "Using a tool or skill to its full potential: パソコンを使いこなす, 敬語を使いこなす. Also written 使い熟す. Compare 使い慣れる (get used to using) and 使い果たす (use up entirely).",
     rx: ["しいこなす", "つかいごなす", "つかいこなう"],
-    book: { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、**使いこなせる**技術者がいなければそれまでだ。", en: "Even if you install the latest medical equipment, it's useless without technicians who can operate it.", at: "gp/74" },
+    book: { ja: "{新型|しんがた}の{医療機器|いりょうきき}をそろえても、**使いこなせる**技術者がいなければそれまでだ。", en: "Even if you install the latest medical equipment, it's all for nothing without technicians who can make full use of it.", at: "gp/74" },
     ex: [
       { ja: "祖母は{最新|さいしん}のスマホを**{使|つか}いこなして**いる。", en: "My grandmother has mastered the latest smartphone.", alt: ["{使|つか}い{果|は}たして", "{使|つか}い{捨|す}てて", "{使|つか}い{古|ふる}して"] },
     ] },
@@ -240,7 +240,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "being accepted, valid or effective (somewhere); passing as; holding good",
     note: "世界で通用する技術 (skills that hold up worldwide), その言い訳は通用しない (that excuse won't work), 通用口 (staff entrance). 通じる is closer to “be understood, get through.”",
     rx: ["つうよ", "つよう", "とうよう"],
-    book: { ja: "国内のコンクールで優勝したところで、海外でも**通用**するとは限らないさ。", en: "Even if you win a competition at home, that doesn't mean you'll make it abroad.", at: "gp/77" },
+    book: { ja: "国内のコンクールで優勝したところで、海外でも**通用**するとは限らないさ。", en: "Even if you win a competition at home, that doesn't mean you'll hold your own abroad.", at: "gp/77" },
     ex: [
       { ja: "学生{気分|きぶん}のままでは、社会では**{通用|つうよう}**しないよ。", en: "If you keep acting like a student, it won't fly in the working world.", alt: ["{通勤|つうきん}", "{利用|りよう}", "{通信|つうしん}"] },
     ] },
@@ -344,7 +344,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "(court) judgment, ruling, verdict, sentence",
     note: "判決が出る／下る (a ruling is handed down), 判決を言い渡す, 無罪判決, 有罪判決. 判断 is ordinary judgment; 判定 is a decision by a referee or judge in a contest.",
     rx: ["はんげつ", "ばんけつ", "はんけち"],
-    book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can ever accept.", at: "gp/81" },
+    book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept.", at: "gp/81" },
     ex: [
       { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
     ] },

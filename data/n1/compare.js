@@ -382,7 +382,7 @@ TRY.registerCompare([
         ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely get angry after being kept waiting a whole hour." },
         note: "Person or thing + にしたところで (casual にしたって): \"even N is no exception\". Takes someone expected to be different and says they are the same as everyone else." },
       { pattern: "Nにしたら", level: "N1", no: 81,
-        ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can ever accept." },
+        ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept." },
         note: "Person + にしたら: \"from N's point of view\" (= にすれば, にしてみれば)." }
     ]
   },
@@ -572,7 +572,7 @@ TRY.registerCompare([
         ex: { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
         note: "V-（よ）う + が: \"no matter ~ / even if ~\" (often with どんなに, 何を, たとえ). The main clause, a firm resolve or an unchangeable fact, is unaffected." },
       { pattern: "Vようと", level: "N1", no: 78,
-        ex: { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, what do I care? Do what you want!" },
+        ex: { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Go wherever you like — like I care! Suit yourself!" },
         note: "V-（よ）う + と: \"no matter ~ / even if ~\" (= ようが)." },
       { pattern: "VようがVまいが", level: "N1", no: 79,
         ex: { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it's useful or not, it's human nature to try to get to the bottom of what puzzles us." },
