@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "limit; limitation; the breaking point",
     note: "The point beyond which one cannot go: 限界がある (there are limits), 限界に達する (reach the limit), 体力の限界 (the limit of one's stamina), もう限界だ (I can't take any more). 限度 is a set maximum (限度額, a credit limit); 限界 is the natural limit of ability or endurance.",
     rx: ["げんがい", "けんかい", "げんけい"],
-    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "Given the medical equipment and the number of staff alone, there will be limits to what they can handle.", at: "ch/9" },
+    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "The medical equipment and the number of staff alone would surely limit what they can handle.", at: "ch/9" },
     ex: [
       { ja: "{三日|みっか}{連続|れんぞく}の{徹夜|てつや}で、{体力|たいりょく}はもう**{限界|げんかい}**だ。", en: "After staying up all night three nights in a row, I'm at the end of my strength.", alt: ["{限定|げんてい}", "{境界|きょうかい}", "{世界|せかい}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "serious injury; severe wound",
     note: "A news and medical word: 重傷を負う (suffer serious injuries), 重傷者 (the seriously injured). Its opposite is 軽傷 (minor injury); 重症 (also じゅうしょう) is a severe illness or condition, a different word with the same reading.",
     rx: ["じゅうそう", "ちょうしょう", "じゅしょう"],
-    book: { ja: "100人からいるけが{人|にん}の中には、命にかかわる**{重傷者|じゅうしょうしゃ}**もいます。", en: "Among as many as a hundred injured people, some will have life-threatening injuries.", at: "ch/9" },
+    book: { ja: "100人からいるけが{人|にん}の中には、命にかかわる**{重傷者|じゅうしょうしゃ}**もいます。", en: "Among the hundred or more injured, some will have life-threatening injuries.", at: "ch/9" },
     ex: [
       { ja: "{交通事故|こうつうじこ}で、{運転手|うんてんしゅ}が**{重傷|じゅうしょう}**を{負|お}った。", en: "The driver was seriously injured in the traffic accident.", alt: ["{重箱|じゅうばこ}", "{重力|じゅうりょく}", "{重視|じゅうし}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "heartless; cold-blooded; unfeeling",
     note: "Without human feeling or pity: 非情な決断 (a ruthless decision), 非情な世界 (a cold, pitiless world). A homophone of 非常 (emergency; extremely), so watch the kanji. 冷酷 is harsher, cruel on purpose; 非情 can describe a necessary but pitiless choice.",
     rx: ["ひせい", "ひぞう", "ひいじょう"],
-    book: { ja: "確かに、見ようによっては**{非情|ひじょう}**な{行為|こうい}かもしれません。", en: "True, depending on how you look at it, it may be a heartless thing to do.", at: "ch/9" },
+    book: { ja: "確かに、見ようによっては**{非情|ひじょう}**な{行為|こうい}かもしれません。", en: "True, depending on how you look at it, it may seem a heartless thing to do.", at: "ch/9" },
     ex: [
       { ja: "{勝負|しょうぶ}の{世界|せかい}は**{非情|ひじょう}**で、{結果|けっか}を{出|だ}せなければすぐに{交代|こうたい}させられる。", en: "The world of competition is merciless: if you can't deliver results, you're replaced right away.", alt: ["{同情|どうじょう}", "{人情|にんじょう}", "{事情|じじょう}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "calm; cool-headed; composed",
     note: "Keeping one's head and judging without emotion: 冷静に判断する, 冷静さを失う (lose one's composure), 冷静になれ. 落ち着いた is the everyday word for calm manner; 冷静 stresses clear, unemotional thinking. Not about temperature (that is 冷たい).",
     rx: ["れいじょう", "れせい", "りょうせい"],
-    book: { ja: "私たちも**{冷静|れいせい}**に受け止めなければならないことがよくわかりました。", en: "It's very clear to me now that this is something the rest of us must also accept calmly.", at: "ch/9" },
+    book: { ja: "私たちも**{冷静|れいせい}**に受け止めなければならないことがよくわかりました。", en: "I understand now that this is something the rest of us must also accept calmly.", at: "ch/9" },
     ex: [
       { ja: "{火事|かじ}のときこそ、**{冷静|れいせい}**に{行動|こうどう}することが{大切|たいせつ}だ。", en: "In a fire, of all times, it's important to act calmly.", alt: ["{冷淡|れいたん}", "{安静|あんせい}", "{静止|せいし}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to accept (and come to terms with); to take (something a certain way); to catch",
     note: "Figuratively, to face a fact or criticism squarely: 現実を受け止める (accept reality), 批判を真摯に受け止める (take the criticism seriously), 重く受け止める. Literally, to catch a ball or blow. 受け入れる is to accept a proposal or people; 受け止める is to take something in and come to terms with it.",
     rx: ["うけどめる", "うけやめる", "じゅけとめる"],
-    book: { ja: "私たちも{冷静|れいせい}に**受け止め**なければならないことがよくわかりました。", en: "It's very clear to me now that this is something the rest of us must also accept calmly.", at: "ch/9" },
+    book: { ja: "私たちも{冷静|れいせい}に**受け止め**なければならないことがよくわかりました。", en: "I understand now that this is something the rest of us must also accept calmly.", at: "ch/9" },
     ex: [
       { ja: "{会社|かいしゃ}は{利用者|りようしゃ}からの{苦情|くじょう}を{重|おも}く**{受|う}け{止|と}めて**いる。", en: "The company is taking the complaints from users seriously.", alt: ["{受|う}け{付|つ}けて", "{引|ひ}き{止|と}めて", "{受|う}け{持|も}って"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to offer; to volunteer; to come forward (with a request or report)",
     note: "To state one's wish, offer or report to someone, usually an organization or superior: 協力を申し出る (offer to help), 寄付を申し出る, 辞退を申し出る. The noun is 申し出 (an offer, request). 申し込む is to apply or sign up.",
     rx: ["しんしでる", "もうしだる", "もうしいでる"],
-    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Ito offered a personal donation of no less than 100 million yen.", at: "gp/107" },
+    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Ito offered to donate no less than 100 million yen out of his own pocket.", at: "gp/107" },
     ex: [
       { ja: "{近所|きんじょ}の{人|ひと}たちが、{片付|かたづ}けの{手伝|てつだ}いを**{申|もう}し{出|で}て**くれた。", en: "The neighbors offered to help with the cleanup.", alt: ["{申|もう}し{込|こ}んで", "{申|もう}し{付|つ}けて", "{差|さ}し{出|だ}して"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "issue; publication (of books, stamps, certificates, etc.)",
     note: "Putting out printed or official items: 切手を発行する, 証明書の発行, 雑誌の発行部数 (circulation). 発刊 is launching a publication; 発売 is putting goods on sale; 発効 (also はっこう) is a law or treaty coming into force.",
     rx: ["はつこう", "はっぎょう", "はっこ"],
-    book: { ja: "この切手は**{発行|はっこう}**枚数が少なかったこともあり、今では1枚50万円からの{値|ね}がついているそうだ。", en: "Partly because so few of these stamps were issued, I hear they now fetch as much as 500,000 yen apiece.", at: "gp/107" },
+    book: { ja: "この切手は**{発行|はっこう}**枚数が少なかったこともあり、今では1枚50万円からの{値|ね}がついているそうだ。", en: "Partly because so few of these stamps were issued, I hear they now sell for upwards of 500,000 yen apiece.", at: "gp/107" },
     ex: [
       { ja: "{住民票|じゅうみんひょう}の**{発行|はっこう}**には、{本人確認|ほんにんかくにん}の{書類|しょるい}が{必要|ひつよう}です。", en: "To have a certificate of residence issued, you need a document proving your identity.", alt: ["{発生|はっせい}", "{発明|はつめい}", "{進行|しんこう}"] },
     ] },
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "identifying, pinpointing; specific, particular",
     note: "As a verb, to pin down exactly who or what: 犯人を特定する, 原因を特定する. As a modifier, specific: 特定の人 (particular people), 不特定多数 (an unspecified number of people). 指定 is designating something officially.",
     rx: ["とくじょう", "どくてい", "とってい"],
-    book: { ja: "警察は、ついに事件の＿＿にかかわる人物を**{特定|とくてい}**した。", en: "The police have finally identified someone connected to the truth behind the case.", at: "gp/108" },
+    book: { ja: "警察は、ついに事件の＿＿にかかわる人物を**{特定|とくてい}**した。", en: "The police have finally identified a person connected with what really happened in the case.", at: "gp/108" },
     ex: [
       { ja: "{専門家|せんもんか}が{調|しら}べているが、{故障|こしょう}の{原因|げんいん}はまだ**{特定|とくてい}**されていない。", en: "Experts are looking into it, but the cause of the breakdown hasn't been pinpointed yet.", alt: ["{特有|とくゆう}", "{指定|してい}", "{設定|せってい}"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(one's) circumstances; situation in life; lot",
     note: "The circumstances of a person's life, especially family, wealth and upbringing: 恵まれた境遇 (fortunate circumstances), 同じ境遇の人, 苦しい境遇に育つ. 環境 is surroundings in general; 境遇 is one's personal lot.",
     rx: ["きょうぐ", "けいぐう", "きょうこう"],
-    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "You can be in the same circumstances and still feel happy, depending on how you look at things.", at: "gp/110" },
+    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, you can still feel happy; it's all in how you look at things.", at: "gp/110" },
     ex: [
       { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started working to support children who are in the same circumstances he was.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fierce; intense (competition, battle)",
     note: "A written word, almost always with 競争 or 争い: 熾烈な競争, 熾烈を極める (be extremely fierce). 激しい is the everyday word. 熾 is outside the everyday (常用) kanji list, so newspapers write it し烈.",
     rx: ["しいれつ", "しょくれつ", "しれい"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "スマホ{市場|しじょう}では、{各社|かくしゃ}の**{熾烈|しれつ}**な{競争|きょうそう}が{続|つづ}いている。", en: "In the smartphone market, fierce competition among the makers continues.", alt: ["{鮮烈|せんれつ}", "{熱烈|ねつれつ}", "{痛烈|つうれつ}"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "domain; field; territory, realm",
     note: "An area with limits: a field of study or activity (専門領域, 未知の領域), or a territory (領域を侵す). 分野 is a field of study or work; 領域 also suggests a boundary one may cross, as in the passage's この領域にまで踏み込んだ.",
     rx: ["りょういく", "れいいき", "りょうえき"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "{彼|かれ}の{研究|けんきゅう}は、{医学|いがく}と{工学|こうがく}の{両方|りょうほう}の**{領域|りょういき}**にまたがっている。", en: "His research spans the fields of both medicine and engineering.", alt: ["{領収|りょうしゅう}", "{地域|ちいき}", "{要領|ようりょう}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to step into; to go (deeply) into (a matter); to raid, burst into",
     note: "Literally to step forward into a place: 足を踏み込む. Figuratively, to go further into a topic or someone's affairs: 踏み込んだ議論 (an in-depth discussion), プライバシーに踏み込む. Also used for a police raid: 警察が踏み込む.",
     rx: ["ふみごむ", "とうみこむ", "ふみいむ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion even got into the budget issue.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{踏|ふ}み{切|き}った"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "always; at all times; constantly",
     note: "A formal, written equivalent of いつも, typical of notices and specifications: 常時開放 (always open), 常時監視 (constant monitoring), 常時10名が勤務. The opposite is 臨時 (temporary, only when needed).",
     rx: ["じょうし", "つねじ", "しょうじ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "この{施設|しせつ}には、{看護師|かんごし}が**{常時|じょうじ}**{待機|たいき}している。", en: "Nurses are on standby at this facility around the clock.", alt: ["{時差|じさ}", "{同時|どうじ}", "{当時|とうじ}"] },
     ] },
@@ -547,7 +547,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to differ; to be different",
     note: "The written counterpart of 違う: AとBは異なる, 異なる意見, 国によって異なる. Unlike 違う, it does not mean “wrong” (✗答えが異なる for a mistaken answer).",
     rx: ["いなる", "ことなす", "ことわる"],
-    book: { ja: "気候も{地形|ちけい}も**異なる**日本では限界があります。", en: "Japan, with its different climate and terrain, faces limits.", at: "ch/9/review" },
+    book: { ja: "気候も{地形|ちけい}も**異なる**日本では限界があります。", en: "In Japan, where both the climate and the terrain are different, these have their limits.", at: "ch/9/review" },
     ex: [
       { ja: "{同|おな}じ{料理|りょうり}でも、{地方|ちほう}によって{味付|あじつ}けが**{異|こと}なる**。", en: "Even the same dish is seasoned differently from region to region.", alt: ["{変|か}える", "{誤|あやま}る", "{改|あらた}める"] },
     ] },
