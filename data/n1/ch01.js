@@ -88,7 +88,7 @@ TRY.registerChapter({
           usage: { ja: "「〜とあって」は「特別な〜なので、普通と違う／他と違う状況になる」と言いたいときに使われる。社会的な現象や{客観的|きゃっかんてき}な事実について言うときに使う。", en: "〜とあって is used when you want to say “because it is a special ~, the situation is different from usual / different from elsewhere.” It is used when talking about social phenomena or objective facts." },
           forms: ["[Pl] + とあって\n［[なA]（だ）　[N]（だ）］"],
           examples: [
-            { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "With today being the first Sunday of summer vacation, beaches all over the country were packed with people." },
+            { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人でにぎわった。", en: "Today being the first Sunday of summer vacation, beaches all over the country were packed with people." },
             { ja: "この{物件|ぶっけん}は、静かで交通も便利とあって、{入居|にゅうきょ}希望者が{殺到|さっとう}している。", en: "Because this property is quiet and convenient to public transportation, it has been flooded with applications from people wanting to move in." },
             { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、{遺伝学|いでんがく}の研究対象として注目されている。", en: "The shape of the panda's front paw is so unusual that it has drawn attention as a subject of genetic research." },
             { ja: "あのダ・ヴィンチのモナリザが見られるとあって、開館前から長い列ができたという。", en: "Since this was a chance to see none other than da Vinci's Mona Lisa, a long line reportedly formed even before the museum opened." },
@@ -107,7 +107,7 @@ TRY.registerChapter({
                   options: ["まあまあだった", "ひどいものだった", "{素晴|すば}らしいものだった"],
                   answer: 2,
                   en: "Because it was a dish made by the chef of a famous restaurant, everything — the ingredients, the taste and the presentation — was superb.",
-                  why: { en: "とあって presents something special (a famous chef's cooking), and the result matches that special status: 素晴らしいものだった." },
+                  why: { en: "とあって presents something special (a famous chef's cooking), and the result matches that special status: 素晴らしいものだった. まあまあ (so-so) and ひどい (awful) go against what the special status leads you to expect." },
                 },
                 {
                   q: "突然、首相が{辞意|じい}を{表明|ひょうめい}したとあって、（　）。",
@@ -133,10 +133,10 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "凍った湖の上でのスケートは、{北国|きたぐに}ならではの楽しい遊びだ。", en: "Skating on a frozen lake is a fun pastime you can only enjoy in the snowy north." },
-            { ja: "{大企業|だいきぎょう}にはない、{中小企業|ちゅうしょうきぎょう}ならではの良さについて考える。", en: "We will look at the strengths that only small and medium-sized companies have — ones that large corporations lack." },
+            { ja: "{大企業|だいきぎょう}にはない、{中小企業|ちゅうしょうきぎょう}ならではの良さについて考える。", en: "Let's consider the strengths that only small and medium-sized companies have — ones that large corporations lack." },
             { ja: "{初詣|はつもうで}は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "It's not unusual for people to make their New Year's visit to a Shinto shrine, get married in a church and hold funerals at a Buddhist temple. I think that could only happen in Japan, with its tolerant attitude toward religion." },
           ],
-          deepDive: "**N₁ならではのN₂** names something that only N₁ has or offers: *an N₂ you can find only in or with N₁*. It carries admiration (the book's praise icon): 北国ならではの遊び (*a pastime only the snowy north offers*), 専門店ならではの味. The best paraphrase is 〜でしか〜ない: 専門店でしか出せない独特の味.\n\nForms: ならではの before a noun; 〜はNならではだ as a predicate (the ＊ note). N₁ is a noun for a place, season, person, profession or kind of organization; a verb can't precede it.\n\nCompare:\n- **〜らしい**: what is typical, not necessarily unique: 子どもらしい絵 (*a childlike picture*).\n- **〜特有の／〜独特の**: neutral or negative *peculiar to*: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*). ならではの is normally kept for merits.\n- **〜とあって** (#2) presents a special status as a reason; ならではの describes the special thing itself.\n\nPitfall: reading ならでは as the conditional なら. これは専門店ならどこでも似ている味 says the opposite of 専門店ならではの味.\n\nJLPT cue: when の is already printed after the blank (日本の春（　）の光景), the answer is ならでは, not ならではの.",
+          deepDive: "**N₁ならではのN₂** names something that only N₁ has or offers: *an N₂ you can find only in or with N₁*. It carries admiration (the book's praise icon): 北国ならではの遊び (*a pastime only the snowy north offers*), 専門店ならではの味. The best paraphrase is 〜でしか〜ない: 専門店でしか出せない独特の味.\n\nForms: ならではの before a noun; 〜はNならではだ as a predicate (the ＊ note). N₁ is a noun for a place, season, person, profession or kind of organization; a verb can't precede it.\n\nCompare:\n- **〜らしい**: what is typical, not necessarily unique: 子どもらしい絵 (*a childlike picture*).\n- **〜特有の／〜独特の**: neutral *peculiar to*, used for drawbacks too: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*). ならではの is normally kept for merits.\n- **〜とあって** (#2) presents a special status as a reason; ならではの describes the special thing itself.\n\nPitfall: reading ならでは as the conditional なら. これは専門店ならどこでも似ている味 says the opposite of 専門店ならではの味.\n\nJLPT cue: when の is already printed after the blank (日本の春（　）の光景), the answer is ならでは, not ならではの.",
           see: [2],
           index: ["N₁ならではのN₂", "Nならではだ", "NならではのN"],
           practice: [
@@ -180,7 +180,7 @@ TRY.registerChapter({
             { ja: "この山は{桜|さくら}の季節もいいが、それにもまして{紅葉|こうよう}の{頃|ころ}が美しい。", en: "This mountain is lovely in cherry-blossom season, but it is even more beautiful when the autumn leaves turn." },
             { ja: "両親が私の言葉を信じてくれたことが、何にもましてありがたかった。", en: "More than anything else, I was grateful that my parents believed what I told them." },
           ],
-          deepDive: "**Nにもまして** means *even more than N*, where N is already at a high level: 普段にもまして忙しい = *they are always busy, and now busier still*. まして comes from 増す *to increase*; the も signals that N itself is considerable.\n\nThe reference point is something known — the usual state, the past, a previous item: 例年にもまして, 以前にもまして, 前作にもまして. それにもまして needs an antecedent in the sentence: 桜の季節もいいが、それにもまして紅葉の頃が美しい. With question words it becomes a superlative (the ＊ note): 何にもまして *above all*, 誰にもまして *more than anyone*, いつにもまして *more than ever*. The register is formal; speech prefers いつもより or 何よりも.\n\nCompare:\n- **〜以上に**: close in meaning and more neutral: 予想以上に (*more than expected*).\n- **〜もさることながら** (#37): *A is fine, but B even more so*; example ③ could be 桜の季節もさることながら、紅葉の頃が美しい.\n- The adverb **まして（や）** means *let alone*: 大人でも難しい。まして子どもには無理だ (*it's hard even for adults, let alone children*).\n\nJLPT cue: when the options pit question words against each other, ask what is compared — other times (いつ), other people (誰), other things (何), the past (前). ✗今日にもまして for *more than ever*.",
+          deepDive: "**Nにもまして** means *even more than N*, where N is already at a high level: 普段にもまして忙しい = *they are always busy, and now busier still*. まして comes from 増す *to increase*; the も signals that N itself is considerable.\n\nThe reference point is something known — the usual state, the past, a previous item: 例年にもまして, 以前にもまして, 前作にもまして. それにもまして needs an antecedent in the sentence: 桜の季節もいいが、それにもまして紅葉の頃が美しい. With question words it becomes a superlative (the ＊ note): 何にもまして *above all*, 誰にもまして *more than anyone*, いつにもまして *more than ever*. The register is formal; speech prefers いつもより or 何よりも.\n\nCompare:\n- **〜以上に**: close in meaning and more neutral: 予想以上に (*more than expected*).\n- **〜もさることながら** (#37): *A is fine, but B even more so*; example ③ could be 桜の季節もさることながら、紅葉の頃が美しい.\n- The adverb **まして（や）** means *let alone*: 大人でも難しい。まして子どもには無理だ (*it's hard even for adults, let alone children*).\n\nJLPT cue: when the options pit question words against each other, ask what is compared — other times (いつ), other people (誰), other things (何), the past (前). 今日にもまして means *even more than today*, not *more than ever*.",
           see: [37],
           index: ["Nにもまして", "疑問詞＋にもまして", "何にもまして", "いつにもまして", "それにもまして"],
           practice: [
@@ -242,7 +242,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from monkeys all the way to humans." },
                 { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の{介護靴|かいごぐつ}を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes designed for people receiving nursing care." },
-                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, the only thing left is probably to resign.", idiom: true },
+                { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, resigning is probably the only option left.", idiom: true },
               ],
             },
           ],
@@ -259,7 +259,7 @@ TRY.registerChapter({
                   q: "当社は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。",
                   options: ["さまざまな", "2つの"],
                   answer: 0,
-                  en: "Through a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ideas for a richer life.",
+                  en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers you ideas for a richer life.",
                   why: { en: "に至るまで stresses how wide the range is, so the second half needs a word covering everything in it: さまざまな, not just two products." },
                 },
                 {
@@ -291,8 +291,8 @@ TRY.registerChapter({
           examples: [
             { ja: "有名デパートの店員は、言葉{遣|づか}いからして{丁寧|ていねい}だ。", en: "Staff at well-known department stores are polite in everything, starting with the way they speak." },
             { ja: "さすが{元|もと}バレリーナ。立っている{姿|すがた}からして美しい。", en: "Just what you'd expect of a former ballerina. Even the way she stands is beautiful." },
-            { ja: "グルメの友人は、朝食のパンからして有名店のものを選ぶ。", en: "My foodie friend chooses everything from famous shops, starting with the bread for breakfast." },
-            { ja: "このパソコンは古すぎる。{起動|きどう}にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models." },
+            { ja: "グルメの友人は、朝食のパンからして有名店のものを選ぶ。", en: "My foodie friend picks famous shops for everything; even the bread for breakfast comes from one." },
+            { ja: "このパソコンは古すぎる。{起動|きどう}にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. The startup time alone is more than three times that of the latest models." },
           ],
           deepDive: "**AからしてB** picks one element — the first thing you notice, or a minor part (the book) — and lets it stand for the whole: *starting with A; if even A is B, so is everything else*. 本場は雰囲気からして全く違う (*the real home of beer is completely different, starting with the atmosphere*). The evaluation can be good or bad (ロビーからして薄暗い), and one example can also show an extreme degree: 起動にかかる時間からして最新機種の3倍以上だ (*just the startup time is over three times that of the latest models*).\n\nConnection: N + からして. The second half is an evaluation, often with さすが nearby.\n\nCompare:\n- **〜からすると／〜から見て** (*judging from*): the basis for an inference, followed by ようだ or だろう: 彼の態度からすると、反省していないようだ (*judging from his attitude, he isn't sorry*).\n- **〜までして** (*going so far as to*): an extreme step toward a goal: 親戚から借金までして資金を集めた.\n- **AといいBといい** (#44) also judges the whole from examples, but names two and voices the speaker's feelings.\n\nPitfall: choosing the central feature as A. A is peripheral or first noticed: a lobby, an entrance, the seats.\n\nからして also has a second use the book does not teach here, *judging from*: その口ぶりからして、彼は知っているようだ (*judging from the way he talks, he seems to know*). In the exercises, *even this one thing* + an evaluation → からして; an inference ending (ようだ, だろう) → からすると.",
           see: [44],
@@ -336,7 +336,7 @@ TRY.registerChapter({
         items: [
           { q: "1979年のウォークマンの発売＿＿、音楽プレーヤーの{小型化|こがたか}・{多様化|たようか}の競争が始まった。", answer: "を{皮切|かわき}りに", en: "Starting with the launch of the Walkman in 1979, a race began to make music players smaller and more varied." },
           { q: "{盆栽|ぼんさい}はかつて日本＿＿のものだったが今は世界中でBONSAIとして知られている。", answer: "ならでは", en: "Bonsai used to be something found only in Japan, but now it is known all over the world as “BONSAI.”" },
-          { q: "ファーストクラスって、席の広さ＿＿全然違うよね。", answer: "からして", en: "First class is totally different, isn't it? Starting with how roomy the seats are." },
+          { q: "ファーストクラスって、席の広さ＿＿全然違うよね。", answer: "からして", en: "First class is totally different, isn't it? Just look at how roomy the seats are, for a start." },
           { q: "{成人式|せいじんしき}＿＿{華|はな}やかな{振袖姿|ふりそですがた}の女性が多く目につく。", answer: "とあって", en: "Because it is the day of the coming-of-age ceremonies, you see lots of women in gorgeous long-sleeved furisode kimono." },
           { q: "彼はコートから下着＿＿全てクリーニング屋{任|まか}せだ。", answer: "に{至|いた}るまで", en: "He leaves everything to the dry cleaner, from his coats right down to his underwear." },
           { q: "シリーズ{最新作|さいしんさく}は{前作|ぜんさく}＿＿{激|はげ}しいアクションシーン{満載|まんさい}でお届けします。", answer: "にもまして", en: "We bring you the latest installment in the series, packed with even more intense action scenes than the last one." },
@@ -371,28 +371,28 @@ TRY.registerChapter({
             options: ["からして", "を{皮切|かわき}りに", "に{至|いた}って", "にわたって"],
             answer: 3,
             en: "That drama was broadcast over a period of three years.",
-            why: { en: "A length of time + an action that continues throughout it takes にわたって. に至るまで would need a range with an endpoint (AからBに至るまで)." },
+            why: { en: "A length of time + an action that continues throughout it takes にわたって. に至って marks a stage reached, not a period; からして and を皮切りに need one example or a first event." },
           },
           {
             q: "{東北|とうほく}地方から{関東|かんとう}北部（　）広い{範囲|はんい}で{積雪|せきせつ}が見られた。",
             options: ["にかけて", "に{至|いた}って", "にもまして", "ならではの"],
             answer: 0,
             en: "Snow was on the ground across a wide area, from the Tohoku region through northern Kanto.",
-            why: { en: "AからBにかけて describes a loose span of area (広い範囲で). に至って (when it came to), にもまして (even more than) and ならではの (unique to) don't mark the end of a span." },
+            why: { en: "AからBにかけて describes a loose span of area (広い範囲で). に至って (on reaching a stage), にもまして (even more than) and ならではの (unique to) don't mark the end of a span." },
           },
           {
             q: "{石田|いしだ}さんのお宅、{玄関|げんかん}の{造|つく}り（　）普通の家とは全然違うね。",
             options: ["に{至|いた}って", "ならでは", "とあって", "からして"],
             answer: 3,
             en: "The Ishidas' house is totally different from an ordinary house, isn't it — just look at how the entrance is built.",
-            why: { en: "One feature (the entrance) stands for the whole house: からして. ならでは would need の + a noun, とあって would make the entrance a special occasion causing something, and に至って doesn't fit." },
+            why: { en: "One feature (the entrance) stands for the whole house: からして. ならでは would need の + a noun, とあって would make the entrance a special occasion causing something, and に至って marks a stage reached, not an example." },
           },
           {
             q: "合格したのに、手続きを忘れていた。{事|こと}ここ（　）、もうどうすることもできない。",
             options: ["に{至|いた}っても", "に{至|いた}るまで", "に{至|いた}る", "に{至|いた}っては"],
             answer: 3,
-            en: "I passed, but I forgot to do the paperwork. Now that things have come to this, there's nothing more I can do.",
-            why: { en: "事ここに至っては is a fixed idiom: now that things have come to this (bad) pass. に至っても (even when it comes to), に至るまで and に至る don't form the idiom or fit before もうどうすることもできない." },
+            en: "I passed, but I'd forgotten to do the paperwork. Now that things have come to this, there's nothing more I can do.",
+            why: { en: "事ここに至っては is a fixed idiom: now that things have come to this (bad) pass. に至っても (even having come to this) would need a contrasting result after it, and に至るまで (up to) and に至る (reach) don't form the idiom." },
           },
           {
             q: "{満開|まんかい}の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。",
@@ -416,7 +416,7 @@ TRY.registerChapter({
             pieces: ["{衣類|いるい}や{化粧品|けしょうひん}", "{我々|われわれ}の", "生活に", "に{至|いた}るまで"],
             order: [0, 3, 1, 2],
             star: 2,
-            en: "Oil is used not only as fuel, of course, but in all kinds of ways in our daily lives, right down to clothing and cosmetics.",
+            en: "Oil is used in all kinds of ways in our daily lives, from fuel, of course, right down to clothing and cosmetics.",
             why: { en: "石油は燃料としてはもちろん衣類や化粧品に至るまで我々の生活にさまざまな形で使われている. The range (from fuel to clothing and cosmetics) comes first, then where it is used." },
           },
           {
@@ -447,12 +447,12 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["今回のゲームショーは{業界|ぎょうかい}最大級のイベント[1]、海外からも多くのゲーム{愛好者|あいこうしゃ}が参加する。9月20日からのこのショー[2]、各ゲーム会社は12月まで続く{年末商戦|ねんまつしょうせん}に{突入|とつにゅう}する。", "{初日|しょにち}のビジネスデーには、関係者がつめかける。{翌日|よくじつ}からの一般{公開日|こうかいび}も会場内はにぎやかだ。{奇抜|きばつ}な{衣装|いしょう}のコスプレイヤーから、孫の手を引くお年寄り[3]、さまざまな人が{訪|おとず}れる。", "ゲーム{大国|たいこく}日本[4]のこのイベントは、会場の設備やサービスにも{趣向|しゅこう}が{凝|こ}らされていて、{飽|あ}きることがない。"],
-        en: ["Because this game show is one of the biggest events in the industry, many game fans come from overseas to take part as well. Starting with this show, which opens on September 20, game companies plunge into the year-end sales season, which runs through December.", "The first day is a business day, when people from the industry flock in. On the public days from the second day on, the venue is just as lively. All sorts of people come, from cosplayers in outlandish costumes all the way to elderly people leading their grandchildren by the hand.", "This event, one that only Japan, the gaming superpower, could put on, is full of creative touches even in the venue's facilities and services, so there is never a dull moment."],
+        en: ["Because this game show is one of the biggest events in the industry, many game fans will be coming from overseas to take part as well. Starting with this show, which opens on September 20, game companies will plunge into the year-end sales battle, which runs through December.", "The opening day is a business day, when people from the industry flock in. On the public days that follow, the venue is lively too. All sorts of people come, from cosplayers in outlandish costumes all the way to elderly people leading their grandchildren by the hand.", "This event, one that only Japan, the gaming superpower, could put on, is full of creative touches even in the venue's facilities and services, so there is never a dull moment."],
         blanks: [
           {
             options: ["とあって", "とともに", "につれて", "にしたがい"],
             answer: 0,
-            why: { en: "A special circumstance (one of the biggest events in the industry) and the observed result (many fans from overseas): とあって. とともに, につれて and にしたがい describe things changing together, and nothing changes here." },
+            why: { en: "A special circumstance (one of the biggest events in the industry) and the observed result (many fans from overseas): とあって. とともに (along with), につれて and にしたがい (as … changes) don't give a reason, and nothing changes here." },
           },
           {
             options: ["とともに", "を{皮切|かわき}りに", "にしたがって", "だけに"],
@@ -462,12 +462,12 @@ TRY.registerChapter({
           {
             options: ["に{至|いた}るまで", "のために", "にもまして", "さえ"],
             answer: 0,
-            why: { en: "AからBに至るまで、さまざまな人 — the range runs from one extreme (cosplayers) to the other (grandparents with grandchildren)." },
+            why: { en: "AからBに至るまで、さまざまな人 — the range runs from one extreme (cosplayers) to the other (grandparents with grandchildren). のために (for), にもまして (more than) and さえ (even) can't close a から range." },
           },
           {
             options: ["とあって", "ばかりか", "に{至|いた}った", "ならでは"],
             answer: 3,
-            why: { en: "ゲーム大国日本ならではのこのイベント — an event only Japan could put on. The following の shows a noun-modifying pattern is needed." },
+            why: { en: "ゲーム大国日本ならではのこのイベント — an event only Japan could put on. The following の shows a noun-modifying pattern is needed; とあって and ばかりか would need a clause after them, and に至った (reached) gives no meaning here." },
           },
         ],
       },
@@ -492,7 +492,7 @@ TRY.registerChapter({
               { sp: "M2", v: "m", ja: "来年な。混んでなかったらな。" },
               { sp: "F", v: "f", ja: "混んでない花火大会なんてあるわけないじゃない。" },
             ],
-            en: ["A reporter is speaking on a TV program.", "Good evening. Fireworks season has come around again. On this program, too, we'll be following the fireworks displays of eastern Japan, starting with Tokyo and going all the way to Niigata and Akita.", "Now, I'm at the venue on the Sumida River in Tokyo. Since this is a fireworks display with a history of more than 250 years, it's bustling with spectators today. This year, even more people than in past years are wearing yukata. You can also see many people watching the fireworks from boats.", "Fireworks and yukata, huh. How nice — fireworks seen from a boat. I'd love to see that just once.", "Nothing beats kicking back at home with a beer and watching it on TV. That's our family's very own way to enjoy fireworks.", "Aww. I want to see them live. Let's go watch them there.", "Next year. If it's not crowded.", "Like there's ever a fireworks show that isn't crowded!"],
+            en: ["A reporter is speaking on a TV program.", "Good evening. Fireworks season has come around again. On this program, too, we'll be following the fireworks displays of eastern Japan, starting with Tokyo and going all the way to Niigata and Akita.", "Now, I'm at the venue on the Sumida River in Tokyo. Since this is a fireworks display with a history of more than 250 years, it's bustling with spectators today. This year, even more people than in past years are wearing yukata. You can also see many people watching the fireworks from boats.", "Fireworks and yukata, huh. Oh, that'd be nice — watching fireworks from a boat. I'd love to try that at least once.", "Nothing beats kicking back at home with a beer and watching it on TV. That's our family's very own way to enjoy fireworks.", "Aww, come on. I'd rather see them in person. Let's go and watch them there.", "Next year. If it isn't crowded.", "Like there's ever a fireworks show that isn't crowded!"],
             options: ["テレビで{見|み}られるから", "250{年|ねん}{以上|いじょう}{続|つづ}いているから", "{浴衣|ゆかた}を{着|き}ている{人|ひと}が{多|おお}いから", "{船|ふね}に{乗|の}れるから"],
             optionsEn: ["Because it can be watched on TV", "Because it has been going on for over 250 years", "Because many people are wearing yukata", "Because you can ride on a boat"],
             answer: 1,

@@ -185,7 +185,7 @@ TRY.registerVocab({ ch: 1, words: [
   { w: "にぎわう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be crowded and lively; to bustle; to thrive",
     note: "A place full of people and activity; the crowd takes で: 観光客でにぎわう. The noun is にぎわい. The kanji 賑わう is rarely required. Compare ごった返す, which adds a sense of chaotic crush.",
-    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "With today being the first Sunday of summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
+    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "Today being the first Sunday of summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
     ex: [
       { ja: "{週末|しゅうまつ}の{商店街|しょうてんがい}は{買|か}い{物|もの}{客|きゃく}で**にぎわって**いた。", en: "On the weekend the shopping street was bustling with shoppers.", alt: ["にぎって", "ふるって", "なごんで"] },
     ] },
@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "small and medium-sized businesses",
     note: "Contrasted with 大企業 (large corporations): 中小企業の支援, 中小企業向けの融資. The very smallest businesses are 零細企業. In Japan most workers are employed by 中小企業.",
     rx: ["ちゅうこきぎょう", "ちゅうしょうきぎょ", "なかしょうきぎょう"],
-    book: { ja: "{大企業|だいきぎょう}にはない、**{中小企業|ちゅうしょうきぎょう}**ならではの良さについて考える。", en: "We will look at the strengths that only small and medium-sized companies have — ones that large corporations lack.", at: "gp/3" },
+    book: { ja: "{大企業|だいきぎょう}にはない、**{中小企業|ちゅうしょうきぎょう}**ならではの良さについて考える。", en: "Let's consider the strengths that only small and medium-sized companies have — ones that large corporations lack.", at: "gp/3" },
     ex: [
       { ja: "この{町|まち}には{技術力|ぎじゅつりょく}の{高|たか}い**{中小企業|ちゅうしょうきぎょう}**が{多|おお}い。", en: "There are many small and mid-sized firms with strong technical skills in this town.", alt: ["{中高年|ちゅうこうねん}", "{中間層|ちゅうかんそう}", "{中継局|ちゅうけいきょく}"] },
     ] },
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to escape; to get away from; to evade (responsibility)",
     note: "Getting out of danger or out of something unpleasant: 危険から逃れる, 責任を逃れる / 責任逃れ (dodging responsibility). More formal and often more figurative than 逃げる; 免れる (to be spared) takes を.",
     rx: ["にがれる", "のかれる", "とうれる"],
-    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, the only thing left is probably to resign.", at: "gp/5" },
+    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, resigning is probably the only option left.", at: "gp/5" },
     ex: [
       { ja: "{都会|とかい}の{暑|あつ}さから**{逃|のが}れる**ため、{週末|しゅうまつ}は{山|やま}で{過|す}ごしている。", en: "To escape the city heat, I spend my weekends in the mountains.", alt: ["{外|はず}れる", "{崩|くず}れる", "{遅|おく}れる"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "resignation (from a post)",
     note: "Stepping down from a position such as minister, chairman or coach: 大臣を辞任する, 辞任に追い込まれる (be forced to resign). 辞職 is leaving one's job altogether; 退職 is leaving or retiring from a company.",
     rx: ["じいん", "しにん", "じにい"],
-    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, the only thing left is probably to resign.", at: "gp/5" },
+    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, resigning is probably the only option left.", at: "gp/5" },
     ex: [
       { ja: "{会長|かいちょう}は{健康上|けんこうじょう}の{理由|りゆう}で**{辞任|じにん}**した。", en: "The chair stepped down for health reasons.", alt: ["{就任|しゅうにん}", "{担任|たんにん}", "{信任|しんにん}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "our company; this company (said by the company itself)",
     note: "Used in formal statements, notices and business documents: 当社の製品, 当社では〜. When speaking to a client, the humble 弊社 is preferred; the client's company is 御社 (spoken) or 貴社 (written).",
     rx: ["とうじゃ", "あたりしゃ", "とうしょ"],
-    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "Through a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ideas for a richer life.", at: "gp/5" },
+    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers you ideas for a richer life.", at: "gp/5" },
     ex: [
       { ja: "**{当社|とうしゃ}**の{製品|せいひん}は{全|すべ}て{国内|こくない}で{製造|せいぞう}しております。", en: "All of our company's products are manufactured in Japan.", alt: ["{当日|とうじつ}", "{神社|じんじゃ}", "{当番|とうばん}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "power supply; power source; power switch",
     note: "電源を入れる / 切る (turn on / off), 電源コード, 電源プラグ, 電源が入らない (won't turn on). It can also mean a source of electric power, as in 電源開発 (power development).",
     rx: ["でんけん", "てんげん", "でんがん"],
-    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "Through a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ideas for a richer life.", at: "gp/5" },
+    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers you ideas for a richer life.", at: "gp/5" },
     ex: [
       { ja: "{映画館|えいがかん}では{携帯|けいたい}{電話|でんわ}の**{電源|でんげん}**をお{切|き}りください。", en: "Please turn off your cell phone in the movie theater.", alt: ["{電池|でんち}", "{電波|でんぱ}", "{電球|でんきゅう}"] },
     ] },
@@ -464,7 +464,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "starting up; booting (a computer or machine); activation",
     note: "Mostly IT language: パソコンを起動する, アプリが起動しない, 再起動 (reboot). The opposite is 終了 / シャットダウン. Not to be confused with 起床 (getting out of bed).",
     rx: ["きいどう", "おきどう", "きとう"],
-    book: { ja: "このパソコンは古すぎる。**{起動|きどう}**にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models.", at: "gp/6" },
+    book: { ja: "このパソコンは古すぎる。**{起動|きどう}**にかかる時間からして{最新機種|さいしんきしゅ}の3倍以上だ。", en: "This computer is far too old. The startup time alone is more than three times that of the latest models.", at: "gp/6" },
     ex: [
       { ja: "パソコンを**{起動|きどう}**すると、{自動的|じどうてき}に{更新|こうしん}が{始|はじ}まった。", en: "When I started up the computer, an update began automatically.", alt: ["{起床|きしょう}", "{起源|きげん}", "{行動|こうどう}"] },
     ] },
@@ -472,7 +472,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "model (of a machine, phone or aircraft); type of device",
     note: "最新機種 (the latest model), 機種変更 (switching phone models, often shortened to 機種変). Car models are 車種.",
     rx: ["きしゅう", "きじゅ", "はたしゅ"],
-    book: { ja: "このパソコンは古すぎる。{起動|きどう}にかかる時間からして**{最新機種|さいしんきしゅ}**の3倍以上だ。", en: "This computer is far too old. Just the time it takes to start up is more than three times that of the latest models.", at: "gp/6" },
+    book: { ja: "このパソコンは古すぎる。{起動|きどう}にかかる時間からして**{最新機種|さいしんきしゅ}**の3倍以上だ。", en: "This computer is far too old. The startup time alone is more than three times that of the latest models.", at: "gp/6" },
     ex: [
       { ja: "スマホを{新|あたら}しい**{機種|きしゅ}**に{変|か}えたら、{電池|でんち}の{持|も}ちがよくなった。", en: "When I switched to a newer phone model, the battery started lasting longer.", alt: ["{品種|ひんしゅ}", "{機関|きかん}", "{人種|じんしゅ}"] },
     ] },
