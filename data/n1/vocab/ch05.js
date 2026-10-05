@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "night duty; overnight watch (staying at the workplace overnight)",
     note: "Staying overnight at a school, office or hospital to watch over it: 宿直室, 宿直を務める. The daytime counterpart is 日直; 当直 is the general word for being the one on duty (common for hospital doctors).",
     rx: ["しゅくじき", "やどちょく", "しゅくちょう"],
-    book: { ja: "{警備会社|けいびがいしゃ}、三千万円{奪|うば}われる　――　**{宿直|しゅくちょく}**社員は{居眠|いねむ}り", en: "Security company robbed of 30 million yen — employee on night duty was asleep", at: "ch/5" },
+    book: { ja: "{警備会社|けいびがいしゃ}、三千万円{奪|うば}われる　――　**{宿直|しゅくちょく}**社員は{居眠|いねむ}り", en: "Security company robbed of 30 million yen — night-duty employee was dozing", at: "ch/5" },
     ex: [
       { ja: "この{病院|びょういん}では、{若手|わかて}の{医師|いし}が{交代|こうたい}で**{宿直|しゅくちょく}**を{務|つと}めている。", en: "At this hospital, the younger doctors take turns doing night duty.", alt: ["{宿泊|しゅくはく}", "{直行|ちょっこう}", "{夜行|やこう}"] },
     ] },
@@ -60,7 +60,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "surveillance; watch; monitoring",
     note: "Keeping watch to catch wrongdoing or danger: 監視カメラ, 監視の目, 厳しい監視. It suggests control or suspicion; for simply keeping an eye on a child, 見守る is the warmer word. 観察 is observing in order to study.",
     rx: ["かんじ", "けんし", "かんみ"],
-    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If you'd been robbed by someone who slipped past tight surveillance, that would be one thing, but this is a problem that comes before security even enters into it, isn't it?", at: "ch/5" },
+    book: { ja: "{厳|きび}しい**{監視|かんし}**をくぐり抜けてやられたならまだしも、これは{警備|けいび}以前の問題じゃないですかね。", en: "If the thieves had slipped past tight surveillance, that would be one thing, but this is a more basic problem than security, isn't it?", at: "ch/5" },
     ex: [
       { ja: "{倉庫|そうこ}の{入|い}り{口|ぐち}は、{防犯|ぼうはん}カメラで24{時間|じかん}**{監視|かんし}**されている。", en: "The warehouse entrance is monitored around the clock by security cameras.", alt: ["{看護|かんご}", "{監督|かんとく}", "{診察|しんさつ}"] },
     ] },
@@ -108,7 +108,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "ordinary people; the common people; the masses",
     note: "Ordinary people as opposed to the rich or powerful: 庶民の味 (everyday food), 庶民的 (unpretentious, down-to-earth), 庶民感覚 (an ordinary person's sense of money). 市民 means citizens of a city or state; 庶民 is about social class.",
     rx: ["しょうみん", "しょみょう", "じょみん"],
-    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk, recommending a 50,000-yen toner — how shall I put it — completely out of touch with ordinary people…", at: "gp/46" },
+    book: { ja: "あの店員、5万円の{化粧水|けしょうすい}を{勧|すす}めるなんて、**{庶民|しょみん}**感覚を知らないといおうか……。", en: "That salesclerk recommending a 50,000-yen toner — how should I put it — has no idea what ordinary people can afford…", at: "gp/46" },
     ex: [
       { ja: "この{辺|あた}りのマンションは{高級|こうきゅう}すぎて、{私|わたし}たち**{庶民|しょみん}**にはとても{手|て}が{出|で}ない。", en: "The condos around here are so upscale that ordinary folks like us could never afford one.", alt: ["{庶務|しょむ}", "{民意|みんい}", "{民法|みんぽう}"] },
     ] },
@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "the point (of an argument); the gist of a paper or speech",
     note: "The main line of reasoning of an essay, speech or debate: 論旨が明快だ (the argument is clear), 論旨がずれる (drift off the point). Academic and written. 要旨 is a summary of the content; 論旨 is the argument it makes.",
     rx: ["ろんじ", "りんし", "ろんむね"],
-    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "The topic of your paper is interesting, but the analysis is — how shall I put it — weak, or the argument is vague… wouldn't it be better to rethink the overall structure?", at: "gp/46" },
+    book: { ja: "君の{論文|ろんぶん}、テーマは{面白|おもしろ}いんだけど、{分析|ぶんせき}が甘いといおうか、**{論旨|ろんし}**があいまいといおうか、（　）？", en: "Your paper's topic is interesting, but — how should I put it — the analysis is weak, or the argument is vague… Wouldn't it be a good idea to rethink the overall structure?", at: "gp/46" },
     ex: [
       { ja: "{彼|かれ}の{文章|ぶんしょう}は**{論旨|ろんし}**が{明快|めいかい}で、とても{読|よ}みやすい。", en: "His writing makes its argument clearly and is very easy to read.", alt: ["{論争|ろんそう}", "{論外|ろんがい}", "{旨味|うまみ}"] },
     ] },
@@ -204,7 +204,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "being a bad son or daughter; ingratitude toward one's parents",
     note: "Causing one's parents worry or grief instead of repaying them: 親不孝をする, 親不孝な息子, 親不孝者. The opposite is 親孝行 (being a good, dutiful child). Note the 孝 (filial piety), not 幸 (happiness).",
     rx: ["おやぶこう", "しんふこう", "おやふきょう"],
-    book: { ja: "両親が苦労して送ってくれたお金を遊びに使うなんて、**{親不孝|おやふこう}**にもほどがある。", en: "Spending the money your parents worked so hard to send you on having fun — that's the height of ingratitude to your parents.", at: "gp/49" },
+    book: { ja: "両親が苦労して送ってくれたお金を遊びに使うなんて、**{親不孝|おやふこう}**にもほどがある。", en: "Spending the money your parents worked so hard to send you on having fun — how ungrateful can you get?", at: "gp/49" },
     ex: [
       { ja: "{親|おや}より{先|さき}に{死|し}ぬのは{最大|さいだい}の**{親不孝|おやふこう}**だと{言|い}われる。", en: "It's said that dying before your parents is the worst thing a child can do to them.", alt: ["{親孝行|おやこうこう}", "{親友|しんゆう}", "{不公平|ふこうへい}"] },
     ] },
@@ -268,7 +268,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "defect; flaw; deficiency",
     note: "A serious fault in structure or design that stops something working properly: 欠陥商品, 欠陥住宅, 制度の欠陥. Stronger than 欠点 (a weak point, also of a person's character).",
     rx: ["けつかん", "けっけん", "けっかい"],
-    book: { ja: "{指摘|してき}された**{欠陥|けっかん}**を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen.", at: "gp/52" },
+    book: { ja: "{指摘|してき}された**{欠陥|けっかん}**を{放置|ほうち}していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this accident was bound to happen.", at: "gp/52" },
     ex: [
       { ja: "ブレーキに**{欠陥|けっかん}**が{見|み}つかり、メーカーは{車|くるま}の{回収|かいしゅう}を{始|はじ}めた。", en: "A defect was found in the brakes, and the manufacturer began recalling the cars.", alt: ["{欠席|けっせき}", "{陥落|かんらく}", "{欠乏|けつぼう}"] },
     ] },
@@ -276,7 +276,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "leaving (something) as it is; neglecting; abandoning",
     note: "Leaving something unattended or unaddressed when it should be dealt with: 放置自転車 (abandoned bicycles), 問題を放置する. Critical in tone. 放っておく is the everyday equivalent.",
     rx: ["ほっち", "ほうじ", "はなち"],
-    book: { ja: "{指摘|してき}された{欠陥|けっかん}を**{放置|ほうち}**していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this was an accident waiting to happen.", at: "gp/52" },
+    book: { ja: "{指摘|してき}された{欠陥|けっかん}を**{放置|ほうち}**していたのだから、これは起こるべくして起こった事故だ。", en: "They left the defect unaddressed even after it was pointed out, so this accident was bound to happen.", at: "gp/52" },
     ex: [
       { ja: "{駅前|えきまえ}に**{放置|ほうち}**された{自転車|じてんしゃ}が、{市|し}によって{撤去|てっきょ}された。", en: "Bicycles abandoned in front of the station were removed by the city.", alt: ["{物置|ものおき}", "{処置|しょち}", "{放送|ほうそう}"] },
     ] },
