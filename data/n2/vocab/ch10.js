@@ -382,7 +382,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "proud (feeling); something to be proud of",
     note: "誇らしい気持ち, 誇らしげに (looking proud). From 誇り (pride) and 誇る (to take pride in, boast of). 自慢 is bragging and can sound negative.",
     rx: ["こうらしい", "ほごらしい", "ほこれしい"],
-    book: { ja: "プロジェクトメンバーは、**{誇|ほこ}らし**げな{表情|ひょうじょう}で{成功|せいこう}したことを{報告|ほうこく}した。", en: "The project members reported their success with proud expressions.", at: "gp/97" },
+    book: { ja: "プロジェクトメンバーは、**{誇|ほこ}らし**げな{表情|ひょうじょう}で{成功|せいこう}したことを{報告|ほうこく}した。", en: "The project members reported their success with proud looks on their faces.", at: "gp/97" },
     ex: [
       { ja: "{息子|むすこ}が{賞|しょう}をもらって、{親|おや}として**{誇|ほこ}らしい**{気持|きも}ちになった。", en: "When my son won a prize, I felt proud as a parent.", alt: ["{図々|ずうずう}しい", "{騒|さわ}がしい", "{紛|まぎ}らわしい"] },
     ] },
@@ -390,7 +390,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(facial) expression; look",
     note: "表情が明るい / 暗い / 硬い, 表情を変える, 無表情 (expressionless). 顔つき is one's facial features or look; 様子 is the general state of things.",
     rx: ["ひょうしょう", "ひょうじょ", "おもてじょう"],
-    book: { ja: "プロジェクトメンバーは、{誇|ほこ}らしげな**{表情|ひょうじょう}**で{成功|せいこう}したことを{報告|ほうこく}した。", en: "The project members reported their success with proud expressions.", at: "gp/97" },
+    book: { ja: "プロジェクトメンバーは、{誇|ほこ}らしげな**{表情|ひょうじょう}**で{成功|せいこう}したことを{報告|ほうこく}した。", en: "The project members reported their success with proud looks on their faces.", at: "gp/97" },
     ex: [
       { ja: "{合格|ごうかく}の{知|し}らせを{聞|き}いて、{彼|かれ}の**{表情|ひょうじょう}**が{一気|いっき}に{明|あか}るくなった。", en: "When he heard he'd passed, his face lit up at once.", alt: ["{表面|ひょうめん}", "{表現|ひょうげん}", "{事情|じじょう}"] },
     ] },
@@ -548,7 +548,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to feel down, be depressed; to drop, slump (sales)",
     note: "失敗して落ち込む, 気分が落ち込む; 売り上げが落ち込む (sales slump). へこむ is casual. 落ちる alone means to fall, or to fail an exam.",
     rx: ["おちごむ", "らくこむ", "おちはいむ"],
-    book: { ja: "入学以来{成績|せいせき}がトップだった彼は、今回のテストで2{位|い}になって人生が終わってしまった（　）**落ち込んで**いる。", en: "He had been top of his class ever since he started school, and now that he's come second on this test, he's as depressed as if his life were over.", at: "ch/10/review" },
+    book: { ja: "入学以来{成績|せいせき}がトップだった彼は、今回のテストで2{位|い}になって人生が終わってしまった（　）**落ち込んで**いる。", en: "He'd been at the top of his class ever since he enrolled, and now that he's come second on this test, he's as depressed as if his life were over.", at: "ch/10/review" },
     ex: [
       { ja: "{試合|しあい}に{負|ま}けて**{落|お}ち{込|こ}んで**いる{友達|ともだち}を{励|はげ}ました。", en: "I cheered up my friend, who was feeling down after losing the match.", alt: ["{落|お}ち{着|つ}いて", "{思|おも}い{込|こ}んで", "{張|は}り{切|き}って"] },
     ] },
@@ -673,7 +673,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "shade; the far side (behind something); (陰で) behind someone's back",
     note: "木の陰 (the shade of a tree), 陰に隠れる, 陰で悪口を言う (badmouth behind someone's back); おかげ (thanks to) comes from お陰. 影, with the same reading, is a shadow or silhouette.",
     rx: ["かけ", "くま", "がけ"],
-    book: { ja: "アフリカの{湖|みずうみ}に住むハシビロコウは、草の**{陰|かげ}**で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "Shoebills living at lakes in Africa keep quietly waiting in the shadow of the grass, and when a fish comes up to the surface, they pounce on it with this big beak.", at: "ch/10/review" },
+    book: { ja: "アフリカの{湖|みずうみ}に住むハシビロコウは、草の**{陰|かげ}**で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "Shoebills that live around lakes in Africa keep waiting quietly in the shade of the grass, and when a fish comes up to the surface, they pounce on it with this big beak.", at: "ch/10/review" },
     ex: [
       { ja: "{暑|あつ}いので、{木|き}の**{陰|かげ}**で{少|すこ}し{休|やす}もう。", en: "It's hot, so let's rest a bit in the shade of the tree.", alt: ["{芽|め}", "{幹|みき}", "{葉|は}"] },
     ] },
