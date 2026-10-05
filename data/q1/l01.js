@@ -260,9 +260,9 @@ TRY.registerLesson({
       "だろう。"
      ],
      "tr": [
-      "When it comes to directors of Japanese animated films, it has to be Hayao Miyazaki. Spirited Away is especially popular among his works; it won an Academy Award in 2003. If you are interested in anime, you may also have seen Princess Mononoke or My Neighbor Totoro. Many of his anime stories carry a message about environmental problems and give adults something to think about, too.",
+      "When it comes to directors of Japanese animated films, it has to be Hayao Miyazaki. Spirited Away is especially popular among his works; it won an Academy Award in 2003. If you are interested in anime, you may also have seen Princess Mononoke or My Neighbor Totoro. His stories carry messages about environmental problems, and many of them make adults stop and think, too.",
       "Director Miyazaki has white hair and a white beard and wears black-rimmed glasses. When he smiles he looks gentle, but when he is making a film he becomes very strict. For example, he has his staff redo their drawings again and again until they can draw exactly the way he tells them. Apparently, he once looked at a drawing of meat by a staff member and got angry, saying, “This meat looks like rubber. Think about whether it's tough or tender, and then draw it.” He is also said to have once spent more than a year making a scene just four seconds long.",
-      "“I don't want to make work I'd be ashamed of,” the director says. So, in order to make good work, he works from morning to night with hardly any rest. He eats lunch and dinner in five minutes. He doesn't spend his precious time on TV or hobbies. When he was young, he reportedly worked from 9 in the morning until 5 the next morning. Because he is this hard on himself, too, he is able to make such beautiful, artistic anime.",
+      "“I don't want to make work I'd be ashamed of,” the director says. So, in order to make good work, he works from morning to night with hardly any rest. He eats lunch and dinner in five minutes. He doesn't spend his precious time on TV or hobbies. When he was young, he reportedly worked from 9 in the morning until 5 the next morning. It is because he is this hard on himself, too, that he can make such beautiful, artistic anime.",
       "His works, wonderful in both their art and their stories, will surely go on being loved all over the world for years to come."
      ]
     },
@@ -282,7 +282,7 @@ TRY.registerLesson({
      ],
      "titleTr": "Profile",
      "tr": [
-      "Born in Tokyo in 1941. He was good at drawing from childhood and loved both reading and drawing manga. Seeing an animated film in high school led him to become interested in anime as well. After graduating from college, he joined an animation company in order to become an animator. Since then, he has released many anime works and also entered them in the Berlin International Film Festival and other festivals. In 2014, he became the second Japanese person to receive an Honorary Academy Award."
+      "Born in Tokyo in 1941. He was good at drawing from childhood and loved both reading and drawing manga. Seeing an animated film in high school led him to become interested in anime as well. After graduating from college, he joined an animation company in order to become an animator. Since then, he has released many anime works, entering them in the Berlin International Film Festival and other festivals. In 2014, he became the second Japanese person to receive an Honorary Academy Award."
      ]
     },
     {
@@ -341,7 +341,7 @@ TRY.registerLesson({
      "tr": [
       "Have you ever heard the term “iPS cells”? iPS cells are cells that can become many different parts of the body. It is thought that in the near future iPS cells will make it possible to help people with hard-to-treat illnesses, and they are also called “dream cells.” The person who created these cells is the researcher Professor Shinya Yamanaka. In 2012, at the age of 50, he received the Nobel Prize for his research on iPS cells.",
       "Professor Yamanaka was born in 1962 and comes from Osaka. As a student he did judo and rugby and got injured many times. That experience led him to decide to become a doctor who could help injured people. But when he started working at a hospital, he was shocked to learn that there were many people suffering because there was no way to cure their illnesses. That was apparently one of the reasons he decided to give up being a doctor and do research.",
-      "Professor Yamanaka has a cheerful personality and is a funny person. In his lectures, he reportedly always makes a point of getting at least one laugh. For example, there is his story about an operation he performed when he was a doctor. The patient was a friend of Professor Yamanaka's. It was a simple operation of about 15 minutes, but Professor Yamanaka was bad at surgery, so it ended up taking more than an hour. So in the middle of the operation he apologized to his friend: “Sorry.” Hearing that, the friend apparently got nervous: “What do you mean, ‘sorry’…?”",
+      "Professor Yamanaka has a cheerful personality and is a funny person. In his talks, he reportedly makes a point of always getting at least one laugh. For example, there is his story about an operation he performed when he was a doctor. The patient was a friend of Professor Yamanaka's. It was a simple operation that should have taken about 15 minutes, but Professor Yamanaka was bad at surgery, so it ended up taking more than an hour. So he apologized to his friend on the operating table: “Sorry.” Hearing that, the friend apparently got nervous: “What do you mean, ‘sorry’…?”",
       "According to the professor, his goal in life is “to bring iPS technology to the bedside and save many patients.” There is a phrase, “VW,” that he learned while studying in America and that he holds dear. It means that to get results in research you need V (Vision) and W (Work hard), in other words, you need to “set a goal and work hard.” True to his words, “You have to fail nine times to succeed once. There's nothing shameful about failing,” Professor Yamanaka never gave up his research until he had created iPS cells. This may be why he is respected by so many people."
      ]
     },
@@ -678,7 +678,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "みなさん。難しい外国語**といえば**、何語だと思いますか。",
-           "tr": "Everyone, when you think of a difficult foreign language, which language comes to mind?"
+           "tr": "Everyone, when you think of a difficult foreign language, which one do you think of?"
           },
           {
            "sp": "学生A",
@@ -781,7 +781,7 @@ TRY.registerLesson({
           {
            "sp": "{青山|あおやま}",
            "ja": "日本で働きたい**なら**、敬語を勉強しておいたほうがいいよ。",
-           "tr": "If you want to work in Japan, you'd better learn keigo (honorific language) ahead of time."
+           "tr": "If you want to work in Japan, you should study keigo (honorific language) before you go."
           }
          ]
         },
@@ -791,7 +791,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "今晩カラオケに行かない？",
-           "tr": "Do you want to go to karaoke tonight?"
+           "tr": "Want to go to karaoke tonight?"
           },
           {
            "sp": "B",
@@ -801,7 +801,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "忙しい**なら**、しかたがないね。また今度。",
-           "tr": "If you're busy, it can't be helped. Next time, then."
+           "tr": "Oh well, if you're busy. Maybe next time."
           }
          ]
         },
@@ -905,7 +905,7 @@ TRY.registerLesson({
           {
            "sp": "{事務員|じむいん}",
            "ja": "川村先生**なら**、もうお帰りになりましたよ。",
-           "tr": "If you're looking for Professor Kawamura, they've already left for the day."
+           "tr": "If you're looking for Professor Kawamura, they've already gone home for the day."
           }
          ]
         }
@@ -1298,7 +1298,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "本当に{全然|ぜんぜん}梅雨**らしくない**よね。毎年、この{季節|きせつ}は雨の日が続くのに。",
-           "tr": "It really doesn't feel like the rainy season at all, does it? Usually it rains day after day this time of year."
+           "tr": "It really doesn't feel like the rainy season at all, does it? Every year it rains day after day this time of year."
           }
          ]
         },
@@ -1383,7 +1383,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "彼は旅行に行く**ために**、アルバイトをしています。",
-         "tr": "He's working a part-time job in order to go on a trip."
+         "tr": "He's working part-time in order to go on a trip."
         },
         {
          "n": 2,
@@ -1514,7 +1514,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "デザイナーになる**ための**学校に行くつもりです。",
-           "tr": "I'm planning to go to a school that trains people to become designers."
+           "tr": "I'm planning to go to a school for becoming a designer."
           }
          ]
         },
@@ -1602,7 +1602,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "{実|じつ}は、医者に言われたの**がきっかけで**、走るようになったんです。",
-           "tr": "Actually, what got me running was my doctor telling me to."
+           "tr": "Actually, my doctor told me to, and that's what got me running."
           }
          ]
         }
@@ -1693,7 +1693,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "日本語の新聞が少しずつ読める**ようになった**。（＝前は{全然|ぜんぜん}読めなかった）",
-         "tr": "I've gradually become able to read Japanese newspapers. (= I couldn't read them at all before)"
+         "tr": "Little by little, I've become able to read Japanese newspapers. (= I couldn't read them at all before)"
         },
         {
          "n": 4,
@@ -1836,7 +1836,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "また電車にかさを忘れてしまった。今日で5回目なので、もう忘れない**ようにし**たい。",
-         "tr": "I left my umbrella on the train again. That's the fifth time now, so I want to make sure I never forget it again."
+         "tr": "I left my umbrella on the train again. That makes five times now, so I want to make sure I don't forget it anymore."
         },
         {
          "n": 3,
@@ -1864,7 +1864,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "そうだなあ。なるべく毎日、運動する**ようにして**いるよ。",
-           "tr": "Let me see. I try to exercise every day if I can."
+           "tr": "Let me think. I try to get some exercise every day, as much as I can."
           }
          ]
         }
@@ -1955,7 +1955,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "フランス出身のサラ**によると**、日本のコンビニはとても{便利|べんり}らしい。",
-         "tr": "According to Sarah, who is from France, Japanese convenience stores are apparently really handy."
+         "tr": "According to Sarah, who is from France, Japanese convenience stores are apparently really convenient."
         }
        ]
       },
