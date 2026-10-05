@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "one after another without exception; indiscriminately, from one end to the other",
     note: "Casual: 片っ端から電話をかける (call everyone on the list), 本を片っ端から読む. Emphasizes working through everything without choosing. 手当たり次第 is similar but stresses randomness.",
     rx: ["かたっはしから", "へんっぱしから", "かたっばしから"],
-    book: { ja: "こうなったら**{片|かた}っ{端|ぱし}から**パンフレットを配りまくってみるか。", en: "Now that it's come to this, maybe we should hand out pamphlets like crazy to anyone and everyone.", at: "ch/7" },
+    book: { ja: "こうなったら**{片|かた}っ{端|ぱし}から**パンフレットを配りまくってみるか。", en: "Now that it's come to this, maybe we should try handing out pamphlets like crazy, to anyone and everyone.", at: "ch/7" },
     ex: [
       { ja: "{求人|きゅうじん}{情報|じょうほう}を見て、**{片|かた}っ{端|ぱし}から**{応募|おうぼ}した。", en: "I looked through the job listings and applied to every single one.", alt: ["{片道|かたみち}で", "{片隅|かたすみ}に", "{端|はし}っこに"] },
     ] },
@@ -424,7 +424,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to recover, bounce back, get back on one's feet",
     note: "From a shock, failure or crisis: 失恋から立ち直る, 経営が立ち直る. The noun is 立ち直り (立ち直りが早い = bounces back fast). 回復 is the formal noun for recovery of health or the economy.",
     rx: ["たちなおす", "りつなおる", "たちじきる"],
-    book: { ja: "さすが{本田|ほんだ}君だ。**{立|た}ち{直|なお}り**が早いね。", en: "That's our Honda. You bounce back fast.", at: "ch/7" },
+    book: { ja: "さすが{本田|ほんだ}君だ。**{立|た}ち{直|なお}り**が早いね。", en: "That's our Honda. You sure bounce back fast.", at: "ch/7" },
     ex: [
       { ja: "{大|おお}きな{失敗|しっぱい}から**{立|た}ち{直|なお}る**には、時間が{必要|ひつよう}だ。", en: "It takes time to get back on your feet after a big failure.", alt: ["{立|た}ち{止|ど}まる", "{立|た}ち{去|さ}る", "{立|た}ち{寄|よ}る"] },
     ] },
@@ -440,7 +440,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "cigarette butt",
     note: "Always of cigarettes: 吸い殻を捨てる, 吸い殻入れ (ashtray). 殻 alone is a shell or husk (から, voiced がら in compounds: 貝殻).",
     rx: ["すいから", "すいかく", "きゅうがら"],
-    book: { ja: "家の前に毎朝たばこの**{吸|す}い{殻|がら}**を捨てられて、腹が立つったらない。", en: "Every morning someone throws cigarette butts in front of my house — it makes me furious.", at: "gp/83" },
+    book: { ja: "家の前に毎朝たばこの**{吸|す}い{殻|がら}**を捨てられて、腹が立つったらない。", en: "Every morning someone tosses cigarette butts in front of my house, and it makes me so mad!", at: "gp/83" },
     ex: [
       { ja: "{道路|どうろ}にたばこの**{吸|す}い{殻|がら}**を{捨|す}てるのはマナー{違反|いはん}だ。", en: "Throwing cigarette butts on the street is bad manners.", alt: ["{吸|す}い{込|こ}み", "{抜|ぬ}け{殻|がら}", "{吸|す}い{物|もの}"] },
     ] },
@@ -487,7 +487,7 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "やけ", lv: "N1", pos: "noun",
     en: "desperation, self-abandonment (acting recklessly out of frustration)",
     note: "やけになる (become desperate and reckless), やけを起こす, やけ食い (binge-eating out of frustration), やけ酒 (drinking to drown one's sorrows). Also written 自棄. Not the same as やけに (awfully, strangely).",
-    book: { ja: "失恋したぐらいで、**やけ**になって食べまくる{奴|やつ}の気がしれないよ。", en: "I don't understand people who go on an eating binge out of despair just because they got dumped.", at: "gp/85" },
+    book: { ja: "失恋したぐらいで、**やけ**になって食べまくる{奴|やつ}の気がしれないよ。", en: "I don't get people who binge-eat in despair just because they got dumped.", at: "gp/85" },
     ex: [
       { ja: "{試験|しけん}に落ちたからといって、**やけ**を起こしてはいけない。", en: "Just because you failed the exam, you mustn't do anything reckless.", alt: ["ゆとり", "やる気", "けじめ"] },
     ] },
@@ -495,7 +495,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to be unable to understand (what someone is thinking); can't fathom",
     note: "Critical: 〜人の気が知れない (I can't understand people who …). Only in the negative. The book writes 気がしれない.",
     rx: ["きがちれない", "けがしれない", "きがさとれない"],
-    book: { ja: "失恋したぐらいで、やけになって食べまくる{奴|やつ}の**気がしれない**よ。", en: "I don't understand people who go on an eating binge out of despair just because they got dumped.", at: "gp/85" },
+    book: { ja: "失恋したぐらいで、やけになって食べまくる{奴|やつ}の**気がしれない**よ。", en: "I don't get people who binge-eat in despair just because they got dumped.", at: "gp/85" },
     ex: [
       { ja: "こんな{寒|さむ}い日に{海|うみ}で{泳|およ}ぐ人の**{気|き}が{知|し}れない**。", en: "I can't fathom people who swim in the sea on a cold day like this.", alt: ["{気|き}が{済|す}まない", "{気|き}が{抜|ぬ}けない", "{気|き}が{置|お}けない"] },
     ] },
@@ -503,7 +503,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "gentle, mild-mannered, even-tempered",
     note: "Describes character: 温厚な人柄, 温厚な性格. Warmer and more dignified than おとなしい (quiet, meek). 穏やか also describes calm manner, weather or the sea.",
     rx: ["おんこ", "おんごう", "うんこう"],
-    book: { ja: "**{温厚|おんこう}**な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely lose patience after being kept waiting a whole hour.", at: "gp/86" },
+    book: { ja: "**{温厚|おんこう}**な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely get angry after being kept waiting a whole hour.", at: "gp/86" },
     ex: [
       { ja: "{祖父|そふ}は**{温厚|おんこう}**な人で、声を{荒|あら}げたことがない。", en: "My grandfather is a gentle man who has never raised his voice.", alt: ["{濃厚|のうこう}", "{温暖|おんだん}", "{厚手|あつで}"] },
     ] },
@@ -526,7 +526,7 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "いずれ", lv: "N2", pos: "adverb · pronoun",
     en: "either, whichever (of several); sooner or later, eventually; some day",
     note: "いずれにしても／いずれにせよ (in any case), いずれの場合も (in either case) — the formal version of どちら／どれ. As an adverb: いずれわかる (you'll find out eventually), いずれまた (some other time).",
-    book: { ja: "進学か{就職|しゅうしょく}か**いずれ**にしたって、自分で決めなければならない。", en: "Whether you go on to further study or get a job, either way you have to decide for yourself.", at: "gp/86" },
+    book: { ja: "進学か{就職|しゅうしょく}か**いずれ**にしたって、自分で決めなければならない。", en: "Further study or a job — either way, you have to decide for yourself.", at: "gp/86" },
     ex: [
       { ja: "{嘘|うそ}をついても、**いずれ**ばれるよ。", en: "Even if you lie, it'll come out sooner or later.", alt: ["いまさら", "かつて", "いまだに"] },
     ] },
@@ -605,7 +605,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "declaring openly, saying publicly (without hesitation)",
     note: "Saying something openly that others might keep quiet: 〜と公言する, 公言してはばからない (not hesitate to declare). 宣言 is a formal proclamation; 明言 is stating clearly.",
     rx: ["こうごん", "くげん", "おおやけごと"],
-    book: { ja: "私の弟ときたら今年40歳になるというのに、「{趣味|しゅみ}はレゴ（LEGO）」と**{公言|こうげん}**しています。", en: "That brother of mine — even though he turns 40 this year, he openly declares that his hobby is LEGO.", at: "ch/7/review" },
+    book: { ja: "私の弟ときたら今年40歳になるというのに、「{趣味|しゅみ}はレゴ（LEGO）」と**{公言|こうげん}**しています。", en: "My brother, honestly — he turns 40 this year, and yet he openly declares that his hobby is LEGO.", at: "ch/7/review" },
     ex: [
       { ja: "{彼|かれ}は「次の{選挙|せんきょ}には出ない」と**{公言|こうげん}**している。", en: "He has openly declared that he won't run in the next election.", alt: ["{公開|こうかい}", "{方言|ほうげん}", "{伝言|でんごん}"] },
     ] },
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scolding, nagging, lecture; grumbling",
     note: "Repeated small complaints, usually from a parent or superior: 小言を言う, 母の小言. お説教 is a longer lecture; 文句 is a complaint in general.",
     rx: ["しょうげん", "こごん", "おごと"],
-    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば**{小言|こごと}**が{絶|た}えません。", en: "Our mother is exasperated — “It's not as if you were a child, and here you are playing LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
+    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば**{小言|こごと}**が{絶|た}えません。", en: "Our mother is exasperated — “You're not a child, and here you are playing with LEGO again!” — and the nagging starts the moment she sees him.", at: "ch/7/review" },
     ex: [
       { ja: "{帰|かえ}りが{遅|おそ}いと、{母|はは}に**{小言|こごと}**を言われる。", en: "When I come home late, my mother nags me.", alt: ["{独|ひと}り{言|ごと}", "{寝言|ねごと}", "{小話|こばなし}"] },
     ] },
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to cease, die out, come to an end (mostly in the negative: never stop)",
     note: "Mostly negative: 笑顔が絶えない家庭 (a home always full of smiles), 事故が絶えない (accidents keep happening), 小言が絶えない. 息が絶える is to die. Don't confuse with 耐える／堪える (たえる, endure).",
     rx: ["ぜつえる", "たいえる", "たたえる"],
-    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば{小言|こごと}が**{絶|た}えません**。", en: "Our mother is exasperated — “It's not as if you were a child, and here you are playing LEGO again” — and whenever she sees him she never stops nagging.", at: "ch/7/review" },
+    book: { ja: "母は__①「子どもじゃあるまいし、またレゴ遊び。」__とあきれ、顔を見れば{小言|こごと}が**{絶|た}えません**。", en: "Our mother is exasperated — “You're not a child, and here you are playing with LEGO again!” — and the nagging starts the moment she sees him.", at: "ch/7/review" },
     ex: [
       { ja: "この{交差点|こうさてん}では、{交通事故|こうつうじこ}が**{絶|た}えない**。", en: "Traffic accidents never stop happening at this intersection.", alt: ["{耐|た}えない", "{足|た}りない", "{保|たも}たない"] },
     ] },
@@ -629,7 +629,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "the very (person or thing) in question; the ... concerned",
     note: "当の本人 (the very person in question), 当の相手; used to contrast that person with others who are fussing: 周りは心配しているが、当の本人は平気だ. 当人 (とうにん) is the noun.",
     rx: ["あての", "まさの", "どうの"],
-    book: { ja: "**{当|とう}の**本人は、__②「母さんにはわからないよ。」__と言わんばかりの顔で、", en: "The man himself, with a look that all but says “You wouldn't understand, Mom,”", at: "ch/7/review" },
+    book: { ja: "**{当|とう}の**本人は、__②「母さんにはわからないよ。」__と言わんばかりの顔で、", en: "My brother himself, with a look that all but says “You wouldn't understand, Mom,”", at: "ch/7/review" },
     ex: [
       { ja: "{周|まわ}りは大騒ぎしているのに、**{当|とう}の**本人は{平気|へいき}な{顔|かお}をしている。", en: "Everyone around is in an uproar, but the person in question looks unconcerned.", alt: ["{他|た}の", "{本|ほん}の", "{別|べつ}の"] },
     ] },
@@ -637,7 +637,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "solid (body), three-dimensional object; 3D",
     note: "立体的 (three-dimensional), 立体駐車場 (multi-story parking garage), 立体交差 (overpass/underpass junction). The opposite is 平面 (plane, 2D).",
     rx: ["りつたい", "たちたい", "りゅうたい"],
-    book: { ja: "複雑な**{立体|りったい}**の{創作|そうさく}に{没頭|ぼっとう}し、", en: "absorbed in creating complex three-dimensional pieces,", at: "ch/7/review" },
+    book: { ja: "複雑な**{立体|りったい}**の{創作|そうさく}に{没頭|ぼっとう}し、", en: "absorbed in building complex three-dimensional creations,", at: "ch/7/review" },
     ex: [
       { ja: "この{絵本|えほん}は、ページを{開|ひら}くと{城|しろ}が**{立体|りったい}**で{飛|と}び{出|だ}す。", en: "When you open this picture book, a castle pops up in 3D.", alt: ["{平面|へいめん}", "{団体|だんたい}", "{液体|えきたい}"] },
     ] },
@@ -645,7 +645,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "creation (of an artistic work); original work; making things up",
     note: "Artistic creation: 創作活動, 創作料理 (original fusion cuisine), 創作意欲. Also a fabrication: その話は彼の創作だ. 創造 is creation in a broader, more abstract sense.",
     rx: ["そうさ", "そさく", "しょうさく"],
-    book: { ja: "複雑な{立体|りったい}の**{創作|そうさく}**に{没頭|ぼっとう}し、", en: "absorbed in creating complex three-dimensional pieces,", at: "ch/7/review" },
+    book: { ja: "複雑な{立体|りったい}の**{創作|そうさく}**に{没頭|ぼっとう}し、", en: "absorbed in building complex three-dimensional creations,", at: "ch/7/review" },
     ex: [
       { ja: "{退職後|たいしょくご}は、{陶芸|とうげい}の**{創作|そうさく}**{活動|かつどう}に力を入れている。", en: "Since retiring, I've been putting my energy into creating pottery.", alt: ["{操作|そうさ}", "{捜索|そうさく}", "{工作|こうさく}"] },
     ] },
@@ -653,7 +653,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "being absorbed or immersed in (something), devoting oneself to",
     note: "Takes に: 研究に没頭する, 仕事に没頭して時間を忘れる. 熱中 (be crazy about) and 夢中 (be absorbed) are more everyday; 専念 is concentrating on one thing to the exclusion of others.",
     rx: ["ぼつとう", "もっとう", "ぼっと"],
-    book: { ja: "複雑な{立体|りったい}の{創作|そうさく}に**{没頭|ぼっとう}**し、", en: "absorbed in creating complex three-dimensional pieces,", at: "ch/7/review" },
+    book: { ja: "複雑な{立体|りったい}の{創作|そうさく}に**{没頭|ぼっとう}**し、", en: "absorbed in building complex three-dimensional creations,", at: "ch/7/review" },
     ex: [
       { ja: "{彼|かれ}は{研究|けんきゅう}に**{没頭|ぼっとう}**するあまり、{食事|しょくじ}をとるのも忘れる。", en: "He gets so absorbed in his research that he even forgets to eat.", alt: ["{没収|ぼっしゅう}", "{先頭|せんとう}", "{没落|ぼつらく}"] },
     ] },
@@ -669,7 +669,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "creation (bringing something new into being)",
     note: "創造力 (creativity), 創造性, 天地創造 (the Creation). Sounds the same as 想像 (imagination) — a classic mix-up. 創作 is the creation of a specific artwork.",
     rx: ["そうそう", "そうぞ", "しょうぞう"],
-    book: { ja: "レゴはすでに、弟さんの人生の一部であり、**{創造|そうぞう}**の{源|みなもと}であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO is surely already a part of your brother's life, a source of creativity and the energy that carries him into tomorrow.", at: "ch/7/review" },
+    book: { ja: "レゴはすでに、弟さんの人生の一部であり、**{創造|そうぞう}**の{源|みなもと}であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO has probably already become a part of your brother's life, a source of creativity and the energy that keeps him going from day to day.", at: "ch/7/review" },
     ex: [
       { ja: "子どもの**{創造|そうぞう}**{力|りょく}を{育|そだ}てる{教育|きょういく}が{求|もと}められている。", en: "There is a demand for education that nurtures children's creativity.", alt: ["{創立|そうりつ}", "{製造|せいぞう}", "{構造|こうぞう}"] },
     ] },
@@ -677,7 +677,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "source, origin; the source (of a river)",
     note: "Written and somewhat literary: 川の源, 活力の源, 元気の源. In compounds it is げん: 資源, 起源, 電源. 起源 is the historical origin of something.",
     rx: ["みなみと", "げんもと", "みなかみ"],
-    book: { ja: "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の**{源|みなもと}**であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO is surely already a part of your brother's life, a source of creativity and the energy that carries him into tomorrow.", at: "ch/7/review" },
+    book: { ja: "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の**{源|みなもと}**であり、明日への{活力|かつりょく}となっているのでしょう。", en: "LEGO has probably already become a part of your brother's life, a source of creativity and the energy that keeps him going from day to day.", at: "ch/7/review" },
     ex: [
       { ja: "{家族|かぞく}の{笑顔|えがお}が、{私|わたし}の{元気|げんき}の**{源|みなもと}**です。", en: "My family's smiles are the source of my energy.", alt: ["{根|ね}", "{壁|かべ}", "{岸|きし}"] },
     ] },
@@ -685,7 +685,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "vitality, energy, vigor",
     note: "活力を与える, 活力の源, 活力のある社会. More formal than 元気 or エネルギー; 活気 is the lively atmosphere of a place (活気のある町).",
     rx: ["かつりき", "かっりょく", "がつりょく"],
-    book: { ja: "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の{源|みなもと}であり、明日への**{活力|かつりょく}**となっているのでしょう。", en: "LEGO is surely already a part of your brother's life, a source of creativity and the energy that carries him into tomorrow.", at: "ch/7/review" },
+    book: { ja: "レゴはすでに、弟さんの人生の一部であり、{創造|そうぞう}の{源|みなもと}であり、明日への**{活力|かつりょく}**となっているのでしょう。", en: "LEGO has probably already become a part of your brother's life, a source of creativity and the energy that keeps him going from day to day.", at: "ch/7/review" },
     ex: [
       { ja: "{若|わか}い{人|ひと}たちが{移|うつ}り{住|す}み、{町|まち}に**{活力|かつりょく}**が{戻|もど}ってきた。", en: "Young people have moved in, and the town has regained its vitality.", alt: ["{活用|かつよう}", "{努力|どりょく}", "{重力|じゅうりょく}"] },
     ] },
