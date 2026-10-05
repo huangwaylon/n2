@@ -2142,7 +2142,7 @@ TRY.registerUnits([
     "page": 209,
     "text": {
      "ja": "第9課の読み物1に出てきた「びりびり」「じっと」、読み物2に出てきた「くるくる」「ぴかぴか」は「オノマトペ」です。オノマトペには、私たちの周りの実際の音や声を表したもの（{擬音語|ぎおんご} imitative word）と、気持ち、様子、状態などを表したもの（{擬態語|ぎたいご} mimetic word）があります。日本語は、オノマトペを多く使用する言語だと言われています。オノマトペは小説やマンガ、商品の{広告|こうこく}や CM などに使われ、状態や様子などを短くわかりやすく伝えます。意味だけでなく、どんな形で使われるかにも気をつけましょう。",
-     "tr": "\"Biribiri\" and \"jitto,\" which appeared in Reading 1 of Lesson 9, and \"kurukuru\" and \"pikapika,\" which appeared in Reading 2, are onomatopoeia. Onomatopoeia include words that represent actual sounds and voices around us (giongo, imitative words) and words that represent feelings, appearances, states, and so on (gitaigo, mimetic words). Japanese is said to be a language that uses a lot of onomatopoeia. Onomatopoeia are used in novels, manga, product advertisements, commercials, and so on, and they convey states and appearances briefly and in an easy-to-understand way. Pay attention not only to their meanings but also to the forms in which they are used."
+     "tr": "びりびり and じっと, which appeared in Reading 1 of Lesson 9, and くるくる and ぴかぴか, which appeared in Reading 2, are onomatopoeia. Onomatopoeia include words that represent actual sounds and voices around us (擬音語, imitative words) and words that represent feelings, appearances, states, and so on (擬態語, mimetic words). Japanese is said to be a language that uses a lot of onomatopoeia. Onomatopoeia are used in novels, manga, product advertisements, commercials, and so on, and they convey states and appearances briefly and in an easy-to-understand way. Pay attention not only to their meanings but also to the forms in which they are used."
     }
    },
    {
@@ -2523,7 +2523,7 @@ TRY.registerUnits([
       {
        "text": {
         "ja": "声に出さないで、他に意味がありそうな様子で笑う (smirk)",
-        "tr": "to smile silently in a way that seems to mean something else"
+        "tr": "to smile without making a sound, in a way that suggests some hidden meaning"
        }
       }
      ]
@@ -2978,7 +2978,7 @@ TRY.registerUnits([
        {
         "n": 1,
         "ja": "雨が__ぽつぽつ__と降ってきた。（降り始め）",
-        "tr": "It started to sprinkle. (The rain is just beginning.)"
+        "tr": "A few drops of rain started to fall. (The rain is just beginning.)"
        },
        {
         "n": 2,
@@ -3026,7 +3026,7 @@ TRY.registerUnits([
     "page": 212,
     "text": {
      "ja": "第10課の読み物1に出てきた「メリット」や「イコール」は「カタカナ語」です。カタカナ語は、カタカナで書かれる言葉のことで、英語など西洋の言葉が多いです。また、日本で作られた「和製英語」もあります。これは、「サラリーマン」のように英単語を使っているのに英語にはない言葉や、「マンション」のように英語とは意味が違う言葉のことです。また、英語以外の言葉から来たカタカナ語もあります。ここでは、特に意味がわかりにくいカタカナ語を紹介します。",
-     "tr": "Words like \"meritto\" (merit) and \"ikōru\" (equal), which appeared in Reading 1 of Lesson 10, are \"katakana words.\" Katakana words are words written in katakana, and many of them come from Western languages such as English. There are also \"wasei eigo\" (Japanese-made English), words created in Japan. These are words like \"sararīman\" (salaried office worker), which use English words but do not exist in English, and words like \"manshon\" (condominium), whose meaning differs from the English. There are also katakana words that come from languages other than English. Here we introduce katakana words whose meanings are especially hard to guess."
+     "tr": "Words like メリット (merit) and イコール (equal), which appeared in Reading 1 of Lesson 10, are katakana words. Katakana words are words written in katakana, and many of them come from Western languages such as English. There are also 和製英語 (Japanese-made English), words created in Japan. These are words like サラリーマン (salaried office worker), which use English words but do not exist in English, and words like マンション (condominium), whose meaning differs from the English. There are also katakana words that come from languages other than English. Here we introduce katakana words whose meanings are especially hard to understand."
     }
    },
    {
@@ -3046,7 +3046,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "フライドポテト (French fries)",
-       "tr": "furaido poteto (\"fried potato\"): French fries"
+       "tr": "フライドポテト (\"fried potato\"): French fries"
       },
       "blocks": [
        {
@@ -3065,7 +3065,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "ゴールデンウイーク（GW）(special holiday week that is from the end of April to early May)",
-       "tr": "gōruden uīku (\"Golden Week,\" GW): the holiday week from the end of April to early May"
+       "tr": "ゴールデンウイーク (\"Golden Week,\" GW): the holiday week from the end of April to early May"
       },
       "blocks": [
        {
@@ -3084,7 +3084,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "ワンパターン (always the same)",
-       "tr": "wan patān (\"one pattern\"): always the same"
+       "tr": "ワンパターン (\"one pattern\"): always the same"
       },
       "blocks": [
        {
@@ -3103,7 +3103,7 @@ TRY.registerUnits([
       "n": "4",
       "text": {
        "ja": "〜アップ：キャリア__アップ__ (advance one’s career)　スキル__アップ__ (improving skills)",
-       "tr": "…appu (\"up\"): kyaria appu (\"career up\"), advancing one's career; sukiru appu (\"skill up\"), improving one's skills"
+       "tr": "〜アップ (\"up\"): キャリアアップ (\"career up\"), advancing one's career; スキルアップ (\"skill up\"), improving one's skills"
       },
       "blocks": [
        {
@@ -3122,7 +3122,7 @@ TRY.registerUnits([
       "n": "5",
       "text": {
        "ja": "マイ〜：__マイ__ペース (one’s own pace)　__マイ__ホーム (house of one’s own)",
-       "tr": "mai… (\"my\"): mai pēsu (\"my pace\"), one's own pace; mai hōmu (\"my home\"), a house of one's own"
+       "tr": "マイ〜 (\"my\"): マイペース (\"my pace\"), one's own pace; マイホーム (\"my home\"), a house of one's own"
       },
       "blocks": [
        {
@@ -3141,7 +3141,7 @@ TRY.registerUnits([
       "n": "6",
       "text": {
        "ja": "フリー〜：__フリー__サイズ (one-size-fits-all)\n__フリー__トーク (free conversation)",
-       "tr": "furī… (\"free\"): furī saizu (\"free size\"), one-size-fits-all; furī tōku (\"free talk\"), free conversation"
+       "tr": "フリー〜 (\"free\"): フリーサイズ (\"free size\"), one-size-fits-all; フリートーク (\"free talk\"), free conversation"
       },
       "blocks": [
        {
@@ -3182,7 +3182,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "コンセント (electrical outlet)　発音からイメージされる英語は consent",
-       "tr": "konsento: electrical outlet. The English word its pronunciation suggests is \"consent.\""
+       "tr": "コンセント: electrical outlet. The English word its pronunciation suggests is \"consent.\""
       },
       "blocks": [
        {
@@ -3201,7 +3201,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "レンジ (microwave oven)　発音からイメージされる英語は range",
-       "tr": "renji: microwave oven. The English word its pronunciation suggests is \"range.\""
+       "tr": "レンジ: microwave oven. The English word its pronunciation suggests is \"range.\""
       },
       "blocks": [
        {
@@ -3210,7 +3210,7 @@ TRY.registerUnits([
         "items": [
          {
           "ja": "コンビニでは、買ったお弁当を**レンジ**で温めてもらえます。",
-          "tr": "At convenience stores, they'll heat up the boxed lunch you bought in the microwave."
+          "tr": "At convenience stores, you can have the boxed lunch you bought heated up in the microwave."
          }
         ]
        }
@@ -3220,7 +3220,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "カンニング (cheating)　発音からイメージされる英語は cunning",
-       "tr": "kanningu: cheating (on a test). The English word its pronunciation suggests is \"cunning.\""
+       "tr": "カンニング: cheating (on a test). The English word its pronunciation suggests is \"cunning.\""
       },
       "blocks": [
        {
@@ -3261,7 +3261,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "パソコン (personal computer)",
-       "tr": "pasokon: personal computer"
+       "tr": "パソコン: personal computer"
       },
       "blocks": [
        {
@@ -3270,7 +3270,7 @@ TRY.registerUnits([
         "items": [
          {
           "ja": "最近ずっと**パソコン**の調子が悪いです。",
-          "tr": "My computer has been acting up for a while lately."
+          "tr": "My computer has been acting up for a while now."
          }
         ]
        }
@@ -3280,7 +3280,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "エアコン (air conditioner)",
-       "tr": "eakon: air conditioner"
+       "tr": "エアコン: air conditioner"
       },
       "blocks": [
        {
@@ -3305,7 +3305,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "マスコミ (mass communication)",
-       "tr": "masukomi: mass communication; the mass media"
+       "tr": "マスコミ: mass communication; the mass media"
       },
       "blocks": [
        {
@@ -3339,7 +3339,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "アンケート (questionnaire)　フランス語の enquête から",
-       "tr": "ankēto: questionnaire. From the French \"enquête.\""
+       "tr": "アンケート: questionnaire. From the French \"enquête.\""
       },
       "blocks": [
        {
@@ -3358,7 +3358,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "ランドセル (school backpack; satchel)　オランダ語の ransel から",
-       "tr": "randoseru: school backpack; satchel. From the Dutch \"ransel.\""
+       "tr": "ランドセル: school backpack; satchel. From the Dutch \"ransel.\""
       },
       "blocks": [
        {
@@ -3384,7 +3384,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "テーマ (theme; topic)　ドイツ語・ギリシャ語の thema から",
-       "tr": "tēma: theme; topic. From the German and Greek \"thema.\""
+       "tr": "テーマ: theme; topic. From the German and Greek \"thema.\""
       },
       "blocks": [
        {
@@ -3403,7 +3403,7 @@ TRY.registerUnits([
       "n": "4",
       "text": {
        "ja": "ウイルス (virus)　ラテン語の virus から",
-       "tr": "uirusu: virus. From the Latin \"virus.\""
+       "tr": "ウイルス: virus. From the Latin \"virus.\""
       },
       "blocks": [
        {
@@ -3422,7 +3422,7 @@ TRY.registerUnits([
       "n": "5",
       "text": {
        "ja": "アレルギー (allergy)　ドイツ語の allergie から",
-       "tr": "arerugī: allergy. From the German \"Allergie.\""
+       "tr": "アレルギー: allergy. From the German \"Allergie.\""
       },
       "blocks": [
        {
@@ -3456,7 +3456,7 @@ TRY.registerUnits([
       "n": "1",
       "text": {
        "ja": "ホチキス (stapler)　アメリカの会社名 E.H. HOTCHKISS から",
-       "tr": "hochikisu: stapler. From the name of the American company E.H. Hotchkiss."
+       "tr": "ホチキス: stapler. From the name of the American company E.H. Hotchkiss."
       },
       "blocks": [
        {
@@ -3475,7 +3475,7 @@ TRY.registerUnits([
       "n": "2",
       "text": {
        "ja": "シャーペン (mechanical pencil)　アメリカの会社の商品名 Eversharp から",
-       "tr": "shāpen: mechanical pencil. From Eversharp, a product name of an American company."
+       "tr": "シャーペン: mechanical pencil. From Eversharp, a product name of an American company."
       },
       "blocks": [
        {
@@ -3494,7 +3494,7 @@ TRY.registerUnits([
       "n": "3",
       "text": {
        "ja": "タッパー (plastic container)　アメリカの会社名 Tupperware から",
-       "tr": "tappā: plastic (food storage) container. From the name of the American company Tupperware."
+       "tr": "タッパー: plastic (food storage) container. From the name of the American company Tupperware."
       },
       "blocks": [
        {
@@ -3513,7 +3513,7 @@ TRY.registerUnits([
       "n": "4",
       "text": {
        "ja": "レントゲン (X-rays; Roentgen)　ドイツ人{物|ぶつ}{理|り}学者 (physicist) の名前 Wilhelm Conrad Röntgen から",
-       "tr": "rentogen: X-rays; Roentgen. From the name of the German physicist Wilhelm Conrad Röntgen."
+       "tr": "レントゲン: X-rays; Roentgen. From the name of the German physicist Wilhelm Conrad Röntgen."
       },
       "blocks": [
        {
@@ -3659,7 +3659,7 @@ TRY.registerUnits([
     "style": "small",
     "text": {
      "ja": "✎答え▶ (1) __ス__キ__ルアッ__プ　(2) __テー__マ　(3) __フ__リ__ートー__ク　(4) __マス__コ__ミ__　(5) __ウイ__ル__ス__",
-     "tr": "Answers: (1) sukiru appu (skill up), (2) tēma (theme), (3) furī tōku (free talk), (4) masukomi (mass media), (5) uirusu (virus)"
+     "tr": "Answers: (1) スキルアップ (2) テーマ (3) フリートーク (4) マスコミ (5) ウイルス"
     }
    }
   ]
@@ -3813,7 +3813,7 @@ TRY.registerUnits([
     "id": "c6-1c",
     "text": {
      "ja": "X。そこで Y。",
-     "tr": "X. So then, Y."
+     "tr": "X. So (in response), Y."
     }
    },
    {
@@ -3880,7 +3880,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "世界では9月入学が多いが、日本は4月入学だ。この違いが日本人の海外留学と外国人の日本留学を難しくしている。__したがって__、国際化のために日本も9月入学にすべきだ。",
-     "tr": "In most of the world the school year starts in September, but in Japan it starts in April. This difference makes it hard for Japanese people to study abroad and for foreigners to study in Japan. Therefore, for the sake of internationalization, Japan should also switch to a September start."
+     "tr": "Many countries around the world start the school year in September, but Japan starts it in April. This difference makes it hard for Japanese people to study abroad and for foreigners to study in Japan. Therefore, for the sake of internationalization, Japan should also switch to a September start."
     }
    },
    {
@@ -3989,7 +3989,7 @@ TRY.registerUnits([
     "id": "c6-2b",
     "text": {
      "ja": "X。ところが Y。",
-     "tr": "X. But then, Y."
+     "tr": "X. But (unexpectedly), Y."
     }
    },
    {
@@ -4242,7 +4242,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "{寝坊|ねぼう}したし、__さらに__、道が込んでいたので、1時間も{遅刻|ちこく}してしまった。",
-     "tr": "I overslept, and on top of that, the roads were crowded, so I ended up a whole hour late."
+     "tr": "I overslept, and on top of that, the roads were crowded, so I ended up being a whole hour late."
     }
    },
    {
@@ -4280,7 +4280,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "この旅館は料理がおいしいことで知られている。__また__、{温泉|おんせん}も有名だ。",
-     "tr": "This inn is known for its delicious food. Its hot springs are also famous."
+     "tr": "This inn is known for its delicious food. Also, its hot springs are famous."
     }
    },
    {
@@ -4343,7 +4343,7 @@ TRY.registerUnits([
     "id": "c6-4a",
     "text": {
      "ja": "X。なお／ただし／ちなみに Y。",
-     "tr": "X. In addition / However / By the way, Y."
+     "tr": "X. Note that / However / Incidentally, Y."
     }
    },
    {
@@ -4368,7 +4368,7 @@ TRY.registerUnits([
      {
       "n": 3,
       "ja": "テニス部の今年の新入部員は36人です。__ちなみに__、去年は28人でした。",
-      "tr": "The tennis club has 36 new members this year. By the way, last year there were 28."
+      "tr": "The tennis club has 36 new members this year. Incidentally, last year there were 28."
      }
     ]
    },
@@ -4475,7 +4475,7 @@ TRY.registerUnits([
      {
       "n": 2,
       "ja": "漢字を1,000字知っていれば、新聞の文字の90%が理解できると言われている。__つまり__、{常用|じょうよう}漢字が半分わかれば、新聞がある{程度|ていど}読めるということだ。",
-      "tr": "It is said that if you know 1,000 kanji, you can understand 90% of the characters in a newspaper. In other words, if you know half of the Joyo (common-use) kanji, you can read a newspaper to some extent."
+      "tr": "It is said that if you know 1,000 kanji, you can understand 90% of the characters in a newspaper. In other words, if you know half of the jōyō kanji (the official list of kanji for general use), you can read a newspaper to some extent."
      },
      {
       "n": 3,
