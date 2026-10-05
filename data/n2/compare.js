@@ -169,7 +169,7 @@ TRY.registerCompare([
         ex: { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}の**こと**。{窓口|まどぐち}での受け付けは{行|おこな}っておりません。", en: "Applications must arrive by January 28. We do not accept them at the counter." },
         note: "Sentence-final V-る / V-ない / Nの + こと: \"must / do not\". An impersonal rule or instruction on notices, application guidelines and regulations; in speech it sounds like an order from a teacher or superior." },
       { pattern: "〜ことか", level: "N2", no: 42,
-        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
+        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but oh, how hard I studied to pass this exam! No one knows about all the work I put in, I suppose." },
         note: "どれだけ / どんなに / なんと + plain form + ことか: \"you have no idea how ~!\". An emotional exclamation about the degree of what the speaker did or felt; somewhat literary." },
       { pattern: "〜ことから", level: "N2", no: 62,
         ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "This sweet potato is called a beni-imo (\"crimson potato\") because it is red inside." },

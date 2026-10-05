@@ -11,10 +11,10 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "{渡辺|わたなべ}", v: "f", ja: "ねえ、サークルのみんなで旅行に行かない？　私もアメリカに留学しちゃったら、みんなにも{簡単|かんたん}に会えなくなるし…。去年{京都|きょうと}に行った**きり**、今年はどこへも行っていないし…。", en: "Hey, why don't we take a trip, the whole club? Once I leave to study in America, I won't get to see everyone so easily anymore... And our last trip was to Kyoto last year. We haven't gone anywhere at all this year..." },
-          { sp: "{木山|きやま}", v: "m", ja: "悪いけど、{就職先|しゅうしょくさき}もまだ決まらないのに、旅行**どころじゃない**よ。", en: "Sorry, but I still don't even have a job lined up. A trip is the last thing I can think about." },
+          { sp: "{渡辺|わたなべ}", v: "f", ja: "ねえ、サークルのみんなで旅行に行かない？　私もアメリカに留学しちゃったら、みんなにも{簡単|かんたん}に会えなくなるし…。去年{京都|きょうと}に行った**きり**、今年はどこへも行っていないし…。", en: "Hey, why don't we all go on a trip, the whole club? Once I'm off studying in America, I won't get to see everyone so easily anymore... Besides, we went to Kyoto last year and that was it. We haven't gone anywhere this year..." },
+          { sp: "{木山|きやま}", v: "m", ja: "悪いけど、{就職先|しゅうしょくさき}もまだ決まらないのに、旅行**どころじゃない**よ。", en: "Sorry, but I still don't even have a job lined up. A trip is the last thing on my mind." },
           { sp: "渡辺", v: "f", ja: "そうか…。ゲーム{会社|がいしゃ}に入りたいんだったよね。どう？", en: "I see... You wanted to get into a game company, right? How's it going?" },
-          { sp: "木山", v: "m", ja: "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。", en: "Hmm. I'm gathering all kinds of information, but it's really tough... The trouble is, in this industry every company's listing says they're hiring only “a few people.”" },
+          { sp: "木山", v: "m", ja: "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。", en: "Hmm. I've been gathering all kinds of information, but it's really tough... The trouble is, in this industry every company's listing says they're hiring only “a few people.”" },
           { sp: "渡辺", v: "f", ja: "へえ。人気の業界**にしては**、{求人|きゅうじん}少ないんだね。", en: "Huh. For such a popular industry, there aren't many openings, are there?" },
           { sp: "木山", v: "m", ja: "{求人|きゅうじん}があるところは全部{応募|おうぼ}して、{自己|じこ}{ＰＲ|ピーアール}何回書いた**ことか**。", en: "I've applied to every place that's hiring — I can't tell you how many personal statements I've written." },
         ],
@@ -36,7 +36,7 @@ TRY.registerChapter({
             { ja: "家には2、3回使ったきりの{健康器具|けんこうきぐ}がいくつもある。", en: "I've got several pieces of exercise equipment at home that I've only used two or three times." },
             { ja: "あの歌手、何年か前にテレビで見たきりだけど、今どうしているのかなあ。", en: "The last time I saw that singer was on TV a few years ago. I wonder what they're up to now." },
             { ja: "ステーキなんて、半年前に食べたっきりだよ。", en: "Steak? The last time I had it was six months ago." },
-            { ja: "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。", en: "Our dog has gotten very weak and spends almost every day lying down." },
+            { ja: "うちの犬は体がすっかり弱って、毎日ほとんど寝たきりだ。", en: "Our dog has gotten very weak and is practically bedridden these days." },
           ],
           notes: [
             {
@@ -73,7 +73,7 @@ TRY.registerChapter({
                   q: "忙しくて、朝コーヒーを飲んだ（　）で、夕方まで何も食べられなかった。",
                   options: ["まま", "きり"],
                   answer: 1,
-                  en: "I was so busy that I had coffee in the morning and then couldn't eat a thing until evening.",
+                  en: "I was so busy that after my coffee in the morning, I couldn't eat a thing until evening.",
                   why: { en: "Coffee in the morning was the last thing consumed; nothing followed until evening: 飲んだきりで." },
                 },
                 {
@@ -104,8 +104,8 @@ TRY.registerChapter({
           forms: ["[N]／[V-る] + どころではない", "[N]／[V-る] + どころじゃない"],
           examples: [
             { ja: "A：学校が終わったらカラオケ行かない？\nB：カラオケどころじゃないよ！　レポート、書かなきゃ。明日{締|し}め{切|き}りなんだ。", en: "A: Want to go to karaoke after school?\nB: I don't have time for karaoke! I have to write my report. It's due tomorrow." },
-            { ja: "A：{海水浴|かいすいよく}どうだった？　楽しかった？\nB：人が多くて、ゆっくり泳ぐどころじゃなかったよ。", en: "A: How was the beach? Did you have fun?\nB: There were so many people that swimming in peace was out of the question." },
-            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Excuse me, a friend of mine is coming to Tokyo, so I'd like to take next week off...\nB: Now, when we're this busy? You know this is no time for a vacation. Look at the situation we're in." },
+            { ja: "A：{海水浴|かいすいよく}どうだった？　楽しかった？\nB：人が多くて、ゆっくり泳ぐどころじゃなかったよ。", en: "A: How was the beach? Did you have fun?\nB: It was so crowded that a relaxing swim was out of the question." },
+            { ja: "A：部長、友達が{東京|とうきょう}に出てくるので、来週1週間{休暇|きゅうか}をいただきたいんですが…。\nB：この忙しいときに、お前、{休暇|きゅうか}どころじゃないだろう。{状況|じょうきょう}を考えてみろ。", en: "A: Excuse me, a friend of mine is coming to Tokyo, so I'd like to take the whole of next week off...\nB: At a busy time like this? This is no time for a vacation, and you know it. Think about the situation we're in." },
           ],
           deepDive: "**〜どころではない** says circumstances are so pressing that an activity is out of the question right now: *this is no time for ~, I'm in no position to ~*. It carries frustration (the book gives it the regret mark). Among friends it is **どころじゃない**, and それどころじゃない (*I've got no time for that*) is very common on its own.\n\nConnection: N / V-る + どころではない. The noun is an activity (旅行, 花見, 勉強). The usual shape is trouble + て／ので, then the activity that is ruled out: 引っ越しの準備で忙しくて、花見どころじゃない (*I'm so busy getting ready to move that cherry-blossom viewing is out of the question*). Addressed to someone else with だろう, it scolds (example ③).\n\nCompare:\n- **〜どころか** (#83): *far from ~*, contradicting an expectation: 楽しいどころか、疲れただけだった (*far from being fun, it just wore me out*).\n- **〜てはいられない** (#29): *can't afford to keep ~ing*: のんびりしてはいられない (*I can't just sit around*).\n\nPitfall: the word before どころ is the activity you can't do, not the cause.\n\nJLPT cue: a problem in the first half and an ordinary pleasure or duty right before the blank.",
           see: [83, 29, 89, 57],
@@ -121,14 +121,14 @@ TRY.registerChapter({
                   q: "今日は会社の{忘年会|ぼうねんかい}だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。",
                   options: ["{忘年会|ぼうねんかい}", "会社"],
                   answer: 0,
-                  en: "We had our company year-end party today, but heavy snow stopped the trains, so the party was out of the question.",
+                  en: "We had our company year-end party today, but heavy snow stopped the trains, so a party was the last thing on our minds.",
                   why: { en: "The trains stopped, which ruled out the activity, the party: 忘年会どころではなかった. The word before どころ is the activity, not the company." },
                 },
                 {
                   q: "旅行先でお{腹|なか}をこわして（　）どころではなかった。",
                   options: ["薬を飲む", "{観光|かんこう}をする"],
                   answer: 1,
-                  en: "I got an upset stomach on my trip, so sightseeing was out of the question.",
+                  en: "I got an upset stomach on my trip and was in no shape to go sightseeing.",
                   why: { en: "The upset stomach ruled out sightseeing, the activity of the trip: 観光をするどころではなかった. Taking medicine is what the speaker would actually do." },
                 },
                 {
@@ -157,10 +157,10 @@ TRY.registerChapter({
           examples: [
             { ja: "水泳教室に通ってはいるものの、いまだに25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can't swim more than 25 meters." },
             { ja: "この{靴|くつ}、デザインが気に入って買ったものの、{履|は}く機会が{全然|ぜんぜん}ないんだ。", en: "I bought these shoes because I liked the design, but I never get a chance to wear them." },
-            { ja: "新しい{技術|ぎじゅつ}が{開発|かいはつ}されたとはいうものの、{実用化|じつようか}にはまだ時間がかかるだろう。", en: "A new technology may have been developed, but it will probably be a while yet before it's put to practical use." },
-            { ja: "{両国間|りょうこくかん}の{関係修復|かんけいしゅうふく}は、{困難|こんなん}ではあるものの、{改善|かいぜん}に{向|む}けての{努力|どりょく}は{必要|ひつよう}だ。", en: "Repairing relations between the two countries may be difficult, but efforts to improve them are still necessary." },
+            { ja: "新しい{技術|ぎじゅつ}が{開発|かいはつ}されたとはいうものの、{実用化|じつようか}にはまだ時間がかかるだろう。", en: "A new technology has been developed, it's true, but it will probably be a while yet before it's put to practical use." },
+            { ja: "{両国間|りょうこくかん}の{関係修復|かんけいしゅうふく}は、{困難|こんなん}ではあるものの、{改善|かいぜん}に{向|む}けての{努力|どりょく}は{必要|ひつよう}だ。", en: "Repairing relations between the two countries is difficult, to be sure, but efforts to improve them are still necessary." },
           ],
-          deepDive: "**〜ものの** is a concessive *although, it's true that ~, but*: the speaker grants a fact, then says the expected result did not follow. It is more written and more measured than けど, and calmer than のに, which complains: 免許は取ったものの、まだ一人で運転したことがない (*I did get my license, but I've never driven on my own*).\n\nConnection: plain form + ものの; な-adjectives take な, nouns take である (学生であるものの). With 〜ている／〜てみる a は is usually inserted, stressing *I did at least that much*: 読んではみたものの (*I did try reading it, but*). **とはいうものの** (*that said*) can also open a sentence.\n\nThe second half states a fact or a worry. It can't be a request, an invitation or the speaker's will: ✗難しいものの、やってみよう → ✓難しいけど、やってみよう.\n\nCompare:\n- **〜ながら（も）** (#15): also concessive, mostly with states and one subject (狭いながらも).\n- **〜あげく** (#45): a bad outcome after a long process, not a concession.\n\nJLPT cue: a fact or decision, then a second half saying it hasn't paid off (まだ〜ない, なかなか〜ない).",
+          deepDive: "**〜ものの** is a concessive *although, it's true that ~, but*: the speaker grants a fact, then says the expected result did not follow. It is more written and more measured than けど, and calmer than のに, which complains: 免許は取ったものの、まだ一人で運転したことがない (*I did get my license, but I've never driven on my own*).\n\nConnection: plain form + ものの; な-adjectives take な, nouns take である (学生であるものの). With 〜ている／〜てみる a は is often inserted, stressing *I did at least that much*: 読んではみたものの (*I did try reading it, but*). **とはいうものの** (*that said*) can also open a sentence.\n\nThe second half states a fact or a worry. It can't be a request, an invitation or the speaker's will: ✗難しいものの、やってみよう → ✓難しいけど、やってみよう.\n\nCompare:\n- **〜ながら（も）** (#15): also concessive, mostly with states and one subject (狭いながらも).\n- **〜あげく** (#45): a bad outcome after a long process, not a concession.\n\nJLPT cue: a fact or decision, then a second half saying it hasn't paid off (まだ〜ない, なかなか〜ない).",
           see: [15, 45, 21, 112],
           xref: "☞ p.224　〜もの／もん",
           index: ["Plものの", "なAなものの", "Nであるものの", "〜てはいるものの", "とはいうものの"],
@@ -214,7 +214,7 @@ TRY.registerChapter({
             { ja: "{残念|ざんねん}なことに、行きつけの{美容院|びよういん}が{閉店|へいてん}してしまった。", en: "Sadly, the hair salon I always go to has closed down." },
           ],
           xref: "☞ p.221　〜こと",
-          deepDive: "**〜ことに** works like an English sentence adverb: *surprisingly, sadly, fortunately*. The speaker leads with their own reaction and then gives the fact: 驚いたことに、彼はもう全部終わらせていた (*to my surprise, he'd already finished everything*). The book calls this 倒置的: instead of 〜て驚いた, the feeling comes first.\n\nConnection: V-た / いA / なAな + ことに, with a small set of evaluative words: 驚いた, 困った, うれしい, 悲しい, 残念な, 不思議な, ありがたい, 幸いな. Verbs take the past: ✗驚くことに.\n\nConstraints: the feeling is the speaker's, and the main clause states a fact. It can't be a request, intention or question: ✗残念なことに、来てください. The pattern is a little formal and common in writing and speeches, though fine in conversation.\n\nCompare **〜ことか** (#42): also emotional, but it closes the sentence and exclaims over a degree: どれほど待ったことか (*you have no idea how long I waited*). ことに comes first and frames a fact.\n\nJLPT cue: an emotion word right before the blank at the head of the sentence, then a comma and a fact.",
+          deepDive: "**〜ことに** works like an English sentence adverb: *surprisingly, sadly, fortunately*. The speaker leads with their own reaction and then gives the fact: 驚いたことに、彼はもう全部終わらせていた (*to my surprise, he'd already finished everything*). The book calls this 倒置的: instead of 〜て驚いた, the feeling comes first.\n\nConnection: V-た / いA / なAな + ことに, with a small set of evaluative words: 驚いた, 困った, うれしい, 悲しい, 残念な, 不思議な, ありがたい, 幸いな. Verbs normally take the past: 驚いたことに, 困ったことに.\n\nConstraints: the feeling is the speaker's, and the main clause states a fact. It can't be a request, intention or question: ✗残念なことに、来てください. The pattern is a little formal and common in writing and speeches, though fine in conversation.\n\nCompare **〜ことか** (#42): also emotional, but it closes the sentence and exclaims over a degree: どれほど待ったことか (*you have no idea how long I waited*). ことに comes first and frames a fact.\n\nJLPT cue: an emotion word right before the blank at the head of the sentence, then a comma and a fact.",
           see: [42, 87],
           index: ["〜ことに", "驚いたことに", "残念なことに", "困ったことに", "うれしいことに"],
         },
@@ -263,7 +263,7 @@ TRY.registerChapter({
                   options: ["に{応|おう}じた", "にしては"],
                   answer: 0,
                   en: "Flextime is a system that lets you work at hours that suit your own preferences.",
-                  why: { en: "The noun 時間帯 follows, and the hours are matched to one's wishes: に応じた + N." },
+                  why: { en: "The noun 時間帯 follows, and the hours are matched to one's wishes: に応じた + N. にしては (*for a ~*) needs an expectation to break." },
                 },
                 {
                   q: "今日は{日中|にっちゅう}の最高{気温|きおん}が10度までしか上がらず、3月{下旬|げじゅん}（　）寒い1日となりそうです。",
@@ -288,8 +288,8 @@ TRY.registerChapter({
             { ja: "「[なA]／[N]である + ことか」も使われることがある。", en: "\"[なA]／[N]である + ことか\" is also sometimes used.", gen: true },
           ],
           examples: [
-            { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
-            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to leave my best friend behind because my parent was transferred for work. I can't tell you how sad I was." },
+            { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but oh, how hard I studied to pass this exam! No one knows about all the work I put in, I suppose." },
+            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to leave my best friend behind because of my parent's job transfer. I can't tell you how sad I was." },
             { ja: "言葉が通じない外国で病気になって、どれほど{心細|こころぼそ}かったことか。あのときの{看護師|かんごし}さんには今でも{感謝|かんしゃ}しています。", en: "I can't tell you how helpless I felt when I got sick in a foreign country where I couldn't make myself understood. I'm still grateful to the nurse who looked after me then." },
             { ja: "{週末|しゅうまつ}、台風が来そうで{心配|しんぱい}だ。運動会が中止になったら、楽しみにしている{娘|むすめ}がどんなにがっかりすることか。", en: "I'm worried a typhoon might hit this weekend. If sports day is canceled, I can't imagine how disappointed my daughter will be. She's been so looking forward to it." },
           ],
@@ -304,10 +304,10 @@ TRY.registerChapter({
         prompt: { ja: "", en: "Choose the word from the box that fills each blank." },
         bank: ["ことか", "にしては", "どころじゃない", "ことに", "ものの", "きり"],
         items: [
-          { q: "A：今日、飲みに行かない？\nB：急に部長に仕事を{頼|たの}まれちゃって、それ＿＿よ。", answer: "どころじゃない", en: "A: Want to go for a drink today?\nB: My manager suddenly asked me to do some work, so I can't even think about that." },
+          { q: "A：今日、飲みに行かない？\nB：急に部長に仕事を{頼|たの}まれちゃって、それ＿＿よ。", answer: "どころじゃない", en: "A: Want to go for a drink today?\nB: My manager suddenly asked me to take care of something, so I've got no time for that." },
           { q: "友達にすすめられて新しいサプリメントを{試|ため}してみた＿＿、あまり{効果|こうか}がなかった。", answer: "ものの", en: "I tried a new supplement on a friend's recommendation, but it didn't have much effect." },
           { q: "彼が買った車は{中古車|ちゅうこしゃ}＿＿ボディもきれいで、エンジンの{調子|ちょうし}もいい。", answer: "にしては", en: "The car he bought is used, but for a used car the body is clean and the engine runs well." },
-          { q: "困った＿＿、ATMが{故障|こしょう}していてお金が下ろせない。", answer: "ことに", en: "Annoyingly, the ATM is broken and I can't withdraw any money." },
+          { q: "困った＿＿、ATMが{故障|こしょう}していてお金が下ろせない。", answer: "ことに", en: "The trouble is, the ATM is out of order and I can't take out any money." },
           { q: "A：{健康診断|けんこうしんだん}、毎年受けてる？\nB：ううん。5年前に受けた＿＿。", answer: "きり", en: "A: Do you get a health checkup every year?\nB: No. The last one I had was five years ago." },
           { q: "{一晩中連絡|ひとばんじゅうれんらく}もしないで、どこへ行ってたの。どんなに{心配|しんぱい}した＿＿。", answer: "ことか", en: "Where were you all night without even getting in touch? You have no idea how worried I was!" },
         ],
@@ -325,7 +325,7 @@ TRY.registerChapter({
         lines: [
           { sp: "{渡辺|わたなべ}", v: "f", ja: "難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。", en: "That's tough. I guess it's not as if motivation alone will get you hired." },
           { sp: "{木山|きやま}", v: "m", ja: "そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Exactly. If no one's hiring, there's no way to even try… Sometimes I catch myself thinking, what if I keep holding out for a game company, struggle and struggle, and in the end don't get a job anywhere at all…" },
-          { sp: "渡辺", v: "f", ja: "そんなこと考える**もんじゃない**よ。{成功|せいこう}するって信じなきゃ。ゼミの{先輩|せんぱい}も、{絶対|ぜったい}だめだと思ったけど出す**だけ**出してみるって言って、{結局|けっきょく}その会社に入れたんだって。", en: "You shouldn't think like that. You have to believe you'll make it. One of the older students in my seminar was sure there was no chance either, but said they'd at least send in an application anyway, and in the end they got into that company." },
+          { sp: "渡辺", v: "f", ja: "そんなこと考える**もんじゃない**よ。{成功|せいこう}するって信じなきゃ。ゼミの{先輩|せんぱい}も、{絶対|ぜったい}だめだと思ったけど出す**だけ**出してみるって言って、{結局|けっきょく}その会社に入れたんだって。", en: "You shouldn't think like that. You have to believe you'll make it. One of the older students in my seminar was sure there was no chance, but said they'd send in an application anyway, just to try, and I heard they ended up getting into that company." },
           { sp: "木山", v: "m", ja: "へえ、そうなんだ。", en: "Wow, really?" },
           { sp: "渡辺", v: "f", ja: "だから、とにかくあきらめないで、最後までがんばろうよ。ね。", en: "So whatever you do, don't give up. Let's keep at it till the end, OK?" },
         ],
@@ -341,8 +341,8 @@ TRY.registerChapter({
           forms: ["[N] + さえ + …ば", "[V-~~ます~~] + さえ + すれば／しなければ", "［[なA] で　[N] で］ + さえ + あれば／なければ"],
           examples: [
             { ja: "A：レポート終わった？\nB：もう少し。あと、最後のまとめさえ書けば終わりだよ。", en: "A: Have you finished your report?\nB: Almost. I just need to write the conclusion and I'm done." },
-            { ja: "そちらのご{都合|つごう}さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'd like to come by tomorrow." },
-            { ja: "A：あの車、すてきなデザインね。\nB：車なんて走りさえすればいいんだよ。", en: "A: That car has a lovely design, doesn't it?\nB: Cars? As long as it runs, that's all that matters." },
+            { ja: "そちらのご{都合|つごう}さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "Provided it's convenient for you, I will call on you tomorrow." },
+            { ja: "A：あの車、すてきなデザインね。\nB：車なんて走りさえすればいいんだよ。", en: "A: That car has a lovely design, doesn't it?\nB: Cars? As long as they run, that's all that matters." },
             { ja: "食べられさえすれば、味は{問|と}わないよ。", en: "As long as it's edible, I don't care how it tastes." },
             { ja: "{残念|ざんねん}だったね、さくらちゃん。転びさえしなければ1{位|い}だったのに…。", en: "That's a shame, Sakura. If only you hadn't fallen, you'd have come in first…" },
             { ja: "留学生活は大変だけど、{健康|けんこう}でさえあればどんな{困難|こんなん}も乗り切れると信じてがんばろうと思う。", en: "Life as an exchange student is hard, but I'm going to keep going, believing that as long as I stay healthy I can get through any difficulty." },
@@ -373,7 +373,7 @@ TRY.registerChapter({
           forms: ["[V-~~ます~~] + ようがない"],
           examples: [
             { ja: "出張の予定だったが、{大雪|おおゆき}で{飛行機|ひこうき}が{欠航|けっこう}してしまったので行きようがない。", en: "I was supposed to go on a business trip, but the flight was canceled because of heavy snow, so there's no way I can go." },
-            { ja: "A：どうして1週間も{連絡|れんらく}してくれなかったの。\nB：ごめん。{携帯|けいたい}電話をなくしちゃって、{連絡|れんらく}しようがなかったんだ。", en: "A: Why didn't I hear from you for a whole week?\nB: Sorry. I lost my cell phone, so I had no way of contacting you." },
+            { ja: "A：どうして1週間も{連絡|れんらく}してくれなかったの。\nB：ごめん。{携帯|けいたい}電話をなくしちゃって、{連絡|れんらく}しようがなかったんだ。", en: "A: Why didn't you get in touch for a whole week?\nB: Sorry. I lost my cell phone, so I had no way of contacting you." },
             { ja: "タケダ{産業|さんぎょう}に{就職|しゅうしょく}したいが{新卒|しんそつ}の{採用|さいよう}がないので、どうしようもない。", en: "I want to get a job at Takeda Industries, but they aren't hiring new graduates, so there's nothing I can do.", idiom: true },
           ],
           deepDive: "**〜ようがない** (よう, *way of doing*) means *there's no way to ~*: the action is impossible because the means are missing, such as information, tools or a contact. The reason usually comes first: 住所がわからないので、連絡しようがない (*I don't know the address, so there's no way to get in touch*). The tone is resigned; the speaker would do it if they could.\n\nConnection: V-ます + ようがない; with する-nouns both 説明しようがない and 説明のしようがない. どうしようもない (*nothing can be done*) and しようがない／しょうがない (*it can't be helped*) come from the same pattern.\n\nCompare:\n- **〜きれない**: can't do it *all*: 多すぎて覚えきれない (*too many to memorize them all*). ようがない is can't do it at all.\n- **〜ざるを得ない** (#24): the opposite direction, *have no choice but to*.\n- **〜はずがない** (N3): a judgment that something can't be true, not a missing means.\n\nPitfall: the stem is the ます-stem, never the dictionary or potential form: ✗書けようがない.\n\nJLPT cue: a missing resource (道具がない, 連絡先を知らない) before the blank.",
@@ -431,7 +431,7 @@ TRY.registerChapter({
             { ja: "さっきのお客さん、あれこれ{試着|しちゃく}したあげく、何も買わずに帰っちゃって…。", en: "That customer just now tried on one thing after another, and after all that, left without buying anything…" },
             { ja: "3時間以上{迷|まよ}ったあげく、店員に初めにすすめられたパソコンを買うことにした。", en: "After agonizing for more than three hours, I ended up deciding to buy the computer the salesclerk had recommended in the first place." },
           ],
-          deepDive: "**〜あげく（に）** (挙げ句, originally the closing verse of a linked poem) means *after a long or trying ~, in the end*. The first half is effort, dithering or trouble; the second half is the outcome, usually a letdown: 二時間も話し合ったあげく、何も決まらなかった (*after two whole hours of discussion, nothing was decided*). There is often a hint of *all that for this?*\n\nConnection: V-た + あげく（に）; also N + のあげく (口論のあげく, *after a quarrel*). さんざん, あれこれ and 何度も often fill the first half, 結局 or 〜てしまった the second. あげくの果てに = *to cap it all*.\n\nThe second half is a settled result, not a wish, request or plan.\n\nCompare:\n- **〜末（に）** (#124): also *after a long ~*, but neutral or positive and more formal: 努力の末に合格した (*passed after great effort*). あげく would sound sour here.\n- **〜ものの** (#39): a concession, with no long process.\n\nPitfall: a single, brief action can't come first: ✗一回頼んだあげく.\n\nJLPT cue: a drawn-out process before the blank and a disappointing result after it.",
+          deepDive: "**〜あげく（に）** (挙げ句, originally the closing verse of a linked poem) means *after a long or trying ~, in the end*. The first half is effort, dithering or trouble; the second half is the outcome, usually a letdown: 二時間も話し合ったあげく、何も決まらなかった (*after two whole hours of discussion, nothing was decided*). There is often a hint of *all that for this?*\n\nConnection: V-た + あげく（に）; also N + のあげく (口論のあげく, *after a quarrel*). さんざん, あれこれ and 何度も often fill the first half, 結局 or 〜てしまった the second. あげくの果てに = *to cap it all*.\n\nThe second half is a settled result, not a wish, request or plan.\n\nCompare:\n- **〜末（に）** (#124): also *after a long ~*, but neutral or positive and more formal: 努力の末に合格した (*passed after great effort*). あげく would sound sour here.\n- **〜ものの** (#39): a concession, with no long process.\n\nPitfall: a single, brief action sounds wrong before it: ?一回頼んだあげく.\n\nJLPT cue: a drawn-out process before the blank and a disappointing result after it.",
           see: [124, 39, 48],
           index: ["V-たあげく", "Nのあげく", "あげくに", "あげくの果てに"],
           practice: [
@@ -486,7 +486,7 @@ TRY.registerChapter({
             { ja: "社内のことは小さいことでも、{部外者|ぶがいしゃ}に話すものではない。", en: "You shouldn't discuss company matters with outsiders, however small." },
             { ja: "A：どうも、すみませ〜ん。\nB：何、笑ってるんだ！　{謝|あやま}るときにはへらへら笑うもんじゃない。", en: "A: Sooorry about that.\nB: What are you laughing about? You don't grin like that when you're apologizing!" },
           ],
-          deepDive: "**〜ものではない／〜もんじゃない** is a warning grounded in common sense: *you shouldn't ~, one doesn't ~*. It is the negative of the norm **ものだ** (#13): 人の話は最後まで聞くものだ (*you should hear people out*) / 人の話をさえぎるものではない (*you shouldn't interrupt people*). The speaker is typically a parent, a boss or a friend giving firm advice; it can sound preachy, so friends soften it with よ.\n\nConnection: V-る + ものではない; casual もんじゃない; polite ものではありません.\n\nCompare:\n- **〜べきではない**: a personal, reasoned judgment; ものではない appeals to how people in general behave.\n- **〜というものではない** (#25): denies a generalization and warns no one: 高ければいいというものではない (*expensive isn't automatically better*).\n- **〜ことはない** (#49): lifts an obligation: 急ぐことはない (*there's no need to hurry*).\n\nA second sense: なかなか〜できるものではない, *not something you can easily do*.\n\nPitfall: it's advice about how people should act, not a report of your own habits: ✗私はうそをつくものではない.\n\nJLPT cue: a sentence scolding bad manners points to ものではない; one rejecting a formula (〜ばいい) points to というものではない.",
+          deepDive: "**〜ものではない／〜もんじゃない** is a warning grounded in common sense: *you shouldn't ~, one doesn't ~*. It is the negative of the norm **ものだ** (#13): 人の話は最後まで聞くものだ (*you should hear people out*) / 人の話をさえぎるものではない (*you shouldn't interrupt people*). The speaker is typically a parent, a boss or a friend giving firm advice; it can sound preachy, so friends soften it with よ.\n\nConnection: V-る + ものではない; casual もんじゃない; polite ものではありません.\n\nCompare:\n- **〜べきではない**: a personal, reasoned judgment; ものではない appeals to how people in general behave.\n- **〜というものではない** (#25): denies a generalization and warns no one: 高ければいいというものではない (*expensive isn't automatically better*).\n- **〜ことはない** (#49): lifts an obligation: 急ぐことはない (*there's no need to hurry*).\n\nA second sense: なかなか〜できるものではない, *not something you can easily do*.\n\nPitfall: it's advice about how people should act, not a report of your own habits: ?私はうそをつくものではない.\n\nJLPT cue: a sentence scolding bad manners points to ものではない; one rejecting a formula (〜ばいい) points to というものではない.",
           see: [13, 25, 49, 51],
           xref: "☞ p.224　〜もの／もん",
           index: ["Vるものではない", "Vるもんじゃない", "ものではありません"],
@@ -515,7 +515,7 @@ TRY.registerChapter({
         prompt: { ja: "", en: "Choose the word from the box that fills each blank." },
         bank: ["さえ", "あげく", "ものではない", "だけ", "ようがない"],
         items: [
-          { q: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", answer: "あげく", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes." },
+          { q: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", answer: "あげく", en: "I went all the way to the university hospital, and after they kept me waiting forever, the examination lasted just two minutes." },
           { q: "A：{久|ひさ}しぶりの海外旅行だから、何か忘れていないか{心配|しんぱい}。\nB：パスポートとお金＿＿持っていけば、何とかなるよ。", answer: "さえ", en: "A: It's my first trip abroad in ages, so I'm worried I've forgotten something.\nB: As long as you take your passport and money, you'll manage." },
           { q: "A：この{機械|きかい}、直していただけませんか。\nB：{部品|ぶひん}がないので、直し＿＿んですよ。", answer: "ようがない", en: "A: Could you repair this machine for me?\nB: We don't have the parts, so there's no way to repair it." },
           { q: "しかられるのが{怖|こわ}いからといって、うそをつく＿＿。", answer: "ものではない", en: "You shouldn't lie just because you're afraid of being scolded." },
@@ -536,7 +536,7 @@ TRY.registerChapter({
             q: "彼は、自分のミスで仕事が遅れたのに、あれこれ{言|い}い{訳|わけ}した（　）、{結局|けっきょく}{一|ひと}{言|こと}も{謝|あやま}らなかった。",
             options: ["にしては", "からには", "ことなく", "あげく"],
             answer: 3,
-            en: "The work fell behind because of his own mistake, yet after making one excuse after another, he never said a single word of apology.",
+            en: "The work fell behind because of his own mistake, yet after making one excuse after another, in the end he never said a single word of apology.",
             why: { en: "A drawn-out process (あれこれ言い訳した) followed by a disappointing result (結局一言も謝らなかった): あげく. にしては needs an expectation, からには *now that*, and ことなく (*without*) follows a dictionary form, not V-た." },
           },
           {
@@ -564,7 +564,7 @@ TRY.registerChapter({
             q: "ABK社は{一流企業|いちりゅうきぎょう}（　）{給料|きゅうりょう}が安くてびっくりした。",
             options: ["にしては", "はもとより", "を{問|と}わず", "さえ"],
             answer: 0,
-            en: "I was surprised at how low the salaries are at ABK for a top company.",
+            en: "I was surprised at how low ABK's salaries are for a top company.",
             why: { en: "一流企業 sets an expectation (high pay) that the fact breaks (給料が安くてびっくり): にしては. はもとより (*not to mention*), を問わず (*regardless of*) and さえ (*even*) don't express a broken expectation." },
           },
           {
@@ -624,7 +624,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{引|ひ}っ{越|こ}しのために荷物を{整理|せいり}することになったが、{祖父母|そふぼ}も両親も物が{捨|す}てられない{性格|せいかく}で、荷物が山のようにある。私たち{姉妹|しまい}の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", "両親は古い荷物の中から思い出の{品|しな}を手に取ってながめ、{引|ひ}っ{越|こ}し[1]。さんざん{昔話|むかしばなし}をした[2]、父はすべて{捨|す}てないと言い出した。思い出の{品|しな}とはいう[3]、しまっておく場所もないので[4]。{結局|けっきょく}トラック1{杯|ぱい}分の{品|しな}を{捨|す}てた。父はさびしいかもしれないが、また新しい家で新しい思い出を作ってほしいと思う。"],
-        en: ["We had to sort through our things for the move, but my grandparents and my parents are all the type who can't throw anything away, so we have mountains of stuff. Out came not only our things from when my sisters and I were children, but even the schoolbooks my parents and grandparents had used as children.", "My parents picked up keepsakes from among the old things and gazed at them, in no state to get on with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
+        en: ["We had to sort through our things for the move, but my grandparents and my parents are all the type who can't throw anything away, so we have mountains of stuff. Out came not only our things from when my sisters and I were children, but even the schoolbooks my parents and grandparents had used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and the move was the last thing on their minds. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
         blanks: [
           { options: ["どころではない", "さえすればいい", "かねない", "ということだ"], answer: 0, why: { en: "Absorbed in their keepsakes, the parents were in no state to get on with packing: 引っ越しどころではない. かねない needs a bad result, and さえすればいい／ということだ don't fit the situation." } },
           { options: ["ばかりで", "くせに", "あげく", "わけではなく"], answer: 2, why: { en: "A long process (さんざん昔話をした) and a let-down result (すべて捨てないと言い出した): あげく. くせに criticizes a contradiction, ばかりで means *only ~ing*, and わけではなく is a denial." } },
