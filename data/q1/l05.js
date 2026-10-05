@@ -153,7 +153,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "飲食店で、注文の仕方がわからなくて{困|こま}った経験がありますか。\nその時、どうしましたか。",
-        "tr": "Have you ever been at a loss at a restaurant because you didn't know how to order? What did you do then?"
+        "tr": "Have you ever had trouble at a restaurant because you didn't know how to order? What did you do?"
        }
       }
      ]
@@ -430,13 +430,13 @@ TRY.registerLesson({
      ],
      "tr": [
       "Sushi used to be seen only as an upscale food. What changed that was conveyor-belt sushi. At conveyor-belt sushi restaurants, you can eat sushi at low prices, from 100 yen to several hundred yen a plate. Even though it's cheap, the toppings are fresh and delicious, so popular restaurants are crowded no matter when you go. Some people probably can't help going in when they see a sign saying “100 yen a plate.”",
-      "When you enter a conveyor-belt sushi restaurant, the first thing that catches your eye is a big conveyor belt running right beside the tables. From the delicious-looking sushi carried along one after another on that belt, customers freely take whatever they want to eat. There is a wide variety of toppings, including seasonal limited-time toppings and unusual Western-style ones, so you should be able to enjoy yourself every time you go. More and more restaurants are also serving side dishes other than sushi, such as ramen and desserts.",
+      "When you enter a conveyor-belt sushi restaurant, the first thing that catches your eye is a big conveyor belt running right beside the tables. Customers are free to take whatever they want from the delicious-looking sushi that comes along the belt, one plate after another. There is a wide variety of toppings, including seasonal limited-time toppings and unusual Western-style ones, so you should be able to enjoy yourself every time you go. More and more restaurants are also offering items besides sushi, such as ramen and desserts.",
       "And at conveyor-belt sushi restaurants, the price is usually set by the color of the plate. So unlike upscale sushi restaurants, where there is no menu and you don't know the prices, at a conveyor-belt sushi restaurant you can choose what you like without worrying.",
-      "If you go to a restaurant at lunchtime or dinnertime, there is often a line. If you have to wait, put your name and the number of people in your party down on the sheet of paper at the entrance. At some places, instead of paper, you enter the number on a touch panel. There are also restaurants where you can choose between counter seats and booth seats. When a seat becomes free, you are called in turn and shown inside.",
-      "Once you're seated, make your tea. First, take one of the teacups placed near your seat and put in powdered tea or a tea bag from the table. Next, pour hot water from the nozzle attached to the table. When you press the black button under the nozzle with the cup, hot water comes out. It's also a good idea to get soy sauce, wasabi, and gari (vinegar-pickled ginger), which cleanses the palate, ready ahead of time.",
-      "The topping you want isn't necessarily going around on the belt when you want to eat it. That's when the touch panel, which lets you order from your seat, comes in handy. Although it differs from restaurant to restaurant, you can usually order in much the same way.",
-      "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are shown so that you can order even if you don't know what the toppings are called, so there's nothing to worry about.",
-      "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, keep entering it the same way.",
+      "If you go to a restaurant at lunchtime or dinnertime, there is often a line. If you have to wait, write your name and the number of people in your party on the sheet at the entrance. At some places, you enter the number of people on a touch panel instead of on paper. There are also restaurants where you can choose between counter seats and booth seats. When a seat opens up, you are called in order and shown in.",
+      "Once you're seated, get your tea ready. First, take one of the teacups near your seat and put in some powdered tea or a tea bag from the table. Next, pour in hot water from the spout attached to the table. It's set up so that hot water comes out when you press the black button under the spout with the cup. It's also a good idea to set out soy sauce, wasabi, and some gari (vinegar-pickled ginger) to cleanse your palate.",
+      "The topping you want isn't necessarily going around on the belt when you want to eat it. That's when the touch panel, which lets you order from your seat, comes in handy. It varies from restaurant to restaurant, but ordering usually works in much the same way.",
+      "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen (①). A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know what the toppings are called, so there's no need to worry.",
+      "Once you've decided what to have, next touch its photo and enter how many plates you want (②). If there's anything else you want to order, just repeat the same steps.",
       "Finally, press the “Order” button on the screen and you're done. After a little while, your sushi comes along on a plate marked “Ordered Item” or something similar (③).",
       "Conveyor-belt sushi restaurants have now spread all over the world, but why not try the authentic version here in Japan? It has a little something extra you won't find in other countries."
      ],
@@ -593,7 +593,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "**まず**、__トップ画面の「お{引|ひき}{出|だ}し」 (withdrawal) をタッチします__。たいてい、画面の上のほうにあります。**次に**、__カードを{機械|きかい}に入れます__。黒いテープのほうを下にして入れてください。**そして**、__{暗証|あんしょう}番号 (PIN) を入れてから、「{確認|かくにん}」を押します__。3回間違えると、ATMが使えなくなるので注意が必要です。**それから**、__引き出したい{金額|きんがく}を入れて、「確認」を押します__。一日にいくらまで引き出せるかが決まっているので、気をつけてください。**最後に**、__利用{明細票|めいさいひょう} (receipt) が必要かどうかを選びます__。すると、すぐに引き出したお金とカードが出てきます。両方とも忘れずに取りましょう。",
-        "tr": "First, touch “Withdrawal” on the home screen. It is usually near the top of the screen. Next, insert your card into the machine. Insert it with the black magnetic strip facing down. Then enter your PIN and press “Confirm.” If you get it wrong three times, you will no longer be able to use the ATM, so take care. After that, enter the amount you want to withdraw and press “Confirm.” There is a limit on how much you can withdraw in a day, so be careful. Finally, choose whether you need a receipt. Your cash and card will then come out right away. Be sure not to forget either of them."
+        "tr": "First, touch “Withdrawal” on the home screen. It is usually near the top of the screen. Next, insert your card into the machine. Insert it with the black strip facing down. Then enter your PIN and press “Confirm.” If you get it wrong three times, you won't be able to use the ATM anymore, so be careful. After that, enter the amount you want to withdraw and press “Confirm.” There is a limit on how much you can withdraw in a day, so keep that in mind. Finally, choose whether you need a receipt. Your cash and card will then come out right away. Make sure you take both."
        }
       },
       {
@@ -635,14 +635,14 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "まずはじめに、画面の「にぎり」「巻物」「おすすめ」などのカテゴリーの中から見たいものを選んでタッチする。すると、詳しいメニューが出てくるので、その中から注文したいものを決めよう。ネタの名前がわからなくても注文できるように、写真が表示されているから安心だ。",
-          "tr": "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen. A more detailed menu then appears, so decide what you want to order from it. Photos are shown so that you can order even if you don't know what the toppings are called, so there's nothing to worry about."
+          "tr": "First of all, choose the category you want to see, such as “Nigiri,” “Rolls,” or “Recommended,” and touch it on the screen. A more detailed menu then appears, so decide what you want to order from it. Photos are displayed so that you can order even if you don't know what the toppings are called, so there's no need to worry."
          }
         },
         {
          "t": "p",
          "text": {
           "ja": "どれにするか決めたら、次に、その写真をタッチして、何皿注文するか入力する。他にも注文したいものがあれば、同じように繰り返し入力していく。",
-          "tr": "Once you've decided what to have, next touch its photo and enter how many plates you want. If there's anything else you want to order, keep entering it the same way."
+          "tr": "Once you've decided what to have, next touch its photo and enter how many plates you want. If there's anything else you want to order, just repeat the same steps."
          }
         }
        ]
@@ -700,7 +700,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "駅までどうやって行ったら、一番早いかな？",
-           "tr": "What's the fastest way to get to the station, I wonder?"
+           "tr": "I wonder what the fastest way to get to the station is."
           },
           {
            "sp": "B",
@@ -725,7 +725,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "来週はレポートの{締|し}め{切|き}りが3つもあるんだ。全部は書けないかも……。",
-           "tr": "I've got three report deadlines next week! I might not be able to write them all..."
+           "tr": "I've got three whole reports due next week. I might not be able to write them all..."
           },
           {
            "sp": "B",
@@ -775,7 +775,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (example 5), だれに聞いても.\n- 何度／何回 Vても stresses repeated tries with the same result (example 3); いくら and どんなに measure degree (examples 5 and 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
+     "deepDive": "**Question word + ても** says Y holds whatever the question word stands for: *no matter what / who / where*, or English *-ever*. いつ行っても込んでいる (Reading 1, line 3) is *crowded whenever you go*.\n\n- Adjectives and nouns take くても／でも: どんなに大変でも (example 5), いくら高くても.\n- 何度／何回 Vても stresses repeated tries with the same result (example 3); いくら and どんなに measure degree (examples 5 and 6).\n- Without a question word, 〜ても is a single supposition, *even if* (L5-6).\n\nTRY! N2 #125 たとえ〜ても adds たとえ for emphasis; TRY! N1 #78 〜（よ）うが／〜（よ）うと is the written, more defiant form: 何を言われようが (*whatever they say to me*). Pitfall: 何でも alone means *anything* (何でも食べる, *I eat anything*); the *no matter* reading needs the verb: 何を食べてもおいしい."
     },
     {
      "t": "note",
@@ -805,7 +805,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "留学生活で、どんなことが楽しいですか。",
-           "tr": "What do you enjoy about your life as a study-abroad student?"
+           "tr": "What do you enjoy about studying abroad?"
           },
           {
            "sp": "学生",
@@ -1214,7 +1214,7 @@ TRY.registerLesson({
           {
            "sp": "子ども",
            "ja": "お母さん、ドアにかぎをかけとくね。\nあっ、お父さんからメッセージ！ あと5分で家に着くって。",
-           "tr": "Mom, I'll lock the door. Oh, a message from Dad! He says he'll be home in five minutes."
+           "tr": "Mom, I'll go ahead and lock the door. Oh, a message from Dad! He says he'll be home in five minutes."
           },
           {
            "sp": "母",
@@ -1226,7 +1226,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "今日のランチはホテルの食べ放題に行く予定なので、たくさん食べられるように朝ご飯はあまり食べ**ないでおこう**。",
-         "tr": "Since I'm planning to go to a hotel's all-you-can-eat buffet for lunch today, I'll keep breakfast light so that I can eat a lot."
+         "tr": "Since I'm planning to have lunch at an all-you-can-eat buffet at a hotel today, I'll keep breakfast light so that I can eat a lot."
         },
         {
          "n": 5,
@@ -1238,7 +1238,7 @@ TRY.registerLesson({
           },
           {
            "ja": "今日はバレンタインデーだった。ジョージが「{絵理|えり}からチョコレートをもらった！」とうれしそうに僕に言った。実は、僕も同じチョコレートをもらったが、そのことはジョージに言わ**ないでおいた**。",
-           "tr": "Today was Valentine's Day. George told me happily, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I kept that from George."
+           "tr": "Today was Valentine's Day. George happily told me, \"I got chocolate from Eri!\" The truth is, I got the same chocolate, too, but I didn't tell George that."
           }
          ]
         }
@@ -1413,7 +1413,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "あの店のケーキって、高いのに全然おいしくないよね。",
-           "tr": "That shop's cakes are expensive, and yet they're not good at all, are they?"
+           "tr": "The cakes at that shop are expensive, but they're not good at all, are they?"
           },
           {
            "sp": "B",
@@ -1462,7 +1462,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**（もし）XてもY** says Y holds even in case X, although X would normally prevent it: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし (examples 1 and 4) flags X as a supposition; たとえ (examples 3 and 5) pushes it to a hypothetical, often extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, example 4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
+     "deepDive": "**（もし）XてもY** says Y holds even if X is the case, although X would normally lead the other way: もし雨が降っても、予定どおり行われる (example 1).\n\n- もし (examples 1 and 4) flags X as a supposition; たとえ (examples 3 and 5) pushes it to a hypothetical, often extreme case: たとえ世界に男の人が彼しかいなくても.\n- Forms: Vても, いAくても, なAでも, Nでも (100円でも, example 4).\n- Y is often a resolution or judgment: 受けるつもり, やってみる価値はある.\n\n**〜のに** is for a fact that already went against expectation: 雨が降ったのに試合があった. A question word makes it *no matter* (L5-1). TRY! N2 #125 teaches たとえ〜ても; Quartet II L9-3 〜たとしても presents X as even less likely. Pitfall: don't mix it up with もし〜たら: 降ったら中止 is *if it rains, it's off*; 降っても行う is *even if it rains*."
     },
     {
      "t": "note",
@@ -1717,7 +1717,7 @@ TRY.registerLesson({
           {
            "sp": "{娘|むすめ}",
            "ja": "今日着ていく服、どれ**にしよう**かな。",
-           "tr": "Which outfit should I wear today, I wonder?"
+           "tr": "Hmm, which outfit should I wear today?"
           },
           {
            "sp": "母",
@@ -1733,7 +1733,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "パソコンが{欲|ほ}しいんですが、どこのがいいと思いますか。",
-           "tr": "I want a computer. Which maker do you think is good?"
+           "tr": "I want to get a computer. Which brand do you think is good?"
           },
           {
            "sp": "B",
@@ -1789,7 +1789,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{原宿|はらじゅく}は若者に人気の{街|まち}だと言われる**だけあって**、さすがに安くておしゃれな店が多い。",
-         "tr": "Just as you'd expect of a neighborhood said to be popular with young people, Harajuku has lots of cheap, stylish shops."
+         "tr": "Harajuku is said to be popular with young people, and sure enough, it has lots of cheap, stylish shops."
         },
         {
          "n": 2,
@@ -1858,7 +1858,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is status, profession, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (example 1). Sentence-final だけある gives the same verdict as a closing comment: さすが高級ホテルだけある (example 5).\n- It isn't used about oneself: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
+     "deepDive": "**XだけあってY** says Y is just what one would expect given X, and credits X for it: *as you'd expect of, no wonder*. X is a status, reputation, trait, experience or effort; Y is a fitting, usually admirable, result.\n\n- It pairs with さすが(に), やはり, 確かに (example 1). Sentence-final だけある gives the same verdict as a closing comment: さすが高級ホテルだけある (example 5).\n- It isn't used about oneself, where it would sound like self-praise: ✗私は4年間留学しただけあって….\n- Forms: plain form, なAな, N (アナウンサーだけあって).\n\nTRY! N2 #105 teaches the same pattern alongside だけに. TRY! N1 #53 NがNだけに is *given what N is*, good or bad (時間が時間なだけに), and N1 #2 〜とあって gives a news-style reason for an unusual scene. Pitfall: for a disappointing result, use だけに, not だけあって: 期待していただけに、がっかりした."
     }
    ]
   },
