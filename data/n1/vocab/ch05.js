@@ -49,7 +49,7 @@ TRY.registerVocab({ ch: 5, words: [
     ] },
   { w: "{自覚|じかく}", lv: "N1", pos: "noun · する verb",
     en: "awareness (of one's position, duties or condition); self-awareness",
-    note: "Knowing, and taking to heart, what you are or what your situation is: 社会人としての自覚 (awareness that you're a working adult now), 自覚が足りない, 自覚症状 (symptoms you notice yourself). Unlike 意識, it carries a sense of responsibility.",
+    note: "Knowing, and taking to heart, what you are or what your situation is: 社会人としての自覚 (awareness that you're a working adult now), 自覚が足りない, 自覚症状 (symptoms you notice yourself). Unlike 意識 (consciousness, being aware of something), it often implies accepting the responsibility that goes with it.",
     rx: ["じがく", "じこく", "じかっく"],
     book: { ja: "**{自覚|じかく}**がないにもほどがありますよ。", en: "Your people have no sense of their responsibilities at all; it's beyond belief.", at: "ch/5" },
     ex: [
@@ -94,7 +94,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["かっご", "がくご", "かくごう"],
     book: { ja: "あなたも**{覚悟|かくご}**しないと……。", en: "You'd better brace yourself…", at: "ch/5" },
     ex: [
-      { ja: "{反対|はんたい}されるのは**{覚悟|かくご}**の{上|うえ}で、{社長|しゃちょう}に{提案|ていあん}してみた。", en: "Fully prepared to be turned down, I put the proposal to the president anyway.", alt: ["{覚醒|かくせい}", "{自覚|じかく}", "{感覚|かんかく}"] },
+      { ja: "{反対|はんたい}されるのは**{覚悟|かくご}**の{上|うえ}で、{社長|しゃちょう}に{提案|ていあん}してみた。", en: "Fully prepared for opposition, I went ahead and put the proposal to the president.", alt: ["{覚醒|かくせい}", "{自覚|じかく}", "{感覚|かんかく}"] },
     ] },
   { w: "{慰|なぐさ}め", lv: "N2", pos: "noun",
     en: "comfort; consolation; solace",
@@ -144,7 +144,7 @@ TRY.registerVocab({ ch: 5, words: [
     ex: [
       { ja: "{夜|よる}の{公園|こうえん}は**{人気|ひとけ}**がなくて、{少|すこ}し{怖|こわ}い。", en: "The park is deserted at night, which is a little scary.", alt: ["{人柄|ひとがら}", "{人手|ひとで}", "{人質|ひとじち}"] },
     ] },
-  { w: "{堂々|どうどう}", lv: "N1", pos: "adverb (〜と) · な/たる adjective",
+  { w: "{堂々|どうどう}", lv: "N1", pos: "adverb (〜と) · たる adjective (堂々とした, 堂々たる)",
     en: "confidently; boldly; openly (without shame or hesitation)",
     note: "Positive for someone composed and impressive (堂々とした態度, 堂々と発表する), but critical when it means 'brazenly' about something one should be ashamed of (堂々とうそをつく, 堂々と遅刻してくる). 正々堂々 means 'fair and square'.",
     rx: ["とうとう", "どうとう", "どど"],
@@ -341,7 +341,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ちゅうきず", "なかしょう", "ちゅうじょう"],
     book: { ja: "{匿名|とくめい}＿＿、ネット上で知り合いを**{中傷|ちゅうしょう}**していた男が{訴|うった}えられたそうだ。", en: "I hear a man who took advantage of anonymity to slander an acquaintance online has been sued.", at: "ch/5" },
     ex: [
-      { ja: "SNSでの**{中傷|ちゅうしょう}**に{悩|なや}む{有名人|ゆうめいじん}は{少|すく}なくない。", en: "Quite a few celebrities are tormented by smears on social media.", alt: ["{負傷|ふしょう}", "{中継|ちゅうけい}", "{感傷|かんしょう}"] },
+      { ja: "SNSでの**{中傷|ちゅうしょう}**に{悩|なや}む{有名人|ゆうめいじん}は{少|すく}なくない。", en: "Quite a few celebrities are troubled by smears on social media.", alt: ["{負傷|ふしょう}", "{中継|ちゅうけい}", "{感傷|かんしょう}"] },
     ] },
   { w: "{悪影響|あくえいきょう}", lv: "N1", pos: "noun",
     en: "bad influence; harmful effect",
@@ -436,7 +436,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["てぜん", "しゅまえ", "でまえ"],
     book: { ja: "他の社員の**{手前|てまえ}**、{解雇|かいこ}という{名目|めいもく}で{廃棄処分|はいきしょぶん}にするべきです！", en: "For appearances' sake in front of the other employees, we should scrap it under the pretext of a dismissal!", at: "ch/5" },
     ex: [
-      { ja: "{子|こ}どもの**{手前|てまえ}**、{夫婦|ふうふ}げんかはしないようにしている。", en: "For the kids' sake, we try not to argue in front of them.", alt: ["{手先|てさき}", "{目先|めさき}", "{手元|てもと}"] },
+      { ja: "{子|こ}どもの**{手前|てまえ}**、{夫婦|ふうふ}げんかはしないようにしている。", en: "We try not to fight in front of the kids.", alt: ["{手先|てさき}", "{目先|めさき}", "{手元|てもと}"] },
     ] },
   { w: "{名目|めいもく}", lv: "N1", pos: "noun",
     en: "pretext; ostensible reason; (in) name only",
@@ -452,7 +452,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["はいぎ", "ばいき", "はつき"],
     book: { ja: "何とか**{廃棄|はいき}**せずに働かせられないものか……。", en: "Isn't there some way we could keep it working without scrapping it…", at: "ch/5" },
     ex: [
-      { ja: "{賞味期限|しょうみきげん}が{切|き}れた{食品|しょくひん}は、すべて**{廃棄|はいき}**された。", en: "All the food past its best-before date was thrown away.", alt: ["{廃止|はいし}", "{廃業|はいぎょう}", "{廃刊|はいかん}"] },
+      { ja: "{賞味期限|しょうみきげん}が{切|き}れた{食品|しょくひん}は、すべて**{廃棄|はいき}**された。", en: "All the food past its best-by date was thrown away.", alt: ["{廃止|はいし}", "{廃業|はいぎょう}", "{廃刊|はいかん}"] },
     ] },
   { w: "{正体|しょうたい}", lv: "N1", pos: "noun",
     en: "true identity; true nature; what something really is",
@@ -475,7 +475,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["しいみち", "つかいどう", "つかいみぢ"],
     book: { ja: "一般の人間ならいざしらず、警察の取り調べにも{正体|しょうたい}がバレなかったのなら、まだ**使い道**はある。", en: "Ordinary people are one thing, but if even the police interrogation didn't expose what it really is, it still has its uses.", at: "ch/5" },
     ex: [
-      { ja: "{宝|たから}くじで1{億円|おくえん}{当|あ}たったら、**{使|つか}い{道|みち}**に{困|こま}りそうだ。", en: "If I won 100 million yen in the lottery, I think I wouldn't know what to spend it on.", alt: ["{帰|かえ}り{道|みち}", "{回|まわ}り{道|みち}", "{近道|ちかみち}"] },
+      { ja: "{宝|たから}くじで1{億円|おくえん}{当|あ}たったら、**{使|つか}い{道|みち}**に{困|こま}りそうだ。", en: "If I won 100 million yen in the lottery, I probably wouldn't know what to spend it on.", alt: ["{帰|かえ}り{道|みち}", "{回|まわ}り{道|みち}", "{近道|ちかみち}"] },
     ] },
   { w: "{社交的|しゃこうてき}", lv: "N1", pos: "な adjective",
     en: "sociable; outgoing",
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ちれわたる", "しれとる", "しれわだる"],
     book: { ja: "あいつに知られ＿＿、その日のうちに学校中に**知れ渡っちゃう**から。", en: "If Nakamura finds out, the whole school will know by the end of the day.", at: "ch/5" },
     ex: [
-      { ja: "その{俳優|はいゆう}の{結婚|けっこん}は、あっという{間|ま}に{世間|せけん}に**{知|し}れ{渡|わた}った**。", en: "The actor's marriage became known to everyone in no time.", alt: ["{受|う}け{渡|わた}した", "{見渡|みわた}した", "{譲|ゆず}り{渡|わた}した"] },
+      { ja: "その{俳優|はいゆう}の{結婚|けっこん}は、あっという{間|ま}に{世間|せけん}に**{知|し}れ{渡|わた}った**。", en: "In no time, everyone knew about the actor's marriage.", alt: ["{受|う}け{渡|わた}した", "{見渡|みわた}した", "{譲|ゆず}り{渡|わた}した"] },
     ] },
   { w: "{相棒|あいぼう}", lv: "N1", pos: "noun",
     en: "partner; buddy; sidekick",
@@ -611,11 +611,11 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["えいしょう", "えいせ", "えいぜい"],
     book: { ja: "ここ{数年|すうねん}で、市民の環境**{衛生|えいせい}**に対する意識は{飛躍的|ひやくてき}に{向上|こうじょう}している。", en: "Over the past few years, citizens' awareness of environmental hygiene has improved dramatically.", at: "gp/61" },
     ex: [
-      { ja: "{飲食店|いんしょくてん}では、{食品|しょくひん}の**{衛生|えいせい}**{管理|かんり}が{特|とく}に{重要|じゅうよう}だ。", en: "At restaurants, food hygiene control is especially important.", alt: ["{衛星|えいせい}", "{防衛|ぼうえい}", "{再生|さいせい}"] },
+      { ja: "{飲食店|いんしょくてん}では、{食品|しょくひん}の**{衛生|えいせい}**{管理|かんり}が{特|とく}に{重要|じゅうよう}だ。", en: "At restaurants, managing food hygiene is especially important.", alt: ["{衛星|えいせい}", "{防衛|ぼうえい}", "{再生|さいせい}"] },
     ] },
   { w: "{飛躍的|ひやくてき}", lv: "N1", pos: "な adjective",
     en: "dramatic; by leaps and bounds (of progress or growth)",
-    note: "Mostly as 飛躍的に + a verb of growth: 飛躍的に向上する／伸びる／発展する. Always positive progress, not simply sudden change. 飛躍 alone means 'a leap' and also 'a leap in logic' (論理の飛躍).",
+    note: "Mostly as 飛躍的に + a verb of growth: 飛躍的に向上する／伸びる／発展する. Used for growth and progress, not for decline or a merely sudden change. 飛躍 alone means 'a leap' and also 'a leap in logic' (論理の飛躍).",
     rx: ["ひよくてき", "ひやっこてき", "とびやくてき"],
     book: { ja: "ここ{数年|すうねん}で、市民の環境{衛生|えいせい}に対する意識は**{飛躍的|ひやくてき}**に{向上|こうじょう}している。", en: "Over the past few years, citizens' awareness of environmental hygiene has improved dramatically.", at: "gp/61" },
     ex: [
@@ -635,7 +635,7 @@ TRY.registerVocab({ ch: 5, words: [
     rx: ["ふくき", "ふっけ", "ふっぎ"],
     book: { ja: "職場への**{復帰|ふっき}**が急がれます", en: "a return to work is urgently needed", at: "gp/61" },
     ex: [
-      { ja: "けがから{回復|かいふく}した{選手|せんしゅ}が、3か{月|げつ}ぶりにチームに**{復帰|ふっき}**した。", en: "Having recovered from injury, the player rejoined the team for the first time in three months.", alt: ["{帰省|きせい}", "{復旧|ふっきゅう}", "{回帰|かいき}"] },
+      { ja: "けがから{回復|かいふく}した{選手|せんしゅ}が、3か{月|げつ}ぶりにチームに**{復帰|ふっき}**した。", en: "Fully recovered from injury, the player returned to the team after three months out.", alt: ["{帰省|きせい}", "{復旧|ふっきゅう}", "{回帰|かいき}"] },
     ] },
   { w: "{静養|せいよう}", lv: "N1", pos: "noun · する verb",
     en: "rest (to recover one's health); convalescence",
@@ -750,7 +750,7 @@ TRY.registerVocab({ ch: 5, words: [
       { ja: "{船|ふね}は{台風|たいふう}を{避|さ}けるため、**{針路|しんろ}**を{南|みなみ}に{変|か}えた。", en: "The ship changed course to the south to avoid the typhoon.", alt: ["{線路|せんろ}", "{通路|つうろ}", "{回路|かいろ}"] },
     ] },
   { w: "{探査|たんさ}", lv: "N1", pos: "noun · する verb",
-    en: "exploration; probe; survey (of an unknown area)",
+    en: "exploration; survey (of space, the seabed or other unknown areas)",
     note: "Investigating an unknown place, especially space, the seabed or underground: 宇宙探査, 探査機 (a space probe), 資源探査. 探検 is exploring an unknown place in person; 捜査 is a criminal investigation.",
     rx: ["たんざ", "さがさ", "たんしゃ"],
     book: { ja: "{僕|ぼく}も、**{小惑星探査|しょうわくせいたんさ}**、{成功|せいこう}させてみせるぞ。", en: "I'm going to make this asteroid exploration a success too, just you watch.", at: "ch/5/review" },
