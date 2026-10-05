@@ -318,10 +318,10 @@ TRY.registerLesson({
      "tr": [
       "We asked four people to discuss what was good about studying abroad and what you should be careful about when you do: Sarah Gomis-san from France and Park Ji-hoon-san from Korea, who are currently studying in Japan, and Honda Ken-san and Takahashi Miki-san, Japanese college students who have studied in the United States.",
       "What are the good points of studying abroad?",
-      "Gomis: I'd say it's that your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to it quickly, especially speaking and listening. Another attraction is being able to interact casually with Japanese people.",
+      "Gomis: I'd say it's that your Japanese keeps getting better and better. That's something I've been feeling myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to it quickly, especially speaking and listening. Another attraction is being able to interact casually with Japanese people.",
       "Park: I think so too. When you learn another country's language and culture, the most important thing, more than anything, is to experience it firsthand. I'm interested in Japanese politics and history, so I've been doing things like visiting the Atomic Bomb Dome in Hiroshima and asking Japanese people what they think. The more you take the initiative and act on your own, the more deeply you can get to know Japan, and I really feel that that's the appeal of studying abroad.",
       "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I was able to see Japan and myself from the outside for the first time.",
-      "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. I also feel like I've gained more confidence in myself than I had before.",
+      "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. Compared with before, I also feel like I've become more confident.",
       "Then what should you be careful about when you study abroad?",
       "Park: When you study abroad, the biggest issue has to be money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, it's a real shame when people who've gone to the trouble of spending money to study abroad speak their native language. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
       "Gomis: That may be true. But when I had just arrived in Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I had a hard time keeping up with my classes, and I was worried about my grades... Of course, talking only with people from your own country may not be a good thing, but I think it's also fine to spend time with them sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
@@ -920,7 +920,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- What follows must be something that continues: 〜ている, 〜ようになった, 〜ない (examples 1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (example 4) opens a new sentence: *since then*.\n- The starting point is always in the past; for one in the future, say 〜てからは: 日本に行ってからは、毎日日本語で話したい (*once I'm in Japan, I want to speak Japanese every day*).\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
+     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- What follows must be something that continues: 〜ている, 〜ようになった, 〜ない (examples 1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (example 4) opens a new sentence: *since then*.\n- The starting point is always in the past; for one in the future, say 〜てからは: 日本に行ってからは、毎日日本語で話したい (*once I'm in Japan, I want to speak Japanese every day*).\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい (*ever since our child was born, every day has been busy*)."
     },
     {
      "t": "note",
@@ -1055,7 +1055,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "**せっかく**日本で日本語を勉強しているんだから、できるだけ日本語で話そうよ。",
-           "tr": "We're lucky enough to be studying Japanese in Japan, so let's speak Japanese as much as we can."
+           "tr": "Since we have the chance to study Japanese in Japan, let's speak Japanese as much as we can."
           },
           {
            "sp": "B",
@@ -1075,7 +1075,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "**せっかく**お{宅|たく}にご{招待|しょうたい}いただいたのに、{伺|うかが}えなくて残念です。",
-           "tr": "You were kind enough to invite me to your home, and I'm sorry I can't make it."
+           "tr": "It was so kind of you to invite me to your home. It's a shame I can't come."
           },
           {
            "sp": "B",
@@ -1135,7 +1135,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**せっかく** marks X as a rare chance, or something that took effort, and the sentence says what that should lead to:\n\n- **せっかくXから、Y**: make the most of it. Y is advice, a suggestion or a wish (〜よう, 〜たい, 〜ほうがいい): せっかく京都に来たんだから、着物を着てみよう.\n- **せっかくXのに、Y**: the chance is wasted, with regret: せっかく作ったのに、だれも食べなかった (*I went to the trouble of making it, and nobody ate it*).\n- **せっかくのN**: せっかくの休み (*a day off I'd been looking forward to*).\n- The set phrase **せっかくですが** turns down an offer politely: *that's kind of you, but ~*.\n\n**わざわざ** (L6-9) only notes the extra effort and can sound critical; せっかく values it. Pitfall: after から, Y can't be a plain fact: ✗せっかく日本に来たから、寮に住んでいる."
+     "deepDive": "**せっかく** marks X as a rare chance, or something that took effort, and the sentence says what that should lead to:\n\n- **せっかくXから、Y**: make the most of it. Y is advice, a suggestion or a wish (〜よう, 〜たい, 〜ほうがいい): せっかく京都に来たんだから、着物を着てみよう (*since we've come all the way to Kyoto, let's try wearing kimono*).\n- **せっかくXのに、Y**: the chance is wasted, with regret: せっかく作ったのに、だれも食べなかった (*I went to the trouble of making it, and nobody ate it*).\n- **せっかくのN**: せっかくの休み (*a day off I'd been looking forward to*).\n- The set phrase **せっかくですが** turns down an offer politely: *that's kind of you, but ~*.\n\n**わざわざ** (L6-9) only notes the extra effort and can sound critical; せっかく values it. Pitfall: after から, Y can't be a plain fact: ✗せっかく日本に来たから、寮に住んでいる."
     },
     {
      "t": "note",
@@ -1342,12 +1342,12 @@ TRY.registerLesson({
           {
            "sub": "a",
            "ja": "私はチョコレート**さえ**食べられれ**ば**幸せです。",
-           "tr": "As long as I can eat chocolate, I'm happy."
+           "tr": "All I need to be happy is chocolate."
           },
           {
            "sub": "b",
            "ja": "私はチョコレートを食べること**さえ**できれ**ば**幸せです。",
-           "tr": "As long as I can just eat chocolate, I'm happy."
+           "tr": "All I need to be happy is to be able to eat chocolate."
           }
          ]
         },
@@ -1459,7 +1459,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Nさえ** picks N as the extreme case: if even N is so, everything else is too. It often carries surprise, criticism or self-deprecation: 自分の名前さえ書けない (*can't even write his own name*).\n\n- は, が, を and も give way to さえ; other particles stay before it (トイレの中でさえ, 両親にさえ). A subject that does the action takes でさえ (子どもでさえ読める).\n- **Xさえ〜ば** is a different use: X is the only condition needed, *as long as, if only*. ば goes on the predicate: 薬さえ飲めば, 寝さえすれば, 休んでさえいれば.\n\nTRY! N2 #43 teaches 〜さえ…ば; TRY! N1 #25 〜すら is a written さえ, mostly in negative sentences. Quartet II L11-4 Nまで piles N on top of what is already there (風まで強くなった). Pitfall: さえ〜ば is not *even if*; that is 〜ても."
+     "deepDive": "**Nさえ** picks N as the extreme case: if even N is so, everything else is too. It often carries surprise, criticism or self-deprecation: 自分の名前さえ書けない (*can't even write your own name*).\n\n- は, が, を and も give way to さえ; other particles stay before it (トイレの中でさえ, 両親にさえ). A subject that does the action takes でさえ (子どもでさえ読める).\n- **Xさえ〜ば** is a different use: X is the only condition needed, *as long as, if only*. ば goes on the predicate: 薬さえ飲めば, 寝さえすれば, 休んでさえいれば.\n\nTRY! N2 #43 teaches 〜さえ…ば; TRY! N1 #25 〜すら is a written さえ, mostly in negative sentences. Quartet II L11-4 Nまで piles N on top of what is already there (風まで強くなった). Pitfall: さえ〜ば is not *even if*; that is 〜ても."
     },
     {
      "t": "note",
@@ -1646,7 +1646,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ないで済む／〜ずに済む** says a burden the speaker expected turned out to be unnecessary, usually with relief: 予約しておいたから、待たないで済んだ (*I'd made a reservation, so I didn't have to wait*). It is mostly past (済んだ, 済みました), with a reason clause naming what spared you.\n\n- 〜ずに is the written, formal form; する becomes せずに (✗しずに).\n- Compare **〜なくてもいい**, which only says something isn't required: 買わなくてもいい (*you don't need to buy it*). 済む adds that it was avoided.\n- Positive **Nで済む** means *get off with just N*: 5,000円で済んだ, 軽いけがで済んだ.\n\nIts opposite is TRY! N1 #117 〜ずにはすまない, *the situation won't let you avoid ~*: 謝らずにはすまない."
+     "deepDive": "**〜ないで済む／〜ずに済む** says a burden the speaker expected turned out to be unnecessary, usually with relief: 予約しておいたから、待たないで済んだ (*I'd made a reservation, so I didn't have to wait*). It is mostly past (済んだ, 済みました), with a reason clause naming what spared you.\n\n- 〜ずに is the written, formal form; する becomes せずに (✗しずに).\n- Compare **〜なくてもいい**, which only says something isn't required: 買わなくてもいい (*you don't need to buy it*). 済む adds that it was avoided.\n- Positive **Nで済む** means *get off with just N*: 5,000円で済んだ (*it only cost 5,000 yen*), 軽いけがで済んだ (*got off with a minor injury*).\n\nIts opposite is TRY! N1 #117 〜ずにはすまない, *the situation won't let you avoid ~*: 謝らずにはすまない (*there is no getting out of apologizing*)."
     },
     {
      "t": "note",
@@ -2176,7 +2176,7 @@ TRY.registerLesson({
        "page": 115
       }
      ],
-     "deepDive": "**XばYのに** imagines X, which is not the case, and regrets the Y that would follow: もっと近ければ便利なのに (*if only it were closer, it'd be so convenient*). This is the のに of *although*: the wish runs against reality.\n\n- **〜ばいいのに** is a set wish, *I wish ~*, often with なあ. Said about someone else, it can sound critical: 早く寝ればいいのに (*why don't you just go to bed*).\n- 〜たら〜のに works the same way. **〜ばよかった** looks back on one's own choice: 行けばよかった (*I should have gone*).\n- With Y in the past, it describes what could have happened: バイトがなければ、見に行けたのに.\n\nTRY! N1 #75 〜ものを is a written, reproachful のに: 急げば間に合ったものを. Pitfall: the purpose のに of L3-10 (通学するのに便利) is a different word."
+     "deepDive": "**XばYのに** imagines X, which is not the case, and regrets the Y that would follow: もっと近ければ便利なのに (*if only it were closer, it'd be so convenient*). This is the のに of *although*: the wish runs against reality.\n\n- **〜ばいいのに** is a set wish, *I wish ~*, often with なあ. Said about someone else, it can sound critical: 早く寝ればいいのに (*why don't you just go to bed*).\n- 〜たら〜のに works the same way. **〜ばよかった** looks back on one's own choice: 行けばよかった (*I should have gone*).\n- With Y in the past, it describes what could have happened: バイトがなければ、見に行けたのに (*if I hadn't had work, I could have gone to see it*).\n\nTRY! N1 #75 〜ものを is a written, reproachful のに: 急げば間に合ったものを (*if only you'd hurried, you'd have made it*). Pitfall: the purpose のに of L3-10 (通学するのに便利) is a different word."
     }
    ]
   },
@@ -4696,7 +4696,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "自分だけ休むのは{同僚|どうりょう}に申し訳ないし、自分がいないとできない仕事があるから、休むと{周|まわ}りに{迷惑|めいわく}がかかると考えるからです。",
-        "tr": "Because they feel it wouldn't be fair to their coworkers if they were the only one taking time off, and they think that since there's work that can't get done without them, being away would cause trouble for the people around them."
+        "tr": "Because they'd feel bad toward their coworkers if they were the only one taking time off, and they think that since there's work that can't get done without them, being away would cause trouble for the people around them."
        }
       },
       {
@@ -4769,7 +4769,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "インターンシップ先の社員の人にどうして長い休みを取らないのか聞いたら、「自分だけ休むのは{同僚|どうりょう}に申し訳ない」とか、「自分がいないとできない仕事があるから、{周|まわ}りに{迷惑|めいわく}がかかる」と言っていました。昔と比べたらずいぶん休みが取りやすくなったそうですが、たいていの人は1日の休みを時々取るだけだそうです。長い休みを取れ__ば__家族とゆっくり__旅行できるのに__、と思いますが、日本ではプライベートより仕事を優先する人が多いようです。",
-       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “It wouldn't be fair to my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
+       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
       },
       {
        "sp": "",
