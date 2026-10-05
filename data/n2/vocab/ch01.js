@@ -17,7 +17,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{人材|じんざい}", lv: "N2", pos: "noun",
     en: "capable people; talent; personnel (seen as a resource an organization needs)",
-    note: "A business and news word: 人材を求める / 育てる / 確保する (seek / train / secure talent), 人材不足 (labor shortage). It looks at people as an asset, so you wouldn't call a friend 人材. 人手 is the everyday word for “hands, workers”.",
+    note: "A business and news word: 人材を求める / 育てる / 確保する (seek / train / secure talent), 人材不足 (a shortage of qualified people). It looks at people as an asset, so you wouldn't call a friend 人材. 人手 is the everyday word for “hands, workers”.",
     rx: ["じんさい", "にんざい", "ひとざい"],
     book: { ja: "さいわい駅前店オープンにつき、**{人材|じんざい}**を{求|もと}めています", en: "With the opening of our Saiwai Station store, we are looking for staff.", at: "ch/1" },
     ex: [
@@ -121,7 +121,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{所定|しょてい}", lv: "N1", pos: "noun (usually 所定の)",
     en: "designated; prescribed; fixed (by the rules)",
-    note: "Always as 所定の + noun in official writing: 所定の用紙 (the prescribed form), 所定の位置 (the designated place), 所定の手続き. It means “the one laid down by the organization”, not merely “fixed” in general (決まった).",
+    note: "Usually 所定の + noun in official writing (also as a prefix: 所定労働時間 “contracted working hours”): 所定の用紙 (the prescribed form), 所定の位置 (the designated place), 所定の手続き. It means “the one laid down by the organization”, not merely “fixed” in general (決まった).",
     rx: ["しょじょう", "しょうてい", "ところてい"],
     book: { ja: "{応募|おうぼ}▶{当店|とうてん}**{所定|しょてい}**のフォームに{記入|きにゅう}し、{下記|かき}のメールアドレスまでお送りください。", en: "How to apply: fill out our store's application form and send it to the email address below.", at: "ch/1" },
     ex: [
@@ -173,11 +173,11 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["さいぴ", "さいふ", "しゅひ"],
     book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は**{採否|さいひ}**にかかわらず、{通知|つうち}します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
-      { ja: "{面接|めんせつ}の**{採否|さいひ}**は、一週間{以内|いない}にメールでお知らせします。", en: "We will let you know by email within a week whether you have been accepted.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
+      { ja: "**{採否|さいひ}**は、{面接|めんせつ}{後|ご}一週間{以内|いない}にメールでお知らせします。", en: "We will let you know by email within a week of the interview whether you have been hired.", alt: ["{賛否|さんぴ}", "{安否|あんぴ}", "{否定|ひてい}"] },
     ] },
   { w: "{通知|つうち}", lv: "N2", pos: "noun · する verb",
     en: "notification; official notice",
-    note: "Formally informing someone, usually in writing: 合格通知 (letter of acceptance), 通知が届く, 通知表 (school report card). Also a phone “notification”. 連絡 is more everyday and two-way.",
+    note: "Formally informing someone, usually in writing: 合格通知 (letter of acceptance), 通知が届く, 通知表 (school report card). Also a phone “notification”. 連絡 is the everyday word for letting someone know.",
     rx: ["つち", "つうじ", "とうち"],
     book: { ja: "{書類|しょるい}{審査|しんさ}の{結果|けっか}は{採否|さいひ}にかかわらず、**{通知|つうち}**します。", en: "All applicants will be notified of the screening results, whether successful or not.", at: "ch/1" },
     ex: [
@@ -269,10 +269,10 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["けんしゅ", "げんしゅう", "けんしょう"],
     book: { ja: "10月20日は社員**{研修|けんしゅう}**につき、", en: "Because of employee training on October 20,", at: "gp/1" },
     ex: [
-      { ja: "{入社|にゅうしゃ}してから{一|いっ}か{月間|げつかん}、{工場|こうじょう}で**{研修|けんしゅう}**を受けた。", en: "For a month after joining the company, I trained at the factory.", alt: ["{研究|けんきゅう}", "{修理|しゅうり}", "{見学|けんがく}"] },
+      { ja: "{入社|にゅうしゃ}してから{一|いっ}か{月間|げつかん}、{工場|こうじょう}で**{研修|けんしゅう}**を受けた。", en: "For a month after joining the company, I went through training at the factory.", alt: ["{研究|けんきゅう}", "{修理|しゅうり}", "{見学|けんがく}"] },
     ] },
   { w: "{点検|てんけん}", lv: "N2", pos: "noun · する verb",
-    en: "inspection; checkup (of equipment, one item at a time)",
+    en: "inspection; checkup (of equipment or facilities)",
     note: "Checking machines or facilities for problems: エレベーター点検, 車を点検に出す, 定期点検. 検査 is testing for quality or medical tests (血液検査 “blood test”); 確認 is simply confirming.",
     rx: ["てんげん", "でんけん", "てんけい"],
     book: { ja: "1年に1回は**{点検|てんけん}**をすることをおすすめします。", en: "We recommend an inspection once a year.", at: "gp/5" },
@@ -281,7 +281,7 @@ TRY.registerVocab({ ch: 1, words: [
     ] },
   { w: "{臨時|りんじ}", lv: "N2", pos: "noun (臨時の)",
     en: "temporary; special; extra (not regular)",
-    note: "Something outside the regular schedule: 臨時休業 (temporarily closed), 臨時列車 (special train), 臨時ニュース (news bulletin), 臨時のアルバイト. 一時的 stresses “for a short time”; 臨時 stresses “not the normal arrangement”.",
+    note: "Something outside the regular schedule: 臨時休業 (temporarily closed), 臨時列車 (special train), 臨時ニュース (special news bulletin), 臨時のアルバイト. 一時的 stresses “for a short time”; 臨時 stresses “not the normal arrangement”.",
     rx: ["りんし", "りんじい", "りじ"],
     book: { ja: "**{臨時|りんじ}**{休業|きゅうぎょう}させていただきます。", en: "We will be temporarily closed.", at: "gp/1" },
     ex: [
@@ -485,7 +485,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["もくじょう", "めじょう", "めうわ"],
     book: { ja: "**{目上|めうえ}**の人と話す{際|さい}には、言葉だけでなく{態度|たいど}にも気をつけてください。", en: "When talking with someone older or more senior than you, be careful not only about your words but also about your attitude.", at: "gp/7" },
     ex: [
-      { ja: "**{目上|めうえ}**の{人|ひと}に「ご{苦労|くろう}さま」と言うのは{失礼|しつれい}だとされる。", en: "Saying 「ご苦労さま」 to a superior is considered rude.", alt: ["{目下|めした}", "{目標|もくひょう}", "{目次|もくじ}"] },
+      { ja: "**{目上|めうえ}**の{人|ひと}に「ご{苦労|くろう}さま」と言うのは{失礼|しつれい}だとされる。", en: "Saying ご苦労さま (“thanks for your hard work”) to a superior is considered rude.", alt: ["{目下|めした}", "{目標|もくひょう}", "{目次|もくじ}"] },
     ] },
   { w: "{各種|かくしゅ}", lv: "N1", pos: "noun",
     en: "various kinds; all sorts (of)",
@@ -509,7 +509,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["げんしゅう", "けんしゅ", "げんす"],
     book: { ja: "{各種|かくしゅ}{書類|しょるい}の{提出|ていしゅつ}に{際|さい}しては、{期限|きげん}を**{厳守|げんしゅ}**してください。", en: "When submitting the various documents, please strictly observe the deadline.", at: "gp/7" },
     ex: [
-      { ja: "{集合|しゅうごう}は{朝|あさ}8時です。{時間|じかん}を**{厳守|げんしゅ}**してください。", en: "We meet at 8 a.m. Please be strictly on time.", alt: ["{保守|ほしゅ}", "{厳重|げんじゅう}", "{留守|るす}"] },
+      { ja: "{集合|しゅうごう}は{朝|あさ}8時です。{時間|じかん}を**{厳守|げんしゅ}**してください。", en: "We meet at 8 a.m. Please be sure to be on time.", alt: ["{保守|ほしゅ}", "{厳重|げんじゅう}", "{留守|るす}"] },
     ] },
   { w: "{振|ふ}り{込|こ}み", lv: "N2", pos: "noun",
     en: "bank transfer; payment into an account",
@@ -573,7 +573,7 @@ TRY.registerVocab({ ch: 1, words: [
     rx: ["がんじょ", "ねがいしょ", "がんしょう"],
     book: { ja: "**{願書|がんしょ}**は1月28日{必着|ひっちゃく}のこと。", en: "Applications must arrive by January 28.", at: "gp/8" },
     ex: [
-      { ja: "{受験|じゅけん}する{大学|だいがく}に**{願書|がんしょ}**を{郵送|ゆうそう}した。", en: "I mailed my application to the university whose entrance exam I'm taking.", alt: ["{辞書|じしょ}", "{領収書|りょうしゅうしょ}", "{図書|としょ}"] },
+      { ja: "{受験|じゅけん}する{大学|だいがく}に**{願書|がんしょ}**を{郵送|ゆうそう}した。", en: "I mailed my application to the university where I'll be taking the entrance exam.", alt: ["{辞書|じしょ}", "{領収書|りょうしゅうしょ}", "{図書|としょ}"] },
     ] },
   { w: "{必着|ひっちゃく}", lv: "N1", pos: "noun",
     en: "must arrive by (a date)",
