@@ -395,7 +395,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "those people; that lot; the gang (often disparaging)",
     note: "A group of people spoken of casually, usually with a slightly contemptuous or familiar tone: マスコミの連中, あの連中. Never use it for people you should respect; 方々 or 皆さん are the polite words.",
     rx: ["れんじゅう", "れんなか", "れいちゅう"],
-    book: { ja: "「マスコミの**{連中|れんちゅう}**も、ただ{面白|おもしろ}がってるだけだ。", en: "\"The media people are just having fun with it.", at: "ch/5" },
+    book: { ja: "「マスコミの**{連中|れんちゅう}**も、ただ{面白|おもしろ}がってるだけだ。", en: "\"That media crowd is just having fun with it.", at: "ch/5" },
     ex: [
       { ja: "{悪|わる}い{噂|うわさ}のある**{連中|れんちゅう}**とは、もう{付|つ}き{合|あ}わないほうがいい。", en: "You'd better stop hanging out with that crowd — they have a bad reputation.", alt: ["{連日|れんじつ}", "{連続|れんぞく}", "{道中|どうちゅう}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "personnel costs; labor costs",
     note: "What a company spends on its people: wages, bonuses, benefits. Typical verbs: 人件費を削減する／抑える (cut / hold down), 人件費がかさむ (pile up).",
     rx: ["にんけんひ", "じんけんぴ", "じんげんひ"],
-    book: { ja: "**{人件費|じんけんひ}**を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。", en: "I took your advice and took the plunge on bringing it in to keep labor costs down, but it's backfired, hasn't it?", at: "ch/5" },
+    book: { ja: "**{人件費|じんけんひ}**を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。", en: "I took your advice and went ahead and brought it in to keep labor costs down, but it's backfired on us, hasn't it?", at: "ch/5" },
     ex: [
       { ja: "{工場|こうじょう}の{自動化|じどうか}によって、**{人件費|じんけんひ}**を{大幅|おおはば}に{削減|さくげん}できた。", en: "Automating the factory let us cut labor costs substantially.", alt: ["{会費|かいひ}", "{生活費|せいかつひ}", "{学費|がくひ}"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to backfire; to have the opposite effect from what was intended",
     note: "From dice: the side you didn't want comes up. An action meant to help produces a bad result: 作戦が裏目に出る, 親切が裏目に出る. Often with かえって.",
     rx: ["りめにでる", "うらもくにでる", "うらまにでる"],
-    book: { ja: "{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、**{裏目|うらめ}に出て**しまったな。", en: "I took your advice and took the plunge on bringing it in to keep labor costs down, but it's backfired, hasn't it?", at: "ch/5" },
+    book: { ja: "{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、**{裏目|うらめ}に出て**しまったな。", en: "I took your advice and went ahead and brought it in to keep labor costs down, but it's backfired on us, hasn't it?", at: "ch/5" },
     ex: [
       { ja: "{慎重|しんちょう}に{行動|こうどう}したつもりが、かえって**{裏目|うらめ}に{出|で}た**。", en: "I meant to act carefully, but it backfired on me.", alt: ["{右|みぎ}に{出|で}た", "{芽|め}が{出|で}た", "{足|あし}が{出|で}た"] },
     ] },
@@ -529,7 +529,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "subcontracting; subcontractor",
     note: "A company that does work passed down from a larger contractor: 下請け会社, 下請けに出す, 下請け業者. It often implies a weak position — low margins and pressure from the client (元請け).",
     rx: ["かうけ", "しもうけ", "したうき"],
-    book: { ja: "1個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、**{下請|したう}け**の{厳|きび}しさがわかっているのか。", en: "If even one defective product turns up, the contract gets canceled. Do you understand how tough it is being a subcontractor?", at: "gp/57" },
+    book: { ja: "1個でも{不良品|ふりょうひん}が出ようものなら、{契約|けいやく}が取り消されるんだ。お前、**{下請|したう}け**の{厳|きび}しさがわかっているのか。", en: "If even one defective product turns up, the contract gets canceled. Do you have any idea how tough it is being a subcontractor?", at: "gp/57" },
     ex: [
       { ja: "この{工場|こうじょう}は、{大手|おおて}メーカーの**{下請|したう}け**として{部品|ぶひん}を{作|つく}っている。", en: "This factory makes parts as a subcontractor for a major manufacturer.", alt: ["{下書|したが}き", "{下準備|したじゅんび}", "{受付|うけつけ}"] },
     ] },
