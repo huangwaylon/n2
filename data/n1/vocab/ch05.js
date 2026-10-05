@@ -233,7 +233,7 @@ TRY.registerVocab({ ch: 5, words: [
       { ja: "**{過保護|かほご}**に{育|そだ}てられた{子|こ}どもは、{自分|じぶん}で{判断|はんだん}するのが{苦手|にがて}だと{言|い}われる。", en: "Children raised by overprotective parents are said to be bad at making their own decisions.", alt: ["{過密|かみつ}", "{過激|かげき}", "{過剰|かじょう}"] },
     ] },
   { w: "{誤字脱字|ごじだつじ}", lv: "N1", pos: "noun",
-    en: "typos and missing characters; typographical errors",
+    en: "typos and omissions; misprints and missing words or characters",
     note: "A set phrase for mistakes in writing: 誤字 (a wrong character) plus 脱字 (a missing character). Common in instructions for proofreading: 誤字脱字がないか確認する.",
     rx: ["ごじだっじ", "ごうじだつじ", "ごじたつじ"],
     book: { ja: "うーん。（　）以前に、**{誤字脱字|ごじだつじ}**が多すぎるよ。", en: "Hmm. Before we even get to the content, there are way too many typos and missing words.", at: "gp/51" },

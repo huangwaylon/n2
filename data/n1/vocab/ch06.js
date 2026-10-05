@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["せいに", "しんに", "まことうに"],
     book: { ja: "皆様、{本日|ほんじつ}はお忙しいところをお集まりいただき、**{誠|まこと}に**ありがとうございます。", en: "Thank you all very much for taking time out of your busy schedules to be here today.", at: "ch/6" },
     ex: [
-      { ja: "{電車|でんしゃ}が{遅|おく}れまして、**{誠|まこと}に**{申|もう}し{訳|わけ}ございません。", en: "We sincerely apologize for the delay to this train.", alt: ["{共|とも}に", "{直|じか}に", "{次|つぎ}に"] },
+      { ja: "{電車|でんしゃ}が{遅|おく}れまして、**{誠|まこと}に**{申|もう}し{訳|わけ}ございません。", en: "We sincerely apologize for the train delay.", alt: ["{共|とも}に", "{直|じか}に", "{次|つぎ}に"] },
     ] },
   { w: "{激励|げきれい}", lv: "N1", pos: "noun · する verb",
     en: "encouragement; words of support (formal)",
