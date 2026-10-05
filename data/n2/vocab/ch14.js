@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to raise (a hand); to give (an example); to hold (a ceremony); to put in (every effort), involve (a whole nation)",
     note: "Several fixed uses: 手を挙げる (raise a hand), 例を挙げる (give an example), 結婚式を挙げる (hold a wedding), 全力を挙げる (make every effort), 国を挙げて (the whole nation, nationwide). Distinguish it from 上げる (raise, lift up) in writing.",
     rx: ["きょげる", "もちげる", "あぐる"],
-    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "Hosting the Olympics used to be cause for nationwide celebration.", at: "ch/14" },
+    book: { ja: "オリンピック{開催|かいさい}といえば、昔は国を**{挙|あ}げて**{喜|よろこ}んだものだ。", en: "There was a time when hosting the Olympics was cause for nationwide rejoicing.", at: "ch/14" },
     ex: [
       { ja: "{具体的|ぐたいてき}な{例|れい}を**{挙|あ}げて**{説明|せつめい}してください。", en: "Please explain with a concrete example.", alt: ["{下|さ}げて", "{投|な}げて", "{広|ひろ}げて"] },
       { ja: "{二人|ふたり}は{来月|らいげつ}、ハワイで{結婚式|けっこんしき}を**{挙|あ}げる**そうだ。", en: "I hear the two of them are having their wedding in Hawaii next month." },
@@ -36,7 +36,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to get used to living (somewhere); to be at home in a place",
     note: "Almost always as 住み慣れた + place: 住み慣れた町 / 家 / 土地 (the town you've lived in for years). 〜慣れる attaches to verb stems: 使い慣れた (well-used), 見慣れた (familiar), 聞き慣れない (unfamiliar-sounding).",
     rx: ["すみかんれる", "じゅうみなれる", "すみなられる"],
-    book: { ja: "**住み{慣|な}れた**土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意されたとしても、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Even if compensation or replacement housing is provided, leaving a place you have long called home is probably not something people can easily accept.", at: "ch/14" },
+    book: { ja: "**住み{慣|な}れた**土地を{離|はな}れることは、{補償金|ほしょうきん}や代わりの{住宅|じゅうたく}が用意されたとしても、{簡単|かんたん}に{納得|なっとく}できることではないだろう。", en: "Even if compensation or replacement housing is provided, leaving a place they have long called home is probably not something people can easily accept.", at: "ch/14" },
     ex: [
       { ja: "**{住|す}み{慣|な}れた**{町|まち}を{離|はな}れるのは、やはり{寂|さび}しい。", en: "Leaving the town where you've lived so long really is sad.", alt: ["{使|つか}い{慣|な}れた", "{住|す}み{込|こ}んだ", "{書|か}き{慣|な}れた"] },
     ] },
@@ -116,7 +116,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "being in a (mountain or sea) accident; getting lost or stranded",
     note: "Getting into life-threatening trouble in the mountains or at sea: 山で遭難する, 遭難者 (people in distress), 遭難救助. 遭 means to meet with (遭遇 encounter). 避難 is evacuating to safety.",
     rx: ["そうだん", "そなん", "ぞうなん"],
-    book: { ja: "A：昔、この山で**{遭難|そうなん}**しかけて{焦|あせ}った（　）があるんだ。", en: "A: Years ago, I nearly got lost on this mountain, and I really panicked.", at: "gp/132" },
+    book: { ja: "A：昔、この山で**{遭難|そうなん}**しかけて{焦|あせ}った（　）があるんだ。", en: "A: Years ago I once nearly got lost on this mountain, and I really panicked.", at: "gp/132" },
     ex: [
       { ja: "{冬山|ふゆやま}で**{遭難|そうなん}**した{登山者|とざんしゃ}が、{無事|ぶじ}{救助|きゅうじょ}された。", en: "The climbers who got stranded on the winter mountain were rescued safely.", alt: ["{災難|さいなん}", "{非難|ひなん}", "{困難|こんなん}"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "reconstruction; recovery (after a disaster or war)",
     note: "Rebuilding a town, region or economy after a disaster: 震災からの復興, 復興支援. 復旧 is restoring services such as power or trains to working order; 復興 is the longer process of revitalizing a community.",
     rx: ["ふくこう", "ふっきょう", "ふうこう"],
-    book: { ja: "**{復興|ふっこう}**にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。", en: "In rebuilding, we received many kinds of support from people all over the world.", at: "gp/135" },
+    book: { ja: "**{復興|ふっこう}**にあたり、世界中の皆様から{様々|さまざま}なご{支援|しえん}をいただきました。", en: "In our reconstruction efforts, we received a great deal of support from people all over the world.", at: "gp/135" },
     ex: [
       { ja: "{地震|じしん}で{被害|ひがい}を{受|う}けた{町|まち}の**{復興|ふっこう}**が、{少|すこ}しずつ{進|すす}んでいる。", en: "The reconstruction of the town damaged by the earthquake is progressing little by little.", alt: ["{復習|ふくしゅう}", "{興奮|こうふん}", "{復帰|ふっき}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "being full and satisfying; well-equipped; substantial",
     note: "Two uses: a life or time that is fulfilling (充実した毎日, 充実感) and facilities or services that are complete and ample (設備が充実している, サービスの充実). 満足 is being satisfied; 充実 describes the richness of the thing itself.",
     rx: ["じゅじつ", "じゅうしつ", "ちゅうじつ"],
-    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が**{充実|じゅうじつ}**していることから、若い{世代|せだい}の{転入|てんにゅう}が{増加|ぞうか}している。", en: "Because this town has abundant nature and, on top of that, good child-rearing support, more and more young people are moving in.", at: "gp/136" },
+    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が**{充実|じゅうじつ}**していることから、若い{世代|せだい}の{転入|てんにゅう}が{増加|ぞうか}している。", en: "In addition to its abundant nature, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
     ex: [
       { ja: "{新|あたら}しい{仕事|しごと}を{始|はじ}めてから、{毎日|まいにち}が**{充実|じゅうじつ}**している。", en: "Since I started my new job, every day has felt fulfilling.", alt: ["{充電|じゅうでん}", "{誠実|せいじつ}", "{忠実|ちゅうじつ}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "moving in (to a new town); transferring in (to a school)",
     note: "Registering as a new resident or joining a school from elsewhere: 転入届 (moving-in notification at city hall), 転入生 (transfer student). The opposite is 転出 (moving out). 転居 is changing one's address in general.",
     rx: ["てんにゅ", "でんにゅう", "てんいり"],
-    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が{充実|じゅうじつ}していることから、若い{世代|せだい}の**{転入|てんにゅう}**が{増加|ぞうか}している。", en: "Because this town has abundant nature and, on top of that, good child-rearing support, more and more young people are moving in.", at: "gp/136" },
+    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が{充実|じゅうじつ}していることから、若い{世代|せだい}の**{転入|てんにゅう}**が{増加|ぞうか}している。", en: "In addition to its abundant nature, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
     ex: [
       { ja: "{新|あたら}しい{市|し}に{引|ひ}っ{越|こ}したら、{市役所|しやくしょ}で**{転入|てんにゅう}**の{手続|てつづ}きをしなければならない。", en: "When you move to a new city, you have to register as a new resident at city hall.", alt: ["{転職|てんしょく}", "{輸入|ゆにゅう}", "{購入|こうにゅう}"] },
     ] },
@@ -355,7 +355,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "to make efforts; to strive (to do)",
     note: "Takes に: 〜に努める (work hard at): サービスの向上に努める, 早寝早起きに努める. Formal and common in company announcements. Homophones: 勤める (work at a company: 会社に勤める), 務める (serve in a role: 司会を務める).",
     rx: ["どめる", "つためる", "つとむる"],
-    book: { ja: "{当店|とうてん}では、お客様からの意見をもとに{日々|ひび}サービスの{向上|こうじょう}に**{努|つと}めて**おります。", en: "At our shop, we strive every day to improve our service based on our customers' opinions.", at: "gp/138" },
+    book: { ja: "{当店|とうてん}では、お客様からの意見をもとに{日々|ひび}サービスの{向上|こうじょう}に**{努|つと}めて**おります。", en: "At our shop, we strive every day to improve our service based on feedback from our customers.", at: "gp/138" },
     ex: [
       { ja: "{私|わたし}たちは{地域|ちいき}の{環境|かんきょう}を{守|まも}ることに**{努|つと}めて**います。", en: "We are striving to protect the local environment.", alt: ["{求|もと}めて", "{認|みと}めて", "{占|し}めて"] },
     ] },
@@ -427,7 +427,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "nuclear power plant",
     note: "Often shortened to 原発 in news. 原子力 is nuclear power (原子力エネルギー); 発電所 is a power station (火力発電所 thermal, 水力発電所 hydroelectric). 発電 means generating electricity.",
     rx: ["げんしりきはつでんしょ", "げんしりょくはつでんじょ", "げんしりょくほつでんしょ"],
-    book: { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の安全性（　）、世界{各地|かくち}で{議論|ぎろん}が{行|おこな}われている。", en: "The safety of nuclear power plants is being debated all over the world.", at: "ch/14/review" },
+    book: { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の安全性（　）、世界{各地|かくち}で{議論|ぎろん}が{行|おこな}われている。", en: "Debates over the safety of nuclear power plants are taking place all over the world.", at: "ch/14/review" },
     ex: [
       { ja: "**{原子力発電所|げんしりょくはつでんしょ}**の{事故|じこ}で、{多|おお}くの{住民|じゅうみん}が{避難|ひなん}した。", en: "Many residents evacuated because of the accident at the nuclear power plant.", alt: ["{郵便局|ゆうびんきょく}", "{図書館|としょかん}", "{美術館|びじゅつかん}"] },
     ] },
