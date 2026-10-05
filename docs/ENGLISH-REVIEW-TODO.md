@@ -34,6 +34,11 @@ Validate (CLAUDE.md "Validation"; at least check.js / q2 check+verify, text-snap
 vocab-check, render-smoke). Commit only your files (`git add <paths>`), message "<BOOK> <unit> English: …",
 then `git fetch origin && git rebase --autostash origin/main && git push`. Commit at least every ~half of the unit.
 
+Vocab lists quote chapter sentences in `book.en` (data/<book>/vocab/chNN.js): when you change a quoted
+translation, update the matching `book.en` there too (vocab-check fails otherwise); git add both files. Errors
+vocab-check reports for other chapters belong to other agents — ignore them. Never use `git stash`, `git checkout
+-- <file>` or `git reset` (other agents' uncommitted work lives in the same tree); rebase with `--autostash` only.
+
 Report: counts (strings reviewed / changed), the 5–10 most significant fixes (mistranslations, wrong claims),
 anything left unresolved.
 
@@ -44,4 +49,4 @@ N1 chapters: ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 · compare
 Q1: l01 l02 l03 l04 l05 l06 · challenge · Q2: l07 l08 l09 l10 l11 l12 · challenge
 Vocab examples: N2 vocab/ch01–14, N1 vocab/ch01–10, Quartet vocabNN (after the chapters)
 
-Done:
+Done: N2 ch01
