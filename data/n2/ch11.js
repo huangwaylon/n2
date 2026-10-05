@@ -17,8 +17,8 @@ TRY.registerChapter({
           { ja: "昔のラーメンは{気軽|きがる}に{空腹|くうふく}を{満|み}たすもの**にすぎなかった**かもしれませんが、今ではラーメンは{立派|りっぱ}な料理です。", en: "In the past, ramen may have been nothing more than a quick, easy way to fill an empty stomach, but today it is a proper dish in its own right." },
           { cont: true, ja: "ラーメンはめんやスープの作り方に{工夫|くふう}ができる**{上|うえ}**に、めんにのせる{具|ぐ}にもバリエーションがつけやすいのです。", en: "Ramen leaves room for creativity in how the noodles and soup are made, and on top of that, it is easy to vary the toppings." },
           { cont: true, ja: "そのため、ラーメン**といっても**、最近はイタリア料理のトマトソースを使ったもの、サラダ{感覚|かんかく}で食べられるもの、スープのないものなど、{様々|さまざま}なものがあります。", en: "So although it's all called \"ramen,\" these days there are all kinds: ramen made with Italian-style tomato sauce, ramen you eat like a salad, ramen with no soup, and so on." },
-          { cont: true, ja: "ラーメンはしょうゆ**に{限|かぎ}る**と言う人も、一度食べてみる{価値|かち}があるのではないでしょうか。", en: "Even people who say that when it comes to ramen, nothing beats soy sauce might find these worth trying at least once." },
-          { ja: "先日インターネットで{話題|わだい}になっているラーメン店に行ってみました。", en: "The other day I went to a ramen shop that has been the talk of the internet." },
+          { cont: true, ja: "ラーメンはしょうゆ**に{限|かぎ}る**と言う人も、一度食べてみる{価値|かち}があるのではないでしょうか。", en: "Even people who say nothing beats soy-sauce ramen might find these worth trying at least once." },
+          { ja: "先日インターネットで{話題|わだい}になっているラーメン店に行ってみました。", en: "The other day I went to a ramen shop that everyone has been talking about online." },
           { cont: true, ja: "{人気店|にんきてん}**だけあって**、すごい{行列|ぎょうれつ}でした。", en: "As you would expect of a popular shop, there was a huge line." },
           { cont: true, ja: "2時間待たされましたが、さすがにそのラーメンはスープ**にしろ**、{具|ぐ}**にしろ**、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, whether in the soup or in the toppings, the shop had added its own original touches, and the ramen was something new, unlike anything I'd had before." },
           { cont: true, ja: "日本料理の新ジャンルとしてのラーメンがこれからどんな{進化|しんか}をしていくのか、楽しみです。", en: "I look forward to seeing how ramen, as a new genre of Japanese cuisine, will evolve from here." },
@@ -38,7 +38,7 @@ TRY.registerChapter({
             { ja: "理由を表す「から・ため」にもついて、{原因|げんいん}・理由・{根拠|こんきょ}を{強調|きょうちょう}する言い方になる。", en: "You can also say it with \"から・ため\", which emphasizes a cause, reason or basis." },
           ],
           examples: [
-            { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの{勝利|しょうり}にほかなりません。", en: "The success of this project is nothing other than a victory for teamwork." },
+            { ja: "今回のプロジェクトの{成功|せいこう}は、チームワークの{勝利|しょうり}にほかなりません。", en: "The success of this project is nothing less than a victory for teamwork." },
             { ja: "{政治|せいじ}の{目的|もくてき}は国民の{幸福|こうふく}にほかならない。", en: "The purpose of politics is nothing other than the people's happiness." },
             { ja: "{事故|じこ}を起こしたのは{労働条件|ろうどうじょうけん}が{厳|きび}しかったからにほかならないと、彼は{裁判|さいばん}で{主張|しゅちょう}した。", en: "He argued in court that the accident happened precisely because the working conditions were harsh." },
             { ja: "この国の{人々|ひとびと}が{貧|まず}しくても{笑顔|えがお}で{暮|く}らしているのは、心の{豊|ゆた}かさを大切にしているからにほかならない。", en: "The reason the people of this country live with smiles on their faces even though they are poor is precisely that they value richness of spirit." },
@@ -118,7 +118,7 @@ TRY.registerChapter({
           examples: [
             { ja: "先週は{熱|ねつ}が40度も出た{上|うえ}に、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever as high as 40°C, and on top of that I had diarrhea that wouldn't stop — it was really awful." },
             { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill, which makes it easy to pick up speed, and on top of that, traffic is heavy even at night, so please be very careful." },
-            { ja: "この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。", en: "This university's cafeteria is cheap and good, and on top of that it has a wide-ranging menu, so even people from the neighborhood love it." },
+            { ja: "この大学の{食堂|しょくどう}は{値段|ねだん}が安くておいしい{上|うえ}に、メニューも{豊富|ほうふ}なので、{地域|ちいき}の人にも{愛|あい}されている。", en: "This university's cafeteria is cheap and good, and on top of that it has a wide variety of dishes, so it's popular with local residents too." },
             { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Construction work is hard, dangerous physical labor, and on top of that the pay is low, so apparently every site is short of workers." },
           ],
           deepDive: "**〜上（に）** adds a second point of the same kind to a first: *and on top of that, not only… but also*. The image is stacking: このアルバイトは交通費が全額出る上に食事もついている (*this job covers all your travel costs, and meals are included too*).\n\nIt follows the plain form, with なA + な and N + の (便利な上に, 病気の上に), or formal である. The noun must describe a state (病気, 高齢, 初心者), not a thing. Both points lean the same way, both good or both bad; for a contrast use けれど: ✗安い上にまずい → ✓安いけれどまずい. The second clause usually has も, and the sentence often ends in a conclusion drawn from both (…ので、人手不足だ).\n\nCompare:\n- **〜に加えて** (#136): *in addition to N*; it attaches to nouns and is more neutral.\n- **〜のみならず** (#63): *not only*, formal, often widening the scope: 国内のみならず海外でも.\n- **N上（じょう）** (#70): after a bare noun, 上 is read じょう and means *in terms of*: データ上は (*according to the data*).\n\nPitfall: 上は means *now that* (決めた上は最後までやる), not *in addition*.\n\nJLPT cue: a な-adjective + な before the blank, and も in the second clause.",
@@ -336,7 +336,7 @@ TRY.registerChapter({
               en: "\" 〜にしろ \" can also be used only once in a sentence when used together with a question word.",
               examples: [
                 { ja: "海外旅行中はどこに行くにしろ、パスポートを持って歩かなければならない。", en: "When traveling abroad, wherever you go, you must carry your passport with you." },
-                { ja: "試験の{結果|けっか}がどうなるにせよ、今は{精一杯|せいいっぱい}の{努力|どりょく}をするだけです。", en: "Whatever the result of the exam, all I can do now is make my very best effort." },
+                { ja: "試験の{結果|けっか}がどうなるにせよ、今は{精一杯|せいいっぱい}の{努力|どりょく}をするだけです。", en: "Whatever the exam results turn out to be, all I can do now is give it my very best." },
                 { ja: "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ{行|い}き{先|さき}を早く決めないと間に合わなくなるよ。", en: "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, we need to decide where to go soon or it'll be too late." },
               ],
             },
@@ -379,7 +379,7 @@ TRY.registerChapter({
                   q: "昔の友達との写真を見る（　）いたずらばかりしていたことを{懐|なつ}かしく思い出す。",
                   options: ["にしろ", "につけ"],
                   answer: 1,
-                  en: "Whenever I look at photos with my old friends, I fondly remember how we were always getting up to mischief.",
+                  en: "Whenever I look at photos with my old friends, I fondly remember how we were always pulling pranks.",
                   why: { en: "〜を見るにつけ = \"every time I see ~, (a feeling arises)\": looking at photos brings back fond memories. にしろ would need a \"whether or not\" statement." },
                 },
               ],
@@ -431,7 +431,7 @@ TRY.registerChapter({
             q: "食べ物を売る店は、どんな店（　）{衛生管理|えいせいかんり}をきちんとしなければならない。",
             options: ["にしては", "にしろ", "につけ", "ばかりか"],
             answer: 1,
-            en: "Any shop that sells food, no matter what kind, must manage hygiene properly.",
+            en: "Any shop that sells food, no matter what kind, must maintain proper hygiene.",
             why: { en: "どんな〜にしろ = \"no matter what kind of ~\" (question word + にしろ), followed by an obligation. にしては means \"for a ~ (surprisingly),\" につけ means \"every time ~ (a feeling arises),\" and ばかりか means \"not only,\" none of which fits どんな." },
           },
           {
@@ -493,7 +493,7 @@ TRY.registerChapter({
             pieces: ["ばかりでなく", "学校", "社会全体で", "考えるべき"],
             order: [1, 0, 2, 3],
             star: 2,
-            en: "How to prevent youth crime, which is being committed by ever younger offenders, is a problem that not only schools but society as a whole should think about.",
+            en: "Preventing youth crime, with offenders getting younger and younger, is a problem that not only schools but society as a whole should think about.",
           },
           {
             before: "{宇宙|うちゅう}から{地球|ちきゅう}を見ると、{国境|こっきょう}など地図上に",
@@ -513,7 +513,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで問題に答えなさい。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and answer the question. Choose the best answer from 1, 2, 3 and 4." },
         title: "",
         text: ["先日、ある{企業|きぎょう}コンサルティング{会社|がいしゃ}の{研修|けんしゅう}に{参加|さんか}した。{研修|けんしゅう}の初めにいきなりキャンディが{配|くば}られた。{確|たし}かに今回の{研修|けんしゅう}はお{菓子業界|かしぎょうかい}に{関係|かんけい}があるものだし、女性の{参加者|さんかしゃ}も多い。時間も少しお{腹|なか}が{空|す}いてくる「おやつ」の時間だ。しかし、まじめな気持ちで{研修|けんしゅう}に{参加|さんか}している私は、キャンディにしろチョコレートにしろ、大人がこのような{場|ば}で口にするものではないと{少々|しょうしょう}{不快|ふかい}に思った。", "ほかの{参加者|さんかしゃ}を見ると、女性ばかりでなく、男性も口に入れている。{主催者側|しゅさいしゃがわ}の人に{勧|すす}められ、しかたなく私もキャンディを口に入れた。すると、疲れてボーッとしていた頭がすっきりした。{周|まわ}りを見ると、{初対面|しょたいめん}の{緊張|きんちょう}がほぐれたのか、知らない人{同士|どうし}が{和|なご}やかに話を始めているではないか。", "それを見て、この{研修|けんしゅう}で「おやつ」が出されている意味がわかった。最近{話題|わだい}の{企業|きぎょう}コンサルティング{会社|がいしゃ}の{研修|けんしゅう}だけあって、「おやつ」をうまく取り入れていると思った。"],
-        en: ["The other day, I took part in a training session run by a corporate consulting company. Right at the start of the training, candy was handed out. Admittedly, this training was related to the confectionery industry, and many of the participants were women. It was also around \"snack time,\" when you start to feel a little hungry. However, having come to the training in a serious frame of mind, I was a little put off: be it candy or chocolate, these aren't things adults should be eating in a setting like this.", "Looking at the other participants, I saw that not only the women but the men too were popping them in their mouths. Urged by one of the organizers, I reluctantly put a candy in my mouth too. Then my tired, foggy head cleared. And when I looked around, what do you know: perhaps because the first-meeting nerves had eased, strangers had started chatting pleasantly with each other.", "Seeing that, I understood why \"snacks\" were being served at this training. This was training by a consulting company that's been in the news lately, and as you'd expect, I thought, they had found a clever way to use \"snacks.\""],
+        en: ["The other day, I took part in a training session run by a corporate consulting company. Right at the start of the training, candy was handed out. Admittedly, this training was related to the confectionery industry, and many of the participants were women. It was also around \"snack time,\" when you start to feel a little hungry. However, having come to the training in a serious frame of mind, I was a little put off: be it candy or chocolate, these aren't things adults should be eating in a setting like this.", "Looking at the other participants, I saw that not only the women but the men too were popping them in their mouths. Urged by one of the organizers, I reluctantly put a candy in my mouth too. Then my tired, foggy head cleared. And when I looked around, what do you know: perhaps because the first-meeting nerves had eased, strangers had started chatting pleasantly with each other.", "Seeing that, I understood why \"snacks\" were being served at this training. Just as you'd expect from a consulting company that's been in the news lately, I thought, they had found a clever way to make use of \"snacks.\""],
         items: [
           {
             q: "{企業|きぎょう}コンサルティングの会社は{研修|けんしゅう}でどうして「おやつ」を出すのだと{筆者|ひっしゃ}は考えましたか。",
@@ -567,7 +567,7 @@ TRY.registerChapter({
               { sp: "M", v: "m", ja: "{隆|たかし}にもすすめたい気がするけど、{隆|たかし}はまだ高校2年だろ。{野球選手|やきゅうせんしゅ}にしろ、{教師|きょうし}にしろ、自分の人生だ。まあ、今から{夢|ゆめ}を{捨|す}てることはないと思うよ。" },
               { sp: "", ja: "お父さんは{隆|たかし}君の{将来|しょうらい}についてどう思っていますか。" },
             ],
-            en: ["A couple is talking about their child's future. What does the father think?", "Takashi says he wants to become a professional baseball player.", "Sounds good to me. Is there some problem?", "Well, you didn't make it as a pro baseball player yourself, did you?", "Well, that's because I got injured.", "I want him to become a school teacher like you.", "Sure, I'm glad I became a high school teacher myself.", "Right? On top of that, you coach the baseball team... It's a good life, isn't it?", "I do feel like recommending it to Takashi too, but he's still only a second-year in high school. Whether he becomes a baseball player or a teacher, it's his own life. Anyway, I don't think there's any need for him to give up on his dream this early.", "What does the father think about Takashi's future?"],
+            en: ["A couple is talking about their child's future. What does the father think?", "Takashi says he wants to become a professional baseball player.", "Sounds good to me. What's wrong with that?", "Well, you didn't make it as a pro baseball player yourself, did you?", "Well, that's because I got injured.", "I want him to become a school teacher like you.", "Sure, I'm glad I became a high school teacher myself.", "Right? On top of that, you coach the baseball team... It's a good life, isn't it?", "I do feel like recommending it to Takashi too, but he's still only a second-year in high school. Whether he becomes a baseball player or a teacher, it's his own life. Anyway, I don't think there's any need for him to give up on his dream this early.", "What does the father think about Takashi's future?"],
             options: ["{高校|こうこう}の{先生|せんせい}になってほしいと思っている", "{自分|じぶん}で{決|き}めてほしいと思っている", "{野球部|やきゅうぶ}の{監督|かんとく}になってほしいと思っている", "プロ{野球|やきゅう}の{選手|せんしゅ}になるのに{反対|はんたい}している"],
             optionsEn: ["He wants him to become a high school teacher", "He wants him to decide for himself", "He wants him to become a baseball team coach", "He's against him becoming a pro baseball player"],
             answer: 1,
