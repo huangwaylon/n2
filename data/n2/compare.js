@@ -442,7 +442,7 @@ TRY.registerCompare([
         ex: { ja: "{落語|らくご}は最近、お{年寄|としよ}り**ばかりでなく**若い女性**にも**人気が出てきた。", en: "Recently rakugo has become popular not only with elderly people but also with young women." },
         note: "〜ばかりでなく…も: \"not only ~ but also\". A neutral addition, like だけでなく." },
       { pattern: "〜ばかりに", level: "N2", no: 48,
-        ex: { ja: "本当のことを言った**ばかりに**、彼を{怒|おこ}らせてしまった。", en: "Just because I told the truth, I ended up making him angry." },
+        ex: { ja: "本当のことを言った**ばかりに**、彼を{怒|おこ}らせてしまった。", en: "All I did was tell the truth, and because of that I ended up making him angry." },
         note: "Plain form (なA + な, N + である) + ばかりに: \"just because (of that one thing)\". Singles out one cause, often a small one, for a bad, regrettable result; a good result takes おかげで. V-たいばかりに (*just because one wanted ~ so badly*) is the exception, followed by the lengths someone went to." }
     ]
   },
