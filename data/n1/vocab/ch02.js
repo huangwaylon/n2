@@ -177,7 +177,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "people (respectful plural of 方); persons",
     note: "The respectful plural of 方 (person): 関係者の方々, ご来場の方々. The same characters read ほうぼう mean “here and there, everywhere”.",
     rx: ["ほうがた", "かたかた", "ほうほう"],
-    book: { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の**{方々|かたがた}**のご指導をもって、「住みたい町ベストテン」入りなど、多くの{実績|じっせき}をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has built up an impressive record of achievements, including a place among the “Top Ten Towns to Live In.”", at: "ch/2" },
+    book: { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の**{方々|かたがた}**のご指導をもって、「住みたい町ベストテン」入りなど、多くの{実績|じっせき}をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has achieved a great deal, including a place among the “Top Ten Towns to Live In.”", at: "ch/2" },
     ex: [
       { ja: "{地域|ちいき}のボランティアの**{方々|かたがた}**に{心|こころ}から{感謝|かんしゃ}いたします。", en: "We sincerely thank the local volunteers.", alt: ["{我々|われわれ}", "{日々|ひび}", "{次々|つぎつぎ}"] },
     ] },
@@ -185,7 +185,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "track record; (proven) results; achievements",
     note: "What one has actually accomplished: 実績を上げる / 積む, 実績のある会社. 業績 is business performance or scholarly achievement; 成績 is grades or results in a test or match.",
     rx: ["じつせき", "じっせい", "みせき"],
-    book: { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の{方々|かたがた}のご指導をもって、「住みたい町ベストテン」入りなど、多くの**{実績|じっせき}**をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has built up an impressive record of achievements, including a place among the “Top Ten Towns to Live In.”", at: "ch/2" },
+    book: { ja: "さいわい市は、市民の皆様のご協力や各方面の専門家の{方々|かたがた}のご指導をもって、「住みたい町ベストテン」入りなど、多くの**{実績|じっせき}**をあげて参りました。", en: "Through the cooperation of our citizens and the guidance of experts in many fields, Saiwai City has achieved a great deal, including a place among the “Top Ten Towns to Live In.”", at: "ch/2" },
     ex: [
       { ja: "{彼|かれ}は{海外|かいがい}での{営業|えいぎょう}**{実績|じっせき}**が{認|みと}められて{昇進|しょうしん}した。", en: "He was promoted in recognition of his sales record overseas.", alt: ["{実験|じっけん}", "{面積|めんせき}", "{実現|じつげん}"] },
     ] },
@@ -216,7 +216,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "new graduate; fresh graduates (as a hiring category)",
     note: "Short for 新規卒業(者): 新卒採用 (graduate recruitment), 新卒者. Japanese companies traditionally hire new graduates en masse every April; mid-career hires are 中途採用.",
     rx: ["しんそち", "あらそつ", "しんぞつ"],
-    book: { ja: "調査によると、昨年度の**{新卒者|しんそつしゃ}**の{就職率|しゅうしょくりつ}は、大学卒業者が約55%、高校卒業者に{至|いた}っては17%以下と過去最低の状況となったとのことだ。", en: "According to the survey, last year's job placement rate for new graduates hit a record low: about 55% for university graduates, and for high school graduates as low as 17% or less.", at: "gp/7" },
+    book: { ja: "調査によると、昨年度の**{新卒者|しんそつしゃ}**の{就職率|しゅうしょくりつ}は、大学卒業者が約55%、高校卒業者に{至|いた}っては17%以下と過去最低の状況となったとのことだ。", en: "According to the survey, last year's job placement rate for new graduates hit a record low: about 55% for university graduates and, for high school graduates, no more than 17%.", at: "gp/7" },
     ex: [
       { ja: "この{会社|かいしゃ}は{毎年|まいとし}100{人|にん}{以上|いじょう}の**{新卒|しんそつ}**を{採用|さいよう}している。", en: "This company hires more than 100 new graduates every year.", alt: ["{新型|しんがた}", "{卒業|そつぎょう}", "{新作|しんさく}"] },
     ] },
@@ -240,7 +240,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "very small (business); tiny, meager",
     note: "Mostly in 零細企業 (a very small business) and 零細農家. It is smaller than 中小企業, often a family-run firm with only a handful of employees.",
     rx: ["れいざい", "ぜろさい", "りょうさい"],
-    book: { ja: "**{零細企業|れいさいきぎょう}**といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against any large corporation.", at: "gp/8" },
+    book: { ja: "**{零細企業|れいさいきぎょう}**といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against large corporations.", at: "gp/8" },
     ex: [
       { ja: "{父|ちち}は{従業員|じゅうぎょういん}5{人|にん}の**{零細|れいさい}**{企業|きぎょう}を{経営|けいえい}している。", en: "My father runs a tiny company with five employees.", alt: ["{詳細|しょうさい}", "{繊細|せんさい}", "{零下|れいか}"] },
     ] },
@@ -248,7 +248,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "pride (in one's ability); self-confidence",
     note: "A confident conviction about one's own skill or worth: 〜と自負している, 自負心. More measured than 自慢 (boasting); 誇り is pride in general.",
     rx: ["じぶ", "じふう", "じおう"],
-    book: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると**{自負|じふ}**している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against any large corporation.", at: "gp/8" },
+    book: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると**{自負|じふ}**している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against large corporations.", at: "gp/8" },
     ex: [
       { ja: "{彼|かれ}はこの{分野|ぶんや}では{誰|だれ}にも{負|ま}けないと**{自負|じふ}**している。", en: "He prides himself on being second to none in this field.", alt: ["{勝負|しょうぶ}", "{負担|ふたん}", "{自立|じりつ}"] },
     ] },
@@ -296,7 +296,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "still; even now (when it should have changed)",
     note: "Emphasizes that something has continued longer than expected: 未だに信じられない, 未だに連絡がない. Stronger than まだ; often written in kana (いまだに).",
     rx: ["みだに", "いまたに", "まだに"],
-    book: { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により**{未|いま}だに**{避難所|ひなんじょ}での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still having to live in evacuation shelters.", at: "gp/9" },
+    book: { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により**{未|いま}だに**{避難所|ひなんじょ}での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still forced to live in evacuation shelters.", at: "gp/9" },
     ex: [
       { ja: "10{年|ねん}{前|まえ}の{事件|じけん}は**{未|いま}だに**{解決|かいけつ}していない。", en: "The case from ten years ago still hasn't been solved.", alt: ["{既|すで}に", "{直|ただ}ちに", "{次第|しだい}に"] },
     ] },
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "evacuation; taking refuge",
     note: "Escaping from danger to a safe place: 避難する, 避難所 (evacuation shelter), 避難訓練 (evacuation drill). The homophone 非難 means criticism.",
     rx: ["ひだん", "へきなん", "ひなんい"],
-    book: { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により{未|いま}だに**{避難所|ひなんじょ}**での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still having to live in evacuation shelters.", at: "gp/9" },
+    book: { ja: "{山中村|やまなかむら}の住民は先月の{洪水|こうずい}により{未|いま}だに**{避難所|ひなんじょ}**での生活を{余儀|よぎ}なくされている。", en: "Because of last month's flood, the residents of Yamanaka Village are still forced to live in evacuation shelters.", at: "gp/9" },
     ex: [
       { ja: "{津波|つなみ}{警報|けいほう}が{出|で}て、{住民|じゅうみん}は{高台|たかだい}に**{避難|ひなん}**した。", en: "A tsunami warning was issued, and residents evacuated to higher ground.", alt: ["{非難|ひなん}", "{困難|こんなん}", "{回避|かいひ}"] },
     ] },
@@ -336,7 +336,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "reduction; cut (in costs, staff or emissions)",
     note: "Deliberately cutting an amount: 経費 / 人員 / CO2を削減する. 減少 is a decrease that simply happens; 削減 is a cut someone makes.",
     rx: ["しょうげん", "さっげん", "さくかん"],
-    book: { ja: "コスト**{削減|さくげん}**という{企業|きぎょう}のニーズが工場の海外移転を{余儀|よぎ}なくさせたと言えるだろう。", en: "One could say that companies' need to cut costs forced their factories to move overseas.", at: "gp/9" },
+    book: { ja: "コスト**{削減|さくげん}**という{企業|きぎょう}のニーズが工場の海外移転を{余儀|よぎ}なくさせたと言えるだろう。", en: "One could say that companies' need to cut costs left them no choice but to move their factories overseas.", at: "gp/9" },
     ex: [
       { ja: "{会社|かいしゃ}は{残業|ざんぎょう}{代|だい}の**{削減|さくげん}**に{取|と}り{組|く}んでいる。", en: "The company is working on cutting overtime costs.", alt: ["{削除|さくじょ}", "{増減|ぞうげん}", "{加減|かげん}"] },
     ] },
@@ -344,7 +344,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "relocation; moving (of an office, shop or facility); transfer",
     note: "For organizations and facilities: 本社を移転する, 店舗移転のお知らせ (notice of store relocation). Also 技術移転 (technology transfer). People 引っ越す or 移住する instead.",
     rx: ["いでん", "いてい", "うつてん"],
-    book: { ja: "コスト{削減|さくげん}という{企業|きぎょう}のニーズが工場の海外**移転**を{余儀|よぎ}なくさせたと言えるだろう。", en: "One could say that companies' need to cut costs forced their factories to move overseas.", at: "gp/9" },
+    book: { ja: "コスト{削減|さくげん}という{企業|きぎょう}のニーズが工場の海外**移転**を{余儀|よぎ}なくさせたと言えるだろう。", en: "One could say that companies' need to cut costs left them no choice but to move their factories overseas.", at: "gp/9" },
     ex: [
       { ja: "{本社|ほんしゃ}が{大阪|おおさか}に**{移転|いてん}**することになった。", en: "The head office is going to relocate to Osaka.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移植|いしょく}"] },
     ] },
@@ -368,7 +368,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "final (match); deciding round",
     note: "決勝戦 (the final), 決勝に進む / 進出する, 準決勝 (semifinal), 準々決勝 (quarterfinal). The homophone 結晶 means crystal.",
     rx: ["けつしょう", "けっそう", "けっしょ"],
-    book: { ja: "**決勝**戦は、{一瞬|いっしゅん}たりとも目が{離|はな}せない歴史に残る試合となった。", en: "The final became a historic match that you couldn't take your eyes off for even an instant.", at: "gp/10" },
+    book: { ja: "**決勝**戦は、{一瞬|いっしゅん}たりとも目が{離|はな}せない歴史に残る試合となった。", en: "The final was a match for the history books; you couldn't take your eyes off it for a single instant.", at: "gp/10" },
     ex: [
       { ja: "{日本|にほん}チームは**{決勝|けっしょう}**で{惜|お}しくも{敗|やぶ}れた。", en: "The Japanese team narrowly lost in the final.", alt: ["{決心|けっしん}", "{優勝|ゆうしょう}", "{決定|けってい}"] },
     ] },
@@ -376,7 +376,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "meddling; nosiness; a busybody",
     note: "Unwanted interference in other people's affairs: お節介を焼く (meddle), 余計なお節介 (none of your business). Usually a mild criticism; 世話を焼く (fuss over someone) is kinder.",
     rx: ["おせつかい", "おふしかい", "おせっけい"],
-    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is kind and a nice person, but tends to be a bit of a busybody.", at: "gp/11" },
+    book: { ja: "{先輩|せんぱい}は親切でいい人だが、**お{節介|せっかい}**を焼きたがるきらいがある。", en: "My senior colleague is a kind, nice person, but is a little too eager to meddle in other people's business.", at: "gp/11" },
     ex: [
       { ja: "**お{節介|せっかい}**かもしれないけど、{早|はや}く{病院|びょういん}に{行|い}ったほうがいいよ。", en: "It may be none of my business, but you'd better see a doctor soon.", alt: ["お{世辞|せじ}", "お{節|せち}", "お{世話|せわ}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "approval; recognition",
     note: "Official approval: 計画を承認する, 上司の承認を得る, 国家承認 (diplomatic recognition). 許可 is permission to do something; 承認 is formally accepting a proposal. The homophone 証人 means a witness.",
     rx: ["じょうにん", "しょうじん", "うけにん"],
-    book: { ja: "この{議案|ぎあん}は出席者の3分の2以上の賛成をもって**{承認|しょうにん}**されました。", en: "This motion was approved with the support of at least two thirds of those present.", at: "gp/13" },
+    book: { ja: "この{議案|ぎあん}は出席者の3分の2以上の賛成をもって**{承認|しょうにん}**されました。", en: "This motion was approved with the support of at least two-thirds of those present.", at: "gp/13" },
     ex: [
       { ja: "この{企画|きかく}は{来週|らいしゅう}の{会議|かいぎ}で**{承認|しょうにん}**される{見込|みこ}みだ。", en: "This project is expected to be approved at next week's meeting.", alt: ["{証人|しょうにん}", "{承知|しょうち}", "{誤認|ごにん}"] },
     ] },
@@ -536,7 +536,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "request; demand; wish (voiced formally)",
     note: "What people formally ask for: 要望に応える (meet requests), 要望書 (written petition), 住民の要望. 要求 is a stronger demand, often as of right; 希望 is simply a hope.",
     rx: ["ようもう", "ようぼ", "よぼう"],
-    book: { ja: "何より学生あっての学校だから、（　）の**{要望|ようぼう}**をよく聞くべきだ。", en: "Above all, a school exists for its students, so it should listen carefully to what the students want.", at: "gp/14" },
+    book: { ja: "何より学生あっての学校だから、（　）の**{要望|ようぼう}**をよく聞くべきだ。", en: "More than anything, a school depends on its students, so it should listen carefully to what the students want.", at: "gp/14" },
     ex: [
       { ja: "{利用者|りようしゃ}の**{要望|ようぼう}**に{応|こた}えて、{図書館|としょかん}の{開館|かいかん}{時間|じかん}が{延|の}びた。", en: "In response to users' requests, the library extended its opening hours.", alt: ["{要点|ようてん}", "{展望|てんぼう}", "{欲望|よくぼう}"] },
     ] },
@@ -607,7 +607,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(formal) apology",
     note: "A formal apology, typical of companies and officials: 謝罪する, 謝罪会見 (a press conference to apologize), 謝罪を求める (demand an apology). In conversation 謝る.",
     rx: ["しゃさい", "じゃざい", "あやまざい"],
-    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "We must earn the forgiveness of the customers we have inconvenienced through a heartfelt apology.", at: "ch/2" },
+    book: { ja: "ご{迷惑|めいわく}をおかけしたお客様には、心からの**{謝罪|しゃざい}**＿＿許していただかなければなりません。", en: "Through a heartfelt apology, we must earn the forgiveness of the customers we have inconvenienced.", at: "ch/2" },
     ex: [
       { ja: "{社長|しゃちょう}は{記者|きしゃ}{会見|かいけん}を{開|ひら}いて{正式|せいしき}に**{謝罪|しゃざい}**した。", en: "The company president held a press conference and formally apologized.", alt: ["{感謝|かんしゃ}", "{犯罪|はんざい}", "{謝礼|しゃれい}"] },
     ] },
@@ -615,7 +615,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(TV) ratings; audience share",
     note: "The share of households watching a program: 視聴率が高い / 低い, 視聴率を取る (pull in ratings). 視聴者 means viewers.",
     rx: ["しちょりつ", "しちょうそつ", "じちょうりつ"],
-    book: { ja: "このドラマは初回の**{視聴率|しちょうりつ}**が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", en: "This drama drew a 31.5% rating for its first episode, and its peak rating apparently came close to 40%.", at: "ch/2" },
+    book: { ja: "このドラマは初回の**{視聴率|しちょうりつ}**が31.5%で、{瞬間|しゅんかん}最大{視聴率|しちょうりつ}＿＿40%近い数字を出したそうだ。", en: "This drama reportedly drew a 31.5% rating for its first episode, and at its peak the rating even came close to 40%.", at: "ch/2" },
     ex: [
       { ja: "その{番組|ばんぐみ}は**{視聴率|しちょうりつ}**が{低|ひく}く、{半年|はんとし}で{終|お}わった。", en: "The show had low ratings and ended after six months.", alt: ["{確率|かくりつ}", "{比率|ひりつ}", "{効率|こうりつ}"] },
     ] },
@@ -671,7 +671,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to leave the nest; to go out into the world (after graduating)",
     note: "Literally young birds leaving the nest; figuratively graduates leaving school or children leaving home: 母校を巣立つ, 社会へ巣立つ. A favorite of graduation speeches.",
     rx: ["そうだつ", "すたつ", "すだちつ"],
-    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am delighted that the 208 of you who entered two years ago are all leaving our school today, without a single one of you missing.", at: "ch/2/review" },
+    book: { ja: "{一昨年|いっさくねん}入学した208{名|めい}が、1{名|めい}たりとも[1]ことなく、本校を**{巣立|すだ}って**行くことを、大変うれしく思います。", en: "I am delighted that all 208 of you who entered two years ago are now going out into the world from this school, without a single one missing.", at: "ch/2/review" },
     ex: [
       { ja: "{今年|ことし}も{多|おお}くの{卒業生|そつぎょうせい}が{社会|しゃかい}へ**{巣立|すだ}って**いった。", en: "Once again this year, many graduates have gone out into the world.", alt: ["{目立|めだ}って", "{役立|やくだ}って", "{泡立|あわだ}って"] },
     ] },

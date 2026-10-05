@@ -184,7 +184,7 @@ TRY.registerCompare([
         ex: { ja: "外国人に人気のある観光地といえば、やはり{京都|きょうと}でしょうか。", en: "When it comes to tourist spots popular with foreigners, I suppose it has to be Kyoto." },
         note: "N + といえば: \"speaking of N / when it comes to N\". Raises a topic and names the first thing associated with it." },
       { pattern: "〜といえども", level: "N1", no: 8,
-        ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against any large corporation." },
+        ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against large corporations." },
         note: "N + といえども: \"even though it is N / even N\". Concedes a status or category and then denies what it would lead one to expect; formal and literary, often with いかに / たとえ." },
       { pattern: "〜とはいえ", level: "N1", no: 61,
         ex: { ja: "親子とはいえ、触れてはならないプライバシーというものがある。", en: "Even between parents and children, there is such a thing as privacy that must not be intruded on." },
