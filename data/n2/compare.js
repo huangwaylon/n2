@@ -355,7 +355,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "Nに{限|かぎ}り", level: "N2", no: 3,
-        ex: { ja: "本日**に{限|かぎ}り**、{通常価格|つうじょうかかく}100グラム1,500円の牛肉を{半額|はんがく}でご{提供|ていきょう}いたしております。", en: "Today only, we are offering beef that normally costs ¥1,500 per 100 grams at half price." },
+        ex: { ja: "本日**に{限|かぎ}り**、{通常価格|つうじょうかかく}100グラム1,500円の牛肉を{半額|はんがく}でご{提供|ていきょう}いたしております。", en: "Today only, we are offering our beef, normally ¥1,500 per 100 grams, at half price." },
         note: "N + に限り (or …に限ります): \"only / limited to N\". Official wording on notices and ads, often for a benefit that only that group gets (半額, 無料)." },
       { pattern: "Nに{限|かぎ}って〜ない", level: "N2", no: 3,
         ex: { ja: "うちの子**に{限|かぎ}って**、{万引|まんび}きなんてするはずがありません。", en: "My child, of all people, would never shoplift." },

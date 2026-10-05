@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "usual; normal; regular (as opposed to special)",
     note: "Formal equivalent of ふつう / いつも: 通常価格 (regular price), 通常営業 (normal hours), 通常は…. It contrasts with 特別 / 臨時. ふつう can also mean “ordinary, mediocre”; 通常 cannot.",
     rx: ["つうしょう", "つじょう", "とうじょう"],
-    book: { ja: "日本で映画を見るのに、**{通常|つうじょう}**1,800円ぐらいかかりますが、映画館では、{通常|つうじょう}料金のほかに、特別なサービスがあります。", en: "Seeing a film in Japan usually costs about 1,800 yen, but cinemas offer special deals besides the regular price.", at: "ch/1/review" },
+    book: { ja: "日本で映画を見るのに、**{通常|つうじょう}**1,800円ぐらいかかりますが、映画館では、{通常|つうじょう}料金のほかに、特別なサービスがあります。", en: "Seeing a movie in Japan usually costs about 1,800 yen, but movie theaters offer special deals besides the regular price.", at: "ch/1/review" },
     ex: [
       { ja: "{年末年始|ねんまつねんし}を{除|のぞ}き、**{通常|つうじょう}**どおり{営業|えいぎょう}いたします。", en: "Except for the New Year holidays, we will be open as usual.", alt: ["{日常|にちじょう}", "{異常|いじょう}", "{非常|ひじょう}"] },
     ] },
@@ -355,7 +355,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "offering; providing; supplying; sponsorship",
     note: "Making goods, services or information available: サービスを提供する, 情報提供, 番組の提供 (TV sponsorship). Slightly formal; 与える is “give” to a recipient, 支給 is paying out to employees.",
     rx: ["ていきょ", "てきょう", "ていぐ"],
-    book: { ja: "本日に{限|かぎ}り、{通常|つうじょう}{価格|かかく}100グラム1,500円の牛肉を{半額|はんがく}でご**{提供|ていきょう}**いたしております。", en: "Today only, we are offering beef that normally costs ¥1,500 per 100 grams at half price.", at: "gp/3" },
+    book: { ja: "本日に{限|かぎ}り、{通常|つうじょう}{価格|かかく}100グラム1,500円の牛肉を{半額|はんがく}でご**{提供|ていきょう}**いたしております。", en: "Today only, we are offering our beef, normally ¥1,500 per 100 grams, at half price.", at: "gp/3" },
     ex: [
       { ja: "この{図書館|としょかん}では、{無料|むりょう}でWi-Fiを**{提供|ていきょう}**している。", en: "This library provides free Wi-Fi.", alt: ["{提出|ていしゅつ}", "{提案|ていあん}", "{提携|ていけい}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping our products, some items went out late.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that some items were shipped late when we sent out our products.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },
