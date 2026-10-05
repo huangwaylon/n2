@@ -200,14 +200,14 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "ほこり", lv: "N2", pos: "noun",
     en: "dust",
     note: "ほこりがたまる / つく / 立つ, ほこりを払う; 砂ぼこり (clouds of dust). Written 埃 — not to be confused with 誇り (pride), also ほこり.",
-    book: { ja: "**ほこり**が{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it.", at: "gp/81" },
+    book: { ja: "**ほこり**が{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; the body is built to expel it naturally that way.", at: "gp/81" },
     ex: [
       { ja: "{長|なが}い{間|あいだ}{使|つか}っていない{棚|たな}に、**ほこり**がたまっていた。", en: "Dust had built up on the shelf that hadn't been used in a long time.", alt: ["しわ", "ひび", "あわ"] },
     ] },
   { w: "くしゃみ", lv: "N2", pos: "noun · する verb",
     en: "sneeze",
     note: "くしゃみが出る / をする; the sound is ハクション. Folk belief says a sneeze means someone is talking about you.",
-    book: { ja: "ほこりが{鼻|はな}に入ると**くしゃみ**が出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it.", at: "gp/81" },
+    book: { ja: "ほこりが{鼻|はな}に入ると**くしゃみ**が出て、{自然|しぜん}にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; the body is built to expel it naturally that way.", at: "gp/81" },
     ex: [
       { ja: "{花粉症|かふんしょう}で、{朝|あさ}から**くしゃみ**が{止|と}まらない。", en: "Because of my hay fever, I haven't stopped sneezing since morning.", alt: ["あくび", "いびき", "ため{息|いき}"] },
     ] },
@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ignition; lighting; catching fire",
     note: "Technical/written: 着火する, 着火剤 (fire starter), 着火部分. 点火 is deliberately igniting (点火装置); 発火 is catching fire, often spontaneously. Everyday: 火がつく / 火をつける.",
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
-    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter so that it won't light even if a child plays with it.", at: "gp/81" },
+    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood is hard to get lit.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },
@@ -474,7 +474,7 @@ TRY.registerVocab({ ch: 9, words: [
   { w: "カビ", lv: "N2", pos: "noun",
     en: "mold; mildew",
     note: "カビが生える (mold grows), カビ臭い (musty), カビを防ぐ. A constant battle during the rainy season (梅雨). Kanji 黴 is rare.",
-    book: { ja: "**カビ**を{防|ふせ}ぐには毎日部屋の{換気|かんき}をすることです。", en: "To prevent mold, the thing to do is air out your room every day.", at: "gp/87" },
+    book: { ja: "**カビ**を{防|ふせ}ぐには毎日部屋の{換気|かんき}をすることです。", en: "The way to prevent mold is to air out your room every day.", at: "gp/87" },
     ex: [
       { ja: "{梅雨|つゆ}の{時期|じき}は、パンにすぐ**カビ**が{生|は}える。", en: "In the rainy season, bread goes moldy quickly.", alt: ["ヒビ", "シワ", "サビ"] },
     ] },
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ventilation; airing out",
     note: "換気する, 部屋の換気, 換気扇 (exhaust fan). The everyday phrase is 空気を入れ替える.",
     rx: ["かんけ", "こうき", "かんぎ"],
-    book: { ja: "カビを{防|ふせ}ぐには毎日部屋の**{換気|かんき}**をすることです。", en: "To prevent mold, the thing to do is air out your room every day.", at: "gp/87" },
+    book: { ja: "カビを{防|ふせ}ぐには毎日部屋の**{換気|かんき}**をすることです。", en: "The way to prevent mold is to air out your room every day.", at: "gp/87" },
     ex: [
       { ja: "1{時間|じかん}に1{度|ど}は{窓|まど}を{開|あ}けて、**{換気|かんき}**してください。", en: "Please open the windows and air the room out once an hour.", alt: ["{交換|こうかん}", "{歓迎|かんげい}", "{観察|かんさつ}"] },
     ] },
@@ -506,7 +506,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "connection; relation; being related",
     note: "〜に関連する (be related to), 〜関連の (…-related: 映画関連の賞), 関連会社 (affiliate). 関係 is broader and includes relationships between people; 関連 is the link between matters.",
     rx: ["かんれい", "けんれん", "かんでん"],
-    book: { ja: "{田中監督|たなかかんとく}はこの映画で、今年の映画**{関連|かんれん}**の{賞|しょう}という{賞|しょう}を{独占|どくせん}した。", en: "With this film, director Tanaka swept every single film award this year.", at: "gp/88" },
+    book: { ja: "{田中監督|たなかかんとく}はこの映画で、今年の映画**{関連|かんれん}**の{賞|しょう}という{賞|しょう}を{独占|どくせん}した。", en: "With this film, director Tanaka swept every one of this year's film awards.", at: "gp/88" },
     ex: [
       { ja: "{事件|じけん}に**{関連|かんれん}**して、{新|あら}たに2{人|ふたり}が{逮捕|たいほ}された。", en: "Two more people were arrested in connection with the case.", alt: ["{連続|れんぞく}", "{関心|かんしん}", "{反対|はんたい}"] },
     ] },
@@ -744,7 +744,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "boarding pass",
     note: "An airport word: 搭乗券を見せる, 搭乗口 (boarding gate), 搭乗手続き (check-in). A train ticket is 乗車券.",
     rx: ["とうじょけん", "とうじょうげん", "とうのうけん"],
-    book: { ja: "わかった。**{搭乗券|とうじょうけん}**{捨|す}てちゃったんでしょ。", en: "I know — you threw away your boarding pass, right?", at: "ch/9/review" },
+    book: { ja: "わかった。**{搭乗券|とうじょうけん}**{捨|す}てちゃったんでしょ。", en: "Let me guess — you threw away your boarding pass.", at: "ch/9/review" },
     ex: [
       { ja: "{保安検査|ほあんけんさ}の{前|まえ}に、**{搭乗券|とうじょうけん}**とパスポートを{用意|ようい}してください。", en: "Please have your boarding pass and passport ready before the security check.", alt: ["{入場券|にゅうじょうけん}", "{定期券|ていきけん}", "{診察券|しんさつけん}"] },
     ] },

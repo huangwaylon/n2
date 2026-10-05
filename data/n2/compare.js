@@ -556,7 +556,7 @@ TRY.registerCompare([
         ex: { ja: "日本へ来てから、自分で料理を作る**ようになりました**。", en: "Since coming to Japan, I've started cooking for myself." },
         note: "Non-potential verb + ようになる: \"come to / start to\". A change in habit or behavior." },
       { pattern: "Vようになっている", level: "N2", no: 81,
-        ex: { ja: "ほこりが{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出す**ようになっています**。", en: "When dust gets into your nose, you sneeze; that's how the body naturally expels it." },
+        ex: { ja: "ほこりが{鼻|はな}に入るとくしゃみが出て、{自然|しぜん}にそれを外へ出す**ようになっています**。", en: "When dust gets into your nose, you sneeze; the body is built to expel it naturally that way." },
         note: "V-る / V-ない + ようになっている: \"is designed so that\". How a machine, system or the body works automatically when something happens; not a change over time like ようになる." }
     ]
   },
