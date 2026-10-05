@@ -191,7 +191,7 @@ TRY.registerChapter({
                   q: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も{活発|かっぱつ}になるだろう。",
                   options: ["はもとより", "のもとで"],
                   answer: 0,
-                  en: "Going forward, exchange between the two countries will probably grow more active in the economy, of course, but in culture as well.",
+                  en: "Going forward, exchange between the two countries will probably become more active in the economy, naturally, and in culture as well.",
                   why: { en: "経済 is the obvious field and 文化の交流も adds another: はもとより." },
                 },
               ],
@@ -290,7 +290,7 @@ TRY.registerChapter({
             { ja: "彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。", en: "Although he and I lived in the same dormitory, we had hardly ever talked." },
             { ja: "留学生たちは、難しい言葉はわからないながら、日本人のボランティアと楽しそうにおしゃべりしている。", en: "Even though they don't understand the difficult words, the international students are chatting away happily with the Japanese volunteers." },
             { ja: "彼は若いながらも、{立派|りっぱ}なプロジェクトリーダーだ。", en: "Young as he is, he is a fine project leader." },
-            { ja: "練習{試合|じあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。", en: "It was only a practice match, but beating last year's champions is a big boost to our confidence." },
+            { ja: "練習{試合|じあい}ながら、去年の{優勝|ゆうしょう}チームに{勝|か}ったのは大きな自信になる。", en: "It was only a practice match, but beating last year's champions has given us a big confidence boost." },
             { ja: "このICレコーダーは{小型|こがた}でありながら、{連続|れんぞく}24時間の{録音|ろくおん}が{可能|かのう}だ。", en: "Although this IC recorder is compact, it can record for 24 hours continuously." },
           ],
           deepDive: "Besides *while doing*, **ながら** has a concessive use: *although, even though*. 彼とは同じ寮に住んでいながら、ほとんど話をしたことがなかった (*although we lived in the same dorm, we had hardly ever talked*). Adding も (ながらも) makes the contrast unmistakable.\n\nTelling the two apart: concessive ながら follows a state (〜ていながら, 知りながら, 思いながら, adjectives such as 若いながら, nouns such as 旧型ながら, でありながら), and the second half runs against what the first would lead you to expect. The subject is normally the same in both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った (*even though I asked, he refused*).\n\nFixed phrases: 残念ながら (*unfortunately*), 恥ずかしながら (*embarrassing as it is*), 勝手ながら (*we regret any inconvenience, but*), 陰ながら (*quietly, from the sidelines*).\n\nCompare:\n- **〜にもかかわらず** (#21): a formal, objective *despite*; different subjects are fine.\n- **〜つつも** (#112): a literary *although*, mostly with verbs of knowing and thinking: 体に悪いと知りつつも、やめられない (*I know it's bad for me, but I can't stop*).\n- **〜ものの** (#39): admits a fact, then an outcome that falls short.\n\nJLPT cue: ながら after 思い, 知り, 〜ている, an adjective or a noun means *although*; pick the unexpected result.",
@@ -343,7 +343,7 @@ TRY.registerChapter({
           bank: ["ながら", "のもとで", "はもとより", "をはじめとする"],
           items: [
             { q: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の{総合|そうごう}メーカーです。", answer: "をはじめとする", en: "Our company is a full-line maker of chocolate and all kinds of other sweets." },
-            { q: "このアニメは、子ども＿＿、大人でも十分楽しめる作品になっている。", answer: "はもとより", en: "Children, of course, but adults too can thoroughly enjoy this anime." },
+            { q: "このアニメは、子ども＿＿、大人でも十分楽しめる作品になっている。", answer: "はもとより", en: "This anime can be thoroughly enjoyed by children, of course, and by adults as well." },
             { q: "たまにはゆっくり映画を見たいと思い＿＿、なかなか時間がとれない。", answer: "ながら", en: "Although I'd like to relax and watch a movie once in a while, I just can't find the time." },
             { q: "がんの{疑|うたが}いがあるときは{専門医|せんもんい}＿＿{早期|そうき}に{診断|しんだん}、{治療|ちりょう}されることをおすすめします。", answer: "のもとで", en: "When cancer is suspected, we recommend being diagnosed and treated early under the care of a specialist." },
           ],
@@ -353,7 +353,7 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
           bank: ["ものだ", "{上|うえ}で", "{以来|いらい}"],
           items: [
-            { q: "仕事をする＿＿いちばん大切なのは{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}だと言われている。", answer: "{上|うえ}で", en: "They say the most important things in doing your job are reporting, keeping people informed, and consulting." },
+            { q: "仕事をする＿＿いちばん大切なのは{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}だと言われている。", answer: "{上|うえ}で", en: "They say the most important things when it comes to doing your job are reporting, keeping people informed, and consulting." },
             { q: "ジョギングを始めて＿＿体の{調子|ちょうし}もいいし、夜もよく寝られるようになった。", answer: "{以来|いらい}", en: "Ever since I started jogging, I've felt better physically and have been sleeping well at night." },
             { q: "{誰|だれ}でも{後輩|こうはい}の前ではいいところを見せたい＿＿。", answer: "ものだ", en: "Everyone naturally wants to look good in front of their juniors." },
           ],
@@ -394,7 +394,7 @@ TRY.registerChapter({
             { ja: "「みどりの{会|かい}」は{環境|かんきょう}{保護|ほご}{活動|かつどう}を{目的|もくてき}とする市民の{組織|そしき}です。", en: "The Midori Society is a citizens' organization whose aim is environmental protection." },
             { ja: "今回のシンポジウムは日本の{伝統|でんとう}{芸能|げいのう}をテーマとして{行|おこな}われます。", en: "This symposium will be held on the theme of Japan's traditional performing arts." },
             { ja: "今回の話し合いの{結果|けっか}を私たちの{総意|そうい}として社長に伝えることにしましょう。", en: "Let's convey the outcome of this discussion to the president as our collective opinion." },
-            { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を{手本|てほん}として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children must grow up modeling themselves on their parents." },
+            { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を{手本|てほん}として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children likely grow up modeling themselves on their parents." },
             { ja: "わが社ではエンジニアを中心に、安全な車づくりの研究が{行|おこな}われている。", en: "At our company, our engineers are at the center of research into building safe cars." },
             { ja: "{結婚|けっこん}を{前提|ぜんてい}に彼女に{交際|こうさい}を申し込んだ。", en: "I asked her to go out with me with marriage in mind." },
           ],
@@ -450,7 +450,7 @@ TRY.registerChapter({
           examples: [
             { ja: "日本のドラマをきっかけとして、日本文化に{関心|かんしん}を持つようになった。", en: "Japanese TV dramas were what first got me interested in Japanese culture." },
             { ja: "小学生の{投書|とうしょ}がきっかけで、駅前の公園をきれいにしようという{活動|かつどう}が始まった。", en: "A letter to the editor from an elementary school student sparked a campaign to clean up the park in front of the station." },
-            { ja: "彼と{友人|ゆうじん}になったのは、入学式で{隣|となり}に座ったことがきっかけだった。", en: "What first brought him and me together as friends was sitting next to each other at the entrance ceremony." },
+            { ja: "彼と{友人|ゆうじん}になったのは、入学式で{隣|となり}に座ったことがきっかけだった。", en: "It was sitting next to each other at the entrance ceremony that first made him and me friends." },
             { ja: "私が{昆虫|こんちゅう}{学者|がくしゃ}を{目指|めざ}したきっかけは、子どものときに{夢中|むちゅう}で読んだ『ファーブル{昆虫記|こんちゅうき}』です。", en: "What first set me on the path to becoming an entomologist was Fabre's Book of Insects, which I read avidly as a child." },
           ],
           plus: [
@@ -536,14 +536,14 @@ TRY.registerChapter({
                   q: "{年齢|ねんれい}が若い（　）{能力|のうりょく}が低いと思ってはいけない。",
                   options: ["からには", "からといって"],
                   answer: 1,
-                  en: "You mustn't assume someone lacks ability just because they are young.",
+                  en: "Don't assume someone lacks ability just because they're young.",
                   why: { en: "A prohibition (思ってはいけない) follows: からといって, “just because ~ doesn't mean.”" },
                 },
                 {
                   q: "インフルエンザはちゃんと（　）学校へ来てはいけない。",
                   options: ["治ったからには", "治ってからでなければ"],
                   answer: 1,
-                  en: "With influenza, you must not come to school until you have fully recovered.",
+                  en: "If you have the flu, don't come to school until you've fully recovered.",
                   why: { en: "“Don't come until you've recovered” — てからでなければ. 治ったからには (“now that you've recovered”) can't lead to “don't come to school.”" },
                 },
                 {
@@ -841,7 +841,7 @@ TRY.registerChapter({
             pieces: ["{体力|たいりょく}", "はもとより", "からには", "{目|め}{指|ざ}す"],
             order: [3, 2, 0, 1],
             star: 2,
-            en: "If you've set your sights on becoming an astronaut, you have to build up not only your physical strength, of course, but also your judgment and problem-solving skills.",
+            en: "If you've set your sights on becoming an astronaut, you have to develop your judgment and problem-solving skills, not to mention your physical strength.",
           },
         ],
       },
@@ -854,7 +854,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで問題に答えなさい。後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and answer the questions. Choose the best answer to each question from 1, 2, 3 and 4." },
         title: "",
         text: ["皆様、本日は私たちABK大学{駅伝部|えきでんぶ}のためにお集まりいただき、ありがとうございます。", "わが{駅伝部|えきでんぶ}は{箱根駅伝|はこねえきでん}※{出場|しゅつじょう}を{目|め}{指|ざ}して、1日も休むことなく練習に{励|はげ}んできました。{他|た}大学の選手と{比|くら}べて、{努力|どりょく}が足りなかったわけではないと思いますが、{残念|ざんねん}ながらこれまでわが校が{箱根駅伝|はこねえきでん}の{出場権|しゅつじょうけん}を{得|え}ることはありませんでした。でも、今年、私にとっては大学生活最後の年に、ついに{夢|ゆめ}を{実現|じつげん}することができました。今回の{出場|しゅつじょう}をきっかけとして、{駅伝部|えきでんぶ}は大きく{成長|せいちょう}できると{期待|きたい}しています。", "コーチをはじめ、これまで{応援|おうえん}してくださった方のためにも、選手{一同|いちどう}、{精一杯|せいいっぱい}がんばるつもりです。皆様、{応援|おうえん}どうぞよろしくお願いいたします。", "※{箱根駅伝|はこねえきでん}：{東京|とうきょう}{箱根|はこね}{間|かん}{往復|おうふく}{大学|だいがく}{駅伝|えきでん}{競走|きょうそう}\n{東京|とうきょう}から{箱根|はこね}までの{往復|おうふく}を10名の選手が{交替|こうたい}しながら走る、大学{対抗|たいこう}の{伝統的|でんとうてき}な{競技|きょうぎ}。毎年1月2日と3日に{行|おこな}われる。\n{箱根駅伝|はこねえきでん}：Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd."],
-        en: ["Everyone, thank you very much for coming here today for us, the ABK University ekiden team.", "Aiming for the Hakone Ekiden, our team has trained hard without taking a single day off. I don't believe we worked any less hard than the runners at other universities, but unfortunately our school had never before qualified for the Hakone Ekiden. But this year, my final year of university, we have finally made our dream come true. I hope this appearance will be a springboard for the team to grow a great deal.", "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to give it everything we've got. We hope you will all cheer us on.", "*箱根駅伝: Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd."],
+        en: ["Everyone, thank you very much for gathering here today for us on the ABK University ekiden team.", "Aiming for the Hakone Ekiden, our team has trained hard without taking a single day off. I don't believe we worked any less hard than the runners at other universities, but unfortunately our school had never before qualified for the Hakone Ekiden. But this year, my last year of college, we have finally made our dream come true. I hope this appearance will be a springboard for the team to grow a great deal.", "For the sake of everyone who has supported us so far, starting with our coach, all of us runners intend to give it everything we've got. We hope you will all cheer us on.", "*箱根駅伝: Tokyo-Hakone Round-Trip College Ekiden Race\nTen runners will take turns running a relay from Tokyo to Hakone and back again in a traditional intercollegiate competition held annually on January 2nd and 3rd."],
         items: [
           {
             q: "ABK大学{駅伝部|えきでんぶ}について正しいものはどれですか。",
@@ -921,7 +921,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "よう、元気そうだね。こうやって集まるの、大学卒業以来だね。" },
             ],
-            en: ["Hey, you look well. This is the first time we've gotten together like this since we graduated, huh.", "It really brings back memories.", "Wait, did we graduate from university?", "When are you planning to get together?"],
+            en: ["Hey, you look well. This is the first time we've gotten together like this since we graduated, huh.", "It really brings back memories.", "Wait, did we graduate from college?", "When are you planning to get together?"],
             why: { en: "〜のは大学卒業以来だ means this is the first get-together since graduation, so the natural reply is how nostalgic it is." },
             options: ["ほんとに{懐|なつ}かしいね。", "大学卒業したっけ？", "いつ集まるつもり？"],
             answer: 0,

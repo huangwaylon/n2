@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lively; active; brisk",
     note: "Full of energy and activity: 活発な子ども, 活発な議論 (a lively discussion), 交流が活発になる. 積極的 is “proactive” (willing to act); 活発 describes energetic movement or activity.",
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
-    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "Going forward, exchange between the two countries will probably grow more active in the economy, of course, but in culture as well.", at: "gp/12" },
+    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "Going forward, exchange between the two countries will probably become more active in the economy, naturally, and in culture as well.", at: "gp/12" },
     ex: [
       { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, lively opinions came from the younger employees too.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "model; example (to follow); copybook",
     note: "Someone or something to imitate: 〜を手本にする, お手本を見せる (demonstrate), 子どもの手本になる (be a role model). 見本 is a sample of a product.",
     rx: ["しゅほん", "てぼん", "てもと"],
-    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children must grow up modeling themselves on their parents.", at: "gp/16" },
+    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children likely grow up modeling themselves on their parents.", at: "gp/16" },
     ex: [
       { ja: "{先生|せんせい}が**{手本|てほん}**を{見|み}せてから、{生徒|せいと}が{書|か}いてみた。", en: "After the teacher demonstrated, the students tried writing it themselves.", alt: ["{手帳|てちょう}", "{本気|ほんき}", "{手間|てま}"] },
     ] },
