@@ -49,4 +49,4 @@ N1 chapters: ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 · compare
 Q1: l01 l02 l03 l04 l05 l06 · challenge · Q2: l07 l08 l09 l10 l11 l12 · challenge
 Vocab examples: N2 vocab/ch01–14, N1 vocab/ch01–10, Quartet vocabNN (after the chapters)
 
-Done: N2 ch01
+Done: N2 ch01 ch02 ch03 ch04 ch05 · N1 ch01 ch02 ch03 ch04 (N1 #37 ③ 言わる is the book’s own typo, p.60 — keep)
