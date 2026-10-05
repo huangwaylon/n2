@@ -41,7 +41,7 @@ TRY.registerVocab({ ch: 4, words: [
     ] },
   { w: "{暴風域|ぼうふういき}", lv: "N1", pos: "noun",
     en: "storm zone (the area of storm-force winds around a typhoon)",
-    note: "A typhoon-report term: 暴風域に入る / を抜ける (enter / leave the storm zone). 暴風 is a violent wind (25 m/s or more) and 暴風雨 a rainstorm; the wider outer zone is 強風域.",
+    note: "A typhoon-report term: 暴風域に入る / を抜ける (enter / leave the storm zone). 暴風 is a violent wind and 暴風雨 a rainstorm. In forecasts the 暴風域 has winds averaging 25 m/s or more; the wider outer zone (15 m/s or more) is the 強風域.",
     rx: ["ぼうふいき", "ばくふういき", "ぼうふういぎ"],
     book: { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に**{暴風域|ぼうふういき}**に入り、{広範囲|こうはんい}にわたって強い雨が降っています。", en: "An area centered on Okinawa is now within the storm zone, and heavy rain is falling across a wide area.", at: "ch/4" },
     ex: [
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["きゅうそう", "きゅぞう", "きゅうぞ"],
     book: { ja: "ブログに新しい写真をアップしたら、先週から今週（　）、ホームページのアクセス{数|すう}が**{急増|きゅうぞう}**して{驚|おどろ}いた。", en: "After I posted new photos on my blog, I was surprised to see the hits on my website shoot up between last week and this week.", at: "ch/4/review" },
     ex: [
-      { ja: "{外国人|がいこくじん}{観光客|かんこうきゃく}が**{急増|きゅうぞう}**し、{町|まち}のホテルが{足|た}りなくなった。", en: "Foreign tourists increased sharply, and the town ran short of hotel rooms.", alt: ["{急停車|きゅうていしゃ}", "{急用|きゅうよう}", "{増税|ぞうぜい}"] },
+      { ja: "{外国人|がいこくじん}{観光客|かんこうきゃく}が**{急増|きゅうぞう}**し、{町|まち}のホテルが{足|た}りなくなった。", en: "The number of foreign tourists shot up, and the town ran short of hotel rooms.", alt: ["{急停車|きゅうていしゃ}", "{急用|きゅうよう}", "{増税|ぞうぜい}"] },
     ] },
   { w: "{受注|じゅちゅう}", lv: "N1", pos: "noun · する verb",
     en: "receiving an order (for goods or work)",
@@ -604,7 +604,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["きゅえん", "きゅうおん", "くえん"],
     book: { ja: "**{救援活動|きゅうえんかつどう}**を", en: "relief operations", at: "ch/4/review" },
     ex: [
-      { ja: "{被災地|ひさいち}に、{全国|ぜんこく}から**{救援|きゅうえん}**{物資|ぶっし}が{届|とど}けられた。", en: "Relief supplies from all over the country were delivered to the disaster area.", alt: ["{球場|きゅうじょう}", "{救急|きゅうきゅう}", "{声援|せいえん}"] },
+      { ja: "{被災地|ひさいち}に、{全国|ぜんこく}から**{救援|きゅうえん}**{物資|ぶっし}が{届|とど}けられた。", en: "Relief supplies from all over the country were delivered to the disaster area.", alt: ["{球場|きゅうじょう}", "{救出|きゅうしゅつ}", "{声援|せいえん}"] },
     ] },
   { w: "{景気|けいき}", lv: "N2", pos: "noun",
     en: "the economy; business conditions; economic climate",
@@ -620,7 +620,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ざいせ", "さいせい", "ざいしょう"],
     book: { ja: "、わが{国|くに}の**{財政|ざいせい}**も{苦|くる}しくなっています。", en: "…our country's finances are becoming strained as well.", at: "ch/4/review" },
     ex: [
-      { ja: "{市|し}の**{財政|ざいせい}**が{苦|くる}しく、{新|あたら}しい{図書館|としょかん}の{建設|けんせつ}は{中止|ちゅうし}になった。", en: "The city's finances are tight, so construction of the new library was canceled.", alt: ["{政治|せいじ}", "{財産|ざいさん}", "{財布|さいふ}"] },
+      { ja: "{市|し}の**{財政|ざいせい}**が{苦|くる}しく、{新|あたら}しい{図書館|としょかん}の{建設|けんせつ}は{中止|ちゅうし}になった。", en: "The city's finances are tight, so construction of the new library was canceled.", alt: ["{政治|せいじ}", "{財産|ざいさん}", "{財宝|ざいほう}"] },
     ] },
   { w: "{変革|へんかく}", lv: "N1", pos: "noun · する verb",
     en: "reform; transformation; fundamental change",
