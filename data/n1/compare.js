@@ -59,10 +59,10 @@ TRY.registerCompare([
         note: "Adjective + ことといったら: \"you wouldn't believe how ~\". An exclamation of an extreme degree, often followed by the result (〜ほどだ)." },
       { pattern: "Nのことだから", level: "N3",
         ex: { ja: "{鈴木|すずき}選手のことだから、{本番|ほんばん}ではさらにすばらしい{演技|えんぎ}を見せてくれることでしょう。", en: "Knowing Suzuki, we'll surely see an even more wonderful performance in the actual competition." },
-        note: "Person + のことだから: \"knowing N / N being N\". A confident guess based on that person's well-known character or habits; followed by conjecture (〜だろう)." },
+        note: "Person + のことだから: \"knowing N\". A confident guess based on that person's well-known character or habits; followed by conjecture (〜だろう)." },
       { pattern: "〜こと。", level: "N2",
         ex: { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}のこと。{窓口|まどぐち}での受け付けは行っておりません。", en: "Applications must arrive by January 28. We do not accept them at the counter." },
-        note: "Sentence-final V-る / V-ない / Nの + こと: \"must / do not\". An impersonal written rule or instruction on notices and guidelines; not used in conversation." },
+        note: "Sentence-final V-る / V-ない / Nの + こと: \"must / do not\". An impersonal rule or instruction, typical of notices and guidelines; rare in ordinary conversation." },
       { pattern: "〜ことか", level: "N2",
         ex: { ja: "人は私のことを頭がいいと言うけど、この試験に合格するために、どれだけ勉強したことか。私の努力は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
         note: "どれだけ / どんなに + plain form + ことか: \"you have no idea how ~!\". An emotional exclamation about the degree of what the speaker did or felt; somewhat literary." },
@@ -89,7 +89,7 @@ TRY.registerCompare([
         note: "V-る + ことなく + negative: \"you can't ~ without V\". A double negative stating an indispensable condition (≈ 〜なければ…ない); a Plus variant of 〜なくして（は）…ない (#123). The negative ending is what separates it from plain ことなく." },
       { pattern: "Vことなしに…ない", level: "N1", no: 123,
         ex: { ja: "責任を取ることなしに自由を求めることはできない。", en: "You cannot demand freedom without taking responsibility." },
-        note: "V-る + ことなしに + negative: \"without V, one cannot ~\". The same meaning as ことなく…ない, with a slightly more formal, literary ring." },
+        note: "V-る + ことなしに + negative: \"without V, one cannot ~\". The same meaning as ことなく…ない." },
       { pattern: "〜ないことには", level: "N2",
         ex: { ja: "A：ここに{若干名|じゃっかんめい}{募集|ぼしゅう}って書いてあるけど、何人ぐらい採用するのかなあ。\nB：問い合わせてみないことには、{詳|くわ}しいことはわからないよ。", en: "A: It says here they're hiring \"a small number\"; I wonder roughly how many they'll take on.\nB: Unless you ask them, you won't know the details." },
         note: "V-ない + ことには: \"unless (you) ~, (you can't)\". Stresses an indispensable first step; the second half must be negative. Less formal than ことなく…ない / なくしては." },
@@ -115,7 +115,7 @@ TRY.registerCompare([
         note: "N + 次第だ / 次第で（は）: \"depends on N / is up to N\". N determines the outcome." },
       { pattern: "〜{次第|しだい}だ", level: "N1", no: 12,
         ex: { ja: "今回の仕事は{当社|とうしゃ}の技術力では難しいと思い、お断りした{次第|しだい}です。", en: "We felt that this job would be too difficult given our company's technical capabilities, and that is why we declined it." },
-        note: "Plain V (often V-た) + 次第です: \"that is how / why (I did) ~\". A formal, business-style account of the circumstances behind the speaker's own action (≈ 〜んです); unlike ① and ②, it ends the sentence after a verb." }
+        note: "Plain V (often V-た) + 次第です: \"that is how / why (I did) ~\". A formal, business-style account of the circumstances behind the speaker's own action (≈ 〜というわけです); unlike ① and ②, it follows a verb and ends the sentence." }
     ]
   },
   {
@@ -131,7 +131,7 @@ TRY.registerCompare([
         ex: { ja: "{盲目|もうもく}のピアニストが{奏|かな}でる美しい調べは、{聴衆|ちょうしゅう}の心を{震|ふる}わせずにはおかなかった。", en: "The beautiful melody played by the blind pianist could not fail to move the hearts of the audience." },
         note: "Thing or event + ずにはおかない (often with a causative verb): \"can't fail to ~ / inevitably ~\". Something naturally provokes a reaction in people; no one's will is involved." },
       { pattern: "Vずにはすまない", level: "N1", no: 117,
-        ex: { ja: "会社の金を{横領|おうりょう}したのだから、彼は首にならずにはすまないはずだ。", en: "Since he embezzled company money, he surely can't avoid being fired." },
+        ex: { ja: "会社の金を{横領|おうりょう}したのだから、彼は首にならずにはすまないはずだ。", en: "He embezzled company money, so he is surely bound to be fired." },
         note: "V-ない stem + ずにはすまない: \"won't get away without ~ / ~ is unavoidable\". The pressure comes from the situation or social norms (a bad outcome, or an obligation), not from an inner urge (いられない) or someone's will (おかない); = ないではすまない." }
     ]
   },
@@ -184,7 +184,7 @@ TRY.registerCompare([
         ex: { ja: "外国人に人気のある観光地といえば、やはり{京都|きょうと}でしょうか。", en: "When it comes to tourist spots popular with foreigners, I suppose it has to be Kyoto." },
         note: "N + といえば: \"speaking of N / when it comes to N\". Raises a topic and names the first thing associated with it." },
       { pattern: "〜といえども", level: "N1", no: 8,
-        ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "Though we are only a tiny business, we pride ourselves on having technology that is a match for any large corporation." },
+        ex: { ja: "{零細企業|れいさいきぎょう}といえども、{我|わ}が{社|しゃ}は{大企業|だいきぎょう}に負けない技術を持っていると{自負|じふ}している。", en: "We may be only a tiny company, but we pride ourselves on having technology that can hold its own against any large corporation." },
         note: "N + といえども: \"even though it is N / even N\". Concedes a status or category and then denies what it would lead one to expect; formal and literary, often with いかに / たとえ." },
       { pattern: "〜とはいえ", level: "N1", no: 61,
         ex: { ja: "親子とはいえ、触れてはならないプライバシーというものがある。", en: "Even between parents and children, there is such a thing as privacy that must not be intruded on." },
@@ -270,7 +270,7 @@ TRY.registerCompare([
         ex: { ja: "彼の{過失|かしつ}となれば、会社は損害{賠償|ばいしょう}を{請求|せいきゅう}しないではおかないだろう。", en: "If it turns out to be his fault, the company will surely demand compensation for damages." },
         note: "V-ない + ではおかない: \"will definitely ~ / won't let it go without ~\" (= ずにはおかない). Strong resolve, or an inevitable effect." },
       { pattern: "Vないではすまない", level: "N1", no: 117,
-        ex: { ja: "{欠陥品|けっかんひん}を売ったのだから消費者に非難されないではすまないでしょう。", en: "Since they sold defective goods, they probably won't escape being criticized by consumers." },
+        ex: { ja: "{欠陥品|けっかんひん}を売ったのだから消費者に非難されないではすまないでしょう。", en: "They sold defective goods, so they probably can't avoid being criticized by consumers." },
         note: "V-ない + ではすまない: \"won't get away without ~\" (= ずにはすまない). Unavoidable given the situation or social norms." },
       { pattern: "Vないでもない", level: "N1", no: 19,
         ex: { ja: "A：ぜひにと言われれば飲まないでもないんですが、最近酒は{控|ひか}えているんです。\nB：じゃあ、まあ、少しだけ……。", en: "A: If you really insist, I wouldn't say no to a drink, but I've been cutting back on alcohol lately.\nB: Well then, just a little..." },
@@ -284,8 +284,8 @@ TRY.registerCompare([
         ex: { ja: "彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。", en: "Even though he and I lived in the same dormitory, I had hardly ever talked to him." },
         note: "V-ます stem / いA / N + ながら（も）: \"although / even though\". A concession: what follows goes against what the first part would lead one to expect; often with state verbs (いる, ある, 知る)." },
       { pattern: "〜ながら(に)", level: "N1", no: 92,
-        ex: { ja: "{仏陀|ぶった}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talents from the moment he was born." },
-        note: "V-ます stem / N + ながら（に） / ながらの + N: \"just as ~ / unchanged since ~\" (生まれながら, 涙ながら, 昔ながら). A set of fixed expressions for a state that stays the same, not a concession or simultaneous action." }
+        ex: { ja: "{仏陀|ぶっだ}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。", en: "It is said that the Buddha displayed extraordinary talents from the moment he was born." },
+        note: "V-ます stem / N + ながら（に） / ながらの + N: \"as ~ / in a state of ~\" (生まれながらに \"from birth\", 涙ながらに \"in tears\", 昔ながらの \"traditional, as in the old days\"). Fixed expressions for a state that persists unchanged; not the concessive ながら（も）." }
     ]
   },
   {
@@ -295,8 +295,8 @@ TRY.registerCompare([
         ex: { ja: "{台湾|たいわん}へ旅行に行くなら、11月が一番いいと思いますよ。", en: "If you're going to travel to Taiwan, I think November is the best time." },
         note: "Plain form + なら: \"if (you're going to) ~\". Takes up what the listener says or plans and gives advice or an opinion about it." },
       { pattern: "〜なら〜で", level: "N1", no: 80,
-        ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: I'd like to leave the company at the end of this month…\nB: If you're quitting, fine, but finish your current work properly first." },
-        note: "AならAで (the same word twice): \"if that's how it is, then (at least) ~\". Accepts someone else's situation and says what they should do, or should have done, given it; used for advice or complaints." },
+        ex: { ja: "A：課長、今月いっぱいで会社を辞めさせていただきたいんですが……。\nB：会社を辞めるなら辞めるで、今の仕事をちゃんと片付けてからにしてくれ。", en: "A: I'd like to leave the company at the end of this month…\nB: If you're quitting, fine, but wrap up your current work properly first." },
+        note: "AならAで (the same word twice): \"if that's how it is, then (at least) ~\". Accepts a situation (often someone else's decision) and says what should be done given it; used for advice or complaints." },
       { pattern: "〜ならまだしも", level: "N1", no: 50,
         ex: { ja: "スニーカーならまだしも、サンダルやハイヒールで登山なんて{無茶|むちゃ}だ。", en: "Sneakers would be one thing, but climbing a mountain in sandals or high heels is crazy." },
         note: "Plain form + ならまだしも: \"A would be one thing, but B...\". A would be barely acceptable; the actual case B clearly isn't, and criticism follows." },
@@ -309,17 +309,17 @@ TRY.registerCompare([
     key: "〜に{至|いた}る／の{至|いた}り",
     items: [
       { pattern: "Nに{至|いた}るまで", level: "N1", no: 5,
-        ex: { ja: "現在、{関東|かんとう}地方から{東北|とうほく}地方に{至|いた}るまで、{大雪|おおゆき}のため交通がマヒしている。", en: "Heavy snow has currently paralyzed traffic all the way from the Kanto region up to the Tohoku region." },
+        ex: { ja: "現在、{関東|かんとう}地方から{東北|とうほく}地方に{至|いた}るまで、{大雪|おおゆき}のため交通がマヒしている。", en: "Heavy snow is currently paralyzing traffic everywhere from the Kanto region all the way to the Tohoku region." },
         note: "N₁から N₂ + に至るまで: \"all the way from N₁ to N₂ / right down to N₂\". Stresses that the range is wide and includes everything up to its far end." },
       { pattern: "〜に{至|いた}る", level: "N1", no: 5,
         ex: { ja: "彼は{長年|ながねん}にわたって、サルからヒトに{至|いた}るまでの{進化|しんか}の過程を研究している。", en: "For many years he has been studying the process of evolution from monkeys all the way to humans." },
         note: "N + に至る: \"reach / lead to N\". Marks the end point of a range or process (here に至るまでの + N); written style." },
       { pattern: "Nに{至|いた}っては", level: "N1", no: 7,
-        ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and among those in their twenties it was down to 13%." },
+        ex: { ja: "今年の国民生活時間調査によると、新聞を読んでいる40代の男性は41%、30代は23%、20代に{至|いた}っては13%だった。", en: "According to this year's national time-use survey, 41% of men in their forties read a newspaper, 23% of those in their thirties, and for those in their twenties it was as low as 13%." },
         note: "N + に至っては: \"and as for N, it goes even further\". After one or more examples, singles out the most extreme case, usually in a negative direction." },
       { pattern: "Nの{至|いた}り", level: "N1", no: 66,
         ex: { ja: "このような{権威|けんい}ある賞をいただきまして、{誠|まこと}に{光栄|こうえい}の{至|いた}りでございます。", en: "It is truly the greatest honor to receive such a prestigious award." },
-        note: "N + の至り: \"the utmost ~\" (光栄の至り, 感激の至り, 恐縮の至り). A formal set phrase for the speaker's own extreme feeling; only with a few Sino-Japanese nouns, unlike the range patterns above." }
+        note: "N + の至り: \"the utmost ~\" (光栄の至り, 感激の至り, 恐縮の至り). A formal set phrase for the speaker's own extreme feeling, with a handful of nouns; unrelated in meaning to the range patterns above." }
     ]
   },
   {
@@ -379,10 +379,10 @@ TRY.registerCompare([
         ex: { ja: "{東京|とうきょう}にしろ{大阪|おおさか}にしろ大都市には働く場所が多いので人が集まってくる。", en: "Whether it's Tokyo or Osaka, big cities have lots of places to work, so people gather there." },
         note: "X にしろ Y にしろ: \"whether X or Y\". The same as にしても〜にしても, somewhat more written." },
       { pattern: "Nにしたところで", level: "N1", no: 86,
-        ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely lose patience after being kept waiting a whole hour." },
+        ex: { ja: "{温厚|おんこう}な{田中|たなか}さんにしたところで、1時間も待たされたら、怒り出すに違いない。", en: "Even easygoing Tanaka would surely get angry after being kept waiting a whole hour." },
         note: "Person or thing + にしたところで (casual にしたって): \"even N is no exception\". Takes someone expected to be different and says they are the same as everyone else." },
       { pattern: "Nにしたら", level: "N1", no: 81,
-        ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept." },
+        ex: { ja: "どんな{判決|はんけつ}が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can ever accept." },
         note: "Person + にしたら: \"from N's point of view\" (= にすれば, にしてみれば)." }
     ]
   },
@@ -422,7 +422,7 @@ TRY.registerCompare([
         ex: { ja: "本当のことを言ったばかりに、彼を怒らせてしまった。", en: "Simply because I told the truth, I ended up making him angry." },
         note: "Plain form + ばかりに: \"simply because (of that one thing)\". A single cause leads to a bad, regrettable result." },
       { pattern: "〜とばかりに", level: "N1", no: 73,
-        ex: { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "Called on by the coach at a key moment, Nakata jumped up as if to say, “I've been waiting for this!”" },
+        ex: { ja: "{中田|なかた}選手はチャンスに{監督|かんとく}から呼ばれ、待ってましたとばかりに立ち上がった。", en: "When the coach called on him with a scoring chance at stake, Nakata leaped up as if to say, “I've been waiting for this!”" },
         note: "Quote + とばかりに: \"as if to say ~\". Nobody actually says it, but their manner makes the feeling unmistakable (an index form of #73 〜んばかり)." }
     ]
   },
@@ -454,7 +454,7 @@ TRY.registerCompare([
         note: "V-る + ほか（は）ない: \"have no choice but to\" (= しかない, よりほかない). Reluctant necessity." },
       { pattern: "Nをおいて他にない", level: "N1", no: 40,
         ex: { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it." },
-        note: "N + をおいて他にない (for people: 他にいない): \"there is no one / nothing but N\". Praises N as the one and only candidate, time or place; not reluctant like ほかない." }
+        note: "N + をおいて他にない (for people: 他にいない): \"there is no one / nothing but N\". Singles out N as the one and only candidate, time or place, a positive evaluation; not reluctant like ほかない." }
     ]
   },
   {
@@ -470,7 +470,7 @@ TRY.registerCompare([
         ex: { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it's useful or not, it's human nature to try to get to the bottom of what puzzles us." },
         note: "V-（よ）う + が + the same V + まいが: \"whether or not ~\". The main clause (a firm intention or an unchangeable fact) holds either way; no wavering, unlike かVまいか." },
       { pattern: "VようとVまいと", level: "N1", no: 79,
-        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether guests are coming or not, keep your room tidy at all times." },
+        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether or not you're expecting guests, keep your room tidy at all times." },
         note: "V-（よ）う + と + the same V + まいと: \"whether or not ~\" (= ようがまいが)." }
     ]
   },
@@ -525,7 +525,7 @@ TRY.registerCompare([
         ex: { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
         note: "V-ない + ものか (ものだろうか): \"isn't there some way to ~?\". A longing wish for something hard to achieve, often with 何とか; not a denial like 〜ものか." },
       { pattern: "Vないものでもない", level: "N1", no: 19,
-        ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're asking me that badly, I suppose I might make an exception and allow it, just this once." },
+        ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you want it that badly, I suppose I could make a special exception and allow it, just this once." },
         note: "V-ない + ものでもない: \"it's not out of the question that I'd ~\". A reluctant, conditional yes; more formal than ないでもない (an index form of #19)." },
       { pattern: "Vようものなら", level: "N1", no: 57,
         ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you so much as criticize them a little, they're liable to say, \"Well then, I quit.\"" },
@@ -572,13 +572,13 @@ TRY.registerCompare([
         ex: { ja: "どんなにひどいけがをしようが、アイスホッケーはやめられない。", en: "No matter how badly I get hurt, I can't give up ice hockey." },
         note: "V-（よ）う + が: \"no matter ~ / even if ~\" (often with どんなに, 何を, たとえ). The main clause, a firm resolve or an unchangeable fact, is unaffected." },
       { pattern: "Vようと", level: "N1", no: 78,
-        ex: { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Go wherever you like — what do I care? Suit yourself!" },
+        ex: { ja: "お前がどこへ行こうと、{俺|おれ}の知ったことか。勝手にしろ！", en: "Wherever you go, what do I care? Do what you want!" },
         note: "V-（よ）う + と: \"no matter ~ / even if ~\" (= ようが)." },
       { pattern: "VようがVまいが", level: "N1", no: 79,
         ex: { ja: "役に立とうが立つまいが、疑問に思うことを{解明|かいめい}しようとするのが人間というものだ。", en: "Whether it's useful or not, it's human nature to try to get to the bottom of what puzzles us." },
         note: "V-（よ）う + が + the same V + まいが: \"whether or not ~\". Affirmative and negative alternatives; the main clause holds either way." },
       { pattern: "VようとVまいと", level: "N1", no: 79,
-        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether guests are coming or not, keep your room tidy at all times." },
+        ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether or not you're expecting guests, keep your room tidy at all times." },
         note: "V-（よ）う + と + the same V + まいと: \"whether or not ~\" (= ようがまいが)." },
       { pattern: "Vようものなら", level: "N1", no: 57,
         ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you so much as criticize them a little, they're liable to say, \"Well then, I quit.\"" },
@@ -589,13 +589,13 @@ TRY.registerCompare([
     key: "〜ように",
     items: [
       { pattern: "Vように言う", level: "N3",
-        ex: { ja: "お母さんからも勉強するように言ってください。", en: "Could you, as their mother, tell your child to study too?" },
+        ex: { ja: "お母さんからも勉強するように言ってください。", en: "Please tell them to study too — it should come from you as well, as their mother." },
         note: "V-る / V-ない + ように言う: \"tell someone to\". Reports an instruction or request indirectly (also ように頼む / 注意する)." },
       { pattern: "Vようになっている", level: "N2",
         ex: { ja: "ほこりが鼻に入るとくしゃみが出て、自然にそれを外へ出すようになっています。", en: "When dust gets into your nose, you sneeze; the body is built to expel it naturally that way." },
         note: "V-る / V-ない + ようになっている: \"is designed so that\". How a machine, system or the body works automatically." },
       { pattern: "VようにもVない", level: "N1", no: 84,
-        ex: { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "My huge blunder at the speech contest — I can't forget it even if I try." },
+        ex: { ja: "スピーチ大会での{大失敗|だいしっぱい}は、忘れようにも忘れられない。", en: "I'll never forget my huge blunder at the speech contest, however hard I try." },
         note: "V-（よ）う + にも + the same V in the negative potential: \"even if one tries to ~, one can't\". Some circumstance makes the wished-for action impossible." },
       { pattern: "Vようによって（は）", level: "N1", no: 110,
         ex: { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you approach that proposal, couldn't you make an interesting program out of it?" },

@@ -5110,7 +5110,7 @@ compare.12.key	〜ないでは／ないでも
 compare.13.items.0.ex.ja	彼とは同じ{寮|りょう}に住んでいながら、ほとんど話をしたことがなかった。
 compare.13.items.0.level	N2
 compare.13.items.0.pattern	〜ながら(も)
-compare.13.items.1.ex.ja	{仏陀|ぶった}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。
+compare.13.items.1.ex.ja	{仏陀|ぶっだ}は生まれながらに{非凡|ひぼん}な才能を{発揮|はっき}したそうである。
 compare.13.items.1.level	N1
 compare.13.items.1.no	92
 compare.13.items.1.pattern	〜ながら(に)
