@@ -498,7 +498,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "forest fire; wildfire",
     note: "森林 (forest, formal/technical: 森林破壊 deforestation) + 火災 (fire, formal). Everyday speech says 山火事; 火事 is the everyday word for a fire.",
     rx: ["しんりんがさい", "もりりんかさい", "しんりんかざい"],
-    book: { ja: "今回の**{森林火災|しんりんかさい}**で、この{辺|へん}の木という木は、1本{残|のこ}らず{燃|も}えてしまった。", en: "In this latest forest fire, every single tree around here burned down — not one was left.", at: "gp/88" },
+    book: { ja: "今回の**{森林火災|しんりんかさい}**で、この{辺|へん}の木という木は、1本{残|のこ}らず{燃|も}えてしまった。", en: "In the recent forest fire, every single tree around here burned down — not one was left.", at: "gp/88" },
     ex: [
       { ja: "{乾燥|かんそう}した{日|ひ}が{続|つづ}き、**{森林火災|しんりんかさい}**が{起|お}きやすくなっている。", en: "With dry days continuing, forest fires are becoming more likely.", alt: ["{森林浴|しんりんよく}", "{交通渋滞|こうつうじゅうたい}", "{集中豪雨|しゅうちゅうごうう}"] },
     ] },
