@@ -2450,7 +2450,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "あの、これ、＿＿んだけど、\nシアトルで＿＿です。",
-            "tr": "Um, this ＿＿, but it's ＿＿ in Seattle."
+            "tr": "Um, this ＿＿, but these are ＿＿ in Seattle."
            },
            "answer": [
             "たいしたものじゃない",
@@ -2545,7 +2545,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "どうぞ。あの、国際学部の学生ですか。",
-           "tr": "Go ahead. Um, are you a student in the international studies department?"
+           "tr": "Go ahead. Um, are you in international studies?"
           },
           {
            "sp": "A",
@@ -2615,13 +2615,13 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "はい。ジョージ・テイラー**って言います。**ジョージ**って{呼|よ}んでください。**アメリカのシアトル**出身です。**❷**これから**1年間、**お{世話|せわ}になります。よろしくお{願|ねが}いします。**",
-       "tr": "Yes. My name is George Taylor. Please call me George. I'm from Seattle in the U.S. Thank you in advance for looking after me this coming year. It's nice to meet you."
+       "tr": "Yes. My name is George Taylor. Please call me George. I'm from Seattle in the U.S. Thank you in advance for looking after me this coming year. I hope we'll get along."
       },
       {
        "sp": "研",
        "v": "m",
        "ja": "こちらこそ、よろしく。本田研です。",
-       "tr": "Nice to meet you, too. I'm Ken Honda."
+       "tr": "Same here. I'm Ken Honda."
       },
       {
        "sp": "ジ",
@@ -2663,7 +2663,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "ありがとう。……❺**あの、これ、たいしたものじゃないんだけど、**シアトルで有名なコーヒー{豆|まめ}です。",
-       "tr": "Thanks. ... Um, this is nothing special, but it's some coffee beans that are famous in Seattle."
+       "tr": "Thanks. ... Um, it's nothing special, but these are coffee beans that are famous in Seattle."
       },
       {
        "sp": "研",
@@ -2681,7 +2681,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "じゃあ、{早速|さっそく}コーヒーいれるから、飲みながらゆっくり話そうよ。",
-       "tr": "Well then, I'll make some coffee right away, so let's have a nice long talk over it."
+       "tr": "Well then, I'll make some of this coffee right now, and we can sit down and talk over a cup."
       },
       {
        "sp": "ジ",
@@ -2776,14 +2776,14 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**これから**（1年間）、**お{世話|せわ}になります。**\n**よろしくお{願|ねが}いします。**",
-        "tr": "Thank you in advance for looking after me (this coming year). It's nice to meet you."
+        "tr": "Thank you in advance for looking after me (this coming year). I hope we'll get along."
        }
       },
       {
        "side": "b",
        "text": {
         "ja": "こちらこそ、よろしく。{本|ほん}{田|だ}{研|けん}です。",
-        "tr": "Nice to meet you, too. I'm Ken Honda."
+        "tr": "Same here. I'm Ken Honda."
        }
       },
       {
@@ -2837,7 +2837,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**あの、これ、たいしたものじゃないんだけど、**\nシアトルで有名なコーヒー{豆|まめ}です。",
-        "tr": "Um, this is nothing special, but it's some coffee beans that are famous in Seattle."
+        "tr": "Um, it's nothing special, but these are coffee beans that are famous in Seattle."
        }
       },
       {
@@ -2910,13 +2910,13 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❶**はじめまして。**〇〇**って言います。**〇〇**って{呼|よ}んでください。**{{アメリカ}}の{{シアトル}}**{出身|しゅっしん}です。**❷**これから**（1年間）、**お{世話|せわ}になります。よろしくお{願|ねが}いします。**",
-         "tr": "Nice to meet you. My name is (name). Please call me (name). I'm from Seattle in the U.S. Thank you in advance for looking after me (this coming year). It's nice to meet you."
+         "tr": "Nice to meet you. My name is (name). Please call me (name). I'm from Seattle in the U.S. Thank you in advance for looking after me (this coming year). I hope we'll get along."
         },
         {
          "sp": "ルームメート",
          "v": "m",
          "ja": "こちらこそ、よろしく。〇〇です。",
-         "tr": "Nice to meet you, too. I'm (name)."
+         "tr": "Same here. I'm (name)."
         },
         {
          "sp": "あなた",
@@ -2993,7 +2993,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❺**あの、これ、たいしたものじゃないんだけど、**{{シアトルで有名なコーヒー{豆|まめ}}}です。",
-         "tr": "Um, this is nothing special, but it's some coffee beans that are famous in Seattle."
+         "tr": "Um, it's nothing special, but these are coffee beans that are famous in Seattle."
         },
         {
          "sp": "ルームメート",
@@ -3099,7 +3099,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "m",
            "ja": "❶**はじめまして。**〇〇**と{申|もう}します。**{{アメリカ}}の{{シアトル}}**からまいりました。**❷**これから**（1年間）、**お{世話|せわ}になります。どうぞよろしくお{願|ねが}いいたします。**",
-           "tr": "How do you do. My name is (name). I have come from Seattle in the U.S. Thank you in advance for all your help (over the next year). I look forward to working with you."
+           "tr": "How do you do. My name is (name). I've come here from Seattle in the U.S. Thank you in advance for all your help (over the next year). I look forward to learning from you."
           },
           {
            "sp": "先生",
@@ -3152,7 +3152,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "m",
            "ja": "❺**あの、これ、たいしたものではないんですが、**{{シアトルで有名なコーヒー{豆|まめ}}}です。",
-           "tr": "Um, this is nothing special, but it's some coffee beans that are famous in Seattle."
+           "tr": "Um, it's nothing special, but these are coffee beans that are famous in Seattle."
           },
           {
            "sp": "先生",
@@ -3219,7 +3219,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "休み時間や授業が始まる前に{友達|ともだち}にどのように話しかけますか。下にメモしなさい。",
-        "tr": "How do you start talking to a friend during a break or before class begins? Take notes below."
+        "tr": "How do you start talking to a friend during a break or before class begins? Make notes below."
        },
        "blocks": [
         {
@@ -3480,7 +3480,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "おはよう。❶今日も朝から**むし{暑|あつ}いね**。",
-       "tr": "Morning. It's muggy again today, even this early, isn't it?"
+       "tr": "Morning. It's muggy again today, and it's only morning."
       },
       {
        "sp": "ジ",
@@ -3546,7 +3546,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "15分ぐらいのオリジナル映画がすごくよかったよ。",
-       "tr": "The original film, about 15 minutes long, was really good."
+       "tr": "There's an original film, about 15 minutes long, and it was really good."
       },
       {
        "sp": "メ",
@@ -3564,7 +3564,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "{寮|りょう}の友達とぎょうざパーティーをしたんだ。いろんな国の人が住んでいるから、毎週{順番|じゅんばん}に国の料理を作ってるの。",
-       "tr": "I had a dumpling party with friends from my dorm. People from all sorts of countries live there, so every week we take turns cooking food from our countries."
+       "tr": "I had a gyoza party with friends from my dorm. People from all sorts of countries live there, so every week we take turns cooking food from our countries."
       },
       {
        "sp": "ジ",
@@ -3582,7 +3582,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "……作らなきゃだめ？　僕、食べるの{専門|せんもん}がいいな。",
-       "tr": "...Do I have to make something? I'd rather be in charge of eating."
+       "tr": "...Do I have to make something? I'd rather just specialize in eating."
       }
      ]
     },
@@ -3980,7 +3980,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。\n会話を聞いて{内容|ないよう}と{合|あ}うものに○をつけなさい。",
-      "tr": "George, an international student, and his roommate Ken are talking about the Ghibli Museum.\nListen to the conversation and mark the one that matches its content with ○."
+      "tr": "George, an international student, and his roommate Ken are talking about the Ghibli Museum.\nListen to the conversation and mark ○ on the one that matches what they say."
      }
     },
     {
@@ -4063,7 +4063,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "留学生のジョージとルームメートの{研|けん}が「ジブリ美術館」について話しています。会話を聞いて、{内容|ないよう}と{合|あ}うものに○をつけなさい。",
-      "tr": "George, an international student, and his roommate Ken are talking about the Ghibli Museum. Listen to the conversation and mark the one that matches its content with ○."
+      "tr": "George, an international student, and his roommate Ken are talking about the Ghibli Museum. Listen to the conversation and mark ○ on the one that matches what they say."
      },
      "lines": [
       {
@@ -4362,7 +4362,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "{不思議|ふしぎ}に思って{他|ほか}のお{客|きゃく}さんの{様子|ようす}を見てみると、店員さんに{返事|へんじ}をする人はあまりいません。コンビニでアルバイトをしている日本人の{友達|ともだち}__によると__、レジで店員さんに「こんにちは」などとあいさつするお客さんはほとんどいない__らしい__です。「いらっしゃいませ、こんにちは」はマニュアル__どおり__のあいさつで、意味がないのかもしれません。でも、店員さんにあいさつしてもらったら、あいさつを返すほうが気持ちよく買い物ができるし、店員さんも楽しく働けると思います。みなさんはどう思いますか。",
-       "tr": "Wondering about this, I watched the other customers and saw that hardly anyone responded to the clerks. According to a Japanese friend who works part-time at a convenience store, apparently almost no customers greet the clerk at the register with “Hello” or anything like that. “Welcome, hello” is a greeting straight out of the manual, so maybe it doesn't mean anything. But when a clerk greets me, I think returning the greeting makes shopping more pleasant, and lets the clerks enjoy their work too. What do you all think?"
+       "tr": "I found this strange, so I watched the other customers, and hardly anyone responded to the clerks. According to a Japanese friend who works part-time at a convenience store, apparently almost no customers greet the clerk at the register with “Hello” or anything like that. “Welcome, hello” is a greeting straight out of the manual, so maybe it doesn't mean anything. But I think that when a clerk greets you, greeting them back makes shopping more pleasant for you and lets the clerk enjoy their work, too. What do you all think?"
       }
      ]
     }
