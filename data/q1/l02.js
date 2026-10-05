@@ -21,7 +21,7 @@ TRY.registerLesson({
    "canDo": [
     {
      "ja": "メールや手紙が書かれた目的がわかる",
-     "tr": "Can understand the purpose for which an e-mail or letter was written"
+     "tr": "Can understand why an e-mail or letter was written"
     },
     {
      "ja": "お世話になった人にお{礼|れい}の手紙が書ける",
@@ -257,10 +257,10 @@ TRY.registerLesson({
       "To: Professor Reiko Suzuki <r.suzuki@nau.edu>",
       "Subject: Request for a letter of recommendation",
       "Professor Suzuki,",
-      "Here in Japan, cold winds are blowing and it is cold every day. I imagine you are still having one snowy day after another there. Are you keeping well? I am finally getting used to life in Japan and am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
+      "Here in Japan, cold winds are blowing and it is cold every day. I imagine you have been having one snowy day after another there. I hope you are doing well. I have finally started getting used to life in Japan, and I am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
       "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Exchange Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
       "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much.",
-      "It's the season when colds are going around, so please take good care of yourself.",
+      "It's the time of year when it's easy to catch a cold, so please take good care of yourself.",
       "George Taylor",
       "georgetaylor@abcde.com"
      ]
@@ -298,7 +298,7 @@ TRY.registerLesson({
        "n": "❷",
        "text": {
         "ja": "くりきんとん：金をイメージしている。お金持ちになれる。",
-        "tr": "Kurikinton (sweet chestnut mash): It evokes gold. You can become rich."
+        "tr": "Kurikinton (sweet chestnut mash): It is meant to suggest gold. You'll be able to get rich."
        }
       },
       {
@@ -418,13 +418,13 @@ TRY.registerLesson({
      "tr": [
       "George writes a thank-you letter to Professor Suzuki.",
       "Dear Professor Suzuki,",
-      "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. I imagine it is starting to get hot there by now. How are you? It will soon be summer vacation. Will you be teaching the summer course again this year?",
-      "The other day, my two-month internship program came to a successful end. Thank you again for taking the time, busy as you were, to write me a letter of recommendation. It was a short time, but thanks to you, I had a wonderful experience of a kind no textbook could teach. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
-      "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Exchange Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that isn't all it is. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
-      "The internship is over now, but as it turns out, I will be starting another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
-      "It is only a small gift, but I am sending you a pen from the university here along with this letter. I would be happy if you like it.",
+      "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. I imagine it is starting to get hot there by now. How have you been? It will soon be summer vacation. Will you be teaching the summer course again this year?",
+      "The other day, my two-month internship program came to a successful end. Thank you again for taking the time, busy as you were, to write me a letter of recommendation. It was a short time, but thanks to you, I had a wonderful experience, one I could never have gotten from a textbook. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
+      "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Exchange Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that wasn't so. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
+      "The internship is over now, but actually, it has been arranged for me to start another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
+      "It is only a small gift, but I am sending you a pen from the university here along with this letter. I hope you like it.",
       "Well then, I am looking forward to seeing you again and talking about many things when I go back there for summer vacation.",
-      "I know you are busy, but please take good care of yourself. Please give my regards to Professor Sato as well.",
+      "I know you are busy, but please take good care of yourself. Please give my regards to Professor Sato as well. Sincerely,",
       "May 25",
       "Professor Reiko Suzuki"
      ]
@@ -493,7 +493,7 @@ TRY.registerLesson({
        "tr": [
         "Professor Tanaka,",
         "The rainy season has started here, and it has been raining almost every day. How are things there? What will you be doing over summer vacation?",
-        "Now, I am writing today because I have some news I'd like to share. As it turns out, I will be working in Japan after my study abroad ends. The job is …",
+        "Now, I am writing today because I have some news I'd like to share. Actually, it's been decided that I'll be working in Japan after my study abroad ends. The job is …",
         "Well then, I will be in touch again. Please be careful not to catch a summer cold. Please give my regards to Professor Yamashita as well.",
         "Sarah Gomis"
        ]
@@ -706,12 +706,12 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "{事故|じこ}が**あり**、道が込んでいた。（←事故があって）",
-         "tr": "There was an accident, and the roads were congested."
+         "tr": "There was an accident, and traffic was heavy."
         },
         {
          "n": 3,
          "ja": "兄は海外の大学に**留学しており**、今、家族と{一緒|いっしょ}に住んでいない。（←留学していて）",
-         "tr": "My older brother is studying at a university overseas, and isn't living with our family right now."
+         "tr": "My older brother is studying at a university overseas, so he isn't living with the family right now."
         },
         {
          "n": 4,
@@ -777,7 +777,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "The **ます-stem link** is how written Japanese joins clauses: letters, reports and news write 降り、 あり、 ており、 ず（に） where speech says 降って、 あって、 ていて、 ないで. George's e-mail and letter use it throughout (吹き、 あり、 でき).\n\n- It replaces only the linking て. Requests and fixed forms keep it: 見てください, never ✗見ください.\n- い-adjectives drop て (安く、), and nouns and な-adjectives take であり: 留学生であり、 (*is an international student, and*).\n- ず（に） is the written ないで; in writing the に is often left out.\n\nIn conversation the stem link sounds like reading aloud: to a friend, say 雪が降って、寒かった. TRY! N2 #20 〜ことなく is a still more formal *without (ever) ~*: 休むことなく働いた (*worked without a break*)."
+     "deepDive": "The **ます-stem link** is how written Japanese joins clauses: letters, reports and news write 降り、 あり、 ており、 ず（に） where speech says 降って、 あって、 ていて、 ないで. George's e-mail and letter use it throughout (吹き、 あり、 でき).\n\n- It replaces only the linking て. Requests and fixed forms keep it: 見てください, never ✗見ください.\n- い-adjectives drop て (安く、), and nouns and な-adjectives take であり: 留学生であり、 (*is an international student, and*).\n- ず（に） is the written ないで; in writing the に is often left out.\n\nIn casual conversation the stem link sounds stiff: to a friend, say 雪が降って、寒かった. TRY! N2 #20 〜ことなく is a still more formal *without (ever) ~*: 休むことなく働いた (*worked without a break*)."
     },
     {
      "t": "note",
@@ -864,7 +864,7 @@ TRY.registerLesson({
           {
            "sp": "ジョージ",
            "ja": "ありがとう。最近やっと日本語だけで話せるようになっ**てきた**よ。",
-           "tr": "Thanks. Lately I've finally been getting to where I can talk only in Japanese."
+           "tr": "Thanks. Lately I'm finally getting to where I can talk just in Japanese."
           }
          ]
         },
@@ -943,12 +943,12 @@ TRY.registerLesson({
         {
          "n": 6,
          "ja": "今後、ロボットが増えると、仕事の仕方は変わっ**ていく**でしょう。",
-         "tr": "As robots become more common, the way we work will probably keep changing."
+         "tr": "In the years ahead, as robots become more common, the way we work will probably keep changing."
         },
         {
          "n": 7,
          "ja": "子どもはいつの間にかいろいろなことができるようになっ**ていきます**。",
-         "tr": "Before you know it, children become able to do more and more things."
+         "tr": "Before you know it, children learn to do more and more things."
         }
        ]
       },
@@ -1200,7 +1200,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**しか〜ない** is *only* with a note of *not enough*: the sentence is negative, and the speaker implies the amount or range falls short of what was wanted or expected. だけ only states the limit: 1人だけいる (*there's just one*) vs. 1人しかいない (*there's only one, too few*).\n\n- The predicate must be negative: ✗3分しかかかる.\n- しか replaces は, が and を but follows other particles: 日曜日にしか, 母にしか, 東京からしか.\n- After a verb, 〜しかない means *have no choice but to*: 歩くしかない (*there's nothing for it but to walk*). In the listening, ここしかない is *this is the only option*.\n\nPitfall: a positive request uses だけ, not しか: これだけください (*just this, please*). TRY! N2 #58 〜のみ is the written *only*, with no negative."
+     "deepDive": "**しか〜ない** is *only* with a note of *not enough*: the sentence is negative, and the speaker usually implies the amount or range falls short of what was wanted or expected. だけ only states the limit: 1人だけいる (*there's just one*) vs. 1人しかいない (*there's only one, too few*).\n\n- The predicate must be negative: ✗3分しかかかる.\n- しか replaces は, が and を but follows other particles: 日曜日にしか, 母にしか, 東京からしか.\n- After a verb, 〜しかない means *have no choice but to*: 歩くしかない (*there's nothing for it but to walk*). After a noun with nothing else it is *the only one*: ここしかない in the listening is *this is the only place*.\n\nPitfall: a positive request uses だけ, not しか: これだけください (*just this, please*). TRY! N2 #58 〜のみ is the written *only*, with no negative."
     },
     {
      "t": "note",
@@ -1265,7 +1265,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "じゃあ、みんなで{順番|じゅんばん}にゴミを出す**ことにしよう**。",
-           "tr": "Then let's make it a rule that we all take turns taking out the trash."
+           "tr": "Then let's agree to take turns taking out the trash."
           }
          ]
         },
@@ -1691,7 +1691,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "ルームメートが料理が上手な**おかげで**、いろいろなレシピを教えてもらえる。",
-         "tr": "My roommate is a good cook, and thanks to that I get to learn all kinds of recipes."
+         "tr": "My roommate is a good cook, so thanks to that, I get to learn all kinds of recipes from them."
         }
        ]
       },
@@ -1730,7 +1730,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "昼間によく運動した**おかげか**、{昨日|きのう}の夜はよく{寝|ね}られた。",
-           "tr": "Maybe because I got a lot of exercise during the day, I was able to sleep well last night."
+           "tr": "Maybe it was thanks to all the exercise I got during the day, but I slept well last night."
           }
          ]
         }
@@ -2054,7 +2054,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nのようだ** here is a simile: the speaker knows it isn't N and compares it to N. まるで (*just like*) announces the comparison and makes it vivid; it pairs only with such comparisons (ようだ, みたいだ).\n\n- The ending follows the slot: のようだ ends the sentence, のようなN modifies a noun, のようにV／A modifies a verb or adjective.\n- Many are set comparisons: 山のような宿題 (*a mountain of homework*), 氷のように冷たい (*ice-cold*).\n- Speech prefers みたい: まるで夢みたい (*it's like a dream*).\n\nPitfall: keep the simile apart from inference. 雨が降ったようだ (*it seems it rained*) is a guess from evidence; Quartet I 初級文法チェック② sorts そうだ, らしい, ようだ and みたいだ. TRY! N1 #101 Nのごとく is the literary *like N*: 前述のごとく (*as stated above*)."
+     "deepDive": "**Nのようだ** here is a simile: the speaker knows it isn't N and compares it to N. まるで (*just like*) announces the comparison and makes it vivid; in this sense it pairs with ようだ or みたいだ (with a negative, まるで means *not at all*: まるでわからない).\n\n- The ending follows the slot: のようだ ends the sentence, のようなN modifies a noun, のようにV／A modifies a verb or adjective.\n- Many are set comparisons: 山のような宿題 (*a mountain of homework*), 氷のように冷たい (*ice-cold*).\n- Speech prefers みたい: まるで夢みたい (*it's like a dream*).\n\nPitfall: keep the simile apart from inference. 雨が降ったようだ (*it seems it rained*) is a guess from evidence; Quartet I 初級文法チェック② sorts そうだ, らしい, ようだ and みたいだ. TRY! N1 #101 Nのごとく is the literary *like N*: 前述のごとく (*as stated above*)."
     },
     {
      "t": "note",
@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "Thanks to my senpai introducing me to a job, it's been settled that I'll be able to work in Japan."
+         "tr": "My senpai introduced me to a job, and thanks to that, it's been settled that I'll be able to work in Japan."
         },
         {
          "n": 2,
@@ -2105,7 +2105,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "来年は{奨学金|しょうがくきん}がもらえない**ことになって**しまいました。",
-           "tr": "It turns out I won't be getting a scholarship next year."
+           "tr": "Unfortunately, it turns out I won't be getting a scholarship next year."
           },
           {
            "sp": "B",
@@ -2460,7 +2460,7 @@ TRY.registerLesson({
      "tr": [
       "Dear all,",
       "It has been getting hot here; how are things in Minamiyama? Are you all doing well? I returned home in May and am now enjoying my summer vacation.",
-      "Now then, thank you so much for all your help during the spring internship. Thanks to all of you, I was able to learn a great deal about Japan and cross-cultural exchange. Thank you also for giving me so much advice about the exchange activities. It is nothing much, but I am sending some American chocolate along with this letter. Please enjoy it together.",
+      "Now then, thank you so much for all your help during the spring internship. Thanks to all of you, I was able to learn a great deal about Japan and cross-cultural exchange. Thank you also for giving me so much advice about the exchange activities. It is nothing much, but I am sending some American chocolate along with this letter. I hope you will all enjoy it.",
       "Well then, I imagine the rainy season will be starting soon, but please take good care of yourselves. When you come to America, please be sure to let me know. Sincerely,",
       "June 10, 20XX",
       "To everyone at the International Exchange Office"
@@ -2538,7 +2538,7 @@ TRY.registerLesson({
            },
            {
             "ja": "{桜|さくら}が美しい季節になりました。（春）\n暑い日が続いています。（夏）\nだんだん秋が深まってきました。（秋）\n雪が降る日が続いています。（冬）",
-            "tr": "The season of beautiful cherry blossoms has arrived. (spring)\nThe hot weather continues. (summer)\nAutumn is gradually deepening. (autumn)\nWe continue to have snowy days. (winter)"
+            "tr": "The season of beautiful cherry blossoms has arrived. (spring)\nThe hot weather continues. (summer)\nAutumn is gradually settling in. (autumn)\nWe continue to have snowy days. (winter)"
            }
           ],
           [
@@ -2603,7 +2603,7 @@ TRY.registerLesson({
        "n": "(1)",
        "text": {
         "ja": "だれかにお世話になった経験がありますか。",
-        "tr": "Have you ever been helped by someone?"
+        "tr": "Has someone ever done a lot for you?"
        }
       },
       {
