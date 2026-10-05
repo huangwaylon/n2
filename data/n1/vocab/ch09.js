@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "who (on earth); someone unknown; what sort of person",
     note: "Asks about or refers to a person whose identity is unknown: 何者かに盗まれた (stolen by someone unknown), 彼は何者だ？ (Who is he, really?). Stronger and more dramatic than 誰; common in news reports of crimes. 何者でもない means “nobody special.”",
     rx: ["なにしゃ", "なんもの", "かもの"],
-    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "A jewel worth as much as 20 million yen has been stolen by an unknown thief, and it's caused a huge uproar.", at: "gp/107" },
+    book: { ja: "2,000万円からする宝石が**{何者|なにもの}**かに盗まれて、{大騒|おおさわ}ぎになっている。", en: "Someone has stolen a jewel worth as much as 20 million yen, and it's caused a huge uproar.", at: "gp/107" },
     ex: [
       { ja: "{昨夜|さくや}、{駅前|えきまえ}の{店|みせ}が**{何者|なにもの}**かに{荒|あ}らされた。", en: "Last night, someone ransacked a shop in front of the station.", alt: ["{何分|なにぶん}", "{何事|なにごと}", "{何度|なんど}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fire (a destructive one); conflagration",
     note: "The formal word for 火事, used in news, notices and insurance: 火災が発生する, 火災報知器 (fire alarm), 火災保険. In conversation people say 火事.",
     rx: ["かざい", "ひさい", "かしゃ"],
-    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first thing that matters is to act calmly.", at: "gp/109" },
+    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first priority is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "{昨夜|さくや}、{駅前|えきまえ}のビルで**{火災|かさい}**が{発生|はっせい}した。", en: "Last night a fire broke out in a building in front of the station.", alt: ["{火星|かせい}", "{火山|かざん}", "{被災|ひさい}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(time of) emergency; crisis",
     note: "A time of crisis such as a fire, disaster or war: 非常時に備える (prepare for emergencies), 非常時の連絡先. Its opposite is 平常時 (normal times). Related: 非常口 (emergency exit), 非常食 (emergency rations).",
     rx: ["ひじょうし", "ひしょうじ", "ひじょじ"],
-    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first thing that matters is to act calmly.", at: "gp/109" },
+    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first priority is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "**{非常時|ひじょうじ}**に{備|そな}えて、{水|みず}と{食料|しょくりょう}を{三日分|みっかぶん}{用意|ようい}しておこう。", en: "Let's keep three days' worth of water and food ready in case of emergency.", alt: ["{平常時|へいじょうじ}", "{日常|にちじょう}", "{臨時|りんじ}"] },
     ] },
@@ -275,7 +275,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "decline; drop; deterioration",
     note: "A fall in level or quality: 性能の低下, 学力低下, 視力が低下する, 気温が低下する. 減少 is a fall in number or amount; 低下 is a fall in degree, standard or ability. The opposite is 向上 (improvement) or 上昇 (rise).",
     rx: ["ていげ", "ていが", "でいか"],
-    book: { ja: "{悪天候下|あくてんこうか}（　）、性能が**低下**しないブレーキの開発を目指している。", en: "They are aiming to develop brakes whose performance does not drop even in bad weather.", at: "gp/109" },
+    book: { ja: "{悪天候下|あくてんこうか}（　）、性能が**低下**しないブレーキの開発を目指している。", en: "They are aiming to develop brakes that don't lose performance even in bad weather.", at: "gp/109" },
     ex: [
       { ja: "{睡眠不足|すいみんぶそく}が{続|つづ}くと、{集中力|しゅうちゅうりょく}が**{低下|ていか}**する。", en: "When you keep going without enough sleep, your concentration drops.", alt: ["{沈下|ちんか}", "{落下|らっか}", "{低温|ていおん}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to (finally) reach, arrive at (after a hard journey)",
     note: "Arriving only after difficulty or a long search: やっと頂上にたどり着く, 真相にたどり着く (arrive at the truth), 結論にたどり着く. 着く or 到着する is plain arrival; たどり着く stresses the struggle. Usually written in kana + 着く (辿り着く in full kanji).",
     rx: ["たどりちゃく", "たどりづく", "たどりきく"],
-    book: { ja: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへ**たどり着いた**。", en: "The dog made a long journey of a good 200 km and found its way back to its owner.", at: "ch/9" },
+    book: { ja: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへ**たどり着いた**。", en: "The dog traveled a long way, a good 200 km, and finally made it back to its owner.", at: "ch/9" },
     ex: [
       { ja: "{道|みち}に{迷|まよ}いながら、{夜|よる}になってやっと{旅館|りょかん}に**たどり{着|つ}いた**。", en: "Getting lost along the way, we finally made it to the inn after dark.", alt: ["{追|お}いついた", "{張|は}り{付|つ}いた", "{思|おも}いついた"] },
     ] },
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "distance, way (to travel); journey; (figurative) the road (to a goal)",
     note: "The distance or route one has to cover: 駅まで30分の道のり, 長い道のり. Figuratively, the process leading to a goal: 優勝までの道のり, 復興への道のりは遠い. 距離 is a neutral measurement; 道のり is felt as a journey.",
     rx: ["どうのり", "とうのり", "みつのり"],
-    book: { ja: "その犬は200km＿＿長い**道のり**を旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", en: "The dog made a long journey of a good 200 km and found its way back to its owner.", at: "ch/9" },
+    book: { ja: "その犬は200km＿＿長い**道のり**を旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", en: "The dog traveled a long way, a good 200 km, and finally made it back to its owner.", at: "ch/9" },
     ex: [
       { ja: "{新薬|しんやく}が{完成|かんせい}するまでには、まだ{長|なが}い**{道|みち}のり**がある。", en: "There is still a long road ahead before the new drug is complete.", alt: ["{道|みち}ばた", "{足|あし}どり", "{道|みち}しるべ"] },
     ] },
@@ -339,7 +339,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "buyer; purchaser",
     note: "The one who buys in a deal, the partner of 売り手 (seller): 買い手が見つかる／つく, 買い手市場 (a buyer's market). Used for houses, businesses and big-ticket items more than for everyday shopping (客, 購入者).",
     rx: ["かいで", "ばいて", "かいしゅ"],
-    book: { ja: "5億円（　）ヨットが売りに出されたが、{一瞬|いっしゅん}で**買い手**が決まったそうだ。", en: "A yacht costing as much as 500 million yen was put up for sale, and apparently a buyer was found in an instant.", at: "ch/9/review" },
+    book: { ja: "5億円（　）ヨットが売りに出されたが、{一瞬|いっしゅん}で**買い手**が決まったそうだ。", en: "A yacht costing as much as 500 million yen was put up for sale, and I hear it found a buyer almost instantly.", at: "ch/9/review" },
     ex: [
       { ja: "{古|ふる}い{家|いえ}なので、なかなか**{買|か}い{手|て}**が{見|み}つからない。", en: "It's an old house, so finding a buyer isn't easy.", alt: ["{売|う}り{手|て}", "{書|か}き{手|て}", "{聞|き}き{手|て}"] },
     ] },
@@ -427,7 +427,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "all one's strength; full effort",
     note: "Everything one has: 全力を尽くす (do one's utmost), 全力で走る, 全力投球 (giving it everything). 精一杯 is closer to “as hard as one possibly can” with a humbler tone; 全力 is energetic and direct.",
     rx: ["ぜんりき", "ぜんりょ", "せんりょく"],
-    book: { ja: "だとすれば、その力を普段出さないからといって、彼または彼女が**全力**で働いていないと非難するのは誤りであろう。", en: "If that is so, it would be wrong to criticize someone for not working at full strength just because he or she does not display that strength ordinarily.", at: "ch/9/review" },
+    book: { ja: "だとすれば、その力を普段出さないからといって、彼または彼女が**全力**で働いていないと非難するのは誤りであろう。", en: "If so, it would be a mistake to criticize someone for not working at full strength just because he or she doesn't show that kind of strength in everyday situations.", at: "ch/9/review" },
     ex: [
       { ja: "{結果|けっか}はどうであれ、**{全力|ぜんりょく}**を{尽|つ}くしたので{悔|く}いはない。", en: "Whatever the result, I gave it my all, so I have no regrets.", alt: ["{権力|けんりょく}", "{全体|ぜんたい}", "{実力|じつりょく}"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fierce; intense (competition, battle)",
     note: "A written word, almost always with 競争 or 争い: 熾烈な競争, 熾烈を極める (be extremely fierce). 激しい is the everyday word. 熾 is outside the everyday (常用) kanji list, so newspapers write it し烈.",
     rx: ["しいれつ", "しょくれつ", "しれい"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet employers, though they know it is unreasonable, tend to demand at all times that workers exert strength reaching into this emergency range, in order to beat cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "スマホ{市場|しじょう}では、{各社|かくしゃ}の**{熾烈|しれつ}**な{競争|きょうそう}が{続|つづ}いている。", en: "In the smartphone market, the companies remain locked in fierce competition.", alt: ["{鮮烈|せんれつ}", "{熱烈|ねつれつ}", "{痛烈|つうれつ}"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "domain; field; territory, realm",
     note: "An area with limits: a field of study or activity (専門領域, 未知の領域), or a territory (領域を侵す). 分野 is a field of study or work; 領域 also suggests a boundary one may cross, as in the passage's この領域にまで踏み込んだ.",
     rx: ["りょういく", "れいいき", "りょうえき"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet employers, though they know it is unreasonable, tend to demand at all times that workers exert strength reaching into this emergency range, in order to beat cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "{彼|かれ}の{研究|けんきゅう}は、{医学|いがく}と{工学|こうがく}の{両方|りょうほう}の**{領域|りょういき}**にまたがっている。", en: "His research spans the fields of both medicine and engineering.", alt: ["{領収|りょうしゅう}", "{地域|ちいき}", "{要領|ようりょう}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to step into; to go (deeply) into (a matter); to raid, burst into",
     note: "Literally to step forward into a place: 足を踏み込む. Figuratively, to go further into a topic or someone's affairs: 踏み込んだ議論 (an in-depth discussion), プライバシーに踏み込む. Also used for a police raid: 警察が踏み込む.",
     rx: ["ふみごむ", "とうみこむ", "ふみいむ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet employers, though they know it is unreasonable, tend to demand at all times that workers exert strength reaching into this emergency range, in order to beat cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion went so far as to get into budget issues.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{冷|ひ}え{込|こ}んだ"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "always; at all times; constantly",
     note: "A formal, written equivalent of いつも, typical of notices and specifications: 常時開放 (always open), 常時監視 (constant monitoring), 常時10名が勤務. The opposite is 臨時 (temporary, only when needed).",
     rx: ["じょうし", "つねじ", "しょうじ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "Yet employers, though they know it is unreasonable, tend to demand at all times that workers exert strength reaching into this emergency range, in order to beat cutthroat competition.", at: "ch/9/review" },
     ex: [
       { ja: "この{施設|しせつ}には、{看護師|かんごし}が**{常時|じょうじ}**{待機|たいき}している。", en: "Nurses are on standby at this facility around the clock.", alt: ["{時差|じさ}", "{同時|どうじ}", "{当時|とうじ}"] },
     ] },
