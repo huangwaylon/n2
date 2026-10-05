@@ -33,7 +33,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{数多|かずおお}い", lv: "N1", pos: "い adjective",
     en: "numerous; many; a great many",
-    note: "A written word, most often in the adverbial-noun form 数多くの (a great many): 数多くの作品, 数多くの人々. 数多（あまた） is an even more literary variant. In speech people say たくさんの.",
+    note: "A written word, most often in the form 数多くの (a great many): 数多くの作品, 数多くの人々. 数多（あまた） is an even more literary variant. In speech people say たくさんの.",
     rx: ["すうおおい", "かずたい", "かずおい"],
     book: { ja: "一般的に書道には、{筆順|ひつじゅん}を守るべし、二度{書|が}きをするべからず{等|とう}、**{数多|かずおお}く**の決まりがある。", en: "Calligraphy generally has a great many rules, such as “Thou shalt follow the stroke order” and “Thou shalt not go back over a stroke.”", at: "ch/10" },
     ex: [
@@ -45,7 +45,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しぼる", "ばくる", "しばむ"],
     book: { ja: "{前衛|ぜんえい}書道家はこうした決まりに**{縛|しば}られず**に、自由な表現を目指すものである。", en: "Avant-garde calligraphers are not bound by such rules and aim for free expression.", at: "ch/10" },
     ex: [
-      { ja: "{会社|かいしゃ}を{辞|や}めて、{時間|じかん}に**{縛|しば}られない**{生活|せいかつ}を{送|おく}っている。", en: "I quit my company and now live a life not tied to the clock.", alt: ["{絞|しぼ}られない", "{結|むす}ばれない", "{包|つつ}まれない"] },
+      { ja: "{会社|かいしゃ}を{辞|や}めて、{時間|じかん}に**{縛|しば}られない**{生活|せいかつ}を{送|おく}っている。", en: "I quit my job and now live a life that isn't tied to the clock.", alt: ["{絞|しぼ}られない", "{結|むす}ばれない", "{包|つつ}まれない"] },
     ] },
   { w: "{余白|よはく}", lv: "N1", pos: "noun",
     en: "blank space; margin (of a page)",
@@ -93,7 +93,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["びん", "ぴん", "ほん"],
     book: { ja: "しかし、この作品を見ると、この文字が「**{品|ひん}**」でなくてなんだろう。", en: "Yet when I look at this work, what can this character be if not 品 (hin, “refinement”)?", at: "ch/10" },
     ex: [
-      { ja: "{彼女|かのじょ}は{服装|ふくそう}も{話|はな}し{方|かた}も{落|お}ち{着|つ}いていて、**{品|ひん}**がある。", en: "Both her clothes and the way she speaks are understated; she has real class.", alt: ["{質|しつ}", "{柄|がら}", "{型|かた}"] },
+      { ja: "{彼女|かのじょ}は{服装|ふくそう}も{話|はな}し{方|かた}も{落|お}ち{着|つ}いていて、**{品|ひん}**がある。", en: "Her clothes are understated and she speaks calmly; she has real class.", alt: ["{質|しつ}", "{柄|がら}", "{型|かた}"] },
     ] },
   { w: "{卑近|ひきん}", lv: "N1", pos: "な adjective",
     en: "familiar, everyday (and rather low); commonplace",
@@ -105,7 +105,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{固定観念|こていかんねん}", lv: "N1", pos: "noun",
     en: "stereotype; fixed idea; preconception",
-    note: "A rigid belief that is hard to change: 固定観念にとらわれる (be trapped by preconceptions), 固定観念を捨てる, 固定観念を打ち破る. 先入観 is a preconception formed before experience; 偏見 is prejudice against a group.",
+    note: "A rigid belief that is hard to change: 固定観念にとらわれる (be trapped by preconceptions), 固定観念を捨てる, 固定観念を打ち破る. 先入観 is a preconception formed before experience; 偏見 is prejudice or bias.",
     rx: ["こていけんねん", "こうていかんねん", "こていかんえん"],
     book: { ja: "だが、**{固定|こてい}観念**からの解放なくして芸術は生まれない。", en: "But without freedom from fixed ideas, no art can be born.", at: "ch/10" },
     ex: [
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["のみざけ", "いんさけ", "いんしゅう"],
     book: { ja: "**{飲酒|いんしゅ}**運転は、許すべからざる{行為|こうい}だ。", en: "Drunk driving is an act that must never be tolerated.", at: "gp/111" },
     ex: [
-      { ja: "{医者|いしゃ}に{言|い}われて、{手術後|しゅじゅつご}しばらくは**{飲酒|いんしゅ}**を{控|ひか}えている。", en: "On my doctor's advice, I'm staying off alcohol for a while after the operation.", alt: ["{飲料|いんりょう}", "{喫茶|きっさ}", "{酒税|しゅぜい}"] },
+      { ja: "{医者|いしゃ}に{言|い}われて、{手術後|しゅじゅつご}しばらくは**{飲酒|いんしゅ}**を{控|ひか}えている。", en: "On my doctor's advice, I'm staying off alcohol for a while after the operation.", alt: ["{酒造|しゅぞう}", "{喫茶|きっさ}", "{酒税|しゅぜい}"] },
     ] },
   { w: "{王者|おうじゃ}", lv: "N1", pos: "noun",
     en: "champion; titleholder; king, ruler",
@@ -193,7 +193,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{絶滅|ぜつめつ}", lv: "N1", pos: "noun · する verb",
     en: "extinction; dying out; eradication",
-    note: "A species or thing disappearing entirely: 絶滅する, 絶滅危惧種 (endangered species), 絶滅の危機にある. It can also mean stamping out something bad: 暴力を絶滅する. 滅亡 is used for nations and civilizations.",
+    note: "A species or thing disappearing entirely: 絶滅する, 絶滅危惧種 (endangered species), 絶滅の危機にある. It can also mean wiping out something harmful: 害虫を絶滅させる. 滅亡 is used for nations and civilizations.",
     rx: ["ぜっめつ", "せつめつ", "ぜつめい"],
     book: { ja: "日本カワウソは毛皮が美しいがゆえに{乱獲|らんかく}され、**{絶滅|ぜつめつ}**してしまった。", en: "Because its fur was beautiful, the Japanese river otter was overhunted and became extinct.", at: "gp/113" },
     ex: [
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{絶妙|ぜつみょう}", lv: "N1", pos: "な adjective",
     en: "exquisite; perfect; superb (timing, balance)",
-    note: "Just right, to a degree that impresses: 絶妙なバランス, 絶妙なタイミング, 絶妙な味. Stronger than 見事 and often about balance or timing rather than beauty itself.",
+    note: "Just right, to a degree that impresses: 絶妙なバランス, 絶妙なタイミング, 絶妙な味. Where 見事 praises a splendid result, 絶妙 praises something judged exactly right, typically balance or timing.",
     rx: ["ぜつみょ", "ぜつびょう", "ぜっみょう"],
     book: { ja: "このスープは{酸味|さんみ}と{辛|から}みが{相|あい}まって、**{絶妙|ぜつみょう}**な味わいだ", en: "In this soup, the sourness and the spiciness combine to give an exquisite flavor", at: "gp/114" },
     ex: [
@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{幻想的|げんそうてき}", lv: "N1", pos: "な adjective",
     en: "fantastical; dreamlike; magical",
-    note: "Like a vision or dream: 幻想的な風景 (a dreamlike scene), 幻想的な音楽, ライトアップされた幻想的な庭. Always positive in descriptions of scenery. 幻想 alone is an illusion or fantasy (幻想を抱く, cherish an illusion).",
+    note: "Like a vision or dream: 幻想的な風景 (a dreamlike scene), 幻想的な音楽, ライトアップされた幻想的な庭. Usually positive in descriptions of scenery. 幻想 alone is an illusion or fantasy (幻想を抱く, cherish an illusion).",
     rx: ["げんぞうてき", "まぼろしてき", "げんそてき"],
     book: { ja: "この絵は、リアルな{描写|びょうしゃ}に**{幻想的|げんそうてき}**な世界観が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic depiction and a fantastical worldview come together to leave an unforgettable impression.", at: "gp/114" },
     ex: [
@@ -301,7 +301,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["かいこ", "かいきょう", "けきょ"],
     book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable achievement, every single student passing, was made possible only by the students' efforts and the teachers' enthusiasm working together.", at: "gp/114" },
     ex: [
-      { ja: "{地方|ちほう}の{小|ちい}さな{高校|こうこう}が{全国大会|ぜんこくたいかい}で{優勝|ゆうしょう}する**{快挙|かいきょ}**を{成|な}し{遂|と}げた。", en: "A small high school from the provinces achieved the remarkable feat of winning the national championship.", alt: ["{快適|かいてき}", "{選挙|せんきょ}", "{暴挙|ぼうきょ}"] },
+      { ja: "{地方|ちほう}の{小|ちい}さな{高校|こうこう}が{全国大会|ぜんこくたいかい}で{優勝|ゆうしょう}する**{快挙|かいきょ}**を{成|な}し{遂|と}げた。", en: "A small regional high school achieved the remarkable feat of winning the national championship.", alt: ["{快適|かいてき}", "{選挙|せんきょ}", "{暴挙|ぼうきょ}"] },
     ] },
   { w: "{熱意|ねつい}", lv: "N1", pos: "noun",
     en: "enthusiasm; zeal; ardor",
@@ -325,7 +325,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["すいぞく", "すいそ", "ついそく"],
     book: { ja: "新しいタイプの芸術に対して、評価が分かれるのは**{推測|すいそく}**にかたくない。", en: "It is not hard to guess that a new type of art will divide opinion.", at: "gp/115" },
     ex: [
-      { ja: "{証拠|しょうこ}がない{以上|いじょう}、それはあなたの**{推測|すいそく}**にすぎない。", en: "As long as there's no evidence, that's nothing more than your guess.", alt: ["{推薦|すいせん}", "{測量|そくりょう}", "{推進|すいしん}"] },
+      { ja: "{証拠|しょうこ}がない{以上|いじょう}、それはあなたの**{推測|すいそく}**にすぎない。", en: "Since there's no evidence, that's nothing more than a guess on your part.", alt: ["{推薦|すいせん}", "{測量|そくりょう}", "{推進|すいしん}"] },
     ] },
   { w: "{副作用|ふくさよう}", lv: "N1", pos: "noun",
     en: "side effect (of a drug); adverse effect",
@@ -421,7 +421,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["きせっき", "きぜき", "きしゃく"],
     book: { ja: "10階から{転落|てんらく}した幼児が無事だったとは、これが**{奇跡|きせき}**でなくてなんだろう。", en: "A toddler who fell from the tenth floor was unhurt — if that isn't a miracle, what is?", at: "gp/118" },
     ex: [
-      { ja: "{大事故|だいじこ}だったのに{全員|ぜんいん}{無事|ぶじ}だったのは、まさに**{奇跡|きせき}**だ。", en: "It was a huge accident, yet everyone was unharmed: it's truly a miracle.", alt: ["{軌跡|きせき}", "{遺跡|いせき}", "{痕跡|こんせき}"] },
+      { ja: "{大事故|だいじこ}だったのに{全員|ぜんいん}{無事|ぶじ}だったのは、まさに**{奇跡|きせき}**だ。", en: "It was a major accident, so it's nothing short of a miracle that everyone came out unhurt.", alt: ["{軌跡|きせき}", "{遺跡|いせき}", "{痕跡|こんせき}"] },
     ] },
   { w: "{戦火|せんか}", lv: "N1", pos: "noun",
     en: "the flames of war; war (and its destruction)",
@@ -525,10 +525,10 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["はつそう", "はっそ", "ほっそう"],
     book: { ja: "値段を上げれば{儲|もう}かると思うのは＿＿{極|きわ}まりない**発想**だ。", en: "Thinking that you'll make money just by raising prices is an extremely simplistic idea.", at: "gp/119" },
     ex: [
-      { ja: "{若|わか}い{社員|しゃいん}の{自由|じゆう}な**{発想|はっそう}**から、ヒット{商品|しょうひん}が{生|う}まれた。", en: "The hit product was born of a young employee's free thinking.", alt: ["{発送|はっそう}", "{回想|かいそう}", "{愛想|あいそ}"] },
+      { ja: "{若|わか}い{社員|しゃいん}の{自由|じゆう}な**{発想|はっそう}**から、ヒット{商品|しょうひん}が{生|う}まれた。", en: "A young employee's out-of-the-box thinking produced a hit product.", alt: ["{発送|はっそう}", "{回想|かいそう}", "{愛想|あいそ}"] },
     ] },
   { w: "{失望|しつぼう}", lv: "N1", pos: "noun · する verb",
-    en: "disappointment; despair",
+    en: "disappointment; loss of hope",
     note: "Losing hope or confidence in someone or something: 失望する, 失望を招く, 〜に失望した. Stronger and more formal than がっかり; 絶望 is complete despair with no hope left.",
     rx: ["しつもう", "しっぼう", "しつぽう"],
     book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに**失望**と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has turned out to be incapable of getting anything done.", at: "gp/120" },
@@ -589,7 +589,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["うざい", "ゆうさい", "ゆざい"],
     book: { ja: "彼の**{有罪|ゆうざい}**を＿＿にたる{物的証拠|ぶってきしょうこ}は発見されなかった。", en: "No physical evidence sufficient to prove his guilt was found.", at: "gp/121" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に**{有罪|ゆうざい}**{判決|はんけつ}を{言|い}い{渡|わた}した。", en: "The court handed down a guilty verdict to the defendant.", alt: ["{有料|ゆうりょう}", "{謝罪|しゃざい}", "{有利|ゆうり}"] },
+      { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に**{有罪|ゆうざい}**{判決|はんけつ}を{言|い}い{渡|わた}した。", en: "The court found the defendant guilty.", alt: ["{有料|ゆうりょう}", "{謝罪|しゃざい}", "{有利|ゆうり}"] },
     ] },
   { w: "{学会|がっかい}", lv: "N1", pos: "noun",
     en: "academic conference; academic society",
@@ -617,7 +617,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{耐|た}える", lv: "N2", pos: "ichidan verb",
     en: "to endure, bear; to withstand",
-    note: "To put up with pain or hardship (痛みに耐える, 寂しさに耐える), or for a thing to withstand force (高温に耐える素材). 我慢する is the everyday word for putting up with something. 〜にたえない (unbearable to ~) uses the same verb, often written in kana.",
+    note: "To put up with pain or hardship (痛みに耐える, 寂しさに耐える), or for a thing to withstand force (高温に耐える素材). 我慢する is the everyday word for putting up with something. 〜にたえない (見るに堪えない, too awful to watch) is the same verb, written 堪える or in kana.",
     rx: ["たいえる", "たいる", "たげる"],
     book: { ja: "「**{耐|た}える**ことなくして{勝利|しょうり}はない」という彼の言葉が好きだ。", en: "I like his words: “There is no victory without endurance.”", at: "gp/123" },
     ex: [
@@ -625,7 +625,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{第三者|だいさんしゃ}", lv: "N1", pos: "noun",
     en: "third party; outsider",
-    note: "A person not directly involved: 第三者に提供する (provide to a third party), 第三者機関 (an independent body), 第三者の立場から見る (see from an outsider's viewpoint). 部外者 is an outsider not allowed in.",
+    note: "A person not directly involved: 第三者に提供する (provide to a third party), 第三者機関 (an independent body), 第三者の立場から見る (see from an outsider's viewpoint). 部外者 is someone from outside an organization (部外者立入禁止, staff only).",
     rx: ["だいさんじゃ", "だいざんしゃ", "たいさんしゃ"],
     book: { ja: "本人の{同意|どうい}を{得|え}ることなく、個人情報を**第三者**に伝えることはできない。", en: "Personal information cannot be passed on to a third party without obtaining the person's consent.", at: "gp/123" },
     ex: [
@@ -709,7 +709,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こしゅうい", "ふるぐさい", "ふるにおい"],
     book: { ja: "デザインの分野では{独創性|どくそうせい}を重んじる（　）、伝統を**{古臭|ふるくさ}い**と否定する傾向がある。", en: "In the field of design, precisely because originality is valued, there is a tendency to reject tradition as old-fashioned.", at: "ch/10/review" },
     ex: [
-      { ja: "「{女性|じょせい}は{家|いえ}にいるべきだ」なんて、**{古臭|ふるくさ}い**{考|かんが}えだ。", en: "Saying “women should stay home” is an outdated way of thinking.", alt: ["{照|て}れくさい", "{水臭|みずくさ}い", "{焦|こ}げくさい"] },
+      { ja: "「{女性|じょせい}は{家|いえ}にいるべきだ」なんて、**{古臭|ふるくさ}い**{考|かんが}えだ。", en: "“Women should stay home”? What an outdated way of thinking.", alt: ["{照|て}れくさい", "{水臭|みずくさ}い", "{焦|こ}げくさい"] },
     ] },
   { w: "{二日酔|ふつかよ}い", lv: "N2", pos: "noun",
     en: "hangover",
@@ -725,7 +725,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["けつきん", "けっごん", "かきん"],
     book: { ja: "二日{酔|よ}いで**{欠勤|けっきん}**するなんて、教師（　）ことだね。", en: "Skipping work because of a hangover — that's behavior unworthy of a teacher.", at: "ch/10/review" },
     ex: [
-      { ja: "{彼|かれ}は{三日間|みっかかん}も{無断|むだん}で**{欠勤|けっきん}**している。", en: "He has been absent from work for three days without notice.", alt: ["{出勤|しゅっきん}", "{転勤|てんきん}", "{欠点|けってん}"] },
+      { ja: "{彼|かれ}は{三日間|みっかかん}も{無断|むだん}で**{欠勤|けっきん}**している。", en: "He's missed three whole days of work without calling in.", alt: ["{出勤|しゅっきん}", "{転勤|てんきん}", "{欠点|けってん}"] },
     ] },
   { w: "{素材|そざい}", lv: "N1", pos: "noun",
     en: "material; ingredients; raw material",
@@ -773,7 +773,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["えんばん", "まるまん", "えいまん"],
     book: { ja: "全く{嘘|うそ}をつくことなしに**{円満|えんまん}**な人間関係は{築|きず}けないのではないか。", en: "isn't it impossible to build harmonious relationships without ever telling a lie?", at: "ch/10/review" },
     ex: [
-      { ja: "{話|はな}し{合|あ}いの{結果|けっか}、{問題|もんだい}は**{円満|えんまん}**に{解決|かいけつ}した。", en: "After talks, the problem was resolved amicably.", alt: ["{満員|まんいん}", "{不満|ふまん}", "{円高|えんだか}"] },
+      { ja: "{話|はな}し{合|あ}いの{結果|けっか}、{問題|もんだい}は**{円満|えんまん}**に{解決|かいけつ}した。", en: "After some discussion, the problem was resolved amicably.", alt: ["{満員|まんいん}", "{不満|ふまん}", "{円高|えんだか}"] },
     ] },
   { w: "{包|つつ}み{隠|かく}す", lv: "N1", pos: "godan verb",
     en: "to conceal, cover up, keep secret",
@@ -789,7 +789,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["ぐか", "おろそか", "おろがか"],
     book: { ja: "その結果起こる{事態|じたい}を予想できない**{愚|おろ}か**{者|もの}ではないだろうか。", en: "a fool who cannot foresee what will happen as a result?", at: "ch/10/review" },
     ex: [
-      { ja: "{一時|いちじ}の{感情|かんじょう}で{仕事|しごと}を{辞|や}めるなんて、**{愚|おろ}か**なことをしたものだ。", en: "Quitting my job in a moment of emotion was a foolish thing to do.", alt: ["{賢|かしこ}", "{確|たし}か", "{豊|ゆた}か"] },
+      { ja: "{一時|いちじ}の{感情|かんじょう}で{仕事|しごと}を{辞|や}めるなんて、**{愚|おろ}か**なことをしたものだ。", en: "Quitting my job in the heat of the moment: what a foolish thing to have done.", alt: ["{賢|かしこ}", "{確|たし}か", "{豊|ゆた}か"] },
     ] },
   { w: "{他人任|たにんまか}せ", lv: "N1", pos: "noun",
     en: "leaving (things) to others; relying on others",
