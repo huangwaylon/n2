@@ -5,7 +5,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["てんじん", "でんにん", "てんいん"],
     book: { ja: "**{転任|てんにん}**のあいさつ", en: "Addressing Co-workers after Receiving a Transfer Order", at: "ch/2", src: "book" },
     ex: [
-      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Our teacher, Yamada, is going to be transferred to another high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
+      { ja: "{山田|やまだ}{先生|せんせい}は、この{春|はる}{別|べつ}の{高校|こうこう}へ**{転任|てんにん}**することになった。", en: "Our teacher Yamada is being transferred to another high school this spring.", alt: ["{担任|たんにん}", "{就任|しゅうにん}", "{責任|せきにん}"] },
     ] },
   { w: "{改|あらた}まる", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be formal; to become ceremonious; to be renewed or changed",
@@ -73,14 +73,14 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{来日|らいにち}", lv: "N2", pos: "noun · する verb",
     en: "coming to Japan; a visit to Japan",
-    note: "Used for foreigners arriving in Japan: 来日する, 来日中の大統領, 来日公演 (a tour of Japan). Japanese people returning home 帰国する; foreigners leaving Japan 離日する (rare).",
+    note: "Used for foreigners arriving in Japan: 来日する, 来日中の大統領, 来日公演 (a tour of Japan). Returning home from abroad is 帰国; a foreigner leaving Japan is 離日 (rare).",
     rx: ["らいにっち", "らいび", "くにち"],
     book: { ja: "1990年に**{来日|らいにち}**して{以来|いらい}、（　）。", en: "Since coming to Japan in 1990, (　).", at: "gp/9" },
     ex: [
       { ja: "{人気|にんき}バンドが{来月|らいげつ}**{来日|らいにち}**し、{東京|とうきょう}でコンサートを{開|ひら}く。", en: "A popular band is coming to Japan next month to give a concert in Tokyo.", alt: ["{来客|らいきゃく}", "{来場|らいじょう}", "{毎日|まいにち}"] },
     ] },
   { w: "{気|き}を{遣|つか}う", lv: "N2", pos: "expression (godan verb)",
-    en: "to be careful about; to be considerate (of others); to worry about",
+    en: "to be considerate (of others); to be careful about, pay attention to",
     note: "Paying attention so as not to trouble others or to take care of something: 健康に気を遣う, 周りに気を遣う. The noun 気遣い means consideration. Compare 気をつける (be careful, watch out) and 気にする (worry, mind).",
     rx: ["きをつこう", "けをつかう", "きをづかう"],
     book: { ja: "今まで以上に食事に**{気|き}を{遣|つか}う**ようになった", en: "(he) has been more careful than ever about what he eats", at: "gp/9" },
@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["にゅうに", "にゅうが", "いりか"],
     book: { ja: "この春の{新作|しんさく}が**{入荷|にゅうか}**いたしましたので、ぜひご来店ください。", en: "This spring's new items have arrived, so please do come and visit our store.", at: "gp/10" },
     ex: [
-      { ja: "{人気|にんき}のゲーム{機|き}は、{次|つぎ}の**{入荷|にゅうか}**が{未定|みてい}だそうだ。", en: "They say it's undecided when the next shipment of the popular game console will come in.", alt: ["{入居|にゅうきょ}", "{荷物|にもつ}", "{入会|にゅうかい}"] },
+      { ja: "{人気|にんき}のゲーム{機|き}は、{次|つぎ}の**{入荷|にゅうか}**が{未定|みてい}だそうだ。", en: "Apparently there's no date yet for the next shipment of the popular game console.", alt: ["{入居|にゅうきょ}", "{荷物|にもつ}", "{入会|にゅうかい}"] },
     ] },
   { w: "{著名人|ちょめいじん}", lv: "N1", pos: "noun",
     en: "celebrity; well-known person; public figure",
@@ -197,11 +197,11 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
     book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "Going forward, exchange between the two countries will probably grow more active in the economy, of course, but in culture as well.", at: "gp/12" },
     ex: [
-      { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees joined actively in the discussion.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
+      { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, lively opinions came from the younger employees too.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
   { w: "{話者|わしゃ}", lv: "N1", pos: "noun",
     en: "speaker (in linguistics or grammar explanations)",
-    note: "A technical word for the person speaking: 話者の気持ち, 母語話者 (native speaker). Someone giving a talk is 話し手 or 講演者, not 話者.",
+    note: "A technical word for the person speaking: 話者の気持ち, 母語話者 (native speaker). In everyday talk the person speaking is 話し手; someone giving a lecture is 講演者.",
     rx: ["はなしゃ", "わしゃあ", "わじゃ"],
     book: { ja: "{誰|だれ}でもそう思う、{絶対|ぜったい}正しいと思っている**{話者|わしゃ}**の{判断|はんだん}を表す。", en: "This expresses the speaker's judgment that anyone would think so or that the speaker thinks it is absolutely correct.", at: "gp/13" },
     ex: [
@@ -285,7 +285,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きゅうけい", "きゅがた", "ふるがた"],
     book: { ja: "この{洗濯機|せんたくき}は、**{旧型|きゅうがた}**ながらとても（　）。", en: "Although this washing machine is an old model, it is very (　).", at: "gp/15" },
     ex: [
-      { ja: "{新型|しんがた}が{出|で}たので、**{旧型|きゅうがた}**のスマホが{安|やす}く{売|う}られている。", en: "Since the new model came out, the old-model smartphones are being sold cheaply.", alt: ["{体型|たいけい}", "{血液型|けつえきがた}", "{旧姓|きゅうせい}"] },
+      { ja: "{新型|しんがた}が{出|で}たので、**{旧型|きゅうがた}**のスマホが{安|やす}く{売|う}られている。", en: "Now that the new model is out, the old model of the smartphone is being sold cheap.", alt: ["{体型|たいけい}", "{血液型|けつえきがた}", "{旧姓|きゅうせい}"] },
     ] },
   { w: "{総合|そうごう}", lv: "N2", pos: "noun · する verb",
     en: "comprehensive; general; overall; synthesis",
@@ -785,7 +785,7 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{懐|なつ}かしい", lv: "N2", pos: "い adjective",
     en: "nostalgic; dear, fondly remembered; brings back memories",
-    note: "The warm feeling toward something from the past: 懐かしい写真, 懐かしいね！ (this brings back memories!). There is no single English word; it is always positive, unlike “old” (古い).",
+    note: "The warm feeling toward something from the past: 懐かしい写真, 懐かしいね！ (this brings back memories!). There is no single English word; it is always warm and positive, while 古い (old) is neutral or negative.",
     rx: ["なづかしい", "なつがしい", "ふところかしい"],
     book: { ja: "ほんとに**{懐|なつ}かしい**ね。", en: "It really brings back memories.", at: "ch/2/review" },
     ex: [
