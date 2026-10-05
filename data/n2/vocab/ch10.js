@@ -9,7 +9,7 @@ TRY.registerVocab({ ch: 10, words: [
     ] },
   { w: "{通勤|つうきん}", lv: "N2", pos: "noun · する verb",
     en: "commuting (to work)",
-    note: "通勤電車, 通勤時間, 電車で通勤する, 通勤ラッシュ. Students 通学; 出勤 is reporting for work (出勤日, 出勤時間).",
+    note: "通勤電車, 通勤時間, 電車で通勤する, 通勤ラッシュ. For students it is 通学; 出勤 is reporting for work (出勤日, 出勤時間).",
     rx: ["つうぎん", "とうきん", "つきん"],
     book: { ja: "朝の**通勤**電車の{混雑|こんざつ}はつらいものがある。", en: "There is something hard to bear about the crush on the morning commuter train.", at: "ch/10" },
     ex: [
@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["こんさつ", "こんざい", "こうざつ"],
     book: { ja: "朝の通勤電車の**{混雑|こんざつ}**はつらいものがある。", en: "There is something hard to bear about the crush on the morning commuter train.", at: "ch/10" },
     ex: [
-      { ja: "{連休中|れんきゅうちゅう}の{観光地|かんこうち}は、どこも**{混雑|こんざつ}**している。", en: "Tourist spots are crowded everywhere during the long weekend.", alt: ["{複雑|ふくざつ}", "{雑談|ざつだん}", "{混合|こんごう}"] },
+      { ja: "{連休中|れんきゅうちゅう}の{観光地|かんこうち}は、どこも**{混雑|こんざつ}**している。", en: "During the long weekend, tourist spots are crowded wherever you go.", alt: ["{複雑|ふくざつ}", "{雑談|ざつだん}", "{混合|こんごう}"] },
     ] },
   { w: "{耐|た}える", lv: "N2", pos: "ichidan verb",
     en: "to endure; to bear; to withstand",
@@ -45,7 +45,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["がまんつよい", "がばんづよい", "かまんづよい"],
     book: { ja: "{日々|ひび}{耐|た}えている{乗客|じょうきゃく}を見るにつけ、みんな何と**{我慢強|がまんづよ}い**のだろうと思う。", en: "Whenever I see the passengers enduring it day after day, I think how patient they all are.", at: "ch/10" },
     ex: [
-      { ja: "{彼|かれ}は**{我慢強|がまんづよ}く**、{痛|いた}くても{決|けっ}して{弱音|よわね}を{吐|は}かない。", en: "He's very patient and never complains, even when he's in pain.", alt: ["{心強|こころづよ}く", "{根強|ねづよ}く", "{心細|こころぼそ}く"] },
+      { ja: "{彼|かれ}は**{我慢強|がまんづよ}く**、{痛|いた}くても{決|けっ}して{弱音|よわね}を{吐|は}かない。", en: "He can put up with a lot and never complains, even when he's in pain.", alt: ["{心強|こころづよ}く", "{根強|ねづよ}く", "{心細|こころぼそ}く"] },
     ] },
   { w: "{訓練|くんれん}", lv: "N2", pos: "noun · する verb",
     en: "training; drill",
@@ -181,10 +181,10 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["いじ", "いしい", "おもし"],
     book: { ja: "「{絶対|ぜったい}〜するのはやめよう」という強い**{意志|いし}**を表すこともある。", en: "You can also use it to express a strong determination to \"absolutely stop doing 〜\".", at: "gp/93", src: "book" },
     ex: [
-      { ja: "{彼女|かのじょ}は**{意志|いし}**が{強|つよ}く、{一度|いちど}{決|き}めたことは{最後|さいご}までやりぬく。", en: "She's strong-willed and sees through to the end whatever she decides to do.", alt: ["{医師|いし}", "{意味|いみ}", "{意外|いがい}"] },
+      { ja: "{彼女|かのじょ}は**{意志|いし}**が{強|つよ}く、{一度|いちど}{決|き}めたことは{最後|さいご}までやりぬく。", en: "She's strong-willed: once she decides on something, she sees it through to the end.", alt: ["{医師|いし}", "{意味|いみ}", "{意外|いがい}"] },
     ] },
   { w: "{振|ふ}る", lv: "N2", pos: "godan verb",
-    en: "to dump, reject (a lover); to wave; to shake; to sprinkle",
+    en: "to wave; to shake, swing; to sprinkle; to dump, reject (a lover)",
     note: "The passive 振られる (be dumped / turned down) is the common romantic use. Also 手を振る (wave), 首を横に振る (shake one's head no), 塩を振る (sprinkle salt), バットを振る (swing).",
     rx: ["ふうる", "しんる", "ぶる"],
     book: { ja: "彼女に**{振|ふ}られた**{直後|ちょくご}は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I told myself I was never going to fall in love again, but...", at: "gp/93" },
@@ -205,7 +205,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["せいう", "ちがう", "ちかつ"],
     book: { ja: "お酒を飲みすぎて{階段|かいだん}から落ちてから、もう二度とお酒は飲むまいと心に**{誓|ちか}った**。", en: "After drinking too much and falling down the stairs, I swore to myself that I would never drink again.", at: "gp/93" },
     ex: [
-      { ja: "{二人|ふたり}は{結婚式|けっこんしき}で、{永遠|えいえん}の{愛|あい}を**{誓|ちか}った**。", en: "At their wedding, the two vowed eternal love.", alt: ["{伺|うかが}った", "{疑|うたが}った", "{誘|さそ}った"] },
+      { ja: "{二人|ふたり}は{結婚式|けっこんしき}で、{永遠|えいえん}の{愛|あい}を**{誓|ちか}った**。", en: "At their wedding, the couple vowed eternal love.", alt: ["{伺|うかが}った", "{疑|うたが}った", "{誘|さそ}った"] },
     ] },
   { w: "{正直|しょうじき}", lv: "N2", pos: "な adjective · noun · adverb",
     en: "honest; frank; (as an opener) honestly, to be frank",
@@ -361,7 +361,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["はやちょう", "そうあさ", "さっちょう"],
     book: { ja: "**{早朝|そうちょう}**から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale came flooding into the store when the doors were barely open.", at: "gp/96" },
     ex: [
-      { ja: "{渋滞|じゅうたい}を{避|さ}けるため、**{早朝|そうちょう}**に{家|いえ}を{出|で}た。", en: "We left home early in the morning to avoid the traffic.", alt: ["{早退|そうたい}", "{早速|さっそく}", "{朝食|ちょうしょく}"] },
+      { ja: "{渋滞|じゅうたい}を{避|さ}けるため、**{早朝|そうちょう}**に{家|いえ}を{出|で}た。", en: "We left home early in the morning to avoid the traffic.", alt: ["{早退|そうたい}", "{朝刊|ちょうかん}", "{朝食|ちょうしょく}"] },
     ] },
   { w: "どっと", lv: "N1", pos: "adverb",
     en: "all at once; in a rush (of people); (laugh) all together; (fatigue) suddenly",
@@ -432,7 +432,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["がいす", "そとす", "はずず"],
     book: { ja: "プロジェクトメンバーから**{外|はず}されて**、彼女は{不満|ふまん}（　）だった。", en: "Having been taken off the project team, she looked dissatisfied.", at: "gp/97" },
     ex: [
-      { ja: "{部長|ぶちょう}は、ただいま{席|せき}を**{外|はず}して**おります。", en: "The manager is away from the desk at the moment.", alt: ["{外|はず}れて", "{譲|ゆず}って", "{移|うつ}して"] },
+      { ja: "{部長|ぶちょう}は、ただいま{席|せき}を**{外|はず}して**おります。", en: "I'm afraid the manager is away from their desk at the moment.", alt: ["{外|はず}れて", "{譲|ゆず}って", "{移|うつ}して"] },
     ] },
   { w: "{酔|よ}う", lv: "N2", pos: "godan verb",
     en: "to get drunk; to get (motion) sick",
@@ -455,7 +455,7 @@ TRY.registerVocab({ ch: 10, words: [
     rx: ["しゅがつけられない", "てがづけられない", "たがつけられない"],
     book: { ja: "{酔|よ}った彼女は、{泣|な}くやら、わめくやら、**手がつけられない**{状態|じょうたい}だった。", en: "Drunk, she was crying, screaming and carrying on — there was no handling her.", at: "gp/98" },
     ex: [
-      { ja: "{弟|おとうと}は{一度|いちど}{怒|おこ}りだすと、**{手|て}がつけられない**。", en: "Once my little brother starts getting angry, there's no controlling him.", alt: ["{手|て}が{離|はな}せない", "{手|て}が{届|とど}かない", "{口|くち}に{合|あ}わない"] },
+      { ja: "{弟|おとうと}は{一度|いちど}{怒|おこ}りだすと、**{手|て}がつけられない**。", en: "Once my little brother loses his temper, there's no controlling him.", alt: ["{手|て}が{離|はな}せない", "{手|て}が{届|とど}かない", "{口|くち}に{合|あ}わない"] },
     ] },
   { w: "{載|の}る", lv: "N2", pos: "godan verb",
     en: "to appear (in print); to be published, listed; to be placed on (top of)",
@@ -621,7 +621,7 @@ TRY.registerVocab({ ch: 10, words: [
     note: "まさにその通り (exactly right), まさに天才 (a genius, no less), まさに〜しようとしていた (was just about to). Emphatic and a little formal; kanji 正に. Casual equivalents: 本当に, ちょうど.",
     book: { ja: "**まさに**{有能|ゆうのう}な{秘書|ひしょ}だ。", en: "It truly is a capable secretary.", at: "ch/10/review" },
     ex: [
-      { ja: "{彼|かれ}のプレーは、**まさに**プロそのものだった。", en: "His play was professional through and through.", alt: ["せめて", "たとえ", "いよいよ"] },
+      { ja: "{彼|かれ}のプレーは、**まさに**プロそのものだった。", en: "His play was every bit that of a true pro.", alt: ["せめて", "たとえ", "いよいよ"] },
     ] },
   { w: "{有能|ゆうのう}", lv: "N1", pos: "な adjective",
     en: "capable; competent; able",
