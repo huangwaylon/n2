@@ -44,7 +44,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to tell; to inform; to announce",
     note: "A written, slightly formal verb for telling someone something important: 別れを告げる (say goodbye), 名前を告げる, 医者に病名を告げられる. It also appears in set phrases like 春の訪れを告げる (herald the coming of spring). In conversation 言う or 伝える is normal.",
     rx: ["こげる", "つぐる", "しげる"],
-    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"Let's just say that talk of promoting you to section chief never happened,\" the department head told me three months ago.", at: "ch/13" },
+    book: { ja: "「{課長昇進|かちょうしょうしん}の話はなかったことにする」と部長に**{告|つ}げられた**のは3か月前だった。", en: "\"Forget the talk about promoting you to section chief. As far as we're concerned, it never happened.\" That's what the department head told me three months ago.", at: "ch/13" },
     ex: [
       { ja: "{医者|いしゃ}は{家族|かぞく}に{病名|びょうめい}を**{告|つ}げた**。", en: "The doctor told the family the name of the illness.", alt: ["{届|とど}けた", "{渡|わた}した", "{伝|つた}わった"] },
       { ja: "{彼女|かのじょ}は{何|なに}も**{告|つ}げず**に{町|まち}を{出|で}て{行|い}った。", en: "She left town without telling anyone." },
@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "damage; loss (usually financial)",
     note: "Loss of money or property: 損害を与える / 受ける, 損害を出す, 損害賠償 (compensation for damages). 被害 is harm suffered by victims of a disaster or crime (被害者); 損害 focuses on the monetary loss.",
     rx: ["そんかい", "そうがい", "ぞんがい"],
-    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I thought I had done my very best, but the project failed and caused a huge loss, and that was the reason.", at: "ch/13" },
+    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but the project failed and caused heavy losses, and that was why.", at: "ch/13" },
     ex: [
       { ja: "{台風|たいふう}で{農作物|のうさくもつ}に{大|おお}きな**{損害|そんがい}**が{出|で}た。", en: "The typhoon caused heavy damage to the crops.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
@@ -61,7 +61,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "hot and humid; muggy",
     note: "Heat with high humidity, typical of the Japanese summer and the rainy season: 蒸し暑い夜. 蒸す alone also means it's muggy (今日は蒸すね). 暑苦しい is stuffy, oppressively hot, and can describe people or clothes that feel hot to look at.",
     rx: ["じょうしあつい", "むしあたい", "もしあつい"],
-    book: { ja: "**{蒸|む}し暑い**ある晩、{俺|おれ}は{散歩|さんぽ}していた。", en: "One hot, muggy night, I was taking a walk.", at: "ch/13" },
+    book: { ja: "**{蒸|む}し暑い**ある晩、{俺|おれ}は{散歩|さんぽ}していた。", en: "One hot, muggy night, I was out for a walk.", at: "ch/13" },
     ex: [
       { ja: "{梅雨|つゆ}の{時期|じき}は**{蒸|む}し{暑|あつ}い**{日|ひ}が{続|つづ}く。", en: "During the rainy season, one muggy day follows another.", alt: ["{分厚|ぶあつ}い", "{手厚|てあつ}い", "{心強|こころづよ}い"] },
     ] },
@@ -69,7 +69,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "detached house; a house standing on its own",
     note: "Also written 一軒家. It means a single house (not an apartment), and sometimes a lone house with no neighbors nearby. The common real-estate word is 一戸建て. 軒 is the counter for houses (一軒, 二軒).",
     rx: ["いちけんや", "いっけんか", "いっけんおく"],
-    book: { ja: "{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの**{一軒屋|いっけんや}**の2階の{窓|まど}に{明|あ}かりが見えた。", en: "As I walked along a pitch-dark road with hardly any houses, I saw a light in a second-floor window of a detached house up ahead.", at: "ch/13" },
+    book: { ja: "{住宅|じゅうたく}もほとんどない{真|ま}っ{暗|くら}な道を歩いていると、{向|む}こうの**{一軒屋|いっけんや}**の2階の{窓|まど}に{明|あ}かりが見えた。", en: "As I walked along a pitch-dark road with hardly a house on it, I saw a light in a second-floor window of a lone house up ahead.", at: "ch/13" },
     ex: [
       { ja: "{将来|しょうらい}は{庭|にわ}のある**{一軒屋|いっけんや}**に{住|す}みたい。", en: "Someday I'd like to live in a house of my own with a yard.", alt: ["{八百屋|やおや}", "{一人前|いちにんまえ}", "{本屋|ほんや}"] },
     ] },
@@ -77,7 +77,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "vacant house; empty house",
     note: "A house nobody lives in. More often written 空き家. Empty houses in the countryside are a social issue in Japan (空き家問題). 空き alone is used for vacancies in general: 空き部屋, 空き地 (vacant lot), 空き缶.",
     rx: ["からや", "くうか", "そらや"],
-    book: { ja: "「あれ？　{確|たし}かあそこは**{空家|あきや}**のはずだ」", en: "\"Huh? I'm sure that place is supposed to be empty.\"", at: "ch/13" },
+    book: { ja: "「あれ？　{確|たし}かあそこは**{空家|あきや}**のはずだ」", en: "\"Huh? I'm pretty sure that house is supposed to be empty.\"", at: "ch/13" },
     ex: [
       { ja: "{地方|ちほう}では**{空家|あきや}**が{増|ふ}えて{問題|もんだい}になっている。", en: "In rural areas, the growing number of empty houses has become a problem.", alt: ["{空席|くうせき}", "{空港|くうこう}", "{空気|くうき}"] },
     ] },
@@ -85,7 +85,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "suspicious; doubtful; questionable",
     note: "Something that seems wrong and makes you wary: 不審な人物 / 不審者 (a suspicious person), 不審に思う, 挙動不審 (acting suspiciously). Common in notices and news. 疑問 is a question you have; 不審 is suspicion that something is not right.",
     rx: ["ふじん", "ぶしん", "ふしむ"],
-    book: { ja: "**{不審|ふしん}**に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の{悲鳴|ひめい}が聞こえた。", en: "As I approached, feeling suspicious, I suddenly heard a young woman scream, \"Aaah!\"", at: "ch/13" },
+    book: { ja: "**{不審|ふしん}**に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の{悲鳴|ひめい}が聞こえた。", en: "Suspicious, I moved closer, and suddenly I heard a young woman scream: \"Aaah!\"", at: "ch/13" },
     ex: [
       { ja: "{駅|えき}で**{不審|ふしん}**な{荷物|にもつ}を{見|み}つけたら、{駅員|えきいん}に{知|し}らせてください。", en: "If you find a suspicious package at the station, please tell a station employee.", alt: ["{不安|ふあん}", "{不満|ふまん}", "{不利|ふり}"] },
     ] },
@@ -93,7 +93,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "scream; shriek; cry (of fear or pain)",
     note: "悲鳴を上げる (let out a scream) is the usual verb. Figuratively, 悲鳴を上げる also means to complain of being overwhelmed: 忙しさに悲鳴を上げる, うれしい悲鳴 (a 'happy problem', e.g. too many orders). 叫び声 is any shout.",
     rx: ["ひなき", "ひめ", "びめい"],
-    book: { ja: "{不審|ふしん}に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の**{悲鳴|ひめい}**が聞こえた。", en: "As I approached, feeling suspicious, I suddenly heard a young woman scream, \"Aaah!\"", at: "ch/13" },
+    book: { ja: "{不審|ふしん}に思いつつ近づいていくと、{突然|とつぜん}「キャー」という若い女性の**{悲鳴|ひめい}**が聞こえた。", en: "Suspicious, I moved closer, and suddenly I heard a young woman scream: \"Aaah!\"", at: "ch/13" },
     ex: [
       { ja: "{暗|くら}い{道|みち}で{突然|とつぜん}**{悲鳴|ひめい}**が{聞|き}こえた。", en: "Suddenly I heard a scream on the dark street.", alt: ["{悲劇|ひげき}", "{共鳴|きょうめい}", "{悲観|ひかん}"] },
     ] },
@@ -109,14 +109,14 @@ TRY.registerVocab({ ch: 13, words: [
     en: "foul; violation of the rules",
     note: "Breaking the rules, especially in sports: 反則をする, 反則負け (losing by disqualification), 反則を取られる (be called for a foul). Casually, それは反則だよ means 'that's not fair'. 違反 is used for laws and regulations (交通違反).",
     rx: ["はんぞく", "へんそく", "はんしょく"],
-    book: { ja: "ぼくは{審判|しんぱん}だから、**{反則|はんそく}**をしたのを（　）ことにするわけにはいかないよ。", en: "I'm the referee, so I can't pretend I didn't see the foul.", at: "gp/119" },
+    book: { ja: "ぼくは{審判|しんぱん}だから、**{反則|はんそく}**をしたのを（　）ことにするわけにはいかないよ。", en: "I'm the referee, so I can't very well pretend I didn't see the foul.", at: "gp/119" },
     ex: [
       { ja: "サッカーでは、{相手|あいて}を{手|て}で{押|お}すのは**{反則|はんそく}**だ。", en: "In soccer, pushing an opponent with your hands is a foul.", alt: ["{規則|きそく}", "{反省|はんせい}", "{反対|はんたい}"] },
     ] },
   { w: "ささやく", lv: "N1", pos: "verb (godan, intransitive/transitive)",
     en: "to whisper",
     note: "Kanji 囁く, usually written in kana. 耳元でささやく (whisper in someone's ear). The noun is ささやき. つぶやく is muttering to yourself (and also posting on social media); ささやく is speaking softly to someone.",
-    book: { ja: "会議中にちょっと**ささやいた**つもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "During the meeting I thought I was only whispering, but everyone heard me, and it was so embarrassing.", at: "gp/120" },
+    book: { ja: "会議中にちょっと**ささやいた**つもりが、みんなに聞こえてしまって、{恥|は}ずかしかったよ。", en: "I thought I was only whispering during the meeting, but everyone heard me. It was so embarrassing.", at: "gp/120" },
     ex: [
       { ja: "{彼女|かのじょ}は{私|わたし}の{耳元|みみもと}で「ありがとう」と**ささやいた**。", en: "She whispered \"thank you\" in my ear.", alt: ["うなずいた", "ふくらんだ", "ためらった"] },
     ] },
@@ -164,7 +164,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "descending a mountain; coming down from a mountain",
     note: "The opposite of 登山 (climbing). Note the reading げ for 下, as in 下車 (げしゃ) and 下校 (げこう). 山を下りる is the everyday way to say it.",
     rx: ["かざん", "したやま", "げさん"],
-    book: { ja: "**{下山|げざん}**できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "If we could, we'd get down the mountain as soon as possible, but we have no choice but to wait until the weather improves.", at: "gp/122" },
+    book: { ja: "**{下山|げざん}**できるものなら{一刻|いっこく}も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "We'd head down the mountain this minute if we could, but we have no choice but to wait until the weather improves.", at: "gp/122" },
     ex: [
       { ja: "{頂上|ちょうじょう}で{写真|しゃしん}を{撮|と}ってから、{昼|ひる}までに**{下山|げざん}**した。", en: "After taking pictures at the summit, we came down the mountain by noon.", alt: ["{下車|げしゃ}", "{火山|かざん}", "{下水|げすい}"] },
     ] },
@@ -172,14 +172,14 @@ TRY.registerVocab({ ch: 13, words: [
     en: "a moment; an instant (a very short time)",
     note: "Mainly in set phrases: 一刻も早く (as soon as possible, without a moment's delay), 一刻を争う (every second counts, urgent). Formal and emphatic; 一瞬 is an instant but is not used in 〜も早く.",
     rx: ["いちこく", "いっかく", "いっごく"],
-    book: { ja: "{下山|げざん}できるものなら**{一刻|いっこく}**も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "If we could, we'd get down the mountain as soon as possible, but we have no choice but to wait until the weather improves.", at: "gp/122" },
+    book: { ja: "{下山|げざん}できるものなら**{一刻|いっこく}**も早く{下山|げざん}したいが、{天候|てんこう}が{回復|かいふく}するまで待つしかない。", en: "We'd head down the mountain this minute if we could, but we have no choice but to wait until the weather improves.", at: "gp/122" },
     ex: [
       { ja: "けが{人|にん}を**{一刻|いっこく}**も{早|はや}く{病院|びょういん}に{運|はこ}ばなければならない。", en: "We have to get the injured person to the hospital as fast as possible.", alt: ["{一度|いちど}", "{一瞬|いっしゅん}", "{一部|いちぶ}"] },
     ] },
   { w: "かなう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to come true; to be realized (a wish or dream)",
     note: "Kanji 叶う, often written in kana. 夢 / 願い / 望みがかなう. The transitive is かなえる (make come true): 夢をかなえる. A homophone 敵う means 'to match, rival' (彼にはかなわない I'm no match for him).",
-    book: { ja: "{不老不死|ふろうふし}の願いが**かなう**ものなら、私はいくらでも金を出す。", en: "If my wish to never age and never die could come true, I'd pay any amount of money.", at: "gp/122" },
+    book: { ja: "{不老不死|ふろうふし}の願いが**かなう**ものなら、私はいくらでも金を出す。", en: "If my wish to never grow old and never die could really come true, I'd pay whatever it took.", at: "gp/122" },
     ex: [
       { ja: "{子|こ}どものころからの{夢|ゆめ}が、ついに**かなった**。", en: "My childhood dream finally came true.", alt: ["ととのった", "おさまった", "そろった"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "eternal youth and immortality",
     note: "Literally 'not aging, not dying', a 四字熟語 found in legends and stories: 不老不死の薬 (elixir of life). 不老長寿 is similar (long life without aging).",
     rx: ["ふろうふじ", "ぶろうふし", "ふろふし"],
-    book: { ja: "**{不老不死|ふろうふし}**の願いがかなうものなら、私はいくらでも金を出す。", en: "If my wish to never age and never die could come true, I'd pay any amount of money.", at: "gp/122" },
+    book: { ja: "**{不老不死|ふろうふし}**の願いがかなうものなら、私はいくらでも金を出す。", en: "If my wish to never grow old and never die could really come true, I'd pay whatever it took.", at: "gp/122" },
     ex: [
       { ja: "{昔|むかし}の{王|おう}は**{不老不死|ふろうふし}**の{薬|くすり}を{探|さが}し{求|もと}めたという。", en: "Kings of old are said to have searched for an elixir of eternal youth and immortality.", alt: ["{不眠不休|ふみんふきゅう}", "{一石二鳥|いっせきにちょう}", "{自給自足|じきゅうじそく}"] },
     ] },
@@ -201,7 +201,7 @@ TRY.registerVocab({ ch: 13, words: [
   { w: "うろうろ", lv: "N2", pos: "adverb · する verb",
     en: "wandering around aimlessly; hanging around",
     note: "Moving back and forth without a clear purpose, often because you are lost or unsure: 駅の前をうろうろする. It can sound suspicious (家の周りをうろうろしている男). ぶらぶら is strolling leisurely for fun.",
-    book: { ja: "{子犬|こいぬ}が渡ろうか渡るまいかと{小川|おがわ}の前で**うろうろ**している。", en: "A puppy is wandering back and forth in front of a stream, unsure whether to cross it or not.", at: "gp/123" },
+    book: { ja: "{子犬|こいぬ}が渡ろうか渡るまいかと{小川|おがわ}の前で**うろうろ**している。", en: "A puppy is pacing back and forth at the edge of a stream, trying to decide whether or not to cross.", at: "gp/123" },
     ex: [
       { ja: "{道|みち}に{迷|まよ}って、{駅|えき}の{周|まわ}りを30{分|ぷん}も**うろうろ**した。", en: "I got lost and wandered around the station for thirty minutes.", alt: ["ぐっすり", "にこにこ", "すっきり"] },
     ] },
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "dozing off; nodding off (while sitting)",
     note: "Falling asleep where you shouldn't, such as in class, at a meeting or on the train: 授業中に居眠りする, 居眠り運転 (falling asleep at the wheel). 昼寝 is a deliberate nap; 寝坊 is oversleeping.",
     rx: ["きょねむり", "いみん", "いねぶり"],
-    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "Our department head dozed off during the meeting, and I agonized over whether to wake them or not; in the end I didn't. What should I have done?", at: "gp/123" },
+    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "Our department head nodded off during the meeting. I agonized over whether or not to wake them, and in the end I didn't. What should I have done?", at: "gp/123" },
     ex: [
       { ja: "{授業中|じゅぎょうちゅう}に**{居眠|いねむ}り**をして、{先生|せんせい}に{注意|ちゅうい}された。", en: "I dozed off in class and got scolded by the teacher.", alt: ["{寝袋|ねぶくろ}", "{居留守|いるす}", "{寝相|ねぞう}"] },
     ] },
@@ -233,7 +233,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "early childhood; one's early years",
     note: "A written word for the period of being a small child: 幼少期を過ごす, 幼少期の体験. 幼い頃 or 子どもの頃 is the everyday way to say it. Related: 幼児 (small child), 幼稚園 (kindergarten).",
     rx: ["ようしょき", "よしょうき", "ようしょうご"],
-    book: { ja: "ここは、**{幼少期|ようしょうき}**から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを{築|きず}いた{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
+    book: { ja: "ここは、**{幼少期|ようしょうき}**から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを{築|きず}いた{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall for Matsushita, who was sent out to work as a small child and, after years of hardship, built Panasonic.", at: "gp/124" },
     ex: [
       { ja: "{彼|かれ}は**{幼少期|ようしょうき}**を{海外|かいがい}で{過|す}ごしたので、{英語|えいご}が{得意|とくい}だ。", en: "He spent his early childhood abroad, so he's good at English.", alt: ["{幼稚園|ようちえん}", "{少子化|しょうしか}", "{期限|きげん}"] },
     ] },
@@ -241,7 +241,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to build (up); to establish (a relationship, fortune, position)",
     note: "Originally building walls or castles (城を築く); now mostly abstract: 信頼関係を築く, 財産を築く (amass a fortune), 地位を築く, 幸せな家庭を築く. Don't confuse it with 気づく (notice), which sounds similar.",
     rx: ["ちくく", "きぞく", "つくく"],
-    book: { ja: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを**{築|きず}いた**{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall of Matsushita, who was sent out to work from early childhood and, after years of hardship, built Panasonic.", at: "gp/124" },
+    book: { ja: "ここは、{幼少期|ようしょうき}から働きに出され、{苦労|くろう}を{重|かさ}ねた（　）パナソニックを**{築|きず}いた**{松下|まつした}さんの{記念館|きねんかん}です。", en: "This is the memorial hall for Matsushita, who was sent out to work as a small child and, after years of hardship, built Panasonic.", at: "gp/124" },
     ex: [
       { ja: "お{客様|きゃくさま}との{信頼関係|しんらいかんけい}を**{築|きず}く**には{時間|じかん}がかかる。", en: "It takes time to build a relationship of trust with customers.", alt: ["{気|き}づく", "{近|ちか}づく", "{片|かた}づく"] },
     ] },
