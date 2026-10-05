@@ -232,7 +232,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{一切|いっさい}", lv: "N2", pos: "adverb · noun",
     en: "(not) at all, (none) whatsoever; everything, all",
-    note: "With a negative, a strong “not at all”: 一切関係ない, 一切受け付けません. As a noun, “all of it”: 一切を任せる. Same kanji read いっせつ in 一切衆生 (Buddhist). 全く is the milder everyday equivalent.",
+    note: "With a negative, a strong “not at all”: 一切関係ない, 一切受け付けません. As a noun, “all of it”: 一切を任せる. 全く is the milder everyday equivalent.",
     rx: ["いちせつ", "いっきり", "ひときり"],
     book: { ja: "**{一切|いっさい}**問題がなく", en: "without any problems whatsoever", at: "gp/94" },
     ex: [
@@ -248,7 +248,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{注|そそ}ぐ", lv: "N2", pos: "verb (transitive / intransitive)",
     en: "to pour; to devote (energy, love) to; to flow into; to fall (of rain, light)",
-    note: "力を注ぐ (put effort into), 愛情を注ぐ, 視線を注ぐ (fix one's gaze on); 川が海に注ぐ. つぐ (注ぐ) is used only for pouring a drink into a cup.",
+    note: "力を注ぐ (put effort into), 愛情を注ぐ, 視線を注ぐ (fix one's gaze on); 川が海に注ぐ. Read つぐ, 注ぐ is pouring a drink into a cup or glass (お茶をつぐ).",
     rx: ["ちゅうぐ", "そぞぐ", "そそく"],
     book: { ja: "彼は会社を経営するかたわら、スポーツの{振興|しんこう}にも力を**{注|そそ}いで**いる。", en: "Besides running a company, he also devotes his energy to promoting sports.", at: "gp/95" },
     ex: [
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["にんけん", "じんげん", "ひとけん"],
     book: { ja: "基本的**{人権|じんけん}**とは、人間が人間として（　）持っている権利のことです。", en: "Fundamental human rights are the rights that people have (　) simply as human beings.", at: "ch/8" },
     ex: [
-      { ja: "{表現|ひょうげん}の{自由|じゆう}は、{大切|たいせつ}な**{人権|じんけん}**の一つだ。", en: "Freedom of expression is one of the important human rights.", alt: ["{人件|じんけん}{費|ひ}", "{人格|じんかく}", "{人材|じんざい}"] },
+      { ja: "{表現|ひょうげん}の{自由|じゆう}は、{大切|たいせつ}な**{人権|じんけん}**の一つだ。", en: "Freedom of expression is an important human right.", alt: ["{人件|じんけん}{費|ひ}", "{人格|じんかく}", "{人材|じんざい}"] },
     ] },
   { w: "{表彰|ひょうしょう}", lv: "N1", pos: "noun · する verb",
     en: "official commendation, honoring (with an award)",
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{暴|あば}く", lv: "N1", pos: "verb (transitive)",
     en: "to expose, disclose, uncover (a secret, wrongdoing)",
-    note: "不正を暴く, 秘密を暴く, 正体を暴く. Stronger than 明らかにする — implies digging out what someone tried to hide. Also 墓を暴く (dig up a grave). The on-reading ぼう is in 暴力.",
+    note: "不正を暴く, 秘密を暴く, 正体を暴く. Stronger than 明らかにする — implies digging out what someone tried to hide. Also 墓を暴く (dig up a grave). The on-readings are ぼう (暴力) and ばく (暴露, exposure).",
     rx: ["あはく", "ぼうく", "あばける"],
     book: { ja: "不正を**{暴|あば}いた**ジャーナリストに対して、「交通事故に気をつけろ」といった＿＿めいた電話が毎日かかってくる。", en: "The journalist who exposed the wrongdoing gets ＿＿-like phone calls every day, saying things like “Watch out for traffic accidents.”", at: "gp/96" },
     ex: [
@@ -445,8 +445,8 @@ TRY.registerVocab({ ch: 8, words: [
       { ja: "ドアが{開|ひら}くと、{客|きゃく}は**{先|さき}を{争|あらそ}って**{店|みせ}に{入|はい}った。", en: "When the doors opened, the customers scrambled into the store.", alt: ["{後|あと}を{濁|にご}して", "{先|さき}が{見|み}えて", "{口|くち}を{割|わ}って"] },
     ] },
   { w: "{敢|あ}えて", lv: "N2", pos: "adverb",
-    en: "deliberately, dare to (do something unpleasant or risky); (not) necessarily",
-    note: "Choosing to do something despite difficulty: あえて反対する, あえて言わせてもらえば (if I may be so bold). With negatives: あえて〜ない (no need to …). Often written in kana.",
+    en: "deliberately, dare to (do something unpleasant or risky); (with a negative) not go so far as to",
+    note: "Choosing to do something despite difficulty: あえて反対する, あえて言わせてもらえば (if I may be so bold). With negatives: あえて〜ない (choose not to, not go out of one's way to …). Often written in kana.",
     rx: ["かんえて", "かえて", "あいて"],
     book: { ja: "国民の生命を守らんがため、彼は**{敢|あ}えて**危険を{伴|ともな}う{任務|にんむ}を引き受けた。", en: "Determined to protect the lives of the nation's people, he deliberately took on a mission fraught with danger.", at: "gp/100" },
     ex: [
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["しんねい", "しんれん", "しねん"],
     book: { ja: "{北里|きたざと}{氏|し}は鉄のごとき**{信念|しんねん}**をもって{新薬|しんやく}開発に取り組んでいる。", en: "Kitazato is working to develop new drugs with a conviction as firm as iron.", at: "gp/101" },
     ex: [
-      { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never bent his principles.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
+      { ja: "{彼|かれ}は{周囲|しゅうい}に{反対|はんたい}されても、自分の**{信念|しんねん}**を{曲|ま}げなかった。", en: "Even when those around him opposed him, he never compromised his convictions.", alt: ["{記念|きねん}", "{残念|ざんねん}", "{信用|しんよう}"] },
     ] },
   { w: "{押|お}し{寄|よ}せる", lv: "N1", pos: "verb (intransitive)",
     en: "to surge, rush in, throng; to close in on",
@@ -524,7 +524,7 @@ TRY.registerVocab({ ch: 8, words: [
     ex: [
       { ja: "セールの{初日|しょにち}、デパートに{大勢|おおぜい}の{客|きゃく}が**{押|お}し{寄|よ}せた**。", en: "On the first day of the sale, crowds of customers flooded into the department store.", alt: ["{呼|よ}び{寄|よ}せた", "{取|と}り{寄|よ}せた", "{押|お}し{付|つ}けた"] },
     ] },
-  { w: "{振|ふ}る{舞|ま}う", lv: "N1", pos: "verb",
+  { w: "{振|ふ}る{舞|ま}う", lv: "N1", pos: "verb (intransitive / transitive)",
     en: "to behave, act (in a certain way); to treat (someone) to (food, drink)",
     note: "明るく振る舞う, 大人のように振る舞う; also お酒を振る舞う (treat guests to sake). The noun 振る舞い is behavior; 行動 is action in general.",
     rx: ["ふるぶう", "しんるまう", "ぶるまう"],
@@ -610,7 +610,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["ほしん", "ほうじん", "ほうはり"],
     book: { ja: "社長が出した**{方針|ほうしん}**は部分的に賛成しかねる内容を含んでいたが、反対するわけにもいかず、{黙|だま}っていた。", en: "The policy the president put forward contained some points I couldn't agree with, but I couldn't very well oppose it, so I kept quiet.", at: "gp/105" },
     ex: [
-      { ja: "{来年度|らいねんど}の{営業|えいぎょう}**{方針|ほうしん}**が{発表|はっぴょう}された。", en: "The sales policy for next fiscal year was announced.", alt: ["{方角|ほうがく}", "{方言|ほうげん}", "{方程式|ほうていしき}"] },
+      { ja: "{来年度|らいねんど}の{営業|えいぎょう}**{方針|ほうしん}**が{発表|はっぴょう}された。", en: "The sales policy for the next fiscal year has been announced.", alt: ["{方角|ほうがく}", "{方言|ほうげん}", "{方程式|ほうていしき}"] },
     ] },
   { w: "{一存|いちぞん}", lv: "N1", pos: "noun",
     en: "one's own discretion or judgment (alone)",
@@ -654,7 +654,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{屈|くっ}する", lv: "N1", pos: "verb (intransitive)",
     en: "to yield, give in, submit (to pressure, power)",
-    note: "Takes に: 権力に屈する, 圧力に屈しない, 暴力に屈する. Written and dignified; 負ける is everyday. Mostly negative in form: 屈せず (without giving in).",
+    note: "Takes に: 権力に屈する, 圧力に屈しない, 暴力に屈する. Written and dignified; 負ける is everyday. Often negative in form: 屈せず (without giving in).",
     rx: ["くつする", "こっする", "ぐっする"],
     book: { ja: "最後まで{権力|けんりょく}に**{屈|くっ}せず**、{信念|しんねん}を{貫|つらぬ}いた彼女の生き方は、まさに{炎|ほのお}の＿＿一生だった。", en: "Never yielding to authority and holding to her convictions to the end, she lived a life truly like ＿＿ a flame.", at: "ch/8" },
     ex: [
@@ -760,7 +760,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["せいこ", "しょうこう", "せいごう"],
     book: { ja: "これだけ**{精巧|せいこう}**にできていると、", en: "When something is made this elaborately,", at: "ch/8/review" },
     ex: [
-      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills so finely made they can't be told from the real thing were found.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{精算|せいさん}"] },
+      { ja: "{本物|ほんもの}と{区別|くべつ}がつかないほど**{精巧|せいこう}**な{偽札|にせさつ}が{見|み}つかった。", en: "Counterfeit bills have turned up that are so finely made they can't be told from the real thing.", alt: ["{成功|せいこう}", "{精神|せいしん}", "{精算|せいさん}"] },
     ] },
   { w: "{見通|みとお}し", lv: "N1", pos: "noun",
     en: "outlook, prospects, forecast; visibility; insight (into)",
@@ -768,7 +768,7 @@ TRY.registerVocab({ ch: 8, words: [
     rx: ["みどおし", "けんとおし", "みつうし"],
     book: { ja: "研究のかたわらバイトすれば何とかなるだろうという**{見通|みとお}し**は甘く、", en: "my expectation that I'd somehow get by with a part-time job alongside my research proved too optimistic, and", at: "ch/8/review" },
     ex: [
-      { ja: "{工事|こうじ}の{完了|かんりょう}は、まだ**{見通|みとお}し**が{立|た}っていない。", en: "There is still no clear idea of when the construction will be finished.", alt: ["{見晴|みは}らし", "{見出|みだ}し", "{見直|みなお}し"] },
+      { ja: "{工事|こうじ}の{完了|かんりょう}は、まだ**{見通|みとお}し**が{立|た}っていない。", en: "There's still no telling when the construction will be finished.", alt: ["{見晴|みは}らし", "{見出|みだ}し", "{見直|みなお}し"] },
     ] },
   { w: "{腹|はら}をくくる", lv: "N1", pos: "expression (verb)",
     en: "to steel oneself, resolve to accept whatever comes",
@@ -801,7 +801,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{抜群|ばつぐん}", lv: "N1", pos: "な adjective · noun",
     en: "outstanding, excellent, far above the rest",
-    note: "抜群の成績, 運動神経抜群, 効果抜群 (extremely effective). Colloquial and positive. 優秀 describes people's ability; 抜群 can describe anything that stands out.",
+    note: "抜群の成績, 運動神経抜群, 効果抜群 (extremely effective). Always positive. 優秀 describes people's ability; 抜群 can describe anything that stands out.",
     rx: ["ばつくん", "ぬきぐん", "ばっぐん"],
     book: { ja: "{寿司|すし}職人は、今や、海外でも将来性**{抜群|ばつぐん}**の職業として注目されておりますが、", en: "Sushi chefs are now attracting attention even overseas as a profession with outstanding prospects, but", at: "ch/8/review" },
     ex: [
