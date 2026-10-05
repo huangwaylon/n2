@@ -306,7 +306,7 @@ TRY.registerLesson({
       "Next, how long does the climb take? On the Yoshida Route, for example, the route most people take, it takes about six hours to reach the summit. For that reason, most people stay the first night at a mountain hut near the summit, watch the sunrise from the top the next morning, and then descend. This sunrise is called goraikō. If you see a beautiful goraikō from the summit, it will be a memory you'll keep for the rest of your life.",
       "Also, if you join a climbing tour run by a travel agency, a guide will lead you, so even first-time climbers can feel at ease. Climbing Mount Fuji is popular, so book your tour and your mountain hut as early as possible.",
       "Once you have planned your climb, the next thing to think about is clothing. What should you wear for the climb? Just because it's summer doesn't mean it won't snow. The temperature at the summit can drop below freezing, so don't forget a down jacket, a sweater, or the like. You will also need sturdy climbing boots for walking on the rocky ground near the summit. For your safety, be sure to have them ready.",
-      "What else should you be careful about? There are few toilets on Mount Fuji, so it's best to go when you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Keeping the mountain clean is a rule every climber should follow.",
+      "What else should you be careful about? There are few toilets on Mount Fuji, so it's a good idea to go whenever you find one. Also, there are no trash cans on Mount Fuji, so be sure to take your own trash home with you. Keeping the mountain clean is a rule every climber should follow.",
       "People come to Mount Fuji not only from all over Japan but from all over the world. Prepare thoroughly, mind your manners, and enjoy the thrill of climbing Japan's highest mountain."
      ],
      "headTr": [
@@ -450,7 +450,7 @@ TRY.registerLesson({
       "“I want to enjoy good food and drinks at low prices,” “I want a chance to get to know my friends better,” and “I want to experience something distinctly Japanese.” At times like these, an izakaya is a good place to go. Chain izakaya in particular are numerous and popular with all kinds of customers: students, office workers on their way home, homemakers, families, and so on. What are people looking for when they go to an izakaya? I would like to explore what makes izakaya appealing by looking at their characteristics.",
       "The first characteristic is the wide variety of both food and drinks. Once you sit down and look at the menu, you will notice this right away. Like ordinary restaurants, they have salads and desserts, but they also have many dishes called otsumami that go well with drinks, such as edamame and karaage (fried chicken). Another difference is that you can order all kinds of alcohol besides beer and wine, such as sake and chūhai. There are also soft drinks such as juice and tea, so even people who can't drink alcohol can have a good time.",
       "A second characteristic we can point to is their low prices. Because both the food and the drinks are cheap, you don't have to worry about prices when you order. So even when you don't have much money, you can eat and drink without worrying. And people who drink a lot would do well to know about the system called nomihōdai (all-you-can-drink). With nomihōdai, you pay a fixed price and can then drink as much as you like of many kinds of alcohol within a set time, such as 90 minutes.",
-      "But above all, the biggest characteristic is that izakaya serve as places for socializing. Almost all of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings gives you a breather when you're tired and helps relieve stress. It is also a chance to get close to people you haven't talked with much.",
+      "But without a doubt, the biggest characteristic is that izakaya serve as places for socializing. Most of them have private rooms, so izakaya are very convenient for getting together in groups. For example, they are often used for university club nomikai (drinking parties) and for uchiage (wrap-up parties) after a company project or event. Bōnenkai (year-end parties) at the end of the year and shinnenkai (New Year parties) at the start of the year are held there, too. Chatting away together at such gatherings gives you a breather when you're tired and helps relieve stress. It is also a chance to get close to people you haven't talked with much.",
       "In short, a place where you can enjoy good food and drinks at low prices and deepen your ties with others: that is the izakaya. I hope you, too, will make a point of going to an izakaya at least once and experiencing its unique atmosphere for yourself."
      ]
     },
@@ -561,7 +561,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "Kyoto is a city that is very popular with tourists. Here I would like to introduce what makes Kyoto special.",
-        "Kyoto's greatest feature is that you can feel Japan's history there. Because it was Japan's capital for more than 1,000 years, it has many old temples and shrines. You can also enjoy traditional Japanese culture, such as Japanese cuisine and age-old festivals."
+        "Kyoto's greatest feature is that you can feel Japan's history there. Thanks to having been Japan's capital for more than 1,000 years, it has many old temples and shrines. You can also enjoy traditional Japanese culture, such as Japanese cuisine and age-old festivals."
        ]
       },
       {
@@ -1106,7 +1106,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XためY** states a cause in a factual, impersonal way: announcements, news, reports and formal explanations. 台風のため、電車が遅れております sounds like a station; 台風だから is conversation.\n\n- Y reports a result. Requests, suggestions and intentions sound wrong after it: ✗雨のため、傘を持っていってください → 雨なので….\n- After a volitional verb, the same ため（に） means *in order to* (L1-5): 留学するために貯金する. A past event or a state (遅れた, 寒かった, 不便な, Nの) gives a cause.\n- そのため starts a sentence: *for that reason* (Reading 1, lines 20–21).\n\nTRY! N1 #113 〜がゆえ(に) is a literary relative; TRY! N2 #48 〜ばかりに adds regret: *just because*."
+     "deepDive": "**XためY** states a cause in a factual, impersonal way: announcements, news, reports and formal explanations. 台風のため、電車が遅れております sounds like a station; 台風だから is conversation.\n\n- Y reports a result. In conversation, a request or suggestion after it sounds stiff; use ので: 雨なので、傘を持っていってね. Notices do pair it with requests: 混雑が予想されるため、公共交通機関をご利用ください.\n- After a volitional verb, the same ため（に） means *in order to* (L1-5): 留学するために貯金する. A past event or a state (遅れた, 寒かった, 不便な, Nの) gives a cause.\n- そのため starts a sentence: *for that reason* (Reading 1, lines 20–21).\n\nTRY! N1 #113 〜がゆえ(に) is a literary relative; TRY! N2 #48 〜ばかりに adds regret: *just because*."
     },
     {
      "t": "note",
@@ -1155,7 +1155,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "おもしろかったよ。人**によって**感じ方は違うかもしれないけど。",
-           "tr": "It was good. Though how people feel about it probably depends on the person."
+           "tr": "It was good. People might see it differently, though."
           }
          ]
         },
@@ -1348,7 +1348,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vるべきだ** states what is right or proper as a general judgment: how people ought to behave. It is firmer than 〜たほうがいい, which is advice for one situation.\n\n- Negative: べきではない, not ✗Vないべきだ. Past: べきだった (*should have*), usually with regret: もっと早く言うべきだった.\n- Before a noun: 守るべきルール (*a rule to be observed*, Reading 1, line 38). In a question, 着ていくべきでしょうか asks what is proper (line 29).\n- Said to the listener it sounds like a lecture (example 4); 〜たほうがいいよ is softer.\n\nTRY! N1 teaches its written relatives #111 〜べからず (*do not*, on signs) and #90 Vべく (*in order to*). For advice, compare TRY! N2 #87 〜ことだ."
+     "deepDive": "**Vるべきだ** states what is right or proper as a general judgment: how people ought to behave. It is firmer than 〜たほうがいい, which is advice for one situation.\n\n- Negative: べきではない, not ✗Vないべきだ. Past: べきだった (*should have*), usually with regret: もっと早く言うべきだった.\n- Before a noun: 守るべきルール (*a rule to be observed*, Reading 1, line 38). In a question, 着ていくべきでしょうか asks what is proper (line 29).\n- Said to the listener it can come across as a lecture (example 4); 〜たほうがいいよ is softer.\n\nTRY! N1 teaches its written relatives #111 〜べからず (*do not*, on signs) and #90 Vべく (*in order to*). For advice, compare TRY! N2 #87 〜ことだ."
     },
     {
      "t": "note",
@@ -1726,7 +1726,7 @@ TRY.registerLesson({
      ],
      "tr": [
       "Takayama, in Gifu Prefecture, is an old and beautiful town. Many historic buildings remain there, and it is known as \"Little Kyoto.\"",
-      "If you go to Takayama, I'd like you to first try walking along the streets with old buildings. You will probably feel as if you were strolling through the Edo period. Along those old streets there are many shops selling traditional crafts and the like, so it might be fun to hunt for chopsticks, dolls, or other things that catch your eye.",
+      "If you go to Takayama, I'd like you to start by walking down the streets lined with old buildings. You will probably feel as if you were strolling through the Edo period. Along those old streets there are many shops selling traditional crafts and the like, so it might be fun to hunt for chopsticks, a doll, or something else you fall in love with.",
       "It would also be nice to tour a house built more than 100 years ago. There you can actually experience what country life was like long ago, and try your hand at making traditional crafts. When you want to forget the busy life of today, why not visit Takayama and get a feel for old Japan?",
       "Getting to Takayama\n・From Nagoya: about 2 and a half hours by train / about 2 hours by car\n・From Osaka: about 4 hours by train / about 4 hours by car\n・From Tokyo: about 4 hours by Shinkansen and train"
      ],
@@ -1857,7 +1857,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "高山に行ったら、まず古い{建物|たてもの}がある通りを歩いてみてほしい。",
-           "tr": "If you go to Takayama, I hope you'll start by taking a walk along the streets lined with old buildings."
+           "tr": "If you go to Takayama, I'd like you to start by walking down the streets lined with old buildings."
           }
          ]
         },
@@ -2977,7 +2977,7 @@ TRY.registerLesson({
            "who": "あなた",
            "text": {
             "ja": "レストランでセットメニューを注文しようと思います。\nセットの{内容|ないよう}を店員さんに質問してから注文しなさい。\n食後に飲み物が飲みたくなりました。\n{追加|ついか}の注文 (additional order) をしなさい。",
-            "tr": "You want to order a set meal at a restaurant. Ask the server what comes with the set, and then order.\nAfter your meal, you feel like having a drink. Place an additional order."
+            "tr": "You want to order a set meal at a restaurant. Ask the server what comes with the set, and then order.\nYou decide you'd like a drink after the meal. Place an additional order."
            }
           },
           {
@@ -3726,7 +3726,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "① 下のメニューを見て、デザートを追加で注文しなさい。\n② あなたは、そのデザートに入っているもの（例：ミント [mint]）が{苦手|にがて}です。店員に{希望|きぼう}を言いなさい。",
-        "tr": "① Look at the menu below and order a dessert in addition.\n② You don't like something that's in that dessert (e.g., mint). Tell the server your request."
+        "tr": "① Look at the menu below and add a dessert to your order.\n② You don't like something that's in that dessert (e.g., mint). Tell the server your request."
        },
        "blocks": [
         {
@@ -4142,19 +4142,19 @@ TRY.registerLesson({
        },
        {
         "ja": "多い",
-        "tr": "Many"
+        "tr": "Heavy"
        },
        {
         "ja": "ふつう",
-        "tr": "Average"
+        "tr": "Moderate"
        },
        {
         "ja": "少ない",
-        "tr": "Few"
+        "tr": "Light"
        },
        {
         "ja": "少ない",
-        "tr": "Few"
+        "tr": "Light"
        }
       ]
      ],
