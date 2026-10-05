@@ -76,7 +76,7 @@ TRY.registerVocab({ lesson: 7, lists: [
     { n: 8, w: "多国籍な", ex: "いろいろな国の人がいる多国籍な大学に行きたい。", tr: "I want to go to a multinational university with people from many different countries." },
     { n: 9, w: "刺激（する）", ex: "そのホラー映画は子どもには刺激が強すぎる。", tr: "That horror movie is too intense for children." },
     { n: 10, w: "[〜に]与える", ex: "彼は私に大きな影響を与えてくれた人です。", tr: "He is someone who had a big influence on me." },
-    { n: 11, w: "逆に", ex: "1月の日本は冬で寒いが、逆にオーストラリアは夏で暑い。", tr: "In January it's winter and cold in Japan, but in Australia, on the contrary, it's summer and hot." },
+    { n: 11, w: "逆に", ex: "1月の日本は冬で寒いが、逆にオーストラリアは夏で暑い。", tr: "In January it's winter and cold in Japan, but in Australia, conversely, it's summer and hot." },
     { n: 12, w: "{不|ふ}{快|かい}な", ex: "暑い日に{満員|まんいん}電車に乗ると、とても{不|ふ}{快|かい}に感じる。", tr: "Riding a packed train on a hot day feels really unpleasant." },
     { n: 13, w: "思い切って", ex: "「好き」という自分の気持ちを思い切って彼女に伝えた。", tr: "I took the plunge and told her that I liked her." },
     { n: 14, w: "{互|たが}い", ex: "{互|たが}いをよく知るために、2人で長時間話し合った。", tr: "The two of us talked for a long time to get to know each other well." },

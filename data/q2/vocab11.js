@@ -74,7 +74,7 @@ TRY.registerVocab({ lesson: 11, lists: [
       { n: 2, w: "誠実に", ex: "彼は誠実に仕事に取り組むので、大事な仕事をよく任される。", tr: "He approaches his work sincerely, so he is often entrusted with important jobs." },
       { n: 3, w: "具体的な", ex: "説明する時は、具体的な例を挙げたほうがわかりやすい。", tr: "When you explain something, it is easier to understand if you give concrete examples." },
       { n: 4, w: "[〜に]要求（する）", ex: "社員の代表が社長に給料を上げるように要求した。", tr: "The employees' representative demanded that the president raise their salaries." },
-      { n: 5, w: "迷惑（する）", ex: "約束の時間に遅れて、友達に迷惑をかけてしまった。", tr: "I was late for our appointment and caused my friend trouble." },
+      { n: 5, w: "迷惑（する）", ex: "約束の時間に遅れて、友達に迷惑をかけてしまった。", tr: "I was late for our appointment and inconvenienced my friend." },
       { n: 6, w: "[〜に]任せる", ex: "部長は部下にそのプロジェクトを全部任せた。", tr: "The department manager left the whole project to their team." },
       { n: 7, w: "したがって", ex: "これはコーラではなく酒だ。したがって、子どもに与えてはいけない。", tr: "This is not cola but alcohol. Therefore, you must not give it to children." },
       { n: 8, w: "結構な", ex: "「面接はスーツではなく私服で結構です」と言われたので、何を着ていったらいいか{困|こま}った。", tr: "I was told, \"For the interview, casual clothes are fine instead of a suit,\" so I didn't know what to wear." },

@@ -107,7 +107,7 @@ TRY.registerVocab({ lesson: 12, lists: [
       { n: 7, w: "[〜が]壊れる", ex: "パソコンが壊れてしまい、レポートが書けません。", tr: "My computer broke, so I can't write my report." },
       { n: 8, w: "危険な", ex: "危険な場所には行かないでください。", tr: "Please don't go to dangerous places." },
       { n: 9, w: "[〜に]向く", ex: "細かい気づかいができる人は接客の仕事に向いている。", tr: "People who are thoughtful about the little things are well suited to customer service jobs." },
-      { n: 10, w: "維持（する）", ex: "{健康|けんこう}を維持するためには、食事と運動が大切だ。", tr: "To stay healthy, diet and exercise are important." },
+      { n: 10, w: "維持（する）", ex: "{健康|けんこう}を維持するためには、食事と運動が大切だ。", tr: "Diet and exercise are important for staying healthy." },
       { n: 11, w: "経営（する）", ex: "将来カフェを経営するのが夢です。", tr: "My dream is to run a café someday." },
       { n: 12, w: "目指す", ex: "兄は海外の大学院に入ることを目指している。", tr: "My older brother is aiming to get into a graduate school abroad." },
       { n: 13, w: "肯定感", ex: "自己肯定感が低い人は「私はだめだ」とすぐ考える。", tr: "People with low self-esteem are quick to think, \"I'm no good.\"" },
