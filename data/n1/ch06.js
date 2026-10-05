@@ -15,10 +15,10 @@ TRY.registerChapter({
           { ja: "皆様、{本日|ほんじつ}はお忙しい**ところを**お集まりいただき、{誠|まこと}にありがとうございます。", en: "Thank you all very much for taking time out of your busy schedules to be here today." },
           { cont: true, ja: "先ほどは、社長より{激励|げきれい}のお言葉をいただき、{感激|かんげき}**の{至|いた}り**です。", en: "I am deeply moved by the words of encouragement the president gave me just now." },
           { ja: "{私|わたくし}、{本日|ほんじつ}3月31日**をもって**、本社での研修を終了し、来週ベトナムへ帰ります。", en: "As of today, March 31, my training at the head office comes to an end, and next week I will be returning to Vietnam." },
-          { cont: true, ja: "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。", en: "Unaccustomed as I was to everything, I caused you all trouble during my training, yet you guided me so warmly; I cannot thank you enough." },
-          { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what a true company employee ought to be." },
-          { cont: true, ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい**限りです**。", en: "After I return home I will be working at the Hanoi branch, but with the launch of a joint project with the head office, I am truly delighted that I will be able to go on working with all of you." },
-          { cont: true, ja: "まだまだ皆様に助けていただくことも多いと思いますので、今後ともどうぞよろしくお願いいたします。", en: "I am sure there will still be many times when I need your help, so I humbly ask for your continued support in the future." },
+          { cont: true, ja: "研修期間中は慣れない**こととて**皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の{念|ねん}**にたえません**。", en: "Unaccustomed as I was to everything, I caused you all trouble during my training, and I cannot thank you enough for guiding me so warmly." },
+          { cont: true, ja: "皆様の{誠実|せいじつ}で{丁寧|ていねい}な仕事ぶりから社員**たる**{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what a company employee worthy of the name ought to be." },
+          { cont: true, ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい**限りです**。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working with all of you." },
+          { cont: true, ja: "まだまだ皆様に助けていただくことも多いと思いますので、今後ともどうぞよろしくお願いいたします。", en: "I am sure there will still be many times when I need your help, so I humbly ask for your continued support." },
         ],
       },
       points: [
@@ -36,9 +36,9 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。", en: "We apologize for the discomfort in this heat, but to save electricity, the air conditioning has been set to 28°C." },
-            { ja: "お急ぎのところ、電車、遅れまして、大変ご{迷惑|めいわく}をおかけしましたことをお{詫|わ}びいたします。", en: "We sincerely apologize to those of you in a hurry for the delay to this train and the great inconvenience it has caused." },
+            { ja: "お急ぎのところ、電車、遅れまして、大変ご{迷惑|めいわく}をおかけしましたことをお{詫|わ}びいたします。", en: "To those of you in a hurry, we sincerely apologize for this train's delay and the great inconvenience it has caused." },
             { ja: "作業中のところ悪いんだけど、これ、コピーしてきてくれる？", en: "Sorry to interrupt your work, but could you go make a copy of this for me?" },
-            { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。", en: "By rights I should have come to see you, so I'm very much obliged that you took the trouble to come here yourself." },
+            { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて{恐縮|きょうしゅく}です。", en: "By rights I should have been the one to visit you. I'm so sorry to have put you to the trouble of coming here yourself." },
           ],
           deepDive: "**〜ところ（を）** uses ところ as *the circumstances you are in*: before thanking, apologizing or asking, the speaker first acknowledges the listener's situation. お忙しいところをお集まりいただき (*thank you for gathering, busy as you are*).\n\nConnection: い-adjective + ところ（を） (お忙しい, 遠い, お暑い), N + の + ところ（を） (お休みの, ご多忙の, 作業中の), and V + べきところを (本来ならこちらから伺うべきところを *when by rights I should have come to you*). お / ご is typical because the situation is the listener's. ところを is more formal; ところ alone is common in speech and can be casual (作業中のところ悪いんだけど).\n\nThe main clause is thanks, an apology or a request aimed at the listener, not something for the speaker's own convenience (?お休みのところ、休ませてください).\n\nCompare:\n- **V-たところ**: *when I did ~, I found* (調べたところ、誤りが見つかった).\n- **〜ところを見られる**: *be seen doing* (盗むところを見られた).\n- **〜たところで** (#77): *even if ~, it's no use*, an unrelated pattern.\n\nJLPT cue: お忙しい / お休みの + blank + ありがとう / すみません / 恐縮です points to ところ（を）.",
           see: [77],
@@ -165,7 +165,7 @@ TRY.registerChapter({
             { ja: "先日は責任者{不在|ふざい}のこととて十分な対応ができず、{申|もう}し{訳|わけ}ございませんでした。", en: "We sincerely apologize that the other day, as the person in charge was away, we were unable to assist you properly." },
             { ja: "{新人|しんじん}のこととて失礼があったらお許しください。", en: "I'm still new here, so please forgive me if I'm impolite in any way." },
             { ja: "日曜日のこととて社内には{人影|ひとかげ}もなく、しんと静まりかえっていた。", en: "It being Sunday, there wasn't a soul in the office, and the whole place was utterly silent." },
-            { ja: "昨年お父様が亡くなられたとか。知らぬこととて、お{悔|く}やみも申し上げず大変失礼いたしました。", en: "I hear your father passed away last year. Not having known, I never even offered my condolences; it was very remiss of me." },
+            { ja: "昨年お父様が亡くなられたとか。知らぬこととて、お{悔|く}やみも申し上げず大変失礼いたしました。", en: "I hear your father passed away last year. I didn't know, and so I never even offered my condolences — that was very remiss of me." },
           ],
           deepDive: "**〜こととて** is an old-fashioned, formal *since, as*. The reason is presented as an unavoidable circumstance, which is why it appears mostly in apologies and requests for forgiveness: 慣れないこととてご迷惑をおかけしました (*being new to everything, I caused you trouble*).\n\nConnection: N + の + こととて (新人のこととて, 田舎のこととて) and V-ない + こととて, often with the classical negative ぬ; 知らぬこととて (*not knowing, I failed to…*) is almost a set phrase. In narrative it can simply explain a state (日曜日のこととて社内には人影もなく *it being Sunday, there wasn't a soul in the office*).\n\nThe second half is an apology, a plea for forgiveness or a description, not the speaker's intention or an ordinary request (?新人のこととて、手伝ってください). The reason is a circumstance, not a choice.\n\nCompare:\n- **〜がゆえ（に）** (#113): written, logical *because*, not specifically apologetic.\n- **〜とあって** (#2): explains a special situation or crowd reaction (連休とあって道が混んでいる).\n- **〜もので** (N2 level): the colloquial excuse.\n\nPitfall: a noun needs の (✗年末こととて).\n\nJLPT cue: 知らぬ / 慣れない / N + の + blank, followed by 失礼, ご迷惑 or お許し, points to こととて.",
           see: [113, 2],
@@ -255,9 +255,9 @@ TRY.registerChapter({
           bank: ["をもちまして", "たる", "限り", "にたえません"],
           items: [
             { q: "初級で習った漢字なのに読めないなんて、恥ずかしい＿＿だ。", answer: "限り", en: "I can't even read kanji I learned at the beginner level — how utterly embarrassing.", why: { en: "恥ずかしい is a feeling adjective, and adjective + 限りだ states the speaker's feeling at its height (#71). にたえません needs a noun, and たる and をもちまして don't follow adjectives." } },
-            { q: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", answer: "にたえません", en: "We have safely reached the 100th anniversary of our founding today, and all of us on the staff are filled with joy.", why: { en: "喜び is an emotion noun, and N + にたえません is the formal *we are filled with ~* of a ceremonial speech (#69). 限り would need an adjective (喜ばしい限り)." } },
+            { q: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", answer: "にたえません", en: "Today we have reached the 100th anniversary of our founding without mishap, and all of us on the staff are filled with joy.", why: { en: "喜び is an emotion noun, and N + にたえません is the formal *we are filled with ~* of a ceremonial speech (#69). 限り would need an adjective (喜ばしい限り)." } },
             { q: "お電話でのお問い合わせは{本日|ほんじつ}6時＿＿終了させていただきました。", answer: "をもちまして", en: "We stopped accepting telephone inquiries as of 6:00 today.", why: { en: "A time + をもちまして marks the point at which a service ended (#67), and 終了させていただきました confirms the ending." } },
-            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone who is a hotel manager isn't up to the job unless they can deal properly even with difficult guests.", why: { en: "Status noun + たる者 + what the role demands (〜できなければ務まらない) is #70. 限り needs a feeling adjective, にたえません an emotion noun, and をもちまして a time or event." } },
+            { q: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", answer: "たる", en: "Anyone in the position of hotel manager has to be able to deal properly even with difficult guests; otherwise they aren't up to the job.", why: { en: "Status noun + たる者 + what the role demands (〜できなければ務まらない) is #70. 限り needs a feeling adjective, にたえません an emotion noun, and をもちまして a time or event." } },
           ],
         },
         {
@@ -338,7 +338,7 @@ TRY.registerChapter({
             pieces: ["{本年度|ほんねんど}の", "以上", "をもちまして", "卒業式"],
             order: [1, 2, 0, 3],
             star: 2,
-            en: "And now, with that, I declare this year's graduation ceremony closed.",
+            en: "With that, I now declare this year's graduation ceremony closed.",
             why: { en: "以上をもちまして本年度の卒業式を閉会いたします: 以上をもちまして (*with that*, #67) marks the end point, and 本年度の modifies 卒業式, the object of 閉会いたします." },
           },
           {
@@ -370,7 +370,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of the blanks [1] to [4]." },
         title: "",
         text: ["（{拍手|はくしゅ}）……いやあ、いつになく出席者が多いですね……。（会場から笑い）\n今日はOBの{諸君|しょくん}も忙しい[1]、わざわざ足を運んでくれているようで、{誠|まこと}に{嬉|うれ}しい[2]です。", "えー、{本日|ほんじつ}、この講義[3]、{本学|ほんがく}を{去|さ}ることになるわけですが、最後に、「水」というものを取り上げまして、私の35年間の{締|し}めくくりとしたいと思います。", "さて、水は、私たちが生きる上で[4]、その一方で、生命を{脅|おびや}かすものでもあります。それでは……"],
-        en: ["(Applause) …Well, well, there are a lot more people here than usual… (Laughter from the audience)\nIt seems that you alumni, too, have taken the trouble to come today, busy as you are. I am truly delighted.", "Er, as you know, with today's lecture I will be leaving this university, so to close I would like to take up the subject of “water” to round off my 35 years here.", "Now, water is indispensable to our lives, but on the other hand it is also something that threatens life. Well then…"],
+        en: ["(Applause) …Well, well, there are a lot more people here than usual… (Laughter from the audience)\nIt seems that you alumni, too, have taken the trouble to come today, busy as you are. I am truly delighted.", "Er, as you know, with today's lecture I will be leaving this university, and as a final topic to round off my 35 years here, I would like to take up “water”.", "Now, water is indispensable to our lives, but on the other hand it is also something that threatens life. Well then…"],
         blanks: [
           {
             options: ["こととて", "ところ", "というより", "限り"],
@@ -408,7 +408,7 @@ TRY.registerChapter({
             script: [
               { sp: "M", v: "m", ja: "えー、{本日|ほんじつ}をもちまして、社長に{就任|しゅうにん}いたしました{上田|うえだ}です。{我|わ}が{社|しゃ}は今、経営が{厳|きび}しい{状態|じょうたい}です。今は{我|わ}が{社|しゃ}の得意分野に集中し、経営を安定させなければなりません。広げすぎた{事業|じぎょう}は整理しますが、社員を減らすことは考えていません。大きな{変革|へんかく}のこととて、困難が予想されますが、皆様とともに{歩|あゆ}めることは{心強|こころづよ}い限りです。" },
             ],
-            en: ["Er, I'm Ueda, and as of today I have taken office as president. Our company's business is currently struggling. For now we must concentrate on our areas of strength and put the business on a stable footing. We will consolidate the businesses we expanded too far, but we have no plans to cut staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."],
+            en: ["Er, I'm Ueda, and as of today I have taken office as president. Our company's business is currently struggling. For now we must concentrate on our areas of strength and put the business on a stable footing. We will scale back the operations we expanded too far, but we have no plans to cut staff. As this is a major reform, difficulties are to be expected, but it is truly reassuring to be able to move forward together with all of you."],
             options: ["{社員|しゃいん}を{集|あつ}める", "{経営|けいえい}を{安定|あんてい}させる", "{事業|じぎょう}を{広|ひろ}げる", "{社員|しゃいん}を{減|へ}らす"],
             optionsEn: ["Gather employees", "Stabilize the business", "Expand operations", "Reduce staff"],
             answer: 1,

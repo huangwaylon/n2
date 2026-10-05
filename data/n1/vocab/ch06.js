@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "feeling; sense (of gratitude, respect, etc.); (also) care, attention",
     note: "Formal word for a deep feeling, in 〜の念: 感謝の念, 尊敬の念, 後悔の念, 自責の念. Also 'attention to detail' in 念のため (just to be sure), 念を入れる, 念を押す (make sure).",
     rx: ["ねい", "めん", "なん"],
-    book: { ja: "研修期間中は慣れないこととて皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の**{念|ねん}**にたえません。", en: "Unaccustomed as I was to everything, I caused you all trouble during my training, yet you guided me so warmly; I cannot thank you enough.", at: "ch/6" },
+    book: { ja: "研修期間中は慣れないこととて皆様にご{迷惑|めいわく}をおかけいたしましたが、温かくご指導いただきまして感謝の**{念|ねん}**にたえません。", en: "Unaccustomed as I was to everything, I caused you all trouble during my training, and I cannot thank you enough for guiding me so warmly.", at: "ch/6" },
     ex: [
       { ja: "{命|いのち}を{救|すく}ってくれた{医師|いし}に、{深|ふか}い{感謝|かんしゃ}の**{念|ねん}**を{抱|いだ}いている。", en: "I feel deep gratitude toward the doctor who saved my life.", alt: ["{値|あたい}", "{札|ふだ}", "{数|かず}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "sincere; honest; faithful",
     note: "Describes a person or their conduct as honest and conscientious: 誠実な人柄, 誠実に対応する, 誠実さ. 誠意 is the noun for sincerity shown toward someone; 正直 is simply not lying.",
     rx: ["せいじち", "しんじつ", "せいしつ"],
-    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what a true company employee ought to be.", at: "ch/6" },
+    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what a company employee worthy of the name ought to be.", at: "ch/6" },
     ex: [
       { ja: "{彼|かれ}は{口下手|くちべた}だが、**{誠実|せいじつ}**な{人柄|ひとがら}で{客|きゃく}から{信頼|しんらい}されている。", en: "He isn't a smooth talker, but customers trust him because he's honest.", alt: ["{切実|せつじつ}", "{確実|かくじつ}", "{充実|じゅうじつ}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "work; duty; being employed (at a place)",
     note: "Formal word for working at one's job or workplace: 本社に勤務する, 勤務時間, 勤務先 (one's employer), 夜間勤務. 勤める is the verb; 勤務 is its formal noun, common on forms and in announcements.",
     rx: ["きんぶ", "ぎんむ", "きんも"],
-    book: { ja: "帰国後は、ハノイ支店にて**{勤務|きんむ}**することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but with the launch of a joint project with the head office, I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
+    book: { ja: "帰国後は、ハノイ支店にて**{勤務|きんむ}**することになりますが、本社との合同プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
     ex: [
       { ja: "{父|ちち}は30{年間|ねんかん}、{同|おな}じ{銀行|ぎんこう}に**{勤務|きんむ}**した。", en: "My father worked at the same bank for thirty years.", alt: ["{任務|にんむ}", "{義務|ぎむ}", "{業務|ぎょうむ}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "joint; combined; union",
     note: "Two or more groups doing something together: 合同練習, 合同会社, 合同で開催する. 共同 is sharing something (共同作業, 共同生活); 合同 stresses separate groups coming together.",
     rx: ["ごうとう", "がっどう", "ごどう"],
-    book: { ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との**合同**プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but with the launch of a joint project with the head office, I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
+    book: { ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との**合同**プロジェクトが立ち上がり、引き続き皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
     ex: [
       { ja: "{近|ちか}くの{3校|さんこう}が**{合同|ごうどう}**で{運動会|うんどうかい}を{開|ひら}くことになった。", en: "Three nearby schools have decided to hold a joint sports day.", alt: ["{同行|どうこう}", "{合計|ごうけい}", "{同様|どうよう}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "continuing; continuously; (and) next, following that",
     note: "Something goes on without a break, or follows right after: 引き続きよろしくお願いします (a standard business closing: 'I look forward to our continued relationship'), 引き続き〜をお伝えします.",
     rx: ["いんきつづき", "ひきづつき", "ひきぞくき"],
-    book: { ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、**引き続き**皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but with the launch of a joint project with the head office, I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
+    book: { ja: "帰国後は、ハノイ支店にて{勤務|きんむ}することになりますが、本社との合同プロジェクトが立ち上がり、**引き続き**皆様と一緒に仕事ができることは、うれしい限りです。", en: "After I return home I will be working at the Hanoi branch, but a joint project with the head office has been launched, and I am truly delighted that I will be able to go on working with all of you.", at: "ch/6" },
     ex: [
       { ja: "{来年度|らいねんど}も**{引|ひ}き{続|つづ}き**、{同|おな}じメンバーで{活動|かつどう}する{予定|よてい}です。", en: "We plan to keep going next year with the same members.", alt: ["{引|ひ}き{換|か}え", "{立|た}て{続|つづ}け", "{差|さ}し{支|つか}え"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "founding; establishment (of a school or company)",
     note: "Founding an organization that lasts: 創立記念日, 創立100周年, 創立者. 設立 is the legal act of setting up a company; 創立 is used mostly for anniversaries of schools and companies.",
     rx: ["そうりゅう", "そりつ", "しょうりつ"],
-    book: { ja: "{本日|ほんじつ}このように無事に**{創立|そうりつ}**100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", en: "Today we have safely reached the 100th anniversary of our founding, and all of us at the company (＿＿) with joy.", at: "ch/6" },
+    book: { ja: "{本日|ほんじつ}このように無事に**{創立|そうりつ}**100周年を迎えられ、社員{一同|いちどう}喜び＿＿。", en: "Today we have reached the 100th anniversary of our founding without mishap, and all of us at the company (＿＿) with joy.", at: "ch/6" },
     ex: [
       { ja: "この{学校|がっこう}は、**{創立|そうりつ}**{以来|いらい}150{年|ねん}の{歴史|れきし}を{持|も}っている。", en: "This school has a 150-year history dating back to its founding.", alt: ["{起立|きりつ}", "{創造|そうぞう}", "{自立|じりつ}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "all (the members); everyone concerned",
     note: "Formal word for all the people of a group, often right after the group's name: 社員一同, 家族一同, 一同礼 (all bow). Common at the end of formal letters and in speeches.",
     rx: ["いちとう", "いっどう", "いちど"],
-    book: { ja: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員**{一同|いちどう}**喜び＿＿。", en: "Today we have safely reached the 100th anniversary of our founding, and all of us at the company (＿＿) with joy.", at: "ch/6" },
+    book: { ja: "{本日|ほんじつ}このように無事に{創立|そうりつ}100周年を迎えられ、社員**{一同|いちどう}**喜び＿＿。", en: "Today we have reached the 100th anniversary of our founding without mishap, and all of us at the company (＿＿) with joy.", at: "ch/6" },
     ex: [
       { ja: "{皆様|みなさま}のご{来店|らいてん}を、スタッフ**{一同|いちどう}**{心|こころ}よりお{待|ま}ちしております。", en: "All of our staff look forward to welcoming you.", alt: ["{同一|どういつ}", "{一部|いちぶ}", "{一種|いっしゅ}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "manager (of a hotel, restaurant, theater, etc.)",
     note: "The person running a hotel, theater or similar establishment on behalf of the owner: ホテルの支配人, 総支配人 (general manager). For companies, 経営者 or 社長 is used instead.",
     rx: ["しはいじん", "しばいにん", "しはいにいん"],
-    book: { ja: "ホテルの**{支配人|しはいにん}**＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", en: "Anyone who is (＿＿) a hotel manager cannot do the job unless they can deal properly even with difficult guests.", at: "ch/6" },
+    book: { ja: "ホテルの**{支配人|しはいにん}**＿＿{者|もの}、困った客にもきちんと対応できなければ務まらない。", en: "Anyone (＿＿) in the position of hotel manager has to be able to deal properly even with difficult guests; otherwise they aren't up to the job.", at: "ch/6" },
     ex: [
       { ja: "{客|きゃく}の{苦情|くじょう}を{聞|き}いて、ホテルの**{支配人|しはいにん}**が{直接|ちょくせつ}{謝|あやま}りに{来|き}た。", en: "Hearing the guest's complaint, the hotel manager came to apologize in person.", alt: ["{仲人|なこうど}", "{支持者|しじしゃ}", "{通行人|つうこうにん}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "to be up to (a job or role); to be able to perform (a duty)",
     note: "Mostly in the negative or questions: 私には務まらない (I'm not up to it), その役が務まるか. It is the intransitive partner of 務める (to serve as). Don't mix it up with 勤まる (to be able to keep a job) or 努める (to strive).",
     rx: ["むまる", "つとめる", "づとまる"],
-    book: { ja: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ**務まらない**。", en: "Anyone who is (＿＿) a hotel manager cannot do the job unless they can deal properly even with difficult guests.", at: "ch/6" },
+    book: { ja: "ホテルの{支配人|しはいにん}＿＿{者|もの}、困った客にもきちんと対応できなければ**務まらない**。", en: "Anyone (＿＿) in the position of hotel manager has to be able to deal properly even with difficult guests; otherwise they aren't up to the job.", at: "ch/6" },
     ex: [
       { ja: "こんな{大役|たいやく}が、{経験|けいけん}の{浅|あさ}い{私|わたし}に**{務|つと}まる**でしょうか。", en: "Am I, with so little experience, really up to such an important role?", alt: ["{収|おさ}まる", "{高|たか}まる", "{固|かた}まる"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "feeling obliged or grateful (humbly); being sorry to trouble someone",
     note: "A humble business word expressing both gratitude and apology for troubling someone: 恐縮です, 恐縮ですが… (I'm sorry to ask, but…), 恐縮の至り. Softer and more formal than すみません.",
     rx: ["きょうしゅう", "こうしゅく", "きょしゅく"],
-    book: { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて**{恐縮|きょうしゅく}**です。", en: "By rights I should have come to see you, so I'm very much obliged that you took the trouble to come here yourself.", at: "gp/65" },
+    book: { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて**{恐縮|きょうしゅく}**です。", en: "By rights I should have been the one to visit you. I'm so sorry to have put you to the trouble of coming here yourself.", at: "gp/65" },
     ex: [
       { ja: "お{忙|いそが}しいところ**{恐縮|きょうしゅく}**ですが、{明日|あす}までにお{返事|へんじ}をいただけますか。", en: "I'm sorry to trouble you when you're busy, but could you give me your answer by tomorrow?", alt: ["{縮小|しゅくしょう}", "{恐怖|きょうふ}", "{短縮|たんしゅく}"] },
     ] },
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "condolences; sympathy (on a death)",
     note: "Words of sympathy to the bereaved: お悔やみを申し上げる, お悔やみ申し上げます (my condolences), お悔やみの言葉. The verb 悔やむ means 'to regret' or 'to mourn'.",
     rx: ["おかいやみ", "おぐやみ", "おくいやみ"],
-    book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "Not having known, I never even offered my condolences; it was very remiss of me.", at: "gp/68" },
+    book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "I didn't know, and so I never even offered my condolences — that was very remiss of me.", at: "gp/68" },
     ex: [
       { ja: "このたびはご{愁傷|しゅうしょう}さまでございます。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{土産|みやげ}", "お{礼|れい}"] },
     ] },
