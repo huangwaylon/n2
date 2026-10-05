@@ -97,7 +97,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "{厚着|あつぎ}", lv: "N2", pos: "noun · する verb",
     en: "wearing heavy (or many layers of) clothing, bundling up",
-    note: "厚着する／厚着をする; the opposite is 薄着 (dressing lightly). 重ね着 is layering as a style. Note the reading: あつぎ, with voiced ぎ.",
+    note: "厚着する／厚着をする; the opposite is 薄着 (dressing lightly). 重ね着 is wearing layers. Note the reading: あつぎ, with voiced ぎ.",
     rx: ["あつき", "こうちゃく", "あつぎい"],
     book: { ja: "南極へ行くんじゃあるまいし、そんなに**{厚着|あつぎ}**しなくても{大丈夫|だいじょうぶ}だよ。", en: "It's not as if you're going to the South Pole. You don't need to bundle up that much.", at: "gp/72" },
     ex: [
@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はだん", "ひたん", "はてい"],
     book: { ja: "いくら有名{企業|きぎょう}に{就職|しゅうしょく}しても、経営が**{破|は}たん**すればそれまでだ。", en: "No matter how famous the company you join, if it goes bankrupt, that's the end of that.", at: "gp/74" },
     ex: [
-      { ja: "{無理|むり}な計画は、いずれ**{破綻|はたん}**する。", en: "An unreasonable plan will collapse sooner or later.", alt: ["{破損|はそん}", "{分担|ぶんたん}", "{安定|あんてい}"] },
+      { ja: "{無理|むり}な計画は、いずれ**{破綻|はたん}**する。", en: "An unrealistic plan is bound to fall apart sooner or later.", alt: ["{破損|はそん}", "{分担|ぶんたん}", "{安定|あんてい}"] },
     ] },
   { w: "{使|つか}いこなす", lv: "N1", pos: "verb (transitive)",
     en: "to master, handle with skill, make full use of",
@@ -208,7 +208,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "こじれる", lv: "N1", pos: "verb (intransitive)",
     en: "to get complicated, go wrong, turn sour (a problem, relationship); to linger and worsen (an illness)",
-    note: "話がこじれる (talks break down), 関係がこじれる, 風邪をこじらせる (let a cold get worse — the transitive こじらせる). Always negative in tone; 複雑になる is the neutral “become complicated.”",
+    note: "話がこじれる (talks get tangled, turn sour), 関係がこじれる, 風邪をこじらせる (let a cold get worse — the transitive こじらせる). Always negative in tone; 複雑になる is the neutral “become complicated.”",
     book: { ja: "すぐ{謝|あやま}ればすんだものを、問題が**こじれ**てしまったじゃないか。", en: "If you'd apologized right away, that would have settled it, but now look — it's turned into a real mess!", at: "gp/75" },
     ex: [
       { ja: "{遺産|いさん}の問題で兄弟の関係が**こじれ**てしまった。", en: "The siblings' relationship turned sour over the inheritance.", alt: ["ほぐれ", "まとまっ", "おさまっ"] },
@@ -318,7 +318,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "{無理|むり}やり", lv: "N1", pos: "adverb",
     en: "forcibly, against someone's will",
-    note: "Doing or making someone do something by force: 無理やり連れて行く, 無理やり食べさせる. Also 無理矢理. 強引に is similar but describes a pushy manner; 無理に can also mean “unreasonably.”",
+    note: "Doing or making someone do something by force: 無理やり連れて行く, 無理やり食べさせる. Also 無理矢理. 強引に is similar but describes a pushy manner; 無理に is broader and also covers forcing oneself (無理に笑う, force a smile).",
     rx: ["むりや", "ぶりやり", "むりいやり"],
     book: { ja: "A：まだ結婚なんて早いと思うんだけど、**無理やり**お{見合|みあ}いさせられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been roped into an arranged-marriage meeting…", at: "gp/80" },
     ex: [
@@ -346,7 +346,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["はんげつ", "ばんけつ", "はんけち"],
     book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept.", at: "gp/81" },
     ex: [
-      { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
+      { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court handed the defendant a verdict of not guilty.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
     ] },
   { w: "{人員|じんいん}", lv: "N1", pos: "noun",
     en: "personnel, staff; number of people",
@@ -536,7 +536,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["けっい", "けいつい", "けちい"],
     book: { ja: "「〜てみせる」は「（自分を認めてもらうために）{頑張|がんば}って〜しよう」という強い**{決意|けつい}**を表す。", en: "“〜てみせる” expresses a strong determination: “(in order to earn recognition) I will work hard and do 〜.”", at: "gp/87" },
     ex: [
-      { ja: "{彼|かれ}は{医者|いしゃ}になる**{決意|けつい}**を{固|かた}めて、{猛勉強|もうべんきょう}を{始|はじ}めた。", en: "He made up his mind to become a doctor and began studying like mad.", alt: ["{決算|けっさん}", "{決着|けっちゃく}", "{決勝|けっしょう}"] },
+      { ja: "{彼|かれ}は{医者|いしゃ}になる**{決意|けつい}**を{固|かた}めて、{猛勉強|もうべんきょう}を{始|はじ}めた。", en: "He firmly resolved to become a doctor and began studying like mad.", alt: ["{決算|けっさん}", "{決着|けっちゃく}", "{決勝|けっしょう}"] },
     ] },
   { w: "{無実|むじつ}", lv: "N1", pos: "noun",
     en: "innocence (of a crime); groundlessness",
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "{大儲|おおもう}け", lv: "N1", pos: "noun · する verb",
     en: "huge profit, windfall; making a killing",
-    note: "Casual: 大儲けする, 一攫千金の大儲け. 儲ける is to make a profit; 儲かる is to be profitable. The formal word is 巨額の利益.",
+    note: "Conversational: 大儲けする, 株で大儲け. 儲ける is to make a profit; 儲かる is to be profitable. Formal writing says 巨額の利益を上げる.",
     rx: ["おおもけ", "たいもうけ", "おおぼうけ"],
     book: { ja: "B：{特許|とっきょ}を取っていれば、**{大儲|おおもう}け**できた（　）。", en: "B: If they had taken out a patent, they could have made a fortune (　).", at: "ch/7/review" },
     ex: [
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "{足|た}らず", lv: "N1", pos: "suffix",
     en: "less than, just under (an amount of time or number)",
-    note: "After a quantity: 1時間足らずで (in under an hour), 10人足らず. A written, slightly formal alternative to 〜弱 or 〜未満 in narratives. From 足りる／足る (be enough).",
+    note: "After a quantity: 1時間足らずで (in under an hour), 10人足らず. It means a little under the amount, like 〜弱; 〜未満 is the precise “below” of rules and statistics (18歳未満). From 足りる／足る (be enough).",
     rx: ["あらず", "そくらず", "たりず"],
     book: { ja: "**足らず**で", en: "in less than", at: "ch/7/review" },
     ex: [
