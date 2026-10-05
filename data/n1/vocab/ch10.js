@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "depiction; portrayal; description",
     note: "Representing something in words or pictures: 心理描写 (psychological portrayal), 風景を描写する, リアルな描写. 表現 is expression in general; 描写 is detailed depiction of how something looks or feels.",
     rx: ["びょうしゃく", "みょうしゃ", "びょうさ"],
-    book: { ja: "この絵は、リアルな**{描写|びょうしゃ}**に{幻想的|げんそうてき}な世界観が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic depiction and a fantastical worldview come together to leave an unforgettable impression.", at: "gp/114" },
+    book: { ja: "この絵は、リアルな**{描写|びょうしゃ}**に{幻想的|げんそうてき}な世界観が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic detail and a fantastical vision come together to leave an unforgettable impression.", at: "gp/114" },
     ex: [
       { ja: "この{小説|しょうせつ}は、{主人公|しゅじんこう}の{心理|しんり}**{描写|びょうしゃ}**がすばらしい。", en: "The portrayal of the protagonist's state of mind in this novel is superb.", alt: ["{模写|もしゃ}", "{映写|えいしゃ}", "{複写|ふくしゃ}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "fantastical; dreamlike; magical",
     note: "Like a vision or dream: 幻想的な風景 (a dreamlike scene), 幻想的な音楽, ライトアップされた幻想的な庭. Usually positive in descriptions of scenery. 幻想 alone is an illusion or fantasy (幻想を抱く, cherish an illusion).",
     rx: ["げんぞうてき", "まぼろしてき", "げんそてき"],
-    book: { ja: "この絵は、リアルな{描写|びょうしゃ}に**{幻想的|げんそうてき}**な世界観が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic depiction and a fantastical worldview come together to leave an unforgettable impression.", at: "gp/114" },
+    book: { ja: "この絵は、リアルな{描写|びょうしゃ}に**{幻想的|げんそうてき}**な世界観が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic detail and a fantastical vision come together to leave an unforgettable impression.", at: "gp/114" },
     ex: [
       { ja: "{雪|ゆき}に{覆|おお}われた{夜|よる}の{森|もり}は、**{幻想的|げんそうてき}**な{美|うつく}しさだった。", en: "The night forest, blanketed in snow, had a dreamlike beauty.", alt: ["{現実的|げんじつてき}", "{事務的|じむてき}", "{経済的|けいざいてき}"] },
     ] },
@@ -267,7 +267,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "worldview; (of a work) the world it creates, its vision",
     note: "A philosophy of the world, or, very often now, the setting and atmosphere of a novel, film or game: 独特の世界観, 作品の世界観. 人生観 is one's outlook on life; 価値観 is one's values.",
     rx: ["せかいけん", "せいかいかん", "せかいがん"],
-    book: { ja: "この絵は、リアルな{描写|びょうしゃ}に{幻想的|げんそうてき}な**世界観**が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic depiction and a fantastical worldview come together to leave an unforgettable impression.", at: "gp/114" },
+    book: { ja: "この絵は、リアルな{描写|びょうしゃ}に{幻想的|げんそうてき}な**世界観**が{相|あい}まって、忘れがたい印象を与える。", en: "In this painting, realistic detail and a fantastical vision come together to leave an unforgettable impression.", at: "gp/114" },
     ex: [
       { ja: "この{監督|かんとく}の{映画|えいが}は、{独特|どくとく}の**{世界観|せかいかん}**で{多|おお}くのファンを{持|も}つ。", en: "This director's films have many fans thanks to their unique vision.", alt: ["{世間体|せけんてい}", "{観光地|かんこうち}", "{世界中|せかいじゅう}"] },
     ] },
@@ -275,7 +275,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "careful selection; handpicking",
     note: "Choosing strictly, only the best: 厳選された素材 (carefully selected ingredients), 厳選した商品. A favorite word in advertising and on menus. 選抜 is selecting people (選抜チーム).",
     rx: ["げんぜん", "けんせん", "ごんせん"],
-    book: { ja: "**{厳選|げんせん}**された原料と{富士山|ふじさん}が{育|はぐく}んだ水、冷たく{澄|す}んだ空気とが{相|あい}まってこそ、{我|わ}が{社|しゃ}が{誇|ほこ}るウイスキーができるのです。", en: "It is only when carefully selected ingredients, water nurtured by Mt. Fuji, and cold, clear air all come together that the whisky our company is proud of can be made.", at: "gp/114" },
+    book: { ja: "**{厳選|げんせん}**された原料と{富士山|ふじさん}が{育|はぐく}んだ水、冷たく{澄|す}んだ空気とが{相|あい}まってこそ、{我|わ}が{社|しゃ}が{誇|ほこ}るウイスキーができるのです。", en: "It is only when carefully selected ingredients, water nurtured by Mt. Fuji, and cold, clear air all come together that we can make the whisky our company is so proud of.", at: "gp/114" },
     ex: [
       { ja: "この{店|みせ}では、{店主|てんしゅ}が**{厳選|げんせん}**した{日本酒|にほんしゅ}だけを{置|お}いている。", en: "This shop stocks only sake handpicked by the owner.", alt: ["{厳禁|げんきん}", "{当選|とうせん}", "{厳重|げんじゅう}"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to be proud of; to boast (of); to pride oneself on",
     note: "To take pride in something, or for something to boast a record: 伝統を誇る, 世界一の高さを誇るタワー, 我が社が誇る製品. The noun is 誇り (pride): 誇りに思う. 自慢する is more personal and can sound like bragging.",
     rx: ["ほごる", "こる", "ほこむ"],
-    book: { ja: "冷たく{澄|す}んだ空気とが{相|あい}まってこそ、{我|わ}が{社|しゃ}が**{誇|ほこ}る**ウイスキーができるのです。", en: "and cold, clear air all come together that the whisky our company is proud of can be made.", at: "gp/114" },
+    book: { ja: "冷たく{澄|す}んだ空気とが{相|あい}まってこそ、{我|わ}が{社|しゃ}が**{誇|ほこ}る**ウイスキーができるのです。", en: "and cold, clear air all come together that we can make the whisky our company is so proud of.", at: "gp/114" },
     ex: [
       { ja: "この{旅館|りょかん}は、300{年|ねん}の{歴史|れきし}を**{誇|ほこ}って**いる。", en: "This inn boasts a history of 300 years.", alt: ["{誘|さそ}って", "{払|はら}って", "{飾|かざ}って"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "side effect (of a drug); adverse effect",
     note: "An unwanted effect of a medicine: 副作用が出る, 副作用の少ない薬. Figuratively, an unintended bad consequence of a policy: 政策の副作用. 後遺症 is an aftereffect of an illness or injury.",
     rx: ["ふくさくよう", "ふくざよう", "ふうさよう"],
-    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "この{薬|くすり}は**{副作用|ふくさよう}**で{眠|ねむ}くなることがあるので、{運転|うんてん}{前|まえ}には{飲|の}まないでください。", en: "This medicine can make you drowsy as a side effect, so please don't take it before driving.", alt: ["{副業|ふくぎょう}", "{作業|さぎょう}", "{副詞|ふくし}"] },
     ] },
@@ -339,7 +339,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "careful; cautious; prudent",
     note: "Taking care to avoid mistakes or risk: 慎重に検討する (consider carefully), 慎重な態度, 慎重を期す (exercise great caution). The opposite is 軽率 (rash). 丁寧 is about thoroughness and politeness; 慎重 is about caution.",
     rx: ["しんじゅう", "じんちょう", "しんちょ"],
-    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that there is no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "{家|いえ}を{買|か}うのは{大|おお}きな{決断|けつだん}なので、**{慎重|しんちょう}**に{考|かんが}えたほうがいい。", en: "Buying a house is a big decision, so you'd better think it over carefully.", alt: ["{軽率|けいそつ}", "{貴重|きちょう}", "{乱暴|らんぼう}"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "deep knowledge (of an art or field); expertise",
     note: "Used almost only in the set phrase 〜に造詣が深い (be deeply versed in ~): 美術に造詣が深い, 日本文化に造詣が深い. Respectful and formal, used to praise someone's learning. Not the same word as 造形 (ぞうけい, form, modeling).",
     rx: ["そうけい", "ぞうし", "ぞうけ"],
-    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara had a deep knowledge of fine art.", at: "gp/115" },
+    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "From these collections, one can easily infer that Ohara had a deep knowledge of fine art.", at: "gp/115" },
     ex: [
       { ja: "{先生|せんせい}は{日本|にほん}の{古典|こてん}{文学|ぶんがく}に**{造詣|ぞうけい}**が{深|ふか}い。", en: "The professor is deeply versed in classical Japanese literature.", alt: ["{欲|よく}", "{奥行|おくゆ}き", "{眠|ねむ}り"] },
     ] },
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to shoulder, bear (responsibility, a role); to carry",
     note: "To take on an important role or burden: 将来を担う (shoulder the future), 責任を担う, 中心的な役割を担う. 次世代を担う若者 is a common phrase. The noun 担い手 means the bearer of a role. The same kanji read かつぐ is literal carrying on the shoulder.",
     rx: ["かつう", "たんう", "になむ"],
-    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を**{担|にな}う**にたる{素晴|すば}らしい{人材|じんざい}だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people fully worthy of carrying our company's future on your shoulders.", at: "gp/121" },
+    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を**{担|にな}う**にたる{素晴|すば}らしい{人材|じんざい}だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people, fully worthy of shouldering our company's future.", at: "gp/121" },
     ex: [
       { ja: "{若|わか}い{世代|せだい}が、これからの{地域|ちいき}{社会|しゃかい}を**{担|にな}って**いく。", en: "The young generation will carry the local community forward from here.", alt: ["{任|まか}せて", "{預|あず}けて", "{譲|ゆず}って"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "talented people; human resources; personnel",
     note: "Capable people as a resource: 優秀な人材, 人材を育てる, 人材不足, 人材派遣 (staffing agency). 人手 is labor in numbers; 人材 is people valued for their abilities.",
     rx: ["にんざい", "じんさい", "ひとざい"],
-    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を{担|にな}うにたる{素晴|すば}らしい**{人材|じんざい}**だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people fully worthy of carrying our company's future on your shoulders.", at: "gp/121" },
+    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を{担|にな}うにたる{素晴|すば}らしい**{人材|じんざい}**だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people, fully worthy of shouldering our company's future.", at: "gp/121" },
     ex: [
       { ja: "{多|おお}くの{企業|きぎょう}が、{海外|かいがい}で{活躍|かつやく}できる**{人材|じんざい}**を{求|もと}めている。", en: "Many companies are looking for people who can succeed overseas.", alt: ["{材料|ざいりょう}", "{人口|じんこう}", "{人格|じんかく}"] },
     ] },
