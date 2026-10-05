@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "live broadcast (from a location); relay",
     note: "Broadcasting from the scene: 生中継 (live coverage), 現地から中継する, 中継がつながる (the live feed comes through). Also relaying in general: 中継地点 (relay point). 放送 is broadcasting in general.",
     rx: ["ちゅうけ", "じゅうけい", "ちゅけい"],
-    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We also plan to report later in the program on conditions in Okinawa, which is now in the storm zone, as soon as our live link is connected.", at: "ch/4" },
+    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "Also, as soon as our live link is up, we plan to report later in the program on conditions in Okinawa, which is now in the storm zone.", at: "ch/4" },
     ex: [
       { ja: "{決勝戦|けっしょうせん}はテレビで{生|なま}**{中継|ちゅうけい}**される。", en: "The final will be broadcast live on TV.", alt: ["{継続|けいぞく}", "{中止|ちゅうし}", "{中断|ちゅうだん}"] },
     ] },
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
     note: "Kanji 庇う, usually written in kana. Protecting someone from harm or blame (部下をかばう “cover for a subordinate”), or sparing an injured body part (痛めた足をかばって歩く). 守る is the general “protect”.",
-    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who hurt a leg in a fall but kept running while favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{先輩|せんぱい}は、{失敗|しっぱい}した{私|わたし}を{上司|じょうし}の{前|まえ}で**かばって**くれた。", en: "My senior colleague stuck up for me in front of the boss when I made a mistake.", alt: ["{責|せ}めて", "{疑|うたが}って", "{避|さ}けて"] },
     ] },
@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "running the full distance; finishing (a race)",
     note: "完 (complete) + 走 (run): マラソンを完走する, 完走者 (finishers). Similar 完-words: 完成 (completion of a thing), 完了 (finishing a process), 完売 (selling out).",
     rx: ["かんぞう", "かんそ", "かんしょう"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who hurt a leg in a fall but kept running while favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{初|はじ}めてのフルマラソンで、なんとか**{完走|かんそう}**できた。", en: "I managed to finish my first full marathon.", alt: ["{完成|かんせい}", "{逃走|とうそう}", "{完売|かんばい}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (give a round of applause), 大きな拍手が起こる, 拍手喝采 (cheers and applause). 握手 (handshake) is a common mix-up.",
     rx: ["はくしゅう", "ばくしゅ", "はくて"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who hurt a leg in a fall but kept running while favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**が{起|お}こった。", en: "When the performance ended, the hall broke into loud applause.", alt: ["{握手|あくしゅ}", "{歌手|かしゅ}", "{拍子|ひょうし}"] },
     ] },
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "relocation; moving (of an office, shop or facility)",
     note: "An organization moving premises: 本社を移転する, 移転先 (new location), 店舗移転のお知らせ. A household move is 引っ越し; 移動 is moving from place to place.",
     rx: ["いでん", "いてんん", "うつてん"],
-    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the head office relocating, it has been decided that a state-of-the-art computer system will be installed.", at: "gp/33" },
+    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the relocation of the head office, a state-of-the-art computer system is to be installed.", at: "gp/33" },
     ex: [
       { ja: "{来月|らいげつ}、{当店|とうてん}は{駅前|えきまえ}に**{移転|いてん}**いたします。", en: "Next month our store will move to a location in front of the station.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移民|いみん}"] },
     ] },
@@ -346,7 +346,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "member of an assembly; lawmaker; legislator",
     note: "An elected member of a legislative body: 国会議員 (member of the Diet), 市議会議員 (city councilor), 議員に当選する. 委員 is a committee member; 会員 a member of a club.",
     rx: ["ぎいい", "ぎえん", "ぎにん"],
-    book: { ja: "**{議員|ぎいん}**の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
+    book: { ja: "**{議員|ぎいん}**の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the expiration of the Diet members' terms, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{彼|かれ}は{三十代|さんじゅうだい}で{市|し}{議会|ぎかい}**{議員|ぎいん}**に{当選|とうせん}した。", en: "He was elected to the city council in his thirties.", alt: ["{委員|いいん}", "{会員|かいいん}", "{店員|てんいん}"] },
     ] },
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "term of office; tenure",
     note: "The fixed period someone holds a post: 任期は4年, 任期満了 (end of the term), 任期を務める / 終える. Don't confuse with the homophone 人気 (popularity).",
     rx: ["にんぎ", "じんき", "にっき"],
-    book: { ja: "{議員|ぎいん}の**{任期|にんき}**{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
+    book: { ja: "{議員|ぎいん}の**{任期|にんき}**{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the expiration of the Diet members' terms, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{市長|しちょう}の**{任期|にんき}**は4{年|ねん}です。", en: "A mayor's term of office is four years.", alt: ["{人気|にんき}", "{定期|ていき}", "{任務|にんむ}"] },
     ] },
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "expiration (of a set term); completion of a fixed period",
     note: "A fixed period coming to its end: 任期満了, 契約期間の満了, 刑期満了. It is used for terms and contracts, not for ordinary tasks (those are 終了 / 完了). 期限切れ is for things past their deadline.",
     rx: ["まんりょ", "まんろう", "みちりょう"],
-    book: { ja: "{議員|ぎいん}の{任期|にんき}**{満了|まんりょう}**にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
+    book: { ja: "{議員|ぎいん}の{任期|にんき}**{満了|まんりょう}**にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the expiration of the Diet members' terms, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{契約|けいやく}{期間|きかん}の**{満了|まんりょう}**に{伴|ともな}い、{部屋|へや}を{出|で}ることになった。", en: "With the lease coming to an end, I have to move out of the apartment.", alt: ["{満足|まんぞく}", "{了解|りょうかい}", "{満員|まんいん}"] },
     ] },
@@ -458,7 +458,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "boarding (a plane or ship)",
     note: "Airport vocabulary: 搭乗券 (boarding pass), 搭乗口 (boarding gate), 搭乗手続き (check-in). For trains and cars, 乗車. Don't confuse with the homophone 登場 (appearance, entrance).",
     rx: ["とうじょ", "たっじょう", "とうしょう"],
-    book: { ja: "お客様の**{搭乗|とうじょう}**が遅れますと、予定{通|どお}りに出発（　）おそれがございますので、早めのご{準備|じゅんび}をお願いいたします。", en: "If passengers are late boarding, we may not be able to depart on schedule, so we kindly ask that you be ready in good time.", at: "gp/34" },
+    book: { ja: "お客様の**{搭乗|とうじょう}**が遅れますと、予定{通|どお}りに出発（　）おそれがございますので、早めのご{準備|じゅんび}をお願いいたします。", en: "If passengers are late boarding, we may not be able to depart on schedule, so we kindly ask that you get ready early.", at: "gp/34" },
     ex: [
       { ja: "**{搭乗|とうじょう}**{口|ぐち}は{出発|しゅっぱつ}の15{分|ふん}{前|まえ}に{閉|し}まります。", en: "The boarding gate closes fifteen minutes before departure.", alt: ["{登場|とうじょう}", "{上陸|じょうりく}", "{到着|とうちゃく}"] },
     ] },
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "mystery; riddle; puzzle",
     note: "Something unexplained: 謎を解く (solve a mystery), 謎が深まる (the mystery deepens), 宇宙の謎, 謎の人物 (a mysterious person), 謎めいた (enigmatic).",
     rx: ["めい", "なぞう", "なそ"],
-    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be gradually unraveled.", at: "gp/35" },
+    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be unraveled one after another.", at: "gp/35" },
     ex: [
       { ja: "{事件|じけん}の**{謎|なぞ}**を{解|と}いたのは、{一人|ひとり}の{高校生|こうこうせい}だった。", en: "The one who solved the mystery of the case was a high school student.", alt: ["{夢|ゆめ}", "{嘘|うそ}", "{罠|わな}"] },
     ] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "large; substantial; drastic (change or amount)",
     note: "Mostly 大幅に + verb or 大幅な + noun: 大幅に遅れる (be badly delayed), 大幅に増える, 大幅な値下げ. Note the reading おおはば (kun-reading), not だいはば.",
     rx: ["だいはば", "おおはぱ", "たいふく"],
-    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the significant delay in our departure, caused by a safety check of the emergency doors as this aircraft was preparing to depart.", at: "gp/36" },
+    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize that our departure was significantly delayed by a safety check of the emergency doors carried out as this aircraft was preparing to leave.", at: "gp/36" },
     ex: [
       { ja: "{事故|じこ}の{影響|えいきょう}で、{電車|でんしゃ}のダイヤが**{大幅|おおはば}**に{乱|みだ}れている。", en: "Because of the accident, the train schedule is badly disrupted.", alt: ["{大量|たいりょう}", "{大声|おおごえ}", "{大型|おおがた}"] },
     ] },
