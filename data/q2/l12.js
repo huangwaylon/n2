@@ -2229,7 +2229,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "読み物を背景に論点を{提示|ていじ}し (present)、論理的に書く。",
-      "tr": "Using a reading as background, present the point at issue and write logically."
+      "tr": "Using a reading as background, present an issue and write logically."
      }
     },
     {
@@ -2275,11 +2275,11 @@ TRY.registerLesson({
       "__で重要なのは、「役に立つ」という意識より、収入である__[[と主張する|]]。"
      ],
      "tr": [
-      "I read The Miracle Workplace, a book about the management of TESSEI, the company that cleans the Tohoku Shinkansen. TESSEI is a company that has won praise for bringing energy to cleaning, a line of work people tend to shy away from. According to that book, what is becoming important in work is not only \"making money\" but also a sense of \"doing something for others\" and \"being useful.\" On the other hand, though, some people think the purpose of working is to earn an income that makes their lives comfortable. So what matters more in choosing a job: is it income? Or is it being able to feel that you are \"useful\"? I would like to argue from the position that what matters more in choosing a job is income.",
-      "First, in many cases, the higher your income, the greater your happiness. According to a survey of Americans conducted in 2009 by Professor Kahneman, a behavioral economist, up to an annual income of $75,000 (about 8 million yen), the more your annual income rises, the happier you become. According to a 2018 report by the National Tax Agency, 90% of people in Japan earn 8 million yen a year or less, so it can be said that for most people, annual income affects happiness.",
-      "Next, the higher your income, the higher your job satisfaction. If your pay is high, your sense of responsibility to do work worthy of it grows, and you can approach your work positively. Also, if you feel that the results of your hard work are reflected in your pay, your motivation should rise even further, and you should gain a sense of accomplishment and satisfaction.",
-      "Finally, if your income is high, you can save money and ease your anxiety about your future life. Anyone could suddenly lose their job if the company they work for runs into financial trouble. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, there is no need to keep carrying anxieties like these.",
-      "As stated above, the higher your income, the greater your happiness, and it seems your job satisfaction rises as well. Also, because you can save money, you can ease your anxiety about the future. Admittedly, without a real sense of \"being useful to others,\" you may lose sight of what working means. However, with a low income, won't you be unable to live a financially satisfying life, with limits on where you can live, what you can eat, and so on, and no room to enjoy hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
+      "I read The Miracle Workplace, a book about the management of TESSEI, the company that cleans the Tohoku Shinkansen. TESSEI is a company that has won praise for bringing energy to cleaning, a line of work people shy away from. According to that book, what is becoming important in work is not only \"making money\" but also a sense of \"doing something for others\" and \"being useful.\" On the other hand, though, some people think the purpose of working is to earn an income that makes their lives comfortable. So what matters more in choosing a job: is it income? Or is it being able to feel that you are \"useful\"? I would like to argue from the position that what matters more in choosing a job is income.",
+      "First, in many cases, the higher your income, the greater your happiness. According to a 2009 survey of Americans by the behavioral economist Professor Kahneman, the more your annual income rises, the happier you become, up to about $75,000 (roughly 8 million yen) a year. According to a 2018 report by the National Tax Agency, 90% of people in Japan earn 8 million yen a year or less, so it can be said that for most people, annual income affects happiness.",
+      "Next, the higher your income, the higher your job satisfaction. If your pay is high, your sense of responsibility to do work worthy of it grows, and you can approach your work with a positive attitude. Also, if you feel that the results of your hard work are reflected in your pay, your motivation should rise even further, and you should gain a sense of accomplishment and satisfaction.",
+      "Finally, if your income is high, you can save money and ease your worries about the future. Anyone could suddenly lose their job if the company they work for runs into financial trouble. And even if you manage to work until retirement age, without savings you probably won't be able to live comfortably after you retire. If your income is high and you can save money, you won't have to keep living with worries like these.",
+      "As discussed above, it can be concluded that the higher your income, the greater your happiness and the higher your job satisfaction. Also, because you can save money, you can ease your worries about the future. Admittedly, without a real sense of \"being useful to others,\" you may lose sight of what working means. However, isn't it true that with a low income you can't lead a financially satisfying life, since there are limits on where you live, what you eat and so on, and nothing to spare for enjoying hobbies? Therefore, I maintain that what matters in choosing a job is income rather than a sense of being \"useful.\""
      ],
      "headTr": [
       "Which Matters More in Choosing a Job: Income, or a Sense of Being \"Useful\"?",
@@ -2427,7 +2427,7 @@ TRY.registerLesson({
       [
        {
         "ja": "・論点の{提示|ていじ}",
-        "tr": "Presenting the point at issue"
+        "tr": "Presenting the issue"
        },
        "(b)"
       ],
@@ -2528,7 +2528,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "小論文では、あるトピックについて論点（答えを出すべき{問|と}い）を{提示|ていじ}し、その問いに答える形で自分の主張を述べる。",
-        "tr": "In a short essay, you present the point at issue on a topic (a question that needs an answer) and state your own claim in the form of an answer to that question."
+        "tr": "In a short essay, you present an issue on a topic (a question that calls for an answer) and state your own claim as an answer to that question."
        },
        "blocks": [
         {
@@ -2541,7 +2541,7 @@ TRY.registerLesson({
           },
           {
            "ja": "論点：仕事を選ぶうえでより重要なのは収入か、「役に立つ」という意識か",
-           "tr": "Point at issue: Which matters more in choosing a job, income or a sense of being \"useful\"?"
+           "tr": "Issue: Which matters more in choosing a job, income or a sense of being \"useful\"?"
           },
           {
            "ja": "主張：仕事を選ぶうえでより重要なのは収入だ",
@@ -2555,7 +2555,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "❶{序論|じょろん}で論点と自分の立場を示す。",
-        "tr": "In the introduction (1), show the point at issue and your own position."
+        "tr": "In the introduction (1), show the issue and your own position."
        },
        "blocks": [
         {
@@ -2584,7 +2584,7 @@ TRY.registerLesson({
           {
            "text": {
             "ja": "論点を提示する …… (b)",
-            "tr": "Present the point at issue. …… (b)"
+            "tr": "Present the issue. …… (b)"
            },
            "blocks": [
             {
@@ -2709,7 +2709,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "**以上述べたように、**……と考えられる。また、……ことができる。",
-               "tr": "As stated above, it seems that …. Also, you can …."
+               "tr": "As discussed above, it can be concluded that …. Also, you can …."
               }
              ]
             }
@@ -2728,7 +2728,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "**確かに、**……**かもしれない。しかし、**……**のではないだろうか。**",
-               "tr": "It may be true that …. However, isn't it the case that …?"
+               "tr": "Admittedly, … may …. However, isn't it true that …?"
               }
              ]
             }
@@ -2809,7 +2809,7 @@ TRY.registerLesson({
            },
            {
             "ja": "論点",
-            "tr": "Point at issue"
+            "tr": "Issue"
            }
           ]
          ],
@@ -2865,7 +2865,7 @@ TRY.registerLesson({
            },
            {
             "ja": "いい会社を作るには、ボトムアップの全員経営がいいか。経営者が決めるトップダウン経営がいいか。",
-            "tr": "To build a good company, is bottom-up management in which everyone takes part better? Or is top-down management in which the executives decide better?"
+            "tr": "To build a good company, is bottom-up \"management by everyone\" better? Or is top-down management, in which the executives make the decisions, better?"
            }
           ]
          ]
@@ -2883,7 +2883,7 @@ TRY.registerLesson({
        "n": "(3)",
        "text": {
         "ja": "その論点に対するあなたの主張は何ですか。",
-        "tr": "What is your claim on that point at issue?"
+        "tr": "What is your claim on that issue?"
        }
       },
       {
@@ -2908,7 +2908,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "上の「書く前に」で選んだ読み物の内容を使って背景を書き、指定された論点についてあなたの主張を「だ体」で述べなさい。「書くポイント」を使って、モデル作文のような5段落構成で書きなさい。（1,000字{程度|ていど}）",
-      "tr": "Using the content of the reading you chose in \"Before writing\" above, write the background, and state your claim on the given point at issue in the だ style. Using the writing points, write it in five paragraphs like the model composition. (about 1,000 characters)"
+      "tr": "Using the content of the reading you chose in \"Before writing\" above, write the background, then state your claim on the assigned issue in plain (だ) style. Following the writing points, write five paragraphs structured like the model composition. (about 1,000 characters)"
      }
     },
     {
@@ -3059,7 +3059,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "20日に帰国する＿＿ので、帰国前に＿＿を\n＿＿したくて、ごあいさつに＿＿ました。",
-            "tr": "Since it's been ＿＿ that I'll go back to my country on the 20th, I wanted to ＿＿ ＿＿ before I leave, so I've ＿＿ to say goodbye."
+            "tr": "It's been ＿＿ that I'm going back home on the 20th, and I wanted to ＿＿ ＿＿ before I leave, so I've ＿＿ to say goodbye."
            },
            "answer": [
             "ことになった",
@@ -3075,7 +3075,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "一年間＿＿ました。\n先生の＿＿で、自信を持って\n＿＿ようになりました。",
-            "tr": "For the past year, ＿＿. Thanks to your ＿＿, I've become able to ＿＿ with confidence."
+            "tr": "For the past year, ＿＿. Thanks to your ＿＿, I can now ＿＿ with confidence."
            },
            "answer": [
             "、大変お世話になり",
@@ -3090,7 +3090,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "先生が＿＿をいかして、\nこれからも＿＿。",
-            "tr": "I'll make the most of what you ＿＿ and, from here on too, ＿＿."
+            "tr": "Making the most of what you ＿＿, I'll ＿＿ from here on too."
            },
            "answer": [
             "教えてくださったこと",
@@ -3144,7 +3144,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❷20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-       "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+       "tr": "It's been settled that I'm going back home on the 20th, and I wanted to say a few words of thanks before I leave, so I've come to say goodbye."
       },
       {
        "sp": "中",
@@ -3156,25 +3156,25 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "はい。❸**一年間、大変お世話になりました。**日本に来たばかりの頃は日本語を話すことが少し怖かったですが、**先生のご{指導|しどう}のおかげで、**自信を持って日本語が話せる**ようになりました。**",
-       "tr": "Yes. Thank you so much for everything you've done for me this past year. When I had just arrived in Japan, I was a little scared of speaking Japanese, but thanks to your guidance, I've become able to speak it with confidence."
+       "tr": "Yes. Thank you so much for everything you've done for me this past year. When I first came to Japan, I was a little afraid to speak Japanese, but thanks to your guidance, I can now speak it with confidence."
       },
       {
        "sp": "中",
        "v": "m",
        "ja": "そうですか。それはよかったですね。",
-       "tr": "Is that so? I'm glad to hear it."
+       "tr": "Really? I'm glad to hear that."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "❹それから、ビジネスの授業では、日本の会社のマナーや{言葉遣|ことばづか}いについて教え**てくださり、ありがとうございました。**この授業を取ら**なければ、**日本の企業についてこんなに深く知ることはでき**ませんでした。**",
-       "tr": "Also, thank you for teaching us about business manners and language use at Japanese companies in the business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
+       "tr": "Also, thank you for teaching us about etiquette and proper language at Japanese companies in your business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
       },
       {
        "sp": "中",
        "v": "m",
        "ja": "いえいえ、すべてはテイラーさんの努力があったからこそですよ。よくがんばりましたね。",
-       "tr": "Not at all. It was all thanks to your own hard work, Taylor-san. You really did well."
+       "tr": "Not at all. It's only because you worked so hard, Taylor-san. You did really well."
       },
       {
        "sp": "ジ",
@@ -3192,7 +3192,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❻**本当にありがとうございました。先生が教えてくださったことをいかして、これからも、がんばります。**",
-       "tr": "Thank you so much, really. I'll make the most of what you taught me and keep working hard from here on."
+       "tr": "I'm truly grateful. I'll make the most of what you taught me and keep working hard."
       },
       {
        "sp": "中",
@@ -3204,7 +3204,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "はい。❻**それでは、失礼いたします。先生もお元気で。**",
-       "tr": "I will. Well then, I'll be going now. Please take care, Professor."
+       "tr": "I will. Well then, I'll be going. Please take care of yourself too, Professor."
       }
      ]
     },
@@ -3280,7 +3280,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "20日に帰国する**ことになったので、**帰国前に**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-        "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+        "tr": "It's been settled that I'm going back home on the 20th, and I wanted to say a few words of thanks before I leave, so I've come to say goodbye."
        }
       },
       {
@@ -3299,14 +3299,14 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**一年間、大変お世話になりました。**日本に来たばかりの頃は日本語を話すことが少し怖かったですが、**先生のご{指導|しどう}のおかげで、**自信を持って日本語が話せる**ようになりました。**",
-        "tr": "Thank you so much for everything you've done for me this past year. When I had just arrived in Japan, I was a little scared of speaking Japanese, but thanks to your guidance, I've become able to speak it with confidence."
+        "tr": "Thank you so much for everything you've done for me this past year. When I first came to Japan, I was a little afraid to speak Japanese, but thanks to your guidance, I can now speak it with confidence."
        }
       },
       {
        "side": "b",
        "text": {
         "ja": "そうですか。それはよかったですね。",
-        "tr": "Is that so? I'm glad to hear it."
+        "tr": "Really? I'm glad to hear that."
        }
       },
       {
@@ -3317,14 +3317,14 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "それから、ビジネスの授業では、マナーや{言葉遣|ことばづか}いについて教え**てくださり、ありがとうございました。**\nこの授業を取ら**なければ、**日本の企業についてこんなに深く知ることはでき**ませんでした。**",
-        "tr": "Also, thank you for teaching us about manners and language use in the business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
+        "tr": "Also, thank you for teaching us about etiquette and proper language in your business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
        }
       },
       {
        "side": "b",
        "text": {
         "ja": "いえいえ、〜さんの努力があったからこそですよ。",
-        "tr": "Not at all. It was all thanks to your own hard work, (name)."
+        "tr": "Not at all. It's only because you worked so hard, (name)."
        }
       },
       {
@@ -3355,7 +3355,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**本当にありがとうございました。先生が教えてくださったことをいかして、これからも、がんばります。**\n**それでは、失礼いたします。先生もお元気で。**",
-        "tr": "Thank you so much, really. I'll make the most of what you taught me and keep working hard from here on. Well then, I'll be going now. Please take care, Professor."
+        "tr": "I'm truly grateful. I'll make the most of what you taught me and keep working hard. Well then, I'll be going. Please take care of yourself too, Professor."
        }
       }
      ]
@@ -3413,7 +3413,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❷{{20日に帰国する}}**ことになったので、**{{帰国前に}}**{一言|ひとこと}お礼をお伝えしたくて、ごあいさつに伺いました。**",
-       "tr": "It's been decided that I'll be going back to my country on the 20th, so I wanted to say a word of thanks before I leave, and I've come to say goodbye."
+       "tr": "It's been settled that I'm going back home on the 20th, and I wanted to say a few words of thanks before I leave, so I've come to say goodbye."
       },
       {
        "sp": "先生",
@@ -3425,25 +3425,25 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❸**一年間、大変お世話になりました。**{{日本に来たばかりの頃は日本語を話すことが少し怖かったですが、}}**先生のご{指導|しどう}のおかげで、**{{自信を持って日本語が話せる}}**ようになりました。**",
-       "tr": "Thank you so much for everything you've done for me this past year. When I had just arrived in Japan, I was a little scared of speaking Japanese, but thanks to your guidance, I've become able to speak it with confidence."
+       "tr": "Thank you so much for everything you've done for me this past year. When I first came to Japan, I was a little afraid to speak Japanese, but thanks to your guidance, I can now speak it with confidence."
       },
       {
        "sp": "先生",
        "v": "f",
        "ja": "そうですか。それはよかったですね。",
-       "tr": "Is that so? I'm glad to hear it."
+       "tr": "Really? I'm glad to hear that."
       },
       {
        "sp": "あなた",
        "v": "f",
        "ja": "（❹それから、{{ビジネスの授業では、日本の会社のマナーや{言葉遣|ことばづか}いについて教え}}**てくださり、ありがとうございました。**{{この授業を取ら}}**なければ、**{{日本の企業についてこんなに深く知ることはでき}}**ませんでした。**",
-       "tr": "(Also, thank you for teaching us about business manners and language use at Japanese companies in the business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
+       "tr": "(Also, thank you for teaching us about etiquette and proper language at Japanese companies in your business class. If I hadn't taken that class, I would never have learned so much about Japanese companies."
       },
       {
        "sp": "先生",
        "v": "f",
        "ja": "いえいえ、〜さんの努力があったからこそですよ。）",
-       "tr": "Not at all. It was all thanks to your own hard work, (name).)"
+       "tr": "Not at all. It's only because you worked so hard, (name).)"
       },
       {
        "sp": "あなた",
@@ -3461,7 +3461,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❻**本当にありがとうございました。先生が教えてくださったことをいかして、これからも、がんばります。それでは、失礼いたします。先生もお元気で。**",
-       "tr": "Thank you so much, really. I'll make the most of what you taught me and keep working hard from here on. Well then, I'll be going now. Please take care, Professor."
+       "tr": "I'm truly grateful. I'll make the most of what you taught me and keep working hard. Well then, I'll be going. Please take care of yourself too, Professor."
       }
      ]
     },
@@ -3472,14 +3472,14 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "もうすぐ帰国／卒業します。先生に、日本語が上達したことなどについて感謝を伝えなさい。",
-        "tr": "You're going back to your home country / graduating soon. Thank your teacher for things like how much your Japanese has improved."
+        "tr": "You're going back to your home country / graduating soon. Thank your teacher, mentioning things like how much your Japanese has improved."
        }
       },
       {
        "n": "2.",
        "text": {
         "ja": "今日はインターンシップの最終日です。{上司|じょうし}に、仕事で教えてもらったことなどについて感謝を伝えなさい。",
-        "tr": "Today is the last day of your internship. Thank your boss for things like what they taught you on the job."
+        "tr": "Today is the last day of your internship. Thank your boss, mentioning things like what you were taught on the job."
        }
       },
       {
@@ -3558,7 +3558,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{この一年間}}**、お世話になりっぱなしだったね。**",
-         "tr": "I've done nothing but rely on you this whole past year."
+         "tr": "You've been looking after me this whole past year."
         },
         {
          "sp": "絵理",
@@ -3576,7 +3576,7 @@ TRY.registerLesson({
          "sp": "絵理",
          "v": "f",
          "ja": "私のほうこそ、ありがとう。私もすごく楽しかったよ。",
-         "tr": "No, thank you. I had a great time too."
+         "tr": "I should be thanking you. I had a great time too."
         },
         {
          "sp": "あなた",
@@ -3623,7 +3623,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "あなたは、もうすぐ帰国します。日本人の友達に、日本語が上手になったことなどについて感謝を伝えなさい。",
-         "tr": "You're going back to your home country soon. Thank your Japanese friend for things like how much your Japanese has improved."
+         "tr": "You're going back to your home country soon. Thank your Japanese friend, mentioning things like how much your Japanese has improved."
         }
        ]
       }
@@ -3648,7 +3648,7 @@ TRY.registerLesson({
      "id": "l12-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3658,7 +3658,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "ペアになり、「仕事ではお金よりやりがい (worth while fulfilling) が大切だ」という意見に対して、一人は賛成、一人は反対の立場になりなさい。その理由を2つ、それぞれ一人で考えて下の表に書きなさい。",
-        "tr": "Work in pairs. Regarding the opinion \"In work, a sense of purpose matters more than money,\" one of you takes the position for it and the other against it. Each of you, on your own, think of two reasons and write them in the table below."
+        "tr": "Work in pairs. On the opinion \"In work, a sense of purpose matters more than money,\" one of you takes the side for it and the other the side against it. Each of you, working alone, think of two reasons for your position and write them in the table below."
        },
        "blocks": [
         {
@@ -3850,7 +3850,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❶「仕事ではお金よりやりがいが大切だ」**に賛成の立場から、意見を述べたいと思います。**❷**まず、**仕事にやりがいがあれば、日々の生活が{充実|じゅうじつ}する**からです。**仕事をする時間は1日の3分の1を占めています。起きている時間の多くを過ごす場所でやりがいが感じられなければ、日々の生活はつまらないものになってしまうでしょう。**それに、**自分の存在価値が感じられ、自己肯定感が持てます。自分が{一生懸命|いっしょうけんめい}取り組んだ仕事に対し、お客様や取引先から感謝されると、社会の役に立っている、社会に必要とされていると実感できます。これはお金とは比べられない特別な{報酬|ほうしゅう}な**のではないでしょうか。**\n❸**以上のことから、**「仕事ではお金よりやりがいが大切だ」**と主張します。**",
-       "tr": "I would like to state my opinion from the position in favor of \"in work, a sense of purpose matters more than money.\" First, it's because if your work gives you a sense of purpose, your daily life becomes fulfilling. Working hours take up one third of the day. If you can't feel a sense of purpose in the place where you spend so much of your waking time, your daily life will probably end up being dull. On top of that, you can feel your own worth and gain self-esteem. When customers or clients thank you for work you've put your all into, you can truly feel that you are useful to society and that society needs you. Isn't that a special reward that can't be compared with money?\nFor these reasons, I maintain that \"in work, a sense of purpose matters more than money.\""
+       "tr": "I would like to state my opinion as the side in favor of \"In work, a sense of purpose matters more than money.\" My first reason is that if your work gives you a sense of purpose, your daily life becomes fulfilling. Working hours take up one third of the day. If you can't feel a sense of purpose in the place where you spend so much of your waking time, your daily life will probably end up being dull. On top of that, you can feel that you have value and gain a sense of self-worth. When customers or clients thank you for work you've put your all into, you can truly feel that you are useful to society and that society needs you. Isn't that a special reward that money can't compare with?\nFor these reasons, I maintain that \"in work, a sense of purpose matters more than money.\""
       },
       {
        "sp": "サ",
@@ -3874,7 +3874,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "では、もう一つ質問します。……",
-       "tr": "Then, I have one more question...."
+       "tr": "In that case, I have one more question…"
       }
      ]
     },
@@ -3930,7 +3930,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "「仕事ではお金よりやりがいが大切だ」**に賛成の立場から、意見を述べたいと思います。**",
-        "tr": "I would like to state my opinion from the position in favor of \"in work, a sense of purpose matters more than money.\""
+        "tr": "I would like to state my opinion as the side in favor of \"In work, a sense of purpose matters more than money.\""
        }
       },
       {
@@ -3942,7 +3942,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**まず、**仕事にやりがいがあれば、日々の生活が{充実|じゅうじつ}する**からです。**\n**それに、**自分の存在価値が感じられ、自己肯定感が持てます。",
-        "tr": "First, it's because if your work gives you a sense of purpose, your daily life becomes fulfilling.\nOn top of that, you can feel your own worth and gain self-esteem."
+        "tr": "My first reason is that if your work gives you a sense of purpose, your daily life becomes fulfilling.\nOn top of that, you can feel that you have value and gain a sense of self-worth."
        }
       },
       {
@@ -4121,7 +4121,7 @@ TRY.registerLesson({
         [
          {
           "ja": "!!賛成側【意見のスピーチ】!!",
-          "tr": "For side [opinion speech]"
+          "tr": "Side in favor [opinion speech]"
          },
          {
           "ja": "❶ 立場を述べる ➔ ❷ 理由を2つ述べる ➔ ❸ 主張を述べる",
@@ -4131,7 +4131,7 @@ TRY.registerLesson({
         [
          {
           "ja": "反対側【反論の質問】",
-          "tr": "Against side [rebuttal question]"
+          "tr": "Opposing side [rebuttal question]"
          },
          {
           "ja": "❹ 相手の言葉を{引用|いんよう}し (quote)、反論する ➔ ❺ 例や理由を挙げる",
@@ -4141,7 +4141,7 @@ TRY.registerLesson({
         [
          {
           "ja": "!!賛成側【反論の質問への答え】!!",
-          "tr": "For side [answer to the rebuttal question]"
+          "tr": "Side in favor [answer to the rebuttal question]"
          },
          {
           "ja": "❻ 一部を認め (admit)、反論に反論する ➔ ❼ まとめる",
@@ -4169,7 +4169,7 @@ TRY.registerLesson({
          "sp": "賛成側",
          "v": "f",
          "ja": "❶「＿＿」**に賛成の立場から意見を述べます。**\n❷**まず、**＿＿**。それに**＿＿**。**\n❸**以上のことから、**「＿＿」**と主張します。**",
-         "tr": "I will state my opinion from the position of agreeing with \"….\"\nFirst, …. On top of that, ….\nFor these reasons, I maintain that \"….\""
+         "tr": "I will state my opinion as the side in favor of \"….\"\nFirst, …. On top of that, ….\nFor these reasons, I maintain that \"….\""
         },
         {
          "sp": "司会",
@@ -4194,7 +4194,7 @@ TRY.registerLesson({
          "sp": "反対側",
          "v": "m",
          "ja": "では、もう一つ質問します。",
-         "tr": "Then, I have one more question."
+         "tr": "In that case, I have one more question."
         },
         {
          "ja": "＊＊＊ 反対側が質問を続ける。＊＊＊",
@@ -4211,7 +4211,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "「2-1. やってみよう」(p. 190) で話した「仕事ではお金よりやりがいが大切だ」というテーマで、賛成側と反対側に分かれてミニディベートをしなさい。",
-        "tr": "Split into a side in favor and a side against and hold a mini-debate on the theme you talked about in \"2-1. Let's try it\" (p. 190): \"In work, a sense of purpose matters more than money.\""
+        "tr": "Split into a side in favor and a side against and hold a mini-debate on the theme you talked about in \"2-1. Let's try\" (p. 190): \"In work, a sense of purpose matters more than money.\""
        },
        "blocks": [
         {
@@ -4257,7 +4257,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "（まとめのスピーチと判定 (judge)）\nディベートは、「2-4. 練習しよう」の❶〜❼の後、以下の❽〜⓫の「まとめのスピーチ」と「判定」が続きます。［　　　］のパターンを使って話してみましょう。まず反対側がまとめのスピーチを行い、次に賛成側がまとめのスピーチをした後に、{司会|しかい}が判定を行います。",
-        "tr": "(Closing speeches and the judgment)\nIn a debate, after 1–7 of \"2-4. Let's practice,\" come the \"closing speeches\" and the \"judgment\" of 8–11 below. Try speaking using the pattern in the gray box. First the opposing side gives its closing speech, then, after the side in favor gives its closing speech, the moderator makes the judgment."
+        "tr": "(Closing speeches and the judgment)\nIn a debate, steps 1–7 in \"2-4. Let's practice\" are followed by the \"closing speeches\" and the \"judgment\" in 8–11 below. Try speaking using the pattern in the gray box. First the opposing side gives its closing speech, then, after the side in favor gives its closing speech, the moderator makes the judgment."
        },
        "blocks": [
         {
@@ -4275,7 +4275,7 @@ TRY.registerLesson({
             [
              {
               "ja": "反対側【反対のまとめのスピーチ】",
-              "tr": "Against side [closing speech against]"
+              "tr": "Opposing side [closing speech]"
              },
              {
               "ja": "❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する",
@@ -4285,7 +4285,7 @@ TRY.registerLesson({
             [
              {
               "ja": "!!賛成側【賛成のまとめのスピーチ】!!",
-              "tr": "For side [closing speech in favor]"
+              "tr": "Side in favor [closing speech]"
              },
              {
               "ja": "❽ 立場と理由を述べる ➔ ❾ 反論する ➔ ❿ 主張する",
@@ -4323,7 +4323,7 @@ TRY.registerLesson({
              "sp": "反対側",
              "v": "m",
              "ja": "❽「__{{仕事ではお金よりやりがいが大切だ}}__」**に反対の意見をまとめてお話しします。**\n**まず、**__{{仕事にやりがいがなくても、日々の生活がつまらなくなるとは限らないからです}}__**。それに**__{{趣味に没頭したり休みに旅行したりするためには、お金も必要です}}__**。**\n❾**確かに**__{{やりがいがなければ、仕事は楽しくないかもしれません}}__**。**\n**しかし、**__{{お金がなければ、生活を十分に楽しめないと思います}}__**。**\n❿**よって、**__{{仕事ではやりがいよりお金のほうが大切だ}}__**と主張します。**",
-             "tr": "I will sum up our opinion against \"in work, a sense of purpose matters more than money.\"\nFirst, it's because even if your work doesn't give you a sense of purpose, your daily life won't necessarily become dull. On top of that, you also need money to immerse yourself in hobbies and travel on your days off.\nCertainly, without a sense of purpose, work may not be enjoyable.\nHowever, I think that without money, you can't fully enjoy life.\nTherefore, I maintain that \"in work, money matters more than a sense of purpose.\""
+             "tr": "I will sum up our opinion against \"in work, a sense of purpose matters more than money.\"\nFirst, because even if your work doesn't give you a sense of purpose, your daily life won't necessarily become dull. On top of that, you also need money to immerse yourself in hobbies or travel on your days off.\nCertainly, without a sense of purpose, work may not be enjoyable.\nHowever, I think that without money, you can't fully enjoy life.\nTherefore, I maintain that \"in work, money matters more than a sense of purpose.\""
             },
             {
              "sp": "司会",
@@ -4357,7 +4357,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "（ミニディベートにチャレンジ）❶〜⓫の流れでミニディベート全体を行いなさい。",
-        "tr": "(Take on a mini-debate) Hold a whole mini-debate following the flow of 1–11."
+        "tr": "(Try a mini-debate) Hold a complete mini-debate following steps 1–11."
        },
        "blocks": [
         {
@@ -4419,7 +4419,7 @@ TRY.registerLesson({
                "n": "①",
                "text": {
                 "ja": "自分のチームの立場と、その理由を2つ考え、下の表に書きなさい。",
-                "tr": "Decide your team's position and think of two reasons for it, and write them in the table below."
+                "tr": "Think about your team's position and two reasons for it, and write them in the table below."
                }
               },
               {
@@ -4622,7 +4622,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "大学の就職セミナーで、キャリアセンターの人が今の日本企業が求める人材について話しています。センターの人によると、日本企業が求める能力のうち、これからの時代に最も必要な能力はa〜hのどれですか。",
-      "tr": "At a university job-hunting seminar, someone from the career center is talking about the kind of people Japanese companies are looking for today. According to the person from the center, which of a–h is the ability, among those Japanese companies look for, that will be most needed in the years ahead?"
+      "tr": "At a university job-hunting seminar, someone from the career center is talking about the kind of people Japanese companies are looking for today. According to the person from the center, which of the abilities Japanese companies look for, a–h, will be most needed in the years ahead?"
      }
     },
     {
@@ -4744,7 +4744,7 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "大学の就職セミナーで、キャリアセンターの人が今の日本企業が求める人材について話しています。センターの人によると、日本企業が求める能力のうち、これからの時代に最も必要な能力はa〜hのどれですか。",
-      "tr": "At a university job-hunting seminar, someone from the career center is talking about the kind of people Japanese companies are looking for today. According to the person from the center, which of a–h is the ability, among those Japanese companies look for, that will be most needed in the years ahead?"
+      "tr": "At a university job-hunting seminar, someone from the career center is talking about the kind of people Japanese companies are looking for today. According to the person from the center, which of the abilities Japanese companies look for, a–h, will be most needed in the years ahead?"
      },
      "lines": [
       {
@@ -4769,13 +4769,13 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "しかし、今ではどの企業も{即戦力|そくせんりょく}を求めています。即戦力というと、具体的なスキル、{専門|せんもん}的知識、業務経験といったものをイメージし__がち__ですが、企業が求めているのは「自分でものを考え、行動できる力、主体性」です。会社に入ると、自分で{判断|はんだん}しなければならないことがたくさんあります。仕事を任されている__以上__、「上司がそう言ったから」といった態度では{困|こま}ります。その点に関して言えば、「リーダーシップが取れること」も同様に大切なスキルだと言えます。",
-       "tr": "Today, however, every company is looking for people who can contribute right away. When people hear \"ready to contribute right away,\" they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is \"the ability to think for yourself and act, and initiative.\" Once you join a company, there are many things you have to decide on your own. Since you've been entrusted with the work, an attitude of \"I did it because my boss said so\" won't do. In that respect, you could say that \"being able to take the lead\" is an equally important skill."
+       "tr": "Today, however, every company is looking for people who can hit the ground running. When people hear that, they tend to picture things like concrete skills, expert knowledge, and work experience, but what companies want is \"the ability to think and act for yourself: initiative.\" Once you join a company, there are many things you have to decide on your own. Once you've been entrusted with a job, an attitude of \"I did it because my boss said so\" won't do. In that respect, you could say that \"being able to show leadership\" is an equally important skill."
       },
       {
        "sp": "",
        "v": "f",
        "ja": "しかし、時代は常に変化していますから、今だけでなく、先を見なければいけません。これからの時代を考えると、グラフの変化が最も大きいこの部分に注目すべきでしょう。今後、AIの発展により、今ある仕事の多くがなくなると言われています。そのような時代の変化に対応するためにも、今までにない新しい考え方ができることが、これからの時代に最も求められているのです。",
-       "tr": "But times are always changing, so you have to look not only at the present but ahead. When you think about the years to come, you should pay attention to this part, where the change in the graph is the biggest. It's said that with the development of AI, many of the jobs that exist today will disappear. In order to adapt to changing times like that, being able to think in new ways that no one has thought of before is what will be most in demand in the years ahead."
+       "tr": "But times are always changing, so you have to look not only at the present but ahead. When you think about the years to come, you should pay attention to this part, where the change in the graph is the biggest. It's said that with the development of AI, many of the jobs that exist today will disappear. Partly to adapt to changes like that, what will be most in demand in the years ahead is the ability to think in new ways never seen before."
       }
      ]
     },
@@ -4804,7 +4804,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "国際的に活躍できる仕事には、どんなものがありますか。また、その仕事ではどのような能力が求められると思いますか。",
-      "tr": "What kinds of jobs let you work actively on the international stage? And what abilities do you think those jobs require?"
+      "tr": "What kinds of jobs let you play an active role internationally? And what abilities do you think those jobs require?"
      }
     },
     {
@@ -4894,7 +4894,7 @@ TRY.registerLesson({
          "n": "2.",
          "text": {
           "ja": "{主体|しゅたい}性や積極性・チャレンジ精神",
-          "tr": "Initiative, proactiveness, and a spirit of taking on challenges"
+          "tr": "Initiative, proactiveness, and a willingness to take on challenges"
          }
         },
         {
@@ -4958,7 +4958,7 @@ TRY.registerLesson({
            "n": "④",
            "text": {
             "ja": "チャレンジ精神が必要なのは、国際的に活躍したい人に限らない。",
-            "tr": "It isn't only people who want to work actively on the international stage who need a spirit of taking on challenges."
+            "tr": "It isn't only people who want to play an active role internationally who need a willingness to take on challenges."
            },
            "answer": "○"
           },
@@ -5009,7 +5009,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "あなたの国では、国際的に活躍するためには、どんな能力が求められますか。",
-        "tr": "In your country, what abilities are required to work actively on the international stage?"
+        "tr": "In your country, what abilities are required to play an active role internationally?"
        }
       }
      ]
@@ -5037,7 +5037,7 @@ TRY.registerLesson({
        "sp": "サラ",
        "v": "f",
        "ja": "うん。ビジネスで国際的に活躍できる人材というと、語学力が強調され__がち__だけど、自分が伝えたいことを効果的に伝えられる表現力も必要なんだね。",
-       "tr": "Yeah. When people talk about the kind of people who can work actively on the international business stage, language skills tend to get emphasized, but you also need the expressive skills to convey what you want to say effectively, huh?"
+       "tr": "Yeah. When people talk about who can succeed in international business, language skills tend to get emphasized, but you also need to be able to express what you want to say effectively, huh?"
       },
       {
        "sp": "研",
@@ -5049,13 +5049,13 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "うん。でも、2つ目に先生が言っていた、主体性や積極性、チャレンジ精神は、グローバル人材に限らず、すべてのビジネスパーソンに必要なものだよね。",
-       "tr": "Yeah. But the second thing the professor talked about, initiative, proactiveness, and a spirit of taking on challenges, is something every businessperson needs, not just global talent, right?"
+       "tr": "Yeah. But the second thing the professor talked about, initiative, proactiveness, and a willingness to take on challenges, is something every businessperson needs, not just global talent, right?"
       },
       {
        "sp": "研",
        "v": "m",
        "ja": "そうだね。「企業は今、自分で考えて動ける人材を求めている」って、この前の就職セミナーでも言ってたよね。",
-       "tr": "Right. They said at the job-hunting seminar the other day too that \"companies today are looking for people who can think for themselves and take action.\""
+       "tr": "Right. They said the same thing at the job-hunting seminar the other day: \"Companies today are looking for people who can think and act for themselves.\""
       },
       {
        "sp": "サ",
@@ -5067,7 +5067,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "でも、日本人の多くはただ{争|あらそ}いを{避|さ}けるために相手の意見に同意している__にすぎない__んじゃないかな。ここで言う「協調性」って、相手との違いを受け入れて、{互|たが}いの合意点を見つけられる能力ってことでしょ？",
-       "tr": "But I suspect a lot of Japanese people are merely going along with the other person's opinion to avoid conflict. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
+       "tr": "But I suspect a lot of Japanese people are merely agreeing with the other person just to avoid conflict. The \"cooperativeness\" they mean here is the ability to accept your differences with the other person and find points you can both agree on, isn't it?"
       },
       {
        "sp": "サ",
