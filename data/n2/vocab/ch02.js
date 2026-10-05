@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "gene",
     note: "A science word: 遺伝子の研究, 遺伝子組み換え (genetically modified), 遺伝子検査. 遺伝 alone means heredity (遺伝する “be inherited”).",
     rx: ["いてんし", "ゆいでんし", "いでんじ"],
-    book: { ja: "彼は2000年4月{以来|いらい}、1日も休まず**{遺伝子|いでんし}**の研究を続けている。", en: "Since April 2000 he has continued his genetic research without taking a single day off.", at: "gp/9" },
+    book: { ja: "彼は2000年4月{以来|いらい}、1日も休まず**{遺伝子|いでんし}**の研究を続けている。", en: "Since April 2000, he has kept up his genetic research without taking a single day off.", at: "gp/9" },
     ex: [
       { ja: "この{病気|びょうき}は、ある**{遺伝子|いでんし}**の{変化|へんか}が{原因|げんいん}だとわかった。", en: "It turned out this disease is caused by a change in a particular gene.", alt: ["{電子|でんし}", "{原子|げんし}", "{遺産|いさん}"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to be careful about; to be considerate (of others); to worry about",
     note: "Paying attention so as not to trouble others or to take care of something: 健康に気を遣う, 周りに気を遣う. The noun 気遣い means consideration. Compare 気をつける (be careful, watch out) and 気にする (worry, mind).",
     rx: ["きをつこう", "けをつかう", "きをづかう"],
-    book: { ja: "今まで以上に食事に**{気|き}を{遣|つか}う**ようになった", en: "(he) has become more careful about his diet than ever", at: "gp/9" },
+    book: { ja: "今まで以上に食事に**{気|き}を{遣|つか}う**ようになった", en: "(he) has been more careful than ever about what he eats", at: "gp/9" },
     ex: [
       { ja: "{彼女|かのじょ}はいつも{周|まわ}りの{人|ひと}に**{気|き}を{遣|つか}って**いて、{疲|つか}れないのかと{思|おも}う。", en: "She's always so considerate of the people around her that I wonder if she ever gets tired.", alt: ["{気|き}を{失|うしな}って", "{気|き}が{済|す}んで", "{気|き}が{抜|ぬ}けて"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "raising children; child-rearing; parenting",
     note: "Everyday word for bringing up children: 子育て中の親, 子育て支援 (childcare support), 子育てと仕事を両立する. 育児 is more formal and centers on infant care (育児休業).",
     rx: ["こいくて", "こそだって", "しそだて"],
-    book: { ja: "**{子育|こそだ}て**は{夫婦|ふうふ}の{協力|きょうりょく}のもとで{行|おこな}われるべきだ。", en: "Child-rearing should be done with the cooperation of husband and wife.", at: "gp/11" },
+    book: { ja: "**{子育|こそだ}て**は{夫婦|ふうふ}の{協力|きょうりょく}のもとで{行|おこな}われるべきだ。", en: "Raising children should be done with the cooperation of both husband and wife.", at: "gp/11" },
     ex: [
       { ja: "{働|はたら}きながらの**{子育|こそだ}て**は{大変|たいへん}だが、{家族|かぞく}が{助|たす}けてくれる。", en: "Raising children while working is hard, but my family helps me.", alt: ["{仕立|した}て", "{見立|みた}て", "{組|く}み{立|た}て"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "rationalization; streamlining (to cut waste and costs)",
     note: "In business it often means restructuring and cutting staff: 経営の合理化, 業務を合理化する. 合理的 (rational, efficient) is the adjective.",
     rx: ["ごうりけ", "こうりか", "ごりか"],
-    book: { ja: "**{合理化|ごうりか}**の{名|な}のもとに{多数|たすう}の{従業員|じゅうぎょういん}が{解雇|かいこ}された。", en: "A large number of employees were dismissed in the name of rationalization.", at: "gp/11" },
+    book: { ja: "**{合理化|ごうりか}**の{名|な}のもとに{多数|たすう}の{従業員|じゅうぎょういん}が{解雇|かいこ}された。", en: "Large numbers of employees were laid off in the name of streamlining.", at: "gp/11" },
     ex: [
       { ja: "{工場|こうじょう}では{作業|さぎょう}の**{合理化|ごうりか}**を{進|すす}め、コストを{大|おお}きく{減|へ}らした。", en: "The factory streamlined its operations and cut costs substantially.", alt: ["{正当化|せいとうか}", "{悪化|あっか}", "{高齢化|こうれいか}"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "employee; worker; staff member",
     note: "Anyone employed at a company, shop or factory: 従業員数, 従業員専用 (staff only). 社員 is a company's regular employee; 職員 is staff of a public office or school.",
     rx: ["じゅぎょういん", "しゅうぎょういん", "じゅうごういん"],
-    book: { ja: "{合理化|ごうりか}の{名|な}のもとに{多数|たすう}の**{従業員|じゅうぎょういん}**が{解雇|かいこ}された。", en: "A large number of employees were dismissed in the name of rationalization.", at: "gp/11" },
+    book: { ja: "{合理化|ごうりか}の{名|な}のもとに{多数|たすう}の**{従業員|じゅうぎょういん}**が{解雇|かいこ}された。", en: "Large numbers of employees were laid off in the name of streamlining.", at: "gp/11" },
     ex: [
       { ja: "この{工場|こうじょう}では、約500{人|にん}の**{従業員|じゅうぎょういん}**が{働|はたら}いている。", en: "About 500 employees work at this factory.", alt: ["{乗務員|じょうむいん}", "{委員|いいん}", "{定員|ていいん}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "dismissal; firing; layoff",
     note: "An employer ending someone's employment: 解雇する / される, 不当解雇 (unfair dismissal). Casually クビになる. Quitting on one's own is 退職 / 辞職.",
     rx: ["かいご", "げこ", "かいこう"],
-    book: { ja: "{合理化|ごうりか}の{名|な}のもとに{多数|たすう}の{従業員|じゅうぎょういん}が**{解雇|かいこ}**された。", en: "A large number of employees were dismissed in the name of rationalization.", at: "gp/11" },
+    book: { ja: "{合理化|ごうりか}の{名|な}のもとに{多数|たすう}の{従業員|じゅうぎょういん}が**{解雇|かいこ}**された。", en: "Large numbers of employees were laid off in the name of streamlining.", at: "gp/11" },
     ex: [
       { ja: "{会社|かいしゃ}の{業績|ぎょうせき}が{悪化|あっか}し、{多|おお}くの{社員|しゃいん}が**{解雇|かいこ}**された。", en: "The company's performance worsened, and many employees were laid off.", alt: ["{回顧|かいこ}", "{解決|かいけつ}", "{介護|かいご}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "beforehand; in advance; prior",
     note: "Before something happens: 事前に連絡する / 予約する, 事前の準備, 事前申し込み. The opposite is 事後 (after the fact). あらかじめ is a close adverb.",
     rx: ["じせん", "しぜん", "ことまえ"],
-    book: { ja: "**{事前|じぜん}**に予約した場合（　）{無料|むりょう}で{参加|さんか}できます。", en: "Only if you book in advance can you take part free of charge.", at: "gp/12" },
+    book: { ja: "**{事前|じぜん}**に予約した場合（　）{無料|むりょう}で{参加|さんか}できます。", en: "Participation is free only for those who book in advance.", at: "gp/12" },
     ex: [
       { ja: "{欠席|けっせき}する{場合|ばあい}は、**{事前|じぜん}**にご{連絡|れんらく}ください。", en: "If you will be absent, please let us know in advance.", alt: ["{事情|じじょう}", "{自然|しぜん}", "{以前|いぜん}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lively; active; brisk",
     note: "Full of energy and activity: 活発な子ども, 活発な議論 (a lively discussion), 交流が活発になる. 積極的 is “proactive” (willing to act); 活発 describes energetic movement or activity.",
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
-    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchanges between the two countries will probably become more active in culture as well as, of course, in the economy.", at: "gp/12" },
+    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchange between the two countries will probably grow more active in the economy, of course, and in culture as well.", at: "gp/12" },
     ex: [
       { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees joined actively in the discussion.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "heartbreak; being disappointed in love",
     note: "Losing love — being rejected or dumped: 失恋する, 失恋の痛み, 失恋から立ち直る (get over a breakup). 別れる is simply to break up; 振られる is to be dumped.",
     rx: ["しつれい", "しっれん", "しつこい"],
-    book: { ja: "**{失恋|しつれん}**したら、めいっぱいおしゃれをして出かけましょう。", en: "When you've had your heart broken, dress up as much as you can and go out.", at: "gp/13" },
+    book: { ja: "**{失恋|しつれん}**したら、めいっぱいおしゃれをして出かけましょう。", en: "When your heart's been broken, get all dressed up and go out.", at: "gp/13" },
     ex: [
       { ja: "{好|す}きな{人|ひと}に{告白|こくはく}して{断|ことわ}られ、{生|う}まれて{初|はじ}めて**{失恋|しつれん}**した。", en: "I confessed my feelings to the person I liked, got turned down, and had my heart broken for the first time in my life.", alt: ["{失業|しつぎょう}", "{失礼|しつれい}", "{失格|しっかく}"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "comprehensive; general; overall; synthesis",
     note: "Combining many parts into one: 総合病院 (general hospital), 総合メーカー (full-range maker), 総合的に判断する (judge overall), 総合優勝. 合計 is adding up numbers.",
     rx: ["そうご", "そごう", "そうこう"],
-    book: { ja: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の**{総合|そうごう}**メーカーです。", en: "Our company is a general confectionery maker whose products include chocolate and many other sweets.", at: "ch/2" },
+    book: { ja: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の**{総合|そうごう}**メーカーです。", en: "Our company makes a full range of sweets, chocolate first and foremost.", at: "ch/2" },
     ex: [
       { ja: "{祖父|そふ}は{駅前|えきまえ}の**{総合|そうごう}**{病院|びょういん}に{入院|にゅういん}している。", en: "My grandfather is in the general hospital by the station.", alt: ["{合同|ごうどう}", "{総額|そうがく}", "{都合|つごう}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "model; example (to follow); copybook",
     note: "Someone or something to imitate: 〜を手本にする, お手本を見せる (demonstrate), 子どもの手本になる (be a role model). 見本 is a sample of a product.",
     rx: ["しゅほん", "てぼん", "てもと"],
-    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "There is a saying, “A child is the mirror of its parents”; children probably grow up taking their parents as their model.", at: "gp/16" },
+    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children no doubt grow up modeling themselves on their parents.", at: "gp/16" },
     ex: [
       { ja: "{先生|せんせい}が**{手本|てほん}**を{見|み}せてから、{生徒|せいと}が{書|か}いてみた。", en: "After the teacher demonstrated, the students tried writing it themselves.", alt: ["{手帳|てちょう}", "{本気|ほんき}", "{手間|てま}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "premise; precondition; assumption",
     note: "〜を前提に(する) / 〜を前提として means “on the assumption that; with a view to”: 結婚を前提に付き合う, 前提条件. 条件 is a condition to be met; 前提 is what is taken for granted beforehand.",
     rx: ["ぜんで", "せんてい", "まえてい"],
-    book: { ja: "{結婚|けっこん}を**{前提|ぜんてい}**に彼女に{交際|こうさい}を申し込んだ。", en: "I asked her to go out with me with a view to marriage.", at: "gp/16" },
+    book: { ja: "{結婚|けっこん}を**{前提|ぜんてい}**に彼女に{交際|こうさい}を申し込んだ。", en: "I asked her to go out with me with marriage in mind.", at: "gp/16" },
     ex: [
       { ja: "この{計画|けいかく}は、{予算|よさん}が{通|とお}ることが**{前提|ぜんてい}**になっている。", en: "This plan is based on the premise that the budget will be approved.", alt: ["{前半|ぜんはん}", "{提出|ていしゅつ}", "{前後|ぜんご}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "dating; (romantic) relationship; association, social contact",
     note: "〜と交際する can mean going out with someone (交際を申し込む “ask someone out”, 交際相手 “partner”) or, more formally, keeping company with people (交際費 “entertainment expenses”). 付き合う is the everyday verb.",
     rx: ["こうざい", "こさい", "こうせい"],
-    book: { ja: "{結婚|けっこん}を{前提|ぜんてい}に彼女に**{交際|こうさい}**を申し込んだ。", en: "I asked her to go out with me with a view to marriage.", at: "gp/16" },
+    book: { ja: "{結婚|けっこん}を{前提|ぜんてい}に彼女に**{交際|こうさい}**を申し込んだ。", en: "I asked her to go out with me with marriage in mind.", at: "gp/16" },
     ex: [
       { ja: "二人は三年間の**{交際|こうさい}**を{経|へ}て、{結婚|けっこん}した。", en: "The two got married after dating for three years.", alt: ["{交換|こうかん}", "{交差|こうさ}", "{国際|こくさい}"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "hiring; employment; adoption (of an idea or method)",
     note: "Two uses: hiring people (社員を採用する, 採用試験, 採用が決まる) and adopting ideas (新しい方式を採用する, 意見が採用される). 雇う is the plain verb for hiring.",
     rx: ["さいよ", "しゅよう", "さいおう"],
-    book: { ja: "今のアルバイトは2週間の{研修|けんしゅう}に毎日{参加|さんか}することを{条件|じょうけん}（　）**{採用|さいよう}**された。", en: "I was hired for my current part-time job on condition that I attend a two-week training course every day.", at: "gp/16" },
+    book: { ja: "今のアルバイトは2週間の{研修|けんしゅう}に毎日{参加|さんか}することを{条件|じょうけん}（　）**{採用|さいよう}**された。", en: "I was hired for my current part-time job on condition that I attend two weeks of training every day.", at: "gp/16" },
     ex: [
       { ja: "{私|わたし}の{出|だ}したアイデアが、{新|あたら}しい{広告|こうこく}に**{採用|さいよう}**された。", en: "The idea I suggested was adopted for the new ad.", alt: ["{信用|しんよう}", "{採集|さいしゅう}", "{費用|ひよう}"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to aim for; to aim to become; to head for",
     note: "Having a goal or destination: 優勝を目指す, 医者を目指す (aim to become a doctor), 山頂を目指して登る. 狙う is “target, aim at” (often a chance or a prize), with a more calculating nuance.",
     rx: ["もくさす", "めさす", "めざる"],
-    book: { ja: "私が{昆虫|こんちゅう}{学者|がくしゃ}を**{目指|めざ}した**きっかけは、子どものときに{夢中|むちゅう}で読んだ『ファーブル{昆虫記|こんちゅうき}』です。", en: "What made me aim to become an entomologist was Fabre's Book of Insects, which I read avidly as a child.", at: "gp/17" },
+    book: { ja: "私が{昆虫|こんちゅう}{学者|がくしゃ}を**{目指|めざ}した**きっかけは、子どものときに{夢中|むちゅう}で読んだ『ファーブル{昆虫記|こんちゅうき}』です。", en: "What first set me on the path to becoming an entomologist was Fabre's Book of Insects, which I read avidly as a child.", at: "gp/17" },
     ex: [
       { ja: "{彼女|かのじょ}は{弁護士|べんごし}を**{目指|めざ}して**、{毎日|まいにち}{勉強|べんきょう}している。", en: "She studies every day, aiming to become a lawyer.", alt: ["{目立|めだ}って", "{見|み}{直|なお}して", "{目覚|めざ}めて"] },
     ] },
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "to handle; to deal in (goods); to treat (a person or matter)",
     note: "Several senses: handle an object (丁寧に扱う), sell or deal in goods (その商品は扱っていない), treat a person (子ども扱いする “treat like a child”), deal with a topic (問題を扱う). 取り扱う is the formal form.",
     rx: ["あずかう", "きゅうう", "あつこう"],
-    book: { ja: "この店で働く（　）**{扱|あつか}う**{商品|しょうひん}についてよく勉強しなければならない。", en: "If you're going to work at this shop, you have to study the products it handles thoroughly.", at: "gp/18" },
+    book: { ja: "この店で働く（　）**{扱|あつか}う**{商品|しょうひん}についてよく勉強しなければならない。", en: "If you're going to work at this shop, you have to learn all about the products it carries.", at: "gp/18" },
     ex: [
       { ja: "{割|わ}れやすいので、この{箱|はこ}は{丁寧|ていねい}に**{扱|あつか}って**ください。", en: "It's fragile, so please handle this box carefully.", alt: ["{扇|あお}いで", "{預|あず}かって", "{誘|さそ}って"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "(business) performance, results; achievements (of a person)",
     note: "A company's results (業績が悪化する / 回復する, 業績不振 “poor results”) or someone's accomplishments (研究の業績). 成績 is grades or performance scores.",
     rx: ["ごうせき", "ぎょうしょく", "ぎょせき"],
-    book: { ja: "彼の{努力|どりょく}にもかかわらず、**{業績|ぎょうせき}**はよくならなかった。", en: "Despite his efforts, business results did not improve.", at: "gp/21" },
+    book: { ja: "彼の{努力|どりょく}にもかかわらず、**{業績|ぎょうせき}**はよくならなかった。", en: "Despite his efforts, the company's performance didn't improve.", at: "gp/21" },
     ex: [
       { ja: "{新商品|しんしょうひん}のヒットで、{会社|かいしゃ}の**{業績|ぎょうせき}**が{大|おお}きく{伸|の}びた。", en: "Thanks to a hit new product, the company's results improved dramatically.", alt: ["{業務|ぎょうむ}", "{面積|めんせき}", "{功績|こうせき}"] },
     ] },

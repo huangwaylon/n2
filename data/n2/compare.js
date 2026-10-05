@@ -343,7 +343,7 @@ TRY.registerCompare([
         ex: { ja: "{区民|くみん}センターの利用料金が{変更|へんこう}になりました。{和室|わしつ}は、{人数|にんずう}**にかかわらず**、2時間1,000円になります。", en: "The fees for the ward community center have changed. The Japanese-style room is now ¥1,000 for two hours, regardless of the number of people." },
         note: "N (a range or a pair of opposites: 人数, 天候, 好き嫌い) / V-る V-ない + にかかわらず: \"regardless of\". The rule or result holds in every case." },
       { pattern: "〜にもかかわらず", level: "N2", no: 21,
-        ex: { ja: "彼の{努力|どりょく}**にもかかわらず**、{業績|ぎょうせき}はよくならなかった。", en: "Despite his efforts, business results did not improve." },
+        ex: { ja: "彼の{努力|どりょく}**にもかかわらず**、{業績|ぎょうせき}はよくならなかった。", en: "Despite his efforts, the company's performance didn't improve." },
         note: "Plain form / N + にもかかわらず: \"despite / even though\". A formal のに: the actual outcome contradicts what the situation would lead one to expect." }
     ]
   },
