@@ -106,7 +106,7 @@ TRY.registerCompare([
         ex: { ja: "この{目薬|めぐすり}は2週間で使い**きって**ください。{残|のこ}ったら使わないで{捨|す}ててください。", en: "Please use up these eye drops within two weeks. If any is left over, throw it away without using it." },
         note: "V-ます stem + きる: \"do completely / to the end\" (使いきる, 食べきる, 読みきる). The focus is on finishing all of it; not about what happens afterward." },
       { pattern: "Vたきり", level: "N2", no: 37,
-        ex: { ja: "彼は「ごめん」と言った**きり**、{黙|だま}ってしまった。", en: "He said “sorry” and then fell silent." },
+        ex: { ja: "彼は「ごめん」と言った**きり**、{黙|だま}ってしまった。", en: "He said “sorry” and then didn't say another word." },
         note: "V-た + きり (casual っきり): \"did V, and that was the last of it\". Nothing further followed, so the rest is usually negative or an unchanged state (〜ていない, 〜ままだ)." }
     ]
   },
@@ -169,7 +169,7 @@ TRY.registerCompare([
         ex: { ja: "{願書|がんしょ}は1月28日{必着|ひっちゃく}の**こと**。{窓口|まどぐち}での受け付けは{行|おこな}っておりません。", en: "Applications must arrive by January 28. We do not accept them at the counter." },
         note: "Sentence-final V-る / V-ない / Nの + こと: \"must / do not\". An impersonal written rule or instruction on notices, application guidelines and regulations; not used in conversation." },
       { pattern: "〜ことか", level: "N2", no: 42,
-        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. Nobody knows how hard I worked." },
+        ex: { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強した**ことか**。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you have no idea how much I studied to pass this exam. I don't suppose anyone knows how hard I worked." },
         note: "どれだけ / どんなに / なんと + plain form + ことか: \"you have no idea how ~!\". An emotional exclamation about the degree of what the speaker did or felt; somewhat literary." },
       { pattern: "〜ことから", level: "N2", no: 62,
         ex: { ja: "このサツマイモは中が赤い**ことから**、{紅|べに}イモと呼ばれています。", en: "This sweet potato is called a beni-imo (\"crimson potato\") because it is red inside." },
@@ -478,7 +478,7 @@ TRY.registerCompare([
         ex: { ja: "昔はよく友達と近くの川で{泳|およ}いだ**ものだ**。", en: "I often used to swim in the nearby river with my friends." },
         note: "V-た + ものだ: \"used to (fondly)\". Nostalgic recollection of a repeated past habit (with よく, 昔は); unlike ①, it's about the speaker's own past." },
       { pattern: "〜ものではない", level: "N2", no: 46,
-        ex: { ja: "{楽|らく}をしてお金をもうけようなんて考える**もんじゃない**。", en: "You shouldn't think about making money the easy way." },
+        ex: { ja: "{楽|らく}をしてお金をもうけようなんて考える**もんじゃない**。", en: "You shouldn't even think about trying to make easy money." },
         note: "V-る + ものではない (もんじゃない): \"one shouldn't\". A warning grounded in common sense or social norms — the negative of ものだ①." },
       { pattern: "Nというものだ", level: "N2", no: 52,
         ex: { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。\nB：困ったときに助け合うのが友達**というものだ**ろ。手伝ってあげなさい。", en: "A: Because of Yamashita, our group is the only one that hasn't finished its project.\nB: Helping each other out when someone's in trouble — that's what friends are for, isn't it? Go and help out." },

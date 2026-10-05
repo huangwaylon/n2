@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "equipment; apparatus; utensil, appliance",
     note: "Tools or devices made for a particular use: 健康器具 (fitness equipment), 調理器具 (cooking utensils), 医療器具 (medical instruments). 機械 is a powered machine, and 道具 is the everyday word for tools in general.",
     rx: ["きく", "ぎぐ", "きこう"],
-    book: { ja: "家には2、3回使ったきりの**{健康器具|けんこうきぐ}**がいくつもある。", en: "At home I have several pieces of fitness equipment that I used only two or three times.", at: "gp/37" },
+    book: { ja: "家には2、3回使ったきりの**{健康器具|けんこうきぐ}**がいくつもある。", en: "I've got several pieces of exercise equipment at home that I've only used two or three times.", at: "gp/37" },
     ex: [
       { ja: "キャンプ{用|よう}の{調理|ちょうり}**{器具|きぐ}**を一{式|しき}そろえた。", en: "I got a full set of cooking gear for camping.", alt: ["{器用|きよう}", "{家具|かぐ}", "{機会|きかい}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to fall silent; to say nothing; to not tell (anyone)",
     note: "黙ってしまう (go quiet), 黙って聞く (listen without a word), and 黙って〜する “do something without telling anyone” (親に黙って出かける). The command 黙れ！ is a rude “Shut up!”. The on-reading モク appears in 沈黙 (silence) and 黙読 (reading silently).",
     rx: ["もくる", "だもる", "しずまる"],
-    book: { ja: "彼は「ごめん」と言ったきり、**{黙|だま}って**しまった。", en: "He said “sorry” and then fell silent.", at: "gp/37" },
+    book: { ja: "彼は「ごめん」と言ったきり、**{黙|だま}って**しまった。", en: "He said “sorry” and then didn't say another word.", at: "gp/37" },
     ex: [
       { ja: "{母|はは}に**{黙|だま}って**{友達|ともだち}の{家|いえ}に{泊|と}まった。", en: "I stayed over at a friend's house without telling my mother.", alt: ["{眠|ねむ}って", "{静|しず}まって", "{踊|おど}って"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "bedridden; confined to bed",
     note: "The 〜きり pattern turned into a word: 寝たきりになる (become bedridden), 寝たきりの高齢者 (bedridden elderly people). It implies being unable to get up for a long time because of illness or old age; 寝込む is being laid up for a few days.",
     rx: ["しんたきり", "ねったきり", "いねたきり"],
-    book: { ja: "うちの犬は体がすっかり弱って、毎日ほとんど**寝たきり**だ。", en: "Our dog has grown very weak and is almost completely bedridden.", at: "gp/37" },
+    book: { ja: "うちの犬は体がすっかり弱って、毎日ほとんど**寝たきり**だ。", en: "Our dog has gotten very weak and spends almost every day lying down.", at: "gp/37" },
     ex: [
       { ja: "{祖母|そぼ}は{骨折|こっせつ}してから**{寝|ね}たきり**になってしまった。", en: "My grandmother has been bedridden since she broke a bone.", alt: ["{寝言|ねごと}", "{寝坊|ねぼう}", "{昼寝|ひるね}"] },
     ] },
@@ -66,7 +66,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "うっかり", lv: "N2", pos: "adverb · する verb",
     en: "carelessly; absent-mindedly; without thinking",
     note: "For slips caused by not paying attention: うっかり忘れる, うっかりミス (a careless mistake), うっかりしていた (I wasn't thinking). つい is giving in to an impulse (つい食べすぎた); うっかり is a lapse of attention.",
-    book: { ja: "**うっかり**{眼鏡|めがね}をかけた（　）顔を洗ってしまった。", en: "I carelessly washed my face with my glasses still on.", at: "gp/37" },
+    book: { ja: "**うっかり**{眼鏡|めがね}をかけた（　）顔を洗ってしまった。", en: "Without thinking, I washed my face with my glasses still on.", at: "gp/37" },
     ex: [
       { ja: "**うっかり**{傘|かさ}を{電車|でんしゃ}に{忘|わす}れてきてしまった。", en: "I carelessly left my umbrella on the train.", alt: ["しっかり", "はっきり", "ぐっすり"] },
     ] },
@@ -90,7 +90,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "vacation; leave; time off (from work)",
     note: "A work word: 休暇を取る (take time off), 夏季休暇 (summer vacation), 有給休暇 (paid leave), 育児休暇 (childcare leave). 休み is the everyday word; 休日 is a day off on the calendar (weekends, holidays).",
     rx: ["きゅうが", "きゅか", "きゅうけ"],
-    book: { ja: "この忙しいときに、お前、**{休暇|きゅうか}**どころじゃないだろう。", en: "At a busy time like this? This is no time for a vacation.", at: "gp/38" },
+    book: { ja: "この忙しいときに、お前、**{休暇|きゅうか}**どころじゃないだろう。", en: "Now, when we're this busy? You know this is no time for a vacation.", at: "gp/38" },
     ex: [
       { ja: "{来月|らいげつ}、一{週間|しゅうかん}の**{休暇|きゅうか}**を{取|と}って{海外|かいがい}へ{行|い}く。", en: "Next month I'm taking a week off and going abroad.", alt: ["{休戦|きゅうせん}", "{休講|きゅうこう}", "{休業|きゅうぎょう}"] },
     ] },
@@ -98,7 +98,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "year-end party",
     note: "A December party held by companies, clubs and friends to “forget the (old) year”; the January counterpart is 新年会. A farewell party is 送別会, a welcome party 歓迎会.",
     rx: ["ほうねんかい", "もうねんかい", "ぼうねんがい"],
-    book: { ja: "今日は会社の**{忘年会|ぼうねんかい}**だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。", en: "Today was the company year-end party, but the trains stopped because of heavy snow, so the party was out of the question.", at: "gp/38" },
+    book: { ja: "今日は会社の**{忘年会|ぼうねんかい}**だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。", en: "We had our company year-end party today, but heavy snow stopped the trains, so the party was out of the question.", at: "gp/38" },
     ex: [
       { ja: "{今年|ことし}の**{忘年会|ぼうねんかい}**は、{駅前|えきまえ}の{居酒屋|いざかや}でやることになった。", en: "This year's year-end party will be at the izakaya in front of the station.", alt: ["{年賀状|ねんがじょう}", "{忘|わす}れ{物|もの}", "{記念日|きねんび}"] },
     ] },
@@ -106,7 +106,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to be swamped (with); to be pressed (by work, time); to be chased",
     note: "〜に追われる means being busy nonstop with no breathing room: 仕事に追われる, 家事に追われる, 時間に追われる. The literal sense “be chased” (警察に追われる) also exists.",
     rx: ["おわわれる", "ついわれる", "おうわれる"],
-    book: { ja: "大学時代はアルバイトに**{追|お}われて**（　）どころではなかった。", en: "In college I was so busy with part-time jobs that studying was out of the question.", at: "gp/38" },
+    book: { ja: "大学時代はアルバイトに**{追|お}われて**（　）どころではなかった。", en: "In college I was so swamped with part-time jobs that studying was out of the question.", at: "gp/38" },
     ex: [
       { ja: "{年末|ねんまつ}は{仕事|しごと}に**{追|お}われて**、{年賀状|ねんがじょう}を{書|か}く{暇|ひま}もない。", en: "At the end of the year I'm so swamped with work that I don't even have time to write New Year's cards.", alt: ["{追|お}い{越|こ}されて", "{払|はら}われて", "{雇|やと}われて"] },
     ] },
@@ -129,7 +129,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "practical application; putting (a technology) into practical use",
     note: "A technology and news word: 〜が実用化される (be put to practical use), 実用化に向けて (toward practical use). 実用的 means “practical”; 実現 is making a plan or dream come true.",
     rx: ["じつようが", "じっようか", "じつよか"],
-    book: { ja: "新しい{技術|ぎじゅつ}が{開発|かいはつ}されたとはいうものの、**{実用化|じつようか}**にはまだ時間がかかるだろう。", en: "Although a new technology has been developed, it will probably still take time before it is put to practical use.", at: "gp/39" },
+    book: { ja: "新しい{技術|ぎじゅつ}が{開発|かいはつ}されたとはいうものの、**{実用化|じつようか}**にはまだ時間がかかるだろう。", en: "A new technology may have been developed, but it will probably be a while yet before it's put to practical use.", at: "gp/39" },
     ex: [
       { ja: "{自動運転|じどううんてん}の{車|くるま}は、すでに一{部|ぶ}で**{実用化|じつようか}**されている。", en: "Self-driving cars are already in practical use in some places.", alt: ["{実習|じっしゅう}", "{実感|じっかん}", "{実行|じっこう}"] },
     ] },
@@ -137,7 +137,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "restoration; repair (of buildings, artworks, relationships)",
     note: "Bringing something valuable or damaged back to its original state: 文化財を修復する (restore cultural properties), 関係を修復する (mend a relationship). For machines and everyday things use 修理.",
     rx: ["しゅふく", "しゅうぶく", "しゅうふっく"],
-    book: { ja: "{両国間|りょうこくかん}の**{関係修復|かんけいしゅうふく}**は、{困難|こんなん}ではあるものの、{改善|かいぜん}に{向|む}けての{努力|どりょく}は{必要|ひつよう}だ。", en: "Although repairing relations between the two countries is difficult, efforts toward improvement are necessary.", at: "gp/39" },
+    book: { ja: "{両国間|りょうこくかん}の**{関係修復|かんけいしゅうふく}**は、{困難|こんなん}ではあるものの、{改善|かいぜん}に{向|む}けての{努力|どりょく}は{必要|ひつよう}だ。", en: "Repairing relations between the two countries may be difficult, but efforts to improve them are still necessary.", at: "gp/39" },
     ex: [
       { ja: "{地震|じしん}で{壊|こわ}れたお{寺|てら}の**{修復|しゅうふく}**に三{年|ねん}かかった。", en: "It took three years to restore the temple that was damaged in the earthquake.", alt: ["{復習|ふくしゅう}", "{回復|かいふく}", "{修正|しゅうせい}"] },
     ] },
@@ -161,7 +161,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to knit; to braid; to compile (a book)",
     note: "セーターを編む, 髪を編む (braid hair), 手編み (hand-knitted), 編み物 (knitting). The on-reading ヘン appears in 編集 (editing).",
     rx: ["へむ", "くむ", "あやむ"],
-    book: { ja: "今年こそ{手|て}**{編|あ}み**のセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。", en: "I was determined that this year, for sure, I'd finish knitting a sweater by hand, but…", at: "gp/39" },
+    book: { ja: "今年こそ{手|て}**{編|あ}み**のセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。", en: "I made up my mind that this year I'd definitely finish a hand-knit sweater, but…", at: "gp/39" },
     ex: [
       { ja: "{祖母|そぼ}が{孫|まご}のためにマフラーを**{編|あ}んで**くれた。", en: "My grandmother knitted a scarf for her grandchild.", alt: ["{組|く}んで", "{刻|きざ}んで", "{積|つ}んで"] },
     ] },
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "to state; to express; to mention",
     note: "Formal: 意見を述べる (state one's opinion), 感想を述べる, 感謝の言葉を述べる, and in writing 前に述べたように (as stated above). In conversation people say 言う or 話す.",
     rx: ["じゅつべる", "のぺる", "しべる"],
-    book: { ja: "{青木|あおき}さんは卒業生{代表|だいひょう}（　）校長先生に{感謝|かんしゃ}の言葉を**{述|の}べた**。", en: "As the graduates' representative, Aoki gave a speech of thanks to the principal.", at: "gp/41" },
+    book: { ja: "{青木|あおき}さんは卒業生{代表|だいひょう}（　）校長先生に{感謝|かんしゃ}の言葉を**{述|の}べた**。", en: "As the graduates' representative, Aoki expressed thanks to the principal.", at: "gp/41" },
     ex: [
       { ja: "{会議|かいぎ}では一{人|り}ずつ{自分|じぶん}の{意見|いけん}を**{述|の}べた**。", en: "At the meeting each person stated their opinion in turn.", alt: ["{比|くら}べた", "{食|た}べた", "{調|しら}べた"] },
     ] },
@@ -225,7 +225,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "daytime; during the day",
     note: "A weather-forecast and written word: 日中の最高気温, 日中は暖かい. The everyday equivalent is 昼間. 日中 also means “Japan and China” (日中関係), so context decides.",
     rx: ["にちちゅう", "ひちゅう", "にっちょう"],
-    book: { ja: "今日は**{日中|にっちゅう}**の最高{気温|きおん}が10度までしか上がらず、3月{下旬|げじゅん}（　）寒い1日となりそうです。", en: "Today the daytime high will only reach 10 degrees, so it looks set to be a cold day for late March.", at: "gp/41" },
+    book: { ja: "今日は**{日中|にっちゅう}**の最高{気温|きおん}が10度までしか上がらず、3月{下旬|げじゅん}（　）寒い1日となりそうです。", en: "With a daytime high of only 10 degrees, today looks set to be a cold day for late March.", at: "gp/41" },
     ex: [
       { ja: "{夏|なつ}は**{日中|にっちゅう}**の{外出|がいしゅつ}を{避|さ}け、{水分|すいぶん}をこまめにとりましょう。", en: "In summer, avoid going out during the day and drink fluids often.", alt: ["{最中|さいちゅう}", "{途中|とちゅう}", "{一日中|いちにちじゅう}"] },
     ] },
@@ -233,7 +233,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "the last third of a month (the 21st to the end)",
     note: "A month is split into 上旬 (1st–10th), 中旬 (11th–20th) and 下旬. 月末 is the very end of the month. Common in forecasts and schedules: 三月下旬に開花 (blooming in late March).",
     rx: ["かじゅん", "げしゅん", "したじゅん"],
-    book: { ja: "今日は{日中|にっちゅう}の最高{気温|きおん}が10度までしか上がらず、3月**{下旬|げじゅん}**（　）寒い1日となりそうです。", en: "Today the daytime high will only reach 10 degrees, so it looks set to be a cold day for late March.", at: "gp/41" },
+    book: { ja: "今日は{日中|にっちゅう}の最高{気温|きおん}が10度までしか上がらず、3月**{下旬|げじゅん}**（　）寒い1日となりそうです。", en: "With a daytime high of only 10 degrees, today looks set to be a cold day for late March.", at: "gp/41" },
     ex: [
       { ja: "{桜|さくら}は{例年|れいねん}、三{月|がつ}**{下旬|げじゅん}**ごろに{咲|さ}き{始|はじ}める。", en: "The cherry trees usually start blooming around late March.", alt: ["{下品|げひん}", "{下車|げしゃ}", "{下限|かげん}"] },
     ] },
@@ -273,7 +273,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "used; secondhand",
     note: "中古車 (used car), 中古品, 中古で買う (buy secondhand), 中古住宅. The opposite is 新品 (brand new). For clothes, 古着 is the usual word.",
     rx: ["ちゅうふる", "なかこ", "ちゅこ"],
-    book: { ja: "彼が買った車は**{中古車|ちゅうこしゃ}**＿＿ボディもきれいで、エンジンの{調子|ちょうし}もいい。", en: "For a used car, the one he bought has a clean body and the engine runs well.", at: "ch/5" },
+    book: { ja: "彼が買った車は**{中古車|ちゅうこしゃ}**＿＿ボディもきれいで、エンジンの{調子|ちょうし}もいい。", en: "The car he bought is used, but for a used car the body is clean and the engine runs well.", at: "ch/5" },
     ex: [
       { ja: "{教科書|きょうかしょ}は**{中古|ちゅうこ}**で{買|か}えば{半額|はんがく}ぐらいになる。", en: "If you buy textbooks secondhand, they cost about half the price.", alt: ["{最古|さいこ}", "{稽古|けいこ}", "{中止|ちゅうし}"] },
     ] },
@@ -295,7 +295,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "さんざん", lv: "N1", pos: "adverb · な adjective",
     en: "no end; thoroughly (in a bad way); terrible",
     note: "Written 散々. Stresses how much, usually of something unpleasant: さんざん待たされる (be kept waiting forever), さんざん迷う, さんざんな目にあう (have an awful time). It often pairs with 〜たあげく.",
-    book: { ja: "わざわざ大学病院へ行ったのに、**さんざん**待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", en: "I went all the way to the university hospital, only to be kept waiting forever and then examined for just two minutes.", at: "ch/5" },
+    book: { ja: "わざわざ大学病院へ行ったのに、**さんざん**待たされた＿＿、{診察|しんさつ}時間はたった2分だった。", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes.", at: "ch/5" },
     ex: [
       { ja: "{雨|あめ}の{中|なか}で{道|みち}に{迷|まよ}って、**さんざん**な一{日|にち}だった。", en: "I got lost in the rain — it was a miserable day.", alt: ["さまざま", "ぎりぎり", "ばらばら"] },
     ] },
@@ -311,7 +311,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "convenience; circumstances; (one's) schedule",
     note: "Often about whether a time works: 都合がいい / 悪い, ご都合はいかがですか (would that suit you?), 一身上の都合で (for personal reasons). 便利 is about things being handy; 都合 is about one's situation.",
     rx: ["とごう", "つあい", "つがう"],
-    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'll come by tomorrow.", at: "gp/43" },
+    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'd like to come by tomorrow.", at: "gp/43" },
     ex: [
       { ja: "{急|きゅう}な{仕事|しごと}が{入|はい}って、{土曜日|どようび}は**{都合|つごう}**が{悪|わる}くなった。", en: "Some urgent work came up, so Saturday no longer works for me.", alt: ["{場合|ばあい}", "{合図|あいず}", "{都会|とかい}"] },
     ] },
@@ -351,7 +351,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "ethnic group; a people",
     note: "少数民族 (ethnic minority), 民族衣装 (traditional ethnic dress), 多民族国家 (multiethnic nation). 民族 is a people sharing culture and language; 国民 is the citizens of a state. 民俗 (folk customs) has the same reading.",
     rx: ["みんぞっく", "みんそく", "たみぞく"],
-    book: { ja: "日本の**{少数民族|しょうすうみんぞく}**について{論文|ろんぶん}を書きたいと思ったが、{参考|さんこう}資料が少なすぎて、（　）。", en: "I wanted to write a thesis on Japan's ethnic minorities, but there are too few reference materials, so…", at: "gp/44" },
+    book: { ja: "日本の**{少数民族|しょうすうみんぞく}**について{論文|ろんぶん}を書きたいと思ったが、{参考|さんこう}資料が少なすぎて、（　）。", en: "I wanted to write a paper on Japan's ethnic minorities, but there are so few reference materials that…", at: "gp/44" },
     ex: [
       { ja: "お{祭|まつ}りでは、{世界|せかい}{各地|かくち}の**{民族|みんぞく}**{衣装|いしょう}を{着|き}た{人々|ひとびと}が{踊|おど}った。", en: "At the festival, people in ethnic costumes from around the world danced.", alt: ["{家族|かぞく}", "{民間|みんかん}", "{住民|じゅうみん}"] },
     ] },
@@ -359,7 +359,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "thesis; (academic) paper; dissertation",
     note: "論文を書く / 発表する, 卒業論文 (卒論, graduation thesis), 博士論文 (doctoral dissertation). A school report is レポート; a composition is 作文.",
     rx: ["ろんもん", "りんぶん", "ろんぶ"],
-    book: { ja: "日本の{少数民族|しょうすうみんぞく}について**{論文|ろんぶん}**を書きたいと思ったが、{参考|さんこう}資料が少なすぎて、（　）。", en: "I wanted to write a thesis on Japan's ethnic minorities, but there are too few reference materials, so…", at: "gp/44" },
+    book: { ja: "日本の{少数民族|しょうすうみんぞく}について**{論文|ろんぶん}**を書きたいと思ったが、{参考|さんこう}資料が少なすぎて、（　）。", en: "I wanted to write a paper on Japan's ethnic minorities, but there are so few reference materials that…", at: "gp/44" },
     ex: [
       { ja: "{教授|きょうじゅ}の**{論文|ろんぶん}**が{海外|かいがい}の{学術誌|がくじゅつし}に{掲載|けいさい}された。", en: "The professor's paper was published in an international journal.", alt: ["{作文|さくぶん}", "{日記|にっき}", "{注文|ちゅうもん}"] },
     ] },
@@ -367,7 +367,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "reference; something to learn from",
     note: "参考にする (use as a reference / take a cue from), 参考になる (be helpful, informative), 参考書 (study guide), 参考資料, ご参考までに (for your information).",
     rx: ["さんごう", "さんこ", "ざんこう"],
-    book: { ja: "日本の{少数民族|しょうすうみんぞく}について{論文|ろんぶん}を書きたいと思ったが、**{参考|さんこう}**資料が少なすぎて、（　）。", en: "I wanted to write a thesis on Japan's ethnic minorities, but there are too few reference materials, so…", at: "gp/44" },
+    book: { ja: "日本の{少数民族|しょうすうみんぞく}について{論文|ろんぶん}を書きたいと思ったが、**{参考|さんこう}**資料が少なすぎて、（　）。", en: "I wanted to write a paper on Japan's ethnic minorities, but there are so few reference materials that…", at: "gp/44" },
     ex: [
       { ja: "{先輩|せんぱい}のアドバイスを**{参考|さんこう}**にして、{計画|けいかく}を{立|た}て{直|なお}した。", en: "I redid my plan, taking a senior colleague's advice into account.", alt: ["{参加|さんか}", "{思考|しこう}", "{考慮|こうりょ}"] },
     ] },
@@ -383,7 +383,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "trouble; bother; troublesome; care (of someone)",
     note: "面倒な仕事 (a hassle), 面倒くさい (casual: “what a pain”), 面倒をかける (cause someone trouble), 面倒を見る (look after someone).",
     rx: ["めんとう", "めんど", "めいどう"],
-    book: { ja: "あの{山田|やまだ}さんがそんな**{面倒|めんどう}**な仕事を（　）。", en: "There's no way someone like Yamada would take on such a troublesome job.", at: "gp/44" },
+    book: { ja: "あの{山田|やまだ}さんがそんな**{面倒|めんどう}**な仕事を（　）。", en: "There's no way Yamada, of all people, would take on such a troublesome job.", at: "gp/44" },
     ex: [
       { ja: "{毎朝|まいあさ}お{弁当|べんとう}を{作|つく}るのは**{面倒|めんどう}**だが、{節約|せつやく}になる。", en: "Making a boxed lunch every morning is a hassle, but it saves money.", alt: ["{面会|めんかい}", "{面接|めんせつ}", "{倒産|とうさん}"] },
     ] },
@@ -407,7 +407,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "trying on (clothes)",
     note: "試着室 (fitting room), 試着してもいいですか (May I try this on?). Only for things you wear; trying food samples is 試食.",
     rx: ["しつき", "ためちゃく", "しっちゃく"],
-    book: { ja: "さっきのお客さん、あれこれ**{試着|しちゃく}**したあげく、何も買わずに帰っちゃって…。", en: "That customer just now tried on this and that, and in the end left without buying anything…", at: "gp/45" },
+    book: { ja: "さっきのお客さん、あれこれ**{試着|しちゃく}**したあげく、何も買わずに帰っちゃって…。", en: "That customer just now tried on one thing after another, and after all that, left without buying anything…", at: "gp/45" },
     ex: [
       { ja: "すみません、この{服|ふく}、**{試着|しちゃく}**してもいいですか。", en: "Excuse me, may I try this on?", alt: ["{試食|ししょく}", "{到着|とうちゃく}", "{試合|しあい}"] },
     ] },
@@ -423,7 +423,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "chairman (of a company); president (of a society or club)",
     note: "In a Japanese company the 会長 usually ranks above the 社長 (president) and is often a former president. Also the head of an association: 生徒会長 (student council president), 町内会の会長.",
     rx: ["かいちょ", "がいちょう", "かいなが"],
-    book: { ja: "社長にはなった（　）、**{会長|かいちょう}**が何でも決めてしまうので、何もできない。", en: "I did become president, but the chairman decides everything, so I can't do anything.", at: "gp/45" },
+    book: { ja: "社長にはなった（　）、**{会長|かいちょう}**が何でも決めてしまうので、何もできない。", en: "I did become company president, but the chairman makes all the decisions, so my hands are tied.", at: "gp/45" },
     ex: [
       { ja: "{父|ちち}は{今年|ことし}、{町内会|ちょうないかい}の**{会長|かいちょう}**を{務|つと}めている。", en: "This year my father is serving as head of the neighborhood association.", alt: ["{会議|かいぎ}", "{課長|かちょう}", "{会場|かいじょう}"] },
     ] },
@@ -454,7 +454,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "もうける", lv: "N2", pos: "ichidan verb (transitive)",
     en: "to make money; to profit",
     note: "Written 儲ける: お金をもうける, 株でもうける. もうけ is profit, もうかる “be profitable” (intransitive: この店はもうかっている). It has a money-focused ring compared with 稼ぐ (earn by working).",
-    book: { ja: "{楽|らく}をしてお金を**もうけよう**なんて考えるもんじゃない。", en: "You shouldn't think about making money the easy way.", at: "gp/46" },
+    book: { ja: "{楽|らく}をしてお金を**もうけよう**なんて考えるもんじゃない。", en: "You shouldn't even think about trying to make easy money.", at: "gp/46" },
     ex: [
       { ja: "{彼|かれ}は{古|ふる}い{家|いえ}を{安|やす}く{買|か}って{売|う}り、ずいぶん**もうけた**らしい。", en: "Apparently he made quite a lot of money buying old houses cheap and reselling them.", alt: ["かたづけた", "たすけた", "つとめた"] },
     ] },
@@ -462,7 +462,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "speaking ill (of someone); bad-mouthing",
     note: "人の悪口を言う (bad-mouth someone). 陰口 is talking behind someone's back specifically; 文句 is complaining about something rather than attacking a person.",
     rx: ["あくぐち", "わるこう", "わるぐっち"],
-    book: { ja: "人の**{悪口|わるぐち}**を言うもんじゃありません。", en: "You mustn't speak ill of others.", at: "gp/46" },
+    book: { ja: "人の**{悪口|わるぐち}**を言うもんじゃありません。", en: "You shouldn't say mean things about people.", at: "gp/46" },
     ex: [
       { ja: "{同僚|どうりょう}の**{悪口|わるぐち}**ばかり{言|い}っていると、{信用|しんよう}されなくなるよ。", en: "If you're always bad-mouthing your coworkers, people will stop trusting you.", alt: ["{無口|むくち}", "{早口|はやくち}", "{悪人|あくにん}"] },
     ] },
@@ -493,7 +493,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "medical examination; (doctor's) consultation",
     note: "A doctor seeing a patient: 診察を受ける (see a doctor), 診察室 (consulting room), 診察券 (patient card). 検査 is a test (blood test, X-ray); 診断 is the diagnosis.",
     rx: ["しんさい", "しんざつ", "けんさつ"],
-    book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, only to be kept waiting forever and then examined for just two minutes.", at: "ch/5" },
+    book: { ja: "わざわざ大学病院へ行ったのに、さんざん待たされた＿＿、**{診察|しんさつ}**時間はたった2分だった。", en: "I went all the way to the university hospital, and after being kept waiting forever, the examination lasted just two minutes.", at: "ch/5" },
     ex: [
       { ja: "{熱|ねつ}が{下|さ}がらないので、{病院|びょういん}で**{診察|しんさつ}**を{受|う}けた。", en: "My fever wouldn't go down, so I went to the hospital to see a doctor.", alt: ["{視察|しさつ}", "{偵察|ていさつ}", "{警察|けいさつ}"] },
     ] },
@@ -509,7 +509,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "excuse; (self-justifying) explanation",
     note: "言い訳をする, 言い訳ばかり, 言い訳にならない (that's no excuse). It has a negative ring of dodging blame; a neutral explanation is 説明. 申し訳ない (I'm sorry) shares the 訳.",
     rx: ["げんやく", "いいやく", "いいわき"],
-    book: { ja: "彼は、自分のミスで仕事が遅れたのに、あれこれ**{言|い}い{訳|わけ}**した（　）、{結局|けっきょく}{一|ひと}{言|こと}も{謝|あやま}らなかった。", en: "Even though the work was delayed because of his own mistake, after making excuse after excuse, in the end he didn't offer a single word of apology.", at: "ch/5/review" },
+    book: { ja: "彼は、自分のミスで仕事が遅れたのに、あれこれ**{言|い}い{訳|わけ}**した（　）、{結局|けっきょく}{一|ひと}{言|こと}も{謝|あやま}らなかった。", en: "The work fell behind because of his own mistake, yet after making one excuse after another, he never said a single word of apology.", at: "ch/5/review" },
     ex: [
       { ja: "{遅刻|ちこく}の**{言|い}い{訳|わけ}**は{聞|き}きたくない。", en: "I don't want to hear excuses for being late.", alt: ["{申|もう}し{訳|わけ}", "{内訳|うちわけ}", "{言|い}い{伝|つた}え"] },
     ] },
@@ -533,7 +533,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "first-class; top-rate; leading",
     note: "一流企業 (a top company), 一流ホテル, 一流の選手. Lower ranks are 二流 / 三流 (second- / third-rate).",
     rx: ["いちる", "いつりゅう", "いちりゅ"],
-    book: { ja: "ABK社は**{一流企業|いちりゅうきぎょう}**（　）{給料|きゅうりょう}が安くてびっくりした。", en: "I was surprised that ABK's salaries are low for a top-tier company.", at: "ch/5/review" },
+    book: { ja: "ABK社は**{一流企業|いちりゅうきぎょう}**（　）{給料|きゅうりょう}が安くてびっくりした。", en: "I was surprised at how low the salaries are at ABK for a top company.", at: "ch/5/review" },
     ex: [
       { ja: "{彼|かれ}は**{一流|いちりゅう}**のシェフのもとで{料理|りょうり}を{学|まな}んだ。", en: "He learned to cook under a top-class chef.", alt: ["{交流|こうりゅう}", "{一部|いちぶ}", "{上流|じょうりゅう}"] },
     ] },
