@@ -912,7 +912,7 @@ TRY.registerVocab({
       "n": 28,
       "w": "[〜に]あこがれる",
       "ex": "{山中|やまなか}教授にあこがれて医学部に入ることにしました。",
-      "tr": "Inspired by Professor Yamanaka, I decided to go to medical school."
+      "tr": "I looked up to Professor Yamanaka, so I decided to go to medical school."
      },
      {
       "n": 29,
@@ -984,7 +984,7 @@ TRY.registerVocab({
       "n": 40,
       "w": "勤勉さ",
       "ex": "日本人の勤勉さはとても有名だ。",
-      "tr": "The Japanese are well known for their diligence."
+      "tr": "The Japanese are very well known for their diligence."
      },
      {
       "n": 41,

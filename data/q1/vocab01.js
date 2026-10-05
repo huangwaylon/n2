@@ -926,7 +926,7 @@ TRY.registerVocab({
       "n": 39,
       "w": "つまり",
       "ex": "仕事ではTPO、つまり時、場所、{場|ば}{合|あい}に気をつけて話そう。",
-      "tr": "At work, keep TPO in mind when you speak: in other words, the time, the place, and the occasion."
+      "tr": "At work, let's keep TPO in mind when we speak: in other words, time, place, and occasion."
      },
      {
       "n": 40,

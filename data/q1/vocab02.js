@@ -784,7 +784,7 @@ TRY.registerVocab({
       "n": 36,
       "w": "活動",
       "ex": "日本の大学で人気があるクラブ活動はテニスだろう。",
-      "tr": "At Japanese universities, the popular club activity is probably tennis."
+      "tr": "At Japanese universities, the most popular club activity is probably tennis."
      },
      {
       "n": 37,

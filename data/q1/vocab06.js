@@ -834,7 +834,7 @@ TRY.registerVocab({
       "n": 37,
       "w": "混乱（する）",
       "ex": "{頭|あたま}が混乱していて、何も考えられません。",
-      "tr": "My head is so jumbled that I can't think at all."
+      "tr": "I'm so confused that I can't think straight."
      },
      {
       "n": 38,

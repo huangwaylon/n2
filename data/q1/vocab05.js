@@ -869,7 +869,7 @@ TRY.registerVocab({
       "n": 24,
       "w": "甘辛い",
       "ex": "子どもたちは甘辛いソースが好きだ。",
-      "tr": "Kids like sweet and savory sauces."
+      "tr": "Kids like sweet and salty sauces."
      },
      {
       "n": 25,
