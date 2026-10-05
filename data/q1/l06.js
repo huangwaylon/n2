@@ -51,7 +51,7 @@ TRY.registerLesson({
     },
     {
      "ja": "上手にあやまることができる",
-     "tr": "Can apologize well"
+     "tr": "Can apologize gracefully"
     }
    ]
   }
@@ -101,7 +101,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "あなたの国では、買ったものを店が{包装|ほうそう}してくれるサービスがありますか。",
-        "tr": "In your country, are there services where the store wraps the things you buy?"
+        "tr": "In your country, do stores offer to wrap the things you buy?"
        }
       },
       {
@@ -269,7 +269,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "お{祝|いわ}いの品物に使うかけ紙は「のし紙」と言い、赤や金の色が使われます。結婚祝いなどのような一度だけのお祝いには「{結|むす}び{切|ぎ}り」、子どもが生まれた時などのように何度あってもいいことには「{蝶|ちょう}結び」ののし紙を使います。",
-        "tr": "The kakegami used for celebration gifts is called noshigami, and red and gold are used on it. For a celebration that should happen only once, such as a wedding, you use noshigami tied with a musubikiri (a knot that can't be undone); for happy events that are welcome any number of times, such as the birth of a child, you use noshigami tied with a chōmusubi (a bow)."
+        "tr": "The kakegami for celebration gifts is called noshigami, and it is decorated in red and gold. For a celebration that should happen only once, such as a wedding, you use noshigami tied with a musubikiri (a knot that can't be undone); for happy events that are welcome any number of times, such as the birth of a child, you use noshigami tied with a chōmusubi (a bow)."
        }
       },
       {
@@ -372,9 +372,9 @@ TRY.registerLesson({
       "べきな[[のではないでしょうか|3]]。"
      ],
      "tr": [
-      "The first thing I noticed after coming to Japan is that many Japanese people are mindful of the environment. For example, the trash bins at train stations are divided into “recyclable waste,” such as plastic bottles, newspapers, and magazines, and “burnable waste,” and you have to sort your trash properly.",
-      "Recently, however, something has been bothering me: excessive packaging. For example, when I bought a box of cookies, not only was the box wrapped in paper, but each cookie inside was also wrapped individually in plastic. It's true that when each one is in its own bag, your hands don't get dirty when you take them out of the box, and it's convenient because you don't have to eat them all at once. But it definitely increases the amount of trash. Besides, it's not that the box's wrapping paper can't be used again later, but most people end up throwing it away, so it's a waste of resources.",
-      "Besides product packaging, I also have doubts about store bags. The other day, when I went shopping at a department store on a rainy day, I was surprised when they carefully put a plastic cover over the usual paper bag so it wouldn't get wet in the rain. I think this kind of consideration for customers is very Japanese, but from the point of view of a foreigner like me, I can't help feeling that it may be going a little too far.",
+      "The first thing that struck me when I came to Japan was how many Japanese people care about the environment. For example, the trash bins at train stations are divided into “recyclable waste,” such as plastic bottles, newspapers, and magazines, and “burnable waste,” and you have to sort your trash properly.",
+      "Recently, however, something has been bothering me: excessive packaging. For example, when I bought a box of cookies, not only was the box wrapped in paper, but each cookie inside was also wrapped individually in plastic. It's true that when each one is in its own bag, your hands don't get dirty when you take them out of the box, and it's convenient because you don't have to eat them all at once. But it definitely increases the amount of trash. What's more, it's not that the wrapping paper on the box can't be reused, but most people just end up throwing it away, so it's a waste of resources.",
+      "And it's not just product packaging; I also have my doubts about store bags. The other day, when I went shopping at a department store on a rainy day, I was surprised when they carefully put a plastic cover over the usual paper bag so it wouldn't get wet in the rain. I think this kind of consideration for customers is very Japanese, but from the point of view of a foreigner like me, I can't help feeling that it's a bit much.",
       "If Japanese people really care about the environment, shouldn't they rethink excessive packaging?"
      ],
      "headTr": [
@@ -478,18 +478,18 @@ TRY.registerLesson({
       "Japan's system of English education has begun to change dramatically, with the aim of raising Japanese people who can communicate in English. English classes in elementary schools have already begun nationwide, and since English education is expected to start even earlier from now on, people are becoming more and more interested in early English education. What do today's university students think about this situation?",
       "I am in favor of early English education. There are three reasons.",
       "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language while you are a child and can absorb anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?",
-      "Second, children aren't resistant to English. If they learn through games and songs in elementary school, children can speak English without being embarrassed. Also, because they try to use the new words they've learned right away, they can get used to them quickly. In general, the older people get, the more conscious they become of how others see them and the more they fear making mistakes. That's why I think it's important to start learning English before those feelings develop.",
+      "Second, children don't feel any resistance to English. If they learn through games and songs in elementary school, they can speak English without acting shy. Also, because they try to use new words as soon as they learn them, they get used to the language quickly. In general, the older people get, the more conscious they become of how others see them and the more they fear making mistakes. That's why I think it's important to start learning English before those feelings develop.",
       "Third, children can develop an international outlook early. It is said that learning a foreign language as a child and realizing that there are cultures different from your own makes it easier to accept different values. I think that if children come into contact with foreign cultures and customs through English while they're in elementary school and broaden their horizons, it could widen their chances of working on the international stage in the future.",
       "For these reasons, early English education has many advantages, so we should actively promote it.",
       "I am against early English education. I will give three reasons.",
-      "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may also be unable to express their thoughts fully in any one language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
+      "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may also be unable to express their thoughts well in either language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
       "Also, few children study English of their own free will. In my case too, when I was a child my parents told me to go to an English cram school, and I was made to study against my will. Speaking from that experience, there is no point in forcing children who don't want to learn English to do it. It only increases the number of children who dislike English. I think it's better to wait until children start to become interested in English.",
-      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but after learning they would be going to Canada for work, they started studying in earnest and improved to an astonishing degree. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
-      "For the reasons above, I maintain that early English education is not necessarily needed."
+      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but once it was decided they would be going to Canada for work, they started studying in earnest and improved astonishingly fast. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
+      "For the reasons above, I would argue that early English education is not necessarily needed."
      ],
      "headTr": [
       "Early English Education: For or Against?",
-      "English While They're Still Children",
+      "English While They're Young",
       "Do Children Need English?"
      ]
     },
@@ -540,7 +540,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "留学中にホームステイをする人もいるし、寮に住む人もいる。どちらのほうがいいのだろうか。**確かに**ホームステイで日本の家族と生活するのはいい経験になるだろう。**しかし**、ホームステイの場合、大学から遠いところに住むことが多く、通学に時間がかかるのが問題だ。だから、キャンパスに近い寮に住んだほうがいいと思う。",
-        "tr": "While studying abroad, some people do a homestay and others live in a dormitory. Which is better? Certainly, living with a Japanese family on a homestay would be a good experience. However, with a homestay you often live far from the university, and the problem is that commuting takes a long time. So I think it's better to live in a dormitory near campus."
+        "tr": "While studying abroad, some people do a homestay and others live in a dormitory. Which is better, I wonder? Certainly, living with a Japanese family on a homestay would be a good experience. However, with a homestay you often live far from the university, and the problem is that commuting takes a long time. So I think it's better to live in a dormitory near campus."
        }
       },
       {
@@ -686,7 +686,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "第二に、子どもは英語に対する抵抗感を持たないからだ。……",
-          "tr": "Second, children aren't resistant to English. …"
+          "tr": "Second, children don't feel any resistance to English. …"
          }
         },
         {
@@ -1026,7 +1026,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*to a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば forms (からみれば, からすれば). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
+     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*through a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's probably a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば forms (からみれば, からすれば). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
     },
     {
      "t": "note",
@@ -1126,7 +1126,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "やはり「{千|せん}と{千尋|ちひろ}の{神隠|かみかく}し」**ではないか**と思います。",
-           "tr": "I'd say it would have to be Spirited Away."
+           "tr": "I'd have to say Spirited Away."
           }
          ]
         }
@@ -1229,7 +1229,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "母親は嫌**がって**いる子どもに{野菜|やさい}を食べさせた。",
-         "tr": "The mother made her reluctant child eat vegetables."
+         "tr": "The mother made her child eat vegetables despite the child's protests."
         },
         {
          "n": 3,
@@ -1239,7 +1239,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "日本に遊びに来た友達がおみやげを買いた**がって**いたので、\nデパートに連れていってあげた。",
-         "tr": "My friend who came to visit Japan wanted to buy souvenirs, so I took them to a department store."
+         "tr": "A friend who came to Japan for a visit wanted to buy souvenirs, so I took them to a department store."
         },
         {
          "n": 5,
@@ -1396,7 +1396,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "高いところに置いてあった物を取ろ**うとして**、いすから{落|お}ちてしまった。",
-         "tr": "I tried to get down something that had been put up high and ended up falling off the chair."
+         "tr": "I tried to reach something that had been put up high and fell off the chair."
         },
         {
          "n": 4,
@@ -1477,7 +1477,7 @@ TRY.registerLesson({
         {
          "n": 5,
          "ja": "道に{迷|まよ}って{困|こま}っている人がいたのに、だれも助け**ようとしなかった**。",
-         "tr": "There was a person who was lost and in trouble, but nobody even tried to help."
+         "tr": "Someone was lost and didn't know what to do, but nobody even tried to help."
         },
         {
          "n": 6,
@@ -1495,7 +1495,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "順番に持っていくことにしたらどう？",
-           "tr": "How about agreeing to take turns taking it out?"
+           "tr": "Why don't you two agree to take turns?"
           }
          ]
         },
@@ -1574,7 +1574,7 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "その服、新しく買ったの？",
-           "tr": "Did you just buy those clothes?"
+           "tr": "Are those clothes new?"
           },
           {
            "sp": "B",
@@ -1774,7 +1774,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**まま** marks a state left as it was when a change was expected: きれいなまま (*still like new*), 開けたまま (*left open*). The next action happens inside that unchanged state, often one that shouldn't have: くつをはいたまま家に入る (*go into a house with your shoes on*).\n\n- Both actions have the same subject ([#5]).\n- Vたまま needs a verb whose result lasts: 座る, つける, 着る. ✗走ったまま.\n- Vないまま stresses time passing with something undone: 返事をしないまま一週間たった (*a week went by without my replying*). For a plain *without doing*, use Vずに or Vないで.\n\nClose relatives: **〜っぱなし** (会話1, ここにも注目), which adds neglect, and **〜きり** (TRY! N2 #37): 出かけたきり戻らない (*went out and never came back*)."
+     "deepDive": "**まま** marks a state left as it was when a change was expected: きれいなまま (*still like new*), 開けたまま (*left open*). A following action takes place in that unchanged state, often where it shouldn't: くつをはいたまま家に入る (*go into a house with your shoes on*).\n\n- Both actions have the same subject ([#5]).\n- Vたまま needs a verb whose result lasts: 座る, つける, 着る. ✗走ったまま.\n- Vないまま stresses time passing with something undone: 返事をしないまま一週間たった (*a week went by without my replying*). For a plain *without doing*, use Vずに or Vないで.\n\nClose relatives: **〜っぱなし** (会話1, ここにも注目), which adds neglect, and **〜きり** (TRY! N2 #37): 出かけたきり戻らない (*went out and never came back*)."
     },
     {
      "t": "note",
@@ -2038,7 +2038,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "そうだね。一緒にがんばろう！",
-           "tr": "Yeah. Let's do our best together!"
+           "tr": "Yeah. Let's both give it our all!"
           }
          ]
         }
@@ -2225,7 +2225,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**わざわざ** marks effort beyond what was needed. Whether that is gratitude or criticism depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (see 例1） and 例2）).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいて (*thank you for coming all this way*)."
+     "deepDive": "**わざわざ** marks effort beyond what was needed. What it conveys depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (see 例1） and 例2）).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいてありがとうございます (*thank you for coming all this way*)."
     }
    ]
   },
