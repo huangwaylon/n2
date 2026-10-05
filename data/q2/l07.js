@@ -1828,7 +1828,7 @@ TRY.registerLesson({
      "tr": [
       "I came to Japan four months ago as an exchange student. At the university I am studying things like the Japanese language and Japanese culture. Living in a foreign culture like Japan's, I make new discoveries every day, and it is stimulating and fun, but there have also been hard times.",
       "The hard part was that I just couldn't make Japanese friends. For example, even if I got to know people at international exchange events and the like, we rarely met outside of those events. On top of that, when I invited people I had met a few times at events to karaoke, they would answer, \"Sure, let's go next time!\", but we never actually went. As this kept happening, I began to wonder whether I was unconsciously doing something that made Japanese people dislike me.",
-      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. I was told, \"It's the same between Japanese people, too.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
+      "I worried about this for a while, but then I worked up the courage to talk it over with my Japanese roommate. I was told, \"It's the same among Japanese people, too.\" According to my roommate, people hold back with acquaintances, so they don't often invite them out, and even when they say, \"We should go somewhere sometime,\" it is often just a polite formality. My roommate was also kind enough to tell me that if I took part in events and clubs on a regular basis, I would have more chances to see people and it would be easier to become close. And in fact, after I joined a club, I naturally became close with Japanese people and was able to make friends.",
       "Making new friends is hard even among people from the same country, but it is even harder with people from a different country. I felt that to cross the cultural barrier and make friends, you need to be open about whatever feels strange or puzzling to you, and be willing to understand and accept the differences."
      ],
      "headTr": [
@@ -2201,7 +2201,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "［私は］ルームメートの日本人に思い切って相談してみました。すると、「それは日本人{同士|どうし}でも同じだよ」と［私はルームメートに］**言われました**。",
-               "tr": "[I] worked up the courage to talk it over with my Japanese roommate. [I] was told [by my roommate], \"It's the same between Japanese people, too.\""
+               "tr": "[I] worked up the courage to talk it over with my Japanese roommate. [I] was told [by my roommate], \"It's the same among Japanese people, too.\""
               },
               {
                "mark": "×",
@@ -2308,7 +2308,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "「経験から学んだこと」について「です・ます体」で書きなさい。「書くポイント」を使って、モデル作文のような4{段落構成|だんらくこうせい}で書きなさい。（550〜650字）",
-      "tr": "Write about \"what I learned from an experience\" in the です/ます style. Using the writing points, write it in four paragraphs like the model composition. (550–650 characters)"
+      "tr": "Write about \"what you learned from an experience\" in the です/ます style. Using the writing points, write it in four paragraphs like the model composition. (550–650 characters)"
      }
     },
     {
@@ -3003,7 +3003,7 @@ TRY.registerLesson({
            "n": "④",
            "text": {
             "ja": "先輩の{送別|そうべつ}会／新入生{歓迎|かんげい}会で、どのレストランに行ったらいいか。",
-            "tr": "Which restaurant should we go to for the farewell party for our seniors / the welcome party for new students?"
+            "tr": "Which restaurant should we go to for the farewell party for the senior members / the welcome party for new students?"
            }
           },
           {
@@ -3204,7 +3204,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "**他に意見はありませんか。それでは、ここで{多|た}{数決|すうけつ}を{採|と}りたいと思います。**たこやきパーティー、ゲーム大会、カラオケ大会**という意見がありました。みなさん、{挙手|きょしゅ}をお願いします。**たこやきパーティー**がいいと思う{方|かた}。**……2人。ゲーム大会**の方。**……6人。では、カラオケ大会**の方。**……2人。\n**多数決で**ゲーム大会**に決まりました。**",
-       "tr": "Are there any other opinions? Then I'd like to take a vote now. The suggestions were a takoyaki party, a game tournament, and a karaoke contest. Please raise your hands. Those who think a takoyaki party is best... two people. Those for the game tournament... six people. And those for the karaoke contest... two people. By majority vote, we've decided on the game tournament."
+       "tr": "Are there any other opinions? Then I'd like to take a vote now. The suggestions were a takoyaki party, a game tournament, and a karaoke contest. Please raise your hands. Those in favor of the takoyaki party... two. Those for the game tournament... six. And those for the karaoke contest... two. By majority vote, we've decided on the game tournament."
       }
      ]
     },
@@ -3517,7 +3517,7 @@ TRY.registerLesson({
              "sp": "リーダー",
              "v": "f",
              "ja": "他に意見はありませんか。それでは、ここで{多|た}{数決|すうけつ}を{採|と}りたいと思います。\nここまで、{{A、B、C}}という意見がありました。みなさん、{挙手|きょしゅ}をお願いします。{{A}}がいいと思う{方|かた}。……＿＿人。{{B}}の方。……＿＿人。\nでは、{{C}}の方。……＿＿人。多数決で＿＿に決まりました。",
-             "tr": "Are there any other opinions? Then I'd like to take a vote now. So far, the suggestions have been A, B, and C. Please raise your hands. Those who think A is best... … people. Those for B... … people. And those for C... … people. By majority vote, we've decided on …."
+             "tr": "Are there any other opinions? Then I'd like to take a vote now. So far, the suggestions have been A, B, and C. Please raise your hands. Those in favor of A... …. Those for B... …. And those for C... …. By majority vote, we've decided on …."
             }
            ]
           }
@@ -3656,7 +3656,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "カルチャーショックを{乗|の}り{越|こ}えるまでには、大きく分けて4つのステージがあると言われています。まず、「ハネムーンのステージ」です。見るものも聞くものも、すべてが新しく感じられ、旅行のように楽しい時期です。この時の満足度はとても高いです。そして、「カルチャーショックのステージ」です。今までの自分の常識が使えないので、{困|こま}ったり、{悩|なや}んだりする時期で、満足度がどんどん{低|ひく}くなっている時です。新しい文化が嫌いになってしまうこともあり、自分の国に帰ってしまう人もいます。",
-       "tr": "It's said that, broadly speaking, there are four stages on the way to getting over culture shock. First comes the “honeymoon stage.” Everything you see and hear feels new, and it's a fun period, like being on a trip. Your level of satisfaction at this time is very high. Then comes the “culture shock stage.” Because the common sense you've always relied on no longer works, it's a period of being at a loss and worrying, a time when your satisfaction keeps dropping. Some people end up disliking the new culture, and some even go back to their own country."
+       "tr": "It's said that, broadly speaking, there are four stages on the way to getting over culture shock. First comes the “honeymoon stage.” Everything you see and hear feels new, and it's a fun period, like being on a trip. Your level of satisfaction at this time is very high. Then comes the “culture shock stage.” Because what you've always taken as common sense no longer applies, it's a period of being at a loss and worrying, a time when your satisfaction keeps dropping. Some people end up disliking the new culture, and some even go back to their own country."
       },
       {
        "sp": "",
@@ -3950,7 +3950,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "うん。そこで大切なのが4つ目なんだけど、必要なのは言い合いじゃなくて対話なんだ。",
-       "tr": "Yeah. That's where the fourth one matters: what we need isn't arguments but dialogue."
+       "tr": "Yeah. That's where the fourth one comes in: what we need isn't arguments but dialogue."
       },
       {
        "sp": "絵",
@@ -3968,7 +3968,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "なるほど。共生には絶対に必要だね。",
-       "tr": "I see. That's absolutely necessary for living together."
+       "tr": "I see. That's essential for living together."
       }
      ]
     }
