@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "site; grounds; lot (the land a building or facility stands on)",
     note: "The plot belonging to a particular building or institution: 大学の敷地内 (on campus), 敷地面積 (lot area), 敷地内禁煙 (no smoking anywhere on the premises). 土地 is land in general.",
     rx: ["しきじ", "じきち", "しくち"],
-    book: { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」を{皮切|かわき}りに、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の**{敷地|しきち}**で{繰|く}り{広|ひろ}げられる。", en: "Starting with the mayor of Munich tapping the first keg, the world's largest beer festival will unfold over 16 days on a 42-hectare site (about nine times the size of Tokyo Dome).", at: "ch/1" },
+    book: { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」を{皮切|かわき}りに、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の**{敷地|しきち}**で{繰|く}り{広|ひろ}げられる。", en: "Starting with the tapping of the first keg by the mayor of Munich, the world's largest beer festival will run for 16 days on a 42-hectare site (about the area of nine Tokyo Domes).", at: "ch/1" },
     ex: [
       { ja: "この{病院|びょういん}は**{敷地|しきち}**{内|ない}{全面|ぜんめん}{禁煙|きんえん}です。", en: "Smoking is prohibited everywhere on the hospital grounds.", alt: ["{土台|どだい}", "{敷金|しききん}", "{地盤|じばん}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to unfold; to stage, carry on (an event, contest or debate)",
     note: "For events and struggles that play out in front of people: 熱戦を繰り広げる (fight a heated contest), 議論が繰り広げられる. Mainly written and news language; the passive 繰り広げられる is the usual form for festivals and scenes.",
     rx: ["つりひろげる", "くりびろげる", "くりひろける"],
-    book: { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」を{皮切|かわき}りに、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の{敷地|しきち}で**{繰|く}り{広|ひろ}げられる**。", en: "Starting with the mayor of Munich tapping the first keg, the world's largest beer festival will unfold over 16 days on a 42-hectare site (about nine times the size of Tokyo Dome).", at: "ch/1" },
+    book: { ja: "この世界最大のビール祭りは、ミュンヘン市長による「{樽開|たるあ}け」を{皮切|かわき}りに、16日間にわたって、42ヘクタール（{東京|とうきょう}ドーム約九個分）の{敷地|しきち}で**{繰|く}り{広|ひろ}げられる**。", en: "Starting with the tapping of the first keg by the mayor of Munich, the world's largest beer festival will run for 16 days on a 42-hectare site (about the area of nine Tokyo Domes).", at: "ch/1" },
     ex: [
       { ja: "{決勝戦|けっしょうせん}では、{両|りょう}チームが{激|はげ}しい{戦|たたか}いを**{繰|く}り{広|ひろ}げた**。", en: "In the final, the two teams fought a fierce battle.", alt: ["{押|お}し{広|ひろ}げた", "{繰|く}り{越|こ}した", "{引|ひ}き{上|あ}げた"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "home (of something); the place where something originated or is done authentically",
     note: "The place known for the genuine article: 本場のフランス料理, 本場で英語を学ぶ, 本場仕込み (learned at the source). It implies authenticity compared with imitations elsewhere. Don't confuse it with 本番 (the real performance, as opposed to a rehearsal).",
     rx: ["ほんじょう", "もとば", "ほんぱ"],
-    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "As you'd expect of the world's foremost home of beer, the festival draws more than six million tourists from all over the world every year.", at: "ch/1" },
+    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "This being the world's foremost home of beer, it is no surprise that more than six million tourists come from countries all over the world every year.", at: "ch/1" },
     ex: [
       { ja: "イタリアで**{本場|ほんば}**のピザを{食|た}べてみたい。", en: "I'd like to try authentic pizza in Italy.", alt: ["{本番|ほんばん}", "{現場|げんば}", "{本部|ほんぶ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to drift, float; (of a smell or mood) to hang in the air",
     note: "Literally drifting on water or in the air (波に漂う); very often figurative for smells and atmospheres: いい香りが漂う, 緊張感が漂う. 〜の漂う + noun (a place where ~ hangs in the air) is a set written pattern.",
     rx: ["たたよう", "ひょうう", "ひたよう"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
     ex: [
       { ja: "{台所|だいどころ}からカレーのいい{香|かお}りが**{漂|ただよ}って**きた。", en: "A nice smell of curry drifted in from the kitchen.", alt: ["{迷|まよ}って", "{浮|う}かんで", "{揺|ゆ}れて"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "day after day; every day (for a run of days)",
     note: "Common in news: 連日の猛暑 (heat day after day), 連日満員 (sold out every day). It refers to a stretch of consecutive days, while 毎日 is simply every day. The night version is 連夜.",
     rx: ["れんにち", "れいじつ", "れんび"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
     ex: [
       { ja: "{猛暑|もうしょ}が{続|つづ}き、**{連日|れんじつ}**35{度|ど}を{超|こ}える{暑|あつ}さとなっている。", en: "The heat wave continues, with temperatures above 35 degrees day after day.", alt: ["{翌日|よくじつ}", "{祝日|しゅくじつ}", "{先日|せんじつ}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "holding (a meeting, event or exhibition)",
     note: "The formal verb for hosting events: 大会を開催する, 開催地 (host city), 開催中 (now on). In conversation people say 開く, 行う or やる.",
     rx: ["かいざい", "がいさい", "かいさく"],
-    book: { ja: "今回のコンサートツアーは、{名古屋|なごや}で**{開催|かいさい}**されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "This concert tour is scheduled to kick off in Nagoya and go on to visit 20 cities across the country.", at: "gp/1" },
+    book: { ja: "今回のコンサートツアーは、{名古屋|なごや}で**{開催|かいさい}**されるのを{皮切|かわき}りにして、全国20都市を回る予定です。", en: "This concert tour is scheduled to kick off with a show in Nagoya and go on to 20 cities across the country.", at: "gp/1" },
     ex: [
       { ja: "{市民|しみん}マラソン{大会|たいかい}は、{雨|あめ}のため**{開催|かいさい}**が{延期|えんき}された。", en: "The citizens' marathon was postponed because of rain.", alt: ["{開業|かいぎょう}", "{開発|かいはつ}", "{催促|さいそく}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "attracting customers or visitors; drawing crowds",
     note: "A business and marketing word: 集客力 (pulling power), 集客数 (number of visitors), 集客イベント. In the sample 多くの集客 stands for the many visitors drawn in. 来客 is visitors arriving; 集客 is the act of drawing them.",
     rx: ["しゅきゃく", "しゅうかく", "じゅうきゃく"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
     ex: [
       { ja: "SNSを{活用|かつよう}して**{集客|しゅうきゃく}**に{成功|せいこう}した{店|みせ}も{多|おお}い。", en: "Many shops have succeeded in attracting customers by making use of social media.", alt: ["{乗客|じょうきゃく}", "{集会|しゅうかい}", "{観客|かんきゃく}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to expect, anticipate; to count on (someone's ability); to allow for",
     note: "Forecasting a result: 増収が見込まれる (an increase in revenue is expected); the noun is 見込み (prospect, estimate). It can also mean trusting someone's ability: 君を見込んで頼む (I'm asking you because I believe in you). The passive 見込まれる is typical of news.",
     rx: ["みごむ", "けんこむ", "みくむ"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "In the tent, with its nostalgic atmosphere, dances, parades and horse races unique to Bavaria are each scheduled twice a day, every day, and even bigger crowds than usual are expected.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
     ex: [
       { ja: "{来年度|らいねんど}は{売上|うりあげ}が1{割|わり}ほど{増|ふ}えると**{見込|みこ}まれて**いる。", en: "Sales are expected to rise by about 10 percent next fiscal year.", alt: ["{見逃|みのが}されて", "{見送|みおく}られて", "{見直|みなお}されて"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "beverage; drink (formal or commercial)",
     note: "Used on labels, in business and in writing: 清涼飲料 (soft drinks), 飲料水 (drinking water), 飲料メーカー. In conversation people say 飲み物.",
     rx: ["のみりょう", "いんりょ", "おんりょう"],
-    book: { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール**{飲料|いんりょう}**のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、家族{連|づ}れの{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling carnival with a merry-go-round and roller coasters, so many families can be seen there too.", at: "ch/1" },
+    book: { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール**{飲料|いんりょう}**のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、家族{連|づ}れの{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling fair with a merry-go-round and a roller coaster, and many families come as well.", at: "ch/1" },
     ex: [
       { ja: "{自動|じどう}{販売機|はんばいき}で{冷|つめ}たい**{飲料|いんりょう}**を{買|か}った。", en: "I bought a cold drink from a vending machine.", alt: ["{燃料|ねんりょう}", "{料金|りょうきん}", "{飲食|いんしょく}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "families (out together); people with their families",
     note: "〜連れ means “accompanied by”: 家族連れ, 子ども連れ, 二人連れ. Note the voiced づれ. It appears constantly in reports about crowded parks, beaches and events: 家族連れでにぎわう.",
     rx: ["かぞくつれ", "かぞくれん", "けぞくづれ"],
-    book: { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール{飲料|いんりょう}のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、**家族{連|づ}れ**の{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling carnival with a merry-go-round and roller coasters, so many families can be seen there too.", at: "ch/1" },
+    book: { ja: "「オクトーバーフェスト」といえば、もちろんビールがメインだが、ノンアルコール{飲料|いんりょう}のバーや、メリーゴーラウンドやジェットコースターのある移動遊園地なども開かれ、**家族{連|づ}れ**の{姿|すがた}も多く見られる。", en: "Beer is of course the main attraction at Oktoberfest, but there are also bars serving non-alcoholic drinks and a traveling fair with a merry-go-round and a roller coaster, and many families come as well.", at: "ch/1" },
     ex: [
       { ja: "{日曜日|にちようび}の{動物園|どうぶつえん}は**{家族|かぞく}{連|づ}れ**でにぎわっていた。", en: "On Sunday the zoo was bustling with families.", alt: ["{家族|かぞく}{構成|こうせい}", "{家族|かぞく}{会議|かいぎ}", "{家族|かぞく}{手当|てあて}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "the first ten days of a month; early (in the month)",
     note: "A month is divided into 上旬 or 初旬 (1st–10th), 中旬 (11th–20th) and 下旬 (21st–end). 初旬 and 上旬 mean the same and are both formal; in conversation people say 〜月の初め.",
     rx: ["しょしゅん", "はつじゅん", "しょうじゅん"],
-    book: { ja: "{中村監督|なかむらかんとく}の{新作|しんさく}映画は、来月**{初旬|しょじゅん}**にパリで行われる海外ロケを{皮切|かわき}りに、{本格的|ほんかくてき}な{撮影|さつえい}に入る。", en: "Director Nakamura's new film will begin full-scale shooting, starting with location work abroad in Paris early next month.", at: "gp/1" },
+    book: { ja: "{中村監督|なかむらかんとく}の{新作|しんさく}映画は、来月**{初旬|しょじゅん}**にパリで行われる海外ロケを{皮切|かわき}りに、{本格的|ほんかくてき}な{撮影|さつえい}に入る。", en: "Director Nakamura's new film will go into full production, starting with overseas location shooting in Paris early next month.", at: "gp/1" },
     ex: [
       { ja: "{新商品|しんしょうひん}は4{月|がつ}**{初旬|しょじゅん}**に{発売|はつばい}される{予定|よてい}だ。", en: "The new product is scheduled to go on sale in early April.", alt: ["{初期|しょき}", "{初歩|しょほ}", "{初耳|はつみみ}"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "full-scale; in earnest; genuine, authentic",
     note: "Two senses: done properly and at full scale (本格的に始まる, 本格的な冬) and the real thing (本格的なイタリア料理). 本格化する means to get into full swing.",
     rx: ["ほんかっくてき", "ほんきゃくてき", "ほうかくてき"],
-    book: { ja: "{中村監督|なかむらかんとく}の{新作|しんさく}映画は、来月{初旬|しょじゅん}にパリで行われる海外ロケを{皮切|かわき}りに、**{本格的|ほんかくてき}**な{撮影|さつえい}に入る。", en: "Director Nakamura's new film will begin full-scale shooting, starting with location work abroad in Paris early next month.", at: "gp/1" },
+    book: { ja: "{中村監督|なかむらかんとく}の{新作|しんさく}映画は、来月{初旬|しょじゅん}にパリで行われる海外ロケを{皮切|かわき}りに、**{本格的|ほんかくてき}**な{撮影|さつえい}に入る。", en: "Director Nakamura's new film will go into full production, starting with overseas location shooting in Paris early next month.", at: "gp/1" },
     ex: [
       { ja: "{梅雨|つゆ}が{明|あ}けて、**{本格的|ほんかくてき}**な{夏|なつ}が{始|はじ}まった。", en: "The rainy season is over, and summer has begun in earnest.", alt: ["{具体的|ぐたいてき}", "{本質的|ほんしつてき}", "{積極的|せっきょくてき}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to create, produce; to give rise to",
     note: "Bringing something new into existence: 新しい技術 / 利益 / 名作を生み出す. It is more vivid than 作る and is used above all for ideas, value, works and results.",
     rx: ["なまみだす", "うみでだす", "せいみだす"],
-    book: { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを**生み出して**いった。", en: "Starting with this novel, which became a bestseller, he went on to create one popular series after another.", at: "gp/1" },
+    book: { ja: "彼は、この小説がベストセラーになったのを{皮切|かわき}りとして、次々と人気シリーズを**生み出して**いった。", en: "Starting with this novel, which became a bestseller, he went on to produce one popular series after another.", at: "gp/1" },
     ex: [
       { ja: "{新|あたら}しいアイデアを**{生|う}み{出|だ}す**には、{自由|じゆう}な{環境|かんきょう}が{必要|ひつよう}だ。", en: "A free environment is needed to come up with new ideas.", alt: ["{飛|と}び{出|だ}す", "{逃|に}げ{出|だ}す", "{追|お}い{出|だ}す"] },
     ] },
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "heredity; genetic inheritance",
     note: "親から遺伝する (be inherited from one's parents), 遺伝子 (gene), 遺伝学 (genetics), 遺伝的な病気. Inheriting property is 相続, and a legacy is 遺産.",
     rx: ["ゆいでん", "いてん", "いでい"],
-    book: { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、**{遺伝学|いでんがく}**の研究対象として注目されている。", en: "Because the shape of the panda's front paw is so unusual, it is attracting attention as a subject of genetic research.", at: "gp/2" },
+    book: { ja: "パンダの{前足|まえあし}の形は大変珍しいとあって、**{遺伝学|いでんがく}**の研究対象として注目されている。", en: "The shape of the panda's front paw is so unusual that it has drawn attention as a subject of genetic research.", at: "gp/2" },
     ex: [
       { ja: "{背|せ}が{高|たか}いのは{父親|ちちおや}からの**{遺伝|いでん}**らしい。", en: "Apparently I get my height from my father.", alt: ["{伝統|でんとう}", "{伝言|でんごん}", "{遺跡|いせき}"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "the first shrine or temple visit of the New Year",
     note: "Usually made during the first three days of January (三が日): 初詣に行く, 初詣客. The reading もうで comes from the verb 詣でる (to visit a shrine or temple).",
     rx: ["はつけい", "しょもうで", "はつもで"],
-    book: { ja: "**{初詣|はつもうで}**は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "Plenty of people make their New Year's visit at a shrine, marry in a church and hold funerals at a temple — something I think you'd only find in Japan, with its tolerance of different religions.", at: "gp/3" },
+    book: { ja: "**{初詣|はつもうで}**は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に{寛容|かんよう}な日本ならではだと思う。", en: "It's not unusual for people to make their New Year's visit to a Shinto shrine, get married in a church and hold funerals at a Buddhist temple. I think that could only happen in Japan, with its tolerant attitude toward religion.", at: "gp/3" },
     ex: [
       { ja: "{元日|がんじつ}に{家族|かぞく}で{近|ちか}くの{神社|じんじゃ}へ**{初詣|はつもうで}**に{行|い}った。", en: "On New Year's Day my family and I paid our first visit of the year to a nearby shrine.", alt: ["{初耳|はつみみ}", "{墓参|はかまい}り", "{初恋|はつこい}"] },
     ] },
@@ -273,7 +273,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "tolerant; broad-minded; forgiving",
     note: "Accepting differences or overlooking faults: 〜に寛容だ, 寛容な社会 / 態度. The opposite is 不寛容. 寛大 is close but stresses generosity in judging or punishing (寛大な処置).",
     rx: ["かんよ", "けんよう", "かんゆう"],
-    book: { ja: "{初詣|はつもうで}は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に**{寛容|かんよう}**な日本ならではだと思う。", en: "Plenty of people make their New Year's visit at a shrine, marry in a church and hold funerals at a temple — something I think you'd only find in Japan, with its tolerance of different religions.", at: "gp/3" },
+    book: { ja: "{初詣|はつもうで}は神社、結婚式は教会、{葬式|そうしき}は寺でする人が珍しくないのは、{宗教|しゅうきょう}に**{寛容|かんよう}**な日本ならではだと思う。", en: "It's not unusual for people to make their New Year's visit to a Shinto shrine, get married in a church and hold funerals at a Buddhist temple. I think that could only happen in Japan, with its tolerant attitude toward religion.", at: "gp/3" },
     ex: [
       { ja: "{彼|かれ}は{部下|ぶか}の{小|ちい}さなミスには**{寛容|かんよう}**だ。", en: "He is tolerant of his subordinates' small mistakes.", alt: ["{肝心|かんじん}", "{容易|ようい}", "{内容|ないよう}"] },
     ] },
@@ -313,7 +313,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "consideration; care; thoughtfulness (for someone or something)",
     note: "〜に配慮する (be considerate of), 環境に配慮した製品 (environmentally friendly products), 配慮に欠ける (inconsiderate). More formal than 気を配る. 考慮 is taking a factor into account; 配慮 is looking after others' needs or feelings.",
     rx: ["はいりょう", "ばいりょ", "はいろ"],
-    book: { ja: "環境に**{配慮|はいりょ}**した製品の開発は、（　）にもまして重要になっている。", en: "Developing environmentally friendly products has become even more important than it was in the past.", at: "gp/4" },
+    book: { ja: "環境に**{配慮|はいりょ}**した製品の開発は、（　）にもまして重要になっている。", en: "Developing environmentally friendly products has become more important than ever before.", at: "gp/4" },
     ex: [
       { ja: "{高齢者|こうれいしゃ}に**{配慮|はいりょ}**して、{駅|えき}にエレベーターが{設置|せっち}された。", en: "Elevators were installed in the station out of consideration for elderly people.", alt: ["{遠慮|えんりょ}", "{配達|はいたつ}", "{配布|はいふ}"] },
     ] },
@@ -376,7 +376,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "nursing care; caregiving (for the elderly or disabled)",
     note: "Everyday help with eating, bathing and moving: 親の介護, 介護施設, 介護保険, 介護福祉士 (certified care worker). 看護 is medical nursing, and 看病 is looking after someone who is sick.",
     rx: ["かいこ", "けいご", "かいごう"],
-    book: { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の**{介護靴|かいごぐつ}**を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes for people needing nursing care.", at: "gp/5" },
+    book: { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の**{介護靴|かいごぐつ}**を作るに{至|いた}った{経緯|けいい}を追った。", en: "This documentary traced how one woman came to create Japan's first shoes designed for people receiving nursing care.", at: "gp/5" },
     ex: [
       { ja: "{母|はは}は{仕事|しごと}を{続|つづ}けながら、{祖母|そぼ}の**{介護|かいご}**をしている。", en: "My mother looks after my grandmother while continuing to work.", alt: ["{防護|ぼうご}", "{弁護|べんご}", "{介入|かいにゅう}"] },
     ] },
@@ -384,7 +384,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "the circumstances; how something came about; the details",
     note: "The sequence of events leading up to a result: 事件の経緯, 経緯を説明する. In speech the same word is also read いきさつ. As a geography term, 経緯 means longitude and latitude.",
     rx: ["けいえい", "きょうい", "けいお"],
-    book: { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の{介護靴|かいごぐつ}を作るに{至|いた}った**{経緯|けいい}**を追った。", en: "This documentary traced how one woman came to create Japan's first shoes for people needing nursing care.", at: "gp/5" },
+    book: { ja: "このドキュメンタリーでは、1人の女性が日本{初|はつ}の{介護靴|かいごぐつ}を作るに{至|いた}った**{経緯|けいい}**を追った。", en: "This documentary traced how one woman came to create Japan's first shoes designed for people receiving nursing care.", at: "gp/5" },
     ex: [
       { ja: "{社長|しゃちょう}は{事故|じこ}が{起|お}きた**{経緯|けいい}**を{記者|きしゃ}{会見|かいけん}で{説明|せつめい}した。", en: "At a press conference, the company president explained how the accident had happened.", alt: ["{経費|けいひ}", "{経由|けいゆ}", "{敬意|けいい}"] },
     ] },
@@ -392,7 +392,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to escape; to get away from; to evade (responsibility)",
     note: "Getting out of danger or out of something unpleasant: 危険から逃れる, 責任を逃れる / 責任逃れ (dodging responsibility). More formal and often more figurative than 逃げる; 免れる (to be spared) takes を.",
     rx: ["にがれる", "のかれる", "とうれる"],
-    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, resigning is probably the only option left.", at: "gp/5" },
+    book: { ja: "社長は責任**{逃|のが}れ**の言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては{辞任|じにん}するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, the only thing left is probably to resign.", at: "gp/5" },
     ex: [
       { ja: "{都会|とかい}の{暑|あつ}さから**{逃|のが}れる**ため、{週末|しゅうまつ}は{山|やま}で{過|す}ごしている。", en: "To escape the city heat, I spend my weekends in the mountains.", alt: ["{外|はず}れる", "{崩|くず}れる", "{遅|おく}れる"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "resignation (from a post)",
     note: "Stepping down from a position such as minister, chairman or coach: 大臣を辞任する, 辞任に追い込まれる (be forced to resign). 辞職 is leaving one's job altogether; 退職 is leaving or retiring from a company.",
     rx: ["じいん", "しにん", "じにい"],
-    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that it has come to this, resigning is probably the only option left.", at: "gp/5" },
+    book: { ja: "社長は責任{逃|のが}れの言い{訳|わけ}を{繰|く}り返していたが、{事|こと}ここに{至|いた}っては**{辞任|じにん}**するしかないだろう。", en: "The company president kept making excuses to dodge responsibility, but now that things have come to this, the only thing left is probably to resign.", at: "gp/5" },
     ex: [
       { ja: "{会長|かいちょう}は{健康上|けんこうじょう}の{理由|りゆう}で**{辞任|じにん}**した。", en: "The chair stepped down for health reasons.", alt: ["{就任|しゅうにん}", "{担任|たんにん}", "{信任|しんにん}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "our company; this company (said by the company itself)",
     note: "Used in formal statements, notices and business documents: 当社の製品, 当社では〜. When speaking to a client, the humble 弊社 is preferred; the client's company is 御社 (spoken) or 貴社 (written).",
     rx: ["とうじゃ", "あたりしゃ", "とうしょ"],
-    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ways to live a richer life.", at: "gp/5" },
+    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "Through a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ideas for a richer life.", at: "gp/5" },
     ex: [
       { ja: "**{当社|とうしゃ}**の{製品|せいひん}は{全|すべ}て{国内|こくない}で{製造|せいぞう}しております。", en: "All of our company's products are manufactured in Japan.", alt: ["{当日|とうじつ}", "{神社|じんじゃ}", "{当番|とうばん}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "power supply; power source; power switch",
     note: "電源を入れる / 切る (turn on / off), 電源コード, 電源プラグ, 電源が入らない (won't turn on). It can also mean a source of electric power, as in 電源開発 (power development).",
     rx: ["でんけん", "てんげん", "でんがん"],
-    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ways to live a richer life.", at: "gp/5" },
+    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "Through a wide variety of products, from power plugs all the way to robots for space development, our company offers everyone ideas for a richer life.", at: "gp/5" },
     ex: [
       { ja: "{映画館|えいがかん}では{携帯|けいたい}{電話|でんわ}の**{電源|でんげん}**をお{切|き}りください。", en: "Please turn off your cell phone in the movie theater.", alt: ["{電池|でんち}", "{電波|でんぱ}", "{電球|でんきゅう}"] },
     ] },
@@ -480,7 +480,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "dim; gloomy; dusky",
     note: "Not completely dark but lacking light: 薄暗い部屋 / 路地, 夕方の薄暗い時間. 薄 (thin, light) also appears in 薄味 and 薄着; note the voiced ぐらい.",
     rx: ["はくぐらい", "うすくらい", "うすあんい"],
-    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "This hotel is dim and smells musty, starting with the lobby.", at: "gp/6" },
+    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "Right from the lobby, this hotel is dim and smells musty.", at: "gp/6" },
     ex: [
       { ja: "**{薄暗|うすぐら}い**{部屋|へや}で{本|ほん}を{読|よ}むと{目|め}が{疲|つか}れる。", en: "Reading in a dim room strains your eyes.", alt: ["{薄|うす}っぺらい", "{心細|こころぼそ}い", "{腹黒|はらぐろ}い"] },
     ] },
@@ -543,7 +543,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "fully loaded; packed (with)",
     note: "Literally a vehicle loaded to capacity (荷物を満載したトラック); in ads, magazines and TV it means “packed with”: 情報満載, 見どころ満載 (full of highlights).",
     rx: ["まんざい", "まいさい", "まんさ"],
-    book: { ja: "シリーズ{最新作|さいしんさく}は{前作|ぜんさく}＿＿{激|はげ}しいアクションシーン**{満載|まんさい}**でお届けします。", en: "The latest installment in the series comes to you packed with action scenes even more intense than in the previous one.", at: "ch/1" },
+    book: { ja: "シリーズ{最新作|さいしんさく}は{前作|ぜんさく}＿＿{激|はげ}しいアクションシーン**{満載|まんさい}**でお届けします。", en: "We bring you the latest installment in the series, packed with intense action scenes, even more than the last one.", at: "ch/1" },
     ex: [
       { ja: "このガイドブックは{地元|じもと}のおすすめ{情報|じょうほう}が**{満載|まんさい}**だ。", en: "This guidebook is packed with local recommendations.", alt: ["{満員|まんいん}", "{満点|まんてん}", "{記載|きさい}"] },
     ] },
@@ -559,7 +559,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "snow cover; accumulated snow",
     note: "Snow lying on the ground, typical of weather reports: 積雪30センチ, 積雪量, 積雪地帯. Falling snow is 降雪, and clearing it is 除雪.",
     rx: ["しゃくせつ", "せっせつ", "せきゆき"],
-    book: { ja: "{東北|とうほく}地方から{関東|かんとう}北部（　）広い{範囲|はんい}で**{積雪|せきせつ}**が見られた。", en: "Snow was lying over a wide area, from the Tohoku region through northern Kanto.", at: "ch/1/review" },
+    book: { ja: "{東北|とうほく}地方から{関東|かんとう}北部（　）広い{範囲|はんい}で**{積雪|せきせつ}**が見られた。", en: "Snow was on the ground across a wide area, from the Tohoku region through northern Kanto.", at: "ch/1/review" },
     ex: [
       { ja: "{山間部|さんかんぶ}では、{一晩|ひとばん}で50センチの**{積雪|せきせつ}**があった。", en: "In the mountains, 50 centimeters of snow piled up overnight.", alt: ["{除雪|じょせつ}", "{積立|つみたて}", "{雪崩|なだれ}"] },
     ] },
@@ -567,7 +567,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "full bloom",
     note: "桜が満開だ, 満開の桜. The stages are 開花 (first blossoms opening), 満開, then 散る (falling). Used mostly for cherry blossoms and other flowering trees.",
     rx: ["まんがい", "まいかい", "みちかい"],
-    book: { ja: "**{満開|まんかい}**の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。", en: "The bustle of cherry-blossom viewers under trees in full bloom is surely a scene you can only find in spring in Japan.", at: "ch/1/review" },
+    book: { ja: "**{満開|まんかい}**の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。", en: "The bustling crowds of cherry-blossom viewers under the trees in full bloom could well be called a scene unique to spring in Japan.", at: "ch/1/review" },
     ex: [
       { ja: "{公園|こうえん}の{桜|さくら}が**{満開|まんかい}**になり、{花見|はなみ}{客|きゃく}でいっぱいだ。", en: "The cherry trees in the park are in full bloom, and it's packed with blossom viewers.", alt: ["{満員|まんいん}", "{満点|まんてん}", "{満期|まんき}"] },
     ] },
@@ -575,7 +575,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "scene; sight; spectacle",
     note: "A scene actually unfolding before one's eyes: 美しい光景, 信じられない光景, よく見る光景. 風景 and 景色 are scenery or landscape; 光景 focuses on a situation involving people or events.",
     rx: ["こうきょう", "ひかりけい", "こけい"],
-    book: { ja: "{満開|まんかい}の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の**光景**と言えよう。", en: "The bustle of cherry-blossom viewers under trees in full bloom is surely a scene you can only find in spring in Japan.", at: "ch/1/review" },
+    book: { ja: "{満開|まんかい}の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の**光景**と言えよう。", en: "The bustling crowds of cherry-blossom viewers under the trees in full bloom could well be called a scene unique to spring in Japan.", at: "ch/1/review" },
     ex: [
       { ja: "{朝|あさ}の{駅|えき}で{大勢|おおぜい}の{人|ひと}が{走|はし}る**{光景|こうけい}**は、{外国人|がいこくじん}には{珍|めずら}しいらしい。", en: "The sight of crowds rushing through the station in the morning is apparently unusual for visitors from abroad.", alt: ["{背景|はいけい}", "{景気|けいき}", "{光線|こうせん}"] },
     ] },
