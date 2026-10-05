@@ -12,7 +12,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "guy, fellow (casual, often rough); thing, one (casual)",
     note: "Very casual, used among friends or when speaking down: いい奴 (a good guy), 変な奴, 奴ら (those guys). It can also stand for things: もっと大きい奴ある？ Never use it about superiors or in polite speech; 人 or 方 are the neutral and polite words.",
     rx: ["やす", "やち", "よつ"],
-    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, you're not a kid running an errand. Nobody just drops off a catalog and comes back!", at: "ch/7" },
+    book: { ja: "{本田|ほんだ}君、子どものお{遣|つか}いじゃあるまいし、カタログだけ置いて帰ってくる**{奴|やつ}**があるか。", en: "Honda, you're not some kid running an errand! Who just drops off a catalog and comes straight back?", at: "ch/7" },
     ex: [
       { ja: "{口|くち}は悪いけど、あいつは本当にいい**{奴|やつ}**なんだ。", en: "He has a sharp tongue, but he's a really good guy.", alt: ["{訳|わけ}", "{役|やく}", "{物|もの}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 7, words: [
   { w: "ぐずぐず", lv: "N2", pos: "adverb · する verb",
     en: "slowly, sluggishly; dawdling, dragging one's feet; complaining (grumbling)",
     note: "Critical: ぐずぐずしないで早くしなさい (stop dawdling), ぐずぐず言う (grumble, whine). Also a runny nose: 鼻がぐずぐずする. のろのろ describes slow physical movement; ぐずぐず stresses indecision or delay.",
-    book: { ja: "**ぐずぐず**しているうちにライバル社に{先|さき}を{越|こ}されたらそれまでだぞ。", en: "If a rival company beats us to it while we dawdle, that's the end of it.", at: "ch/7" },
+    book: { ja: "**ぐずぐず**しているうちにライバル社に{先|さき}を{越|こ}されたらそれまでだぞ。", en: "If a rival beats us to it while we're dragging our feet, it's all over.", at: "ch/7" },
     ex: [
       { ja: "**ぐずぐず**していると、{電車|でんしゃ}に{乗|の}り{遅|おく}れるよ。", en: "If you keep dawdling, you'll miss the train.", alt: ["ぎりぎり", "どきどき", "ぴかぴか"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to get ahead of, beat (someone) to it; to forestall",
     note: "To do something before a rival does: ライバルに先を越される (be beaten to it) is the most common form. 先手を打つ is to make the first move deliberately to gain an advantage.",
     rx: ["せんをこす", "さきをとおす", "さきをすごす"],
-    book: { ja: "ぐずぐずしているうちにライバル社に**{先|さき}を{越|こ}され**たらそれまでだぞ。", en: "If a rival company beats us to it while we dawdle, that's the end of it.", at: "ch/7" },
+    book: { ja: "ぐずぐずしているうちにライバル社に**{先|さき}を{越|こ}され**たらそれまでだぞ。", en: "If a rival beats us to it while we're dragging our feet, it's all over.", at: "ch/7" },
     ex: [
       { ja: "新しい{薬|くすり}の開発で、{他社|たしゃ}に**{先|さき}を{越|こ}され**てしまった。", en: "Another company beat us to the development of the new drug.", alt: ["{肩|かた}を{持|も}たれ", "{羽|はね}を{伸|の}ばされ", "{顔|かお}を{立|た}てられ"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "ideal, perfect (opportunity, conditions)",
     note: "Almost always 絶好の + noun: 絶好のチャンス, 絶好の行楽日和 (perfect weather for an outing), 絶好調 (in top form). Don't mix it up with 絶交 (ぜっこう, breaking off a friendship), which sounds the same.",
     rx: ["ぜつこう", "ぜっこ", "せっこう"],
-    book: { ja: "うちの商品の良さをわかってもらえる**{絶好|ぜっこう}**のチャンスだったものを……。", en: "It was the perfect chance to get them to see how good our products are, and yet…", at: "ch/7" },
+    book: { ja: "うちの商品の良さをわかってもらえる**{絶好|ぜっこう}**のチャンスだったものを……。", en: "It was the perfect chance to show them how good our products are, and yet you…", at: "ch/7" },
     ex: [
       { ja: "{晴|は}れて風もなく、今日は**{絶好|ぜっこう}**の{洗濯|せんたく}日和だ。", en: "It's sunny and still — perfect laundry weather today.", alt: ["{絶対|ぜったい}", "{絶望|ぜつぼう}", "{良好|りょうこう}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "expenses, costs (of running something); business expenses",
     note: "経費を削減する (cut costs), 経費で落とす (charge it as a business expense), 必要経費. 費用 is the cost of a particular thing; 経費 is the ongoing cost of operating.",
     rx: ["けいび", "きょうひ", "けいい"],
-    book: { ja: "相手にすれば、**{経費|けいひ}**は安ければ安いほどいいわけだからなあ。", en: "Well, from their point of view, the lower the costs the better.", at: "ch/7" },
+    book: { ja: "相手にすれば、**{経費|けいひ}**は安ければ安いほどいいわけだからなあ。", en: "Well, from their point of view, the lower the costs, the better.", at: "ch/7" },
     ex: [
       { ja: "出張のタクシー代は**{経費|けいひ}**で落とせますか。", en: "Can I claim the taxi fare for the business trip as an expense?", alt: ["{経営|けいえい}", "{会費|かいひ}", "{学費|がくひ}"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "profitability; balance of costs and income",
     note: "Mostly in set phrases: 採算が取れる／合う (it pays), 採算が取れない (it doesn't pay), 採算を度外視する (ignore profitability), 不採算部門 (an unprofitable division).",
     rx: ["さいざん", "さいさ", "しゅさん"],
-    book: { ja: "**{採算|さいさん}**が取れなければあきらめるまでのことだが……。", en: "If it doesn't pay, we'll simply give up, but…", at: "ch/7" },
+    book: { ja: "**{採算|さいさん}**が取れなければあきらめるまでのことだが……。", en: "If the numbers don't work, we'll simply walk away, but…", at: "ch/7" },
     ex: [
       { ja: "客が少なすぎて、このバス{路線|ろせん}は**{採算|さいさん}**が取れない。", en: "There are too few passengers, so this bus route doesn't pay for itself.", alt: ["{計算|けいさん}", "{予算|よさん}", "{採点|さいてん}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "passion, enthusiasm, ardor",
     note: "Strong inner drive: 情熱を注ぐ／傾ける (pour one's passion into), 情熱的な (passionate). 熱意 is earnest zeal for a task and sounds more businesslike; 熱心 is the adjective “keen.”",
     rx: ["じょねつ", "せいねつ", "じょうねち"],
-    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's passion, all but overflowing, comes through in this work.", at: "gp/73" },
+    book: { ja: "この作品からは、画家のあふれんばかりの**情熱**が伝わってくる。", en: "The painter's brimming passion comes through in this work.", at: "gp/73" },
     ex: [
       { ja: "彼は{残|のこ}りの人生のすべての**{情熱|じょうねつ}**を{教育|きょういく}に{注|そそ}いだ。", en: "For the rest of his life, he poured all his passion into education.", alt: ["{情報|じょうほう}", "{感情|かんじょう}", "{熱湯|ねっとう}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "falling from a height; crash (of an aircraft)",
     note: "Used for aircraft and for falling from high places: 飛行機が墜落する, 墜落事故. 転落 is falling down (stairs, a cliff) and is also used figuratively for a fall in rank; 落下 is the neutral “falling.”",
     rx: ["ついろく", "すいらく", "ついら"],
-    book: { ja: "アクロバット飛行の飛行機が、今にも**{墜落|ついらく}**せんばかりの勢いで{急降下|きゅうこうか}した。", en: "The aerobatic plane dived so steeply it looked as if it would crash at any moment.", at: "gp/73" },
+    book: { ja: "アクロバット飛行の飛行機が、今にも**{墜落|ついらく}**せんばかりの勢いで{急降下|きゅうこうか}した。", en: "The stunt plane went into a dive so steep it looked as if it would crash at any moment.", at: "gp/73" },
     ex: [
       { ja: "{山中|さんちゅう}に**{墜落|ついらく}**したヘリコプターの{捜索|そうさく}が続いている。", en: "The search for the helicopter that crashed in the mountains is continuing.", alt: ["{脱落|だつらく}", "{下落|げらく}", "{堕落|だらく}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "nosedive, steep dive; a sudden plunge (of prices, popularity)",
     note: "Literally of aircraft or birds; figuratively 人気が急降下する, 気温が急降下. The opposite is 急上昇. 急落 is the usual word for a sudden drop in prices or stocks.",
     rx: ["きゅうこうげ", "きゅこうか", "きゅうごうか"],
-    book: { ja: "アクロバット飛行の飛行機が、今にも{墜落|ついらく}せんばかりの勢いで**{急降下|きゅうこうか}**した。", en: "The aerobatic plane dived so steeply it looked as if it would crash at any moment.", at: "gp/73" },
+    book: { ja: "アクロバット飛行の飛行機が、今にも{墜落|ついらく}せんばかりの勢いで**{急降下|きゅうこうか}**した。", en: "The stunt plane went into a dive so steep it looked as if it would crash at any moment.", at: "gp/73" },
     ex: [
       { ja: "{鷹|たか}が{獲物|えもの}を見つけて**{急降下|きゅうこうか}**した。", en: "The hawk spotted its prey and went into a steep dive.", alt: ["{急上昇|きゅうじょうしょう}", "{急停車|きゅうていしゃ}", "{急増|きゅうぞう}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "all-you-can-eat",
     note: "〜放題 means “as much as one likes”: 飲み放題 (all-you-can-drink), 使い放題. With other verbs it is often critical: 言いたい放題 (saying whatever one pleases), 散らかし放題 (left in a total mess).",
     rx: ["たべほうたい", "たべほだい", "たべぼうだい"],
-    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say, “It's all-you-can-eat, so not eating would be a waste,” they came back with a mountain of food on their plate.", at: "gp/73" },
+    book: { ja: "**食べ{放題|ほうだい}**なのだから食べないと損だとばかりに、皿に山ほど料理を取ってきた。", en: "As if to say it was all-you-can-eat, so not eating would be a waste, they came back with their plate piled high.", at: "gp/73" },
     ex: [
       { ja: "この店は2,000円でケーキが**{食|た}べ{放題|ほうだい}**だ。", en: "At this shop, it's all-you-can-eat cake for 2,000 yen.", alt: ["{食|た}べ{歩|ある}き", "{食|た}べ{残|のこ}し", "{食|た}べ{頃|ごろ}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "replacement, changeover; switching (stock, staff, seats)",
     note: "From 入れ替える (to replace, swap): 商品の入れ替え (changing the stock), 空気の入れ替え (airing a room), 選手の入れ替え. Also written 入れ換え. 取り替え is exchanging one item for another.",
     rx: ["いれがえ", "にゅうたいえ", "いれかわえ"],
-    book: { ja: "商品の**{入|い}れ{替|か}え**で{全品|ぜんぴん}半額だったので、このときとばかりにたくさん買い込んだ。", en: "Everything was half price because they were changing their stock, so I seized the moment and stocked up.", at: "gp/73" },
+    book: { ja: "商品の**{入|い}れ{替|か}え**で{全品|ぜんぴん}半額だったので、このときとばかりにたくさん買い込んだ。", en: "Everything was half off for a stock changeover, so I seized the chance and stocked up.", at: "gp/73" },
     ex: [
       { ja: "{窓|まど}を開けて、部屋の空気の**{入|い}れ{替|か}え**をしましょう。", en: "Let's open the windows and air out the room.", alt: ["{入|い}れ{知恵|ぢえ}", "{切|き}り{替|か}え", "{入|い}れ{物|もの}"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to buy up, stock up on (a large amount)",
     note: "Buying a lot at once, usually to keep in stock: 食料を買い込む, 買い込みすぎる. 買いだめ (する) is stockpiling in anticipation of a shortage or price rise.",
     rx: ["かいごむ", "ばいこむ", "かいいむ"],
-    book: { ja: "商品の{入|い}れ{替|か}えで{全品|ぜんぴん}半額だったので、このときとばかりにたくさん**買い込んだ**。", en: "Everything was half price because they were changing their stock, so I seized the moment and stocked up.", at: "gp/73" },
+    book: { ja: "商品の{入|い}れ{替|か}えで{全品|ぜんぴん}半額だったので、このときとばかりにたくさん**買い込んだ**。", en: "Everything was half off for a stock changeover, so I seized the chance and stocked up.", at: "gp/73" },
     ex: [
       { ja: "台風が来る前に、水や食料を**{買|か}い{込|こ}んだ**。", en: "Before the typhoon came, I stocked up on water and food.", alt: ["{買|か}い{取|と}った", "{売|う}り{込|こ}んだ", "{買|か}い{替|か}えた"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to bark, howl, roar",
     note: "Of dogs, wolves and other animals: 犬が吠える. Figuratively, to shout or bluster: 負け犬の遠吠え (the whining of a loser). 鳴く is the general word for animal and bird calls.",
     rx: ["ぼえる", "はえる", "ほうえる"],
-    book: { ja: "うちの犬は{誰|だれ}か来ると、（　）んばかりに**{吠|ほ}え**るので、困っている。", en: "Whenever someone comes, my dog barks as if it's about to (　), which is a problem.", at: "gp/73" },
+    book: { ja: "うちの犬は{誰|だれ}か来ると、（　）んばかりに**{吠|ほ}え**るので、困っている。", en: "Whenever anyone comes over, our dog barks as if it's about to (　). It's a real headache.", at: "gp/73" },
     ex: [
       { ja: "{夜中|よなか}に{隣|となり}の犬が**{吠|ほ}え**て、なかなか{眠|ねむ}れなかった。", en: "The neighbor's dog was barking in the middle of the night, and I could hardly sleep.", alt: ["{鳴|な}らし", "{叫|さけ}ばせ", "{唸|うな}らせ"] },
     ] },
@@ -202,14 +202,14 @@ TRY.registerVocab({ ch: 7, words: [
     en: "secret; (keeping something) confidential, private",
     note: "Conversational: 内緒にする (keep it secret), 内緒話 (a whispered secret), 親に内緒で (without telling one's parents). 秘密 is the general, more serious word; 内緒 is used for personal, everyday secrets.",
     rx: ["ないしょう", "うちお", "ないちょ"],
-    book: { ja: "**{内緒|ないしょ}**にしておけばお互いハッピーなものを、どうしてしゃべっちゃったんだよ。", en: "If you'd kept it secret we'd both be happy — why did you blab?", at: "gp/75" },
+    book: { ja: "**{内緒|ないしょ}**にしておけばお互いハッピーなものを、どうしてしゃべっちゃったんだよ。", en: "If you'd kept it a secret, we'd both be happy. Why did you have to blab?", at: "gp/75" },
     ex: [
       { ja: "このことは、{部長|ぶちょう}には**{内緒|ないしょ}**にしておいてね。", en: "Keep this a secret from the manager, OK?", alt: ["{内容|ないよう}", "{内心|ないしん}", "{内部|ないぶ}"] },
     ] },
   { w: "こじれる", lv: "N1", pos: "verb (intransitive)",
     en: "to get complicated, go wrong, turn sour (a problem, relationship); to linger and worsen (an illness)",
     note: "話がこじれる (talks break down), 関係がこじれる, 風邪をこじらせる (let a cold get worse — the transitive こじらせる). Always negative in tone; 複雑になる is the neutral “become complicated.”",
-    book: { ja: "すぐ{謝|あやま}ればすんだものを、問題が**こじれ**てしまったじゃないか。", en: "If you'd apologized right away that would have been the end of it — now the problem has gotten complicated!", at: "gp/75" },
+    book: { ja: "すぐ{謝|あやま}ればすんだものを、問題が**こじれ**てしまったじゃないか。", en: "If you'd apologized right away, that would have settled it, but now look — it's turned into a real mess!", at: "gp/75" },
     ex: [
       { ja: "{遺産|いさん}の問題で兄弟の関係が**こじれ**てしまった。", en: "The siblings' relationship turned sour over the inheritance.", alt: ["ほぐれ", "まとまっ", "おさまっ"] },
     ] },
@@ -217,14 +217,14 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to sit down (and stay put); to plop down; to stage a sit-in",
     note: "Sitting down heavily or refusing to move: 床に座り込む, 疲れて道に座り込む. As a noun, 座り込み is a sit-in protest.",
     rx: ["すわりごむ", "ざりこむ", "すわりいむ"],
-    book: { ja: "最近の若い人ときたら、電車の中で床に**座り込ん**だりして、恥ずかしくないのかしら。", en: "Young people these days, honestly — plopping down on the floor of the train. Don't they have any shame?", at: "gp/76" },
+    book: { ja: "最近の若い人ときたら、電車の中で床に**座り込ん**だりして、恥ずかしくないのかしら。", en: "Honestly, young people these days — plopping down on the floor of the train. Aren't they embarrassed?", at: "gp/76" },
     ex: [
       { ja: "{疲|つか}れ{果|は}てた子どもは、道の{真|ま}ん{中|なか}に**{座|すわ}り{込|こ}んで**しまった。", en: "The worn-out child plopped down in the middle of the road.", alt: ["{座|すわ}り{直|なお}して", "{申|もう}し{込|こ}んで", "{割|わ}り{込|こ}んで"] },
     ] },
   { w: "しっぽ", lv: "N2", pos: "noun",
     en: "tail (of an animal); the end, tail end",
     note: "Everyday word (also 尻尾): しっぽを振る (wag its tail; figuratively, to fawn), しっぽを出す (give oneself away), しっぽをつかむ (catch someone out). 尾 (お) is the written word.",
-    book: { ja: "{誰|だれ}を見ても**しっぽ**を{振|ふ}って、留守番の役にも立たないんだから。", en: "It wags its tail at anyone it sees, so it's no use at all for watching the house.", at: "gp/76" },
+    book: { ja: "{誰|だれ}を見ても**しっぽ**を{振|ふ}って、留守番の役にも立たないんだから。", en: "It wags its tail at everyone it sees, so it's useless as a watchdog.", at: "gp/76" },
     ex: [
       { ja: "{飼|か}い{主|ぬし}が帰ってくると、犬はうれしそうに**しっぽ**を{振|ふ}った。", en: "When its owner came home, the dog wagged its tail happily.", alt: ["ひげ", "つめ", "まゆ"] },
     ] },
@@ -232,7 +232,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "looking after the house (while others are out); house-sitter",
     note: "留守番をする (stay home and mind the house), 留守番電話 (answering machine, often 留守電). 留守 alone means being away from home: 留守にする.",
     rx: ["るすはん", "りゅうすばん", "るすうばん"],
-    book: { ja: "{誰|だれ}を見てもしっぽを{振|ふ}って、**留守番**の役にも立たないんだから。", en: "It wags its tail at anyone it sees, so it's no use at all for watching the house.", at: "gp/76" },
+    book: { ja: "{誰|だれ}を見てもしっぽを{振|ふ}って、**留守番**の役にも立たないんだから。", en: "It wags its tail at everyone it sees, so it's useless as a watchdog.", at: "gp/76" },
     ex: [
       { ja: "両親が旅行中なので、週末は{一人|ひとり}で**{留守番|るすばん}**だ。", en: "My parents are away on a trip, so I'm minding the house on my own this weekend.", alt: ["{番号|ばんごう}", "{門番|もんばん}", "{順番|じゅんばん}"] },
     ] },
@@ -240,7 +240,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "being accepted, valid or effective (somewhere); passing as; holding good",
     note: "世界で通用する技術 (skills that hold up worldwide), その言い訳は通用しない (that excuse won't work), 通用口 (staff entrance). 通じる is closer to “be understood, get through.”",
     rx: ["つうよ", "つよう", "とうよう"],
-    book: { ja: "国内のコンクールで優勝したところで、海外でも**通用**するとは限らないさ。", en: "Even if you win a domestic competition, it doesn't mean you'll be good enough abroad.", at: "gp/77" },
+    book: { ja: "国内のコンクールで優勝したところで、海外でも**通用**するとは限らないさ。", en: "Even if you win a competition at home, that doesn't mean you'll make it abroad.", at: "gp/77" },
     ex: [
       { ja: "学生{気分|きぶん}のままでは、社会では**{通用|つうよう}**しないよ。", en: "If you keep acting like a student, it won't fly in the working world.", alt: ["{通勤|つうきん}", "{利用|りよう}", "{通信|つうしん}"] },
     ] },
@@ -248,7 +248,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "distrust, lack of confidence",
     note: "政治不信 (public distrust of politics), 人間不信 (distrust of people), 不信感を抱く (feel distrust), 不信任 (no confidence, as in a vote). Sounds the same as 不審 (suspicious) and 不振 (slump) — context decides.",
     rx: ["ふじん", "ぶしん", "ふしんい"],
-    book: { ja: "国のトップが変わったところで、国民の政治**{不信|ふしん}**は簡単には解決できない。", en: "Even if the country's leader changes, the public's distrust of politics can't be easily resolved.", at: "gp/77" },
+    book: { ja: "国のトップが変わったところで、国民の政治**{不信|ふしん}**は簡単には解決できない。", en: "Even if the country's leader changes, the public's distrust of politics won't easily go away.", at: "gp/77" },
     ex: [
       { ja: "{度重|たびかさ}なるミスで、客は会社に**{不信|ふしん}**感を{抱|いだ}いている。", en: "After repeated mistakes, customers have come to distrust the company.", alt: ["{不在|ふざい}", "{不振|ふしん}", "{安心|あんしん}"] },
     ] },
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to miss, go without (usually in the negative: never fail to)",
     note: "Mostly negative: 毎朝の散歩を欠かさない (never miss my morning walk), 欠かしたことがない. 欠かせない means “indispensable”: 生活に欠かせない. The intransitive is 欠ける (be lacking, chipped).",
     rx: ["けかす", "かけす", "きかす"],
-    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "I hear that person has never once skipped their after-meal coffee, whether they have time or not.", at: "gp/79" },
+    book: { ja: "あの人、{暇|ひま}があろうがなかろうが、食後のコーヒーは**{欠|か}かし**たことがないそうですよ。", en: "Apparently that person has never once gone without coffee after a meal, whether they have time or not.", at: "gp/79" },
     ex: [
       { ja: "運動は健康{維持|いじ}に**{欠|か}かせない**。", en: "Exercise is indispensable for staying healthy.", alt: ["{欠|か}けない", "{抜|ぬ}かせない", "{任|まか}せない"] },
     ] },
@@ -320,7 +320,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "forcibly, against someone's will",
     note: "Doing or making someone do something by force: 無理やり連れて行く, 無理やり食べさせる. Also 無理矢理. 強引に is similar but describes a pushy manner; 無理に can also mean “unreasonably.”",
     rx: ["むりや", "ぶりやり", "むりいやり"],
-    book: { ja: "A：まだ結婚なんて早いと思うんだけど、**無理やり**お{見合|みあ}いさせられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…", at: "gp/80" },
+    book: { ja: "A：まだ結婚なんて早いと思うんだけど、**無理やり**お{見合|みあ}いさせられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been roped into an arranged-marriage meeting…", at: "gp/80" },
     ex: [
       { ja: "{嫌|いや}がる子どもに**{無理|むり}やり**野菜を食べさせるのはよくない。", en: "It isn't good to force vegetables on a child who doesn't want them.", alt: ["{無理|むり}もなく", "{無事|ぶじ}に", "{無論|むろん}"] },
     ] },
@@ -328,7 +328,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "arranged-marriage meeting; matchmaking interview",
     note: "Usually お見合い: お見合いをする, お見合い結婚 (an arranged marriage, contrasted with 恋愛結婚). The verb 見合う is a different sense: to be in proportion to (給料に見合った仕事).",
     rx: ["みごう", "けんあい", "みあわい"],
-    book: { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお**{見合|みあ}い**させられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been pushed into an arranged-marriage meeting…", at: "gp/80" },
+    book: { ja: "A：まだ結婚なんて早いと思うんだけど、無理やりお**{見合|みあ}い**させられることになっちゃって……。", en: "A: I think it's too early for me to get married, but I've been roped into an arranged-marriage meeting…", at: "gp/80" },
     ex: [
       { ja: "両親は**お{見合|みあ}い**で知り合って結婚したそうだ。", en: "Apparently my parents met at an arranged-marriage meeting and got married.", alt: ["お{付|つ}き{合|あ}い", "お{見通|みとお}し", "お{知|し}り{合|あ}い"] },
     ] },
@@ -344,7 +344,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "(court) judgment, ruling, verdict, sentence",
     note: "判決が出る／下る (a ruling is handed down), 判決を言い渡す, 無罪判決, 有罪判決. 判断 is ordinary judgment; 判定 is a decision by a referee or judge in a contest.",
     rx: ["はんげつ", "ばんけつ", "はんけち"],
-    book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can accept.", at: "gp/81" },
+    book: { ja: "どんな**{判決|はんけつ}**が出ても、被害者にしたら、{納得|なっとく}できるものではないだろう。", en: "Whatever the verdict, from the victim's point of view it's probably not something they can ever accept.", at: "gp/81" },
     ex: [
       { ja: "{裁判所|さいばんしょ}は、{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を言い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判断|はんだん}", "{解決|かいけつ}", "{判定|はんてい}"] },
     ] },
