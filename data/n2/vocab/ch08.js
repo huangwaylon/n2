@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
-    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from the desk at the moment, so I'll have Tanaka get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka has stepped away from the desk at the moment, so I'll pass on your message and ask Tanaka to get back to you later.", at: "gp/73" },
     ex: [
       { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be away from one's desk; to step out (of a room)",
     note: "The standard phone phrase ただ今席を外しております (they're away from their desk right now). It can also mean leaving a room so others can talk: 少し席を外していただけますか.",
     rx: ["せきをそとす", "せきをがいす", "せきをはなす"],
-    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll have Tanaka get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll pass on your message and ask Tanaka to get back to you later.", at: "gp/73" },
     ex: [
       { ja: "{担当|たんとう}の{者|もの}はただ今**{席|せき}を{外|はず}して**おります。", en: "The person in charge is away from their desk at the moment.", alt: ["{席|せき}を{譲|ゆず}って", "{席|せき}を{取|と}って", "{席|せき}を{詰|つ}めて"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "school building",
     note: "The building rather than the institution: 新校舎, 旧校舎, 校舎を建て替える. 学校 is the school itself, and 校庭 is the schoolyard.",
     rx: ["がっしゃ", "こうじゃ", "こうや"],
-    book: { ja: "{新|しん}**{校舎|こうしゃ}**{建設|けんせつ}のため、ご{寄付|きふ}をお願い{申|もう}し{上|あ}げます。", en: "We respectfully ask for your donations for the construction of the new school building.", at: "gp/75" },
+    book: { ja: "{新|しん}**{校舎|こうしゃ}**{建設|けんせつ}のため、ご{寄付|きふ}をお願い{申|もう}し{上|あ}げます。", en: "We respectfully ask for your donations toward the construction of the new school building.", at: "gp/75" },
     ex: [
       { ja: "{古|ふる}い**{校舎|こうしゃ}**は、{来年|らいねん}{取|と}り{壊|こわ}されることになった。", en: "The old school building is going to be torn down next year.", alt: ["{校長|こうちょう}", "{校則|こうそく}", "{校歌|こうか}"] },
     ] },
@@ -186,7 +186,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "entering (a museum, library or other building)",
     note: "For buildings named 〜館 and office buildings: 入館料 (admission fee), 入館証 (building pass), 入館無料. Entering a venue or event is 入場.",
     rx: ["にゅうがん", "いりかん", "にゅかん"],
-    book: { ja: "{特別展|とくべつてん}を（　）皆様は**{入館|にゅうかん}**前に入口の注意{事項|じこう}をお読みください。", en: "Those who will be viewing the special exhibition, please read the notes at the entrance before entering.", at: "ch/8/review" },
+    book: { ja: "{特別展|とくべつてん}を（　）皆様は**{入館|にゅうかん}**前に入口の注意{事項|じこう}をお読みください。", en: "Visitors to the special exhibition are asked to read the notices at the entrance before going in.", at: "ch/8/review" },
     ex: [
       { ja: "{美術館|びじゅつかん}の**{入館|にゅうかん}**{料|りょう}は、{学生|がくせい}なら{半額|はんがく}だ。", en: "Admission to the art museum is half price for students.", alt: ["{入国|にゅうこく}", "{旅館|りょかん}", "{入院|にゅういん}"] },
     ] },
