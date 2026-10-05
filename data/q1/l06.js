@@ -2279,7 +2279,7 @@ TRY.registerLesson({
      ],
      "tr": [
       "It has been three months since I came to Japan. Now that I am actually living here, I notice all kinds of differences between Japan and Korea. Of these, the one that bothers me most is disposable chopsticks.",
-      "At restaurants in Korea, people wash metal chopsticks and use them over and over. In Japan, however, I noticed that restaurants often use wooden disposable chopsticks. Izakayas, ramen shops, Japanese restaurants — disposable chopsticks are set out in all kinds of places. Japan values the environment, so why does it use disposable chopsticks? A Japanese friend of mine said, \"Disposable chopsticks are good because they're new and clean.\" It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can be thrown away as they are without washing, they may be convenient for the restaurant as well. However, isn't it wasteful to throw away chopsticks made from wood after using them just once?",
+      "At restaurants in Korea, people wash metal chopsticks and use them over and over. In Japan, however, I noticed that restaurants often use wooden disposable chopsticks. Izakayas, ramen shops, Japanese restaurants — disposable chopsticks are set out in all kinds of places. Japan values the environment, so why does it use disposable chopsticks? A Japanese friend of mine said, \"Disposable chopsticks are good because they're new and clean.\" It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can just be thrown away without being washed, they may be convenient for the restaurant as well. However, isn't it wasteful to throw away chopsticks made from wood after using them just once?",
       "Disposable chopsticks are a waste of resources, so I think we should use chopsticks that can be washed and used again and again."
      ],
      "headTr": [
@@ -2348,7 +2348,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "**確かに**、わりばしは新品できれいなことがわかるから、客は安心して使える。\nまた、洗わずにそのまま捨てられるので店にとっても便利かもしれない。\n!!＝反対の意見を一部{認|みと}める!!",
-           "tr": "It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can be thrown away as they are without washing, they may be convenient for the restaurant as well.\n= acknowledges part of the opposing opinion"
+           "tr": "It is true that customers can use them with peace of mind, since they can tell the chopsticks are brand-new and clean. Also, since they can just be thrown away without being washed, they may be convenient for the restaurant as well.\n= acknowledges part of the opposing opinion"
           }
          ]
         },
@@ -2564,7 +2564,7 @@ TRY.registerLesson({
              "items": [
               {
                "ja": "夜遅くまでパーティーをしないでほしい",
-               "tr": "I want them to stop having parties until late at night"
+               "tr": "I'd like them to stop partying late into the night"
               }
              ]
             }
@@ -2767,7 +2767,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "接客の仕事は一日中立ち__っぱなし__なので、疲れる。",
-         "tr": "Customer service work means standing all day long, so it's tiring."
+         "tr": "Working with customers means being on your feet all day, so it's tiring."
         }
        ]
       },
@@ -2831,7 +2831,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❸**こんなこと言いたくないんだけど**、研は使ったものをそのままシンクに置きっぱなしにする**ことが多くない？**",
-       "tr": "I hate to say this, but don't you often leave the things you've used sitting in the sink just as they are?"
+       "tr": "I hate to say this, but don't you often just leave the things you've used sitting in the sink?"
       },
       {
        "sp": "研",
@@ -2873,7 +2873,7 @@ TRY.registerLesson({
        "sp": "研",
        "v": "m",
        "ja": "ううん。僕たち、いいコンビかもしれないね。",
-       "tr": "No worries. Maybe we make a good pair."
+       "tr": "It's fine. I guess we make quite a pair."
       }
      ]
     },
@@ -2993,7 +2993,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**こんなこと言いたくないんだけど**、〇〇さんは\n使ったものをそのままシンクに置きっぱなしに\nする**ことが多くない？**",
-        "tr": "I hate to say this, but (name), don't you often leave the things you've used sitting in the sink just as they are?"
+        "tr": "I hate to say this, but (name), don't you often just leave the things you've used sitting in the sink?"
        }
       },
       {
@@ -3053,7 +3053,7 @@ TRY.registerLesson({
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
-       "tr": "Try having the conversation using the pattern in the gray box."
+       "tr": "Try the conversation using the pattern in the gray box."
       }
      ]
     },
@@ -3116,14 +3116,14 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "{洗濯|せんたく}をしようと思ったら、同じ寮の学生の洗濯物が洗濯機にずっと入ったままでした。\n{苦情|くじょう}を言いなさい。",
-        "tr": "When you went to do your laundry, another student in your dorm had left their laundry sitting in the washing machine the whole time. Make a complaint."
+        "tr": "When you went to do your laundry, you found that another student in your dorm had left their laundry sitting in the washing machine for ages. Make a complaint."
        }
       },
       {
        "n": "2.",
        "text": {
         "ja": "夜、{寝|ね}ようと思ったら、{隣|となり}の部屋の学生が聞いている音楽がうるさくて、寝られません。\n苦情を言いなさい。",
-        "tr": "At night, when you tried to go to sleep, the music the student in the next room was listening to was so loud that you couldn't sleep. Make a complaint."
+        "tr": "At night, when you try to go to sleep, the music the student in the next room is listening to is so loud that you can't sleep. Make a complaint."
        }
       },
       {
@@ -3169,7 +3169,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❸**こんなこと言いたくないんだけど、**{{〇〇さんは、使ったものをそのままシンクに置きっぱなしにする}}**ことが多くない？**",
-         "tr": "I hate to say this, but (name), don't you often leave the things you've used sitting in the sink just as they are?"
+         "tr": "I hate to say this, but (name), don't you often just leave the things you've used sitting in the sink?"
         },
         {
          "sp": "同じ寮の学生",
@@ -3252,7 +3252,7 @@ TRY.registerLesson({
      "id": "l6-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3262,7 +3262,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "先生やアパートの{管理人|かんりにん} (caretaker for an apartment) に注意されたことがありますか。その時、あなたは何と言いましたか。2つ考えて下の表にメモしなさい。",
-        "tr": "Have you ever been scolded by a teacher or an apartment caretaker? What did you say then? Think of two times and take notes in the table below."
+        "tr": "Have you ever been scolded by a teacher or an apartment caretaker? What did you say? Think of two occasions and make notes in the table below."
        },
        "blocks": [
         {
@@ -3333,7 +3333,7 @@ TRY.registerLesson({
            "who": "あなた",
            "text": {
             "ja": "{管理人|かんりにん}に注意されます。\n上手にあやまりなさい。",
-            "tr": "You are scolded by the caretaker. Apologize well."
+            "tr": "The caretaker scolds you. Apologize gracefully."
            }
           },
           {
@@ -3412,7 +3412,7 @@ TRY.registerLesson({
           {
            "label": {
             "ja": "① ゴミを出す時間についてあやまって、言い訳をする時",
-            "tr": "① When apologizing about the time for putting out the garbage and making an excuse"
+            "tr": "① When apologizing for putting the garbage out late and making an excuse"
            },
            "text": {
             "ja": "あっ、すみません。{朝寝坊|あさねぼう}＿＿……。",
@@ -3556,12 +3556,12 @@ TRY.registerLesson({
           {
            "sp": "{田中|たなか}",
            "ja": "{研|けん}は、パーティーに来なかったね。",
-           "tr": "Ken didn't come to the party, did he?"
+           "tr": "Ken didn't make it to the party, huh."
           },
           {
            "sp": "{山下|やました}",
            "ja": "うん。パーティーについていろいろ話してたから、__てっきり__彼も来ると思ってたよ。",
-           "tr": "No. He was talking so much about the party that I was sure he'd come too."
+           "tr": "Yeah. He was talking so much about the party that I was sure he'd come too."
           }
          ]
         }
@@ -3604,7 +3604,7 @@ TRY.registerLesson({
        "sp": "管",
        "v": "f",
        "ja": "ちょっと、グエンさん。もう9時半ですよ。ゴミは8時半までに出すことになっていますよね。",
-       "tr": "Excuse me, Nguyen-san. It's already 9:30. Garbage is supposed to be put out by 8:30, you know."
+       "tr": "Now, Nguyen-san, it's already 9:30. Garbage is supposed to be put out by 8:30, you know."
       },
       {
        "sp": "グ",
@@ -3640,7 +3640,7 @@ TRY.registerLesson({
        "sp": "管",
        "v": "f",
        "ja": "ちゃんと分別してくれないと{困|こま}ります。",
-       "tr": "It's a problem if you don't sort your garbage properly."
+       "tr": "I really need you to sort your garbage properly."
       },
       {
        "sp": "グ",
@@ -3658,7 +3658,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "えっ、そうだったんですか。❷**てっきり**、燃えるゴミだ**と思っていました。すみません。**",
-       "tr": "Oh, is that right? I was sure they were burnable garbage. I'm sorry."
+       "tr": "Oh, I didn't know that. I was sure they were burnable garbage. I'm sorry."
       },
       {
        "sp": "管",
@@ -3733,7 +3733,7 @@ TRY.registerLesson({
       },
       {
        "ja": "{管理人|かんりにん}：注意する",
-       "tr": "Caretaker: gives a warning"
+       "tr": "Caretaker: give a warning"
       }
      ],
      "steps": [
@@ -3745,7 +3745,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "ちょっと、〇〇さん。ゴミは8時半までに出すことになっていますよね。",
-        "tr": "Excuse me, (name). Garbage is supposed to be put out by 8:30, you know."
+        "tr": "Now, (name), garbage is supposed to be put out by 8:30, you know."
        }
       },
       {
@@ -3789,7 +3789,7 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "ちゃんと分別してくれないと{困|こま}ります。",
-        "tr": "It's a problem if you don't sort your garbage properly."
+        "tr": "I really need you to sort your garbage properly."
        }
       },
       {
@@ -3842,7 +3842,7 @@ TRY.registerLesson({
      "items": [
       {
        "ja": "［　　　］のパターンを使って話してみましょう。",
-       "tr": "Try talking using the pattern in the gray box."
+       "tr": "Try the conversation using the pattern in the gray box."
       }
      ]
     },
@@ -3874,7 +3874,7 @@ TRY.registerLesson({
          "sp": "{管理人|かんりにん}",
          "v": "f",
          "ja": "ちょっと、〇〇さん。{{ゴミは8時半までに出す}}ことになっていますよね。",
-         "tr": "Excuse me, (name). Garbage is supposed to be put out by 8:30, you know."
+         "tr": "Now, (name), garbage is supposed to be put out by 8:30, you know."
         },
         {
          "sp": "あなた",
@@ -3906,7 +3906,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）① (p. 196) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ① of “2-1. Let's try it” (p. 196)."
+        "tr": "Try talking using what you thought about in 1) ① of “2-1 Let's try” (p. 196)."
        }
       }
      ]
@@ -3951,7 +3951,7 @@ TRY.registerLesson({
          "sp": "管理人",
          "v": "f",
          "ja": "{{ちゃんと分別し}}てくれないと{困|こま}ります。",
-         "tr": "It's a problem if you don't sort your garbage properly."
+         "tr": "I really need you to sort your garbage properly."
         },
         {
          "sp": "あなた",
@@ -3982,14 +3982,14 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "「{昨日|きのう}の作文の宿題を早く出してくれないと{困|こま}る」と先生に言われました。しかし、あなたは明日が{締|し}め{切|き}りだと思っていました。先生に上手にあやまりなさい。",
-        "tr": "Your teacher told you, “It's a problem if you don't hand in yesterday's composition homework soon.” But you had thought the deadline was tomorrow. Apologize well to your teacher."
+        "tr": "Your teacher told you, “I need you to hand in yesterday's composition homework right away.” But you had thought the deadline was tomorrow. Apologize gracefully to your teacher."
        }
       },
       {
        "n": "2.",
        "text": {
         "ja": "「2-1. やってみよう」の 1）② (p. 196) で考えたことを使って話してみよう。",
-        "tr": "Try talking using what you thought about in 1) ② of “2-1. Let's try it” (p. 196)."
+        "tr": "Try talking using what you thought about in 1) ② of “2-1 Let's try” (p. 196)."
        }
       }
      ]
@@ -4029,7 +4029,7 @@ TRY.registerLesson({
          "who": "あなた",
          "text": {
           "ja": "ルームメート／友達に\n行動を注意されます。\n上手にあやまりなさい。",
-          "tr": "Your roommate / friend complains about something you did. Apologize well."
+          "tr": "Your roommate / friend complains about something you did. Apologize gracefully."
          }
         },
         {
@@ -4094,7 +4094,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "「使ったお皿をすぐに{洗|あら}っていない」とルームメートに言われました。あやまりなさい。",
-         "tr": "Your roommate told you, “You don't wash the dishes you've used right away.” Apologize."
+         "tr": "Your roommate told you that you don't wash your dishes right after using them. Apologize."
         }
        ]
       },
@@ -4129,7 +4129,7 @@ TRY.registerLesson({
            "sp": "ルームメート",
            "v": "f",
            "ja": "{{ちゃんと分別し}}てくれないと{困|こま}るんだけど。",
-           "tr": "It's a problem if you don't sort the garbage properly."
+           "tr": "I really need you to sort the garbage properly, you know."
           },
           {
            "sp": "あなた",
@@ -4159,7 +4159,7 @@ TRY.registerLesson({
        "items": [
         {
          "ja": "前に借りたマンガのことで、ルームメートに注意されました。ルームメートは、すぐ返してくれないと困ると言っています。でもあなたは、そのマンガはルームメートがくれたんだと思っていました。上手にあやまりなさい。",
-         "tr": "Your roommate complained to you about some manga you borrowed a while ago. Your roommate says it's a problem if you don't give it back right away. But you had thought your roommate gave you that manga. Apologize well."
+         "tr": "Your roommate complained to you about some manga you borrowed a while ago. Your roommate says they need it back right away. But you had thought your roommate had given you that manga. Apologize gracefully."
         }
        ]
       },
@@ -4200,7 +4200,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "留学生のメイリンが、寮のルームメートとゴミを出す日について話しています。2人はいつどんなゴミを出しますか。会話を聞いて、内容に合う表に○をつけなさい。",
-      "tr": "Meilin, an international student, is talking with her dorm roommate about the days for putting out garbage. When will the two of them put out which garbage? Listen to the conversation and put a ○ by the table that matches it."
+      "tr": "Meilin, an international student, is talking with her dorm roommate about the days for putting out garbage. Which garbage will the two of them put out on which days? Listen to the conversation and put a ○ by the table that matches what you hear."
      }
     },
     {
@@ -4620,14 +4620,14 @@ TRY.registerLesson({
      ],
      "intro": {
       "ja": "留学生のメイリンが、寮のルームメートとゴミを出す日について話しています。2人はいつどんなゴミを出しますか。会話を聞いて、内容に合う表に○をつけなさい。",
-      "tr": "Meilin, an international student, is talking with her dorm roommate about the days for putting out garbage. When will the two of them put out which garbage? Listen to the conversation and put a ○ by the table that matches it."
+      "tr": "Meilin, an international student, is talking with her dorm roommate about the days for putting out garbage. Which garbage will the two of them put out on which days? Listen to the conversation and put a ○ by the table that matches what you hear."
      },
      "lines": [
       {
        "sp": "ルームメート",
        "v": "f",
        "ja": "たまに大そうじすると、びっくりする__ほど__たくさんゴミが出てくるね。",
-       "tr": "When you do a big cleaning once in a while, a surprising amount of garbage comes out, doesn't it?"
+       "tr": "When you do a big cleanup once in a while, it's surprising how much garbage you end up with, isn't it?"
       },
       {
        "sp": "メイリン",
@@ -4669,13 +4669,13 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "燃えないゴミだね。ああ、このハンディークリーナー、こわれちゃったんだよねえ。これって{粗大|そだい}ゴミ？ だとしたら、この__まま__出せないよね？",
-       "tr": "...it's non-burnable garbage. Oh, this handheld vacuum broke, you know. Is this bulky garbage? If so, we can't put it out as is, can we?"
+       "tr": "...it's non-burnable garbage. Oh, and this handheld vacuum broke on me. Is this bulky garbage? If so, we can't put it out as is, can we?"
       },
       {
        "sp": "ル",
        "v": "f",
        "ja": "えーっと、一番長いところが50センチ以上のものは粗大ゴミだって。それ、30センチくらいだから、燃えないゴミでいい__んじゃない__？",
-       "tr": "Let's see, it says things that are 50 centimeters or more at their longest are bulky garbage. That's about 30 centimeters, so isn't it fine as non-burnable garbage?"
+       "tr": "Let's see, it says things that are 50 centimeters or more at their longest are bulky garbage. That's about 30 centimeters, so non-burnable should be fine, don't you think?"
       },
       {
        "sp": "メ",
@@ -4693,7 +4693,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "じゃあ、あさっての朝、私、出しとくよ。",
-       "tr": "Then I'll put it out the day after tomorrow, in the morning."
+       "tr": "Then I'll put it out the day after tomorrow, first thing in the morning."
       },
       {
        "sp": "ル",
@@ -4863,7 +4863,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "はっきり言ったほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせるからです。",
-        "tr": "Because if people say things clearly, there are no misunderstandings, and everyone can live together comfortably."
+        "tr": "Because if people say things clearly, there are no misunderstandings, and both people can get along comfortably."
        }
       }
      ]
@@ -4907,7 +4907,7 @@ TRY.registerLesson({
            "n": "①",
            "text": {
             "ja": "暑いのでエアコンの温度を下げたいが、友達は寒いと思っているようだ。",
-            "tr": "It's hot, so you want to turn down the air conditioner, but your friend seems to feel cold."
+            "tr": "It's hot, so you want to lower the temperature on the air conditioner, but your friend seems to feel cold."
            }
           },
           {
@@ -4953,7 +4953,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "注意する時は少し言いにくくても、はっきり言ってくれたほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせると思います。みなさんだったら、ルームメートにどのように注意しますか。",
-       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and everyone can live together comfortably. What about all of you? How would you tell your roommate?"
+       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and we can both get along comfortably. If you were in my place, how would you bring it up with your roommate?"
       }
      ]
     }
