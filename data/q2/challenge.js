@@ -5279,7 +5279,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "旅行で{大阪|おおさか}に行った時、【a. 足を運んで　b. 足を伸ばして】、近くの{神戸|こうべ}まで行った。",
-         "tr": "When I went to Osaka on a trip, I went a little farther, to nearby Kobe."
+         "tr": "When I went to Osaka on a trip, I went on as far as nearby Kobe."
         },
         "options": [
          "a. 足を運んで",
@@ -5470,7 +5470,7 @@ TRY.registerUnits([
         "n": "(11)",
         "text": {
          "ja": "先輩の案に反対だったが、先輩の【a. 顔を立てて　b. 顔に{泥|どろ}を{塗|ぬ}って】賛成した。",
-         "tr": "I was against my senior's proposal, but I agreed to it to save their face."
+         "tr": "I was against my senior's proposal, but I agreed to it so they could save face."
         },
         "options": [
          "a. 顔を立てて",
@@ -5597,15 +5597,15 @@ TRY.registerUnits([
      "生活の中に根付いている[[と感じた|]]。"
     ],
     "tr": [
-     "In Japanese anime, you often see junior high and high school students eating a bento colorfully packed with side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present the results of interviews with Japanese students about bento.",
+     "In Japanese anime, you often see junior high and high school students eating a bento colorfully packed with side dishes for lunch. Meanwhile, at the university where I am studying abroad, many students seem to use the cafeteria or convenience stores. So, do Japanese university students bring a bento? And what do they think about bento? In this report, I present interviews with Japanese students about bento.",
      "According to a survey conducted by Quartet Research in 20XX, 43.1% answered \"yes\" to the question \"Do you bring a bento to college?\" and 56.9% answered \"no.\" The reasons given for bringing a bento included \"to save money,\" \"it's nutritionally better,\" and \"the cafeteria is crowded / expensive and the food is bad.\" The reasons for not bringing one included \"making it is a lot of work,\" \"I don't have time in the morning,\" and \"the cafeteria is convenient.\" This shows that, although many university students don't bring a bento because it's a hassle, it is not unusual for university students to bring a bento to school for economic and health reasons.",
-     "For this study, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M (second-year, female), H (third-year, male), and Y (third-year, female).",
-     "First, when I asked, \"Do you bring a bento to school?\", M answered \"every day,\" H \"sometimes,\" and Y \"never.\" M lives with her parents, and apparently her mother makes it for her. As for H, it seems he makes a bento only when he has time. Y said she eats lunch at the cafeteria or buys it at a convenience store.",
-     "Next, I asked about their reasons for bringing or not bringing a bento. M told me, \"I bring one because a homemade bento saves money and is good for your health, too.\" H answered, \"Getting up early to prepare it is hard, so when I don't have time, I can't. But a bento saves money, and at the cafeteria and convenience stores you have to wait in line, so I'd like to bring one if I can.\" Y explained, \"Bento are a hassle, so I don't bring one. By comparison, the cafeteria is cheap and convenient because it has lots of menu options, and it's fun because I can see my friends.\"",
-     "Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" All three mentioned the words \"homemade,\" \"saving money,\" and \"healthy.\" Besides these, M named standard side dishes such as \"rolled omelet\" and \"fried chicken,\" and H answered \"frozen foods.\" Y's answer was \"the elementary school sports day.\" Apparently she has memories of her family coming to sports day and everyone eating bento together at lunchtime.",
+     "For this study, to find out \"Do Japanese university students bring a bento? And what do they think about bento?\", I interviewed Japanese students at Hokuto University. Three people answered: M-san (second-year, female), H-san (third-year, male), and Y-san (third-year, female).",
+     "First, when I asked, \"Do you bring a bento to school?\", M-san answered \"every day,\" H-san \"sometimes,\" and Y-san \"never.\" M-san lives with her parents, and apparently her mother makes it for her. As for H-san, it seems he makes a bento only when he has time. Y-san said she eats lunch at the cafeteria or buys it at a convenience store.",
+     "Next, I asked about their reasons for bringing or not bringing a bento. M-san told me, \"I bring one because a homemade bento saves money and is good for your health, too.\" H-san answered, \"Getting up early to prepare it is hard, so when I don't have time, I can't. But a bento saves money, and at the cafeteria and convenience stores you have to wait in line, so I'd like to bring one if I can.\" Y-san explained, \"Bento are a hassle, so I don't bring one. By comparison, the cafeteria is convenient because it's cheap and has lots of different dishes, and it's fun because I can see my friends.\"",
+     "Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" All three mentioned the words \"homemade,\" \"saving money,\" and \"healthy.\" Besides these, M-san named standard side dishes such as \"rolled omelet\" and \"fried chicken,\" and H-san answered \"frozen foods.\" Y-san's answer was \"the elementary school sports day.\" Apparently she has memories of her family coming to sports day and everyone eating bento together at lunchtime.",
      "For this study, I conducted an interview survey of three Japanese students on the question \"Do Japanese university students bring a bento? And what do they think about bento?\" As a result, two people bring one, including the one who said \"sometimes,\" and one person does not. I also found that, just as in Quartet Research's 20XX survey, bento are considered economical and healthy.",
      "What was interesting was that one person thought of \"sports day\" in connection with bento. I also asked other Japanese friends, and they told me that at school sports days, families pack onigiri and side dishes for the whole family into a large bento box called an \"ojū,\" bring it along, and eat it together with the family members who come to watch.",
-     "Through this project, I found that although some people think bento are a hassle to make, they have economic and health benefits and are an ordinary lunch for university students. Also, it seems that bento are not only an everyday lunch but can also become memories of special days such as sports day. I felt that bento are deeply rooted in the lives of Japanese people."
+     "Through this project, I found that although some people think bento are a hassle to make, they have economic and health benefits and are an ordinary lunch for university students. Also, it seems that bento are not only an everyday lunch but can also become part of the memories of special days such as sports day. I felt that bento are deeply rooted in the lives of Japanese people."
     ],
     "headTr": [
      "1. Introduction",
@@ -5965,7 +5965,7 @@ TRY.registerUnits([
         "items": [
          {
           "ja": "本日はお忙しいところ、ありがとうございます。「大学生はお弁当についてどう思っているか」というテーマでお話を{伺|うかが}いたいと思います。答えにくい場合は、お答えいただかなくても{結構|けっこう}です。よろしくお願いします。",
-          "tr": "Thank you for taking time out of your busy schedule today. I'd like to ask you about the theme \"What do university students think about bento?\" If there's anything that's hard to answer, you don't have to answer it. Thank you in advance for your help."
+          "tr": "Thank you for taking time out of your busy schedule today. I'd like to hear your thoughts on the theme \"What do university students think about bento?\" If any question is hard to answer, please feel free not to answer it. Thank you in advance for your help."
          }
         ]
        }
@@ -6201,7 +6201,7 @@ TRY.registerUnits([
          [
           {
            "ja": "・質問3：論点に関係がある回答の中で、興味深いものを紹介する。\n例）__最後に、__「『お弁当』と聞くと、どんなことを思い浮かべますか」という質問をした。……Yさんの答えは「小学校の運動会」だった。",
-           "tr": "Question 3: Present an interesting answer from among those related to the points at issue.\nE.g. Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" … Y's answer was \"the elementary school sports day.\""
+           "tr": "Question 3: Present an interesting answer from among those related to the points at issue.\nE.g. Finally, I asked, \"When you hear the word 'bento,' what comes to mind?\" … Y-san's answer was \"the elementary school sports day.\""
           },
           "(g)"
          ],
@@ -6230,7 +6230,7 @@ TRY.registerUnits([
          [
           {
            "ja": "・論点に関係がある回答の中で特に興味深いものについて詳しく述べる。\n例）__興味深かったのは、__……__ことだ。__他の日本人の友人にも……。",
-           "tr": "Describe in detail a particularly interesting answer from among those related to the points at issue.\nE.g. What was interesting was that …. Other Japanese friends also …."
+           "tr": "Describe in detail a particularly interesting answer from among those related to the points at issue.\nE.g. What was interesting was that …. I also asked other Japanese friends …."
           },
           "(j)"
          ],
@@ -6998,7 +6998,7 @@ TRY.registerUnits([
    },
    {
     "t": "figure",
-    "desc": "A boy answers the example in a speech bubble: 1. 送 means 送る (to send); 2. a. 送金 (そうきん): sending money; b. 送迎 (そうげい): seeing off and picking up; c. 送電 (そうでん): transmitting electricity.",
+    "desc": "A boy answers the example in a speech bubble: 1. 送 means 送る (to send); 2. a. 送金 (そうきん): sending money; b. 送迎 (そうげい): dropping off and picking up; c. 送電 (そうでん): transmitting electricity.",
     "labels": [
      "1. 送る (send)",
      "2. a. __{送|そう}{金|きん}__（お金を送ること）",
@@ -7949,7 +7949,7 @@ TRY.registerUnits([
       "t": "p",
       "text": {
        "ja": "◆ 電話後、履歴書（写貼）をご持参ください。\nまずはお気軽にお電話ください。",
-       "tr": "After calling, please bring your résumé (with a photo attached). Feel free to give us a call first."
+       "tr": "After calling, please bring your résumé (with a photo attached). To start, just give us a call."
       }
      },
      {
