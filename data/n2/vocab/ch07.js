@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "ecosystem",
     note: "生態 (the way organisms live: 動物の生態) + 系 (system). A science and news word: 生態系を守る / 壊す / 乱す (protect / destroy / disturb the ecosystem), 生態系への影響. 環境 is the environment in general.",
     rx: ["せいたいかい", "しょうたいけい", "せいだいけい"],
-    book: { ja: "オオカミの{復活|ふっかつ}により**{生態系|せいたいけい}**を{回復|かいふく}させ{得|う}ると考えたのだ。", en: "The idea was that the return of the wolf could restore the ecosystem.", at: "ch/7" },
+    book: { ja: "オオカミの{復活|ふっかつ}により**{生態系|せいたいけい}**を{回復|かいふく}させ{得|う}ると考えたのだ。", en: "The thinking was that bringing back the wolves could restore the ecosystem.", at: "ch/7" },
     ex: [
       { ja: "{外来種|がいらいしゅ}の{魚|さかな}が{増|ふ}えて、{湖|みずうみ}の**{生態系|せいたいけい}**が{変|か}わってしまった。", en: "Non-native fish multiplied, and the lake's ecosystem changed.", alt: ["{体系|たいけい}", "{生産|せいさん}", "{系統|けいとう}"] },
     ] },
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "careful; cautious; prudent",
     note: "Thinking things through before acting: 慎重に検討する, 慎重な態度. The opposite is 軽率 (rash). 丁寧 is care in manner or workmanship rather than caution.",
     rx: ["しんじゅう", "ちんちょう", "しんちょ"],
-    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "People will probably go on exchanging views carefully as they work to keep nature in balance.", at: "ch/7" },
+    book: { ja: "**{慎重|しんちょう}**に意見{交換|こうかん}を続けながら、{自然|しぜん}のバランスをとっていくことになるだろう。", en: "People will probably go on carefully exchanging views as they work to keep nature in balance.", at: "ch/7" },
     ex: [
       { ja: "{大切|たいせつ}な{契約|けいやく}なので、**{慎重|しんちょう}**に{内容|ないよう}を{確認|かくにん}してください。", en: "It's an important contract, so please check its contents carefully.", alt: ["{貴重|きちょう}", "{尊重|そんちょう}", "{重大|じゅうだい}"] },
     ] },
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "revival; comeback; return",
     note: "Something that had disappeared coming back: 伝統行事が復活する, 〜の復活を果たす (make a comeback), 敗者復活戦 (repechage). 回復 is recovery of health or a condition, not a return after vanishing.",
     rx: ["ふくかつ", "ふっがつ", "ふかつ"],
-    book: { ja: "オオカミの**{復活|ふっかつ}**により{生態系|せいたいけい}を{回復|かいふく}させ{得|う}ると考えたのだ。", en: "The idea was that the return of the wolf could restore the ecosystem.", at: "ch/7" },
+    book: { ja: "オオカミの**{復活|ふっかつ}**により{生態系|せいたいけい}を{回復|かいふく}させ{得|う}ると考えたのだ。", en: "The thinking was that bringing back the wolves could restore the ecosystem.", at: "ch/7" },
     ex: [
       { ja: "{十年|じゅうねん}ぶりに、{町|まち}の{夏祭|なつまつ}りが**{復活|ふっかつ}**した。", en: "The town's summer festival was revived after a ten-year break.", alt: ["{復習|ふくしゅう}", "{活躍|かつやく}", "{生活|せいかつ}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "wild (living in nature, not tamed or cultivated)",
     note: "野生動物 (wildlife), 野生のサル, 野生化する (go wild). 自然 is nature in general, and 野外 means outdoors.",
     rx: ["のせい", "やしょう", "やぜい"],
-    book: { ja: "**{野生|やせい}**のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、{理論|りろん}{上|じょう}は{有効|ゆうこう}だとわかっていても、受け入れにくいことだったからだ。", en: "That is because bringing in wild wolves, while expected to produce results, also carried the risk of harm to livestock, so even though people knew it was effective in theory, it was hard to accept.", at: "ch/7" },
+    book: { ja: "**{野生|やせい}**のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、{理論|りろん}{上|じょう}は{有効|ゆうこう}だとわかっていても、受け入れにくいことだったからだ。", en: "This was because, when it came to bringing in wild wolves, good results were expected, but there was also the risk of harm to livestock, so even though people knew it would work in theory, it was hard to accept.", at: "ch/7" },
     ex: [
       { ja: "この{島|しま}では、**{野生|やせい}**のサルを{見|み}ることができる。", en: "On this island you can see wild monkeys.", alt: ["{野外|やがい}", "{野菜|やさい}", "{生産|せいさん}"] },
     ] },
@@ -387,7 +387,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "theory",
     note: "理論上は (in theory), 理論的 (theoretical), 理論と実践 (theory and practice). The reversed compound 論理 means “logic.”",
     rx: ["りりん", "りろう", "いろん"],
-    book: { ja: "{野生|やせい}のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、**{理論|りろん}**{上|じょう}は{有効|ゆうこう}だとわかっていても、受け入れにくいことだったからだ。", en: "That is because bringing in wild wolves, while expected to produce results, also carried the risk of harm to livestock, so even though people knew it was effective in theory, it was hard to accept.", at: "ch/7" },
+    book: { ja: "{野生|やせい}のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、**{理論|りろん}**{上|じょう}は{有効|ゆうこう}だとわかっていても、受け入れにくいことだったからだ。", en: "This was because, when it came to bringing in wild wolves, good results were expected, but there was also the risk of harm to livestock, so even though people knew it would work in theory, it was hard to accept.", at: "ch/7" },
     ex: [
       { ja: "{彼|かれ}は{経済学|けいざいがく}の**{理論|りろん}**を{実際|じっさい}のビジネスに{生|い}かしている。", en: "He applies economic theory to real-world business.", alt: ["{理科|りか}", "{料理|りょうり}", "{世論|よろん}"] },
     ] },
@@ -395,7 +395,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "effective; valid",
     note: "Two senses: working well (有効な方法, 時間を有効に使う) and being officially valid (有効期限 “expiration date,” 二日間有効). The opposite is 無効. The homophone 友好 means friendship (友好関係).",
     rx: ["ゆうご", "ゆこう", "ゆうきょう"],
-    book: { ja: "{野生|やせい}のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、{理論|りろん}{上|じょう}は**{有効|ゆうこう}**だとわかっていても、受け入れにくいことだったからだ。", en: "That is because bringing in wild wolves, while expected to produce results, also carried the risk of harm to livestock, so even though people knew it was effective in theory, it was hard to accept.", at: "ch/7" },
+    book: { ja: "{野生|やせい}のオオカミを連れてくることに{関|かん}しては、{成果|せいか}が{期待|きたい}される{反面|はんめん}、{家畜|かちく}の{被害|ひがい}のおそれもあるため、{理論|りろん}{上|じょう}は**{有効|ゆうこう}**だとわかっていても、受け入れにくいことだったからだ。", en: "This was because, when it came to bringing in wild wolves, good results were expected, but there was also the risk of harm to livestock, so even though people knew it would work in theory, it was hard to accept.", at: "ch/7" },
     ex: [
       { ja: "このチケットは{購入|こうにゅう}から{一年間|いちねんかん}**{有効|ゆうこう}**です。", en: "This ticket is valid for one year from purchase.", alt: ["{有利|ゆうり}", "{効果|こうか}", "{有名|ゆうめい}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "going smoothly; favorable; without problems",
     note: "Things proceeding as planned: 順調に進む, 仕事は順調だ, 経過は順調です (the patient is doing well). 快調 means “in excellent shape,” and 単調 means “monotonous.”",
     rx: ["じゅんちょ", "じゅうちょう", "しゅんちょう"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として**{順調|じゅんちょう}**に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として**{順調|じゅんちょう}**に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have fed on the deer and steadily grown in number, and as a result, other plants and animals that had at one point declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{工事|こうじ}は**{順調|じゅんちょう}**に{進|すす}んでおり、{来月|らいげつ}には{完成|かんせい}する{予定|よてい}だ。", en: "Construction is progressing smoothly and is scheduled to be finished next month.", alt: ["{順番|じゅんばん}", "{強調|きょうちょう}", "{単調|たんちょう}"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "sharp decrease; plunge",
     note: "A written and news word: 人口 / 売り上げが激減する. The opposite is 激増 (sharp rise, like 急増). 削減 is a deliberate cut, and 激減 is a drop that just happens.",
     rx: ["げきけん", "きょくげん", "げっげん"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は**{激減|げきげん}**したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は**{激減|げきげん}**したその{他|た}の{動植物|どうしょくぶつ}も、{徐々|じょじょ}に{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have fed on the deer and steadily grown in number, and as a result, other plants and animals that had at one point declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{不漁|ふりょう}が{続|つづ}き、この{港|みなと}の{水揚|みずあ}げは**{激減|げきげん}**した。", en: "After a run of poor catches, the amount of fish landed at this port plunged.", alt: ["{激増|げきぞう}", "{削減|さくげん}", "{加減|かげん}"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "gradually; little by little",
     note: "A slightly formal 少しずつ: 徐々に回復する / 増える / 慣れる. だんだん is more casual, and 次第に is similar but more literary. It describes slow, steady change, never sudden change.",
     rx: ["じょうじょに", "しょしょに", "じょじょうに"],
-    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、**{徐々|じょじょ}に**{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have steadily multiplied, feeding on the deer, and as a result other plants and animals that had once declined sharply are reported to be gradually increasing again.", at: "ch/7" },
+    book: { ja: "その{後|ご}、オオカミがシカを{食料|しょくりょう}として{順調|じゅんちょう}に数を増やした{結果|けっか}、{一時|いちじ}は{激減|げきげん}したその{他|た}の{動植物|どうしょくぶつ}も、**{徐々|じょじょ}に**{増加|ぞうか}しつつあることが{報告|ほうこく}されている。", en: "Since then, the wolves have fed on the deer and steadily grown in number, and as a result, other plants and animals that had at one point declined sharply are reported to be gradually increasing again.", at: "ch/7" },
     ex: [
       { ja: "{薬|くすり}を{飲|の}み{始|はじ}めてから、{熱|ねつ}は**{徐々|じょじょ}に**{下|さ}がってきた。", en: "Since I started taking the medicine, my fever has gradually come down.", alt: ["{共|とも}に", "{特|とく}に", "{直|じか}に"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "prediction; forecast; projection",
     note: "Suggests working something out from data: 将来を予測する, 予測がつかない (unpredictable), 予測を上回る. 予想 is a more general expectation, and weather forecasts are 予報.",
     rx: ["よしょく", "よぞく", "ようそく"],
-    book: { ja: "今回の{統一地方選挙|とういつちほうせんきょ}は{開票前|かいひょうまえ}の**{予測|よそく}**（　）{結果|けっか}に終わった。", en: "This round of unified local elections ended with results contrary to the forecasts made before the vote count.", at: "gp/67" },
+    book: { ja: "今回の{統一地方選挙|とういつちほうせんきょ}は{開票前|かいひょうまえ}の**{予測|よそく}**（　）{結果|けっか}に終わった。", en: "This round of unified local elections ended with results that went against the forecasts made before the votes were counted.", at: "gp/67" },
     ex: [
       { ja: "{専門家|せんもんか}の**{予測|よそく}**では、{来年|らいねん}も{物価|ぶっか}が{上|あ}がるそうだ。", en: "According to experts' forecasts, prices will rise again next year.", alt: ["{予約|よやく}", "{測定|そくてい}", "{予備|よび}"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "weapon (used in a crime)",
     note: "A crime-news word for the object used to hurt someone: 凶器を捨てる, 凶器が見つかる. 武器 is a weapon in general (war, fighting). Homophones: 狂気 (madness), 驚喜 (delight).",
     rx: ["きょき", "きょうぎ", "こうき"],
-    book: { ja: "**{凶器|きょうき}**がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the weapon, but couldn't find a single clue.", at: "gp/66" },
+    book: { ja: "**{凶器|きょうき}**がどこにあるか、考え{得|う}る場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place for the weapon, but couldn't find a single clue.", at: "gp/66" },
     ex: [
       { ja: "{警察|けいさつ}は、{現場|げんば}{近|ちか}くの{川|かわ}から**{凶器|きょうき}**のナイフを{見|み}つけた。", en: "Police found the knife used in the crime in a river near the scene.", alt: ["{凶暴|きょうぼう}", "{楽器|がっき}", "{容器|ようき}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "operation (of a machine or device); manipulation",
     note: "パソコン / スマホの操作, 操作が簡単, 遠隔操作 (remote control). Negative sense: 情報操作 (manipulating information). Driving a vehicle is 運転, and 捜査 (a police investigation) is a homophone.",
     rx: ["そうさく", "しょうさ", "そさ"],
-    book: { ja: "IT{機器|きき}は{多機能化|たきのうか}が進んで、便利な{反面|はんめん}、**{操作|そうさ}**が{複雑|ふくざつ}すぎて使いこなせない人が増えている。", en: "As IT devices pack in more and more functions, they've become convenient, but on the other hand, more and more people find them too complicated to use fully.", at: "gp/69" },
+    book: { ja: "IT{機器|きき}は{多機能化|たきのうか}が進んで、便利な{反面|はんめん}、**{操作|そうさ}**が{複雑|ふくざつ}すぎて使いこなせない人が増えている。", en: "IT devices keep gaining more functions. They're convenient, but they're also so complicated to operate that more and more people can't make full use of them.", at: "gp/69" },
     ex: [
       { ja: "この{機械|きかい}は**{操作|そうさ}**が{簡単|かんたん}なので、{初心者|しょしんしゃ}でもすぐ{使|つか}える。", en: "This machine is simple to operate, so even beginners can use it right away.", alt: ["{捜査|そうさ}", "{作戦|さくせん}", "{体操|たいそう}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "longevity; long life",
     note: "長寿国, 長寿を祝う, and 長寿番組 (a long-running TV show). The everyday word is 長生き. 寿命 is lifespan.",
     rx: ["ちょうじゅう", "ながじゅ", "ちょうず"],
-    book: { ja: "国民の**{長寿|ちょうじゅ}**は{喜|よろこ}ばしい{反面|はんめん}、国の{財政負担|ざいせいふたん}が増えるという問題もある。", en: "People living longer is a welcome thing, but on the other hand it also creates the problem of a heavier financial burden on the state.", at: "gp/69" },
+    book: { ja: "国民の**{長寿|ちょうじゅ}**は{喜|よろこ}ばしい{反面|はんめん}、国の{財政負担|ざいせいふたん}が増えるという問題もある。", en: "That people are living longer is something to be glad about, but it also brings the problem of a growing financial burden on the state.", at: "gp/69" },
     ex: [
       { ja: "{沖縄|おきなわ}は**{長寿|ちょうじゅ}**の{人|ひと}が{多|おお}いことで{知|し}られている。", en: "Okinawa is known for having many long-lived people.", alt: ["{長所|ちょうしょ}", "{長男|ちょうなん}", "{寿命|じゅみょう}"] },
     ] },
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "abnormal weather; extreme weather",
     note: "A fixed news term. 異常 (abnormal) also appears in 異常な暑さ and 異常事態. The look-alike 異状 is used in 異状なし (nothing wrong).",
     rx: ["いじょうけしょう", "いしょうきしょう", "いじょうきそう"],
-    book: { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}が世界{各地|かくち}に広がりつつある。", en: "The effects of abnormal weather are gradually spreading to all parts of the world.", at: "gp/71" },
+    book: { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}が世界{各地|かくち}に広がりつつある。", en: "The effects of extreme weather are gradually spreading around the world.", at: "gp/71" },
     ex: [
       { ja: "**{異常気象|いじょうきしょう}**の{影響|えいきょう}で、{野菜|やさい}の{値段|ねだん}が{上|あ}がっている。", en: "Vegetable prices are rising because of the abnormal weather.", alt: ["{天気予報|てんきよほう}", "{気象庁|きしょうちょう}", "{異文化|いぶんか}"] },
     ] },
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "aging (of a population or group)",
     note: "高齢化社会, 少子高齢化 (fewer children and more elderly people), 高齢化が進む. 高齢者 are elderly people, and 高齢 is advanced age.",
     rx: ["こうれいけ", "こうりょうか", "こうれか"],
-    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, the criminal population is gradually aging too.", at: "gp/71" },
+    book: { ja: "社会の**{高齢化|こうれいか}**にともない、{犯罪者|はんざいしゃ}の{高齢化|こうれいか}も進みつつある。", en: "As society ages, its offenders are gradually getting older too.", at: "gp/71" },
     ex: [
       { ja: "{地方|ちほう}の{村|むら}では**{高齢化|こうれいか}**が{進|すす}み、{若|わか}い{人|ひと}がほとんどいない。", en: "The population of rural villages is aging, and there are hardly any young people left.", alt: ["{高級化|こうきゅうか}", "{近代化|きんだいか}", "{国際化|こくさいか}"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "scale; size (of an operation, event or disaster)",
     note: "大規模 / 小規模 (large / small scale), 世界規模で, 規模を拡大する. It measures how big an operation or phenomenon is, not physical dimensions (that's 大きさ or サイズ).",
     rx: ["きも", "きぼう", "きば"],
-    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly on the move on a global scale, a spirit of coexistence is more necessary than ever.", at: "gp/71" },
+    book: { ja: "世界**{規模|きぼ}**での人口{移動|いどう}が進みつつある{現在|げんざい}、{共生|きょうせい}の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly moving around the globe, a spirit of living together is needed more than ever.", at: "gp/71" },
     ex: [
       { ja: "{今回|こんかい}の{地震|じしん}は、{過去|かこ}に{例|れい}のない**{規模|きぼ}**だった。", en: "This earthquake was on an unprecedented scale.", alt: ["{規則|きそく}", "{模様|もよう}", "{希望|きぼう}"] },
     ] },
@@ -587,7 +587,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "coexistence; living together; symbiosis",
     note: "自然との共生, 多文化共生 (multicultural coexistence), and in biology symbiosis. 共存 (coexistence) is close. Don't mix it up with the homophone 強制 (compulsion).",
     rx: ["ともせい", "きょうしょう", "きょせい"],
-    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly on the move on a global scale, a spirit of coexistence is more necessary than ever.", at: "gp/71" },
+    book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are increasingly moving around the globe, a spirit of living together is needed more than ever.", at: "gp/71" },
     ex: [
       { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "emergency; urgent",
     note: "緊急の用事 (urgent business), 緊急事態 (state of emergency), 緊急時 / 緊急の際 (in an emergency). 至急 is an adverb-like word asking for speed (至急ご連絡ください); 緊急 describes the situation itself.",
     rx: ["きんきゅ", "けんきゅう", "きんぎゅう"],
-    book: { ja: "私が{弁当|べんとう}を（　）ところへ{上司|じょうし}が来て、**{緊急|きんきゅう}**の仕事を{頼|たの}まれた。", en: "While I was eating my lunch, my boss came over and asked me to do an urgent job.", at: "gp/71" },
+    book: { ja: "私が{弁当|べんとう}を（　）ところへ{上司|じょうし}が来て、**{緊急|きんきゅう}**の仕事を{頼|たの}まれた。", en: "Just as I was eating my lunch, my boss came over and gave me an urgent job to do.", at: "gp/71" },
     ex: [
       { ja: "{地震|じしん}などの**{緊急|きんきゅう}**の{場合|ばあい}は、この{階段|かいだん}を{使|つか}ってください。", en: "In an emergency such as an earthquake, please use these stairs.", alt: ["{緊張|きんちょう}", "{急行|きゅうこう}", "{早急|さっきゅう}"] },
     ] },
@@ -619,7 +619,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "specific; particular; to identify (pin down)",
     note: "As 特定の (a specific, particular): 特定の地域. As a verb, identifying exactly who or what: 犯人を特定する, 原因を特定する. 不特定多数 means “an unspecified number of people; the general public.”",
     rx: ["どくてい", "とくじょう", "とくてん"],
-    book: { ja: "水の問題は**{特定|とくてい}**の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably become a global issue, not limited to particular regions.", at: "gp/72" },
+    book: { ja: "水の問題は**{特定|とくてい}**の{地域|ちいき}に{限|かぎ}らず、世界的な問題になるだろう。", en: "Water problems will probably spread beyond particular regions and become a global issue.", at: "gp/72" },
     ex: [
       { ja: "{防犯|ぼうはん}カメラの{映像|えいぞう}から、{犯人|はんにん}が**{特定|とくてい}**された。", en: "The culprit was identified from the security-camera footage.", alt: ["{特別|とくべつ}", "{指定|してい}", "{予定|よてい}"] },
     ] },
@@ -627,7 +627,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "arson; setting fire (to something)",
     note: "家に放火する, 放火犯 (arsonist), 連続放火事件. 火事 is a fire, 出火 is a fire breaking out, and 防火 (fire prevention) is a look-alike.",
     rx: ["ほうび", "ぼうか", "はなしか"],
-    book: { ja: "{警察|けいさつ}は{連続|れんぞく}**{放火|ほうか}**{事件|じけん}＿＿{有力|ゆうりょく}な{情報|じょうほう}をつかんだ。", en: "The police obtained a promising lead concerning the serial arson cases.", at: "ch/7" },
+    book: { ja: "{警察|けいさつ}は{連続|れんぞく}**{放火|ほうか}**{事件|じけん}＿＿{有力|ゆうりょく}な{情報|じょうほう}をつかんだ。", en: "The police obtained a solid lead concerning the serial arson cases.", at: "ch/7" },
     ex: [
       { ja: "{空|あ}き{家|や}に**{放火|ほうか}**した{疑|うたが}いで、{男|おとこ}が{逮捕|たいほ}された。", en: "A man was arrested on suspicion of setting fire to a vacant house.", alt: ["{防火|ぼうか}", "{消火|しょうか}", "{点火|てんか}"] },
     ] },
@@ -635,7 +635,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "influential; strong; promising (candidate, lead)",
     note: "有力な情報 (a strong lead), 有力候補 (front-runner), 有力者 (an influential person), 〜という説が有力だ (the leading theory is …). 強力 is powerful in force.",
     rx: ["ゆうりき", "ゆりょく", "うりょく"],
-    book: { ja: "{警察|けいさつ}は{連続放火事件|れんぞくほうかじけん}＿＿**{有力|ゆうりょく}**な{情報|じょうほう}をつかんだ。", en: "The police obtained a promising lead concerning the serial arson cases.", at: "ch/7" },
+    book: { ja: "{警察|けいさつ}は{連続放火事件|れんぞくほうかじけん}＿＿**{有力|ゆうりょく}**な{情報|じょうほう}をつかんだ。", en: "The police obtained a solid lead concerning the serial arson cases.", at: "ch/7" },
     ex: [
       { ja: "{彼|かれ}は{次|つぎ}の{市長選|しちょうせん}の**{有力|ゆうりょく}**な{候補|こうほ}だ。", en: "He is a leading candidate in the next mayoral election.", alt: ["{有料|ゆうりょう}", "{有益|ゆうえき}", "{有効|ゆうこう}"] },
     ] },
@@ -675,7 +675,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "excavation; digging up; discovering (hidden talent)",
     note: "Literal: 遺跡の発掘 (excavating ruins), 化石を発掘する. Figurative: 人材 / 新人を発掘する (discover new talent). 採掘 is mining for minerals.",
     rx: ["はつくつ", "はっこつ", "はっぐつ"],
-    book: { ja: "今回の{遺跡|いせき}の**{発掘|はっくつ}**によって、{古代文明|こだいぶんめい}の{謎|なぞ}が{明|あき}らかになり（　）。", en: "Thanks to the recent excavation of the ruins, the mysteries of the ancient civilization are gradually becoming clear.", at: "ch/7/review" },
+    book: { ja: "今回の{遺跡|いせき}の**{発掘|はっくつ}**によって、{古代文明|こだいぶんめい}の{謎|なぞ}が{明|あき}らかになり（　）。", en: "Thanks to this latest excavation of the ruins, the mysteries of the ancient civilization are gradually being revealed.", at: "ch/7/review" },
     ex: [
       { ja: "この{番組|ばんぐみ}から、{多|おお}くの{新人|しんじん}{歌手|かしゅ}が**{発掘|はっくつ}**された。", en: "Many new singers were discovered through this show.", alt: ["{発明|はつめい}", "{採掘|さいくつ}", "{発行|はっこう}"] },
     ] },
@@ -683,7 +683,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "original; creative; inventive",
     note: "独創 is originality: 独創的なアイデア / 作品 / デザイン. 独特 means peculiar or distinctive, and 創造的 is “creative” in a more general sense.",
     rx: ["どくそうでき", "とくそうてき", "どくしょうてき"],
-    book: { ja: "料理研究家の{栗林|くりばやし}さんは**{独創的|どくそうてき}**な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な{郷土|きょうど}料理の研究もされています。", en: "Culinary researcher Kuribayashi presents original creations while also studying traditional local cuisine from all over the country.", at: "ch/7/review" },
+    book: { ja: "料理研究家の{栗林|くりばやし}さんは**{独創的|どくそうてき}**な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な{郷土|きょうど}料理の研究もされています。", en: "Culinary researcher Kuribayashi presents highly original dishes of their own creation while also researching traditional regional cooking from around the country.", at: "ch/7/review" },
     ex: [
       { ja: "{彼女|かのじょ}の**{独創的|どくそうてき}**なデザインは、{海外|かいがい}でも{高|たか}く{評価|ひょうか}されている。", en: "Her original designs are highly regarded abroad too.", alt: ["{独占的|どくせんてき}", "{消極的|しょうきょくてき}", "{一方的|いっぽうてき}"] },
     ] },
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "one's native region; local area",
     note: "Mostly in compounds: 郷土料理 (regional dishes), 郷土史 (local history), 郷土愛 (love of one's home region). 故郷 / ふるさと is one's hometown in a personal, emotional sense.",
     rx: ["ごうど", "きょうと", "きょうつち"],
-    book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "Culinary researcher Kuribayashi presents original creations while also studying traditional local cuisine from all over the country.", at: "ch/7/review" },
+    book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "Culinary researcher Kuribayashi presents highly original dishes of their own creation while also researching traditional regional cooking from around the country.", at: "ch/7/review" },
     ex: [
       { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the famous one.", alt: ["{国土|こくど}", "{土地|とち}", "{領土|りょうど}"] },
     ] },
@@ -723,7 +723,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "match; contest; to compete",
     note: "勝負する, 勝負がつく (the contest is decided), 真剣勝負 (a serious contest). 〜で勝負する means competing on the strength of something (味で勝負する “compete on taste”).",
     rx: ["しょうふ", "しょぶ", "せいぶ"],
-    book: { ja: "やりたくても、これ以上安くするのは{経営上|けいえいじょう}{無理|むり}なんだよ。だから、その分、サービスで**{勝負|しょうぶ}**したいんだ。今は{修理|しゅうり}サービスだけだし…。", en: "Even if I wanted to, making things any cheaper is impossible from a business standpoint. So instead, I want to compete on service. Right now we only have a repair service...", at: "ch/7/review" },
+    book: { ja: "やりたくても、これ以上安くするのは{経営上|けいえいじょう}{無理|むり}なんだよ。だから、その分、サービスで**{勝負|しょうぶ}**したいんだ。今は{修理|しゅうり}サービスだけだし…。", en: "Even if I wanted to, we can't go any cheaper; business-wise, it's impossible. So instead, I want to compete on service. Right now all we have is a repair service...", at: "ch/7/review" },
     ex: [
       { ja: "{今日|きょう}の{試合|しあい}は、{最後|さいご}まで**{勝負|しょうぶ}**がつかなかった。", en: "Today's game stayed undecided right to the end.", alt: ["{勝利|しょうり}", "{勝手|かって}", "{負担|ふたん}"] },
     ] },

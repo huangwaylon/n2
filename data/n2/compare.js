@@ -34,7 +34,7 @@ TRY.registerCompare([
         ex: { ja: "先週は{熱|ねつ}が40度も出た**{上|うえ}に**、{下痢|げり}が止まらず、本当に大変でした。", en: "Last week I had a fever as high as 40°C, and on top of that I had diarrhea that wouldn't stop. It was really awful." },
         note: "Plain form (なA + な, N + の) + 上（に）: \"on top of / not only A but also B\". Adds a second circumstance pointing the same way (both good or both bad), often with も; never a contrast (✗安い上にまずい)." },
       { pattern: "N{上|じょう}", level: "N2", no: 70,
-        ex: { ja: "お{札|さつ}にはその国の{歴史|れきし}**{上|じょう}**の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "Banknotes often bear the faces of historical figures from that country." },
+        ex: { ja: "お{札|さつ}にはその国の{歴史|れきし}**{上|じょう}**の{人物|じんぶつ}の顔が{描|えが}かれていることが多い。", en: "A country's banknotes often bear the faces of figures from its history." },
         note: "N + 上 (read じょう), directly after a Sino-Japanese noun: \"from the standpoint of N / in terms of N\" (歴史上, 法律上, 健康上). A written-style suffix, not a clause connector like the うえ patterns; 上の + N modifies a noun." }
     ]
   },
@@ -64,7 +64,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "V{得|う}る", level: "N2", no: 66,
-        ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every place we could think of for the weapon, but couldn't find a single clue." },
+        ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place for the weapon, but couldn't find a single clue." },
         note: "V-ます stem + 得る (うる or える): \"can / could conceivably\". Logical possibility (考え得る, あり得る), not personal ability; formal and written. Only the dictionary form can be read うる; the negative 得ない (えない) means \"cannot / impossible\"." },
       { pattern: "Vざるを{得|え}ない", level: "N2", no: 24,
         ex: { ja: "{台風接近|たいふうせっきん}のため、{野外|やがい}コンサートは中止せ**ざるを{得|え}なく**なった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert." },
@@ -271,7 +271,7 @@ TRY.registerCompare([
         ex: { ja: "チョコレートを食べたらにきびが増えると知り**つつも**、つい手が{伸|の}びてしまうんです。", en: "Even though I know I'll get more pimples if I eat chocolate, I just can't help reaching for it." },
         note: "V-ます stem + つつも: \"although / even while\". Concessive: typically 思う / 知る followed by an action that goes against it (つい〜てしまう); も can be dropped, leaving つつ with this meaning." },
       { pattern: "Vつつある", level: "N2", no: 71,
-        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of abnormal weather are gradually spreading to all parts of the world." },
+        ex: { ja: "{異常気象|いじょうきしょう}の{影響|えいきょう}が世界{各地|かくち}に広がり**つつある**。", en: "The effects of extreme weather are gradually spreading around the world." },
         note: "V-ます stem + つつある: \"is in the process of ~ing\". Only with change verbs, for a change that is under way but not complete; not for ordinary actions (✗食べつつある)." }
     ]
   },
