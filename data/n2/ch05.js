@@ -11,7 +11,7 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "{渡辺|わたなべ}", v: "f", ja: "ねえ、サークルのみんなで旅行に行かない？　私もアメリカに留学しちゃったら、みんなにも{簡単|かんたん}に会えなくなるし…。去年{京都|きょうと}に行った**きり**、今年はどこへも行っていないし…。", en: "Hey, why don't we all go on a trip, the whole club? Once I'm off studying in America, I won't get to see everyone so easily anymore... Besides, we went to Kyoto last year and that was it. We haven't gone anywhere this year..." },
+          { sp: "{渡辺|わたなべ}", v: "f", ja: "ねえ、サークルのみんなで旅行に行かない？　私もアメリカに留学しちゃったら、みんなにも{簡単|かんたん}に会えなくなるし…。去年{京都|きょうと}に行った**きり**、今年はどこへも行っていないし…。", en: "Hey, why don't we take a trip with everyone from the club? Once I'm off studying in America, I won't get to see everyone so easily anymore... Besides, we went to Kyoto last year and that was it. We haven't gone anywhere this year..." },
           { sp: "{木山|きやま}", v: "m", ja: "悪いけど、{就職先|しゅうしょくさき}もまだ決まらないのに、旅行**どころじゃない**よ。", en: "Sorry, but I still don't even have a job lined up. A trip is the last thing on my mind." },
           { sp: "渡辺", v: "f", ja: "そうか…。ゲーム{会社|がいしゃ}に入りたいんだったよね。どう？", en: "I see... You wanted to get into a game company, right? How's it going?" },
           { sp: "木山", v: "m", ja: "うーん。いろいろ{情報|じょうほう}は集めている**ものの**、なかなか{厳|きび}しくて…。困った**ことに**この{業界|ぎょうかい}、{募集|ぼしゅう}はどこも「{若干名|じゃっかんめい}」なんだよ。", en: "Hmm. I've been gathering all kinds of information, but it's really tough... The trouble is, in this industry every company's listing says they're hiring only “a few people.”" },
@@ -44,7 +44,7 @@ TRY.registerChapter({
               en: "Use the \"[V-~~ます~~] + (っ)きり\" form when you want to say that the situation have continued indefinitely.",
               examples: [
                 { ja: "{妻|つま}は{赤|あか}ん{坊|ぼう}の{世話|せわ}にかかりっきりなので、{掃除|そうじ}や{洗濯|せんたく}は私がしています。", en: "My wife is tied up with the baby all the time, so I do the cleaning and laundry." },
-                { ja: "{佐藤|さとう}さんは新入社員をつきっきりで{指導|しどう}している。", en: "Sato is coaching the new employee one-on-one, staying right by their side the whole time." },
+                { ja: "{佐藤|さとう}さんは新入社員をつきっきりで{指導|しどう}している。", en: "Sato is training the new employee, staying right by their side the whole time." },
               ],
             },
             {
@@ -121,7 +121,7 @@ TRY.registerChapter({
                   q: "今日は会社の{忘年会|ぼうねんかい}だったが、{大雪|おおゆき}で電車が止まってしまって、（　）どころではなかった。",
                   options: ["{忘年会|ぼうねんかい}", "会社"],
                   answer: 0,
-                  en: "We had our company year-end party today, but heavy snow stopped the trains, so a party was the last thing on our minds.",
+                  en: "We had our company year-end party today, but heavy snow stopped the trains, so partying was out of the question.",
                   why: { en: "The trains stopped, which ruled out the activity, the party: 忘年会どころではなかった. The word before どころ is the activity, not the company." },
                 },
                 {
@@ -175,7 +175,7 @@ TRY.registerChapter({
                   q: "今年こそ{手|て}{編|あ}みのセーターを{絶対完成|ぜったいかんせい}させると{決心|けっしん}したものの、（　）。",
                   options: ["{編|あ}み上げたころには春になっているかもしれない", "春になったらすてきなセーターができそうだ"],
                   answer: 0,
-                  en: "I made up my mind that this year I'd definitely finish a hand-knit sweater, but it may be spring by the time I'm done knitting it.",
+                  en: "I made up my mind that this year I'd finish knitting a sweater by hand no matter what, but it may be spring by the time it's done.",
                   why: { en: "The resolve was made, but the result is not what was hoped: finishing may drag on into spring. The other option fulfills the resolve, leaving no contrast for ものの." },
                 },
                 {
@@ -230,7 +230,7 @@ TRY.registerChapter({
             { ja: "[Pl]［[なA~~だ~~]］の場合もある。", en: "It can also follow [Pl] (with [なA~~だ~~]).", gen: true },
           ],
           examples: [
-            { ja: "今人気のエリナはモデルにしては{背|せ}が高いほうではない。", en: "Erina, who is popular right now, isn't particularly tall for a model." },
+            { ja: "今人気のエリナはモデルにしては{背|せ}が高いほうではない。", en: "Erina, who's so popular these days, isn't all that tall for a model." },
             { ja: "このお{弁当|べんとう}は300円にしては{量|りょう}も多いし味もいい。", en: "For 300 yen, this boxed lunch has a generous portion and tastes good too." },
             { ja: "A：そのコート、すてきね。\nB：30年前に母が着てたのなんだけど、それにしてはデザインも古くないでしょ？", en: "A: That coat is lovely.\nB: My mother wore it 30 years ago, but the design doesn't look dated for something that old, does it?" },
             { ja: "そのおすし、初めて作ったにしては上手にできたじゃない。", en: "Your sushi turned out really well for your first time making it!" },
@@ -288,9 +288,9 @@ TRY.registerChapter({
             { ja: "「[なA]／[N]である + ことか」も使われることがある。", en: "\"[なA]／[N]である + ことか\" is also sometimes used.", gen: true },
           ],
           examples: [
-            { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but oh, how hard I studied to pass this exam! No one knows about all the work I put in, I suppose." },
-            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to leave my best friend behind because of my parent's job transfer. I can't tell you how sad I was." },
-            { ja: "言葉が通じない外国で病気になって、どれほど{心細|こころぼそ}かったことか。あのときの{看護師|かんごし}さんには今でも{感謝|かんしゃ}しています。", en: "I can't tell you how helpless I felt when I got sick in a foreign country where I couldn't make myself understood. I'm still grateful to the nurse who looked after me then." },
+            { ja: "人は私のことを頭がいいと言うけど、この試験に{合格|ごうかく}するために、どれだけ勉強したことか。私の{努力|どりょく}は{誰|だれ}も知らないでしょうね。", en: "People say I'm smart, but you wouldn't believe how hard I studied to pass this exam. No one knows about all the work I put in, I suppose." },
+            { ja: "子どものころ、親の{転勤|てんきん}のために{親友|しんゆう}と別れなければならなくて、どんなに悲しかったことか。", en: "When I was a child, I had to leave my best friend behind when one of my parents was transferred for work. I can't tell you how sad I was." },
+            { ja: "言葉が通じない外国で病気になって、どれほど{心細|こころぼそ}かったことか。あのときの{看護師|かんごし}さんには今でも{感謝|かんしゃ}しています。", en: "You can't imagine how helpless I felt when I got sick in a foreign country where I couldn't make myself understood. I'm still grateful to the nurse who looked after me then." },
             { ja: "{週末|しゅうまつ}、台風が来そうで{心配|しんぱい}だ。運動会が中止になったら、楽しみにしている{娘|むすめ}がどんなにがっかりすることか。", en: "I'm worried a typhoon might hit this weekend. If sports day is canceled, I can't imagine how disappointed my daughter will be. She's been so looking forward to it." },
           ],
           xref: "☞ p.221　〜こと",
@@ -324,7 +324,7 @@ TRY.registerChapter({
         rings: false,
         lines: [
           { sp: "{渡辺|わたなべ}", v: "f", ja: "難しいね。やる気**さえ**あれ**ば**、{採用|さいよう}してもらえるというものじゃないだろうし。", en: "That's tough. I guess it's not as if motivation alone will get you hired." },
-          { sp: "{木山|きやま}", v: "m", ja: "そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Exactly. If no one's hiring, there's no way to even try… Sometimes I catch myself thinking, what if I keep holding out for a game company, struggle and struggle, and in the end don't get a job anywhere at all…" },
+          { sp: "{木山|きやま}", v: "m", ja: "そうなんだよ。{募集|ぼしゅう}がなければがんばり**ようがない**し…。このままゲーム{会社|がいしゃ}にこだわって、さんざん{苦労|くろう}した**あげく**、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Exactly. If no one's hiring, there's no way to even try… Sometimes I catch myself thinking, what if I keep holding out for a game company, go through all that struggle, and in the end don't get a job anywhere at all…" },
           { sp: "渡辺", v: "f", ja: "そんなこと考える**もんじゃない**よ。{成功|せいこう}するって信じなきゃ。ゼミの{先輩|せんぱい}も、{絶対|ぜったい}だめだと思ったけど出す**だけ**出してみるって言って、{結局|けっきょく}その会社に入れたんだって。", en: "You shouldn't think like that. You have to believe you'll make it. One of the older students in my seminar was sure there was no chance, but said they'd send in an application anyway, just to try, and I heard they ended up getting into that company." },
           { sp: "木山", v: "m", ja: "へえ、そうなんだ。", en: "Wow, really?" },
           { sp: "渡辺", v: "f", ja: "だから、とにかくあきらめないで、最後までがんばろうよ。ね。", en: "So whatever you do, don't give up. Let's keep at it till the end, OK?" },
@@ -341,7 +341,7 @@ TRY.registerChapter({
           forms: ["[N] + さえ + …ば", "[V-~~ます~~] + さえ + すれば／しなければ", "［[なA] で　[N] で］ + さえ + あれば／なければ"],
           examples: [
             { ja: "A：レポート終わった？\nB：もう少し。あと、最後のまとめさえ書けば終わりだよ。", en: "A: Have you finished your report?\nB: Almost. I just need to write the conclusion and I'm done." },
-            { ja: "そちらのご{都合|つごう}さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "Provided it's convenient for you, I will call on you tomorrow." },
+            { ja: "そちらのご{都合|つごう}さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'll call on you tomorrow." },
             { ja: "A：あの車、すてきなデザインね。\nB：車なんて走りさえすればいいんだよ。", en: "A: That car has a lovely design, doesn't it?\nB: Cars? As long as they run, that's all that matters." },
             { ja: "食べられさえすれば、味は{問|と}わないよ。", en: "As long as it's edible, I don't care how it tastes." },
             { ja: "{残念|ざんねん}だったね、さくらちゃん。転びさえしなければ1{位|い}だったのに…。", en: "That's a shame, Sakura. If only you hadn't fallen, you'd have come in first…" },
@@ -624,7 +624,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["{引|ひ}っ{越|こ}しのために荷物を{整理|せいり}することになったが、{祖父母|そふぼ}も両親も物が{捨|す}てられない{性格|せいかく}で、荷物が山のようにある。私たち{姉妹|しまい}の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", "両親は古い荷物の中から思い出の{品|しな}を手に取ってながめ、{引|ひ}っ{越|こ}し[1]。さんざん{昔話|むかしばなし}をした[2]、父はすべて{捨|す}てないと言い出した。思い出の{品|しな}とはいう[3]、しまっておく場所もないので[4]。{結局|けっきょく}トラック1{杯|ぱい}分の{品|しな}を{捨|す}てた。父はさびしいかもしれないが、また新しい家で新しい思い出を作ってほしいと思う。"],
-        en: ["We had to sort through our things for the move, but my grandparents and my parents are all the type who can't throw anything away, so we have mountains of stuff. Out came not only our things from when my sisters and I were children, but even the schoolbooks my parents and grandparents had used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and the move was the last thing on their minds. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
+        en: ["We had to sort through our things for the move, but my grandparents and my parents are all the type who can't throw anything away, so we have mountains of stuff. Out came not only our things from when my sisters and I were children, but even the schoolbooks my parents and grandparents had used as children.", "My parents picked up keepsakes from among the old things and gazed at them, and they were in no state to deal with the move. After endlessly reminiscing about the old days, my father ended up announcing he wouldn't throw anything away. They may be keepsakes, but there's no place to store them, so we had no choice but to throw them out. In the end, we threw away a whole truckload of things. My father may be sad, but I hope he'll make new memories in the new house."],
         blanks: [
           { options: ["どころではない", "さえすればいい", "かねない", "ということだ"], answer: 0, why: { en: "Absorbed in their keepsakes, the parents were in no state to get on with packing: 引っ越しどころではない. かねない needs a bad result, and さえすればいい／ということだ don't fit the situation." } },
           { options: ["ばかりで", "くせに", "あげく", "わけではなく"], answer: 2, why: { en: "A long process (さんざん昔話をした) and a let-down result (すべて捨てないと言い出した): あげく. くせに criticizes a contradiction, ばかりで means *only ~ing*, and わけではなく is a denial." } },

@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "helpless; uneasy and lonely; forlorn",
     note: "The anxious feeling of having no one or nothing to rely on: 一人で心細い, 心細い気持ち. 寂しい is loneliness; 心細い adds insecurity. Its opposite is 心強い (reassuring).",
     rx: ["しんぼそい", "こころほそい", "こころさい"],
-    book: { ja: "言葉が通じない外国で病気になって、どれほど**{心細|こころぼそ}かった**ことか。", en: "I can't tell you how helpless I felt when I got sick in a foreign country where I couldn't make myself understood.", at: "gp/42" },
+    book: { ja: "言葉が通じない外国で病気になって、どれほど**{心細|こころぼそ}かった**ことか。", en: "You can't imagine how helpless I felt when I got sick in a foreign country where I couldn't make myself understood.", at: "gp/42" },
     ex: [
       { ja: "{初|はじ}めての{一人暮|ひとりぐ}らしで、{夜|よる}は{少|すこ}し**{心細|こころぼそ}い**。", en: "Living alone for the first time, I feel a little uneasy at night.", alt: ["{心強|こころづよ}い", "{細|こま}かい", "{細長|ほそなが}い"] },
     ] },
@@ -288,7 +288,7 @@ TRY.registerVocab({ ch: 5, words: [
   { w: "こだわる", lv: "N1", pos: "godan verb (intransitive)",
     en: "to be particular (about); to stick to; to be hung up on",
     note: "〜にこだわる. Positive when it means insisting on quality (素材にこだわる, often in ads; こだわりのラーメン), negative when it means clinging to something one should let go (過去にこだわる, 勝ち負けにこだわる). こだわり is one's particular standard.",
-    book: { ja: "このままゲーム{会社|がいしゃ}に**こだわって**、さんざん{苦労|くろう}したあげく、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Sometimes I wonder, what if I keep holding out for a game company, struggle and struggle, and end up not getting a job anywhere…", at: "ch/5" },
+    book: { ja: "このままゲーム{会社|がいしゃ}に**こだわって**、さんざん{苦労|くろう}したあげく、どこにも{就職|しゅうしょく}できなかったらどうしようって思ったりして…。", en: "Sometimes I catch myself thinking, what if I keep holding out for a game company, go through all that struggle, and in the end don't get a job anywhere at all…", at: "ch/5" },
     ex: [
       { ja: "この{店|みせ}は{材料|ざいりょう}に**こだわって**いて、{野菜|やさい}はすべて{有機|ゆうき}{栽培|さいばい}だ。", en: "This restaurant is particular about its ingredients; all the vegetables are organically grown.", alt: ["かかわって", "さからって", "ためらって"] },
     ] },
@@ -311,7 +311,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "convenience; circumstances; (one's) schedule",
     note: "Often about whether a time works: 都合がいい / 悪い, ご都合はいかがですか (would that suit you?), 一身上の都合で (for personal reasons). 便利 is about things being handy; 都合 is about one's situation.",
     rx: ["とごう", "つあい", "つがう"],
-    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "Provided it's convenient for you, I will call on you tomorrow.", at: "gp/43" },
+    book: { ja: "そちらのご**{都合|つごう}**さえよければ、{明日|あす}{伺|うかが}わせていただきます。", en: "As long as it's convenient for you, I'll call on you tomorrow.", at: "gp/43" },
     ex: [
       { ja: "{急|きゅう}な{仕事|しごと}が{入|はい}って、{土曜日|どようび}は**{都合|つごう}**が{悪|わる}くなった。", en: "Some urgent work came up, so Saturday no longer works for me.", alt: ["{場合|ばあい}", "{合図|あいず}", "{都会|とかい}"] },
     ] },
