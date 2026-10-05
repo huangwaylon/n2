@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "guidance; instruction; coaching; leadership",
     note: "Teaching and guiding someone over time: 部下を指導する, ご指導ください (please guide me — a set phrase to superiors), 指導者 (leader, coach), 生活指導 (student guidance). 教える is plain “teach”; 指導 implies an ongoing mentor role.",
     rx: ["しとう", "じどう", "ちどう"],
-    book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn sales from scratch here in the Sales Department, under the guidance of the department manager and all my senior colleagues.", at: "ch/2" },
+    book: { ja: "入社して{以来|いらい}、この{営業部|えいぎょうぶ}において、部長をはじめ{先輩方|せんぱいがた}のご**{指導|しどう}**のもとで、{営業|えいぎょう}について{一|いち}から学ぶことができ、たいへん{幸運|こううん}でした。", en: "Ever since I joined the company, I have been very fortunate to learn about sales from the ground up here in the Sales Department, under the guidance of all my senior colleagues, starting with our manager.", at: "ch/2" },
     ex: [
       { ja: "{新|あたら}しいコーチの**{指導|しどう}**のおかげで、チームはぐんぐん{強|つよ}くなった。", en: "Thanks to the new coach's instruction, the team got stronger and stronger.", alt: ["{指定|してい}", "{指紋|しもん}", "{誘導|ゆうどう}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "lively; active; brisk",
     note: "Full of energy and activity: 活発な子ども, 活発な議論 (a lively discussion), 交流が活発になる. 積極的 is “proactive” (willing to act); 活発 describes energetic movement or activity.",
     rx: ["かつはつ", "かっはつ", "かつぱつ"],
-    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "From now on, exchange between the two countries will probably grow more active in the economy, of course, and in culture as well.", at: "gp/12" },
+    book: { ja: "今後、{両国間|りょうこくかん}では{経済|けいざい}（　）文化の{交流|こうりゅう}も**{活発|かっぱつ}**になるだろう。", en: "Going forward, exchange between the two countries will probably grow more active in the economy, of course, but in culture as well.", at: "gp/12" },
     ex: [
       { ja: "{会議|かいぎ}では{若手|わかて}{社員|しゃいん}からも**{活発|かっぱつ}**な{意見|いけん}が{出|で}た。", en: "At the meeting, even the younger employees joined actively in the discussion.", alt: ["{活躍|かつやく}", "{爆発|ばくはつ}", "{出発|しゅっぱつ}"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "comprehensive; general; overall; synthesis",
     note: "Combining many parts into one: 総合病院 (general hospital), 総合メーカー (full-range maker), 総合的に判断する (judge overall), 総合優勝. 合計 is adding up numbers.",
     rx: ["そうご", "そごう", "そうこう"],
-    book: { ja: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の**{総合|そうごう}**メーカーです。", en: "Our company makes a full range of sweets, chocolate first and foremost.", at: "ch/2" },
+    book: { ja: "{当社|とうしゃ}はチョコレート＿＿お{菓子|かし}の**{総合|そうごう}**メーカーです。", en: "Our company is a full-line maker of chocolate and all kinds of other sweets.", at: "ch/2" },
     ex: [
       { ja: "{祖父|そふ}は{駅前|えきまえ}の**{総合|そうごう}**{病院|びょういん}に{入院|にゅういん}している。", en: "My grandfather is in the general hospital by the station.", alt: ["{合同|ごうどう}", "{総額|そうがく}", "{都合|つごう}"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "model; example (to follow); copybook",
     note: "Someone or something to imitate: 〜を手本にする, お手本を見せる (demonstrate), 子どもの手本になる (be a role model). 見本 is a sample of a product.",
     rx: ["しゅほん", "てぼん", "てもと"],
-    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children no doubt grow up modeling themselves on their parents.", at: "gp/16" },
+    book: { ja: "「子は親の{鏡|かがみ}」という言葉があるが、子どもは親を**{手本|てほん}**として{成長|せいちょう}していくのであろう。", en: "As the saying goes, “Children are the mirror of their parents”; children must grow up modeling themselves on their parents.", at: "gp/16" },
     ex: [
       { ja: "{先生|せんせい}が**{手本|てほん}**を{見|み}せてから、{生徒|せいと}が{書|か}いてみた。", en: "After the teacher demonstrated, the students tried writing it themselves.", alt: ["{手帳|てちょう}", "{本気|ほんき}", "{手間|てま}"] },
     ] },
@@ -419,7 +419,7 @@ TRY.registerVocab({ ch: 2, words: [
     en: "hiring; employment; adoption (of an idea or method)",
     note: "Two uses: hiring people (社員を採用する, 採用試験, 採用が決まる) and adopting ideas (新しい方式を採用する, 意見が採用される). 雇う is the plain verb for hiring.",
     rx: ["さいよ", "しゅよう", "さいおう"],
-    book: { ja: "今のアルバイトは2週間の{研修|けんしゅう}に毎日{参加|さんか}することを{条件|じょうけん}（　）**{採用|さいよう}**された。", en: "I was hired for my current part-time job on condition that I attend two weeks of training every day.", at: "gp/16" },
+    book: { ja: "今のアルバイトは2週間の{研修|けんしゅう}に毎日{参加|さんか}することを{条件|じょうけん}（　）**{採用|さいよう}**された。", en: "I was hired for my current part-time job on condition that I attend training every day for two weeks.", at: "gp/16" },
     ex: [
       { ja: "{私|わたし}の{出|だ}したアイデアが、{新|あたら}しい{広告|こうこく}に**{採用|さいよう}**された。", en: "The idea I suggested was adopted for the new ad.", alt: ["{信用|しんよう}", "{採集|さいしゅう}", "{費用|ひよう}"] },
     ] },
