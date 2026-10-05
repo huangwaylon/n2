@@ -104,7 +104,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "人に何かを頼む時、どんな表現を使って頼みますか。",
-        "tr": "When you ask someone for something, what expressions do you use to ask?"
+        "tr": "When you ask someone to do something for you, what expressions do you use?"
        }
       }
      ]
@@ -204,7 +204,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "フランス語と比較しながら、「日本語と日本人」についての筆者の意見を、下の単語を使って\n話しましょう。",
-        "tr": "Using the words below, talk about the author's opinion on “the Japanese language and the Japanese people,” comparing them with French."
+        "tr": "Using the words below, talk about the author's view of “the Japanese language and the Japanese people,” and how he compares Japanese with French."
        },
        "words": [
         "論理的",
@@ -292,10 +292,10 @@ TRY.registerLesson({
      ],
      "titleTr": "Yoroshiku: The Surface of Japanese and What Lies Beneath",
      "tr": [
-      "Japanese people use yoroshiku constantly, everywhere. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for something, they say yoroshiku as they make the request. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you find you can't tell what yoroshiku means.",
-      "Yoroshiku presumably means \"please use your good judgment (yoroshiku) on my behalf.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within the limits of what the other person can do and leave those limits up to that person. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it rather rude to force the other person to make the decision and to make them agonize over it? (Omitted.)",
-      "This happened when I was staying in Paris for about half a year. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or was it asking whether I might be kind enough to have a meal with them at least once? After agonizing over it at great length, I decided to do nothing unless I received a specific request. That was because I felt that leaving even that decision to me was—give me a break—far too presumptuous, and far too self-serving.",
-      "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person could at times even amount to rudeness. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
+      "Japanese people say yoroshiku over and over, everywhere they go. On New Year's cards they invariably write, \"Honnen mo dōzo yoroshiku\" (\"I look forward to your continued goodwill this year\"), and when they ask an acquaintance for a favor, they make the request with a yoroshiku. You could dismiss it as a set phrase or a greeting and leave it at that, but when someone says it to you and you try to respond sincerely to their request, you find you can't tell what yoroshiku means.",
+      "Yoroshiku presumably means \"Please give this whatever attention you see fit.\" The person making the request thinks that spelling out specific demands would impose on the other person, so, to avoid putting them out, they ask for help within whatever the other person is able to do, and in effect leave it to that person to set the limits. Therefore, yoroshiku must mean \"whatever you are kind enough to do (o-kokorozashi) will be fine.\" But being told this puts the person asked in an even more awkward position than being given specific demands. For example, when you are asked for a donation, if you are told it is so much per share, you can give one share or two, or, depending on the amount, simply decline; but when you are told \"whatever you wish to give,\" you have to agonize over how much you ought to contribute. When you think about it, isn't it awfully rude to force the decision on the other person and leave them agonizing over it? (…)",
+      "This was when I was spending about six months in Paris. I received a letter from a friend that said, \"An acquaintance of mine, a certain So-and-so, is going to Paris. Yoroshiku.\" My friend wrote that casually, but I had no idea what on earth this yoroshiku was asking of me. Did it mean I should meet this person at the airport? Book a hotel for them? Show them around Paris? Or was it asking whether I might be kind enough to have a meal with them at least once? After agonizing over it at length, I finally decided to do nothing unless I received a specific request. I felt that making me decide even that much was—give me a break—presuming far too much on my goodwill, and far too self-serving.",
+      "At first glance, the word yoroshiku may seem to be a way of speaking that respects the other person's will and judgment. But if you think about it carefully, isn't it a magic spell for escaping your own responsibility by shifting it onto the other person? Whatever the matter may be, making a decision takes a certain amount of effort. Thinking things over this way and that is a real bother. Abandoning that troublesome deliberation and pushing it onto the other person can at times even become downright rude. Yoroshiku is, in other words, \"Yoki ni hakarae\" (\"Handle it as you see fit\"). \"Yoki ni hakarae\" is what a feudal lord says when giving orders to his retainers; it is nothing but an arrogant demand."
      ]
     },
     {
@@ -314,7 +314,7 @@ TRY.registerLesson({
      ],
      "titleTr": "Profile",
      "tr": [
-      "Critic and former Asahi Shimbun reporter. He traveled around the world and wrote works of cultural criticism, travel writing, and more. He was active in a wide range of roles, including professor at Tokyo Woman's Christian University and host of an information program on TV."
+      "Critic and former Asahi Shimbun reporter. He traveled the world and wrote critiques of civilization, travel writing, and more. He was active in a wide range of roles, including professor at Tokyo Woman's Christian University and host of a TV current-affairs program."
      ],
      "headTr": [
       "Tetsurō Morimoto"
@@ -376,12 +376,12 @@ TRY.registerLesson({
      "titleTr": "Conversations Between People with Split Personalities: The Restoration of the Japanese Language",
      "tr": [
       "A friend of mine is a Frenchwoman who speaks superb Japanese. When I talk with her, our conversation whirls back and forth between French and Japanese, and amid this interweaving of two languages I am always struck by a strange sensation. Somehow it begins to feel as though each of us has become a person with two personalities, so that altogether a conversation among four people is taking place.",
-      "For example, when she wants to turn something down, she almost always uses French, going \"Non, non\" and \"C'est impossible\" (\"No, no\" and \"That's impossible\"). On the other hand, when she has a favor to ask, she approaches me in Japanese: \"Actually, I have a little favor to ask....\" As for me, when I want a clear answer, I ask in French, \"Qu'est-ce que tu penses?\" (\"What do you think?\"), and when I want to be vague and noncommittal, I end up answering in Japanese: \"Well, let me think about it.\"",
-      "Setting aside the finer details, perhaps we could say that, broadly speaking, we have this in common: we use French for logical, straightforward expressions and Japanese for emotional, ambiguous ones. In any case, it seems certain that, without realizing it, each of us skillfully switches between two personalities, each easier to express in its own language. Perhaps it is just my imagination, but to me she seems \"gentle\" when she uses Japanese and \"formidable\" when she uses French.",
-      "These facts probably show that our personalities, too, differ greatly depending on the language we use. As is often said, Italian, spoken with plenty of gestures and full, ringing vowels, makes Italians cheerful, and the restrained King's English makes the English composed; such claims probably cannot be entirely dismissed as mere popular opinion. From that standpoint, Japanese seems to produce a relatively gentle, flat people.",
-      "Furthermore, if straightforward expressions and ambiguous expressions lead directly to straightforward personalities and ambiguous personalities, then isn't Japanese, after all, producing rather ambiguous Japanese people? If we want to test this, there is nothing better than to consider, for example, the lines a fellow Japanese man uses when he asks a woman out on a date.",
-      "\"Um, if it's all right with you, would you like to go have some tea or something somewhere around here?\"",
-      "First of all, he does not call out to her firmly; with \"Um\" he vaguely draws her attention. Next, by saying \"if it's all right with you,\" he makes his assertion vague. Then he adds \"a little\" (chotto) to make his wording light, and blurs things by saying \"somewhere around here\" instead of \"there,\" and \"tea or something\" instead of \"tea.\" Naturally, the woman, too, can only reply with a vague answer such as \"Yes, well then\" or \"Hmm, well, okay,\" which, to people like my Italian friends, must surely be terribly exasperating."
+      "For example, when she wants to turn something down, she almost always uses French, going \"Non, non\" and \"C'est impossible\" (\"No, no\" and \"That's impossible\"). On the other hand, when she has a favor to ask, she approaches me in Japanese: \"Actually, I have a little favor to ask....\" As for me, when I want a clear answer, I ask in French, \"Qu'est-ce que tu penses?\" (\"What do you think?\"), and when I want to give a vague, noncommittal reply, I end up answering in Japanese: \"Let's see... well, I'll think it over.\"",
+      "Setting aside the finer points, could we say that, broadly speaking, we have this in common: we use French for logical, straightforward expressions and Japanese for emotional, ambiguous ones. In any case, it seems certain that, without realizing it, each of us skillfully switches between two personalities, each of which comes out more easily in one of the two languages. Perhaps it is just my imagination, but to me she seems \"gentle\" when she uses Japanese and \"formidable\" when she uses French.",
+      "These facts probably show that our personalities, too, differ greatly depending on the language we use. It is often said that Italian, with its lavish gestures and abundant ringing vowels, produces cheerful Italians, and that the restrained King's English produces composed Englishmen; such claims can probably not be dismissed entirely as mere popular wisdom. From that standpoint, Japanese seems to produce a relatively gentle, bland people.",
+      "Furthermore, if we take it that straightforward and ambiguous expressions translate directly into straightforward and ambiguous personalities, then isn't Japanese, after all, manufacturing rather ambiguous Japanese people? To test this, we could do no better than to consider, say, the line one of our countrymen uses when he asks a woman out on a date.",
+      "\"Um, if it's all right with you, would you like to go have a quick cup of tea or something somewhere around here?\"",
+      "First of all, he does not call out to her firmly; with \"Um\" he vaguely draws her attention. Next, by saying \"if it's all right with you\" (yoroshikattara), he blurs what he himself wants. Then he adds chotto (\"a little,\" here \"quick\") to make it sound casual, and he keeps things hazy by saying sono hen (\"around there\") instead of soko (\"there\"), and ocha demo (\"tea or something\") instead of ocha (\"tea\"). Naturally, the woman, too, can only reply with a vague answer such as \"Yes, well then\" or \"Hmm, well, okay,\" which, to people like my Italian friends, must surely be terribly exasperating."
      ]
     },
     {
@@ -464,7 +464,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "We Japanese hold back at every turn. It isn’t that we consciously hold back each time; we do it quite naturally.",
-        "What develops in response to this Japanese “heart that holds back” is the “heart that senses what others feel.” Our abilities develop when they are needed in the culture we belong to, and don’t develop when they aren’t needed. In American culture, everyone asserts themselves clearly without holding back, so the ability to sense what others are thinking isn’t needed and doesn’t develop. In Japanese culture, however, everyone holds back and doesn’t assert themselves clearly, so the ability to sense what others are thinking develops."
+        "What develops alongside this Japanese “habit of holding back” is the “habit of reading others’ feelings.” Our abilities develop when they are needed in the culture we belong to, and don’t develop when they aren’t needed. In American culture, everyone asserts themselves clearly without holding back, so the ability to read what others are feeling isn’t needed and doesn’t develop. In Japanese culture, however, everyone holds back and doesn’t assert themselves clearly, so the ability to read what others are feeling develops."
        ]
       },
       {
@@ -593,7 +593,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "えっ？　それなら、{薬|くすり}を飲む**なり**、病院に行く**なり**したほうがいいよ。",
-           "tr": "What? In that case, you should take some medicine or go to the doctor or something."
+           "tr": "Really? Then you should take some medicine or go see a doctor or something."
           }
          ]
         },
@@ -669,7 +669,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**AなりBなり** names two sample options and leaves the rest open: *A or B or something like that*. The speaker cares that some step is taken, not which one, so it suits advice, suggestions and instructions (〜ばいい, 〜ほうがいい, 〜てください). With verbs the pair ends in する: 買うなり作るなりして (①).\n\n- Past facts take 〜たり〜たり instead: 薬を飲んだり病院に行ったりした (*I took medicine and went to the doctor*).\n- 何なり leaves the list fully open: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nTRY! N1 teaches the same pattern and warns against the look-alike **V-るなり**, *as soon as* (L12-11). Compare **Nであれ** (L11-5), which says the choice makes no difference to the outcome."
+     "deepDive": "**AなりBなり** names two sample options and leaves the rest open: *A or B or something like that*. The speaker cares that some step is taken, not which one, so it suits advice, suggestions and instructions (〜ばいい, 〜ほうがいい, 〜てください). With verbs the pair ends in する: 買うなり作るなりして (①).\n\n- Past facts take 〜たり〜たり instead: 薬を飲んだり病院に行ったりした (*I took medicine and went to the doctor*).\n- 何なり leaves the list fully open: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nTRY! N1 teaches the same pattern. Don't confuse it with **V-るなり**, *as soon as* (L12-11). Compare **Nであれ** (L11-5), which says the choice makes no difference to the outcome."
     },
     {
      "t": "note",
@@ -754,7 +754,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜まい** is the negative partner of 〜う／〜よう and belongs to writing, speeches and old-fashioned speech; in conversation people say 〜ないだろう, or もう〜ない for a resolution.\n\n- Conjecture sounds confident but is still a guess, usually drawn from reasoning (〜のだから, いくら〜としても ②).\n- Resolution is first person and usually framed by と思う／と決める／と誓う (⑤).\n- Set phrases: 〜ことはあるまい (*there's surely no need to ~*), 〜しかあるまい (*there's probably no choice but ~*), 〜のではあるまいか (Reading 2).\n\nまい already negates: ✗行かないまい. Reading 2's 言いきれまい combines it with L11-9: *can hardly be dismissed as*. TRY! N2 teaches the same two uses, plus 〜（よ）うか〜まいか, *whether or not to ~*."
+     "deepDive": "**〜まい** is the negative partner of 〜う／〜よう and belongs to writing, speeches and old-fashioned speech; in conversation people say 〜ないだろう, or もう〜ない for a resolution.\n\n- Conjecture sounds confident but is still a guess, usually drawn from reasoning (〜のだから, いくら〜としても ②).\n- Resolution is first person, often framed by と思う／と決める／と誓う (⑤).\n- Set phrases: 〜ことはあるまい (*there's surely no need to ~*), 〜しかあるまい (*there's probably no choice but ~*), 〜のではあるまいか (Reading 2).\n\nまい already negates: ✗行かないまい. Reading 2's 言いきれまい combines it with L11-9: *can hardly be dismissed as*. TRY! N2 teaches the same two uses, plus 〜（よ）うか〜まいか, *whether or not to ~*."
     },
     {
      "t": "note",
@@ -804,12 +804,12 @@ TRY.registerLesson({
           {
            "sp": "先輩",
            "ja": "卒論のテーマについて悩んでいたみたいだったけど、あれからどうした？",
-           "tr": "You seemed to be struggling with your thesis topic. What happened after that?"
+           "tr": "You seemed to be struggling with your thesis topic. So what did you end up doing?"
           },
           {
            "sp": "後輩",
            "ja": "何度も研究テーマを変えた**すえに**、やっとやりたい研究が見つかりました。",
-           "tr": "After changing my research topic many times, I finally found the research I want to do."
+           "tr": "After changing my research topic many times, I finally found something I really want to research."
           }
          ]
         }
@@ -845,7 +845,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜すえ（に）** presents a result as the end point of a long, effortful process: deliberation, trial and error, a hard-fought contest. It is written and fairly formal; conversation tends to say 〜て、結局… or やっと….\n\n- Before it: V-た (悩んだ, 話し合った) or an action noun + の (接戦の, 検討の); ✗悩むすえ.\n- As a modifier: 悩んだすえの決断 (*a decision reached after much agonizing*).\n- The result can be good, neutral or disappointing (③).\n\nTRY! N2 teaches the same 末（に） next to **〜あげく（に）**, which is used when the long process ends badly: さんざん迷ったあげく、何も買わなかった (*after dithering forever, I bought nothing*). 月末 and 年末 (*end of the month / year*) are the unrelated time word 末."
+     "deepDive": "**〜すえ（に）** presents a result as the end point of a long, effortful process: deliberation, trial and error, a hard-fought contest. It is written and fairly formal; conversation tends to say 〜て、結局… or やっと….\n\n- Before it: V-た (悩んだ, 話し合った) or an action noun + の (接戦の, 検討の); ✗悩むすえ.\n- As a modifier: 悩んだすえの決断 (*a decision reached after much agonizing*).\n- The result can be good, neutral or disappointing (③).\n\nTRY! N2 teaches the same 末（に）; contrast its **〜あげく（に）**, used when the long process ends badly: さんざん迷ったあげく、何も買わなかった (*after dithering forever, I bought nothing*). The kanji 末 means *end*, as in 月末 (げつまつ, *the end of the month*)."
     },
     {
      "t": "note",
@@ -882,7 +882,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "彼は小さい頃からテニスがうまかったが、いつの{間|ま}にかオリンピックに**まで**出ていたので驚いた。",
-         "tr": "He had been good at tennis since he was little, but I was surprised that before I knew it he had even competed in the Olympics."
+         "tr": "He had been good at tennis ever since he was little, but I was amazed to find that, before I knew it, he had even competed in the Olympics."
         },
         {
          "n": 2,
@@ -1008,7 +1008,7 @@ TRY.registerLesson({
           {
            "sp": "コーチ",
            "ja": "相手がどんなに強いチーム**であれ**、試合をする前にあきらめてはいけない。あきらめたら、そこで負けだ。",
-           "tr": "No matter how strong the other team is, you must not give up before the game. The moment you give up, you've lost."
+           "tr": "No matter how strong the other team is, you must not give up before the game even starts. The moment you give up, you've lost."
           },
           {
            "sp": "選手",
@@ -1023,12 +1023,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "リーさん、サモスン社に就職が決まったけど、仕事内容が気に入らないんだって。",
-           "tr": "Lee-san got a job at Samosun but apparently doesn't like the work."
+           "tr": "Lee-san landed a job at Samosun, but apparently doesn't like what the work involves."
           },
           {
            "sp": "B",
            "ja": "どんな仕事**であれ**、あんな大企業で働けるのはいいことだと思うけどなあ。",
-           "tr": "Whatever the job is, I'd think being able to work at such a big company is a good thing."
+           "tr": "Whatever the work is, I'd think being able to work at a big company like that is a good thing."
           }
          ]
         },
@@ -1150,7 +1150,7 @@ TRY.registerLesson({
           {
            "sp": "エマ",
            "ja": "トムはホストファミリーにご飯がまずいって言ったそうだよ。",
-           "tr": "I heard Tom told his host family that their food tastes bad."
+           "tr": "I heard Tom told his host family that their cooking tastes bad."
           },
           {
            "sp": "サラ",
@@ -1257,7 +1257,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜かねない** is a warning: from the present situation the speaker sees a real risk of a bad result. It is used only for undesirable outcomes; for neutral or good possibilities, use かもしれない: ✗合格しかねない.\n\n- It follows the ます-stem, passives included: 誤解されかねない (*could be misunderstood*). Polite かねません is common in advice (key example).\n- A conditional usually sets it up: 〜と／〜ば／〜たら…かねない (①–③).\n- With a person + なら (④), it is a judgment of character: *just the kind of person who would*.\n\nReading 1's 無礼にもなりかねない adds も, *even*: presumption can shade into outright rudeness. TRY! N2 teaches the same 〜かねない next to the more formal **〜おそれがある**, which also follows nouns: 台風のおそれ."
+     "deepDive": "**〜かねない** is a warning: from the present situation the speaker sees a real risk of a bad result. It is used only for undesirable outcomes; for neutral or good possibilities, use かもしれない: ✗合格しかねない.\n\n- It follows the ます-stem, passives included: 誤解されかねない (*could be misunderstood*). Polite かねません is common in advice (key example).\n- A conditional usually sets it up: 〜と／〜ば／〜たら…かねない (①–③).\n- With a person + なら (④), it is a judgment of character: *just the kind of person who would*.\n\nReading 1's 無礼にもなりかねない adds も, *even*: presumption can shade into outright rudeness. TRY! N2 teaches the same 〜かねない and, in another chapter, the more formal **〜おそれがある**, which also follows nouns: 津波のおそれがある (*there is a risk of a tsunami*)."
     },
     {
      "t": "note",
@@ -1434,7 +1434,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**いずれにしても** closes a discussion of open alternatives: whichever turns out to be true or gets chosen, the next point stands. It usually follows a sentence that lays out options or uncertainty (①–③) and introduces a conclusion, a duty or advice (〜なければならない, 〜ほうがいい).\n\n- Casual speech often says **どっちにしても**; にせよ／にしろ lean written.\n- **とにかく** is broader: it can brush a matter aside without any options in view (とにかく急いで, *just hurry*).\n- いずれ alone means *someday, sooner or later*: いずれわかる (*you'll understand eventually*).\n\nIt is the set-phrase form of TRY! N2's **AにしろBにしろ**, with いずれ (*whichever*) standing in for the list."
+     "deepDive": "**いずれにしても** closes a discussion of open alternatives: whichever turns out to be true or gets chosen, the next point stands. It usually follows a sentence that lays out options or uncertainty (①–③) and introduces a conclusion, a duty or advice (〜なければならない, 〜ほうがいい).\n\n- Casual speech often says **どっちにしても**; いずれにせよ is the most formal of the three.\n- **とにかく** is broader: it can brush a matter aside without any options in view (とにかく急いで, *just hurry*).\n- いずれ alone means *someday, sooner or later*: いずれわかる (*you'll understand eventually*).\n\nIt is the set-phrase form of TRY! N2's **AにしろBにしろ**, with いずれ (*whichever*) standing in for the list."
     },
     {
      "t": "note",
@@ -1479,19 +1479,19 @@ TRY.registerLesson({
           {
            "sp": "母",
            "ja": "れん、お兄ちゃんなんだから、弟を泣かせてはだめでしょ？",
-           "tr": "Ren, you’re the big brother, so you shouldn’t make your little brother cry, right?"
+           "tr": "Ren, you’re the big brother. You know you shouldn’t make your little brother cry."
           },
           {
            "sp": "父",
            "ja": "まあ、どちらか一方が悪い**とばかりは言い切れない**よ。双方からけんかした理由を聞いてみようよ。",
-           "tr": "Well, we can’t really say it’s just one of them who’s at fault. Let’s ask both of them why they were fighting."
+           "tr": "Well, we can’t say for sure that only one of them is to blame. Let’s ask them both why they were fighting."
           }
          ]
         },
         {
          "n": 4,
          "ja": "{風邪|かぜ}をひいた時は、首にネギを巻いたらいいという話があるが、ネギには{疲労|ひろう}を{回復|かいふく}する{成分|せいぶん}が含まれているらしいから、あながち間違い**とばかりは言い切れまい**。",
-         "tr": "There’s a saying that when you catch a cold, you should wrap a green onion around your neck. Apparently green onions contain a substance that helps you recover from fatigue, so it can’t really be dismissed as entirely wrong."
+         "tr": "There’s a saying that when you catch a cold, you should wrap a green onion around your neck. Apparently green onions contain a substance that helps you recover from fatigue, so perhaps it can’t be dismissed as entirely wrong."
         }
        ]
       },
@@ -1632,7 +1632,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "もう少し準備に時間がかかるから、テレビ**でも**見て10分待ってて。",
-           "tr": "I need a little more time to get ready, so watch TV or something and wait ten minutes."
+           "tr": "I need a little more time to get ready, so watch TV or something while you wait ten minutes."
           }
          ]
         },
