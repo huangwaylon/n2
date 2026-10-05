@@ -368,7 +368,7 @@ TRY.registerUnits([
       },
       {
        "ja": "・日本語の授業は楽しい。\n**しかし**、難しい。\n・このパソコンはいい**が**、高い。\n・京都の桜はきれいだ**と**聞いた。\n・今年の夏は**大変**／**とても**暑い。",
-       "tr": "Japanese class is enjoyable. However, it is difficult. / This computer is good, but it is expensive. / I heard that the cherry blossoms in Kyoto are beautiful. / This summer is very / extremely hot."
+       "tr": "Japanese class is enjoyable. However, it is difficult. / This computer is good, but it is expensive. / I heard that the cherry blossoms in Kyoto are beautiful. / This summer is extremely / very hot."
       }
      ]
     ]
@@ -490,7 +490,7 @@ TRY.registerUnits([
        {
         "sp": "A",
         "ja": "サラさんが言っていたけど、この本は{難|むずか}しい**そうだ**よ。",
-        "tr": "Sarah was saying that this book is supposed to be hard."
+        "tr": "Sarah-san was saying that this book is supposed to be hard."
        },
        {
         "sp": "B",
@@ -512,7 +512,7 @@ TRY.registerUnits([
      {
       "n": 4,
       "ja": "サラさんはフランス人だ**そうだ**。",
-      "tr": "I hear Sarah is French."
+      "tr": "I hear Sarah-san is French."
      }
     ]
    },
@@ -567,7 +567,7 @@ TRY.registerUnits([
        {
         "sp": "B",
         "ja": "本当だ。漢字が多くて難し**そうな**本だね。",
-        "tr": "You're right. It has a lot of kanji. It looks like a hard book."
+        "tr": "You're right. It's got so much kanji, it looks like a hard book."
        }
       ]
      },
@@ -682,7 +682,7 @@ TRY.registerUnits([
        {
         "sp": "→ C",
         "ja": "あの宿題はとても{難|むずか}しい**らしい**。",
-        "tr": "That homework is apparently very hard."
+        "tr": "Sounds like that homework is really hard."
        }
       ]
      },
@@ -697,7 +697,7 @@ TRY.registerUnits([
        {
         "sp": "B",
         "ja": "Cさんから聞いたんだけど、あそこは毎週パーティーがあって、にぎやか**らしい**よ。",
-        "tr": "I heard from C that they have parties there every week, so it's apparently pretty lively."
+        "tr": "I heard from C-san that they have parties there every week. Apparently it's pretty lively."
        }
       ]
      },
@@ -794,7 +794,7 @@ TRY.registerUnits([
        {
         "sp": "母",
         "ja": "またバイト？　学生なら学生**らしく**勉強しなさい。",
-        "tr": "Your part-time job again? If you're a student, study like a student should."
+        "tr": "Your part-time job again? You're a student, so study like a student should."
        }
       ]
      }
@@ -936,7 +936,7 @@ TRY.registerUnits([
      {
       "n": 2,
       "ja": "日本では!![!!キティの**ような**!!]!!%%かわいいキャラクター%%が人気です。",
-      "tr": "In Japan, cute characters like Kitty are popular."
+      "tr": "In Japan, cute characters like Hello Kitty are popular."
      }
     ]
    },
@@ -1604,7 +1604,7 @@ TRY.registerUnits([
     "items": [
      {
       "ja": "先生を駅まで__ご案内しました__。（案内しました）",
-      "tr": "I showed the teacher the way to the station. (案内しました)"
+      "tr": "I guided the teacher to the station. (案内しました)"
      }
     ]
    },
@@ -2391,7 +2391,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "a. 日本人の{友達|ともだち}に日本語を教え＿＿。\nb. 日本人の友達は日本語を教え＿＿。",
-         "tr": "a. I had my Japanese friend teach me Japanese.\nb. My Japanese friend taught me Japanese."
+         "tr": "a. I had my Japanese friend teach me Japanese.\nb. My Japanese friend kindly taught me Japanese."
         },
         "answer": "a. てもらいました　b. てくれました"
        }
@@ -2504,7 +2504,7 @@ TRY.registerUnits([
        },
        {
         "ja": "→ お母さんは子ども**に**ケーキを作っ__てあげました__。",
-        "tr": "→ The mother made a cake for her child (as a favor to the child)."
+        "tr": "→ The mother made a cake for her child (for the child's benefit)."
        }
       ]
      },
