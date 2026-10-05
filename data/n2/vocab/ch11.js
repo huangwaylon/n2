@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "origin; beginnings (of something)",
     note: "The historical starting point of a custom, species, word or civilization: 〜を起源とする / 〜に起源がある, 文明の起源. 原因 is the cause of an event, and 由来 is where a name or custom comes from. Don't confuse it with its homophones 期限 (deadline) and 機嫌 (mood).",
     rx: ["きけん", "きいげん", "おきげん"],
-    book: { ja: "ラーメンは中国のめん料理を**{起源|きげん}**にしていると言われますが、外国人にとってラーメンは日本料理にほかならないのです。", en: "Ramen is said to have originated from Chinese noodle dishes, but to foreigners ramen is Japanese food, pure and simple.", at: "ch/11" },
+    book: { ja: "ラーメンは中国のめん料理を**{起源|きげん}**にしていると言われますが、外国人にとってラーメンは日本料理にほかならないのです。", en: "Ramen is said to have originated in Chinese noodle dishes, but to people from abroad, ramen is nothing other than Japanese food.", at: "ch/11" },
     ex: [
       { ja: "オリンピックの**{起源|きげん}**は{古代|こだい}ギリシャにあると{言|い}われている。", en: "The origins of the Olympics are said to lie in ancient Greece.", alt: ["{期限|きげん}", "{機嫌|きげん}", "{起床|きしょう}"] },
     ] },
@@ -42,7 +42,7 @@ TRY.registerVocab({ ch: 11, words: [
   { w: "さすが", lv: "N2", pos: "adverb",
     en: "as expected (of); just what you'd expect",
     note: "Admiration that something lives up to its reputation: さすがプロだ, さすが〜だけあって (#105). さすがに can also mean \"even so, understandably\": さすがに疲れた (even I got tired). Don't use it for bad results you expected; that is やっぱり.",
-    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, be it the soup or the toppings, that ramen had the shop's own original touches throughout; it was something new, unlike anything I'd had before.", at: "ch/11" },
+    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, the shop had put its own original touches on everything, whether the soup or the toppings, and the ramen was something new, unlike anything I'd had before.", at: "ch/11" },
     ex: [
       { ja: "**さすが**プロの{料理人|りょうりにん}だ。{味|あじ}が{全然|ぜんぜん}{違|ちが}う。", en: "Just what you'd expect of a professional chef. The taste is completely different.", alt: ["せめて", "まさか", "たとえ"] },
     ] },
@@ -82,7 +82,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "happiness; well-being",
     note: "More formal and abstract than 幸せ: 国民の幸福, 幸福な人生, 幸福感. 幸運 is good luck, not happiness.",
     rx: ["こうぶく", "こふく", "さちふく"],
-    book: { ja: "{政治|せいじ}の{目的|もくてき}は国民の**{幸福|こうふく}**にほかならない。", en: "The purpose of politics is none other than the happiness of the people.", at: "gp/100" },
+    book: { ja: "{政治|せいじ}の{目的|もくてき}は国民の**{幸福|こうふく}**にほかならない。", en: "The purpose of politics is nothing other than the people's happiness.", at: "gp/100" },
     ex: [
       { ja: "{親|おや}はいつも{子|こ}どもの**{幸福|こうふく}**を{願|ねが}っている。", en: "Parents always wish for their children's happiness.", alt: ["{裕福|ゆうふく}", "{満腹|まんぷく}", "{往復|おうふく}"] },
     ] },
@@ -193,7 +193,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "downhill slope; decline (of fortunes or conditions)",
     note: "The opposite is 上り坂 (uphill). Figuratively something getting worse: 景気は下り坂だ, 天気は下り坂 (the weather is turning bad). 坂 becomes ざか in compounds.",
     rx: ["したりざか", "くだりさか", "おりざか"],
-    book: { ja: "この道は**{下|くだ}り{坂|ざか}**でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road runs downhill, so it's easy to pick up speed, and on top of that there is heavy traffic even at night, so please be very careful.", at: "gp/102" },
+    book: { ja: "この道は**{下|くだ}り{坂|ざか}**でスピードが出やすい{上|うえ}に、{夜間|やかん}も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill, which makes it easy to pick up speed, and on top of that, traffic is heavy even at night, so please be very careful.", at: "gp/102" },
     ex: [
       { ja: "{天気|てんき}は{午後|ごご}から**{下|くだ}り{坂|ざか}**になるでしょう。", en: "The weather will probably take a turn for the worse from the afternoon.", alt: ["{坂道|さかみち}", "{下書|したが}き", "{下着|したぎ}"] },
     ] },
@@ -201,7 +201,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "nighttime; at night",
     note: "A formal word used on signs and in notices: 夜間の外出, 夜間営業 (open at night), 夜間学校 (night school). The opposite is 昼間 (ひるま, daytime).",
     rx: ["よるま", "よかん", "やげん"],
-    book: { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、**{夜間|やかん}**も交通{量|りょう}が多いので、十分注意してください。", en: "This road runs downhill, so it's easy to pick up speed, and on top of that there is heavy traffic even at night, so please be very careful.", at: "gp/102" },
+    book: { ja: "この道は{下|くだ}り{坂|ざか}でスピードが出やすい{上|うえ}に、**{夜間|やかん}**も交通{量|りょう}が多いので、十分注意してください。", en: "This road goes downhill, which makes it easy to pick up speed, and on top of that, traffic is heavy even at night, so please be very careful.", at: "gp/102" },
     ex: [
       { ja: "この{病院|びょういん}は**{夜間|やかん}**も{救急|きゅうきゅう}の{患者|かんじゃ}を{受|う}け{付|つ}けている。", en: "This hospital accepts emergency patients at night as well.", alt: ["{期間|きかん}", "{年間|ねんかん}", "{夜景|やけい}"] },
     ] },
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "hard physical labor; heavy work",
     note: "Exhausting, physically demanding work. 労働 (ch. 7) is labor in general; 肉体労働 is manual labor. Informally people just say きつい仕事.",
     rx: ["おもろうどう", "じゅうろうど", "ちょうろうどう"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう**{重労働|じゅうろうどう}**である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう**{重労働|じゅうろうどう}**である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Construction work is hard, dangerous physical labor, and on top of that the pay is low, so apparently every site is short of workers.", at: "gp/102" },
     ex: [
       { ja: "{介護|かいご}の{仕事|しごと}は{体力|たいりょく}が{必要|ひつよう}な**{重労働|じゅうろうどう}**だ。", en: "Caregiving is hard physical work that takes a lot of stamina.", alt: ["{重量|じゅうりょう}", "{重体|じゅうたい}", "{重役|じゅうやく}"] },
     ] },
@@ -217,7 +217,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "wages; pay",
     note: "The economic and legal word: 賃金が低い, 最低賃金 (minimum wage), 賃上げ (a pay raise). In everyday talk 給料 (salary) is more common. The 賃 is the one in 家賃 (rent).",
     rx: ["ちんきん", "じんぎん", "ちんかね"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に**{賃金|ちんぎん}**も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に**{賃金|ちんぎん}**も低いので、どの{現場|げんば}でも{人手不足|ひとでぶそく}になっているらしい。", en: "Construction work is hard, dangerous physical labor, and on top of that the pay is low, so apparently every site is short of workers.", at: "gp/102" },
     ex: [
       { ja: "{最低|さいてい}**{賃金|ちんぎん}**が{来年|らいねん}から{引|ひ}き{上|あ}げられる。", en: "The minimum wage will be raised starting next year.", alt: ["{税金|ぜいきん}", "{貯金|ちょきん}", "{送金|そうきん}"] },
     ] },
@@ -225,7 +225,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "labor shortage; being shorthanded",
     note: "人手 means workers or hands: 人手が足りない. 人手不足 is a standard news phrase (人手不足が深刻だ). Don't confuse 人手 with 人出 (ひとで, the crowds that turn out for an event).",
     rx: ["じんしゅぶそく", "ひとてぶそく", "ひとでふそく"],
-    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも**{人手不足|ひとでぶそく}**になっているらしい。", en: "Work on construction sites is hard physical labor that involves danger, and the wages are low as well, so apparently every site is short-staffed.", at: "gp/102" },
+    book: { ja: "工事{現場|げんば}の仕事は{危険|きけん}がともなう{重労働|じゅうろうどう}である{上|うえ}に{賃金|ちんぎん}も低いので、どの{現場|げんば}でも**{人手不足|ひとでぶそく}**になっているらしい。", en: "Construction work is hard, dangerous physical labor, and on top of that the pay is low, so apparently every site is short of workers.", at: "gp/102" },
     ex: [
       { ja: "{飲食店|いんしょくてん}の**{人手不足|ひとでぶそく}**が{深刻|しんこく}になっている。", en: "The labor shortage at restaurants has become serious.", alt: ["{寝不足|ねぶそく}", "{運動不足|うんどうぶそく}", "{人通|ひとどお}り"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "foreign-affiliated; foreign-owned (company)",
     note: "外資 is foreign capital; a 外資系企業 is a company in Japan owned or backed by foreign capital, often associated with high pay and results-based evaluation. 系 means \"type, affiliation\" (理系, 体育会系).",
     rx: ["がいじけい", "そとしけい", "がいしかい"],
-    book: { ja: "**{外資系企業|がいしけいきぎょう}**は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。", en: "Foreign-affiliated companies are said to pay high salaries and let you take long vacations as well, but the work is demanding.", at: "gp/102" },
+    book: { ja: "**{外資系企業|がいしけいきぎょう}**は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。", en: "Foreign companies are said to pay high salaries and, on top of that, let you take long vacations, but the work is demanding.", at: "gp/102" },
     ex: [
       { ja: "{英語|えいご}を{生|い}かして**{外資系|がいしけい}**の{会社|かいしゃ}で{働|はたら}きたい。", en: "I want to make use of my English and work at a foreign-affiliated company.", alt: ["{外来|がいらい}", "{外観|がいかん}", "{外見|がいけん}"] },
     ] },
@@ -273,7 +273,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "household",
     note: "The official and statistical word: 世帯数, 単身世帯 (one-person household), 二世帯住宅 (a house for two generations). 家庭 is home and family life; 家族 is the family members. Read せたい, not せいたい.",
     rx: ["せいたい", "よたい", "せだい"],
-    book: { ja: "1**{世帯|せたい}**といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We say \"one household\", but that covers everything from people living alone to large families of ten or more.", at: "gp/103" },
+    book: { ja: "1**{世帯|せたい}**といっても、一人{暮|ぐ}らしの人から10人以上の{大|だい}家族までいろいろある。", en: "We say \"one household,\" but that covers everything from a person living alone to a big family of ten or more.", at: "gp/103" },
     ex: [
       { ja: "この{町|まち}では{高齢者|こうれいしゃ}だけの**{世帯|せたい}**が{増|ふ}えている。", en: "In this town, the number of households made up only of elderly people is rising.", alt: ["{世代|せだい}", "{世間|せけん}", "{地帯|ちたい}"] },
     ] },
@@ -321,7 +321,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "skin; texture (of a surface)",
     note: "Skin as something you see, touch and care for: 肌が荒れる (skin gets rough), 肌ざわり (how something feels against the skin), 肌寒い (chilly). 皮膚 is the medical word.",
     rx: ["き", "はた", "ひふ"],
-    book: { ja: "こちらは新しい{化粧品|けしょうひん}で、これ（　）お**{肌|はだ}**が美しくなります。", en: "This is a new cosmetic; this alone will make your skin beautiful.", at: "gp/105" },
+    book: { ja: "こちらは新しい{化粧品|けしょうひん}で、これ（　）お**{肌|はだ}**が美しくなります。", en: "This is a new cosmetic product. This alone will make your skin beautiful.", at: "gp/105" },
     ex: [
       { ja: "{冬|ふゆ}は{空気|くうき}が{乾燥|かんそう}して、**{肌|はだ}**が{荒|あ}れやすい。", en: "In winter the air is dry, and your skin easily gets rough.", alt: ["{胸|むね}", "{膝|ひざ}", "{肩|かた}"] },
     ] },
@@ -329,7 +329,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "to take pride in; to boast (of)",
     note: "Often used of institutions and records, not just people: 国が誇る美術館 (a museum the nation is proud of), 世界一の高さを誇る (boasts being the tallest in the world). The noun is 誇り (ch. 2).",
     rx: ["おごる", "ほごる", "こる"],
-    book: { ja: "さすが国が**{誇|ほこ}る**{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。", en: "As you'd expect of the museum the nation is so proud of, it has many works by world-famous painters.", at: "gp/105" },
+    book: { ja: "さすが国が**{誇|ほこ}る**{美術館|びじゅつかん}だけに世界的に有名な{画家|がか}の作品も{数多|かずおお}い。", en: "As you'd expect of a museum that is the pride of the nation, it has many works by world-famous painters.", at: "gp/105" },
     ex: [
       { ja: "この{寺|てら}は1300{年|ねん}の{歴史|れきし}を**{誇|ほこ}る**。", en: "This temple boasts a 1,300-year history.", alt: ["{祈|いの}る", "{誤|あやま}る", "{削|けず}る"] },
     ] },
@@ -368,7 +368,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "considerably; quite; (to be) equivalent to",
     note: "As an adverb it is stronger than かなり: 相当疲れている, 相当ショックだった. 相当な金額 (a considerable sum). 〜に相当する means to correspond to (1万円に相当する品).",
     rx: ["そうどう", "あいとう", "そうと"],
-    book: { ja: "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が**{相当|そうとう}**ショックだったようだ。", en: "Sato had been working so earnestly that this failure seems to have come as all the more of a shock.", at: "gp/105" },
+    book: { ja: "{佐藤|さとう}さんはまじめにがんばっていた（　）今回の{失敗|しっぱい}が**{相当|そうとう}**ショックだったようだ。", en: "Sato had been working hard and conscientiously, so this failure seems to have been all the more of a shock.", at: "gp/105" },
     ex: [
       { ja: "{彼|かれ}は{朝|あさ}からずっと{働|はたら}いていて、**{相当|そうとう}**{疲|つか}れているようだ。", en: "He's been working since morning and seems to be pretty exhausted.", alt: ["{適当|てきとう}", "{担当|たんとう}", "{相談|そうだん}"] },
     ] },
@@ -400,7 +400,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "destination; where one is going",
     note: "行き先を決める / 告げる, バスの行き先. Also read ゆきさき. 目的地 is more formal; 行方 (ゆくえ) is someone's whereabouts.",
     rx: ["いきせん", "こうさき", "ぎょうさき"],
-    book: { ja: "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ**{行|い}き{先|さき}**を早く決めないと間に合わなくなるよ。", en: "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, if we don't decide where to go soon we'll be too late.", at: "gp/106" },
+    book: { ja: "{九州|きゅうしゅう}でも{北海道|ほっかいどう}でもいいけど、{年末|ねんまつ}は{飛行機|ひこうき}の予約が取りにくいから、いずれにしろ**{行|い}き{先|さき}**を早く決めないと間に合わなくなるよ。", en: "Kyushu or Hokkaido, either is fine, but flights are hard to book at the end of the year, so either way, we need to decide where to go soon or it'll be too late.", at: "gp/106" },
     ex: [
       { ja: "タクシーの{運転手|うんてんしゅ}に**{行|い}き{先|さき}**を{伝|つた}えた。", en: "I told the taxi driver where I was going.", alt: ["{行|い}き{止|ど}まり", "{行|い}き{違|ちが}い", "{行事|ぎょうじ}"] },
     ] },
@@ -598,7 +598,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "to switch; to change over (one's mindset, a setting)",
     note: "気持ちを切り替える (put something behind you and refocus), 電源を切り替える, 頭を切り替える. The noun is 切り替え (気持ちの切り替えが早い).",
     rx: ["きりかわる", "せつりかえる", "きりがえる"],
-    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "Yes, I understand. I'll get myself into the right frame of mind starting now.", at: "ch/11/review" },
+    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "OK, I understand. I'll change my mindset starting now.", at: "ch/11/review" },
     ex: [
       { ja: "{失敗|しっぱい}したことは{忘|わす}れて、{気持|きも}ちを**{切|き}り{替|か}えよう**。", en: "Let's forget about the mistake and move on.", alt: ["{取|と}り{替|か}えよう", "{切|き}り{捨|す}てよう", "{切|き}り{抜|ぬ}けよう"] },
     ] },
