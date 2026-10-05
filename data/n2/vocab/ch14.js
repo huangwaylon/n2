@@ -28,7 +28,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "stadium; sports ground; arena",
     note: "A venue for sports competitions, especially track and field: 陸上競技場, 国立競技場. 競技 means a sporting event or competition (競技に出る). スタジアム is the loanword; 球場 is a baseball stadium.",
     rx: ["きょうぎば", "きょぎじょう", "けいぎじょう"],
-    book: { ja: "また、オリンピック{開催|かいさい}にあたっては、{資金|しきん}に{加|くわ}えて、**{競技場|きょうぎじょう}**などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Also, in hosting the Olympics, securing land to build stadiums and other facilities becomes a major challenge in addition to funding.", at: "ch/14" },
+    book: { ja: "また、オリンピック{開催|かいさい}にあたっては、{資金|しきん}に{加|くわ}えて、**{競技場|きょうぎじょう}**などの{建設用|けんせつよう}{地|ち}の{確保|かくほ}も{重要|じゅうよう}な{課題|かだい}となる。", en: "Moreover, when it comes to hosting the Olympics, securing land for stadiums and other facilities is a major challenge in addition to funding.", at: "ch/14" },
     ex: [
       { ja: "{新|あたら}しい**{競技場|きょうぎじょう}**で{陸上|りくじょう}の{全国大会|ぜんこくたいかい}が{行|おこな}われた。", en: "The national track and field championships were held at the new stadium.", alt: ["{駐車場|ちゅうしゃじょう}", "{会議場|かいぎじょう}", "{飛行場|ひこうじょう}"] },
     ] },
@@ -68,7 +68,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "philosophy; guiding principle; ideal",
     note: "The basic idea behind an organization or activity: 企業理念 (corporate philosophy), 基本理念, 建学の理念 (a school's founding principles). 理想 is the perfect state you aim for; 信念 is a personal conviction.",
     rx: ["りねい", "りにん", "りぜん"],
-    book: { ja: "この**{理念|りねん}**に{基|もと}づいて、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。", en: "It is a wonderful thing to work toward international peace based on this ideal.", at: "ch/14" },
+    book: { ja: "この**{理念|りねん}**に{基|もと}づいて、{国際|こくさい}社会の{平和|へいわ}を{目指|めざ}すことは{素晴|すば}らしいことだ。", en: "Working toward international peace on the basis of this ideal is a wonderful thing.", at: "ch/14" },
     ex: [
       { ja: "{創業者|そうぎょうしゃ}の**{理念|りねん}**は、{今|いま}も{社員|しゃいん}に{受|う}け{継|つ}がれている。", en: "The founder's philosophy is still carried on by the employees today.", alt: ["{記念|きねん}", "{理由|りゆう}", "{残念|ざんねん}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "purchase price; payment for goods",
     note: "The money paid for something you buy. 購入 is the formal word for buying (購入する, 購入者), common in shops and contracts; 代金 is the price paid (代金を支払う). 料金 is a fee for a service (電気料金).",
     rx: ["こうにゅだいきん", "こうにゅうだいかね", "こうにゅうたいきん"],
-    book: { ja: "家を買う場合は、{不動産屋|ふどうさんや}の{手数料|てすうりょう}に{加|くわ}え、{税金|ぜいきん}や{引|ひ}っ{越|こ}し{費用|ひよう}など、**{購入代金|こうにゅうだいきん}**のほかにも{様々|さまざま}な{経費|けいひ}がかかる。", en: "When you buy a house, on top of the real estate agent's fee there are various other expenses besides the purchase price, such as taxes and moving costs.", at: "gp/136" },
+    book: { ja: "家を買う場合は、{不動産屋|ふどうさんや}の{手数料|てすうりょう}に{加|くわ}え、{税金|ぜいきん}や{引|ひ}っ{越|こ}し{費用|ひよう}など、**{購入代金|こうにゅうだいきん}**のほかにも{様々|さまざま}な{経費|けいひ}がかかる。", en: "When you buy a house, there are various expenses besides the purchase price: on top of the real estate agent's fee, there are taxes, moving costs and more.", at: "gp/136" },
     ex: [
       { ja: "{商品|しょうひん}の**{購入代金|こうにゅうだいきん}**は、クレジットカードでもお{支払|しはら}いいただけます。", en: "You can also pay for your purchase by credit card.", alt: ["{入場料|にゅうじょうりょう}", "{授業料|じゅぎょうりょう}", "{購読料|こうどくりょう}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "being full and satisfying; well-equipped; substantial",
     note: "Two uses: a life or time that is fulfilling (充実した毎日, 充実感) and facilities or services that are complete and ample (設備が充実している, サービスの充実). 満足 is being satisfied; 充実 describes the richness of the thing itself.",
     rx: ["じゅじつ", "じゅうしつ", "ちゅうじつ"],
-    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が**{充実|じゅうじつ}**していることから、若い{世代|せだい}の{転入|てんにゅう}が{増加|ぞうか}している。", en: "In addition to its abundant nature, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
+    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が**{充実|じゅうじつ}**していることから、若い{世代|せだい}の{転入|てんにゅう}が{増加|ぞうか}している。", en: "In addition to its rich natural surroundings, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
     ex: [
       { ja: "{新|あたら}しい{仕事|しごと}を{始|はじ}めてから、{毎日|まいにち}が**{充実|じゅうじつ}**している。", en: "Since I started my new job, every day has felt fulfilling.", alt: ["{充電|じゅうでん}", "{誠実|せいじつ}", "{忠実|ちゅうじつ}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "moving in (to a new town); transferring in (to a school)",
     note: "Registering as a new resident or joining a school from elsewhere: 転入届 (moving-in notification at city hall), 転入生 (transfer student). The opposite is 転出 (moving out). 転居 is changing one's address in general.",
     rx: ["てんにゅ", "でんにゅう", "てんいり"],
-    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が{充実|じゅうじつ}していることから、若い{世代|せだい}の**{転入|てんにゅう}**が{増加|ぞうか}している。", en: "In addition to its abundant nature, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
+    book: { ja: "この町は、{自然|しぜん}の{豊|ゆた}かさに{加|くわ}えて、{子育|こそだ}て{支援|しえん}が{充実|じゅうじつ}していることから、若い{世代|せだい}の**{転入|てんにゅう}**が{増加|ぞうか}している。", en: "In addition to its rich natural surroundings, this town offers strong support for raising children, so more and more young people are moving here.", at: "gp/136" },
     ex: [
       { ja: "{新|あたら}しい{市|し}に{引|ひ}っ{越|こ}したら、{市役所|しやくしょ}で**{転入|てんにゅう}**の{手続|てつづ}きをしなければならない。", en: "When you move to a new city, you have to register as a new resident at city hall.", alt: ["{転職|てんしょく}", "{輸入|ゆにゅう}", "{購入|こうにゅう}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "supposing; if, for argument's sake; temporarily",
     note: "Introduces a hypothesis, often with 〜ても / 〜としても / 〜たら: 仮に失敗したとしても. It can also mean 'provisionally': 仮に決めておく. 仮 alone means temporary (仮免許 learner's permit, 仮の住まい).",
     rx: ["かいに", "けりに", "がりに"],
-    book: { ja: "**{仮|かり}に**私を{悲|かな}しませないためのうそだとしたって、私は{絶対|ぜったい}{許|ゆる}せない。", en: "Even supposing it was a lie meant to spare my feelings, I can never forgive it.", at: "gp/137" },
+    book: { ja: "**{仮|かり}に**私を{悲|かな}しませないためのうそだとしたって、私は{絶対|ぜったい}{許|ゆる}せない。", en: "Even supposing it was a lie meant to spare my feelings, I could never forgive it.", at: "gp/137" },
     ex: [
       { ja: "**{仮|かり}に**{明日|あした}{雨|あめ}が{降|ふ}っても、{試合|しあい}は{予定|よてい}どおり{行|おこな}われる。", en: "Even if it rains tomorrow, the game will be held as scheduled.", alt: ["{特|とく}に", "{急|きゅう}に", "{既|すで}に"] },
     ] },
@@ -363,7 +363,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "legend; folklore",
     note: "A story handed down from long ago: 伝説が残る / 伝わる, 〜という伝説がある. Also for famous people or feats: 伝説の選手 (a legendary player). 伝統 is tradition; 神話 is myth; 昔話 is a folk tale.",
     rx: ["てんせつ", "でんぜつ", "でんせち"],
-    book: { ja: "この映画はある地方に伝わる**{伝説|でんせつ}**をもとにして作られたと言われている。", en: "This film is said to have been made based on a legend handed down in a certain region.", at: "gp/138" },
+    book: { ja: "この映画はある地方に伝わる**{伝説|でんせつ}**をもとにして作られたと言われている。", en: "This film is said to be based on a legend passed down in a certain region.", at: "gp/138" },
     ex: [
       { ja: "この{湖|みずうみ}には、{竜|りゅう}が{住|す}んでいるという**{伝説|でんせつ}**がある。", en: "There is a legend that a dragon lives in this lake.", alt: ["{伝統|でんとう}", "{解説|かいせつ}", "{演説|えんぜつ}"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 14, words: [
     en: "(court) ruling; judgment; sentence",
     note: "A court's decision: 判決が出る / 下る, 判決を言い渡す (hand down a ruling), 無罪判決 (acquittal), 有罪判決. 判断 is judgment in general; 判定 is a decision in sports or tests.",
     rx: ["はんけち", "ばんけつ", "はんげつ"],
-    book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, a lawsuit arose over this accident between the driver and Oyama City, which manages the road, and based on the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
+    book: { ja: "{事故|じこ}のあった{交差点|こうさてん}は以前から{危険性|きけんせい}が{指摘|してき}されていたため、この{事故|じこ}[1]、道路を{管理|かんり}する{大山|おおやま}市と運転手の間で{裁判|さいばん}となり、{市側|しがわ}は**{判決|はんけつ}**[2]、200万円を{支払|しはら}うこととなった。", en: "Because the danger of the intersection where the accident happened had been pointed out for some time, the driver and Oyama City, which manages the road, went to court over the accident, and in accordance with the ruling, the city ended up paying 2 million yen.", at: "ch/14/review" },
     ex: [
       { ja: "{裁判所|さいばんしょ}は{被告|ひこく}に{無罪|むざい}の**{判決|はんけつ}**を{言|い}い{渡|わた}した。", en: "The court found the defendant not guilty.", alt: ["{判子|はんこ}", "{解決|かいけつ}", "{対決|たいけつ}"] },
     ] },
