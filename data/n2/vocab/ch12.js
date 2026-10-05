@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["じつせき", "じっさい", "みせき"],
     book: { ja: "わが社もウォーキングシューズにかけては、**{実績|じっせき}**がありますが、違った{視|し}{点|てん}で{開発|かいはつ}しないことには新しいお客さんは{獲得|かくとく}できないですよね。", en: "We have a proven track record when it comes to walking shoes too, but unless we approach development from a different angle, we won't win new customers.", at: "ch/12" },
     ex: [
-      { ja: "{彼女|かのじょ}はこの{分野|ぶんや}で10{年|ねん}{以上|いじょう}の**{実績|じっせき}**がある。", en: "She has more than ten years of proven experience in this field.", alt: ["{成績|せいせき}", "{実物|じつぶつ}", "{面積|めんせき}"] },
+      { ja: "{彼女|かのじょ}はこの{分野|ぶんや}で10{年|ねん}{以上|いじょう}の**{実績|じっせき}**がある。", en: "She has a track record of more than ten years in this field.", alt: ["{成績|せいせき}", "{実物|じつぶつ}", "{面積|めんせき}"] },
     ] },
   { w: "{獲得|かくとく}", lv: "N1", pos: "noun · する verb",
     en: "acquisition; winning; to gain; to obtain",
@@ -135,7 +135,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "このホールは2,000{人|にん}を**{収容|しゅうよう}**できる。", en: "This hall can hold 2,000 people.", alt: ["{収納|しゅうのう}", "{内容|ないよう}", "{収穫|しゅうかく}"] },
     ] },
-  { w: "{補|おぎな}う", lv: "N1", pos: "verb",
+  { w: "{補|おぎな}う", lv: "N1", pos: "verb (transitive)",
     en: "to make up for; to supplement; to compensate for",
     note: "Filling a gap or lack: 不足を補う, 栄養を補う, 欠点を補う. Related nouns: 補足 (supplementary remark), 補充 (refill). 償う (つぐなう) is to atone or pay for a wrong.",
     rx: ["つぐなう", "おぎのう", "ほなう"],
@@ -151,7 +151,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "{災害|さいがい}に{備|そな}えて、**{缶詰|かんづめ}**と{水|みず}を{買|か}っておいた。", en: "To be prepared for disasters, I bought canned food and water.", alt: ["{詰|つ}め{込|こ}み", "{缶|かん}けり", "{満員|まんいん}"] },
     ] },
-  { w: "{差|さ}し{出|だ}す", lv: "N1", pos: "verb",
+  { w: "{差|さ}し{出|だ}す", lv: "N1", pos: "verb (transitive)",
     en: "to hold out; to offer; to present; to submit",
     note: "手を差し出す, 名刺を差し出す (present your business card), 書類を差し出す. 差出人 is the sender of a letter.",
     rx: ["さしだず", "さじだす", "さしでる"],
@@ -159,7 +159,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "{彼|かれ}は{笑顔|えがお}で{右手|みぎて}を**{差|さ}し{出|だ}した**。", en: "He held out his right hand with a smile.", alt: ["{追|お}い{出|だ}した", "{逃|に}げ{出|だ}した", "{思|おも}い{出|だ}した"] },
     ] },
-  { w: "{戸惑|とまど}う", lv: "N1", pos: "verb",
+  { w: "{戸惑|とまど}う", lv: "N1", pos: "verb (intransitive)",
     en: "to be puzzled; to be at a loss; to be bewildered",
     note: "Not knowing how to react to something new or unexpected: 突然の質問に戸惑う, 文化の違いに戸惑う. The noun is 戸惑い (戸惑いを感じる). 迷う is being unable to decide or losing your way.",
     rx: ["ともどう", "とまよう", "こまどう"],
@@ -199,7 +199,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "{野菜|やさい}には**{栄養|えいよう}**がたっぷり{含|ふく}まれている。", en: "Vegetables are packed with nutrients.", alt: ["{休養|きゅうよう}", "{教養|きょうよう}", "{栄光|えいこう}"] },
     ] },
-  { w: "{偏|かたよ}る", lv: "N1", pos: "verb",
+  { w: "{偏|かたよ}る", lv: "N1", pos: "verb (intransitive)",
     en: "to be unbalanced; to lean to one side; to be biased",
     note: "栄養が偏る, 考え方が偏る, 偏った意見 (a biased opinion). The noun is 偏り, and the kanji is the one in 偏食 (unbalanced diet) and 偏見 (prejudice).",
     rx: ["へんる", "かたむる", "かたよう"],
@@ -228,7 +228,7 @@ TRY.registerVocab({ ch: 12, words: [
     note: "にきびができる, にきびが増える. 吹き出物 is a more general word for skin eruptions. Usually written in kana.",
     book: { ja: "チョコレートを食べたら**にきび**が増えると知りつつも、つい手が{伸|の}びてしまうんです。", en: "Even though I know I'll get more pimples if I eat chocolate, I just can't help reaching for it.", at: "gp/112" },
     ex: [
-      { ja: "{寝不足|ねぶそく}が{続|つづ}いて、{顔|かお}に**にきび**ができてしまった。", en: "I kept not getting enough sleep, and I broke out in pimples.", alt: ["えくぼ", "まゆげ", "ひげ"] },
+      { ja: "{寝不足|ねぶそく}が{続|つづ}いて、{顔|かお}に**にきび**ができてしまった。", en: "After several nights without enough sleep, I broke out in pimples.", alt: ["えくぼ", "まゆげ", "ひげ"] },
     ] },
   { w: "{夜|よ}が{明|あ}ける", lv: "N2", pos: "expression",
     en: "day breaks; dawn comes",
@@ -270,7 +270,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "**{宝|たから}くじ**で1{億円|おくえん}{当|あ}たったら、{何|なに}をしたい？", en: "What would you do if you won 100 million yen in the lottery?", alt: ["{宝物|たからもの}", "{宝石|ほうせき}", "{宝庫|ほうこ}"] },
     ] },
-  { w: "{生|う}まれ{変|か}わる", lv: "N1", pos: "verb",
+  { w: "{生|う}まれ{変|か}わる", lv: "N1", pos: "verb (intransitive)",
     en: "to be reborn; to be completely transformed",
     note: "生まれ変わったら〜になりたい (if I'm reborn …), and figuratively a total change: 町が生まれ変わる, 生まれ変わったように真面目になる.",
     rx: ["うまれかえる", "しょうまれかわる", "うまれがわる"],
@@ -304,7 +304,7 @@ TRY.registerVocab({ ch: 12, words: [
     ] },
   { w: "{出版|しゅっぱん}", lv: "N2", pos: "noun · する verb",
     en: "publication; publishing; to publish",
-    note: "本を出版する, 出版社 (publisher), 出版記念パーティー. 発行 is issuing (newspapers, certificates), and 刊行 is a formal word for publishing a series.",
+    note: "本を出版する, 出版社 (publisher), 出版記念パーティー. 発行 is issuing (newspapers, certificates), and 刊行 is the formal written word for publishing (定期刊行物, periodicals).",
     rx: ["しゅつはん", "しゅっはん", "でばん"],
     book: { ja: "A：{山田|やまだ}さん、来週は出張で{講英社|こうえいしゃ}の**{出版|しゅっぱん}**{記念|きねん}パーティーに出られないんだって。", en: "A: I hear Yamada can't come to Koeisha's book launch party next week because of a business trip.", at: "gp/113" },
     ex: [
@@ -316,7 +316,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しょくき", "しょき", "たべき"],
     book: { ja: "B：何でもいいんじゃない？　私はデパートで見つけたかわいい**{食器|しょっき}**を送ったけど…。", en: "B: Wouldn't anything be fine? I sent some cute dishes I found at a department store…", at: "gp/113" },
     ex: [
-      { ja: "{食事|しょくじ}のあと、{家族|かぞく}で**{食器|しょっき}**を{洗|あら}った。", en: "After the meal, the family washed the dishes together.", alt: ["{食欲|しょくよく}", "{楽器|がっき}", "{食費|しょくひ}"] },
+      { ja: "{食事|しょくじ}のあと、{家族|かぞく}で**{食器|しょっき}**を{洗|あら}った。", en: "After the meal, my family and I washed the dishes together.", alt: ["{食欲|しょくよく}", "{楽器|がっき}", "{食費|しょくひ}"] },
     ] },
   { w: "{了承|りょうしょう}", lv: "N1", pos: "noun · する verb",
     en: "acknowledgment; understanding and acceptance; consent",
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "{市長|しちょう}が**{汚職|おしょく}**で{逮捕|たいほ}された。", en: "The mayor was arrested for corruption.", alt: ["{汚染|おせん}", "{退職|たいしょく}", "{職務|しょくむ}"] },
     ] },
-  { w: "{薄|うす}れる", lv: "N1", pos: "verb",
+  { w: "{薄|うす}れる", lv: "N1", pos: "verb (intransitive)",
     en: "to fade; to weaken; to grow faint",
     note: "Something abstract gradually weakening: 記憶が薄れる, 関心が薄れる, 信頼が薄れる. 薄まる is used for liquids and colors becoming diluted.",
     rx: ["はくれる", "うずれる", "ひすれる"],
@@ -452,7 +452,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["しじき", "しいしょく", "ためしょく"],
     book: { ja: "レストランの開店に{先立|さきだ}って、**{試食会|ししょくかい}**が開かれた。", en: "Prior to the restaurant's opening, a tasting event was held.", at: "gp/116" },
     ex: [
-      { ja: "スーパーで**{試食|ししょく}**したソーセージがおいしかったので{買|か}った。", en: "I bought the sausages I'd sampled at the supermarket because they were tasty.", alt: ["{試着|しちゃく}", "{試験|しけん}", "{試合|しあい}"] },
+      { ja: "スーパーで**{試食|ししょく}**したソーセージがおいしかったので{買|か}った。", en: "The sausages I sampled at the supermarket were good, so I bought some.", alt: ["{試着|しちゃく}", "{試験|しけん}", "{試合|しあい}"] },
     ] },
   { w: "{舞台|ぶたい}", lv: "N2", pos: "noun",
     en: "stage; setting (of a story)",
@@ -576,7 +576,7 @@ TRY.registerVocab({ ch: 12, words: [
     ] },
   { w: "{再放送|さいほうそう}", lv: "N1", pos: "noun · する verb",
     en: "rerun; rebroadcast",
-    note: "再 means again (再開, 再発行). 生放送 is a live broadcast. Online you'd more often say 見逃し配信 (catch-up streaming).",
+    note: "再 means again (再開, 再発行). 生放送 is a live broadcast. Missed episodes are now often watched through 見逃し配信 (catch-up streaming) instead.",
     rx: ["さいほうそ", "ざいほうそう", "さいはなそう"],
     book: { ja: "このドラマは、もう一度見たいという{視聴者|しちょうしゃ}の声（　）**{再放送|さいほうそう}**されることになった。", en: "In response to viewers asking to see it again, this drama is going to be rebroadcast.", at: "gp/118" },
     ex: [
@@ -614,7 +614,7 @@ TRY.registerVocab({ ch: 12, words: [
     ex: [
       { ja: "{電車|でんしゃ}の{音|おと}がだんだん**{遠|とお}ざかって**いった。", en: "The sound of the train gradually faded into the distance.", alt: ["{預|あず}かって", "{助|たす}かって", "{見|み}つかって"] },
     ] },
-  { w: "{貯|た}める", lv: "N2", pos: "verb",
+  { w: "{貯|た}める", lv: "N2", pos: "verb (transitive)",
     en: "to save (money); to accumulate",
     note: "お金を貯める, ポイントを貯める. The noun is 貯金 (savings). 溜める, with the same reading, is letting things build up: ストレスを溜める, 水を溜める.",
     rx: ["ちょめる", "たくわめる", "だめる"],
@@ -684,7 +684,7 @@ TRY.registerVocab({ ch: 12, words: [
     rx: ["さいさん", "ざいざん", "たからさん"],
     book: { ja: "物を作る仕事は{誰|だれ}でも{簡単|かんたん}にできると思われがちですが、その{技術|ぎじゅつ}こそが会社の**{財産|ざいさん}**なので、わが社では{年齢|ねんれい}、{経験|けいけん}、{国籍|こくせき}を{問|と}わず、高い{技術|ぎじゅつ}を持った社員を高く{評価|ひょうか}してきたんです。", en: "People tend to think that making things is work anyone can do easily, but those very skills are the company's assets, so at our company we have always valued highly skilled employees regardless of age, experience or nationality.", at: "ch/12/review" },
     ex: [
-      { ja: "{祖父|そふ}は{全|すべ}ての**{財産|ざいさん}**を{町|まち}に{寄付|きふ}した。", en: "My grandfather donated his entire fortune to the town.", alt: ["{生産|せいさん}", "{財布|さいふ}", "{出産|しゅっさん}"] },
+      { ja: "{祖父|そふ}は{全|すべ}ての**{財産|ざいさん}**を{町|まち}に{寄付|きふ}した。", en: "My grandfather donated everything he owned to the town.", alt: ["{生産|せいさん}", "{財布|さいふ}", "{出産|しゅっさん}"] },
     ] },
   { w: "{役員|やくいん}", lv: "N1", pos: "noun",
     en: "executive; director; officer (of a company or group)",
@@ -695,12 +695,12 @@ TRY.registerVocab({ ch: 12, words: [
       { ja: "{彼|かれ}は40{代|だい}で{会社|かいしゃ}の**{役員|やくいん}**になった。", en: "He became a company executive in his forties.", alt: ["{役人|やくにん}", "{店員|てんいん}", "{役者|やくしゃ}"] },
     ] },
   { w: "{並|な}み", lv: "N1", pos: "suffix · noun",
-    en: "on a par with; (of) the level of; average, ordinary",
+    en: "on par with; (of) the level of; average, ordinary",
     note: "As a suffix: 役員並み, プロ並みの腕 (professional-level skill), 例年並み (about the same as usual years). Alone: 並の成績 (average grades), 並盛り (regular-size serving).",
     rx: ["へいみ", "ならみ", "なめ"],
     book: { ja: "{能力次第|のうりょくしだい}では**{役員並|やくいんな}み**の{給料|きゅうりょう}がもらえるということです。", en: "It means that, depending on their ability, they can receive a salary on par with an executive.", at: "ch/12/review" },
     ex: [
-      { ja: "{彼|かれ}の{料理|りょうり}の{腕|うで}はプロ**{並|な}み**だ。", en: "His cooking skills are on a par with a professional's.", alt: ["{並|なら}び", "{込|こ}み", "{組|く}み"] },
+      { ja: "{彼|かれ}の{料理|りょうり}の{腕|うで}はプロ**{並|な}み**だ。", en: "His cooking is on par with a professional's.", alt: ["{並|なら}び", "{込|こ}み", "{組|く}み"] },
     ] },
   { w: "{物作|ものづく}り", lv: "N1", pos: "noun",
     en: "manufacturing; craftsmanship; making things",
