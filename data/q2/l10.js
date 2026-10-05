@@ -97,7 +97,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "あなたは「いつかは結婚したい」と思いますか。「子どもがほしい」と思いますか。",
-        "tr": "Do you think, “I want to get married someday”? Do you think, “I want to have children”?"
+        "tr": "Do you hope to get married someday? Do you want to have children?"
        }
       },
       {
@@ -139,7 +139,7 @@ TRY.registerLesson({
        "n": "4.",
        "text": {
         "ja": "どうすれば子どもを生み育てやすい社会になると思いますか。",
-        "tr": "What do you think would make society one in which it is easier to have and raise children?"
+        "tr": "What do you think it would take to make society a place where it is easier to have and raise children?"
        }
       },
       {
@@ -220,7 +220,7 @@ TRY.registerLesson({
        "n": "4.",
        "text": {
         "ja": "格差の広がりをなくすことは政府の責任だと思いますか。どうしてですか。",
-        "tr": "Do you think it is the government's responsibility to stop the widening of disparities? Why or why not?"
+        "tr": "Do you think it is the government's responsibility to stop inequality from widening? Why or why not?"
        }
       },
       {
@@ -558,16 +558,16 @@ TRY.registerLesson({
       "Marriage is no longer taken for granted. In the mail poll, 48% of people thought one \"should marry if at all possible,\" a large drop from 59% in the 2012 survey.",
       "Fifty percent said one \"doesn't necessarily have to,\" a share that was higher among women and, by age group, among younger people. Among women, 78% of those aged 18–29 and half of those in their 50s and 60s answered \"not necessarily\" (Figure 1).",
       "Attitudes toward the division of roles between husband and wife are also changing: only 32% think it is better for \"the husband to mainly work and earn the living and the wife to mainly do the housework and raise the children.\" And 69% think it would be good if \"more women worked.\"",
-      "On the other hand, the idea that marriage equals children is deeply rooted. 77% think it is better to \"have children once you're married.\" The figure was 82% among men and reached 74% among women, too. By age group, people in their 40s were somewhat lower at 67%, but among young people in their 30s and under it exceeded 70%.",
+      "On the other hand, the idea that marriage equals children is deeply rooted. Seventy-seven percent think it is better to \"have children once you're married.\" The figure was 82% among men and reached 74% among women as well. By age group, people in their 40s were somewhat lower at 67%, but among young people in their 30s and under it exceeded 70%.",
       "On child care as well, the answer \"While children are small, it's better for the mother to look after them at home\" accounted for 63%. The share was lower among those in their 30s and under, but even so, more than half of them were in favor of \"the mother caring for the children at home\" (Figure 2).",
       "Perhaps reflecting the burden felt by women who raise children while working, only 36% said \"women gain a lot from marriage,\" fewer than the 43% who think \"men gain a lot from marriage.\" Among women, only 31% answered that \"women gain a lot from marriage\" (Figure 3).",
-      "Unstable employment and income, typified by non-regular employment, also seem to be feeding anxiety about marriage. When people were asked to choose from four options the social factors behind people marrying later or not marrying at all, the most common answer, at 36%, was \"values regarding marriage have changed,\" followed by \"young people's employment and income are unstable\" at 30%. Among those in their 30s and under, however, \"employment and income\" was the most common, accounting for nearly 40% (Figure 4).",
+      "Unstable employment and income, typified by non-regular employment, also seem to be feeding anxiety about marriage. Asked to choose from four options the social factor behind people marrying later or not at all, the largest group, 36%, chose \"values regarding marriage have changed,\" followed by \"young people's employment and income are unstable\" at 30%. Among those in their 30s and under, however, \"employment and income\" was the most common, accounting for nearly 40% (Figure 4).",
       "When asked about the environment for raising children, 72% answered that “Japan today is a society in which it is hard to have and raise children.” Asked what the biggest problem is, many named the difficulty of balancing work and child-rearing, second only to the financial burden of raising children.",
       "Sixty percent think “it would be better if society came to take it for granted that people can put family before work.” Asked about childcare leave for men, the share saying “it would be better if society came to take it for granted that men take it” reached 69%. According to the Ministry of Health, Labour and Welfare, the share of men taking childcare leave only just topped 5% in fiscal 2017. The gap with reality has been thrown into sharp relief (Figure 5).",
       "To explore young people's “views on marriage,” the internet survey targeted unmarried people aged 25 to 34. While 80% want to get married, only 60% think that they themselves will marry in the future. As for the annual income they want in a spouse, 60% of women named an amount of 4 million yen or more, which suggests a gap with reality.",
-      "Among those who want to marry, 27% said “as soon as possible” and 50% said “someday,” for a combined 77% (75% of men, 80% of women). On the other hand, the share who think they themselves “will get married someday” was lower than the desire: 59% of men and 64% of women. The lower the annual income bracket, the higher the share who “don't think they will marry,” and the higher the share who “don't have a partner” as well (Figure 6).",
-      "Meanwhile, 72% of women answered that “income” is a “non-negotiable condition” when choosing a spouse. Asked what annual income they want in a partner, “4 million yen” was the most common answer at 41%, and together with “6 million yen,” “8 million yen,” and “10 million yen,” the total came to 63%. In addition, as many as 85% of women said they are “conscious of” employment status, such as regular or non-regular, when choosing a partner (Figure 7).",
-      "According to a 2017 survey by the National Tax Agency, the average salary of men was 5.48 million yen for regular employees and 2.29 million yen for non-regular employees. It is a tough “condition” for non-regular men.",
+      "Among those who want to marry, 27% said “as soon as possible” and 50% said “someday,” for a combined 77% (75% of men, 80% of women). On the other hand, the share who think they themselves “will get married someday” was lower than the share who want to: 59% of men and 64% of women. The lower the annual income bracket, the higher the share who “don't think they will marry,” and the higher the share who “don't have a partner” as well (Figure 6).",
+      "Meanwhile, 72% of women answered that “income” is a “non-negotiable condition” when choosing a spouse. Asked what annual income they want in a partner, “4 million yen” was the most common answer at 41%; adding “6 million yen,” “8 million yen” and “10 million yen” brings the total to 63%. In addition, as many as 85% of women said they are “conscious of” employment status, such as regular or non-regular, when choosing a partner (Figure 7).",
+      "According to a 2017 survey by the National Tax Agency, the average salary of men was 5.48 million yen for regular employees and 2.29 million yen for non-regular employees. For men in non-regular jobs, that “condition” is a tough one to meet.",
       "Asked why they want to marry (multiple answers allowed), “being able to live with someone I love” came first at 85%, followed by “having a place where I can feel at peace” and “not wanting to be alone in old age,” both at 77%.",
       "The survey was conducted last December through the online research company Macromill. Responses were received from 1,032 of its registered panel members."
      ],
@@ -1540,9 +1540,9 @@ TRY.registerLesson({
       "国で政府が果たす役割への期待が大きいことがわかった。"
      ],
      "tr": [
-      "Drawing on the results of the \"Role of Government\" survey conducted in 2016 by the ISSP (International Social Survey Programme), an international comparative survey group to which the NHK Broadcasting Culture Research Institute belongs, this report compares 35 countries and regions while examining how the Japanese view what the government ideally should be.",
+      "Drawing on the results of the \"Role of Government\" survey conducted in 2016 by the ISSP (International Social Survey Programme), an international comparative survey group to which the NHK Broadcasting Culture Research Institute belongs, this report compares 35 countries and regions while looking at how the Japanese see the ideal role of government.",
       "How do people think about privacy and security? And against the backdrop of widening inequality, what role do they want the government to play? This paper focuses in particular on where Japanese people's attitudes toward the government stand in comparison with those of other countries around the world.",
-      "The proportion of people who think that \"making sure the unemployed can maintain a reasonable standard of living\" is \"the government's responsibility\" (including \"somewhat,\" here and below) is 53% in Japan, a low level among the countries surveyed (Figure 1). Those who answered \"the government's responsibility\" tend to be more numerous in countries with high unemployment rates, such as Spain, Croatia and South Africa, and fewer in countries with low unemployment rates, such as Japan, the Czech Republic and the United States.",
+      "The proportion of people who think that \"making sure the unemployed can maintain a reasonable standard of living\" is \"the government's responsibility\" (including \"somewhat,\" here and below) is 53% in Japan, a low level among the countries surveyed (Figure 1). \"The government's responsibility\" tends to be a more common answer in countries with high unemployment rates, such as Spain, Croatia and South Africa, and a less common one in countries with low unemployment rates, such as Japan, the Czech Republic and the United States.",
       "The proportion of people who think that \"giving financial aid to university students from low-income families\" is \"the government's responsibility\" exceeds 80% in almost every country, and in many countries it accounts for 90% or more (Figure 2).",
       "In Japan, on the other hand, the figure is 67%, the lowest of all the countries. In South Korea, too, although not to the same extent as in Japan, fewer people than in other countries consider it \"the government's responsibility.\"",
       "In the 2006 survey, 58% of Japanese answered that aid for university students from low-income families was \"the government's responsibility,\" which was also considerably lower than in other countries. South Korea, though not to the same degree as Japan, was also low among the countries. Looking at the change over time, in Japan the share saying \"the government's responsibility\" rose from 58% to 67%, the largest increase of any country. Even so, Japan remains the lowest of all the countries (Table 1).",
@@ -1648,7 +1648,7 @@ TRY.registerLesson({
        ],
        "tr": [
         "Figure 1 shows the results of asking people who live with a spouse how much time they spend on housework (excluding childcare) in a week.",
-        "Among men, those who spend less than 5 hours a week made up about 50%, and 15% spent no time at all. Among women, 20 to under 30 hours was the most common, reaching about 30%. And while only 1% of men spend 30 hours or more, among women the figure was as high as 34%.",
+        "Among men, those who spent less than 5 hours a week made up about 50%, and 15% spent no time at all. Among women, 20 to under 30 hours was the most common, reaching about 30%. And while only 1% of men spent 30 hours or more, among women the figure was as high as 34%.",
         "From this we can see that women spend considerably more time on housework than men.",
         "According to a survey broken down by whether or not women have a job, the average weekly time spent on housework is about 23 hours for working women and about 25 hours for women who do not work. Gender equality outside the home, such as women's advancement in society, has been progressing, but on the other hand, the division of housework remains the same as it used to be. Could it be that the current situation, in which women who work carry the same housework burden as women who do not, is one of the factors behind this trend?"
        ]
@@ -2130,7 +2130,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**一方（で）** lays two facts side by side without ranking them; the speaker observes rather than complains, which suits reports and essays. In conversation でも or 〜けど does the same job.\n\n- A noun takes である before it (大都市である一方, ⑤); a な-adjective takes な or である.\n- **〜反面** (TRY! N2) contrasts two opposite sides of *one* subject, usually a merit and a drawback. With two different subjects only 一方 works: 兄は背が高い一方、弟は低い (*my older brother is tall, while the younger one is short*).\n- Sentence-final **V一方だ** is unrelated: 物価は上がる一方だ (*prices just keep going up*).\n\nTRY! N2 teaches the same pattern as 〜一方（で）／その一方で."
+     "deepDive": "**一方（で）** lays two facts side by side without ranking them, in a neutral tone that suits reports and essays. In conversation でも or 〜けど does the same job.\n\n- A noun takes である before it (大都市である一方, ⑤); a な-adjective takes な or である.\n- **〜反面** (TRY! N2) contrasts two opposite sides of *one* subject, usually a merit and a drawback. With two different subjects only 一方 works: 兄は背が高い一方、弟は低い (*my older brother is tall, while the younger one is short*).\n- Sentence-final **V一方だ** is unrelated: 物価は上がる一方だ (*prices just keep going up*).\n\nTRY! N2 teaches the same pattern as 〜一方（で）／その一方で."
     },
     {
      "t": "note",
@@ -2508,7 +2508,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "よく食べ、よく運動する人**ほど**{長|なが}{生|い}きするそうだ。",
-         "tr": "They say that the better people eat and the more they exercise, the longer they live."
+         "tr": "They say that the more people eat well and exercise, the longer they live."
         },
         {
          "n": 2,
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I went back to a shop I used to go to a lot after a long time away, I was disappointed to find it closed."
+         "tr": "When I dropped by a shop I used to go to a lot, for the first time in ages, I was disappointed to find it closed."
         },
         {
          "n": 5,
@@ -2992,7 +2992,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ものの** grants X as a fact, then says the expected result did not follow. The tone is regretful but measured: calmer than のに, more written than けど.\n\n- Y states a fact or a worry, never a request, invitation or intention: ✗難しいものの、やってみよう → ✓難しいけど、やってみよう.\n- With 〜てみる, は is often inserted: 買ってはみたものの (*I did buy it, but*).\n- **とはいうものの** opens a sentence: *that said*.\n- **〜ながら** (L10-6) concedes a state; ものの also concedes a completed action (入ったものの, ⑤).\n\nTRY! N2 teaches the same 〜ものの; TRY! N1's **〜とはいえ** is its more formal cousin."
+     "deepDive": "**〜ものの** grants X as a fact, then says the expected result did not follow. The tone is regretful but measured: calmer than のに, more written than けど.\n\n- Y states a fact or a worry, never a request, invitation or intention: ✗難しいものの、やってみよう → ✓難しいけど、やってみよう.\n- With 〜てみる, は is often inserted: 買ってはみたものの (*I did buy it, but*).\n- **とはいうものの** opens a sentence: *that said*.\n- **〜ながら** (L10-6) concedes a state; ものの also concedes a completed action (入ったものの, ⑤).\n\nTRY! N2 teaches the same 〜ものの; TRY! N1's **〜とはいえ** is a close relative."
     }
    ]
   },
