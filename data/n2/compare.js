@@ -67,7 +67,7 @@ TRY.registerCompare([
         ex: { ja: "{凶器|きょうき}がどこにあるか、考え**{得|う}る**場所はすべて{捜|さが}したが、まったく手がかりがつかめなかった。", en: "We searched every conceivable place for the weapon, but couldn't find a single clue." },
         note: "V-ます stem + 得る (うる or える): \"can / could conceivably\". Logical possibility (考え得る, あり得る), not personal ability; formal and written. Only the dictionary form can be read うる; the negative 得ない (えない) means \"cannot / impossible\"." },
       { pattern: "Vざるを{得|え}ない", level: "N2", no: 24,
-        ex: { ja: "{台風接近|たいふうせっきん}のため、{野外|やがい}コンサートは中止せ**ざるを{得|え}なく**なった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert." },
+        ex: { ja: "{台風接近|たいふうせっきん}のため、{野外|やがい}コンサートは中止せ**ざるを{得|え}なく**なった。", en: "Because a typhoon was approaching, the organizers had no choice but to cancel the open-air concert." },
         note: "V-ない stem + ざるを得ない (する → せざるを得ない): \"have no choice but to\". A reluctant necessity forced by circumstances, not the speaker's wish; formal. Literally \"cannot not do\": the 得ない is the same \"cannot\" as in #66, but the whole expresses necessity, not possibility." }
     ]
   },

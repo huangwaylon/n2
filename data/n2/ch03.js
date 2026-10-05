@@ -12,7 +12,7 @@ TRY.registerChapter({
       sample: {
         kind: "speech",
         lines: [
-          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff." },
+          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "Now that you are all becoming part of this hotel, I'd like to talk to you about the mindset you need as hotel staff." },
           { cont: true, ja: "いちばん難しいのは、{苦情|くじょう}{処理|しょり}です。", en: "The hardest part is handling complaints." },
           { cont: true, ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける**{限|かぎ}り**、お客様からのクレームに{対応|たいおう}せ**ざるを{得|え}ない**場面に{必|かなら}ず{出合|であ}います。", en: "You probably don't want to, but as long as you keep working at a hotel, you're bound to run into situations where you have no choice but to deal with complaints from guests." },
           { cont: true, ja: "お客様が{苦情|くじょう}をおっしゃったときは、ただ{謝|あやま}ればいい**というものではありません**。", en: "When a guest makes a complaint, it isn't simply a matter of apologizing." },
@@ -20,9 +20,9 @@ TRY.registerChapter({
           { cont: true, ja: "では、どうすればいいのでしょうか。", en: "So what should you do?" },
           { cont: true, ja: "そのときはお客様のお話を聞くことがいちばん大切です。", en: "In that situation, the most important thing is to listen to what the guest has to say." },
           { cont: true, ja: "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them less as guests who are only staying a few days than as your own family, and hear them out properly, all the way to the end." },
-          { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Our ABK Hotel has long been valued and loved by many guests for the high quality of its service." },
+          { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "We at ABK Hotel have long been valued and loved by many guests for the high quality of our service." },
           { cont: true, ja: "しかし、今後ホテル{業界|ぎょうかい}はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心し**てはいられません**。", en: "However, competition in the hotel industry is only going to get tougher from here on, so we can't afford to rest easy." },
-          { cont: true, ja: "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。", en: "From now on, we need to strive for even better service than ever before." },
+          { cont: true, ja: "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。", en: "In the years ahead, we need to strive for even better service than ever before." },
           { cont: true, ja: "ホテルのために、お客様のために、力を合わせて、がんばりましょう。", en: "For the hotel and for our guests, let's work together and do our best." },
         ],
       },
@@ -36,9 +36,9 @@ TRY.registerChapter({
           usage: { ja: "「留学生として」「旅行用として」のように、{資格|しかく}・{用途|ようと}などを言うときに使う。", en: "Use this when you state a qualification, use or the like, as in “留学生として” and “旅行用として”." },
           forms: ["[N] + として"],
           examples: [
-            { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you've got a business trip next week?\nB: Yeah. It turns out I'm going to the Singapore branch as a stand-in for the department manager." },
-            { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your responsibilities as working professionals." },
-            { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of a night or so, so it's very convenient." },
+            { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you've got a business trip next week?\nB: Yeah. I'm being sent to the Singapore branch as a stand-in for the department manager." },
+            { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with the awareness that you are now working professionals." },
+            { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of about one night, which makes it very convenient." },
             { ja: "{当|とう}ホテルではお{支払|しはら}いのときにサービス料として10%いただきます。", en: "At this hotel, we add 10% as a service charge when you pay." },
           ],
           deepDive: "**〜として** names the role, status or function in which someone or something acts: *as*. 部長の代理として行く (*go as the manager's stand-in*), 記念として (*as a souvenir*). It answers *in what capacity?* and is neutral in register.\n\nBefore a noun it needs の: 教師としての経験 (*experience as a teacher*). **Nとしては** gives a standpoint: 担当者としては賛成できない (*speaking as the one in charge, I can't agree*). **AとしてもBとしても** means *both as A and as B*. With an object, **N₁をN₂とする** (#16) sets up a role: 田中さんをリーダーとして (*with Tanaka as leader*).\n\nCompare:\n- **〜にとって**: *for, from the standpoint of*, followed by an evaluation: 学生にとって大切な問題 (*an issue that matters to students*).\n- **〜にしては** (#41): *for a ~, unexpectedly*: 初心者にしては上手だ (*surprisingly good for a beginner*).\n- **〜としても** (#137): after a clause it means *even if*: 急いだとしても間に合わない (*even if we hurried, we wouldn't make it*). A noun before it means a role; a clause means a supposition.\n\nPitfall: ✗子どもとしてこの本は難しすぎる. として names the role in which someone acts; how something affects someone takes にとって: 子どもにとって.\n\nJLPT cue: a job title or role noun (代表, 専門家, 留学生) before the blank and a verb of acting (活躍する, 参加する, 働く) after it.",
@@ -53,7 +53,7 @@ TRY.registerChapter({
                 {
                   q: "私は＿＿として大学院で{経済|けいざい}を研究しながら、週に3回、＿＿として日本人にタイ語を教えている。",
                   answer: ["研究生", "{教師|きょうし}"],
-                  en: "I'm doing research in economics at graduate school as a research student, and three times a week I also work as a teacher, teaching Thai to Japanese people.",
+                  en: "While researching economics at graduate school as a research student, I also teach Thai to Japanese people three times a week as a teacher.",
                   why: { en: "Doing research at a graduate school is the role of a 研究生, and teaching Thai is the role of a 教師 (#22). 客 and スタッフ belong to the shop in item 2." },
                 },
                 {
@@ -80,7 +80,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "{高齢者|こうれいしゃ}でも、働ける{限|かぎ}りは働きたいと思っている人が多い。", en: "Even among the elderly, many people want to keep working as long as they can." },
-            { ja: "練習のやり方を変えない{限|かぎ}り、{優勝|ゆうしょう}は{無理|むり}だとコーチに言われた。", en: "The coach told us that unless we change the way we practice, winning the championship is impossible." },
+            { ja: "練習のやり方を変えない{限|かぎ}り、{優勝|ゆうしょう}は{無理|むり}だとコーチに言われた。", en: "The coach told us that unless we changed the way we practiced, there was no way we could win the championship." },
             { ja: "仕事をしている{限|かぎ}り、{嫌|いや}なことももちろんあるが、そこから{学|まな}ぶことも多い。", en: "As long as you have a job, there will of course be unpleasant things too, but you also learn a lot from them." },
             { ja: "母は「体が{丈夫|じょうぶ}な{限|かぎ}り、一人{暮|ぐ}らしを続ける」と私に言った。", en: "My mother told me, “As long as I'm in good health, I'll go on living on my own.”" },
           ],
@@ -91,7 +91,7 @@ TRY.registerChapter({
               examples: [
                 { ja: "私が知っている{限|かぎ}りでは、電気{製品|せいひん}はこの店がいちばん安いです。", en: "As far as I know, this store has the lowest prices on electrical appliances." },
                 { ja: "調べた{限|かぎ}りでは、日本語を勉強するにはこの学校がいちばんいい。", en: "As far as I've been able to find out, this school is the best for studying Japanese." },
-                { ja: "{同僚|どうりょう}から聞いた{限|かぎ}りでは、今度の部長は仕事に{厳|きび}しいらしいよ。", en: "From what a coworker told me, the new department manager is supposed to be very demanding when it comes to work." },
+                { ja: "{同僚|どうりょう}から聞いた{限|かぎ}りでは、今度の部長は仕事に{厳|きび}しいらしいよ。", en: "From what I've heard from a coworker, the new department manager is supposed to be really strict about work." },
               ],
             },
           ],
@@ -123,7 +123,7 @@ TRY.registerChapter({
                   q: "大きなミスを（　）{限|かぎ}り、日本チームにも{勝|か}つチャンスは十分にあります。",
                   options: ["する", "しない"],
                   answer: 1,
-                  en: "As long as they don't make any big mistakes, the Japanese team has every chance of winning too.",
+                  en: "As long as they don't make any big mistakes, the Japanese team has a good chance of winning too.",
                   why: { en: "The chance holds as long as there are no big mistakes: ミスをしない限り." },
                 },
                 {
@@ -149,7 +149,7 @@ TRY.registerChapter({
             { ja: "「する」→「せざるを{得|え}ない」", en: "する becomes せざるを得ない.", gen: true },
           ],
           examples: [
-            { ja: "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert." },
+            { ja: "{台風|たいふう}{接近|せっきん}のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, the organizers had no choice but to cancel the open-air concert." },
             { ja: "会社からの{転勤|てんきん}{命令|めいれい}には{従|したが}わざるを{得|え}ないと考える人が多いらしい。", en: "Apparently many people think they have no choice but to obey a transfer order from their company." },
             { ja: "日本は{食料|しょくりょう}を{輸入|ゆにゅう}に{頼|たよ}らざるを{得|え}ない{状態|じょうたい}だ。", en: "Japan is in a situation where it has no choice but to rely on imports for its food." },
             { ja: "{首相|しゅしょう}の{発言|はつげん}は{国民|こくみん}{感情|かんじょう}を{無視|むし}したものと言わざるを{得|え}ない。", en: "I have to say that the prime minister's remarks disregarded public sentiment." },
@@ -266,7 +266,7 @@ TRY.registerChapter({
                   q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。",
                   options: ["はともかく", "を{問|と}わず"],
                   answer: 0,
-                  en: "Even at a cheap hotel — never mind a bathtub — I'd be in trouble if there were no shower.",
+                  en: "Even at a cheap hotel, I can do without a bathtub, but not having a shower would be a problem.",
                   why: { en: "A bathtub is set aside as not essential; the point is the shower: お風呂はともかく. を問わず needs a noun covering a range." },
                 },
                 {
@@ -326,7 +326,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{姉|あね}はぼくより10歳年上で、小さいときからいろいろ{世話|せわ}をしてくれたので、姉というより母親のような{存在|そんざい}だ。", en: "My sister is ten years older than me and has looked after me in all sorts of ways since I was little, so she's more like a mother than a sister." },
             { ja: "『{星|ほし}の{王子|おうじ}さま』は子ども{向|む}けというより、大人のための本だ。", en: "The Little Prince is not so much a children's book as a book for adults." },
-            { ja: "この絵は絵というより、まるで写真のようだ。", en: "This painting looks less like a painting than like a photograph." },
+            { ja: "この絵は絵というより、まるで写真のようだ。", en: "This painting looks more like a photograph than a painting." },
             { ja: "この町は昔はにぎわっていたが、今は{訪|おとず}れる人も少なく、静かというよりさびしい町になってしまった感じがする。", en: "This town used to be lively, but now few people visit, and it feels like it's become not so much quiet as desolate." },
           ],
           deepDive: "**AというよりB** says that B describes something better than A: *not so much A as B*, *more B than A*. A isn't wrong, only too weak or not quite right: 涼しいというより寒い (*it's not so much cool as cold*). むしろ strengthens it (AというよりむしろB); Aというよりは is a common variant.\n\nPlain form + というより; な-adjectives and nouns drop だ: 静かというより, 姉というより. Because it compares two labels for one thing, A and B describe the same subject, and B is usually the stronger or more telling word: 趣味というより仕事だ (*it's more a job than a hobby*).\n\nCompare:\n- **AよりBのほうが**: compares two different things: 犬より猫のほうが好き (*I like cats better than dogs*).\n- **〜というか** (casual): hesitant *or rather, how should I put it*: 優しいというか、甘いというか (*kind, or maybe just soft*).\n- **〜というものではない** (#25): rejects a general belief rather than refining a description.\n\nPitfall: ✗彼は日本人というより、私はアメリカ人だ. Both halves need the same subject: 彼は日本人というより、アメリカ人のようだ (*he seems more American than Japanese*).\n\nJLPT cue: two descriptions of one subject in a row, the second more accurate or stronger than the first.",
@@ -340,7 +340,7 @@ TRY.registerChapter({
               items: [
                 { q: "{在庫|ざいこ}がないので、今{注文|ちゅうもん}しても届くのは3か月後だ＿＿。", answer: "ということだ", en: "Apparently it's out of stock, so even if you order now, it won't arrive for three months.", why: { en: "At the end of the sentence the blank passes on what someone has said: ということだ, “they say.” というものではない would deny the three-month wait instead of reporting it." } },
                 { q: "日本料理で有名なもの＿＿、てんぷらでしょう。", answer: "といえば", en: "Speaking of famous Japanese dishes, it would have to be tempura.", why: { en: "A topic is raised (famous Japanese dishes) and the first example it brings to mind follows: といえば, “speaking of.”" } },
-                { q: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として{活躍|かつやく}しています。", answer: "というより", en: "She debuted as a singer, but lately she's been getting more TV drama work, and these days she's busy as an actress rather than a singer.", why: { en: "The more accurate label 女優 follows the blank, so 歌手 is the less apt one: 歌手というより女優 (#28)." } },
+                { q: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として{活躍|かつやく}しています。", answer: "というより", en: "She debuted as a singer, but lately she's been getting more TV drama work, and these days she's working more as an actress than as a singer.", why: { en: "The more accurate label 女優 follows the blank, so 歌手 is the less apt one: 歌手というより女優 (#28)." } },
                 { q: "顔がよければ、{俳優|はいゆう}になれる＿＿。", answer: "というものではない", en: "Being good-looking doesn't automatically mean you can become an actor.", why: { en: "A condition with 〜ば (顔がよければ) is denied as a general rule: というものではない (#25). ということだ would affirm it." } },
               ],
             },
@@ -360,7 +360,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "A：ちょっと休んだほうがいいですよ。\nB：この仕事を明日までに{仕上|しあ}げなきゃならないので、のんびり休んではいられないんですよ。", en: "A: You should take a little break.\nB: I have to finish this job by tomorrow, so I can't afford to sit back and rest." },
-            { ja: "新入社員が入って、{君|きみ}たちも{先輩|せんぱい}になるのですから、いつまでも{甘|あま}えてはいられませんよ。", en: "New employees have joined, and you're going to be their seniors now, so you can't keep expecting others to look after you forever." },
+            { ja: "新入社員が入って、{君|きみ}たちも{先輩|せんぱい}になるのですから、いつまでも{甘|あま}えてはいられませんよ。", en: "New employees have joined, and you're going to be their seniors now, so you can't go on depending on others forever." },
             { ja: "A：朝ご飯、ちゃんと食べてから行きなさい。\nB：{遅刻|ちこく}しちゃうよ。ご飯なんか食べていられないよ。", en: "A: Eat your breakfast properly before you go.\nB: I'm going to be late! I can't sit around eating breakfast!" },
             { ja: "いつまでも{夢|ゆめ}見る少女じゃいられないよね、私たち。", en: "We can't stay starry-eyed girls forever, can we?" },
           ],
@@ -406,7 +406,7 @@ TRY.registerChapter({
           bank: ["てはいられない", "かねない", "ざるを{得|え}ない", "というものではありません"],
           items: [
             { q: "{材料費|ざいりょうひ}が上がっているので、うちのパンやケーキも{値上|ねあ}げせ＿＿んです。", answer: "ざるを{得|え}ない", en: "Ingredient costs are going up, so we have no choice but to raise the prices of our bread and cakes too." },
-            { q: "そんな大変な仕事を{頼|たの}んだら、会社を{辞|や}めると言い＿＿よ。", answer: "かねない", en: "If you ask them to do a job that tough, they could well say they're going to quit the company." },
+            { q: "そんな大変な仕事を{頼|たの}んだら、会社を{辞|や}めると言い＿＿よ。", answer: "かねない", en: "If you ask them to do a job that tough, they could well say they're going to quit." },
             { q: "作文はたくさん書けばいい＿＿。考えをまとめて、意味のある内容にすることが大切です。", answer: "というものではありません", en: "Writing compositions isn't simply a matter of writing a lot. What matters is organizing your thoughts and saying something meaningful." },
             { q: "A：仕事、探しているんだって？\nB：うん、もう30歳だし、いつまでも{夢|ゆめ}を{追|お}いかけ＿＿からね。", answer: "てはいられない", en: "A: I hear you're looking for a job?\nB: Yeah, I'm already 30, so I can't keep chasing my dreams forever." },
           ],
@@ -451,7 +451,7 @@ TRY.registerChapter({
             q: "バイオリンは{弾|ひ}く（　）歌うような{感覚|かんかく}が大事です。なぜなら、バイオリンの{音色|ねいろ}は人の声に近いと言われていますから。",
             options: ["として", "といえば", "というより", "というと"],
             answer: 2,
-            en: "With the violin, what matters is feeling less like you're playing than like you're singing. That's because the violin's tone is said to be close to the human voice.",
+            en: "With the violin, it's important to feel as if you're singing rather than playing. That's because the violin's tone is said to be close to the human voice.",
             why: { en: "弾く and 歌う are two ways of describing the same act, and the second is said to fit better: AというよりB. として needs a noun (a role), and といえば／というと bring up a topic by association." },
           },
           {
@@ -486,7 +486,7 @@ TRY.registerChapter({
             q: "A：部長、パソコンの本、ずいぶん{熱心|ねっしん}に読んでますね。\nB：うん。パソコンが使えなかったら何もできないんだから、できないと（　）からね。",
             options: ["言うというものではない", "言いかねない", "言わざるを{得|え}ない", "言ってはいられない"],
             answer: 3,
-            en: "A: You're reading that computer book very intently.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it.",
+            en: "A: You're really absorbed in that computer book.\nB: Yeah. You can't do anything if you can't use a computer, so I can't just go on saying I can't do it.",
             why: { en: "The situation doesn't allow B to keep saying できない, hence the studying: 言ってはいられない. 言わざるを得ない would mean being *forced* to say it, 言いかねない that B *might* say it, and 言うというものではない doesn't fit." },
           },
         ],
@@ -565,7 +565,7 @@ TRY.registerChapter({
               { sp: "F", v: "f", ja: "{関係書類|かんけいしょるい}を持ってきましょうか。" },
               { sp: "M", v: "m", ja: "そうだね。とりあえず私が{先方|せんぽう}に{連絡|れんらく}を取って、場合によっては{東京商事|とうきょうしょうじ}へ行くことにするよ。" },
             ],
-            en: ["A woman and a man are talking. What will the man do right away?", "Section chief, Tokyo Shoji called a little while ago. Apparently there was a problem with the machine we delivered.", "What!? Goto is in charge of that, right? He's away on a business trip right now, isn't he?", "Yes. We can contact him, but I'm not sure whether he can deal with it right away...", "If we're slow, we could lose the deal, so I guess I have no choice but to handle this matter myself.", "Shall I bring the related documents?", "Yes. For now, I'll get in touch with them myself, and if need be, I'll go over to Tokyo Shoji."],
+            en: ["A woman and a man are talking. What will the man do right away?", "Section chief, Tokyo Shoji called a little while ago. Apparently there was a problem with the machine we delivered.", "What!? Goto is in charge of that, right? He's away on a business trip right now, isn't he?", "Yes. We can contact him, but I'm not sure whether he can deal with it right away...", "If we don't move fast, we could lose the deal, so I guess I have no choice but to handle this myself.", "Shall I bring the related documents?", "Yes. For now, I'll get in touch with them myself, and if need be, I'll go over to Tokyo Shoji."],
             options: ["{東京商事|とうきょうしょうじ}に{機械|きかい}を{納入|のうにゅう}する", "{関係書類|かんけいしょるい}を{持|も}ってくる", "{東京商事|とうきょうしょうじ}に{電話|でんわ}する", "{東京商事|とうきょうしょうじ}へ{行|い}く"],
             optionsEn: ["Deliver a machine to Tokyo Shoji", "Bring the related documents", "Call Tokyo Shoji", "Go to Tokyo Shoji"],
             answer: 2,

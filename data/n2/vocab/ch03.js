@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "mental attitude; readiness; the frame of mind a role or situation calls for",
     note: "What you should keep in mind before starting something: 〜としての心構え (the attitude needed as ~), 心構えができている (be mentally prepared). 覚悟 is resolve to face something hard; 心得 is know-how or the rules one should follow.",
     rx: ["こころかまえ", "しんがまえ", "こころがまい"],
-    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "Now that you are all becoming part of this hotel, I'd like to talk to you about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{入社|にゅうしゃ}{前|まえ}に、{社会人|しゃかいじん}としての**{心構|こころがま}え**について{先輩|せんぱい}に{話|はなし}を{聞|き}いた。", en: "Before joining the company, I asked someone a few years ahead of me about the attitude you need as a working adult.", alt: ["{心当|こころあ}たり", "{心細|こころぼそ}さ", "{構造|こうぞう}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "a member (of a group, team or family)",
     note: "Usually in 〜の一員 (a member of ~), 〜の一員となる / として: チームの一員, 社会の一員. It stresses belonging to the whole; メンバー is the casual loanword. Pets are often called 家族の一員.",
     rx: ["いちえん", "いっいん", "ひといん"],
-    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "Now that you are all becoming part of this hotel, I'd like to talk to you about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{我|わ}が{家|や}では、{犬|いぬ}も{大切|たいせつ}な{家族|かぞく}の**{一員|いちいん}**だ。", en: "In our house, the dog is an important member of the family too.", alt: ["{一面|いちめん}", "{一同|いちどう}", "{一種|いっしゅ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "evaluation; assessment; (high) regard, recognition",
     note: "Judging the value of something, often positively: 高く評価する (think highly of), 評価が高い, 評価を受ける, 人事評価 (performance review). 評判 is reputation — what people say about someone.",
     rx: ["ひょうが", "ひょか", "へいか"],
-    book: { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを**{評価|ひょうか}**され、{愛|あい}されてきました。", en: "Our ABK Hotel has long been valued and loved by many guests for the high quality of its service.", at: "ch/3" },
+    book: { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを**{評価|ひょうか}**され、{愛|あい}されてきました。", en: "We at ABK Hotel have long been valued and loved by many guests for the high quality of our service.", at: "ch/3" },
     ex: [
       { ja: "{彼女|かのじょ}の{研究|けんきゅう}は{海外|かいがい}でも{高|たか}く**{評価|ひょうか}**されている。", en: "Her research is highly regarded abroad as well.", alt: ["{評判|ひょうばん}", "{批判|ひはん}", "{価値|かち}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "pursuit (of a goal such as profit, happiness or quality)",
     note: "Seeking something you want to attain: 利益 / 幸福 / 理想を追求する. Two homophones are easy to mix up: 追及 (pressing someone on responsibility: 責任を追及する) and 追究 (inquiring deeply into a truth: 真理を追究する).",
     rx: ["ついきゅ", "ついぐ", "おいきゅう"],
-    book: { ja: "これからの{時代|じだい}は、今まで以上によいサービスを**{追求|ついきゅう}**する{必要|ひつよう}があります。", en: "From now on, we need to strive for even better service than ever before.", at: "ch/3" },
+    book: { ja: "これからの{時代|じだい}は、今まで以上によいサービスを**{追求|ついきゅう}**する{必要|ひつよう}があります。", en: "In the years ahead, we need to strive for even better service than ever before.", at: "ch/3" },
     ex: [
       { ja: "{企業|きぎょう}は{利益|りえき}を**{追求|ついきゅう}**するだけでなく、{社会|しゃかい}への{責任|せきにん}も{果|は}たすべきだ。", en: "Companies should not only pursue profit but also fulfill their responsibilities to society.", alt: ["{追加|ついか}", "{追跡|ついせき}", "{探検|たんけん}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "awareness (of one's own position, duties or condition); self-awareness",
     note: "Being conscious of something about yourself: 〜としての自覚を持つ (be aware of one's role as ~), 責任を自覚する, 自覚症状 (symptoms you notice yourself). 意識 is consciousness in general; 自信 is self-confidence.",
     rx: ["じがく", "しかく", "じっかく"],
-    book: { ja: "入社後は{企業人|きぎょうじん}としての**{自覚|じかく}**を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your responsibilities as working professionals.", at: "gp/22" },
+    book: { ja: "入社後は{企業人|きぎょうじん}としての**{自覚|じかく}**を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with the awareness that you are now working professionals.", at: "gp/22" },
     ex: [
       { ja: "{親|おや}になって、{初|はじ}めて{責任|せきにん}の{重|おも}さを**{自覚|じかく}**した。", en: "Only after becoming a parent did I become aware of how heavy the responsibility is.", alt: ["{自信|じしん}", "{感覚|かんかく}", "{視覚|しかく}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "degree; extent; level; (after a quantity) about, or so",
     note: "After a number it means “about”: 1泊程度 (a night or so), 30分程度 — a little more formal than ぐらい. As a noun: ある程度 (to some extent), 程度の問題 (a matter of degree), 被害の程度 (extent of the damage).",
     rx: ["ていと", "てど", "ほどど"],
-    book: { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}**{程度|ていど}**の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of a night or so, so it's very convenient.", at: "gp/22" },
+    book: { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}**{程度|ていど}**の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of about one night, which makes it very convenient.", at: "gp/22" },
     ex: [
       { ja: "{健康|けんこう}のために、{毎日|まいにち}30{分|ぷん}**{程度|ていど}**の{散歩|さんぽ}を{続|つづ}けている。", en: "For my health, I keep up a walk of about thirty minutes every day.", alt: ["{限度|げんど}", "{制度|せいど}", "{速度|そくど}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "colleague; coworker",
     note: "Someone who works at the same place, usually at a similar level: 職場の同僚. Your boss is 上司, people under you 部下, and those who joined before you 先輩. 同級生 is a classmate.",
     rx: ["どうりょ", "とうりょう", "どうろう"],
-    book: { ja: "**{同僚|どうりょう}**から聞いた{限|かぎ}りでは、今度の部長は仕事に{厳|きび}しいらしいよ。", en: "From what a coworker told me, the new department manager is supposed to be very demanding when it comes to work.", at: "gp/23" },
+    book: { ja: "**{同僚|どうりょう}**から聞いた{限|かぎ}りでは、今度の部長は仕事に{厳|きび}しいらしいよ。", en: "From what I've heard from a coworker, the new department manager is supposed to be really strict about work.", at: "gp/23" },
     ex: [
       { ja: "{仕事|しごと}が{間|ま}に{合|あ}わず、{同|おな}じ{部署|ぶしょ}の**{同僚|どうりょう}**に{手伝|てつだ}ってもらった。", en: "I couldn't finish my work in time, so I got a coworker in the same department to help me.", alt: ["{同様|どうよう}", "{同感|どうかん}", "{同情|どうじょう}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "approach; drawing near",
     note: "A formal word, typical of news, for something moving closer: 台風の接近, 〜に接近する. In everyday speech, 近づく. It can also describe a person approaching someone, often with an ulterior motive.",
     rx: ["せつきん", "しょうきん", "せっこん"],
-    book: { ja: "{台風|たいふう}**{接近|せっきん}**のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert.", at: "gp/24" },
+    book: { ja: "{台風|たいふう}**{接近|せっきん}**のため、{野外|やがい}コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, the organizers had no choice but to cancel the open-air concert.", at: "gp/24" },
     ex: [
       { ja: "{大型|おおがた}の{台風|たいふう}が{九州|きゅうしゅう}に**{接近|せっきん}**している。", en: "A large typhoon is approaching Kyushu.", alt: ["{接触|せっしょく}", "{直接|ちょくせつ}", "{最近|さいきん}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "outdoors; open-air; out in the fields",
     note: "Outside, in the open: 野外コンサート, 野外活動 (outdoor activities), 野外で. 屋外 is simply “outside a building” (opposite 屋内); 野外 suggests open ground or nature. 郊外 is the suburbs.",
     rx: ["のがい", "やそと", "やかい"],
-    book: { ja: "{台風|たいふう}{接近|せっきん}のため、**{野外|やがい}**コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, they had no choice but to cancel the open-air concert.", at: "gp/24" },
+    book: { ja: "{台風|たいふう}{接近|せっきん}のため、**{野外|やがい}**コンサートは中止せざるを{得|え}なくなった。", en: "Because a typhoon was approaching, the organizers had no choice but to cancel the open-air concert.", at: "gp/24" },
     ex: [
       { ja: "{夏|なつ}には{公園|こうえん}で**{野外|やがい}**{映画|えいが}{会|かい}が{開|ひら}かれる。", en: "In summer, open-air movie screenings are held in the park.", alt: ["{郊外|こうがい}", "{意外|いがい}", "{例外|れいがい}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "being active (and successful); playing an active role; great work",
     note: "Doing notable work in a field: 〜として活躍する, 海外で活躍する選手, ご活躍をお祈りします (I wish you every success). It implies visible success, unlike plain 活動 (activity).",
     rx: ["かつよう", "かっやく", "かつやっく"],
-    book: { ja: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として**{活躍|かつやく}**しています。", en: "She debuted as a singer, but lately she's been getting more TV drama work, and these days she's busy as an actress rather than a singer.", at: "gp/28" },
+    book: { ja: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として**{活躍|かつやく}**しています。", en: "She debuted as a singer, but lately she's been getting more TV drama work, and these days she's working more as an actress than as a singer.", at: "gp/28" },
     ex: [
       { ja: "{日本人|にほんじん}{選手|せんしゅ}が{海外|かいがい}のリーグで**{活躍|かつやく}**している。", en: "Japanese players are thriving in leagues overseas.", alt: ["{活用|かつよう}", "{活気|かっき}", "{跳躍|ちょうやく}"] },
     ] },
@@ -467,7 +467,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "depend on (someone's kindness); act spoiled; take up (an offer)",
     note: "〜に甘える: 親に甘える (lean on one's parents), 子どもが甘える (a child wants attention). お言葉に甘えて is the polite way to accept an offer (“I'll take you up on that”). To spoil someone is 甘やかす.",
     rx: ["かんえる", "あまいる", "うまえる"],
-    book: { ja: "新入社員が入って、{君|きみ}たちも{先輩|せんぱい}になるのですから、いつまでも**{甘|あま}え**てはいられませんよ。", en: "New employees have joined, and you're going to be their seniors now, so you can't keep expecting others to look after you forever.", at: "gp/29" },
+    book: { ja: "新入社員が入って、{君|きみ}たちも{先輩|せんぱい}になるのですから、いつまでも**{甘|あま}え**てはいられませんよ。", en: "New employees have joined, and you're going to be their seniors now, so you can't go on depending on others forever.", at: "gp/29" },
     ex: [
       { ja: "では、お{言葉|ことば}に**{甘|あま}えて**、お{先|さき}に{失礼|しつれい}します。", en: "Well then, I'll take you up on your kind offer and leave first.", alt: ["{甘|あま}やかして", "{与|あた}えて", "{控|ひか}えて"] },
     ] },
@@ -626,7 +626,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "business dealings; transaction; trade; a deal",
     note: "Buying and selling between businesses: 〜と取り引きがある (do business with), 取り引きが成立する, 株の取り引き. Also written 取引 (as in 取引先 “client”). It can also mean a bargain between parties.",
     rx: ["とりびき", "しゅいん", "とりひっき"],
-    book: { ja: "遅れると**{取|と}り{引|ひ}き**がだめになりかねないし、この{件|けん}は私がなんとかせざるを{得|え}ないかな。", en: "If we're slow, we could lose the deal, so I guess I have no choice but to handle this matter myself.", at: "ch/3/review" },
+    book: { ja: "遅れると**{取|と}り{引|ひ}き**がだめになりかねないし、この{件|けん}は私がなんとかせざるを{得|え}ないかな。", en: "If we don't move fast, we could lose the deal, so I guess I have no choice but to handle this myself.", at: "ch/3/review" },
     ex: [
       { ja: "あの{会社|かいしゃ}とは{十年|じゅうねん}{以上|いじょう}**{取|と}り{引|ひ}き**がある。", en: "We've been doing business with that company for more than ten years.", alt: ["{値引|ねび}き", "{引|ひ}き{分|わ}け", "{手続|てつづ}き"] },
     ] },
