@@ -2233,15 +2233,15 @@ TRY.registerLesson({
       "大切[[かもしれません|b]]。"
      ],
      "tr": [
-      "We asked Nguyen Van Tan of the calligraphy club, Wang Meilin of the tea ceremony club, and Jun Kimura of the baseball club to talk about the good things that came from doing club activities and the points to watch out for when choosing a club.",
+      "We asked Nguyen Van Tan-san of the calligraphy club, Wang Meilin-san of the tea ceremony club, and Kimura Jun-san of the baseball club to talk about what has been good about doing club activities and what to watch out for when choosing a club.",
       "What are the good points of club activities?",
-      "Nguyen: What I think is the best point is that you can make friends. Everyone is interested in calligraphy, so I feel it's easy to get close.",
+      "Nguyen: What I think is the best thing about it is that you can make friends. Everyone is interested in calligraphy, so I feel like it's easy to become friends.",
       "Wang: I think so too. There are people from all kinds of departments and years in the club, so I've gotten to know a wider range of people. Another good thing was that my understanding of Japanese culture deepened through the tea ceremony club's activities.",
-      "Kimura: Being able to get management experience is also one of the good points. In the baseball club, we all think up training menus and practice methods together in order to win games. I think the experience of managing a group in club activities will be useful when I get a job in the future, too.",
-      "What are the points you should watch out for when choosing a club?",
+      "Kimura: Another good point is that you can get management experience. In the baseball club, we all work out training regimens and practice methods together so we can win games. I think the experience of managing a group in club activities will be useful when I get a job in the future, too.",
+      "What should you watch out for when choosing a club?",
       "Wang: What you should pay the most attention to when choosing a club is time. The number of meetings and the length of practices differ from club to club. You should probably look at the club's schedule and think about how to balance it with your studies and part-time job.",
-      "Kimura: There's also the issue of money. In the case of the baseball club, money goes to all kinds of things, like equipment and games. I think you also need to find out ahead of time roughly how much it will cost for a year.",
-      "Nguyen: Another thing that can be an issue is relationships. There are clubs where the hierarchy between seniors and juniors is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
+      "Kimura: There's also the issue of money. In the baseball club, for example, you have to pay for all kinds of things, like equipment and games. I think you also need to find out ahead of time roughly how much it will cost for a year.",
+      "Nguyen: Another thing that can be an issue is relationships between members. There are clubs where the hierarchy between senior and junior members is strict, and clubs where it isn't so strict. Both have good points and bad points, but it may be important to join a club that suits you."
      ],
      "headTr": [
       "Club Activities Roundtable"
@@ -2296,7 +2296,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "初めに質問の答えを一言でまとめて書く。{強調構文|きょうちょうこうぶん}を使うと、読み手に意見がわかりやすくなる。……(a)",
-        "tr": "First, sum up the answer to the question in a few words. Using an emphatic construction makes the opinion easier for the reader to understand. ……(a)"
+        "tr": "First, write a one-line summary of your answer to the question. Using an emphatic construction makes the opinion easier for the reader to understand. ……(a)"
        },
        "blocks": [
         {
@@ -2306,7 +2306,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "私が一番いい点だと思う**のは**友達が作れること**です**。",
-           "tr": "What I think is the best point is that you can make friends."
+           "tr": "What I think is the best thing about it is that you can make friends."
           }
          ]
         },
@@ -2328,7 +2328,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "他に問題になる**のは**人間関係**です**。",
-           "tr": "Another thing that can be an issue is relationships."
+           "tr": "Another thing that can be an issue is relationships between members."
           }
          ]
         }
@@ -2338,7 +2338,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "様々な{文末|ぶんまつ} (sentence-final) 表現を使って、文の形にバリエーションを持たせる。表現によって強さが変わるので注意する。……(b)",
-        "tr": "Use various sentence-final expressions to give variety to the form of your sentences. Be careful, because the strength changes depending on the expression. ……(b)"
+        "tr": "Vary the form of your sentences by using a range of sentence-final expressions. Be careful: how strong a statement sounds depends on the expression. ……(b)"
        },
        "blocks": [
         {
@@ -2423,7 +2423,7 @@ TRY.registerLesson({
        "n": "(2)",
        "text": {
         "ja": "そのトピックについて、一人ずつ「よい点」と「気をつけるべき点」を話してください。記事を書くために、メモを取ったり{録音|ろくおん} (recording) したりしましょう。",
-        "tr": "On that topic, have each person talk about its \"good points\" and \"points to watch out for.\" Take notes or make a recording so you can write the article."
+        "tr": "Take turns talking about the \"good points\" of that topic and the \"points to watch out for.\" Take notes or make a recording so you can write the article."
        }
       }
      ]
@@ -2441,7 +2441,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "メモを見たり録音を聞いたりしながら、一人ずつ座談会の記事を書きなさい。下の文法や表現を使いなさい。（600〜700字）",
-      "tr": "Looking at your notes and listening to the recording, each of you write an article about the roundtable. Use the grammar and expressions below. (600–700 characters)"
+      "tr": "Using your notes and the recording, write your own article about the roundtable. Use the grammar and expressions below. (600–700 characters)"
      }
     },
     {
@@ -2475,7 +2475,7 @@ TRY.registerLesson({
    "skill": "speak",
    "title": {
     "ja": "{困|こま}った時には",
-    "tr": "When You're in Trouble"
+    "tr": "When You Need Help"
    },
    "page": 118,
    "blocks": [
@@ -2602,7 +2602,7 @@ TRY.registerLesson({
            "who": "Aの{先輩|せんぱい}",
            "text": {
             "ja": "{後輩|こうはい}に相談されるので、\nアドバイスをしなさい。",
-            "tr": "A junior student comes to you for advice. Give them advice."
+            "tr": "A junior student comes to you for advice. Give them some."
            }
           }
          ]
@@ -2781,25 +2781,25 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "そうだなあ。僕なら進学を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし。",
-       "tr": "Let's see. I think I'd choose grad school. Once you start working, it's hard to quit your job."
+       "tr": "Let's see. If it were me, I'd probably go with grad school. Once you start working, it's hard to quit."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "確かにそうですね。",
-       "tr": "That's certainly true."
+       "tr": "That's true."
       },
       {
        "sp": "グ",
        "v": "m",
        "ja": "お金の問題もあるから、ご両親とも相談したほうがいいよ。でも、何と言っても大切なのは、ジョージが本当にやりたいことが何かっていうことだと思うよ。",
-       "tr": "There's also the question of money, so you should talk it over with your parents too. But above all, I think what matters is what you really want to do, George."
+       "tr": "There's also the question of money, so you should talk it over with your parents too. But the most important thing, I think, is what you really want to do, George."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**",
-       "tr": "You're exactly right. I'll think about it a little more based on the advice you gave me. Thank you very much."
+       "tr": "You're absolutely right. I'll think it over a bit more based on the advice you gave me. Thank you so much."
       },
       {
        "sp": "グ",
@@ -2964,14 +2964,14 @@ TRY.registerLesson({
        "side": "b",
        "text": {
         "ja": "そうだなあ。僕なら進学を選ぶかな。一度働き\n始めたら、なかなか仕事はやめられないし。",
-        "tr": "Let's see. I think I'd choose grad school. Once you start working, it's hard to quit your job."
+        "tr": "Let's see. If it were me, I'd probably go with grad school. Once you start working, it's hard to quit."
        }
       },
       {
        "side": "a",
        "text": {
         "ja": "確かにそうですね。",
-        "tr": "That's certainly true."
+        "tr": "That's true."
        }
       },
       {
@@ -2990,7 +2990,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "そのとおりですね。**先輩にいただいたアドバイスを**\n**もとに、もう少し考えてみます。**\n**ありがとうございました。**",
-        "tr": "You're exactly right. I'll think about it a little more based on the advice you gave me. Thank you very much."
+        "tr": "You're absolutely right. I'll think it over a bit more based on the advice you gave me. Thank you so much."
        }
       }
      ]
@@ -3133,13 +3133,13 @@ TRY.registerLesson({
          "sp": "先輩",
          "v": "m",
          "ja": "そうだなあ。{{僕なら{進学|しんがく}を選ぶかな。一度働き始めたら、なかなか仕事はやめられないし}}。",
-         "tr": "Let's see. I think I'd choose grad school. Once you start working, it's hard to quit your job."
+         "tr": "Let's see. If it were me, I'd probably go with grad school. Once you start working, it's hard to quit."
         },
         {
          "sp": "あなた",
          "v": "m",
          "ja": "確かにそうですね。",
-         "tr": "That's certainly true."
+         "tr": "That's true."
         },
         {
          "sp": "先輩",
@@ -3151,7 +3151,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❺そのとおりですね。**先輩にいただいたアドバイスをもとに、もう少し考えてみます。ありがとうございました。**",
-         "tr": "You're exactly right. I'll think about it a little more based on the advice you gave me. Thank you very much."
+         "tr": "You're absolutely right. I'll think it over a bit more based on the advice you gave me. Thank you so much."
         }
        ]
       }
@@ -3219,7 +3219,7 @@ TRY.registerLesson({
          "who": "Aの友達",
          "text": {
           "ja": "友達に相談されるので、\nアドバイスをしなさい。",
-          "tr": "A friend comes to you for advice. Give them advice."
+          "tr": "A friend comes to you for advice. Give them some."
          }
         }
        ]
@@ -4503,7 +4503,7 @@ TRY.registerLesson({
        "sp": "レ",
        "v": "m",
        "ja": "へえ、{洗|あら}いに行か__ずに済む__から、いいですね。",
-       "tr": "Oh, that's nice. It saves you from having to go wash your hands."
+       "tr": "Oh, that's nice. That way you don't have to go wash your hands."
       },
       {
        "sp": "店",
@@ -4696,7 +4696,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "自分だけ休むのは{同僚|どうりょう}に申し訳ないし、自分がいないとできない仕事があるから、休むと{周|まわ}りに{迷惑|めいわく}がかかると考えるからです。",
-        "tr": "Because they feel bad toward their coworkers about being the only one taking time off, and they think that since some work can't get done without them, being away would cause trouble for the people around them."
+        "tr": "Because they feel it wouldn't be fair to their coworkers if they were the only one taking time off, and they think that since there's work that can't get done without them, being away would cause trouble for the people around them."
        }
       },
       {
@@ -4727,7 +4727,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "あなたの国では、会社で2〜3週間の長い休みを取ることができますか。",
-        "tr": "In your country, can people take a long vacation of two or three weeks off from work?"
+        "tr": "In your country, can people take a long vacation of two or three weeks from work?"
        }
       },
       {
@@ -4769,7 +4769,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "インターンシップ先の社員の人にどうして長い休みを取らないのか聞いたら、「自分だけ休むのは{同僚|どうりょう}に申し訳ない」とか、「自分がいないとできない仕事があるから、{周|まわ}りに{迷惑|めいわく}がかかる」と言っていました。昔と比べたらずいぶん休みが取りやすくなったそうですが、たいていの人は1日の休みを時々取るだけだそうです。長い休みを取れ__ば__家族とゆっくり__旅行できるのに__、と思いますが、日本ではプライベートより仕事を優先する人が多いようです。",
-       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
+       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “It wouldn't be fair to my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
       },
       {
        "sp": "",
