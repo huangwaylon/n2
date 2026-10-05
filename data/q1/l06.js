@@ -477,14 +477,14 @@ TRY.registerLesson({
      "tr": [
       "Japan's system of English education has begun to change dramatically, with the aim of raising Japanese people who can communicate in English. English classes in elementary schools have already begun nationwide, and since English education is expected to start even earlier from now on, people are becoming more and more interested in early English education. What do today's university students think about this situation?",
       "I am in favor of early English education. There are three reasons.",
-      "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language while you are a child and can absorb anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?",
+      "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language as a child, while you can still soak up anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?",
       "Second, children don't feel any resistance to English. If they learn through games and songs in elementary school, they can speak English without acting shy. Also, because they try to use new words as soon as they learn them, they get used to the language quickly. In general, the older people get, the more conscious they become of how others see them and the more they fear making mistakes. That's why I think it's important to start learning English before those feelings develop.",
       "Third, children can develop an international outlook early. It is said that learning a foreign language as a child and realizing that there are cultures different from your own makes it easier to accept different values. I think that if children come into contact with foreign cultures and customs through English while they're in elementary school and broaden their horizons, it could widen their chances of working on the international stage in the future.",
       "For these reasons, early English education has many advantages, so we should actively promote it.",
       "I am against early English education. I will give three reasons.",
       "First, it has a bad effect on the development of Japanese, the children's native language. If children start studying English while their Japanese is still inadequate, they may end up unable to use either language properly. They may also be unable to express their thoughts well in either language and end up confused. So shouldn't children wait to learn English until they can convey their own thoughts and feelings logically in Japanese?",
       "Also, few children study English of their own free will. In my case too, when I was a child my parents told me to go to an English cram school, and I was made to study against my will. Speaking from that experience, there is no point in forcing children who don't want to learn English to do it. It only increases the number of children who dislike English. I think it's better to wait until children start to become interested in English.",
-      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but once it was decided they would be going to Canada for work, they started studying in earnest and improved astonishingly fast. This example also shows that there's no need to go out of our way to have children learn English while they're young.",
+      "Furthermore, it's not as though English is needed in everyday life in Japan. Even if children learn English when they're young, they will probably forget it quickly if they don't use it regularly. I think it's not too late to start studying once English becomes truly necessary. One of my upperclassmen couldn't speak English at all, but once it was decided they would be going to Canada for work, they started studying in earnest and made astonishing progress. This example also shows that there's no need to go to the trouble of learning English as a child.",
       "For the reasons above, I would argue that early English education is not necessarily needed."
      ],
      "headTr": [
@@ -569,7 +569,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "__8歳の子どもに{携帯|けいたい}電話は必要ない__**のではないでしょうか。**\n(X)",
-        "tr": "An eight-year-old child doesn't really need a cell phone, wouldn't you say?"
+        "tr": "An eight-year-old doesn't need a cell phone, wouldn't you say?"
        }
       },
       {
@@ -679,7 +679,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "第一に、言語の習得はある年齢を超えると難しくなるからだ。言語を学ぶ年齢と習得には深い関係があるとよく言われる。スポンジのように何でも吸収できる子どものうちに言語を学び始めれば、楽に習得できる。特に発音の習得に効果的だ。例えば、多くの日本人が苦手な英語の「L」と「R」の発音も、小さい時から学べば、よくなるのではないだろうか。",
-          "tr": "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language while you are a child and can absorb anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?"
+          "tr": "First, acquiring a language becomes difficult once you pass a certain age. It is often said that there is a close connection between the age at which you learn a language and how well you acquire it. If you start learning a language as a child, while you can still soak up anything like a sponge, you can acquire it easily. It is especially effective for acquiring pronunciation. For example, wouldn't even the English “L” and “R” sounds, which many Japanese people find difficult, come out better if children learned them from an early age?"
          }
         },
         {
@@ -961,7 +961,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "そうですね。私の世代**からみると**、信じられないほどですよ。",
-           "tr": "They are. From my generation's point of view, it's almost unbelievable."
+           "tr": "They are. From my generation's point of view, they're almost unbelievably short."
           }
          ]
         },
@@ -1026,7 +1026,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "All three mean *from the standpoint of N*, but each takes a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*through a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's probably a cold*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば forms (からみれば, からすれば). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
+     "deepDive": "All three mean *from the standpoint of N*; the book pairs each with a different kind of N:\n\n- **からみると**: a person or group whose eyes the speaker borrows: 外国人の目からみると (*through a foreigner's eyes*, Reading 1).\n- **からすると**: evidence for a judgment, usually closed by ようだ, らしい or だろう: この症状からすると、風邪だろう (*judging from these symptoms, it's probably a cold*). In everyday use it also takes a person: 親からすると (*from a parent's point of view*).\n- **からいうと**: one aspect out of several, often with 面 or 点: 値段の点からいうと (*in terms of price*). It can't take a person.\n\nWriting also uses the ば forms (からみれば, からすれば). TRY! N2 #60 teaches から見ると, with からいうと and からすると as ＋Plus forms. Pitfall: a source of information takes **Nによると** (L1-9), *according to*, not からいうと."
     },
     {
      "t": "note",
@@ -1177,7 +1177,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**〜のではないだろうか** is a question in form and an opinion in effect: *I'd say ~*. It leaves the reader room to disagree, which is why essays and letters to the editor close their argument with it (Reading 1, line 36; the model composition).\n\n- From formal to casual: のではないでしょうか → のではないだろうか (writing) → んじゃないでしょうか → んじゃない？\n- In speech the pitch decides: 雨じゃない？ with a rise means *isn't it raining?*; said flat, 雨じゃない means *it isn't raining*.\n\nIt is less sure than だろう and far less than **〜に違いない** (Quartet II L9-2), *must be*. Pitfall: the negative word is not a denial. 必要ないのではないでしょうか means *I'd say it isn't needed* (example 1b)."
+     "deepDive": "**〜のではないだろうか** is a question in form and an opinion in effect: *I'd say ~*. It leaves the reader room to disagree, which is why essays and letters to the editor close their argument with it (Reading 1, line 36; the model composition).\n\n- From formal to casual: のではないでしょうか → のではないだろうか (writing) → んじゃないでしょうか → んじゃない？\n- In speech the pitch decides: 雨じゃない？ with a rise means *isn't it raining?*; said flat, 雨じゃない means *it isn't raining*.\n\nIt is less sure than だろう and far less than **〜に違いない** (Quartet II L9-2), *must be*. Pitfall: the ない of のではない negates nothing. 必要ないのではないでしょうか means *I'd say it isn't needed* (example 1b)."
     },
     {
      "t": "note",
@@ -1529,7 +1529,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Vようとする** has two readings, and context decides: *try to* (effort that may fail: 忘れようとしても忘れられない) and *be about to* (the moment just before: 寝ようとしたら電話がかかってきた). With a subject that has no will, only *about to* works: 電車が出ようとしている (*the train is about to leave*).\n\n- **Vようとしない** reports someone else's refusal as seen from outside, *won't even try*, usually with criticism or worry: 猫が魚を食べようとしない.\n- Compare **〜てみる**, *try and see*: 食べてみた means you did eat it; 食べようとした suggests you didn't manage to.\n\nKeep both apart from **〜ようにする** (L1-8), *make a point of*: 毎日歩くようにしている (*I make a point of walking every day*)."
+     "deepDive": "**Vようとする** has two readings, and context decides: *try to* (effort that may fail: 忘れようとしても忘れられない) and *be about to* (the moment just before: 寝ようとしたら電話がかかってきた). With a subject that has no will, only *about to* works: 電車が出ようとしている (*the train is about to leave*).\n\n- **Vようとしない** reports a refusal seen from outside, *won't even try*, usually with criticism or worry: 猫が魚を食べようとしない (*the cat won't touch its fish*). It describes someone else, or your own past ([#8]), never your present intention.\n- Compare **〜てみる**, *try and see*: 食べてみた means you did eat it; 食べようとした suggests you didn't manage to.\n\nKeep both apart from **〜ようにする** (L1-8), *make a point of*: 毎日歩くようにしている (*I make a point of walking every day*)."
     },
     {
      "t": "note",
@@ -2225,7 +2225,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**わざわざ** marks effort beyond what was needed. What it conveys depends on the sentence: thanks (わざわざ来てくださって), turning down an offer (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) values the effort or the chance and regrets its loss; わざわざ only notes the extra effort (see 例1） and 例2）).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいてありがとうございます (*thank you for coming all this way*)."
+     "deepDive": "**わざわざ** marks effort beyond what was needed. What it conveys depends on the sentence: thanks (わざわざ来てくださって), telling someone not to bother (わざわざ取りに行かなくても), or a hint that the effort is pointless (Reading 2: わざわざ子どものうちに英語を学ばなくても).\n\n- **せっかく** (L4-3) treats the effort or the chance as something not to be wasted; わざわざ presents the effort as more than was needed (see 例1） and 例2）).\n- Do not confuse it with **わざと**, *on purpose*, usually for something bad: わざと負けた (*lost on purpose*).\n\nIn polite speech it often comes with humble or honorific forms: わざわざお越しいただいてありがとうございます (*thank you for coming all this way*)."
     }
    ]
   },
@@ -4953,7 +4953,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "注意する時は少し言いにくくても、はっきり言ってくれたほうが{誤解|ごかい}がなくて、お{互|たが}いに気持ちよく過ごせると思います。みなさんだったら、ルームメートにどのように注意しますか。",
-       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and we can both get along comfortably. If you were in my place, how would you bring it up with your roommate?"
+       "tr": "When pointing something out, even if it's a little hard to say, I think it's better for people to say it clearly, because then there are no misunderstandings and we can both get along comfortably. What about all of you? How would you point something out to your roommate?"
       }
      ]
     }
