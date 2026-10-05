@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "the world; society; life",
     note: "The world people live in: 世の中は〜だ (that's how the world is), 世の中の動き, 世の中が便利になる. 世間 is the people around you and public opinion; 社会 is more formal.",
     rx: ["せのなか", "よのちゅう", "よのうち"],
-    book: { ja: "**{世|よ}の{中|なか}**は金{次第|しだい}だと言われるが、お金では買えないものもある。", en: "They say money is everything in this world, but there are things money can't buy.", at: "gp/114" },
+    book: { ja: "**{世|よ}の{中|なか}**は金{次第|しだい}だと言われるが、お金では買えないものもある。", en: "They say everything in this world comes down to money, but there are things money can't buy.", at: "gp/114" },
     ex: [
       { ja: "インターネットのおかげで、**{世|よ}の{中|なか}**はとても{便利|べんり}になった。", en: "Thanks to the internet, the world has become very convenient.", alt: ["{世話|せわ}", "{真|ま}ん{中|なか}", "{夜中|よなか}"] },
     ] },
@@ -410,7 +410,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "corruption (by officials); graft",
     note: "Abuse of office by public officials and politicians: 汚職事件 (corruption scandal), 汚職で逮捕される. 賄賂 (わいろ) is a bribe.",
     rx: ["おしき", "よごしょく", "おそく"],
-    book: { ja: "{政治家|せいじか}の**{汚職事件|おしょくじけん}**が続き、{政府|せいふ}に対する{信頼|しんらい}は{薄|うす}れる__{一方|いっぽう}__だ。", en: "With one politician corruption scandal after another, trust in the government just keeps fading.", at: "gp/115" },
+    book: { ja: "{政治家|せいじか}の**{汚職事件|おしょくじけん}**が続き、{政府|せいふ}に対する{信頼|しんらい}は{薄|うす}れる__{一方|いっぽう}__だ。", en: "With one political corruption scandal after another, trust in the government just keeps fading.", at: "gp/115" },
     ex: [
       { ja: "{市長|しちょう}が**{汚職|おしょく}**で{逮捕|たいほ}された。", en: "The mayor was arrested for corruption.", alt: ["{汚染|おせん}", "{退職|たいしょく}", "{職務|しょくむ}"] },
     ] },
@@ -418,7 +418,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to fade; to weaken; to grow faint",
     note: "Something abstract gradually weakening: 記憶が薄れる, 関心が薄れる, 信頼が薄れる. 薄まる is used for liquids and colors becoming diluted.",
     rx: ["はくれる", "うずれる", "ひすれる"],
-    book: { ja: "{政治家|せいじか}の{汚職事件|おしょくじけん}が続き、{政府|せいふ}に対する{信頼|しんらい}は**{薄|うす}れる**__{一方|いっぽう}__だ。", en: "With one politician corruption scandal after another, trust in the government just keeps fading.", at: "gp/115" },
+    book: { ja: "{政治家|せいじか}の{汚職事件|おしょくじけん}が続き、{政府|せいふ}に対する{信頼|しんらい}は**{薄|うす}れる**__{一方|いっぽう}__だ。", en: "With one political corruption scandal after another, trust in the government just keeps fading.", at: "gp/115" },
     ex: [
       { ja: "{時間|じかん}が{経|た}つにつれて、あの{日|ひ}の{記憶|きおく}も**{薄|うす}れて**きた。", en: "As time passed, my memory of that day began to fade.", alt: ["{崩|くず}れて", "{外|はず}れて", "{汚|よご}れて"] },
     ] },
@@ -506,7 +506,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "signature; to sign",
     note: "Formal: 署名する, 署名欄, 署名運動 (a petition drive). サイン is the everyday word; 記名 is just writing your name.",
     rx: ["しょうめい", "しょみょう", "じょめい"],
-    book: { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに**{署名|しょめい}**と{印鑑|いんかん}をお願いいたします。", en: "Please check the contents of the contract, then sign and stamp your seal here.", at: "gp/117" },
+    book: { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに**{署名|しょめい}**と{印鑑|いんかん}をお願いいたします。", en: "Please check the contents of the contract, then sign here and affix your seal.", at: "gp/117" },
     ex: [
       { ja: "{書類|しょるい}の{一番下|いちばんした}に**{署名|しょめい}**してください。", en: "Please sign at the very bottom of the document.", alt: ["{証明|しょうめい}", "{有名|ゆうめい}", "{署長|しょちょう}"] },
     ] },
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "personal seal; stamp (used in place of a signature)",
     note: "印鑑を押す, 印鑑が必要. In conversation はんこ. 実印 is a seal registered with the city office for important contracts.",
     rx: ["いんかがみ", "いんがん", "いっかん"],
-    book: { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに{署名|しょめい}と**{印鑑|いんかん}**をお願いいたします。", en: "Please check the contents of the contract, then sign and stamp your seal here.", at: "gp/117" },
+    book: { ja: "{契約書|けいやくしょ}の内容をご{確認|かくにん}の{上|うえ}、こちらに{署名|しょめい}と**{印鑑|いんかん}**をお願いいたします。", en: "Please check the contents of the contract, then sign here and affix your seal.", at: "gp/117" },
     ex: [
       { ja: "{銀行|ぎんこう}で{口座|こうざ}を{作|つく}るときに**{印鑑|いんかん}**が{必要|ひつよう}だった。", en: "I needed my personal seal to open a bank account.", alt: ["{印刷|いんさつ}", "{図鑑|ずかん}", "{印象|いんしょう}"] },
     ] },
@@ -658,7 +658,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to collapse; to crumble; to be thrown off (balance); (of weather) to turn bad",
     note: "Intransitive; the transitive partner is 崩す. 建物が崩れる, バランスが崩れる, 天気が崩れる, 形が崩れる. 壊れる is for things that break and stop working.",
     rx: ["ほうれる", "くずされる", "くぞれる"],
-    book: { ja: "そうそう。それでマグロのえさになる小さい魚が増えすぎて、海の生き物のバランスが**くずれて**るっていうことなんだよ。", en: "Exactly. So the small fish that tuna feed on are multiplying too much, and that's throwing off the balance of sea life.", at: "ch/12/review" },
+    book: { ja: "そうそう。それでマグロのえさになる小さい魚が増えすぎて、海の生き物のバランスが**くずれて**るっていうことなんだよ。", en: "Exactly. And because of that, the small fish that tuna feed on are multiplying too much, and that's throwing off the balance of sea life.", at: "ch/12/review" },
     ex: [
       { ja: "{地震|じしん}で{古|ふる}い{壁|かべ}が**{崩|くず}れた**。", en: "The old wall collapsed in the earthquake.", alt: ["{崩|くず}した", "{溶|と}けた", "{破|やぶ}れた"] },
     ] },
