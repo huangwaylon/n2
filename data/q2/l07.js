@@ -21,7 +21,7 @@ TRY.registerLesson({
    "canDo": [
     {
      "ja": "経験談を読んで、筆者がその経験から感じたことがわかる",
-     "tr": "Can read an account of someone's experience and understand what the writer felt from that experience"
+     "tr": "Can read a personal account of an experience and understand what the writer came to feel through it"
     },
     {
      "ja": "経験談が書ける",
@@ -145,7 +145,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "文化や習慣の違いを{越|こ}えて人と付き合うためには、どんなことに気をつけるべきだと思いますか。",
-        "tr": "What do you think people should be careful about in order to build relationships with others across differences in culture and customs?"
+        "tr": "To get along with people across differences in culture and customs, what do you think you should be careful about?"
        }
       }
      ]
@@ -204,7 +204,7 @@ TRY.registerLesson({
        "n": "3.",
        "text": {
         "ja": "筆者の主張についてわかったことを、下の単語を使って話しましょう。",
-        "tr": "Using the words below, talk about what you understood of the writer's argument."
+        "tr": "Using the words below, talk about what you understood about the writer's argument."
        },
        "words": [
         "友達",
@@ -294,14 +294,14 @@ TRY.registerLesson({
      ],
      "tr": [
       "Those nine months, packed with good times and hard times, were the most intense of my life, and they greatly broadened the choices and possibilities open to me.",
-      "On orientation day, nearly a hundred international students from all over the world had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
-      "The following week, classes called the English Language Program began, designed to give us enough English to take regular undergraduate courses. I got multinational classmates from Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
-      "But my life as an international student, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the shoulder every time you say hello. I knew that this was how people treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
-      "Because they were close friends, and precisely because our cultures were different, I wanted to tell them the truth and have them understand, so I worked up the courage and told them that it made me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
-      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If, despite having made a yakusoku to hang out, you don't follow through, you have \"broken your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
+      "On orientation day, nearly a hundred international students from many different countries had gathered there. The other international students looked relaxed enough to laugh at the jokes slipped in between the explanations, while I couldn't understand a thing, so I felt really down about the gap between me and them.",
+      "The following week, the English Language Program began, a set of classes meant to give us enough English to take regular undergraduate courses. I had classmates from many countries across Asia, Africa, and the Middle East, and I made friends too. Every day brought me some kind of stimulation, challenge, change, or new discovery, and my days became so hectic that I forgot all about wanting to go home.",
+      "But even my life abroad, which was finally starting to get on track, didn't go all that smoothly. Even socializing with friends was very stressful. For example, I learned that the distance people keep between each other when communicating differs from country to country: in Japan it is quite large, while in China, by contrast, it is small. On top of that, there is a lot of physical contact, like putting an arm around your shoulders or patting you on the shoulder every time you say hello. I knew that this was how they treat close friends, but I just couldn't get used to it, and at one point I started to feel so uncomfortable I couldn't stand it.",
+      "Precisely because we were good friends, and because our cultures were different, I wanted to tell them how I really felt so they would understand, so I worked up the courage and told them what was making me uncomfortable. Their reaction was something like, \"You should have told us sooner. It's a cultural difference, so it can't be helped,\" and from then on they changed the way they treated me. That didn't mean we stopped getting along; if anything, we came to understand each other better.",
+      "I also discovered something else through my interactions with friends: the difference in meaning between words in Japanese and English. When we hang out with friends, we often use the word yakusoku (\"promise\"). If you made a yakusoku to hang out and then, despite that, it doesn't happen, you have \"broken your promise.\" In English, however, when you arrange to do something together, it isn't a \"promise\" but a \"plan\"—in other words, a yotei. So if some other plan comes up before then, it simply means the plan has changed.",
       "Because of this difference in the nuance of the words, I often got irritated until I understood it.",
-      "\"Let's go to XX over the winter break.\" \"Okay, let's go.\" At that point I felt we had made a promise, and my expectations kept growing, but when winter break actually came, I was told, \"I don't have any money, and there are other things I want to do, so I'm not going.\" To be honest, I thought, \"If you say you're going, isn't it normal to get ready by then?\" But I realized that \"my normal\" wasn't \"normal,\" and that the meaning and weight people give to the words they say, and their sense of responsibility to actually follow through, are fundamentally different.",
-      "Japan is a small island nation that has developed its own unique culture and society. With so many people whose ideas, standards, and behavior are alike, it is hard to discover change or new things. And before we know it, we have become complacent. But if you gather a little courage and leap into a different world, you may discover not only how different the outside is, but also something new within yourself."
+      "\"Let's go to ○○ over the winter break.\" \"Okay, let's go.\" At that point I believed we had made a promise, and my expectations just kept growing, but when winter break actually came, I was told, \"I don't have any money, and there are other things I want to do, so I'm not going.\" To be honest, I thought, \"If you say you're going, isn't it normal to get ready by then?\" But I realized that \"my normal\" wasn't \"normal,\" and that the meaning and weight people give to the words they say, and their sense of responsibility to actually follow through, are fundamentally different.",
+      "Japan is a small island nation that has developed its own unique culture and society. With so many people whose ideas, standards, and behavior are alike, it is hard to discover change or new things. And without realizing it, we've grown complacent. But if you gather a little courage and leap into a different world, you may discover not only how different the outside world is, but also something new within yourself."
      ],
      "headTr": [
       "The Thick Walls of Culture and Custom — Morihiro Okada"
@@ -367,17 +367,17 @@ TRY.registerLesson({
      "titleTr": "Thoughts of an International Student",
      "tr": [
       "\"Making friends in Japan is hard, isn't it!\" These are words that foreigners who have lived in Japan for a long time often say.",
-      "This remark, which comes out along with a wry smile, reflects their dissatisfaction with international exchange and conveys the loneliness of foreign residents in Japan, and at the same time it shows the \"cultural wall\" between them and Japanese people.",
-      "Interestingly, I hear these words most often not when I am giving foreigners advice, but right in the middle of lively social events. These events bring together dozens of Japanese and foreign people so that they can get to know one another through free mingling. At the events, the foreigners exchange contact information with Japanese people. They want to go on being friends with them afterward and share all kinds of hobbies.",
+      "This remark, which comes out with a wry smile, reflects their frustration with international exchange and conveys the loneliness of foreign residents in Japan, and at the same time it shows the \"cultural wall\" between them and Japanese people.",
+      "Interestingly, I hear these words most often not when foreigners come to me for advice, but right in the middle of lively social events. These events bring together dozens of Japanese and foreign people so that they can get to know one another through free mingling. At the events, the foreigners exchange contact information with Japanese people. They want to become friends with them from then on and share all kinds of hobbies.",
       "Yet even though the foreigners throw themselves into \"collecting friends\" at the events, the grumbling \"I can't make friends\" never stops. The reason they can't make friends is not that they have few chances to meet people.",
-      "Where the foreigners go wrong, to begin with, is the gap between their eagerness and reality.",
+      "At root, the foreigners' failure lies in the gap between their eagerness and reality.",
       "They believe the only way to escape the \"foreigner community\" in Japan is to get in touch with as many Japanese people as they can. With that in mind, they talk passionately to lots of Japanese people about how much they want to make connections.",
-      "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"advances\" and answer questions pleasantly. They eagerly play along with foreign jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
-      "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are betrayed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
+      "In response, the Japanese react positively, at least on the surface. During the event, they respond cheerfully to the foreigners' \"offensive\" and answer questions pleasantly. They gamely keep up with the foreigners' jokes, and when asked for their contact information, they give it right away. They are exactly the \"open Japanese\" the foreigners truly hope for.",
+      "\"For once, I made a really good friend today!\" the foreigner thinks, impressed. As soon as they get home, they contact that \"open Japanese person.\" But those Japanese simply think it is good manners to show enthusiasm during an event and actually have no interest in a long-term relationship. So no reply comes. Two days, three days, a week go by, and still nothing. Their hopes for friendship are dashed, and their anger and disappointment grow. Still without a close Japanese friend, they go to the next event and repeat the same \"letdown\" and the words quoted at the beginning.",
       "There is a lot the national and local governments can do about this situation. I hope they will make efforts, through policy, to raise Japanese people, especially young people, who are internationally minded and sincerely embrace foreign cultures. Gradually changing people's mindset and building a Japan that foreigners can fit into more easily is an important task."
      ],
      "headTr": [
-      "Japan Should Raise Young People Who Embrace Foreign Cultures"
+      "I Hope Japan Will Raise Young People Who Embrace Foreign Cultures"
      ]
     },
     {
@@ -478,7 +478,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "外国人らはイベントで日本人と連絡先を交換する。今後も一緒に仲間になって、いろんな趣味を__共有したがる__のだ。",
-          "tr": "At the events, the foreigners exchange contact information with Japanese people. They want to go on being friends with them afterward and share all kinds of hobbies."
+          "tr": "At the events, the foreigners exchange contact information with Japanese people. They want to become friends with them from then on and share all kinds of hobbies."
          }
         }
        ]
@@ -582,7 +582,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜つつある** belongs to written, report-style Japanese: news, essays and speeches use it to present a trend as under way. Conversation says 〜てきている or 〜ていく instead: 最近、増えてきているね (*it's been increasing lately*).\n\n- With change verbs, 〜ている usually reports the result, while つつある keeps the change open: 消えている (*has disappeared*) vs. 消えつつある (*is disappearing, not gone yet*).\n- Passives are frequent: 見直されつつある (*is being reconsidered*), 失われつつある (*is being lost*).\n\nCompare **〜つつ** (L10-9), *while doing*, which joins two actions instead of describing a change: 音楽を聴きつつ歩く (*walk while listening to music*). TRY! N2 teaches the same 〜つつある next to 〜つつ and 〜つつも (*although*)."
+     "deepDive": "**〜つつある** belongs to written, report-style Japanese: news, essays and speeches use it to present a trend as under way. Conversation says 〜てきている or 〜ていく instead: 最近、増えてきているね (*it's been increasing lately*).\n\n- With verbs of instant change, 〜ている reports the result, while つつある keeps the change open: 消えている (*has disappeared*) vs. 消えつつある (*is disappearing, not gone yet*).\n- Passives are frequent: 見直されつつある (*is being reconsidered*), 失われつつある (*is being lost*).\n\nCompare **〜つつ** (L10-9), *while doing*, which joins two actions instead of describing a change: 音楽を聴きつつ歩く (*walk while listening to music*). TRY! N2 teaches the same 〜つつある, and 〜つつ and 〜つつも (*although*) in other chapters."
     },
     {
      "t": "note",
@@ -723,7 +723,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "明日から夏休みだと思うと、うれしく**てしかたがない**。",
-         "tr": "When I think that summer vacation starts tomorrow, I can't contain my excitement."
+         "tr": "When I think that summer vacation starts tomorrow, I'm so happy I can hardly stand it."
         },
         {
          "n": 4,
@@ -1082,7 +1082,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "私はあまり知らないんですよ。**むしろ**留学生のほうが詳しいと思いますよ。",
-           "tr": "I don't really know any. If anything, I think the international students know more about them than I do."
+           "tr": "I don't really know any. If anything, I think you international students know more about them than I do."
           }
          ]
         },
@@ -1156,7 +1156,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "遠くて大変なの**にもかかわらず**、先生は私たちの結婚式に来てくださった。",
-         "tr": "Even though it was a long and difficult trip, our teacher was kind enough to come to our wedding."
+         "tr": "Even though it was far and a lot of trouble, our teacher was kind enough to come to our wedding."
         },
         {
          "n": 4,
@@ -1719,7 +1719,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "ハワイは**まさに**天国のようなところらしい。",
-         "tr": "I hear Hawaii is truly like paradise."
+         "tr": "I hear Hawaii is just like paradise."
         },
         {
          "n": 3,
