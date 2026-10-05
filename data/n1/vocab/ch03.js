@@ -81,7 +81,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["しんなり", "みのなり", "みいなり"],
     book: { ja: "おかげで男の**{身|み}なり**も家も、{見違|みちが}えるようにきれいになった。", en: "Thanks to her, the man's appearance and his house both became so clean you'd hardly recognize them.", at: "ch/3" },
     ex: [
-      { ja: "{面接|めんせつ}の前に、{鏡|かがみ}で**{身|み}なり**を{整|ととの}えた。", en: "Before the interview, I checked my appearance in the mirror.", alt: ["{身|み}ぶり", "{身元|みもと}", "{身内|みうち}"] },
+      { ja: "{面接|めんせつ}の前に、{鏡|かがみ}で**{身|み}なり**を{整|ととの}えた。", en: "Before the interview, I tidied myself up in front of the mirror.", alt: ["{身|み}ぶり", "{身元|みもと}", "{身内|みうち}"] },
     ] },
   { w: "{見違|みちが}える", lv: "N1", pos: "verb",
     en: "to hardly recognize (something changed, usually for the better); to mistake for something else",
@@ -97,7 +97,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ふっかい", "ぶかい", "ふけい"],
     book: { ja: "「〜まみれ」は「表面全体に**{不快|ふかい}**な物がついている」と言いたいときに使う。", en: "〜まみれ is used when you want to say that something unpleasant is stuck all over the surface of something.", at: "gp/16" },
     ex: [
-      { ja: "隣の{席|せき}の人の{香水|こうすい}がきつくて、**{不快|ふかい}**な思いをした。", en: "The person in the next seat was wearing such strong perfume that it was really unpleasant.", alt: ["{不便|ふべん}", "{不安|ふあん}", "{不利|ふり}"] },
+      { ja: "隣の{席|せき}の人の{香水|こうすい}がきつくて、**{不快|ふかい}**な思いをした。", en: "The person in the next seat was wearing such strong perfume that I found it unpleasant.", alt: ["{不便|ふべん}", "{不安|ふあん}", "{不利|ふり}"] },
     ] },
   { w: "{健闘|けんとう}", lv: "N1", pos: "noun · する verb",
     en: "a good fight; a strong effort (in a contest), even in defeat",
@@ -120,7 +120,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["だつしゅつ", "たっしゅつ", "だっしゅう"],
     book: { ja: "借金まみれの生活から**{脱出|だっしゅつ}**するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To dig myself out from under a mountain of debt, I decided to go and see a lawyer.", at: "gp/16" },
     ex: [
-      { ja: "{乗客|じょうきゃく}は{非常口|ひじょうぐち}から{無事|ぶじ}に**{脱出|だっしゅつ}**した。", en: "The passengers got out safely through the emergency exit.", alt: ["{脱退|だったい}", "{輸出|ゆしゅつ}", "{脱線|だっせん}"] },
+      { ja: "{乗客|じょうきゃく}は{非常口|ひじょうぐち}から{無事|ぶじ}に**{脱出|だっしゅつ}**した。", en: "The passengers escaped safely through the emergency exit.", alt: ["{脱退|だったい}", "{輸出|ゆしゅつ}", "{脱線|だっせん}"] },
     ] },
   { w: "{再三|さいさん}", lv: "N1", pos: "adverb · noun",
     en: "repeatedly, again and again (formal)",
@@ -143,7 +143,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["いんきとめる", "びきとめる", "ひっきとめる"],
     book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Ignoring his partner's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
-      { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "The department head tried again and again to talk the subordinate out of quitting.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
+      { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "When a member of the team asked to resign, the department head tried again and again to persuade them to stay.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
     ] },
   { w: "{携|たずさ}える", lv: "N1", pos: "verb",
     en: "to carry (with one), to take along; (手を携える) to join hands, cooperate",
@@ -238,7 +238,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ほうほう", "ほうぼ", "ほぼう"],
     book: { ja: "彼は金にルーズで、**{方々|ほうぼう}**で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
-      { ja: "なくした{鍵|かぎ}を{家中|いえじゅう}**{方々|ほうぼう}**探したが、見つからなかった。", en: "I searched all over the house for the key I'd lost, but couldn't find it.", alt: ["{方法|ほうほう}", "{方角|ほうがく}", "{方面|ほうめん}"] },
+      { ja: "なくした{鍵|かぎ}を**{方々|ほうぼう}**探したが、見つからなかった。", en: "I looked all over for the key I'd lost, but couldn't find it.", alt: ["{方法|ほうほう}", "{方角|ほうがく}", "{方面|ほうめん}"] },
     ] },
   { w: "あげくの{果|は}て", lv: "N1", pos: "expression",
     en: "in the end (after a string of bad things); to top it all off",
@@ -310,7 +310,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["しょうごん", "せいげん", "しょげん"],
     book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the perpetrator was about 180 cm tall, dressed entirely in black, and carrying a gun.", at: "gp/22" },
     ex: [
-      { ja: "元社員の**{証言|しょうげん}**によって、会社の{不正|ふせい}が明らかになった。", en: "Testimony from a former employee brought the company's wrongdoing to light.", alt: ["{宣言|せんげん}", "{予言|よげん}", "{助言|じょげん}"] },
+      { ja: "元社員の**{証言|しょうげん}**によって、会社の{不正|ふせい}が明らかになった。", en: "Testimony from a former employee brought the company's wrongdoing to light.", alt: ["{宣言|せんげん}", "{予言|よげん}", "{方言|ほうげん}"] },
     ] },
   { w: "{目覚|めざ}ましい", lv: "N1", pos: "い adjective",
     en: "remarkable, striking, spectacular (progress or achievement)",
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["いさま", "いよ", "ことよう"],
     book: { ja: "{地球外生命体|ちきゅうがいせいめいたい}の**{異様|いよう}**な{映像|えいぞう}は、見る人に{衝撃|しょうげき}を与えずにはおかないだろう。", en: "The bizarre footage of an extraterrestrial life form is bound to shock anyone who sees it.", at: "gp/32" },
     ex: [
-      { ja: "部屋に入ると、**{異様|いよう}**なにおいが鼻をついた。", en: "When I walked into the room, a strange smell hit my nose.", alt: ["{仕様|しよう}", "{同様|どうよう}", "{模様|もよう}"] },
+      { ja: "部屋に入ると、**{異様|いよう}**なにおいが鼻をついた。", en: "When I walked into the room, I was hit by a strange, pungent smell.", alt: ["{仕様|しよう}", "{同様|どうよう}", "{模様|もよう}"] },
     ] },
   { w: "{衝撃|しょうげき}", lv: "N1", pos: "noun",
     en: "shock, impact",
@@ -685,7 +685,7 @@ TRY.registerVocab({ ch: 3, words: [
     rx: ["ひじょしき", "ひつねしき", "ひじょうしょく"],
     book: { ja: "**非常識**", en: "lacking in common sense", at: "ch/3/review" },
     ex: [
-      { ja: "夜中の2時に電話をかけてくるなんて、**{非常識|ひじょうしき}**にもほどがある。", en: "Calling at two in the morning? Have you no common sense at all?", alt: ["{非常口|ひじょうぐち}", "{不思議|ふしぎ}", "{非公式|ひこうしき}"] },
+      { ja: "夜中の2時に電話をかけてくるなんて、**{非常識|ひじょうしき}**にもほどがある。", en: "Calling me at two in the morning? That's beyond inconsiderate.", alt: ["{非常口|ひじょうぐち}", "{不思議|ふしぎ}", "{非公式|ひこうしき}"] },
     ] },
   { w: "{逆転|ぎゃくてん}", lv: "N1", pos: "noun · する verb",
     en: "reversal, turnaround; coming from behind (to win)",
