@@ -678,7 +678,7 @@ TRY.registerLesson({
           {
            "sp": "先生",
            "ja": "みなさん。難しい外国語**といえば**、何語だと思いますか。",
-           "tr": "Everyone, when you think of a difficult foreign language, which one do you think of?"
+           "tr": "Everyone, when it comes to difficult foreign languages, which one comes to mind?"
           },
           {
            "sp": "学生A",
@@ -1061,7 +1061,7 @@ TRY.registerLesson({
           {
            "sp": "サラ",
            "ja": "うん。昨日初めてお話ししたんだけど、うわさで聞いていた**とおり**、優しい先生だったよ。",
-           "tr": "Yeah. I talked with Professor Nakamura for the first time yesterday, and they're just as kind as I'd heard."
+           "tr": "Yeah. I talked with the professor for the first time yesterday, and they were every bit as kind as people said."
           }
          ]
         },
@@ -1514,7 +1514,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "デザイナーになる**ための**学校に行くつもりです。",
-           "tr": "I'm planning to go to a school for becoming a designer."
+           "tr": "I'm planning to go to a school where I can train to become a designer."
           }
          ]
         },
@@ -1636,7 +1636,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Xがきっかけで Y** names the event that set off a change in someone's life: a new interest, friendship, decision or habit. X is one event, often small or accidental (Vたの／こと, or a noun such as 飲み会, 旅行); Y is what started: 始めた, 仲よくなった, 思うようになった. It is a pattern of personal stories.\n\n- 何がきっかけで…？ asks *what got you into…?*, and Y often uses 〜ようになる (L1-7) or 〜始める.\n- For a plain cause with no new beginning, use から／ので: ✗雨がきっかけで試合が中止になった.\n\nTRY! N2 #17 teaches the same idea with を: 入学をきっかけに一人暮らしを始めた (*I started living on my own when I entered college*); its Plus, 〜を契機に, is the formal written version."
+     "deepDive": "**Xがきっかけで Y** names the event that set off a change in someone's life: a new interest, friendship, decision or habit. X is one event, often small or accidental (Vたの／こと, or a noun such as 飲み会, 旅行); Y is what started: 始めた, 仲よくなった, 思うようになった. It is a pattern of personal stories.\n\n- 何がきっかけで…？ asks *what got you into…?*, and Y often uses 〜ようになる (L1-7) or 〜始める.\n- For a plain cause with no new beginning, use から／ので: ？雨がきっかけで試合が中止になった sounds odd; say 雨で or 雨のため.\n\nTRY! N2 #17 teaches the same idea with を: 入学をきっかけに一人暮らしを始めた (*I started living on my own when I entered college*); its Plus, 〜を契機に, is the formal written version."
     },
     {
      "t": "note",
@@ -1784,7 +1784,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ようになる** reports a change that came about over time rather than by a decision: a new habit (Vる) or a new ability (potential form). English says *have started to*, *now*, or *have become able to*.\n\n- Verbs that already mean a change take no ようになる: ✗太るようになった → 太った.\n- *No longer* is normally Vなくなる: 食べなくなった. 〜ないようになった is marginal, as the book's ？ shows.\n- Adjectives and nouns use 〜くなる／〜になる: 上手になった, not ✗上手ようになった.\n\nCompare 〜ことになる (L2-9), a change decided by others or by circumstances, and 〜ようにする (L1-8), a conscious effort. TRY! N2 #81 〜ようになっている is different again: how a device or system is set up to work (ボタンを押すと水が出るようになっている *it's designed so water comes out when you press the button*)."
+     "deepDive": "**〜ようになる** reports a change that came about over time rather than by a decision: a new habit (Vる) or a new ability (potential form). English says *have started to*, *now*, or *have become able to*.\n\n- A single change in a verb that already means one takes the plain verb: 少しやせた, not ✗少しやせるようになった (the book's ×). With such verbs ようになる can only mean a new tendency (すぐ太るようになった *I've started putting on weight easily*).\n- *No longer* is normally Vなくなる: 食べなくなった. 〜ないようになった is marginal, as the book's ？ shows.\n- Adjectives and nouns use 〜くなる／〜になる: 上手になった, not ✗上手ようになった.\n\nCompare 〜ことになる (L2-9), a change decided by others or by circumstances, and 〜ようにする (L1-8), a conscious effort. TRY! N2 #81 〜ようになっている is different again: how a device or system is set up to work (ボタンを押すと水が出るようになっている *it's designed so water comes out when you press the button*)."
     },
     {
      "t": "note",
@@ -1836,7 +1836,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "また電車にかさを忘れてしまった。今日で5回目なので、もう忘れない**ようにし**たい。",
-         "tr": "I left my umbrella on the train again. That makes five times now, so I want to make sure I don't forget it anymore."
+         "tr": "I left my umbrella on the train again. That makes five times now, so I want to make sure I never forget it again."
         },
         {
          "n": 3,
@@ -1955,7 +1955,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "フランス出身のサラ**によると**、日本のコンビニはとても{便利|べんり}らしい。",
-         "tr": "According to Sarah, who is from France, Japanese convenience stores are apparently really convenient."
+         "tr": "According to Sarah, who is from France, Japanese convenience stores are apparently really handy."
         }
        ]
       },
@@ -1981,7 +1981,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**Nによると** names where a piece of information came from, and the sentence then ends in a hearsay form: そうだ, らしい, ということだ, or casual って (天気予報によると、雨だって). Without that ending the sentence sounds unfinished, because によると only introduces the source.\n\n- N is a source of information: a person, the news, a survey, 〜の話. For one's own view, say 私の考えでは (*in my opinion*), not ✗私によると.\n- によれば is the same with a slightly more formal ring.\n- Compare Nによって (L3-6), *depending on N*: 国によって習慣が違う (*customs differ from country to country*).\n\nThe listening script uses it just this way: 友達によると、…ほとんどいないらしいです (*according to a friend, apparently hardly anyone…*)."
+     "deepDive": "**Nによると** names where a piece of information came from, and the sentence then ends in a hearsay form: そうだ, らしい, ということだ, or casual って (天気予報によると、雨だって). Without that ending the sentence sounds incomplete to most speakers, because によると only introduces the source.\n\n- N is a source of information: a person, the news, a survey, 〜の話. For one's own view, say 私の考えでは (*in my opinion*), not ✗私によると.\n- によれば is the same with a slightly more formal ring.\n- Compare Nによって (L3-6), *depending on N*: 国によって習慣が違う (*customs differ from country to country*).\n\nThe listening script uses it just this way: 友達によると、…ほとんどいないらしいです (*according to a friend, apparently hardly anyone…*)."
     }
    ]
   },
@@ -3582,7 +3582,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "……作らなきゃだめ？　僕、食べるの{専門|せんもん}がいいな。",
-       "tr": "...Do I have to make something? I'd rather just specialize in eating."
+       "tr": "...Do I have to make something? I'd rather just handle the eating."
       }
      ]
     },
