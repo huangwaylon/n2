@@ -47,3 +47,9 @@ distractor fails. Refer to points as `#N`.
 
 Groups of the same or closely related pattern in N2, N1 and Quartet I / II, shown under each point as 他の本 Other books.
 Each entry names the point by book, number and the pattern as printed; `node tools/links.js` checks them.
+
+## Printed as-is (do not "fix")
+
+Reviewers have flagged these; the scans print them this way, so the data keeps them: N1 #37 ③ 言わる (p.60);
+N2 compare [11.2] heading 〜だけに over a だけあって example (p.222); N2 #37 📎 "the situation have continued
+indefinitely" (p.73). Quartet II L8 glosses 着払い as "cash on delivery" (our `tr` says the recipient pays shipping).
