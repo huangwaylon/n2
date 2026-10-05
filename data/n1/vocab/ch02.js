@@ -124,7 +124,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["ゆよ", "ゆうよう", "ゆうしゃ"],
     book: { ja: "もはや{一刻|いっこく}たりとも**{猶予|ゆうよ}**はできません。", en: "We cannot afford to wait a single moment longer.", at: "ch/2" },
     ex: [
-      { ja: "{提出|ていしゅつ}{期限|きげん}まで、あと3{日|か}の**{猶予|ゆうよ}**しかない。", en: "There are only three days of grace left before the deadline.", alt: ["{予約|よやく}", "{予報|よほう}", "{有無|うむ}"] },
+      { ja: "{提出|ていしゅつ}{期限|きげん}まで、あと3{日|か}の**{猶予|ゆうよ}**しかない。", en: "We have only three days' leeway left before the submission deadline.", alt: ["{予約|よやく}", "{予報|よほう}", "{有無|うむ}"] },
     ] },
   { w: "{働|はたら}き{盛|ざか}り", lv: "N1", pos: "noun",
     en: "the prime of one's working life",
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["こうせい", "ぎょせい", "ぎょうしょう"],
     book: { ja: "{私|わたくし}たちは**{行政|ぎょうせい}**の立場から、働く人の健康に対してもっと関心を持ち、さらにサポート体制を{充実|じゅうじつ}させていく必要があります。", en: "As the city government, we need to take a greater interest in the health of working people and further strengthen our support system.", at: "ch/2" },
     ex: [
-      { ja: "{住民|じゅうみん}の{声|こえ}を**{行政|ぎょうせい}**に{反映|はんえい}させる{仕組|しく}みが{必要|ひつよう}だ。", en: "We need a system that ensures residents' views are reflected in local government.", alt: ["{行列|ぎょうれつ}", "{行事|ぎょうじ}", "{修行|しゅぎょう}"] },
+      { ja: "{住民|じゅうみん}の{声|こえ}を**{行政|ぎょうせい}**に{反映|はんえい}させる{仕組|しく}みが{必要|ひつよう}だ。", en: "We need a system that ensures residents' views are reflected in how the government is run.", alt: ["{行列|ぎょうれつ}", "{行事|ぎょうじ}", "{修行|しゅぎょう}"] },
     ] },
   { w: "{体制|たいせい}", lv: "N1", pos: "noun",
     en: "system; setup; structure (of an organization or society)",
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しょうだい", "そうたい", "ぞうだい"],
     book: { ja: "世界広しといえど、『{源氏|げんじ}物語』のような**{壮大|そうだい}**な{恋愛|れんあい}小説は他にないだろう。", en: "Wide as the world may be, there is probably no other love story as grand as The Tale of Genji.", at: "gp/8" },
     ex: [
-      { ja: "{山頂|さんちょう}からは**{壮大|そうだい}**な{景色|けしき}が{広|ひろ}がっていた。", en: "A magnificent view spread out below the summit.", alt: ["{巨大|きょだい}", "{重大|じゅうだい}", "{盛大|せいだい}"] },
+      { ja: "{山頂|さんちょう}からは**{壮大|そうだい}**な{景色|けしき}が{広|ひろ}がっていた。", en: "From the summit, a magnificent view spread out before us.", alt: ["{巨大|きょだい}", "{重大|じゅうだい}", "{盛大|せいだい}"] },
     ] },
   { w: "{傑作|けっさく}", lv: "N1", pos: "noun · な-adjective",
     en: "masterpiece; (casual) hilarious",
@@ -318,7 +318,7 @@ TRY.registerVocab({ ch: 2, words: [
     ] },
   { w: "{移住|いじゅう}", lv: "N1", pos: "noun · する verb",
     en: "moving (to settle somewhere else); migration",
-    note: "Settling in a new region or country: 海外に移住する, 地方への移住, 移住者. 引っ越し is moving house in general; 移民 is emigrating to another country.",
+    note: "Settling in a new region or country: 海外に移住する, 地方への移住, 移住者. 引っ越し is moving house in general; 移民 is immigration or emigration, or the migrants themselves.",
     rx: ["いじゅ", "いすう", "いしゅう"],
     book: { ja: "地球温暖化による{海面上昇|かいめんじょうしょう}がこの地域の人々に**{移住|いじゅう}**を{余儀|よぎ}なくさせたのである。", en: "It was the sea-level rise caused by global warming that forced the people of this region to relocate.", at: "gp/9" },
     ex: [
@@ -482,7 +482,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["しめ", "むな", "もね"],
     book: { ja: "{退会|たいかい}を希望する場合は{書面|しょめん}（　）その**{旨|むね}**を届け出なければならない。", en: "If you wish to leave the association, you must give notice to that effect in writing.", at: "gp/13" },
     ex: [
-      { ja: "{欠席|けっせき}する{場合|ばあい}は、その**{旨|むね}**を{事前|じぜん}に{担当者|たんとうしゃ}にお{知|し}らせください。", en: "If you are going to be absent, please notify the person in charge to that effect in advance.", alt: ["{胸|むね}", "{棟|むね}", "{趣味|しゅみ}"] },
+      { ja: "{欠席|けっせき}する{場合|ばあい}は、その**{旨|むね}**を{事前|じぜん}に{担当者|たんとうしゃ}にお{知|し}らせください。", en: "If you are going to be absent, please let the person in charge know beforehand.", alt: ["{胸|むね}", "{棟|むね}", "{趣味|しゅみ}"] },
     ] },
   { w: "{届|とど}け{出|で}る", lv: "N1", pos: "verb (ichidan, transitive)",
     en: "to notify (an authority); to report; to file",
@@ -688,7 +688,7 @@ TRY.registerVocab({ ch: 2, words: [
     rx: ["きょうい", "けいえ", "けいあい"],
     book: { ja: "海外での1{カ|か}月にもわたるボランティアに参加される皆様には、心から**{敬意|けいい}**を{表|ひょう}したいと思います。", en: "To all of you taking part in this month-long volunteer program overseas, I would like to express my heartfelt respect.", at: "ch/2/review" },
     ex: [
-      { ja: "{長年|ながねん}{地域|ちいき}に{尽|つ}くしてきた{方々|かたがた}に**{敬意|けいい}**を{払|はら}う。", en: "We pay tribute to those who have served the community for many years.", alt: ["{経緯|けいい}", "{好意|こうい}", "{決意|けつい}"] },
+      { ja: "{長年|ながねん}{地域|ちいき}に{尽|つ}くしてきた{方々|かたがた}に**{敬意|けいい}**を{払|はら}う。", en: "We show our respect for those who have served the community for many years.", alt: ["{経緯|けいい}", "{好意|こうい}", "{決意|けつい}"] },
     ] },
   { w: "{無断|むだん}", lv: "N1", pos: "noun",
     en: "without permission; without notice",
