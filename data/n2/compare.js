@@ -250,7 +250,7 @@ TRY.registerCompare([
         ex: { ja: "今から行っても間に合わないかもしれないけど、行く**だけ**行ってみようよ。", en: "We might not make it even if we go now, but let's at least go and see." },
         note: "V-る + だけ + the same V (usually 〜てみる): \"at least do V anyway\". The speaker admits it may not work out, but trying costs little." },
       { pattern: "Vだけ②", level: "N2", no: 55,
-        ex: { ja: "{春節|しゅんせつ}を前にリンさんはお{土産|みやげ}を持てる**だけ**持って、帰国した。", en: "Ahead of Chinese New Year, Lin went home carrying as many souvenirs as they could manage." },
+        ex: { ja: "{春節|しゅんせつ}を前にリンさんはお{土産|みやげ}を持てる**だけ**持って、帰国した。", en: "With Chinese New Year coming up, Lin went home with as many gifts as they could carry." },
         note: "Potential verb (or V-たい / 好きな) + だけ + V: \"as much as one can (or wants)\". だけ marks the full extent, not \"only\"." },
       { pattern: "〜だけに", level: "N2", no: 105,
         ex: { ja: "この町は文化{遺産|いさん}に{登録|とうろく}されている**だけあって**、住民の{環境保護|かんきょうほご}に対する{意識|いしき}も高い。", en: "As you'd expect of a town registered as a cultural heritage site, its residents are also highly conscious of environmental protection." },
@@ -499,7 +499,7 @@ TRY.registerCompare([
         ex: { ja: "こんなサービスの悪い店には二度と来る**もんか**。", en: "I'm never coming back to a store with service this bad!" },
         note: "V-る / いA / なAな + ものか (casual もんか): \"never! / as if!\". A rhetorical question used as a fierce refusal or flat denial." },
       { pattern: "〜もん", level: "N2", no: 56,
-        ex: { ja: "A：そんなにたくさんお{土産|みやげ}買うの？\nB：だって、この{人形|にんぎょう}もこのお{菓子|かし}も日本じゃなきゃ、買えないんだ**もん**。", en: "A: You're buying that many souvenirs?\nB: Well, you can't buy these dolls or these sweets anywhere but Japan!" },
+        ex: { ja: "A：そんなにたくさんお{土産|みやげ}買うの？\nB：だって、この{人形|にんぎょう}もこのお{菓子|かし}も日本じゃなきゃ、買えないんだ**もん**。", en: "A: You're buying that many souvenirs?\nB: But you can't get these dolls or these sweets anywhere but Japan!" },
         note: "Sentence-final plain form + もん (もの): \"but ~, you know\". A casual, self-justifying or childlike excuse, often with だって (〜んだもん)." }
     ]
   },
@@ -574,7 +574,7 @@ TRY.registerCompare([
         ex: { ja: "退院しても、病気が{完全|かんぜん}に治った**わけではありません**から、{無理|むり}をしないでください。", en: "Even though you've been discharged, that doesn't mean you're completely cured, so please don't overdo it." },
         note: "Plain form + わけではない: \"it's not (necessarily) that\". A partial or soft denial correcting an assumption, unlike the total denial of わけがない." },
       { pattern: "〜わけにはいかない", level: "N2", no: 57,
-        ex: { ja: "A：Bさん、{顔色|かおいろ}悪いよ。今日は{無理|むり}しないで{早退|そうたい}したら？\nB：でも、午後から大事な会議があるから、帰る**わけにはいかなくて**…。", en: "A: B, you look pale. Why not take it easy and go home early today?\nB: But I have an important meeting this afternoon, so I can't really go home..." },
+        ex: { ja: "A：Bさん、{顔色|かおいろ}悪いよ。今日は{無理|むり}しないで{早退|そうたい}したら？\nB：でも、午後から大事な会議があるから、帰る**わけにはいかなくて**…。", en: "A: You look pale. Why don't you take it easy and go home early today?\nB: But I have an important meeting this afternoon, so I can't very well go home…" },
         note: "V-る + わけにはいかない: \"can't (very well)\". Possible in principle but ruled out by social, moral or situational reasons; V-ない + わけにはいかない = \"have to\"." },
       { pattern: "〜わけだ①", level: "N2", no: 82,
         ex: { ja: "A：このチョコ、1{粒|つぶ}1,000円もするんだよ。\nB：え！　本当？　じゃあ、おいしい**わけ**よね。", en: "A: This chocolate costs 1,000 yen per piece.\nB: What? Really? No wonder it's delicious, then." },

@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "boss; superior (at work)",
     note: "Anyone above you at work: 上司に相談する, 上司と部下 (boss and subordinates). You don't address someone as 上司; you use their title (部長, 課長).",
     rx: ["うえし", "じょうじ", "しょうし"],
-    book: { ja: "それが**{上司|じょうし}**というものよ。", en: "That's what being a boss is all about.", at: "ch/6" },
+    book: { ja: "それが**{上司|じょうし}**というものよ。", en: "That's what bosses are like.", at: "ch/6" },
     ex: [
       { ja: "{仕事|しごと}で{困|こま}ったときは、まず**{上司|じょうし}**に{相談|そうだん}しなさい。", en: "When you have trouble at work, talk to your boss first.", alt: ["{上手|じょうず}", "{司会|しかい}", "{上品|じょうひん}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "wound; scratch; flaw, blemish; emotional hurt",
     note: "For people (傷が痛む), objects (車に傷がつく, a scratch or dent) and feelings (心の傷). 傷つく / 傷つける = be hurt / hurt someone. けが is an injury as an event.",
     rx: ["しょう", "きす", "くず"],
-    book: { ja: "今年のリンゴは{台風|たいふう}で**{傷|きず}**がついたばかりに、{市場|しじょう}{価値|かち}が下がってしまった。", en: "Just because the typhoon left marks on this year's apples, their market value dropped.", at: "gp/48" },
+    book: { ja: "今年のリンゴは{台風|たいふう}で**{傷|きず}**がついたばかりに、{市場|しじょう}{価値|かち}が下がってしまった。", en: "Just because the typhoon left this year's apples blemished, their market value went down.", at: "gp/48" },
     ex: [
       { ja: "{新|あたら}しいスマホを{落|お}として、{画面|がめん}に**{傷|きず}**がついてしまった。", en: "I dropped my new phone and scratched the screen.", alt: ["{癖|くせ}", "{穴|あな}", "{罪|つみ}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "value; worth",
     note: "価値がある (be valuable), 〜する価値がある (be worth doing), 市場価値, 価値観 (one's values). 価格 and 値段 are price; 価値 is worth.",
     rx: ["かあたい", "かじ", "がち"],
-    book: { ja: "今年のリンゴは{台風|たいふう}で{傷|きず}がついたばかりに、{市場|しじょう}**{価値|かち}**が下がってしまった。", en: "Just because the typhoon left marks on this year's apples, their market value dropped.", at: "gp/48" },
+    book: { ja: "今年のリンゴは{台風|たいふう}で{傷|きず}がついたばかりに、{市場|しじょう}**{価値|かち}**が下がってしまった。", en: "Just because the typhoon left this year's apples blemished, their market value went down.", at: "gp/48" },
     ex: [
       { ja: "この{映画|えいが}は一{度|ど}{見|み}る**{価値|かち}**がある。", en: "This movie is worth seeing at least once.", alt: ["{価格|かかく}", "{値段|ねだん}", "{物価|ぶっか}"] },
     ] },
@@ -144,7 +144,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "fond of looking after others; helpful (sometimes meddlesome)",
     note: "Someone who loves taking care of people and doing things for them: 世話好きなおばさん. From 世話 (care) + 好き, with 好き voiced to ずき as in 話し好き (talkative). お節介 is the negative “busybody”.",
     rx: ["せわこのみ", "せわすき", "よわずき"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "My impression is that in any country, people in the countryside, compared with city people, tend to be kinder and more willing to look after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で**{世話|せわ}{好|ず}き**な人が多いという{印象|いんしょう}がある。", en: "I get the impression that in every country, compared with city people, more people in the countryside are kind and happy to look after others.", at: "gp/50" },
     ex: [
       { ja: "{隣|となり}のおばさんは**{世話|せわ}{好|ず}き**で、よくおかずを{分|わ}けてくれる。", en: "The lady next door loves looking after people and often shares her side dishes with us.", alt: ["{物|もの}{好|ず}き", "{不器用|ぶきよう}", "{意地悪|いじわる}"] },
     ] },
@@ -152,7 +152,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "impression",
     note: "印象がいい / 悪い, 第一印象 (first impression), 印象に残る (be memorable), 印象的 (striking). 〜という印象がある = “I have the impression that ~”.",
     rx: ["いんぞう", "いんしょ", "いんじょう"],
-    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "My impression is that in any country, people in the countryside, compared with city people, tend to be kinder and more willing to look after others.", at: "gp/50" },
+    book: { ja: "どこの国でも{田舎|いなか}の人は{都会|とかい}の人に{比|くら}べて、{親切|しんせつ}で{世話|せわ}{好|ず}きな人が多いという**{印象|いんしょう}**がある。", en: "I get the impression that in every country, compared with city people, more people in the countryside are kind and happy to look after others.", at: "gp/50" },
     ex: [
       { ja: "{面接|めんせつ}では{第一|だいいち}**{印象|いんしょう}**がとても{大切|たいせつ}だ。", en: "In an interview, first impressions are very important.", alt: ["{現象|げんしょう}", "{対象|たいしょう}", "{印刷|いんさつ}"] },
     ] },
@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "poor; needy; meager",
     note: "貧しい家庭 / 国 (poor), 貧しい食事 (a meager meal), 心が貧しい (mean-spirited, small-minded). More formal than お金がない; 貧乏 is the everyday noun / な adjective.",
     rx: ["びんしい", "ひんしい", "まぶしい"],
-    book: { ja: "**{貧|まず}しくても**家族が{仲|なか}よく{暮|く}らせるのが{幸|しあわ}せというものですよ。", en: "Being able to live together happily as a family, even if you're poor — that's what happiness is.", at: "gp/52" },
+    book: { ja: "**{貧|まず}しくても**家族が{仲|なか}よく{暮|く}らせるのが{幸|しあわ}せというものですよ。", en: "Being able to live together in harmony as a family, even if you're poor — that's what happiness is.", at: "gp/52" },
     ex: [
       { ja: "{彼|かれ}は**{貧|まず}しい**{家庭|かてい}に{育|そだ}ったが、{努力|どりょく}して{医者|いしゃ}になった。", en: "He grew up in a poor family, but through hard work became a doctor.", alt: ["{涼|すず}しい", "{険|けわ}しい", "{惜|お}しい"] },
     ] },
@@ -254,7 +254,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "an average year; as in other years",
     note: "Common in weather news: 例年並み (about the same as usual), 例年より早い / 遅い, 例年通り (as in other years). 毎年 is the everyday “every year”.",
     rx: ["れいとし", "りねん", "れんねん"],
-    book: { ja: "今年は**{例年|れいねん}**＿＿雨が少ないので、{水不足|みずぶそく}が{心配|しんぱい}だ。", en: "There's been less rain this year than in an average year, so I'm worried about a water shortage.", at: "ch/6" },
+    book: { ja: "今年は**{例年|れいねん}**＿＿雨が少ないので、{水不足|みずぶそく}が{心配|しんぱい}だ。", en: "We've had less rain this year than usual, so I'm worried about a water shortage.", at: "ch/6" },
     ex: [
       { ja: "{今年|ことし}の{桜|さくら}は**{例年|れいねん}**より一{週間|しゅうかん}ほど{早|はや}く{咲|さ}いた。", en: "This year the cherry blossoms bloomed about a week earlier than usual.", alt: ["{毎年|まいとし}", "{例外|れいがい}", "{年代|ねんだい}"] },
     ] },
@@ -286,7 +286,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "each other; mutual",
     note: "Usually お互い / お互いに: お互いに助け合う (help each other), お互いさま (we're in the same boat; no need to thank me). 互いに without お is more written.",
     rx: ["ごい", "かたがい", "たかい"],
-    book: { ja: "{親友|しんゆう}であればこそ、お**{互|たが}い**の{欠点|けってん}を{指摘|してき}し合えるのだ。", en: "It's precisely because we are best friends that we can point out each other's faults.", at: "gp/53" },
+    book: { ja: "{親友|しんゆう}であればこそ、お**{互|たが}い**の{欠点|けってん}を{指摘|してき}し合えるのだ。", en: "It's precisely because we're best friends that we can point out each other's faults.", at: "gp/53" },
     ex: [
       { ja: "{私|わたし}たちはお**{互|たが}い**の{国|くに}の{言葉|ことば}を{教|おし}え{合|あ}っている。", en: "We teach each other our countries' languages.", alt: ["{違|ちが}い", "{誓|ちか}い", "{構|かま}い"] },
     ] },
@@ -294,7 +294,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "flaw; weak point; drawback",
     note: "欠点がある, 欠点を直す / 補う. The opposite is 長所 or 利点 (advantage). 短所 is used mainly for personality (長所と短所); 欠点 covers people and things.",
     rx: ["けつてん", "げってん", "けってい"],
-    book: { ja: "{親友|しんゆう}であればこそ、お{互|たが}いの**{欠点|けってん}**を{指摘|してき}し合えるのだ。", en: "It's precisely because we are best friends that we can point out each other's faults.", at: "gp/53" },
+    book: { ja: "{親友|しんゆう}であればこそ、お{互|たが}いの**{欠点|けってん}**を{指摘|してき}し合えるのだ。", en: "It's precisely because we're best friends that we can point out each other's faults.", at: "gp/53" },
     ex: [
       { ja: "この{部屋|へや}は{広|ひろ}くて{明|あか}るいが、{駅|えき}から{遠|とお}いのが**{欠点|けってん}**だ。", en: "This apartment is spacious and bright, but its drawback is that it's far from the station.", alt: ["{利点|りてん}", "{欠席|けっせき}", "{地点|ちてん}"] },
     ] },
@@ -302,7 +302,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "pointing out (a problem or error)",
     note: "間違いを指摘する, 問題点を指摘される, ご指摘ありがとうございます (thank you for pointing that out). 注意 is warning someone; 指導 is guiding or coaching.",
     rx: ["しでき", "しせき", "ゆびてき"],
-    book: { ja: "{親友|しんゆう}であればこそ、お{互|たが}いの{欠点|けってん}を**{指摘|してき}**し合えるのだ。", en: "It's precisely because we are best friends that we can point out each other's faults.", at: "gp/53" },
+    book: { ja: "{親友|しんゆう}であればこそ、お{互|たが}いの{欠点|けってん}を**{指摘|してき}**し合えるのだ。", en: "It's precisely because we're best friends that we can point out each other's faults.", at: "gp/53" },
     ex: [
       { ja: "{上司|じょうし}に{資料|しりょう}のミスを**{指摘|してき}**された。", en: "My boss pointed out a mistake in my materials.", alt: ["{指導|しどう}", "{指定|してい}", "{適切|てきせつ}"] },
     ] },
@@ -310,7 +310,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "injection; shot",
     note: "注射を打つ (give a shot), 注射を受ける, 予防注射 (vaccination). 駐車 (parking) is also ちゅうしゃ — a common pun and pitfall.",
     rx: ["ちゅうや", "ちゅしゃ", "じゅうしゃ"],
-    book: { ja: "**{注射|ちゅうしゃ}**だから痛くないことはないでしょうけど、{看護師|かんごし}さんによって痛さが{全然|ぜんぜん}違うんですよ。", en: "It's an injection, so I suppose it can't be completely painless, but how much it hurts depends completely on the nurse.", at: "gp/54" },
+    book: { ja: "**{注射|ちゅうしゃ}**だから痛くないことはないでしょうけど、{看護師|かんごし}さんによって痛さが{全然|ぜんぜん}違うんですよ。", en: "It's a shot, so I suppose it's not going to be completely painless, but how much it hurts varies hugely from one nurse to another.", at: "gp/54" },
     ex: [
       { ja: "{子|こ}どもは**{注射|ちゅうしゃ}**が{怖|こわ}くて{泣|な}き{出|だ}した。", en: "Scared of the shot, the child burst into tears.", alt: ["{駐車|ちゅうしゃ}", "{発射|はっしゃ}", "{注文|ちゅうもん}"] },
     ] },
@@ -350,7 +350,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "complexion; color (of one's face); the look on someone's face",
     note: "顔色が悪い (look pale / unwell), 顔色が変わる (change color), 人の顔色をうかがう (watch someone's mood). 表情 is facial expression.",
     rx: ["かおしょく", "かおいろう", "かいろ"],
-    book: { ja: "Bさん、**{顔色|かおいろ}**悪いよ。", en: "B, you look pale.", at: "gp/57" },
+    book: { ja: "Bさん、**{顔色|かおいろ}**悪いよ。", en: "You look pale.", at: "gp/57" },
     ex: [
       { ja: "{大丈夫|だいじょうぶ}？**{顔色|かおいろ}**が{真|ま}っ{青|さお}だよ。", en: "Are you OK? You're as white as a sheet.", alt: ["{景色|けしき}", "{色彩|しきさい}", "{目上|めうえ}"] },
     ] },
@@ -429,7 +429,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "wild bird",
     note: "野鳥観察 (bird-watching), 野鳥を撮る, 日本野鳥の会 (the Wild Bird Society of Japan). The prefix 野 (や) marks something wild: 野生 (wild), 野草 (wild plants).",
     rx: ["のちょう", "やどり", "やっちょう"],
-    book: { ja: "えー！　**{野鳥|やちょう}**を{撮|と}るんだ＿＿。もっといいカメラじゃなきゃだめよ。", en: "What? But you're going to photograph wild birds. It has to be a better camera than that.", at: "ch/6" },
+    book: { ja: "えー！　**{野鳥|やちょう}**を{撮|と}るんだ＿＿。もっといいカメラじゃなきゃだめよ。", en: "What? But you're going to be shooting wild birds! You need a much better camera than that.", at: "ch/6" },
     ex: [
       { ja: "{週末|しゅうまつ}は{双眼鏡|そうがんきょう}を{持|も}って、{公園|こうえん}で**{野鳥|やちょう}**を{観察|かんさつ}している。", en: "On weekends I take binoculars to the park and watch wild birds.", alt: ["{野菜|やさい}", "{野党|やとう}", "{朝食|ちょうしょく}"] },
     ] },
@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "to pack; to stuff; to fill; to move closer together",
     note: "箱に詰める, 袋に詰める, 席を詰める (squeeze up to make room), 息を詰める (hold one's breath). The intransitive is 詰まる (be packed, clogged). 詰め放題 is a sale where you pay per bag and stuff in as much as fits.",
     rx: ["きつめる", "つまめる", "とめる"],
-    book: { ja: "この{袋|ふくろ}に**{詰|つ}められる**＿＿つめて200円ですから、お{買|か}い{得|どく}ですよ。", en: "You can pack in as much as fits in this bag for 200 yen, so it's a real bargain.", at: "ch/6" },
+    book: { ja: "この{袋|ふくろ}に**{詰|つ}められる**＿＿つめて200円ですから、お{買|か}い{得|どく}ですよ。", en: "You can stuff as much as you can fit into this bag for 200 yen, so it's a real bargain.", at: "ch/6" },
     ex: [
       { ja: "{引|ひ}っ{越|こ}しのために、{本|ほん}を{段|だん}ボールに**{詰|つ}めた**。", en: "I packed my books into cardboard boxes for the move.", alt: ["{締|し}めた", "{詰|つ}まった", "{込|こ}めた"] },
     ] },
@@ -445,7 +445,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "a bargain; good value",
     note: "Shop and ad language: お買い得品 (bargain items), 今がお買い得です (now is the time to buy). お得 alone is also common (お得なセット, a value set). 得 (とく) means profit or advantage.",
     rx: ["おかいとく", "おばいどく", "おかいえ"],
-    book: { ja: "この{袋|ふくろ}に{詰|つ}められる＿＿つめて200円ですから、**お{買|か}い{得|どく}**ですよ。", en: "You can pack in as much as fits in this bag for 200 yen, so it's a real bargain.", at: "ch/6" },
+    book: { ja: "この{袋|ふくろ}に{詰|つ}められる＿＿つめて200円ですから、**お{買|か}い{得|どく}**ですよ。", en: "You can stuff as much as you can fit into this bag for 200 yen, so it's a real bargain.", at: "ch/6" },
     ex: [
       { ja: "この{洗剤|せんざい}は{大|おお}きいサイズのほうが**お{買|か}い{得|どく}**だ。", en: "With this detergent, the large size is better value.", alt: ["お{買|か}い{物|もの}", "お{気|き}に{入|い}り", "お{得意|とくい}"] },
     ] },
