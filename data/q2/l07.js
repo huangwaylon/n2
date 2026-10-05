@@ -2962,7 +2962,7 @@ TRY.registerLesson({
      "id": "l7-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
