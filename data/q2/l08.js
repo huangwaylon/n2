@@ -1819,16 +1819,16 @@ TRY.registerLesson({
       "ら茶道への愛を感じました。　（聞き手　サラ・ゴミス）"
      ],
      "tr": [
-      "I asked Wang Meilin, who is in the same Japanese class as me, about the tea ceremony, which she is really into right now.",
+      "I asked Wang Meilin-san, who is in my Japanese class, about the tea ceremony, which she is really into right now.",
       "What got you started in the tea ceremony?",
-      "Joining the tea ceremony club. I had been interested in it since before I came to Japan, but I thought the tea ceremony would be difficult. But when I went with a friend to the tea ceremony club's trial tea gathering, it turned out to be fun. So I joined the club right away.",
+      "Joining the tea ceremony club. I'd been interested in it since before I came to Japan, but I thought it would be difficult. Then I went with a friend to a trial tea gathering the club was holding, and it turned out to be fun. So I joined the club right away.",
       "What kind of practice do you do in the tea ceremony club?",
-      "We learn the basic etiquette by watching our seniors. There are rules for every single thing, such as how to bow, how to step forward, and how to walk, so we practice over and over until we can do it all without thinking. Even after two months had passed, I still couldn't remember them properly, and I wondered, \"Why are there so many rules?\" and worried, \"Will I ever be able to learn them all?\"",
-      "That sounds tough. What changed between before and after you started the tea ceremony? If the tea ceremony has influenced you in some way, please tell me.",
+      "We learn the basic etiquette by watching our seniors. There are rules for every single thing, such as how to bow, how to move your feet, and how to walk, so we practice over and over until we can do it all without thinking. Even after two months had passed, I still couldn't remember them properly, and I wondered, \"Why are there so many rules?\" and worried, \"Will I ever be able to learn them all?\"",
+      "That sounds tough. How have you changed since you started the tea ceremony? If it has influenced you in any way, please tell me.",
       "I think I've become calmer and better at concentrating. I've always been restless, but as I kept practicing the tea ceremony, I feel that my mind, along with my movements, has calmed down.",
       "What do you think is the greatest appeal of the tea ceremony?",
       "That by learning the etiquette, you come to feel gratitude anew toward the people there with you. For example, before you eat the sweets or drink the tea, you are supposed to say \"Osaki ni\" (\"Excuse me for going first\") to the person next to you; this is consideration for the others taking part in the tea gathering with you. Also, when you drink the tea, you show your gratitude to the host who is holding the gathering by saying \"Otemae chodai itashimasu\" (\"I humbly receive your tea\"). When I realized that everything laid down as etiquette in this way has a meaning and is connected to gratitude, I was glad I had taken up the tea ceremony.",
-      "I had an image of the tea ceremony as something difficult, but listening to Wang-san, I feel I came to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
+      "I had imagined the tea ceremony as something difficult, but listening to Wang-san, I feel I've come to understand a little of its depth. I could sense her love for the tea ceremony in the way she talked about it. (Interviewer: Sara Gomis)"
      ],
      "headTr": [
       "The Tea Ceremony and Wang Meilin",
@@ -2092,7 +2092,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "質問に対する答えをまず一言でまとめ、その後に説明を加える。…… (a)",
-        "tr": "Sum up the answer to the question in a few words first, then add an explanation. …… (a)"
+        "tr": "First sum up the answer to the question in a single phrase, then add an explanation. …… (a)"
        },
        "blocks": [
         {
@@ -2105,7 +2105,7 @@ TRY.registerLesson({
           },
           {
            "ja": "まず答えの要点だけを一言で短く書いてから、詳しい説明を続ける。",
-           "tr": "First write just the main point of the answer briefly, in a few words, and then follow it with a detailed explanation."
+           "tr": "First write just the main point of the answer, briefly, in a single phrase, and then follow it with a detailed explanation."
           }
          ]
         },
@@ -2216,7 +2216,7 @@ TRY.registerLesson({
        "n": "(3)",
        "text": {
         "ja": "インタビューをしましょう。相手に興味を持って話を聞き、必要であれば（2）で考えておいたこと以外の質問や、{具体的|ぐたいてき}に詳しく聞く質問をしましょう。メモをとったり、録音したりしましょう。",
-        "tr": "Do the interview. Listen to the person with genuine interest, and if necessary, ask questions other than the ones you prepared in (2), or questions that ask for specific details. Take notes or make a recording."
+        "tr": "Do the interview. Listen with interest to what the person says, and if necessary, ask questions other than the ones you prepared in (2), or questions that ask for specific details. Take notes or make a recording."
        }
       },
       {
@@ -2413,7 +2413,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "もしもし、すみません、\n3時間ほど前にチェックアウトしたテイラーと申します。\n＿＿ようなのですが……。",
-            "tr": "Hello, excuse me, my name is Taylor; I checked out about three hours ago. It seems that I ＿＿..."
+            "tr": "Hello, I'm sorry to bother you. My name is Taylor; I checked out about three hours ago. I seem to have ＿＿..."
            },
            "answer": [
             "部屋に{財布|さいふ}を忘れてしまった"
@@ -2441,7 +2441,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "そうですか！＿＿が、予約した時の住所に、\n＿＿ていただけませんか。\n＿＿すみません。よろしくお願いします。",
-            "tr": "Really? ＿＿, but could you ＿＿ to the address I gave when I made the reservation? Sorry to ＿＿. Thank you very much."
+            "tr": "Really? ＿＿, but could you ＿＿ to the address I gave when I made the reservation? I'm sorry ＿＿. Thank you very much."
            },
            "answer": [
             "申し訳ありません",
@@ -2484,7 +2484,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "もしもし、❶**すみません、**3時間ほど前にチェックアウトしたテイラーと申します。部屋に{財布|さいふ}**を忘れてしまったようなのですが**……。",
-       "tr": "Hello, excuse me, my name is Taylor; I checked out about three hours ago. It seems that I left my wallet in the room..."
+       "tr": "Hello, I'm sorry to bother you. My name is Taylor; I checked out about three hours ago. I seem to have left my wallet in the room..."
       },
       {
        "sp": "ス",
@@ -2502,7 +2502,7 @@ TRY.registerLesson({
        "sp": "ス",
        "v": "m",
        "ja": "ジョージ・テイラー様ですね。{確認|かくにん}いたしますので、少々お待ちください。……お待たせいたしました。{清掃|せいそう}時には{見|み}{当|あ}たらなかったようですが。",
-       "tr": "Mr. George Taylor. Let me check; one moment, please. ... Thank you for waiting. It seems nothing was found when the room was cleaned, I'm afraid."
+       "tr": "Mr. George Taylor. Let me check; one moment, please. ... Thank you for waiting. I'm afraid nothing seems to have been found when the room was cleaned."
       },
       {
        "sp": "ジ",
@@ -2569,7 +2569,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "そうですか！❻**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで送っ**ていただけませんか。**",
-       "tr": "Really? I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, with the shipping paid on delivery?"
+       "tr": "Really? I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, cash on delivery?"
       },
       {
        "sp": "ス",
@@ -2670,7 +2670,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "（〜と申します。）\n**すみません、**部屋に{財布|さいふ}**を忘れてしまったようなのですが**……。",
-        "tr": "(My name is ….) Excuse me, it seems that I left my wallet in the room..."
+        "tr": "(My name is ….) I'm sorry to bother you, but I seem to have left my wallet in the room..."
        }
       },
       {
@@ -2768,7 +2768,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**申し訳ありませんが、**予約した時の住所に{着払|ちゃくばら}いで\n送っ**ていただけませんか。**",
-        "tr": "I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, with the shipping paid on delivery?"
+        "tr": "I'm sorry to trouble you, but could you send it to the address I gave when I made the reservation, cash on delivery?"
        }
       },
       {
@@ -2827,7 +2827,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "（〜と申します。）❶**すみません、**{{部屋}}に{{{財布|さいふ}}}**を忘れてしまったようなのですが**……。",
-         "tr": "(My name is ….) Excuse me, it seems that I left my wallet in the room..."
+         "tr": "(My name is ….) I'm sorry to bother you, but I seem to have left my wallet in the room..."
         },
         {
          "sp": "スタッフ",
@@ -2884,7 +2884,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❻**申し訳ありませんが、**{{｛予約した時の住所に{着払|ちゃくばら}いで送っ／取りにうかがうので{預|あず}かってい｝}}**ていただけませんか。**❼**お{手数|てすう}をおかけしてすみません。よろしくお願いします。**",
-         "tr": "I'm sorry to trouble you, but could you [send it to the address I gave when I made the reservation, with the shipping paid on delivery / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
+         "tr": "I'm sorry to trouble you, but could you [send it cash on delivery to the address I gave when I made the reservation / hold on to it, since I'll come to pick it up]? I'm sorry for the trouble. Thank you very much."
         }
        ]
       }
@@ -2897,7 +2897,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "大学で{財布|さいふ}を落としたようです。大学に電話をかけて{事務員|じむいん}に聞きなさい。",
-        "tr": "It seems you lost your wallet at the university. Call the university and ask the office staff."
+        "tr": "You seem to have dropped your wallet somewhere at the university. Call the university and ask the office staff."
        }
       },
       {
@@ -3035,7 +3035,7 @@ TRY.registerLesson({
      "id": "l8-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -3045,7 +3045,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "最近よく使っているものや、気に入っているものの中で、他の人にもおすすめしたいものがありますか。それについて下の表に書きなさい。{魅|み}{力|りょく}が3つぐらい言えるものを選びましょう。",
-        "tr": "Among the things you've been using a lot lately or that you really like, is there anything you'd like to recommend to other people too? Write about it in the table below. Pick something you can name about three good points for."
+        "tr": "Among the things you've been using a lot lately or that you really like, is there anything you'd like to recommend to other people too? Write about it in the table below. Choose something with about three points of appeal you can name."
        },
        "blocks": [
         {
@@ -3097,7 +3097,7 @@ TRY.registerLesson({
        "n": "2）",
        "text": {
         "ja": "1）で考えたことについて、ペアか3〜4人のグループになって3分で紹介しなさい。",
-        "tr": "Get into pairs or groups of three or four and present what you thought about in 1) in three minutes."
+        "tr": "In pairs or groups of three or four, take three minutes to present what you came up with in 1)."
        }
       }
      ]
@@ -3263,7 +3263,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "残念！　❸**ご覧のとおり、見た目は**ご飯を温かいまま持っていけるランチジャー**のようですが、これは**「ご飯が{炊|た}ける弁当箱」**なんです。**❹コンセントがなくても、{生|なま}のお{米|こめ}からご飯が炊ける**のが特徴です。**容器に米と水を入れ電子レンジでチンし**て使います。**8分チンして30分保温すれば、完成です。家の電子レンジでチンしてから出かければ、通勤中、通学中にご飯が炊け、お昼においしいご飯が食べられます。\n❺**また、**この弁当箱が役に立つ**のは、実は**お弁当の時**だけじゃないんです。**{一人|ひとり}{暮|ぐ}らしの人や、長期の出張や旅行中にご飯が食べたい人は、{炊|すい}{飯|はん}{器|き}の{代|か}わりとしても使えます。普通の炊飯器より小さく、値段もずっと安いです。\n**そして特に私がすばらしいと思うのは、**味がよい**点です。**電子レンジで温め直したご飯や、保温機能がある弁当箱で持っていったご飯とは、全然おいしさが違います。炊いてすぐのおいしさが、食べる時まで続いています。\n❻**このように、**移動しながらでも簡単にご飯が炊けて、おいしさが長持ちする**のが、**この弁当箱の**{魅|み}{力|りょく}です。**ご飯好きなら、❼**ぜひ一度{試|ため}してみてください。**",
-       "tr": "Too bad! As you can see, it looks like an insulated lunch jar that lets you carry rice while keeping it warm, but this is actually a \"lunch box that cooks rice.\" Its special feature is that it can turn raw rice into cooked rice even without an outlet. You use it by putting rice and water in the container and heating it in the microwave. Microwave it for eight minutes, keep it warm for thirty minutes, and it's done. If you microwave it at home before you leave, the rice cooks while you're commuting to work or school, and you can eat delicious rice at lunchtime.\nAlso, this lunch box is actually useful not only for packed lunches. People who live alone, or who want to eat rice during long business trips or while traveling, can also use it as a substitute for a rice cooker. It's smaller than an ordinary rice cooker, and much cheaper too.\nAnd what I think is especially great is that it tastes good. It's completely different from rice reheated in the microwave or rice carried in a thermal lunch box. It stays as delicious as freshly cooked rice right up until you eat it.\nSo the appeal of this lunch box is that you can easily cook rice even while on the move, and it stays delicious for a long time. If you love rice, please give it a try."
+       "tr": "Not quite! As you can see, it looks like an insulated lunch jar that lets you carry rice while keeping it warm, but this is actually a \"lunch box that cooks rice.\" Its special feature is that it can turn raw rice into cooked rice even without an outlet. You use it by putting rice and water in the container and heating it in the microwave. Microwave it for eight minutes, keep it warm for thirty minutes, and it's done. If you microwave it at home before you leave, the rice cooks while you're commuting to work or school, and you can eat delicious rice at lunchtime.\nAlso, this lunch box is actually useful not only for packed lunches. People who live alone, or who want to eat rice during long business trips or while traveling, can also use it as a substitute for a rice cooker. It's smaller than an ordinary rice cooker, and much cheaper too.\nAnd what I think is especially great is that it tastes good. It tastes completely different from rice reheated in the microwave or rice carried in a lunch box that keeps food warm. It stays as delicious as freshly cooked rice right up until you eat it.\nSo the appeal of this lunch box is that you can easily cook rice even while on the move, and it stays delicious for a long time. If you love rice, please give it a try."
       }
      ]
     },
@@ -3407,7 +3407,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**また、**このお弁当箱が役に立つ**のは、実は**お弁当の時**だけじゃないんです。**\n{炊|すい}{飯|はん}{器|き}の{代|か}わりとしても使えます。\n**そして特に私がすばらしいと思うのは、**味がよい**点です。**\n電子レンジで温め直したご飯とは全然おいしさが違います。",
-        "tr": "Also, this lunch box is actually useful not only for packed lunches. You can also use it as a substitute for a rice cooker. And what I think is especially great is that it tastes good. It's completely different from rice reheated in the microwave."
+        "tr": "Also, this lunch box is actually useful not only for packed lunches. You can also use it as a substitute for a rice cooker. And what I think is especially great is that it tastes good. It tastes completely different from rice reheated in the microwave."
        }
       },
       {
@@ -3423,7 +3423,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**このように、**簡単にご飯が炊けて、しかも、おいしい**のが魅力です。**",
-        "tr": "So its appeal is that you can cook rice easily, and it's delicious, too."
+        "tr": "So its appeal is that you can cook rice easily, and what's more, it's delicious."
        }
       },
       {
@@ -3482,7 +3482,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶＿＿［あいさつ］＿＿。＿＿**と感じたことはありませんか。**\n❷**今日は、そんな**｛**{希|き}{望|ぼう}をかなえてくれる**／**{悩|なや}みを解決してくれる**｝\n＿＿**を紹介したいと思います。**\n❸**こちらをご{覧|らん}ください。ご覧のとおり、見た目は**＿＿**（のよう）**\n**ですが、これは**＿＿**なんです。**\n❹＿＿**て使います。**＿＿［もっと説明する］＿＿。\n❺**また、**｛{{この〇〇が}}＿＿**のは**／{{この〇〇}}＿＿**の{魅|み}{力|りょく}は**｝、\n**実は**＿＿**だけじゃないんです。**＿＿［もっと説明する］＿＿。\n**そして、特に私がすばらしいと思うのは、**＿＿**点です。**\n＿＿［もっと説明する］＿＿。\n❻**このように、**＿＿**のが魅力です。**\n❼＿＿{{なら}}、**ぜひ一度**＿＿**てみてください。**",
-         "tr": "[Greeting] …. Have you ever felt …?\nToday I'd like to introduce … that (makes that wish come true / solves that problem).\nPlease take a look at this. As you can see, it looks like … , but this is actually ….\nYou use it by …. [Explain more] ….\nAlso, (this … is useful … / the appeal of this … is) actually not only …. [Explain more] ….\nAnd what I think is especially great is that ….\n[Explain more] ….\nSo its appeal is that ….\nIf you …, please try … at least once."
+         "tr": "[Greeting] …. Have you ever felt …?\nToday I'd like to introduce … that (makes that wish come true / solves that problem).\nPlease take a look at this. As you can see, it looks like … , but this is actually ….\nYou use it by …. [Explain more] ….\nAlso, (this … is useful … / the appeal of this … is) actually not only …. [Explain more] ….\nAnd what I think is especially great is that ….\n[Explain more] ….\nSo its appeal is that ….\nIf you …, please be sure to try …."
         }
        ]
       }
@@ -3495,7 +3495,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "3〜4人のグループになり、「2-1. やってみよう」の 1) (p. 58) で考えた「最近気に入っている便利な物」について、{魅|み}{力|りょく}を伝えるスピーチをしなさい。\nスピーチをする前にアウトラインを考えましょう。",
-        "tr": "Get into groups of three or four and give a speech conveying the appeal of the \"handy thing you've come to like recently\" that you thought about in 1) of \"2-1. Let's try it\" (p. 58).\nThink of an outline before you give the speech."
+        "tr": "Get into groups of three or four and give a speech conveying the appeal of the \"handy thing you've come to like recently\" that you thought about in 1) of \"2-1. Let's try\" (p. 58).\nThink of an outline before you give the speech."
        }
       },
       {
@@ -3699,7 +3699,7 @@ TRY.registerLesson({
        "sp": "社",
        "v": "f",
        "ja": "では、まず、{別府|べっぷ}のプランです。別府は温泉の数が日本一多く、いろいろな温泉に入って違いを楽しんでいただけます。ご宿泊いただくのは{露天風呂|ろてんぶろ}に__こだわった__和風旅館で、一泊二食付きでございます。こちらの旅館からは歩いて温泉{巡|めぐ}りをしていただけます。",
-       "tr": "Well then, first, the Beppu plan. Beppu has more hot springs than anywhere else in Japan, so you can bathe in all sorts of hot springs and enjoy the differences. You'll stay at a Japanese-style inn that takes great pride in its outdoor baths, with two meals included for one night. From this inn you can walk around and tour the hot springs."
+       "tr": "Well then, first, the Beppu plan. Beppu has more hot springs than anywhere else in Japan, so you can bathe in all sorts of hot springs and enjoy the differences. You'll stay at a Japanese-style inn that puts special care into its outdoor baths, one night with two meals included. From this inn you can go bath-hopping on foot."
       },
       {
        "sp": "メイリン",
@@ -3894,7 +3894,7 @@ TRY.registerLesson({
            "n": "③",
            "text": {
             "ja": "{研|けん}は、日本人がタトゥーを怖いものだと思っていることを変えることは難しいと思っている。",
-            "tr": "Ken thinks it would be difficult to change the fact that Japanese people see tattoos as scary."
+            "tr": "Ken thinks it would be hard to change Japanese people's view of tattoos as scary."
            },
            "answer": "○"
           },
@@ -3982,7 +3982,7 @@ TRY.registerLesson({
        "sp": "{研|けん}",
        "v": "m",
        "ja": "うーん。{入|い}れ{墨|ずみ}にヤクザのイメージがあるから、それに近いタトゥーも{怖|こわ}がられるんだと思う。",
-       "tr": "Hmm. Traditional irezumi tattoos are associated with the yakuza, so I think tattoos, being similar, are seen as scary too."
+       "tr": "Hmm. Irezumi, the traditional tattoos, are associated with the yakuza, so I think tattoos, which look similar, are feared too."
       },
       {
        "sp": "サ",
@@ -4036,7 +4036,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "へえ、そうなんだ。でも、シールを準備するのにはお金がかかるし、貸切風呂がない温泉もあるだろうし、まだまだ課題がありそうだね。",
-       "tr": "Huh, is that right? But getting the stickers costs money, and some hot springs probably don't have private baths, so it looks like there are still a lot of issues."
+       "tr": "Huh, really? But getting the stickers costs money, and some hot springs probably don't have private baths, so it looks like there are still a lot of issues."
       },
       {
        "sp": "研",
