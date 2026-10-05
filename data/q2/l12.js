@@ -83,7 +83,7 @@ TRY.registerLesson({
      "icon": "read",
      "text": {
       "ja": "奇跡の職場　{新幹線清掃|しんかんせんせいそう}チームの“働く{誇|ほこ}り”",
-      "tr": "The Miracle Workplace: The “Pride in Work” of a Shinkansen Cleaning Team"
+      "tr": "The Miracle Workplace: The Shinkansen Cleaning Team's “Pride in Their Work”"
      }
     },
     {
@@ -101,7 +101,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "{清掃|せいそう}の仕事にどんなイメージがありますか。",
-        "tr": "What image do you have of cleaning work?"
+        "tr": "What comes to mind when you think of cleaning work?"
        }
       },
       {
@@ -145,14 +145,14 @@ TRY.registerLesson({
        "n": "4.",
        "text": {
         "ja": "現場ありきの「全員経営」（行23）のメリット、デメリットは何だと思いますか。",
-        "tr": "What do you think are the advantages and disadvantages of front-line-first “management by everyone” (line 23)?"
+        "tr": "What do you think are the advantages and disadvantages of “management by everyone” built around the front line (line 23)?"
        }
       },
       {
        "n": "5.",
        "text": {
         "ja": "「スタッフをやる気にさせる取り組みが国内外で{評価|ひょうか}され」（行54）とありますが、職場でスタッフをやる気にさせるために必要なことは何だと思いますか。",
-        "tr": "The text says, “its efforts to motivate its staff have been praised both in Japan and abroad” (line 54). What do you think is necessary to motivate staff in the workplace?"
+        "tr": "The text says, “efforts to motivate the staff were recognized in Japan and abroad” (line 54). What do you think it takes to motivate staff in the workplace?"
        }
       }
      ]
@@ -191,7 +191,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "あなたはどんな{寓話|ぐうわ} (fable) やファンタジーを知っていますか。それにはどんな{教訓|きょうくん} (moral lesson) がありますか。",
-        "tr": "What fables or fantasies do you know? What moral lessons do they have?"
+        "tr": "What fables or fantasy stories do you know? What moral lessons do they teach?"
        }
       }
      ]
@@ -234,7 +234,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "考え方や気持ちの持ち方で変えられると思う常識はありますか。それはどんなことですか。",
-        "tr": "Is there any common belief that you think can be changed by the way you think or the attitude you take? What is it?"
+        "tr": "Is there anything accepted as common sense that you think could be changed by a different way of thinking or a different attitude? What is it?"
        }
       }
      ]
@@ -304,22 +304,22 @@ TRY.registerLesson({
       "『奇跡の職場──新幹線清掃チームの“働く誇り”』あさ出版"
      ],
      "tr": [
-      "We at TESSEI, formally JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. What sets TESSEI's shinkansen cleaning apart most is its \"speed.\" As a CNN program put it when it called this a \"7 minute miracle,\" we clean an entire shinkansen in just seven minutes.",
-      "\"Cleaning\" may sound simple, but the tasks are many and varied: we gather up the trash that has collected under the seats and in the storage spaces, turn the seats back to face the direction of travel, wipe all 100 tables, raise the window blinds, wipe the window frames, change the seat covers, check for lost items and, if there are any, keep careful track of them so they don't go missing, contact JR and deal with it if we find anything broken, bundle up the trash we've collected and take it out, and so on.",
-      "During the height of the bubble economy in the 1980s, the term \"3K\" became popular. It was made from the initial letters of kitsui, kitanai, kiken (\"hard, dirty, dangerous\") and was used for jobs that people tended to shy away from. Cleaning shinkansen is exactly that kind of \"3K\" job.",
+      "We at TESSEI, formally JR East Techno Heart TESSEI Co., Ltd., are a \"cleaning company\" in charge of cleaning the Tohoku and Joetsu Shinkansen. The most distinctive feature of TESSEI's shinkansen cleaning is \"how fast we clean.\" As a CNN program put it, calling it a \"7 minute miracle,\" we get a whole shinkansen clean in just seven minutes.",
+      "When we say \"cleaning,\" though, there is a wide variety of things we have to do: we gather up the trash that has collected under the seats and in the storage spaces, turn the seats back to face the direction of travel, wipe all 100 tables, raise the window blinds, wipe the window frames, change the seat covers, check for lost items and, if there are any, keep careful track of them so they don't go missing, report anything we find broken to JR and deal with it, bundle up the trash we've collected and take it out, and so on.",
+      "At the peak of the bubble economy in the 1980s, the term \"3K\" was in vogue for a time. It was made from the initial letters of kitsui, kitanai, kiken (\"hard, dirty, dangerous\") and was used for jobs that people tended to shy away from. Cleaning shinkansen is the very definition of a \"3K\" job.",
       "Yet the staff working on-site all have cheerful faces and are full of motivation.",
-      "Of course, that is probably because the only people who stay with us are those who are suited to TESSEI's way of thinking and to the work, and who keep their motivation strong. But I think what matters even more is that this company aims for \"management by everyone,\" built on the front line.",
+      "Of course, that is probably because the only people who stay with us are those who are suited to TESSEI's way of thinking and to the work, and who keep their motivation strong. But I think what matters even more is that this company aims for \"management by everyone,\" built around the front line.",
       "We do have a set uniform, but all the ideas for letting our customers feel the seasons, such as wearing aloha shirts or yukata in summer, putting hibiscus or cherry blossoms on our caps, and Christmas touches in December, started as ideas from the employees on the front line. And each one of them ends up bringing energy to what would otherwise be a \"3K\" workplace.",
       "TESSEI's main sources of income are cleaning train cars and stations. We calculate charges as \"X yen per trainset\" or \"X yen per so many square meters,\" so we are paid according to the amount of cleaning we do.",
-      "So the more extra trains are added, the more our income goes up. On the other hand, services such as bowing or giving directions don't bring in any income.",
+      "So the more trains are added to the schedule, the more our income rises in proportion. On the other hand, services such as bowing or giving directions aren't something we earn any income from.",
       "But for our staff they are very important. That's because when they provide a service to a customer and receive, say, a single word of \"thank you,\" it leads to a sense of self-worth and confidence.",
-      "From my point of view, that is no more than \"just how things turned out,\" but when I look around, it also seems to me that society as a whole is now moving in that direction.",
-      "In other words, the age when only \"making money\" was considered a virtue is over. Since it is a business, of course it's important to earn as much money as we can, but aren't we now entering an age in which the premise underlying all that, an awareness of \"doing something for others\" and \"being useful,\" carries great weight?",
-      "I think this is a point that can't be ignored in understanding the times.",
-      "Those feelings on the part of the people working turn into gratitude from the people who receive the service, and from there all sorts of virtuous cycles are born. Isn't that kind of cycle what work, today and in the years to come, will be built on?"
+      "As I see it, this is merely \"how things happened to turn out,\" but when I look around, it also seems to me that society as a whole is now moving in that direction.",
+      "That is, the age when only \"making money\" was considered a virtue is over. Since we are a business, of course it's important to earn as much money as we can, but aren't we now entering an age in which, as the basic premise for that, an awareness of \"doing something for others\" and \"being useful,\" carries great weight?",
+      "I think this is a point that can't be ignored when it comes to understanding the times.",
+      "That attitude on the part of those doing the work turns into gratitude from those who receive the service, and from there all sorts of virtuous cycles are born. Isn't it that kind of cycle that will drive work, today and in the years to come?"
      ],
      "headTr": [
-      "A Team That Cleans a Shinkansen in Seven Minutes and Keeps It Running on Schedule",
+      "A Team That Cleans a Shinkansen in Seven Minutes and Keeps the Trains Running on Schedule",
       "A \"Hard, Dirty, Dangerous\" Workplace Where the Staff Are Full of Motivation",
       "Finding Joy in \"Work That Doesn't Make Money\""
      ]
@@ -344,7 +344,7 @@ TRY.registerLesson({
      "tr": [
       "Advisor to the Omotenashi (Hospitality) Creation Department of JR East Techno Heart TESSEI Co., Ltd.* (*as of 2015)",
       "Joined Japanese National Railways in 1966. Worked for over 40 years thereafter as a specialist in safety measures for trains and passengers.",
-      "In 2005, became director and general manager of the corporate planning department at Tetsudo Seibi Co., Ltd. (renamed JR East Techno Heart TESSEI Co., Ltd. in 2012). His efforts to motivate the staff have been recognized in Japan and abroad and have even become teaching material at Harvard Business School."
+      "In 2005, became a director and general manager of the corporate planning department at Tetsudo Seibi Co., Ltd. (renamed JR East Techno Heart TESSEI Co., Ltd. in 2012). Efforts to motivate the staff were recognized in Japan and abroad and even became teaching material at Harvard Business School."
      ],
      "headTr": [
       "Teruo Yabe"
@@ -483,13 +483,13 @@ TRY.registerLesson({
      "titleTr": "One Stormy Night",
      "tr": [
       "This fall, at the Minamiza theater in Kyoto, I saw a new kabuki play called \"Arashi no Yoru ni\" (One Stormy Night). Nakamura Shidō plays Gabu the wolf, and Onoe Matsuya plays Mei the goat.",
-      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. The two of them agonize, each within the world of its own kind of animal. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is argued down by its companions and nearly loses heart. But in the end, it is a story in which they put the feelings of the friendship they formed that stormy night ahead of their historical relationship, and walk on hand in hand.",
-      "Don't dismiss it as a silly fantasy. It depicts a surprising truth and a possibility. Who on earth decided the common wisdom that goats are food for wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
-      "In fact, it is humans who have arbitrarily created, and then just as arbitrarily dissolved, such absolute hostile relationships that seem at first glance to be common sense. The gorillas I have studied for so long have been at the mercy of humans' selfish common sense. After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took seriously stories that they attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once the peaceful life of gorillas became clear, that view changed completely, and now they have become a major tourist attraction as important neighbors of humans. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
-      "The same can be said of relationships between humans. In the Edo period, the Japanese saw white people as man-eating demons. And what on earth was the fear and hatred we harbored during World War II, when we called them \"the brutish Americans and British\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
-      "Since long ago, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to tell us lessons we ought to learn. What do we learn from \"Arashi no Yoru\"? It is this: even a relationship that seems at first glance impossible to change can be changed by the attitude we take toward it. This is not something only intelligent humans can do.",
-      "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have spent a long time building a friendly relationship. In an area where gorillas had been used as food for humans, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I too was charged, and suffered injuries to my head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last the gorillas and we were able to face each other calmly.",
-      "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a \"stormy night\" of your own."
+      "On a stormy night, Gabu and Mei take shelter in a hut, and in the darkness, without knowing who the other really is, they talk and become good friends. They promise to meet again at noon the next day, and when they come face to face, it turns out they are a wolf and a goat, one that eats and one that is eaten. Back in their own animal worlds, the two of them are torn with anguish. For the wolf, the goat is a feast, and for the goat, the wolf is its natural enemy. Each is talked around by its companions and very nearly gives in. But in the end, they put the friendship they formed on that stormy night ahead of the relationship their kinds have always had, and walk on together hand in hand. That is the story.",
+      "Don't dismiss it as a silly fantasy. It shows us an unexpected truth and possibility. Who on earth decided the common-sense notion that goats are there to be eaten by wolves? Can wolves really not survive without eating goats? Will the wolf forever be the goat's natural enemy?",
+      "In fact, humans have created these relationships of absolute hostility, which at first glance look like common sense, as it suited them, and then dissolved them again just as it suited them. The gorillas I have studied for so long have been at the mercy of humans' self-serving \"common sense.\" After they were \"discovered\" by Europeans and Americans in Africa in the mid-19th century, gorillas became famous as savage giants of the jungle. People took at face value stories that gorillas attacked humans and carried off women, and many gorillas were killed. In the lowlands of Central Africa, on the other hand, gorillas have long been hunted as a source of meat. To gorillas, humans are what wolves are to goats. However, once it became clear how peacefully gorillas live, that view was turned on its head, and they became a major tourist attraction, now seen as humans' cherished neighbors. Even in the lowlands, gorillas are gradually ceasing to be regarded as food.",
+      "The same can be said of relationships between humans. In the Edo period, the Japanese saw white people as man-eating demons. And what on earth was the fear and hatred the Japanese harbored during World War II, when they called the Americans and British \"demonic brutes\"? Even today, terrorist groups and terrorist states are regarded as entities that must be wiped out. Is it really impossible to coexist peacefully with them?",
+      "Since ancient times, fables and fantasies have borrowed the forms of animals to portray the subtleties of human society and to teach us lessons we ought to learn. What do we learn from \"One Stormy Night\"? It is this: even a relationship that seems at first glance impossible to change can be changed by the attitude we take toward it. This is not something only intelligent humans can do.",
+      "In Africa, there are lions that attack humans, but there are also lions that show respect for humans and keep their distance. That is because lions and humans have spent a long time building a friendly relationship. In an area where gorillas used to be hunted for food, I have worked to make friends with gorillas without using weapons or bait. At first, the gorillas fled as soon as they saw us, and when we followed them, they attacked with terrifying cries. I was charged myself and suffered injuries to my head and legs. But if you keep patiently showing that you mean no harm, gorillas change their attitude and accept humans. It took nearly ten years, but at last we and the gorillas were able to face each other calmly.",
+      "Only one troop in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Isn't the same true of human society? I really hope you will experience a \"stormy night\" of your own."
      ],
      "headTr": [
       "Humans, the Makers of \"Enemies\""
@@ -512,7 +512,7 @@ TRY.registerLesson({
       "球環境学研究所所長。"
      ],
      "tr": [
-      "Primatologist and anthropologist. After serving as President (Chancellor) of Kyoto University, he has been Director-General of the Research Institute for Humanity and Nature since 2021."
+      "Primatologist and anthropologist. Former President of Kyoto University; Director-General of the Research Institute for Humanity and Nature since 2021."
      ],
      "headTr": [
       "Juichi Yamagiwa"
@@ -611,8 +611,8 @@ TRY.registerLesson({
        ],
        "tr": [
         "I work as a driver of the Nozomi, Hikari, and Kodama trains on the Tokaido Shinkansen, which links Tokyo Station and Shin-Osaka Station.",
-        "So that every train can run to its destination on schedule, not only the arrival and departure times at the stations where it stops but even the times at which it passes through the stations it doesn't stop at are set in fine detail. While constantly judging the speed myself, I operate the handle, which does the job of the brake and accelerator in a car.",
-        "The work is done in shifts: in one day I make one to one and a half round trips between Tokyo and Shin-Osaka. As a rule, I stay at a company facility that night, work on the train again the next day, and then go home. To build up my stamina, I swim on my days off.",
+        "So that every train runs to its destination on schedule, the times are set in fine detail, not only for arriving at and leaving the stations where we stop but also for passing through the ones we don't. Constantly judging the speed for myself, I work the control handle, which does the job of a car's brake and accelerator.",
+        "The work is done in shifts: in one day I make one to one and a half round trips between Tokyo and Shin-Osaka. As a rule, I stay at a company facility that night, work a train again the next day, and then go home. To build up my stamina, I swim on my days off.",
         "The Shinkansen is run by four JR Group companies. At JR Central, it's usual to become a driver after working for years as a station employee or conductor. After passing an examination that checks your eyesight and aptitude as a driver, you spend about a year learning how the trains work, riding along with an instructor to polish your skills, and so on, and then you get the driver's license issued by the national government. Twenty percent of the drivers and conductors working on the Tokaido Shinkansen are women."
        ],
        "headTr": [
@@ -699,7 +699,7 @@ TRY.registerLesson({
            "n": "(1)",
            "text": {
             "ja": "◆7分で新幹線をきれいにし、定刻通り運行する集団",
-            "tr": "◆ A team that cleans a Shinkansen in seven minutes and keeps the trains running on schedule"
+            "tr": "◆ A team that cleans a shinkansen in seven minutes and keeps the trains running on schedule"
            }
           },
           {
@@ -768,12 +768,12 @@ TRY.registerLesson({
         {
          "n": "(a)",
          "ja": "母は**{鬼|おに}だ**。試験の成績が少し悪かっただけで、テレビとゲームと外出を{禁止|きんし} (prohibit) された。",
-         "tr": "My mother is an ogre. Just because my exam grades were a little bad, I was banned from TV, video games, and going out."
+         "tr": "My mother is an ogre. Just because my test scores were a little low, I was banned from TV, video games, and going out."
         },
         {
          "n": "(b)",
          "ja": "Bentoは、**小さな宇宙**。限られた空間で{凝縮|ぎょうしゅく}された美を表現する、日本ならではの美意識が息づいています。",
-         "tr": "A bento is a little universe. It is alive with a uniquely Japanese aesthetic sense that expresses concentrated beauty within a limited space."
+         "tr": "A bento is a little universe. In it lives a uniquely Japanese sense of beauty, one that expresses concentrated beauty within a limited space."
         }
        ]
       },
@@ -805,12 +805,12 @@ TRY.registerLesson({
         {
          "n": "(a)",
          "ja": "手も足も出ない＝自分にできることを超えていて、何もできない",
-         "tr": "can't lift a hand or foot (be helpless) = it is beyond what you can do, and you can't do anything"
+         "tr": "“not even a hand or a foot comes out” (be helpless) = something is beyond your abilities, and you can do nothing about it"
         },
         {
          "n": "(b)",
          "ja": "口がかたい　　＝言うべきでないことを、他の人に言わない",
-         "tr": "have a hard mouth (be tight-lipped) = not tell other people things that shouldn't be told"
+         "tr": "“one's mouth is hard” (be tight-lipped) = not tell others things that shouldn't be passed on"
         }
        ]
       },
@@ -842,7 +842,7 @@ TRY.registerLesson({
           "ることではないだろうか。ぜひ「あらしのよる」を体験してほしいと思う。"
          ],
          "tr": [
-          "Only one group in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Can't the same be said of human society? I really hope you will experience a “stormy night” of your own."
+          "Only one troop in this area has formed such a friendly relationship. The tens of thousands of other gorillas still harbor strong fear and hostility toward humans. But I am convinced that a day will come when that changes. Isn't the same true of human society? I really hope you will experience a “stormy night” of your own."
          ]
         }
        ]
@@ -905,12 +905,12 @@ TRY.registerLesson({
           {
            "sp": "A",
            "ja": "夏休みに{北海道|ほっかいどう}と{九州|きゅうしゅう}に行ったんですが、言葉も食べ物も全然違っておもしろかったです。",
-           "tr": "I went to Hokkaido and Kyushu over summer vacation, and both the language and the food were completely different, which was interesting."
+           "tr": "I went to Hokkaido and Kyushu over summer vacation. The way people talked and the food were totally different. It was fascinating."
           },
           {
            "sp": "B",
            "ja": "**一口に**日本**といっても**、多様な文化があるんですね。",
-           "tr": "We may just call it all “Japan,” but there really is a diversity of cultures, isn’t there?"
+           "tr": "We lump it all together as “Japan,” but it really has a lot of different cultures, doesn’t it?"
           }
          ]
         },
@@ -998,7 +998,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "暑い**といっても**25度くらいなので、{東京|とうきょう}と比べたらずいぶん{涼|すず}しいですよ。",
-           "tr": "It may be hot, but it’s only around 25 degrees, so it’s much cooler than Tokyo."
+           "tr": "It does get hot, but only around 25°C, so it’s much cooler than Tokyo."
           }
          ]
         },
@@ -1053,7 +1053,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "Both uses start from a word the listener already has in mind and then adjust the picture it creates.\n\n- **一口にNといっても** widens it: one label, many kinds. It suits explanations and presentations, and the second half names the variety (様々な, いろいろな).\n- **XといってもY** shrinks it: the claim is true but less impressive than it sounds. Casual speech says 〜っていっても: 料理するっていっても、卵を焼くぐらいだよ (*I do cook, but only fried eggs*).\n\nThe second half has to go against the image; a clause that confirms X falls flat. Compare **〜というより** (L7-5), which drops the word for a better one. **〜にすぎない** (L12-5) often completes the second half, as in that note's key sentence. TRY! N2 teaches the same 〜といっても."
+     "deepDive": "Both uses start from a word the listener already has in mind and then adjust the picture it creates.\n\n- **一口にNといっても** widens it: one label, many kinds. It suits explanations and presentations, and the second half names the variety (様々な, いろいろな).\n- **XといってもY** shrinks it: the claim is true but less impressive than it sounds. Casual speech says 〜っていっても: 料理するっていっても、卵を焼くぐらいだよ (*I do cook, but only fried eggs*).\n\nThe second half has to go against the image; a clause that confirms X falls flat. Compare **〜というより（むしろ）** (L7-5), which drops the word for a better one. **〜にすぎない** (L12-5) often completes the second half, as in that note's key sentence. TRY! N2 teaches the same 〜といっても."
     },
     {
      "t": "note",
@@ -1105,7 +1105,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "落ち込んでいる時は「私なんか何をやってもだめだ」とつい悲観的に考えてしまい**がち**になる。",
-         "tr": "When you’re feeling down, you tend to slip into pessimistic thoughts like “Nothing I do ever works out.”"
+         "tr": "When you’re feeling down, you tend to slip into pessimistic thoughts like “Whatever I do, I’m no good.”"
         },
         {
          "n": 5,
@@ -1400,7 +1400,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N1; TRY! N2 teaches 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
+     "deepDive": "**〜分（だけ）** treats X as an amount and makes Y match it. Two readings follow from this:\n\n- Proportion: Y grows or shrinks with X: 努力した分だけ上手になる (*you improve as much as you put in*). The verb is often repeated: 食べたら食べた分だけ.\n- Compensation: X costs something and Y makes up for it, or the reverse ([#4]: inconvenient, so the rent is lower). Here 分 usually stands without だけ, and その分 refers back: 給料は安いが、その分自由な時間が多い (*the pay is low, but I have that much more free time*).\n\nCompare **Nほど** (L10-7), a trend without the idea of an equal amount, and **〜だけに** (TRY! N2, with 〜だけあって), *all the more because*, which stresses a feeling rather than a trade-off."
     },
     {
      "t": "note",
@@ -1445,7 +1445,7 @@ TRY.registerLesson({
           {
            "sp": "山田",
            "ja": "積極的といっても、ただ子どもと遊んでいる**にすぎません**よ。",
-           "tr": "I wouldn’t call it involved. He just plays with the kids, that’s all."
+           "tr": "“Involved” is a stretch. All he does is play with the kids."
           }
          ]
         },
@@ -1554,7 +1554,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "ペットを飼う**以上**、一生責任を持って世話するつもりだ。",
-         "tr": "Since I’m getting a pet, I intend to take responsibility for caring for it for its whole life."
+         "tr": "Since I’m getting a pet, I intend to take full responsibility for caring for it as long as it lives."
         },
         {
          "n": 3,
@@ -1665,12 +1665,12 @@ TRY.registerLesson({
           {
            "sp": "後輩",
            "ja": "今の会社で仕事を続けていく**うえで**大切にしている点は、何ですか。",
-           "tr": "What do you place importance on as you keep working at your current company?"
+           "tr": "What do you consider most important as you go on working at your current company?"
           },
           {
            "sp": "先輩",
            "ja": "うーん。いろいろあるけど、人間関係はその一つかな。",
-           "tr": "Hmm. There are a lot of things, but I guess relationships with people are one of them."
+           "tr": "Hmm. There are lots of things, but I guess my relationships with people are one of them."
           }
          ]
         },
@@ -1860,7 +1860,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "卒業式でこの4年間のことを思い出して、泣き**そうになった**。",
-         "tr": "At the graduation ceremony, I thought back on these four years and almost cried."
+         "tr": "At the graduation ceremony, I thought back on the past four years and almost cried."
         },
         {
          "n": 4,
@@ -1893,7 +1893,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vそうになる** reports a near miss: the event was on the verge of happening, then didn't. It is usually past (〜そうになった), and the event is involuntary or unwelcome: falling, crying, laughing, being late, dropping something.\n\n- The subject doesn't choose the event, so deliberate actions sound odd: ✗手紙を書きそうになった.\n- もう少しで, あやうく and 思わず are common partners. 〜ところだった states the same narrow escape: もう少しで遅刻するところだった (*I was almost late*).\n\nPlain **Vそうだ** is an observation, not a report of what nearly happened: 雨が降りそうだ (*it looks like rain*). **Vかける** means the action had already begun: 言いかけてやめた (*I started to say it and stopped*)."
+     "deepDive": "**Vそうになる** reports a near miss: the event was on the verge of happening, then didn't. It is usually past (〜そうになった), and the event is involuntary or unwelcome: falling, crying, laughing, being late, dropping something.\n\n- The event is one the subject doesn't control; with a deliberate act it describes an impulse that was held back: 思わず彼に電話しそうになった (*I almost called him*).\n- もう少しで, あやうく and 思わず are common partners. 〜ところだった states the same narrow escape: もう少しで遅刻するところだった (*I was almost late*).\n\nPlain **Vそうだ** is an observation, not a report of what nearly happened: 雨が降りそうだ (*it looks like rain*). **Vかける** means the action had already begun: 言いかけてやめた (*I started to say it and stopped*)."
     },
     {
      "t": "note",
@@ -1919,7 +1919,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "宇宙旅行は遠い未来の話だと思う**なかれ**。実際、多くの計画が進められている。",
-         "tr": "Do not think space travel belongs to the distant future. In fact, many projects are already underway."
+         "tr": "Do not assume space travel is a thing of the distant future. In fact, many projects are already underway."
         },
         {
          "n": 2,
