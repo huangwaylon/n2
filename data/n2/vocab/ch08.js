@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
-    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka has stepped away from the desk at the moment, so I'll pass on your message and ask Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka has stepped away from the desk at the moment, so I'll let Tanaka know that we should get back to you later.", at: "gp/73" },
     ex: [
       { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be away from one's desk; to step out (of a room)",
     note: "The standard phone phrase ただ今席を外しております (they're away from their desk right now). It can also mean leaving a room so others can talk: 少し席を外していただけますか.",
     rx: ["せきをそとす", "せきをがいす", "せきをはなす"],
-    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll pass on your message and ask Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll let Tanaka know that we should get back to you later.", at: "gp/73" },
     ex: [
       { ja: "{担当|たんとう}の{者|もの}はただ今**{席|せき}を{外|はず}して**おります。", en: "The person in charge is away from their desk at the moment.", alt: ["{席|せき}を{譲|ゆず}って", "{席|せき}を{取|と}って", "{席|せき}を{詰|つ}めて"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "each person; individually; on one's own",
     note: "Typical of notices and instructions: 昼食は各自でご用意ください (bring your own lunch), 各自の判断で. それぞれ and 各々 are close in meaning. 各地 (every region) is a look-alike.",
     rx: ["かくし", "かっじ", "おのおのじ"],
-    book: { ja: "お食事はついておりませんので、**{各自|かくじ}**でご用意{願|ねが}います。", en: "… meals are not included, so please arrange your own.", at: "gp/74" },
+    book: { ja: "お食事はついておりませんので、**{各自|かくじ}**でご用意{願|ねが}います。", en: "… meals are not provided, so please make your own arrangements.", at: "gp/74" },
     ex: [
       { ja: "{当日|とうじつ}は、{飲|の}み{物|もの}を**{各自|かくじ}**で{持|も}ってきてください。", en: "On the day, please each bring your own drinks.", alt: ["{各地|かくち}", "{自然|しぜん}", "{各駅|かくえき}"] },
     ] },
@@ -178,7 +178,7 @@ TRY.registerVocab({ ch: 8, words: [
   { w: "なにぶん", lv: "N1", pos: "adverb",
     en: "since, after all (asking for understanding); please (do what you can)",
     note: "Written 何分 in kanji. A humble word used to excuse yourself: なにぶん初めてなので (as it's my first time), なにぶん経験が浅いもので. なにぶんよろしくお願いします asks someone to treat a matter kindly.",
-    book: { ja: "{私|わたくし}[4]は**なにぶん**初めてのことばかりで、ご{迷惑|めいわく}をおかけすることもあるかと[5]が、", en: "Everything is new to me, so I may cause you some trouble, but …", at: "ch/8" },
+    book: { ja: "{私|わたくし}[4]は**なにぶん**初めてのことばかりで、ご{迷惑|めいわく}をおかけすることもあるかと[5]が、", en: "Since everything is new to me, I expect I will cause you trouble at times, but …", at: "ch/8" },
     ex: [
       { ja: "**なにぶん**{経験|けいけん}が{浅|あさ}いもので、ご{指導|しどう}よろしくお{願|ねが}いいたします。", en: "As I'm still inexperienced, I'd be grateful for your guidance.", alt: ["じゅうぶん", "たぶん", "はんぶん"] },
     ] },

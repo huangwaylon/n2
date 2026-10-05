@@ -18,7 +18,7 @@ TRY.registerChapter({
           { sp: "田中", v: "m", ja: "はい、わかりました。", en: "Yes, certainly." },
           { sp: "佐々木", v: "m", ja: "よろしくお願いいたします。それから、これは前回{拝借|はいしゃく}した{資料|しりょう}と、サンプルに{関|かん}する{資料|しりょう}でございます。", en: "Thank you. And here are the materials I borrowed from you last time, along with some documentation on the samples." },
           { sp: "田中", v: "m", ja: "ああ、どうも。お{手数|てすう}をおかけしました。", en: "Ah, thank you. Sorry to have put you to the trouble." },
-          { sp: "佐々木", v: "m", ja: "今度お時間がありましたら、ぜひ{当社|とうしゃ}の工場へお{越|こ}しになってください。新しい{機械|きかい}もご{覧|らん}いただきながら、**ご**説明**{申|もう}し{上|あ}げ**たいと思いますので…。", en: "If you have time one of these days, please do visit our factory. I'd like to show you our new machines and explain them to you in person, so..." },
+          { sp: "佐々木", v: "m", ja: "今度お時間がありましたら、ぜひ{当社|とうしゃ}の工場へお{越|こ}しになってください。新しい{機械|きかい}もご{覧|らん}いただきながら、**ご**説明**{申|もう}し{上|あ}げ**たいと思いますので…。", en: "If you have time one of these days, please do visit our factory. I'd like to show you our new machines and walk you through them, so..." },
           { sp: "田中", v: "m", ja: "ええ、{私|わたくし}も一度{伺|うかが}いたいと思っておりました。", en: "Yes, I've been hoping to pay you a visit myself." },
           { sp: "佐々木", v: "m", ja: "お待ちしております。おいでくださるときは、ご{連絡|れんらく}いただけれ**ばと思います**。{私|わたくし}がご案内させていただきますので…。", en: "We look forward to it. When you're planning to come, I'd be grateful if you could let me know. I'll show you around myself, so..." },
           { sp: "田中", v: "m", ja: "ありがとうございます。じゃ、{日程|にってい}**につきまして**は、{後|のち}ほど…。", en: "Thank you. Well then, about the schedule, I'll get back to you later..." },
@@ -41,10 +41,10 @@ TRY.registerChapter({
           examples: [
             { ja: "{横浜|よこはま}からお{越|こ}しの{大山|おおやま}様、{佐藤|さとう}様がお待ちですので、1階の{受付|うけつけ}までお{越|こ}しください。", en: "Paging Oyama, visiting from Yokohama: Sato is waiting for you, so please come to the reception desk on the first floor." },
             { ja: "本日のご予約は{山本|やまもと}が{承|うけたまわ}りました。ありがとうございました。", en: "Your reservation today was taken by Yamamoto. Thank you very much." },
-            { ja: "この{資料|しりょう}、長い間{拝借|はいしゃく}したままお返しもせず、たいへん{申|もう}し{訳|わけ}ありませんでした。", en: "I'm terribly sorry for keeping these materials so long without returning them." },
+            { ja: "この{資料|しりょう}、長い間{拝借|はいしゃく}したままお返しもせず、たいへん{申|もう}し{訳|わけ}ありませんでした。", en: "I'm terribly sorry for borrowing these materials for so long without returning them." },
             { ja: "A：こちらまで、お{車|くるま}でおいでになりましたか。\nB：いいえ、電車でまいりました。", en: "A: Did you come here by car?\nB: No, I came by train." },
             { ja: "A：休みの日はいつも何をしておいでになりますか。\nB：{趣味|しゅみ}のゴルフをしております。", en: "A: What do you usually do on your days off?\nB: I play golf. It's my hobby." },
-            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll pass on your message and ask Tanaka to get back to you later." },
+            { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll let Tanaka know that we should get back to you later." },
           ],
           deepDive: "Point 73 is vocabulary: keigo verbs that **replace** an ordinary verb instead of being built by rule (お〜になる／お〜する). The skill is direction: **尊敬語** raises the person who acts (a client, guest or superior); **謙譲語** lowers your own side when its action affects them.\n\nHonorific (the other person acts):\n- **お見えになる／お越しになる** (来る): polished alternatives to いらっしゃる; お見えです and お越しください are everyday office and shop forms.\n- **おいでになる** (行く・来る・いる), so read the context: お宅においでになりますか (*will you be at home?*). **Vておいでになる** = Vていらっしゃる.\n\nHumble (my side acts):\n- **ご覧に入れる** (見せる), **承る** (聞く・引き受ける: ご注文を承りました *we have received your order*), **拝借する** (借りる), **存じる** (思う・知っている), **申し伝える** (pass a message on to someone on your side), **Vてまいる** (Vていく／Vてくる).\n\nPitfalls: honoring your own colleague to an outsider (✗部長がお見えになります → ✓部長の山田がまいります *our manager Yamada will come*), and the look-alike pairs: ご覧になる (*you look*), ご覧に入れる (*I show*), 拝見する (*I look*); ご存じ (*you know*), 存じる (*I think, I know*).\n\nJLPT cue: decide who performs the action before reading the options; the distractors are usually the opposite-direction twin.",
           see: [74, 75, 77],
@@ -59,7 +59,7 @@ TRY.registerChapter({
                   q: "ただ今から皆様に（　）のは、イルカのショーでございます。",
                   options: ["ご{覧|らん}に{入|い}れます", "お目にかかります"],
                   answer: 0,
-                  en: "Ladies and gentlemen, we will now present our dolphin show.",
+                  en: "What we will now show you, ladies and gentlemen, is our dolphin show.",
                   why: { en: "The speaker's side is showing something to the audience, so humble ご覧に入れる (= 見せる). お目にかかる is humble 会う (*meet*)." },
                 },
                 {
@@ -111,7 +111,7 @@ TRY.registerChapter({
               left: ["レストラン、ホールなどでの", "会議の{日時|にちじ}を", "安全にご使用いただくために、", "会場は{無料|むりょう}でご利用{可能|かのう}ですが、"],
               right: ["お食事はついておりませんので、{各自|かくじ}でご用意{願|ねが}います。", "スリッパのご使用はご{遠慮|えんりょ}{願|ねが}います。", "{下記|かき}の点にご注意{願|ねが}います。", "ご{連絡|れんらく}{願|ねが}いたいのですが…。"],
               answer: [1, 3, 2, 0],
-              en: ["Please refrain from wearing slippers in the restaurant, hall and similar areas.", "I was wondering if you could let us know the date and time of the meeting...", "To use this product safely, please pay attention to the points below.", "The venue can be used free of charge, but meals are not included, so please arrange your own."],
+              en: ["Please refrain from wearing slippers in the restaurant, hall and similar areas.", "I was wondering if you could let us know the date and time of the meeting...", "To use this product safely, please pay attention to the points below.", "The venue can be used free of charge, but meals are not provided, so please make your own arrangements."],
             },
           ],
         },
@@ -142,7 +142,7 @@ TRY.registerChapter({
               left: ["ご{迷惑|めいわく}をおかけいたしましたことを", "お{問|と}い{合|あ}わせの{件|けん}については、", "皆様のご{健康|けんこう}とご{活躍|かつやく}を", "またのご来店を心より"],
               right: ["お待ち{申|もう}し{上|あ}げております。", "深くおわび{申|もう}し{上|あ}げます。", "今日中にご{連絡|れんらく}{申|もう}し{上|あ}げます。", "お{祈|いの}り{申|もう}し{上|あ}げます。"],
               answer: [1, 2, 3, 0],
-              en: ["We deeply apologize for the trouble we have caused.", "Regarding your inquiry, we will contact you before the end of today.", "We wish you all good health and success.", "We sincerely look forward to your next visit to our store."],
+              en: ["We deeply apologize for the trouble we have caused.", "Regarding your inquiry, we will contact you by the end of today.", "We wish you all good health and success.", "We sincerely look forward to your next visit to our store."],
             },
           ],
         },
@@ -217,7 +217,7 @@ TRY.registerChapter({
         labels: "abc",
         prompt: { ja: "", en: "Choose the correct option (a or b) for each blank." },
         text: ["新入社員の{佐藤|さとう}と[1]ます。このたび、{第|だい}2{営業部|えいぎょうぶ}に{配属|はいぞく}されることに[2]。この{場|ば}をお借りして、{一言|ひとこと}、ごあいさつ[3]。", "{私|わたくし}[4]はなにぶん初めてのことばかりで、ご{迷惑|めいわく}をおかけすることもあるかと[5]が、皆様にご{指導|しどう}[6]、1日も早く皆様のお役に立てるよう、{努力|どりょく}して[7]。", "どうぞよろしくお願い[8]ます。"],
-        en: ["My name is Sato, and I'm a new employee. I've been assigned to the Second Sales Department. I'd like to take this opportunity to say a few words of greeting.", "Everything is new to me, so I may cause you some trouble, but with your guidance I will keep working hard so that I can be of use to you all as soon as possible.", "I look forward to working with you all."],
+        en: ["My name is Sato, and I'm a new employee. I've been assigned to the Second Sales Department. I'd like to take this opportunity to say a few words of greeting.", "Since everything is new to me, I expect I will cause you trouble at times, but with your guidance I will keep working hard so that I can be of use to you all as soon as possible.", "I look forward to working with you all."],
         blanks: [
           {
             options: ["申し伝え", "申し"],
@@ -363,7 +363,7 @@ TRY.registerChapter({
         labels: "123",
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider its overall content, and choose the best option (1–4) for each of blanks [1]–[4]." },
         text: ["お買い上げ{誠|まこと}にありがとうございます。お届け[1]{商品|しょうひん}の{品質|ひんしつ}{管理|かんり}には{万全|ばんぜん}を{期|き}して[2]が、{万一|まんいち}{不良品|ふりょうひん}などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。"],
-        en: ["Thank you very much for your purchase. We take every possible care over the quality of the products we deliver, but should you find a defect or other problem, we respectfully ask that you take the trouble to contact us."],
+        en: ["Thank you very much for your purchase. We take every possible care over the quality of the products we deliver, but in the unlikely event that an item is defective or has some other problem, we apologize for the inconvenience and respectfully ask that you contact us."],
         blanks: [
           {
             options: ["なさいました", "いたしました", "ございました", "まいりました"],
@@ -429,7 +429,7 @@ TRY.registerChapter({
             ],
             options: ["はい、{明日|あす}3時にお{伺|うかが}いいたします。", "はい、{明日|あす}3時にいらっしゃいます。", "はい、{明日|あす}3時にお待ちしています。"],
             answer: 0,
-            en: ["Then please come to our company at 3 o'clock tomorrow.", "Yes, I will visit you at 3 tomorrow.", "Yes, (someone) will come at 3 tomorrow.", "Yes, I'll be waiting for you at 3 tomorrow."],
+            en: ["Then please come to our office at 3 o'clock tomorrow.", "Yes, I will visit you at 3 tomorrow.", "Yes, (someone) will come at 3 tomorrow.", "Yes, I'll be waiting for you at 3 tomorrow."],
             why: { en: "The listener is the one going, so she uses humble お伺いいたします. いらっしゃる is honorific (can't be used for oneself); お待ちしています would mean she is the host." },
           },
           {
