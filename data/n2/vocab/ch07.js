@@ -29,7 +29,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["たちじょう", "りつば", "たては"],
     book: { ja: "{患者|かんじゃ}の**{立場|たちば}**からすれば、たとえたいした病気じゃなくても、{病状|びょうじょう}を{詳|くわ}しく説明してほしいと思う。", en: "From the patient's point of view, even if it's nothing serious, you want your condition explained in detail.", at: "gp/60" },
     ex: [
-      { ja: "{相手|あいて}の**{立場|たちば}**になって{考|かんが}えれば、{怒|おこ}る{理由|りゆう}もわかるはずだ。", en: "If you look at it from the other person's position, you should be able to see why they're angry.", alt: ["{場面|ばめん}", "{役場|やくば}", "{足場|あしば}"] },
+      { ja: "{相手|あいて}の**{立場|たちば}**になって{考|かんが}えれば、{怒|おこ}る{理由|りゆう}もわかるはずだ。", en: "If you put yourself in the other person's shoes, you should be able to see why they're angry.", alt: ["{場面|ばめん}", "{役場|やくば}", "{足場|あしば}"] },
     ] },
   { w: "{家畜|かちく}", lv: "N1", pos: "noun",
     en: "livestock; domestic animals",
@@ -72,7 +72,7 @@ TRY.registerVocab({ ch: 7, words: [
       { ja: "{子|こ}どもの**{視点|してん}**から{見|み}ると、{大人|おとな}の{世界|せかい}は{不思議|ふしぎ}なことばかりだ。", en: "From a child's perspective, the adult world is full of strange things.", alt: ["{視力|しりょく}", "{地点|ちてん}", "{欠点|けってん}"] },
     ] },
   { w: "{第三者|だいさんしゃ}", lv: "N1", pos: "noun",
-    en: "third party; outsider; neutral person",
+    en: "third party; outsider (someone not directly involved)",
     note: "Someone not directly involved: 第三者の意見, 第三者機関 (an independent body). The people directly involved are the 当事者.",
     rx: ["だいさんじゃ", "ていさんしゃ", "だいざんしゃ"],
     book: { ja: "けんかの{原因|げんいん}なんて、**{第三者|だいさんしゃ}**から見れば、くだらないことが多い。", en: "To an outsider, what people fight about is often something trivial.", at: "gp/60" },
@@ -173,7 +173,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["こくじ", "くろし", "くろもじ"],
     book: { ja: "東南{鉄道|てつどう}が17{億|おく}円の**{黒字|くろじ}**だった{一方|いっぽう}で、西北{鉄道|てつどう}は20{億|おく}円の{赤字|あかじ}だったそうだ。", en: "I hear Tonan Railway was 1.7 billion yen in the black, while Seihoku Railway was 2 billion yen in the red.", at: "gp/61" },
     ex: [
-      { ja: "{新商品|しんしょうひん}がヒットして、{会社|かいしゃ}は{三年|さんねん}ぶりに**{黒字|くろじ}**になった。", en: "Its new product was a hit, and the company made a profit for the first time in three years.", alt: ["{赤字|あかじ}", "{黒板|こくばん}", "{数字|すうじ}"] },
+      { ja: "{新商品|しんしょうひん}がヒットして、{会社|かいしゃ}は{三年|さんねん}ぶりに**{黒字|くろじ}**になった。", en: "Thanks to a hit new product, the company was back in the black for the first time in three years.", alt: ["{赤字|あかじ}", "{黒板|こくばん}", "{数字|すうじ}"] },
     ] },
   { w: "{赤字|あかじ}", lv: "N2", pos: "noun",
     en: "deficit; loss; being in the red",
@@ -369,7 +369,7 @@ TRY.registerVocab({ ch: 7, words: [
     ] },
   { w: "{回復|かいふく}", lv: "N2", pos: "noun · する verb",
     en: "recovery; restoration; to recover",
-    note: "Getting back to a good state: 体調 / 景気 / 天気が回復する, 信頼を回復する, 疲労回復. It works both ways: 景気が回復する and 生態系を回復させる. Look-alikes: 往復 (round trip), 回収 (collection).",
+    note: "Getting back to a good state: 体調 / 景気 / 天気が回復する, 信頼を回復する, 疲労回復. It is both intransitive (景気が回復する) and transitive (信頼を回復する); the chapter has the causative 生態系を回復させる. Look-alikes: 往復 (round trip), 回収 (collection).",
     rx: ["かいぶく", "かいふっく", "がいふく"],
     book: { ja: "日本銀行は、国内の{景気|けいき}について、{緩|ゆる}やかに**{回復|かいふく}**しつつあると発表した。", en: "The Bank of Japan announced that the domestic economy is gradually recovering.", at: "gp/71" },
     ex: [
@@ -517,7 +517,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["よし", "よじ", "ようち"],
     book: { ja: "{友人|ゆうじん}は{地震|じしん}の**{予知|よち}**に{関|かん}して研究{論文|ろんぶん}を書いたそうだ。", en: "I hear my friend wrote a research paper on earthquake prediction.", at: "gp/68" },
     ex: [
-      { ja: "{動物|どうぶつ}には{地震|じしん}を**{予知|よち}**する{力|ちから}があるという{説|せつ}もある。", en: "There's even a theory that animals can sense earthquakes before they happen.", alt: ["{予約|よやく}", "{予習|よしゅう}", "{承知|しょうち}"] },
+      { ja: "{動物|どうぶつ}には{地震|じしん}を**{予知|よち}**する{力|ちから}があるという{説|せつ}もある。", en: "According to one theory, animals can sense earthquakes before they happen.", alt: ["{予約|よやく}", "{予習|よしゅう}", "{承知|しょうち}"] },
     ] },
   { w: "{日程|にってい}", lv: "N2", pos: "noun",
     en: "schedule (of dates); itinerary; program",
@@ -589,7 +589,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ともせい", "きょうしょう", "きょせい"],
     book: { ja: "世界{規模|きぼ}での人口{移動|いどう}が進みつつある{現在|げんざい}、**{共生|きょうせい}**の{意識|いしき}がますます{必要|ひつよう}になっている。", en: "Now that people are moving across the globe on an ever larger scale, a sense of coexistence is becoming more and more necessary.", at: "gp/71" },
     ex: [
-      { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town aims to live in harmony with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
+      { ja: "この{町|まち}は、{外国人住民|がいこくじんじゅうみん}との**{共生|きょうせい}**を{目指|めざ}している。", en: "This town is working toward coexistence with its foreign residents.", alt: ["{強制|きょうせい}", "{共通|きょうつう}", "{競争|きょうそう}"] },
     ] },
   { w: "{緩|ゆる}やか", lv: "N2", pos: "な adjective",
     en: "gentle; gradual; lenient",
@@ -613,7 +613,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["せっでん", "せつてん", "ふしでん"],
     book: { ja: "{環境対策|かんきょうたいさく}のためにも、夏に{限|かぎ}らず、{年間|ねんかん}を通して**{節電|せつでん}**を心がけるべきだ。", en: "For the environment's sake as well, we should make a point of saving electricity all year round, not just in summer.", at: "gp/72" },
     ex: [
-      { ja: "{夏|なつ}はエアコンの{温度|おんど}を{上|あ}げて**{節電|せつでん}**しよう。", en: "In summer, let's save electricity by setting the air conditioner a little warmer.", alt: ["{停電|ていでん}", "{充電|じゅうでん}", "{感電|かんでん}"] },
+      { ja: "{夏|なつ}はエアコンの{温度|おんど}を{上|あ}げて**{節電|せつでん}**しよう。", en: "In summer, let's save electricity by setting the air conditioner to a higher temperature.", alt: ["{停電|ていでん}", "{充電|じゅうでん}", "{感電|かんでん}"] },
     ] },
   { w: "{特定|とくてい}", lv: "N1", pos: "noun · する verb",
     en: "specific; particular; to identify (pin down)",
@@ -693,7 +693,7 @@ TRY.registerVocab({ ch: 7, words: [
     rx: ["ごうど", "きょうと", "きょうつち"],
     book: { ja: "料理研究家の{栗林|くりばやし}さんは{独創的|どくそうてき}な{創作|そうさく}料理を{発表|はっぴょう}する（　）、{各地|かくち}の{伝統的|でんとうてき}な**{郷土|きょうど}**料理の研究もされています。", en: "Culinary researcher Kuribayashi presents highly original dishes of their own creation while also researching traditional regional cooking from around the country.", at: "ch/7/review" },
     ex: [
-      { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the famous one.", alt: ["{国土|こくど}", "{土地|とち}", "{領土|りょうど}"] },
+      { ja: "{秋田|あきた}の**{郷土|きょうど}**{料理|りょうり}といえば、きりたんぽが{有名|ゆうめい}だ。", en: "When it comes to Akita's regional cuisine, kiritanpo is the best known.", alt: ["{国土|こくど}", "{土地|とち}", "{領土|りょうど}"] },
     ] },
   { w: "{関与|かんよ}", lv: "N1", pos: "noun · する verb",
     en: "involvement; having a hand in (something)",
