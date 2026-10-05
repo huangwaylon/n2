@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to pass on (a message) (humble form of 伝える)",
     note: "Used when you will relay a caller's message to someone on your own side (#73): 田中に申し伝えます (I'll let Tanaka know). Because the person receiving it is your colleague, 申し上げる would be wrong here.",
     rx: ["もうしづたえる", "しんしつたえる", "もうしでんえる"],
-    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka has stepped away from the desk at the moment, so I'll tell Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、席を{外|はず}しておりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように**{申|もう}し{伝|つた}えます**。", en: "Tanaka is away from the desk at the moment, so I'll pass on the message to call you back later.", at: "gp/73" },
     ex: [
       { ja: "お{電話|でんわ}があったことは、{山田|やまだ}に**{申|もう}し{伝|つた}えます**。", en: "I'll let Yamada know that you called.", alt: ["{申|もう}し{込|こ}みます", "{申|もう}し{合|あ}わせます", "{申|もう}し{出|で}ます"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "to be away from one's desk; to step out (of a room)",
     note: "The standard phone phrase ただ今席を外しております (they're away from their desk right now). It can also mean leaving a room so others can talk: 少し席を外していただけますか.",
     rx: ["せきをそとす", "せきをがいす", "せきをはなす"],
-    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka has stepped away from the desk at the moment, so I'll tell Tanaka to get back to you later.", at: "gp/73" },
+    book: { ja: "{田中|たなか}はただ今、**席を{外|はず}して**おりますので、{後|のち}ほどこちらからご{連絡|れんらく}するように{申|もう}し{伝|つた}えます。", en: "Tanaka is away from the desk at the moment, so I'll pass on the message to call you back later.", at: "gp/73" },
     ex: [
       { ja: "{担当|たんとう}の{者|もの}はただ今**{席|せき}を{外|はず}して**おります。", en: "The person in charge is away from their desk at the moment.", alt: ["{席|せき}を{譲|ゆず}って", "{席|せき}を{取|と}って", "{席|せき}を{詰|つ}めて"] },
     ] },
