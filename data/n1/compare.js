@@ -525,7 +525,7 @@ TRY.registerCompare([
         ex: { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
         note: "V-ない + ものか (ものだろうか): \"isn't there some way to ~?\". A longing wish for something hard to achieve, often with 何とか; not a denial like 〜ものか." },
       { pattern: "Vないものでもない", level: "N1", no: 19,
-        ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you want it that badly, I suppose I could make a special exception and allow it, just this once." },
+        ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're going to plead like that, I suppose I could make a special exception and allow it, just this once." },
         note: "V-ない + ものでもない: \"it's not out of the question that I'd ~\". A reluctant, conditional yes; more formal than ないでもない (an index form of #19)." },
       { pattern: "Vようものなら", level: "N1", no: 57,
         ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you so much as criticize them a little, they're liable to say, \"Well then, I quit.\"" },

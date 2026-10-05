@@ -13,7 +13,7 @@ TRY.registerChapter({
         vertical: true,
         rings: false,
         lines: [
-          { ja: "昔、あるところに一人の男がいた。男は、けちなうえに{怠|なま}け{者|もの}で、掃除や洗濯もしなかった。だから、部屋はたいそう汚く、中に入れば体中ほこり**まみれ**になるほどで、どろぼうも逃げ出すありさまだった。", en: "Once upon a time, in a certain place, there lived a man. He was stingy, and lazy on top of that, and never did any cleaning or washing. So his room was terribly filthy: step inside and you'd come out covered in dust from head to toe, and the place was in such a state that even a burglar would have turned and run." },
+          { ja: "昔、あるところに一人の男がいた。男は、けちなうえに{怠|なま}け{者|もの}で、掃除や洗濯もしなかった。だから、部屋はたいそう汚く、中に入れば体中ほこり**まみれ**になるほどで、どろぼうも逃げ出すありさまだった。", en: "Once upon a time, in a certain place, there lived a man. He was stingy, and lazy on top of that, and never did any cleaning or washing. So his room was terribly filthy: step inside and you'd be covered in dust from head to toe, and the place was in such a state that even a burglar would have turned and run." },
           { ja: "友達は「いつまでもそんな暮らしを続けるのはよくない。早くお{嫁|よめ}さんをもらえ。」と言うのだが、男は友達の心配**をよそに**、「確かに家は汚いけれど、{俺|おれ}は{俺|おれ}**なりに**楽しく暮らしているよ。一人なら余計な金もかからないし。」と全く気にしていない。「まあ、何も食べない{嫁|よめ}ならもらわ**ないでもない**がね。」などと言う**しまつ**で、友達もあきれてそれ以上は何も言わなかった。", en: "His friend kept telling him, \"You can't go on living like this forever. Hurry up and get yourself a wife,\" but the man paid no heed to his friend's concern. \"Sure, my house is dirty, but I'm enjoying life in my own way. Besides, on my own I don't have to spend any extra money.\" It didn't bother him in the least. He even went so far as to say, \"Well, if a wife came along who didn't eat anything, I wouldn't say no,\" and his friend, exasperated, said no more." },
           { ja: "ある日の夕方、男の家に若い女が{訪|たず}ねてきて、「どうか私をお{嫁|よめ}さんにしてください。掃除**なり**洗濯**なり**、※お{前様|まえさま}のおっしゃることは何でもします。それに私は物を食べません。」と言った。「それは{結構|けっこう}**ずくめ**な話だ。」と男は{大喜|おおよろこ}びして女を{嫁|よめ}にした。", en: "One evening, a young woman came calling at the man's house and said, \"Please make me your wife. Cleaning, washing, whatever you* tell me to do, I'll do it. What's more, I don't eat.\" \"Why, that sounds perfect in every way!\" said the man, and, overjoyed, he took her as his wife." },
           { ja: "女は働き者**にして**美人、さらに食べ物**はおろか**{一滴|いってき}の水**すら**口にし**なかった**。{気立|きだ}ても良く、{文句|もんく}も言わずに男のために食事を作り、掃除や洗濯をした。おかげで男の身なりも家も、{見違|みちが}えるようにきれいになった。けちで{怠|なま}け{者|もの}の男からすると、これ以上の幸運はない。働き者の{嫁|よめ}をもらった男は、前よりもっと{怠|なま}け{者|もの}になった。", en: "The woman was both hardworking and beautiful, and what's more, she never let so much as a drop of water pass her lips, let alone food. She was good-natured too, and without a word of complaint she cooked the man's meals and did the cleaning and washing. Thanks to her, the man's appearance and his house both became so clean you'd hardly recognize them. For a stingy, lazy man, there could be no greater stroke of luck. Having gotten himself a hardworking wife, the man became even lazier than before." },
@@ -34,7 +34,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "試合終了のホイッスルが{響|ひび}き、泥まみれの選手たちは雨の中でお互いの{健闘|けんとう}をたたえ合った。", en: "The final whistle sounded, and in the rain the mud-covered players praised one another for a hard-fought game." },
-            { ja: "小麦粉の入ったボウルをひっくり返した子猫は粉まみれになってしまった。", en: "The kitten that knocked over the bowl of flour ended up covered in flour." },
+            { ja: "小麦粉の入ったボウルをひっくり返した子猫は粉まみれになってしまった。", en: "The kitten knocked over the bowl of flour and ended up covered in it." },
             { ja: "全身血まみれになった男性が、{担架|たんか}に乗せられて事故{現場|げんば}から運び出された。", en: "A man covered in blood from head to toe was carried from the accident scene on a stretcher." },
             { ja: "借金まみれの生活から{脱出|だっしゅつ}するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To dig myself out from under a mountain of debt, I decided to go and see a lawyer." },
           ],
@@ -90,7 +90,7 @@ TRY.registerChapter({
           examples: [
             { ja: "教師の{再三|さいさん}の注意をよそに、学生は授業中も{携帯|けいたい}電話をいじっている。", en: "Ignoring the teacher's repeated warnings, the students keep fiddling with their cell phones even during class." },
             { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Ignoring his partner's tearful pleas to stay, he took his camera and headed for the battlefield." },
-            { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動にのめり込んでいる。", en: "Yamada's friends are all starting to look for jobs, but Yamada pays no attention and is completely wrapped up in club activities." },
+            { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動にのめり込んでいる。", en: "Unconcerned that friends are starting their job hunts, Yamada is completely wrapped up in club activities." },
             { ja: "景気の{低迷|ていめい}をよそに、順調に売り上げを伸ばしている会社もある。", en: "Some companies, unaffected by the sluggish economy, are steadily increasing their sales." },
           ],
           deepDive: "**Nをよそに** means *paying no heed to N*: the subject goes ahead as if N were someone else's business (よそ). N is usually other people's feelings or reactions (心配, 期待, 反対, 批判, 注意), and the tone often criticizes the subject's indifference: 家族の反対をよそに、彼は会社を辞めた (*ignoring his family's objections, he quit his job*). The second use is *unaffected by* a surrounding situation, which can be neutral: 不況をよそに、この店はいつも満員だ (*the recession notwithstanding, this shop is always full*).\n\nA clause is nominalized with の: 周りが騒ぐのをよそに. The pattern is written and a little literary. It reports what someone does or did, so it takes no requests. N belongs to someone other than the subject: 私の心配をよそに、息子は一人旅に出た (*paying no heed to my worries, my son went off traveling alone*) is fine, but nobody ignores their own worry this way.\n\nCompare:\n- **〜をものともせず（に）** (#94): *undaunted by* a hardship, and admiring: 大けがをものともせず出場した (*competed despite a serious injury*).\n- **〜もかまわず**: *without caring about* appearances or manners: 人目もかまわず泣いた (*cried without caring who saw*).\n\nJLPT cue: 心配, 期待, 批判 or a situation like 不況 before the blank, followed by someone carrying on regardless, points to をよそに.",
@@ -103,7 +103,7 @@ TRY.registerChapter({
               left: ["社長は部下の{進言|しんげん}をよそに、", "夫は妻の心配をよそに、", "{歩行者|ほこうしゃ}の{迷惑|めいわく}をよそに、", "車内の{冷|ひ}ややかな{視線|しせん}をよそに、"],
               right: ["会社を辞めて、ラーメン店を始めようとしている。", "歩道を走り抜けようとする自転車が多い。", "国内生産にこだわり、工場の海外移転を認めなかった。", "大声でうわさ話をする高校生の{一群|いちぐん}がいた。"],
               answer: [2, 0, 1, 3],
-              en: ["Ignoring the advice of subordinates, the president stuck to domestic production and would not allow the factory to be moved overseas.", "Paying no heed to his wife's worries, the husband is about to quit his job and open a ramen shop.", "Many cyclists try to race along the sidewalk with no regard for the trouble they cause pedestrians.", "There was a group of high school students gossiping loudly, oblivious to the cold stares of the other passengers."],
+              en: ["Ignoring the advice of subordinates, the president stuck to domestic production and would not allow the factory to be moved overseas.", "Paying no heed to his wife's worries, the husband is set on quitting his job and opening a ramen shop.", "Many cyclists try to race along the sidewalk with no regard for the trouble they cause pedestrians.", "There was a group of high school students gossiping loudly, oblivious to the cold stares of the other passengers."],
             },
           ],
         },
@@ -123,7 +123,7 @@ TRY.registerChapter({
             { ja: "あの子は幼いなりに親を助けようと、いろいろ努力している。", en: "Young as that child is, they're making all kinds of efforts, in their own way, to help their parents." },
             { ja: "お金がなければないなりに、楽しみ方はあるものだ。", en: "If you have no money, there are still ways to have fun that suit your means." },
             { ja: "この1年貯めたお金がそれなりの額になったから、親を旅行に連れて行こうと思っている。", en: "The money I've saved over this past year has grown to a decent amount, so I'm thinking of taking my parents on a trip." },
-            { ja: "日本語が上達したらしたなりに、新しい疑問が次から次へと出てくる。", en: "The better my Japanese gets, the more new questions crop up, one after another, to match my new level." },
+            { ja: "日本語が上達したらしたなりに、新しい疑問が次から次へと出てくる。", en: "Now that my Japanese has improved, new questions to match my new level crop up one after another." },
           ],
           deepDive: "**〜なりに／〜なりの＋N** means *in a way that befits ~, within ~'s limits*. It admits a limitation (age, level, position, circumstances) and then gives credit for what is done within it. About yourself it sounds modest: 私なりに考えてみました (*I've given it thought in my own way*). About others it sounds fair or kind: 子どもは子どもなりに悩んでいる (*children have worries of their own, too*).\n\nNouns and な-adjectives attach directly (素人なりに, 下手なりに); い-adjectives and verbs in plain form (若いなりに). Before a noun it is なりの. Set forms: **それなり（に／の）**, *reasonably, suitably* (それなりの値段 *a price to match*), and **〜ば〜なりに**, repeating the word: 忙しければ忙しいなりに時間は作れる (*even when you're busy, you can find time in a way that fits your schedule*).\n\nCompare:\n- **〜らしく**: *as a proper ~ should*, a norm to live up to: 学生らしく.\n- **〜に応じて**: neutral *in accordance with*: 能力に応じて.\n- Look-alikes: **V-るなり** (#28), *the moment ~*, and **AなりBなり** (#21), *A or B or something*.\n\nPitfall: using it for an outstanding feat; なりに implies limits.\n\nJLPT cue: a person noun or a limiting word (幼い, 若い, 下手) before the blank, followed by an effort or an adequate result, points to なりに.",
           see: [21, 28],
@@ -180,7 +180,7 @@ TRY.registerChapter({
           examples: [
             { ja: "A：ぜひにと言われれば飲まないでもないんですが、最近酒は{控|ひか}えているんです。\nB：じゃあ、まあ、少しだけ……。", en: "A: If you really insist, I wouldn't say no to a drink, but I've been cutting back on alcohol lately.\nB: Well then, just a little..." },
             { ja: "彼が犯人だという{証拠|しょうこ}はないでもないが、まだ{断定|だんてい}はできない。", en: "It's not that there's no evidence he's the culprit, but we can't say so definitively yet." },
-            { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you want it that badly, I suppose I could make a special exception and allow it, just this once." },
+            { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're going to plead like that, I suppose I could make a special exception and allow it, just this once." },
             { ja: "お寺まで歩いて行けなくもないですが、{山道|やまみち}だし、ちょっと大変ですよ。", en: "It's not impossible to walk to the temple, but it's a mountain path, so it's rather hard going." },
           ],
           deepDive: "**〜ないでもない** is a double negative, *it's not that I don't ~*, used to keep a statement deliberately soft. It hedges a feeling or judgment: そう言われると、寂しい気がしないでもない (*now that you mention it, I do feel a little lonely*). Or it grants a grudging, conditional yes, the chance isn't zero if the conditions are right: 頼まれれば手伝わないでもない (*if I'm asked, I might help*). The second use can sound reluctant or condescending, so it is not a polite way to accept a request.\n\nIt follows the ない form: 行かないでもない, 考えないでもない. **〜なくもない** is the everyday variant; **〜ないものでもない** is stiffer and more written. A condition often comes before it (〜ば, 〜なら) and a reservation after it (〜が, 〜けど).\n\nCompare:\n- **〜ないことはない／〜ないこともない** (N2): nearly the same, a little more direct: 行けないことはない (*I could go*).\n- **〜ずにはおかない** (#32): *will definitely*, certainty rather than a hedge.\n\nPitfall: reading it as a negative; できないものでもない means it *can* be done.\n\nJLPT cue: in paraphrase questions it matches 〜てもいい (willingness) or 可能性がある (possibility).",
@@ -196,7 +196,7 @@ TRY.registerChapter({
                   q: "あなたが会の司会が{嫌|いや}だと言うならば、私が__代わってやらないでもない__。",
                   options: ["代わりたいが、代われない", "絶対に代わってやる", "代わってやってもいい"],
                   answer: 2,
-                  en: "If you say you don't want to be the MC at the meeting, I wouldn't mind taking your place.",
+                  en: "If you say you don't want to be the MC at the meeting, I suppose I could take your place.",
                   why: { en: "代わってやらないでもない = conditional willingness ('I could take over, if you like') ≈ 代わってやってもいい." },
                 },
                 {
@@ -221,8 +221,8 @@ TRY.registerChapter({
           examples: [
             { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired." },
             { ja: "「面倒くさい」が{口癖|くちぐせ}の母は、歩いて5分のスーパーに行くのにも車を使い、ついに運動{不足|ぶそく}で医者に{叱|しか}られるしまつだ。", en: "My mother, whose pet phrase is \"What a bother,\" drives even to the supermarket five minutes' walk away, and now it's come to the point where her doctor has scolded her for not getting enough exercise." },
-            { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には{詐欺|さぎ}で捕まるしまつだ。", en: "That woman has told nothing but lies since she was a child, and in the end she got herself arrested for fraud." },
-            { ja: "友人は6回も{転職|てんしょく}しながら、まだ「自分の才能を{生|い}かせる会社はない」と言っているしまつで、周囲もあきれている。", en: "My friend has changed jobs six times, yet still goes around saying, \"There's no company that can make use of my talents.\" Everyone around is fed up." },
+            { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には{詐欺|さぎ}で捕まるしまつだ。", en: "That woman told nothing but lies from the time she was a child, and in the end she got herself arrested for fraud." },
+            { ja: "友人は6回も{転職|てんしょく}しながら、まだ「自分の才能を{生|い}かせる会社はない」と言っているしまつで、周囲もあきれている。", en: "My friend has changed jobs six times, yet still goes around saying, \"There's no company that can make use of my talents,\" and everyone else is fed up." },
             { ja: "うちの弟、いつもゲームに夢中で、電話が鳴っていても気づかないしまつなんですよ。", en: "My little brother is always glued to his games — it's got to the point where he doesn't even notice the phone ringing." },
           ],
           deepDive: "**〜しまつだ** (始末, *how things end up*) closes an account of worsening behavior: *…and now it's come to this*. The speaker lists one bad development after another and ends with the worst, with criticism or exasperation. It is usually about someone else, often a family member (self-mockery is possible too), and ついに, とうとう or あげくの果てに often lead into it: 息子は遊んでばかりで、とうとう大学を退学になるしまつだ (*my son did nothing but play, and in the end he got kicked out of college*). Mid-sentence it becomes しまつで: 謝るどころか逆に怒り出すしまつで、みんなあきれた (*far from apologizing, they actually got angry, and everyone was appalled*).\n\nIt follows V-る or V-ない. The set phrase **この始末だ** means *and look how it turned out*.\n\nCompare:\n- **〜あげく（に）** (N2) attaches to the long process: 迷ったあげく、やめた (*after much hesitation, I gave up*). しまつだ attaches to the final, sorry result.\n- **〜次第です** (#12) also closes an explanation, but politely, about the speaker's own actions or circumstances.\n\nPitfall: using it for a good outcome (✗努力して、ついに合格するしまつだ).\n\nJLPT cue: a chain of escalating bad behavior ending in a blank before だ, で or なんです points to しまつ.",
@@ -241,10 +241,10 @@ TRY.registerChapter({
             { ja: "＊[N₂]／[V₂-る]には「何・どこ（へ）・{誰|だれ}」などの{疑問詞|ぎもんし}を使うこともある。", en: "Question words such as 何, どこ（へ） and 誰 can also be used for N₂ / V₂-る (e.g. 〜なり何なり)." },
           ],
           examples: [
-            { ja: "目が悪いなら、{眼鏡|めがね}なりコンタクトなりすればいいのに。", en: "If your eyesight is bad, you should just wear glasses or contacts or something." },
+            { ja: "目が悪いなら、{眼鏡|めがね}なりコンタクトなりすればいいのに。", en: "If your eyesight is bad, why don't you just get glasses or contacts or something?" },
             { ja: "今日は{俺|おれ}のおごりだから、{牛丼|ぎゅうどん}なりカレーなり、好きに注文していいよ。", en: "It's my treat today, so order whatever you like — a beef bowl, curry, anything." },
             { ja: "休みの日ぐらい仕事のことは忘れて、映画を見るなり、買い物をするなり、好きなことをして{息抜|いきぬ}きすれば？", en: "At least on your day off, why not forget about work and relax doing something you enjoy — see a movie, go shopping, whatever?" },
-            { ja: "そんなに1人{暮|ぐ}らししたいなら、外国へなりどこへなり、行きたいところに行けばいいだろう。", en: "If you want to live on your own that badly, go wherever you like — abroad or anywhere else." },
+            { ja: "そんなに1人{暮|ぐ}らししたいなら、外国へなりどこへなり、行きたいところに行けばいいだろう。", en: "If you want to live on your own that badly, then go ahead and go wherever you like — abroad, anywhere." },
             { ja: "食品の安全基準を見直すなり何なりして、より安全に暮らせるように考えてほしい。", en: "I'd like them to review the food safety standards or take some other step, and work out how we can live more safely." },
           ],
           deepDive: "**AなりBなり** offers a couple of examples from an open set of options: *A or B or something*. The speaker doesn't care which, as long as some such step is taken, so it is used for suggestions, advice and warnings: 困ったら、先生なり先輩なりに相談しなさい (*if you're stuck, talk to a teacher or an older student or someone*). It also works for what should have been done: 電話なり何なりしてくれればよかったのに (*you could at least have called or something*).\n\nThe items are parallel alternatives of the same kind: nouns, with their particles kept (外国へなりどこへなり), or V-る. A question word as the second item leaves the list completely open: 〜なり何なり, 〜へなりどこへなり.\n\nCompare:\n- **〜やら〜やら** (N2) and **〜たり〜たり** list things that happened. なり〜なり doesn't report past events (✗昨日は映画を見るなり買い物をするなりした).\n- **AであれBであれ** (#38): *whether A or B, it's the same*, a concession rather than a suggestion.\n- Look-alikes: **V-るなり** (#28), *the moment ~*, and **〜なりに** (#18), *in one's own way*.\n\nJLPT cue: two parallel options + なり…なり + する, followed by 〜ばいい, 〜てください or 〜ほうがいい.",
@@ -286,9 +286,9 @@ TRY.registerChapter({
             { ja: "＊「黒・白・いいこと・失敗・ごちそう・規則」などの決まった言葉と一緒に使われる。", en: "Used with a fixed set of words such as 黒 (black), 白 (white), いいこと (good things), 失敗 (failure), ごちそう (feast) and 規則 (rules)." },
           ],
           examples: [
-            { ja: "ご主人の{昇進|しょうしん}や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's wedding, it's been one happy event after another for Yamada's family." },
+            { ja: "ご主人の{昇進|しょうしん}や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's wedding, it's been nothing but good news for the Yamadas." },
             { ja: "私の学校は規則ずくめで、息がつまりそうだ。", en: "My school is rules, rules, rules — I feel like I'm suffocating." },
-            { ja: "{目撃者|もくげきしゃ}の{証言|しょうげん}によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the culprit was about 180 cm tall, dressed entirely in black, and carrying a gun." },
+            { ja: "{目撃者|もくげきしゃ}の{証言|しょうげん}によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the perpetrator was about 180 cm tall, dressed entirely in black, and carrying a gun." },
             { ja: "今年のわが県のスポーツ選手は{活躍|かつやく}が目覚ましく、サッカーチームは優勝するし、マラソン選手はオリンピック代表に決まるし、{結構|けっこう}ずくめな年となりました。", en: "Our prefecture's athletes did remarkably well this year: the soccer team won the championship and a marathon runner was chosen for the Olympic team — it's been a year of nothing but good news." },
           ],
           deepDive: "**Nずくめ** (尽くめ, from 尽くす *to use up*) means *nothing but N, N from head to toe or from start to finish*. It has two uses: dressed entirely in one color (黒ずくめの男 *a man all in black*), and one N after another (いいことずくめの一年 *a year of nothing but good things*).\n\nIt combines only with a fixed set of nouns (黒, 白, いいこと, 結構, ごちそう, 規則, 失敗 and a few more), so don't attach it freely; for most nouns use ばかり or だらけ. Grammatically it works like a noun or な-adjective: ずくめだ, ずくめの＋N, ずくめな＋N.\n\nUnlike まみれ and だらけ, it is not inherently negative: いいことずくめ and ごちそうずくめ are happy, and 規則ずくめ is negative only because of the noun. In this folktale the 結構ずくめ offer proves too good to be true: the perfect wife is a monster.\n\nCompare:\n- **〜まみれ** (#16): a dirty coating all over: 泥まみれ (*covered in mud*).\n- **〜だらけ**: full of scattered, usually unwelcome things: 傷だらけ (*covered in scratches*).\n\nJLPT cue: learn the collocations; when ずくめ is in a word bank, look for one of these nouns before the blank.",
@@ -433,7 +433,7 @@ TRY.registerChapter({
           items: [
             { q: "工場では車の{整備士|せいびし}が、油＿＿で作業をしている。", answer: "まみれ", en: "In the factory, car mechanics are working covered in oil." },
             { q: "あの{患者|かんじゃ}さんは、もう{自力|じりき}で食べ物を飲み込むこと＿＿できないのです。", answer: "すら", en: "That patient can no longer even swallow food unaided." },
-            { q: "{極|きわ}めて少数だが、情報技術の{恩恵|おんけい}を自ら{絶|た}って生活する人がいない＿＿。", answer: "でもない", en: "Such people are extremely rare, but it's not as if no one deliberately lives cut off from the benefits of information technology." },
+            { q: "{極|きわ}めて少数だが、情報技術の{恩恵|おんけい}を自ら{絶|た}って生活する人がいない＿＿。", answer: "でもない", en: "It's not that there's no one who chooses to live cut off from the benefits of information technology, though such people are extremely few." },
             {
               q: "{奨学金|しょうがくきん}の面接を受けるなら、スーツぐらい買う＿＿借りる＿＿したほうがいいよ。",
               answer: ["なり", "なり"],
@@ -477,7 +477,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "お世話になった{先輩|せんぱい}のお宅へ、お礼かたがた新年のご{挨拶|あいさつ}に{伺|うかが}った。", en: "I visited the home of a senior colleague who had done a lot for me, to pay my New Year's respects and to thank them as well." },
-            { ja: "上司が入院したので、お見舞いかたがた仕事の進め方について相談に行った。", en: "My boss was in the hospital, so I paid a get-well visit and took the opportunity to discuss how to proceed with the work." },
+            { ja: "上司が入院したので、お見舞いかたがた仕事の進め方について相談に行った。", en: "My boss was in the hospital, so I went to discuss how to proceed with the work, and to pay a get-well visit at the same time." },
             { ja: "先生、本日はご{無沙汰|ぶさた}のお{詫|わ}びかたがた、{就職|しゅうしょく}のご報告に参りました。", en: "Professor, today I've come to report that I've found a job, and also to apologize for having been out of touch for so long." },
           ],
           plus: [
@@ -514,9 +514,9 @@ TRY.registerChapter({
             { ja: "外国での1人{暮|ぐ}らしがこんなに大変だとは思ってもみなかったよ。", en: "I never imagined that living on my own in a foreign country would be this hard." },
             { ja: "{内気|うちき}で{無口|むくち}だった彼女が女優になるとは、人生はわからないものだ。", en: "To think that she, who was so shy and quiet, would become an actress — you never know what life will bring." },
             { ja: "まさか君たちが結婚するとはねえ。学生時代はけんかばかりしていたじゃないか。", en: "Who'd have thought you two would get married! Back in school you did nothing but fight!" },
-            { ja: "あの優しそうな老人が、{強盗|ごうとう}事件の犯人だったとは。", en: "To think that kind-looking old man was the culprit in the robbery!" },
+            { ja: "あの優しそうな老人が、{強盗|ごうとう}事件の犯人だったとは。", en: "To think that kind-looking old man was the one behind the robbery!" },
           ],
-          deepDive: "**〜とは** voices surprise, admiration or exasperation at an unexpected fact: *to think that ~!* The surprising fact comes first, then the reaction (驚いた, 思わなかった, 信じられない, あきれた): 10年ぶりに会った友人が社長になっていたとは、驚いた (*to think the friend I hadn't seen in ten years had become a company president!*). まさか often comes before it, and the reaction can be left out, leaving the feeling hanging: まさか彼が犯人だったとは。\n\nIt attaches to plain forms; after な-adjectives and nouns, だ is optional.\n\nDon't confuse it with **XとはYのことだ** (N3), the definition *X means Y*, which carries no surprise; **〜とは限らない** and **〜とはいえ** (#61) are separate patterns too.\n\nCompare **〜なんて** (N3), the colloquial equivalent: こんなに高いなんて！ とは sounds more adult and written, though it is common in speech as well.\n\nPitfall: using it for something you expected (✗やっぱり彼が来るとは).\n\nJLPT cue (★★★): a surprising fact + blank + 驚いた, 思わなかった or 非常識だ points to とは; in listening, まさか…とは means the speaker didn't see it coming.",
+          deepDive: "**〜とは** voices surprise, admiration or exasperation at an unexpected fact: *to think that ~!* The surprising fact comes first, then the reaction (驚いた, 思わなかった, 信じられない, あきれた): 10年ぶりに会った友人が社長になっていたとは、驚いた (*to think the friend I hadn't seen in ten years had become a company president!*). まさか often comes before it, and the reaction can be left out, leaving the feeling hanging: まさか彼が犯人だったとは。\n\nIt attaches to plain forms; after な-adjectives and nouns, だ is optional.\n\nDon't confuse it with **XとはYのことだ** (N3), the definition *X means Y*, which carries no surprise; **〜とは限らない** and **〜とはいえ** (#61) are separate patterns too.\n\nCompare **〜なんて** (N3), the colloquial equivalent: こんなに高いなんて！ とは sounds more adult and written, though it is common in speech as well.\n\nPitfall: using it for something you expected (?やっぱり彼が来るとは).\n\nJLPT cue (★★★): a surprising fact + blank + 驚いた, 思わなかった or 非常識だ points to とは; in listening, まさか…とは means the speaker didn't see it coming.",
           see: [61],
           index: ["〜とは", "〜とは。", "まさか〜とは"],
           practice: [
@@ -543,7 +543,7 @@ TRY.registerChapter({
             { ja: "彼女は立ち上がるなり、コップの水を彼の顔にかけた。", en: "The moment she stood up, she threw the glass of water in his face." },
             { ja: "王子はシンデレラを{一目|ひとめ}見るなり、恋に落ちてしまった。", en: "The prince fell in love with Cinderella the instant he laid eyes on her." },
           ],
-          deepDive: "**V-るなり** means *the moment ~, (something unexpected) followed*. It narrates a past event, usually about a third person, and the second half is a sudden new action or reaction that often surprises the speaker: 息子は帰ってくるなり、自分の部屋に閉じこもった (*the moment my son got home, he shut himself up in his room*).\n\nIt always takes the dictionary form, even for the past (✗帰ってきたなり). The second half can't be a plan, request or order (✗着くなり電話してください → ✓着いたらすぐ電話してください), and it isn't an ongoing state.\n\nCompare:\n- **〜が早いか** (#30): very close; it stresses how short the gap was, and the two subjects easily differ.\n- **〜や否や** (#97): the literary *no sooner than*.\n- **〜たとたん（に）** (N3): often something that happens to the subject outside their control: 立ち上がったとたん、めまいがした (*the moment I stood up, I felt dizzy*).\n\nLook-alikes: **V-たなり**, *and has stayed that way* (出ていったなり戻らない); **AなりBなり** (#21); **〜なりに** (#18).\n\nJLPT cue: a past narrative with an abrupt reaction in the second half (飛び出した, 泣き出した, 怒鳴った) points to なり.",
+          deepDive: "**V-るなり** means *the moment ~, (something unexpected) followed*. It narrates a past event, usually about a third person, and the second half is a sudden new action or reaction that often surprises the speaker: 息子は帰ってくるなり、自分の部屋に閉じこもった (*the moment my son got home, he shut himself up in his room*).\n\nIt always takes the dictionary form, even for the past; V-たなり is a different pattern (below). The second half can't be a plan, request or order (✗着くなり電話してください → ✓着いたらすぐ電話してください), and it isn't an ongoing state.\n\nCompare:\n- **〜が早いか** (#30): very close; it stresses how short the gap was, and the two subjects easily differ.\n- **〜や否や** (#97): the literary *no sooner than*.\n- **〜たとたん（に）** (N3): often something that happens to the subject outside their control: 立ち上がったとたん、めまいがした (*the moment I stood up, I felt dizzy*).\n\nLook-alikes: **V-たなり**, *and has stayed that way* (出ていったなり戻らない); **AなりBなり** (#21); **〜なりに** (#18).\n\nJLPT cue: a past narrative with an abrupt reaction in the second half (飛び出した, 泣き出した, 怒鳴った) points to なり.",
           see: [21, 30, 97, 18],
           index: ["Vなり", "V-るなり", "〜なり"],
           practice: [
@@ -605,8 +605,8 @@ TRY.registerChapter({
           forms: ["[V-る]／[V-た] + が早いか"],
           examples: [
             { ja: "店員がドアを開けるが早いか、待っていた客がなだれ込んできた。", en: "No sooner had the clerk opened the door than the waiting customers came pouring in." },
-            { ja: "{侍|さむらい}が{刀|かたな}に手をかけるが早いか、{敵|てき}は悲鳴を上げる間もなく倒れた。", en: "The instant the samurai put his hand on his sword, his opponent fell before he could even cry out." },
-            { ja: "{魔法|まほう}使いが{呪文|じゅもん}を{唱|とな}えるが早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "No sooner had the wizard chanted the spell than the prince turned into a frog." },
+            { ja: "{侍|さむらい}が{刀|かたな}に手をかけるが早いか、{敵|てき}は悲鳴を上げる間もなく倒れた。", en: "The instant the samurai put his hand on his sword, his opponent went down without even time to scream." },
+            { ja: "{魔法|まほう}使いが{呪文|じゅもん}を{唱|とな}えるが早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "The wizard had barely chanted the spell when the prince turned into a frog in an instant." },
             { ja: "{田中|たなか}さんは疲れていたのか、電車に乗ったが早いか、いびきをかいて{爆睡|ばくすい}してしまった。", en: "Maybe Tanaka was tired: no sooner had they boarded the train than they were snoring away, dead to the world." },
           ],
           deepDive: "**V + が早いか** means *no sooner ~ than…*: the second event happens almost at the same moment as the first, and the speaker is struck by how short the gap was. 早い refers to how small the gap is; it is not a comparison. It is literary and narrative, suited to stories and vivid accounts: ベルが鳴るが早いか、生徒たちは教室を飛び出した (*no sooner had the bell rung than the students rushed out of the classroom*).\n\nIt takes V-る or V-た. The second half is a past fact, often dramatic, and the two subjects can differ. No requests, intentions or orders follow.\n\nCompare:\n- **〜なり** (#28): the book treats it as equivalent; なり centers on one person's sudden behavior.\n- **〜や否や** (#97): equally literary.\n- **〜そばから** (#31): a repeated cycle, where が早いか is a single occurrence.\n- **〜たが最後** (#33): *once ~, there's no going back*, about irreversibility rather than timing.\n\nPitfall: reading 早い literally, as *earlier than* or *early in the day*.\n\nJLPT cue: a single past event with an instant reaction points to が早いか; a repeated, frustrating cycle points to そばから.",
@@ -733,7 +733,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "彼はアトリエにこもったが最後、{寝食|しんしょく}を忘れてしまうので家族は心配している。", en: "Once he shuts himself up in his studio, that's it — he forgets to eat or sleep, so his family worries about him." },
-            { ja: "{顧客|こきゃく}からの信頼は一度失ったが最後、取り戻すことは難しいだろう。", en: "Once you've lost your customers' trust, it will probably be hard to win it back." },
+            { ja: "{顧客|こきゃく}からの信頼は一度失ったが最後、取り戻すことは難しいだろう。", en: "Lose your customers' trust just once, and you'll probably find it hard to win back." },
             { ja: "この本は読み始めたが最後、{徹夜|てつや}してでも{一気|いっき}に終わりまで読みたくなる{面白|おもしろ}さです。", en: "This book is so gripping that once you start reading it, you'll want to finish it in one go, even if you have to stay up all night." },
             { ja: "このボタンを押したら最後、データの{復元|ふくげん}は二度とできなくなるから、注意してね。", en: "Once you press this button, the data can never be recovered, so be careful." },
           ],
@@ -768,7 +768,7 @@ TRY.registerChapter({
           items: [
             { q: "たった700円で、こんなにおなかいっぱい食べられる＿＿、いい店を見つけたね。", answer: "とは", en: "To think you can eat your fill like this for just 700 yen — you've found a great place." },
             { q: "ライオンの{姿|すがた}が{視界|しかい}に入る＿＿、シマウマの群れは{猛|もう}スピードで走り出した。", answer: "が早いか", en: "The instant a lion came into view, the herd of zebras broke into a run at full speed." },
-            { q: "うちの弟はゲームを始めた＿＿、時間というものを忘れてしまうんです。", answer: "が最後", en: "Once my little brother starts playing a game, he completely forgets about time." },
+            { q: "うちの弟はゲームを始めた＿＿、時間というものを忘れてしまうんです。", answer: "が最後", en: "Once my little brother starts playing a game, he loses all track of time." },
           ],
         },
         {
@@ -776,10 +776,10 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the word that fills each blank from the box." },
           bank: ["かたがた", "そばから", "なり", "にはおかない"],
           items: [
-            { q: "お前、{無駄遣|むだづか}いはやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", answer: "そばから", en: "You said you'd stop wasting money, and right after saying it you go and buy two new bags? What's the meaning of this?" },
+            { q: "お前、{無駄遣|むだづか}いはやめると言った＿＿、新しいかばんを2つも買うなんて、どういうことだ。", answer: "そばから", en: "You said you'd stop wasting money, and right after saying it you go and buy two new bags? What do you think you're doing?" },
             { q: "{裁判|さいばん}で犯罪被害者が、何としても{被告|ひこく}に罪を{償|つぐな}わせず＿＿と思うのは当然である。", answer: "にはおかない", en: "It is only natural that crime victims in a trial should be determined to make the defendant pay for the crime, whatever it takes." },
             { q: "{本日|ほんじつ}は、先生に合格のご報告＿＿、お礼に{伺|うかが}いました。", answer: "かたがた", en: "Today I've come to thank you, Professor, and at the same time to let you know that I passed." },
-            { q: "{連日|れんじつ}仕事に追われていた夫は、昨晩深夜に帰宅する＿＿、{玄関|げんかん}で倒れてしまったのです。", answer: "なり", en: "My husband, who had been snowed under with work day after day, collapsed in the entrance the moment he got home late last night." },
+            { q: "{連日|れんじつ}仕事に追われていた夫は、昨晩深夜に帰宅する＿＿、{玄関|げんかん}で倒れてしまったのです。", answer: "なり", en: "My husband, who had been snowed under with work day after day, collapsed in the entryway the moment he got home late last night." },
           ],
         },
       ],
@@ -811,7 +811,7 @@ TRY.registerChapter({
             q: "新発売のエコカーは環境への{配慮|はいりょ}（　）、価格の面でも皆様にご{納得|なっとく}いただけるものとなっております。",
             options: ["どころか", "はおろか", "かたがた", "はもとより"],
             answer: 3,
-            en: "Our newly released eco-car is designed with the environment in mind, of course, and we are confident you will be satisfied with its price as well.",
+            en: "Our newly released eco-car is, of course, designed with the environment in mind, and it is priced to win your approval as well.",
             why: { en: "〜はもとより…も: “A goes without saying, and B too” — a positive, formal addition suited to advertising. はおろか needs a negative second half, どころか would brush A aside, and かたがた is for a visit made with a second purpose." },
           },
           {

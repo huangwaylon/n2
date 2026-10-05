@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to become completely absorbed in, to get hooked on",
     note: "Stronger than 夢中になる, often with a hint of excess: ギャンブルにのめり込む, 研究にのめり込む. 打ち込む (devote oneself to) is purely positive; のめり込む can be neutral or worrying.",
     rx: ["のめりごむ", "のめりいむ", "のめりかむ"],
-    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "Yamada's friends are all starting to look for jobs, but Yamada pays no attention and is completely wrapped up in club activities.", at: "gp/17" },
+    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "Unconcerned that friends are starting their job hunts, Yamada is completely wrapped up in club activities.", at: "gp/17" },
     ex: [
       { ja: "彼は大学時代に{演劇|えんげき}に**のめり{込|こ}み**、授業にほとんど出なかった。", en: "In college he got so wrapped up in theater that he hardly went to class.", alt: ["{割|わ}り{込|こ}み", "{申|もう}し{込|こ}み", "{冷|ひ}え{込|こ}み"] },
     ] },
@@ -276,7 +276,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "fraud, swindle, scam",
     note: "詐欺に遭う (be scammed), 詐欺師 (a con artist), 振り込め詐欺 (a phone scam demanding bank transfers). The everyday verb is だます (to deceive).",
     rx: ["さき", "さぎい", "しゃぎ"],
-    book: { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には**{詐欺|さぎ}**で捕まるしまつだ。", en: "That woman has told nothing but lies since she was a child, and in the end she got herself arrested for fraud.", at: "gp/20" },
+    book: { ja: "あの女は子どものころから{嘘|うそ}ばかりついていて、最後には**{詐欺|さぎ}**で捕まるしまつだ。", en: "That woman told nothing but lies from the time she was a child, and in the end she got herself arrested for fraud.", at: "gp/20" },
     ex: [
       { ja: "{高齢者|こうれいしゃ}を{狙|ねら}った**{詐欺|さぎ}**の{被害|ひがい}が増えている。", en: "Scams targeting elderly people are on the rise.", alt: ["{詐称|さしょう}", "{偽造|ぎぞう}", "{作業|さぎょう}"] },
     ] },
@@ -284,7 +284,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "promotion (to a higher rank)",
     note: "課長に昇進する. 昇格 is moving up a grade or class (also for teams and leagues); 出世 is getting ahead in one's career or in life. The opposite is 降格 (demotion).",
     rx: ["しょしん", "じょうしん", "しょうじん"],
-    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's wedding, it's been one happy event after another for Yamada's family.", at: "gp/22" },
+    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's wedding, it's been nothing but good news for the Yamadas.", at: "gp/22" },
     ex: [
       { ja: "{入社|にゅうしゃ}10年目で、彼は{課長|かちょう}に**{昇進|しょうしん}**した。", en: "In his tenth year at the company, he was promoted to section chief.", alt: ["{前進|ぜんしん}", "{進学|しんがく}", "{上昇|じょうしょう}"] },
     ] },
@@ -300,7 +300,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "eyewitness",
     note: "From 目撃する (to witness, see with one's own eyes): 事故を目撃する, 目撃情報 (sightings). 証人 is a witness in court.",
     rx: ["めげきしゃ", "もくげきじゃ", "もくけきしゃ"],
-    book: { ja: "**{目撃者|もくげきしゃ}**の{証言|しょうげん}によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the culprit was about 180 cm tall, dressed entirely in black, and carrying a gun.", at: "gp/22" },
+    book: { ja: "**{目撃者|もくげきしゃ}**の{証言|しょうげん}によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the perpetrator was about 180 cm tall, dressed entirely in black, and carrying a gun.", at: "gp/22" },
     ex: [
       { ja: "警察は事故の**{目撃者|もくげきしゃ}**を探している。", en: "The police are looking for witnesses to the accident.", alt: ["{出場者|しゅつじょうしゃ}", "{有権者|ゆうけんしゃ}", "{後継者|こうけいしゃ}"] },
     ] },
@@ -308,7 +308,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "testimony; to testify",
     note: "法廷で証言する, 証言を得る, 目撃者の証言. 証拠 is evidence (things); 証言 is what a person states; 証人 is the person.",
     rx: ["しょうごん", "せいげん", "しょげん"],
-    book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the culprit was about 180 cm tall, dressed entirely in black, and carrying a gun.", at: "gp/22" },
+    book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**によると、犯人は身長180cm程度、全身黒ずくめで{銃|じゅう}を{所持|しょじ}していたということです。", en: "According to witnesses, the perpetrator was about 180 cm tall, dressed entirely in black, and carrying a gun.", at: "gp/22" },
     ex: [
       { ja: "元社員の**{証言|しょうげん}**によって、会社の{不正|ふせい}が明らかになった。", en: "Testimony from a former employee brought the company's wrongdoing to light.", alt: ["{宣言|せんげん}", "{予言|よげん}", "{助言|じょげん}"] },
     ] },
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to chant, to recite (a spell or prayer); to advocate, to put forward (a view)",
     note: "Two uses: 呪文 / お経を唱える (recite), and 異議を唱える (raise an objection), 新説を唱える (advocate a new theory). The second is formal written style.",
     rx: ["となる", "しょうえる", "うたえる"],
-    book: { ja: "{魔法|まほう}使いが{呪文|じゅもん}を**{唱|とな}える**が早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "No sooner had the wizard chanted the spell than the prince turned into a frog.", at: "gp/30" },
+    book: { ja: "{魔法|まほう}使いが{呪文|じゅもん}を**{唱|とな}える**が早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "The wizard had barely chanted the spell when the prince turned into a frog in an instant.", at: "gp/30" },
     ex: [
       { ja: "彼はその計画に{真|ま}っ{向|こう}から{異議|いぎ}を**{唱|とな}えた**。", en: "He flatly objected to the plan.", alt: ["{称|たた}えた", "{整|ととの}えた", "{与|あた}えた"] },
     ] },
@@ -635,7 +635,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "customer, client (business)",
     note: "A business term: 顧客満足, 顧客情報, 顧客管理. 客 / お客様 is the everyday word; 取引先 is a client company or business partner.",
     rx: ["こかく", "ごきゃく", "こうきゃく"],
-    book: { ja: "**{顧客|こきゃく}**からの信頼は一度失ったが最後、取り戻すことは難しいだろう。", en: "Once you've lost your customers' trust, it will probably be hard to win it back.", at: "gp/33" },
+    book: { ja: "**{顧客|こきゃく}**からの信頼は一度失ったが最後、取り戻すことは難しいだろう。", en: "Lose your customers' trust just once, and you'll probably find it hard to win back.", at: "gp/33" },
     ex: [
       { ja: "営業の基本は、**{顧客|こきゃく}**のニーズを正確に{把握|はあく}することだ。", en: "The basics of sales come down to understanding exactly what your customers need.", alt: ["{顧問|こもん}", "{観客|かんきゃく}", "{乗客|じょうきゃく}"] },
     ] },
