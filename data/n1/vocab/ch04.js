@@ -65,7 +65,7 @@ TRY.registerVocab({ ch: 4, words: [
     ] },
   { w: "{言動|げんどう}", lv: "N1", pos: "noun",
     en: "words and deeds, speech and behavior",
-    note: "Usually evaluative or critical: 言動に注意する, 不適切な言動, 言動が一致しない (practice what you preach — or fail to). 行動 covers only actions.",
+    note: "Usually evaluative or critical: 言動に注意する, 不適切な言動, 言動が一致しない (one's actions don't match one's words). 行動 covers only actions.",
     rx: ["ごんどう", "げんとう", "いいどう"],
     book: { ja: "総理大臣ともなると、その**{言動|げんどう}**の1つ1つが大きな{影響|えいきょう}を与える。", en: "When you're the prime minister, every single thing you say and do has a big impact.", at: "gp/35" },
     ex: [
@@ -100,7 +100,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["じがら", "じへい", "ことえ"],
     book: { ja: "「〜にひきかえ…」は「一方は〜のに、{他方|たほう}は…だ」と2つの**{事柄|ことがら}**を比べて、対照的だという意味を表す。", en: "“〜にひきかえ…” compares two things — “one is 〜, whereas the other is …” — and expresses that they are in sharp contrast.", at: "gp/36" },
     ex: [
-      { ja: "会議で決まった**{事柄|ことがら}**は、全員に{共有|きょうゆう}してください。", en: "Please share the matters decided at the meeting with everyone.", alt: ["{間柄|あいだがら}", "{人柄|ひとがら}", "{家柄|いえがら}"] },
+      { ja: "会議で決まった**{事柄|ことがら}**は、全員に{共有|きょうゆう}してください。", en: "Please share what was decided at the meeting with everyone.", alt: ["{間柄|あいだがら}", "{人柄|ひとがら}", "{家柄|いえがら}"] },
     ] },
   { w: "{対照的|たいしょうてき}", lv: "N2", pos: "な adjective",
     en: "contrasting, in sharp contrast",
@@ -164,7 +164,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["ちょうさくけん", "しょさくけん", "ちょさっけん"],
     book: { ja: "論文であれ手紙であれ、**{著作権|ちょさくけん}**に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're writing a paper or a letter, you must take copyright into account when you quote.", at: "gp/38" },
     ex: [
-      { ja: "他人の写真を{無断|むだん}で使うと、**{著作権|ちょさくけん}**の{侵害|しんがい}になる。", en: "Using someone else's photos without permission is a copyright infringement.", alt: ["{選挙権|せんきょけん}", "{主導権|しゅどうけん}", "{特権|とっけん}"] },
+      { ja: "他人の写真を{無断|むだん}で使うと、**{著作権|ちょさくけん}**の{侵害|しんがい}になる。", en: "Using someone else's photos without permission is copyright infringement.", alt: ["{選挙権|せんきょけん}", "{主導権|しゅどうけん}", "{特権|とっけん}"] },
     ] },
   { w: "{引用|いんよう}", lv: "N1", pos: "noun · する verb",
     en: "quotation, citation",
@@ -280,7 +280,7 @@ TRY.registerVocab({ ch: 4, words: [
     ] },
   { w: "{精一杯|せいいっぱい}", lv: "N2", pos: "adverb · noun",
     en: "as hard as one can, with all one's might; the most one can manage",
-    note: "精一杯がんばる / やる; also 'the limit': 生活するのが精一杯 (it's all I can do just to get by). A humble reply in business: 精一杯やらせていただきます.",
+    note: "精一杯がんばる / やる; also 'the limit': 生活するのが精一杯 (it's all I can do just to get by). 精一杯やらせていただきます is a modest way to take on a task at work (I'll do my very best).",
     rx: ["せいいっぱ", "しょういっぱい", "せいいちはい"],
     book: { ja: "B：はい、**{精一杯|せいいっぱい}**やらせていただきます。", en: "B: Yes, I'll do my very best.", at: "gp/40" },
     ex: [
@@ -440,7 +440,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["そくをはこぶ", "あしをうんぶ", "あしをはごぶ"],
     book: { ja: "{遠方|えんぽう}に**足を運ぶ**までもなく、ネットを通じて地方の{特産品|とくさんひん}が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the internet without having to travel far.", at: "gp/41" },
     ex: [
-      { ja: "{交渉|こうしょう}のため、部長は何度も{取引先|とりひきさき}に**{足|あし}を{運|はこ}んだ**。", en: "The manager went to see the client many times to negotiate.", alt: ["{足|あし}を{洗|あら}った", "{足|あし}を{引|ひ}っ{張|ぱ}った", "{手|て}を{焼|や}いた"] },
+      { ja: "{交渉|こうしょう}のため、部長は何度も{取引先|とりひきさき}に**{足|あし}を{運|はこ}んだ**。", en: "The department head made trip after trip to the client to negotiate.", alt: ["{足|あし}を{洗|あら}った", "{足|あし}を{引|ひ}っ{張|ぱ}った", "{手|て}を{焼|や}いた"] },
     ] },
   { w: "{特産品|とくさんひん}", lv: "N1", pos: "noun",
     en: "local specialty (product)",
@@ -483,12 +483,12 @@ TRY.registerVocab({ ch: 4, words: [
       { ja: "両国の{首脳|しゅのう}による**{会談|かいだん}**が東京で行われた。", en: "Talks between the leaders of the two countries were held in Tokyo.", alt: ["{会計|かいけい}", "{相談|そうだん}", "{階段|かいだん}"] },
     ] },
   { w: "{打|う}ち{上|あ}げ", lv: "N1", pos: "noun",
-    en: "launch (of a rocket); setting off (fireworks); a wrap party (after an event)",
+    en: "launch (of a rocket); setting off (fireworks); a party to celebrate the end of an event (wrap party)",
     note: "ロケットの打ち上げ, 打ち上げ花火; casually, a celebratory party after a project or performance: 公演の打ち上げ.",
     rx: ["だちあげ", "うちじょうげ", "うちあがけ"],
     book: { ja: "明日のロケット**打ち上げ**は、天候いかんで延期になる可能性が出てきました。", en: "Depending on the weather, there is now a chance that tomorrow's rocket launch will be postponed.", at: "gp/42" },
     ex: [
-      { ja: "文化祭が終わった後、クラスで**{打|う}ち{上|あ}げ**をした。", en: "After the school festival was over, our class had a wrap party.", alt: ["{売|う}り{上|あ}げ", "{繰|く}り{上|あ}げ", "{値上|ねあ}げ"] },
+      { ja: "文化祭が終わった後、クラスで**{打|う}ち{上|あ}げ**をした。", en: "After the school festival was over, our class had a party to celebrate.", alt: ["{売|う}り{上|あ}げ", "{繰|く}り{上|あ}げ", "{値上|ねあ}げ"] },
     ] },
   { w: "{情勢|じょうせい}", lv: "N1", pos: "noun",
     en: "situation, state of affairs (political, international)",
@@ -512,7 +512,7 @@ TRY.registerVocab({ ch: 4, words: [
     rx: ["りょうしょ", "りょうじょう", "りょしょう"],
     book: { ja: "お申し込み後は、理由のいかんにかかわらず、キャンセルできませんのでご**{了承|りょうしょう}**ください。", en: "Please note that once you have applied, you cannot cancel for any reason whatsoever.", at: "gp/42" },
     ex: [
-      { ja: "{駐車場|ちゅうしゃじょう}の台数には{限|かぎ}りがありますので、あらかじめご**{了承|りょうしょう}**ください。", en: "Please note in advance that parking spaces are limited.", alt: ["{紹介|しょうかい}", "{承認|しょうにん}", "{継承|けいしょう}"] },
+      { ja: "{駐車場|ちゅうしゃじょう}の台数には{限|かぎ}りがありますので、あらかじめご**{了承|りょうしょう}**ください。", en: "Please note in advance that parking spaces are limited.", alt: ["{紹介|しょうかい}", "{完了|かんりょう}", "{継承|けいしょう}"] },
     ] },
   { w: "{加入|かにゅう}", lv: "N1", pos: "noun · する verb",
     en: "joining, enrollment (in an insurance plan, union or organization)",
