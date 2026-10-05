@@ -298,11 +298,11 @@ TRY.registerLesson({
       "A girl asks a boy a question: \"How much do you love me?\"",
       "The boy thinks for a while, then answers in a quiet voice, \"As much as a train whistle in the middle of the night.\"",
       "The girl waits in silence for him to go on. There must be a story behind it.",
-      "\"One time, I suddenly wake up in the middle of the night,\" he begins. \"I don't know exactly what time it is. Two or three o'clock, probably, something like that. But what time it is isn't that important. Anyway, it's the middle of the night, and I'm completely alone; there's no one around me. Now, try to imagine it. Everything around me is pitch-dark, and I can't see a thing. I can't hear a single sound. I can't even hear the clock ticking away the time; maybe the clock has stopped. And then all of a sudden I feel that I'm unbelievably far away from everyone I know and from every place I know, cut off and torn away from them. I realize that I have become someone nobody in this whole wide world loves, nobody speaks to, nobody even remembers. Even if I just disappeared, nobody would notice. It feels like being packed into a thick iron box and sunk to the bottom of a deep sea. Because of the pressure, my heart hurts, as if it's about to rip right in two. Do you know that kind of feeling?\"",
+      "\"One time, I suddenly wake up in the middle of the night,\" he begins. \"I don't know exactly what time it is. Two or three o'clock, probably, something like that. But what time it is isn't that important. Anyway, it's the middle of the night, and I'm completely alone; there's no one around me. Listen, I want you to imagine this. Everything around me is pitch-dark, and I can't see a thing. I can't hear a single sound. I can't even hear the clock ticking away the time; maybe the clock has stopped. And then all of a sudden I feel that I'm unbelievably far away from everyone I know and from every place I know, cut off and torn away from them. I realize that I have become someone nobody in this whole wide world loves, nobody speaks to, nobody even remembers. Even if I just disappeared, nobody would notice. It feels like being packed into a thick iron box and sunk to the bottom of a deep sea. The pressure makes my heart hurt so much it feels like it's about to burst and tear right in two. Do you know that kind of feeling?\"",
       "The girl nods. She thinks she probably does.",
-      "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's a feeling so sad and painful that you really want to just die. No, that's not it. It's not that you want to die; if you just left it like that, the air in the box would get thinner and you would actually die. That's not a figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
+      "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's so sad and painful that you really want to just die. No, that's not it. It's not about wanting to die. If you just left things as they were, the air in the box would get thinner and you would actually die. That's not some figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
       "The girl nods silently again. The boy pauses for a moment.",
-      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Where on earth there could even be railroad tracks out there, I have no idea myself. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I listen hard in the darkness. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
+      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. I have no idea myself where on earth there could be railroad tracks or anything out there. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I hold still in the darkness and listen hard. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
       "With that, the boy's short story ends. Now the girl begins to tell her own story."
      ]
     },
@@ -397,13 +397,13 @@ TRY.registerLesson({
      "titleTr": "Love and Fear",
      "tr": [
       "The other day, a kitten came to live with us. I had never kept an animal bigger than a parakeet. For someone like me, who had never had a cat, this was quite an event. What if it doesn't get used to us? What if I can't take care of it properly? What if we can't get along? Every day until the cat arrived, I trembled with anxiety.",
-      "But this kitten turned out to be amazing. Right after it arrived at our home, it fell asleep on our laps, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead knead knead knead, and pestered me: food, food. How should I put it? It's easygoing. It isn't afraid of anything.",
+      "But this kitten is amazing. Right after it arrived at our home, it went to sleep on someone's lap, and that night it slept with its head on my pillow. The next morning it kneaded my face, my arms and so on with its front paws, knead, knead, knead, knead, demanding \"Food, food!\" How should I put it? It's so laid-back. Nothing fazes it.",
       "I was surprised. Of course each cat has its own personality, but do cats really slip into people's lives this casually?",
-      "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, that stopped too, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
+      "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, even that changed, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my capacity for imagining frightening things has been growing.",
-      "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the wall-to-wall bookshelf starts to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? If I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
-      "And so I wonder: when their children are small, how many imagined fears must mothers everywhere tremble at? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
-      "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs to pessimism."
+      "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the bookshelves that cover a whole wall start to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? But if I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
+      "And so I wonder: when their children are small, how much imagined fear must mothers everywhere tremble with? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
+      "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs on the side of pessimism."
      ]
     },
     {
@@ -424,7 +424,7 @@ TRY.registerLesson({
      ],
      "titleTr": "Profile",
      "tr": [
-      "Japanese novelist, children's author, and translator. She debuted in 1990 with Kōfuku na Yūgi (A Happy Game) and has published many works on the themes of family and romance. Besides fiction, she is also active in essays and in translating picture books. She won the Naoki Prize for Taigan no Kanojo (Woman on the Other Shore). Her other major works include Kidnap Tour, Kūchū Teien (The Floating Garden), and Yōkame no Semi (The Eighth Day)."
+      "Japanese novelist, children's author, and translator. She debuted in 1990 with Kōfuku na Yūgi (A Happy Game) and has published many works on the themes of family and romance. Besides fiction, she is also active writing essays and translating picture books. She won the Naoki Prize for Taigan no Kanojo (Woman on the Other Shore). Her other major works include Kidnap Tour, Kūchū Teien (Hanging Garden), and Yōkame no Semi (The Eighth Day)."
      ],
      "headTr": [
       "Mitsuyo Kakuta"
@@ -481,7 +481,7 @@ TRY.registerLesson({
         {
          "n": "(b)",
          "ja": "「もしもし、」と女が言った。それは**まるで**{安定|あんてい}の悪いテーブルに薄いグラスをそっと{載|の}せた**ような**しゃべり方だった。（『風の歌を{聴|き}け』{村上|むらかみ}{春樹|はるき}）",
-         "tr": "“Hello,” the woman said. The way she spoke was just like a thin glass being set down gently on a wobbly table. (Haruki Murakami, Hear the Wind Sing)"
+         "tr": "“Hello,” the woman said. She said it just as if she were gently setting a thin glass down on a wobbly table. (Haruki Murakami, Hear the Wind Sing)"
         }
        ]
       },
@@ -753,7 +753,7 @@ TRY.registerLesson({
           {
            "sub": "b",
            "ja": "日本での留学生活は楽しくて国に帰りたくない**くらい**だ。",
-           "tr": "Studying abroad in Japan is so much fun, I almost don’t want to go back to my country."
+           "tr": "Studying abroad in Japan is so much fun; it’s to the point where I don’t want to go back to my country."
           }
          ]
         },
@@ -1314,7 +1314,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "卒業して以来、{田中|たなか}さんに全く連絡をしていない。**いったい**今**どこ**で**何**をしているのだろう**か**。",
-         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. Where on earth could they be now, and what are they doing?"
+         "tr": "I haven’t been in touch with Tanaka-san at all since graduation. I wonder where on earth they are now and what they’re doing."
         },
         {
          "n": 2,
@@ -1503,7 +1503,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "大学に行く**ということは**、可能性が広がるということだ。",
-         "tr": "Going to college means your possibilities expand."
+         "tr": "Going to college means opening up more possibilities for yourself."
         },
         {
          "n": 3,
@@ -1619,7 +1619,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "働きながら大学に行くのは大変じゃない**はずがない**。",
-         "tr": "There's no way going to college while working could be easy."
+         "tr": "There's no way that going to college while working isn't hard."
         },
         {
          "n": 4,
@@ -1992,7 +1992,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**V-ます + 得る** is a written word for possibility, whether something can happen or be the case, not whether someone is able to do it. Reports and analysis use it: 起こり得るリスク (*risks that could arise*), 想像し得ない変化 (*unimaginable change*).\n\n- あり得る／あり得ない are the forms heard in everyday speech; ありえない！ on its own means *no way! / that's ridiculous*.\n- Before a noun it works like English *-able*: 考え得る方法 (*every conceivable method*).\n\nKeep it apart from **〜ざるを得ない** (*have no choice but to*), where 得ない expresses necessity. TRY! N2 teaches the same 〜得る／得ない; **〜かねない** (L11-6) adds that the possible outcome is a bad one."
+     "deepDive": "**V-ます + 得る** is a written word for possibility, whether something can happen or be the case, not whether someone is able to do it. Reports and analysis use it: 起こり得るリスク (*risks that could arise*), 想像し得ない変化 (*unimaginable change*).\n\n- あり得る／あり得ない are the forms heard in everyday speech; ありえない！ on its own means *no way! / that's ridiculous*.\n- Before a noun it works like English *-able*: 考え得る方法 (*a conceivable method*).\n\nKeep it apart from **〜ざるを得ない** (*have no choice but to*), where 得ない expresses necessity. TRY! N2 teaches the same 〜得る／得ない; **〜かねない** (L11-6) adds that the possible outcome is a bad one."
     },
     {
      "t": "note",
@@ -2034,7 +2034,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "夫は私に掃除のやり方について{文句|もんく}を言うが、自分ではやり**もしない**。",
-         "tr": "My husband complains to me about the way I clean, but he doesn't even do it himself."
+         "tr": "My husband complains to me about the way I clean, but he won't even do it himself."
         },
         {
          "n": 3,
