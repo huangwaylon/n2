@@ -108,7 +108,7 @@ TRY.registerLesson({
        "n": "2.",
        "text": {
         "ja": "留学のよい点と気をつけるべき点は何だと思いますか。",
-        "tr": "What do you think are the good points of studying abroad, and the points you should be careful about?"
+        "tr": "What do you think are the good points of studying abroad, and what should you be careful about?"
        }
       }
      ]
@@ -160,7 +160,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "「寮生活のよい点と気をつけるべき点」というテーマ (theme) で、グループで話し合ってください。",
-        "tr": "Discuss in groups on the theme “the good points of dorm life and the points to be careful about.”"
+        "tr": "In groups, discuss the theme “the good points of dorm life and what to be careful about.”"
        }
       }
      ]
@@ -316,17 +316,17 @@ TRY.registerLesson({
       "くことが必要だと思います。"
      ],
      "tr": [
-      "We asked four people to talk about what was good about studying abroad and what you should be careful about when you study abroad: Sarah Gomis from France and Park Ji-hoon from Korea, who are currently studying in Japan, and Ken Honda and Miki Takahashi, Japanese college students who have studied in the United States.",
+      "We asked four people to discuss what was good about studying abroad and what you should be careful about when you do: Sarah Gomis-san from France and Park Ji-hoon-san from Korea, who are currently studying in Japan, and Honda Ken-san and Takahashi Miki-san, Japanese college students who have studied in the United States.",
       "What are the good points of studying abroad?",
-      "Gomis: I'd have to say it's the way your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to speaking and listening especially quickly. Another attraction is being able to interact casually with Japanese people.",
-      "Park: I think so too. When you learn another country's language and culture, the most important thing, above all, is to actually experience it. I'm interested in Japanese politics and history, so I've gone to the Atomic Bomb Dome in Hiroshima and listened to Japanese people's opinions. The more you take the initiative and get out and do things, the more deeply you can get to know Japan, and I've seen firsthand that this is what makes studying abroad so appealing.",
+      "Gomis: I'd say it's that your Japanese keeps getting better and better. That's something I've felt myself ever since I came to Japan. When you live in Japan, you have to use Japanese in your everyday life, so I feel like you get used to it quickly, especially speaking and listening. Another attraction is being able to interact casually with Japanese people.",
+      "Park: I think so too. When you learn another country's language and culture, the most important thing, more than anything, is to experience it firsthand. I'm interested in Japanese politics and history, so I've been doing things like visiting the Atomic Bomb Dome in Hiroshima and asking Japanese people what they think. The more you take the initiative and act on your own, the more deeply you can get to know Japan, and I really feel that that's the appeal of studying abroad.",
       "Takahashi: I think the biggest advantage is being exposed to a variety of values. For example, at the dorm of the American university where I studied, there were people from all over the world, so I got to hear all kinds of opinions. It was also good to experience lifestyles and customs different from Japan's. Through experiences like these, I think I was able to see Japan and myself from the outside for the first time.",
       "Honda: I agree. By studying abroad and gaining all kinds of experiences, I think you can broaden your horizons. I also feel like I've gained more confidence in myself than I had before.",
       "Then what should you be careful about when you study abroad?",
-      "Park: When you study abroad, the biggest issue has to be money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, I think it's a real shame that some people speak their native language even though they've gone to the trouble of spending money to study abroad. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
-      "Gomis: That may be true. But when I had only just come to Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I had a hard time keeping up with my classes, and I was worried about my grades... Of course, it may not be good to talk only with people from your own country, but I think it's also fine to spend time with people from your own country sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
-      "Honda: After I studied abroad, I realized that my graduation might be delayed... That's because international students sometimes can't take classes as freely as American students. So I thought you should definitely check in advance whether you'll be able to earn credits according to your plan at the school where you study abroad.",
-      "Takahashi: One thing Japanese students need to watch out for is that the time you study abroad overlaps with job-hunting season in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from job hunting overseas: companies give priority to hiring students who are still in school. In other words, if you spend a year abroad in your third year, you end up with less time for job hunting. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
+      "Park: When you study abroad, the biggest issue has to be money. You need to have enough money ready, taking into account not just tuition but also living expenses in Japan. Also, it's a real shame when people who've gone to the trouble of spending money to study abroad speak their native language. I'd say the idea that “as long as you study abroad, you'll naturally be able to speak the language of that country” isn't right. If you don't want to waste your money and time, you should make a point of speaking Japanese.",
+      "Gomis: That may be true. But when I had just arrived in Japan, I couldn't express my feelings well because of the language barrier, and I often felt stressed. On top of that, I had a hard time keeping up with my classes, and I was worried about my grades... Of course, talking only with people from your own country may not be a good thing, but I think it's also fine to spend time with them sometimes. That way, you can avoid getting homesick even while living in a faraway country.",
+      "Honda: After I studied abroad, I realized that my graduation might be delayed... That's because international students sometimes can't take classes as freely as American students. So I came away thinking you should be sure to check in advance whether you'll be able to earn credits as planned at your host university.",
+      "Takahashi: One thing Japanese students should watch out for is probably that study abroad ends up overlapping with job-hunting season in Japan. Many Japanese exchange programs are aimed at third-year students, but the third year is also when you start job hunting in earnest. What's more, job hunting in Japan is very different from job hunting overseas: companies give priority to hiring students who are still in school. In other words, if you spend a year abroad in your third year, you end up with less time for job hunting. So I think it's necessary to prepare for job hunting after you return home, for example by collecting information about companies you're interested in even while you're abroad."
      ]
     },
     {
@@ -390,9 +390,9 @@ TRY.registerLesson({
      ],
      "tr": [
       "Having come all the way to Japan, I wanted to make the most of it by trying a part-time job. So I decided to work at a hotel restaurant. I had always dreamed of working at a hotel, and I thought it would be good practice for keigo.",
-      "On the first day, I received training all day long. I was made to practice over and over until I could properly bow and say greetings such as irasshaimase (“welcome”) and kashikomarimashita (“certainly”). I thought, “Why, when it's only a part-time job?” but I soon understood the reason. It was because part-timers, just like regular employees, have to deal with guests as members of the staff who represent the hotel. No wonder everyone who works at a hotel is so polite, I thought.",
-      "The next day, after they explained the day's work to me, I was finally allowed out onto the dining floor. Once I actually started working, I realized that the floor work wasn't as easy as I had thought. What was especially hard was that, whether I was busy or tired, I always had to watch the guests closely and serve them with a smile. For example, if a guest's glass of water was getting low, I had to go and refill it before being asked. There was also a rule that even after closing time, if even one guest was still there, we couldn't start cleaning up the restaurant. In my heart I thought, “I wish they'd hurry up and leave...,” but thinking of the guests first and acting accordingly, even at times like that, is what first-class service is all about.",
-      "I also came to understand how hardworking Japanese people are. The employees come in 30 minutes before work starts to get ready, and even when it's time to go home, they stay behind to help the other staff if it's busy. Even the students working part-time found things to do on their own initiative and worked hard. But what surprised me more than anything was that even when there were few guests and things were slow, no one was chatting. I felt that in Japan even the part-time staff are properly trained, and each and every one of them works with a professional attitude.",
+      "On the first day, I had training all day. I was made to practice over and over until I could properly bow and say greetings such as irasshaimase (“welcome”) and kashikomarimashita (“certainly”). I thought, “Why, when I'm only a part-timer?” but I soon understood the reason. It was because part-timers, just like regular employees, have to serve guests as members of the staff representing the hotel. No wonder everyone who works at a hotel is so polite, I thought.",
+      "The next day, after they explained the day's work to me, I was finally allowed out onto the dining floor. Once I actually started working, I realized that the floor work wasn't as easy as I had thought. What was especially hard was that, whether I was busy or tired, I always had to watch the guests closely and serve them with a smile. For example, if a guest's glass of water was getting low, I had to go and refill it before being asked. There was also a rule that even after closing time, if even one guest was still there, we couldn't start cleaning up the restaurant. Deep down I was thinking, “I wish they'd hurry up and leave...,” but thinking of the guests first and acting accordingly, even at times like that, is what first-class service is all about.",
+      "I also came to understand how hardworking Japanese people are. The regular employees come in 30 minutes before work starts to get ready, and even when it's time to go home, they stay behind to help the other staff if it's busy. Even the students working part-time found things to do on their own initiative and worked hard. But what surprised me more than anything was that even when there were few guests and things were slow, no one was chatting. I felt that in Japan even the part-time staff are properly trained, and each and every one of them works with a professional attitude.",
       "Through this part-time job, I was able to learn about Japanese people's politeness and diligence, and about how they think about service. I had started the hotel job because I'd always dreamed of working at one, but it showed me a side of Japanese people I hadn't known before, and it turned out to be an even more meaningful experience than I had expected."
      ],
      "headTr": [
@@ -593,7 +593,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "パク：僕もそう思います。__他の国の言語や文化を学ぶ時に一番重要なのは、何よりも実際に経験することです__。僕は日本の政治や歴史に興味があるので、{広島|ひろしま}の{原爆|げんばく}ドームに行ったり、日本人の意見を聞いたりしています。",
-          "tr": "Park: I think so too. When you learn another country's language and culture, the most important thing, above all, is to actually experience it. I'm interested in Japanese politics and history, so I've gone to the Atomic Bomb Dome in Hiroshima and listened to Japanese people's opinions."
+          "tr": "Park: I think so too. When you learn another country's language and culture, the most important thing, more than anything, is to experience it firsthand. I'm interested in Japanese politics and history, so I've been doing things like visiting the Atomic Bomb Dome in Hiroshima and asking Japanese people what they think."
          }
         }
        ]
@@ -675,7 +675,7 @@ TRY.registerLesson({
          },
          {
           "ja": "私は母**に**日記を**読まれた**。",
-          "tr": "I had my diary read by my mother."
+          "tr": "My diary got read by my mother."
          },
          "に",
          {
@@ -769,7 +769,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "子どもの時、母はとてもきびしかった。毎日のように「勉強しなさい」と\n__言われて__、一日に何時間も__勉強させられた__。",
-        "tr": "When I was a child, my mother was very strict. Almost every day I was told, “Study!” and was made to study for hours a day."
+        "tr": "When I was a child, my mother was very strict. Practically every day I was told, “Study!” and I was made to study for hours a day."
        }
       },
       {
@@ -804,7 +804,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "初日は、一日中トレーニングを受けた。おじぎや「いらっしゃいませ」「かしこまりました」などのあいさつがきちんとできるようになるまで、何度も__練習させられた__。",
-          "tr": "On the first day, I received training all day long. I was made to practice over and over until I could properly bow and say greetings such as irasshaimase (“welcome”) and kashikomarimashita (“certainly”)."
+          "tr": "On the first day, I had training all day. I was made to practice over and over until I could properly bow and say greetings such as irasshaimase (“welcome”) and kashikomarimashita (“certainly”)."
          }
         }
        ]
@@ -920,7 +920,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- Y must be something that continues: 〜ている, 〜ようになった, 〜ない (examples 1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (example 4) opens a new sentence: *since then*.\n- It only looks back from the present; for a starting point in the future, say 〜てからは.\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
+     "deepDive": "**Vて以来 / N以来** sets a point in the past and says a state has held from then until now: 日本に来て以来、ずっと寮に住んでいる (*I've lived in the dorm ever since I came to Japan*).\n\n- What follows must be something that continues: 〜ている, 〜ようになった, 〜ない (examples 1–4). A single event can't follow it: ✗日本に来て以来、一度京都に行った. For plain sequence, use 〜てから.\n- It sounds more formal than spoken 〜てから（ずっと）. それ以来 (example 4) opens a new sentence: *since then*.\n- The starting point is always in the past; for one in the future, say 〜てからは: 日本に行ってからは、毎日日本語で話したい (*once I'm in Japan, I want to speak Japanese every day*).\n\nTRY! N2 #9 teaches the same 〜以来. TRY! N1 #91 Vてからというもの adds that the event changed things for good: 子どもが生まれてからというもの、毎日忙しい."
     },
     {
      "t": "note",
@@ -1558,7 +1558,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Vたばかり** says an action happened only a short time ago, as the speaker feels it, so 先月買ったばかり can be weeks old. It usually explains (〜たばかりだから, *it's new, so*) or complains (〜たばかりなのに, the key example).\n\n- **Vたところだ** is narrower: the action has only just ended, right now: 今帰ってきたところだ (*I've just got back*). ✗先週来たところだ; say 来たばかりだ.\n- Before a noun: 生まれたばかりの子犬 (example 3).\n- Keep it apart from Vるばかり (*keep getting worse*) and Vてばかり (*do nothing but*), Quartet II L7-7.\n\nTRY! N2 #79 V-ますたて describes something still fresh from being made or done: 焼きたてのパン (*bread fresh from the oven*)."
+     "deepDive": "**Vたばかり** says an action happened only a short time ago, as the speaker feels it, so 先月買ったばかり can be weeks old. It usually explains (〜たばかりだから, *it's new, so*) or complains (〜たばかりなのに, the key example).\n\n- **Vたところだ** is narrower: the action has only just ended, right now: 今帰ってきたところだ (*I just got back*). ✗先週来たところだ; say 来たばかりだ.\n- Before a noun: 生まれたばかりの子犬 (example 3).\n- Keep it apart from Vるばかり (*just keeps ~ing*, usually for the worse) and Vてばかり (*do nothing but*), Quartet II L7-7.\n\nTRY! N2 #79 V-ますたて describes something still fresh from being made or done: 焼きたてのパン (*bread fresh from the oven*)."
     },
     {
      "t": "note",
@@ -1646,7 +1646,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ないで済む／〜ずに済む** says a burden the speaker expected turned out to be unnecessary, usually with relief: 予約しておいたから、待たないで済んだ (*I'd booked, so I didn't have to wait*). It is mostly past (済んだ, 済みました), with a reason clause naming what spared you.\n\n- 〜ずに is the written, formal form; する becomes せずに (✗しずに).\n- Compare **〜なくてもいい**, which only says something isn't required: 買わなくてもいい (*you don't need to buy it*). 済む adds that it was avoided.\n- Positive **Nで済む** means *get off with just N*: 5,000円で済んだ, 軽いけがで済んだ.\n\nIts opposite is TRY! N1 #117 〜ずにはすまない, *the situation won't let you avoid ~*: 謝らずにはすまない."
+     "deepDive": "**〜ないで済む／〜ずに済む** says a burden the speaker expected turned out to be unnecessary, usually with relief: 予約しておいたから、待たないで済んだ (*I'd made a reservation, so I didn't have to wait*). It is mostly past (済んだ, 済みました), with a reason clause naming what spared you.\n\n- 〜ずに is the written, formal form; する becomes せずに (✗しずに).\n- Compare **〜なくてもいい**, which only says something isn't required: 買わなくてもいい (*you don't need to buy it*). 済む adds that it was avoided.\n- Positive **Nで済む** means *get off with just N*: 5,000円で済んだ, 軽いけがで済んだ.\n\nIts opposite is TRY! N1 #117 〜ずにはすまない, *the situation won't let you avoid ~*: 謝らずにはすまない."
     },
     {
      "t": "note",
@@ -1693,7 +1693,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "今の学生は昔の学生**ほど**本を読ま**なく**なった。",
-         "tr": "Students today don't read as much as students used to."
+         "tr": "Students today no longer read as much as students in the past did."
         },
         {
          "n": 4,
@@ -1946,7 +1946,7 @@ TRY.registerLesson({
          "n": 8,
          "page": 114,
          "ja": "この学部は学生の約40%が留学生で、アメリカ、ヨーロッパ、アジア、アフリカなど世界中から来ている。つまり、国際的であることがこの学部の特徴な**わけだ**。",
-         "tr": "About 40% of the students in this department are international students, who come from all over the world, including the Americas, Europe, Asia, and Africa. In other words, being international is what characterizes this department."
+         "tr": "About 40% of the students in this department are international students, who come from all over the world, including the US, Europe, Asia, and Africa. In other words, being international is what characterizes this department."
         },
         {
          "n": 9,
