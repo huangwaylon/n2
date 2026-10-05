@@ -42,7 +42,7 @@ TRY.registerVocab({ ch: 11, words: [
   { w: "さすが", lv: "N2", pos: "adverb",
     en: "as expected (of); just what you'd expect",
     note: "Admiration that something lives up to its reputation: さすがプロだ, さすが〜だけあって (#105). さすがに can also mean \"even so, understandably\": さすがに疲れた (even I got tired). Don't use it for bad results you expected; that is やっぱり.",
-    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, the shop had put its own original touches on everything, whether the soup or the toppings, and the ramen was something new, unlike anything I'd had before.", at: "ch/11" },
+    book: { ja: "2時間待たされましたが、**さすがに**そのラーメンはスープにしろ、{具|ぐ}にしろ、その店{独自|どくじ}の{工夫|くふう}がされていて、今までにない新しいものでした。", en: "I had to wait two hours, but sure enough, whether in the soup or in the toppings, the shop had added its own original touches, and the ramen was something new, unlike anything I'd had before.", at: "ch/11" },
     ex: [
       { ja: "**さすが**プロの{料理人|りょうりにん}だ。{味|あじ}が{全然|ぜんぜん}{違|ちが}う。", en: "Just what you'd expect of a professional chef. The taste is completely different.", alt: ["せめて", "まさか", "たとえ"] },
     ] },
@@ -249,7 +249,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "guarantor; cosigner",
     note: "In Japan you usually need one to rent an apartment or take out a loan: 保証人になる / を頼む. 保証 is a guarantee (品質保証); don't confuse it with 保障 (security, as in 社会保障) or 補償 (compensation).",
     rx: ["ほうしょうにん", "ほしょうじん", "ほじょうにん"],
-    book: { ja: "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）**{保証人|ほしょうにん}**にもなってくれた。", en: "My boss at work found me an apartment and, on top of that, agreed to be my guarantor.", at: "gp/102" },
+    book: { ja: "{職場|しょくば}の{上司|じょうし}がアパートを{紹介|しょうかい}してくれた（　）**{保証人|ほしょうにん}**にもなってくれた。", en: "My boss at work helped me find an apartment and, on top of that, even agreed to be my guarantor.", at: "gp/102" },
     ex: [
       { ja: "アパートを{借|か}りるとき、{父|ちち}に**{保証人|ほしょうにん}**になってもらった。", en: "When I rented an apartment, I had my father act as my guarantor.", alt: ["{主人|しゅじん}", "{保健室|ほけんしつ}", "{商人|しょうにん}"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "foreign-affiliated; foreign-owned (company)",
     note: "外資 is foreign capital; a 外資系企業 is a company in Japan owned or backed by foreign capital, often associated with high pay and results-based evaluation. 系 means \"type, affiliation\" (理系, 体育会系).",
     rx: ["がいじけい", "そとしけい", "がいしかい"],
-    book: { ja: "**{外資系企業|がいしけいきぎょう}**は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。", en: "Foreign companies are said to pay high salaries and, on top of that, let you take long vacations, but the work is demanding.", at: "gp/102" },
+    book: { ja: "**{外資系企業|がいしけいきぎょう}**は{給料|きゅうりょう}が高い（　）、{長期休暇|ちょうききゅうか}も取れるが、仕事が{厳|きび}しいと言われている。", en: "Foreign-owned companies are said to pay high salaries and, on top of that, let you take long vacations, but the work is demanding.", at: "gp/102" },
     ex: [
       { ja: "{英語|えいご}を{生|い}かして**{外資系|がいしけい}**の{会社|かいしゃ}で{働|はたら}きたい。", en: "I want to make use of my English and work at a foreign-affiliated company.", alt: ["{外来|がいらい}", "{外観|がいかん}", "{外見|がいけん}"] },
     ] },
@@ -337,7 +337,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "stability; to be stable",
     note: "安定した収入 (a steady income), 安定感 (a sense of stability), 気持ちが安定する. The opposite is 不安定. 安心 is peace of mind, a feeling.",
     rx: ["あんじょう", "あんでい", "やすてい"],
-    book: { ja: "ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの**安定**感はすばらしい。", en: "As you'd expect of a German luxury car, its stability on the expressway is superb.", at: "gp/105" },
+    book: { ja: "ドイツの{高級車|こうきゅうしゃ}だけに高速道路を走ったときの**安定**感はすばらしい。", en: "It's a German luxury car, so of course it's superbly stable on the expressway.", at: "gp/105" },
     ex: [
       { ja: "{父|ちち}は{私|わたし}に**{安定|あんてい}**した{仕事|しごと}に{就|つ}いてほしいと{言|い}う。", en: "My father says he wants me to get a stable job.", alt: ["{安心|あんしん}", "{否定|ひてい}", "{鑑定|かんてい}"] },
     ] },
@@ -582,7 +582,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "the real thing; the actual performance or event (not a rehearsal)",
     note: "練習 / リハーサル vs 本番: 本番に強い / 弱い (perform well / badly under pressure), 本番前, ぶっつけ本番 (with no rehearsal).",
     rx: ["ほんぱん", "もとばん", "ほうばん"],
-    book: { ja: "先生、自信がないです。**本番**は全部忘れてしまいそうで。それに人気校だけに、{競争率|きょうそうりつ}も高いし。", en: "I'm not confident. I feel like I'll forget everything when it's for real. And since it's a popular school, the competition is fierce too.", at: "ch/11/review" },
+    book: { ja: "先生、自信がないです。**本番**は全部忘れてしまいそうで。それに人気校だけに、{競争率|きょうそうりつ}も高いし。", en: "I'm not confident. I feel like I'll forget everything when it's for real. And it's a popular school, so naturally the competition is fierce too.", at: "ch/11/review" },
     ex: [
       { ja: "{練習|れんしゅう}ではうまくいったのに、**{本番|ほんばん}**で{失敗|しっぱい}してしまった。", en: "It went well in practice, but I messed up on the day itself.", alt: ["{番号|ばんごう}", "{本物|ほんもの}", "{順番|じゅんばん}"] },
     ] },
@@ -598,7 +598,7 @@ TRY.registerVocab({ ch: 11, words: [
     en: "to switch; to change over (one's mindset, a setting)",
     note: "気持ちを切り替える (put something behind you and refocus), 電源を切り替える, 頭を切り替える. The noun is 切り替え (気持ちの切り替えが早い).",
     rx: ["きりかわる", "せつりかえる", "きりがえる"],
-    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "OK, I understand. I'll change my mindset starting now.", at: "ch/11/review" },
+    book: { ja: "はい、わかりました。今から気持ちを**{切|き}り{替|か}えます**。", en: "OK, I understand. I'll get myself in the right frame of mind starting now.", at: "ch/11/review" },
     ex: [
       { ja: "{失敗|しっぱい}したことは{忘|わす}れて、{気持|きも}ちを**{切|き}り{替|か}えよう**。", en: "Let's forget about the mistake and move on.", alt: ["{取|と}り{替|か}えよう", "{切|き}り{捨|す}てよう", "{切|き}り{抜|ぬ}けよう"] },
     ] },
