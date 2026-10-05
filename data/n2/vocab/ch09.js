@@ -8,7 +8,7 @@ TRY.registerVocab({ ch: 9, words: [
       { ja: "スマホは{今|いま}や、お{年寄|としよ}りにとっても**{身近|みぢか}**な{道具|どうぐ}になった。", en: "Smartphones have now become an everyday tool even for elderly people.", alt: ["{間近|まぢか}", "{身軽|みがる}", "{真剣|しんけん}"] },
     ] },
   { w: "{抜|ぬ}く", lv: "N2", pos: "godan verb",
-    en: "to skip (a meal); to pull out, extract; to leave out; to overtake",
+    en: "to pull out, extract; to skip (a meal); to leave out; to overtake",
     note: "食事 / 朝ご飯を抜く (skip a meal), 歯を抜く (have a tooth pulled), 手を抜く (cut corners), 追い抜く (overtake). The intransitive partner is 抜ける (come out, fall out; slip away).",
     rx: ["ばつく", "ぬぐ", "ひく"],
     book: { ja: "ぼくは1{食|しょく}**{抜|ぬ}いて**行くつもりなんだ。", en: "I'm planning to skip a meal before going.", at: "ch/9" },
@@ -73,7 +73,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{見合|みあ}い", lv: "N2", pos: "noun · する verb",
     en: "arranged-marriage meeting; formal introduction of prospective marriage partners",
-    note: "Usually お見合い(を)する; 見合い結婚 (arranged marriage) vs 恋愛結婚 (love marriage). Unrelated to 見合わせる (to postpone, suspend), as in 運転を見合わせる.",
+    note: "Usually お見合い(を)する; 見合い結婚 (arranged marriage) vs 恋愛結婚 (love marriage). Not to be confused with 見合わせる (to postpone, suspend), as in 運転を見合わせる.",
     rx: ["けんあい", "みあわい", "みごい"],
     book: { ja: "で、**{見合|みあ}い**するの？", en: "So, are you going to do the arranged-marriage meeting?", at: "gp/78" },
     ex: [
@@ -96,7 +96,7 @@ TRY.registerVocab({ ch: 9, words: [
       { ja: "{昨日|きのう}はゲームを10{時間|じかん}**ぶっ{続|つづ}け**でやって、{目|め}が{痛|いた}くなった。", en: "Yesterday I played games for ten hours straight, and my eyes started to hurt.", alt: ["ぶっ{飛|と}ばし", "{打|う}ち{切|き}り", "{引|ひ}き{続|つづ}き"] },
     ] },
   { w: "{炊|た}く", lv: "N2", pos: "godan verb",
-    en: "to cook (rice); to boil",
+    en: "to cook (rice); (western Japan) to simmer",
     note: "Used almost only for rice: ご飯を炊く, 炊飯器 (rice cooker), 炊きたて (freshly cooked). In western Japan it also means simmering (煮物を炊く). 焼く is grill/bake, 煮る simmer.",
     rx: ["すいく", "やく", "にく"],
     book: { ja: "**{炊|た}き**たてのご飯ってほんといいね。", en: "Freshly cooked rice is really the best.", at: "gp/79" },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 9, words: [
     note: "Casual; sounds more frequent than よく. In writing: たびたび, 頻繁に. Often used in complaints: しょっちゅう遅刻する.",
     book: { ja: "このパソコンったら、**しょっちゅう**フリーズするんだ。", en: "This computer, I swear — it freezes all the time.", at: "gp/80" },
     ex: [
-      { ja: "{彼|かれ}は**しょっちゅう**{忘|わす}れ{物|もの}をするので、{先生|せんせい}によく{注意|ちゅうい}される。", en: "He's always forgetting things, so the teacher often warns him.", alt: ["めったに", "ようやく", "せっかく"] },
+      { ja: "{彼|かれ}は**しょっちゅう**{忘|わす}れ{物|もの}をするので、{先生|せんせい}によく{注意|ちゅうい}される。", en: "He's always forgetting things, so he often gets told off by the teacher.", alt: ["めったに", "ようやく", "せっかく"] },
     ] },
   { w: "{勝手|かって}", lv: "N2", pos: "な adjective · noun",
     en: "selfish; (doing as one pleases) without permission; on one's own",
@@ -225,11 +225,11 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
     book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
-      { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood is hard to get lit.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
+      { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood doesn't catch fire easily.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },
   { w: "いたずら", lv: "N2", pos: "noun · する verb · な adjective",
     en: "mischief; prank; (a child) playing with something they shouldn't",
-    note: "いたずらをする, いたずら電話 (prank call), いたずら書き (doodle, graffiti), いたずらっ子 (little rascal). Kanji 悪戯. Can be affectionate, unlike 悪さ.",
+    note: "いたずらをする, いたずら電話 (prank call), いたずら書き (doodle, graffiti), いたずらっ子 (little rascal). Kanji 悪戯. Often said fondly of children; 悪さ sounds more like real misbehavior.",
     book: { ja: "子どもが**いたずら**しても火がつかないようになっています。", en: "It's designed so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{弟|おとうと}は{小|ちい}さいころ、**いたずら**ばかりして{母|はは}に{叱|しか}られていた。", en: "When my brother was little, he was always up to mischief and getting scolded by our mother.", alt: ["おしぼり", "おみやげ", "おつかい"] },
@@ -314,7 +314,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{防火扉|ぼうかとびら}", lv: "N1", pos: "noun",
     en: "fire door",
-    note: "防火 is fire prevention (防火訓練 fire drill, 防火壁 firewall). 扉 is a hinged door, more formal than ドア or 戸.",
+    note: "防火 is fire prevention (防火訓練 fire drill, 防火壁 firewall). 扉 is a more formal, written word for a door than ドア or 戸.",
     rx: ["ぼうかど", "ぼうひとびら", "ほうかとびら"],
     book: { ja: "このマンションは{火事|かじ}が起きると{自動的|じどうてき}に**{防火扉|ぼうかとびら}**が閉まる＿＿。", en: "This condominium is designed so that the fire doors close automatically when a fire breaks out.", at: "ch/9" },
     ex: [
@@ -426,7 +426,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{勇気|ゆうき}", lv: "N2", pos: "noun",
     en: "courage; bravery; nerve",
-    note: "勇気を出す (work up the courage), 勇気がある / ない, 勇気づける (encourage). 度胸 is guts or nerve (more colloquial).",
+    note: "勇気を出す (work up the courage), 勇気がある / ない, 勇気づける (encourage). 度胸 is nerve, guts (度胸がある).",
     rx: ["ゆうけ", "ようき", "ゆき"],
     book: { ja: "本当は、好きだって言う**{勇気|ゆうき}**がなかっただけなんだ。", en: "Really, I just didn't have the courage to tell them I liked them.", at: "gp/85" },
     ex: [
@@ -559,7 +559,7 @@ TRY.registerVocab({ ch: 9, words: [
       { ja: "{小学生|しょうがくせい}のとき、**{遠足|えんそく}**で{動物園|どうぶつえん}に{行|い}った。", en: "When I was in elementary school, we went to the zoo on a school outing.", alt: ["{遠慮|えんりょ}", "{満足|まんぞく}", "{不足|ふそく}"] },
     ] },
   { w: "{焦|あせ}る", lv: "N2", pos: "godan verb",
-    en: "to panic; to be in a hurry; to be impatient",
+    en: "to panic; to feel rushed, be flustered; to be impatient (for results)",
     note: "Often in kana (あせる): 焦らないで (don't rush; stay calm), 焦って失敗する. 慌てる is being flustered and acting hastily; 焦る stresses anxiety about time or results. 焦げる (こげる, to burn) uses the same kanji.",
     rx: ["こげる", "しょうる", "あぜる"],
     book: { ja: "そんなに**あせる**くらいなら、もっと早く書き始めればよかったのに。", en: "If you were going to panic like this, you should have started writing it earlier.", at: "gp/90" },
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["たます", "かたす", "だいす"],
     book: { ja: "**だまされる**＿＿わ。", en: "I nearly got cheated.", at: "ch/9" },
     ex: [
-      { ja: "{電話|でんわ}で「お{金|かね}を{振|ふ}り{込|こ}んで」と{言|い}われても、**{騙|だま}されない**ように{注意|ちゅうい}しよう。", en: "Even if someone on the phone tells you to transfer money, be careful not to be fooled.", alt: ["{許|ゆる}されない", "{任|まか}されない", "{励|はげ}まされない"] },
+      { ja: "{電話|でんわ}で「お{金|かね}を{振|ふ}り{込|こ}んで」と{言|い}われても、**{騙|だま}されない**ように{注意|ちゅうい}しよう。", en: "Even if someone on the phone tells you to transfer money, be careful not to fall for it.", alt: ["{許|ゆる}されない", "{任|まか}されない", "{励|はげ}まされない"] },
     ] },
   { w: "{上達|じょうたつ}", lv: "N2", pos: "noun · する verb",
     en: "improvement (in a skill); progress",
@@ -655,8 +655,8 @@ TRY.registerVocab({ ch: 9, words: [
       { ja: "{寝坊|ねぼう}して、いつもの{電車|でんしゃ}に**{乗|の}り{遅|おく}れた**。", en: "I overslept and missed my usual train.", alt: ["{乗|の}り{越|こ}えた", "{乗|の}り{過|す}ごした", "{乗|の}り{出|だ}した"] },
     ] },
   { w: "{参|まい}る", lv: "N2", pos: "godan verb",
-    en: "(まいった) to be worn out, beaten, at a loss; (humble) to go, to come",
-    note: "Casually, まいった / まいったなあ is a groan: “that was rough,” “I give up,” “I'm stumped.” As humble speech, 参ります = 行きます / 来ます. Usually written in kana in the casual sense.",
+    en: "(まいった) to be worn out, beaten, at a loss; (humble) to go, to come; to visit (a shrine or grave)",
+    note: "Casually, まいった / まいったなあ is a groan: “that was rough,” “I give up,” “I'm stumped.” As humble speech, 参ります = 行きます / 来ます. Usually written in kana in the casual sense. Also 神社 / お墓に参る (visit; the noun is お参り).",
     rx: ["さんる", "まえる", "まいいる"],
     book: { ja: "**まいった**よ。ほんと、死んだ（　）と思うくらいきつかったよ。", en: "It was brutal. Honestly, it was so hard I thought I'd be better off dead.", at: "ch/9/review" },
     ex: [
@@ -664,7 +664,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "きつい", lv: "N2", pos: "い adjective",
     en: "hard, tough, demanding; tight (clothes); harsh (words)",
-    note: "仕事 / 練習がきつい, 靴がきつい (tight shoes), きつい言い方 (a harsh way of putting it). Casual; formal alternatives are 厳しい and 大変. For clothes the opposite is ゆるい.",
+    note: "仕事 / 練習がきつい, 靴がきつい (tight shoes), きつい言い方 (a harsh way of putting it). Casual; more neutral alternatives are 厳しい and 大変. For clothes the opposite is ゆるい.",
     book: { ja: "ほんと、死んだ（　）と思うくらい**きつかった**よ。", en: "Honestly, it was so hard I thought I'd be better off dead.", at: "ch/9/review" },
     ex: [
       { ja: "{太|ふと}ったのか、{去年|きょねん}のズボンが**きつく**なった。", en: "Maybe I've put on weight — last year's pants have gotten tight.", alt: ["ゆるく", "ぬるく", "するどく"] },
@@ -683,7 +683,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["かいす", "つばす", "つびす"],
     book: { ja: "プレッシャーでいい{面|めん}も**つぶして**しまいかねません。", en: "You may even crush their good points with pressure.", at: "ch/9/review" },
     ex: [
-      { ja: "{待|ま}ち{合|あ}わせまで1{時間|じかん}あったので、{本屋|ほんや}で{時間|じかん}を**{潰|つぶ}した**。", en: "I had an hour before meeting my friend, so I killed time at a bookstore.", alt: ["{戻|もど}した", "{崩|くず}した", "{返|かえ}した"] },
+      { ja: "{待|ま}ち{合|あ}わせまで1{時間|じかん}あったので、{本屋|ほんや}で{時間|じかん}を**{潰|つぶ}した**。", en: "I had an hour before I was due to meet someone, so I killed time at a bookstore.", alt: ["{戻|もど}した", "{崩|くず}した", "{返|かえ}した"] },
     ] },
   { w: "{引|ひ}き{出|だ}す", lv: "N2", pos: "godan verb",
     en: "to draw out, bring out (ability); to withdraw (money); to pull out",
@@ -730,7 +730,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["せきもる", "つむる", "つもう"],
     book: { ja: "道路もすっかり雪が**{積|つ}もって**、車が通れなくなっちゃってました。", en: "The roads were completely covered in snow too, and cars couldn't get through.", at: "ch/9/review" },
     ex: [
-      { ja: "{一晩|ひとばん}で{雪|ゆき}が50センチも**{積|つ}もった**。", en: "Fifty centimeters of snow piled up overnight.", alt: ["{詰|つ}まった", "{包|つつ}んだ", "{伝|つた}わった"] },
+      { ja: "{一晩|ひとばん}で{雪|ゆき}が50センチも**{積|つ}もった**。", en: "A full fifty centimeters of snow piled up overnight.", alt: ["{詰|つ}まった", "{包|つつ}んだ", "{伝|つた}わった"] },
     ] },
   { w: "{配達|はいたつ}", lv: "N2", pos: "noun · する verb",
     en: "delivery",
