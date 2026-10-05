@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "lifesaving; saving a life",
     note: "A formal, mostly medical or rescue word, used in compounds: 救命ボート (lifeboat), 救命胴衣 (life jacket), 救命救急 (emergency and critical care), 救命措置 (lifesaving measures). 救助 is rescuing people from danger in general; 救命 is specifically keeping someone alive.",
     rx: ["きゅうみょう", "くめい", "きゅめい"],
-    book: { ja: "タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で**{救命|きゅうめい}**の可能性がある{者|もの}。", en: "A red tag means a person who needs treatment as soon as possible and who has a chance of being saved.", at: "ch/9" },
+    book: { ja: "タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で**{救命|きゅうめい}**の可能性がある{者|もの}。", en: "A red tag marks someone who needs treatment as soon as possible and who can still be saved.", at: "ch/9" },
     ex: [
       { ja: "{船|ふね}が{沈|しず}み{始|はじ}めたので、{乗客|じょうきゃく}は**{救命|きゅうめい}**ボートに{乗|の}り{移|うつ}った。", en: "The ship began to sink, so the passengers moved into the lifeboats.", alt: ["{懸命|けんめい}", "{運命|うんめい}", "{生命|せいめい}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "limit; limitation; the breaking point",
     note: "The point beyond which one cannot go: 限界がある (there are limits), 限界に達する (reach the limit), 体力の限界 (the limit of one's stamina), もう限界だ (I can't take any more). 限度 is a set maximum (限度額, a credit limit); 限界 is the natural limit of ability or endurance.",
     rx: ["げんがい", "けんかい", "げんけい"],
-    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "Given the medical equipment and the number of staff alone, there will be limits to what can be done.", at: "ch/9" },
+    book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "Given the medical equipment and the number of staff alone, there will be limits to what they can handle.", at: "ch/9" },
     ex: [
       { ja: "{三日|みっか}{連続|れんぞく}の{徹夜|てつや}で、{体力|たいりょく}はもう**{限界|げんかい}**だ。", en: "After staying up all night three nights in a row, I'm at the end of my strength.", alt: ["{限定|げんてい}", "{境界|きょうかい}", "{世界|せかい}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(medical) treatment; measures, steps taken to deal with something",
     note: "In medicine it is the immediate treatment given to a wound or patient: 応急処置 (first aid), 処置を施す. More generally, steps taken to handle a situation: 適切な処置をとる. 措置 (そち) is an official measure by an authority; 治療 is the longer course of medical treatment.",
     rx: ["しょうち", "しょじ", "じょち"],
-    book: { ja: "タグの赤色は、{一刻|いっこく}も早い**{処置|しょち}**が必要で{救命|きゅうめい}の可能性がある{者|もの}。", en: "A red tag means a person who needs treatment as soon as possible and who has a chance of being saved.", at: "ch/9" },
+    book: { ja: "タグの赤色は、{一刻|いっこく}も早い**{処置|しょち}**が必要で{救命|きゅうめい}の可能性がある{者|もの}。", en: "A red tag marks someone who needs treatment as soon as possible and who can still be saved.", at: "ch/9" },
     ex: [
       { ja: "{医者|いしゃ}の{素早|すばや}い**{処置|しょち}**のおかげで、{傷|きず}は{残|のこ}らなかった。", en: "Thanks to the doctor's quick treatment, the wound didn't leave a scar.", alt: ["{処分|しょぶん}", "{位置|いち}", "{処罰|しょばつ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "minor injury; slight wound",
     note: "The news counterpart of 軽いけが: 軽傷を負う, 軽傷で済む (get off with minor injuries), 軽傷者. The opposite is 重傷. Don't confuse it with 軽症 (a mild case of an illness), read the same way.",
     rx: ["けいそう", "きょうしょう", "けしょう"],
-    book: { ja: "緑色は、**{軽傷者|けいしょうしゃ}**で{救急|きゅうきゅう}に{搬送|はんそう}の必要のない{者|もの}。", en: "Green means a person with minor injuries who does not need to be transported for emergency care.", at: "ch/9" },
+    book: { ja: "緑色は、**{軽傷者|けいしょうしゃ}**で{救急|きゅうきゅう}に{搬送|はんそう}の必要のない{者|もの}。", en: "Green marks someone with minor injuries who does not need emergency transport.", at: "ch/9" },
     ex: [
       { ja: "バスが{横転|おうてん}したが、{乗客|じょうきゃく}は{全員|ぜんいん}**{軽傷|けいしょう}**で{済|す}んだ。", en: "The bus overturned, but all the passengers got off with minor injuries.", alt: ["{軽食|けいしょく}", "{軽率|けいそつ}", "{軽視|けいし}"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "transport (of patients or goods); conveying",
     note: "In news it is almost always about patients: 病院に搬送される (be taken to hospital), 救急搬送 (emergency transport). For goods it appears in logistics (搬送ロボット). 運搬 is carrying heavy loads; 輸送 is large-scale transport by vehicle.",
     rx: ["はんそ", "ぱんそう", "はんぞう"],
-    book: { ja: "緑色は、{軽傷者|けいしょうしゃ}で{救急|きゅうきゅう}に**{搬送|はんそう}**の必要のない{者|もの}。", en: "Green means a person with minor injuries who does not need to be transported for emergency care.", at: "ch/9" },
+    book: { ja: "緑色は、{軽傷者|けいしょうしゃ}で{救急|きゅうきゅう}に**{搬送|はんそう}**の必要のない{者|もの}。", en: "Green marks someone with minor injuries who does not need emergency transport.", at: "ch/9" },
     ex: [
       { ja: "{熱中症|ねっちゅうしょう}で{倒|たお}れた{男性|だんせい}が、{救急車|きゅうきゅうしゃ}で{病院|びょういん}に**{搬送|はんそう}**された。", en: "A man who collapsed from heatstroke was taken to the hospital by ambulance.", alt: ["{放送|ほうそう}", "{配送|はいそう}", "{返送|へんそう}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "heartless; cold-blooded; unfeeling",
     note: "Without human feeling or pity: 非情な決断 (a ruthless decision), 非情な世界 (a cold, pitiless world). A homophone of 非常 (emergency; extremely), so watch the kanji. 冷酷 is harsher, cruel on purpose; 非情 can describe a necessary but pitiless choice.",
     rx: ["ひせい", "ひぞう", "ひいじょう"],
-    book: { ja: "確かに、見ようによっては**{非情|ひじょう}**な{行為|こうい}かもしれません。", en: "Certainly, depending on how you look at it, it may be a heartless act.", at: "ch/9" },
+    book: { ja: "確かに、見ようによっては**{非情|ひじょう}**な{行為|こうい}かもしれません。", en: "True, depending on how you look at it, it may be a heartless thing to do.", at: "ch/9" },
     ex: [
       { ja: "{勝負|しょうぶ}の{世界|せかい}は**{非情|ひじょう}**で、{結果|けっか}を{出|だ}せなければすぐに{交代|こうたい}させられる。", en: "The world of competition is merciless: if you can't deliver results, you're replaced right away.", alt: ["{同情|どうじょう}", "{人情|にんじょう}", "{事情|じじょう}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ultimate; final; the extreme",
     note: "The final, highest point something can reach: 究極の選択 (an impossible either-or choice), 究極の目的 (the ultimate aim), 究極の味. Written and somewhat emphatic; casual ads overuse it for “the very best.”",
     rx: ["きゅうごく", "きゅきょく", "くうきょく"],
-    book: { ja: "{医療現場|いりょうげんば}で**{究極|きゅうきょく}**の{選択|せんたく}が必要になるということですね。", en: "So in medical settings, ultimate choices sometimes have to be made.", at: "ch/9" },
+    book: { ja: "{医療現場|いりょうげんば}で**{究極|きゅうきょく}**の{選択|せんたく}が必要になるということですね。", en: "So on the medical front line, agonizing choices have to be made.", at: "ch/9" },
     ex: [
       { ja: "{彼|かれ}にとって**{究極|きゅうきょく}**の{目標|もくひょう}は、オリンピックで{金|きん}メダルを{取|と}ることだ。", en: "His ultimate goal is to win a gold medal at the Olympics.", alt: ["{研究|けんきゅう}", "{積極|せっきょく}", "{追究|ついきゅう}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "calm; cool-headed; composed",
     note: "Keeping one's head and judging without emotion: 冷静に判断する, 冷静さを失う (lose one's composure), 冷静になれ. 落ち着いた is the everyday word for calm manner; 冷静 stresses clear, unemotional thinking. Not about temperature (that is 冷たい).",
     rx: ["れいじょう", "れせい", "りょうせい"],
-    book: { ja: "私たちも**{冷静|れいせい}**に受け止めなければならないことがよくわかりました。", en: "I now understand well that this is something we, too, must accept calmly.", at: "ch/9" },
+    book: { ja: "私たちも**{冷静|れいせい}**に受け止めなければならないことがよくわかりました。", en: "It's very clear to me now that this is something the rest of us must also accept calmly.", at: "ch/9" },
     ex: [
       { ja: "{火事|かじ}のときこそ、**{冷静|れいせい}**に{行動|こうどう}することが{大切|たいせつ}だ。", en: "In a fire, of all times, it's important to act calmly.", alt: ["{冷淡|れいたん}", "{安静|あんせい}", "{静止|せいし}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to accept (and come to terms with); to take (something a certain way); to catch",
     note: "Figuratively, to face a fact or criticism squarely: 現実を受け止める (accept reality), 批判を真摯に受け止める (take the criticism seriously), 重く受け止める. Literally, to catch a ball or blow. 受け入れる is to accept a proposal or people; 受け止める is to take something in and come to terms with it.",
     rx: ["うけどめる", "うけやめる", "じゅけとめる"],
-    book: { ja: "私たちも{冷静|れいせい}に**受け止め**なければならないことがよくわかりました。", en: "I now understand well that this is something we, too, must accept calmly.", at: "ch/9" },
+    book: { ja: "私たちも{冷静|れいせい}に**受け止め**なければならないことがよくわかりました。", en: "It's very clear to me now that this is something the rest of us must also accept calmly.", at: "ch/9" },
     ex: [
       { ja: "{会社|かいしゃ}は{利用者|りようしゃ}からの{苦情|くじょう}を{重|おも}く**{受|う}け{止|と}めて**いる。", en: "The company is taking the complaints from users seriously.", alt: ["{受|う}け{付|つ}けて", "{引|ひ}き{止|と}めて", "{受|う}け{持|も}って"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to offer; to volunteer; to come forward (with a request or report)",
     note: "To state one's wish, offer or report to someone, usually an organization or superior: 協力を申し出る (offer to help), 寄付を申し出る, 辞退を申し出る. The noun is 申し出 (an offer, request). 申し込む is to apply or sign up.",
     rx: ["しんしでる", "もうしだる", "もうしいでる"],
-    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Ito offered, as a private individual, a donation of no less than 100 million yen.", at: "gp/107" },
+    book: { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を**申し出た**。", en: "Ito offered a personal donation of no less than 100 million yen.", at: "gp/107" },
     ex: [
       { ja: "{近所|きんじょ}の{人|ひと}たちが、{片付|かたづ}けの{手伝|てつだ}いを**{申|もう}し{出|で}て**くれた。", en: "The neighbors offered to help with the cleanup.", alt: ["{申|もう}し{込|こ}んで", "{申|もう}し{付|つ}けて", "{差|さ}し{出|だ}して"] },
     ] },
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "identifying, pinpointing; specific, particular",
     note: "As a verb, to pin down exactly who or what: 犯人を特定する, 原因を特定する. As a modifier, specific: 特定の人 (particular people), 不特定多数 (an unspecified number of people). 指定 is designating something officially.",
     rx: ["とくじょう", "どくてい", "とってい"],
-    book: { ja: "警察は、ついに事件の＿＿にかかわる人物を**{特定|とくてい}**した。", en: "The police have finally identified a person connected with the truth behind the case.", at: "gp/108" },
+    book: { ja: "警察は、ついに事件の＿＿にかかわる人物を**{特定|とくてい}**した。", en: "The police have finally identified someone connected to the truth behind the case.", at: "gp/108" },
     ex: [
       { ja: "{専門家|せんもんか}が{調|しら}べているが、{故障|こしょう}の{原因|げんいん}はまだ**{特定|とくてい}**されていない。", en: "Experts are looking into it, but the cause of the breakdown hasn't been pinpointed yet.", alt: ["{特有|とくゆう}", "{指定|してい}", "{設定|せってい}"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "demand (economic)",
     note: "Economic demand, the partner of 供給 (supply): 需要と供給, 需要が高まる／伸びる／減る. 要求 is a demand made by someone; 需要 is market demand. Beware the near-homophone 重要 (じゅうよう, important).",
     rx: ["じゅうよう", "しゅよう", "じゅよ"],
-    book: { ja: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の**{需要|じゅよう}**がますます高まっていくだろう。", en: "As the number of elderly people grows, demand for work related to welfare will probably keep rising.", at: "gp/108" },
+    book: { ja: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の**{需要|じゅよう}**がますます高まっていくだろう。", en: "As the elderly population grows in the years ahead, demand for jobs in social welfare will likely keep rising.", at: "gp/108" },
     ex: [
       { ja: "{夏|なつ}になると、エアコンの**{需要|じゅよう}**が{一気|いっき}に{増|ふ}える。", en: "When summer comes, demand for air conditioners shoots up.", alt: ["{要求|ようきゅう}", "{要素|ようそ}", "{重要|じゅうよう}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to rise; to grow, increase (in intensity)",
     note: "For abstract things growing stronger: 関心が高まる, 需要が高まる, 期待が高まる, 緊張が高まる. The transitive partner is 高める (raise). For prices, 上がる is more usual; 高まる is about interest, feeling, risk or demand.",
     rx: ["こうまる", "たかむる", "たかはまる"],
-    book: { ja: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の{需要|じゅよう}がますます**高まって**いくだろう。", en: "As the number of elderly people grows, demand for work related to welfare will probably keep rising.", at: "gp/108" },
+    book: { ja: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の{需要|じゅよう}がますます**高まって**いくだろう。", en: "As the elderly population grows in the years ahead, demand for jobs in social welfare will likely keep rising.", at: "gp/108" },
     ex: [
       { ja: "{地震|じしん}の{後|あと}、{防災|ぼうさい}への{関心|かんしん}が**{高|たか}まって**いる。", en: "Since the earthquake, interest in disaster preparedness has been growing.", alt: ["{高|たか}めて", "{固|かた}まって", "{深|ふか}めて"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fire (a destructive one); conflagration",
     note: "The formal word for 火事, used in news, notices and insurance: 火災が発生する, 火災報知器 (fire alarm), 火災保険. In conversation people say 火事.",
     rx: ["かざい", "ひさい", "かしゃ"],
-    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the most important thing is to act calmly.", at: "gp/109" },
+    book: { ja: "**{火災|かさい}**などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first thing that matters is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "{昨夜|さくや}、{駅前|えきまえ}のビルで**{火災|かさい}**が{発生|はっせい}した。", en: "Last night a fire broke out in a building in front of the station.", alt: ["{火星|かせい}", "{火山|かざん}", "{被災|ひさい}"] },
     ] },
@@ -243,7 +243,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(time of) emergency; crisis",
     note: "A time of crisis such as a fire, disaster or war: 非常時に備える (prepare for emergencies), 非常時の連絡先. Its opposite is 平常時 (normal times). Related: 非常口 (emergency exit), 非常食 (emergency rations).",
     rx: ["ひじょうし", "ひしょうじ", "ひじょじ"],
-    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the most important thing is to act calmly.", at: "gp/109" },
+    book: { ja: "{火災|かさい}などの**{非常時|ひじょうじ}**にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first thing that matters is to act calmly.", at: "gp/109" },
     ex: [
       { ja: "**{非常時|ひじょうじ}**に{備|そな}えて、{水|みず}と{食料|しょくりょう}を{三日分|みっかぶん}{用意|ようい}しておこう。", en: "Let's keep three days' worth of water and food ready in case of emergency.", alt: ["{平常時|へいじょうじ}", "{日常|にちじょう}", "{臨時|りんじ}"] },
     ] },
@@ -251,7 +251,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "rapid economic growth (esp. Japan's, c. 1955–1973)",
     note: "A fixed historical term, usually with 期 (period): 高度経済成長期, often shortened to 高度成長. 高度 here means “high level,” as in 高度な技術 (advanced technology).",
     rx: ["こうとけいざいせいちょう", "こうどけいさいせいちょう", "こうどけいざいせいじょう"],
-    book: { ja: "当時は**高度経済成長**期にあって、政府は高速道路の整備に力を入れていた。", en: "At the time, in the midst of the period of rapid economic growth, the government was putting great effort into building expressways.", at: "gp/109" },
+    book: { ja: "当時は**高度経済成長**期にあって、政府は高速道路の整備に力を入れていた。", en: "Back then, in the era of rapid economic growth, the government was pouring effort into building expressways.", at: "gp/109" },
     ex: [
       { ja: "{祖父|そふ}は**{高度経済成長|こうどけいざいせいちょう}**の{時代|じだい}に、{毎日|まいにち}{夜遅|よるおそ}くまで{働|はたら}いていたそうだ。", en: "I hear my grandfather worked late every night during the era of rapid economic growth.", alt: ["{経済学部|けいざいがくぶ}", "{国際空港|こくさいくうこう}", "{高速道路|こうそくどうろ}"] },
     ] },
@@ -259,7 +259,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(business) results, performance; achievements",
     note: "A company's performance: 業績が伸びる／悪化する, 業績不振 (poor results). For a person, it is their record of achievement, especially in research: 研究の業績. 成績 is grades or results in school or sports.",
     rx: ["ごうせき", "ぎょうじゃく", "ぎょせき"],
-    book: { ja: "{不況下|ふきょうか}にあっても順調に**{業績|ぎょうせき}**を伸ばしている{企業|きぎょう}がある。", en: "There are companies that are steadily improving their results even in a recession.", at: "gp/109" },
+    book: { ja: "{不況下|ふきょうか}にあっても順調に**{業績|ぎょうせき}**を伸ばしている{企業|きぎょう}がある。", en: "Even in a recession, some companies keep steadily improving their results.", at: "gp/109" },
     ex: [
       { ja: "{海外|かいがい}での{販売|はんばい}が{好調|こうちょう}で、{会社|かいしゃ}の**{業績|ぎょうせき}**は{過去最高|かこさいこう}となった。", en: "Thanks to strong overseas sales, the company's results hit a record high.", alt: ["{功績|こうせき}", "{実験|じっけん}", "{業務|ぎょうむ}"] },
     ] },
@@ -283,7 +283,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to invite; to bring about, cause (a bad result)",
     note: "Literally to invite a guest: 客を招く, 講師として招く. Figuratively, to cause something undesirable: 誤解を招く (cause misunderstanding), 混乱を招く, 事故を招く. 誤解を招く表現 (misleading wording) is a very common set phrase.",
     rx: ["まにく", "しょうく", "まねぐ"],
-    book: { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を**招く**おそれがあるよ。", en: "If the explanation is insufficient, then depending on how people take it, it could cause misunderstandings.", at: "gp/110" },
+    book: { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を**招く**おそれがあるよ。", en: "If you don't explain it fully, it could be misunderstood, depending on how people take it.", at: "gp/110" },
     ex: [
       { ja: "{大臣|だいじん}の{不用意|ふようい}な{発言|はつげん}が、{国民|こくみん}の{不信|ふしん}を**{招|まね}いた**。", en: "The minister's careless remark provoked public distrust.", alt: ["{抱|かか}えた", "{払|はら}った", "{迎|むか}えた"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "(one's) circumstances; situation in life; lot",
     note: "The circumstances of a person's life, especially family, wealth and upbringing: 恵まれた境遇 (fortunate circumstances), 同じ境遇の人, 苦しい境遇に育つ. 環境 is surroundings in general; 境遇 is one's personal lot.",
     rx: ["きょうぐ", "けいぐう", "きょうこう"],
-    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, you can feel happy, depending on how you look at things.", at: "gp/110" },
+    book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "You can be in the same circumstances and still feel happy, depending on how you look at things.", at: "gp/110" },
     ex: [
       { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started working to support children who are in the same circumstances he was.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "computerization; the spread of information technology",
     note: "A society's growing dependence on information and IT: 情報化社会 (the information society), 情報化が進む. Written, used in essays and social commentary; 〜化 turns a noun into a process (高齢化, 国際化).",
     rx: ["じょほうか", "じょうほうけ", "せいほうか"],
-    book: { ja: "**情報化**が進む現代＿＿、いかに個人情報を守るかは大切な{課題|かだい}の1つとなっている。", en: "In the present age, with information technology spreading ever further, how to protect personal information has become one of the important issues.", at: "ch/9" },
+    book: { ja: "**情報化**が進む現代＿＿、いかに個人情報を守るかは大切な{課題|かだい}の1つとなっている。", en: "In today's increasingly information-driven age, how to protect personal information has become one of the key issues.", at: "ch/9" },
     ex: [
       { ja: "**{情報化|じょうほうか}**が{進|すす}み、{誰|だれ}でもどこでもニュースを{読|よ}めるようになった。", en: "With the spread of information technology, anyone can now read the news anywhere.", alt: ["{高齢化|こうれいか}", "{少子化|しょうしか}", "{温暖化|おんだんか}"] },
     ] },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "issue, challenge (to be tackled); assignment, task",
     note: "A problem that has to be worked on: 今後の課題 (a future challenge), 課題を解決する, 課題が残る. It is also a school assignment: 夏休みの課題. 問題 is any problem; 課題 is one set before you to solve.",
     rx: ["かたい", "かだ", "がだい"],
-    book: { ja: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な**{課題|かだい}**の1つとなっている。", en: "In the present age, with information technology spreading ever further, how to protect personal information has become one of the important issues.", at: "ch/9" },
+    book: { ja: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な**{課題|かだい}**の1つとなっている。", en: "In today's increasingly information-driven age, how to protect personal information has become one of the key issues.", at: "ch/9" },
     ex: [
       { ja: "{新製品|しんせいひん}はよく{売|う}れているが、{価格|かかく}の{高|たか}さが{今後|こんご}の**{課題|かだい}**だ。", en: "The new product is selling well, but its high price is the next issue to tackle.", alt: ["{話題|わだい}", "{題名|だいめい}", "{主題|しゅだい}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to (finally) reach, arrive at (after a hard journey)",
     note: "Arriving only after difficulty or a long search: やっと頂上にたどり着く, 真相にたどり着く (arrive at the truth), 結論にたどり着く. 着く or 到着する is plain arrival; たどり着く stresses the struggle. Usually written in kana + 着く (辿り着く in full kanji).",
     rx: ["たどりちゃく", "たどりづく", "たどりきく"],
-    book: { ja: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへ**たどり着いた**。", en: "The dog traveled a long way — 200 km or more — and made it back to its owner.", at: "ch/9" },
+    book: { ja: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへ**たどり着いた**。", en: "The dog made a long journey of a good 200 km and found its way back to its owner.", at: "ch/9" },
     ex: [
       { ja: "{道|みち}に{迷|まよ}いながら、{夜|よる}になってやっと{旅館|りょかん}に**たどり{着|つ}いた**。", en: "Getting lost along the way, we finally made it to the inn after dark.", alt: ["{追|お}いついた", "{張|は}り{付|つ}いた", "{思|おも}いついた"] },
     ] },
@@ -323,7 +323,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "distance, way (to travel); journey; (figurative) the road (to a goal)",
     note: "The distance or route one has to cover: 駅まで30分の道のり, 長い道のり. Figuratively, the process leading to a goal: 優勝までの道のり, 復興への道のりは遠い. 距離 is a neutral measurement; 道のり is felt as a journey.",
     rx: ["どうのり", "とうのり", "みつのり"],
-    book: { ja: "その犬は200km＿＿長い**道のり**を旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", en: "The dog traveled a long way — 200 km or more — and made it back to its owner.", at: "ch/9" },
+    book: { ja: "その犬は200km＿＿長い**道のり**を旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。", en: "The dog made a long journey of a good 200 km and found its way back to its owner.", at: "ch/9" },
     ex: [
       { ja: "{新薬|しんやく}が{完成|かんせい}するまでには、まだ{長|なが}い**{道|みち}のり**がある。", en: "There is still a long road ahead before the new drug is complete.", alt: ["{道|みち}ばた", "{足|あし}どり", "{道|みち}しるべ"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "interpretation; construal",
     note: "How one understands the meaning of words, a text, law or behavior: 解釈が分かれる (interpretations differ), 好意的に解釈する, 法の解釈. 解説 is an explanation given to others; 解釈 is one's understanding of what something means.",
     rx: ["かいせき", "かいじゃく", "げしゃく"],
-    book: { ja: "この小説はとらえ（　）、さまざまな**{解釈|かいしゃく}**が成り立つと言われている。", en: "It is said that this novel allows a variety of interpretations, depending on how you read it.", at: "ch/9/review" },
+    book: { ja: "この小説はとらえ（　）、さまざまな**{解釈|かいしゃく}**が成り立つと言われている。", en: "This novel is said to be open to a variety of interpretations, depending on how you read it.", at: "ch/9/review" },
     ex: [
       { ja: "{彼|かれ}の{沈黙|ちんもく}を、{私|わたし}は{賛成|さんせい}の{意味|いみ}だと**{解釈|かいしゃく}**した。", en: "I took his silence to mean he agreed.", alt: ["{解決|かいけつ}", "{解消|かいしょう}", "{会釈|えしゃく}"] },
     ] },
@@ -355,7 +355,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to hold (true), be valid; to be established, come into being; to consist of",
     note: "Three uses: an idea or argument is valid (その説は成り立たない); a deal or relationship is concluded (契約が成り立つ); a thing is made up of parts (AはBとCから成り立っている). 成立する is the formal noun-verb for the second sense.",
     rx: ["せいりたつ", "なりだつ", "なりりつ"],
-    book: { ja: "この小説はとらえ（　）、さまざまな{解釈|かいしゃく}が**成り立つ**と言われている。", en: "It is said that this novel allows a variety of interpretations, depending on how you read it.", at: "ch/9/review" },
+    book: { ja: "この小説はとらえ（　）、さまざまな{解釈|かいしゃく}が**成り立つ**と言われている。", en: "This novel is said to be open to a variety of interpretations, depending on how you read it.", at: "ch/9/review" },
     ex: [
       { ja: "この{町|まち}の{経済|けいざい}は、{観光|かんこう}だけで**{成|な}り{立|た}って**いるわけではない。", en: "This town's economy doesn't rest on tourism alone.", alt: ["{成|な}り{果|は}てて", "{役|やく}{立|だ}って", "{組|く}み{立|た}てて"] },
     ] },
@@ -411,7 +411,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "safe; strongbox; vault",
     note: "A secure box or room for money and valuables: 金庫に保管する, 金庫破り (safecracking). 信用金庫 (a credit union) uses the same word for a financial institution.",
     rx: ["きんご", "かねこ", "きんく"],
-    book: { ja: "{火災|かさい}の際、100キロからある**金庫**をごく普通の人間が1人で運び出したといったことがある。", en: "During a fire, it has happened that a perfectly ordinary person carried a safe weighing a good 100 kilos out single-handedly.", at: "ch/9/review" },
+    book: { ja: "{火災|かさい}の際、100キロからある**金庫**をごく普通の人間が1人で運び出したといったことがある。", en: "There have been cases where, during a fire, a perfectly ordinary person single-handedly carried out a safe weighing a good 100 kilos.", at: "ch/9/review" },
     ex: [
       { ja: "{契約書|けいやくしょ}や{印鑑|いんかん}は、{事務所|じむしょ}の**{金庫|きんこ}**にしまってある。", en: "The contracts and the company seal are kept in the office safe.", alt: ["{車庫|しゃこ}", "{金額|きんがく}", "{冷蔵庫|れいぞうこ}"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "fierce; intense (competition, battle)",
     note: "A written word, almost always with 競争 or 争い: 熾烈な競争, 熾烈を極める (be extremely fierce). 激しい is the everyday word. 熾 is outside the everyday (常用) kanji list, so newspapers write it し烈.",
     rx: ["しいれつ", "しょくれつ", "しれい"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
     ex: [
       { ja: "スマホ{市場|しじょう}では、{各社|かくしゃ}の**{熾烈|しれつ}**な{競争|きょうそう}が{続|つづ}いている。", en: "In the smartphone market, fierce competition among the makers continues.", alt: ["{鮮烈|せんれつ}", "{熱烈|ねつれつ}", "{痛烈|つうれつ}"] },
     ] },
@@ -443,7 +443,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "domain; field; territory, realm",
     note: "An area with limits: a field of study or activity (専門領域, 未知の領域), or a territory (領域を侵す). 分野 is a field of study or work; 領域 also suggests a boundary one may cross, as in the passage's この領域にまで踏み込んだ.",
     rx: ["りょういく", "れいいき", "りょうえき"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの**{領域|りょういき}**にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
     ex: [
       { ja: "{彼|かれ}の{研究|けんきゅう}は、{医学|いがく}と{工学|こうがく}の{両方|りょうほう}の**{領域|りょういき}**にまたがっている。", en: "His research spans the fields of both medicine and engineering.", alt: ["{領収|りょうしゅう}", "{地域|ちいき}", "{要領|ようりょう}"] },
     ] },
@@ -451,7 +451,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to step into; to go (deeply) into (a matter); to raid, burst into",
     note: "Literally to step forward into a place: 足を踏み込む. Figuratively, to go further into a topic or someone's affairs: 踏み込んだ議論 (an in-depth discussion), プライバシーに踏み込む. Also used for a police raid: 警察が踏み込む.",
     rx: ["ふみごむ", "とうみこむ", "ふみいむ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
     ex: [
       { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion even got into the budget issue.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{踏|ふ}み{切|き}った"] },
     ] },
@@ -459,7 +459,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "always; at all times; constantly",
     note: "A formal, written equivalent of いつも, typical of notices and specifications: 常時開放 (always open), 常時監視 (constant monitoring), 常時10名が勤務. The opposite is 臨時 (temporary, only when needed).",
     rx: ["じょうし", "つねじ", "しょうじ"],
-    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "However, those who make others work, even while knowing it is unreasonable, tend to demand of workers at all times a strength that reaches into this realm, in order to win fierce competition.", at: "ch/9/review" },
+    book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に**{常時|じょうじ}**求めるきらいがある。", en: "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition.", at: "ch/9/review" },
     ex: [
       { ja: "この{施設|しせつ}には、{看護師|かんごし}が**{常時|じょうじ}**{待機|たいき}している。", en: "Nurses are on standby at this facility around the clock.", alt: ["{時差|じさ}", "{同時|どうじ}", "{当時|とうじ}"] },
     ] },
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "lasting (a long time); keeping something up",
     note: "Continuing for a long time, most often in the negative: 長続きしない (doesn't last), 何をやっても長続きしない (can't stick with anything). Used for habits, jobs, relationships and good weather.",
     rx: ["ちょうつづき", "ながづつき", "ながつぎき"],
-    book: { ja: "結局**{長続|ながつづ}き**しないばかりか、", en: "in the end, not only will it not last, but", at: "ch/9/review" },
+    book: { ja: "結局**{長続|ながつづ}き**しないばかりか、", en: "not only is this unsustainable in the end, but", at: "ch/9/review" },
     ex: [
       { ja: "{弟|おとうと}は{飽|あ}きっぽくて、どんなアルバイトも**{長続|ながつづ}き**しない。", en: "My brother gets bored easily and can't stick with any part-time job.", alt: ["{長生|ながい}き", "{一休|ひとやす}み", "{手続|てつづ}き"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "often; frequently; all too often",
     note: "A written adverb for something that tends to happen, usually undesirable: 往々にして失敗する, 往々にしてあることだ (it happens all the time). よくある or しばしば are plainer. Not used for simple frequency of good habits.",
     rx: ["おうゆうにして", "ゆうゆうにして", "じゅうじゅうにして"],
-    book: { ja: "**{往々|おうおう}にして**もともとの生産性をも{下回|したまわ}ってしまうのである。", en: "productivity will often fall even below its original level.", at: "ch/9/review" },
+    book: { ja: "**{往々|おうおう}にして**もともとの生産性をも{下回|したまわ}ってしまうのである。", en: "productivity often ends up falling even below its original level.", at: "ch/9/review" },
     ex: [
       { ja: "{忙|いそが}しいときほど、**{往々|おうおう}にして**{単純|たんじゅん}なミスが{起|お}きるものだ。", en: "It's when you're busiest that simple mistakes all too often happen.", alt: ["{堂々|どうどう}として", "{次々|つぎつぎ}にして", "{早々|そうそう}にして"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to fall below; to be less than",
     note: "Being lower than a standard or figure: 予想を下回る (fall short of forecasts), 平年を下回る気温, 定員を下回る. The opposite is 上回る (exceed).",
     rx: ["したまえる", "しもまわる", "げまわる"],
-    book: { ja: "{往々|おうおう}にしてもともとの生産性をも**{下回|したまわ}って**しまうのである。", en: "productivity will often fall even below its original level.", at: "ch/9/review" },
+    book: { ja: "{往々|おうおう}にしてもともとの生産性をも**{下回|したまわ}って**しまうのである。", en: "productivity often ends up falling even below its original level.", at: "ch/9/review" },
     ex: [
       { ja: "{今年|ことし}の{米|こめ}の{収穫量|しゅうかくりょう}は、{例年|れいねん}を**{下回|したまわ}った**。", en: "This year's rice harvest fell below that of an average year.", alt: ["{下|さ}がった", "{見回|みまわ}った", "{出回|でまわ}った"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to follow (an example); to imitate, model on",
     note: "To do as another has done: 前例に倣う (follow precedent), 欧米に倣って (following Europe and America), 右へ倣え (everyone doing the same). Often written in kana. A homophone of 習う (to learn), but 倣う is about copying a model.",
     rx: ["ほうう", "まなう", "ならぶ"],
-    book: { ja: "日本でも、ヨーロッパに**ならって**、{太陽光|たいようこう}発電や{風力|ふうりょく}発電などが{導入|どうにゅう}されていますが、", en: "In Japan too, following Europe's example, solar power and wind power have been introduced, but", at: "ch/9/review" },
+    book: { ja: "日本でも、ヨーロッパに**ならって**、{太陽光|たいようこう}発電や{風力|ふうりょく}発電などが{導入|どうにゅう}されていますが、", en: "Japan, too, has followed Europe's lead in introducing solar and wind power, but", at: "ch/9/review" },
     ex: [
       { ja: "{他|ほか}の{自治体|じちたい}の{成功例|せいこうれい}に**{倣|なら}って**、{市|し}も{子育|こそだ}て{支援|しえん}を{始|はじ}めた。", en: "Following the successful example of other municipalities, the city also began offering support for child-rearing.", alt: ["{伴|ともな}って", "{限|かぎ}って", "{逆|さか}らって"] },
     ] },
@@ -547,7 +547,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to differ; to be different",
     note: "The written counterpart of 違う: AとBは異なる, 異なる意見, 国によって異なる. Unlike 違う, it does not mean “wrong” (✗答えが異なる for a mistaken answer).",
     rx: ["いなる", "ことなす", "ことわる"],
-    book: { ja: "気候も{地形|ちけい}も**異なる**日本では限界があります。", en: "in Japan, where both the climate and the terrain are different, there are limits.", at: "ch/9/review" },
+    book: { ja: "気候も{地形|ちけい}も**異なる**日本では限界があります。", en: "Japan, with its different climate and terrain, faces limits.", at: "ch/9/review" },
     ex: [
       { ja: "{同|おな}じ{料理|りょうり}でも、{地方|ちほう}によって{味付|あじつ}けが**{異|こと}なる**。", en: "Even the same dish is seasoned differently from region to region.", alt: ["{変|か}える", "{誤|あやま}る", "{改|あらた}める"] },
     ] },
@@ -555,7 +555,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "it would be a waste not to ~; one would be foolish not to ~",
     note: "V-ない + 手はない: there is no reason not to take this chance (手 = way, option): このチャンスを利用しない手はない. Conversational to neutral, used to urge or persuade. Not a prohibition; it strongly recommends doing it.",
     rx: ["〜ないしゅはない", "〜ないたはない", "〜ないてんはない"],
-    book: { ja: "これを利用しない**手はない**でしょう。", en: "We would be foolish not to make use of it.", at: "ch/9/review" },
+    book: { ja: "これを利用しない**手はない**でしょう。", en: "It would be a waste not to make use of it.", at: "ch/9/review" },
     ex: [
       { ja: "{無料|むりょう}で{参加|さんか}できるなら、{行|い}か**ない{手|て}はない**よ。", en: "If it's free to attend, it'd be a waste not to go.", alt: ["ないに{越|こ}したことはない", "ないうちに", "ないはめになる"] },
     ] },

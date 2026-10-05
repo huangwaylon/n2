@@ -11,11 +11,11 @@ TRY.registerChapter({
       sample: {
         kind: "dialogue",
         lines: [
-          { sp: "司会者", v: "f", ja: "{本日|ほんじつ}は「トリアージ」について、{救命救急|きゅうめいきゅうきゅう}がご専門の医師の{森|もり}先生にお話を{伺|うかが}います。{森|もり}先生、よろしくお願いします。", en: "Today we will hear about “triage” from Dr. Mori, a physician who specializes in emergency and critical care medicine. Dr. Mori, thank you for being here." },
-          { sp: "{森|もり}", v: "m", ja: "{森|もり}です。「トリアージ」と言いますのは、{患者|かんじゃ}の{治療|ちりょう}について{優先順位|ゆうせんじゅんい}を決めることです。例えば、大きな{災害|さいがい}や事故で{多数|たすう}のけが{人|にん}が出たとしましょう。病院は1{カ|か}所、対応できる医者が2人しかいないとしたら、どんな{治療|ちりょう}ができるでしょうか。{医療|いりょう}設備やスタッフの数からして、対応に限界があるでしょう。100人**からいる**けが{人|にん}の中には、命**にかかわる**{重傷者|じゅうしょうしゃ}もいます。このような{緊急時|きんきゅうじ}**にあって**、医師は{速|すみ}やかな{決断|けつだん}を{迫|せま}られます。\nまず専門家が、{一目|ひとめ}でわかるように、けが{人|にん}に色分けされたタグを付けていきます。タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で{救命|きゅうめい}の可能性がある{者|もの}。黄色は、今すぐ命にかかわるほどのけがではないが、早い{処置|しょち}が必要な{者|もの}。緑色は、{軽傷者|けいしょうしゃ}で{救急|きゅうきゅう}に{搬送|はんそう}の必要のない{者|もの}。\nそして、黒色のタグは、すでに死亡が認められたか、あるいは今この段階では{救命|きゅうめい}が不可能な{者|もの}という分け方です。", en: "I'm Mori. “Triage” means deciding the order of priority for treating patients. Suppose, for example, that a major disaster or accident has left a large number of people injured. If there is only one hospital and only two doctors able to deal with them, what kind of treatment can be given? Given the medical equipment and the number of staff alone, there will be limits to what can be done. Among as many as a hundred injured people, some will have life-threatening injuries. In the midst of an emergency like this, doctors are forced to make swift decisions.\nFirst, specialists attach color-coded tags to the injured so that their condition can be seen at a glance. A red tag means a person who needs treatment as soon as possible and who has a chance of being saved. Yellow means a person whose injuries are not immediately life-threatening but who needs early treatment. Green means a person with minor injuries who does not need to be transported for emergency care.\nAnd a black tag is for someone who has already been confirmed dead, or whose life cannot be saved at this stage. That is how the categories are divided." },
-          { sp: "司会者", v: "f", ja: "う〜ん、確かに必要な判断だとはいえ、もし目の前で黒のタグを付けられたとしたら、そのけが{人|にん}の家族は頭では理解しつつも、あきらめきれないのではないでしょうか。", en: "Hmm. It is certainly a necessary judgment, but if a black tag were attached right in front of them, wouldn't the injured person's family, even while understanding it rationally, find it impossible to give up hope?" },
-          { sp: "{森|もり}", v: "m", ja: "確かに、見**ようによっては**{非情|ひじょう}な{行為|こうい}かもしれません。ですが、このような{緊急時|きんきゅうじ}には、助けられる命を{優先|ゆうせん}するのが最も良い方法なのです。", en: "Certainly, depending on how you look at it, it may be a heartless act. But in an emergency like this, giving priority to the lives that can be saved is the best approach." },
-          { sp: "司会者", v: "f", ja: "{医療現場|いりょうげんば}で{究極|きゅうきょく}の{選択|せんたく}が必要になるということですね。私たちも{冷静|れいせい}に受け止めなければならないことがよくわかりました。", en: "So in medical settings, the hardest of choices sometimes have to be made. I now understand well that this is something we, too, must accept calmly." },
+          { sp: "司会者", v: "f", ja: "{本日|ほんじつ}は「トリアージ」について、{救命救急|きゅうめいきゅうきゅう}がご専門の医師の{森|もり}先生にお話を{伺|うかが}います。{森|もり}先生、よろしくお願いします。", en: "Today we'll be hearing about “triage” from Dr. Mori, a physician who specializes in emergency and critical care medicine. Dr. Mori, thank you for joining us." },
+          { sp: "{森|もり}", v: "m", ja: "{森|もり}です。「トリアージ」と言いますのは、{患者|かんじゃ}の{治療|ちりょう}について{優先順位|ゆうせんじゅんい}を決めることです。例えば、大きな{災害|さいがい}や事故で{多数|たすう}のけが{人|にん}が出たとしましょう。病院は1{カ|か}所、対応できる医者が2人しかいないとしたら、どんな{治療|ちりょう}ができるでしょうか。{医療|いりょう}設備やスタッフの数からして、対応に限界があるでしょう。100人**からいる**けが{人|にん}の中には、命**にかかわる**{重傷者|じゅうしょうしゃ}もいます。このような{緊急時|きんきゅうじ}**にあって**、医師は{速|すみ}やかな{決断|けつだん}を{迫|せま}られます。\nまず専門家が、{一目|ひとめ}でわかるように、けが{人|にん}に色分けされたタグを付けていきます。タグの赤色は、{一刻|いっこく}も早い{処置|しょち}が必要で{救命|きゅうめい}の可能性がある{者|もの}。黄色は、今すぐ命にかかわるほどのけがではないが、早い{処置|しょち}が必要な{者|もの}。緑色は、{軽傷者|けいしょうしゃ}で{救急|きゅうきゅう}に{搬送|はんそう}の必要のない{者|もの}。\nそして、黒色のタグは、すでに死亡が認められたか、あるいは今この段階では{救命|きゅうめい}が不可能な{者|もの}という分け方です。", en: "I'm Mori. “Triage” means deciding priorities for treating patients. Suppose, for example, that a major disaster or accident has left a large number of people injured. If there is only one hospital and only two doctors who can deal with them, what kind of treatment can they give? Given the medical equipment and the number of staff alone, there will be limits to what they can handle. Among as many as a hundred injured people, some will have life-threatening injuries. In the midst of an emergency like this, doctors are forced to make swift decisions.\nFirst, specialists put color-coded tags on the injured so that their condition can be seen at a glance. A red tag marks someone who needs treatment as soon as possible and who can still be saved. Yellow marks someone whose injuries are not immediately life-threatening but who needs prompt treatment. Green marks someone with minor injuries who does not need emergency transport.\nAnd a black tag marks someone who has already been confirmed dead or who cannot be saved at this stage. That is how the categories are divided." },
+          { sp: "司会者", v: "f", ja: "う〜ん、確かに必要な判断だとはいえ、もし目の前で黒のタグを付けられたとしたら、そのけが{人|にん}の家族は頭では理解しつつも、あきらめきれないのではないでしょうか。", en: "Hmm. It's certainly a necessary judgment, but if a black tag were put on someone right in front of their family, wouldn't the family find it hard to give up hope, even if they understood it in their heads?" },
+          { sp: "{森|もり}", v: "m", ja: "確かに、見**ようによっては**{非情|ひじょう}な{行為|こうい}かもしれません。ですが、このような{緊急時|きんきゅうじ}には、助けられる命を{優先|ゆうせん}するのが最も良い方法なのです。", en: "True, depending on how you look at it, it may be a heartless thing to do. But in an emergency like this, giving priority to the lives that can be saved is the best approach." },
+          { sp: "司会者", v: "f", ja: "{医療現場|いりょうげんば}で{究極|きゅうきょく}の{選択|せんたく}が必要になるということですね。私たちも{冷静|れいせい}に受け止めなければならないことがよくわかりました。", en: "So on the medical front line, agonizing choices have to be made. It's very clear to me now that this is something the rest of us must also accept calmly." },
         ],
       },
       points: [
@@ -30,7 +30,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely." },
             { ja: "小さな子どもが、10kgからある旅行かばんを{一生懸命|いっしょうけんめい}運ぼうとしている。", en: "A small child is trying with all their might to carry a suitcase weighing as much as 10 kg." },
-            { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered, as a private individual, a donation of no less than 100 million yen." },
+            { ja: "{伊藤氏|いとうし}は、個人で1億円からの{寄付|きふ}を申し出た。", en: "Ito offered a personal donation of no less than 100 million yen." },
           ],
           notes: [
             {
@@ -56,11 +56,11 @@ TRY.registerChapter({
           forms: ["[N] + にかかわる"],
           examples: [
             { ja: "家庭での教育は子どもの発達や人間{形成|けいせい}にかかわる大きな問題だ。", en: "Education at home is a major issue that affects children's development and the formation of their character." },
-            { ja: "政府は、国民の安全にかかわる情報はすぐに公表すべきだ。", en: "The government should immediately make public any information that concerns the safety of the people." },
+            { ja: "政府は、国民の安全にかかわる情報はすぐに公表すべきだ。", en: "The government should immediately release any information that affects the safety of its citizens." },
             { ja: "{少子高齢|しょうしこうれい}社会にどう対応するかは、国の将来にかかわる問題だ。", en: "How to deal with a society with a falling birthrate and an aging population is a question that bears on the nation's future." },
-            { ja: "日本に留学して、将来貿易にかかわる仕事に{就|つ}きたいと思っています。", en: "I want to study in Japan and, in the future, get a job related to trade." },
+            { ja: "日本に留学して、将来貿易にかかわる仕事に{就|つ}きたいと思っています。", en: "I want to study in Japan and later get a job in trade." },
           ],
-          deepDive: "**N + にかかわる** (from 関わる *to concern, be involved in*) has two senses. With a vital noun (命, 将来, 存続, 安全, 名誉) it means *seriously affects, puts at stake*: 会社の信用にかかわる (*it could damage the company's credibility*). With a field or activity it means *related to, involved with*: 医療にかかわる人々 (*people who work in medicine*). The first sense carries a warning about how serious the matter is, which is why it is frequent in news and official statements.\n\nIt usually modifies a noun (〜にかかわる問題／事態／仕事) but can also end a sentence: そんなことをしたら沽券にかかわる (*doing that would be beneath my dignity*).\n\nCompare:\n- **〜に関する** (N2): a neutral topic label, *about*: 環境に関する本 (*a book about the environment*). 環境にかかわる本 sounds odd, since a book neither affects nor works in the environment.\n- **〜にかかわらず** (N2): *regardless of*, the same verb with the opposite idea: 年齢にかかわらず (*regardless of age*).\n\nPitfall: a trivial noun in the *at stake* sense (✗昼ご飯にかかわるけが).\n\nJLPT cue: 命・存続・将来・評判 before the blank and 問題／事態 after it point to にかかわる.",
+          deepDive: "**N + にかかわる** (from 関わる *to concern, be involved in*) has two senses. With a vital noun (命, 将来, 存続, 安全, 名誉) it means *seriously affects, puts at stake*: 会社の信用にかかわる (*it could damage the company's credibility*). With a field or activity it means *related to, involved with*: 医療にかかわる人々 (*people who work in medicine*). The first sense carries a warning about how serious the matter is, which is why it is frequent in news and official statements.\n\nIt usually modifies a noun (〜にかかわる問題／事態／仕事) but can also end a sentence: そんなことをしたら沽券にかかわる (*doing that would be beneath my dignity*).\n\nCompare:\n- **〜に関する** (N2): a neutral topic label, *about*: 環境に関する本 (*a book about the environment*). 環境にかかわる本 is less natural, since a book neither affects the environment nor works in it.\n- **〜にかかわらず** (N2): *regardless of*, the negative of the same verb with a different meaning: 年齢にかかわらず (*regardless of age*).\n\nPitfall: a trivial noun in the *at stake* sense (✗昼ご飯にかかわるけが).\n\nJLPT cue: 命・存続・将来・評判 before the blank and 問題／事態 after it point to にかかわる.",
           see: [],
           index: ["Nにかかわる", "にかかわる"],
           practice: [
@@ -70,9 +70,9 @@ TRY.registerChapter({
               bank: ["{真相|しんそう}", "{福祉|ふくし}", "命", "{存続|そんぞく}"],
               items: [
                 { q: "小さな{医療|いりょう}ミスでも、{患者|かんじゃ}の＿＿にかかわる{事態|じたい}を引き起こす場合もある。", answer: "命", en: "Even a small medical error can sometimes cause a situation that endangers a patient's life.", why: { en: "命にかかわる事態 = a situation that puts a life at stake (#108)." } },
-                { q: "警察は、ついに事件の＿＿にかかわる人物を{特定|とくてい}した。", answer: "{真相|しんそう}", en: "The police have finally identified a person connected with what really happened in the case.", why: { en: "事件の真相にかかわる人物 = a person connected with what really happened, the *related to* sense of #108." } },
+                { q: "警察は、ついに事件の＿＿にかかわる人物を{特定|とくてい}した。", answer: "{真相|しんそう}", en: "The police have finally identified someone connected to the truth behind the case.", why: { en: "事件の真相にかかわる人物 = a person connected with what really happened, the *related to* sense of #108." } },
                 { q: "データは{厳重|げんじゅう}に管理すべきだ。もし{流出|りゅうしゅつ}すれば、{企業|きぎょう}の＿＿にかかわる{大|だい}問題になる。", answer: "{存続|そんぞく}", en: "Data should be managed strictly. If it leaked, it would become a major problem threatening the company's survival.", why: { en: "A leak would put the company's very existence at stake: 存続にかかわる (#108)." } },
-                { q: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の{需要|じゅよう}がますます高まっていくだろう。", answer: "{福祉|ふくし}", en: "As the number of elderly people grows, demand for work related to welfare will probably keep rising.", why: { en: "More elderly people means more demand for work in welfare: 福祉にかかわる仕事 (#108)." } },
+                { q: "今後{高齢者|こうれいしゃ}が増え、＿＿にかかわる仕事の{需要|じゅよう}がますます高まっていくだろう。", answer: "{福祉|ふくし}", en: "As the elderly population grows in the years ahead, demand for jobs in social welfare will likely keep rising.", why: { en: "More elderly people means more demand for jobs in welfare: 福祉にかかわる仕事 (#108)." } },
               ],
             },
           ],
@@ -86,9 +86,9 @@ TRY.registerChapter({
           usage: { ja: "「〜にあって」は「〜の状況で」という意味で、「〜という{厳|きび}しい／普通とは違う、特別な状況で」と言いたいときに使われることが多い。", en: "“〜にあって” means “in the situation of 〜”. It is often used when you want to say “in the harsh, or out-of-the-ordinary, special situation of 〜”." },
           forms: ["[N] + にあって"],
           examples: [
-            { ja: "{火災|かさい}などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the most important thing is to act calmly." },
-            { ja: "当時は高度経済成長期にあって、政府は高速道路の整備に力を入れていた。", en: "At the time, in the midst of the period of rapid economic growth, the government was putting great effort into building expressways." },
-            { ja: "{不況下|ふきょうか}にあっても順調に{業績|ぎょうせき}を伸ばしている{企業|きぎょう}がある。", en: "There are companies that are steadily improving their results even in a recession." },
+            { ja: "{火災|かさい}などの{非常時|ひじょうじ}にあっては、落ち着いて行動することがまず大事だ。", en: "In an emergency such as a fire, the first thing that matters is to act calmly." },
+            { ja: "当時は高度経済成長期にあって、政府は高速道路の整備に力を入れていた。", en: "Back then, in the era of rapid economic growth, the government was pouring effort into building expressways." },
+            { ja: "{不況下|ふきょうか}にあっても順調に{業績|ぎょうせき}を伸ばしている{企業|きぎょう}がある。", en: "Even in a recession, some companies keep steadily improving their results." },
           ],
           xref: "☞ 2. ビールの{本場|ほんば}**とあって**",
           deepDive: "**N + にあって** is formal written Japanese for *in (the situation of) ~*, presenting the circumstances as special: usually harsh, critical or out of the ordinary. The main clause says how someone acts or copes there, or what still holds true: 戦時下にあって、人々は助け合って暮らした (*in wartime, people lived by helping one another*). にあっては makes the situation a topic (*in such a case, what applies is…*); にあっても is concessive, *even in ~*, with a result that defies the conditions.\n\nTypical nouns: 非常時, 緊急時, 不況下, 〜期, 現代, 〜時代, and positions such as 指導者の立場.\n\nCompare:\n- **〜とあって** (#2): *because it is (a special occasion), naturally…*: 連休とあって道路が混んでいる (*with the long weekend, the roads are jammed*). とあって gives a reason and its natural result; にあって sets a situation.\n- **〜において** (N2): neutral *in, at*, for any place or field (会議室において); nothing special is implied.\n\nPitfall: ordinary circumstances don't qualify (✗雨の日にあって傘を持っていった).\n\nJLPT cue: 〜時／〜下／〜期／時代 before the blank, with a clause about behavior in hard times → にあって; with *even* → にあっても.",
@@ -111,7 +111,7 @@ TRY.registerChapter({
                   q: "{全品|ぜんぴん}半額セール（　）、{遠方|えんぽう}からも客が押し寄せている。",
                   options: ["とあって", "にあって"],
                   answer: 0,
-                  en: "Because it's a half-price sale on everything, customers are flocking in even from far away.",
+                  en: "With everything at half price, customers are flocking in even from far away.",
                   why: { en: "The sale is the special circumstance and the crowds are its natural result — とあって (#2). にあって only sets a (usually harsh) situation." },
                 },
                 {
@@ -119,7 +119,7 @@ TRY.registerChapter({
                   options: ["にあっても", "にあっては"],
                   answer: 0,
                   en: "They are aiming to develop brakes whose performance does not drop even in bad weather.",
-                  why: { en: "The brakes must keep their performance even under bad weather, so the concessive にあっても (“even in ~”) fits. にあっては (“in ~, as for what applies there…”) would not connect to “aiming to develop”." },
+                  why: { en: "The brakes must keep their performance in spite of bad weather, so the concessive にあっても (“even in ~”) fits. にあっては (“in ~, as for that case”) has no *even*, so it can't express holding up against the conditions." },
                 },
               ],
             },
@@ -135,8 +135,8 @@ TRY.registerChapter({
           forms: ["[V-~~ます~~] + ようによって（は）"],
           examples: [
             { ja: "その{企画|きかく}、取り上げようによっては、{面白|おもしろ}い番組が作れるんじゃないの？", en: "Depending on how you approach that proposal, couldn't you make an interesting program out of it?" },
-            { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を招くおそれがあるよ。", en: "If the explanation is insufficient, then depending on how people take it, it could cause misunderstandings." },
-            { ja: "同じ{境遇|きょうぐう}でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, you can feel happy, depending on how you look at things." },
+            { ja: "説明{不足|ぶそく}だと、受け取りようによっては、{誤解|ごかい}を招くおそれがあるよ。", en: "If you don't explain it fully, it could be misunderstood, depending on how people take it." },
+            { ja: "同じ{境遇|きょうぐう}でも考えようによって、幸せだと感じることができるものだよ。", en: "You can be in the same circumstances and still feel happy, depending on how you look at things." },
           ],
           deepDive: "**V-ます stem + ようによって（は）** means *depending on how you ~*. よう is 様 *way, manner* (見よう *a way of looking*, やりよう *a way of doing*), so the outcome is tied to the way something is done or seen. With は, the usual form, it picks out one possible way and says that, taken that way, a sometimes unexpected result can follow; the main clause typically has かもしれない, こともある, できる or おそれがある: 言いようによっては相手を傷つける (*depending on how you put it, you can hurt the other person*). It softens a claim or offers a new angle, in speech as well as writing. Set phrase: ものは考えよう (*it all depends on how you look at it*).\n\nCompare:\n- **N次第で** (N2): the same idea after a noun: やり方次第で = やりようによっては.\n- **〜いかん** (#42): formal *depending on N*, after nouns: 結果いかんでは (*depending on the outcome*).\n- **〜ようがない** (N2): the same よう, but it denies any way: 連絡のしようがない (*there's no way to contact them*).\n\nPitfall: only the stem works (✗見るようによっては).\n\nJLPT cue: a bare verb stem before the blank and a result that *can* happen → ようによって（は）.",
           see: [42],
@@ -163,7 +163,7 @@ TRY.registerChapter({
           {
             q: "その犬は200km＿＿長い道のりを旅して、{飼|か}い{主|ぬし}のもとへたどり着いた。",
             answer: "からある",
-            en: "The dog traveled a long way, a good 200 km, and made it back to its owner.",
+            en: "The dog made a long journey of a good 200 km and found its way back to its owner.",
             why: { en: "Number + km + からある + N stresses that the distance is remarkably long (#107); ある is used for distances and weights." },
           },
           {
@@ -202,21 +202,21 @@ TRY.registerChapter({
             q: "この小説はとらえ（　）、さまざまな{解釈|かいしゃく}が成り立つと言われている。",
             options: ["にかかわる", "にあって", "ようととらえまいと", "ようによって"],
             answer: 3,
-            en: "It is said that this novel allows a variety of interpretations, depending on how you read it.",
+            en: "This novel is said to be open to a variety of interpretations, depending on how you read it.",
             why: { en: "とらえ is a verb stem, and stem + ようによって = “depending on how you interpret it” (#110). にかかわる (#108) and にあって (#109) attach to nouns, not verb stems, and とらえようととらえまいと (“whether you interpret it or not”) makes no sense before “various interpretations are possible”." },
           },
           {
             q: "{裁判員|さいばんいん}は{裁判|さいばん}（　）話は家族にさえも話してはいけない。",
             options: ["に反する", "に{先立|さきだ}つ", "にかかわる", "にわたる"],
             answer: 2,
-            en: "Lay judges must not talk about matters relating to the trial even to their own families.",
+            en: "Lay judges must not discuss anything related to the trial, even with their own families.",
             why: { en: "裁判にかかわる話 = “talk relating to the trial”, the “related to ~” sense of にかかわる (#108). に反する (“contrary to”), に先立つ (“prior to”) and にわたる (“spanning, over”) don't describe what the talk is about." },
           },
           {
             q: "{防災訓練|ぼうさいくんれん}の{実施|じっし}（　）、{各部署|かくぶしょ}から1人ずつ責任者が選ばれた。",
             options: ["にあたって", "につれて", "にあって", "にもとづいて"],
             answer: 0,
-            en: "In carrying out the disaster drill, one person from each department was chosen to be in charge.",
+            en: "In preparation for the disaster drill, one person from each department was chosen to be in charge.",
             why: { en: "実施にあたって = “when about to carry out ~”: preparation for an upcoming action. にあって (#109) describes a (difficult) ongoing situation, not an event being prepared for; につれて (“as ~ changes”) needs a gradual change, and にもとづいて (“based on”) needs a basis such as a plan or data." },
           },
           {
@@ -241,7 +241,7 @@ TRY.registerChapter({
             pieces: ["にかかわる", "つながる", "{大病|たいびょう}に", "おそれが"],
             order: [0, 2, 1, 3],
             star: 2,
-            en: "If you leave tooth decay untreated, it may lead to a serious, life-threatening illness.",
+            en: "Left untreated, tooth decay could lead to a serious, life-threatening illness.",
             why: { en: "命にかかわる大病につながるおそれがあります: にかかわる modifies 大病, 大病に goes with つながる, and つながる modifies おそれ (1→3→2→4)." },
           },
           {
@@ -273,7 +273,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best answer to each question from 1, 2, 3 and 4." },
         title: "",
         text: ["{火災|かさい}の際、100キロからある金庫をごく普通の人間が1人で運び出したといったことがある。「{火事場|かじば}の{馬鹿力|ばかぢから}」というもので、仕事においても{時|とき}に同じようなことが起きる。これは、命なり会社の{存続|そんぞく}なりにかかわるような{非常時|ひじょうじ}にあって出せる力である。", "だとすれば、その力を普段出さないからといって、彼または彼女が全力で働いていないと非難するのは誤りであろう。", "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。するとどうなるか。確かに短期的には生産性が上がるだろう。とはいえ、{平常時|へいじょうじ}の「全力」を超えた労働をし続けることを{強|し}いれば、労働者が心身の健康を{損|そこ}ね、結局{長続|ながつづ}きしないばかりか、{往々|おうおう}にしてもともとの生産性をも{下回|したまわ}ってしまうのである。"],
-        en: ["There have been cases where, during a fire, a perfectly ordinary person single-handedly carried out a safe weighing a good 100 kilos. This is what is called 火事場の馬鹿力 (literally “the crazy strength of the fire scene,” i.e. superhuman strength in an emergency), and something similar sometimes happens at work too. It is strength that can be summoned in an emergency in which, say, one's life or the survival of the company is at stake.", "If that is so, it would be wrong to criticize someone for not working at full strength just because he or she does not display that strength ordinarily.", "Yet employers, even while knowing it is too much to ask, tend to demand constantly that workers exert strength that reaches even into this emergency territory, in order to win in fierce competition. What happens then? Productivity will certainly rise in the short term. Even so, if you force workers to keep working beyond their normal “full strength,” they will damage their physical and mental health; in the end, not only will it not last, but productivity will often fall even below its original level."],
+        en: ["There have been cases where, during a fire, a perfectly ordinary person single-handedly carried out a safe weighing a good 100 kilos. This is what is called 火事場の馬鹿力 (literally “the crazy strength of the fire scene,” i.e. superhuman strength in an emergency), and something similar sometimes happens at work too. It is strength that can be summoned in an emergency in which, say, one's life or the survival of the company is at stake.", "If that is so, it would be wrong to criticize someone for not working at full strength just because he or she does not display that strength ordinarily.", "Yet those who put people to work, even while knowing it is unreasonable, tend to demand constantly from workers a strength that reaches into this emergency territory, in order to win in fierce competition. What happens then? Productivity will certainly rise in the short term. Even so, if you force workers to keep working beyond their normal “full strength,” they will damage their physical and mental health; not only is this unsustainable in the end, but productivity often ends up falling even below its original level."],
         items: [
           {
             q: "「{火事場|かじば}の{馬鹿力|ばかぢから}」とはどういうことか。",
@@ -313,7 +313,7 @@ TRY.registerChapter({
               { sp: "F", v: "f", ja: "え〜。でも、試す価値はあると思うよ。" },
               { sp: "M2", v: "m", ja: "まあ、そうかもしれないけど、こういう問題は、なかなか難しいよね。" },
             ],
-            en: ["On television, a scientist is talking about energy problems.", "Securing energy is an important issue that bears on our future. In an age when energy to replace oil is being sought, the development of new energy sources is urgent.\nIn Japan too, following Europe's example, solar power and wind power have been introduced, but in Japan, where both the climate and the terrain are different, there are limits.\nAs an energy source suited to Japan, the one I am watching most closely now is methane hydrate. It is called “burning ice,” and there is enough of it to cover as much as roughly 96 years of the natural gas used in Japan. We would be foolish not to make use of it.", "“Burning ice,” huh... Sounds good. If it works out, we won't need oil, will we?", "Hmm. But that's only if it works out, right? I wonder how it would actually turn out.", "Oh, come on. Still, I think it's worth trying.", "Well, maybe so, but this kind of problem is pretty tricky, isn't it?"],
+            en: ["On television, a scientist is talking about energy problems.", "Securing energy is an important issue that bears on our future. In an age that calls for energy to replace oil, developing new energy sources has become urgent.\nJapan, too, has followed Europe's lead in introducing solar and wind power, but Japan, with its different climate and terrain, faces limits.\nAs an energy source suited to Japan, the one I am watching most closely now is methane hydrate. It is called “burning ice,” and the reserves amount to as much as about 96 years' worth of the natural gas Japan uses. It would be a waste not to make use of it.", "“Burning ice,” huh... Sounds good. If it works out, we won't even need oil anymore, right?", "Hmm. But that's only if it works out, right? I wonder how it would actually turn out.", "Oh, come on. Still, I think it's worth trying.", "Well, maybe so, but this kind of problem is pretty tricky, isn't it?"],
             layout: "grid",
             options: ["{太陽光|たいようこう}", "{風力|ふうりょく}", "メタンハイドレート", "{天然|てんねん}ガス"],
             optionsEn: ["Solar power", "Wind power", "Methane hydrate", "Natural gas"],
