@@ -3656,7 +3656,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "右のグラフで注目したい結果とその傾向が見られる要因を説明しなさい。「書くポイント」を使って、モデル作文のように4段落構成で書きなさい。（だ体・600字{程度|ていど}）",
-      "tr": "Describe the result in the graph on the right that you want to focus on and the factors behind that trend. Using the writing points, write it in four paragraphs like the model composition. (だ style, about 600 characters)"
+      "tr": "Explain the result in the graph on the right that you want to focus on and the factors behind the trend it shows. Using the writing points, write it in four paragraphs like the model composition. (だ style, about 600 characters)"
      }
     },
     {
@@ -3958,7 +3958,7 @@ TRY.registerLesson({
        "sp": "面",
        "v": "f",
        "ja": "どうぞそちらにおかけください。",
-       "tr": "Please, have a seat over there."
+       "tr": "Please have a seat over there."
       },
       {
        "sp": "グ",
@@ -3976,7 +3976,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "はい。❷{私|わたくし}は現在経済学研究科で日本とベトナムの関係について研究しておりますが、来年{博士課程|はくしかてい}に進学することになりました。進学にあたり、アルバイトをやめ、研究に集中したい**と思い、応募させていただきました。**",
-       "tr": "Yes. I'm currently researching relations between Japan and Vietnam at the Graduate School of Economics, and next year I will be going on to the doctoral program. With that step ahead of me, I would like to give up my part-time job and concentrate on my research, and so I applied."
+       "tr": "Yes. I'm currently researching relations between Japan and Vietnam at the Graduate School of Economics, and next year I will be going on to the doctoral program. As I take that step, I would like to give up my part-time job and concentrate on my research, so I have applied for this scholarship."
       },
       {
        "sp": "面",
@@ -3988,7 +3988,7 @@ TRY.registerLesson({
        "sp": "グ",
        "v": "m",
        "ja": "はい。❸①**私の長所は、**{何事|なにごと}も{成功|せいこう}するまであきらめず、{改善策|かいぜんさく}を考えて努力し続ける**ところです。**②私は漢字が苦手で日本語能力試験のN2に3回も落ちたという経験があります。{不合格|ふごうかく}の知らせがくるたびにあきらめそうになりましたが、そのたびに、今回はなぜ失敗したのかを考え、勉強計画を見直しました。{自己分析|じこぶんせき}した結果、新しい問題集ばかりして{復習|ふくしゅう}が{十分|じゅうぶん}にできていなかったことや、すき{間|ま}時間を上手に使えていなかったことがわかりました。そこで、復習用のノートを作り、すき間時間に勉強するようにしたところ、日本語能力試験のN2だけではなく、N1にも合格することができました。③**この経験から、**苦手なことでもあきらめず改善策を考え努力を続けることで、{克服|こくふく}できるという**ことを学びました。**④**この長所は、**これから研究を進める**際に役立つものだと考えております。**",
-       "tr": "Yes. My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the N2 level of the Japanese-Language Proficiency Test no fewer than three times. Every time I got the news that I had failed, I almost gave up, but each time I thought about why I had failed and revised my study plan. After analyzing my own study habits, I realized that I had only been doing new workbooks and hadn't been reviewing enough, and that I hadn't been making good use of my spare moments. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass not only N2 but also N1 of the Japanese-Language Proficiency Test. From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard. I believe this strong point will be useful as I pursue my research from now on."
+       "tr": "Yes. My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the N2 level of the Japanese-Language Proficiency Test as many as three times. Every time I got the news that I had failed, I almost gave up, but each time I thought about why I had failed and revised my study plan. After analyzing my own study habits, I realized that I had only been doing new workbooks and hadn't been reviewing enough, and that I hadn't been making good use of my spare moments. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass not only N2 but also N1 of the Japanese-Language Proficiency Test. From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard. I believe this strong point will be useful as I pursue my research from now on."
       },
       {
        "sp": "面",
@@ -4140,7 +4140,7 @@ TRY.registerLesson({
        "n": 3,
        "label": {
         "ja": "質問に答える：長所を言う\n① 長所について短く{一言|ひとこと}で言う",
-        "tr": "Answer the question: state your strong point / ① State your strong point briefly, in a word"
+        "tr": "Answer the question: state your strong point / ① State your strong point briefly, in a few words"
        },
        "text": {
         "ja": "**私の長所は、**{何事|なにごと}も{成功|せいこう}するまであきらめず、{改善策|かいぜんさく}を考えて努力し続ける**ところです。**",
@@ -4155,7 +4155,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "私は漢字が苦手で日本語能力試験に3回も落ちたという経験があります。しかし、自己{分析|ぶんせき}した結果、{復習|ふくしゅう}が{十分|じゅうぶん}にできていなかったことがわかりました。そこで、復習用のノートを作り、すき{間|ま}時間に勉強するようにしたところ、{合格|ごうかく}することができました。",
-        "tr": "I'm bad at kanji, and I failed the Japanese-Language Proficiency Test no fewer than three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass."
+        "tr": "I'm bad at kanji, and I failed the Japanese-Language Proficiency Test as many as three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass."
        }
       },
       {
@@ -4227,7 +4227,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶ 部屋に入り、{自己|じこ}紹介する ➔ ❷ 質問に答える：{応募|おうぼ}理由を言う\n➔ ❸ 質問に答える：{長所|ちょうしょ}を言う\n➔ ① 長所について短く{一言|ひとこと}で言う ➔ ② 長所を具体的なエピソードで説明する\n（➔ ③ 経験から学んだことを話す）➔ ④ その長所が勉強や仕事で役に立つと伝える\n➔ ❹ お礼を言って、部屋を出る",
-        "tr": "1 Enter the room and introduce yourself → 2 Answer the question: give your reason for applying\n→ 3 Answer the question: state your strong point\n→ ① State your strong point briefly, in a word → ② Explain your strong point with a concrete episode\n(→ ③ Talk about what you learned from the experience) → ④ Say that your strong point will be useful in your studies or work\n→ 4 Thank them and leave the room"
+        "tr": "1 Enter the room and introduce yourself → 2 Answer the question: give your reason for applying\n→ 3 Answer the question: state your strong point\n→ ① State your strong point briefly, in a few words → ② Explain your strong point with a concrete episode\n(→ ③ Talk about what you learned from the experience) → ④ Say that your strong point will be useful in your studies or work\n→ 4 Thank them and leave the room"
        }
       }
      ]
@@ -4267,7 +4267,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❸①**私の長所は、**{{{何事|なにごと}も{成功|せいこう}するまであきらめず、{改善策|かいぜんさく}を考えて努力し続ける}}**ところです。**\n②{{私は漢字が苦手で日本語能力試験に3回も落ちたという経験があります。しかし、{自己分析|じこぶんせき}した結果、{復習|ふくしゅう}が{十分|じゅうぶん}できていなかったことがわかりました。そこで、復習用のノートを作り、すき{間|ま}時間に勉強するようにしたところ、{合格|ごうかく}することができました。}}\n（③**この経験から、**{{苦手なことでもあきらめず改善策を考え努力を続けることで、{克服|こくふく}できる}}という**ことを学びました。**）\n④**この長所は、**{{これから研究を進める}}**際に役立つものだと考えております。**",
-         "tr": "My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the Japanese-Language Proficiency Test no fewer than three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass. (From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard.) I believe this strong point will be useful as I pursue my research from now on."
+         "tr": "My strong point is that I never give up on anything until I succeed; I keep working at it while thinking of ways to improve. I'm bad at kanji, and I failed the Japanese-Language Proficiency Test as many as three times. However, after analyzing my own study habits, I realized that I hadn't been reviewing enough. So I made a notebook for review and started studying in my spare moments, and as a result I was able to pass. (From this experience, I learned that you can overcome even the things you're bad at by not giving up, thinking of ways to improve, and continuing to work hard.) I believe this strong point will be useful as I pursue my research from now on."
         },
         {
          "sp": "面接官",
@@ -4340,7 +4340,7 @@ TRY.registerLesson({
      "id": "l10-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -4395,7 +4395,7 @@ TRY.registerLesson({
        "n": "③",
        "text": {
         "ja": "図2のaとbには、下の1と2のどちらが入りますか。",
-        "tr": "Which of 1 and 2 below goes in a and in b of Figure 2?"
+        "tr": "In Figure 2, which of 1 and 2 below goes in a, and which in b?"
        },
        "words": [
         "1. ヘルシーな食べ物が少ない",
@@ -4530,7 +4530,7 @@ TRY.registerLesson({
       [
        {
         "ja": "並ぶのに時間がかかる",
-        "tr": "It takes a long time to wait in line"
+        "tr": "You have to wait in line a long time"
        },
        "40%",
        "36%",
@@ -4539,7 +4539,7 @@ TRY.registerLesson({
       [
        {
         "ja": "コーヒーや甘いものが欲しい",
-        "tr": "I want coffee and sweets"
+        "tr": "I wish they had coffee and sweets"
        },
        "8%",
        "35%",
@@ -5065,7 +5065,7 @@ TRY.registerLesson({
    "skill": "listen",
    "title": {
     "ja": "格差社会",
-    "tr": "A Society of Disparities"
+    "tr": "An Unequal Society"
    },
    "page": 131,
    "blocks": [
@@ -5281,7 +5281,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "1970年代の日本は「自分は中流である」と考える人が9割を占め、格差があまりない{平等|びょうどう}な社会だと思われていました。この傾向は80年代まで強く見られましたが、その後、資本主義経済の発展により一部の{富裕|ふゆう}層に資産が集まるようになりました。2018年の調査を見てみましょう。ここでは富裕層を所得が1000万円以上の世帯とします。グラフを見ると、富裕層は全体の12.2%__にとどまって__いることがわかります。{一方|いっぽう}、その時の平均所得以下の世帯は全体の62.4%__を占めて__います。また、{貧困|ひんこん}層を所得が200万円以下の世帯とすると、日本の貧困層の世帯は約20%__にのぼって__いることがわかります。このことから、日本は、富裕層より貧困層の割合が高い格差社会であると言えます。",
-       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households make up as much as 20 percent or so of the total in Japan. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
+       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households make up as much as about 20 percent of all households in Japan. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
       },
       {
        "sp": "",
