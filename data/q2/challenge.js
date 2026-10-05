@@ -162,7 +162,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "ジョージの歌が下手だったので、（私は）笑＿＿てしまった。",
-         "tr": "George's singing was bad, so (I) ended up laughing."
+         "tr": "George's singing was bad, so (I) couldn't help laughing."
         },
         "answer": "笑__っ__て"
        },
@@ -250,7 +250,7 @@ TRY.registerUnits([
     "style": "task",
     "title": {
      "ja": "絵を見て、主人公を（6）ジョージ、（7）絵理にして説明してください。",
-     "tr": "Look at the picture and describe it with (6) George and (7) Eri as the main character."
+     "tr": "Look at the picture and describe it with George as the main character in (6) and Eri as the main character in (7)."
     },
     "blocks": [
      {
@@ -273,7 +273,7 @@ TRY.registerUnits([
         "n": "(7)",
         "text": {
          "ja": "絵理a. ＿＿ジョージb. ＿＿パソコンを貸して\nc. ＿＿た。\nでも、そのパソコンをd. 壊＿＿てしまった。",
-         "tr": "Eri lent George her computer (a., b., c.). But then it got broken on her (d.)."
+         "tr": "Eri lent George her computer (a., b., c.). But then he broke it on her (d.)."
         },
         "answer": "a. は　b. に　c. __あげ__た　d. 壊__され__て"
        }
@@ -307,7 +307,7 @@ TRY.registerUnits([
     "t": "p",
     "text": {
      "ja": "「{一所懸命|いっしょけんめい}」や第8課の読み物1に出てきた「{十人|じゅうにん}{十|と}{色|いろ}」などのように、4つの漢字から作られていて{慣用句|かんようく} (idiom) のように使われるものを「{四字熟語|よじじゅくご}」といいます。四字熟語を知っていると、説明が長くなってしまうことや難しいことを、簡単に言うことができます。",
-     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"to each their own,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called yoji-jukugo (four-character idioms). If you know four-character idioms, you can put things that would take a long explanation, or that are hard to express, in just a few words."
+     "tr": "Expressions like 一所懸命 (\"with all one's might\") or 十人十色 (\"everyone is different,\" from Reading 1 of Lesson 8), which are made up of four kanji and used like idioms, are called 四字熟語 (four-character idioms). If you know four-character idioms, you can say simply things that would otherwise take a long explanation or be hard to put into words."
     },
     "page": 202
    },
@@ -593,7 +593,7 @@ TRY.registerUnits([
         "n": "(3)",
         "text": {
          "ja": "トムは最近遅刻が多い。もっと早く家を出るように注意したが、【a. 一石二鳥　b. 馬耳東風】だった。",
-         "tr": "Tom has been late a lot lately. I warned him to leave home earlier, but it went in one ear and out the other."
+         "tr": "Tom has been late a lot lately. I told him he should leave home earlier, but it went in one ear and out the other."
         },
         "options": [
          "a. 一石二鳥",
@@ -947,7 +947,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "深長＝意味などに深みや{含|ふく}み (implication) があること",
-         "tr": "深長 = having depth or implications, in meaning and the like"
+         "tr": "深長 = (of meaning and the like) having depth or implications"
         }
        },
        {
@@ -1098,7 +1098,7 @@ TRY.registerUnits([
         "n": "(5)",
         "text": {
          "ja": "サッカー部員が【a. 一期一会　b. 八方美人　c. 一心同体】で力を合わせてがんばった結果、{優勝|ゆうしょう}する (win the tournament) ことができた。",
-         "tr": "The members of the soccer team pulled together as one, and as a result they were able to win the tournament."
+         "tr": "The members of the soccer team pulled together as one and gave it their all, and as a result they were able to win the tournament."
         },
         "options": [
          "a. 一期一会",
@@ -1111,7 +1111,7 @@ TRY.registerUnits([
         "n": "(6)",
         "text": {
          "ja": "テニスの{対戦|たいせん}相手 (opponent) にマッチポイントを取られた。【a. 言語道断　b. 絶体絶命　c. 前代未聞】の状況だが、まだあきらめたくない。",
-         "tr": "My tennis opponent has reached match point. It's a desperate situation, but I don't want to give up yet."
+         "tr": "My tennis opponent has match point. It's a desperate situation, but I don't want to give up yet."
         },
         "options": [
          "a. 言語道断",
@@ -1177,7 +1177,7 @@ TRY.registerUnits([
     "page": 206,
     "text": {
      "ja": "第8課の読み物2に出てきた「{灯台|とうだい}もと{暗|くら}し」は「ことわざ」です。このことわざの{由来|ゆらい} (derivation) は「灯台（昔の部屋を明るくするための道具）の周りは明るいが、そのすぐ下は暗い」で、意味は「自分のことや身近なことは、気がつきにくい」です。このように、ことわざとは人々の{知恵|ちえ} (wisdom) を短い言葉にしたもので、昔から多くの人によって伝えられてきました。みんなが知っていることわざを使うと、状況を詳しく説明する必要がなくなったり、{説得力|せっとくりょく}のある (persuasive) 主張ができたりします。",
-     "tr": "\"Tōdai moto kurashi\" (\"It is darkest at the foot of the lamp stand\"), which appeared in Reading 2 of Lesson 8, is a kotowaza, a proverb. Its origin is \"The area around a tōdai (a device used long ago to light a room) is bright, but right underneath it, it is dark,\" and its meaning is \"It is hard to notice things about yourself or things close to you.\" In this way, a proverb is a piece of people's wisdom put into a few words, and proverbs have been handed down by many people since long ago. Using a proverb everyone knows can save you from having to explain a situation in detail, or let you make a persuasive argument."
+     "tr": "灯台もと暗し (\"It is darkest at the foot of the lamp stand\"), which appeared in Reading 2 of Lesson 8, is a ことわざ, a proverb. Its origin is \"The area around a 灯台 (a stand used long ago to light a room) is bright, but right underneath it, it is dark,\" and its meaning is \"It is hard to notice things about yourself or things close to you.\" In this way, a proverb is a piece of people's wisdom put into a few words, and proverbs have been passed down by many people since long ago. Using a proverb everyone knows can save you from having to explain a situation in detail, or let you make a persuasive argument."
     }
    },
    {
@@ -1343,7 +1343,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "一時＝少しの時間　聞かぬ＝聞かない",
-         "tr": "ittoki = a short time; kikanu = kikanai (not ask)"
+         "tr": "一時 = a short time; 聞かぬ = 聞かない (not ask)"
         }
        },
        {
@@ -1378,7 +1378,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "〜にしかず＝〜に{勝|か}てない。〜にかなわない (no match for ~)。",
-         "tr": "… ni shikazu = cannot beat …; is no match for …"
+         "tr": "〜にしかず = cannot beat 〜; is no match for 〜"
         }
        },
        {
@@ -1413,7 +1413,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "里＝{距離|きょり}を表す昔の単位 (unit)。ここでは「千里」は、とても遠い距離を表す。",
-         "tr": "ri = an old unit of distance. Here, \"a thousand ri\" means a very long distance."
+         "tr": "里 = an old unit of distance. Here, 千里 (a thousand ri) means a very long distance."
         }
        },
        {
@@ -1440,7 +1440,7 @@ TRY.registerUnits([
           },
           {
            "ja": "どんなに大変なことでも小さなことの{積|つ}み{重|かさ}ね (accumulation) で達成できる。",
-           "tr": "No matter how hard something is, you can achieve it by building up small things."
+           "tr": "No matter how hard something is, you can achieve it by building up small efforts one at a time."
           }
          ]
         ]
@@ -1474,7 +1474,7 @@ TRY.registerUnits([
           },
           {
            "ja": "二度同じようなことがあると、もう一度起こる可能性がある。",
-           "tr": "When something similar happens twice, it may well happen once more."
+           "tr": "When something similar happens twice, it may happen yet again."
           }
          ],
          [
@@ -1540,7 +1540,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "文殊＝{仏教|ぶっきょう}に出てくる文殊{菩薩|ぼさつ} (Manjusri Bodhisattva)。人々に{知恵|ちえ} (wisdom) を与えてくれる。",
-         "tr": "Monju = the bodhisattva Manjushri, who appears in Buddhism and gives people wisdom."
+         "tr": "文殊 = the bodhisattva Manjushri, who appears in Buddhism and gives people wisdom."
         }
        },
        {
@@ -1613,7 +1613,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "三つ子＝三歳の子ども　魂＝性格・気質",
-         "tr": "mitsugo = a three-year-old child; tamashii = personality, temperament"
+         "tr": "三つ子 = a three-year-old child; 魂 = personality, temperament"
         }
        },
        {
@@ -1677,7 +1677,7 @@ TRY.registerUnits([
         "n": "(2)",
         "text": {
          "ja": "先輩たちに留学の{魅力|みりょく}をいろいろ聞いたが、【 a. 石の上にも三年　b. 百聞は一見にしかず　c. 千里の道も一歩から 】と思い留学することにした。",
-         "tr": "I'd heard a lot from my seniors about how great studying abroad is, but thinking that seeing once beats hearing a hundred times, I decided to go abroad myself."
+         "tr": "I'd heard a lot from older students about the appeal of studying abroad, but thinking that seeing once beats hearing a hundred times, I decided to go abroad myself."
         },
         "options": [
          "a. 石の上にも三年",
@@ -1724,7 +1724,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "急がば＝急ぐなら　回れ＝遠回り (detour) しなさい",
-         "tr": "isogaba = if you are in a hurry; maware = take the long way around"
+         "tr": "急がば = if you are in a hurry; 回れ = take the long way around"
         }
        },
        {
@@ -1759,7 +1759,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "させよ＝させなさい",
-         "tr": "saseyo = let (them) do it"
+         "tr": "させよ = させなさい (let them do it)"
         }
        },
        {
@@ -1800,7 +1800,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "情け＝思いやり (consideration) の心　人のためならず＝人のためではない",
-         "tr": "nasake = a considerate heart; hito no tame narazu = is not for the sake of others"
+         "tr": "情け = a considerate heart; 人のためならず = is not for the sake of others"
         }
        },
        {
@@ -1845,7 +1845,7 @@ TRY.registerUnits([
           },
           {
            "ja": "人生は楽しいことだけや、苦しいことだけが続くわけではない。楽ばかりしていれば、後で苦労する。苦労しておけば、後で楽になる。",
-           "tr": "Life isn't a continuous run of only good things or only hard things. If you always take it easy, you'll struggle later. If you put in the hard work now, things will be easier later."
+           "tr": "Life isn't nothing but good times, or nothing but hard times. If you always take it easy, you'll struggle later. If you put in the hard work now, things will be easier later."
           }
          ]
         ]
@@ -1863,7 +1863,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "門＝家　{来|きた}る＝来る",
-         "tr": "kado = house; kitaru = kuru (come)"
+         "tr": "門 = house; 来る (きたる) = 来る (くる, come)"
         }
        },
        {
@@ -1913,7 +1913,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "金棒＝鬼 (ogre) が持つ{鉄|てつ}の棒 (iron rod)",
-         "tr": "kanabō = the iron club an ogre carries"
+         "tr": "金棒 = the iron club an ogre carries"
         }
        },
        {
@@ -1958,7 +1958,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "案ずる＝心配する　易し＝簡単だ",
-         "tr": "anzuru = to worry; yasushi = easy"
+         "tr": "案ずる = to worry; 易し = easy"
         }
        },
        {
@@ -2003,7 +2003,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "知らず＝知らない",
-         "tr": "shirazu = does not know"
+         "tr": "知らず = does not know"
         }
        },
        {
@@ -2038,7 +2038,7 @@ TRY.registerUnits([
         "t": "p",
         "text": {
          "ja": "良薬＝いい{薬|くすり}　苦し＝苦い",
-         "tr": "ryōyaku = good medicine; nigashi = bitter"
+         "tr": "良薬 = good medicine; 苦し = bitter"
         }
        },
        {
