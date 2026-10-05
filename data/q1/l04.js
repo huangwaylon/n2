@@ -4696,7 +4696,7 @@ TRY.registerLesson({
        },
        "answer": {
         "ja": "自分だけ休むのは{同僚|どうりょう}に申し訳ないし、自分がいないとできない仕事があるから、休むと{周|まわ}りに{迷惑|めいわく}がかかると考えるからです。",
-        "tr": "Because they'd feel bad toward their coworkers if they were the only one taking time off, and they think that since there's work that can't get done without them, being away would cause trouble for the people around them."
+        "tr": "Because they'd feel guilty toward their coworkers if they were the only one taking time off, and they think that since there's work that can't get done without them, being away would cause trouble for the people around them."
        }
       },
       {
@@ -4769,7 +4769,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "m",
        "ja": "インターンシップ先の社員の人にどうして長い休みを取らないのか聞いたら、「自分だけ休むのは{同僚|どうりょう}に申し訳ない」とか、「自分がいないとできない仕事があるから、{周|まわ}りに{迷惑|めいわく}がかかる」と言っていました。昔と比べたらずいぶん休みが取りやすくなったそうですが、たいていの人は1日の休みを時々取るだけだそうです。長い休みを取れ__ば__家族とゆっくり__旅行できるのに__、と思いますが、日本ではプライベートより仕事を優先する人が多いようです。",
-       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel bad toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
+       "tr": "When I asked the employees at the company where I interned why they don't take long vacations, they said things like, “I'd feel guilty toward my coworkers if I were the only one taking time off,” and “There's work that can't get done without me, so it would cause trouble for the people around me.” I hear it's become much easier to take time off compared with the past, but most people apparently just take a day off now and then. I think, “If only they took long vacations, they could enjoy relaxing trips with their families,” but it seems that in Japan many people put work ahead of their private lives."
       },
       {
        "sp": "",
