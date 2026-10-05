@@ -21,7 +21,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["げんがい", "けんかい", "げんけい"],
     book: { ja: "{医療|いりょう}設備やスタッフの数からして、対応に**限界**があるでしょう。", en: "The medical equipment and the number of staff alone would surely limit what they can handle.", at: "ch/9" },
     ex: [
-      { ja: "{三日|みっか}{連続|れんぞく}の{徹夜|てつや}で、{体力|たいりょく}はもう**{限界|げんかい}**だ。", en: "After staying up all night three nights in a row, I'm at the end of my strength.", alt: ["{限定|げんてい}", "{境界|きょうかい}", "{世界|せかい}"] },
+      { ja: "{三日|みっか}{連続|れんぞく}の{徹夜|てつや}で、{体力|たいりょく}はもう**{限界|げんかい}**だ。", en: "After staying up all night three nights in a row, I've hit my physical limit.", alt: ["{限定|げんてい}", "{境界|きょうかい}", "{世界|せかい}"] },
     ] },
   { w: "{重傷|じゅうしょう}", lv: "N1", pos: "noun",
     en: "serious injury; severe wound",
@@ -117,7 +117,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["うけどめる", "うけやめる", "じゅけとめる"],
     book: { ja: "私たちも{冷静|れいせい}に**受け止め**なければならないことがよくわかりました。", en: "I understand now that this is something the rest of us must also accept calmly.", at: "ch/9" },
     ex: [
-      { ja: "{会社|かいしゃ}は{利用者|りようしゃ}からの{苦情|くじょう}を{重|おも}く**{受|う}け{止|と}めて**いる。", en: "The company is taking the complaints from users seriously.", alt: ["{受|う}け{付|つ}けて", "{引|ひ}き{止|と}めて", "{受|う}け{持|も}って"] },
+      { ja: "{会社|かいしゃ}は{利用者|りようしゃ}からの{苦情|くじょう}を{重|おも}く**{受|う}け{止|と}めて**いる。", en: "The company is taking the complaints from users seriously.", alt: ["{受|う}け{流|なが}して", "{引|ひ}き{止|と}めて", "{受|う}け{持|も}って"] },
     ] },
   { w: "{退出|たいしゅつ}", lv: "N1", pos: "noun · する verb",
     en: "leaving (a room, venue or meeting); exit",
@@ -125,10 +125,10 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["たいしゅっ", "たいでる", "だいしゅつ"],
     book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に**{退出|たいしゅつ}**させるには{人手|ひとで}が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
     ex: [
-      { ja: "{会議|かいぎ}の{途中|とちゅう}で{部長|ぶちょう}に{呼|よ}ばれ、{静|しず}かに**{退出|たいしゅつ}**した。", en: "I was called by the department head partway through the meeting and quietly left the room.", alt: ["{提出|ていしゅつ}", "{輸出|ゆしゅつ}", "{退化|たいか}"] },
+      { ja: "{会議|かいぎ}の{途中|とちゅう}で{部長|ぶちょう}に{呼|よ}ばれ、{静|しず}かに**{退出|たいしゅつ}**した。", en: "Partway through the meeting, I was called away by the department head and quietly left the room.", alt: ["{提出|ていしゅつ}", "{輸出|ゆしゅつ}", "{退化|たいか}"] },
     ] },
   { w: "{人手|ひとで}", lv: "N2", pos: "noun",
-    en: "workers; hands, manpower; (someone else's) hands",
+    en: "hands, manpower, help (people to do the work); other people's hands (ownership)",
     note: "The people available to do a job: 人手が足りない (be short-handed), 人手不足 (labor shortage). 人手に渡る means to pass into someone else's hands. Don't confuse it with 人出 (ひとで, the crowds turning out for an event).",
     rx: ["にんて", "じんしゅ", "ひとて"],
     book: { ja: "{災害時|さいがいじ}、3,000人からいる観客を、安全に{退出|たいしゅつ}させるには**{人手|ひとで}**が足りない。", en: "In a disaster, there aren't enough staff to get an audience of as many as 3,000 people out safely.", at: "gp/107" },
@@ -293,7 +293,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["きょうぐ", "けいぐう", "きょうこう"],
     book: { ja: "同じ**{境遇|きょうぐう}**でも考えようによって、幸せだと感じることができるものだよ。", en: "Even in the same circumstances, you can still feel happy; it's all in how you look at things.", at: "gp/110" },
     ex: [
-      { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He started working to support children who are in the same circumstances he was.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
+      { ja: "{彼|かれ}は{自分|じぶん}と{同|おな}じ**{境遇|きょうぐう}**の{子|こ}どもたちを{支援|しえん}する{活動|かつどう}を{始|はじ}めた。", en: "He began working to support children in the same circumstances as his own.", alt: ["{境界|きょうかい}", "{遭遇|そうぐう}", "{国境|こっきょう}"] },
     ] },
   { w: "{情報化|じょうほうか}", lv: "N1", pos: "noun",
     en: "computerization; the spread of information technology",
@@ -309,7 +309,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["かたい", "かだ", "がだい"],
     book: { ja: "情報化が進む現代＿＿、いかに個人情報を守るかは大切な**{課題|かだい}**の1つとなっている。", en: "In today's increasingly information-driven age, how to protect personal information has become one of the key issues.", at: "ch/9" },
     ex: [
-      { ja: "{新製品|しんせいひん}はよく{売|う}れているが、{価格|かかく}の{高|たか}さが{今後|こんご}の**{課題|かだい}**だ。", en: "The new product is selling well, but its high price is the next issue to tackle.", alt: ["{話題|わだい}", "{題名|だいめい}", "{主題|しゅだい}"] },
+      { ja: "{新製品|しんせいひん}はよく{売|う}れているが、{価格|かかく}の{高|たか}さが{今後|こんご}の**{課題|かだい}**だ。", en: "The new product is selling well, but the high price is the challenge that remains.", alt: ["{話題|わだい}", "{題名|だいめい}", "{主題|しゅだい}"] },
     ] },
   { w: "たどり{着|つ}く", lv: "N1", pos: "godan verb",
     en: "to (finally) reach, arrive at (after a hard journey)",
@@ -333,7 +333,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ひょうはん", "へいばん", "ひょうぱん"],
     book: { ja: "このスキャンダルは、会社の**評判**＿＿から、適切な対応が必要です。", en: "This scandal puts the company's reputation at stake, so it needs to be handled appropriately.", at: "ch/9" },
     ex: [
-      { ja: "{駅前|えきまえ}に{新|あたら}しくできたパン{屋|や}は、おいしいと**{評判|ひょうばん}**だ。", en: "The new bakery in front of the station has a reputation for being delicious.", alt: ["{評価|ひょうか}", "{批判|ひはん}", "{判断|はんだん}"] },
+      { ja: "{駅前|えきまえ}に{新|あたら}しくできたパン{屋|や}は、おいしいと**{評判|ひょうばん}**だ。", en: "People say the new bakery in front of the station is really good.", alt: ["{評価|ひょうか}", "{批判|ひはん}", "{判断|はんだん}"] },
     ] },
   { w: "{買|か}い{手|て}", lv: "N1", pos: "noun",
     en: "buyer; purchaser",
@@ -344,7 +344,7 @@ TRY.registerVocab({ ch: 9, words: [
       { ja: "{古|ふる}い{家|いえ}なので、なかなか**{買|か}い{手|て}**が{見|み}つからない。", en: "It's an old house, so finding a buyer isn't easy.", alt: ["{売|う}り{手|て}", "{書|か}き{手|て}", "{聞|き}き{手|て}"] },
     ] },
   { w: "{解釈|かいしゃく}", lv: "N2", pos: "noun · する verb",
-    en: "interpretation; construal",
+    en: "interpretation; (one's) reading (of something)",
     note: "How one understands the meaning of words, a text, law or behavior: 解釈が分かれる (interpretations differ), 好意的に解釈する, 法の解釈. 解説 is an explanation given to others; 解釈 is one's understanding of what something means.",
     rx: ["かいせき", "かいじゃく", "げしゃく"],
     book: { ja: "この小説はとらえ（　）、さまざまな**{解釈|かいしゃく}**が成り立つと言われている。", en: "This novel is said to be open to a variety of interpretations, depending on how you read it.", at: "ch/9/review" },
@@ -389,7 +389,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["しゅうりゅう", "しゅる", "おもりゅう"],
     book: { ja: "この学校は、着物が**{主流|しゅりゅう}**だった", en: "This school, (in an era when) kimono were the norm", at: "ch/9/review" },
     ex: [
-      { ja: "{最近|さいきん}は、{現金|げんきん}よりもスマホでの{支払|しはら}いが**{主流|しゅりゅう}**になりつつある。", en: "These days, paying by smartphone is becoming the norm rather than cash.", alt: ["{交流|こうりゅう}", "{上流|じょうりゅう}", "{一流|いちりゅう}"] },
+      { ja: "{最近|さいきん}は、{現金|げんきん}よりもスマホでの{支払|しはら}いが**{主流|しゅりゅう}**になりつつある。", en: "These days, paying by smartphone is overtaking cash as the norm.", alt: ["{交流|こうりゅう}", "{上流|じょうりゅう}", "{一流|いちりゅう}"] },
     ] },
   { w: "{洋装|ようそう}", lv: "N1", pos: "noun",
     en: "Western(-style) clothes, dress",
@@ -405,7 +405,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["とりはいれる", "しゅいれる", "とりいる"],
     book: { ja: "制服に{洋装|ようそう}を**取り入れた**。", en: "adopted Western-style dress for its uniform.", at: "ch/9/review" },
     ex: [
-      { ja: "{店長|てんちょう}は{客|きゃく}の{意見|いけん}を**{取|と}り{入|い}れて**、メニューを{変|か}えた。", en: "The manager took the customers' opinions on board and changed the menu.", alt: ["{取|と}り{消|け}して", "{取|と}り{押|お}さえて", "{取|と}り{除|のぞ}いて"] },
+      { ja: "{店長|てんちょう}は{客|きゃく}の{意見|いけん}を**{取|と}り{入|い}れて**、メニューを{変|か}えた。", en: "The manager took customers' feedback into account and changed the menu.", alt: ["{取|と}り{消|け}して", "{取|と}り{押|お}さえて", "{取|と}り{除|のぞ}いて"] },
     ] },
   { w: "{金庫|きんこ}", lv: "N2", pos: "noun",
     en: "safe; strongbox; vault",
@@ -417,7 +417,7 @@ TRY.registerVocab({ ch: 9, words: [
     ] },
   { w: "{火事場|かじば}の{馬鹿力|ばかぢから}", lv: "N1", pos: "expression",
     en: "superhuman strength in an emergency",
-    note: "A proverb-like phrase: in a crisis, people find strength they never knew they had (literally “the crazy strength at the scene of a fire”). Casual to neutral; used humorously too: 締め切り前の火事場の馬鹿力. 馬鹿力 alone means brute strength and is rude if aimed at someone.",
+    note: "A proverb-like phrase: in a crisis, people find strength they never knew they had (literally “the crazy strength at the scene of a fire”). Casual to neutral; used humorously too: 締め切り前の火事場の馬鹿力. 馬鹿力 alone means brute strength and can sound rude if aimed at someone.",
     rx: ["かじじょうのばかぢから", "かじばのばかりき", "かじばのばかちから"],
     book: { ja: "「**{火事場|かじば}の{馬鹿力|ばかぢから}**」というもので、仕事においても{時|とき}に同じようなことが起きる。", en: "This is what is called 火事場の馬鹿力 (superhuman strength in an emergency), and something similar sometimes happens at work too.", at: "ch/9/review" },
     ex: [
@@ -437,7 +437,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["しいれつ", "しょくれつ", "しれい"],
     book: { ja: "しかし、人を働かせる側は無理があると知りつつも、**{熾烈|しれつ}**な競争に勝つべくこの{領域|りょういき}にまで{踏|ふ}み{込|こ}んだ力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
-      { ja: "スマホ{市場|しじょう}では、{各社|かくしゃ}の**{熾烈|しれつ}**な{競争|きょうそう}が{続|つづ}いている。", en: "In the smartphone market, fierce competition among the makers continues.", alt: ["{鮮烈|せんれつ}", "{熱烈|ねつれつ}", "{痛烈|つうれつ}"] },
+      { ja: "スマホ{市場|しじょう}では、{各社|かくしゃ}の**{熾烈|しれつ}**な{競争|きょうそう}が{続|つづ}いている。", en: "In the smartphone market, the companies remain locked in fierce competition.", alt: ["{鮮烈|せんれつ}", "{熱烈|ねつれつ}", "{痛烈|つうれつ}"] },
     ] },
   { w: "{領域|りょういき}", lv: "N1", pos: "noun",
     en: "domain; field; territory, realm",
@@ -453,7 +453,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["ふみごむ", "とうみこむ", "ふみいむ"],
     book: { ja: "しかし、人を働かせる側は無理があると知りつつも、{熾烈|しれつ}な競争に勝つべくこの{領域|りょういき}にまで**{踏|ふ}み{込|こ}んだ**力を労働者に{常時|じょうじ}求めるきらいがある。", en: "Yet those who put others to work, though they know it is too much to ask, tend to demand constantly that workers exert a strength reaching into this emergency territory, in order to win in cutthroat competition.", at: "ch/9/review" },
     ex: [
-      { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion even got into the budget issue.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{踏|ふ}み{切|き}った"] },
+      { ja: "{会議|かいぎ}では、{予算|よさん}の{問題|もんだい}にまで**{踏|ふ}み{込|こ}んだ**{議論|ぎろん}が{行|おこな}われた。", en: "At the meeting, the discussion went so far as to get into budget issues.", alt: ["{踏|ふ}み{外|はず}した", "{落|お}ち{込|こ}んだ", "{冷|ひ}え{込|こ}んだ"] },
     ] },
   { w: "{常時|じょうじ}", lv: "N1", pos: "noun · adverb",
     en: "always; at all times; constantly",
@@ -509,7 +509,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["そんねる", "そこなる", "そぎねる"],
     book: { ja: "労働者が心身の健康を**{損|そこ}ね**、", en: "workers will damage their physical and mental health,", at: "ch/9/review" },
     ex: [
-      { ja: "{余計|よけい}な{一言|ひとこと}で、{取引先|とりひきさき}の{機嫌|きげん}を**{損|そこ}ねて**しまった。", en: "One unnecessary remark put our client in a bad mood.", alt: ["{直|なお}して", "{取|と}り{戻|もど}して", "{見逃|みのが}して"] },
+      { ja: "{余計|よけい}な{一言|ひとこと}で、{取引先|とりひきさき}の{機嫌|きげん}を**{損|そこ}ねて**しまった。", en: "I said one thing too many and ended up offending our client.", alt: ["{直|なお}して", "{取|と}り{戻|もど}して", "{見逃|みのが}して"] },
     ] },
   { w: "{長続|ながつづ}き", lv: "N2", pos: "noun · する verb",
     en: "lasting (a long time); keeping something up",
@@ -533,7 +533,7 @@ TRY.registerVocab({ ch: 9, words: [
     rx: ["したまえる", "しもまわる", "げまわる"],
     book: { ja: "{往々|おうおう}にしてもともとの生産性をも**{下回|したまわ}って**しまうのである。", en: "productivity often ends up falling even below its original level.", at: "ch/9/review" },
     ex: [
-      { ja: "{今年|ことし}の{米|こめ}の{収穫量|しゅうかくりょう}は、{例年|れいねん}を**{下回|したまわ}った**。", en: "This year's rice harvest fell below that of an average year.", alt: ["{下|さ}がった", "{見回|みまわ}った", "{出回|でまわ}った"] },
+      { ja: "{今年|ことし}の{米|こめ}の{収穫量|しゅうかくりょう}は、{例年|れいねん}を**{下回|したまわ}った**。", en: "This year's rice harvest was below average.", alt: ["{下|さ}がった", "{見回|みまわ}った", "{出回|でまわ}った"] },
     ] },
   { w: "{倣|なら}う", lv: "N1", pos: "godan verb",
     en: "to follow (an example); to imitate, model on",
