@@ -79,7 +79,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "appearance, the way one is dressed; attire",
     note: "Clothes and grooming as others see them: 身なりを整える (tidy oneself up), 身なりのいい紳士 (a well-dressed gentleman). 服装 is just the clothing; 身なり takes in one's whole neat (or shabby) look.",
     rx: ["しんなり", "みのなり", "みいなり"],
-    book: { ja: "おかげで男の**{身|み}なり**も家も、{見違|みちが}えるようにきれいになった。", en: "Thanks to her, the man's appearance and his house both became so clean you'd hardly recognize them.", at: "ch/3" },
+    book: { ja: "おかげで男の**{身|み}なり**も家も、{見違|みちが}えるようにきれいになった。", en: "Thanks to her, the man looked so neat and his house was so clean that you'd hardly recognize either one.", at: "ch/3" },
     ex: [
       { ja: "{面接|めんせつ}の前に、{鏡|かがみ}で**{身|み}なり**を{整|ととの}えた。", en: "Before the interview, I tidied myself up in front of the mirror.", alt: ["{身|み}ぶり", "{身元|みもと}", "{身内|みうち}"] },
     ] },
@@ -87,7 +87,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to hardly recognize (something changed, usually for the better); to mistake for something else",
     note: "Mostly in 見違えるように / 見違えるほど (changed beyond recognition): 見違えるほどきれいになった. The sense 'mistake A for B' exists, but 見間違える is the usual word for that.",
     rx: ["みちかえる", "みまちがえる", "けんちがえる"],
-    book: { ja: "おかげで男の身なりも家も、**{見違|みちが}える**ようにきれいになった。", en: "Thanks to her, the man's appearance and his house both became so clean you'd hardly recognize them.", at: "ch/3" },
+    book: { ja: "おかげで男の身なりも家も、**{見違|みちが}える**ようにきれいになった。", en: "Thanks to her, the man looked so neat and his house was so clean that you'd hardly recognize either one.", at: "ch/3" },
     ex: [
       { ja: "{数年|すうねん}ぶりに会ったいとこは、**{見違|みちが}える**ほど大人っぽくなっていた。", en: "My cousin, whom I hadn't seen in years, had grown up so much I hardly recognized them.", alt: ["{見慣|みな}れる", "{見送|みおく}る", "{見上|みあ}げる"] },
     ] },
@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to become completely absorbed in, to get hooked on",
     note: "Stronger than 夢中になる, often with a hint of excess: ギャンブルにのめり込む, 研究にのめり込む. 打ち込む (devote oneself to) is purely positive; のめり込む can be neutral or worrying.",
     rx: ["のめりごむ", "のめりいむ", "のめりかむ"],
-    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "Unconcerned that friends are starting their job hunts, Yamada is completely wrapped up in club activities.", at: "gp/17" },
+    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "Paying no mind as their friends start job hunting, Yamada is completely wrapped up in club activities.", at: "gp/17" },
     ex: [
       { ja: "彼は大学時代に{演劇|えんげき}に**のめり{込|こ}み**、授業にほとんど出なかった。", en: "In college he got so wrapped up in theater that he hardly went to class.", alt: ["{割|わ}り{込|こ}み", "{申|もう}し{込|こ}み", "{冷|ひ}え{込|こ}み"] },
     ] },
@@ -213,7 +213,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "a definite conclusion; to conclude, to state conclusively",
     note: "Formal: 断定はできない (we can't say for certain), 犯人と断定する, 断定的な言い方 (a categorical way of speaking). 断言 is asserting something in words; 断定 is reaching a firm judgment.",
     rx: ["だんじょう", "たんてい", "だんてん"],
-    book: { ja: "彼が犯人だという{証拠|しょうこ}はないでもないが、まだ**{断定|だんてい}**はできない。", en: "It's not that there's no evidence he's the culprit, but we can't say so definitively yet.", at: "gp/19" },
+    book: { ja: "彼が犯人だという{証拠|しょうこ}はないでもないが、まだ**{断定|だんてい}**はできない。", en: "It's not that there's no evidence he's the culprit, but we can't say for certain yet.", at: "gp/19" },
     ex: [
       { ja: "警察は火事の原因を{放火|ほうか}と**{断定|だんてい}**した。", en: "The police concluded that the fire was arson.", alt: ["{断念|だんねん}", "{設定|せってい}", "{否定|ひてい}"] },
     ] },
@@ -387,7 +387,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "candidacy; to run for (office), to stand as a candidate",
     note: "選挙に立候補する, 市長に立候補する; also volunteering for a role: 学級委員に立候補する. 候補 alone is 'candidate'; 当選 is winning the election.",
     rx: ["りつこうほ", "たちこうほ", "りっこうほう"],
-    book: { ja: "100年前の女性たちには、{選挙|せんきょ}に**{立候補|りっこうほ}**する権利＿＿、{投票|とうひょう}する権利さえなかった。", en: "A hundred years ago, women didn't even have the right to vote, let alone the right to stand for election.", at: "ch/3" },
+    book: { ja: "100年前の女性たちには、{選挙|せんきょ}に**{立候補|りっこうほ}**する権利＿＿、{投票|とうひょう}する権利さえなかった。", en: "A hundred years ago, women didn't even have the right to vote, let alone the right to run for office.", at: "ch/3" },
     ex: [
       { ja: "彼女は次の{市長|しちょう}選挙に**{立候補|りっこうほ}**することを{表明|ひょうめい}した。", en: "She announced that she would run in the next mayoral election.", alt: ["{推薦|すいせん}", "{当選|とうせん}", "{就任|しゅうにん}"] },
     ] },
@@ -515,7 +515,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to chant, to recite (a spell or prayer); to advocate, to put forward (a view)",
     note: "Two uses: 呪文 / お経を唱える (recite), and 異議を唱える (raise an objection), 新説を唱える (advocate a new theory). The second is formal written style.",
     rx: ["となる", "しょうえる", "うたえる"],
-    book: { ja: "{魔法|まほう}使いが{呪文|じゅもん}を**{唱|とな}える**が早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "The wizard had barely chanted the spell when the prince turned into a frog in an instant.", at: "gp/30" },
+    book: { ja: "{魔法|まほう}使いが{呪文|じゅもん}を**{唱|とな}える**が早いか、{王子|おうじ}はたちまち{蛙|かえる}に変わった。", en: "The wizard had barely chanted the spell when, in a flash, the prince turned into a frog.", at: "gp/30" },
     ex: [
       { ja: "彼はその計画に{真|ま}っ{向|こう}から{異議|いぎ}を**{唱|とな}えた**。", en: "He flatly objected to the plan.", alt: ["{称|たた}えた", "{整|ととの}えた", "{与|あた}えた"] },
     ] },
