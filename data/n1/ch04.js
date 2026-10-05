@@ -14,8 +14,8 @@ TRY.registerChapter({
         lines: [
           { ja: "会社では、さまざまな人が働いていますが、{一人前|いちにんまえ}の社会人**ともなると**、当然{嫌|きら}いな人とも付き合わなくてはなりません。", en: "All sorts of people work at a company, and once you're a full-fledged working adult, you naturally have to deal with people you don't like as well." },
           { cont: true, ja: "そのため気楽な学生時代**にひきかえ**、多くのストレスを{抱|かか}えることになるでしょう。", en: "That is why, unlike in your carefree student days, you are likely to find yourself under a lot of stress." },
-          { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among people's reasons for quitting a company, the nature of the work and issues of pay and conditions certainly play a part, but “relationships with people” always rank near the top." },
-          { cont: true, ja: "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**、仕事を進めるうえでは人間関係は非常に大切です。", en: "Whether it is your relationship with your boss or with your colleagues and juniors, relationships with people are extremely important in getting your work done." },
+          { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題**もさることながら**、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list." },
+          { cont: true, ja: "上司との関係**であれ**、{同僚|どうりょう}や{後輩|こうはい}との関係**であれ**、仕事を進めるうえでは人間関係は非常に大切です。", en: "Whether it is your relationship with your boss or with your colleagues and juniors, getting along with people is extremely important in getting your work done." },
           { ja: "特に{新人|しんじん}のみなさんにとって、上司との関係をよくしておくことは重要です。", en: "For those of you who are new to the company in particular, it is important to build a good relationship with your boss." },
           { cont: true, ja: "仕事上、何か問題が起これば、現状**に{即|そく}した**対応が求められます。", en: "When a problem comes up at work, you are expected to respond in a way that fits the situation at hand." },
           { cont: true, ja: "そんなとき、上司の指示を{仰|あお}ぐことが必要だからです。", en: "That is because at such times you need to ask your boss for instructions." },
@@ -37,7 +37,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "総理大臣ともなると、その{言動|げんどう}の1つ1つが大きな{影響|えいきょう}を与える。", en: "When you're the prime minister, every single thing you say and do has a big impact." },
-            { ja: "そこは{一見|いっけん}目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It doesn't look like much at first glance, but it's a famous ramen shop, and come lunchtime, crowds of customers line up outside." },
+            { ja: "そこは{一見|いっけん}目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It doesn't look like much at first glance, but it's a famous ramen shop, and come lunchtime, crowds of customers line up." },
             { ja: "普段はスポーツに関心のない人も、オリンピックともなれば夢中でテレビにかじりつく。", en: "Even people who normally have no interest in sports are glued to the TV once the Olympics come around." },
             { ja: "工場を建てかえるともなると、億単位の金がかかる。", en: "When it comes to rebuilding a factory, the cost runs into hundreds of millions of yen." },
           ],
@@ -102,12 +102,12 @@ TRY.registerChapter({
             { ja: "＊「[なA]／[N]である + の + にひきかえ」の形もある。", en: "The form “なA / N である + の + にひきかえ” also exists." },
           ],
           examples: [
-            { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、{続編|ぞくへん}は100万人にも届かなかったそうだ。", en: "With that movie, whereas the original drew more than 2.5 million viewers, I hear the sequel didn't even reach one million." },
+            { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、{続編|ぞくへん}は100万人にも届かなかったそうだ。", en: "I hear that the first film in that series drew more than 2.5 million viewers, but the sequel, by contrast, didn't even reach one million." },
             { ja: "父親の{死後|しご}、2人の兄が家や土地をもらったのにひきかえ、{末|すえ}の弟に残されたのはなぜか1冊の古いノートだけだった。", en: "After their father died, the two elder brothers got the house and the land, whereas the youngest brother, for some reason, was left with nothing but a single old notebook." },
             { ja: "{災害時|さいがいじ}、{迅速|じんそく}に対応した民間団体にひきかえ、政府は対応の遅れが目立った。", en: "During the disaster, private organizations responded swiftly; the government, by contrast, was conspicuously slow to act." },
-            { ja: "{佐藤|さとう}君の作品が{独創的|どくそうてき}であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and uninspired." },
+            { ja: "{佐藤|さとう}君の作品が{独創的|どくそうてき}であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Sato's work is original, while Yamashita's is ordinary and uninspired." },
           ],
-          deepDive: "**〜にひきかえ** sets two things of the same kind side by side and stresses that they are opposites, usually with a judgment: one side is praised, the other criticized or pitied. 父親の死後、2人の兄が家や土地をもらったのにひきかえ、末の弟に残されたのは1冊の古いノートだけだった (*the two elder brothers got the house and land, whereas the youngest was left only an old notebook*).\n\nConnection: a noun attaches directly (学生時代にひきかえ); a clause takes の (超えたのにひきかえ); a な-adjective takes な or である before の. It is written and subjective, and the second half describes the other party; it is not a request or an intention.\n\nCompare:\n- **〜に対して**: neutral contrast of facts: 東日本は晴れなのに対して、西日本は雨だ (*the east is sunny, while the west has rain*). にひきかえ sounds odd here because nothing is being judged.\n- **〜反面** (N2 level): two sides of *one* thing: 給料がいい反面、休みが少ない (*it pays well, but there's little time off*).\n- **〜一方（で）** (N2 level): contrasts two parties neutrally.\n\nPitfall: ✗兄なのにひきかえ; with a noun, drop both だ and の (丈夫な兄にひきかえ), or use である (兄であるのにひきかえ).\n\nJLPT cue: two parallel subjects with opposite evaluations, and a noun or a plain form + の before the blank → にひきかえ.",
+          deepDive: "**〜にひきかえ** sets two things of the same kind side by side and stresses that they are opposites, usually with a judgment: one side is praised, the other criticized or pitied. 父親の死後、2人の兄が家や土地をもらったのにひきかえ、末の弟に残されたのは1冊の古いノートだけだった (*the two elder brothers got the house and land, whereas the youngest was left only an old notebook*).\n\nConnection: a noun attaches directly (学生時代にひきかえ); a clause takes の (超えたのにひきかえ); a な-adjective takes な or である before の. It is written and subjective, and the second half describes the other party; it is not a request or an intention.\n\nCompare:\n- **〜に対して**: neutral contrast of facts: 東日本は晴れなのに対して、西日本は雨だ (*the east is sunny, while the west has rain*). にひきかえ sounds odd here because nothing is being judged.\n- **〜反面** (N2 level): two sides of *one* thing: 給料がいい反面、休みが少ない (*it pays well, but there's little time off*).\n- **〜一方（で）** (N2 level): contrasts two parties neutrally.\n\nPitfall: a bare noun can't take の here (✗兄のにひきかえ); attach the noun directly (丈夫な兄にひきかえ) or use である (兄であるのにひきかえ).\n\nJLPT cue: two parallel subjects with opposite evaluations, and a noun or a plain form + の before the blank → にひきかえ.",
           see: [],
           index: ["〜にひきかえ", "のにひきかえ", "Nにひきかえ"],
           practice: [],
@@ -121,9 +121,9 @@ TRY.registerChapter({
           usage: { ja: "「〜もさることながら…」は「この車はデザインもさることながら、性能もいい」のように「〜だけでなく…も」と言いたいときに使われる。「車選びはデザインもさることながら、安全性を{重視|じゅうし}すべきだ」のように「〜も大切だが…はもっと重要だ」と言いたいときにも使う。", en: "“〜もさることながら…” is used when you want to say “not only 〜 but also …”, as in “この車はデザインもさることながら、性能もいい” (Not only is this car well designed, it performs well too). It is also used when you want to say “〜 is important too, but … is even more important”, as in “車選びはデザインもさることながら、安全性を重視すべきだ” (When choosing a car, design matters, of course, but safety should come first)." },
           forms: ["[N] + もさることながら"],
           examples: [
-            { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, you need not only to drink enough fluids but also to take in a moderate amount of salt and other minerals." },
+            { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, drinking enough fluids is important, of course, but you also need to take in a moderate amount of salt and other minerals." },
             { ja: "{少子化|しょうしか}の原因は、{晩婚化|ばんこんか}もさることながら、教育費の負担の大きさにもある。", en: "The declining birthrate is caused not only by people marrying later but also by the heavy burden of education costs." },
-            { ja: "学生{街|がい}のレストランは味もさることながら、量が多いことが第一条件だと言わる。", en: "They say that for a restaurant in a student district, taste matters, of course, but the number one requirement is big portions." },
+            { ja: "学生{街|がい}のレストランは味もさることながら、量が多いことが第一条件だと言わる。", en: "They say that for a restaurant in a college neighborhood, taste matters, of course, but the number one requirement is big portions." },
           ],
           deepDive: "**〜もさることながら** acknowledges A as important or obvious, then moves the weight to B: *A, of course, but (even more) B*. Classical さる (*being so*) + ながら gives *while A is certainly so*. The book gives two readings: plain addition, *not only A but also B* (この車はデザインもさることながら、性能もいい *not only is this car well designed, it performs well too*), and *A matters, but B matters more* (車選びはデザインもさることながら、安全性を重視すべきだ *when choosing a car, design matters, but safety should come first*).\n\nConnection: N + もさることながら; the も is part of the pattern. It is formal and written, and A is acknowledged, never dismissed.\n\nCompare:\n- **〜はもとより / 〜はもちろん** (N2 level): *A, of course, and B too*, addition without shifting the weight to B.\n- **〜はおろか** (#24): *not even B, let alone A*, in negative sentences; もさることながら is affirmative.\n- **〜にもまして** (#4): an explicit ranking, *even more than A*: 以前にもまして忙しい (*busier than ever*).\n\nPitfall: putting the point you want to stress before もさることながら reverses the meaning.\n\nJLPT cue: in ordering questions the pattern often splits into 「Nも」＋「さることながら」.",
           see: [4, 24],
@@ -166,9 +166,9 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "犬であれ猫であれ、このマンションでペットを{飼|か}うことは禁止されています。", en: "Whether it's a dog or a cat, keeping pets in this apartment building is prohibited." },
-            { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're quoting from a paper or a letter, you must take copyright into account." },
+            { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're writing a paper or a letter, you must take copyright into account when you quote." },
             { ja: "結果が2位であれ3位であれ、{頑張|がんば}った{成果|せいか}は評価されるべきだろう。", en: "Whether you finish second or third, what you achieved through your hard work ought to be recognized." },
-            { ja: "このウォーターカッターを使えば、コンクリートであれ何であれ、切れないものはない。", en: "With this water cutter, there's nothing you can't cut, be it concrete or anything else." },
+            { ja: "このウォーターカッターを使えば、コンクリートであれ何であれ、切れないものはない。", en: "With this water-jet cutter, there's nothing you can't cut, concrete or otherwise." },
           ],
           notes: [
             {
@@ -181,7 +181,7 @@ TRY.registerChapter({
               ],
             },
           ],
-          deepDive: "**AであれBであれ** is the formal, written form of AでもBでも: *whether A or B, the same holds*. The two nouns are representative examples, and the conclusion applies to them and to anything of that kind: 犬であれ猫であれ、このマンションでペットを飼うことは禁止されています (*whether it's a dog or a cat, pets are not allowed in this building*). であれ is an old imperative of である: *be it A, be it B*.\n\nN₂ can be a question word (コンクリートであれ何であれ), and a single question word + であれ means *no matter what / where / who*: たとえどんな理由であれ、暴力は許されない (*whatever the reason, violence can't be tolerated*). The second half is a rule, a duty or a general judgment, not an account of events.\n\nCompare:\n- **〜にしろ〜にしろ** (N2 level): the same meaning, a little less stiff.\n- **〜といい〜といい** (#44): two features that support a verdict on one subject; であれ says the result doesn't change.\n- **〜（よ）うが〜まいが** (#79): the verb version, *whether one does it or not*.\n\nPitfall: using であれ to list what one did; a plain list takes やら or とか.\n\nJLPT cue: if the sentence ends in a rule or advice (…なければならない, …べきだ, …ほうがいい), choose であれ.",
+          deepDive: "**AであれBであれ** is the formal, written form of AでもBでも: *whether A or B, the same holds*. The two nouns are representative examples, and the conclusion applies to them and to anything of that kind: 犬であれ猫であれ、このマンションでペットを飼うことは禁止されています (*whether it's a dog or a cat, pets are not allowed in this building*). であれ is an old imperative of である: *be it A, be it B*.\n\nN₂ can be a question word (コンクリートであれ何であれ), and a single question word + であれ means *no matter what / where / who*: たとえどんな理由であれ、暴力は許されない (*whatever the reason, violence can't be tolerated*). The second half is a rule, a duty or a general judgment, not an account of events.\n\nCompare:\n- **〜にしろ〜にしろ** (N2 level): the same meaning, a little less stiff.\n- **〜といい〜といい** (#44): two features that support a verdict on one subject; であれ says the result doesn't change.\n- **〜（よ）うが〜まいが** (#79): the verb version, *whether one does it or not*.\n\nPitfall: using であれ to list what one did; a plain list takes やら or とか.\n\nJLPT cue: two nouns or a question word before the blanks and a rule or advice at the end (…なければならない, …べきだ, …ほうがいい) → であれ.",
           see: [44, 21, 54, 79],
           index: ["N₁であれN₂であれ", "NであれNであれ", "疑問詞＋であれ", "であれ"],
           practice: [
@@ -296,7 +296,7 @@ TRY.registerChapter({
             { ja: "{有利|ゆうり}な条件で{転職|てんしょく}するなら、景気が{好転|こうてん}している今をおいて他にない。", en: "If you want to change jobs on favorable terms, now, while the economy is picking up, is the only time to do it." },
             { ja: "経営{戦略論|せんりゃくろん}を学ぶとしたら、この大学のビジネススクールをおいて他にないと思うよ。", en: "If you're going to study management strategy, I'd say this university's business school is the only place to do it." },
             { ja: "地球の{生態系|せいたいけい}を{保全|ほぜん}し、環境を守ることができるのは、人類をおいて他にない。", en: "The only ones who can conserve the Earth's ecosystems and protect the environment are human beings." },
-            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president." },
+            { ja: "{次期|じき}社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president." },
           ],
           notes: [
             {
@@ -328,7 +328,7 @@ TRY.registerChapter({
                   q: "もうすぐ雪がちらつき始める。{渡|わた}り{鳥|どり}が南へ向かうのは、今（　）ない。",
                   options: ["をおいて", "なしには"],
                   answer: 0,
-                  en: "Snow will soon start to flurry. Now is the only time for the migrating birds to head south.",
+                  en: "Snow flurries will be starting soon. For the migrating birds, now is the only time to head south.",
                   why: { en: "今をおいてない = now is the only time (をおいて他にない with 他に dropped). なしには (without) makes no sense with 今." },
                 },
                 {
@@ -406,8 +406,8 @@ TRY.registerChapter({
           examples: [
             { ja: "{遠方|えんぽう}に足を運ぶまでもなく、ネットを通じて地方の{特産品|とくさんひん}が手に入る時代になった。", en: "We now live in an age when you can get regional specialties over the internet without having to travel far." },
             { ja: "この程度のことなら、社長の指示を{仰|あお}ぐまでもないだろう。", en: "For a matter this small, there's probably no need to ask the president for instructions." },
-            { ja: "環境{保護|ほご}の必要性は、改めて{世論|よろん}に問うまでもないことだ。", en: "There's no need to ask the public yet again whether the environment needs protecting." },
-            { ja: "彼が何を言いたいかは聞くまでもないよ。", en: "There's no need to ask what he's getting at — it's obvious." },
+            { ja: "環境{保護|ほご}の必要性は、改めて{世論|よろん}に問うまでもないことだ。", en: "The need to protect the environment hardly needs to be put to the public as a question." },
+            { ja: "彼が何を言いたいかは聞くまでもないよ。", en: "I don't even need to ask what he's trying to say." },
           ],
           deepDive: "**〜までもない / 〜までもなく** means *there's no need to go as far as ~*: the action is unnecessary because the answer is already obvious or the matter is too minor. 言うまでもなく (*needless to say*) works almost as a set adverb; 見るまでもない, 考えるまでもない and 説明するまでもない are also common. この程度のことなら、社長の指示を仰ぐまでもないだろう (*for something this minor, there's no need to ask the president*).\n\nConnection: V-る only. The なく form links to a main clause that states what is clear anyway or what happens instead: 遠方に足を運ぶまでもなく、ネットを通じて地方の特産品が手に入る (*you can get regional specialties online without traveling far*). The tone is confident and slightly formal.\n\nCompare:\n- **〜ことはない** (N2 level): advice to the listener, *you don't need to*: 心配することはない (*there's nothing to worry about*). までもない judges the action itself pointless.\n- **〜には及ばない**: polite *there's no need*: お礼には及びません (*no need to thank me*).\n- **〜ないまでも** (#43): *even if not ~, at least*, built on V-ない; a different pattern.\n\nPitfall: ✗説明までもない; it needs a verb: 説明するまでもない.\n\nJLPT cue: a sign that the matter is obvious or trivial (この程度, 明らか, 大した〜じゃない) points to までもない.",
           see: [43, 82, 93],
@@ -448,7 +448,7 @@ TRY.registerChapter({
             { ja: "戦争を{回避|かいひ}できるかどうかは、今回の{会談|かいだん}の結果いかんにかかっている。", en: "Whether war can be avoided depends on the outcome of this round of talks." },
             { ja: "明日のロケット打ち上げは、天候いかんで延期になる可能性が出てきました。", en: "Depending on the weather, there is now a chance that tomorrow's rocket launch will be postponed." },
             { ja: "今回のツアーは政治{情勢|じょうせい}いかんによっては、中止になる場合もあります。", en: "Depending on the political situation, this tour may be canceled." },
-            { ja: "いつの時代でも{創意|そうい}と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, depending on the creativity and ingenuity people bring to bear, new business possibilities should open up." },
+            { ja: "いつの時代でも{創意|そうい}と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities should open up, depending on how much creativity and ingenuity people bring to bear." },
           ],
           notes: [
             {
@@ -469,7 +469,7 @@ TRY.registerChapter({
               marks: [],
               usage: { ja: "「いかんせん〜／いかんともしがたい」は「残念だが、どうにもならない／どうすることもできない」という意味で使われる。", en: "“いかんせん〜／いかんともしがたい” is used to mean “it is a pity, but there is no way around it / nothing can be done about it.”" },
               examples: [
-                { ja: "彼女の{誕生日|たんじょうび}だというのに、いかんせん{給料日|きゅうりょうび}前で財布の中はからっぽだ。", en: "It's her birthday, and yet, sadly, there's no helping it: it's right before payday and my wallet is empty." },
+                { ja: "彼女の{誕生日|たんじょうび}だというのに、いかんせん{給料日|きゅうりょうび}前で財布の中はからっぽだ。", en: "It's her birthday, but there's nothing I can do: it's right before payday, and my wallet is empty." },
                 { ja: "大学生チームも{健闘|けんとう}しているが、やはりプロとの{実力差|じつりょくさ}はいかんともしがたい。", en: "The university team is putting up a good fight, but as you'd expect, there's nothing they can do about the gap in ability between them and the pros." },
               ],
             },
@@ -547,7 +547,7 @@ TRY.registerChapter({
           forms: ["[N₁] + といい + [N₂] + といい"],
           examples: [
             { ja: "{濃厚|のうこう}なスープといい、{麺|めん}のほどよい{硬|かた}さといい、さすが日本一のラーメンだね。", en: "What with the rich broth and the noodles cooked just right, it's no wonder this is the best ramen in Japan." },
-            { ja: "温泉といい、スキー{場|じょう}といい、冬の{北海道|ほっかいどう}は観光客にとって、{魅力|みりょく}がいっぱいです。", en: "What with the hot springs and the ski resorts, Hokkaido in winter is full of attractions for tourists." },
+            { ja: "温泉といい、スキー{場|じょう}といい、冬の{北海道|ほっかいどう}は観光客にとって、{魅力|みりょく}がいっぱいです。", en: "With its hot springs and ski resorts, Hokkaido in winter has a lot to offer tourists." },
             { ja: "このホテルは全く期待はずれだった。サービスといい、料理といい、ひどいものだ。", en: "This hotel was a complete letdown. The service, the food — it was all awful." },
           ],
           deepDive: "**AといいBといい** means *what with A and B*: the speaker picks two aspects of one subject and draws an overall verdict from them, praise or criticism: 濃厚なスープといい、麺のほどよい硬さといい、さすが日本一のラーメンだね (*the rich broth, the perfectly firm noodles: no wonder it's Japan's best ramen*). Literally *if one mentions A, if one mentions B*: whichever you mention, the verdict is the same.\n\nConnection: N₁といいN₂といい, with both nouns features of the same thing (サービスといい、料理といい for a hotel). The second half is the speaker's judgment or feeling (すばらしい, さすが, ひどい), not a neutral fact, a request or an intention.\n\nCompare:\n- **〜であれ〜であれ** (#38): *whether A or B, the same rule applies*: 犬であれ猫であれ、ペットは禁止です (*no pets, dog or cat*).\n- **〜といわず〜といわず** (#54): *A, B, everywhere*, an extent rather than a verdict: 床といわず机といわず、ほこりだらけだ (*there's dust everywhere, floor and desk alike*).\n- **〜わ〜わ** (#29): piles up events (雨は降るわ風は吹くわ *what with the rain and the wind*), not features.\n\nPitfall: naming features of two different subjects, or ending with a neutral statement.\n\nJLPT cue: two features of one subject followed by an emotional verdict → といい…といい.",
@@ -600,7 +600,7 @@ TRY.registerChapter({
           forms: ["[N] + といったところだ"],
           examples: [
             { ja: "人気{役者|やくしゃ}の{浮世絵|うきよえ}は、{今日|こんにち}でいえばアイドル写真といったところだ。", en: "Ukiyo-e prints of popular actors were, in today's terms, something like photos of pop idols." },
-            { ja: "今や、高速道路のサービスエリアは、温泉やショッピングまで楽しめるテーマパークといったところだ。", en: "These days, expressway service areas are something like theme parks, where you can even enjoy hot springs and shopping." },
+            { ja: "今や、高速道路のサービスエリアは、温泉やショッピングまで楽しめるテーマパークといったところだ。", en: "These days, expressway service areas are theme parks of a sort, where you can even enjoy hot springs and shopping." },
             { ja: "子どもに人気の料理と言えば、カレーとハンバーグといったところでしょう。", en: "When it comes to dishes kids love, I'd say it's curry and hamburger steak." },
             { ja: "私が生まれたのは歴史のある古い町で、日本なら{奈良|なら}や{京都|きょうと}といったところです。", en: "The place I was born is an old town with a long history — something like Nara or Kyoto in Japan." },
           ],
@@ -764,7 +764,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["社員数が1,000人を超える会社[1]管理職だけが{頑張|がんば}ってどうにかなるものではありません。一人一人の社員の意識が大切です。私の{部署|ぶしょ}でも、{余暇|よか}を上手に使って、{資格|しかく}を{取得|しゅとく}する{者|もの}や、{資格|しかく}は[2]専門書をよく読んでいる{者|もの}など、{役職|やくしょく}や仕事の経験{年数|ねんすう}の[3]{前向|まえむ}きな社員ばかりです。", "また、社員がなかなか{定着|ていちゃく}しないと{嘆|なげ}いている会社が多いのにひきかえ、{我|わ}が{社|しゃ}は[4]。社員{同士|どうし}のコミュニケーションもとれ、{効率|こうりつ}の良い仕事の仕方が工夫されているからだと{自負|じふ}しています。"],
-        en: ["Once a company has more than 1,000 employees, things won't work out just because the managers try hard. What matters is the attitude of each individual employee. In my department too, everyone is forward-looking regardless of position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, hardly anyone at our company quits before retirement. I'm proud to say this is because employees communicate well with one another and we have devised efficient ways of working."],
+        en: ["Once a company has more than 1,000 employees, the managers' hard work alone isn't enough to keep it going. What matters is the attitude of each individual employee. In my department too, everyone is forward-looking regardless of position or years of experience — some make good use of their free time to obtain qualifications, and others, even if they don't go as far as getting qualifications, read a lot of specialist books.", "Also, whereas many companies complain that their employees don't stay long, hardly anyone at our company quits before retirement. I'm proud to say this is because employees communicate well with one another and we have devised efficient ways of working."],
         blanks: [
           {
             options: ["に{即|そく}して", "をもって", "ともなると", "あっての"],

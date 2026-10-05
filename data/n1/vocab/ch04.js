@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "treatment; pay and working conditions",
     note: "At work, 待遇がいい means good pay and benefits; 待遇改善 is improving them. Also how guests are treated: 特別待遇, VIP待遇. 扱い is the more general 'handling, treatment'.",
     rx: ["たいぐ", "だいぐう", "たいごう"],
-    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among people's reasons for quitting a company, the nature of the work and issues of pay and conditions certainly play a part, but “relationships with people” always rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や**{待遇|たいぐう}**の問題もさることながら、「人間関係」が常に{上位|じょうい}に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list.", at: "ch/4" },
     ex: [
       { ja: "**{待遇|たいぐう}**のいい会社に{転職|てんしょく}したい。", en: "I want to switch to a company with better pay and conditions.", alt: ["{境遇|きょうぐう}", "{待機|たいき}", "{遭遇|そうぐう}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "higher rank, top positions",
     note: "上位に入る (make the top ranks), 上位3社 (the top three companies), 上位に挙がる (rank high on a list). The opposite is 下位. 上級 is about level of skill or grade.",
     rx: ["じょい", "うわい", "しょうい"],
-    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among people's reasons for quitting a company, the nature of the work and issues of pay and conditions certainly play a part, but “relationships with people” always rank near the top.", at: "ch/4" },
+    book: { ja: "会社を辞める理由では、仕事の内容や{待遇|たいぐう}の問題もさることながら、「人間関係」が常に**{上位|じょうい}**に{挙|あ}がっています。", en: "Among the reasons people quit their jobs, the nature of the work and pay and conditions matter, of course, but “personal relationships” are always near the top of the list.", at: "ch/4" },
     ex: [
       { ja: "彼はマラソン大会で毎年**{上位|じょうい}**に入っている。", en: "He places near the top in the marathon every year.", alt: ["{上級|じょうきゅう}", "{上司|じょうし}", "{地位|ちい}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "at first glance, apparently; a look",
     note: "一見〜だが… (looks ~ at first, but actually …) sets up a contrast. 一見の価値がある = worth a look. 一見さん (いちげん) is a first-time customer — a different word.",
     rx: ["いちみ", "ひとみ", "いっけい"],
-    book: { ja: "そこは**{一見|いっけん}**目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It doesn't look like much at first glance, but it's a famous ramen shop, and come lunchtime, crowds of customers line up outside.", at: "gp/35" },
+    book: { ja: "そこは**{一見|いっけん}**目立たない店だが、昼休みともなると大勢の客が列を作る有名ラーメン店だ。", en: "It doesn't look like much at first glance, but it's a famous ramen shop, and come lunchtime, crowds of customers line up.", at: "gp/35" },
     ex: [
       { ja: "この問題は**{一見|いっけん}**簡単そうだが、実はかなり難しい。", en: "This problem looks easy at first glance, but it's actually quite hard.", alt: ["{一斉|いっせい}", "{一気|いっき}", "{一層|いっそう}"] },
     ] },
@@ -114,7 +114,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "sequel",
     note: "続編が作られる, 映画の続編. Its counterparts are 前作 (the previous work) and 本編 (the main story). 続き is the everyday word for 'continuation'.",
     rx: ["ぞっぺん", "しょくへん", "ぞくべん"],
-    book: { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、**{続編|ぞくへん}**は100万人にも届かなかったそうだ。", en: "With that movie, whereas the original drew more than 2.5 million viewers, I hear the sequel didn't even reach one million.", at: "gp/36" },
+    book: { ja: "あの映画は{前作|ぜんさく}の観客が250万人を超えたのにひきかえ、**{続編|ぞくへん}**は100万人にも届かなかったそうだ。", en: "I hear that the first film in that series drew more than 2.5 million viewers, but the sequel, by contrast, didn't even reach one million.", at: "gp/36" },
     ex: [
       { ja: "大ヒットした映画の**{続編|ぞくへん}**が、来年{公開|こうかい}される。", en: "The sequel to the smash-hit movie comes out next year.", alt: ["{短編|たんぺん}", "{編集|へんしゅう}", "{続出|ぞくしゅつ}"] },
     ] },
@@ -130,7 +130,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "original, creative, inventive",
     note: "Praise for ideas and works: 独創的なアイデア / デザイン. 独特 is 'peculiar, unique to'; 個性的 is 'distinctive, full of personality'.",
     rx: ["どくしょうてき", "とくそうてき", "どっそうてき"],
-    book: { ja: "{佐藤|さとう}君の作品が**{独創的|どくそうてき}**であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Whereas Sato's work is original, Yamashita's is ordinary and uninspired.", at: "gp/36" },
+    book: { ja: "{佐藤|さとう}君の作品が**{独創的|どくそうてき}**であるのにひきかえ、{山下|やました}君のは{平凡|へいぼん}で{面白|おもしろ}みに{欠|か}ける。", en: "Sato's work is original, while Yamashita's is ordinary and uninspired.", at: "gp/36" },
     ex: [
       { ja: "彼の**{独創的|どくそうてき}**なアイデアが、{新製品|しんせいひん}の開発につながった。", en: "His original idea led to the development of a new product.", alt: ["{独裁的|どくさいてき}", "{一方的|いっぽうてき}", "{消極的|しょうきょくてき}"] },
     ] },
@@ -138,7 +138,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "supply, replenishment (of water, fuel, nutrients)",
     note: "水分補給 (hydration), 栄養補給, 燃料を補給する. 補充 is refilling to a set level (staff, stock); 供給 is supplying a market.",
     rx: ["ほきゅ", "ほうきゅう", "ほっきゅう"],
-    book: { ja: "{熱中症|ねっちゅうしょう}を予防するには、**{水分補給|すいぶんほきゅう}**もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, you need not only to drink enough fluids but also to take in a moderate amount of salt and other minerals.", at: "gp/37" },
+    book: { ja: "{熱中症|ねっちゅうしょう}を予防するには、**{水分補給|すいぶんほきゅう}**もさることながら、{塩分|えんぶん}などを適度にとる必要もある。", en: "To prevent heatstroke, drinking enough fluids is important, of course, but you also need to take in a moderate amount of salt and other minerals.", at: "gp/37" },
     ex: [
       { ja: "マラソンの{途中|とちゅう}では、こまめな水分**{補給|ほきゅう}**が欠かせない。", en: "During a marathon, it's essential to drink water frequently.", alt: ["{月給|げっきゅう}", "{給料|きゅうりょう}", "{補償|ほしょう}"] },
     ] },
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "moderate, the right amount (neither too much nor too little)",
     note: "適度な運動 (moderate exercise), 適度に休む. 適当 can mean 'suitable' but also 'half-hearted'; 適度 is purely 'moderate'. The opposite is 過度 (excessive).",
     rx: ["てきと", "てきどう", "てきたく"],
-    book: { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを**適度**にとる必要もある。", en: "To prevent heatstroke, you need not only to drink enough fluids but also to take in a moderate amount of salt and other minerals.", at: "gp/37" },
+    book: { ja: "{熱中症|ねっちゅうしょう}を予防するには、{水分補給|すいぶんほきゅう}もさることながら、{塩分|えんぶん}などを**適度**にとる必要もある。", en: "To prevent heatstroke, drinking enough fluids is important, of course, but you also need to take in a moderate amount of salt and other minerals.", at: "gp/37" },
     ex: [
       { ja: "健康のためには、**{適度|てきど}**な運動と十分な{睡眠|すいみん}が大切だ。", en: "For good health, moderate exercise and enough sleep are important.", alt: ["{過度|かど}", "{限度|げんど}", "{程度|ていど}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "copyright",
     note: "著作権を侵害する (infringe copyright), 著作権法. 著作 is a written work; 著作物 is a copyrighted work of any kind.",
     rx: ["ちょうさくけん", "しょさくけん", "ちょさっけん"],
-    book: { ja: "論文であれ手紙であれ、**{著作権|ちょさくけん}**に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're quoting from a paper or a letter, you must take copyright into account.", at: "gp/38" },
+    book: { ja: "論文であれ手紙であれ、**{著作権|ちょさくけん}**に{配慮|はいりょ}して引用しなければならない。", en: "Whether you're writing a paper or a letter, you must take copyright into account when you quote.", at: "gp/38" },
     ex: [
       { ja: "他人の写真を{無断|むだん}で使うと、**{著作権|ちょさくけん}**の{侵害|しんがい}になる。", en: "Using someone else's photos without permission is a copyright infringement.", alt: ["{選挙権|せんきょけん}", "{主導権|しゅどうけん}", "{特権|とっけん}"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "quotation, citation",
     note: "Academic: 引用する, 引用文, and you must give the source (出典を明記する). 引用 reproduces someone's words; 参照 is referring to them.",
     rx: ["いんよ", "ひきよう", "いんにょう"],
-    book: { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して**引用**しなければならない。", en: "Whether you're quoting from a paper or a letter, you must take copyright into account.", at: "gp/38" },
+    book: { ja: "論文であれ手紙であれ、{著作権|ちょさくけん}に{配慮|はいりょ}して**引用**しなければならない。", en: "Whether you're writing a paper or a letter, you must take copyright into account when you quote.", at: "gp/38" },
     ex: [
       { ja: "論文でほかの研究を**{引用|いんよう}**する場合は、{出典|しゅってん}を{明記|めいき}すること。", en: "When citing other studies in a paper, be sure to give the source.", alt: ["{信用|しんよう}", "{引退|いんたい}", "{飲用|いんよう}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "next term; the next (holder of an office, model, period)",
     note: "次期社長, 次期大統領, 次期モデル. Formal; the everyday word is 次の. Don't confuse it with 時期 (period, season), also read じき.",
     rx: ["つぎき", "じご", "しき"],
-    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president.", at: "gp/40" },
+    book: { ja: "**{次期|じき}**社長は、{経歴|けいれき}、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president.", at: "gp/40" },
     ex: [
       { ja: "彼は**{次期|じき}**会長の{有力|ゆうりょく}{候補|こうほ}だ。", en: "He is a leading candidate to be the next chairman.", alt: ["{時期|じき}", "{次第|しだい}", "{早期|そうき}"] },
     ] },
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "career history, background",
     note: "経歴を偽る (lie about one's background), 華やかな経歴. 履歴 is a record (履歴書 résumé, 閲覧履歴 browsing history); 学歴 is educational background only.",
     rx: ["けいりゃく", "きょうれき", "けいれい"],
-    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — he is probably the only choice for the next company president.", at: "gp/40" },
+    book: { ja: "{次期|じき}社長は、**{経歴|けいれき}**、{人格|じんかく}、実績すべての面からみて、彼をおいて他にいないだろう。", en: "Judged on every count — career, character and track record — there's probably no one but him for the next president.", at: "gp/40" },
     ex: [
       { ja: "彼女は{弁護士|べんごし}から作家になった{異色|いしょく}の**{経歴|けいれき}**の持ち主だ。", en: "She has an unusual background: she went from being a lawyer to being a writer.", alt: ["{経過|けいか}", "{経費|けいひ}", "{歴史|れきし}"] },
     ] },
@@ -289,7 +289,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "ちらつく", lv: "N1", pos: "verb",
     en: "(of snow) to fall lightly; to flicker; to keep coming to mind",
     note: "雪がちらつく (light flurries), 画面がちらつく (the screen flickers), 顔が目にちらつく (someone's face keeps coming back to you).",
-    book: { ja: "もうすぐ雪が**ちらつき**始める。", en: "Snow will soon start to fall in flurries.", at: "gp/40" },
+    book: { ja: "もうすぐ雪が**ちらつき**始める。", en: "Snow flurries will be starting soon.", at: "gp/40" },
     ex: [
       { ja: "朝から{小雪|こゆき}が**ちらついて**いる。", en: "Light snow has been falling since morning.", alt: ["ぶらついて", "ざわついて", "いらついて"] },
     ] },
@@ -454,7 +454,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "public opinion",
     note: "Usually read よろん; せろん is also accepted. 世論調査 (opinion poll), 世論に問う (put a question to the public). 世間 is 'society, people around you'.",
     rx: ["せいろん", "よろう", "せいろ"],
-    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "There's no need to ask the public yet again whether the environment needs protecting.", at: "gp/41" },
+    book: { ja: "環境{保護|ほご}の必要性は、改めて**{世論|よろん}**に問うまでもないことだ。", en: "The need to protect the environment hardly needs to be put to the public as a question.", at: "gp/41" },
     ex: [
       { ja: "最新の**{世論|よろん}**調査では、{内閣|ないかく}の{支持率|しじりつ}が下がった。", en: "In the latest opinion poll, the cabinet's approval rating fell.", alt: ["{世間|せけん}", "{理論|りろん}", "{世代|せだい}"] },
     ] },
@@ -502,7 +502,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "originality, inventiveness, creative ideas",
     note: "Mainly in 創意工夫 (ingenuity and resourcefulness) and 創意に富む (full of originality). Written style; アイデア and 独創性 are nearby words.",
     rx: ["しょうい", "そうき", "そい"],
-    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, depending on the creativity and ingenuity people bring to bear, new business possibilities should open up.", at: "gp/42" },
+    book: { ja: "いつの時代でも**{創意|そうい}**と工夫のいかんで、新たな{事業|じぎょう}の可能性が{開|ひら}けるはずだと信じている。", en: "I believe that in any era, new business possibilities should open up, depending on how much creativity and ingenuity people bring to bear.", at: "gp/42" },
     ex: [
       { ja: "限られた予算の中でも、**{創意|そうい}**工夫{次第|しだい}でいい商品は作れる。", en: "Even on a limited budget, you can make good products if you're inventive and resourceful.", alt: ["{故意|こい}", "{善意|ぜんい}", "{決意|けつい}"] },
     ] },
