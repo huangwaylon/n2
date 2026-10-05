@@ -300,9 +300,9 @@ TRY.registerLesson({
       "The girl waits in silence for him to go on. There must be a story behind it.",
       "\"One time, I suddenly wake up in the middle of the night,\" he begins. \"I don't know exactly what time it is. Two or three o'clock, probably, something like that. But what time it is isn't that important. Anyway, it's the middle of the night, and I'm completely alone; there's no one around me. Listen, I want you to imagine this. Everything around me is pitch-dark, and I can't see a thing. I can't hear a single sound. I can't even hear the clock ticking away the time; maybe the clock has stopped. And then all of a sudden I feel that I'm unbelievably far away from everyone I know and from every place I know, cut off and torn away from them. I realize that I have become someone nobody in this whole wide world loves, nobody speaks to, nobody even remembers. Even if I just disappeared, nobody would notice. It feels like being packed into a thick iron box and sunk to the bottom of a deep sea. The pressure makes my heart hurt so much it feels like it's about to burst and tear right in two. Do you know that kind of feeling?\"",
       "The girl nods. She thinks she probably does.",
-      "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's so sad and painful that you really want to just die. No, that's not it. It's not about wanting to die. If you just left things as they were, the air in the box would get thinner and you would actually die. That's not some figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
+      "The boy goes on. \"That's probably one of the most painful things a person can experience in a lifetime. It's so sad and painful that you honestly want to just die. No, that's not it. It's not about ''wanting'' to die. If you just left things as they were, the air in the box would get thinner and you would ''actually'' die. That's not some figure of speech. It's the truth. That's what it means to wake up all alone in the middle of the night. Do you understand that too?\"",
       "The girl nods silently again. The boy pauses for a moment.",
-      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. I have no idea myself where on earth there could be railroad tracks or anything out there. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I hold still in the darkness and listen hard. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can barely hear it. And I love you as much as that whistle.\"",
+      "\"But then I hear the sound of a train whistle, far, far away. It's a really, really distant whistle. Even I can't tell where on earth there could be railroad tracks or anything out there. It's that far away. It's a sound so faint you can barely tell whether you heard it or not. But I know it's the whistle of a train. There's no doubt about it. I hold still in the darkness and listen hard. And then I hear the whistle once more. After that, my heart stops hurting. The hands of the clock start moving. The iron box slowly rises toward the surface of the sea. And it's all because of that little whistle, you see. Because of a whistle so faint I can hardly tell whether I hear it or not. And I love you as much as that whistle.\"",
       "With that, the boy's short story ends. Now the girl begins to tell her own story."
      ]
     },
@@ -402,7 +402,7 @@ TRY.registerLesson({
       "There are two of us in our household, and during the day we each work at our own workplace. When the kitten first came, whenever we tried to go out the front door, it mewed \"mew, mew\" in a voice that wrung our hearts, so we took turns working from home. But after four or five days, even that changed, and its attitude turned offhand, as if to say, \"Going out? Hmm. Bye-bye.\" Of course it doesn't even come to see us off. \"Wha-a-at? No way!\" It has grown up so much that it leaves us feeling a little lonely. I was amazed, too, at how adaptable it is.",
       "And then I realized something. Having more things you love means having more things to fear. Ever since the kitten came, my capacity for imagining frightening things has been growing.",
       "What if the Nanbu ironware tempura pot we have somehow falls on the cat's neck? What if the cat pulls the toilet lever and ends up drowning, spinning round and round in the toilet water? What if the bookshelves that cover a whole wall start to collapse and the cat gets buried in books? What if the cat presses the gas switch and gets burned? But if I think about it calmly, every one of these things is something that could never happen. There's no way a cat could get out a Nanbu iron pot that's put away in a box on a shelf, and there's no way it could knock over a bookshelf that has been secured so it won't fall even in an earthquake. Still, I'm scared.",
-      "And so I wonder: when their children are small, how much imagined fear must mothers everywhere tremble with? Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
+      "And so I wonder how much imagined fear mothers everywhere must tremble with when their children are small. Even things they can laugh about once the child has grown up (\"That could never have happened\"), they must fear in all seriousness at the time. Wouldn't just having their child come home from kindergarten or elementary school feel like a miracle?",
       "Strangely enough, optimistic imaginings such as \"maybe the cat will have brought in the laundry\" or \"maybe the cat will have cleaned the toilet until it sparkles\" are every bit as impossible as the bookshelf toppling over or the gas switch, and yet they never even occur to me. Love, it seems, is something that belongs on the side of pessimism."
      ]
     },
@@ -753,7 +753,7 @@ TRY.registerLesson({
           {
            "sub": "b",
            "ja": "日本での留学生活は楽しくて国に帰りたくない**くらい**だ。",
-           "tr": "Studying abroad in Japan is so much fun; it’s to the point where I don’t want to go back to my country."
+           "tr": "Studying abroad in Japan is so much fun, it’s gotten to the point where I don’t want to go back to my country."
           }
          ]
         },
@@ -928,7 +928,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it is not used for facts the speaker simply knows: with the calendar in front of you, 今日は月曜日だ, not ✗月曜日に違いない.\n- A past event takes the past form before it: 何かあったに違いない (*something must have happened*).\n\nCompare Quartet I's **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
+     "deepDive": "**〜に違いない** states a conclusion the speaker is convinced of without having seen it: the evidence points one way and the speaker cannot imagine otherwise. In conversation it sounds a little bookish; **〜に決まってる** (*it's got to be*) or きっと〜よ is more natural there, while narration and essays use に違いない freely.\n\n- It reports an inference, so it does not fit facts the speaker simply knows: with the calendar in front of you, you say 今日は月曜日だ; 月曜日に違いない would sound like a guess.\n- A past event takes the past form before it: 何かあったに違いない (*something must have happened*).\n\nCompare Quartet I's **〜はずだ** (L5-3), reasoning from facts or plans, and the weaker **〜だろう**. For confident denial the book uses **〜はずがない** (L9-8) and **〜わけがない** (L9-9)."
     },
     {
      "t": "note",
@@ -1160,7 +1160,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "実は、歌が下手でみんなに笑われちゃって……。もうカラオケ**になんか**行きたくないよ。",
-           "tr": "Actually, I’m a bad singer, and everyone laughed at me… I never want to go to karaoke again."
+           "tr": "Actually, I’m a bad singer, and everyone laughed at me… I never want to go to karaoke or anything like it again."
           }
          ]
         },
@@ -1175,7 +1175,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "え！　僕**なんか**40点だったよ。",
-           "tr": "What! I only got 40."
+           "tr": "What? Me, I only got 40."
           }
          ]
         }
@@ -1361,7 +1361,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**いったい** (一体) turns a question into bewilderment or frustration: the speaker is less asking than wondering aloud. It needs a question word (何, どこ, いつ, どうして, どうやって), and the sentence usually ends in 〜のだろう（か）, 〜んだろう or an exasperated 〜んだ！\n\n- It is out of place in a neutral request for information: asking a stranger the way, say 駅はどこですか; いったいどこですか sounds annoyed.\n- いったい全体 is a stronger spoken version, and いったい何なの？ (*what is going on?!*) is a common outburst.\n\nThe written **はたして〜だろうか** also doubts an answer, but calmly: はたして成功するだろうか (*will it really succeed?*)."
+     "deepDive": "**いったい** (一体) turns a question into bewilderment or frustration: the speaker is less asking than wondering aloud. It normally goes with a question word (何, どこ, いつ, どうして, どうやって), and the sentence usually ends in 〜のだろう（か）, 〜んだろう or an exasperated 〜んだ！\n\n- It is out of place in a neutral request for information: asking a stranger the way, say 駅はどこですか; いったいどこですか sounds annoyed.\n- いったい全体 is a stronger spoken version, and いったい何なの？ (*what is going on?!*) is a common outburst.\n\nThe written **はたして〜だろうか** also doubts an answer, but calmly: はたして成功するだろうか (*will it really succeed?*)."
     },
     {
      "t": "note",
@@ -3276,13 +3276,13 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❷**（もし）よろしければ、**{{お手伝いし}}**ましょうか。**",
-           "tr": "If it's all right with you, could I help?"
+           "tr": "If it's all right with you, may I help?"
           },
           {
            "sp": "店長",
            "v": "f",
            "ja": "えっ、でもせっかくの休みだし、悪いから、いいよ。",
-           "tr": "Oh, but it's your precious day off, and I'd feel bad, so no, it's okay."
+           "tr": "Oh, but it's your day off, and I'd feel bad, so no, it's okay."
           },
           {
            "sp": "あなた",
@@ -3340,7 +3340,7 @@ TRY.registerLesson({
          "n": "1.",
          "text": {
           "ja": "国際交流課の{事務員|じむいん} (office worker) の{加藤|かとう}さんが、教室で{机|つくえ}やいすを一人で並べています。何かのイベントの準備をしているようです。手助けを申し出なさい。",
-          "tr": "Kato-san, an office worker in the International Exchange Office, is setting out desks and chairs in a classroom alone. They seem to be getting ready for some kind of event. Offer to help."
+          "tr": "Kato-san, an office worker in the International Relations Division, is setting out desks and chairs in a classroom alone. They seem to be getting ready for some kind of event. Offer to help."
          }
         },
         {
@@ -3380,7 +3380,7 @@ TRY.registerLesson({
      "id": "l9-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -4010,7 +4010,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "新しく3〜4人のグループを作って、「2-1. やってみよう」の 2) (p. 90) で話した経験を、もう一度一人1〜2分ぐらいで話しなさい。できればオノマトペも使って、{臨場感|りんじょうかん} (tele-existence) を出して話してみましょう。",
-        "tr": "Form new groups of three or four, and have each person tell again, in about one to two minutes, the experience they talked about in 2) of \"2-1. Let's try it\" (p. 90). If you can, use onomatopoeia too, and try to make the listeners feel as if they were there."
+        "tr": "Form new groups of three or four, and have each person tell again, in about one to two minutes, the experience they talked about in 2) of \"2-1. Let's try\" (p. 90). If you can, use onomatopoeia too, and try to make the listeners feel as if they were there."
        },
        "blocks": [
         {
