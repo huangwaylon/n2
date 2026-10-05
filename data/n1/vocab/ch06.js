@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "sincere; honest; faithful",
     note: "Describes a person or their conduct as honest and conscientious: 誠実な人柄, 誠実に対応する, 誠実さ. 誠意 is the noun for sincerity shown toward someone; 正直 is simply not lying.",
     rx: ["せいじち", "しんじつ", "せいしつ"],
-    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what anyone who is a company employee ought to be.", at: "ch/6" },
+    book: { ja: "皆様の**{誠実|せいじつ}**で{丁寧|ていねい}な仕事ぶりから社員たる{者|もの}どうあるべきかを学びました。", en: "From the sincere, meticulous way you all work, I learned what a true company employee ought to be.", at: "ch/6" },
     ex: [
       { ja: "{彼|かれ}は{口下手|くちべた}だが、**{誠実|せいじつ}**な{人柄|ひとがら}で{客|きゃく}から{信頼|しんらい}されている。", en: "He isn't a smooth talker, but customers trust him because he's honest.", alt: ["{切実|せつじつ}", "{確実|かくじつ}", "{充実|じゅうじつ}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "feeling obliged or grateful (humbly); being sorry to trouble someone",
     note: "A humble business word expressing both gratitude and apology for troubling someone: 恐縮です, 恐縮ですが… (I'm sorry to ask, but…), 恐縮の至り. Softer and more formal than すみません.",
     rx: ["きょうしゅう", "こうしゅく", "きょしゅく"],
-    book: { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて**{恐縮|きょうしゅく}**です。", en: "By rights I should have been the one to call on you, so I'm very grateful, and a little embarrassed, that you took the trouble to come here yourself.", at: "gp/65" },
+    book: { ja: "本来ならこちらから{伺|うかが}うべきところを、わざわざお{越|こ}しいただいて**{恐縮|きょうしゅく}**です。", en: "By rights I should have come to see you, so I'm very much obliged that you took the trouble to come here yourself.", at: "gp/65" },
     ex: [
       { ja: "お{忙|いそが}しいところ**{恐縮|きょうしゅく}**ですが、{明日|あす}までにお{返事|へんじ}をいただけますか。", en: "I'm sorry to trouble you when you're busy, but could you give me your answer by tomorrow?", alt: ["{縮小|しゅくしょう}", "{恐怖|きょうふ}", "{短縮|たんしゅく}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "taking office; assuming a post; inauguration",
     note: "Taking up an important position: 社長に就任する, 就任式, 就任あいさつ. The opposite is 辞任 (resignation) or 退任. 就職 is getting a job in general.",
     rx: ["しゅうじん", "じゅうにん", "しゅにん"],
-    book: { ja: "**{就任|しゅうにん}**パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating the appointment! Even now, when I think back on it, I blush with embarrassment.", at: "gp/66" },
+    book: { ja: "**{就任|しゅうにん}**パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating their appointment! Even now, thinking back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{新|あたら}しい{市長|しちょう}は、**{就任|しゅうにん}**{後|ご}すぐに{市役所|しやくしょ}の{改革|かいかく}に{着手|ちゃくしゅ}した。", en: "The new mayor began reforming city hall right after taking office.", alt: ["{就職|しゅうしょく}", "{担任|たんにん}", "{責任|せきにん}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "at (a meeting or gathering); on the occasion of",
     note: "Formal word for 'at' a meeting or party: 会議の席上で, 記者会見の席上. Written and news style; in conversation 〜の席で or 〜で is usual.",
     rx: ["せきうえ", "せっじょう", "しゃくじょう"],
-    book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating the appointment! Even now, when I think back on it, I blush with embarrassment.", at: "gp/66" },
+    book: { ja: "{就任|しゅうにん}パーティーの**{席上|せきじょう}**で新社長の名前を間違えるとは、思い返しても{赤面|せきめん}の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating their appointment! Even now, thinking back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{首相|しゅしょう}は{記者|きしゃ}{会見|かいけん}の**{席上|せきじょう}**で、{辞任|じにん}の{意向|いこう}を{明|あき}らかにした。", en: "At the press conference, the prime minister announced an intention to resign.", alt: ["{机上|きじょう}", "{路上|ろじょう}", "{座席|ざせき}"] },
     ] },
@@ -203,7 +203,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "blushing (with shame or embarrassment)",
     note: "Turning red from embarrassment, a written word: 赤面する, 赤面の至り (utterly ashamed), 赤面ものだ (casual: it's embarrassing). 恥ずかしい is the everyday word.",
     rx: ["あかめん", "せっめん", "しゃくめん"],
-    book: { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても**{赤面|せきめん}**の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating the appointment! Even now, when I think back on it, I blush with embarrassment.", at: "gp/66" },
+    book: { ja: "{就任|しゅうにん}パーティーの{席上|せきじょう}で新社長の名前を間違えるとは、思い返しても**{赤面|せきめん}**の{至|いた}りだ。", en: "To think I got the new president's name wrong at the party celebrating their appointment! Even now, thinking back on it, I blush with shame.", at: "gp/66" },
     ex: [
       { ja: "{若|わか}いころに{書|か}いた{日記|にっき}を{読|よ}み{返|かえ}すと、**{赤面|せきめん}**してしまう。", en: "Rereading the diary I kept when I was young makes me blush.", alt: ["{赤字|あかじ}", "{正面|しょうめん}", "{洗面|せんめん}"] },
     ] },
@@ -211,14 +211,14 @@ TRY.registerVocab({ ch: 6, words: [
     en: "grand; lavish; magnificent (of a gathering)",
     note: "Of events on a large and lively scale: 盛大なパーティー, 盛大に祝う, 盛大な拍手. Casually also 'a lot' (盛大に転ぶ). 豪華 is about luxury; 盛大 is about scale and liveliness.",
     rx: ["せいたい", "じょうだい", "もりだい"],
-    book: { ja: "{私|わたくし}のために、かくも**{盛大|せいだい}**な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am deeply moved that you have held such a grand gathering in my honor.", at: "gp/66" },
+    book: { ja: "{私|わたくし}のために、かくも**{盛大|せいだい}**な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am moved beyond words that you have held so grand a gathering in my honor.", at: "gp/66" },
     ex: [
       { ja: "{祖父|そふ}の90{歳|さい}の{誕生日|たんじょうび}を、{親戚|しんせき}が{集|あつ}まって**{盛大|せいだい}に**{祝|いわ}った。", en: "Our relatives gathered and threw a grand celebration for my grandfather's 90th birthday.", alt: ["{偉大|いだい}に", "{重大|じゅうだい}に", "{膨大|ぼうだい}に"] },
     ] },
   { w: "かくも", lv: "N1", pos: "adverb",
     en: "so; such; to this extent (literary)",
     note: "Literary for こんなにも: かくも盛大な会, かくも美しい. Used in formal speeches and writing to add emphasis; related to かくして and かく (thus).",
-    book: { ja: "{私|わたくし}のために、**かくも**{盛大|せいだい}な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am deeply moved that you have held such a grand gathering in my honor.", at: "gp/66" },
+    book: { ja: "{私|わたくし}のために、**かくも**{盛大|せいだい}な会を開いていただき、{感激|かんげき}の{至|いた}りです。", en: "I am moved beyond words that you have held so grand a gathering in my honor.", at: "gp/66" },
     ex: [
       { ja: "**かくも**{多|おお}くの{方|かた}にお{集|あつ}まりいただき、{心|こころ}より{感謝|かんしゃ}申し上げます。", en: "I thank you from the bottom of my heart for gathering here in such numbers.", alt: ["もっぱら", "ひいては", "かねて"] },
     ] },
@@ -226,7 +226,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "youthful folly; a mistake one made because one was young",
     note: "Looking back on a rash act and blaming it on youth: 若気の至りで〜した. Often a humble or embarrassed excuse. Note the reading わかげ, not わかき.",
     rx: ["わかきのいたり", "じゃっきのいたり", "わかげのいだり"],
-    book: { ja: "酒を{一気|いっき}飲みしたうえ、{真冬|まふゆ}の川に飛び込むなんて、本当に**{若気|わかげ}の{至|いた}り**※だった。", en: "Chugging a drink in one go and then, on top of that, jumping into a river in the dead of winter — that really was youthful folly.* (*若気の至り: “a mistake made because one was young”.)", at: "gp/66" },
+    book: { ja: "酒を{一気|いっき}飲みしたうえ、{真冬|まふゆ}の川に飛び込むなんて、本当に**{若気|わかげ}の{至|いた}り**※だった。", en: "Downing a drink in one go and then, to top it off, jumping into a river in the dead of winter — that really was youthful folly.* (*若気の至り: “a mistake made because one was young”.)", at: "gp/66" },
     ex: [
       { ja: "{学生|がくせい}{時代|じだい}に{髪|かみ}を{金色|きんいろ}に{染|そ}めたのは、**{若気|わかげ}の{至|いた}り**だった。", en: "Dyeing my hair gold as a student was youthful folly.", alt: ["{光栄|こうえい}の{至|いた}り", "{感激|かんげき}の{至|いた}り", "{恐縮|きょうしゅく}の{至|いた}り"] },
     ] },
@@ -250,7 +250,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "(formal title after a name on official documents and certificates; ≈ Mr./Ms.)",
     note: "Used after a name in official documents such as certificates, notices of appointment and awards: 山田太郎殿. Stiffer and more bureaucratic than 様; in ordinary business letters 様 is now preferred.",
     rx: ["とん", "でん", "てん"],
-    book: { ja: "**{鈴木二郎殿|すずきじろうどの}**。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Jiro Suzuki: effective April 1, you are hereby assigned to Sales Department No. 2.", at: "gp/67" },
+    book: { ja: "**{鈴木二郎殿|すずきじろうどの}**。4月1日をもって、第2営業部{勤務|きんむ}を命じる。", en: "To Jiro Suzuki: effective April 1, you are hereby assigned to the Second Sales Department.", at: "gp/67" },
     ex: [
       { ja: "{賞状|しょうじょう}には「{田中花子|たなかはなこ}**{殿|どの}**」と{書|か}かれていた。", en: "The certificate was made out to \"Hanako Tanaka.\"", alt: ["{御中|おんちゅう}", "{各位|かくい}", "{先輩|せんぱい}"] },
     ] },
@@ -274,7 +274,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "(apologetically) after all; since, as you know; (as a request) kindly",
     note: "Formal adverb offering an excuse: 何分にも初めてのことで (this being, after all, my first time), 何分田舎なもので. Also 何分よろしくお願いします (please do what you can). Read なんぷん, it means 'how many minutes'.",
     rx: ["なにぶ", "なにふん", "なにぷん"],
-    book: { ja: "**{何分|なにぶん}**にも田舎のこととて{山菜|さんさい}料理しかありませんが、どうぞゆっくりしていってください。", en: "This being the countryside, I'm afraid all we can offer you is dishes of wild mountain greens, but please make yourself at home.", at: "gp/68" },
+    book: { ja: "**{何分|なにぶん}**にも田舎のこととて{山菜|さんさい}料理しかありませんが、どうぞゆっくりしていってください。", en: "As this is the countryside, I'm afraid all we can offer you is a meal of wild mountain vegetables, but please make yourself at home.", at: "gp/68" },
     ex: [
       { ja: "**{何分|なにぶん}**{初|はじ}めてのことですので、{至|いた}らない{点|てん}はお{許|ゆる}しください。", en: "As this is, after all, my first time, please forgive any shortcomings.", alt: ["{何|なに}とか", "{何|なん}なりと", "{何|なに}げなく"] },
     ] },
@@ -282,7 +282,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "edible wild plants (gathered in the mountains)",
     note: "Wild spring greens such as ふきのとう, わらび and ぜんまい: 山菜料理, 山菜採り, 山菜そば. A typical feature of countryside inns and spring cuisine.",
     rx: ["やまさい", "さんざい", "さんな"],
-    book: { ja: "{何分|なにぶん}にも田舎のこととて**{山菜|さんさい}**料理しかありませんが、どうぞゆっくりしていってください。", en: "This being the countryside, I'm afraid all we can offer you is dishes of wild mountain greens, but please make yourself at home.", at: "gp/68" },
+    book: { ja: "{何分|なにぶん}にも田舎のこととて**{山菜|さんさい}**料理しかありませんが、どうぞゆっくりしていってください。", en: "As this is the countryside, I'm afraid all we can offer you is a meal of wild mountain vegetables, but please make yourself at home.", at: "gp/68" },
     ex: [
       { ja: "{春|はる}になると、{祖母|そぼ}は{裏山|うらやま}へ**{山菜|さんさい}**{採|と}りに{出|で}かける。", en: "When spring comes, my grandmother goes to the hill behind the house to gather wild greens.", alt: ["{野菜|やさい}", "{山林|さんりん}", "{菜食|さいしょく}"] },
     ] },
@@ -306,7 +306,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "condolences; sympathy (on a death)",
     note: "Words of sympathy to the bereaved: お悔やみを申し上げる, お悔やみ申し上げます (my condolences), お悔やみの言葉. The verb 悔やむ means 'to regret' or 'to mourn'.",
     rx: ["おかいやみ", "おぐやみ", "おくいやみ"],
-    book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "Not knowing, I never even offered my condolences. I do apologize.", at: "gp/68" },
+    book: { ja: "知らぬこととて、**お{悔|く}やみ**も申し上げず大変失礼いたしました。", en: "Not having known, I never even offered my condolences; it was very remiss of me.", at: "gp/68" },
     ex: [
       { ja: "このたびはご{愁傷|しゅうしょう}さまでした。{心|こころ}より**お{悔|く}やみ**{申|もう}し{上|あ}げます。", en: "I am so sorry for your loss. Please accept my heartfelt condolences.", alt: ["お{祝|いわ}い", "お{土産|みやげ}", "お{礼|れい}"] },
     ] },
@@ -346,7 +346,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "recession; depression; slump",
     note: "Economic downturn: 不況が続く, 不況下で (in a recession), 長引く不況. 不景気 is the more conversational word; 不況 is used in news and economics.",
     rx: ["ふこう", "ぶきょう", "ふっきょう"],
-    book: { ja: "この**{不況下|ふきょうか}**、経営努力を重ねたうえでの{倒産|とうさん}は{同業者|どうぎょうしゃ}として{同情|どうじょう}にたえない。", en: "As someone in the same industry, I feel deeply for a company that has gone bankrupt in this recession after doing everything it could to stay afloat.", at: "gp/69" },
+    book: { ja: "この**{不況下|ふきょうか}**、経営努力を重ねたうえでの{倒産|とうさん}は{同業者|どうぎょうしゃ}として{同情|どうじょう}にたえない。", en: "To go bankrupt in this recession after such repeated efforts to keep the business going: as someone in the same line of work, I can only feel the deepest sympathy.", at: "gp/69" },
     ex: [
       { ja: "**{不況|ふきょう}**の{影響|えいきょう}で、{就職|しゅうしょく}{活動|かつどう}が{厳|きび}しくなっている。", en: "Because of the recession, job hunting is getting tougher.", alt: ["{不評|ふひょう}", "{不満|ふまん}", "{状況|じょうきょう}"] },
     ] },
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "people (or companies) in the same trade; competitors",
     note: "Others in the same line of business: 同業者の集まり, 同業他社 (other companies in the industry). Often implies both fellowship and rivalry.",
     rx: ["どうごうしゃ", "とうぎょうしゃ", "どうぎょしゃ"],
-    book: { ja: "この{不況下|ふきょうか}、経営努力を重ねたうえでの{倒産|とうさん}は**{同業者|どうぎょうしゃ}**として{同情|どうじょう}にたえない。", en: "As someone in the same industry, I feel deeply for a company that has gone bankrupt in this recession after doing everything it could to stay afloat.", at: "gp/69" },
+    book: { ja: "この{不況下|ふきょうか}、経営努力を重ねたうえでの{倒産|とうさん}は**{同業者|どうぎょうしゃ}**として{同情|どうじょう}にたえない。", en: "To go bankrupt in this recession after such repeated efforts to keep the business going: as someone in the same line of work, I can only feel the deepest sympathy.", at: "gp/69" },
     ex: [
       { ja: "{近所|きんじょ}のパン{屋|や}さんとは、**{同業者|どうぎょうしゃ}**として{情報|じょうほう}を{交換|こうかん}している。", en: "I exchange information with the baker nearby, since we're in the same trade.", alt: ["{同乗者|どうじょうしゃ}", "{同伴者|どうはんしゃ}", "{同居人|どうきょにん}"] },
     ] },
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "display; demonstration (of one's ability or power)",
     note: "Showing what one can really do: 実力を発揮する, 能力を発揮する, 効果を発揮する, リーダーシップを発揮する. The object is an ability or effect, not a thing.",
     rx: ["はつき", "はっぎ", "ほっき"],
-    book: { ja: "{企業|きぎょう}の経営者たる{者|もの}は、働く人たちが能力を**{発揮|はっき}**できるよう環境を整えるべきである。", en: "Anyone who runs a company ought to create an environment in which employees can make full use of their abilities.", at: "gp/70" },
+    book: { ja: "{企業|きぎょう}の経営者たる{者|もの}は、働く人たちが能力を**{発揮|はっき}**できるよう環境を整えるべきである。", en: "A corporate executive worthy of the name ought to create an environment in which the people who work there can make full use of their abilities.", at: "gp/70" },
     ex: [
       { ja: "{本番|ほんばん}で{緊張|きんちょう}して、{実力|じつりょく}を{十分|じゅうぶん}に**{発揮|はっき}**できなかった。", en: "I got nervous on the day and couldn't show what I was really capable of.", alt: ["{発揚|はつよう}", "{指揮|しき}", "{発行|はっこう}"] },
     ] },
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "infuriating; irritating; maddening",
     note: "Describes something that makes one angry: 腹立たしい気持ち, 腹立たしい限りだ. The verb is 腹が立つ. More written than むかつく and more about the situation than the speaker's outburst.",
     rx: ["ふくだたしい", "はらたたしい", "はらだちしい"],
-    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I made a special exception and lent someone a valuable book, and they got it dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "貴重な本を特別に貸してやったのに、汚されて、**{腹立|はらだ}たしい**限りだ。", en: "I lent them a valuable book as a special favor, and they went and got it dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{約束|やくそく}を{何度|なんど}も{破|やぶ}られて、{本当|ほんとう}に**{腹立|はらだ}たしい**。", en: "They've broken their promises to me so many times — it's really infuriating.", alt: ["{慌|あわ}ただしい", "{喜|よろこ}ばしい", "{頼|たの}もしい"] },
     ] },
@@ -402,7 +402,7 @@ TRY.registerVocab({ ch: 6, words: [
     en: "valuable; precious",
     note: "Rare and therefore highly valuable: 貴重な経験, 貴重品 (valuables), 貴重な時間, 貴重なご意見. 高価 means simply 'expensive'.",
     rx: ["きじゅう", "ぎちょう", "きちょ"],
-    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I made a special exception and lent someone a valuable book, and they got it dirty. It makes me absolutely furious.", at: "gp/71" },
+    book: { ja: "**貴重**な本を特別に貸してやったのに、汚されて、{腹立|はらだ}たしい限りだ。", en: "I lent them a valuable book as a special favor, and they went and got it dirty. It makes me absolutely furious.", at: "gp/71" },
     ex: [
       { ja: "{留学|りゅうがく}は、{私|わたし}にとって{本当|ほんとう}に**{貴重|きちょう}な**{経験|けいけん}になった。", en: "Studying abroad turned out to be a truly valuable experience for me.", alt: ["{不器用|ぶきよう}な", "{慎重|しんちょう}な", "{丁重|ていちょう}な"] },
     ] },

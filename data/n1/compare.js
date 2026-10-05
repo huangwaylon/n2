@@ -100,7 +100,7 @@ TRY.registerCompare([
         ex: { ja: "A：お酒、お好きですか。\nB：そんなに好きではありませんが、飲めないことはありません。", en: "A: Do you like alcohol?\nB: I'm not that fond of it, but it's not that I can't drink." },
         note: "V-ない + ことはない: \"it's not that ~ not\". A double negative giving a hesitant, partial yes; unlike ことはない, it is not advice." },
       { pattern: "〜こととて", level: "N1", no: 68,
-        ex: { ja: "{何分|なにぶん}にも田舎のこととて{山菜|さんさい}料理しかありませんが、どうぞゆっくりしていってください。", en: "This being the countryside, I'm afraid all we can offer you is dishes of wild mountain greens, but please make yourself at home." },
+        ex: { ja: "{何分|なにぶん}にも田舎のこととて{山菜|さんさい}料理しかありませんが、どうぞゆっくりしていってください。", en: "As this is the countryside, I'm afraid all we can offer you is a meal of wild mountain vegetables, but please make yourself at home." },
         note: "N + の / V-ない (or classical V-ぬ) + こととて: \"since / as it is (the case that)\". An old-fashioned, formal reason presented as an unavoidable circumstance, mostly in apologies (知らぬこととて, 慣れぬこととて)." }
     ]
   },
@@ -241,7 +241,7 @@ TRY.registerCompare([
         ex: { ja: "{今朝|けさ}は30分も{寝坊|ねぼう}しちゃって、遅刻するところだったよ。", en: "I overslept by a whole thirty minutes this morning and was almost late." },
         note: "V-る + ところだった: \"almost / very nearly\" (but it didn't happen). Usually something bad narrowly escaped." },
       { pattern: "〜ところ(を)", level: "N1", no: 65,
-        ex: { ja: "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。", en: "We're sorry to trouble you in this heat, but to save electricity, we have set the air conditioning to 28°C." },
+        ex: { ja: "お暑いところ{申|もう}し{訳|わけ}ございませんが、{節電|せつでん}のためエアコンの温度は28度に{設定|せってい}させていただいております。", en: "We apologize for the discomfort in this heat, but to save electricity, the air conditioning has been set to 28°C." },
         note: "いA / Nの + ところ（を）: \"when you are (busy, etc.)\". A formal cushion acknowledging the listener's situation before an apology, request or thanks (お忙しいところ, お休みのところ)." },
       { pattern: "Vたところで", level: "N1", no: 77,
         ex: { ja: "今から急いだところで、間に合うわけがないよ。", en: "Even if we hurry now, there's no way we'll make it." },
