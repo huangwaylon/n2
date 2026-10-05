@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(railway) car; vehicle",
     note: "One car of a train: 女性専用車両 (women-only car), 先頭車両 (front car). In formal notices it means any vehicle (車両通行止め, closed to vehicles).",
     rx: ["くるまりょう", "しゃりょ", "しゃれい"],
-    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So considering how crowded it is, this car gives you a fair chance of getting a seat.", at: "ch/10" },
+    book: { ja: "だからこの**{車両|しゃりょう}**は{混|こ}んでいるわりには座れるチャンスがあるのだ。", en: "So for how crowded this car is, there's still a chance of getting a seat.", at: "ch/10" },
     ex: [
       { ja: "{朝|あさ}のラッシュ{時|じ}には、{女性専用|じょせいせんよう}**{車両|しゃりょう}**がある。", en: "During the morning rush, there are women-only cars.", alt: ["{車庫|しゃこ}", "{車掌|しゃしょう}", "{両親|りょうしん}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "change for the better; improvement (of a situation)",
     note: "Formal/news: 景気 / 状況 / 病状が好転する. The opposite is 悪化. 改善 is actively making something better; 好転 is things taking a turn for the better.",
     rx: ["こうでん", "すきてん", "こってん"],
-    book: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに**{好転|こうてん}**することはあるまい。", en: "Judging by the current situation, the world economy is unlikely to recover any time soon.", at: "gp/93" },
+    book: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに**{好転|こうてん}**することはあるまい。", en: "Judging from the current situation, there is little prospect of the world economy turning around any time soon.", at: "gp/93" },
     ex: [
       { ja: "{新|あたら}しい{薬|くすり}のおかげで、{父|ちち}の{病状|びょうじょう}は**{好転|こうてん}**した。", en: "Thanks to the new medicine, my father's condition took a turn for the better.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移転|いてん}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to rise; to grow; to heighten (interest, tension, expectations)",
     note: "関心 / 期待 / 人気 / 緊張が高まる; the transitive is 高める. 上がる is for prices, temperatures and other measurable things; 高まる for abstract things.",
     rx: ["こうまる", "たかばる", "だかまる"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy is unlikely to catch on quickly.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy surely won't catch on easily.", at: "gp/93" },
     ex: [
       { ja: "オリンピックが{近|ちか}づき、{国民|こくみん}の{期待|きたい}が**{高|たか}まって**いる。", en: "With the Olympics approaching, the public's expectations are rising.", alt: ["{固|かた}まって", "{収|おさ}まって", "{縮|ちぢ}まって"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "substitute; alternative; replacement",
     note: "代替エネルギー (alternative energy), 代替案 (an alternative plan), 代替品 (a substitute). だいがえ is also heard, but だいたい is the standard reading. Everyday speech uses 代わり.",
     rx: ["たいたい", "だいたえ", "だいてい"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy is unlikely to catch on quickly.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy surely won't catch on easily.", at: "gp/93" },
     ex: [
       { ja: "{部品|ぶひん}が{手|て}に{入|はい}らないため、**{代替|だいたい}**{品|ひん}を{使|つか}うことにした。", en: "The part wasn't available, so we decided to use a substitute.", alt: ["{大体|だいたい}", "{交代|こうたい}", "{現代|げんだい}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to dump, reject (a lover); to wave; to shake; to sprinkle",
     note: "The passive 振られる (be dumped / turned down) is the common romantic use. Also 手を振る (wave), 首を横に振る (shake one's head no), 塩を振る (sprinkle salt), バットを振る (swing).",
     rx: ["ふうる", "しんる", "ぶる"],
-    book: { ja: "彼女に**{振|ふ}られた**{直後|ちょくご}は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I thought I'd never fall in love again, but...", at: "gp/93" },
+    book: { ja: "彼女に**{振|ふ}られた**{直後|ちょくご}は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I told myself I was never going to fall in love again, but...", at: "gp/93" },
     ex: [
       { ja: "{駅|えき}で{友達|ともだち}が{手|て}を**{振|ふ}って**いるのが{見|み}えた。", en: "I saw my friend waving at the station.", alt: ["{張|は}って", "{刷|す}って", "{掘|ほ}って"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "immediately after; right after",
     note: "〜た直後 / 〜の直後 (事故の直後, 発売直後). The opposite is 直前 (just before), which follows the dictionary form (出る直前). In speech: すぐあと.",
     rx: ["ちょっこう", "じきご", "ちょくごう"],
-    book: { ja: "彼女に{振|ふ}られた**{直後|ちょくご}**は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I thought I'd never fall in love again, but...", at: "gp/93" },
+    book: { ja: "彼女に{振|ふ}られた**{直後|ちょくご}**は、もう{恋|こい}なんかするまいと思っていたが…。", en: "Right after she dumped me, I told myself I was never going to fall in love again, but...", at: "gp/93" },
     ex: [
       { ja: "{家|いえ}を{出|で}た**{直後|ちょくご}**に、{雨|あめ}が{降|ふ}り{出|だ}した。", en: "It started raining right after I left the house.", alt: ["{直線|ちょくせん}", "{直接|ちょくせつ}", "{背後|はいご}"] },
     ] },
@@ -211,7 +211,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "honest; frank; (as an opener) honestly, to be frank",
     note: "正直な人, 正直に話す, 正直に言うと / 正直、… (frankly, …). 素直 is open and uncomplicated (also obedient); 誠実 is sincere and faithful.",
     rx: ["せいちょく", "しょうちょく", "せいじき"],
-    book: { ja: "彼は**{正直|しょうじき}**すぎるから、お客様に失礼なことを（　）。", en: "He's too honest, so he may well say something rude to a customer.", at: "gp/93" },
+    book: { ja: "彼は**{正直|しょうじき}**すぎるから、お客様に失礼なことを（　）。", en: "He's too honest, so he could end up saying something rude to a customer.", at: "gp/93" },
     ex: [
       { ja: "{嘘|うそ}をつかずに、**{正直|しょうじき}**に{話|はな}してください。", en: "Please don't lie — tell me honestly.", alt: ["{正式|せいしき}", "{安易|あんい}", "{垂直|すいちょく}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "losing an election; being rejected (in a contest)",
     note: "選挙で落選する; the opposite is 当選 (being elected). Also for contests and prize draws: コンクールで落選. Failing an exam is 不合格.",
     rx: ["らっせん", "おちせん", "らくぜん"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "Yamaguchi's supporters seem relieved, confident their candidate won't lose this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が**{落選|らくせん}**することは（　）と、{支持者|しじしゃ}は安心しているようだ。", en: "The supporters seem relieved, believing there's little chance Yamaguchi will lose this election.", at: "gp/93" },
     ex: [
       { ja: "{人気|にんき}のあった{候補者|こうほしゃ}が、まさかの**{落選|らくせん}**となった。", en: "The popular candidate unexpectedly lost the election.", alt: ["{落下|らっか}", "{脱線|だっせん}", "{選択|せんたく}"] },
     ] },
@@ -235,7 +235,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "support; backing (of a person, party or opinion)",
     note: "支持する, 支持者 (supporters), 支持率 (approval rating), 支持を得る. 支援 is support as aid or assistance; 応援 is cheering someone on. Don't confuse it with 指示 (instructions), same reading.",
     rx: ["しし", "しじい", "ささじ"],
-    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "Yamaguchi's supporters seem relieved, confident their candidate won't lose this election.", at: "gp/93" },
+    book: { ja: "今回の{選挙|せんきょ}で{山口氏|やまぐちし}が{落選|らくせん}することは（　）と、**{支持者|しじしゃ}**は安心しているようだ。", en: "The supporters seem relieved, believing there's little chance Yamaguchi will lose this election.", at: "gp/93" },
     ex: [
       { ja: "{新|あたら}しい{政策|せいさく}は、{若者|わかもの}の{間|あいだ}で{強|つよ}い**{支持|しじ}**を{得|え}ている。", en: "The new policy has strong support among young people.", alt: ["{指示|しじ}", "{支給|しきゅう}", "{維持|いじ}"] },
     ] },
@@ -290,7 +290,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "high-class; high-end; luxury",
     note: "高級ホテル / 車 / 品, 高級感 (a luxurious feel). 上等 means top quality (a bit old-fashioned); the opposite is 安物 or 低価格.",
     rx: ["こうきゅ", "たかきゅう", "こうぎゅう"],
-    book: { ja: "**{高級感|こうきゅうかん}**があるし、使いやすそうだね。", en: "It has a really upscale feel, and it looks easy to use too.", at: "gp/95" },
+    book: { ja: "**{高級感|こうきゅうかん}**があるし、使いやすそうだね。", en: "It has an upscale feel, and it looks easy to use, too.", at: "gp/95" },
     ex: [
       { ja: "たまには**{高級|こうきゅう}**なレストランで{食事|しょくじ}をしてみたい。", en: "Every once in a while I'd like to eat at a high-end restaurant.", alt: ["{上級|じょうきゅう}", "{高齢|こうれい}", "{高速|こうそく}"] },
     ] },
@@ -359,14 +359,14 @@ TRY.registerVocab({ ch: 10, words: [
     en: "early morning",
     note: "早朝から (from early morning), 早朝割引 (early-bird discount), 早朝練習 (朝練). Formal; in speech 朝早く.",
     rx: ["はやちょう", "そうあさ", "さっちょう"],
-    book: { ja: "**{早朝|そうちょう}**から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open.", at: "gp/96" },
+    book: { ja: "**{早朝|そうちょう}**から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale came flooding into the store when the doors were barely open.", at: "gp/96" },
     ex: [
       { ja: "{渋滞|じゅうたい}を{避|さ}けるため、**{早朝|そうちょう}**に{家|いえ}を{出|で}た。", en: "We left home early in the morning to avoid the traffic.", alt: ["{早退|そうたい}", "{早速|さっそく}", "{朝食|ちょうしょく}"] },
     ] },
   { w: "どっと", lv: "N1", pos: "adverb",
     en: "all at once; in a rush (of people); (laugh) all together; (fatigue) suddenly",
     note: "人がどっと押し寄せる, 会場がどっと笑う (the whole hall bursts out laughing), 疲れがどっと出る (exhaustion suddenly hits).",
-    book: { ja: "{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、**どっと**店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open.", at: "gp/96" },
+    book: { ja: "{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、**どっと**店内になだれ込んだ。", en: "The people who had lined up since early morning for the opening sale came flooding into the store when the doors were barely open.", at: "gp/96" },
     ex: [
       { ja: "{試験|しけん}が{終|お}わったとたん、{疲|つか}れが**どっと**{出|で}た。", en: "The moment the exam was over, exhaustion hit me all at once.", alt: ["ぞっと", "ほっと", "じっと"] },
     ] },
@@ -374,7 +374,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to pour into; to surge into (crowds)",
     note: "客が店内になだれ込む, ファンが会場になだれ込む. From 雪崩 (なだれ, avalanche); usually written in kana. 押し寄せる is “surge toward.”",
     rx: ["なだれごむ", "なだれいむ", "なだれはいむ"],
-    book: { ja: "{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内に**なだれ込んだ**。", en: "The people who had lined up since early morning for the opening sale surged into the store the instant the doors began to open.", at: "gp/96" },
+    book: { ja: "{早朝|そうちょう}から開店セールに{並|なら}んだ人たちはドアが開くか開かないかのうちに、どっと店内に**なだれ込んだ**。", en: "The people who had lined up since early morning for the opening sale came flooding into the store when the doors were barely open.", at: "gp/96" },
     ex: [
       { ja: "{試合|しあい}が{終|お}わると、{興奮|こうふん}したファンがグラウンドに**なだれ{込|こ}んだ**。", en: "When the game ended, excited fans poured onto the field.", alt: ["{落|お}ち{込|こ}んだ", "{申|もう}し{込|こ}んだ", "{思|おも}い{込|こ}んだ"] },
     ] },
@@ -398,7 +398,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "main character; protagonist; hero(ine)",
     note: "物語 / 映画 / 小説の主人公. 主役 is the leading role or actor; 主人 alone means husband or master.",
     rx: ["しゅうじんこう", "しゅじんおう", "しゅにんこう"],
-    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、**{主人公|しゅじんこう}**がさびしげに{微笑|ほほえ}んだのが{印象的|いんしょうてき}だった。", en: "The way the main character smiled wistfully in the movie's final scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "この{小説|しょうせつ}の**{主人公|しゅじんこう}**は、{東京|とうきょう}に{住|す}む{高校生|こうこうせい}だ。", en: "The main character of this novel is a high school student living in Tokyo.", alt: ["{主催者|しゅさいしゃ}", "{出版社|しゅっぱんしゃ}", "{著作権|ちょさくけん}"] },
     ] },
@@ -406,7 +406,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to smile (gently)",
     note: "Written/literary; in conversation にっこりする or 笑う. Noun 微笑み (also 微笑, びしょう). 笑う also covers laughing out loud.",
     rx: ["びしょうむ", "ほほむ", "ほおえむ"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに**{微笑|ほほえ}んだ**のが{印象的|いんしょうてき}だった。", en: "The way the main character smiled wistfully in the movie's final scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "{赤|あか}ちゃんが{母親|ははおや}を{見|み}て、にっこり**{微笑|ほほえ}んだ**。", en: "The baby looked at its mother and gave a sweet smile.", alt: ["{励|はげ}んだ", "{悩|なや}んだ", "{睨|にら}んだ"] },
     ] },
@@ -414,7 +414,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "memorable; striking; impressive",
     note: "印象的な場面 / 言葉 / 目. 印象 is an impression (第一印象, first impression; 印象に残る, stay in one's mind). 感動的 is moving, touching.",
     rx: ["いんぞうてき", "いんしょうでき", "いんしょてき"],
-    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "The lonely way the main character smiled in the movie's final scene really stayed with me.", at: "gp/97" },
+    book: { ja: "映画のラストシーンで、{主人公|しゅじんこう}がさびしげに{微笑|ほほえ}んだのが**{印象的|いんしょうてき}**だった。", en: "The way the main character smiled wistfully in the movie's final scene left a strong impression.", at: "gp/97" },
     ex: [
       { ja: "{彼女|かのじょ}の{大|おお}きな{瞳|ひとみ}が、とても**{印象的|いんしょうてき}**だった。", en: "Her big eyes were very striking.", alt: ["{一時的|いちじてき}", "{部分的|ぶぶんてき}", "{経済的|けいざいてき}"] },
     ] },

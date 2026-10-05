@@ -454,7 +454,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "Vまい", level: "N2", no: 93,
-        ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはある**まい**。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging by the current situation, the world economy is unlikely to recover any time soon. Our company, too, needs to work out countermeasures right away." },
+        ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはある**まい**。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the current situation, there is little prospect of the world economy turning around any time soon. Our company, too, needs to work out countermeasures right away." },
         note: "V-る + まい: \"surely won't / there's little chance that\". A formal negative conjecture based on the situation (≈ 〜ないだろう), often 〜ことはあるまい; the same form also expresses firm negative resolve (\"I will never\")." },
       { pattern: "VかVまいか", level: "N2", no: 123,
         ex: { ja: "彼は夏休みに国へ**帰ろうか帰るまいか**と{悩|なや}んでいるらしい。", en: "Apparently he's agonizing over whether or not to go back to his country for summer vacation." },
