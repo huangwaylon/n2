@@ -2181,11 +2181,11 @@ TRY.registerLesson({
      ],
      "tr": [
       "\"How much do you love me?\"",
-      "The boy answers the girl's question like this: \"As much as a whistle in the middle of the night.\"",
-      "The boy turns what the midnight whistle means to him into a story and tells it, and the girl quietly listens to his story. This work is an ultra-short love story that expresses the boy's love for the girl who rescued him from loneliness.",
-      "The greatest appeal of this story is surely that it expresses love beautifully. If your sweetheart asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As much as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a midnight whistle,\" to convey his feelings for the girl. This, you could say, is exactly what \"the uses of stories\" means.",
+      "The boy answers the girl's question like this: \"As much as a train whistle in the middle of the night.\"",
+      "The boy tells, in the form of a story, what a train whistle in the night means to him, and the girl quietly listens. This work is an ultra-short love story that expresses the boy's love for the girl who rescued him from loneliness.",
+      "Above all, the appeal of this story is surely the beautiful way it expresses love. If your partner asked you, \"How much do you love me?\", how would you answer? There are all kinds of ways to answer, like \"As far as once around the earth\" or \"As much as the ocean is deep.\" But the boy's answer is not that simple. He uses a metaphor, \"a train whistle in the night,\" to convey his feelings for the girl. This, you could say, is exactly what \"the uses of stories\" means.",
       "Another appeal is the boy's gentle tone. The boy moves the story along, gently asking the girl, \"Do you understand?\" and \"Do you understand that too?\" And the girl listens to the story silently and intently, as if watching over the boy. This exchange connects the boy's \"story of loneliness\" with the \"reality\" of the boy being together with the girl. I think the reason we can feel warmth in a painful story is that we can sense the girl's presence through the boy's gentle tone.",
-      "It is short, but it is a story that leaves its readers with a warm feeling. When you feel lonely, when you think of someone who supports you, or when you want to support someone: at times like these, I hope you will pick up this work."
+      "It is short, but it is a story that leaves its readers with a warm feeling. When you feel lonely, when you think of someone who supports you, or when you want to support someone: at times like these, I hope you will pick up this story."
      ],
      "headTr": [
       "On Reading \"On a Train Whistle in the Middle of the Night, or On the Uses of Stories\" (Haruki Murakami)",
@@ -2406,7 +2406,7 @@ TRY.registerLesson({
           },
           {
            "ja": "少女の質問に少年はこう答える。**「夜中の{汽笛|きてき}くらい」**",
-           "tr": "The boy answers the girl's question like this: \"As much as a whistle in the middle of the night.\""
+           "tr": "The boy answers the girl's question like this: \"As much as a train whistle in the middle of the night.\""
           }
          ]
         }
@@ -2570,7 +2570,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "{困|こま}っている友達に、あなたは何と声をかけますか。",
-        "tr": "What would you say to a friend who is in trouble?"
+        "tr": "What would you say to a friend who seems to be having a hard time?"
        }
       },
       {
@@ -2868,7 +2868,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "あー、誕生日デートって、はりきってたよね。❷**よかったら、**バイトのシフト、私が代わろ**うか。**",
-       "tr": "Oh, you were so excited about your birthday date. If you like, shall I cover your shift?"
+       "tr": "Oh, right, you were all excited about your birthday date. If you want, I could cover your shift for you."
       },
       {
        "sp": "ジ",
@@ -2880,7 +2880,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**せっかくの誕生日なんだし、お祝いしてあげて。",
-       "tr": "Come on, don't hold back. Everyone needs help sometimes. It's her birthday, after all, so go celebrate with her."
+       "tr": "Come on, don't be so polite. We all need help sometimes. It's her birthday, after all, so go celebrate with her."
       },
       {
        "sp": "ジ",
@@ -2892,7 +2892,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "❹昼のシフトも代われるけど、夕方だけ**でいいの？**　夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-       "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you."
+       "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Forget \"just the evening.\" I'll cover both for you."
       },
       {
        "sp": "ジ",
@@ -3006,7 +3006,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "そっか……。**よかったら、**バイトのシフト、\n私が代わろ**うか。**",
-        "tr": "I see... If you like, shall I cover your shift?"
+        "tr": "I see... If you want, I could cover your shift for you."
        }
       },
       {
@@ -3025,7 +3025,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**\nせっかくの誕生日なんだし、お{祝|いわ}いしてあげて。",
-        "tr": "Come on, don't hold back. Everyone needs help sometimes. It's her birthday, after all, so go celebrate with her."
+        "tr": "Come on, don't be so polite. We all need help sometimes. It's her birthday, after all, so go celebrate with her."
        }
       },
       {
@@ -3043,7 +3043,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "昼のシフトも代われるけど、夕方だけ**でいいの？**\n夕方だけなんて言わないで。両方代わっ**てあげるよ。**",
-        "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you."
+        "tr": "I can cover the day shift too, you know. Are you sure just the evening is enough? Forget \"just the evening.\" I'll cover both for you."
        }
       },
       {
@@ -3131,7 +3131,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❷｛**よかったら**／**私でよければ**｝、{{バイトのシフト、{代|か}わろ}}**うか。**",
-         "tr": "[If you like / If you don't mind me], shall I cover your shift?"
+         "tr": "[If you want / If I'd be any help], I could cover your shift for you."
         },
         {
          "sp": "友達",
@@ -3143,7 +3143,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸**そんな{遠慮|えんりょ}しないで。{困|こま}った時はお{互|たが}いさまだよ。**　{{せっかくの誕生日なんだし、お{祝|いわ}いしてあげて。}}",
-         "tr": "Come on, don't hold back. Everyone needs help sometimes. It's their birthday, after all, so go celebrate with them."
+         "tr": "Come on, don't be so polite. We all need help sometimes. It's their birthday, after all, so go celebrate with them."
         },
         {
          "sp": "友達",
@@ -3155,7 +3155,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❹{{（昼のシフトも代われるけど、）夕方だけ}}**でいいの？**　{{夕方だけなんて言わないで。両方代わっ}}**てあげるよ。**）",
-         "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Don't settle for just the evening. I'll cover both for you.)"
+         "tr": "(I can cover the day shift too, but) are you sure just the evening is enough? Forget \"just the evening.\" I'll cover both for you.)"
         },
         {
          "sp": "友達",
@@ -3270,13 +3270,13 @@ TRY.registerLesson({
            "sp": "店長",
            "v": "f",
            "ja": "実はそうなんだ。{{今週末引っ越すんだけど、もうバタバタで……。}}",
-           "tr": "Yes, actually. I'm moving this weekend, and it's already so hectic..."
+           "tr": "Yes, I am. I'm moving this weekend, and things are already hectic..."
           },
           {
            "sp": "あなた",
            "v": "f",
            "ja": "❷**（もし）よろしければ、**{{お手伝いし}}**ましょうか。**",
-           "tr": "If it's all right with you, may I help?"
+           "tr": "If it's all right with you, could I help?"
           },
           {
            "sp": "店長",
@@ -3288,7 +3288,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❸**そんな{遠慮|えんりょ}なさらないでください。**　{{力仕事は得意なので、}}**私でよろしければ、**{{お手伝いさ}}**せてください。**",
-           "tr": "Please don't hold back like that. I'm good at heavy lifting, so if you don't mind, please let me help."
+           "tr": "Oh, please, there's no need to be polite. I'm good at heavy lifting, so if you don't mind, please let me help."
           },
           {
            "sp": "店長",
@@ -3300,7 +3300,7 @@ TRY.registerLesson({
            "sp": "あなた",
            "v": "f",
            "ja": "❹{{午後だけ}}**でよろしいんですか。よろしければ、**{{朝からお手伝いできます}}**が。**",
-           "tr": "Is just the afternoon all right? If you'd like, I can help from the morning."
+           "tr": "Is just the afternoon all right? If you'd like, I can help starting in the morning."
           },
           {
            "sp": "店長",
@@ -3701,7 +3701,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "休日のお昼は、大体どこも込んでるからなあ。",
-       "tr": "Well, at lunchtime on a day off, pretty much everywhere is crowded."
+       "tr": "Well, at lunchtime on weekends and holidays, pretty much everywhere is packed."
       },
       {
        "sp": "ジ",
@@ -3737,7 +3737,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "でも、ある意味、絵理にとって一生忘れられない誕生日の思い出になったんじゃない？",
-       "tr": "But in a way, didn't it end up being a birthday Eri will never forget?"
+       "tr": "But in a way, didn't it give Eri a birthday memory she'll never forget?"
       },
       {
        "sp": "ジ",
@@ -3937,7 +3937,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶**ちょっと、聞いてよ。**＿＿{{（で／時に）}}＿＿**ことがあったんだ。**",
-         "tr": "Listen to this. ＿＿ (on / when) ＿＿, something happened."
+         "tr": "Listen to this. (On / When) ＿＿, something ＿＿ happened."
         },
         {
          "sp": "友達",
@@ -4451,7 +4451,7 @@ TRY.registerLesson({
        "sp": "ジョージ",
        "v": "m",
        "ja": "見て。あのワンちゃん、飼い主とおそろいのピンクの服、着てるよ。",
-       "tr": "Look. That doggie is wearing pink clothes that match its owner's."
+       "tr": "Look! That dog's wearing a pink outfit that matches its owner's."
       },
       {
        "sp": "{絵理|えり}",
@@ -4505,7 +4505,7 @@ TRY.registerLesson({
        "sp": "絵",
        "v": "f",
        "ja": "うち__なんか__、{健康|けんこう}を考えてオーガニックのペットフードを食べさせているから、お金がかかって。毎月、トリミング代や洋服、えさ代、{保険|ほけん}料なんかを入れると2万円近くかかるんだ。",
-       "tr": "At our place, for example, we feed her organic pet food with her health in mind, so it gets expensive. Every month, if you add up grooming, clothes, food, insurance and so on, it comes to almost 20,000 yen."
+       "tr": "Take us, for example: we feed her organic pet food with her health in mind, so it gets expensive. Every month, if you add up grooming, clothes, food, insurance and so on, it comes to almost 20,000 yen."
       },
       {
        "sp": "ジ",
