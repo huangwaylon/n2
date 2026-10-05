@@ -91,7 +91,7 @@ TRY.registerCompare([
         ex: { ja: "日本での{就職|しゅうしょく}を{希望|きぼう}する**からには**、しっかり{企業|きぎょう}研究をしておいたほうがいい。", en: "Since you want to find a job in Japan, you had better research companies thoroughly." },
         note: "V-る / V-た + からには: \"now that / since (it's decided or done)\". The second half must carry resolve, duty, advice or a command (〜べきだ, 〜つもりだ, 〜ほうがいい), not a neutral fact; 上は is its formal Plus variant." },
       { pattern: "〜から見て", level: "N2", no: 60,
-        ex: { ja: "便利さという点**から見ると**、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, the city is easier to live in than the countryside after all." },
+        ex: { ja: "便利さという点**から見ると**、やはり{田舎|いなか}より{都会|とかい}のほうが{暮|く}らしやすい。", en: "In terms of convenience, the city is, as you'd expect, an easier place to live than the countryside." },
         note: "N + から見て / から見ると / から見れば: \"judging from / from the viewpoint of N\". N is the vantage point or evidence for a judgment (〜という点から見ると, as here), not a reason." }
     ]
   },

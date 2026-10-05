@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "position; standpoint; the situation one is in",
     note: "Your position in relation to others and the viewpoint it gives you: 相手の立場に立つ (put yourself in the other person's shoes), 立場が弱い, 〜の立場から言うと. 位置 is a physical location and 地位 is rank or status.",
     rx: ["たちじょう", "りつば", "たては"],
-    book: { ja: "{患者|かんじゃ}の**{立場|たちば}**からすれば、たとえたいした病気じゃなくても、{病状|びょうじょう}を{詳|くわ}しく説明してほしいと思う。", en: "From the patient's standpoint, even if it isn't a serious illness, you want the doctor to explain your condition in detail.", at: "gp/60" },
+    book: { ja: "{患者|かんじゃ}の**{立場|たちば}**からすれば、たとえたいした病気じゃなくても、{病状|びょうじょう}を{詳|くわ}しく説明してほしいと思う。", en: "From the patient's point of view, even if it's nothing serious, you want your condition explained in detail.", at: "gp/60" },
     ex: [
       { ja: "{相手|あいて}の**{立場|たちば}**になって{考|かんが}えれば、{怒|おこ}る{理由|りゆう}もわかるはずだ。", en: "If you look at it from the other person's position, you should be able to see why they're angry.", alt: ["{場面|ばめん}", "{役場|やくば}", "{足場|あしば}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "livestock; domestic animals",
     note: "Animals raised for food, milk or labor, such as cattle, pigs and chickens: 家畜を飼う (keep livestock). Dogs and cats kept as companions are ペット, not 家畜. 畜産 is the livestock industry.",
     rx: ["かちょく", "けちく", "かぢく"],
-    book: { ja: "人間の{立場|たちば}から見ると、オオカミは牛などの**{家畜|かちく}**を{襲|おそ}う{敵|てき}だ。", en: "From the human point of view, the wolf is an enemy that attacks livestock such as cattle.", at: "ch/7" },
+    book: { ja: "人間の{立場|たちば}から見ると、オオカミは牛などの**{家畜|かちく}**を{襲|おそ}う{敵|てき}だ。", en: "From a human point of view, the wolf is an enemy that attacks cattle and other livestock.", at: "ch/7" },
     ex: [
       { ja: "この{村|むら}では{昔|むかし}から、{牛|うし}や{豚|ぶた}などの**{家畜|かちく}**を{育|そだ}ててきた。", en: "In this village, people have long raised livestock such as cattle and pigs.", alt: ["{家具|かぐ}", "{家庭|かてい}", "{畜産|ちくさん}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to attack; to assault; (of a disaster or feeling) to strike",
     note: "Sudden attacks by animals or criminals, often in the passive: 熊に襲われる (be attacked by a bear). Also disasters and feelings: 台風が九州を襲う, 不安に襲われる (be seized by anxiety). 攻める is attacking in war or sports.",
     rx: ["おすう", "おどう", "ほそう"],
-    book: { ja: "人間の{立場|たちば}から見ると、オオカミは牛などの{家畜|かちく}を**{襲|おそ}う**{敵|てき}だ。", en: "From the human point of view, the wolf is an enemy that attacks livestock such as cattle.", at: "ch/7" },
+    book: { ja: "人間の{立場|たちば}から見ると、オオカミは牛などの{家畜|かちく}を**{襲|おそ}う**{敵|てき}だ。", en: "From a human point of view, the wolf is an enemy that attacks cattle and other livestock.", at: "ch/7" },
     ex: [
       { ja: "{昨夜|さくや}、{大|おお}きな{台風|たいふう}が{九州|きゅうしゅう}を**{襲|おそ}った**。", en: "Last night a big typhoon struck Kyushu.", alt: ["{攻|せ}めた", "{奪|うば}った", "{追|お}った"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "herbivorous; plant-eating",
     note: "Mostly in 草食動物 (herbivore), contrasted with 肉食 (carnivorous) and 雑食 (omnivorous). The slang 草食系男子 describes young men who are passive about romance.",
     rx: ["くさしょく", "そうじき", "そうしょっく"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a part in keeping herbivores such as deer from multiplying too much, and so in protecting the balance of nature.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの**{草食|そうしょく}**動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る{役割|やくわり}も{果|は}たしてきたのである。", en: "On the other hand, though, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
     ex: [
       { ja: "ウサギや{馬|うま}は**{草食|そうしょく}**の{動物|どうぶつ}だ。", en: "Rabbits and horses are plant-eating animals.", alt: ["{主食|しゅしょく}", "{和食|わしょく}", "{草原|そうげん}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "role; part; function",
     note: "Usually with 果たす: 役割を果たす (play a role, fulfill a function). 役割分担 is the division of roles. 役目 is close but feels more like a personal duty, and 役 is also a part in a play.",
     rx: ["やくかつ", "えきわり", "やくわれ"],
-    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "At the same time, however, wolves have also played a part in keeping herbivores such as deer from multiplying too much, and so in protecting the balance of nature.", at: "ch/7" },
+    book: { ja: "しかし、その{一方|いっぽう}で、オオカミはシカなどの{草食|そうしょく}動物が増えすぎるのを{防|ふせ}ぎ、{自然|しぜん}のバランスを{守|まも}る**{役割|やくわり}**も{果|は}たしてきたのである。", en: "On the other hand, though, wolves have also played a role in maintaining the balance of nature by keeping deer and other herbivores from becoming too numerous.", at: "ch/7" },
     ex: [
       { ja: "{家庭|かてい}での{父親|ちちおや}の**{役割|やくわり}**は、{昔|むかし}とはずいぶん{変|か}わった。", en: "The father's role in the home has changed a lot since the old days.", alt: ["{割合|わりあい}", "{役所|やくしょ}", "{割引|わりびき}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "third party; outsider; neutral person",
     note: "Someone not directly involved: 第三者の意見, 第三者機関 (an independent body). The people directly involved are the 当事者.",
     rx: ["だいさんじゃ", "ていさんしゃ", "だいざんしゃ"],
-    book: { ja: "けんかの{原因|げんいん}なんて、**{第三者|だいさんしゃ}**から見れば、くだらないことが多い。", en: "Seen from a third party's point of view, the causes of quarrels are often trivial.", at: "gp/60" },
+    book: { ja: "けんかの{原因|げんいん}なんて、**{第三者|だいさんしゃ}**から見れば、くだらないことが多い。", en: "To an outsider, what people fight about is often something trivial.", at: "gp/60" },
     ex: [
       { ja: "{問題|もんだい}を{公平|こうへい}に{判断|はんだん}するため、**{第三者|だいさんしゃ}**に{調査|ちょうさ}を{依頼|いらい}した。", en: "To judge the matter fairly, we asked a third party to investigate.", alt: ["{当事者|とうじしゃ}", "{加害者|かがいしゃ}", "{容疑者|ようぎしゃ}"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "rebuilding; reconstruction; putting (a company, finances) back on its feet",
     note: "For buildings (焼けた城を再建する) and for organizations or finances (経営再建, 財政再建). 復興 is the recovery of a whole area after a disaster. Don't confuse it with the homophone 債券 (bond).",
     rx: ["さいけい", "ざいけん", "さいげん"],
-    book: { ja: "{現在|げんざい}の{経営状態|けいえいじょうたい}から見て、{四葉商事|よつばしょうじ}の**{再建|さいけん}**には時間がかかりそうだ。", en: "Judging from its current financial condition, it looks as though rebuilding Yotsuba Trading will take time.", at: "gp/60" },
+    book: { ja: "{現在|げんざい}の{経営状態|けいえいじょうたい}から見て、{四葉商事|よつばしょうじ}の**{再建|さいけん}**には時間がかかりそうだ。", en: "Judging from its current financial state, it looks like getting Yotsuba Trading back on its feet will take time.", at: "gp/60" },
     ex: [
       { ja: "{火事|かじ}で{焼|や}けた{神社|じんじゃ}は、{地元|じもと}の{寄付|きふ}で**{再建|さいけん}**された。", en: "The shrine that burned down was rebuilt with donations from local people.", alt: ["{再考|さいこう}", "{再会|さいかい}", "{再発|さいはつ}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "personality; character (how decent and likable a person is)",
     note: "Usually positive: 人柄がいい, 温かい人柄, 人柄にひかれる (be drawn to someone's character). 性格 is temperament in general and can be good or bad; 人柄 is about the kind of person others experience.",
     rx: ["じんがら", "ひとへい", "にんがら"],
-    book: { ja: "彼は、{能力|のうりょく}、**{人柄|ひとがら}**、その{他|た}すべての点から見て、プロジェクトリーダーに{適任|てきにん}だ。", en: "In terms of ability, personality and every other respect, he is the right person to be project leader.", at: "gp/60" },
+    book: { ja: "彼は、{能力|のうりょく}、**{人柄|ひとがら}**、その{他|た}すべての点から見て、プロジェクトリーダーに{適任|てきにん}だ。", en: "In ability, character and every other respect, he is the right person to lead the project.", at: "gp/60" },
     ex: [
       { ja: "{彼女|かのじょ}の{明|あか}るい**{人柄|ひとがら}**は、{誰|だれ}からも{好|す}かれている。", en: "Everyone likes her cheerful personality.", alt: ["{人手|ひとで}", "{人目|ひとめ}", "{柄物|がらもの}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "well suited (to a post or task); the right person for the job",
     note: "Only about a person and a role: 〜に適任だ, 適任者 (the right person). For things that fit a purpose, use 適切 or 適当. 担任 (teacher in charge of a class) is a look-alike.",
     rx: ["てきじん", "てきいん", "てっきにん"],
-    book: { ja: "彼は、{能力|のうりょく}、{人柄|ひとがら}、その{他|た}すべての点から見て、プロジェクトリーダーに**{適任|てきにん}**だ。", en: "In terms of ability, personality and every other respect, he is the right person to be project leader.", at: "gp/60" },
+    book: { ja: "彼は、{能力|のうりょく}、{人柄|ひとがら}、その{他|た}すべての点から見て、プロジェクトリーダーに**{適任|てきにん}**だ。", en: "In ability, character and every other respect, he is the right person to lead the project.", at: "gp/60" },
     ex: [
       { ja: "{英語|えいご}も{中国語|ちゅうごくご}も{話|はな}せる{田村|たむら}さんが、{通訳|つうやく}には**{適任|てきにん}**だ。", en: "Tamura, who speaks both English and Chinese, is the right person to interpret.", alt: ["{適度|てきど}", "{担任|たんにん}", "{責任|せきにん}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "demand; requirement; to demand",
     note: "Asking for something as a right or requirement, so it is stronger than 要望 (a request) or 依頼 (asking a favor): 賃上げを要求する, 要求に応じる (meet demands). In the passive, 〜が要求される means “〜 is required.”",
     rx: ["ようきゅ", "ようぎゅう", "よっきゅう"],
-    book: { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が**{要求|ようきゅう}**されることを忘れてはいけない。", en: "From an employee's standpoint, the higher the salary the better, but you mustn't forget that to receive a high salary you are expected to produce results to match.", at: "gp/60" },
+    book: { ja: "社員の{立場|たちば}からいうと、{給料|きゅうりょう}は高ければ高いほどいいが、高い{給料|きゅうりょう}をもらうにはそれなりの{成果|せいか}が**{要求|ようきゅう}**されることを忘れてはいけない。", en: "From an employee's point of view, the higher the salary the better, but you mustn't forget that a high salary comes with the expectation of results to match.", at: "gp/60" },
     ex: [
       { ja: "{労働組合|ろうどうくみあい}は{会社|かいしゃ}に{給料|きゅうりょう}の{引|ひ}き{上|あ}げを**{要求|ようきゅう}**した。", en: "The labor union demanded that the company raise wages.", alt: ["{追求|ついきゅう}", "{探求|たんきゅう}", "{要約|ようやく}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "eyewitness",
     note: "From 目撃 (to witness): 事故を目撃する. A news and police word. The suspect is the 容疑者, and the victim is the 被害者.",
     rx: ["もくけきしゃ", "めげきしゃ", "もくげきじゃ"],
-    book: { ja: "**{目撃者|もくげきしゃ}**の{証言|しょうげん}からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
+    book: { ja: "**{目撃者|もくげきしゃ}**の{証言|しょうげん}からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' accounts, there seems to have been more than one culprit.", at: "gp/60" },
     ex: [
       { ja: "**{目撃者|もくげきしゃ}**の{話|はなし}によると、{車|くるま}は{赤信号|あかしんごう}を{無視|むし}して{走|はし}ってきたそうだ。", en: "According to an eyewitness, the car ran a red light.", alt: ["{視聴者|しちょうしゃ}", "{利用者|りようしゃ}", "{経営者|けいえいしゃ}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "testimony; statement (of a witness); to testify",
     note: "What a witness says about what happened: 法廷で証言する (testify in court), 証言を得る. 証拠 is physical evidence, and 発言 is any remark made in a discussion.",
     rx: ["しょげん", "しょうごん", "せいげん"],
-    book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
+    book: { ja: "{目撃者|もくげきしゃ}の**{証言|しょうげん}**からすると、{犯人|はんにん}は{複数|ふくすう}のようだ。", en: "Judging from the witnesses' accounts, there seems to have been more than one culprit.", at: "gp/60" },
     ex: [
       { ja: "{彼|かれ}は{裁判|さいばん}で、{事件|じけん}の{夜|よる}のことを**{証言|しょうげん}**した。", en: "At the trial, he testified about the night of the incident.", alt: ["{証券|しょうけん}", "{宣言|せんげん}", "{助言|じょげん}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "more than one; several; plural",
     note: "複数の人 / 複数の方法 (more than one). On forms, 複数回答可 means you may choose more than one answer. The opposite is 単数 (singular).",
     rx: ["ふくすい", "ふくかず", "ほくすう"],
-    book: { ja: "{目撃者|もくげきしゃ}の{証言|しょうげん}からすると、{犯人|はんにん}は**{複数|ふくすう}**のようだ。", en: "Judging from the witnesses' testimony, there seem to have been several culprits.", at: "gp/60" },
+    book: { ja: "{目撃者|もくげきしゃ}の{証言|しょうげん}からすると、{犯人|はんにん}は**{複数|ふくすう}**のようだ。", en: "Judging from the witnesses' accounts, there seems to have been more than one culprit.", at: "gp/60" },
     ex: [
       { ja: "この{問題|もんだい}には、**{複数|ふくすう}**の{解決方法|かいけつほうほう}が{考|かんが}えられる。", en: "There are several possible ways to solve this problem.", alt: ["{複雑|ふくざつ}", "{多数決|たすうけつ}", "{重複|ちょうふく}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to replace (something) by buying a new one",
     note: "車を買い換える, スマホの買い換え. Also written 買い替える, which is now the more common spelling. 取り替える is swapping or exchanging without necessarily buying.",
     rx: ["かいがえる", "ばいかえる", "かいかわる"],
-    book: { ja: "{故障|こしょう}の{程度|ていど}からして、このパソコンはもう**{買|か}い{換|か}えた**ほうがいいでしょう。", en: "Given the extent of the breakdown, you'd better replace this computer now.", at: "gp/60" },
+    book: { ja: "{故障|こしょう}の{程度|ていど}からして、このパソコンはもう**{買|か}い{換|か}えた**ほうがいいでしょう。", en: "Judging by how badly it's broken, you'd be better off replacing this computer.", at: "gp/60" },
     ex: [
       { ja: "{冷蔵庫|れいぞうこ}が{古|ふる}くなったので、{新|あたら}しいのに**{買|か}い{換|か}えた**。", en: "Our refrigerator had gotten old, so we replaced it with a new one.", alt: ["{取|と}り{消|け}した", "{払|はら}い{戻|もど}した", "{言|い}い{換|か}えた"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "slump; stagnation; being stuck at a low level",
     note: "Of the economy, sales, ratings or a team's results: 景気が低迷する, 低迷が続く, 低迷から抜け出す. 不振 is similar (業績不振). 低下 just means “falling.”",
     rx: ["ていまい", "てんめい", "ていめ"],
-    book: { ja: "{円高|えんだか}は{輸入業者|ゆにゅうぎょうしゃ}には{有利|ゆうり}である{一方|いっぽう}、{輸出|ゆしゅつ}の**{低迷|ていめい}**をもたらす{要因|よういん}ともなる。", en: "While a strong yen is advantageous for importers, it is also a factor that causes exports to slump.", at: "gp/61" },
+    book: { ja: "{円高|えんだか}は{輸入業者|ゆにゅうぎょうしゃ}には{有利|ゆうり}である{一方|いっぽう}、{輸出|ゆしゅつ}の**{低迷|ていめい}**をもたらす{要因|よういん}ともなる。", en: "While a strong yen benefits importers, it can also be a cause of sluggish exports.", at: "gp/61" },
     ex: [
       { ja: "{新型|しんがた}の{車|くるま}が{売|う}れず、{会社|かいしゃ}の{業績|ぎょうせき}は**{低迷|ていめい}**している。", en: "The new model isn't selling, and the company's results are in a slump.", alt: ["{低温|ていおん}", "{迷惑|めいわく}", "{停止|ていし}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "factor; main cause",
     note: "One of the factors behind a result, in analytical or formal writing: 成功の要因, 〜の要因となる. 原因 is the direct cause, often of something bad; 要因 sounds more like analysis.",
     rx: ["ようにん", "よいん", "ようえん"],
-    book: { ja: "{円高|えんだか}は{輸入業者|ゆにゅうぎょうしゃ}には{有利|ゆうり}である{一方|いっぽう}、{輸出|ゆしゅつ}の{低迷|ていめい}をもたらす**{要因|よういん}**ともなる。", en: "While a strong yen is advantageous for importers, it is also a factor that causes exports to slump.", at: "gp/61" },
+    book: { ja: "{円高|えんだか}は{輸入業者|ゆにゅうぎょうしゃ}には{有利|ゆうり}である{一方|いっぽう}、{輸出|ゆしゅつ}の{低迷|ていめい}をもたらす**{要因|よういん}**ともなる。", en: "While a strong yen benefits importers, it can also be a cause of sluggish exports.", at: "gp/61" },
     ex: [
       { ja: "{睡眠不足|すいみんぶそく}は、{肥満|ひまん}の**{要因|よういん}**の{一|ひと}つだと{言|い}われている。", en: "Lack of sleep is said to be one of the factors behind obesity.", alt: ["{要点|ようてん}", "{要望|ようぼう}", "{因果|いんが}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "spread; coming into wide use",
     note: "Technology, products or ideas becoming widespread: スマホの普及, 普及率 (penetration rate), 広く普及している. For a disease or rumor spreading, use 流行 or 広まる.",
     rx: ["ふっきゅう", "ふきゅ", "ほきゅう"],
-    book: { ja: "インターネットの**{普及|ふきゅう}**で、{簡単|かんたん}に{情報|じょうほう}が手に入るようになった。しかしその{一方|いっぽう}で、{個人情報|こじんじょうほう}の{流出|りゅうしゅつ}という問題も出てきた。", en: "With the spread of the internet, information has become easy to obtain. On the other hand, however, the problem of personal information leaks has also emerged.", at: "gp/61" },
+    book: { ja: "インターネットの**{普及|ふきゅう}**で、{簡単|かんたん}に{情報|じょうほう}が手に入るようになった。しかしその{一方|いっぽう}で、{個人情報|こじんじょうほう}の{流出|りゅうしゅつ}という問題も出てきた。", en: "With the spread of the internet, information has become easy to obtain. At the same time, though, leaks of personal information have become a problem.", at: "gp/61" },
     ex: [
       { ja: "{電子|でんし}マネーの**{普及|ふきゅう}**で、{現金|げんきん}を{持|も}ち{歩|ある}く{人|ひと}が{減|へ}った。", en: "With the spread of electronic money, fewer people carry cash.", alt: ["{普通|ふつう}", "{追及|ついきゅう}", "{復旧|ふっきゅう}"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "profit; surplus; being in the black",
     note: "黒字になる / 黒字に転じる (turn a profit), 貿易黒字 (trade surplus). The opposite is 赤字.",
     rx: ["こくじ", "くろし", "くろもじ"],
-    book: { ja: "東南{鉄道|てつどう}が17{億|おく}円の**{黒字|くろじ}**だった{一方|いっぽう}で、西北{鉄道|てつどう}は20{億|おく}円の{赤字|あかじ}だったそうだ。", en: "Apparently Tonan Railway made a profit of 1.7 billion yen, while Seihoku Railway made a loss of 2 billion yen.", at: "gp/61" },
+    book: { ja: "東南{鉄道|てつどう}が17{億|おく}円の**{黒字|くろじ}**だった{一方|いっぽう}で、西北{鉄道|てつどう}は20{億|おく}円の{赤字|あかじ}だったそうだ。", en: "I hear Tonan Railway was 1.7 billion yen in the black, while Seihoku Railway was 2 billion yen in the red.", at: "gp/61" },
     ex: [
       { ja: "{新商品|しんしょうひん}がヒットして、{会社|かいしゃ}は{三年|さんねん}ぶりに**{黒字|くろじ}**になった。", en: "Its new product was a hit, and the company made a profit for the first time in three years.", alt: ["{赤字|あかじ}", "{黒板|こくばん}", "{数字|すうじ}"] },
     ] },
@@ -179,7 +179,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "deficit; loss; being in the red",
     note: "赤字が出る, 赤字経営 (running at a loss), 財政赤字 (budget deficit). Literally “red characters,” so it can also mean corrections written in red ink (赤字で直す).",
     rx: ["せきじ", "あかし", "あかもじ"],
-    book: { ja: "東南{鉄道|てつどう}が17{億|おく}円の{黒字|くろじ}だった{一方|いっぽう}で、西北{鉄道|てつどう}は20{億|おく}円の**{赤字|あかじ}**だったそうだ。", en: "Apparently Tonan Railway made a profit of 1.7 billion yen, while Seihoku Railway made a loss of 2 billion yen.", at: "gp/61" },
+    book: { ja: "東南{鉄道|てつどう}が17{億|おく}円の{黒字|くろじ}だった{一方|いっぽう}で、西北{鉄道|てつどう}は20{億|おく}円の**{赤字|あかじ}**だったそうだ。", en: "I hear Tonan Railway was 1.7 billion yen in the black, while Seihoku Railway was 2 billion yen in the red.", at: "gp/61" },
     ex: [
       { ja: "{客|きゃく}が{減|へ}り、この{店|みせ}は{毎月|まいつき}**{赤字|あかじ}**が{続|つづ}いている。", en: "Customers have dropped off, and this shop has been losing money every month.", alt: ["{黒字|くろじ}", "{赤飯|せきはん}", "{文字|もじ}"] },
     ] },
@@ -187,7 +187,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "attracting (a factory, company, event or tourists) to a place",
     note: "Said of places and governments: 企業誘致, 工場を誘致する, オリンピックの誘致, 観光客の誘致. Inviting a person to a party is 招待, and 誘う is inviting someone in everyday life.",
     rx: ["ゆうじ", "ようち", "ゆち"],
-    book: { ja: "みどり市では工場**{誘致|ゆうち}**を{喜|よろこ}ぶ市民がいる{一方|いっぽう}、", en: "In Midori City, while some residents welcome efforts to attract factories, (others …)", at: "gp/61" },
+    book: { ja: "みどり市では工場**{誘致|ゆうち}**を{喜|よろこ}ぶ市民がいる{一方|いっぽう}、", en: "In Midori City, while some residents welcome the push to attract factories, (others …)", at: "gp/61" },
     ex: [
       { ja: "{市|し}は{国際会議|こくさいかいぎ}の**{誘致|ゆうち}**に{力|ちから}を{入|い}れている。", en: "The city is working hard to attract international conferences.", alt: ["{誘惑|ゆうわく}", "{誘拐|ゆうかい}", "{一致|いっち}"] },
     ] },
@@ -195,7 +195,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "countermeasure; measures (to deal with a problem)",
     note: "対策を立てる / 講じる (take measures), 地震対策, 暑さ対策, and for students 試験対策 (exam preparation). 政策 is government policy in general.",
     rx: ["たいざく", "だいさく", "ついさく"],
-    book: { ja: "人口{減少|げんしょう}が進む{地域|ちいき}もあり、{政府|せいふ}は**{対策|たいさく}**を{検討|けんとう}している。", en: "… there are also regions where the population keeps shrinking, and the government is considering countermeasures.", at: "gp/61" },
+    book: { ja: "人口{減少|げんしょう}が進む{地域|ちいき}もあり、{政府|せいふ}は**{対策|たいさく}**を{検討|けんとう}している。", en: "… other regions keep losing people, and the government is considering countermeasures.", at: "gp/61" },
     ex: [
       { ja: "{大雨|おおあめ}に{備|そな}えて、{町|まち}は{早|はや}めに**{対策|たいさく}**を{立|た}てた。", en: "To prepare for heavy rain, the town drew up measures early.", alt: ["{対立|たいりつ}", "{散策|さんさく}", "{対面|たいめん}"] },
     ] },
@@ -219,7 +219,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "picking up and dropping off; transportation to and from",
     note: "Formal equivalent of 送り迎え: 送迎バス (shuttle bus), 無料送迎, 子どもの送迎. 歓迎 means welcoming, and 運送 is moving freight.",
     rx: ["そうけい", "そうごう", "そげい"],
-    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because there are many hills and it is difficult for elderly people to go out shopping, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
+    book: { ja: "この村では、{坂道|さかみち}が多く{高齢者|こうれいしゃ}が買い物に出るのが{困難|こんなん}であることから、スーパーが**{送迎|そうげい}**バスを{運行|うんこう}しているそうだ。", en: "In this village, because the roads are hilly and it's hard for elderly people to get out to shop, the supermarket apparently runs a shuttle bus.", at: "gp/62" },
     ex: [
       { ja: "このホテルには、{駅|えき}からの**{送迎|そうげい}**サービスがある。", en: "This hotel offers a shuttle service from the station.", alt: ["{歓迎|かんげい}", "{運送|うんそう}", "{迎撃|げいげき}"] },
     ] },
@@ -227,7 +227,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "break-in; intrusion; invasion",
     note: "Getting in where you have no right to be: 家に侵入する, 不法侵入 (trespassing), ウイルスの侵入. Don't mix it up with 進入 (a vehicle entering: 進入禁止) or 浸入 (water seeping in), which are read the same way.",
     rx: ["しんいゅう", "ちんにゅう", "しにゅう"],
-    book: { ja: "{犯人|はんにん}はそこから**{侵入|しんにゅう}**したと思われます。", en: "It is thought the culprit got in through there.", at: "gp/62" },
+    book: { ja: "{犯人|はんにん}はそこから**{侵入|しんにゅう}**したと思われます。", en: "The intruder most likely got in through there.", at: "gp/62" },
     ex: [
       { ja: "{夜中|よなか}に{何者|なにもの}かが{事務所|じむしょ}に**{侵入|しんにゅう}**し、パソコンを{盗|ぬす}んだ。", en: "In the middle of the night someone broke into the office and stole a computer.", alt: ["{浸透|しんとう}", "{加入|かにゅう}", "{侵略|しんりゃく}"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "recession; economic slump; hard times",
     note: "The everyday word for a bad economy: 不景気で店がつぶれる. News prefers 不況. The opposite is 好景気, and 景気 alone is the state of the economy (景気がいい).",
     rx: ["ふけいぎ", "ぶけいき", "ふけき"],
-    book: { ja: "**{不景気|ふけいき}**で{倒産|とうさん}する{企業|きぎょう}がある＿＿、{優|すぐ}れた{技術|ぎじゅつ}で世界的なシェアを持つに{至|いた}った{企業|きぎょう}もある。", en: "While some companies go bankrupt in the recession, others have come to hold a global market share thanks to their outstanding technology.", at: "ch/7" },
+    book: { ja: "**{不景気|ふけいき}**で{倒産|とうさん}する{企業|きぎょう}がある＿＿、{優|すぐ}れた{技術|ぎじゅつ}で世界的なシェアを持つに{至|いた}った{企業|きぎょう}もある。", en: "While some companies go bankrupt in the recession, others have grown to command a global market share thanks to their outstanding technology.", at: "ch/7" },
     ex: [
       { ja: "**{不景気|ふけいき}**のせいで、ボーナスが{減|へ}ってしまった。", en: "Because of the recession, my bonus went down.", alt: ["{不器用|ぶきよう}", "{不機嫌|ふきげん}", "{不注意|ふちゅうい}"] },
     ] },
@@ -355,7 +355,7 @@ TRY.registerVocab({ ch: 7, words: [
     en: "to reach; to arrive at; to come to (a state or result)",
     note: "Formal, usually 〜に至る: 結論に至る (reach a conclusion), 大事故に至る (end in a serious accident), 今に至るまで (right up to now). 至る所 means “everywhere.”",
     rx: ["いだる", "しる", "いたす"],
-    book: { ja: "{不景気|ふけいき}で{倒産|とうさん}する{企業|きぎょう}がある＿＿、{優|すぐ}れた{技術|ぎじゅつ}で世界的なシェアを持つに**{至|いた}った**{企業|きぎょう}もある。", en: "While some companies go bankrupt in the recession, others have come to hold a global market share thanks to their outstanding technology.", at: "ch/7" },
+    book: { ja: "{不景気|ふけいき}で{倒産|とうさん}する{企業|きぎょう}がある＿＿、{優|すぐ}れた{技術|ぎじゅつ}で世界的なシェアを持つに**{至|いた}った**{企業|きぎょう}もある。", en: "While some companies go bankrupt in the recession, others have grown to command a global market share thanks to their outstanding technology.", at: "ch/7" },
     ex: [
       { ja: "{長|なが}い{話|はな}し{合|あ}いの{末|すえ}、{両国|りょうこく}は{合意|ごうい}に**{至|いた}った**。", en: "After long talks, the two countries reached an agreement.", alt: ["{届|とど}いた", "{咲|さ}いた", "{移|うつ}った"] },
     ] },
