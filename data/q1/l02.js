@@ -258,9 +258,9 @@ TRY.registerLesson({
       "Subject: Request for a letter of recommendation",
       "Professor Suzuki,",
       "Here in Japan, cold winds are blowing and it is cold every day. I imagine you have been having one snowy day after another there. I hope you are doing well. I have finally started getting used to life in Japan, and I am enjoying every day. At New Year's I had osechi for the first time. My host family taught me the meaning of each dish and how it is made, and now I want to learn more about Japanese food.",
-      "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Exchange Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
-      "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much.",
-      "It's the time of year when it's easy to catch a cold, so please take good care of yourself.",
+      "The reason I am writing today is that I have a favor to ask. In Minamiyama City, where my university is, there is an internship program for international students every spring. Participants help with the work of the city's International Relations Division while holding cross-cultural exchange events every week at elementary and junior high schools and community centers. I hear that at the events, participants teach local people about the culture of their own countries, such as food and language. This kind of program is something I can only experience while I am in Japan, and I thought it would surely be useful when I look for a job in the future, so I have decided to apply.",
+      "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be grateful for a reply. Thank you very much.",
+      "It is the time of year when colds are easy to catch, so please take good care of yourself.",
       "George Taylor",
       "georgetaylor@abcde.com"
      ]
@@ -420,7 +420,7 @@ TRY.registerLesson({
       "Dear Professor Suzuki,",
       "Here in Japan the cherry blossoms are over, and it is now the season of beautiful fresh greenery. I imagine it is starting to get hot there by now. How have you been? It will soon be summer vacation. Will you be teaching the summer course again this year?",
       "The other day, my two-month internship program came to a successful end. Thank you again for taking the time, busy as you were, to write me a letter of recommendation. It was a short time, but thanks to you, I had a wonderful experience, one I could never have gotten from a textbook. Teaching English was hard and preparing was a lot of work, but the more I did it, the more I came to enjoy it. I was also able to get to know people of different generations, and my understanding of Japan deepened.",
-      "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Exchange Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that wasn't so. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
+      "On top of that, I made new discoveries about Japanese culture too. For example, there was the time I went cherry-blossom viewing in a park at an International Relations Division event. I had thought ohanami was just looking at the cherry blossoms, but I realized that wasn't so. Lots of people gathered under the cherry trees, eating boxed lunches and drinking, and it was just like being in an izakaya. It's something you would never see in America, so it was really interesting.",
       "The internship is over now, but actually, it has been arranged for me to start another international exchange activity as a volunteer next month. A friend I made in this program invited me, and once a week I'll be teaching American culture and customs to elementary school children. It is thanks to you that I got this opportunity. Thank you so much.",
       "It is only a small gift, but I am sending you a pen from the university here along with this letter. I hope you like it.",
       "Well then, I am looking forward to seeing you again and talking about many things when I go back there for summer vacation.",
@@ -662,7 +662,7 @@ TRY.registerLesson({
          "t": "p",
          "text": {
           "ja": "それで、お忙しいところ急なお願いなのですが、{推薦状|すいせんじょう}が必要なので書いていただけないでしょうか。申し込みの{締|し}め{切|き}りは1カ月後なので、2月{上旬|じょうじゅん}までに送っていただければ{大丈夫|だいじょうぶ}です。突然のメールで申し訳ありませんが、お返事をいただけるとうれしいです。よろしくお願いいたします。",
-          "tr": "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be glad to hear back from you. Thank you very much."
+          "tr": "So, I know you are busy and this is a sudden request, but I need a letter of recommendation. Could you possibly write one for me? The application deadline is a month from now, so it would be fine if you could send it by early February. I apologize for the sudden e-mail, but I would be grateful for a reply. Thank you very much."
          }
         }
        ]
@@ -701,7 +701,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "{昨日|きのう}は雪が**降り**、風も強くて寒かった。（←雪が降って）",
-         "tr": "Yesterday it snowed and the wind was strong, so it was cold."
+         "tr": "It snowed yesterday, and the wind was strong too, so it was cold."
         },
         {
          "n": 2,
@@ -974,7 +974,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "**〜てくる／〜ていく** place a change on a time line with the speaker at *now*: くる brings it up to the present (*has been getting, has started to*), いく carries it forward (*will go on, more and more*). English usually needs *getting* or *keep*: 寒くなってきた (*it's getting cold*), 増えていくだろう (*will keep increasing*).\n\n- 慣れた reports the change as done (*I'm used to it*, as student B says in example 2); 慣れてきた keeps it under way.\n- Verbs that are not changes need ようになる first: 話せるようになってきた (*I'm getting to where I can speak*).\n- The same forms also mean movement: 買ってくる (*go buy and come back*), 持っていく (*take along*); context decides.\n\nQuartet II L7-1 〜つつある is the written, report-style *is in the process of changing*. TRY! N2 #65 〜にしたがって and its ＋Plus 〜につれて tie two changes together: *as X, Y*."
+     "deepDive": "**〜てくる／〜ていく** place a change on a time line with the speaker at *now*: くる brings it up to the present (*has been getting, has started to*), いく carries it forward (*will go on, more and more*). English usually needs *getting* or *keep*: 寒くなってきた (*it's getting cold*), 増えていくだろう (*will keep increasing*).\n\n- 慣れた reports the change as done (*I'm used to it*, as student B says in example 2); 慣れてきた keeps it under way.\n- For a change in ability or habit, add ようになる: 話せるようになってきた (*I'm getting to where I can speak*). An action verb without it gives the other reading, an action kept up until now: 10年日本語を勉強してきた (*I've studied Japanese for ten years*).\n- The same forms also mean movement: 買ってくる (*go buy and come back*), 持っていく (*take along*); context decides.\n\nQuartet II L7-1 〜つつある is the written, report-style *is in the process of changing*. TRY! N2 #65 〜にしたがって and its ＋Plus 〜につれて tie two changes together: *as X, Y*."
     },
     {
      "t": "note",
@@ -1200,7 +1200,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**しか〜ない** is *only* with a note of *not enough*: the sentence is negative, and the speaker usually implies the amount or range falls short of what was wanted or expected. だけ only states the limit: 1人だけいる (*there's just one*) vs. 1人しかいない (*there's only one, too few*).\n\n- The predicate must be negative: ✗3分しかかかる.\n- しか replaces は, が and を but follows other particles: 日曜日にしか, 母にしか, 東京からしか.\n- After a verb, 〜しかない means *have no choice but to*: 歩くしかない (*there's nothing for it but to walk*). After a noun with nothing else it is *the only one*: ここしかない in the listening is *this is the only place*.\n\nPitfall: a positive request uses だけ, not しか: これだけください (*just this, please*). TRY! N2 #58 〜のみ is the written *only*, with no negative."
+     "deepDive": "**しか〜ない** is *only* with a note of *not enough*: the sentence is negative, and the speaker usually implies the amount or range falls short of what was wanted or expected. だけ only states the limit: 1人だけ来た (*just one came*) vs. 1人しか来なかった (*only one came, too few*).\n\n- The predicate must be negative: ✗3分しかかかる.\n- しか replaces は, が and を but follows other particles: 日曜日にしか, 母にしか, 東京からしか.\n- After a verb, 〜しかない means *have no choice but to*: 歩くしかない (*there's nothing for it but to walk*). After a noun with nothing else it is *the only one*: ここしかない in the listening is *this is the only place*.\n\nPitfall: a positive request uses だけ, not しか: これだけください (*just this, please*). TRY! N2 #58 〜のみ is the written *only*, with no negative."
     },
     {
      "t": "note",
@@ -1366,7 +1366,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜ことにする** reports a decision the subject made: ことにした (*decided to*) presents the plan as one's own choice, which is why George announces 申し込むことにしました. 〜ことにしている is a rule one has set and keeps: 毎朝6時に起きることにしている (*I make it a rule to*).\n\n- Only a dictionary or ない form of a verb the subject controls comes before it; no potential forms (✗話せることにする).\n- ことにしよう proposes a decision to a group: *let's make it that ~*.\n\nCompare **〜ことになる** (L2-9), a decision that came about or was made with others, and **〜ようにする** (L1-8), an effort rather than a firm rule. Noun + にする (L5-8) chooses between items: コーヒーにする (*I'll have coffee*). TRY! N2 #119 〜たことにする is different: *pretend, treat as if*: 聞かなかったことにする (*I'll pretend I didn't hear that*)."
+     "deepDive": "**〜ことにする** reports a decision the subject made: ことにした (*decided to*) presents the plan as one's own choice, which is why George announces 申し込むことにしました. 〜ことにしている is a rule one has set and keeps: 毎朝6時に起きることにしている (*I make it a rule to*).\n\n- Before it comes the dictionary or ない form of an action the subject can choose; with a past or potential form it can mean *treat as*, as with 〜たことにする below.\n- ことにしよう proposes a decision to a group: *let's make it that ~*.\n\nCompare **〜ことになる** (L2-9), a decision that came about or was made with others, and **〜ようにする** (L1-8), an effort rather than a firm rule. Noun + にする (L5-8) chooses between items: コーヒーにする (*I'll have coffee*). TRY! N2 #119 〜たことにする is different: *pretend, treat as if*: 聞かなかったことにする (*I'll pretend I didn't hear that*)."
     },
     {
      "t": "note",
@@ -1623,7 +1623,7 @@ TRY.registerLesson({
        "side": true
       }
      ],
-     "deepDive": "The three set phrases use 気 differently. **〜に気がつく** (also 気づく) is noticing something that was there all along: 財布を忘れたのに気がついた (*I realized I'd forgotten my wallet*). **〜に気をつける** is paying attention to avoid trouble; お体にお気をつけください is a standard letter closing (*please take care of yourself*), and 気をつけて alone means *take care* when parting. **〜が気に入る** is a liking one takes to a particular thing, usually as 気に入った or 気に入っている: このかばん、気に入ってる (*I love this bag*).\n\n- 気に入る marks the liked thing with が (を in 〜を気に入る is also common) and does not take whole categories: 甘い物が好きだ.\n\nPitfall: 気にする is *worry about*, not *notice*: 人の目を気にする (*worry what people think*). Quartet I L4-2 〜ような気がする is *have a feeling that*."
+     "deepDive": "The three set phrases use 気 differently. **〜に気がつく** (also 気づく) is noticing or realizing something: 財布を忘れたのに気がついた (*I realized I'd forgotten my wallet*). **〜に気をつける** is paying attention to avoid trouble; お体にお気をつけください is a standard letter closing (*please take care of yourself*), and 気をつけて alone means *take care* when parting. **〜が気に入る** is a liking one takes to a particular thing, usually as 気に入った or 気に入っている: このかばん、気に入ってる (*I really like this bag*).\n\n- 気に入る marks the liked thing with が (を in 〜を気に入る is also common) and does not take whole categories: 甘い物が好きだ.\n\nPitfall: 気にする is *worry about*, not *notice*: 人の目を気にする (*worry what people think*). Quartet I L4-2 〜ような気がする is *have a feeling that*."
     },
     {
      "t": "note",
@@ -2097,7 +2097,7 @@ TRY.registerLesson({
          "n": 1,
          "page": 48,
          "ja": "先輩が仕事を紹介してくれたおかげで、日本で働ける**ことになりました**。",
-         "tr": "My senpai introduced me to a job, and thanks to that, it's been settled that I'll be able to work in Japan."
+         "tr": "Thanks to my senpai, who put me in touch with a job, it's now settled that I'll be able to work in Japan."
         },
         {
          "n": 2,
@@ -2190,7 +2190,7 @@ TRY.registerLesson({
           {
            "sp": "{秘書|ひしょ}",
            "ja": "3時にT社の{山田|やまだ}社長と会う**ことになっています**。〔予定〕",
-           "tr": "You're scheduled to meet with President Yamada of T Company at three. [plan]"
+           "tr": "You're scheduled to meet with President Yamada of T Company at three. [schedule]"
           }
          ]
         }
@@ -2430,7 +2430,7 @@ TRY.registerLesson({
      "t": "p",
      "text": {
       "ja": "（ジョージはアメリカに帰った後、お世話になった国際交流課の人に手紙を書きました。）",
-      "tr": "(After returning to America, George wrote a letter to the people at the International Exchange Office who had helped him.)"
+      "tr": "(After returning to America, George wrote a letter to the people at the International Relations Division who had helped him.)"
      }
     },
     {
@@ -2461,9 +2461,9 @@ TRY.registerLesson({
       "Dear all,",
       "It has been getting hot here; how are things in Minamiyama? Are you all doing well? I returned home in May and am now enjoying my summer vacation.",
       "Now then, thank you so much for all your help during the spring internship. Thanks to all of you, I was able to learn a great deal about Japan and cross-cultural exchange. Thank you also for giving me so much advice about the exchange activities. It is nothing much, but I am sending some American chocolate along with this letter. I hope you will all enjoy it.",
-      "Well then, I imagine the rainy season will be starting soon, but please take good care of yourselves. When you come to America, please be sure to let me know. Sincerely,",
+      "Well then, I imagine the rainy season will be starting soon, but please take good care of yourselves. If you are ever in America, please be sure to let me know. Sincerely,",
       "June 10, 20XX",
-      "To everyone at the International Exchange Office"
+      "To everyone at the International Relations Division"
      ],
      "roles": [
       {
@@ -2897,7 +2897,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "{実|じつ}は、{南山市|みなみやまし}の{国際交流課|こくさいこうりゅうか}のインターンシップに＿＿\nんですが、＿＿ないでしょうか。",
-            "tr": "Actually, I'd ＿＿ for the internship at the International Exchange Office of Minamiyama City. Could you possibly ＿＿?"
+            "tr": "Actually, I'd ＿＿ for the internship at the International Relations Division of Minamiyama City. Could you possibly ＿＿?"
            },
            "answer": [
             "申し込みたい",
@@ -2949,7 +2949,7 @@ TRY.registerLesson({
                "sp": "学生",
                "v": "f",
                "ja": "コンテストに出るので、一度スピーチを聞いていただけないでしょうか。",
-               "tr": "I'm entering a contest, so could you possibly listen to my speech once?"
+               "tr": "I'm entering a contest, so could you possibly listen to my speech sometime?"
               },
               {
                "sp": "先生",
@@ -3054,7 +3054,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❷**実は**、{南山市|みなみやまし}の国際交流課のインターンシップに申し込みたい**んですが**、{推薦状|すいせんじょう}を書い**ていただけないでしょうか**。ぜひやってみたいんです。",
-       "tr": "Actually, I'd like to apply for the internship at the International Exchange Office of Minamiyama City. Could you possibly write me a letter of recommendation? I'd really like to give it a try."
+       "tr": "Actually, I'd like to apply for the internship at the International Relations Division of Minamiyama City. Could you possibly write me a letter of recommendation? I'd really like to give it a try."
       },
       {
        "sp": "中",
@@ -3967,7 +3967,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❸町の人と交流することができた**し**、自分の国について知ってもらえた**し**、とてもおもしろかったです。",
-       "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
+       "tr": "I got to interact with people in the town, and they got to learn about my country, so it was really interesting."
       },
       {
        "sp": "中",
@@ -4093,7 +4093,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "町の人と交流することができた**し**、自分の国について\n知ってもらえた**し**、とてもおもしろかったです。",
-        "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
+        "tr": "I got to interact with people in the town, and they got to learn about my country, so it was really interesting."
        }
       },
       {
@@ -4243,7 +4243,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸{{町の人と交流することができた}}**し**、{{自分の国について知ってもらえた}}**し**、{{とてもおもしろかったです}}。",
-         "tr": "I got to interact with people in the town, and I got to tell them about my country, so it was really interesting."
+         "tr": "I got to interact with people in the town, and they got to learn about my country, so it was really interesting."
         },
         {
          "sp": "先生",
