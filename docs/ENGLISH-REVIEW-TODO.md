@@ -54,6 +54,17 @@ why: test each claim against your own knowledge and the book's examples; any ✗
 odd) or marked "?"; each contrast must be correct; remove what you can't defend. Same rules, validation and commit
 procedure as the brief above.
 
+## Third pass (N2, N1): native-reader pass on sentence translations
+
+Two translator passes are done. This pass reads as a native English editor first: for every sentence translation
+(sample text, examples, note/Plus examples, practice, Check, review, reading, listening), read the English on its
+own. Mark anything a native speaker would not write: stiff or textbook phrasing, odd collocations, unclear
+reference (who is "they"?), wrong tense sequence, British usage, register that doesn't fit the speaker (a casual
+dialogue that sounds written, a notice that sounds chatty), sentences that sound alike across one point's examples.
+Then check each marked line against the Japanese and rewrite it so it is both natural and exact — never trade
+accuracy for smoothness, and keep the taught pattern's meaning visible. Leave lines that already read well.
+deepDive / why: only fix claims that are wrong. Same rules, validation and commit procedure as the brief.
+
 ## Vocab units (TRY vocab/chNN.js, Quartet vocabNN.js)
 
 TRY vocab lists are ours entirely (data/SCHEMA.md "Vocabulary"): check each word's `en` gloss (accurate senses, most
