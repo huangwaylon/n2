@@ -145,7 +145,7 @@ TRY.registerLesson({
        "n": "5.",
        "text": {
         "ja": "もし加賀屋があなたの国に進出するなら、どのようなことに気をつけるべきだと思いますか。どんなサービスがあるといいと思いますか。",
-        "tr": "If Kagaya were to open in your country, what do you think it should be careful about? What kinds of services do you think it would be good for it to offer?"
+        "tr": "If Kagaya were to open in your country, what do you think it should be careful about? What services do you think it would be good for it to offer?"
        }
       }
      ]
@@ -312,17 +312,17 @@ TRY.registerLesson({
      "tr": [
       "We asked the okami (proprietress) of Kagaya, which has held first place overall for many years in the \"Top 100 Hotels and Ryokan in Japan Chosen by Professionals,\" about ryokan hospitality.",
       "First of all, what kind of place is a ryokan?",
-      "I think the ryokan is part of a culture found only in Japan, one that represents Japan. It begins with welcoming guests when they arrive, and then we show them to their room while telling them about the inn. Meanwhile, I figure out their yukata size from how much their shoulder line differs from mine, and keep it in mind so I can bring one later. Then we bring a hot towel, matcha, and sweets to the room and greet the guests. At mealtimes, too, we go in and out of the room at least seven or eight times, making sure guests can enjoy each dish when it tastes its best. Being waited on hand and foot like this, with every need taken care of, is what ryokan service is all about. A ryokan is a place apart from everyday life; in other words, it is also a place where guests can shake off the fatigue of working in the city and relax.",
+      "I think the ryokan is a form of culture that exists only in Japan and represents the country. Our service begins with greeting guests when they arrive; then we show them to their room, explaining the inn's facilities along the way. Meanwhile, I figure out their yukata size from how much their shoulder line differs from mine, and keep it in mind so I can bring one later. Then we bring a hot towel, matcha, and sweets to the room and greet the guests. During meals, we go in and out of the room at least seven or eight times, taking care that guests can enjoy each dish at its very best. Being waited on hand and foot like this, with every need taken care of, is what ryokan service is all about. A ryokan is a place apart from everyday life; in other words, it is also a place where guests can shake off the fatigue of working in the city and relax.",
       "Kagaya is also called \"the inn of omotenashi.\" Please tell us about the spirit of that omotenashi.",
       "Omotenashi means understanding how guests feel and serving them accordingly. In the past, people said \"ten people, ten colors,\" meaning everyone is different, but now we live in an age when people say one person has not just ten colors but a hundred. In other words, not only does each guest want different service, but even the same guest's wishes can change depending on the occasion. If you just provide service by the book, that only earns you 60 points. We are always working out ways to anticipate what guests have in mind and make it a reality for them. Unless you feel that your guests' heartfelt delight is your own joy as well, you cannot offer hospitality in the true sense.",
       "What kind of omotenashi is unique to Kagaya?",
       "We never say \"no\" or \"we can't.\" Our predecessor taught us that if we don't know something, we should look it up and give an answer. Even if we can't reply right away, we make sure to give an answer the guest will be fully satisfied with.",
       "I see. By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
-      "First, we research all kinds of things about the guest's country, such as its culture and customs. What guests especially appreciate is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
+      "First, we research all kinds of things about the guest's country, such as its culture and customs. One thing guests love is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were overjoyed and deeply moved. Even if we can't always manage a perfect 100, I think what matters is how we present to guests what we have learned through our research.",
       "Then what about the language barrier?",
       "We have staff members who can speak English and Chinese, but in other languages we communicate with gestures. We also carry around papers with simple greetings and necessary expressions like \"Is there anything I can do for you?\" written in the guest's language.",
       "Finally, is there anything you would like to change at Kagaya in the future, and anything you want to keep?",
-      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that this is a kind of inn found only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and sometimes we actually get scolded instead: \"Please don't keep coming in and out.\" I think what's necessary is to do what guests want, not to do what they don't want, and to keep polishing ourselves every day."
+      "Well, I don't think our basic way of thinking will change much. I don't want to change the principle of doing what pleases our guests without ever losing our smiles. While letting guests feel that this is a kind of inn found only in Japan, I want to keep building on that and change with the times whatever needs changing. For example, in my predecessor's day, we used to serve tea at least ten times between a guest's arrival and departure, but now many guests value their privacy, and far from being pleased, some actually scold us: \"Please don't keep coming in and out.\" I think what's needed is to do what guests want done, not to do what they don't, and to keep refining ourselves day by day."
      ]
     },
     {
@@ -426,13 +426,13 @@ TRY.registerLesson({
       "「朝日新聞」2014年8月2日（一部改）"
      ],
      "tr": [
-      "Selling bento boxes overseas is, for Japanese people, a case of \"it's darkest right under the lamp\" (not noticing what's right under their noses). Why did you set your sights on it?",
-      "A bento is a small universe. It carries an aesthetic sense unique to Japan, one that expresses concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always an airtight container with no dividers holding just sandwiches, if it's sandwiches, or just pasta, if it's pasta. A Japanese bento, though, is packed colorfully with side dishes, with thought given to the person who will eat it and care taken over nutritional balance.",
-      "You eat it in about 20 minutes, but when you're hungry and can hardly wait, you picture the moment you open the lid (\"I wonder what's in it today?\") as much as an hour beforehand and get all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
+      "For Japanese people, selling bento boxes overseas was a case of \"it's darkest right under the lamp\": an idea right under their noses that they never noticed. Why did you set your sights on it?",
+      "A bento is a small universe. A uniquely Japanese aesthetic lives in it: expressing concentrated beauty within a limited space. Of course, in France people do sometimes bring lunch from home too, but it's almost always just sandwiches or just pasta in an airtight container with no dividers. With a Japanese bento, though, you think about the person who will eat it, pay attention to nutritional balance, and pack the side dishes so they look colorful.",
+      "It takes only about 20 minutes to eat, but when you're so hungry you can hardly wait, you start picturing the moment you'll lift the lid (\"I wonder what's in it today?\") a whole hour beforehand, all excited, your heart pounding. I was convinced it would definitely sell in France, where people place great value on cooking and on taking their time over a meal. In any country there are people who want to make their own food and take it to work or school, and Japanese bento boxes can be used not just for Japanese food but for food from all over the world. That's what I thought.",
       "I hear that at first the manufacturers gave you puzzled looks.",
-      "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" But since then I've developed, together with Japanese manufacturers, colorful bento boxes with an ice pack built into the lid, and, taking a hint from the kokeshi-style knickknacks that were a craze in France a little while ago, come up with a kokeshi-shaped bento box whose head becomes a bowl. These have now become popular products all over the world.",
+      "Back then, they hadn't yet thought of actively selling overseas, so instead it was they who asked me, \"Why?\" But now I've developed colorful bento boxes with an ice pack built into the lid together with Japanese manufacturers, and, taking a hint from the kokeshi-style knickknacks that were all the rage in France a little while ago, come up with a kokeshi-shaped bento box whose head doubles as a bowl. These have now become popular products all over the world.",
       "Your shop in Kyoto has an atmosphere that wouldn't be out of place on a street corner in France. With molds that can reshape boiled eggs to look like rabbit faces, silicone food dividers and so on, you end up losing track of time.",
-      "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others make people say \"Wow! How cute!\" the moment you take them out.",
+      "I research, in my own way, what kinds of things are selling, and I stock only things I truly like, things I'd want myself. Some are modern and stylish, and others make people go \"Wow! So cute!\" the moment their owner takes them out.",
       "You're also very particular about traditional Japanese products, aren't you?",
       "For example, magewappa (bentwood boxes) with a lovely cedar scent. Some cost nearly 10,000 yen, but they're popular with people interested in traditional Japanese crafts, and apparently they're also used as interior decor. Also, the lacquerware bento boxes made in Ishikawa Prefecture are made of plastic and use new techniques such as silk-screen printing, yet their patterns, which look as if a craftsman had painted them stroke by stroke, have won universal acceptance.",
       "You're a real evangelist for Japan, aren't you?",
@@ -519,7 +519,7 @@ TRY.registerLesson({
         "Q. Why did you come to Japan?",
         "When I was in high school, I started listening to Japanese songs, and through those songs I became interested in the Japanese language. So I entered a university where I could major in Japanese. In my second year, I wanted to actually learn Japanese culture and language in Japan, so I decided to study abroad.",
         "Q. I hear you had some hard times in Japan.",
-        "I had studied Japanese before coming, and my Japanese was good enough for everyday communication, so I don't think I had much trouble with not being understood. But there were more Japanese customs than I expected that I wasn't used to or didn't know about…. Once at a drinking party I got scolded for drinking my drink before the toast (laughs). Even now I still can't get the timing of bowing right. Some things you can only learn by actually living in Japan, but since people assume that if you speak Japanese you also know the manners and customs, I wish I had learned more beforehand…."
+        "I had studied Japanese before coming, and my Japanese was good enough for everyday communication, so I don't think I had much trouble with not being understood. But there were more Japanese customs than I expected that I wasn't used to or didn't know about…. Once at a drinking party I got scolded for taking a drink before the toast (laughs). I'm still not used to when to bow. Some things you can only learn by actually living in Japan, but since people assume that if you speak Japanese you also know the manners and customs, I wish I had learned more beforehand…."
        ]
       },
       {
@@ -554,7 +554,7 @@ TRY.registerLesson({
          ],
          "tr": [
           "I hear that at first the manufacturers gave you puzzled looks.",
-          "Back then, they hadn't yet thought of actively selling overseas, so they turned the question back on me: \"Why?\" (…) These have now become popular products all over the world."
+          "Back then, they hadn't yet thought of actively selling overseas, so instead it was they who asked me, \"Why?\" (…) These have now become popular products all over the world."
          ]
         }
        ]
@@ -680,7 +680,7 @@ TRY.registerLesson({
          ],
          "tr": [
           "By the way, the number of foreign tourists visiting Japan has been increasing in recent years. How do you offer omotenashi to foreign guests?",
-          "First, we research all kinds of things about the guest's country, such as its culture and customs. What guests especially appreciate is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were delighted and deeply moved."
+          "First, we research all kinds of things about the guest's country, such as its culture and customs. One thing guests love is their country's national flower. When members of the Swedish royal family visited, we made about 20 small bouquets of lilies of the valley and placed them in the washroom, beside the pillows on the beds, and so on, and they were overjoyed and deeply moved."
          ]
         },
         {
@@ -837,7 +837,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal, negative-only counterpart."
+     "deepDive": "**XどころかY** dismisses X as far too weak a description. With a positive Y and も／さえ／まで it climbs the scale: *not just X, even Y* (①②). With a negative Y it drops below X: *X? not even that* (③–⑥). It is emphatic and often corrects what the other person just said: 静か？ 静かどころか、毎晩うるさいよ (*Quiet? Far from it, it's noisy every night*).\n\n- **それどころか** opens a sentence: *far from it; in fact* (⑤).\n- Y is a statement of fact, never a request or suggestion.\n\nTRY! N2 teaches the same どころか with a third reading, *on the contrary*: 休むどころか、倍働いた (*far from resting, I worked twice as hard*). TRY! N1's **AはおろかB…ない** is its formal counterpart, taught with a negative Y."
     },
     {
      "t": "note",
@@ -968,7 +968,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "{桜|さくら}の下でお酒を飲みながら花見をするのは、日本**ならでは**の習慣だ。",
-         "tr": "Drinking under the cherry blossoms while enjoying the flowers is a custom unique to Japan."
+         "tr": "Viewing the cherry blossoms while drinking sake under the trees is a custom unique to Japan."
         },
         {
          "n": 3,
@@ -1014,7 +1014,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**Nならでは** is praise: something is special because only N could offer it. N is a place, a material, a season or a kind of establishment (その場所, 日本, 木, 旅館); only a noun can precede it.\n\n- Before a noun it takes の (日本ならではの美意識, reading 2); at the end of a sentence it is 〜ならではだ (④).\n- For what is merely typical, use 〜らしい. For neutral or negative traits, use 〜特有の: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*).\n- It has nothing to do with the conditional なら; ならでは is a fixed expression.\n\nTRY! N1 teaches the same pattern as 〜ならではの."
+     "deepDive": "**Nならでは** is praise: something is special because only N could offer it. N is typically a place, a material, a kind of establishment or a person with a special skill (その場所, 日本, 木, 旅館, プロ); only a noun can precede it.\n\n- Before a noun it takes の (日本ならではの美意識, reading 2); at the end of a sentence it is 〜ならではだ (④).\n- For what is merely typical, use 〜らしい. For neutral or negative traits, use 〜特有の: 日本特有の蒸し暑さ (*the muggy heat peculiar to Japan*).\n- It has nothing to do with the conditional なら; ならでは is a fixed expression.\n\nTRY! N1 teaches the same pattern as 〜ならではの."
     },
     {
      "t": "note",
@@ -1396,12 +1396,12 @@ TRY.registerLesson({
           {
            "sp": "{妻|つま}",
            "ja": "{田中|たなか}さんの家に行くなら、このワインを持っていったら？",
-           "tr": "If we’re going to the Tanakas’ house, why don’t we take this wine?"
+           "tr": "If we’re going to Tanaka-san’s house, why don’t we take this wine?"
           },
           {
            "sp": "{夫|おっと}",
            "ja": "そんなに高いのを持っていったら、**かえって**彼らに気を{遣|つか}わせることになるよ。",
-           "tr": "If we bring something that expensive, it’ll just make them feel they have to do something in return."
+           "tr": "If we bring something that expensive, it’ll only end up making them feel they owe us something."
           }
          ]
         }
@@ -1533,7 +1533,7 @@ TRY.registerLesson({
           {
            "sp": "B",
            "ja": "最初は慣れなかったんですが、住んでいる**うちに**気に入ってきました。",
-           "tr": "I couldn’t get used to it at first, but as I’ve been living here, I’ve come to like it."
+           "tr": "I couldn’t get used to it at first, but now that I’ve lived here a while, I’ve come to like it."
           }
          ]
         },
@@ -1568,7 +1568,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**VているうちにY** says Y came about gradually, without anyone planning it, while X went on. Y is typically a change (〜てきた, 〜ようになった, 〜てしまった), often with いつの間にか; English needs *before I knew it* or *as I kept ~ing*.\n\n- Y is not a deliberate act. For something done on purpose during X, use 〜間に: 待っている間に本を読んだ (*I read a book while I waited*).\n- Keep it apart from the other **うちに** (Quartet I L3-1), *while it's still ~, before it's too late*: 温かいうちに食べて (*eat it while it's hot*), 忘れないうちに (*before I forget*). That one takes a state (い-adjective, 〜ない, Nの) and a deliberate action.\n\nReading 2: ブログを書いているうちに「何か自分でできるのではないか」と思うようになる, the idea grew on him as he blogged."
+     "deepDive": "**VているうちにY** says Y came about gradually, without anyone planning it, while X went on. Y is typically a change (〜てきた, 〜ようになった, 〜てしまった), often with いつの間にか; English needs *before I knew it* or *as I kept ~ing*.\n\n- Y is not a deliberate act. For something done on purpose during X, use 〜間に: 待っている間に電話をかけた (*I made a phone call while I waited*).\n- Keep it apart from the other **うちに** (Quartet I L3-1), *while it's still ~, before it's too late*: 温かいうちに食べて (*eat it while it's hot*), 忘れないうちに (*before I forget*). That one takes a state (い-adjective, 〜ない, Nの) and a deliberate action.\n\nReading 2: ブログを書いているうちに「何か自分でできるのではないか」と思うようになる, the idea grew on him as he blogged."
     },
     {
      "t": "note",
@@ -1600,7 +1600,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "子どもは子ども**なりに**考えているはずなので、怒る前に理由を聞くべきだ。",
-         "tr": "Children surely think things through in their own way, so you should ask them their reasons before getting angry."
+         "tr": "Children are bound to be thinking things through in their own way, so you should ask them why before getting angry."
         },
         {
          "n": 2,
@@ -1625,7 +1625,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "スキット作りは初めは嫌だったが、やってみれば**それなりに**楽しかった。",
-         "tr": "At first I didn’t want to make a skit, but once I actually did it, it was fun in its own way."
+         "tr": "At first I hated the idea of making a skit, but once I tried it, it was fun in its own way."
         }
        ]
       },
