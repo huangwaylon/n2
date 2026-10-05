@@ -1540,14 +1540,14 @@ TRY.registerLesson({
       "国で政府が果たす役割への期待が大きいことがわかった。"
      ],
      "tr": [
-      "Drawing on the results of the \"Role of Government\" survey conducted in 2016 by the ISSP (International Social Survey Programme), an international comparative survey group to which the NHK Broadcasting Culture Research Institute belongs, this report compares 35 countries and regions while looking at how the Japanese see the ideal role of government.",
+      "Drawing on the results of the \"Role of Government\" survey conducted in 2016 by the ISSP (International Social Survey Programme), an international comparative survey group to which the NHK Broadcasting Culture Research Institute belongs, this report looks at how the Japanese see the ideal role of government, while comparing 35 countries and regions.",
       "How do people think about privacy and security? And against the backdrop of widening inequality, what role do they want the government to play? This paper focuses in particular on where Japanese people's attitudes toward the government stand in comparison with those of other countries around the world.",
       "The proportion of people who think that \"making sure the unemployed can maintain a reasonable standard of living\" is \"the government's responsibility\" (including \"somewhat,\" here and below) is 53% in Japan, a low level among the countries surveyed (Figure 1). \"The government's responsibility\" tends to be a more common answer in countries with high unemployment rates, such as Spain, Croatia and South Africa, and a less common one in countries with low unemployment rates, such as Japan, the Czech Republic and the United States.",
       "The proportion of people who think that \"giving financial aid to university students from low-income families\" is \"the government's responsibility\" exceeds 80% in almost every country, and in many countries it accounts for 90% or more (Figure 2).",
       "In Japan, on the other hand, the figure is 67%, the lowest of all the countries. In South Korea, too, although not to the same extent as in Japan, fewer people than in other countries consider it \"the government's responsibility.\"",
       "In the 2006 survey, 58% of Japanese answered that aid for university students from low-income families was \"the government's responsibility,\" which was also considerably lower than in other countries. South Korea, though not to the same degree as Japan, was also low among the countries. Looking at the change over time, in Japan the share saying \"the government's responsibility\" rose from 58% to 67%, the largest increase of any country. Even so, Japan remains the lowest of all the countries (Table 1).",
       "The low share of \"the government's responsibility\" answers in Japan and South Korea may be due to low public spending on higher education and a view, widely rooted in society, that \"paying for education is the family's role.\" The education scholar Masayuki Kobayashi points out that in Japan the \"parents-pay principle\" for education costs has taken hold, and that this has produced \"households that overstretch themselves\" while keeping the small public share of education costs in Japan from surfacing as a problem.",
-      "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries fewer than half of the respondents answered \"acceptable\" (\"definitely\" + \"probably,\" here and below) (Figure 3). In Japan, too, it was only 30%, on the low side among the countries.",
+      "When asked whether it is acceptable for the government \"to monitor e-mails and information exchanged on the Internet (e-mail),\" in many countries the share answering \"acceptable\" (\"definitely\" + \"probably,\" here and below) does not reach half (Figure 3). In Japan, too, it was only 30%, on the low side among the countries.",
       "On the other hand, when it comes to the government \"monitoring people with security cameras in public places (security cameras),\" acceptance is higher than for \"e-mail\" in every country, and \"acceptable\" exceeds half in almost all of them. Japan is at 73%, somewhere in the middle of the countries. In Japan, the number of security cameras has recently grown sharply thanks to measures such as local governments subsidizing their installation costs, and they have now become indispensable to criminal investigations. Perhaps the relatively high acceptance of surveillance by security cameras reflects a sense of reassurance that the cameras keep people safe in their everyday lives.",
       "So far, we have given an overview of what roles people expect their governments to play. Although the results vary depending on each country's circumstances, it has become clear that in many countries people have high expectations of the role their government plays."
      ],
@@ -2000,7 +2000,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "この会社で定年まで働き続けたいと考える新入社員は20人中5人**にとどまって**おり、昔とは変わってきている。",
-         "tr": "Only 5 out of 20 new employees want to keep working at this company until retirement, which is a change from the past."
+         "tr": "Only 5 out of 20 new employees want to keep working at this company until retirement, a sign that attitudes are changing from what they used to be."
         }
        ]
       },
@@ -2156,7 +2156,7 @@ TRY.registerLesson({
         {
          "n": 1,
          "ja": "このケーキは発売から3日で100万個販売され、販売数は今月1,900万個**に達した**そうだ。",
-         "tr": "Apparently this cake sold a million units within three days of its release, and sales reached 19 million units this month."
+         "tr": "Apparently this cake sold a million units within three days of its release, and this month total sales reached 19 million."
         },
         {
          "n": 2,
@@ -2247,7 +2247,7 @@ TRY.registerLesson({
         {
          "n": 3,
          "ja": "母の料理は、レストランの味**を超える**くらいおいしい。",
-         "tr": "My mother's cooking is so delicious it surpasses the taste of restaurant food."
+         "tr": "My mother's cooking is so good it surpasses restaurant food."
         },
         {
          "n": 4,
@@ -2471,7 +2471,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "Concessive **ながら** follows a state: 〜ている, ある／いる, である, or a small set of adjectives and nouns. With an action verb it means *while doing* (the ☛ box). The criticism the book mentions comes from the gap between the two halves: 知っていながら、何も言わなかった (*knew perfectly well, yet said nothing*).\n\n- **ながらも** makes the concession unmistakable.\n- **〜のに** is the conversational choice and more openly emotional; **〜ものの** (L10-11) concedes a fact more calmly.\n- One subject for both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った.\n\nTRY! N2 teaches the same use as 〜ながら（も）; TRY! N1's **〜ながら（に）** (涙ながらに *in tears*, 生まれながらに *from birth*) is a different, literary sense."
+     "deepDive": "Concessive **ながら** follows a state: 〜ている, ある／いる, である, or a small set of adjectives and nouns. With an action verb it usually means *while doing* (the ☛ box). The criticism the book mentions comes from the gap between the two halves: 知っていながら、何も言わなかった (*knew perfectly well, yet said nothing*).\n\n- **ながらも** makes the concession unmistakable.\n- **〜のに** is the conversational choice and more openly emotional; **〜ものの** (L10-11) concedes a fact more calmly.\n- One subject for both halves: ✗私が頼みながら、彼は断った → ✓私が頼んだのに、彼は断った.\n\nTRY! N2 teaches the same use as 〜ながら（も）; TRY! N1's **〜ながら（に）** (涙ながらに *in tears*, 生まれながらに *from birth*) is a different, literary sense."
     },
     {
      "t": "note",
@@ -2680,7 +2680,7 @@ TRY.registerLesson({
         {
          "n": 2,
          "ja": "大学院進学を{視野|しや}に入れ**つつ**、卒業論文のテーマを決めた。",
-         "tr": "I chose the topic of my graduation thesis with an eye toward going on to graduate school."
+         "tr": "I chose the topic of my senior thesis with an eye toward going on to graduate school."
         },
         {
          "n": 3,
@@ -2781,7 +2781,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**〜つつ** is written ながら, at home in news, essays and formal speech. The second clause is the main action; the つつ clause gives the frame of mind in which it is done, which is why verbs of thought and wishing (考え, 願い, 視野に入れ) are so common.\n\n- ます-stem only, and one subject for both actions.\n- Plain つつ can be concessive: 悪いと思いつつ、うそをついた (*I lied, though I knew it was wrong*); **つつも** makes that explicit.\n- **〜つつある** (L7-1), *is gradually ~ing*, describes one change, not two actions.\n\nTRY! N2 teaches 〜つつ together with its concessive partner 〜つつも."
+     "deepDive": "**〜つつ** is the written-language counterpart of ながら, at home in news, essays and formal speech. The second clause is the main action; the つつ clause gives the frame of mind in which it is done, which is why verbs of thought and wishing (考え, 願い, 視野に入れ) are so common.\n\n- ます-stem only, and one subject for both actions.\n- Plain つつ can be concessive: 悪いと思いつつ、うそをついた (*I lied, though I knew it was wrong*); **つつも** makes that explicit.\n- **〜つつある** (L7-1), *is gradually ~ing*, describes one change, not two actions.\n\nTRY! N2 teaches 〜つつ and, separately, its concessive partner 〜つつも."
     },
     {
      "t": "note",
@@ -2823,7 +2823,7 @@ TRY.registerLesson({
         {
          "n": 4,
          "ja": "昔よく行った店に久しぶりに行ってみ**たところ**、閉まっていて残念だった。",
-         "tr": "When I dropped by a shop I used to go to a lot, for the first time in ages, I was disappointed to find it closed."
+         "tr": "When I visited a shop I used to go to a lot, after a long time away, I was disappointed to find it closed."
         },
         {
          "n": 5,
@@ -2911,7 +2911,7 @@ TRY.registerLesson({
        ]
       }
      ],
-     "deepDive": "**V-たところ** reports what an action led to or revealed: *when I did X, (I found that) Y*. X is a deliberate action (聞いた, 調べた, 試してみた), and Y is an outcome the doer did not control, often a discovery; hence the frequent 〜てみたところ, *when I tried ~*.\n\n- **〜たら** is broader and conversational; it also covers sudden, surprising events (the ☛ box), which たところ, a measured report, does not.\n- Keep it apart from **V-たところだ**, *have just done*, and from **V-たところで** (TRY! N1), *even if ~, it's no use*: 今さら急いだところで間に合わない (*even if we hurry now, we won't make it*).\n\nIn survey writing, 〜に聞いたところ、N%が〜と答えた is a stock frame."
+     "deepDive": "**V-たところ** reports what an action led to or revealed: *when I did X, (I found that) Y*. X is a deliberate action (聞いた, 調べた, 試してみた), and Y is an outcome the doer did not control, often a discovery; hence the frequent 〜てみたところ, *when I tried ~*.\n\n- **〜たら** is broader and conversational; it also covers sudden, surprising events (the ☛ box), where たところ, a measured report, sounds odd (？).\n- Keep it apart from **V-たところだ**, *have just done*, and from **V-たところで** (TRY! N1), *even if ~, it's no use*: 今さら急いだところで間に合わない (*even if we hurry now, we won't make it*).\n\nIn survey writing, 〜に聞いたところ、N%が〜と答えた is a stock frame."
     },
     {
      "t": "note",
@@ -3105,7 +3105,7 @@ TRY.registerLesson({
       "In December 2018, the Asahi Shimbun conducted an online survey of 1,032 unmarried people and asked them about \"the annual income they want in a marriage partner.\" Below, I will describe the results and analyze the trends.",
       "First, looking at the results for men, \"doesn't matter\" was the most common answer, at over 60%, followed by \"2 million yen or more\" at 18% and \"4 million or more\" at 14%, while 6 million or more came to only 3% in total. Among women, on the other hand, \"4 million or more\" was the most common answer, accounting for 41%. \"Doesn't matter\" came to only 19%, and in total as many as 80% of women want a marriage partner with an annual income of 2 million yen or more. This shows that women tend to care more about a marriage partner's income than men do.",
       "Could the reason for this trend be that both men and women continue to hold the idea that it is the husband who supports the household financially? While more than half of the men don't care about a marriage partner's income, about 80% of the women want a marriage partner with a certain level of annual income. Also, according to a National Tax Agency survey, the average annual income of company employees in Japan is about 4 million yen, yet over 60% of women want a marriage partner who earns 4 million yen or more, while among men it is 20% or less. Two-income households have become the norm, but isn't the idea that the husband should be the main one supporting the household still deeply rooted?",
-      "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. To avoid such an outcome, I think this image needs to change."
+      "From the above, we can infer that Japanese people continue to hold the idea that the husband should earn an income to provide for his family. If more and more men give up on marriage because their income is low, the trend toward not marrying and the declining birthrate will probably accelerate. I think we need to start changing this image, not least to avoid such an outcome."
      ],
      "headTr": [
       "Men and Women Compared: The Annual Income They Want in a Marriage Partner"
@@ -5281,7 +5281,7 @@ TRY.registerLesson({
        "sp": "",
        "v": "f",
        "ja": "1970年代の日本は「自分は中流である」と考える人が9割を占め、格差があまりない{平等|びょうどう}な社会だと思われていました。この傾向は80年代まで強く見られましたが、その後、資本主義経済の発展により一部の{富裕|ふゆう}層に資産が集まるようになりました。2018年の調査を見てみましょう。ここでは富裕層を所得が1000万円以上の世帯とします。グラフを見ると、富裕層は全体の12.2%__にとどまって__いることがわかります。{一方|いっぽう}、その時の平均所得以下の世帯は全体の62.4%__を占めて__います。また、{貧困|ひんこん}層を所得が200万円以下の世帯とすると、日本の貧困層の世帯は約20%__にのぼって__いることがわかります。このことから、日本は、富裕層より貧困層の割合が高い格差社会であると言えます。",
-       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households make up as much as about 20 percent of all households in Japan. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
+       "tr": "In the 1970s, 90 percent of Japanese people thought of themselves as middle class, and Japan was considered an equal society with little inequality. This tendency remained strong until the '80s, but after that, with the development of the capitalist economy, assets came to be concentrated in a small wealthy class. Let's look at a survey from 2018. Here, we'll define the wealthy as households with an income of 10 million yen or more. Looking at the graph, you can see that the wealthy make up only 12.2 percent of the total. Meanwhile, households at or below the average income at that time account for 62.4 percent of the total. And if we define the poor as households with an income of 2 million yen or less, you can see that poor households account for as much as 20 percent or so of all households in Japan. From this, we can say that Japan is an unequal society in which the proportion of poor people is higher than that of wealthy people."
       },
       {
        "sp": "",
@@ -5513,7 +5513,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "なるほど。あとアメリカでは{奨学金|しょうがくきん}がもらえなくて学費のローンを組んだ__ものの__、学費が高すぎて就職してもお金が返せないって問題があるんだけど、日本はどう？",
-       "tr": "I see. Also, in America there's this problem where people who can't get scholarships take out student loans, but tuition is so high that they can't pay them back even after they get a job. What about Japan?"
+       "tr": "I see. Also, in America there's this problem where people who can't get scholarships take out student loans, only to find that tuition is so high they can't pay them back even after they get a job. What about Japan?"
       },
       {
        "sp": "絵",
