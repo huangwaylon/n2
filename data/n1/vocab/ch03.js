@@ -118,7 +118,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "escape (from a dangerous place or a bad situation)",
     note: "Getting out of an enclosed place or a plight: 燃える建物から脱出する, 不況から脱出する, 脱出ゲーム. 逃げる is the general 'run away'; 脱走 is escaping from custody (prison, the army).",
     rx: ["だつしゅつ", "たっしゅつ", "だっしゅう"],
-    book: { ja: "借金まみれの生活から**{脱出|だっしゅつ}**するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To escape a life buried in debt, I decided to go and consult a lawyer.", at: "gp/16" },
+    book: { ja: "借金まみれの生活から**{脱出|だっしゅつ}**するために、{弁護士|べんごし}に相談しに行くことにした。", en: "To dig myself out from under a mountain of debt, I decided to go and see a lawyer.", at: "gp/16" },
     ex: [
       { ja: "{乗客|じょうきゃく}は{非常口|ひじょうぐち}から{無事|ぶじ}に**{脱出|だっしゅつ}**した。", en: "The passengers got out safely through the emergency exit.", alt: ["{脱退|だったい}", "{輸出|ゆしゅつ}", "{脱線|だっせん}"] },
     ] },
@@ -141,7 +141,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to hold someone back; to persuade someone to stay; to detain",
     note: "Also written 引き止める / 引き留める. Used when someone is about to leave or quit: 帰ろうとする客を引きとめる, 辞めたいという社員を引きとめる. 止める alone stops any action; 引きとめる keeps a person from going.",
     rx: ["いんきとめる", "びきとめる", "ひっきとめる"],
-    book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて**{引|ひ}きとめる**のをよそに、彼はカメラを{携|たずさ}えて{戦場|せんじょう}に向かった。", en: "Ignoring his partner's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{退職|たいしょく}を{申|もう}し出た{部下|ぶか}を、部長は何度も**{引|ひ}きとめた**。", en: "The department head tried again and again to talk the subordinate out of quitting.", alt: ["{引|ひ}き{受|う}けた", "{引|ひ}き{上|あ}げた", "{受|う}け{止|と}めた"] },
     ] },
@@ -149,7 +149,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to carry (with one), to take along; (手を携える) to join hands, cooperate",
     note: "Formal and literary: 花束を携えて訪れる, 手を携えて (hand in hand, in cooperation). Everyday speech says 持って行く. Don't confuse it with 携わる (たずさわる, to be engaged in work), which shares the kanji.",
     rx: ["たすさえる", "たずさわる", "けいえる"],
-    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを**{携|たずさ}えて**{戦場|せんじょう}に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを**{携|たずさ}えて**{戦場|せんじょう}に向かった。", en: "Ignoring his partner's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{使節団|しせつだん}は国王の{親書|しんしょ}を**{携|たずさ}えて**{来日|らいにち}した。", en: "The delegation came to Japan bearing a personal letter from the king.", alt: ["{携|たずさ}わって", "{支|ささ}えて", "{備|そな}えて"] },
     ] },
@@ -157,7 +157,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "battlefield; (figuratively) a scene of frantic activity",
     note: "Literal (戦場カメラマン, a war photographer) and figurative: 昼どきの厨房はまるで戦場だ (the kitchen at lunchtime is a war zone). 戦地 is the war zone in general.",
     rx: ["せんば", "せんしょう", "ぜんじょう"],
-    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを{携|たずさ}えて**{戦場|せんじょう}**に向かった。", en: "Paying no heed to his sweetheart's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
+    book: { ja: "恋人が泣いて引きとめるのをよそに、彼はカメラを{携|たずさ}えて**{戦場|せんじょう}**に向かった。", en: "Ignoring his partner's tearful pleas to stay, he took his camera and headed for the battlefield.", at: "gp/17" },
     ex: [
       { ja: "{年末|ねんまつ}の{郵便局|ゆうびんきょく}は、まるで**{戦場|せんじょう}**のような忙しさだ。", en: "At the end of the year, the post office is as hectic as a battlefield.", alt: ["{会場|かいじょう}", "{広場|ひろば}", "{牧場|ぼくじょう}"] },
     ] },
@@ -165,7 +165,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to become completely absorbed in, to get hooked on",
     note: "Stronger than 夢中になる, often with a hint of excess: ギャンブルにのめり込む, 研究にのめり込む. 打ち込む (devote oneself to) is purely positive; のめり込む can be neutral or worrying.",
     rx: ["のめりごむ", "のめりいむ", "のめりかむ"],
-    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "While Yamada's friends are starting to look for jobs, Yamada, unconcerned, is completely absorbed in club activities.", at: "gp/17" },
+    book: { ja: "友人たちが{就職|しゅうしょく}活動を始めるのをよそに、{山田|やまだ}さんはサークル活動に**のめり込ん**でいる。", en: "Yamada's friends are all starting to look for jobs, but Yamada pays no attention and is completely wrapped up in club activities.", at: "gp/17" },
     ex: [
       { ja: "彼は大学時代に{演劇|えんげき}に**のめり{込|こ}み**、授業にほとんど出なかった。", en: "In college he got so wrapped up in theater that he hardly went to class.", alt: ["{割|わ}り{込|こ}み", "{申|もう}し{込|こ}み", "{冷|ひ}え{込|こ}み"] },
     ] },
@@ -228,7 +228,7 @@ TRY.registerVocab({ ch: 3, words: [
   { w: "ルーズ", lv: "N1", pos: "な adjective",
     en: "careless, sloppy, lax (about time, money or rules)",
     note: "From English 'loose' but used of behavior: 時間にルーズ (always late), お金にルーズ. Loose-fitting clothes are ゆったりした服. だらしない is similar and broader.",
-    book: { ja: "彼は金に**ルーズ**で、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金に**ルーズ**で、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "彼女は時間に**ルーズ**で、{約束|やくそく}の時間に来たためしがない。", en: "She's hopeless about time — she has never once shown up when she said she would.", alt: ["タイト", "シビア", "クール"] },
     ] },
@@ -236,7 +236,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "(ほうぼう) everywhere, all over, here and there",
     note: "Read ほうぼう it means 'in various places': 方々を探す, 方々で借金する. Read かたがた it is a respectful plural for people (関係者の方々). Context decides the reading.",
     rx: ["ほうほう", "ほうぼ", "ほぼう"],
-    book: { ja: "彼は金にルーズで、**{方々|ほうぼう}**で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、**{方々|ほうぼう}**で借金を重ね、あげくの{果|は}てに会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "なくした{鍵|かぎ}を{家中|いえじゅう}**{方々|ほうぼう}**探したが、見つからなかった。", en: "I searched all over the house for the key I'd lost, but couldn't find it.", alt: ["{方法|ほうほう}", "{方角|ほうがく}", "{方面|ほうめん}"] },
     ] },
@@ -244,7 +244,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "in the end (after a string of bad things); to top it all off",
     note: "An emphatic form of あげく (挙げ句): after one trouble after another, the worst outcome. Always negative and usually あげくの果てに(は). 結局 is neutral 'in the end'.",
     rx: ["あげくのかて", "あげくのはって", "あげくのはたて"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、**あげくの{果|は}て**に会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、**あげくの{果|は}て**に会社の金を使い込んで{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "道に{迷|まよ}い、雨に{降|ふ}られ、**あげくの{果|は}て**に{財布|さいふ}まで落としてしまった。", en: "I got lost, got caught in the rain, and to top it all off I dropped my wallet.", alt: ["{何|なに}よりの{証拠|しょうこ}", "{不幸中|ふこうちゅう}の{幸|さいわ}い", "{一石二鳥|いっせきにちょう}"] },
     ] },
@@ -252,7 +252,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to embezzle, misappropriate (money); to use something for years (until well-worn)",
     note: "With money it means spending funds entrusted to you on yourself: 会社の金を使い込む. With objects it is positive: 使い込んだ鞄 (a well-used bag). 横領 is the legal term for embezzlement.",
     rx: ["しこむ", "つかいごむ", "つかいかむ"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を**使い込ん**で{解雇|かいこ}されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を**使い込ん**で{解雇|かいこ}されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "{経理|けいり}の{担当者|たんとうしゃ}が{会費|かいひ}を**{使|つか}い{込|こ}んで**いたことが{発覚|はっかく}した。", en: "It came to light that the person in charge of the accounts had been embezzling the membership fees.", alt: ["{売|う}り{込|こ}んで", "{書|か}き{込|こ}んで", "{飛|と}び{込|こ}んで"] },
     ] },
@@ -260,7 +260,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "dismissal, firing (from a job)",
     note: "Formal and legal: 解雇される, 不当解雇 (unfair dismissal). Casually people say クビになる. リストラ is layoffs for restructuring.",
     rx: ["かいご", "げこ", "かいごう"],
-    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで**{解雇|かいこ}**されるしまつだ。", en: "He's always been careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
+    book: { ja: "彼は金にルーズで、{方々|ほうぼう}で借金を重ね、あげくの{果|は}てに会社の金を使い込んで**{解雇|かいこ}**されるしまつだ。", en: "He's careless with money and ran up debts all over the place, and in the end he even dipped into company funds and got himself fired.", at: "gp/20" },
     ex: [
       { ja: "{不況|ふきょう}で工場の{従業員|じゅうぎょういん}の{半数|はんすう}が**{解雇|かいこ}**された。", en: "Because of the recession, half of the factory's workers were let go.", alt: ["{解散|かいさん}", "{解除|かいじょ}", "{回顧|かいこ}"] },
     ] },
@@ -284,7 +284,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "promotion (to a higher rank)",
     note: "課長に昇進する. 昇格 is moving up a grade or class (also for teams and leagues); 出世 is getting ahead in one's career or in life. The opposite is 降格 (demotion).",
     rx: ["しょしん", "じょうしん", "しょうじん"],
-    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with the husband's promotion and the daughter's marriage, it's been nothing but good things for the Yamada household.", at: "gp/22" },
+    book: { ja: "ご主人の**{昇進|しょうしん}**や娘さんの結婚など、{山田|やまだ}さんの家はいいことずくめだ。", en: "What with her husband's promotion and her daughter's wedding, it's been one happy event after another for Yamada's family.", at: "gp/22" },
     ex: [
       { ja: "{入社|にゅうしゃ}10年目で、彼は{課長|かちょう}に**{昇進|しょうしん}**した。", en: "In his tenth year at the company, he was promoted to section chief.", alt: ["{前進|ぜんしん}", "{進学|しんがく}", "{上昇|じょうしょう}"] },
     ] },
@@ -332,7 +332,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "method, trick, modus operandi (of a crime)",
     note: "Used for criminals' methods: 犯行の手口, 詐欺の手口, 同じ手口の事件. For legitimate methods say 方法 or やり方.",
     rx: ["てくち", "しゅこう", "てぐっち"],
-    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の**{手口|てぐち}**は{大胆|だいたん}にして、かつ{繊細|せんさい}だった。", en: "The methods of the man they called the Phantom Thief were at once bold and delicate.", at: "gp/23" },
+    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の**{手口|てぐち}**は{大胆|だいたん}にして、かつ{繊細|せんさい}だった。", en: "The methods of the man they called the Phantom Thief were at once bold and meticulous.", at: "gp/23" },
     ex: [
       { ja: "最近は{銀行員|ぎんこういん}を{名乗|なの}る新しい**{手口|てぐち}**の{詐欺|さぎ}が多い。", en: "Lately there have been a lot of scams using a new trick: the caller claims to be a bank employee.", alt: ["{手当|てあて}", "{手際|てぎわ}", "{入口|いりぐち}"] },
     ] },
@@ -340,14 +340,14 @@ TRY.registerVocab({ ch: 3, words: [
     en: "delicate, fine; sensitive",
     note: "Of things (繊細な模様 delicate pattern, 繊細な味) and of people (繊細な人 — sensitive, easily hurt). デリケート is similar; 敏感 is sensitive to stimuli.",
     rx: ["せんざい", "せいさい", "ぜんさい"],
-    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の{手口|てぐち}は{大胆|だいたん}にして、かつ**{繊細|せんさい}**だった。", en: "The methods of the man they called the Phantom Thief were at once bold and delicate.", at: "gp/23" },
+    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の{手口|てぐち}は{大胆|だいたん}にして、かつ**{繊細|せんさい}**だった。", en: "The methods of the man they called the Phantom Thief were at once bold and meticulous.", at: "gp/23" },
     ex: [
       { ja: "{京料理|きょうりょうり}は{味付|あじつ}けが**{繊細|せんさい}**で、{素材|そざい}の味を{生|い}かしている。", en: "Kyoto cuisine is delicately seasoned and brings out the flavor of the ingredients.", alt: ["{詳細|しょうさい}", "{盛大|せいだい}", "{膨大|ぼうだい}"] },
     ] },
   { w: "かつ", lv: "N1", pos: "conjunction",
     en: "and also, moreover; at the same time (formal)",
     note: "Written 且つ; a formal link between two qualities or actions: 迅速かつ正確に (quickly and accurately), 必要かつ十分. In speech use それに or 〜し.",
-    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の{手口|てぐち}は{大胆|だいたん}にして、**かつ**{繊細|せんさい}だった。", en: "The methods of the man they called the Phantom Thief were at once bold and delicate.", at: "gp/23" },
+    book: { ja: "{怪盗|かいとう}と呼ばれた男の{犯行|はんこう}の{手口|てぐち}は{大胆|だいたん}にして、**かつ**{繊細|せんさい}だった。", en: "The methods of the man they called the Phantom Thief were at once bold and meticulous.", at: "gp/23" },
     ex: [
       { ja: "事故の原因を{迅速|じんそく}**かつ**{正確|せいかく}に調査してほしい。", en: "We want the cause of the accident investigated quickly and accurately.", alt: ["または", "ただし", "なお"] },
     ] },
@@ -499,7 +499,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "hard to understand, abstruse",
     note: "Written and formal: 難解な文章, 難解な理論. 難しい is general; 難解 is specifically about understanding (texts, ideas), not about tasks.",
     rx: ["なんげ", "むずかい", "なんがい"],
-    book: { ja: "例文は**{難解|なんかい}**だわ、字は小さいわ、こんな辞書、買う人いるのかな。", en: "The example sentences are hard to understand, the print is tiny — I wonder if anyone would actually buy a dictionary like this.", at: "gp/29" },
+    book: { ja: "例文は**{難解|なんかい}**だわ、字は小さいわ、こんな辞書、買う人いるのかな。", en: "The example sentences are impossible to follow, the print is tiny... who would even buy a dictionary like this?", at: "gp/29" },
     ex: [
       { ja: "{哲学書|てつがくしょ}は**{難解|なんかい}**な表現が多く、読み進めるのに時間がかかる。", en: "Philosophy books are full of difficult expressions, so they take a long time to get through.", alt: ["{難関|なんかん}", "{困難|こんなん}", "{理解|りかい}"] },
     ] },
@@ -523,7 +523,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "to wait (ready) for, to lie in wait for",
     note: "Waiting prepared and eager, or ready to pounce: 記者が待ち構える, 待ち構えていたように (as if they had been waiting for it). 待ち受ける is similar; 待ち合わせる is meeting by arrangement.",
     rx: ["まちがまえる", "まちこうえる", "たいかまえる"],
-    book: { ja: "受付時間になるが早いか、**{待|ま}ち{構|かま}え**ていたように電話が鳴り出した。", en: "The moment reception hours began, the phone started ringing, as if people had been lying in wait.", at: "gp/30" },
+    book: { ja: "受付時間になるが早いか、**{待|ま}ち{構|かま}え**ていたように電話が鳴り出した。", en: "The moment reception hours began, the phone started ringing, as if callers had been waiting for that very moment.", at: "gp/30" },
     ex: [
       { ja: "{猫|ねこ}は{獲物|えもの}が近づくのを、身を低くして**{待|ま}ち{構|かま}えて**いた。", en: "The cat crouched low, lying in wait for its prey to come closer.", alt: ["{待|ま}ち{合|あ}わせて", "{立|た}て{替|か}えて", "{呼|よ}び{止|と}めて"] },
     ] },
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "reversal, turnaround; coming from behind (to win)",
     note: "Sports and fortunes: 逆転勝ち (a come-from-behind win), 逆転される (have one's lead overturned), 立場が逆転する (the roles are reversed).",
     rx: ["ぎゃくでん", "ぎゃっくてん", "さかてん"],
-    book: { ja: "きのうの試合見た？　まさかあんなところで**{逆転|ぎゃくてん}**されるとはなあ……。", en: "Did you see yesterday's game? Who'd have thought they'd get overtaken at a point like that…", at: "ch/3/review" },
+    book: { ja: "きのうの試合見た？　まさかあんなところで**{逆転|ぎゃくてん}**されるとはなあ……。", en: "Did you see yesterday's game? Who'd have thought the other team would come from behind and win at that point…", at: "ch/3/review" },
     ex: [
       { ja: "{最終回|さいしゅうかい}にホームランが出て、チームは**{逆転|ぎゃくてん}**勝ちした。", en: "A home run in the final inning gave the team a come-from-behind win.", alt: ["{回転|かいてん}", "{反転|はんてん}", "{運転|うんてん}"] },
     ] },
