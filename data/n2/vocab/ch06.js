@@ -33,7 +33,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "{市場|しじょう}", lv: "N2", pos: "noun",
     en: "market (in the economic sense)",
-    note: "Read しじょう for the abstract market: 市場価値 (market value), 国際市場, 株式市場 (stock market). Read いちば, it is a physical marketplace (魚市場, うおいちば).",
+    note: "Read しじょう for the abstract market: 市場価値 (market value), 国際市場, 株式市場 (stock market). Read いちば, it means a physical marketplace (魚市場, うおいちば).",
     rx: ["しば", "いちじょう", "しっじょう"],
     book: { ja: "{消費者|しょうひしゃ}のニーズを{追求|ついきゅう}することが、世界**{市場|しじょう}**で{勝|か}つということ", en: "That pursuing consumers' needs is how you win in the global market", at: "ch/6/review" },
     ex: [
@@ -104,7 +104,7 @@ TRY.registerVocab({ ch: 6, words: [
     ] },
   { w: "サボる", lv: "N2", pos: "godan verb",
     en: "to skip (class, work); to slack off",
-    note: "Casual slang from the French sabotage: 授業をサボる, 仕事をサボる. In polite or formal contexts use 休む or 怠ける.",
+    note: "Casual slang from the French sabotage: 授業をサボる, 仕事をサボる. The neutral words are 休む (be absent) and 怠ける (be lazy, neglect one's work).",
     book: { ja: "**サボって**遊びに行ったんだから、自分で調べればいいんだよ。", en: "They skipped class to go have fun, so they can look it up themselves.", at: "gp/49" },
     ex: [
       { ja: "{雨|あめ}だったので、{部活|ぶかつ}を**サボって**{家|いえ}で{寝|ね}ていた。", en: "It was raining, so I skipped club practice and slept at home.", alt: ["サポートして", "ダブって", "サービスして"] },
@@ -122,7 +122,7 @@ TRY.registerVocab({ ch: 6, words: [
     rx: ["けいび", "きょうひ", "けいい"],
     book: { ja: "そうすれば、時間も**{経費|けいひ}**も{節約|せつやく}できるよ。", en: "That way, we can save both time and money.", at: "gp/49" },
     ex: [
-      { ja: "{出張|しゅっちょう}の{交通費|こうつうひ}は**{経費|けいひ}**として{会社|かいしゃ}が{払|はら}ってくれる。", en: "The company covers business-trip travel costs as expenses.", alt: ["{経験|けいけん}", "{会費|かいひ}", "{経由|けいゆ}"] },
+      { ja: "{出張|しゅっちょう}の{交通費|こうつうひ}は**{経費|けいひ}**として{会社|かいしゃ}が{払|はら}ってくれる。", en: "The company pays travel costs for business trips as a business expense.", alt: ["{経験|けいけん}", "{会費|かいひ}", "{経由|けいゆ}"] },
     ] },
   { w: "{節約|せつやく}", lv: "N2", pos: "noun · する verb",
     en: "saving; economizing; cutting down",
