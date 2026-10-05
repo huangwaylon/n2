@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "full (of people); packed; filled to capacity",
     note: "満員電車 (a packed train), 満員になる, 満員御礼 (a full house, in sumo and theater). 満席 means every seat is taken; 混雑 is crowding in general.",
     rx: ["まんえん", "まいん", "もういん"],
-    book: { ja: "**{満員|まんいん}**電車にストレスを感じない人はいるまい。", en: "Surely no one rides a packed train without feeling stressed.", at: "ch/10" },
+    book: { ja: "**{満員|まんいん}**電車にストレスを感じない人はいるまい。", en: "There can hardly be anyone who doesn't find a packed train stressful.", at: "ch/10" },
     ex: [
       { ja: "{人気|にんき}の{映画|えいが}で、{映画館|えいがかん}は**{満員|まんいん}**だった。", en: "It was a popular movie, so the theater was packed.", alt: ["{全員|ぜんいん}", "{満点|まんてん}", "{満月|まんげつ}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "change for the better; improvement (of a situation)",
     note: "Formal/news: 景気 / 状況 / 病状が好転する. The opposite is 悪化. 改善 is actively making something better; 好転 is things taking a turn for the better.",
     rx: ["こうでん", "すきてん", "こってん"],
-    book: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに**{好転|こうてん}**することはあるまい。", en: "Judging from the situation, the world economy is unlikely to improve any time soon.", at: "gp/93" },
+    book: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに**{好転|こうてん}**することはあるまい。", en: "Judging by the current situation, the world economy is unlikely to recover any time soon.", at: "gp/93" },
     ex: [
       { ja: "{新|あたら}しい{薬|くすり}のおかげで、{父|ちち}の{病状|びょうじょう}は**{好転|こうてん}**した。", en: "Thanks to the new medicine, my father's condition took a turn for the better.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移転|いてん}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "urgent; immediate; prompt",
     note: "Formal/business: 早急に (as soon as possible), 早急な対応 / 対策. The traditional reading is さっきゅう; そうきゅう is also widely used and accepted. 至急 (urgently) is similar.",
     rx: ["はやきゅう", "さきゅう", "そっきゅう"],
-    book: { ja: "わが社も**{早急|さっきゅう}**に{対策|たいさく}を考えなければならない。", en: "Our company, too, must think up countermeasures right away.", at: "gp/93" },
+    book: { ja: "わが社も**{早急|さっきゅう}**に{対策|たいさく}を考えなければならない。", en: "Our company, too, needs to work out countermeasures right away.", at: "gp/93" },
     ex: [
       { ja: "この{問題|もんだい}については、**{早急|さっきゅう}**な{対応|たいおう}が{求|もと}められている。", en: "This problem calls for an immediate response.", alt: ["{早退|そうたい}", "{早口|はやくち}", "{救急|きゅうきゅう}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "both sides; both parties",
     note: "Formal: 双方の意見 / 合意 / 言い分, 双方向 (two-way, interactive). 両方 is the everyday “both”; 双方 is typical for the two parties in a dispute or deal.",
     rx: ["そうほ", "ふたかた", "そほう"],
-    book: { ja: "**{双方|そうほう}**の{利害|りがい}が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は{容易|ようい}には{解決|かいけつ}するまい。", en: "Because the two sides' interests are in conflict, the trade problem with Country A is unlikely to be resolved easily.", at: "gp/93" },
+    book: { ja: "**{双方|そうほう}**の{利害|りがい}が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は{容易|ようい}には{解決|かいけつ}するまい。", en: "With the two sides' interests at odds, the trade dispute with Country A is unlikely to be settled easily.", at: "gp/93" },
     ex: [
       { ja: "{話|はな}し{合|あ}いの{結果|けっか}、**{双方|そうほう}**が{納得|なっとく}できる{案|あん}がまとまった。", en: "After talks, they settled on a plan both sides could accept.", alt: ["{方法|ほうほう}", "{方向|ほうこう}", "{地方|ちほう}"] },
     ] },
@@ -139,7 +139,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "interests (gains and losses at stake)",
     note: "利害が一致する / 対立する (interests coincide / clash), 利害関係 (a stake; vested interest), 利害関係者 (stakeholders). 損得 is the everyday “profit and loss.”",
     rx: ["りかい", "りがいい", "りげ"],
-    book: { ja: "{双方|そうほう}の**{利害|りがい}**が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は{容易|ようい}には{解決|かいけつ}するまい。", en: "Because the two sides' interests are in conflict, the trade problem with Country A is unlikely to be resolved easily.", at: "gp/93" },
+    book: { ja: "{双方|そうほう}の**{利害|りがい}**が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は{容易|ようい}には{解決|かいけつ}するまい。", en: "With the two sides' interests at odds, the trade dispute with Country A is unlikely to be settled easily.", at: "gp/93" },
     ex: [
       { ja: "{両社|りょうしゃ}の**{利害|りがい}**が{一致|いっち}し、{協力|きょうりょく}することになった。", en: "The two companies' interests aligned, so they decided to cooperate.", alt: ["{被害|ひがい}", "{障害|しょうがい}", "{損害|そんがい}"] },
     ] },
@@ -147,7 +147,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(international) trade",
     note: "貿易会社, 貿易摩擦 (trade friction), 自由貿易, 貿易赤字 (trade deficit). 輸出 is export and 輸入 import; 取引 is a business deal.",
     rx: ["ぼうい", "ぼえき", "もうえき"],
-    book: { ja: "{双方|そうほう}の{利害|りがい}が{対立|たいりつ}しているので、A国との**{貿易問題|ぼうえきもんだい}**は{容易|ようい}には{解決|かいけつ}するまい。", en: "Because the two sides' interests are in conflict, the trade problem with Country A is unlikely to be resolved easily.", at: "gp/93" },
+    book: { ja: "{双方|そうほう}の{利害|りがい}が{対立|たいりつ}しているので、A国との**{貿易問題|ぼうえきもんだい}**は{容易|ようい}には{解決|かいけつ}するまい。", en: "With the two sides' interests at odds, the trade dispute with Country A is unlikely to be settled easily.", at: "gp/93" },
     ex: [
       { ja: "{日本|にっぽん}は、{多|おお}くの{国|くに}と**{貿易|ぼうえき}**を{行|おこな}っている。", en: "Japan trades with many countries.", alt: ["{利益|りえき}", "{容易|ようい}", "{交代|こうたい}"] },
     ] },
@@ -155,7 +155,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "easy; simple (formal)",
     note: "The written/formal counterpart of 簡単: 容易に想像できる (easy to imagine), 容易ではない (it's no easy matter), often with negatives (容易には解決しない). Not to be confused with 用意 (preparation), same reading.",
     rx: ["ようえき", "よい", "ようえ"],
-    book: { ja: "{双方|そうほう}の{利害|りがい}が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は**{容易|ようい}**には{解決|かいけつ}するまい。", en: "Because the two sides' interests are in conflict, the trade problem with Country A is unlikely to be resolved easily.", at: "gp/93" },
+    book: { ja: "{双方|そうほう}の{利害|りがい}が{対立|たいりつ}しているので、A国との{貿易問題|ぼうえきもんだい}は**{容易|ようい}**には{解決|かいけつ}するまい。", en: "With the two sides' interests at odds, the trade dispute with Country A is unlikely to be settled easily.", at: "gp/93" },
     ex: [
       { ja: "{彼|かれ}の{気持|きも}ちは、**{容易|ようい}**に{想像|そうぞう}できる。", en: "I can easily imagine how he feels.", alt: ["{用意|ようい}", "{有利|ゆうり}", "{得意|とくい}"] },
     ] },
@@ -163,7 +163,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to rise; to grow; to heighten (interest, tension, expectations)",
     note: "関心 / 期待 / 人気 / 緊張が高まる; the transitive is 高める. 上がる is for prices, temperatures and other measurable things; 高まる for abstract things.",
     rx: ["こうまる", "たかばる", "だかまる"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but alternative energy is unlikely to catch on easily.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は**{高|たか}まって**いるが、{代替|だいたい}エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy is unlikely to catch on quickly.", at: "gp/93" },
     ex: [
       { ja: "オリンピックが{近|ちか}づき、{国民|こくみん}の{期待|きたい}が**{高|たか}まって**いる。", en: "With the Olympics approaching, the public's expectations are rising.", alt: ["{固|かた}まって", "{収|おさ}まって", "{縮|ちぢ}まって"] },
     ] },
@@ -171,7 +171,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "substitute; alternative; replacement",
     note: "代替エネルギー (alternative energy), 代替案 (an alternative plan), 代替品 (a substitute). だいがえ is also heard, but だいたい is the standard reading. Everyday speech uses 代わり.",
     rx: ["たいたい", "だいたえ", "だいてい"],
-    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in environmental protection is growing, but alternative energy is unlikely to catch on easily.", at: "gp/93" },
+    book: { ja: "{環境保護|かんきょうほご}への{関心|かんしん}は{高|たか}まっているが、**{代替|だいたい}**エネルギーの{普及|ふきゅう}は{簡単|かんたん}には進むまい。", en: "Interest in protecting the environment is growing, but alternative energy is unlikely to catch on quickly.", at: "gp/93" },
     ex: [
       { ja: "{部品|ぶひん}が{手|て}に{入|はい}らないため、**{代替|だいたい}**{品|ひん}を{使|つか}うことにした。", en: "The part wasn't available, so we decided to use a substitute.", alt: ["{大体|だいたい}", "{交代|こうたい}", "{現代|げんだい}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "tragic; miserable; dreadful",
     note: "悲惨な事故 / 状況 / 結果 / 体験; much stronger than かわいそう. Casually also for a disastrous result (テストの点が悲惨だった). 悲劇 (tragedy) is the noun.",
     rx: ["ひさい", "かなさん", "ひざん"],
-    book: { ja: "{戦争|せんそう}の**{悲惨|ひさん}**な{体験|たいけん}を聞くにつけ、{平和|へいわ}の大切さを{痛感|つうかん}する。", en: "Every time I hear about the tragic experiences of war, I keenly feel how precious peace is.", at: "gp/94" },
+    book: { ja: "{戦争|せんそう}の**{悲惨|ひさん}**な{体験|たいけん}を聞くにつけ、{平和|へいわ}の大切さを{痛感|つうかん}する。", en: "Every time I hear about people's harrowing experiences of war, I'm keenly reminded of how precious peace is.", at: "gp/94" },
     ex: [
       { ja: "{試験|しけん}の{結果|けっか}は**{悲惨|ひさん}**なもので、{親|おや}に{見|み}せられなかった。", en: "My exam results were so dismal that I couldn't show them to my parents.", alt: ["{悲観|ひかん}", "{参加|さんか}", "{優秀|ゆうしゅう}"] },
     ] },
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "feeling keenly; being acutely aware (of)",
     note: "Written: 力不足 / 大切さ / 必要性を痛感する. A close everyday phrase is 身にしみる (sink in).",
     rx: ["いたかん", "つうがん", "とうかん"],
-    book: { ja: "{戦争|せんそう}の{悲惨|ひさん}な{体験|たいけん}を聞くにつけ、{平和|へいわ}の大切さを**{痛感|つうかん}**する。", en: "Every time I hear about the tragic experiences of war, I keenly feel how precious peace is.", at: "gp/94" },
+    book: { ja: "{戦争|せんそう}の{悲惨|ひさん}な{体験|たいけん}を聞くにつけ、{平和|へいわ}の大切さを**{痛感|つうかん}**する。", en: "Every time I hear about people's harrowing experiences of war, I'm keenly reminded of how precious peace is.", at: "gp/94" },
     ex: [
       { ja: "{留学|りゅうがく}して、{自分|じぶん}の{語学力|ごがくりょく}の{足|た}りなさを**{痛感|つうかん}**した。", en: "Studying abroad made me painfully aware of how inadequate my language skills were.", alt: ["{共感|きょうかん}", "{通過|つうか}", "{感心|かんしん}"] },
     ] },
@@ -290,7 +290,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "high-class; high-end; luxury",
     note: "高級ホテル / 車 / 品, 高級感 (a luxurious feel). 上等 means top quality (a bit old-fashioned); the opposite is 安物 or 低価格.",
     rx: ["こうきゅ", "たかきゅう", "こうぎゅう"],
-    book: { ja: "**{高級感|こうきゅうかん}**があるし、使いやすそうだね。", en: "It has a luxurious feel and looks easy to use.", at: "gp/95" },
+    book: { ja: "**{高級感|こうきゅうかん}**があるし、使いやすそうだね。", en: "It has a really upscale feel, and it looks easy to use too.", at: "gp/95" },
     ex: [
       { ja: "たまには**{高級|こうきゅう}**なレストランで{食事|しょくじ}をしてみたい。", en: "Every once in a while I'd like to eat at a high-end restaurant.", alt: ["{上級|じょうきゅう}", "{高齢|こうれい}", "{高速|こうそく}"] },
     ] },
@@ -320,7 +320,7 @@ TRY.registerVocab({ ch: 10, words: [
   { w: "ぐいぐい", lv: "N1", pos: "adverb",
     en: "(pushing, pulling) hard and forcefully; (drinking) in big gulps; pushily",
     note: "ぐいぐい押す / 引っ張る, ぐいぐい飲む, ぐいぐい来る (be pushy, come on strong). Mimetic word; casual.",
-    book: { ja: "{結局|けっきょく}、立ったまま{背中|せなか}を**ぐいぐい**押され、{耐|た}えているうちにまた次の駅に着く。", en: "In the end I stay standing, getting shoved hard in the back, and while I'm putting up with it we reach the next station again.", at: "ch/10" },
+    book: { ja: "{結局|けっきょく}、立ったまま{背中|せなか}を**ぐいぐい**押され、{耐|た}えているうちにまた次の駅に着く。", en: "In the end I stay on my feet, getting shoved hard in the back, and while I'm putting up with it, we reach the next station.", at: "ch/10" },
     ex: [
       { ja: "{子|こ}どもに{手|て}を**ぐいぐい**{引|ひ}っ{張|ぱ}られて、おもちゃ{売|う}り{場|ば}へ{連|つ}れて{行|い}かれた。", en: "My child tugged hard at my hand and dragged me to the toy department.", alt: ["すやすや", "ぺらぺら", "ひそひそ"] },
     ] },
@@ -328,7 +328,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "eating fast; speed eating",
     note: "早食い競争 / 選手権 (speed-eating contest), 早食いは体に悪い. A big eater is 大食い. Compare 早起き, 早口 (fast talking).",
     rx: ["そうぐい", "はやくい", "はやしょく"],
-    book: { ja: "**{早食|はやぐ}い**{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "When I was watching the speed-eating championship, the contestants were reaching for the next dish almost before they'd even put the food in their mouths.", at: "gp/96" },
+    book: { ja: "**{早食|はやぐ}い**{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "I was watching a speed-eating championship, and the contestants were reaching for the next dish almost before they'd put the food in their mouths.", at: "gp/96" },
     ex: [
       { ja: "**{早食|はやぐ}い**は{太|ふと}りやすいので、よくかんで{食|た}べましょう。", en: "Eating fast makes you gain weight more easily, so chew your food well.", alt: ["{早起|はやお}き", "{早口|はやくち}", "{早退|そうたい}"] },
     ] },
@@ -336,14 +336,14 @@ TRY.registerVocab({ ch: 10, words: [
     en: "championship (tournament)",
     note: "世界選手権, 全日本選手権, 選手権大会. 選手 is the athlete; 大会 is a competition in general; 優勝 is winning it.",
     rx: ["せんしゅうけん", "せんしゅげん", "せんじゅけん"],
-    book: { ja: "{早食|はやぐ}い**{選手権|せんしゅけん}**を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "When I was watching the speed-eating championship, the contestants were reaching for the next dish almost before they'd even put the food in their mouths.", at: "gp/96" },
+    book: { ja: "{早食|はやぐ}い**{選手権|せんしゅけん}**を見ていたら、{選手|せんしゅ}たちは食べ物を口に入れたか入れないかのうちに、次の料理に手を{伸|の}ばしていた。", en: "I was watching a speed-eating championship, and the contestants were reaching for the next dish almost before they'd put the food in their mouths.", at: "gp/96" },
     ex: [
       { ja: "{彼女|かのじょ}は{水泳|すいえい}の{世界|せかい}**{選手権|せんしゅけん}**で{金|きん}メダルを{取|と}った。", en: "She won a gold medal at the world swimming championships.", alt: ["{選挙権|せんきょけん}", "{著作権|ちょさくけん}", "{主導権|しゅどうけん}"] },
     ] },
   { w: "さっさと", lv: "N2", pos: "adverb",
     en: "quickly; promptly; without wasting time (sometimes curtly)",
     note: "さっさと帰る / 片付ける; as a command, さっさとしなさい (hurry up!). Suggests briskness or impatience, unlike neutral 早く.",
-    book: { ja: "5時になるかならないかのうちに、彼は**さっさと**帰り{仕度|じたく}を始めた。", en: "It had barely turned five when he promptly started packing up to go home.", at: "gp/96" },
+    book: { ja: "5時になるかならないかのうちに、彼は**さっさと**帰り{仕度|じたく}を始めた。", en: "It had barely turned five when he briskly started packing up to go home.", at: "gp/96" },
     ex: [
       { ja: "{文句|もんく}ばかり{言|い}っていないで、**さっさと**{宿題|しゅくだい}を{終|お}わらせなさい。", en: "Stop complaining and hurry up and finish your homework.", alt: ["ぞっと", "じっと", "ほっと"] },
     ] },
@@ -351,7 +351,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "preparation; getting ready",
     note: "More often written 支度. 帰り仕度 (getting ready to leave; じたく by sound change), 身支度 (getting dressed), 夕飯の支度 (getting dinner ready). 準備 is more general and formal.",
     rx: ["しど", "しだく", "しったく"],
-    book: { ja: "5時になるかならないかのうちに、彼はさっさと帰り**{仕度|じたく}**を始めた。", en: "It had barely turned five when he promptly started packing up to go home.", at: "gp/96" },
+    book: { ja: "5時になるかならないかのうちに、彼はさっさと帰り**{仕度|じたく}**を始めた。", en: "It had barely turned five when he briskly started packing up to go home.", at: "gp/96" },
     ex: [
       { ja: "{早|はや}く**{仕度|したく}**しないと、{学校|がっこう}に{遅|おく}れるよ。", en: "If you don't hurry up and get ready, you'll be late for school.", alt: ["{仕事|しごと}", "{支持|しじ}", "{仕方|しかた}"] },
     ] },
@@ -422,7 +422,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "iron (as a nutrient); iron content",
     note: "鉄分不足 (iron deficiency), 鉄分が多い食品 (liver, spinach), 鉄分をとる. 〜分 means “content”: 塩分 (salt), 水分 (moisture), 糖分 (sugar).",
     rx: ["てつふん", "てっぷん", "かねぶん"],
-    book: { ja: "**{鉄分|てつぶん}**が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。", en: "Those who tend to be short of iron should try to take vitamin B from foods such as liver.", at: "gp/97" },
+    book: { ja: "**{鉄分|てつぶん}**が{不足|ふそく}（　）の方はレバーなどビタミンBをとるようにしてください。", en: "If you tend to be low on iron, try to get vitamin B from foods such as liver.", at: "gp/97" },
     ex: [
       { ja: "ほうれん{草|そう}には、**{鉄分|てつぶん}**が{多|おお}く{含|ふく}まれている。", en: "Spinach contains a lot of iron.", alt: ["{部分|ぶぶん}", "{気分|きぶん}", "{半分|はんぶん}"] },
     ] },
@@ -564,7 +564,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "unexpected; surprising",
     note: "意外に / 意外と (surprisingly), 意外な結果 / 事実. 案外 is similar; 予想外 is more formal. Not to be confused with 以外 (other than), same reading.",
     rx: ["いそと", "いかい", "いげ"],
-    book: { ja: "と思っていたが、きちんとした方法は**意外**に知らない人が多くて{驚|おどろ}いた。", en: "…but I was surprised that, unexpectedly, many people don't know the proper way.", at: "ch/10/review" },
+    book: { ja: "と思っていたが、きちんとした方法は**意外**に知らない人が多くて{驚|おどろ}いた。", en: "…but I was surprised to find that a lot of people don't actually know the proper way.", at: "ch/10/review" },
     ex: [
       { ja: "{怖|こわ}そうな{先生|せんせい}だったが、{話|はな}してみると**{意外|いがい}**に{優|やさ}しかった。", en: "The teacher looked scary but turned out to be surprisingly kind once I talked to them.", alt: ["{以外|いがい}", "{案内|あんない}", "{意識|いしき}"] },
     ] },
@@ -588,7 +588,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "voice; audio; sound",
     note: "Technical: 音声ガイド (audio guide), 音声案内 (voice guidance), 音声認識 (voice recognition), 音声が途切れる (the audio cuts out). 声 is a person's voice, 音 sound.",
     rx: ["おとごえ", "おんしょう", "いんせい"],
-    book: { ja: "{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と**音声**で{目的地|もくてきち}まで道案内をしてくれる。", en: "If you enter the information, it guides you to your destination with a map and voice.", at: "ch/10/review" },
+    book: { ja: "{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と**音声**で{目的地|もくてきち}まで道案内をしてくれる。", en: "Just enter the information, and it guides you to your destination with a map and spoken directions.", at: "ch/10/review" },
     ex: [
       { ja: "この{美術館|びじゅつかん}では、{英語|えいご}の**{音声|おんせい}**ガイドを{借|か}りられる。", en: "At this museum you can rent an English audio guide.", alt: ["{名声|めいせい}", "{発声|はっせい}", "{歓声|かんせい}"] },
     ] },
@@ -596,7 +596,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "destination",
     note: "目的地に着く / 向かう, 目的地を設定する (set the destination, e.g. on a car navigation system). 行き先 is the everyday word; 目的 is purpose.",
     rx: ["もくてきじ", "めてきち", "もくでき"],
-    book: { ja: "{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で**{目的地|もくてきち}**まで道案内をしてくれる。", en: "If you enter the information, it guides you to your destination with a map and voice.", at: "ch/10/review" },
+    book: { ja: "{情報|じょうほう}を{入力|にゅうりょく}すれば、地図と音声で**{目的地|もくてきち}**まで道案内をしてくれる。", en: "Just enter the information, and it guides you to your destination with a map and spoken directions.", at: "ch/10/review" },
     ex: [
       { ja: "{渋滞|じゅうたい}のせいで、**{目的地|もくてきち}**に{着|つ}くまで5{時間|じかん}もかかった。", en: "Because of the traffic, it took us five whole hours to reach our destination.", alt: ["{目標|もくひょう}", "{心地|ここち}", "{意地|いじ}"] },
     ] },
@@ -604,7 +604,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "break; rest (break)",
     note: "休憩する / を取る, 10分休憩, 休憩室 (break room), 休憩時間. 休み is broader (days off, holidays); 休息 is rest (formal).",
     rx: ["きゅうかい", "きゅうけ", "やすけい"],
-    book: { ja: "高速道路では料金を教えてくれるし、**{休憩|きゅうけい}**を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。", en: "On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\"", at: "ch/10/review" },
+    book: { ja: "高速道路では料金を教えてくれるし、**{休憩|きゅうけい}**を取った様子がないと「ちょっと休んだほうが…」と話しかけてくる。", en: "On the expressway it tells you the tolls, and if there's no sign that I've taken a break, it speaks up: \"Maybe you should rest a little...\"", at: "ch/10/review" },
     ex: [
       { ja: "2{時間|じかん}{運転|うんてん}したら、{少|すこ}し**{休憩|きゅうけい}**しよう。", en: "After two hours of driving, let's take a short break.", alt: ["{休暇|きゅうか}", "{休業|きゅうぎょう}", "{休講|きゅうこう}"] },
     ] },
@@ -612,14 +612,14 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to talk to; to speak to (someone); to strike up a conversation",
     note: "〜に話しかける (start talking to someone), 知らない人に話しかけられる. 話し合う is discussing together; 声をかける is calling out to someone.",
     rx: ["わしかける", "はなしがける", "かたしかける"],
-    book: { ja: "高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と**話しかけて**くる。", en: "On the expressway it tells you the tolls, and if it seems you haven't taken a break, it speaks to you: \"Maybe you should rest a little...\"", at: "ch/10/review" },
+    book: { ja: "高速道路では料金を教えてくれるし、{休憩|きゅうけい}を取った様子がないと「ちょっと休んだほうが…」と**話しかけて**くる。", en: "On the expressway it tells you the tolls, and if there's no sign that I've taken a break, it speaks up: \"Maybe you should rest a little...\"", at: "ch/10/review" },
     ex: [
       { ja: "{駅|えき}で、{外国人|がいこくじん}に{英語|えいご}で**{話|はな}しかけられた**。", en: "At the station, a foreigner spoke to me in English.", alt: ["{話|はな}し{合|あ}われた", "{見|み}かけられた", "{出|で}かけられた"] },
     ] },
   { w: "まさに", lv: "N1", pos: "adverb",
     en: "truly; exactly; precisely; just (about to)",
     note: "まさにその通り (exactly right), まさに天才 (a genius, no less), まさに〜しようとしていた (was just about to). Emphatic and a little formal; kanji 正に. Casual equivalents: 本当に, ちょうど.",
-    book: { ja: "**まさに**{有能|ゆうのう}な{秘書|ひしょ}だ。", en: "It's truly a capable secretary.", at: "ch/10/review" },
+    book: { ja: "**まさに**{有能|ゆうのう}な{秘書|ひしょ}だ。", en: "It truly is a capable secretary.", at: "ch/10/review" },
     ex: [
       { ja: "{彼|かれ}のプレーは、**まさに**プロそのものだった。", en: "His play was professional through and through.", alt: ["せめて", "たとえ", "いよいよ"] },
     ] },
@@ -627,7 +627,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "capable; competent; able",
     note: "有能な社員 / 秘書 / 人材; the opposite is 無能. 優秀 is “excellent” (grades, results); 有能 is about being good at one's job.",
     rx: ["ゆのう", "ゆうの", "うのう"],
-    book: { ja: "まさに**{有能|ゆうのう}**な{秘書|ひしょ}だ。", en: "It's truly a capable secretary.", at: "ch/10/review" },
+    book: { ja: "まさに**{有能|ゆうのう}**な{秘書|ひしょ}だ。", en: "It truly is a capable secretary.", at: "ch/10/review" },
     ex: [
       { ja: "{彼女|かのじょ}は**{有能|ゆうのう}**な{弁護士|べんごし}として{知|し}られている。", en: "She's known as a very capable lawyer.", alt: ["{有害|ゆうがい}", "{有料|ゆうりょう}", "{有効|ゆうこう}"] },
     ] },
@@ -635,7 +635,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "secretary (personal assistant)",
     note: "社長秘書, 秘書を務める. 書記 is the secretary (note-taker) of a meeting or organization. 秘 also appears in 秘密 (secret).",
     rx: ["ひしょう", "ひじょ", "ひしょく"],
-    book: { ja: "まさに{有能|ゆうのう}な**{秘書|ひしょ}**だ。", en: "It's truly a capable secretary.", at: "ch/10/review" },
+    book: { ja: "まさに{有能|ゆうのう}な**{秘書|ひしょ}**だ。", en: "It truly is a capable secretary.", at: "ch/10/review" },
     ex: [
       { ja: "{社長|しゃちょう}の**{秘書|ひしょ}**が、{会議|かいぎ}の{予定|よてい}を{管理|かんり}している。", en: "The president's secretary manages the meeting schedule.", alt: ["{辞書|じしょ}", "{秘密|ひみつ}", "{避暑|ひしょ}"] },
     ] },
@@ -643,14 +643,14 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to hold, carry (in one's arms); to have (problems, debts, staff)",
     note: "荷物を抱える, 頭を抱える (be at a loss), 問題 / 悩み / 借金を抱える, 社員を抱える. 抱く (だく) is to hug or embrace.",
     rx: ["だかえる", "ほうえる", "かかる"],
-    book: { ja: "地図やらガイドブックやらたくさん**{抱|かか}えて**車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。", en: "It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn.", at: "ch/10/review" },
+    book: { ja: "地図やらガイドブックやらたくさん**{抱|かか}えて**車に乗り込み、ちょっと道を間違えただけで、ぶつぶつ言う彼女よりずっといい。", en: "It's much better than my girlfriend, who climbs into the car loaded with maps, guidebooks and whatnot and grumbles if I take even one slightly wrong turn.", at: "ch/10/review" },
     ex: [
       { ja: "{彼|かれ}は、{多|おお}くの{悩|なや}みを**{抱|かか}えて**いるようだ。", en: "He seems to have a lot of worries.", alt: ["{数|かぞ}えて", "{支|ささ}えて", "{整|ととの}えて"] },
     ] },
   { w: "ぶつぶつ", lv: "N2", pos: "adverb · noun",
     en: "grumbling; muttering; (a rash of) bumps",
     note: "ぶつぶつ言う (grumble, mutter), 文句をぶつぶつ; also ぶつぶつができる (break out in little bumps). Mimetic word.",
-    book: { ja: "地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、**ぶつぶつ**言う彼女よりずっといい。", en: "It's much better than my girlfriend, who gets in the car loaded with maps and guidebooks and grumbles when I take even a slightly wrong turn.", at: "ch/10/review" },
+    book: { ja: "地図やらガイドブックやらたくさん{抱|かか}えて車に乗り込み、ちょっと道を間違えただけで、**ぶつぶつ**言う彼女よりずっといい。", en: "It's much better than my girlfriend, who climbs into the car loaded with maps, guidebooks and whatnot and grumbles if I take even one slightly wrong turn.", at: "ch/10/review" },
     ex: [
       { ja: "{兄|あに}は{仕事|しごと}が{多|おお}いと、いつも**ぶつぶつ**{文句|もんく}を{言|い}っている。", en: "When he has a lot of work, my older brother is always grumbling.", alt: ["すくすく", "ぴかぴか", "ふわふわ"] },
     ] },
@@ -673,7 +673,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "shade; the far side (behind something); (陰で) behind someone's back",
     note: "木の陰 (the shade of a tree), 陰に隠れる, 陰で悪口を言う (badmouth behind someone's back); おかげ (thanks to) comes from お陰. 影, with the same reading, is a shadow or silhouette.",
     rx: ["かけ", "くま", "がけ"],
-    book: { ja: "アフリカの{湖|みずうみ}に住むハシビロコウは、草の**{陰|かげ}**で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "Shoebills living in African lakes keep waiting quietly in the shade of the grass, and when a fish comes up to the surface of the water, they attack with this big beak.", at: "ch/10/review" },
+    book: { ja: "アフリカの{湖|みずうみ}に住むハシビロコウは、草の**{陰|かげ}**で静かに待ち続け、魚が{水面|すいめん}に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "Shoebills living at lakes in Africa keep quietly waiting in the shadow of the grass, and when a fish comes up to the surface, they pounce on it with this big beak.", at: "ch/10/review" },
     ex: [
       { ja: "{暑|あつ}いので、{木|き}の**{陰|かげ}**で{少|すこ}し{休|やす}もう。", en: "It's hot, so let's rest a bit in the shade of the tree.", alt: ["{芽|め}", "{幹|みき}", "{葉|は}"] },
     ] },
@@ -681,7 +681,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "surface of the water",
     note: "水面に浮かぶ / 顔を出す, 水面下 (beneath the surface; behind the scenes: 水面下で交渉する). Also read みなも in poetry. 海面 is the sea surface or sea level.",
     rx: ["みずめん", "すいめい", "すいも"],
-    book: { ja: "魚が**{水面|すいめん}**に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "When a fish comes up to the surface of the water, they attack with this big beak.", at: "ch/10/review" },
+    book: { ja: "魚が**{水面|すいめん}**に上がってきたときにこの大きいくちばしでおそいかかるんです。", en: "When a fish comes up to the surface, they pounce on it with this big beak.", at: "ch/10/review" },
     ex: [
       { ja: "{池|いけ}の**{水面|すいめん}**に、{月|つき}が{映|うつ}っている。", en: "The moon is reflected on the surface of the pond.", alt: ["{水道|すいどう}", "{水分|すいぶん}", "{場面|ばめん}"] },
     ] },
@@ -689,7 +689,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to attack; to pounce on; to fall upon",
     note: "獲物に襲いかかる (pounce on prey); 襲う alone means to attack, and also for disasters (台風が襲う). Often written in kana.",
     rx: ["しゅういかかる", "おそいがかる", "かさいかかる"],
-    book: { ja: "魚が{水面|すいめん}に上がってきたときにこの大きいくちばしで**おそいかかる**んです。", en: "When a fish comes up to the surface of the water, they attack with this big beak.", at: "ch/10/review" },
+    book: { ja: "魚が{水面|すいめん}に上がってきたときにこの大きいくちばしで**おそいかかる**んです。", en: "When a fish comes up to the surface, they pounce on it with this big beak.", at: "ch/10/review" },
     ex: [
       { ja: "{草|くさ}むらに{隠|かく}れていたライオンが、シマウマに**{襲|おそ}いかかった**。", en: "The lion hiding in the grass pounced on the zebra.", alt: ["{腰|こし}かけた", "{寄|よ}りかかった", "{取|と}りかかった"] },
     ] },
@@ -697,7 +697,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "comparatively; relatively",
     note: "比較的簡単 / 暖かい / 安い. 比較 is comparison (比較する). わりと and わりに are the casual equivalents.",
     rx: ["ひこうてき", "ひかくでき", "びかくてき"],
-    book: { ja: "動物園にいるのは**{比較的|ひかくてき}**動くと言われていますが、今日も先ほどえさの時間に少し動いたきり、30分以上このままです。", en: "The ones in zoos are said to move comparatively more, but today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes.", at: "ch/10/review" },
+    book: { ja: "動物園にいるのは**{比較的|ひかくてき}**動くと言われていますが、今日も先ほどえさの時間に少し動いたきり、30分以上このままです。", en: "Shoebills in zoos are said to move relatively more, but today, again, this one moved only a little at feeding time a while ago and has stayed just like this for over 30 minutes.", at: "ch/10/review" },
     ex: [
       { ja: "{今年|ことし}の{冬|ふゆ}は、**{比較的|ひかくてき}**{暖|あたた}かい。", en: "This winter has been relatively warm.", alt: ["{積極的|せっきょくてき}", "{一方的|いっぽうてき}", "{具体的|ぐたいてき}"] },
     ] },
@@ -705,7 +705,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "(animal) feed; food for animals; bait",
     note: "犬 / 魚にえさをやる, えさの時間 (feeding time); also bait (釣りのえさ) and figuratively a lure. Often written in kana. Not used for people's food.",
     rx: ["えざ", "えそ", "やさ"],
-    book: { ja: "今日も先ほど**えさ**の時間に少し動いたきり、30分以上このままです。", en: "But today too, after moving a little at feeding time a while ago, it has stayed like this for over 30 minutes.", at: "ch/10/review" },
+    book: { ja: "今日も先ほど**えさ**の時間に少し動いたきり、30分以上このままです。", en: "But today, again, this one moved only a little at feeding time a while ago and has stayed just like this for over 30 minutes.", at: "ch/10/review" },
     ex: [
       { ja: "{毎朝|まいあさ}、{池|いけ}の{鯉|こい}に**{餌|えさ}**をやるのが{祖父|そふ}の{日課|にっか}だ。", en: "Feeding the carp in the pond every morning is my grandfather's daily routine.", alt: ["{肥料|ひりょう}", "{鍵|かぎ}", "{笛|ふえ}"] },
     ] },
@@ -713,7 +713,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to surprise; to startle; to scare",
     note: "人を驚かす (give someone a surprise or a fright), 世間を驚かす (astonish the world). 驚かせる is equally common, especially in writing. The intransitive is 驚く.",
     rx: ["きょうかす", "おどらかす", "おどろがす"],
-    book: { ja: "子どもを**おどろかそう**として、{突然|とつぜん}{近寄|ちかよ}ってくることがありますから…。", en: "It sometimes suddenly comes up close, trying to startle children...", at: "ch/10/review" },
+    book: { ja: "子どもを**おどろかそう**として、{突然|とつぜん}{近寄|ちかよ}ってくることがありますから…。", en: "It sometimes suddenly comes right up to children to try to startle them...", at: "ch/10/review" },
     ex: [
       { ja: "{後|うし}ろから{急|きゅう}に{声|こえ}をかけて、{友達|ともだち}を**{驚|おどろ}かした**。", en: "I startled my friend by suddenly calling out from behind.", alt: ["{散|ち}らかした", "{溶|と}かした", "{乾|かわ}かした"] },
     ] },
@@ -721,7 +721,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to approach; to go near; to come close",
     note: "〜に近寄る, 近寄らないでください (keep away), 近寄りがたい (unapproachable). 近づく is more general (also for time: 試験が近づく); 近寄る is physically coming up close.",
     rx: ["きんよる", "ちかずる", "ちかよう"],
-    book: { ja: "子どもをおどろかそうとして、{突然|とつぜん}**{近寄|ちかよ}って**くることがありますから…。", en: "It sometimes suddenly comes up close, trying to startle children...", at: "ch/10/review" },
+    book: { ja: "子どもをおどろかそうとして、{突然|とつぜん}**{近寄|ちかよ}って**くることがありますから…。", en: "It sometimes suddenly comes right up to children to try to startle them...", at: "ch/10/review" },
     ex: [
       { ja: "{危|あぶ}ないので、{工事|こうじ}{現場|げんば}には**{近寄|ちかよ}らない**でください。", en: "It's dangerous, so please stay away from the construction site.", alt: ["{片寄|かたよ}らない", "{見|み}つからない", "{似合|にあ}わない"] },
     ] },

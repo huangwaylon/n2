@@ -52,7 +52,7 @@ TRY.registerCompare([
         ex: { ja: "アイスクリームが{溶|と}けない**うちに**食べよう。", en: "Let's eat the ice cream before it melts." },
         note: "V-ない / いA / Nの + うちに: \"before (it stops being) ~ / while still ~\". Do something while the favorable state lasts, before it changes (冷めないうちに, 若いうちに)." },
       { pattern: "VかVかのうちに", level: "N2", no: 96,
-        ex: { ja: "{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に**入れたか入れないかのうちに**、次の料理に手を{伸|の}ばしていた。", en: "When I watched the speed-eating championship, the contestants were already reaching for the next dish almost before they'd gotten the food into their mouths." },
+        ex: { ja: "{早食|はやぐ}い{選手権|せんしゅけん}を見ていたら、{選手|せんしゅ}たちは食べ物を口に**入れたか入れないかのうちに**、次の料理に手を{伸|の}ばしていた。", en: "I was watching a speed-eating championship, and the contestants were reaching for the next dish almost before they'd put the food in their mouths." },
         note: "V-る/V-た + か + V-ない + かのうちに (the same verb twice): \"barely had ~ when\". The next event follows before the first has quite finished; it reports a fact, usually past, never a request or intention." }
     ]
   },
@@ -454,7 +454,7 @@ TRY.registerCompare([
     },
     items: [
       { pattern: "Vまい", level: "N2", no: 93,
-        ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはある**まい**。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging from the situation, the world economy is unlikely to take a turn for the better any time soon. Our company, too, must urgently think of countermeasures." },
+        ex: { ja: "世界{経済|けいざい}は{状況|じょうきょう}から見て、すぐに{好転|こうてん}することはある**まい**。わが社も{早急|さっきゅう}に{対策|たいさく}を考えなければならない。", en: "Judging by the current situation, the world economy is unlikely to recover any time soon. Our company, too, needs to work out countermeasures right away." },
         note: "V-る + まい: \"surely won't / there's little chance that\". A formal negative conjecture based on the situation (≈ 〜ないだろう), often 〜ことはあるまい; the same form also expresses firm negative resolve (\"I will never\")." },
       { pattern: "VかVまいか", level: "N2", no: 123,
         ex: { ja: "彼は夏休みに国へ**帰ろうか帰るまいか**と{悩|なや}んでいるらしい。", en: "Apparently he's agonizing over whether or not to go back to his country for summer vacation." },
