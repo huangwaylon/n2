@@ -223,7 +223,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "ignition; lighting; catching fire",
     note: "Technical/written: 着火する, 着火剤 (fire starter), 着火部分. 点火 is deliberately igniting (点火装置); 発火 is catching fire, often spontaneously. Everyday: 火がつく / 火をつける.",
     rx: ["ちゃくか", "きゃっか", "ちゃっけ"],
-    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it.", at: "gp/81" },
+    book: { ja: "このライターは**{着火|ちゃっか}**部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "The igniter on this lighter is made stiff so that it won't light even if a child plays with it.", at: "gp/81" },
     ex: [
       { ja: "{湿|しめ}った{木|き}は、なかなか**{着火|ちゃっか}**しない。", en: "Damp wood doesn't catch fire easily.", alt: ["{着席|ちゃくせき}", "{着陸|ちゃくりく}", "{到着|とうちゃく}"] },
     ] },
@@ -324,7 +324,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "shopping street; local shopping district",
     note: "A street of small shops, often under an arcade (アーケード), as opposed to a ショッピングモール. シャッター商店街 is a dying one with most shutters down.",
     rx: ["しょうてんかい", "しょうでんがい", "しょってんがい"],
-    book: { ja: "さっき、**{商店街|しょうてんがい}**のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。", en: "When I passed the butcher's in the shopping street just now, there was a lovely smell of freshly fried croquettes, so I bought some.", at: "ch/9" },
+    book: { ja: "さっき、**{商店街|しょうてんがい}**のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。", en: "Just now I walked past the butcher shop on the shopping street, and the freshly fried croquettes smelled so good that I bought some.", at: "ch/9" },
     ex: [
       { ja: "{駅前|えきまえ}の**{商店街|しょうてんがい}**は、{夕方|ゆうがた}になると{買|か}い{物|もの}{客|きゃく}でにぎわう。", en: "The shopping street in front of the station gets busy with shoppers in the evening.", alt: ["{住宅街|じゅうたくがい}", "{地下鉄|ちかてつ}", "{市役所|しやくしょ}"] },
     ] },
@@ -332,7 +332,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to deep-fry; to raise (a flag), fly (a kite)",
     note: "天ぷら / コロッケを揚げる; 揚げ物 (fried food), 唐揚げ. Compare 焼く (grill/bake), 炒める (stir-fry), 煮る (simmer). Also 凧を揚げる, 国旗を揚げる.",
     rx: ["ようげる", "やげる", "ゆげる"],
-    book: { ja: "さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、**{揚|あ}げ**＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。", en: "When I passed the butcher's in the shopping street just now, there was a lovely smell of freshly fried croquettes, so I bought some.", at: "ch/9" },
+    book: { ja: "さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、**{揚|あ}げ**＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。", en: "Just now I walked past the butcher shop on the shopping street, and the freshly fried croquettes smelled so good that I bought some.", at: "ch/9" },
     ex: [
       { ja: "{熱|あつ}い{油|あぶら}で{天|てん}ぷらを**{揚|あ}げる**ときは、やけどに{気|き}をつけて。", en: "When you deep-fry tempura in hot oil, be careful not to burn yourself.", alt: ["{炊|た}く", "{炒|いた}める", "{茹|ゆ}でる"] },
     ] },
@@ -340,7 +340,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "smell; scent; aroma",
     note: "匂い is for pleasant or neutral smells (いい匂い); 臭い, with the same reading, is for bad smells. 匂いがする / を嗅ぐ. 香り (fragrance) sounds more refined.",
     rx: ["にごい", "におり", "かおい"],
-    book: { ja: "さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい**{匂|にお}い**がしたから、買っちゃった。", en: "When I passed the butcher's in the shopping street just now, there was a lovely smell of freshly fried croquettes, so I bought some.", at: "ch/9" },
+    book: { ja: "さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい**{匂|にお}い**がしたから、買っちゃった。", en: "Just now I walked past the butcher shop on the shopping street, and the freshly fried croquettes smelled so good that I bought some.", at: "ch/9" },
     ex: [
       { ja: "{台所|だいどころ}から、カレーのいい**{匂|にお}い**がしてきた。", en: "A delicious smell of curry came wafting from the kitchen.", alt: ["{味|あじ}", "{色|いろ}", "{形|かたち}"] },
     ] },
@@ -586,7 +586,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to deceive; to trick; to cheat",
     note: "The passive だまされる (be fooled, be scammed) is very common: 詐欺にだまされる. Usually written in kana. 嘘をつく is simply lying.",
     rx: ["たます", "かたす", "だいす"],
-    book: { ja: "**だまされる**＿＿わ。", en: "I nearly got cheated.", at: "ch/9" },
+    book: { ja: "**だまされる**＿＿わ。", en: "I almost got scammed.", at: "ch/9" },
     ex: [
       { ja: "{電話|でんわ}で「お{金|かね}を{振|ふ}り{込|こ}んで」と{言|い}われても、**{騙|だま}されない**ように{注意|ちゅうい}しよう。", en: "Even if someone on the phone tells you to transfer money, be careful not to fall for it.", alt: ["{許|ゆる}されない", "{任|まか}されない", "{励|はげ}まされない"] },
     ] },
@@ -626,7 +626,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "disaster prevention; disaster preparedness",
     note: "防災訓練 (disaster drill), 防災グッズ / 防災セット (emergency kit), 防災の日 (Disaster Prevention Day, September 1). 防犯 is crime prevention, 防火 fire prevention.",
     rx: ["ぼうざい", "ほうさい", "ぼさい"],
-    book: { ja: "この**{防災|ぼうさい}**セットに入っているご飯は、{常温|じょうおん}で5年間{保存|ほぞん}できる（　）。", en: "The rice in this emergency kit is made so that it can be stored at room temperature for five years.", at: "ch/9/review" },
+    book: { ja: "この**{防災|ぼうさい}**セットに入っているご飯は、{常温|じょうおん}で5年間{保存|ほぞん}できる（　）。", en: "The rice in this emergency kit is designed to keep at room temperature for five years.", at: "ch/9/review" },
     ex: [
       { ja: "9{月|がつ}1{日|ついたち}には、{全国|ぜんこく}で**{防災|ぼうさい}**{訓練|くんれん}が{行|おこな}われる。", en: "Disaster drills are held across the country on September 1.", alt: ["{被災|ひさい}", "{火災|かさい}", "{天才|てんさい}"] },
     ] },
@@ -634,7 +634,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "room temperature; normal temperature",
     note: "Common on food labels: 常温保存 (store at room temperature) vs 要冷蔵 (keep refrigerated). 室温 is the temperature of a particular room; 平熱 is normal body temperature.",
     rx: ["つねおん", "しょうおん", "じょおん"],
-    book: { ja: "この{防災|ぼうさい}セットに入っているご飯は、**{常温|じょうおん}**で5年間{保存|ほぞん}できる（　）。", en: "The rice in this emergency kit is made so that it can be stored at room temperature for five years.", at: "ch/9/review" },
+    book: { ja: "この{防災|ぼうさい}セットに入っているご飯は、**{常温|じょうおん}**で5年間{保存|ほぞん}できる（　）。", en: "The rice in this emergency kit is designed to keep at room temperature for five years.", at: "ch/9/review" },
     ex: [
       { ja: "{開封後|かいふうご}は**{常温|じょうおん}**ではなく、{冷蔵庫|れいぞうこ}で{保存|ほぞん}してください。", en: "After opening, store it in the refrigerator, not at room temperature.", alt: ["{体温|たいおん}", "{温泉|おんせん}", "{音程|おんてい}"] },
     ] },
@@ -642,7 +642,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "preservation; storage; saving (a file)",
     note: "冷蔵保存, 保存がきく (keeps well), 保存料 (preservative), ファイルを保存する (save a file). 保管 is keeping items safely in one's custody.",
     rx: ["ほうぞん", "ほそん", "ほざん"],
-    book: { ja: "この{防災|ぼうさい}セットに入っているご飯は、{常温|じょうおん}で5年間**{保存|ほぞん}**できる（　）。", en: "The rice in this emergency kit is made so that it can be stored at room temperature for five years.", at: "ch/9/review" },
+    book: { ja: "この{防災|ぼうさい}セットに入っているご飯は、{常温|じょうおん}で5年間**{保存|ほぞん}**できる（　）。", en: "The rice in this emergency kit is designed to keep at room temperature for five years.", at: "ch/9/review" },
     ex: [
       { ja: "{書|か}いた{文書|ぶんしょ}は、こまめに**{保存|ほぞん}**しておいたほうがいい。", en: "You should save your documents frequently as you write.", alt: ["{依存|いぞん}", "{保証|ほしょう}", "{生存|せいぞん}"] },
     ] },
@@ -673,7 +673,7 @@ TRY.registerVocab({ ch: 9, words: [
     en: "to scold; to tell off",
     note: "子どもを叱る, 叱られる (get scolded). 怒る is getting angry (emotional); 叱る is correcting someone below you for their own good. 注意する is the milder “warn.”",
     rx: ["しつる", "こる", "しっかる"],
-    book: { ja: "上手に**しから**ないと", en: "If you don't scold them skillfully,", at: "ch/9/review" },
+    book: { ja: "上手に**しから**ないと", en: "If you don't know how to scold well,", at: "ch/9/review" },
     ex: [
       { ja: "{宿題|しゅくだい}を{忘|わす}れて、{先生|せんせい}に**{叱|しか}られた**。", en: "I forgot my homework and got scolded by the teacher.", alt: ["{褒|ほ}められた", "{助|たす}けられた", "{任|まか}せられた"] },
     ] },

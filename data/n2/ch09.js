@@ -31,9 +31,9 @@ TRY.registerChapter({
           examples: [
             { ja: "A：どうしたの？　顔、はれてるよ。\nB：{虫歯|むしば}を{抜|ぬ}いたら、痛いのなんのって。何も食べられないんだ。", en: "A: What happened? Your face is swollen.\nB: I had a bad tooth pulled, and it hurt like you wouldn't believe. I can't eat anything." },
             { ja: "A：あくびばっかりして、{寝不足|ねぶそく}？\nB：{隣|となり}の部屋の人がテレビでサッカー見ていて、うるさいのなんのって、{全然|ぜんぜん}寝られなかったんだ。", en: "A: You keep yawning — didn't you get enough sleep?\nB: The person in the next room was watching soccer on TV, and it was unbelievably noisy. I couldn't sleep at all." },
-            { ja: "A：{突然|とつぜん}部長に呼ばれてさ、部長のお{嬢|じょう}さんと{見合|みあ}いしないかって。びっくりしたのなんのって。\nB：で、{見合|みあ}いするの？", en: "A: The department head suddenly called me in and asked if I'd be willing to have an arranged-marriage meeting with their daughter. Talk about a shock!\nB: So, are you going to meet her?" },
+            { ja: "A：{突然|とつぜん}部長に呼ばれてさ、部長のお{嬢|じょう}さんと{見合|みあ}いしないかって。びっくりしたのなんのって。\nB：で、{見合|みあ}いするの？", en: "A: The department head suddenly called me in and asked if I'd consider an arranged-marriage meeting with the department head's daughter. Talk about a shock!\nB: So, are you going to meet her?" },
             { ja: "午前中、忙しかったのなんのって、トイレに行くひまもないくらいだった。", en: "I was crazy busy this morning — I didn't even have time to go to the bathroom." },
-            { ja: "A：昨日のハイキング、思いのほか大変だったね。\nB：ほんと、ぶっ続けで5時間歩きっぱなし。疲れたのなんのって、最後はもう一歩も歩けないっていう感じだったよね。", en: "A: Yesterday's hike was a lot harder than expected, wasn't it?\nB: Seriously. Five straight hours of walking without a break. I was so tired, I can't even tell you. By the end we felt like we couldn't take another step, right?" },
+            { ja: "A：昨日のハイキング、思いのほか大変だったね。\nB：ほんと、ぶっ続けで5時間歩きっぱなし。疲れたのなんのって、最後はもう一歩も歩けないっていう感じだったよね。", en: "A: Yesterday's hike was a lot harder than expected, wasn't it?\nB: Seriously. Five straight hours of walking without a break. I was so tired, I can't even tell you. By the end it felt like we couldn't take another step, right?" },
           ],
           deepDive: "**〜のなんのって** is a chatty exaggeration: the speaker names a quality and gives up looking for a word big enough, *so ~ you wouldn't believe it*. It reports the speaker's own experience, usually something overwhelming or unpleasant (痛い, うるさい, 疲れた), though good things work too: メニューが多いのなんのって (*the menu was just enormous*).\n\nConnection: plain form; な-adjectives keep な (静かなのなんのって). The book crosses out N＋だ, so rephrase a noun: ✗雨なのなんのって → ✓雨がひどいのなんのって. The sentence either stops there (痛いのなんのって。) or goes on to the proof: 寒いのなんのって、手が動かなかった (*it was freezing; my hands wouldn't move*).\n\nCompare:\n- **〜ことか** (#42): どれほど心配したことか (*how worried I was!*), an emotional exclamation that also appears in writing; のなんのって is casual speech and usually followed by evidence.\n- **〜てならない** (#121): a feeling that wells up inside (心配でならない), not an outside experience such as noise or crowds.\nN1's 〜といったらない makes the same exaggeration.\n\nPitfall: it looks back on something experienced; it can't describe plans, and it is too casual for a superior.\n\nJLPT cue: a casual text with an adjective or emotion before the blank and a vivid scene after it.",
           see: [42, 121],
@@ -52,7 +52,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "{炊|た}きたてのご飯ってほんといいね。{何杯|なんばい}でも食べられそう。", en: "Freshly cooked rice is so good, isn't it? I feel like I could eat bowl after bowl." },
-            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. I bought them just after they were made." },
+            { ja: "A：このおまんじゅう、まだ{温|あたた}かいよ。\nB：うん。できたてを買ってきたの。", en: "A: These manju are still warm.\nB: Yeah. They were freshly made when I bought them." },
             { ja: "このベンチ、ペンキぬりたてだって。", en: "Apparently this bench was just painted." },
             { ja: "A：ねえ、うちの姉の子がね、{幼稚園|ようちえん}で習った覚えたての歌と{踊|おど}りを見せてくれたんだ。\nB：そりゃ、かわいかっただろうね。", en: "A: Hey, my sister's kid showed me a song and dance they'd just learned at kindergarten.\nB: That must have been adorable." },
           ],
@@ -117,7 +117,7 @@ TRY.registerChapter({
               usage: { ja: "「[N] + ってば」も同じように使う。", en: "\"[N] + ってば\" is used in the same way.", gen: true },
               examples: [
                 { ja: "お母さんってば、いつも{勝手|かって}に私の部屋に入るのよ。", en: "Mom, honestly — she always comes into my room without asking." },
-                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "Our company president, I swear — now they're saying they'll put up a bronze statue of themselves at the main entrance. What a headache." },
+                { ja: "うちの社長ってば、{正面|しょうめん}{玄関|げんかん}に自分の{銅像|どうぞう}立てるって言うんだ。困っちゃうよ。", en: "I swear, our company president is talking about putting up a bronze statue of themselves at the main entrance. What a headache." },
               ],
             },
           ],
@@ -138,7 +138,7 @@ TRY.registerChapter({
             { ja: "最近の{回転寿司|かいてんずし}はお{皿|さら}についているセンサーで、食べた{金額|きんがく}が{自動的|じどうてき}に{計算|けいさん}できるようになっているそうだ。", en: "Apparently conveyor-belt sushi restaurants these days are set up so that sensors on the plates automatically calculate the cost of what you've eaten." },
             { ja: "このホテルのドアは閉めると{自動的|じどうてき}にかぎがかかるようになっていますので、お出かけの{際|さい}はこのカードキーを{必|かなら}ずお持ちください。", en: "The doors in this hotel are designed to lock automatically when closed, so please be sure to take this card key with you whenever you go out." },
             { ja: "世界{初|はつ}の{自動販売機|じどうはんばいき}はエジプトで2000年以上前に作られ、お金を入れると水が出るようになっていたそうだ。", en: "They say the world's first vending machine was made in Egypt over 2,000 years ago, and it was designed so that water came out when you put in money." },
-            { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "This lighter has a stiff igniter, designed so that it won't light even if a child plays with it." },
+            { ja: "このライターは{着火|ちゃっか}部分を{固|かた}くして、子どもがいたずらしても火がつかないようになっています。", en: "The igniter on this lighter is made stiff so that it won't light even if a child plays with it." },
           ],
           deepDive: "**V-る／V-ない + ようになっている** explains how something is designed or set up to work: when A happens, B follows automatically. The subject is a machine, facility, system or the body, never a person's decision: ボタンを押すと、お湯が出るようになっている (*it's set up so that hot water comes out when you press the button*). The negative describes safety features (子どもが触っても開かないようになっている *it won't open even if a child touches it*); a potential verb, what the thing lets you do (〜できるようになっている).\n\nTypical frame: [A]と／たら／ても, [B]ようになっている, often with 自動的に or 自然に.\n\nCompare:\n- **〜ようにしている**: a person's conscious habit: 毎朝野菜ジュースを飲むようにしている (*I make a point of drinking vegetable juice every morning*).\n- **〜ようになる**: a change over time: 泳げるようになった (*I learned to swim*).\n- **〜ことになっている**: a rule or arrangement: 社員は8時に出社することになっている (*employees are supposed to be at work at 8*).\n\nPitfall: if a human is deliberately doing it, it is ようにしている, not ようになっている.\n\nJLPT cue: a product or system as the subject and 自動的に or できる before the blank.",
           see: [],
@@ -220,7 +220,7 @@ TRY.registerChapter({
                   q: "A：{斎藤|さいとう}さん、部屋にいないみたいだね。\nB：うん。今日{就職|しゅうしょく}試験だって言っていたから、もう出かけた（　）よ。",
                   options: ["わけ", "はず", "べき"],
                   answer: 1,
-                  en: "A: Saito doesn't seem to be in the room.\nB: Yeah. Saito said the job exam was today, so they should have left already.",
+                  en: "A: Saito doesn't seem to be in the room.\nB: Yeah. Saito said the job exam was today, so Saito should have left already.",
                   why: { en: "B infers from what Saito said that Saito must have left; it hasn't been confirmed: はず (*should have*). わけ needs an established fact whose reason you've just understood." },
                 },
                 {
@@ -328,7 +328,7 @@ TRY.registerChapter({
           bank: ["どころか", "ったら", "たて", "ようじゃ"],
           items: [
             { q: "お父さん＿＿、部屋の電気つけっぱなしにしないでよ。", answer: "ったら", en: "Honestly, Dad, don't leave the lights on in the room!" },
-            { q: "A：さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。\nB：えー！　10{個|こ}も!?", answer: "たて", en: "A: When I passed the butcher's in the shopping street just now, there was a lovely smell of freshly fried croquettes, so I bought some.\nB: What! Ten of them!?" },
+            { q: "A：さっき、{商店街|しょうてんがい}のお{肉屋|にくや}さんの前を通ったら、{揚|あ}げ＿＿のコロッケのいい{匂|にお}いがしたから、買っちゃった。\nB：えー！　10{個|こ}も!?", answer: "たて", en: "A: Just now I walked past the butcher shop on the shopping street, and the freshly fried croquettes smelled so good that I bought some.\nB: What! Ten of them!?" },
             { q: "「{縁|えん}があれば」なんて言っている＿＿、{恋人|こいびと}なんかできないよ。", answer: "ようじゃ", en: "If you keep saying things like \"if it's meant to be,\" you'll never get a boyfriend or girlfriend." },
             { q: "A：ドイツ工場へ見学に行くんだって？　ドイツ語できるんだ、すごいね。\nB：とんでもない。ドイツ語＿＿英語さえちゃんと話せないよ。どうしよう。", answer: "どころか", en: "A: I hear you're going to tour the plant in Germany. You speak German? That's amazing.\nB: Are you kidding? I can't even speak English properly, let alone German. What am I going to do?" },
           ],
@@ -546,7 +546,7 @@ TRY.registerChapter({
           examples: [
             { ja: "A：もうすぐ冬だね。私、寒いの{苦手|にがて}なんだ。\nB：暑いより、寒いほうがましだよ。寒いときには服を着ればいいんだから。", en: "A: It'll be winter soon. I can't stand the cold.\nB: Cold is better than hot. When it's cold, you can just put on more clothes." },
             { ja: "A：彼、何を作っても何も言わずに食べるだけなの。\nB：ちゃんと食べてくれるならいいじゃない。「まずい」って言われるよりましでしょ。", en: "A: Whatever I make, he just eats it without saying a word.\nB: Well, if he eats it all, what's the problem? It's better than having him say it tastes awful." },
-            { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm getting sick of it, senpai.\nB: You say that, but with the economy this bad, you should think yourself lucky just to have a job." },
+            { ja: "A：{残業|ざんぎょう}が多くて、{嫌|いや}になっちゃいますよ、{先輩|せんぱい}。\nB：そう言うけどね、{不景気|ふけいき}なんだから、仕事があるだけましだと思わなきゃいけないんだぞ。", en: "A: There's so much overtime, I'm getting sick of it, senpai.\nB: You say that, but with the economy this bad, you should count yourself lucky just to have a job." },
             { ja: "あいつは入社5年目なのにミスばかりで、{新人|しんじん}の{加藤|かとう}のほうがまだましだ。", en: "Five years at the company and that guy still makes nothing but mistakes — even Kato, our new hire, does better." },
           ],
           deepDive: "**まし（だ）** = *less bad, preferable by comparison*. Neither option is good; one is only less bad, so the tone is grudging: 暑いより寒いほうがましだ (*cold beats hot*) doesn't praise the cold.\n\nFrames:\n- **〜ほうがましだ**: *I'd rather ~*: 彼に頼むくらいなら、自分でやったほうがましだ (*I'd rather do it myself than ask him*). Hyperbole is common (死んだほうがまし).\n- **〜よりましだ**: *better than ~*; the clause is the worse option: ないよりましだ (*better than nothing*).\n- **〜だけましだ**: *at least ~*; the clause is the one good point: けががなかっただけましだ (*at least nobody was hurt*).\n- **ましな + N**: もう少しましな服はないの？ (*don't you have anything more decent to wear?*).\n\nIt often completes **〜くらいなら** (#90).\n\nCompare **〜ほうがいい**: positive advice (早く寝たほうがいい); ほうがましだ grudgingly picks the lesser evil. N1's 〜に越したことはない names an ideal, the opposite attitude.\n\nPitfall: より takes the worse clause, だけ the good one.\n\nJLPT cue: two unpleasant options compared with ほうが / より / だけ.",
@@ -597,7 +597,7 @@ TRY.registerChapter({
           prompt: { ja: "", en: "Choose the expression from the box that fills each blank." },
           bank: ["ことだ", "ところだった", "ましだ"],
           items: [
-            { q: "あの{通販|つうはん}サイト、にせブランド品を売っていたんだって。だまされる＿＿わ。", answer: "ところだった", en: "I heard that online shopping site was selling fake brand goods. I nearly got cheated." },
+            { q: "あの{通販|つうはん}サイト、にせブランド品を売っていたんだって。だまされる＿＿わ。", answer: "ところだった", en: "I heard that online shopping site was selling fake brand goods. I almost got scammed." },
             { q: "あんな{危|あぶ}ない運転をする人の車に乗るより、遠くても、歩いたほうが＿＿と思う。", answer: "ましだ", en: "Rather than ride in the car of someone who drives that dangerously, I think it's better to walk, even if it's far." },
             { q: "{楽器|がっき}は何でも{上達|じょうたつ}しようと思ったら練習が一番。毎日練習する＿＿よ。", answer: "ことだ", en: "With any instrument, if you want to improve, nothing beats practice. The thing to do is practice every day." },
           ],
@@ -628,14 +628,14 @@ TRY.registerChapter({
             q: "{当店|とうてん}では、作り（　）の味をお楽しみいただけるよう、ご{注文|ちゅうもん}を受けてから作っています。",
             options: ["ながら", "たて", "かけ", "しだい"],
             answer: 1,
-            en: "At our shop, we make everything after receiving your order so that you can enjoy the taste of freshly made food.",
+            en: "At our shop, we make everything to order so that you can enjoy the taste of freshly made food.",
             why: { en: "The food is made only after you order, so you taste it fresh: 作りたて (*freshly made*). 作りかけ means half-made, 作りながら *while making*, and 作りしだい *as soon as it's made*; none describes 味." },
           },
           {
             q: "この{防災|ぼうさい}セットに入っているご飯は、{常温|じょうおん}で5年間{保存|ほぞん}できる（　）。",
             options: ["かのようです", "ようにしています", "ようになっています", "ようにしてください"],
             answer: 2,
-            en: "The rice in this emergency kit is made so that it can be stored at room temperature for five years.",
+            en: "The rice in this emergency kit is designed to keep at room temperature for five years.",
             why: { en: "Being storable for five years is a built-in feature of the product: ようになっています. ようにしています is a person's habitual effort, ようにしてください a request, and かのようです means *as if*." },
           },
           {
@@ -663,7 +663,7 @@ TRY.registerChapter({
             q: "{怖|こわ}くて{眠|ねむ}れなくなる（　）、ホラー映画なんて見なければいいのに。",
             options: ["のなんのって", "どころか", "くらいなら", "{反面|はんめん}"],
             answer: 2,
-            en: "If you're going to get so scared you can't sleep, you should just not watch horror movies in the first place.",
+            en: "If you're going to get so scared you can't sleep, you'd be better off not watching horror movies at all.",
             why: { en: "Getting too scared to sleep is the rejected outcome, followed by advice with 見なければいいのに: くらいなら. のなんのって needs a vivid result, not advice; どころか and 反面 don't lead to a recommendation." },
           },
           {
@@ -688,7 +688,7 @@ TRY.registerChapter({
             pieces: ["{能力|のうりょく}を", "どころか", "引き出す", "{部下|ぶか}の"],
             order: [3, 0, 2, 1],
             star: 2,
-            en: "If you don't scold them skillfully, far from drawing out your subordinates' abilities, you could end up crushing even their strengths under the pressure.",
+            en: "If you don't know how to scold well, far from drawing out your subordinates' abilities, the pressure could end up crushing even their strengths.",
           },
           {
             before: "こちらの車は",
@@ -696,7 +696,7 @@ TRY.registerChapter({
             pieces: ["{寝泊|ねと}まり", "車内で", "ようになっている", "できる"],
             order: [1, 0, 3, 2],
             star: 2,
-            en: "This car is designed so that you can sleep inside it, so it can also be used for camping.",
+            en: "This car is designed so that you can sleep in it, so you can take it camping too.",
           },
           {
             before: "暑いから、{狭|せま}いテントで",
