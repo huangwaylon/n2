@@ -34,9 +34,9 @@ TRY.registerChapter({
           forms: ["[V-~~ます~~] + つつ"],
           examples: [
             { ja: "クリスマスを前におもちゃ{売|う}り{場|ば}には、{喜|よろこ}ぶ子どもの顔を{思|おも}い{浮|う}かべつつ、プレゼントを選ぶお父さんの{姿|すがた}が増えています。", en: "With Christmas approaching, more and more fathers can be seen in toy departments choosing presents while picturing their children's happy faces." },
-            { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators." },
+            { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators." },
             { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I'd like us to decide on our policy going forward while looking closely at the problems in each department." },
-            { ja: "{趣味|しゅみ}の{園芸|えんげい}教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At my gardening class, which I take as a hobby, I enjoy chatting with the others while learning how to grow flowers." },
+            { ja: "{趣味|しゅみ}の{園芸|えんげい}教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "In the gardening class I take as a hobby, I enjoy chatting with my classmates while learning how to grow flowers and plants." },
           ],
           xref: "☞ p.223　〜つつ",
           deepDive: "**〜つつ** is the written counterpart of 〜ながら: one subject does two things at the same time, and the second verb is the main action. It sounds formal or literary, so it belongs to news, speeches and essays: 台風は速度を速めつつ東に進む (*the typhoon moves east while picking up speed*). With friends, ながら is the natural choice.\n\nIt follows the ます-stem only (考えつつ, ✗考えるつつ) and has no noun or adjective form, unlike 残念ながら. Both actions belong to one subject: ✗母が料理をしつつ、私はテレビを見た. The first slot often holds a feeling or thought: 迷いつつ, 期待しつつ.\n\nCompare:\n- **〜つつも** (#112): concession, *although*: 体に悪いと知りつつも、やめられない (*I know it's bad for me, yet I can't quit*). Plain つつ is occasionally concessive too (〜と思いつつ).\n- **〜つつある** (#71): *is gradually ~ing*: 景気は回復しつつある (*the economy is gradually recovering*).\n- **〜ながら（も）** (#15): the concessive ながら, which also takes nouns and adjectives.\n\nPitfall: in casual conversation, つつ sounds stiff or jokey.\n\nJLPT cue: a ます-stem before the blank and a second action by the same subject after it.",
@@ -67,7 +67,7 @@ TRY.registerChapter({
             { ja: "{長年|ながねん}にわたる研究が{実|みの}り、ついに{新製品|しんせいひん}が{完成|かんせい}した。", en: "Many years of research have paid off, and the new product is finally complete." },
             { ja: "彼は{政治|せいじ}・{経済|けいざい}・{外交|がいこう}など{多方面|たほうめん}にわたって{活躍|かつやく}している。", en: "He is active across a wide range of fields, including politics, economics and diplomacy." },
           ],
-          deepDive: "**〜にわたって** (from 渡る *to extend across*) says something covers the whole of a span of time, space or number: *throughout, over (the entire)*. It stresses how large the extent is, so the noun is a duration, distance, area or count (長年, 3日間, 全域, 多方面, 10回); ✗1分にわたって sounds odd. It is formal; conversation uses ずっと or 〜の間.\n\nFour forms: **にわたって** (standard), **にわたり** (written, news and reports), and the noun modifiers **にわたる + N** and **にわたった + N** (the latter for a span that is over): 長年にわたる研究 (*many years of research*). Choose by what the phrase modifies: the following noun takes にわたる／にわたった; the verb takes にわたって／にわたり, even when a noun stands between them.\n\nCompare:\n- **AからBにかけて** (#32): a rough range, with the event somewhere or sometime within it: 夕方から夜にかけて雨 (*rain sometime between evening and night*). にわたって covers all of it: 5時間にわたって雨が降った (*it rained for five straight hours*).\n- **〜を通じて**: *throughout* a period, describing a steady state: 一年を通じて暖かい (*warm all year round*).\n\nJLPT cue: a size or length expression (長さ〜メートル, 〜年間, 全国) right before the blank.",
+          deepDive: "**〜にわたって** (from 渡る *to extend across*) says something covers the whole of a span of time, space or number: *throughout, over (the entire)*. It stresses how large the extent is, so the noun is a duration, distance, area or count (長年, 3日間, 全域, 多方面, 10回); ?1分にわたって sounds odd. It is formal; conversation uses ずっと or 〜の間.\n\nFour forms: **にわたって** (standard), **にわたり** (written, news and reports), and the noun modifiers **にわたる + N** and **にわたった + N** (the latter for a span that is over): 長年にわたる研究 (*many years of research*). Choose by what the phrase modifies: the following noun takes にわたる／にわたった; the verb takes にわたって／にわたり, even when a noun stands between them.\n\nCompare:\n- **AからBにかけて** (#32): a rough range, with the event somewhere or sometime within it: 夕方から夜にかけて雨 (*rain sometime between evening and night*). にわたって covers all of it: 5時間にわたって雨が降った (*it rained for five straight hours*).\n- **〜を通じて**: *throughout* a period, describing a steady state: 一年を通じて暖かい (*warm all year round*).\n\nJLPT cue: a size or length expression (長さ〜メートル, 〜年間, 全国) right before the blank.",
           see: [32],
           index: ["Nにわたって", "Nにわたり", "Nにわたる", "Nにわたった"],
           practice: [
@@ -146,12 +146,12 @@ TRY.registerChapter({
           usage: { ja: "「〜にともなう」は、「道路工事にともなう{通行止|つうこうど}め」のように、中心になること（道路工事）と同時に、ほかのこと（{通行止|つうこうど}め）も一緒に起きるときに使う。{変化|へんか}を表すときにも使う。", en: "As in “道路工事にともなう{通行止|つうこうど}め”, use “〜にともなう” when the focus of the sentence (road construction) simultaneously produces a concurrent result (a closed road). You can also use it to express a change." },
           forms: ["[N] + にともなって", "[N] + にともない", "[N] + にともなう + [N]"],
           examples: [
-            { ja: "{本社|ほんしゃ}{移転|いてん}にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "Along with the head office's relocation, it has been decided that a state-of-the-art computer system will be installed." },
+            { ja: "{本社|ほんしゃ}{移転|いてん}にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the head office relocating, it has been decided that a state-of-the-art computer system will be installed." },
             { ja: "{議員|ぎいん}の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held." },
             { ja: "一人{暮|ぐ}らしは自由だが、それにともない、{責任|せきにん}も{生|しょう}じる。", en: "Living alone gives you freedom, but responsibility comes along with it." },
             { ja: "{時代|じだい}の{変化|へんか}にともなって、{人々|ひとびと}の考え方も変わってきた。", en: "As the times have changed, so have people's ways of thinking." },
           ],
-          deepDive: "**XにともなってY** (from 伴う *to accompany*) says Y comes along with X as its consequence: X is a main event or change, Y what it brings. Two typical uses: an event and its side effect (道路工事にともなう通行止め, *road closures due to construction*), and one change linked to another (人口の増加にともなって, *as the population grows*). It is formal, the language of notices and news; conversation uses 〜で or 〜から.\n\nForms: **にともなって**, **にともない** (written) and **にともなう + N**. As with **にわたって** (#31), choose by what it modifies: the next noun takes にともなう, the verb にともなって. **それにともない** (*along with that*) links sentences.\n\nCompare:\n- **〜とともに** (#35): also links changes, but only とともに takes a person as partner: 家族とともに暮らす (*live with my family*), ✗家族にともなって.\n- **〜にしたがって** (#65): proportional change on both sides; にともなって can also mark a one-off event: 移転にともない、電話番号が変わる (*with the move, the phone number will change*).\n- **〜に応じて** (#4): deliberate matching to a condition: 収入に応じて (*according to income*).\n\nPitfall: a simple cause such as weather takes ため or で: ✗雨にともなって試合が中止になった.\n\nJLPT cue: a change or event noun (移転, 増加, 普及, 変化) before the blank and a resulting change after it.",
+          deepDive: "**XにともなってY** (from 伴う *to accompany*) says Y comes along with X as its consequence: X is a main event or change, Y what it brings. Two typical uses: an event and its side effect (道路工事にともなう通行止め, *road closures due to construction*), and one change linked to another (人口の増加にともなって, *as the population grows*). It is formal, the language of notices and news; conversation uses 〜で or 〜から.\n\nForms: **にともなって**, **にともない** (written) and **にともなう + N**. As with **にわたって** (#31), choose by what it modifies: the next noun takes にともなう, the verb にともなって. **それにともない** (*along with that*) links sentences.\n\nCompare:\n- **〜とともに** (#35): also links changes, but only とともに takes a person as partner: 家族とともに暮らす (*live with my family*), ✗家族にともなって.\n- **〜にしたがって** (#65): proportional change on both sides; にともなって can also mark a one-off event: 移転にともない、電話番号が変わる (*with the move, the phone number will change*).\n- **〜に応じて** (#4): deliberate matching to a condition: 収入に応じて (*according to income*).\n\nPitfall: にともなって wants an event or change (接近, 増加, 移転), not a bare cause: ?雨にともなって試合が中止になった reads oddly; say 雨で or 雨のため.\n\nJLPT cue: a change or event noun (移転, 増加, 普及, 変化) before the blank and a resulting change after it.",
           see: [35, 65, 4, 31],
           index: ["Nにともなって", "Nにともない", "Nにともなう", "それにともない", "伴って"],
           practice: [
@@ -171,7 +171,7 @@ TRY.registerChapter({
                   q: "留学（　）ビザの{申請|しんせい}はとても{複雑|ふくざつ}だと思う。",
                   options: ["にともなって", "にともなう"],
                   answer: 1,
-                  en: "I think the visa application that comes with studying abroad is very complicated.",
+                  en: "I think the visa application involved in studying abroad is very complicated.",
                   why: { en: "The noun ビザの申請 follows directly: にともなう + N, the application that comes with studying abroad." },
                 },
                 {
@@ -258,11 +258,11 @@ TRY.registerChapter({
           forms: ["[V-る] + とともに", "[N] + とともに"],
           examples: [
             { ja: "彼は{医療|いりょう}ボランティアとして{現地|げんち}の{医師|いし}とともに{日夜|にちや}病気の{治療|ちりょう}を{行|おこな}っている。", en: "As a medical volunteer, he works day and night treating illness together with local doctors." },
-            { ja: "{大雨警報|おおあめけいほう}が出ています。{洪水|こうずい}とともに、{土砂崩|どしゃくず}れにも十分な注意が{必要|ひつよう}です。", en: "A heavy rain warning has been issued. Close attention is needed to landslides as well as flooding." },
+            { ja: "{大雨警報|おおあめけいほう}が出ています。{洪水|こうずい}とともに、{土砂崩|どしゃくず}れにも十分な注意が{必要|ひつよう}です。", en: "A heavy rain warning has been issued. Close attention must be paid to landslides as well as flooding." },
             { ja: "{宅地|たくち}{開発|かいはつ}にはそこに住んでいる{人々|ひとびと}の生活{環境|かんきょう}を{整|ととの}えるとともに、{自然環境|しぜんかんきょう}を{守|まも}ることが{求|もと}められる。", en: "Residential development requires both improving the living environment of the people who live there and protecting the natural environment." },
-            { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の{謎|なぞ}が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be unraveled, one after another." },
+            { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の{謎|なぞ}が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be gradually unraveled." },
           ],
-          deepDive: "**〜とともに** (と共に) is the formal version of 〜といっしょに, with four uses:\n- *Together with* a person or group: 地域の皆様とともに歩む (*work hand in hand with the local community*).\n- *And also*, adding a second fact. A noun predicate needs である: 首都であるとともに最大の都市でもある (*it is the capital and also the largest city*).\n- *Along with*, two things happening together: 雷とともに激しい雨が降った (*heavy rain fell along with thunder*).\n- Linked change: 年をとるとともに体力が落ちる (*as you get older, your strength declines*).\n\nNouns attach directly; verbs take the dictionary form.\n\nCompare:\n- **〜にともなって** (#33): interchangeable for linked change, but it implies that one event brings the other and cannot take a person.\n- **〜にしたがって** (#65): change only; no *together with* or *also*.\n- **〜と同時に**: stresses the exact moment: ベルが鳴ると同時に (*the moment the bell rang*).\n\nPitfall: in casual talk, とともに sounds stiff; say 友達といっしょに.\n\nJLPT cue: a person or organization before the blank and a joint activity after it point to とともに rather than にともない.",
+          deepDive: "**〜とともに** (と共に) is the formal version of 〜といっしょに, with four uses:\n- *Together with* a person or group: 地域の皆様とともに歩む (*work hand in hand with the local community*).\n- *And also*, adding a second fact. A noun predicate needs である: 首都であるとともに最大の都市でもある (*it is the capital and also the largest city*).\n- *Along with*, two things happening together: 雷とともに激しい雨が降った (*heavy rain fell along with thunder*).\n- Linked change: 年をとるとともに体力が落ちる (*as you get older, your strength declines*).\n\nNouns attach directly; verbs take the dictionary form.\n\nCompare:\n- **〜にともなって** (#33): interchangeable for linked change, but it implies that one event brings the other and cannot take a person.\n- **〜にしたがって** (#65): linked change, or *following* a rule or instruction; no *together with* or *also*.\n- **〜と同時に**: stresses the exact moment: ベルが鳴ると同時に (*the moment the bell rang*).\n\nPitfall: in casual talk, とともに sounds stiff; say 友達といっしょに.\n\nJLPT cue: a person or organization before the blank and a joint activity after it point to とともに rather than にともない.",
           see: [33, 65],
           index: ["Nとともに", "Vるとともに", "Nであるとともに", "と共に"],
           practice: [
@@ -291,7 +291,7 @@ TRY.registerChapter({
             { ja: "{現在|げんざい}{移動|いどう}中ですが、{現地|げんち}に{到着|とうちゃく}{次第|しだい}、{連絡|れんらく}を入れます。", en: "I'm on my way there now, and I'll get in touch as soon as I arrive." },
           ],
           xref: "☞ p.222　〜{次第|しだい}",
-          deepDive: "**V-ます stem／N + 次第** means *as soon as ~, (I'll) right away*: it announces a future action waiting on something that hasn't happened yet. 決まり次第お知らせします (*we'll let you know as soon as it's decided*). It is the stock phrase of business email, customer service and news desks, and also fine in ordinary speech. The nouns are mostly する-nouns: 到着次第, 確認次第, 完成次第.\n\nConstraints the test checks:\n- The main clause is the speaker's intention, request or plan (〜します, 〜してください), not a past fact: ✗着き次第電話した → ✓着いてすぐ電話した (*I called right after I arrived*).\n- The main clause must be a deliberate action, though the trigger needn't be: 雨がやみ次第出発します (*we'll set off as soon as the rain stops*), but ✗春になり次第、桜が咲く.\n\nCompare:\n- **N次第だ／で** (#114): *depends on*: 結果は努力次第だ (*the result depends on your effort*). An action after it means *as soon as*; a varying result means *depends on*.\n- **〜以来** (#9): *ever since*, a state continuing from a past point.\n- **〜際** (#7): *on the occasion of*, a formal *when*.\n- **〜か〜ないかのうちに** (#96): *no sooner had … than*; it narrates two events in quick succession, often past: ベルが鳴るか鳴らないかのうちに教室を出た (*was out of the room almost before the bell rang*).\n\nPitfall: 次第 needs the ます-stem; ✗決まる次第.\n\nJLPT cue: a ます-stem before the blank and a polite future action (いたします, ご連絡します) after it.",
+          deepDive: "**V-ます stem／N + 次第** means *as soon as ~, (I'll) right away*: it announces a future action waiting on something that hasn't happened yet. 決まり次第お知らせします (*we'll let you know as soon as it's decided*). It is the stock phrase of business email, customer service and news desks, and of polite speech generally. The nouns are mostly する-nouns: 到着次第, 確認次第, 完成次第.\n\nConstraints the test checks:\n- The main clause is the speaker's intention, request or plan (〜します, 〜してください), not a past fact: ✗着き次第電話した → ✓着いてすぐ電話した (*I called right after I arrived*).\n- The main clause must be a deliberate action, though the trigger needn't be: 雨がやみ次第出発します (*we'll set off as soon as the rain stops*), but ✗春になり次第、桜が咲く.\n\nCompare:\n- **N次第だ／で** (#114): *depends on*: 結果は努力次第だ (*the result depends on your effort*). An action after it means *as soon as*; a varying result means *depends on*.\n- **〜以来** (#9): *ever since*, a state continuing from a past point.\n- **〜際** (#7): *on the occasion of*, a formal *when*.\n- **〜か〜ないかのうちに** (#96): *no sooner had … than*; it narrates two events in quick succession, often past: ベルが鳴るか鳴らないかのうちに教室を出た (*was out of the room almost before the bell rang*).\n\nPitfall: 次第 needs the ます-stem; ✗決まる次第.\n\nJLPT cue: a ます-stem before the blank and a polite future action (いたします, ご連絡します) after it.",
           see: [114, 9, 7, 96],
           index: ["V-ます次第", "N次第", "〜次第、…します"],
           practice: [
@@ -325,7 +325,7 @@ TRY.registerChapter({
                   q: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が{大幅|おおはば}に遅れましたことをおわび申し上げます。",
                   options: ["{出発|しゅっぱつ}{次第|しだい}", "{出発|しゅっぱつ}の{際|さい}"],
                   answer: 1,
-                  en: "We apologize for the long delay to our departure, caused by a safety check of the emergency doors as this aircraft was about to depart.",
+                  en: "We apologize for the significant delay in our departure, caused by a safety check of the emergency doors as this aircraft was preparing to depart.",
                   why: { en: "The delay happened at the time of departure and is apologized for: 出発の際. 次第 can't introduce a past event." },
                 },
               ],
@@ -342,7 +342,7 @@ TRY.registerChapter({
             {
               q: "{首都圏|しゅとけん}の{高速|こうそく}道路＿＿、{昨年|さくねん}10月から1年＿＿{調査|ちょうさ}が{行|おこな}われた。利用{状況|じょうきょう}を見て、{環境|かんきょう}に{配慮|はいりょ}し＿＿交通{網|もう}を{整備|せいび}する＿＿資料として使われる。",
               answer: ["について", "にわたって", "つつ", "ための"],
-              en: "A survey of expressways in the Tokyo metropolitan area was conducted over one year, starting last October. Its results will be used as data for building up the transportation network in light of how the roads are used, while taking the environment into account.",
+              en: "A survey of expressways in the Tokyo metropolitan area was conducted over one year, starting last October. Based on how the roads are being used, the results will serve as data for developing the transportation network while taking the environment into account.",
             },
           ],
         },
@@ -354,7 +354,7 @@ TRY.registerChapter({
             {
               q: "{東北|とうほく}地方から{関東|かんとう}地方＿＿、大きな{地震|じしん}が{発生|はっせい}しました。この{地震|じしん}＿＿、{津波|つなみ}が{発生|はっせい}する＿＿、{気象庁|きしょうちょう}は注意を呼びかけています。{詳|くわ}しい{情報|じょうほう}が入り＿＿、お伝えします。",
               answer: ["にかけて", "にともない", "おそれがあり", "{次第|しだい}"],
-              en: "A large earthquake has struck the area from the Tohoku region to the Kanto region. With this earthquake there is a risk of a tsunami, and the Japan Meteorological Agency is urging caution. We will bring you more as soon as we receive detailed information.",
+              en: "A large earthquake has struck the area from the Tohoku region to the Kanto region. There is a risk that this earthquake will generate a tsunami, and the Japan Meteorological Agency is urging caution. We will bring you more as soon as we receive detailed information.",
             },
           ],
         },
@@ -388,7 +388,7 @@ TRY.registerChapter({
             options: ["かわりに", "はずがない", "ことがある", "おそれがある"],
             answer: 3,
             en: "I hear a new treaty has been drawn up on protecting animals and plants at risk of extinction.",
-            why: { en: "絶滅するおそれがある動植物 = *plants and animals at risk of extinction*: a bad outcome that may happen. かわりに (*instead of*), はずがない (*can't possibly*) and ことがある (*sometimes*) don't fit as modifiers of 動植物." },
+            why: { en: "絶滅するおそれがある動植物 = *plants and animals at risk of extinction*: a bad outcome that may happen. かわりに (*instead of*) can't modify 動植物, and はずがない (*can't possibly*) and ことがある (*sometimes*) make no sense here." },
           },
           {
             q: "ブログに新しい写真をアップしたら、先週から今週（　）、ホームページのアクセス{数|すう}が{急増|きゅうぞう}して{驚|おどろ}いた。",
@@ -441,7 +441,7 @@ TRY.registerChapter({
             pieces: ["開始する", "{救援活動|きゅうえんかつどう}を", "着き", "{次第|しだい}"],
             order: [2, 3, 1, 0],
             star: 2,
-            en: "The rescue team is supposed to start relief operations as soon as it reaches the scene.",
+            en: "The rescue team is set to start relief operations as soon as it reaches the scene.",
           },
           {
             before: "{景気|けいき}の",
@@ -461,7 +461,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, think about its overall content, and choose the best option from 1, 2, 3 and 4 for each of blanks 1 to 4." },
         title: "",
         text: ["皆さん、ご入学おめでとうございます。{時代|じだい}の{変化|へんか}[1]、大学も大きく{変革|へんかく}を{迫|せま}られております。わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を{重|かさ}ねてまいりました。そして、いよいよ今年度より新しい学部がスタートします。その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと{確信|かくしん}しています。皆さん、どうぞ{悔|く}いのない学生生活を送ってください。"],
-        en: ["Congratulations on your admission, everyone. As the times change, universities too are under pressure to undergo major reform. Here at our university, too, we have held discussions over many years on establishing a new faculty. And now, at last, a new faculty is starting this academic year. I am confident that you, who have entered as its very first class, will grow a great deal together with our newly founded Faculty of International Studies. Please make your student years ones you will never regret."],
+        en: ["Congratulations on your admission, everyone. As the times change, universities too are under pressure to undergo major reform. Here at our university, too, we have held discussions over many years on establishing a new faculty. And now, at last, a new faculty is starting this academic year. I am confident that you, who have entered as its very first class, will grow a great deal together with our newly founded Faculty of International Studies. Please make the most of your student years, so that you will have no regrets."],
         blanks: [
           { options: ["を{問|と}わず", "にともない", "においては", "のもとで"], answer: 1, why: { en: "時代の変化にともない = *along with the changing times*: one change brings another (大学も変革を迫られる). を問わず means *regardless of*, においては *in*, and のもとで *under*." } },
           { options: ["とともに", "にともなって", "にわたり", "につき"], answer: 2, why: { en: "長年 is a long span of time: 長年にわたり議論を重ねてきた, *we have held discussions over many years*. とともに and にともなって need a partner or an accompanying change, and につき means *because of* or *per*." } },

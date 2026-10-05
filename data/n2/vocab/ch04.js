@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
     note: "Kanji 庇う, usually written in kana. Protecting someone from harm or blame (部下をかばう “cover for a subordinate”), or sparing an injured body part (痛めた足をかばって歩く). 守る is the general “protect”.",
-    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{先輩|せんぱい}は、{失敗|しっぱい}した{私|わたし}を{上司|じょうし}の{前|まえ}で**かばって**くれた。", en: "My senior colleague stuck up for me in front of the boss when I made a mistake.", alt: ["{責|せ}めて", "{疑|うたが}って", "{避|さ}けて"] },
     ] },
@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "running the full distance; finishing (a race)",
     note: "完 (complete) + 走 (run): マラソンを完走する, 完走者 (finishers). Similar 完-words: 完成 (completion of a thing), 完了 (finishing a process), 完売 (selling out).",
     rx: ["かんぞう", "かんそ", "かんしょう"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{初|はじ}めてのフルマラソンで、なんとか**{完走|かんそう}**できた。", en: "I managed to finish my first full marathon.", alt: ["{完成|かんせい}", "{逃走|とうそう}", "{完売|かんばい}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (give a round of applause), 大きな拍手が起こる, 拍手喝采 (cheers and applause). 握手 (handshake) is a common mix-up.",
     rx: ["はくしゅう", "ばくしゅ", "はくて"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who kept running while favoring a leg injured in a fall and finished the race, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**が{起|お}こった。", en: "When the performance ended, the hall broke into loud applause.", alt: ["{握手|あくしゅ}", "{歌手|かしゅ}", "{拍子|ひょうし}"] },
     ] },
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "gardening; horticulture",
     note: "Growing flowers, vegetables or trees as a hobby or trade: 園芸が趣味, 園芸店 (garden center), 園芸用品. ガーデニング is the popular loanword; 家庭菜園 is a home vegetable garden. 演芸 (entertainment) is a homophone.",
     rx: ["えんけい", "そのげい", "おんげい"],
-    book: { ja: "{趣味|しゅみ}の**{園芸|えんげい}**教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At my gardening class, which I take as a hobby, I enjoy chatting with the others while learning how to grow flowers.", at: "gp/30" },
+    book: { ja: "{趣味|しゅみ}の**{園芸|えんげい}**教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "In the gardening class I take as a hobby, I enjoy chatting with my classmates while learning how to grow flowers and plants.", at: "gp/30" },
     ex: [
       { ja: "{母|はは}は**{園芸|えんげい}**が{趣味|しゅみ}で、ベランダでたくさんの{花|はな}を{育|そだ}てている。", en: "My mother's hobby is gardening, and she grows lots of flowers on the balcony.", alt: ["{演芸|えんげい}", "{工芸|こうげい}", "{公園|こうえん}"] },
     ] },
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "relocation; moving (of an office, shop or facility)",
     note: "An organization moving premises: 本社を移転する, 移転先 (new location), 店舗移転のお知らせ. A household move is 引っ越し; 移動 is moving from place to place.",
     rx: ["いでん", "いてんん", "うつてん"],
-    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "Along with the head office's relocation, it has been decided that a state-of-the-art computer system will be installed.", at: "gp/33" },
+    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the head office relocating, it has been decided that a state-of-the-art computer system will be installed.", at: "gp/33" },
     ex: [
       { ja: "{来月|らいげつ}、{当店|とうてん}は{駅前|えきまえ}に**{移転|いてん}**いたします。", en: "Next month our store will move to a location in front of the station.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移民|いみん}"] },
     ] },
@@ -498,7 +498,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "landslide; mudslide",
     note: "土砂 (earth and sand) + 崩れ (collapse): 土砂崩れが起きる, 土砂崩れで道路がふさがる. Related: 地滑り (landslip), がけ崩れ (cliff collapse), 雪崩 (avalanche).",
     rx: ["どしゃぐずれ", "つちすなくずれ", "どさくずれ"],
-    book: { ja: "{洪水|こうずい}とともに、**{土砂崩|どしゃくず}れ**にも十分な注意が{必要|ひつよう}です。", en: "Great care is needed not only for flooding but also for landslides.", at: "gp/35" },
+    book: { ja: "{洪水|こうずい}とともに、**{土砂崩|どしゃくず}れ**にも十分な注意が{必要|ひつよう}です。", en: "Close attention must be paid to landslides as well as flooding.", at: "gp/35" },
     ex: [
       { ja: "{大雨|おおあめ}による**{土砂崩|どしゃくず}れ**で、{道路|どうろ}がふさがれた。", en: "The road was blocked by a landslide caused by the heavy rain.", alt: ["{型崩|かたくず}れ", "{荷崩|にくず}れ", "{雪崩|なだれ}"] },
     ] },
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "mystery; riddle; puzzle",
     note: "Something unexplained: 謎を解く (solve a mystery), 謎が深まる (the mystery deepens), 宇宙の謎, 謎の人物 (a mysterious person), 謎めいた (enigmatic).",
     rx: ["めい", "なぞう", "なそ"],
-    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be unraveled, one after another.", at: "gp/35" },
+    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be gradually unraveled.", at: "gp/35" },
     ex: [
       { ja: "{事件|じけん}の**{謎|なぞ}**を{解|と}いたのは、{一人|ひとり}の{高校生|こうこうせい}だった。", en: "The one who solved the mystery of the case was a high school student.", alt: ["{夢|ゆめ}", "{嘘|うそ}", "{罠|わな}"] },
     ] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "large; substantial; drastic (change or amount)",
     note: "Mostly 大幅に + verb or 大幅な + noun: 大幅に遅れる (be badly delayed), 大幅に増える, 大幅な値下げ. Note the reading おおはば (kun-reading), not だいはば.",
     rx: ["だいはば", "おおはぱ", "たいふく"],
-    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the long delay to our departure, caused by a safety check of the emergency doors as this aircraft was about to depart.", at: "gp/36" },
+    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the significant delay in our departure, caused by a safety check of the emergency doors as this aircraft was preparing to depart.", at: "gp/36" },
     ex: [
       { ja: "{事故|じこ}の{影響|えいきょう}で、{電車|でんしゃ}のダイヤが**{大幅|おおはば}**に{乱|みだ}れている。", en: "Because of the accident, the train schedule is badly disrupted.", alt: ["{大量|たいりょう}", "{大声|おおごえ}", "{大型|おおがた}"] },
     ] },
@@ -666,7 +666,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "regret; remorse",
     note: "Mostly in set phrases: 悔いのない〜 (with no regrets), 悔いが残る (leave regrets), 悔いはない. From 悔いる (to repent). 後悔 is the usual noun / する verb; 悔しい means frustrated or vexed.",
     rx: ["かい", "くやい", "ぐい"],
-    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "Please make your student years ones you will never regret.", at: "ch/4/review" },
+    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "Please make the most of your student years, so that you will have no regrets.", at: "ch/4/review" },
     ex: [
       { ja: "{最後|さいご}まで{全力|ぜんりょく}を{尽|つ}くしたので、**{悔|く}い**はない。", en: "I gave it everything I had right to the end, so I have no regrets.", alt: ["{恐|おそ}れ", "{痛|いた}み", "{望|のぞ}み"] },
     ] },
