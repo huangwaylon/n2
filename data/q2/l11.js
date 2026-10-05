@@ -1715,7 +1715,7 @@ TRY.registerLesson({
    "skill": "write",
    "title": {
     "ja": "日本語と母語の違い",
-    "tr": "Differences Between Japanese and My Native Language"
+    "tr": "Differences Between Japanese and Your Native Language"
    },
    "page": 148,
    "blocks": [
@@ -1765,9 +1765,9 @@ TRY.registerLesson({
       "のコミュニケーションの難しさを実感させられた。"
      ],
      "tr": [
-      "When you study Japanese, you notice differences from your native language, which in my case is English. Thinking about the differences is interesting: words that look similar but differ slightly in meaning or usage, words that exist in Japanese but not in English, and so on. For example, muzukashii (\"difficult\") is one of the words whose usage and nuance are different.",
-      "I noticed the difference when I proposed a one-week trip as an event for the international exchange club. A senior member told me, \"I think that plan is muzukashii,\" but I thought, \"It's precisely because it's difficult that I want to try it,\" so I revised my proposal and went to talk to the senior member again. But I was told, \"I told you that plan was muzukashii, didn't I? Think of something else,\" and I ended up planning a different event. That was when I finally realized that the Japanese word muzukashii has a meaning that the English word doesn't.",
-      "First, in Japanese, if you propose something and are told it is muzukashii, it seems that it often means \"impossible.\" In English, by contrast, if you are told something is \"difficult\" in such a situation, you don't take it to mean \"impossible.\" Rather, you often think, \"If it's difficult, that means it's 'challenging' (achievable with effort), so it's worth trying.\"",
+      "Studying Japanese, I notice differences from my native language, English. It's interesting to think about them: words that are similar but differ slightly in meaning or usage, words that exist in Japanese but not in English, and so on. Muzukashii (\"difficult\"), for example, is one of the words that differ in usage and nuance.",
+      "It was when I proposed a one-week trip as an event for the international exchange club that I noticed the difference. A senior member told me, \"I think that plan is muzukashii,\" but I thought, \"It's precisely because it's difficult that I want to try it,\" so I revised my written proposal and went to consult the senior member again. But I was told, \"I told you that plan was muzukashii, didn't I? Think of something else,\" and I ended up having to plan a different event. It was then that I finally realized that the Japanese word muzukashii has a meaning that the English word doesn't.",
+      "First, in Japanese, if you propose something and are told it is muzukashii, it often seems to mean \"impossible.\" In English, by contrast, if you are told something is \"difficult\" in such a situation, you don't take it to mean \"impossible.\" Rather, you often think, \"If it's difficult, that means it's 'challenging' (achievable with effort), so it's worth trying.\"",
       "Muzukashii is a simple Japanese word I learned at the beginner level, but it made me keenly aware of how difficult communication across cultures is."
      ],
      "headTr": [
@@ -1864,7 +1864,7 @@ TRY.registerLesson({
        },
        {
         "ja": "・違いがある言葉を{導入|どうにゅう}する",
-        "tr": "Introduce a word that differs"
+        "tr": "Introduce a word that differs between the two languages"
        },
        ""
       ],
@@ -1953,7 +1953,7 @@ TRY.registerLesson({
          "items": [
           {
            "ja": "その違いに気がついた**のは**国際交流サークルのイベントとして1週間の旅行を提案した**時のことだ**。",
-           "tr": "I noticed the difference when I proposed a one-week trip as an event for the international exchange club."
+           "tr": "It was when I proposed a one-week trip as an event for the international exchange club that I noticed the difference."
           }
          ]
         }
@@ -2032,7 +2032,7 @@ TRY.registerLesson({
        "n": "(4)",
        "text": {
         "ja": "その違いについて感じたことは何ですか。",
-        "tr": "What did you feel about the difference?"
+        "tr": "How did you feel about the difference?"
        }
       }
      ]
@@ -2114,7 +2114,7 @@ TRY.registerLesson({
            "n": "②",
            "text": {
             "ja": "難しいお願いをする時、どうやって{交渉|こうしょう}します (negotiate) か。どんなことに気をつけたら、相手にそのお願いをきいてもらえると思いますか。",
-            "tr": "When you make a difficult request, how do you negotiate? What do you think you should be careful about so that the other person will grant your request?"
+            "tr": "When you make a difficult request, how do you negotiate? What do you think you need to be careful about to get the other person to agree to your request?"
            }
           }
          ]
@@ -2137,7 +2137,7 @@ TRY.registerLesson({
            "who": "あなた（学生）",
            "text": {
             "ja": "来週授業で発表しなければ\nいけませんが、\n理由があって別の日に\n発表がしたいです。\n先生に上手にお願いしなさい。",
-            "tr": "You have to give a presentation in class next week, but for a certain reason you'd like to give it on a different day. Ask your teacher tactfully."
+            "tr": "You have to give a presentation in class next week, but you have a reason for wanting to give it on a different day. Ask your teacher tactfully."
            }
           },
           {
@@ -2244,7 +2244,7 @@ TRY.registerLesson({
            },
            "text": {
             "ja": "＿＿を言って、＿＿。",
-            "tr": "I'm ＿＿ for making such a ＿＿ request."
+            "tr": "I made such a ＿＿ request. ＿＿."
            },
            "answer": [
             "勝手",
@@ -2279,14 +2279,14 @@ TRY.registerLesson({
      "audio": "3.Kaiwa_L11-1",
      "setting": {
       "ja": "授業後、ワン・メイリン（メ：）が中村先生（中：）に話しかける。",
-      "tr": "After class, Wang Meilin (メ) goes up to Professor Nakamura (中) to talk."
+      "tr": "After class, Wang Meilin (メ) goes up to speak to Professor Nakamura (中)."
      },
      "lines": [
       {
        "sp": "メ",
        "v": "f",
        "ja": "❶先生、すみません。今、ちょっとよろしいでしょうか。**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-       "tr": "Excuse me, Professor. Do you have a moment now? There's something rather important I was hoping to discuss with you..."
+       "tr": "Excuse me, Professor. Do you have a moment? There's something rather important I was hoping to discuss with you..."
       },
       {
        "sp": "中",
@@ -2310,7 +2310,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❸**実は、**その日に興味がある会社の企業説明会がありまし**て**……。{直前|ちょくぜん}のことで**申し訳ありませんが、**授業を{欠席|けっせき}させていただきたい**ので、**発表の日を別の日に変え**ていただけないでしょうか。**",
-       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like your permission to miss class, so could you possibly move my presentation to another day?"
+       "tr": "Actually, a company I'm interested in is holding a recruiting information session that day... I'm sorry for the short notice, but I'd like to be excused from class that day, so could you possibly move my presentation to another day?"
       },
       {
        "sp": "中",
@@ -2322,7 +2322,7 @@ TRY.registerLesson({
        "sp": "メ",
        "v": "f",
        "ja": "❹留学生対象の説明会はこの日しかないので、どうしても参加したいんです。**こちらの都合で申し訳ございませんが、**今回**だけでもご配慮いただけないでしょうか。**",
-       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
+       "tr": "That's the only day they're holding the session for international students, so I really want to attend. I'm terribly sorry to ask this for my own convenience, but could you possibly make an exception for me, just this once?"
       },
       {
        "sp": "中",
@@ -2427,11 +2427,11 @@ TRY.registerLesson({
        "n": 1,
        "label": {
         "ja": "話しかける",
-        "tr": "Start talking"
+        "tr": "Start the conversation"
        },
        "text": {
         "ja": "今、ちょっとよろしいでしょうか。\n**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-        "tr": "Do you have a moment now? There's something rather important I was hoping to discuss with you..."
+        "tr": "Do you have a moment? There's something rather important I was hoping to discuss with you..."
        }
       },
       {
@@ -2468,7 +2468,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**実は、**その日に興味がある会社の企業説明会がありまし**て**……。\n{直前|ちょくぜん}のこと**で申し訳ありませんが、**（授業を{欠席|けっせき}させていただきたい**ので、**）発表の日を別の日に変え**ていただけないでしょうか。**",
-        "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but (I'd like your permission to miss class, so) could you possibly move my presentation to another day?"
+        "tr": "Actually, a company I'm interested in is holding a recruiting information session that day... I'm sorry for the short notice, but (I'd like to be excused from class that day, so) could you possibly move my presentation to another day?"
        }
       },
       {
@@ -2487,7 +2487,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "留学生対象の説明会はこの日しかないので、どうしても参加したいんです。**こちらの都合で申し訳ございませんが、**今回**だけでもご配慮いただけないでしょうか。**",
-        "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
+        "tr": "That's the only day they're holding the session for international students, so I really want to attend. I'm terribly sorry to ask this for my own convenience, but could you possibly make an exception for me, just this once?"
        }
       },
       {
@@ -2559,7 +2559,7 @@ TRY.registerLesson({
        "t": "p",
        "text": {
         "ja": "❶話しかける（➔ ❷話を切り出す）➔ ❸理由を言ってお願いする\n➔ ❹状況を詳しく説明し、もう一度強くお願いする\n➔ ❺条件を出して{交渉|こうしょう}する (negotiate)\n➔ ❻お礼を言って、会話を終える",
-        "tr": "❶ Start talking (→ ❷ Bring up the subject) → ❸ Give your reason and make the request → ❹ Explain the situation in detail and press your request once more → ❺ Negotiate by offering a condition → ❻ Thank the other person and end the conversation"
+        "tr": "❶ Start the conversation (→ ❷ Bring up the subject) → ❸ Give your reason and make the request → ❹ Explain the situation in detail and press your request once more → ❺ Negotiate by offering a condition → ❻ Thank the other person and end the conversation"
        }
       }
      ]
@@ -2571,7 +2571,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❶今、ちょっとよろしいでしょうか。**{折|お}り{入|い}ってご相談したいことがあるんですが……。**",
-       "tr": "Do you have a moment now? There's something rather important I was hoping to discuss with you..."
+       "tr": "Do you have a moment? There's something rather important I was hoping to discuss with you..."
       },
       {
        "sp": "先生",
@@ -2595,7 +2595,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❸**実は、**{{その日に興味がある会社の企業説明会がありまし}}**て**……。{直前|ちょくぜん}のこと**で申し訳ありませんが、**{{授業を{欠席|けっせき}させていただきたい}}**ので、**{{発表の日を別の日に変え}}**ていただけないでしょうか。**",
-       "tr": "Actually, a company I'm interested in is holding an information session that day... I'm sorry for the short notice, but I'd like your permission to miss class, so could you possibly move my presentation to another day?"
+       "tr": "Actually, a company I'm interested in is holding a recruiting information session that day... I'm sorry for the short notice, but I'd like to be excused from class that day, so could you possibly move my presentation to another day?"
       },
       {
        "sp": "先生",
@@ -2607,7 +2607,7 @@ TRY.registerLesson({
        "sp": "あなた",
        "v": "f",
        "ja": "❹{{留学生対象の説明会はこの日しかないので、どうしても参加したいんです。}}**こちらの都合で申し訳ございませんが、**{{今回}}**だけでもご{配慮|はいりょ}いただけないでしょうか。**",
-       "tr": "The session for international students is only on that day, so I really want to attend. I'm very sorry to ask this for my own reasons, but could you possibly make an exception for me, just this once?"
+       "tr": "That's the only day they're holding the session for international students, so I really want to attend. I'm terribly sorry to ask this for my own convenience, but could you possibly make an exception for me, just this once?"
       },
       {
        "sp": "先生",
@@ -2642,7 +2642,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "来週試験を受けなければいけませんが、理由があって別の日に受けたいです。\n先生に上手にお願いしなさい。",
-        "tr": "You have to take an exam next week, but for a certain reason you'd like to take it on a different day. Ask your teacher tactfully."
+        "tr": "You have to take an exam next week, but you have a reason for wanting to take it on a different day. Ask your teacher tactfully."
        }
       },
       {
@@ -2718,7 +2718,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❶〜さん、ごめん。**今、ちょっといい？　{折|お}り{入|い}って相談したいことがあるんだけど。**",
-         "tr": "(Name), sorry. Do you have a minute? There's something I'd really like to talk to you about."
+         "tr": "Hey (Name), sorry to bother you. Got a minute? There's something I really need to ask you about."
         },
         {
          "sp": "友達",
@@ -2730,7 +2730,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❸**実は、**{{来週、大学のゼミのみんなと{九州|きゅうしゅう}に行くことになっ}}**て**……。急なことで**悪いんだけど、**{{ペットの猫を{預|あず}かってくれ}}**ない？**",
-         "tr": "Actually, I'm going to Kyushu next week with everyone from my university seminar... Sorry this is so sudden, but could you look after my cat for me?"
+         "tr": "Actually, it turns out I'm going to Kyushu next week with everyone from my university seminar... Sorry this is so sudden, but could you look after my cat for me?"
         },
         {
          "sp": "友達",
@@ -2742,7 +2742,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "❹❺{{研究テーマに役立ちそうだから、どうしても行きたいんだ。他にお願いできる人がいなくて……}}。{{2日間}}**だけでもなんとかお願いできない？**　{{帰ってきたら何かごちそうするから}}。お願い！",
-         "tr": "It looks like it'll help with my research topic, so I really want to go. There's no one else I can ask... Couldn't you possibly do it, even just for two days? I'll treat you to something when I get back. Please!"
+         "tr": "It sounds like it'll help with my research topic, so I really want to go. There's no one else I can ask... Is there any way you could do it, even just for two days? I'll treat you to something when I get back. Please!"
         },
         {
          "sp": "友達",
@@ -2754,7 +2754,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "f",
          "ja": "本当？　❻**無理言って、ごめんね。**ありがとう。",
-         "tr": "Really? Sorry for asking so much of you. Thanks."
+         "tr": "Really? Sorry for asking such a big favor. Thanks."
         }
        ]
       },
@@ -2798,7 +2798,7 @@ TRY.registerLesson({
      "id": "l11-2-1",
      "text": {
       "ja": "やってみよう",
-      "tr": "Let's try it"
+      "tr": "Let's try"
      }
     },
     {
@@ -2808,7 +2808,7 @@ TRY.registerLesson({
        "n": "1）",
        "text": {
         "ja": "今まで習った言葉で、同じような意味を持っていて使い方の違いがよくわからないという言葉がありますか。その違いを知るために、何でどんなことを調べますか。",
-        "tr": "Among the words you have learned so far, are there any that have similar meanings and whose difference in usage you don't really understand? To learn the difference, what would you look up, and where?"
+        "tr": "Among the words you have learned so far, are there any that have similar meanings and whose difference in usage you don't really understand? To find out the difference, what would you look up, and in what?"
        }
       },
       {
@@ -2988,7 +2988,7 @@ TRY.registerLesson({
            },
            {
             "ja": "④＿＿で大切にすること。",
-            "tr": "④ Treating something as important, …."
+            "tr": "④ … and treating something as important."
            }
           ],
           [
@@ -3109,7 +3109,7 @@ TRY.registerLesson({
        "sp": "ジ",
        "v": "m",
        "ja": "❶最近、授業で「尊重」という言葉を習いましたが、みなさんは「尊敬」と「尊重」の使い方がわからなくなるということはありませんか。私はよくこの2つを{混同|こんどう}してしまいます。\n❷「尊敬」**も**「尊重」**も、どちらも**英語では“respect”と訳される**という点では共通しています。**❸**しかし、**日本語では2つの言葉は{置|お}き{換|か}え可能**というわけではありません。**今日は、「尊敬」**と**「尊重」**の意味と使い方に注目し、違いを考えたいと思います。**\n❹**まず、意味の面から比較します。**「尊敬」**は、**相手の人格や行動などを「すごい、すばらしい」と感じ、「自分もあの人みたいになりたい」と思う**ことです。一方、**「尊重」**は**軽く見ないで大切にする**ことです。つまり、**「尊敬」はあこがれの感情**を表し、**「尊重」はモラルや常識から判断して何かを大切にする**という意味を表します。**\n❺**次に、使い方に注目すると、**「尊敬」**は**「人」**に対して使われますが、**「尊重」**の場合は、**「人の意見や意思」**に対して使われます。よって、**「尊敬」**は**「親を尊敬する」、「{上司|じょうし}を尊敬する」**などのように使われ、**「尊重」**は**「相手の意見を尊重する」、「相手の文化を尊重する」、「{人権|じんけん}を尊重する」**などのように使われます。**\n❻**まとめると、**「尊敬」**は**人**に対して使われ、**その人がすごい、すばらしいと思う**時に使う言葉です。それに対して、**「尊重」**は**人の意見や意思**に対して使われ、**それを大切にしようと思う**時に使う言葉です。**❼「尊敬」を使わなければいけない時に「尊重」を使ってしまうと、まったく意味が通じないわけではありませんが、少し変な日本語になってしまうので、使い方には十分注意してください。",
-       "tr": "Recently we learned the word \"sonchō\" in class. Do any of you ever get confused about how to use \"sonkei\" and \"sonchō\"? I often mix the two up.\n\"Sonkei\" and \"sonchō\" have one thing in common: both are translated into English as \"respect.\" In Japanese, however, it isn't the case that the two words can simply be swapped for each other. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ.\nFirst, let's compare their meanings. \"Sonkei\" means feeling that someone's character, actions, and so on are \"amazing, wonderful\" and thinking, \"I want to be like that person too.\" \"Sonchō,\" on the other hand, means not taking something lightly and treating it as important. In other words, \"sonkei\" expresses a feeling of admiration, while \"sonchō\" means judging from morals or common sense that something should be treated as important.\nNext, if we look at usage, \"sonkei\" is used toward \"people,\" whereas \"sonchō\" is used toward \"people's opinions and wishes.\" So \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion), \"aite no bunka o sonchō suru\" (respect the other person's culture), and \"jinken o sonchō suru\" (respect human rights).\nTo sum up, \"sonkei\" is used toward people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used toward people's opinions and wishes, and it's the word you use when you want to treat them as important. If you use \"sonchō\" when you should use \"sonkei,\" it's not that people won't understand you at all, but it makes for slightly odd Japanese, so please be very careful how you use them."
+       "tr": "Recently we learned the word \"sonchō\" in class. Do any of you ever get confused about how to use \"sonkei\" and \"sonchō\"? I often mix the two up.\n\"Sonkei\" and \"sonchō\" have one thing in common: both are translated into English as \"respect.\" In Japanese, however, it isn't the case that the two words can simply be swapped for each other. Today I'd like to focus on the meanings and usage of \"sonkei\" and \"sonchō\" and think about how they differ.\nFirst, let's compare their meanings. \"Sonkei\" means feeling that someone's character, actions, and so on are \"amazing, wonderful\" and thinking, \"I want to be like that person too.\" \"Sonchō,\" on the other hand, means not taking something lightly and treating it as important. In other words, \"sonkei\" expresses a feeling of admiration, while \"sonchō\" means judging from morals or common sense that something should be treated as important.\nNext, if we look at usage, \"sonkei\" is used for \"people,\" whereas \"sonchō\" is used for \"people's opinions and wishes.\" So \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion), \"aite no bunka o sonchō suru\" (respect the other person's culture), and \"jinken o sonchō suru\" (respect human rights).\nTo sum up, \"sonkei\" is used for people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used for people's opinions and wishes, and it's the word you use when you want to treat them as important. If you use \"sonchō\" when you should use \"sonkei,\" it's not that people won't understand you at all, but it makes for slightly odd Japanese, so please be very careful how you use them."
       }
      ]
     },
@@ -3225,7 +3225,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**次に、使い方に注目すると、**「尊敬」**は**「人」**に対して使われますが、**\n「尊重」**の場合は、**「人の意見や意思」**に対して使われます。**\n**よって、**「尊敬」**は**「親を尊敬する」「{上司|じょうし}を尊敬する」**などのように使われ、**「尊重」**は**「相手の意見を尊重する」**などのように使われます。**",
-        "tr": "Next, if we look at usage, \"sonkei\" is used toward \"people,\"\nwhereas \"sonchō\" is used toward \"people's opinions and wishes.\"\nSo \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion)."
+        "tr": "Next, if we look at usage, \"sonkei\" is used for \"people,\"\nwhereas \"sonchō\" is used for \"people's opinions and wishes.\"\nSo \"sonkei\" is used as in \"oya o sonkei suru\" (respect one's parents) and \"jōshi o sonkei suru\" (respect one's boss), while \"sonchō\" is used as in \"aite no iken o sonchō suru\" (respect the other person's opinion)."
        }
       },
       {
@@ -3241,7 +3241,7 @@ TRY.registerLesson({
        },
        "text": {
         "ja": "**まとめると、**「尊敬」**は**人**に対して使われ、**その人がすごい、すばらしいと思う**時に使う言葉です。それに対して、**「尊重」**は**人の意見や意思**に対して使われ、**それを大切にしようと思う**時に使う言葉です。**",
-        "tr": "To sum up, \"sonkei\" is used toward people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used toward people's opinions and wishes, and it's the word you use when you want to treat them as important."
+        "tr": "To sum up, \"sonkei\" is used for people, and it's the word you use when you think a person is amazing or wonderful. \"Sonchō,\" by contrast, is used for people's opinions and wishes, and it's the word you use when you want to treat them as important."
        }
       },
       {
@@ -3300,7 +3300,7 @@ TRY.registerLesson({
          "sp": "あなた",
          "v": "m",
          "ja": "❶みなさんは＿＿ことはありませんか。私はよく＿＿。\n❷「__{{A}}__」**も**「__{{B}}__」**も、どちらも**＿＿**という点では共通しています。**\n❸**しかし、**＿＿**というわけではありません。**今日は、「__{{A}}__」と「__{{B}}__」**の意味と使い方に注目し、違いを考えたいと思います。**\n❹**まず、意味の面から比較します。**\n「__{{A}}__」**は**＿＿**ことです。一方、**「__{{B}}__」**は**＿＿**ことです。**\n**つまり、**「__{{A}}__」**は**＿＿**を表し、**「__{{B}}__」**は**＿＿**（という意味）を表します。**\n❺**次に、使い方に{注目|ちゅうもく}すると、**「__{{A}}__」**は**＿＿{{｛}}**に対して**{{／}}**などの言葉と**{{／}}**という助詞が**{{｝}}**使われますが、**「__{{B}}__」の場合は＿＿{{｛}}**に対して**{{／}}**などの言葉と**{{／}}**という助詞が**{{｝}}**使われます。**\n**よって、**「__{{A}}__」**は**＿＿**などのように使われ、**「__{{B}}__」**は**＿＿**などのように使われます。**\n❻**まとめると、**「__{{A}}__」**は**＿＿［使い方］＿＿**使われ、**＿＿［意味］＿＿**言葉です。それに対して、**「__{{B}}__」**は**＿＿［使い方］＿＿**使われ、**＿＿［意味］＿＿**言葉です。**❼＿＿［注意点を述べる］＿＿。",
-         "tr": "Do any of you find that …? I often ….\nA and B have one thing in common: both ….\nHowever, it isn't the case that …. Today I'd like to focus on the meanings and usage of A and B and think about how they differ.\nFirst, let's compare their meanings.\nA means …. B, on the other hand, means ….\nIn other words, A expresses …, while B expresses … (the meaning of …).\nNext, if we look at usage, A is used (toward … / with words such as … / with the particle …), whereas B is used (toward … / with words such as … / with the particle …).\nSo A is used as in …, while B is used as in ….\nTo sum up, A is used [usage] …, and it is the word for [meaning] …. B, by contrast, is used [usage] …, and it is the word for [meaning] …. [Point out something to be careful about] …."
+         "tr": "Do any of you find that …? I often ….\nA and B have one thing in common: both ….\nHowever, it isn't the case that …. Today I'd like to focus on the meanings and usage of A and B and think about how they differ.\nFirst, let's compare their meanings.\nA means …. B, on the other hand, means ….\nIn other words, A expresses …, while B expresses … (the meaning of …).\nNext, if we look at usage, A is used (for … / with words such as … / with the particle …), whereas B is used (for … / with words such as … / with the particle …).\nSo A is used as in …, while B is used as in ….\nTo sum up, A is used [usage] …, and it is the word for [meaning] …. B, by contrast, is used [usage] …, and it is the word for [meaning] …. [Point out something to be careful about] …."
         }
        ]
       }
@@ -3313,7 +3313,7 @@ TRY.registerLesson({
        "n": "1.",
        "text": {
         "ja": "「2-1. やってみよう」の2) (p. 156) で違いを説明した言葉を、もう一度説明しなさい。アウトラインを考えてから話しなさい。",
-        "tr": "Explain again the words whose difference you explained in 2) of \"2-1. Let's try it\" (p. 156). Think of an outline before you speak."
+        "tr": "Explain once more the difference between the words you chose in 2) of \"2-1 Let's try\" (p. 156). Plan an outline before you speak."
        }
       },
       {
@@ -3640,7 +3640,7 @@ TRY.registerLesson({
            "n": "④",
            "text": {
             "ja": "サラはSNS上と実際の社会での人との付き合いは違うと思っている。",
-            "tr": "Sara thinks that relationships with people on social media are different from those in real-world society."
+            "tr": "Sara thinks that dealing with people on social media is different from dealing with people in the real world."
            },
            "answer": "○"
           },
@@ -3731,13 +3731,13 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "そうかもね。でも、言葉を使って{互|たが}いに{意思疎通|いしそつう}を図ることがコミュニケーションだとすると、SNS上のやりとりでは表現力はやっぱり落ちちゃうと思うよ。なんでも「いいね」とかのスタンプ1つで済んじゃうし。",
-       "tr": "Maybe. But if communication means using words to understand each other, then I think our power of expression really does suffer in exchanges on social media. You can get by with a single sticker like \"Like\" for anything."
+       "tr": "Maybe. But if communication means using words to understand each other, then I think exchanges on social media really do weaken our ability to express ourselves. You can get by with a single \"Like\" sticker or something for anything."
       },
       {
        "sp": "ジ",
        "v": "m",
        "ja": "そっか。でも、内容は__さておき__、SNSのおかげでやりとりする相手は増えているわけだから、SNSがコミュニケーションに悪い影響を与えている__とばかりは言えない__んじゃないかな。",
-       "tr": "I see. But setting aside what we actually say, thanks to social media we're interacting with more people, so I don't think you can say social media is purely a bad influence on communication."
+       "tr": "I see. But setting aside what we actually say, thanks to social media we're interacting with more people, so I don't think you can say social media only has a bad effect on communication."
       },
       {
        "sp": "サ",
@@ -3755,7 +3755,7 @@ TRY.registerLesson({
        "sp": "サ",
        "v": "f",
        "ja": "実際、社会に出れば苦手な相手や考え方が全く違う人とも付き合わなきゃいけないわけだし。それに、人に直接会えば、言葉だけじゃなく、相手の表情や身振りなんかからも気持ちが読み取れるよね。",
-       "tr": "In reality, once you go out into the world, you have to deal even with people you don't get along with or who think completely differently from you. Plus, when you meet people in person, you can read their feelings not just from their words but also from things like their facial expressions and gestures."
+       "tr": "In reality, once you're out in the working world, you have to deal even with people you don't get along with or who think completely differently from you. Plus, when you meet people in person, you can read their feelings not just from their words but also from things like their facial expressions and gestures."
       },
       {
        "sp": "ジ",
