@@ -48,7 +48,7 @@ TRY.registerVocab({ ch: 5, words: [
       { ja: "{祖母|そぼ}は{骨折|こっせつ}してから**{寝|ね}たきり**になってしまった。", en: "My grandmother has been bedridden since she broke a bone.", alt: ["{寝言|ねごと}", "{寝坊|ねぼう}", "{昼寝|ひるね}"] },
     ] },
   { w: "{夜道|よみち}", lv: "N1", pos: "noun",
-    en: "a road or street at night; walking home in the dark",
+    en: "a road or street at night; the way (home) after dark",
     note: "The street itself after dark: 夜道を歩く, 夜道は危ない, and the parting phrase 夜道に気をつけて (“be careful on your way home”). 夜中 is the middle of the night as a time.",
     rx: ["よるみち", "やどう", "よみっち"],
     book: { ja: "女性が1人きりで**{夜道|よみち}**を歩くのは{危険|きけん}だ。", en: "It's dangerous for a woman to walk the streets alone at night.", at: "gp/37" },
@@ -120,7 +120,7 @@ TRY.registerVocab({ ch: 5, words: [
     ] },
   { w: "いまだに", lv: "N1", pos: "adverb",
     en: "still (even now); to this day",
-    note: "A more written, emphatic まだ with the sense “even after all this time”, often with surprise or frustration: いまだに信じられない, いまだに見つからない. Usually with a negative or a continuing state. 今でも is the neutral equivalent. Written 未だに.",
+    note: "An emphatic まだ, “still, even after all this time”, often with surprise or frustration: いまだに信じられない, いまだに見つからない. Usually with a negative or a continuing state. 今でも is the neutral equivalent. Written 未だに.",
     book: { ja: "水泳教室に通ってはいるものの、**いまだに**25メートルしか泳げない。", en: "Although I do go to swimming classes, I still can't swim more than 25 meters.", at: "gp/39" },
     ex: [
       { ja: "十{年|ねん}{前|まえ}の{事件|じけん}の{犯人|はんにん}は、**いまだに**{見|み}つかっていない。", en: "The culprit in the case from ten years ago has still not been found.", alt: ["ついに", "すでに", "とっくに"] },
@@ -301,7 +301,7 @@ TRY.registerVocab({ ch: 5, words: [
     ] },
   { w: "{苦労|くろう}", lv: "N2", pos: "noun · する verb",
     en: "hardship; trouble; toil",
-    note: "苦労する (go through hardship), 苦労して〜 (do with great effort), 苦労が報われる (one's toil pays off), ご苦労さま (thanks for your trouble — said to equals or those below you). 努力 is effort you put in; 苦労 is the hardship you go through.",
+    note: "苦労する (go through hardship), 苦労して〜 (do with great effort), 苦労が報われる (one's toil pays off), ご苦労さま (thanks for your trouble — said to those below you; to a superior, use お疲れさまです). 努力 is effort you put in; 苦労 is the hardship you go through.",
     rx: ["くろ", "くうろう", "こうろう"],
     book: { ja: "**{苦労|くろう}**したあげく", en: "after going through all that trouble", at: "gp/45" },
     ex: [
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 5, words: [
     ] },
   { w: "{姉妹|しまい}", lv: "N2", pos: "noun",
     en: "sisters",
-    note: "Formal and written: 三人姉妹 (three sisters), 姉妹都市 (sister cities), 姉妹校 (sister school). 兄弟 (きょうだい) can mean siblings of either sex; 姉妹 is only sisters.",
+    note: "三人姉妹 (three sisters), 姉妹都市 (sister cities), 姉妹校 (sister school). 兄弟 (きょうだい) can mean siblings of either sex; 姉妹 is only sisters.",
     rx: ["しいまい", "しまえ", "じまい"],
     book: { ja: "私たち**{姉妹|しまい}**の子どものときの物はもちろん、両親、{祖父母|そふぼ}の子ども{時代|じだい}の教科書まで出てきた。", en: "Not only things from when we sisters were children, but even my parents' and grandparents' childhood textbooks turned up.", at: "ch/5/review" },
     ex: [
