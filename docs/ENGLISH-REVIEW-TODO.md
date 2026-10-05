@@ -82,7 +82,8 @@ N1 chapters: ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 · compare
 Q1: l01 l02 l03 l04 l05 l06 · challenge · Q2: l07 l08 l09 l10 l11 l12 · challenge
 Vocab examples: N2 vocab/ch01–14, N1 vocab/ch01–10, Quartet vocabNN (after the chapters)
 
-Done: first pass — all N2, N1, Q1, Q2 chapters/lessons and units, N2 + N1 compare; second pass — all N2 + N1 chapters
-In progress: N2 vocab ch01–ch12 · next: N2 vocab ch13–14, N1 vocab ch01–10, Quartet vocab
+Done: first + second pass — all chapters, lessons, units, compare (all books); vocab — all books; front matter;
+third pass — N2 ch01–ch06 ch09 ch10, N1 ch01–ch04
+In progress: third pass N2 ch07–08 ch11–14, N1 ch05–10
 Notes: `see` lists render as related links; a deepDive need not discuss each. N1 #37 ③ 言わる is the book's own typo
-(p.60) — keep. N2 compare [11.2] 〜だけに label with a だけあって example is as printed (p.222).
+(p.60) — keep. N2 compare [11.2] 〜だけに label with a だけあって example is as printed (p.222). N2 ch05 #37 📎 "the situation have continued" is the book's own English (p.73) — keep.
