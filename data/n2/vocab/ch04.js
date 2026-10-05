@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "(on or over) the sea; at sea; maritime",
     note: "Used in news and official names: 南の海上 (over the sea to the south), 海上輸送 (sea transport), 海上保安庁 (Japan Coast Guard). 海中 is under the sea; 沖 is offshore, out from the coast.",
     rx: ["かいしょう", "うみじょう", "かいじょ"],
-    book: { ja: "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}**{海上|かいじょう}**にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。", en: "The very powerful Typhoon No. 5 was over the sea south of Japan at 15:00 on August 1, moving northeast at about 30 kilometers per hour.", at: "ch/4" },
+    book: { ja: "{非常|ひじょう}に強い{台風|たいふう}5号は8月1日15時には{日本|にっぽん}の{南|みなみ}**{海上|かいじょう}**にあって、1時間におよそ30キロメートルの速さで{北東|ほくとう}に進んでいます。", en: "As of 3 p.m. on August 1, the very strong Typhoon No. 5 was over the sea south of Japan, moving northeast at about 30 kilometers per hour.", at: "ch/4" },
     ex: [
       { ja: "{濃|こ}い{霧|きり}のため、**{海上|かいじょう}**の{船|ふね}はゆっくり{進|すす}んだ。", en: "Because of the thick fog, the ships at sea moved slowly.", alt: ["{会場|かいじょう}", "{地上|ちじょう}", "{屋上|おくじょう}"] },
     ] },
@@ -11,7 +11,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "atmospheric pressure; air pressure",
     note: "A weather term: 高気圧 / 低気圧 (high / low pressure), 気圧が下がる, 中心気圧 (central pressure of a typhoon), measured in ヘクトパスカル. 血圧 is blood pressure.",
     rx: ["きあち", "けあつ", "きえつ"],
-    book: { ja: "中心の**{気圧|きあつ}**は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second.", at: "ch/4" },
+    book: { ja: "中心の**{気圧|きあつ}**は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}{風速|ふうそく}は35メートルです。", en: "Its central pressure is 945 hectopascals, and the maximum gust near the center is 35 meters per second.", at: "ch/4" },
     ex: [
       { ja: "{山|やま}の{上|うえ}は**{気圧|きあつ}**が{低|ひく}いので、お{菓子|かし}の{袋|ふくろ}がふくらむ。", en: "Air pressure is low at the top of a mountain, so snack bags puff up.", alt: ["{気配|けはい}", "{血圧|けつあつ}", "{気分|きぶん}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "moment; instant",
     note: "〜た瞬間 (the moment ~ happened), その瞬間, 瞬間的に (momentarily). In weather reports 最大瞬間風速 is the peak gust speed. 一瞬 is “an instant” used adverbially (一瞬で).",
     rx: ["しゅんけん", "しゅうかん", "しゅんま"],
-    book: { ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大**{瞬間|しゅんかん}**{風速|ふうそく}は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second.", at: "ch/4" },
+    book: { ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大**{瞬間|しゅんかん}**{風速|ふうそく}は35メートルです。", en: "Its central pressure is 945 hectopascals, and the maximum gust near the center is 35 meters per second.", at: "ch/4" },
     ex: [
       { ja: "ドアを{開|あ}けた**{瞬間|しゅんかん}**、{猫|ねこ}が{外|そと}に{飛|と}び{出|だ}した。", en: "The moment I opened the door, the cat dashed outside.", alt: ["{時間|じかん}", "{期間|きかん}", "{空間|くうかん}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "wind speed",
     note: "Given in meters per second in Japanese forecasts: 風速20メートル, 最大風速, 瞬間風速. 風力 is wind force (on a scale); 時速 is speed per hour.",
     rx: ["ふそく", "かぜそく", "ふうぞく"],
-    book: { ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}**{風速|ふうそく}**は35メートルです。", en: "The central pressure is 945 hectopascals, and the maximum instantaneous wind speed near the center is 35 meters per second.", at: "ch/4" },
+    book: { ja: "中心の{気圧|きあつ}は945ヘクトパスカル、中心{付近|ふきん}の最大{瞬間|しゅんかん}**{風速|ふうそく}**は35メートルです。", en: "Its central pressure is 945 hectopascals, and the maximum gust near the center is 35 meters per second.", at: "ch/4" },
     ex: [
       { ja: "**{風速|ふうそく}**が20メートルを{超|こ}えたため、{電車|でんしゃ}が{止|と}まった。", en: "The trains stopped because the wind speed exceeded 20 meters per second.", alt: ["{風景|ふうけい}", "{風習|ふうしゅう}", "{時速|じそく}"] },
     ] },
@@ -35,7 +35,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "speed; velocity; rate",
     note: "The formal word: 速度を上げる / 落とす, 制限速度 (speed limit), 速度を速める. スピード is the everyday loanword and 速さ the plain noun. Rates of change also use it (成長の速度).",
     rx: ["そくと", "そくどう", "はやど"],
-    book: { ja: "今後{台風|たいふう}は**{速度|そくど}**を速めつつ東に進むと{予想|よそう}されます。", en: "The typhoon is expected to move east while picking up speed.", at: "ch/4" },
+    book: { ja: "今後{台風|たいふう}は**{速度|そくど}**を速めつつ東に進むと{予想|よそう}されます。", en: "From here, the typhoon is expected to head east while picking up speed.", at: "ch/4" },
     ex: [
       { ja: "この{道路|どうろ}の{制限|せいげん}**{速度|そくど}**は{時速|じそく}40キロだ。", en: "The speed limit on this road is 40 kilometers per hour.", alt: ["{程度|ていど}", "{温度|おんど}", "{態度|たいど}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "storm zone (the area of storm-force winds around a typhoon)",
     note: "A typhoon-report term: 暴風域に入る / を抜ける (enter / leave the storm zone). 暴風 is a violent wind (25 m/s or more) and 暴風雨 a rainstorm; the wider outer zone is 強風域.",
     rx: ["ぼうふいき", "ばくふういき", "ぼうふういぎ"],
-    book: { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に**{暴風域|ぼうふういき}**に入り、{広範囲|こうはんい}にわたって強い雨が降っています。", en: "Okinawa and the surrounding area are now within the storm zone, and heavy rain is falling over a wide area.", at: "ch/4" },
+    book: { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に**{暴風域|ぼうふういき}**に入り、{広範囲|こうはんい}にわたって強い雨が降っています。", en: "An area centered on Okinawa is now within the storm zone, and heavy rain is falling across a wide area.", at: "ch/4" },
     ex: [
       { ja: "{明日|あした}の{朝|あさ}には、{関東|かんとう}{地方|ちほう}も**{暴風域|ぼうふういき}**に{入|はい}る{見込|みこ}みだ。", en: "The Kanto region is also expected to enter the storm zone by tomorrow morning.", alt: ["{流域|りゅういき}", "{区域|くいき}", "{地域|ちいき}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "wide area; broad range",
     note: "広 + 範囲: 広範囲にわたって (over a wide area), 広範囲に及ぶ (extend widely), 広範囲の被害. Formal, typical of news reports.",
     rx: ["ひろはんい", "こうばんい", "こうはんいい"],
-    book: { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、**{広範囲|こうはんい}**にわたって強い雨が降っています。", en: "Okinawa and the surrounding area are now within the storm zone, and heavy rain is falling over a wide area.", at: "ch/4" },
+    book: { ja: "{現在|げんざい}、{沖縄|おきなわ}を中心に{暴風域|ぼうふういき}に入り、**{広範囲|こうはんい}**にわたって強い雨が降っています。", en: "An area centered on Okinawa is now within the storm zone, and heavy rain is falling across a wide area.", at: "ch/4" },
     ex: [
       { ja: "{地震|じしん}の{揺|ゆ}れは**{広範囲|こうはんい}**に{及|およ}んだ。", en: "The shaking from the earthquake extended over a wide area.", alt: ["{広告|こうこく}", "{範囲内|はんいない}", "{広場|ひろば}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "coast; shore; coastal area",
     note: "The land and water along a sea or lake: 沿岸部 (coastal areas), 太平洋沿岸, 沿岸漁業. 海岸 is the shoreline or beach itself. 沿 is also in 沿う (run along) and 沿線 (along a rail line).",
     rx: ["えんかん", "せんがん", "そいがん"],
-    book: { ja: "また、{九州|きゅうしゅう}**{沿岸|えんがん}**から{四国|しこく}にかけて{波|なみ}も高くなってきています。", en: "The waves are also getting higher from the Kyushu coast to Shikoku.", at: "ch/4" },
+    book: { ja: "また、{九州|きゅうしゅう}**{沿岸|えんがん}**から{四国|しこく}にかけて{波|なみ}も高くなってきています。", en: "Waves are also getting higher from the Kyushu coast to Shikoku.", at: "ch/4" },
     ex: [
       { ja: "{津波|つなみ}{警報|けいほう}が{出|だ}され、**{沿岸|えんがん}**の{住民|じゅうみん}は{高台|たかだい}に{避難|ひなん}した。", en: "A tsunami warning was issued, and residents along the coast evacuated to high ground.", alt: ["{沿革|えんかく}", "{延期|えんき}", "{延長|えんちょう}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "flood; flooding",
     note: "洪水が起きる, 洪水の被害, 洪水警報 / 注意報. 浸水 is water getting into buildings; 氾濫 is a river overflowing its banks. Figuratively: 情報の洪水 (a flood of information).",
     rx: ["こうすい", "きょうずい", "こずい"],
-    book: { ja: "{台風|たいふう}の{接近|せっきん}にともない、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}**{洪水|こうずい}**{注意報|ちゅういほう}が出されています。", en: "With the approach of the typhoon, heavy-rain and flood advisories have been issued in various areas, starting with southern Kyushu.", at: "ch/4" },
+    book: { ja: "{台風|たいふう}の{接近|せっきん}にともない、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}**{洪水|こうずい}**{注意報|ちゅういほう}が出されています。", en: "As the typhoon approaches, heavy rain and flood advisories have been issued for southern Kyushu and many other areas.", at: "ch/4" },
     ex: [
       { ja: "{大雨|おおあめ}で{川|かわ}があふれ、{町|まち}は**{洪水|こうずい}**の{被害|ひがい}を{受|う}けた。", en: "The river overflowed in the heavy rain, and the town was damaged by flooding.", alt: ["{香水|こうすい}", "{噴水|ふんすい}", "{水道|すいどう}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "(weather) advisory",
     note: "The lowest level of official weather alert: 大雨注意報, 乾燥注意報. In rising order: 注意報 (advisory) → 警報 (warning) → 特別警報 (emergency warning). 〜注意報が出る / 解除される (be issued / lifted).",
     rx: ["ちゅういほ", "ちゅうほう", "ちゅういぼう"],
-    book: { ja: "{台風|たいふう}の{接近|せっきん}にともない、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}{洪水|こうずい}**{注意報|ちゅういほう}**が出されています。", en: "With the approach of the typhoon, heavy-rain and flood advisories have been issued in various areas, starting with southern Kyushu.", at: "ch/4" },
+    book: { ja: "{台風|たいふう}の{接近|せっきん}にともない、{九州|きゅうしゅう}{南部|なんぶ}をはじめ{各|かく}{地域|ちいき}に{大雨|おおあめ}{洪水|こうずい}**{注意報|ちゅういほう}**が出されています。", en: "As the typhoon approaches, heavy rain and flood advisories have been issued for southern Kyushu and many other areas.", at: "ch/4" },
     ex: [
       { ja: "{乾燥|かんそう}**{注意報|ちゅういほう}**が{出|で}ているので、{火|ひ}の{扱|あつか}いに{気|き}をつけよう。", en: "A dry-air advisory is in effect, so let's be careful with fire.", alt: ["{天気図|てんきず}", "{情報源|じょうほうげん}", "{予報士|よほうし}"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "dawn; daybreak; the early morning hours",
     note: "The time when night turns to day: 明け方まで起きていた, 明け方に地震があった. 夜明け is the moment of dawn; 早朝 is early morning in general. The evening counterpart is 夕方.",
     rx: ["めいけがた", "あけかた", "あけほう"],
-    book: { ja: "これから{明日|あす}の**{明|あ}け{方|がた}**にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降るおそれがあります。", en: "From now until dawn tomorrow, there is a risk of localized heavy rain of 70 mm per hour.", at: "ch/4" },
+    book: { ja: "これから{明日|あす}の**{明|あ}け{方|がた}**にかけて、{局地的|きょくちてき}に1時間70ミリの強い雨が降るおそれがあります。", en: "Between now and dawn tomorrow, there is a risk of localized downpours of 70 millimeters an hour.", at: "ch/4" },
     ex: [
       { ja: "{夜通|よどお}し{話|はな}していたら、いつの{間|ま}にか**{明|あ}け{方|がた}**になっていた。", en: "We talked all night, and before we knew it, it was dawn.", alt: ["{夕方|ゆうがた}", "{仕方|しかた}", "{味方|みかた}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "local; localized (limited to a particular area)",
     note: "A weather-news word: 局地的な大雨 (localized downpours), 局地的に雷雨. 局地 means a limited area. Compare 一時的 (temporary) — forecasts often combine the two.",
     rx: ["きょくちてっき", "ごくちてき", "きょくじてき"],
-    book: { ja: "これから{明日|あす}の{明|あ}け{方|がた}にかけて、**{局地的|きょくちてき}**に1時間70ミリの強い雨が降るおそれがあります。", en: "From now until dawn tomorrow, there is a risk of localized heavy rain of 70 mm per hour.", at: "ch/4" },
+    book: { ja: "これから{明日|あす}の{明|あ}け{方|がた}にかけて、**{局地的|きょくちてき}**に1時間70ミリの強い雨が降るおそれがあります。", en: "Between now and dawn tomorrow, there is a risk of localized downpours of 70 millimeters an hour.", at: "ch/4" },
     ex: [
       { ja: "{午後|ごご}から**{局地的|きょくちてき}**に{激|はげ}しい{雨|あめ}が{降|ふ}るでしょう。", en: "Localized heavy rain is likely from the afternoon on.", alt: ["{具体的|ぐたいてき}", "{個人的|こじんてき}", "{客観的|きゃっかんてき}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "course; path; route; (one's future) career path",
     note: "The direction something is heading: 台風の進路, 進路を変える. At school it means the path after graduation: 進路を決める, 進路相談 (career counseling). 針路 is the heading of a ship or plane.",
     rx: ["しんろう", "すすみじ", "しんど"],
-    book: { ja: "{台風|たいふう}の**{進路|しんろ}**にあたる{地域|ちいき}では、{強風|きょうふう}とともに{河川|かせん}の{増水|ぞうすい}にもご注意ください。", en: "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
+    book: { ja: "{台風|たいふう}の**{進路|しんろ}**にあたる{地域|ちいき}では、{強風|きょうふう}とともに{河川|かせん}の{増水|ぞうすい}にもご注意ください。", en: "In areas in the typhoon's path, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
     ex: [
       { ja: "{高校|こうこう}三{年生|ねんせい}になり、{卒業|そつぎょう}{後|ご}の**{進路|しんろ}**を{決|き}めなければならない。", en: "I'm a high school senior now, and I have to decide what to do after I graduate.", alt: ["{道路|どうろ}", "{線路|せんろ}", "{進歩|しんぽ}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "rivers (formal); rivers and streams",
     note: "The official, collective word used in news and administration: 河川の増水 / 氾濫, 河川敷 (riverside land), 一級河川. In conversation, just 川.",
     rx: ["かがわ", "がせん", "こうせん"],
-    book: { ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}とともに**{河川|かせん}**の{増水|ぞうすい}にもご注意ください。", en: "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
+    book: { ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}とともに**{河川|かせん}**の{増水|ぞうすい}にもご注意ください。", en: "In areas in the typhoon's path, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
     ex: [
       { ja: "{大雨|おおあめ}の{後|あと}は、**{河川|かせん}**に{近|ちか}づかないでください。", en: "Please stay away from rivers after heavy rain.", alt: ["{下線|かせん}", "{砂漠|さばく}", "{銀河|ぎんが}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "rise in the water level (of a river or lake)",
     note: "川が増水する, 大雨による増水, 増水した川に近づかない. The opposite is 減水. 浸水 is water flooding into houses or land; 洪水 is a flood.",
     rx: ["ぞうずい", "そうすい", "ましみず"],
-    book: { ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}とともに{河川|かせん}の**{増水|ぞうすい}**にもご注意ください。", en: "In areas in the path of the typhoon, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
+    book: { ja: "{台風|たいふう}の{進路|しんろ}にあたる{地域|ちいき}では、{強風|きょうふう}とともに{河川|かせん}の**{増水|ぞうすい}**にもご注意ください。", en: "In areas in the typhoon's path, please watch out for rising rivers as well as strong winds.", at: "ch/4" },
     ex: [
       { ja: "{昨夜|さくや}の{雨|あめ}で{川|かわ}が**{増水|ぞうすい}**し、{橋|はし}が{通|とお}れなくなった。", en: "Last night's rain made the river rise, and the bridge became impassable.", alt: ["{増加|ぞうか}", "{給水|きゅうすい}", "{噴水|ふんすい}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "live broadcast (from a location); relay",
     note: "Broadcasting from the scene: 生中継 (live coverage), 現地から中継する, 中継がつながる (the live feed comes through). Also relaying in general: 中継地点 (relay point). 放送 is broadcasting in general.",
     rx: ["ちゅうけ", "じゅうけい", "ちゅけい"],
-    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We will report on the situation in Okinawa, now in the storm zone, later in the program as soon as the live link is up.", at: "ch/4" },
+    book: { ja: "なお、{暴風域|ぼうふういき}に入った{沖縄|おきなわ}の{様子|ようす}は**{中継|ちゅうけい}**がつながり{次第|しだい}、{番組|ばんぐみ}の中でお伝えする予定です。", en: "We also plan to report later in the program on conditions in Okinawa, which is now in the storm zone, as soon as our live link is connected.", at: "ch/4" },
     ex: [
       { ja: "{決勝戦|けっしょうせん}はテレビで{生|なま}**{中継|ちゅうけい}**される。", en: "The final will be broadcast live on TV.", alt: ["{継続|けいぞく}", "{中止|ちゅうし}", "{中断|ちゅうだん}"] },
     ] },
@@ -146,7 +146,7 @@ TRY.registerVocab({ ch: 4, words: [
   { w: "かばう", lv: "N1", pos: "godan verb",
     en: "protect; shield; stick up for; favor (an injured part)",
     note: "Kanji 庇う, usually written in kana. Protecting someone from harm or blame (部下をかばう “cover for a subordinate”), or sparing an injured body part (痛めた足をかばって歩く). 守る is the general “protect”.",
-    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running while favoring it and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足を**かばい**つつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{先輩|せんぱい}は、{失敗|しっぱい}した{私|わたし}を{上司|じょうし}の{前|まえ}で**かばって**くれた。", en: "My senior colleague stuck up for me in front of the boss when I made a mistake.", alt: ["{責|せ}めて", "{疑|うたが}って", "{避|さ}けて"] },
     ] },
@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "running the full distance; finishing (a race)",
     note: "完 (complete) + 走 (run): マラソンを完走する, 完走者 (finishers). Similar 完-words: 完成 (completion of a thing), 完了 (finishing a process), 完売 (selling out).",
     rx: ["かんぞう", "かんそ", "かんしょう"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running while favoring it and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、**{完走|かんそう}**した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい{拍手|はくしゅ}が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{初|はじ}めてのフルマラソンで、なんとか**{完走|かんそう}**できた。", en: "I managed to finish my first full marathon.", alt: ["{完成|かんせい}", "{逃走|とうそう}", "{完売|かんばい}"] },
     ] },
@@ -162,7 +162,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "applause; clapping",
     note: "拍手する, 拍手を送る (give a round of applause), 大きな拍手が起こる, 拍手喝采 (cheers and applause). 握手 (handshake) is a common mix-up.",
     rx: ["はくしゅう", "ばくしゅ", "はくて"],
-    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "The spectators warmly applauded Suzuki, who fell and hurt a leg but kept running while favoring it and finished the race.", at: "gp/30" },
+    book: { ja: "転んでけがをした足をかばいつつ走り続け、{完走|かんそう}した{鈴木|すずき}選手に、{観客|かんきゃく}から温かい**{拍手|はくしゅ}**が送られた。", en: "Suzuki, who fell and hurt a leg but kept running, favoring it all the way to the finish, received warm applause from the spectators.", at: "gp/30" },
     ex: [
       { ja: "{演奏|えんそう}が{終|お}わると、{会場|かいじょう}から{大|おお}きな**{拍手|はくしゅ}**が{起|お}こった。", en: "When the performance ended, the hall broke into loud applause.", alt: ["{握手|あくしゅ}", "{歌手|かしゅ}", "{拍子|ひょうし}"] },
     ] },
@@ -170,7 +170,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "department; section; one's post (in an organization)",
     note: "A unit within a company or office: 部署に配属される (be assigned to a department), 部署を異動する (transfer), 各部署. 部 and 課 are specific levels; 部署 covers any of them.",
     rx: ["ぶしょう", "ぶじょ", "ぶちょ"],
-    book: { ja: "この会議では{各|かく}**{部署|ぶしょ}**の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department.", at: "gp/30" },
+    book: { ja: "この会議では{各|かく}**{部署|ぶしょ}**の問題点を{検討|けんとう}しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I'd like us to decide on our policy going forward while looking closely at the problems in each department.", at: "gp/30" },
     ex: [
       { ja: "{四月|しがつ}から{営業|えいぎょう}の**{部署|ぶしょ}**に{異動|いどう}することになった。", en: "I'm being transferred to the sales department in April.", alt: ["{部品|ぶひん}", "{部分|ぶぶん}", "{署名|しょめい}"] },
     ] },
@@ -178,7 +178,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "examination; consideration; review (before deciding)",
     note: "Looking at something carefully to decide on it: 案を検討する, 検討中 (under review), 検討の余地 (room for consideration). In business, 前向きに検討します can be a polite way of not committing. 考慮 is taking a factor into account.",
     rx: ["けんどう", "げんとう", "けんと"],
-    book: { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を**{検討|けんとう}**しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department.", at: "gp/30" },
+    book: { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を**{検討|けんとう}**しつつ、今後の{方針|ほうしん}を{決定|けってい}していきたいと思います。", en: "In this meeting, I'd like us to decide on our policy going forward while looking closely at the problems in each department.", at: "gp/30" },
     ex: [
       { ja: "{新|あたら}しい{計画|けいかく}については、{来週|らいしゅう}の{会議|かいぎ}で**{検討|けんとう}**します。", en: "We will review the new plan at next week's meeting.", alt: ["{見当|けんとう}", "{検査|けんさ}", "{検索|けんさく}"] },
     ] },
@@ -186,7 +186,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "policy; course of action; basic plan",
     note: "The direction an organization or person decides to follow: 方針を決める / 立てる, 会社の方針, 教育方針, 基本方針. 方法 is a method; 政策 is specifically government policy.",
     rx: ["ほうじん", "ほしん", "かたしん"],
-    book: { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の**{方針|ほうしん}**を{決定|けってい}していきたいと思います。", en: "In this meeting, I would like us to decide on our future policy while examining the problems in each department.", at: "gp/30" },
+    book: { ja: "この会議では{各|かく}{部署|ぶしょ}の問題点を{検討|けんとう}しつつ、今後の**{方針|ほうしん}**を{決定|けってい}していきたいと思います。", en: "In this meeting, I'd like us to decide on our policy going forward while looking closely at the problems in each department.", at: "gp/30" },
     ex: [
       { ja: "{会社|かいしゃ}の**{方針|ほうしん}**が{変|か}わり、{海外|かいがい}{進出|しんしゅつ}を{目指|めざ}すことになった。", en: "The company's policy changed, and it will now aim to expand overseas.", alt: ["{方言|ほうげん}", "{方角|ほうがく}", "{秒針|びょうしん}"] },
     ] },
@@ -194,7 +194,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "gardening; horticulture",
     note: "Growing flowers, vegetables or trees as a hobby or trade: 園芸が趣味, 園芸店 (garden center), 園芸用品. ガーデニング is the popular loanword; 家庭菜園 is a home vegetable garden. 演芸 (entertainment) is a homophone.",
     rx: ["えんけい", "そのげい", "おんげい"],
-    book: { ja: "{趣味|しゅみ}の**{園芸|えんげい}**教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At the gardening class I take as a hobby, I enjoy chatting with my classmates while learning how to grow flowers.", at: "gp/30" },
+    book: { ja: "{趣味|しゅみ}の**{園芸|えんげい}**教室で{草花|くさばな}の育て方を{学|まな}びつつ、{仲間|なかま}とのおしゃべりを楽しんでいます。", en: "At my gardening class, which I take as a hobby, I enjoy chatting with the others while learning how to grow flowers.", at: "gp/30" },
     ex: [
       { ja: "{母|はは}は**{園芸|えんげい}**が{趣味|しゅみ}で、ベランダでたくさんの{花|はな}を{育|そだ}てている。", en: "My mother's hobby is gardening, and she grows lots of flowers on the balcony.", alt: ["{演芸|えんげい}", "{工芸|こうげい}", "{公園|こうえん}"] },
     ] },
@@ -242,7 +242,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the whole area; the entire region",
     note: "Formal: 市内全域 (the whole city), 県全域, 全域にわたって. 域 means area or zone, as in 地域 (region) and 流域 (river basin).",
     rx: ["ぜんいく", "ぜんえき", "ぜいき"],
-    book: { ja: "{台風|たいふう}で{電線|でんせん}が切れ、この町は**{全域|ぜんいき}**にわたって{停電|ていでん}した。", en: "Power lines were cut in the typhoon, and power went out throughout the entire town.", at: "gp/31" },
+    book: { ja: "{台風|たいふう}で{電線|でんせん}が切れ、この町は**{全域|ぜんいき}**にわたって{停電|ていでん}した。", en: "Power lines came down in the typhoon, and the power went out across the entire town.", at: "gp/31" },
     ex: [
       { ja: "{県内|けんない}**{全域|ぜんいき}**に{大雨|おおあめ}{警報|けいほう}が{出|だ}された。", en: "A heavy-rain warning was issued for the entire prefecture.", alt: ["{全員|ぜんいん}", "{全額|ぜんがく}", "{全力|ぜんりょく}"] },
     ] },
@@ -250,7 +250,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "many years; long years; for years",
     note: "長年の夢 / 経験 / 研究, 長年にわたる (spanning many years), 長年住んでいる. A mixed kun-on reading (なが + ねん). 長い間 is the plain equivalent.",
     rx: ["ながどし", "ながとし", "なかねん"],
-    book: { ja: "**{長年|ながねん}**にわたる研究が{実|みの}り、ついに{新製品|しんせいひん}が{完成|かんせい}した。", en: "Many years of research have borne fruit, and the new product has finally been completed.", at: "gp/31" },
+    book: { ja: "**{長年|ながねん}**にわたる研究が{実|みの}り、ついに{新製品|しんせいひん}が{完成|かんせい}した。", en: "Many years of research have paid off, and the new product is finally complete.", at: "gp/31" },
     ex: [
       { ja: "**{長年|ながねん}**の{夢|ゆめ}だった{自分|じぶん}の{店|みせ}を、ついに{開|ひら}いた。", en: "I finally opened my own shop, which had been my dream for years.", alt: ["{少年|しょうねん}", "{長男|ちょうなん}", "{毎年|まいとし}"] },
     ] },
@@ -258,7 +258,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "bear fruit; ripen; (of efforts) pay off",
     note: "Literally of crops (稲が実る), and figuratively of efforts or love: 努力が実る, 研究が実る, 恋が実る. 実を結ぶ is a similar idiom.",
     rx: ["じつる", "みる", "みのうる"],
-    book: { ja: "{長年|ながねん}にわたる研究が**{実|みの}り**、ついに{新製品|しんせいひん}が{完成|かんせい}した。", en: "Many years of research have borne fruit, and the new product has finally been completed.", at: "gp/31" },
+    book: { ja: "{長年|ながねん}にわたる研究が**{実|みの}り**、ついに{新製品|しんせいひん}が{完成|かんせい}した。", en: "Many years of research have paid off, and the new product is finally complete.", at: "gp/31" },
     ex: [
       { ja: "{毎日|まいにち}の{練習|れんしゅう}が**{実|みの}って**、{試合|しあい}に{勝|か}つことができた。", en: "Our daily practice paid off, and we were able to win the game.", alt: ["{余|あま}って", "{至|いた}って", "{育|そだ}って"] },
     ] },
@@ -266,7 +266,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "many fields; various areas; many directions",
     note: "多方面にわたって / で活躍する (be active in many fields), 多方面から検討する (examine from many angles). A formal word; 各方面 means “each (relevant) quarter”.",
     rx: ["おおほうめん", "たほめん", "たかためん"],
-    book: { ja: "彼は{政治|せいじ}・{経済|けいざい}・{外交|がいこう}など**{多方面|たほうめん}**にわたって{活躍|かつやく}している。", en: "He is active in many fields, such as politics, economics and diplomacy.", at: "gp/31" },
+    book: { ja: "彼は{政治|せいじ}・{経済|けいざい}・{外交|がいこう}など**{多方面|たほうめん}**にわたって{活躍|かつやく}している。", en: "He is active across a wide range of fields, including politics, economics and diplomacy.", at: "gp/31" },
     ex: [
       { ja: "{彼女|かのじょ}は{歌手|かしゅ}としてだけでなく、{作家|さっか}や{司会者|しかいしゃ}としても**{多方面|たほうめん}**で{活躍|かつやく}している。", en: "She's active in many fields — not only as a singer but also as a writer and TV host.", alt: ["{地方|ちほう}", "{多数|たすう}", "{正面|しょうめん}"] },
     ] },
@@ -282,7 +282,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the rainy season (in early summer, about June to July)",
     note: "A special reading of the whole word: 梅雨入り (start of the rainy season), 梅雨明け (end of it), 梅雨の時期. In weather terminology it is also read ばいう (梅雨前線 “seasonal rain front”).",
     rx: ["つよ", "づゆ", "うめあめ"],
-    book: { ja: "本日、{九州|きゅうしゅう}から{四国|しこく}{地方|ちほう}にかけて、**{梅雨|つゆ}**{入|い}りしました。", en: "Today the rainy season began in the area from Kyushu to Shikoku.", at: "gp/32" },
+    book: { ja: "本日、{九州|きゅうしゅう}から{四国|しこく}{地方|ちほう}にかけて、**{梅雨|つゆ}**{入|い}りしました。", en: "The rainy season began today across the area from Kyushu to Shikoku.", at: "gp/32" },
     ex: [
       { ja: "**{梅雨|つゆ}**の{時期|じき}は、{洗濯物|せんたくもの}がなかなか{乾|かわ}かない。", en: "During the rainy season, laundry takes forever to dry.", alt: ["{小雨|こさめ}", "{雨具|あまぐ}", "{梅干|うめぼ}し"] },
     ] },
@@ -298,7 +298,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "the middle of a month (roughly the 11th to the 20th)",
     note: "A month is divided into three parts: 上旬 (1st–10th), 中旬 (11th–20th), 下旬 (21st–end). Common in schedules and forecasts: 12月中旬, 中旬ごろ.",
     rx: ["ちゅうしゅん", "なかじゅん", "ちゅじゅん"],
-    book: { ja: "12月**{中旬|ちゅうじゅん}**から{年末|ねんまつ}にかけて、町は買い物客でにぎわう。", en: "From mid-December to the end of the year, the town is bustling with shoppers.", at: "gp/32" },
+    book: { ja: "12月**{中旬|ちゅうじゅん}**から{年末|ねんまつ}にかけて、町は買い物客でにぎわう。", en: "From mid-December through the end of the year, the town bustles with shoppers.", at: "gp/32" },
     ex: [
       { ja: "この{辺|あた}りの{桜|さくら}は、{四月|しがつ}**{中旬|ちゅうじゅん}**ごろまで{楽|たの}しめます。", en: "The cherry blossoms around here can be enjoyed until around mid-April.", alt: ["{中間|ちゅうかん}", "{中心|ちゅうしん}", "{中年|ちゅうねん}"] },
     ] },
@@ -322,7 +322,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "accumulated snow; snow cover; depth of snow",
     note: "The snow lying on the ground: 積雪〜センチ, 積雪量, 積雪地帯. 降雪 is snow falling (snowfall); the verb for piling up is 積もる.",
     rx: ["せきゆき", "つもゆき", "しゃくせつ"],
-    book: { ja: "雪が降り、**{積雪|せきせつ}**は3メートルになることもある。", en: "…it snows, and the snow can pile up to three meters.", at: "gp/32" },
+    book: { ja: "雪が降り、**{積雪|せきせつ}**は3メートルになることもある。", en: "…it snows, and the snow is sometimes three meters deep.", at: "gp/32" },
     ex: [
       { ja: "{昨夜|さくや}からの{大雪|おおゆき}で、**{積雪|せきせつ}**は50センチに{達|たっ}した。", en: "After heavy snow since last night, the snow on the ground is now 50 centimeters deep.", alt: ["{降雨|こうう}", "{雪崩|なだれ}", "{除雪|じょせつ}"] },
     ] },
@@ -338,7 +338,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "relocation; moving (of an office, shop or facility)",
     note: "An organization moving premises: 本社を移転する, 移転先 (new location), 店舗移転のお知らせ. A household move is 引っ越し; 移動 is moving from place to place.",
     rx: ["いでん", "いてんん", "うつてん"],
-    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "With the relocation of the head office, a state-of-the-art computer system will be introduced.", at: "gp/33" },
+    book: { ja: "{本社|ほんしゃ}**{移転|いてん}**にともなって、最新のコンピューターシステムが{導入|どうにゅう}されることになった。", en: "Along with the head office's relocation, it has been decided that a state-of-the-art computer system will be installed.", at: "gp/33" },
     ex: [
       { ja: "{来月|らいげつ}、{当店|とうてん}は{駅前|えきまえ}に**{移転|いてん}**いたします。", en: "Next month our store will move to a location in front of the station.", alt: ["{回転|かいてん}", "{運転|うんてん}", "{移民|いみん}"] },
     ] },
@@ -346,7 +346,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "member of an assembly; lawmaker; legislator",
     note: "An elected member of a legislative body: 国会議員 (member of the Diet), 市議会議員 (city councilor), 議員に当選する. 委員 is a committee member; 会員 a member of a club.",
     rx: ["ぎいい", "ぎえん", "ぎにん"],
-    book: { ja: "**{議員|ぎいん}**の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "Following the expiration of the members' terms, a general election was held.", at: "gp/33" },
+    book: { ja: "**{議員|ぎいん}**の{任期|にんき}{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{彼|かれ}は{三十代|さんじゅうだい}で{市|し}{議会|ぎかい}**{議員|ぎいん}**に{当選|とうせん}した。", en: "He was elected to the city council in his thirties.", alt: ["{委員|いいん}", "{会員|かいいん}", "{店員|てんいん}"] },
     ] },
@@ -354,7 +354,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "term of office; tenure",
     note: "The fixed period someone holds a post: 任期は4年, 任期満了 (end of the term), 任期を務める / 終える. Don't confuse with the homophone 人気 (popularity).",
     rx: ["にんぎ", "じんき", "にっき"],
-    book: { ja: "{議員|ぎいん}の**{任期|にんき}**{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "Following the expiration of the members' terms, a general election was held.", at: "gp/33" },
+    book: { ja: "{議員|ぎいん}の**{任期|にんき}**{満了|まんりょう}にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{市長|しちょう}の**{任期|にんき}**は4{年|ねん}です。", en: "A mayor's term of office is four years.", alt: ["{人気|にんき}", "{定期|ていき}", "{任務|にんむ}"] },
     ] },
@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "expiration (of a set term); completion of a fixed period",
     note: "A fixed period coming to its end: 任期満了, 契約期間の満了, 刑期満了. It is used for terms and contracts, not for ordinary tasks (those are 終了 / 完了). 期限切れ is for things past their deadline.",
     rx: ["まんりょ", "まんろう", "みちりょう"],
-    book: { ja: "{議員|ぎいん}の{任期|にんき}**{満了|まんりょう}**にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "Following the expiration of the members' terms, a general election was held.", at: "gp/33" },
+    book: { ja: "{議員|ぎいん}の{任期|にんき}**{満了|まんりょう}**にともない、{総選挙|そうせんきょ}が{行|おこな}われた。", en: "With the members' terms of office expiring, a general election was held.", at: "gp/33" },
     ex: [
       { ja: "{契約|けいやく}{期間|きかん}の**{満了|まんりょう}**に{伴|ともな}い、{部屋|へや}を{出|で}ることになった。", en: "With the lease coming to an end, I have to move out of the apartment.", alt: ["{満足|まんぞく}", "{了解|りょうかい}", "{満員|まんいん}"] },
     ] },
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "progress; advance; improvement",
     note: "Moving forward to a better state, especially science and technology: 科学 / 医学の進歩, 進歩的 (progressive). 上達 is improvement in a personal skill; 進展 is developments in a situation.",
     rx: ["しんぼ", "しんぽう", "すすぽ"],
-    book: { ja: "{科学|かがく}の**{進歩|しんぽ}**（　）{人々|ひとびと}の生活も便利になった。", en: "With the progress of science, people's lives have become more convenient too.", at: "gp/33" },
+    book: { ja: "{科学|かがく}の**{進歩|しんぽ}**（　）{人々|ひとびと}の生活も便利になった。", en: "As science has advanced, people's lives have become more convenient too.", at: "gp/33" },
     ex: [
       { ja: "{医学|いがく}の**{進歩|しんぽ}**によって、{多|おお}くの{病気|びょうき}が{治|なお}るようになった。", en: "Thanks to advances in medicine, many diseases can now be cured.", alt: ["{散歩|さんぽ}", "{進路|しんろ}", "{譲歩|じょうほ}"] },
     ] },
@@ -418,7 +418,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "cause; bring about; trigger (usually something bad)",
     note: "事故 / 問題 / 混乱 / アレルギーを引き起こす. It is more formal and emphatic than 起こす and nearly always refers to undesirable results.",
     rx: ["ひきおくす", "いんきこす", "ひっきおこす"],
-    book: { ja: "この{化粧品|けしょうひん}はアレルギーを**{引|ひ}き{起|お}こす**おそれがあるので、{販売|はんばい}中止になった。", en: "This cosmetic was taken off the market because it might cause allergies.", at: "gp/34" },
+    book: { ja: "この{化粧品|けしょうひん}はアレルギーを**{引|ひ}き{起|お}こす**おそれがあるので、{販売|はんばい}中止になった。", en: "This cosmetic was pulled from the market because it could cause allergic reactions.", at: "gp/34" },
     ex: [
       { ja: "{運転|うんてん}{中|ちゅう}のスマートフォンの{使用|しよう}は、{重大|じゅうだい}な{事故|じこ}を**{引|ひ}き{起|お}こす**。", en: "Using a smartphone while driving causes serious accidents.", alt: ["{引|ひ}き{受|う}ける", "{引|ひ}き{返|かえ}す", "{叩|たた}き{起|お}こす"] },
     ] },
@@ -426,7 +426,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "disaster; calamity",
     note: "Especially natural disasters: 自然災害, 災害時 (in a disaster), 災害に備える, 災害対策. 被害 is the damage suffered; 事故 is an accident.",
     rx: ["さいがいい", "ざいがい", "さいかい"],
-    book: { ja: "**{災害時|さいがいじ}**には{携帯|けいたい}電話がつながらないおそれがありますから、別の{連絡|れんらく}方法を考えておいてください。", en: "In a disaster, mobile phones may not get through, so please work out another way of getting in touch in advance.", at: "gp/34" },
+    book: { ja: "**{災害時|さいがいじ}**には{携帯|けいたい}電話がつながらないおそれがありますから、別の{連絡|れんらく}方法を考えておいてください。", en: "In a disaster, cell phone calls may not get through, so please decide on another way of getting in touch ahead of time.", at: "gp/34" },
     ex: [
       { ja: "{日頃|ひごろ}から**{災害|さいがい}**に{備|そな}えて、{水|みず}や{食料|しょくりょう}を{用意|ようい}しておこう。", en: "Let's keep water and food on hand at all times in case of disaster.", alt: ["{公害|こうがい}", "{障害|しょうがい}", "{利害|りがい}"] },
     ] },
@@ -434,7 +434,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "maintenance; servicing; developing (infrastructure or systems)",
     note: "Putting machines in good working order (車 / 飛行機を整備する, 整備士 “mechanic”) or developing facilities and systems (道路 / 制度を整備する). 整理 is putting things in order; 準備 is preparation.",
     rx: ["せいひ", "ていび", "せいびい"],
-    book: { ja: "車を**{整備|せいび}**しないと、{事故|じこ}を（　）おそれがある。", en: "If you don't maintain your car, there is a risk of causing an accident.", at: "gp/34" },
+    book: { ja: "車を**{整備|せいび}**しないと、{事故|じこ}を（　）おそれがある。", en: "If you don't keep your car properly serviced, there is a risk you will cause an accident.", at: "gp/34" },
     ex: [
       { ja: "{飛行機|ひこうき}は{出発|しゅっぱつ}{前|まえ}に{必|かなら}ず**{整備|せいび}**される。", en: "Planes are always serviced before departure.", alt: ["{整理|せいり}", "{整列|せいれつ}", "{設備|せつび}"] },
     ] },
@@ -490,7 +490,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "warning; alarm; alert",
     note: "An official warning, or an alarm device: 大雨 / 津波警報, 警報が出る / 解除される, 火災警報 (fire alarm), 警報が鳴る. A 警報 is more serious than a 注意報 (advisory).",
     rx: ["けいほ", "けいぼう", "きょうほう"],
-    book: { ja: "**{大雨警報|おおあめけいほう}**が出ています。", en: "A heavy-rain warning has been issued.", at: "gp/35" },
+    book: { ja: "**{大雨警報|おおあめけいほう}**が出ています。", en: "A heavy rain warning has been issued.", at: "gp/35" },
     ex: [
       { ja: "{火災|かさい}**{警報|けいほう}**が{鳴|な}って、{全員|ぜんいん}が{外|そと}に{避難|ひなん}した。", en: "The fire alarm went off, and everyone evacuated outside.", alt: ["{情報|じょうほう}", "{予報|よほう}", "{警察|けいさつ}"] },
     ] },
@@ -514,7 +514,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "mystery; riddle; puzzle",
     note: "Something unexplained: 謎を解く (solve a mystery), 謎が深まる (the mystery deepens), 宇宙の謎, 謎の人物 (a mysterious person), 謎めいた (enigmatic).",
     rx: ["めい", "なぞう", "なそ"],
-    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be revealed.", at: "gp/35" },
+    book: { ja: "{科学技術|かがくぎじゅつ}の{進歩|しんぽ}とともに、{宇宙|うちゅう}の**{謎|なぞ}**が{明|あき}らかになっていくだろう。", en: "As science and technology advance, the mysteries of the universe will probably be unraveled, one after another.", at: "gp/35" },
     ex: [
       { ja: "{事件|じけん}の**{謎|なぞ}**を{解|と}いたのは、{一人|ひとり}の{高校生|こうこうせい}だった。", en: "The one who solved the mystery of the case was a high school student.", alt: ["{夢|ゆめ}", "{嘘|うそ}", "{罠|わな}"] },
     ] },
@@ -538,7 +538,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "payment (received); deposit (into an account)",
     note: "Money coming in: ご入金を確認する (confirm payment), 口座に入金する. The opposite is 出金 (withdrawal). 振り込み is the bank transfer itself.",
     rx: ["にゅうぎん", "いりきん", "にゅきん"],
-    book: { ja: "お客様からのご**{入金|にゅうきん}**が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。", en: "We will ship the goods as soon as we have confirmed the customer's payment.", at: "gp/36" },
+    book: { ja: "お客様からのご**{入金|にゅうきん}**が{確認|かくにん}（　）、{商品|しょうひん}を{発送|はっそう}いたします。", en: "We will ship your order as soon as we have confirmed your payment.", at: "gp/36" },
     ex: [
       { ja: "{給料|きゅうりょう}が{口座|こうざ}に**{入金|にゅうきん}**されているか{確認|かくにん}した。", en: "I checked whether my salary had been deposited into my account.", alt: ["{税金|ぜいきん}", "{借金|しゃっきん}", "{入学|にゅうがく}"] },
     ] },
@@ -546,7 +546,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "large; substantial; drastic (change or amount)",
     note: "Mostly 大幅に + verb or 大幅な + noun: 大幅に遅れる (be badly delayed), 大幅に増える, 大幅な値下げ. Note the reading おおはば (kun-reading), not だいはば.",
     rx: ["だいはば", "おおはぱ", "たいふく"],
-    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the long delay in our departure, which was due to a safety check of the emergency doors as this aircraft was preparing to leave.", at: "gp/36" },
+    book: { ja: "{当機|とうき}（　）、{非常|ひじょう}ドアの安全{確認|かくにん}のため、{出発時刻|しゅっぱつじこく}が**{大幅|おおはば}**に遅れましたことをおわび申し上げます。", en: "We apologize for the long delay to our departure, caused by a safety check of the emergency doors as this aircraft was about to depart.", at: "gp/36" },
     ex: [
       { ja: "{事故|じこ}の{影響|えいきょう}で、{電車|でんしゃ}のダイヤが**{大幅|おおはば}**に{乱|みだ}れている。", en: "Because of the accident, the train schedule is badly disrupted.", alt: ["{大量|たいりょう}", "{大声|おおごえ}", "{大型|おおがた}"] },
     ] },
@@ -554,7 +554,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "outflow; spill; leak (of oil, information, people, etc.)",
     note: "Something flowing or leaking out: 油の流出 (oil spill), 個人情報の流出 (data leak), 人口の流出 (population drain), 人材流出. The opposite is 流入 (inflow).",
     rx: ["りゅうしゅ", "るしゅつ", "りゅうじゅつ"],
-    book: { ja: "今回のタンカーの{事故|じこ}で**{流出|りゅうしゅつ}**した{油|あぶら}が{幅|はば}5メートル、長さ300メートル（　）広がり、{環境汚染|かんきょうおせん}が{心配|しんぱい}されています。", en: "The oil spilled in this tanker accident has spread over an area 5 meters wide and 300 meters long, and there are concerns about environmental pollution.", at: "ch/4/review" },
+    book: { ja: "今回のタンカーの{事故|じこ}で**{流出|りゅうしゅつ}**した{油|あぶら}が{幅|はば}5メートル、長さ300メートル（　）広がり、{環境汚染|かんきょうおせん}が{心配|しんぱい}されています。", en: "Oil spilled in the latest tanker accident has spread over an area 5 meters wide and 300 meters long, raising concerns about environmental pollution.", at: "ch/4/review" },
     ex: [
       { ja: "{会社|かいしゃ}のパソコンから{顧客|こきゃく}{情報|じょうほう}が**{流出|りゅうしゅつ}**した。", en: "Customer data leaked from a company computer.", alt: ["{提出|ていしゅつ}", "{流行|りゅうこう}", "{輸出|ゆしゅつ}"] },
     ] },
@@ -570,7 +570,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "extinction; dying out",
     note: "A species disappearing completely: 絶滅する, 絶滅の危機 (danger of extinction), 絶滅危惧種 (endangered species), 絶滅寸前. 全滅 is total destruction (of a group, crops, a team).",
     rx: ["ぜつめい", "ぜっめつ", "せつめつ"],
-    book: { ja: "**{絶滅|ぜつめつ}**する（　）{動植物|どうしょくぶつ}の{保護|ほご}に{関|かん}する{条約|じょうやく}が新しく作られたそうだ。", en: "I hear a new treaty has been made on the protection of animals and plants that are in danger of extinction.", at: "ch/4/review" },
+    book: { ja: "**{絶滅|ぜつめつ}**する（　）{動植物|どうしょくぶつ}の{保護|ほご}に{関|かん}する{条約|じょうやく}が新しく作られたそうだ。", en: "I hear a new treaty has been drawn up on protecting animals and plants at risk of extinction.", at: "ch/4/review" },
     ex: [
       { ja: "{恐竜|きょうりゅう}は{約|やく}6600{万年|まんねん}{前|まえ}に**{絶滅|ぜつめつ}**した。", en: "The dinosaurs died out about 66 million years ago.", alt: ["{絶望|ぜつぼう}", "{点滅|てんめつ}", "{絶交|ぜっこう}"] },
     ] },
@@ -578,7 +578,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "treaty; convention (between nations)",
     note: "A formal agreement between countries: 条約を結ぶ / 締結する (conclude a treaty), 平和条約, 国際条約. 契約 is a contract between parties; 協定 is an agreement.",
     rx: ["じょうやっく", "じょやく", "ちょうやく"],
-    book: { ja: "{絶滅|ぜつめつ}する（　）{動植物|どうしょくぶつ}の{保護|ほご}に{関|かん}する**{条約|じょうやく}**が新しく作られたそうだ。", en: "I hear a new treaty has been made on the protection of animals and plants that are in danger of extinction.", at: "ch/4/review" },
+    book: { ja: "{絶滅|ぜつめつ}する（　）{動植物|どうしょくぶつ}の{保護|ほご}に{関|かん}する**{条約|じょうやく}**が新しく作られたそうだ。", en: "I hear a new treaty has been drawn up on protecting animals and plants at risk of extinction.", at: "ch/4/review" },
     ex: [
       { ja: "{両国|りょうこく}は{長|なが}い{交渉|こうしょう}の{末|すえ}、{平和|へいわ}**{条約|じょうやく}**を{結|むす}んだ。", en: "After long negotiations, the two countries concluded a peace treaty.", alt: ["{予約|よやく}", "{節約|せつやく}", "{条件|じょうけん}"] },
     ] },
@@ -586,7 +586,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "sudden increase; surge; sharp rise",
     note: "急 (sudden) + 増 (increase): 観光客 / 利用者が急増する. The opposite is 急減. 激増 is a dramatic increase; 増加 is increase in general.",
     rx: ["きゅうそう", "きゅぞう", "きゅうぞ"],
-    book: { ja: "ブログに新しい写真をアップしたら、先週から今週（　）、ホームページのアクセス{数|すう}が**{急増|きゅうぞう}**して{驚|おどろ}いた。", en: "When I uploaded new photos to my blog, I was surprised that the number of visits to my website shot up from last week through this week.", at: "ch/4/review" },
+    book: { ja: "ブログに新しい写真をアップしたら、先週から今週（　）、ホームページのアクセス{数|すう}が**{急増|きゅうぞう}**して{驚|おどろ}いた。", en: "After I posted new photos on my blog, I was surprised to see the hits on my website shoot up between last week and this week.", at: "ch/4/review" },
     ex: [
       { ja: "{外国人|がいこくじん}{観光客|かんこうきゃく}が**{急増|きゅうぞう}**し、{町|まち}のホテルが{足|た}りなくなった。", en: "Foreign tourists increased sharply, and the town ran short of hotel rooms.", alt: ["{急停車|きゅうていしゃ}", "{急用|きゅうよう}", "{増税|ぞうぜい}"] },
     ] },
@@ -594,7 +594,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "receiving an order (for goods or work)",
     note: "Business word, from the supplier's side: 受注する, 受注が増える, 大型受注. The buyer's side is 発注 (placing an order). 注文 is the general word for an order.",
     rx: ["じゅちゅ", "うけちゅう", "じゅうちゅう"],
-    book: { ja: "{商品|しょうひん}の**{受注|じゅちゅう}**が増えたのはいいが、それ（　）{残業|ざんぎょう}が増えて、{従業員|じゅうぎょういん}から{不満|ふまん}が出ている。", en: "It's good that orders for our products have increased, but with that has come more overtime, and employees are complaining.", at: "ch/4/review" },
+    book: { ja: "{商品|しょうひん}の**{受注|じゅちゅう}**が増えたのはいいが、それ（　）{残業|ざんぎょう}が増えて、{従業員|じゅうぎょういん}から{不満|ふまん}が出ている。", en: "It's good that orders for our products are up, but along with that, overtime has increased, and employees are complaining.", at: "ch/4/review" },
     ex: [
       { ja: "わが{社|しゃ}は{海外|かいがい}の{大型|おおがた}{工事|こうじ}を**{受注|じゅちゅう}**した。", en: "Our company won a contract for a large construction project overseas.", alt: ["{注意|ちゅうい}", "{受験|じゅけん}", "{集中|しゅうちゅう}"] },
     ] },
@@ -618,7 +618,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "finances (of a government or organization); public finance",
     note: "The money matters of a state, city or organization: 国の財政, 財政難 (financial difficulty), 財政赤字 (budget deficit). A household's finances are 家計; 経済 is the economy.",
     rx: ["ざいせ", "さいせい", "ざいしょう"],
-    book: { ja: "、わが{国|くに}の**{財政|ざいせい}**も{苦|くる}しくなっています。", en: "…our country's finances are also becoming strained.", at: "ch/4/review" },
+    book: { ja: "、わが{国|くに}の**{財政|ざいせい}**も{苦|くる}しくなっています。", en: "…our country's finances are becoming strained as well.", at: "ch/4/review" },
     ex: [
       { ja: "{市|し}の**{財政|ざいせい}**が{苦|くる}しく、{新|あたら}しい{図書館|としょかん}の{建設|けんせつ}は{中止|ちゅうし}になった。", en: "The city's finances are tight, so construction of the new library was canceled.", alt: ["{政治|せいじ}", "{財産|ざいさん}", "{財布|さいふ}"] },
     ] },
@@ -642,7 +642,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "discussion; debate; argument (exchange of views)",
     note: "Exchanging opinions to reach a conclusion: 議論する, 議論を重ねる (hold repeated discussions), 議論になる, 活発な議論. 討論 is a formal debate; 口論 is a quarrel; 結論 is a conclusion.",
     rx: ["ぎろう", "ぎりん", "きろん"],
-    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]**{議論|ぎろん}**を{重|かさ}ねてまいりました。", en: "Here at our school, too, we have spent many years discussing the creation of a new faculty.", at: "ch/4/review" },
+    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]**{議論|ぎろん}**を{重|かさ}ねてまいりました。", en: "Here at our university, too, we have held discussions over many years on establishing a new faculty.", at: "ch/4/review" },
     ex: [
       { ja: "{会議|かいぎ}では、{新|あたら}しい{制度|せいど}について{活発|かっぱつ}な**{議論|ぎろん}**が{交|か}わされた。", en: "At the meeting there was a lively discussion about the new system.", alt: ["{理論|りろん}", "{結論|けつろん}", "{会議|かいぎ}"] },
     ] },
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "pile up; stack; repeat; accumulate",
     note: "Transitive (the intransitive is 重なる): 本を重ねる (stack books), 議論 / 努力 / 経験を重ねる (discuss / work / gain experience again and again), 年を重ねる (grow older).",
     rx: ["じゅうねる", "かさぬる", "かせねる"],
-    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を**{重|かさ}ね**てまいりました。", en: "Here at our school, too, we have spent many years discussing the creation of a new faculty.", at: "ch/4/review" },
+    book: { ja: "わが校でも新しい学部の{開設|かいせつ}のため、{長年|ながねん}[2]{議論|ぎろん}を**{重|かさ}ね**てまいりました。", en: "Here at our university, too, we have held discussions over many years on establishing a new faculty.", at: "ch/4/review" },
     ex: [
       { ja: "{何度|なんど}も{失敗|しっぱい}を**{重|かさ}ねて**、ようやく{成功|せいこう}した。", en: "After failing again and again, I finally succeeded.", alt: ["{重|おも}んじて", "{積|つ}もって", "{抱|だ}えて"] },
     ] },
@@ -658,7 +658,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "conviction; firm belief; confidence (that something is so)",
     note: "Being sure that something is true or will happen: 〜と確信する, 確信を持つ, 確信がある. 自信 is confidence in oneself; 確認 is checking or confirming.",
     rx: ["かくしんん", "かっしん", "かくじん"],
-    book: { ja: "その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと**{確信|かくしん}**しています。", en: "I am confident that you, who have entered as its very first class, will grow a great deal together with the newly founded Faculty of International Studies.", at: "ch/4/review" },
+    book: { ja: "その{第|だい}1{期生|きせい}[3]入学された皆さんは、新しく生まれた{国際|こくさい}学部[4]大きく{成長|せいちょう}していくと**{確信|かくしん}**しています。", en: "I am confident that you, who have entered as its very first class, will grow a great deal together with our newly founded Faculty of International Studies.", at: "ch/4/review" },
     ex: [
       { ja: "{彼|かれ}の{話|はなし}を{聞|き}いて、{彼|かれ}は{犯人|はんにん}ではないと**{確信|かくしん}**した。", en: "After hearing his story, I was convinced that he was not the culprit.", alt: ["{自信|じしん}", "{革新|かくしん}", "{確保|かくほ}"] },
     ] },
@@ -666,7 +666,7 @@ TRY.registerVocab({ ch: 4, words: [
     en: "regret; remorse",
     note: "Mostly in set phrases: 悔いのない〜 (with no regrets), 悔いが残る (leave regrets), 悔いはない. From 悔いる (to repent). 後悔 is the usual noun / する verb; 悔しい means frustrated or vexed.",
     rx: ["かい", "くやい", "ぐい"],
-    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "I hope you will all spend your student years with no regrets.", at: "ch/4/review" },
+    book: { ja: "皆さん、どうぞ**{悔|く}い**のない学生生活を送ってください。", en: "Please make your student years ones you will never regret.", at: "ch/4/review" },
     ex: [
       { ja: "{最後|さいご}まで{全力|ぜんりょく}を{尽|つ}くしたので、**{悔|く}い**はない。", en: "I gave it everything I had right to the end, so I have no regrets.", alt: ["{恐|おそ}れ", "{痛|いた}み", "{望|のぞ}み"] },
     ] },
