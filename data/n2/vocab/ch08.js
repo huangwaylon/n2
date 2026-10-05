@@ -65,7 +65,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{謙譲語|けんじょうご}", lv: "N2", pos: "noun",
     en: "humble language (forms that lower the speaker's side)",
-    note: "Keigo for your own or your side's actions toward the other person: 参る, 申す, いたす, 拝見する, お〜する. Using it for a customer's action (✗お客様が拝見する) is a classic mistake.",
+    note: "Keigo for your own or your side's actions: 拝見する and お〜する lower you before the person your action is directed at, and 参る, 申す, いたす show deference to the listener. Using it for a customer's action (✗お客様が拝見する) is a classic mistake.",
     rx: ["けんじょご", "けんしょうご", "げんじょうご"],
     book: { ja: "{特別|とくべつ}な{尊敬語|そんけいご}・**{謙譲語|けんじょうご}**（お{見|み}えになる・{承|うけたまわ}る など）", en: "Special honorific and humble words (お見えになる, 承る, etc.)", at: "gp/73" },
     ex: [
@@ -208,7 +208,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "あいにく", lv: "N2", pos: "adverb · な adjective",
     en: "unfortunately; I'm afraid (…)",
-    note: "Polite regret that something is inconvenient for the listener: あいにく田中は留守にしております, あいにくの雨 (unfortunate rain). It's softer and more formal than 残念ながら, and often used when declining.",
+    note: "Polite regret that something is inconvenient for the listener: あいにく田中は留守にしております, あいにくの雨 (unfortunate rain). It is the standard polite word when declining or giving unwelcome news; 残念ながら sounds more like the speaker's own disappointment.",
     book: { ja: "**あいにく**日曜日はちょっと…。", en: "Unfortunately, Sunday's a little difficult...", at: "ch/8/review" },
     ex: [
       { ja: "**あいにく**{部長|ぶちょう}は{出張中|しゅっちょうちゅう}でございます。", en: "I'm afraid the manager is away on a business trip.", alt: ["せっかく", "さっそく", "わざわざ"] },
@@ -271,7 +271,7 @@ TRY.registerVocab({ ch: 8, words: [
     ] },
   { w: "{不良品|ふりょうひん}", lv: "N1", pos: "noun",
     en: "defective product; faulty goods",
-    note: "不良 means poor quality or defective (不良品, 体調不良 “feeling unwell,” 接続不良) and also delinquent (不良少年). A product returned for being faulty is exchanged: 不良品を交換する.",
+    note: "不良 means poor quality or defective (不良品, 体調不良 “feeling unwell,” 接続不良) and also delinquent (不良少年). Faulty goods are usually exchanged or returned: 不良品を交換する / 返品する.",
     rx: ["ふりょうしな", "ぶりょうひん", "ふりょひん"],
     book: { ja: "{万一|まんいち}**{不良品|ふりょうひん}**などが[3]、お{手数|てすう}ですが、{当社|とうしゃ}までご{連絡|れんらく}くださいますようお願い[4]。", en: "… should any item by chance be defective, we apologize for the trouble and ask that you please contact our company.", at: "ch/8/review" },
     ex: [
@@ -290,7 +290,7 @@ TRY.registerVocab({ ch: 8, words: [
     note: "Only before a noun: とんだことをする (do something terrible), とんだ目に遭う (have an awful experience), とんだ災難 (a real disaster). Unlike とんでもない, it can't stand alone as a reply.",
     book: { ja: "いえ。せっかくご{招待|しょうたい}いただきましたのに、**とんだ**ことをいたしまして、本当に{申|もう}し{訳|わけ}ございませんでした。", en: "Not at all. You were kind enough to invite me, and then I did such a terrible thing. I'm truly sorry.", at: "ch/8/review" },
     ex: [
-      { ja: "{旅行中|りょこうちゅう}に{財布|さいふ}を{盗|ぬす}まれて、**とんだ**{目|め}に{遭|あ}った。", en: "My wallet was stolen during the trip. What an awful experience.", alt: ["ちょっとした", "たいした", "いわゆる"] },
+      { ja: "{旅行中|りょこうちゅう}に{財布|さいふ}を{盗|ぬす}まれて、**とんだ**{目|め}に{遭|あ}った。", en: "Having my wallet stolen during the trip was an awful experience.", alt: ["ちょっとした", "たいした", "いわゆる"] },
     ] },
   { w: "{花瓶|かびん}", lv: "N2", pos: "noun",
     en: "(flower) vase",
