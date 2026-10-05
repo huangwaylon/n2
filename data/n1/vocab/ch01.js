@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "home (of something); the place where something originated or is done authentically",
     note: "The place known for the genuine article: 本場のフランス料理, 本場で英語を学ぶ, 本場仕込み (learned at the source). It implies authenticity compared with imitations elsewhere. Don't confuse it with 本番 (the real performance, as opposed to a rehearsal).",
     rx: ["ほんじょう", "もとば", "ほんぱ"],
-    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "This being the world's foremost home of beer, it is no surprise that more than six million tourists come from countries all over the world every year.", at: "ch/1" },
+    book: { ja: "さすが世界一のビールの**{本場|ほんば}**とあって、毎年、{各国|かっこく}から六〇〇万人以上の観光客が{訪|おとず}れている。", en: "Munich being the world's foremost home of beer, it is no surprise that more than six million tourists from around the world visit every year.", at: "ch/1" },
     ex: [
       { ja: "イタリアで**{本場|ほんば}**のピザを{食|た}べてみたい。", en: "I'd like to try authentic pizza in Italy.", alt: ["{本番|ほんばん}", "{現場|げんば}", "{本部|ほんぶ}"] },
     ] },
@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to drift, float; (of a smell or mood) to hang in the air",
     note: "Literally drifting on water or in the air (波に漂う); very often figurative for smells and atmospheres: いい香りが漂う, 緊張感が漂う. 〜の漂う + noun (a place where ~ hangs in the air) is a set written pattern.",
     rx: ["たたよう", "ひょうう", "ひたよう"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の**{漂|ただよ}う**テントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, with its nostalgic atmosphere, dances, parades and horse races that only Bavaria can offer are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than usual.", at: "ch/1" },
     ex: [
       { ja: "{台所|だいどころ}からカレーのいい{香|かお}りが**{漂|ただよ}って**きた。", en: "A nice smell of curry drifted in from the kitchen.", alt: ["{迷|まよ}って", "{浮|う}かんで", "{揺|ゆ}れて"] },
     ] },
@@ -83,7 +83,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "day after day; every day (for a run of days)",
     note: "Common in news: 連日の猛暑 (heat day after day), 連日満員 (sold out every day). It refers to a stretch of consecutive days, while 毎日 is simply every day. The night version is 連夜.",
     rx: ["れんにち", "れいじつ", "れんび"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、**{連日|れんじつ}**バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が{見込|みこ}まれている。", en: "Inside the tent, with its nostalgic atmosphere, dances, parades and horse races that only Bavaria can offer are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than usual.", at: "ch/1" },
     ex: [
       { ja: "{猛暑|もうしょ}が{続|つづ}き、**{連日|れんじつ}**35{度|ど}を{超|こ}える{暑|あつ}さとなっている。", en: "The heat wave continues, with temperatures above 35 degrees day after day.", alt: ["{翌日|よくじつ}", "{祝日|しゅくじつ}", "{先日|せんじつ}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "attracting customers or visitors; drawing crowds",
     note: "A business and marketing word: 集客力 (pulling power), 集客数 (number of visitors), 集客イベント. In the sample 多くの集客 stands for the many visitors drawn in. 来客 is visitors arriving; 集客 is the act of drawing them.",
     rx: ["しゅきゃく", "しゅうかく", "じゅうきゃく"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの**{集客|しゅうきゃく}**が{見込|みこ}まれている。", en: "Inside the tent, with its nostalgic atmosphere, dances, parades and horse races that only Bavaria can offer are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than usual.", at: "ch/1" },
     ex: [
       { ja: "SNSを{活用|かつよう}して**{集客|しゅうきゃく}**に{成功|せいこう}した{店|みせ}も{多|おお}い。", en: "Many shops have succeeded in attracting customers by making use of social media.", alt: ["{乗客|じょうきゃく}", "{集会|しゅうかい}", "{観客|かんきゃく}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to expect, anticipate; to count on (someone's ability); to allow for",
     note: "Forecasting a result: 増収が見込まれる (an increase in revenue is expected); the noun is 見込み (prospect, estimate). It can also mean trusting someone's ability: 君を見込んで頼む (I'm asking you because I believe in you). The passive 見込まれる is typical of news.",
     rx: ["みごむ", "けんこむ", "みくむ"],
-    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "Inside the tent, which has a nostalgic air, dances, parades and horse races found only in Bavaria are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than in past years.", at: "ch/1" },
+    book: { ja: "ノスタルジックな{雰囲気|ふんいき}の{漂|ただよ}うテントの中では、{連日|れんじつ}バイエルン地方ならではのダンスやパレード、{競馬|けいば}がそれぞれ一日二回ずつ{開催|かいさい}される予定になっており、{例年|れいねん}にもまして、多くの{集客|しゅうきゃく}が**{見込|みこ}まれて**いる。", en: "Inside the tent, with its nostalgic atmosphere, dances, parades and horse races that only Bavaria can offer are each scheduled twice a day, every day, and the festival is expected to draw even bigger crowds than usual.", at: "ch/1" },
     ex: [
       { ja: "{来年度|らいねんど}は{売上|うりあげ}が1{割|わり}ほど{増|ふ}えると**{見込|みこ}まれて**いる。", en: "Sales are expected to rise by about 10 percent next fiscal year.", alt: ["{見逃|みのが}されて", "{見送|みおく}られて", "{見直|みなお}されて"] },
     ] },
@@ -185,7 +185,7 @@ TRY.registerVocab({ ch: 1, words: [
   { w: "にぎわう", lv: "N2", pos: "verb (godan, intransitive)",
     en: "to be crowded and lively; to bustle; to thrive",
     note: "A place full of people and activity; the crowd takes で: 観光客でにぎわう. The noun is にぎわい. The kanji 賑わう is rarely required. Compare ごった返す, which adds a sense of chaotic crush.",
-    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "Today being the first Sunday of summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
+    book: { ja: "今日は夏休み最初の日曜とあって、全国の海水浴場は多くの人で**にぎわった**。", en: "Since today was the first Sunday of summer vacation, beaches all over the country were packed with people.", at: "gp/2" },
     ex: [
       { ja: "{週末|しゅうまつ}の{商店街|しょうてんがい}は{買|か}い{物|もの}{客|きゃく}で**にぎわって**いた。", en: "On the weekend the shopping street was bustling with shoppers.", alt: ["にぎって", "ふるって", "なごんで"] },
     ] },
@@ -225,7 +225,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "intention to resign",
     note: "A news word: 辞意を表明する / 固める / 漏らす (announce / settle on / hint at one's resignation). 辞任 is the resignation itself.",
     rx: ["じいい", "しい", "じぎ"],
-    book: { ja: "突然、首相が**{辞意|じい}**を{表明|ひょうめい}したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, the media all started covering the story at once.", at: "gp/2" },
+    book: { ja: "突然、首相が**{辞意|じい}**を{表明|ひょうめい}したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, news outlets all rushed to cover the story at once.", at: "gp/2" },
     ex: [
       { ja: "{監督|かんとく}は{成績|せいせき}{不振|ふしん}の{責任|せきにん}を{取|と}って**{辞意|じい}**を{固|かた}めた。", en: "Taking responsibility for the poor results, the manager decided to resign.", alt: ["{辞書|じしょ}", "{同意|どうい}", "{誠意|せいい}"] },
     ] },
@@ -233,7 +233,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "(public) declaration; statement (of an intention or position)",
     note: "Making one's position known officially: 支持を表明する, 立候補を表明する, 反対の意思を表明. 表現 is expressing something in words or art; 表明 is declaring a stance.",
     rx: ["ひょうみょう", "ひょめい", "おもてめい"],
-    book: { ja: "突然、首相が{辞意|じい}を**{表明|ひょうめい}**したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, the media all started covering the story at once.", at: "gp/2" },
+    book: { ja: "突然、首相が{辞意|じい}を**{表明|ひょうめい}**したとあって、（　）。", en: "Because the prime minister had suddenly announced plans to resign, news outlets all rushed to cover the story at once.", at: "gp/2" },
     ex: [
       { ja: "{市長|しちょう}は{次|つぎ}の{選挙|せんきょ}に{立候補|りっこうほ}すると**{表明|ひょうめい}**した。", en: "The mayor announced plans to run in the next election.", alt: ["{表現|ひょうげん}", "{証明|しょうめい}", "{発明|はつめい}"] },
     ] },
@@ -241,7 +241,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "all at once; simultaneously; in unison",
     note: "A whole group doing the same thing at the same moment: 一斉に立ち上がる, 一斉に拍手する, 全国一斉 (nationwide, all at once). 同時に can describe just two things happening together; 一斉に implies many.",
     rx: ["いちせいに", "いっさいに", "いっせきに"],
-    book: { ja: "マスコミは**{一斉|いっせい}に**{取材|しゅざい}を開始した", en: "the media all started covering the story at once", at: "gp/2" },
+    book: { ja: "マスコミは**{一斉|いっせい}に**{取材|しゅざい}を開始した", en: "news outlets all rushed to cover the story at once", at: "gp/2" },
     ex: [
       { ja: "ベルが{鳴|な}ると、{生徒|せいと}たちは**{一斉|いっせい}に**{教室|きょうしつ}を{飛|と}び{出|だ}した。", en: "When the bell rang, the students all rushed out of the classroom at once.", alt: ["{一概|いちがい}に", "{一層|いっそう}", "{一向|いっこう}に"] },
     ] },
@@ -249,7 +249,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "news gathering; reporting; research (for a story or book)",
     note: "What journalists and writers do to collect material: 取材を受ける (be interviewed by the press), 現地取材, 取材に応じる (agree to an interview). Broader than インタビュー: it includes visiting places and investigating.",
     rx: ["しゅうざい", "とりざい", "しゅさい"],
-    book: { ja: "マスコミは{一斉|いっせい}に**{取材|しゅざい}**を開始した", en: "the media all started covering the story at once", at: "gp/2" },
+    book: { ja: "マスコミは{一斉|いっせい}に**{取材|しゅざい}**を開始した", en: "news outlets all rushed to cover the story at once", at: "gp/2" },
     ex: [
       { ja: "{記者|きしゃ}たちは{事故|じこ}の{現場|げんば}で**{取材|しゅざい}**を{続|つづ}けている。", en: "Reporters are still covering the story at the scene of the accident.", alt: ["{材料|ざいりょう}", "{取引|とりひき}", "{素材|そざい}"] },
     ] },
@@ -408,7 +408,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "our company; this company (said by the company itself)",
     note: "Used in formal statements, notices and business documents: 当社の製品, 当社では〜. When speaking to a client, the humble 弊社 is preferred; the client's company is 御社 (spoken) or 貴社 (written).",
     rx: ["とうじゃ", "あたりしゃ", "とうしょ"],
-    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers you ideas for a richer life.", at: "gp/5" },
+    book: { ja: "**当社**は、{電源|でんげん}プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "From power plugs all the way to robots for space development, our company offers a wide variety of products to help you live a richer life.", at: "gp/5" },
     ex: [
       { ja: "**{当社|とうしゃ}**の{製品|せいひん}は{全|すべ}て{国内|こくない}で{製造|せいぞう}しております。", en: "All of our company's products are manufactured in Japan.", alt: ["{当日|とうじつ}", "{神社|じんじゃ}", "{当番|とうばん}"] },
     ] },
@@ -416,7 +416,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "power supply; power source; (a device's) power",
     note: "電源を入れる / 切る (turn on / off), 電源コード, 電源プラグ, 電源が入らない (won't turn on). It can also mean a source of electric power, as in 電源開発 (power development).",
     rx: ["でんけん", "てんげん", "でんがん"],
-    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "With a wide variety of products, from power plugs all the way to robots for space development, our company offers you ideas for a richer life.", at: "gp/5" },
+    book: { ja: "当社は、**{電源|でんげん}**プラグから宇宙開発用ロボットに{至|いた}るまで、（　）製品で、皆様に豊かな暮らしをご{提案|ていあん}しております。", en: "From power plugs all the way to robots for space development, our company offers a wide variety of products to help you live a richer life.", at: "gp/5" },
     ex: [
       { ja: "{映画館|えいがかん}では{携帯|けいたい}{電話|でんわ}の**{電源|でんげん}**をお{切|き}りください。", en: "Please turn off your cell phone in the movie theater.", alt: ["{電池|でんち}", "{電波|でんぱ}", "{電球|でんきゅう}"] },
     ] },
@@ -480,7 +480,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "dim; gloomy; dusky",
     note: "Not completely dark but lacking light: 薄暗い部屋 / 路地, 夕方の薄暗い時間. 薄 (thin, light) also appears in 薄味 and 薄着; note the voiced ぐらい.",
     rx: ["はくぐらい", "うすくらい", "うすあんい"],
-    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "Right from the lobby, this hotel is dim and smells musty.", at: "gp/6" },
+    book: { ja: "このホテルはロビー（　）**{薄暗|うすぐら}くて**かび{臭|くさ}い。", en: "Even the lobby of this hotel is dim and smells musty.", at: "gp/6" },
     ex: [
       { ja: "**{薄暗|うすぐら}い**{部屋|へや}で{本|ほん}を{読|よ}むと{目|め}が{疲|つか}れる。", en: "Reading in a dim room strains your eyes.", alt: ["{薄|うす}っぺらい", "{心細|こころぼそ}い", "{腹黒|はらぐろ}い"] },
     ] },
@@ -527,7 +527,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "gorgeous; showy; glamorous; brilliant",
     note: "Bright, colorful and eye-catching, of clothes, events, decorations or careers: 華やかな衣装, 華やかな芸能界. Unlike 派手 (flashy, often a criticism), 華やか is usually a compliment.",
     rx: ["かやか", "はなばやか", "けやか"],
-    book: { ja: "{成人式|せいじんしき}＿＿**{華|はな}やか**な{振袖姿|ふりそですがた}の女性が多く目につく。", en: "Because it is the day of the coming-of-age ceremonies, you see lots of women in gorgeous long-sleeved furisode kimono.", at: "ch/1" },
+    book: { ja: "{成人式|せいじんしき}＿＿**{華|はな}やか**な{振袖姿|ふりそですがた}の女性が多く目につく。", en: "Because the coming-of-age ceremonies are today, you see lots of women in gorgeous long-sleeved furisode kimono.", at: "ch/1" },
     ex: [
       { ja: "{結婚式|けっこんしき}の{会場|かいじょう}は{花|はな}で**{華|はな}やか**に{飾|かざ}られていた。", en: "The wedding venue was gorgeously decorated with flowers.", alt: ["{穏|おだ}やか", "{和|なご}やか", "{速|すみ}やか"] },
     ] },
@@ -535,7 +535,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "furisode (a formal kimono with long, flowing sleeves, worn by young unmarried women)",
     note: "Worn above all at coming-of-age ceremonies (成人式) and at weddings; 振袖姿 = dressed in a furisode. The formal kimono for married women, with short sleeves, is 留袖.",
     rx: ["ふりそて", "しんそで", "ふるそで"],
-    book: { ja: "{成人式|せいじんしき}＿＿{華|はな}やかな**{振袖姿|ふりそですがた}**の女性が多く目につく。", en: "Because it is the day of the coming-of-age ceremonies, you see lots of women in gorgeous long-sleeved furisode kimono.", at: "ch/1" },
+    book: { ja: "{成人式|せいじんしき}＿＿{華|はな}やかな**{振袖姿|ふりそですがた}**の女性が多く目につく。", en: "Because the coming-of-age ceremonies are today, you see lots of women in gorgeous long-sleeved furisode kimono.", at: "ch/1" },
     ex: [
       { ja: "{成人式|せいじんしき}には{母|はは}が{昔|むかし}{着|き}た**{振袖|ふりそで}**で{出席|しゅっせき}した。", en: "I went to my coming-of-age ceremony in the furisode my mother once wore.", alt: ["{半袖|はんそで}", "{袖口|そでぐち}", "{振動|しんどう}"] },
     ] },
@@ -567,7 +567,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "full bloom",
     note: "桜が満開だ, 満開の桜. The stages are 開花 (first blossoms opening), 満開, then 散る (falling). Used mostly for cherry blossoms and other flowering trees.",
     rx: ["まんがい", "まいかい", "みちかい"],
-    book: { ja: "**{満開|まんかい}**の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。", en: "The bustling crowds of cherry-blossom viewers under the trees in full bloom could well be called a scene unique to spring in Japan.", at: "ch/1/review" },
+    book: { ja: "**{満開|まんかい}**の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の光景と言えよう。", en: "The lively crowds of blossom viewers under cherry trees in full bloom are, one could say, a scene found only in a Japanese spring.", at: "ch/1/review" },
     ex: [
       { ja: "{公園|こうえん}の{桜|さくら}が**{満開|まんかい}**になり、{花見|はなみ}{客|きゃく}でいっぱいだ。", en: "The cherry trees in the park are in full bloom, and it's packed with blossom viewers.", alt: ["{満員|まんいん}", "{満点|まんてん}", "{満期|まんき}"] },
     ] },
@@ -575,7 +575,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "scene; sight; spectacle",
     note: "A scene actually unfolding before one's eyes: 美しい光景, 信じられない光景, よく見る光景. 風景 and 景色 are scenery or landscape; 光景 focuses on a situation involving people or events.",
     rx: ["こうきょう", "ひかりけい", "こけい"],
-    book: { ja: "{満開|まんかい}の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の**光景**と言えよう。", en: "The bustling crowds of cherry-blossom viewers under the trees in full bloom could well be called a scene unique to spring in Japan.", at: "ch/1/review" },
+    book: { ja: "{満開|まんかい}の{桜|さくら}の下、花見客のにぎわいは、日本の春（　）の**光景**と言えよう。", en: "The lively crowds of blossom viewers under cherry trees in full bloom are, one could say, a scene found only in a Japanese spring.", at: "ch/1/review" },
     ex: [
       { ja: "{朝|あさ}の{駅|えき}で{大勢|おおぜい}の{人|ひと}が{走|はし}る**{光景|こうけい}**は、{外国人|がいこくじん}には{珍|めずら}しいらしい。", en: "The sight of crowds rushing through the station in the morning is apparently unusual for visitors from abroad.", alt: ["{背景|はいけい}", "{景気|けいき}", "{光線|こうせん}"] },
     ] },
@@ -655,7 +655,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "major power; great nation; (a) superpower (in some field)",
     note: "A country that is large or powerful in some respect: 経済大国, 軍事大国, 観光大国, and in the passage ゲーム大国. Read たいこく, not だいこく.",
     rx: ["たいごく", "おおこく", "だいごく"],
-    book: { ja: "ゲーム**{大国|たいこく}**日本[4]のこのイベントは、会場の設備やサービスにも{趣向|しゅこう}が{凝|こ}らされていて、{飽|あ}きることがない。", en: "This event, one that only Japan, the gaming superpower, could put on, is full of creative touches even in the venue's facilities and services, so there is never a dull moment.", at: "ch/1/review" },
+    book: { ja: "ゲーム**{大国|たいこく}**日本[4]のこのイベントは、会場の設備やサービスにも{趣向|しゅこう}が{凝|こ}らされていて、{飽|あ}きることがない。", en: "Only Japan, the gaming superpower, could put on an event like this: even the venue's facilities and services are full of creative touches, so there is never a dull moment.", at: "ch/1/review" },
     ex: [
       { ja: "{中国|ちゅうごく}は{世界|せかい}{有数|ゆうすう}の{経済|けいざい}**{大国|たいこく}**になった。", en: "China has become one of the world's leading economic powers.", alt: ["{大陸|たいりく}", "{大衆|たいしゅう}", "{大会|たいかい}"] },
     ] },
@@ -663,7 +663,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to put ingenuity into (something); to add creative touches",
     note: "Designing something with original, entertaining ideas to please people: 趣向を凝らした料理 / 演出 / 展示. The passage uses the passive 趣向が凝らされている. 趣向 alone is a plan or idea for entertainment; don't confuse it with 趣味 (hobby) or 傾向 (tendency).",
     rx: ["しゅうこうをこらす", "しゅこうをぎょらす", "しゅむきをこらす"],
-    book: { ja: "ゲーム{大国|たいこく}日本[4]のこのイベントは、会場の設備やサービスにも**{趣向|しゅこう}が{凝|こ}らされて**いて、{飽|あ}きることがない。", en: "This event, one that only Japan, the gaming superpower, could put on, is full of creative touches even in the venue's facilities and services, so there is never a dull moment.", at: "ch/1/review" },
+    book: { ja: "ゲーム{大国|たいこく}日本[4]のこのイベントは、会場の設備やサービスにも**{趣向|しゅこう}が{凝|こ}らされて**いて、{飽|あ}きることがない。", en: "Only Japan, the gaming superpower, could put on an event like this: even the venue's facilities and services are full of creative touches, so there is never a dull moment.", at: "ch/1/review" },
     ex: [
       { ja: "{料理長|りょうりちょう}が**{趣向|しゅこう}を{凝|こ}らした**{料理|りょうり}で{客|きゃく}をもてなした。", en: "The head chef treated the guests to imaginatively prepared dishes.", alt: ["{息|いき}を{凝|こ}らした", "{目|め}を{凝|こ}らした", "{首|くび}を{傾|かし}げた"] },
     ] },
