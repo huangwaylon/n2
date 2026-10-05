@@ -53,7 +53,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "damage; loss (usually financial)",
     note: "Loss of money or property: 損害を与える / 受ける, 損害を出す, 損害賠償 (compensation for damages). 被害 is harm suffered by victims of a disaster or crime (被害者); 損害 focuses on the monetary loss.",
     rx: ["そんかい", "そうがい", "ぞんがい"],
-    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but I'd failed on a project and caused heavy losses, and that was why.", at: "ch/13" },
+    book: { ja: "自分では{精一杯|せいいっぱい}がんばったつもりだったが、プロジェクトに{失敗|しっぱい}し、大きな**{損害|そんがい}**を出したのが{原因|げんいん}だ。", en: "I believed I'd given it everything I had, but I'd botched a project and caused heavy losses, and that was why.", at: "ch/13" },
     ex: [
       { ja: "{大雨|おおあめ}で{工場|こうじょう}が{止|と}まり、{会社|かいしゃ}は{数億円|すうおくえん}の**{損害|そんがい}**を{受|う}けた。", en: "Heavy rain shut down the factory, and the company suffered losses of several hundred million yen.", alt: ["{損得|そんとく}", "{利害|りがい}", "{妨害|ぼうがい}"] },
     ] },
@@ -209,7 +209,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "dozing off; nodding off (while sitting)",
     note: "Falling asleep where you shouldn't, such as in class, at a meeting or on the train: 授業中に居眠りする, 居眠り運転 (falling asleep at the wheel). 昼寝 is a deliberate nap; 寝坊 is oversleeping.",
     rx: ["きょねむり", "いみん", "いねぶり"],
-    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "Our department head nodded off during the meeting. I agonized over whether or not to wake them, and in the end I didn't. What should I have done?", at: "gp/123" },
+    book: { ja: "会議中に**{居眠|いねむ}り**した部長を起こそうか起こすまいか{悩|なや}んで、{結局|けっきょく}起こさなかったんですが、どうすればよかったんでしょうか。", en: "Our department head nodded off during the meeting. I couldn't decide whether or not to wake them, and in the end I didn't. What should I have done?", at: "gp/123" },
     ex: [
       { ja: "{授業中|じゅぎょうちゅう}に**{居眠|いねむ}り**をして、{先生|せんせい}に{注意|ちゅうい}された。", en: "I dozed off in class and got scolded by the teacher.", alt: ["{寝袋|ねぶくろ}", "{居留守|いるす}", "{寝相|ねぞう}"] },
     ] },
@@ -257,7 +257,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "violence; force",
     note: "暴力を振るう (use violence, be violent) is the fixed verb. Compounds: 家庭内暴力 (domestic violence), 暴力団 (organized crime group), 言葉の暴力 (verbal abuse). 暴 also appears in 暴れる (go wild) and 乱暴 (rough).",
     rx: ["ぼうりき", "ぼりょく", "ばくりょく"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are beyond forgiving.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に**{暴力|ぼうりょく}**を{振|ふ}るうなんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are unforgivable.", at: "ch/13" },
     ex: [
       { ja: "どんな{理由|りゆう}があっても、**{暴力|ぼうりょく}**は{許|ゆる}されない。", en: "Whatever the reason, violence is not acceptable.", alt: ["{暴風|ぼうふう}", "{能力|のうりょく}", "{努力|どりょく}"] },
     ] },
@@ -265,7 +265,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to use (violence, power); to wield; to exercise (a skill)",
     note: "Fixed pairs: 暴力を振るう (be violent), 腕を振るう (show one's skill, e.g. cooking), 権力を振るう (wield power), 猛威を振るう (rage, of a disease or storm). 振る is to wave or shake; don't say 暴力を振る.",
     rx: ["ふくう", "ぶるう", "しんるう"],
-    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are beyond forgiving.", at: "ch/13" },
+    book: { ja: "たとえどんな{事情|じじょう}があっても、男2人で女性に{暴力|ぼうりょく}を**{振|ふ}るう**なんて{許|ゆる}しがたい{奴|やつ}らだ。", en: "Whatever their reasons might be, two men roughing up a woman — guys like that are unforgivable.", at: "ch/13" },
     ex: [
       { ja: "{男|おとこ}は{妻|つま}に{暴力|ぼうりょく}を**{振|ふ}るった**として{逮捕|たいほ}された。", en: "The man was arrested for being violent toward his wife.", alt: ["{振|ふ}った", "{触|ふ}れた", "{震|ふる}えた"] },
       { ja: "{今日|きょう}は{父|ちち}が{料理|りょうり}の{腕|うで}を**{振|ふ}るって**くれた。", en: "Today my father showed off his cooking skills for us." },
@@ -386,7 +386,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "drugs (illegal or performance-enhancing); chemical substances",
     note: "A formal word used in news, law and sports: 薬物乱用 (drug abuse), 薬物検査 (drug test), 薬物依存. In daily talk, illegal drugs are also called 麻薬 or ドラッグ. 薬 (くすり) is ordinary medicine.",
     rx: ["やくもつ", "くすりもの", "やくぶち"],
-    book: { ja: "いい{記録|きろく}を出すために**{薬物|やくぶつ}**を使用するのは、フェアプレイの{精神|せいしん}に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to set a good record is an unforgivable act that goes against the spirit of fair play.", at: "gp/126" },
+    book: { ja: "いい{記録|きろく}を出すために**{薬物|やくぶつ}**を使用するのは、フェアプレイの{精神|せいしん}に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to achieve better results is an unforgivable act that goes against the spirit of fair play.", at: "gp/126" },
     ex: [
       { ja: "その{選手|せんしゅ}は**{薬物|やくぶつ}**{検査|けんさ}で{陽性|ようせい}となり、{出場停止|しゅつじょうていし}になった。", en: "That athlete tested positive in a drug test and was suspended.", alt: ["{薬局|やっきょく}", "{荷物|にもつ}", "{名物|めいぶつ}"] },
     ] },
@@ -394,7 +394,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "mind; spirit; mentality",
     note: "The mind as opposed to the body (精神的に疲れる mentally tired, 精神力 mental strength) and the spirit behind something (フェアプレイの精神, 挑戦する精神). 心 is the everyday word for heart and mind.",
     rx: ["せいじん", "しょうしん", "せいかみ"],
-    book: { ja: "いい{記録|きろく}を出すために{薬物|やくぶつ}を使用するのは、フェアプレイの**{精神|せいしん}**に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to set a good record is an unforgivable act that goes against the spirit of fair play.", at: "gp/126" },
+    book: { ja: "いい{記録|きろく}を出すために{薬物|やくぶつ}を使用するのは、フェアプレイの**{精神|せいしん}**に{反|はん}する{許|ゆる}しがたい{行為|こうい}だ。", en: "Using drugs to achieve better results is an unforgivable act that goes against the spirit of fair play.", at: "gp/126" },
     ex: [
       { ja: "{地域|ちいき}の{人|ひと}たちの{助|たす}け{合|あ}いの**{精神|せいしん}**を{大切|たいせつ}にしたい。", en: "I want to cherish the spirit of mutual help among the people in our community.", alt: ["{神経|しんけい}", "{精算|せいさん}", "{成人|せいじん}"] },
     ] },
@@ -418,7 +418,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "appetite",
     note: "食欲がある / ない, 食欲が出る / 落ちる, 食欲の秋 (autumn, the season of good appetite). 欲 means desire, as in 意欲 (motivation) and 欲しい.",
     rx: ["しょくよう", "しょっよく", "たべよく"],
-    book: { ja: "弟の病気を{心配|しんぱい}するあまり母は**{食欲|しょくよく}**がなくなり、すっかりやせてしまった。", en: "My mother worried so much about my younger brother's illness that she lost her appetite and lost a lot of weight.", at: "gp/128" },
+    book: { ja: "弟の病気を{心配|しんぱい}するあまり母は**{食欲|しょくよく}**がなくなり、すっかりやせてしまった。", en: "My mother worried so much about my younger brother's illness that she lost her appetite and got terribly thin.", at: "gp/128" },
     ex: [
       { ja: "{暑|あつ}さのせいで、{最近|さいきん}あまり**{食欲|しょくよく}**がない。", en: "Because of the heat, I haven't had much of an appetite lately.", alt: ["{食器|しょっき}", "{食料|しょくりょう}", "{食品|しょくひん}"] },
     ] },
@@ -513,7 +513,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "to inherit; to take over; to carry on (a tradition, business)",
     note: "Receiving something from the previous generation and continuing it: 店を受け継ぐ, 伝統を受け継ぐ, 父の才能を受け継ぐ. 引き継ぐ is taking over a job or task from a predecessor (仕事を引き継ぐ). 相続 is legal inheritance of property.",
     rx: ["うけけい", "じゅけい", "うけづぐ"],
-    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "From now on, I plan to build this shop, which my father inherited from my grandfather and held on to through thick and thin, into something even bigger.", at: "gp/131" },
+    book: { ja: "父が{祖父|そふ}から**{受|う}け{継|つ}ぎ**、{守|まも}りぬいたこの店を、これからはぼくがもっと大きく育てていくつもりだ。", en: "My father inherited this shop from my grandfather and held on to it through thick and thin; from now on, I intend to make it grow even bigger.", at: "gp/131" },
     ex: [
       { ja: "{祖母|そぼ}から**{受|う}け{継|つ}いだ**{着物|きもの}を{大切|たいせつ}にしている。", en: "I treasure the kimono I inherited from my grandmother.", alt: ["{泳|およ}いだ", "{急|いそ}いだ", "{防|ふせ}いだ"] },
     ] },
@@ -521,7 +521,7 @@ TRY.registerVocab({ ch: 13, words: [
     en: "bud; sprout; shoot",
     note: "芽が出る / 芽を出す (sprout), 新芽 (new shoots). Figuratively 才能の芽 (budding talent) and 芽が出る 'finally start to succeed' (なかなか芽が出ない). 芽を摘む means to nip something in the bud.",
     rx: ["みょう", "ね", "は"],
-    book: { ja: "{北国|きたぐに}の長い冬を{耐|た}えぬいた{植物|しょくぶつ}が**{芽|め}**を出すと、春の{訪|おとず}れを感じる。", en: "When plants that have endured the long northern winter send out buds, I feel that spring has come.", at: "gp/131" },
+    book: { ja: "{北国|きたぐに}の長い冬を{耐|た}えぬいた{植物|しょくぶつ}が**{芽|め}**を出すと、春の{訪|おとず}れを感じる。", en: "When plants that have made it through the long northern winter start to bud, you can feel that spring is on its way.", at: "gp/131" },
     ex: [
       { ja: "{種|たね}をまいて{一週間|いっしゅうかん}で、{小|ちい}さな**{芽|め}**が{出|で}てきた。", en: "A week after I sowed the seeds, little sprouts came up.", alt: ["{実|み}", "{枝|えだ}", "{穂|ほ}"] },
     ] },
