@@ -447,7 +447,7 @@ TRY.registerChapter({
           { sp: "{阿部|あべ}", v: "m", ja: "「ほんとに……。」", en: "\"Yes, really…\"" },
           { sp: "社長", v: "m", ja: "「マスコミの{連中|れんちゅう}も、ただ{面白|おもしろ}がってるだけだ。{我々|われわれ}が一歩でも外に出**ようものなら**、何十人と{群|む}がってくる。{人件費|じんけんひ}を{抑|おさ}えるつもりで君の意見を入れて思い切って導入したが、{裏目|うらめ}に出てしまったな。」", en: "\"That media crowd is just having fun with it. If we so much as set foot outside, dozens of them swarm around us. I took your advice and went ahead and brought it in to keep labor costs down, but it's backfired on us, hasn't it?\"" },
           { sp: "{阿部|あべ}", v: "m", ja: "「はあ、{申|もう}し{訳|わけ}ありません。」", en: "\"Yes, I'm terribly sorry.\"" },
-          { sp: "社長", v: "m", ja: "「いっそのこと公表するか。あの{居眠|いねむ}りガードマンが、実は……。」", en: "\"Maybe we should just go public with it. That the dozing guard is actually…\"" },
+          { sp: "社長", v: "m", ja: "「いっそのこと公表するか。あの{居眠|いねむ}りガードマンが、実は……。」", en: "\"Maybe we should just go public with it. Tell them that dozing guard is actually…\"" },
           { ja: "ガードマンのほうに{視線|しせん}を移す社長。{阿部|あべ}の{顔色|かおいろ}が変わる。", en: "The president's gaze shifts toward the guard. Abe's expression changes." },
           { sp: "{阿部|あべ}", v: "m", ja: "「いや、いや、それだけは、絶対に、絶対に、ダメです。ここで、{真実|しんじつ}を{明|あ}かせば、さらに信用をなくします。他の社員の{手前|てまえ}、{解雇|かいこ}という{名目|めいもく}で{廃棄処分|はいきしょぶん}にするべきです！」", en: "\"No, no, not that — absolutely, absolutely not. If we reveal the truth now, we'll lose even more trust. For appearances' sake with the other employees, we should scrap it and call it a dismissal!\"" },
           { sp: "社長", v: "m", ja: "「だが、あれの開発には一千万かかっている。一般の人間**ならいざしらず**、警察の取り調べにも{正体|しょうたい}がバレなかったのなら、まだ使い道はある。何とか{廃棄|はいき}せずに働かせられ**ないものか**……。」", en: "\"But that thing cost ten million yen to develop. Fooling ordinary people is one thing, but if even the police couldn't tell what it really is when they questioned it, it still has its uses. Isn't there some way we could keep it working instead of scrapping it…\"" },
@@ -515,7 +515,7 @@ TRY.registerChapter({
               usage: { ja: "「〜ば〜で」も同じように使われる。", en: "\"〜ば〜で\" is also used in the same way." },
               examples: [
                 { ja: "A：お宅は広い庭があってうらやましいですね。\nB：いえ。庭があればあったで、手入れに時間もお金もかかるので……。", en: "A: I envy you having such a big garden.\nB: Oh, no. If you have a garden, then that has its own problems — looking after it takes both time and money, so…" },
-                { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Some people say that if you don't have a wedding, you don't, and that's perfectly fine too." },
+                { ja: "結婚式なんて、しなければしないで別に構わないという人もいる。", en: "Weddings? Some people say that if you don't have one, you don't, and it really doesn't matter." },
                 { ja: "小さければ小さいで不便だし、大きければ大きいで{邪魔|じゃま}になる。", en: "If it's small, it's inconvenient; if it's big, it gets in the way." },
               ],
             },
@@ -535,7 +535,7 @@ TRY.registerChapter({
           examples: [
             { ja: "言い{訳|わけ}ばかりしている政治家の話は聞くにたえない。", en: "Politicians who do nothing but make excuses are unbearable to listen to." },
             { ja: "この小説は内容も{低俗|ていぞく}で、表現も{稚拙|ちせつ}で、読むにたえない。", en: "This novel is vulgar in content and clumsy in expression; it's painful to read." },
-            { ja: "人目も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that the sight of women putting on makeup on the train, not caring who's watching, is unbearable to look at." },
+            { ja: "人目も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that she can't bear the sight of women putting on makeup on the train without caring who's watching." },
             { ja: "{強行採決|きょうこうさいけつ}をめぐる国会での{乱闘騒|らんとうさわ}ぎは、全く{正視|せいし}にたえない。", en: "The brawl in the Diet over the forced vote is simply too disgraceful to look at." },
           ],
           xref: "☞ 69. 感謝の{念|ねん}**にたえません**",
@@ -585,7 +585,7 @@ TRY.registerChapter({
           usage: { ja: "「〜ならいざしらず」は「〜ならそうかもしれないが、〜ではないので」という気持ちを表す。", en: "\"〜ならいざしらず\" expresses the feeling \"if it were 〜, that might be so, but since it isn't 〜…\"." },
           forms: ["[Pl] + ならいざしらず\n［[なA~~だ~~]　[N~~だ~~]］"],
           examples: [
-            { ja: "{加藤|かとう}さんのように英語が上手ならいざしらず、{僕|ぼく}に会議の{通訳|つうやく}なんて無理ですよ。", en: "If I were good at English like Kato, it might be a different story, but interpreting at a meeting is impossible for me." },
+            { ja: "{加藤|かとう}さんのように英語が上手ならいざしらず、{僕|ぼく}に会議の{通訳|つうやく}なんて無理ですよ。", en: "If I were good at English like Kato, it might be a different story, but there's no way I could interpret at a meeting." },
             { ja: "学生時代ならいざしらず、君ももう社会人になったのだから、少しは大人としての{自覚|じかく}を持つべきじゃないのか。", en: "Your student days were one thing, but now that you're a working adult, shouldn't you be a little more aware that you're a grown-up?" },
             { ja: "自分が{不愉快|ふゆかい}な思いをしたならいざしらず、ネットの情報だけで{駄目|だめ}な店だと言いふらすのはおかしい。", en: "If you'd had an unpleasant experience yourself, that would be another matter, but going around saying it's a terrible shop based only on what you read online isn't right." },
             { ja: "20年前ならいざしらず、今は世界中の人と{瞬時|しゅんじ}にコンタクトがとれる時代ですよ。わざわざ出張しなくてもテレビ会議ですむんじゃないですか。", en: "Twenty years ago it would have been different, but these days you can contact people all over the world in an instant. Couldn't a video conference do instead of going to the trouble of a business trip?" },
@@ -609,9 +609,9 @@ TRY.registerChapter({
             { ja: "{花粉症|かふんしょう}の季節がやってきた。この目のかゆみと止まらない{鼻水|はなみず}を何とかできないものか。", en: "Hay-fever season has come. Isn't there something I can do about these itchy eyes and this nonstop runny nose?" },
             { ja: "ラッシュアワーの{殺人的|さつじんてき}な混雑は何とかならないものか。", en: "Can't something be done about the brutal crush at rush hour?" },
             { ja: "学校に行けない子どもたちのために、何か{支援|しえん}はできないものだろうか。", en: "Isn't there some kind of support we could give children who can't go to school?" },
-            { ja: "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。", en: "I know how busy you are, but might you possibly just hear me out, even once?" },
+            { ja: "お忙しいことは{存|ぞん}じておりますが、一度お話だけでも聞いていただけないものでしょうか。", en: "I know how busy you are, but would it be at all possible for you to hear me out, just once?" },
           ],
-          deepDive: "**V-ない + ものか** looks like a question but expresses a longing wish for something hard to achieve: *isn't there some way to ~?* The speaker knows it's difficult, and the tone is sighing or earnest: 何とか廃棄せずに働かせられないものか (*isn't there some way to keep it working without scrapping it?*).\n\nConnection: the negative form + ものか, usually with a potential verb, できる or なる, and very often with 何とか, 何か or どうにか. 〜ないものだろうか is softer, and 〜ないものでしょうか is a humble way to make a difficult request (お話だけでも聞いていただけないものでしょうか *might you possibly just hear me out?*).\n\nCompare:\n- **〜ものか** (N2 level): V-る + ものか is a refusal (負けるものか *I'll never lose*); the negative ないものか wishes (勝てないものか *isn't there a way to win?*).\n- **〜か** (#48): the rhetorical denial, 放っておけるか (*how could I leave them be?*).\n- **〜たいものだ**: a plain wish, without *is there any way*.\n\nPitfall: dropping ない reverses the meaning (何とかできるものか *as if I could do anything!*).\n\nJLPT cue: 何とか … ないものか is a set chunk.",
+          deepDive: "**V-ない + ものか** looks like a question but expresses a longing wish for something hard to achieve: *isn't there some way to ~?* The speaker knows it's difficult, and the tone is sighing or earnest: 何とか廃棄せずに働かせられないものか (*isn't there some way to keep it working without scrapping it?*).\n\nConnection: the negative form + ものか, usually with a potential verb, できる or なる, and very often with 何とか, 何か or どうにか. 〜ないものだろうか is softer, and 〜ないものでしょうか is a polite, deferential way to make a difficult request (お話だけでも聞いていただけないものでしょうか *might you possibly just hear me out?*).\n\nCompare:\n- **〜ものか** (N2 level): V-る + ものか is a refusal (負けるものか *I'll never lose*); the negative ないものか wishes (勝てないものか *isn't there a way to win?*).\n- **〜か** (#48): the rhetorical denial, 放っておけるか (*how could I leave them be?*).\n- **〜たいものだ**: a plain wish, without *is there any way*.\n\nPitfall: dropping ない reverses the meaning (何とかできるものか *as if I could do anything!*).\n\nJLPT cue: 何とか … ないものか is a set chunk.",
           see: [48],
           index: ["Vないものか", "Vないものだろうか", "Vないものでしょうか"],
         },
@@ -630,7 +630,7 @@ TRY.registerChapter({
             { ja: "{万一|まんいち}に{備|そな}えて消化器は必ず{設置|せっち}してください。もちろん使わないに{越|こ}したことはありませんが……。", en: "Please be sure to install a fire extinguisher just in case. Of course, it's best if you never have to use it…" },
             { ja: "{車庫|しゃこ}つきに{越|こ}したことはないけど、近くに{駐車場|ちゅうしゃじょう}があれば、家賃が安いほうがいいかなあ。", en: "A place with a garage would be ideal, but if there's a parking lot nearby, maybe cheaper rent is better." },
           ],
-          deepDive: "**〜に越したことはない** (*nothing goes beyond ~*) says ~ is best if possible, as general common sense rather than personal taste: 病気の発見は早いに越したことはない (*with any illness, the earlier it's found the better*). It usually concedes an ideal and then adds a realistic qualification with が or けど, so it often softens advice: 早く始めるに越したことはないでしょうが、高校生から始めてプロになった人もいますよ (*starting early is best, but some people started in high school and went pro*).\n\nConnection: V-る / V-ない, い-adjectives, and な-adjectives and nouns without だ (安全に越したことはない, 車庫つきに越したことはない); それに越したことはない means *nothing could be better*. The phrase itself is fixed: ✗早かったに越したことはない.\n\nCompare:\n- **〜に限る** (N2 level): the speaker's own strong preference, *nothing beats ~* (夏はビールに限る).\n- **〜ほうがいい**: direct advice to the listener.\n- **〜べきだ**: an obligation; に越したことはない is only a preference.\n\nPitfall: attaching it to something undesirable (✗病気になるに越したことはない).\n\nJLPT cue: when が or けど follows, the next clause usually relaxes the ideal just stated.",
+          deepDive: "**〜に越したことはない** (*nothing goes beyond ~*) says ~ is best if possible, as general common sense rather than personal taste: 病気の発見は早いに越したことはない (*with any illness, the earlier it's found the better*). It usually concedes an ideal and then adds a realistic qualification with が or けど, so it often softens advice: 早く始めるに越したことはないでしょうが、高校生から始めてプロになった人もいますよ (*starting early is best, but some people started in high school and went pro*).\n\nConnection: V-る / V-ない, い-adjectives, and な-adjectives and nouns without だ (安全に越したことはない, 車庫つきに越したことはない); それに越したことはない means *nothing could be better*. The phrase itself is fixed: ✗早かったに越したことはない.\n\nCompare:\n- **〜に限る** (N2 level): the speaker's own strong preference, *nothing beats ~* (夏はビールに限る).\n- **〜ほうがいい**: direct advice to the listener.\n- **〜べきだ**: an obligation; に越したことはない is only a preference.\n\nPitfall: attaching it to something undesirable (?病気になるに越したことはない).\n\nJLPT cue: when が or けど follows, the next clause usually relaxes the ideal just stated.",
           see: [],
           index: ["〜に越したことはない", "それに越したことはない"],
           practice: [
@@ -687,7 +687,7 @@ TRY.registerChapter({
               q: "自分の考えを主張しなきゃだめだと言いながら、（　）「{生意気|なまいき}だ」と言う。こんな上司では、やる気になれないよ。",
               options: ["意見を言ったら言ったで", "主張といわず意見といわず"],
               answer: 0,
-              en: "The boss says we have to assert our own ideas, but when we do give an opinion, we get told we're being \"cheeky\". With a boss like that, I can't get motivated.",
+              en: "The boss says we have to assert our own ideas, but when we do give an opinion, we get told we're being \"presumptuous\". With a boss like that, I can't get motivated.",
               why: { en: "意見を言ったら言ったで (#55): the boss tells us to speak up, then calls it impertinent when we do — either way we lose. 主張といわず意見といわず (#54) would mean “assertions, opinions, everything”, which doesn't fit." },
             },
             {
@@ -877,7 +877,7 @@ TRY.registerChapter({
             { ja: "{防災対策|ぼうさいたいさく}にかこつけて、{粗悪|そあく}な商品を売りつける{悪徳業者|あくとくぎょうしゃ}に注意しましょう。", en: "Watch out for unscrupulous dealers who use disaster preparedness as a pretext to push shoddy goods on you." },
             { ja: "要するに、雪だの{桜|さくら}だの季節の何かにかこつけて、集まって{騒|さわ}ぎたいんだろう。", en: "In short, they just want an excuse — snow, cherry blossoms, something seasonal — to get together and make a racket." },
           ],
-          deepDive: "**N + にかこつけて** (かこつける, *make a pretext of*) means *using N as an excuse*: a legitimate-sounding reason covers the real, self-serving aim: 地方出張にかこつけて恋人に会いに行っている (*he uses business trips as an excuse to see the person he's dating*). It is usually critical, the speaker seeing through someone else's pretext; said of oneself, it sounds like a wry confession.\n\nConnection: N + にかこつけて; nominalized forms work too (忙しさにかこつけて).\n\nCompare:\n- **〜のをいいことに** (#47): exploits a situation (親が留守なのをいいことに夜遊びする *staying out all night while the parents are away*); にかこつけて hides behind a stated reason.\n- **〜を口実に**: nearly the same meaning, more common in speech.\n- **〜かたがた** (#26): combines two purposes openly and neutrally (お礼かたがた伺う *call on someone, partly to thank them*).\n- **〜を理由に**: neutral; the reason may be genuine.\n\nPitfall: using it for a genuine cause (✗病気にかこつけて入院した); there must be a gap between the excuse and the real aim.\n\nJLPT cue: a respectable reason followed by self-indulgent or improper behavior points to にかこつけて.",
+          deepDive: "**N + にかこつけて** (かこつける, *make a pretext of*) means *using N as an excuse*: a legitimate-sounding reason covers the real, self-serving aim: 地方出張にかこつけて恋人に会いに行っている (*he uses business trips as an excuse to see the person he's dating*). It is usually critical, the speaker seeing through someone else's pretext; said of oneself, it sounds like a wry confession.\n\nConnection: N + にかこつけて; nominalized forms work too (忙しさにかこつけて).\n\nCompare:\n- **〜のをいいことに** (#47): exploits a situation (親が留守なのをいいことに夜遊びする *staying out all night while the parents are away*); にかこつけて hides behind a stated reason.\n- **〜を口実に**: nearly the same meaning, more common in speech.\n- **〜かたがた** (#26): combines two purposes openly and neutrally (お礼かたがた伺う *call on someone, partly to thank them*).\n- **〜を理由に**: neutral; the reason may be genuine.\n\nPitfall: using it for a genuine cause (?病気にかこつけて入院した); there must be a gap between the excuse and the real aim.\n\nJLPT cue: a respectable reason followed by self-indulgent or improper behavior points to にかこつけて.",
           see: [47, 26],
           index: ["Nにかこつけて"],
           practice: [
@@ -888,7 +888,7 @@ TRY.registerChapter({
               items: [
                 { q: "記者をしていたときは、＿＿にかこつけて、各地の温泉を楽しんだものですよ。", answer: "{取材|しゅざい}", en: "When I was a reporter, I used to enjoy hot springs all over the country on the pretext of covering stories.", why: { en: "A reporter's work involves travel around the country, so covering stories is the excuse for the hot-spring trips: 取材にかこつけて (#64). 節電 and 病気 wouldn't send anyone traveling." } },
                 { q: "ゲームショーでは、＿＿にかこつけて、自分が楽しんでいる親たちの{姿|すがた}も{結構|けっこう}見かけますよ。", answer: "子ども", en: "At video game expos, you see quite a lot of parents enjoying themselves on the pretext of bringing their children.", why: { en: "The parents are the ones enjoying themselves (自分が楽しんでいる), so the children are only the excuse for coming: 子どもにかこつけて." } },
-                { q: "＿＿にかこつけて、社長にオフィスのエアコンを全部消され、寒くてたまらない。", answer: "{節電|せつでん}", en: "Under the pretext of saving electricity, the president had all the office air conditioners turned off, and it's unbearably cold.", why: { en: "Turning off every air conditioner is justified as saving power: 節電にかこつけて. The complaint about the cold shows the speaker sees it as a pretext." } },
+                { q: "＿＿にかこつけて、社長にオフィスのエアコンを全部消され、寒くてたまらない。", answer: "{節電|せつでん}", en: "Under the pretext of saving electricity, the president has switched off every air conditioner in the office, and it's unbearably cold.", why: { en: "Turning off every air conditioner is justified as saving power: 節電にかこつけて. The complaint about the cold shows the speaker sees it as a pretext." } },
                 { q: "A：社長は{不祥事|ふしょうじ}を起こして以来、＿＿にかこつけてマスコミから逃げているらしいよ。\nB：それが本当なら無責任だよね。", answer: "病気", en: "A: Ever since the scandal, the president has apparently been avoiding the media on the pretext of being ill.\nB: If that's true, it's irresponsible.", why: { en: "Illness is the excuse for avoiding the press after the scandal: 病気にかこつけて, and B's 無責任 confirms it is seen as a pretext. 取材 is what the media do, not the president." } },
               ],
             },
@@ -903,7 +903,7 @@ TRY.registerChapter({
           items: [
             { q: "A：ご両親にはよく連絡するの？\nB：ううん、せいぜい月に1度メールを送る＿＿かな。", answer: "といったところ", en: "A: Do you keep in touch with your parents often?\nB: No, I send them an email once a month at most, I guess." },
             { q: "子猫が{花瓶|かびん}を割ってしまったが、{謝|あやま}るような{姿|すがた}が{可愛|かわい}くて＿＿。", answer: "怒るに怒れない", en: "The kitten broke a vase, but it looked so cute, as if it were apologizing, that I couldn't bring myself to scold it." },
-            { q: "＿＿、{患者|かんじゃ}の家族に{余命宣告|よめいせんこく}をするのはつらいものだ。", answer: "仕事とはいえ", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is hard." },
+            { q: "＿＿、{患者|かんじゃ}の家族に{余命宣告|よめいせんこく}をするのはつらいものだ。", answer: "仕事とはいえ", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is always painful." },
             { q: "＿＿、気になる人のメールアドレスを教えてもらった。", answer: "仕事にかこつけて", en: "Using work as an excuse, I got the email address of someone I'm interested in." },
           ],
         },
@@ -936,7 +936,7 @@ TRY.registerChapter({
             q: "いくらビタミンが豊富（　）、毎日こればかり食べているのはどうかなあ……。",
             options: ["といおうか", "ならいざしらず", "とはいえ", "ならまだしも"],
             answer: 2,
-            en: "It may be rich in vitamins, but I'm not so sure about eating nothing but this every day...",
+            en: "No matter how rich in vitamins it is, I'm not so sure about eating nothing but this every day…",
             why: { en: "いくら〜とはいえ (#61): even granting that it's rich in vitamins, the speaker still has doubts. ならいざしらず (#58) and ならまだしも (#50) would need a contrasting, less acceptable case after them, and といおうか (#46) is for groping for the right word." },
           },
           {

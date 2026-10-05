@@ -521,7 +521,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "public gaze; others' eyes; attention (of other people)",
     note: "Being seen by others: 人目を気にする (care what people think), 人目を引く (attract attention), 人目もかまわず (without caring who sees), 人目につかない場所. Don't confuse it with 一目 (ひとめ, a single glance).",
     rx: ["ひとみ", "にんもく", "ひとま"],
-    book: { ja: "**{人目|ひとめ}**も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that the sight of women putting on makeup on the train, not caring who's watching, is unbearable to look at.", at: "gp/56" },
+    book: { ja: "**{人目|ひとめ}**も構わず電車の中で{化粧|けしょう}している女性の{姿|すがた}は見るにたえないと祖母は{嘆|なげ}く。", en: "My grandmother laments that she can't bear the sight of women putting on makeup on the train without caring who's watching.", at: "gp/56" },
     ex: [
       { ja: "{二人|ふたり}は**{人目|ひとめ}**を{気|き}にせず、{手|て}をつないで{歩|ある}いていた。", en: "The two walked hand in hand, not caring who saw them.", alt: ["{人手|ひとで}", "{一目|ひとめ}", "{人柄|ひとがら}"] },
     ] },
@@ -721,7 +721,7 @@ TRY.registerVocab({ ch: 5, words: [
     en: "remaining life; life expectancy (of a sick person)",
     note: "How long someone with a serious illness is expected to live: 余命3か月, 余命宣告 (telling a patient how long they have left). 寿命 is one's whole natural lifespan (also of machines).",
     rx: ["よみょう", "よいのち", "あまめい"],
-    book: { ja: "＿＿、{患者|かんじゃ}の家族に**{余命宣告|よめいせんこく}**をするのはつらいものだ。", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is hard.", at: "ch/5" },
+    book: { ja: "＿＿、{患者|かんじゃ}の家族に**{余命宣告|よめいせんこく}**をするのはつらいものだ。", en: "It may be part of the job, but telling a patient's family how long the patient has left to live is always painful.", at: "ch/5" },
     ex: [
       { ja: "{父|ちち}は{医者|いしゃ}から**{余命|よめい}**{半年|はんとし}と{告|つ}げられた。", en: "My father was told by his doctor that he had six months to live.", alt: ["{余談|よだん}", "{余白|よはく}", "{運命|うんめい}"] },
     ] },
