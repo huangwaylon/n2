@@ -14,7 +14,7 @@ TRY.registerChapter({
           { sp: "{川口|かわぐち}", v: "f", ja: "今度、ミズノから「{軽|かる}くて{疲|つか}れない{靴|くつ}」が{発売|はつばい}される**とか**…。", en: "I hear Mizuno is going to release \"light shoes that don't tire you out\"..." },
           { sp: "{山下|やました}", v: "m", ja: "{軽量化|けいりょうか}という{業界|ぎょうかい}の{流|なが}れ**にそって**、{新製品|しんせいひん}が{開発|かいはつ}されていますからね。わが社もウォーキングシューズ**にかけては**、{実績|じっせき}がありますが、違った{視|し}{点|てん}で{開発|かいはつ}し**ないことには**新しいお客さんは{獲得|かくとく}できないですよね。", en: "Well, new products are being developed in line with the industry-wide trend toward lighter shoes. We have a proven track record of our own when it comes to walking shoes, but unless we approach development from a different angle, we won't be able to win new customers." },
           { sp: "川口", v: "f", ja: "ウォーキングシューズというと、{見|み}た{目|め}より歩きやすさを{重視|じゅうし}し**がち**ですけど、女性としては、やっぱり買うときの{決|き}め{手|て}はデザインですね。歩きやすい{靴|くつ}がほしいと思い**つつも**、デザインを{優先|ゆうせん}してしまう人が多いと思うんです。", en: "With walking shoes, the tendency is to put comfort ahead of looks, but speaking as a woman, when it comes to actually buying them, the deciding factor is still the design. I think a lot of people want shoes that are easy to walk in, yet end up putting design first anyway." },
-          { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, you're women, after all." },
+          { sp: "山下", v: "m", ja: "女性ですからね。", en: "Well, they're women, after all." },
         ],
       },
       points: [
@@ -288,7 +288,7 @@ TRY.registerChapter({
           items: [
             { q: "最近、学校、休み＿＿だけど、{体調|たいちょう}悪いの？", answer: "がち", en: "You've been missing school a lot lately — are you feeling unwell?" },
             { q: "アスクホームズは{不動産売買|ふどうさんばいばい}＿＿{長年|ながねん}の{実績|じっせき}があるので、{信|しん}{頼|らい}できるだろう。", answer: "にかけては", en: "Ask Homes has a long track record when it comes to buying and selling real estate, so they can probably be trusted." },
-            { q: "A：Bさん、入院なさっていた＿＿。もう、大丈夫ですか。\nB：はい、おかげさまで。", answer: "とか", en: "A: I heard you'd been in the hospital, B. Are you all right now?\nB: Yes, I'm fine, thank you." },
+            { q: "A：Bさん、入院なさっていた＿＿。もう、大丈夫ですか。\nB：はい、おかげさまで。", answer: "とか", en: "A: I heard you'd been in the hospital. Are you all right now?\nB: Yes, I'm fine, thank you." },
             { q: "{許可|きょか}が{下|お}り＿＿留学できませんよ。", answer: "ないことには", en: "You can't study abroad unless you get permission." },
             { q: "この組み立て方の{手順|てじゅん}＿＿やれば、{初心者|しょしんしゃ}でも{簡単|かんたん}に組み立てられます。", answer: "にそって", en: "If you follow these assembly steps, even a beginner can put it together easily." },
             { q: "買っても当たらないと思い＿＿、毎回{宝|たから}くじを買っている。", answer: "つつも", en: "Even though I figure I won't win, I buy lottery tickets every time anyway." },
@@ -402,7 +402,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "ここは静かな町だったのに、テレビで{紹介|しょうかい}されて{以来|いらい}、{観光客|かんこうきゃく}が増える{一方|いっぽう}だ。", en: "This used to be a quiet town, but ever since it was featured on TV, the number of tourists has just kept increasing." },
-            { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried." },
+            { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, and with the fishing boats that went out still not back, the people concerned are worried." },
             { ja: "グローバル{化|か}が進んで、{語学力|ごがくりょく}の{必要性|ひつようせい}は{高|たか}まる{一方|いっぽう}だ。", en: "As globalization advances, the need for language ability just keeps growing." },
           ],
           plus: [
@@ -501,7 +501,7 @@ TRY.registerChapter({
                   q: "交通{機関|きかん}の{発達|はったつ}（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。",
                   options: ["に{先立|さきだ}って", "とともに"],
                   answer: 1,
-                  en: "Along with the development of transportation, the range of places people go gradually widened too.",
+                  en: "As transportation developed, the range of places people could go gradually widened as well.",
                   why: { en: "One change goes hand in hand with another (発達 → 広がっていった): とともに. に先立って would mean the expansion happened before the development, and it isn't a planned action." },
                 },
               ],
@@ -536,7 +536,7 @@ TRY.registerChapter({
                   q: "A：食事、どうする？\nB：ゆっくり食べたいから、映画を見た（　）食事しようよ。",
                   options: ["{上|うえ}で", "{後|あと}で"],
                   answer: 1,
-                  en: "A: What do you want to do about eating?\nB: I'd like to take my time over the meal, so let's eat after the movie.",
+                  en: "A: What are we doing for food?\nB: I'd like to take my time over the meal, so let's eat after the movie.",
                   why: { en: "Watching a movie and then eating is an everyday sequence, so 後で. 上で is for formal matters where the first step is the basis for a decision." },
                 },
                 {
@@ -646,7 +646,7 @@ TRY.registerChapter({
             q: "{甘|あま}いものはつい食べすぎてしまい（　）ですが、{健康|けんこう}を考えるとあまり食べないほうがいいでしょう。",
             options: ["がち", "げ", "しだい", "たい"],
             answer: 0,
-            en: "We tend to end up eating too many sweets, but for the sake of our health, it's probably better not to eat much of them.",
+            en: "We tend to end up eating too many sweets, but for the sake of our health, it's probably better not to eat too many.",
             why: { en: "ます-stem + がち for an undesirable habit (つい食べすぎてしまいがち). げ (#97) follows adjectives for an outward look, しだい after a ます-stem means \"as soon as\" (#36), and たい is desire — none describes a tendency." },
           },
           {
@@ -741,7 +741,7 @@ TRY.registerChapter({
         prompt: { ja: "次の文章を読んで、文章全体の内容を考えて、［1］から［4］の中に入る最もよいものを、1・2・3・4から一つ選びなさい。", en: "Read the passage, consider the content of the whole text, and choose the best option from 1, 2, 3 and 4 for each of the blanks [1] to [4]." },
         title: "",
         text: ["最近、{健康|けんこう}にいいと言われる{食品|しょくひん}や{栄養補助食品|えいようほじょしょくひん}だけを食べる「{偏食症|へんしょくしょう}」が{急増|きゅうぞう}しています。{本人|ほんにん}は体にいいものを食べていると思っているので、まったく{危機感|ききかん}がないのが{特徴|とくちょう}です。野菜ジュースや{納豆|なっとう}は「体にいい」から、それさえ食べれば{健康|けんこう}に生活できると思い[1]です。でも「体にいい」と信じてそれだけを食べている[2]、大きな間違いです。", "{健康|けんこう}を気にする人のニーズ[3]{様々|さまざま}な{栄養補助食品|えいようほじょしょくひん}が売られたりしていることもその{原因|げんいん}の1つかもしれませんが、{栄養|えいよう}のバランスを考えた[4]本当に体によい食事をとるようにしましょう。"],
-        en: ["Recently, there has been a sharp rise in \"unbalanced-eating syndrome,\" in which people eat nothing but foods and nutritional supplements said to be good for their health. Its hallmark is that because those affected believe they are eating things that are good for them, they feel no sense of danger at all. They tend to think that since vegetable juice and natto are \"good for you,\" they can stay healthy as long as they eat those. But if you believe something is \"good for you\" and eat only that, you are making a big mistake.", "One cause may be that all sorts of nutritional supplements are being sold in response to the needs of health-conscious people, but let's consider nutritional balance and, on that basis, make a point of eating meals that are truly good for us."],
+        en: ["Recently, there has been a sharp rise in \"unbalanced-eating syndrome,\" in which people eat nothing but foods and nutritional supplements said to be good for their health. What characterizes it is that sufferers, believing they are eating things that are good for them, have no sense of alarm at all. They tend to think that since vegetable juice and natto are \"good for you,\" they can stay healthy as long as they eat those. But if you believe something is \"good for you\" and eat only that, you are making a big mistake.", "One cause may be that all sorts of nutritional supplements are being sold in response to the needs of health-conscious people, but let's consider nutritional balance and, on that basis, make a point of eating meals that are truly good for us."],
         blanks: [
           {
             options: ["きり", "げ", "がち", "かけ"],

@@ -362,7 +362,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "wind and rain; storm",
     note: "A written and news word: 風雨が強まる, 風雨に耐える, 暴風雨 (rainstorm). Note the reading ふうう.",
     rx: ["かぜあめ", "ふうあめ", "ふうゆう"],
-    book: { ja: "**{風雨|ふうう}**は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
+    book: { ja: "**{風雨|ふうう}**は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, and with the fishing boats that went out still not back, the people concerned are worried.", at: "gp/115" },
     ex: [
       { ja: "{台風|たいふう}の{影響|えいきょう}で、{夜|よる}には**{風雨|ふうう}**が{激|はげ}しくなるでしょう。", en: "Because of the typhoon, the wind and rain will probably grow fierce tonight.", alt: ["{梅雨|つゆ}", "{雨具|あまぐ}", "{風景|ふうけい}"] },
     ] },
@@ -370,7 +370,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "to grow stronger; to intensify",
     note: "Intransitive; the transitive partner is 強める. 風が強まる, 批判が強まる, 傾向が強まる. The opposite is 弱まる.",
     rx: ["きょうまる", "つよまう", "こわまる"],
-    book: { ja: "{風雨|ふうう}は**{強|つよ}まる**{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は**{強|つよ}まる**{一方|いっぽう}で、{漁|りょう}に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, and with the fishing boats that went out still not back, the people concerned are worried.", at: "gp/115" },
     ex: [
       { ja: "{政府|せいふ}への{批判|ひはん}が{日|ひ}に{日|ひ}に**{強|つよ}まって**いる。", en: "Criticism of the government is growing stronger day by day.", alt: ["{固|かた}まって", "{縮|ちぢ}まって", "{早|はや}まって"] },
     ] },
@@ -378,7 +378,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "fishing (as work); a catch",
     note: "漁に出る (go out fishing), 漁師 (fisherman). Alone the kanji is read りょう, but in compounds usually ぎょ: 漁業 (fishing industry), 漁船, 漁港.",
     rx: ["ぎょ", "りょ", "ろう"],
-    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、**{漁|りょう}**に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、**{漁|りょう}**に出た{漁船|ぎょせん}がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, and with the fishing boats that went out still not back, the people concerned are worried.", at: "gp/115" },
     ex: [
       { ja: "{父|ちち}は{毎朝|まいあさ}{早|はや}く**{漁|りょう}**に{出|で}る。", en: "My father goes out fishing early every morning.", alt: ["{量|りょう}", "{寮|りょう}", "{例|れい}"] },
     ] },
@@ -386,7 +386,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "fishing boat",
     note: "漁 is read ぎょ here, as in 漁業 and 漁港. 船 becomes せん in compounds (客船, 造船).",
     rx: ["りょうせん", "ぎょうせん", "ぎょぶね"],
-    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た**{漁船|ぎょせん}**がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, the fishing boats that went out haven't come back yet, and everyone involved is worried.", at: "gp/115" },
+    book: { ja: "{風雨|ふうう}は{強|つよ}まる{一方|いっぽう}で、{漁|りょう}に出た**{漁船|ぎょせん}**がまだ{帰|かえ}らず、{関係者|かんけいしゃ}は{心配|しんぱい}している。", en: "The wind and rain just keep getting stronger, and with the fishing boats that went out still not back, the people concerned are worried.", at: "gp/115" },
     ex: [
       { ja: "{港|みなと}には{小|ちい}さな**{漁船|ぎょせん}**がたくさん{並|なら}んでいる。", en: "Lots of small fishing boats are lined up in the harbor.", alt: ["{風船|ふうせん}", "{造船|ぞうせん}", "{漁業|ぎょぎょう}"] },
     ] },
@@ -498,7 +498,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "development; growth; advancement",
     note: "交通機関の発達, 医学の発達, 子どもの心身の発達, 台風が発達する (a typhoon strengthens). 発展 is growth of a city or economy; 発育 is physical growth.",
     rx: ["はつたつ", "はったち", "ほったつ"],
-    book: { ja: "交通{機関|きかん}の**{発達|はったつ}**（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。", en: "Along with the development of transportation, the range of places people go gradually widened too.", at: "gp/116" },
+    book: { ja: "交通{機関|きかん}の**{発達|はったつ}**（　）{人々|ひとびと}の{行動範囲|こうどうはんい}も広がっていった。", en: "As transportation developed, the range of places people could go gradually widened as well.", at: "gp/116" },
     ex: [
       { ja: "{医学|いがく}の**{発達|はったつ}**によって、{多|おお}くの{病気|びょうき}が{治|なお}るようになった。", en: "Thanks to advances in medicine, many diseases have become curable.", alt: ["{配達|はいたつ}", "{友達|ともだち}", "{発表|はっぴょう}"] },
     ] },
@@ -650,7 +650,7 @@ TRY.registerVocab({ ch: 12, words: [
     en: "sense of crisis; sense of urgency",
     note: "危機感がない / を持つ / を抱く. 危機 is a crisis (経済危機); 危険 is danger in general.",
     rx: ["きけんかん", "ききがん", "きっきかん"],
-    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "Its hallmark is that because those affected believe they are eating things that are good for them, they feel no sense of danger at all.", at: "ch/12/review" },
+    book: { ja: "{本人|ほんにん}は体にいいものを食べていると思っているので、まったく**{危機感|ききかん}**がないのが{特徴|とくちょう}です。", en: "What characterizes it is that sufferers, believing they are eating things that are good for them, have no sense of alarm at all.", at: "ch/12/review" },
     ex: [
       { ja: "{社員|しゃいん}に**{危機感|ききかん}**がなければ、{会社|かいしゃ}は{変|か}われない。", en: "If employees have no sense of urgency, the company can't change.", alt: ["{季節感|きせつかん}", "{危険物|きけんぶつ}", "{器官|きかん}"] },
     ] },
