@@ -75,7 +75,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "exhibiting (at a show or exhibition)",
     note: "Putting one's work or products on display at an exhibition or trade fair: 展覧会に出展する, 見本市への出展企業. 出品 is entering an item in a show, sale or auction. Don't confuse it with 出典 (しゅってん, the source of a quotation).",
     rx: ["しゅつてん", "でてん", "しゅってい"],
-    book: { ja: "{前衛|ぜんえい}書道で、よく語られるのが{上田桑鳩|うえだそうきゅう}（1899-1968年）の「愛」（1951年、第7回日本美術{展覧会|てんらんかい}に**{出展|しゅってん}**）である。", en: "A work often talked about in avant-garde calligraphy is Ueda Sōkyū's (1899–1968) “Ai” (Love), exhibited at the 7th Japan Art Exhibition in 1951.", at: "ch/10" },
+    book: { ja: "{前衛|ぜんえい}書道で、よく語られるのが{上田桑鳩|うえだそうきゅう}（1899-1968年）の「愛」（1951年、第7回日本美術{展覧会|てんらんかい}に**{出展|しゅってん}**）である。", en: "One work that often comes up in discussions of avant-garde calligraphy is “Ai” (Love) by Ueda Sōkyū (1899–1968), exhibited at the 7th Japan Art Exhibition in 1951.", at: "ch/10" },
     ex: [
       { ja: "{来月|らいげつ}の{見本市|みほんいち}には、{世界中|せかいじゅう}から500{社|しゃ}が**{出展|しゅってん}**する{予定|よてい}だ。", en: "Five hundred companies from around the world are scheduled to exhibit at next month's trade fair.", alt: ["{出版|しゅっぱん}", "{出世|しゅっせ}", "{出産|しゅっさん}"] },
     ] },
@@ -91,7 +91,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "elegance; refinement; grace",
     note: "Read ひん (not しな, “goods”), it means dignity or refinement in manner and appearance: 品がある (be refined), 品のない話し方 (a vulgar way of talking), 上品／下品 (elegant/vulgar). 品格 is the more formal noun.",
     rx: ["びん", "ぴん", "ほん"],
-    book: { ja: "しかし、この作品を見ると、この文字が「**{品|ひん}**」でなくてなんだろう。", en: "Yet looking at this work, what could this character be, if not 品 (hin, “refinement”)?", at: "ch/10" },
+    book: { ja: "しかし、この作品を見ると、この文字が「**{品|ひん}**」でなくてなんだろう。", en: "Yet when I look at this work, what can this character be if not 品 (hin, “refinement”)?", at: "ch/10" },
     ex: [
       { ja: "{彼女|かのじょ}は{服装|ふくそう}も{話|はな}し{方|かた}も{落|お}ち{着|つ}いていて、**{品|ひん}**がある。", en: "Both her clothes and the way she speaks are understated; she has real class.", alt: ["{質|しつ}", "{柄|がら}", "{型|かた}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "stereotype; fixed idea; preconception",
     note: "A rigid belief that is hard to change: 固定観念にとらわれる (be trapped by preconceptions), 固定観念を捨てる, 固定観念を打ち破る. 先入観 is a preconception formed before experience; 偏見 is prejudice against a group.",
     rx: ["こていけんねん", "こうていかんねん", "こていかんえん"],
-    book: { ja: "だが、**{固定|こてい}観念**からの解放なくして芸術は生まれない。", en: "But without liberation from fixed ideas, no art can be born.", at: "ch/10" },
+    book: { ja: "だが、**{固定|こてい}観念**からの解放なくして芸術は生まれない。", en: "But without freedom from fixed ideas, no art can be born.", at: "ch/10" },
     ex: [
       { ja: "「{男|おとこ}は{泣|な}くべきではない」という**{固定観念|こていかんねん}**は、もう{古|ふる}い。", en: "The stereotype that “men shouldn't cry” is already outdated.", alt: ["{既成事実|きせいじじつ}", "{固定資産|こていしさん}", "{観光客|かんこうきゃく}"] },
     ] },
@@ -115,7 +115,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "liberation; release; freeing (from)",
     note: "Setting free from restraint or burden: 人質を解放する (release the hostages), 仕事から解放される (be free of work), 解放感. 開放 (also かいほう) means opening something to the public (校庭を開放する); choose the kanji by meaning.",
     rx: ["かいぼう", "げほう", "かいはう"],
-    book: { ja: "だが、{固定|こてい}観念からの**解放**なくして芸術は生まれない。", en: "But without liberation from fixed ideas, no art can be born.", at: "ch/10" },
+    book: { ja: "だが、{固定|こてい}観念からの**解放**なくして芸術は生まれない。", en: "But without freedom from fixed ideas, no art can be born.", at: "ch/10" },
     ex: [
       { ja: "{試験|しけん}が{全部|ぜんぶ}{終|お}わって、やっと{勉強|べんきょう}から**{解放|かいほう}**された。", en: "All my exams are over, and I'm finally free of studying.", alt: ["{解消|かいしょう}", "{解散|かいさん}", "{追放|ついほう}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "private land; private property",
     note: "Land owned by an individual or company, typical of signs: 私有地につき立入禁止 (Private property: keep out), 私有地につき駐車禁止. The opposite is 公有地 or 国有地.",
     rx: ["しゆうじ", "わたくしゆうち", "しうち"],
-    book: { ja: "**{私有地|しゆうち}**につき駐車するべからず。", en: "Private property. Do not park here.", at: "gp/111" },
+    book: { ja: "**{私有地|しゆうち}**につき駐車するべからず。", en: "Private property. No parking.", at: "gp/111" },
     ex: [
       { ja: "ここは**{私有地|しゆうち}**なので、{許可|きょか}なく{入|はい}ることはできません。", en: "This is private land, so you can't enter without permission.", alt: ["{植民地|しょくみんち}", "{観光地|かんこうち}", "{遊園地|ゆうえんち}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "remarkable achievement; brilliant feat",
     note: "An admirable, heartening accomplishment, typical of news: 快挙を成し遂げる, 史上初の快挙, 快挙に沸く (be jubilant at the feat). Positive only; 偉業 is a great, historic achievement.",
     rx: ["かいこ", "かいきょう", "けきょ"],
-    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という**{快挙|かいきょ}**は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable achievement, every single student passing, was made possible only by the students' efforts and the teachers' enthusiasm working together.", at: "gp/114" },
     ex: [
       { ja: "{地方|ちほう}の{小|ちい}さな{高校|こうこう}が{全国大会|ぜんこくたいかい}で{優勝|ゆうしょう}する**{快挙|かいきょ}**を{成|な}し{遂|と}げた。", en: "A small high school from the provinces achieved the remarkable feat of winning the national championship.", alt: ["{快適|かいてき}", "{選挙|せんきょ}", "{暴挙|ぼうきょ}"] },
     ] },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "enthusiasm; zeal; ardor",
     note: "Strong eagerness toward a goal or task: 熱意を持って取り組む, 熱意が伝わる, 熱意に負ける (give in to someone's persistence). 情熱 is passion in general; 熱意 is earnest commitment to a particular aim.",
     rx: ["ねっい", "ねつき", "ねい"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の**{熱意|ねつい}**が{相|あい}まって、はじめて{成|な}し{遂|と}げられたものです。", en: "This remarkable achievement, every single student passing, was made possible only by the students' efforts and the teachers' enthusiasm working together.", at: "gp/114" },
     ex: [
       { ja: "{面接|めんせつ}では、{経験|けいけん}よりも{仕事|しごと}への**{熱意|ねつい}**が{評価|ひょうか}された。", en: "In the interview, enthusiasm for the job counted for more than experience.", alt: ["{悪意|あくい}", "{熱湯|ねっとう}", "{用意|ようい}"] },
     ] },
@@ -315,7 +315,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to accomplish; to achieve; to carry through",
     note: "To see a difficult undertaking through to success: 偉業を成し遂げる, 目標を成し遂げる, 改革を成し遂げる. Weightier than やり遂げる (see a task through); both stress finishing despite difficulty.",
     rx: ["せいしとげる", "なしつげる", "なしどげる"],
-    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This remarkable feat of every student passing was achieved only because the students' efforts and the teachers' enthusiasm came together.", at: "gp/114" },
+    book: { ja: "今回の全員合格という{快挙|かいきょ}は、学生たちの努力と教師の{熱意|ねつい}が{相|あい}まって、はじめて**{成|な}し{遂|と}げられた**ものです。", en: "This remarkable achievement, every single student passing, was made possible only by the students' efforts and the teachers' enthusiasm working together.", at: "gp/114" },
     ex: [
       { ja: "{彼|かれ}は{十年|じゅうねん}かけて、{世界一周|せかいいっしゅう}の{夢|ゆめ}を**{成|な}し{遂|と}げた**。", en: "Over ten years, he achieved his dream of traveling around the world.", alt: ["{取|と}り{上|あ}げた", "{成|な}り{立|た}った", "{見|み}{上|あ}げた"] },
     ] },
@@ -331,7 +331,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "side effect (of a drug); adverse effect",
     note: "An unwanted effect of a medicine: 副作用が出る, 副作用の少ない薬. Figuratively, an unintended bad consequence of a policy: 政策の副作用. 後遺症 is an aftereffect of an illness or injury.",
     rx: ["ふくさくよう", "ふくざよう", "ふうさよう"],
-    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "**{副作用|ふくさよう}**の可能性を考えれば、{新薬|しんやく}の使用に{慎重|しんちょう}にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "この{薬|くすり}は**{副作用|ふくさよう}**で{眠|ねむ}くなることがあるので、{運転|うんてん}{前|まえ}には{飲|の}まないでください。", en: "This medicine can make you drowsy as a side effect, so please don't take it before driving.", alt: ["{副業|ふくぎょう}", "{作業|さぎょう}", "{副詞|ふくし}"] },
     ] },
@@ -339,7 +339,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "careful; cautious; prudent",
     note: "Taking care to avoid mistakes or risk: 慎重に検討する (consider carefully), 慎重な態度, 慎重を期す (exercise great caution). The opposite is 軽率 (rash). 丁寧 is about thoroughness and politeness; 慎重 is about caution.",
     rx: ["しんじゅう", "じんちょう", "しんちょ"],
-    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Considering the possibility of side effects, it is easy to imagine why there is no choice but to be cautious about using a new drug.", at: "gp/115" },
+    book: { ja: "{副作用|ふくさよう}の可能性を考えれば、{新薬|しんやく}の使用に**{慎重|しんちょう}**にならざるを得ないのは想像にかたくない。", en: "Given the possibility of side effects, it is easy to imagine that one has no choice but to be cautious about using a new drug.", at: "gp/115" },
     ex: [
       { ja: "{家|いえ}を{買|か}うのは{大|おお}きな{決断|けつだん}なので、**{慎重|しんちょう}**に{考|かんが}えたほうがいい。", en: "Buying a house is a big decision, so you'd better think it over carefully.", alt: ["{軽率|けいそつ}", "{貴重|きちょう}", "{乱暴|らんぼう}"] },
     ] },
@@ -347,7 +347,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "deep knowledge (of an art or field); expertise",
     note: "Used almost only in the set phrase 〜に造詣が深い (be deeply versed in ~): 美術に造詣が深い, 日本文化に造詣が深い. Respectful and formal, used to praise someone's learning. Not the same word as 造形 (ぞうけい, form, modeling).",
     rx: ["そうけい", "ぞうし", "ぞうけ"],
-    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara had a deep knowledge of works of art.", at: "gp/115" },
+    book: { ja: "これらのコレクションを見れば、{大原氏|おおはらし}が{美術品|びじゅつひん}に**{造詣|ぞうけい}**が深かったことは{察|さっ}するにかたくない。", en: "Looking at these collections, one can easily infer that Ohara was a deep connoisseur of art.", at: "gp/115" },
     ex: [
       { ja: "{先生|せんせい}は{日本|にほん}の{古典|こてん}{文学|ぶんがく}に**{造詣|ぞうけい}**が{深|ふか}い。", en: "The professor is deeply versed in classical Japanese literature.", alt: ["{欲|よく}", "{奥行|おくゆ}き", "{眠|ねむ}り"] },
     ] },
@@ -371,7 +371,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "unforeseen; unexpected; beyond what was anticipated",
     note: "Outside the scenarios one planned for: 想定外の事態, 想定外の結果. Common in news, sometimes as an excuse by officials, as in the book's example. 想定する means to assume or anticipate a scenario; 予想外 is simply unexpected.",
     rx: ["そうじょうがい", "そうていそと", "そうていかい"],
-    book: { ja: "「**{想定外|そうていがい}**のことで対応できなかった」など、責任者にあるまじき{発言|はつげん}ではないだろうか。", en: "Isn't a remark like “We couldn't respond because it was unforeseen” one that the person in charge should never make?", at: "gp/116" },
+    book: { ja: "「**{想定外|そうていがい}**のことで対応できなかった」など、責任者にあるまじき{発言|はつげん}ではないだろうか。", en: "Saying something like “It was unforeseen, so we couldn't respond” — isn't that a remark unworthy of the person in charge?", at: "gp/116" },
     ex: [
       { ja: "{台風|たいふう}の{被害|ひがい}は、**{想定外|そうていがい}**の{大|おお}きさだった。", en: "The typhoon damage was greater than anyone had anticipated.", alt: ["{時間外|じかんがい}", "{郊外|こうがい}", "{海外|かいがい}"] },
     ] },
@@ -379,7 +379,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "embezzlement; misappropriation",
     note: "Illegally taking money or goods one has been entrusted with: 会社の金を横領する, 公金横領 (embezzling public funds). 着服 is pocketing money, a near-synonym; 横領 is the legal term.",
     rx: ["よこりょう", "おうりょ", "こうりょう"],
-    book: { ja: "会社の金を**{横領|おうりょう}**したのだから、彼は首にならずにはすまないはずだ。", en: "Since he embezzled company money, he surely can't avoid being fired.", at: "gp/117" },
+    book: { ja: "会社の金を**{横領|おうりょう}**したのだから、彼は首にならずにはすまないはずだ。", en: "He embezzled company money, so he is surely bound to be fired.", at: "gp/117" },
     ex: [
       { ja: "{経理|けいり}{担当|たんとう}の{社員|しゃいん}が、3{年間|ねんかん}で1{億円|おくえん}を**{横領|おうりょう}**していた。", en: "An employee in charge of accounting had embezzled 100 million yen over three years.", alt: ["{占領|せんりょう}", "{要領|ようりょう}", "{横断|おうだん}"] },
     ] },
@@ -387,7 +387,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to be fired; to get sacked",
     note: "Casual idiom for being dismissed from one's job: 会社を首になる. The active form is 首にする (fire someone). Often written クビになる. The formal word is 解雇される.",
     rx: ["しゅになる", "こうべになる", "くぶになる"],
-    book: { ja: "会社の金を{横領|おうりょう}したのだから、彼は**首になら**ずにはすまないはずだ。", en: "Since he embezzled company money, he surely can't avoid being fired.", at: "gp/117" },
+    book: { ja: "会社の金を{横領|おうりょう}したのだから、彼は**首になら**ずにはすまないはずだ。", en: "He embezzled company money, so he is surely bound to be fired.", at: "gp/117" },
     ex: [
       { ja: "{遅刻|ちこく}ばかりしていたら、アルバイトを**{首|くび}になった**。", en: "I kept showing up late and got fired from my part-time job.", alt: ["{手|て}になった", "{顔|かお}になった", "{足|あし}になった"] },
     ] },
@@ -395,7 +395,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "logging; felling (trees)",
     note: "Cutting down trees, especially on a large scale: 森林伐採 (deforestation), 木を伐採する. A written word; in speech 木を切る.",
     rx: ["ばつさい", "はっさい", "ばっざい"],
-    book: { ja: "このまま森林**{伐採|ばっさい}**を続けていたら、自然{災害|さいがい}を引き起こさずにはすまないだろう。", en: "If deforestation continues like this, it will surely end up causing natural disasters.", at: "gp/117" },
+    book: { ja: "このまま森林**{伐採|ばっさい}**を続けていたら、自然{災害|さいがい}を引き起こさずにはすまないだろう。", en: "If deforestation continues like this, it is bound to cause natural disasters.", at: "gp/117" },
     ex: [
       { ja: "{道路|どうろ}{建設|けんせつ}のため、{山|やま}の{木|き}が**{伐採|ばっさい}**された。", en: "Trees on the mountain were cut down to build the road.", alt: ["{栽培|さいばい}", "{採用|さいよう}", "{掲載|けいさい}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "public; official; (the) government",
     note: "The public sphere as opposed to private: 公の場 (a public setting), 公にする (make public), 公になる (become public knowledge). Read おおやけ alone; in compounds it is こう (公共, 公式).",
     rx: ["こうやけ", "おおやか", "おやけ"],
-    book: { ja: "事故を起こしてしまった以上、**{公|おおやけ}**の{場|ば}で{謝罪|しゃざい}せずにはすまない。", en: "Now that they have caused an accident, they cannot avoid apologizing in public.", at: "gp/117" },
+    book: { ja: "事故を起こしてしまった以上、**{公|おおやけ}**の{場|ば}で{謝罪|しゃざい}せずにはすまない。", en: "Now that they have caused an accident, they cannot get out of apologizing in public.", at: "gp/117" },
     ex: [
       { ja: "{調査|ちょうさ}の{結果|けっか}は、まだ**{公|おおやけ}**にされていない。", en: "The results of the investigation haven't been made public yet.", alt: ["{個人|こじん}", "{仲間|なかま}", "{私物|しぶつ}"] },
     ] },
@@ -427,7 +427,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "the flames of war; war (and its destruction)",
     note: "Literary: war seen as fire that destroys: 戦火を逃れる (flee the war), 戦火に巻き込まれる, 戦火の中で. 戦争 is the plain word; 戦禍 (also せんか) is the damage caused by war.",
     rx: ["いくさび", "せんび", "ぜんか"],
-    book: { ja: "**{戦火|せんか}**の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、", en: "Meeting again, years later, the foreign woman he had met in the midst of war —", at: "gp/118" },
+    book: { ja: "**{戦火|せんか}**の中で出会った{異国|いこく}の女性と数年後にめぐり会うとは、", en: "To meet again, years later, the woman from a foreign land I first met in the midst of war —", at: "gp/118" },
     ex: [
       { ja: "{多|おお}くの{人々|ひとびと}が**{戦火|せんか}**を{逃|のが}れて、{国境|こっきょう}を{越|こ}えた。", en: "Many people crossed the border to escape the war.", alt: ["{花火|はなび}", "{戦略|せんりゃく}", "{戦後|せんご}"] },
     ] },
@@ -435,7 +435,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "foreign country; alien land",
     note: "A literary, slightly romantic word for a foreign land: 異国の地 (a foreign land), 異国情緒 (exotic atmosphere), 異国の文化. 外国 is the everyday word; 異国 stresses strangeness and distance.",
     rx: ["いごく", "ことくに", "いこっく"],
-    book: { ja: "{戦火|せんか}の中で出会った**{異国|いこく}**の女性と数年後にめぐり会うとは、", en: "Meeting again, years later, the foreign woman he had met in the midst of war —", at: "gp/118" },
+    book: { ja: "{戦火|せんか}の中で出会った**{異国|いこく}**の女性と数年後にめぐり会うとは、", en: "To meet again, years later, the woman from a foreign land I first met in the midst of war —", at: "gp/118" },
     ex: [
       { ja: "{港町|みなとまち}の{古|ふる}い{洋館|ようかん}には、どこか**{異国|いこく}**の{雰囲気|ふんいき}が{漂|ただよ}っている。", en: "The old Western-style houses of the port town have a somewhat exotic air.", alt: ["{帰国|きこく}", "{異論|いろん}", "{全国|ぜんこく}"] },
     ] },
@@ -531,7 +531,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "disappointment; despair",
     note: "Losing hope or confidence in someone or something: 失望する, 失望を招く, 〜に失望した. Stronger and more formal than がっかり; 絶望 is complete despair with no hope left.",
     rx: ["しつもう", "しっぼう", "しつぽう"],
-    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに**失望**と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに**失望**と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has turned out to be incapable of getting anything done.", at: "gp/120" },
     ex: [
       { ja: "{期待|きたい}していた{新作|しんさく}の{内容|ないよう}に、{多|おお}くのファンが**{失望|しつぼう}**した。", en: "Many fans were disappointed by the content of the much-anticipated new work.", alt: ["{希望|きぼう}", "{展望|てんぼう}", "{志望|しぼう}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "indignation; resentment; righteous anger",
     note: "Anger at injustice or wrongdoing, formal and written: 憤りを感じる, 憤りを覚える, 深い憤り. The verb is 憤る. 怒り is general anger; 憤り suggests moral outrage.",
     rx: ["いきとり", "いきとおり", "ふんどおり"],
-    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに失望と**{憤|いきどお}り**を禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を{投|とう}じた政治家の{実行力|じっこうりょく}のなさに失望と**{憤|いきどお}り**を禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has turned out to be incapable of getting anything done.", at: "gp/120" },
     ex: [
       { ja: "{弱|よわ}い{立場|たちば}の{人|ひと}を{利用|りよう}するやり{方|かた}に、{強|つよ}い**{憤|いきどお}り**を{感|かん}じる。", en: "I feel strong indignation at methods that exploit people in weak positions.", alt: ["{喜|よろこ}び", "{憧|あこが}れ", "{安|やす}らぎ"] },
     ] },
@@ -547,7 +547,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to cast (a vote); to invest (money, resources); to throw (oneself into)",
     note: "A formal verb: 一票を投じる (cast a vote), 私財を投じる (invest one's own fortune), 疑問を投じる (raise a question), 身を投じる (throw oneself into a cause). Also written 投ずる. In everyday speech 投票する, お金をかける.",
     rx: ["なげじる", "とじる", "どうじる"],
-    book: { ja: "信頼して1{票|ぴょう}を**{投|とう}じた**政治家の{実行力|じっこうりょく}のなさに失望と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has proved unable to get anything done.", at: "gp/120" },
+    book: { ja: "信頼して1{票|ぴょう}を**{投|とう}じた**政治家の{実行力|じっこうりょく}のなさに失望と{憤|いきどお}りを禁じえない。", en: "I cannot suppress my disappointment and indignation that the politician I trusted with my vote has turned out to be incapable of getting anything done.", at: "gp/120" },
     ex: [
       { ja: "{彼|かれ}は{私財|しざい}を**{投|とう}じて**、{故郷|こきょう}に{図書館|としょかん}を{建|た}てた。", en: "He used his personal fortune to build a library in his hometown.", alt: ["{信|しん}じて", "{応|おう}じて", "{論|ろん}じて"] },
     ] },
@@ -555,7 +555,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "retirement (from a government or national university post)",
     note: "Leaving an official post, especially a professor at a national university or a senior civil servant: 定年退官, 退官記念講演. For a company employee it is 退職; for an athlete, 引退.",
     rx: ["たいがん", "だいかん", "たいけん"],
-    book: { ja: "{長年|ながねん}ご指導いただきました教授のご**{退官|たいかん}**にあたり、", en: "On the retirement of the professor who guided us for so many years,", at: "gp/120" },
+    book: { ja: "{長年|ながねん}ご指導いただきました教授のご**{退官|たいかん}**にあたり、", en: "As the professor who has guided us for so many years retires,", at: "gp/120" },
     ex: [
       { ja: "{恩師|おんし}が{今年|ことし}3{月|がつ}で**{退官|たいかん}**されるので、{記念|きねん}の{会|かい}を{開|ひら}くことにした。", en: "My old professor is retiring this March, so we've decided to hold a commemorative gathering.", alt: ["{退屈|たいくつ}", "{退化|たいか}", "{退治|たいじ}"] },
     ] },
@@ -563,7 +563,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "sorrow at parting; reluctance to say goodbye",
     note: "A literary word for the sadness of parting, used in farewell speeches and letters: 惜別の念 (feelings of regret at parting), 惜別の情, 惜別の辞 (a farewell address). In speech: 別れがつらい.",
     rx: ["しゃくべつ", "せきべち", "おしべつ"],
-    book: { ja: "{一同|いちどう}、**{惜別|せきべつ}**の{念|ねん}を禁じえません。", en: "none of us can hold back our sorrow at parting.", at: "gp/120" },
+    book: { ja: "{一同|いちどう}、**{惜別|せきべつ}**の{念|ねん}を禁じえません。", en: "all of us feel a sorrow at parting that we cannot hold back.", at: "gp/120" },
     ex: [
       { ja: "{卒業式|そつぎょうしき}では、{在校生|ざいこうせい}が**{惜別|せきべつ}**の{言葉|ことば}を{述|の}べた。", en: "At the graduation ceremony, a current student gave a farewell address.", alt: ["{区別|くべつ}", "{分別|ふんべつ}", "{差別|さべつ}"] },
     ] },
@@ -571,7 +571,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to shoulder, bear (responsibility, a role); to carry",
     note: "To take on an important role or burden: 将来を担う (shoulder the future), 責任を担う, 中心的な役割を担う. 次世代を担う若者 is a common phrase. The noun 担い手 means the bearer of a role. The same kanji read かつぐ is literal carrying on the shoulder.",
     rx: ["かつう", "たんう", "になむ"],
-    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を**{担|にな}う**にたる{素晴|すば}らしい{人材|じんざい}だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are splendid people fully worthy of shouldering our company's future.", at: "gp/121" },
+    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を**{担|にな}う**にたる{素晴|すば}らしい{人材|じんざい}だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people fully worthy of carrying our company's future on your shoulders.", at: "gp/121" },
     ex: [
       { ja: "{若|わか}い{世代|せだい}が、これからの{地域|ちいき}{社会|しゃかい}を**{担|にな}って**いく。", en: "The young generation will carry the local community forward from here.", alt: ["{任|まか}せて", "{預|あず}けて", "{譲|ゆず}って"] },
     ] },
@@ -579,7 +579,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "talented people; human resources; personnel",
     note: "Capable people as a resource: 優秀な人材, 人材を育てる, 人材不足, 人材派遣 (staffing agency). 人手 is labor in numbers; 人材 is people valued for their abilities.",
     rx: ["にんざい", "じんさい", "ひとざい"],
-    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を{担|にな}うにたる{素晴|すば}らしい**{人材|じんざい}**だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are splendid people fully worthy of shouldering our company's future.", at: "gp/121" },
+    book: { ja: "2,000人の中から選ばれた君たちは、{我|わ}が{社|しゃ}の将来を{担|にな}うにたる{素晴|すば}らしい**{人材|じんざい}**だと信じている。", en: "I believe that you, chosen from among 2,000 applicants, are outstanding people fully worthy of carrying our company's future on your shoulders.", at: "gp/121" },
     ex: [
       { ja: "{多|おお}くの{企業|きぎょう}が、{海外|かいがい}で{活躍|かつやく}できる**{人材|じんざい}**を{求|もと}めている。", en: "Many companies are looking for people who can succeed overseas.", alt: ["{材料|ざいりょう}", "{人口|じんこう}", "{人格|じんかく}"] },
     ] },
@@ -611,7 +611,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "others; other people",
     note: "A written, somewhat philosophical word for people other than oneself: 他者を思いやる, 他者との関係, 他者の視点. 他人 is the everyday word and can sound colder (他人事, 赤の他人).",
     rx: ["ほかしゃ", "たもの", "たじゃ"],
-    book: { ja: "**{他者|たしゃ}**を思いやることなくして、暮らしやすい社会は作れないはずだ。", en: "Without consideration for others, we surely cannot build a society that is pleasant to live in.", at: "gp/123" },
+    book: { ja: "**{他者|たしゃ}**を思いやることなくして、暮らしやすい社会は作れないはずだ。", en: "Without caring about others, we surely cannot build a society that is pleasant to live in.", at: "gp/123" },
     ex: [
       { ja: "{子|こ}どもは、{遊|あそ}びを{通|とお}して**{他者|たしゃ}**との{関|かか}わり{方|かた}を{学|まな}ぶ。", en: "Children learn how to relate to others through play.", alt: ["{他方|たほう}", "{筆者|ひっしゃ}", "{他界|たかい}"] },
     ] },
@@ -683,7 +683,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "court (of law); courtroom",
     note: "The place where a trial is held: 法廷で争う (fight it out in court), 法廷に立つ, 法廷で証言する. 裁判所 is the court as an institution or building; 法廷 is the courtroom where proceedings happen.",
     rx: ["ほうでい", "ほってい", "はってい"],
-    book: { ja: "**{法廷|ほうてい}**では個人的なことまで{追及|ついきゅう}されずには（　）だろう。", en: "In court, you will surely not escape being questioned even about personal matters.", at: "ch/10/review" },
+    book: { ja: "**{法廷|ほうてい}**では個人的なことまで{追及|ついきゅう}されずには（　）だろう。", en: "In court, you probably won't be able to avoid being questioned even about personal matters.", at: "ch/10/review" },
     ex: [
       { ja: "{両社|りょうしゃ}の{争|あらそ}いは、ついに**{法廷|ほうてい}**に{持|も}ち{込|こ}まれた。", en: "The dispute between the two companies was finally taken to court.", alt: ["{日程|にってい}", "{法案|ほうあん}", "{校庭|こうてい}"] },
     ] },
@@ -691,7 +691,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "pressing (for answers); grilling; pursuing (responsibility)",
     note: "Relentlessly questioning someone about wrongdoing: 責任を追及する, 厳しい追及を受ける, 疑惑を追及する. Three homophones: 追求 (pursuit of profit, happiness), 追究 (inquiry into truth), 追及 (pressing someone over blame).",
     rx: ["ついきょう", "ついぎゅう", "ずいきゅう"],
-    book: { ja: "{法廷|ほうてい}では個人的なことまで**{追及|ついきゅう}**されずには（　）だろう。", en: "In court, you will surely not escape being questioned even about personal matters.", at: "ch/10/review" },
+    book: { ja: "{法廷|ほうてい}では個人的なことまで**{追及|ついきゅう}**されずには（　）だろう。", en: "In court, you probably won't be able to avoid being questioned even about personal matters.", at: "ch/10/review" },
     ex: [
       { ja: "{野党|やとう}は、{国会|こっかい}で{大臣|だいじん}の{責任|せきにん}を{厳|きび}しく**{追及|ついきゅう}**した。", en: "In the Diet, the opposition grilled the minister, demanding accountability.", alt: ["{追加|ついか}", "{普及|ふきゅう}", "{追放|ついほう}"] },
     ] },
@@ -715,7 +715,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "hangover",
     note: "Feeling sick the day after drinking: 二日酔いになる, 二日酔いで頭が痛い. Note the reading ふつか (two days), not ににち. 悪酔い is getting sick while drinking.",
     rx: ["ににちよい", "ふたかよい", "ふつかすい"],
-    book: { ja: "**二日{酔|よ}い**で{欠勤|けっきん}するなんて、教師（　）ことだね。", en: "Missing work because of a hangover is behavior unworthy of a teacher.", at: "ch/10/review" },
+    book: { ja: "**二日{酔|よ}い**で{欠勤|けっきん}するなんて、教師（　）ことだね。", en: "Skipping work because of a hangover — that's behavior unworthy of a teacher.", at: "ch/10/review" },
     ex: [
       { ja: "{昨夜|さくや}{飲|の}みすぎて、ひどい**{二日酔|ふつかよ}い**だ。", en: "I drank too much last night and have a terrible hangover.", alt: ["{船酔|ふなよ}い", "{日帰|ひがえ}り", "{二日目|ふつかめ}"] },
     ] },
@@ -723,7 +723,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "absence from work",
     note: "Not showing up for work: 無断欠勤 (absence without notice), 病気で欠勤する, 欠勤届. For school it is 欠席. The opposite is 出勤.",
     rx: ["けつきん", "けっごん", "かきん"],
-    book: { ja: "二日{酔|よ}いで**{欠勤|けっきん}**するなんて、教師（　）ことだね。", en: "Missing work because of a hangover is behavior unworthy of a teacher.", at: "ch/10/review" },
+    book: { ja: "二日{酔|よ}いで**{欠勤|けっきん}**するなんて、教師（　）ことだね。", en: "Skipping work because of a hangover — that's behavior unworthy of a teacher.", at: "ch/10/review" },
     ex: [
       { ja: "{彼|かれ}は{三日間|みっかかん}も{無断|むだん}で**{欠勤|けっきん}**している。", en: "He has been absent from work for three days without notice.", alt: ["{出勤|しゅっきん}", "{転勤|てんきん}", "{欠点|けってん}"] },
     ] },
@@ -747,7 +747,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "interests; advantages and disadvantages",
     note: "What one stands to gain or lose: 利害が一致する (interests coincide), 利害が対立する, 利害関係 (a stake), 利害関係者 (stakeholders). 損得 is the casual “profit and loss” of a choice.",
     rx: ["りかい", "りがいい", "りげ"],
-    book: { ja: "さまざまな立場の人間がいて、その**利害**や{思惑|おもわく}が{絡|から}まり合う社会において、", en: "In a society where people in all kinds of positions live together and their interests and intentions are entangled with one another,", at: "ch/10/review" },
+    book: { ja: "さまざまな立場の人間がいて、その**利害**や{思惑|おもわく}が{絡|から}まり合う社会において、", en: "In a society made up of people in all kinds of positions, whose interests and motives are tangled up with one another,", at: "ch/10/review" },
     ex: [
       { ja: "{両国|りょうこく}の**{利害|りがい}**が{一致|いっち}し、{交渉|こうしょう}はすぐにまとまった。", en: "The two countries' interests coincided, and the negotiations were settled quickly.", alt: ["{利息|りそく}", "{被害|ひがい}", "{災害|さいがい}"] },
     ] },
@@ -755,7 +755,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "intention, calculation (often hidden); expectation; what others think",
     note: "What someone is privately aiming for or expects: 思惑通りに進む (go as planned), 各国の思惑 (each country's agenda), 思惑が外れる (expectations fail). Also what other people will think: 世間の思惑を気にする. Reading おもわく is irregular.",
     rx: ["しわく", "おもまど", "おもいわく"],
-    book: { ja: "さまざまな立場の人間がいて、その利害や**{思惑|おもわく}**が{絡|から}まり合う社会において、", en: "In a society where people in all kinds of positions live together and their interests and intentions are entangled with one another,", at: "ch/10/review" },
+    book: { ja: "さまざまな立場の人間がいて、その利害や**{思惑|おもわく}**が{絡|から}まり合う社会において、", en: "In a society made up of people in all kinds of positions, whose interests and motives are tangled up with one another,", at: "ch/10/review" },
     ex: [
       { ja: "{値上|ねあ}げで{利益|りえき}を{増|ふ}やそうとした{会社|かいしゃ}の**{思惑|おもわく}**は{外|はず}れ、{客|きゃく}が{離|はな}れていった。", en: "The company's hopes of boosting profits by raising prices came to nothing, and customers drifted away.", alt: ["{思想|しそう}", "{迷惑|めいわく}", "{思|おも}い{出|で}"] },
     ] },
@@ -763,7 +763,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to get tangled; to be entwined; to be involved, intertwined",
     note: "Literally, threads or cords tangling: コードが絡まる, 髪が絡まる. Figuratively, factors or interests intertwining: 様々な要因が絡まる, 利害が絡まり合う. The transitive 絡める means to entwine; 絡む also means to pick a quarrel (酔って絡む).",
     rx: ["からむる", "らくまる", "くるまる"],
-    book: { ja: "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が**{絡|から}まり**合う社会において、", en: "In a society where people in all kinds of positions live together and their interests and intentions are entangled with one another,", at: "ch/10/review" },
+    book: { ja: "さまざまな立場の人間がいて、その利害や{思惑|おもわく}が**{絡|から}まり**合う社会において、", en: "In a society made up of people in all kinds of positions, whose interests and motives are tangled up with one another,", at: "ch/10/review" },
     ex: [
       { ja: "イヤホンのコードが**{絡|から}まって**、なかなかほどけない。", en: "My earphone cord has gotten tangled and just won't come loose.", alt: ["{埋|う}まって", "{温|あたた}まって", "{早|はや}まって"] },
     ] },
@@ -771,7 +771,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "harmonious; amicable; peaceful",
     note: "Smooth and free of conflict: 円満な家庭 (a happy home), 円満な人間関係, 円満に解決する (settle amicably), 円満退社 (leaving a company on good terms). Of a person, it means well-rounded and amiable.",
     rx: ["えんばん", "まるまん", "えいまん"],
-    book: { ja: "全く{嘘|うそ}をつくことなしに**{円満|えんまん}**な人間関係は{築|きず}けないのではないか。", en: "isn't it impossible to build harmonious human relationships without ever telling a lie?", at: "ch/10/review" },
+    book: { ja: "全く{嘘|うそ}をつくことなしに**{円満|えんまん}**な人間関係は{築|きず}けないのではないか。", en: "isn't it impossible to build harmonious relationships without ever telling a lie?", at: "ch/10/review" },
     ex: [
       { ja: "{話|はな}し{合|あ}いの{結果|けっか}、{問題|もんだい}は**{円満|えんまん}**に{解決|かいけつ}した。", en: "After talks, the problem was resolved amicably.", alt: ["{満員|まんいん}", "{不満|ふまん}", "{円高|えんだか}"] },
     ] },
@@ -779,7 +779,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "to conceal, cover up, keep secret",
     note: "Mostly in the negative: 包み隠さず話す (tell everything frankly, hiding nothing), 包み隠さずに言う. A stronger, more emphatic form of 隠す.",
     rx: ["ほうみかくす", "つつみいんす", "くるみかくす"],
-    book: { ja: "{真実|しんじつ}を**{包|つつ}み{隠|かく}さず**伝える人物", en: "a person who conveys the truth without concealing anything", at: "ch/10/review" },
+    book: { ja: "{真実|しんじつ}を**{包|つつ}み{隠|かく}さず**伝える人物", en: "someone who tells the truth, hiding nothing", at: "ch/10/review" },
     ex: [
       { ja: "{医者|いしゃ}に{自分|じぶん}の{症状|しょうじょう}を**{包|つつ}み{隠|かく}さず**{話|はな}した。", en: "I told the doctor about my symptoms frankly, hiding nothing.", alt: ["{言|い}い{逃|のが}れず", "{使|つか}わず", "{飲|の}み{込|こ}まず"] },
     ] },
@@ -787,7 +787,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "foolish; stupid",
     note: "Lacking wisdom, written and somewhat stern: 愚かな行為, 愚か者 (a fool), 愚かにも (foolishly). ばか is the casual (and ruder) word. 〜はおろか (let alone ~) is a different expression written in kana.",
     rx: ["ぐか", "おろそか", "おろがか"],
-    book: { ja: "その結果起こる{事態|じたい}を予想できない**{愚|おろ}か**{者|もの}ではないだろうか。", en: "a fool who cannot foresee the situation that will result?", at: "ch/10/review" },
+    book: { ja: "その結果起こる{事態|じたい}を予想できない**{愚|おろ}か**{者|もの}ではないだろうか。", en: "a fool who cannot foresee what will happen as a result?", at: "ch/10/review" },
     ex: [
       { ja: "{一時|いちじ}の{感情|かんじょう}で{仕事|しごと}を{辞|や}めるなんて、**{愚|おろ}か**なことをしたものだ。", en: "Quitting my job in a moment of emotion was a foolish thing to do.", alt: ["{賢|かしこ}", "{確|たし}か", "{豊|ゆた}か"] },
     ] },
@@ -795,7 +795,7 @@ TRY.registerVocab({ ch: 10, words: [
     en: "leaving (things) to others; relying on others",
     note: "Letting others do what one should do oneself, usually critical: 他人任せにする, 他人任せの態度. 〜任せ also appears in 人任せ (the same idea), 運任せ (leaving it to luck), 成り行き任せ (letting things take their course).",
     rx: ["たにんにんせ", "たじんまかせ", "ほかひとまかせ"],
-    book: { ja: "一言で言うと「**他人{任|まか}せ**にして安心するべからず」ということです。", en: "In a word, it means “Thou shalt not leave it to others and rest easy.”", at: "ch/10/review" },
+    book: { ja: "一言で言うと「**他人{任|まか}せ**にして安心するべからず」ということです。", en: "In a word, it means “Don't leave it all to others and assume you're safe.”", at: "ch/10/review" },
     ex: [
       { ja: "{自分|じぶん}の{将来|しょうらい}のことなのに、{進路|しんろ}を**{他人任|たにんまか}せ**にしてはいけない。", en: "It's your own future, so don't leave the choice of your path to other people.", alt: ["{他人行儀|たにんぎょうぎ}", "{一人暮|ひとりぐ}らし", "{自分勝手|じぶんかって}"] },
     ] },
