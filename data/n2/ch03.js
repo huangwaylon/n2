@@ -12,14 +12,14 @@ TRY.registerChapter({
       sample: {
         kind: "speech",
         lines: [
-          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "To all of you who are now becoming part of this hotel, I'd like to talk about the mindset you'll need as hotel staff." },
+          { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフ**として**の{心構|こころがま}えをお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff." },
           { cont: true, ja: "いちばん難しいのは、{苦情|くじょう}{処理|しょり}です。", en: "The hardest part is handling complaints." },
           { cont: true, ja: "皆さん、やりたくないと思うでしょうが、ホテルで仕事を続ける**{限|かぎ}り**、お客様からのクレームに{対応|たいおう}せ**ざるを{得|え}ない**場面に{必|かなら}ず{出合|であ}います。", en: "You probably don't want to, but as long as you keep working at a hotel, you're bound to run into situations where you have no choice but to deal with complaints from guests." },
           { cont: true, ja: "お客様が{苦情|くじょう}をおっしゃったときは、ただ{謝|あやま}ればいい**というものではありません**。", en: "When a guest makes a complaint, it isn't simply a matter of apologizing." },
           { cont: true, ja: "そのクレームが{正当|せいとう}なものかどうか**はともかく**として、お客様は{不快|ふかい}な気持ちになっていらっしゃるので、{対応|たいおう}を{間違|まちが}えるとホテルへの{信頼|しんらい}を{失|うしな}い**かねません**。", en: "Whether or not the complaint is justified, the guest is upset, so if you handle it badly, the hotel could lose the guest's trust." },
           { cont: true, ja: "では、どうすればいいのでしょうか。", en: "So what should you do?" },
           { cont: true, ja: "そのときはお客様のお話を聞くことがいちばん大切です。", en: "In that situation, the most important thing is to listen to what the guest has to say." },
-          { cont: true, ja: "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them not so much as guests who are only staying a few days but as your own family, and hear them out properly, all the way to the end." },
+          { cont: true, ja: "{数日間|すうじつかん}{滞在|たいざい}するだけのお客様**というより**、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them less as guests who are only staying a few days than as your own family, and hear them out properly, all the way to the end." },
           { ja: "わがABKホテルは多くのお客様にサービスの{質|しつ}の高さを{評価|ひょうか}され、{愛|あい}されてきました。", en: "Our ABK Hotel has long been valued and loved by many guests for the high quality of its service." },
           { cont: true, ja: "しかし、今後ホテル{業界|ぎょうかい}はますます{競争|きょうそう}が{厳|きび}しくなりますから、安心し**てはいられません**。", en: "However, competition in the hotel industry is only going to get tougher from here on, so we can't afford to rest easy." },
           { cont: true, ja: "これからの{時代|じだい}は、今まで以上によいサービスを{追求|ついきゅう}する{必要|ひつよう}があります。", en: "From now on, we need to strive for even better service than ever before." },
@@ -37,11 +37,11 @@ TRY.registerChapter({
           forms: ["[N] + として"],
           examples: [
             { ja: "A：来週、出張だって？\nB：うん。シンガポール{支社|ししゃ}に{部長|ぶちょう}の{代理|だいり}として行くことになったんだ。", en: "A: I hear you've got a business trip next week?\nB: Yeah. It turns out I'm going to the Singapore branch as a stand-in for the department manager." },
-            { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your role as members of a company." },
-            { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for an overnight trip, so it's very convenient." },
+            { ja: "入社後は{企業人|きぎょうじん}としての{自覚|じかく}を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your responsibilities as working professionals." },
+            { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}{程度|ていど}の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of a night or so, so it's very convenient." },
             { ja: "{当|とう}ホテルではお{支払|しはら}いのときにサービス料として10%いただきます。", en: "At this hotel, we add 10% as a service charge when you pay." },
           ],
-          deepDive: "**〜として** names the role, status or function in which someone or something acts: *as*. 部長の代理として行く (*go as the manager's stand-in*), 記念として (*as a souvenir*). It answers *in what capacity?* and is neutral in register.\n\nBefore a noun it needs の: 教師としての経験 (*experience as a teacher*). **Nとしては** gives a standpoint: 担当者としては賛成できない (*speaking as the one in charge, I can't agree*). **AとしてもBとしても** means *both as A and as B*. With an object, **N₁をN₂とする** (#16) sets up a role: 田中さんをリーダーとして (*with Tanaka as leader*).\n\nCompare:\n- **〜にとって**: *for, from the standpoint of*, followed by an evaluation: 学生にとって大切な問題 (*an issue that matters to students*).\n- **〜にしては** (#41): *for a ~, unexpectedly*: 初心者にしては上手だ (*surprisingly good for a beginner*).\n- **〜としても** (#137): after a clause it means *even if*: 急いだとしても間に合わない (*even if we hurried, we wouldn't make it*). A noun before it means a role; a clause means a supposition.\n\nPitfall: ✗日本人として、この料理は辛すぎる. How something affects someone takes にとって.\n\nJLPT cue: a job title or role noun (代表, 専門家, 留学生) before the blank and a verb of acting (活躍する, 参加する, 働く) after it.",
+          deepDive: "**〜として** names the role, status or function in which someone or something acts: *as*. 部長の代理として行く (*go as the manager's stand-in*), 記念として (*as a souvenir*). It answers *in what capacity?* and is neutral in register.\n\nBefore a noun it needs の: 教師としての経験 (*experience as a teacher*). **Nとしては** gives a standpoint: 担当者としては賛成できない (*speaking as the one in charge, I can't agree*). **AとしてもBとしても** means *both as A and as B*. With an object, **N₁をN₂とする** (#16) sets up a role: 田中さんをリーダーとして (*with Tanaka as leader*).\n\nCompare:\n- **〜にとって**: *for, from the standpoint of*, followed by an evaluation: 学生にとって大切な問題 (*an issue that matters to students*).\n- **〜にしては** (#41): *for a ~, unexpectedly*: 初心者にしては上手だ (*surprisingly good for a beginner*).\n- **〜としても** (#137): after a clause it means *even if*: 急いだとしても間に合わない (*even if we hurried, we wouldn't make it*). A noun before it means a role; a clause means a supposition.\n\nPitfall: ✗子どもとしてこの本は難しすぎる. として names the role in which someone acts; how something affects someone takes にとって: 子どもにとって.\n\nJLPT cue: a job title or role noun (代表, 専門家, 留学生) before the blank and a verb of acting (活躍する, 参加する, 働く) after it.",
           see: [16, 41, 137, 113],
           index: ["Nとして", "Nとしての", "Nとしては", "Nとしても"],
           practice: [
@@ -155,7 +155,7 @@ TRY.registerChapter({
             { ja: "{首相|しゅしょう}の{発言|はつげん}は{国民|こくみん}{感情|かんじょう}を{無視|むし}したものと言わざるを{得|え}ない。", en: "I have to say that the prime minister's remarks disregarded public sentiment." },
           ],
           xref: "☞ p.220　〜{得|う}る／{得|え}る",
-          deepDive: "**〜ざるを得ない** is a double negative from classical grammar (ざる = the old negative ず, を得ない = *cannot get*): *cannot avoid doing* → *have no choice but to*. The speaker doesn't want to, but circumstances leave no alternative, so it never describes something done gladly.\n\nTake the ない-form and replace ない with ざる: 従わない → 従わざるを得ない. Irregulars: **する → せざる**, **来る → 来（こ）ざる**. It is formal and written in tone; in conversation 〜しかない or 〜なきゃ is more natural. With 言う, 認める or 考える it becomes a firm but measured criticism: 失敗だったと言わざるを得ない (*I have to say it was a failure*).\n\nCompare:\n- **〜ないわけにはいかない** (#57): *can't not do* for social or moral reasons: 招待されたから行かないわけにはいかない (*I was invited, so I can't very well not go*).\n- **〜ずにはいられない**: *can't help ~ing*, an urge from inside: 笑わずにはいられない (*I can't help laughing*).\n- **〜かねない** (#27): a risk that something bad happens, not an obligation.\n\nPitfall: ✗しざるを得ない is the most common error; する always becomes せざる.\n\nJLPT cue: a compelling reason (〜ので, 〜ため) followed by an unwelcome action at the blank.",
+          deepDive: "**〜ざるを得ない** is a double negative from classical grammar (ざる = the old negative ず, を得ない = *cannot get*): *cannot avoid doing* → *have no choice but to*. The speaker doesn't want to, but circumstances leave no alternative, so it never describes something done gladly.\n\nTake the ない-form and replace ない with ざる: 従わない → 従わざるを得ない. Irregulars: **する → せざる**, **来る → 来（こ）ざる**. It is formal and written in tone; in conversation 〜しかない or 〜なきゃ is more natural. With 言う, 認める or 考える it becomes a firm but measured criticism: 失敗だったと言わざるを得ない (*I have to say it was a failure*).\n\nCompare:\n- **〜ないわけにはいかない** (#57): *can't not do* for social or moral reasons: 招待されたから行かないわけにはいかない (*I was invited, so I can't very well not go*).\n- **〜ずにはいられない**: *can't help ~ing*, an urge from inside: 笑わずにはいられない (*I can't help laughing*).\n- **〜かねない** (#27): a risk that something bad happens, not an obligation.\n\nPitfall: ✗しざるを得ない is a common error; する always becomes せざる.\n\nJLPT cue: a compelling reason (〜ので, 〜ため) followed by an unwelcome action at the blank.",
           see: [66, 57, 29, 27],
           index: ["Vざるを得ない", "せざるを得ない"],
           practice: [
@@ -181,8 +181,8 @@ TRY.registerChapter({
             { ja: "「[なA]／[N] + というものではない」の形もある。", en: "The forms なA／N + というものではない also exist.", gen: true },
           ],
           examples: [
-            { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "Studying isn't a matter of doing it today so you can skip it tomorrow." },
-            { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "Nor is love necessarily all it takes to make a marriage work." },
+            { ja: "勉強は今日やれば明日やらなくていいというものではない。", en: "With studying, it's not as if doing some today means you can skip it tomorrow." },
+            { ja: "{結婚|けっこん}は{愛|あい}があればいいというものでもない。", en: "Love isn't necessarily all it takes to make a marriage work, either." },
             { ja: "{泥棒|どろぼう}の{被害|ひがい}は{鍵|かぎ}をかければ{防|ふせ}げるというものではない。", en: "You can't necessarily prevent burglary just by locking your doors." },
             { ja: "日本での{就職|しゅうしょく}には日本語能力試験N1{合格|ごうかく}が{必要|ひつよう}だと思われているが、なければだめだというものでもない。", en: "It's widely believed that you need to pass JLPT N1 to get a job in Japan, but that doesn't mean you can't get one without it." },
           ],
@@ -221,7 +221,7 @@ TRY.registerChapter({
                   q: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、{限界|げんかい}を感じる。",
                   options: ["わけだ", "というものではない"],
                   answer: 1,
-                  en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.",
+                  en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you run up against your limits, after all.",
                   why: { en: "The next sentence says talent is also needed, so liking painting doesn't automatically make you good at it: というものではない. わけだ would present it as a natural conclusion." },
                 },
               ],
@@ -246,7 +246,7 @@ TRY.registerChapter({
             { ja: "あの映画は内容はともかくとして、{出演者|しゅつえんしゃ}が有名だから{話題|わだい}になっている。", en: "Its content aside, that movie is getting a lot of buzz because of its famous cast." },
             { ja: "昨日見た{UFO|ユーフォー}{特集|とくしゅう}は本当かどうかはともかく、たいへん{興味深|きょうみぶか}い{番組|ばんぐみ}だった。", en: "Whether or not it was true, the UFO special I watched yesterday was a very interesting program." },
           ],
-          deepDive: "**Xはともかく（として）** sets X aside for now so the main clause can make the point that matters: *X aside, never mind X*. 見た目はともかく、味はいい (*never mind the looks, it tastes good*). What gets shelved is secondary, uncertain or not worth arguing about. The two halves usually contrast, with the more important or more favorable point last. として makes it slightly fuller and more formal.\n\nBesides nouns, it follows **〜かどうか** (本当かどうかはともかく, *whether or not it's true*) and a **question word + か** (誰がやったかはともかく, *never mind who did it*).\n\nCompare:\n- **〜を問わず** (#2): *regardless of*; X doesn't matter to a rule that covers every case: 国籍を問わず応募できる (*anyone can apply, whatever their nationality*).\n- **〜はもとより** (#12): *not to mention X*; X is taken for granted as included, the opposite of setting it aside.\n- **〜はさておき**: very close, often used to change the subject: 冗談はさておき (*joking aside*).\n\nPitfall: はともかく doesn't mean *regardless of*, so it can't introduce a rule: ✗年齢はともかく、だれでも参加できます.\n\nJLPT cue: a noun or 〜かどうか before the blank and a contrasting evaluation after it.",
+          deepDive: "**Xはともかく（として）** sets X aside for now so the main clause can make the point that matters: *X aside, never mind X*. 見た目はともかく、味はいい (*never mind the looks, it tastes good*). What gets shelved is secondary, uncertain or not worth arguing about. The two halves usually contrast, with the more important or more favorable point last. として makes it slightly fuller and more formal.\n\nBesides nouns, it follows **〜かどうか** (本当かどうかはともかく, *whether or not it's true*) and a **question word + か** (誰がやったかはともかく, *never mind who did it*).\n\nCompare:\n- **〜を問わず** (#2): *regardless of*; X doesn't matter to a rule that covers every case: 国籍を問わず応募できる (*anyone can apply, whatever their nationality*).\n- **〜はもとより** (#12): *not to mention X*; X is taken for granted as included, the opposite of setting it aside.\n- **〜はさておき**: very close, often used to change the subject: 冗談はさておき (*joking aside*).\n\nPitfall: はともかく doesn't mean *regardless of*, so it can't introduce a rule: ?年齢はともかく、だれでも参加できます (use 年齢を問わず).\n\nJLPT cue: a noun or 〜かどうか before the blank and a contrasting evaluation after it.",
           see: [2, 12],
           index: ["Nはともかく", "Nはともかくとして", "〜かどうかはともかく", "冗談はともかく"],
           practice: [
@@ -266,7 +266,7 @@ TRY.registerChapter({
                   q: "安いホテルでも、お{風呂|ふろ}（　）、シャワーがついていないと困る。",
                   options: ["はともかく", "を{問|と}わず"],
                   answer: 0,
-                  en: "Even at a cheap hotel, a bathtub is one thing, but I'd be in trouble without a shower.",
+                  en: "Even at a cheap hotel — never mind a bathtub — I'd be in trouble if there were no shower.",
                   why: { en: "A bathtub is set aside as not essential; the point is the shower: お風呂はともかく. を問わず needs a noun covering a range." },
                 },
                 {
@@ -298,7 +298,7 @@ TRY.registerChapter({
           examples: [
             { ja: "今のような{経営|けいえい}方法では、2、3年のうちに{倒産|とうさん}しかねない。", en: "If the business keeps being run the way it is now, it could go bankrupt within two or three years." },
             { ja: "{寝不足|ねぶそく}で運転したら{事故|じこ}を起こしかねないよ。", en: "If you drive without enough sleep, you could cause an accident." },
-            { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも{骨折|こっせつ}しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people can break a bone from even a minor fall, so you have to be careful." },
+            { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも{骨折|こっせつ}しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people could break a bone from even a minor fall, so you have to be careful." },
             { ja: "{情報|じょうほう}{管理|かんり}をきちんとしないと、{個人|こじん}{情報|じょうほう}を{悪用|あくよう}されかねない。", en: "If information isn't managed properly, personal data could end up being misused." },
           ],
           deepDive: "**〜かねない** comes from かねる *to be unable to*; negated, it says something is *not unable to happen*: *there's a real risk that ~*. It is a warning based on the present situation and is used only for bad outcomes: ✗成功しかねない. For neutral or good possibilities, use かもしれない. About a person, it means *they're quite capable of doing such a thing*, with the speaker's worry or criticism: あの人なら言いかねない (*they're just the type to say something like that*).\n\nIt follows the ます-stem (起こしかねない, ✗起こすかねない), passives included (悪用されかねない). The polite かねません is common in explanations and warnings. A conditional often sets it up: 〜と／〜たら／〜ては…かねない.\n\nCompare:\n- **〜おそれがある** (#34): more formal and report-like, and it can follow a noun: 噴火のおそれがある.\n- **〜ざるを得ない** (#24): obligation, not risk.\n- **V-かねる**: the positive form means the opposite, a polite *can't*: お答えしかねます (*I'm afraid I can't answer*).\n\nPitfall: かねない (*might*) and かねる (*can't*) look alike; check whether the sentence predicts a bad result or declines.\n\nJLPT cue: a cause before the blank and a bad consequence at it (事故, 倒産, 悪化, 信頼を失う).",
@@ -311,7 +311,7 @@ TRY.registerChapter({
               left: ["{準備|じゅんび}運動もしないで、急に{激|はげ}しい運動をしたら、", "インターネットショッピングは気をつけないと、", "{風邪|かぜ}をひいているのに{無理|むり}したら、", "{伊藤|いとう}さんに{秘密|ひみつ}を話したりしたら、"],
               right: ["{詐欺|さぎ}にあいかねない。", "けがをしかねないよ。", "クラス中の人に話しかねないよ。", "{悪化|あっか}しかねないから、会社休んだほうがいいよ。"],
               answer: [1, 0, 3, 2],
-              en: ["If you suddenly do strenuous exercise without even warming up, you could get injured.", "If you're not careful with online shopping, you could fall victim to fraud.", "If you push yourself when you have a cold, it could get worse, so you'd better take the day off work.", "If you go and tell Ito a secret, Ito might well tell the whole class."],
+              en: ["If you suddenly do strenuous exercise without even warming up, you could get injured.", "If you're not careful with online shopping, you could fall victim to fraud.", "If you push yourself when you have a cold, it could get worse, so you'd better take the day off work.", "If you go telling Ito secrets, Ito could end up telling the whole class."],
             },
           ],
         },
@@ -326,7 +326,7 @@ TRY.registerChapter({
           examples: [
             { ja: "{姉|あね}はぼくより10歳年上で、小さいときからいろいろ{世話|せわ}をしてくれたので、姉というより母親のような{存在|そんざい}だ。", en: "My sister is ten years older than me and has looked after me in all sorts of ways since I was little, so she's more like a mother than a sister." },
             { ja: "『{星|ほし}の{王子|おうじ}さま』は子ども{向|む}けというより、大人のための本だ。", en: "The Little Prince is not so much a children's book as a book for adults." },
-            { ja: "この絵は絵というより、まるで写真のようだ。", en: "This painting looks less like a painting than a photograph." },
+            { ja: "この絵は絵というより、まるで写真のようだ。", en: "This painting looks less like a painting than like a photograph." },
             { ja: "この町は昔はにぎわっていたが、今は{訪|おとず}れる人も少なく、静かというよりさびしい町になってしまった感じがする。", en: "This town used to be lively, but now few people visit, and it feels like it's become not so much quiet as desolate." },
           ],
           deepDive: "**AというよりB** says that B describes something better than A: *not so much A as B*, *more B than A*. A isn't wrong, only too weak or not quite right: 涼しいというより寒い (*it's not so much cool as cold*). むしろ strengthens it (AというよりむしろB); Aというよりは is a common variant.\n\nPlain form + というより; な-adjectives and nouns drop だ: 静かというより, 姉というより. Because it compares two labels for one thing, A and B describe the same subject, and B is usually the stronger or more telling word: 趣味というより仕事だ (*it's more a job than a hobby*).\n\nCompare:\n- **AよりBのほうが**: compares two different things: 犬より猫のほうが好き (*I like cats better than dogs*).\n- **〜というか** (casual): hesitant *or rather, how should I put it*: 優しいというか、甘いというか (*kind, or maybe just soft*).\n- **〜というものではない** (#25): rejects a general belief rather than refining a description.\n\nPitfall: ✗彼は日本人というより、私はアメリカ人だ. Both halves need the same subject: 彼は日本人というより、アメリカ人のようだ (*he seems more American than Japanese*).\n\nJLPT cue: two descriptions of one subject in a row, the second more accurate or stronger than the first.",
@@ -338,7 +338,7 @@ TRY.registerChapter({
               prompt: { ja: "", en: "Choose the expression that fills each blank from the box." },
               bank: ["というものではない", "というより", "ということだ", "といえば"],
               items: [
-                { q: "{在庫|ざいこ}がないので、今{注文|ちゅうもん}しても届くのは3か月後だ＿＿。", answer: "ということだ", en: "Apparently it's out of stock, so even if you order now, it won't arrive for three months.", why: { en: "At the end of the sentence the blank passes on what the seller says: ということだ, “they say.” というものではない would deny the three-month wait instead of reporting it." } },
+                { q: "{在庫|ざいこ}がないので、今{注文|ちゅうもん}しても届くのは3か月後だ＿＿。", answer: "ということだ", en: "Apparently it's out of stock, so even if you order now, it won't arrive for three months.", why: { en: "At the end of the sentence the blank passes on what someone has said: ということだ, “they say.” というものではない would deny the three-month wait instead of reporting it." } },
                 { q: "日本料理で有名なもの＿＿、てんぷらでしょう。", answer: "といえば", en: "Speaking of famous Japanese dishes, it would have to be tempura.", why: { en: "A topic is raised (famous Japanese dishes) and the first example it brings to mind follows: といえば, “speaking of.”" } },
                 { q: "彼女は歌手としてデビューしたが、最近はドラマの仕事が増えて、歌手＿＿{女優|じょゆう}として{活躍|かつやく}しています。", answer: "というより", en: "She debuted as a singer, but lately she's been getting more TV drama work, and these days she's busy as an actress rather than a singer.", why: { en: "The more accurate label 女優 follows the blank, so 歌手 is the less apt one: 歌手というより女優 (#28)." } },
                 { q: "顔がよければ、{俳優|はいゆう}になれる＿＿。", answer: "というものではない", en: "Being good-looking doesn't automatically mean you can become an actor.", why: { en: "A condition with 〜ば (顔がよければ) is denied as a general rule: というものではない (#25). ということだ would affirm it." } },
@@ -364,7 +364,7 @@ TRY.registerChapter({
             { ja: "A：朝ご飯、ちゃんと食べてから行きなさい。\nB：{遅刻|ちこく}しちゃうよ。ご飯なんか食べていられないよ。", en: "A: Eat your breakfast properly before you go.\nB: I'm going to be late! I can't sit around eating breakfast!" },
             { ja: "いつまでも{夢|ゆめ}見る少女じゃいられないよね、私たち。", en: "We can't stay starry-eyed girls forever, can we?" },
           ],
-          deepDive: "**〜てはいられない** is V-ている + いられない (*can't stay*): *can't afford to keep ~ing*, *this is no time to ~*. It expresses urgency: circumstances or the speaker's own sense of pressure rule out staying in a relaxed or passive state. The book gives two readings: *can't go on* (いつまでも甘えてはいられない, *I can't keep relying on others forever*) and *not in a position to* (忙しくて寝てはいられない, *I'm too busy to sleep*). Typical verbs are 待つ, 休む, のんびりする, 甘える and 頼る, often with いつまでも or これ以上.\n\nCasual forms are **〜ちゃいられない / 〜じゃいられない**; nouns take **Nではいられない** (子どもではいられない, *can't stay a child*).\n\nCompare:\n- **〜ずにはいられない**: *can't help ~ing*: 笑わずにはいられない (*I can't help laughing*), whereas 笑ってはいられない means *this is no laughing matter*.\n- **〜ざるを得ない** (#24): *forced to do* an action, the reverse direction.\n- **〜わけにはいかない** (#57): *can't, because it would be wrong*: a social reason rather than urgency.\n\nPitfall: the verb must be something one could keep doing; ✗出発してはいられない.\n\nJLPT cue: いつまでも or これ以上 before the blank and a reason pressing the speaker to act.",
+          deepDive: "**〜てはいられない** is V-て + は + いられない, the potential of いる (*can't stay ~ing*): *can't afford to keep ~ing*, *this is no time to ~*. It expresses urgency: circumstances or the speaker's own sense of pressure rule out staying in a relaxed or passive state. The book gives two readings: *can't go on* (いつまでも甘えてはいられない, *I can't keep relying on others forever*) and *not in a position to* (忙しくて寝てはいられない, *I'm too busy to sleep*). Typical verbs are 待つ, 休む, のんびりする, 甘える and 頼る, often with いつまでも or これ以上.\n\nCasual forms are **〜ちゃいられない / 〜じゃいられない**; nouns take **Nではいられない** (子どもではいられない, *can't stay a child*).\n\nCompare:\n- **〜ずにはいられない**: *can't help ~ing*: 笑わずにはいられない (*I can't help laughing*), whereas 笑ってはいられない means *this is no laughing matter*.\n- **〜ざるを得ない** (#24): *forced to do* an action, the reverse direction.\n- **〜わけにはいかない** (#57): *can't, because it would be wrong*: a social reason rather than urgency.\n\nPitfall: the verb must be something one could keep doing; a one-off act sounds wrong: ?出発してはいられない.\n\nJLPT cue: いつまでも or これ以上 before the blank and a reason pressing the speaker to act.",
           see: [24, 57, 19, 38],
           index: ["Vてはいられない", "Vちゃいられない", "Vじゃいられない", "Nではいられない"],
           practice: [
@@ -406,7 +406,7 @@ TRY.registerChapter({
           bank: ["てはいられない", "かねない", "ざるを{得|え}ない", "というものではありません"],
           items: [
             { q: "{材料費|ざいりょうひ}が上がっているので、うちのパンやケーキも{値上|ねあ}げせ＿＿んです。", answer: "ざるを{得|え}ない", en: "Ingredient costs are going up, so we have no choice but to raise the prices of our bread and cakes too." },
-            { q: "そんな大変な仕事を{頼|たの}んだら、会社を{辞|や}めると言い＿＿よ。", answer: "かねない", en: "If you ask them to do a job that tough, they're liable to say they're quitting the company." },
+            { q: "そんな大変な仕事を{頼|たの}んだら、会社を{辞|や}めると言い＿＿よ。", answer: "かねない", en: "If you ask them to do a job that tough, they could well say they're going to quit the company." },
             { q: "作文はたくさん書けばいい＿＿。考えをまとめて、意味のある内容にすることが大切です。", answer: "というものではありません", en: "Writing compositions isn't simply a matter of writing a lot. What matters is organizing your thoughts and saying something meaningful." },
             { q: "A：仕事、探しているんだって？\nB：うん、もう30歳だし、いつまでも{夢|ゆめ}を{追|お}いかけ＿＿からね。", answer: "てはいられない", en: "A: I hear you're looking for a job?\nB: Yeah, I'm already 30, so I can't keep chasing my dreams forever." },
           ],

@@ -3,7 +3,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "mental attitude; readiness; the frame of mind a role or situation calls for",
     note: "What you should keep in mind before starting something: 〜としての心構え (the attitude needed as ~), 心構えができている (be mentally prepared). 覚悟 is resolve to face something hard; 心得 is know-how or the rules one should follow.",
     rx: ["こころかまえ", "しんがまえ", "こころがまい"],
-    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "To all of you who are now becoming part of this hotel, I'd like to talk about the mindset you'll need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの一員となる皆さんに、ホテルスタッフとしての**{心構|こころがま}え**をお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{入社|にゅうしゃ}{前|まえ}に、{社会人|しゃかいじん}としての**{心構|こころがま}え**について{先輩|せんぱい}に{話|はなし}を{聞|き}いた。", en: "Before joining the company, I asked a senior colleague about the attitude you need as a working adult.", alt: ["{心当|こころあ}たり", "{心細|こころぼそ}さ", "{構造|こうぞう}"] },
     ] },
@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "a member (of a group, team or family)",
     note: "Usually in 〜の一員 (a member of ~), 〜の一員となる / として: チームの一員, 社会の一員. It stresses belonging to the whole; メンバー is the casual loanword. Pets are often called 家族の一員.",
     rx: ["いちえん", "いっいん", "ひといん"],
-    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "To all of you who are now becoming part of this hotel, I'd like to talk about the mindset you'll need as hotel staff.", at: "ch/3" },
+    book: { ja: "今からこのホテルの**一員**となる皆さんに、ホテルスタッフとしての{心構|こころがま}えをお話しします。", en: "To all of you who are joining this hotel as of today, I'd like to talk about the mindset you need as hotel staff.", at: "ch/3" },
     ex: [
       { ja: "{我|わ}が{家|や}では、{犬|いぬ}も{大切|たいせつ}な{家族|かぞく}の**{一員|いちいん}**だ。", en: "In our house, the dog is an important member of the family too.", alt: ["{一面|いちめん}", "{一同|いちどう}", "{一種|いっしゅ}"] },
     ] },
@@ -67,7 +67,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "stay (at a place for a period of time)",
     note: "Staying somewhere away from home for a while: ホテルに滞在する, 滞在期間 (length of stay), 長期滞在. 宿泊 is specifically staying the night at lodging; 在住 is living (residing) somewhere.",
     rx: ["たいさい", "ていざい", "たいざ"],
-    book: { ja: "{数日間|すうじつかん}**{滞在|たいざい}**するだけのお客様というより、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them not so much as guests who are only staying a few days but as your own family, and hear them out properly, all the way to the end.", at: "ch/3" },
+    book: { ja: "{数日間|すうじつかん}**{滞在|たいざい}**するだけのお客様というより、自分の家族だと思って、最後まできちんと聞いてください。", en: "Think of them less as guests who are only staying a few days than as your own family, and hear them out properly, all the way to the end.", at: "ch/3" },
     ex: [
       { ja: "{出張|しゅっちょう}で{一週間|いっしゅうかん}ほどロンドンに**{滞在|たいざい}**する{予定|よてい}だ。", en: "I'm scheduled to stay in London for about a week on business.", alt: ["{存在|そんざい}", "{在籍|ざいせき}", "{停滞|ていたい}"] },
     ] },
@@ -123,7 +123,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "awareness (of one's own position, duties or condition); self-awareness",
     note: "Being conscious of something about yourself: 〜としての自覚を持つ (be aware of one's role as ~), 責任を自覚する, 自覚症状 (symptoms you notice yourself). 意識 is consciousness in general; 自信 is self-confidence.",
     rx: ["じがく", "しかく", "じっかく"],
-    book: { ja: "入社後は{企業人|きぎょうじん}としての**{自覚|じかく}**を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your role as members of a company.", at: "gp/22" },
+    book: { ja: "入社後は{企業人|きぎょうじん}としての**{自覚|じかく}**を持って行動してください。", en: "Once you've joined the company, please conduct yourselves with an awareness of your responsibilities as working professionals.", at: "gp/22" },
     ex: [
       { ja: "{親|おや}になって、{初|はじ}めて{責任|せきにん}の{重|おも}さを**{自覚|じかく}**した。", en: "Only after becoming a parent did I become aware of how heavy the responsibility is.", alt: ["{自信|じしん}", "{感覚|かんかく}", "{視覚|しかく}"] },
     ] },
@@ -131,7 +131,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "degree; extent; level; (after a quantity) about, or so",
     note: "After a number it means “about”: 1泊程度 (a night or so), 30分程度 — a little more formal than ぐらい. As a noun: ある程度 (to some extent), 程度の問題 (a matter of degree), 被害の程度 (extent of the damage).",
     rx: ["ていと", "てど", "ほどど"],
-    book: { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}**{程度|ていど}**の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for an overnight trip, so it's very convenient.", at: "gp/22" },
+    book: { ja: "こちらのかばんはビジネスバッグとしても1{泊|はく}**{程度|ていど}**の旅行かばんとしてもお使いいただけますので、たいへん便利です。", en: "This bag can be used both as a business bag and as a travel bag for a trip of a night or so, so it's very convenient.", at: "gp/22" },
     ex: [
       { ja: "{健康|けんこう}のために、{毎日|まいにち}30{分|ぷん}**{程度|ていど}**の{散歩|さんぽ}を{続|つづ}けている。", en: "For my health, I keep up a walk of about thirty minutes every day.", alt: ["{限度|げんど}", "{制度|せいど}", "{速度|そくど}"] },
     ] },
@@ -291,7 +291,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "oil painting",
     note: "油 (oil) + 絵 (picture), with 絵 read え. 油絵を描く (paint in oils); a watercolor is 水彩画 and a Japanese-style painting 日本画. 油 here is あぶら, not ゆ.",
     rx: ["ゆえ", "あぶらかい", "ゆかい"],
-    book: { ja: "**{油絵|あぶらえ}**を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.", at: "gp/25" },
+    book: { ja: "**{油絵|あぶらえ}**を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you run up against your limits, after all.", at: "gp/25" },
     ex: [
       { ja: "{定年|ていねん}{後|ご}、{父|ちち}は**{油絵|あぶらえ}**を{描|か}くのを{趣味|しゅみ}にしている。", en: "Since retiring, my father has taken up oil painting as a hobby.", alt: ["{油断|ゆだん}", "{石油|せきゆ}", "{絵具|えのぐ}"] },
     ] },
@@ -299,7 +299,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "talent; gift; natural ability",
     note: "Inborn ability in a field: 才能がある, 才能に恵まれる, 才能を伸ばす (develop a talent), 音楽の才能. 能力 is ability in general (including learned skills); 素質 is aptitude or potential.",
     rx: ["ざいのう", "さいどう", "せいのう"],
-    book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり**{才能|さいのう}**がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.", at: "gp/25" },
+    book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり**{才能|さいのう}**がないと、{限界|げんかい}を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you run up against your limits, after all.", at: "gp/25" },
     ex: [
       { ja: "{彼女|かのじょ}には{子|こ}どもの{頃|ころ}から{音楽|おんがく}の**{才能|さいのう}**があった。", en: "She has had a talent for music since she was a child.", alt: ["{性能|せいのう}", "{機能|きのう}", "{芸能|げいのう}"] },
     ] },
@@ -307,7 +307,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "limit; limitation; the most one can do",
     note: "The point beyond which one cannot go: 限界を感じる / 超える, 体力の限界, もう限界だ (I can't take any more). 限度 is a set upper limit (限度額 “credit limit”); 境界 is a boundary line.",
     rx: ["げんがい", "けんかい", "かぎかい"],
-    book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、**{限界|げんかい}**を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you do feel your limits.", at: "gp/25" },
+    book: { ja: "{油絵|あぶらえ}を習い始めたが、好きならば上手になる（　）とわかった。やっぱり{才能|さいのう}がないと、**{限界|げんかい}**を感じる。", en: "I started learning oil painting, and realized that liking something doesn't automatically make you good at it. Without talent, you run up against your limits, after all.", at: "gp/25" },
     ex: [
       { ja: "{毎日|まいにち}{残業|ざんぎょう}が{続|つづ}いて、もう{体力|たいりょく}の**{限界|げんかい}**だ。", en: "With overtime every day, I've reached the limit of my stamina.", alt: ["{世界|せかい}", "{境界|きょうかい}", "{限定|げんてい}"] },
     ] },
@@ -403,7 +403,7 @@ TRY.registerVocab({ ch: 3, words: [
     en: "bone fracture; breaking a bone",
     note: "足を骨折する (break one's leg), 骨折で入院する. The idiom 骨を折る means “take pains, make an effort” (骨折り “trouble, effort”), not a literal fracture.",
     rx: ["こつせつ", "ほねせつ", "こっさつ"],
-    book: { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも**{骨折|こっせつ}**しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people can break a bone from even a minor fall, so you have to be careful.", at: "gp/27" },
+    book: { ja: "お{年寄|としよ}りはちょっと{転|ころ}んだだけでも**{骨折|こっせつ}**しかねないから、注意が{必要|ひつよう}だ。", en: "Elderly people could break a bone from even a minor fall, so you have to be careful.", at: "gp/27" },
     ex: [
       { ja: "スキーで{転|ころ}んで、{右足|みぎあし}を**{骨折|こっせつ}**した。", en: "I fell while skiing and broke my right leg.", alt: ["{挫折|ざせつ}", "{右折|うせつ}", "{骨格|こっかく}"] },
     ] },

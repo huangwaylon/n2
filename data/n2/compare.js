@@ -484,7 +484,7 @@ TRY.registerCompare([
         ex: { ja: "A：先生、{山下|やました}君のせいで私たちのグループだけ、作品が{完成|かんせい}していないんです。\nB：困ったときに助け合うのが友達**というものだ**ろ。手伝ってあげなさい。", en: "A: Our group is the only one that hasn't finished its piece, and it's Yamashita's fault.\nB: Helping each other when you're in trouble — that's what friends are for, isn't it? Go help him out." },
         note: "N + というものだ: \"that's what N is (really about)\". Presents the speaker's view as common sense or the essence of N (それが友達というものだ), not a personal opinion." },
       { pattern: "〜というものではない", level: "N2", no: 25,
-        ex: { ja: "勉強は今日やれば明日やらなくていい**というものではない**。", en: "Studying isn't a matter of doing it today so you can skip it tomorrow." },
+        ex: { ja: "勉強は今日やれば明日やらなくていい**というものではない**。", en: "With studying, it's not as if doing some today means you can skip it tomorrow." },
         note: "Plain form + というものではない: \"it's not necessarily the case that\". Rejects an easy formula people tend to believe (〜ばいいというものではない); a partial, not total, denial." },
       { pattern: "〜ものがある", level: "N2", no: 92,
         ex: { ja: "A：この町、ずいぶん変わりましたね。\nB：ええ、便利にはなったんですが、違う町になってしまったみたいで、さびしい**ものがあります**よ。", en: "A: This town has really changed, hasn't it?\nB: Yes. It's become more convenient, but it feels like it's turned into a different town, and there's something sad about that." },
