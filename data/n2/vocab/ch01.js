@@ -19,7 +19,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "capable people; talent; personnel (seen as a resource an organization needs)",
     note: "A business and news word: 人材を求める / 育てる / 確保する (seek / train / secure talent), 人材不足 (labor shortage). It looks at people as an asset, so you wouldn't call a friend 人材. 人手 is the everyday word for “hands, workers”.",
     rx: ["じんさい", "にんざい", "ひとざい"],
-    book: { ja: "さいわい駅前店オープンにつき、**{人材|じんざい}**を{求|もと}めています", en: "Now hiring for the opening of our Saiwai Station store.", at: "ch/1" },
+    book: { ja: "さいわい駅前店オープンにつき、**{人材|じんざい}**を{求|もと}めています", en: "With the opening of our Saiwai Station store, we are looking for staff.", at: "ch/1" },
     ex: [
       { ja: "{地方|ちほう}の{中小|ちゅうしょう}{企業|きぎょう}では、{若|わか}い**{人材|じんざい}**が{不足|ふそく}している。", en: "Small and medium-sized companies in rural areas are short of young talent.", alt: ["{人生|じんせい}", "{人格|じんかく}", "{人類|じんるい}"] },
     ] },
@@ -27,7 +27,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "business; (one's) work, duties, operations",
     note: "A formal word for the work an organization or job involves: 業務内容 (job duties), 業務時間, 業務用 (for commercial use). In conversation people just say 仕事; 業務 sounds like a job ad, a contract or an office notice.",
     rx: ["ごうむ", "ぎょむ", "ぎょうぶ"],
-    book: { ja: "仕事▶{開店|かいてん}**{業務|ぎょうむ}**、{販売|はんばい}、{清掃|せいそう}、{商品|しょうひん}{管理|かんり}、{閉店|へいてん}{業務|ぎょうむ}", en: "Work: store-opening duties, sales, cleaning, merchandise management, store-closing duties", at: "ch/1" },
+    book: { ja: "仕事▶{開店|かいてん}**{業務|ぎょうむ}**、{販売|はんばい}、{清掃|せいそう}、{商品|しょうひん}{管理|かんり}、{閉店|へいてん}{業務|ぎょうむ}", en: "Duties: opening tasks, sales, cleaning, stock management, closing tasks", at: "ch/1" },
     ex: [
       { ja: "{新|あたら}しいシステムの{導入|どうにゅう}で、{毎日|まいにち}の**{業務|ぎょうむ}**がかなり{楽|らく}になった。", en: "With the new system in place, our daily work has become much easier.", alt: ["{義務|ぎむ}", "{職業|しょくぎょう}", "{業績|ぎょうせき}"] },
     ] },
@@ -43,7 +43,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "qualification; eligibility; license or certificate",
     note: "Both the requirements for something (応募資格 “eligibility to apply”) and an official certification you earn: 資格を取る (get qualified), 教員の資格. 免許 is specifically a license such as a driver's license.",
     rx: ["しっかく", "しかっく", "じかく"],
-    book: { ja: "**{資格|しかく}**▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
+    book: { ja: "**{資格|しかく}**▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Qualifications: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "{仕事|しごと}に{役立|やくだ}つので、{会計|かいけい}の**{資格|しかく}**を取ろうと思っている。", en: "I'm thinking of getting an accounting qualification because it will help at work.", alt: ["{資源|しげん}", "{性格|せいかく}", "{価格|かかく}"] },
     ] },
@@ -51,7 +51,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "nationality; citizenship",
     note: "The legal nationality of a person (or registry of a ship/aircraft): 日本国籍を取得する (acquire Japanese citizenship), 国籍を問わず (regardless of nationality). Forms ask 国籍 where English forms say “Nationality”.",
     rx: ["こくせつ", "こうせき", "くにせき"],
-    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・**{国籍|こくせき}**を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
+    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・**{国籍|こくせき}**を{問|と}わず、やる気のある方、{大歓迎|だいかんげい}！", en: "Qualifications: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "このチームには、さまざまな**{国籍|こくせき}**の{選手|せんしゅ}がいる。", en: "This team has players of many different nationalities.", alt: ["{戸籍|こせき}", "{書籍|しょせき}", "{国境|こっきょう}"] },
     ] },
@@ -59,7 +59,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "a very warm welcome; (…) very welcome",
     note: "大 + 歓迎 (welcome). Ads and notices use it as a slogan: 初心者大歓迎 (beginners very welcome), 未経験者大歓迎. 歓迎 itself is also used for people and ideas: 歓迎会 (welcome party), 意見を歓迎する.",
     rx: ["だいかんぎょう", "たいかんげい", "だいかんけい"],
-    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、**{大歓迎|だいかんげい}**！", en: "Requirements: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
+    book: { ja: "{資格|しかく}▶{年齢|ねんれい}・{経験|けいけん}・{国籍|こくせき}を{問|と}わず、やる気のある方、**{大歓迎|だいかんげい}**！", en: "Qualifications: regardless of age, experience or nationality, anyone motivated is very welcome!", at: "ch/1" },
     ex: [
       { ja: "{料理|りょうり}{教室|きょうしつ}は{初心者|しょしんしゃ}**{大歓迎|だいかんげい}**です。", en: "Beginners are very welcome at the cooking class.", alt: ["{大成功|だいせいこう}", "{大反対|だいはんたい}", "{大混乱|だいこんらん}"] },
     ] },
@@ -99,7 +99,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "consideration; taking (something) into account",
     note: "Formal: 〜を考慮する / 〜を考慮に入れる (take into account), 考慮の上 (after due consideration). It means weighing a factor when deciding, not “thinking about” in general (that is 考える / 検討する).",
     rx: ["こうろ", "こうりょう", "こりょ"],
-    book: { ja: "＊{経験|けいけん}{年数|ねんすう}に{応|おう}じ、{時給|じきゅう}は**{考慮|こうりょ}**します。", en: "* Hourly wages take years of experience into account.", at: "ch/1" },
+    book: { ja: "＊{経験|けいけん}{年数|ねんすう}に{応|おう}じ、{時給|じきゅう}は**{考慮|こうりょ}**します。", en: "* Hourly pay will be adjusted according to years of experience.", at: "ch/1" },
     ex: [
       { ja: "{参加者|さんかしゃ}の{年齢|ねんれい}を**{考慮|こうりょ}**して、ハイキングのコースを決めた。", en: "We chose the hiking route taking the participants' ages into account.", alt: ["{遠慮|えんりょ}", "{苦労|くろう}", "{反省|はんせい}"] },
     ] },
@@ -107,7 +107,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "payment or provision (of money or goods, by an employer or authority)",
     note: "An organization giving money or items to people it is responsible for: 交通費を支給する, ボーナスの支給, 制服支給 (uniform provided). Contrast 支払う (pay for something you bought) and 提供 (offer to customers or the public).",
     rx: ["しっきゅう", "しきゅ", "ちきゅう"],
-    book: { ja: "交通費▶{往復|おうふく}1,000円まで**{支給|しきゅう}**", en: "Transportation: paid up to ¥1,000 round trip", at: "ch/1" },
+    book: { ja: "交通費▶{往復|おうふく}1,000円まで**{支給|しきゅう}**", en: "Commuting allowance: up to ¥1,000 round trip", at: "ch/1" },
     ex: [
       { ja: "この会社では、{社員|しゃいん}に{作業服|さぎょうふく}が**{支給|しきゅう}**される。", en: "At this company, employees are issued work clothes.", alt: ["{請求|せいきゅう}", "{需要|じゅよう}", "{要求|ようきゅう}"] },
     ] },
@@ -483,7 +483,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "one's superiors; people senior to oneself (in age or status)",
     note: "Used in talk about politeness: 目上の人には敬語を使う. The opposite is 目下 (one's juniors). It is about social rank or age, not about who is physically taller.",
     rx: ["もくじょう", "めじょう", "めうわ"],
-    book: { ja: "**{目上|めうえ}**の人と話す{際|さい}には、言葉だけでなく{態度|たいど}にも気をつけてください。", en: "When talking with your superiors, pay attention not only to your words but also to your attitude.", at: "gp/7" },
+    book: { ja: "**{目上|めうえ}**の人と話す{際|さい}には、言葉だけでなく{態度|たいど}にも気をつけてください。", en: "When talking with someone older or more senior than you, be careful not only about your words but also about your attitude.", at: "gp/7" },
     ex: [
       { ja: "**{目上|めうえ}**の{人|ひと}に「ご{苦労|くろう}さま」と言うのは{失礼|しつれい}だとされる。", en: "Saying 「ご苦労さま」 to a superior is considered rude.", alt: ["{目下|めした}", "{目標|もくひょう}", "{目次|もくじ}"] },
     ] },
@@ -539,7 +539,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "shipping; sending out (goods or mail)",
     note: "The sender dispatching things: 商品を発送する, 発送日, ご注文後3日以内に発送. 配送 / 配達 is the delivery to the recipient; 送信 is sending data or email.",
     rx: ["はつそう", "はっそ", "ほっそう"],
-    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that some items were shipped late when we sent out your orders.", at: "gp/7" },
+    book: { ja: "{商品|しょうひん}**{発送|はっそう}**に{際|さい}して、一部{商品|しょうひん}の{発送|はっそう}が遅れましたことを深くおわびいたします。", en: "We sincerely apologize that, in shipping your orders, some items were sent out late.", at: "gp/7" },
     ex: [
       { ja: "ご{注文|ちゅうもん}の{品|しな}は、{明日|あす}**{発送|はっそう}**いたします。", en: "We will ship the item you ordered tomorrow.", alt: ["{発生|はっせい}", "{放送|ほうそう}", "{発見|はっけん}"] },
     ] },
@@ -595,7 +595,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "adjustment; tuning; coordinating (schedules or opinions)",
     note: "Fine-tuning to fit needs: 温度を調整する, スケジュールを調整する (coordinate schedules), 意見の調整. 調節 is adjusting a level mechanically (音量の調節); 調整 is broader and includes arranging among people.",
     rx: ["ちょうぜい", "ちょせい", "しょうせい"],
-    book: { ja: "カレーの{辛|から}さはお客様のご{希望|きぼう}＿＿**{調整|ちょうせい}**いたします。", en: "We adjust the spiciness of the curry according to the customer's wishes.", at: "ch/1" },
+    book: { ja: "カレーの{辛|から}さはお客様のご{希望|きぼう}＿＿**{調整|ちょうせい}**いたします。", en: "We will adjust the spiciness of your curry to suit your preference.", at: "ch/1" },
     ex: [
       { ja: "{会議|かいぎ}の{日程|にってい}を**{調整|ちょうせい}**するのに{苦労|くろう}した。", en: "I had a hard time coordinating the schedule for the meeting.", alt: ["{整備|せいび}", "{調子|ちょうし}", "{強調|きょうちょう}"] },
     ] },
@@ -603,7 +603,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "first come (first served); arriving first",
     note: "A notice word for limited offers: 先着10名様 (the first ten people), 先着順 (on a first-come, first-served basis). The opposite method is 抽選 (by lottery).",
     rx: ["せんちゃっく", "さきちゃく", "せんじゃく"],
-    book: { ja: "毎週日曜日は**{先着|せんちゃく}**10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。", en: "Every Sunday, only the first 10 people can try the ninja experience for free.", at: "ch/1" },
+    book: { ja: "毎週日曜日は**{先着|せんちゃく}**10名様＿＿、{無料|むりょう}で{忍者|にんじゃ}{体験|たいけん}ができます。", en: "Every Sunday, a free ninja experience is offered to the first 10 people only.", at: "ch/1" },
     ex: [
       { ja: "{説明会|せつめいかい}の{席|せき}は**{先着|せんちゃく}**{順|じゅん}となります。", en: "Seats at the information session are first come, first served.", alt: ["{発着|はっちゃく}", "{先輩|せんぱい}", "{着席|ちゃくせき}"] },
     ] },
@@ -627,7 +627,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "delivery (of goods); shipping",
     note: "Getting goods to customers: 配送料 (delivery charge), 配送日時を指定する, 無料配送. 配達 is used for mail, newspapers and food delivery; 配送 sounds more like logistics.",
     rx: ["はいぞう", "ばいそう", "はいそ"],
-    book: { ja: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で**{配送|はいそう}**を{承|うけたまわ}ります。", en: "At the moment, for this product only, we will deliver anywhere in the country for 210 yen.", at: "ch/1/review" },
+    book: { ja: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で**{配送|はいそう}**を{承|うけたまわ}ります。", en: "Right now, for this product only, we will deliver anywhere in Japan for ¥210.", at: "ch/1/review" },
     ex: [
       { ja: "{大型|おおがた}の{家具|かぐ}は、**{配送|はいそう}**に一週間ほどかかります。", en: "Delivery of large furniture takes about a week.", alt: ["{配布|はいふ}", "{手配|てはい}", "{心配|しんぱい}"] },
     ] },
@@ -635,7 +635,7 @@ TRY.registerVocab({ ch: 1, words: [
     en: "to receive, accept or take (an order, request); to hear (humble)",
     note: "Humble 謙譲語 used by staff to customers: ご注文を承ります (we take orders), ご予約を承りました, お話を承る (hear what you have to say). Note the long kun reading on a single kanji: うけたまわる.",
     rx: ["うけたまる", "うけわたる", "うけとまわる"],
-    book: { ja: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で{配送|はいそう}を**{承|うけたまわ}ります**。", en: "At the moment, for this product only, we will deliver anywhere in the country for 210 yen.", at: "ch/1/review" },
+    book: { ja: "ただ今、こちらの{商品|しょうひん}（　）、全国どこでも210円で{配送|はいそう}を**{承|うけたまわ}ります**。", en: "Right now, for this product only, we will deliver anywhere in Japan for ¥210.", at: "ch/1/review" },
     ex: [
       { ja: "ご{予約|よやく}はお{電話|でんわ}でも**{承|うけたまわ}って**おります。", en: "We also accept reservations by phone.", alt: ["{存|ぞん}じて", "{申|もう}し{上|あ}げて", "{召|め}し{上|あ}がって"] },
     ] },
