@@ -42,6 +42,18 @@ vocab-check reports for other chapters belong to other agents — ignore them. N
 Report: counts (strings reviewed / changed), the 5–10 most significant fixes (mistranslations, wrong claims),
 anything left unresolved.
 
+## Second pass (N2, N1): critical cross-review
+
+A first agent has already reviewed the unit. Review it again as a stricter second reader: a professional
+Japanese→English literary translator checking a colleague's work, and a Japanese linguist checking every claim.
+Assume errors remain. For each example sentence ask: would a careful bilingual reader sign off on this as both exact
+and idiomatic? Does the English make the taught pattern's contribution visible (contrast, concession, emphasis,
+regret, inevitability, hearsay…) without over- or under-translating it? Is the register right? Compare the examples of
+one point with each other — they should show the range the book intends, not flatten into one gloss. For deepDive /
+why: test each claim against your own knowledge and the book's examples; any ✗ example must be ungrammatical (not just
+odd) or marked "?"; each contrast must be correct; remove what you can't defend. Same rules, validation and commit
+procedure as the brief above.
+
 ## Units
 
 N2 chapters: ch01 ch02 ch03 ch04 ch05 ch06 ch07 ch08 ch09 ch10 ch11 ch12 ch13 ch14 · compare
