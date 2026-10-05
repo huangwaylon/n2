@@ -44,7 +44,7 @@ TRY.registerChapter({
           ],
           examples: [
             { ja: "昨日のマラソンは、最後まで抜きつ抜かれつの{接戦|せっせん}が{繰|く}り{広|ひろ}げられた。", en: "Yesterday's marathon was a close race right to the end, with the runners overtaking one another again and again." },
-            { ja: "花火大会は押しつ押されつで、すごい人ごみだったが、楽しかった。", en: "The fireworks festival was a terrible crush, with everyone pushing and being pushed, but it was fun." },
+            { ja: "花火大会は押しつ押されつで、すごい人ごみだったが、楽しかった。", en: "The fireworks festival was a huge crush, with everyone pushing and shoving, but it was fun." },
             { ja: "{川面|かわも}に落ちた{紅葉|もみじ}が浮きつ沈みつ流れて行くのを2人で見ていた。", en: "The two of us watched the red leaves that had fallen onto the river float away downstream, bobbing up and down." },
             { ja: "ご近所{同士|どうし}は、持ちつ持たれつ助け合える関係を{築|きず}きたいものです。", en: "Neighbors should try to build a give-and-take relationship in which they can help each other out." },
             { ja: "家電各社は追いつ追われつの技術競争を{繰|く}り{広|ひろ}げて発展してきた。", en: "Home-appliance makers have grown through a neck-and-neck race in technology, each chasing and being chased by the others." },
@@ -167,7 +167,7 @@ TRY.registerChapter({
             { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he's been going straight home as soon as work is over." },
             { ja: "その歌を聞いてからというもの、メロディーが頭から{離|はな}れない。", en: "Ever since I heard that song, I can't get the melody out of my head." },
             { ja: "{大型|おおがた}スーパーができてからというもの、駅前の商店{街|がい}は売り上げが30%以上減ってしまったという。", en: "Apparently, ever since the big supermarket opened, sales on the shopping street in front of the station have fallen by more than 30%." },
-            { ja: "兄は去年{就職|しゅうしょく}した。それからというもの、家で家族と食事をする{暇|ひま}もなくなった。", en: "My older brother started working last year. Ever since then, he no longer even has time to eat at home with the family." },
+            { ja: "兄は去年{就職|しゅうしょく}した。それからというもの、家で家族と食事をする{暇|ひま}もなくなった。", en: "My older brother started working last year. Ever since then, he hasn't even had time to eat at home with the family." },
           ],
           notes: [
             {
@@ -214,7 +214,7 @@ TRY.registerChapter({
                   q: "妻を亡くしてからというもの、彼は（　）しまった。",
                   options: ["めっきり{老|ふ}けこんで", "すぐ再婚して"],
                   answer: 0,
-                  en: "Ever since he lost his wife, he has aged markedly.",
+                  en: "Ever since he lost his wife, he has aged dramatically.",
                   why: { en: "めっきり老けこんでしまった is a change that has persisted. すぐ再婚して is a single event soon after the loss, not a state that has lasted since." },
                 },
               ],
@@ -258,14 +258,14 @@ TRY.registerChapter({
                   q: "この店では、__昔ながらの__{製法|せいほう}で作られたお菓子を売っている。",
                   options: ["昔よりいい", "昔はなかった", "昔と変わらない"],
                   answer: 2,
-                  en: "This shop sells sweets made by traditional, time-honored methods.",
+                  en: "This shop sells sweets made using time-honored methods.",
                   why: { en: "昔ながらの = unchanged since the old days (昔と変わらない). It says nothing about being better than before or new." },
                 },
                 {
                   q: "オンデマンド{講座|こうざ}は、__自宅にいながら__自分のペースで学習できるシステムだ。",
                   options: ["自宅にいないから", "自宅にいてもいなくても", "自宅にいて"],
                   answer: 2,
-                  en: "On-demand courses are a system that lets you study at your own pace without leaving home.",
+                  en: "On-demand courses let you study at your own pace without leaving home.",
                   why: { en: "いながら here is the state ながら: staying at home (自宅にいて). It is not a reason (いないから) or a concession (whether or not you're home)." },
                 },
               ],
@@ -300,7 +300,7 @@ TRY.registerChapter({
           forms: ["[N] + をものともせず（に）"],
           examples: [
             { ja: "{激流|げきりゅう}をものともせず、彼はカヌーで川を{下|くだ}っていった。", en: "Undaunted by the raging current, he went down the river in a canoe." },
-            { ja: "子どもたちは、{連日|れんじつ}の暑さをものともせず、元気に遊びまわっている。", en: "Unfazed by the relentless daily heat, the children are running around, playing full of energy." },
+            { ja: "子どもたちは、{連日|れんじつ}の暑さをものともせず、元気に遊びまわっている。", en: "Unfazed by the relentless daily heat, the children are racing around, full of energy." },
             { ja: "{度重|たびかさ}なる{故障|こしょう}をものともせず、{惑星探査機|わくせいたんさき}はやぶさは地球に{帰還|きかん}した。", en: "Shrugging off breakdown after breakdown, the planetary probe Hayabusa made it back to Earth." },
             { ja: "{荒波|あらなみ}をものともせず、ヨットは力強く進んでいった。", en: "Braving the rough waves, the yacht pushed boldly onward." },
           ],
@@ -598,7 +598,7 @@ TRY.registerChapter({
           examples: [
             { ja: "なかなか連絡が来ないので落ちたかと思いきや、今日になって合格通知が届いた。", en: "I hadn't heard anything for ages, so I thought I'd failed — but then today the letter of acceptance arrived." },
             { ja: "アルバイトの人かと思いきや、社長自ら掃除していたので{驚|おどろ}いた。", en: "I assumed the person cleaning was a part-timer, but to my surprise it was the company president doing it personally." },
-            { ja: "住宅{街|がい}のマンションだから静かだと思いきや、遅くまで人通りが多くてうるさかった。", en: "I expected an apartment in a residential neighborhood to be quiet, but people kept passing by until late at night, and it was noisy." },
+            { ja: "住宅{街|がい}のマンションだから静かだと思いきや、遅くまで人通りが多くてうるさかった。", en: "I expected an apartment in a residential neighborhood to be quiet, but it was noisy, with people passing by until late at night." },
             { ja: "家を建ててやっと落ち着けると思いきや、海外へ{転勤|てんきん}することになってしまった。", en: "Just when I thought I could finally settle down after building a house, I ended up being transferred overseas." },
             { ja: "{年末|ねんまつ}の忙しい時期だから欠席者が多いと思いきや、全員そろっていたので{驚|おどろ}きました。", en: "Since it was the busy end-of-year period, I expected many people to be absent, but everyone was there, which surprised me." },
           ],
@@ -753,7 +753,7 @@ TRY.registerChapter({
             { ja: "＊「想像・予想・{微動|びどう}・{一顧|いっこ}」など限られた言葉と一緒に使われる。", en: "Used with a limited set of words such as 想像, 予想, 微動 and 一顧." },
           ],
           examples: [
-            { ja: "予想だにしなかったコンピューターのシステム{障害|しょうがい}が{発生|はっせい}し、担当者は対応に追われた。", en: "A computer system failure that no one had even remotely foreseen occurred, and the staff in charge scrambled to deal with it." },
+            { ja: "予想だにしなかったコンピューターのシステム{障害|しょうがい}が{発生|はっせい}し、担当者は対応に追われた。", en: "A computer system failure struck that no one had ever foreseen, and the staff in charge scrambled to deal with it." },
             { ja: "私はいい{企画|きかく}だと思ったが、社内では{一顧|いっこ}だにされなかった。", en: "I thought it was a good proposal, but within the company it wasn't given so much as a second glance." },
             { ja: "エネルギーの消費を{抑|おさ}えるために何時間も{微動|びどう}だにしない動物もいる。", en: "Some animals don't move a muscle for hours on end in order to conserve energy." },
             { ja: "彼女に渡された1{輪|りん}の花に人生を大きく{狂|くる}わされるなんて、当時の私は夢にだに思いませんでした。", en: "Back then, I never so much as dreamed that the single flower she handed me would turn my life upside down.", idiom: true },
@@ -811,7 +811,7 @@ TRY.registerChapter({
                   q: "そのような意見には、__とうてい{同意|どうい}しかねます__。",
                   options: ["とても{同意|どうい}できるような意見ではない。", "{大|おお}いに{同意|どうい}すべき意見である。"],
                   answer: 0,
-                  en: "I can by no means agree with an opinion like that.",
+                  en: "I cannot possibly agree with an opinion like that.",
                   why: { en: "とうてい同意しかねます = I can't possibly agree: the opinion is not one I can agree with. 大いに同意すべき is the opposite." },
                 },
               ],
@@ -847,7 +847,7 @@ TRY.registerChapter({
                   q: "{長年|ながねん}通ったこの学校とも今日を限りにお別れです。",
                   options: ["明日も学校へ行く。", "明日からは学校へ行かない。"],
                   answer: 1,
-                  en: "As of today, I say goodbye to this school I've attended for so many years.",
+                  en: "Today is my last day at this school I've attended for so many years; it's time to say goodbye.",
                   why: { en: "今日を限りに = today is the last day, so from tomorrow I won't go to the school. Today itself is still included." },
                 },
                 {
@@ -937,7 +937,7 @@ TRY.registerChapter({
             q: "熱心に{講義|こうぎ}を続ける教授の耳に、（　）からともなく静かな{寝息|ねいき}が聞こえてきた。",
             options: ["後ろ", "何", "外", "どこ"],
             answer: 3,
-            en: "The professor was lecturing away enthusiastically when, from somewhere or other, came the soft breathing of someone fast asleep.",
+            en: "The professor was lecturing on enthusiastically when the soft breathing of someone fast asleep came from somewhere or other.",
             why: { en: "どこからともなく = from somewhere or other (the source is unclear), a fixed question-word + ともなく phrase. 何からともなく is not idiomatic, and 後ろ or 外 are not question words, so they can't form this expression." },
           },
           {

@@ -154,7 +154,7 @@ TRY.registerVocab({ ch: 8, words: [
     en: "manufacturing method, recipe, process",
     note: "How something is made, especially food and crafts: 伝統的な製法, 独自の製法, 製法特許. 作り方 is the everyday word; 製造 is the act of manufacturing.",
     rx: ["せいぼう", "せほう", "そうほう"],
-    book: { ja: "この店では、__昔ながらの__**{製法|せいほう}**で作られたお菓子を売っている。", en: "This shop sells sweets made by traditional, time-honored methods.", at: "gp/92" },
+    book: { ja: "この店では、__昔ながらの__**{製法|せいほう}**で作られたお菓子を売っている。", en: "This shop sells sweets made using time-honored methods.", at: "gp/92" },
     ex: [
       { ja: "この{酒|さけ}は、200{年前|ねんまえ}と{同|おな}じ**{製法|せいほう}**で{造|つく}られている。", en: "This sake is brewed using the same process as two hundred years ago.", alt: ["{製品|せいひん}", "{法律|ほうりつ}", "{憲法|けんぽう}"] },
     ] },
