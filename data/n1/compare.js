@@ -528,7 +528,7 @@ TRY.registerCompare([
         ex: { ja: "君がそんなに頼むんだったら、今回だけ特別に認めないものでもないんだけどね。", en: "If you're asking me that badly, I suppose I might make an exception and allow it, just this once." },
         note: "V-ない + ものでもない: \"it's not out of the question that I'd ~\". A reluctant, conditional yes; more formal than ないでもない (an index form of #19)." },
       { pattern: "Vようものなら", level: "N1", no: 57,
-        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you give them the slightest warning, they're liable to say, \"Well then, I quit.\"" },
+        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you so much as criticize them a little, they're liable to say, \"Well then, I quit.\"" },
         note: "V-（よ）う + ものなら: \"if one should so much as ~, (something terrible) will follow\". A warning that contrasts a small trigger with a drastic result; the volitional form separates it from Vものなら." },
       { pattern: "Vてからというもの", level: "N1", no: 91,
         ex: { ja: "結婚してからというもの、彼は仕事が終わるとまっすぐ家に帰るようになった。", en: "Ever since he got married, he's been going straight home as soon as work is over." },
@@ -581,7 +581,7 @@ TRY.registerCompare([
         ex: { ja: "お客が来ようと来るまいと、部屋はいつも片付けておけ。", en: "Whether guests are coming or not, keep your room tidy at all times." },
         note: "V-（よ）う + と + the same V + まいと: \"whether or not ~\" (= ようがまいが)." },
       { pattern: "Vようものなら", level: "N1", no: 57,
-        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you give them the slightest warning, they're liable to say, \"Well then, I quit.\"" },
+        ex: { ja: "{近頃|ちかごろ}のアルバイトはちょっと注意しようものなら、すぐ「じゃ、辞めます」と言いかねない。", en: "Part-timers these days — if you so much as criticize them a little, they're liable to say, \"Well then, I quit.\"" },
         note: "V-（よ）う + ものなら: \"if one should so much as ~, (something terrible) will follow\". A warning, not a concession like ようが / ようと." }
     ]
   },
